@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm82251432
 localization_priority: Normal
 ms.assetid: b131badf-1656-132e-0aae-eeedb917ba7a
-description: Отображает страницу с именем имя_страницы в активное окно.
+description: Отображает страницу с именем PageName в активном в текущий момент окне.
 ms.openlocfilehash: c96585406b6104aeedbe46c35024a4f13bb0953e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302970"
 ---
-# <a name="gotopage-function"></a><span data-ttu-id="3ef4e-103">Функция GOTOPAGE</span><span class="sxs-lookup"><span data-stu-id="3ef4e-103">GOTOPAGE Function</span></span>
+# <a name="gotopage-function"></a><span data-ttu-id="f2599-103">Функция GOTOPAGE</span><span class="sxs-lookup"><span data-stu-id="f2599-103">GOTOPAGE Function</span></span>
 
-<span data-ttu-id="3ef4e-104">Отображает страницу с именем *имя_страницы* в активное окно.</span><span class="sxs-lookup"><span data-stu-id="3ef4e-104">Displays the page that has the name  *pagename*  in the currently active window.</span></span> 
+<span data-ttu-id="f2599-104">Отображает страницу с именем *PageName* в активном в текущий момент окне.</span><span class="sxs-lookup"><span data-stu-id="f2599-104">Displays the page that has the name  *pagename*  in the currently active window.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="3ef4e-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="3ef4e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f2599-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f2599-105">Syntax</span></span>
 
-<span data-ttu-id="3ef4e-106">НАСТРАНИЦУ ("\*\* *имя_страницы* \*\*")</span><span class="sxs-lookup"><span data-stu-id="3ef4e-106">GOTOPAGE(" \*\* *pagename* \*\* ")</span></span> 
+<span data-ttu-id="f2599-106">GOTOPAGE ("\* \* *PageName* \* \*")</span><span class="sxs-lookup"><span data-stu-id="f2599-106">GOTOPAGE(" \*\* *pagename* \*\* ")</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="3ef4e-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="3ef4e-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="f2599-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="f2599-107">Parameters</span></span>
 
-|<span data-ttu-id="3ef4e-108">**Имя**</span><span class="sxs-lookup"><span data-stu-id="3ef4e-108">**Name**</span></span>|<span data-ttu-id="3ef4e-109">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="3ef4e-109">**Required/Optional**</span></span>|<span data-ttu-id="3ef4e-110">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="3ef4e-110">**Data Type**</span></span>|<span data-ttu-id="3ef4e-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3ef4e-111">**Description**</span></span>|
+|<span data-ttu-id="f2599-108">**Имя**</span><span class="sxs-lookup"><span data-stu-id="f2599-108">**Name**</span></span>|<span data-ttu-id="f2599-109">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="f2599-109">**Required/Optional**</span></span>|<span data-ttu-id="f2599-110">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="f2599-110">**Data Type**</span></span>|<span data-ttu-id="f2599-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="f2599-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="3ef4e-112">_имя_страницы_</span><span class="sxs-lookup"><span data-stu-id="3ef4e-112">_pagename_</span></span> <br/> |<span data-ttu-id="3ef4e-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="3ef4e-113">Required</span></span>  <br/> |<span data-ttu-id="3ef4e-114">**Строка**</span><span class="sxs-lookup"><span data-stu-id="3ef4e-114">**String**</span></span> <br/> |<span data-ttu-id="3ef4e-115">Имя страницы, чтобы перейти к.</span><span class="sxs-lookup"><span data-stu-id="3ef4e-115">The name of the page to go to.</span></span>  <br/> |
+| <span data-ttu-id="f2599-112">_PageName_</span><span class="sxs-lookup"><span data-stu-id="f2599-112">_pagename_</span></span> <br/> |<span data-ttu-id="f2599-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="f2599-113">Required</span></span>  <br/> |<span data-ttu-id="f2599-114">**String**</span><span class="sxs-lookup"><span data-stu-id="f2599-114">**String**</span></span> <br/> |<span data-ttu-id="f2599-115">Имя страницы, на которую необходимо перейти.</span><span class="sxs-lookup"><span data-stu-id="f2599-115">The name of the page to go to.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="3ef4e-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="3ef4e-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f2599-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="f2599-116">Remarks</span></span>
 
-<span data-ttu-id="3ef4e-117">Если окно уже отображается страница, это окно становится активной.</span><span class="sxs-lookup"><span data-stu-id="3ef4e-117">If a window is already displaying the page, that window becomes active.</span></span> <span data-ttu-id="3ef4e-118">Если *имя_страницы* не существует, приложение пытается перейти к https:// *имя_страницы* /.</span><span class="sxs-lookup"><span data-stu-id="3ef4e-118">If  *pagename*  does not exist, the application attempts to navigate to https://  *pagename*  /.</span></span> <span data-ttu-id="3ef4e-119">Если Visio выступать в качестве сервера на месте, функция НАСТРАНИЦУ не оказывает влияния.</span><span class="sxs-lookup"><span data-stu-id="3ef4e-119">If Visio is acting as an in-place server, the GOTOPAGE function has no effect.</span></span> 
+<span data-ttu-id="f2599-117">Если окно уже отображает страницу, это окно становится активным.</span><span class="sxs-lookup"><span data-stu-id="f2599-117">If a window is already displaying the page, that window becomes active.</span></span> <span data-ttu-id="f2599-118">Если *PageName* не существует, приложение пытается перейти в HTTPS:// *PageName* /.</span><span class="sxs-lookup"><span data-stu-id="f2599-118">If  *pagename*  does not exist, the application attempts to navigate to https://  *pagename*  /.</span></span> <span data-ttu-id="f2599-119">Если приложение Visio работает как сервер на месте, функция GOTOPAGE не оказывает никакого действия.</span><span class="sxs-lookup"><span data-stu-id="f2599-119">If Visio is acting as an in-place server, the GOTOPAGE function has no effect.</span></span> 
   
-<span data-ttu-id="3ef4e-120">Функция ГИПЕРССЫЛКИ для перехода к любой путь DOS, UNC или URL-адрес.</span><span class="sxs-lookup"><span data-stu-id="3ef4e-120">You can use the HYPERLINK function to navigate to any DOS, UNC, or URL path.</span></span> 
+<span data-ttu-id="f2599-120">С помощью функции HYPERLINK можно перейти к любому пути DOS, UNC или URL-АДРЕСу.</span><span class="sxs-lookup"><span data-stu-id="f2599-120">You can use the HYPERLINK function to navigate to any DOS, UNC, or URL path.</span></span> 
   
-<span data-ttu-id="3ef4e-121">В более ранних версиях продуктов Visio эта функция отображается в виде _GOTOPAGE.</span><span class="sxs-lookup"><span data-stu-id="3ef4e-121">In earlier versions of Visio products, this function appears as _GOTOPAGE.</span></span> <span data-ttu-id="3ef4e-122">Visio версии 4.0 и более поздних версий принимать любого из стилей.</span><span class="sxs-lookup"><span data-stu-id="3ef4e-122">Visio versions 4.0 and later accept either style.</span></span> 
+<span data-ttu-id="f2599-121">В более ранних версиях продуктов Visio Эта функция отображается как _ГОТОПАЖЕ.</span><span class="sxs-lookup"><span data-stu-id="f2599-121">In earlier versions of Visio products, this function appears as _GOTOPAGE.</span></span> <span data-ttu-id="f2599-122">Visio версии 4,0 и более поздних принимают любой из этих стилей.</span><span class="sxs-lookup"><span data-stu-id="f2599-122">Visio versions 4.0 and later accept either style.</span></span> 
   
 

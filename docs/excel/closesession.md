@@ -7,35 +7,35 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2c2371c8-b0e0-4992-b7ac-3949eadf1ebe
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: af8f7398ed9d5edfbf1615930874a800d8835487
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9186fb14c33d507b8c9ae709a67f1b43e6206d5b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807152"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304139"
 ---
-# <a name="closesession"></a><span data-ttu-id="dd674-103">CloseSession</span><span class="sxs-lookup"><span data-stu-id="dd674-103">CloseSession</span></span>
+# <a name="closesession"></a><span data-ttu-id="2ebec-103">CloseSession</span><span class="sxs-lookup"><span data-stu-id="2ebec-103">CloseSession</span></span>
 
-<span data-ttu-id="dd674-104">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="dd674-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="2ebec-104">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="2ebec-104">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="dd674-105">Завершает сеанс в кластере.</span><span class="sxs-lookup"><span data-stu-id="dd674-105">Ends a session with a cluster.</span></span>
+<span data-ttu-id="2ebec-105">Завершает сеанс с кластером.</span><span class="sxs-lookup"><span data-stu-id="2ebec-105">Ends a session with a cluster.</span></span>
   
 ```cpp
 int CloseSession(int SessionId)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="dd674-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="dd674-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="2ebec-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="2ebec-106">Parameters</span></span>
 
-<span data-ttu-id="dd674-107">_Код сеанса_</span><span class="sxs-lookup"><span data-stu-id="dd674-107">_SessionId_</span></span>
+<span data-ttu-id="2ebec-107">_SessionId_</span><span class="sxs-lookup"><span data-stu-id="2ebec-107">_SessionId_</span></span>
   
-> <span data-ttu-id="dd674-108">Идентификатор сеанса, чтобы закрыть.</span><span class="sxs-lookup"><span data-stu-id="dd674-108">The ID of the session to close.</span></span> <span data-ttu-id="dd674-109">Это значение должно соответствовать значение, возвращенное [метод OpenSession](opensession.md).</span><span class="sxs-lookup"><span data-stu-id="dd674-109">This value must match the value returned by [OpenSession](opensession.md).</span></span>
+> <span data-ttu-id="2ebec-108">Идентификатор сеанса, который необходимо закрыть.</span><span class="sxs-lookup"><span data-stu-id="2ebec-108">The ID of the session to close.</span></span> <span data-ttu-id="2ebec-109">Это значение должно быть равно значению, возвращенному параметром [опенсессион](opensession.md).</span><span class="sxs-lookup"><span data-stu-id="2ebec-109">This value must match the value returned by [OpenSession](opensession.md).</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="dd674-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="2ebec-110">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2ebec-110">Return value</span></span>
 
-<span data-ttu-id="dd674-111">**xlHpcRetSuccess** при закрытии сеанса; **xlHpcRetInvalidSessionId** Если недопустимый _SessionId_ аргумент; **xlHpcRetCallFailed** на других ошибок.</span><span class="sxs-lookup"><span data-stu-id="dd674-111">**xlHpcRetSuccess** if the session closed; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures.</span></span> 
+<span data-ttu-id="2ebec-111">**кслхпкретсукцесс** , если сеанс закрыт; **кслхпкретинвалидсессионид** , если аргумент _SessionID_ является недопустимым; **кслхпкреткаллфаилед** для других сбоев.</span><span class="sxs-lookup"><span data-stu-id="2ebec-111">**xlHpcRetSuccess** if the session closed; **xlHpcRetInvalidSessionId** if the  _SessionId_ argument is invalid; **xlHpcRetCallFailed** on other failures.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="dd674-112">См. также</span><span class="sxs-lookup"><span data-stu-id="dd674-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2ebec-112">См. также</span><span class="sxs-lookup"><span data-stu-id="2ebec-112">See also</span></span>
 
-- [<span data-ttu-id="dd674-113">OpenSession</span><span class="sxs-lookup"><span data-stu-id="dd674-113">OpenSession</span></span>](opensession.md)
-- [<span data-ttu-id="dd674-114">Функции для работы с соединителями кластеров Excel</span><span class="sxs-lookup"><span data-stu-id="dd674-114">Excel Cluster Connector Functions</span></span>](excel-cluster-connector-functions.md)
+- [<span data-ttu-id="2ebec-113">OpenSession</span><span class="sxs-lookup"><span data-stu-id="2ebec-113">OpenSession</span></span>](opensession.md)
+- [<span data-ttu-id="2ebec-114">Функции для работы с соединителями кластеров Excel</span><span class="sxs-lookup"><span data-stu-id="2ebec-114">Excel Cluster Connector Functions</span></span>](excel-cluster-connector-functions.md)
 

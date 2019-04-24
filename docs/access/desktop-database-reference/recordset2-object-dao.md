@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a25e980660e1ab098d15b66b17678ef4111ee215
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718345"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307233"
 ---
-# <a name="recordset2-object-dao"></a><span data-ttu-id="2afa1-102">Объект Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="2afa1-102">Recordset2 Object (DAO)</span></span>
+# <a name="recordset2-object-dao"></a><span data-ttu-id="13b69-102">Объект Recordset2 (DAO)</span><span class="sxs-lookup"><span data-stu-id="13b69-102">Recordset2 object (DAO)</span></span>
 
-<span data-ttu-id="2afa1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2afa1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="13b69-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="13b69-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2afa1-104">Объект **Recordset2** представляет записи в базовой таблице или записи, получаемые в результате выполнения запроса.</span><span class="sxs-lookup"><span data-stu-id="2afa1-104">A **Recordset2** object represents the records in a base table or the records that result from running a query.</span></span>
+<span data-ttu-id="13b69-104">Объект **Recordset2** представляет записи в базовой таблице или записи, получаемые в результате выполнения запроса.</span><span class="sxs-lookup"><span data-stu-id="13b69-104">A **Recordset2** object represents the records in a base table or the records that result from running a query.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2afa1-105">Комментарии</span><span class="sxs-lookup"><span data-stu-id="2afa1-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="13b69-105">Комментарии</span><span class="sxs-lookup"><span data-stu-id="13b69-105">Remarks</span></span>
 
-<span data-ttu-id="2afa1-106">Объект **Recordset2** содержит все те же свойства и методы, что и объект **[Recordset](recordset-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="2afa1-106">A **Recordset2** object is contains all of the same properties and methods as the **[Recordset](recordset-object-dao.md)** object.</span></span> <span data-ttu-id="2afa1-107">Объект **Recordset2** содержит новое свойство **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, которое поддерживает многозначные типы полей.</span><span class="sxs-lookup"><span data-stu-id="2afa1-107">The **Recordset2** object contains a new property, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, that support multi-valued field types.</span></span>
+<span data-ttu-id="13b69-106">Объект **Recordset2** содержит все те же свойства и методы, что и объект **[Recordset](recordset-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="13b69-106">A **Recordset2** object is contains all of the same properties and methods as the **[Recordset](recordset-object-dao.md)** object.</span></span> <span data-ttu-id="13b69-107">Объект **Recordset2** содержит новое свойство **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, которое поддерживает многозначные типы полей.</span><span class="sxs-lookup"><span data-stu-id="13b69-107">The **Recordset2** object contains a new property, **[ParentRecordset](recordset2-parentrecordset-property-dao.md)**, that support multi-valued field types.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2afa1-108">Пример</span><span class="sxs-lookup"><span data-stu-id="2afa1-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="13b69-108">Пример</span><span class="sxs-lookup"><span data-stu-id="13b69-108">Example</span></span>
 
-<span data-ttu-id="2afa1-109">В примере ниже показано, как выполнять навигацию по объекту Recordset, содержащему многозначное поле.</span><span class="sxs-lookup"><span data-stu-id="2afa1-109">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
+<span data-ttu-id="13b69-109">В примере ниже показано, как выполнять навигацию по объекту Recordset, содержащему многозначное поле.</span><span class="sxs-lookup"><span data-stu-id="13b69-109">The following example shows how to navigate a Recordset that contains a multi-value field.</span></span>
 
-<span data-ttu-id="2afa1-110">**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="2afa1-110">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="13b69-110">**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="13b69-110">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub PrintStudentsAndClasses()
@@ -92,7 +92,7 @@ ms.locfileid: "28718345"
 
 <br/>
 
-<span data-ttu-id="2afa1-111">В примере ниже показано, как выполнять навигацию по файлам в поле вложения.</span><span class="sxs-lookup"><span data-stu-id="2afa1-111">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="2afa1-112">Код из этого примера печатает тип и имя файла каждого вложения в окне интерпретации.</span><span class="sxs-lookup"><span data-stu-id="2afa1-112">The file type and filename of each attachment is printed in the Immediate window.</span></span>
+<span data-ttu-id="13b69-111">В примере ниже показано, как выполнять навигацию по файлам в поле вложения.</span><span class="sxs-lookup"><span data-stu-id="13b69-111">The following example shows how to navigate the files in an attachment field.</span></span> <span data-ttu-id="13b69-112">Код из этого примера печатает тип и имя файла каждого вложения в окне интерпретации.</span><span class="sxs-lookup"><span data-stu-id="13b69-112">The file type and filename of each attachment is printed in the Immediate window.</span></span>
 
 ```vb
     Sub ListAttachments()
@@ -142,7 +142,7 @@ ms.locfileid: "28718345"
 
 <br/>
 
-<span data-ttu-id="2afa1-113">В примере ниже показано, как добавить файлы из папки с указанным путем в поле вложений.</span><span class="sxs-lookup"><span data-stu-id="2afa1-113">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
+<span data-ttu-id="13b69-113">В примере ниже показано, как добавить файлы из папки с указанным путем в поле вложений.</span><span class="sxs-lookup"><span data-stu-id="13b69-113">The following example shows how to add files from a specified folder path to an attachment field.</span></span>
 
 ```vb
     Public Function LoadAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -199,7 +199,7 @@ ms.locfileid: "28718345"
 
 <br/>
 
-<span data-ttu-id="2afa1-114">В примере ниже показано, как сохранить файлы, хранящиеся в поле вложения, в папку с указанным путем.</span><span class="sxs-lookup"><span data-stu-id="2afa1-114">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
+<span data-ttu-id="13b69-114">В примере ниже показано, как сохранить файлы, хранящиеся в поле вложения, в папку с указанным путем.</span><span class="sxs-lookup"><span data-stu-id="13b69-114">The following example shows how to save the files stored in an attachment field to the specified folder path.</span></span>
 
 ```vb
     Public Function SaveAttachments(strPath As String, Optional strPattern As String = "*.*") As Long
@@ -255,7 +255,7 @@ ms.locfileid: "28718345"
 
 <br/>
 
-<span data-ttu-id="2afa1-115">В примере ниже показано, как удалить файл, хранящийся в поле вложения.</span><span class="sxs-lookup"><span data-stu-id="2afa1-115">The following example shows how to delete a file stored in an attachment field.</span></span>
+<span data-ttu-id="13b69-115">В примере ниже показано, как удалить файл, хранящийся в поле вложения.</span><span class="sxs-lookup"><span data-stu-id="13b69-115">The following example shows how to delete a file stored in an attachment field.</span></span>
 
 ```vb
     Function RemoveAttachment(strRemoveFile As String, Optional strFilter As String) As Long

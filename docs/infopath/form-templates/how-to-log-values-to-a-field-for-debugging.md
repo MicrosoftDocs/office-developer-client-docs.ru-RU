@@ -1,36 +1,36 @@
 ---
-title: Значения журнала на поле для отладки
+title: Запись значений в поле для отладки
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 5874dc28-1b10-48a3-8287-9474db0b7435
 description: При отладке шаблона формы InfoPath часто полезно заносить значения непосредственно в поле формы для создания записи данных отладки в ходе сеанса тестирования формы. В следующих процедурах описывается создание многострочного поля с последующим добавлением в код формы вспомогательных функций, которые позволяют заносить данные отладки в это поле.
-ms.openlocfilehash: f763e6b5d14fe5a5b4d9218af4acd0bc05a242af
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 28f2a1ad3c13aefd9f898bdf397c9103df98d3c9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303579"
 ---
-# <a name="log-values-to-a-field-for-debugging"></a><span data-ttu-id="28214-104">Значения журнала на поле для отладки</span><span class="sxs-lookup"><span data-stu-id="28214-104">Log values to a field for debugging</span></span>
+# <a name="log-values-to-a-field-for-debugging"></a><span data-ttu-id="3c6e8-104">Запись значений в поле для отладки</span><span class="sxs-lookup"><span data-stu-id="3c6e8-104">Log values to a field for debugging</span></span>
 
-<span data-ttu-id="28214-p102">При отладке шаблона формы InfoPath часто полезно заносить значения непосредственно в поле формы для создания записи данных отладки в ходе сеанса тестирования формы. В следующих процедурах описывается создание многострочного поля с последующим добавлением в код формы вспомогательных функций, которые позволяют заносить данные отладки в это поле.</span><span class="sxs-lookup"><span data-stu-id="28214-p102">When debugging an InfoPath form template, it is often useful to log values directly into a field in the form to create a record of debug data during a session of testing the form. The following procedures show how to create a multi-line field, and then add helper functions to the form code that enable you log debug data into that field.</span></span>
+<span data-ttu-id="3c6e8-p102">При отладке шаблона формы InfoPath часто полезно заносить значения непосредственно в поле формы для создания записи данных отладки в ходе сеанса тестирования формы. В следующих процедурах описывается создание многострочного поля с последующим добавлением в код формы вспомогательных функций, которые позволяют заносить данные отладки в это поле.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-p102">When debugging an InfoPath form template, it is often useful to log values directly into a field in the form to create a record of debug data during a session of testing the form. The following procedures show how to create a multi-line field, and then add helper functions to the form code that enable you log debug data into that field.</span></span>
   
-## <a name="create-a-multi-line-text-field"></a><span data-ttu-id="28214-107">Создание многострочного текстового поля</span><span class="sxs-lookup"><span data-stu-id="28214-107">Create a multi-line text field</span></span>
+## <a name="create-a-multi-line-text-field"></a><span data-ttu-id="3c6e8-107">Создание многострочного текстового поля</span><span class="sxs-lookup"><span data-stu-id="3c6e8-107">Create a multi-line text field</span></span>
 
-1. <span data-ttu-id="28214-108">Добавьте в форму элемент управления **Текстовое поле** и измените его размер таким образом, чтобы он поддерживал отображение нескольких строк.</span><span class="sxs-lookup"><span data-stu-id="28214-108">Add a **Text Box** control to the form, and then resize it so that it can display multiple lines.</span></span> 
+1. <span data-ttu-id="3c6e8-108">Добавьте в форму элемент управления **Текстовое поле** и измените его размер таким образом, чтобы он поддерживал отображение нескольких строк.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-108">Add a **Text Box** control to the form, and then resize it so that it can display multiple lines.</span></span> 
     
-2. <span data-ttu-id="28214-109">Щелкните этот элемент управления правой кнопкой мыши, выберите пункт **Свойства текстового поля**, а затем установите флажок **Многострочное** на вкладке **Отображение**.</span><span class="sxs-lookup"><span data-stu-id="28214-109">Right-click the text box, click **Text Box Properties**, and then click the **Multi-line** check box on the **Display** tab.</span></span> 
+2. <span data-ttu-id="3c6e8-109">Щелкните этот элемент управления правой кнопкой мыши, выберите пункт **Свойства текстового поля**, а затем установите флажок **Многострочное** на вкладке **Отображение**.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-109">Right-click the text box, click **Text Box Properties**, and then click the **Multi-line** check box on the **Display** tab.</span></span> 
     
-## <a name="add-helper-functions-to-log-debug-information-to-the-field"></a><span data-ttu-id="28214-110">Добавление вспомогательные функции для записи в журнал отладочные данные в поле</span><span class="sxs-lookup"><span data-stu-id="28214-110">Add helper functions to log debug information to the field</span></span>
+## <a name="add-helper-functions-to-log-debug-information-to-the-field"></a><span data-ttu-id="3c6e8-110">Добавление вспомогательных функций для записи отладочной информации в поле</span><span class="sxs-lookup"><span data-stu-id="3c6e8-110">Add helper functions to log debug information to the field</span></span>
 
-1. <span data-ttu-id="28214-111">На вкладке **Разработчик** щелкните элемент **Редактор кода** и сохраните шаблон формы при появлении соответствующего запроса.</span><span class="sxs-lookup"><span data-stu-id="28214-111">On the **Developer** tab, click **Code Editor**, and then save the form template if you are prompted.</span></span>
+1. <span data-ttu-id="3c6e8-111">На вкладке **Разработчик** щелкните элемент **Редактор кода** и сохраните шаблон формы при появлении соответствующего запроса.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-111">On the **Developer** tab, click **Code Editor**, and then save the form template if you are prompted.</span></span>
     
-2. <span data-ttu-id="28214-112">В редакторе кода добавьте следующие три вспомогательные функции в открытый класс в файле кода формы.</span><span class="sxs-lookup"><span data-stu-id="28214-112">In the Code Editor, add the following three helper functions to the public class in the form code file.</span></span>
+2. <span data-ttu-id="3c6e8-112">В редакторе кода добавьте следующие три вспомогательные функции в открытый класс в файле кода формы.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-112">In the Code Editor, add the following three helper functions to the public class in the form code file.</span></span>
     
    > [!IMPORTANT]
-   > <span data-ttu-id="28214-113">[!Важно!] Убедитесь, что значение переменной  `debugFieldXpath` в функции  `AddToDebugField` обновлено с использованием правильного выражения XPath для поля, связанного с созданным в рамках первой процедуры элементом управления.</span><span class="sxs-lookup"><span data-stu-id="28214-113">Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure.</span></span> 
+   > <span data-ttu-id="3c6e8-113">[!Важно!] Убедитесь, что значение переменной  `debugFieldXpath` в функции  `AddToDebugField` обновлено с использованием правильного выражения XPath для поля, связанного с созданным в рамках первой процедуры элементом управления.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-113">Make sure that you update the value set for the  `debugFieldXpath` variable in the  `AddToDebugField` function to the correct XPath expression for the field bound to the control that you created in the first procedure.</span></span> 
   
     ```cs
         private void AddToDebugField(string valueToAdd)
@@ -76,11 +76,11 @@ ms.locfileid: "19807506"
     ```
 
 > [!NOTE] 
-> <span data-ttu-id="28214-114">Если используется Visual Basic, добавьте `Imports Microsoft.VisualBasic.Constants` директив в верхней части файла кода формы.</span><span class="sxs-lookup"><span data-stu-id="28214-114">When using Visual Basic, add  `Imports Microsoft.VisualBasic.Constants` to the directives at the top of the form code file.</span></span> 
+> <span data-ttu-id="3c6e8-114">При использовании Visual Basic добавьте `Imports Microsoft.VisualBasic.Constants` к директивам, расположенным в верхней части файла кода формы.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-114">When using Visual Basic, add  `Imports Microsoft.VisualBasic.Constants` to the directives at the top of the form code file.</span></span> 
   
-## <a name="test-the-addtodebugfield-function"></a><span data-ttu-id="28214-115">Проверка функции AddToDebugField</span><span class="sxs-lookup"><span data-stu-id="28214-115">Test the AddToDebugField function</span></span>
+## <a name="test-the-addtodebugfield-function"></a><span data-ttu-id="3c6e8-115">Проверка функции Аддтодебугфиелд</span><span class="sxs-lookup"><span data-stu-id="3c6e8-115">Test the AddToDebugField function</span></span>
 
-1. <span data-ttu-id="28214-116">На вкладке **Разработчик** выберите элемент **Событие "Загрузка"** и добавьте следующую строку кода в обработчик события.</span><span class="sxs-lookup"><span data-stu-id="28214-116">On the **Developer** tab, click **Loading Event**, and then add the following line of code to the event handler.</span></span>
+1. <span data-ttu-id="3c6e8-116">На вкладке **Разработчик** выберите элемент **Событие "Загрузка"** и добавьте следующую строку кода в обработчик события.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-116">On the **Developer** tab, click **Loading Event**, and then add the following line of code to the event handler.</span></span>
     
    ```cs
     AddToDebugField("Form loaded");
@@ -90,7 +90,7 @@ ms.locfileid: "19807506"
     AddToDebugField("Form loaded")
    ```
 
-2. <span data-ttu-id="28214-117">На вкладке **Разработчик** выберите элемент **Событие ""Представление изменено"** и добавьте следующую строку кода в обработчик события.</span><span class="sxs-lookup"><span data-stu-id="28214-117">On the **Developer** tab, click **View Switched Event**, and then add the following line of code to the event handler.</span></span>
+2. <span data-ttu-id="3c6e8-117">На вкладке **Разработчик** выберите элемент **Событие ""Представление изменено"** и добавьте следующую строку кода в обработчик события.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-117">On the **Developer** tab, click **View Switched Event**, and then add the following line of code to the event handler.</span></span>
     
    ```cs
     AddToDebugField("View switched: " + this.CurrentView.ViewInfo.Name);
@@ -100,8 +100,8 @@ ms.locfileid: "19807506"
     AddToDebugField("View switched: " &amp; Me.CurrentView.ViewInfo.Name)
    ```
 
-3. <span data-ttu-id="28214-118">На вкладке **Главная** выберите команду **Просмотр**.</span><span class="sxs-lookup"><span data-stu-id="28214-118">On the **Home** tab, click **Preview**.</span></span>
+3. <span data-ttu-id="3c6e8-118">На вкладке **Главная** выберите команду **Просмотр**.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-118">On the **Home** tab, click **Preview**.</span></span>
     
-   <span data-ttu-id="28214-p103">В этом поле отладки должны отображаться две записи. Первая запись свидетельствует о загрузке формы, а вторая определяет имя представления. В этих примерах используются обработчики событий, возникающих при открытии формы. При необходимости можно вызывать функцию  `AddToDebugField` после загрузки формы из других обработчиков событий в дополнение к другому коду, выполняемому в контексте формы.</span><span class="sxs-lookup"><span data-stu-id="28214-p103">The debug field should display two entries: one indicating that the form is loaded, and another indicating the name of the view. These examples use event handlers for events that occur as the form is opened. However, after the form is loaded, you can call the  `AddToDebugField` function from other event handlers in addition to any other code running in the context of the form.</span></span> 
+   <span data-ttu-id="3c6e8-p103">В этом поле отладки должны отображаться две записи. Первая запись свидетельствует о загрузке формы, а вторая определяет имя представления. В этих примерах используются обработчики событий, возникающих при открытии формы. При необходимости можно вызывать функцию  `AddToDebugField` после загрузки формы из других обработчиков событий в дополнение к другому коду, выполняемому в контексте формы.</span><span class="sxs-lookup"><span data-stu-id="3c6e8-p103">The debug field should display two entries: one indicating that the form is loaded, and another indicating the name of the view. These examples use event handlers for events that occur as the form is opened. However, after the form is loaded, you can call the  `AddToDebugField` function from other event handlers in addition to any other code running in the context of the form.</span></span> 
   
 

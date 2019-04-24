@@ -1,34 +1,34 @@
 ---
-title: Функция мин (приложение настраиваемых web Access)
+title: Функция min (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 930c906d-d6f0-49ad-8ed7-336e7833d672
-description: Возвращает минимальное значение в выражении запроса или в таблице.
-ms.openlocfilehash: c1543ed87a13bf7e35bda7feae214674e79d188c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает минимальное значение в выражении в запросе или таблице.
+ms.openlocfilehash: 95407c95dc85b83b1da784ce2ab27cba2137363d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308164"
 ---
-# <a name="min-function-access-custom-web-app"></a><span data-ttu-id="d2f7e-103">Функция мин (приложение настраиваемых web Access)</span><span class="sxs-lookup"><span data-stu-id="d2f7e-103">Min Function (Access custom web app)</span></span>
+# <a name="min-function-access-custom-web-app"></a><span data-ttu-id="3523c-103">Функция min (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="3523c-103">Min Function (Access custom web app)</span></span>
 
-<span data-ttu-id="d2f7e-104">Возвращает минимальное значение в выражении запроса или в таблице.</span><span class="sxs-lookup"><span data-stu-id="d2f7e-104">Returns the minimum value in the expression in a query or table.</span></span>
+<span data-ttu-id="3523c-104">Возвращает минимальное значение в выражении в запросе или таблице.</span><span class="sxs-lookup"><span data-stu-id="3523c-104">Returns the minimum value in the expression in a query or table.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="d2f7e-105">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="d2f7e-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="d2f7e-106">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="d2f7e-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="3523c-105">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="3523c-105">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="3523c-106">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="3523c-106">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="d2f7e-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d2f7e-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3523c-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="3523c-107">Syntax</span></span>
 
- <span data-ttu-id="d2f7e-108">**Мин.** (*Выражение*)</span><span class="sxs-lookup"><span data-stu-id="d2f7e-108">**Min** (*Expression*)</span></span> 
+ <span data-ttu-id="3523c-108">**Min (минимум** ) (*Expression*)</span><span class="sxs-lookup"><span data-stu-id="3523c-108">**Min** (*Expression*)</span></span> 
   
-<span data-ttu-id="d2f7e-109">Функция **Min** содержит следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="d2f7e-109">The **Min** function contains the following argument.</span></span> 
+<span data-ttu-id="3523c-109">Функция **min** содержит следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="3523c-109">The **Min** function contains the following argument.</span></span> 
   
-|<span data-ttu-id="d2f7e-110">**Имя аргумента**</span><span class="sxs-lookup"><span data-stu-id="d2f7e-110">**Argument name**</span></span>|<span data-ttu-id="d2f7e-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d2f7e-111">**Description**</span></span>|
+|<span data-ttu-id="3523c-110">**Имя аргумента**</span><span class="sxs-lookup"><span data-stu-id="3523c-110">**Argument name**</span></span>|<span data-ttu-id="3523c-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3523c-111">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="d2f7e-112">*Выражение*</span><span class="sxs-lookup"><span data-stu-id="d2f7e-112">*Expression*</span></span>  <br/> |<span data-ttu-id="d2f7e-113">Строковое выражение, определяющее поле, содержащее данные, которые требуется вычислить или выражение, которое выполняет вычисления с использованием данных для этого поля.</span><span class="sxs-lookup"><span data-stu-id="d2f7e-113">A string expression identifying the field that contains the data you want to evaluate or an expression that performs a calculation using the data in that field.</span></span> <span data-ttu-id="d2f7e-114">Операнды в *выражении* может включать имя поля в таблице, константа или функция (это может быть встроенным или определяемым пользователем, но не в одной из других статистические функции SQL).</span><span class="sxs-lookup"><span data-stu-id="d2f7e-114">Operands in  *Expression*  can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).</span></span>  <br/> |
+| <span data-ttu-id="3523c-112">*Expression*</span><span class="sxs-lookup"><span data-stu-id="3523c-112">*Expression*</span></span>  <br/> |<span data-ttu-id="3523c-113">Строковое выражение, определяющее поле, содержащее данные, которые необходимо оценить, или выражение, которое выполняет вычисления с использованием данных в этом поле.</span><span class="sxs-lookup"><span data-stu-id="3523c-113">A string expression identifying the field that contains the data you want to evaluate or an expression that performs a calculation using the data in that field.</span></span> <span data-ttu-id="3523c-114">Операнды в *выражении* могут включать имя поля таблицы, константу или функцию (либо встроенную, либо определяемую пользователем, но не одну из других статистических функций SQL).</span><span class="sxs-lookup"><span data-stu-id="3523c-114">Operands in  *Expression*  can include the name of a table field, a constant, or a function (which can be either intrinsic or user-defined but not one of the other SQL aggregate functions).</span></span>  <br/> |
    
 

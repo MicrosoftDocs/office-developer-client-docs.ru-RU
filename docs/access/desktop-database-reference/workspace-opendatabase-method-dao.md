@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: ca2ccb4183a59c2b579fd4375f26aa4fd539532f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302585"
 ---
-# <a name="workspaceopendatabase-method-dao"></a><span data-ttu-id="9bbb7-102">Метод Workspace.OpenDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="9bbb7-102">Workspace.OpenDatabase Method (DAO)</span></span>
+# <a name="workspaceopendatabase-method-dao"></a><span data-ttu-id="45e11-102">Метод Workspace.OpenDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="45e11-102">Workspace.OpenDatabase method (DAO)</span></span>
 
-<span data-ttu-id="9bbb7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9bbb7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="45e11-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="45e11-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9bbb7-104">Открывает указанную базу данных в объекте \*\* [Workspace](workspace-object-dao.md) \*\* и возвращает ссылку на объект \*\* [Database](database-object-dao.md) \*\*, который ее представляет.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-104">Opens a specified database in a **[Workspace](workspace-object-dao.md)** object and returns a reference to the **[Database](database-object-dao.md)** object that represents it.</span></span>
+<span data-ttu-id="45e11-104">Открывает указанную базу данных в объекте \*\* [Workspace](workspace-object-dao.md) \*\* и возвращает ссылку на объект \*\* [Database](database-object-dao.md) \*\*, который ее представляет.</span><span class="sxs-lookup"><span data-stu-id="45e11-104">Opens a specified database in a **[Workspace](workspace-object-dao.md)** object and returns a reference to the **[Database](database-object-dao.md)** object that represents it.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9bbb7-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9bbb7-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="45e11-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="45e11-105">Syntax</span></span>
 
-<span data-ttu-id="9bbb7-106">*expression* .OpenDatabase(***Name***, ***Options***, ***ReadOnly***, ***Connect***)</span><span class="sxs-lookup"><span data-stu-id="9bbb7-106">*expression* .OpenDatabase(***Name***, ***Options***, ***ReadOnly***, ***Connect***)</span></span>
+<span data-ttu-id="45e11-106">*expression* .OpenDatabase(***Name***, ***Options***, ***ReadOnly***, ***Connect***)</span><span class="sxs-lookup"><span data-stu-id="45e11-106">*expression* .OpenDatabase(***Name***, ***Options***, ***ReadOnly***, ***Connect***)</span></span>
 
-<span data-ttu-id="9bbb7-107">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-107">*expression* A variable that represents a **Range** object.</span></span>
+<span data-ttu-id="45e11-107">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="45e11-107">*expression* A variable that represents a **Workspace** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="9bbb7-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="9bbb7-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="45e11-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="45e11-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,48 +37,48 @@ ms.locfileid: "28700957"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9bbb7-109">Имя</span><span class="sxs-lookup"><span data-stu-id="9bbb7-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="9bbb7-110">Обязательно/необязательно</span><span class="sxs-lookup"><span data-stu-id="9bbb7-110">Required/Optional</span></span></p></th>
-<th><p><span data-ttu-id="9bbb7-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="9bbb7-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="9bbb7-112">Описание</span><span class="sxs-lookup"><span data-stu-id="9bbb7-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="45e11-109">Имя</span><span class="sxs-lookup"><span data-stu-id="45e11-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="45e11-110">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="45e11-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="45e11-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="45e11-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="45e11-112">Описание</span><span class="sxs-lookup"><span data-stu-id="45e11-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9bbb7-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="9bbb7-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="9bbb7-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="9bbb7-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-116">Имя существующего файла ядра СУБД Microsoft Access или имя источника данных (DSN) для источника данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-116">the name of an existing Microsoft Access database engine database file, or the data source name (DSN) of an ODBC data source.</span></span> <span data-ttu-id="9bbb7-117">См. свойство <strong> <a href="connection-name-property-dao.md">Name</a> </strong> для получения дополнительной информации о настройке данного значения.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-117">See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for more information about setting this value.</span></span></p></td>
+<td><p><span data-ttu-id="45e11-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="45e11-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="45e11-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="45e11-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="45e11-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="45e11-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="45e11-116">Имя существующего файла ядра СУБД Microsoft Access или имя источника данных (DSN) для источника данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="45e11-116">the name of an existing Microsoft Access database engine database file, or the data source name (DSN) of an ODBC data source.</span></span> <span data-ttu-id="45e11-117">См. свойство <strong> <a href="connection-name-property-dao.md">Name</a> </strong> для получения дополнительной информации о настройке данного значения.</span><span class="sxs-lookup"><span data-stu-id="45e11-117">See the <strong><a href="connection-name-property-dao.md">Name</a></strong> property for more information about setting this value.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9bbb7-118"><em>Options</em></span><span class="sxs-lookup"><span data-stu-id="9bbb7-118"><em>Options</em></span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-119">Необязательно устанавливать.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-119">Optional</span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-120"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="9bbb7-120"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-121">Определяет различные опции для базы данных, согласно данным в Комментариях.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-121">Sets various options for the database, as specified in Remarks.</span></span></p></td>
+<td><p><span data-ttu-id="45e11-118"><em>Options</em></span><span class="sxs-lookup"><span data-stu-id="45e11-118"><em>Options</em></span></span></p></td>
+<td><p><span data-ttu-id="45e11-119">Необязательно</span><span class="sxs-lookup"><span data-stu-id="45e11-119">Optional</span></span></p></td>
+<td><p><span data-ttu-id="45e11-120"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="45e11-120"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="45e11-121">Определяет различные опции для базы данных, согласно данным в Комментариях.</span><span class="sxs-lookup"><span data-stu-id="45e11-121">Sets various options for the database, as specified in Remarks.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="9bbb7-122"><em>ReadOnly</em></span><span class="sxs-lookup"><span data-stu-id="9bbb7-122"><em>ReadOnly</em></span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-123">Необязательно устанавливать.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-123">Optional</span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-124"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="9bbb7-124"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-125">Установите значение <strong>True</strong>, если вы хотите открыть базу данных с правами доступа только для чтения, или <strong>False</strong> (установлено по умолчанию), если вы хотите открыть базу данных с правами доступа на чтение и запись.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-125"><strong>True</strong> if you want to open the database with read-only access, or <strong>False</strong> (default) if you want to open the database with read/write access.</span></span></p></td>
+<td><p><span data-ttu-id="45e11-122"><em>ReadOnly</em></span><span class="sxs-lookup"><span data-stu-id="45e11-122"><em>ReadOnly</em></span></span></p></td>
+<td><p><span data-ttu-id="45e11-123">Необязательно устанавливать.</span><span class="sxs-lookup"><span data-stu-id="45e11-123">Optional</span></span></p></td>
+<td><p><span data-ttu-id="45e11-124"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="45e11-124"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="45e11-125">Установите значение <strong>True</strong>, если вы хотите открыть базу данных с правами доступа только для чтения, или <strong>False</strong> (установлено по умолчанию), если вы хотите открыть базу данных с правами доступа на чтение и запись.</span><span class="sxs-lookup"><span data-stu-id="45e11-125"><strong>True</strong> if you want to open the database with read-only access, or <strong>False</strong> (default) if you want to open the database with read/write access.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9bbb7-126"><em>Connect</em></span><span class="sxs-lookup"><span data-stu-id="9bbb7-126"><em>Connect</em></span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-127">Необязательно устанавливать.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-127">Optional</span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-128"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="9bbb7-128"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-129">Определяет различные сведения о подключении, включая пароли.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-129">Specifies various connection information, including passwords.</span></span></p></td>
+<td><p><span data-ttu-id="45e11-126"><em>Connect</em></span><span class="sxs-lookup"><span data-stu-id="45e11-126"><em>Connect</em></span></span></p></td>
+<td><p><span data-ttu-id="45e11-127">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="45e11-127">Optional</span></span></p></td>
+<td><p><span data-ttu-id="45e11-128"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="45e11-128"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="45e11-129">Определяет различные сведения о подключении, включая пароли.</span><span class="sxs-lookup"><span data-stu-id="45e11-129">Specifies various connection information, including passwords.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="9bbb7-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9bbb7-130">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="45e11-130">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="45e11-130">Return value</span></span>
 
-<span data-ttu-id="9bbb7-131">База данных</span><span class="sxs-lookup"><span data-stu-id="9bbb7-131">Database</span></span>
+<span data-ttu-id="45e11-131">База данных</span><span class="sxs-lookup"><span data-stu-id="45e11-131">Database</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="9bbb7-132">Комментарии</span><span class="sxs-lookup"><span data-stu-id="9bbb7-132">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="45e11-132">Комментарии</span><span class="sxs-lookup"><span data-stu-id="45e11-132">Remarks</span></span>
 
-<span data-ttu-id="9bbb7-133">Вы можете использовать следующие значения для аргумента Options.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-133">You can use one of the following constants for the component argument:</span></span>
+<span data-ttu-id="45e11-133">Вы можете использовать следующие значения для аргумента Options.</span><span class="sxs-lookup"><span data-stu-id="45e11-133">You can use the following values for the options argument.</span></span>
 
 <table>
 <colgroup>
@@ -87,42 +87,42 @@ ms.locfileid: "28700957"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9bbb7-134">Параметр</span><span class="sxs-lookup"><span data-stu-id="9bbb7-134">Setting</span></span></p></th>
-<th><p><span data-ttu-id="9bbb7-135">Описание</span><span class="sxs-lookup"><span data-stu-id="9bbb7-135">Description</span></span></p></th>
+<th><p><span data-ttu-id="45e11-134">Параметр</span><span class="sxs-lookup"><span data-stu-id="45e11-134">Setting</span></span></p></th>
+<th><p><span data-ttu-id="45e11-135">Описание</span><span class="sxs-lookup"><span data-stu-id="45e11-135">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9bbb7-136"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="9bbb7-136"><strong>True</strong></span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-137">Открытие базы данных в монопольном режиме.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-137">Opens the database in exclusive mode.</span></span></p></td>
+<td><p><span data-ttu-id="45e11-136"><strong>True</strong></span><span class="sxs-lookup"><span data-stu-id="45e11-136"><strong>True</strong></span></span></p></td>
+<td><p><span data-ttu-id="45e11-137">Открытие базы данных в монопольном режиме.</span><span class="sxs-lookup"><span data-stu-id="45e11-137">Opens the database in exclusive mode.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="9bbb7-138"><strong>False</strong></span><span class="sxs-lookup"><span data-stu-id="9bbb7-138"><strong>False</strong></span></span></p></td>
-<td><p><span data-ttu-id="9bbb7-139">(По умолчанию) Открытие базы данных в режиме совместного доступа.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-139">(Default) Opens the database in shared mode.</span></span></p></td>
+<td><p><span data-ttu-id="45e11-138"><strong>False</strong></span><span class="sxs-lookup"><span data-stu-id="45e11-138"><strong>False</strong></span></span></p></td>
+<td><p><span data-ttu-id="45e11-139">(По умолчанию) Открытие базы данных в режиме совместного доступа.</span><span class="sxs-lookup"><span data-stu-id="45e11-139">(Default) Opens the database in shared mode.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-<span data-ttu-id="9bbb7-140">Когда вы открываете базу данных, она автоматически добавляется коллекцию **Databases**.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-140">When you open a database, it is automatically added to the **Databases** collection.</span></span>
+<span data-ttu-id="45e11-140">Когда вы открываете базу данных, она автоматически добавляется коллекцию **Databases**.</span><span class="sxs-lookup"><span data-stu-id="45e11-140">When you open a database, it is automatically added to the **Databases** collection.</span></span>
 
-<span data-ttu-id="9bbb7-141">Несколько советов в отношении применения dbname:</span><span class="sxs-lookup"><span data-stu-id="9bbb7-141">Some considerations apply when you use dbname:</span></span>
+<span data-ttu-id="45e11-141">Несколько советов в отношении применения dbname:</span><span class="sxs-lookup"><span data-stu-id="45e11-141">Some considerations apply when you use dbname:</span></span>
 
-- <span data-ttu-id="9bbb7-142">Если он ссылается на базу данных, которая уже открыта для доступа другому пользователю, возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-142">If it refers to a database that is already open for access by another user, an error occurs.</span></span>
+- <span data-ttu-id="45e11-142">Если он ссылается на базу данных, которая уже открыта для доступа другому пользователю, возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="45e11-142">If it refers to a database that is already open for access by another user, an error occurs.</span></span>
 
-- <span data-ttu-id="9bbb7-143">Если он не ссылается на существующую базу данных или допустимое имя источника данных ODBC, возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-143">If it doesn't refer to an existing database or valid ODBC data source name, an error occurs.</span></span>
+- <span data-ttu-id="45e11-143">Если он не ссылается на существующую базу данных или допустимое имя источника данных ODBC, возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="45e11-143">If it doesn't refer to an existing database or valid ODBC data source name, an error occurs.</span></span>
 
-- <span data-ttu-id="9bbb7-144">Если он является строкой нулевой длины (""), а для *connect* установлено значение "ODBC;", откроется диалоговое окно со списком всех зарегистрированных имен источник данных ODBC, где пользователь может выбрать базу данных.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-144">If it's a zero-length string ("") and *connect* is "ODBC;" , a dialog box listing all registered ODBC data source names is displayed so the user can select a database.</span></span>
+- <span data-ttu-id="45e11-144">Если он является строкой нулевой длины (""), а для *connect* установлено значение "ODBC;", откроется диалоговое окно со списком всех зарегистрированных имен источник данных ODBC, где пользователь может выбрать базу данных.</span><span class="sxs-lookup"><span data-stu-id="45e11-144">If it's a zero-length string ("") and *connect* is "ODBC;" , a dialog box listing all registered ODBC data source names is displayed so the user can select a database.</span></span>
 
-<span data-ttu-id="9bbb7-145">Чтобы закрыть базу данных, а значит удалить объект **Database** из коллекции **Databases**, используйте метод **[Close](connection-close-method-dao.md)** для объекта.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-145">To close a database, and thus remove the **Database** object from the **Databases** collection, use the **[Close](connection-close-method-dao.md)** method on the object.</span></span>
+<span data-ttu-id="45e11-145">Чтобы закрыть базу данных, а значит удалить объект **Database** из коллекции **Databases**, используйте метод **[Close](connection-close-method-dao.md)** для объекта.</span><span class="sxs-lookup"><span data-stu-id="45e11-145">To close a database, and thus remove the **Database** object from the **Databases** collection, use the **[Close](connection-close-method-dao.md)** method on the object.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="9bbb7-146">При обращении к источнику данных ODBC, подключенного к ядру СУБД Microsoft Access вы можете повысить производительность вашего приложения, открыв объект **Database**, связанный с источником данных ODBC, не прибегая к связыванию отдельных объектов \*\* [TableDef](tabledef-object-dao.md) \*\* к определенным таблицам источника данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="9bbb7-146">When you access a Microsoft access database engine-connected ODBC data source, you can improve your application's performance by opening a **Database** object connected to the ODBC data source, rather than by linking individual **[TableDef](tabledef-object-dao.md)** objects to specific tables in the ODBC data source.</span></span>
+> <span data-ttu-id="45e11-146">При обращении к источнику данных ODBC, подключенного к ядру СУБД Microsoft Access вы можете повысить производительность вашего приложения, открыв объект **Database**, связанный с источником данных ODBC, не прибегая к связыванию отдельных объектов \*\* [TableDef](tabledef-object-dao.md) \*\* к определенным таблицам источника данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="45e11-146">When you access a Microsoft access database engine-connected ODBC data source, you can improve your application's performance by opening a **Database** object connected to the ODBC data source, rather than by linking individual **[TableDef](tabledef-object-dao.md)** objects to specific tables in the ODBC data source.</span></span>
 
-## <a name="example"></a><span data-ttu-id="9bbb7-147">Пример</span><span class="sxs-lookup"><span data-stu-id="9bbb7-147">Example</span></span>
+## <a name="example"></a><span data-ttu-id="45e11-147">Пример</span><span class="sxs-lookup"><span data-stu-id="45e11-147">Example</span></span>
 
-<span data-ttu-id="9bbb7-148">В этом примере используется метод **OpenDatabase** для открытия одной базы данных Microsoft Access и двух баз данных ODBC, подключенных к ядру СУБД Microsoft Access. </span><span class="sxs-lookup"><span data-stu-id="9bbb7-148">This example uses the **OpenDatabase** method to open one Microsoft Access database and two Microsoft Access database engine-connected ODBC databases.</span></span>
+<span data-ttu-id="45e11-148">В этом примере используется метод **OpenDatabase** для открытия одной базы данных Microsoft Access и двух баз данных ODBC, подключенных к ядру СУБД Microsoft Access. </span><span class="sxs-lookup"><span data-stu-id="45e11-148">This example uses the **OpenDatabase** method to open one Microsoft Access database and two Microsoft Access database engine-connected ODBC databases.</span></span>
 
 ```vb 
 Sub OpenDatabaseX() 

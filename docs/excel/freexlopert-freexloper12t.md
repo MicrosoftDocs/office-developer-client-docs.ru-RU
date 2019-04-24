@@ -8,37 +8,37 @@ f1_keywords:
 - FreeXLOper12T
 - FreeXLOperT
 keywords:
-- функция freexlopert [excel 2007], функция FreeXLOper12T [Excel 2007]
+- Функция фрикслоперт [Excel 2007], функция FreeXLOper12T [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: b7411bc51770dadc7c2d4a5c2c65d2d546f6025f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b604cbe5cb24ac7d8de28278dfbcf0d4fd92c7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304076"
 ---
-# <a name="freexlopertfreexloper12t"></a><span data-ttu-id="8c7fd-104">FreeXLOperT/FreeXLOper12T</span><span class="sxs-lookup"><span data-stu-id="8c7fd-104">FreeXLOperT/FreeXLOper12T</span></span>
+# <a name="freexlopertfreexloper12t"></a><span data-ttu-id="830fb-104">FreeXLOperT/FreeXLOper12T</span><span class="sxs-lookup"><span data-stu-id="830fb-104">FreeXLOperT/FreeXLOper12T</span></span>
 
- <span data-ttu-id="8c7fd-105">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="8c7fd-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="830fb-105">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="830fb-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="8c7fd-106">Функция Framework, освобождает память, связанные с **XLOPER**/ **XLOPER12**.</span><span class="sxs-lookup"><span data-stu-id="8c7fd-106">Framework function that frees memory associated with an **XLOPER**/ **XLOPER12**.</span></span> <span data-ttu-id="8c7fd-107">Функция предполагается, что объем памяти выделена с вызовы malloc в библиотеке DLL.</span><span class="sxs-lookup"><span data-stu-id="8c7fd-107">The function assumes that the memory was allocated with calls to malloc within the DLL.</span></span> <span data-ttu-id="8c7fd-108">Если было выделить память с Microsoft Excel или каким-либо другим образом или другим процессом, эта функция не предназначена освободить память.</span><span class="sxs-lookup"><span data-stu-id="8c7fd-108">If the memory was allocated by Microsoft Excel or in some other way or by some other process, this function should not be used to free the memory.</span></span> <span data-ttu-id="8c7fd-109">Используйте [xlFree](xlfree.md) , чтобы освободить память, выделенную Excel для **XLOPER**/ **XLOPER12**s.</span><span class="sxs-lookup"><span data-stu-id="8c7fd-109">Use [xlFree](xlfree.md) to free memory allocated by Excel for **XLOPER**/ **XLOPER12**s.</span></span> 
+<span data-ttu-id="830fb-106">Функция Framework, которая освобождает память, связанную с **XLOPER**/ **XLOPER12**.</span><span class="sxs-lookup"><span data-stu-id="830fb-106">Framework function that frees memory associated with an **XLOPER**/ **XLOPER12**.</span></span> <span data-ttu-id="830fb-107">Функция предполагает, что память была выделена с помощью вызовов malloc в библиотеке DLL.</span><span class="sxs-lookup"><span data-stu-id="830fb-107">The function assumes that the memory was allocated with calls to malloc within the DLL.</span></span> <span data-ttu-id="830fb-108">Если память была выделена Microsoft Excel или другим способом или каким бы то ни было другим процессом, эта функция не должна использоваться для освобождения памяти.</span><span class="sxs-lookup"><span data-stu-id="830fb-108">If the memory was allocated by Microsoft Excel or in some other way or by some other process, this function should not be used to free the memory.</span></span> <span data-ttu-id="830fb-109">Используйте [кслфри](xlfree.md) для освобождения памяти, выделенной Excel для **XLOPER**/ \*\*\*\*, с.</span><span class="sxs-lookup"><span data-stu-id="830fb-109">Use [xlFree](xlfree.md) to free memory allocated by Excel for **XLOPER**/ **XLOPER12**s.</span></span> 
   
 ```cs
 void FreeXLOperT(LPXLOPER pxloper);
 void FreeXLOper12T(LPXLOPER12 pxloper12);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8c7fd-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="8c7fd-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="830fb-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="830fb-110">Parameters</span></span>
 
- <span data-ttu-id="8c7fd-111">_pxloper_ (**LPXLOPER**)</span><span class="sxs-lookup"><span data-stu-id="8c7fd-111">_pxloper_ (**LPXLOPER**)</span></span>
+ <span data-ttu-id="830fb-111">_пкслопер_ (**Лпкслопер**)</span><span class="sxs-lookup"><span data-stu-id="830fb-111">_pxloper_ (**LPXLOPER**)</span></span>
   
- <span data-ttu-id="8c7fd-112">_pxloper12_ (**LPXLOPER12**)</span><span class="sxs-lookup"><span data-stu-id="8c7fd-112">_pxloper12_ (**LPXLOPER12**)</span></span>
+ <span data-ttu-id="830fb-112">_pxloper12_ (**LPXLOPER12**)</span><span class="sxs-lookup"><span data-stu-id="830fb-112">_pxloper12_ (**LPXLOPER12**)</span></span>
   
-<span data-ttu-id="8c7fd-113">Указатель на **структуру XLOPER**/ **XLOPER12** освобождения.</span><span class="sxs-lookup"><span data-stu-id="8c7fd-113">Pointer to the **XLOPER**/ **XLOPER12** to be freed.</span></span> 
+<span data-ttu-id="830fb-113">Указатель на значение параметра **XLOPER**/ **XLOPER12** , которое нужно освободить.</span><span class="sxs-lookup"><span data-stu-id="830fb-113">Pointer to the **XLOPER**/ **XLOPER12** to be freed.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="8c7fd-114">Пример</span><span class="sxs-lookup"><span data-stu-id="8c7fd-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="830fb-114">Пример</span><span class="sxs-lookup"><span data-stu-id="830fb-114">Example</span></span>
 
  `\SAMPLES\FRAMEWRK\FRAMEWRK.C`
   
@@ -81,9 +81,9 @@ void FreeXLOper12T(LPXLOPER12 pxloper12)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="8c7fd-115">См. также</span><span class="sxs-lookup"><span data-stu-id="8c7fd-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="830fb-115">См. также</span><span class="sxs-lookup"><span data-stu-id="830fb-115">See also</span></span>
 
 
 
-[<span data-ttu-id="8c7fd-116">Функции в библиотеке платформы</span><span class="sxs-lookup"><span data-stu-id="8c7fd-116">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="830fb-116">Функции в библиотеке платформы</span><span class="sxs-lookup"><span data-stu-id="830fb-116">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 
