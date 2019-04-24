@@ -1,31 +1,31 @@
 ---
-title: Элемент AttachedToolbars (DocumentSettings_Type complexType) ('Visio XML»)
+title: Элемент Аттачедтулбарс (Документсеттингс_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
-description: Microsoft Visio пользовательского интерфейса (VSU) файл представляющие настраиваемые панели инструментов в кодировке MIME (Multipurpose Internet Mail Extensions).
+description: Зашифрованный В формате MIME файл пользовательского интерфейса Microsoft Visio (VSU), представляющий настраиваемые панели инструментов.
 ms.openlocfilehash: a769204c7e13bacc147689803b31bf898e6de71a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341365"
 ---
-# <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Элемент AttachedToolbars (DocumentSettings_Type complexType) ('Visio XML»)
+# <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Элемент Аттачедтулбарс (Документсеттингс_типе complexType) (' Visio XML ')
 
-Microsoft Visio пользовательского интерфейса (VSU) файл представляющие настраиваемые панели инструментов в кодировке MIME (Multipurpose Internet Mail Extensions).
+Зашифрованный В формате MIME файл пользовательского интерфейса Microsoft Visio (VSU), представляющий настраиваемые панели инструментов.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Аттачедтулбарс_типе](attachedtoolbars_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ Microsoft Visio пользовательского интерфейса (VSU) ф
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, которые определяют параметры документов.  <br/> |
+|[Документсеттингс](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Документсеттингс_типе](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

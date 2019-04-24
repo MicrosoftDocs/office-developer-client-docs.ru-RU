@@ -1,5 +1,5 @@
 ---
-title: Ячейка Alignment (раздел "Вкладки")
+title: Alignment Cell (Tabs Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,39 +9,39 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 84234177-a2df-6acc-2761-230bc5d12627
 description: Задает выравнивание табуляции.
-ms.openlocfilehash: a2178c63d0005ee8b2f0c8ebcfbc25854a5b1567
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 461357c9c838fb4c0e5b0159bf027dd6adce26f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813139"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341540"
 ---
-# <a name="alignment-cell-tabs-section"></a>Ячейка Alignment (раздел "Вкладки")
+# <a name="alignment-cell-tabs-section"></a>Alignment Cell (Tabs Section)
 
 Задает выравнивание табуляции.
   
-|**Значение**|**Выравнивание**|**Константа автоматизации**|
+|**Значение**|**Alignment**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| 0  <br/> | Left  <br/> |**visTabStopLeft** <br/> |
-| 1  <br/> | Center  <br/> |**visTabStopCenter** <br/> |
-| 2  <br/> | Right  <br/> |**visTabStopRight** <br/> |
-| 3  <br/> | Decimal  <br/> |**visTabStopDecimal** <br/> |
-| 4  <br/> | Разделители  <br/> |**visTabStopComma** <br/> |
+| нуль  <br/> | Left  <br/> |**Вистабстоплефт** <br/> |
+| 1,1  <br/> | Center  <br/> |**Вистабстопцентер** <br/> |
+| 2  <br/> | Right  <br/> |**Вистабстопригхт** <br/> |
+| 4  <br/> | Десятичное число  <br/> |**ВистабстопдеЦимал** <br/> |
+| SP4  <br/> | Числ  <br/> |**Вистабстопкомма** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Для получения ссылки на ячейки выравнивание по имени, из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку выравнивания по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | Вкладки.  *ij* где *i и j =* < 1 > 2, 3  <br/> |
+| Имя ячейки:  <br/> | Знаков.  *ИЖ* , где *i и j =* <1>, 2, 3  <br/> |
    
-Для получения ссылки на ячейки выравнивание по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку выравнивания по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
-| Индекс раздела:  <br/> |**visSectionTab** <br/> |
-| Индекс строки:  <br/> |**visRowTab +** *i* где *i* = 0, 1, 2...  <br/> |
-| Индекс ячейки:  <br/> | (*j* * 3) **+ visTabAlign** <br/> |
+| Индекс раздела:  <br/> |**Виссектионтаб** <br/> |
+| Индекс строки:  <br/> |**висровтаб +** ** где *i* = 0, 1, 2...  <br/> |
+| Индекс ячейки:  <br/> | (*j* * 3) **+ вистабалигн** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: IABLogonLogoff
+title: Иаблогонлогофф
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a36465e2-7be9-4bd6-8091-685f0a045aa9
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a20fdd45c39cc2147f8fdc7b1998ff6d1b0797bb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: af3c1f5135e90274c0251c5a0addf339c14f36c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586209"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339300"
 ---
 # <a name="iablogonlogoff"></a>IABLogon::Logoff
 
@@ -25,7 +25,7 @@ ms.locfileid: "22586209"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Запускает процесс выхода из системы.
+Инициирует процесс выхода из системы.
   
 ```cpp
 HRESULT Logoff(
@@ -33,7 +33,7 @@ HRESULT Logoff(
 );
 ```
 
-## <a name="parameters"></a>���������
+## <a name="parameters"></a>Параметры
 
  _ulFlags_
   
@@ -43,19 +43,19 @@ HRESULT Logoff(
 
 S_OK 
   
-> Процесс выхода из системы успешно инициировано.
+> Процесс выхода был успешно запущен.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Процесс выхода из системы обычно запускается, когда клиент вызывает метод [IMAPISession::Logoff](imapisession-logoff.md) , чтобы завершить сеанс. MAPI затем вызывает метод **IABLogon::Logoff** каждой адресной книге для начала процесса выхода из системы. 
+Процесс выхода из системы обычно запускается, когда клиент вызывает метод [IMAPISession:: logoff](imapisession-logoff.md) для завершения сеанса. Затем MAPI вызывает метод **иаблогон:: logoff** поставщика адресных книг для запуска процесса выхода из системы. 
   
-Метод **IABLogon::Logoff** выполняет следующие действия: 
+Метод **иаблогон:: logoff** выполняет следующие действия: 
   
-- Освобождает все открытые объекты, такие как вложенными объектами или объекта состояния.
+- Освобождает все открытые объекты, например любые подобъекты или объект Status.
     
 - Освобождает объект поддержки поставщика.
     
-Дополнительные сведения о процессе logoff поставщиками адресных книг видеть [Завершает работу поставщика услуг](shutting-down-a-service-provider.md).
+Дополнительные сведения о процессе выхода из системы поставщиков адресных книг приведены в разделе [Завершение работы поставщика услуг](shutting-down-a-service-provider.md).
   
 ## <a name="see-also"></a>См. также
 

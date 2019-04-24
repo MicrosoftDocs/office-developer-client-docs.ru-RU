@@ -7,23 +7,23 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 887c5e82-170f-4c3c-986f-465c05fbbdbe
-description: 'Последнее изменение: 08 ноября 2011 г.'
-ms.openlocfilehash: 6d1eadfa4138cbd8173bccd0f31e2cdc89c9d5d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Дата последнего изменения: 08 ноября 2011 г.'
+ms.openlocfilehash: 5e9a1832890c65998a1732278367c0e916fb0c5c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577067"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334911"
 ---
 # <a name="commonly-used-properties"></a>Часто используемые свойства
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Списки необходимые и дополнительные свойства MAPI, приведены в нескольких местах.
+Списки обязательных и необязательных свойств MAPI задокументированы в нескольких местах.
   
-Просмотрите следующие интерфейсы для списков свойства, связанные с объектами, которые поддерживают следующие интерфейсы:
+Для списков свойств, связанных с объектами, поддерживающими эти интерфейсы, можно просмотреть следующие интерфейсы:
   
 - [IABContainer : IMAPIContainer](iabcontainerimapicontainer.md)
     
@@ -43,15 +43,15 @@ ms.locfileid: "22577067"
     
 - [IProfSect : IMAPIProp](iprofsectimapiprop.md)
     
-Для списков свойства, необходимые для таблиц обратитесь к документации для каждого типа таблицы в [Таблицах MAPI](mapi-tables.md).
+Список свойств, необходимых для таблиц, представлен в документации по каждому типу таблицы в таблицах [MAPI](mapi-tables.md).
   
-Для списков свойства необходимые и дополнительные сообщения для классов сообщений, определенных для MAPI содержатся в следующих разделах: 
+Список обязательных и необязательных свойств сообщений для классов сообщений, определенных MAPI, представлен в следующих разделах: 
   
 - [Обязательные свойства для всех сообщений](required-properties-for-all-messages.md)
     
-- [Обязательные свойства сообщений отчетов](required-report-message-properties.md)
+- [Обязательные свойства сообщений отчета](required-report-message-properties.md)
     
-- [Необязательные свойства сообщений отчетов](optional-report-message-properties.md)
+- [НеОбязательные свойства сообщений отчета](optional-report-message-properties.md)
     
 - [Свойства получателей для всех сообщений](recipient-properties-for-all-messages.md)
     

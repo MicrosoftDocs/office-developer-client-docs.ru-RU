@@ -12,48 +12,48 @@ api_type:
 - HeaderDef
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 28b42e6abee5d918dbcca69c13642f3ebcc859e1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cee99b93d41ac8cd4a3dee18cad6cd4ab01cabe3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335284"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>Каноническое свойство PidTagAcknowledgementMode
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор режим сообщение подтверждения.
+Содержит идентификатор режима подтверждения сообщений.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ACKNOWLEDGEMENT_MODE  <br/> |
+|Связанные свойства:  <br/> |ПР_АККНОВЛЕДЖЕМЕНТ_МОДЕ  <br/> |
 |Идентификатор:  <br/> |0x0001  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство может иметь только один из следующих значений:
+Это свойство может иметь только одно из следующих значений:
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|0  <br/> |Подтверждение вручную.  <br/> |
-|1  <br/> |Автоматическое подтверждение.  <br/> |
+|нуль  <br/> |Подтверждение вручную.  <br/> |
+|1,1  <br/> |Автоматическое подтверждение.  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

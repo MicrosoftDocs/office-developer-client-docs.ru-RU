@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 1884d83a-826e-494a-a643-c58fa9bdf812
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d771e46c92fd2bdc30857f6ba104784726dfbc62
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 49705c3c56c1268b03e09b9a95a9aa86adb2e16a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582149"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335520"
 ---
 # <a name="pidtagoriginatorreturnaddress-canonical-property"></a>Каноническое свойство PidTagOriginatorReturnAddress
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит двоичной кодировке обратный адрес инициатора сообщения.
+Содержит обратный адрес, закодированный в двоичном коде инициатора сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORIGINATOR_RETURN_ADDRESS  <br/> |
+|Связанные свойства:  <br/> |ПР_ОРИГИНАТОР_РЕТУРН_АДДРЕСС  <br/> |
 |Идентификатор:  <br/> |0x0024  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

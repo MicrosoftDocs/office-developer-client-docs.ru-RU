@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: a1929ab8-4813-468b-9768-cdf7f848cfce
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1f51d14160c5fd80c3e65f5e4c38d3347748136b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e335caafd2a136724707d04b6679a2971697920f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22593258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336437"
 ---
 # <a name="pidtagsearch-canonical-property"></a>Каноническое свойство PidTagSearch
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит объект контейнера, используемого для расширенного поиска.
+Содержит объект Container, который используется для расширенного поиска.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_SEARCH  <br/> |
+|Связанные свойства:  <br/> |ПР_СЕАРЧ  <br/> |
 |Идентификатор:  <br/> |0x3607  <br/> |
-|Тип данных:  <br/> |PT_OBJECT  <br/> |
+|Тип данных:  <br/> |ПТ_ОБЖЕКТ  <br/> |
 |Область:  <br/> |Контейнер адресной книги  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Контейнер, который не поддерживает возможности расширенного поиска не нужно задать свойства.
+В контейнере, не поддерживающем расширенные возможности поиска, не требуется указывать свойство.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

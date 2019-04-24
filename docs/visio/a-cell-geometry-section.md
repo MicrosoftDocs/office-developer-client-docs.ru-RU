@@ -1,5 +1,5 @@
 ---
-title: Ячейка A (раздел "Геометрия")
+title: A Cell (Geometry Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,52 +8,52 @@ f1_keywords:
 - vis_sdr.chm51215
 localization_priority: Normal
 ms.assetid: 6853df0f-d22e-89ca-7d34-342b9c0bea23
-description: Представляет различные сведения в различных строк. В следующей таблице описаны ячейки A, основанную на строке, в котором он находится.
-ms.openlocfilehash: b907552c2346292a6b14baf16481b6b40cc80fc4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Представляет различные сведения в разных строках. В этой таблице описывается ячейка, основанная на строке, в которой она расположена.
+ms.openlocfilehash: 42f346b06cad827cfe56fc113a8387d1a31a6867
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341589"
 ---
-# <a name="a-cell-geometry-section"></a>Ячейка A (раздел "Геометрия")
+# <a name="a-cell-geometry-section"></a>A Cell (Geometry Section)
 
-Представляет различные сведения в различных строк. В следующей таблице описаны ячейки A, основанную на строке, в котором он находится.
+Представляет различные сведения в разных строках. В этой таблице описывается ячейка, основанная на строке, в которой она расположена.
   
-|**Row**|**Описание**|
+|**Строка**|**Описание**|
 |:-----|:-----|
-|[ArcTo](arcto-row-geometry-section.md) <br/> | Расстояние от среднего дуги по центру его кабеля.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | *X* -координата точки управления дуги, точку на дуги. Контрольная точка расположена лучше всего о пользователю между начала и окончания грани дуги. В противном случае дуги может расти в размерах чрезмерную размера для передачи через точку управления с непредсказуемым последствиям.  <br/> |
-|[PolylineTo](polylineto-row-geometry-section.md) <br/> | Формула ломаной.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Второй — к последней узлов неоднородной rational-сплайн (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | Второй узел сплайн.  <br/> |
-|[SplineKnot](splineknot-row-geometry-section.md) <br/> | Один из узлов сплайна (кроме последней или первых двух).  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | *X* -координаты точки на строке не ограничен. в сочетании с *y* -координата, представленное [B](b-cell-geometry-section.md) ячейки.  <br/> |
-|[Эллипс](ellipse-row-geometry-section.md) <br/> | *X* -координаты точки на эллипс; в сочетании с *y* -координата, представленное [B](b-cell-geometry-section.md) ячейки.  <br/> |
+|[ArcTo](arcto-row-geometry-section.md) <br/> | Расстояние от средней дуги до средней точки аккорда.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Координата *x* контрольной точки дуги, точка на дуги. Контрольная точка лучше всего расположена около посередине между начальным и конечным вершинами дуги. В противном случае дуга может увеличиться до экстремального размера для прохождения через контрольную точку с непредсказуемыми результатами.  <br/> |
+|[PolylineTo](polylineto-row-geometry-section.md) <br/> | Формула ломаной линии.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Вторая — последняя кнот неоднородного рационального сплайна B-сплайна (NURBS).  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | Второй кнот сплайна.  <br/> |
+|[SplineKnot](splineknot-row-geometry-section.md) <br/> | Один из Кнотс сплайна (отличный от последнего или первых двух).  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Координата *x* точки на бесконечной линии; Связывание с координатой *y* , представленной в ячейке [B](b-cell-geometry-section.md) .  <br/> |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> | Координата *x* точки эллипса; Связывание с координатой *y* , представленной в ячейке [B](b-cell-geometry-section.md) .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Для получения ссылки на ячейки A по имени, из другой формулы или из программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | Геометрия *i* . *J* где *i* и *j* = < 1 > 2, 3...  <br/> |
-|| Геометрия *i* . A1 (InfiniteLine и эллипс строк) где *i* = < 1 > 2, 3...  <br/> |
+| Имя ячейки:  <br/> | Геометрия *i* . A *j* , где *i* и *j* = <1>, 2, 3...  <br/> |
+|| Геометрия *i* . A1 (строка infiniteline и эллиптические строки), где *i* = <1>, 2, 3...  <br/> |
    
-Для получения ссылки на ячейки A по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
-| Индекс раздела:  <br/> |**visSectionFirstComponent** +  *i* где *i* = 0, 1, 2...  <br/> |
-| Индекс строки:  <br/> |**visRowVertex** +  *j* где *j* = 0, 1, 2...  <br/> |
-||**visRowVertex** (InfiniteLine и эллипс строк)  <br/> |
-| Индекс ячейки:  <br/> |**visBow** (Строка ArcTo)  <br/> |
-||**visControlX** (Строка EllipticalArcTo)  <br/> |
-||**visControlY** (Строка EllipticalArcTo)  <br/> |
-||**visPolylineData** (Ломаной строка)  <br/> |
-||**visNURBSKnot** (Строка NURBSTo)  <br/> |
-||**visSplineKnot** (SplineStart и SplineKnot строк)  <br/> |
-||**visInfiniteLineX2** (Строка InfiniteLine)  <br/> |
-||**visEllipseMajorX** (Эллипс строка)  <br/> |
+| Индекс раздела:  <br/> |**visSectionFirstComponent** +  *i*, где *i* = 0, 1, 2...  <br/> |
+| Индекс строки:  <br/> |**visRowVertex** +  *j*, где *j* = 0, 1, 2...  <br/> |
+||**visRowVertex** (строки InfiniteLine и Ellipse)  <br/> |
+| Индекс ячейки:  <br/> |**висбов** (Строка строка ArcTo)  <br/> |
+||**висконтролкс** (Строка строка ellipticalarcto)  <br/> |
+||**висконтроли** (Строка строка ellipticalarcto)  <br/> |
+||**висполилинедата** (Строка ломаной линии)  <br/> |
+||**виснурбскнот** (Строка NURBSTo)  <br/> |
+||**виссплинекнот** (Строки строка splinestart и строка splineknot)  <br/> |
+||**visInfiniteLineX2** (Строка строка infiniteline)  <br/> |
+||**виселлипсемажоркс** (Строка "эллипс")  <br/> |
    
 

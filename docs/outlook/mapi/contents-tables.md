@@ -8,102 +8,102 @@ api_type:
 - COM
 ms.assetid: 7b8efb4e-b5be-41b8-81bb-9aa1da421433
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 923fd527eb7d04b31f15e6d8673e2e964fa0d1ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 491381c771cae65e682acc8033b6558523847d3d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335597"
 ---
 # <a name="contents-tables"></a>Таблицы содержимого
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержимое таблицы содержит сведения об объектах в контейнере MAPI. Содержимое таблицы для каждого из их контейнеров, реализуемые поставщиками адресных книг и поставщиков удаленных транспорта и хранение сообщений реализации содержимое таблицы для своих папок. В таблице содержимого контейнера адресной книги приведены сведения о его обмена сообщениями пользователя и распространения списка объектов, во время в таблице содержимое папки приведены сведения о его сообщения. Содержимое таблицы используются в основном в клиентских приложениях. 
+Таблица содержимого содержит сведения об объектах в контейнере MAPI. Поставщики адресных книг реализуют таблицы содержимого для каждого из контейнеров, а хранилище сообщений и удаленные поставщики транспорта реализуют таблицы содержимого для своих папок. В таблице содержимого контейнера адресной книги представлены сведения об объектах обмена сообщениями и списках рассылки, а в таблице содержимого папки приведена информация о сообщениях. Таблицы содержимого используются в основном клиентскими приложениями. 
   
-Существует два типа таблиц содержимое папки.
+Существует два типа таблиц содержимого папок:
   
-- Стандартный содержимое таблицы содержат стандартные сообщения — сообщений, отправленных и сделать видимым для пользователя. 
+- Стандартные таблицы содержимого содержат стандартные сообщения — сообщения, которые могут быть переданы и сделаны видимыми для пользователя. 
     
-- Связанное содержимое таблицы содержат скрытые, не являющиеся передаваемого сведения, созданные клиента для определенной цели, такие как для хранения альтернативное представление стандартные сообщения. Сведения о нем создается путем передачи флаг MAPI_ASSOCIATED для вызова [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) . 
+- Связанные таблицы содержимого содержат скрытые, несохраняемые сведения, созданные клиентом для определенной цели, например для хранения альтернативного представления стандартного сообщения. Связанные сведения создаются путем передачи флага МАПИ_АССОЦИАТЕД в вызов [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) . 
     
-Содержимое, которое не поддерживают таблицы большинством контейнеров адресной книги и большое число папок категории сортировки. 
+Таблицы содержимого большинства контейнеров адресных книг и многих папок не поддерживают сортировку по категориям. 
   
-Содержимое таблицы может осуществляться путем вызова:
+Доступ к таблице содержимого можно получить с помощью вызова:
   
-- [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md).
+- [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md).
     
-    - Или -
+    - Также
     
-- [IMAPIProp::OpenProperty](imapiprop-openproperty.md) с **PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) или **PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) (только для папок) указан как свойство tag и ИД интерфейса _IMAPITable идентификатор интерфейса.
+- [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) WITH **пр_контаинер_контентс** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)) или **пр_фолдер_ассоЦиатед_контентс** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md)) (только папки), указанные как тег свойства и IID _Имапитабле в качестве идентификатора интерфейса.
     
-Хранение сообщений и адресной книги поставщиков должна поддерживать обоих методов для получения свойства таблицы. Он недопустим для поставщиков для поддержки только один из способов доступа к эти таблицы так, как ожидается, что выбор клиентов. 
+Поставщики хранилищ сообщений и адресных книг должны поддерживать оба способа извлечения свойств таблицы. Он неприемлемо для поставщиков, поддерживающих только один способ доступа к этим таблицам, так как клиенты ожидают выбора. 
   
- **GetContentsTable** принимает в качестве входных данных несколько флаги, определяющие параметры. Если задано, флаг MAPI_ASSOCIATED извлекает таблицу связанного содержимого. Так как некоторые папки не поддерживают связанное содержимое и нет возможности для клиентов определить это заранее, **GetContentsTable** в некоторых случаях возвращает ошибку MAPI_E_NO_SUPPORT при запросе таблицу связанного содержимого. 
+ **Жетконтентстабле** принимает в качестве входных данных несколько флагов, определяющих предпочтения. Если этот параметр установлен, флаг МАПИ_АССОЦИАТЕД получает связанную таблицу содержимого. Так как некоторые папки не поддерживают связанное содержимое, и клиенты не могут заранее определить это время, **жетконтентстабле** иногда ВОЗВРАЩАЕТ ошибку мапи_е_но_суппорт при запросе связанной таблицы содержимого. 
   
-Флаг MAPI_DEFERRED_ERRORS указывает для реализации таблицу, любые ошибки во время вызова не требуется быть выявлены до впоследствии. 
+Флаг МАПИ_ДЕФЕРРЕД_ЕРРОРС указывает разработчику таблицы на то, что все ошибки, обнаруженные во время вызова, не нужно сообщать до появления следующего момента. 
   
-Вызов **IMAPIProp::OpenProperty** включает в себя доступ к таблице содержимое, открыв его соответствующего свойства **PR_CONTAINER_CONTENTS** для адресной книги содержимое таблиц и таблиц содержимое стандартные папки и **PR_FOLDER_ASSOCIATED_ СОДЕРЖИМОЕ** для связанных таблиц содержимое. Несмотря на то что ни один из них или этих свойств можно получить через папку или метод [IMAPIProp::GetProps](imapiprop-getprops.md) контейнера, их необходимо включить в массиве тега свойства, который возвращается методом [IMAPIProp::GetPropList](imapiprop-getproplist.md) . 
+Вызов **IMAPIProp:: опенпроперти** включает доступ к таблице содержимого, открывая соответствующее свойство, **пр_контаинер_контентс** для таблиц содержимого адресных книг и таблиц содержимого стандартных папок и **пр_фолдер_ассоЦиатед_ СОДЕРЖИМОЕ** для связанных таблиц содержимого. Несмотря на то, что эти свойства не могут быть получены с помощью метода [IMAPIProp::](imapiprop-getprops.md) -PROPS папки или контейнера, они включаются в массив тегов свойств, который возвращается методом [IMAPIProp:: жетпроплист](imapiprop-getproplist.md) . 
   
- **PR_CONTAINER_CONTENTS** можно также использовать для включено или исключено содержимое таблицы из операцию копирования. Если клиент указывает **PR_CONTAINER_CONTENTS** с помощью параметра *lpExcludeProps* для **IMAPIProp::CopyTo** в операцию копирования, новую папку или контейнера не будут поддерживаться в таблице содержимое исходной папки или контейнера. 
+ **Пр_контаинер_контентс** также можно использовать для включения или исключения таблицы содержимого из операции копирования. Если клиент указывает **пр_контаинер_контентс** в параметре *лпексклудепропс* для **IMAPIProp:: CopyTo** в операции копирования, Новая папка или контейнер не будет поддерживать таблицу содержимого исходной папки или контейнера. 
   
-Адресной книги контейнер и папки содержимое таблицы имеют длинного списка обязательные столбцы — столбцов, которые будут доступны после их получения таблицы из **GetContentsTable** или **OpenProperty**может предполагать клиентов. Поставщики можно добавить этот необходимый набор при необходимости и клиентами через метод **метода SetColumns** также могут запрашивать изменения. 
+В таблицах контейнеров и папок адресной книги имеется длинный список обязательных столбцов — столбцов, которые клиенты могут ожидать после получения таблицы из **жетконтентстабле** или **опенпроперти**. Поставщики могут добавлять в этот обязательный набор, если это необходимо, а клиенты, с помощью метода **метода SetColumns** , также могут запрашивать изменения. 
   
-Обязательные столбцы для каждого из типов содержимого таблицы являются:
+Для каждого из типов таблиц содержимого требуются следующие столбцы:
   
-|**Обязательный столбец**|**Тип содержимого таблицы**|
+|**Обязательный столбец**|**Таблица типов содержимого**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Книга контейнер таблицы адресов  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Книга контейнер таблицы адресов  <br/> |
-|**PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md))  <br/> |Таблицы папки хранилища сообщений  <br/> |
-|**PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Книга контейнер таблицы адресов  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Все содержимое таблицы  <br/> |
-|**PR_HASATTACH** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |Все содержимое таблицы  <br/> |
-|**PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |Таблицы папки хранилища сообщений  <br/> |
-|**PR_MAPPING_SIGNATURE** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md))  <br/> |Таблицы папки хранилища сообщений  <br/> |
-|**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))  <br/> |Папка таблиц удаленного транспорта  <br/> |
-|**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Все содержимое таблицы  <br/> |
-|**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))  <br/> |Таблицы папки хранилища сообщений  <br/> |
-|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Контейнер адресной книги и сообщения хранить папки таблиц  <br/> |
-|**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |Папка таблиц удаленного транспорта  <br/> |
-|**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Таблицы папки хранилища сообщений  <br/> |
-|**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Таблицы папки хранилища сообщений  <br/> |
+|**Пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Таблицы контейнеров адресных книг  <br/> |
+|**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Таблицы контейнеров адресных книг  <br/> |
+|**Пр_дисплай_кк** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md))  <br/> |Таблицы папок хранилища сообщений  <br/> |
+|**Пр_дисплай_то** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_дисплай_типе** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Таблицы контейнеров адресных книг  <br/> |
+|**Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Все таблицы содержимого  <br/> |
+|**Пр_хасаттач** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_инстанце_кэй** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |Все таблицы содержимого  <br/> |
+|**Пр_ласт_модификатион_тиме** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |Таблицы папок хранилища сообщений  <br/> |
+|**Пр_маппинг_сигнатуре** ([PidTagMappingSignature](pidtagmappingsignature-canonical-property.md))  <br/> |Таблицы папок хранилища сообщений  <br/> |
+|**Пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_мессаже_довнлоад_тиме** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))  <br/> |Таблицы удаленных транспортных папок  <br/> |
+|**Пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_мессаже_сизе** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_мсг_статус** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Все таблицы содержимого  <br/> |
+|**Пр_парент_ентрид** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))  <br/> |Таблицы папок хранилища сообщений  <br/> |
+|**Пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Таблицы папок адресных книг и папок хранилища сообщений  <br/> |
+|**Пр_сент_репресентинг_наме** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |Таблицы удаленных транспортных папок  <br/> |
+|**Пр_сторе_ентрид** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Таблицы папок хранилища сообщений  <br/> |
+|**Пр_сторе_рекорд_кэй** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Таблицы папок хранилища сообщений  <br/> |
    
-Идентификатор записи, доступных в каждой строке может быть short или долгосрочные идентификатор записи, в зависимости от реализации таблицы. Краткосрочные идентификаторы записей обычно используются в ситуациях, где проблемы. В каждом объекте идентификатор записи можно использовать для доступа к соответствующего объекта. 
+Идентификатор записи, доступный для каждой строки, может быть коротким или долгосрочным идентификатором записи в зависимости от реализации таблицы. Краткосрочные идентификаторы записей обычно используются в ситуациях, когда производительность является неисправностью. Для доступа к соответствующему объекту можно использовать любой тип идентификатора записи. 
   
-Содержимое таблицы имеется набор столбцов, которые являются необязательно, но обычно включены поставщиками услуг в их реализации. Эти дополнительные столбцы — это:
+Таблицы содержимого также имеют набор необязательных столбцов, которые обычно включаются поставщиками услуг в их реализациях. Эти необязательные столбцы:
   
-|**Дополнительный столбец**|**Тип содержимого таблицы**|
+|**НеОбязательный столбец**|**Таблица типов содержимого**|
 |:-----|:-----|
-|**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |Таблицы папки хранилища сообщений  <br/> |
-|**PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> |Стандартные папки содержимого таблицы  <br/> |
-|**PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))  <br/> |Стандартные папки содержимого таблицы  <br/> |
-|**PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md))  <br/> |Таблицы папки хранилища сообщений  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Книга контейнер таблицы адресов  <br/> |
-|**PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Книга контейнер таблицы адресов  <br/> |
-|**PR_SEND_RICH_INFO** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md))  <br/> |Книга контейнер таблицы адресов  <br/> |
-|**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
-|**PR_TRANSMITABLE_DISPLAY_NAME** ([PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md))  <br/> |Книга контейнер таблицы адресов  <br/> |
+|**Пр_клиент_субмит_тиме** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |Таблицы папок хранилища сообщений  <br/> |
+|**Пр_контент_каунт** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> |Стандартные таблицы содержимого папки  <br/> |
+|**Пр_контент_унреад** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))  <br/> |Стандартные таблицы содержимого папки  <br/> |
+|**PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md))  <br/> |Таблицы папок хранилища сообщений  <br/> |
+|**Пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Таблицы контейнеров адресных книг  <br/> |
+|**Пр_импортанце** ([PidTagImportance](pidtagimportance-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_мессаже_деливери_тиме** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_нормализед_субжект** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_приорити** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Таблицы контейнеров адресных книг  <br/> |
+|**Пр_сенд_рич_инфо** ([PidTagSendRichInfo](pidtagsendrichinfo-canonical-property.md))  <br/> |Таблицы контейнеров адресных книг  <br/> |
+|**Пр_сендер_наме** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_сенситивити** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_субжект** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |Все таблицы содержимого папки  <br/> |
+|**Пр_трансмитабле_дисплай_наме** ([PidTagTransmittableDisplayName](pidtagtransmittabledisplayname-canonical-property.md))  <br/> |Таблицы контейнеров адресных книг  <br/> |
    
-Поставщики хранилища сообщений должен также включать **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) для содержимого таблиц на результат поиска папок.
+Кроме того, поставщики хранилища сообщений должны включать **пр_парент_дисплай** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)) для только таблиц содержимого папок результатов поиска.
   
-Именованные свойства могут быть добавлены набор столбцов таблицы содержимое папки только в том случае, если все сообщения в папке совпадают сопоставления, то есть одно сопоставление имен свойств для идентификаторов свойств. Если они поддерживают создание произвольных сообщения в папке, в таблицах содержимое папки должен поддерживать задать определенные свойства для столбца, Добавление класса сообщения.
+Именованные свойства можно добавить в набор столбцов таблицы содержимого папки только в том случае, если все сообщения в папке имеют одинаковую подпись сопоставления, то есть одно сопоставление имен свойств с идентификаторами свойств. Таблицы содержимого папок должны поддерживать добавление определенных свойств класса сообщений в набор столбцов, если они поддерживают создание произвольных сообщений в папке.
   
-Клиенты можно сохранить порядок сортировки по умолчанию для таблицы содержимое папки путем вызова метода [IMAPIFolder::SaveContentsSort](imapifolder-savecontentssort.md) . Если флаг RECURSIVE_SORT указан на звонок, порядок сортировки может быть установлено для всех вложенных папок в папке. 
+Клиенты могут сохранить порядок сортировки по умолчанию для таблицы содержимого папки, вызвав его метод [IMAPIFolder:: савеконтентссорт](imapifolder-savecontentssort.md) . Если в вызове указан флаг РЕКУРСИВЕ_СОРТ, порядок сортировки можно применить ко всем вложенным папкам в папке. 
   
 ## <a name="see-also"></a>См. также
 

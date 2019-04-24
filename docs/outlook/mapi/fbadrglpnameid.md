@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fec5d5ac-bca6-4fff-b264-45cdb6b37f55
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 96dddc438df67b76f854827eab4dc3e210523243
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4eef7c0b1078cb9e7ced21e2403f0b3948362d6c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341036"
 ---
 # <a name="fbadrglpnameid"></a>FBadRglpNameID
 
@@ -25,7 +25,7 @@ ms.locfileid: "22588148"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Проверяет массив структур, которые описывают с именем свойства и проверяет их выделении. 
+Проверяет массив структур, описывающих именованные свойства, и проверяет их выделение. 
   
 |||
 |:-----|:-----|
@@ -42,26 +42,26 @@ BOOL FBadRglpNameID(
 
 ## <a name="parameters"></a>Параметры
 
- _lppNameId_
+ _Лппнамеид_
   
-> [in] Указатель на массив структур [MAPINAMEID](mapinameid.md) , описывающее именованных свойств. 
+> возврата Указатель на массив структур [мапинамеид](mapinameid.md) , описывающих именованные свойства. 
     
- _записи CNAME_
+ _записи cName_
   
-> [in] Число структур именованное свойство в массиве указывает параметр _lppNameId_ . 
+> возврата Количество именованных структур свойств в массиве, на которое указывает параметр _лппнамеид_ . 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 TRUE 
   
-> Один или несколько структур имя указанного свойства является недопустимым. 
+> Одна или несколько указанных структур имени свойства являются недопустимыми. 
     
 FALSE 
   
-> Структуры имя указанного свойства являются допустимыми.
+> Указаны допустимые структуры имени свойства.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Функция **FBadRglpNameID** можно использовать при настройке для вызова [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) или [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md). 
+Функцию **фбадрглпнамеид** можно использовать при настройке вызова [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) или [IMAPIProp:: жетнамесфромидс](imapiprop-getnamesfromids.md). 
   
 

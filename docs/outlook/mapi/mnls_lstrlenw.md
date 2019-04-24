@@ -7,24 +7,24 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d342a956-1164-4c9c-b0bb-7a0b72dc97fc
-description: 'Последнее изменение: 21 февраля 2012 г.'
+description: 'Дата последнего изменения: 21 февраля 2012 г.'
 ms.openlocfilehash: 31f699d1193e55a88e57a0f491658e0d537ef75d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338467"
 ---
 # <a name="mnlslstrlenw"></a>MNLS_lstrlenW
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Определяет, длина указанной строки Юникод, за исключением конечный символ null.
+Определяет длину указанной строки Юникода, за исключением завершающего знака null.
   
 > [!TIP]
-> Рекомендуется использовать [StringCchLength](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx) . 
+> Вместо этого рекомендуется использовать [стрингкчленгс](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx) . 
   
 ```cpp
 int MNLS_lstrlen(
@@ -33,23 +33,23 @@ int MNLS_lstrlen(
 
 ## <a name="parameters"></a>Параметры
 
- _lpsz_
+ _лпсз_
   
-> [in] Символом null строка Юникод для проверки.
+> возврата Строка Юникода с завершающим нулем для проверки.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-Функция возвращает целое число в длину строки. Это число знаков в строке, за исключением конечный символ null. Если _lpsz_ имеет значение NULL, функция возвращает ноль. 
+Функция возвращает целое число с длиной строки. Это количество символов в строке, за исключением завершающего знака null. Если _лпсз_ имеет значение null, функция возвращает ноль. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Эта функция имеет функцию **lstrlen** . Для получения дополнительных сведений см [lstrlen](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx).
+Эта функция заключает в оболочку функцию **лстрлен** . Дополнительные сведения см. в разделе [лстрлен](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>См. также
 
 
 
-[lstrlen](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx)
+[лстрлен](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx)
   
-[StringCchLength](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx)
+[Стрингкчленгс](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx)
 

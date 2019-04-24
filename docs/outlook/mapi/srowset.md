@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 7e3761be-afd6-46cb-9a08-25e9016c1241
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 82fa1b0af504cc4774b1dc077a6ef48378740d26
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 63cef6ef2bb26e8b723c60fe01dd6771aa070ae8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580679"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341638"
 ---
 # <a name="srowset"></a>SRowSet
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив структур [SRow](srow.md) . Структура каждого **SRow** описывает строку из таблицы. 
+Содержит массив структур [сров](srow.md) . Каждая структура **сров** описывает строку из таблицы. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные макросы:  <br/> |[CbNewSRowSet](cbnewsrowset.md), [CbSRowSet](cbsrowset.md) [SizedSRowSet](sizedsrowset.md) <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанные макросы:  <br/> |[Кбневсровсет](cbnewsrowset.md), [кбсровсет](cbsrowset.md), [сизедсровсет](sizedsrowset.md) <br/> |
    
 ```cpp
 typedef struct _SRowSet
@@ -43,17 +43,17 @@ typedef struct _SRowSet
 
 ## <a name="members"></a>Members
 
- **cRows**
+ **CRowset**
   
-> Число структур **SRow** в элемент **aRow** . 
+> Количество структур **сров** в элементе **аров** . 
     
- **aRow**
+ **аров**
   
-> Массив структур **SRow** . Существует один структуры для каждой строки в таблице. 
+> Массив структур **сров** . Для каждой строки в таблице существует одна структура. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Структура **SRowSet** используется для описания несколько строк данных из таблицы. **SRowSet** структуры используются в [IAddrBook](iaddrbookimapiprop.md), [ITableData](itabledataiunknown.md)и [IMAPITable](imapitableiunknown.md) методов интерфейса, кроме следующих функций: 
+Структура **SRowSet** используется для описания нескольких строк данных из таблицы. Структуры **SRowSet** используются в методах интерфейса [IAddrBook](iaddrbookimapiprop.md), [итабледата](itabledataiunknown.md)и [IMAPITable](imapitableiunknown.md) в дополнение к следующим функциям: 
   
 - [HrQueryAllRows](hrqueryallrows.md)
     
@@ -61,11 +61,11 @@ typedef struct _SRowSet
     
 - [FreeProws](freeprows.md)
     
- Определения структур **SRowSet** так же, как [ADRLIST](adrlist.md) структуры строк получателей таблицы и операций в список адресов, чтобы быть обрабатывается так же. Методы, такие как [IMessage::ModifyRecipients](imessage-modifyrecipients.md) и [IAddrBook::Address](iaddrbook-address.md)могут передаваться **SRowSet** структуры и структуры **ADRLIST** . 
+ Структуры **SRowSet** определяются так же, как структуры [ADRLIST](adrlist.md) , чтобы можно было обрабатывать строки таблицы получателей и записи в списке адресов. Структуры **SRowSet** и структуры **ADRLIST** можно передавать в методы, такие как [iMessage:: МодифиреЦипиентс](imessage-modifyrecipients.md) и [IAddrBook:: Address](iaddrbook-address.md). 
   
-Кроме того правила для выделения памяти для структуры **SRowSet** совпадают с требованиями для структуры **ADRLIST** . В целом, каждый [SPropValue](spropvalue.md) структуру в массиве по член **lpProps** каждой строки в строке, на который указывает необходимо выделить отдельно с помощью [MAPIAllocateBuffer](mapiallocatebuffer.md). Структура значение каждого свойства должна быть отменено с помощью [MAPIFreeBuffer](mapifreebuffer.md) перед освобождение структуры **SRowSet** , чтобы указатели на выделенный **SPropValue** структуры не сохраняются. Строки выделенная объема памяти может затем сохранять и повторно использовать вне контекста **SRowSet** структуры. 
+Кроме того, правила выделения памяти для структур **SRowSet** одинаковы для структур **ADRLIST** . В качестве итогов каждая структура [спропвалуе](spropvalue.md) в массиве, на которую указывает элемент **лппропс** в наборе строк, должна выделяться отдельно с помощью [мапиаллокатебуффер](mapiallocatebuffer.md). Каждая структура значения свойства также должна быть освобождена с помощью [мапифрибуффер](mapifreebuffer.md) перед освобождением структуры **SRowSet** , чтобы указатели на выделенные структуры **спропвалуе** не терялись. Выделенная память строки может сохраняться и повторно использоваться вне контекста структуры **SRowSet** . 
   
-Дополнительные сведения о том, как следует выделить память для структуры **SRowSet** [Памяти ADRLIST и SRowSet структур](managing-memory-for-adrlist-and-srowset-structures.md)см. 
+Более подробную информацию о том, как следует выделить память для структур **SRowSet** , можно узнать в статье [Управление памятью для структур ADRLIST и SRowSet](managing-memory-for-adrlist-and-srowset-structures.md). 
   
 ## <a name="see-also"></a>См. также
 

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0ffdfc22-cbae-b397-226a-2cfcc6ca56c7
 description: Возвращает гиперболический тангенс угла.
-ms.openlocfilehash: 1cef04ab03cdc0acfdb6970cd9699a9340a63077
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e88d24b93d06cc606d96d5a4e4a3f834b706245a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332384"
 ---
 # <a name="tanh-function"></a>Функция TANH
 
@@ -22,26 +22,26 @@ ms.locfileid: "19814981"
   
 ## <a name="syntax"></a>Синтаксис
 
-ТАНГЕНСА (** *угол* **) 
+TANH (* * *угол* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _угол_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Угол которого необходимо получить тангенс hypbolic.  <br/> |
+| _градусов_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Угол для получения тангенса хипболик.  <br/> |
    
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Числовой
+Numeric
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Функция ТАНГЕНСА использует радианах, если не указать разные единицы измерения в *угол* . 
+Функция TANH использует радианы, если вы не укажете другую единицу измерения в качестве *угла* . 
   
 ## <a name="example"></a>Пример
 
-TANH(-45) 
+TANH (-45) 
   
-Возвращает-0.6558. 
+Возвращает значение – 0,6558. 
   
 

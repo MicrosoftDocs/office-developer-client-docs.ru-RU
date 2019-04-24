@@ -12,55 +12,55 @@ api_type:
 - COM
 ms.assetid: 01cae79e-5b56-4cd4-83a6-f0956ff539fb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e1f57fd95ff38ef102cd74b0035dbb6b553259c9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a5a9d0796bc92514ae6d990b7328364b85bc55cd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569353"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335436"
 ---
 # <a name="pidtagremoteprogress-canonical-property"></a>Каноническое свойство PidTagRemoteProgress
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Это свойство содержит число, указывающее состояние удаленной передачи.
+Данное свойство содержит число, указывающее состояние удаленной передачи.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REMOTE_PROGRESS  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕМОТЕ_ПРОГРЕСС  <br/> |
 |Идентификатор:  <br/> |0x3E0B  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Если передача не находится в стадии разработки, это свойство необходимо задать значение 1. При передаче находится в стадии разработки, оно должно быть присвоено значение от 0 до 100, указывающее процент завершения переноса.
+Если передача не выполняется, этому свойству необходимо присвоить значение 1. Если перемещение выполняется, ему должно быть присвоено значение от 0 до 100, указывающее процент завершения передачи.
   
-Текст, связанный с кодом числовое состояние отображается в свойстве **PR_REMOTE_PROGRESS_TEXT** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)).
+Текст, связанный с числовым кодом состояния, отображается в свойстве **пр_ремоте_прогресс_текст** ([PidTagRemoteProgressText](pidtagremoteprogresstext-canonical-property.md)).
   
-Следующие флаги можно задать для этого свойства:
+Для этого свойства можно задать следующие флаги:
   
-MSGSTATUS_REMOTE_DELETE
+МСГСТАТУС_РЕМОТЕ_ДЕЛЕТЕ
   
-> Передача сообщений будет удален.
+> Передача сообщения удалена.
     
-MSGSTATUS_REMOTE_DOWNLOAD
+МСГСТАТУС_РЕМОТЕ_ДОВНЛОАД
   
-> Передача сообщений находится в стадии разработки.
+> Выполняется передача сообщения.
     
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

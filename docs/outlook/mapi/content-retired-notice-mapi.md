@@ -1,25 +1,25 @@
 ---
-title: Контент не поддерживается уведомление о (MAPI)
+title: Уведомление о прекращении контента (MAPI)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2dd5d24d-0fbb-43bd-bc41-93c29536e342
-description: 'Последнее изменение: 05 октября 2012 г.'
-ms.openlocfilehash: 5f6e7dd5d04fbfe4bcec739f9e0e858695144b28
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Дата последнего изменения: 05 октября, 2012'
+ms.openlocfilehash: 262955c0c2753dd69e874ab60246b3ed50500dbc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577669"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335086"
 ---
-# <a name="content-retired-notice-mapi"></a>Контент не поддерживается уведомление о (MAPI)
+# <a name="content-retired-notice-mapi"></a>Уведомление о прекращении контента (MAPI)
 
 
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Контент, который вы пытаетесь просмотреть больше не доступен. Возможно, его были удалены или заменены более позднюю версию. Изучите этот набор ссылок, чтобы приступить к работе.
+Содержимое, которое вы пытались просмотреть, больше недоступно. Возможно, оно было удалено или заменено более новой версией. Ознакомьтесь с этим набором ссылок, чтобы быстрее получить их.
   
 ## <a name="microsoft-outlook-2013-messaging-api-mapi-reference"></a>Справочник по Messaging API (MAPI) для Microsoft Outlook 2013
 

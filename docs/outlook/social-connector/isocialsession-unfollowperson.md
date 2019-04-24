@@ -1,5 +1,5 @@
 ---
-title: ISocialSessionUnFollowPerson
+title: ИсоЦиалсессионунфолловперсон
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 66c83041-ee83-41d5-b9dc-a4dc4c670f82
-description: Удаляет лица, указанного с помощью параметра userID как friend в социальных сетях.
-ms.openlocfilehash: 8b9a1e4f903e4bc805481b8679481103ea1ec82c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Удаляет пользователя, определенного параметром userID, в качестве друга в социальной сети.
+ms.openlocfilehash: c276a9e5af18f7e4a3afbaa66d366d55de460a58
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812750"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336780"
 ---
 # <a name="isocialsessionunfollowperson"></a>ISocialSession::UnFollowPerson
 
-Удаляет лица, указанного с помощью параметра _userID_ как friend в социальных сетях. 
+Удаляет пользователя, определенного параметром _UserID_ , в качестве друга в социальной сети. 
   
 ```cpp
 HRESULT _stdcall UnFollowPerson([in] BSTR userID);
@@ -25,15 +25,15 @@ HRESULT _stdcall UnFollowPerson([in] BSTR userID);
 
 ## <a name="parameters"></a>Параметры
 
-_идентификатор пользователя_
+_userID_
   
-> [in] Строка, содержащая идентификатор пользователя социальной сети для пользователя.
+> возврата Строка, содержащая идентификатор пользователя социальной сети для человека.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Параметр _идентификатор пользователя_ должен быть действительный ID пользователя для пользователя в социальных сетях. 
+Параметр _UserID_ должен быть ДОПУСТИМЫм идентификатором пользователя для пользователя в социальной сети. 
   
-Если поставщик Outlook Social Connector (OSC) значение **doNotFollowPerson** как **true** в XML-КОДЕ для **возможностей**, поставщик должен возвращать ошибку OSC_E_NOT_FOUND в случае пользователя, переданный код не соответствует пользователя в сети. Если поставщик значение **doNotFollowPerson** **значение false** в **возможности**, поставщик должен возвращать ошибку OSC_E_FAIL. Сведения о кодах ошибок см. в статье [Коды ошибок поставщика Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
+Если у поставщика Outlook Social Connector (OSC) для **возможностей**XML задано **значение** **донотфолловперсон** , поставщик должен возвратить ошибку оск_е_нот_фаунд в том случае, если переданный идентификатор пользователя не соответствует пользователю в сети. Если у поставщика для **донотфолловперсон** задано **значение false** в возможностях, поставщик должен возвратить ошибку оск_е_фаил. **** Сведения о кодах ошибок см. в статье [Коды ошибок поставщика Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
   
 ## <a name="see-also"></a>См. также
 

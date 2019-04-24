@@ -8,20 +8,20 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f28ac144-f5ac-fd83-2b72-8d6e5fd74b6e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8c23788d64fe3703c7c46998cade0bd40d2f3dd2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9c5d8ab5bbac91250f3b8c552ad891c62134526e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338677"
 ---
 # <a name="mscapselector"></a>MSCAP_SELECTOR
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает возможности, чтобы возвратить хранилища.
+Указывает возможности, возвращаемые для хранилища.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -36,26 +36,26 @@ typedef enum
 } MSCAP_SELECTOR;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
  *MSCAP_SEL_RESERVED1* 
   
-> Этот член зарезервирован для внутреннего использования Outlook и не поддерживается. 
+> Этот член зарезервирован для внутреннего использования в Outlook и не поддерживается. 
     
  *MSCAP_SEL_RESERVED2* 
   
-> Этот член зарезервирован для внутреннего использования Outlook и не поддерживается. 
+> Этот член зарезервирован для внутреннего использования в Outlook и не поддерживается. 
     
- *MSCAP_SEL_FOLDER* 
+ *МСКАП_СЕЛ_ФОЛДЕР* 
   
-> Возможности о вспомогательных папок для хранилища.
+> Возможности, связанные с вспомогательными папками в магазине.
     
  *MSCAP_SEL_RESERVED3* 
   
-> Этот член зарезервирован для внутреннего использования Outlook и не поддерживается. 
+> Этот член зарезервирован для внутреннего использования в Outlook и не поддерживается. 
     
- *MSCAP_SEL_RESTRICTION* 
+ *МСКАП_СЕЛ_РЕСТРИКТИОН* 
   
-> Возможности о поддержке ограничения для хранилища.
+> Возможности, связанные с поддержкой ограничений в магазине.
     
 

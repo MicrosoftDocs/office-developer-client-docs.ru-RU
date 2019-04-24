@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 6cef620b-e3b7-47b9-9727-8e609465c268
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8b6c95093715f484bafd35c5836bb5790ce5b994
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f66d0f06112d95cb5adb2a9e7419c1d20f71bfc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338670"
 ---
 # <a name="pidtagphysicalrenditionattributes-canonical-property"></a>Каноническое свойство PidTagPhysicalRenditionAttributes
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор объекта ASN.1, который используется для преобразования вложений сообщений.
+Содержит идентификатор объекта ASN. 1, используемый для отображения вложений сообщений.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PHYSICAL_RENDITION_ATTRIBUTES  <br/> |
+|Связанные свойства:  <br/> |ПР_ФИСИКАЛ_РЕНДИТИОН_АТТРИБУТЕС  <br/> |
 |Идентификатор:  <br/> |0x0C10  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Получатель MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -7,13 +7,13 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
-description: 'Последнее изменение: 2 июля 2012.'
-ms.openlocfilehash: 3e534f91863e2a1300e03d112d1f532f486eedd9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Дата последнего изменения: 02 июля 2012 г.'
+ms.openlocfilehash: 88716719857cfd623d30a3684fc997ea8019455e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588309"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334841"
 ---
 # <a name="feid"></a>FEID
 
@@ -21,7 +21,7 @@ ms.locfileid: "22588309"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Идентификатор для папки. Он содержит идентификатор входа и другие необходимые сведения.
+Идентификатор папки. Он содержит идентификатор записи и другую важную информацию.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -37,21 +37,21 @@ struct FEID
 
 ## <a name="members"></a>Элементы
 
- _abFlags_
+ _Абфлагс_
   
-> Идентификатор записи 4-байтных папки. Дополнительные сведения об идентификаторах запись MAPI можно **[ENTRYID](entryid.md)**. 
+> Идентификатор записи (4 байта) для папки. Дополнительные сведения об идентификаторах записей MAPI приведены в разделе **[EntryID](entryid.md)**. 
     
- _muid_
+ _Muid_
   
-> GUID, идентифицирующий поставщика хранилища. В разделе mapidefs.h для определения типа **MAPIUID**. 
+> GUID, определяющий поставщика хранилища. Определение типа **мапиуид**можно найти в файле MAPIDEFS. h. 
     
- _заполнитель_
+ _нагляд_
   
-> Этот член зарезервирован для внутреннего использования Outlook и не поддерживается.
+> Этот член зарезервирован для внутреннего использования в Outlook и не поддерживается.
     
- _ltid_
+ _лтид_
   
-> Долгосрочные идентификатор папки.
+> Долгосрочный идентификатор папки.
     
 ## <a name="see-also"></a>См. также
 
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[SYNC](sync.md)
+[Синхр](sync.md)
 

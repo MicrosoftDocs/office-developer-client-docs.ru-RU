@@ -1,5 +1,5 @@
 ---
-title: AuthorList_Type complexType ('Visio XML»)
+title: Аусорлист_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fc1e059b-7705-8b30-aeab-f56707086416
 ms.openlocfilehash: 80a0dd01b3628bc44ed469ff7c236753d7677f51
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394554"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338747"
 ---
-# <a name="authorlisttype-complextype-visio-xml"></a>AuthorList_Type complexType ('Visio XML»)
+# <a name="authorlisttype-complextype-visio-xml"></a>Аусорлист_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "25394554"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[AuthorEntry](authorentry-element-authorlist_type-complextypevisio-xml.md) <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> ||
+|[Аусорентри](authorentry-element-authorlist_type-complextypevisio-xml.md) <br/> |[Аусорентри_типе](authorentry_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

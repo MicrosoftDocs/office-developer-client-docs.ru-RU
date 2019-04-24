@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageBottomMargin (раздел "Свойства печати")
+title: PageBottomMargin Cell (Print Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 7a97e97c-278d-2e1e-6c4f-f5f32e2cdeb0
 description: Задает поле в нижней части печатной страницы.
-ms.openlocfilehash: fb67cf87f5e50719d24b0f354acc93209eed8811
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f546d89b8761c6c1b7340af69d2b48f16c180767
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814329"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334414"
 ---
-# <a name="pagebottommargin-cell-print-properties-section"></a>Ячейка PageBottomMargin (раздел "Свойства печати")
+# <a name="pagebottommargin-cell-print-properties-section"></a>PageBottomMargin Cell (Print Properties Section)
 
 Задает поле в нижней части печатной страницы.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это значение представляет физические единицы и не влияет на масштаб или рисования единиц измерения. Например если эта ячейка имеет значение 0,5 дюйма, это поле будет 0,5 дюйма даже в том случае, если страница указываются футов. Если единицы не указан явно, это значение по умолчанию единицах страницы. 
+Это значение представляет физические единицы и не затронет единицы масштабирования или рисования. Например, если ячейка имеет значение 0,5 в., это поле составляет 0,5 дюйма, даже если единицы страницы — футы. Если единицы измерения не заданы явным образом, значение по умолчанию равно единицам страницы. 
   
-Чтобы получить ссылку на ячейку PageBottomMargin по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку PageBottomMargin по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | PageBottomMargin  <br/> |
+| Имя ячейки:  <br/> | PageBottomMargin  <br/> |
    
-Для получения ссылки на ячейки PageBottomMargin по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку PageBottomMargin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPrintProperties** <br/> |
-| Индекс ячейки:  <br/> |**visPrintPropertiesBottomMargin** <br/> |
+| Индекс строки:  <br/> |**Висровпринтпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Виспринтпропертиесботтоммаргин** <br/> |
    
 

@@ -8,20 +8,20 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6b39504f-6eed-2605-048d-2707f38a7d9a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 9495caecd514656f6fd62fb5db6cd8ac2faf4b50
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 64e5cf31dffdc794a22bcbd6d503a2b688f9c733
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332209"
 ---
 # <a name="indexsearchpusherprocess"></a>INDEX_SEARCH_PUSHER_PROCESS
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает процесс, который отправляет уведомление обработчик протокола MAPI, что объект в этого хранилища готова для индексации.
+Задает процесс, который отправляет уведомление обработчику протокола MAPI о том, что объект в этом хранилище готов к индексированию.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -31,10 +31,10 @@ typedef struct _INDEX_SEARCH_PUSHER_PROCESS {
 } INDEX_SEARCH_PUSHER_PROCESS; 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
- *dwPID* 
+ *Двпид* 
   
->  Идентификатор процесса для процесса, который отправляет уведомление об индексации индексатор обработчик протокола MAPI. 
+>  Идентификатор процесса, который отправляет уведомление индексирования обработчику протокола MAPI. 
     
 

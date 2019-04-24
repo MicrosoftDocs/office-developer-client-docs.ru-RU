@@ -1,36 +1,36 @@
 ---
-title: Ячейка EventMultiDrop (раздел "События")
+title: EventMultiDrop Cell (Events Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f496d698-7f08-69cc-4379-df18a2c2fd7e
-ms.openlocfilehash: e44cd18c3f7673761f457db9cd4bfe00a8ab89bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: caa86e33d0d7aa9ca31cbbf8939e17b581877669
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337193"
 ---
-# <a name="eventmultidrop-cell-events-section"></a>Ячейка EventMultiDrop (раздел "События")
+# <a name="eventmultidrop-cell-events-section"></a>EventMultiDrop Cell (Events Section)
 
-Ячейка события, которое оценивается при перетаскивании нескольких фигур на странице документа в виде экземпляров или при дублировании или вставке фигур.
+Ячейка события, вычисляемая при разрыве нескольких фигур на странице документа либо в виде экземпляров, либо при копировании или вставке фигур.
   
-Событие ячеек вычисляются только в том случае, когда возникает событие, не после ввода формул.
+Ячейки событий оцениваются только при возникновении события, а не при вводе формул.
   
-Для ссылки на ячейки EventMultiDrop по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы сослаться на ячейку EventMultiDrop по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |EventMultiDrop  <br/> |
+|Имя ячейки:  <br/> |EventMultiDrop  <br/> |
    
-Для ссылки на ячейки EventMultiDrop по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы сослаться на ячейку EventMultiDrop по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowEvent** <br/> |
-|Индекс ячейки:  <br/> |**visEvtCellMultiDrop** <br/> |
+|Индекс строки:  <br/> |**Висровевент** <br/> |
+|Индекс ячейки:  <br/> |**Висевтцеллмултидроп** <br/> |
    
 

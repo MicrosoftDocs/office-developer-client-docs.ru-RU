@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidLidLogFlags
+title: Каноническое свойство Пидлидлогфлагс
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,13 +13,13 @@ api_type:
 ms.assetid: 3174d931-e045-44db-a203-a27c9c00f4fc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a407c065a51870ba9908fbd9b626d7f287a1df4e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387239"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336948"
 ---
-# <a name="pidlidlogflags-canonical-property"></a>Каноническое свойство PidLidLogFlags
+# <a name="pidlidlogflags-canonical-property"></a>Каноническое свойство Пидлидлогфлагс
 
   
   
@@ -29,31 +29,31 @@ ms.locfileid: "25387239"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidLogFlags  <br/> |
-|Набор свойств:  <br/> |PSETID_Log  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x0000870C  <br/> |
+|Связанные свойства:  <br/> |Диспидлогфлагс  <br/> |
+|Набор свойств:  <br/> |Псетид_лог  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x0000870C  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |������  <br/> |
+|Область:  <br/> |Журнал  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Битовое поле, которое содержит метаданные о журнале должен быть ноль или «0x40000000».
+Битовое поле, содержащее метаданные для журнала, должно быть либо нулевым, либо "0x40000000".
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS — ОКСОЖРНЛ]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
 > Задает свойства и операции, допустимые для журналов.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -63,9 +63,9 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

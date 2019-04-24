@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c820cb95-92e8-5d56-22d7-0a984acc6c59
 description: Возвращает тангенс угла.
-ms.openlocfilehash: 508bc704c3256072a927143ea2f7f656357da0a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9ece28baa29f1fdc7d7d31938dc83d8f68f8982d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332349"
 ---
 # <a name="tan-function-visioshapesheet"></a>TAN Function (VisioShapeSheet)
 
@@ -22,25 +22,25 @@ ms.locfileid: "19814992"
   
 ## <a name="syntax"></a>Синтаксис
 
-TAN (** *угол* **) 
+TAN (* * ** * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _угол_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Угол которого необходимо получить тангенс.  <br/> |
+| _градусов_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Угол для получения тангенса.  <br/> |
    
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Числовой
+Numeric
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Функция TAN использует радианах, если не указать разные единицы измерения в *угол* . 
+Функция TAN использует радианы, если вы не укажете другую единицу измерения в качестве *угла* . 
   
 ## <a name="example"></a>Пример
 
-TAN(45 deg) 
+СВЕТЛО-коричневый (45 градусов) 
   
 Возвращает 1. 
   

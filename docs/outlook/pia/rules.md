@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3281d87f72c043803ad52cc00d3c5e971da00aba
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334890"
 ---
 # <a name="rules"></a>Правила
 
@@ -20,7 +20,7 @@ ms.locfileid: "28710491"
 
 ## <a name="in-this-section"></a>В этой статье
 
-|Раздел|Описание|
+|Статья|Описание|
 |:----|:----------|
 |[Создание правила для передачи почтовых элементов от руководителя и их пометки к исполнению](how-to-create-a-rule-to-file-mail-items-from-a-manager-and-flag-them-for-follow-up.md)  |Задание правила для передачи почтовых элементов от руководителя пользователя и их пометки к исполнению.|
 |[Мгновенное выполнение правила](how-to-execute-a-rule-instantly.md)  |Мгновенное выполнение правила с помощью метода [Execute(Object, Object, Object, Object)](https://msdn.microsoft.com/library/bb645769\(v=office.15\)) объекта [Rule](https://msdn.microsoft.com/library/bb647152\(v=office.15\)).|

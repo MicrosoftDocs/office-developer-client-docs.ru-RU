@@ -6,21 +6,21 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 38aedff8-e7b5-0758-c573-0ffa6a244c9c
-description: Эта справка содержит раздел Общие сведения и ссылки на разделы, включая примеры, которые помогут вам в разработке решений с помощью формат файла Visio.
+description: В этой справочной статье содержится общий обзорный раздел и справочные материалы, в том числе примеры, которые помогут вам разрабатывать решения с форматом файлов Visio.
 ms.openlocfilehash: 28e7541515720c5516ce45cd48274becedd63cf3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396787"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335604"
 ---
 # <a name="visio-file-format-reference"></a>Справочник по форматам файлов Visio
 
-Эта справка содержит раздел Общие сведения и ссылки на разделы, включая примеры, которые помогут вам в разработке решений с помощью формат файла Visio (\*vsdx (en)).
+В этой справочной статье содержится концептуальный обзор раздела и справочных разделов, в том числе примеры, которые помогут вам разрабатывать решения\*с форматом файлов Visio (vsdx).
   
-Мы будем рады, комментарии и вопросы по этот контент. Можно отправить отзыв [docthis@microsoft.com](mailto:docthis@microsoft.com).
+Мы ждем ваших комментариев и вопросов по этому содержимому. Вы можете отправить свой отзыв по адресу [docthis@microsoft.com](mailto:docthis@microsoft.com).
   
- **Начальное публикации**: Октябрь 2012 г. | **Обновлено**: марта 2013 г.
+ **Первая публикация**: 2012 октября | **Обновлено**: Март 2013
   
 Эта документация включает следующие сведения:
   
@@ -28,16 +28,16 @@ ms.locfileid: "25396787"
     
 - [Программное управление форматами файлов Visio](how-to-manipulate-the-visio-file-format-programmatically.md)
     
-- [Карта схемы](schema-mapvisio-xml.md): отображение схемы XML в формат файлов Visio.
+- [Карта схемы](schema-mapvisio-xml.md): ОТОБРАЖАЕТ схему XML для формата файлов Visio.
     
-- [Элементы](elementsvisio-xml.md): сведения о XML-элементы, которые могут появляться в формате Visio.
+- [Elements](elementsvisio-xml.md): содержит сведения об элементах XML, которые могут отображаться в формате файла Visio.
     
-- [Типы](typesvisio-xml.md): сведения о типах XML, которые могут появляться в формате Visio.
+- [Types](typesvisio-xml.md): предоставляет сведения о типах XML, которые могут отображаться в формате файла Visio.
     
 ## <a name="see-also"></a>См. также
 
-- [Visio для разработчиков (en)](https://msdn.microsoft.com/office/aa905478.aspx) 
-- [Специальные возможности в продуктах Майкрософт (Возможно, на английском языке)](https://www.microsoft.com/enable/products/default.aspx)
+- [Visio для разработчиков](https://msdn.microsoft.com/office/aa905478.aspx) 
+- [Специальные возможности в продуктах Майкрософт](https://www.microsoft.com/enable/products/default.aspx)
 - [Обозначения в документации](https://msdn.microsoft.com/office/aa905365.aspx) 
 - [Уведомление об авторских правах пакета SDK Visio](visio-sdk-copyright-notice.md)
 

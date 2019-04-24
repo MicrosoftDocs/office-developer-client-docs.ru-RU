@@ -1,5 +1,5 @@
 ---
-title: IConverterSessionSetTextWrapping
+title: Иконвертерсессионсеттекствраппинг
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8674b288-43a3-6376-35ca-9dbaa3a1851e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a89f6dd14e8bbea9d0d4145dc05bf332af95234a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8a6546c38c629c193c1978998c95918943fe5c7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573636"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336633"
 ---
 # <a name="iconvertersessionsettextwrapping"></a>IConverterSession::SetTextWrapping
 
@@ -25,7 +25,7 @@ ms.locfileid: "22573636"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает ширину потока MIME, который возвращает преобразователь в [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md)обтекания.
+Задает ширину обтекания текста для потока MIME, который будет возвращен преобразователем в [иконвертерсессион:: мапитомиместм](iconvertersession-mapitomimestm.md).
   
 ```cpp
 HRESULT IConverterSession::SetTextWrapping ( 
@@ -36,13 +36,13 @@ HRESULT IConverterSession::SetTextWrapping (
 
 ## <a name="parameters"></a>Параметры
 
- *fWrapText* 
+ *Фвраптекст* 
   
-> [in] Следует ли перенос текста или нет.
+> возврата Указывает, следует ли переносить текст или нет.
     
- *ulWrapWidth* 
+ *Улврапвидс* 
   
-> [in] Текст, перенос ширины для использования.
+> возврата Используемая ширина обтекания текста.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -56,8 +56,8 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |Mfcmapi (en) используется MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |Mfcmapi (en) используется MAPIToMIMEStm для преобразования MAPI сообщения EML-файла.  <br/> |
+|Мапимиме. cpp  <br/> |Импортемлтоимессаже  <br/> |MFCMAPI использует Миметомапи для преобразования EML файла в сообщение MAPI.  <br/> |
+|Мапимиме. cpp  <br/> |Експортимессажетоемл  <br/> |MFCMAPI использует Мапитомиместм для преобразования сообщения MAPI в файл EML.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

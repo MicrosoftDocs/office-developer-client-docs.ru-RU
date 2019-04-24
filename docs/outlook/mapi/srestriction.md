@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: c12b4409-da6f-480b-87af-1e5baea2e8bd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5f8a76cb317ac9bf1b6a4dc4a92b6d6f0098e1d7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a2a6d273495df52adb83393dc5549b0872c8f6f3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577403"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341743"
 ---
 # <a name="srestriction"></a>SRestriction
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Описание фильтр ограничения представления таблицы в конкретной строки. 
+Описывает фильтр для ограничения представления таблицы определенными строками. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SRestriction
@@ -55,78 +55,78 @@ typedef struct _SRestriction
 
 ## <a name="members"></a>Members
 
- **время выполнения**
+ **RT**
   
-> Тип ограничения. Ниже приведены возможные значения: 
+> Тип ограничения. Возможны следующие значения: 
     
-RES_AND 
+РЕС_АНД 
   
-> Ограничения **и** применяет побитовую операцию **и** ограничение. 
+> Ограничение **** , которое применяет к ограничению операцию побитового **и** . 
     
-RES_BITMASK 
+РЕС_БИТМАСК 
   
-> Ограничение Битовая маска применяется Битовая маска значение свойства.
+> Ограничение битовой маски, которое применяет битовую маску к значению свойства.
     
-RES_COMMENT 
+РЕС_КОММЕНТ 
   
-> Ограничение комментарий связывает комментария с ограничением.
+> Ограничение комментария, которое связывает комментарий с ограничением.
     
-RES_COMPAREPROPS 
+РЕС_КОМПАРЕПРОПС 
   
-> Ограничение свойства сравнения, который сравнивает два значения свойств.
+> Ограничение на сравнение свойств, которое сравнивает два значения свойств.
     
-RES_CONTENT 
+РЕС_КОНТЕНТ 
   
-> Контента ограничение, которая осуществляет поиск значения для определенного содержимого.
+> Ограничение содержимого, которое выполняет поиск определенного содержимого в значении свойства.
     
-RES_EXIST 
+РЕС_ЕКСИСТ 
   
-> Ограничение exist определяет, поддерживается ли свойство.
+> Ограничение exist, определяющее, поддерживается ли свойство.
     
-RES_NOT 
+РЕС_НОТ 
   
-> **Не** ограничение, который применим логическая операция **не** ограничение. 
+> Ограничение **Not** , которое применяет логическую операцию **Not** к ограничению. 
     
-RES_OR 
+РЕС_ОР 
   
-> **Или** ограничение, который применим к ограничению логической операции **или** . 
+> Ограничение **** , которое применяет логическую операцию **или** к ограничению. 
     
-RES_PROPERTY 
+РЕС_ПРОПЕРТИ 
   
-> Ограничение свойства определяет, соответствует ли значение свойства определенного значения.
+> Ограничение свойства, которое определяет, совпадает ли значение свойства с определенным значением.
     
-RES_SIZE 
+РЕС_СИЗЕ 
   
-> Ограничения размера, который определяет, является ли значение свойства определенного размера.
+> Ограничение размера, определяющее, является ли значение свойства определенным размером.
     
-RES_SUBRESTRICTION 
+РЕС_СУБРЕСТРИКТИОН 
   
-> Ограничение дочерний объект применяет ограничение для вложения или получателей сообщения.
+> Ограничение вложенного объекта, которое применяет ограничение к вложениям или получателям сообщения.
     
- **RES**
+ **распределение**
   
-> Объединение структур ограничений, описывающих фильтр нужно применить. Определенную структуру, включенные в элемент **res** зависит от значение элемента **rt** . В следующей таблице указано сопоставление между тип ограничения и структуры. 
+> Объединение структур ограничений, описывающих применяемый фильтр. Конкретная структура, включенная в состав элемента **RES** , зависит от значения элемента **RT** . Сопоставление типа и структуры ограничения представлено в следующей таблице. 
     
 |||
 |:-----|:-----|
-|**Тип ограничения** <br/> |**Ограничение структуры** <br/> |
-|RES_AND  <br/> |[SAndRestriction](sandrestriction.md) <br/> |
-|RES_BITMASK  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |
-|RES_COMMENT  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |
-|RES_COMPAREPROPS  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |
-|RES_CONTENT  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |
-|RES_EXIST  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |
-|RES_NOT  <br/> |[SNotRestriction](snotrestriction.md) <br/> |
-|RES_OR  <br/> |[SOrRestriction](sorrestriction.md) <br/> |
-|RES_PROPERTY  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |
-|RES_SIZE  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |
-|RES_SUBRESTRICTION  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |
+|**Тип ограничения** <br/> |**Структура ограничения** <br/> |
+|РЕС_АНД  <br/> |[SAndRestriction](sandrestriction.md) <br/> |
+|РЕС_БИТМАСК  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |
+|РЕС_КОММЕНТ  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |
+|РЕС_КОМПАРЕПРОПС  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |
+|РЕС_КОНТЕНТ  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |
+|РЕС_ЕКСИСТ  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |
+|РЕС_НОТ  <br/> |[SNotRestriction](snotrestriction.md) <br/> |
+|РЕС_ОР  <br/> |[SOrRestriction](sorrestriction.md) <br/> |
+|РЕС_ПРОПЕРТИ  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |
+|РЕС_СИЗЕ  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |
+|РЕС_СУБРЕСТРИКТИОН  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Клиенты используют структуру **SRestriction** для ограничения числа и типа строк в режиме таблицы и для поиска конкретных сообщений в папке. Чтобы наложить ограничение на таблицу клиентов вызовите [IMAPITable::Restrict](imapitable-restrict.md) или [IMAPITable::FindRow](imapitable-findrow.md). Чтобы наложить ограничение на папку, клиенты вызовите метод [IMAPIContainer::SetSearchCriteria](imapicontainer-setsearchcriteria.md) папки. 
+Клиенты используют структуру **срестриктион** для ограничения числа и типа строк в представлении таблицы, а также для поиска определенных сообщений в папке. Чтобы наложить ограничение на таблицу, клиенты вызывают вызов [IMAPITable:: restrict](imapitable-restrict.md) или [IMAPITable:: FindRow](imapitable-findrow.md). Чтобы наложить ограничение на папку, клиенты вызывают метод [IMAPIContainer:: сетсеарчкритериа](imapicontainer-setsearchcriteria.md) папки. 
   
-Для получения сведений об использовании ограничения с таблицами, обратитесь к разделу [О ограничения](about-restrictions.md). 
+Дополнительные сведения об ограничениях на использование таблиц приведены в статье [об ограничениях](about-restrictions.md). 
   
 ## <a name="see-also"></a>См. также
 

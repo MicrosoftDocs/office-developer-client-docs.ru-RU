@@ -1,5 +1,5 @@
 ---
-title: Реализация одноразовой таблицы контейнеров
+title: Реализация одноразовой таблицы контейнера
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,21 +8,21 @@ api_type:
 - COM
 ms.assetid: eabbde74-49a1-4eeb-a01d-67e45ae4b343
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: d468943f84f1d23f1b4b84881e69cee0041a5bae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 72dc73b6ed8519be2d8010544fdd5dc5b7b0f759
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332888"
 ---
-# <a name="implementing-a-container-one-off-table"></a>Реализация одноразовой таблицы контейнеров
+# <a name="implementing-a-container-one-off-table"></a>Реализация одноразовой таблицы контейнера
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Для доступа к таблице одноразовых, относящегося к одному из вашего контейнеров, MAPI вызывает метод [IMAPIProp::OpenProperty](imapiprop-openproperty.md) контейнера, чтобы открыть свойство **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) с **IMAPITable** интерфейс. Контейнера запрос для возврата его одноразовых таблицы при попытке добавить получателя в контейнере клиентского приложения. Если контейнер разрешает получателям, ваш поставщик может возвращаются собственная реализация таблицы или вызова [IMAPISupport::GetOneOffTable](imapisupport-getoneofftable.md) для возврата реализации интерфейса MAPI. 
+Для доступа к односторонней таблице, принадлежащей одному из контейнеров, MAPI вызывает метод контейнера [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , чтобы открыть свойство **пр_креате_темплатес** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) с помощью **IMAPITable** . взаимодействия. В вашем контейнере предлагается возврат обратной таблицы, когда клиентское приложение пытается добавить получателя в контейнер. Если контейнер позволяет любому получателю, поставщик может возвратить свою собственную реализацию или вызов [имаписуппорт:: жетонеоффтабле](imapisupport-getoneofftable.md) , чтобы вернуть реализацию MAPI. 
   
-Набор шаблонов в таблице одноразовых контейнер должны отражаться тип получателей, которые могут содержать конкретным контейнером. Как правило включает один или два шаблоны, шаблоны для создания отдельного пользователя обмена мгновенными сообщениями или список рассылки. Идентификаторы записей для этих шаблонов хранятся в свойства **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)) и **PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md)). Тем не менее контейнеры являются далеко не только следующие типы записей. Они могут содержать других типов получателей или записи без получателя каталоги. 
+Набор шаблонов в таблице отбираемых контейнеров должен отражать тип получателей, которые могут храниться в определенном контейнере. Как правило, это включает один или два шаблона, шаблоны для создания отдельного пользователя обмена сообщениями или списка рассылки. Идентификаторы записей для этих шаблонов хранятся в свойствах **пр_деф_креате_маилусер** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md)) и **пр_деф_креате_дл** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)). Однако контейнеры не ограничиваются этими типами записей. Они могут содержать других типов получателей или записей, отличных от получателей, таких как каталоги. 
   
 

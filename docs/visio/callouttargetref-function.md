@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c67cfd32-5911-d8e9-dd51-fd4885dd2b0d
-description: Возвращает ссылку листа на конечную фигуру выноски фигуры.
-ms.openlocfilehash: 1b0cb7c6737a810a0ade65f19afaff7bb4b9f616
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает ссылку на лист с конечной формой фигуры выноски.
+ms.openlocfilehash: aeeb919fb2efc175d8e5ce23f464503c13331249
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337249"
 ---
 # <a name="callouttargetref-function"></a>Функция CALLOUTTARGETREF
 
-Возвращает ссылку листа на конечную фигуру выноски фигуры.
+Возвращает ссылку на лист с конечной формой фигуры выноски.
   
 ## <a name="version-information"></a>Сведения о версии
 
@@ -25,20 +25,20 @@ ms.locfileid: "19813304"
   
 ## <a name="syntax"></a>Синтаксис
 
-CALLOUTTARGETREF()!
+CALLOUTTARGETREF ()!
   
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Справочник по таблице свойств фигуры
+Ссылка на таблицу свойств фигуры
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Если фигура не является фигурой выноски или не связана с конечную фигуру, CALLOUTTARGETREF возвращает #REF.
+Если фигура не является фигурой выноски или не связана с целевой фигурой, CALLOUTTARGETREF возвращает #REF.
   
 ## <a name="example"></a>Пример
 
-CALLOUTTARGETREF()! Высота 
+CALLOUTTARGETREF ()! Полноразмерные 
   
-Возвращает значение в ячейке высоту фигуры, связанный с этим вызовом. 
+Возвращает значение в ячейке Height фигуры, связанной с вызываемым вызываемым вызываемым вызываемым выноски. 
   
 

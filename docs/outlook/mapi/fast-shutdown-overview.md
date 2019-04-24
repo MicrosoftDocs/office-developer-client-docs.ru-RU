@@ -7,49 +7,49 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: a7830d73-427c-4f8b-86f4-51e040c142c3
-description: 'Последнее изменение: 26 июня 2012 г.'
-ms.openlocfilehash: 8b8335fb2722e193f0eab1288b8ffdb2aa62df8b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Дата последнего изменения: 26 июня 2012 года'
+ms.openlocfilehash: 8c33214b04e7c41eab173196c09f145c20ddf219
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341103"
 ---
 # <a name="fast-shutdown-overview"></a>Обзор быстрого завершения работы
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Быстрое завершение работы — это механизм для клиента MAPI для инициации быстрого завершения процесса клиента, уведомления всех поставщиков, с которыми у клиента было активного сеанса MAPI для сохранения данных и параметров до завершения процесса клиента. В этом разделе описывается базовый механизм быстрое завершение работы. 
+Быстрое завершение работы — это механизм, позволяющий клиенту MAPI инициировать быстрое завершение работы клиентского процесса, уведомляя всех поставщиков, с которыми клиент имеет активный сеанс MAPI, чтобы сохранить данные и параметры до того, как клиентский процесс завершит работу. В этом разделе описывается базовый механизм быстрого завершения работы. 
 
-Начиная с Microsoft Outlook 2010, теперь включительно, Microsoft Outlook 2013, подсистема MAPI предоставляет [IMAPIClientShutdown: IUnknown](imapiclientshutdowniunknown.md) интерфейса. Outlook и другие клиенты MAPI могут принимают быстрое завершение работы как механизмом по умолчанию, чтобы завершить процесс клиента. Параметр уровня пользователя в реестре Windows на клиентском компьютере управляет внедрения быстрое завершение работы для всех клиентов MAPI для этого пользователя на этом компьютере. Для получения дополнительных сведений о параметрах реестра видеть [Fast параметры завершения работы пользователя](fast-shutdown-user-options.md).
+Начиная с Microsoft Outlook 2010 и теперь включая Microsoft Outlook 2013, подсистема MAPI предоставляет интерфейс [метод imapiclientshutdown: IUnknown](imapiclientshutdowniunknown.md) . В качестве механизма по умолчанию для выхода из клиентского процесса можно применять быстрое завершение работы Outlook и других клиентов MAPI. Параметр уровня пользователя в реестре Windows клиентского компьютера управляет внедрением быстрого завершения работы всех клиентов MAPI для этого пользователя на этом компьютере. Сведения о параметрах реестра приведены в разделе [Параметры быстрого завершения работы пользователя](fast-shutdown-user-options.md).
   
-Если клиент MAPI должен принять быстрое завершение работы, необходимо использовать **IMAPIClientShutdown: IUnknown** интерфейса. Ниже приведен типичный ход событий при попытке завершить работу. 
+Если клиент MAPI должен применять быстрое завершение работы, он должен использовать интерфейс **метод imapiclientshutdown: IUnknown** . Ниже приведен типичный порядок событий при попытке клиента завершить работу. 
   
-1. Клиент MAPI инициирует завершение работы путем вызова метода [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) , чтобы определить, поддерживает ли подсистемы MAPI быстрое завершение работы. 
+1. Клиент MAPI инициирует завершение работы, вызывая метод [метод imapiclientshutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) , чтобы определить, поддерживает ли подсистема MAPI быстрое завершение работы. 
     
-2. Подсистема MAPI с поддержкой доступные быстрое завершение работы отвечает на запросы с вызова **IMAPIClientShutdown::QueryFastShutdown** клиента с помощью следующей процедуры: 
+2. Подсистема MAPI отвечает за доступную поддержку быстрого завершения работы для вызова **метод imapiclientshutdown:: QueryFastShutdown** клиента, используя следующую процедуру: 
     
-    1. Подсистема MAPI вызывает метод [IMAPIProviderShutdown::QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) для каждого поставщика MAPI, с которым процесс клиента MAPI имеет активного сеанса MAPI, если поставщик производитель реализовал [IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md) интерфейс. 
+    1. Подсистема MAPI вызывает метод [IMAPIProviderShutdown:: QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) для каждого поставщика MAPI, с которым клиентский процесс MAPI имеет активный сеанс MAPI, если поставщик реализует [интерфейс IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md) взаимодействия. 
         
        > [!NOTE]
-       >  Подсистема MAPI всегда запрашивает и уведомляет поставщики MAPI через **IMAPIProviderShutdown: IUnknown** интерфейс в пределах каждого сеанса MAPI в следующем порядке:
-       > 1. Поставщиками транспорта
-       > 2. Поставщиками адресных книг
-       > 3. Поставщики хранилища 
+       >  Подсистема MAPI всегда запрашивает и уведомляет поставщиков MAPI с помощью интерфейса **IMAPIProviderShutdown: IUnknown** в каждом сеансе MAPI в следующем порядке:
+       > 1. Поставщики транспорта
+       > 2. Поставщики адресных книг
+       > 3. Поставщики услуг хранения 
     
-    2. В зависимости от того, параметр реестра быстрое завершение работы для этого пользователя на клиентском компьютере в подсистеме MAPI указывает, что соответствующий код возврата для **IMAPIClientShutdown::QueryFastShutdown**. Код возврата — значение S_OK или MAPI_E_NO_SUPPORT.
+    2. В зависимости от параметра быстрого завершения работы реестра для этого пользователя на клиентском компьютере подсистема MAPI указывает соответствующий код возврата для **метод imapiclientshutdown:: QueryFastShutdown**. Код возврата — значение S_OK или МАПИ_Е_НО_СУППОРТ.
         
-    3. Клиент MAPI вызывает метод [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) для указания подсистемы MAPI намерения завершить работу. 
+    3. Клиент MAPI вызывает метод [метод imapiclientshutdown:: нотифипроцессшутдовн](imapiclientshutdown-notifyprocessshutdown.md) , чтобы показать подсистеме MAPI намерение завершить работу. 
         
-    4. Подсистема MAPI указывает всех загруженных поставщиков MAPI, клиент MAPI завершит работу. Для поставщиков, реализованный **IMAPIProviderShutdown: IUnknown** интерфейс, подсистемы MAPI вызывает соответствующий метод [IMAPIProviderShutdown::NotifyProcessShutdown](imapiprovidershutdown-notifyprocessshutdown.md) . 
+    4. Подсистема MAPI указывает каждому загруженному поставщику MAPI, что клиент MAPI завершает работу. Для тех поставщиков, которые реализовали интерфейс **IMAPIProviderShutdown: IUnknown** , подсистема MAPI вызывает соответствующий метод [IMAPIProviderShutdown:: нотифипроцессшутдовн](imapiprovidershutdown-notifyprocessshutdown.md) . 
         
-    5. Клиент MAPI вызывает метод [IMAPIClientShutdown::DoFastShutdown](imapiclientshutdown-dofastshutdown.md) для указания на подсистему MAPI сразу же выходе процесс клиента. 
+    5. Клиент MAPI вызывает метод [метод imapiclientshutdown::D офастшутдовн](imapiclientshutdown-dofastshutdown.md) , чтобы указать подсистему MAPI, что клиентский процесс завершается немедленно. 
         
-    6. Подсистема MAPI указывает каждого загруженных поставщика MAPI, завершает работу процесс клиента MAPI. Для поставщиков, реализованный **IMAPIProviderShutdown: IUnknown** интерфейс, подсистемы MAPI вызывает соответствующий метод [IMAPIProviderShutdown::DoFastShutdown](imapiprovidershutdown-dofastshutdown.md) . На этом этапе поставщики MAPI следует убедитесь, что все необходимые действия, например сохранения данных и параметров, завершения при подготовке клиент MAPI немедленно отключите все ссылки и выйдите из. 
+    6. Подсистема MAPI указывает каждому загруженному поставщику MAPI, что клиентский процесс MAPI завершает работу. Для тех поставщиков, которые реализовали интерфейс **IMAPIProviderShutdown: IUnknown** , подсистема MAPI вызывает соответствующий метод [IMAPIProviderShutdown::D офастшутдовн](imapiprovidershutdown-dofastshutdown.md) . На этом шаге эти поставщики MAPI должны проверить, что все необходимые действия, такие как сохранение данных и параметров, завершаются при подготовке клиента MAPI к немедленному отключению всех ссылок и выходе. 
     
 ## <a name="see-also"></a>См. также
 
 - [Завершение работы клиента в MAPI](client-shutdown-in-mapi.md)
-- [Пользовательские параметры быстрого завершения работы](fast-shutdown-user-options.md)
+- [Параметры быстрого завершения работы пользователя](fast-shutdown-user-options.md)
 - [Рекомендации по быстрому завершению работы](best-practices-for-fast-shutdown.md)
 

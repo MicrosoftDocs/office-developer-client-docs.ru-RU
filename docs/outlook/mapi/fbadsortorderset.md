@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3b3f88495cafbd6ea764ca8901ac67c23749aebe
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 31840923e24cddd0dc3dfa9cc67b610d0dcd7e47
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578579"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336976"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "22578579"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Проверяет, порядок сортировки, задайте убедиться в его выделение памяти. 
+Проверяет порядок сортировки, установленный путем проверки выделения памяти. 
   
 |||
 |:-----|:-----|
@@ -41,22 +41,22 @@ ULONG FBadSortOrderSet(
 
 ## <a name="parameters"></a>Параметры
 
- _lpsos_
+ _лпсос_
   
-> [in] Указатель на структуру [SSortOrderSet](ssortorderset.md) , определяющее порядок сортировки, задайте для проверки. 
+> возврата Указатель на структуру [ссортордерсет](ssortorderset.md) , определяющую порядок сортировки, который необходимо проверить. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 TRUE 
   
-> Набор порядок сортировки указанного является недопустимым. 
+> Указан недопустимый порядок сортировки. 
     
 FALSE 
   
-> Набор порядок сортировки указанного является допустимым.
+> Указан допустимый набор порядка сортировки.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Функция **FBadSortOrderSet** может использоваться для подготовки для вызова метода sort, таких как метод [IMAPITable::SortTable](imapitable-sorttable.md) . 
+Функцию **фбадсортордерсет** можно использовать для подготовки к вызову метода сортировки, такого как метод [IMAPITable:: сорттабле](imapitable-sorttable.md) . 
   
 

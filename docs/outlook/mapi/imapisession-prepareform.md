@@ -1,5 +1,5 @@
 ---
-title: IMAPISessionPrepareForm
+title: Имаписессионпрепареформ
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 98c0eab1-fd7e-46c3-8619-ccd6dc7cf8f7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3d8b1901123743b25b5bb9df174b297398c953b8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393238"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335768"
 ---
 # <a name="imapisessionprepareform"></a>IMAPISession::PrepareForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "25393238"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает числовое маркера, который использует метод [IMAPISession::ShowForm](imapisession-showform.md) для доступа к сообщению. 
+Создает числовой маркер, который метод [IMAPISession:: шовформ](imapisession-showform.md) использует для доступа к сообщению. 
   
 ```cpp
 HRESULT PrepareForm(
@@ -37,17 +37,17 @@ HRESULT PrepareForm(
 
 ## <a name="parameters"></a>Параметры
 
- _lpInterface_
+ _Лпинтерфаце_
   
-> [in] Указатель на идентификатор интерфейса (ИД интерфейса), который представляет интерфейс, который будет использоваться для доступа к сообщения. **Значение null,** результаты тестирования в стандартный интерфейс или [IMessage](imessageimapiprop.md)используется. Параметр _lpInterface_ должно быть **равно null** или IID_IMessage. 
+> возврата Указатель на идентификатор интерфейса (IID), представляющий интерфейс, который будет использоваться для доступа к сообщению. Передача **значений NULL** в стандартный интерфейс (или [iMessage](imessageimapiprop.md)) используется. Параметр _лпинтерфаце_ должен иметь **значение NULL** или иид_имессаже. 
     
- _lpMessage_
+ _Лпмессаже_
   
-> [in] Указатель на сообщение, отображаемое в форме.
+> возврата Указатель на сообщение, отображаемое в форме.
     
- _lpulMessageToken_
+ _Лпулмессажетокен_
   
-> [out] Указатель на маркер сообщения, который используется для доступа к сообщения с помощью метода **IMAPISession::ShowForm** , на который указывает _lpMessage_.
+> вышли Указатель на маркер сообщения, используемый методом **IMAPISession:: шовформ** для доступа к сообщению, на которое указывает _лпмессаже_.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -55,13 +55,13 @@ S_OK
   
 > Подготовка формы выполнена успешно.
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Метод **IMAPISession::PrepareForm** создает маркер сообщения для сообщения, на который указывает параметр _lpMessage_ и вызывает метод [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) сообщение. Этот маркер передается в параметре _ulMessageToken_ **IMAPISession::ShowForm**. 
+Метод **IMAPISession::P репареформ** создает маркер сообщения для сообщения, на который указывает параметр _лпмессаже_ , и вызывает метод [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx) сообщения. Этот маркер передается в параметре _улмессажетокен_ в **IMAPISession:: шовформ**. 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-При успешном вызове **PrepareForm** освобождение сообщения, на который указывает _lpMessage_ путем вызова метода [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) до вызова метода **ShowForm**. Освобождение сообщения, прежде чем вызывать **ShowForm** можно привести утечки памяти. 
+Если вызов **препареформ** выполнен успешно, освободите сообщение, на которое указывает _лпмессаже_ , вызвав его метод [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) перед вызовом **шовформ**. Сбой при освобождении сообщения перед вызовом **шовформ** может привести к утечке памяти. 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -69,7 +69,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MAPIFormFunctions.cpp  <br/> |OpenMessageModal  <br/> |Mfcmapi (en) использует метод **IMAPISession::PrepareForm** , а также **IMAPISession::ShowForm**для отображения сообщения в модальную форму.  <br/> |
+|Мапиформфунктионс. cpp  <br/> |Опенмессажемодал  <br/> |MFCMAPI использует метод **IMAPISession::P репареформ** вместе с **IMAPISession:: шовформ**, чтобы отобразить сообщение в модальной форме.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

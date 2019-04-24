@@ -1,42 +1,42 @@
 ---
-title: Ячейка DocLockDuplicatePage (раздел "Свойства документа")
+title: DocLockDuplicatePage Cell (Document Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b08a6558-519f-44e0-aeff-9919544d515e
-description: Определяет ли страниц в документе может быть реализовано, типа Boolean.
-ms.openlocfilehash: 97bca23a7dc9150f66eb0c87834fca72c215448b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, могут ли страницы в документе дублироваться в виде логического значения.
+ms.openlocfilehash: 3f3274c6cfadb81ef514a179279bdaed3543b654
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338544"
 ---
-# <a name="doclockduplicatepage-cell-document-properties-section"></a>Ячейка DocLockDuplicatePage (раздел "Свойства документа")
+# <a name="doclockduplicatepage-cell-document-properties-section"></a>DocLockDuplicatePage Cell (Document Properties Section)
 
-Определяет ли страниц в документе может быть реализовано, типа Boolean.
+Определяет, могут ли страницы в документе дублироваться в виде логического значения.
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**Дублируется** в контекстное меню страницы и метод автоматизации **Page.Duplicate** оба отключены.  <br/> |
-|FALSE  <br/> |Страница может быть реализовано.  <br/> |
+|TRUE  <br/> |**Дублировать** в контекстном меню страницы и на **странице. повторяющиеся** методы автоматизации отключены.  <br/> |
+|FALSE  <br/> |Страница может дублироваться.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Для получения ссылки на ячейки **DocLockDuplicatePage** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **DocLockDuplicatePage** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | DocLockDuplicatePage  <br/> |
+| Имя ячейки:  <br/> | DocLockDuplicatePage  <br/> |
    
-Для получения ссылки на ячейки **DocLockDuplicatePage** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **DocLockDuplicatePage** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowDoc** <br/> |
-| Индекс ячейки:  <br/> |**visDocLockDuplicatePage** <br/> |
+| Индекс строки:  <br/> |**Висровдок** <br/> |
+| Индекс ячейки:  <br/> |**Висдоклоккдупликатепаже** <br/> |
    
 

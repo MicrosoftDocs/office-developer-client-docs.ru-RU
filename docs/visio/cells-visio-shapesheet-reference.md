@@ -1,860 +1,860 @@
 ---
-title: Ячейки (Справочник по таблице свойств фигуры Visio)
+title: Ячейки (Справочник по таблице свойств фигур Visio)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 85a4c93c-13ad-4a66-9e2c-627661f24082
-ms.openlocfilehash: 7f86c25965a9981250f0782c0ebe7ff0c62dc935
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 252d7d59cedfa463280b97864276315be9954c86
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813429"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341946"
 ---
-# <a name="cells-visio-shapesheet-reference"></a>Ячейки (Справочник по таблице свойств фигуры Visio)
+# <a name="cells-visio-shapesheet-reference"></a>Ячейки (Справочник по таблице свойств фигур Visio)
 
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
-- [Ячейка A (раздел "Геометрия")](a-cell-geometry-section.md)
+- [A Cell (Geometry Section)](a-cell-geometry-section.md)
     
-- [Ячейка Action (раздел "Действия")](action-cell-actions-section.md)
+- [Action Cell (Actions Section)](action-cell-actions-section.md)
     
-- [Ячейка Active (раздел "Слои")](active-cell-layers-section.md)
+- [Active Cell (Layers Section)](active-cell-layers-section.md)
     
-- [Ячейка AddMarkup (раздел "Свойства документа")](addmarkup-cell-document-properties-section.md)
+- [AddMarkup Cell (Document Properties Section)](addmarkup-cell-document-properties-section.md)
     
-- [Ячейка Address (раздел "Гиперссылки")](address-cell-hyperlinks-section.md)
+- [Address Cell (Hyperlinks Section)](address-cell-hyperlinks-section.md)
     
-- [Ячейка AlignBottom (раздел "Выравнивание")](alignbottom-cell-alignment-section.md)
+- [AlignBottom Cell (Alignment Section)](alignbottom-cell-alignment-section.md)
     
-- [Ячейка AlignCenter (раздел "Выравнивание")](aligncenter-cell-alignment-section.md)
+- [AlignCenter Cell (Alignment Section)](aligncenter-cell-alignment-section.md)
     
-- [Ячейка AlignLeft (раздел "Выравнивание")](alignleft-cell-alignment-section.md)
+- [AlignLeft Cell (Alignment Section)](alignleft-cell-alignment-section.md)
     
-- [Ячейка Alignment (раздел "Вкладки")](alignment-cell-tabs-section.md)
+- [Alignment Cell (Tabs Section)](alignment-cell-tabs-section.md)
     
-- [Ячейка AlignMiddle (раздел "Выравнивание")](alignmiddle-cell-alignment-section.md)
+- [AlignMiddle Cell (Alignment Section)](alignmiddle-cell-alignment-section.md)
     
-- [Ячейка AlignRight (раздел "Выравнивание")](alignright-cell-alignment-section.md)
+- [AlignRight Cell (Alignment Section)](alignright-cell-alignment-section.md)
     
-- [Ячейка AlignTop (раздел "Выравнивание")](aligntop-cell-alignment-section.md)
+- [AlignTop Cell (Alignment Section)](aligntop-cell-alignment-section.md)
     
-- [Ячейка Angle (раздел "Преобразование фигур")](angle-cell-shape-transform-section.md)
+- [Angle Cell (Shape Transform Section)](angle-cell-shape-transform-section.md)
     
-- [Ячейка AsianFont (раздел "Символ")](asianfont-cell-character-section.md)
+- [AsianFont Cell (Character Section)](asianfont-cell-character-section.md)
     
-- [Ячейка Ask (раздел "Данные фигуры")](ask-cell-shape-data-section.md)
+- [Ask Cell (Shape Data Section)](ask-cell-shape-data-section.md)
     
-- [Ячейка AvenueSizeX (раздел "Макет страницы")](avenuesizex-cell-page-layout-section.md)
+- [AvenueSizeX Cell (Page Layout Section)](avenuesizex-cell-page-layout-section.md)
     
-- [Ячейка AvenueSizeY (раздел "Макет страницы")](avenuesizey-cell-page-layout-section.md)
+- [AvenueSizeY Cell (Page Layout Section)](avenuesizey-cell-page-layout-section.md)
     
-- [Ячейка AvoidPageBreaks (раздел "Макет страницы")](avoidpagebreaks-cell-page-layout-section.md)
+- [AvoidPageBreaks Cell (Page Layout Section)](avoidpagebreaks-cell-page-layout-section.md)
     
-- [Ячейка B (раздел "Геометрия")](b-cell-geometry-section.md)
+- [B Cell (Geometry Section)](b-cell-geometry-section.md)
     
-- [Ячейка BeginArrow (раздел "Формат линий")](beginarrow-cell-line-format-section.md)
+- [BeginArrow Cell (Line Format Section)](beginarrow-cell-line-format-section.md)
     
-- [Ячейка BeginArrowSize (раздел "Формат линий")](beginarrowsize-cell-line-format-section.md)
+- [BeginArrowSize Cell (Line Format Section)](beginarrowsize-cell-line-format-section.md)
     
-- [Ячейка BeginGroup (раздел "Действия")](begingroup-cell-actions-section.md)
+- [BeginGroup Cell (Actions Section)](begingroup-cell-actions-section.md)
     
-- [Ячейка BeginX (раздел "Одномерные конечные точки")](beginx-cell-1-d-endpoints-section.md)
+- [BeginX Cell (1-D Endpoints Section)](beginx-cell-1-d-endpoints-section.md)
     
-- [Ячейка BeginY (раздел "Одномерные конечные точки")](beginy-cell-1-d-endpoints-section.md)
+- [BeginY Cell (1-D Endpoints Section)](beginy-cell-1-d-endpoints-section.md)
     
-- [Ячейка BegTrigger (раздел "Сведения о приклеивании")](begtrigger-cell-glue-info-section.md)
+- [BegTrigger Cell (Glue Info Section)](begtrigger-cell-glue-info-section.md)
     
-- [Ячейка BevelBottomHeight (раздел "Свойства багетной рамки")](bevelbottomheight-cell-bevel-properties-section.md)
+- [BevelBottomHeight Cell (Bevel Properties Section)](bevelbottomheight-cell-bevel-properties-section.md)
     
-- [Ячейка BevelBottomType (раздел "Свойства багетной рамки")](bevelbottomtype-cell-bevel-properties-section.md)
+- [BevelBottomType Cell (Bevel Properties Section)](bevelbottomtype-cell-bevel-properties-section.md)
     
-- [Ячейка BevelBottomWidth (раздел "Свойства багетной рамки")](bevelbottomwidth-cell-bevel-properties-section.md)
+- [BevelBottomWidth Cell (Bevel Properties Section)](bevelbottomwidth-cell-bevel-properties-section.md)
     
-- [Ячейка BevelContourColor (раздел "Свойства багетной рамки")](bevelcontourcolor-cell-bevel-properties-section.md)
+- [BevelContourColor Cell (Bevel Properties Section)](bevelcontourcolor-cell-bevel-properties-section.md)
     
-- [Ячейка BevelContourSize (раздел "Свойства багетной рамки")](bevelcontoursize-cell-bevel-properties-section.md)
+- [BevelContourSize Cell (Bevel Properties Section)](bevelcontoursize-cell-bevel-properties-section.md)
     
-- [Ячейка BevelDepthColor (раздел "Свойства багетной рамки")](beveldepthcolor-cell-bevel-properties-section.md)
+- [BevelDepthColor Cell (Bevel Properties Section)](beveldepthcolor-cell-bevel-properties-section.md)
     
-- [Ячейка BevelDepthSize (раздел "Свойства багетной рамки")](beveldepthsize-cell-bevel-properties-section.md)
+- [BevelDepthSize Cell (Bevel Properties Section)](beveldepthsize-cell-bevel-properties-section.md)
     
-- [Ячейка BevelLightingAngle (раздел "Свойства багетной рамки")](bevellightingangle-cell-bevel-properties-section.md)
+- [BevelLightingAngle Cell (Bevel Properties Section)](bevellightingangle-cell-bevel-properties-section.md)
     
-- [Ячейка BevelLightingType (раздел "Свойства багетной рамки")](bevellightingtype-cell-bevel-properties-section.md)
+- [BevelLightingType Cell (Bevel Properties Section)](bevellightingtype-cell-bevel-properties-section.md)
     
-- [Ячейка BevelMaterialType (раздел "Свойства багетной рамки")](bevelmaterialtype-cell-bevel-properties-section.md)
+- [BevelMaterialType Cell (Bevel Properties Section)](bevelmaterialtype-cell-bevel-properties-section.md)
     
-- [Ячейка BevelTopHeight (раздел "Свойства багетной рамки")](beveltopheight-cell-bevel-properties-section.md)
+- [BevelTopHeight Cell (Bevel Properties Section)](beveltopheight-cell-bevel-properties-section.md)
     
-- [Ячейка BevelTopType (раздел "Свойства багетной рамки")](beveltoptype-cell-bevel-properties-section.md)
+- [BevelTopType Cell (Bevel Properties Section)](beveltoptype-cell-bevel-properties-section.md)
     
-- [Ячейка BevelTopWidth (раздел "Свойства багетной рамки")](beveltopwidth-cell-bevel-properties-section.md)
+- [BevelTopWidth Cell (Bevel Properties Section)](beveltopwidth-cell-bevel-properties-section.md)
     
-- [Ячейка BlockSizeX (раздел "Макет страницы")](blocksizex-cell-page-layout-section.md)
+- [BlockSizeX Cell (Page Layout Section)](blocksizex-cell-page-layout-section.md)
     
-- [Ячейка BlockSizeY (раздел "Макет страницы")](blocksizey-cell-page-layout-section.md)
+- [BlockSizeY Cell (Page Layout Section)](blocksizey-cell-page-layout-section.md)
     
-- [Ячейка Blur (раздел "Свойства изображения")](blur-cell-image-properties-section.md)
+- [Blur Cell (Image Properties Section)](blur-cell-image-properties-section.md)
     
-- [Ячейка BottomMargin (раздел "Формат текстового блока")](bottommargin-cell-text-block-format-section.md)
+- [BottomMargin Cell (Text Block Format Section)](bottommargin-cell-text-block-format-section.md)
     
-- [Ячейка Brightness (раздел "Свойства изображения")](brightness-cell-image-properties-section.md)
+- [Brightness Cell (Image Properties Section)](brightness-cell-image-properties-section.md)
     
-- [Ячейка Bullet (раздел "Абзац")](bullet-cell-paragraph-section.md)
+- [Bullet Cell (Paragraph Section)](bullet-cell-paragraph-section.md)
     
-- [Ячейка BulletFont (раздел "Абзац")](bulletfont-cell-paragraph-section.md)
+- [BulletFont Cell (Paragraph Section)](bulletfont-cell-paragraph-section.md)
     
-- [Ячейка BulletSize (раздел "Абзац")](bulletsize-cell-paragraph-section.md)
+- [BulletSize Cell (Paragraph Section)](bulletsize-cell-paragraph-section.md)
     
-- [Ячейка BulletString (раздел "Абзац")](bulletstring-cell-paragraph-section.md)
+- [BulletString Cell (Paragraph Section)](bulletstring-cell-paragraph-section.md)
     
-- [Ячейка ButtonFace (раздел "Теги действий")](buttonface-cell-action-tags-section.md)
+- [ButtonFace Cell (Action Tags Section)](buttonface-cell-action-tags-section.md)
     
-- [Ячейка ButtonFace (раздел "Действия")](buttonface-cell-actions-section.md)
+- [ButtonFace Cell (Actions Section)](buttonface-cell-actions-section.md)
     
-- [Ячейка C (раздел "Геометрия")](c-cell-geometry-section.md)
+- [C Cell (Geometry Section)](c-cell-geometry-section.md)
     
-- [Ячейка Calendar (раздел "Прочее")](calendar-cell-miscellaneous-section.md)
+- [Calendar Cell (Miscellaneous Section)](calendar-cell-miscellaneous-section.md)
     
-- [Ячейка Calendar (раздел "Данные фигуры")](calendar-cell-shape-data-section.md)
+- [Calendar Cell (Shape Data Section)](calendar-cell-shape-data-section.md)
     
-- [Ячейка Calendar (раздел "Текстовые поля")](calendar-cell-text-fields-section.md)
+- [Calendar Cell (Text Fields Section)](calendar-cell-text-fields-section.md)
     
-- [Ячейка Can Glue (раздел "Элементы управления")](can-glue-cell-controls-section.md)
+- [Can Glue Cell (Controls Section)](can-glue-cell-controls-section.md)
     
-- [Ячейка Case (раздел "Символ")](case-cell-character-section.md)
+- [Case Cell (Character Section)](case-cell-character-section.md)
     
-- [Ячейка CenterX (раздел "Свойства печати")](centerx-cell-print-properties-section.md)
+- [CenterX Cell (Print Properties Section)](centerx-cell-print-properties-section.md)
     
-- [Ячейка CenterY (раздел "Свойства печати")](centery-cell-print-properties-section.md)
+- [CenterY Cell (Print Properties Section)](centery-cell-print-properties-section.md)
     
-- [Ячейка Checked (раздел "Действия")](checked-cell-actions-section.md)
+- [Checked Cell (Actions Section)](checked-cell-actions-section.md)
     
-- [Ячейка ClippingPath (раздел "Сведения о внешнем изображении")](clippingpath-cell-foreign-image-info-section.md)
+- [ClippingPath Cell (Foreign Image Info Section)](clippingpath-cell-foreign-image-info-section.md)
     
-- [Ячейка Color (раздел "Символ")](color-cell-character-section.md)
+- [Color Cell (Character Section)](color-cell-character-section.md)
     
-- [Ячейка Color (раздел "Слои")](color-cell-layers-section.md)
+- [Color Cell (Layers Section)](color-cell-layers-section.md)
     
-- [Ячейка Color (раздел "Рецензент")](color-cell-reviewer-section.md)
+- [Color Cell (Reviewer Section)](color-cell-reviewer-section.md)
     
-- [Ячейка ColorSchemeIndex (раздел "Свойства темы")](colorschemeindex-cell-theme-properties-section.md)
+- [ColorSchemeIndex Cell (Theme Properties Section)](colorschemeindex-cell-theme-properties-section.md)
     
-- [Ячейка Comment (раздел "Примечание")](comment-cell-annotation-section.md)
+- [Comment Cell (Annotation Section)](comment-cell-annotation-section.md)
     
-- [Ячейка Comment (раздел "Прочее")](comment-cell-miscellaneous-section.md)
+- [Comment Cell (Miscellaneous Section)](comment-cell-miscellaneous-section.md)
     
-- [Ячейка ComplexScriptFont (раздел "Символ")](complexscriptfont-cell-character-section.md)
+- [ComplexScriptFont Cell (Character Section)](complexscriptfont-cell-character-section.md)
     
-- [Ячейка ComplexScriptSize (раздел "Символ")](complexscriptsize-cell-character-section.md)
+- [ComplexScriptSize Cell (Character Section)](complexscriptsize-cell-character-section.md)
     
-- [Ячейка CompoundType (раздел "Формат линий")](compoundtype-cell-line-format-section.md)
+- [CompoundType Cell (Line Format Section)](compoundtype-cell-line-format-section.md)
     
-- [Ячейка ConFixedCode (раздел "Макет фигуры")](confixedcode-cell-shape-layout-section.md)
+- [ConFixedCode Cell (Shape Layout Section)](confixedcode-cell-shape-layout-section.md)
     
-- [Ячейка ConLineJumpCode (раздел "Макет фигуры")](conlinejumpcode-cell-shape-layout-section.md)
+- [ConLineJumpCode Cell (Shape Layout Section)](conlinejumpcode-cell-shape-layout-section.md)
     
-- [Ячейка ConLineJumpDirX (раздел "Макет фигуры")](conlinejumpdirx-cell-shape-layout-section.md)
+- [ConLineJumpDirX Cell (Shape Layout Section)](conlinejumpdirx-cell-shape-layout-section.md)
     
-- [Ячейка ConLineJumpDirY (раздел "Макет фигуры")](conlinejumpdiry-cell-shape-layout-section.md)
+- [ConLineJumpDirY Cell (Shape Layout Section)](conlinejumpdiry-cell-shape-layout-section.md)
     
-- [Ячейка ConLineJumpStyle (раздел "Макет фигуры")](conlinejumpstyle-cell-shape-layout-section.md)
+- [ConLineJumpStyle Cell (Shape Layout Section)](conlinejumpstyle-cell-shape-layout-section.md)
     
-- [Ячейка ConLineRouteExt (раздел "Макет фигуры")](conlinerouteext-cell-shape-layout-section.md)
+- [ConLineRouteExt Cell (Shape Layout Section)](conlinerouteext-cell-shape-layout-section.md)
     
-- [Ячейка ConnectorSchemeIndex (раздел "Свойства темы")](connectorschemeindex-cell-theme-properties-section.md)
+- [ConnectorSchemeIndex Cell (Theme Properties Section)](connectorschemeindex-cell-theme-properties-section.md)
     
-- [Ячейка Contrast (раздел "Свойства изображения")](contrast-cell-image-properties-section.md)
+- [Contrast Cell (Image Properties Section)](contrast-cell-image-properties-section.md)
     
-- [Ячейка CtrlAsInput (раздел "Макет страницы")](ctrlasinput-cell-page-layout-section.md)
+- [CtrlAsInput Cell (Page Layout Section)](ctrlasinput-cell-page-layout-section.md)
     
-- [Ячейка D (раздел "Точки соединения")](d-cell-connection-points-section.md)
+- [D Cell (Connection Points Section)](d-cell-connection-points-section.md)
     
-- [Ячейка D (раздел "Геометрия")](d-cell-geometry-section.md)
+- [D Cell (Geometry Section)](d-cell-geometry-section.md)
     
-- [Ячейка Date (раздел "Примечание")](date-cell-annotation-section.md)
+- [Date Cell (Annotation Section)](date-cell-annotation-section.md)
     
-- [Ячейка Default (раздел "Гиперссылки")](default-cell-hyperlinks-section.md)
+- [Default Cell (Hyperlinks Section)](default-cell-hyperlinks-section.md)
     
-- [Ячейка DefaultTabstop (раздел "Формат текстового блока")](defaulttabstop-cell-text-block-format-section.md)
+- [DefaultTabstop Cell (Text Block Format Section)](defaulttabstop-cell-text-block-format-section.md)
     
-- [Ячейка Denoise (раздел "Свойства изображения")](denoise-cell-image-properties-section.md)
+- [Denoise Cell (Image Properties Section)](denoise-cell-image-properties-section.md)
     
-- [Ячейка Description (раздел "Теги действий")](description-cell-action-tags-section.md)
+- [Description Cell (Action Tags Section)](description-cell-action-tags-section.md)
     
-- [Ячейка Description (раздел "Гиперссылки")](description-cell-hyperlinks-section.md)
+- [Description Cell (Hyperlinks Section)](description-cell-hyperlinks-section.md)
     
-- [Ячейка DirX / A (раздел "Точки соединения")](dirxa-cell-connection-points-section.md)
+- [DirX / A Cell (Connection Points Section)](dirxa-cell-connection-points-section.md)
     
-- [Ячейка DirY / B (раздел "Точки соединения")](diryb-cell-connection-points-section.md)
+- [DirY / B Cell (Connection Points Section)](diryb-cell-connection-points-section.md)
     
-- [Ячейка Disabled (раздел "Теги действий")](disabled-cell-action-tags-section.md)
+- [Disabled Cell (Action Tags Section)](disabled-cell-action-tags-section.md)
     
-- [Ячейка Disabled (раздел "Действия")](disabled-cell-actions-section.md)
+- [Disabled Cell (Actions Section)](disabled-cell-actions-section.md)
     
-- [Ячейка DisplayLevel (раздел "Макет фигуры")](displaylevel-cell-shape-layout-section.md)
+- [DisplayLevel Cell (Shape Layout Section)](displaylevel-cell-shape-layout-section.md)
     
-- [Ячейка DisplayMode (раздел "Свойства группы")](displaymode-cell-group-properties-section.md)
+- [DisplayMode Cell (Group Properties Section)](displaymode-cell-group-properties-section.md)
     
-- [Ячейка DisplayMode (раздел "Теги действий")](displaymode-cell-action-tags-section.md)
+- [DisplayMode Cell (Action Tags Section)](displaymode-cell-action-tags-section.md)
     
-- [Ячейка DistanceFromGround (раздел "Свойства поворота объемной фигуры")](distancefromground-cell-3-d-rotation-properties.md)
+- [DistanceFromGround Cell (3-D Rotation Properties)](distancefromground-cell-3-d-rotation-properties.md)
     
-- [Ячейка DocLangID (раздел "Свойства документа")](doclangid-cell-document-properties-section.md)
+- [DocLangID Cell (Document Properties Section)](doclangid-cell-document-properties-section.md)
     
-- [Ячейка DocLockDuplicatePage (раздел "Свойства документа")](doclockduplicatepage-cell-document-properties-section.md)
+- [DocLockDuplicatePage Cell (Document Properties Section)](doclockduplicatepage-cell-document-properties-section.md)
     
-- [Ячейка DocLockReplace (раздел "Свойства документа")](doclockreplace-cell-document-properties-section.md)
+- [DocLockReplace Cell (Document Properties Section)](doclockreplace-cell-document-properties-section.md)
     
-- [Ячейка DontMoveChildren (раздел "Свойства группы")](dontmovechildren-cell-group-properties-section.md)
+- [DontMoveChildren Cell (Group Properties Section)](dontmovechildren-cell-group-properties-section.md)
     
-- [Ячейка DoubleStrikethrough (раздел "Символ")](doublestrikethrough-cell-character-section.md)
+- [DoubleStrikethrough Cell (Character Section)](doublestrikethrough-cell-character-section.md)
     
-- [Ячейка DoubleULine (раздел "Символ")](doubleuline-cell-character-section.md)
+- [DoubleULine Cell (Character Section)](doubleuline-cell-character-section.md)
     
-- [Ячейка DrawingResizeType (раздел "Свойства страницы")](drawingresizetype-cell-page-properties-section.md)
+- [DrawingResizeType Cell (Page Properties Section)](drawingresizetype-cell-page-properties-section.md)
     
-- [Ячейка DrawingScale (раздел "Свойства страницы")](drawingscale-cell-page-properties-section.md)
+- [DrawingScale Cell (Page Properties Section)](drawingscale-cell-page-properties-section.md)
     
-- [Ячейка DrawingScaleType (раздел "Свойства страницы")](drawingscaletype-cell-page-properties-section.md)
+- [DrawingScaleType Cell (Page Properties Section)](drawingscaletype-cell-page-properties-section.md)
     
-- [Ячейка DrawingSizeType (раздел "Свойства страницы")](drawingsizetype-cell-page-properties-section.md)
+- [DrawingSizeType Cell (Page Properties Section)](drawingsizetype-cell-page-properties-section.md)
     
-- [Ячейка DropOnPageScale (раздел "Прочее")](droponpagescale-cell-miscellaneous-section.md)
+- [DropOnPageScale Cell (Miscellaneous Section)](droponpagescale-cell-miscellaneous-section.md)
     
-- [Ячейка DynamicsOff (раздел "Макет страницы")](dynamicsoff-cell-page-layout-section.md)
+- [DynamicsOff Cell (Page Layout Section)](dynamicsoff-cell-page-layout-section.md)
     
-- [Ячейка DynFeedback (раздел "Прочее")](dynfeedback-cell-miscellaneous-section.md)
+- [DynFeedback Cell (Miscellaneous Section)](dynfeedback-cell-miscellaneous-section.md)
     
-- [Ячейка E (раздел "Геометрия")](e-cell-geometry-section.md)
+- [E Cell (Geometry Section)](e-cell-geometry-section.md)
     
-- [Ячейка EffectSchemeIndex (раздел "Свойства темы")](effectschemeindex-cell-theme-properties-section.md)
+- [EffectSchemeIndex Cell (Theme Properties Section)](effectschemeindex-cell-theme-properties-section.md)
     
-- [Ячейка EmbellishmentIndex (раздел "Свойства темы")](embellishmentindex-cell-theme-properties-section.md)
+- [EmbellishmentIndex Cell (Theme Properties Section)](embellishmentindex-cell-theme-properties-section.md)
     
-- [Ячейка EnableFillProps (раздел "Свойства стиля")](enablefillprops-cell-style-properties-section.md)
+- [EnableFillProps Cell (Style Properties Section)](enablefillprops-cell-style-properties-section.md)
     
-- [Ячейка EnableGrid (раздел "Макет страницы")](enablegrid-cell-page-layout-section.md)
+- [EnableGrid Cell (Page Layout Section)](enablegrid-cell-page-layout-section.md)
     
-- [Ячейка EnableLineProps (раздел "Свойства стиля")](enablelineprops-cell-style-properties-section.md)
+- [EnableLineProps Cell (Style Properties Section)](enablelineprops-cell-style-properties-section.md)
     
-- [Ячейка EnableTextProps (раздел "Свойства стиля")](enabletextprops-cell-style-properties-section.md)
+- [EnableTextProps Cell (Style Properties Section)](enabletextprops-cell-style-properties-section.md)
     
-- [Ячейка EndArrow (раздел "Формат линий")](endarrow-cell-line-format-section.md)
+- [EndArrow Cell (Line Format Section)](endarrow-cell-line-format-section.md)
     
-- [Ячейка EndArrowSize (раздел "Формат линий")](endarrowsize-cell-line-format-section.md)
+- [EndArrowSize Cell (Line Format Section)](endarrowsize-cell-line-format-section.md)
     
-- [Ячейка EndTrigger (раздел "Сведения о приклеивании")](endtrigger-cell-glue-info-section.md)
+- [EndTrigger Cell (Glue Info Section)](endtrigger-cell-glue-info-section.md)
     
-- [Ячейка EndX (раздел "Одномерные конечные точки")](endx-cell-1-d-endpoints-section.md)
+- [EndX Cell (1-D Endpoints Section)](endx-cell-1-d-endpoints-section.md)
     
-- [Ячейка EndY (раздел "Одномерные конечные точки")](endy-cell-1-d-endpoints-section.md)
+- [EndY Cell (1-D Endpoints Section)](endy-cell-1-d-endpoints-section.md)
     
-- [Ячейка EventDblClick (раздел "События")](eventdblclick-cell-events-section.md)
+- [EventDblClick Cell (Events Section)](eventdblclick-cell-events-section.md)
     
-- [Ячейка EventDrop (раздел "События")](eventdrop-cell-events-section.md)
+- [EventDrop Cell (Events Section)](eventdrop-cell-events-section.md)
     
-- [Ячейка EventMultiDrop (раздел "События")](eventmultidrop-cell-events-section.md)
+- [EventMultiDrop Cell (Events Section)](eventmultidrop-cell-events-section.md)
     
-- [Ячейка EventXFMod (раздел "События")](eventxfmod-cell-events-section.md)
+- [EventXFMod Cell (Events Section)](eventxfmod-cell-events-section.md)
     
-- [Ячейка ExtraInfo (раздел "Гиперссылки")](extrainfo-cell-hyperlinks-section.md)
+- [ExtraInfo Cell (Hyperlinks Section)](extrainfo-cell-hyperlinks-section.md)
     
-- [Ячейка FillBkgnd (раздел "Формат заливки")](fillbkgnd-cell-fill-format-section.md)
+- [FillBkgnd Cell (Fill Format Section)](fillbkgnd-cell-fill-format-section.md)
     
-- [Ячейка FillBkgndTrans (раздел "Формат заливки")](fillbkgndtrans-cell-fill-format-section.md)
+- [FillBkgndTrans Cell (Fill Format Section)](fillbkgndtrans-cell-fill-format-section.md)
     
-- [Ячейка FillForegnd (раздел "Формат заливки")](fillforegnd-cell-fill-format-section.md)
+- [FillForegnd Cell (Fill Format Section)](fillforegnd-cell-fill-format-section.md)
     
-- [Ячейка FillForegndTrans (раздел "Формат заливки")](fillforegndtrans-cell-fill-format-section.md)
+- [FillForegndTrans Cell (Fill Format Section)](fillforegndtrans-cell-fill-format-section.md)
     
-- [Ячейка FillGradientAngle (раздел "Свойства градиента")](fillgradientangle-cell-gradient-properties-section.md)
+- [FillGradientAngle Cell (Gradient Properties Section)](fillgradientangle-cell-gradient-properties-section.md)
     
-- [Ячейка FillGradientDir (раздел "Свойства градиента")](fillgradientdir-cell-gradient-properties-section.md)
+- [FillGradientDir Cell (Gradient Properties Section)](fillgradientdir-cell-gradient-properties-section.md)
     
-- [Ячейка FillGradientEnabled (раздел "Свойства градиента")](fillgradientenabled-cell-gradient-properties-section.md)
+- [FillGradientEnabled Cell (Gradient Properties Section)](fillgradientenabled-cell-gradient-properties-section.md)
     
-- [Ячейка FillPattern (раздел "Формат заливки")](fillpattern-cell-fill-format-section.md)
+- [FillPattern Cell (Fill Format Section)](fillpattern-cell-fill-format-section.md)
     
-- [Ячейка Flags (раздел "Абзац")](flags-cell-paragraph-section.md)
+- [Flags Cell (Paragraph Section)](flags-cell-paragraph-section.md)
     
-- [Ячейка FlipX (раздел "Преобразование фигуры")](flipx-cell-shape-transform-section.md)
+- [FlipX Cell (Shape Transform Section)](flipx-cell-shape-transform-section.md)
     
-- [Ячейка FlipY (раздел "Преобразование фигуры")](flipy-cell-shape-transform-section.md)
+- [FlipY Cell (Shape Transform Section)](flipy-cell-shape-transform-section.md)
     
-- [Ячейка FlyoutChild (раздел "Действия")](flyoutchild-cell-actions-section.md)
+- [FlyoutChild Cell (Actions Section)](flyoutchild-cell-actions-section.md)
     
-- [Ячейка Font (раздел "Символ")](font-cell-character-section.md)
+- [Font Cell (Character Section)](font-cell-character-section.md)
     
-- [Ячейка FontSchemeIndex (раздел "Свойства темы")](fontschemeindex-cell-theme-properties-section.md)
+- [FontSchemeIndex Cell (Theme Properties Section)](fontschemeindex-cell-theme-properties-section.md)
     
-- [Ячейка Format (раздел "Данные фигуры")](format-cell-shape-data-section.md)
+- [Format Cell (Shape Data Section)](format-cell-shape-data-section.md)
     
-- [Ячейка Format (раздел "Текстовые поля")](format-cell-text-fields-section.md)
+- [Format Cell (Text Fields Section)](format-cell-text-fields-section.md)
     
-- [Ячейка Frame (раздел "Гиперссылки")](frame-cell-hyperlinks-section.md)
+- [Frame Cell (Hyperlinks Section)](frame-cell-hyperlinks-section.md)
     
-- [Ячейка Gamma (раздел "Свойства изображения")](gamma-cell-image-properties-section.md)
+- [Gamma Cell (Image Properties Section)](gamma-cell-image-properties-section.md)
     
-- [Ячейка GlowColor (раздел "Дополнительные свойства эффекта")](glowcolor-cell-additional-effect-properties-section.md)
+- [GlowColor Cell (Additional Effect Properties Section)](glowcolor-cell-additional-effect-properties-section.md)
     
-- [Ячейка GlowColorTrans (раздел "Дополнительные свойства эффекта")](glowcolortrans-cell-additional-effect-properties-section.md)
+- [GlowColorTrans Cell (Additional Effect Properties Section)](glowcolortrans-cell-additional-effect-properties-section.md)
     
-- [Ячейка GlowSize (раздел "Дополнительные свойства эффекта")](glowsize-cell-additional-effect-properties-section.md)
+- [GlowSize Cell (Additional Effect Properties Section)](glowsize-cell-additional-effect-properties-section.md)
     
-- [Ячейка Glue (раздел "Слои")](glue-cell-layers-section.md)
+- [Glue Cell (Layers Section)](glue-cell-layers-section.md)
     
-- [Ячейка GlueType (раздел "Сведения о приклеивании")](gluetype-cell-glue-info-section.md)
+- [GlueType Cell (Glue Info Section)](gluetype-cell-glue-info-section.md)
     
-- [Ячейка HAlign (раздел "Абзац")](halign-cell-paragraph-section.md)
+- [HAlign Cell (Paragraph Section)](halign-cell-paragraph-section.md)
     
-- [Ячейка Height (раздел "Преобразование фигуры")](height-cell-shape-transform-section.md)
+- [Height Cell (Shape Transform Section)](height-cell-shape-transform-section.md)
     
-- [Ячейка HideForApply (раздел "Свойства стиля")](hideforapply-cell-style-properties-section.md)
+- [HideForApply Cell (Style Properties Section)](hideforapply-cell-style-properties-section.md)
     
-- [Ячейка HideText (раздел "Прочее")](hidetext-cell-miscellaneous-section.md)
+- [HideText Cell (Miscellaneous Section)](hidetext-cell-miscellaneous-section.md)
     
-- [Ячейка ImgHeight (раздел "Сведения о внешнем изображении")](imgheight-cell-foreign-image-info-section.md)
+- [ImgHeight Cell (Foreign Image Info Section)](imgheight-cell-foreign-image-info-section.md)
     
-- [Ячейка ImgOffsetX (раздел "Сведения о внешнем изображении")](imgoffsetx-cell-foreign-image-info-section.md)
+- [ImgOffsetX Cell (Foreign Image Info Section)](imgoffsetx-cell-foreign-image-info-section.md)
     
-- [Ячейка ImgOffsetY (раздел "Сведения о внешнем изображении")](imgoffsety-cell-foreign-image-info-section.md)
+- [ImgOffsetY Cell (Foreign Image Info Section)](imgoffsety-cell-foreign-image-info-section.md)
     
-- [Ячейка ImgWidth (раздел "Сведения о внешнем изображении")](imgwidth-cell-foreign-image-info-section.md)
+- [ImgWidth Cell (Foreign Image Info Section)](imgwidth-cell-foreign-image-info-section.md)
     
-- [Ячейка IndFirst (раздел "Абзац")](indfirst-cell-paragraph-section.md)
+- [IndFirst Cell (Paragraph Section)](indfirst-cell-paragraph-section.md)
     
-- [Ячейка IndLeft (раздел "Абзац")](indleft-cell-paragraph-section.md)
+- [IndLeft Cell (Paragraph Section)](indleft-cell-paragraph-section.md)
     
-- [Ячейка IndRight (раздел "Абзац")](indright-cell-paragraph-section.md)
+- [IndRight Cell (Paragraph Section)](indright-cell-paragraph-section.md)
     
-- [Ячейка InhibitSnap (раздел "Свойства страницы")](inhibitsnap-cell-page-properties-section.md)
+- [InhibitSnap Cell (Page Properties Section)](inhibitsnap-cell-page-properties-section.md)
     
-- [Ячейка Initials (раздел "Рецензент")](initials-cell-reviewer-section.md)
+- [Initials Cell (Reviewer Section)](initials-cell-reviewer-section.md)
     
-- [Ячейка Invisible (раздел "Действия")](invisible-cell-actions-section.md)
+- [Invisible Cell (Actions Section)](invisible-cell-actions-section.md)
     
-- [Ячейка Invisible (раздел "Гиперссылки")](invisible-cell-hyperlinks-section.md)
+- [Invisible Cell (Hyperlinks Section)](invisible-cell-hyperlinks-section.md)
     
-- [Ячейка Invisible (раздел "Данные фигуры")](invisible-cell-shape-data-section.md)
+- [Invisible Cell (Shape Data Section)](invisible-cell-shape-data-section.md)
     
-- [Ячейка IsDropSource (раздел "Прочее")](isdropsource-cell-miscellaneous-section.md)
+- [IsDropSource Cell (Miscellaneous Section)](isdropsource-cell-miscellaneous-section.md)
     
-- [Ячейка IsDropTarget (раздел "Свойства группы")](isdroptarget-cell-group-properties-section.md)
+- [IsDropTarget Cell (Group Properties Section)](isdroptarget-cell-group-properties-section.md)
     
-- [Ячейка IsSnapTarget (раздел "Свойства группы")](issnaptarget-cell-group-properties-section.md)
+- [IsSnapTarget Cell (Group Properties Section)](issnaptarget-cell-group-properties-section.md)
     
-- [Ячейка IsTextEditTarget (раздел "Свойства группы")](istextedittarget-cell-group-properties-section.md)
+- [IsTextEditTarget Cell (Group Properties Section)](istextedittarget-cell-group-properties-section.md)
     
-- [Ячейка KeepTextFlat (раздел "Свойства поворота объемной фигуры")](keeptextflat-cell-3-d-rotation-properties-section.md)
+- [KeepTextFlat Cell (3-D Rotation Properties Section)](keeptextflat-cell-3-d-rotation-properties-section.md)
     
-- [Ячейка Label (раздел "Данные фигуры")](label-cell-shape-data-section.md)
+- [Label Cell (Shape Data Section)](label-cell-shape-data-section.md)
     
-- [Ячейка LangID (раздел "Данные фигуры")](langid-cell-shape-data-section.md)
+- [LangID Cell (Shape Data Section)](langid-cell-shape-data-section.md)
     
-- [Ячейка LangID (раздел "Прочее")](langid-cell-miscellaneous-section.md)
+- [LangID Cell (Miscellaneous Section)](langid-cell-miscellaneous-section.md)
     
-- [Ячейка LangID (раздел "Символ")](langid-cell-character-section.md)
+- [LangID Cell (Character Section)](langid-cell-character-section.md)
     
-- [Ячейка LangID (раздел "Примечание")](langid-cell-annotation-section.md)
+- [LangID Cell (Annotation Section)](langid-cell-annotation-section.md)
     
-- [Ячейка LeftMargin (раздел "Формат текстового блока")](leftmargin-cell-text-block-format-section.md)
+- [LeftMargin Cell (Text Block Format Section)](leftmargin-cell-text-block-format-section.md)
     
-- [Ячейка LineAdjustFrom (раздел "Макет страницы")](lineadjustfrom-cell-page-layout-section.md)
+- [LineAdjustFrom Cell (Page Layout Section)](lineadjustfrom-cell-page-layout-section.md)
     
-- [Ячейка LineAdjustTo (раздел "Макет страницы")](lineadjustto-cell-page-layout-section.md)
+- [LineAdjustTo Cell (Page Layout Section)](lineadjustto-cell-page-layout-section.md)
     
-- [Ячейка LineCap (раздел "Формат линий")](linecap-cell-line-format-section.md)
+- [LineCap Cell (Line Format Section)](linecap-cell-line-format-section.md)
     
-- [Ячейка LineColor (раздел "Формат линий")](linecolor-cell-line-format-section.md)
+- [LineColor Cell (Line Format Section)](linecolor-cell-line-format-section.md)
     
-- [Ячейка LineColorTrans (раздел "Формат линий")](linecolortrans-cell-line-format-section.md)
+- [LineColorTrans Cell (Line Format Section)](linecolortrans-cell-line-format-section.md)
     
-- [Ячейка LineGradientAngle (раздел "Свойства градиента")](linegradientangle-cell-gradient-properties-section.md)
+- [LineGradientAngle Cell (Gradient Properties Section)](linegradientangle-cell-gradient-properties-section.md)
     
-- [Ячейка LineGradientDir (раздел "Свойства градиента")](linegradientdir-cell-gradient-properties-section.md)
+- [LineGradientDir Cell (Gradient Properties Section)](linegradientdir-cell-gradient-properties-section.md)
     
-- [Ячейка LineGradientEnabled (раздел "Свойства градиента")](linegradientenabled-cell-gradient-properties-section.md)
+- [LineGradientEnabled Cell (Gradient Properties Section)](linegradientenabled-cell-gradient-properties-section.md)
     
-- [Ячейка LineJumpCode (раздел "Макет страницы")](linejumpcode-cell-page-layout-section.md)
+- [LineJumpCode Cell (Page Layout Section)](linejumpcode-cell-page-layout-section.md)
     
-- [Ячейка LineJumpFactorX (раздел "Макет страницы")](linejumpfactorx-cell-page-layout-section.md)
+- [LineJumpFactorX Cell (Page Layout Section)](linejumpfactorx-cell-page-layout-section.md)
     
-- [Ячейка LineJumpFactorY (раздел "Макет страницы")](linejumpfactory-cell-page-layout-section.md)
+- [LineJumpFactorY Cell (Page Layout Section)](linejumpfactory-cell-page-layout-section.md)
     
-- [Ячейка LineJumpStyle (раздел "Макет страницы")](linejumpstyle-cell-page-layout-section.md)
+- [LineJumpStyle Cell (Page Layout Section)](linejumpstyle-cell-page-layout-section.md)
     
-- [Ячейка LinePattern (раздел "Формат линий")](linepattern-cell-line-format-section.md)
+- [LinePattern Cell (Line Format Section)](linepattern-cell-line-format-section.md)
     
-- [Ячейка LineRouteExt (раздел "Макет страницы")](linerouteext-cell-page-layout-section.md)
+- [LineRouteExt Cell (Page Layout Section)](linerouteext-cell-page-layout-section.md)
     
-- [Ячейка LineToLineX (раздел "Макет страницы")](linetolinex-cell-page-layout-section.md)
+- [LineToLineX Cell (Page Layout Section)](linetolinex-cell-page-layout-section.md)
     
-- [Ячейка LineToLineY (раздел "Макет страницы")](linetoliney-cell-page-layout-section.md)
+- [LineToLineY Cell (Page Layout Section)](linetoliney-cell-page-layout-section.md)
     
-- [Ячейка LineToNodeX (раздел "Макет страницы")](linetonodex-cell-page-layout-section.md)
+- [LineToNodeX Cell (Page Layout Section)](linetonodex-cell-page-layout-section.md)
     
-- [Ячейка LineToNodeY (раздел "Макет страницы")](linetonodey-cell-page-layout-section.md)
+- [LineToNodeY Cell (Page Layout Section)](linetonodey-cell-page-layout-section.md)
     
-- [Ячейка LineWeight (раздел "Формат линий")](lineweight-cell-line-format-section.md)
+- [LineWeight Cell (Line Format Section)](lineweight-cell-line-format-section.md)
     
-- [Ячейка LocalizeMerge (раздел "Прочее")](localizemerge-cell-miscellaneous-section.md)
+- [LocalizeMerge Cell (Miscellaneous Section)](localizemerge-cell-miscellaneous-section.md)
     
-- [Ячейка Lock (раздел "Слои")](lock-cell-layers-section.md)
+- [Lock Cell (Layers Section)](lock-cell-layers-section.md)
     
-- [Ячейка LockAspect (раздел "Защита")](lockaspect-cell-protection-section.md)
+- [LockAspect Cell (Protection Section)](lockaspect-cell-protection-section.md)
     
-- [Ячейка LockBegin (раздел "Защита")](lockbegin-cell-protection-section.md)
+- [LockBegin Cell (Protection Section)](lockbegin-cell-protection-section.md)
     
-- [Ячейка LockCalcWH (раздел "Защита")](lockcalcwh-cell-protection-section.md)
+- [LockCalcWH Cell (Protection Section)](lockcalcwh-cell-protection-section.md)
     
-- [Ячейка LockCrop (раздел "Защита")](lockcrop-cell-protection-section.md)
+- [LockCrop Cell (Protection Section)](lockcrop-cell-protection-section.md)
     
-- [Ячейка LockCustProp (раздел "Защита")](lockcustprop-cell-protection-section.md)
+- [LockCustProp Cell (Protection Section)](lockcustprop-cell-protection-section.md)
     
-- [Ячейка LockDelete (раздел "Защита")](lockdelete-cell-protection-section.md)
+- [LockDelete Cell (Protection Section)](lockdelete-cell-protection-section.md)
     
-- [Ячейка LockEnd (раздел "Защита")](lockend-cell-protection-section.md)
+- [LockEnd Cell (Protection Section)](lockend-cell-protection-section.md)
     
-- [Ячейка LockFormat (раздел "Защита")](lockformat-cell-protection-section.md)
+- [LockFormat Cell (Protection Section)](lockformat-cell-protection-section.md)
     
-- [Ячейка LockFromGroupFormat (раздел "Защита")](lockfromgroupformat-cell-protection-section.md)
+- [LockFromGroupFormat Cell (Protection Section)](lockfromgroupformat-cell-protection-section.md)
     
-- [Ячейка LockGroup (раздел "Защита")](lockgroup-cell-protection-section.md)
+- [LockGroup Cell (Protection Section)](lockgroup-cell-protection-section.md)
     
-- [Ячейка LockHeight (раздел "Защита")](lockheight-cell-protection-section.md)
+- [LockHeight Cell (Protection Section)](lockheight-cell-protection-section.md)
     
-- [Ячейка LockMoveX (раздел "Защита")](lockmovex-cell-protection-section.md)
+- [LockMoveX Cell (Protection Section)](lockmovex-cell-protection-section.md)
     
-- [Ячейка LockMoveY (раздел "Защита")](lockmovey-cell-protection-section.md)
+- [LockMoveY Cell (Protection Section)](lockmovey-cell-protection-section.md)
     
-- [Ячейка LockPreview (раздел "Свойства документа")](lockpreview-cell-document-properties-section.md)
+- [LockPreview Cell (Document Properties Section)](lockpreview-cell-document-properties-section.md)
     
-- [Ячейка LockReplace (раздел "Защита")](lockreplace-cell-protection-section.md)
+- [LockReplace Cell (Protection Section)](lockreplace-cell-protection-section.md)
     
-- [Ячейка LockRotate (раздел "Защита")](lockrotate-cell-protection-section.md)
+- [LockRotate Cell (Protection Section)](lockrotate-cell-protection-section.md)
     
-- [Ячейка LockSelect (раздел "Защита")](lockselect-cell-protection-section.md)
+- [LockSelect Cell (Protection Section)](lockselect-cell-protection-section.md)
     
-- [Ячейка LockTextEdit (раздел "Защита")](locktextedit-cell-protection-section.md)
+- [LockTextEdit Cell (Protection Section)](locktextedit-cell-protection-section.md)
     
-- [Ячейка LockThemeColors (раздел "Защита")](lockthemecolors-cell-protection-section.md)
+- [LockThemeColors Cell (Protection Section)](lockthemecolors-cell-protection-section.md)
     
-- [Ячейка LockThemeConnectors (раздел "Защита")](lockthemeconnectors-cell-protection-section.md)
+- [LockThemeConnectors Cell (Protection Section)](lockthemeconnectors-cell-protection-section.md)
     
-- [Ячейка LockThemeFonts (раздел "Защита")](lockthemefonts-cell-protection-section.md)
+- [LockThemeFonts Cell (Protection Section)](lockthemefonts-cell-protection-section.md)
     
-- [Ячейка LockThemeIndex (раздел "Защита")](lockthemeindex-cell-protection-section.md)
+- [LockThemeIndex Cell (Protection Section)](lockthemeindex-cell-protection-section.md)
     
-- [Ячейка LockThemeEffects (раздел "Защита")](lockthemeeffects-cell-protection-section.md)
+- [LockThemeEffects Cell (Protection Section)](lockthemeeffects-cell-protection-section.md)
     
-- [Ячейка LockVariation (раздел "Защита")](lockvariation-cell-protection-section.md)
+- [LockVariation Cell (Protection Section)](lockvariation-cell-protection-section.md)
     
-- [Ячейка LockVtxEdit (раздел "Защита")](lockvtxedit-cell-protection-section.md)
+- [LockVtxEdit Cell (Protection Section)](lockvtxedit-cell-protection-section.md)
     
-- [Ячейка LockWidth (раздел "Защита")](lockwidth-cell-protection-section.md)
+- [LockWidth Cell (Protection Section)](lockwidth-cell-protection-section.md)
     
-- [Ячейка LocPinX (раздел "Преобразование фигуры")](locpinx-cell-shape-transform-section.md)
+- [LocPinX Cell (Shape Transform Section)](locpinx-cell-shape-transform-section.md)
     
-- [Ячейка LocPinY (раздел "Преобразование фигуры")](locpiny-cell-shape-transform-section.md)
+- [LocPinY Cell (Shape Transform Section)](locpiny-cell-shape-transform-section.md)
     
-- [Ячейка Menu (раздел "Действия")](menu-cell-actions-section.md)
+- [Menu Cell (Actions Section)](menu-cell-actions-section.md)
     
-- [Ячейка Name (раздел "Рецензент")](name-cell-reviewer-section.md)
+- [Name Cell (Reviewer Section)](name-cell-reviewer-section.md)
     
-- [Ячейка NewWindow (раздел "Гиперссылки")](newwindow-cell-hyperlinks-section.md)
+- [NewWindow Cell (Hyperlinks Section)](newwindow-cell-hyperlinks-section.md)
     
-- [Ячейка NoAlignBox (раздел "Прочее")](noalignbox-cell-miscellaneous-section.md)
+- [NoAlignBox Cell (Miscellaneous Section)](noalignbox-cell-miscellaneous-section.md)
     
-- [Ячейка NoCoauth (раздел "Свойства документа")](nocoauth-cell-document-properties-section.md)
+- [NoCoauth Cell (Document Properties Section)](nocoauth-cell-document-properties-section.md)
     
-- [Ячейка NoCtlHandles (раздел "Прочее")](noctlhandles-cell-miscellaneous-section.md)
+- [NoCtlHandles Cell (Miscellaneous Section)](noctlhandles-cell-miscellaneous-section.md)
     
-- [Ячейка NoFill (раздел "Геометрия")](nofill-cell-geometry-section.md)
+- [NoFill Cell (Geometry Section)](nofill-cell-geometry-section.md)
     
-- [Ячейка NoLine (раздел "Геометрия")](noline-cell-geometry-section.md)
+- [NoLine Cell (Geometry Section)](noline-cell-geometry-section.md)
     
-- [Ячейка NoLiveDynamics (раздел "Прочее")](nolivedynamics-cell-miscellaneous-section.md)
+- [NoLiveDynamics Cell (Miscellaneous Section)](nolivedynamics-cell-miscellaneous-section.md)
     
-- [Ячейка NonPrinting (раздел "Прочее")](nonprinting-cell-miscellaneous-section.md)
+- [NonPrinting Cell (Miscellaneous Section)](nonprinting-cell-miscellaneous-section.md)
     
-- [Ячейка NoObjHandles (раздел "Прочее")](noobjhandles-cell-miscellaneous-section.md)
+- [NoObjHandles Cell (Miscellaneous Section)](noobjhandles-cell-miscellaneous-section.md)
     
-- [Ячейка NoProofing (раздел "Прочее")](noproofing-cell-miscellaneous-section.md)
+- [NoProofing Cell (Miscellaneous Section)](noproofing-cell-miscellaneous-section.md)
     
-- [Ячейка NoQuickDrag (раздел "Геометрия")](noquickdrag-cell-geometry-section.md)
+- [NoQuickDrag Cell (Geometry Section)](noquickdrag-cell-geometry-section.md)
     
-- [Ячейка NoShow (раздел "Геометрия")](noshow-cell-geometry-section.md)
+- [NoShow Cell (Geometry Section)](noshow-cell-geometry-section.md)
     
-- [Ячейка NoSnap (раздел "Геометрия")](nosnap-cell-geometry-section.md)
+- [NoSnap Cell (Geometry Section)](nosnap-cell-geometry-section.md)
     
-- [Ячейка ObjectKind (раздел "Текстовые поля")](objectkind-cell-text-fields-section.md)
+- [ObjectKind Cell (Text Fields Section)](objectkind-cell-text-fields-section.md)
     
-- [Ячейка ObjType (раздел "Прочее")](objtype-cell-miscellaneous-section.md)
+- [ObjType Cell (Miscellaneous Section)](objtype-cell-miscellaneous-section.md)
     
-- [Ячейка OnPage (раздел "Свойства печати")](onpage-cell-print-properties-section.md)
+- [OnPage Cell (Print Properties Section)](onpage-cell-print-properties-section.md)
     
-- [Ячейка OutputFormat (раздел "Свойства документа")](outputformat-cell-document-properties-section.md)
+- [OutputFormat Cell (Document Properties Section)](outputformat-cell-document-properties-section.md)
     
-- [Ячейка Overline (раздел "Символ")](overline-cell-character-section.md)
+- [Overline Cell (Character Section)](overline-cell-character-section.md)
     
-- [Ячейка PageBottomMargin (раздел "Свойства печати")](pagebottommargin-cell-print-properties-section.md)
+- [PageBottomMargin Cell (Print Properties Section)](pagebottommargin-cell-print-properties-section.md)
     
-- [Ячейка PageHeight (раздел "Свойства страницы")](pageheight-cell-page-properties-section.md)
+- [PageHeight Cell (Page Properties Section)](pageheight-cell-page-properties-section.md)
     
-- [Ячейка PageLeftMargin (раздел "Свойства печати")](pageleftmargin-cell-print-properties-section.md)
+- [PageLeftMargin Cell (Print Properties Section)](pageleftmargin-cell-print-properties-section.md)
     
-- [Ячейка PageLineJumpDirX (раздел "Макет страницы")](pagelinejumpdirx-cell-page-layout-section.md)
+- [PageLineJumpDirX Cell (Page Layout Section)](pagelinejumpdirx-cell-page-layout-section.md)
     
-- [Ячейка PageLineJumpDirY (раздел "Макет страницы")](pagelinejumpdiry-cell-page-layout-section.md)
+- [PageLineJumpDirY Cell (Page Layout Section)](pagelinejumpdiry-cell-page-layout-section.md)
     
-- [Ячейка PageLockDuplicate (раздел "Свойства страницы")](pagelockduplicate-cell-page-properties-section.md)
+- [PageLockDuplicate Cell (Page Properties Section)](pagelockduplicate-cell-page-properties-section.md)
     
-- [Ячейка PageLockReplace (раздел "Свойства страницы")](pagelockreplace-cell-page-properties-section.md)
+- [PageLockReplace Cell (Page Properties Section)](pagelockreplace-cell-page-properties-section.md)
     
-- [Ячейка PageRightMargin (раздел "Свойства печати")](pagerightmargin-cell-print-properties-section.md)
+- [PageRightMargin Cell (Print Properties Section)](pagerightmargin-cell-print-properties-section.md)
     
-- [Ячейка PageScale (раздел "Свойства страницы")](pagescale-cell-page-properties-section.md)
+- [PageScale Cell (Page Properties Section)](pagescale-cell-page-properties-section.md)
     
-- [Ячейка PageShapeSplit (раздел "Макет страницы")](pageshapesplit-cell-page-layout-section.md)
+- [PageShapeSplit Cell (Page Layout Section)](pageshapesplit-cell-page-layout-section.md)
     
-- [Ячейка PagesX (раздел "Свойства печати")](pagesx-cell-print-properties-section.md)
+- [PagesX Cell (Print Properties Section)](pagesx-cell-print-properties-section.md)
     
-- [Ячейка PagesY (раздел "Свойства печати")](pagesy-cell-print-properties-section.md)
+- [PagesY Cell (Print Properties Section)](pagesy-cell-print-properties-section.md)
     
-- [Ячейка PageTopMargin (раздел "Свойства печати")](pagetopmargin-cell-print-properties-section.md)
+- [PageTopMargin Cell (Print Properties Section)](pagetopmargin-cell-print-properties-section.md)
     
-- [Ячейка PageWidth (раздел "Свойства страницы")](pagewidth-cell-page-properties-section.md)
+- [PageWidth Cell (Page Properties Section)](pagewidth-cell-page-properties-section.md)
     
-- [Ячейка PaperKind (раздел "Свойства печати")](paperkind-cell-print-properties-section.md)
+- [PaperKind Cell (Print Properties Section)](paperkind-cell-print-properties-section.md)
     
-- [Ячейка PaperSource (раздел "Свойства печати")](papersource-cell-printproperties-section.md)
+- [PaperSource Cell (PrintProperties Section)](papersource-cell-printproperties-section.md)
     
-- [Ячейка Perspective (раздел "Свойства поворота объемной фигуры")](perspective-cell-3-d-rotation-properties-section.md)
+- [Perspective Cell (3-D Rotation Properties Section)](perspective-cell-3-d-rotation-properties-section.md)
     
-- [Ячейка PinX (раздел "Преобразование фигуры")](pinx-cell-shape-transform-section.md)
+- [PinX Cell (Shape Transform Section)](pinx-cell-shape-transform-section.md)
     
-- [Ячейка PinY (раздел "Преобразование фигуры")](piny-cell-shape-transform-section.md)
+- [PinY Cell (Shape Transform Section)](piny-cell-shape-transform-section.md)
     
-- [Ячейка PlaceDepth (раздел "Макет страницы")](placedepth-cell-page-layout-section.md)
+- [PlaceDepth Cell (Page Layout Section)](placedepth-cell-page-layout-section.md)
     
-- [Ячейка PlaceFlip (раздел "Макет страницы")](placeflip-cell-page-layout-section.md)
+- [PlaceFlip Cell (Page Layout Section)](placeflip-cell-page-layout-section.md)
     
-- [Ячейка PlaceStyle (раздел "Макет страницы")](placestyle-cell-page-layout-section.md)
+- [PlaceStyle Cell (Page Layout Section)](placestyle-cell-page-layout-section.md)
     
-- [Ячейка PlowCode (раздел "Макет страницы")](plowcode-cell-page-layout-section.md)
+- [PlowCode Cell (Page Layout Section)](plowcode-cell-page-layout-section.md)
     
-- [Ячейка Pos (раздел "Символ")](pos-cell-character-section.md)
+- [Pos Cell (Character Section)](pos-cell-character-section.md)
     
-- [Ячейка Position (раздел "Вкладки")](position-cell-tabs-section.md)
+- [Position Cell (Tabs Section)](position-cell-tabs-section.md)
     
-- [Ячейка PreviewQuality (раздел "Свойства документа")](previewquality-cell-document-properties-section.md)
+- [PreviewQuality Cell (Document Properties Section)](previewquality-cell-document-properties-section.md)
     
-- [Ячейка PreviewScope (раздел "Свойства документа")](previewscope-cell-document-properties-section.md)
+- [PreviewScope Cell (Document Properties Section)](previewscope-cell-document-properties-section.md)
     
-- [Ячейка Print (раздел "Слои")](print-cell-layers-section.md)
+- [Print Cell (Layers Section)](print-cell-layers-section.md)
     
-- [Ячейка PrintGrid (раздел "Свойства печати")](printgrid-cell-print-properties-section.md)
+- [PrintGrid Cell (Print Properties Section)](printgrid-cell-print-properties-section.md)
     
-- [Ячейка PrintPageOrientation (раздел "Свойства печати")](printpageorientation-cell-print-properties-section.md)
+- [PrintPageOrientation Cell (Print Properties Section)](printpageorientation-cell-print-properties-section.md)
     
-- [Ячейка Prompt (раздел "Действия")](prompt-cell-actions-section.md)
+- [Prompt Cell (Actions Section)](prompt-cell-actions-section.md)
     
-- [Ячейка Prompt (раздел "Данные фигуры")](prompt-cell-shape-data-section.md)
+- [Prompt Cell (Shape Data Section)](prompt-cell-shape-data-section.md)
     
-- [Ячейка Prompt (раздел "Пользовательские ячейки")](prompt-cell-user-defined-cells-section.md)
+- [Prompt Cell (User-Defined Cells Section)](prompt-cell-user-defined-cells-section.md)
     
-- [Ячейка QuickStyleEffectsMatrix (раздел "Экспресс-стиль")](quickstyleeffectsmatrix-cell-quick-style-section.md)
+- [QuickStyleEffectsMatrix Cell (Quick Style Section)](quickstyleeffectsmatrix-cell-quick-style-section.md)
     
-- [Ячейка QuickStyleFillColor (раздел "Экспресс-стиль")](quickstylefillcolor-cell-quick-style-section.md)
+- [QuickStyleFillColor Cell (Quick Style Section)](quickstylefillcolor-cell-quick-style-section.md)
     
-- [Ячейка QuickStyleFillMatrix (раздел "Экспресс-стиль")](quickstylefillmatrix-cell-quick-style-section.md)
+- [QuickStyleFillMatrix Cell (Quick Style Section)](quickstylefillmatrix-cell-quick-style-section.md)
     
-- [Ячейка QuickStyleFontColor (раздел "Экспресс-стиль")](quickstylefontcolor-cell-quick-style-section.md)
+- [QuickStyleFontColor Cell (Quick Style Section)](quickstylefontcolor-cell-quick-style-section.md)
     
-- [Ячейка QuickStyleFontMatrix (раздел "Экспресс-стиль")](quickstylefontmatrix-cell-quick-style-section.md)
+- [QuickStyleFontMatrix Cell (Quick Style Section)](quickstylefontmatrix-cell-quick-style-section.md)
     
-- [Ячейка QuickStyleLineColor (раздел "Экспресс-стиль")](quickstylelinecolor-cell-quick-style-section.md)
+- [QuickStyleLineColor Cell (Quick Style Section)](quickstylelinecolor-cell-quick-style-section.md)
     
-- [Ячейка QuickStyleLineMatrix (раздел "Экспресс-стиль")](quickstylelinematrix-cell-quick-style-section.md)
+- [QuickStyleLineMatrix Cell (Quick Style Section)](quickstylelinematrix-cell-quick-style-section.md)
     
-- [Ячейка QuickStyleShadowColor (раздел "Экспресс-стиль")](quickstyleshadowcolor-cell-quick-style-section.md)
+- [QuickStyleShadowColor Cell (Quick Style Section)](quickstyleshadowcolor-cell-quick-style-section.md)
     
-- [Ячейка QuickStyleType (раздел "Экспресс-стиль")](quickstyletype-cell-quick-style-section.md)
+- [QuickStyleType Cell (Quick Style Section)](quickstyletype-cell-quick-style-section.md)
     
-- [Ячейка QuickStyleVariation (раздел "Экспресс-стиль")](quickstylevariation-cell-quick-style-section.md)
+- [QuickStyleVariation Cell (Quick Style Section)](quickstylevariation-cell-quick-style-section.md)
     
-- [Ячейка ReadOnly (раздел "Действия")](readonly-cell-actions-section.md)
+- [ReadOnly Cell (Actions Section)](readonly-cell-actions-section.md)
     
-- [Ячейка ReflectionBlur (раздел "Дополнительные свойства эффекта")](reflectionblur-cell-additional-effect-properties-section.md)
+- [ReflectionBlur Cell (Additional Effect Properties Section)](reflectionblur-cell-additional-effect-properties-section.md)
     
-- [Ячейка ReflectionDist (раздел "Дополнительные свойства эффекта")](reflectiondist-cell-additional-effect-properties-section.md)
+- [ReflectionDist Cell (Additional Effect Properties Section)](reflectiondist-cell-additional-effect-properties-section.md)
     
-- [Ячейка ReflectionSize (раздел "Дополнительные свойства эффекта")](reflectionsize-cell-additional-effect-properties-section.md)
+- [ReflectionSize Cell (Additional Effect Properties Section)](reflectionsize-cell-additional-effect-properties-section.md)
     
-- [Ячейка ReflectionTrans (раздел "Дополнительные свойства эффекта")](reflectiontrans-cell-additional-effect-properties-section.md)
+- [ReflectionTrans Cell (Additional Effect Properties Section)](reflectiontrans-cell-additional-effect-properties-section.md)
     
-- [Ячейка Relationships (раздел "Макет фигуры")](relationships-cell-shape-layout-section.md)
+- [Relationships Cell (Shape Layout Section)](relationships-cell-shape-layout-section.md)
     
-- [Ячейка ReplaceCopyCells (раздел "Изменение поведения фигуры")](replacecopycells-cell-change-shape-behavior-section.md)
+- [ReplaceCopyCells Cell (Change Shape Behavior Section)](replacecopycells-cell-change-shape-behavior-section.md)
     
-- [Ячейка ReplaceLockFormat (раздел "Изменение поведения фигуры")](replacelockformat-cell-change-shape-behavior-section.md)
+- [ReplaceLockFormat Cell (Change Shape Behavior Section)](replacelockformat-cell-change-shape-behavior-section.md)
     
-- [Ячейка ReplaceLockShapeData (раздел "Изменение поведения фигуры")](replacelockshapedata-cell-change-shape-behavior-section.md)
+- [ReplaceLockShapeData Cell (Change Shape Behavior Section)](replacelockshapedata-cell-change-shape-behavior-section.md)
     
-- [Ячейка ReplaceLockText (раздел "Изменение поведения фигуры")](replacelocktext-cell-change-shape-behavior-section.md)
+- [ReplaceLockText Cell (Change Shape Behavior Section)](replacelocktext-cell-change-shape-behavior-section.md)
     
-- [Ячейка ResizeMode (раздел "Преобразование фигуры")](resizemode-cell-shape-transform-section.md)
+- [ResizeMode Cell (Shape Transform Section)](resizemode-cell-shape-transform-section.md)
     
-- [Ячейка ResizePage (раздел "Макет страницы")](resizepage-cell-page-layout-section.md)
+- [ResizePage Cell (Page Layout Section)](resizepage-cell-page-layout-section.md)
     
-- [Ячейка RightMargin (раздел "Формат текстового блока")](rightmargin-cell-text-block-format-section.md)
+- [RightMargin Cell (Text Block Format Section)](rightmargin-cell-text-block-format-section.md)
     
-- [Ячейка RotateGradientWithShape (раздел "Свойства градиента")](rotategradientwithshape-cell-gradient-properties-section.md)
+- [RotateGradientWithShape Cell (Gradient Properties Section)](rotategradientwithshape-cell-gradient-properties-section.md)
     
-- [Ячейка RotationType (раздел "Свойства поворота объемной фигуры")](rotationtype-cell-3-d-rotation-properties-section.md)
+- [RotationType Cell (3-D Rotation Properties Section)](rotationtype-cell-3-d-rotation-properties-section.md)
     
-- [Ячейка RotationXAngle (раздел "Свойства поворота объемной фигуры")](rotationxangle-cell-3-d-rotation-properties-section.md)
+- [RotationXAngle Cell (3-D Rotation Properties Section)](rotationxangle-cell-3-d-rotation-properties-section.md)
     
-- [Ячейка RotationYAngle (раздел "Свойства поворота объемной фигуры")](rotationyangle-cell-3-d-rotation-properties-section.md)
+- [RotationYAngle Cell (3-D Rotation Properties Section)](rotationyangle-cell-3-d-rotation-properties-section.md)
     
-- [Ячейка RotationZAngle (раздел "Свойства поворота объемной фигуры")](rotationzangle-cell-3-d-rotation-properties-section.md)
+- [RotationZAngle Cell (3-D Rotation Properties Section)](rotationzangle-cell-3-d-rotation-properties-section.md)
     
-- [Ячейка Rounding (раздел "Формат линий")](rounding-cell-line-format-section.md)
+- [Rounding Cell (Line Format Section)](rounding-cell-line-format-section.md)
     
-- [Ячейка RouteStyle (раздел "Макет страницы")](routestyle-cell-page-layout-section.md)
+- [RouteStyle Cell (Page Layout Section)](routestyle-cell-page-layout-section.md)
     
-- [Ячейка Scale (раздел "Символ")](scale-cell-character-section.md)
+- [Scale Cell (Character Section)](scale-cell-character-section.md)
     
-- [Ячейка ScaleX (раздел "Свойства печати")](scalex-cell-print-properties-section.md)
+- [ScaleX Cell (Print Properties Section)](scalex-cell-print-properties-section.md)
     
-- [Ячейка ScaleY (раздел "Свойства печати")](scaley-cell-print-properties-section.md)
+- [ScaleY Cell (Print Properties Section)](scaley-cell-print-properties-section.md)
     
-- [Ячейка SelectMode (раздел "Свойства группы")](selectmode-cell-group-properties-section.md)
+- [SelectMode Cell (Group Properties Section)](selectmode-cell-group-properties-section.md)
     
-- [Ячейка ShapeFixedCode (раздел "Макет фигуры")](shapefixedcode-cell-shape-layout-section.md)
+- [ShapeFixedCode Cell (Shape Layout Section)](shapefixedcode-cell-shape-layout-section.md)
     
-- [Ячейка ShapePermeablePlace (раздел "Макет фигуры")](shapepermeableplace-cell-shape-layout-section.md)
+- [ShapePermeablePlace Cell (Shape Layout Section)](shapepermeableplace-cell-shape-layout-section.md)
     
-- [Ячейка ShapePermeableX (раздел "Макет фигуры")](shapepermeablex-cell-shape-layout-section.md)
+- [ShapePermeableX Cell (Shape Layout Section)](shapepermeablex-cell-shape-layout-section.md)
     
-- [Ячейка ShapePermeableY (раздел "Макет фигуры")](shapepermeabley-cell-shape-layout-section.md)
+- [ShapePermeableY Cell (Shape Layout Section)](shapepermeabley-cell-shape-layout-section.md)
     
-- [Ячейка ShapePlaceFlip (раздел "Макет фигуры")](shapeplaceflip-cell-shape-layout-section.md)
+- [ShapePlaceFlip Cell (Shape Layout Section)](shapeplaceflip-cell-shape-layout-section.md)
     
-- [Ячейка ShapePlaceStyle (раздел "Макет фигуры")](shapeplacestyle-cell-shape-layout-section.md)
+- [ShapePlaceStyle Cell (Shape Layout Section)](shapeplacestyle-cell-shape-layout-section.md)
     
-- [Ячейка ShapePlowCode (раздел "Макет фигуры")](shapeplowcode-cell-shape-layout-section.md)
+- [ShapePlowCode Cell (Shape Layout Section)](shapeplowcode-cell-shape-layout-section.md)
     
-- [Ячейка ShapeRouteStyle (раздел "Макет фигуры")](shaperoutestyle-cell-shape-layout-section.md)
+- [ShapeRouteStyle Cell (Shape Layout Section)](shaperoutestyle-cell-shape-layout-section.md)
     
-- [Ячейка ShapeShdwBlur (раздел "Формат заливки")](shapeshdwblur-cell-fill-format-section.md)
+- [ShapeShdwBlur Cell (Fill Format Section)](shapeshdwblur-cell-fill-format-section.md)
     
-- [Ячейка ShapeShdwObliqueAngle (раздел "Формат заливки")](shapeshdwobliqueangle-cell-fill-format-section.md)
+- [ShapeShdwObliqueAngle Cell (Fill Format Section)](shapeshdwobliqueangle-cell-fill-format-section.md)
     
-- [Ячейка ShapeShdwOffsetX (раздел "Формат заливки")](shapeshdwoffsetx-cell-fill-format-section.md)
+- [ShapeShdwOffsetX Cell (Fill Format Section)](shapeshdwoffsetx-cell-fill-format-section.md)
     
-- [Ячейка ShapeShdwOffsetY (раздел "Формат заливки")](shapeshdwoffsety-cell-fill-format-section.md)
+- [ShapeShdwOffsetY Cell (Fill Format Section)](shapeshdwoffsety-cell-fill-format-section.md)
     
-- [Ячейка ShapeShdwScaleFactor (раздел "Формат заливки")](shapeshdwscalefactor-cell-fill-format-section.md)
+- [ShapeShdwScaleFactor Cell (Fill Format Section)](shapeshdwscalefactor-cell-fill-format-section.md)
     
-- [Ячейка ShapeShdwShow (раздел "Формат заливки")](shapeshdwshow-cell-fill-format-section.md)
+- [ShapeShdwShow Cell (Fill Format Section)](shapeshdwshow-cell-fill-format-section.md)
     
-- [Ячейка ShapeShdwType (раздел "Формат заливки")](shapeshdwtype-cell-fill-format-section.md)
+- [ShapeShdwType Cell (Fill Format Section)](shapeshdwtype-cell-fill-format-section.md)
     
-- [Ячейка ShapeSplit (раздел "Макет фигуры")](shapesplit-cell-shape-layout-section.md)
+- [ShapeSplit Cell (Shape Layout Section)](shapesplit-cell-shape-layout-section.md)
     
-- [Ячейка ShapeSplittable (раздел "Макет фигуры")](shapesplittable-cell-shape-layout-section.md)
+- [ShapeSplittable Cell (Shape Layout Section)](shapesplittable-cell-shape-layout-section.md)
     
-- [Ячейка Sharpen (раздел "Свойства изображения")](sharpen-cell-image-properties-section.md)
+- [Sharpen Cell (Image Properties Section)](sharpen-cell-image-properties-section.md)
     
-- [Ячейка ShdwForegnd (раздел "Формат заливки")](shdwforegnd-cell-fill-format-section.md)
+- [ShdwForegnd Cell (Fill Format Section)](shdwforegnd-cell-fill-format-section.md)
     
-- [Ячейка ShdwForegndTrans (раздел "Формат заливки")](shdwforegndtrans-cell-fill-format-section.md)
+- [ShdwForegndTrans Cell (Fill Format Section)](shdwforegndtrans-cell-fill-format-section.md)
     
-- [Ячейка ShdwObliqueAngle (раздел "Свойства страницы")](shdwobliqueangle-cell-page-properties-section.md)
+- [ShdwObliqueAngle Cell (Page Properties Section)](shdwobliqueangle-cell-page-properties-section.md)
     
-- [Ячейка ShdwOffsetX (раздел "Свойства страницы")](shdwoffsetx-cell-page-properties-section.md)
+- [ShdwOffsetX Cell (Page Properties Section)](shdwoffsetx-cell-page-properties-section.md)
     
-- [Ячейка ShdwOffsetY (раздел "Свойства страницы")](shdwoffsety-cell-page-properties-section.md)
+- [ShdwOffsetY Cell (Page Properties Section)](shdwoffsety-cell-page-properties-section.md)
     
-- [Ячейка ShdwPattern (раздел "Формат заливки")](shdwpattern-cell-fill-format-section.md)
+- [ShdwPattern Cell (Fill Format Section)](shdwpattern-cell-fill-format-section.md)
     
-- [Ячейка ShdwScaleFactor (раздел "Свойства страницы")](shdwscalefactor-cell-page-properties-section.md)
+- [ShdwScaleFactor Cell (Page Properties Section)](shdwscalefactor-cell-page-properties-section.md)
     
-- [Ячейка ShdwType (раздел "Свойства страницы")](shdwtype-cell-page-properties-section.md)
+- [ShdwType Cell (Page Properties Section)](shdwtype-cell-page-properties-section.md)
     
-- [Ячейка Size (раздел "Символ")](size-cell-character-section.md)
+- [Size Cell (Character Section)](size-cell-character-section.md)
     
-- [Ячейка SketchAmount (раздел "Дополнительные свойства эффекта")](sketchamount-cell-additional-effect-properties-section.md)
+- [SketchAmount Cell (Additional Effect Properties Section)](sketchamount-cell-additional-effect-properties-section.md)
     
-- [Ячейка SketchEnabled (раздел "Дополнительные свойства эффекта")](sketchenabled-cell-additional-effect-properties-section.md)
+- [SketchEnabled Cell (Additional Effect Properties Section)](sketchenabled-cell-additional-effect-properties-section.md)
     
-- [Ячейка SketchFillChange (раздел "Дополнительные свойства эффекта")](sketchfillchange-cell-additional-effect-properties-section.md)
+- [SketchFillChange Cell (Additional Effect Properties Section)](sketchfillchange-cell-additional-effect-properties-section.md)
     
-- [Ячейка SketchLineChange (раздел "Дополнительные свойства эффекта")](sketchlinechange-cell-additional-effect-properties-section.md)
+- [SketchLineChange Cell (Additional Effect Properties Section)](sketchlinechange-cell-additional-effect-properties-section.md)
     
-- [Ячейка SketchLineWeight (раздел "Дополнительные свойства эффекта")](sketchlineweight-cell-additional-effect-properties-section.md)
+- [SketchLineWeight Cell (Additional Effect Properties Section)](sketchlineweight-cell-additional-effect-properties-section.md)
     
-- [Ячейка SketchSeed (раздел "Дополнительные свойства эффекта")](sketchseed-cell-additional-effect-properties-section.md)
+- [SketchSeed Cell (Additional Effect Properties Section)](sketchseed-cell-additional-effect-properties-section.md)
     
-- [Ячейка Snap (раздел "Слои")](snap-cell-layers-section.md)
+- [Snap Cell (Layers Section)](snap-cell-layers-section.md)
     
-- [Ячейка SoftEdgesSize (раздел "Дополнительные свойства эффекта")](softedgessize-cell-additional-effect-properties-section.md)
+- [SoftEdgesSize Cell (Additional Effect Properties Section)](softedgessize-cell-additional-effect-properties-section.md)
     
-- [Ячейка SortKey (раздел "Действия")](sortkey-cell-actions-section.md)
+- [SortKey Cell (Actions Section)](sortkey-cell-actions-section.md)
     
-- [Ячейка SortKey (раздел "Гиперссылки")](sortkey-cell-hyperlinks-section.md)
+- [SortKey Cell (Hyperlinks Section)](sortkey-cell-hyperlinks-section.md)
     
-- [Ячейка SortKey (раздел "Данные фигуры")](sortkey-cell-shape-data-section.md)
+- [SortKey Cell (Shape Data Section)](sortkey-cell-shape-data-section.md)
     
-- [Ячейка Spacing (раздел "Символ")](spacing-cell-character-section.md)
+- [Spacing Cell (Character Section)](spacing-cell-character-section.md)
     
-- [Ячейка SpAfter (раздел "Абзац")](spafter-cell-paragraph-section.md)
+- [SpAfter Cell (Paragraph Section)](spafter-cell-paragraph-section.md)
     
-- [Ячейка SpBefore (раздел "Абзац")](spbefore-cell-paragraph-section.md)
+- [SpBefore Cell (Paragraph Section)](spbefore-cell-paragraph-section.md)
     
-- [Ячейка SpLine (раздел "Абзац")](spline-cell-paragraph-section.md)
+- [SpLine Cell (Paragraph Section)](spline-cell-paragraph-section.md)
     
-- [Ячейка Strikethru (раздел "Символ")](strikethru-cell-character-section.md)
+- [Strikethru Cell (Character Section)](strikethru-cell-character-section.md)
     
-- [Ячейка Style (раздел "Символ")](style-cell-character-section.md)
+- [Style Cell (Character Section)](style-cell-character-section.md)
     
-- [Ячейка SubAddress (раздел "Гиперссылки")](subaddress-cell-hyperlinks-section.md)
+- [SubAddress Cell (Hyperlinks Section)](subaddress-cell-hyperlinks-section.md)
     
-- [Ячейка TagName (раздел "Теги действий")](tagname-cell-action-tags-section.md)
+- [TagName Cell (Action Tags Section)](tagname-cell-action-tags-section.md)
     
-- [Ячейка TagName (раздел "Действия")](tagname-cell-actions-section.md)
+- [TagName Cell (Actions Section)](tagname-cell-actions-section.md)
     
-- [Ячейка TextBkgnd (раздел "Формат текстового блока")](textbkgnd-cell-text-block-format-section.md)
+- [TextBkgnd Cell (Text Block Format Section)](textbkgnd-cell-text-block-format-section.md)
     
-- [Ячейка TextBkgndTrans (раздел "Формат текстового блока")](textbkgndtrans-cell-text-block-format-section.md)
+- [TextBkgndTrans Cell (Text Block Format Section)](textbkgndtrans-cell-text-block-format-section.md)
     
-- [Ячейка TextDirection (раздел "Формат текстового блока")](textdirection-cell-text-block-format-section.md)
+- [TextDirection Cell (Text Block Format Section)](textdirection-cell-text-block-format-section.md)
     
-- [Ячейка TextPosAfterBullet (раздел "Абзац")](textposafterbullet-cell-paragraph-section.md)
+- [TextPosAfterBullet Cell (Paragraph Section)](textposafterbullet-cell-paragraph-section.md)
     
-- [Ячейка TheData (раздел "События")](thedata-cell-events-section.md)
+- [TheData Cell (Events Section)](thedata-cell-events-section.md)
     
-- [Ячейка ThemeIndex (раздел "Свойства темы")](themeindex-cell-theme-properties-section.md)
+- [ThemeIndex Cell (Theme Properties Section)](themeindex-cell-theme-properties-section.md)
     
-- [Ячейка TheText (раздел "События")](thetext-cell-events-section.md)
+- [TheText Cell (Events Section)](thetext-cell-events-section.md)
     
-- [Ячейка Tip (раздел "Элементы управления")](tip-cell-controls-section.md)
+- [Tip Cell (Controls Section)](tip-cell-controls-section.md)
     
-- [Ячейка TopMargin (раздел "Формат текстового блока")](topmargin-cell-text-block-format-section.md)
+- [TopMargin Cell (Text Block Format Section)](topmargin-cell-text-block-format-section.md)
     
-- [Ячейка Transparency (раздел "Символ")](transparency-cell-character-section.md)
+- [Transparency Cell (Character Section)](transparency-cell-character-section.md)
     
-- [Ячейка Transparency (раздел "Свойства изображения")](transparency-cell-image-properties-section.md)
+- [Transparency Cell (Image Properties Section)](transparency-cell-image-properties-section.md)
     
-- [Ячейка Transparency (раздел "Слои")](transparency-cell-layers-section.md)
+- [Transparency Cell (Layers Section)](transparency-cell-layers-section.md)
     
-- [Ячейка TxtAngle (раздел "Преобразование текста")](txtangle-cell-text-transform-section.md)
+- [TxtAngle Cell (Text Transform Section)](txtangle-cell-text-transform-section.md)
     
-- [Ячейка TxtHeight (раздел "Преобразование текста")](txtheight-cell-text-transform-section.md)
+- [TxtHeight Cell (Text Transform Section)](txtheight-cell-text-transform-section.md)
     
-- [Ячейка TxtLocPinX (раздел "Преобразование текста")](txtlocpinx-cell-text-transform-section.md)
+- [TxtLocPinX Cell (Text Transform Section)](txtlocpinx-cell-text-transform-section.md)
     
-- [Ячейка TxtLocPinY (раздел "Преобразование текста")](txtlocpiny-cell-text-transform-section.md)
+- [TxtLocPinY Cell (Text Transform Section)](txtlocpiny-cell-text-transform-section.md)
     
-- [Ячейка TxtPinX (раздел "Преобразование текста")](txtpinx-cell-text-transform-section.md)
+- [TxtPinX Cell (Text Transform Section)](txtpinx-cell-text-transform-section.md)
     
-- [Ячейка TxtPinY (раздел "Преобразование текста")](txtpiny-cell-text-transform-section.md)
+- [TxtPinY Cell (Text Transform Section)](txtpiny-cell-text-transform-section.md)
     
-- [Ячейка TxtWidth (раздел "Преобразование текста")](txtwidth-cell-text-transform-section.md)
+- [TxtWidth Cell (Text Transform Section)](txtwidth-cell-text-transform-section.md)
     
-- [Ячейка Type / C (раздел "Точки соединения")](typec-cell-connection-points-section.md)
+- [Type / C Cell (Connection Points Section)](typec-cell-connection-points-section.md)
     
-- [Ячейка Type (раздел "Данные фигуры")](type-cell-shape-data-section.md)
+- [Type Cell (Shape Data Section)](type-cell-shape-data-section.md)
     
-- [Ячейка Type (раздел "Текстовые поля")](type-cell-text-fields-section.md)
+- [Type Cell (Text Fields Section)](type-cell-text-fields-section.md)
     
-- [Ячейка UICategory (раздел "Текстовые поля")](uicategory-cell-text-fields-section.md)
+- [UICategory Cell (Text Fields Section)](uicategory-cell-text-fields-section.md)
     
-- [Ячейка UICode (раздел "Текстовые поля")](uicode-cell-text-fields-section.md)
+- [UICode Cell (Text Fields Section)](uicode-cell-text-fields-section.md)
     
-- [Ячейка UIFormat (раздел "Текстовые поля")](uiformat-cell-text-fields-section.md)
+- [UIFormat Cell (Text Fields Section)](uiformat-cell-text-fields-section.md)
     
-- [Ячейка UIVisibility (раздел "Свойства страницы")](uivisibility-cell-page-properties-section.md)
+- [UIVisibility Cell (Page Properties Section)](uivisibility-cell-page-properties-section.md)
     
-- [Ячейка UpdateAlignBox (раздел "Прочее")](updatealignbox-cell-miscellaneous-section.md)
+- [UpdateAlignBox Cell (Miscellaneous Section)](updatealignbox-cell-miscellaneous-section.md)
     
-- [Ячейка UseGroupGradient (раздел "Свойства градиента")](usegroupgradient-cell-gradient-properties-section.md)
+- [UseGroupGradient Cell (Gradient Properties Section)](usegroupgradient-cell-gradient-properties-section.md)
     
-- [Ячейка Value (раздел "Данные фигуры")](value-cell-shape-data-section.md)
+- [Value Cell (Shape Data Section)](value-cell-shape-data-section.md)
     
-- [Ячейка Value (раздел "Текстовые поля")](value-cell-text-fields-section.md)
+- [Value Cell (Text Fields Section)](value-cell-text-fields-section.md)
     
-- [Ячейка Value (раздел "Пользовательские ячейки")](value-cell-user-defined-cells-section.md)
+- [Value Cell (User-Defined Cells Section)](value-cell-user-defined-cells-section.md)
     
-- [Ячейка VariationColorIndex (раздел "Свойства темы")](variationcolorindex-cell-theme-properties-section.md)
+- [VariationColorIndex Cell (Theme Properties Section)](variationcolorindex-cell-theme-properties-section.md)
     
-- [Ячейка VariationStyleIndex (раздел "Свойства темы")](variationstyleindex-cell-theme-properties-section.md)
+- [VariationStyleIndex Cell (Theme Properties Section)](variationstyleindex-cell-theme-properties-section.md)
     
-- [Ячейка VerticalAlign (раздел "Формат текстового блока")](verticalalign-cell-text-block-format-section.md)
+- [VerticalAlign Cell (Text Block Format Section)](verticalalign-cell-text-block-format-section.md)
     
-- [Ячейка ViewMarkup (раздел "Свойства документа")](viewmarkup-cell-document-properties-section.md)
+- [ViewMarkup Cell (Document Properties Section)](viewmarkup-cell-document-properties-section.md)
     
-- [Ячейка Visible (раздел "Слои")](visible-cell-layers-section.md)
+- [Visible Cell (Layers Section)](visible-cell-layers-section.md)
     
-- [Ячейка WalkPreference (раздел "Сведения о приклеивании")](walkpreference-cell-glue-info-section.md)
+- [WalkPreference Cell (Glue Info Section)](walkpreference-cell-glue-info-section.md)
     
-- [Ячейка Width (раздел "Преобразование фигуры")](width-cell-shape-transform-section.md)
+- [Width Cell (Shape Transform Section)](width-cell-shape-transform-section.md)
     
-- [Ячейка X Behavior (раздел "Элементы управления")](x-behavior-cell-controls-section.md)
+- [X Behavior Cell (Controls Section)](x-behavior-cell-controls-section.md)
     
-- [Ячейка X (раздел "Теги действий")](x-cell-action-tags-section.md)
+- [X Cell (Action Tags Section)](x-cell-action-tags-section.md)
     
-- [Ячейка X (раздел "Примечание")](x-cell-annotation-section.md)
+- [X Cell (Annotation Section)](x-cell-annotation-section.md)
     
-- [Ячейка X (раздел "Точки соединения")](x-cell-connection-points-section.md)
+- [X Cell (Connection Points Section)](x-cell-connection-points-section.md)
     
-- [Ячейка X (раздел "Элементы управления")](x-cell-controls-section.md)
+- [X Cell (Controls Section)](x-cell-controls-section.md)
     
-- [Ячейка X (раздел "Геометрия")](x-cell-geometry-section.md)
+- [X Cell (Geometry Section)](x-cell-geometry-section.md)
     
-- [Ячейка X Dynamics (раздел "Элементы управления")](x-dynamics-cell-controls-section.md)
+- [X Dynamics Cell (Controls Section)](x-dynamics-cell-controls-section.md)
     
-- [Ячейка X Justify (раздел "Теги действий")](x-justify-cell-action-tags-section.md)
+- [X Justify Cell (Action Tags Section)](x-justify-cell-action-tags-section.md)
     
-- [Ячейка XGridDensity (линейки &amp; сетка)](xgriddensity-cell-rulergrid-section.md)
+- [Ячейка XGridDensity ( &amp; раздел "Сетка" линейки)](xgriddensity-cell-rulergrid-section.md)
     
-- [Ячейка XGridOrigin (линейки &amp; сетка)](xgridorigin-cell-rulergrid-section.md)
+- [Ячейка XGridOrigin ( &amp; раздел "Сетка" линейки)](xgridorigin-cell-rulergrid-section.md)
     
-- [Ячейка XGridSpacing (линейки &amp; сетка)](xgridspacing-cell-rulergrid-section.md)
+- [Ячейка XGridSpacing ( &amp; раздел "Сетка" линейки)](xgridspacing-cell-rulergrid-section.md)
     
-- [Ячейка XRulerDensity (линейки &amp; сетка)](xrulerdensity-cell-rulergrid-section.md)
+- [Ячейка XRulerDensity ( &amp; раздел "Сетка" линейки)](xrulerdensity-cell-rulergrid-section.md)
     
-- [Ячейка XRulerOrigin (линейки &amp; сетка)](xrulerorigin-cell-rulergrid-section.md)
+- [Ячейка XRulerOrigin ( &amp; раздел "Сетка" линейки)](xrulerorigin-cell-rulergrid-section.md)
     
-- [Ячейка Y Behavior (раздел "Элементы управления")](y-behavior-cell-controls-section.md)
+- [Y Behavior Cell (Controls Section)](y-behavior-cell-controls-section.md)
     
-- [Ячейка Y (раздел "Теги действий")](y-cell-action-tags-section.md)
+- [Y Cell (Action Tags Section)](y-cell-action-tags-section.md)
     
-- [Ячейка Y (раздел "Примечание")](y-cell-annotation-section.md)
+- [Y Cell (Annotation Section)](y-cell-annotation-section.md)
     
-- [Ячейка Y (раздел "Точки соединения")](y-cell-connection-points-section.md)
+- [Y Cell (Connection Points Section)](y-cell-connection-points-section.md)
     
-- [Ячейка Y (раздел "Элементы управления")](y-cell-controls-section.md)
+- [Y Cell (Controls Section)](y-cell-controls-section.md)
     
-- [Ячейка Y (раздел "Геометрия")](y-cell-geometry-section.md)
+- [Y Cell (Geometry Section)](y-cell-geometry-section.md)
     
-- [Ячейка Y Dynamics (раздел "Элементы управления")](y-dynamics-cell-controls-section.md)
+- [Y Dynamics Cell (Controls Section)](y-dynamics-cell-controls-section.md)
     
-- [Ячейка Y Justify (раздел "Теги действий")](y-justify-cell-action-tags-section.md)
+- [Y Justify Cell (Action Tags Section)](y-justify-cell-action-tags-section.md)
     
-- [Ячейка YGridDensity (линейки &amp; сетка)](ygriddensity-cell-rulergrid-section.md)
+- [Ячейка YGridDensity ( &amp; раздел "Сетка" линейки)](ygriddensity-cell-rulergrid-section.md)
     
-- [Ячейка YGridOrigin (линейки &amp; сетка)](ygridorigin-cell-rulergrid-section.md)
+- [Ячейка YGridOrigin ( &amp; раздел "Сетка" линейки)](ygridorigin-cell-rulergrid-section.md)
     
-- [Ячейка YGridSpacing (линейки &amp; сетка)](ygridspacing-cell-rulergrid-section.md)
+- [Ячейка YGridSpacing ( &amp; раздел "Сетка" линейки)](ygridspacing-cell-rulergrid-section.md)
     
-- [Ячейка YRulerDensity (линейки &amp; сетка)](yrulerdensity-cell-rulergrid-section.md)
+- [Ячейка YRulerDensity ( &amp; раздел "Сетка" линейки)](yrulerdensity-cell-rulergrid-section.md)
     
-- [Ячейка YRulerOrigin (линейки &amp; сетка)](yrulerorigin-cell-rulergrid-section.md)
+- [Ячейка YRulerOrigin ( &amp; раздел "Сетка" линейки)](yrulerorigin-cell-rulergrid-section.md)
     
 

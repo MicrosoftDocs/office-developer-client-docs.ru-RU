@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageRightMargin (раздел "Свойства печати")
+title: PageRightMargin Cell (Print Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - vis_sdr.chm60062
 localization_priority: Normal
 ms.assetid: f864c759-ed94-8ab7-d664-cc04b3ed743e
-description: Задает поле в правой части печатной страницы.
-ms.openlocfilehash: 951a16ff20e294b68ed5447d330f4e7cbc100c82
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Задает поле справа от печатной страницы.
+ms.openlocfilehash: d30669626fe07379521d61554010ae1bd7b0e83a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339496"
 ---
-# <a name="pagerightmargin-cell-print-properties-section"></a>Ячейка PageRightMargin (раздел "Свойства печати")
+# <a name="pagerightmargin-cell-print-properties-section"></a>PageRightMargin Cell (Print Properties Section)
 
-Задает поле в правой части печатной страницы.
+Задает поле справа от печатной страницы.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это значение представляет физические единицы и не влияет на масштаб или рисования единиц измерения. Например если эта ячейка имеет значение 0,25 дюйма, это поле будет 0,25 дюйма даже в том случае, если страница указываются футов. Если единицы не указан явно, это значение по умолчанию единицах страницы. 
+Это значение представляет физические единицы и не затронет единицы масштабирования или рисования. Например, если ячейка имеет значение 0,25 в., это поле составляет 0,25 дюйма, даже если единицы страницы — футы. Если единицы измерения не заданы явным образом, значение по умолчанию равно единицам страницы. 
   
-Чтобы получить ссылку на ячейку PageRightMargin по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку PageRightMargin по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | PageRightMargin  <br/> |
+| Имя ячейки:  <br/> | PageRightMargin  <br/> |
    
-Для получения ссылки на ячейки PageRightMargin по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку PageRightMargin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPrintProperties** <br/> |
-| Индекс ячейки:  <br/> |**visPrintPropertiesRightMargin** <br/> |
+| Индекс строки:  <br/> |**Висровпринтпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Виспринтпропертиесригхтмаргин** <br/> |
    
 

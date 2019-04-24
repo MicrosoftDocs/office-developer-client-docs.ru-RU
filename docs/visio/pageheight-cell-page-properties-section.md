@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageHeight (раздел "Свойства страницы")
+title: PageHeight Cell (Page Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 0184814c-2d67-6ad4-e336-5694612e518d
 description: Содержит высоту печатной страницы в единицах документа.
-ms.openlocfilehash: e198e90e9c70aad1e41ee02d5dcefea68846486c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ac24bee517f29da333a445f276447c1aa682f01c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814332"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334351"
 ---
-# <a name="pageheight-cell-page-properties-section"></a>Ячейка PageHeight (раздел "Свойства страницы")
+# <a name="pageheight-cell-page-properties-section"></a>PageHeight Cell (Page Properties Section)
 
 Содержит высоту печатной страницы в единицах документа.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Высота страницы также можно настроить на вкладке **Размер страницы** диалогового окна **Параметры страницы** (на вкладки " **Конструктор** ", нажмите стрелку **Параметры страницы** ), или вручную изменения размеров страницы с помощью мыши. 
+Можно также задать высоту страницы на вкладке " **Размер страницы** " диалогового окна **Параметры страницы** (на вкладке **Макет** щелкните стрелку **Параметры страницы** ) или вручную измените размер страницы с помощью мыши. 
   
-Для получения ссылки на ячейки PageHeight по имени, из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку PageHeight по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |PageHeight  <br/> |
+|Имя ячейки:  <br/> |PageHeight  <br/> |
    
-Для получения ссылки на ячейки PageHeight по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку PageHeight по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowPage** <br/> |
-|Индекс ячейки:  <br/> |**visPageHeight** <br/> |
+|Индекс строки:  <br/> |**Висровпаже** <br/> |
+|Индекс ячейки:  <br/> |**Виспажехеигхт** <br/> |
    
 

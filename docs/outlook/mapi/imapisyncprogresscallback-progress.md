@@ -1,5 +1,5 @@
 ---
-title: IMAPISyncProgressCallbackProgress
+title: Имаписинкпрогресскаллбаккпрогресс
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6797cd1c-8a0b-4f42-ba56-6162d8e7b058
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5803441486f01883d08cd99048d8eae133cd3f14
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9b44337a4bc9615558ac6337e99ea206ba063b1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341260"
 ---
 # <a name="imapisyncprogresscallbackprogress"></a>IMAPISyncProgressCallback::Progress
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592131"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Обновление состояния в диалоговом окне отправки и получения. Поставщик хранения периодически вызывает эту функцию.
+Обновляет состояние в диалоговом окне отправки и получения. Поставщик хранилища периодически вызывает эту функцию.
   
 ```cpp
 HRESULT Progress(
@@ -37,17 +37,17 @@ HRESULT Progress(
 
 ## <a name="parameters"></a>Параметры
 
- **pwczsProgress**
+ **Пвкзспрогресс**
   
-> Указатель на строку, которая отображает текущий этап хода выполнения. Она может быть NULL для отслеживания хода выполнения задач.
+> Указатель на строку, отображающую текущий этап хода выполнения. Для обновления хода выполнения может быть задано значение NULL.
     
- **ulIndex**
+ **Улиндекс**
   
-> Текущую позицию в стадии разработки.
+> Текущая позиция в ходе выполнения.
     
- **ulIndexMax**
+ **Улиндексмакс**
   
-> Индекс, указывающее полный хода выполнения.
+> Индекс, указывающий на завершение процесса.
     
 ## <a name="return-value"></a>Возвращаемое значение
 

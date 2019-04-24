@@ -1,5 +1,5 @@
 ---
-title: Solution_Type complexType ('Visio XML»)
+title: Солутион_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e41f5028-7173-986e-d381-5c02d05e4407
 ms.openlocfilehash: a0cebb9b2d6d1f37b6104f0f7dca3c4624857288
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334365"
 ---
-# <a name="solutiontype-complextype-visio-xml"></a>Solution_Type complexType ('Visio XML»)
+# <a name="solutiontype-complextype-visio-xml"></a>Солутион_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "25386483"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
+|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Рел_типе](rel_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

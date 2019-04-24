@@ -7,24 +7,24 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: a0f92c2d-b5ba-4558-b8a2-484b2db32bec
-description: 'Последнее изменение: 18 июня 2012 г.'
+description: 'Дата последнего изменения: 18 июня 2012 г.'
 ms.openlocfilehash: 1a1cf0a607dd4b57353eda74f9b14965e110c071
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382710"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341729"
 ---
 # <a name="mnlslstrcpyw"></a>MNLS_lstrcpyW
 
  
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Копирует строки в буфер.
+Копирует строку в буфер.
   
 > [!CAUTION]
-> Не используйте. Рекомендуется использовать [StringCchCopy](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) . 
+> Не следует использовать. Вместо этого рекомендуется использовать [стрингкчкопи](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) . 
   
 ```cpp
 LPWSTR MNLS_lstrcpyW(
@@ -36,25 +36,25 @@ LPCWSTR lpString2);
 
 lpString1
   
-> [out] Буфер для получения содержимого строки, на который указывает параметр lpString2.
+> вышли Буфер для получения содержимого строки, на которую указывает параметр lpString2.
     
 lpString2
   
-> [in] Строка для копирования символом null.
+> возврата Копируемая строка, заканчивающаяся нулем.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-Если функция успешно выполнена, возвращается указатель на буфер.
+Если функция выполнена успешно, возвращаемое значение является указателем на буфер.
   
-В случае сбоя функция возвращает значение NULL, и lpString1 могут быть символом null.
+Если функция завершается с ошибкой, возвращается значение NULL, а lpString1 не может оканчиваться нулем.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Эта функция имеет функцию **lstrcpy** . Для получения дополнительных сведений см [lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
+Эта функция заключает в оболочку функцию **лстркпи** . Дополнительные сведения см. в разделе [лстркпи](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>См. также
 
 
 
-[lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx)
+[лстркпи](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx)
 

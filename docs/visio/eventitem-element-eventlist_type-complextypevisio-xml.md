@@ -1,5 +1,5 @@
 ---
-title: Элемент EventItem (EventList_Type complexType) ('Visio XML»)
+title: Элемент Евентитем (Евентлист_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,13 +8,13 @@ localization_priority: Normal
 ms.assetid: 6b347117-a1c1-d090-0d71-ea8528ac70c6
 description: Инкапсулирует код события.
 ms.openlocfilehash: 6ed539bd6cb4524b2498b636295442bed917c72a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394400"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337200"
 ---
-# <a name="eventitem-element-eventlisttype-complextype-visio-xml"></a>Элемент EventItem (EventList_Type complexType) ('Visio XML»)
+# <a name="eventitem-element-eventlisttype-complextype-visio-xml"></a>Элемент Евентитем (Евентлист_типе complexType) (' Visio XML ')
 
 Инкапсулирует код события.
   
@@ -22,10 +22,10 @@ ms.locfileid: "25394400"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Евентитем_типе](eventitem_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25394400"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |Содержит элемент **EventItem** для каждого события, к которому должны отвечать объекта.  <br/> |
+|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Евентлист_типе](eventlist_type-complextypevisio-xml.md) <br/> |Содержит элемент **евентитем** для каждого события, на которое должен отвечать объект.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,11 +52,11 @@ ms.locfileid: "25394400"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Действие  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> |Указывает код действия **EventItem** родительского элемента.  <br/> |Значения для типа xsd:unsignedShort.  <br/> |
-|Включена  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Представляет флаг, указывающий, включен ли событие.  <br/> |Значения типа xsd:boolean.  <br/> |
-|EventCode  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> |Код, указывающий событие, которое запускает надстройки.  <br/> |Значения для типа xsd:unsignedShort.  <br/> |
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор события.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|Целевой объект  <br/> |XSD:String  <br/> |Обязательный  <br/> |Указывает целевую события.  <br/> |Значения типа xsd:string.  <br/> |
-|TargetArgs  <br/> |XSD:String  <br/> |Обязательный  <br/> |Задает строку, содержащую аргументы для отправки конечного события.  <br/> |Значения типа xsd:string.  <br/> |
+|Действие  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> |Задает код действия родительского элемента **евентитем** .  <br/> |Значения для типа xsd:unsignedShort.  <br/> |
+|Включена  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Представляет флаг, указывающий, включено или отключено событие.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|Евенткоде  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> |Код, указывающий на событие, которое запускает надстройку.  <br/> |Значения для типа xsd:unsignedShort.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор события.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Target  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Указывает целевой объект события.  <br/> |Значения типа String: XSD.  <br/> |
+|TargetArgs  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Указывает строку, содержащую аргументы, которые необходимо отправить в цель события.  <br/> |Значения типа String: XSD.  <br/> |
    
 

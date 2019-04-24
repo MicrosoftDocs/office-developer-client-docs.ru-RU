@@ -8,14 +8,14 @@ api_type:
 - COM
 ms.assetid: 81c65f21-03ba-43eb-a6d4-d311e660ac5c
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: eef65990637d9c164ffe75f682e01ed134510e32
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8a6730cca5c75a888afb5ff0a44f1e2a0a6465e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339678"
 ---
-# <a name="sending-messages-mapi-spooler-tasks"></a>�������� ���������: ������ ������� MAPI
+# <a name="sending-messages-mapi-spooler-tasks"></a>Отправка сообщений: задачи системы буферизации MAPI
 
   
   
@@ -27,14 +27,14 @@ ms.locfileid: "22570277"
   
 1. If the message is not locked, locks the message by using the [IMsgStore::SetLockState](imsgstore-setlockstate.md) method. 
     
-2. Имеет поставщика транспорта отправки сообщения для всех получателей, которые их **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) свойство должно быть указано значение FALSE. 
+2. Поставщик транспорта отправляет сообщение всем получателям, у которых для свойства **пр_респонсибилити** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) задано значение false. 
     
-3. Очистка любые дополнительные сведения, который был добавлен к сообщению для использования во время предварительной обработки, если свойство **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)) вызывает соответствующую функцию ([RemovePreprocessInfo](removepreprocessinfo.md)). This function is specified when the transport provider registers its preprocessor function. 
+3. Вызывает соответствующую функцию ([ремовепрепроцессинфо](removepreprocessinfo.md)), чтобы очистить дополнительные сведения, добавленные к сообщению для использования во время предварительной обработки, если было задано свойство **пр_препроцесс** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)). This function is specified when the transport provider registers its preprocessor function. 
     
 4. Calls [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) method. In **FinishedMsg**, the message store provider:
     
   - ������������ ���������.
     
-  - Calls the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method to perform outbound hook processing if a messaging hook provider exists. Затем копирует сообщение в папку, указанную с идентификатором запись в свойство **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), если не замещена обмена сообщениями поставщика обработчик отправленные обработки сообщений. И, наконец удаляет сообщение, если свойство **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) значение TRUE. 
+  - Calls the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method to perform outbound hook processing if a messaging hook provider exists. После этого сообщение копируется в папку, указанную идентификатором записи, в свойстве **пр_сентмаил_ентрид** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), если она не была заменена с помощью отправленной обработки сообщений поставщика обработчиков обмена сообщениями. Наконец, он удаляет сообщение, если для свойства **пр_делете_афтер_субмит** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) задано значение true. 
     
 

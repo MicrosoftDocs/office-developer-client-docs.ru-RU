@@ -12,40 +12,40 @@ api_type:
 - COM
 ms.assetid: 69b308dd-d3f5-44fe-8976-e4ed9a433ad8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 916797012d62c5ce0b67dedf957dde09ba9ba27b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7d883faa6266086127a7722990e84bca00090f0a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595141"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332650"
 ---
 # <a name="pidlidheaderitem-canonical-property"></a>Каноническое свойство PidLidHeaderItem
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, является ли Microsoft Outlook загруженные с на клиентском компьютере только заголовок сообщения, или как заголовок и тело сообщения, когда Outlook настроен в режиме кэширования Exchange.
+Указывает, будет ли Microsoft Outlook загружаться на клиентский компьютер только заголовок сообщения или заголовок и текст сообщения, когда Outlook настроен в режиме кэширования данных Exchange.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidHeaderItem  <br/> |
-|Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008578  <br/> |
+|Связанные свойства:  <br/> |Диспидхеадеритем  <br/> |
+|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008578  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -55,7 +55,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

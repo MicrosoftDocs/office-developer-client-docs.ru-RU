@@ -8,39 +8,39 @@ api_type:
 - COM
 ms.assetid: 6b6714a5-7f36-4a72-9a2a-0d7fdf0e21b7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5a2e4f4b248cb8eefd5ee37c0c90d5ef9c0d0cac
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 86373fae2753df66d4456cc0fc00f8b289977650
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337130"
 ---
 # <a name="finding-sent-or-saved-messages"></a>Поиск отправленных или сохраненных сообщений
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- **Чтобы найти все исходящие сообщения, которые отправки или сохранения**
+ **Обнаружение всех сохраненных или отправленных исходящих сообщений**
   
-1. Вызов [IMsgStore::CompareEntryIDs](imsgstore-compareentryids.md) для сравнения папка, содержащая отправленных сообщений с папкой, включающей входящих сообщений. 
+1. Call [IMsgStore:: метод compareentryids](imsgstore-compareentryids.md) для сравнения папки, содержащей отправленные сообщения, с папкой, содержащей входящие сообщения. 
     
-2. Установите параметр _lpEntryID1_ для указания на **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) и параметр _lpEntryID2_ для указания на **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
+2. Задайте для параметра _lpEntryID1_ значение **пр_ипм_сентмаил_ентрид** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) и параметр _lpEntryID2_ , чтобы указать на **пр_парент_ентрид** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
     
-Обратите внимание, что если сообщения либо удалить после их отправляются или любые отправленные сообщения будут перемещены в другую папку, эта стратегия не будут работать. 
+Имейте в виду, что при удалении сообщений или перемещении любого из отправленных сообщений в другую папку эта стратегия не будет работать. 
   
-Если в анализ входящего сообщения вы Обратите внимание на то, что свойства, которые обычно задаются с помощью поставщика транспорта не указаны, предполагается, что сообщение не было обработано с помощью поставщика транспорта. Эти свойства включают в себя:
+Если при проверке входящего сообщения вы заметили, что свойства, обычно заданные поставщиком транспорта, отсутствуют, можно предположить, что сообщение никогда не было обработано поставщиком транспорта. Эти свойства приведены ниже.
   
-- Свойства **PR_RECEIVED_BY** 
+- Свойства **пр_рецеивед_би** 
     
-- **PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
+- **Пр_мессаже_довнлоад_тиме** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
     
-- **PR_TRANSPORT_MESSAGE_HEADERS** ([PidTagTransportMessageHeaders](pidtagtransportmessageheaders-canonical-property.md))
+- **Пр_транспорт_мессаже_хеадерс** ([PidTagTransportMessageHeaders](pidtagtransportmessageheaders-canonical-property.md))
     
-- **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))
+- **Пр_мессаже_то_ме** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))
     
-- **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))
+- **Пр_мессаже_кк_ме** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))
     
-- **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))
+- **Пр_мессаже_реЦип_ме** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))
     
 

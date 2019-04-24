@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: d51120f7-df80-f0bb-8af9-751d3c59f045
 description: Округляет число до ближайшего целого числа.
-ms.openlocfilehash: 4f8e2ab1666642dc8d45e035288820696740e832
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6acc150e5291093bc7436c1d8e915b28e4840ca3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335303"
 ---
 # <a name="int-function"></a>Функция INT
 
@@ -22,24 +22,24 @@ ms.locfileid: "19813984"
   
 ## <a name="syntax"></a>Синтаксис
 
-INT (** *номер* **) 
+INT (* * *Number* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Обязательный  <br/> |**Число** <br/> |Чтобы округлить число.  <br/> |
+| _число_ <br/> |Обязательный  <br/> |**Number** <br/> |Округляемое число.  <br/> |
    
-## <a name="example-1"></a>Пример 1
+## <a name="example-1"></a>Пример 1
 
-INT(7.2)
+INT (7,2)
   
-Возвращает 7.
+Возвращает значение 7.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
-INT(-7.2)
+INT (-7,2)
   
-Возвращает -8.
+Возвращает значение – 8.
   
 

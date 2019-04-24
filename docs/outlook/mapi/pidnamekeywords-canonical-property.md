@@ -13,51 +13,51 @@ api_type:
 ms.assetid: bcc0cda0-02bc-49a5-9fb9-850b4c2867c1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 90e5b370dace12dbe529465259b8551516fda491
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338061"
 ---
 # <a name="pidnamekeywords-canonical-property"></a>Каноническое свойство PidNameKeywords
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит ключевые слова или категории для объекта сообщения.
+Содержит ключевые слова или категории для объекта Message.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Отсутствует  <br/> |
-|Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Имя свойства:  <br/> |Keywords  <br/> |
-|Тип данных:  <br/> |PT_MV_UNICODE  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Понятные имена:  <br/> |Нет  <br/> |
+|Набор свойств:  <br/> |ПС_ПУБЛИК_СТРИНГС  <br/> |
+|Имя свойства:  <br/> |Ключевые слова  <br/> |
+|Тип данных:  <br/> |ПТ_МВ_УНИКОДЕ  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Несколькими строковое значение, указывающее категорий для объекта message, длина каждой строки в рамках этой строки многозначного свойства должно быть менее 256.
+Многострочное значение, задающее категории объекта Message, длина каждой строки в строке с несколькими значениями свойства должна быть меньше 256.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS — ОКСОДОК]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые в документах.
+> Задает свойства и операции, допустимые для документов.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -67,7 +67,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

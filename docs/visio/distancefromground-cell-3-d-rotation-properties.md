@@ -6,32 +6,32 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 87499dab-977a-45bc-9f6a-8daa80a82abb
-description: Определяет объект вызывается с нуля в пунктах при вращаться в объемных расстояние.
-ms.openlocfilehash: da544d0340c0fca0103c147f27b715784643153f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет расстояние, на которое объект вызывается с заземления в точках при вращении в 3-D.
+ms.openlocfilehash: aa2f1629ecad234d85d4393411bd40215a671e1d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813593"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332699"
 ---
 # <a name="distancefromground-cell-3-d-rotation-properties"></a>Ячейка DistanceFromGround (раздел "Свойства поворота объемной фигуры")
 
-Определяет объект вызывается с нуля в пунктах при вращаться в объемных расстояние.
+Определяет расстояние, на которое объект вызывается с заземления в точках при вращении в 3-D.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Для получения ссылки на ячейки **DistanceFromGround** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **дистанцефромграунд** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |DistanceFromGround  <br/> |
+|Имя ячейки:  <br/> |DistanceFromGround  <br/> |
    
-Для получения ссылки на ячейки **DistanceFromGround** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **дистанцефромграунд** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
 |Индекс строки:  <br/> |**visRow3DRotationProperties** <br/> |
-|Индекс ячейки:  <br/> |**visDistanceFromGround** <br/> |
+|Индекс ячейки:  <br/> |**Висдистанцефромграунд** <br/> |
    
 

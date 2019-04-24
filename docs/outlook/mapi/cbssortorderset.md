@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: c0131b4b-9b25-47d3-8eeb-abe29c353ebc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1f3a4444829da69f67ea8b3e833c34aa8bdc9163
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3383c43668514d0cf164c90cbabbdadb550d706f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332657"
 ---
 # <a name="cbssortorderset"></a>CbSSortOrderSet
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов в имеющуюся структуру [SSortOrderSet](ssortorderset.md) . 
+Вычисляет количество байтов в существующей структуре [ссортордерсет](ssortorderset.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SSortOrderSet** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 CbSSortOrderSet (_lpset)
@@ -38,9 +38,9 @@ CbSSortOrderSet (_lpset)
 
 ## <a name="parameters"></a>Параметры
 
- __lpset_
+ __лпсет_
   
-> Указатель на структуру существующих **SSortOrderSet** . 
+> Указатель на существующую структуру **ссортордерсет** . 
     
 ## <a name="see-also"></a>См. также
 

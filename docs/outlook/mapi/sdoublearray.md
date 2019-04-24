@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: b63b26de-faf9-453c-ab8b-fb703ed09ae8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6986ed7c9ab9932c5d95fcfb7f74f80088f21971
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 91440d619c8ad8a64b2bac7463a26d9c196a3c0f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339734"
 ---
 # <a name="sdoublearray"></a>SDoubleArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив типа Double, используемый для описания свойства типа PT_MV_DOUBLE.
+Содержит массив двойной точности, используемый для описания свойства типа ПТ_МВ_ДАУБЛЕ.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SDoubleArray
@@ -42,17 +42,17 @@ typedef struct _SDoubleArray
 
 ## <a name="members"></a>Members
 
- **cValues**
+ **Квалуес**
   
-> Число значений в массиве, на который указывает член **lpdbl** . 
+> Количество значений в массиве, на которое указывает элемент **лпдбл** . 
     
- **lpdbl**
+ **лпдбл**
   
-> Указатель на массив значений двойной точности.
+> Указатель на массив двойных значений.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Дополнительные сведения о PT_MV_DOUBLE увидеть [Список типы свойств](property-types.md).
+Дополнительные сведения о ПТ_МВ_ДАУБЛЕ приведены в разделе [список типов свойств](property-types.md).
   
 ## <a name="see-also"></a>См. также
 

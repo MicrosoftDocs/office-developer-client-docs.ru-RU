@@ -13,60 +13,60 @@ api_type:
 ms.assetid: b76312c6-7682-4ded-be25-55e21b0b091b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3961330476cad8947f94152e49c90adb1e8f8b21
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398075"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339286"
 ---
 # <a name="pidtagattachdataobject-canonical-property"></a>Каноническое свойство PidTagAttachDataObject
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит объект вложения, обычно доступе через интерфейс объекта связывания и внедрения (OLE) **IStorage** . 
+Содержит объект вложения, доступ к которому обычно осуществляется с помощью интерфейса OLE **IStorage** для связывания и внедрения объектов. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ATTACH_DATA_OBJ  <br/> |
+|Связанные свойства:  <br/> |ПР_АТТАЧ_ДАТА_ОБЖ  <br/> |
 |Идентификатор:  <br/> |0x3701  <br/> |
-|Тип данных:  <br/> |PT_OBJECT  <br/> |
+|Тип данных:  <br/> |ПТ_ОБЖЕКТ  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство содержит вложения, когда значение свойства **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) **ATTACH_EMBEDDED_MSG** или **ATTACH_OLE**. Можно определить тип кодировки OLE из **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+Это свойство содержит вложение, когда значение свойства **пр_аттач_месод** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)) равно **аттач_ембеддед_мсг** или **аттач_оле**. Тип кодирования OLE можно определить из **пр_аттач_таг** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
   
-Для вложения, связанные со значением **ATTACH_EMBEDDED_MSG** интерфейс [IMessage:IMAPIProp](imessageimapiprop.md) можно использовать для более быстрого доступа. 
+Для вложений, связанных со значением **аттач_ембеддед_мсг** , можно использовать интерфейс [iMessage: IMAPIProp](imessageimapiprop.md) для более быстрого доступа. 
   
-Свойство **PR_ATTACH_DATA_OBJ** содержит собственные данные для отображения динамических внедренный объект OLE, и свойство **PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) должны быть пустой или несуществующий. 
+Для внедренного динамического объекта OLE свойство **пр_аттач_дата_обж** содержит собственные сведения о отрисовке, а свойство **пр_аттач_рендеринг** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)) должно быть либо несуществующим, либо пустым. 
   
-Для вложения файла документа OLE поставщика хранилища сообщений, необходимо ответить на звонок [IMAPIProp::OpenProperty](imapiprop-openproperty.md) на **PR_ATTACH_DATA_OBJ** и при необходимости может ответить на звонок на **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md) ). Свойства **PR_ATTACH_DATA_BIN** и **PR_ATTACH_DATA_OBJ** совместно использовать один и тот же идентификатор свойства и таким образом, два представления одного свойства. 
+Для вложенного файла документа OLE поставщик хранилища сообщений должен отвечать на вызов [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) на **пр_аттач_дата_обж** , а также может ответить на вызов в **пр_аттач_дата_бин** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md) ). Свойства **пр_аттач_дата_бин** и **пр_аттач_дата_обж** используют один и тот же идентификатор свойства, поэтому они являются двумя представлениями одного и того же свойства. 
   
-Для объекта хранилища такие как составной файл в формате документа OLE 2.0, некоторых поставщиков услуг позволяет открыть с помощью интерфейса MAPI **IStreamDocfile** подкласс **IStream** без дополнительных членов, предназначено для оптимизации производительности. Потенциальные сохранением является достаточно попыткой открыть **PR_ATTACH_DATA_OBJ** через **IStreamDocfile**. Если возвращаются **MAPI_E_INTERFACE_NOT_SUPPORTED** клиента можно открыть **PR_ATTACH_DATA_BIN** с **IStream**. 
+Для объекта хранилища, такого как составной файл в формате OLE 2,0 докфиле, некоторые поставщики услуг позволяют открыть его с помощью интерфейса MAPI **помощью istreamdocfile** , который является подКлассом **IStream** без дополнительных членов, предназначенный для оптимизации производительности. Для того, чтобы выровнять попытки открыть **пр_аттач_дата_обж** через **помощью istreamdocfile**, достаточно сэкономить. Если возвращается **мапи_е_интерфаце_нот_суппортед** , клиент может открыть **Пр_аттач_дата_бин** с помощью **IStream**. 
   
-Если клиентское приложение или поставщик услуг не могут открыть вложенные объекты вложения с помощью **PR_ATTACH_DATA_OBJ** с помощью **PR_ATTACH_METHOD**, следует использовать **PR_ATTACH_DATA_BIN**. 
+Если клиентское приложение или поставщик услуг не может открыть вложенный объект с помощью **пр_аттач_дата_обж** с помощью **пр_аттач_месод**, он должен использовать **пр_аттач_дата_бин**. 
   
-Дополнительные сведения о интерфейсов OLE и форматов видеть [OLE и передачи данных](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).
+Дополнительные сведения о OLE interfaces и formats можно найти в статье [OLE and Data Transfer](https://msdn.microsoft.com/library/d4a57956-37ba-44ca-8efc-bf617ad5e77b.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-## <a name="header-files"></a>Файлы заголовков
+## <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -74,7 +74,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

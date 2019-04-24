@@ -1,5 +1,5 @@
 ---
-title: ArcTo_Type complexType ('Visio XML»)
+title: Аркто_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c30c80eb-6327-ebc3-7ea4-8b2fc7525cc0
 ms.openlocfilehash: 73a89d7535a81700a875f68905de844f876a6181
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341414"
 ---
-# <a name="arctotype-complextype-visio-xml"></a>ArcTo_Type complexType ('Visio XML»)
+# <a name="arctotype-complextype-visio-xml"></a>Аркто_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -21,7 +21,7 @@ ms.locfileid: "25390151"
 |:-----|:-----|
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Базовый элемент расширения** <br/> |GeometryRow_Type  <br/> |
+|**Базовый элемент расширения** <br/> |Жеометриров_типе  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -52,7 +52,7 @@ ms.locfileid: "25390151"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-arcto-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
+|[Cell](cell-element-arcto-rowvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

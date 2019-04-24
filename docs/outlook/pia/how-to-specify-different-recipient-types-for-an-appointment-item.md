@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: beb29c46d590938d1650dac0c862dd5f898333fc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709182"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335415"
 ---
 # <a name="specify-different-recipient-types-for-an-appointment-item"></a>Указание получателей разных типов для элемента встречи
 
@@ -27,7 +27,7 @@ ms.locfileid: "28709182"
 
 В примере кода ниже метод SetRecipientTypeForAppt создает объект **AppointmentItem** и свойства для этого объекта, а также добавляет обязательных и необязательных участников. Кроме того, он добавляет переговорную для собрания. Обратите внимание на то, что свойство [MeetingStatus](https://msdn.microsoft.com/library/bb611417\(v=office.15\)) имеет значение [olMeeting](https://msdn.microsoft.com/library/bb644590\(v=office.15\)), указывающее, что встреча представляет собой приглашение на собрание.
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкцию **using** непосредственно перед функциями в примере кода, но ее необходимо добавить перед объявлением общедоступного класса. В строке кода ниже показано, как выполнить импорт и назначение на языке C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

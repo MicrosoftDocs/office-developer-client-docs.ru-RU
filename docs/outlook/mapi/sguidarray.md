@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 2091e5fc-75c8-4ea4-87e9-a9bf508e9c58
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bc0ae6d69db6077c17d2efa66d04a5366f2395a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d20a0932de0fb29ea73e56c37e262c0ccd062c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339216"
 ---
 # <a name="sguidarray"></a>SGuidArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив структур [идентификатор GUID](guid.md) , используемые для описания свойства типа PT_MV_CLSID. 
+Содержит массив структуры [GUID](guid.md) , который используется для описания свойства типа пт_мв_клсид. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SGuidArray
@@ -42,23 +42,23 @@ typedef struct _SGuidArray
 
 ## <a name="members"></a>Members
 
- **cValues**
+ **Квалуес**
   
-> Число значений в массиве, на который указывает член **lpguid** . 
+> Количество значений в массиве, на которое указывает элемент **лпгуид** . 
     
- **lpguid**
+ **лпгуид**
   
-> Указатель на массив структур **идентификатор GUID** , который содержит значения идентификатор класса. 
+> Указатель на массив структур **GUID** , который содержит значения идентификатора класса. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Дополнительные сведения о PT_MV_CLSID увидеть [Список типы свойств](property-types.md).
+Дополнительные сведения о ПТ_МВ_КЛСИД приведены в разделе [список типов свойств](property-types.md).
   
 ## <a name="see-also"></a>См. также
 
 
 
-[ИДЕНТИФИКАТОР GUID](guid.md)
+[GUID](guid.md)
   
 [SPropValue](spropvalue.md)
 

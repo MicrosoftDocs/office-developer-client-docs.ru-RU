@@ -12,47 +12,47 @@ api_type:
 - COM
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 708e77e4df097f5a0de008e09808ffcbc0289f61
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 992b3a6a30e15d267ffeda11ec98c7b4aeacb2c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341652"
 ---
 # <a name="pidtagprofilename-canonical-property"></a>Каноническое свойство PidTagProfileName
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит имя профиля.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PROFILE_NAME, PR_PROFILE_NAME_A, PR_PROFILE_NAME_W  <br/> |
+|Связанные свойства:  <br/> |ПР_ПРОФИЛЕ_НАМЕ, ПР_ПРОФИЛЕ_НАМЕ_А, ПР_ПРОФИЛЕ_НАМЕ_В  <br/> |
 |Идентификатор:  <br/> |0x3D12  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Настройки профилей MAPI  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Область:  <br/> |Конфигурация профиля MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Эти свойства вычисляются поставщиками услуг. Реализация поставщика функции **на неизвестную запись сервиса** можно использовать эти свойства для обнаружения имя профиля. 
+Эти свойства рассчитываются поставщиками услуг. Реализация поставщика функции **сервицеентри** может использовать эти свойства для обнаружения имени профиля. 
   
-Клиентские приложения могут использовать эти свойства как удобной альтернативы для получения имени профиля, проверив свойство **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) в строке состояния таблицы подсистемы MAPI.
+Клиентские приложения могут использовать эти свойства в качестве удобной альтернативы для получения имени профиля путем проверки свойства **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) в строке таблицы состояния подсистемы MAPI.
   
-Эти свойства могут быть уникальным во времени, например где профиль удаляется и более поздних версий заново с таким же именем. MAPI предоставляющей полностью уникальные свойства **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) в разделе жестко заданного профиля **MUID_PROFILE_INSTANCE.**
+Эти свойства могут быть неуникальными по времени, например при удалении профиля и повторном создании с таким же именем. MAPI поменяет полностью уникальное свойство **пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) в жестко закодированном разделе профиля с именем **муид_профиле_инстанце.**
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,7 +60,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

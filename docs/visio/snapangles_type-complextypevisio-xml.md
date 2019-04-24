@@ -1,5 +1,5 @@
 ---
-title: SnapAngles_Type complexType ('Visio XML»)
+title: Снапанглес_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1110a656-d8cd-19d0-1af0-31a6675bf89b
 ms.openlocfilehash: 4f48934d436fd0830019898cb6d24e940937f539
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334624"
 ---
-# <a name="snapanglestype-complextype-visio-xml"></a>SnapAngles_Type complexType ('Visio XML»)
+# <a name="snapanglestype-complextype-visio-xml"></a>Снапанглес_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "25399076"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> ||
+|[Снапангле](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[Снапангле_типе](snapangle_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

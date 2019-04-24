@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoSnap (раздел "Геометрия")
+title: NoSnap Cell (Geometry Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - vis_sdr.chm740
 localization_priority: Normal
 ms.assetid: 0e6c8621-868c-9eac-926b-3049f18023b0
-description: Определяет, привязываются ли другие элементы к пути.
-ms.openlocfilehash: 111f3773cb1df9033ed5a7b0b146d40ce6b26df0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, привязываются ли другие фигуры к пути.
+ms.openlocfilehash: 60a6532aee0f391eb38609f6ed87577e5558d5c2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341134"
 ---
-# <a name="nosnap-cell-geometry-section"></a>Ячейка NoSnap (раздел "Геометрия")
+# <a name="nosnap-cell-geometry-section"></a>NoSnap Cell (Geometry Section)
 
-Определяет, привязываются ли другие элементы к пути.
+Определяет, привязываются ли другие фигуры к пути.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Не разрешать другие фигуры, чтобы привязать к этому пути.  <br/> |
-| FALSE  <br/> | Разрешить другие фигуры, чтобы привязать к этому пути.  <br/> |
+| TRUE  <br/> | Не разрешать привязку других фигур к этому пути.  <br/> |
+| FALSE  <br/> | РазРешите другим фигурам привязку к этому пути.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Чтобы получить ссылку на ячейку NoSnap по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку с функцией Snapin по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | Геометрия *i* . NoSnap где *i* = < 1 > 2, 3...  <br/> |
+| Имя ячейки:  <br/> | Геометрия *i* . Snapin, где *i* = <1>, 2, 3...  <br/> |
    
-Для получения ссылки на ячейки NoSnap по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку с параметром Snapin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
-| Индекс раздела:  <br/> |**visSectionFirstComponent** +  *i* где *i* = 0, 1, 2...  <br/> |
-| Индекс строки:  <br/> |**visRowComponent** <br/> |
-| Индекс ячейки:  <br/> |**visCompNoSnap** <br/> |
+| Индекс раздела:  <br/> |**visSectionFirstComponent** +  *i*, где *i* = 0, 1, 2...  <br/> |
+| Индекс строки:  <br/> |**Висровкомпонент** <br/> |
+| Индекс ячейки:  <br/> |**Вискомпноснап** <br/> |
    
 

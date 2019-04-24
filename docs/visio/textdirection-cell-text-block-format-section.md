@@ -1,5 +1,5 @@
 ---
-title: Ячейка TextDirection (раздел "Формат текстового блока")
+title: TextDirection Cell (Text Block Format Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,39 +8,39 @@ f1_keywords:
 - Vis_DSS.chm995
 localization_priority: Normal
 ms.assetid: 1df3a50e-7ea5-9244-1286-c1d00c217a9a
-description: Определяет направление символов в блоке текста.
-ms.openlocfilehash: c238b6b2a47c968809869f8eb3e38b6f0db1dcad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет направление символов в текстовом блоке.
+ms.openlocfilehash: 559a2930d9ef62612cabab79ccf55ca2c30e877b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332377"
 ---
-# <a name="textdirection-cell-text-block-format-section"></a>Ячейка TextDirection (раздел "Формат текстового блока")
+# <a name="textdirection-cell-text-block-format-section"></a>TextDirection Cell (Text Block Format Section)
 
-Определяет направление символов в блоке текста.
+Определяет направление символов в текстовом блоке.
   
 |**Значение**|**Direction**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| 0  <br/> | Горизонтальная  <br/> |**visTxtBlkLeftToRight** <br/> |
-| 1  <br/> | По вертикали  <br/> |**visTxtBlkTopToBottom** <br/> |
+| нуль  <br/> | Горизонтальный  <br/> |**Висткстблклефтторигхт** <br/> |
+| 1,1  <br/> | Вертикальный  <br/> |**Висткстблктоптоботтом** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-В продуктах японского языка версии 5.0 Visio значение ячейки была сохранена в ячейке VerticalText в разделе Разное.
+В Office версии 5,0 на японском языке значение этой ячейки было сохранено в ячейке Вертикалтекст в разделе Разное.
   
-Чтобы получить ссылку на ячейку TextDirection по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку TextDirection по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | TextDirection  <br/> |
+| Имя ячейки:  <br/> | TextDirection  <br/> |
    
-Для получения ссылки на ячейки TextDirection по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку TextDirection по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowText** <br/> |
-| Индекс ячейки:  <br/> |**visTxtBlkDirection** <br/> |
+| Индекс строки:  <br/> |**Висровтекст** <br/> |
+| Индекс ячейки:  <br/> |**Висткстблкдиректион** <br/> |
    
 

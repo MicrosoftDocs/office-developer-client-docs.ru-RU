@@ -1,5 +1,5 @@
 ---
-title: Установка свойств входящих сообщений
+title: Установка свойств для входящих сообщений
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,47 +8,47 @@ api_type:
 - COM
 ms.assetid: cf4a0501-f42b-4652-a239-003022686475
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 44b5b489d3efce3ecea69ccd8b7b7a638b173c13
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d7043004799d534f11aa98770e2e323cbdae95a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339363"
 ---
-# <a name="setting-properties-on-incoming-messages"></a>Установка свойств входящих сообщений
+# <a name="setting-properties-on-incoming-messages"></a>Установка свойств для входящих сообщений
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Клиентские приложения в подсистеме MAPI предполагается, что число свойств в любой полученного сообщения. При поставщика транспорта возвращает сообщение в MAPI, его следует задать эти свойства, поскольку он — это единственный процесс с сведения, необходимые для этого, или по крайней мере наилучшего источника данных.
+Клиентские приложения в подсистеме MAPI ожидают ряд свойств в любом полученном сообщении. Когда поставщик транспорта переводит сообщение в MAPI, он должен настроить эти свойства, так как это единственный процесс, в отношении которого необходима необходимая информация, или по крайней мере лучший источник информации.
   
-Поставщики, рекомендуется задать значения для всех этих свойств в входящих сообщений.
+Поставщикам рекомендуется задавать значения для всех этих свойств в входящих сообщениях.
   
 |**Имя свойства**|**Описание**|
 |:-----|:-----|
-|**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |Тема сообщения.  <br/> |
-|**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |Текст сообщения в обычный текст.  <br/> |
-|**PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))  <br/> |Текст сообщения сжатый формат RTF.  <br/> |
-|**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |Дата и время сообщение было доставлено.  <br/> |
-|**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |Отображаемое имя этого отправитель сообщения.  <br/> |
-|**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md))  <br/> |Записи адресной книги после этого отправитель сообщения.  <br/> |
-|**PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md))  <br/> |Адресной книги поиска ключ после этого отправитель сообщения.  <br/> |
-|**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |Время, когда сообщение было отправлено системы обмена сообщениями с сообщениями клиента отправителя.  <br/> |
-|**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |Имя представителя делегат для отправки.  <br/> |
-|**PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md))  <br/> |Записи адресной книги, отправляющим делегата.  <br/> |
-|**PR_SENT_REPRESENTING_SEARCH_KEY** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md))  <br/> |Ключ поиска книги адрес отправителя делегата.  <br/> |
-|**PR_RCVD_REPRESENTING_NAME** ([PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md))  <br/> |Имя представителя делегат для приема.  <br/> |
-|**PR_RCVD_REPRESENTING_ENTRYID** ([PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md))  <br/> |Записи адресной книги получающей делегата.  <br/> |
-|**PR_RCVD_REPRESENTING_SEARCH_KEY** ([PidTagReceivedRepresentingSearchKey](pidtagreceivedrepresentingsearchkey-canonical-property.md))  <br/> |Клавиша поиска книги адрес получающей делегата.  <br/> |
-|**PR_REPLY_RECIPIENT_NAMES** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md))  <br/> |Список делегированных получателя отображения имен, разделенных точкой с запятой и пространства («;»).  <br/> |
-|**PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md))  <br/> |Список делегированных получателей на ответ.  <br/> |
-|**PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))  <br/> |Указывает, что получатель был намеренно с именем как получателя «кому» (не входит в группу).  <br/> |
-|**PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))  <br/> |Указывает, что получатель был намеренно с именем как получателя «копия» (не входит в группу).  <br/> |
-|**PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))  <br/> |Указывает, что получатель был намеренно с именем как «Кому», «копия» или «Скрытая копия» получатель (не входит в группу).  <br/> |
+|**Пр_субжект** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |Тема сообщения.  <br/> |
+|**Пр_боди** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |Текст сообщения в формате обычного текста.  <br/> |
+|**Пр_ртф_компрессед** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md))  <br/> |Сжатый текст сообщения в формате RTF.  <br/> |
+|**Пр_мессаже_деливери_тиме** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |Дата и время доставки сообщения.  <br/> |
+|**Пр_сендер_наме** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |Отображаемое имя инициатора сообщений.  <br/> |
+|**Пр_сендер_ентрид** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md))  <br/> |Запись адресной книги инициатора сообщений.  <br/> |
+|**Пр_сендер_сеарч_кэй** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md))  <br/> |Ключ поиска в адресной книге инициатора сообщения.  <br/> |
+|**Пр_клиент_субмит_тиме** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |Время, когда сообщение было отправлено в систему обмена сообщениями от клиента обмена сообщениями отправителя.  <br/> |
+|**Пр_сент_репресентинг_наме** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |Имя репрезентативного делегата для отправки.  <br/> |
+|**Пр_сент_репресентинг_ентрид** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md))  <br/> |Запись адресной книги делегата, отправившего сообщение.  <br/> |
+|**Пр_сент_репресентинг_сеарч_кэй** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md))  <br/> |Ключ поиска адресных книг делегата, отправляющего сообщение.  <br/> |
+|**Пр_рквд_репресентинг_наме** ([PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md))  <br/> |Имя репрезентативного делегата для получения.  <br/> |
+|**Пр_рквд_репресентинг_ентрид** ([PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md))  <br/> |Запись адресной книги принимающего делегата.  <br/> |
+|**Пр_рквд_репресентинг_сеарч_кэй** ([PidTagReceivedRepresentingSearchKey](pidtagreceivedrepresentingsearchkey-canonical-property.md))  <br/> |Ключ поиска в адресной книге принимающего делегата.  <br/> |
+|**Пр_репли_реЦипиент_намес** ([PidTagReplyRecipientNames](pidtagreplyrecipientnames-canonical-property.md))  <br/> |Список отображаемых имен делегированных получателей, разделенных точкой с запятой и пробелом (";").  <br/> |
+|**Пр_репли_реЦипиент_ентриес** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md))  <br/> |Список делегированных получателей для ответа.  <br/> |
+|**Пр_мессаже_то_ме** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))  <br/> |Указывает, что получатель был специально назван "to" (не в группе).  <br/> |
+|**Пр_мессаже_кк_ме** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))  <br/> |Указывает, что получатель был специально назван "CC" (не в группе).  <br/> |
+|**Пр_мессаже_реЦип_ме** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))  <br/> |Указывает, что получатель был специально назван как "Кому", "копия" или "СК" (не в группе).  <br/> |
    
-Поставщики, которые имеют не очевидное сопоставления можно задать группу **PR_SENT_REPRESENTING** свойств те же значения, как группа **PR_SENDER** , группа **PR_RCVD_REPRESENTING** свойств, те же значения, как **PR_RECEIVED_BY **группу, а можно создать группу **PR_REPLY_RECIPIENT** свойства на основе значений группы **PR_SENDER** . Например **PR_SENT_REPRESENTING_NAME** может быть присвоено значение **PR_SENDER_NAME**.
+Поставщики, не имеющие видимых сопоставлений, могут задать для группы **пр_сент_репресентинг** те же значения, что и в группе **пр_сендер** , **пр_рквд_репресентинг** группу свойств с теми же значениями, что и в **пр_рецеивед_би **и может создать группу свойств **пр_репли_реЦипиент** на основе значений группы **пр_сендер** . Например, для **пр_сент_репресентинг_наме** можно задать то же значение, что и **пр_сендер_наме**.
   
-Свойство **PR_ENTRYID** или **PR_ENTRYLIST** может возникать, если это необходимо, путем вызова метода [IMAPISupport::CreateOneOff](imapisupport-createoneoff.md) . Группа **PR_SEARCH_KEY** свойств могут создаваться путем объединения **PR_ADDRTYPE** свойства, связанного с пользователем, двоеточие (:) и **PR_EMAIL_ADDRESS** свойства, связанного с этим пользователем, а затем изменение результат в верхний регистр . Функции Windows API **CharUpperBuff** — это удобный функции для этой цели. Что является необходимым этого процесса состоит в форме каноническое адрес, который необходимо сравнить как двоичные количество. Обратите внимание на то, что это не требуется, если поставщик транспорта задается с учетом регистра по отношению к адреса электронной почты. 
+При необходимости можно создать свойство **пр_ентрид** или **пр_ентрилист** , вызвав метод [имаписуппорт:: креатеонеофф](imapisupport-createoneoff.md) . Группу свойств **пр_сеарч_кэй** можно создать с помощью сцепления свойства **пр_аддртипе** , связанного с пользователем, двоеточия (:) и свойства **пр_емаил_аддресс** , связанного с пользователем, а затем измените результат на верхний регистр. . Функция **ЧАРУППЕРБУФФ** API Windows — это удобная функция, используемая для этой цели. Для этого процесса необходимо создать каноническую форму адреса, который можно сравнить как двоичное количество. Обратите внимание, что это не требуется, если для поставщика транспорта учитывается регистр по отношению к адресам электронной почты. 
   
 

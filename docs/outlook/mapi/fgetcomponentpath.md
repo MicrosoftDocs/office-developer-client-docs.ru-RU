@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 2a303458-3283-409a-bc3b-b891f3fcfc22
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3456d81935a0a94bc2158eefd321da968dda9983
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335212"
 ---
 # <a name="fgetcomponentpath"></a>FGetComponentPath
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает путь к частной Mapi32.dll.
+Возвращает путь к закрытой MAPI32. dll.
   
 ```cpp
 BOOL FGetComponentPath(
@@ -39,39 +39,39 @@ BOOL FGetComponentPath(
 
 ## <a name="parameters"></a>Параметры
 
- _szComponent_
+ _Сзкомпонент_
   
-> [in] Раздел реестра MSIComponentID, описанные в [Параметры реестра заглушка Mapi32.dll](https://msdn.microsoft.com/library/dd162409.aspx).
+> возврата Ключ Мсикомпонентид reg, описанный в [разделе Параметры реестра MAPI32. dll-заглушек](https://msdn.microsoft.com/library/dd162409.aspx).
     
- _szQualifier_
+ _Сзкуалифиер_
   
-> [in] Подраздел MSIApplicationLCID или MSIOfficeLCID, описанных в [выберите определенные версии MAPI для загрузки](how-to-choose-a-specific-version-of-mapi-to-load.md). Вызывающие объекты можно передать **значение null** , если нет квантор. 
+> возврата Подраздел МсиаппликатионлЦид или МсиоффицелЦид, описанный в статье [Выбор определенной версии MAPI для загрузки](how-to-choose-a-specific-version-of-mapi-to-load.md). Вызывающие абоненты могут передавать **значение NULL** , если нет квалификатора. 
     
- _szDllPath_
+ _Сздллпас_
   
-> [in] Путь к частной Mapi32.dll, имеющем полной функциональности MAPI (же экспортирует в виде Mapi32.dll).
+> возврата Путь к частному MAPI32. dll, который имеет полную функциональность MAPI (те же экспортируемые компоненты, что и в MAPI32. dll).
     
- _cchBufferSize_
+ _Кчбуфферсизе_
   
-> [in] Размер _szDllPath_, в символы.
+> возврата Размер _сздллпас_в символах.
     
- _fInstall_
+ _Финсталл_
   
-> [in] Указывает MAPI для установки частный Mapi32.dll компонент, если он отсутствует.
+> возврата Указывает MAPI для установки закрытого компонента MAPI32. dll (если он отсутствует).
     
 ## <a name="return-value"></a>Возвращаемое значение
 
- **значение true**
+ **относится**
   
-> Найти путь.
+> Найден путь.
     
- **false**
+ **значения**
   
 > Путь не найден.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Используйте функцию **FGetComponentPath** , если вам нужно получить путь к частной Mapi32.dll. 
+Используйте функцию **фжеткомпонентпас** , если вам нужно получить путь к закрытой MAPI32. dll. 
   
 ## <a name="see-also"></a>См. также
 
@@ -80,5 +80,5 @@ BOOL FGetComponentPath(
 [Выбор определенной версии MAPI для загрузки](how-to-choose-a-specific-version-of-mapi-to-load.md)
 
 
-[Параметры реестра заглушка Mapi32.dll](https://msdn.microsoft.com/library/dd162409.aspx)
+[Параметры реестра для заглушки MAPI32. dll](https://msdn.microsoft.com/library/dd162409.aspx)
 

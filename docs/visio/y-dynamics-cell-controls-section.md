@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: cb221974-2f1a-edb0-477b-39a3c4a64c56
 description: Представляет y-координату для точки привязки управляющего маркера в локальных координатах. Точка привязки используется для эластичного соединения при движении.
-ms.openlocfilehash: 162f062d382f3f303ae39db725f3fbfa0790bfc4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 13d463ebccd9cc7a23641a036dc5dd967513b07f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341183"
 ---
 # <a name="y-dynamics-cell-controls-section"></a>Ячейка Y Dynamics (раздел "Элементы управления")
 

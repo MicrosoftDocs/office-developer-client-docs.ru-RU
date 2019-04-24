@@ -13,54 +13,54 @@ api_type:
 ms.assetid: 93f40161-d4e5-4ef9-a55f-cee62529fc04
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: bfb768b774b1fa3d4b65ad2122f49a8ffe11a7b8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391551"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341225"
 ---
 # <a name="pidtagoriginalsentrepresentingaddresstype-canonical-property"></a>Каноническое свойство PidTagOriginalSentRepresentingAddressType
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит тип адреса обмена сообщениями пользователя, от чьего имени исходное сообщение было отправлено.
+Содержит тип адреса пользователя обмена сообщениями, от имени которого было отправлено исходное сообщение.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE, PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_A, PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_W  <br/> |
+|Связанные свойства:  <br/> |ПР_ОРИГИНАЛ_СЕНТ_РЕПРЕСЕНТИНГ_АДДРТИПЕ, ПР_ОРИГИНАЛ_СЕНТ_РЕПРЕСЕНТИНГ_АДДРТИПЕ_А, PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE_W  <br/> |
 |Идентификатор:  <br/> |0x0068  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Эти свойства — это тип для представленного отправителю сообщения. Они используются в потоке беседы.
+Эти свойства представляют собой тип исходного предоставленного отправителя сообщения. Они используются в цепочке бесед.
   
-Клиентское приложение отправку сообщения от имени другого клиента эти свойства присвоено значение свойства **PR_SENT_REPRESENTING_ADDRTYPE** ([PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md)) в первой отправки сообщения. После установки, оно должно быть задано.
+Клиентское приложение, отправляющее сообщение от имени другого клиента, должно задать для этих свойств значение свойства **пр_сент_репресентинг_аддртипе** ([PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md)) при первой отправке сообщения. После установки он не должен изменяться.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщения электронной почты.
+> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

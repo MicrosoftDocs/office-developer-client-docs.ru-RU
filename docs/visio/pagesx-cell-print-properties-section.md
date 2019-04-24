@@ -1,5 +1,5 @@
 ---
-title: Ячейка PagesX (раздел "Свойства печати")
+title: PagesX Cell (Print Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm60064
 localization_priority: Normal
 ms.assetid: a10bf4c2-24f4-4c53-39ba-2b8cd5b50d2c
-description: Определяет количество печатных страниц для размещения страницы документа по горизонтали.
-ms.openlocfilehash: 4f1cf3286e7b54dc90925bf2f1ab9fe8532022e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет количество страниц принтера, на которых размещается страница документа по горизонтали.
+ms.openlocfilehash: e912aef2277f5a7d2af5352897654ee986836c48
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814350"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340140"
 ---
-# <a name="pagesx-cell-print-properties-section"></a>Ячейка PagesX (раздел "Свойства печати")
+# <a name="pagesx-cell-print-properties-section"></a>PagesX Cell (Print Properties Section)
 
-Определяет количество печатных страниц для размещения страницы документа по горизонтали. 
+Определяет количество страниц принтера, на которых размещается страница документа по горизонтали. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это значение используется только в том случае, если ячейка OnPage имеет значение TRUE. 
+Это значение используется только в том случае, если ячейка onPage имеет значение TRUE. 
   
-Чтобы получить ссылку на ячейку PagesX по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку PagesX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | PagesX  <br/> |
+| Имя ячейки:  <br/> | PagesX  <br/> |
    
-Для получения ссылки на ячейки PagesX по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку PagesX по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPrintProperties** <br/> |
-| Индекс ячейки:  <br/> |**visPrintPropertiesPagesX** <br/> |
+| Индекс строки:  <br/> |**Висровпринтпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Виспринтпропертиеспажескс** <br/> |
    
 

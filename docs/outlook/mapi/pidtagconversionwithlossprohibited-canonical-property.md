@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: a18b560a-e054-45b3-946d-6504465db5b7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e5d9261a9f33d77d52cfd6e448e69a2c1e8df415
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 972df747e0ee459996b9b4da5732be1490fbd08a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585236"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334666"
 ---
 # <a name="pidtagconversionwithlossprohibited-canonical-property"></a>Каноническое свойство PidTagConversionWithLossProhibited
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если сообщение передачи (агента) — это могут выполнять сообщение преобразования текста, которые потерю данных. 
+Содержит значение TRUE, если агенту передачи сообщений (MTA) запрещено выполнять преобразования текста сообщений, которые теряют данные. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONVERSION_WITH_LOSS_PROHIBITED  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНВЕРСИОН_ВИС_ЛОСС_ПРОХИБИТЕД  <br/> |
 |Идентификатор:  <br/> |0x000D  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Общие настройки  <br/> |
+|Область:  <br/> |Общая конфигурация  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Пример типа преобразования запрещено — это сопоставление «с потерей данных» в кодировке Юникод (два байта на знак) в набор однобайтовых знаков. 
+Примером запрещенного типа преобразования является сопоставление "потери" из Юникода (два байта на символ) в однобайтовый набор символов. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

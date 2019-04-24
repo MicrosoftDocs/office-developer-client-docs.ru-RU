@@ -1,5 +1,5 @@
 ---
-title: Установка профиля по умолчанию
+title: Настройка профиля по умолчанию
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,25 +8,25 @@ api_type:
 - COM
 ms.assetid: 1d1e862d-ba49-48a1-bb51-0af861323b7b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2044969cc79990c9f0325fc7934e3426015fdc72
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f6bf8f88fa3e87ae619fa32d759fc182290998ad
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591774"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339314"
 ---
-# <a name="setting-a-default-profile"></a>Установка профиля по умолчанию
+# <a name="setting-a-default-profile"></a>Настройка профиля по умолчанию
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Профиль по умолчанию является профиль, который используется, если не указано явно в вызове [MAPILogonEx](mapilogonex.md), вместо этого установка флага MAPI_USE_DEFAULT.
+Профиль по умолчанию — это профиль, который используется, если вы не указали его явно в вызове [мапилогонекс](mapilogonex.md), УСТАНОВИВ флаг мапи_усе_дефаулт.
   
- **Чтобы установить профиль по умолчанию**
+ **Установка профиля по умолчанию**
   
-1. Вызовите функцию [MAPIAdminProfiles](mapiadminprofiles.md) для получения указателя интерфейса **IProfAdmin** . 
+1. ВыЗовите функцию [мапиадминпрофилес](mapiadminprofiles.md) , чтобы получить указатель интерфейса **ипрофадмин** . 
     
-2. Вызов [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md). **SetDefaultProfile** задает свойство **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) для нового профиля по умолчанию и удаляет параметр для предыдущих профиля по умолчанию.
+2. Call [ипрофадмин:: SetDefaultProfile](iprofadmin-setdefaultprofile.md). **SetDefaultProfile** задает свойство **пр_дефаулт_профиле** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) для нового профиля по умолчанию и удаляет параметр для предыдущего профиля по умолчанию.
     
 

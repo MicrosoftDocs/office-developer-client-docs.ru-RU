@@ -12,26 +12,26 @@ api_type:
 - COM
 ms.assetid: 23c08597-41f0-4f48-a63e-79962fa812bc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e9a1c416cbf992c9cbcfb5de42d302ff16e7f521
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9ffaab1e9cc381be2abfb389f4b72067dca2438b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338565"
 ---
 # <a name="msgcallrelease"></a>MSGCALLRELEASE
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Определяет функцию обратного вызова, можно освободить интерфейс **IStorage** после окончательной версии объекта **IMessage** , построенных на основе его с помощью функции [OpenIMsgOnIStg](openimsgonistg.md) . 
+Определяет функцию обратного вызова, которая может освобождать интерфейс **IStorage** после окончательного выпуска объекта **iMessage** , построенного на основе функции [опенимсгонистг](openimsgonistg.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |IMessage.h  <br/> |
-|Функция реализован:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
-|Вызывается функция:  <br/> |MAPI  <br/> |
+|Файл заголовка:  <br/> |IMessage. h  <br/> |
+|Определенная функция реализована следующим образом:  <br/> |Клиентские приложения и поставщики услуг  <br/> |
+|Определенная функция, вызываемая:  <br/> |MAPI  <br/> |
    
 ```cpp
 typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
@@ -41,13 +41,13 @@ typedef void (STDAPICALLTYPE MSGCALLRELEASE)(
 
 ## <a name="parameters"></a>Параметры
 
- _ulCallerData_
+ _Улкаллердата_
   
-> [in] Содержит вызывающего приложения сведения об интерфейсе **IMessage** . 
+> возврата Содержит сведения о вызывающем приложении для интерфейса **iMessage** . 
     
- _lpMessage_
+ _Лпмессаже_
   
-> [in] Указатель на верхнего уровня сообщений и вложений, которые были выпущены.
+> возврата Указатель на сообщение верхнего уровня и вложения, которые были выпущены.
     
 ## <a name="return-value"></a>Возвращаемое значение
 

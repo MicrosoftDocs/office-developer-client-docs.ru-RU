@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 3e17a528-b5f6-43f6-9e2f-c6a257beff6f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c4510cdffa711f6b8aa0cc5ba1622d4d55557871
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 09dfe769eec5c2d1272732e2a0d8b1f5d484131c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563731"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332230"
 ---
 # <a name="cbspropproblemarray"></a>CbSPropProblemArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов в имеющуюся структуру [SPropProblemArray](spropproblemarray.md) . 
+Вычисляет количество байтов в существующей структуре [спроппроблемаррай](spropproblemarray.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SPropProblemArray** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 CbSPropProblemArray (_lparray)
@@ -38,9 +38,9 @@ CbSPropProblemArray (_lparray)
 
 ## <a name="parameters"></a>Параметры
 
- __lparray_
+ __лпаррай_
   
-> Указатель на структуру существующих **SPropProblemArray** . 
+> Указатель на существующую структуру **спроппроблемаррай** . 
     
 ## <a name="see-also"></a>См. также
 

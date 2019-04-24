@@ -1,5 +1,5 @@
 ---
-title: IConverterSessionSetEncoding
+title: Иконвертерсессионсетенкодинг
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a9624d3f-a636-0267-5cbd-de0db42f9c22
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 5a81e04d112e0adf201dcacf03673daac77a04ab
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341302"
 ---
 # <a name="iconvertersessionsetencoding"></a>IConverterSession::SetEncoding
 
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Инициализирует кодировку для использования при преобразовании.
+Инициализирует кодировку, используемую при преобразовании.
   
 ```cpp
 HRESULT IConverterSession:: SetEncoding ( 
@@ -35,11 +35,11 @@ HRESULT IConverterSession:: SetEncoding (
 
 _et_
   
-> Значение [ENCODINGTYPE](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Поддерживаются только следующие значения: 
+> Значение [енкодингтипе](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Поддерживаются только следующие значения: 
     
    - IET_BASE64
-   - IET_UUENCODE
-   - IET_QP
+   - ИЕТ_УУЕНКОДЕ
+   - ИЕТ_КП
    - IET_7BIT
    - IET_8BIT
     
@@ -47,13 +47,13 @@ _et_
 
 E_INVALIDARG
   
-> Недопустимый тип кодировки передается.
+> Передан недопустимый тип кодирования.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Вызовите **SetEncoding** перед использованием [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md) для выполнения преобразования. 
+ВыЗовите **сетенкодинг** перед использованием [Иконвертерсессион:: мапитомиместм](iconvertersession-mapitomimestm.md) , чтобы выполнить преобразование. 
   
-Используйте **SetEncoding** , чтобы установить кодировку только внешний сообщения из почтового элемента. Microsoft Outlook 2010 и Microsoft Outlook 2013 выберите кодировку для отдельных вложений. 
+Используйте **сетенкодинг** , чтобы задать кодировку только для самого внешнего текста сообщения почтового элемента. Microsoft Outlook 2010 и Microsoft Outlook 2013 выберите кодировку для отдельных вложений. 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -61,8 +61,8 @@ E_INVALIDARG
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |Mfcmapi (en) используется MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |Mfcmapi (en) используется MAPIToMIMEStm для преобразования MAPI сообщения EML-файла.  <br/> |
+|Мапимиме. cpp  <br/> |Импортемлтоимессаже  <br/> |MFCMAPI использует Миметомапи для преобразования EML файла в сообщение MAPI.  <br/> |
+|Мапимиме. cpp  <br/> |Експортимессажетоемл  <br/> |MFCMAPI использует Мапитомиместм для преобразования сообщения MAPI в файл EML.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: Развертывание списков рассылки
+title: Расширение списков рассылки
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,23 +8,23 @@ api_type:
 - COM
 ms.assetid: 44231a95-dafc-44f7-bfa9-9f73ea8cb8b7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c7c0043ed898a827b2ea8c65b20837c571f88883
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5731a35b5d570669d8606be6dd6ca1a23fb87e88
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334988"
 ---
-# <a name="expanding-distribution-lists"></a>Развертывание списков рассылки
+# <a name="expanding-distribution-lists"></a>Расширение списков рассылки
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- **Чтобы запрашивать MAPI разверните список рассылки**
+ **Запрос MAPI для расширения списка рассылки**
   
-- Присвойте свойству **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) MAPIPDL.
+- ПриСвойте свойству **пр_аддртипе** ([PIDTAGADDRESSTYPE](pidtagaddresstype-canonical-property.md)) значение мапипдл.
     
-    MAPI расширяет адреса с этим типом перед отправкой сообщения поставщика транспорта.
+    MAPI расширяет адреса этого типа перед отправкой сообщения поставщику транспорта.
     
 

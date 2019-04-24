@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: b98e648c-e540-4cf4-8dde-e8f88b0fb3b3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a5c2fd1d3b18ceb5aec1ca71ed3f9a28dec2db89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5f2c7d8b49f64e0adb66c9f6d8eae6927e656725
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340945"
 ---
 # <a name="pidtagoriginatoranddistributionlistexpansionhistory-canonical-property"></a>Каноническое свойство PidTagOriginatorAndDistributionListExpansionHistory
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит сведения о отправителем сообщения и История расширение списка рассылки.
+Содержит сведения о инициаторе сообщения и журнале расширения списка рассылки.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY  <br/> |
+|Связанные свойства:  <br/> |ПР_ОРИГИНАТОР_АНД_ДЛ_ЕКСПАНСИОН_ХИСТОРИ  <br/> |
 |Идентификатор:  <br/> |0x1002  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
 Это свойство используется при создании отчета.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

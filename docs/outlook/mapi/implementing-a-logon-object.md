@@ -1,5 +1,5 @@
 ---
-title: Реализация объекта входа
+title: Реализация объекта logon
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,68 +8,68 @@ api_type:
 - COM
 ms.assetid: 41e5c88c-d79d-4e9f-81f4-c4365cfaa15d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 99a8473abf01467c534c0ea829e342fa46489e99
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f9d77313012c2d133dc9352707ebc5e0c69c9973
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332846"
 ---
-# <a name="implementing-a-logon-object"></a>Реализация объекта входа
+# <a name="implementing-a-logon-object"></a>Реализация объекта logon
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Каждые адресной книги, хранилища сообщений и поставщика транспорта создает экземпляр объекта входа в систему как часть своей реализации [IABProvider::Logon](iabprovider-logon.md), [IMSProvider::Logon](imsprovider-logon.md)или [IXPProvider::TransportLogon](ixpprovider-transportlogon.md). Объекты входа реализовать методы, которые помогают запросов клиентов MAPI службы. В зависимости от типа поставщика услуг объект входа в систему будет поддерживать один из следующих интерфейсов. 
+Каждая адресная книга, хранилище сообщений и поставщик транспорта создают экземпляр объекта logon в рамках своей реализации [иабпровидер:: logon](iabprovider-logon.md), [Функцииimsprovider:: logon](imsprovider-logon.md)или [иксппровидер:: транспортлогон](ixpprovider-transportlogon.md). Объекты входа реализуют методы, которые помогают отправлять запросы клиентов службы MAPI. В зависимости от типа поставщика услуг ваш объект входа будет поддерживать один из следующих интерфейсов. 
   
-|**Интерфейс входа в объект**|**Поставщик услуг**|
+|**Интерфейс объекта logon**|**Поставщик услуг**|
 |:-----|:-----|
-|[IABLogon : IUnknown](iablogoniunknown.md) <br/> |Поставщик адресной книги  <br/> |
+|[IABLogon : IUnknown](iablogoniunknown.md) <br/> |Поставщик адресных книг  <br/> |
 |[IMSLogon : IUnknown](imslogoniunknown.md) <br/> |Поставщик хранилища сообщений  <br/> |
 |[IXPLogon : IUnknown](ixplogoniunknown.md) <br/> |Поставщик транспорта  <br/> |
    
-Адресная книга и сообщение внедряемые поставщиками хранилищ следующие функции в их объектами входа:
+Службы адресных книг и хранилищ сообщений реализуют следующие функции в своих объектах входа:
   
-- Поддержка для уведомлений о событиях (методы**уведомлений** и **Unadvise** ). Обзор уведомлений о событиях в разделе [Уведомление о событии в MAPI](event-notification-in-mapi.md). Дополнительные сведения о поддержке уведомлений в объекте входа видеть [Поддержка уведомления о событии](supporting-event-notification.md). 
+- Поддержка уведомлений о событиях (методы**advise** и unadvise). **** Обзор уведомления о событиях представлен [в статье уведомление о событии в MAPI](event-notification-in-mapi.md). Дополнительные сведения о поддержке уведомлений в объекте logon содержатся в разделе [Поддержка уведомления о событиях](supporting-event-notification.md). 
     
-- Сравнение идентификатор записи (метод**CompareEntryIDs** ). Общие сведения об идентификаторах запись [Идентификаторы MAPI записей](mapi-entry-identifiers.md)см. Дополнительные сведения о сравнении идентификаторы записей в метод **CompareEntryIDs** объекта входа можно [Поддержка доступа к объектам и сравнения](supporting-object-access-and-comparison.md).
+- Сравнение идентификатора записи (метод**метод compareentryids** ). Общие сведения об идентификаторах записей можно узнать в статье [идентификаторы записей MAPI](mapi-entry-identifiers.md). Дополнительные сведения о сравнении идентификаторов записей в методе **метод compareentryids** объекта logon см в разделе [Поддержка доступа к объектам и сравнение](supporting-object-access-and-comparison.md).
     
-- Доступ к Дополнительные сведения об ошибке (**GetLastError** метод). Дополнительные сведения об обработке ошибок в MAPI можно [Обработки ошибок в MAPI](error-handling-in-mapi.md). 
+- Доступ к дополнительным сведениям об ошибке (метод**GetLastError** ). Более подробную информацию об обработке ошибок в MAPI можно узнать [в статье обработка ошибок в MAPI](error-handling-in-mapi.md). 
     
-- Доступ к объектам, реализованные поставщиком услуг (**OpenEntry** метод). Для получения дополнительных сведений см [Поддержка доступа к объектам и сравнения](supporting-object-access-and-comparison.md).
+- Доступ к объектам, реализуемым поставщиком услуг (методом**OpenEntry** ). Дополнительные сведения см в разделе [Поддержка доступа к объектам и сравнение](supporting-object-access-and-comparison.md).
     
-- Доступ к объекту состояния (**OpenStatusEntry** метод). Общие сведения о состоянии объекты видеть [Состояние объектов MAPI](mapi-status-objects.md). Сведения о реализации объекта состояния содержатся [Реализация объекта состояния](status-object-implementation.md).
+- Доступ к объекту Status (метод**опенстатусентри** ). Общие сведения об объектах состояния приведены в разделе [объекты состояния MAPI](mapi-status-objects.md). Для получения подробных сведений о реализации объекта Status ознакомьтесь с [реализациЕй объекта Status](status-object-implementation.md).
     
-- Процесс выхода из системы (метод**Выход из системы** ). Для получения дополнительных сведений см [Завершает работу поставщика услуг](shutting-down-a-service-provider.md).
+- Процесс выхода из системы (метод**logoff** ). Для получения дополнительных сведений обратитесь [к разделу завершение работы поставщика услуг](shutting-down-a-service-provider.md).
     
-Если ваш поставщик поставщика адресных книг, следует также реализовать следующие методы и связанные функции:
+Если ваш поставщик является поставщиком адресной книги, вы также реализуете следующие методы и связанные с ней функции:
   
-- [IABLogon::GetOneOffTable](iablogon-getoneofftable.md) предоставляет набор шаблонов, которые поддерживают для создания новых получателей. Для получения дополнительных сведений см [Одноразовых таблицы](one-off-tables.md) или [реализации поставщика одноразовых таблицы](implementing-a-provider-one-off-table.md).
+- [Иаблогон:: жетонеоффтабле](iablogon-getoneofftable.md) для предоставления списка шаблонов, которые поддерживаются для создания новых получателей. Дополнительные сведения см. в разделе [одноразовЫе таблицы](one-off-tables.md) или [Реализация одноразовой таблицы поставщика](implementing-a-provider-one-off-table.md).
     
-- [IABLogon::OpenTemplateID](iablogon-opentemplateid.md) для предоставления доступа к реализации получателя, данные которого находится в адресной книге узла. Для получения дополнительных сведений см [используется в качестве внешнего поставщик адресной книги](acting-as-a-foreign-address-book-provider.md). 
+- [Иаблогон:: опентемплатеид](iablogon-opentemplateid.md) для предоставления доступа к реализации получателя, данные которого хранятся в поставщике адресной книги узла. Для получения дополнительных сведений обратитесь к разделу "работа в [качестве поставщика внешних адресНых книг](acting-as-a-foreign-address-book-provider.md)". 
     
-- [IABLogon::PrepareRecips](iablogon-preparerecips.md) убедитесь, что соответствующие свойства доступны для всех получателей в список получателей. Для получения дополнительных сведений см [IABLogon::PrepareRecips](iablogon-preparerecips.md). 
+- [Иаблогон::P репаререЦипс](iablogon-preparerecips.md) , чтобы обеспечить доступность соответствующих свойств для всех получателей в списке получателей. Дополнительные сведения см. в статье [иаблогон::P репаререЦипс](iablogon-preparerecips.md). 
     
-Объект входа поставщика транспорта, который реализует [IXPLogon: IUnknown](ixplogoniunknown.md), отличается от объектов входа в систему, реализованных других типов поставщиков услуг. Имеется только две возможности вместе с другими объектами входа: доступ к объекту состояния через метод [IXPLogon::OpenStatusEntry](ixplogon-openstatusentry.md) и операцию выхода из системы с помощью метода [IXPLogon::TransportLogoff](ixplogon-transportlogoff.md) . Поставщики транспорта реализации следующих уникальных функций в их объектами входа: 
+Объект входа поставщика транспорта, который реализует [иксплогон: IUnknown](ixplogoniunknown.md), сильно отличается от объектов входа, реализованных другими типами поставщиков услуг. У него есть только две функции, общие с другими объектами входа: доступ к объекту Status через метод [иксплогон:: опенстатусентри](ixplogon-openstatusentry.md) и операцию выхода из системы с помощью метода [Иксплогон:: транспортлогофф](ixplogon-transportlogoff.md) . Поставщики транспорта реализуют следующие уникальные функции в своих объектах входа: 
   
-- Регистрация типов адресов (метод[IXPLogon::AddressTypes](ixplogon-addresstypes.md) ). Дополнительные сведения о регистрации тип адреса можно [поставщика транспорта и модель действующие очереди MAPI](transport-provider-and-mapi-spooler-operational-model.md).
+- Регистрация типов адресов ([иксплогон:: метод аддресстипес](ixplogon-addresstypes.md) ). Более подробную информацию о регистрации типа адреса можно узнать в статье [Transport Provider and spool MAPI Operational Model](transport-provider-and-mapi-spooler-operational-model.md).
     
-- Элемент управления передачи сообщений (методы[IXPLogon::StartMessage](ixplogon-startmessage.md), [IXPLogon::EndMessage](ixplogon-endmessage.md)и [IXPLogon::SubmitMessage](ixplogon-submitmessage.md) ). Для получения дополнительных сведений см [Модели приема сообщений](message-reception-model.md), [Interacting с очередью MAPI](interacting-with-the-mapi-spooler.md)и [Модель отправки сообщения](message-submission-model.md).
+- Управление передачей сообщений ([иксплогон:: стартмессаже](ixplogon-startmessage.md), [Иксплогон:: ендмессаже](ixplogon-endmessage.md)и [иксплогон:: субмитмессаже](ixplogon-submitmessage.md) методы). Для получения дополнительных сведений см. [модель приема сообщений](message-reception-model.md), [взаимодействие с диспетчером очереди MAPI](interacting-with-the-mapi-spooler.md)и [модель отправки сообщений](message-submission-model.md).
     
-- Проверка внутреннего состояния ([IXPLogon::ValidateState](ixplogon-validatestate.md) метод). 
+- Проверка внутреннего состояния ([иксплогон:: валидатестате](ixplogon-validatestate.md) ). 
     
-- Возможность загрузки или отправки сообщений по запросу (метод[IXPLogon::FlushQueues](ixplogon-flushqueues.md) ). [Метод FlushQueues](implementing-the-flushqueues-method.md)для получения дополнительных сведений см.
+- Возможность загружать и отправлять сообщения по требованию ([иксплогон:: метод FlushQueues](ixplogon-flushqueues.md) ). Дополнительные сведения см. в разделе [Реализация метода FlushQueues](implementing-the-flushqueues-method.md).
     
-- Возможность запроса для ожидающих сообщений (метод[IXPLogon::Poll](ixplogon-poll.md) ). Для получения дополнительных сведений см. [Модель приема сообщений](message-reception-model.md).
+- Возможность запросов к ожидающим сообщениям ([иксплогон::P метод олл](ixplogon-poll.md) ). Дополнительные сведения см. в статье [модель приема сообщений](message-reception-model.md).
     
-- Определение состояния простоя (метод[IXPLogon::Idle](ixplogon-idle.md) ). 
+- Обнаружение состояния простоя ([иксплогон:: метод Idle](ixplogon-idle.md) ). 
     
-- Взаимодействие с очередью MAPI (метод[IXPLogon::TransportNotify](ixplogon-transportnotify.md) ). 
+- Взаимодействие с диспетчером очереди MAPI (метод[иксплогон:: транспортнотифи](ixplogon-transportnotify.md) ). 
     
 ## <a name="see-also"></a>См. также
 
 
 
-[Реализация входа для поставщика службы](implementing-service-provider-logon.md)
+[Реализация входа у поставщика услуг](implementing-service-provider-logon.md)
 

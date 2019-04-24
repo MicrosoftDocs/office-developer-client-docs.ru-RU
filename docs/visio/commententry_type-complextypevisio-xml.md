@@ -1,5 +1,5 @@
 ---
-title: CommentEntry_Type complexType ('Visio XML»)
+title: Комментентри_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6d9e99b8-fcd6-f36b-960e-bcf3a23afe04
 ms.openlocfilehash: eabfe218414874cdc7f10234ed6eeb1fa2f75cf4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384796"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334946"
 ---
-# <a name="commententrytype-complextype-visio-xml"></a>CommentEntry_Type complexType ('Visio XML»)
+# <a name="commententrytype-complextype-visio-xml"></a>Комментентри_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -21,7 +21,7 @@ ms.locfileid: "25384796"
 |:-----|:-----|
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Базовый элемент расширения** <br/> |XSD:String  <br/> |
+|**Базовый элемент расширения** <br/> |XSD: строка  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -76,13 +76,13 @@ ms.locfileid: "25384796"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|AuthorID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|AutoCommentType  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|CommentID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|Date  <br/> |XSD: DateTime  <br/> |Обязательный  <br/> ||Значения типа XSD: DateTime.  <br/> |
-|done  <br/> |XSD:Boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
-|EditDate  <br/> |XSD: DateTime  <br/> |необязательный  <br/> ||Значения типа XSD: DateTime.  <br/> |
-|PageID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|ShapeID  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|Аусорид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Аутокомменттипе  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Комментид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Дата  <br/> |XSD: dateTime  <br/> |Обязательный  <br/> ||Значения типа XSD: dateTime.  <br/> |
+|Готово  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
+|EditDate  <br/> |XSD: dateTime  <br/> |необязательный  <br/> ||Значения типа XSD: dateTime.  <br/> |
+|PageID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Шапеид  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

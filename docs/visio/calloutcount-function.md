@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0c984d53-763e-e502-b672-beffdebf73f3
-description: Возвращает общее число выноска с фигурами, которые связаны с формой.
-ms.openlocfilehash: 5a48f07475916c2480a824f71d52d45f829c90d2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает общее число фигур выноски, связанных с фигурой.
+ms.openlocfilehash: f973886fba673be0a5d218f0bbc0a59338fe0f6e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337529"
 ---
 # <a name="calloutcount-function"></a>Функция CALLOUTCOUNT
 
-Возвращает общее число выноска с фигурами, которые связаны с формой.
+Возвращает общее число фигур выноски, связанных с фигурой.
   
 ## <a name="version-information"></a>Сведения о версии
 
@@ -25,9 +25,9 @@ ms.locfileid: "19813316"
   
 ## <a name="syntax"></a>Синтаксис
 
-CALLOUTCOUNT()
+CALLOUTCOUNT ()
   
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
  **Integer**
   

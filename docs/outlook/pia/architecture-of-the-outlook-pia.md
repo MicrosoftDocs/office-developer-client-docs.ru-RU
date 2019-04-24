@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 37ecad42b08b96d79d96d62f98e27913a0309971
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713305"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336528"
 ---
 # <a name="architecture-of-the-outlook-pia"></a>Архитектура Outlook PIA
 
@@ -20,7 +20,7 @@ ms.locfileid: "28713305"
 
 ## <a name="in-this-section"></a>В этой статье
 
-|Раздел|Описание|
+|Статья|Описание|
 |:----|:----------|
 |[Связывание Outlook PIA с объектной моделью](relating-the-outlook-pia-with-the-object-model.md) |Описывает порядок сопоставления объектов и элементов объектной модели Outlook на основе COM соответствующим управляемым интерфейсам и классам PIA.|
 |[Объекты в Outlook PIA](objects-in-the-outlook-pia.md) |Описывает типовые интерфейсы, классы и делегаты .NET, сопоставляемые с COM-объектом, а также описывает доступ к объекту в PIA.|

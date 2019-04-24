@@ -1,5 +1,5 @@
 ---
-title: IMAPIProviderShutdownQueryFastShutdown
+title: Имапипровидершутдовнкуерифастшутдовн
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 12069912-4b87-4945-9123-51106e0d2d54
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 4301fb504439cf0ebd70b5ece589c812cb74844e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 50b49761cf5923b11a450cbce7b7991f5ddd4d82
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338488"
 ---
 # <a name="imapiprovidershutdownqueryfastshutdown"></a>IMAPIProviderShutdown::QueryFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22585299"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Запросы, которые поддерживают поставщика MAPI для быстрое завершение работы. 
+ЗаПрашивает у поставщика MAPI поддержку быстрого завершения работы. 
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -35,17 +35,17 @@ HRESULT QueryFastShutdown ();
 
 S_OK
   
-> Поставщик MAPI поддерживает быстрое завершение работы клиента MAPI.
+> Поставщик MAPI поддерживает клиент MAPI для быстрого завершения работы.
     
-MAPI_E_NO_SUPPORT
+МАПИ_Е_НО_СУППОРТ
   
 > Поставщик MAPI не поддерживает быстрое завершение работы клиента MAPI.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Поставщики MAPI, которые не должны поддерживать быстрое завершение работы клиента следует по-прежнему реализовать интерфейс [IMAPIProviderShutdown](imapiprovidershutdowniunknown.md) и метод **IMAPIProviderShutdown::QueryFastShutdown** возвращает MAPI_E_NO_SUPPORT. Для Outlook как клиент MAPI в результате Outlook вынуждены ждать освобождения всех внешних ссылок освободить до его завершения. 
+Поставщики MAPI, которые не нуждаются в поддержке быстрого завершения работы клиента, по-прежнему должны реализовывать интерфейс [IMAPIProviderShutdown](imapiprovidershutdowniunknown.md) и иметь метод **IMAPIProviderShutdown:: QueryFastShutdown** , возвращающий мапи_е_но_суппорт. Для Outlook в качестве клиента MAPI это приводит к тому, что Outlook ждет, пока все внешние ссылки будут сняты до завершения работы. 
   
-В зависимости от реестра Windows пользователя политика для быстрое завершение работы не реализация интерфейса **IMAPIProviderShutdown** не обязательно быстрое завершение работы клиента. 
+В зависимости от параметра реестра Windows для быстрого завершения работы, отсутствие реализации интерфейса **IMAPIProviderShutdown** не обязательно препятствует быстрому завершению работы клиента. 
   
 ## <a name="see-also"></a>См. также
 

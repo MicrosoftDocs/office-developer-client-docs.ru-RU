@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3b355b98-dd7d-4f16-8257-367e5dd61b34
 description: Learn how to plug in a third-party weather web service for the Weather Bar in Outlook 2013, to provide weather conditions data for a user-chosen location.
 ms.openlocfilehash: 0423e149306bf7562dd525f1b7460a63cbace372
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386581"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336581"
 ---
 # <a name="extending-the-weather-bar-in-outlook"></a>Extending the Weather Bar in Outlook
 
@@ -41,13 +41,13 @@ A user can specify a different weather data service for the Weather Bar, as long
     
 2. The web service allows Outlook to append the following parameters to the base URL, to request a location code: 
     
-   - outputview — поиск: этот параметр указывает, что запрос поиска расположения.
+   - аутпутвиев = Search: этот параметр указывает на то, что запрос является поиском расположения.
     
-   - weasearchstr = _Город_: этот параметр указывает расположение, _Город_, для которого пользователю прогноз погоды (например, Лондон).
+   - веасеарчстр = _City_: этот параметр указывает расположение ( _город_), для которого пользователь хочет создать прогноз погоды (например, Лондон).
     
-   - язык и региональные параметры = _LCID_: этот параметр указывает язык и региональные параметры версии Office, установленное для пользователя на этом компьютере. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](https://www.ietf.org/rfc/rfc4646.txt)
+   - Culture = _LCID_: этот параметр указывает язык и региональные параметры версии Office, установленной для пользователя на этом компьютере. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](https://www.ietf.org/rfc/rfc4646.txt)
     
-   - src = outlook: этот параметр указывает, что Outlook клиентское приложение запрашивает службу.
+   - src = Outlook: этот параметр указывает, что Outlook является клиентским приложением, запрашивающим службу.
     
    These parameters allow Outlook to take the location that the user is interested in and search for the associated location code as supported by the weather data service. The web service should respond to Outlook with a location code in XML that follows the [Outlook Weather Location XML Schema](outlook-weather-location-xml-schema.md). Figure 2 summarizes the web service request and response for a location code.
     
@@ -57,13 +57,13 @@ A user can specify a different weather data service for the Weather Bar, as long
   
 3. The web service also allows Outlook to append the following parameters, to request forecast information for a location code:
     
-   - wealocations = _кода_: _код_ в этом параметре — это расположение код, получает Outlook из действия 2 и, отображающий на папку, где пользователь заинтересована в. 
+   - веалокатионс = _код_. _код_ в этом параметре — это код расположения, который Outlook получает с шага 2 и который соответствует расположению, в котором заинтересен пользователь. 
     
-   - weadegreetype = _degreetype_: этот параметр указывает, следует ли использовать показатель или Британская единиц измерения температуры. Specify c for metric, f for imperial for  _degreetype_. This parameter is optional and does not always exist in the web service request.
+   - веадегритипе = _дегритипе_: этот параметр указывает, следует ли использовать метрику или Империал единиц измерения для температуры. Specify c for metric, f for imperial for  _degreetype_. This parameter is optional and does not always exist in the web service request.
     
-   - язык и региональные параметры = _LCID_: этот параметр указывает язык и региональные параметры версии Office, установленное для пользователя на этом компьютере. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](https://www.ietf.org/rfc/rfc4646.txt)
+   - Culture = _LCID_: этот параметр указывает язык и региональные параметры версии Office, установленной для пользователя на этом компьютере. The LCID value is defined in [[RFC4646] Tags for Identifying Languages](https://www.ietf.org/rfc/rfc4646.txt)
     
-   - src = outlook: этот параметр указывает, что Outlook клиентское приложение запрашивает службу.
+   - src = Outlook: этот параметр указывает, что Outlook является клиентским приложением, запрашивающим службу.
     
    These parameters allow Outlook to take the location code returned from Step 2 and request the weather data service for the forecast. The web service should respond to Outlook with the corresponding weather data in XML that follows the [Outlook Weather Information XML Schema](outlook-weather-information-xml-schema.md). Figure 3 summarizes the web service request and response for weather data given a location code.
     
@@ -81,10 +81,10 @@ The following table describes the **WeatherServiceUrl** key.
 |||
 |:-----|:-----|
 |**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
-|**Value name** <br/> |**WeatherServiceUrl** <br/> |
-|**Value type** <br/> |REG_SZ  <br/> |
-|**Default value** <br/> |EMPTY_STRING  <br/> |
-|**Description** <br/> |URL to a weather data service.  <br/> |
+|**Имя значения** <br/> |**WeatherServiceUrl** <br/> |
+|**Тип значения** <br/> |REG_SZ  <br/> |
+|**Значение по умолчанию** <br/> |ЕМПТИ_СТРИНГ  <br/> |
+|**Описание** <br/> |URL to a weather data service.  <br/> |
    
 ## <a name="dependent-conditions"></a>Dependent conditions
 <a name="ol15_weatherbar_dependentconditions"> </a>
@@ -100,10 +100,10 @@ Note that an administrator can also use Group Policy to disable the Weather Bar 
 |||
 |:-----|:-----|
 |**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
-|**Value name** <br/> |**DisableWeather** <br/> |
+|**Имя значения** <br/> |**DisableWeather** <br/> |
 |**Value type** <br/> |REG_DWORD  <br/> |
-|**Default value** <br/> |0  <br/> |
-|**Description** <br/> |A value of 0 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
+|**Default value** <br/> |нуль  <br/> |
+|**Описание** <br/> |A value of 0 enables the Weather Bar; any other value disables the Weather Bar.  <br/> |
    
 If the Weather Bar feature has been disabled by Group Policy, the **Calendar** tab does not include the **Show weather on the calendar** check box. Consult with the administrator to turn the feature back on. 
   
@@ -208,7 +208,7 @@ Contoso Weather responds with the following XML to provide the weather informati
 
 Even though Outlook uses MSN Weather by default, if a user has customized the Weather Bar to use a different weather service and subsequently wants to use MSN Weather again, the user can simply delete the **WeatherServiceUrl** key in the Windows Registry. Deleting that registry key resets Outlook to use MSN Weather. 
   
-## <a name="conclusion"></a>Conclusion
+## <a name="conclusion"></a>Заключение
 <a name="ol15_weatherbar_conclusion"> </a>
 
 The Weather Bar in the Outlook calendar uses MSN Weather by default to provide the weather forecast for a specified location. Users can conveniently see weather information for the locations they care about. Third-party weather data services can also integrate with the Weather Bar by supporting the Outlook Weather Location XML Schema and Outlook Weather Information XML Schema and following a simple web service protocol with Outlook.

@@ -8,27 +8,27 @@ api_type:
 - COM
 ms.assetid: 80a97c3d-4bca-4819-9da4-ca0fbf3a686f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 512c686a9e5afeadacd8edccedba2c257df48f71
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b351cc68e3c3d9f9c01acb4b3d0e52158e302d7a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336955"
 ---
 # <a name="finding-the-icon-for-a-message"></a>Поиск значка сообщения
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- **Чтобы найти значка, сопоставленного с сообщением**
+ **Чтобы найти значок, связанный с сообщением**
   
-1. Вызовите метод [IMAPIProp::GetProps](imapiprop-getprops.md) сообщений для получения его свойство **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
+1. ВыЗовите метод [IMAPIProp::](imapiprop-getprops.md) -PROPS сообщения, чтобы получить свойство **пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
     
-2. Вызов [MAPIOpenFormMgr](mapiopenformmgr.md) для получения указателя интерфейса **IMAPIFormMgr** . Передайте указатель **IMAPISession** с помощью параметра _pSession_ . 
+2. ВыЗовите [мапиопенформмгр](mapiopenformmgr.md) , чтобы получить указатель интерфейса **имапиформмгр** . Передайте указатель **IMAPISession** в параметр _псессион_ . 
     
-3. Вызов [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) для получения указателя интерфейса **IMAPIFormInfo** . 
+3. Call [имапиформмгр:: ресолвемессажекласс](imapiformmgr-resolvemessageclass.md) для получения указателя интерфейса **имапиформинфо** . 
     
-4. С помощью **IMAPIFormInfo** указателя Позвонить [IMAPIProp::GetProps](imapiprop-getprops.md) и получить **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) и/или свойства **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
+4. Используйте указатель **имапиформинфо** , чтобы вызвать [IMAPIProp::](imapiprop-getprops.md) -PROPS и извлечь свойства **пр_икон** ([PidTagIcon](pidtagicon-canonical-property.md)) и/или **пр_мини_икон** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
     
 

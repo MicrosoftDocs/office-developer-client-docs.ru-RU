@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: d29e1f8e-bde8-4a6e-aee8-188cee94fe1a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bbc652d03ef9046db08d9a56459a595073c5505b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da544e65e7d54c18211ec9bb79846dade25ae9a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574624"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334344"
 ---
 # <a name="cbsrowset"></a>CbSRowSet
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов в имеющуюся структуру [SRowSet](srowset.md) . 
+Вычисляет количество байтов в существующей структуре [SRowSet](srowset.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SRowSet** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SRowSet** <br/> |
    
 ```cpp
 CbSRowSet (_lprowset)
@@ -38,9 +38,9 @@ CbSRowSet (_lprowset)
 
 ## <a name="parameters"></a>Параметры
 
- __lprowset_
+ __лпровсет_
   
-> Указатель на структуру существующих **SRowSet** . 
+> Указатель на существующую структуру **SRowSet** . 
     
 ## <a name="see-also"></a>См. также
 

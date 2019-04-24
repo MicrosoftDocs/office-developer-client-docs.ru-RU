@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageLeftMargin (раздел "Свойства печати")
+title: PageLeftMargin Cell (Print Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm60061
 localization_priority: Normal
 ms.assetid: 7ecdfc37-c9d4-2fde-ed3e-be81657c24e2
-description: Задает поле в левой части печатной страницы.
-ms.openlocfilehash: 5fd2c8cd5b18a4baedd355627005b7c5c2df3252
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Задает поле слева от печатной страницы.
+ms.openlocfilehash: 289bd0bf16c6dcd9b26ec1a8c7920a29dab724a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814330"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334463"
 ---
-# <a name="pageleftmargin-cell-print-properties-section"></a>Ячейка PageLeftMargin (раздел "Свойства печати")
+# <a name="pageleftmargin-cell-print-properties-section"></a>PageLeftMargin Cell (Print Properties Section)
 
-Задает поле в левой части печатной страницы.
+Задает поле слева от печатной страницы.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это значение представляет физические единицы и не влияет на масштаб или рисования единиц измерения. Например если эта ячейка имеет значение 0,25 дюйма, это поле будет 0,25 дюйма даже в том случае, если страница указываются футов. Если единицы не указан явно, это значение по умолчанию единицах страницы. 
+Это значение представляет физические единицы и не затронет единицы масштабирования или рисования. Например, если ячейка имеет значение 0,25 в., это поле составляет 0,25 дюйма, даже если единицы страницы — футы. Если единицы измерения не заданы явным образом, значение по умолчанию равно единицам страницы. 
   
-Чтобы получить ссылку на ячейку PageLeftMargin по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку PageLeftMargin по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | PageLeftMargin  <br/> |
+| Имя ячейки:  <br/> | PageLeftMargin  <br/> |
    
-Для получения ссылки на ячейки PageLeftMargin по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку PageLeftMargin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPrintProperties** <br/> |
-| Индекс ячейки:  <br/> |**visPrintPropertiesLeftMargin** <br/> |
+| Индекс строки:  <br/> |**Висровпринтпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Виспринтпропертиеслефтмаргин** <br/> |
    
 

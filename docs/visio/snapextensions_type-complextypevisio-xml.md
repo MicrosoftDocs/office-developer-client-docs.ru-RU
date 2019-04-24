@@ -1,5 +1,5 @@
 ---
-title: SnapExtensions_Type complexType ('Visio XML»)
+title: Снапекстенсионс_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: cabfd202-9e68-5433-bb4f-b235399c528e
 ms.openlocfilehash: f43f719aaf30898bebf00c04a50067524461d586
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334554"
 ---
-# <a name="snapextensionstype-complextype-visio-xml"></a>SnapExtensions_Type complexType ('Visio XML»)
+# <a name="snapextensionstype-complextype-visio-xml"></a>Снапекстенсионс_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 

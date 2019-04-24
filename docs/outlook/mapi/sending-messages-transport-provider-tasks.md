@@ -8,14 +8,14 @@ api_type:
 - COM
 ms.assetid: bd722f48-b166-4670-8dba-897ac50caf37
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: 2c1f73ab263e5851c78b33b6157d6d44c9e5e404
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 431e3d2f66616db2c586b76387a8521832ed985f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586230"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338691"
 ---
-# <a name="sending-messages-transport-provider-tasks"></a>�������� ���������: ������ ���������� ����������
+# <a name="sending-messages-transport-provider-tasks"></a>Отправка сообщений: задачи поставщика транспорта
 
   
   
@@ -23,15 +23,15 @@ ms.locfileid: "22586230"
   
  **��� �������� ���������, ������������ ����������**
   
-- Свойства сообщения **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) значение TRUE после поставщика транспорта отправившего сообщение или пытался отправить сообщение. If an attempt to send a message fails, transport providers should call [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) to generate a nondelivery report. Если сообщение было успешно отправлено и **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) задано значение TRUE, создайте структуру [ADRLIST](adrlist.md) , содержащую успешные получателей Установка свойства **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) для каждого из них, а также вызвать **StatusRecips** для создания отчетов о доставке. For more information about creating delivery and non-delivery reports, see the following topics: [��������� ������ MAPI](mapi-report-messages.md), [�������� ��������� ��������� ������](required-report-message-properties.md), [�������� ��������� ������������� ������](optional-report-message-properties.md), and [�������� ������� � �������� ���������](sending-message-delivery-reports.md).
+- Установите для свойства **пр_респонсибилити** ([PIDTAGRESPONSIBILITY](pidtagresponsibility-canonical-property.md)) сообщения значение true, после того как поставщик транспорта отправил сообщение или попытался отправить сообщение. If an attempt to send a message fails, transport providers should call [IMAPISupport::StatusRecips](imapisupport-statusrecips.md) to generate a nondelivery report. Если сообщение успешно отправлено, а свойство **пр_оригинатор_деливери_репорт_рекуестед** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) имеет значение true, создайте структуру [ADRLIST](adrlist.md) с успешными получателями, Установка свойства **пр_деливер_тиме** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) для каждого из них и вызов **статусреЦипс** для создания отчета о доставке. For more information about creating delivery and non-delivery reports, see the following topics: [��������� ������ MAPI](mapi-report-messages.md), [�������� ��������� ��������� ������](required-report-message-properties.md), [�������� ��������� ������������� ������](optional-report-message-properties.md), and [�������� ������� � �������� ���������](sending-message-delivery-reports.md).
     
-- ������ ������ **PR_SENDER** ��������� ������� ������������� ������������, ������� ����� � �������. Эта группа включает в себя: **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)), **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)), **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)), **PR_SENDER_ADDRTYPE** ([ PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)) и **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)).
+- ������ ������ **PR_SENDER** ��������� ������� ������������� ������������, ������� ����� � �������. Эта группа включает: **пр_сендер_ентрид** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)), **Пр_сендер_наме** ([PidTagSenderName](pidtagsendername-canonical-property.md)), **пр_сендер_сеарч_кэй** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)), **пр_сендер_аддртипе** ([ PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md)) и **пр_сендер_емаил_аддресс** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)).
     
 - �������� ��������� **PR_SENT_REPRESENTING**, ���� ��� ��������, ������������� ������������, ������� ����� � ������� ��� identity ���������� �������. �������� **PR_SENT_REPRESENTING** ������������ ��� ���������� �������� ��������� � ������ ������������ �� ����� ������� ������������. ���������� ����������, ������� �� ������������ ��� �������� ������� ������������ �� �� ��������� ���������. 
     
-- Необходимо задайте свойство сообщения **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) для указания при вызове [IMessage::SubmitMessage](imessage-submitmessage.md)клиента.
+- Задайте свойство **пр_клиент_субмит_тиме** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) сообщения, чтобы указать, когда клиент вызывает [iMessage:: субмитмессаже](imessage-submitmessage.md).
     
-- Задайте свойство **PR_PROVIDER_SUBMIT_TIME** ([PidTagProviderSubmitTime](pidtagprovidersubmittime-canonical-property.md)) сообщение, указывающее дату и время поставщика хранилища сообщений отметил сообщение как был отправлен. 
+- Задайте свойство сообщения **пр_провидер_субмит_тиме** ([PidTagProviderSubmitTime](pidtagprovidersubmittime-canonical-property.md)), чтобы указать дату и время, когда поставщик хранилища сообщений пометил сообщение как отправленное. 
     
 ����� ��������� ������������ �� ��������� �����������, ��������� ������ ������ �����������, ������ ������������ ����� ����� ����� ������������� ������ �����������. 
   

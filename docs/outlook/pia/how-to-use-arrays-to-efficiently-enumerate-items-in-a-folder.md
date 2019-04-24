@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: be65e2818f22e6da289ef8b8da483c2747f941a5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335387"
 ---
 # <a name="use-arrays-to-efficiently-enumerate-items-in-a-folder"></a>Эффективное перечисление элементов в папке с помощью массивов
 
@@ -25,7 +25,7 @@ ms.locfileid: "28717211"
 
 В следующем примере кода DemoGetArrayForTable получает объект [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) из объекта **Folder** с помощью метода [GetTable(Object, Object)](https://msdn.microsoft.com/library/bb612592\(v=office.15\)). Затем DemoGetArrayForTable использует метод **GetArray**, чтобы вернуть объект [Array](https://msdn.microsoft.com/library/system.array.aspx), содержащий элементы для каждой строки в таблице. Возвращаемый объект **Array** является двумерным массивом, представляющим набор значений строк и столбцов из объекта **Table**. Массив отсчитывается с нуля, а не с единицы, как для коллекций Outlook. После получения объекта **Array** в коде используется цикл for для перечисления в таблице.
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкцию **using** непосредственно перед функциями в примере кода, но ее необходимо добавить перед объявлением общедоступного класса. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

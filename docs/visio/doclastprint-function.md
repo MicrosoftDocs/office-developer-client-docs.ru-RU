@@ -8,24 +8,24 @@ f1_keywords:
 - Vis_DSS.chm82251594
 localization_priority: Normal
 ms.assetid: 9587283b-4f4d-0ad6-34aa-58e2001f085e
-description: Возвращает дату и время последней печати документа, как значение последовательный.
-ms.openlocfilehash: 70404945ebb0ca5da0dda882bd7b0abd6656f1eb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает дату и время последней печати документа в виде порядкового значения.
+ms.openlocfilehash: 3198b98b58e2b68e58ae16643e396e1a91635940
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813620"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334407"
 ---
 # <a name="doclastprint-function"></a>Функция DOCLASTPRINT
 
-Возвращает дату и время последней печати документа, как значение последовательный.
+Возвращает дату и время последней печати документа в виде порядкового значения.
   
 ## <a name="syntax"></a>Синтаксис
 
-(DOCLASTPRINT)
+DOCLASTPRINT ()
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Функция FORMAT используется для форматирования значения. 
+Чтобы отформатировать значение, используйте функцию FORMAT. 
   
 

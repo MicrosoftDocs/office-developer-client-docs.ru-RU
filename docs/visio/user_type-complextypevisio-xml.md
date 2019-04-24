@@ -1,5 +1,5 @@
 ---
-title: User_Type complexType ('Visio XML»)
+title: Усер_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d3970d90-6beb-1f59-256f-ace6a9865b59
 ms.openlocfilehash: 336a4769d48885eaa2e75a812541497714359e0c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337088"
 ---
-# <a name="usertype-complextype-visio-xml"></a>User_Type complexType ('Visio XML»)
+# <a name="usertype-complextype-visio-xml"></a>Усер_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -21,7 +21,7 @@ ms.locfileid: "25382249"
 |:-----|:-----|
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Базовый элемент расширения** <br/> |Section_Type  <br/> |
+|**Базовый элемент расширения** <br/> |Сектион_типе  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -50,7 +50,7 @@ ms.locfileid: "25382249"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Строка](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> ||
+|[Row](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[Усерров_типе](userrow_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

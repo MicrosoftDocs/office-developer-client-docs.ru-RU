@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 00c7560427ece58026030ce6895d60aec7cc5a2e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5605de7dbcc18197748713bcf909839690d7259f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336353"
 ---
 # <a name="iid"></a>IID
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Описывает структуру [идентификатор GUID](guid.md) , используемый для описания идентификатор для интерфейса MAPI. 
+Описывает структуру [GUID](guid.md) , используемую для описания идентификатора интерфейса MAPI. 
   
 ```cpp
 typedef struct _GUID
@@ -42,17 +42,17 @@ typedef struct _GUID
 
 Просмотр структуры **GUID** . 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-**ИД интерфейса** структура используется для уникальной идентификации интерфейса MAPI и связывание определенного интерфейса с помощью объекта. Например при вызовах клиента [IMAPISession::OpenEntry](imapisession-openentry.md) чтобы открыть папку, клиент задается параметр _lpInterface_ для указания на **ИД интерфейса** представляющее интерфейс [IMAPIFolder](imapifolderimapicontainer.md) . MAPI определяет **IMAPIFolderIID** быть IID_IMAPIFolder. **ИД интерфейса** структуры также используются для уникальной идентификации интерфейсов OLE. 
+Структура **IID** используется для уникальной идентификации интерфейса MAPI и связывания определенного интерфейса с объектом. Например, когда клиент вызывает [IMAPISession:: OpenEntry](imapisession-openentry.md) , чтобы открыть папку, клиент устанавливает параметр _лпинтерфаце_ , который указывает на **IID** , представляющий интерфейс [IMAPIFolder](imapifolderimapicontainer.md) . MAPI определяет **имапифолдериид** для иид_имапифолдер. Структуры **IID** также используются для уникальной идентификации интерфейсов OLE. 
   
-Все определенные структуры **ИД интерфейса** MAPI интерфейсов определены в файле заголовка Mapiguid.h. 
+Все конкретные структуры **IID** для интерфейсов MAPI определены в файле заголовка мапигуид. h. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[ИДЕНТИФИКАТОР GUID](guid.md)
+[GUID](guid.md)
 
 
 [Структуры MAPI](mapi-structures.md)

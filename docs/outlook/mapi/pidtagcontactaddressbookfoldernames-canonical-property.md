@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 7ffe9e7d-1084-4698-86fb-e7eb55064dc1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5c7cabcd01ab91fa81f050ba635ece8d6b7aba02
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6fb6f1c8def0e772c580ddb8abf7b5ed0f3d9e74
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568373"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334547"
 ---
 # <a name="pidtagcontactaddressbookfoldernames-canonical-property"></a>Каноническое свойство PidTagContactAddressBookFolderNames
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит имена контактов папки, где пользователи почты.
+Содержит имена папок контактов, в которых хранятся почтовые пользователи.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTAB_FOLDER_NAMES  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНТАБ_ФОЛДЕР_НАМЕС  <br/> |
 |Идентификатор:  <br/> |0x6623  <br/> |
-|Тип данных:  <br/> |PT_MV_UNICODE PT_MV_STRING8  <br/> |
+|Тип данных:  <br/> |ПТ_МВ_УНИКОДЕ, PT_MV_STRING8  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойства в разделе профилей контактов адресной книги.
+Это свойства раздела "профиль адресной книги контакта".
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidef.h
+Мапидеф. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

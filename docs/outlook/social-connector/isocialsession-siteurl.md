@@ -1,5 +1,5 @@
 ---
-title: ISocialSessionSiteUrl
+title: ИсоЦиалсессионситеурл
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 95281e78-6517-428a-93c5-2e4a168d4661
 description: Задает URL-адрес сайта социальных сетей.
-ms.openlocfilehash: 2ca3276088a0b551bbcdc19a9b211bc28bfa9409
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: dd7ebc22c611701c68c5575f2cff5779d4cd603b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336752"
 ---
 # <a name="isocialsessionsiteurl"></a>ISocialSession::SiteUrl
 

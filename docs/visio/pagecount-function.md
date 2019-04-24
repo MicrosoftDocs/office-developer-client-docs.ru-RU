@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a8c6c1d9-3452-a31e-ec91-345d201a4b82
 description: Возвращает число страниц переднего плана в документе.
-ms.openlocfilehash: 53bf54d131c72d34aba3d4d307c80387f07c0555
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f862f8285a30531a64f995dfbfd7070a6de9509f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814337"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334386"
 ---
 # <a name="pagecount-function"></a>Функция PAGECOUNT
 
@@ -22,10 +22,10 @@ ms.locfileid: "19814337"
   
 ## <a name="syntax"></a>Синтаксис
 
-(PAGECOUNT)
+PAGECOUNT ()
   
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Number
+Номер
   
 

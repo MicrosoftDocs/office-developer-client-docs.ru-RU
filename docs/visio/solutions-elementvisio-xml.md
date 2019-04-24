@@ -1,31 +1,31 @@
 ---
-title: Элемент решений ('Visio XML»)
+title: Элемент Solutions (' XML ' Visio ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 75e53ad0-3ca3-11a1-9107-63ec15601c13
-description: Задает свойства решений, хранимого в документе.
+description: Задает свойства решений, хранящихся в документе.
 ms.openlocfilehash: 65f6d3a34a62cd5e7b63ca0f6518a6e839b48360
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334848"
 ---
-# <a name="solutions-element-visio-xml"></a>Элемент решений ('Visio XML»)
+# <a name="solutions-element-visio-xml"></a>Элемент Solutions (' XML ' Visio ')
 
-Задает свойства решений, хранимого в документе.
+Задает свойства решений, хранящихся в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Солутионс_типе](solutions_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Solutions.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Solutions. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -45,7 +45,7 @@ ms.locfileid: "25400224"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Решение](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Задает один экземпляр решение, которое XML хранятся в документе.  <br/> |
+|[Решение](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Солутион_типе](solution_type-complextypevisio-xml.md) <br/> |Задает один экземпляр XML-файла решения, хранящегося в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

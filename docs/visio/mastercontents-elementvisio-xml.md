@@ -1,31 +1,31 @@
 ---
-title: Элемент MasterContents ('Visio XML»)
+title: Элемент Мастерконтентс (' XML ' Visio ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 71e75e9a-1392-b40b-1d51-167cd28b2c53
-description: Задает сведения о фигурах в главный в документе.
+description: Задает сведения о фигурах в образце в документе.
 ms.openlocfilehash: 381afe288864553dc56bdf8bb6dc19861abdcc8f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341358"
 ---
-# <a name="mastercontents-element-visio-xml"></a>Элемент MasterContents ('Visio XML»)
+# <a name="mastercontents-element-visio-xml"></a>Элемент Мастерконтентс (' XML ' Visio ')
 
-Задает сведения о фигурах в главный в документе. 
+Задает сведения о фигурах в образце в документе. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Пажеконтентс_типе](pagecontents_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |главные # .xml  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Master #. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -46,8 +46,8 @@ ms.locfileid: "25385468"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Осуществляет подключение](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **подключение** для каждого подключения между двумя фигурами в документе.  <br/> |
-|[Фигур](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **фигуры** .  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Коннектс_типе](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе.  <br/> |
+|[Shapes](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Шапес_типе](shapes_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **Shape** .  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

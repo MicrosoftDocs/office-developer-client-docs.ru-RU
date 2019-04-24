@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f9db8623-9fcf-7037-2d11-d509f463025d
 description: Представляет x-координату знака примечания в координатах страницы.
-ms.openlocfilehash: 454c28c6f15c705148155751d533a516aae7d2d0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: fdd9e2850a3285a2fcf4cc05fa056accd71052a9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341310"
 ---
 # <a name="x-cell-annotation-section"></a>Ячейка X (раздел "Заметка")
 

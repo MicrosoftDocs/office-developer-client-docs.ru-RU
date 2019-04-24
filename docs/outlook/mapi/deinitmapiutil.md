@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: e0b8dc9c-cc46-4d27-9497-7a55a0bfdff5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e84dbc0976f5c438a7e0b5fd7cddcbf1c0659f40
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a9654efc34280941cdbc727bce9912a0a39d0fb9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336843"
 ---
 # <a name="deinitmapiutil"></a>DeinitMapiUtil
 
@@ -25,11 +25,11 @@ ms.locfileid: "22574799"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Освобождает служебной программы функций, вызываемых явным образом с помощью функции [ScInitMapiUtil](scinitmapiutil.md) или неявно с помощью функции [MAPIInitialize](mapiinitialize.md) . 
+Освобождает функции служебных программ, которые вызываются явно функцией [сЦинитмапиутил](scinitmapiutil.md) , или неявно функцией [мапиинитиализе](mapiinitialize.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiutil.h  <br/> |
+|Файл заголовка:  <br/> |Мапиутил. h  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
    
@@ -39,16 +39,16 @@ VOID DeinitMapiUtil( void );
 
 ## <a name="parameters"></a>Параметры
 
-None 
+Нет 
   
 ## <a name="return-value"></a>Возвращаемое значение
 
-Отсутствует 
+Нет 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Функция **DeinitMapiUtil** release функции инициализации с [ScInitMapiUtil](scinitmapiutil.md) или [MAPIInitialize](mapiinitialize.md). 
+Функции выпуска функции **деинитмапиутил** , инициализированные с помощью [сЦинитмапиутил](scinitmapiutil.md) или [мапиинитиализе](mapiinitialize.md). 
   
-По завершении работы функций, вызываемых **ScInitMapiUtil** **DeinitMapiUtil** необходимо явно вызывать для освобождения их. С другой стороны [MAPIUninitialize](mapiuninitialize.md) неявно вызывает **DeinitMapiUtil**. 
+При завершении использования функций, вызываемых **сЦинитмапиутил** , **деинитмапиутил** необходимо явно вызывать, чтобы освободить их. В отличие от этого, [мапиунинитиализе](mapiuninitialize.md) неявно вызывает **деинитмапиутил**. 
   
 

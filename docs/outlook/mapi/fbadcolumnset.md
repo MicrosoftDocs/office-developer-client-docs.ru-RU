@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4e5f19258fb7716e741928f02a0a87f3939c74e0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b0260ffe5dc4806cb627fd71c78866bf96796455
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341008"
 ---
 # <a name="fbadcolumnset"></a>FBadColumnSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575100"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Тестов, задайте действия столбец таблицы для использования поставщиком услуг в последующих вызов метода [IMAPITable::SetColumns](imapitable-setcolumns.md) . 
+Проверяет допустимость набора столбцов таблицы для использования поставщиком услуг при следующем вызове метода [IMAPITable:: метода SetColumns](imapitable-setcolumns.md) . 
   
 |||
 |:-----|:-----|
@@ -41,22 +41,22 @@ ULONG FBadColumnSet(
 
 ## <a name="parameters"></a>Параметры
 
- _lpptaCols_
+ _Лпптаколс_
   
-> [in] Указатель на структуру [SPropTagArray](sproptagarray.md) , который содержит массив тегов свойств, определение столбцов в таблице для проверки. 
+> возврата Указатель на структуру [спроптагаррай](sproptagarray.md) , которая содержит массив тегов свойств, определяющих столбцы таблицы, которые необходимо проверить. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 TRUE 
   
-> Недопустимый набор указанного столбца. 
+> Указан недопустимый набор столбцов. 
     
 FALSE 
   
-> Набор указанного столбца является допустимым.
+> Указанный набор столбцов является допустимым.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Функция **FBadColumnSet** обрабатывает столбцы типа PT_ERROR как недопустимый и столбцы типа PT_NULL действительным. 
+Функция **фбадколумнсет** обрабатывает столбцы типа пт_еррор как недопустимые и столбцы типа пт_нулл как допустимые. 
   
 

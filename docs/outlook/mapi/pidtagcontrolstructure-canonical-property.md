@@ -12,31 +12,31 @@ api_type:
 - HeaderDef
 ms.assetid: 02910389-b346-431c-a282-dedbc9f7dfc6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3b517888d562ee5b178dbd011fa1ce6ab218c6b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cf91620042f916d51f27be50d15f72db537ad5f7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594357"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335247"
 ---
 # <a name="pidtagcontrolstructure-canonical-property"></a>Каноническое свойство PidTagControlStructure
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит указатель на структуру для элемента управления, используемый в диалоговом окне. 
+Содержит указатель на структуру для элемента управления, используемого в диалоговом окне. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTROL_STRUCTURE  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНТРОЛ_СТРУКТУРЕ  <br/> |
 |Идентификатор:  <br/> |0x3F01  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Таблица отображения MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство представляет длинный указатель, привести к одному из структуры элемента управления. Управляющие структуры относятся:
+Это свойство представляет длинный указатель, приведенный к одной из структур управления. Структуры управления включают:
   
 |||
 |:-----|:-----|
@@ -49,15 +49,15 @@ ms.locfileid: "22594357"
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -65,7 +65,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

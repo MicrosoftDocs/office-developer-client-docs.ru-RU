@@ -13,48 +13,48 @@ api_type:
 ms.assetid: 69d56a0e-4cac-4fef-81fb-2cc5874ec799
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: af61eff0fd3b3784d7901e550d611b590a1b966a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336801"
 ---
 # <a name="pidtagconflictentryid-canonical-property"></a>Каноническое свойство PidTagConflictEntryId
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит EntryID сообщение разрешения конфликтов.
+Содержит EntryID сообщения о разрешении конфликтов.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONFLICT_ENTRYID  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНФЛИКТ_ЕНТРИД  <br/> |
 |Идентификатор:  <br/> |0x3FF0  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Добавочные изменения синхронизации (ICS)  <br/> |
+|Область:  <br/> |Добавочная синхронизация изменений (ICS)  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Определяет каждого свойства, которое используется в объектах, описанные с префиксом MS-OXO документы.
+> Определяет каждое свойство, используемое в объектах, описанных в документах с префиксом MS-оксо.
     
-[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS — ОКСКФКСИКС]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Обрабатывает синхронизации обмена сообщениями объект данных между сервером и клиентом.
+> Обрабатывает синхронизацию данных объекта обмена данными между сервером и клиентом.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 96cac1f6-cc17-466f-23d8-a9006e7de05f
 description: Возвращает текущее значение даты и времени.
-ms.openlocfilehash: 387425369b1f1d6313502b3679a72cfd23038834
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9e28f51b0e1d1c09a70e54e432a865968c721940
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32340994"
 ---
 # <a name="now-function-visioshapesheet"></a>NOW Function (VisioShapeSheet)
 
@@ -22,32 +22,32 @@ ms.locfileid: "19814331"
   
 ## <a name="syntax"></a>Синтаксис
 
-ТЕПЕРЬ)
+NOW ()
   
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Даты и времени
+Отличным
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
 ТЕПЕРЬ автоматически пересчитывается каждую минуту. 
   
-## <a name="example-1"></a>Пример 1
+## <a name="example-1"></a>Пример 1
 
-ТЕПЕРЬ)
+NOW ()
   
 Возвращает текущую дату и время, например 9/27/2010 12:03:30 PM.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
-ФОРМАТ (СЕЙЧАС (), «ДД МММ. гггг чч: мм»)
+FORMAT (NOW (), "DD MMM., гггг чч: мм")
   
-Возвращает текущую дату и время в формате 27 сентября 2010 12:03.
+Возвращает текущую дату и время в формате 27 сентября. 2010 12:03.
   
 ## <a name="example-3"></a>Пример 3
 
-ТЕПЕРЬ () + 2EW.
+NOW () + 2EW.
   
-Возвращает текущую дату и время плюс две недели затраченное, например, 10 и 11/10 12:03:30 PM.
+Возвращает текущую дату и время, а также две прошедшие недели, например 10/11/10 12:03:30 PM.
   
 

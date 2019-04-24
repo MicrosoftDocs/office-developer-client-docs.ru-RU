@@ -1,5 +1,5 @@
 ---
-title: AutoLinkComparison_Type complexType ('Visio XML»)
+title: Аутолинккомпарисон_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 319b4bfb-a798-4f6c-52be-45708ac40869
 ms.openlocfilehash: 235b63777d21955a2f2062757d6a54e899b169ac
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338600"
 ---
-# <a name="autolinkcomparisontype-complextype-visio-xml"></a>AutoLinkComparison_Type complexType ('Visio XML»)
+# <a name="autolinkcomparisontype-complextype-visio-xml"></a>Аутолинккомпарисон_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -54,8 +54,8 @@ ms.locfileid: "25389752"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnName  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
-|ContextType  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|ContextTypeLabel  <br/> |XSD:String  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|ColumnName  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|Контексттипе  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Контексттипелабел  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

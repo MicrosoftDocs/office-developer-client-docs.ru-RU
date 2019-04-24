@@ -1,5 +1,5 @@
 ---
-title: IAttach IMAPIProp
+title: Иаттач IMAPIProp
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,40 +12,40 @@ api_type:
 - COM
 ms.assetid: f47e20e1-2a30-4c9e-8ca6-e8c5e72f44a1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ce9c8b189991e4102fcc9d17b88747d4ce55efec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ef3bc973e12bd5630cc00b3c512b748d4a16e86
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341624"
 ---
 # <a name="iattach--imapiprop"></a>IAttach : IMAPIProp
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Поддерживает и предоставляет доступ к свойствам вложений в сообщениях. Интерфейс **IAttach** не имеет уникальное методов свои собственные. Дополнительные сведения об использовании вложения можно [Вложений MAPI](mapi-attachments.md) и [Таблиц вложений](attachment-tables.md). 
+Поддерживает и предоставляет доступ к свойствам вложений в сообщениях. Интерфейс **иаттач** не обладает уникальными методами. Более подробную информацию об использовании вложений можно узнать в статье [вложения MAPI](mapi-attachments.md) и [таблицы вложений](attachment-tables.md). 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Предоставляемые:  <br/> |Объекты вложения  <br/> |
-|Реализованный:  <br/> |Поставщики хранилища сообщений  <br/> |
-|Вызывается:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IAttachment  <br/> |
-|Тип указателя:  <br/> |LPATTACH  <br/> |
-|Модель транзакций:  <br/> |В транзакции  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Предоставлено:  <br/> |Объекты вложений  <br/> |
+|Реализовано в:  <br/> |Поставщики хранилища сообщений  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_иаттачмент  <br/> |
+|Тип указателя:  <br/> |ЛПАТТАЧ  <br/> |
+|Модель транзакции:  <br/> |Транзакции  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
-Этот интерфейс не имеет каких-либо уникальных методов.
+У этого интерфейса нет уникальных методов.
   
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**Пр_аттач_месод** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**Пр_рендеринг_поситион** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |Чтение и запись  <br/> |
    
 ## <a name="see-also"></a>См. также
 

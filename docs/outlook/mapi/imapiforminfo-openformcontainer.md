@@ -1,5 +1,5 @@
 ---
-title: IMAPIFormInfoOpenFormContainer
+title: Имапиформинфупенформконтаинер
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 1d6eec99-59f9-4700-9b83-7f7f8787a9f8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 16e1d45806755bad8caff6847b0ecdea5b4ba78b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a76d0c554d7cf06aceeaa2925c199e45411b999d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342093"
 ---
 # <a name="imapiforminfoopenformcontainer"></a>IMAPIFormInfo::OpenFormContainer
 
@@ -25,7 +25,7 @@ ms.locfileid: "22590423"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает указатель на контейнер формы, в которой установлен определенной формы.
+Возвращает указатель на контейнер формы, в котором установлена определенная форма.
   
 ```cpp
 HRESULT OpenFormContainer(
@@ -35,9 +35,9 @@ HRESULT OpenFormContainer(
 
 ## <a name="parameters"></a>Параметры
 
- _ppformcontainer_
+ _ппформконтаинер_
   
-> [out] Указатель на указатель на объект контейнера возвращенные формы.
+> вышли Указатель на указатель на возвращенный объект контейнера формы.
     
 ## <a name="return-value"></a>Возвращаемое значение
 

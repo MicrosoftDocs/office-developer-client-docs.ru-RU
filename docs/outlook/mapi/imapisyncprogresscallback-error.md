@@ -1,5 +1,5 @@
 ---
-title: IMAPISyncProgressCallbackError
+title: Имаписинкпрогресскаллбаккеррор
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 4860992d-65d7-4cb0-a874-ceccb153dbac
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8cff424e3b589af292e56cef1ca19198e9c80d1f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 80010ca19999ba519f051e914f02f240abb524e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341337"
 ---
 # <a name="imapisyncprogresscallbackerror"></a>IMAPISyncProgressCallback::Error
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594987"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Сведения, которые отображаются в диалоговом окне отправки и получения. Ошибки, возникающие во время синхронизации, поставщик хранения вызывает эту функцию.
+Предоставляет сведения, отображаемые в диалоговом окне отправки и получения. Если во время синхронизации возникли ошибки, поставщик услуг хранения вызывает эту функцию.
   
 ```cpp
 HRESULT Error(
@@ -36,13 +36,13 @@ HRESULT Error(
 
 ## <a name="parameters"></a>Параметры
 
- **hResult**
+ **Состав**
   
-> Значение HRESULT сообщение об ошибке или предупреждение.
+> ЗНАЧЕНИЕ HRESULT ошибки или предупреждения.
     
- **pwcszErrorStr**
+ **Пвксзеррорстр**
   
-> Указатель на строку, связанную с ошибкой для отображения.
+> Указатель на строку, связанную с отображаемой ошибкой.
     
 ## <a name="return-value"></a>Возвращаемое значение
 

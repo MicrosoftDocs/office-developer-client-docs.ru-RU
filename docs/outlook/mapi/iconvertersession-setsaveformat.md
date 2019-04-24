@@ -1,5 +1,5 @@
 ---
-title: IConverterSessionSetSaveFormat
+title: Иконвертерсессионсетсавеформат
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e5308a94-5191-2109-a881-b4f4a7ff1c61
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b528d6ef45c02b27f8e07d151793fc338f9af7b1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336640"
 ---
 # <a name="iconvertersessionsetsaveformat"></a>IConverterSession::SetSaveFormat
 
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает формат, в котором преобразователь вернет MIME-поток в [IConverterSession::MAPIToMIMEStm](iconvertersession-mapitomimestm.md).
+Задает формат, в котором преобразователь будет возвращать MIME поток в [иконвертерсессион:: мапитомиместм](iconvertersession-mapitomimestm.md).
   
 ```cpp
 HRESULT IConverterSession::SetSaveFormat ( 
@@ -33,12 +33,12 @@ HRESULT IConverterSession::SetSaveFormat (
 
 ## <a name="parameters"></a>Параметры
 
-_mstSaveFormat_
+_Мстсавеформат_
   
-> [in] Сохранение форматирования для потока MIME. Для получения дополнительных сведений см тип перечисления [MIMESAVETYPE](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx).
+> возврата Формат сохранения, используемый для потока MIME. Дополнительные сведения см. в разделе enum Type [мимесаветипе](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx).
     
-  - **SAVE_RFC1521**: использование MIME, который используется по умолчанию.      
-  - **SAVE_RFC822**: используйте uuencode.
+  - **SAVE_RFC1521**: использовать MIME, который является значением по умолчанию.      
+  - **SAVE_RFC822**: используйте кодировку UUEncode.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -52,8 +52,8 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |Mfcmapi (en) используется MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |Mfcmapi (en) используется MAPIToMIMEStm для преобразования MAPI сообщения EML-файла.  <br/> |
+|Мапимиме. cpp  <br/> |Импортемлтоимессаже  <br/> |MFCMAPI использует Миметомапи для преобразования EML файла в сообщение MAPI.  <br/> |
+|Мапимиме. cpp  <br/> |Експортимессажетоемл  <br/> |MFCMAPI использует Мапитомиместм для преобразования сообщения MAPI в файл EML.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

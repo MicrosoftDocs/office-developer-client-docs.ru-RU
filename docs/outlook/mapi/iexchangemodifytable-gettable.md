@@ -1,5 +1,5 @@
 ---
-title: IExchangeModifyTableGetTable
+title: Иексчанжемодифитаблежеттабле
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 97df32c4-07c6-41f1-84e7-c6e87d396e34
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d28ce67c6b45f3d0b04d645946ea3f4b3a263c48
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 87c60f424e08eea011bb643041196ca9445a3aa1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336619"
 ---
 # <a name="iexchangemodifytablegettable"></a>IExchangeModifyTable::GetTable
 
@@ -35,27 +35,27 @@ HRESULT GetTable(
 
 ```
 
-## <a name="parameters"></a>���������
+## <a name="parameters"></a>Параметры
 
  _ulFlags_
   
-> [in] Зарезервировано; должен иметь значение 0 (ноль).
+> возврата Резервирования должен иметь значение 0 (ноль).
     
-ACLTABLE_FREEBUSY
+АКЛТАБЛЕ_ФРИБУСИ
   
-> Задает новый правами.
+> Задает новые права.
     
-frightsFreeBusyDetailed
+Фригхтсфрибусидетаилед
   
-> При передаче ACLTABLE_FREEBUSY предоставляет подробное отображение новые права сведениям о доступности.
+> Когда АКЛТАБЛЕ_ФРИБУСИ передается, вы можете просмотреть подробные сведения о новых правах на сведения о доступности.
     
-frightsFreeBusySimple
+Фригхтсфрибусисимпле
   
-> При передаче ACLTABLE_FREEBUSY предоставляет простого отображения новые права сведениям о доступности.
+> Когда АКЛТАБЛЕ_ФРИБУСИ передается, вы можете легко отобразить новые права на доступ к сведениям о доступности.
     
- _lppTable_
+ _Лпптабле_
   
-> [out] Указывает на [IMAPITable: IUnknown](imapitableiunknown.md) интерфейс, содержащий объект таблицы. 
+> вышли Указывает на [IMAPITable: интерфейс IUnknown](imapitableiunknown.md) , содержащий объект Table. 
     
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -63,7 +63,7 @@ frightsFreeBusySimple
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |Mfcmapi (en) использует метод **IExchangeModifyTable::GetTable** для получения таблицы правил.  <br/> |
+|Рулесдлг. cpp  <br/> |Крулесдлг:: Онрефрешвиев  <br/> |MFCMAPI использует метод **иексчанжемодифитабле:: table** для получения таблицы правил.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

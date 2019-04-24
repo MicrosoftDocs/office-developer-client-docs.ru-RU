@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: f9506faf-a75a-47a9-b32b-00780e1c5df4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7aa56e8c472da4d597733393313e44dbf1c1028f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2ec578df320c76014adde468cb7e86a0c4ab40bd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338271"
 ---
 # <a name="pidtagphysicalforwardingaddress-canonical-property"></a>Каноническое свойство PidTagPhysicalForwardingAddress
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит адрес физической пересылки получателя сообщения и используется только при помощи отчетов о сообщении.
+Содержит физический адрес переадресации получателя сообщения и используется только с отчетами о сообщениях.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PHYSICAL_FORWARDING_ADDRESS  <br/> |
+|Связанные свойства:  <br/> |ПР_ФИСИКАЛ_ФОРВАРДИНГ_АДДРЕСС  <br/> |
 |Идентификатор:  <br/> |0x0C0D  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Получатель MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

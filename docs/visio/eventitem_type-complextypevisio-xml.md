@@ -1,5 +1,5 @@
 ---
-title: EventItem_Type complexType ('Visio XML»)
+title: Евентитем_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f157db03-e7d0-d39f-cbde-2a22f45b40ed
 ms.openlocfilehash: 77c51ab76a1d7c5c4450c429b1d3ccb8e3442f34
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395730"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337207"
 ---
-# <a name="eventitemtype-complextype-visio-xml"></a>EventItem_Type complexType ('Visio XML»)
+# <a name="eventitemtype-complextype-visio-xml"></a>Евентитем_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -67,10 +67,10 @@ ms.locfileid: "25395730"
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |Действие  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
-|Включена  <br/> |XSD:Boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
-|EventCode  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|Целевой объект  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
-|TargetArgs  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|Включена  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
+|Евенткоде  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Target  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|TargetArgs  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

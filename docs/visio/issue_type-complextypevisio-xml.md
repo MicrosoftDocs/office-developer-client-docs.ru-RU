@@ -1,5 +1,5 @@
 ---
-title: Issue_Type complexType ('Visio XML»)
+title: Иссуе_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d6768062-37aa-5658-f068-dae8d3a24717
 ms.openlocfilehash: 1cdc38db93da57969230c280a2df24ac3b20ad0d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399700"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339503"
 ---
-# <a name="issuetype-complextype-visio-xml"></a>Issue_Type complexType ('Visio XML»)
+# <a name="issuetype-complextype-visio-xml"></a>Иссуе_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -61,14 +61,14 @@ ms.locfileid: "25399700"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> ||
-|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> ||
+|[Иссуетаржет](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[Иссуетаржет_типе](issuetarget_type-complextypevisio-xml.md) <br/> ||
+|[Рулеинфо](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[Рулеинфо_типе](ruleinfo_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|Игнорируется  <br/> |XSD:Boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Игнорирован  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
    
 

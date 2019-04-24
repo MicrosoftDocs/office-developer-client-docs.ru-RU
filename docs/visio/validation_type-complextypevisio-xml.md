@@ -1,5 +1,5 @@
 ---
-title: Validation_Type complexType ('Visio XML»)
+title: Валидатион_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1bc106ec-879a-0a4b-8c04-a5734eb0097a
 ms.openlocfilehash: 6f751db1566e39d919fd0a456d3aab72559ceeba
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332797"
 ---
-# <a name="validationtype-complextype-visio-xml"></a>Validation_Type complexType ('Visio XML»)
+# <a name="validationtype-complextype-visio-xml"></a>Валидатион_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -60,9 +60,9 @@ ms.locfileid: "25385594"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Проблемы](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> ||
-|[Наборы правил](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> ||
-|[ValidationProperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> ||
+|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Иссуес_типе](issues_type-complextypevisio-xml.md) <br/> ||
+|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[Рулесетс_типе](rulesets_type-complextypevisio-xml.md) <br/> ||
+|[Валидатионпропертиес](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[Валидатионпропертиес_типе](validationproperties_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

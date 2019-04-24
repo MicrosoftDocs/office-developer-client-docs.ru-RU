@@ -1,42 +1,42 @@
 ---
-title: Ячейка PageLockReplace (раздел "Свойства страницы")
+title: PageLockReplace Cell (Page Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 59c36555-42af-4729-aea7-0332d1da6e3b
-description: Указывает, будет ли кнопку Заменить фигуру запрещено на этой странице.
-ms.openlocfilehash: b3956b3e2f2fcd5c4f82089e08a6e32200374778
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Указывает, следует ли отключить кнопку заменить фигуру на этой странице.
+ms.openlocfilehash: c0495d47a81ed7a23e758c531f7d754291c47852
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814341"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339482"
 ---
-# <a name="pagelockreplace-cell-page-properties-section"></a>Ячейка PageLockReplace (раздел "Свойства страницы")
+# <a name="pagelockreplace-cell-page-properties-section"></a>PageLockReplace Cell (Page Properties Section)
 
-Указывает, будет ли кнопку **Заменить фигуру** запрещено на этой странице. 
+Указывает, следует ли отключить кнопку **заменить фигуру** на этой странице. 
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|TRUE  <br/> |Кнопка **Изменить фигуру** недоступна при активной на этой странице.  <br/> |
-|FALSE  <br/> |Кнопка **Изменить фигуру** по на этой странице не отключен. Кнопки по-прежнему могут быть недоступны if: **DocLockReplace** на **DocumentSheet** задано значение **TRUE**; Ячейка **LockReplace** для выбранной фигуры присвоено **значение TRUE**.  <br/> |
+|TRUE  <br/> |Кнопка **Изменить фигуру** неактивна, когда эта страница активна.  <br/> |
+|FALSE  <br/> |Кнопка **Изменить фигуру** не отключается на этой странице. Кнопка по-прежнему может быть недоступна, если: для параметра **DocLockReplace** в **DocumentSheet** задано **значение true**; ячейка **LockReplace** для выбранной фигуры имеет значение **true**.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Для получения ссылки на ячейки **PageLockReplace** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **PageLockReplace** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | PageLockReplace  <br/> |
+| Имя ячейки:  <br/> | PageLockReplace  <br/> |
    
-Для получения ссылки на ячейки **PageLockReplace** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **PageLockReplace** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPage** <br/> |
-| Индекс ячейки:  <br/> |**visPageLockReplace** <br/> |
+| Индекс строки:  <br/> |**Висровпаже** <br/> |
+| Индекс ячейки:  <br/> |**Виспажелоккреплаце** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockGroup (раздел "Защита")
+title: LockGroup Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,39 +8,39 @@ f1_keywords:
 - Vis_DSS.chm82251227
 localization_priority: Normal
 ms.assetid: 04b0fa5b-1680-cfe2-6aaf-0502ad196027
-description: Блокирует группу, его нельзя разгруппировать.
-ms.openlocfilehash: 4d09d514a3fff8ada40c67eb9cd9537539a1039a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Блокирует группу, чтобы ее нельзя было разгруппировать.
+ms.openlocfilehash: 0cb2c0653780dcb653e5903faaaa0ebf30ea9d69
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/15/2018
-ms.locfileid: "19814150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341794"
 ---
-# <a name="lockgroup-cell-protection-section"></a>Ячейка LockGroup (раздел "Защита")
+# <a name="lockgroup-cell-protection-section"></a>LockGroup Cell (Protection Section)
 
-Блокирует группу, его нельзя разгруппировать.
+Блокирует группу, чтобы ее нельзя было разгруппировать.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|TRUE  <br/> |Группа не может быть без группировки.  <br/> |
-|FALSE  <br/> |Группа может быть без группировки.  <br/> |
+|TRUE  <br/> |Группа не может быть разгруппирована.  <br/> |
+|FALSE  <br/> |Группу можно разгруппировать.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Значение LockGroupCell значение TRUE, также будет отключено удаления любой фигуры, которые являются участниками группы.
+При установке значения TRUE для Локкграупцелл также запрещается удаление всех фигур, которые являются членами группы.
   
-Чтобы получить ссылку на ячейку LockGroup по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LockGroup по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |LockGroup  <br/> |
+|Имя ячейки:  <br/> |LockGroup  <br/> |
    
-Для получения ссылки на ячейки LockGroup по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LockGroup по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowLock** <br/> |
-|Индекс ячейки:  <br/> |**visLockGroup** <br/> |
+|Индекс строки:  <br/> |**Висровлокк** <br/> |
+|Индекс ячейки:  <br/> |**Вислоккграуп** <br/> |
    
 

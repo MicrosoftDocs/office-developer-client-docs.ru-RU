@@ -1,5 +1,5 @@
 ---
-title: IContabAdmin IUnknown
+title: Иконтабадмин IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,34 +12,34 @@ api_type:
 - COM
 ms.assetid: 1f72ab6c-14da-47b7-97ab-f729914214ba
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d75f74de323e2ba70675a02e388d6d1539cd30ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1423f76b5aade400d8b828fe63a275e14b6a0c6e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571383"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337109"
 ---
 # <a name="icontabadmin--iunknown"></a>IContabAdmin : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Удаляет контактов папок из адресной книги Microsoft Outlook 2010 и Microsoft Outlook 2013.
+Удаляет папки контактов из адресной книги Microsoft Outlook 2010 и Microsoft Outlook 2013.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |cabadmin.h  <br/> |
-|Предоставляемые:  <br/> ||
-|Реализованный:  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
-|Вызывается:  <br/> |CRM  <br/> |
+|Файл заголовка:  <br/> |кабадмин. h  <br/> |
+|Предоставлено:  <br/> ||
+|Реализовано в:  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
+|Вызывающая сторона:  <br/> |CRM  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IContabAdmin  <br/> |
 |Тип указателя:  <br/> ||
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Удаляет контакт адресной книги (CAB) указанным идентификатором соответствующей записи из иерархии адресной книги.  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Удаляет адресную книгу контакта (CAB-файл), указанную указанным ИДЕНТИФИКАТОРом записи, из иерархии адресной книги.  <br/> |
    
 

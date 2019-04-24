@@ -1,5 +1,5 @@
 ---
-title: IMAPIFormInfoCalcFormPropSet
+title: Имапиформинфокалкформпропсет
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: cc3ffb8d-9cc4-47d3-9aa9-02c3a5b7775c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7d0c044caf430c944d8912d050e4dbaba659c8b5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0b62c21348da71c1ee863f70d6e6a549a5d10003
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342128"
 ---
 # <a name="imapiforminfocalcformpropset"></a>IMAPIFormInfo::CalcFormPropSet
 
@@ -25,7 +25,7 @@ ms.locfileid: "22582499"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает указатель на полный набор свойств, используемых в форме.
+Возвращает указатель на полный набор свойств, которые использует форма.
   
 ```cpp
 HRESULT CalcFormPropSet(
@@ -34,19 +34,19 @@ HRESULT CalcFormPropSet(
 );
 ```
 
-## <a name="parameters"></a>���������
+## <a name="parameters"></a>Параметры
 
  _ulFlags_
   
-> [in] Битовая маска флаги, определяющее тип возвращаемой строки. Можно задать следующий флаг:
+> возврата Битовая маска флагов, определяющих тип возвращаемых строк. Можно задать следующий флаг:
     
 MAPI_UNICODE 
   
-> В формате Юникод, возвращенных строк. Если флаг MAPI_UNICODE не установлен, они в формате ANSI.
+> Возвращаемые строки представлены в формате Юникод. Если флаг МАПИ_УНИКОДЕ не установлен, строки представлены в формате ANSI.
     
- _ppFormPropArray_
+ _Ппформпропаррай_
   
-> [out] Указатель на указатель на структуру возвращенные [SMAPIFormPropArray](smapiformproparray.md) . 
+> вышли Указатель на указатель на возвращаемую структуру [смапиформпропаррай](smapiformproparray.md) . 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -54,9 +54,9 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-MAPI_E_BAD_CHARWIDTH 
+МАПИ_Е_БАД_ЧАРВИДС 
   
-> Либо был установлен флажок MAPI_UNICODE и реализация не поддерживает Юникод, или MAPI_UNICODE не было установлено и реализация поддерживает только Юникод.
+> Установлен либо флаг МАПИ_УНИКОДЕ, либо реализация не поддерживает Юникод, или МАПИ_УНИКОДЕ не задано, а реализация поддерживает только Юникод.
     
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -64,7 +64,7 @@ MAPI_E_BAD_CHARWIDTH
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MFCOutput.cpp  <br/> |_OutputFormInfo  <br/> |Mfcmapi (en) использует метод **IMAPIFormInfo::CalcFormPropSet** при записи выходных данных отладки для объекты формы.  <br/> |
+|Мфкаутпут. cpp  <br/> |_Аутпутформинфо  <br/> |MFCMAPI использует метод **имапиформинфо:: калкформпропсет** при записи выходных данных отладки для объектов данных формы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

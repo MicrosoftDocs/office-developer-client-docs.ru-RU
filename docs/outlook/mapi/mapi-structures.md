@@ -10,12 +10,12 @@ api_type:
 - COM
 ms.assetid: f84c6e70-e74e-4ca2-961c-0260ea277b00
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a8ba845143d962b3627f57a60f45742227bc9f35
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 5290cc871f47d9410651492fd520520d7f2e5e77
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339916"
 ---
 # <a name="mapi-structures"></a>Структуры MAPI
 
@@ -23,7 +23,7 @@ ms.locfileid: "22584788"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Следующие записи в алфавитном порядке описываются структуры MAPI. Для получения дополнительных сведений перекрестные ссылки на другие публикации или на другие разделы в этой документации также включены.
+В следующих алфавитных записях описываются структуры MAPI. Для получения более подробных сведений также включается перекрестные ссылки на другие публикации или другие темы, содержащиеся в этой документации.
   
 |||
 |:-----|:-----|
@@ -37,7 +37,7 @@ ms.locfileid: "22584788"
 |[DTBLMVDDLBOX](dtblmvddlbox.md) <br/> |[DTBLMVLISTBOX](dtblmvlistbox.md) <br/> |
 |[DTBLPAGE](dtblpage.md) <br/> |[DTBLRADIOBUTTON](dtblradiobutton.md) <br/> |
 |[DTCTL](dtctl.md) <br/> |[DTPAGE](dtpage.md) <br/> |
-|[ENTRYID](entryid.md) <br/> |[ENTRYLIST](entrylist.md) <br/> |
+|[КОД](entryid.md) <br/> |[ENTRYLIST](entrylist.md) <br/> |
 |[ERROR_NOTIFICATION](error_notification.md) <br/> |[EXTENDED_NOTIFICATION](extended_notification.md) <br/> |
 |[FILETIME](filetime.md) <br/> |[FLAGLIST](flaglist.md) <br/> |
 |[FLATENTRY](flatentry.md) <br/> |[FLATENTRYLIST](flatentrylist.md) <br/> |
@@ -76,7 +76,7 @@ ms.locfileid: "22584788"
 
 
 
-[Функции интерфейса MAPI, обратные вызовы и макросов](mapi-functions-callbacks-and-macros.md)
+[Функции, методы обратного вызова и макросы MAPI](mapi-functions-callbacks-and-macros.md)
 
 
 [Справочник по MAPI](mapi-reference.md)

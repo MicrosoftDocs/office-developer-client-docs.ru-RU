@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: dcbd12b4-4b50-4be6-a201-45e5d4611ce0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1e25c265f3136fa7caf407e4b2bf160b67ba0111
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: bfdb98d5a5b768fad162d60a79cb1f541dc32866
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334372"
 ---
 # <a name="pidtagcontactaddressbooksortflag-canonical-property"></a>Каноническое свойство PidTagContactAddressBookSortFlag
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит флаг, который имеет значение TRUE, если контакты должны быть отсортированы по файла в разделе и FALSE, когда они должны быть упорядочены по отображаемому имени. 
+Содержит флаг, который имеет значение TRUE, если необходимо сортировать контакты по файлам в разделе и FALSE, если они должны быть отсортированы по отображаемому имени. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTAB_SORT_FLAG  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНТАБ_СОРТ_ФЛАГ  <br/> |
 |Идентификатор:  <br/> |0x6602  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство в разделе профилей контактов адресной книги.
+Это свойство раздела профиля адресной книги контакта.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,31 +1,31 @@
 ---
-title: Элемент AuthorEntry (AuthorList_Type complexType) ('Visio XML»)
+title: Элемент Аусорентри (Аусорлист_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 21ca601b-27f0-b30b-a99e-56359bdf594c
-description: Задает свойства, используемые для идентификации автора комментария в документ.
+description: Задает свойства, используемые для идентификации автора комментария в документе.
 ms.openlocfilehash: 81e5121a953102c7d2e3a5383ae9bc775af4ba41
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338628"
 ---
-# <a name="authorentry-element-authorlisttype-complextype-visio-xml"></a>Элемент AuthorEntry (AuthorList_Type complexType) ('Visio XML»)
+# <a name="authorentry-element-authorlisttype-complextype-visio-xml"></a>Элемент Аусорентри (Аусорлист_типе complexType) (' Visio XML ')
 
-Задает свойства, используемые для идентификации автора комментария в документ.
+Задает свойства, используемые для идентификации автора комментария в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Аусорентри_типе](authorentry_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Comments.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Comments. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25386335"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[AuthorList](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |Задает авторы документа.  <br/> |
+|[Аусорлист](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[Аусорлист_типе](authorlist_type-complextypevisio-xml.md) <br/> |Указывает авторов в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,9 +52,9 @@ ms.locfileid: "25386335"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |На основе одно значение, идентифицирующее автора.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|Initials  <br/> |XSD:String  <br/> |необязательный  <br/> |Инициалы автора.  <br/> |Значения типа xsd:string.  <br/> |
-|Имя  <br/> |XSD:String  <br/> |необязательный  <br/> |Имя автора.  <br/> |Значения типа xsd:string.  <br/> |
-|ResolutionID  <br/> |XSD:String  <br/> |необязательный  <br/> |Уникальный идентификатор автора.  <br/> |Значения типа xsd:string.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Значение с отзначением от единицы, идентифицирующее автора.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Инициалы  <br/> |XSD: строка  <br/> |необязательный  <br/> |Инициалы автора.  <br/> |Значения типа String: XSD.  <br/> |
+|Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> |Имя автора.  <br/> |Значения типа String: XSD.  <br/> |
+|Ресолутионид  <br/> |XSD: строка  <br/> |необязательный  <br/> |Уникальный идентификатор автора.  <br/> |Значения типа String: XSD.  <br/> |
    
 

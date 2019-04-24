@@ -13,51 +13,51 @@ api_type:
 ms.assetid: 7a52f46c-371c-46d0-8d66-e154482e8269
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 07acfd8715dccad8833ee14ac8e573fb995539ba
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337949"
 ---
 # <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a>Каноническое свойство PidNameExchangeJunkEmailMoveStamp
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение постоянных сообщение, которое указывает, что сообщение не будет обработано фильтром нежелательной почты, так как сообщение уже обработки или безопасном.
+Содержит постоянное значение сообщения, которое указывает на то, что сообщение не должно обрабатываться фильтром нежелательной почты, так как сообщение уже было обработано или является безопасным.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Отсутствует  <br/> |
-|Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
+|Понятные имена:  <br/> |Нет  <br/> |
+|Набор свойств:  <br/> |ПС_ПУБЛИК_СТРИНГС  <br/> |
 |Имя свойства:  <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Безопасный обмен сообщениями  <br/> |
+|Область:  <br/> |Защита обмена сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство будет указано на каждого сообщения, который перемещается правилом нежелательной электронной почты или в противном случае — надежного содержимого.
+Это свойство отмечено для каждого сообщения, которое перемещается с помощью правила неЖелательной почты или является надежным контентом.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS — ОКСКСПАМ]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Включает обработку списки разрешенных и запрещенных и определение нежелательных сообщений электронной почты.
+> Разрешает обработку списков разрешений и блокировок, а также определение нежелательных сообщений электронной почты.
     
-[[MS-OXORSS]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
+[[MS — ОКСОРСС]](https://msdn.microsoft.com/library/53bc9634-0040-4b5a-aecd-29781d826009%28Office.15%29.aspx)
   
-> Задает свойства и операции, которые представляют элементам RSS-Каналов.
+> Задает свойства и операции, представляющие элементы RSS.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -67,7 +67,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

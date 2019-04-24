@@ -1,5 +1,5 @@
 ---
-title: RowKeyValue_Type complexType ('Visio XML»)
+title: Ровкэйвалуе_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e4c971f4-e3e3-11be-6b3f-45565e56cb23
 ms.openlocfilehash: 512675538aa17415fa44684613dcd635fe23857f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387687"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332475"
 ---
-# <a name="rowkeyvaluetype-complextype-visio-xml"></a>RowKeyValue_Type complexType ('Visio XML»)
+# <a name="rowkeyvaluetype-complextype-visio-xml"></a>Ровкэйвалуе_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -51,7 +51,7 @@ ms.locfileid: "25387687"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|RowID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|Значение  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|RowID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Значение  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 03e53e08-9113-4101-84c9-ccf6d43127f6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cf84c7d94e67da0ce7453829042e7be0d4e313f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e47f4e0d1ab9ab3ecfd53932b8ef26440134c603
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585551"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334820"
 ---
 # <a name="flatentry"></a>FLATENTRY
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Кроме того в байтах, задающее размер структуры **ENTRYID** структуру [ENTRYID](entryid.md) . 
+Структура [EntryID](entryid.md) и число байтов, определяющее размер структуры **EntryID** . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные макросы:  <br/> |[cbFLATENTRY](cbflatentry.md), [CbNewFLATENTRY](cbnewflatentry.md) <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанные макросы:  <br/> |[кбфлатентри](cbflatentry.md), [кбневфлатентри](cbnewflatentry.md) <br/> |
    
 ```cpp
 typedef struct
@@ -45,29 +45,29 @@ typedef struct
 
  **cb**
   
-> Число байт в элемент **abEntry** . 
+> Количество байтов в элементе **абентри** . 
     
- **abEntry**
+ **Абентри**
   
-> Идентификатор полная запись, которая включает в себя массив флаги и двоичных данных.
+> Полный идентификатор записи, включающий массив флагов и двоичных данных.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Структура **FLATENTRY** напоминает структуру [ENTRYID](entryid.md) . Тем не менее существуют некоторые отличия: 
+Структура **флатентри** похожа на структуру [EntryID](entryid.md) . Однако существуют некоторые отличия. 
   
-- Структура **FLATENTRY** сохраняет размер идентификатор записи; **Идентификатор записи** — нет. 
+- В структуре **флатентри** хранится размер идентификатора записи; Идентификатор **EntryID** — нет. 
     
-- Структура **FLATENTRY** хранит данные флаг с другими идентификатор записи; **Идентификатор записи** сохраняет их отдельно. 
+- Структура **флатентри** сохраняет данные флага вместе с остальной частью идентификатора записи; **EntryID** хранит их по отдельности. 
     
-- Структура **FLATENTRY** используется для хранения идентификатора записи в файле и передайте его в поток байтов, то время как структуру **ENTRYID** используется путем методов интерфейса [IMAPIProp](imapipropiunknown.md) и следующие методы **OpenEntry** : [IABLogon: : OpenEntry](iablogon-openentry.md), [IAddrBook::OpenEntry](iaddrbook-openentry.md), [IMAPIContainer::OpenEntry](imapicontainer-openentry.md), [IMAPISession::OpenEntry](imapisession-openentry.md), [IMAPISupport::OpenEntry](imapisupport-openentry.md), [IMsgStore::OpenEntry](imsgstore-openentry.md), [IMSLogon::OpenEntry](imslogon-openentry.md)
+- Структура **флатентри** используется для хранения идентификатора записи в файле или его передачи в потоке байтов, в то время как структура **EntryID** используется методами интерфейса [IMAPIProp](imapipropiunknown.md) , а также следующими методами **OpenEntry** : [иаблогон: : OpenEntry](iablogon-openentry.md), [IAddrBook:: OpenEntry](iaddrbook-openentry.md), [IMAPIContainer:: OpenEntry](imapicontainer-openentry.md), [IMAPISession:: OpenEntry](imapisession-openentry.md), [Имаписуппорт:: OpenEntry](imapisupport-openentry.md), [IMsgStore:: OpenEntry](imsgstore-openentry.md), [имслогон:: OpenEntry](imslogon-openentry.md)
     
-- Структура **FLATENTRY** используется для хранения идентификатора записи в файл или передайте его в виде потока в байтах. Структура **ENTRYID** используется для хранения идентификатора записи на диск. 
+- Структура **флатентри** используется для хранения идентификатора записи в файле или его передачи в потоке байтов. Структура **EntryID** используется для хранения идентификатора записи на диске. 
     
 ## <a name="see-also"></a>См. также
 
 
 
-[ENTRYID](entryid.md)
+[КОД](entryid.md)
 
 
 [Структуры MAPI](mapi-structures.md)

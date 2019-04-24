@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 55ffcfa8-57fd-dbce-e551-8584660e33fa
-description: Возвращает положение на основе 1 фигуры в списке.
-ms.openlocfilehash: 4ac9e303ac3fd53b75800366aa6cdaff428ef698
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает позицию фигуры в списке на основе 1.
+ms.openlocfilehash: 21f2057c4027735902a127ef16f94d6ed3f69568
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814102"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335711"
 ---
 # <a name="listorder-function"></a>Функция LISTORDER
 
-Возвращает положение на основе 1 фигуры в списке.
+Возвращает позицию фигуры в списке на основе 1.
   
 ## <a name="version-information"></a>Сведения о версии
 
@@ -25,14 +25,14 @@ ms.locfileid: "19814102"
   
 ## <a name="syntax"></a>Синтаксис
 
-LISTORDER()
+ЛИСТОРДЕР ()
   
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
 Целое число
   
 ## <a name="remarks"></a>Замечания
 
-Если фигура не является список компонентов, функция LISTORDER возвращает значение -1.
+Если фигура не является элементом списка, функция ЛИСТОРДЕР возвращает значение-1.
   
 

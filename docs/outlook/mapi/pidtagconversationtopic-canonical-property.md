@@ -13,56 +13,56 @@ api_type:
 ms.assetid: db852b99-ce04-49bf-a714-7549571502e2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: dfd437fac3a784212807c495f6e8f1adbe759cb0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334687"
 ---
 # <a name="pidtagconversationtopic-canonical-property"></a>Каноническое свойство PidTagConversationTopic
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит раздел первого сообщения в потоке беседы. 
+Содержит тему первого сообщения в цепочке бесед. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONVERSATION_TOPIC, PR_CONVERSATION_TOPIC_A, PR_CONVERSATION_TOPIC_W  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНВЕРСАТИОН_ТОПИК, ПР_КОНВЕРСАТИОН_ТОПИК_А, ПР_КОНВЕРСАТИОН_ТОПИК_В  <br/> |
 |Идентификатор:  <br/> |0x0070  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Поток беседы представляет ряд сообщения и ответы. Эти свойства задаются для первого сообщения в потоке, обычно к свойству **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)). Длина последующих сообщений в потоке следует использовать же раздел без изменений. 
+Поток беседы представляет ряд сообщений и ответов. Эти свойства задаются для первого сообщения в потоке, обычно для свойства **пр_нормализед_субжект** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)). Последующие сообщения в потоке должны использовать одну и ту же тему без изменения. 
   
-Свойство **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) указывает порядок отношение между последующие сообщения и ответы. Ее использования является необязательным, даже в том случае, если заданы следующие свойства. 
+Свойство **пр_конверсатион_индекс** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) указывает связь порядка между последовательными сообщениями и ответами. Его использование необязательно, даже если заданы эти свойства. 
   
-Поставщик хранения сообщений имеет возможность подтверждения, которое всегда эти свойства задаются на входящих или исходящих сообщений. Если эти свойства уже установлены они не может быть изменен. В противном случае может иметь значение **PR_NORMALIZED_SUBJECT**. Должна быть переведена каких-либо действий в до вызова [IMAPIProp::SaveChanges](imapiprop-savechanges.md) . 
+У поставщика хранилища сообщений есть возможность гарантировать, что эти свойства всегда устанавливаются для входящих и исходящих сообщений. Если эти свойства уже заданы, их не следует изменять. В противном случае им можно присвоить значение **пр_нормализед_субжект**. Все действия должны выполняться перед [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщения электронной почты.
+> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

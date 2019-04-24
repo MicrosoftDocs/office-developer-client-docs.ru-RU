@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a15830d1b673b44e9058e33a1499744f631d8e32
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e06d9a3ee2352e05e38ab1f2d86014f970160f9d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32338264"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a>Каноническое свойство PidTagContactAddressBookStoreSupportMasks
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит флаги, указывающее, поддерживаемые функции хранилища.
+Содержит флаги, указывающие поддерживаемые функции хранилища.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTAB_STORE_SUPPORT_MASKS  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНТАБ_СТОРЕ_СУППОРТ_МАСКС  <br/> |
 |Идентификатор:  <br/> |0x6621  <br/> |
-|Тип данных:  <br/> |PT_MV_LONG  <br/> |
+|Тип данных:  <br/> |ПТ_МВ_ЛОНГ  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство будет получен из хранилищ, которые содержит папку «Контакты». Поставщик адресной книги для контакта используется для оценить пригодность поддерживаемые функции хранилища. Это свойство в разделе профилей контактов адресной книги. 
+Это свойство извлекается из хранилищ, содержащих папки "Контакты". Поставщик адресной книги контакта использует его для оценки адекуаци поддерживаемых компонентов хранилища. Это свойство раздела профиля адресной книги контакта. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

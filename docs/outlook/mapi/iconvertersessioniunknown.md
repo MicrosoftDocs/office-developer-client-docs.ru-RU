@@ -1,5 +1,5 @@
 ---
-title: IConverterSession IUnknown
+title: Иконвертерсессион IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 24f7a14a-aa6f-4045-054b-4a7aefef25e4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 316e17e7804e754eed4ee4fef27211fb5173d4bc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2db55d6318cf02dd131d07b34841922e61605147
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589646"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32336689"
 ---
 # <a name="iconvertersession--iunknown"></a>IConverterSession : IUnknown
 
@@ -25,33 +25,33 @@ ms.locfileid: "22589646"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Обеспечивает преобразование между объектами MIME и сообщения MAPI. Это может быть полезно в обмен сообщениями через Интернет.
+Позволяет выполнять преобразование между объектами MIME и сообщениями MAPI. Это может быть удобно при переносе сообщений через Интернет.
   
 |||
 |:-----|:-----|
-|Предоставлено:  <br/> |CLSID_IConverterSession  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IConverterSession  <br/> |
+|Предоставлено:  <br/> |Клсид_иконвертерсессион  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_иконвертерсессион  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|**[SetAdrBook](iconvertersession-setadrbook.md)** <br/> |Задает необязательный MAPI адресной книге, MAPI для конвертера MIME для разрешения неоднозначных адреса при преобразовании сообщения MAPI в MIME-поток.  <br/> |
-|**[SetEncoding](iconvertersession-setencoding.md)** <br/> |Инициализирует кодировку для использования при преобразовании.  <br/> |
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-|**[MIMEToMAPI](iconvertersession-mimetomapi.md)** <br/> |Преобразование MIME-поток сообщений MAPI.  <br/> |
-|**[MAPIToMIMEStm](iconvertersession-mapitomimestm.md)** <br/> |Преобразование сообщения MAPI в MIME-поток.  <br/> |
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-|**[SetTextWrapping](iconvertersession-settextwrapping.md)** <br/> |Задает ширину потока MIME, который возвращает преобразователь в **MAPIToMIMEStm**обтекания.  <br/> |
-|**[SetSaveFormat](iconvertersession-setsaveformat.md)** <br/> |Задает формат, что преобразователь возвращает MIME-поток в **MAPIToMIMEStm**.  <br/> |
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-|**[SetCharSet](iconvertersession-setcharset.md)** <br/> |Задает набора необязательный символ, что MAPI-MIME преобразователь использует при преобразовании сообщения MAPI в MIME-поток.  <br/> |
+|**[Сетадрбук](iconvertersession-setadrbook.md)** <br/> |Задает необязательную адресную книгу MAPI, используемую преобразователем MAPI to MIME для разрешения неоднозначных адресов при преобразовании сообщения MAPI в поток MIME.  <br/> |
+|**[Сетенкодинг](iconvertersession-setencoding.md)** <br/> |Инициализирует кодировку, используемую при преобразовании.  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+|**[Миметомапи](iconvertersession-mimetomapi.md)** <br/> |Преобразует поток MIME в сообщение MAPI.  <br/> |
+|**[Мапитомиместм](iconvertersession-mapitomimestm.md)** <br/> |Преобразует сообщение MAPI в поток MIME.  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+|**[Сеттекствраппинг](iconvertersession-settextwrapping.md)** <br/> |Задает ширину обтекания текста для потока MIME, возвращаемого преобразователем в **мапитомиместм**.  <br/> |
+|**[Сетсавеформат](iconvertersession-setsaveformat.md)** <br/> |Задает формат, который преобразователь возвращает поток MIME в **мапитомиместм**.  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+|**[Сетчарсет](iconvertersession-setcharset.md)** <br/> |Задает необязательный набор символов, используемый преобразователем MAPI для преобразования MIME при преобразовании сообщения MAPI в поток MIME.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Вызовите **SetEncoding** перед использованием **MAPIToMIMEStm** для выполнения преобразования. 
+ВыЗовите **сетенкодинг** , прежде чем использовать **мапитомиместм** для выполнения преобразования. 
   
 ## <a name="see-also"></a>См. также
 

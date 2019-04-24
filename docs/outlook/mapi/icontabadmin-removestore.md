@@ -1,5 +1,5 @@
 ---
-title: IContabAdminRemoveStore
+title: Иконтабадминремовесторе
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 2a5fcf5c-8a5a-4774-b8c9-1ac1ff27947d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2ec8a28dc52e2aa1f1fa63410b6bd6c13fb5bd57
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4865c1c867dd73514ab22ac4e8da628caf154ee7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583990"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339272"
 ---
 # <a name="icontabadminremovestore"></a>IContabAdmin::RemoveStore
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Удаляет контакт адресной книги (CAB) указанным идентификатором соответствующей записи из иерархии адресной книги.
+Удаляет адресную книгу контакта (CAB-файл), указанную указанным ИДЕНТИФИКАТОРом записи, из иерархии адресной книги.
   
 ```cpp
 HRESULT RemoveStore(
@@ -36,12 +36,12 @@ LPENTRYID lpEntryID
 
 ## <a name="parameters"></a>Параметры
 
- _cbEntryID_
+ _Кбентрид_
   
-> [in] Число байтов в идентификатор записи, на который указывает параметр _lpEntryID_ . 
+> возврата Число байтов в идентификаторе записи, на которое указывает параметр _лпентрид_ . 
     
- _lpEntryID_
+ _Лпентрид_
   
-> [in] Указатель на запись идентификатор объекта для открытия.
+> возврата Указатель на идентификатор записи объекта, который требуется открыть.
     
 

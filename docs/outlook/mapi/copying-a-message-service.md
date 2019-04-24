@@ -8,23 +8,23 @@ api_type:
 - COM
 ms.assetid: 01e8ad76-973a-42fa-96aa-f41aabc12b4f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8388d14446a230b032e49ad0d614c85e79b8ece8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a4db4ed1c3098226891edca054621fe145daaa1f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32333056"
 ---
 # <a name="copying-a-message-service"></a>Копирование службы сообщений
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- **Чтобы скопировать службы сообщений в профиль**
+ **Копирование службы сообщений в профиль**
   
-- Вызов [IMsgServiceAdmin::CopyMsgService](imsgserviceadmin-copymsgservice.md).
+- Call [имсгсервицеадмин:: копимсгсервице](imsgserviceadmin-copymsgservice.md).
     
-При копировании службы сообщений нового экземпляра службы настроена в точно так же, что и исходный. В некоторых случаях **CopyMsgService** возвращает ошибку MAPI_E_ACCESS_DENIED. Самой распространенной причиной этой ошибки прибыли — это служба сообщение, которое не позволяет так, чтобы быть дублируются. 
+При копировании службы сообщений новый экземпляр службы настраивается точно так же, как и в исходном. Иногда **копимсгсервице** ВОЗВРАЩАЕТ ошибку мапи_е_акцесс_дениед. Наиболее распространенной причиной этого возврата ошибки является служба сообщений, которая не допускает дублирования. 
   
 

@@ -1,5 +1,5 @@
 ---
-title: Ячейка TxtHeight (раздел "Преобразование текста")
+title: TxtHeight Cell (Text Transform Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - vis_sdr.chm1025
 localization_priority: Normal
 ms.assetid: cfa3ecc6-61a8-506c-ba1d-b5e1f757d44f
-description: 'Определяет высоту блока текста. Формула по умолчанию имеет вид:'
-ms.openlocfilehash: e9495eef837a61fa9b7ecb2b242fdabc5df30080
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Определяет высоту блока текста. По умолчанию используется следующая формула:'
+ms.openlocfilehash: 8ad17cdf1deca6c4aa81f3388d7c112b4e179e2f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334393"
 ---
-# <a name="txtheight-cell-text-transform-section"></a>Ячейка TxtHeight (раздел "Преобразование текста")
+# <a name="txtheight-cell-text-transform-section"></a>TxtHeight Cell (Text Transform Section)
 
-Определяет высоту блока текста. Формула по умолчанию имеет вид:
+Определяет высоту блока текста. По умолчанию используется следующая формула:
   
 = Высота \* 1
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Чтобы получить ссылку на ячейку ВысотаТекста по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку TxtHeight по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | ВысотаТекста  <br/> |
+| Имя ячейки:  <br/> | TxtHeight  <br/> |
    
-Для получения ссылки на ячейки ВысотаТекста по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку TxtHeight по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowTextXForm** <br/> |
-| Индекс ячейки:  <br/> |**visXFormHeight** <br/> |
+| Индекс строки:  <br/> |**Висровтекстксформ** <br/> |
+| Индекс ячейки:  <br/> |**Висксформхеигхт** <br/> |
    
 

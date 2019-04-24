@@ -1,5 +1,5 @@
 ---
-title: Ячейка InhibitSnap (раздел "Свойства страницы")
+title: InhibitSnap Cell (Page Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251620
 localization_priority: Normal
 ms.assetid: ab9fcebc-1550-3b9e-e3b4-e8b92424390b
-description: Определяет, будет ли фигуры на переднем плане привязать к другие объекты на странице и фигуры на странице заднего плана.
-ms.openlocfilehash: b95dafda9ebef36db34f60585ab3ed2164ade415
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, привязываются ли фигуры на переднем плане к другим объектам на странице и фигурам на фоновой странице.
+ms.openlocfilehash: 665130e9f9f938349028ffa1d1c06224e746de5d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32335324"
 ---
-# <a name="inhibitsnap-cell-page-properties-section"></a>Ячейка InhibitSnap (раздел "Свойства страницы")
+# <a name="inhibitsnap-cell-page-properties-section"></a>InhibitSnap Cell (Page Properties Section)
 
-Определяет, будет ли фигуры на переднем плане привязать к другие объекты на странице и фигуры на странице заднего плана.
+Определяет, привязываются ли фигуры на переднем плане к другим объектам на странице и фигурам на фоновой странице.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Запретить все привязки на странице, за исключением привязка к линейки и сетки.  <br/> |
-| FALSE  <br/> | Включение привязки.  <br/> |
+| TRUE  <br/> | Запрет на все привязки на странице, за исключением привязки к линейке и сетке.  <br/> |
+| FALSE  <br/> | Включить привязку.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Чтобы получить ссылку на ячейку InhibitSnap по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку InhibitSnap по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | InhibitSnap  <br/> |
+| Имя ячейки:  <br/> | InhibitSnap  <br/> |
    
-Для получения ссылки на ячейки InhibitSnap по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку InhibitSnap по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPage** <br/> |
-| Индекс ячейки:  <br/> |**visPageInhibitSnap** <br/> |
+| Индекс строки:  <br/> |**Висровпаже** <br/> |
+| Индекс ячейки:  <br/> |**Виспажеинхибитснап** <br/> |
    
 

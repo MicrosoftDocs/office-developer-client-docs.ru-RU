@@ -1,5 +1,5 @@
 ---
-title: Элемент страницы ('Visio XML»)
+title: Элемент pages (' XML ' Visio ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,13 +8,13 @@ localization_priority: Normal
 ms.assetid: 365e302f-3822-dccd-df8c-6e528d10b22b
 description: Содержит элементы страницы для документа.
 ms.openlocfilehash: f4062c83f4b017fde7e1d5d4c568f7c9728e3334
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386259"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339580"
 ---
-# <a name="pages-element-visio-xml"></a>Элемент страницы ('Visio XML»)
+# <a name="pages-element-visio-xml"></a>Элемент pages (' XML ' Visio ')
 
 Содержит элементы страницы для документа.
   
@@ -22,10 +22,10 @@ ms.locfileid: "25386259"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Пажес_типе](pages_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Pages.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Pages. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -46,7 +46,7 @@ ms.locfileid: "25386259"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Страница](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие страницы в документе.  <br/> |
+|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Паже_типе](page_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие страницу в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

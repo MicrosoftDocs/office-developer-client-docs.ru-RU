@@ -1,5 +1,5 @@
 ---
-title: Прогноз элемент (weatherType complexType) (схема сведения о погоде Outlook)
+title: элемент ПРЕДСКАЗ (Веасертипе complexType) (схема сведений о погоде Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9124fa30-d58b-8354-91e9-8d2237a8251d
-description: 'Указывает будущих погоды по крайней мере три дня издержек, включая сегодня: сегодня, завтра, послезавтра.'
+description: Указывает будущие условия прогноза по крайней мере за три дня вперед, включая сегодняшние, завтра, завтра, после завтрашнего дня.
 ms.openlocfilehash: 01604796d4460cc14005ee00ea6b8f46f04d4742
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32339566"
 ---
-# <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>Прогноз элемент (weatherType complexType) (схема сведения о погоде Outlook)
+# <a name="forecast-element-weathertype-complextype-outlook-weather-information-schema"></a>элемент ПРЕДСКАЗ (Веасертипе complexType) (схема сведений о погоде Outlook)
 
-Указывает будущих погоды по крайней мере три дня издержек, включая сегодня: сегодня, завтра, послезавтра.
+Указывает будущие условия прогноза по крайней мере за три дня вперед, включая сегодняшние, завтра, завтра, после завтрашнего дня.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
+|**Тип элемента** <br/> |[Форекасттипе](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
-|**Файл схемы** <br/> |GetWeatherInfo.xsd  <br/> |
+|**Файл схемы** <br/> |жетвеасеринфо. xsd  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -43,7 +43,7 @@ ms.locfileid: "25398327"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[прогноза погоды](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Задает погоды расположения.  <br/> |
+|[Погода](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[Веасертипе](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Задает условия для расположения в прогнозе погоды.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,13 +53,13 @@ ms.locfileid: "25398327"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|date  <br/> |xs: Date  <br/> |Обязательный  <br/> |Указывает дату для прогноза.  <br/> |Значения типа xs: Date  <br/> |
-|день  <br/> |xs:string  <br/> |Обязательный  <br/> |Задает день для прогноза.  <br/> |Значения типа xs: String  <br/> |
-|Высокая  <br/> |xs:integer  <br/> |Обязательный  <br/> |Задает прогнозируемому количеству наибольший температуры.  <br/> |Значения типа xs: Integer  <br/> |
-|Низкая  <br/> |xs:integer  <br/> |Обязательный  <br/> |Задает прогнозируемому количеству низшего температуры.  <br/> |Значения типа xs: Integer  <br/> |
-|precip  <br/> |xs:integer  <br/> |Обязательный  <br/> |Указывает процент возможность precipitation.  <br/> |Значения типа xs: Integer  <br/> |
-|shortday  <br/> |xs:string  <br/> |Обязательный  <br/> |Задает день сокращенную форму.  <br/> |Значения типа xs: String  <br/> |
-|skycodeday  <br/> |xs:integer  <br/> |Обязательный  <br/> |Указывает код прогнозируемому количеству условий.  <br/> |Значения типа xs: Integer  <br/> |
-|skytextday  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает один или два слова, которые описывают прогнозируемому количеству условий.  <br/> |Значения типа xs: String  <br/> |
+|дата  <br/> |xs: Date  <br/> |Обязательный  <br/> |Указывает дату для прогноза.  <br/> |Значение типа xs: Date  <br/> |
+|открыт  <br/> |xs: String  <br/> |Обязательный  <br/> |Указывает день для прогноза.  <br/> |Значение типа xs: String.  <br/> |
+|высокоуровневых  <br/> |xs: integer  <br/> |Обязательный  <br/> |Указывает прогнозируемую максимальную температуру.  <br/> |Значение типа xs: integer  <br/> |
+|потребление  <br/> |xs: integer  <br/> |Обязательный  <br/> |Указывает прогнозируемую минимальную температуру.  <br/> |Значение типа xs: integer  <br/> |
+|преЦип  <br/> |xs: integer  <br/> |Обязательный  <br/> |Указывает процентное отношение возможности преЦипитатион.  <br/> |Значение типа xs: integer  <br/> |
+|шортдай  <br/> |xs: String  <br/> |Обязательный  <br/> |Указывает день в сокращенной форме.  <br/> |Значение типа xs: String.  <br/> |
+|скикодедай  <br/> |xs: integer  <br/> |Обязательный  <br/> |Указывает код для прогнозируемых условий.  <br/> |Значение типа xs: integer  <br/> |
+|скитекстдай  <br/> |xs: String  <br/> |Обязательный  <br/> |Указывает одно на два слова, описывающих прогнозируемые условия.  <br/> |Значение типа xs: String.  <br/> |
    
 
