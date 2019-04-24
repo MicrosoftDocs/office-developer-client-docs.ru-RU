@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2.CopyQueryDef (DAO)
+title: Метод Recordset2. CopyQueryDef (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: 36689ac0-f8a6-1f3e-4170-799141373777
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192474(v=office.15)
@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8a643dae0b67cf4f2a2a0148619d9a8f4df7e6f0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307366"
 ---
-# <a name="recordset2copyquerydef-method-dao"></a>Метод Recordset2.CopyQueryDef (DAO)
+# <a name="recordset2copyquerydef-method-dao"></a>Метод Recordset2. CopyQueryDef (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013 
+**Область применения**: Access 2013, Office 2013 
 
-Возвращает объект **[QueryDef](querydef-object-dao.md)** , являющееся копией **QueryDef** , используемый для создания объекта **[набора записей](recordset-object-dao.md)** , представленного заполнитель набора записей (только для рабочих областей Microsoft Access). .
+Возвращает объект **[QueryDef](querydef-object-dao.md)**, который является копией **QueryDef** и используется для создания объекта **[Recordset](recordset-object-dao.md)**, представленного заполнителем recordset (только для рабочие области Microsoft Access). .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . CopyQueryDef
+*Expression* . CopyQueryDef
 
-*выражение* Переменная, которая представляет собой объект- **Recordset2** .
+*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
 
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -37,15 +37,15 @@ QueryDef
 
 ## <a name="remarks"></a>Замечания
 
-Метод **CopyQueryDef** можно использовать для создания нового **QueryDef** , дублирующих **QueryDef** , используемые для создания **записей**.
+С помощью метода **CopyQueryDef** можно создать новый объект **QueryDef** , который является дубликатом объекта **QueryDef** , использованного для создания объекта **Recordset**.
 
-Если **QueryDef** не был создан этот **набор записей**, возникает ошибка. Сначала необходимо открыть **набора записей** с помощью метода **OpenRecordset** перед использованием метода **CopyQueryDef** .
+Если объект **QueryDef** не использовался для создания этого объекта **Recordset**, возникает ошибка. Прежде чем использовать метод **CopyQueryDef** , необходимо сначала открыть объект **Recordset** с помощью метода **OpenRecordset** .
 
-Этот метод полезен, когда создание объекта **набора записей** из **QueryDef**и передать **набора записей** функции и функции необходимо повторно создать эквивалент SQL запроса, например, чтобы изменить каким-либо образом.
+Этот метод полезен при создании объекта **Recordset** из объекта **QueryDef**и передаче объекта **Recordset** в функцию, а функция должна повторно создать эквивалент SQL запроса, например, чтобы изменить его каким-либо образом.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется метод **CopyQueryDef** для создания копии **QueryDef** из существующих **записей** и изменяет эту копию, добавив предложение свойство SQL. При создании постоянной **QueryDef**пробелы, точки с запятой или каретки могут быть добавлены к свойству SQL; необходимо очищено от вложения эти дополнительные символы, прежде чем любые новые предложения можно присоединить к инструкции SQL.
+В этом примере используется метод **CopyQueryDef** для создания копии объекта **QueryDef** из существующего **набора записей** и изменения копии путем добавления предложения в свойство SQL. При создании постоянного объекта **QueryDef**в свойство SQL можно добавить пробелы, пробелы, точки с запятой или символы переноса строки; Эти дополнительные символы необходимо отключать до того, как все новые предложения можно присоединить к оператору SQL.
 
 ```vb
     Function CopyQueryNew(rstTemp As Recordset, _ 
@@ -72,7 +72,7 @@ QueryDef
 
 <br/>
 
-В этом примере показано возможное использование CopyQueryNew().
+В этом примере показано возможное использование Копикуеринев ().
 
 ```vb
 Sub CopyQueryDefX() 

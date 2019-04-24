@@ -1,5 +1,5 @@
 ---
-title: SeekEnum (Справочник по для настольных баз данных Access)
+title: Сикенум (Справочник по базам данных Access на компьютере)
 TOCTitle: SeekEnum
 ms:assetid: a0574809-db2d-8759-18cc-fb1cf776e8fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249737(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2f8334cbfc8e0f6a362a36e03984739d1d52b6f6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314660"
 ---
 # <a name="seekenum"></a>SeekEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает тип [поиска](seek-method-ado.md) для выполнения.
+Указывает тип выполняемого [поиска](seek-method-ado.md) .
 
 <br/>
 
@@ -37,34 +37,34 @@ ms.locfileid: "28698612"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>adSeekFirstEQ</p></td>
-<td><p>1</p></td>
-<td><p>Выполняет поиск первого параметра значения для <em>KeyValues</em>.</p></td>
+<td><p>Адсикфирстек</p></td>
+<td><p>1,1</p></td>
+<td><p>Ищет первый ключ, равный <em>кэйвалуес</em>.</p></td>
 </tr>
 <tr class="even">
-<td><p>adSeekLastEQ</p></td>
+<td><p>Адсикластек</p></td>
 <td><p>2</p></td>
-<td><p>Выполняет поиск последнего ключа равно <em>KeyValues</em>.</p></td>
+<td><p>Ищет последний ключ, равный <em>кэйвалуес</em>.</p></td>
 </tr>
 <tr class="odd">
-<td><p>adSeekAfterEQ</p></td>
-<td><p>4</p></td>
-<td><p>Выполняет поиск параметра значения, чтобы <em>KeyValues</em> или сразу после которых выполнялось, соответствующими.</p></td>
+<td><p>Адсикафтерек</p></td>
+<td><p>SP4</p></td>
+<td><p>Ищет ключ, равный <em>кэйвалуес</em> , или сразу после того, как будет выполнено совпадение.</p></td>
 </tr>
 <tr class="even">
-<td><p>adSeekAfter</p></td>
-<td><p>8</p></td>
-<td><p>Сразу после которых выполнялось совпадение с <em>KeyValues</em> операций поиска ключа.</p></td>
+<td><p>Адсикафтер</p></td>
+<td><p>8,5</p></td>
+<td><p>Ищет ключ сразу после того места, где произошло сравнение с <em>кэйвалуес</em> .</p></td>
 </tr>
 <tr class="odd">
-<td><p>adSeekBeforeEQ</p></td>
-<td><p>16</p></td>
-<td><p>Выполняет поиск параметра значения, чтобы <em>KeyValues</em> или непосредственно перед которых выполнялось, соответствующие.</p></td>
+<td><p>Адсикбефорик</p></td>
+<td><p>столбцов</p></td>
+<td><p>Ищет ключ, равный <em>кэйвалуес</em> , или только до того места, где будет выполнено это совпадение.</p></td>
 </tr>
 <tr class="even">
-<td><p>adSeekBefore</p></td>
+<td><p>Адсикбефоре</p></td>
 <td><p>32</p></td>
-<td><p>Выполняет поиск ключа перед которых выполнялось совпадение с <em>KeyValues</em> .</p></td>
+<td><p>Ищет ключ до того места, где было бы обнаружено сравнение с <em>кэйвалуес</em> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -72,7 +72,7 @@ ms.locfileid: "28698612"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -85,22 +85,22 @@ ms.locfileid: "28698612"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Seek.FIRSTEQ</p></td>
+<td><p>Адоенумс. Seek. ФИРСТЕК</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Seek.LASTEQ</p></td>
+<td><p>Адоенумс. Seek. ЛАСТЕК</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Seek.AFTEREQ</p></td>
+<td><p>Адоенумс. Seek. АФТЕРЕК</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Seek.AFTER</p></td>
+<td><p>Адоенумс. Seek. AFTER</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Seek.BEFOREEQ</p></td>
+<td><p>Адоенумс. Seek. БЕФОРИК</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Seek.BEFORE</p></td>
+<td><p>Адоенумс. Seek. BEFORE</p></td>
 </tr>
 </tbody>
 </table>

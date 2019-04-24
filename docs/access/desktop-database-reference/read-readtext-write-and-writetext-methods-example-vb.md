@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 44e961d7b3f4b12d8801429ecb78a1a186f5547a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714460"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301017"
 ---
 # <a name="read-readtext-write-and-writetext-methods-example-vb"></a>Пример использования методов Read, ReadText, Write и WriteText (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показано, как чтение текстового поля в текст [потока](stream-object-ado.md) и двоичного **потока**. Других свойств и методов, отображаемых включают [позицию](position-property-ado.md), [размер](size-property-ado.md), [набор символов](charset-property-ado.md)и [SetEOS](seteos-method-ado.md).
+В этом примере демонстрируется чтение содержимого текстового поля в [потоке](stream-object-ado.md) текста и двоичном **потоке**. К другим свойствам и методам относятся [position](position-property-ado.md), [size](size-property-ado.md), [CharSet](charset-property-ado.md)и [SetEOS](seteos-method-ado.md).
 
 ```vb 
  

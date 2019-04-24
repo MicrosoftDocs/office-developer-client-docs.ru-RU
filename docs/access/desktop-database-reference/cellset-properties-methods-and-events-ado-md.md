@@ -1,5 +1,5 @@
 ---
-title: Свойства ячеек, методы и события (ADO MD)
+title: Свойства, методы и события набора Cells (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 7745f93c-5cc7-e6f8-143a-3470be0c1c0a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249488(v=office.15)
@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8cb1c2774d7dc408eef85fd1303ea31f942cb3bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717134"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296523"
 ---
-# <a name="cellset-properties-methods-and-events-ado-md"></a>Свойства ячеек, методы и события (ADO MD)
+# <a name="cellset-properties-methods-and-events-ado-md"></a>Свойства, методы и события набора Cells (ADO MD)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="propertiescollections"></a>Свойства и коллекции
 
 - [Свойство ActiveConnection](activeconnection-property-ado-md.md)
 - [Коллекция Axes](axes-collection-ado-md.md)
 - [Свойство FilterAxis](filteraxis-property-ado-md.md)
-- [Свойство Item (ячеек)](item-property-ado-md-cellset.md)
+- [Свойство Item (набор ячеек)](item-property-ado-md-cellset.md)
 - [Коллекция Properties](properties-collection-ado.md)
 - [Свойство Source](source-property-ado-md.md)
 - [Свойство State](state-property-ado-md.md)

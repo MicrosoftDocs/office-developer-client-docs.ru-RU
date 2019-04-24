@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2f2e409a7d158ba04e79d300eaacf9edf8cf5622
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296621"
 ---
 # <a name="catalog-activeconnection-property-example-vb"></a>Пример использования свойства ActiveConnection объекта Catalog (VB)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Установка для свойства [ActiveConnection](activeconnection-property-adox.md) допустимый, откройте подключение «открывает» каталог. Открытие каталога можно приступить к объекты схемы, содержащиеся в каталоге.
+Установка для свойства [ActiveConnection](activeconnection-property-adox.md) допустимого, открытого подключения "открывает каталог". В открытом каталоге можно получить доступ к объектам схемы, включенным в этот каталог.
 
 ```vb 
  
@@ -57,7 +57,7 @@ ms.locfileid: "28704835"
     ' EndOpenConnectionVB 
 ```
 
-Установка для свойства **ActiveConnection** это допустимая строка подключения также «открывает» каталог.
+Установка для свойства **ActiveConnection** допустимой строки подключения также "открывает" каталог.
 
 ```vb
     ' BeginOpenConnection2VB 

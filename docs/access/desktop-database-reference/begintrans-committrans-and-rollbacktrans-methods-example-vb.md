@@ -1,5 +1,5 @@
 ---
-title: 'Пример: методы BeginTrans CommitTrans, RollbackTrans (VB)'
+title: Пример методов BeginTrans, CommitTrans и RollbackTrans (VB)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VB)
 ms:assetid: 12fce322-dba7-9159-8a09-7f6daf1a80ed
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248904(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 57efd2b4361a48eff122ce2ee2ed2d0f68d438b1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296852"
 ---
 # <a name="begintrans-committrans-and-rollbacktrans-methods-example-vb"></a>Пример использования методов BeginTrans, CommitTrans и RollbackTrans (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере изменяется тип книги все психологии книг в таблице ***Titles*** базы данных. После запуска операции, изолирует все изменения, внесенные в таблице ***заголовки*** метод [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения. Чтобы отменить изменения, сохраненные с помощью метода [Update](update-method-ado.md) можно использовать метод [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) .
+В этом примере изменяется тип Book всех книг психологии в таблице ***titles*** базы данных. После того как метод [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) начинает транзакцию, которая изолирует все изменения, внесенные ****** в таблицу titles, метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения. Для отмены изменений, сохраненных с помощью метода [Update](update-method-ado.md) , можно использовать метод [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) .
 
 ```vb 
  

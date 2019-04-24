@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6613836a4d924d66902d4da4e7c25d1df1acd8ce
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32312035"
 ---
 # <a name="version-property-example-vj"></a>Пример использования свойства Version (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется свойство [Version](version-property-ado.md) объекта [подключения](connection-object-ado.md) для отображения текущая версия ADO. Он также использует несколько динамических свойств для отображения:
+В этом примере используется свойство [Version](version-property-ado.md) объекта [Connection](connection-object-ado.md) для отображения текущей версии ADO. Кроме того, в нем используется несколько динамических свойств для отображения:
 
-  - Текущее имя СУБД и версии.
+  - Текущее имя и версия СУБД.
 
   - Версия OLE DB.
 
-  - Имя поставщика и версии.
+  - имя и версия поставщика.
 
   - Версия ODBC.
 
-  - Имя драйвера ODBC и версии.
+  - Имя и версия драйвера ODBC.
 
 <!-- end list -->
 

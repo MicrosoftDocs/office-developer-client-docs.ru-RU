@@ -1,5 +1,5 @@
 ---
-title: SchemaEnum (Справочник по для настольных баз данных Access)
+title: Счемаенум (Справочник по базам данных Access на компьютере)
 TOCTitle: SchemaEnum
 ms:assetid: 6147b682-3c4f-ea91-fff6-ac73107d206d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249359(v=office.15)
@@ -8,27 +8,27 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aa70f275de164716b5b3975b56588e9dc4aec1a5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308865"
 ---
 # <a name="schemaenum"></a>SchemaEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает тип схемы [OpenSchema](openschema-method-ado.md) метод извлекает **набора записей** .
+Указывает тип **набора записей** схемы, извлекаемый методом [OpenSchema](openschema-method-ado.md) .
 
 ## <a name="remarks"></a>Замечания
 
-Дополнительные сведения о функции и столбцов, возвращаемых для каждого константа ADO можно найти в разделах приложение Б *Справочнике программиста OLE DB*. Имя каждого раздела отображается в скобки в разделе Описание в следующей таблице.
+Дополнительные сведения о функции и столбцах, возвращаемых для каждой константы ADO, можно найти в разделах, посвященных приложению Б справочника по программированию для *программистОв OLE DB*. Имя каждого раздела указано в скобках в разделе Описание следующей таблицы.
 
-Дополнительные сведения о функции и столбцов, возвращаемых для каждого ADO MD константу можно найти в разделах Глава 23 документации *OLE DB для OLAP* . Имя каждого раздела приведены в скобках и помеченные звездочкой (\*) в столбце Описание в следующей таблице.
+Дополнительные сведения о функции и столбцах, возвращаемых для каждой константы ADO MD, можно найти в разделах Chapter 23 документации по *OLE DB для OLAP* . Имя каждого раздела указано в круглых скобках и помечено звездочкой (\*) в столбце Описание следующей таблицы.
 
-Преобразования типов данных столбцов в документации по OLE DB для типов данных ADO с помощью ссылки на столбец описание раздела ADO [DataTypeEnum](datatypeenum.md) . Например, тип данных OLE DB из **DBTYPE\_WSTR** соответствует типу данных ADO из **adWChar**.
+Переведите типы данных столбцов в документации OLE DB на типы данных ADO, обратившись к столбцу Description раздела ADO [DataTypeEnum](datatypeenum.md) . Например, тип данных OLE DB для **\_DbType встр** эквивалентен типу данных ADO **адвчар**.
 
-ADO создает аналогичную схемы результаты для константы, **adSchemaDBInfoKeywords** и **adSchemaDBInfoLiterals**. ADO создает **набор записей**, а затем заполняет каждой строки с помощью значения, возвращаемые методы **IDBInfo::GetKeywords** и **IDBInfo::GetLiteralInfo** соответственно. Дополнительные сведения об этих методов можно найти в разделе IDBInfo *Справочник программиста OLE DB*.
+ADO создает аналогичные схеме результаты для констант, **адсчемадбинфокэйвордс** и **адсчемадбинфолитералс**. ADO создает объект **Recordset**, а затем заполняет каждую строку значениями, возвращаемыми соответственно с помощью методов **идбинфо::** и **идбинфо:: жетлитералинфо** . Дополнительные сведения об этих методах можно найти в разделе Идбинфо *справки программиста OLE DB*.
 
 <br/>
 
@@ -44,379 +44,379 @@ ADO создает аналогичную схемы результаты для
 <th><p>Константа</p></th>
 <th><p>Значение</p></th>
 <th><p>Описание</p></th>
-<th><p>Ограничение столбцов</p></th>
+<th><p>Столбцы ограничений</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adSchemaAsserts</strong></p></td>
-<td><p>0</p></td>
-<td><p>Возвращает утверждения, определенные в каталоге, принадлежащие указанному пользователю. (УТВЕРЖДЕНИЯ строк)</p></td>
-<td><p>CONSTRAINT_CATALOG<br />
-CONSTRAINT_SCHEMA<br />
-CONSTRAINT_NAME</p></td>
+<td><p><strong>Адсчемаассертс</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Возвращает утверждения, определенные в каталоге и принадлежащие указанному пользователю. (Набор строк УТВЕРЖДЕНий)</p></td>
+<td><p>КОНСТРАИНТ_КАТАЛОГ<br />
+КОНСТРАИНТ_СЧЕМА<br />
+КОНСТРАИНТ_НАМЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaCatalogs</strong></p></td>
-<td><p>1</p></td>
-<td><p>Возвращает физические атрибуты, связанные с каталогами, доступными из СУБД. (КАТАЛОГИ строк)</p></td>
-<td><p>CATALOG_NAME</p></td>
+<td><p><strong>Адсчемакаталогс</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Возвращает физические атрибуты, связанные с каталогами, доступными из СУБД. (Набор строк для каталога)</p></td>
+<td><p>КАТАЛОГ_НАМЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaCharacterSets</strong></p></td>
+<td><p><strong>Адсчемачарактерсетс</strong></p></td>
 <td><p>2</p></td>
-<td><p>Возвращает наборы символов, определенные в каталоге, доступных пользователям определенного пользователя. (CHARACTER_SETS строк)</p></td>
-<td><p>CHARACTER_SET_CATALOG<br />
-CHARACTER_SET_SCHEMA<br />
-CHARACTER_SET_NAME</p></td>
+<td><p>Возвращает наборы символов, определенные в каталоге и доступные определенному пользователю. (Набор строк ЧАРАКТЕР_СЕТС)</p></td>
+<td><p>ЧАРАКТЕР_СЕТ_КАТАЛОГ<br />
+ЧАРАКТЕР_СЕТ_СЧЕМА<br />
+ЧАРАКТЕР_СЕТ_НАМЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaCheckConstraints</strong></p></td>
-<td><p>5</p></td>
-<td><p>Возвращает ограничения проверки, определенные в каталоге, принадлежащие указанному пользователю. (CHECK_CONSTRAINTS строк)</p></td>
-<td><p>CONSTRAINT_CATALOG<br />
-CONSTRAINT_SCHEMA<br />
-CONSTRAINT_NAME</p></td>
+<td><p><strong>Адсчемачеккконстраинтс</strong></p></td>
+<td><p>17:00</p></td>
+<td><p>Возвращает проверочные ограничения, определенные в каталоге и принадлежащие указанному пользователю. (Набор строк CHECK_CONSTRAINTS)</p></td>
+<td><p>КОНСТРАИНТ_КАТАЛОГ<br />
+КОНСТРАИНТ_СЧЕМА<br />
+КОНСТРАИНТ_НАМЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaCollations</strong></p></td>
-<td><p>3</p></td>
-<td><p>Возвращает параметры сортировки символов, определенные в каталоге, доступных пользователям определенного пользователя. (Параметры СОРТИРОВКИ строк)</p></td>
-<td><p>COLLATION_CATALOG<br />
-COLLATION_SCHEMA<br />
-АРГУМЕНТ COLLATION_NAME</p></td>
+<td><p><strong>Адсчемаколлатионс</strong></p></td>
+<td><p>4</p></td>
+<td><p>Возвращает параметры сортировки символов, определенные в каталоге и доступные определенному пользователю. (Набор строк для параметров сортировки)</p></td>
+<td><p>КОЛЛАТИОН_КАТАЛОГ<br />
+КОЛЛАТИОН_СЧЕМА<br />
+КОЛЛАТИОН_НАМЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaColumnPrivileges</strong></p></td>
+<td><p><strong>Адсчемаколумнпривилежес</strong></p></td>
 <td><p>13</p></td>
-<td><p>Возвращает привилегии для столбцов таблиц, определенные в каталоге, доступных для или предоставленные указанному пользователю. (COLUMN_PRIVILEGES строк)</p></td>
-<td><p>TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
+<td><p>Возвращает привилегии для столбцов таблиц, определенных в каталоге и доступных определенному пользователю или предоставленных им. (Набор строк КОЛУМН_ПРИВИЛЕЖЕС)</p></td>
+<td><p>ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
 TABLE_NAME<br />
 COLUMN_NAME<br />
 ПРЕДОСТАВЛЕНИЕИЛИ<br />
-ОБЪЕКТ, ПОЛУЧАЮЩИЙ</p></td>
+ПРАВА</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaColumns</strong></p></td>
-<td><p>4</p></td>
-<td><p>Возвращает столбцы таблиц (включая представления) определенные в каталоге, доступных пользователям определенного пользователя. (СТОЛБЦЫ строк)</p></td>
-<td><p>TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
+<td><p><strong>Адсчемаколумнс</strong></p></td>
+<td><p>SP4</p></td>
+<td><p>Возвращает столбцы таблиц (в том числе представлений), определенных в каталоге и доступных определенному пользователю. (Набор строк COLUMNs)</p></td>
+<td><p>ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
 TABLE_NAME<br />
 COLUMN_NAME</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaColumnsDomainUsage</strong></p></td>
-<td><p>11</p></td>
-<td><p>Возвращает столбцы, определенные в каталоге, зависящие от домена, определенные в каталоге и принадлежащие указанному пользователю. (COLUMN_DOMAIN_USAGE строк)</p></td>
-<td><p>DOMAIN_CATALOG<br />
-DOMAIN_SCHEMA<br />
+<td><p><strong>Адсчемаколумнсдомаинусаже</strong></p></td>
+<td><p>-11:00</p></td>
+<td><p>Возвращает столбцы, определенные в каталоге, зависящие от домена, определенного в каталоге и принадлежащего указанному пользователю. (Набор строк КОЛУМН_ДОМАИН_УСАЖЕ)</p></td>
+<td><p>ДОМАИН_КАТАЛОГ<br />
+ДОМАИН_СЧЕМА<br />
 ИМЯ_ДОМЕНА<br />
 COLUMN_NAME</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaConstraintColumnUsage</strong></p></td>
-<td><p>6</p></td>
-<td><p>Возвращает число столбцов, используемых ссылочные ограничения, ограничения уникальности, ограничения и утверждения, определенные в каталоге и принадлежащие указанному пользователю. (CONSTRAINT_COLUMN_USAGE строк)</p></td>
-<td><p>TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
+<td><p><strong>Адсчемаконстраинтколумнусаже</strong></p></td>
+<td><p>ICMPv6</p></td>
+<td><p>Возвращает столбцы, используемые ссылочными ограничениями, уникальными ограничениями, проверочными ограничениями и утверждениями, определенными в каталоге и принадлежащими заданному пользователю. (Набор строк КОНСТРАИНТ_КОЛУМН_УСАЖЕ)</p></td>
+<td><p>ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
 TABLE_NAME<br />
 COLUMN_NAME</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaConstraintTableUsage</strong></p></td>
-<td><p>7</p></td>
-<td><p>Возвращает таблицы, используемые ссылочные ограничения, ограничения уникальности, ограничения и утверждения, определенные в каталоге и принадлежащие указанному пользователю. (CONSTRAINT_TABLE_USAGE строк)</p></td>
-<td><p>TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
+<td><p><strong>Адсчемаконстраинттаблеусаже</strong></p></td>
+<td><p>см</p></td>
+<td><p>Возвращает таблицы, используемые ссылочными ограничениями, уникальными ограничениями, проверочными ограничениями и утверждениями, определенными в каталоге и принадлежащими определенному пользователю. (Набор строк КОНСТРАИНТ_ТАБЛЕ_УСАЖЕ)</p></td>
+<td><p>ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
 TABLE_NAME</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaCubes</strong></p></td>
+<td><p><strong>Адсчемакубес</strong></p></td>
 <td><p>32</p></td>
-<td><p>Возвращает сведения о доступных кубов в схемы (или каталога, если поставщик не поддерживает схемы). (КУБЫ строк *)</p></td>
-<td><p>CATALOG_NAME<br />
+<td><p>Возвращает сведения о доступных кубах в схеме (или каталоге, если поставщик не поддерживает схемы). (Набор строк для КУБОВ *)</p></td>
+<td><p>КАТАЛОГ_НАМЕ<br />
 SCHEMA_NAME<br />
-CUBE_NAME</p></td>
+КУБЕ_НАМЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaDBInfoKeywords</strong></p></td>
-<td><p>30</p></td>
-<td><p>Возвращает список ключевых слов, зависящие от поставщика. (IDBInfo::GetKeywords *)</p></td>
-<td><p>&lt;Нет&gt;</p></td>
+<td><p><strong>Адсчемадбинфокэйвордс</strong></p></td>
+<td><p>более</p></td>
+<td><p>Возвращает список ключевых слов, относящихся к поставщику. (Идбинфо:: заРезервированные слова *)</p></td>
+<td><p>&lt;Видим&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaDBInfoLiterals</strong></p></td>
-<td><p>31</p></td>
-<td><p>Возвращает список литералов от поставщика, используемых в текст команды. (IDBInfo::GetLiteralInfo *)</p></td>
-<td><p>&lt;Нет&gt;</p></td>
+<td><p><strong>Адсчемадбинфолитералс</strong></p></td>
+<td><p>длиной</p></td>
+<td><p>Возвращает список литералов, характерных для каждого поставщика, используемых в текстовых командах. (Идбинфо:: Жетлитералинфо *)</p></td>
+<td><p>&lt;Видим&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaDimensions</strong></p></td>
+<td><p><strong>Адсчемадименсионс</strong></p></td>
 <td><p>33</p></td>
-<td><p>Возвращает сведения о размеры данного куба. Она содержится одна строка для каждого измерения. (РАЗМЕРЫ строк *)</p></td>
-<td><p>CATALOG_NAME<br />
+<td><p>Возвращает сведения об измерениях в заданном кубе. Он содержит по одной строке для каждого измерения. (Набор строк измерений *)</p></td>
+<td><p>КАТАЛОГ_НАМЕ<br />
 SCHEMA_NAME<br />
-CUBE_NAME<br />
-DIMENSION_NAME<br />
-DIMENSION_UNIQUE_NAME</p></td>
+КУБЕ_НАМЕ<br />
+ДИМЕНСИОН_НАМЕ<br />
+ДИМЕНСИОН_УНИКУЕ_НАМЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaForeignKeys</strong></p></td>
+<td><p><strong>Адсчемафореигнкэйс</strong></p></td>
 <td><p>27</p></td>
-<td><p>Возвращает столбцы внешнего ключа, определенные в каталоге данным пользователем. (FOREIGN_KEYS строк)</p></td>
-<td><p>PK_TABLE_CATALOG<br />
-PK_TABLE_SCHEMA<br />
-PK_TABLE_NAME<br />
-FK_TABLE_CATALOG<br />
-FK_TABLE_SCHEMA<br />
-FK_TABLE_NAME</p></td>
+<td><p>Возвращает столбцы внешнего ключа, определенные в каталоге конкретным пользователем. (Набор строк ФОРЕИГН_КЭЙС)</p></td>
+<td><p>ПК_ТАБЛЕ_КАТАЛОГ<br />
+ПК_ТАБЛЕ_СЧЕМА<br />
+ПК_ТАБЛЕ_НАМЕ<br />
+ФК_ТАБЛЕ_КАТАЛОГ<br />
+ФК_ТАБЛЕ_СЧЕМА<br />
+ФК_ТАБЛЕ_НАМЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaHierarchies</strong></p></td>
+<td><p><strong>Адсчемахиерарчиес</strong></p></td>
 <td><p>34</p></td>
-<td><p>Возвращает сведения о иерархий, доступных в измерении. (ИЕРАРХИИ строк *)</p></td>
-<td><p>CATALOG_NAME<br />
+<td><p>Возвращает сведения о иерархиях, доступных в измерении. (Набор строк "ИЕРАРХИИ" *)</p></td>
+<td><p>КАТАЛОГ_НАМЕ<br />
 SCHEMA_NAME<br />
-CUBE_NAME<br />
-DIMENSION_UNIQUE_NAME<br />
-HIERARCHY_NAME<br />
-HIERARCHY_UNIQUE_NAME</p></td>
+КУБЕ_НАМЕ<br />
+ДИМЕНСИОН_УНИКУЕ_НАМЕ<br />
+ХИЕРАРЧИ_НАМЕ<br />
+ХИЕРАРЧИ_УНИКУЕ_НАМЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaIndexes</strong></p></td>
+<td><p><strong>Адсчемаиндексес</strong></p></td>
 <td><p>12</p></td>
-<td><p>Возвращает индексы, определенные в каталоге, принадлежащие указанному пользователю. (ИНДЕКСЫ строк)</p></td>
-<td><p>TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
-INDEX_NAME<br />
-ТИП<br />
+<td><p>Возвращает индексы, определенные в каталоге и принадлежащие указанному пользователю. (Набор строк INDEXES)</p></td>
+<td><p>ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
+ИНДЕКС_НАМЕ<br />
+Тип<br />
 TABLE_NAME</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaKeyColumnUsage</strong></p></td>
-<td><p>8</p></td>
-<td><p>Возвращает столбцы, определенные в каталоге, ограниченные как ключи данным пользователем. (Набор строк KEY_COLUMN_USAGE служит для указания)</p></td>
-<td><p>CONSTRAINT_CATALOG<br />
-CONSTRAINT_SCHEMA<br />
-CONSTRAINT_NAME<br />
-TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
+<td><p><strong>Адсчемакэйколумнусаже</strong></p></td>
+<td><p>8,5</p></td>
+<td><p>Возвращает столбцы, определенные в каталоге и ограниченные ключами определенного пользователя. (Набор строк КЭЙ_КОЛУМН_УСАЖЕ)</p></td>
+<td><p>КОНСТРАИНТ_КАТАЛОГ<br />
+КОНСТРАИНТ_СЧЕМА<br />
+КОНСТРАИНТ_НАМЕ<br />
+ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
 TABLE_NAME<br />
 COLUMN_NAME</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaLevels</strong></p></td>
+<td><p><strong>Адсчемалевелс</strong></p></td>
 <td><p>35</p></td>
-<td><p>Возвращает сведения о доступных в измерении уровней. (Уровни строк *)</p></td>
-<td><p>CATALOG_NAME<br />
+<td><p>Возвращает сведения об уровнях, доступных в измерении. (Набор строк "уровни" *)</p></td>
+<td><p>КАТАЛОГ_НАМЕ<br />
 SCHEMA_NAME<br />
-CUBE_NAME<br />
-DIMENSION_UNIQUE_NAME<br />
-HIERARCHY_UNIQUE_NAME<br />
-LEVEL_NAME<br />
-LEVEL_UNIQUE_NAME</p></td>
+КУБЕ_НАМЕ<br />
+ДИМЕНСИОН_УНИКУЕ_НАМЕ<br />
+ХИЕРАРЧИ_УНИКУЕ_НАМЕ<br />
+ЛЕВЕЛ_НАМЕ<br />
+ЛЕВЕЛ_УНИКУЕ_НАМЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaMeasures</strong></p></td>
+<td><p><strong>Адсчемамеасурес</strong></p></td>
 <td><p>36</p></td>
-<td><p>Возвращает сведения о доступных мер. (Набор строк меры *)</p></td>
-<td><p>CATALOG_NAME<br />
+<td><p>Возвращает сведения о доступных показателях. (Набор "меры" *)</p></td>
+<td><p>КАТАЛОГ_НАМЕ<br />
 SCHEMA_NAME<br />
-CUBE_NAME<br />
-MEASURE_NAME<br />
-MEASURE_UNIQUE_NAME</p></td>
+КУБЕ_НАМЕ<br />
+МЕАСУРЕ_НАМЕ<br />
+МЕАСУРЕ_УНИКУЕ_НАМЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaMembers</strong></p></td>
+<td><p><strong>Адсчемамемберс</strong></p></td>
 <td><p>38</p></td>
-<td><p>Возвращает сведения о доступных членов. (Строк MEMBERS *)</p></td>
-<td><p>CATALOG_NAME<br />
+<td><p>Возвращает сведения о доступных членах. (Набор строк "элементы" *)</p></td>
+<td><p>КАТАЛОГ_НАМЕ<br />
 SCHEMA_NAME<br />
-CUBE_NAME<br />
-DIMENSION_UNIQUE_NAME<br />
-HIERARCHY_UNIQUE_NAME<br />
-LEVEL_UNIQUE_NAME<br />
-LEVEL_NUMBER<br />
-MEMBER_NAME<br />
-MEMBER_UNIQUE_NAME<br />
-MEMBER_CAPTION<br />
-MEMBER_TYPE<br />
-Оператор дерева (Дополнительные сведения см. в OLE DB для OLAP документации.)</p></td>
+КУБЕ_НАМЕ<br />
+ДИМЕНСИОН_УНИКУЕ_НАМЕ<br />
+ХИЕРАРЧИ_УНИКУЕ_НАМЕ<br />
+ЛЕВЕЛ_УНИКУЕ_НАМЕ<br />
+ЛЕВЕЛ_НУМБЕР<br />
+МЕМБЕР_НАМЕ<br />
+МЕМБЕР_УНИКУЕ_НАМЕ<br />
+МЕМБЕР_КАПТИОН<br />
+МЕМБЕР_ТИПЕ<br />
+Оператор Tree (Дополнительные сведения см. в документации по OLE DB for OLAP.)</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaPrimaryKeys</strong></p></td>
-<td><p>28</p></td>
-<td><p>Возвращает столбцы первичных ключей, определенные в каталоге данным пользователем. (PRIMARY_KEYS строк)</p></td>
-<td><p>PK_TABLE_CATALOG<br />
-PK_TABLE_SCHEMA<br />
-PK_TABLE_NAME</p></td>
+<td><p><strong>Адсчемапримарикэйс</strong></p></td>
+<td><p>8</p></td>
+<td><p>Возвращает столбцы первичного ключа, определенные в каталоге указанным пользователем. (Набор строк ПРИМАРИ_КЭЙС)</p></td>
+<td><p>ПК_ТАБЛЕ_КАТАЛОГ<br />
+ПК_ТАБЛЕ_СЧЕМА<br />
+ПК_ТАБЛЕ_НАМЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaProcedureColumns</strong></p></td>
-<td><p>29</p></td>
-<td><p>Возвращает сведения о столбцах наборы строк, возвращаемых процедурами. (PROCEDURE_COLUMNS строк)</p></td>
-<td><p>PROCEDURE_CATALOG<br />
-PROCEDURE_SCHEMA<br />
-PROCEDURE_NAME<br />
+<td><p><strong>Адсчемапроцедуреколумнс</strong></p></td>
+<td><p>суммируемых</p></td>
+<td><p>Возвращает сведения о столбцах наборов строк, возвращаемых процедурами. (Набор строк ПРОЦЕДУРЕ_КОЛУМНС)</p></td>
+<td><p>ПРОЦЕДУРЕ_КАТАЛОГ<br />
+ПРОЦЕДУРЕ_СЧЕМА<br />
+ПРОЦЕДУРЕ_НАМЕ<br />
 COLUMN_NAME</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaProcedureParameters</strong></p></td>
+<td><p><strong>Адсчемапроцедурепараметерс</strong></p></td>
 <td><p>26</p></td>
-<td><p>Возвращает сведения о параметрах и кодах возврата процедур. (PROCEDURE_PARAMETERS строк)</p></td>
-<td><p>PROCEDURE_CATALOG<br />
-PROCEDURE_SCHEMA<br />
-PROCEDURE_NAME<br />
-ИМЯ_ПАРАМЕТРА</p></td>
+<td><p>Возвращает сведения о параметрах и кодах возврата процедур. (Набор строк ПРОЦЕДУРЕ_ПАРАМЕТЕРС)</p></td>
+<td><p>ПРОЦЕДУРЕ_КАТАЛОГ<br />
+ПРОЦЕДУРЕ_СЧЕМА<br />
+ПРОЦЕДУРЕ_НАМЕ<br />
+ПАРАМЕТЕР_НАМЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaProcedures</strong></p></td>
-<td><p>16</p></td>
-<td><p>Возвращает процедуры, определенные в каталоге, принадлежащие указанному пользователю. (ПРОЦЕДУРЫ строк)</p></td>
-<td><p>PROCEDURE_CATALOG<br />
-PROCEDURE_SCHEMA<br />
-PROCEDURE_NAME<br />
-PROCEDURE_TYPE</p></td>
+<td><p><strong>Адсчемапроцедурес</strong></p></td>
+<td><p>столбцов</p></td>
+<td><p>Возвращает процедуры, определенные в каталоге и принадлежащие указанному пользователю. (Набор строк процедур)</p></td>
+<td><p>ПРОЦЕДУРЕ_КАТАЛОГ<br />
+ПРОЦЕДУРЕ_СЧЕМА<br />
+ПРОЦЕДУРЕ_НАМЕ<br />
+ПРОЦЕДУРЕ_ТИПЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaProperties</strong></p></td>
+<td><p><strong>Адсчемапропертиес</strong></p></td>
 <td><p>37</p></td>
-<td><p>Возвращает сведения о свойствах, доступных для каждого уровня измерения. (Набор строк свойства *)</p></td>
-<td><p>CATALOG_NAME<br />
+<td><p>Возвращает сведения о доступных свойствах для каждого уровня измерения. (Набор строк "Свойства" *)</p></td>
+<td><p>КАТАЛОГ_НАМЕ<br />
 SCHEMA_NAME<br />
-CUBE_NAME<br />
-DIMENSION_UNIQUE_NAME<br />
-HIERARCHY_UNIQUE_NAME<br />
-LEVEL_UNIQUE_NAME<br />
-MEMBER_UNIQUE_NAME<br />
-PROPERTY_TYPE<br />
+КУБЕ_НАМЕ<br />
+ДИМЕНСИОН_УНИКУЕ_НАМЕ<br />
+ХИЕРАРЧИ_УНИКУЕ_НАМЕ<br />
+ЛЕВЕЛ_УНИКУЕ_НАМЕ<br />
+МЕМБЕР_УНИКУЕ_НАМЕ<br />
+ПРОПЕРТИ_ТИПЕ<br />
 PROPERTY_NAME</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaProviderSpecific</strong></p></td>
+<td><p><strong>АдсчемапровидерспеЦифик</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Используется, если поставщик определяет нестандартного схемы запросов.</p></td>
-<td><p>&lt;Поставщика&gt;</p></td>
+<td><p>Используется, если поставщик определяет собственные нестандартные запросы схемы.</p></td>
+<td><p>&lt;Характерные для поставщика&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaProviderTypes</strong></p></td>
+<td><p><strong>Адсчемапровидертипес</strong></p></td>
 <td><p>22</p></td>
-<td><p>Возвращает типы данных (базовый), поддерживаемых поставщиком данных. (Строк PROVIDER_TYPES)</p></td>
+<td><p>Возвращает (базовые) типы данных, поддерживаемые поставщиком данных. (Набор строк ПРОВИДЕР_ТИПЕС)</p></td>
 <td><p>DATA_TYPE<br />
-BEST_MATCH</p></td>
+БЕСТ_МАТЧ</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>AdSchemaReferentialConstraints</strong></p></td>
-<td><p>9</p></td>
-<td><p>Возвращает ссылочные ограничения, определенные в каталоге, принадлежащие указанному пользователю. (REFERENTIAL_CONSTRAINTS строк)</p></td>
-<td><p>CONSTRAINT_CATALOG<br />
-CONSTRAINT_SCHEMA<br />
-CONSTRAINT_NAME</p></td>
+<td><p><strong>Адсчемареферентиалконстраинтс</strong></p></td>
+<td><p>10</p></td>
+<td><p>Возвращает ссылочные ограничения, определенные в каталоге и принадлежащие указанному пользователю. (Набор строк РЕФЕРЕНТИАЛ_КОНСТРАИНТС)</p></td>
+<td><p>КОНСТРАИНТ_КАТАЛОГ<br />
+КОНСТРАИНТ_СЧЕМА<br />
+КОНСТРАИНТ_НАМЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaSchemata</strong></p></td>
+<td><p><strong>Адсчемасчемата</strong></p></td>
 <td><p>17</p></td>
-<td><p>Возвращает схемы (объекты базы данных), принадлежащие указанному пользователю. (СХЕМ строк)</p></td>
-<td><p>CATALOG_NAME<br />
+<td><p>Возвращает схемы (объекты базы данных), принадлежащие указанному пользователю. (Набор строк СЧЕМАТА)</p></td>
+<td><p>КАТАЛОГ_НАМЕ<br />
 SCHEMA_NAME<br />
-SCHEMA_OWNER</p></td>
+СЧЕМА_ОВНЕР</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaSQLLanguages</strong></p></td>
-<td><p>18</p></td>
-<td><p>Возвращает уровни соответствия, параметры и языки меньшинств, поддерживаемые данными обработки реализации SQL, определенные в каталоге. (SQL_LANGUAGES строк)</p></td>
-<td><p>&lt;Нет&gt;</p></td>
+<td><p><strong>Адсчемаскллангуажес</strong></p></td>
+<td><p>0,18</p></td>
+<td><p>Возвращает уровни соответствия, параметры и диалекты, поддерживаемые данными обработки SQL, определенными в каталоге. (Набор строк СКЛ_ЛАНГУАЖЕС)</p></td>
+<td><p>&lt;Видим&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaStatistics</strong></p></td>
+<td><p><strong>Адсчемастатистикс</strong></p></td>
 <td><p>19</p></td>
-<td><p>Возвращает статистику, определенные в каталоге, принадлежащие указанному пользователю. (СТАТИСТИКА строк)</p></td>
-<td><p>TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
+<td><p>Возвращает статистику, определенную в каталоге, принадлежащем указанному пользователю. (Набор строк статистики)</p></td>
+<td><p>ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
 TABLE_NAME</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaTableConstraints</strong></p></td>
-<td><p>10</p></td>
-<td><p>Возвращает табличные ограничения, определенные в каталоге, принадлежащие указанному пользователю. (Набор строк TABLE_CONSTRAINTS служит для указания)</p></td>
-<td><p>CONSTRAINT_CATALOG<br />
-CONSTRAINT_SCHEMA<br />
-CONSTRAINT_NAME<br />
-TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
+<td><p><strong>Адсчематаблеконстраинтс</strong></p></td>
+<td><p>десяти</p></td>
+<td><p>Возвращает ограничения таблицы, определенные в каталоге и принадлежащие указанному пользователю. (Набор строк ТАБЛЕ_КОНСТРАИНТС)</p></td>
+<td><p>КОНСТРАИНТ_КАТАЛОГ<br />
+КОНСТРАИНТ_СЧЕМА<br />
+КОНСТРАИНТ_НАМЕ<br />
+ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
 TABLE_NAME<br />
-CONSTRAINT_TYPE</p></td>
+КОНСТРАИНТ_ТИПЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaTablePrivileges</strong></p></td>
+<td><p><strong>Адсчематаблепривилежес</strong></p></td>
 <td><p>14</p></td>
-<td><p>Возвращает привилегии для таблиц, определенные в каталоге, доступных для или предоставленные указанному пользователю. (TABLE_PRIVILEGES строк)</p></td>
-<td><p>TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
+<td><p>Возвращает привилегии для таблиц, определенных в каталоге и доступных определенному пользователю или предоставленных им. (Набор строк ТАБЛЕ_ПРИВИЛЕЖЕС)</p></td>
+<td><p>ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
 TABLE_NAME<br />
 ПРЕДОСТАВЛЕНИЕИЛИ<br />
-ОБЪЕКТ, ПОЛУЧАЮЩИЙ</p></td>
+ПРАВА</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaTables</strong></p></td>
-<td><p>20</p></td>
-<td><p>Возвращает таблицы (включая представления) определенные в каталоге, доступных пользователям определенного пользователя. (Набор строк таблицы)</p></td>
-<td><p>TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
+<td><p><strong>Адсчематаблес</strong></p></td>
+<td><p>двадцать</p></td>
+<td><p>Возвращает таблицы (в том числе представления), определенные в каталоге и доступные определенному пользователю. (Набор строк таблицы)</p></td>
+<td><p>ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
 TABLE_NAME<br />
-TABLE_TYPE</p></td>
+ТАБЛЕ_ТИПЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaTranslations</strong></p></td>
+<td><p><strong>Адсчематранслатионс</strong></p></td>
 <td><p>21</p></td>
-<td><p>Возвращает преобразования знаков, определенные в каталоге, доступных пользователям определенного пользователя. (Переводы строк)</p></td>
-<td><p>TRANSLATION_CATALOG<br />
-TRANSLATION_SCHEMA<br />
-TRANSLATION_NAME</p></td>
+<td><p>Возвращает преобразования символов, определенные в каталоге и доступные указанному пользователю. (Набор строк преобразования)</p></td>
+<td><p>ТРАНСЛАТИОН_КАТАЛОГ<br />
+ТРАНСЛАТИОН_СЧЕМА<br />
+ТРАНСЛАТИОН_НАМЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaTrustees</strong></p></td>
+<td><p><strong>Адсчематрустис</strong></p></td>
 <td><p>39</p></td>
-<td><p>Зарезервировано для последующего использования.</p></td>
+<td><p>Зарезервирован для использования в будущем.</p></td>
 <td><p><br />
 </p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaUsagePrivileges</strong></p></td>
-<td><p>15</p></td>
-<td><p>Возвращает привилегии USAGE для объектов, определенные в каталоге, доступных для или предоставленные указанному пользователю. (USAGE_PRIVILEGES строк)</p></td>
-<td><p>OBJECT_CATALOG<br />
-OBJECT_SCHEMA<br />
+<td><p><strong>Адсчемаусажепривилежес</strong></p></td>
+<td><p>означает</p></td>
+<td><p>Возвращает привилегии на использование объектов, определенных в каталоге и доступных определенному пользователю или предоставленных им. (Набор строк УСАЖЕ_ПРИВИЛЕЖЕС)</p></td>
+<td><p>ОБЖЕКТ_КАТАЛОГ<br />
+ОБЖЕКТ_СЧЕМА<br />
 OBJECT_NAME<br />
-ТИП_ОБЪЕКТА<br />
+ОБЖЕКТ_ТИПЕ<br />
 ПРЕДОСТАВЛЕНИЕИЛИ<br />
-ОБЪЕКТ, ПОЛУЧАЮЩИЙ</p></td>
+ПРАВА</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaViewColumnUsage</strong></p></td>
-<td><p>24</p></td>
-<td><p>Возвращает столбцы, в которых просматриваемые таблицы, определенные в каталоге и принадлежащие указанному пользователю зависят. (VIEW_COLUMN_USAGE строк)</p></td>
-<td><p>VIEW_CATALOG<br />
-VIEW_SCHEMA<br />
-VIEW_NAME</p></td>
+<td><p><strong>Адсчемавиевколумнусаже</strong></p></td>
+<td><p>открыт</p></td>
+<td><p>Возвращает столбцы, от которых зависят просмотренные таблицы, определенные в каталоге и принадлежащие определенному пользователю. (Набор строк ВИЕВ_КОЛУМН_УСАЖЕ)</p></td>
+<td><p>ВИЕВ_КАТАЛОГ<br />
+ВИЕВ_СЧЕМА<br />
+ВИЕВ_НАМЕ</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSchemaViews</strong></p></td>
+<td><p><strong>Адсчемавиевс</strong></p></td>
 <td><p>23</p></td>
-<td><p>Возвращает представления, определенные в каталоге, доступных пользователям определенного пользователя. (Набор строк ПРЕДСТАВЛЕНИЯ)</p></td>
-<td><p>TABLE_CATALOG<br />
-TABLE_SCHEMA<br />
+<td><p>Возвращает представления, определенные в каталоге и доступные указанному пользователю. (Набор строк представления)</p></td>
+<td><p>ТАБЛЕ_КАТАЛОГ<br />
+ТАБЛЕ_СЧЕМА<br />
 TABLE_NAME</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adSchemaViewTableUsage</strong></p></td>
+<td><p><strong>Адсчемавиевтаблеусаже</strong></p></td>
 <td><p>25</p></td>
-<td><p>Возвращает таблиц, в котором просматриваемые таблицы, определенные в каталоге и принадлежащие указанному пользователю зависят. (VIEW_TABLE_USAGE строк)</p></td>
-<td><p>VIEW_CATALOG<br />
-VIEW_SCHEMA<br />
-VIEW_NAME</p></td>
+<td><p>Возвращает таблицы, в которых все просмотренные таблицы, определенные в каталоге и принадлежащие определенному пользователю, зависят от них. (Набор строк ВИЕВ_ТАБЛЕ_УСАЖЕ)</p></td>
+<td><p>ВИЕВ_КАТАЛОГ<br />
+ВИЕВ_СЧЕМА<br />
+ВИЕВ_НАМЕ</p></td>
 </tr>
 </tbody>
 </table>
@@ -424,7 +424,7 @@ VIEW_NAME</p></td>
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -437,127 +437,127 @@ VIEW_NAME</p></td>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Schema.ASSERTS</p></td>
+<td><p>Адоенумс. Schema. ASSERTs</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.CATALOGS</p></td>
+<td><p>Адоенумс. Schema. CATALOGs</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.CHARACTERSETS</p></td>
+<td><p>Адоенумс. Schema. ЧАРАКТЕРСЕТС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.CHECKCONSTRAINTS</p></td>
+<td><p>Адоенумс. Schema. ЧЕКККОНСТРАИНТС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.COLLATIONS</p></td>
+<td><p>Адоенумс. Schema. Collation</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.COLUMNPRIVILEGES</p></td>
+<td><p>Адоенумс. Schema. КОЛУМНПРИВИЛЕЖЕС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.COLUMNS</p></td>
+<td><p>Адоенумс. Schema. COLUMNs</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.COLUMNSDOMAINUSAGE</p></td>
+<td><p>Адоенумс. Schema. КОЛУМНСДОМАИНУСАЖЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.CONSTRAINTCOLUMNUSAGE</p></td>
+<td><p>Адоенумс. Schema. КОНСТРАИНТКОЛУМНУСАЖЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.CONSTRAINTTABLEUSAGE</p></td>
+<td><p>Адоенумс. Schema. КОНСТРАИНТТАБЛЕУСАЖЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.CUBES</p></td>
+<td><p>Адоенумс. Schema. CUBEs</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.DBINFOKEYWORDS</p></td>
+<td><p>Адоенумс. Schema. ДБИНФОКЭЙВОРДС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.DBINFOLITERALS</p></td>
+<td><p>Адоенумс. Schema. ДБИНФОЛИТЕРАЛС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.DIMENSIONS</p></td>
+<td><p>Адоенумс. Schema. DIMENSIONs</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.FOREIGNKEYS</p></td>
+<td><p>Адоенумс. Schema. ФОРЕИГНКЭЙС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.HIERARCHIES</p></td>
+<td><p>Адоенумс. Schema. ИЕРАРХИИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.INDEXES</p></td>
+<td><p>Адоенумс. Schema. INDEXES</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.KEYCOLUMNUSAGE</p></td>
+<td><p>Адоенумс. Schema. КЭЙКОЛУМНУСАЖЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.LEVELS</p></td>
+<td><p>Адоенумс. Schema. LEVELs</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.MEASURES</p></td>
+<td><p>Адоенумс. Schema. MEASUREs</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.MEMBERS</p></td>
+<td><p>Адоенумс. Schema. MEMBERs</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.PRIMARYKEYS</p></td>
+<td><p>Адоенумс. Schema. ПРИМАРИКЭЙС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.PROCEDURECOLUMNS</p></td>
+<td><p>Адоенумс. Schema. ПРОЦЕДУРЕКОЛУМНС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.PROCEDUREPARAMETERS</p></td>
+<td><p>Адоенумс. Schema. ПРОЦЕДУРЕПАРАМЕТЕРС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.PROCEDURES</p></td>
+<td><p>Адоенумс. Schema. процедуры</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.PROPERTIES</p></td>
+<td><p>Адоенумс. Schema. PROPERTIES</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.PROVIDERSPECIFIC</p></td>
+<td><p>Адоенумс. Schema. ПРОВИДЕРСПЕЦИФИК</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.PROVIDERTYPES</p></td>
+<td><p>Адоенумс. Schema. ПРОВИДЕРТИПЕС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.REFERENTIALCONTRAINTS</p></td>
+<td><p>Адоенумс. Schema. РЕФЕРЕНТИАЛКОНТРАИНТС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.SCHEMATA</p></td>
+<td><p>Адоенумс. Schema. СЧЕМАТА</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.SQLLANGUAGES</p></td>
+<td><p>Адоенумс. Schema. СКЛЛАНГУАЖЕС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.STATISTICS</p></td>
+<td><p>Адоенумс. Schema. STATISTICS</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.TABLECONSTRAINTS</p></td>
+<td><p>Адоенумс. Schema. ТАБЛЕКОНСТРАИНТС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.TABLEPRIVILEGES</p></td>
+<td><p>Адоенумс. Schema. ТАБЛЕПРИВИЛЕЖЕС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.TABLES</p></td>
+<td><p>Адоенумс. Schema. TABLEs</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.TRANSLATIONS</p></td>
+<td><p>Адоенумс. Schema. translation</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.TRUSTEES</p></td>
+<td><p>Адоенумс. Schema. ДОВЕРЕНные лица</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.USAGEPRIVILEGES</p></td>
+<td><p>Адоенумс. Schema. УСАЖЕПРИВИЛЕЖЕС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.VIEWCOLUMNUSAGE</p></td>
+<td><p>Адоенумс. Schema. ВИЕВКОЛУМНУСАЖЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Schema.VIEWS</p></td>
+<td><p>Адоенумс. Schema. VIEWs</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Schema.VIEWTABLEUSAGE</p></td>
+<td><p>Адоенумс. Schema. ВИЕВТАБЛЕУСАЖЕ</p></td>
 </tr>
 </tbody>
 </table>

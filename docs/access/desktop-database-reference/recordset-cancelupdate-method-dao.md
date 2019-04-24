@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5950154d8896678889af01254104a2ac0dfef4cc
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712436"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300681"
 ---
 # <a name="recordsetcancelupdate-method-dao"></a>Метод Recordset.CancelUpdate (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Отменяет все ожидающие обновления для объекта **[набора записей](recordset-object-dao.md)** .
+Отменяет любые незавершенные обновления для объекта **[Recordset](recordset-object-dao.md)**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . CancelUpdate (***UpdateType***)
+*Expression* . CancelUpdate (***упдатетипе***)
 
-*выражение* Переменная, которая представляет собой объект **набора записей** .
+*expression*: переменная, представляющая объект **Recordset**.
 
 ## <a name="parameters"></a>Параметры
 
@@ -42,17 +42,17 @@ ms.locfileid: "28712436"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>UpdateType</em></p></td>
+<td><p><em>Упдатетипе</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Установите одно из значений <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong> .</p><p><strong>Примечание</strong>: значения <EM>dbUpdateRegular</EM> и <EM>dbUpdateBatch</EM> действительны только в том случае, если обновление пакета включен.</p>
+<td><p>Задайте одно из значений <strong><a href="updatetypeenum-enumeration-dao.md">упдатетипинум</a></strong> .</p><p><strong>Note</strong>: значения <EM>дбупдатерегулар</EM> и <EM>дбупдатебатч</EM> действительны, только если включено пакетное обновление.</p>
 </td>
 </tr>
 </tbody>
@@ -61,17 +61,17 @@ ms.locfileid: "28712436"
 
 ## <a name="remarks"></a>Замечания
 
-Чтобы отменить все ожидающие обновления, полученный после **[изменения](recordset-edit-method-dao.md)** или **[AddNew](recordset-addnew-method-dao.md)** операции можно использовать метод **CancelUpdate** . Например если пользователь вызывает метод **AddNew** или **Изменить** и еще не вызван метод **Update** , **CancelUpdate** показано, как отменить все изменения, внесенные после **изменения** или **AddNew** вызван.
+Можно использовать метод **CancelUpdate** , чтобы отменить все ожидающие обновления, являющиеся результатом операции " **[изменить](recordset-edit-method-dao.md)** " или " **[AddNew](recordset-addnew-method-dao.md)** ". Например, если пользователь вызывает метод **Edit** или **AddNew** и еще не вызвал метод **Update** , **CancelUpdate** отменяет все изменения, внесенные после вызова метода **Edit** или **AddNew** .
 
-Проверьте свойство **[EditMode](recordset-editmode-property-dao.md)** **набора записей** для определения ожидающие операции, которая может быть отменена.
+Проверьте свойство **[EditMode](recordset-editmode-property-dao.md)** объекта **Recordset** , чтобы определить, есть ли отложенная операция, которую можно отменить.
 
 > [!NOTE]
-> С помощью метода **CancelUpdate** имеет тот же эффект, как перейти к другой записи без с помощью метода **[Update](recordset-update-method-dao.md)** , за исключением того, что текущей записи не изменяется и не обновляются различные свойства, такие как **[BOF](recordset-bof-property-dao.md)** и **[EOF](recordset-eof-property-dao.md)**.
+> Использование метода **CancelUpdate** аналогично переходу на другую запись без использования метода **[Update](recordset-update-method-dao.md)** , за исключением того, что текущая запись не изменяется, а различные свойства, такие как **[BOF](recordset-bof-property-dao.md)** и **[EOF](recordset-eof-property-dao.md)**, не обновляются.
 
 
 ## <a name="example"></a>Пример
 
-В этом примере показано использование метода **CancelUpdate** с помощью метода **AddNew** .
+В этом примере показано, как метод **CancelUpdate** используется с методом **AddNew** .
 
 ```vb
     Sub CancelUpdateX() 
@@ -110,7 +110,7 @@ ms.locfileid: "28712436"
 
 <br/>
 
-В этом примере показано, как метод **CancelUpdate** используется с методом **изменения** .
+В этом примере показано, как метод **CancelUpdate** используется с методом **Edit** .
 
 ```vb
 Sub CancelUpdateX2() 

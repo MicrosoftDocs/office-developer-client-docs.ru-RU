@@ -1,5 +1,5 @@
 ---
-title: Перечисление TableDefAttributeEnum (DAO)
+title: Перечисление Табледефаттрибутинум (DAO)
 TOCTitle: TableDefAttributeEnum Enumeration
 ms:assetid: 5a0dea24-9092-1642-a3d9-29f0de0a4ee4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194433(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dca910ff7ae8fb4ce72c488829166dae1201f535
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711632"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314240"
 ---
-# <a name="tabledefattributeenum-enumeration-dao"></a>Перечисление TableDefAttributeEnum (DAO)
+# <a name="tabledefattributeenum-enumeration-dao"></a>Перечисление Табледефаттрибутинум (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используется со свойством **атрибуты** для определения атрибутов **TableDef** объекта.
+Используется вместе со **** свойством Attributes для определения атрибутов объекта **tabledef** .
 
 <table>
 <colgroup>
@@ -36,34 +36,34 @@ ms.locfileid: "28711632"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbAttachedODBC</p></td>
+<td><p>Дбаттачедодбк</p></td>
 <td><p>536870912</p></td>
-<td><p>Связанные таблицы базы данных ODBC.</p></td>
+<td><p>Связанная таблица базы данных ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbAttachedTable</p></td>
+<td><p>Дбаттачедтабле</p></td>
 <td><p>1073741824</p></td>
-<td><p>Связанная таблица не ODBC таблицы базы данных.</p></td>
+<td><p>Связанная таблица базы данных, отличная от ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbAttachExclusive</p></td>
+<td><p>Дбаттачексклусиве</p></td>
 <td><p>65536</p></td>
-<td><p>Открывает связанной таблицы ядра базы данных Microsoft Access в монопольном режиме.</p></td>
+<td><p>Открывает связанную таблицу ядра СУБД Microsoft Access для монопольного использования.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbAttachSavePWD</p></td>
+<td><p>Дбаттачсавепвд</p></td>
 <td><p>131072</p></td>
-<td><p>Сохраняет идентификатор пользователя и пароль для удаленной связанной таблице.</p></td>
+<td><p>Сохраняет идентификатор пользователя и пароль для связанной удаленной таблицы.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbHiddenObject</p></td>
-<td><p>1</p></td>
-<td><p>Скрытые таблицы (для временного использования).</p></td>
+<td><p>Дбхидденобжект</p></td>
+<td><p>1,1</p></td>
+<td><p>Скрытая таблица (для временного использования).</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSystemObject</p></td>
-<td><p>-2147483646</p></td>
-<td><p>Таблица системы.</p></td>
+<td><p>Дбсистемобжект</p></td>
+<td><p>— 2147483646</p></td>
+<td><p>Системная таблица.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект (ADOX) процедуры
+title: Справочник по объектам процедур (ADOX)
 TOCTitle: Procedure object (ADOX)
 ms:assetid: 79805348-61b7-4d3f-a076-c12db788ba97
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249500(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 557134675ea37735525baeae7873244229be9afa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718058"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301388"
 ---
-# <a name="procedure-object-adox-reference"></a>Ссылка на объект (ADOX) процедуры
+# <a name="procedure-object-adox-reference"></a>Справочник по объектам процедур (ADOX)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-- [Объект Procedure (ADOX)](procedure-object-adox.md)
-- [Процедура свойства, методы и события (ADOX)](procedure-properties-methods-and-events-adox.md)
+- [Объект PROCEDURE (ADOX)](procedure-object-adox.md)
+- [Свойства, методы и события процедуры (ADOX)](procedure-properties-methods-and-events-adox.md)
 

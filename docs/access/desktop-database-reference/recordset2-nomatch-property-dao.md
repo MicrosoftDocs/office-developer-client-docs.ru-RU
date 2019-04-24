@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2.NoMatch (DAO)
+title: Свойство Recordset2. не ПОИСКПОЗ (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 2d7a02ff-a2bf-5f0e-bd71-a6d42c25b13a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
@@ -8,38 +8,38 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8c3168dcce9fb13d057380e7a1a4ef89f8814e02
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706690"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309396"
 ---
-# <a name="recordset2nomatch-property-dao"></a>Свойство Recordset2.NoMatch (DAO)
+# <a name="recordset2nomatch-property-dao"></a>Свойство Recordset2. не ПОИСКПОЗ (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, будет ли определенный запись найдена с помощью метода **[Seek](recordset2-seek-method-dao.md)** или один из методов **[поиска](recordset2-findfirst-method-dao.md)** (только для рабочих областей Microsoft Access).
+Указывает, была ли найдена конкретная запись с помощью метода **[Seek](recordset2-seek-method-dao.md)** или одного из методов **[Find](recordset2-findfirst-method-dao.md)** (только для рабочих областей Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . NoMatch
+*expression* .NoMatch
 
-*выражение* Переменная, которая представляет собой объект- **Recordset2** .
+*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-При открытии или создание объекта **[набора записей](recordset-object-dao.md)** , его свойство **NoMatch** имеет значение **False**.
+При открытии или создании объекта **[Recordset](recordset-object-dao.md)**, его свойство **NoMatch** имеет значение **False**.
 
-Чтобы найти записи, используйте метод **Seek** на объект **набора записей** в таблице тип или один из методов **поиска** для объекта **набора записей** добавляющий или моментальный снимок. Проверьте значение свойства **NoMatch** , чтобы увидеть, является ли запись найдена.
+Чтобы найти запись воспользуйтесь методом **Seek** для объекта **Recordset** табличного типа или одним из методов **Find** для объекта **Recordset** типа dynaset или мгновенный снимок. Проверьте настройки свойства **NoMatch**, чтобы узнать, была ли найдена запись.
 
-Если **Seek** или **Найти** метод завершается неудачно, а свойство **NoMatch** имеет **значение True**, текущей записи будет становятся недопустимыми. Убедитесь, что для получения текущей записи закладку перед использованием **Seek** метод или метод **поиска** , если вам потребуется вернуться к этой записи.
+Если использование метода **Seek** или **Find** не принесет результаты, а свойство **NoMatch** имеет значение **True**, текущая запись больше недействительна. Не забудьте получить закладки текущей записи, прежде чем использовать метод **Seek** или **Find**, если вам потребуется вернуться к этой записи.
 
 > [!NOTE]
-> Использовать любой из способов **[перемещать](recordset-movefirst-method-dao.md)** **целиком** не влияет на его значение свойства **NoMatch** .
+> Использование методов **[Move](recordset-movefirst-method-dao.md)** для объекта **Recordset** не оказывает влияние на настройку свойства **NoMatch**.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется свойство **NoMatch** для определения ли **Seek** и **FindFirst** было выполнено успешно и если это не так, чтобы предоставить соответствующий отзыв. Процедуры SeekMatch и FindMatch необходимы для выполнения этой процедуры.
+В этом примере используется свойство **NoMatch** для определения того, принесли ли результат методы **Seek** и **FindFirst**, и если нет, обеспечение соответствующей реакции. Процедуры SeekMatch и FindMatch являются обязательными для запуска этой процедуры.
 
 ```vb
     Sub NoMatchX() 

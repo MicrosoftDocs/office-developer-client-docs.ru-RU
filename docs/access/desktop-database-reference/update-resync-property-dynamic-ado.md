@@ -1,5 +1,5 @@
 ---
-title: Обновление свойства динамического повторной синхронизации (ADO)
+title: Обновление динамического свойства Resync (ADO)
 TOCTitle: Update Resync dynamic property (ADO)
 ms:assetid: 0af9cfd2-8042-65c9-cec6-77d2e7a88ad9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248842(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 653291ade258d602d7ec523dcac7e9fe51dd91fb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308346"
 ---
-# <a name="update-resync-dynamic-property-ado"></a>Обновление свойства динамического повторной синхронизации (ADO)
+# <a name="update-resync-dynamic-property-ado"></a>Обновление динамического свойства Resync (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, будет ли метод [UpdateBatch](updatebatch-method-ado.md) следуют неявных [выполнить повторную синхронизацию](resync-method-ado.md) метод операцию и если да, области действия этой операции.
+Указывает, сопровождается ли метод [UpdateBatch](updatebatch-method-ado.md) неявным методом повторной [синхронизации](resync-method-ado.md) , и, если это так, областью этой операции.
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает или возвращает один или несколько [ADCPROP\_UPDATERESYNC\_ENUM](adcprop-updateresync-enum.md) значения.
+Задает или возвращает одно или несколько значений [перечисления адкпроп\_упдатересинк\_](adcprop-updateresync-enum.md) .
 
 ## <a name="remarks"></a>Замечания
 
-Значения ADCPROP\_UPDATERESYNC\_ENUM может быть объединен, за исключением adResyncAll, который уже представляет сочетание остальные значения.
+Значения перечисления АДКПРОП\_упдатересинк\_могут сочетаться, за исключением адресинкалл, которые уже представляют сочетание остальных значений.
 
-Константы **adResyncConflicts** хранятся значения повторной синхронизации как базового значения, но не переопределяет ожидающих изменений.
+Константа **адресинкконфликтс** хранит значения повторной синхронизации в виде базовых значений, но не переопределяет ожидающие изменения.
 
-**Обновление выполнить повторную синхронизацию** является динамическим добавляется в конец коллекции [свойств](properties-collection-ado.md) объекта [набора записей](recordset-object-ado.md) при [CursorLocation](cursorlocation-property-ado.md) задано значение **adUseClient**.
+**Повторная синхронизация обновлений** — это динамическое свойство, добавленное в коллекцию [свойств](properties-collection-ado.md) объекта [Recordset](recordset-object-ado.md) , если для свойства [CursorLocation](cursorlocation-property-ado.md) задано значение **адусеклиент**.
 

@@ -1,5 +1,5 @@
 ---
-title: Объект ячеек (Справочник по ADO MD)
+title: Объект набора ячеек (Справочник по ADO MD)
 TOCTitle: Cellset object (ADO MD)
 ms:assetid: 0118476d-8cb6-49ca-80ac-5ace7987c878
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248780(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f44912d153b08cde57b742d4260b4d10746675b9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296537"
 ---
-# <a name="cellset-object-ado-md-reference"></a>Объект ячеек (Справочник по ADO MD)
+# <a name="cellset-object-ado-md-reference"></a>Объект набора ячеек (Справочник по ADO MD)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-- [Объект Cellset (ADO MD)](cellset-object-ado-md.md)
-- [Свойства ячеек, методы и события (ADO MD)](cellset-properties-methods-and-events-ado-md.md)
+- [Объект набора ячеек (ADO MD)](cellset-object-ado-md.md)
+- [Свойства, методы и события набора Cells (ADO MD)](cellset-properties-methods-and-events-ado-md.md)
 

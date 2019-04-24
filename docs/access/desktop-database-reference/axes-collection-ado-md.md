@@ -1,5 +1,5 @@
 ---
-title: Коллекция Axes (ADO MD)
+title: Коллекция осей (ADO MD)
 TOCTitle: Axes collection (ADO MD)
 ms:assetid: 7c719197-45f1-a5b9-665d-25cb693b1eb0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249520(v=office.15)
@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8183b0bad1dcbaba33088dffcf21959f5b9fd993
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296936"
 ---
-# <a name="axes-collection-ado-md"></a>Коллекция Axes (ADO MD)
+# <a name="axes-collection-ado-md"></a>Коллекция осей (ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Содержит объекты [ось](axis-object-ado-md.md) , определяющие набора ячеек.
+Содержит объекты [осей](axis-object-ado-md.md) , определяющие набор ячеек.
 
 ## <a name="remarks"></a>Замечания
 
-Объект [ячеек](cellset-object-ado-md.md) содержит коллекцию **осей** . После запуска **ячеек** этой коллекции будет содержать по крайней мере один **оси**. В разделе [ось](axis-object-ado-md.md) объект для подробное объяснение того, как использовать объекты **оси** .
+Объект набора [ячеек](cellset-object-ado-md.md) содержит коллекцию **осей** . После открытия набора **ячеек** эта коллекция будет содержать по крайней мере одну **ось**. Более подробное описание использования объектов **осей** показано на объекте [Axis](axis-object-ado-md.md) .
 
 
 > [!NOTE]
-> Оси фильтра набора **ячеек** не содержащихся в коллекции **осей** . Свойству [FilterAxis](filteraxis-property-ado-md.md) для получения дополнительных сведений см.
+> Ось фильтра для набора **ячеек** не находится в коллекции **осей** . Дополнительные сведения см. в свойстве [FilterAxis](filteraxis-property-ado-md.md) .
 
 
 
-**Осей** — это обычная коллекция ADO. С помощью свойства и методы коллекции сделайте следующее:
+**Оси** — это стандартная коллекция ADO. С помощью свойств и методов коллекции можно выполнить следующие действия:
 
 - Получите число объектов в коллекции со свойством [Count](count-property-ado.md) .
 
-- Возвращает объект из коллекции с помощью свойства [элемента](item-property-ado.md) по умолчанию.
+- Возвращает объект из коллекции со свойством [Item](item-property-ado.md) по умолчанию.
 
-- Обновление объектов в коллекции от поставщика с помощью метода [обновления](refresh-method-ado.md) .
+- Обновление объектов в коллекции от поставщика с помощью метода [Refresh](refresh-method-ado.md) .
 

@@ -1,5 +1,5 @@
 ---
-title: Метод Connection.OpenRecordset (DAO)
+title: Метод Connection. OpenRecordset (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: 584a3e00-7589-90f1-aa6a-5d6116f0b5b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: abbb7a4f58714aef0e085d0f37b5ee49378e0f51
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708881"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295851"
 ---
-# <a name="connectionopenrecordset-method-dao"></a>Метод Connection.OpenRecordset (DAO)
+# <a name="connectionopenrecordset-method-dao"></a>Метод Connection. OpenRecordset (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Создает новый объект **[набора записей](recordset-object-dao.md)** и добавляет его в коллекцию **наборов записей** .
+Создает новый объект **[Recordset](recordset-object-dao.md)** и добавляет его в коллекцию **Recordsets**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . OpenRecordset (***имя***, ***Тип***, ***Параметры***, ***LockEdit***)
+*Expression* . OpenRecordset (***имя***, ***Тип***, ***Параметры***, ***локкедит***)
 
-*выражение* Переменная, которая содержит объект **подключения** .
+*Expression (выражение* ) Переменная, представляющая объект **Connection** .
 
 ## <a name="parameters"></a>Параметры
 
@@ -38,7 +38,7 @@ ms.locfileid: "28708881"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -48,27 +48,27 @@ ms.locfileid: "28708881"
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Источник записей для нового <strong>набора записей</strong>. Источник может быть имя таблицы, имя запроса или инструкции SQL, которая возвращает записи. Для объектов <strong>наборов записей</strong> в таблице типа в базами данных, ядро базы данных Microsoft Access источник может быть только имя таблицы.</p></td>
+<td><p>Источник записей для нового объекта <strong>Recordset</strong>. Источником может быть имя таблицы, имя запроса или инструкция SQL, возвращающая записи. Для объектов <strong>Recordset</strong> табличного типа в базах данных ядра СУБД Microsoft Access источник может быть только именем таблицы.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong> , указывающая тип <strong>набора записей</strong> , чтобы открыть.</p><p><strong>Примечание</strong>: при открытии <strong>набора записей</strong> в рабочей области Microsoft Access и тип не указан, <strong>OpenRecordset</strong> создает табличного типа <strong>записей</strong>, если это возможно. При указании связанной таблицы или запроса, <strong>OpenRecordset</strong> создает добавляющий <strong>набора записей</strong>.</p>
+<td><p>Константа <strong><a href="recordsettypeenum-enumeration-dao.md">RecordsetTypeEnum</a></strong>, которая указывает на то, какой тип объекта <strong>Recordset</strong> нужно открыть.</p><p><strong>ПРИМЕЧАНИЕ</strong>: при открытии <strong>Recordset</strong> в рабочей области Microsoft Access, если вы не указали тип, <strong>OpenRecordset</strong> создает табличный тип <strong>Recordset</strong>, если возможно. Вы укажете связанную таблицу или запрос, <strong>OpenRecordset</strong> создаст объект <strong>Recordset</strong> типа dynaset.</p>
 </td>
 </tr>
 <tr class="odd">
-<td><p><em>Варианты</em></p></td>
+<td><p><em>Options</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Сочетание констант <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong> , которые задают характеристики нового <strong>набора записей</strong>.</p><p><strong>Примечание</strong>: константы <strong>dbConsistent</strong> и <strong>dbInconsistent</strong> являются взаимоисключающими и использовании обоих приводит к ошибке. Также указав аргумент lockedits параметров с помощью константу <strong>dbReadOnly</strong> приводит к ошибке.</p>
+<td><p>Сочетание констант <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong>, которые указывают характеристики нового объекта <strong>Recordset</strong>.</p><p><strong>ПРИМЕЧАНИЕ</strong>: Константы <strong>dbConsistent</strong> и <strong>dbInconsistent</strong> являются взаимоисключающими, и использование обоих констант вызывает ошибку. Если параметры используют константу <strong>dbReadOnly</strong> , можно указать аргумент LockEdits, что приводит к ошибке.</p>
 </td>
 </tr>
 <tr class="even">
 <td><p><em>LockEdit</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong> , определяющая блокировки для <strong>набора записей</strong>.</p><p><strong>Примечание</strong>: можно использовать <strong>dbReadOnly</strong> в аргументе параметры или аргумент lockedits, но не оба. При использовании обоих аргументов, возникает ошибка времени выполнения.</p>
+<td><p>Константа <strong><a href="locktypeenum-enumeration-dao.md">LockTypeEnum</a></strong>, определяющая блокировку <strong>Recordset</strong>.</p><p><strong>NOTE</strong>: вы можете использовать <strong>dbReadOnly</strong> или в аргументе параметров или в аргументе lockedits, но не одновременно. Если вы используете его для обоих аргументов, возникает ошибка во время выполнения.</p>
 </td>
 </tr>
 </tbody>
@@ -79,17 +79,17 @@ ms.locfileid: "28708881"
 
 Recordset
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Как правило если пользователь получает Эта ошибка при обновлении записи, код должен обновить содержимое полей и извлечение измененные значения. Если ошибка возникает при удалении записи, кода удалось отобразить новые записи данных для пользователя и сообщение, указывающее, что недавно были изменены данные. На этом этапе кода можно запросить подтверждения, что по-прежнему требуется удалить эту запись.
+Как правило, если пользователь получает это сообщение об ошибке при обновлении записи, код должен обновлять содержимое полей и получать только что измененные значения. Если при удалении записи возникла ошибка, код может отобразить данные новой записи и сообщение о том, что данные были недавно изменены. На этом шаге ваш код может запросить подтверждение того, что пользователь по-прежнему хочет удалить запись.
 
-Константа **dbSeeChanges** также следует использовать при открытии **набора записей** в таблице Microsoft Access базы данных подключен модуль ODBC рабочей области для Microsoft SQL Server 6.0 (или более поздней версии), которая имеет столбец ИДЕНТИФИКАТОРОВ, в противном случае может возникнуть ошибка.
+Вы также можете использовать константу **dbSeeChanges** при открытии **Recordset** в рабочей области ODBC, подключенной к ядру СУБД Microsoft Access для таблицы Microsoft SQL Server 6.0 (или более поздней версии), содержащей столбец IDENTITY, в противном случае может возникать ошибка.
 
-Открытие более одного **набора записей** в источник данных ODBC могут завершиться с ошибкой из-за занятости с предыдущего вызова **OpenRecordset** подключение. Один способ, является полностью заполнить **набора записей** с помощью метода **MoveLast** сразу же после открытия **набора записей** .
+Открытие нескольких объектов **Recordset** для источника данных ODBC может привести к завершении работы, так как подключение будет занято предыдущим вызовом **OpenRecordset**. Одним из способов решения этой проблемы состоит в полном заполнении **Recordset** с помощью метода **MoveLast** непосредственно после открытия **Recordset**.
 
-Закрытие набора **записей** с помощью метода **[Close](connection-close-method-dao.md)** автоматически удаляет из коллекции **наборов записей** .
+Закрытие объекта **Recordset** с помощью метода **[Close](connection-close-method-dao.md)** автоматически удаляет его из коллекции **наборов записей** .
 
 > [!NOTE]
-> Если *источник* относится к инструкции SQL состоит из строки объединяется с дробное значение и системных параметров укажите десятичных знаков например запятыми (, например strSQL = «PRICE &gt; " &amp; lngPrice и lngPrice = 125,50), возникает ошибка при попытке открыть **набора записей**. Это так, как во время объединения, номер будет преобразован в строку с помощью системы по умолчанию десятичных знаков и SQL принимает только США десятичных знаков.
+> Если *источник* ссылается на оператора SQL, состоящий из строки, объединенной с нецелочисленным значением, а параметры системы содержат десятичные символы, не используемые в США, например, запятую (пример, strSQL = "PRICE &gt; " &amp; lngPrice, and lngPrice = 125,50), возникает ошибка при попытке открытия **Recordset**. Это возникает по причине того, что при объединении число будет преобразовано в строку с помощью используемого по умолчанию в вашей системе десятичного символа, а SQL поддерживает только десятичные символы, используемые в США.
 
 

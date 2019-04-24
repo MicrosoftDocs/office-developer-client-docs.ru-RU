@@ -1,5 +1,5 @@
 ---
-title: Свойства BOF, EOF (ADO)
+title: BOF, свойства EOF (ADO)
 TOCTitle: BOF, EOF properties (ADO)
 ms:assetid: f797e140-5572-1a4d-9afc-285f6a3868a8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250260(v=office.15)
@@ -8,40 +8,40 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d36a65ce8a6808f2128749bd7fbc6e468acbd279
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726129"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296789"
 ---
-# <a name="bof-eof-properties-ado"></a>Свойства BOF, EOF (ADO)
+# <a name="bof-eof-properties-ado"></a>BOF, свойства EOF (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-**BOF** — указывает, что положение текущей записи — перед первой записи в объекте [набора записей](recordset-object-ado.md) .
+**BOF** — указывает, что положение текущей записи находится перед первой записью в объекте [Recordset](recordset-object-ado.md) .
 
-**Функция EOF** — указывает, что положение текущей записи после последней записи в объекте **набора записей** .
+**EOF** — указывает, что положение текущей записи находится после последней записи в объекте **Recordset** .
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-**Логические** значения, возвращаемые свойства **BOF** и **EOF** .
+Свойства **BOF** и **EOF** возвращают **логические** значения.
 
 ## <a name="remarks"></a>Замечания
 
-Используйте свойства **BOF** и **EOF** , чтобы определить, содержит ли объект **набора записей** записей или ли вы уменьшилось за пределы ограничения объекта **набора записей** , при перемещении между записями.
+Используйте свойства **BOF** и **EOF** , чтобы определить, содержит ли объект **Recordset** записи или вы не превысили ограничения объекта **Recordset** при переходе с записи на запись.
 
-Свойство **BOF** возвращает **значение True** (значение -1) при текущей позиции записи перед первой записи и **значение False** (0) Если в настоящее время записи на или после первой записи.
+Свойство **BOF** возвращает **значение true** (-1), если положение текущей записи находится перед первой записью, и **false** (0), если текущая позиция записи находится в или после первой записи.
 
-Свойство **EOF** возвращает **значение True** , если в настоящее время записи после последней записи и **значение False** , если текущей позиции записи не позднее последней записи.
+Свойство **EOF** возвращает **значение true** , если текущая позиция записи находится после последней записи, и **значение false** , если текущая позиция записи находится в или до последней записи.
 
-Если параметр **BOF** или **EOF** свойство имеет **значение True**, нет нет текущей записи.
+Если любое из свойств **BOF** или **EOF** имеет значение **True**, то текущей записи нет.
 
-При открытии объекта **набора записей** , содержащий записи не **BOF** и **EOF** задано значение **True** (см. свойство [RecordCount](recordcount-property-ado.md) Дополнительные сведения об этом состоянии **набора записей**). При открытии объекта **набора записей** , который содержит по крайней мере одна запись первая запись является текущей записи и свойства **BOF** и **EOF** — **значение False**.
+При открытии объекта **Recordset** , не содержащего записей, свойству **BOF** и **EOF** присваивается **значение true** (для получения дополнительных сведений об этом состоянии объекта **Recordset**см. свойство [RecordCount](recordcount-property-ado.md) ). При открытии объекта **Recordset** , содержащего по крайней мере одну запись, первая запись является текущей, а свойство **BOF** и **EOF** имеет **значение false**.
 
-При удалении последней оставшиеся записи в объекте **набора записей** , свойства **BOF** и **EOF** может оставаться **значение False,** пока вы пытаетесь изменить положение текущей записи.
+Если удалить последнюю оставшуюся запись в объекте **Recordset**, свойства **BOF** и **EOF** могут по-прежнему иметь значение **False**, пока вы не попытаетесь изменить позицию текущей записи.
 
-Этой таблице показано, какие методы **перемещения** может использоваться с разные сочетания свойства **BOF** и **EOF** .
+В этой таблице показано, какие методы **Move** разрешены с различными сочетаниями свойств **BOF** и **EOF** .
 
 <table>
 <colgroup>
@@ -54,42 +54,42 @@ ms.locfileid: "28726129"
 <thead>
 <tr class="header">
 <th><p></p></th>
-<th><p>MoveFirst<br />
+<th><p>MoveFirst,<br />
 MoveLast</p></th>
 <th><p>MovePrevious,<br />
-Перемещение &lt; 0</p></th>
+Move &lt; 0</p></th>
 <th><p><br />
-Перемещение 0</p></th>
+Move 0</p></th>
 <th><p>MoveNext,<br />
-Перемещение &gt; 0</p></th>
+Move &gt; 0</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>BOF = True,</strong><br />
-<strong>Функция EOF = False</strong></p></td>
+<td><p><strong>BOF=True,</strong><br />
+<strong>EOF=False</strong></p></td>
 <td><p>Разрешено</p></td>
 <td><p>Error</p></td>
 <td><p>Error</p></td>
 <td><p>Разрешено</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>BOF = False,</strong><br />
-<strong>Функция EOF = True</strong></p></td>
+<td><p><strong>BOF=False,</strong><br />
+<strong>EOF=True</strong></p></td>
 <td><p>Разрешено</p></td>
 <td><p>Разрешено</p></td>
 <td><p>Error</p></td>
 <td><p>Error</p></td>
 </tr>
 <tr class="odd">
-<td><p>Оба <strong>значение True</strong></p></td>
+<td><p>Оба свойства имеют значение <strong>True</strong></p></td>
+<td><p>Ошибка</p></td>
 <td><p>Error</p></td>
 <td><p>Error</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Ошибка</p></td>
 </tr>
 <tr class="even">
-<td><p>Оба <strong>False</strong></p></td>
+<td><p>Оба свойства имеют значение <strong>False</strong></p></td>
 <td><p>Разрешено</p></td>
 <td><p>Разрешено</p></td>
 <td><p>Разрешено</p></td>
@@ -99,9 +99,9 @@ MoveLast</p></th>
 </table>
 
 
-Позволяет **переместить** метод не гарантирует, что метод будет успешно найдите запись; только это означает, что вызов **Перемещение** указанный метод не возникнет ошибка.
+Разрешение метода **Move** не гарантирует, что метод будет успешно искать запись; Это означает, что вызов указанного метода **Move** не приводит к возникновению ошибки.
 
-В следующей таблице показаны, что происходит с **BOF** или **EOF** параметров при вызове различные методы **перемещения** , но не удается найти запись успешно.
+В приведенной ниже таблице показано, что происходит с параметрами свойств **BOF** и **EOF** при вызове различных методов **Move** , но которые не могут успешно найти запись.
 
 <table>
 <colgroup>
@@ -118,24 +118,24 @@ MoveLast</p></th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>MoveFirst</strong> <strong>MoveLast</strong></p></td>
-<td><p>Значение <strong>True</strong></p></td>
-<td><p>Значение <strong>True</strong></p></td>
+<td><p><strong>MoveFirst</strong>, <strong>MoveLast</strong></p></td>
+<td><p>Задано <strong>значение true</strong></p></td>
+<td><p>Задано <strong>значение true</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Перемещение</strong> 0</p></td>
+<td><p><strong>Move</strong> 0</p></td>
 <td><p>Без изменений</p></td>
 <td><p>Без изменений</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>MovePrevious</strong>, <strong>Переместите</strong> &lt; 0</p></td>
-<td><p>Значение <strong>True</strong></p></td>
+<td><p><strong>MovePrevious</strong>, <strong>Move</strong> &lt; 0</p></td>
+<td><p>Задано <strong>значение true</strong></p></td>
 <td><p>Без изменений</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>MoveNext</strong>, <strong>Переместите</strong> &gt; 0</p></td>
+<td><p><strong>MoveNext</strong>, <strong>Move</strong> &gt; 0</p></td>
 <td><p>Без изменений</p></td>
-<td><p>Значение <strong>True</strong></p></td>
+<td><p>Задано <strong>значение true</strong></p></td>
 </tr>
 </tbody>
 </table>

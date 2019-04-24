@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 56e47b32bb85da237464842dcb049092750d77a3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711009"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306274"
 ---
 # <a name="type-property-example-property-vb"></a>Пример использования свойства Type (Property) (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [типа](type-property-ado.md) . Это модель служебной программы для список имен и типы семейства сайтов, как [Свойства](properties-collection-ado.md), [поля](fields-collection-ado.md)и т.д.
+В этом примере показано свойство [Type](type-property-ado.md) . Это модель служебной программы для перечисления имен и типов коллекции, таких как [Свойства](properties-collection-ado.md), [поля](fields-collection-ado.md)и т. д.
 
-Мы не нужно открыть [набора записей](recordset-object-ado.md) для доступа к коллекции **свойств** ; они появляются при создании экземпляра объекта **набора записей** . Тем не менее для свойства [CursorLocation](cursorlocation-property-ado.md) значение **adUseClient** добавляет несколько динамических свойств коллекции **свойств** объекта **набора записей** , делая более интересным в примере. Для иллюстрации мы явно использовать свойство [Item](item-property-ado.md) для каждого [Свойства](property-object-ado.md) объекта.
+Чтобы получить доступ к коллекции **свойств** , не нужно открывать этот [набор записей](recordset-object-ado.md) . они приходят на существование при создании экземпляра объекта **Recordset** . Тем не менее, установка свойства [CursorLocation](cursorlocation-property-ado.md) равным **адусеклиент** добавляет несколько динамических свойств в коллекцию **свойств** объекта **Recordset** , делая пример более интересным. Для наглядности мы явно используем свойство [Item](item-property-ado.md) для доступа к каждому объекту [Property](property-object-ado.md) .
 
 ```vb 
  

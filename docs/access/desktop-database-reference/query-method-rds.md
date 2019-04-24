@@ -1,5 +1,5 @@
 ---
-title: Метод Query (RDS - ссылки для настольных баз данных Access)
+title: Метод query (Справочник по базам данных для рабочих столов RDS)
 TOCTitle: Query method (RDS)
 ms:assetid: c88d82bd-2139-7f1e-4e5e-9030f3795816
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 92c72bf78f8f01a675038f63b065aceb6869fcd0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717358"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301115"
 ---
-# <a name="query-method-rds"></a>Метод Query (RDS)
+# <a name="query-method-rds"></a>Метод query (RDS)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Допустимая строка запроса SQL используется для возврата [набора записей](recordset-object-ado.md).
+Для возврата объекта [Recordset](recordset-object-ado.md)используется допустимая строка запроса SQL.
 
 ## <a name="syntax"></a>Синтаксис
 
-Установка*набора записей* = *DataFactory*. Запрос (*подключения*, *запросов*)
+Задание объекта Recordset для объекта*Recordset* = **. Запрос (*Подключение*, *запрос*)
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Recordset* |Объектная переменная, представляющий объект **набора записей** .|
-|*DataFactory* |Объектная переменная, которая представляет объект [RDSServer.DataFactory](datafactory-object-rdsserver.md) .|
-|*Connection* |**Строковое** значение, содержащее сведения о подключении сервера. Это свойства [подключения](connect-property-rds.md) .|
+|*Recordset* |Объектная переменная, представляющая объект **Recordset** .|
+|*DataFactory* |Объектная переменная, представляющая объект [фактОв рдссервер.](datafactory-object-rdsserver.md) DataObject.|
+|*Connection* |**Строковое** значение, содержащее сведения о подключении к серверу. Оно аналогично свойству [Connect](connect-property-rds.md) .|
 |*Query* |**Строка** , содержащая запрос SQL.|
 
 ## <a name="remarks"></a>Замечания
 
-Запрос следует использовать диалект SQL сервера базы данных. Если возникает ошибка при выполнении запроса, был выполнен возвращается состояние результатов. Метод **Query** не выполняет проверку строки **запроса** синтаксис.
+В запросе должен использоваться диалект SQL сервера базы данных. Состояние результата возвращается при наличии ошибки в выполненном запросе. Метод **Query** не выполняет проверку синтаксиса в строке **запроса** .
 

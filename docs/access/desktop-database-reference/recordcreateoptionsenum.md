@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1bc0d378428c00882c49f7783892ca2bf4d4638c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300695"
 ---
 # <a name="recordcreateoptionsenum"></a>RecordCreateOptionsEnum
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, должен быть открыт существующей **записи** или создана новая **запись** для объекта [записи](record-object-ado.md) метода [Open](open-method-ado-record.md) . Значения может использоваться совместно с оператора AND.
+Указывает, следует ли открыть существующую **запись** или создать новую **запись** для метода [Open](open-method-ado-record.md) объекта [Record](record-object-ado.md) . Значения можно сочетать с помощью оператора AND.
 
 <table>
 <colgroup>
@@ -36,34 +36,34 @@ ms.locfileid: "28702861"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adCreateCollection</strong></p></td>
+<td><p><strong>Адкреатеколлектион</strong></p></td>
 <td><p>0x2000</p></td>
-<td><p>Создает новую <strong>запись</strong> в узле, заданное параметром <em>источника</em> , не открывая существующей <strong>записи</strong>. Если источник указывает на существующий узел, во время выполнения возникает ошибка, если не <strong>adCreateCollection</strong> в сочетании с <strong>adOpenIfExists</strong> или <strong>adCreateOverwrite</strong>.</p></td>
+<td><p>Создает новую <strong>запись</strong> в узле, указанном с помощью параметра <em>Source</em> , вместо того, чтобы открывать существующую <strong>запись</strong>. Если источник указывает на существующий узел, возникнет ошибка во время выполнения, если <strong>адкреатеколлектион</strong> не объединен с <strong>адопенифексистс</strong> или <strong>адкреатеоверврите</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adCreateNonCollection</strong></p></td>
-<td><p>0</p></td>
-<td><p>Создает новую <strong>запись</strong> типа <a href="recordtypeenum.md">adSimpleRecord</a>.</p></td>
+<td><p><strong>Адкреатенонколлектион</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Создает новую <strong>запись</strong> типа <a href="recordtypeenum.md">адсимплерекорд</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adCreateOverwrite</strong></p></td>
+<td><p><strong>Адкреатеоверврите</strong></p></td>
 <td><p>0x4000000</p></td>
-<td><p>Изменяет флаги создания <strong>adCreateCollection</strong>, <strong>adCreateNonCollection</strong>и <strong>adCreateStructDoc</strong>. Когда или будет использоваться с этим значением и одно из значений флаг создания, если источник указывает URL-адрес существующего узла или <strong>записи</strong>, а затем перезаписать существующие <strong>записи</strong> и на его месте создается новый. Это значение не может использоваться вместе с <strong>adOpenIfExists</strong>.</p></td>
+<td><p>Изменяет флаги создания <strong>адкреатеколлектион</strong>, <strong>адкреатенонколлектион</strong>и <strong>адкреатеструктдок</strong>. Когда или используется с этим значением и одним из значений флагов создания, если URL-адрес источника указывает на существующий узел или <strong>запись</strong>, то существующая <strong>запись</strong> перезаписывается, а вместо нее создается новая. Это значение не может использоваться вместе с <strong>адопенифексистс</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adCreateStructDoc</strong></p></td>
+<td><p><strong>Адкреатеструктдок</strong></p></td>
 <td><p>0x80000000</p></td>
-<td><p>Создает новую <strong>запись</strong> типа <a href="recordtypeenum.md">adStructDoc</a>, не открывая существующей <strong>записи</strong>.</p></td>
+<td><p>Создает новую <strong>запись</strong> типа <a href="recordtypeenum.md">адструктдок</a>, а не открывает существующую <strong>запись</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adFailIfNotExists</strong></p></td>
+<td><p><strong>Адфаилифнотексистс</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Значение, используемое по умолчанию. Приводит к ошибке времени выполнения, если <em>источник</em> указывает на несуществующий узел.</p></td>
+<td><p>Значение, используемое по умолчанию. Приводит к ошибке во время выполнения, если <em>источник</em> указывает на несуществующий узел.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adOpenIfExists</strong></p></td>
+<td><p><strong>Адопенифексистс</strong></p></td>
 <td><p>0x2000000</p></td>
-<td><p>Изменяет флаги создания <strong>adCreateCollection</strong>, <strong>adCreateNonCollection</strong>и <strong>adCreateStructDoc</strong>. Когда или будет использоваться с этим значением и одно из значений флаг создания, если источник указывает URL-адрес существующего узла или объект <strong>записи</strong> , а затем поставщика необходимо открыть существующей <strong>записи</strong> вместо создания нового. Это значение не может использоваться вместе с <strong>adCreateOverwrite</strong>.</p></td>
+<td><p>Изменяет флаги создания <strong>адкреатеколлектион</strong>, <strong>адкреатенонколлектион</strong>и <strong>адкреатеструктдок</strong>. Когда или используется с этим значением и одним из значений флагов создания, если URL-адрес источника указывает на существующий узел или объект <strong>Record</strong> , то поставщик должен открыть существующую <strong>запись</strong> вместо создания новой. Это значение не может использоваться вместе с <strong>адкреатеоверврите</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -71,5 +71,5 @@ ms.locfileid: "28702861"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Эти константы нет ADO/WFC эквивалентами.
+Эти константы не имеют эквивалентов ADO/WFC.
 

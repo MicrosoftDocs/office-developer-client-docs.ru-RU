@@ -1,5 +1,5 @@
 ---
-title: Метод Workspaces.Delete (DAO)
+title: Метод workspaces. Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 0774a791-63da-a31a-552a-c5aa4d1f1b50
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 68a4583fd96682622476f523e6e5d6129b3be575
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308311"
 ---
-# <a name="workspacesdelete-method-dao"></a>Метод Workspaces.Delete (DAO)
+# <a name="workspacesdelete-method-dao"></a>Метод workspaces. Delete (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Удаляет указанную форму **рабочей области для** семейства сайтов **рабочих областей** .
+Удаляет указанную **рабочую область** в **** коллекции workspaces.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Удаление (***имя***)
+*Expression* . Delete (***имя***)
 
-*выражение* Переменная, которая представляет собой объект- **рабочие области** .
+*Expression (выражение* ) Переменная, представляющая объект **workspaces** .
 
 ## <a name="parameters"></a>Параметры
 
@@ -38,7 +38,7 @@ ms.locfileid: "28701384"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -48,7 +48,7 @@ ms.locfileid: "28701384"
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Имя рабочей области для удаления.</p></td>
+<td><p>Имя рабочей области, которую требуется удалить.</p></td>
 </tr>
 </tbody>
 </table>

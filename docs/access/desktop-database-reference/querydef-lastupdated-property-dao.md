@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef.LastUpdated (DAO)
+title: Свойство QueryDef. Ластупдатед (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 3b7818d4-054e-54e2-bf63-58b340bb4a90
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192665(v=office.15)
@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1876e92381828075edca3bbfcbae63e706a21365
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712563"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303313"
 ---
-# <a name="querydeflastupdated-property-dao"></a>Свойство QueryDef.LastUpdated (DAO)
+# <a name="querydeflastupdated-property-dao"></a>Свойство QueryDef. Ластупдатед (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает дату и время последнего изменения, внесенные в объект. Только для чтения, **Variant**.
+Возвращает дату и время последнего изменения, внесенного в объект. Только для чтения, **Variant**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . LastUpdated
+*Expression* . Ластупдатед
 
-*выражение* Переменная, которая представляет собой объект- **QueryDef** .
+*выражение*: переменная, представляющая объект **QueryDef**.
 
 ## <a name="remarks"></a>Замечания
 
-**DateCreated** и **LastUpdated** возвращают дату и время создания или последнего обновления. В многопользовательской среде пользователи должны получить эти параметры непосредственно из файлового сервера, чтобы избежать несоответствия в DateCreated и параметры свойства LastUpdated.
+**DateCreated** и **ластупдатед** возвращают дату и время создания или последнего обновления объекта. В многопользовательской среде пользователи должны получить эти параметры непосредственно с файлового сервера, чтобы избежать расхождений в параметрах свойств DateCreated и Ластупдатед.
 

@@ -1,5 +1,5 @@
 ---
-title: Метод QueryDefs.Refresh (DAO)
+title: Метод QueryDef. Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 4379a02a-cc92-7cc5-969d-7102b5356e88
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192942(v=office.15)
@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2073c2c45ee0df61dfee2b4df3587bd7c03e62c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698290"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300933"
 ---
-# <a name="querydefsrefresh-method-dao"></a>Метод QueryDefs.Refresh (DAO)
+# <a name="querydefsrefresh-method-dao"></a>Метод QueryDef. Refresh (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Не поддерживается для этого объекта.
+Не поддерживается для объекта.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Обновление
+*Expression* . Обновление
 
-*выражение* Переменная, которая представляет собой объект- **QueryDefs** .
+*Expression (выражение* ) Переменная, представляющая объект **QueryDef** .
 
 ## <a name="remarks"></a>Замечания
 
-Метод **Refresh** нельзя использовать вместе с семейств сайтов, которые не сохраняется, например, **подключений**, **баз данных**, **наборов записей**, **рабочие области**или коллекцию **QueryDefs** объект **подключения** .
+Невозможно использовать метод **Refresh** с непостоянными коллекциями, такими как **подключения**, **базы данных**, **наборы записей**, **рабочие области**или коллекция **QueryDef** объекта **Connection** .
 

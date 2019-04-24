@@ -1,5 +1,5 @@
 ---
-title: События WillChangeRecordset и RecordsetChangeComplete (ADO)
+title: События события willchangerecordset и RecordsetChangeComplete (ADO)
 TOCTitle: WillChangeRecordset and RecordsetChangeComplete events (ADO)
 ms:assetid: 2cec4cf9-a4e9-c386-5202-04e86f4cf8ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249068(v=office.15)
@@ -8,38 +8,38 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: bfb304f41ada88e1b0546aaa4a54240b931017cd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701517"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302823"
 ---
-# <a name="willchangerecordset-and-recordsetchangecomplete-events-ado"></a>События WillChangeRecordset и RecordsetChangeComplete (ADO)
+# <a name="willchangerecordset-and-recordsetchangecomplete-events-ado"></a>События события willchangerecordset и RecordsetChangeComplete (ADO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Событие **WillChangeRecordset** вызывается перед операцию ожидающие изменения [набора записей](recordset-object-ado.md). Событие **RecordsetChangeComplete** вызывается после изменения **набора записей** .
+Событие **события willchangerecordset** вызывается до того, как ожидающая операция меняет объект [Recordset](recordset-object-ado.md). Событие **RecordsetChangeComplete** вызывается после изменения объекта **Recordset** .
 
 ## <a name="syntax"></a>Синтаксис
 
-WillChangeRecordset*adReason*, *adStatus* *pRecordset*
+События willchangerecordset*адреасон*, *адстатус*, ** пред
 
-RecordsetChangeComplete*adReason*, *pError*, *adStatus*, *pRecordset*
+RecordsetChangeComplete*адреасон*, *перрор*, *адстатус*, ** пред
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*adReason* |Значение [EventReasonEnum](eventreasonenum.md) , указывает причину это событие. Его значение может быть **adRsnRequery**, **adRsnResynch**, **adRsnClose**, **adRsnOpen**.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). При вызове **WillChangeRecordset** этот параметр имеет значение **adStatusOK** , если операция, которая вызвала событие прошла успешно. Если это событие не могут запрашивать отмену ожидающие операции перейдут в **adStatusCantDeny** . <br/><br/>При вызове **RecordsetChangeComplete** этот параметр имеет значение **adStatusOK** , если операция, которая вызвала событие прошла успешно, **adStatusErrorsOccurred** , если операция завершилась неудачно или **adStatusCancel** при операции связанные с ранее обслуживаемых событие **WillChangeRecordset** было отменено. <br/><br/>Прежде чем возвращает **WillChangeRecordset** , присвойте этому параметру значение **adStatusCancel** для запроса отмены ожидающие операции или присвойте этому параметру значение adStatusUnwantedEvent, чтобы запретить последующие уведомления. <br/><br/>Прежде чем **WillChangeRecordset** или возвращает **RecordsetChangeComplete** присвойте этому параметру значение **adStatusUnwantedEvent** , чтобы запретить последующие уведомления.|
-|*pError* |Объект [Error](error-object-ado.md) . Описание ошибки, возникшей при имеет значение *adStatus* **adStatusErrorsOccurred**; в противном случае он не задан.|
-|*pRecordset* |Объект **набора записей** . **Набор записей** , для которого произошло это событие.|
+|*Адреасон* |Значение [евентреасоненум](eventreasonenum.md) , указывающее причину этого события. Возможные значения: **адрснрекуери**, **адрснресинч**, **адрснклосе**, **адрснопен**.|
+|*Адстатус* |[Евентстатусенум](eventstatusenum.md). При вызове **события willchangerecordset** этот параметр имеет значение **адстатусок** , если операция, вызвавшая событие, прошла успешно. Он имеет значение **адстатускантдени** , если данное событие не может запрашивать отмену ожидающей операции. <br/><br/>При вызове **RecordsetChangeComplete** этот параметр имеет значение **адстатусок** , если операция, вызвавшая событие, прошла успешно, **адстатусеррорсоккурред** в случае сбоя операции или **адстатусканцел** , если операция связан с ранее принятым событием **события willchangerecordset** , было отменено. <br/><br/>Перед возвратом **события willchangerecordset** присвойте этому параметру значение **адстатусканцел** , чтобы запросить отмену ожидающей операции, или присвойте этому параметру значение адстатусунвантедевент, чтобы предотвратить последующие уведомления. <br/><br/>Перед **события willchangerecordset** или **RecordsetChangeComplete** установите для этого параметра значение **адстатусунвантедевент** , чтобы предотвратить последующие уведомления.|
+|*Перрор* |Объект [Error](error-object-ado.md) . В нем описывается ошибка, которая возникла, если значение *адстатус* равно **адстатусеррорсоккурред**; в противном случае он не задается.|
+|*предшнур* |Объект **Recordset** . Объект **Recordset** , для которого произошло это событие.|
 
 ## <a name="remarks"></a>Замечания
 
-**WillChangeRecordset** или **RecordsetChangeComplete** события могут быть вызваны методы **записей** [повторный запрос](requery-method-ado.md) или [Открыть](open-method-ado-recordset.md) .
+События **события willchangerecordset** или **RecordsetChangeComplete** могут возникать из-за методов [запроса](requery-method-ado.md) и [открытия](open-method-ado-recordset.md) объекта **Recordset** .
 
-Если поставщик поддерживает закладки, уведомления о событии **RecordsetChange** возникает каждый раз, когда новые строки извлекаются из поставщика. Частота это событие зависит от свойства **RecordsetCacheSize** .
+Если поставщик не поддерживает закладки, уведомление о событии **рекордсетчанже** возникает каждый раз, когда новые строки извлекаются из поставщика. Частота этого события зависит от свойства **рекордсеткачесизе** .
 
-Параметр **adStatus** должен значение **adStatusUnwantedEvent** для каждого **adReason** возможные значения для полностью остановите уведомления о событиях для любого события, которое включает параметр **adReason** .
+Необходимо задать для параметра **адстатус** значение **адстатусунвантедевент** для каждого возможного значения **адреасон** , чтобы полностью остановить уведомление о событии для любого события, включающего параметр **адреасон** .
 

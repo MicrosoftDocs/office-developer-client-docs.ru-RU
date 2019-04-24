@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fd09eb22d9f751ab1140db948356d2b168b30afb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308619"
 ---
 # <a name="sortdirection-property-rds"></a>Свойство SortDirection (RDS)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, будет ли порядок сортировки по возрастанию или по убыванию.
+Указывает, используется ли порядок сортировки по возрастанию или убыванию.
 
 ## <a name="syntax"></a>Синтаксис
 
-*DataControl*. Направления сортировки = *значение*
+*Элемент управления*. SortDirection = *значение*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.|
-|*Value* |**Логическое** значение, если параметр имеет значение **True**, указывающее направление сортировки по возрастанию. **Значение false** указывает убывающем порядке.|
+|*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
+|*Значение* |**Логическое** значение, которое при установке равное **true**указывает направление сортировки — по возрастанию. **Значение false** указывает на убывающий порядок.|
 
 ## <a name="remarks"></a>Замечания
 
-[SortColumn](sortcolumn-property-rds.md), **SortDirection**, [Значение_фильтра](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) свойства предоставляют функциональные возможности сортировки и фильтрации на кэш со стороны клиента. Функциональные возможности сортировки упорядочивает записей по значениями, полученными из одного столбца. Функции фильтрации отображает подмножество записей на основании условия поиска, пока сохраняется полный [набор записей](recordset-object-ado.md) в кэше. Метод **Reset** будет выполнять критерии и замените текущего **набора записей** обновляемых **записей**.
+Свойства [sortColumn](sortcolumn-property-rds.md), **SortDirection**, [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) предоставляют функции сортировки и фильтрации кэша на стороне клиента. Функция сортировки упорядочивает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе критериев поиска, в то время как в кэше сохраняется полный [набор записей](recordset-object-ado.md) . Метод **Reset** выполнит условия и заменит текущий **набор** записей на обновляемый. ****
 

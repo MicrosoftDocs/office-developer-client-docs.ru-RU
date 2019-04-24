@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b4f4efc2ffab9f7996b2d805658b985badbaf87e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296397"
 ---
 # <a name="chapter-property-ado"></a>Свойство Chapter (ADO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
  
-Получает или задает объект OLE DB **главы** из/на объекте **ADORecordsetConstruction** . При использовании **поместить\_главы** Чтобы установить для объекта **главы** , подмножество строк превращается в объект ADO **Recordset** . Это задание текущей главы из объекта **набора записей** . Для чтения и записи.
+Получает или задает объект **главы** OLE DB from/On объекта **ADORecordsetConstruction** . При использовании оператора **Put\_** для установки объекта **Chapter** подмножество строк включается в объект **Recordset** ADO. В этом поле задается текущая глава объекта **набора строк** . Для чтения и записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-HRESULT get\_главы (\[out retval\] длинные\* plChapter);
+HRESULT Get\_Chapter (\[out, retval\] Long\* плчаптер);
 
-Поместите HRESULT\_главы (\[в\] длинные lChapter);
+Раздел HRESULT\_put (\[в\] длинном лчаптер);
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*plChapter* |Указатель на дескриптор главы.|
-|*LChapter* |Дескриптор главы.|
+|*Плчаптер* |Указатель на маркер главы.|
+|*Лчаптер* |Маркер главы.|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Этот метод свойство возвращает стандартных значений HRESULT, включая S\_ОК и E\_с ОШИБКОЙ.
+Этот метод свойства возвращает стандартные значения HRESULT, включая S\_ОК и электронную\_ошибку.
 
-## <a name="applies-to"></a>Применимо к
+## <a name="applies-to"></a>Применимость
 
 [ADORecordsetConstruction](adorecordsetconstruction-interface-ado.md)
 

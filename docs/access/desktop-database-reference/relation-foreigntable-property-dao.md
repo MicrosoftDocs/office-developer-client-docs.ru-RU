@@ -1,5 +1,5 @@
 ---
-title: Свойство Relation.ForeignTable (DAO)
+title: Свойство relation. ForeignTable (DAO)
 TOCTitle: ForeignTable Property
 ms:assetid: 3f896433-2962-1c7c-f5a2-4e030ba8d4a0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192853(v=office.15)
@@ -12,38 +12,38 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: fc7ee9b5bc832cc2a125024c592db2c7b13e72f7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307049"
 ---
-# <a name="relationforeigntable-property-dao"></a>Свойство Relation.ForeignTable (DAO)
+# <a name="relationforeigntable-property-dao"></a>Свойство relation. ForeignTable (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает или задает имя таблицы внешнего в отношении (только для рабочих областей Microsoft Access). .
+Задает или возвращает имя внешней таблицы в отношении (только для рабочих областей Microsoft Access). .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Таблицавнешнегоключа
+*Expression* . ForeignTable
 
-*выражение* Переменная, которая представляет собой объект- **связи** .
+*Expression (выражение* ) Переменная, представляющая объект **связи** .
 
 ## <a name="remarks"></a>Замечания
 
-Это свойство является чтение и запись для нового объекта **[отношения](relation-object-dao.md)** еще не добавлены в семейство сайтов и только для чтения для существующего объекта **отношения** в коллекции **[отношений](relations-collection-dao.md)** .
+Это свойство доступно для чтения и записи для нового объекта **[relation](relation-object-dao.md)** , который еще не добавлен в коллекцию и доступен только для чтения для существующего объекта **relation** в коллекции **[связей](relations-collection-dao.md)** .
 
-Установка свойства **таблицавнешнегоключа** объект **связи** является **[свойства Name **[TableDef](tabledef-object-dao.md)** или **[QueryDef](querydef-object-dao.md)** объект, представляющий внешнего таблицы или запроса;](connection-name-property-dao.md)** значение свойства **[в таблице](relation-table-property-dao.md)** — **свойства Name объекта **TableDef** или **QueryDef** , представляющий основной таблицы или запроса** .
+Значение свойства **ForeignTable** объекта **relation** — это свойство **[имени](connection-name-property-dao.md)** объекта **[tabledef](tabledef-object-dao.md)** или **[QueryDef](querydef-object-dao.md)** объекта, представляющего внешние таблицы или запросы; Свойство **[Table](relation-table-property-dao.md)** — это значение свойства **Name** объекта **tabledef** или **QueryDef** , представляющего основную таблицу или запрос.
 
-Например, если у вас есть список кодов допустимый части (в поле с именем PartNo) хранятся в таблице ValidParts удалось установить связь с таблицей OrderItem таким образом, если часть кода были введены в таблицу OrderItem, необходимо быть ValidParts  в таблице. Если часть кода не был найден в таблице ValidParts и не было задано свойство **[атрибуты](field-attributes-property-dao.md)** объекта **отношения** к **dbRelationDontEnforce**, возникнет перехватываемые ошибки.
+Например, если у вас есть список допустимых кодов частей (в поле с именем Партно), хранящихся в таблице Валидпартс, можно установить связь с таблицей Ордеритем таким образом, что если в таблицу Ордеритем был введен код части, он должен быть уже включен в Валидпартс  приведен. Если код части не существовал в таблице Валидпартс и не присвоено свойству **[Attributes](field-attributes-property-dao.md)** объекта **relation** значение **дбрелатиондонтенфорце**, возникнет Перехватываемая ошибка.
 
-В этом случае в таблице ValidParts представляет основной таблицы, поэтому устанавливается свойство **таблицы** объект **отношения** в ValidParts и свойство **таблицавнешнегоключа** объект **связи** будет иметь значение OrderItem. Свойства **Name** и **ForeignName** объекта **поля** в коллекции **полей** объект **связи** будет иметь значение PartNo.
+В этом случае таблица Валидпартс является основной таблицей, поэтому свойству **Table** объекта **relation** будет присвоено значение валидпартс, а свойству **ForeignTable** объекта **relation** будет присвоено значение ордеритем. Свойства **Name** и **фореигннаме** объекта **field** в коллекции **Fields** объекта **relation** задаются как партно.
 
 ## <a name="example"></a>Пример
 
-В этом примере показано, как определить свойства **в таблице**, **таблицавнешнегоключа**и **ForeignName** условия **отношения** между двумя таблицами.
+В этом примере показано, как свойства **Table**, **ForeignTable**и **фореигннаме** определяют условия **связи** между двумя таблицами.
 
 ```vb 
     Sub ForeignNameX() 

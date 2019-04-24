@@ -1,5 +1,5 @@
 ---
-title: Члены QueryDefs (DAO)
+title: Элементы QueryDef (DAO)
 TOCTitle: QueryDefs Members
 ms:assetid: d178fa87-cf01-cb5b-357d-45d8b4e1b0ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834754(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e5f77697bbf0f9231500f325545c0e6ccd9c45fe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301024"
 ---
-# <a name="querydefs-members-dao"></a>Члены QueryDefs (DAO)
+# <a name="querydefs-members-dao"></a>Элементы QueryDef (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Коллекция QueryDefs содержит все объекты QueryDef объекта базы данных в базе данных ядра базы данных Microsoft Access.
+Коллекция QueryDefs содержит все объекты QueryDef объекта Database в базе данных ядра СУБД Microsoft Access.
 
 ## <a name="methods"></a>Методы
 
@@ -36,16 +36,16 @@ ms.locfileid: "28714544"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="querydefs-append-method-dao.md">Добавление</a></strong></p></td>
-<td><p>Добавляет новый <strong>QueryDef</strong> в коллекцию <strong>QueryDefs</strong> .</p></td>
+<td><p><strong><a href="querydefs-append-method-dao.md">Error</a></strong></p></td>
+<td><p>Добавляет новый объект <strong>QueryDef</strong> в коллекцию <strong>QueryDef</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydefs-delete-method-dao.md">Удаление</a></strong></p></td>
-<td><p>Не поддерживается для данного семейства сайтов.</p></td>
+<td><p><strong><a href="querydefs-delete-method-dao.md">Delete</a></strong></p></td>
+<td><p>Не поддерживается для этой коллекции.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydefs-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Не поддерживается для этого объекта.</p></td>
+<td><p>Не поддерживается для объекта.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "28714544"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydefs-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает число объектов в указанном семействе сайтов. Только для чтения.</p></td>
+<td><p>Возвращает число объектов в указанной коллекции. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

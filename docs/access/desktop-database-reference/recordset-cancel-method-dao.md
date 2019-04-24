@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 102511575770ceb38cf682d5e627fb7e64faa1ff
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716714"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300814"
 ---
 # <a name="recordsetcancel-method-dao"></a>Метод Recordset.Cancel (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Отмена
+*Expression* . Отмена
 
-*выражение* Переменная, которая представляет собой объект **набора записей** .
+*expression*: переменная, представляющая объект **Recordset**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Использование метода **Cancel** для завершения выполнения асинхронного вызова метода **Execute** или **OpenConnection** (то есть, метод был вызван с параметром dbRunAsync). **Отменить** возвращает ошибку времени выполнения, если в метод, который вы пытаетесь прерывания не используется dbRunAsync.
+Используйте метод **Cancel** для завершения выполнения асинхронного вызова метода **EXECUTE** или **OpenConnection** (то есть метод вызывается с помощью параметра дбрунасинк). **Отмена** возвращает ошибку времени выполнения, если дбрунасинк не использовался в методе, который вы пытаетесь завершить.
 

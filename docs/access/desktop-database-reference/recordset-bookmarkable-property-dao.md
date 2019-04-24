@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset.Bookmarkable (DAO)
+title: Свойство Recordset. Bookmarkd (DAO)
 TOCTitle: Bookmarkable Property
 ms:assetid: 6323f162-75c4-7cfe-c918-0b9454560f97
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194950(v=office.15)
@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2bd9b91f80c9411bb7cdf4e0be9e71ab055dc72f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699331"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300625"
 ---
-# <a name="recordsetbookmarkable-property-dao"></a>Свойство Recordset.Bookmarkable (DAO)
+# <a name="recordsetbookmarkable-property-dao"></a>Свойство Recordset. Bookmarkd (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает значение, указывающее, поддерживает ли объект **набора записей** закладки, которые можно задать с помощью свойства **[Закладка](recordset-bookmark-property-dao.md)** .
+Возвращает значение, которое указывает, поддерживает ли объект **Recordset** закладки, которые можно задать с помощью свойства **[Bookmark](recordset-bookmark-property-dao.md)**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Bookmarkable
+*Expression* . Bookmarkable
 
-*выражение* Переменная, которая представляет собой объект **набора записей** .
+*expression*: переменная, представляющая объект **Recordset**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Проверьте значение свойства **Bookmarkable** объекта **набора записей** перед при попытке установить или проверить свойство **Закладка** .
+Прежде чем приступать к установке или проверке свойства **Bookmark** , проверьте значение свойства **Bookmark** объекта **Recordset** .
 
-Для **набора записей** объекты на основании полностью таблиц ядра базы данных Microsoft Access значение свойства **Bookmarkable** имеет значение True, а можно использовать закладки. Другие базы данных могут не поддерживать закладки, однако. Например нельзя использовать закладки в любой объект **набора записей** для связанной таблицы Paradox, не имеющей первичного ключа.
+Для объектов **Recordset** , основанных на таблицах ядра СУБД Microsoft Access, значение свойства **bookmarks** равно true, и вы можете использовать закладки. Другие продукты базы данных, однако, могут не поддерживать закладки. Например, нельзя использовать закладки в любом объекте **Recordset** на основании связанной таблицы Paradox, которая не содержит основной ключ.
 
 ## <a name="example"></a>Пример
 
-В этом примере используются свойства **закладки** и **Bookmarkable** сообщите пользователю помечает записи в наборе **записей** и вернуться к нему позже.
+В этом примере используются свойства **Bookmark** и **Bookmarkable**, чтобы пользователи могли отмечать записи в **Recordset** и позднее возвращаться к ним.
 
 ```vb
     Sub BookmarkX() 

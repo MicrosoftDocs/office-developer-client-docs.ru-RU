@@ -1,5 +1,5 @@
 ---
-title: Перечисление CollatingOrderEnum (DAO)
+title: Перечисление Коллатингордеренум (DAO)
 TOCTitle: CollatingOrderEnum enumeration
 ms:assetid: 4a82ca02-172b-e796-58d8-f263287ef52a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193485(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eae8c2a4bead84f76f8aaf07412da7f70e086000
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296264"
 ---
-# <a name="collatingorderenum-enumeration-dao"></a>Перечисление CollatingOrderEnum (DAO)
+# <a name="collatingorderenum-enumeration-dao"></a>Перечисление Коллатингордеренум (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Определяет последовательность порядок сортировки в текст для сравнения строк или сортировки.
+Указывает последовательность порядка сортировки в тексте для сравнения строк или сортировки.
 
 <table>
 <colgroup>
@@ -36,129 +36,129 @@ ms.locfileid: "28714558"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbSortArabic</p></td>
+<td><p>Дбсортарабик</p></td>
 <td><p>1025</p></td>
-<td><p>Арабский, порядок сортировки</p></td>
+<td><p>Порядок сортировки для арабского языка</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortChineseSimplified</p></td>
+<td><p>Дбсортчинесесимплифиед</p></td>
 <td><p>2052</p></td>
-<td><p>Упрощенный китайский порядок сортировки</p></td>
+<td><p>Порядок сортировки для упрощенного китайского письма</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortChineseTraditional</p></td>
+<td><p>Дбсортчинесетрадитионал</p></td>
 <td><p>1028</p></td>
-<td><p>Традиционный китайский порядок сортировки</p></td>
+<td><p>Порядок сортировки традиционного китайского письма</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortCyrillic</p></td>
+<td><p>Дбсортцириллик</p></td>
 <td><p>1049</p></td>
-<td><p>Русский порядок сортировки</p></td>
+<td><p>Порядок сортировки на русском языке</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortCzech</p></td>
-<td><p>ѕ</p></td>
-<td><p>Чешский, порядок сортировки</p></td>
+<td><p>Дбсорткзеч</p></td>
+<td><p>1029</p></td>
+<td><p>Порядок сортировки для чешского языка</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortDutch</p></td>
+<td><p>Дбсортдутч</p></td>
 <td><p>1043</p></td>
-<td><p>Голландский порядок сортировки</p></td>
+<td><p>Порядок сортировки для нидерландского языка</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortGeneral</p></td>
+<td><p>Дбсортженерал</p></td>
 <td><p>1033</p></td>
-<td><p>Английский, немецкий, французский и португальский, порядок сортировки</p></td>
+<td><p>Порядок сортировки на английском, немецком, французском и португальском языках</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortGreek</p></td>
+<td><p>Дбсортгрик</p></td>
 <td><p>1032</p></td>
-<td><p>Греческий порядок сортировки</p></td>
+<td><p>Порядок сортировки в греческом языке</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortHebrew</p></td>
+<td><p>Дбсорсебрев</p></td>
 <td><p>1037</p></td>
-<td><p>Иврит, порядок сортировки</p></td>
+<td><p>Порядок сортировки на иврите</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortHungarian</p></td>
+<td><p>Дбсорсунгариан</p></td>
 <td><p>1038</p></td>
 <td><p>Венгерский порядок сортировки</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortIcelandic</p></td>
+<td><p>Дбсортицеландик</p></td>
 <td><p>1039</p></td>
-<td><p>Исландский порядок сортировки</p></td>
+<td><p>Порядок сортировки в Исландский</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortJapanese</p></td>
+<td><p>Дбсортжапанесе</p></td>
 <td><p>1041</p></td>
-<td><p>Японский порядок сортировки</p></td>
+<td><p>Порядок сортировки на японском языке</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortKorean</p></td>
+<td><p>Дбсорткореан</p></td>
 <td><p>1042</p></td>
-<td><p>Корейский порядок сортировки</p></td>
+<td><p>Порядок сортировки для корейского языка</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortNeutral</p></td>
+<td><p>Дбсортнеутрал</p></td>
 <td><p>1024</p></td>
-<td><p>Порядок сортировки neutral</p></td>
+<td><p>Нейтральный порядок сортировки</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortNorwdan</p></td>
+<td><p>Дбсортнорвдан</p></td>
 <td><p>1030</p></td>
-<td><p>Порядок сортировки датский и норвежский</p></td>
+<td><p>Порядок сортировки на норвежском и датском языке</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortPDXIntl</p></td>
+<td><p>Дбсортпдксинтл</p></td>
 <td><p>1033</p></td>
-<td><p>Paradox международный порядок сортировки</p></td>
+<td><p>Порядок сортировки на международном уровне Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortPDXNor</p></td>
+<td><p>Дбсортпдкснор</p></td>
 <td><p>1030</p></td>
-<td><p>Порядок сортировки датский и норвежский Paradox</p></td>
+<td><p>Порядок сортировки Paradox (норвежский и датский)</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortPDXSwe</p></td>
+<td><p>Дбсортпдкссве</p></td>
 <td><p>1053</p></td>
-<td><p>Порядок сортировки финский и шведский Paradox</p></td>
+<td><p>Порядок сортировки Paradox шведский и финский</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortPolish</p></td>
+<td><p>Дбсортполиш</p></td>
 <td><p>1045</p></td>
-<td><p>Польский порядок сортировки</p></td>
+<td><p>Порядок сортировки для польского языка</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortSlovenian</p></td>
+<td><p>Дбсортсловениан</p></td>
 <td><p>1060</p></td>
-<td><p>Словенский порядок сортировки</p></td>
+<td><p>Порядок сортировки для словенского языка</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortSpanish</p></td>
+<td><p>Дбсортспаниш</p></td>
 <td><p>1034</p></td>
-<td><p>Испанский порядок сортировки</p></td>
+<td><p>Порядок сортировки на испанском языке</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortSwedFin</p></td>
+<td><p>Дбсортсведфин</p></td>
 <td><p>1053</p></td>
-<td><p>Порядок сортировки финский и шведский</p></td>
+<td><p>Порядок сортировки для шведского и финского языка</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortThai</p></td>
+<td><p>Дбсортсаи</p></td>
 <td><p>1054</p></td>
-<td><p>Тайский порядок сортировки</p></td>
+<td><p>Порядок сортировки для тайского языка</p></td>
 </tr>
 <tr class="even">
-<td><p>dbSortTurkish</p></td>
+<td><p>Дбсорттуркиш</p></td>
 <td><p>1055</p></td>
-<td><p>Турецкий порядок сортировки</p></td>
+<td><p>Порядок сортировки для турецкого языка</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbSortUndefined</p></td>
+<td><p>Дбсортундефинед</p></td>
 <td><p>–1</p></td>
-<td><p>Порядок сортировки не определен или неизвестный</p></td>
+<td><p>Порядок сортировки не определен или неизвестен</p></td>
 </tr>
 </tbody>
 </table>

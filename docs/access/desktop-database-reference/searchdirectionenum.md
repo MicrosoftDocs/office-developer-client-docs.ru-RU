@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9f9fdf9dd5908b65ae3b6f6ce5a44eba07e4d9bb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709861"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308808"
 ---
 # <a name="searchdirectionenum"></a>SearchDirectionEnum
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает направление поиска записи в наборе [записей](recordset-object-ado.md).
+Задает направление поиска записи в [наборе записей](recordset-object-ado.md).
 
 <table>
 <colgroup>
@@ -36,14 +36,14 @@ ms.locfileid: "28709861"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adSearchBackward</strong></p></td>
+<td><p><strong>Адсеарчбакквард</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Выполняет поиск назад, остановив в начале <strong>набора записей</strong>. Если совпадение не найдено, указатель записи располагается в <a href="bof-eof-properties-ado.md">BOF</a>.</p></td>
+<td><p>Выполняет поиск в обратном направлении, останавливается в начале <strong>набора записей</strong>. Если соответствующее значение не найдено, указатель записи располагается по адресу <a href="bof-eof-properties-ado.md">BOF</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSearchForward</strong></p></td>
-<td><p>1</p></td>
-<td><p>Поиск вперед, остановка в конце <strong>набора записей</strong>. Если совпадение не найдено, указатель записи располагается в <a href="bof-eof-properties-ado.md">конец файла</a>.</p></td>
+<td><p><strong>Адсеарчфорвард</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Выполняет поиск вперед, завершается в конце <strong>набора записей</strong>. Если соответствующее значение не найдено, указатель записи размещается на <a href="bof-eof-properties-ado.md">EOF</a>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -51,7 +51,7 @@ ms.locfileid: "28709861"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -64,10 +64,10 @@ ms.locfileid: "28709861"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.SearchDirection.BACKWARD</p></td>
+<td><p>Адоенумс. Сеарчдиректион. назад</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.SearchDirection.FORWARD</p></td>
+<td><p>Адоенумс. Сеарчдиректион. FORWARD</p></td>
 </tr>
 </tbody>
 </table>

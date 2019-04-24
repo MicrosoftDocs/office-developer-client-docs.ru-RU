@@ -1,5 +1,5 @@
 ---
-title: Члены подключений (DAO)
+title: Элементы Connections (DAO)
 TOCTitle: Connections Members
 ms:assetid: e57a9548-455b-b6e8-6e9c-8bbf9613003a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835954(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7506e59104997cebb6fe55d3b892b8176da83ec6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700916"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295767"
 ---
-# <a name="connections-members-dao"></a>Члены подключений (DAO)
+# <a name="connections-members-dao"></a>Элементы Connections (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 > [!NOTE]
-> Рабочие области технология ODBCDirect не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access. Коллекция подключений содержит текущего объекты подключения рабочей области для объекта (только для рабочих областей технология ODBCDirect).
+> Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access. Коллекция Connections содержит текущие объекты подключения объекта Workspace (только для рабочих областей ODBCDirect).
 
 ## <a name="methods"></a>Методы
 
@@ -37,7 +37,7 @@ ms.locfileid: "28700916"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Не поддерживается для <strong><a href="connections-collection-dao.md">подключения к</a></strong> коллекции.</p></td>
+<td><p>Не поддерживается для коллекции <strong><a href="connections-collection-dao.md">Connections</a></strong> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ ms.locfileid: "28700916"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="connections-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает количество объектов <strong><a href="connection-object-dao.md">подключения</a></strong> в коллекции <strong><a href="connections-collection-dao.md">подключений</a></strong> .</p></td>
+<td><p>Возвращает количество объектов <strong><a href="connection-object-dao.md">Connection</a></strong> в коллекции Connections <strong><a href="connections-collection-dao.md"></a></strong> .</p></td>
 </tr>
 </tbody>
 </table>

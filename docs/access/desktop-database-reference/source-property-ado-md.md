@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8aa3daef443c14710c87fd5c98d958693dd61cd6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718044"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306470"
 ---
 # <a name="source-property-ado-md"></a>Свойство Source (ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Указывает источник данных в наборе ячеек.
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает или возвращает **Variant**и чтение и запись для закрытой объектов [ячеек](cellset-object-ado-md.md) и доступны только для чтения, для открытия объектов **ячеек** . **Variant** должны содержать допустимая **строка**, например, запрос многомерных Выражений.
+Задает или возвращает **значение Variant**и доступно для чтения и записи для закрытых объектов набора [ячеек](cellset-object-ado-md.md) и только для чтения для открытых объектов набора **ячеек** . **Вариант** должен содержать допустимую **строку**, например запрос многомерных выражений.
 

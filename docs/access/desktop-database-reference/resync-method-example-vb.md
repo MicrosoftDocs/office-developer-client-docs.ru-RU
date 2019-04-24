@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 73cd34fcc81729ba1c9270e35dfe07fda1e896d9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306568"
 ---
 # <a name="resync-method-example-vb"></a>Пример использования метода Resync (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показано использование метода [выполнить повторную синхронизацию](resync-method-ado.md) для обновления данных в статических записей.
+В этом примере демонстрируется [](resync-method-ado.md) использование метода Resync для обновления данных в статическом объекте Recordset.
 
 ```vb 
  

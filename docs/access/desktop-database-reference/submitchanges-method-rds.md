@@ -8,42 +8,42 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ea7f3e27a75b4483cb8cf46e27d4492f831cff33
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714446"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314401"
 ---
 # <a name="submitchanges-method-rds"></a>Метод SubmitChanges (RDS)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Отправляет ожидающие изменения локально кэширования и обновляемых [записей](recordset-object-ado.md) в источник данных, указанный в свойстве [Connect](connect-property-rds.md) или свойстве [URL-адрес](url-property-rds.md) .
+Передает ожидающие изменения локального кэшированного и обновляемого [набора записей](recordset-object-ado.md) в источник данных, указанный в свойстве [Connect](connect-property-rds.md) или [URL-адрес](url-property-rds.md) .
 
 ## <a name="syntax"></a>Синтаксис
 
-*DataControl*. SubmitChanges
+*Элемент управления*. SubmitChanges
 
-*DataFactory*. SubmitChanges*подключения*, *записей*
+*Фактическое*. *Подключение*SubmitChanges, *набор записей*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.|
-|*DataFactory* |Объектная переменная, которая представляет объект [RDSServer.DataFactory](datafactory-object-rdsserver.md) .|
-|*Connection* |Значение типа **String** , представляющий подключение, созданных с помощью **RDS. DataControl** **Подключить** свойства объекта.|
-|*Recordset* |Объектная переменная, представляющий объект **набора записей** .|
+|*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
+|*DataFactory* |Объектная переменная, представляющая объект [фактОв рдссервер.](datafactory-object-rdsserver.md) DataObject.|
+|*Connection* |**Строковое** значение, представляющее подключение, созданное с помощью **RDS. **Свойство **Connect** объекта DataObject.|
+|*Recordset* |Объектная переменная, представляющая объект **Recordset** .|
 
 ## <a name="remarks"></a>Замечания
 
-Необходимо задать свойства [подключения](connect-property-rds.md), [сервер](server-property-rds.md)и [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) , прежде чем использовать метод **SubmitChanges** с **RDS. DataControl** объекта.
+Необходимо задать свойства [Connect](connect-property-rds.md), [Server](server-property-rds.md)и [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) , прежде чем можно будет использовать метод **SubmitChanges** с помощью **RDS. Объект управления** DataObject.
 
-При вызове метода [CancelUpdate](cancelupdate-method-rds.md) после вызова **SubmitChanges** для одного объекта **набора записей** , **CancelUpdate** завершается неудачно, так как эти изменения уже была выполнена.
+Если метод [CancelUpdate](cancelupdate-method-rds.md) вызывается после вызова **SubmitChanges** для того же объекта **Recordset** , вызов **CancelUpdate** завершится с ошибкой, так как изменения уже были зафиксированы.
 
-Измененные записи будут отправлены для изменения и всех изменений выполнен удачно или все из них нет друг с другом.
+Только измененные записи отправляются для изменения и либо все изменения успешно выполнены, либо все они работают вместе.
 
-**SubmitChanges** можно использовать только с помощью объекта **RDSServer.DataFactory** *по умолчанию* . Этот способ нельзя использовать настраиваемые бизнес-объекты.
+Параметр **SubmitChanges** можно использовать только с объектом **рдссервер.** DataObject, *используемым по умолчанию* . Пользовательские бизнес-объекты не могут использовать этот метод.
 
-Если свойство **URL-адрес** **SubmitChanges** будет внесения изменений в расположении, указанном URL-адрес.
+Если задано свойство **URL** , **SubmitChanges** отправит изменения в расположении, указанном с помощью URL-адреса.
 

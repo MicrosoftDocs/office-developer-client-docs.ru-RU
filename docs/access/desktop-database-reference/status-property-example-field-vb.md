@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 68583b1ee211802a3cade63e85f0f62bbf3cb686
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720970"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308507"
 ---
 # <a name="status-property-example-field-vb"></a>Пример использования свойства Status (Field) (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В следующем примере открывается документ из папки чтения и записи, с использованием [Поставщика средств публикации в Интернете](microsoft-ole-db-provider-for-internet-publishing.md). Свойство [Status](status-property-ado-field.md) объекта [поля](field-object-ado.md) [записей](record-object-ado.md) сначала иметь значение **adFieldPendingInsert**, а затем следует обновить до **adFieldOk**.
+Следующий пример открывает документ из папки для чтения и записи с помощью [поставщика публикации в Интернете](microsoft-ole-db-provider-for-internet-publishing.md). Сначала свойству [Status](status-property-ado-field.md) объекта [field](field-object-ado.md) [записи](record-object-ado.md) будет присвоено значение **адфиелдпендингинсерт**, а затем оно будет обновлено до **адфиелдок**.
 
 ```vb
     'BeginStatusFieldVB
@@ -78,7 +78,7 @@ ms.locfileid: "28720970"
 
 <br/>
 
-В следующем примере удаляется **поле** из **записи** из документа. Свойство **Status** будет сначала задать значение **adFieldOK**, а затем **adFieldPendingUnknown**.
+В следующем примере показано, как удалить известное **поле** из **записи** , открытой из документа. Для свойства **Status** сначала будет задано значение **адфиелдок**, а затем **адфиелдпендингункновн**.
 
 ```vb
     'BeginStatusField2VB
@@ -132,7 +132,7 @@ ms.locfileid: "28720970"
 
 <br/>
 
-Следующий код удаляет **поля** из **записи** , открывается документ только для чтения. **Состояние** будет иметь значение **adFieldPendingDelete**. В [обновления](update-method-ado.md)удаления завершится с ошибкой и **состояние** будет **adFieldPendingDelete** , а также **adFieldPermissionDenied**. [CancelUpdate](cancelupdate-method-ado.md) очищает отложенные параметр **состояния** .
+Следующий код удаляет **поле** из **записи** , открытой в документе, доступном только для чтения. В качестве **состояния** будет задано значение **адфиелдпендингделете**. При [обновлении обновление](update-method-ado.md)будет завершено с ошибками, а **состояние** будет **адфиелдпендингделете** плюс **адфиелдпермиссиондениед**. [CancelUpdate](cancelupdate-method-ado.md) очищает параметр **состояния** Pending.
 
 ```vb
     Sub Main()

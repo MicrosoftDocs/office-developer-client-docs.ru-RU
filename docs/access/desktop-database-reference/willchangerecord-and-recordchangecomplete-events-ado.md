@@ -1,5 +1,5 @@
 ---
-title: События WillChangeRecord и RecordChangeComplete (ADO)
+title: События события willchangerecord и RecordChangeComplete (ADO)
 TOCTitle: WillChangeRecord and RecordChangeComplete events (ADO)
 ms:assetid: b21229b2-74e6-0798-95bf-0252f041831c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249851(v=office.15)
@@ -8,39 +8,39 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0113a7b22d0bba8e843ce9583e93eef848f872a5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710841"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305987"
 ---
-# <a name="willchangerecord-and-recordchangecomplete-events-ado"></a>События WillChangeRecord и RecordChangeComplete (ADO)
+# <a name="willchangerecord-and-recordchangecomplete-events-ado"></a>События события willchangerecord и RecordChangeComplete (ADO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Событие **WillChangeRecord** вызывается перед измените один или несколько записей (строк) в [набора записей](recordset-object-ado.md) . Событие **RecordChangeComplete** вызывается после изменения одной или нескольких записей.
+Событие **события willchangerecord** вызывается перед одной или несколькими записями (строк) в изменении [набора записей](recordset-object-ado.md) . Событие **RecordChangeComplete** вызывается после изменения одной или нескольких записей.
 
 ## <a name="syntax"></a>Синтаксис
 
-WillChangeRecord*adReason*, *cRecords*, *adStatus*, *pRecordset*
+События willchangerecord*адреасон*, *крекордс*, *адстатус*, ** пред
 
-RecordChangeComplete*adReason*, *cRecords*, *pError*, *adStatus*, *pRecordset*
+RecordChangeComplete*адреасон*, *крекордс*, *перрор*, *адстатус*, ** пред
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*adReason* |Значение [EventReasonEnum](eventreasonenum.md) , указывает причину это событие. Его значение может быть **adRsnAddNew**, **adRsnDelete**, **adRsnUpdate**, **adRsnUndoUpdate**, **adRsnUndoAddNew**, **adRsnUndoDelete**или **adRsnFirstChange**.|
-|*cRecords* |Значение типа **Long** , показывает, сколько изменение записей (влияет на).|
-|*pError* |Объект [Error](error-object-ado.md) . Описание ошибки, возникшей при имеет значение *adStatus* **adStatusErrorsOccurred**; в противном случае он не задан.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). При вызове **WillChangeRecord** этот параметр имеет значение **adStatusOK** , если операция, которая вызвала событие прошла успешно. Если это событие не могут запрашивать отмену ожидающие операции перейдут в **adStatusCantDeny** . <br/><br/>При вызове **RecordChangeComplete** этот параметр имеет значение **adStatusOK** в случае успешного операцию, которая вызвала событие или **adStatusErrorsOccurred** , если операция завершилась неудачно. <br/><br/>Прежде чем возвращает **WillChangeRecord** , присвойте этому параметру значение **adStatusCancel** для отмены запроса, которое вызвало это событие или присвойте этому параметру значение adStatusUnwantedEvent, чтобы запретить последующие notications операции. <br/><br/>Прежде чем возвращает **RecordChangeComplete** , присвойте этому параметру значение **adStatusUnwantedEvent** , чтобы запретить последующие уведомления.|
-|*pRecordset* |Объект **набора записей** . **Набор записей** , для которого произошло это событие.|
+|*Адреасон* |Значение [евентреасоненум](eventreasonenum.md) , указывающее причину этого события. Возможные значения: **адрснадднев**, **адрснделете**, **адрснупдате**, **адрснундаупдате**, **адрснундоадднев**, **адрснундоделете**или **adRsnFirstChange**.|
+|*Крекордс* |**Длинное** значение, которое указывает количество изменяемых записей (затронутых).|
+|*Перрор* |Объект [Error](error-object-ado.md) . В нем описывается ошибка, которая возникла, если значение *адстатус* равно **адстатусеррорсоккурред**; в противном случае он не задается.|
+|*Адстатус* |[Евентстатусенум](eventstatusenum.md). При вызове **события willchangerecord** этот параметр имеет значение **адстатусок** , если операция, вызвавшая событие, прошла успешно. Он имеет значение **адстатускантдени** , если данное событие не может запрашивать отмену ожидающей операции. <br/><br/>При вызове **RecordChangeComplete** этот параметр имеет значение **адстатусок** , если операция, вызвавшая событие, прошла успешно, или значение **адстатусеррорсоккурред** , если операция завершилась неудачно. <br/><br/>Перед возвратом **события willchangerecord** присвойте этому параметру значение **адстатусканцел** , чтобы запросить отмену операции, вызвавшей данное событие, или присвойте этому параметру значение адстатусунвантедевент, чтобы предотвратить последующие уведомления. <br/><br/>Перед возвратом **RecordChangeComplete** присвойте этому параметру значение **адстатусунвантедевент** , чтобы предотвратить появление последующих уведомлений.|
+|*предшнур* |Объект **Recordset** . Объект **Recordset** , для которого произошло это событие.|
 
 ## <a name="remarks"></a>Замечания
 
-**WillChangeRecord** или **RecordChangeComplete** событие может произойти для первого измененные поля в строке из-за следующие операции **записей** : [обновление](update-method-ado.md), [Удаление](delete-method-ado-recordset.md), [CancelUpdate](cancelupdate-method-ado.md), [AddNew](addnew-method-ado.md), [ UpdateBatch](updatebatch-method-ado.md)и [CancelBatch](cancelbatch-method-ado.md). Значение **набора записей** [CursorType](cursortype-property-ado.md) определяет, какие операции приводят к возникновении событий.
+Событие **события willchangerecord** или **RecordChangeComplete** может возникать для первого измененного поля в строке из-за следующих операций **с набором записей** : [Update](update-method-ado.md), [Delete](delete-method-ado-recordset.md), [CancelUpdate](cancelupdate-method-ado.md), [AddNew](addnew-method-ado.md), [ UpdateBatch](updatebatch-method-ado.md)и [CancelBatch](cancelbatch-method-ado.md). Значение [CursorType](cursortype-property-ado.md) объекта **Recordset** определяет, какие операции приводят к возникновению событий.
 
-Во время события **WillChangeRecord** **записей** [фильтра](filter-property-ado.md) задано значение **adFilterAffectedRecords**. Это свойство не может изменить при обработке события.
+Во время **события события willchangerecord** для свойства **** [Filter](filter-property-ado.md) набора записей задано значение **адфилтераффектедрекордс**. Вы не можете изменить это свойство при обработке события.
 
-Параметр adStatus должен значение adStatusUnwantedEvent для каждого adReason возможные значения для полностью остановите noticiation событий для всех событий, который включает параметр adReason.
+Необходимо задать для параметра Адстатус значение Адстатусунвантедевент для каждого возможного значения Адреасон, чтобы полностью остановить событие нотиЦиатион для любого события, включающего параметр Адреасон.
 
