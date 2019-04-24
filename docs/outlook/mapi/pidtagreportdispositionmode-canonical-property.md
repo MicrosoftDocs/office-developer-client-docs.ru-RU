@@ -10,49 +10,49 @@ api_type:
 - COM
 ms.assetid: 67b3c76a-f6f7-462b-955c-dc7b53e7e7eb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9b16cf3b8d0281ba8995058af6b18dbe22dcf592
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3d598337a4a66b6345b2f7c827b62a2ccd8af366
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346363"
 ---
 # <a name="pidtagreportdispositionmode-canonical-property"></a>Каноническое свойство PidTagReportDispositionMode
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает ликвидации уведомления для сообщений, которые запрашивать уведомления. 
+Указывает положение чека для сообщений, запрашивающих уведомления. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REPORT_DISPOSITION_MODE, PR_REPORT_DISPOSITION_MODE_A, PR_REPORT_DISPOSITION_MODE_W  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕПОРТ_ДИСПОСИТИОН_МОДЕ, ПР_РЕПОРТ_ДИСПОСИТИОН_МОДЕ_А, ПР_РЕПОРТ_ДИСПОСИТИОН_МОДЕ_В  <br/> |
 |Идентификатор:  <br/> |0x0081  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Возможные значения для этого свойства: «вручную действие/MDN-отправленных автоматически» и «вручную действие/MDN-отправленных вручную».
+Возможные значения для этого свойства: "вручную — действие/МДН-отправлено автоматически" и "вручную — действие/МДН-Отправлено".
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,7 +60,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

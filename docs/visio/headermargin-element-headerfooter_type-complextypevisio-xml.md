@@ -1,5 +1,5 @@
 ---
-title: Элемент HeaderMargin (HeaderFooter_Type complexType) ('Visio XML»)
+title: Элемент HeaderMargin (Хеадерфутер_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,13 +8,13 @@ localization_priority: Normal
 ms.assetid: 2bb0f4c5-eacf-e09b-2fce-dcff2d927557
 description: Задает поле заголовка документа.
 ms.openlocfilehash: d8126ae73b1fb330234698343d14468fcbb3eed8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351669"
 ---
-# <a name="headermargin-element-headerfootertype-complextype-visio-xml"></a>Элемент HeaderMargin (HeaderFooter_Type complexType) ('Visio XML»)
+# <a name="headermargin-element-headerfootertype-complextype-visio-xml"></a>Элемент HeaderMargin (Хеадерфутер_типе complexType) (' Visio XML ')
 
 Задает поле заголовка документа.
   
@@ -22,10 +22,10 @@ ms.locfileid: "25393378"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Хеадермаргин_типе](headermargin_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25393378"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для колонтитулов документа.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Хеадерфутер_типе](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для верхнего и нижнего колонтитулов документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,6 +52,6 @@ ms.locfileid: "25393378"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Подразделения  <br/> |XSD:String  <br/> |необязательный  <br/> |Представляет единицы измерения. Значение по умолчанию — DP.  <br/> |Значения типа xsd:string.  <br/> |
+|Устройств  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. Значение по умолчанию — DP.  <br/> |Значения типа String: XSD.  <br/> |
    
 

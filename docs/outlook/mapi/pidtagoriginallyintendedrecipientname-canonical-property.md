@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 56c406fb-8778-4f85-bbdc-4cabfa140248
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7fae59d23d2d335513cbbddc22638ed623d894b7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8637ef8036ccec79b82bcfff4a9f6d21fd5c2e11
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583794"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342590"
 ---
 # <a name="pidtagoriginallyintendedrecipientname-canonical-property"></a>Каноническое свойство PidTagOriginallyIntendedRecipientName
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит закодированное имя изначально получателя сообщения автоматически переадресовано.
+Содержит закодированное имя первоначального получателя сообщения, предназначенного для пересылки.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORIGINALLY_INTENDED_RECIPIENT_NAME  <br/> |
+|Связанные свойства:  <br/> |ПР_ОРИГИНАЛЛИ_ИНТЕНДЕД_РЕЦИПИЕНТ_НАМЕ  <br/> |
 |Идентификатор:  <br/> |0x0020  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Свойство **PR_ORIGINALLY_INTENDED_RECIPIENT_NAME** необходимо установить агентом автоматическое перенаправление сообщения. 
+Свойство **пр_оригиналли_интендед_реЦипиент_наме** должно быть задано автоматическим агентом, который перенаправлял сообщение. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

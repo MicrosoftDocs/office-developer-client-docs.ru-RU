@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm82251482
 localization_priority: Normal
 ms.assetid: 8436cbe6-e0f6-ddbb-9489-21027e31bd51
-description: Возвращает координата точки.
-ms.openlocfilehash: 317a6e4e769f6e82985e19357545ce96c870b069
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает координату точки по оси y.
+ms.openlocfilehash: 39f71dccd95602fe9578d09e941f360c82c48a3e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814395"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348295"
 ---
 # <a name="pnty-function"></a>Функция PNTY
 
-Возвращает _y_-координаты точки.
+Возвращает координату точки по _оси y_.
   
 ## <a name="syntax"></a>Синтаксис
 
-PNTX (** *пункт* **) 
+PNTX (* * *Point* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _пункт_ <br/> |Обязательный  <br/> |**Число** <br/> |_Y_-координаты точки.  <br/> |
+| _Указывает_ <br/> |Обязательный  <br/> |**Number** <br/> |Координата _y_точки.  <br/> |
    
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Number
+Номер
   
 ## <a name="example"></a>Пример
 
-PNTY(PNT(7,12)) 
+PNTY (PNT (7, 12)) 
   
 Возвращает 12. 
   

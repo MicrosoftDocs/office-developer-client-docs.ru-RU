@@ -1,5 +1,5 @@
 ---
-title: ForeignData_Type complexType ('Visio XML»)
+title: Фореигндата_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 21b394a6-6f95-fc17-482c-4cb648a0d9bb
 ms.openlocfilehash: 6630c8b33dc1c4c7cbb12bb9727d4f0b1e1b19d2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384159"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346013"
 ---
-# <a name="foreigndatatype-complextype-visio-xml"></a>ForeignData_Type complexType ('Visio XML»)
+# <a name="foreigndatatype-complextype-visio-xml"></a>Фореигндата_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -79,21 +79,21 @@ ms.locfileid: "25384159"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Rel](rel-element-foreigndata_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
+|[Rel](rel-element-foreigndata_type-complextypevisio-xml.md) <br/> |[Рел_типе](rel_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|CompressionLevel  <br/> |XSD: double  <br/> |необязательный  <br/> ||Значения типа XSD: double.  <br/> |
-|CompressionType  <br/> |XSD:Token  <br/> |необязательный  <br/> ||Значения типа xsd:token.  <br/> |
-|ExtentX  <br/> |XSD: double  <br/> |необязательный  <br/> ||Значения типа XSD: double.  <br/> |
-|ExtentY  <br/> |XSD: double  <br/> |необязательный  <br/> ||Значения типа XSD: double.  <br/> |
-|ForeignType  <br/> |XSD:Token  <br/> |Обязательный  <br/> ||Значения типа xsd:token.  <br/> |
-|MappingMode  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
-|ObjectHeight  <br/> |XSD: double  <br/> |необязательный  <br/> ||Значения типа XSD: double.  <br/> |
-|Тип объекта  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|ObjectWidth  <br/> |XSD: double  <br/> |необязательный  <br/> ||Значения типа XSD: double.  <br/> |
-|ShowAsIcon  <br/> |XSD:Boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
+|Компрессионлевел  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
+|Компрессионтипе  <br/> |XSD: маркер  <br/> |необязательный  <br/> ||Значения типа маркера XSD:.  <br/> |
+|Екстенткс  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
+|Экстент  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
+|ForeignType  <br/> |XSD: маркер  <br/> |Обязательный  <br/> ||Значения типа маркера XSD:.  <br/> |
+|Маппингмоде  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
+|Обжексеигхт  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
+|ObjectType  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Обжектвидс  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
+|Шовасикон  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
    
 

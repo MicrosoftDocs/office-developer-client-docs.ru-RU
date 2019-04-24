@@ -10,45 +10,45 @@ api_type:
 - COM
 ms.assetid: eca2ba85-27bf-445b-8f87-b56ae879a72f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0de49d8077e51a78a72b929c4f27b2e80f13f19b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 20f2c25a75f6d3e4db0bc1550b2d44cc6f914407
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350710"
 ---
 # <a name="pidtagpstpasswordszold-canonical-property"></a>Каноническое свойство PidTagPstPasswordSzOld
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит настраиваемую пароль в таблице личных папок (PST-файл).
+Содержит пароль для настраиваемой таблицы личных запоминающих устройств (PST-файла).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PST_PW_SZ_OLD, PR_PST_PW_SZ_OLD_A, PR_PST_PW_SZ_OLD_W  <br/> |
+|Связанные свойства:  <br/> |ПР_ПСТ_ПВ_СЗ_ОЛД, ПР_ПСТ_ПВ_СЗ_ОЛД_А, ПР_ПСТ_ПВ_СЗ_ОЛД_В  <br/> |
 |Идентификатор:  <br/> |0x6703  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Таблица личных папок (.pst) внутренний  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Область:  <br/> |Внутренняя таблица хранения личных данных (PST)  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

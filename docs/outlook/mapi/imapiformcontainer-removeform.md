@@ -1,5 +1,5 @@
 ---
-title: IMAPIFormContainerRemoveForm
+title: Имапиформконтаинерремовеформ
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7f851ce8-bd01-4ea5-86e0-e44323cc0aab
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1a1d11db538d9b5368d80962e44b9eab38b490d2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e53c0cbd9946ff04516594a7ce99fdc2daf4ff4d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575653"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355747"
 ---
 # <a name="imapiformcontainerremoveform"></a>IMAPIFormContainer::RemoveForm
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575653"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Удаление определенной формы из контейнера формы.
+Удаляет определенную форму из контейнера формы.
   
 ```cpp
 HRESULT RemoveForm(
@@ -35,9 +35,9 @@ HRESULT RemoveForm(
 
 ## <a name="parameters"></a>Параметры
 
- _szMessageClass_
+ _Сзмессажекласс_
   
-> [in] Строка, имена класса сообщений для формы для удаления из контейнера формы. Имена классов сообщений всегда являются строками ANSI, никогда не Юникод.
+> возврата Строка, которая называет класс сообщения формы, удаляемой из контейнера формы. Имена классов сообщений всегда являются строками ANSI, а не Юникодом.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -45,9 +45,9 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-MAPI_E_NOT_FOUND 
+МАПИ_Е_НОТ_ФАУНД 
   
-> Класс сообщения, переданной в параметре _szMessageClass_ не соответствует класса сообщений для любой формы в контейнере формы. 
+> Класс сообщения, переданный в параметре _сзмессажекласс_ , не соответствует классу сообщения любой формы в контейнере формы. 
     
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -55,7 +55,7 @@ MAPI_E_NOT_FOUND
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::OnDeleteSelectedItem  <br/> |Mfcmapi (en) использует метод **IMAPIFormContainer::RemoveForm** для удаления формы из контейнера формы.  <br/> |
+|Формконтаинердлг. cpp  <br/> |Кформконтаинердлг:: Онделетеселектедитем  <br/> |MFCMAPI использует метод **имапиформконтаинер:: ремовеформ** для удаления формы из контейнера формы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

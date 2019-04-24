@@ -12,35 +12,35 @@ api_type:
 - COM
 ms.assetid: 18623a44-719e-f46f-0f04-d6089a19c85d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7dc60cf3c49032a2c871872765b19e96c49f6da5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d00766d0fa85e51874357f97f60e86ee7eb1abf9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348799"
 ---
 # <a name="imscapabilities--iunknown"></a>IMSCapabilities : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет сведения о хранилище, которое может поддерживать.
+Предоставляет сведения о том, что может поддерживать магазин.
   
 |||
 |:-----|:-----|
 |Предоставлено:  <br/> |Поставщик хранилища сообщений  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IMSCapabilities  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_имскапабилитиес  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Возвращает возможности хранилища на основе указанного значения.  <br/> |
+|**[GetCapabilities](imscapabilities-getcapabilities.md)** <br/> |Возвращает возможности хранилища в соответствии с заданным выбором.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
- **IMSCapabilities** предоставляет сведения о что если хранилище поддерживает этот интерфейс поддерживает хранилища. 
+ **IMSCapabilities** предоставляет сведения о том, что может поддерживать магазин, если магазин поддерживает этот интерфейс. 
   
 ## <a name="see-also"></a>См. также
 

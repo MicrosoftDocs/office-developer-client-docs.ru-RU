@@ -1,5 +1,5 @@
 ---
-title: IProfAdmin IUnknown
+title: Ипрофадмин IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 274899cc-2894-4d99-84ec-f18121e856a0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 28dd45f29610b7ad56b4d3302715311569d497c4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cbdfba68490b1e756f277c6e552235368a86f310
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348855"
 ---
 # <a name="iprofadmin--iunknown"></a>IProfAdmin : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Поддерживает управления профилями. 
+Поддерживает администрирование профилей. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapix.h  <br/> |
-|Предоставляемые:  <br/> |Объект администрирования профилей  <br/> |
-|Реализованный:  <br/> |MAPI  <br/> |
-|Вызывается:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IProfAdmin  <br/> |
-|Тип указателя:  <br/> |LPPROFADMIN  <br/> |
+|Файл заголовка:  <br/> |Мапикс. h  <br/> |
+|Предоставлено:  <br/> |Объект администрирования профиля  <br/> |
+|Реализовано в:  <br/> |MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_ипрофадмин  <br/> |
+|Тип указателя:  <br/> |ЛППРОФАДМИН  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[GetLastError](iprofadmin-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR](mapierror.md) , который содержит сведения о предыдущем ошибки, которые произошли в объект администрирования профилей.  <br/> |
-|[GetProfileTable](iprofadmin-getprofiletable.md) <br/> |Предоставляет доступ к таблице профилей таблицу, содержащую сведения обо всех доступных профилей.  <br/> |
-|[CreateProfile](iprofadmin-createprofile.md) <br/> |Создает новый профиль.  <br/> |
-|[DeleteProfile](iprofadmin-deleteprofile.md) <br/> |Удаляет профиль.  <br/> |
-|[ChangeProfilePassword](iprofadmin-changeprofilepassword.md) <br/> |Рекомендуется использовать. Изменение пароля для профиля.  <br/> |
-|[CopyProfile](iprofadmin-copyprofile.md) <br/> |Копирует профиль.  <br/> |
-|[RenameProfile](iprofadmin-renameprofile.md) <br/> |Назначает новое имя профиля.  <br/> |
-|[SetDefaultProfile](iprofadmin-setdefaultprofile.md) <br/> |Устанавливает или удаляет профиль клиента по умолчанию.  <br/> |
-|[AdminServices](iprofadmin-adminservices.md) <br/> |Предоставляет доступ к объекту администрирования службы сообщений для внесения изменений в службы сообщений в профиле.  <br/> |
+|[GetLastError](iprofadmin-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущей ошибке, возникшей в объекте администрирования профиля.  <br/> |
+|[Жетпрофилетабле](iprofadmin-getprofiletable.md) <br/> |Предоставляет доступ к таблице профилей — таблице, содержащей сведения обо всех доступных профилях.  <br/> |
+|[Креатепрофиле](iprofadmin-createprofile.md) <br/> |Создает новый профиль.  <br/> |
+|[Делетепрофиле](iprofadmin-deleteprofile.md) <br/> |Удаляет профиль.  <br/> |
+|[Чанжепрофилепассворд](iprofadmin-changeprofilepassword.md) <br/> |Устаревшие. Изменяет пароль для профиля.  <br/> |
+|[Копипрофиле](iprofadmin-copyprofile.md) <br/> |Копирует профиль.  <br/> |
+|[Ренамепрофиле](iprofadmin-renameprofile.md) <br/> |Назначает новое имя профилю.  <br/> |
+|[SetDefaultProfile](iprofadmin-setdefaultprofile.md) <br/> |Задает или очищает профиль клиента, используемый по умолчанию.  <br/> |
+|[Админсервицес](iprofadmin-adminservices.md) <br/> |Предоставляет доступ к объекту администрирования службы сообщений для внесения изменений в службы сообщений в профиле.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

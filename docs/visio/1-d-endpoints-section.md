@@ -1,5 +1,5 @@
 ---
-title: Раздел "Одномерные конечные точки"
+title: 1-D Endpoints Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,16 +8,16 @@ f1_keywords:
 - Vis_DSS.chm2000
 localization_priority: Normal
 ms.assetid: 527fa1e1-fb4d-0e56-eab6-ee880de8d140
-description: Содержит координаты x и y-начальной точки и конечной точки одномерной фигуры. В этом разделе отображается только 1 D фигур.
-ms.openlocfilehash: 583dca94a69461f8ff87a50430e53295a64a1304
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Содержит координаты x и y начальной и конечной точек фигуры 1 – D. Этот раздел отображается только для одномерной фигуры.
+ms.openlocfilehash: b2e2aa8176812ccc983a8ccb844c7c5068ac3cf4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813119"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346265"
 ---
-# <a name="1-d-endpoints-section"></a>Раздел "Одномерные конечные точки"
+# <a name="1-d-endpoints-section"></a>1-D Endpoints Section
 
-Содержит координаты x и y-начальной точки и конечной точки одномерной фигуры. В этом разделе отображается только 1 D фигур.
+Содержит координаты x и y начальной и конечной точек фигуры 1 – D. Этот раздел отображается только для одномерной фигуры.
   
 

@@ -1,5 +1,5 @@
 ---
-title: RefBy_Type complexType ('Visio XML»)
+title: Рефби_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: e2990281-6410-5a35-2b28-3a8b33246c73
 ms.openlocfilehash: ebfc84b2e7eb88078b3b8010f0a7001e90a9cb31
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348323"
 ---
-# <a name="refbytype-complextype-visio-xml"></a>RefBy_Type complexType ('Visio XML»)
+# <a name="refbytype-complextype-visio-xml"></a>Рефби_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -51,7 +51,7 @@ ms.locfileid: "25383486"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|T  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Д  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

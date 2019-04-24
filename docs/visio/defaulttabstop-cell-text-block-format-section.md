@@ -1,5 +1,5 @@
 ---
-title: Ячейка DefaultTabstop (раздел "Формат текстового блока")
+title: DefaultTabstop Cell (Text Block Format Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - vis_sdr.chm220
 localization_priority: Normal
 ms.assetid: 3b3e458a-206c-8699-8bf7-da80f4350706
-description: Задает интервал табуляции по умолчанию в блоке текста.
-ms.openlocfilehash: 2b9c2c5b03da98b30e338a250b56091479067955
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет интервал по умолчанию для табуляции в текстовом блоке.
+ms.openlocfilehash: 1ae923f6373b9cee76238b1fb27ec5eb3acb43ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813591"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360272"
 ---
-# <a name="defaulttabstop-cell-text-block-format-section"></a>Ячейка DefaultTabstop (раздел "Формат текстового блока")
+# <a name="defaulttabstop-cell-text-block-format-section"></a>DefaultTabstop Cell (Text Block Format Section)
 
-Задает интервал табуляции по умолчанию в блоке текста. 
+Определяет интервал по умолчанию для табуляции в текстовом блоке. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Значение по умолчанию — 0,5 дюйма для документов, созданных в Британская и 1,5 см для документов, созданных в метрическая система мер.
+Значение по умолчанию — 0,5 дюйма для документов, созданных в Империал единицах, и 1,5 сантиметра для документов, созданных в метрических единицах.
   
-Чтобы получить ссылку на ячейку DefaultTabstop по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку DefaultTabstop по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |DefaultTabstop  <br/> |
+|Имя ячейки:  <br/> |DefaultTabstop  <br/> |
    
-Для получения ссылки на ячейки DefaultTabstop по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку DefaultTabstop по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowText** <br/> |
-|Индекс ячейки:  <br/> |**visTxtBlkDefaultTabStop** <br/> |
+|Индекс строки:  <br/> |**Висровтекст** <br/> |
+|Индекс ячейки:  <br/> |**Висткстблкдефаулттабстоп** <br/> |
    
 

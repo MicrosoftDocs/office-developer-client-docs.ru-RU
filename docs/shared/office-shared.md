@@ -7,11 +7,11 @@ ms.assetid: 1c4937c4-0998-4f81-a994-50d3dd54727c
 description: Здесь вы найдете инструкции, примеры кода, документацию по API и пакетам SDK, справочные материалы по VBA, учебные материалы и технические статьи, посвященные разработке решений и настройке Office.
 localization_priority: Priority
 ms.openlocfilehash: 758d0b25457089de0d611d41fa962e7323985abe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351697"
 ---
 # <a name="office-shared"></a>Ресурсы по Office
 

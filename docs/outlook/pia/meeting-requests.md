@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b40dfef612fb43a77c4ffaee9ea0ee773c81a39d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351046"
 ---
 # <a name="meeting-requests"></a>Приглашения на собрания
 
@@ -20,7 +20,7 @@ ms.locfileid: "28723000"
 
 ## <a name="in-this-section"></a>В этой статье
 
-|Раздел|Описание|
+|Статья|Описание|
 |:----|:----------|
 |[Создание приглашения на собрание, добавление получателей и указание расположения](how-to-create-a-meeting-request-add-recipients-and-specify-a-location.md)  |Создание элемента встречи в виде приглашения на собрание, определение времени, получателей и места проведения собрания, а также отображение встречи в инспекторе.|
 |[Получение организатора собрания](how-to-get-the-organizer-of-a-meeting.md)  |Возвращение программным способом организатора собрания.|

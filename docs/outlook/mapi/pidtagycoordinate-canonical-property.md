@@ -1,5 +1,5 @@
 ---
-title: Каноническое свойство PidTagYCoordinate
+title: Каноническое свойство Пидтагикурдинате
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 879960a8f61973b160c86eb4a473bf05bcd918fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ab90b05f8bd92f4cfd90f84078691a293ae159b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350668"
 ---
-# <a name="pidtagycoordinate-canonical-property"></a>Каноническое свойство PidTagYCoordinate
+# <a name="pidtagycoordinate-canonical-property"></a>Каноническое свойство Пидтагикурдинате
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит позицию (левый верхний угол) элемента управления поля диалогового окна в диалоговое окно Windows единиц измерения по оси y.
+Содержит координату y начальной позиции (верхнего левого угла) элемента управления "диалоговое окно" в стандартных единицах диалогового окна Windows.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_YPOS  <br/> |
+|Связанные свойства:  <br/> |ПР_ИПОС  <br/> |
 |Идентификатор:  <br/> |0x3F06  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Таблица отображения MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), это свойство, **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) и свойства **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) положение и размер элемента управления.
+Свойство **пр_кспос** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), данное свойство, **Пр_делтакс** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) и **пр_делтай** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) позиционируется и заменяют размер элемента управления.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

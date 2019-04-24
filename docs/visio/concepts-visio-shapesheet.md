@@ -1,32 +1,32 @@
 ---
-title: Основные понятия (таблицы свойств фигуры Visio)
+title: Основные понятия (таблица свойств фигуры Visio)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 245166ce-1cb6-634b-c763-bb717a940eec
-description: 'На этой странице навигации приведены ссылки на разделы Обзор возможностей программирования в Visio. Щелкните ссылки ниже или используйте оглавление для перехода в следующих разделах:'
-ms.openlocfilehash: b385eb3228b015a1dca3df9defa5579e3d7da533
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Эта страница навигации содержит ссылки на общие разделы, посвященные программированию в Visio. Щелкните ссылки ниже или используйте содержание, чтобы перейти к следующим разделам:'
+ms.openlocfilehash: fef26adf718b883ef2dbc75fc1f3b9cf1b143386
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358620"
 ---
-# <a name="concepts-visio-shapesheet"></a>Основные понятия (таблицы свойств фигуры Visio)
+# <a name="concepts-visio-shapesheet"></a>Основные понятия (таблица свойств фигуры Visio)
 
-На этой странице навигации приведены ссылки на разделы Обзор возможностей программирования в Visio. Щелкните ссылки ниже или используйте оглавление для перехода в следующих разделах:
+Эта страница навигации содержит ссылки на общие разделы, посвященные программированию в Visio. Щелкните ссылки ниже или используйте содержание, чтобы перейти к следующим разделам:
   
-- [Сведения о ссылках на ячейку](about-cell-references.md)
+- [Сведения о ссылках на ячейки](about-cell-references.md)
     
-- [Сведения о денежных константах](about-currency-constants.md)
+- [Сведения о константах денежных единиц](about-currency-constants.md)
     
 - [Сведения о значениях даты, времени и продолжительности](about-date-time-and-duration-values.md)
     
 - [Сведения о значениях ошибок](about-error-values.md)
     
-- [Сведения о форматировании изображений](about-format-pictures.md)
+- [Сведения о форматах изображений](about-format-pictures.md)
     
 - [Сведения о формулах](about-formulas.md)
     
@@ -34,16 +34,16 @@ ms.locfileid: "19813443"
     
 - [Сведения об операторах](about-operators.md)
     
-- [О параметрах безопасности и выполнении кода в Visio](about-security-settings-and-running-code-in-visio-shapesheet.md)
+- [Сведения о параметрах безопасности и выполнении кода в Visio](about-security-settings-and-running-code-in-visio-shapesheet.md)
     
 - [Сведения о строках](about-strings.md)
     
 - [Сведения об окне трассировки формул](about-the-formula-tracing-window.md)
     
-- [Сведения об электронной таблице свойств фигуры](about-the-shapesheet-spreadsheet.md)
+- [О таблице таблицы свойств фигуры](about-the-shapesheet-spreadsheet.md)
     
-- [Сведения об окне обозревателя стилей](about-the-style-explorer-window.md)
+- [Сведения о окне "Обозреватель стилей"](about-the-style-explorer-window.md)
     
-- [О единицах измерения](about-units-of-measure-visio-shapesheet-reference.md)
+- [Сведения об единицах измерения](about-units-of-measure-visio-shapesheet-reference.md)
     
 

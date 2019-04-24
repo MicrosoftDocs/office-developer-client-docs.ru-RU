@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockThemeEffects (раздел "Защита")
+title: LockThemeEffects Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,31 +8,31 @@ f1_keywords:
 - vis_sdr.chm70002
 localization_priority: Normal
 ms.assetid: 84179718-d7a6-d503-08f2-213571bf108f
-ms.openlocfilehash: 41c9e9c021c5ad954c16599f9e376063655ffa07
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 8d707d4a87371dc457deae168a84d968f165f4fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348309"
 ---
-# <a name="lockthemeeffects-cell-protection-section"></a>Ячейка LockThemeEffects (раздел "Защита")
+# <a name="lockthemeeffects-cell-protection-section"></a>LockThemeEffects Cell (Protection Section)
 
 Запрещает применение эффектов темы к фигуре. 
   
-Соответствует параметру **из эффекты темы** флажок в диалоговом окне " **Защита** ". 
+Соответствует параметру **из списка "эффекты темы** " в диалоговом окне " **Защита** ". 
   
-Для указания операций со временем ячейки LockThemeColors по имени из другой формулы или из программы, с помощью свойства **CellsU** , используйте: 
+Чтобы сослаться на каждую ячейку LockThemeColors по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |LockThemeEffects  <br/> |
+|Имя ячейки:  <br/> |LockThemeEffects  <br/> |
    
-Для ссылки на ячейки LockThemeEffects по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы сослаться на ячейку LockThemeEffects по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowLock** <br/> |
-|Индекс ячейки:  <br/> |**visLockThemeEffects** <br/> |
+|Индекс строки:  <br/> |**Висровлокк** <br/> |
+|Индекс ячейки:  <br/> |**Вислокксемиффектс** <br/> |
    
 

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3b169eb1baadee92c08bcb68726ae4d18a9d79d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723070"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349394"
 ---
 # <a name="get-information-about-the-current-user"></a>Получение сведений о текущем пользователе
 
@@ -25,7 +25,7 @@ ms.locfileid: "28723070"
 
 Чтобы получить объект [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) из объекта [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)), вызовите метод [GetExchangeUser()](https://msdn.microsoft.com/library/bb611808\(v=office.15\)) для объекта **AddressEntry**. В следующей процедуре GetCurrentUserInfo получает свойство [AddressEntry](https://msdn.microsoft.com/library/bb644359\(v=office.15\)) для объекта [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)), используя свойство [CurrentUser](https://msdn.microsoft.com/library/bb622574\(v=office.15\)). Если объект **AddressEntry** представляет пользователя почтового ящика Exchange, GetCurrentUserInfo вызывает метод **GetExchangeUser**, и возвращается объект **ExchangeUser**. Свойства [Name](https://msdn.microsoft.com/library/bb622941\(v=office.15\)), [PrimarySmtpAddress](https://msdn.microsoft.com/library/bb645506\(v=office.15\)), [JobTitle](https://msdn.microsoft.com/library/bb645451\(v=office.15\)), [Department](https://msdn.microsoft.com/library/bb623789\(v=office.15\)), [OfficeLocation](https://msdn.microsoft.com/library/bb611429\(v=office.15\)), [BusinessTelephoneNumber](https://msdn.microsoft.com/library/bb612294\(v=office.15\)) и [MobileTelephoneNumber](https://msdn.microsoft.com/library/bb609292\(v=office.15\)) записываются в прослушиватели трассировки коллекции [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0fe79f78ba1aab1e54df0b0bc88fa0c55c73e187
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357402"
 ---
 # <a name="enumerate-folders"></a>Перечисление папок
 
@@ -25,7 +25,7 @@ ms.locfileid: "28710254"
 
 В следующем примере кода метод EnumerateFoldersInDefaultStore сначала получает корневую папку хранилища по умолчанию, используя метод [GetRootFolder()](https://msdn.microsoft.com/library/bb645807\(v=office.15\)). Затем для корневой папки вызывается метод EnumerateFolders. EnumerateFolders берет корневую папку и перебирает папки хранилища по умолчанию, представленного корневой папкой. EnumerateFolders сначала использует свойство [Folders](https://msdn.microsoft.com/library/bb646854\(v=office.15\)), чтобы получить вложенные папки объекта [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) корневой папки. Затем рекурсивно вызывается EnumerateFolders, чтобы перечислить все папки в иерархии. Наконец, EnumerateFolders записывает свойство [FolderPath](https://msdn.microsoft.com/library/bb647409\(v=office.15\)) каждой папки **Folder** в прослушиватели трассировки коллекции [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -61,5 +61,5 @@ private void EnumerateFolders(Outlook.Folder folder)
 
 ## <a name="see-also"></a>См. также
 
-- [Папки](folders.md)
+- [Folders](folders.md)
 

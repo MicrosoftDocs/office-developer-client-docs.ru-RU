@@ -1,5 +1,5 @@
 ---
-title: Шаблоны OSC примера
+title: Примеры шаблонов OSC
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,37 +7,37 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 896932d7-bd71-4a55-aa58-394a9ccf0d5e
-description: 'Наглядные Outlook Social Connector 2013 Справочник поставщика по являются несколько шаблонов поставщика C++, C# и Visual Basic. Вы можете загрузить шаблоны в Outlook Social Connector 2013: шаблоны поставщика.'
+description: 'Справочник по поставщику Outlook Social Connector 2013 — это несколько шаблонов поставщиков в C++, C# и Visual Basic. Шаблоны можно скачать в Outlook Social Connector 2013: шаблоны поставщика.'
 ms.openlocfilehash: e99808247fdf9bb2f06018e5ef54e6b9dc23ff3b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395926"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355120"
 ---
-# <a name="osc-sample-templates"></a>Шаблоны OSC примера
+# <a name="osc-sample-templates"></a>Примеры шаблонов OSC
 
-Наглядные Outlook Social Connector 2013 Справочник поставщика по являются несколько шаблонов поставщика C++, C# и Visual Basic. Вы можете загрузить шаблоны в [Outlook Social Connector 2013: шаблоны поставщика](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+Справочник по поставщику Outlook Social Connector 2013 — это несколько шаблонов поставщиков в C++, C# и Visual Basic. Шаблоны можно скачать в [Outlook Social Connector 2013: шаблоны поставщика](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
   
-Шаблоны поставщика доступны для использования при создании поставщика в языке. Для сведения к минимуму размер поставщика и сократить время загрузки поставщика, необходимо создать поставщик рабочей с помощью C++. При создании поставщика для пользователей, имеющих .NET Framework 3.5 с пакетом обновления 1 или более поздней версии .NET Framework, установленных на их компьютерах, также могут быть полезны написания управляемого поставщика, с помощью C# или Visual Basic.
+Шаблоны поставщика доступны для использования при создании поставщика на выбранном языке. Чтобы свести к минимуму размер загружаемого поставщика и уменьшить время загрузки поставщика, необходимо создать поставщика производства с помощью C++. Если вы разрабатываете поставщик для пользователей с .NET Framework 3,5 с ПАКЕТом обновления 1 (SP1) или более поздней версией .NET Framework, установленной на их компьютерах, вы также можете написать управляемый поставщик с помощью C# или Visual Basic.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
-- [Загрузка примеров](downloading-the-samples.md): описывается, как загрузить и установить пример поставщика и шаблоны.
+- [Загрузка примеров](downloading-the-samples.md): в этой статье описывается загрузка и Установка образца поставщика и шаблонов.
     
-- [Применение поставщика образец шаблона](applying-a-sample-provider-template.md): описывается, как использовать образцы шаблонов поставщика.
+- [Применение образца шаблона поставщика](applying-a-sample-provider-template.md): инструкции по использованию шаблонов поставщика.
     
 ## <a name="reference"></a>Справочные материалы
 
-- [Справочник поставщика по Outlook Social Connector](outlook-social-connector-provider-reference-0.md)
+- [Справочник по поставщику Outlook Social Connector](outlook-social-connector-provider-reference-0.md)
   
 ## <a name="related-sections"></a>Связанные разделы
 
 - [Начало разработки поставщика Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md)
   
-- [Типичные последовательности вызовов OSC](osc-typical-calling-sequences.md)
+- [ПереOSC типичные последовательности вызовов](osc-typical-calling-sequences.md)
   
-- [Разработка поставщика с использованием схемы XML для OSC](developing-a-provider-with-the-osc-xml-schema.md)
+- [Разработка поставщика с помощью XML-схемы OSC](developing-a-provider-with-the-osc-xml-schema.md)
   
 - [Отладка поставщика](debugging-a-provider.md)
   

@@ -1,5 +1,5 @@
 ---
-title: IABLogonUnadvise
+title: Иаблогонунадвисе
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 3e506b29-c7e3-40d6-a08b-22fa87088c2d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 3fbf8b423cfd4206a0143b5639c85dbcacce2fae
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fe87de4466413e317edea5d358c9e4769d0c5593
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348883"
 ---
 # <a name="iablogonunadvise"></a>IABLogon::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22570984"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Запрос уведомления, которые ранее были настроены с помощью вызова метода [IABLogon::Advise](iablogon-advise.md) . 
+ОтМеняет уведомления, которые ранее были настроены с помощью вызова метода [иаблогон:: Advise](iablogon-advise.md) . 
   
 ```cpp
 HRESULT Unadvise(
@@ -35,25 +35,25 @@ HRESULT Unadvise(
 
 ## <a name="parameters"></a>Параметры
 
- _ulConnection_
+ _Улконнектион_
   
-> [in] Номер подключения, связанный с регистрацию active уведомлений. Предыдущий вызов **уведомлений** необходимо возвращается значение _ulConnection_.
+> возврата Номер подключения, связанный с активной регистрацией уведомлений. Предыдущим вызовом метода **advise** должно быть возвращено значение _улконнектион_.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Регистрация уведомлений успешно отменена.
+> Регистрация уведомления успешно отменена.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-MAPI вызывает метод **Unadvise** для отмены регистрации уведомлений для контейнера, системы обмена сообщениями пользователя или объект списка рассылки. 
+MAPI вызывает метод **unadvise** для отмены регистрации уведомления для контейнера, пользователя обмена сообщениями или объекта списка рассылки. 
   
-## <a name="notes-to-implementers"></a>Примечания для реализующих
+## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Реализация **Unadvise** будут зависеть от ли поддерживать уведомлений с помощью интерфейса MAPI или вручную. Если поддерживает MAPI, вызовите метод [IMAPISupport::Unsubscribe](imapisupport-unsubscribe.md) для отмены регистрации. Если другой поток находится в процессе вызова метода [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) приемник уведомлений, его можно отложить до вернул **OnNotify** . 
+Ваша реализация метода **unadvise** будет зависеть от того, поддерживает ли вы уведомление с помощью MAPI или вручную. Если поддержка MAPI обеспечивает поддержку, вызовите метод [имаписуппорт:: unsubscribe](imapisupport-unsubscribe.md) для отмены регистрации. Если другой поток находится в процессе вызова метода [имапиадвисесинк:: OnNotify](imapiadvisesink-onnotify.md) приемника уведомлений, его можно задержать, пока не будет **** возвращено значение OnNotify. 
   
-Дополнительные сведения о процессе уведомления содержатся в разделе [Уведомление о событии в MAPI](event-notification-in-mapi.md). Для получения сведений об использовании [IMAPISupport: IUnknown](imapisupportiunknown.md) методы для поддержки уведомлений, видеть [Поддержка уведомления о событии](supporting-event-notification.md).
+Дополнительные сведения о процессе уведомления можно найти в статье [уведомление о событии в MAPI](event-notification-in-mapi.md). Сведения об использовании методов [имаписуппорт: IUnknown](imapisupportiunknown.md) для поддержки уведомлений см. [](supporting-event-notification.md)
   
 ## <a name="see-also"></a>См. также
 

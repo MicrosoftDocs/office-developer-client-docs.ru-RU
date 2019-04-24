@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9fc50166674ee7b9699ef8e29c5ff1e54db705ad
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349506"
 ---
 # <a name="create-an-annual-recurring-appointment-that-uses-a-yearnth-pattern"></a>Создание ежегодно повторяющейся встречи, в которой используется шаблон YearNth
 
@@ -31,7 +31,7 @@ ms.locfileid: "28712157"
 
 В представленном ниже примере кода процедура RecurringYearNthAppointment создает встречу с шаблоном повторения YearNth. Процедура RecurringYearNthAppointment сначала создает повторяющуюся встречу путем создания объекта [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)). После этого она получает расписание повторения с помощью метода [GetRecurrencePattern()](https://msdn.microsoft.com/library/bb652582\(v=office.15\)). Затем задаются следующие свойства RecurrencePattern: RecurrenceType, DayOfWeekMask, [MonthOfYear](https://msdn.microsoft.com/library/bb610515\(v=office.15\)), [Instance](https://msdn.microsoft.com/library/bb645269\(v=office.15\)), [Occurrences](https://msdn.microsoft.com/library/bb611303\(v=office.15\)), [Duration](https://msdn.microsoft.com/library/bb644889\(v=office.15\)), [PatternStartDate](https://msdn.microsoft.com/library/bb624492\(v=office.15\)), [StartTime](https://msdn.microsoft.com/library/bb646324\(v=office.15\)) и [EndTime](https://msdn.microsoft.com/library/bb644544\(v=office.15\)). Свойство MonthOfYear может принимать числовые значения от 1 до 12, где каждое число представляет соответствующий месяц. После задания свойств процедура RecurringYearNthAppointment сохраняет встречу и отображает ее с расписанием "Происходит в первый понедельник июня с 06.01.2007 по 06.06.2016 с 14:00 до 17:00".
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением public Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -1,5 +1,5 @@
 ---
-title: Ячейка FlipX (раздел "Преобразование фигуры")
+title: FlipX Cell (Shape Transform Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251197
 localization_priority: Normal
 ms.assetid: 8d4f5e14-4f17-05a6-4092-5a102c9dc85f
-description: Указывает, является ли фигура отразилось по горизонтали.
-ms.openlocfilehash: fc014ff6c5a3650361d6afd478a5858f84fb5c47
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Указывает, была ли фигура отражена по горизонтали.
+ms.openlocfilehash: b7a4a15e5a7759eddcda3ec391a81f14df545691
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346188"
 ---
-# <a name="flipx-cell-shape-transform-section"></a>Ячейка FlipX (раздел "Преобразование фигуры")
+# <a name="flipx-cell-shape-transform-section"></a>FlipX Cell (Shape Transform Section)
 
-Указывает, является ли фигура отразилось по горизонтали.
+Указывает, была ли фигура отражена по горизонтали.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | По горизонтали отразилось фигуры.  <br/> |
-| FALSE  <br/> | Фигура не отразилось по горизонтали.  <br/> |
+| TRUE  <br/> | Фигура была зеркально отражена по горизонтали.  <br/> |
+| FALSE  <br/> | Фигура не была отражена по горизонтали.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Чтобы получить ссылку на ячейку FlipX по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку FlipX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | FlipX  <br/> |
+| Имя ячейки:  <br/> | FlipX  <br/> |
    
-Для получения ссылки на ячейки FlipX по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку FlipX по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowXFormOut** <br/> |
-| Индекс ячейки:  <br/> |**visXFormFlipX** <br/> |
+| Индекс строки:  <br/> |**Висровксформаут** <br/> |
+| Индекс ячейки:  <br/> |**Висксформфлипкс** <br/> |
    
 

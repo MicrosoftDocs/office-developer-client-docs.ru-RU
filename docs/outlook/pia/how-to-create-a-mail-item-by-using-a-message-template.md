@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cdd9654187685ceab1062fb4ae1882b2d48c68d4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711576"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349541"
 ---
 # <a name="create-a-mail-item-by-using-a-message-template"></a>Создание почтового элемента с помощью шаблона сообщения
 
@@ -66,5 +66,5 @@ private void CreateItemFromTemplate()
 
 ## <a name="see-also"></a>См. также
 
-- [Mail](mail.md)
+- [Почта](mail.md)
 

@@ -13,53 +13,53 @@ api_type:
 ms.assetid: 7b6193cb-612b-408e-b9bc-285df313e2cc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 24ccd25a1d799f3146bd230e5156be0051104f47
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345383"
 ---
 # <a name="pidlidappointmenttimezonedefinitionenddisplay-canonical-property"></a>Каноническое свойство PidLidAppointmentTimeZoneDefinitionEndDisplay
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит поток, который соответствует сохраненного формата [TZDEFINITION](https://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) структуры, который хранит описание часовой пояс, который используется при выборе время окончания встречи экземпляра или приглашения на собрание. 
+Содержит поток, который сопоставляется с сохраненным форматом структуры [TZDEFINITION](https://msdn.microsoft.com/library/0ae21571-2299-6407-807c-428668bb6798%28Office.15%29.aspx) , в котором хранится описание для часового пояса, используемого при выборе времени окончания встречи с одним экземпляром или приглашения на собрание. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidApptTZDefEndDisplay  <br/> |
-|Набор свойств:  <br/> |PSETID_Appointment  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x0000825F  <br/> |
+|Связанные свойства:  <br/> |Диспидаппттздефенддисплай  <br/> |
+|Набор свойств:  <br/> |Псетид_аппоинтмент  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x0000825F  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Календарь  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Время начала и время окончания экземпляра хранилища Microsoft Office Outlook 2003 или более ранних версий и решения, основанные на объекты совместной работы (CDO) 1.2.1 и, не запускайте средство обновления календаря Outlook или Microsoft Exchange Server встречи и приглашения на собрания в формате UTC. Эти клиенты не следует хранить какие-либо сведения для часового пояса, в котором создается встречи или приглашения на собрание.
+Microsoft Office Outlook 2003 или более ранней версии, а также решения, основанные на объектах данных совместной работы (CDO) 1.2.1 и не запускают средство обновления календаря для Outlook или Microsoft Exchange Server, сохраняют время начала и окончания одного экземпляра. встречи и приглашения на собрания в формате всемирного координированного времени (UTC). Эти клиенты не хранят никакие сведения о часовом поясе, в котором создается приглашение на встречу или собрание.
   
-Версии Microsoft Outlook, начиная с Microsoft Office Outlook 2007 и решения, основанные на CDO 1.2.1 (en), ранее выполненные календаря Outlook или Exchange Server обновление использования средства **dispidApptTZDefEndDisplay** для хранения часовой пояс времени окончания. **dispidApptTZDefEndDisplay** показывает встречи или собрания в исходный часовой пояс, оно было запланировано и определяет корректировки время окончания при изменении правила часового пояса. Если это свойство не найден, используется часовой пояс, указанного в свойстве **dispidApptTZDefStartDisplay** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)). Если **dispidApptTZDefStartDisplay** отсутствует или является недопустимым, используется значение текущего часового пояса. **dispidApptTZDefEndDisplay** используется только для отображения и не используется в расширения повторения. 
+Версии Microsoft Outlook с Microsoft Office Outlook 2007 и решения, основанные на CDO 1.2.1, на которых запущено средство обновления календаря Outlook или Exchange Server, используют **диспидаппттздефенддисплай** для хранения часового пояса времени окончания. **диспидаппттздефенддисплай** показывает встречу или собрание в исходном часовом поясе, которое было запланировано, и определяет, следует ли корректировать время окончания при изменении правил в часовом поясе. Если это свойство отсутствует, используется часовой пояс, заданный свойством **диспидаппттздефстартдисплай** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)). Если **диспидаппттздефстартдисплай** отсутствует или не является допустимым, подразумевается текущий местный часовой пояс. **диспидаппттздефенддисплай** используется только для отображения и не используется в развертывании повторений. 
   
-Средство синтаксического анализа необходимо следить за тем, при считывании потока, полученный из **dispidApptTZDefEndDisplay**или для сохранения **TZDEFINITION** поток для, направленных на двоичного свойства, такие как **dispidApptTZDefEndDisplay**. Для получения дополнительных сведений см [Сохранение TZDEFINITION поток, чтобы зафиксировать двоичного свойства](https://msdn.microsoft.com/library/0dec535d-d48f-39a5-97d5-0bd109134b3b%28Office.15%29.aspx).
+Синтаксический анализатор должен быть внимательным при чтении потока, полученного из **диспидаппттздефенддисплай**, или при сохранении **TZDEFINITION** в потоке для фиксации в двоичном свойстве, например **диспидаппттздефенддисплай**. Дополнительные сведения [о СОХРАНЕНИИ TZDEFINITION в потоке для фиксации в двоичном свойстве](https://msdn.microsoft.com/library/0dec535d-d48f-39a5-97d5-0bd109134b3b%28Office.15%29.aspx).
   
- **dispidApptTZDefEndDisplay** указывает часовой пояс информацию для свойства **dispidApptEndWhole** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). Формат, ограничений и вычисление **dispidApptTZDefEndDisplay** совпадают, указанный в свойстве **dispidApptTZDefStartDisplay** . 
+ **диспидаппттздефенддисплай** определяет сведения о часовом поясе для свойства **диспидапптендвхоле** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)). Формат, ограничения и вычисление **диспидаппттздефенддисплай** совпадают с указанными в свойстве **диспидаппттздефстартдисплай** . 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответы.
+> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -69,7 +69,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

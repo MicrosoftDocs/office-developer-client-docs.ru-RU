@@ -8,20 +8,20 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2e502d28-ae09-49d9-a35a-5d77acdcd6f4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: eb182d9cc51c196558f9e9192a65352e87372bf0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4775de0707eb90549f07525e3aa54ec5842f6050
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357136"
 ---
 # <a name="mapiofflineaggregateinfo"></a>MAPIOFFLINE_AGGREGATEINFO
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Структура используется с [HrCreateOfflineObj](hrcreateofflineobj.md). 
+Структура используется с [хркреатеоффлинеобж](hrcreateofflineobj.md). 
   
 ```cpp
 typedef struct
@@ -34,17 +34,17 @@ typedef struct
 
 ## <a name="members"></a>Members
 
- **ulSize**
+ **Улсизе**
   
 > Размер структуры.
     
- **pOuterObj**
+ **Паутеробж**
   
-> Указатель на объект IUnknown, на котором собирается этот объект. Это позволяет вызовы QueryInterface, проходящих через созданный объект.
+> Указатель на объект IUnknown, на который выполняется статистическое вычисление этого объекта. Это позволяет всем вызовам QueryInterface передаваться на созданный объект.
     
- **pRefTrackRoot**
+ **Префтраккрут**
   
-> Должен иметь значение NULL.
+> Должно иметь значение NULL.
     
 ## <a name="see-also"></a>См. также
 

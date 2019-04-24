@@ -13,54 +13,54 @@ api_type:
 ms.assetid: 3179442c-6499-464a-93af-eb0a7a5b0d30
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6fa0579dcd98a0d819e58e62d8a42cb2972a9d1e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359761"
 ---
 # <a name="pidtagscheduleinfomonthstentative-canonical-property"></a>Каноническое свойство PidTagScheduleInfoMonthsTentative
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит месяцев, помеченные под вопросом в сообщении о доступности.
+Содержит месяцы, помеченные под вопросом в сообщении о занятости.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_SCHDINFO_MONTHS_TENTATIVE  <br/> |
+|Связанные свойства:  <br/> |ПР_СЧДИНФО_МОНСС_ТЕНТАТИВЕ  <br/> |
 |Идентификатор:  <br/> |0x6851  <br/> |
-|Тип данных:  <br/> |PT_MV_LONG  <br/> |
-|Область:  <br/> |Обмен сведениями о доступности  <br/> |
+|Тип данных:  <br/> |ПТ_МВ_ЛОНГ  <br/> |
+|Область:  <br/> |Сведения о доступности  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Число значений в это свойство должно быть между 0 и число месяцев, к которому применяется публикации интервал, заданный период между **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) и **PR_FREEBUSY_PUBLISH_END **Свойства ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)).
+Число значений в этом свойстве должно быть между нулем и числом месяцев, охваченных диапазоном публикации, который является периодом между **пр_фрибуси_публиш_старт** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) и **пр_фрибуси_публиш_енд **Свойства ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)).
   
-Каждое значение этого свойства имеет месяц и год, закодированный в нем. Это именно рассчитывается, используя выражение «году × 16 + месяц» где года, месяца на основе григорианский календарь. Значения сортируются в порядке возрастания и кодируются в формате с прямым. Если событие распространено на несколько месяцев или нескольких лет должно быть одно значение для каждого месяца, которые лежат в диапазоне от публикации. Если нет под вопросом событий в диапазоне публикации, затем это свойство и **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) не должен быть установлен или должен быть удален, если они существуют. В противном случае необходимо установить это свойство.
+Каждое значение этого свойства содержит месяц и год, закодированный в нем. Он вычисляется с помощью выражения "Year × 16 + month", где год и месяц основываются на григорианском календаре. Значения сортируются в возрастающем порядке и кодируются в формате с прямым порядком байтов. Если событие распространяется в течение нескольких месяцев или несколько лет, для каждого из месяцев, которые попадают в диапазон публикации, должно быть по одному значению. Если в диапазоне публикации нет предварительных событий, то это свойство и **пр_счдинфо_фрибуси_тентативе** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) не должны быть заданы или должны быть удалены, если они уже существуют. В противном случае необходимо задать значение этого свойства.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS — ОКСОПФФБ]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
-> Публикует доступности пользователя или ресурса.
+> Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

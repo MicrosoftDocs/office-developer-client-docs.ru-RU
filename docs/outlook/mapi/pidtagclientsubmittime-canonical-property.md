@@ -13,48 +13,48 @@ api_type:
 ms.assetid: d46e1063-6421-410d-a445-7477fea42089
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 851441e419c17d8f5fef27c785ea4b829a4ae443
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345719"
 ---
 # <a name="pidtagclientsubmittime-canonical-property"></a>Каноническое свойство PidTagClientSubmitTime
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит дату и время отправки сообщения отправителя сообщения. 
+Содержит дату и время отправки сообщения отправителем. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CLIENT_SUBMIT_TIME  <br/> |
+|Связанные свойства:  <br/> |ПР_КЛИЕНТ_СУБМИТ_ТИМЕ  <br/> |
 |Идентификатор:  <br/> |0x0039  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Время сообщения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Поставщик хранения задается **PR_CLIENT_SUBMIT_TIME** времени, который клиентское приложение вызывать [IMessage::SubmitMessage](imessage-submitmessage.md). 
+Поставщик хранилища устанавливает **пр_клиент_субмит_тиме** на время, когда клиентское приложение [iMessage:: субмитмессаже](imessage-submitmessage.md). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

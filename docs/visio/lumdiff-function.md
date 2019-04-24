@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6a79f124-20a2-e119-4c58-25da99ecc555
-description: Возвращает разницу яркости цветов цвет1 и цвет2.
-ms.openlocfilehash: 032c1f40e1d33388404f4015740a382271fa8a6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает разницу в яркости между color1 и color2.
+ms.openlocfilehash: 654ce6a92402278d8b6a6db1e03d0a6fa1f4575f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814217"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357997"
 ---
 # <a name="lumdiff-function"></a>Функция LUMDIFF
 
-Возвращает разницу яркости *цветов цвет1* и *цвет2* . 
+Возвращает разницу в яркости между *color1* и *color2* . 
   
 ## <a name="syntax"></a>Синтаксис
 
-LUMDIFF (** *color1* **, ** *цвет2* **) 
+LUMDIFF (* * *color1* * *, * * *color2* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Microsoft Visio цветовой индекс или значение первого цвета RGB.  <br/> |
-| _цвет2_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Microsoft Visio цветовой индекс или значение второй цвета RGB.  <br/> |
+| _color1_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Цветовой индекс Microsoft Visio или значение RGB для первого цвета.  <br/> |
+| _color2_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Цветовой индекс Microsoft Visio или значение RGB второго цвета.  <br/> |
    
 

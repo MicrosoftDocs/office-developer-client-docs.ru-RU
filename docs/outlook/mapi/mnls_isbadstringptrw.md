@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 293a0700-b950-4fc2-a2e5-148d6c846384
-description: 'Последнее изменение: 20 февраля 2012 г.'
+description: 'Дата последнего изменения: 20 февраля 2012 г.'
 ms.openlocfilehash: 0e64df38afdb8ecce35eb0151d36dde3da35f0a4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356856"
 ---
 # <a name="mnlsisbadstringptrw"></a>MNLS_IsBadStringPtrW
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Проверяет, что указатель на строку широкий действительна.
+Проверяет, является ли указатель на широкую строку допустимым.
   
 ```cpp
 BOOL MNLS_IsBadStringPtrW(
@@ -31,20 +31,20 @@ BOOL MNLS_IsBadStringPtrW(
 
 ## <a name="parameters"></a>Параметры
 
- _lpsz_
+ _лпсз_
   
-> [in] Указатель на строку расширенных символов.
+> возврата Указатель на строку расширенных символов.
     
- _ucchMax_
+ _Укчмакс_
   
-> [in] Максимальная длина строки в символы, включая конца строки.
+> возврата Максимальная длина строки в символах, включая признак конца.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает логическое значение true, если строка неисправно.
+Возвращает логическое значение, равное true, если строка является недопустимой.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Эта функция является [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx). Для получения дополнительных сведений см [IsBadStringPtr](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).
+Эта функция служит оболочкой для [исбадстрингптр](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx). Дополнительные сведения см. в разделе [исбадстрингптр](https://msdn.microsoft.com/library/aa366714%28VS.85%29.aspx).
   
 

@@ -13,61 +13,61 @@ api_type:
 ms.assetid: 91147e85-f440-4463-850b-efc9bdbd36d1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1ea0830a06f303da8243f927e4a07cc744951ca9
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399874"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345439"
 ---
 # <a name="pidlidappointmentcolor-canonical-property"></a>Каноническое свойство PidLidAppointmentColor
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Определяет цвет, используемый при отображении в календаре.
+Указывает цвет, используемый при отображении календаря.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidApptColor  <br/> |
-|Набор свойств:  <br/> |PSETID_Appointment  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008214  <br/> |
+|Связанные свойства:  <br/> |Диспидапптколор  <br/> |
+|Набор свойств:  <br/> |Псетид_аппоинтмент  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008214  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Календарь  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство определяет цвет, используемый при отображении в календаре. Клиент или сервер следует установить это значение для обеспечения обратной совместимости с клиентами, возраст которых. Вместо этого он может отображать календаря на основе значения свойства **ключевые слова** ([PidNameKeywords](pidnamekeywords-canonical-property.md)), как указано в [[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Если задано значение должно быть одно из следующих действий.
+Это свойство указывает цвет, используемый при отображении календаря. Клиент или сервер должен установить это значение для обратной совместимости со старыми клиентами. Вместо этого он может отображать календарь на основе значения свойства Keywords **** ([PidNameKeywords](pidnamekeywords-canonical-property.md)), как указано в [[MS-окскмсг]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx). Если задано значение, значение должно быть одним из следующих.
   
-|**Значение**|**Цвет**|
+|**Значение**|**Color**|
 |:-----|:-----|
-|0x00000000  <br/> |Отсутствует  <br/> |
+|0x00000000  <br/> |Нет  <br/> |
 |0x00000001  <br/> |Красный  <br/> |
 |0x00000002  <br/> |Синий  <br/> |
 |0x00000003  <br/> |Зеленый  <br/> |
-|0x00000004  <br/> |Серый цвет  <br/> |
-|0x00000005  <br/> |Оранжевый  <br/> |
-|0x00000006  <br/> |Голубой  <br/> |
+|0x00000004  <br/> |Серы  <br/> |
+|0x00000005  <br/> |Апельсин  <br/> |
+|0x00000006  <br/> |Cyan  <br/> |
 |0x00000007  <br/> |Оливковый  <br/> |
 |0x00000008  <br/> |Сиреневый  <br/> |
-|0x00000009  <br/> |Сине-зеленый  <br/> |
+|0x00000009  <br/> |Сине-зеленая  <br/> |
 |0x0000000A  <br/> |Желтый  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответы.
+> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -77,7 +77,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

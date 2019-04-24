@@ -1,25 +1,25 @@
 ---
-title: Раздел "Свойства темы"
+title: Theme Properties Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 135c4a12-8ee0-4b70-bb58-572a064ecee4
-description: Представлены значения индекса в настоящее время применяется к документу, включая цвета, шрифта, соединителя и значения эффекты темы.
-ms.openlocfilehash: 91d7d34d5751ceb5a4eab7927d10ccdfa7876cd4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Показывает значения индекса темы, которые в данный момент применены к документу, в том числе значения цвета, шрифта, соединителя и эффектов.
+ms.openlocfilehash: 4ee074e11cea0787ccbe616e97a279ee5e8e20dd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815014"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360587"
 ---
-# <a name="theme-properties-section"></a>Раздел "Свойства темы"
+# <a name="theme-properties-section"></a>Theme Properties Section
 
-Представлены значения индекса в настоящее время применяется к документу, включая цвета, шрифта, соединителя и значения эффекты темы. 
+Показывает значения индекса темы, которые в данный момент применены к документу, в том числе значения цвета, шрифта, соединителя и эффектов. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-На вкладке **Конструктор** или при внесении изменений в ячейках в разделе **Свойства темы** из таблицы свойств фигуры, можно задать значения темы. 
+Вы можете задать значения темы на вкладке " **конструктор** " или внести изменения в ячейки в разделе " **свойства темы** " таблицы свойств фигуры. 
   
 

@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8d0b7b9-2798-4d29-99e4-17da99039361
-description: 'Последнее изменение: 20 февраля 2012 г.'
+description: 'Дата последнего изменения: 20 февраля 2012 г.'
 ms.openlocfilehash: dbb18ce712d7900106f2c8dd18404e47d8bdbdb7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396213"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356849"
 ---
 # <a name="mnlscomparestringw"></a>MNLS_CompareStringW
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Сравнение двух строк Юникод.
+Сравнивает две строки Юникода.
   
 ```cpp
 int MNLS_CompareStringW (
@@ -37,41 +37,41 @@ int MNLS_CompareStringW (
 
  _lcid_
   
-> [in] Идентификатор языкового стандарта. Параметр _Locale_ [CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)подробные определения см.
+> возврата Идентификатор языкового стандарта. Подробные сведения об определениях приведены в параметре _locale языка_ [CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
     
  _dwFlags_
   
-> [in] Флаги, следует ли игнорировать регистр и диакритические знаки. Подробные определения в разделе параметр _dwCmpFlags_ [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
+> возврата Флаги для игнорирования регистра и диакритических знаков. Подробные определения приведены в параметре _Двкмпфлагс_ [компарестринжекс](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
     
  _pstr1_
   
-> [in] Указатель для первой строки Юникод для сравнения.
+> возврата Указатель на первую строку Юникода для сравнения.
     
  _cch1_
   
-> [in] Длина в символах первой строки Юникод, за исключением конечный символ null. Приложение может предоставлять отрицательным значением, если строка символом null. В этом случае функция **MNLS_CompareStringW** определяет продолжительность автоматически. 
+> возврата Длина в символах первой строки Юникода за исключением завершающего знака null. Приложение может предоставить отрицательное значение, если строка завершается нулем. В этом случае функция **мнлс_компарестрингв** определяет длину автоматически. 
     
  _pstr2_
   
-> [in] Указатель на втором строку в кодировке Юникод для сравнения.
+> возврата Указатель на вторую строку Юникода для сравнения.
     
  _cch2_
   
-> [in] Длина в символах второй строки Юникод, за исключением конечный символ null. Приложение может предоставлять отрицательным значением, если строка символом null. В этом случае функция определяет продолжительность автоматически.
+> возврата Длина в символах второй строки Юникода, за исключением завершающего знака null. Приложение может предоставить отрицательное значение, если строка завершается нулем. В этом случае функция определяет длину автоматически.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает значения, описанного для [CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
+Возвращает значения, описанные для [компарестринжекс](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Эта функция является [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** принимает те же параметры и имеет то же самое, что и [CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
+Эта функция служит оболочкой для [компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **Мнлс_компарестрингв** имеет те же параметры и имеет такое же поведение, как и [компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>См. также
 
 
 
-[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
+[Компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
   
-[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
+[Компарестринжекс](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
 

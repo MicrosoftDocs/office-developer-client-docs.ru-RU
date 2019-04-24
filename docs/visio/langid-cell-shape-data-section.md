@@ -1,5 +1,5 @@
 ---
-title: Ячейка LangID (раздел "Данные фигуры")
+title: LangID Cell (Shape Data Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm1033771
 localization_priority: Normal
 ms.assetid: 6bd2781a-d4e7-136f-8996-62ebc5f890ab
-description: Указывает язык, в котором было введено значение данных фигуры.
-ms.openlocfilehash: 696c42483390509474eb82bd8cc0046beee345e8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Указывает язык, на котором было введено значение данных фигуры.
+ms.openlocfilehash: c5a0cca5f71bc5520337ad2bdcf354a2b4affe92
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359033"
 ---
-# <a name="langid-cell-shape-data-section"></a>Ячейка LangID (раздел "Данные фигуры")
+# <a name="langid-cell-shape-data-section"></a>LangID Cell (Shape Data Section)
 
-Указывает язык, в котором было введено значение данных фигуры. 
+Указывает язык, на котором было введено значение данных фигуры. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Список языков, поддерживаемых приложениях системы Microsoft Office в разделе [DocLangID](doclangid-cell-document-properties-section.md) ячейки (раздел свойства документа). 
+Список языков, поддерживаемых приложениями Microsoft Office, представлен в ячейке [DocLangID](doclangid-cell-document-properties-section.md) (раздел "Свойства документа"). 
   
-Для получения ссылки на ячейки LangID по имени, из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LangID по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | Свойства.  *имя* . LangID где свойств.  *имя* — это имя строки  <br/> |
+| Имя ячейки:  <br/> | Установите.  *Name (имя* ). LangID, где prop.  *Name* — имя строки  <br/> |
    
-Для получения ссылки на ячейки LangID по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LangID по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
-| Индекс раздела:  <br/> |**visSectionProp** <br/> |
-| Индекс строки:  <br/> |**visRowProp** +  *i* где *i* = 0, 1, 2...  <br/> |
-| Индекс ячейки:  <br/> |**visCustPropsLangID** <br/> |
+| Индекс раздела:  <br/> |**Виссектионпроп** <br/> |
+| Индекс строки:  <br/> |**висровпроп** +  *i* , где *i* = 0, 1, 2...  <br/> |
+| Индекс ячейки:  <br/> |**Вискустпропслангид** <br/> |
    
 

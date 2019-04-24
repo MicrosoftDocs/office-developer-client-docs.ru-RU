@@ -1,5 +1,5 @@
 ---
-title: IABProvider IUnknown
+title: Иабпровидер IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,36 +12,36 @@ api_type:
 - COM
 ms.assetid: 3f98d982-156d-43d7-8b0b-94d8c24debef
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 742f934e980a2b8627c4e50088a9c23166d1cf6d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 301be39b71c0f04799037fa069cfe18953e216de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348827"
 ---
 # <a name="iabprovider--iunknown"></a>IABProvider : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет метод, войдите в систему на объект поставщик адресной книги, а также способа в недействительное состояние объекта поставщик адресной книги.
+Предоставляет метод для входа в объект поставщика адресных книг и метод для аннулирования объекта поставщика адресных книг.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapispi.h  <br/> |
-|Предоставляемые:  <br/> |Адресной книги поставщика объектов  <br/> |
-|Реализованный:  <br/> |Поставщиками адресных книг  <br/> |
-|Вызывается:  <br/> |MAPI  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IABProvider  <br/> |
-|Тип указателя:  <br/> |LPABPROVIDER  <br/> |
+|Файл заголовка:  <br/> |Маписпи. h  <br/> |
+|Предоставлено:  <br/> |Объекты поставщиков адресных книг  <br/> |
+|Реализовано в:  <br/> |Поставщики адресных книг  <br/> |
+|Вызывающая сторона:  <br/> |MAPI  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_иабпровидер  <br/> |
+|Тип указателя:  <br/> |ЛПАБПРОВИДЕР  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[Вход в систему](iabprovider-logon.md) <br/> |Устанавливает подключение к активного сеанса.  <br/> |
-|[Shutdown](iabprovider-shutdown.md) <br/> |Отменяет подключение к активного сеанса.  <br/> |
+|[Logon](iabprovider-logon.md) <br/> |Устанавливает подключение к активному сеансу.  <br/> |
+|[Shutdown](iabprovider-shutdown.md) <br/> |ОтМеняет подключение к активному сеансу.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

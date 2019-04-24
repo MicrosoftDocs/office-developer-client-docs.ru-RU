@@ -13,58 +13,58 @@ api_type:
 ms.assetid: df787b60-2f53-42ac-89b5-1b52c906f472
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7c304de3184e49044d3f83cef1f1ebaac019b2ee
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392783"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360098"
 ---
 # <a name="pidtagalternaterecipient-canonical-property"></a>Каноническое свойство PidTagAlternateRecipient
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список идентификаторов запись для альтернативного получателей, обозначенного исходный получатель. 
+Содержит список идентификаторов записей для альтернативных получателей, назначенных исходным получателем. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ALTERNATE_RECIPIENT  <br/> |
+|Связанные свойства:  <br/> |ПР_АЛТЕРНАТЕ_РЕЦИПИЕНТ  <br/> |
 |Идентификатор:  <br/> |0x3A01  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Address  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство используется для автоматической пересылки сообщений. Она содержит структуру [FLATENTRYLIST](flatentrylist.md) альтернативного получателей. Если autoforwarding не разрешается или обозначенный альтернативного получатели, создается отчет о недоставке. 
+Это свойство используется для автоматически переадресованных сообщений. Он содержит структуру [флатентрилист](flatentrylist.md) альтернативных получателей. Если Перемотка не разрешены или если не назначен альтернативный получатель, создается отчет о недоставке. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS — ОКСКФКСИКС]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Обрабатывает порядок и поток для передачи данных между клиентом и сервером.
+> Обрабатывает порядок и потоки для передачи данных между клиентом и сервером.
     
-[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразование между IETF RFC2445, RFC2446 и RFC2447 и встречи и собрания объекты.
+> Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
     
-[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS — ОКСТНЕФ]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Кодирует и декодирует объекты сообщения и вложения в представление эффективным потока.
+> Кодирует и декодирует объекты сообщений и вложений в эффективное потоковое представление.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -77,7 +77,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

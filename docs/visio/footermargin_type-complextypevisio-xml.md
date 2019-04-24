@@ -1,5 +1,5 @@
 ---
-title: FooterMargin_Type complexType ('Visio XML»)
+title: Футермаргин_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: db8d1e5b-cd29-f9ff-994a-25c28672db81
 ms.openlocfilehash: 69f5ce201bd1859aa716e0967939f0c1e5a5a2c6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346048"
 ---
-# <a name="footermargintype-complextype-visio-xml"></a>FooterMargin_Type complexType ('Visio XML»)
+# <a name="footermargintype-complextype-visio-xml"></a>Футермаргин_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -21,7 +21,7 @@ ms.locfileid: "25398936"
 |:-----|:-----|
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Базовый элемент расширения** <br/> |XSD: double  <br/> |
+|**Базовый элемент расширения** <br/> |XSD: Double  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -51,6 +51,6 @@ ms.locfileid: "25398936"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Подразделения  <br/> |XSD:String  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|Устройств  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

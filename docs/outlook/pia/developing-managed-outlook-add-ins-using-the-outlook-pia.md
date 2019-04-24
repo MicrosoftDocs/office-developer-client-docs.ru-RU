@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 765d6304957642fc84411aca1af695e10666e130
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356282"
 ---
 # <a name="developing-managed-outlook-add-ins-using-the-outlook-pia"></a>Разработка управляемых надстроек Outlook с помощью основной сборки взаимодействия Outlook
 
@@ -20,7 +20,7 @@ ms.locfileid: "28721201"
 
 ## <a name="in-this-section"></a>В этом разделе
 
-|Раздел|Описание|
+|Статья|Описание|
 |:----|:----------|
 |[Подключение к настраиваемым обработчикам событий](connecting-to-custom-event-handlers.md) |В этой статье описан процесс определения метода обратного вызова и подключения его в качестве настраиваемого обработчика событий для объекта Outlook.|
 |[Рекомендации по разработке управляемых надстроек Outlook](best-practices-in-developing-managed-outlook-add-ins.md) |В этой статье есть рекомендации о том, как избежать ряда распространенных проблем при разработке управляемых надстроек Outlook.

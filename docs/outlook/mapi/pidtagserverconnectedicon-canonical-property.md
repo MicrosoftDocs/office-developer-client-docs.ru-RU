@@ -8,27 +8,27 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8adbc29b-8fb1-474f-b128-b8fc58283b92
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8ac6ee181d62647aeb5ae1b8ac1fc23b64ccf7c3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07ffd527d94dce4f040b577eedc6822020f95184
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590507"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342877"
 ---
 # <a name="pidtagserverconnectedicon-canonical-property"></a>Каноническое свойство PidTagServerConnectedIcon
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает значок, отображаемый в строке состояния.
+Задает значок, отображаемый в строке состояния.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_SERVER_CONNECTED_ICON  <br/> |
+|Связанные свойства:  <br/> |ПР_СЕРВЕР_КОННЕКТЕД_ИКОН  <br/> |
 |Идентификатор:  <br/> |0x341E  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Common  <br/> |
+|Область:  <br/> |Распространенная  <br/> |
    
 ## <a name="see-also"></a>См. также
 
@@ -36,7 +36,7 @@ ms.locfileid: "22590507"
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

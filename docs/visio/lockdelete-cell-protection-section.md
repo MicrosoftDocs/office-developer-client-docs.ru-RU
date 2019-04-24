@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockDelete (раздел "Защита")
+title: LockDelete Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251219
 localization_priority: Normal
 ms.assetid: 596c62b7-8d42-1854-d709-592db09a6a84
-description: Блокирует фигуру таким образом, чтобы он не может быть удален.
-ms.openlocfilehash: 00229dcabf45d2a3435039ffe05fd7eb4de75808
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Блокирует фигуру таким образом, чтобы ее нельзя было удалить.
+ms.openlocfilehash: 0819969c9ba17a52de19341b359b33ceae5b44d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814128"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359621"
 ---
-# <a name="lockdelete-cell-protection-section"></a>Ячейка LockDelete (раздел "Защита")
+# <a name="lockdelete-cell-protection-section"></a>LockDelete Cell (Protection Section)
 
-Блокирует фигуру таким образом, чтобы он не может быть удален.
+Блокирует фигуру таким образом, чтобы ее нельзя было удалить.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Фигура не может быть удалена  <br/> |
-| FALSE  <br/> | Фигура может быть удалена.  <br/> |
+| TRUE  <br/> | Удаление фигуры невозможно  <br/> |
+| FALSE  <br/> | Фигуру можно удалить.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку LockDelete по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LockDelete по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LockDelete  <br/> |
+| Имя ячейки:  <br/> | LockDelete  <br/> |
    
-Для получения ссылки на ячейки LockDelete по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LockDelete по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowLock** <br/> |
-| Индекс ячейки:  <br/> |**visLockDelete** <br/> |
+| Индекс строки:  <br/> |**Висровлокк** <br/> |
+| Индекс ячейки:  <br/> |**Вислоккделете** <br/> |
    
 

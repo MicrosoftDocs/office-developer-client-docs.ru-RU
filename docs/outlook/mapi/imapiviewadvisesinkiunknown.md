@@ -1,5 +1,5 @@
 ---
-title: IMAPIViewAdviseSink IUnknown
+title: Имапивиевадвисесинк IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 1231391d-803a-4b41-b252-4d986f99361a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 157703fc9702bb954b4a5c570fc3d5c045e181cc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 70f61fe33baa7870a58c4cbc7d75e0df119b5b1a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351142"
 ---
 # <a name="imapiviewadvisesink--iunknown"></a>IMAPIViewAdviseSink : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Получает уведомления от форм. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Предоставляемые:  <br/> |Просмотр рекомендаций объектов приемника  <br/> |
-|Реализованный:  <br/> |Средства просмотра формы  <br/> |
-|Вызывается:  <br/> |Объекты формы  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IMAPIViewAdviseSink  <br/> |
-|Тип указателя:  <br/> |LPMAPIVIEWADVISESINK  <br/> |
+|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
+|Предоставлено:  <br/> |Просмотр объектов приемника уведомлений  <br/> |
+|Реализовано в:  <br/> |Средства просмотра форм  <br/> |
+|Вызывающая сторона:  <br/> |Объекты форм  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_имапивиевадвисесинк  <br/> |
+|Тип указателя:  <br/> |ЛПМАПИВИЕВАДВИСЕСИНК  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[Завершении](imapiviewadvisesink-onshutdown.md) <br/> |Уведомляет средство просмотра формы, что форма закрывается.  <br/> |
-|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Уведомляет средство просмотра формы после загрузки, что новое или существующее сообщение в форме.  <br/> |
-|[Печать (OnPrint)](imapiviewadvisesink-onprint.md) <br/> |Уведомляет средство просмотра формы из состояния печати формы.  <br/> |
-|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Уведомляет средство просмотра формы, что текущего сообщения были отправлены диспетчер очереди MAPI.  <br/> |
-|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Уведомляет средство просмотра формы, который был сохранен текущего сообщения в форме.  <br/> |
+|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Уведомляет средство просмотра форм о том, что форма закрывается.  <br/> |
+|[Онневмессаже](imapiviewadvisesink-onnewmessage.md) <br/> |Уведомляет средство просмотра форм о том, что в форме загружено новое или существующее сообщение.  <br/> |
+|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Уведомляет средство просмотра форм о состоянии печати формы.  <br/> |
+|[OnSubmittedо](imapiviewadvisesink-onsubmitted.md) <br/> |Уведомляет средство просмотра форм о том, что текущее сообщение было отправлено в Диспетчер очереди MAPI.  <br/> |
+|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Уведомляет средство просмотра форм о том, что текущее сообщение сохранено в форме.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

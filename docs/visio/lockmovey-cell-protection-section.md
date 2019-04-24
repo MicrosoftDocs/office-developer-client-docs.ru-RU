@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockMoveY (раздел "Защита")
+title: LockMoveY Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm645
 localization_priority: Normal
 ms.assetid: 4ed8cab4-112a-e96a-f4e3-02490a6f87fa
-description: Блокирует вертикальную позицию фигуры, чтобы он не перемещаться по вертикали.
-ms.openlocfilehash: 24f6f477860ea3634cfdcfd92199f2de65e543db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Блокирует вертикальную позицию фигуры, чтобы ее нельзя было перемещать по вертикали.
+ms.openlocfilehash: 6666d47555f8175b4950f95e1fb15abb8b11bfd5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814136"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348351"
 ---
-# <a name="lockmovey-cell-protection-section"></a>Ячейка LockMoveY (раздел "Защита")
+# <a name="lockmovey-cell-protection-section"></a>LockMoveY Cell (Protection Section)
 
-Блокирует вертикальную позицию фигуры, чтобы он не перемещаться по вертикали.
+Блокирует вертикальную позицию фигуры, чтобы ее нельзя было перемещать по вертикали.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Позиция по вертикали блокировки.  <br/> |
-| FALSE  <br/> | Позиция по вертикали не блокируется.  <br/> |
+| TRUE  <br/> | Позиция по вертикали заблокирована.  <br/> |
+| FALSE  <br/> | Позиция по вертикали не заблокирована.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку LockMoveY по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LockMoveY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LockMoveY  <br/> |
+| Имя ячейки:  <br/> | LockMoveY  <br/> |
    
-Для получения ссылки на ячейки LockMoveY по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LockMoveY по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowLock** <br/> |
-| Индекс ячейки:  <br/> |**visLockMoveY** <br/> |
+| Индекс строки:  <br/> |**Висровлокк** <br/> |
+| Индекс ячейки:  <br/> |**Вислоккмовэй** <br/> |
    
 

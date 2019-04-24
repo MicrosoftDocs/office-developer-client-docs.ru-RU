@@ -12,44 +12,44 @@ api_type:
 - COM
 ms.assetid: 3cab23b6-f0e3-4703-a83b-12a617537651
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ad9d81342ed749b6b1b640fd8118519aae7469a4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8f88e4b41ab455c55bfd1cb36b73ce7ef0383b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595176"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348995"
 ---
 # <a name="pidlidfshouldtnef-canonical-property"></a>Каноническое свойство PidLidFShouldTNEF
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, следует ли для кодирования элемента с помощью транспорта Neutral Encapsulation формата TNEF. 
+Указывает, следует ли кодировать элемент с форматом TNEF, нейтральным к трансПорту. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidFShouldTNEF  <br/> |
-|Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x000085A5  <br/> |
+|Связанные свойства:  <br/> |Диспидфшаулдтнеф  <br/> |
+|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x000085A5  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Конфигурация во время выполнения  <br/> |
+|Область:  <br/> |Настройка времени выполнения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство имеет значение при настройке Microsoft Word в качестве редактора электронной почты и отправляет объект OLE, внедренных в поток форматированный текст (RTF).
+Это свойство задается, когда Microsoft Word задается в качестве редактора электронной почты, и отправляет объект OLE, внедренный в поток форматированного текста (RTF).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

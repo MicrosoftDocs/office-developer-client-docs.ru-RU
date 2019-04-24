@@ -13,39 +13,39 @@ api_type:
 ms.assetid: 9d54f937-c8de-4789-b134-56835f21aec2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1f39d78d9e5a9fed40085b069a841a69bc597cc4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358872"
 ---
 # <a name="pidlidscriptstream-canonical-property"></a>Каноническое свойство PidLidScriptStream
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Представляет код, написанных на языке Visual Basic Scripting Edition (VBScript) настраиваемые формы, связанный с сообщением.
+Представляет код, написанный в Visual Basic Scripting Edition (VBScript) позади настраиваемой формы, связанной с сообщением.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidScriptStream  <br/> |
-|Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008541  <br/> |
+|Связанные свойства:  <br/> |Диспидскриптстреам  <br/> |
+|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008541  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Конфигурация во время выполнения  <br/> |
+|Область:  <br/> |Настройка времени выполнения  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -55,7 +55,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

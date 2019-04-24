@@ -8,11 +8,11 @@ ms.assetid: 69736f40-8f67-46c2-abf6-82dffecb2274
 description: Узнайте о новом формате файлов в Visio 2013, изучите некоторые высокоуровневые концепции программной работы с форматом файлов Visio 2013 и создайте простое консольное приложение, которое проверяет файл Visio 2013.
 localization_priority: Priority
 ms.openlocfilehash: 74c0f05a1db280386f3dc9dfd23da73a9b2daaf5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357276"
 ---
 # <a name="introduction-to-the-visio-file-format-vsdx"></a>Общие сведения о формате файлов Visio (VSDX)
 
@@ -279,7 +279,7 @@ Visio 2013 представляет новый формат файла (.vsdx) 
 
 10. Нажмите клавишу F5, чтобы отладить решение. По завершении работы программы выйдите из нее, нажав любую клавишу.
     
-## <a name="see-also"></a>Дополнительные ресурсы
+## <a name="see-also"></a>См. также
 <a name="vis15_IntroVSDX_Resources"> </a>
 
 Дополнительные сведения о формате файлов Visio 2013, соглашении Open Packaging Convention и программной работе с файлами Visio 2013 или Office OpenXML см. в следующих ресурсах.

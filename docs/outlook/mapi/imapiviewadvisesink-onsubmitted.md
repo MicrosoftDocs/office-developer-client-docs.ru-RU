@@ -1,5 +1,5 @@
 ---
-title: IMAPIViewAdviseSinkOnSubmitted
+title: Имапивиевадвисесинконсубмиттед
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: a2401662-1ddc-40d8-a5a7-ceca24442bd4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2aa1aca2816b8f0e148d35d1fcec761f621a2239
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ebde06d0d22320ecb5edb633cf8d04aaeec2a841
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579447"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351172"
 ---
 # <a name="imapiviewadvisesinkonsubmitted"></a>IMAPIViewAdviseSink::OnSubmitted
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579447"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Уведомляет средство просмотра формы, что текущего сообщения были отправлены диспетчер очереди MAPI.
+Уведомляет средство просмотра форм о том, что текущее сообщение было отправлено в Диспетчер очереди MAPI.
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -33,23 +33,23 @@ HRESULT OnSubmitted( void );
 
 ## <a name="parameters"></a>Параметры
 
-None
+Нет
   
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Уведомление успешно завершен.
+> Уведомление успешно установлено.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Объект формы вызывает метод **IMAPIViewAdviseSink::OnSubmitted** после успешного возврата вызова [IMAPIMessageSite::SubmitMessage](imapimessagesite-submitmessage.md) . 
+Объект Form вызывает метод **имапивиевадвисесинк::** onsubmittedся после вызова [Имапимессажесите:: субмитмессаже](imapimessagesite-submitmessage.md) успешно возвращен. 
   
-## <a name="notes-to-implementers"></a>Примечания для реализующих
+## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-После вызова **OnSubmitted** можно продолжить предполагается, что сообщение были обновлены. Обновление windows в соответствии с все изменения, произошедшие. 
+После **** вызова OnSubmitted можно продолжить предположение о том, что сообщение было обновлено. Обновите Windows, чтобы отразить все произошедшие изменения. 
   
-Дополнительные сведения о уведомлений формы можно [Отправка и получение уведомлений формы](sending-and-receiving-form-notifications.md).
+Дополнительные сведения об уведомлениях формы можно найти в статье [Отправка и получение уведомлений формы](sending-and-receiving-form-notifications.md).
   
 ## <a name="see-also"></a>См. также
 

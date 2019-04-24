@@ -13,56 +13,56 @@ api_type:
 ms.assetid: d435a65a-de01-4fb0-bc54-a87a2c4462ac
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 036f38c1228e08cfc9a2093c027195a802904f19
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358837"
 ---
 # <a name="pidtaginreplytoid-canonical-property"></a>Каноническое свойство PidTagInReplyToId
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение свойства **PR_INTERNET_MESSAGE_ID** ([PidTagInternetMessageId](pidtaginternetmessageid-canonical-property.md)) исходного сообщения.
+Содержит значение свойства **пр_интернет_мессаже_ид** ([PidTagInternetMessageId](pidtaginternetmessageid-canonical-property.md)) исходного сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_IN_REPLY_TO_ID, PR_IN_REPLY_TO_ID_A, PR_IN_REPLY_TO_ID_W  <br/> |
+|Связанные свойства:  <br/> |ПР_ИН_РЕПЛИ_ТО_ИД, ПР_ИН_РЕПЛИ_ТО_ИД_А, ПР_ИН_РЕПЛИ_ТО_ИД_В  <br/> |
 |Идентификатор:  <br/> |0x1042  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Эти свойства необходимо установить на все ответы на сообщение.
+Эти свойства должны быть заданы для всех ответов на сообщения.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщения электронной почты.
+> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
+> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -73,7 +73,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

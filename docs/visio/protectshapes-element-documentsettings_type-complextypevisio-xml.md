@@ -1,31 +1,31 @@
 ---
-title: Элемент ProtectShapes (DocumentSettings_Type complexType) ('Visio XML»)
+title: Элемент Протектшапес (Документсеттингс_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e3835fc6-0ae6-b8c3-b1d0-bf893d4a9470
-description: Указывает, является ли пользователь не сможет выбирать фигуры, которые имеют их LockSelect элемент, установите значение 1.
+description: Указывает, запрещается ли пользователю выбирать фигуры, для которых для элемента LockSelect задано значение 1.
 ms.openlocfilehash: 9f7910123c00a8fd4f5ce47ef099c8c6581f8c07
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385125"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346804"
 ---
-# <a name="protectshapes-element-documentsettingstype-complextype-visio-xml"></a>Элемент ProtectShapes (DocumentSettings_Type complexType) ('Visio XML»)
+# <a name="protectshapes-element-documentsettingstype-complextype-visio-xml"></a>Элемент Протектшапес (Документсеттингс_типе complexType) (' Visio XML ')
 
-Указывает, является ли пользователь не сможет выбирать фигуры, которые имеют их **LockSelect** элемент, установите значение 1. 
+Указывает, запрещается ли пользователю выбирать фигуры, для которых для элемента **LockSelect** задано значение 1. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[ProtectShapes_Type](protectshapes_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Протектшапес_типе](protectshapes_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25385125"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, которые определяют параметры документов.  <br/> |
+|[Документсеттингс](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Документсеттингс_типе](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

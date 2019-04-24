@@ -8,47 +8,47 @@ api_type:
 - COM
 ms.assetid: e37fc9d8-433b-41b4-84f2-42a952063f35
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7a2dbe8d2143fd330ae1f5ca5804e30b79909576
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 305b0534f828ea72c1e116fd38fb8f578062e32e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569415"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348582"
 ---
 # <a name="opening-message-text"></a>Открытие текста сообщения
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Текст сообщения, хранится в его **связей с Общественностью\_ТЕЛО** свойство или **связей с Общественностью\_RTF\_СЖАТЫЙ** свойство. Дополнительные сведения можно **связей с Общественностью\_ТЕЛО** ([PidTagBody](pidtagbody-canonical-property.md)), **связей с Общественностью\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) и **связей с Общественностью\_RTF\_СЖАТЫЙ** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
+Текст сообщения хранится в свойстве текста по отношению к **тексту (PR)\_** или сжатом **RTF\_\_(пр.)** . Дополнительную информацию можно узнать в **статье\_Body** ([PidTagBody](pidtagbody-canonical-property.md)), **\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) и сжатом **\_RTF\_** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
 
-Если вы поддерживаете форматированный текст (RTF), откройте **связей с Общественностью\_RTF_COMPRESSED**. Если вы не поддерживает формат RTF, откройте **связей с Общественностью\_ТЕЛО**. Так как текстовое сообщение могут занимать много места, независимо от того, является ли он имеет формат, используйте **IMAPIProp::OpenProperty** для открытия этих свойств. For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
+Если вы поддерживаете формат RTF, откройте **ртф_компрессед (пр\_**). Если вы не поддерживаете формат RTF, **откройте\_текст PR**. Так как текст сообщения может быть большим, независимо от того, отформатирован он или нет, используйте **IMAPIProp:: опенпроперти** , чтобы открыть эти свойства. For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
   
-### <a name="to-display-formatted-message-text"></a>Чтобы отобразить форматированный текст сообщения
+### <a name="to-display-formatted-message-text"></a>Отображение форматированного текста сообщения
   
-1. При использовании хранилища принять во внимание сообщений не RTF, как указано в отсутствие флага STORE_RTF_OK в свойстве магазина **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)):
+1. Если вы используете хранилище сообщений с поддержкой не в формате RTF, как указано в разделе отсутствие флага СТОРЕ_РТФ_ОК в свойстве **пр_сторе_суппорт_маск** хранилища ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)):
     
-    1. Вызов метода **IMAPIProp::GetProps** сообщения для получения свойства **PR_RTF_IN_SYNC** . Для получения дополнительных сведений см [IMAPIProp::GetProps](imapiprop-getprops.md) и **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)).
+    1. ВыЗовите метод **IMAPIProp::** /PROPS сообщения, чтобы получить свойство **пр_ртф_ин_синк** . Дополнительные сведения см. в статье [IMAPIProp::](imapiprop-getprops.md) -PROPS and **пр_ртф_ин_синк** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)).
         
-    2. Вызов RTFSync для синхронизации свойство PR_BODY сообщения со свойством **PR_RTF_COMPRESSED** . Для получения дополнительных сведений см [RTFSync](rtfsync.md), **PR_BODY**и **PR_RTF_COMPRESSED**. PASS RTF_SYNC_BODY_CHANGED флаг, если не удалось выполнить вызов для получения **PR_RTF_IN_SYNC** , так как свойство не существует, либо он имеет значение FALSE. 
+    2. ВыЗовите Ртфсинк для синхронизации свойства ПР_БОДИ сообщения с помощью свойства **пр_ртф_компрессед** . Дополнительные сведения см. в статье [ртфсинк](rtfsync.md), **пр_боди**и **пр_ртф_компрессед**. Если при вызове метода получения **пр_ртф_ин_синк** произошел сбой, необходимо передать флаг ртф_синк_боди_чанжед, так как свойство не существует или имеет значение false. 
         
-    3. Если **RTFSync** возвращает значение TRUE, указывающего на то, что изменения — вызов метода **IMAPIProp::SaveChanges** сообщение без возможности восстановления их хранения. Для получения дополнительных сведений см [IMAPIProp::SaveChanges](imapiprop-savechanges.md).
+    3. Если **ртфсинк** ВОЗВРАЩАЕТ значение true, указывающее, что были сделаны изменения, вызовите метод **IMAPIProp:: SaveChanges** сообщения, чтобы окончательно сохранить их. Дополнительные сведения см. в разделе [IMAPIProp:: SaveChanges](imapiprop-savechanges.md).
     
-2. Независимо от того, является ли вы используете принять во внимание RTF сообщение хранения:
+2. Независимо от того, используется ли хранилище сообщений с поддержкой RTF:
     
-    1. Вызовите **IMAPIProp::OpenProperty** , чтобы открыть свойство **PR_RTF_COMPRESSED** . Для получения дополнительных сведений см [IMAPIProp::OpenProperty](imapiprop-openproperty.md) и **PR_RTF_COMPRESSED**.
+    1. Call **IMAPIProp:: опенпроперти** , чтобы открыть свойство **пр_ртф_компрессед** . Дополнительные сведения см. в статье [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) и **пр_ртф_компрессед**.
         
-    2. Если **PR_RTF_COMPRESSED** не поддерживается, вызовите **OpenProperty** для открытия свойство **PR_BODY** . 
+    2. Если **пр_ртф_компрессед** недоступен, вызовите **опенпроперти** , чтобы открыть свойство **пр_боди** . 
         
-    3. Вызовите функцию **WrapCompressedRTFStream** для создания несжатую версию сжатых данных RTF, если он доступен. Для получения дополнительных сведений см [WrapCompressedRTFStream](wrapcompressedrtfstream.md).
+    3. ВыЗовите функцию **врапкомпресседртфстреам** , чтобы создать несжатую версию сжатых данных RTF, если они доступны. Дополнительные сведения см. в разделе [врапкомпресседртфстреам](wrapcompressedrtfstream.md).
         
-    4. Скопируйте форматированного текста в потоке в соответствующее место в форме сообщения. 
+    4. Скопируйте отформатированный текст из потока в соответствующее место формы сообщения. 
     
-### <a name="to-display-plain-message-text"></a>Для отображения текста обычные сообщения
+### <a name="to-display-plain-message-text"></a>Отображение обычного текста сообщения
   
-1. Вызов метода **IMAPIProp::GetProps** сообщения для получения свойства **PR_BODY** . Для получения дополнительных сведений см [IMAPIProp::GetProps](imapiprop-getprops.md).
+1. ВыЗовите метод **IMAPIProp::** /PROPS сообщения, чтобы получить свойство **пр_боди** . Дополнительные сведения см. в статье [IMAPIProp::](imapiprop-getprops.md)/PROPS.
     
-2. Если в структуре значение свойства или MAPI_E_NOT_ENOUGH_MEMORY **GetProps** возвращает либо PT_ERROR для типа свойства, вызовите метод **IMAPIProp::OpenProperty** сообщение. Передайте **PR_BODY** как свойство tag и IID_IStream идентификатор интерфейса. For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
+2. Если **** параметр PROPS ВОЗВРАЩАЕТ значение пт_еррор для типа свойства в структуре значения свойства или мапи_е_нот_енаугх_мемори, вызовите метод **IMAPIProp:: опенпроперти** этого сообщения. Передайте **пр_боди** как тег свойства и иид_истреам в качестве идентификатора интерфейса. For more information, see [IMAPIProp::OpenProperty](imapiprop-openproperty.md).
     
-3. Скопируйте текст из потока в соответствующее место в форме сообщения. 
+3. Скопируйте обычный текст из потока в соответствующее место формы сообщения. 
     
 

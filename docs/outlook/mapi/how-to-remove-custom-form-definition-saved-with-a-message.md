@@ -5,39 +5,39 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6a270f0c-104a-84a1-9adf-aea166f89071
-description: 'Дата последнего изменения: 25 июня 2012 года'
-ms.openlocfilehash: 4b12824542a1408a364452eb6587122ec66412d3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '���� ���������� ���������: 25 ���� 2012 �.'
+ms.openlocfilehash: ac162cb73cfdee83bf034de32064c5ed9df3bc02
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594455"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345936"
 ---
 # <a name="remove-custom-form-definition-saved-with-a-message"></a>Удаление определения настраиваемой формы, сохраненного с сообщением
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе приводится пример кода c++, который преобразует сообщения, который был сохранен с определениями настраиваемых форм для регулярного сообщение без определения формы.
+В этом разделе показан пример кода на языке C++, который преобразует сообщение, сохраненное с настраиваемым определением формы, в обычное сообщение без определения формы.
   
-В Microsoft Outlook 2010 или Microsoft Outlook 2013 совместное использование форм, содержащих настраиваемые страницы форм по их публикации в библиотеке форм или сохранения соответствующее определение формы с сообщением. Настраиваемая форма, сохраненных в сообщение режимами «одноразовых формы,» с момента формы совместно используется только для просмотра отдельного сообщения как одноразовых экземпляр. Обычно это делается при формы не публикуется в библиотеке форм, но разрешить получателю использовать настраиваемую форму при открытии элемента. Можно указать, что формы — одного раза в конструкторе форм, установив флажок **Отправлять вместе с элементом** на странице **свойств** формы. 
+В Microsoft Outlook 2010 или Microsoft Outlook 2013 можно совместно использовать формы, содержащие настраиваемые страницы форм, либо опубликовав их в библиотеке форм, либо сохраняя соответствующее определение формы с сообщением. Настраиваемая форма, сохраненная с сообщением, обычно называется "одноразовой формой", так как эта форма доступна только для просмотра определенного сообщения в качестве одноразового экземпляра. Это обычно делается, когда форма не публикуется в библиотеке форм, но вы хотите, чтобы получатель использовал настраиваемую форму при открытии элемента. Вы можете указать форму в качестве одноразовой в конструкторе форм, установив флажок **Отправить определение формы с элементом** на странице **свойств** формы. 
   
-Форм, содержащих страниц форм можно настроить с помощью кода в Visual Basic Scripting Edition (VBScript). Сообщения, которые будут сохранены с определения формы, обычно больше по размеру. Для безопасности и для обеспечения хранения Outlook 2010 и Outlook 2013 игнорировать определения форм, сохраненных в любой элемент.
+Формы, содержащие страницы форм, можно изменять с помощью кода в Visual Basic Scripting Edition (VBScript). Сообщения, сохраненные с определениями форм, обычно имеют больший размер. В целях обеспечения безопасности и хранения Outlook 2010 и Outlook 2013 игнорируют определения форм, сохраненные с любым элементом.
   
-Чтобы преобразовать сообщение, в котором сохраняется с определениями настраиваемых форм к одному без, необходимо удалить четыре именованных свойств:
+Чтобы преобразовать сообщение, сохраненное с настраиваемым определением формы, на одно без, необходимо удалить четыре именованных свойства:
   
-- [Каноническое свойство PidLidFormStorage](pidlidformstorage-canonical-property.md)
+- [������������ �������� PidLidFormStorage](pidlidformstorage-canonical-property.md)
     
-- [Каноническое свойство PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
+- [������������ �������� PidLidPageDirStream](pidlidpagedirstream-canonical-property.md)
     
-- [Каноническое свойство PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
+- [������������ �������� PidLidFormPropStream](pidlidformpropstream-canonical-property.md)
     
-- [Каноническое свойство PidLidScriptStream](pidlidscriptstream-canonical-property.md)
+- [������������ �������� PidLidScriptStream](pidlidscriptstream-canonical-property.md)
     
-Кроме того следует удалить [PidLidPropertyDefinitionStream каноническое свойство](pidlidpropertydefinitionstream-canonical-property.md) , которое содержит определения пользовательских свойств, сохраненных в этого сообщения. Влияние со стороны удаления это свойство является то, что объектной модели Outlook 2010 или Outlook 2013 и пользовательский интерфейс Outlook 2010 или Outlook 2013 больше не смогут получать доступ к свойствам пользователя, которые были установлены в окне сообщения. По-прежнему можно получить доступ к эти свойства и их значения через MAPI. Обратите внимание, что если это свойство не удаляйте и сообщение сохраняется с другой определение формы, [Свойство каноническое PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) частично заменены новыми данными и целостность данных не гарантируется. 
+Кроме того, следует удалить [канонИческое свойство PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) , которое содержит определения настраиваемых свойств, сохраненных с этим сообщением. Побочным результатом удаления этого свойства является то, что объектные модели Outlook 2010 или Outlook 2013 и пользовательский интерфейс Outlook 2010 или Outlook 2013 больше не смогут получать доступ к свойствам пользователей, которые были заданы для сообщения. Вы по-прежнему можете получать доступ к этим свойствам и их значениям с помощью MAPI. Обратите внимание, что если не удалить это свойство, а сообщение сохранено с другим определением формы, [канонИческое свойство PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) частично перезаписывается новыми данными, а целостность данных не гарантируется. 
   
-При удалении [Каноническое свойство PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md)также удалите флаг **INSP_PROPDEFINITION** из [PidLidCustomFlag каноническое свойство](pidlidcustomflag-canonical-property.md).
+Если удалить каноническое [свойство PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md), необходимо также удалить флаг **инсп_пропдефинитион** из [каноническое свойство PidLidCustomFlag](pidlidcustomflag-canonical-property.md).
   
-Следующая функция `RemoveOneOff`, принимает в качестве входных параметров указатель на сообщение и индикатор необходимость удаления [Каноническое свойство PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md). С помощью указателя мыши сообщения, он вызывает [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) , чтобы получить идентификаторы соответствующих свойств, а затем вызывает [IMAPIProp::DeleteProps](imapiprop-deleteprops.md) для удаления именованных свойств. Также вызывает [IMAPIProp::GetProps](imapiprop-getprops.md) для получения [Каноническое свойство PidLidCustomFlag](pidlidcustomflag-canonical-property.md) и очищает **INSP\_ONEOFFFLAGS** флаг и **INSP_PROPDEFINITION** флаг, в зависимости от этого свойства таким образом, Outlook 2010 и Outlook 2013 будет выглядеть для именованных свойств, которые были удалены. 
+Приведенная ниже функция `RemoveOneOff`принимает указатель на сообщение в качестве входных параметров и определяет, следует ли удалить каноническое [свойство PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md). С помощью указателя сообщения вызывается метод [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) , чтобы получить соответствующие идентификаторы свойств, а затем вызывает [IMAPIProp::D елетепропс](imapiprop-deleteprops.md) для удаления именованных свойств. Кроме того, он вызывает [IMAPIProp:: PROPS](imapiprop-getprops.md) , чтобы [получить каноническое свойство PidLidCustomFlag](pidlidcustomflag-canonical-property.md) , и очищает флаг **инсп\_онеофффлагс** и **инсп_пропдефинитион** , в соответствии с этим свойством, чтобы Outlook 2010 и Outlook 2013 не будет искать удаленные именованные свойства. 
   
 ```cpp
 ULONG aulOneOffIDs[] = {dispidFormStorage,  

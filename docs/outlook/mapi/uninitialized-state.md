@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: e071b50f-2e75-4537-ac7b-4a2f5ebea83d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 95ed80a6d0ea6a6a7c8cc768b32981ac899b69e4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: be35c9d3f8fc7badf83086e63e4c94e0efa4d5bf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578250"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360503"
 ---
 # <a name="uninitialized-state"></a>Неинициализированное состояние
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Неинициализированная переменная состояние — исходное состояние формы, в которой должны быть объекты при первом создании. Объекты формы становятся инициализирован с данными сообщения при клиентского приложения вызывается метод [IPersistMessage::InitNew](ipersistmessage-initnew.md) или [IPersistMessage::Load](ipersistmessage-load.md) объекта формы. В следующей таблице описываются допустимые переходы из состояния Unitialized. 
+Неинициализированное состояние — это начальные объекты формы состояния, которые должны находиться в момент создания. Объекты Form инициализируются данными сообщений, когда клиентское приложение вызывает метод [иперсистмессаже:: инитнев](ipersistmessage-initnew.md) или [Иперсистмессаже:: Load](ipersistmessage-load.md) объекта Form. В следующей таблице описаны допустимые переходы из состояния Унитиализед. 
   
-|**Метод IPersistMessage**|**Действие**|**Новое состояние**|
+|**Метод Иперсистмессаже**|**Действие**|**Новое состояние**|
 |:-----|:-----|:-----|
-|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Загрузите объект формы с данными по умолчанию.  <br/> |[Normal](normal-state.md) <br/> |
-|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Загрузите объект формы с данными из целевого сообщения.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Возвращает успешно, или значение последней ошибки и возвратить значение E_UNEXPECTED.  <br/> |Неинициализированная переменная  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращает последнюю ошибку.  <br/> |Неинициализированная переменная  <br/> |
-|Другие [IPersistMessage: IUnknown](ipersistmessageiunknown.md) методы или методы от других интерфейсов  <br/> |Значение последней ошибки и возвратить значение E_UNEXPECTED.  <br/> |Неинициализированная переменная  <br/> |
+|[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Загрузка объекта Form с данными по умолчанию.  <br/> |[Normal](normal-state.md) <br/> |
+|[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Загрузка объекта Form с данными из целевого сообщения.  <br/> |Normal  <br/> |
+|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Возвращает сообщение об успешном выполнении или задает последнюю ошибку и возвращает Е_УНЕКСПЕКТЕД.  <br/> |Неинициализированное  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возврат последней ошибки.  <br/> |Неинициализированное  <br/> |
+|Другие [иперсистмессаже:](ipersistmessageiunknown.md) методы или методы IUnknown из других интерфейсов  <br/> |ПриСвойте последней ошибке значение и возвратите Е_УНЕКСПЕКТЕД.  <br/> |Неинициализированное  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Обычное состояние](normal-state.md)
+[Нормальное состояние](normal-state.md)
   
 [Состояния форм](form-states.md)
 

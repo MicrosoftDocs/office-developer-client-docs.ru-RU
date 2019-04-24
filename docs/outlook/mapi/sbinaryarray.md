@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 2d5b7302-cad2-4522-beb1-7c6c711f42e6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e601a59a68a3a7d248165d4e573c5abc34d27e2a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12fefbe15491837878608540006e5dd7dc3033ea
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351060"
 ---
 # <a name="sbinaryarray"></a>SBinaryArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит массив двоичных значений. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SBinaryArray
@@ -42,19 +42,19 @@ typedef struct _SBinaryArray
 
 ## <a name="members"></a>Members
 
- **cValues**
+ **Квалуес**
   
-> Число значений в массиве, на который указывает член **lpbin** . 
+> Количество значений в массиве, на которое указывает элемент **лпбин** . 
     
- **lpbin**
+ **лпбин**
   
-> Указатель на массив структур [SBinary](sbinary.md) , в котором содержатся двоичные значения. 
+> Указатель на массив структур [сбинари](sbinary.md) , в котором хранятся двоичные значения. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Структура **SBinaryArray** используется для описания свойств типа PT_MV_BINARY. 
+Структура **сбинаряррай** используется для описания свойств типа пт_мв_бинари. 
   
-Дополнительные сведения о PT_MV_BINARY увидеть [Список типы свойств](property-types.md).
+Дополнительные сведения о ПТ_МВ_БИНАРИ приведены в разделе [список типов свойств](property-types.md).
   
 ## <a name="see-also"></a>См. также
 

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 667f8a07477c527d251c4e50f35baa2da2e417ed
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357836"
 ---
 # <a name="exchange-users"></a>Пользователи Exchange
 
@@ -20,7 +20,7 @@ ms.locfileid: "28703225"
 
 ## <a name="in-this-section"></a>В этой статье
 
-|Раздел|Описание|
+|Статья|Описание|
 |:----|:----------|
 |[Получение сведений о текущем пользователе](how-to-get-information-about-the-current-user.md)  |Получение сведений о текущем пользователе, например имени, должности и номера телефона.|
 |[Получение сведений обо всех списках рассылки, участником которых является текущий пользователь](how-to-get-information-about-all-distribution-lists-of-which-the-current-user-is-a-member.md)  |Получение сведений обо всех списках рассылки, участником которых является текущий пользователь, с помощью метода [GetMemberOfList()](https://msdn.microsoft.com/library/bb623397\(v=office.15\)).|

@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 95be07bf-5732-4775-9e0f-fec47e99d9b7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8c7ce2805248bf91ce7da071c67ece28a5b8ca07
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8439d6609ebece75699a1150a9d0c1a41277fd52
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564285"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344382"
 ---
 # <a name="srealarray"></a>SRealArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив значений с плавающей запятой, которые используются для описания свойства типа PT_MV_R4. 
+Содержит массив значений float, которые используются для описания свойства типа PT_MV_R4. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SRealArray
@@ -42,17 +42,17 @@ typedef struct _SRealArray
 
 ## <a name="members"></a>Members
 
- **cValues**
+ **Квалуес**
   
-> Число значений в массиве, на который указывает член **lpflt** . 
+> Количество значений в массиве, на которое указывает элемент **лпфлт** . 
     
- **lpflt**
+ **лпфлт**
   
 > Указатель на массив значений с плавающей запятой.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Дополнительные сведения о типе свойства PT_MV_R4 можно [Типы свойств](property-types.md).
+Более подробную информацию о типе свойства PT_MV_R4 можно узнать в статье [типы свойств](property-types.md).
   
 ## <a name="see-also"></a>См. также
 

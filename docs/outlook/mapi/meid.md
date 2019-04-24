@@ -7,21 +7,21 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
-description: 'Последнее изменение: 03 июля 2012 г.'
-ms.openlocfilehash: 24cc4b00f02c61395565fb7ddeb6a5b5a62afdc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Дата последнего изменения: 03 июля, 2012'
+ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591942"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356975"
 ---
 # <a name="meid"></a>MEID
 
  
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Идентификатор элемента Outlook. Он содержит идентификатор входа и другие необходимые сведения.
+Идентификатор элемента Outlook. Он содержит идентификатор записи и другую важную информацию.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -36,27 +36,27 @@ struct MEID
 };
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
- _abFlags_
+ _Абфлагс_
   
-> Идентификатор записи 4-байтных для элемента Outlook. Дополнительные сведения об идентификаторах запись MAPI можно **[ENTRYID](entryid.md)**. 
+> Идентификатор записи (4 байта) для элемента Outlook. Дополнительные сведения об идентификаторах записей MAPI приведены в разделе **[EntryID](entryid.md)**. 
     
- _muid_
+ _Muid_
   
-> GUID, идентифицирующий поставщика хранилища. В разделе mapidefs.h для определения типа **MAPIUID**. 
+> GUID, определяющий поставщика хранилища. Определение типа **мапиуид**можно найти в файле MAPIDEFS. h. 
     
- _заполнитель_
+ _нагляд_
   
-> Этот член зарезервирован для внутреннего использования Outlook и не поддерживается.
+> Этот член зарезервирован для внутреннего использования в Outlook и не поддерживается.
     
- _ltidFld_
+ _Лтидфлд_
   
-> Долгосрочные идентификатор папки.
+> Долгосрочный идентификатор папки.
     
- _ltidMsg_
+ _Лтидмсг_
   
-> Долгосрочные идентификатор элемента Outlook.
+> Долгосрочный идентификатор элемента Outlook.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ struct MEID
   
 [LTID](ltid.md)
   
-[SYNC](sync.md)
+[Синхр](sync.md)
   
 [UPMSG](upmsg.md)
 

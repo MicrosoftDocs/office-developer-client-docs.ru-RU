@@ -1,5 +1,5 @@
 ---
-title: DataRecordSet_Type complexType ('Visio XML»)
+title: Датарекордсет_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 59544910-6bd5-2c89-71b3-5c8ee91a1dea
 ms.openlocfilehash: 36d6cf3b34ad0aa81f7b097d6452c46679342a02
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395478"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360364"
 ---
-# <a name="datarecordsettype-complextype-visio-xml"></a>DataRecordSet_Type complexType ('Visio XML»)
+# <a name="datarecordsettype-complextype-visio-xml"></a>Датарекордсет_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -118,29 +118,29 @@ ms.locfileid: "25395478"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[AutoLinkComparison](autolinkcomparison-element-datarecordset_type-complextypevisio-xml.md) <br/> |[AutoLinkComparison_Type](autolinkcomparison_type-complextypevisio-xml.md) <br/> ||
-|[Объектам DataColumn](datacolumns-element-datarecordset_type-complextypevisio-xml.md) <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> ||
-|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> ||
-|[RefreshConflict](refreshconflict-element-datarecordset_type-complextypevisio-xml.md) <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> ||
-|[Rel](rel-element-datarecordset_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> ||
-|[RowMap](rowmap-element-datarecordset_type-complextypevisio-xml.md) <br/> |[RowMap_Type](rowmap_type-complextypevisio-xml.md) <br/> ||
+|[Аутолинккомпарисон](autolinkcomparison-element-datarecordset_type-complextypevisio-xml.md) <br/> |[Аутолинккомпарисон_типе](autolinkcomparison_type-complextypevisio-xml.md) <br/> ||
+|[DataColumns](datacolumns-element-datarecordset_type-complextypevisio-xml.md) <br/> |[Датаколумнс_типе](datacolumns_type-complextypevisio-xml.md) <br/> ||
+|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[Примарикэй_типе](primarykey_type-complextypevisio-xml.md) <br/> ||
+|[Рефрешконфликт](refreshconflict-element-datarecordset_type-complextypevisio-xml.md) <br/> |[Рефрешконфликт_типе](refreshconflict_type-complextypevisio-xml.md) <br/> ||
+|[Rel](rel-element-datarecordset_type-complextypevisio-xml.md) <br/> |[Рел_типе](rel_type-complextypevisio-xml.md) <br/> ||
+|[Ровмап](rowmap-element-datarecordset_type-complextypevisio-xml.md) <br/> |[Ровмап_типе](rowmap_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Контрольная сумма  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|Команда  <br/> |XSD:String  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
-|ConnectionID содержит  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|Имя  <br/> |XSD:String  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
-|NextRowID  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|Options  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|RefreshInterval  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|RefreshNoReconciliationUI  <br/> |XSD:Boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
-|RefreshOverwriteAll  <br/> |XSD:Boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
-|ReplaceLinks  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|RowOrder  <br/> |XSD:Boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
-|TimeRefreshed  <br/> |XSD: DateTime  <br/> |необязательный  <br/> ||Значения типа XSD: DateTime.  <br/> |
+|Контрольная сумма  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Command  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|Коннектионид  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|Некстровид  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Параметры  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|RefreshInterval  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|РефрешнореконЦилиатионуи  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
+|Рефрешовервритеалл  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
+|Реплацелинкс  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Ровордер  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
+|TimeRefreshed  <br/> |XSD: dateTime  <br/> |необязательный  <br/> ||Значения типа XSD: dateTime.  <br/> |
    
 

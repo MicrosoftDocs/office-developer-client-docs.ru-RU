@@ -1,5 +1,5 @@
 ---
-title: Ячейка ShapeShdwOffsetX (раздел "Формат заливки")
+title: ShapeShdwOffsetX Cell (Fill Format Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a426f471-d35f-ef87-4c59-2c007ec2653f
 description: Определяет расстояние смещения тени фигуры по горизонтали относительно фигуры в единицах страницы.
-ms.openlocfilehash: 12512ce9edf49f91c786c3cd50baa8d07498a3de
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 5c3f994f0ceba84c86585a76c7a67667a0c20a53
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814806"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349128"
 ---
-# <a name="shapeshdwoffsetx-cell-fill-format-section"></a>Ячейка ShapeShdwOffsetX (раздел "Формат заливки")
+# <a name="shapeshdwoffsetx-cell-fill-format-section"></a>ShapeShdwOffsetX Cell (Fill Format Section)
 
 Определяет расстояние смещения тени фигуры по горизонтали относительно фигуры в единицах страницы.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это значение соответствует значению в параметре **Смещение X** в диалоговом окне **теневой** (на вкладке **Главная** в группе **фигуру** нажмите кнопку **тень**и нажмите кнопку **Параметры тени**).
+Это значение соответствует значению параметра **смещение X** в диалоговом окне **теневой копии** (на вкладке **Главная** , в группе **фигур** нажмите кнопку **тень**, а затем выберите команду **параметры тени**).
   
-Чтобы получить ссылку на ячейку ShapeShdwOffsetX по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку ShapeShdwOffsetX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | ShapeShdwOffsetX  <br/> |
+| Имя ячейки:  <br/> | ShapeShdwOffsetX  <br/> |
    
-Для получения ссылки на ячейки ShapeShdwOffsetX по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку ShapeShdwOffsetX по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowFill** <br/> |
-| Индекс ячейки:  <br/> |**visFillShdwOffsetX** <br/> |
+| Индекс строки:  <br/> |**Висровфилл** <br/> |
+| Индекс ячейки:  <br/> |**Висфиллшдвоффсеткс** <br/> |
    
 

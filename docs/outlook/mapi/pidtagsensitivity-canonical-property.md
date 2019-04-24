@@ -13,70 +13,70 @@ api_type:
 ms.assetid: 5b678475-f2a8-4831-ad68-11654e09c821
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: eab8ce71d28a672d7069a1c16da5cd2cc2e149f7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342506"
 ---
 # <a name="pidtagsensitivity-canonical-property"></a>Каноническое свойство PidTagSensitivity
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение, которое указывает мнение отправителя сообщения о конфиденциальности сообщения.
+Содержит значение, указывающее на отправителя сообщения о конфиденциальности сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_SENSITIVITY  <br/> |
+|Связанные свойства:  <br/> |ПР_СЕНСИТИВИТИ  <br/> |
 |Идентификатор:  <br/> |0x0036  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Рекомендуется, что сообщение объекты предоставляют это свойство.
+Рекомендуется предоставлять объектам сообщений это свойство.
   
-Это свойство может иметь только один из следующих значений:
+Это свойство может иметь только одно из следующих значений:
   
-SENSITIVITY_NONE 
+СЕНСИТИВИТИ_НОНЕ 
   
-> Сообщение имеет нет специальных знаков.
+> Сообщение не имеет особой чувствительности.
     
-SENSITIVITY_PERSONAL 
+СЕНСИТИВИТИ_ПЕРСОНАЛ 
   
-> Личные сообщения.
+> Сообщение является личным.
     
-SENSITIVITY_PRIVATE 
+СЕНСИТИВИТИ_ПРИВАТЕ 
   
-> Сообщение является частной.
+> Сообщение является частным.
     
-SENSITIVITY_COMPANY_CONFIDENTIAL 
+СЕНСИТИВИТИ_КОМПАНИ_КОНФИДЕНТИАЛ 
   
-> Сообщение является определенных служебное, конфиденциальное.
+> Сообщение предназначено для конфиденциальной компании.
     
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -84,7 +84,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

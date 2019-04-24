@@ -1,31 +1,31 @@
 ---
-title: Подключение элемента (Connects_Type complexType) ('Visio XML»)
+title: Элемент Connect (Коннектс_типе complexType) (' XML ' Visio ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e1ad47b-ee28-6b9a-f2f9-642e09ca28d4
-description: Представляет подключение между двумя фигурами в документе, такие как строку и поле в организационной диаграммы.
+description: Представляет соединение между двумя фигурами в документе, например линии и поле на организационной диаграмме.
 ms.openlocfilehash: 82413f44f05f2ec6140e2b3981b7a1e8435becb0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399321"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346510"
 ---
-# <a name="connect-element-connectstype-complextype-visio-xml"></a>Подключение элемента (Connects_Type complexType) ('Visio XML»)
+# <a name="connect-element-connectstype-complextype-visio-xml"></a>Элемент Connect (Коннектс_типе complexType) (' XML ' Visio ')
 
-Представляет подключение между двумя фигурами в документе, такие как строку и поле в организационной диаграммы.
+Представляет соединение между двумя фигурами в документе, например линии и поле на организационной диаграмме.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Коннект_типе](connect_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |страницы # .xml, главные # .xml  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25399321"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Осуществляет подключение](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **подключение** для каждого подключения между двумя фигурами в документе.  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Коннектс_типе](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,11 +52,11 @@ ms.locfileid: "25399321"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|FromCell  <br/> |XSD:String  <br/> |необязательный  <br/> |Ячейка, из которого создается подключение.  <br/> |Значения типа xsd:string.  <br/> |
-|FromPart  <br/> |XSD: int  <br/> |необязательный  <br/> |Часть фигуры, из которого создается подключение.  <br/> |Значения типа XSD: int.  <br/> |
-|FromSheet  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор фигуры, из которого создаются и подключения.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|ToCell  <br/> |XSD:String  <br/> |необязательный  <br/> |Ячейка, к которому выполняется подключение.  <br/> |Значения типа xsd:string.  <br/> |
-|ToPart  <br/> |XSD: int  <br/> |необязательный  <br/> |Часть фигуры, к которому выполняется подключение.  <br/> |Значения типа XSD: int.  <br/> |
-|ToSheet  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор фигуры, к которой один или несколько подключения.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|FromCell  <br/> |XSD: строка  <br/> |необязательный  <br/> |Ячейка, из которой исходит подключение.  <br/> |Значения типа String: XSD.  <br/> |
+|FromPart  <br/> |XSD: int  <br/> |необязательный  <br/> |Часть фигуры, из которой происходит подключение.  <br/> |Значения типа XSD: int.  <br/> |
+|FromSheet  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |ИДЕНТИФИКАТОР фигуры, из которой происходят подключения.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|ToCell  <br/> |XSD: строка  <br/> |необязательный  <br/> |Ячейка, к которой выполняется подключение.  <br/> |Значения типа String: XSD.  <br/> |
+|ToPart  <br/> |XSD: int  <br/> |необязательный  <br/> |Часть фигуры, к которой выполняется подключение.  <br/> |Значения типа XSD: int.  <br/> |
+|ToSheet  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |ИДЕНТИФИКАТОР фигуры, для которой выполняется одно или несколько подключений.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

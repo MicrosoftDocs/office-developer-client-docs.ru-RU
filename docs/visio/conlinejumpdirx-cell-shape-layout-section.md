@@ -1,5 +1,5 @@
 ---
-title: Ячейка ConLineJumpDirX (раздел "Макет фигуры")
+title: ConLineJumpDirX Cell (Shape Layout Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,39 +9,39 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: f0671835-8d48-907a-eca6-43953658f800
 description: Определяет направление пересечения линий при пересечении горизонтальной динамической соединительной линии для фигуры.
-ms.openlocfilehash: 396830d0da22c15f036f95808b3a94c33e9dc5bb
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 22b9366b750a85a76498b83880aac2b9b974e1ac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342751"
 ---
-# <a name="conlinejumpdirx-cell-shape-layout-section"></a>Ячейка ConLineJumpDirX (раздел "Макет фигуры")
+# <a name="conlinejumpdirx-cell-shape-layout-section"></a>ConLineJumpDirX Cell (Shape Layout Section)
 
 Определяет направление пересечения линий при пересечении горизонтальной динамической соединительной линии для фигуры.
   
-|**Значение**|**Направление**|**Константа автоматизации**|
+|**Значение**|**Направление пересечения линий**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| 0  <br/> | Страница по умолчанию  <br/> |**visLOJumpDirXDefault** <br/> |
-| 1  <br/> | Вверх   <br/> |**visLOJumpDirXUp** <br/> |
-| 2  <br/> | Вниз  <br/> |**visLOJumpDirXDown** <br/> |
+| нуль  <br/> | Страница по умолчанию  <br/> |**Висложумпдирксдефаулт** <br/> |
+| 1,1  <br/> | Настройка  <br/> |**Висложумпдирксуп** <br/> |
+| 2  <br/> | Понижен  <br/> |**Висложумпдирксдовн** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-По умолчанию горизонтали для *всех* соединителей переходит на страницу, использовать ячейку PageLineJumpDirX в разделе макет страницы. 
+Чтобы задать горизонтальное направление по умолчанию для *всех* переходов между соединителями на странице, используйте ячейку PageLineJumpDirX в разделе Макет страницы. 
   
-Чтобы получить ссылку на ячейку ConLineJumpDirX по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку ConLineJumpDirX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | ConLineJumpDirX  <br/> |
+| Имя ячейки:  <br/> | ConLineJumpDirX  <br/> |
    
-Для получения ссылки на ячейки ConLineJumpDirX по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку ConLineJumpDirX по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowShapeLayout** <br/> |
-| Индекс ячейки:  <br/> |**visSLOJumpDirX** <br/> |
+| Индекс строки:  <br/> |**Висровшапелайаут** <br/> |
+| Индекс ячейки:  <br/> |**Виссложумпдиркс** <br/> |
    
 

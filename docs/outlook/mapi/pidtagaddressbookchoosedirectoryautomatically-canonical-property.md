@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: cecd0679-4bc2-4399-8f89-a4e17bb909a0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b685fd0ebe4a2d0bfcfd8aab3015602b84932db7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 41fdaf333084b7d567f4e67ae9fd2638a1731349
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359792"
 ---
 # <a name="pidtagaddressbookchoosedirectoryautomatically-canonical-property"></a>Каноническое свойство PidTagAddressBookChooseDirectoryAutomatically
 
@@ -21,28 +21,28 @@ ms.locfileid: "22564943"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Позволяет выбрать наиболее подходящую глобальном списке адресов (GAL) или папку "Контакты" для текущего почтового ящика Microsoft Outlook 2010 и Microsoft Outlook 2013.
+Позволяет Microsoft Outlook 2010 и Microsoft Outlook 2013 выбрать наиболее подходящий глобальный список адресов (GAL) или папку контактов для текущего почтового ящика.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_AB_CHOOSE_DIRECTORY_AUTOMATICALLY  <br/> |
+|Связанные свойства:  <br/> |ПР_АБ_ЧУСЕ_ДИРЕКТОРИ_АУТОМАТИКАЛЛИ  <br/> |
 |Идентификатор:  <br/> |0x3D1C000B  <br/> |
 |Тип свойства:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Адресная книга  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство соответствует параметру **автоматически выбирать** в диалоговом окне параметры адресной книги. Когда это свойство в разделе профилей IID_CAPONE_PROF существует и имеет значение **true**, в адресной книге диалоговое окно больше не по умолчанию контейнер, указанный с помощью метода [SetDefaultDir](iaddrbook-setdefaultdir.md) , но выбирает к адресной книге, Outlook 2010 или Outlook 2013 рассматривает контексту, в котором диалоговое окно отображается. Обратите внимание на то, что это может привести к низкого уровня качества для поставщиками сторонних производителей адресной книги. 
+Это свойство соответствует параметру **выбрать автоматический** параметр в диалоговом окне Параметры адресной книги. Если это свойство существует в разделе profile ИИД_КАПОНЕ_ПРОФ и имеет значение **true**, диалоговое окно адресной книги больше не будет использоваться по умолчанию в контейнере, указанном в методе [сетдефаултдир](iaddrbook-setdefaultdir.md) , но выбирает адресную книгу, которую outlook 2010 или Outlook 2013 подсчитается подходящим для контекста, в котором отображается диалоговое окно. Обратите внимание, что это может привести к неудовлетворительному взаимодействию сторонних поставщиков адресных книг. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -52,11 +52,11 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
-[Константы MAPI](mapi-constants.md)
+[��������� MAPI](mapi-constants.md)
   
-[Каноническое свойство имена сопоставляемых именам MAPI](mapping-canonical-property-names-to-mapi-names.md)
+[Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
-[Сопоставление имен MAPI имена каноническое свойств](mapping-mapi-names-to-canonical-property-names.md)
+[Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

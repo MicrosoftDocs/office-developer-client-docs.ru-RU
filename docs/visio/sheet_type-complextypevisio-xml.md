@@ -1,5 +1,5 @@
 ---
-title: Sheet_Type complexType ('Visio XML»)
+title: Шит_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4855350c-8204-ef1f-4d08-4ab6540249e9
 ms.openlocfilehash: dc8930ffa89baf059074a12bb285e6b53e329e41
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342870"
 ---
-# <a name="sheettype-complextype-visio-xml"></a>Sheet_Type complexType ('Visio XML»)
+# <a name="sheettype-complextype-visio-xml"></a>Шит_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -72,16 +72,16 @@ ms.locfileid: "25388751"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
-|[Раздел](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> ||
-|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> ||
+|[Cell](cell-elementvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> ||
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> ||
+|[Trigger](trigger-elementvisio-xml.md) <br/> |[Тригжер_типе](trigger_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|Стиль линии  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
-|Стиля текста  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|FillStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|LineStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|TextStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

@@ -12,32 +12,32 @@ api_type:
 - COM
 ms.assetid: cc169ba8-e9b7-42ad-8f0e-77b0843f95ea
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 55b965374bb1d7e5859f0cac5cc2f61956ea5b55
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8600cc7071fbe5c08d5df074f9bf59f4320b7f18
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357584"
 ---
 # <a name="pidlidimageattachmentscompressionlevel-canonical-property"></a>Каноническое свойство PidLidImageAttachmentsCompressionLevel
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Определяет уровень сжатия для применения на attachments изображения.
+Определяет уровень сжатия, применяемый к вложениям с изображениями.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidImgAttchmtsCompressLevel  <br/> |
-|Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008593  <br/> |
+|Связанные свойства:  <br/> |Диспидимгаттчмтскомпресслевел  <br/> |
+|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008593  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Конфигурация во время выполнения  <br/> |
+|Область:  <br/> |Настройка времени выполнения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Ниже приведены уровни допустимый сжатие.
+Ниже приведены допустимые уровни сжатия:
   
 ```cpp
 enum PictureCompressLevel
@@ -53,13 +53,13 @@ enum PictureCompressLevel
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -69,7 +69,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

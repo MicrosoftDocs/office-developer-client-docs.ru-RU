@@ -1,5 +1,5 @@
 ---
-title: Ячейка BeginY (раздел "Одномерные конечные точки")
+title: BeginY Cell (1-D Endpoints Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm95
 localization_priority: Normal
 ms.assetid: b2518a70-5755-a15a-a238-bac2ae64a75a
-description: Представляет y-координаты начальной точки одномерной фигуры относительно начала родительского элемента.
-ms.openlocfilehash: aa45b7bf366a4e8091546963968d8930f21100e4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Представляет координату y начальной точки одноМерной фигуры относительно начала координат родительского элемента.
+ms.openlocfilehash: dbe1cca3a3b969b14b62cb613359d014c7933bd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813178"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360384"
 ---
-# <a name="beginy-cell-1-d-endpoints-section"></a>Ячейка BeginY (раздел "Одномерные конечные точки")
+# <a name="beginy-cell-1-d-endpoints-section"></a>BeginY Cell (1-D Endpoints Section)
 
-Представляет *y* -координаты начальной точки одномерной фигуры относительно начала родительского элемента. 
+Представляет координату *y* начальной точки одномерной фигуры относительно начала координат родительского элемента. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на BeginY ячейки по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на начало ячейки по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | BeginY  <br/> |
+| Имя ячейки:  <br/> | BeginY  <br/> |
    
-Для получения ссылки на ячейки BeginY по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку Begin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|

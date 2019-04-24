@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: aff1b5e6-beeb-bd30-ce29-8c6ad589566c
 description: Возвращает внутренний тип объекта в виде числа.
-ms.openlocfilehash: 0d833575b80fd0246c013461f4ed585639ac3525
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2c67a5b2adbad0f439c3c2ce201a846b1c5338c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344592"
 ---
 # <a name="type-function"></a>Функция TYPE
 
@@ -22,24 +22,24 @@ ms.locfileid: "19815096"
   
 ## <a name="syntax"></a>Синтаксис
 
-(ТИП)
+TYPE ()
   
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Number
+Номер
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-В следующей таблице перечислены типы внутренних объектов как числа.
+В следующей таблице перечислены внутренние типы объектов в виде чисел.
   
-|**Объект**|**Число**|
+|**Object**|**Number**|
 |:-----|:-----|
 |Page  <br/> |70  <br/> |
 |Группа  <br/> |71  <br/> |
 |Shape  <br/> |72  <br/> |
 |Стиль  <br/> |74  <br/> |
-|Руководство по  <br/> |77  <br/> |
-|Внешний  <br/> |78  <br/> |
-|Документ  <br/> |79  <br/> |
+|Структуру  <br/> |77  <br/> |
+|Правительства  <br/> |78  <br/> |
+|Document  <br/> |79  <br/> |
    
 

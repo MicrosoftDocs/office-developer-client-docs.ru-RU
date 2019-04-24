@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 3b23291d-3355-d772-4647-d4bbd64b0b53
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 057a1ff38ed3809ce03bce8f820f1d16eea7fb46
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c9d2ec7f1970e3d1cadb65ab9af360b5c01c6844
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581127"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360489"
 ---
 # <a name="updel"></a>UPDEL
 
@@ -21,7 +21,7 @@ ms.locfileid: "22581127"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Сведения для элементов, которые были удалены в локальном хранилище. Эти сведения используются во время [загрузки удалить состояние состояние](upload-delete-status-state.md).
+Сведения об элементах, удаленных в локальном хранилище. Эти сведения используются в состоянии состояния [отправки для удаления](upload-delete-status-state.md).
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -35,13 +35,13 @@ struct UPDEL
 
 ## <a name="members"></a>Элементы
 
- _pupde_
+ _пупде_
   
->  [out] Вектор [UPDELE](updele.md) записей. 
+>  вышли Вектор записей [](updele.md) . 
     
- _централизованной_
+ _Центов_
   
-> [out] Число записей в *pupde* . 
+> вышли Количество записей в *пупде* . 
     
 ## <a name="see-also"></a>См. также
 

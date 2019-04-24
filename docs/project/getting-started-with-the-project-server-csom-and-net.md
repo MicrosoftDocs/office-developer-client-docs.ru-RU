@@ -1,17 +1,17 @@
 ---
-title: Начало работы с CSOM Project Server и .NET
+title: Начало работы с Project Server CSOM и .NET
 manager: soliver
 ms.date: 08/10/2016
 ms.audience: Developer
 ms.assetid: 5ce73baa-dfb6-41d0-918d-b0c3a498815f
-description: Клиентскую объектную модель (CSOM) Project Server 2013 можно использовать для разработки решений Project Online и локальных решений с помощью .NET Framework 4. В этой статье описано создание консольного приложения, использующего CSOM для создания и публикации проектов. После публикации проекта приложение ожидает, пока служба очередей Project Server не завершит публикацию, а затем выводит список опубликованных проектов.
+description: Клиентскую объектную модель (CSOM) Project Server 2013 можно использовать для разработки решений Project Online и локальных решений с помощью .NET Framework 4. В этой статье описано создание консольного приложения, использующего CSOM для создания и публикации проектов. После публикации проекта приложение ожидает, пока служба очередей Project Server завершит публикацию, а затем выводит список опубликованных проектов.
 localization_priority: Priority
 ms.openlocfilehash: b53587ca1959faefdc1b40f08c4adfda4ee11d70
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710463"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360579"
 ---
 # <a name="getting-started-with-the-project-server-csom-and-net"></a>Начало работы с CSOM Project Server и .NET
 

@@ -9,49 +9,49 @@ localization_priority: Normal
 ms.assetid: db3a6947-f640-43e8-a2df-71e96560fd81
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 680c9dd9db2743c031de7cda4673d7044ec533e8
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360741"
 ---
 # <a name="pidtaguserfields-canonical-property"></a>Каноническое свойство PidTagUserFields
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит имя, тип данных и другие сведения о пользовательских полей.
+Содержит имя, тип данных и другие сведения о поле, определенном пользователем.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_USERFIELDS  <br/> |
+|Связанные свойства:  <br/> |ПР_УСЕРФИЕЛДС  <br/> |
 |Идентификатор:  <br/> |0x36E3  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Папки MAPI  <br/> |
+|Область:  <br/> |Папка MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для каждого элемента Outlook хранятся определения всех пользовательских полей в свойстве [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) соответствующего объекта **IMessage** . Свойство **PidLidPropertyDefinitionStream** содержит двоичный поток, известных как [Определение свойства](propertydefinition-stream-structure.md), который содержит определения полей. Дополнительные сведения о потоке структуры для определения полей можно [Структур потока](stream-structures.md).
+Для каждого элемента Outlook хранит определения всех полей, определенных пользователем, в свойстве [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) соответствующего объекта **iMessage** . Свойство **PidLidPropertyDefinitionStream** содержит двоичный поток, известный как [PropertyDefinition](propertydefinition-stream-structure.md), который содержит определения полей. Дополнительные сведения о структурах потоков для определений полей приведены в разделе [структуры потоков](stream-structures.md).
   
-Для каждой папки Outlook хранятся определения всех пользовательских полей в эту папку в свойстве **PidTagUserFields** сообщения связанный класс сообщения IPC.MS. REN. USERFIELDS - каждой папки, которые, как содержать не более одной сообщение в таблице связанное содержимое этого класса. 
+Для каждой папки Outlook хранит определения всех определяемых пользователем полей в этой папке в свойстве **PidTagUserFields** связанного сообщения класса Message IPC.MS. Ren. УСЕРФИЕЛДС — каждая папка предположительно содержит не более одного сообщения этого класса в связанной таблице содержимого. 
   
 > [!NOTE]
-> Набор пользовательских полей в папке могут не соответствовать обязательно наборы пользовательских полей в каждой из его элементы. 
+> Набор определяемых пользователем полей в папке может необязательно совпадать с наборами определяемых пользователем полей в каждом из его элементов. 
   
-Набор пользовательских полей в папке отображается в разных местах пользовательского интерфейса Outlook, такие как Выбор поля адреса папки. Свойство **PidTagUserFields** сообщение содержит двоичный поток **FolderUserFields**, который содержит определения полей папки. Дополнительные сведения о структуре потока для определения полей папки можно [Потока структуры папок полей](folder-fields-stream-structures.md) и [Пример FolderUserFields потока](folderuserfields-stream-sample.md).
+Набор определяемых пользователем полей в папке отображается в различных местах в ПОЛЬЗОВАТЕЛЬСКОМ ИНТЕРФЕЙСе Outlook, например в средстве выбора полей папки. Свойство **PidTagUserFields** сообщения содержит двоичный поток **FolderUserFields**, который содержит определения полей папки. Для получения дополнительных сведений о структурах потоков для определений полей папки, просмотрите [структуру потоков полей папок](folder-fields-stream-structures.md) и [пример потока FolderUserFields](folderuserfields-stream-sample.md).
   
 ## <a name="section-heading"></a>Заголовок раздела
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 
 
-[Поля и элементы Outlook](outlook-items-and-fields.md)
+[Элементы и поля Outlook](outlook-items-and-fields.md)
   
 [Добавление определения для нового пользовательского поля](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
@@ -67,7 +67,7 @@ Mapidefs.h
   
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 32c40e1fbda3f0f851b52d29c073d95a5d636620
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710295"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349562"
 ---
 # <a name="create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-users-manager"></a>Создание почтового элемента, вложение отчета и отправка почтового элемента руководителю пользователя
 
@@ -22,7 +22,7 @@ ms.locfileid: "28710295"
 
 Этот пример выполняется правильно только от имени учетной записи Microsoft Exchange Server. Связи пользователей и руководителей должны быть настроены в службе каталога Active Directory. В этом примере используется объект [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) , чтобы определить текущего руководителя пользователя с помощью вызова метода [GetExchangeUserManager](https://msdn.microsoft.com/library/bb646656\(v=office.15\)) .
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **Imports** или **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -80,5 +80,5 @@ private void SendSalesReport()
 
 ## <a name="see-also"></a>См. также
 
-- [Mail](mail.md)
+- [Почта](mail.md)
 

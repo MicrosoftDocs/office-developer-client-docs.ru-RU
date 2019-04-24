@@ -1,27 +1,27 @@
 ---
-title: Определить, какая версия Exchange Server в профиле Outlook
+title: Определение версии Exchange Server в профиле Outlook
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e2d8d8a9-7e8f-9cf0-56a8-d8a6281ad589
-description: 'Последнее изменение: 03 июля 2012 г.'
-ms.openlocfilehash: b6c1482554cfb1e756266eb31f992b81bc34bb51
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: 'Дата последнего изменения: 03 июля, 2012'
+ms.openlocfilehash: c6aaac128e1a3e1a8d77d3fa8b6c50a335348b71
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345544"
 ---
-# <a name="detect-the-version-of-exchange-server-in-an-outlook-profile"></a>Определить, какая версия Exchange Server в профиле Outlook
+# <a name="detect-the-version-of-exchange-server-in-an-outlook-profile"></a>Определение версии Exchange Server в профиле Outlook
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе приводится пример кода c++, который показано, как использовать свойство **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** и свойство **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** для получения сведений о версии сервера Microsoft Exchange Server, который является активной учетной записи подключение. 
+В этом разделе представлен пример кода на языке C++, в котором показано, как использовать свойство **[пр_профиле_сервер_версион](pidtagprofileserverversion-canonical-property.md)** и свойство **[пр_профиле_сервер_фулл_версион](pidtagprofileserverfullversion-canonical-property.md)** для получения сведений о версии сервера Microsoft Exchange, на котором активна учетная запись подключено к. 
   
-`GetProfileServiceVersion` Функции в образце кода принимает профиль в качестве входного параметра. В зависимости от того, является ли свойство **PR_PROFILE_SERVER_VERSION** и свойство **PR_PROFILE_SERVER_FULL_VERSION** существует в заданного профиля функция возвращает каждого свойства и возвращает соответствующую версию данных в качестве выходных данных параметры. 
+`GetProfileServiceVersion` Функция в образце кода принимает профиль в качестве входного параметра. В зависимости от того, существует ли свойство **пр_профиле_сервер_версион** и свойство **пр_профиле_сервер_фулл_версион** в заданном профиле, функция получает каждое свойство и возвращает в качестве выходных данных соответствующие сведения о версии. параметры. 
   
-`GetProfileServiceVersion`Сначала вызывается функция **[MAPIAdminProfiles](mapiadminprofiles.md)** для создания объекта администрирования профилей. Затем объект администрирования профилей используется для вызова **[IProfAdmin::AdminServices](iprofadmin-adminservices.md)** , чтобы получить объект администрирования службы сообщений. С помощью объекта message службы администрирования, он вызывает **[IMsgServiceAdmin::OpenProfileSection](imsgserviceadmin-openprofilesection.md)** для получения части текущего профиля, а затем вызывает **[HrGetOneProp](hrgetoneprop.md)** , чтобы проверить, существует ли каждый из двух свойств в данном разделе профиль и если да, наборов сведений о версии в соответствующие выходные параметры. 
+`GetProfileServiceVersion`Сначала вызывается функция **[мапиадминпрофилес](mapiadminprofiles.md)** для создания объекта администрирования профиля. Затем с помощью объекта администрирования профиля вызывается метод **[ипрофадмин:: админсервицес](iprofadmin-adminservices.md)** для получения объекта администрирования службы сообщений. С помощью объекта администрирования службы сообщений вызывается метод **[имсгсервицеадмин:: опенпрофилесектион](imsgserviceadmin-openprofilesection.md)** , чтобы получить раздел текущего профиля, а затем вызывает **[хржетонепроп](hrgetoneprop.md)** , чтобы проверить, существует ли каждое из этих двух свойств в этом разделе профиль и, если это так, задает сведения о версии в соответствующих выходных параметрах. 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

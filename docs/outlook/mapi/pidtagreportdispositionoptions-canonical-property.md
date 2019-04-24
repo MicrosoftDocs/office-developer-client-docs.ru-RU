@@ -10,45 +10,45 @@ api_type:
 - COM
 ms.assetid: bf37786a-b6bd-48a6-a2ec-6a739a8ba0d7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cefb7948071b37a5a91bb87cb96a29c23ba5f3cd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 12cc9ad950b7173fe95cf44e5e179710ee98e9fc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22580518"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346349"
 ---
 # <a name="pidtagreportdispositionoptions-canonical-property"></a>Каноническое свойство PidTagReportDispositionOptions
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Сопоставляется с ликвидации MIME-параметры заголовка для сообщений, запрашивающих поступлений. Значение этого свойства должны быть пустая строка.
+СоПоставляется с заголовком Параметры расположения MIME для сообщений, запрашивающих уведомления. Значением этого свойства должно быть пустая строка.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REPORT_DISPOSITION_OPTIONS, PR_REPORT_DISPOSITION_OPTIONS_A, PR_REPORT_DISPOSITION_OPTIONS_W  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕПОРТ_ДИСПОСИТИОН_ОПТИОНС, ПР_РЕПОРТ_ДИСПОСИТИОН_ОПТИОНС_А, ПР_РЕПОРТ_ДИСПОСИТИОН_ОПТИОНС_В  <br/> |
 |Идентификатор:  <br/> |0x0085  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

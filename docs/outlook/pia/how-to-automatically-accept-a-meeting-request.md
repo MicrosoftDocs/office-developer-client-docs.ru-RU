@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f546b4e2de2a77034fdfeca4d685d7b7f909f40a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700334"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359705"
 ---
 # <a name="automatically-accept-a-meeting-request"></a>Автоматическое принятие приглашения на собрание
 
@@ -28,7 +28,7 @@ ms.locfileid: "28700334"
 
 Параметр *Response* указывает, принят, отклонен или добавлен в календарь ответ. Параметры fNoUI и fAdditionalTextDialog являются значениями **bool**, определяющими соответственно, будет ли ответ отправлен и может ли пользователь изменять ответ. В следующем примере кода AutoAcceptMeetingRequests перечисляет все объекты **MeetingItem**, чтобы получить связанный объект **AppointmentItem**. Затем AutoAcceptMeetingRequests использует метод **Respond** с параметром *fNoUI*, равным **true**, чтобы показать, что ответ будет отправлен автоматически, чтобы принять приглашение на собрание.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

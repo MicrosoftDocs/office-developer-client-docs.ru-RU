@@ -1,5 +1,5 @@
 ---
-title: Shapes_Type complexType ('Visio XML»)
+title: Шапес_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7ef84fa3-6fb8-c570-a5ee-3c1c9dddb86c
 ms.openlocfilehash: 7d028939ad6c99ecf4160b95764c86779c399c8e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344515"
 ---
-# <a name="shapestype-complextype-visio-xml"></a>Shapes_Type complexType ('Visio XML»)
+# <a name="shapestype-complextype-visio-xml"></a>Шапес_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "25397613"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> ||
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Шапешит_типе](shapesheet_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

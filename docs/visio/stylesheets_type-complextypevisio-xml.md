@@ -1,5 +1,5 @@
 ---
-title: StyleSheets_Type complexType ('Visio XML»)
+title: Стилешитс_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: c2603bc5-86bd-df29-43c2-25a39419ad1e
 ms.openlocfilehash: 1992f0e31ae972320f80f99d94164fbd1dbc6d45
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395744"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346783"
 ---
-# <a name="stylesheetstype-complextype-visio-xml"></a>StyleSheets_Type complexType ('Visio XML»)
+# <a name="stylesheetstype-complextype-visio-xml"></a>Стилешитс_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "25395744"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Таблица стилей](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> ||
+|[Применение](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[Стилешит_типе](stylesheet_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

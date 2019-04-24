@@ -13,47 +13,47 @@ api_type:
 ms.assetid: ad7e37e1-bd12-409f-87e5-ebc0c298a072
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 4956ce33d00135c34193dec3df832c6878b2c6db
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360111"
 ---
 # <a name="pidlidreminderoverride-canonical-property"></a>Каноническое свойство PidLidReminderOverride
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, будет ли клиента должны учитывать значения свойства **dispidReminderFileParam** ( [PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)) и **dispidReminderPlaySound** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)).
+Указывает, должен ли клиент учитывать значения свойств **диспидреминдерплайсаунд** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)) и **диспидреминдерфилепарам** ( [PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidReminderOverride  <br/> |
-|Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x0000851C  <br/> |
+|Связанные свойства:  <br/> |Диспидреминдероверриде  <br/> |
+|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x0000851C  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Reminder  <br/> |
+|Область:  <br/> |Напоминание  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Клиент может использовать значения по умолчанию вместо значений свойств **dispidReminderPlaySound** и **dispidReminderFileParam** . 
+Клиент может использовать значения по умолчанию вместо значений свойств **диспидреминдерплайсаунд** и **диспидреминдерфилепарам** . 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS — ОКСОРМДР]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Задает свойства и модель взаимодействия для электронной почты и других объектов напоминания.
+> Задает свойства и модель взаимодействия для сообщений электронной почты и других объектов.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

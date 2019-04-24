@@ -1,5 +1,5 @@
 ---
-title: DataColumns_Type complexType ('Visio XML»)
+title: Датаколумнс_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ad003c9e-5e72-2df0-f9c5-dea20a220ab5
 ms.openlocfilehash: 6d802bf646ee87f4c96b9ce041352af3cab48a16
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382381"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344599"
 ---
-# <a name="datacolumnstype-complextype-visio-xml"></a>DataColumns_Type complexType ('Visio XML»)
+# <a name="datacolumnstype-complextype-visio-xml"></a>Датаколумнс_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -54,13 +54,13 @@ ms.locfileid: "25382381"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> ||
+|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[Датаколумн_типе](datacolumn_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|SortAsc  <br/> |XSD:Boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
-|SortColumn  <br/> |XSD:String  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|Сортаск  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
+|SortColumn  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

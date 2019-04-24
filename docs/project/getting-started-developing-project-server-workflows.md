@@ -5,26 +5,26 @@ ms.date: 08/10/2016
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 735bbb04-a8c1-46c0-a346-42050f0ac9b1
-description: Запросу, что процессы управления в Project Server 2013 включить рабочие процессы, которые помогут вам управлять предложений по проекту и анализа портфеля. В этом разделе представлены статьи, в которых показано, как для создания рабочих процессов для Project Server.
+description: Процессы управления запросами в Project Server 2013 включают рабочие процессы, помогающие управлять предложениями по проекту и анализом портфелей. В этот раздел включены статьи, показывающие, как можно создавать рабочие процессы для Project Server.
 ms.openlocfilehash: 0a09022e63528f50ee4f0c8bd69bd6c34c5d8753
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384096"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344473"
 ---
 # <a name="getting-started-developing-project-server-workflows"></a>Начало разработки рабочих процессов Project Server
 
-Запросу, что процессы управления в Project Server 2013 включить рабочие процессы, которые помогут вам управлять предложений по проекту и анализа портфеля. В этом разделе представлены статьи, в которых показано, как для создания рабочих процессов для Project Server.
+Процессы управления запросами в Project Server 2013 включают рабочие процессы, помогающие управлять предложениями по проекту и анализом портфелей. В этот раздел включены статьи, показывающие, как можно создавать рабочие процессы для Project Server.
   
-Рабочих процессов Project Server 2013 использованию платформы рабочих процессов SharePoint Server 2013, создан на основе версии 4 Windows Workflow Foundation (WF4). Рабочих процессов на основе WF4 являются декларативные, это означает, что средства создания рабочих процессов сохраняет стадии рабочего процесса, действия, условия и другие элементы кода XAML, который обрабатывается во время выполнения. Создание декларативных рабочих процессов можно использовать SharePoint Designer 2013 или Visual Studio 2012. Рабочий процесс требует ядро выполнения 1.0 клиент диспетчера рабочих процессов, который может быть на локальном сервере для локальных решений или на удаленном сервере для Project Online решений.
+Рабочие процессы Project Server 2013 используют платформу рабочих процессов SharePoint Server 2013, созданную на базе версии 4 Windows Workflow Foundation (WF4). Рабочие процессы на основе WF4 являются декларативными, что означает, что средство создания рабочего процесса сохраняет стадии, действия, условия и другие элементы рабочего процесса в код XAML, который интерпретируется во время выполнения. Для создания декларативных рабочих процессов можно использовать SharePoint Designer 2013 или Visual Studio 2012. Для рабочего процесса необходим исполняемый модуль диспетчера рабочих процессов 1,0, который может находиться на локальном сервере для локальных решений или на удаленном сервере для решений Project Online.
   
-SharePoint Designer 2013 можно использовать для создания сравнительно легко декларативных рабочих процессов. Для сложных рабочих процессов и шаблоны рабочих процессов, которые можно повторно использовать можно использовать Visual Studio 2012 для разработки и отладки рабочих процессов для Project Web App. Для получения дополнительных сведений см. [Создание рабочих процессов Project с помощью Visual Studio 2012](https://blogs.msdn.com/b/project_programmability/archive/2012/11/07/creating-project-workflows-using-visual-studio-2012.aspx).
+Вы можете использовать SharePoint Designer 2013 для создания сравнительно простых декларативных рабочих процессов. Для сложных рабочих процессов и шаблонов рабочих процессов, которые можно использовать повторно, можно использовать Visual Studio 2012 для разработки и отладки рабочих процессов Project Web App. Дополнительные сведения см. [в статье Создание рабочих процессов Project с помощью Visual Studio 2012](https://blogs.msdn.com/b/project_programmability/archive/2012/11/07/creating-project-workflows-using-visual-studio-2012.aspx).
   
 > [!IMPORTANT]
-> Используйте пробную установку Project Server, не производственной установки для разработки и тестирования рабочих процессов. Рабочие процессы, разработанных для предварительных версий Project Server 2013 должно тестироваться версии выпуска и может потребоваться создать заново и повторного развертывания. 
+> Рекомендуется разрабатывать и тестировать рабочие процессы не в рабочей, а в тестовой установке Project Server. Рабочие процессы, разработанные для предварительных версий Project Server 2013, должны быть проверены на наличие версии выпуска и могут быть созданы повторно и повторно развернуты. 
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
 [Создание рабочего процесса Project Server для управления запросами](create-a-project-server-workflow-for-demand-management.md)
   
@@ -32,20 +32,20 @@ SharePoint Designer 2013 можно использовать для создан
 
 
 
-[Обновление настраиваемых полей в пакетном режиме и создание сайтов проектов из Project Online рабочего процесса](bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md)
+[Массовое обновление настраиваемых полей и создание сайтов проектов из рабочего процесса Project Online](bulk-update-custom-fields-and-create-project-sites-from-workflow-in-project.md)
 
 
-[Workflow development in SharePoint Designer 2013 and Visio 2013](https://msdn.microsoft.com/library/jj163272%28office.15%29.aspx)
+[Разработка рабочих процессов в SharePoint Designer 2013 и Visio 2013](https://msdn.microsoft.com/library/jj163272%28office.15%29.aspx)
   
 [Что нового в рабочих процессах для SharePoint 2013](https://msdn.microsoft.com/library/jj163177.aspx)
   
 [Разработка рабочих процессов в SharePoint 2013 с помощью Visual Studio](https://msdn.microsoft.com/library/jj163199.aspx)
   
-[Создание рабочих процессов Project, с помощью Visual Studio 2012](https://blogs.msdn.com/b/project_programmability/archive/2012/11/07/creating-project-workflows-using-visual-studio-2012.aspx)
+[Создание рабочих процессов проекта с помощью Visual Studio 2012](https://blogs.msdn.com/b/project_programmability/archive/2012/11/07/creating-project-workflows-using-visual-studio-2012.aspx)
   
 [Windows Workflow Foundation](https://msdn.microsoft.com/library/dd489441.aspx)
   
-[Введение для разработчиков для Windows Workflow Foundation (WF) в .NET 4](https://msdn.microsoft.com/library/ee342461.aspx)
+[Введение для разработчиков Windows Workflow Foundation (WF) в .NET 4](https://msdn.microsoft.com/library/ee342461.aspx)
   
 [Путеводитель по управлению запросами (технический документ)](https://msdn.microsoft.com/library/ff973112.aspx)
 

@@ -1,5 +1,5 @@
 ---
-title: Иерархия наследования MAPI объекта
+title: Иерархия наследования объектов MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -9,25 +9,25 @@ api_type:
 ms.assetid: 3dc0b79f-e346-416d-ac81-42eba6b6d3b2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 4b610415089ff19165ffcabc9e13901ed63c907d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391789"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345844"
 ---
-# <a name="mapi-object-inheritance-hierarchy"></a>Иерархия наследования MAPI объекта
+# <a name="mapi-object-inheritance-hierarchy"></a>Иерархия наследования объектов MAPI
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Все интерфейсы, реализованные объектов MAPI в конечном счете наследовать от [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), интерфейс OLE, которая позволяет объекты для связи. Большинство интерфейсов напрямую наследовать от **IUnknown**, но некоторые наследование от одного из двух базовых интерфейсов: [IMAPIProp: IUnknown](imapipropiunknown.md) или [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). На следующем рисунке показана иерархия наследования завершения в MAPI.
+Все интерфейсы, реализованные объектами MAPI, в конечном счете, наследуются от [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), интерфейс OLE, позволяющий объектам взаимодействовать. Большинство интерфейсов напрямую наследуют от **IUnknown**, но некоторые из них наследуются от одного из двух других базовых интерфейсов: [IMAPIProp: IUnknown](imapipropiunknown.md) или [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). На следующем рисунке показана полная иерархия наследования в MAPI.
   
 **Иерархия наследования MAPI**
   
-![Иерархия наследования MAPI] (media/amapi_06.gif "Иерархия наследования MAPI")
+![Иерархия наследованИя MAPI] (media/amapi_06.gif "Иерархия наследованИя MAPI")
   
 ## <a name="see-also"></a>См. также
 
 - [IMAPIProp : IUnknown](imapipropiunknown.md) 
 - [IMAPIContainer : IMAPIProp](imapicontainerimapiprop.md)
-- [Обзор интерфейса и объект MAPI](mapi-object-and-interface-overview.md)
+- [Общие сведения об объекте и интерфейсе MAPI](mapi-object-and-interface-overview.md)
 

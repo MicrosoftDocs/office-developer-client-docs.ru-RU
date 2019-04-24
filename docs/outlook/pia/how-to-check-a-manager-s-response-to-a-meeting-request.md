@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ba54ba740182eaffc92a0e1932a6fbed1d3804c8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722538"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359712"
 ---
 # <a name="check-a-managers-response-to-a-meeting-request"></a>Проверка ответа руководителя на приглашение на собрание
 
@@ -27,7 +27,7 @@ ms.locfileid: "28722538"
 
 В следующем примере кода метод CheckManagerResponseStatus принимает в качестве параметра объект **AppointmentItem**. Метод CheckManagerResponseStatus получает объект [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) путем вызова метода **GetExchangeUser** для текущего пользователя. После этого метод CheckManagerResponseStatus получает объект **ExchangeUser**, связанный с руководителем текущего пользователя, посредством вызова метода **GetExchangeUserManager**. С помощью метода [CompareEntryIDs(String, String)](https://msdn.microsoft.com/library/bb646919\(v=office.15\)) объекта [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) в этом примере проверяется, соответствует ли объект **Recipient**, связанный с объектом **AppointmentItem**, объекту **ExchangeUser**, который представляет руководителя пользователя. Если метод **CompareEntryIDs** возвращает значение **true**, это значит, что руководитель пользователя присутствует в коллекции **Recipients**, и метод CheckManagerResponseStatus возвращает значение свойства **MeetingResponseStatus** для руководителя. Если метод **CompareEntryIDs** возвращает значение **false**, метод CheckManagerResponseStatus возвращает пустую ссылку.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

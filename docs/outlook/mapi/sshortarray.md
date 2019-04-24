@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 201ceb76-41bc-4d7b-835d-5196bf3dc234
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b684309211bbc008856311158c67864d958c96a0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8ea7d51b15a6e6acd44a3c0b6158378661f311bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573035"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344501"
 ---
 # <a name="sshortarray"></a>SShortArray
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив целых значений, которые используются для описания свойства типа PT_MV_SHORT.
+Содержит массив целочисленных значений без знака, которые используются для описания свойства типа ПТ_МВ_ШОРТ.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SShortArray
@@ -42,17 +42,17 @@ typedef struct _SShortArray
 
 ## <a name="members"></a>Members
 
- **cValues**
+ **Квалуес**
   
-> Число значений в массиве, на который указывает член **строки** . 
+> Количество значений в массиве, на которое указывает элемент **LPI** . 
     
- **линий на дюйм**
+ **LPI**
   
-> Указатель на массив целых значений.
+> Указатель на массив значений целых чисел без знака.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Дополнительные сведения о PT_MV_SHORT и других типов свойств можно [Типы свойств](property-types.md). 
+Дополнительные сведения о ПТ_МВ_ШОРТ и других типах свойств приведены в разделе [типы свойств](property-types.md). 
   
 ## <a name="see-also"></a>См. также
 

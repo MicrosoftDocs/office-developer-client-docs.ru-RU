@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 26bc1842-0736-4bcd-9251-86bf222ece2a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ff386e8b280eea5bcc5794a3080d9a61cefb20e5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ba69b2a7aebaba16b0d856c1b012b637650f5eaf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360867"
 ---
 # <a name="pidtagdeltay-canonical-property"></a>Каноническое свойство PidTagDeltaY
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит высоту управления диалогового окна в диалоговое окно Windows единиц измерения. 
+Содержит высоту элемента управления "диалоговое окно" в стандартных единицах диалогового окна Windows. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_DELTAY  <br/> |
+|Связанные свойства:  <br/> |ПР_ДЕЛТАЙ  <br/> |
 |Идентификатор:  <br/> |0x3F04  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Таблица отображения MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **PR_YPOS** ([PidTagYCoordinate](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) и это свойство управляют положение и размер управления диалогового окна. 
+**Пр_кспос** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), **Пр_ипос** ([пидтагикурдинате](pidtagycoordinate-canonical-property.md)), **пр_делтакс** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)), а данное свойство управляет положением и размером элемента управления диалогового окна. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

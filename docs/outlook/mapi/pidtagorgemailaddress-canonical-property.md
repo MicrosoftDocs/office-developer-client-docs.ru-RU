@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 5a7c596d-a8e1-46df-aabe-ac96027876eb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2c1119ea2b1b8db0f4671894730dce76b18b4f5c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: daccc16e314be865c5f0f152a9a1b746e0978869
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342492"
 ---
 # <a name="pidtagorgemailaddress-canonical-property"></a>Каноническое свойство PidTagOrgEmailAddress
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит адрес электронной почты учетной записи электронной почты отправителя.
+Содержит адрес электронной почты исходной учетной записи электронной почты.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORG_EMAIL_ADDRESS, PR_ORG_EMAIL_ADDRESS_A, PR_ORG_EMAIL_ADDRESS_W  <br/> |
-|Идентификатор:  <br/> |Подлежит определению  <br/> |
-|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
+|Связанные свойства:  <br/> |ПР_ОРГ_ЕМАИЛ_АДДРЕСС, ПР_ОРГ_ЕМАИЛ_АДДРЕСС_А, ПР_ОРГ_ЕМАИЛ_АДДРЕСС_В  <br/> |
+|Идентификатор:  <br/> |Подлежит уточнению.  <br/> |
+|Тип данных:  <br/> |ПТ_УНИКОДЕ, PT_STRING8  <br/> |
 |Область:  <br/> |Address  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

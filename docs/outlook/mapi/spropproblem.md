@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7c19cce33ec351a5627870782ebb4fe509a98be2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b3a0872c94459fc7c24d13e35adf335ef8012182
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573287"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357850"
 ---
 # <a name="spropproblem"></a>SPropProblem
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит описание ошибки, которые относятся к операции, включающие использование свойства.
+В этой статье описывается ошибка, связанная с операцией, включающей в себя свойство.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SPropProblem
@@ -43,21 +43,21 @@ typedef struct _SPropProblem
 
 ## <a name="members"></a>Members
 
- **ulIndex**
+ **Улиндекс**
   
-> Индекс массива тегов свойств.
+> Индекс в массиве тегов свойств.
     
- **ulPropTag**
+ **Улпроптаг**
   
-> Тег свойства для свойства, которое содержит ошибки.
+> Тег Property для свойства с ошибкой.
     
  **SCODE**
   
-> Значение ошибки, описанием проблемы со свойством. Это значение может быть любое значение MAPI [SCODE](scode.md) . 
+> Значение ошибки, описывающее проблему со свойством. Это значение может быть любым значением [SCODE](scode.md) MAPI. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Массив структур **SPropProblem** возвращается из следующих методов: 
+Массив структур **спроппроблем** возвращается из следующих методов: 
   
 - [IMAPISupport::DoCopyTo](imapisupport-docopyto.md)
     
@@ -73,9 +73,9 @@ typedef struct _SPropProblem
     
 - [IPropData::HrAddObjProps](ipropdata-hraddobjprops.md)
     
-Структура **SPropProblem** содержит значение **SCODE** ошибки, результатом операции, изменение или удаление свойства MAPI. 
+Структура **спроппроблем** содержит значение ошибки **SCODE** , полученное в результате операции, пытающейся изменить или удалить свойство MAPI. 
   
-Дополнительные сведения о работе структура **SPropProblem** при этом возникают ошибки, связанные с свойства в разделе [Свойства с именем MAPI](mapi-named-properties.md). 
+Дополнительные сведения о том, как структура **спроппроблем** работает с ошибками, связанными со свойствами, в разделе [свойства MAPI с именем](mapi-named-properties.md). 
   
 ## <a name="see-also"></a>См. также
 

@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 3fbaa77a-be43-4fce-af67-1826ee101799
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e71658922b6cb80dadc7e034a51c10189c4207ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f78e0ed939e190a9855ea4b040d18c01cfecc91d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357843"
 ---
 # <a name="spropproblemarray"></a>SPropProblemArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив из одного или нескольких структур [SPropProblem](spropproblem.md) . 
+Содержит массив из одной или нескольких структур [спроппроблем](spropproblem.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
 |Связанные макросы:  <br/> |[CbNewSPropProblemArray](cbnewspropproblemarray.md) <br/> [CbSPropProblemArray](cbspropproblemarray.md) <br/> [SizedSPropProblemArray](sizedspropproblemarray.md) <br/> |
    
 ```cpp
@@ -43,17 +43,17 @@ typedef struct _SPropProblemArray
 
 ## <a name="members"></a>Members
 
- **cProblem**
+ **Кпроблем**
   
-> Число структур [SPropProblem](spropproblem.md) в массиве, указанный в параметре члена **aProblem** . 
+> Количество структур [спроппроблем](spropproblem.md) в массиве, указанном членом **апроблем** . 
     
- **aProblem**
+ **Апроблем**
   
-> Массив структур **SPropProblem** каждого описывает ошибку свойство. 
+> Массив структур **спроппроблем** , каждый из которых описывает ошибку свойства. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Дополнительные сведения о работе структур **SPropProblem** и **SPropProblemArray** при этом возникают ошибки, связанные с свойства в разделе [Свойства с именем MAPI](mapi-named-properties.md). 
+Дополнительные сведения о том, как структуры **спроппроблем** и **спроппроблемаррай** работают с ошибками, связанными со свойствами, в разделе [свойства MAPI с именем](mapi-named-properties.md). 
   
 ## <a name="see-also"></a>См. также
 

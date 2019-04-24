@@ -13,62 +13,62 @@ api_type:
 ms.assetid: c67fb54b-8cc7-4fbc-8204-36fcddfa6192
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3a49c6d70cc47ff726a7a99860b5e81a400be0bf
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387309"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355652"
 ---
 # <a name="pidtagmessagesize-canonical-property"></a>Каноническое свойство PidTagMessageSize
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит суммы размеров всех свойств для объекта сообщения, в байтах. 
+Содержит сумму (в байтах) всех размеров всех свойств объекта Message. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_MESSAGE_SIZE  <br/> |
+|Связанные свойства:  <br/> |ПР_МЕССАЖЕ_СИЗЕ  <br/> |
 |Идентификатор:  <br/> |0x0E08  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Рекомендуется, что сообщение объекты предоставляют это свойство. Размер сообщения Указывает приблизительное число байтов, которые переносятся при перемещении сообщения из одного хранилища в другое. Что совокупного размера всех свойств объекта сообщения, это обычно значительно больше, чем сам по себе он текста сообщения. 
+Рекомендуется предоставлять объектам сообщений это свойство. Размер сообщения указывает приблизительное количество байтов, передаваемых при перемещении сообщения из одного хранилища сообщений в другое. Это сумма размеров всех свойств объекта Message, как правило, значительно больше, чем текст сообщения. 
   
-Большинство сообщений хранилища compute поставщиков этого свойства для сообщений, которые они работают. Тем не менее некоторые поставщики хранения сообщения не поддерживают это свойство. В любом случае это свойство недоступно до вызова метода [IMAPIProp::SaveChanges](imapiprop-savechanges.md) или [IMessage::SubmitMessage](imessage-submitmessage.md) . 
+Большинство поставщиков хранилищ сообщений вычисляют это свойство для обрабатываемых ими сообщений. Однако некоторые поставщики хранилища сообщений не поддерживают это свойство. В любом случае это свойство становится недоступным, пока не вызван метод [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) или [iMessage:: субмитмессаже](imessage-submitmessage.md) . 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS — ОКСКФОЛД]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
-> Обрабатывает операции папки.
+> Обрабатывает операции с папками.
     
-[[MS-OXCSTOR]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
+[[MS — ОКСКСТОР]](https://msdn.microsoft.com/library/d42ed1e0-3e77-4264-bd59-7afc583510e2%28Office.15%29.aspx)
   
-> Указывает допустимые операции для базовых объектов хранилища сообщений.
+> Указывает допустимые операции для основных объектов хранилища сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -76,7 +76,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

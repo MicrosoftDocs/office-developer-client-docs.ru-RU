@@ -13,50 +13,50 @@ api_type:
 ms.assetid: 4461b35d-e2b9-41ff-b079-31bfef02e2bb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a92ee13e571032c050f69677d9daba8dad7aea3c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356303"
 ---
 # <a name="pidtagoriginatordeliveryreportrequested-canonical-property"></a>Каноническое свойство PidTagOriginatorDeliveryReportRequested
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если отправитель сообщения запрашивает отчетов о доставке для определенного получателя из систем обмена сообщениями перед сообщение помещается в хранилище сообщений.
+Содержит значение TRUE, если отправитель сообщения запрашивает отчет о доставке для определенного получателя из системы обмена сообщениями перед помещением сообщения в хранилище сообщений.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED  <br/> |
+|Связанные свойства:  <br/> |ПР_ОРИГИНАТОР_ДЕЛИВЕРИ_РЕПОРТ_РЕКУЕСТЕД  <br/> |
 |Идентификатор:  <br/> |0x0023  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство используется для направления в обработке сообщений, доставленных систему обмена сообщениями. В этом случае сообщение необходимо также указать свойство **PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorNonDeliveryReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md)) задано значение FALSE.
+Это свойство используется для направления системы обмена сообщениями в обработку доставленных сообщений. В этом случае сообщение должно также иметь свойство **пр_оригинатор_нон_деливери_репорт_рекуестед** ([PidTagOriginatorNonDeliveryReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md)) со значением false.
   
-Установка свойства **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** на сообщение — это способ запрос отчетов о состоянии доставки для всех получателей. 
+Задание свойства **пр_оригинатор_деливери_репорт_рекуестед** для сообщения позволяет запросить отчеты о состоянии доставки для всех получателей. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщения электронной почты.
+> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -64,7 +64,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

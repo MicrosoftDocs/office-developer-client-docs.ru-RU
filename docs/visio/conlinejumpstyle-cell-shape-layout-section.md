@@ -1,5 +1,5 @@
 ---
-title: Ячейка ConLineJumpStyle (раздел "Макет фигуры")
+title: ConLineJumpStyle Cell (Shape Layout Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,47 +8,47 @@ f1_keywords:
 - Vis_DSS.chm82251655
 localization_priority: Normal
 ms.assetid: baa05a50-97d0-3769-635e-0ea20317d59a
-description: Определяет стиль значка для строки пересечения динамической соединительной линии.
-ms.openlocfilehash: d3e27ddb6689fb5635674b3c4a8462fe587bce7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет стиль значка пересечения линий для перемычек на динамическом соединителе.
+ms.openlocfilehash: ae8af4e326a6c895b3617a4869f98eaf0db68db1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813471"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360062"
 ---
-# <a name="conlinejumpstyle-cell-shape-layout-section"></a>Ячейка ConLineJumpStyle (раздел "Макет фигуры")
+# <a name="conlinejumpstyle-cell-shape-layout-section"></a>ConLineJumpStyle Cell (Shape Layout Section)
 
-Определяет стиль значка для строки пересечения динамической соединительной линии.
+Определяет стиль значка пересечения линий для перемычек на динамическом соединителе.
   
-|**Значение**|**Линии началу работы**|**Константа автоматизации**|
+|**Значение**|**Стиль значка пересечения линий**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-|0  <br/> |Страница по умолчанию  <br/> |**visLOJumpStyleDefault** <br/> |
-|1  <br/> |ARC  <br/> |**visLOJumpStyleArc** <br/> |
-|2  <br/> |Разрывов  <br/> |**visLOJumpStyleGap** <br/> |
-|3  <br/> |Квадратный  <br/> |**visLOJumpStyleSquare** <br/> |
-|4  <br/> |Треугольник  <br/> |**visLOJumpStyleTriangle** <br/> |
-|5  <br/> |три стороны  <br/> |**visLOJumpStyle2Point** <br/> |
-|6  <br/> |4 сторон  <br/> |**visLOJumpStyle3Point** <br/> |
-|7  <br/> |5 сторон  <br/> |**visLOJumpStyle4Point** <br/> |
-|8  <br/> |6 сторон  <br/> |**visLOJumpStyle5Point** <br/> |
-|9  <br/> |7 сторон  <br/> |**visLOJumpStyle6Point** <br/> |
+|нуль  <br/> |Страница по умолчанию  <br/> |**Висложумпстиледефаулт** <br/> |
+|1,1  <br/> |Гипербол  <br/> |**Висложумпстилеарк** <br/> |
+|2  <br/> |Gap  <br/> |**Висложумпстилегап** <br/> |
+|4  <br/> |Го  <br/> |**Висложумпстилескуаре** <br/> |
+|SP4  <br/> |Треугольник  <br/> |**Висложумпстилетриангле** <br/> |
+|17:00  <br/> |3 стороны  <br/> |**visLOJumpStyle2Point** <br/> |
+|ICMPv6  <br/> |4 стороны  <br/> |**visLOJumpStyle3Point** <br/> |
+|см  <br/> |5 Сторон  <br/> |**visLOJumpStyle4Point** <br/> |
+|8,5  <br/> |6 сторон  <br/> |**visLOJumpStyle5Point** <br/> |
+|10  <br/> |7 Сторон  <br/> |**visLOJumpStyle6Point** <br/> |
    
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowShapeLayout** <br/> |
-|Индекс ячейки:  <br/> |**visSLOJumpStyle** <br/> |
+|Индекс строки:  <br/> |**Висровшапелайаут** <br/> |
+|Индекс ячейки:  <br/> |**Виссложумпстиле** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Можно также значение ячейки с выбор динамического соединителя, нажав кнопку **поведение** группы **Разработки фигуры** на вкладки " [Разработчик](run-in-developer-mode-display-the-developer-tab.md) " и затем выбрав вкладку **соединителя** . 
+Можно также задать значение этой ячейки, выбрав динамический соединитель, нажав кнопку **поведение** в группе **Макет фигуры** на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) , а затем щелкнув вкладку **соединитель** . 
   
-Чтобы получить ссылку на ячейку ConLineJumpStyle по имени из другой формулы или из файла с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку ConLineJumpStyle по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |ConLineJumpStyle  <br/> |
+|Имя ячейки:  <br/> |ConLineJumpStyle  <br/> |
    
-Для получения ссылки на ячейки ConLineJumpStyle по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку ConLineJumpStyle по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 

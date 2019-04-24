@@ -1,5 +1,5 @@
 ---
-title: элемент прогноза погоды (weatherdata элемент) (схема местоположения погоды Outlook)
+title: элемент Weather (элемент веасердата) (схема расположений о погоде Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,25 +7,25 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1127956a-37aa-c39e-60b4-343dcc4ead82
-description: Указывает местоположение для прогноза погоды отчет на.
+description: Указывает расположение для отчета о погоде.
 ms.openlocfilehash: f6642b3f477b9fe45ed0e6a43efcd40e21559b7e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398299"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355211"
 ---
-# <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>элемент прогноза погоды (weatherdata элемент) (схема местоположения погоды Outlook)
+# <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>элемент Weather (элемент веасердата) (схема расположений о погоде Outlook)
 
-Указывает местоположение для прогноза погоды отчет на.
+Указывает расположение для отчета о погоде.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[weatherType](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
+|**Тип элемента** <br/> |[Веасертипе](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
-|**Файл схемы** <br/> |getweatherlocation.xsd  <br/> |
+|**Файл схемы** <br/> |жетвеасерлокатион. xsd  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -43,7 +43,7 @@ ms.locfileid: "25398299"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[WeatherData](weatherdata-element-outlook-weather-location-schema.md) <br/> ||Определяет элемент прогноза погоды.  <br/> |
+|[веасердата](weatherdata-element-outlook-weather-location-schema.md) <br/> ||Определяет элемент weather.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,7 +53,7 @@ ms.locfileid: "25398299"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|weatherlocationcode  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает код, связанный с расположением для различения нескольких расположений с тем же именем.  <br/> |Значения типа xs: String  <br/> |
-|weatherlocationname  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает имя расположения.  <br/> |Значения типа xs: String  <br/> |
+|веасерлокатионкоде  <br/> |xs: String  <br/> |Обязательный  <br/> |Указывает код, связанный с расположением, для различения нескольких расположений с одинаковыми именами.  <br/> |Значение типа xs: String.  <br/> |
+|веасерлокатионнаме  <br/> |xs: String  <br/> |Обязательный  <br/> |Задает имя расположения.  <br/> |Значение типа xs: String.  <br/> |
    
 

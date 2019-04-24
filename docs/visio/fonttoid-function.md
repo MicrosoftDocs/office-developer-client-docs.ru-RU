@@ -6,29 +6,29 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 58bde69d-4654-681c-d9bb-d4b776ddb4c5
-description: Возвращает идентификатор (ID) выбранного шрифта.
-ms.openlocfilehash: 6e20723b6f17714a9acf215e63d444e3533ba3b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает идентификатор указанного шрифта.
+ms.openlocfilehash: 720f07d8df51877e864a8ab9ba9df3a08836e1cd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813799"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346097"
 ---
 # <a name="fonttoid-function"></a>Функция FONTTOID
 
-Возвращает идентификатор (ID) выбранного шрифта.
+Возвращает идентификатор указанного шрифта.
   
 > [!NOTE]
-> Рекомендуется использовать функцию [ШРИФТА](font-function.md) , которая аналогична функции **FONTTOID** . В Microsoft Visio 2013 **ШРИФТА** функция была введена для замены **FONTTOID**. 
+> Рекомендуется использовать функцию [Font](font-function.md) , которая аналогична функции **FONTTOID** . В Microsoft Visio 2013 функция **Font** была введена для замены **FONTTOID**. 
   
 ## <a name="syntax"></a>Синтаксис
 
-FONTTOID (** *font_name* **) 
+FONTTOID (* * *фонт_наме* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _font_name_ <br/> |Обязательный  <br/> |**Строка** <br/> |Имя шрифта.  <br/> |
+| _фонт_наме_ <br/> |Обязательный  <br/> |**String** <br/> |Имя шрифта.  <br/> |
    
 

@@ -13,65 +13,65 @@ api_type:
 ms.assetid: e63792b1-9580-4702-a6d7-dd3ae5007a4a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 870b4e0edb360ac36525f94b0605af930eee8fa3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357976"
 ---
 # <a name="pidlidpercentcomplete-canonical-property"></a>Каноническое свойство PidLidPercentComplete
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, что внесенные пользователя о ходе выполнения задачи. 
+Показывает ход выполнения задачи пользователем. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidPercentComplete  <br/> |
-|Набор свойств:  <br/> |PSETID_Task  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008102  <br/> |
+|Связанные свойства:  <br/> |Диспидперценткомплете  <br/> |
+|Набор свойств:  <br/> |Псетид_таск  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008102  <br/> |
 |Тип данных:  <br/> |PT_R8  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Значение этого свойства должно быть число, большее или равное 0,0 и меньше, чем или равно 1.0, где 1.0 указывает, что завершено и 0,0 указывает, что не начала работы.
+Значение этого свойства должно быть числом, превышающим или равным 0,0 и меньшим или равным 1,0, где 1,0 означает, что работа завершена, а 0,0 означает, что работа еще не началась.
   
-Для объекта message отметкой времени значение этого свойства необходимо установить значение 1.0 Если объект помечен завершенных и необходимо указать в противном случае — значение 0.0.
+Для объекта Message с отметкой времени значение этого свойства должно быть равно 1,0, если объект помечен как завершенный, и для него должно быть задано значение 0,0 в ином случае.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS — ОКСОТАСК]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Определяет несколько объектов, которые модель электронный эквивалент задач, назначений задач и обновления задач.
+> Определяет несколько объектов, которые моделируют электронные эквиваленты задач, назначений задач и обновлений задач.
     
-[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS — ОКСОФЛАГ]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Задает свойства и операции, связанные с флагов.
+> Задает свойства и операции, связанные с пометкой.
     
-[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
+> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
     
-[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразование между IETF RFC2445, RFC2446 и RFC2447 и встречи и собрания объекты.
+> Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
     
-[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS — ОКСКФКСИКС]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Обрабатывает порядок и поток для передачи данных между клиентом и сервером.
+> Обрабатывает порядок и потоки для передачи данных между клиентом и сервером.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -81,7 +81,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

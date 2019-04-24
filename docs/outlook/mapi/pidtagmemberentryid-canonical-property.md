@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: b1e166fd-7e15-4371-8510-63001317fb90
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 27659b69e0ae050206de18c1258ee593737fbd3b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 83a645b49e5bb48051bbaedb26058d2da053348b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342499"
 ---
 # <a name="pidtagmemberentryid-canonical-property"></a>Каноническое свойство PidTagMemberEntryId
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор каталога объект запись члена в таблице список управления ДОСТУПОМ системы доступа элемента управления.
+Содержит идентификатор записи объекта каталога для элемента таблицы списка управления доступом системы (SACL).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_MEMBER_ENTRYID  <br/> |
+|Связанные свойства:  <br/> |ПР_МЕМБЕР_ЕНТРИД  <br/> |
 |Идентификатор:  <br/> |0x0FFF  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Правила со стороны сервера  <br/> |
+|Область:  <br/> |Правила на стороне сервера  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство используется интерфейс [IExchangeModifyTable](iexchangemodifytableiunknown.md) для уникальной идентификации лицо или роль, к которому относится список SACL. После создания члена в таблице SACL **ENTRYID** нельзя изменить. Чтобы изменить его, необходимо удалить элемент в таблице и повторно создать его с помощью различных **ENTRYID**.
+Это свойство используется интерфейсом [иексчанжемодифитабле](iexchangemodifytableiunknown.md) для уникальной идентификации пользователя или роли, к которым применяется SACL. После создания члена в таблице SACL изменить значение **EntryID** невозможно. Чтобы изменить его, необходимо удалить элемент Table и повторно создать его с другим идентификатором **EntryID**.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

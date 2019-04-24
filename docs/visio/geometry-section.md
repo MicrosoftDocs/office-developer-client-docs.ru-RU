@@ -1,5 +1,5 @@
 ---
-title: Раздел "Геометрия"
+title: Geometry Section
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,42 +8,42 @@ f1_keywords:
 - Vis_DSS.chm2055
 localization_priority: Normal
 ms.assetid: 75601a1e-6b1a-27ee-a2bd-69e569315982
-description: Содержит строки, в которых перечислены координаты грани для линий и дуг, образующих фигуру.
-ms.openlocfilehash: 59f85c512b7038f6cfddcb657435730a2e724bd6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Содержит строки, в которых перечислены координаты вершин для линий и дуг, составляющих фигуру.
+ms.openlocfilehash: 32a815015c7d1764399215767b674668b7235832
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813839"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345117"
 ---
-# <a name="geometry-section"></a>Раздел "Геометрия"
+# <a name="geometry-section"></a>Geometry Section
 
-Содержит строки, в которых перечислены координаты грани для линий и дуг, образующих фигуру. 
+Содержит строки, в которых перечислены координаты вершин для линий и дуг, составляющих фигуру. 
   
-Геометрия фигуры может быть выражено в нескольких разделах **геометрии** . Несколько путей можно использовать при нескольких путей иметь различные свойства (например, пути [кадрирование изображений](clippingpath-cell-foreign-image-info-section.md) ). 
+Геометрия фигуры может быть выражена в нескольких разделах **геометрии** . Несколько путей удобно использовать, если несколько путей имеют различные свойства (например, [обтравочные](clippingpath-cell-foreign-image-info-section.md) контуры изображений). 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Раздел **геометрии** содержит следующие типы строки. Дополнительные сведения см в разделах строки. 
+Раздел " **геометрия** " содержит следующие типы строк. Дополнительные сведения см. 
   
-|**Row**|**Описание**|
+|**Строка**|**Описание**|
 |:-----|:-----|
-|[MoveTo](moveto-row-geometry-section.md) <br/> |Перемещение координаты.  <br/> |
-|[LineTo](lineto-row-geometry-section.md) <br/> |Линии координаты.  <br/> |
-|[ArcTo](arcto-row-geometry-section.md) <br/> |Нарисуйте дугу координаты.  <br/> |
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> |Создайте руководство, чтобы координаты.  <br/> |
-|[PolylineTo](polylineto-row-geometry-section.md) <br/> |Рисование ломаной или последовательных строк для координаты.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> |Создавать неоднородной rational-сплайн (NURBS), чтобы координаты.  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> |Запустите сплайна.  <br/> |
-|[SplineKnot](splineknot-row-geometry-section.md) <br/> |Нарисуйте сегмента сплайна координата число узлов.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> |Рисование бесконечное строки из одного координат в другую.  <br/> |
-|[Эллипс](ellipse-row-geometry-section.md) <br/> |Рисование эллипсы из центра координат и основные и вспомогательные оси.  <br/> |
-|[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |Рисование кубические Безье график относительно ширину и высоту фигуры.  <br/> |
-|[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |Рисование руководство для координат относительно высоту и ширину фигуры.  <br/> |
-|[RelLineTo](rellineto-row-geometry-section.md) <br/> |Линии координат относительно высоту и ширину фигуры.  <br/> |
-|[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Перемещение координат относительно ширину и высоту фигуры.  <br/> |
-|[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Рисование кривой Безье второго относительно ширину и высоту фигуры.  <br/> |
+|[MoveTo](moveto-row-geometry-section.md) <br/> |Перейти к координате.  <br/> |
+|[LineTo](lineto-row-geometry-section.md) <br/> |НаРисуйте линию по координатам.  <br/> |
+|[ArcTo](arcto-row-geometry-section.md) <br/> |Рисование круговой дуги в координатах.  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> |НаРисуйте эллиптическую дугу по координатам.  <br/> |
+|[PolylineTo](polylineto-row-geometry-section.md) <br/> |Рисование ломаной линии или последовательных линий в координатах.  <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> |Рисование неоднородного рационального B-сплайна (NURBS) в координатах.  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> |Начало сплайна.  <br/> |
+|[SplineKnot](splineknot-row-geometry-section.md) <br/> |НаРисуйте сегмент сплайна в координату кнот.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> |НаРисуйте бесконечную линию от одной координаты к другой.  <br/> |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> |Рисование эллипса по Центральной координате и основной или дополнительной оси.  <br/> |
+|[RelCubBezTo](relcubbezto-row-geometry-section.md) <br/> |Рисование кривой Безье третьего порядка относительно ширины и высоты фигуры.  <br/> |
+|[RelEllipticalArcTo](relellipticalarcto-row-geometry-section.md) <br/> |НаРисуйте эллиптическую дугу по координатам относительно высоты и ширины фигуры.  <br/> |
+|[RelLineTo](rellineto-row-geometry-section.md) <br/> |Рисование линии по координатам относительно высоты и ширины фигуры.  <br/> |
+|[RelMoveTo](relmoveto-row-geometry-section.md) <br/> |Переход на координату, связанную с шириной и высотой фигуры.  <br/> |
+|[RelQuadBezTo](relquadbezto-row-geometry-section.md) <br/> |Рисует кривую Безье второго размера относительно ширины и высоты фигуры.  <br/> |
    
-Чтобы изменить тип строки в этом разделе, щелкните правой кнопкой мыши строку и нажмите кнопку **Изменить тип строки** в контекстном меню. 
+Чтобы изменить тип строки в этом разделе, щелкните строку правой кнопкой мыши и выберите в контекстном меню команду **изменить тип строки** . 
   
 

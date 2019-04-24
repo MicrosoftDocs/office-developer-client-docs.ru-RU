@@ -1,5 +1,5 @@
 ---
-title: Ячейка LineRouteExt (раздел "Макет страницы")
+title: LineRouteExt Cell (Page Layout Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,38 +8,38 @@ f1_keywords:
 - vis_sdr.chm50115
 localization_priority: Normal
 ms.assetid: 3d16b8b3-601b-c10b-68a8-ffd47251306f
-description: Определяет вид по умолчанию для всех соединителей на странице документа.
-ms.openlocfilehash: 21da283f2d9ab43837b8fe4127840e89ea9d9949
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет внешний вид по умолчанию для всех соединителей на странице документа.
+ms.openlocfilehash: 6daed2e06f7673e5a4ec97ec83dc31bad2766301
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358984"
 ---
-# <a name="linerouteext-cell-page-layout-section"></a>Ячейка LineRouteExt (раздел "Макет страницы")
+# <a name="linerouteext-cell-page-layout-section"></a>LineRouteExt Cell (Page Layout Section)
 
-Определяет вид по умолчанию для всех соединителей на странице документа.
+Определяет внешний вид по умолчанию для всех соединителей на странице документа.
   
-|**Значение**|**Описание**|**Константа автоматизации**|
+|**Value**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| 0  <br/> | По умолчанию (обычный)  <br/> |**visLORouteExtDefault** <br/> |
-| 1  <br/> | Прямой  <br/> |**visLORouteExtStraight** <br/> |
-| 2  <br/> | Круглая  <br/> |**visLORouteExtNURBS** <br/> |
+| нуль  <br/> | По умолчанию (прямолинейный)  <br/> |**Вислораутикстдефаулт** <br/> |
+| 1,1  <br/> | Располагает  <br/> |**Вислораутикстстраигхт** <br/> |
+| 2  <br/> | Прямолинейны  <br/> |**Вислораутикстнурбс** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку LineRouteExt по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LineRouteExt по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LineRouteExt  <br/> |
+| Имя ячейки:  <br/> | LineRouteExt  <br/> |
    
-Для получения ссылки на ячейки LineRouteExt по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LineRouteExt по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPageLayout** <br/> |
-| Индекс ячейки:  <br/> |**visPLOLineRouteExt** <br/> |
+| Индекс строки:  <br/> |**Висровпажелайаут** <br/> |
+| Индекс ячейки:  <br/> |**Висплолинераутикст** <br/> |
    
 

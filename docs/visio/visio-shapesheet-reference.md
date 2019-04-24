@@ -8,11 +8,11 @@ ms.assetid: ca06502c-884c-c1ad-d2c9-31f2b2b30ae5
 description: Здесь представлены основные обзоры, задачи программирования, примеры и справочные материалы, которыми можно руководствоваться при разработке решений на основе Visio 2013.
 localization_priority: Priority
 ms.openlocfilehash: 56fa9ee3fa8b86eea08039b0064efed978735e3d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726367"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345453"
 ---
 # <a name="visio-shapesheet-reference"></a>Справочник по таблицам свойств фигур Visio
 

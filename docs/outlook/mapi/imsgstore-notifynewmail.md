@@ -1,5 +1,5 @@
 ---
-title: IMsgStoreNotifyNewMail
+title: Имсгсторенотифиневмаил
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d0d003b0-f12f-4422-b71f-26886169461f
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: 73a4c07c69fb10044cba6e9368cd4bc86c11ad54
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8ec06fd0401a129e08a06acdb1c18785f90d4a0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348757"
 ---
 # <a name="imsgstorenotifynewmail"></a>IMsgStore::NotifyNewMail
 
@@ -33,29 +33,29 @@ HRESULT NotifyNewMail(
 );
 ```
 
-## <a name="parameters"></a>���������
+## <a name="parameters"></a>Параметры
 
- _lpNotification_
+ _Лпнотификатион_
   
 > [in] ��������� �� ��������� [�����������](notification.md) � ��������� ����������� � ��������� ���������. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
 > ��������� ��������� ������� �����������.
     
-## <a name="remarks"></a>���������
+## <a name="remarks"></a>Примечания
 
 ����� **IMsgStore::NotifyNewMail** ���������� ����������� ������� MAPI ��� ���������� ��������� ���������, ��� ��������� ������ ��� ��������. 
   
-## <a name="notes-to-implementers"></a>Примечания для реализующих
+## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
 ��� ������ **NotifyNewMail** ��������� ����������� � ��������� ����� ���� ������������������ �������������. ����� ��������� �����������, ������ [IMAPISupport::Notify](imapisupport-notify.md), ���� �� ������ ������������ ������ ������� ��������� ��� � ������� ����������� ����������. ������������������ �������� � ��� ���� � ������ [IMsgStore::Advise](imsgstore-advise.md) , ���������� ��� ���������  _lpEntryID_ �������� NULL, ��������  _ulEventMask_ ���  _fnevNewMail_. 
   
 �� ��������� � �� ���������� ������ ��� ��������� [�����������](notification.md) � ��������� ����������� � ��������� �����. ���������� ��������� **NOTIFICATION**, ������ ��������������� ������� [ScCopyNotifications](sccopynotifications.md) , ����� ������������ �������� � ��� ������. 
   
-## <a name="see-also"></a>��. �����
+## <a name="see-also"></a>См. также
 
 
 

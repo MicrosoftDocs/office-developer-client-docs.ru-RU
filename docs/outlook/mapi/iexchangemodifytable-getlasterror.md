@@ -1,5 +1,5 @@
 ---
-title: IExchangeModifyTableGetLastError
+title: Иексчанжемодифитаблежетластеррор
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b850dc08-73c3-4b19-ae29-1892d6a2ff2f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f0d2ad118346dd06788af972b64b10d6f6f6d0fc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8d5d4895e4440945896ee4f2212c5fca6da8610d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594294"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350864"
 ---
 # <a name="iexchangemodifytablegetlasterror"></a>IExchangeModifyTable::GetLastError
 
@@ -25,7 +25,7 @@ ms.locfileid: "22594294"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает сведения о, последнюю ошибку в объекте таблицы.
+Возвращает сведения о последней ошибке, произошедшей в объекте Table.
   
 ```cpp
 HRESULT GetLastError( 
@@ -37,17 +37,17 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Параметры
 
- _hResult_
+ _Состав_
   
-> [in] Значение, возвращаемое методом, который не удалось.
+> возврата Возвращаемое значение из метода, который завершился ошибкой.
     
  _ulFlags_
   
-> [in] Не используется, задайте значение нуль (0).
+> возврата Не используется, установите значение 0 (ноль).
     
- _lppMAPIError_
+ _Лппмапиеррор_
   
-> [out] Указывает на MAPI [MAPIERROR](mapierror.md) структура, содержащая сведения о последней ошибки, которые произошли для объекта в таблице. 
+> вышли Указывает на структуру MAPI [мапиеррор](mapierror.md) , которая содержит сведения о последней ошибке, произошедшей для объекта Table. 
     
 ## <a name="see-also"></a>См. также
 

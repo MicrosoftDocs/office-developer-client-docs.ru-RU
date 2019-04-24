@@ -10,39 +10,39 @@ api_type:
 - COM
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1e84308f3a9f9457c5db23c1ad9d42d6e856519e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dae31959cddad7ad61ea32f2372ea34bdbff658e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583633"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346356"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>Каноническое свойство PidTagReportDisposition
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает состояние уведомления для сообщений, запрашивающих поступлений. 
+Указывает состояние прихода для сообщений, запрашивающих уведомления. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REPORT_DISPOSITION, PR_REPORT_DISPOSITION_A, PR_REPORT_DISPOSITION_W  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕПОРТ_ДИСПОСИТИОН, ПР_РЕПОРТ_ДИСПОСИТИОН_А, ПР_РЕПОРТ_ДИСПОСИТИОН_В  <br/> |
 |Идентификатор:  <br/> |0x0080  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Допустимые значения:
+Поддерживаются следующие допустимые значения:
   
-- «удалить»
+- удалять
     
-- «обработки»
+- обработать
     
-- «Отправлено»
+- WLM
     
-- «Отказано»
+- отказал
     
 - "failed"
     
@@ -50,19 +50,19 @@ ms.locfileid: "22583633"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

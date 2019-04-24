@@ -8,34 +8,34 @@ api_type:
 - COM
 ms.assetid: cdb7d8c5-8e35-47ff-8be7-2cb17e341ad3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 735c778cd8e6ccb41de3d3d8cb0fdc163493f712
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dd28c146f6b05b2dea03f73fab7131f23ca99e5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572020"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356898"
 ---
 # <a name="message-store-tables"></a>Таблицы хранилища сообщений
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В таблице хранилища сообщений содержит сведения о поставщиках хранилища сообщений текущего профиля. Для каждого сеанса MAPI, реализованный MAPI и используемого клиентами имеется одна таблица хранилища сообщений. Клиенты могут использовать этой таблице, например, для поиска всех экземпляров определенного поставщика или найти конкретное сообщение хранилища. 
+Таблица "хранилище сообщений" содержит сведения о поставщиках хранилища сообщений в текущем профиле. Для каждого сеанса MAPI существует одна таблица хранилища сообщений, реализованная MAPI и используемая клиентами. Клиенты могут использовать эту таблицу, например, для обнаружения всех экземпляров определенного поставщика или для обнаружения определенного хранилища сообщений. 
   
-В таблице хранилища сообщений динамических. Если пользователь клиентское приложение изменяет профиль, изменение хранилища сообщений по умолчанию, например, значения **PR_DEFAULT_STORE** свойства для хранилищ затронутых сообщения сразу же обновляются. 
+Таблица хранилища сообщений является динамической. Если пользователь клиентского приложения изменяет профиль, изменяя хранилище сообщений по умолчанию, например, значения свойств **пр_дефаулт_сторе** для соответствующих хранилищ сообщений немедленно обновляются. 
   
-Для доступа клиентов к таблице хранилища сообщений путем вызова метода [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) . 
+Клиенты обращаются к таблице хранилища сообщений, вызывая метод [IMAPISession:: жетмсгсторестабле](imapisession-getmsgstorestable.md) . 
   
-Следующие свойства составляют обязательный столбец, задайте в таблице хранилища сообщений:
+Следующие свойства составляют обязательный набор столбцов в таблице хранилища сообщений:
   
 |||
 |:-----|:-----|
-|**PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md))  <br/> |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
-|**PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md))  <br/> |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |
-|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |
-|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |
+|**Пр_дефаулт_сторе** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md))  <br/> |**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
+|**Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**Пр_инстанце_кэй** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
+|**Пр_мдб_провидер** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md))  <br/> |**Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |
+|**Пр_провидер_дисплай** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |**Пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |
+|**Пр_ресаурце_флагс** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**Пр_ресаурце_типе** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |
    
 ## <a name="see-also"></a>См. также
 

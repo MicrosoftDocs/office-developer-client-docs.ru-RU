@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0bc4e19271e2747f5ffa8586b9f2ab226d6658b4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711723"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355799"
 ---
 # <a name="how-do-i-outlook-2013-pia-reference"></a>Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)
 
@@ -64,9 +64,9 @@ ms.locfileid: "28711723"
 [Вложения](attachments.md)
 
 - [Вложение файла в почтовый элемент](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/attach-a-file-to-a-mail-item)
-- [Вложение элемента контакта Outlook в сообщение электронной почты](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/attach-an-outlook-contact-item-to-an-email-message)
+- [Вложение элемента контакта Outlook в электронное письмо](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/attach-an-outlook-contact-item-to-an-email-message)
 - [Ограничение размера вложения в сообщение электронной почты Outlook](https://docs.microsoft.com/office/vba/outlook/Concepts/Attachments/limit-the-size-of-an-attachment-to-an-outlook-email-message)
-- [Изменение вложения в сообщение электронной почты Outlook](https://docs.microsoft.com/office/vba/outlook/concepts/attachments/modify-an-attachment-of-an-outlook-email-message)
+- [Изменение вложения в электронное письмо Outlook](https://docs.microsoft.com/office/vba/outlook/concepts/attachments/modify-an-attachment-of-an-outlook-email-message)
 - [Программное удаление вложений второго уровня безопасности из сообщений и их сохранение на диск](how-to-programmatically-remove-security-level-2-attachments-from-messages-and-save-them-to-disk.md)
 
 [Календарь](calendar.md)

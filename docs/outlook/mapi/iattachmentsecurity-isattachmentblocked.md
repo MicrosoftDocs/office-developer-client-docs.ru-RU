@@ -1,5 +1,5 @@
 ---
-title: IAttachmentSecurityIsAttachmentBlocked
+title: Иаттачментсекуритисаттачментблоккед
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,13 +11,13 @@ api_name:
 api_type:
 - COM
 ms.assetid: 6986d27a-9602-e44a-0797-4c47f2184ef7
-description: 'Дата последнего изменения: 25 июня 2012 года'
-ms.openlocfilehash: ff13866139bf422f071eaba2c146aa1140ccd1ab
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '���� ���������� ���������: 25 ���� 2012 �.'
+ms.openlocfilehash: d255d7b6e80fe0c080fa0a27a7976db758a8c2ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565048"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350850"
 ---
 # <a name="iattachmentsecurityisattachmentblocked"></a>IAttachmentSecurity::IsAttachmentBlocked
 
@@ -25,7 +25,7 @@ ms.locfileid: "22565048"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Проверяет, если указанное вложение не заблокирован по Microsoft Outlook 2010 или Microsoft Outlook 2013 для просмотра и индексирования.
+Проверяет, блокируется ли указанное вложение приложением Microsoft Outlook 2010 или Microsoft Outlook 2013 для просмотра и индексирования.
   
 ```cpp
 HRESULT IAttachmentSecurity::IsAttachmentBlocked( 
@@ -36,13 +36,13 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 ## <a name="parameters"></a>Параметры
 
- _pwszFileName_
+ _Пвсзфиленаме_
   
-> [in] Указатель на имени файла вложения.
+> возврата Указатель на имя файла вложения.
     
- _pfBlocked_
+ _Пфблоккед_
   
-> [out] Указатель на значение, указывающее **значение true,** Если указанное вложение блокируется. в противном случае — **false**.
+> вышли Указатель на значение **true** , если указанное вложение заблокировано; в противном случае — **false**.
     
 ## <a name="see-also"></a>См. также
 
@@ -50,5 +50,5 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 [Константы MAPI](mapi-constants.md)
   
-[Убедитесь, что Заблокированные вложения](how-to-verify-an-attachment-is-blocked.md)
+[Проверка блокировки вложения](how-to-verify-an-attachment-is-blocked.md)
 

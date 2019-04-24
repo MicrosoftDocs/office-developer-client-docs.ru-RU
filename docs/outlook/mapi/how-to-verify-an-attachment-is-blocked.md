@@ -5,21 +5,21 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 69663470-45f3-86ed-e015-eba32b5a7233
-description: 'Дата последнего изменения: 25 июня 2012 года'
+description: '���� ���������� ���������: 25 ���� 2012 �.'
 ms.openlocfilehash: c1c6f960f2e24108bebdc8f6cbf08bf1d94d85ae
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345887"
 ---
 # <a name="verify-an-attachment-is-blocked"></a>Проверка блокировки вложения
 
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Этот пример кода на C++ показано, как использовать [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) интерфейс, чтобы узнать, совместимо ли вложения блокируется Microsoft Outlook 2010 или Microsoft Outlook 2013 для просмотра и индексирования. 
+В этом примере кода на языке C++ показано, как использовать интерфейс [иаттачментсекурити: IUnknown](iattachmentsecurityiunknown.md) для определения того, блокируется ли вложение microsoft Outlook 2010 или microsoft Outlook 2013 для просмотра и индексирования. 
   
-[IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) является производным от [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) интерфейс. Вы можете получить [IAttachmentSecurity: IUnknown](iattachmentsecurityiunknown.md) интерфейс путем вызова [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) на объекте сеанса MAPI, запрашивающего **IID_IAttachmentSecurity**. [IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) возвращает **значение true** в _pfBlocked_ Если вложение считается небезопасных по Outlook 2010 или Outlook 2013 и заблокированные для просмотра и индексирования в Outlook 2010 или Outlook 2013. 
+[Иаттачментсекурити: IUnknown](iattachmentsecurityiunknown.md) является производным от интерфейса [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) . Вы можете получить интерфейс [иаттачментсекурити: IUnknown](iattachmentsecurityiunknown.md) , вызвав метод [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) объекта Session для MAPI, запрашивая **иид_иаттачментсекурити**. [Иаттачментсекурити:: исаттачментблоккед](iattachmentsecurity-isattachmentblocked.md) возвращает **true** в _пфблоккед_ , если вложение считается небезопасным в Outlook 2010 или Outlook 2013, и заблокировано для просмотра и индексирования в Outlook 2010 или Outlook 2013. 
   
 ```cpp
 HRESULT IsAttachmentBlocked(LPMAPISESSION lpMAPISession, LPCWSTR pwszFileName, BOOL* pfBlocked) 

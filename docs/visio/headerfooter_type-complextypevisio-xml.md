@@ -1,5 +1,5 @@
 ---
-title: HeaderFooter_Type complexType ('Visio XML»)
+title: Хеадерфутер_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5fcf3d9-c11a-ed5e-0bf5-e706259ef30b
 ms.openlocfilehash: 581101909096d4ee8a4f44c8e9e95dab0313ed7c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342240"
 ---
-# <a name="headerfootertype-complextype-visio-xml"></a>HeaderFooter_Type complexType ('Visio XML»)
+# <a name="headerfootertype-complextype-visio-xml"></a>Хеадерфутер_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -99,20 +99,20 @@ ms.locfileid: "25384509"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[FooterCenter](footercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterCenter_Type](footercenter_type-complextypevisio-xml.md) <br/> ||
-|[FooterLeft](footerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterLeft_Type](footerleft_type-complextypevisio-xml.md) <br/> ||
-|[FooterMargin](footermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> ||
-|[FooterRight](footerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterRight_Type](footerright_type-complextypevisio-xml.md) <br/> ||
-|[HeaderCenter](headercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderCenter_Type](headercenter_type-complextypevisio-xml.md) <br/> ||
-|[HeaderFooterFont](headerfooterfont-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> ||
-|[HeaderLeft](headerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderLeft_Type](headerleft_type-complextypevisio-xml.md) <br/> ||
-|[HeaderMargin](headermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> ||
-|[HeaderRight](headerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderRight_Type](headerright_type-complextypevisio-xml.md) <br/> ||
+|[FooterCenter](footercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футерцентер_типе](footercenter_type-complextypevisio-xml.md) <br/> ||
+|[FooterLeft](footerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футерлефт_типе](footerleft_type-complextypevisio-xml.md) <br/> ||
+|[FooterMargin](footermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футермаргин_типе](footermargin_type-complextypevisio-xml.md) <br/> ||
+|[FooterRight](footerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футерригхт_типе](footerright_type-complextypevisio-xml.md) <br/> ||
+|[HeaderCenter](headercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерцентер_типе](headercenter_type-complextypevisio-xml.md) <br/> ||
+|[HeaderFooterFont](headerfooterfont-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерфутерфонт_типе](headerfooterfont_type-complextypevisio-xml.md) <br/> ||
+|[HeaderLeft](headerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерлефт_типе](headerleft_type-complextypevisio-xml.md) <br/> ||
+|[HeaderMargin](headermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадермаргин_типе](headermargin_type-complextypevisio-xml.md) <br/> ||
+|[HeaderRight](headerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерригхт_типе](headerright_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|HeaderFooterColor  <br/> |XSD:String  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|HeaderFooterColor  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

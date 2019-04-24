@@ -13,52 +13,52 @@ api_type:
 ms.assetid: 263ac923-692f-40d4-bdd5-116dc5c49766
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7197159fd55016454de3fa806fc30d0700ef5f3d
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401757"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359929"
 ---
 # <a name="pidtagdeferreddeliverytime-canonical-property"></a>Каноническое свойство PidTagDeferredDeliveryTime
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит дату и время, когда отправитель сообщения запрашивает сообщение доставлено. 
+Содержит дату и время, когда отправителю требуется доставленное сообщение. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_DEFERRED_DELIVERY_TIME  <br/> |
+|Связанные свойства:  <br/> |ПР_ДЕФЕРРЕД_ДЕЛИВЕРИ_ТИМЕ  <br/> |
 |Идентификатор:  <br/> |0x000F  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-MAPI не выполняет отложенная доставка; Это параметр базовой системы обмена сообщениями для обработки отложенной доставки.
+MAPI не выполняет отложенную доставку; Это вариант базовой системы обмена сообщениями для обработки отложенной доставки.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые в сообщениях электронной почты.
+> Задает свойства и операции, допустимые для сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

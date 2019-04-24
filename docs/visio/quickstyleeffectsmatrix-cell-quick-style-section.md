@@ -1,37 +1,37 @@
 ---
-title: Ячейка QuickStyleEffectsMatrix (раздел "Экспресс-стиль")
+title: QuickStyleEffectsMatrix Cell (Quick Style Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0332bd3d-626a-4a46-8b69-e887e576ab86
-description: Определяет эффекты экспресс-стилей, которые фигуры наследует от активной темы, как целое число от 0 до 6.
-ms.openlocfilehash: 16f2398e31da536a0cfb2cb8ce0afadb2f3dda6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет быстрые эффекты стилей, которые фигура наследует от активной темы, в виде целого числа от 0-6.
+ms.openlocfilehash: 69541bd7371e8a02838a7ca075d136d8f49c316c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358746"
 ---
-# <a name="quickstyleeffectsmatrix-cell-quick-style-section"></a>Ячейка QuickStyleEffectsMatrix (раздел "Экспресс-стиль")
+# <a name="quickstyleeffectsmatrix-cell-quick-style-section"></a>QuickStyleEffectsMatrix Cell (Quick Style Section)
 
-Определяет эффекты экспресс-стилей, которые фигуры наследует от активной темы, как целое число от 0 до 6. 
+Определяет быстрые эффекты стилей, которые фигура наследует от активной темы, в виде целого числа от 0-6. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для получения ссылки на ячейки **QuickStyleEffectsMatrix** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **QuickStyleEffectsMatrix** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | QuickStyleEffectsMatrix  <br/> |
+| Имя ячейки:  <br/> | QuickStyleEffectsMatrix  <br/> |
    
-Для получения ссылки на ячейки **QuickStyleEffectsMatrix** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **QuickStyleEffectsMatrix** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowQuickStyleProperties** <br/> |
-| Индекс ячейки:  <br/> |**visQuickStyleEffectsMatrix** <br/> |
+| Индекс строки:  <br/> |**Висровкуиккстилепропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Вискуиккстилиффектсматрикс** <br/> |
    
 

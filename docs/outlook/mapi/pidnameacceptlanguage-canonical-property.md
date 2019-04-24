@@ -13,47 +13,47 @@ api_type:
 ms.assetid: 4b202bc1-f718-446a-950f-634ffee47baf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 855610c43cfaa64fa69e6987743b137b188d84a4
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387246"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360944"
 ---
 # <a name="pidnameacceptlanguage-canonical-property"></a>Каноническое свойство PidNameAcceptLanguage
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение поля заголовка [RFC3282] Accept-Language.
+Содержит значение поля заголовка [RFC3282] Accept. Language.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |AcceptLanguage  <br/> |
-|Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Имя свойства:  <br/> |Примите языка  <br/> |
+|Понятные имена:  <br/> |Акцептлангуаже  <br/> |
+|Набор свойств:  <br/> |ПС_ИНТЕРНЕТ_ХЕАДЕРС  <br/> |
+|Имя свойства:  <br/> |Accept-Language  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Электронная почта  <br/> |
+|Область:  <br/> |Email  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы задать значение этого свойства, клиенты сообщение расширения MIME (Multipurpose Internet) указывайте полем заголовок Accept-Language с нужное значение. Клиенты MIME может вместо этого использовать поле заголовка принять языка X. Читатели MIME следует скопировать значение любого из поля заголовка значение этого свойства. Если оба поля заголовков, читатели MIME следует использовать поле Заголовок Accept-Language.
+Чтобы задать значение этого свойства, клиенты с многоцелевыми расширениями Интернет-сообщений (MIME) должны записать поле заголовка Accept-Language с желаемым значением. Клиенты MIME могут создавать вместо этого поле заголовка X — Accepting. Считыватели MIME должны скопировать значение любого поля заголовка в значение этого свойства. Если оба поля заголовков присутствуют, то для средств чтения MIME необходимо использовать поле заголовка Accept – Language.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
+> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

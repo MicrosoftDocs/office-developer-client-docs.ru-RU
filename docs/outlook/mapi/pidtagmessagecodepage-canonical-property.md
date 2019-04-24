@@ -13,56 +13,56 @@ api_type:
 ms.assetid: eef73e34-470c-4c37-94ce-ea95fe83bc10
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 49f2c1c0b8af21f837582698763c17b9c41e1923
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387232"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358466"
 ---
 # <a name="pidtagmessagecodepage-canonical-property"></a>Каноническое свойство PidTagMessageCodepage
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит страницы код, используемый для сообщения.
+Содержит кодовую страницу, используемую для сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_MESSAGE_CODEPAGE  <br/> |
+|Связанные свойства:  <br/> |ПР_МЕССАЖЕ_КОДЕПАЖЕ  <br/> |
 |Идентификатор:  <br/> |0x3FFD  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Common  <br/> |
+|Область:  <br/> |Распространенная  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Кодовая страница папки объект используется в том случае, если это свойство имеет значение нуль (0).
+Если для этого свойства задано значение ноль (0), используется кодовая страница объекта Folder.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-[[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)
+[[MS — ОКСПФОАБ]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)
   
-> Задает метод доставки автономной адресной книги (OAB) данных от сервера к клиенту.
+> Указывает метод доставки данных автономной адресной книги от сервера клиенту.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

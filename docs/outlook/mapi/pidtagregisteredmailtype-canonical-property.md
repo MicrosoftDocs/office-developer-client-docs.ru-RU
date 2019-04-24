@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: f75f2a21-a17c-4d8b-9055-c51d4c1888d0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5ceb02fcf94a04b045a8ef387fc87b161a5515a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1d3eceae1e358f5716f46f33edcd0b2aae4e4a93
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583304"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355099"
 ---
 # <a name="pidtagregisteredmailtype-canonical-property"></a>Каноническое свойство PidTagRegisteredMailType
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Это свойство содержит тип регистрации, используемые для физического доставки сообщения.
+Данное свойство содержит тип регистрации, используемый для физической доставки сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REGISTERED_MAIL_TYPE  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕГИСТЕРЕД_МАИЛ_ТИПЕ  <br/> |
 |Идентификатор:  <br/> |0x0C16  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Получатель MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

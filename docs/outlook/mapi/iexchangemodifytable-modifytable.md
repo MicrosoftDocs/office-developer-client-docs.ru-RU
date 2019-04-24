@@ -1,5 +1,5 @@
 ---
-title: IExchangeModifyTableModifyTable
+title: Иексчанжемодифитаблемодифитабле
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b9a745cc-260d-4a1c-896e-6a038ab3cfb9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b801bdc06317738448a2205b60b94e1c9707d4f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 46bb9b2cc1a4d54807d6929b4e1439b58fb3a531
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565909"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350843"
 ---
 # <a name="iexchangemodifytablemodifytable"></a>IExchangeModifyTable::ModifyTable
 
@@ -35,35 +35,35 @@ HRESULT ModifyTable(
 
 ```
 
-## <a name="parameters"></a>���������
+## <a name="parameters"></a>Параметры
 
  _ulFlags_
   
-> [in] Используйте один из следующих значений: 
+> возврата Используйте одно из следующих значений: 
     
-нуль (0)
+0 (ноль)
   
-> Используйте значение член **ulRowFlags** структуры [ROWENTRY](rowentry.md) . 
+> Используйте значение члена **улровфлагс** структуры [ровентри](rowentry.md) . 
     
-ACLTABLE_FREEBUSY
+АКЛТАБЛЕ_ФРИБУСИ
   
-> Задает новый правами.
+> Задает новые права.
     
-frightsFreeBusyDetailed
+Фригхтсфрибусидетаилед
   
-> При передаче ACLTABLE_FREEBUSY предоставляет подробное отображение новые права сведениям о доступности.
+> Когда АКЛТАБЛЕ_ФРИБУСИ передается, вы можете просмотреть подробные сведения о новых правах на сведения о доступности.
     
-frightsFreeBusySimple
+Фригхтсфрибусисимпле
   
-> При передаче ACLTABLE_FREEBUSY предоставляет простого отображения новые права сведениям о доступности.
+> Когда АКЛТАБЛЕ_ФРИБУСИ передается, вы можете легко отобразить новые права на доступ к сведениям о доступности.
     
-ROWLIST_REPLACE
+РОВЛИСТ_РЕПЛАЦЕ
   
 > Замените все строки в таблице.
     
- _lpMods_
+ _Лпмодс_
   
-> [in] Указывает на [ROWLIST](rowlist.md) структура, содержащая свойства для объекта в таблице. 
+> возврата Указывает на структуру [ровлист](rowlist.md) , содержащую свойства для объекта Table. 
     
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -71,7 +71,7 @@ ROWLIST_REPLACE
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|RulesDlg.cpp  <br/> |CRulesDlg::OnModifySelectedItem  <br/> |Mfcmapi (en) использует метод **IExchangeModifyTable::ModifyTable** для обратной записи измененные правила в таблице правил.  <br/> |
+|Рулесдлг. cpp  <br/> |Крулесдлг:: Онмодифиселектедитем  <br/> |MFCMAPI использует метод **иексчанжемодифитабле:: модифитабле** для записи измененного правила обратно в таблицу правил.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

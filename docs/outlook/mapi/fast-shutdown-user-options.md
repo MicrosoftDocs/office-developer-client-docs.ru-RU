@@ -9,11 +9,11 @@ ms.assetid: 220aeab5-20f6-4520-96c9-8aaa0e8ea15b
 description: 'Дата последнего изменения: 26 июня 2012 года'
 localization_priority: Priority
 ms.openlocfilehash: 3c60862733c6b38e60650ae9daba9bba578fcd58
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716371"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32341078"
 ---
 # <a name="fast-shutdown-user-options"></a>Пользовательские параметры быстрого завершения работы
 

@@ -9,11 +9,11 @@ ms.assetid: 4c126d0c-d7c0-45c0-801c-c9f1e44c9db6
 description: 'Дата последнего изменения: 1 февраля 2013 г.'
 localization_priority: Priority
 ms.openlocfilehash: dc743824cf96800c32d4b4006ae86fbff0bd48a0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723021"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348498"
 ---
 # <a name="outlook-mapi-reference-overview"></a>Обзор справочника по MAPI для Outlook
 

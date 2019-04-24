@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3befe70363d1e2226b8a3a3a6ebb8db39aa2c6ef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359726"
 ---
 # <a name="add-voting-options-to-a-mail-item"></a>Добавление параметров голосования в почтовый элемент
 
@@ -28,7 +28,7 @@ ms.locfileid: "28725996"
 
 В приведенном ниже примере OrderPizza создает параметры голосования в новом сообщении электронной почты. OrderPizza сначала создает объект **MailItem**, затем устанавливает свойство **VotingOptions** равным "Cheese; Mushroom; Sausage; Combo; Veg Combo", а свойство [Subject](https://msdn.microsoft.com/library/bb611353\(v=office.15\)) равным "Pizza Order". При отправке сообщения "Pizza Order" параметры голосования отображаются для получателей. Выбор получателя в каждом полученном ответе регистрируется на странице **Отслеживание** сообщения в папке отправителя "Отправленные".
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

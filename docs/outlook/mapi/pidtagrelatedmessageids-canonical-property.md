@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0c3b200c416a21dab00e1ad31e70b58fbdbf845e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d909a121bdc528a04d0f400555a6f98f29da8f0c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355162"
 ---
 # <a name="pidtagrelatedmessageids-canonical-property"></a>Каноническое свойство PidTagRelatedMessageIds
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список идентификаторов для сообщений, к которым относится сообщение.
+Содержит список идентификаторов сообщений, к которым относится сообщение.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_RELATED_IPMS  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕЛАТЕД_ИПМС  <br/> |
 |Идентификатор:  <br/> |0x002D  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Идентификаторы использовать те же правила определенную конструкцию как используются для свойства **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
+Для идентификаторов используются те же конкретные правила построения, что и для свойства **пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

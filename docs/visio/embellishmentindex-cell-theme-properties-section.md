@@ -1,37 +1,37 @@
 ---
-title: Ячейка EmbellishmentIndex (раздел "Свойства темы")
+title: EmbellishmentIndex Cell (Theme Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 98f7ebdc-fdd5-4534-97dc-9d4c00490d62
-description: Изменение внешнего вида (надстрочные знаки) выноски, контейнеров, временных шкал и фигуры организационной диаграммы.
-ms.openlocfilehash: 93c12a3eed1c7298b37f143fc836ad90ec3b09ab
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Изменение внешнего вида выносок, контейнеров, временных шкал и фигур организационной диаграммы.
+ms.openlocfilehash: 089623bbb310f78488a5c8c7261eed1c16a5c6e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19813676"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345628"
 ---
-# <a name="embellishmentindex-cell-theme-properties-section"></a>Ячейка EmbellishmentIndex (раздел "Свойства темы")
+# <a name="embellishmentindex-cell-theme-properties-section"></a>EmbellishmentIndex Cell (Theme Properties Section)
 
-Изменение внешнего вида (надстрочные знаки) выноски, контейнеров, временных шкал и фигуры организационной диаграммы.
+Изменение внешнего вида выносок, контейнеров, временных шкал и фигур организационной диаграммы.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Для получения ссылки на ячейки **EmbellishmentIndex** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **EmbellishmentIndex** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | EmbellishmentIndex  <br/> |
+| Имя ячейки:  <br/> | EmbellishmentIndex  <br/> |
    
-Для получения ссылки на ячейки **EmbellishmentIndex** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **EmbellishmentIndex** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowThemeProperties** <br/> |
-| Индекс ячейки:  <br/> |**visEmbellishmentIndex** <br/> |
+| Индекс строки:  <br/> |**Висровсемепропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Висембеллишментиндекс** <br/> |
    
 

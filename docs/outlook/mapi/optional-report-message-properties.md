@@ -1,5 +1,5 @@
 ---
-title: Необязательные свойства сообщений отчетов
+title: НеОбязательные свойства сообщений отчета
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,39 +8,39 @@ api_type:
 - COM
 ms.assetid: 5a473c40-6e94-48aa-b040-8308d17efbe8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 63c1ca2277a65698ee341c56c27cb451d2b1d87c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 09da335f8024e81e478ffdef5309707490ca0f1e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348540"
 ---
-# <a name="optional-report-message-properties"></a>Необязательные свойства сообщений отчетов
+# <a name="optional-report-message-properties"></a>НеОбязательные свойства сообщений отчета
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В некоторых случаях с сообщениями отчета отображаются следующие свойства:
+В сообщениях отчетов иногда могут отображаться следующие свойства:
   
 **Заголовок таблицы**
 
 |**Свойство**|**Описание**|
 |:-----|:-----|
-|**PR_ORIGINAL_AUTHOR_ADDRTYPE** ([PidTagOriginalAuthorAddressType](pidtagoriginalauthoraddresstype-canonical-property.md))  <br/> |Содержит тип адреса автора первая версия сообщения, то есть сообщения, прежде чем оно будет переслано или ответ.  <br/> |
-|**PR_ORIGINAL_AUTHOR_EMAIL_ADDRESS** ([PidTagOriginalAuthorEmailAddress](pidtagoriginalauthoremailaddress-canonical-property.md))  <br/> |Содержит адрес электронной почты автора первая версия сообщения, то есть сообщения, прежде чем оно будет переслано или ответ.  <br/> |
-|**PR_ORIGINAL_AUTHOR_ENTRYID** ([PidTagOriginalAuthorEntryId](pidtagoriginalauthorentryid-canonical-property.md))  <br/> |Содержит запись идентификатор автора первая версия сообщения, то есть сообщения, прежде чем оно будет переслано или ответ.  <br/> |
-|**PR_ORIGINAL_AUTHOR_NAME** ([PidTagOriginalAuthorName](pidtagoriginalauthorname-canonical-property.md))  <br/> |Содержит отображаемое имя автора первая версия сообщения, то есть сообщения, прежде чем оно будет переслано или ответ.  <br/> |
-|**PR_ORIGINAL_AUTHOR_SEARCH_KEY** ([PidTagOriginalAuthorSearchKey](pidtagoriginalauthorsearchkey-canonical-property.md))  <br/> |Содержит ключ поиска автора первая версия сообщения, то есть сообщения, прежде чем оно будет переслано или ответ.  <br/> |
-|**PR_ORIGINAL_SENT_REPRESENTING_ADDRTYPE** ([PidTagOriginalSentRepresentingAddressType](pidtagoriginalsentrepresentingaddresstype-canonical-property.md))  <br/> |Содержит тип адреса обмена сообщениями пользователя, от чьего имени исходное сообщение было отправлено.  <br/> |
-|**PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagOriginalSentRepresentingEmailAddress](pidtagoriginalsentrepresentingemailaddress-canonical-property.md))  <br/> |Содержит адрес электронной почты, обмена мгновенными сообщениями пользователя, от чьего имени исходное сообщение было отправлено.  <br/> |
-|**PR_ORIGINAL_SENT_REPRESENTING_ENTRYID** ([PidTagOriginalSentRepresentingEntryId](pidtagoriginalsentrepresentingentryid-canonical-property.md))  <br/> |Содержит идентификатор записи обмена сообщениями пользователя, от чьего имени исходное сообщение было отправлено.  <br/> |
-|**PR_ORIGINAL_SENT_REPRESENTING_NAME** ([PidTagOriginalSentRepresentingName](pidtagoriginalsentrepresentingname-canonical-property.md))  <br/> |Содержит отображаемое имя системы обмена сообщениями пользователя, от чьего имени исходное сообщение было отправлено.  <br/> |
-|**PR_ORIGINAL_SENT_REPRESENTING_SEARCH_KEY** ([PidTagOriginalSentRepresentingSearchKey](pidtagoriginalsentrepresentingsearchkey-canonical-property.md))  <br/> |Содержит ключ поиска сообщений пользователя, от чьего имени исходное сообщение было отправлено.  <br/> |
-|**PR_ORIGINAL_SENDER_ADDRTYPE** ([PidTagOriginalSenderAddressType](pidtagoriginalsenderaddresstype-canonical-property.md))  <br/> |Содержит тип адреса отправителя первая версия сообщения, то есть сообщения, прежде чем оно будет переслано или ответ.  <br/> |
-|**PR_ORIGINAL_SENDER_EMAIL_ADDRESS** ([PidTagOriginalSenderEmailAddress](pidtagoriginalsenderemailaddress-canonical-property.md))  <br/> |Содержит адрес электронной почты отправителя первая версия сообщения, то есть сообщения, прежде чем оно будет переслано или ответ.  <br/> |
-|**PR_ORIGINAL_SENDER_ENTRYID** ([PidTagOriginalSenderEntryId](pidtagoriginalsenderentryid-canonical-property.md))  <br/> |Содержит запись идентификатор отправителя первая версия сообщения, то есть сообщения, прежде чем оно будет переслано или ответ.  <br/> |
-|**PR_ORIGINAL_SENDER_NAME** ([PidTagOriginalSenderName](pidtagoriginalsendername-canonical-property.md))  <br/> |Содержит отображаемое имя отправителя первая версия сообщения, то есть сообщения, прежде чем оно будет переслано или ответ.  <br/> |
-|**PR_ORIGINAL_SENDER_SEARCH_KEY** ([PidTagOriginalSenderSearchKey](pidtagoriginalsendersearchkey-canonical-property.md))  <br/> |Содержит ключ поиска для отправителя первая версия сообщения, то есть сообщения, прежде чем оно будет переслано или ответ.  <br/> |
+|**Пр_оригинал_аусор_аддртипе** ([PidTagOriginalAuthorAddressType](pidtagoriginalauthoraddresstype-canonical-property.md))  <br/> |Содержит тип адреса автора сообщения, то есть сообщение перед его пересылкой или ответом на него.  <br/> |
+|**Пр_оригинал_аусор_емаил_аддресс** ([PidTagOriginalAuthorEmailAddress](pidtagoriginalauthoremailaddress-canonical-property.md))  <br/> |Содержит адрес электронной почты автора первой версии сообщения, то есть сообщение перед его пересылкой или ответ на него.  <br/> |
+|**Пр_оригинал_аусор_ентрид** ([PidTagOriginalAuthorEntryId](pidtagoriginalauthorentryid-canonical-property.md))  <br/> |Содержит идентификатор автора первой версии сообщения, то есть сообщение перед его пересылкой или ответ на него.  <br/> |
+|**Пр_оригинал_аусор_наме** ([PidTagOriginalAuthorName](pidtagoriginalauthorname-canonical-property.md))  <br/> |Содержит отображаемое имя автора первой версии сообщения, то есть сообщение перед его пересылкой или ответ на него.  <br/> |
+|**Пр_оригинал_аусор_сеарч_кэй** ([PidTagOriginalAuthorSearchKey](pidtagoriginalauthorsearchkey-canonical-property.md))  <br/> |Содержит ключ поиска автора первой версии сообщения, то есть сообщение перед его пересылкой или ответом.  <br/> |
+|**Пр_оригинал_сент_репресентинг_аддртипе** ([PidTagOriginalSentRepresentingAddressType](pidtagoriginalsentrepresentingaddresstype-canonical-property.md))  <br/> |Содержит тип адреса пользователя обмена сообщениями, от имени которого было отправлено исходное сообщение.  <br/> |
+|**Пр_оригинал_сент_репресентинг_емаил_аддресс** ([PidTagOriginalSentRepresentingEmailAddress](pidtagoriginalsentrepresentingemailaddress-canonical-property.md))  <br/> |Содержит адрес электронной почты пользователя обмена сообщениями, от имени которого было отправлено исходное сообщение.  <br/> |
+|**Пр_оригинал_сент_репресентинг_ентрид** ([PidTagOriginalSentRepresentingEntryId](pidtagoriginalsentrepresentingentryid-canonical-property.md))  <br/> |Содержит идентификатор входа пользователя, от имени которого было отправлено исходное сообщение.  <br/> |
+|**Пр_оригинал_сент_репресентинг_наме** ([PidTagOriginalSentRepresentingName](pidtagoriginalsentrepresentingname-canonical-property.md))  <br/> |Содержит отображаемое имя пользователя обмена сообщениями, от имени которого было отправлено исходное сообщение.  <br/> |
+|**Пр_оригинал_сент_репресентинг_сеарч_кэй** ([PidTagOriginalSentRepresentingSearchKey](pidtagoriginalsentrepresentingsearchkey-canonical-property.md))  <br/> |Содержит ключ поиска пользователя обмена сообщениями, от имени которого было отправлено исходное сообщение.  <br/> |
+|**Пр_оригинал_сендер_аддртипе** ([PidTagOriginalSenderAddressType](pidtagoriginalsenderaddresstype-canonical-property.md))  <br/> |Содержит тип адреса отправителя первой версии сообщения, то есть сообщение перед его пересылкой или ответ на него.  <br/> |
+|**Пр_оригинал_сендер_емаил_аддресс** ([PidTagOriginalSenderEmailAddress](pidtagoriginalsenderemailaddress-canonical-property.md))  <br/> |Содержит адрес электронной почты отправителя первой версии сообщения, то есть сообщение перед его пересылкой или ответ на него.  <br/> |
+|**Пр_оригинал_сендер_ентрид** ([PidTagOriginalSenderEntryId](pidtagoriginalsenderentryid-canonical-property.md))  <br/> |Содержит идентификатор отправителя первой версии сообщения, то есть сообщение перед его пересылкой или ответом.  <br/> |
+|**Пр_оригинал_сендер_наме** ([PidTagOriginalSenderName](pidtagoriginalsendername-canonical-property.md))  <br/> |Содержит отображаемое имя отправителя первой версии сообщения, то есть сообщение перед пересылкой или на которое вы ответили.  <br/> |
+|**Пр_оригинал_сендер_сеарч_кэй** ([PidTagOriginalSenderSearchKey](pidtagoriginalsendersearchkey-canonical-property.md))  <br/> |Содержит ключ поиска для отправителя первой версии сообщения, то есть сообщение перед его пересылкой или ответ на него.  <br/> |
    
 

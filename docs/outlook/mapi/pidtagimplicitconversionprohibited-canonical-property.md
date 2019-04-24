@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7635dd24f4fbc5128d3d96556802ab2e3fe56e35
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a0e18ef529b65317abd9446408ed73638c792809
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346608"
 ---
 # <a name="pidtagimplicitconversionprohibited-canonical-property"></a>Каноническое свойство PidTagImplicitConversionProhibited
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если сообщение передачи (агента) — это могут выполнять неявные сообщение преобразования текста.
+Содержит значение TRUE, если агенту передачи сообщений (MTA) запрещено делать неявные преобразования текста сообщений.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_IMPLICIT_CONVERSION_PROHIBITED  <br/> |
+|Связанные свойства:  <br/> |ПР_ИМПЛИЦИТ_КОНВЕРСИОН_ПРОХИБИТЕД  <br/> |
 |Идентификатор:  <br/> |0x0016  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Если это свойство имеет значение TRUE, системы обмена сообщениями должен не выполняет преобразование содержимого в окне сообщения без его явного запроса на основе каждого получателя с помощью свойства **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
+Если это свойство имеет значение TRUE, система обмена сообщениями не должна выполнять преобразование содержимого для сообщения, если оно не было явно запрошено для каждого получателя с помощью свойства **пр_експлиЦит_конверсион** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

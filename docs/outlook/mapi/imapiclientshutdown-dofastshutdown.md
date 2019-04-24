@@ -1,5 +1,5 @@
 ---
-title: IMAPIClientShutdownDoFastShutdown
+title: Имапиклиентшутдовндофастшутдовн
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 310cba9a-a343-484d-a029-fcd51b731460
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 41c4ee65ce6ae8f2e0d978f1e2bd95adb4f5872a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 32a0051207ae34f919523fbfe3e01601b7ea5d2a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575177"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350906"
 ---
 # <a name="imapiclientshutdowndofastshutdown"></a>IMAPIClientShutdown::DoFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22575177"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает намерения клиент MAPI, чтобы выйти из клиентского процесса немедленно.
+Указывает на намерение клиента MAPI немедленно выйти из клиентского процесса.
   
 ```cpp
 HRESULT DoFastShutdown ();
@@ -35,15 +35,15 @@ HRESULT DoFastShutdown ();
 
 S_OK
   
-> Подсистема MAPI указал для загруженных поставщики MAPI, что немедленно завершает работу клиент MAPI и поставщики MAPI все готово для выхода клиента.
+> Подсистема MAPI загрузила поставщика MAPI, что клиент MAPI немедленно выходит из системы, а поставщики MAPI готовы к выходу клиента.
     
-MAPI_E_NO_SUPPORT
+МАПИ_Е_НО_СУППОРТ
   
 > Подсистема MAPI не поддерживает быстрое завершение работы клиента.
     
 ## <a name="remarks"></a>Примечания
 
-Чтобы избежать потери данных из быстрое завершение работы клиента MAPI, клиенты MAPI должны вызывать методы [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) и **IMAPIClientShutdown::DoFastShutdown** , основанные на значение S_OK результата, возвращаемого в подсистеме MAPI в метод [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Для получения дополнительных сведений см [Советы и рекомендации по быстрое завершение работы](best-practices-for-fast-shutdown.md).
+Чтобы избежать потери данных при быстром завершении работы клиента MAPI, клиенты MAPI должны вызывать методы [метод imapiclientshutdown:: нотифипроцессшутдовн](imapiclientshutdown-notifyprocessshutdown.md) и **метод imapiclientshutdown::D офастшутдовн** на основе результата S_OK, возвращаемОГО подсистемой MAPI в метод [метод imapiclientshutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Для получения дополнительных сведений ознакомьтесь с рекомендациями [по быстроМу завершенИю работы](best-practices-for-fast-shutdown.md).
   
 ## <a name="see-also"></a>См. также
 

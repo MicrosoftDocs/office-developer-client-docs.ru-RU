@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 1e951ef6-899d-4277-8450-eb222a3d0ebf
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: 7be7d3e13a9cae8628a3d6a6856c3a7ceef32c89
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 699192160b87b7e7fd50d1758036f20d96907dfe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595218"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350598"
 ---
 # <a name="supporting-multivalued-properties-in-message-stores"></a>��������� ������������ ������� � �������� ���������
 

@@ -1,5 +1,5 @@
 ---
-title: CommentList_Type complexType ('Visio XML»)
+title: Комментлист_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 76a41e59-d2cf-dd6a-0ac4-370c1aca4c01
 ms.openlocfilehash: af23616556cecdbfa1157a8d4c49de1ca4b2fd88
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393098"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359418"
 ---
-# <a name="commentlisttype-complextype-visio-xml"></a>CommentList_Type complexType ('Visio XML»)
+# <a name="commentlisttype-complextype-visio-xml"></a>Комментлист_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "25393098"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[CommentEntry](commententry-element-commentlist_type-complextypevisio-xml.md) <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> ||
+|[Комментентри](commententry-element-commentlist_type-complextypevisio-xml.md) <br/> |[Комментентри_типе](commententry_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

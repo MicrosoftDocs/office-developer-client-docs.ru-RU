@@ -1,5 +1,5 @@
 ---
-title: IMAPIClientShutdownQueryFastShutdown
+title: Имапиклиентшутдовнкуерифастшутдовн
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: b743b5b6-4a7c-46b8-99eb-afd13ee947db
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 784a2f497811ba7c4ba0abf260ff32fde75de76a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6a76488f56f9d1eb1b344c01de2615627dd5d3ec
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350871"
 ---
 # <a name="imapiclientshutdownqueryfastshutdown"></a>IMAPIClientShutdown::QueryFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584935"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Запросы в подсистеме MAPI для быстрое завершение работы поддерживают, предоставленные загруженных поставщики MAPI.
+ЗаПрашивает подсистему MAPI для поддержки быстрого завершения работы, предоставляемой загруженными поставщиками MAPI.
   
 ```cpp
 HRESULT QueryFastShutdown ();
@@ -37,13 +37,13 @@ S_OK
   
 > Подсистема MAPI поддерживает быстрое завершение работы клиента MAPI.
     
-MAPI_E_NO_SUPPORT
+МАПИ_Е_НО_СУППОРТ
   
 > Поставщик MAPI не поддерживает быстрое завершение работы клиента MAPI.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Поддерживает ли подсистемы MAPI клиенту MAPI быстрое завершение работы зависит от параметры реестра Windows и поведение по умолчанию для быстрое завершение работы клиента MAPI. Он также зависит от возможность загрузки поставщики MAPI поддерживает быстрое завершение работы. Для получения дополнительных сведений см [Fast параметры завершения работы пользователя](fast-shutdown-user-options.md).
+Поддерживает ли подсистему MAPI выполнение быстрого завершения работы клиента MAPI, зависит от параметров реестра пользователя Windows или поведения по умолчанию клиента MAPI для быстрого завершения работы. Кроме того, она зависит от возможности загруженных поставщиков MAPI для поддержки быстрого завершения работы. Дополнительные сведения приведены в разделе [Параметры быстрого завершения работы пользователя](fast-shutdown-user-options.md).
   
 ## <a name="see-also"></a>См. также
 

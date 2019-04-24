@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: 319be396-89fe-48a6-a229-c62ad48b1692
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 19a6341f8800bf44f3e763b47ee487cd09f20fdd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 215e52dd7dd346ef598a8e99cedcc1edda15a7ed
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358788"
 ---
 # <a name="pidtaginternetapproved-canonical-property"></a>Каноническое свойство PidTagInternetApproved
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Сопоставляется с заголовком утвержденных MIME.
+СоПоставляется с заголовком утвержденного MIME.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_INTERNET_APPROVED, PR_INTERNET_APPROVED_A, PR_INTERNET_APPROVED_W  <br/> |
+|Связанные свойства:  <br/> |ПР_ИНТЕРНЕТ_АППРОВЕД, ПР_ИНТЕРНЕТ_АППРОВЕД_А, ПР_ИНТЕРНЕТ_АППРОВЕД_В  <br/> |
 |Идентификатор:  <br/> |0x1030  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

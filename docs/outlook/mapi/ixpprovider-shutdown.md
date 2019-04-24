@@ -1,5 +1,5 @@
 ---
-title: IXPProviderShutdown
+title: Иксппровидершутдовн
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e2d8a025-c2a3-4edb-b6e4-022e07e854dd
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 2d9a58ff05bb0da07762b9eafddef7303e8b9bc5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a57a72b413ba412154a27a08244e86b117cbea7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592607"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357199"
 ---
 # <a name="ixpprovidershutdown"></a>IXPProvider::Shutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592607"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Закрывает вниз поставщика транспорта определенным образом.
+ЗаКрывает поставщик транспорта в определенном порядке.
   
 ```cpp
 HRESULT Shutdown (
@@ -35,7 +35,7 @@ HRESULT Shutdown (
 
 ## <a name="parameters"></a>Параметры
 
- _lpulFlags_
+ _Лпулфлагс_
   
 > [in] ���������������; ������ ���� ����� ����.
     
@@ -43,11 +43,11 @@ HRESULT Shutdown (
 
 S_OK 
   
-> Вызов успешно завершает работу поставщика транспорта.
+> Вызов завершился успешно при завершении работы поставщика транспорта.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Диспетчер очереди MAPI вызывает метод **IXPProvider::Shutdown** перед освобождение объекта поставщика транспорта. Прежде чем вызывать **Завершение работы**MAPI освобождает все объекты входа в систему для поставщика.
+Диспетчер очереди MAPI вызывает метод **иксппровидер:: Shutdown** непосредственно перед освобождением объекта поставщика транспорта. Перед **завершением**вызовов Служба MAPI освобождает все объекты входа для поставщика.
   
 ## <a name="see-also"></a>См. также
 

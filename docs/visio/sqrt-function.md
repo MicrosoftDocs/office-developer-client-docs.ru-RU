@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 513302d3-3be8-882f-5258-95529098f95d
 description: Возвращает квадратный корень из числа.
-ms.openlocfilehash: 020a286c3e652c7b135a1013cee61e7b39cc9b94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f9f31b9360248f002cac74dfb87ac3b292d34620
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349359"
 ---
 # <a name="sqrt-function"></a>Функция SQRT
 
@@ -22,26 +22,26 @@ ms.locfileid: "19814952"
   
 ## <a name="syntax"></a>Синтаксис
 
-КОРЕНЬ (** *номер* **) 
+SQRT (* * *число* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Номер, который требуется найти квадратный корень.  <br/> |
+| _число_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Число, квадратный корень которого требуется найти.  <br/> |
    
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Числовой
+Numeric
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Если _число_ отрицательное, функция КОРЕНЬ возвращает ошибку #NUM!. 
+Если _число_ отрицательно, функция SQRT возвращает значение ошибки #NUM!. 
   
 ## <a name="example"></a>Пример
 
-SQRT(2) 
+SQRT (2) 
   
-Возвращает 1.4142. 
+Возвращает 1,4142. 
   
 

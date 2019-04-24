@@ -1,37 +1,37 @@
 ---
-title: Ячейка ReflectionBlur (раздел "Дополнительные свойства эффекта")
+title: ReflectionBlur Cell (Additional Effect Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ece15159-6a33-4abd-8775-6fbe1cc43793
-description: Определяет объем размытия для отражения фигуры в точках между 0.0 и 100.0.
-ms.openlocfilehash: d283531cc10b7a18952dcef398acf050c91bafb1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет степень размытия для отражения фигуры в пунктах между 0,0 и 100,0.
+ms.openlocfilehash: 67ed06d764b90afbc47895c4c714fefadbe6f062
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814543"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348400"
 ---
-# <a name="reflectionblur-cell-additional-effect-properties-section"></a>Ячейка ReflectionBlur (раздел "Дополнительные свойства эффекта")
+# <a name="reflectionblur-cell-additional-effect-properties-section"></a>ReflectionBlur Cell (Additional Effect Properties Section)
 
-Определяет объем размытия для отражения фигуры в точках между 0.0 и 100.0.
+Определяет степень размытия для отражения фигуры в пунктах между 0,0 и 100,0.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для получения ссылки на ячейки **ReflectionBlur** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **ReflectionBlur** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | ReflectionBlur  <br/> |
+| Имя ячейки:  <br/> | ReflectionBlur  <br/> |
    
-Для получения ссылки на ячейки **ReflectionBlur** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **ReflectionBlur** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowOtherEffectProperties** <br/> |
-| Индекс ячейки:  <br/> |**visReflectionBlur** <br/> |
+| Индекс строки:  <br/> |**Висровосереффектпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Висрефлектионблур** <br/> |
    
 

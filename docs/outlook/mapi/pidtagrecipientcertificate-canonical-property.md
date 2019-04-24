@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 7c5c749e-5463-4935-85b5-32219d06f782
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 464db3d360f6e872ac28f8d7cbec842d8b521f7e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c659b77767fddc4c783732082c2eb65c68af8dbf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585117"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356716"
 ---
 # <a name="pidtagrecipientcertificate-canonical-property"></a>Каноническое свойство PidTagRecipientCertificate
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит сертификат ASN.1 получателя сообщения для использования в отчете.
+Содержит сертификат получателя сообщения ASN. 1 получателя, который будет использоваться в отчете.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_RECIPIENT_CERTIFICATE  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕЦИПИЕНТ_ЦЕРТИФИКАТЕ  <br/> |
 |Идентификатор:  <br/> |0x0C13  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Получатель MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство соответствует копию получателя свойство **PR_USER_CERTIFICATE** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) для использования в отчете. Используется для подтверждения инициатором, в том, что получатель фактически получено сообщение, которое не обязательно отчетов о доставке.
+Это свойство является копией свойства **пр_усер_цертификате** получателя ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) для использования в отчете. Его можно использовать, чтобы доказать инициатор, который фактически получал сообщение, что отчет о доставке не обязательно указывает.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

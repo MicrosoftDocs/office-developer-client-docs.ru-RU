@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: f21b5e6c-7a63-46bf-acbf-0e042e3519f7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f54ef96443e5c9fc5fb587f5a9c25388c1ff9cdb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 38263f46ccb50e1836f31d457f54f52abca7ce9f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577424"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357521"
 ---
 # <a name="sbinary"></a>SBinary
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Описывает свойства типа PT_BINARY.
+Описывает свойство типа ПТ_БИНАРИ.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SBinary
@@ -44,15 +44,15 @@ typedef struct _SBinary
 
  **cb**
   
-> Число байт в элемент **lpb** . 
+> Количество байтов в элементе **ЛПБ** . 
     
- **lpb**
+ **ЛПБ**
   
-> Указатель на значение свойства PT_BINARY.
+> Указатель на значение свойства ПТ_БИНАРИ.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для получения сведений о типах свойств видеть [Обзор типа свойств MAPI](mapi-property-type-overview.md).
+Сведения о типах свойств приведены в разделе [Обзор типов свойств MAPI](mapi-property-type-overview.md).
   
 ## <a name="see-also"></a>См. также
 

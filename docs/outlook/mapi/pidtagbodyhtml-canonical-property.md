@@ -13,56 +13,56 @@ api_type:
 ms.assetid: 93b9215a-5900-411c-a0ae-6bba62cd5a1e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6ed59228ee06a1d3e362115a99bf4b859dfeb698
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384971"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359047"
 ---
 # <a name="pidtagbodyhtml-canonical-property"></a>Каноническое свойство PidTagBodyHtml
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит версию языка (HTML) текста сообщения. 
+Содержит версию текста сообщения на языке гипертекстовой разМетки (HTML). 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_BODY_HTML, PR_BODY_HTML_A, PR_BODY_HTML_W  <br/> |
+|Связанные свойства:  <br/> |ПР_БОДИ_ХТМЛ, ПР_БОДИ_ХТМЛ_А, ПР_БОДИ_ХТМЛ_В  <br/> |
 |Идентификатор:  <br/> |0x1013  <br/> |
-|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Тип данных:  <br/> |ПТ_УНИКОДЕ, PT_STRING8  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Эти свойства содержит текст сообщения, как **PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), но в формате HTML. 
+Эти свойства содержат тот же текст сообщения, что и **пр_боди_контент_локатион** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), но в HTML. 
   
-Хранилище сообщений, который поддерживает HTML указывает это, установив флаг **STORE_HTML_OK** в его **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
+Хранилище сообщений, поддерживающее HTML, указывает на это путем установки флага **сторе_хтмл_ок** в его **пр_сторе_суппорт_маск** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
   
- **Примечание** **STORE_HTML_OK** не определен в версии Mapidefs.h, включенные в Microsoft® Exchange 2000 Server и более ранних версий. Если **STORE_HTML_OK** не определен, используется значение 0x00010000. 
+ **Note (Примечание** ) **Сторе_хтмл_ок** не определен в версиях MAPIDEFS. h, включенНых в Microsoft ® Exchange 2000 Server и более ранних версий. Если **сторе_хтмл_ок** не определен, используйте вместо этого значение 0x00010000. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -70,7 +70,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

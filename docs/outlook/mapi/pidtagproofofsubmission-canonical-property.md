@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 30511e6e-aba2-4f47-bdc7-1256b23382c5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 224bf8fa29da63bc96e4d86551545ce83fc411d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f44f453a24b647e66ae49202fa1910dfdff10cda
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565559"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350829"
 ---
 # <a name="pidtagproofofsubmission-canonical-property"></a>Каноническое свойство PidTagProofOfSubmission
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Это свойство содержит значение TRUE, если отправитель сообщения запрашивает подтверждение, что система передачи сообщений отправил сообщение для доставки изначально требуемого получателя.
+Это свойство содержит значение TRUE, если отправитель сообщения запрашивает подтверждение того, что система передачи сообщений отправила сообщение для доставки первоначально предполагаемому получателю.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PROOF_OF_SUBMISSION  <br/> |
+|Связанные свойства:  <br/> |ПР_ПРУФ_ОФ_СУБМИССИОН  <br/> |
 |Идентификатор:  <br/> |0x0E26  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |MAPI не передаваемого  <br/> |
+|Область:  <br/> |НеСъемный MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

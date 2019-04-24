@@ -8,36 +8,36 @@ f1_keywords:
 - Vis_DSS.chm82251481
 localization_priority: Normal
 ms.assetid: b64abbd7-38df-9756-23c6-4457be987464
-description: Возвращает x координата точки.
-ms.openlocfilehash: e42aa3c8d80526b11d325ba80acba9de6f4130e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает координату x точки.
+ms.openlocfilehash: 3a751fc440457fe11c829319d4b56e64dd9683ce
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348365"
 ---
 # <a name="pntx-function"></a>Функция PNTX
 
-Возвращает _x_-координаты точки.
+Возвращает координату _x_точки.
   
 ## <a name="syntax"></a>Синтаксис
 
-PNTX (** *пункт* **) 
+PNTX (* * *Point* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _пункт_ <br/> |Обязательный  <br/> |**Число** <br/> |_X_-координаты точки.  <br/> |
+| _Указывает_ <br/> |Обязательный  <br/> |**Number** <br/> |Координата _x_точки.  <br/> |
    
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Number
+Номер
   
 ## <a name="example"></a>Пример
 
-PNTX(PNT(7,12)) 
+PNTX (PNT (7, 12)) 
   
-Возвращает 7. 
+Возвращает значение 7. 
   
 

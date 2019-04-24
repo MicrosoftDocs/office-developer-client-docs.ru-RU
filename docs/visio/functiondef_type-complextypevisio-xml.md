@@ -1,5 +1,5 @@
 ---
-title: FunctionDef_Type complexType ('Visio XML»)
+title: Функтиондеф_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bec3a1ce-edf4-fab5-b3f3-28123b4504a3
 ms.openlocfilehash: 5acc88f94ae943aeb6132e932497c96336e0c419
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346524"
 ---
-# <a name="functiondeftype-complextype-visio-xml"></a>FunctionDef_Type complexType ('Visio XML»)
+# <a name="functiondeftype-complextype-visio-xml"></a>Функтиондеф_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -47,6 +47,6 @@ ms.locfileid: "25389409"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|N  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|N  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: RefreshableData_Type complexType ('Visio XML»)
+title: Рефрешабледата_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d715737a-1daa-4c61-e1c6-c997b1b71302
 ms.openlocfilehash: 6313799e6be26720e9d6c3b5677ca0ab3783e6b7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388947"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346468"
 ---
-# <a name="refreshabledatatype-complextype-visio-xml"></a>RefreshableData_Type complexType ('Visio XML»)
+# <a name="refreshabledatatype-complextype-visio-xml"></a>Рефрешабледата_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -47,6 +47,6 @@ ms.locfileid: "25388947"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

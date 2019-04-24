@@ -1,5 +1,5 @@
 ---
-title: Ячейка Blur (раздел "Свойства изображения")
+title: Blur Cell (Image Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,32 +8,32 @@ f1_keywords:
 - vis_sdr.chm115
 localization_priority: Normal
 ms.assetid: 8b077cdb-6036-4f77-dc20-a476bb75b0f7
-description: 'Размывает или понижает резкость точечного рисунка. Значение по умолчанию: 0%.'
-ms.openlocfilehash: 14a50f2015b2b24d7e41f5d11018a749d089fc37
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Размытие или смягчение растрового изображения. Значение по умолчанию: 0%.'
+ms.openlocfilehash: 599810d126c853e37552045d0ef83cb580606ae2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32348981"
 ---
-# <a name="blur-cell-image-properties-section"></a>Ячейка Blur (раздел "Свойства изображения")
+# <a name="blur-cell-image-properties-section"></a>Blur Cell (Image Properties Section)
 
-Размывает или понижает резкость точечного рисунка. Значение по умолчанию: 0%.
+Размытие или смягчение растрового изображения. Значение по умолчанию: 0%.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для получения ссылки на ячейки размытия по имени, из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку "Размытие" по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | Чтобы минимизировать  <br/> |
+| Имя ячейки:  <br/> | Размытие  <br/> |
    
-Для получения ссылки на ячейки размытия по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку "Размытие" по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowImage** <br/> |
-| Индекс ячейки:  <br/> |**visImageBlur** <br/> |
+| Индекс строки:  <br/> |**Висровимаже** <br/> |
+| Индекс ячейки:  <br/> |**Висимажеблур** <br/> |
    
 

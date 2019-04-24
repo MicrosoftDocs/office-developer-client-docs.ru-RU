@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1bafd92e-e044-c902-4fd0-df432bae777d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a5c9f70831b7d3f5bcbaf9d74f5526b110375ff0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f81d82a8f7336e682c4f91546ac3916810650b92
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357185"
 ---
 # <a name="mapiofflinecallbacktype"></a>MAPIOFFLINE_CALLBACK_TYPE
 
@@ -21,7 +21,7 @@ ms.locfileid: "22565496"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Перечисление поддерживаемые типы обратных вызовов.
+ПереЧисление поддерживаемых типов обратных вызовов.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -39,7 +39,7 @@ typedef enum
 
 [Об API автономного режима](about-the-offline-state-api.md)
   
-[Константы MAPI](mapi-constants.md)
+[��������� MAPI](mapi-constants.md)
   
 [MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)
 

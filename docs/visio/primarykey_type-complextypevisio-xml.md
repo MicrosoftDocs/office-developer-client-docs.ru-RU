@@ -1,5 +1,5 @@
 ---
-title: PrimaryKey_Type complexType ('Visio XML»)
+title: Примарикэй_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3396f11b-f06e-03d9-fc9d-a23e9cfccabd
 ms.openlocfilehash: 679c6335d89855febd82bdeb6e9ac88f4089e1c6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391370"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355988"
 ---
-# <a name="primarykeytype-complextype-visio-xml"></a>PrimaryKey_Type complexType ('Visio XML»)
+# <a name="primarykeytype-complextype-visio-xml"></a>Примарикэй_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -52,12 +52,12 @@ ms.locfileid: "25391370"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RowKeyValue](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> ||
+|[Ровкэйвалуе](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[Ровкэйвалуе_типе](rowkeyvalue_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnNameID  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|Колумннамеид  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

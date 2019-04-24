@@ -5,23 +5,23 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 032f7242-5500-1e21-06d3-b2d947eb1043
-description: 'Дата последнего изменения: 25 июня 2012 года'
-ms.openlocfilehash: f9c6766c934632a83fa0388ac2bc4c2c397eead6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '���� ���������� ���������: 25 ���� 2012 �.'
+ms.openlocfilehash: fab09d0c594bac1374973f523abe6ff0b9c09dd0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575555"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344690"
 ---
 # <a name="get-the-email-address-of-a-contact-item"></a>Получение электронного адреса элемента контакта
 
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе показано, как получить значение именованного свойства, который представляет адрес электронной почты Microsoft Outlook 2010 или Microsoft Outlook 2013 контакт элемента.
+В этом разделе показано, как получить значение именованного свойства, представляющего адрес электронной почты для элемента контакта Microsoft Outlook 2010 или Microsoft Outlook 2013.
   
-До трех адресов электронной почты можно связать с элементом контактов в Outlook 2010 и Outlook 2013. Свойство объекта Outlook 2010 или Outlook 2013 **ContactItem** в объектной модели Outlook 2010 и Outlook 2013 соответствует каждого адреса электронной почты. Внутренний для Outlook 2010 и Outlook 2013, адрес электронной почты также соответствует MAPI, именованное свойство. Например первый адрес электронной почты контакта, соответствует свойству **Email1Address** **ContactItem** в объектной модели Outlook 2010 и Outlook 2013 и внутреннего [именованные Outlook 2010 и Outlook 2013 Каноническое свойство PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md).
+Вы можете сопоставить до трех адресов электронной почты с элементом Contact в Outlook 2010 и Outlook 2013. Каждый адрес электронной почты соответствует свойству объекта **ContactItem** Outlook 2010 или Outlook 2013 в объектных моделях Outlook 2010 и Outlook 2013. Внутренний адрес Outlook 2010 и Outlook 2013 адрес электронной почты также соответствует именованному свойству MAPI. Например, первый адрес электронной почты контакта соответствует свойству **Email1Address** объекта **ContactItem** в объектной модели outlook 2010 и Outlook 2013, а также в outlook 2010 и Outlook 2013 Internal Name [ Каноническое свойство PidLidEmail1EmailAddress](pidlidemail1emailaddress-canonical-property.md).
   
-Для получения значения элемента контакта адрес электронной почты, можно использовать объект **PropertyAccessor** объектной модели Outlook 2010 или Outlook 2013 или сначала использовать [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md) для получения тега свойства именованного свойства, а затем Укажите этот тег свойства в [IMAPIProp::GetProps](imapiprop-getprops.md) для получения значения. При вызове **IMAPIProp::GetIDsFromNames**, укажите соответствующие значения для структуры [MAPINAMEID](mapinameid.md) , на которую указывает входного параметра _lppPropNames_. В следующем примере кода показано, как получить первый адрес электронной почты указанного контакта `lpContact`, с помощью **GetIDsFromNames** и **GetProps**. 
+Чтобы получить значение электронного адреса элемента Contact, можно использовать объект **PropertyAccessor** объектной модели Outlook 2010 или Outlook 2013 или сначала использовать [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) , чтобы получить тег свойства именованного свойства, а затем Укажите этот тег свойства в [IMAPIProp::](imapiprop-getprops.md) /Props, чтобы получить значение. При вызове **IMAPIProp:: жетидсфромнамес**укажите соответствующие значения для структуры [мапинамеид](mapinameid.md) , на которую указывает входный параметр _лпппропнамес_. В приведенном ниже примере кода показано, как получить первый адрес электронной почты указанного контакта `lpContact`, используя **жетидсфромнамес** и **PROPS**. 
   
 ```cpp
 HRESULT HrGetEmail1(LPMESSAGE lpContact) 

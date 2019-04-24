@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 02e18d97-25d2-49a3-a63d-26a70895e21c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fbadc9407a181ba58b4bcd726df05465b11dc789
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 04d97dfeeef28aac1d0bbf963074b4262d4fed3d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346307"
 ---
 # <a name="pidtagreportingmessagetransferagentcertificate-canonical-property"></a>Каноническое свойство PidTagReportingMessageTransferAgentCertificate
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор агента передачи сообщений, создавшего отчет.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REPORTING_MTA_CERTIFICATE  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕПОРТИНГ_МТА_ЦЕРТИФИКАТЕ  <br/> |
 |Идентификатор:  <br/> |0x1004  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сообщение MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство соответствует атрибуту отчета-message X.400.
+Это свойство соответствует атрибуту отчета X. 400 для каждого сообщения.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

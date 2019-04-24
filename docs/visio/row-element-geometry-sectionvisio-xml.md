@@ -1,31 +1,31 @@
 ---
-title: Элемент Row (раздел геометрии) ('Visio XML»)
+title: Элемент Row (раздел "геометрия") ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
-description: Содержит строки, в которых перечислены координаты грани для линий и дуг, образующих фигуру.
+description: Содержит строки, в которых перечислены координаты вершин для линий и дуг, составляющих фигуру.
 ms.openlocfilehash: 53482b0db3f2deb3c8e2ba30f41be67f0d9e27a0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400091"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358556"
 ---
-# <a name="row-element-geometry-section-visio-xml"></a>Элемент Row (раздел геометрии) ('Visio XML»)
+# <a name="row-element-geometry-section-visio-xml"></a>Элемент Row (раздел "геометрия") ("Visio XML")
 
-Содержит строки, в которых перечислены координаты грани для линий и дуг, образующих фигуру.
+Содержит строки, в которых перечислены координаты вершин для линий и дуг, составляющих фигуру.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[GeometryRow_Type](geometry_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Жеометриров_типе](geometry_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |главные # .xml, страницы # .xml  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,62 +42,62 @@ ms.locfileid: "25400091"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Раздел](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Содержит строки, в которых перечислены координаты грани для линий и дуг, образующих фигуру.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |Содержит строки, в которых перечислены координаты вершин для линий и дуг, составляющих фигуру.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 > [!NOTE]
-> Элемент ячейки является единственным дочерним этого элемента. В зависимости от атрибута «T» этот элемент значения ячейки элементов отличаться. В следующей таблице parathetical текст в имени элемента соответствует значению «T», к которому применяется тема. 
+> Элемент Cell является единственным дочерним элементом этого элемента. В зависимости от атрибута "T" этого элемента, значение элементов ячеек различается. В приведенной ниже таблице текст парасетикал в имени элемента соответствует значению "T", к которому относится раздел. 
   
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Элемент Cell (строка ArcTo)](arcto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y и галстук дугу.  <br/> |
-|[Элемент Cell (строка Ellipse)](ellipse-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит x и y координаты центра эллипса и двумя точками на эллипс.  <br/> |
-|[Элемент Cell (строка EllipticalArcTo)](ellipticalarcto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y-руководство пользователя конечной точки координат x и y-элемента управления указывает на дуги угол главных осей эллипса и отношение между эллипса основной и дополнительной осей.  <br/> |
-|[Элемент Cell (строка InfiniteLine)](infiniteline-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит x и y координаты двух точек на строку не ограничен.  <br/> |
-|[Элемент Cell (строка LineTo)](lineto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит x- и y окончания вершины прямой сегмент.  <br/> |
-|[Элемент Cell (строка MoveTo)](moveto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит x и y координаты первой вершины фигуры или представляет x и y координаты первой вершины после приостановки пути.  <br/> |
-|[Элемент Cell (строка NURBSTo)](nurbsto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит положение координаты x и y-, второй — к последней число узлов, Позиция последнего вес, положение первого число узлов, положение первого вес и формулу для неоднородной rational-сплайн (NURBS).  <br/> |
-|[Элемент Cell (строка PolyLineTo)](polylineto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y-последней точки ломаной и ломаной формулы.  <br/> |
-|[Элемент Cell (строка RelCubBezTo)](relcubbezto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит x и y координаты конечной точки кубические Безье график относительно высоты и ширины фигуры, x и y координаты контрольной точки начала фигуры график относительно ширины и высоты и x и y координаты элемента управления точка конца фигуры график относительно ширины и высоты.  <br/> |
-|[Элемент Cell (строка RelQuadBezTo)](relquadbezto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит x и y координаты конечной точки кривая Безье относительно фигуры ширины и высоты и x и y координаты контрольной точки фигуры график относительно ширины и высоты.  <br/> |
-|[Элемент Cell (строка RelEllipticalArcTo)](relellipticalarcto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y-руководство пользователя конечной точки относительно высоты и ширины фигуры, x и y координаты контрольные точки на arc относительно фигуры ширина и высота, угол оси основные эллипса и отношение между основной и дополнительной осей эллипса.  <br/> |
-|[Элемент Cell (строка RelLineTo)](rellineto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит x- и y окончания вершины отрезка прямой линии относительно ширины и высоты фигуры.  <br/> |
-|[Элемент Cell (строка RelMoveTo)](relmoveto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит x и y координаты первой вершины фигуры или x и y координаты первой вершины после приостановки пути, относящиеся к высоту и ширину фигуры.  <br/> |
-|[Элемент Cell (строка RelQuadBezTo)](relquadbezto-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит x и y координаты конечной точки кривая Безье относительно фигуры ширины и высоты и x и y координаты контрольной точки фигуры график относительно ширины и высоты.  <br/> |
-|[Элемент Cell (строка SplineKnot)](splineknot-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y-сплайн точки управления и число узлов сплайна.  <br/> |
-|[Элемент Cell (строка SplineStart)](splinestart-row-geometry-section.md) <br/> |[Cell_Type](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y — для второй контрольной точки сплайна, его второй число узлов, его первого число узлов, последний число узлов и степень сплайн.  <br/> |
+|[Элемент Cell (строка ArcTo)](arcto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y, а также арксинус круга.  <br/> |
+|[Элемент Cell (строка Ellipse)](ellipse-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y центральной точки эллипса и две точки эллипса.  <br/> |
+|[Элемент Cell (строка EllipticalArcTo)](ellipticalarcto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y конечной точки эллиптической дуги, координаты x и y элемента управления, указывающие на дугу, угол от оси x до основной оси эллипса и соотношение между основными и дополнительными осями эллипса.  <br/> |
+|[Элемент Cell (строка InfiniteLine)](infiniteline-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y по двум точкам в бесконечной линии.  <br/> |
+|[Элемент Cell (строка LineTo)](lineto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y конечной вершины сегмента прямой линии.  <br/> |
+|[Элемент Cell (строка MoveTo)](moveto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y первой вершины фигуры или представляет координаты x и y первой вершины после разрыва в контуре.  <br/> |
+|[Элемент Cell (строка NURBSTo)](nurbsto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y, положение секунды с последним весом, положение последнего веса, положение первого веса, положение первого Кнот, положение первого веса и формула для неоднородного рационального B-сплайна (NURBS).  <br/> |
+|[Элемент Cell (строка PolyLineTo)](polylineto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y последней точки ломаной линии и формулы ломаной линии.  <br/> |
+|[Элемент Cell (строка RelCubBezTo)](relcubbezto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y конечной точки кривой Безье третьего порядка относительно ширины и высоты фигуры, а также координат x и y контрольной точки начала относительной ширины и высоты фигуры, а также координаты x и y элемента управления... точка окончания ширины и высоты фигуры относительной кривой.  <br/> |
+|[Элемент Cell (строка RelQuadBezTo)](relquadbezto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y конечной точки квадратичной кривой Безье относительно ширины и высоты фигуры, а также координат x и y контрольной точки кривой относительно ширины и высоты фигуры.  <br/> |
+|[Элемент Cell (строка RelEllipticalArcTo)](relellipticalarcto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y конечной точки эллиптической дуги относительно ширины и высоты фигуры, а также координат x и y элемента управления на дуги относительно ширины и высоты фигуры, угла от оси x до основной оси эллипса и соотношения между Основные и малые оси эллипса.  <br/> |
+|[Элемент Cell (строка RelLineTo)](rellineto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y конечной вершины сегмента прямой линии относительно ширины и высоты фигуры.  <br/> |
+|[Элемент Cell (строка RelMoveTo)](relmoveto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y первой вершины фигуры или координаты x и y первой вершины после разрыва в контуре, относительно высоты и ширины фигуры (относительно высоты и ширины).  <br/> |
+|[Элемент Cell (строка RelQuadBezTo)](relquadbezto-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y конечной точки квадратичной кривой Безье относительно ширины и высоты фигуры, а также координат x и y контрольной точки кривой относительно ширины и высоты фигуры.  <br/> |
+|[Элемент Cell (строка SplineKnot)](splineknot-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y для контрольной точки сплайна и кнотного сплайна.  <br/> |
+|[Элемент Cell (строка SplineStart)](splinestart-row-geometry-section.md) <br/> |[Целл_типе](https://msdn.microsoft.com/library/6f23bcc4-af93-4023-a380-3e78a228e166%28Office.15%29.aspx) <br/> |Содержит координаты x и y для второй контрольной точки сплайна, второй Кнот, ее первый Кнот, последний кнот и степень сплайна.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|DEL  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Указывает, был ли удален строку, в противном случае будут унаследованы от образца фигуры.  <br/> |Значения типа xsd:boolean.  <br/> |
-|IX  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Указывает идентификатор на основе одной строки. Оно должно быть unqiue и больше, чем другие идентификаторы в одном разделе. Атрибут IX используется только для разделов символ, подключения, поле, FillGradient, геометрии, уровень, LineGradient, абзаца, редактор, нуля и вкладок. Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|LocalName  <br/> |XSD:String  <br/> |необязательный  <br/> |Указывает уникальное имя зависит от языка строки.  <br/> |Значения типа xsd:string.  <br/> |
-|N  <br/> |XSD:String  <br/> |необязательный  <br/> |Указывает уникальное имя зависящего от языка строки. Атрибут N используется только для пользователя, свойство, действия, элемент управления, подключения, гиперссылки и ActionTag разделы. Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа xsd:string.  <br/> |
-|T  <br/> |XSD:String  <br/> |необязательный  <br/> |Указывает тип геометрического пути представленного строкой и используется в геометрии визуализации. Атрибут T используется только для раздел геометрии.  <br/> |Значения типа xsd:string.  <br/> |
+|Del  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, удалена ли строка, которая в противном случае была бы унаследована от основной фигуры.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|IX  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Задает отсчитываемый от единицы идентификатор строки. Он должен быть уникальное и превышать другие идентификаторы в одном разделе. Атрибут IX используется только для разделов "символ", "подключение", "Филлградиент", "геометрия", "область", "Линеградиент", "Абзац", "фрагмент" и "вкладки". Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|LocalName  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает уникальное зависящее от языка имя строки.  <br/> |Значения типа String: XSD.  <br/> |
+|N  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает уникальное имя строки, не зависящее от языка. Атрибут N используется только для разделов "пользователь", "свойство", "действия", "элементы управления", "гиперссылка" и "Актионтаг". Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа String: XSD.  <br/> |
+|Д  <br/> |XSD: строка  <br/> |необязательный  <br/> |Указывает тип геометрического пути, представленного строкой и используемый в визуализации геометрии. Атрибут T используется только для раздела Geometry.  <br/> |Значения типа String: XSD.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Атрибут **T** этого элемента **строки** должен быть один из ограниченный набор значений, которые соответствуют строкам таблицы свойств фигуры. Обратитесь к таблице ниже для определения значений атрибутов **T** , разрешенных для этого элемента **строки** . 
+Атрибут **T** элемента **Row** должен быть одним из ограниченных наборов значений, соответствующих строкам таблицы свойств фигуры. Используйте приведенную ниже таблицу, чтобы определить значения атрибута **T** , разрешенные для этого элемента **Row** . 
   
-|**Значение**|**Описание**|**Дополнительные сведения**|
+|**Value**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
-|ArcTo  <br/> |Содержит координаты x и y и галстук дугу.  <br/> |[Строка ArcTo (раздел "Геометрия")](arcto-row-geometry-section.md) <br/> |
-|Ellipse  <br/> |Содержит x и y координаты центра эллипса и двумя точками на эллипс.  <br/> |[Строка Ellipse (раздел "Геометрия")](ellipse-row-geometry-section.md) <br/> |
-|EllipticalArcTo  <br/> |Содержит координаты x и y-руководство пользователя конечной точки координат x и y-элемента управления указывает на дуги угол главных осей эллипса и отношение между эллипса основной и дополнительной осей.  <br/> |[Строка EllipticalArcTo (раздел "Геометрия")](ellipticalarcto-row-geometry-section.md) <br/> |
-|InfiniteLine  <br/> |Содержит x и y координаты двух точек на строку не ограничен.  <br/> |[Строка InfiniteLine (раздел "Геометрия")](infiniteline-row-geometry-section.md) |
-|LineTo  <br/> |Содержит x- и y окончания вершины прямой сегмент.  <br/> |[Строка LineTo (раздел "Геометрия")](lineto-row-geometry-section.md) <br/> |
-|MoveTo  <br/> |Содержит x и y координаты первой вершины фигуры или представляет x и y координаты первой вершины после приостановки пути.  <br/> |[Строка MoveTo (раздел "Геометрия")](moveto-row-geometry-section.md) <br/> |
-|NURBSTo  <br/> |Содержит положение координаты x и y-, второй — к последней число узлов, Позиция последнего вес, положение первого число узлов, положение первого вес и формулу для неоднородной rational-сплайн (NURBS).  <br/> |[Строка NURBSTo (раздел "Геометрия")](nurbsto-row-geometry-section.md) <br/> |
-|PolylineTo  <br/> |Содержит координаты x и y-последней точки ломаной и ломаной формулы.  <br/> |[Строка PolylineTo (раздел "Геометрия")](polylineto-row-geometry-section.md) <br/> |
-|RelCubBezTo  <br/> |Содержит x и y координаты конечной точки кубические Безье график относительно высоты и ширины фигуры, x и y координаты контрольной точки начала фигуры график относительно ширины и высоты и x и y координаты элемента управления точка конца фигуры график относительно ширины и высоты.  <br/> |[Строка RelCubBezTo (раздел "Геометрия")](relcubbezto-row-geometry-section.md) <br/> |
-|RelEllipticalArcTo  <br/> |Содержит координаты x и y-руководство пользователя конечной точки относительно высоты и ширины фигуры, x и y координаты контрольные точки на arc относительно фигуры ширина и высота, угол оси основные эллипса и отношение между основной и дополнительной осей эллипса.  <br/> |[Строка RelEllipticalArcTo (раздел "Геометрия")](relellipticalarcto-row-geometry-section.md) <br/> |
-|RelLineTo  <br/> |Содержит x- и y окончания вершины отрезка прямой линии относительно ширины и высоты фигуры.  <br/> |[Строка RelLineTo (раздел "Геометрия")](rellineto-row-geometry-section.md) <br/> |
-|RelMoveTo  <br/> |Содержит x и y координаты первой вершины фигуры или x и y координаты первой вершины после приостановки пути, относящиеся к высоту и ширину фигуры.  <br/> |[Строка RelMoveTo (раздел "Геометрия")](relmoveto-row-geometry-section.md) <br/> |
-|RelQuadBezTo  <br/> |Содержит x и y координаты конечной точки кривая Безье относительно фигуры ширины и высоты и x и y координаты контрольной точки фигуры график относительно ширины и высоты.  <br/> |[Строка RelQuadBezTo (раздел "Геометрия")](relquadbezto-row-geometry-section.md) <br/> |
-|SplineKnot  <br/> |Содержит координаты x и y-сплайн точки управления и число узлов сплайна.  <br/> |[Строка SplineKnot (раздел "Геометрия")](splineknot-row-geometry-section.md) <br/> |
-|SplineStart  <br/> |Содержит координаты x и y — для второй контрольной точки сплайна, его второй число узлов, его первого число узлов, последний число узлов и степень сплайн.  <br/> |[Строка SplineStart (раздел "Геометрия")](splinestart-row-geometry-section.md) <br/> |
+|ArcTo  <br/> |Содержит координаты x и y, а также арксинус круга.  <br/> |[ArcTo Row (Geometry Section)](arcto-row-geometry-section.md) <br/> |
+|Ellipse  <br/> |Содержит координаты x и y центральной точки эллипса и две точки эллипса.  <br/> |[Ellipse Row (Geometry Section)](ellipse-row-geometry-section.md) <br/> |
+|EllipticalArcTo  <br/> |Содержит координаты x и y конечной точки эллиптической дуги, координаты x и y элемента управления, указывающие на дугу, угол от оси x до основной оси эллипса и соотношение между основными и дополнительными осями эллипса.  <br/> |[EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md) <br/> |
+|InfiniteLine  <br/> |Содержит координаты x и y по двум точкам в бесконечной линии.  <br/> |[InfiniteLine Row (Geometry Section)](infiniteline-row-geometry-section.md) |
+|LineTo  <br/> |Содержит координаты x и y конечной вершины сегмента прямой линии.  <br/> |[LineTo Row (Geometry Section)](lineto-row-geometry-section.md) <br/> |
+|MoveTo  <br/> |Содержит координаты x и y первой вершины фигуры или представляет координаты x и y первой вершины после разрыва в контуре.  <br/> |[MoveTo Row (Geometry Section)](moveto-row-geometry-section.md) <br/> |
+|NURBSTo  <br/> |Содержит координаты x и y, положение секунды с последним весом, положение последнего веса, положение первого веса, положение первого Кнот, положение первого веса и формула для неоднородного рационального B-сплайна (NURBS).  <br/> |[NURBSTo Row (Geometry Section)](nurbsto-row-geometry-section.md) <br/> |
+|PolylineTo  <br/> |Содержит координаты x и y последней точки ломаной линии и формулы ломаной линии.  <br/> |[PolylineTo Row (Geometry Section)](polylineto-row-geometry-section.md) <br/> |
+|RelCubBezTo  <br/> |Содержит координаты x и y конечной точки кривой Безье третьего порядка относительно ширины и высоты фигуры, а также координат x и y контрольной точки начала относительной ширины и высоты фигуры, а также координаты x и y элемента управления... точка окончания ширины и высоты фигуры относительной кривой.  <br/> |[RelCubBezTo Row (Geometry Section)](relcubbezto-row-geometry-section.md) <br/> |
+|RelEllipticalArcTo  <br/> |Содержит координаты x и y конечной точки эллиптической дуги относительно ширины и высоты фигуры, а также координат x и y элемента управления на дуги относительно ширины и высоты фигуры, угла от оси x до основной оси эллипса и соотношения между Основные и малые оси эллипса.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
+|RelLineTo  <br/> |Содержит координаты x и y конечной вершины сегмента прямой линии относительно ширины и высоты фигуры.  <br/> |[RelLineTo Row (Geometry Section)](rellineto-row-geometry-section.md) <br/> |
+|RelMoveTo  <br/> |Содержит координаты x и y первой вершины фигуры или координаты x и y первой вершины после разрыва в контуре, относительно высоты и ширины фигуры (относительно высоты и ширины).  <br/> |[RelMoveTo Row (Geometry Section)](relmoveto-row-geometry-section.md) <br/> |
+|RelQuadBezTo  <br/> |Содержит координаты x и y конечной точки квадратичной кривой Безье относительно ширины и высоты фигуры, а также координат x и y контрольной точки кривой относительно ширины и высоты фигуры.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
+|SplineKnot  <br/> |Содержит координаты x и y для контрольной точки сплайна и кнотного сплайна.  <br/> |[SplineKnot Row (Geometry Section)](splineknot-row-geometry-section.md) <br/> |
+|SplineStart  <br/> |Содержит координаты x и y для второй контрольной точки сплайна, второй Кнот, ее первый Кнот, последний кнот и степень сплайна.  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
    
 

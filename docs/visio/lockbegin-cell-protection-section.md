@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockBegin (раздел "Защита")
+title: LockBegin Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - vis_sdr.chm600
 localization_priority: Normal
 ms.assetid: cce34aba-caae-51ee-992e-92a490b68ea5
-description: Блокирует начальную точку (НачалоX, НачалоY) одномерной фигуры в определенное расположение.
-ms.openlocfilehash: c9b9a0e9b69de9b76d78ca7cebfb69116bd2fb72
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Блокирует начальную точку (BeginX, начало) фигуры 1-D в определенном расположении.
+ms.openlocfilehash: 2e6c6284ff82a88677eb46bb13b8ab8afa986584
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359649"
 ---
-# <a name="lockbegin-cell-protection-section"></a>Ячейка LockBegin (раздел "Защита")
+# <a name="lockbegin-cell-protection-section"></a>LockBegin Cell (Protection Section)
 
-Блокирует начальную точку (НачалоX, НачалоY) одномерной фигуры в определенное расположение.
+Блокирует начальную точку (BeginX, начало) фигуры 1-D в определенном расположении.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Заблокированный начальной точки.  <br/> |
-| FALSE  <br/> | Начните не блокируется.  <br/> |
+| TRUE  <br/> | Начальная точка заблокирована.  <br/> |
+| FALSE  <br/> | Начало не заблокировано.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку LockBegin по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LockBegin по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LockBegin  <br/> |
+| Имя ячейки:  <br/> | LockBegin  <br/> |
    
-Для получения ссылки на ячейки LockBegin по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LockBegin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowLock** <br/> |
-| Индекс ячейки:  <br/> |**visLockBegin** <br/> |
+| Индекс строки:  <br/> |**Висровлокк** <br/> |
+| Индекс ячейки:  <br/> |**Вислоккбегин** <br/> |
    
 

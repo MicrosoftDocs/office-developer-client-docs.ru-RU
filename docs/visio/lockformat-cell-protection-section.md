@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockFormat (раздел "Защита")
+title: LockFormat Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - vis_sdr.chm625
 localization_priority: Normal
 ms.assetid: e9a640f4-0af0-317c-b77b-f32c651e87b4
-description: Блокирует форматирование фигуры, поэтому его нельзя изменить.
-ms.openlocfilehash: c3e4d5be848e91554406e709ce6872ae49b5f38d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Блокирует форматирование фигуры, чтобы его нельзя было изменить.
+ms.openlocfilehash: e0d1bb8a65b8087136e57bb46ad9f5363da30030
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359615"
 ---
-# <a name="lockformat-cell-protection-section"></a>Ячейка LockFormat (раздел "Защита")
+# <a name="lockformat-cell-protection-section"></a>LockFormat Cell (Protection Section)
 
-Блокирует форматирование фигуры, поэтому его нельзя изменить.
+Блокирует форматирование фигуры, чтобы его нельзя было изменить.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Форматирование нельзя изменить.  <br/> |
+| TRUE  <br/> | Форматирование не может быть изменено.  <br/> |
 | FALSE  <br/> | Форматирование можно изменить.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку LockFormat по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LockFormat по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LockFormat  <br/> |
+| Имя ячейки:  <br/> | LockFormat  <br/> |
    
-Для получения ссылки на ячейки LockFormat по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LockFormat по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowLock** <br/> |
-| Индекс ячейки:  <br/> |**visLockFormat** <br/> |
+| Индекс строки:  <br/> |**Висровлокк** <br/> |
+| Индекс ячейки:  <br/> |**Вислоккформат** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: элемент WeatherData (схема сведения о погоде Outlook)
+title: элемент веасердата (схема сведений о погоде Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 84b16927-964e-24be-feaa-e0c11cf062f3
-description: Определяет элемент прогноза погоды.
+description: Определяет элемент weather.
 ms.openlocfilehash: 2273f7ce6c6a04464ea3da430661c3d6f410cc9f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388443"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355078"
 ---
-# <a name="weatherdata-element-outlook-weather-information-schema"></a>элемент WeatherData (схема сведения о погоде Outlook)
+# <a name="weatherdata-element-outlook-weather-information-schema"></a>элемент веасердата (схема сведений о погоде Outlook)
 
-Определяет элемент прогноза погоды.
+Определяет элемент weather.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -25,7 +25,7 @@ ms.locfileid: "25388443"
 |:-----|:-----|
 |**Тип элемента** <br/> ||
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
-|**Файл схемы** <br/> |GetWeatherInfo.xsd  <br/> |
+|**Файл схемы** <br/> |жетвеасеринфо. xsd  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -56,7 +56,7 @@ ms.locfileid: "25388443"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[прогноза погоды](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[weatherType](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Задает погоды расположения.  <br/> |
+|[Погода](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[Веасертипе](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Задает условия для расположения в прогнозе погоды.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

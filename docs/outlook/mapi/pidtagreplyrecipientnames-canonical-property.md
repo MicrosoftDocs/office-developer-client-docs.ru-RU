@@ -13,60 +13,60 @@ api_type:
 ms.assetid: f5ae6124-3e44-400f-95c2-24b19f3085b5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 02dcbcccd003fb0b53356da11a3b90b38e632c2a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32355176"
 ---
 # <a name="pidtagreplyrecipientnames-canonical-property"></a>Каноническое свойство PidTagReplyRecipientNames
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список отображаемые имена для получателей, которые требуется получить ответ.
+Содержит список отображаемых имен получателей, которые должны получить ответ.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REPLY_RECIPIENT_NAMES, PR_REPLY_RECIPIENT_NAMES_A, PR_REPLY_RECIPIENT_NAMES_W  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕПЛИ_РЕЦИПИЕНТ_НАМЕС, ПР_РЕПЛИ_РЕЦИПИЕНТ_НАМЕС_А, ПР_РЕПЛИ_РЕЦИПИЕНТ_НАМЕС_В  <br/> |
 |Идентификатор:  <br/> |0x0050  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Эти свойства содержит отображаемые имена, разделенные точкой с запятой.
+Эти свойства содержат отображаемые имена, разделенные точкой с запятой.
   
-Если это свойство не указан, ответ отправляется только для пользователя, заданной свойством **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). При определении **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) и эти свойства, ответ отправляется всех получателей, определяемую средством эти два свойства. Поставщика транспорта использует эти свойства переопределение логики обычной информации.
+Если это свойство отсутствует, ответ отправляется только пользователю, определенному в свойстве **пр_сендер_наме** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Когда **пр_репли_реЦипиент_ентриес** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) и эти свойства определены, ответ отправляется всем получателям, идентифицируемым этими двумя свойствами. Поставщик транспорта использует эти свойства для переопределения обычной логики ответа.
   
-Если значение **PR_REPLY_RECIPIENT_ENTRIES** или эти свойства, необходимо также установлен другие свойства. Эти свойства должно содержать такое же число получателей, и они должны содержать их в том же порядке. Сбой выполняли этих требований может привести к непредсказуемым последствиям. 
+Если задано значение **пр_репли_реЦипиент_ентриес** или эти свойства, то другое свойство также должно быть задано. Эти свойства должны содержать одинаковое количество получателей и должны содержать их в одном порядке. НеВозможность проследить эти требования могут привести к непредсказуемым результатам. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые в сообщениях электронной почты.
+> Задает свойства и операции, допустимые для сообщений электронной почты.
     
-[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
+> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -74,7 +74,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

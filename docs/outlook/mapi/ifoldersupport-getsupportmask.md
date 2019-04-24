@@ -1,5 +1,5 @@
 ---
-title: IFolderSupportGetSupportMask
+title: Ифолдерсуппортжетсуппортмаск
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 8d8aaeb7-57d7-ba4c-95d1-a5368cfc4afe
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: c51f4a7266e67be08f31daa5afbf23ce0b256252
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1c27bdc52ebe725c40cbf318fab0678f41cdc287
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350836"
 ---
 # <a name="ifoldersupportgetsupportmask"></a>IFolderSupport::GetSupportMask
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567855"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Получает сведения о поддержке папки для совместного доступа.
+Получает сведения о поддержке папки для общего доступа.
   
 ```cpp
 HRESULT GetSupportMask( 
@@ -35,9 +35,9 @@ HRESULT GetSupportMask(
 
 ## <a name="parameters"></a>Параметры
 
- _pdwSupportMask_
+ _Пдвсуппортмаск_
   
-> [out] Битовая маска, указывающее, поддерживает ли общий доступ к папке.
+> вышли Битовая маска, указывающая, поддерживает ли папка общий доступ.
     
  **FS_NONE**
   

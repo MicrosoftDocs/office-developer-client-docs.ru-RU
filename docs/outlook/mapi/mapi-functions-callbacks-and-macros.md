@@ -1,5 +1,5 @@
 ---
-title: Функции интерфейса MAPI, обратные вызовы и макросов
+title: Функции, методы обратного вызова и макросы MAPI
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -9,21 +9,21 @@ localization_priority: Normal
 api_type:
 - COM
 ms.assetid: 2e5dcbb4-1ae6-4082-ba8f-c677e3265d59
-description: 'Дата последнего изменения: 7 декабря 2015 года'
-ms.openlocfilehash: 239a77a7660f255fcfc147996f4727c62bb86c69
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+description: '���� ���������� ���������: 7 ������� 2015 �.'
+ms.openlocfilehash: 2474e5b66e9c8147a1e8a554dea21d541c430edf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565398"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346762"
 ---
-# <a name="mapi-functions-callbacks-and-macros"></a>Функции интерфейса MAPI, обратные вызовы и макросов
+# <a name="mapi-functions-callbacks-and-macros"></a>Функции, методы обратного вызова и макросы MAPI
 
  
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Следующие записи к буквам и цифрам содержат документацию для функций MAPI, обратные вызовы и макросы. 
+Следующие алфавитные записи содержат документацию по функциям MAPI, обратным вызовам и макросам. 
   
 |||
 |:-----|:-----|

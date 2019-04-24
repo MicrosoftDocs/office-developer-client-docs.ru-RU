@@ -1,5 +1,5 @@
 ---
-title: Ячейка LockEnd (раздел "Защита")
+title: LockEnd Cell (Protection Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - vis_sdr.chm620
 localization_priority: Normal
 ms.assetid: e9742142-4d34-1ba9-480e-d1ecff4fc7cd
-description: Блокирует конечную точку (КонецX, КонецY) одномерной фигуры в определенное расположение.
-ms.openlocfilehash: d29f07e5b4b77ed2fb8b104769a2fdca55abcc8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Блокирует конечную точку (EndX, Енди) одномерной фигуры в определенном расположении.
+ms.openlocfilehash: d9fe0372c44fe3b029a4d06056c8d3871c3f91e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814131"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359600"
 ---
-# <a name="lockend-cell-protection-section"></a>Ячейка LockEnd (раздел "Защита")
+# <a name="lockend-cell-protection-section"></a>LockEnd Cell (Protection Section)
 
-Блокирует конечную точку (КонецX, КонецY) одномерной фигуры в определенное расположение.
+Блокирует конечную точку (EndX, Енди) одномерной фигуры в определенном расположении.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Конечная точка блокировки.  <br/> |
-| FALSE  <br/> | Конечная точка не блокируется.  <br/> |
+| TRUE  <br/> | Конечная точка заблокирована.  <br/> |
+| FALSE  <br/> | Конечная точка не заблокирована.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку LockEnd по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LockEnd по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | LockEnd  <br/> |
+| Имя ячейки:  <br/> | LockEnd  <br/> |
    
-Для получения ссылки на ячейки LockEnd по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LockEnd по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowLock** <br/> |
-| Индекс ячейки:  <br/> |**visLockEnd** <br/> |
+| Индекс строки:  <br/> |**Висровлокк** <br/> |
+| Индекс ячейки:  <br/> |**Вислоккенд** <br/> |
    
 

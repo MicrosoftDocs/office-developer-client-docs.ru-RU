@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: e86ca032-d973-4b79-976e-5240ab38a0da
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 174da93e7682246565b12c4fc4ffa6d1a9de065c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07a1a0a1953d136da534fbdc6339d326c877bebf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575065"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344543"
 ---
 # <a name="snotrestriction"></a>SNotRestriction
 
@@ -25,11 +25,11 @@ ms.locfileid: "22575065"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Описываются ограничения **не** , который используется для применения к ограничению логическая операция **не** . 
+Описывает ограничение **** , которое используется для применения логической операции **Not** к ограничению. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SNotRestriction
@@ -40,19 +40,19 @@ typedef struct _SNotRestriction
 
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
- **ulReserved**
+ **Улресервед**
   
 > [in] ���������������; ������ ���� ����� ����.
     
- **lpRes**
+ **Лпрес**
   
-> Указатель на структуру [SRestriction](srestriction.md) , описывающая ограничения, чтобы быть присоединен к логический оператор, который **не** . 
+> Указатель на структуру [срестриктион](srestriction.md) , описывающую ограничение, которое необходимо присоединить к логическому оператору **Not** . 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Дополнительные сведения о структуре **SNotRestriction** [О ограничения](about-restrictions.md)см. 
+Более подробную информацию о структуре **снотрестриктион** можно узнать в статье [ограничения](about-restrictions.md). 
   
 ## <a name="see-also"></a>См. также
 

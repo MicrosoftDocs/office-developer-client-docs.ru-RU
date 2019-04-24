@@ -1,5 +1,5 @@
 ---
-title: IMessageModifyRecipients
+title: ИмессажемодифиреЦипиентс
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2625f29d-325f-417d-bcec-49d580f9cd7e
 description: '���� ���������� ���������: 9 ����� 2015 �.'
-ms.openlocfilehash: 0735008575db5e1cab62dbde4b699b15e04cedb0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 07e1c2104068a6eb242e8ba81f91655edaa92cd8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567288"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349261"
 ---
 # <a name="imessagemodifyrecipients"></a>IMessage::ModifyRecipients
 
@@ -34,41 +34,41 @@ HRESULT ModifyRecipients(
 );
 ```
 
-## <a name="parameters"></a>���������
+## <a name="parameters"></a>Параметры
 
  _ulFlags_
   
 > [in] ������� ����� �����, ������� ��������� ����������� ���������. ���� ��� ���������  _ulFlags_ ���������� ����, **ModifyRecipients** �������� ��� ������������ ����������� ������ �����������, �� ������� ��������� ��������  _lpMods_. ��������� ����� ����� ������ ���  _ulFlags_:
     
-MODRECIP_ADD 
+МОДРЕЦИП_АДД 
   
 > ����������, �� ������� ��������� ��������  _lpMods_ ������� �������� � ������ �����������. 
     
-MODRECIP_MODIFY 
+МОДРЕЦИП_МОДИФИ 
   
 > ����������, �� ������� ��������� ��������  _lpMods_ ���������� �������� ������������ �����������. ��� ������������ �������� ���������� �������� �������� ��������������� ��������� [ADRENTRY](adrentry.md) . 
     
-MODRECIP_REMOVE 
+МОДРЕЦИП_РЕМОВЕ 
   
-> Текущих получателей необходимо удалить из списка получателей, используя в качестве индекса свойство **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)), включенные в массив значений свойств каждого получателя записи с помощью параметра _lpMods_ . 
+> Существующие получатели следует удалить из списка получателей, используя в качестве индекса свойство **пр_ровид** ([PidTagRowid](pidtagrowid-canonical-property.md)), включенное в массив значений свойства каждой записи получателя в параметре _лпмодс_ . 
     
- _lpMods_
+ _Лпмодс_
   
 > [in] ��������� �� ��������� [ADRLIST](adrlist.md) , ������� �������� ������ �����������, ����� ���� ���������, ������� ��� �������� � ���������. 
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
 > ��������� ������ ����������� ��������� �������.
     
-## <a name="remarks"></a>���������
+## <a name="remarks"></a>Примечания
 
 ����� **IMessage::ModifyRecipients** �������� ������ ����������� ���������. ��� �� ����� ������, ������� ���������� � ��������� [ADRLIST](adrlist.md) , ��� ����������� ����������. 
   
 ��������� **ADRLIST** �������� ���� ��������� [ADRENTRY](adrentry.md) ��� ������� ����������, � ������ **ADRENTRY** ��������� �������� ������ �������� �������, ����������� ���������� ����������. 
   
-������ ����������� � ��������� **ADRLIST** ����� ��������� ��� ���������. ������� ����������� � ����� � ���� ��������, ������� ��������. Неизвестный получатель содержит только свойства **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) и **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), а Разрешить получателя эти два свойства, а также **PR_ADDRTYPE **([PidTagAddressType](pidtagaddresstype-canonical-property.md)) и **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Если доступен **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), он может быть включен также.
+������ ����������� � ��������� **ADRLIST** ����� ��������� ��� ���������. ������� ����������� � ����� � ���� ��������, ������� ��������. Нераспознанный получатель содержит только свойства **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) и **пр_реЦипиент_типе** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)), пока разрешенный получатель содержит эти два свойства плюс **пр_аддртипе **([PidTagAddressType](pidtagaddresstype-canonical-property.md)) и **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Если доступен **пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), он также может быть включен.
   
 ����� �������� ��������� ��� ���������� �������� ������ ����������� ���������� ����������� � ��� ������ �����������. ���������� ����������� ������� ����� � ���������� ��� ������ � ��������� ��������� ����������� ���������. �������������� �������� � �������� ���������� ���� � ����� ������ ������� [������������� ����](resolving-a-recipient-name.md)��. ��� ��������� �������������� �������� � ����� ������ ������� � �������� ����� ������ [���������� ���������� ����](implementing-name-resolution.md).
   
@@ -112,9 +112,9 @@ S_OK
   
 |**Файл**|**Функция**|**�����������**|
 |:-----|:-----|:-----|
-|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |Mfcmapi (en) ����� **IMessage::ModifyRecipients** ������������ ��� ���������� ����� ����������� �� ���������.  <br/> |
+|Мапиабфунктионс. cpp  <br/> |АддреЦипиент  <br/> |Mfcmapi (en) ����� **IMessage::ModifyRecipients** ������������ ��� ���������� ����� ����������� �� ���������.  <br/> |
    
-## <a name="see-also"></a>��. �����
+## <a name="see-also"></a>См. также
 
 
 

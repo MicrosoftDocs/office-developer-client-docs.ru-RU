@@ -1,5 +1,5 @@
 ---
-title: IAddrBookSetSearchPath
+title: Иаддрбуксетсеарчпас
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1d486344ab20ef49488dbb911f3dd7000d64942e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8611249207811446ae47f056486ec498bf1e7eab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571761"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349310"
 ---
 # <a name="iaddrbooksetsearchpath"></a>IAddrBook::SetSearchPath
 
@@ -25,7 +25,7 @@ ms.locfileid: "22571761"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает новый путь для поиска профиля, который используется для процесса разрешения имен. 
+Задает новый путь поиска в профиле, который используется для процесса разрешения имен. 
   
 ```cpp
 HRESULT SetSearchPath(
@@ -34,31 +34,31 @@ HRESULT SetSearchPath(
 );
 ```
 
-## <a name="parameters"></a>���������
+## <a name="parameters"></a>Параметры
 
  _ulFlags_
   
 > [in] ���������������; ������ ���� ����� ����.
     
- _lpSearchPath_
+ _Лпсеарчпас_
   
-> [in] Указатель на структуру [SRowSet](srowset.md) , используемый для хранения путь поиска. Первое свойство для каждого элемента **aRow** в **SRowSet** должно быть **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+> возврата Указатель на структуру [SRowSet](srowset.md) , используемую для хранения пути поиска. Первое свойство для каждого элемента **аров** в **SRowSet** должно быть **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Путь поиска успешно установлены.
+> Путь поиска успешно задан.
     
-MAPI_E_MISSING_REQUIRED_COLUMN 
+МАПИ_Е_МИССИНГ_РЕКУИРЕД_КОЛУМН 
   
-> Один из контейнеров, описанного в структуре **SRowSet** не содержит свойство **PR_ENTRYID** . 
+> Один из контейнеров, описанных в структуре **SRowSet** , не включал свойство **пр_ентрид** . 
     
 ## <a name="remarks"></a>Примечания
 
-Клиенты и поставщиков услуг вызовите метод **SetSearchPath** , чтобы сохранить изменения, внесенные в порядке поиска контейнер, используемый для разрешения имен с помощью метода [IAddrBook::ResolveName](iaddrbook-resolvename.md) . Путь поиска сохраняется между экземплярами сеанса. 
+Клиенты и поставщики услуг вызывают метод **сетсеарчпас** , чтобы сохранить изменения, внесенные в контейнер поиска, который используется для разрешения имен с помощью метода [IAddrBook:: ресолвенаме](iaddrbook-resolvename.md) . Путь поиска сохраняется между экземплярами сеанса. 
   
-Клиенты и поставщики не нужно вызвать метод [IMAPIProp::SaveChanges](imapiprop-savechanges.md) для вступления изменений в путь поиска было постоянным. 
+Клиентам и поставщикам не нужно вызывать метод [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) , чтобы сделать изменения пути поиска постоянными. 
   
 ## <a name="see-also"></a>См. также
 

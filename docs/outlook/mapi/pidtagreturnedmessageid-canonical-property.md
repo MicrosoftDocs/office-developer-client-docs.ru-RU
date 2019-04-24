@@ -10,43 +10,43 @@ api_type:
 - COM
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 38d357fa87a8781173be118fdd2cd26f57e814df
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e56d7851b1fe28ddea1703d9ec3ffb7737abeda6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345257"
 ---
 # <a name="pidtagreturnedmessageid-canonical-property"></a>Каноническое свойство PidTagReturnedMessageid
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если исходное сообщение возвращается с nonread отчета.
+Содержит значение TRUE, если исходное сообщение возвращается с непрочитанным отчетом.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_RETURNED_IPM  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕТУРНЕД_ИПМ  <br/> |
 |Идентификатор:  <br/> |0x0033  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Поставщика транспорта X.400 этому свойству в отчете непрочитанные сообщения.
+Поставщик транспорта X. 400 задает данное свойство в отчете о непрочтении.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -54,7 +54,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

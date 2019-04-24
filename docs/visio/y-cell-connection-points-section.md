@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3af6c949-d6a0-9560-54d7-b01a2ad99960
 description: Представляет y-координату для точки соединения в локальных координатах.
-ms.openlocfilehash: 270ae98789e29ca170f260aa70e951d4b2af2962
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b408dc3c07e7bd28c0530b09f649453b4f08c770
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815196"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360132"
 ---
 # <a name="y-cell-connection-points-section"></a>Ячейка Y (раздел "Точки соединения")
 

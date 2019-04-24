@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 9d99a3b6-d0b4-4e8a-8f08-f46fdeb6b3e7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: eabcaaf1db6149ef200e640f5af152758261581b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d5c6e1dc30c3ee7862341bce204b4a78bd6d379b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582254"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359446"
 ---
 # <a name="pidtagserviceuid-canonical-property"></a>Каноническое свойство PidTagServiceUid
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит структуру [MAPIUID](mapiuid.md) для службы сообщений. 
+Содержит структуру [мапиуид](mapiuid.md) для службы сообщений. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_SERVICE_UID  <br/> |
+|Связанные свойства:  <br/> |ПР_СЕРВИЦЕ_УИД  <br/> |
 |Идентификатор:  <br/> |0x3D0C  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Профиль MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство вычисляется путем MAPI на объекты раздела профиля. MAPI используется для группирования всех поставщиков, относящихся к одной службы сообщений. Это свойство предоставляется в качестве параметра Большинство методов [IMsgServiceAdmin](imsgserviceadminiunknown.md) . Он должен отображаться в Mapisvc.inf. 
+Это свойство вычисляется MAPI в объектах раздела profile. MAPI использует ее для группировки всех поставщиков, относящихся к одной службе сообщений. Это свойство предоставляется в качестве параметра большинству методов [имсгсервицеадмин](imsgserviceadminiunknown.md) . Он не должен отображаться в Mapisvc. INF. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

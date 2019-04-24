@@ -12,36 +12,36 @@ api_type:
 - COM
 ms.assetid: a4b03a66-cf6d-cd20-f1df-b247d3ee87aa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d17de9cc11bd791c75b83093a0431c138fd606d6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da186e6804fc3d3c820551fee66519a2ff76f0db
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351389"
 ---
 # <a name="ifoldersupport--iunknown"></a>IFolderSupport : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет сведения о поддержке папки для общего доступа.
+Предоставляет сведения о поддержке общего доступа к папке.
   
 |||
 |:-----|:-----|
 |Предоставлено:  <br/> |Поставщик хранилища сообщений  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IFolderSupport  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_ифолдерсуппорт  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Получает сведения о поддержке папки для совместного доступа.  <br/> |
+|**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Получает сведения о поддержке папки для общего доступа.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Как правило Microsoft Office Outlook требуется поставщик, чтобы реализовать интерфейс, если поставщик хочет общей папки хранилища MAPI. Исключение поставщика хранилища Exchange Server, который можно совместно использовать папки не реализации этого интерфейса.
+Как правило, для реализации этого интерфейса в Microsoft Office Outlook требуется поставщик хранилища MAPI, если поставщику требуется предоставить общий доступ к папке. Исключением является поставщик хранилища Exchange Server, который может предоставлять общий доступ к папкам без реализации этого интерфейса.
   
-Клиент может запросить **[IMAPIFolder](imapifolderimapicontainer.md)** **IFolderSupport**. В случае успеха вызвать **IFolderSupport::GetSupportMask** и проверить наличие бит **FS_SUPPORTS_SHARING** должно быть задано. 
+Клиент может запросить **[IMAPIFolder](imapifolderimapicontainer.md)** для **IFolderSupport**. В случае успеха вызовите метод **IFolderSupport:: GetSupportMask** и проверьте, установлен ли бит **фс_суппортс_шаринг** . 
   
 

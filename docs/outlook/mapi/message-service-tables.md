@@ -8,49 +8,49 @@ api_type:
 - COM
 ms.assetid: b93ab837-3918-4427-b013-bedc6f5276e4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 569c1bd7ee2f4ac6c321f234be2954a57715549b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c644e89511033234aa45c5f82738e4c471ef646d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576673"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32356912"
 ---
 # <a name="message-service-tables"></a>Таблицы службы сообщений
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Таблица службы сообщение содержит сведения о службах сообщения текущего профиля. Для каждого сеанса MAPI, реализованный MAPI и используется особого назначения клиентских приложений, которые обеспечивают поддержку конфигурации имеется одна таблица службы сообщений. 
+Таблица служба сообщений содержит сведения о службах сообщений в текущем профиле. Для каждого сеанса MAPI существует одна таблица службы сообщений, реализованная MAPI и используемая клиентскими приложениями специального назначения, которые обеспечивают поддержку конфигурации. 
   
-В таблице службы сообщений — это статическая таблица.
+Таблица службы сообщений — это статическая таблица.
   
-Для доступа клиентов к таблице службы сообщения путем вызова метода [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) . 
+Клиенты получают доступ к таблице службы сообщений, вызывая метод [имсгсервицеадмин:: жетмсгсервицетабле](imsgserviceadmin-getmsgservicetable.md) . 
   
-Следующие свойства составляют обязательный столбец, задайте в таблице служб сообщения:
+Следующие свойства составляют обязательный набор столбцов в таблице службы сообщений:
   
 |||
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
-|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
-|**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
-|**PR_SERVICE_SUPPORT_FILES** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
+|**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**Пр_инстанце_кэй** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
+|**Пр_ресаурце_флагс** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**Пр_сервице_длл_наме** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
+|**Пр_сервице_ентри_наме** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**Пр_сервице_наме** ([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
+|**Пр_сервице_суппорт_филес** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**Пр_сервице_уид** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
    
- **PR_DISPLAY_NAME** — отображаемое имя для службы сообщений и столбце ключа сортировки по умолчанию. 
+ **Пр_дисплай_наме** — отображаемое имя для службы сообщений и столбец ключа сортировки по умолчанию. 
   
- **PR_INSTANCE_KEY** выступает в качестве столбца индекса для таблицы, уникально идентифицирующий строку. 
+ **Пр_инстанце_кэй** служит в качестве столбца индекса для таблицы, уникально определяющий строку. 
   
- **PR_RESOURCE_FLAGS** : описание возможностей службы сообщений. 
+ **Пр_ресаурце_флагс** описывает возможности службы сообщений. 
   
- **PR_SERVICE_DLL_NAME** — это имя библиотеки DLL, которая содержит реализации службы сообщений. 
+ **Пр_сервице_длл_наме** это имя библиотеки DLL, которая содержит реализацию службы сообщений. 
   
- **PR_SERVICE_ENTRY_NAME** — это имя функции точки входа службы сообщений, который соответствует прототип [MSGSERVICEENTRY](msgserviceentry.md) . 
+ **Пр_сервице_ентри_наме** — это имя функции точки входа службы сообщений, которая соответствует прототипу [мсгсервицеентри](msgserviceentry.md) . 
   
- **PR_SERVICE_NAME** является обязательным параметром в разделе **[Services]** в MAPISVC.INF. Значение для этого свойства никогда не будет изменен или локализованное. **PR_SERVICE_NAME** можно использовать для идентификации службы сообщений программными средствами. 
+ **Пр_сервице_наме** — обязательная запись в разделе **[Services]** in Mapisvc. INF. Значение этого свойства никогда не будет изменено или локализовано. **Пр_сервице_наме** можно использовать для программного определения службы сообщений. 
   
- **PR_SERVICE_SUPPORT_FILES** — это список файлов, которые должны быть установлены с помощью службы сообщений. 
+ **Пр_сервице_суппорт_филес** — это список файлов, которые необходимо установить вместе со службой сообщений. 
   
- **PR_SERVICE_UID** — уникальный идентификатор для службы сообщений. 
+ **Пр_сервице_уид** — это уникальный идентификатор службы сообщений. 
   
 ## <a name="see-also"></a>См. также
 

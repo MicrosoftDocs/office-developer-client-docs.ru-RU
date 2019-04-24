@@ -1,5 +1,5 @@
 ---
-title: Справочные материалы по программированию Project 2013
+title: Руководства по программированию в Project 2013
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -13,35 +13,35 @@ f1_keywords:
 - VBA
 - VBA object model
 keywords:
-- Платформа Project server интерфейса Project Server, ошибка коды, VBA, Project объектной модели, Project 2013, Visual Basic для приложений, объектной модели проектов объектной модели проектов VBA, Project Server, ссылка PSI, PSI (en)
+- интерфейс Project Server, Project Server, коды ошибок, VBA, объектная модель Project, проект 2013, платформа, Visual Basic для приложений, объектная модель Project, объектная модель, проект VBA, Project Server, Справочник по PSI, PSI
 localization_priority: Normal
 ms.assetid: 79c78c44-1e08-4c9b-a7fe-a5089e666055
-description: Общие сведения об ссылку на интерфейс Project Server (PSI), как использовать интерфейс ASMX и WCF интерфейса PSI, сведения о Project Server коды ошибок и ссылки для службы ProjectData OData.
+description: Общие сведения о справочнике по интерфейсу Project Server (PSI), способах использования интерфейса ASMX и интерфейса WCF интерфейса PSI, сведений о кодах ошибок Project Server и Справочнике по службе ProjectData OData.
 ms.openlocfilehash: 27b2eb27d62ec1abdb1a835b5d874e211e7e793e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399895"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32357038"
 ---
-# <a name="project-2013-programming-references"></a>Справочные материалы по программированию Project 2013
+# <a name="project-2013-programming-references"></a>Руководства по программированию в Project 2013
 
-Общие сведения об ссылку на интерфейс Project Server (PSI), как использовать интерфейс ASMX и WCF интерфейса PSI, сведения о Project Server коды ошибок и ссылки для службы **ProjectData** OData. 
+Общие сведения о справочнике по интерфейсу Project Server (PSI), способах использования интерфейса ASMX и интерфейса WCF интерфейса PSI, сведений о кодах ошибок Project Server и Справочнике по службе **ProjectData** OData. 
   
 > [!NOTE]
-> Для ссылки на основной PSI и клиентской объектной модели (CSOM) в Project Server 2013, изучите следующие разделы: [Справочник по JavaScript API для Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md)и [ссылаться на класс библиотеки и веб-службы](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) . > Справочные материалы Office Add-ins, включая справочник по JavaScript для приложения области задач Project 2013, в разделе [API JavaScript для Office](https://msdn.microsoft.com/library/fp142185.aspx). > Справочные материалы по VBA Project Стандартный 2013 и Project Professional 2013, содержатся в разделе [Справочник разработчика по Project 2013 VBA](https://msdn.microsoft.com/library/jj235035.aspx). > Ссылка для работы с отчетами таблиц и представлений в базе данных Project Server 2013 в локальной еще не доступен. 
+> Основные справочные материалы по ИНТЕРФЕЙСу PSI и клиентской объектной модели (CSOM) в Project Server 2013: справочные материалы по [библиотекам классов и веб-службам](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) и [Справочник по API JavaScript для Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md). _Гт_ для ссылок на надстройки Office, которые включают ссылку JavaScript для приложений области задач Project 2013, можно найти в статье [API JavaScript для Office](https://msdn.microsoft.com/library/fp142185.aspx). _Гт_ для Справочника по VBA для Project Standard 2013 и Project профессиональный 2013, ознакомьтесь со статьей [Project 2013 Reference Developer](https://msdn.microsoft.com/library/jj235035.aspx). _Гт_ Справка по таблицам отчетов и представлениям в локальной базе данных Project Server 2013 пока недоступна. 
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
-[Общие сведения о Project PSI](project-psi-reference-overview.md) Описывает сборки и пространства имен в ссылке на PSI для Project Server 2013. 
+[Обзор справочника по Project PSI](project-psi-reference-overview.md) Описывает сборки и пространства имен в справочнике PSI для Project Server 2013. 
   
-[Необходимые условия для образцов кода на основе ASMX в проекте](prerequisites-for-asmx-based-code-samples-in-project.md) Инструкции по использованию примеров кода в ссылке на PSI, построенные с помощью веб-службы ASMX в приложениях тестирования. 
+[ПредварительНые требования для примеров кода на основе ASMX в Project](prerequisites-for-asmx-based-code-samples-in-project.md) В этой статье описано, как использовать примеры кода в справочнике PSI, созданных с помощью веб-служб ASMX в тестируемых приложениях. 
   
-[Необходимые условия для образцов кода на основе WCF в проекте](prerequisites-for-wcf-based-code-samples-in-project.md) Описывается, как использовать образцы кода в ссылке на PSI, построенные с помощью служб Windows Communication Foundation (WCF) в приложениях тестирования. 
+[ПредварительНые требования для примеров кода на основе WCF в Project](prerequisites-for-wcf-based-code-samples-in-project.md) В этой статье описано, как использовать примеры кода в справочнике PSI, созданных с помощью служб Windows Communication Foundation (WCF) в тестируемых приложениях. 
   
-[Коды ошибок Project Server](project-server-error-codes.md) Перечислены коды и описания ошибок Project Server по функциональным возможностям. 
+[Коды ошибок Project Server](project-server-error-codes.md) Список кодов и описаний ошибок Project Server по функциональным областям. 
   
-[ProjectData — Справочник по службе Project OData](https://msdn.microsoft.com/library/office/jj163015.aspx) Содержит обзор службы OData для данных отчетов Project Server, введение в использование веб-каналов OData с запросов LINQ и справочные материалы для метаданных XML в службе **ProjectData** . 
+[ProjectData — Справочник по службе Project OData](https://msdn.microsoft.com/library/office/jj163015.aspx) В этой статье представлен обзор службы OData для данных отчетов Project Server, общие сведения об использовании веб-каналов OData с запросами LINQ и ссылки на метаданные XML в службе **ProjectData** . 
   
 ## <a name="see-also"></a>См. также
 
@@ -49,5 +49,5 @@ ms.locfileid: "25399895"
 
 [API JavaScript для Office](https://msdn.microsoft.com/library/fp142185.aspx)
   
-[Справочник разработчика по Project 2013 VBA](https://msdn.microsoft.com/library/jj235035.aspx)
+[Справочник разработчика по VBA для Project 2013](https://msdn.microsoft.com/library/jj235035.aspx)
 

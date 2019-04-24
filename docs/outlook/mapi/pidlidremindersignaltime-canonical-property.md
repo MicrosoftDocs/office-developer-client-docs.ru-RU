@@ -13,47 +13,47 @@ api_type:
 ms.assetid: 58f6432e-6e88-420b-959f-7f365899f7eb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3fcfd00f71a308dce625e6636edbe647f3d7258a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350857"
 ---
 # <a name="pidlidremindersignaltime-canonical-property"></a>Каноническое свойство PidLidReminderSignalTime
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает точку времени, когда напоминание переходит из ожидающих просроченные.
+Задает момент времени, в течение которого напоминание переходит из состояния ожидания в статус просрочено.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidReminderNextTime  <br/> |
-|Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008560  <br/> |
+|Связанные свойства:  <br/> |Диспидреминдернексттиме  <br/> |
+|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008560  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
-|Область:  <br/> |Reminder  <br/> |
+|Область:  <br/> |Напоминание  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство необходимо задать, если свойство **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) имеет значение TRUE. Клиенты необходимо задать значение в формате UTC.
+Это свойство должно быть задано, если свойство **диспидреминдерсет** ([PIDLIDREMINDERSET](pidlidreminderset-canonical-property.md)) имеет значение true. Клиенты должны задать значение в формате UTC.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS — ОКСОРМДР]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Задает свойства и модель взаимодействия для электронной почты и других объектов напоминания.
+> Задает свойства и модель взаимодействия для сообщений электронной почты и других объектов.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

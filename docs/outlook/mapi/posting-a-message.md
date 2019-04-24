@@ -1,5 +1,5 @@
 ---
-title: Отправка сообщения
+title: Публикация сообщения
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,51 +8,51 @@ api_type:
 - COM
 ms.assetid: cc3e1546-e58b-413f-82d7-4efeb86b0000
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 61e1039a89f47fe29f9b5a1ba9203cfc88d9797e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2c174d48a19e23de725e1d5a1533130175f2ab00
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350752"
 ---
-# <a name="posting-a-message"></a>Отправка сообщения
+# <a name="posting-a-message"></a>Публикация сообщения
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Учет сообщение аналогичен отправки сообщения. Основное различие — конечным файлом. Вместо проходить для одного или нескольких получателей через один или несколько систем обмена сообщениями, отправленное сообщение остается в папке в хранилище текущего сообщения.
+Отправка сообщения похожа на отправку сообщения. Основным различием является назначение. Вместо того чтобы направляться одному или нескольким получателям в одной или нескольких системах обмена сообщениями, помещенное в папку сообщение остается в папке в текущем хранилище сообщений.
   
-### <a name="to-post-a-message"></a>Чтобы отправить сообщение
+### <a name="to-post-a-message"></a>Публикация сообщения
   
-1. Откройте папку назначения путем вызова [IMsgStore::OpenEntry](imsgstore-openentry.md). Если конечной папки "Входящие", найдите идентификатор записи для передачи **OpenEntry** путем вызова [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md). 
+1. Откройте папку назначения, вызвав [IMsgStore:: OpenEntry](imsgstore-openentry.md). Если конечная папка является папкой "Входящие", необходимо указать идентификатор записи для передачи в **OpenEntry** , вызвав [IMsgStore:: жетрецеивефолдер](imsgstore-getreceivefolder.md). 
     
-2. Вызов [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) для создания сообщения. 
+2. Call [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) для создания сообщения. 
     
-3. Вызовите метод [IMAPIProp::SetProps](imapiprop-setprops.md) сообщение для установки: 
+3. ВыЗовите метод сообщения [IMAPIProp:: SetProps](imapiprop-setprops.md) , чтобы задать: 
     
-   - Флаг MSGFLAG_READ в свойстве **PidTagMessageFlags** ( [PR_MESSAGE_FLAGS](pidtagmessageflags-canonical-property.md)).
+   - Флаг МСГФЛАГ_РЕАД в свойстве **PidTagMessageFlags** ( [пр_мессаже_флагс](pidtagmessageflags-canonical-property.md)).
     
-   - Свойства **PR_SENDER** . 
+   - Свойства **пр_сендер** . 
     
-   - Свойства **PR_SENT_REPRESENTING** . 
+   - Свойства **пр_сент_репресентинг** . 
     
-   - Свойство **PR_RECEIPT_TIME** ([PidTagReceiptTime](pidtagreceipttime-canonical-property.md)).
+   - Свойство **пр_рецеипт_тиме** ([PidTagReceiptTime](pidtagreceipttime-canonical-property.md)).
     
-   - **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) или свойство **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)).
+   - Свойство **пр_ртф_компрессед** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) или **пр_боди** ([PidTagBody](pidtagbody-canonical-property.md)).
     
-   - Свойство **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
+   - Свойство **пр_субжект** ([PidTagSubject](pidtagsubject-canonical-property.md)).
     
-   - Свойство **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
+   - Свойство **пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
     
-   - Любые свойства, необходимые для класса сообщения.
+   - Все свойства, необходимые для класса Message.
     
-4. Вызовите метод [IMAPIProp::SaveChanges](imapiprop-savechanges.md) сообщения, чтобы сохранить сообщение. 
+4. ВыЗовите метод [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) сообщения для сохранения сообщения. 
     
-5. При необходимости создайте вложения, задайте его свойства и сохраните его. Дополнительные сведения о добавлении вложений в сообщения [Вложения сообщения](creating-a-message-attachment.md)см.
+5. При необходимости создайте вложение, задайте его свойства и сохраните его. Дополнительные сведения о добавлении вложений в сообщения приведены в статье [Создание вложения сообщения](creating-a-message-attachment.md).
     
-6. Вызовите **IMessage::SaveChanges** , чтобы сохранить сообщение. На этом этапе оно будет отображаться в таблице содержимое папки назначения. 
+6. Call **iMessage:: SaveChanges** для сохранения сообщения. На этом шаге он будет отображаться в таблице содержимого конечной папки. 
     
-Обратите внимание на то, что не создает список получателей. Вместо этого можно задать несколько свойств, которые обычно задаются с помощью поставщика транспорта для отправки сообщения. 
+Обратите внимание, что список получателей не создается. Вместо этого необходимо задать несколько свойств, которые обычно задаются поставщиком транспорта для отправленного сообщения. 
   
-Если вы хотите сохранить периодически перед его отображаются в таблице содержимое папки, отображается сообщение, создайте вместо этого в скрытой папке, например в корневую папку поддерева IPM и затем перетащить его в целевой папке. 
+Если вы хотите, чтобы сообщение сохранялось периодически, прежде чем оно будет отображаться в таблице содержимого видимой папки, создайте его, а не в скрытой папке, такой как корневая папка поддерева IPM, а затем переместите его в целевую папку. 
   
 

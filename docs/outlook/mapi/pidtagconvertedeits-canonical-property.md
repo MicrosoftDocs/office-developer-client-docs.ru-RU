@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 569106ff-440b-4376-9608-afc8d4dba3e4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ffb7d73a80fce5316e5b948c0ca317501a15daa3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7603fbd99f959108b0db8bda000da4cdf2c90f67
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32358942"
 ---
 # <a name="pidtagconvertedeits-canonical-property"></a>Каноническое свойство PidTagConvertedEits
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор для типов текста сообщения после преобразования.
+Содержит идентификатор для типов текста в сообщении после преобразования.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONVERTED_EITS  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНВЕРТЕД_ЕИТС  <br/> |
 |Идентификатор:  <br/> |0x000E  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство показывает, какие типы закодированный сведений (EITs) использовались для преобразования компонентов текста сообщения.
+Это свойство указывает, какие типы зашифрованных данных (ЕИТС) использовались для преобразования текстовых компонентов сообщения.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Ячейка ImgWidth (раздел "Сведения о внешнем изображении")
+title: ImgWidth Cell (Foreign Image Info Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,36 +8,36 @@ f1_keywords:
 - vis_sdr.chm460
 localization_priority: Normal
 ms.assetid: b57fb962-0b3e-f2e5-3b88-3edf33e40496
-description: 'Определяет ширину изображения объекта в рамках его границ. Формула по умолчанию имеет вид:'
-ms.openlocfilehash: 3aab65d27d426287060f7572dad15174acb93199
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Определяет ширину изображения объекта в пределах его границ. По умолчанию используется следующая формула:'
+ms.openlocfilehash: 9da5e06a7fbf6ae77a49fb0410aefb406e2afecb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32344725"
 ---
-# <a name="imgwidth-cell-foreign-image-info-section"></a>Ячейка ImgWidth (раздел "Сведения о внешнем изображении")
+# <a name="imgwidth-cell-foreign-image-info-section"></a>ImgWidth Cell (Foreign Image Info Section)
 
-Определяет ширину изображения объекта в рамках его границ. Формула по умолчанию имеет вид:
+Определяет ширину изображения объекта в пределах его границ. По умолчанию используется следующая формула:
   
-= Ширина \* 1
+= Width \* 1
   
-Обрезка объекта изменяется коэффициент, на который умножается ширина.
+При кадрировании объекта изменяется коэффициент, на который умножается ширина.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Чтобы получить ссылку на ячейку ImgWidth по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку ImgWidth по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | ImgWidth  <br/> |
+| Имя ячейки:  <br/> | ImgWidth  <br/> |
    
-Для получения ссылки на ячейки ImgWidth по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку ImgWidth по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowForeign** <br/> |
-| Индекс ячейки:  <br/> |**visFrgnImgWidth** <br/> |
+| Индекс строки:  <br/> |**Висровфореигн** <br/> |
+| Индекс ячейки:  <br/> |**Висфргнимгвидс** <br/> |
    
 

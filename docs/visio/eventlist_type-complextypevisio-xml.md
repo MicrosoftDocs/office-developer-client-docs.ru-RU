@@ -1,5 +1,5 @@
 ---
-title: EventList_Type complexType ('Visio XML»)
+title: Евентлист_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0e7a6e5e-5ce4-1e21-c1e8-dafd22bd367f
 ms.openlocfilehash: 454a54749e9f72cacc3e7359041705d3487b9e79
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392083"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32351025"
 ---
-# <a name="eventlisttype-complextype-visio-xml"></a>EventList_Type complexType ('Visio XML»)
+# <a name="eventlisttype-complextype-visio-xml"></a>Евентлист_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "25392083"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[EventItem](eventitem-element-eventlist_type-complextypevisio-xml.md) <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> ||
+|[Евентитем](eventitem-element-eventlist_type-complextypevisio-xml.md) <br/> |[Евентитем_типе](eventitem_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

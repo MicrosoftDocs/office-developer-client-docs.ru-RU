@@ -9,11 +9,11 @@ ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 localization_priority: Priority
 ms.openlocfilehash: 934bb491c0521b1d76d5400aac4728fbd34ba625
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700387"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32334875"
 ---
 # <a name="file-format-of-mapisvcinf"></a>Формат файла MapiSvc.inf
 

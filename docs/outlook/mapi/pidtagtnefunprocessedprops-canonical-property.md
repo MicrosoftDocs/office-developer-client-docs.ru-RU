@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: df9cd614-1198-44a2-9bf5-36c57179a9a9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c25888353857f9233ba487661f5f27d64cd678cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 9ea9938ca9f8dd0b25cf2de5199178a76e17b6d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577431"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32361182"
 ---
 # <a name="pidtagtnefunprocessedprops-canonical-property"></a>Каноническое свойство PidTagTnefUnprocessedProps
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Выполняет сериализацию свойства при фильтрации транспорта Neutral Encapsulation формата TNEF.
+Сериализует свойства при фильтрации формата TNEF для протокола нейтральной инкапсуляции (TNEF).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_TNEF_UNPROCESSED_PROPS  <br/> |
+|Связанные свойства:  <br/> |ПР_ТНЕФ_УНПРОЦЕССЕД_ПРОПС  <br/> |
 |Идентификатор:  <br/> |0x0E9C  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |MAPI передаваемого  <br/> |
+|Область:  <br/> |Несъемный MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Используемый Microsoft Outlook и Outlook Web Access (OWA) для сохранения исходного формата TNEF в случае наличия TNEF именованных свойств, которые не могут быть созданы в хранилище.
+Используется в Microsoft Outlook и Outlook Web Access (OWA) для сохранения исходного TNEF в случаях, когда TNEF содержит именованные свойства, которые не могут быть созданы в хранилище.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

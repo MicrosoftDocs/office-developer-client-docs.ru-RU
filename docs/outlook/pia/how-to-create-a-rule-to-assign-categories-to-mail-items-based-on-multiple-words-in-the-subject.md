@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f0b8b27eb65ef32f95d5529879dde2721e280e26
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706200"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349520"
 ---
 # <a name="create-a-rule-to-assign-categories-to-mail-items-based-on-multiple-words-in-the-subject"></a>Создание правила для назначения категорий почтовым элементам с учетом нескольких слов в теме
 
@@ -31,7 +31,7 @@ ms.locfileid: "28706200"
 
 В следующем примере в процедуре CreateTextAndCategoryRule используется метод CategoryExists для проверки почтовых элементов пользователя на наличие категорий, содержащих названия "Office" или "Outlook" в коллекции **Categories**. Если категории не найдены, они будут добавлены. Затем в этом примере создается массив строк, содержащий строки "Office", "Outlook" и "2007". Этот массив представляет условия для оценки. После этого в процедуре CreateTextAndCategoryRule создается правило назначения категорий, в котором проверяется соответствие темы любому из заданных в массиве условий с использованием свойства **Text** объекта **TextRuleCondition** и свойства [BodyOrSubject](https://msdn.microsoft.com/library/bb612744\(v=office.15\)) коллекции [RuleConditions](https://msdn.microsoft.com/library/bb610965\(v=office.15\)). Если условие соблюдается, категории Office и Outlook назначаются элементу с помощью метода [AssignToCategory](https://msdn.microsoft.com/library/bb623146\(v=office.15\)) объекта [RuleActions](https://msdn.microsoft.com/library/bb610113\(v=office.15\)) .
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкцию **using** непосредственно перед функциями в примере кода, но ее необходимо добавить перед объявлением общедоступного класса. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

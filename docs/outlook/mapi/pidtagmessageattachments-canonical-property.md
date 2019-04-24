@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 85762771-b823-4227-9a7b-75b6ac280b2d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 975f52e6ea0ca7a469a027565f845f9dc0f9c2cf
-ms.sourcegitcommit: 43cff5789e0a0a8cda11277c1a636c8b32d28cdb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30413975"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32342569"
 ---
 # <a name="pidtagmessageattachments-canonical-property"></a>Каноническое свойство PidTagMessageAttachments
 
@@ -34,7 +34,7 @@ ms.locfileid: "30413975"
 |Тип данных:  <br/> |ПТ_ОБЖЕКТ  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
 Это свойство можно исключить в [IMAPIProp:: операции CopyTo](imapiprop-copyto.md) или включено в [IMAPIProp:: копипропс](imapiprop-copyprops.md) Operations. Как свойство типа ПТ_ОБЖЕКТ, оно не может быть успешно получено методом [IMAPIProp::](imapiprop-getprops.md) . К его содержимому должен получать доступ метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , запрашивающий идентификатор интерфейса **иид_имапитабле** . Поставщики услуг должны сообщить о ней методу [IMAPIProp:: жетпроплист](imapiprop-getproplist.md) , если он задан, но при необходимости можно сообщить ему, если он не задан. 
   

@@ -1,5 +1,5 @@
 ---
-title: IDistList IMAPIContainer
+title: Идистлист IMAPIContainer
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,66 +12,66 @@ api_type:
 - COM
 ms.assetid: bd8e1ddb-3027-428b-8964-81614f80282d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d5b9fb9bf8c84433ee5000cc8832c2f09bfc5fe3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 463d81a6692b6071cada0ad22e7343020563e41c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590626"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32350892"
 ---
 # <a name="idistlist--imapicontainer"></a>IDistList : IMAPIContainer
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет доступ к списки рассылки в поле можно изменить адрес книги контейнеров. **IDistList** создание, копирование и удаление списков рассылки, кроме разрешения имен. 
+Предоставляет доступ к спискам рассылки в изменяемых контейнерах адресной книги. **Идистлист** позволяет создавать, копировать и удалять списки рассылки, а также выполнять разрешение имен. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Предоставляемые:  <br/> |Объекты списка рассылки  <br/> |
-|Реализованный:  <br/> |Поставщиками адресных книг  <br/> |
-|Вызывается:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IDistList  <br/> |
-|Тип указателя:  <br/> |LPDISTLIST  <br/> |
-|Модель транзакций:  <br/> |В транзакции  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Предоставлено:  <br/> |Объекты списка рассылки  <br/> |
+|Реализовано в:  <br/> |Поставщики адресных книг  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_идистлист  <br/> |
+|Тип указателя:  <br/> |ЛПДИСТЛИСТ  <br/> |
+|Модель транзакции:  <br/> |Транзакции  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
-Этот интерфейс не имеет каких-либо уникальных методов.
+У этого интерфейса нет уникальных методов.
   
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**Пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**Пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Интерфейс **IDistList** наследует от [IMAPIContainer](imapicontainerimapiprop.md) и включает в себя идентичные методам как контейнеры адресной книги. Таким образом так как методы интерфейса **IDistList** , совпадают интерфейса [IABContainer](iabcontainerimapicontainer.md) , они не повторяются здесь. 
+Интерфейс **идистлист** наследуется от [IMAPIContainer](imapicontainerimapiprop.md) и содержит те же методы, что и контейнеры адресных книг. Таким образом, так как методы интерфейса **идистлист** идентичны элементам интерфейса [иабконтаинер](iabcontainerimapicontainer.md) , они не дублируются здесь. 
   
-Список рассылки или объект, который реализует **IDistList** является коллекция обмена сообщениями объектов-пользователей или отдельных получателей. Список рассылки может состоять из всех, объектов пользователей обмена мгновенными сообщениями, или некоторые обмена сообщениями пользователя и некоторые списки рассылки. 
+Список рассылки или объект, реализующий **идистлист** — это коллекция объектов пользователя обмена сообщениями или отдельных получателей. Список рассылки может состоять из всех пользовательских объектов обмена сообщениями, а также от некоторых пользователей обмена сообщениями и некоторых списков рассылки. 
   
-Как правило, существует два типа списков рассылки:
+Обычно существует два типа списков рассылки:
   
-- Списки рассылки, которые развертываются с базовым системы обмена сообщениями. Этот тип списка с адресом **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) и является обрабатывается так же, как для отдельного получателя. 
+- Списки рассылки, развернутые базовой системой обмена сообщениями. Этот тип списка содержит адрес, **пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) и обрабатывается так же, как если бы он был отдельным получателем. 
     
-- Списки рассылки, существующих в локальном контейнере и расширенное клиентским приложением.
+- Списки рассылки, существующие в локальном контейнере и развернутые клиентским приложением.
     
-Свойства списка рассылки необязательно относятся следующие:
+К дополнительным свойствам списка рассылки относятся следующие:
   
-- **PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))
+- **Пр_ласт_модификатион_тиме** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))
     
-- **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) 
+- **Пр_дисплай_типе** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) 
     
-- **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) 
+- **Пр_детаилс_табле** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) 
     
-Обратите внимание на то, что **PR_ADDRTYPE** является обязательным, но не является **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)). Вот так, как в список рассылки без адрес электронной почты по-прежнему могут получать сообщения, но необходимо развернуть список ее участников. Если свойство **PR_ADDRTYPE** MAPIPDL, MAPI выполняет развертывание. Если **PR_ADDRTYPE** значение, отличное от MAPIPDL, поставщика транспорта выполняет развертывание. 
+Обратите внимание, что **пр_аддртипе** является обязательным, но **пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) — нет. Это связано с тем, что список рассылки без адреса электронной почты по-прежнему может получать сообщения, но список его участников должен быть развернут. Если для свойства **пр_аддртипе** задано значение МАПИПДЛ, MAPI выполняет расширение. Если **пр_аддртипе** имеет значение, отличное от мапипдл, то поставщик транспорта выполняет расширение. 
   
-Для получения дополнительных сведений о том, как использовать методы **IDistList** просмотра операций ссылку для параллельного методы **IABContainer**.
+Дополнительные сведения об использовании методов **идистлист** приведены в справочных записях для параллельных методов **иабконтаинер**.
   
 ## <a name="see-also"></a>См. также
 

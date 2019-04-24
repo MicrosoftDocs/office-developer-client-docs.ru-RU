@@ -1,5 +1,5 @@
 ---
-title: DataConnections_Type complexType ('Visio XML»)
+title: Датаконнектионс_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 83a3c944-9582-bf80-ec2a-7a752da03cd3
 ms.openlocfilehash: 2bbea48e1d5340c5a68bbafbef9a900a98357385
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397389"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32360377"
 ---
-# <a name="dataconnectionstype-complextype-visio-xml"></a>DataConnections_Type complexType ('Visio XML»)
+# <a name="dataconnectionstype-complextype-visio-xml"></a>Датаконнектионс_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -52,12 +52,12 @@ ms.locfileid: "25397389"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Подключение данных](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> ||
+|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[Датаконнектион_типе](dataconnection_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|NextID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|Некстид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

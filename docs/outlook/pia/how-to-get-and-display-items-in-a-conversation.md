@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0fcfe76632c2fda742a85a571d655569dc2fcd33
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32349464"
 ---
 # <a name="get-and-display-items-in-a-conversation"></a>Получение и отображение элементов в беседе
 
@@ -24,7 +24,7 @@ ms.locfileid: "28705612"
 
 После этого в примере перечисляются все элементы в объекте **Table** и вызывается метод EnumerateConversation для каждого элемента, чтобы получить доступ к дочерним узлам каждого элемента. Метод EnumerateConversation использует объект **Conversation** и получает дочерние узлы с помощью метода [GetChildren(Object)](https://msdn.microsoft.com/library/ff184854\(v=office.15\)). Метод EnumerateConversation вызывается рекурсивно, пока не закончатся все дочерние узлы. Затем каждый элемент беседы демонстрируется пользователю.
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкцию **using** непосредственно перед функциями в примере кода, но ее необходимо добавить перед объявлением общедоступного класса. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

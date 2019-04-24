@@ -1,31 +1,31 @@
 ---
-title: Элемент RefreshableData (PublishSettings_Type complexType) ('Visio XML»)
+title: Элемент Рефрешабледата (Публишсеттингс_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9a3b9d5a-fcba-eb18-3199-bd5a7f889af8
-description: Указывает, является ли набор записей обновляемый, с помощью служб Visio в Microsoft SharePoint Server 2013.
+description: Указывает, следует ли обновлять набор записей с помощью служб Visio в Microsoft SharePoint Server 2013.
 ms.openlocfilehash: b402e2c9d65bf868c0ac33c782b87857ab6aed75
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384875"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346475"
 ---
-# <a name="refreshabledata-element-publishsettingstype-complextype-visio-xml"></a>Элемент RefreshableData (PublishSettings_Type complexType) ('Visio XML»)
+# <a name="refreshabledata-element-publishsettingstype-complextype-visio-xml"></a>Элемент Рефрешабледата (Публишсеттингс_типе complexType) (' Visio XML ')
 
-Указывает, является ли набор записей обновляемый, с помощью служб Visio в Microsoft SharePoint Server 2013.
+Указывает, следует ли обновлять набор записей с помощью служб Visio в Microsoft SharePoint Server 2013.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Рефрешабледата_типе](refreshabledata_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -43,7 +43,7 @@ ms.locfileid: "25384875"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Задает параметры, используемые при открытии диаграммы с помощью служб Visio.  <br/> |
+|[Публишсеттингс](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Публишсеттингс_типе](publishsettings_type-complextypevisio-xml.md) <br/> |Задает параметры, которые используются при открытии схемы с помощью служб Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,6 +53,6 @@ ms.locfileid: "25384875"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор набора записей.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор объекта Recordset.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

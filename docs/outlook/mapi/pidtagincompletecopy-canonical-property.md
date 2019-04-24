@@ -12,39 +12,39 @@ api_type:
 - HeaderDef
 ms.assetid: 352a95cb-e8ba-4c79-81d8-b22723ec71fb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cfe3eaa7a1d849fa5b192c83af0eb153b3f90ca7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d03a8b7eb39c819b865ae24189bbcf04dacbbe8b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588981"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346615"
 ---
 # <a name="pidtagincompletecopy-canonical-property"></a>Каноническое свойство PidTagIncompleteCopy
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если это сообщение является неполной копией другого сообщения.
+Содержит значение TRUE, если данное сообщение является неполной копией другого сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_INCOMPLETE_COPY  <br/> |
+|Связанные свойства:  <br/> |ПР_ИНКОМПЛЕТЕ_КОПИ  <br/> |
 |Идентификатор:  <br/> |0x0035  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Общие свойства сообщения  <br/> |
+|Область:  <br/> |Общие свойства сообщений  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

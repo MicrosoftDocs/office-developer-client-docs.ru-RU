@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fecf7fa80ac52e446c20a035cde0fda988c82ed0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710260"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32345670"
 ---
 # <a name="search-and-filter"></a>Поиск и фильтрация
 
@@ -20,7 +20,7 @@ ms.locfileid: "28710260"
 
 ## <a name="in-this-section"></a>В этой статье
 
-|Раздел|Описание|
+|Статья|Описание|
 |:----|:----------|
 |[Фильтрация и эффективное перечисление элементов в папке](how-to-filter-and-efficiently-enumerate-items-in-a-folder.md) |Использование объекта [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)) для фильтрации элементов в папке "Входящие", имеющих вложения, и эффективного перечисления таких элементов с отображением выбранных свойств каждого элемента.|
 |[Эффективное перечисление элементов в папке с помощью метода SetColumns](how-to-use-setcolumns-to-efficiently-enumerate-items-in-a-folder.md)  |Повышение быстродействия при перечислении коллекции [Items](https://msdn.microsoft.com/library/bb645287\(v=office.15\)) за счет кэширования определенных свойств каждого элемента коллекции с помощью метода [SetColumns(String)](https://msdn.microsoft.com/library/bb610268\(v=office.15\)).|

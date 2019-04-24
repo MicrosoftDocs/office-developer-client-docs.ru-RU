@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm60104
 localization_priority: Normal
 ms.assetid: e7a62a86-36bf-31d3-a33b-2444f72d60fe
-description: Возвращает число знаков в текстовой строке.
-ms.openlocfilehash: 7cc3ffe46c3e47961a687557fc5b4c9aa3c94828
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает число символов в текстовой строке.
+ms.openlocfilehash: 5d0dd56014e1e9965359814fa4de35efd5f385ac
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814066"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32359375"
 ---
 # <a name="len-function-visioshapesheet"></a>LEN Function (VisioShapeSheet)
 
-Возвращает число знаков в текстовой строке.
+Возвращает число символов в текстовой строке.
   
 ## <a name="syntax"></a>Синтаксис
 
-Функция LEN (** *текст* **) 
+LEN (* * *Text* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Обязательный  <br/> |**Строка** <br/> |Строка символов, длина которого нужно найти.  <br/> |
+| _text_ <br/> |Обязательный  <br/> |**String** <br/> |Строка символов, длина которой требуется найти.  <br/> |
    
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Числовой
+Numeric
   
 ## <a name="example"></a>Пример
 
-Функция LEN («Сиэтл, штат Вашингтон») 
+LEN ("Сиэтл, штат Вашингтон") 
   
 Возвращает 11. 
   
