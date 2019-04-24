@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9846ddcc06cf63093fdd23edf818e7266438fff3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293268"
 ---
-# <a name="execute-requery-and-clear-methods-example-vb"></a><span data-ttu-id="148f6-102">Пример использования методов Execute, Requery и Clear (VB)</span><span class="sxs-lookup"><span data-stu-id="148f6-102">Execute, Requery, and Clear methods example (VB)</span></span>
+# <a name="execute-requery-and-clear-methods-example-vb"></a><span data-ttu-id="e72f2-102">Пример использования методов Execute, Requery и Clear (VB)</span><span class="sxs-lookup"><span data-stu-id="e72f2-102">Execute, Requery, and Clear methods example (VB)</span></span>
 
 
-<span data-ttu-id="148f6-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="148f6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e72f2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e72f2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="148f6-104">В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="148f6-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="148f6-105">Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в [набор записей](recordset-object-ado.md)и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="148f6-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [Recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="148f6-106">(Семейство **Errors** осуществляется через объект **подключения** из свойства [ActiveConnection](activeconnection-property-ado.md) [набора записей](recordset-object-ado.md)). Процедуры ExecuteCommand и PrintOutput необходимы для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="148f6-106">(The **Errors** collection is accessed via the **Connection** object of the [ActiveConnection](activeconnection-property-ado.md) property of the [Recordset](recordset-object-ado.md).) The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
+<span data-ttu-id="e72f2-104">В этом примере демонстрируется метод **EXECUTE** при выполнении как из объекта [Command](command-object-ado.md) , так и из объекта [Connection](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="e72f2-104">This example demonstrates the **Execute** method when run from both a [Command](command-object-ado.md) object and a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="e72f2-105">Кроме того, он [](requery-method-ado.md) использует метод Requery для получения текущих данных в объекте [Recordset](recordset-object-ado.md), а метод [clear](clear-method-ado.md) — для очистки содержимого коллекции [Errors](errors-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="e72f2-105">It also uses the [Requery](requery-method-ado.md) method to retrieve current data in a [Recordset](recordset-object-ado.md), and the [Clear](clear-method-ado.md) method to clear the contents of the [Errors](errors-collection-ado.md) collection.</span></span> <span data-ttu-id="e72f2-106">(Коллекция **Errors** доступна через объект **Connection** свойства [ActiveConnection](activeconnection-property-ado.md) объекта [Recordset](recordset-object-ado.md).) Для выполнения этой процедуры необходимы процедуры ExecuteCommand и Принтаутпут.</span><span class="sxs-lookup"><span data-stu-id="e72f2-106">(The **Errors** collection is accessed via the **Connection** object of the [ActiveConnection](activeconnection-property-ado.md) property of the [Recordset](recordset-object-ado.md).) The ExecuteCommand and PrintOutput procedures are required for this procedure to run.</span></span>
 
 ```vb 
  

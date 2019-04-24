@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c3ad91f0a288b9908a5af5f92d7bfca3b23cdfe9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716007"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292071"
 ---
-# <a name="handler-property-rds"></a><span data-ttu-id="4700c-102">Свойство Handler (RDS)</span><span class="sxs-lookup"><span data-stu-id="4700c-102">Handler property (RDS)</span></span>
+# <a name="handler-property-rds"></a><span data-ttu-id="24ee3-102">Свойство Handler (RDS)</span><span class="sxs-lookup"><span data-stu-id="24ee3-102">Handler property (RDS)</span></span>
 
-<span data-ttu-id="4700c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4700c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="24ee3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="24ee3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4700c-104">Указывает имя программы настройки на сервере (обработчик), которая расширяет возможности [RDSServer.DataFactory](datafactory-object-rdsserver.md)и все параметры, используемые в *обработчик*.</span><span class="sxs-lookup"><span data-stu-id="4700c-104">Indicates the name of a server-side customization program (handler) that extends the functionality of the [RDSServer.DataFactory](datafactory-object-rdsserver.md), and any parameters used by the *handler*.</span></span>
+<span data-ttu-id="24ee3-104">Указывает имя программы настройки на стороне сервера (обработчика), расширяющей функциональные возможности [рдссервер.](datafactory-object-rdsserver.md), и все параметры, используемые *обработчиком*.</span><span class="sxs-lookup"><span data-stu-id="24ee3-104">Indicates the name of a server-side customization program (handler) that extends the functionality of the [RDSServer.DataFactory](datafactory-object-rdsserver.md), and any parameters used by the *handler*.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4700c-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4700c-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="24ee3-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="24ee3-105">Syntax</span></span>
 
-<span data-ttu-id="4700c-106">*DataControl*. Обработчик = *строка*</span><span class="sxs-lookup"><span data-stu-id="4700c-106">*DataControl*.Handler = *String*</span></span>
+<span data-ttu-id="24ee3-106">*Элемент управления*. Обработчик = *строка*</span><span class="sxs-lookup"><span data-stu-id="24ee3-106">*DataControl*.Handler = *String*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="4700c-107">Parameters</span><span class="sxs-lookup"><span data-stu-id="4700c-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="24ee3-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="24ee3-107">Parameters</span></span>
 
-|<span data-ttu-id="4700c-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="4700c-108">Parameter</span></span>|<span data-ttu-id="4700c-109">Описание</span><span class="sxs-lookup"><span data-stu-id="4700c-109">Description</span></span>|
+|<span data-ttu-id="24ee3-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="24ee3-108">Parameter</span></span>|<span data-ttu-id="24ee3-109">Описание</span><span class="sxs-lookup"><span data-stu-id="24ee3-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="4700c-110">*DataControl*</span><span class="sxs-lookup"><span data-stu-id="4700c-110">*DataControl*</span></span> |<span data-ttu-id="4700c-111">Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.</span><span class="sxs-lookup"><span data-stu-id="4700c-111">An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>|
-|<span data-ttu-id="4700c-112">*String*</span><span class="sxs-lookup"><span data-stu-id="4700c-112">*String*</span></span> |<span data-ttu-id="4700c-113">**Строковое** значение, содержащее имя обработчика и любых параметров, все запятыми (например, «handlerName, parm1, parm2,..., parm *N*»).</span><span class="sxs-lookup"><span data-stu-id="4700c-113">A **String** value that contains the name of the handler and any parameters, all separated by commas (for example, "handlerName,parm1,parm2,...,parm *N*" ).</span></span>|
+|<span data-ttu-id="24ee3-110">*DataControl*</span><span class="sxs-lookup"><span data-stu-id="24ee3-110">*DataControl*</span></span> |<span data-ttu-id="24ee3-111">Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.</span><span class="sxs-lookup"><span data-stu-id="24ee3-111">An object variable that represents an [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>|
+|<span data-ttu-id="24ee3-112">*String*</span><span class="sxs-lookup"><span data-stu-id="24ee3-112">*String*</span></span> |<span data-ttu-id="24ee3-113">**Строковое** значение, содержащее имя обработчика и все параметры, разделенные запятыми (например, "хандлернаме, parm1, parm2,..., ПАРМ *N*").</span><span class="sxs-lookup"><span data-stu-id="24ee3-113">A **String** value that contains the name of the handler and any parameters, all separated by commas (for example, "handlerName,parm1,parm2,...,parm *N*" ).</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="4700c-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="4700c-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="24ee3-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="24ee3-114">Remarks</span></span>
 
-<span data-ttu-id="4700c-115">Это свойство поддерживает настройки, функциональные возможности, необходимо задать свойство [CursorLocation](cursorlocation-property-ado.md) **adUseClient**.</span><span class="sxs-lookup"><span data-stu-id="4700c-115">This property supports customization, a functionality that requires setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient**.</span></span>
+<span data-ttu-id="24ee3-115">Это свойство поддерживает настройку, которая требует установки свойства [CursorLocation](cursorlocation-property-ado.md) в **адусеклиент**.</span><span class="sxs-lookup"><span data-stu-id="24ee3-115">This property supports customization, a functionality that requires setting the [CursorLocation](cursorlocation-property-ado.md) property to **adUseClient**.</span></span>
 
-<span data-ttu-id="4700c-116">Имя обработчика и ее параметры при их наличии, разделенных запятыми («,»).</span><span class="sxs-lookup"><span data-stu-id="4700c-116">The name of the handler and its parameters, if any, are separated by commas (",").</span></span> <span data-ttu-id="4700c-117">Непредсказуемое поведение приведет к, если точку с запятой («;») в любом месте отображается в *строке*.</span><span class="sxs-lookup"><span data-stu-id="4700c-117">Unpredictable behavior will result if a semicolon (";") appears anywhere within *String*.</span></span> <span data-ttu-id="4700c-118">Можно создать собственный обработчик условии, что он поддерживает интерфейс **IDataFactoryHandler** .</span><span class="sxs-lookup"><span data-stu-id="4700c-118">You can write your own handler, provided it supports the **IDataFactoryHandler** interface.</span></span>
+<span data-ttu-id="24ee3-116">Имя обработчика и его параметры разделяются запятыми (",").</span><span class="sxs-lookup"><span data-stu-id="24ee3-116">The name of the handler and its parameters, if any, are separated by commas (",").</span></span> <span data-ttu-id="24ee3-117">Непредсказуемое поведение приведет к появлению точки с запятой (";") в любом месте *строки*.</span><span class="sxs-lookup"><span data-stu-id="24ee3-117">Unpredictable behavior will result if a semicolon (";") appears anywhere within *String*.</span></span> <span data-ttu-id="24ee3-118">Вы можете написать собственный обработчик, при условии, что он поддерживает интерфейс **идатафакторихандлер** .</span><span class="sxs-lookup"><span data-stu-id="24ee3-118">You can write your own handler, provided it supports the **IDataFactoryHandler** interface.</span></span>
 
-<span data-ttu-id="4700c-119">Имя обработчика по умолчанию — **MSDFMAP. Обработчик**, и его параметр по умолчанию — это файл настройки с именем **MSDFMAP. INI**.</span><span class="sxs-lookup"><span data-stu-id="4700c-119">The name of the default handler is **MSDFMAP.Handler**, and its default parameter is a customization file named **MSDFMAP.INI**.</span></span> <span data-ttu-id="4700c-120">Это свойство используется для вызова настройки альтернативного файлы, созданные администратором сервера.</span><span class="sxs-lookup"><span data-stu-id="4700c-120">Use this property to invoke alternate customization files created by your server administrator.</span></span>
+<span data-ttu-id="24ee3-119">Имя обработчика по умолчанию — \*\*мсдфмап. \*\*, А его параметр по умолчанию — файл настройки с именем **мсдфмап. INI**.</span><span class="sxs-lookup"><span data-stu-id="24ee3-119">The name of the default handler is **MSDFMAP.Handler**, and its default parameter is a customization file named **MSDFMAP.INI**.</span></span> <span data-ttu-id="24ee3-120">Используйте это свойство, чтобы вызвать альтернативные файлы настройки, созданные администратором сервера.</span><span class="sxs-lookup"><span data-stu-id="24ee3-120">Use this property to invoke alternate customization files created by your server administrator.</span></span>
 
-<span data-ttu-id="4700c-121">Альтернатива для установки свойства **обработчика** — указание обработчика и параметры в свойство [ConnectionString](connectionstring-property-ado.md) ; то есть «\**обработчик = \*\*\* handlerName, parm1, parm2,...;*«.</span><span class="sxs-lookup"><span data-stu-id="4700c-121">The alternative to setting the **Handler** property is to specify a handler and parameters in the [ConnectionString](connectionstring-property-ado.md) property; that is, "\**Handler=\*\*\*handlerName,parm1,parm2,...;*".</span></span>
+<span data-ttu-id="24ee3-121">Альтернативой заданию свойства **handler** является указание обработчика и параметров в свойстве [ConnectionString](connectionstring-property-ado.md) ; то есть "\**handler = \* \* \* хандлернаме, parm1, parm2,...;*".</span><span class="sxs-lookup"><span data-stu-id="24ee3-121">The alternative to setting the **Handler** property is to specify a handler and parameters in the [ConnectionString](connectionstring-property-ado.md) property; that is, "\**Handler=\*\*\*handlerName,parm1,parm2,...;*".</span></span>
 

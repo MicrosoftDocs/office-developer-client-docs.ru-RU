@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 783897154347cebf997dd41e4ea2e0a4d6deb442
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703164"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291165"
 ---
-# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="bd2bd-102">Пример использования свойств IsolationLevel и Mode (VJ++)</span><span class="sxs-lookup"><span data-stu-id="bd2bd-102">IsolationLevel and Mode properties example (VJ++)</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="a22de-102">Пример использования свойств IsolationLevel и Mode (VJ++)</span><span class="sxs-lookup"><span data-stu-id="a22de-102">IsolationLevel and Mode properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="bd2bd-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bd2bd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a22de-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a22de-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bd2bd-104">В этом примере используется свойство [Mode](mode-property-ado.md) открыть исключительных подключение и свойство [IsolationLevel](isolationlevel-property-ado.md) для открытия транзакций, которая проводится по отдельности других операций.</span><span class="sxs-lookup"><span data-stu-id="bd2bd-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="a22de-104">В этом примере используется свойство [mode](mode-property-ado.md) для открытия монопольного подключения, а свойство [IsolationLevel](isolationlevel-property-ado.md) — для открытия транзакции, которая выполняется в изоляции других транзакций.</span><span class="sxs-lookup"><span data-stu-id="a22de-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```java 
  

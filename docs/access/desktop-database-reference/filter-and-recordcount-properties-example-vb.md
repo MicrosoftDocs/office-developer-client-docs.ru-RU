@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f892349d2ddb9c8fc5063d3fbec37ca9ef0d469f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721642"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292484"
 ---
-# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="30e6f-102">Пример использования свойств Filter и RecordCount (VB)</span><span class="sxs-lookup"><span data-stu-id="30e6f-102">Filter and RecordCount properties example (VB)</span></span>
+# <a name="filter-and-recordcount-properties-example-vb"></a><span data-ttu-id="c3103-102">Пример использования свойств Filter и RecordCount (VB)</span><span class="sxs-lookup"><span data-stu-id="c3103-102">Filter and RecordCount properties example (VB)</span></span>
 
 
-<span data-ttu-id="30e6f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="30e6f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c3103-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c3103-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="30e6f-104">В этом примере откройте **записей** в таблице издателей в базе данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="30e6f-104">This example open a **Recordset** on the Publishers table in the ***Pubs*** database.</span></span> <span data-ttu-id="30e6f-105">Затем свойство [фильтра](filter-property-ado.md) используется для ограничения числа видимых записей для этих издателей в определенной стране или регионе.</span><span class="sxs-lookup"><span data-stu-id="30e6f-105">It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region.</span></span> <span data-ttu-id="30e6f-106">Свойство **RecordCount** используется для отображения различие между отфильтрованные и неотфильтрованные наборы записей.</span><span class="sxs-lookup"><span data-stu-id="30e6f-106">The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.</span></span>
+<span data-ttu-id="c3103-104">В этом примере показано, как открыть объект **Recordset** в таблице издателей базы данных ***pubs*** .</span><span class="sxs-lookup"><span data-stu-id="c3103-104">This example open a **Recordset** on the Publishers table in the ***Pubs*** database.</span></span> <span data-ttu-id="c3103-105">Затем с помощью свойства [Filter](filter-property-ado.md) можно ограничить количество видимых записей для этих издателей в определенной стране или регионе.</span><span class="sxs-lookup"><span data-stu-id="c3103-105">It then uses the [Filter](filter-property-ado.md) property to limit the number of visible records to those publishers in a particular country/region.</span></span> <span data-ttu-id="c3103-106">Свойство **RecordCount** используется для отображения разницы между отфильтрованными и нефильтрованными наборами записей.</span><span class="sxs-lookup"><span data-stu-id="c3103-106">The **RecordCount** property is used to show the difference between the filtered and unfiltered recordsets.</span></span>
 
 ```vb 
  
@@ -106,7 +106,7 @@ End Sub
 
 
 > [!NOTE]
-> <span data-ttu-id="30e6f-107">Если вы знаете данных, которые нужно выбрать, обычно более эффективно для открытия **набора записей** с помощью инструкции SQL.</span><span class="sxs-lookup"><span data-stu-id="30e6f-107">When you know the data you want to select, it's usually more efficient to open a **Recordset** with an SQL statement.</span></span> <span data-ttu-id="30e6f-108">В этом примере показано, как можно создать только один **набор записей** и получить записей от конкретной страны или региона.</span><span class="sxs-lookup"><span data-stu-id="30e6f-108">This example shows how you can create just one **Recordset** and obtain records from a particular country/region.</span></span>
+> <span data-ttu-id="c3103-107">Если вы знаете данные, которые вы хотите выбрать, обычно более эффективно открыть объект **Recordset** с помощью оператора SQL.</span><span class="sxs-lookup"><span data-stu-id="c3103-107">When you know the data you want to select, it's usually more efficient to open a **Recordset** with an SQL statement.</span></span> <span data-ttu-id="c3103-108">В этом примере показано, как создать только один объект **Recordset** и получить записи из определенной страны или региона.</span><span class="sxs-lookup"><span data-stu-id="c3103-108">This example shows how you can create just one **Recordset** and obtain records from a particular country/region.</span></span>
 
 
 

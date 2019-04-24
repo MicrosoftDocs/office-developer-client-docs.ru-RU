@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7d8876b180d668be5734233a33714d7541b9c3d1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291090"
 ---
-# <a name="issuing-commands-to-the-underlying-data-provider"></a><span data-ttu-id="3800b-102">Отправка команд базовому поставщику данных</span><span class="sxs-lookup"><span data-stu-id="3800b-102">Issuing commands to the underlying data provider</span></span>
+# <a name="issuing-commands-to-the-underlying-data-provider"></a><span data-ttu-id="11bcf-102">Отправка команд базовому поставщику данных</span><span class="sxs-lookup"><span data-stu-id="11bcf-102">Issuing commands to the underlying data provider</span></span>
 
-<span data-ttu-id="3800b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3800b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="11bcf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="11bcf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3800b-104">Любые команды, не начинается с ФИГУРЫ передается через поставщика данных.</span><span class="sxs-lookup"><span data-stu-id="3800b-104">Any command that does not begin with SHAPE is passed through to the data provider.</span></span> <span data-ttu-id="3800b-105">Это эквивалентно команды фигуры в форме «ФИГУРЫ {поставщика команды}».</span><span class="sxs-lookup"><span data-stu-id="3800b-105">This is equivalent to issuing a shape command in the form "SHAPE {provider command}".</span></span> <span data-ttu-id="3800b-106">Выполните эти команды *не* имеет для создания **записей**.</span><span class="sxs-lookup"><span data-stu-id="3800b-106">These commands do *not* have to produce a **Recordset**.</span></span> <span data-ttu-id="3800b-107">Для экземпляра «ФИГУРЫ {РАЗМЕЩЕНИЯ ТАБЛИЦУ MyTable} — это команда действителен фигуры, при условии, что поставщик данных поддерживает размещения сообщений в ТАБЛИЦЕ.</span><span class="sxs-lookup"><span data-stu-id="3800b-107">For instance, "SHAPE {DROP TABLE MyTable} is a perfectly valid shape command, assuming the data provider supports DROP TABLE.</span></span>
+<span data-ttu-id="11bcf-104">Любая команда, не начинающаяся с фигуры, передается поставщику данных.</span><span class="sxs-lookup"><span data-stu-id="11bcf-104">Any command that does not begin with SHAPE is passed through to the data provider.</span></span> <span data-ttu-id="11bcf-105">Это эквивалентно выдаче команды фигуры в форме "SHAPE {Provider Command}".</span><span class="sxs-lookup"><span data-stu-id="11bcf-105">This is equivalent to issuing a shape command in the form "SHAPE {provider command}".</span></span> <span data-ttu-id="11bcf-106">Этим командам *не* требуется создавать **набор записей**.</span><span class="sxs-lookup"><span data-stu-id="11bcf-106">These commands do *not* have to produce a **Recordset**.</span></span> <span data-ttu-id="11bcf-107">Например, "SHAPE {DROP TABLE MyTable}" — это вполне действительная команда Shape, предполагая, что поставщик данных поддерживает DROP TABLE.</span><span class="sxs-lookup"><span data-stu-id="11bcf-107">For instance, "SHAPE {DROP TABLE MyTable} is a perfectly valid shape command, assuming the data provider supports DROP TABLE.</span></span>
 
-<span data-ttu-id="3800b-108">Эта возможность позволяет как обычный поставщика команды и фигуры для совместного использования одного подключения и транзакций.</span><span class="sxs-lookup"><span data-stu-id="3800b-108">This capability allows both normal provider commands and shape commands to share the same connection and transaction.</span></span>
+<span data-ttu-id="11bcf-108">Эта возможность позволяет обычным поставщикам команд и командам форм совместно использовать одно и то же подключение и транзакцию.</span><span class="sxs-lookup"><span data-stu-id="11bcf-108">This capability allows both normal provider commands and shape commands to share the same connection and transaction.</span></span>
 

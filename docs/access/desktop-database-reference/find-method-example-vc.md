@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b1e7d18f8068e3ea12d74eca9d208764662765df
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706417"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292365"
 ---
-# <a name="find-method-example-vc"></a><span data-ttu-id="2e7ee-102">Пример использования метода Find (VC++)</span><span class="sxs-lookup"><span data-stu-id="2e7ee-102">Find method example (VC++)</span></span>
+# <a name="find-method-example-vc"></a><span data-ttu-id="88c7c-102">Пример использования метода Find (VC++)</span><span class="sxs-lookup"><span data-stu-id="88c7c-102">Find method example (VC++)</span></span>
 
 
-<span data-ttu-id="2e7ee-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e7ee-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="88c7c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="88c7c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2e7ee-104">В этом примере метод объекта [набора записей](recordset-object-ado.md) [Поиск](find-method-ado.md) для поиска и определения числа business заголовков в базе данных ***Pubs*** .</span><span class="sxs-lookup"><span data-stu-id="2e7ee-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="2e7ee-105">Предполагается, что основной поставщик не поддерживает же возможности.</span><span class="sxs-lookup"><span data-stu-id="2e7ee-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="88c7c-104">В этом примере используется метод [Find](find-method-ado.md) объекта [Recordset](recordset-object-ado.md) для обнаружения и подсчета количества названий бизнес-названий в базе данных ***pubs*** .</span><span class="sxs-lookup"><span data-stu-id="88c7c-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="88c7c-105">В этом примере предполагается, что базовый поставщик не поддерживает аналогичные функции.</span><span class="sxs-lookup"><span data-stu-id="88c7c-105">The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```cpp 
  
@@ -188,7 +188,7 @@ void PrintComError(_com_error &e)
 // EndFindCpp 
 ```
 
-<span data-ttu-id="2e7ee-106">**FindX.h**</span><span class="sxs-lookup"><span data-stu-id="2e7ee-106">**FindX.h**</span></span>
+<span data-ttu-id="88c7c-106">**Финдкс. h**</span><span class="sxs-lookup"><span data-stu-id="88c7c-106">**FindX.h**</span></span>
 
 ```cpp 
  

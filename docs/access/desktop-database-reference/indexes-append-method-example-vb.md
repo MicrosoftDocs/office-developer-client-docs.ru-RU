@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b004f5e952f471ef6c39e4fa40dc9ae6a5a2fce0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291680"
 ---
-# <a name="indexes-append-method-example-vb"></a><span data-ttu-id="fcd21-102">Пример использования метода Append для коллекции Indexes (VB)</span><span class="sxs-lookup"><span data-stu-id="fcd21-102">Indexes Append method example (VB)</span></span>
+# <a name="indexes-append-method-example-vb"></a><span data-ttu-id="b2a77-102">Пример использования метода Append для коллекции Indexes (VB)</span><span class="sxs-lookup"><span data-stu-id="b2a77-102">Indexes Append method example (VB)</span></span>
 
 
-<span data-ttu-id="fcd21-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fcd21-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b2a77-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b2a77-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fcd21-104">Следующий код демонстрирует для создания нового индекса.</span><span class="sxs-lookup"><span data-stu-id="fcd21-104">The following code demonstrates how to create a new index.</span></span> <span data-ttu-id="fcd21-105">Индекс находится на два столбца в таблице.</span><span class="sxs-lookup"><span data-stu-id="fcd21-105">The index is on two columns in the table.</span></span>
+<span data-ttu-id="b2a77-104">В приведенном ниже коде показано, как создать новый индекс.</span><span class="sxs-lookup"><span data-stu-id="b2a77-104">The following code demonstrates how to create a new index.</span></span> <span data-ttu-id="b2a77-105">Индекс находится в двух столбцах таблицы.</span><span class="sxs-lookup"><span data-stu-id="b2a77-105">The index is on two columns in the table.</span></span>
 
 ```vb 
  
