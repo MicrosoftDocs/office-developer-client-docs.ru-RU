@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c11717c5-eb0e-e4fa-5a91-c62ecc048635
 description: Определяет горизонтальные промежуточные деления линейки для страницы.
-ms.openlocfilehash: 633b2e54ca77216fd20ead00f047283c54f8164d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: f459e5d1d19580201f1404ac2d1ae53c824293f8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331852"
 ---
 # <a name="xrulerdensity-cell-ruler-amp-grid-section"></a>Ячейка XRulerDensity (раздел "Линейка и сетка")
 
 Определяет горизонтальные промежуточные деления линейки для страницы.
   
-|**Значение**|**Описание**|**Константа автоматизации**|
+|**Value**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-|0  <br/> |Фиксация  <br/> |**visRulerFixed** <br/> |
+|нуль  <br/> |Фиксация  <br/> |**visRulerFixed** <br/> |
 |8 (&amp;H8)  <br/> |С большими интервалами  <br/> |**visRulerCoarse** <br/> |
 |16 (&amp;H10)  <br/> |С обычными интервалами (по умолчанию)  <br/> |**visRulerNormal** <br/> |
 |32 (&amp;H20)  <br/> |С небольшими интервалами  <br/> |**visRulerFine** <br/> |

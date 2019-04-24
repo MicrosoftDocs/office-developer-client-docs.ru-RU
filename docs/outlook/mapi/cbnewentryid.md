@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 69cb8e0b-4da0-46ef-b1c0-df5e3a791b08
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4397315ef5ebc8009805f911f7d7b549a698b955
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 11f078c0e2071e6f58a85dbe627b2ced676bacb9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574456"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329507"
 ---
 # <a name="cbnewentryid"></a>CbNewENTRYID
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов, должен быть размещен для новой структуры [ENTRYID](entryid.md) указанного размера. 
+Вычисляет количество байтов, которое должно быть выделено для новой структуры [EntryID](entryid.md) указанного размера. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**ENTRYID** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**КОД** <br/> |
    
 ```cpp
 CbNewENTRYID (_cb)
@@ -38,15 +38,15 @@ CbNewENTRYID (_cb)
 
 ## <a name="parameters"></a>Параметры
 
- __Сертификация_
+ __CB_
   
-> Число байт в идентификатор записи будут сохраняться в новой структуры **ENTRYID** . 
+> Количество байтов в идентификаторе записи, которые будут храниться в новой структуре **EntryID** . 
     
 ## <a name="see-also"></a>См. также
 
 
 
-[ENTRYID](entryid.md)
+[КОД](entryid.md)
 
 
 [Макросы, связанные со структурами](macros-related-to-structures.md)

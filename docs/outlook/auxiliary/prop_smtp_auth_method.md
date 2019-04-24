@@ -6,36 +6,36 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 4202cafc-9011-406d-90b3-8dabf531c90b
-description: Указывает метод проверки подлинности для учетной записи SMTP.
-ms.openlocfilehash: 0c52f1eeca8f7ac3e63cccf712dd672c2247be6a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Задает способ проверки подлинности, используемый для учетной записи SMTP.
+ms.openlocfilehash: bb5adeb1fe73ed8b7ab69ca584215b44e1a9e4b7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326504"
 ---
 # <a name="propsmtpauthmethod"></a>PROP_SMTP_AUTH_METHOD
 
-Указывает метод проверки подлинности для учетной записи SMTP.
+Задает способ проверки подлинности, используемый для учетной записи SMTP.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0208  <br/> |
-|Тип свойства:  <br/> |PT_DWORD  <br/> |
-|Свойство tag:  <br/> |0x02080003  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Тип свойства:  <br/> |ПТ_ДВОРД  <br/> |
+|Тег свойства:  <br/> |0x02080003  <br/> |
+|Обращения  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Значение является битовой маской из следующих констант. В разделе [константы (Управление учетными записями API)](constants-account-management-api.md) их значения. 
+Значение представляет собой битовую маску для следующих констант. В этом разделе приведены [константы (API управления учетНыми записями)](constants-account-management-api.md) для их значений. 
   
-- **SMTP_AUTH_SAME_AS_POP** означает, что использование один набор учетных данных в качестве сервера входящих сообщений, предоставляемый [PROP_INET_USER](prop_inet_user.md) и [PROP_INET_PASSWORD](prop_inet_password.md).
+- **Смтп_аус_саме_ас_поп** означает использование тех же учетных данных, что и мой сервер входящей почты, что предоставляется [проп_инет_усер](prop_inet_user.md) и [проп_инет_пассворд](prop_inet_password.md).
     
-- **SMTP_AUTH_USER_PASS** означает, что с помощью учетных данных, как автор [PROP_SMTP_USER](prop_smtp_user.md) и [PROP_SMTP_PASSWORD](prop_smtp_password.md).
+- **Смтп_аус_усер_пасс** означает использование учетных данных, предоставляемых [проп_смтп_усер](prop_smtp_user.md) и [проп_смтп_пассворд](prop_smtp_password.md).
     
-- **SMTP_AUTH_RECEIVE_BEFORE_SEND** означает, что разрешения на запрос пользователя для входа на сервер входящей почты перед отправкой. 
+- **Смтп_аус_рецеиве_бефоре_сенд** означает, что пользователь должен войти на сервер входящей почты, прежде чем отправлять почту. 
     
 ## <a name="see-also"></a>См. также
 

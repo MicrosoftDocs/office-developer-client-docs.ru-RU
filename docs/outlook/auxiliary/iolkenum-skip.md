@@ -1,26 +1,26 @@
 ---
-title: IOlkEnumSkip
+title: Иолкенумскип
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e83e409c-f201-df9d-5e30-879adf15318d
-description: Пропускает указанное число учетных записей в перечислитель.
-ms.openlocfilehash: 2791f1204cedf5e91d13923e50dfc45b981b7e26
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: ПроПускает указанное число учетных записей в перечислителе.
+ms.openlocfilehash: d4063b0ff4852e6932cf50789eea3caa81d4d586
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807863"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321989"
 ---
 # <a name="iolkenumskip"></a>IOlkEnum::Skip
 
-Пропускает указанное число учетных записей в перечислитель.
+ПроПускает указанное число учетных записей в перечислителе.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkEnum](iolkenum.md).
+Обратитесь к разделу [иолкенум](iolkenum.md).
   
 ```cpp
 HRESULT IOlkEnum::Skip(  
@@ -30,9 +30,9 @@ HRESULT IOlkEnum::Skip(
 
 ## <a name="parameters"></a>Параметры
 
-_cSkip_
+_Кскип_
   
-> [in] Число учетных записей был пропущен.
+> возврата Количество пропущенных учетных записей.
     
 ## <a name="return-values"></a>Возвращаемые значения
 

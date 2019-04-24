@@ -13,52 +13,52 @@ api_type:
 ms.assetid: 0a799fe5-04e2-4e1d-b0cd-9bdd2577d299
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 723affa054cb35a9cc7a2ee28e051e3b9a6d04e0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25401666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329402"
 ---
 # <a name="pidtagmessagesubmissionid-canonical-property"></a>Каноническое свойство PidTagMessageSubmissionId
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор система передачи сообщений для передачи сообщений (агента).
+Содержит идентификатор системы передачи сообщений (MTS) для агента передачи сообщений (MTA).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_MESSAGE_SUBMISSION_ID  <br/> |
+|Связанные свойства:  <br/> |ПР_МЕССАЖЕ_СУБМИССИОН_ИД  <br/> |
 |Идентификатор:  <br/> |0x0047  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Электронная почта  <br/> |
+|Область:  <br/> |Email  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Данное свойство возвращает агента передачи сообщений при успешном выполнении отправки сообщений. Дальнейших контактов с помощью агента передачи сообщений о сообщении, например запрашивающая отмены используется идентификатор MTS в этом свойстве.
+Это свойство возвращается MTA после успешного завершения отправки сообщения. Любой будущий контакт с этим сообщением, например запрос отмены, использует идентификатор MTS в этом свойстве.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS — ОКСТНЕФ]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Кодирует и декодирует объекты сообщения и вложения в представление эффективным потока.
+> Кодирует и декодирует объекты сообщений и вложений в эффективное потоковое представление.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

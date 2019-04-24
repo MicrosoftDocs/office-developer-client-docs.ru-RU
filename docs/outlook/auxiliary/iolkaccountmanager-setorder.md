@@ -1,22 +1,22 @@
 ---
-title: IOlkAccountManagerSetOrder
+title: Иолкаккаунтманажерсетордер
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e219adf6-e591-72e6-b9bd-2fc62eb5142d
-description: Изменяет порядок использования учетных записей в указанной категории.
-ms.openlocfilehash: fcb27404471c9b551320027b0ed6979926ad3d58
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Изменяет порядок указанной категории учетных записей.
+ms.openlocfilehash: 29dfe4fd1bda9e323481297167361650c3b3a173
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322045"
 ---
 # <a name="iolkaccountmanagersetorder"></a>IOlkAccountManager::SetOrder
 
-Изменяет порядок использования учетных записей в указанной категории.
+Изменяет порядок указанной категории учетных записей.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -31,36 +31,36 @@ HRESULT SetOrder(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
-_pclsidCategory_
+_Пклсидкатегори_
   
-> [in] КОД класса категории, для которого необходимо задать порядок. The value must be one of the following:
+> возврата Идентификатор класса категории, для которого требуется задать порядок. Поддерживаются такие значения:
     
-   - CLSID_OlkAddressBook
+   - Клсид_олкаддрессбук
     
-   - CLSID_OlkStore
+   - Клсид_олксторе
     
-_cAccts_
+_Какктс_
   
-> [in] Число учетных записей.
+> возврата Число учетных записей.
     
-_rgAccts_
+_Ргакктс_
   
-> [in] Массив идентификаторов учетной записи. Размер массива — _cAccts_.
+> возврата Массив идентификаторов учетных записей. Размер массива — _какктс_.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
-|E_ACCT_WRONG_SORT_ORDER  <br/> |Порядок сортировки имеет ряд различных учетных записей более старые порядок сортировки.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
+|Е_АККТ_ВРОНГ_СОРТ_ОРДЕР  <br/> |Для нового порядка сортировки используется разное число учетных записей, чем у старого порядка сортировки.  <br/> |
 |E_INVALIDARG  <br/> |Один или несколько аргументов являются недопустимыми.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
+|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
    
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Замечания
 
-Звонящий выделение памяти для массива указатель _prgAccts_ , а также для массива, на который указывает _prgAccts_ . 
+Вызывающий абонент выделяет память для указателя массива _пргакктс_ , а также для массива, в котором точки _пргакктс_ . 
   
 ## <a name="see-also"></a>См. также
 

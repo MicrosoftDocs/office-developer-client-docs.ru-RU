@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ffe48267-d6c7-c1d0-9298-272b31fd8102
 description: Возвращает или задает отображаемое имя пользователя.
-ms.openlocfilehash: 8224ad6589d94a52d1a792bedadc7aa1c8bd913a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 2fb42a6f6ae9a72bc31c103af6314fcfd098439c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807935"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328247"
 ---
 # <a name="propacctuserdisplayname"></a>PROP_ACCT_USER_DISPLAY_NAME
 
@@ -20,18 +20,18 @@ ms.locfileid: "19807935"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkAccount](iolkaccount.md).
+Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x000B  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE  <br/> |
-|Свойство tag:  <br/> |0x000B001F  <br/> |
-|Access:  <br/> |Чтение и запись  <br/> |
+|Тег свойства:  <br/> |0x000B001F  <br/> |
+|Обращения  <br/> |Чтение и запись  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Получение или задание этого свойства с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md) или [IOlkAccount::SetProp](iolkaccount-setprop.md)соответственно.
+Получите или задайте значение этого свойства с помощью [иолкаккаунт::](iolkaccount-getprop.md) GetProperty или [Иолкаккаунт:: сетпроп](iolkaccount-setprop.md), соответственно.
   
 ## <a name="see-also"></a>См. также
 

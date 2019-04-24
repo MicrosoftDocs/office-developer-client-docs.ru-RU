@@ -1,5 +1,5 @@
 ---
-title: CellDef_Type complexType ('Visio XML»)
+title: Целлдеф_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 87ea346d-1786-dc87-073d-8e7459b7fef1
 ms.openlocfilehash: bdcfadc36f278fc97b8589b2989d214e5f4b3333
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399986"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327127"
 ---
-# <a name="celldeftype-complextype-visio-xml"></a>CellDef_Type complexType ('Visio XML»)
+# <a name="celldeftype-complextype-visio-xml"></a>Целлдеф_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -60,10 +60,10 @@ ms.locfileid: "25399986"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|F  <br/> |XSD:String  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
-|IX  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
-|N  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
-|s  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
-|T  <br/> |XSD:Token  <br/> |Обязательный  <br/> ||Значения типа xsd:token.  <br/> |
+|F  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|IX  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
+|N  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|S  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
+|Д  <br/> |XSD: маркер  <br/> |Обязательный  <br/> ||Значения типа маркера XSD:.  <br/> |
    
 

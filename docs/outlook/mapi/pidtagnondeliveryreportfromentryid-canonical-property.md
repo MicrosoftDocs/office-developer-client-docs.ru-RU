@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: 38cbf1bf-ac7c-4459-af3e-919b77818b25
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8f6e6023da7d44ed8650dc85985efe17de31d8f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f7af68ab8d243e665eb551aa18dcbafda04d8663
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578684"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329346"
 ---
 # <a name="pidtagnondeliveryreportfromentryid-canonical-property"></a>Каноническое свойство PidTagNonDeliveryReportFromEntryId
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Если значение на отчет о недоставке, обозначает идентификатор записи неудачных отправки-под учетной записью пользователя.
+Если этот параметр установлен в отчете о недоставке, указывает идентификатор элемента, который не удалось отправить от имени пользователя.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_NDR_FROM_ENTRYID  <br/> |
+|Связанные свойства:  <br/> |ПР_НДР_ФРОМ_ЕНТРИД  <br/> |
 |Идентификатор:  <br/> |0x6904  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

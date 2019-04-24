@@ -1,5 +1,5 @@
 ---
-title: Ячейка EndArrowSize (раздел "Формат линий")
+title: EndArrowSize Cell (Line Format Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,44 +8,44 @@ f1_keywords:
 - Vis_DSS.chm82251630
 localization_priority: Normal
 ms.assetid: e2ecf7c0-a0e9-951f-676a-8e5857bb6544
-description: Определяет размер стрелки в конце строки.
-ms.openlocfilehash: e03871c75857297634300c2eee091de2d0144903
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет размер наконечника в конце строки.
+ms.openlocfilehash: 768a2b2adb05248049377eaee07194cdb89ed810
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328997"
 ---
-# <a name="endarrowsize-cell-line-format-section"></a>Ячейка EndArrowSize (раздел "Формат линий")
+# <a name="endarrowsize-cell-line-format-section"></a>EndArrowSize Cell (Line Format Section)
 
-Определяет размер стрелки в конце строки.
+Определяет размер наконечника в конце строки.
   
 |**Значение**|**Size**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-|0  <br/> |Очень маленькие  <br/> |**visArrowSizeVerySmall** <br/> |
-|1  <br/> |Малый  <br/> |**visArrowSizeSmall** <br/> |
-|2  <br/> |Средний  <br/> |**visArrowSizeMedium** <br/> |
-|3  <br/> |Большая  <br/> |**visArrowSizeLarge** <br/> |
-|4  <br/> |Очень большой  <br/> |**visArrowSizeVeryLarge** <br/> |
-|5  <br/> |Большие  <br/> |**visArrowSizeJumbo** <br/> |
-|6  <br/> |Колоссальных  <br/> |**visArrowSizeColossal** <br/> |
+|нуль  <br/> |Очень маленький  <br/> |**Висарровсизеверисмалл** <br/> |
+|1,1  <br/> |НАИМЕНЬШИЙ  <br/> |**Висарровсизесмалл** <br/> |
+|2  <br/> |Средние  <br/> |**Висарровсиземедиум** <br/> |
+|4  <br/> |НАИБОЛЬШИЙ  <br/> |**Висарровсизеларже** <br/> |
+|SP4  <br/> |Сверхбольшой  <br/> |**Висарровсизевериларже** <br/> |
+|17:00  <br/> |Круп  <br/> |**Висарровсизежумбо** <br/> |
+|ICMPv6  <br/> |Колоссал  <br/> |**Висарровсизеколоссал** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Также можно задать это значение в поле **строка** (на вкладке **Главная** в группе **фигуру** щелкните **строку**, выберите пункт **стрелки**и нажмите кнопку **Дополнительно стрелки**).
+Вы также можете задать это значение в диалоговом окне **строка** (на вкладке **Главная** , в группе Группа **** , затем последовательно выберите пункты **линия**и **стрелки**и **Другие стрелки**).
   
-Чтобы получить ссылку на ячейку EndArrowSize по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку EndArrowSize по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |EndArrowSize  <br/> |
+|Имя ячейки:  <br/> |EndArrowSize  <br/> |
    
-Для получения ссылки на ячейки EndArrowSize по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку EndArrowSize по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowLine** <br/> |
-|Индекс ячейки:  <br/> |**visLineEndArrowSize** <br/> |
+|Индекс строки:  <br/> |**Висровлине** <br/> |
+|Индекс ячейки:  <br/> |**Вислининдарровсизе** <br/> |
    
 

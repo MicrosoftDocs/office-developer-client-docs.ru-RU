@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2de5c77c-3fac-cfb6-3719-68df4013cf11
-description: Отчеты о выполнении для повторного размещения en встреч.
+description: Создает отчет о завершении для ребазового использования встреч.
 ms.openlocfilehash: 9fab0d06bf0b9856b9a968f5c0db1bb15b0fe0bd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388919"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328324"
 ---
 # <a name="rebasetaskcomplete"></a>RebaseTaskComplete
 
-Отчеты о выполнении для повторного размещения en встреч.
+Создает отчет о завершении для ребазового использования встреч.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |tzmovelib.h  <br/> |
+|Файл заголовка:  <br/> |тзмовелиб. h  <br/> |
 |Реализовано в:  <br/> |Клиентские приложения MAPI  <br/> |
-|Вызывающая сторона:  <br/> |Объект сдвига Outlook  <br/> |
-|Тип указателя:  <br/> |**PFNREBASETASKCOMPLETE** , определенных в tzmovelib.h  <br/> |
+|Вызывающая сторона:  <br/> |Объект перебазового объекта Outlook  <br/> |
+|Тип указателя:  <br/> |**Пфнребасетасккомплете** в соответствии с определением в тзмовелиб. h  <br/> |
    
 ```cpp
 void STDAPICALLTYPE RebaseTaskComplete(  
@@ -40,37 +40,37 @@ void STDAPICALLTYPE RebaseTaskComplete(
 
 ## <a name="parameters"></a>Параметры
 
-_ulRowIndex_
+_Улровиндекс_
   
-> [in] Строку, в которой было обработано. В этом индекс относится к **[SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx)** структуры, переданной в [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
+> возврата Строка, которая была обработана. Этот индекс ссылается на структуру **[SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx)** , переданную в [Иолкапптребасер:: бегинребасеаппоинтментс](iolkapptrebaser-beginrebaseappointments.md).
     
-_pRowCur_
+_Провкур_
   
-> входной параметр] указатель на структуру **[SRow](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** , описывающий элемент, который был обработан. 
+> in] указатель на структуру **[сров](https://msdn.microsoft.com/library/369c2d5c-8c2b-4314-9cb2-aaa89580aa2b%28Office.15%29.aspx)** , описывающий обработанный элемент. 
     
-_hrResult_
+_Хрресулт_
   
-> [in] Значение **HRESULT** , указывающее, результат операции сдвига. 
+> возврата **Значение HRESULT** , указывающее результат операции перезаписи. 
     
-_fModified_
+_Фмодифиед_
   
-> [in] Указывает, будет ли изменения элемента.
+> возврата Указывает, был ли изменен элемент.
     
-_fSentUpdate_
+_Фсентупдате_
   
-> [in] Указывает, было отправлено ли сообщение об обновлении собрания. 
+> возврата Указывает, было ли отправлено сообщение обновления собрания. 
     
-_pError_
+_Перрор_
   
-> [in] Указатель на структуру **MAPIERROR** с расширенные сведения об ошибке. 
+> возврата Указатель на структуру **мапиеррор** с расширенными сведениями об ошибке. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Комментарии
 
-Клиентские приложения MAPI, использующие интерфейс [IOlkApptRebaser](iolkapptrebaser.md) реализовать эту функцию, чтобы отслеживать выполнение обновления элементов. 
+Клиентские приложения MAPI, использующие интерфейс [иолкапптребасер](iolkapptrebaser.md) , реализуют эту функцию для отслеживания завершения обновления элемента. 
   
 ## <a name="see-also"></a>См. также
 

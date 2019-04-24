@@ -8,20 +8,20 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c3d0f6c4-4597-784f-8d44-6e5d905895b4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 6b57ed45e067ce2debd40e033d386ad2b5ae895a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2280ae9271ca73af33f395bf9e41a9ee8fa62f96
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568520"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327526"
 ---
 # <a name="followupstatus"></a>FollowUpStatus
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает различные состояния обработки результатов для сообщения.
+Задает различные статусы дальнейших действий для сообщения.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -34,23 +34,23 @@ enum FollowUpStatus {
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>Элементы
 
- _flwupNone_
+ _Флвупноне_
   
-> Нет исполнения не указана.
+> Дальнейшие действия не указаны.
     
- _flwupComplete_
+ _Флвупкомплете_
   
-> Сообщение будет завершена.
+> Сообщение завершено.
     
- _flwupMarked_
+ _Флвупмаркед_
   
-> Сообщение помечено для исполнения.
+> Сообщение помечено для дальнейших действий.
     
- _flwupMAX_
+ _Флвупмакс_
   
-> Количество различных статусов, поддерживаемые для исполнения.
+> Количество различных состояний, поддерживаемых для дальнейших действий.
     
 ## <a name="see-also"></a>См. также
 

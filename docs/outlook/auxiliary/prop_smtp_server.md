@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: a395ca32-c315-4cd2-b93c-43c74fa017ba
-description: Представляет имя сервера SMTP учетной записи.
-ms.openlocfilehash: 675538c4a9b14f1a7ef9754992b52162d727506d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Представляет имя сервера учетной записи SMTP.
+ms.openlocfilehash: d93582d0be02155632f63be256401afc959f13fe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807954"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328345"
 ---
 # <a name="propsmtpserver"></a>PROP_SMTP_SERVER
 
-Представляет имя сервера SMTP учетной записи.
+Представляет имя сервера учетной записи SMTP.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -24,8 +24,8 @@ ms.locfileid: "19807954"
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0200  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE  <br/> |
-|Свойство tag:  <br/> |0x0200001F  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Тег свойства:  <br/> |0x0200001F  <br/> |
+|Обращения  <br/> |Только для чтения  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -7,31 +7,31 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 8cb8f916-f061-4c4c-ad1b-40d44af3345a
-description: OSC вызывает метод ISocialProvider::GetCapabilities, чтобы определить возможности поставщика OSC для социальных сетей.
-ms.openlocfilehash: 82bb5322118fa3ebd7610f56b8f34ae95b59a40f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'OSC вызывает метод ИсоЦиалпровидер:: Capabilities для определения возможностей поставщика OSC для социальной сети.'
+ms.openlocfilehash: 9d504fb64368a6910feaa38f0ef19ed631b4d4e3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327190"
 ---
 # <a name="getting-activities"></a>Получение действий
 
-OSC вызывает метод [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) , чтобы определить возможности поставщика OSC для социальных сетей. Если элементы **getActivities** и **dynamicActivitiesLookupEx** в возвращенные **возможности** XML показывают, что поставщика OSC поддерживает получение мероприятий по запросу и хранение действий в памяти, можно сделать следующие OSC последовательность вызовов. OSC также заметки о хэш-функции, заданная в элементе **hashFunction** в **возможности** XML. В следующей последовательности для получения информации и действия (как поддерживаемый интерфейс [ISocialPerson](isocialpersoniunknown.md) ) друзья и не-в социальных сетях OSC вызывает методы: 
+OSC вызывает метод [исоЦиалпровидер:: Capabilities](isocialprovider-getcapabilities.md) для определения возможностей поставщика OSC для социальной сети. Если элементы **** **динамикактивитиеслукупекс и** в возвращенном XML-коде **возможности** указывают, что поставщик OSC поддерживает получать действия по запросу и сохранять действия в памяти, OSC может сделать следующее последовательность вызовов. OSC также задает хэш-функцию, указанную в элементе **хашфунктион** в XML-коде **возможностей** . OSC вызывает методы в следующей последовательности для получения действий и сведений (которые поддерживаются интерфейсом [исоЦиалперсон](isocialpersoniunknown.md) ) для друзей и не друзей в социальной сети: 
   
-1. [ISocialSession::GetLoggedOnUser](isocialsession-getloggedonuser.md) — в конце процесса проверки подлинности OSC вызывает **GetLoggedOnUser** для получения интерфейса [ISocialProfile](isocialprofileisocialperson.md) для прохождения проверки подлинности пользователя. Дополнительные сведения о проверке подлинности можно [Обычная проверка подлинности](basic-authentication.md) и [проверки подлинности на основе форм](forms-based-authentication.md).
+1. [Настроенный ISocialSession:: жетлогжедонусер](isocialsession-getloggedonuser.md) — в конце процесса проверки подлинности OSC вызывает **жетлогжедонусер** , чтобы получить интерфейс [исоЦиалпрофиле](isocialprofileisocialperson.md) для пользователя, прошедшего проверку подлинности. Дополнительные сведения о проверке подлинности можно найти в статье [Обычная проверка](basic-authentication.md) подлинности и проверка поДлинности [на основе форм](forms-based-authentication.md).
     
-2. [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) — для лиц, отображаемые в области пользователей Outlook, получает OSC и хэш-значений их SMTP решает, вызывает **ISocialSession2::GetActivitiesEx**и сохраняет (в памяти) данные действия возвращаются для Эти лица. Получает OSC в выходной параметр _действий_, который является строка, содержащая набор операций для друзей пользователя, вошедшего в систему. Эта строка соответствует определение схемы для элемента **activityFeed** . 
+2. [ISocialSession2:: жетактивитиесекс](isocialsession2-getactivitiesex.md) — для пользователей, отображаемых в области пользователей Outlook, OSC получает и ХЭШИРУЕТ их SMTP-адреса, вызывает **ISocialSession2:: жетактивитиесекс**и сохраняет (в памяти) данные действий, возвращаемые для Эти лица. OSC получает параметр Output ( _действия_), представляющий собой строку, содержащую коллекцию действий для друзей пользователя, выполнившего вход в систему. Эта строка соответствует определению схемы для элемента **activityFeed** . 
     
-3. [ISocialSession::GetPerson](isocialsession-getperson.md) — для каждого элемента **activityDetails** в **activityFeed** XML, возвращенные **GetActivitiesEx**, существует элемент в **ownerID** , указывающее пользователя, выполняющего действия. OSC использует это значение **ownerID** для вызова **GetPerson** для получения интерфейс **ISocialPerson** этого контакта. 
+3. [Настроенный ISocialSession::-Person](isocialsession-getperson.md) — для каждого элемента **activityDetails** в XML-файле **activityFeed** , возвращаемом методом **жетактивитиесекс**, существует элемент **овнерид** , указывающий человека, который владеет действием. OSC использует это значение **овнерид** для вызова функции **Person** , чтобы получить интерфейс **исоЦиалперсон** для этого пользователя. 
     
-4. [ISocialPerson::GetDetails](isocialperson-getdetails.md) — на основе **ISocialPerson** объекта получить на шаге 3, OSC вызывает **GetDetails** для получения сведений об этом контакте, например, имя и Фамилия. OSC можно сделать это для каждого действия, указанная в элемент **activityDetails** в **activityFeed** XML, возвращенные **GetActivitiesEx** на шаге 2. 
+4. [ИсоЦиалперсон::](isocialperson-getdetails.md) -Details на основе объекта **исоЦиалперсон** , полученного из шага 3, OSC вызывает **** метод Details для получения сведений о лице, таких как имя и фамилия. OSC может выполнять те же действия для каждого действия, указанного в элементе **activityDetails** в XML **activityFeed** , возвращаемом **жетактивитиесекс** на шаге 2. 
     
 > [!NOTE]
-> OSC обновляется кэш действий с интервалом по умолчанию. Дополнительные сведения об обновлении кэша действий можно [Синхронизация друзей и действия](synchronizing-friends-and-activities.md). 
+> OSC обновляет кэш действий с интервалом по умолчанию. Дополнительные сведения об обновлении кэша действий приведены в статье [Синхронизация друзей и действий](synchronizing-friends-and-activities.md). 
   
 ## <a name="see-also"></a>См. также
 
-- [XML-код для возможности](xml-for-capabilities.md)
-- [Типичные последовательности вызовов OSC](osc-typical-calling-sequences.md)
+- [XML для возможностей](xml-for-capabilities.md)
+- [ПереOSC типичные последовательности вызовов](osc-typical-calling-sequences.md)
 

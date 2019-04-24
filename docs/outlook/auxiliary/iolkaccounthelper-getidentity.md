@@ -1,5 +1,5 @@
 ---
-title: IOlkAccountHelperGetIdentity
+title: Иолкаккаунселпержетидентити
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ea8b8f02-959f-cd71-9cfe-5ebdf4bae2bc
 description: Получает имя профиля учетной записи.
 ms.openlocfilehash: d725f309a29b026395e2795a49d31b45a4a49562
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322108"
 ---
 # <a name="iolkaccounthelpergetidentity"></a>IOlkAccountHelper::GetIdentity
 
@@ -20,7 +20,7 @@ ms.locfileid: "25400140"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkAccountHelper](iolkaccounthelper.md).
+Обратитесь к разделу [иолкаккаунселпер](iolkaccounthelper.md).
   
 ```cpp
 HRESULT IOlkAccountHelper::GetIdentity (  
@@ -31,25 +31,25 @@ HRESULT IOlkAccountHelper::GetIdentity (
 
 ## <a name="parameters"></a>Параметры
 
-_pwszIdentity_
+_Пвсзидентити_
   
-> [in] [out] Имя профиля.
+> возврата вышли Имя профиля.
     
-_pcch_
+_пкч_
   
-> [in] [out] При вызове этого метода, содержит размер (в символах) _pwszIdentity_ , которая была распределена. При возврате содержит длину, включая символ, заканчивающийся 0, от имени возвращенные профилей. 
+> возврата вышли При вызове этого метода содержит размер (в знаках) выделенного _пвсзидентити_ . После возврата содержит фактическую длину имени возвращаемого профиля, включая 0 — завершающий символ. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
-|E_OUTOFMEMORY  <br/> |Имя возвращаемых профиля превышает размер _pwszIdentity_.  <br/> |
-|E_INVALIDARG  <br/> | _pcch_ имеет значение NULL.  <br/> |
+|E_OUTOFMEMORY  <br/> |Имя возвращаемого профиля превышает размер _пвсзидентити_.  <br/> |
+|E_INVALIDARG  <br/> | _пкч_ имеет значение null.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Если _pwszIdentity_ слишком мал для хранения имени профиля, не будет установлен при возвращении и _pcch_ будет указывать размера для _pwszIdentity_.
+Если _пвсзидентити_ слишком мал для хранения имени профиля, он не будет установлен для возврата, а _пкч_ будет указывать на размер, необходимый для _пвсзидентити_.
   
 ## <a name="see-also"></a>См. также
 

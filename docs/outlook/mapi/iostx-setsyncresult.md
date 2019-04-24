@@ -1,5 +1,5 @@
 ---
-title: IOSTXSetSyncResult
+title: Иосткссетсинкресулт
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 7f083ee0-bf36-0059-1589-66e454fe0098
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: f8982bafc0678378ae46dc31a9417cc11bb695a7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 78ccf72f17ec350d77f2d22d0e6d2fa7c3d97543
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563074"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332146"
 ---
 # <a name="iostxsetsyncresult"></a>IOSTX::SetSyncResult
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563074"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает в результате синхронизации.
+Задает результат синхронизации.
   
 ```cpp
 HRESULT SetSyncResult( 
@@ -35,13 +35,13 @@ HRESULT SetSyncResult(
 
 ## <a name="parameters"></a>Параметры
 
- _hrSync_
+ _Хрсинк_
   
->  [in] В результате синхронизации. 
+>  возврата Результат синхронизации. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Вызовите **IOSTX::SetSyncResult** перед вызовом **IOSTX::SyncEnd** для оповещения локального хранилища в результате синхронизации. 
+Call **иосткс:: сетсинкресулт** перед вызовом **Иосткс:: синценд** для информирования локального хранилища о результатах синхронизации. 
   
 ## <a name="see-also"></a>См. также
 

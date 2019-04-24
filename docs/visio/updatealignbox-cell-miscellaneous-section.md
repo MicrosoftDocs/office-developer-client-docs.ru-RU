@@ -1,5 +1,5 @@
 ---
-title: Ячейка UpdateAlignBox (раздел "Прочее")
+title: UpdateAlignBox Cell (Miscellaneous Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,32 +8,32 @@ f1_keywords:
 - Vis_DSS.chm1085
 localization_priority: Normal
 ms.assetid: 3e3f8dc9-203f-447d-9674-eb0be2d557d1
-description: Пересчитывает рамку при перемещении управляющего маркера.
-ms.openlocfilehash: 837c25a2d4993f91a16cc4e292f34a94b00040c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Пересчитывает прямоугольник выделения при перемещении управляющего маркера.
+ms.openlocfilehash: 3b9d46b48002b6b3b1729df014fb0627a9c7f152
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327337"
 ---
-# <a name="updatealignbox-cell-miscellaneous-section"></a>Ячейка UpdateAlignBox (раздел "Прочее")
+# <a name="updatealignbox-cell-miscellaneous-section"></a>UpdateAlignBox Cell (Miscellaneous Section)
 
-Пересчитывает рамку при перемещении управляющего маркера.
+Пересчитывает прямоугольник выделения при перемещении управляющего маркера.
   
 ## <a name="remarks"></a>Замечания
 
-Чтобы получить ссылку на ячейку UpdateAlignBox по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку UpdateAlignBox по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | UpdateAlignBox  <br/> |
+| Имя ячейки:  <br/> | UpdateAlignBox  <br/> |
    
-Для получения ссылки на ячейки UpdateAlignBox по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку UpdateAlignBox по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowMisc** <br/> |
-| Индекс ячейки:  <br/> |**visUpdateAlignBox** <br/> |
+| Индекс строки:  <br/> |**Висровмиск** <br/> |
+| Индекс ячейки:  <br/> |**Висупдатеалигнбокс** <br/> |
    
 

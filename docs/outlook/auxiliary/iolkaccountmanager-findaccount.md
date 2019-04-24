@@ -1,22 +1,22 @@
 ---
-title: IOlkAccountManagerFindAccount
+title: Иолкаккаунтманажерфиндаккаунт
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 31004aec-7bd2-6e12-83eb-1a32da121c54
-description: Поиск учетной записи по значению свойства.
-ms.openlocfilehash: a7d016ab7e265e547b33940c16f96979bd5fa87a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Находит учетную запись по значению свойства.
+ms.openlocfilehash: d09bce88413f85ee3ccc332c3cb88bb545a0ccaf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807846"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322080"
 ---
 # <a name="iolkaccountmanagerfindaccount"></a>IOlkAccountManager::FindAccount
 
-Поиск учетной записи по значению свойства.
+Находит учетную запись по значению свойства.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -30,28 +30,28 @@ HRESULT IOlkAccountManager::FindAccount (
 );
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
-_dwProp_
+_Двпроп_
   
-> [in] Свойство для поиска. Должно быть [PROP_ACCT_ID](prop_acct_id.md) или [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
+> возврата Свойство, по которому необходимо выполнить поиск. Должен быть [проп_аккт_ид](prop_acct_id.md) или [проп_аккт_ис_ексч](prop_acct_is_exch.md).
     
-_pVar_
+_ПВАР_
   
-> [in] Значение в соответствии с.
+> возврата Значение для сравнения.
     
-_ppAccount_
+_Ппаккаунт_
   
-> [out] Учетная запись найдена. Этот объект поддерживает интерфейс [IOlkAccount](iolkaccount.md) . 
+> вышли Учетная запись найдена. Этот объект поддерживает интерфейс [иолкаккаунт](iolkaccount.md) . 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Не удается найти указанную учетную запись.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
-|E_OLK_PARAM_NOT_SUPPORTED  <br/> |Один или несколько параметров являются недопустимыми.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
+|Е_АККТ_НОТ_ФАУНД  <br/> |Не удается найти указанную учетную запись.  <br/> |
+|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
+|Е_ОЛК_ПАРАМ_НОТ_СУППОРТЕД  <br/> |Один или несколько параметров являются недопустимыми.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

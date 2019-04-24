@@ -1,5 +1,5 @@
 ---
-title: IMAPITableAbort
+title: Имапитаблеаборт
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 73291a5b-b626-494c-b5d9-f7709e34bac2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 68d40a6e152698554fcb88c6f7e5bfd4a7ff0ce3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74c307fca27f1adec18d236792f8a58d97e33ec5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574008"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328954"
 ---
 # <a name="imapitableabort"></a>IMAPITable::Abort
 
@@ -25,7 +25,7 @@ ms.locfileid: "22574008"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Останавливает асинхронной операции в данный момент для таблицы.
+Завершает выполнение всех асинхронных операций, выполняемых в данный момент для таблицы.
   
 ```cpp
 HRESULT Abort( void );
@@ -33,29 +33,29 @@ HRESULT Abort( void );
 
 ## <a name="parameters"></a>Параметры
 
-None
+Нет
   
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Один или несколько асинхронной операции остановлены.
+> Была остановлена одна или несколько асинхронных операций.
     
-MAPI_E_UNABLE_TO_ABORT 
+МАПИ_Е_УНАБЛЕ_ТО_АБОРТ 
   
-> Асинхронной операции находится в стадии разработки и не может быть остановлена или уже выполнена.
+> Асинхронная операция выполняется и не может быть остановлена или уже завершена.
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Метод **IMAPITable::Abort** останавливает асинхронной операции, который в данный момент находится в стадии разработки. 
+Метод **IMAPITable:: Abort** прерывает все выполняемые в данный момент асинхронные операции. 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Чтобы проверить, является ли в процессе выполнения асинхронной операции, вызовите метод [IMAPITable::GetStatus](imapitable-getstatus.md) . 
+Чтобы узнать, выполняется ли асинхронная операция, вызовите метод [IMAPITable::-Status](imapitable-getstatus.md) . 
   
-Если **Прервать** останавливает обработку вызов метода [IMAPITable::Restrict](imapitable-restrict.md) , состояние таблицы будет во время обработки **Прервать** вызов. 
+Если метод **Abort** прерывает обработку вызова в методе [IMAPITable:: restrict](imapitable-restrict.md) , состояние таблицы будет таким же, как на момент обработки вызова **Abort** . 
   
-Если **Прервать** останавливает обработку вызов метода [IMAPITable::SortTable](imapitable-sorttable.md) , порядок сортировки таблицы не зависит от и остается, которая была до вызова **SortTable** . 
+Если метод **Abort** приостанавливает обработку вызова в методе [IMAPITable:: сорттабле](imapitable-sorttable.md) , порядок сортировки таблицы не изменяется и остается таким же, как и перед вызовом **сорттабле** . 
   
 ## <a name="see-also"></a>См. также
 

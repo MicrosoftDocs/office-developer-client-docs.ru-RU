@@ -1,5 +1,5 @@
 ---
-title: PublishedPage_Type complexType ('Visio XML»)
+title: Публишедпаже_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 39bf8983-ff70-3c81-e65b-1db5666b9969
 ms.openlocfilehash: e8fe5f1ba3541ba367f5c56a9bdb926358cd68cb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326833"
 ---
-# <a name="publishedpagetype-complextype-visio-xml"></a>PublishedPage_Type complexType ('Visio XML»)
+# <a name="publishedpagetype-complextype-visio-xml"></a>Публишедпаже_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -47,6 +47,6 @@ ms.locfileid: "25397529"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

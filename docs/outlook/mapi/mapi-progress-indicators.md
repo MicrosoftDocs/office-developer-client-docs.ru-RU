@@ -1,5 +1,5 @@
 ---
-title: Индикаторы выполнения MAPI
+title: Индикаторы хода выполнения MAPI
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,38 +8,38 @@ api_type:
 - COM
 ms.assetid: 73a99e52-97fe-40f5-af90-52cfd858ab22
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 8fc39c6d7da0970ee15cdd9dd67bfeef0997d7d1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cdfb6898146583b7da9b043eadd3acc09edbf292
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328212"
 ---
-# <a name="mapi-progress-indicators"></a>Индикаторы выполнения MAPI
+# <a name="mapi-progress-indicators"></a>Индикаторы хода выполнения MAPI
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Многие из операций, выполняемых для клиентов, может занять много времени. Информирование клиентов о ходе выполнения длительной операции, можно отобразить индикатор, который отображает графическое по завершении работы часть операции в данный момент от начала операции до его завершения. Индикатор показывает процент завершения общее операции.
+Многие операции, выполняемые для клиентов, могут занимать много времени. Чтобы уведомить клиентов о ходе выполнения длительной операции, можно отобразить индикатор, отображающий законченную часть операции в любой заданную точку от начала операции до ее завершения. Индикатор выполнения показывает процент от общей операции, которую необходимо выполнить.
   
-Следующие методы поддерживают длительных операций и отображение индикатора хода выполнения.
+Следующие методы поддерживают длительные операции и отображают индикатор хода выполнения:
   
-- [IMAPIFolder::CopyMessages](imapifolder-copymessages.md), [IMAPIFolder::CopyFolder](imapifolder-copyfolder.md), [IMAPIFolder::DeleteMessages](imapifolder-deletemessages.md), [IMAPIFolder::DeleteFolder](imapifolder-deletefolder.md), [IMAPIFolder::EmptyFolder](imapifolder-emptyfolder.md)и [IMAPIFolder::SetReadFlags](imapifolder-setreadflags.md).
+- [IMAPIFolder:: копимессажес](imapifolder-copymessages.md), [IMAPIFolder:: CopyFolder](imapifolder-copyfolder.md), [IMAPIFolder::D Елетемессажес](imapifolder-deletemessages.md), [IMAPIFolder::D Елетефолдер](imapifolder-deletefolder.md), [IMAPIFolder:: EmptyFolder](imapifolder-emptyfolder.md)и [IMAPIFolder:: сетреадфлагс](imapifolder-setreadflags.md).
     
-- [IMAPIProp::CopyProps](imapiprop-copyprops.md) и [IMAPIProp::CopyTo](imapiprop-copyto.md).
+- [IMAPIProp:: копипропс](imapiprop-copyprops.md) и [IMAPIProp:: CopyTo](imapiprop-copyto.md).
     
-- [IMAPISupport::DoCopyProps](imapisupport-docopyprops.md), [IMAPISupport::DoCopyTo](imapisupport-docopyto.md), [IMAPISupport::CopyFolder](imapisupport-copyfolder.md)и [IMAPISupport::CopyMessages](imapisupport-copymessages.md).
+- [Имаписуппорт::D окопипропс](imapisupport-docopyprops.md), [Имаписуппорт::D окопито](imapisupport-docopyto.md), [Имаписуппорт:: CopyFolder](imapisupport-copyfolder.md)и [имаписуппорт:: копимессажес](imapisupport-copymessages.md).
     
-- [IMessage::DeleteAttach](imessage-deleteattach.md).
+- [IMessage::D елетеаттач](imessage-deleteattach.md).
     
-- [IABContainer::CopyEntries](iabcontainer-copyentries.md).
+- [Иабконтаинер:: копентриес](iabcontainer-copyentries.md).
     
-Чтобы отобразить индикатор выполнения, MAPI определяет объект хода выполнения. Объекты хода выполнения реализовать [IMAPIProgress: IUnknown](imapiprogressiunknown.md) интерфейса, интерфейс, который содержит методы для создания диапазона индикатора и создание отображения. MAPI предоставляет реализацию объекта о ходе выполнения, как и некоторыми клиентами. Реализация клиента, следует использовать, если оно предоставлено, как входного параметра для метода для выполнения операции. Если клиент передает значение NULL вместо указателя на объект ход выполнения, описание использования реализации интерфейса MAPI путем вызова метода [IMAPISupport::DoProgressDialog](imapisupport-doprogressdialog.md) . 
+Чтобы отобразить индикатор хода выполнения, MAPI определяет объект хода выполнения. Объекты хода выполнения реализуют интерфейс [IMAPIProgress: IUnknown](imapiprogressiunknown.md) , интерфейс, который включает методы для установки диапазона индикатора и создания отображения. MAPI предоставляет реализацию объекта Progress, как и некоторые клиенты. Следует использовать реализацию клиента, если она предоставляется в качестве входного параметра для метода, выполняющего операцию. Если клиент передает значение NULL, а не указатель на объект Progress, используйте реализацию MAPI, вызвав метод [имаписуппорт::D опрогрессдиалог](imapisupport-doprogressdialog.md) . 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Поставщиков служб MAPI](mapi-service-providers.md)
+[Поставщики службы MAPI](mapi-service-providers.md)
 

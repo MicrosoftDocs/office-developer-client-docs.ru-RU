@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 9ec1bbaa-7707-4239-9994-21ad1116430b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 898876863223aefa868fd37deced2948bd5a5694
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 885cf53de45cfde4079cc2a0e7bfdca09f72b962
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569752"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329528"
 ---
 # <a name="cbnewadrlist"></a>CbNewADRLIST
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов, должен быть размещен для новой структуры [ADRLIST](adrlist.md) , содержащий указанное число получателей, представленного [ADRENTRY](adrentry.md) структуры. 
+Вычисляет количество байтов, которое следует выделить для новой структуры [ADRLIST](adrlist.md) , которая содержит указанное количество получателей, представленных структурами [адрентри](adrentry.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**ADRLIST** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 CbNewADRLIST (_centries)
@@ -38,9 +38,9 @@ CbNewADRLIST (_centries)
 
 ## <a name="parameters"></a>Параметры
 
- __centries_
+ __центриес_
   
-> Число структур **ADRENTRY** должны быть включены в новой структуры **ADRLIST** . 
+> Количество структур **адрентри** , включаемых в новую структуру **ADRLIST** . 
     
 ## <a name="see-also"></a>См. также
 

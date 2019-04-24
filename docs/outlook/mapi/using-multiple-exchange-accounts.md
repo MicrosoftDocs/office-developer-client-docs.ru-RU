@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 4e1804bf-4c50-4942-a7ab-9a8caf1be7e5
 description: '���� ���������� ���������: 25 ���� 2012 �.'
 ms.openlocfilehash: a5792ebaf78d77924bc3157be63d937b66e9f4b2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723063"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329655"
 ---
 # <a name="using-multiple-exchange-accounts"></a>������������� ���������� ������� ������� Exchange
 
@@ -19,9 +19,9 @@ ms.locfileid: "28723063"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Microsoft Outlook 2010 и Microsoft Outlook 2013 поддерживает интеграцию с несколькими учетными записями электронной почты exchange. � Outlook�2010 ��� Outlook�2013 ������������ ����� �������� ��� ������� ������� exchange ��� ������ ������� � ��-�������� ������� �������� ����������� � ����������� ������� Exchange, �������� �������������� ����������� ������ ������� (GAL), Exchange-���������� ������������ � ����� ������ � �����.
+Microsoft Outlook 2010 и Microsoft Outlook 2013 поддерживают интеграцию с несколькими учетными записями электронной почты Exchange. � Outlook�2010 ��� Outlook�2013 ������������ ����� �������� ��� ������� ������� exchange ��� ������ ������� � ��-�������� ������� �������� ����������� � ����������� ������� Exchange, �������� �������������� ����������� ������ ������� (GAL), Exchange-���������� ������������ � ����� ������ � �����.
   
-Эти знакомы с разделами профилей MAPI для Microsoft Office Outlook 2007 и более ранних версий знать, что параметры Exchange, такие как имя пользователя электронной почты и имя сервера, хранятся в основных раздела глобального профиля Exchange, **pbGlobalProfileSectionGuid**. � Outlook�2010 � Outlook�2013 ������ ������� ������ Exchange ��������� ����������� ������ ������� ��� �������� ����������, ����������� **pbGlobalProfileSectionGuid**. 
+С разделами профиля MAPI для Microsoft Office Outlook 2007 и более ранних версий известно, что параметры Exchange, такие как имя пользователя электронной почты и имя сервера, хранятся в разделе фиксированный Глобальный профиль Exchange **пбглобалпрофилесектионгуид**. � Outlook�2010 � Outlook�2013 ������ ������� ������ Exchange ��������� ����������� ������ ������� ��� �������� ����������, ����������� **pbGlobalProfileSectionGuid**. 
   
 Outlook�2010 and Outlook�2013 Exchange settings are still stored in the profile, but a unique identifier for the profile section that contains their settings is dynamically allocated per profile. The location of the Exchange settings in the profile is stored in the [������������ �������� PidTagExchangeProfileSectionId](pidtagexchangeprofilesectionid-canonical-property.md), which can be found in the message service profile section of the Exchange account. This property can also be found in the profile section for each provider in this message service of the account. The unique identifier is not stored on the server and will be different across profiles.
   
@@ -84,7 +84,7 @@ If you are calling [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), make 
     
 - �������� **emsmdbUID**, ��� ��������� � ������� ����� ��������� ��� ������, ������� ������������� **PidTagExchangeProfileSectionId**, ������� ������������� **emsmdbUID**.
     
-## <a name="see-also"></a>��. �����
+## <a name="see-also"></a>См. также
 
 
 

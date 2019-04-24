@@ -1,53 +1,53 @@
 ---
-title: Ячейка BevelBottomType (раздел "Свойства багетной рамки")
+title: BevelBottomType Cell (Bevel Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ac7b39d4-3942-4b23-b188-2c3f69e54929
-description: Указывает тип рельефов нижней рельефов фигуры.
-ms.openlocfilehash: a0429011565d7a8f3ca0a7da76c08d309d5391f5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Задает нижний тип скоса фигуры.
+ms.openlocfilehash: 0cd360f633145c7dea95438ffe2bc746e519ce13
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813184"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330081"
 ---
-# <a name="bevelbottomtype-cell-bevel-properties-section"></a>Ячейка BevelBottomType (раздел "Свойства багетной рамки")
+# <a name="bevelbottomtype-cell-bevel-properties-section"></a>BevelBottomType Cell (Bevel Properties Section)
 
-Указывает тип рельефов нижней рельефов фигуры.
+Задает нижний тип скоса фигуры.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|0  <br/> |Не рельефов  <br/> |
-|1  <br/> |Круг рельефов  <br/> |
-|2  <br/> |Используйте ослабленную рельефов отступ  <br/> |
-|3  <br/> |Кросс-рельефов  <br/> |
-|4  <br/> |Интересные штрихпунктир рельефов  <br/> |
-|5  <br/> |Угол рельефов  <br/> |
-|6  <br/> |Round программных рельефов  <br/> |
-|7  <br/> |Выпуклая рельефов  <br/> |
-|8  <br/> |Уклона рельефов  <br/> |
-|9  <br/> |Divot рельефов  <br/> |
-|10  <br/> |Riblet рельефов  <br/> |
-|11  <br/> |Жестко рельефов пограничного сервера  <br/> |
-|12  <br/> |Рельефов деко  <br/> |
+|нуль  <br/> |Без рельефа  <br/> |
+|1,1  <br/> |Круглая Багетная рамка  <br/> |
+|2  <br/> |Ослабленная вогнутая Багетная рамка  <br/> |
+|4  <br/> |Скос  <br/> |
+|SP4  <br/> |Стильный скос — рельеф  <br/> |
+|17:00  <br/> |Рельефный угол  <br/> |
+|ICMPv6  <br/> |Мягкий круг, рельеф  <br/> |
+|см  <br/> |Конвекс Багетная рамка  <br/> |
+|8,5  <br/> |Наклонная Багетная рамка  <br/> |
+|10  <br/> |Дивот Багетная рамка  <br/> |
+|десяти  <br/> |Риблет Багетная рамка  <br/> |
+|-11:00  <br/> |Скос с четким краем  <br/> |
+|12  <br/> |Декоративная художественная Багетная рамка  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Для получения ссылки на ячейки **BevelBottomType** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** в формате vsdx (en), и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelBottomType** по имени из другой формулы, по значению атрибута **N** элемента **Cell** в формате vsdx или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | BevelBottomType  <br/> |
+| Имя ячейки:  <br/> | BevelBottomType  <br/> |
    
-Для получения ссылки на ячейки **BevelBottomType** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **BevelBottomType** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
-| Индекс ячейки:  <br/> |**visBevelBottomType** <br/> |
+| Индекс строки:  <br/> |**Висровбевелпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Висбевелботтомтипе** <br/> |
    
 

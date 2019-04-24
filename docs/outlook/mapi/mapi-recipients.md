@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 88a4360d-6ab8-466e-8ebd-af80227ee00a
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: 6af54b773b875531437a275f14c961a06ef799ff
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ebdaf47b4f20763574ffac73bddeb3eb4eeb95df
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328219"
 ---
 # <a name="mapi-recipients"></a>���������� MAPI
 
@@ -25,19 +25,19 @@ Every message to be transmitted has one or more recipients, or a set of properti
   
 ��� ������� �������� � ����������� ��������� ����� ��� ����������� � �������. ������ ��������� ����� ����������� �������, ���������� ������� ���������� � ������ �� ��� �����������. �������, ���������� � ������� ������� �� ��������� ���������. ����� ��������� ��������� � �������� ��������, ���������� ����� ����� ������ ��� ������� � �������:
   
-- Отображаемое имя или **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+- Отображаемое имя или **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-- Тип получателя или **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
+- Тип получателя или **пр_реЦипиент_типе** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
     
-- Идентификатор строки или **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md))
+- Идентификатор строки или **пр_ровид** ([PidTagRowid](pidtagrowid-canonical-property.md))
     
-После сообщения претерпел процесса разрешения имен, каждого получателя, также будут иметь идентификатор записи или столбец **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). � ��� �������� ��������� ������ � ������� ����������� ����� ��������� ��� �������������� �������:
+После того как сообщение будет переработано в процессе разрешения имен, у каждого получателя также будет идентификатор записи или столбец **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)). � ��� �������� ��������� ������ � ������� ����������� ����� ��������� ��� �������������� �������:
   
-- Тип адреса или **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
+- Тип адреса или **пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
-- Ответственность за транспорта или **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md))
+- Ответственность за транспортировку или **пр_респонсибилити** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md))
     
-Clients can retrieve a message's recipient table by calling its **IMessage::GetRecipientTable** method or its **IMAPIProp::OpenProperty** method. For more information, see [IMessage::GetRecipientTable](imessage-getrecipienttable.md) and [IMAPIProp::OpenProperty](imapiprop-openproperty.md). Message store providers are expected to support both of these approaches. The **OpenProperty** approach requires that the client specify IID_IMAPITable as the interface identifier and **PR_MESSAGE_RECIPIENTS** as the property tag. **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) — это свойство объекта таблицы, который представляет таблицу получателей сообщения. Message store providers are required to set **PR_MESSAGE_RECIPIENTS** for each message and include it in the array of property tags returned from the **IMAPIProp::GetPropList** method. For more information, see [IMAPIProp::GetPropList](imapiprop-getproplist.md).
+Clients can retrieve a message's recipient table by calling its **IMessage::GetRecipientTable** method or its **IMAPIProp::OpenProperty** method. For more information, see [IMessage::GetRecipientTable](imessage-getrecipienttable.md) and [IMAPIProp::OpenProperty](imapiprop-openproperty.md). Message store providers are expected to support both of these approaches. The **OpenProperty** approach requires that the client specify IID_IMAPITable as the interface identifier and **PR_MESSAGE_RECIPIENTS** as the property tag. **Пр_мессаже_реЦипиентс** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) — это свойство объекта Table, представляющее таблицу получателей сообщения. Message store providers are required to set **PR_MESSAGE_RECIPIENTS** for each message and include it in the array of property tags returned from the **IMAPIProp::GetPropList** method. For more information, see [IMAPIProp::GetPropList](imapiprop-getproplist.md).
   
 For more information about how to work with a recipient table, see [����������� ������](recipient-tables.md).
   

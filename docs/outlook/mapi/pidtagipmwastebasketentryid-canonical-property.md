@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 0f8dd043-66f0-4193-9b95-853bc3827f73
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 66bbf49d737c42ecc2f6c765a60540163649f447
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3794386c4461c90f973e4028132cb8220dfaa19b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573896"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327883"
 ---
 # <a name="pidtagipmwastebasketentryid-canonical-property"></a>Каноническое свойство PidTagIpmWastebasketEntryId
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор записи из папки "Удаленные" standard электронной почты — это сообщение (IPM). 
+Содержит идентификатор стандартной папки "Удаленные" межпользовательского сообщения (IPM). 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_IPM_WASTEBASKET_ENTRYID  <br/> |
+|Связанные свойства:  <br/> |ПР_ИПМ_ВАСТЕБАСКЕТ_ЕНТРИД  <br/> |
 |Идентификатор:  <br/> |0x35E3  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Клиентское приложение следует переместить удаленных сообщений электронной почты — это папки "Удаленные". Если сообщение уже присутствует в этой папке, если это свойство не поддерживается, удалить сообщение. 
+Клиентское приложение должно перемещать удаленные межпользовательские сообщения в папку "Удаленные". Если сообщение уже находится в этой папке или если это свойство не поддерживается, клиент должен удалить сообщение. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

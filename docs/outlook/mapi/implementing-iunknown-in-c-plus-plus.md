@@ -9,19 +9,19 @@ api_type:
 ms.assetid: 68519f6c-fba8-47f5-9401-316e276f770e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 08f3f3f937320d8a986b2002c761a37f0f749227
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330179"
 ---
 # <a name="implementing-iunknown-in-c"></a>Реализация IUnknown в C++
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Реализация [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx), [IUnknown::AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)и [функции IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) методы интерфейс [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) в C++ весьма прост. После некоторые стандартной проверки параметров, которые передаются в реализацию **QueryInterface** проверяет идентификатор запрошенного интерфейса по списку поддерживаемые интерфейсы. Если запрошенный идентификатор является среди тех поддерживается, вызывается **метод AddRef** и возвращается указатель **this** . Если на список поддерживаемых не запрошенный идентификатор, выходной указатель имеет значение NULL, и возвращается значение MAPI_E_INTERFACE_NOT_SUPPORTED. 
+Реализация методов [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx), [IUnknown:: AddRef](https://msdn.microsoft.com/library/ms691379%28v=VS.85%29.aspx)и [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) для интерфейса [IUnknown](https://msdn.microsoft.com/library/ms680509%28v=VS.85%29.aspx) в C++ довольно просты. После выполнения некоторых стандартных проверок передаваемых параметров реализация **QueryInterface** проверяет идентификатор запрашиваемого интерфейса на соответствие списку поддерживаемых интерфейсов. Если запрашиваемый идентификатор доступен среди поддерживаемых, вызывается **AddRef** и возвращается указатель **** . Если запрошенный идентификатор отсутствует в списке поддерживаемых, указатель выхода имеет значение NULL и возвращается значение МАПИ_Е_ИНТЕРФАЦЕ_НОТ_СУППОРТЕД. 
   
-В следующем примере кода показано, как реализовать **QueryInterface** в C++ для объекта состояние объекта, который является подкласс [IMAPIStatus: IMAPIProp](imapistatusimapiprop.md) интерфейса. **IMAPIStatus** наследует от **IUnknown** через [IMAPIProp: IUnknown](imapipropiunknown.md). Таким образом Если вызывающий объект запрашивает какие-либо из этих интерфейсов, **Этот** указатель можно получить из-за интерфейсы связанные с путем наследования. 
+В приведенном ниже примере кода показано, как можно реализовать **QueryInterface** в C++ для объекта Status — объекта, который является подклассом интерфейса [имапистатус: IMAPIProp](imapistatusimapiprop.md) . **Имапистатус** наследует от **IUnknown** через [IMAPIProp: IUnknown](imapipropiunknown.md). Таким образом, если вызывающий абонент запрашивает любой из этих интерфейсов, **этот** указатель можно вернуть, так как интерфейсы связаны посредством наследования. 
   
 ```cpp
 HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
@@ -44,7 +44,7 @@ HRESULT CMyMAPIObject::QueryInterface (REFIID   riid,
 
 ```
 
-В следующем примере кода показано, как реализовать методы **AddRef** и **Release** для `CMyMAPIObject` объекта. Так как реализация **AddRef** и **Release** не вызывает затруднений, многие поставщики услуг выбрать их реализации встроенного. Вызовы функций Win32 **InterlockedIncrement** и **InterlockedDecrement** обеспечить потокобезопасность. Деструктором, который вызывается, когда метод **Release** удаляет объект освобождается память для объекта. 
+В приведенном ниже примере кода показано, как реализовать методы **AddRef** и **Release** для `CMyMAPIObject` объекта. Так как реализация **AddRef** и **Release** является достаточно простой, многие поставщики услуг выбирают их встроенными. Вызовы функций Win32 **интерлоккединкремент** и **интерлоккеддекремент** обеспечивают безопасность потоков. Память для объекта освобождается деструктором, который вызывается при удалении объекта методом **Release** . 
   
 ```cpp
 ULONG CMyMAPIObject::AddRef()

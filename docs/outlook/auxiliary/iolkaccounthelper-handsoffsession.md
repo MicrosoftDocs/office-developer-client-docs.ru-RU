@@ -1,26 +1,26 @@
 ---
-title: IOlkAccountHelperHandsOffSession
+title: Иолкаккаунселперхандсоффсессион
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9f71fdef-5df5-0892-b64c-293a2f22f5c3
-description: Освобождает объект сеанса MAPI, возвращаемые IOlkAccountHelper::GetMapiSession.
-ms.openlocfilehash: 71931be73e75e858224d3da2c92071341ac45e72
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Освобождает объект сеанса MAPI, возвращенный функцией Иолкаккаунселпер:: Жетмаписессион.'
+ms.openlocfilehash: c481cee1ecb8c2bd3997cdee8ae86c9c3b5a712e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807835"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322094"
 ---
 # <a name="iolkaccounthelperhandsoffsession"></a>IOlkAccountHelper::HandsOffSession
 
-Освобождает объект сеанса MAPI, возвращаемые - [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).
+Освобождает объект сеанса MAPI, возвращенный параметром – [иолкаккаунселпер:: жетмаписессион](iolkaccounthelper-getmapisession.md).
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkAccountHelper](iolkaccounthelper.md).
+Обратитесь к разделу [иолкаккаунселпер](iolkaccounthelper.md).
   
 ```cpp
 HRESULT IOlkAccountHelper::HandsOffSession( );
@@ -30,8 +30,8 @@ HRESULT IOlkAccountHelper::HandsOffSession( );
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|ЗНАЧЕНИЕ S_OK  <br/> |Если реализация **IOlkAccountHelper** создает собственный сеанса MAPI, который возвращается в **IOlkAccountHelper::GetMapiSession**, необходимо освобождать этого сеанса и возвращает значение S_OK.  <br/> |
-|E_NOTIMPL  <br/> |Если реализация **IOlkAccountHelper** не была создана сеанса MAPI, должен возвращать только значение E_NOTIMPL. В этом случае это поддерживается только возвращаемое значение.  <br/> |
+|S_OK  <br/> |Если реализация **иолкаккаунселпер** создает свой собственный сеанс MAPI, который возвращается в **Иолкаккаунселпер:: жетмаписессион**, необходимо освободить сеанс здесь и вернуть значение S_OK.  <br/> |
+|E_NOTIMPL  <br/> |Если в вашей реализации **иолкаккаунселпер** не был создан собственный сеанс MAPI, необходимо возвращать только значения E_NOTIMPL. В этом случае поддерживается только возвращаемое значение.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

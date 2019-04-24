@@ -13,52 +13,52 @@ api_type:
 ms.assetid: c18de08b-8c28-4cdf-bd2e-b9c650cd6da6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 31f39cfbd0e993bfc28003fd64e8af97e7e76818
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329189"
 ---
 # <a name="pidtagordinalmost-canonical-property"></a>Каноническое свойство PidTagOrdinalMost
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит положительное число, отрицательное меньше или равно значению свойства **dispidTaskOrdinal** ([PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) всех задач в папке.
+Содержит положительное число, отрицательно меньшее или равное значению свойства **диспидтаскординал** ([PidLidTaskOrdinal](pidlidtaskordinal-canonical-property.md)) для всех задач в папке.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORDINAL_MOST  <br/> |
+|Связанные свойства:  <br/> |ПР_ОРДИНАЛ_МОСТ  <br/> |
 |Идентификатор:  <br/> |0x36E2  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство необходимо обновить для поддержания это условие при каждом изменении свойства **dispidTaskOrdinal** какого-либо объекта задач в папке, чтобы нарушит условие. 
+Это свойство должно быть обновлено для поддержания этого условия всякий раз, когда свойство **диспидтаскординал** любого объекта Task в папке изменяется таким образом, что нарушает это условие. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS — ОКСОТАСК]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для контакты и списки рассылки.
+> Задает свойства и операции, допустимые для контактов и личных списков рассылки.
   
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

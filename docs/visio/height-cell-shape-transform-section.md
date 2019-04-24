@@ -1,5 +1,5 @@
 ---
-title: Ячейка Height (раздел "Преобразование фигуры")
+title: Height Cell (Shape Transform Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,31 +9,31 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 194d5beb-c705-f567-84de-8305c41081a8
 description: Определяет высоту фигуры в единицах документа.
-ms.openlocfilehash: c9f6282e9a2be161a4338043925d88cee672d5ad
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 1f08fec0ec09e4ba77296495defc91b0f1f3a4c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813903"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329990"
 ---
-# <a name="height-cell-shape-transform-section"></a>Ячейка Height (раздел "Преобразование фигуры")
+# <a name="height-cell-shape-transform-section"></a>Height Cell (Shape Transform Section)
 
 Определяет высоту фигуры в единицах документа.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Для получения ссылки на ячейки высота по имени, из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку Height по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | Height  <br/> |
+| Имя ячейки:  <br/> | Height  <br/> |
    
-Для получения ссылки на ячейки высота по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку Height по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowXFormOut** <br/> |
-| Индекс ячейки:  <br/> |**visXFormHeight** <br/> |
+| Индекс строки:  <br/> |**Висровксформаут** <br/> |
+| Индекс ячейки:  <br/> |**Висксформхеигхт** <br/> |
    
 

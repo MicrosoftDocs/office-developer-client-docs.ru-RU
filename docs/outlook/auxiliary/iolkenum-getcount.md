@@ -1,26 +1,26 @@
 ---
-title: IOlkEnumGetCount
+title: Иолкенумжеткаунт
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dd7a7e62-4cf2-bdd3-8a00-4fff5ac575d3
-description: Получает число учетных записей в перечислитель.
-ms.openlocfilehash: dd4152a898bdaa96883bcd27ab3ec0d94e80fd90
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Получает количество учетных записей в перечислителе.
+ms.openlocfilehash: 8571d5ff01501d980c8b6543607a658ad99085ca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807870"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322017"
 ---
 # <a name="iolkenumgetcount"></a>IOlkEnum::GetCount
 
-Получает число учетных записей в перечислитель.
+Получает количество учетных записей в перечислителе.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkEnum](iolkenum.md).
+Обратитесь к разделу [иолкенум](iolkenum.md).
   
 ```cpp
 HRESULT IOlkEnum::GetCount ( 
@@ -31,9 +31,9 @@ HRESULT IOlkEnum::GetCount (
 
 ## <a name="parameters"></a>Параметры
 
-_pulCount_
+_Пулкаунт_
   
-> [out] Указатель на количество перечисляемых объектов.
+> вышли Указатель на число перечислений объектов.
     
 ## <a name="return-values"></a>Возвращаемые значения
 

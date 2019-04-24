@@ -9,25 +9,25 @@ localization_priority: Normal
 ms.assetid: f9dd58c7-4119-90db-54f3-e1dd8e48451e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d18308d93956809ec1fc3003f2d414aba24d4689
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393826"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331222"
 ---
 # <a name="pidtagrpcoverhttpproxyprincipalname-canonical-property"></a>Каноническое свойство PidTagRpcOverHttpProxyPrincipalName
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит имя участника для прокси-сервер, используемый Microsoft Outlook для подключения к Microsoft Exchange Server с помощью удаленный вызов процедур (RPC) по протоколу (HTTP).
+Содержит имя участника прокси-сервера, используемого Microsoft Outlook для подключения к Microsoft Exchange Server с помощью удаленного вызова процедур (RPC) по протоколу HTTP.
   
 ## 
 
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ROH_PROXY_PRINCIPAL_NAME  <br/> |
+|Связанные свойства:  <br/> |ПР_РОХ_ПРОКСИ_ПРИНЦИПАЛ_НАМЕ  <br/> |
 |Идентификатор:  <br/> |0x6625  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Разное  <br/> |
@@ -36,27 +36,27 @@ ms.locfileid: "25393826"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS — ОКСКФКСИКС]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Определяет структуры основных данных, которые используются для удаленных операций.
+> Определяет основные структуры данных, используемые в удаленных операциях.
     
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, которые разрешены для объектов сообщения электронной почты.
+> Задает свойства и операции, разрешенные для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -64,7 +64,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

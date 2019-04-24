@@ -1,37 +1,37 @@
 ---
-title: Ячейка BevelContourColor (раздел "Свойства багетной рамки")
+title: BevelContourColor Cell (Bevel Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 90bc9be5-282e-4a84-9d8b-e11788070768
-description: Определяет цвет рельефов профиль в значение RGB или как определяется активной темы.
-ms.openlocfilehash: 89b90f804ce1ccd8511dc0160f1ca2c94546596e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет цвет контура скоса в значении RGB или определяется активной темой.
+ms.openlocfilehash: df22f001dc7fa85e192ab93d5ff799a0b424aefe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813187"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327148"
 ---
-# <a name="bevelcontourcolor-cell-bevel-properties-section"></a>Ячейка BevelContourColor (раздел "Свойства багетной рамки")
+# <a name="bevelcontourcolor-cell-bevel-properties-section"></a>BevelContourColor Cell (Bevel Properties Section)
 
-Определяет цвет рельефов профиль в значение RGB или как определяется активной темы.
+Определяет цвет контура скоса в значении RGB или определяется активной темой.
   
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **BevelContourColor** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelContourColor** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | BevelContourColor  <br/> |
+| Имя ячейки:  <br/> | BevelContourColor  <br/> |
    
-Для получения ссылки на ячейки **BevelContourColor** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **BevelContourColor** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
+| Индекс строки:  <br/> |**Висровбевелпропертиес** <br/> |
 | Индекс ячейки:  <br/> |**Vis BevelContourColor** <br/> |
    
 

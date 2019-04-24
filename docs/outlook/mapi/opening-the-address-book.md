@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 79e0bc93-f37d-4f6a-beed-7519d01e0056
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 62a4e6a09570cc3d71b0797ed7fff162d05ee416
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6d1a7e8e1d9debd7eb715bbe4958657c000f1e6b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583689"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326168"
 ---
 # <a name="opening-the-address-book"></a>Открытие адресной книги
 

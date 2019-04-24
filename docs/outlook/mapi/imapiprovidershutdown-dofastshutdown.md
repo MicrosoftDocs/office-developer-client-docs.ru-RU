@@ -1,5 +1,5 @@
 ---
-title: IMAPIProviderShutdownDoFastShutdown
+title: Имапипровидершутдовндофастшутдовн
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d2b66a8e-2e28-4c32-af95-38d345c7bbd7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: faa061ae323dd744d12e4f9abec713c71379feba
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4ff93ed9353d58ef6b68823bebf8b5b27a0df6e8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563473"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322423"
 ---
 # <a name="imapiprovidershutdowndofastshutdown"></a>IMAPIProviderShutdown::DoFastShutdown
 
@@ -25,7 +25,7 @@ ms.locfileid: "22563473"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает поставщика MAPI немедленно, выходе клиент MAPI, чтобы поставщик MAPI будут сохранены и отобразятся изменения, чтобы предотвратить потерю данных.
+Указывает поставщику MAPI, что клиент MAPI немедленно завершает работу, поэтому поставщик MAPI сохранит изменения, чтобы предотвратить потерю данных.
   
 ```cpp
 HRESULT DoFastShutdown ();
@@ -35,7 +35,7 @@ HRESULT DoFastShutdown ();
 
 S_OK
   
-> Клиент MAPI выйти из сразу же готов поставщика MAPI. 
+> Поставщик MAPI готов к немедленному завершению работы клиента MAPI. 
     
 ## <a name="see-also"></a>См. также
 

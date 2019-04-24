@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: de0436de-5cd6-4e13-8794-6dfbdb1e4ea0
-description: Представляет имя пользователя для общего почтового ящика Интернета.
-ms.openlocfilehash: c3c1d0c382fb868c942c99415abffdac1c874fd0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Представляет имя пользователя для общего почтового ящика в Интернете.
+ms.openlocfilehash: f87399e16b142329debbc2f3259df9d7eb15834e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328366"
 ---
 # <a name="propinetuser"></a>PROP_INET_USER
 
-Представляет имя пользователя для общего почтового ящика Интернета.
+Представляет имя пользователя для общего почтового ящика в Интернете.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -24,8 +24,8 @@ ms.locfileid: "19807957"
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0101  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE  <br/> |
-|Свойство tag:  <br/> |0x0101001F  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Тег свойства:  <br/> |0x0101001F  <br/> |
+|Обращения  <br/> |Только для чтения  <br/> |
    
 ## <a name="see-also"></a>См. также
 

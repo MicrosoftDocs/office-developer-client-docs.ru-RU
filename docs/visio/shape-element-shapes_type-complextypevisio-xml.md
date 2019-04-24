@@ -1,31 +1,31 @@
 ---
-title: Элемент фигуры (Shapes_Type complexType) ('Visio XML»)
+title: Элемент Shape (Шапес_типе complexType) (' XML ' Visio ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8074bd07-430a-779e-ad1f-e7e3a1c748b1
-description: Содержит элементы, определяющие фигуры в образец, страница или элемент группы фигур.
+description: Содержит элементы, определяющие фигуру в главной, странице или элементе фигуры группы.
 ms.openlocfilehash: 6308b8dd21c92f6ced9ea7f03ec8aa85773fa2bb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326574"
 ---
-# <a name="shape-element-shapestype-complextype-visio-xml"></a>Элемент фигуры (Shapes_Type complexType) ('Visio XML»)
+# <a name="shape-element-shapestype-complextype-visio-xml"></a>Элемент Shape (Шапес_типе complexType) (' XML ' Visio ')
 
-Содержит элементы, определяющие фигуры в **Образец**, **страница**или элемент группы фигур.
+Содержит элементы, определяющие фигуру в **главной**, **странице**или элементе фигуры группы.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Шапешит_типе](shapesheet_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |страницы # .xml, главные # .xml  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,38 +42,38 @@ ms.locfileid: "25399685"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Фигур](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |Задает коллекцию фигур.  <br/> |
-|[Фигур](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |Задает коллекцию фигур.  <br/> |
+|[Shapes](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Шапес_типе](shapes_type-complextypevisio-xml.md) <br/> |Задает коллекцию фигур.  <br/> |
+|[Shapes](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Шапес_типе](shapes_type-complextypevisio-xml.md) <br/> |Задает коллекцию фигур.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает отдельное свойство.  <br/> |
-|[Бд1](data1-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |Содержит произвольное строковое значение, которое используется для предоставления дополнительной информации о фигуры.  <br/> |
-|[Бд2](data2-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |Содержит произвольное строковое значение, которое используется для предоставления дополнительной информации о фигуры.  <br/> |
-|[Data3](data3-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |Содержит произвольное строковое значение, которое используется для предоставления дополнительной информации о фигуры.  <br/> |
-|[ForeignData](foreigndata-element-shapesheet_type-complextypevisio-xml.md) <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |Содержит MIME (Multipurpose Internet Mail Extensions) закодированный большого двоичного ОБЪЕКТА данных изображения, например метафайла Windows, точечного рисунка или данных OLE.  <br/> |
-|[Раздел](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Задает коллекцию свойств, связанных с ними.  <br/> |
-|[Фигур](shapes-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |Задает коллекцию фигур.  <br/> |
-|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Содержит текст фигуры.  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство.  <br/> |
+|[Data1](data1-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |Содержит произвольное строковое значение, которое используется для предоставления дополнительных сведений о фигуре.  <br/> |
+|[Data2](data2-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |Содержит произвольное строковое значение, которое используется для предоставления дополнительных сведений о фигуре.  <br/> |
+|[Data3](data3-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |Содержит произвольное строковое значение, которое используется для предоставления дополнительных сведений о фигуре.  <br/> |
+|[ForeignData](foreigndata-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Фореигндата_типе](foreigndata_type-complextypevisio-xml.md) <br/> |Содержит зашифрованный большой ДВОИЧный объект MIME (многоцелевые поЧтовые расширения) для графических данных, таких как метафайл Windows, точечный рисунок или данные OLE.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |Задает коллекцию связанных свойств.  <br/> |
+|[Shapes](shapes-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Шапес_типе](shapes_type-complextypevisio-xml.md) <br/> |Задает коллекцию фигур.  <br/> |
+|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Текст_типе](text_type-complextypevisio-xml.md) <br/> |Содержит текст фигуры.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|DEL  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Флаг, указывающий, является ли элемент удаляется локально.  <br/> |Значения типа xsd:boolean.  <br/> |
-|FillStyle  <br/> |XSD:unsignedInt  <br/> ||Идентификатор таблицы стилей, из которого эта фигура наследует форматирование заливки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в рамках родительского элемента.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|IsCustomName  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Указывает, настроен ли имя пользователя.  <br/> |Значения типа xsd:boolean.  <br/> |
-|IsCustomNameU  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Указывает, настроен ли универсального имени пользователя.  <br/> |Значения типа xsd:boolean.  <br/> |
-|Стиль линии  <br/> |XSD:unsignedInt  <br/> ||Идентификатор таблицы стилей, из которого эта фигура наследует форматирование линий.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|Master  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Идентификатор основной элемент, из которого фигуры наследует его данных.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|MasterShape  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Идентификатор основной элемент, из которого фигуры наследует его данных.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|Имя  <br/> |XSD:String  <br/> |необязательный  <br/> |Имя элемента.  <br/> |Значения типа xsd:string.  <br/> |
-|NameU  <br/> |XSD:String  <br/> |необязательный  <br/> |Универсальные имя элемента.  <br/> |Значения типа xsd:string.  <br/> |
-|Стиля текста  <br/> |XSD:unsignedInt  <br/> ||Идентификатор таблицы стилей, из которого эта фигура наследует форматирование текста.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|Тип  <br/> |XSD:Token  <br/> |необязательный  <br/> |Тип фигуры. Это может быть одно из следующих значений: группа, фигуры, руководство по или внешнего.  <br/> |Значения типа xsd:token.  <br/> |
-|Уникальный идентификатор  <br/> |XSD:String  <br/> |необязательный  <br/> |Идентификатор GUID (глобальный уникальный идентификатор) назначается фигуры.  <br/> |Значения типа xsd:string.  <br/> |
+|Del  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Флаг, указывающий на то, что элемент удален локально.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|FillStyle  <br/> |XSD: Унсигнединт  <br/> ||Идентификатор таблицы стилей, из которой эта фигура наследует форматирование заливки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Искустомнаме  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, настроено ли имя пользователем.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|Искустомнамеу  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, настроено ли универсальное имя пользователем..  <br/> |Значения типа XSD: Boolean.  <br/> |
+|LineStyle  <br/> |XSD: Унсигнединт  <br/> ||Идентификатор таблицы стилей, из которой эта фигура наследует форматирование линий.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Master  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор элемента Master, из которого фигура наследует данные.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|MasterShape  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор элемента Master, из которого фигура наследует данные.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> |Имя элемента.  <br/> |Значения типа String: XSD.  <br/> |
+|NameU  <br/> |XSD: строка  <br/> |необязательный  <br/> |Универсальное имя элемента.  <br/> |Значения типа String: XSD.  <br/> |
+|TextStyle  <br/> |XSD: Унсигнединт  <br/> ||Идентификатор таблицы стилей, из которой эта фигура наследует форматирование текста.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Тип  <br/> |XSD: маркер  <br/> |необязательный  <br/> |Тип фигуры. Может принимать одно из следующих значений: Group, Shape, Guide или инородный.  <br/> |Значения типа маркера XSD:.  <br/> |
+|UniqueID  <br/> |XSD: строка  <br/> |необязательный  <br/> |Идентификатор GUID (глобальный уникальный идентификатор), назначенный фигуре.  <br/> |Значения типа String: XSD.  <br/> |
    
 

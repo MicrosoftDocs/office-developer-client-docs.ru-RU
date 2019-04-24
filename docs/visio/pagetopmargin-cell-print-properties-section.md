@@ -1,5 +1,5 @@
 ---
-title: Ячейка PageTopMargin (раздел "Свойства печати")
+title: PageTopMargin Cell (Print Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -9,33 +9,33 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 2ba0fd22-65a6-6cb6-da00-08f391705544
 description: Задает поле в верхней части страницы принтера.
-ms.openlocfilehash: 1b7be63e3f21365231120c602d8edfe1dc727f88
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: ff2bffffed39c5571386e792d2ffc8d20d6b291e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327365"
 ---
-# <a name="pagetopmargin-cell-print-properties-section"></a>Ячейка PageTopMargin (раздел "Свойства печати")
+# <a name="pagetopmargin-cell-print-properties-section"></a>PageTopMargin Cell (Print Properties Section)
 
 Задает поле в верхней части страницы принтера.
   
 ## <a name="remarks"></a>Замечания
 
-Это значение представляет физические единицы и не влияет на масштаб или рисования единиц измерения. Например если эта ячейка имеет значение 0,25 дюйма, это поле будет 0,25 дюйма даже в том случае, если страница указываются футов. Если единицы не указан явно, это значение по умолчанию единицах страницы. 
+Это значение представляет физические единицы и не затронет единицы масштабирования или рисования. Например, если ячейка имеет значение 0,25 в., это поле составляет 0,25 дюйма, даже если единицы страницы — футы. Если единицы измерения не заданы явным образом, значение по умолчанию равно единицам страницы. 
   
-Чтобы получить ссылку на ячейку PageTopMargin по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку PageTopMargin по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | PageTopMargin  <br/> |
+| Имя ячейки:  <br/> | PageTopMargin  <br/> |
    
-Для получения ссылки на ячейки PageTopMargin по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку PageTopMargin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPrintProperties** <br/> |
-| Индекс ячейки:  <br/> |**visPrintPropertiesTopMargin** <br/> |
+| Индекс строки:  <br/> |**Висровпринтпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Виспринтпропертиестопмаргин** <br/> |
    
 

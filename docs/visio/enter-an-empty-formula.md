@@ -9,20 +9,20 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5df5c253-f491-7039-ce00-e66417590bb2
 description: ''
-ms.openlocfilehash: 46feb04453025824c2d24358bf82b8e967cba84e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc97a64da977d20d3c76f3d3a083268b4c93bbb3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328978"
 ---
 # <a name="enter-an-empty-formula"></a>Ввод пустой формулы
 
 1. Выберите ячейку, которая будет содержать формулу.
     
-2. Нажмите клавишу DELETE и затем нажмите клавишу ВВОД.
+2. Нажмите клавишу DELETE, а затем клавишу ВВОД.
     
 > [!NOTE]
-> Выберите этот вариант в ячейке **вспомогательный** после вставки локальную формулу. Ячейки возвращается «No формула», так как формулы, не наследование из образца. 
+> Попробуйте это сделать во **вспомогательной** ячейке после вставки локальной формулы. Ячейка возвращает значение "No формула", так как не существует формулы, которая наследуется от образца. 
   
 

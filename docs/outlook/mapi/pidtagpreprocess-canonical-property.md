@@ -12,44 +12,44 @@ api_type:
 - COM
 ms.assetid: c59a6ce9-6b1f-4395-961e-c3af2945f05e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: cfbeb6c60069d57d9a42082e80b2a45fd3410767
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d573916682e4857b367a898d22f2cff5af47ef27
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587378"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327225"
 ---
 # <a name="pidtagpreprocess-canonical-property"></a>Каноническое свойство PidTagPreprocess
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если сообщение требует предварительной обработки.
+Содержит значение TRUE, если для сообщения требуется предварительная обработка.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PREPROCESS  <br/> |
+|Связанные свойства:  <br/> |ПР_ПРЕПРОЦЕСС  <br/> |
 |Идентификатор:  <br/> |0x0E22  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |MAPI передаваемого  <br/> |
+|Область:  <br/> |Несъемный MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
 > [!IMPORTANT]
-> Это свойство не используется. Зарезервирован для использования с MAPI. 
+> Не используйте это свойство. Оно зарезервировано для использования MAPI. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -60,7 +60,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -6,32 +6,32 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b86242f3-dfd7-398e-a054-93db85b69752
-description: Возвращает accountsendstamp.
-ms.openlocfilehash: 948855f32ecd83334e2ab2af0926fedb0e6d7f84
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает аккаунтсендстамп.
+ms.openlocfilehash: d860a117e4ab5470f84ff1807cb6246cd852d24b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327610"
 ---
 # <a name="propacctsendstamp"></a>PROP_ACCT_SEND_STAMP
 
-Возвращает отметку учетной записи «отправить».
+Возвращает штамп "Отправить" для учетной записи.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkAccount](iolkaccount.md).
+Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x000E  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE  <br/> |
-|Свойство tag:  <br/> |0x000E001F  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Тег свойства:  <br/> |0x000E001F  <br/> |
+|Обращения  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Получение этого свойства с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md). При попытке установить для этого свойства, данное свойство возвращает **E_OLK_PROP_READ_ONLY**. 
+Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **е_олк_проп_реад_онли**. 
   
 ## <a name="see-also"></a>См. также
 

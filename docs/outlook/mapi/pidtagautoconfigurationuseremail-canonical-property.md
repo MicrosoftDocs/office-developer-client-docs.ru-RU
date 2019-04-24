@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 845140c8-5454-4b47-acec-ab5aff00b768
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: dbc575345ba2e707dd64e35c11f00a08113f5eee
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
-ms.translationtype: HT
+ms.openlocfilehash: 1471b0e039d96c0e2894f789647212379d15701a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571215"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326658"
 ---
 # <a name="pidtagautoconfigurationuseremail-canonical-property"></a>Каноническое свойство PidTagAutoConfigurationUserEmail
 

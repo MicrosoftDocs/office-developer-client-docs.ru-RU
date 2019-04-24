@@ -12,75 +12,75 @@ api_type:
 - COM
 ms.assetid: 48b634d7-deea-422b-8944-a8d929d83838
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 56f14488812842d5e9fe63ae228c325059ebe679
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1c7a35ded4861d724520b02ec5d61246774ca5cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575093"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330130"
 ---
 # <a name="pidtagresourcetype-canonical-property"></a>Каноническое свойство PidTagResourceType
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение, которое указывает тип поставщика услуг.
+Содержит значение, указывающее тип поставщика услуг.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_RESOURCE_TYPE  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕСАУРЦЕ_ТИПЕ  <br/> |
 |Идентификатор:  <br/> |0x3E03  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство может иметь только один из следующих значений:
+Это свойство может иметь только одно из следующих значений:
   
-MAPI_AB 
+МАПИ_АБ 
   
 > Адресная книга
     
-MAPI_AB_PROVIDER 
+МАПИ_АБ_ПРОВИДЕР 
   
-> Поставщик адресной книги
+> Поставщик адресных книг
     
-MAPI_HOOK_PROVIDER 
+МАПИ_ХУК_ПРОВИДЕР 
   
-> Поставщик обработчик очереди
+> Поставщик обработчиков диспетчера очереди
     
-MAPI_PROFILE_PROVIDER 
+МАПИ_ПРОФИЛЕ_ПРОВИДЕР 
   
-> Поставщик профиля
+> Поставщик профилей
     
-MAPI_SPOOLER 
+МАПИ_СПУЛЕР 
   
-> Очереди сообщений
+> Диспетчер очереди сообщений
     
-MAPI_STORE_PROVIDER 
+МАПИ_СТОРЕ_ПРОВИДЕР 
   
 > Поставщик хранилища сообщений
     
-MAPI_SUBSYSTEM 
+МАПИ_СУБСИСТЕМ 
   
-> Внутренняя Подсистема MAPI
+> Внутренняя подсистема MAPI
     
-MAPI_TRANSPORT_PROVIDER 
+МАПИ_ТРАНСПОРТ_ПРОВИДЕР 
   
 > Поставщик транспорта
     
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -88,7 +88,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

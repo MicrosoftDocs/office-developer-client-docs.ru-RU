@@ -13,52 +13,52 @@ api_type:
 ms.assetid: 1ba40cc2-ba27-4d75-9682-c536cf3a0d58
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 25d1bb121df6470f5038a2106587e3f5b37f6bb7
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326616"
 ---
 # <a name="pidtagautoforwarded-canonical-property"></a>Каноническое свойство PidTagAutoForwarded
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если клиент запрашивает поле заголовка X-MS-Exchange-организации-автоматически переадресовано.
+Содержит значение true, если клиент запрашивает поле заголовка X – MS/Exchange – Organization – переадресованное.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_AUTO_FORWARDED  <br/> |
+|Связанные свойства:  <br/> |ПР_АУТО_ФОРВАРДЕД  <br/> |
 |Идентификатор:  <br/> |0x0005  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Общие отчеты  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Если это свойство присвоено значение FALSE или не используется, будут создаваться без поле заголовка X-MS-Exchange-организации-автоматически переадресовано.
+Если этому свойству присвоено значение FALSE или не используется, будет создано поле заголовка X-MS-Exchange-Organization-reForwarded.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Определяет каждого свойства, которое используется в объектах, описанные с префиксом MS-OXO документы.
+> Определяет каждое свойство, используемое в объектах, описанных в документах с префиксом MS-оксо.
     
-[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
+> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

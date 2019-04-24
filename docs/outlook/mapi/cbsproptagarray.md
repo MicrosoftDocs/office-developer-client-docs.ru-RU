@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: c5053f27-e23d-4a65-b079-5f33765c33f7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 5a4d25651423c697ffed713f82f41d7a5584bcfa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1cfc88b12331e94880feaed22869bd7608fb7ca8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564600"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329500"
 ---
 # <a name="cbsproptagarray"></a>CbSPropTagArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов в имеющуюся структуру [SPropTagArray](sproptagarray.md) . 
+Вычисляет количество байтов в существующей структуре [спроптагаррай](sproptagarray.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SPropTagArray** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 CbSPropTagArray (_lparray)
@@ -38,9 +38,9 @@ CbSPropTagArray (_lparray)
 
 ## <a name="parameters"></a>Параметры
 
- __lparray_
+ __лпаррай_
   
-> Указатель на структуру существующих **SPropTagArray** . 
+> Указатель на существующую структуру **спроптагаррай** . 
     
 ## <a name="see-also"></a>См. также
 

@@ -1,26 +1,26 @@
 ---
-title: IOlkEnumReset
+title: Иолкенумресет
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd822240-a895-65da-6a0e-76657c15a69e
-description: Сбрасывает перечислитель к началу.
-ms.openlocfilehash: 8bf18e4e4b1eebad48cedb86c9b0113aeb590558
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Сбрасывает перечислитель в начало.
+ms.openlocfilehash: 80be2ac522954ece0aa17dd9a6842c091522b98b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322185"
 ---
 # <a name="iolkenumreset"></a>IOlkEnum::Reset
 
-Сбрасывает перечислитель к началу.
+Сбрасывает перечислитель в начало.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkEnum](iolkenum.md).
+Обратитесь к разделу [иолкенум](iolkenum.md).
   
 ```cpp
 HRESULT IOlkEnum::Reset ();

@@ -8,28 +8,28 @@ f1_keywords:
 - Vis_DSS.chm82251882
 localization_priority: Normal
 ms.assetid: 73dc5981-2c8c-e76e-e4bd-e65a7c8db242
-description: Возвращает строку разделителя элементов списка для текущей операционной системы.
-ms.openlocfilehash: 77610b2cf3cc515fb5d3e8b4c6c48de98ab4acc2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает строку с разделителем списков для текущего языкового стандарта пользователя.
+ms.openlocfilehash: 901442a3c2af8509855b8b038057e7f813634ea1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814100"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322346"
 ---
 # <a name="listsep-function"></a>Функция LISTSEP
 
-Возвращает строку разделителя элементов списка для текущей операционной системы.
+Возвращает строку с разделителем списков для текущего языкового стандарта пользователя.
   
 ## <a name="syntax"></a>Синтаксис
 
-(LISTSEP)
+LISTSEP ()
   
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
 String
   
 ## <a name="example"></a>Пример
 
-SETF(GETREF(User.Extent) «MAX (ширина» &amp; ListSep() &amp; «Высота»)) 
+SETF (GETREF (User. экстент), "MAX (ширина" &amp; ListSep () &amp; "высота)") 
   
 

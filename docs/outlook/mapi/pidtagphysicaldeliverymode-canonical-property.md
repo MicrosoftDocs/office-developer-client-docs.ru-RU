@@ -12,39 +12,39 @@ api_type:
 - COM
 ms.assetid: 98597495-7761-4eda-ae75-1ccefa6abb81
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a19c67d7b83c4890c998cd2e53a36bfc34d11386
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a99760e11c34404f48ec193750b1a7f4ac541674
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583892"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327834"
 ---
 # <a name="pidtagphysicaldeliverymode-canonical-property"></a>Каноническое свойство PidTagPhysicalDeliveryMode
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит битовую маску флаги, определяющие режим физических доставки (например, особая доставка) для сообщений, предназначенный для определенного получателя.
+Содержит битовую маску флагов, определяющих режим физической доставки (например, особая доставка) для сообщения, предназначенного для определенного получателя.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PHYSICAL_DELIVERY_MODE  <br/> |
+|Связанные свойства:  <br/> |ПР_ФИСИКАЛ_ДЕЛИВЕРИ_МОДЕ  <br/> |
 |Идентификатор:  <br/> |0x0C0B  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Получатель MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

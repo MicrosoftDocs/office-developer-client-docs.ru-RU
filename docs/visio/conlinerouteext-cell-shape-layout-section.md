@@ -1,5 +1,5 @@
 ---
-title: Ячейка ConLineRouteExt (раздел "Макет фигуры")
+title: ConLineRouteExt Cell (Shape Layout Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,38 +8,38 @@ f1_keywords:
 - vis_sdr.chm50110
 localization_priority: Normal
 ms.assetid: cafd7589-1c94-b9bc-b1a6-40f7c15fba71
-description: Определяет внешний соединитель.
-ms.openlocfilehash: 7724466b6ad225fcf39243bc80ba2e440f3b700b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет внешний вид соединителя.
+ms.openlocfilehash: 19fe948daf7aa3d67db858849ecb2b15f40ba02d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327106"
 ---
-# <a name="conlinerouteext-cell-shape-layout-section"></a>Ячейка ConLineRouteExt (раздел "Макет фигуры")
+# <a name="conlinerouteext-cell-shape-layout-section"></a>ConLineRouteExt Cell (Shape Layout Section)
 
-Определяет внешний соединитель.
+Определяет внешний вид соединителя.
   
-|**Значение**|**Описание**|**Константа автоматизации**|
+|**Value**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| 0  <br/> | По умолчанию; Использование параметров страницы  <br/> |**visLORouteExtDefault** <br/> |
-| 1  <br/> | Прямой  <br/> |**visLORouteExtStraight** <br/> |
-| 2  <br/> | Круглая  <br/> |**visLORouteExtNURBS** <br/> |
+| нуль  <br/> | Умолчани использовать параметр страницы  <br/> |**Вислораутикстдефаулт** <br/> |
+| 1,1  <br/> | Располагает  <br/> |**Вислораутикстстраигхт** <br/> |
+| 2  <br/> | Прямолинейны  <br/> |**Вислораутикстнурбс** <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Чтобы получить ссылку на ячейку ConLineRouteExt по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку ConLineRouteExt по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | ConLineRouteExt  <br/> |
+| Имя ячейки:  <br/> | ConLineRouteExt  <br/> |
    
-Для получения ссылки на ячейки ConLineRouteExt по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку ConLineRouteExt по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowShapeLayout** <br/> |
-| Индекс ячейки:  <br/> |**visSLOLineRouteExt** <br/> |
+| Индекс строки:  <br/> |**Висровшапелайаут** <br/> |
+| Индекс ячейки:  <br/> |**Висслолинераутикст** <br/> |
    
 

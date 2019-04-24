@@ -1,5 +1,5 @@
 ---
-title: IMAPIStatus IMAPIProp
+title: Имапистатус IMAPIProp
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,63 +12,63 @@ api_type:
 - COM
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 23663cea49c50f3f584d6b06e331545320e8283b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f90cf661c069ecd476bd02c5719147633a8392e0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565384"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331530"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет сведения о состоянии о подсистемы MAPI, встроенная адресной книги и диспетчер очереди MAPI. Поставщик службы реализует **IMAPIStatus** для предоставления сведений о своем состоянии. 
+Предоставляет сведения о состоянии подсистемы MAPI, интегрированной адресной книги и диспетчере очереди MAPI. Поставщик услуг реализует **имапистатус** для предоставления сведений о своем состоянии. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Предоставляемые:  <br/> |Объекты состояния  <br/> |
-|Реализованный:  <br/> |Поставщиков услуг и MAPI  <br/> |
-|Вызывается:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IMAPIStatus  <br/> |
-|Тип указателя:  <br/> |LPMAPISTATUS  <br/> |
-|Модель транзакций:  <br/> |Не входящих в транзакции  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Предоставлено:  <br/> |Объекты состояний  <br/> |
+|Реализовано в:  <br/> |Поставщики услуг и MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_имапистатус  <br/> |
+|Тип указателя:  <br/> |ЛПМАПИСТАТУС  <br/> |
+|Модель транзакции:  <br/> |Не transactd  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[ValidateState](imapistatus-validatestate.md) <br/> |Проверяет состояние внешних информация, доступная для ресурсов MAPI или поставщика услуг.  <br/> |
-|[SettingsDialog](imapistatus-settingsdialog.md) <br/> |Отображает страницу свойств, который позволяет пользователю изменять конфигурации поставщика услуг.  <br/> |
-|[Изменение пароля](imapistatus-changepassword.md) <br/> |Изменение пароля поставщика услуг без отображения пользовательского интерфейса.  <br/> |
-|[FlushQueues](imapistatus-flushqueues.md) <br/> |Выполняет принудительное все сообщения, ожидающие отправку и получение для сразу же отправки или загрузки.  <br/> |
+|[Валидатестате](imapistatus-validatestate.md) <br/> |Проверяет внешние сведения о состоянии, доступные для ресурса MAPI или поставщика услуг.  <br/> |
+|[Сеттингсдиалог](imapistatus-settingsdialog.md) <br/> |Отображает страницу свойств, позволяющую пользователю изменить конфигурацию поставщика услуг.  <br/> |
+|[ChangePassword](imapistatus-changepassword.md) <br/> |Изменяет пароль поставщика услуг без отображения пользовательского интерфейса.  <br/> |
+|[FlushQueues](imapistatus-flushqueues.md) <br/> |Принудительно отправляет или загружает все сообщения, ожидающие отправки или получения.  <br/> |
    
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**Пр_провидер_дисплай** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**Пр_провидер_длл_наме** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**Пр_ресаурце_флагс** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**Пр_ресаурце_месодс** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**Пр_ресаурце_типе** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**Пр_статус_коде** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Состояние объекты, внедряемые MAPI поддерживают следующие методы:
+Объекты состояния, реализованные в MAPI, поддерживают следующие методы:
   
-|**Состояние объекта**|**Поддерживаемые методы**|
+|**Объект Status**|**Поддерживаемые методы**|
 |:-----|:-----|
-|Подсистема MAPI  <br/> |Только **ValidateState**  <br/> |
-|Адресная книга MAPI  <br/> |Только **ValidateState**  <br/> |
-|Диспетчер очереди MAPI  <br/> |**ValidateState** и **FlushQueues** <br/> |
+|Подсистема MAPI  <br/> |Только **валидатестате**  <br/> |
+|Адресная книга MAPI  <br/> |Только **валидатестате**  <br/> |
+|Диспетчер очереди MAPI  <br/> |**Валидатестате** и **FlushQueues** <br/> |
    
-Состояние объекты, внедряемые MAPI должны иметь только для чтения версии методов интерфейса [IMAPIProp](imapipropiunknown.md) и поддерживает метод **ValidateState** . Поставщики транспорта, также должны поддерживать **FlushQueues**. Все поставщики должны поддерживать **SettingsDialog**; Поддержка **Изменение пароля** является необязательным. 
+Для объектов status, реализованных в MAPI, необходима доступная только для чтения версия методов интерфейса [IMAPIProp](imapipropiunknown.md) и поддержка метода **валидатестате** . Поставщики транспорта также должны поддерживать **FlushQueues**. Все поставщики должны поддерживать **сеттингсдиалог**; поддержка **ChangePassword** является необязательной. 
   
-Клиенты используют объекты состояние для выполнения настройки, а также информацию о состоянии сеанса. Они доступ к объекту состояния путем вызова метода **OpenStatusEntry** объекта службы поставщика входа в систему или метод [IMAPISession::GetStatusTable](imapisession-getstatustable.md) для извлечения объекта состояния. 
+Клиенты используют объекты состояния для выполнения настройки и получения сведений о состоянии сеанса. Они обращаются к объекту status, вызывая метод **опенстатусентри** объекта входа поставщика услуг или метод [IMAPISession:: жетстатустабле](imapisession-getstatustable.md) для получения объекта Status. 
   
 ## <a name="see-also"></a>См. также
 

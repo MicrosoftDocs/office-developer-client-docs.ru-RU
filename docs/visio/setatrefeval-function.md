@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm1042150
 localization_priority: Normal
 ms.assetid: b3f3a0a0-7b14-0b71-d247-ada81b93b66b
-description: Используется в параметре ВЫРАЖЕНИЕ_МНОЖЕСТВА функции указывает, что этот set_expression должно оцениваться перед назначением параметру ссылки в функции SETATREF.
-ms.openlocfilehash: 0826ef9ca91e180576c0b2611452758b238736a6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Используется в параметре Set_Expression функции SETATREF, чтобы указать, что перед назначением параметра reference в SETATREF необходимо оценить значение аргумента Set_Expression.
+ms.openlocfilehash: a11a7485e04d4deb31e9497476bb198d675bc68f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326161"
 ---
 # <a name="setatrefeval-function"></a>Функция SETATREFEVAL
 
-Используется в _параметре ВЫРАЖЕНИЕ_МНОЖЕСТВА функции_ указывает, что этот _set_expression_ должно оцениваться перед назначением параметру _ссылки_ в функции SETATREF. 
+Используется в параметре _Set_Expression_ функции SETATREF, чтобы указать, что __ перед назначением параметра _Reference_ в SETATREF необходимо оценить значение аргумента Set_Expression. 
   
 ## <a name="syntax"></a>Синтаксис
 
-SETATREFEVAL (** *expr* **) 
+SETATREFEVAL (* * *expr* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _expr_ <br/> |Обязательный  <br/> |**Разные** <br/> | Выражение, которое оценивается при ВЫРАЖЕНИЕ_МНОЖЕСТВА функции перенаправляет _set_expression_ на другую ячейку.  <br/> |
+| _expr_ <br/> |Обязательный  <br/> |**Разные** <br/> | Выражение, которое оценивается, когда функция SETATREF перенаправляет аргумент _Set_Expression_ в другую ячейку.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-При назначении *параметре ВЫРАЖЕНИЕ_МНОЖЕСТВА функции* на ячейку, который указывает ссылка, Microsoft Visio записывает *set_expression* ячейки как выражение по умолчанию. Тем не менее если любой части *параметре* переносится с помощью функции SETATREFEVAL, Visio применяет выражение и заменяет функции SETATREFEVAL результат перед разрешением выражение функции SETATREF. 
+При назначении аргумента *Set_Expression* функции SETATREF ячейке, на которую указывает ссылка, Microsoft Visio записывает аргумент *Set_Expression* в ячейку как выражение по умолчанию. Тем не менее, если какая-либо часть параметра *Set_Expression* упакована функцией SETATREFEVAL, Visio вычисляет выражение и заменяет функцию SETATREFEVAL на ее результат перед разрешением выражения SETATREF. 
   
 ## <a name="example"></a>Пример
 
-Пример в разделе [ВЫРАЖЕНИЕ_МНОЖЕСТВА](setatref-function.md) функции. 
+Пример приведен в разделе Функция [SETATREF](setatref-function.md) . 
   
 

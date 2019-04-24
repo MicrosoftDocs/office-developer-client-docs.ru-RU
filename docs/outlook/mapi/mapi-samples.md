@@ -7,11 +7,11 @@ ms.assetid: 641659f2-3c0a-43af-96f1-2521b4b06680
 description: Примеры кода, показывающие способы выполнения определенных задач или реализации определенных поставщиков служб с помощью MAPI для Outlook.
 localization_priority: Priority
 ms.openlocfilehash: b4d866d1e064c722228af4dbc16cf5f7251603d9
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702609"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328149"
 ---
 # <a name="mapi-samples"></a>Примеры MAPI
 

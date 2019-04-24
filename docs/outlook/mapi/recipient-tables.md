@@ -8,58 +8,58 @@ api_type:
 - COM
 ms.assetid: 02e77317-54c4-4fca-9ab4-835998ce07ce
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: fdca2f65c73c0db0fa0b7d59b8d49b218aeb2330
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8950623308e85de1d239deb322f65ee867a33ca0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565090"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328422"
 ---
 # <a name="recipient-tables"></a>Таблицы получателей
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Получателей таблица содержит сведения о всех получателей сообщения. Поставщики хранилища сообщений реализации получателей таблиц и их использования для клиентских приложений. Клиенты получить доступ к таблице получателей, вызвав метод [IMessage::GetRecipientTable](imessage-getrecipienttable.md) или если поставщик хранилища сообщения его поддерживает метод [IMAPIProp::OpenProperty](imapiprop-openproperty.md) . Для доступа клиентов к получателей таблицы с **OpenProperty** путем указания для свойства tag и IID_IMAPITable **PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) для идентификатора интерфейса. Путем вызова метода [IMessage::ModifyRecipients](imessage-modifyrecipients.md) можно внесены изменения в таблицу получателей. 
+Таблица Recipient содержит сведения обо всех получателях сообщения. Поставщики хранилищ сообщений реализуют таблицы получателей, а клиентские приложения используют их. Клиенты обращаются к таблице получателей, выполнив вызов метода [iMessage:: жетреЦипиенттабле](imessage-getrecipienttable.md) , или если поставщик хранилища сообщений поддерживает его, в метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) . Клиенты обращаются к таблицам получателей с помощью **опенпроперти** , указывая **пр_мессаже_реЦипиентс** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)) для тега свойства и иид_имапитабле для идентификатора интерфейса. Изменения в таблице получателей можно выполнить, вызвав метод [iMessage:: модифиреЦипиентс](imessage-modifyrecipients.md) . 
   
-Получателей таблицы имеют набор в зависимости от того, является ли сообщение отправлено различных столбцов. Следующие свойства составляют обязательный столбец, задайте в таблицах получателей:
+Таблицы получателей имеют разный набор столбцов в зависимости от того, было ли отправлено сообщение. Следующие свойства составляют обязательный набор столбцов в таблицах получателей:
   
-- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+- **Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-- **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
+- **Пр_реЦипиент_типе** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md))
     
-- **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md))
+- **Пр_ровид** ([PidTagRowid](pidtagrowid-canonical-property.md))
     
-Необязательный условий.
+Необязательные свойства:
   
-- **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
+- **Пр_дисплай_типе** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))
     
-- **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
+- **Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))
     
-- **PR_SPOOLER_STATUS** ([PidTagSpoolerStatus](pidtagspoolerstatus-canonical-property.md))
+- **Пр_спулер_статус** ([PidTagSpoolerStatus](pidtagspoolerstatus-canonical-property.md))
     
-- **PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))
+- **Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))
     
-Отправленных сообщений должен включать дополнительные свойства в их набор необходимых столбцов:
+Отправленные сообщения должны включать следующие дополнительные свойства в требуемый набор столбцов:
   
-- **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
+- **Пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
-- **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md))
+- **Пр_респонсибилити** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md))
     
-В зависимости от реализации поставщика для дополнительных столбцов, такие как **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)) и [ENTRYID](entryid.md), возможно, в таблице.
+В зависимости от реализации поставщика дополнительные столбцы, такие как **пр_сендер_наме** ([PidTagSenderName](pidtagsendername-canonical-property.md)) и [EntryID](entryid.md), могут находиться в таблице.
   
-Любой поставщика хранилища сообщений, поддерживающего передачи сообщений — как указано в STORE_SUBMIT_OK бит в свойстве поставщика **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)) — следует обеспечивают поддержку для определенного набора ограничения в реализации получателей в таблице. **И**, **или**, существует и ограничений свойств являются между типами ограничения, которые должны быть доступны пользователям получателей в таблице. Только операторы равно и не равно должны поддерживаться в ограничении свойства. Эти ограничения должны работать со следующими свойствами:
+Любой поставщик хранилища сообщений, поддерживающий передачу сообщений, как указано в битовом СТОРЕ_СУБМИТ_ОК, заданном в свойстве **пр_сторе_суппорт_маск** поставщика ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), должен поддерживать определенный набор ограничения в реализации таблицы получателей. Ограничения " **и**", "существует" и "Свойства" относятся к типам ограничений, которые должны быть доступны для пользователей таблицы получателей. **** Только операторы EQUAL и Not Equals должны поддерживаться в ограничении свойства. Эти ограничения должны работать со следующими свойствами:
   
-- **PR_ADDRTYPE**
+- **ПР_АДДРТИПЕ**
     
-- **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) 
+- **Пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) 
     
-- **PR_RECIPIENT_TYPE**
+- **ПР_РЕЦИПИЕНТ_ТИПЕ**
     
-- **PR_RESPONSIBILITY**
+- **ПР_РЕСПОНСИБИЛИТИ**
     
-- **PR_SPOOLER_STATUS**
+- **ПР_СПУЛЕР_СТАТУС**
     
 ## <a name="see-also"></a>См. также
 

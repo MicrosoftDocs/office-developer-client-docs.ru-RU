@@ -1,45 +1,45 @@
 ---
-title: Определение свойства потока структуры
+title: Структура потока PropertyDefinition
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b2de22eef455e59b7877524ce998e93a0a708e0c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 479339762867aa778bc8bc8baa1f21f6bc34b441
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22566658"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328485"
 ---
-# <a name="propertydefinition-stream-structure"></a>Определение свойства потока структуры
+# <a name="propertydefinition-stream-structure"></a>Структура потока PropertyDefinition
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Структура потока определение свойства — массив структур [FieldDefinition](fielddefinition-stream-structure.md) потока, которые содержат определения для всех пользовательских полей в элемент Microsoft Outlook и параметры привязки данных для некоторых встроенных полей. 
+Структура потока PropertyDefinition — это массив структуры потоков [FieldDefinition](fielddefinition-stream-structure.md) , который содержит определения для всех пользовательских полей в элементе Microsoft Outlook и параметры привязки данных для некоторых встроенных полей. 
   
-Можно программно работать структура потока определение свойства. Тем не менее можно получить такой же результат с помощью конструктора форм Outlook, и, в частности, поле диалоговое окно **свойств** элемента управления с привязкой к данным. 
+Можно программно управлять структурой потока PropertyDefinition. Тем не менее, вы можете добиться похожих результатов с помощью конструктора форм Outlook и, в частности, диалогового окна **Свойства** для элемента управления с привязкой к данным. 
   
-Определения полей в структуре потока определение свойства может иметь одно из следующих форматов: PropDefV1 и PropDefV2. Outlook поддерживает PropDefV1 и PropDefV2. Все определения полей в структуре одного потока определение свойства должен иметь тот же формат. Дополнительные сведения о отличия между PropDefV1 и PropDefV2 Просмотр [Структуры FieldDefinition потока](fielddefinition-stream-structure.md).
+Определения полей в структуре потока PropertyDefinition могут иметь один из двух форматов: PropDefV1 и PropDefV2. Outlook поддерживает как PropDefV1, так и PropDefV2. Все определения полей в одной структуре потока PropertyDefinition должны относиться к одному и тому же формату. Дополнительные сведения о различиях PropDefV1 и PropDefV2 см. в разделе [FieldDefinition streamIng Structure](fielddefinition-stream-structure.md).
   
-Элементы данных в этот поток хранятся в прямом байтовом, сразу после друг с другом в указанном порядке.
+Элементы данных в этом потоке хранятся в порядке байтов с прямым порядком байтов, сразу после друг друга в порядке, указанном ниже.
   
-- Версия: WORD (2 байта), формат определения полей в определение свойства передать в потоковом режиме структуры. В следующей таблице показаны возможные значения.
+- Версия: WORD (2 байта), формат определений полей в структуре потока PropertyDefinition. В следующей таблице представлены возможные значения.
     
-    |**Значение**|**Описание**|
+    |**Value**|**Описание**|
     |:-----|:-----|
     |0x0102  <br/> |Формат — PropDefV1.  <br/> |
     |0x0103  <br/> |Формат — PropDefV2.  <br/> |
    
-- FieldDefinitionCount: Значение DWORD (4 байта), количество определения полей в этот поток. Это число элементов массива в элементе data FieldDefinitions.
+- Фиелддефинитионкаунт: DWORD (4 байта), количество определений полей в этом потоке. Это количество элементов массива в элементе данных Фиелддефинитионс.
     
-- FieldDefinitions: Массив структур FieldDefinition потока. Число этого массива равно FieldDefinitionCount элемента данных.
+- Фиелддефинитионс: массив структуры потоков FieldDefinition. Количество этого массива равно элементу данных Фиелддефинитионкаунт.
     
 ## <a name="see-also"></a>См. также
 
-- [Поля и элементы Outlook](outlook-items-and-fields.md)
+- [Элементы и поля Outlook](outlook-items-and-fields.md)
 - [Добавление определения для нового пользовательского поля](how-to-add-a-definition-for-a-new-user-defined-field.md)
 - [Пример потока PropertyDefinition](propertydefinition-stream-sample.md)
-- [Структуры потоков](stream-structures.md)
+- [Структуры потока](stream-structures.md)
 

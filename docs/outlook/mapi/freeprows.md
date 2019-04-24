@@ -12,12 +12,12 @@ api_type:
 - HeaderDef
 ms.assetid: 0f8f9fc4-4940-4c0a-92cc-2a6409b9a13f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0686cee9bf6fa47332f75f99e1d2a2d35cb7e7fb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b1109b3201e1b1e4a78c3a0fe0f2eb4d0cd43c05
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22578026"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328016"
 ---
 # <a name="freeprows"></a>FreeProws
 
@@ -25,13 +25,13 @@ ms.locfileid: "22578026"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Удаляет структуру [SRowSet](srowset.md) и освобождает связанные памяти, включая объем памяти, выделенный для всех элементов массивов и структур. 
+Уничтожает структуру [SRowSet](srowset.md) и освобождает связанную память, в том числе память, выделенную для всех массивов и структур элементов. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiutil.h  <br/> |
+|Файл заголовка:  <br/> |Мапиутил. h  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
-|Вызывающая сторона:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения и поставщики услуг  <br/> |
    
 ```cpp
 void FreeProws(
@@ -41,9 +41,9 @@ void FreeProws(
 
 ## <a name="parameters"></a>Параметры
 
- _prows_
+ _провс_
   
-> [in] Указатель на структуру **SRowSet** удалена. 
+> возврата Указатель на структуру **SRowSet** , которую необходимо уничтожить. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -51,9 +51,9 @@ void FreeProws(
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-Как часть его реализация **FreeProws**MAPI вызывает функцию [MAPIFreeBuffer](mapifreebuffer.md) для освобождения каждой записи в структуре **SRowSet** перед очисткой полной структурой. Таким образом все записи следует правила распределения для структуры [SRowSet](srowset.md) , с помощью отдельного вызова [MAPIAllocateBuffer](mapiallocatebuffer.md) для каждого элемента массива и структуры. 
+В рамках реализации **фрипровс**MAPI вызывает функцию [мапифрибуффер](mapifreebuffer.md) , чтобы освободить каждую запись в структуре **SRowSet** , прежде чем освобождать всю структуру. Таким образом, все такие записи должны следовать правилам распределения для структуры [SRowSet](srowset.md) , используя отдельный вызов [мапиаллокатебуффер](mapiallocatebuffer.md) для каждого массива и структуры элементов. 
   
-Дополнительные сведения о выделении памяти для структуры **ADRLIST** и **SRowSet** можно [Памяти ADRLIST и SRowSet структур](managing-memory-for-adrlist-and-srowset-structures.md). 
+Дополнительные сведения о выделении памяти для структур **ADRLIST** и **SRowSet** можно найти в статье [Управление памятью для структур ADRLIST и SRowSet](managing-memory-for-adrlist-and-srowset-structures.md). 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -61,7 +61,7 @@ void FreeProws(
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |DwThreadFuncLoadTable  <br/> |Mfcmapi (en) использует метод **FreeProws** , чтобы освободить место на структуру SRowSet, содержащую строки в таблице, обрабатываемых.  <br/> |
+|Контентстаблелистктрл. cpp  <br/> |Двсреадфунклоадтабле  <br/> |MFCMAPI использует метод **фрипровс** для освобождения структуры SRowSet, содержащей строки обрабатываемой таблицы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

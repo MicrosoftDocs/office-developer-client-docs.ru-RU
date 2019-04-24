@@ -1,5 +1,5 @@
 ---
-title: Ячейка HideForApply (раздел "Свойства стиля")
+title: HideForApply Cell (Style Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,39 +8,39 @@ f1_keywords:
 - Vis_DSS.chm82251698
 localization_priority: Normal
 ms.assetid: 62d87db9-b8ca-60b6-bf27-5168c718ec96
-description: Определяет, где стиля отображается в интерфейсе пользователя Microsoft Visio.
-ms.openlocfilehash: 5b0221c54c17a3b9957cce5e890842def0ba7525
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, где отображается стиль в пользовательском интерфейсе Microsoft Visio.
+ms.openlocfilehash: 7b3830488770a66d7be35923e1807dbcdcd1f1c3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813918"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329955"
 ---
-# <a name="hideforapply-cell-style-properties-section"></a>Ячейка HideForApply (раздел "Свойства стиля")
+# <a name="hideforapply-cell-style-properties-section"></a>HideForApply Cell (Style Properties Section)
 
-Определяет, где стиля отображается в интерфейсе пользователя Microsoft Visio.
+Определяет, где отображается стиль в пользовательском интерфейсе Microsoft Visio.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Показать стиль только в **Обозревателе документа**.  <br/> |
-| FALSE  <br/> | Показать стиль в **Обозревателе документа**.  <br/> |
+| TRUE  <br/> | Отображение стиля только в проводнике по **документам**.  <br/> |
+| FALSE  <br/> | Отображение стиля в проводнике по **документам**.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Если новый стиль основывается на стиль, который скрыт, новый стиль не наследует этот атрибут.
+Когда вы создаете новый стиль для скрытого стиля, новый стиль не наследует этот атрибут.
   
-Чтобы получить ссылку на ячейку HideForApply по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку HideForApply по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | HideForApply  <br/> |
+| Имя ячейки:  <br/> | HideForApply  <br/> |
    
-Для получения ссылки на ячейки HideForApply по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку HideForApply по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowStyle** <br/> |
-| Индекс ячейки:  <br/> |**visStyleHidden** <br/> |
+| Индекс строки:  <br/> |**Висровстиле** <br/> |
+| Индекс ячейки:  <br/> |**Висстилехидден** <br/> |
    
 

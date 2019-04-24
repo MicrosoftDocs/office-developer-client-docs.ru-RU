@@ -1,31 +1,31 @@
 ---
-title: Элемент название значка (FaceNames_Type complexType) ('Visio XML»)
+title: Элемент Фаценаме (Фаценамес_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b1783f05-ced1-917f-8298-eca4ecfa3912
-description: Содержит сведения о шрифта.
+description: Содержит сведения о шрифте.
 ms.openlocfilehash: 4c8f047d655be167dc058b3e29ac62161887ce99
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389780"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322605"
 ---
-# <a name="facename-element-facenamestype-complextype-visio-xml"></a>Элемент название значка (FaceNames_Type complexType) ('Visio XML»)
+# <a name="facename-element-facenamestype-complextype-visio-xml"></a>Элемент Фаценаме (Фаценамес_типе complexType) (' Visio XML ')
 
-Содержит сведения о шрифта.
+Содержит сведения о шрифте.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Фаценаме_типе](facename_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25389780"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[FaceNames](facenames-element-visiodocument_type-complextypevisio-xml.md) <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **Название значка** .  <br/> |
+|[Фаценамес](facenames-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Фаценамес_типе](facenames_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **фаценаме** .  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,10 +52,10 @@ ms.locfileid: "25389780"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Наборов символов  <br/> |XSD:String  <br/> |необязательный  <br/> |Поддерживаемые кодировки шрифта.  <br/> |Значения типа xsd:string.  <br/> |
-|Флаги  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Флаги, указывающие следующее: отсутствующие шрифта, шрифта по умолчанию, азиатских шрифтов, сложных шрифтов, вертикальной шрифт и тип шрифта.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|NameU  <br/> |XSD:String  <br/> |Обязательный  <br/> |Имя шрифта строки Юникод UTF-16.  <br/> ||
-|Panos  <br/> |XSD:String  <br/> |необязательный  <br/> |Подпись сходстве для шрифта. Сходстве — это система классификации для гарнитуры, разделяет на их основе своих визуальных характеристик категории.  <br/> |Значения типа xsd:string.  <br/> |
-|UnicodeRanges  <br/> |XSD:String  <br/> |необязательный  <br/> |Поддерживаемые Диапазоны Юникода шрифта.  <br/> |Значения типа xsd:string.  <br/> |
+|Чарсетс  <br/> |XSD: строка  <br/> |необязательный  <br/> |Поддерживаемые кодировки шрифта.  <br/> |Значения типа String: XSD.  <br/> |
+|Flags  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Флаги, указывающие на следующие значения: отсутствующий шрифт, используемый по умолчанию шрифт, азиатский шрифт, сложный шрифт, вертикальный шрифт и тип шрифта.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|NameU  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Имя шрифта в виде строки Юникода UTF – 16.  <br/> ||
+|Панос  <br/> |XSD: строка  <br/> |необязательный  <br/> |Подпись паносе для шрифта. Паносе — это система классификации для гарнитур, которые классифицируются на основе их визуальных характеристик.  <br/> |Значения типа String: XSD.  <br/> |
+|Уникодеранжес  <br/> |XSD: строка  <br/> |необязательный  <br/> |Поддерживаемые диапазоны Юникода для шрифта.  <br/> |Значения типа String: XSD.  <br/> |
    
 

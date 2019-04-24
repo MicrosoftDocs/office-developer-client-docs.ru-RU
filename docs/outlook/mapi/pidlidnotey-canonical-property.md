@@ -13,43 +13,43 @@ api_type:
 ms.assetid: ad6a7dc2-506e-4e22-b2a6-9dd6d0a5dd9f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 73e10bba0886dcc5ae7d55a575d93dd411a1bf15
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398173"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331278"
 ---
 # <a name="pidlidnotey-canonical-property"></a>Каноническое свойство PidLidNoteY
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Расстояние в точках от верхнего края экрана, где выводится сообщение о пользовательского интерфейса.
+Задает расстояние от верхнего края экрана, на котором отображается заметка, в пикселях.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidNoteY  <br/> |
-|Набор свойств:  <br/> |PSETID_Note  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008B05  <br/> |
+|Связанные свойства:  <br/> |Диспиднотэй  <br/> |
+|Набор свойств:  <br/> |Псетид_ноте  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008B05  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Заметка  <br/> |
+|Область:  <br/> |ЗаМетка  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
+[[MS — ОКСОНОТЕ]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые на заметки.
+> Задает свойства и операции, допустимые для заметок.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

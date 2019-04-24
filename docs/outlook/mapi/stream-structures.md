@@ -1,28 +1,28 @@
 ---
-title: Структуры потоков
+title: Структуры потока
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 9e305071-b6a5-4bd8-892e-25553d04bb15
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 5f372e93457f2b7ef8830ae6bd0363f6b3a7bd60
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7f1f1e028797edaa0afb45df4f39aca15ff6d425
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581582"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327442"
 ---
-# <a name="stream-structures"></a>Структуры потоков
+# <a name="stream-structures"></a>Структуры потока
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Определения пользовательских полей элемента Microsoft Outlook сохраняются в свойстве [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) . Значение этого свойства — это двоичный поток, который содержит определения пользовательских полей и параметров привязки данных для встроенных полей для элемента Outlook. В этом разделе представлены сведения о структуре двоичный поток, разбитым в следующих структур потока. 
+Определения определяемых пользователем полей элемента Microsoft Outlook хранятся в свойстве [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) . Значение этого свойства — это двоичный поток, который содержит определения пользовательских полей и параметры привязки к данным для встроенных полей элемента Outlook. В этом разделе представлены сведения о структуре двоичного потока, разбитых в следующих структурах потока. 
   
 > [!NOTE]
-> Имена эти структуры потока (например, определение свойства, FieldDefinition и SkipBlock) и их элементов данных не технически частью API-интерфейс системы обмена сообщениями API (MAPI) и содержащиеся в этой статье только для документации в целях структур фактический потока. Разработчики можно пометить эти элементы структуры и данные потока в своих приложениях по своему выбору. 
+> Имена этих структур потоков (например, PropertyDefinition, FieldDefinition и SkipBlock) и их элементы данных технически не являются частью программного интерфейса API обмена сообщениями (MAPI) и предоставляются здесь только для документации. для фактических структур потоков. Разработчики могут помечать эти структуры потоков и элементы данных в своих приложениях по мере их выбора. 
   
 - [Структура потока PropertyDefinition](propertydefinition-stream-structure.md)
     
@@ -40,7 +40,7 @@ ms.locfileid: "22581582"
 
 
 
-[Поля и элементы Outlook](outlook-items-and-fields.md)
+[Элементы и поля Outlook](outlook-items-and-fields.md)
   
 [Добавление определения для нового пользовательского поля](how-to-add-a-definition-for-a-new-user-defined-field.md)
   

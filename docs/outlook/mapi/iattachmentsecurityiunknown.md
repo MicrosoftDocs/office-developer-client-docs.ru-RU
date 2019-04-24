@@ -1,5 +1,5 @@
 ---
-title: IAttachmentSecurity IUnknown
+title: Иаттачментсекурити IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 69609f73-5884-9e2b-ab78-a2e0ece3a1d1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f182610f9cf4874cc18c409960e1f8b23f853d4f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a8464c8265ebc1754f7909be5413620e7f76db5f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574828"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326987"
 ---
 # <a name="iattachmentsecurity--iunknown"></a>IAttachmentSecurity : IUnknown
 
@@ -25,21 +25,21 @@ ms.locfileid: "22574828"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Позволяет Microsoft Outlook 2010 и Microsoft Outlook 2013 решения узнать, если вложение считается небезопасные и заблокированные для просмотра и индексирования.
+Позволяет решениям Microsoft Outlook 2010 и Microsoft Outlook 2013 проверить, считается ли вложение небезопасным и заблокировано для просмотра и индексирования.
   
 |||
 |:-----|:-----|
-|Идентификатор интерфейса:  <br/> |IID_IAttachmentSecurity  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_иаттачментсекурити  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Проверяет, если указанное вложение не заблокирован по Outlook 2010 или Outlook 2013 для просмотра и индексирования.  <br/> |
+|[IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) <br/> |Проверяет, заблокировано ли заданное вложение Outlook 2010 или Outlook 2013 для просмотра и индексирования.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Решения для Outlook 2010 и Outlook 2013 можно запросить этот интерфейс, чтобы увидеть, если вложения блокируется. Вложения, которые блокируются по Outlook 2010 или Outlook 2013 различаться в зависимости от того, как был настроен Outlook 2010 или Outlook 2013 и политики, примененные администратора.
+Решения Outlook 2010 и Outlook 2013 могут запрашивать этот интерфейс, чтобы проверить, заблокировано ли вложение. Вложения, блокируемые Outlook 2010 или Outlook 2013, зависят от того, как настроены Outlook 2010 или Outlook 2013, а также политики, примененные администратором.
   
 ## <a name="see-also"></a>См. также
 
@@ -47,5 +47,5 @@ ms.locfileid: "22574828"
 
 [Константы MAPI](mapi-constants.md)
   
-[Убедитесь, что Заблокированные вложения](how-to-verify-an-attachment-is-blocked.md)
+[Проверка блокировки вложения](how-to-verify-an-attachment-is-blocked.md)
 

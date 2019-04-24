@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: cd8d60df-98fb-4e08-b547-0836bb31be79
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 1046c8d92feec16428329636257ed9c1f0ec8719
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 15c07c05af82389bce697c300cd9b1d504e98736
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571481"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328562"
 ---
 # <a name="profile-tables"></a>Таблицы профилей
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В таблице профилей приведены сведения о всех профилей, связанных с определенной клиентским приложением. Существует одна таблица профиль для каждого сеанса реализован MAPI для использования клиентами. 
+В таблице Profile перечисляются сведения обо всех профилях, связанных с определенным клиентским приложением. Для каждого сеанса существует одна таблица профилей, реализованная MAPI для использования клиентами. 
   
-Для доступа клиентов к таблице профилей путем вызова метода [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) . 
+Клиенты получают доступ к таблице профилей, вызывая метод [ипрофадмин:: жетпрофилетабле](iprofadmin-getprofiletable.md) . 
   
-В таблице профилей — это статическая таблица. Профили, помеченные для удаления не включаются в таблице профилей.
+Таблица Profile является статической таблицей. Профили, помеченные для удаления, не включаются в таблицу профилей.
   
-Как большинство реализаций таблицы, если называется **GetProfileTable** и нет профилей, доступных для клиента, создается таблица с нуля строк. 
+Как и в большинстве реализаций таблиц, если **жетпрофилетабле** вызывается, а для клиента нет доступных профилей, таблица создается с нулевым количеством строк. 
   
-Следующие свойства составляют обязательный столбец, задайте в таблицах профилей:
+Следующие свойства составляют обязательный набор столбцов в таблицах профилей:
   
- **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 
+ **Пр_дефаулт_профиле** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 
   
- **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
+ **Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
   
 ## <a name="see-also"></a>См. также
 

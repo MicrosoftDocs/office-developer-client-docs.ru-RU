@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 39fd9df4-4fb8-412e-a610-d450051516ed
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9d441f10a41b2f29f29d6d22a45f3c6f52270a1a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 64f98c8a9f8ab515393bb0fac4bdc10e98d9760f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329304"
 ---
 # <a name="pidtagnonreceiptreason-canonical-property"></a>Каноническое свойство PidTagNonReceiptReason
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит причины почему сообщение не было получено часть отчет о недоставке.
+Содержит причины, по которым сообщение не было получено в составе отчета о недоставке.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_NON_RECEIPT_REASON  <br/> |
+|Связанные свойства:  <br/> |ПР_НОН_РЕЦЕИПТ_РЕАСОН  <br/> |
 |Идентификатор:  <br/> |0x003E  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Причин может включать, например, был удален, что сообщение.
+Причины могут включать, например, то, что сообщение было отклонено.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

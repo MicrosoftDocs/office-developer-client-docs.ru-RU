@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: bc979398-f1ad-4496-b982-428b95719369
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1717e30679fb3f6721690db75fb5dd402048eb09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 1f00a57798b03edb368fb0dc59fead7a2e9f5c8f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575051"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329248"
 ---
 # <a name="pidtagobsoletedmessageids-canonical-property"></a>Каноническое свойство PidTagObsoletedMessageIds
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификаторы сообщений, которые заменяет это сообщение.
+Содержит идентификаторы сообщений, которые заменяют это сообщение.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_OBSOLETED_IPMS  <br/> |
+|Связанные свойства:  <br/> |ПР_ОБСОЛЕТЕД_ИПМС  <br/> |
 |Идентификатор:  <br/> |0x001F  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Идентификаторы, содержащихся в это свойство является основным требованием стандартных поиска с использованием формата свойство **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
+Идентификаторы, хранящиеся в этом свойстве, являются стандартными ключами поиска, использующими формат свойства **пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

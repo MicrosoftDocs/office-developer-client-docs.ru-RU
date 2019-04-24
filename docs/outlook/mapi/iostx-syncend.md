@@ -1,5 +1,5 @@
 ---
-title: IOSTXSyncEnd
+title: Иосткссинценд
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: da9de705-bdab-6cb8-35ea-61f03cdc4ff5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: fd5b2ed23eba30cbe861a20c4fd100cb8ea1aeb0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 364914df1c5897241dfeb89cce2cc3c62018ce24
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332153"
 ---
 # <a name="iostxsyncend"></a>IOSTX::SyncEnd
 
@@ -25,15 +25,15 @@ ms.locfileid: "22568842"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Завершает синхронизации в текущем состоянии и выходе из этого состояния.
+Завершает синхронизацию в текущем состоянии и выходит из этого состояния.
   
 ```cpp
 HRESULT SyncEnd();
 ```
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Комментарии
 
-Клиент должен вызывать **IOSTX::SyncEnd** для каждого вызова [IOSTX::SyncBeg](iostx-syncbeg.md). Соответствующий структура данных содержит сведения, которые указывают ли клиент успешного завершения текущего состояния, Outlook может Очистка внутреннего состояния.
+Клиент должен вызвать **иосткс:: синценд** для каждого вызова [Иосткс:: синкбег](iostx-syncbeg.md). Соответствующая структура данных содержит сведения, указывающие, успешно ли клиент завершил текущее состояние, чтобы Outlook мог очистить его внутреннее состояние.
   
 ## <a name="see-also"></a>См. также
 

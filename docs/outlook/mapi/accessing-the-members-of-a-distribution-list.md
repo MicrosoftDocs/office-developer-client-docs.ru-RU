@@ -8,27 +8,27 @@ api_type:
 - COM
 ms.assetid: f724cac8-2d5d-42bc-a15e-99f77a99ce21
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a32552343fa90dfbbb3571f50846976a5f5f5edd
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2944a53d27bc916ccafcfa649d79e3c00afaf622
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22595365"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331243"
 ---
 # <a name="accessing-the-members-of-a-distribution-list"></a>Доступ к участникам списка рассылки
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- **Получение членов списка рассылки**
+ **Получение списка участников списка рассылки**
   
-1. Создание массива тег размера свойства со свойствами для членов, которые вы хотите получить, такие как **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) и **PR_DISPLAY_TYPE** ([ PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
+1. Создайте массив тегов свойств с изменяемыми свойствами элементов, которые требуется извлечь, например **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) и **пр_дисплай_типе** ([ PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
     
-2. Вызовите [IAddrBook::OpenEntry](iaddrbook-openentry.md) , чтобы открыть список рассылки. 
+2. Call [IAddrBook:: OpenEntry](iaddrbook-openentry.md) , чтобы открыть список рассылки. 
     
-3. Вызов метода **IABContainer::GetContentsTable** списка рассылки для доступа к его содержимое в таблице. 
+3. ВыЗовите метод **иабконтаинер:: жетконтентстабле** списка рассылки для доступа к своей таблице содержимого. 
     
-4. Вызовите [HrQueryAllRows](hrqueryallrows.md) , чтобы получить все строки в таблице, представляющее членов списка рассылки. 
+4. ВыЗовите [хркуеряллровс](hrqueryallrows.md) , чтобы получить все строки таблицы, представляющие участников списка рассылки. 
     
 

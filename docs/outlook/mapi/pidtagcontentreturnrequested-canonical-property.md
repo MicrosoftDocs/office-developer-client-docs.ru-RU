@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: f86f7c59-42ab-4ac0-80fe-c985103e6bd6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9db28f282baf18ec983f6f51c989bacea4cf76f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c64288f393f15ee330065a43a92930f2e6f4e134
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22586594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331908"
 ---
 # <a name="pidtagcontentreturnrequested-canonical-property"></a>Каноническое свойство PidTagContentReturnRequested
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если сообщение должны быть возвращены с отчетом о недоставке. 
+Содержит значение TRUE, если сообщение должно быть возвращено с отчетом о недоставке. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTENT_RETURN_REQUESTED  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНТЕНТ_РЕТУРН_РЕКУЕСТЕД  <br/> |
 |Идентификатор:  <br/> |0x000A  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Отчет  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Если это свойство не задано, MAPI обрабатывает ее как имеющий значение TRUE. 
+Если это свойство не задано, MAPI рассматривает его как имеющий значение TRUE. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

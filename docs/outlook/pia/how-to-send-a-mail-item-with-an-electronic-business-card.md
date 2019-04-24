@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 25809fc0d1726c9f56be417ae53fadecc831d62f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704548"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331152"
 ---
 # <a name="send-a-mail-item-with-an-electronic-business-card"></a>Отправка почтового элемента с электронной визитной карточкой
 

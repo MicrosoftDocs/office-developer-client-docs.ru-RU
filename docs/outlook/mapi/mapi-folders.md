@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 8fac3c92-d2f5-479e-a368-ca82bddd8e30
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: 21b738424b27d3d89d8de84c8c9ff2ff86dd945b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c00dce9ec489ca2b886f3e51551ba57e9eeea33
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331565"
 ---
 # <a name="mapi-folders"></a>����� MAPI
 
@@ -39,23 +39,23 @@ ms.locfileid: "22564089"
   
 ����� ������ �������� ������ �� ���������, ������� ������������� ������ �������������� �������� �������. ��� ��� ����� ������ �������� ������, � �� ����������� ���������, ��� �������� ���������� ������ ��� ������. ��� �� ����� ��������� ������ ����� ��� ��������� ��� ����� ����������� ��� ����������� � ���. ��� �� ����� ����� ����� ���������, ��������� � ���; � ��� ���� ������ ����������, ����������� ��� ������������. ��������� ������� �� ����� ������, ���������� ��������� �� �����, ���������� ���������.
   
-Тип папки хранится в свойстве **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)). ������ ����� ��� �������� ����� �������� FOLDER_GENERIC, FOLDER_ROOT ��� FOLDER_SEARCH, � ����������� �� ����.
+Тип папки хранится в свойстве **пр_фолдер_типе** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)). ������ ����� ��� �������� ����� �������� FOLDER_GENERIC, FOLDER_ROOT ��� FOLDER_SEARCH, � ����������� �� ����.
   
-������ ����� ���� ���� ������ �������������� � ���� ���� ������. Идентификатор записи, **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), используется клиентами и поставщиков услуг для откройте папку. Ключ записи, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) — это двоичное значение, которое используется для сравнения папки с другими папками. 
+������ ����� ���� ���� ������ �������������� � ���� ���� ������. Идентификатор записи, **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)), используется клиентами и поставщиками услуг для открытия папки. Ключ записи, **пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), является двоичным значением, используемым для сравнения папки с другими папками. 
   
 ����� ����� ������ �������� ��� ������������� ��������� � ���� ����� � ��������� ���������. ���������� ��������� ��������:
   
-- **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))
+- **Пр_парент_ентрид** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))
     
-- **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))
+- **Пр_сторе_ентрид** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))
     
-- **PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))
+- **Пр_сторе_рекорд_кэй** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))
     
-Свойство **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)), который описывает тип операции, которые пользователь может выполнять поддержка некоторых папок. �������� ���� �� ���������� �������� **PR_ACCESS** � MAPI_ACCESS_DELETE, ��� ��������, ��� ����� ����� ���� �������. ���� ��������, MAPI_ACCESS_MODIFY, ���������, ��� ����� ������ ���� ����� ��������. 
+Некоторые папки поддерживают свойство **пр_акцесс** ([PidTagAccess](pidtagaccess-canonical-property.md)), которое описывает тип операций, которые может выполнять пользователь. �������� ���� �� ���������� �������� **PR_ACCESS** � MAPI_ACCESS_DELETE, ��� ��������, ��� ����� ����� ���� �������. ���� ��������, MAPI_ACCESS_MODIFY, ���������, ��� ����� ������ ���� ����� ��������. 
   
 ������ ������ �������� ����������� ����� � ������� ��������� [IMAPIFolder](imapifolderimapicontainer.md) . 
   
-## <a name="see-also"></a>��. �����
+## <a name="see-also"></a>См. также
 
 
 

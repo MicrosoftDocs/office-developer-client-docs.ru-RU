@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 655b66e8-8642-43ad-8392-048578f96820
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d3cab3073b942cd8acc0919031e212b6a7d96e8a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7683a2926880234367b2134f9053078b82631aeb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577081"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331824"
 ---
 # <a name="cbflatentry"></a>CbFLATENTRY
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов в имеющуюся структуру [FLATENTRY](flatentry.md) . 
+Вычисляет количество байтов в существующей структуре [флатентри](flatentry.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**FLATENTRY** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**FLATENTRY** <br/> |
    
 ```cpp
 CbFLATENTRY (_lpentry)
@@ -38,9 +38,9 @@ CbFLATENTRY (_lpentry)
 
 ## <a name="parameters"></a>Параметры
 
- __lpentry_
+ __лпентри_
   
-> Указатель на структуру существующих **FLATENTRY** . 
+> Указатель на существующую структуру **флатентри** . 
     
 ## <a name="see-also"></a>См. также
 

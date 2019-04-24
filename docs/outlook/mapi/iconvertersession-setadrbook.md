@@ -1,5 +1,5 @@
 ---
-title: IConverterSessionSetAdrBook
+title: Иконвертерсессионсетадрбук
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d276ab19-17f4-01c7-4b44-b578e631b5fe
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ae00fd0711b8fcae01db6a89da7607d79d8757c1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7645208e6a0256957deb3a71ba3e04ad125a6b61
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326896"
 ---
 # <a name="iconvertersessionsetadrbook"></a>IConverterSession::SetAdrBook
 
@@ -25,7 +25,7 @@ ms.locfileid: "22584361"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает необязательный MAPI адресной книге, MAPI для конвертера MIME для разрешения неоднозначных адреса при преобразовании сообщения MAPI в MIME-поток.
+Задает необязательную адресную книгу MAPI, используемую преобразователем MAPI to MIME для разрешения неоднозначных адресов при преобразовании сообщения MAPI в поток MIME.
   
 ```cpp
 HRESULT IConverterSession::SetAdrBook( 
@@ -34,9 +34,9 @@ LPADRBOOK pab);
 
 ## <a name="parameters"></a>Параметры
 
- _адресной книги_
+ _адресной_
   
-> [in] Указатель на [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) интерфейс для использования в MAPI для преобразования MIME. Присвойте этому параметру значение **null** , если нет необходимости в адресной книге; Это освобождает интерфейс и сбрасывает преобразователь не, используя любой адресной книги. 
+> возврата Указатель на интерфейс [IAddrBook: IMAPIProp](iaddrbookimapiprop.md) , который будет использоваться в преобразовании MAPI в MIME. Если адресная книга больше не нужна, установите для этого параметра **значение NULL** . При этом интерфейс освобождается и сбрасывается без использования адресной книги. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -46,7 +46,7 @@ S_OK
     
 ## <a name="remarks"></a>Замечания
 
-Преобразование MAPI сообщений MIME потоке обычно не требуется вход в профиль MAPI. Тем не менее определяющее адресную книгу MAPI для преобразования требуется вход в систему в профиль, чтобы получить адресную книгу.
+Для преобразования сообщения MAPI в поток MIME обычно не требуется вход в профиль MAPI. Однако чтобы указать адресную книгу MAPI для преобразования, необходимо войти в профиль, чтобы получить адресную книгу.
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -54,8 +54,8 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |Mfcmapi (en) используется MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
-|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |Mfcmapi (en) используется MAPIToMIMEStm для преобразования MAPI сообщения EML-файла.  <br/> |
+|Мапимиме. cpp  <br/> |Импортемлтоимессаже  <br/> |MFCMAPI использует Миметомапи для преобразования EML файла в сообщение MAPI.  <br/> |
+|Мапимиме. cpp  <br/> |Експортимессажетоемл  <br/> |MFCMAPI использует Мапитомиместм для преобразования сообщения MAPI в файл EML.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -13,23 +13,23 @@ api_type:
 ms.assetid: 9ec9a674-c1a2-4137-856f-6cabe6f0eb9f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ab82fff2645a5e1861523eb3f1866e0ddc7d13a5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382731"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331390"
 ---
 # <a name="slargeintegerarray"></a>SLargeIntegerArray
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив [LARGE_INTEGER](https://go.microsoft.com/fwlink/?LinkId=132130) структуры, используемые для описания свойства типа PT_MV_I8. 
+Содержит массив структур [ларже_интежер](https://go.microsoft.com/fwlink/?LinkId=132130) , которые используются для описания свойства типа PT_MV_I8. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SLargeIntegerArray
@@ -42,17 +42,17 @@ typedef struct _SLargeIntegerArray
 
 ## <a name="members"></a>Members
 
- **cValues**
+ **Квалуес**
   
-> Число значений в массиве, на который указывает член **lpli** . 
+> Количество значений в массиве, на которое указывает элемент **лпли** . 
     
- **lpli**
+ **лпли**
   
-> Указатель на массив структур **LARGE_INTEGER** , сохраняя значения целое число. 
+> Указатель на массив структур **ларже_интежер** , содержащих целочисленные значения. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Дополнительные сведения о PT_MV_18 увидеть [Список типы свойств](property-types.md).
+Дополнительные сведения о PT_MV_18 приведены в разделе [список типов свойств](property-types.md).
   
 ## <a name="see-also"></a>См. также
 

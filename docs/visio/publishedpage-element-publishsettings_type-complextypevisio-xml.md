@@ -1,31 +1,31 @@
 ---
-title: Элемент PublishedPage (PublishSettings_Type complexType) ('Visio XML»)
+title: Элемент Публишедпаже (Публишсеттингс_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c1eca66b-5840-790a-459f-e06680d11c05
-description: Указывает, является ли страницу документа для просмотра в браузере с помощью служб Visio в Microsoft SharePoint Server 2013.
+description: Указывает, будет ли страница документа видна в браузере с помощью служб Visio в Microsoft SharePoint Server 2013.
 ms.openlocfilehash: 313cabbdd59930df67c807ee3c89df1a6e8c17a2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25390984"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326798"
 ---
-# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>Элемент PublishedPage (PublishSettings_Type complexType) ('Visio XML»)
+# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>Элемент Публишедпаже (Публишсеттингс_типе complexType) (' Visio XML ')
 
-Указывает, является ли страницу документа для просмотра в браузере с помощью служб Visio в Microsoft SharePoint Server 2013.
+Указывает, будет ли страница документа видна в браузере с помощью служб Visio в Microsoft SharePoint Server 2013.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Публишедпаже_типе](publishedpage_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25390984"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[PublishSettings](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Задает параметры, используемые при открытии диаграммы с помощью служб Visio.  <br/> |
+|[Публишсеттингс](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Публишсеттингс_типе](publishsettings_type-complextypevisio-xml.md) <br/> |Задает параметры, которые используются при открытии схемы с помощью служб Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,6 +52,6 @@ ms.locfileid: "25390984"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Идентификатор страницы рисунка.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор страницы документа.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

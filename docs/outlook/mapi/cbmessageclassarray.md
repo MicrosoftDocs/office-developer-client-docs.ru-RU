@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 56f7d8d6-d904-4bed-ab7c-8eea9db17ede
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bdba30013bf5adddba78a3c9fa1330b34dd2b4fa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c135a5bf5c1a697ddf2b2c85c6d81d6289f6a9e6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329598"
 ---
 # <a name="cbmessageclassarray"></a>CbMessageClassArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов в структуру [SMessageClassArray](smessageclassarray.md) , содержащий указанное число строки указатели на классы сообщений. 
+Вычисляет количество байтов в существующей структуре [смессажеклассаррай](smessageclassarray.md) , которая содержит указанное число указателей строки для классов сообщений. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SMessageClassArray** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SMessageClassArray** <br/> |
    
 ```cpp
 CbMessageClassArray (_c)
@@ -40,7 +40,7 @@ CbMessageClassArray (_c)
 
  __c_
   
-> Счетчик ссылок на классы сообщений, которые включены в существующий **SMessageClassArray**.
+> Количество указателей на классы сообщений, включенных в существующий **смессажеклассаррай**.
     
 ## <a name="see-also"></a>См. также
 

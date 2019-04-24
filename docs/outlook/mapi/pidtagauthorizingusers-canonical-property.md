@@ -12,24 +12,24 @@ api_type:
 - HeaderDef
 ms.assetid: d291777e-c0c6-4de2-9bf5-5c1d95f3db6c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 806ce556d77d704a1da866c6c69363cb59bd1c7d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 74ae66a4f9b8eb1c80251009441739efbd844901
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581764"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326665"
 ---
 # <a name="pidtagauthorizingusers-canonical-property"></a>Каноническое свойство PidTagAuthorizingUsers
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список идентификаторов входа для пользователей, которые право отправки сообщения.
+Содержит список идентификаторов записей для пользователей, которые авторизованы для отправки сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_AUTHORIZING_USERS  <br/> |
+|Связанные свойства:  <br/> |ПР_АУСОРИЗИНГ_УСЕРС  <br/> |
 |Идентификатор:  <br/> |0x0003  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Exchange  <br/> |
@@ -40,15 +40,15 @@ ms.locfileid: "22581764"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

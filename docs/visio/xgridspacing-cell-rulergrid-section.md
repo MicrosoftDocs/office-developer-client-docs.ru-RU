@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e07dd983-7588-6317-944c-46da2bb65b31
 description: Определяет расстояние между горизонтальными линиями в фиксированной сетке (XGridDensity = 0).
-ms.openlocfilehash: 5f461d02dae1574fe2b186b43166ef14d8251df2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 05b68a9721dbfc9c03402d384d976c42ef05b134
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327323"
 ---
 # <a name="xgridspacing-cell-ruler-amp-grid-section"></a>Ячейка XGridSpacing (раздел "Линейка и сетка")
 

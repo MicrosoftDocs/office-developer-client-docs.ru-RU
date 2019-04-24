@@ -1,31 +1,31 @@
 ---
-title: Элемент HeaderRight (HeaderFooter_Type complexType) ('Visio XML»)
+title: Элемент HeaderRight (Хеадерфутер_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 16c5933f-1fa1-a180-d821-099fd6bf6e13
-description: Содержит строку текста, который отображается в правой части заголовка документа.
+description: Содержит текстовую строку, которая отображается в правой части заголовка документа.
 ms.openlocfilehash: 4284e45c747d437f38aec1756852063aac4ffb2a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32330004"
 ---
-# <a name="headerright-element-headerfootertype-complextype-visio-xml"></a>Элемент HeaderRight (HeaderFooter_Type complexType) ('Visio XML»)
+# <a name="headerright-element-headerfootertype-complextype-visio-xml"></a>Элемент HeaderRight (Хеадерфутер_типе complexType) (' Visio XML ')
 
-Содержит строку текста, который отображается в правой части заголовка документа.
+Содержит текстовую строку, которая отображается в правой части заголовка документа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[HeaderRight_Type](headerright_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Хеадерригхт_типе](headerright_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25399615"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для колонтитулов документа.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Хеадерфутер_типе](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для верхнего и нижнего колонтитулов документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

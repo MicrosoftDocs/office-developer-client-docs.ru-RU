@@ -1,26 +1,26 @@
 ---
-title: IOlkAccountSaveChanges
+title: Иолкаккаунтсавечанжес
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8f1ab61e-7d1c-50d5-ae21-8cb4b08d729c
-description: Фиксирует изменения объекта учетной записи с помощью записи реестра хранилища.
-ms.openlocfilehash: ebff8af8af8a7512b577b36a2c31f76f3297a19d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Фиксирует изменения объекта Account, записывая в хранилище реестра.
+ms.openlocfilehash: c23cefbbda62de9b7e159e500d95b8db5ff34ef4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807791"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322262"
 ---
 # <a name="iolkaccountsavechanges"></a>IOlkAccount::SaveChanges
 
-Фиксирует изменения объекта учетной записи с помощью записи реестра хранилища.
+Фиксирует изменения объекта Account, записывая в хранилище реестра.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkAccount](iolkaccount.md).
+Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::SaveChanges (  
@@ -32,19 +32,19 @@ HRESULT IOlkAccount::SaveChanges (
 
 _dwFlags_
   
-> [in] Flags to modify behavior. OLK_ACCOUNT_NO_FLAGS — это поддерживается только значение.
+> [in] Flags to modify behavior. ОЛК_АККАУНТ_НО_ФЛАГС — единственное поддерживаемое значение.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|ЗНАЧЕНИЕ S_OK  <br/> |Метод успешно завершена.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Не удается найти указанную учетную запись.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
+|S_OK  <br/> |Метод выполнен успешно.  <br/> |
+|Е_АККТ_НОТ_ФАУНД  <br/> |Не удается найти указанную учетную запись.  <br/> |
+|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
    
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Замечания
 
-После изменения значения свойства учетной записи с помощью [IOlkAccount::SetProp](iolkaccount-setprop.md), используйте **IOlkAccount::SaveChanges** для сохранения такие изменения. 
+После изменения значения свойства учетной записи с помощью [иолкаккаунт:: сетпроп](iolkaccount-setprop.md), используйте **Иолкаккаунт:: SaveChanges** , чтобы сохранить такие изменения. 
   
 ## <a name="see-also"></a>См. также
 

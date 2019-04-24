@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 2e1287a3-0f15-4d9a-b7ee-738fce9cd51f
 description: '���� ���������� ���������: 9 ����� 2015 �.'
-ms.openlocfilehash: a305b9c9ea2802ac63a22118b55274bcdff23617
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b22b8641d55037d3755fc9ae32b97455223bbd12
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569010"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329759"
 ---
 # <a name="mapi-receive-folders"></a>��������� ����� MAPI
 
@@ -55,10 +55,10 @@ To retrieve a receive folder for a particular message class, clients pass the me
   
 |**����� �������� ���������**|**��������� �����**|
 |:-----|:-----|
-|**IPM. Note.Sample.Simple** <br/> |������� �����  <br/> |
-|**IPM. Примечание** <br/> |����� "��������"  <br/> |
-|**IPM. Карточками табельного учета** <br/> |����� "��������"  <br/> |
-|**IPM. Note.Sample.Simple.Totally** <br/> |������� �����  <br/> |
+|**Класс. Note. Sample. Simple** <br/> |������� �����  <br/> |
+|**IPM.Note** <br/> |����� "��������"  <br/> |
+|**Класс. Учета** <br/> |����� "��������"  <br/> |
+|**Класс. Note. Sample. Simple. ALL. полностью** <br/> |������� �����  <br/> |
    
 ������� �������� ����� **SetReceiveFolder** ����� ������ ����� ����� ������������� ��������� � �������� �����. ����� ��������� ������������ � ����� ������ ���������, MAPI �������� ��� � ����� ���������, ������������ ��� �������� ������ ������. � ������� ���� ������ ����� ����� ��������� ����������� ��� ��������� � ������� ������ **IPM** � �������� ��������� � ������� ������ **IPM.Note.Test**, ��� ��������� ����� ������� � ����� ��������� ��� ������ ��������� **IPM**. 
   
@@ -72,7 +72,7 @@ To retrieve a receive folder for a particular message class, clients pass the me
    
 ���� ����� ��������� ������� �� ������ ���� ������, ����� ����������� ����� ������ ���������. ��������� ��������� ��������������� �� ���������� ����� ��������� **IPM** ��� ����� ��������� ���������, ��� ������� ������ �����; ���������� ���������� ����������� ���������� **IPM.Note** ��� ����� ��� ��������� ���������, ��� ������� ����� ������ �����. 
   
-## <a name="see-also"></a>��. �����
+## <a name="see-also"></a>См. также
 
 
 

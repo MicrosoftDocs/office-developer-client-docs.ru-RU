@@ -1,5 +1,5 @@
 ---
-title: IMAPIFormContainerGetDisplay
+title: Имапиформконтаинержетдисплай
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 6829e273-4a75-4278-b58a-ae7543e075ac
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 66e23d73af53b05295bf2cbcd8c604ab3545bbca
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 994041d050df56fd3fa3c0e599542e05a202ad65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329430"
 ---
 # <a name="imapiformcontainergetdisplay"></a>IMAPIFormContainer::GetDisplay
 
@@ -34,19 +34,19 @@ HRESULT GetDisplay(
 );
 ```
 
-## <a name="parameters"></a>���������
+## <a name="parameters"></a>Параметры
 
  _ulFlags_
   
-> [in] Битовая маска флаги, определяющее тип возвращаемой строки. Можно задать следующий флаг:
+> возврата Битовая маска флагов, определяющая тип возвращаемой строки. Можно задать следующий флаг:
     
 MAPI_UNICODE 
   
-> Возвращенная строка — в формате Юникод. Если флаг MAPI_UNICODE не установлен, то строка будет в формате ANSI.
+> Возвращаемая строка имеет формат Юникод. Если флаг МАПИ_УНИКОДЕ не установлен, строка имеет формат ANSI.
     
- _pszDisplayName_
+ _Псздисплайнаме_
   
-> [out] Указатель на строку, содержащую отображаемое имя контейнера формы.
+> вышли Указатель на строку, которая содержит отображаемое имя контейнера формы.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -60,7 +60,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|FormContainerDlg.cpp  <br/> |CFormContainerDlg::CFormContainerDlg  <br/> |Mfcmapi (en) использует метод **IMAPIFormContainer::GetDisplay** для получения имени контейнера формы при ее отображении CFormContainerDlg.  <br/> |
+|Формконтаинердлг. cpp  <br/> |Кформконтаинердлг:: Кформконтаинердлг  <br/> |MFCMAPI использует метод **имапиформконтаинер::** для получения имени контейнера формы при отображении кформконтаинердлг.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

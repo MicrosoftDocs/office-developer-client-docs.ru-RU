@@ -6,34 +6,34 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5db43e9-687b-d467-1be1-3737e3f91c27
-description: Представляет идентификатор записи хранилища доставки по умолчанию для учетной записи.
-ms.openlocfilehash: 72c5325e70a6e8b42ee433d8d674c2b2ea0c8398
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Представляет идентификатор элемента хранилища доставки по умолчанию для учетной записи.
+ms.openlocfilehash: d803c539ec99da4d7fb31063f48237788f3ac3d9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327673"
 ---
 # <a name="propacctdeliverystore"></a>PROP_ACCT_DELIVERY_STORE
 
-Представляет идентификатор записи хранилища доставки по умолчанию для учетной записи.
+Представляет идентификатор элемента хранилища доставки по умолчанию для учетной записи.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkAccount](iolkaccount.md).
+Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0018  <br/> |
 |Тип свойства:  <br/> |PT_BINARY  <br/> |
-|Свойство tag:  <br/> |0x00180102  <br/> |
-|Access:  <br/> |Чтение и запись  <br/> |
+|Тег свойства:  <br/> |0x00180102  <br/> |
+|Обращения  <br/> |Чтение и запись  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Получение или задание этого свойства с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md) или [IOlkAccount::SetProp](iolkaccount-setprop.md)соответственно.
+Получите или задайте значение этого свойства с помощью [иолкаккаунт::](iolkaccount-getprop.md) GetProperty или [Иолкаккаунт:: сетпроп](iolkaccount-setprop.md), соответственно.
   
-Один из побочные эффекты Установка хранилища в качестве хранилища доставки по умолчанию для учетной записи — это, что при запуске Outlook, Outlook создает папки поиска для этого хранилища, если они еще не существует и список дел в хранилище.
+Один из побочных эффектов задания хранилища в качестве хранилища доставки по умолчанию для учетной записи состоит в том, что при запуске Outlook создает папки поиска для этого хранилища, если они еще не существуют, и перечислите магазин в списке дел.
   
 ## <a name="see-also"></a>См. также
 

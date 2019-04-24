@@ -13,52 +13,52 @@ api_type:
 ms.assetid: 3f0e5b24-767e-46f5-bb3d-e9cb82cb935b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 67093cf456db9df5f9e939bdda9d2e44f248dadc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331236"
 ---
 # <a name="pidtagrtfsynctrailingcount-canonical-property"></a>Каноническое свойство PidTagRtfSyncTrailingCount
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит число допускающие игнорирование символы, отображаемые после значительные символов сообщения.
+Содержит количество игнорируемых символов, которые отображаются после значащих символов сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_RTF_SYNC_TRAILING_COUNT  <br/> |
+|Связанные свойства:  <br/> |ПР_РТФ_СИНК_ТРАИЛИНГ_КАУНТ  <br/> |
 |Идентификатор:  <br/> |0x1011  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Сообщение MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство является свойством дополнительный формат форматированный текст (RFT). Эти свойства, используемые функцией [RTFSync](rtfsync.md) и не предназначен для непосредственного использования в клиентских приложениях. 
+Это свойство является дополнительным свойством в формате текста в формате RTF (РФТ). Эти свойства используются функцией [ртфсинк](rtfsync.md) и не предназначены для непосредственного использования клиентскими приложениями. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS — ОКСТНЕФ]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Кодирует и декодирует объекты сообщения и вложения в представление эффективным потока.
+> Кодирует и декодирует объекты сообщений и вложений в эффективное потоковое представление.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

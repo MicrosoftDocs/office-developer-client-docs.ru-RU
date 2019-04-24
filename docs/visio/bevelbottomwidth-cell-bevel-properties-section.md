@@ -1,37 +1,37 @@
 ---
-title: Ячейка BevelBottomWidth (раздел "Свойства багетной рамки")
+title: BevelBottomWidth Cell (Bevel Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: eb925eaa-04e1-4191-9b28-f37b229c8a3b
-description: Определяет ширину нижней рельефов в пунктах.
-ms.openlocfilehash: 3abff2dc8898ee140de4ee9e2118106d51a1e2a8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет ширину нижнего скоса в точках.
+ms.openlocfilehash: c4fea7aa99c30558e47115ba0656306a93534236
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813188"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328144"
 ---
-# <a name="bevelbottomwidth-cell-bevel-properties-section"></a>Ячейка BevelBottomWidth (раздел "Свойства багетной рамки")
+# <a name="bevelbottomwidth-cell-bevel-properties-section"></a>BevelBottomWidth Cell (Bevel Properties Section)
 
-Определяет ширину нижней рельефов в пунктах. 
+Определяет ширину нижнего скоса в точках. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Для получения ссылки на ячейки **BevelBottomWidth** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelBottomWidth** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | BevelBottomWidth  <br/> |
+| Имя ячейки:  <br/> | BevelBottomWidth  <br/> |
    
-Для получения ссылки на ячейки **BevelBottomWidth** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **BevelBottomWidth** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
-| Индекс ячейки:  <br/> |**visBevelBottomWidth** <br/> |
+| Индекс строки:  <br/> |**Висровбевелпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Висбевелботтомвидс** <br/> |
    
 

@@ -7,36 +7,36 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fc2972da-80e9-50e2-10b3-585eb63e9103
 ms.openlocfilehash: 241babe45b543fb00c0d2756a2e846303a1717b2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386413"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322157"
 ---
 # <a name="iolkaccounthelper"></a>IOlkAccountHelper
 
-Предоставляет функциональные возможности модуля поддержки в текущем сеансе MAPI к управлению учетными записями.
+Предоставляет вспомогательные функциональные возможности в текущем сеансе MAPI для управления учетными записями.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследует от:  <br/> |[Интерфейс IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
+|Наследование от:  <br/> |[Интерфейс](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx) <br/> |
 |Предоставлено:  <br/> |Клиент  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IOlkAccountHelper  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_иолкаккаунселпер  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[Прототип 1](iolkaccounthelper-placeholder1.md) <br/> | *Этот член — это и не поддерживается.*  <br/> |
-|[GetIdentity](iolkaccounthelper-getidentity.md) <br/> |Получает имя профиля учетной записи.  <br/> |
-|[GetMapiSession](iolkaccounthelper-getmapisession.md) <br/> |Открытие сеанса MAPI и поддерживает ссылку на сеанс для диспетчера учетных записей.  <br/> |
-|[HandsOffSession](iolkaccounthelper-handsoffsession.md) <br/> |Освобождает объект сеанса MAPI, возвращаемые [IOlkAccountHelper::GetMapiSession](iolkaccounthelper-getmapisession.md).  <br/> |
+|[Placeholder1](iolkaccounthelper-placeholder1.md) <br/> | *Этот элемент является заполнителем и не поддерживается.*  <br/> |
+|[Идентификация по длинности](iolkaccounthelper-getidentity.md) <br/> |Получает имя профиля учетной записи.  <br/> |
+|[Жетмаписессион](iolkaccounthelper-getmapisession.md) <br/> |Открывает сеанс MAPI и поддерживает ссылку на сеанс для диспетчера учетных записей.  <br/> |
+|[Хандсоффсессион](iolkaccounthelper-handsoffsession.md) <br/> |Освобождает объект сеанса MAPI, возвращенный функцией [иолкаккаунселпер:: жетмаписессион](iolkaccounthelper-getmapisession.md).  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Этот интерфейс передается [IOlkAccountManager::Init](iolkaccountmanager-init.md) при инициализации диспетчера учетных записей. 
+Этот интерфейс передается в [иолкаккаунтманажер:: init](iolkaccountmanager-init.md) при инициализации диспетчера учетных записей. 
   
 ## <a name="see-also"></a>См. также
 

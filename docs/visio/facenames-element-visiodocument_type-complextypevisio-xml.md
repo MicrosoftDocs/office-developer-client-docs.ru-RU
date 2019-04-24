@@ -1,31 +1,31 @@
 ---
-title: Элемент FaceNames (VisioDocument_Type complexType) ('Visio XML»)
+title: Элемент Фаценамес (Висиодокумент_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 61e30f57-abd6-9378-45ed-51236ab3d3ee
-description: Содержит коллекцию элементов название значка.
+description: Содержит коллекцию элементов Фаценаме.
 ms.openlocfilehash: 5d6f2ffbf54dd04e744e85909fbc8a6bd4a387a3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386819"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322584"
 ---
-# <a name="facenames-element-visiodocumenttype-complextype-visio-xml"></a>Элемент FaceNames (VisioDocument_Type complexType) ('Visio XML»)
+# <a name="facenames-element-visiodocumenttype-complextype-visio-xml"></a>Элемент Фаценамес (Висиодокумент_типе complexType) (' Visio XML ')
 
-Содержит коллекцию элементов **Название значка** . 
+Содержит коллекцию элементов **фаценаме** . 
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Фаценамес_типе](facenames_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,13 +42,13 @@ ms.locfileid: "25386819"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
+|[Висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[Висиодокумент_типе](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Название значка](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |Содержит сведения о шрифта.  <br/> |
+|[Фаценаме](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[Фаценаме_типе](facename_type-complextypevisio-xml.md) <br/> |Содержит сведения о шрифте.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

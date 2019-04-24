@@ -13,43 +13,43 @@ api_type:
 ms.assetid: db8c3014-fa17-4b76-8a76-e352a0be8233
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 24aad8ede7ef52162ce977b20fc1981b31548352
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391166"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331768"
 ---
 # <a name="pidlidfax2emailtype-canonical-property"></a>Каноническое свойство PidLidFax2EmailType
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает тип электронной почты адрес домашнего факса контакта.
+Указывает тип электронной почты для домашнего Факс-адреса контакта.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidFax2EmailType  <br/> |
-|Набор свойств:  <br/> |PSETID_Address  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x000080C7  <br/> |
+|Набор свойств:  <br/> |Псетид_аддресс  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x000080C7  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Contact  <br/> |
+|Область:  <br/> |Контакт  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определение набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Предоставляет определение набора свойств и ссылки на соответствующие спецификации протокола Exchange Server.
     
-[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS — ОКСОКНТК]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для контакты и списки рассылки.
+> Задает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

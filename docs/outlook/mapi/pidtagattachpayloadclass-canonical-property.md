@@ -13,54 +13,54 @@ api_type:
 ms.assetid: bc4de217-8241-45e7-9e97-8f0c1b16691a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6a84e51325fcb60c54c2f6b42af0c26a0efd3382
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327239"
 ---
 # <a name="pidtagattachpayloadclass-canonical-property"></a>Каноническое свойство PidTagAttachPayloadClass
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение поля заголовка X-полезной нагрузки-класса MIME.
+Содержит значение поля заголовка MIME X — полезные данные.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ATTACH_PAYLOAD_CLASS, PR_ATTACH_PAYLOAD_CLASS_A, PR_ATTACH_PAYLOAD_CLASS_W  <br/> |
+|Связанные свойства:  <br/> |ПР_АТТАЧ_ПАЙЛОАД_КЛАСС, ПР_АТТАЧ_ПАЙЛОАД_КЛАСС_А, ПР_АТТАЧ_ПАЙЛОАД_КЛАСС_В  <br/> |
 |Идентификатор:  <br/> |0x371A  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Приложения Outlook  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Область:  <br/> |Приложение Outlook  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Чтобы задать значения этих свойств, клиенты MIME указывайте поле заголовка X-полезной нагрузки-класс MIME лицо, которое будет анализироваться как вложение.
+Чтобы задать значение этих свойств, клиенты MIME должны записать поле заголовка X — полезные данные в объект MIME, который будет анализироваться как вложение.
   
-Читатели MIME, должен скопировать это значение поля заголовка на значение соответствующего свойства. Читатели MIME следует игнорировать это поле заголовка при его отображении в сущности MIME, анализируется как сообщение или текст сообщения, а не как вложение.
+Считыватели MIME должны скопировать значение поля заголовка в значение соответствующего свойства. Средства чтения MIME должны игнорировать это поле заголовка, если оно отображается в объекте MIME, анализируемом в виде сообщения или текста сообщения, а не вложения.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразование conventions стандартных электронной почты Интернета объекты сообщений.
+> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

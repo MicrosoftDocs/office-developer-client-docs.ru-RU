@@ -1,5 +1,5 @@
 ---
-title: Ячейка EnableLineProps (раздел "Свойства стиля")
+title: EnableLineProps Cell (Style Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251696
 localization_priority: Normal
 ms.assetid: 9f619416-36ff-1479-6232-225c11827e01
-description: Определяет, включены ли в стиль свойства линии.
-ms.openlocfilehash: 0e1eb67528b3e87bcfff5281dd1e0b2db3a0a4d5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, включены ли в стиль свойства линий.
+ms.openlocfilehash: 38964194626be052b2a168fa929b69ebe4b28e01
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813681"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329108"
 ---
-# <a name="enablelineprops-cell-style-properties-section"></a>Ячейка EnableLineProps (раздел "Свойства стиля")
+# <a name="enablelineprops-cell-style-properties-section"></a>EnableLineProps Cell (Style Properties Section)
 
-Определяет, включены ли в стиль свойства линии.
+Определяет, включены ли в стиль свойства линий.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|TRUE  <br/> |Включайте свойства строки.  <br/> |
-|FALSE  <br/> |Исключение свойства строки.  <br/> |
+|TRUE  <br/> |Включение свойств строк.  <br/> |
+|FALSE  <br/> |Исключение свойств строк.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Чтобы получить ссылку на ячейку EnableLineProps по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку EnableLineProps по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |EnableLineProps  <br/> |
+|Имя ячейки:  <br/> |EnableLineProps  <br/> |
    
-Для получения ссылки на ячейки EnableLineProps по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку EnableLineProps по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowStyle** <br/> |
-|Индекс ячейки:  <br/> |**visStyleIncludesLine** <br/> |
+|Индекс строки:  <br/> |**Висровстиле** <br/> |
+|Индекс ячейки:  <br/> |**Висстилеинклудеслине** <br/> |
    
 

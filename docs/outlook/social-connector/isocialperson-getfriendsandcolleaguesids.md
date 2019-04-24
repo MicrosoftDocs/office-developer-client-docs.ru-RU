@@ -1,5 +1,5 @@
 ---
-title: ISocialPersonGetFriendsAndColleaguesIDs
+title: ИсоЦиалперсонжетфриендсандколлеагуесидс
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 68b9b5d7-a4d0-4925-adc1-c0e3cda9be16
-description: Этот метод в настоящее время не поддерживается.
-ms.openlocfilehash: b41f64416f612863f2d0410a85fe74f9a2394741
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: В настоящее время этот метод не поддерживается.
+ms.openlocfilehash: 7d79bb745c73e54e2d6f65accd55f854b234266f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331633"
 ---
 # <a name="isocialpersongetfriendsandcolleaguesids"></a>ISocialPerson::GetFriendsAndColleaguesIDs
 
-Этот метод в настоящее время не поддерживается. 
+В настоящее время этот метод не поддерживается. 
   
 ```cpp
 HRESULT _stdcall GetFriendsAndColleaguesIDs([out, retval] SAFEARRAY(BSTR)* friendsIDs);

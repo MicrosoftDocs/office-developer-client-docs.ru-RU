@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: f85bd23d-c285-4448-a946-7ab4fc0f03be
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a60fe565992756163eaf19b84e36c03acb66cc73
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 704935e5863d789ee1120ddde8d4eb42edbec573
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569150"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331950"
 ---
 # <a name="cbmapiformproparray"></a>CbMAPIFormPropArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов в структуру [SMAPIFormPropArray](smapiformproparray.md) , содержащий указанное число [SMAPIFormProp](smapiformprop.md) структуры. 
+Вычисляет количество байтов в существующей структуре [смапиформпропаррай](smapiformproparray.md) , которая содержит указанное число структур [смапиформпроп](smapiformprop.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Связанные структуры:  <br/> |**SMAPIFormPropArray** <br/> |
+|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
+|Связанная структура:  <br/> |**SMAPIFormPropArray** <br/> |
    
 ```cpp
 CbMAPIFormPropArray (_c)
@@ -40,7 +40,7 @@ CbMAPIFormPropArray (_c)
 
  __c_
   
-> Число структур **SMAPIFormProp** в структуре **SMAPIFormPropArray** в вопросе. 
+> Количество структур **смапиформпроп** в рассматриваемой структуре **смапиформпропаррай** . 
     
 ## <a name="see-also"></a>См. также
 

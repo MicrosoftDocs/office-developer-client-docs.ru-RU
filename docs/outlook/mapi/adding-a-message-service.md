@@ -8,35 +8,35 @@ api_type:
 - COM
 ms.assetid: 1e626714-52dc-4141-9741-4d801f32d294
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 6a8b0f8fc8c296fe4022ac28623b83d270472ca3
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 30cbe49eae7b4a232efb544c7a508a36b326c6b5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590696"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328189"
 ---
 # <a name="adding-a-message-service"></a>Добавление службы сообщений
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
- **Добавление новой службы сообщений в профиль и доступ к новой службы сообщений**
+ **Добавление новой службы сообщений в профиль и доступ к новой службе сообщений**
   
-Вызов [IMsgServiceAdmin2::CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md). **CreateMsgServiceEx** выполняет следующие задачи: 
+Call [IMsgServiceAdmin2:: креатемсгсервицеекс](imsgserviceadmin2-createmsgserviceex.md). **Креатемсгсервицеекс** выполняет следующие задачи: 
   
-1. Копирует все соответствующие сведения для службы сообщений, которая находится в файл Mapisvc.inf. INF-файл, создание раздела профиля для каждого раздела поставщика.
+1. Копирует всю необходимую информацию для службы сообщений в MAPISVC. INF-файл, создающий раздел профиля для каждого раздела поставщика.
     
-2. Вызывает функцию точки входа для службы сообщений, **MSGSERVICEENTRY**с параметром _ulContext_ , равным MSG_SERVICE_CREATE. 
+2. Вызывает функцию точки входа службы сообщений, **мсгсервицеентри**, с параметром _улконтекст_ , равным мсг_сервице_креате. 
     
-3. Задает и получает свойство **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) службы сообщений.
+3. Задает и получает свойство **пр_сервице_уид** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) службы сообщений.
     
- **Для доступа к службе любого добавленного сообщения**
+ **Доступ к недавно добавленной службе сообщений**
   
-1. Вызов [IMsgServiceAdmin::GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) для получения таблицы службы сообщений. 
+1. Call [имсгсервицеадмин:: жетмсгсервицетабле](imsgserviceadmin-getmsgservicetable.md) для получения таблицы службы сообщений. 
     
-2. Вызов метода [IMAPITable::Advise](imapitable-advise.md) таблицы службы сообщений для регистрации уведомлений в таблице. 
+2. ВыЗовите для таблицы служба сообщений метод [IMAPITable:: Advise](imapitable-advise.md) для регистрации в табличных уведомлениях. 
     
-3. Когда MAPI отправляет уведомление TABLE_ROW_ADDED, найдите идентификатор записи службы новые сообщения в структуре [SRow](srow.md) в структуре [TABLE_NOTIFICATION](table_notification.md) . 
+3. Когда MAPI отправляет уведомление ТАБЛЕ_РОВ_АДДЕД, нахождение идентификатора записи недавно добавленной службы сообщений в структуре [сров](srow.md) , включенной в структуру [табле_нотификатион](table_notification.md) . 
     
 

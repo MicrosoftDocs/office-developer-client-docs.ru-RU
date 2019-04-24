@@ -1,5 +1,5 @@
 ---
-title: IOlkAccountManagerUnadvise
+title: Иолкаккаунтманажерунадвисе
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ea5cbf9f-25cc-9cca-9be0-d2deed576153
 description: Отменяет регистрацию клиента с помощью диспетчера учетных записей для уведомлений для всех учетных записей.
-ms.openlocfilehash: 0632bc6bd98e218cf323262ea480b020185438f3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b954413b06cb1aa1b6fc4e0e9666f108bf81fbe
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807855"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322010"
 ---
 # <a name="iolkaccountmanagerunadvise"></a>IOlkAccountManager::Unadvise
 
@@ -29,19 +29,19 @@ HRESULT Unadvise(
 
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
-_dwCookie_
+_Двкукие_
   
-> [in] Файл cookie, возвращаемых [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).
+> возврата Файл cookie, возвращенный функцией [иолкаккаунтманажер:: Advise](iolkaccountmanager-advise.md).
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
 |E_INVALIDARG  <br/> |Один или несколько аргументов являются недопустимыми.  <br/> |
-|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
+|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -6,26 +6,26 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: dcbab309-8754-40d8-94d1-5567f2989487
-description: Представляет собой пароль учетной записи SMTP.
-ms.openlocfilehash: b0b7d0eafb9287507e6cb6bfb48999c63b0a601a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Представляет пароль учетной записи SMTP.
+ms.openlocfilehash: a22e2e6e449403abbd5751b4e7fc14c1a6ea0650
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807959"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326560"
 ---
 # <a name="propsmtppassword"></a>PROP_SMTP_PASSWORD
 
-Представляет собой пароль учетной записи SMTP.
+Представляет пароль учетной записи SMTP.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0205  <br/> |
-|Тип свойства:  <br/> |PT_UNICODE|SECURE_FLAG  <br/> |
-|Свойство tag:  <br/> |0x2058001F  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Тип свойства:  <br/> |PT_UNICODE|СЕКУРЕ_ФЛАГ  <br/> |
+|Тег свойства:  <br/> |0x2058001F  <br/> |
+|Обращения  <br/> |Только для чтения  <br/> |
    
 ## <a name="see-also"></a>См. также
 

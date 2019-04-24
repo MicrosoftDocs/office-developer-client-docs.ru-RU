@@ -1,5 +1,5 @@
 ---
-title: Ячейка ResizeMode (раздел "Преобразование фигуры")
+title: ResizeMode Cell (Shape Transform Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,38 +8,38 @@ f1_keywords:
 - Vis_DSS.chm82251203
 localization_priority: Normal
 ms.assetid: 49816e46-fa83-3ee4-1451-9c85fbd0f519
-description: Отображает текущий изменения размера для фигуры.
-ms.openlocfilehash: a32f5dbc935e85a49ab585073ca6a31215fd102a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Показывает текущий параметр поведения изменения размера для фигуры.
+ms.openlocfilehash: 7e9080fcd4604e2dbdc1dae31992f05e5b512213
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814638"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326882"
 ---
-# <a name="resizemode-cell-shape-transform-section"></a>Ячейка ResizeMode (раздел "Преобразование фигуры")
+# <a name="resizemode-cell-shape-transform-section"></a>ResizeMode Cell (Shape Transform Section)
 
-Отображает текущий изменения размера для фигуры.
+Показывает текущий параметр поведения изменения размера для фигуры.
   
-|**Значение**|**Описание**|**Константа автоматизации**|
+|**Value**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-|0  <br/> |Используйте значение группы.  <br/> |**visXFormResizeDontCare** <br/> |
-|1  <br/> |Только перемещение.  <br/> |**visXFormResizeSpread** <br/> |
-|2  <br/> |Масштабирование с группой.  <br/> |**visXFormResizeScale** <br/> |
+|нуль  <br/> |Используйте параметр группы.  <br/> |**Висксформресизедонткаре** <br/> |
+|1,1  <br/> |Только перестановка.  <br/> |**Висксформресизеспреад** <br/> |
+|2  <br/> |Масштабирование с помощью Group.  <br/> |**Висксформресизескале** <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это значение также можно настроить на вкладке **поведение** в диалоговом окне " **поведение** " (на вкладке [Разработчик](run-in-developer-mode-display-the-developer-tab.md)в группе **Разработки фигуры** выберите **поведение**). Чтобы получить ссылку на ячейку ResizeMode по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Вы также можете задать это значение на вкладке **поведение** в диалоговом окне **поведение** (на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md)в группе **Макет фигуры** щелкните **поведение**). Чтобы получить ссылку на ячейку ResizeMode по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |ResizeMode  <br/> |
+|Имя ячейки:  <br/> |ResizeMode  <br/> |
    
-Для получения ссылки на ячейки ResizeMode по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку ResizeMode по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowXFormOut** <br/> |
-|Индекс ячейки:  <br/> |**visXFormResizeMode** <br/> |
+|Индекс строки:  <br/> |**Висровксформаут** <br/> |
+|Индекс ячейки:  <br/> |**Висксформресиземоде** <br/> |
    
 

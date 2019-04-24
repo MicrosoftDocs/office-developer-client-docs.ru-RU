@@ -7,11 +7,11 @@ ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: В этой статье описана разработка приложений Microsoft Project Online для классических приложений с помощью .NET Framework 4.0. Приложения, представленные в данной статье, загружают сведения с сервера размещения.
 localization_priority: Priority
 ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322625"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Разработка приложений для Project Online с помощью клиентской объектной модели
 

@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: c7f10b8a-6b20-44cf-bde6-8d2b711c1c14
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 53226daafd1c0a53f96db5af3432d6f34738fd93
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 30ed8053c9c3d77f4831da37ddd2456ad0564a5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585811"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331894"
 ---
 # <a name="pidtagcontentintegritycheck-canonical-property"></a>Каноническое свойство PidTagContentIntegrityCheck
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение проверки целостности контента ASN.1, обеспечивающий отправителя сообщения для защиты содержимого сообщения от раскрытия несанкционированного получателям.
+Содержит значение проверки целостности содержимого ASN. 1, позволяющее отправителю сообщения защитить содержимое сообщения от разглашения неавторизованным получателям.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTENT_INTEGRITY_CHECK  <br/> |
-|Идентификатор:  <br/> |0x0c00  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНТЕНТ_ИНТЕГРИТИ_ЧЕКК  <br/> |
+|Идентификатор:  <br/> |0x0C00  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство предоставляет неотрекаемые содержимого сообщения. В сочетании с **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) гарантирует, что содержимое сообщения достигает места назначения без изменений.
+Это свойство предоставляет неподдельность содержимого сообщения. В сочетании с **пр_мессаже_токен** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) гарантируется, что содержимое сообщения поступает в свое место назначения без изменений.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

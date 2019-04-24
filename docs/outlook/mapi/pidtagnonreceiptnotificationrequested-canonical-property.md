@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 747f7ba8-42d3-4be3-9908-269e9a347c7f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 896cfa2bf8a1b33fd6dee09649853b71618f31be
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c6b56a786ea794587e140c9555cc88cd862b489
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22582786"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329311"
 ---
 # <a name="pidtagnonreceiptnotificationrequested-canonical-property"></a>Каноническое свойство PidTagNonReceiptNotificationRequested
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если отправитель сообщения запрашивает уведомления без уведомления для указанного получателя.
+Содержит значение TRUE, если отправителю сообщения требуется уведомление о недоставке для указанного получателя.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_NON_RECEIPT_NOTIFICATION_REQUESTED  <br/> |
+|Связанные свойства:  <br/> |ПР_НОН_РЕЦЕИПТ_НОТИФИКАТИОН_РЕКУЕСТЕД  <br/> |
 |Идентификатор:  <br/> |0x0C06  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Если это свойство содержит значение FALSE, а свойство **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) значение TRUE, поставщик услуг можно переопределить свойство **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** и создать отчет о недоставке. 
+Если это свойство содержит значение FALSE, а свойство **пр_реад_рецеипт_рекуестед** ([PIDTAGREADRECEIPTREQUESTED](pidtagreadreceiptrequested-canonical-property.md)) содержит значение true, то поставщик услуг может переопределить свойство **пр_нон_рецеипт_нотификатион_рекуестед** и создать объект отчет о недоставке. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

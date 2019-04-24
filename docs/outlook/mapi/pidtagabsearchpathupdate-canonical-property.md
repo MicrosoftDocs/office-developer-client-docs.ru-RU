@@ -12,41 +12,41 @@ api_type:
 - HeaderDef
 ms.assetid: 5ea20b49-8b57-4ad0-a70d-6547a01c8344
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2481ad01d8777783581663ead64ad3797eb8eb1a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 86258711d7cc6bc1933102f7579bb46339a138de
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594385"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32332020"
 ---
 # <a name="pidtagabsearchpathupdate-canonical-property"></a>Каноническое свойство PidTagAbSearchPathUpdate
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список идентификаторов записи адресной книги контейнеров явным образом настроенные пользователем. 
+Содержит список идентификаторов записей для контейнеров адресных книг, явно настроенных пользователем. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_AB_SEARCH_PATH_UPDATE  <br/> |
+|Связанные свойства:  <br/> |ПР_АБ_СЕАРЧ_ПАС_УПДАТЕ  <br/> |
 |Идентификатор:  <br/> |0x3D11  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Адресная книга  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство не используется. Зарезервирован для использования с MAPI.
+Не используйте это свойство. Оно зарезервировано для использования MAPI.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -54,7 +54,7 @@ Mapidefs.h
 
 
 
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

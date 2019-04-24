@@ -12,24 +12,24 @@ api_type:
 - COM
 ms.assetid: 5a1ff95a-9862-4165-8a70-bd2eeb7fe683
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d277908d3ec96537f63511e4d50488a694696bd5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dee1de19ed61fa4f8edab69152315d77545b01b2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581225"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331698"
 ---
 # <a name="sapptimearray"></a>SAppTimeArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
 Содержит массив значений времени.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
    
 ```cpp
 typedef struct _SAppTimeArray
@@ -42,17 +42,17 @@ typedef struct _SAppTimeArray
 
 ## <a name="members"></a>Members
 
- **cValues**
+ **Квалуес**
   
-> Число значений в массиве, на который указывает член **lpat** . 
+> Количество значений в массиве, на которое указывает элемент **лпат** . 
     
- **lpat**
+ **лпат**
   
 > Указатель на массив значений времени приложения. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Структура **SAppTimeArray** используется для определения свойства типа PT_MV_APPTIME. Дополнительные сведения о PT_MV_APPTIME увидеть [Список типы свойств](property-types.md).
+Структура **сапптимеаррай** используется для определения свойств типа пт_мв_апптиме. Дополнительные сведения о ПТ_МВ_АППТИМЕ приведены в разделе [список типов свойств](property-types.md).
   
 ## <a name="see-also"></a>См. также
 

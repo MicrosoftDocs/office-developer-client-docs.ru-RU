@@ -1,5 +1,5 @@
 ---
-title: IMAPITableUnadvise
+title: Имапитаблеунадвисе
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 19f0dad9-9704-4bbe-a689-9531e7198351
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7de4d3c58d5eeefcf9a82235333da5db4703bc8d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: da11f15dfe9d269b79f465f01f713de401584962
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592978"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328807"
 ---
 # <a name="imapitableunadvise"></a>IMAPITable::Unadvise
 
@@ -25,7 +25,7 @@ ms.locfileid: "22592978"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Показано, как отменить отправку уведомлений, ранее настройка с помощью вызова метода [IMAPITable::Advise](imapitable-advise.md) . 
+ОтМеняет отправку уведомлений, ранее настроенных с помощью вызова метода [IMAPITable:: Advise](imapitable-advise.md) . 
   
 ```cpp
 HRESULT Unadvise(
@@ -35,9 +35,9 @@ ULONG_PTR ulConnection
 
 ## <a name="parameters"></a>Параметры
 
- _ulConnection_
+ _Улконнектион_
   
-> [in] Число подключений к регистрации, возвращаемых вызовом [IMAPITable::Advise](imapitable-advise.md).
+> возврата Номер подключения регистрации, возвращенный при вызове метода [IMAPITable:: Advise](imapitable-advise.md).
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -45,11 +45,11 @@ S_OK
   
 > The call succeeded.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Используйте метод **IMAPITable::Unadvise** для освобождения указатель на объект приемника уведомлений, переданной в параметре _lpAdviseSink_ в предыдущем вызове **IMAPITable::Advise**, тем самым Отмена регистрации уведомлений. Как часть пропуск указатель на объект приемника уведомлений вызывается метод **функции IUnknown::Release** объекта. Как правило, называется **выпуска** во время вызова **Unadvise** , но если другой поток находится в процессе вызова метода [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) для приемник уведомлений вызова **выпуске** откладывается до **OnNotify** метод возвращает. 
+Используйте метод **IMAPITable::** unadvise, чтобы освободить указатель на объект приемника уведомлений, переданный в параметре _лпадвисесинк_ при предыдущем вызове метода **IMAPITable:: Advise**, тем самым отменяя регистрацию уведомлений. При отмене указателя на объект приемника уведомлений вызывается метод " **IUnknown:: Release** " объекта. Как правило, **выпуск** вызывается во время вызова метода unadvise, но если другой поток находится в процессе вызова метода [имапиадвисесинк:: OnNotify](imapiadvisesink-onnotify.md) для приемника уведомлений, вызов **освобождения** задерживается, пока не будет задано значение **** OnNotify **** метод возвращает значение. 
   
-Дополнительные сведения о процессе уведомления видеть [Уведомления о событии в MAPI](event-notification-in-mapi.md). Сведения о таблице уведомлений содержатся [Уведомления о таблице](about-table-notifications.md). Сведения об использовании методов **IMAPISupport** для поддержки уведомлений [Поддерживающие уведомления о событии](supporting-event-notification.md)см.
+Более подробную информацию о процессе уведомления можно узнать [в статье уведомление о событии в MAPI](event-notification-in-mapi.md). Конкретные сведения о табличных уведомлениях см [](about-table-notifications.md). Сведения о том, как использовать методы **имаписуппорт** для поддержки уведомлений, можно узнать в разделе [Поддержка уведомлений о событиях](supporting-event-notification.md).
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -57,7 +57,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|ContentsTableListCtrl.cpp  <br/> |CContentsTableListCtrl::NotificationOff  <br/> |Mfcmapi (en) использует метод **IMAPITable::Unadvise** для отмены уведомления для таблицы.  <br/> |
+|Контентстаблелистктрл. cpp  <br/> |Кконтентстаблелистктрл:: Нотификатионофф  <br/> |MFCMAPI использует метод **IMAPITable:: unadvise** для отмены уведомлений для таблицы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

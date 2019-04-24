@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: d2a84f24-b4a5-4e16-9219-7a579a31a8f8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b8fe0dd61247d3473db4cc728ecfa2c83682b691
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ae9b79abea9a1b2b31867b9ed575e16e8f1c4474
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587721"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327281"
 ---
 # <a name="pidtagattachmimesequence-canonical-property"></a>Каноническое свойство PidTagAttachMimeSequence
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит номер последовательности MIME вложения сообщения MIME.
+Содержит порядковый номер MIME вложения сообщения MIME.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ATTACH_MIME_SEQUENCE  <br/> |
+|Связанные свойства:  <br/> |ПР_АТТАЧ_МИМЕ_СЕКУЕНЦЕ  <br/> |
 |Идентификатор:  <br/> |0x3710  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Свойства вложений сообщений  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство используется для поддержки MHTML. Он представляет порядковый номер вложения в родительском составной раздел MIME-часть MIME-сообщение.
+Это свойство используется для поддержки MHTML. Он представляет порядковый номер вложения в родительском составном тексте MIME сообщения MIME.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

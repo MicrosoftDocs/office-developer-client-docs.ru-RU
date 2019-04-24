@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ee2e9e7f73e03e0a201a5ff41ea6e37a78c668a1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fd29afc93bc952bb619dfac752fae232bf7991cf
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569577"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327879"
 ---
 # <a name="pidtagipmsentmailentryid-canonical-property"></a>Каноническое свойство PidTagIpmSentMailEntryId
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор записи папки Отправленные стандартные сообщения электронной почты — это (IPM). 
+Содержит идентификатор стандартной папки "Отправленные" сообщений об ошибках (IPM). 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_IPM_SENTMAIL_ENTRYID  <br/> |
+|Связанные свойства:  <br/> |ПР_ИПМ_СЕНТМАИЛ_ЕНТРИД  <br/> |
 |Идентификатор:  <br/> |0x35E4  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-После отправки, сообщения электронной почты — это обычно размещается в папке «Отправленные». Клиент может использовать это свойство для свойства **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) на отправленное сообщение. 
+После отправки межпользовательские сообщения обычно помещаются в папку "Отправленные". Клиент может использовать это свойство, чтобы задать свойство **пр_сентмаил_ентрид** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) для отправленного сообщения. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

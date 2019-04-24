@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 9757dfb4-6d37-0517-17fe-7593ff12bbfe
 description: Представляет x-координату для точки привязки управляющего маркера в локальных координатах.
-ms.openlocfilehash: 9dee2381c15ed2817df9f89ebc830cf31bf64c1f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 7aef1fe779ae9b862e88eccf0112eb8696377858
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815211"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322304"
 ---
 # <a name="x-dynamics-cell-controls-section"></a>Ячейка X Dynamics (раздел "Элементы управления")
 

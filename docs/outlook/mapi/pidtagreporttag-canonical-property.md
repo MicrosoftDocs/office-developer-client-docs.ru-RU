@@ -13,52 +13,52 @@ api_type:
 ms.assetid: 581bf372-8705-4617-aaa4-a1d761eb9b58
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 870fbf2228206253261124907d6bd420f95fb7c1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384845"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331432"
 ---
 # <a name="pidtagreporttag-canonical-property"></a>Каноническое свойство PidTagReportTag
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение двоичные тег, системы обмена сообщениями следует скопировать любой отчет, созданный для сообщения. 
+Содержит двоичное значение тега, которое система обмена сообщениями должна скопировать в любой отчет, созданный для сообщения. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REPORT_TAG  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕПОРТ_ТАГ  <br/> |
 |Идентификатор:  <br/> |0x0031  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство, как свойство **PR_SUBJECT_IPM** ([PidTagSubjectMessageId](pidtagsubjectmessageid-canonical-property.md)) используется для сопоставления с отчетом с исходного сообщения. 
+Это свойство, например, свойство **пр_субжект_ипм** ([PidTagSubjectMessageId](pidtagsubjectmessageid-canonical-property.md)), используется для сопоставления отчета с исходным сообщением. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые в сообщениях электронной почты.
+> Задает свойства и операции, допустимые для сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

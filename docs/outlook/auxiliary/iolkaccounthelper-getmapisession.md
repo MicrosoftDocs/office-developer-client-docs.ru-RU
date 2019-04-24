@@ -1,26 +1,26 @@
 ---
-title: IOlkAccountHelperGetMapiSession
+title: Иолкаккаунселпержетмаписессион
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: a431787c-6e9a-9be1-165f-98c778d12e3e
-description: Открытие сеанса MAPI и поддерживает ссылку на сеанс для диспетчера учетных записей.
+description: Открывает сеанс MAPI и поддерживает ссылку на сеанс для диспетчера учетных записей.
 ms.openlocfilehash: 5886ac1ae1bb8f3b43e09f49e48434d9a73656ce
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322178"
 ---
 # <a name="iolkaccounthelpergetmapisession"></a>IOlkAccountHelper::GetMapiSession
 
-Открытие сеанса MAPI и поддерживает ссылку на сеанс для диспетчера учетных записей.
+Открывает сеанс MAPI и поддерживает ссылку на сеанс для диспетчера учетных записей.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkAccountHelper](iolkaccounthelper.md).
+Обратитесь к разделу [иолкаккаунселпер](iolkaccounthelper.md).
   
 ```cpp
 HRESULT IOlkAccountHelper::GetMapiSession(  
@@ -30,17 +30,17 @@ HRESULT IOlkAccountHelper::GetMapiSession(
 
 ## <a name="parameters"></a>Параметры
 
-_ppmsess_
+_ппмсесс_
   
-> [out] Текущий сеанс MAPI.
+> вышли Текущий сеанс MAPI.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Замечания
 
-Из-за проблем с циклические ссылки диспетчер учетных записей самого не может поддерживать ссылку для сеанса MAPI.
+Из-за проблем с циклическими ссылками менеджеру по учетным записям не удается поддерживать ссылку для сеанса MAPI.
   
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: Раздел "Свойства стиля"
+title: Style Properties Section
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,16 +8,16 @@ f1_keywords:
 - Vis_DSS.chm2140
 localization_priority: Normal
 ms.assetid: 042259e6-a40a-8ee1-6bb7-f9a54c088ad3
-description: Включает в себя ячеек, которые управляют поведением стиля, например, включены ли в стиль текста, строка и заполните поля атрибутов.
-ms.openlocfilehash: b47c40d53cb6080601abd6bb44d6b2a7148fd734
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Включает ячейки, которые управляют поведением стиля, например, содержит ли стиль текст, линии и атрибуты заливки.
+ms.openlocfilehash: 92e85a2c82df839a6f866045725067bfcc9ad8c4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814958"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329820"
 ---
-# <a name="style-properties-section"></a>Раздел "Свойства стиля"
+# <a name="style-properties-section"></a>Style Properties Section
 
-Включает в себя ячеек, которые управляют поведением стиля, например, включены ли в стиль текста, строка и заполните поля атрибутов.
+Включает ячейки, которые управляют поведением стиля, например, содержит ли стиль текст, линии и атрибуты заливки.
   
 

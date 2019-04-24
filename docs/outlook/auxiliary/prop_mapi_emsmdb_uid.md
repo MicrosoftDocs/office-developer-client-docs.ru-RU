@@ -6,34 +6,34 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 8e5b42e3-844f-488c-ba6f-b74c447b1d59
-description: Представляет структуру ACCT_BIN, которая содержит уникальный идентификатор учетной записи Exchange.
+description: Представляет структуру АККТ_БИН, которая содержит UID учетной записи Exchange.
 ms.openlocfilehash: 6bb529da82cc24e41ddc70c5031f84050a2ece25
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395282"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326553"
 ---
 # <a name="propmapiemsmdbuid"></a>PROP_MAPI_EMSMDB_UID
 
-Представляет структуру [ACCT_BIN](acct_bin.md) , которая содержит уникальный идентификатор учетной записи Exchange. 
+Представляет структуру [аккт_бин](acct_bin.md) , которая содержит UID учетной записи Exchange. 
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkAccount](iolkaccount.md).
+Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x2009  <br/> |
 |Тип свойства:  <br/> |PT_BINARY  <br/> |
-|Свойство tag:  <br/> |0x20090102  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Тег свойства:  <br/> |0x20090102  <br/> |
+|Обращения  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Получение этого свойства с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md).
+Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md).
   
-Используйте [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md) для проверки, если учетная запись является учетной записью Exchange. Если он установлен, **Свойства\_MAPI_EMSMDB_UID** — это **ACCT_BIN** , содержащий **emsmdbUID**, который является уникальным Идентификатором для учетной записи Exchange. Если учетная запись не является учетной записью Exchange, это свойство не определено.
+Используйте [проп_аккт_ис_ексч](prop_acct_is_exch.md) , чтобы проверить, является ли учетная запись учетной записью Exchange. Если это так, **prop\_Мапи_емсмдб_уид** — это **аккт_бин** , СОДЕРЖАЩИЙ **емсмдбуид**, который является уникальным идентификатором для учетной записи Exchange. Если учетная запись не является учетной записью Exchange, это свойство не определено.
   
 ## <a name="see-also"></a>См. также
 

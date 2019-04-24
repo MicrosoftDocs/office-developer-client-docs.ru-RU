@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5a6ddb97-39b8-4e24-9b89-7a1e3bb261d5
 description: Возвращает синус угла.
-ms.openlocfilehash: 19504f2f19b8523e0f081dbba0359986a940762b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 00701656d400264c206f4a48ed88cf94f0902dc3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328583"
 ---
 # <a name="sin-function-visioshapesheet"></a>SIN Function (VisioShapeSheet)
 
@@ -22,26 +22,26 @@ ms.locfileid: "19814864"
   
 ## <a name="syntax"></a>Синтаксис
 
-SIN (** *угол* **) 
+SIN (* * *угол* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _угол_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Угол которого необходимо получить синус.  <br/> |
+| _градусов_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Угол для получения синуса.  <br/> |
    
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Number
+Номер
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Функция SIN используется радианах, если не указать разные единицы измерения в _угол_.
+Функция SIN использует радианы, если вы не укажете другую единицу измерения в качестве _угла_.
   
 ## <a name="example"></a>Пример
 
-SIN(45 deg) 
+SIN (45 градусов) 
   
-Возвращает 0.7071. 
+Возвращает 0,7071. 
   
 

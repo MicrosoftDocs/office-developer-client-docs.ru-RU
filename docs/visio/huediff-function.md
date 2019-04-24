@@ -6,27 +6,27 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 52f9a53c-1292-4f8a-2a76-82bca650f5ac
-description: Возвращает разницу в тона цветов цвет1 и цвет2.
-ms.openlocfilehash: e20ed9732621b9c897c674b308fd85e7367a18a2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает разницу в оттенок между color1 и color2.
+ms.openlocfilehash: b427be9f6d46f11aaa18b33dab21b10c05e9dda0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813915"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329934"
 ---
 # <a name="huediff-function"></a>Функция HUEDIFF
 
-Возвращает разницу в тона _color1_ и _цвет2_.
+Возвращает разницу в оттенок между _color1_ и _color2_.
   
 ## <a name="syntax"></a>Синтаксис
 
-HUEDIFF (** *color1* **, ** *цвет2* **) 
+HUEDIFF (* * *color1* * *, * * *color2* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _color1_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Microsoft Visio цветовой индекс или значение первого цвета RGB.  <br/> |
-| _цвет2_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Microsoft Visio цветовой индекс или значение второй цвета RGB.  <br/> |
+| _color1_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Цветовой индекс Microsoft Visio или значение RGB для первого цвета.  <br/> |
+| _color2_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Цветовой индекс Microsoft Visio или значение RGB второго цвета.  <br/> |
    
 

@@ -12,39 +12,39 @@ api_type:
 - HeaderDef
 ms.assetid: 0483a239-d820-4d9d-b6ca-e438acfbc4ed
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7417975ba2263f4604d08b51d70b17af07c8c5a9
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8c7481657496a0b7c9c3df4ccf37805f587eb82a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32325818"
 ---
 # <a name="pidtagmessagedeliveryid-canonical-property"></a>Каноническое свойство PidTagMessageDeliveryId
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор система передачи сообщений для сообщений, доставленных для клиентского приложения.
+Содержит идентификатор системы передачи сообщений (MTS) для сообщения, доставленного клиентскому приложению.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_MESSAGE_DELIVERY_ID  <br/> |
+|Связанные свойства:  <br/> |ПР_МЕССАЖЕ_ДЕЛИВЕРИ_ИД  <br/> |
 |Идентификатор:  <br/> |0x001B  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

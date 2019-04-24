@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 33c00752-cdc1-4cbe-8fca-6b06c78bd362
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 0d016c83678d9c1c94ee4ad4b8e12723c03f7bda
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7190065c687524302bae362a2e25d3848e17d1bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570438"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327274"
 ---
 # <a name="fpropexists"></a>FPropExists
 
@@ -25,13 +25,13 @@ ms.locfileid: "22570438"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Выполняет поиск тега заданного свойства в интерфейс [IMAPIProp](imapipropiunknown.md) или интерфейса на основе **IMAPIProp**, такие как [IMessage](imessageimapiprop.md) или [IMAPIFolder](imapifolderimapicontainer.md). 
+Ищет заданный тег свойства в интерфейсе [IMAPIProp](imapipropiunknown.md) или интерфейсе, производном от **IMAPIProp**, например [iMessage](imessageimapiprop.md) или [IMAPIFolder](imapifolderimapicontainer.md). 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiutil.h  <br/> |
+|Файл заголовка:  <br/> |Мапиутил. h  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
-|Вызывающая сторона:  <br/> |Клиентские приложения и поставщиков услуг  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения и поставщики услуг  <br/> |
    
 ```cpp
 BOOL FPropExists(
@@ -42,26 +42,26 @@ BOOL FPropExists(
 
 ## <a name="parameters"></a>Параметры
 
- _pobj_
+ _побж_
   
-> [in] Указатель на интерфейс **IMAPIProp** или интерфейс, производные от **IMAPIProp** , в которой нужно выполнить поиск тега свойства. 
+> возврата Указатель на интерфейс или интерфейс **IMAPIProp** , производный от **IMAPIProp** , в котором нужно найти тег свойства. 
     
- _ulPropTag_
+ _Улпроптаг_
   
-> [in] Свойство tag для поиска.
+> возврата Тег свойства для поиска.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 TRUE 
   
-> Найдено совпадение для тега данного свойства. 
+> Обнаружено сравнение С указанным тегом свойства. 
     
 FALSE 
   
-> Не найдено соответствие для указанного свойства тега.
+> Не найдено сравнение для данного тега свойства.
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
-Если свойство tag с помощью параметра _ulPropTag_ имеет тип PT_UNSPECIFIED, функция **FPropExists** выполняет поиск только на основе свойства идентификатора соответствия. В противном случае учитывается для тега всего свойства, включая тип. 
+Если тег свойства в параметре _улпроптаг_ имеет тип пт_унспеЦифиед, функция **фпропексистс** ищет для поиска значение только на основе идентификатора свойства. В противном случае сравнение выполняется для всего тега свойства, включая тип. 
   
 

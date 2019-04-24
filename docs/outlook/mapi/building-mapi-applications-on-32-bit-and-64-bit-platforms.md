@@ -9,11 +9,11 @@ ms.assetid: d218ba2d-7a2e-4c33-a09b-a8c7e27f9726
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 localization_priority: Priority
 ms.openlocfilehash: 74f321d2c6c8b5159191d4dcdb62e0db21132435
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700418"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326474"
 ---
 # <a name="building-mapi-applications-on-32-bit-and-64-bit-platforms"></a>Создание приложений MAPI на 32- и 64-разрядных платформах
 

@@ -1,5 +1,5 @@
 ---
-title: Ячейка ShapePlaceStyle (раздел "Макет фигуры")
+title: ShapePlaceStyle Cell (Shape Layout Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,61 +8,61 @@ f1_keywords:
 - vis_sdr.chm70007
 localization_priority: Normal
 ms.assetid: 29bfe8ec-ca12-8fbf-b62b-ece3710dfe2e
-description: Указывает размещение фигуры на странице расположения фигур в диалоговом окне "Настройка макета" (на вкладке конструктор в группе макет нажмите кнопку Изменить расположение и нажмите кнопку Дополнительные параметры расположения). Сохранение макета стиля и выравнивание значений из VisCellIndices.
-ms.openlocfilehash: f160c09eae3a3135360f2b8bf6df86c78ba0968c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Указывает, как фигуры размещаются на странице, когда фигуры располагаются в диалоговом окне "Настройка макета" (на вкладке Конструктор в группе Макет выберите пункт изменить макет страницы, а затем щелкните Дополнительные параметры макета). Сохраняет стиль макета и значения выравнивания из Висцеллиндицес.
+ms.openlocfilehash: 381f74912b64395f33a2dc55c0bad24d36a16286
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814781"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326511"
 ---
-# <a name="shapeplacestyle-cell-shape-layout-section"></a>Ячейка ShapePlaceStyle (раздел "Макет фигуры")
+# <a name="shapeplacestyle-cell-shape-layout-section"></a>ShapePlaceStyle Cell (Shape Layout Section)
 
-Указывает размещение фигуры на странице расположения фигур в диалоговом окне " **Настройка макета** " (на вкладке **Конструктор** в группе **Макет** нажмите кнопку **Изменить расположение**и нажмите кнопку **Дополнительные параметры расположения**). Сохранение макета стиля и выравнивание значений из **VisCellIndices**. 
+Указывает, как фигуры размещаются на странице, когда фигуры располагаются в диалоговом окне " **Настройка макета** " (на вкладке **конструктор** в группе **Макет** выберите пункт **изменить макет страницы**, а затем щелкните **Дополнительные параметры макета**). Сохраняет стиль макета и значения выравнивания из **висцеллиндицес**. 
   
-|**Constant**|**Значение**|
+|**Константа**|**Значение**|
 |:-----|:-----|
-|**visLOPlaceBottomToTop** <br/> |4  <br/> |
-|**visLOPlaceCircular** <br/> |6  <br/> |
-|**visLOPlaceCompactDownLeft** <br/> |14  <br/> |
-|**visLOPlaceCompactDownRight** <br/> |7  <br/> |
-|**visLOPlaceCompactLeftDown** <br/> |13  <br/> |
-|**visLOPlaceCompactLeftUp** <br/> |12  <br/> |
-|**visLOPlaceCompactRightDown** <br/> |8  <br/> |
-|**visLOPlaceCompactRightUp** <br/> |9  <br/> |
-|**visLOPlaceCompactUpLeft** <br/> |11  <br/> |
-|**visLOPlaceCompactUpRight** <br/> |10  <br/> |
-|**visLOPlaceDefault** <br/> |0  <br/> |
-|**visLOPlaceHierarchyBottomToTopCenter** <br/> |20  <br/> |
-|**visLOPlaceHierarchyBottomToTopLeft** <br/> |19  <br/> |
-|**visLOPlaceHierarchyBottomToTopRight** <br/> |21  <br/> |
-|**visLOPlaceHierarchyLeftToRightBottom** <br/> |24  <br/> |
-|**visLOPlaceHierarchyLeftToRightMiddle** <br/> |23  <br/> |
-|**visLOPlaceHierarchyLeftToRightTop** <br/> |22  <br/> |
-|**visLOPlaceHierarchyRightToLeftBottom** <br/> |27  <br/> |
-|**visLOPlaceHierarchyRightToLeftMiddle** <br/> |26  <br/> |
-|**visLOPlaceHierarchyRightToLeftTop** <br/> |25  <br/> |
-|**visLOPlaceHierarchyTopToBottomCenter** <br/> |17  <br/> |
-|**visLOPlaceHierarchyTopToBottomLeft** <br/> |16  <br/> |
-|**visLOPlaceHierarchyTopToBottomRight** <br/> |18  <br/> |
-|**visLOPlaceLeftToRight** <br/> |2  <br/> |
-|**visLOPlaceParentDefault** <br/> |15  <br/> |
-|**visLOPlaceRadial** <br/> |3  <br/> |
-|**visLOPlaceRightToLeft** <br/> |5  <br/> |
-|**visLOPlaceTopToBottom** <br/> |1  <br/> |
+|**Вислоплацеботтомтотоп** <br/> |SP4  <br/> |
+|**ВислоплацеЦиркулар** <br/> |ICMPv6  <br/> |
+|**Вислоплацекомпактдовнлефт** <br/> |14  <br/> |
+|**Вислоплацекомпактдовнригхт** <br/> |см  <br/> |
+|**Вислоплацекомпактлефтдовн** <br/> |13  <br/> |
+|**Вислоплацекомпактлефтуп** <br/> |12  <br/> |
+|**Вислоплацекомпактригхтдовн** <br/> |8,5  <br/> |
+|**Вислоплацекомпактригхтуп** <br/> |10  <br/> |
+|**Вислоплацекомпактуплефт** <br/> |-11:00  <br/> |
+|**Вислоплацекомпактупригхт** <br/> |десяти  <br/> |
+|**Вислоплацедефаулт** <br/> |нуль  <br/> |
+|**Вислоплацехиерарчиботтомтотопцентер** <br/> |двадцать  <br/> |
+|**Вислоплацехиерарчиботтомтотоплефт** <br/> |19  <br/> |
+|**Вислоплацехиерарчиботтомтотопригхт** <br/> |21  <br/> |
+|**Вислоплацехиерарчилефтторигхтботтом** <br/> |открыт  <br/> |
+|**Вислоплацехиерарчилефтторигхтмиддле** <br/> |23  <br/> |
+|**Вислоплацехиерарчилефтторигхттоп** <br/> |22  <br/> |
+|**Вислоплацехиерарчиригхттолефтботтом** <br/> |27  <br/> |
+|**Вислоплацехиерарчиригхттолефтмиддле** <br/> |26  <br/> |
+|**Вислоплацехиерарчиригхттолефттоп** <br/> |25  <br/> |
+|**Вислоплацехиерарчитоптоботтомцентер** <br/> |17  <br/> |
+|**Вислоплацехиерарчитоптоботтомлефт** <br/> |столбцов  <br/> |
+|**Вислоплацехиерарчитоптоботтомригхт** <br/> |0,18  <br/> |
+|**Вислоплацелефтторигхт** <br/> |2  <br/> |
+|**Вислоплацепарентдефаулт** <br/> |означает  <br/> |
+|**Вислоплацерадиал** <br/> |4  <br/> |
+|**Вислоплацеригхттолефт** <br/> |17:00  <br/> |
+|**Вислоплацетоптоботтом** <br/> |1,1  <br/> |
    
-Для ссылки на ячейки ShapePlaceStyle по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы сослаться на ячейку ShapePlaceStyle по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |ShapePlaceStyle  <br/> |
+|Имя ячейки:  <br/> |ShapePlaceStyle  <br/> |
    
-Для ссылки на ячейки ShapePlaceStyle по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы сослаться на ячейку ShapePlaceStyle по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowShapeLayout** <br/> |
-|Индекс ячейки:  <br/> |**visSLOPlaceStyle** <br/> |
+|Индекс строки:  <br/> |**Висровшапелайаут** <br/> |
+|Индекс ячейки:  <br/> |**Висслоплацестиле** <br/> |
    
 

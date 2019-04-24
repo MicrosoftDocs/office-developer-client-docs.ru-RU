@@ -13,54 +13,54 @@ api_type:
 ms.assetid: cbc4585d-f970-4b22-ac08-d7fc91bff3d3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f05fa0816db3b412329372ad392c673c240eb59e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389101"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327246"
 ---
 # <a name="pidtagattachmimetag-canonical-property"></a>Каноническое свойство PidTagAttachMimeTag
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит сведения о форматировании о вложении Multipurpose Internet Mail Extensions (MIME). 
+Содержит сведения о форматировании для вложения с многоцелевыми поЧтовыми расширениями в Интернете (MIME). 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ATTACH_MIME_TAG, PR_ATTACH_MIME_TAG_A, PR_ATTACH_MIME_TAG_W  <br/> |
+|Связанные свойства:  <br/> |ПР_АТТАЧ_МИМЕ_ТАГ, ПР_АТТАЧ_МИМЕ_ТАГ_А, ПР_АТТАЧ_МИМЕ_ТАГ_В  <br/> |
 |Идентификатор:  <br/> |0x370E  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Если свойство **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) содержит значение **OID_MIMETAG**, поставщика транспорта следует обратить внимание на эти свойства, чтобы определить способ форматирования вложение. 
+Если свойство **пр_аттач_таг** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) содержит значение **оид_миметаг**, то поставщик транспорта должен просмотреть эти свойства, чтобы определить способ форматирования вложения. 
   
-Эти свойства, копируются с помощью параметра типа контента входящих заголовка MIME. Формирование строки определяется в документе RFC 1521. Тип/подтип, такие как приложение/двоичный или text/plain имеет формат. 
+Эти свойства копируются из параметра Content – Type входящего заголовка MIME. Композиция строки определена в документе RFC 1521. Формат — тип/подтип, например Application/Binary или text/plain. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS — ОКСОРММС]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Задает свойства управляемый правами закодированный сообщений.
+> Задает свойства сообщений, закодированных с помощью управления правами.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

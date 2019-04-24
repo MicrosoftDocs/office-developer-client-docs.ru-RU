@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: d82986c1-3a1e-48de-b6c9-b4bc64a88ee2
 description: Указывает, следует ли использовать безопасную проверку пароля (SPA) для учетной записи SMTP.
-ms.openlocfilehash: a0bd944f4534f1a18021d1cbf6a1d224e60f9568
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b1f2ba9b7568361ad25147a94966bf42b98eda40
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328338"
 ---
 # <a name="propsmtpusespa"></a>PROP_SMTP_USE_SPA
 
@@ -23,13 +23,13 @@ ms.locfileid: "19807961"
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0207  <br/> |
-|Тип свойства:  <br/> |PT_DWORD  <br/> |
-|Свойство tag:  <br/> |0x02070003  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Тип свойства:  <br/> |ПТ_ДВОРД  <br/> |
+|Тег свойства:  <br/> |0x02070003  <br/> |
+|Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Нуль означает значение не используйте SPA, в противном случае используйте SPA.
+Нулевое значение означает, что не следует использовать SPA, в противном случае использовать SPA.
   
 ## <a name="see-also"></a>См. также
 

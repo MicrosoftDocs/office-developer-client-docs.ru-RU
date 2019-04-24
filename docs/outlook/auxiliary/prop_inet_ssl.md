@@ -6,30 +6,30 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 27732f6d-e030-4080-9684-69293a57598b
-description: Указывает, следует ли использовать Secure сокетов протокол SSL для общего почтового ящика Интернета.
-ms.openlocfilehash: aecebe77ffe0db14a183e8b86269db7c7ff5d891
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Указывает, следует ли использовать протокол SSL для общего почтового ящика в Интернете.
+ms.openlocfilehash: 12b6d803925b0be546273521b171d59a0a6b29d7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327547"
 ---
 # <a name="propinetssl"></a>PROP_INET_SSL
 
-Указывает, следует ли использовать Secure сокетов протокол SSL для общего почтового ящика Интернета.
+Указывает, следует ли использовать протокол SSL для общего почтового ящика в Интернете.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0105  <br/> |
-|Тип свойства:  <br/> |PT_DWORD  <br/> |
-|Свойство tag:  <br/> |0x01050003  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Тип свойства:  <br/> |ПТ_ДВОРД  <br/> |
+|Тег свойства:  <br/> |0x01050003  <br/> |
+|Обращения  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Нуль означает значение не использовать протокол SSL, в противном случае использовать протокол SSL.
+Нулевое значение означает, что не используется SSL, в противном случае используется SSL.
   
 ## <a name="see-also"></a>См. также
 

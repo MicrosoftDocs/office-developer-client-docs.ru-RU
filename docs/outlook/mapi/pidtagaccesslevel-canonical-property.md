@@ -13,57 +13,57 @@ api_type:
 ms.assetid: 8f7119c7-ffc3-47cf-aa1b-b4e56bcc5a24
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 5138f5d255f6a90d2891fe2cf5ce92513463fa31
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331999"
 ---
 # <a name="pidtagaccesslevel-canonical-property"></a>Каноническое свойство PidTagAccessLevel
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает уровень доступа клиентов к объекту.
+Указывает уровень доступа клиента к объекту.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ACCESS_LEVEL  <br/> |
+|Связанные свойства:  <br/> |ПР_АКЦЕСС_ЛЕВЕЛ  <br/> |
 |Идентификатор:  <br/> |0x0FF7  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Элемент управления доступа к свойствам  <br/> |
+|Область:  <br/> |Свойства управления доступом  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство доступно только для чтения для клиента. Оно должно быть одно из следующих значений:
+Для клиента это свойство доступно только для чтения. Он должен иметь одно из следующих значений:
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|0x00000000  <br/> |Только для чтения  <br/> |
-|0x00000001  <br/> |Modify  <br/> |
+|0x00000000  <br/> |Только чтение  <br/> |
+|0x00000001  <br/> |Изменение  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -71,7 +71,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

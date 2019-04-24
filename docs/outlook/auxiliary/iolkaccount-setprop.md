@@ -1,26 +1,26 @@
 ---
-title: IOlkAccountSetProp
+title: Иолкаккаунтсетпроп
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 883b1c5d-47dd-a006-b5f1-130691bdd019
-description: Задает значение свойства указанной учетной записи.
-ms.openlocfilehash: 2bb8a323f5f3399b9eac1cfdf9ac18faddfdb259
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Задает значение указанного свойства учетной записи.
+ms.openlocfilehash: 94134cee7886177ab840a6caff7d70d65bf9d4cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807810"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322255"
 ---
 # <a name="iolkaccountsetprop"></a>IOlkAccount::SetProp
 
-Задает значение свойства указанной учетной записи.
+Задает значение указанного свойства учетной записи.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkAccount](iolkaccount.md).
+Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::SetProp(  
@@ -31,24 +31,24 @@ HRESULT IOlkAccount::SetProp(
 
 ## <a name="parameters"></a>Параметры
 
-_dwProp_
+_Двпроп_
   
-> [in] Свойство tag свойства учетной записи для установки.
+> возврата Тег свойства для свойства Account, которое необходимо задать.
     
-_pVar_
+_ПВАР_
   
-> [in] Значение указанного свойства.
+> возврата Значение указанного свойства.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|ЗНАЧЕНИЕ S_OK  <br/> |Вызов метода прошла успешно.  <br/> |
-|E_INVALIDARG  <br/> |Указан недопустимый свойства тега.  <br/> |
+|S_OK  <br/> |Вызов метода выполнен успешно.  <br/> |
+|E_INVALIDARG  <br/> |Указан недопустимый тег свойства.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Используйте [IOlkAccount::SaveChanges](iolkaccount-savechanges.md) , чтобы сохранить изменения значений свойств учетной записи. 
+Используйте [иолкаккаунт:: SaveChanges](iolkaccount-savechanges.md) , чтобы сохранить изменения в значении свойств учетной записи. 
   
 ## <a name="see-also"></a>См. также
 

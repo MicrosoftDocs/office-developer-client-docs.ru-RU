@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 5763fc78-5192-4162-be27-4aadc7ed65bc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ade74b13811445c39c73f778b6de49b67b59093b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 815685696dfc93bb6241f608ca0157e87e758e7b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587560"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327875"
 ---
 # <a name="pidtagipmsubtreeentryid-canonical-property"></a>Каноническое свойство PidTagIpmSubtreeEntryId
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор записи корня поддерево папки электронной почты — это сообщение (IPM) в дереве папки хранилища сообщений. 
+Содержит идентификатор корня поддерева папки межконтактного сообщения (IPM) в дереве папок хранилища сообщений. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_IPM_SUBTREE_ENTRYID  <br/> |
+|Связанные свойства:  <br/> |ПР_ИПМ_СУБТРИ_ЕНТРИД  <br/> |
 |Идентификатор:  <br/> |0x35E0  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Это свойство представляет корень иерархии IPM. IPM клиенты не должны отображаться какие-либо папки, которые не являются вложенные папки, представленного в этом свойстве.
+Это свойство представляет корень иерархии IPM. Клиенты IPM не должны отображать папки, которые не являются подпапками папки, представленной этим свойством.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

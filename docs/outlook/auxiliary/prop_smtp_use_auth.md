@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: c53cfe28-603c-49c5-bce6-b4401c7c5091
 description: Указывает, следует ли использовать проверку подлинности для учетной записи SMTP.
-ms.openlocfilehash: 8839118f905ef4f93d878567539c2831e38c3f7e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: c262fdbd864358d80ab8c2288181f01844194431
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32328317"
 ---
 # <a name="propsmtpuseauth"></a>PROP_SMTP_USE_AUTH
 
@@ -23,13 +23,13 @@ ms.locfileid: "19807963"
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0203  <br/> |
-|Тип свойства:  <br/> |PT_DWORD  <br/> |
-|Свойство tag:  <br/> |0x02030003  <br/> |
-|Access:  <br/> |Только для чтения  <br/> |
+|Тип свойства:  <br/> |ПТ_ДВОРД  <br/> |
+|Тег свойства:  <br/> |0x02030003  <br/> |
+|Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Нуль означает значение не использовать проверку подлинности, в противном случае использования проверки подлинности.
+Нулевое значение означает, что проверка подлинности не используется, иначе используется проверка подлинности.
   
 ## <a name="see-also"></a>См. также
 

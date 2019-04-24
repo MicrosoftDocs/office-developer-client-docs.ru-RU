@@ -8,35 +8,35 @@ f1_keywords:
 - Vis_DSS.chm60117
 localization_priority: Normal
 ms.assetid: 371a475d-50f7-6b4c-4b47-581cd778dcba
-description: Возвращает символ Unicode из числа.
-ms.openlocfilehash: 06f97717ee4d5965253b0da7cfd5c35faf0ca2f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает символ Юникода из числа.
+ms.openlocfilehash: 81e76b72da35f79dee9ad6afbde51bc2e228483c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815104"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327351"
 ---
 # <a name="unichar-function"></a>Функция UNICHAR
 
-Возвращает символ Unicode из числа. 
+Возвращает символ Юникода из числа. 
   
 ## <a name="syntax"></a>Синтаксис
 
-UNICHAR (** *номер* **) 
+ЮНИСИМВ (* * *Number* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _number_ <br/> |Обязательный  <br/> |**Integer** <br/> |Целое число от 1 до 65 535 (включительно) или функцию возвращает ошибку.  <br/> |
+| _число_ <br/> |Обязательный  <br/> |**Integer** <br/> |Целое число от 1 до 65 535 (включительно), или функция возвращает ошибку.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Результирующую строку — один символ Unicode (двух знаков) в длину. 
+Результирующая строка — это один символ Юникода (два символа) в длину. 
   
 ## <a name="example"></a>Пример
 
-UNICHAR(65) 
+ЮНИСИМВ (65) 
   
 Возвращает (прописная латинская буква A) 
   

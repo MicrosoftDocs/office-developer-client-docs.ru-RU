@@ -8,77 +8,77 @@ f1_keywords:
 - Vis_DSS.chm82251786
 localization_priority: Normal
 ms.assetid: d9fc2007-cc21-b20c-adee-be87cc356753
-description: Определяет, одинаковы ли строки. Возвращает значение TRUE, если они совпадают с и значение FALSE, если они не.
-ms.openlocfilehash: 5365ce6e679f708a47f4bcbdebbc4cabb13a2aee
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, совпадают ли строки. Он возвращает значение TRUE, если они одинаковы, и значение FALSE в противном случае.
+ms.openlocfilehash: 0f298c966ec7a3f1e23c89473fecc555ed950f79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814944"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329843"
 ---
 # <a name="strsame-function"></a>Функция STRSAME
 
-Определяет, одинаковы ли строки. Возвращает значение TRUE, если они совпадают с и значение FALSE, если они не. 
+Определяет, совпадают ли строки. Он возвращает значение TRUE, если они одинаковы, и значение FALSE в противном случае. 
   
 ## <a name="syntax"></a>Синтаксис
 
-STRSAME (» ** *string1* ** «,» ** *string2* ** «, ** *ignoreCase* **) 
+STRSAME ("* * *строка_поиска* * *", "* * *строка2* * *", * * *ignoreCase* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _string1_ <br/> |Обязательный  <br/> |**Строка** <br/> |Первая строка для сравнения.  <br/> |
-| _Строка string2_ <br/> |Обязательный  <br/> |**Строка** <br/> |Вторая строка для сравнения.  <br/> |
-| _ignoreCase_ <br/> |Optional  <br/> |**Boolean** <br/> |Значение TRUE, следует ли игнорировать регистр и значение FALSE для сравнения регистр. Значение по умолчанию — FALSE.  <br/> |
+| _строка1_ <br/> |Обязательный  <br/> |**String** <br/> |Первая сравниваемая строка.  <br/> |
+| _строка2_ <br/> |Обязательный  <br/> |**String** <br/> |Вторая сравниваемая строка.  <br/> |
+| _ignoreCase_ <br/> |Необязательно заполнять.  <br/> |**Boolean** <br/> |ЗНАЧЕНИЕ TRUE, чтобы игнорировать регистр и значение FALSE, чтобы сравнить регистр. Значение по умолчанию — FALSE.  <br/> |
    
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
-Логический
+Boolean
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для сравнения строк из нескольких байтов или сравнений с использованием правил регистра для определенного языкового стандарта, используйте функцию STRSAMEEX.
+Чтобы сравнить многобайтовые строки или выполнить сравнения с использованием правил для определенного языкового стандарта, используйте функцию STRSAMEEX.
   
-## <a name="example-1"></a>Пример 1
+## <a name="example-1"></a>Пример 1
 
-STRSAME("CAT","dog")
+STRSAME ("Cat", "собака")
   
 Возвращает значение FALSE.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
-STRSAME("CAT","CAT")
+STRSAME ("Cat", "Cat")
   
 Возвращает значение TRUE.
   
 ## <a name="example-3"></a>Пример 3
 
-STRSAME («cat», «cat», значение TRUE)
+STRSAME ("Cat", "Cat", TRUE)
   
 Возвращает значение TRUE.
   
 ## <a name="example-4"></a>Пример 4
 
-STRSAME("CAT","CAT")
+STRSAME ("Cat", "CAT")
   
 Возвращает значение FALSE.
   
 ## <a name="example-5"></a>Пример 5
 
-STRSAME (слово "кошка", "Кот", значение TRUE)
+STRSAME ("Cat", "CAT", TRUE)
   
 Возвращает значение TRUE.
   
-## <a name="example-6"></a>В примере 6
+## <a name="example-6"></a>Пример 6
 
-STRSAME ("cät," кот", значение TRUE)
+STRSAME ("кäт", "CAT", TRUE)
   
 Возвращает значение FALSE.
   
 ## <a name="example-7"></a>Пример 7
 
-STRSAME ("cät," CÄT", значение TRUE)
+STRSAME ("кäт", "КÄТ", TRUE)
   
 Возвращает значение TRUE.
   

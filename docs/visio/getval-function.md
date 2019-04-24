@@ -8,32 +8,32 @@ f1_keywords:
 - Vis_DSS.chm82251885
 localization_priority: Normal
 ms.assetid: 1da42991-5791-ebab-84cc-286cfe984a61
-description: Получает значение ячейки и не пересчитывает формулу при изменении значения ячейки.
-ms.openlocfilehash: b4c8ea14b7184101a360c9f5ee4af03fd178aa6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Получает значение ячейки и не вычисляет формулу при изменении значения в ячейке.
+ms.openlocfilehash: 9449ccd8f849b23faf08ee25826301a1b6efe6d0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813849"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327316"
 ---
 # <a name="getval-function"></a>Функция GETVAL
 
-Получает значение ячейки и не пересчитывает формулу при изменении значения ячейки.
+Получает значение ячейки и не вычисляет формулу при изменении значения в ячейке.
   
 ## <a name="syntax"></a>Синтаксис
 
-GETVAL (** *cellname* **) 
+GETVAL (* * *целлнаме* * *) 
   
 ### <a name="parameters"></a>Параметры
 
-|**Имя**|**Обязательный или необязательный**|**Тип данных**|**Описание**|
+|**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _cellname_ <br/> |Обязательный  <br/> |**Строка** <br/> |Имя ячейки, чтобы возвратить значение.  <br/> |
+| _целлнаме_ <br/> |Обязательный  <br/> |**String** <br/> |Имя ячейки, для которой необходимо получить значение.  <br/> |
    
 ## <a name="example"></a>Пример
 
-GETVAL(PinX) + GETVAL(PinY) + ширины 
+GETVAL (PinX) + GETVAL (PinY) + Width 
   
-Возвращает сумму значение PinX, PinY и ширина ячеек. 
+Возвращает сумму значений ячеек PinX, PinY и Width. 
   
 

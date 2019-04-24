@@ -1,5 +1,5 @@
 ---
-title: SectionDef_Type complexType ('Visio XML»)
+title: Сектиондеф_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5ab57bf2-0d9f-4a3a-4882-c77d7c781cbd
 ms.openlocfilehash: 1d13cf54861435aea2ce0b3aade955575d538891
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326077"
 ---
-# <a name="sectiondeftype-complextype-visio-xml"></a>SectionDef_Type complexType ('Visio XML»)
+# <a name="sectiondeftype-complextype-visio-xml"></a>Сектиондеф_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -64,15 +64,15 @@ ms.locfileid: "25395079"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|CellDef <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
-|RowDef <br/> |[RowDef_Type](rowdef_type-complextypevisio-xml.md) <br/> ||
+|Целлдеф <br/> |[Целлдеф_типе](celldef_type-complextypevisio-xml.md) <br/> ||
+|Ровдеф <br/> |[Ровдеф_типе](rowdef_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|N  <br/> |XSD:String  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
-|s  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
-|T  <br/> |XSD:String  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|N  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|S  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
+|Д  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

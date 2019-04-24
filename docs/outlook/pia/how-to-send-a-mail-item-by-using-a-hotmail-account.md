@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 008f66ff1a43f90e756900c467ba6c086829b769
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331166"
 ---
 # <a name="send-a-mail-item-by-using-a-hotmail-account"></a>Отправка почтового элемента с помощью учетной записи Hotmail
 
@@ -27,7 +27,7 @@ ms.locfileid: "28701524"
 
 В представленном ниже примере кода сообщение создается с вложенным маршрутом и затем отправляется с помощью учетной записи Windows Live Hotmail. Учетная запись Hotmail применяется в качестве объекта **Account** в профиле пользователя. Затем в примере кода для свойства SendUsingAccount задается этот объект Account и вызывается метод [Send()](https://msdn.microsoft.com/library/bb644139\(v=office.15\)) из объекта [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)).
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкцию **using** непосредственно перед функциями в примере кода, но ее необходимо добавить перед объявлением общедоступного класса. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

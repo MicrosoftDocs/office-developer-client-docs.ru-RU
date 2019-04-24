@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: f7182631-7f0e-4f4a-995d-22c0bedd7b6a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c976375d428e477de688f42eaa3ff8396fcfd4fc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2780f33744cacf07671aa70f1d5b4af49e95da43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331831"
 ---
 # <a name="cbnewflatentrylist"></a>CbNewFLATENTRYLIST
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов, должен быть размещен для новой структуры [FLATENTRYLIST](flatentrylist.md) , содержащий несколько структур [FLATENTRY](flatentry.md) указанного размера. 
+Вычисляет количество байтов, которое следует выделить для новой структуры [флатентрилист](flatentrylist.md) , содержащей несколько структур [флатентри](flatentry.md) указанного размера. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**FLATENTRYLIST** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**FLATENTRYLIST** <br/> |
    
 ```cpp
 CbNewFLATENTRY (_cb)
@@ -38,9 +38,9 @@ CbNewFLATENTRY (_cb)
 
 ## <a name="parameters"></a>Параметры
 
- __Сертификация_
+ __CB_
   
-> Число байт в структуре **FLATENTRY** должны быть включены в новой структуры **FLATENTRYLIST** . 
+> Количество байтов в структурах **флатентри** , включаемых в новую структуру **флатентрилист** . 
     
 ## <a name="see-also"></a>См. также
 

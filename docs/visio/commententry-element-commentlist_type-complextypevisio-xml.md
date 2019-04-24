@@ -1,31 +1,31 @@
 ---
-title: Элемент CommentEntry (CommentList_Type complexType) ('Visio XML»)
+title: Элемент Комментентри (Комментлист_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b0653622-fa94-4889-68c2-94f3e7a83119
-description: Задает свойства, используемые для идентификации комментария в документ.
+description: Задает свойства, используемые для идентификации комментария в документе.
 ms.openlocfilehash: 79d15b95f986826a4848c2dfbb003255d3482134
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329542"
 ---
-# <a name="commententry-element-commentlisttype-complextype-visio-xml"></a>Элемент CommentEntry (CommentList_Type complexType) ('Visio XML»)
+# <a name="commententry-element-commentlisttype-complextype-visio-xml"></a>Элемент Комментентри (Комментлист_типе complexType) (' Visio XML ')
 
-Задает свойства, используемые для идентификации комментария в документ.
+Задает свойства, используемые для идентификации комментария в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Комментентри_типе](commententry_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Comments.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Comments. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25397046"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[CommentList](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |Указывает комментарии в документе.  <br/> |
+|[Комментлист](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[Комментлист_типе](commentlist_type-complextypevisio-xml.md) <br/> |Задает комментарии в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,12 +52,12 @@ ms.locfileid: "25397046"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|AuthorID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |На основе одно значение, идентифицирующее автора.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|CommentID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Уникальное значение, определяющее комментария в страницу документа.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|Date  <br/> |XSD: DateTime  <br/> |Обязательный  <br/> |Указывает время создания комментария.  <br/> |Значения типа XSD: DateTime.  <br/> |
-|done  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Указывает текущее состояние комментария.  <br/> |Значения типа xsd:boolean.  <br/> |
-|EditDate  <br/> |XSD: DateTime  <br/> |необязательный  <br/> |Указывает время последнего изменения комментария.  <br/> |Значения типа XSD: DateTime.  <br/> |
-|PageID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Значение, указывающее странице документа комментарий — на.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|ShapeID  <br/> |XSD:unsignedInt  <br/> |необязательный  <br/> |Значение, указывающее фигуры комментария включен. Если не ShapeID не указан, то comment указывает на странице документа.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|Аусорид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Значение с отзначением от единицы, идентифицирующее автора.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Комментид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальное значение, идентифицирующее комментарий на странице документа.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Дата  <br/> |XSD: dateTime  <br/> |Обязательный  <br/> |Указывает, когда был создан комментарий.  <br/> |Значения типа XSD: dateTime.  <br/> |
+|Готово  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Задает текущее состояние комментария.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|EditDate  <br/> |XSD: dateTime  <br/> |необязательный  <br/> |Указывает время последнего изменения комментария.  <br/> |Значения типа XSD: dateTime.  <br/> |
+|PageID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Значение, идентифицирующее страницу документа, к которой относится комментарий.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Шапеид  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Значение, определяющее фигуру, в которой находится комментарий. Если Шапеид не указан, комментарий ссылается на страницу документа.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Элемент HeaderFooterFont (HeaderFooter_Type complexType) ('Visio XML»)
+title: Элемент HeaderFooterFont (Хеадерфутер_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,13 +8,13 @@ localization_priority: Normal
 ms.assetid: 4e69dd4f-7281-e988-b1fd-93ac8c775c03
 description: Задает шрифт, используемый для текста верхнего и нижнего колонтитулов.
 ms.openlocfilehash: f14d973caddc77394881d1b1dfd62a43f10cd7bb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322430"
 ---
-# <a name="headerfooterfont-element-headerfootertype-complextype-visio-xml"></a>Элемент HeaderFooterFont (HeaderFooter_Type complexType) ('Visio XML»)
+# <a name="headerfooterfont-element-headerfootertype-complextype-visio-xml"></a>Элемент HeaderFooterFont (Хеадерфутер_типе complexType) (' Visio XML ')
 
 Задает шрифт, используемый для текста верхнего и нижнего колонтитулов.
   
@@ -22,10 +22,10 @@ ms.locfileid: "25385972"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Хеадерфутерфонт_типе](headerfooterfont_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25385972"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для колонтитулов документа.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Хеадерфутер_типе](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для верхнего и нижнего колонтитулов документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,19 +52,19 @@ ms.locfileid: "25385972"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Набор символов  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> |Задает набор символов шрифта. Эквивалент в поле GDI LOGFONTlfCharSet.  <br/> |Значения типа xsd:unsignedByte.  <br/> |
-|ClipPrecision  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> |Указывает точность отсечения шрифта. Эквивалент в поле GDI LOGFONTlfClipPrecision.  <br/> |Значения типа xsd:unsignedByte.  <br/> |
-|Наклон  <br/> |XSD: int  <br/> |необязательный  <br/> |Указывает атрибут наклон шрифта. Эквивалент в поле GDI LOGFONTlfEscapement.  <br/> |Значения типа XSD: int.  <br/> |
-|Название значка  <br/> |XSD:String  <br/> |необязательный  <br/> |Содержит сведения о шрифта.  <br/> |Значения типа xsd:string.  <br/> |
+|CharSet  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> |Задает кодировку шрифта. Эквивалентно полю Логфонтлфчарсет GDI.  <br/> |Значения типа XSD: Унсигнедбите.  <br/> |
+|КлиппреЦисион  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> |Задает точность отсечения шрифта. Эквивалентно полю ЛогфонтлфклиппреЦисион GDI.  <br/> |Значения типа XSD: Унсигнедбите.  <br/> |
+|ПоСледовательное преобразование  <br/> |XSD: int  <br/> |необязательный  <br/> |Задает атрибут экранирования шрифта. Эквивалентно полю Логфонтлфескапемент GDI.  <br/> |Значения типа XSD: int.  <br/> |
+|Фаценаме  <br/> |XSD: строка  <br/> |необязательный  <br/> |Содержит сведения о шрифте.  <br/> |Значения типа String: XSD.  <br/> |
 |Height  <br/> |XSD: int  <br/> |необязательный  <br/> |Задает высоту фигуры в единицах документа.  <br/> |Значения типа XSD: int.  <br/> |
-|Курсив  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> |Указывает, является ли шрифт курсивом. Эквивалент в поле GDI LOGFONTlfItalic.  <br/> |Значения типа xsd:unsignedByte.  <br/> |
-|Ориентация  <br/> |XSD: int  <br/> |необязательный  <br/> |Ориентация шрифта. Эквивалент в поле GDI LOGFONTlfOrientation.  <br/> |Значения типа XSD: int.  <br/> |
-|OutPrecision  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> |Указывает атрибут точности вывода шрифта. Эквивалент в поле GDI LOGFONTlfOutPrecision.  <br/> |Значения типа xsd:unsignedByte.  <br/> |
-|PitchAndFamily  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> |Задает шаг и семейства шрифта. Эквивалент в поле GDI LOGFONTlfPitchAndFamily.  <br/> |Значения типа xsd:unsignedByte.  <br/> |
-|Качество  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> |Указывает качество шрифта. Эквивалент в поле GDI LOGFONTlfQuality.  <br/> |Значения типа xsd:unsignedByte.  <br/> |
-|Зачеркивание  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> |Указывает, является ли шрифт зачеркнутый шрифт. Эквивалент в поле GDI LOGFONTlfStrikeOut.  <br/> |Значения типа xsd:unsignedByte.  <br/> |
-|Подчеркивание  <br/> |XSD:unsignedByte  <br/> |необязательный  <br/> |Указывает, является ли шрифт подчеркнутым. Эквивалент в поле GDI LOGFONTlfUnderline.  <br/> |Значения типа xsd:unsignedByte.  <br/> |
-|Насыщенность  <br/> |XSD: int  <br/> |необязательный  <br/> |Задает Вес шрифта. Эквивалент в поле GDI LOGFONTlfWeight.  <br/> |Значения типа XSD: int.  <br/> |
-|Width  <br/> |XSD: int  <br/> |необязательный  <br/> |Содержит ширину связанные фигуры в единицах документа.  <br/> |Значения типа XSD: int.  <br/> |
+|Курсив  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> |Указывает, является ли шрифт курсивом. Эквивалентно полю Логфонтлфиталик GDI.  <br/> |Значения типа XSD: Унсигнедбите.  <br/> |
+|Вводное обучение  <br/> |XSD: int  <br/> |необязательный  <br/> |Указывает ориентацию шрифта. Эквивалентно полю Логфонтлфориентатион GDI.  <br/> |Значения типа XSD: int.  <br/> |
+|Точность  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> |Задает атрибут точности вывода шрифта. Эквивалентно полю ЛогфонтлфаутпреЦисион GDI.  <br/> |Значения типа XSD: Унсигнедбите.  <br/> |
+|PitchAndFamily  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> |Указывает шаг и семейство шрифта. Эквивалентно полю Логфонтлфпитчандфамили GDI.  <br/> |Значения типа XSD: Унсигнедбите.  <br/> |
+|Отображения  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> |Задает качество вывода шрифта. Эквивалентно полю Логфонтлфкуалити GDI.  <br/> |Значения типа XSD: Унсигнедбите.  <br/> |
+|Зачеркнутый  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> |Указывает, является ли шрифт зачеркиванием. Эквивалентно полю Логфонтлфстрикеаут GDI.  <br/> |Значения типа XSD: Унсигнедбите.  <br/> |
+|Подчеркнутый  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> |Указывает, является ли шрифт подчеркиванием. Эквивалентно полю Логфонтлфундерлине GDI.  <br/> |Значения типа XSD: Унсигнедбите.  <br/> |
+|Насыщенность  <br/> |XSD: int  <br/> |необязательный  <br/> |Задает толщину шрифта. Эквивалентно полю Логфонтлфвеигхт GDI.  <br/> |Значения типа XSD: int.  <br/> |
+|Width  <br/> |XSD: int  <br/> |необязательный  <br/> |Содержит ширину связанной фигуры в единицах документа.  <br/> |Значения типа XSD: int.  <br/> |
    
 

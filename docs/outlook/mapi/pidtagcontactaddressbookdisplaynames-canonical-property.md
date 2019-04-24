@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: cce99321-9b6a-4b1a-b19f-a82ca9ba6a30
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1c5295b07c6ed1e70bc2686b7e5ae0393de2b467
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0eb92008e7eff00388e85c5badbdc97a4c6dda12
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331726"
 ---
 # <a name="pidtagcontactaddressbookdisplaynames-canonical-property"></a>Каноническое свойство PidTagContactAddressBookDisplayNames
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список отображаемые имена для обмена сообщениями пользователей в адресной книги.
+Содержит список отображаемых имен пользователей обмена сообщениями в адресной книге контакта.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTAB_DISPLAY_NAMES, PR_CONTAB_DISPLAY_NAMES_A, PR_CONTAB_DISPLAY_NAMES_W  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНТАБ_ДИСПЛАЙ_НАМЕС, ПР_КОНТАБ_ДИСПЛАЙ_НАМЕС_А, ПР_КОНТАБ_ДИСПЛАЙ_НАМЕС_В  <br/> |
 |Идентификатор:  <br/> |0x6624  <br/> |
-|Тип данных:  <br/> |PT_MV_UNICODE PT_MV_STRING8  <br/> |
+|Тип данных:  <br/> |ПТ_МВ_УНИКОДЕ, PT_MV_STRING8  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Эти свойства определены пользователей и организаций пользователя.
+Эти свойства определяются пользователем и организацией пользователя.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

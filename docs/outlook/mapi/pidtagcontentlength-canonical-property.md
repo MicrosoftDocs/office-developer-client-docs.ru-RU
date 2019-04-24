@@ -12,39 +12,39 @@ api_type:
 - HeaderDef
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f310439b3a1d8a45215b220dcd7565e821d81f01
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f2110682be9296a874e6f42d40a375b69d201431
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572804"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331887"
 ---
 # <a name="pidtagcontentlength-canonical-property"></a>Каноническое свойство PidTagContentLength
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит длина сообщения, в байтах, переданной в клиентском приложении или поставщик услуг для определения, если сообщение из заданной длины может быть доставлено. 
+Содержит длину сообщения (в байтах), которая передается клиентскому приложению или поставщику услуг, чтобы определить, может ли быть доставлено сообщение этой длины. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTENT_LENGTH  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНТЕНТ_ЛЕНГС  <br/> |
 |Идентификатор:  <br/> |0x0009  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Exchange  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

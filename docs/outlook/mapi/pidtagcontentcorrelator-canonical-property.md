@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 0bf78879-2f9f-4c29-b1f4-2f4882d8464d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6398acf71e62157cf5a6eb7e6caf22130fa9f9d0
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 96e0e3152a70eb2913c4559afd99e25adff48ca9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22568807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32331978"
 ---
 # <a name="pidtagcontentcorrelator-canonical-property"></a>Каноническое свойство PidTagContentCorrelator
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение, отправителя сообщения можно использовать в соответствии с отчет с исходного сообщения.
+Содержит значение, которое отправитель сообщения может использовать для сравнения отчета с исходным сообщением.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTENT_CORRELATOR  <br/> |
+|Связанные свойства:  <br/> |ПР_КОНТЕНТ_КОРРЕЛАТОР  <br/> |
 |Идентификатор:  <br/> |0x0007  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Exchange  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Содержимое двоичные строки определяются отправителем сообщения. Если набор на исходящие сообщения, это свойство должен быть скопирован на все отчеты, созданные в ответ на сообщение.
+Содержимое двоичной строки определяется инициатором сообщения. Если для исходящих сообщений задано значение, это свойство должно быть скопировано в любые отчеты, созданные в ответ на сообщение.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

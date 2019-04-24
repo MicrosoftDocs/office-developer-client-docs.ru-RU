@@ -1,5 +1,5 @@
 ---
-title: FaceNames_Type complexType ('Visio XML»)
+title: Фаценамес_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 234bbe07-004e-0604-144c-376d7b06994b
 ms.openlocfilehash: 6f9cd84dffc22f4211a8445a2d493ef7d4f4a4f3
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387148"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322591"
 ---
-# <a name="facenamestype-complextype-visio-xml"></a>FaceNames_Type complexType ('Visio XML»)
+# <a name="facenamestype-complextype-visio-xml"></a>Фаценамес_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "25387148"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Название значка](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> ||
+|[Фаценаме](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[Фаценаме_типе](facename_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

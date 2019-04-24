@@ -1,31 +1,31 @@
 ---
-title: Элемент проверки ('Visio XML»)
+title: Элемент Validation (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: db6292c7-9f4c-c287-803b-64fa41c0a269
-description: Сохранение информации о проверки схемы для документа.
+description: Сохраняет сведения о проверке схемы для документа.
 ms.openlocfilehash: 7e40cd3a79922b56800cbb566a0d88de23829cc0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382360"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329086"
 ---
-# <a name="validation-element-visio-xml"></a>Элемент проверки ('Visio XML»)
+# <a name="validation-element-visio-xml"></a>Элемент Validation (' Visio XML ')
 
-Сохранение информации о проверки схемы для документа.
+Сохраняет сведения о проверке схемы для документа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Валидатион_типе](validation_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Validation.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Проверка. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -45,9 +45,9 @@ ms.locfileid: "25382360"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Проблемы](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Содержит все элементы **проблему** для документа.  <br/> |
-|[Наборы правил](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Включает в себя элемент **набора правил** для каждого правила проверки, задайте в документе.  <br/> |
-|[ValidationProperties](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |Инкапсулирует свойства, которые связаны с проверки документа.  <br/> |
+|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Иссуес_типе](issues_type-complextypevisio-xml.md) <br/> |Содержит все элементы **issue** для документа.  <br/> |
+|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[Рулесетс_типе](rulesets_type-complextypevisio-xml.md) <br/> |Включает элемент **RuleSet** для каждого набора правил проверки в документе.  <br/> |
+|[Валидатионпропертиес](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[Валидатионпропертиес_типе](validationproperties_type-complextypevisio-xml.md) <br/> |Инкапсулирует свойства, связанные с проверкой документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

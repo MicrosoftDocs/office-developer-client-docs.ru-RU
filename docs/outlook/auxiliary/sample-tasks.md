@@ -6,19 +6,19 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: a4572cd2-0dc1-439a-a265-0195766a4013
-description: В этом разделе представлены примеры задач, использующие интерфейсы API, доступные в дополнительные справочные материалы по Outlook 2013.
+description: В этом разделе представлены примеры задач, в которых используются API, доступные в вспомогательной справочной статье Outlook 2013.
 ms.openlocfilehash: 790b6ca3f1432b801044176acd9cebebfcb1dcee
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391201"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326399"
 ---
 # <a name="sample-tasks"></a>Примеры задач
 
-В этом разделе представлены примеры задач, использующие интерфейсы API, доступные в дополнительные справочные материалы по Outlook 2013.
+В этом разделе представлены примеры задач, в которых используются API, доступные в вспомогательной справочной статье Outlook 2013.
 
-- [Определить, является ли элемент Outlook был изменен, но не сохраняются (Outlook дополнительные справочные материалы по)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)
+- [Определение того, был ли элемент Outlook изменен, но не сохранен (Вспомогательная справка по Outlook)](how-to-determine-if-outlook-item-has-been-modified-but-not-saved.md)  
     
 - [Анализ потока из двоичного свойства для считывания структуры TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md)
     
@@ -26,7 +26,7 @@ ms.locfileid: "25391201"
     
 - [Считывание свойств часового пояса встречи](how-to-read-time-zone-properties-from-an-appointment.md)
     
-- [Укажите, нужно ли отображать фотографии контакта в Outlook (Outlook дополнительные справочные материалы по)](https://msdn.microsoft.com/library/office/gg262879.aspx)
+- [Указание на необходимость отображать изображение контакта в Outlook (Дополнительная справка по Outlook)](https://msdn.microsoft.com/library/office/gg262879.aspx)
     
 - [Использование относительного времени для доступа к данным о доступности](how-to-use-relative-time-to-access-free-busy-data.md)
     

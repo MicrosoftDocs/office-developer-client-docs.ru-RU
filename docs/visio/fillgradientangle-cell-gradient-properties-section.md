@@ -1,37 +1,37 @@
 ---
-title: Ячейка FillGradientAngle (раздел "Свойства градиента")
+title: FillGradientAngle Cell (Gradient Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cf9af5a5-e042-4d56-a29f-341d97cdb97b
-description: Определяет угол градиентной заливки для градиента с направлением линейная в градусов.
-ms.openlocfilehash: 5e819524e993ecb4c7ed35ad56ae9d1e1b35f345
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет угол градиента заливки для градиентов с линейным направлением (в градусах).
+ms.openlocfilehash: 16277d76b3bc61be335e010c07b2eb4a43973b4f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322444"
 ---
-# <a name="fillgradientangle-cell-gradient-properties-section"></a>Ячейка FillGradientAngle (раздел "Свойства градиента")
+# <a name="fillgradientangle-cell-gradient-properties-section"></a>FillGradientAngle Cell (Gradient Properties Section)
 
-Определяет угол градиентной заливки для градиента с направлением линейная в градусов. 
+Определяет угол градиента заливки для градиентов с линейным направлением (в градусах). 
   
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **FillGradientAngle** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **FillGradientAngle** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | FillGradientAngle  <br/> |
+| Имя ячейки:  <br/> | FillGradientAngle  <br/> |
    
-Для получения ссылки на ячейки **FillGradientAngle** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **FillGradientAngle** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowGradientProperties** <br/> |
-| Индекс ячейки:  <br/> |**visFillGradientAngle** <br/> |
+| Индекс строки:  <br/> |**Висровградиентпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Висфиллградиентангле** <br/> |
    
 

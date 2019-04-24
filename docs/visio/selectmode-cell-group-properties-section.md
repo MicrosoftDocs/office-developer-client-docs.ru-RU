@@ -1,5 +1,5 @@
 ---
-title: Ячейка SelectMode (раздел "Свойства группы")
+title: SelectMode Cell (Group Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,40 +8,40 @@ f1_keywords:
 - vis_sdr.chm875
 localization_priority: Normal
 ms.assetid: 5ba68e05-f394-d7b7-390d-f0a9fdad011e
-description: Определяет способ выбора групповой фигуры и ее компонентов.
-ms.openlocfilehash: 426b4a18bbd54887e4f60b92860a6c3846386671
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет способ выбора групповой фигуры и ее членов.
+ms.openlocfilehash: 82f9e2806d1131a0acfd064f585c681fef0f209f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814740"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326014"
 ---
-# <a name="selectmode-cell-group-properties-section"></a>Ячейка SelectMode (раздел "Свойства группы")
+# <a name="selectmode-cell-group-properties-section"></a>SelectMode Cell (Group Properties Section)
 
-Определяет способ выбора групповой фигуры и ее компонентов.
+Определяет способ выбора групповой фигуры и ее членов.
   
-|**Значение**|**Выбор режима**|**Константа автоматизации**|
+|**Значение**|**Режим выбора**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-|0  <br/> |Выберите только групповой фигуры.  <br/> |**visGrpSelModeGroupOnly** <br/> |
-|1  <br/> |Сначала выберите групповой фигуры.  <br/> |**visGrpSelModeGroup1st** <br/> |
-|2  <br/> |Выберите членов группы.  <br/> |**visGrpSelModeMembers1st** <br/> |
+|нуль  <br/> |Выберите только фигуру группы.  <br/> |**Висгрпселмодеграупонли** <br/> |
+|1,1  <br/> |Сначала выберите фигуру Group (группа).  <br/> |**visGrpSelModeGroup1st** <br/> |
+|2  <br/> |Сначала выберите участников группы.  <br/> |**visGrpSelModeMembers1st** <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-В диалоговом окне " **поведение** " можно задать это значение (с групповой фигуры, выбранные на вкладке [Разработчик](run-in-developer-mode-display-the-developer-tab.md) в группе **Создать фигуру** щелкните **поведение**и нажмите кнопку режим в **списке в разделе **группы Поведение**** ). 
+Вы также можете задать это значение в диалоговом окне **поведение** (если выбрана фигура группы, на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) в группе **Макет фигуры** щелкните **поведение**, а затем выберите режим в списке **Выбор** раздела **Группа Поведение** ). 
   
-Чтобы получить ссылку на ячейку SelectMode по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку SelectMode по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |SelectMode  <br/> |
+|Имя ячейки:  <br/> |SelectMode  <br/> |
    
-Для получения ссылки на ячейки SelectMode по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку SelectMode по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowGroup** <br/> |
-|Индекс ячейки:  <br/> |**visGroupSelectMode** <br/> |
+|Индекс строки:  <br/> |**Висровграуп** <br/> |
+|Индекс ячейки:  <br/> |**Висграупселектмоде** <br/> |
    
 

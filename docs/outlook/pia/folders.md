@@ -1,5 +1,5 @@
 ---
-title: Папки
+title: Folders
 TOCTitle: Folders
 ms:assetid: b72b5705-d77a-4cad-873d-457b9fb6553e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184634(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ecf342c54d1aa2020fbfad4175a220b2aefecbe3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707047"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32327184"
 ---
 # <a name="folders"></a>Папки
 
@@ -20,7 +20,7 @@ ms.locfileid: "28707047"
 
 ## <a name="in-this-section"></a>В этой статье
 
-|Раздел|Описание|
+|Статья|Описание|
 |:----|:----------|
 |[Добавление папки в список папок](how-to-add-a-folder-to-the-folder-list.md) |Использование метода [Add(String, Object)](https://msdn.microsoft.com/library/bb645065\(v=office.15\)) для добавления папки в список папок Outlook.|
 |[Перечисление папок](how-to-enumerate-folders.md)  |Перечисление папок путем итерации по коллекциям папок.|

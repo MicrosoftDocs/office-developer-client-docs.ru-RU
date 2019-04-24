@@ -1,5 +1,5 @@
 ---
-title: О таблице асинхронной операции
+title: Сведения об асинхронных операциях с таблицами
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,32 +8,32 @@ api_type:
 - COM
 ms.assetid: 57219d96-bd9e-4e9a-b34a-dd3aad97bfd9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1c31045e1fc19da63a2d4b61d92b3629afc96a55
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: eebc04e2263b4a2037e167bd464a31d298b84664
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22569423"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329023"
 ---
-# <a name="about-asynchronous-table-operations"></a>О таблице асинхронной операции
+# <a name="about-asynchronous-table-operations"></a>Сведения об асинхронных операциях с таблицами
  
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Интерфейс **IMAPITable** включает в себя три метода, которые используются асинхронно и три методы для управления асинхронной операции. В следующей таблице приведены следующие методы: 
+Интерфейс **IMAPITable** включает три метода, которые работают асинхронно и три метода для управления асинхронной операцией. В следующей таблице перечислены эти методы: 
   
-|**Асинхронной операции**|**Метод асинхронного управления**|
+|**Асинхронная операция**|**Асинхронный метод управления**|
 |:-----|:-----|
 |[IMAPITable::SetColumns](imapitable-setcolumns.md) <br/> |[IMAPITable::GetStatus](imapitable-getstatus.md) <br/> |
 |[IMAPITable::Restrict](imapitable-restrict.md) <br/> |[IMAPITable::Abort](imapitable-abort.md) <br/> |
 |[IMAPITable::SortTable](imapitable-sorttable.md) <br/> |[IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md) <br/> |
    
-**Для получения сведений о типе и текущей операции таблицы**
+**Получение сведений о состоянии типа таблицы и текущей операции**
   
-- Вызов [IMAPITable::GetStatus](imapitable-getstatus.md). **GetStatus**пользователя в таблице определить ли таблицы статических или динамических, если находится в стадии разработки или завершения операции, и если произошла ошибка завершения операции. Например если это клиент должен отменить операцию сортировки, так как она выполняется слишком много времени, клиента можно вызвать **GetStatus** , чтобы определить, на самом деле операции сортировки в настоящее время обрабатывает ли. Затем клиент может вызывать [IMAPITable::Abort](imapitable-abort.md) , чтобы остановить его. 
+- Вызов [IMAPITable::/Status](imapitable-getstatus.md). С помощью параметра "- **Status**" пользователь таблицы может определить, является ли таблица статической или динамической, если операция выполняется или выполнена, и если при завершении операции возникла ошибка. Например, если клиенту требуется отменить операцию сортировки, так как он занимает слишком много времени, клиент может сначала вызвать метод "- **Status** ", чтобы определить, обрабатывается ли в настоящее время операция сортировки. Затем клиент может позвонить на вызов [IMAPITable:: Abort](imapitable-abort.md) , чтобы остановить его. 
     
-**Для приостановки действия до завершения асинхронной задачи**
+**Приостановка действия до завершения асинхронной задачи**
   
-- Вызов [IMAPITable::WaitForCompletion](imapitable-waitforcompletion.md). Вызов **WaitForCompletion** позволяет завершение без прерывания задачи. 
+- Вызов [IMAPITable:: ваитфоркомплетион](imapitable-waitforcompletion.md). Вызов **ваитфоркомплетион** позволяет выполнить задачу без прерывания. 
     
 ## <a name="see-also"></a>См. также
 

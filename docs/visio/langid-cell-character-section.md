@@ -1,5 +1,5 @@
 ---
-title: Ячейка LangID (раздел "Символ")
+title: LangID Cell (Character Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm1033769
 localization_priority: Normal
 ms.assetid: c68289b8-ef45-9e1e-12ae-6613587e4990
-description: Указывает язык, на котором был введен текст.
-ms.openlocfilehash: e503abb2365635fa25a4dbec54b7fe3da4043fa8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Указывает язык ввода текста.
+ms.openlocfilehash: e1f244d6d8e31201576a9a88ace9701814b0e0a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32326924"
 ---
-# <a name="langid-cell-character-section"></a>Ячейка LangID (раздел "Символ")
+# <a name="langid-cell-character-section"></a>LangID Cell (Character Section)
 
-Указывает язык, на котором был введен текст. 
+Указывает язык ввода текста. 
   
 ## <a name="remarks"></a>Замечания
 
-Список языков, поддерживаемых приложений Microsoft Office приведены в разделе [DocLangID](doclangid-cell-document-properties-section.md) ячейки (раздел свойства документа). 
+Список языков, поддерживаемых приложениями Microsoft Office, приведен в разделе [DocLangID](doclangid-cell-document-properties-section.md) Cell (раздел "Свойства документа"). 
   
-Для получения ссылки на ячейки LangID по имени, из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку LangID по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | Char.LangID [ *i* ] где *i* = < 1 > 2, 3...  <br/> |
+| Имя ячейки:  <br/> | Char. LangID [ *i* ], где *i* = <1>, 2, 3...  <br/> |
    
-Для получения ссылки на ячейки LangID по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку LangID по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
-| Индекс раздела:  <br/> |**visSectionCharacter** <br/> |
-| Индекс строки:  <br/> |**visRowCharacter** +  *i* где *i* = 0, 1, 2...  <br/> |
-| Индекс ячейки:  <br/> |**visCharacterLangID** <br/> |
+| Индекс раздела:  <br/> |**Виссектиончарактер** <br/> |
+| Индекс строки:  <br/> |**висровчарактер** +  *i* , где *i* = 0, 1, 2...  <br/> |
+| Индекс ячейки:  <br/> |**Висчарактерлангид** <br/> |
    
 

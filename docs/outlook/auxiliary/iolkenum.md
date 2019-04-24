@@ -7,38 +7,38 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 33cb89cb-c967-760c-6bc4-94118a4f872c
 ms.openlocfilehash: 59f43e8b3b0819b0178d60fa357e01937ae19d81
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32322101"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 
-Поддерживает перечисления учетных записей как объекты [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) . 
+Поддерживает перечисление учетных записей как объектов [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) . 
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследует от:  <br/> |[Интерфейс IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|Наследование от:  <br/> |[Интерфейс](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
 |Предоставлено:  <br/> |[IOlkAccountManager::EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |
 |Вызывающая сторона:  <br/> |Клиент  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IOlkEnum  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_иолкенум  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[GetCount](iolkenum-getcount.md) <br/> |Получает число учетных записей в перечислитель.  <br/> |
-|[Reset (Сбросить)](iolkenum-reset.md) <br/> |Сбрасывает перечислитель к началу.  <br/> |
-|[GetNext](iolkenum-getnext.md) <br/> |Получает перечислитель следующего учетной записи.  <br/> |
-|[Пропустить](iolkenum-skip.md) <br/> |Пропускает указанное число учетных записей в перечислитель.  <br/> |
+|[GetCount](iolkenum-getcount.md) <br/> |Получает количество учетных записей в перечислителе.  <br/> |
+|[Reset](iolkenum-reset.md) <br/> |Сбрасывает перечислитель в начало.  <br/> |
+|[GetNext](iolkenum-getnext.md) <br/> |Получает следующую учетную запись в перечислителе.  <br/> |
+|[Skip](iolkenum-skip.md) <br/> |ПроПускает указанное число учетных записей в перечислителе.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Этот интерфейс возвращается **IOlkAccountManager::EnumerateAccounts** при получении перечислитель учетных записей. 
+Этот интерфейс возвращается методом **иолкаккаунтманажер:: EnumerateAccounts** при получении перечислителя учетных записей. 
   
 ## <a name="see-also"></a>См. также
 

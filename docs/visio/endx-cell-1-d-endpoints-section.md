@@ -1,5 +1,5 @@
 ---
-title: Ячейка EndX (раздел "Одномерные конечные точки")
+title: EndX Cell (1-D Endpoints Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,27 +8,27 @@ f1_keywords:
 - Vis_DSS.chm335
 localization_priority: Normal
 ms.assetid: 24261b77-e3e8-7434-a503-9f23798bdab1
-description: Представляет x-координаты конечной точки одномерной фигуры относительно начала родительского элемента.
-ms.openlocfilehash: f7324d9d4df5c428f734da255e7dd65b24cb0cb0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Представляет координату x конечной точки одномерной фигуры относительно начала родительского элемента.
+ms.openlocfilehash: 4bd3099b2c13572023b0b813b1cc69a7b211546b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813702"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32329094"
 ---
-# <a name="endx-cell-1-d-endpoints-section"></a>Ячейка EndX (раздел "Одномерные конечные точки")
+# <a name="endx-cell-1-d-endpoints-section"></a>EndX Cell (1-D Endpoints Section)
 
-Представляет *x* -координаты конечной точки одномерной фигуры относительно начала родительского элемента. 
+Представляет координату *x* конечной точки одномерной фигуры относительно начала родительского элемента. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Чтобы получить ссылку на ячейку EndX по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку EndX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | EndX  <br/> |
+| Имя ячейки:  <br/> | EndX  <br/> |
    
-Для получения ссылки на ячейки EndX по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку EndX по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
