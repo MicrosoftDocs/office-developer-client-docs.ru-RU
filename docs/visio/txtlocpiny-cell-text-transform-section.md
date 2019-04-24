@@ -1,5 +1,5 @@
 ---
-title: Ячейка TxtLocPinY (раздел "Преобразование текста")
+title: TxtLocPinY Cell (Text Transform Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,34 +8,34 @@ f1_keywords:
 - Vis_DSS.chm82251276
 localization_priority: Normal
 ms.assetid: 3f46cfcf-7eac-4a37-e782-39f4e7f8fc43
-description: 'Определяет, y-координаты центра блок текста ротации относительно начала блока текста. Формула по умолчанию имеет вид:'
-ms.openlocfilehash: 7d43f63b8560df5fc5daf09a429ce30ec976d131
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: 'Определяет координату y центра вращения блока текста относительно начала блока текста. По умолчанию используется следующая формула:'
+ms.openlocfilehash: 937c4e9928d32d55e8336d192b1ecc6140fd8381
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815076"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317733"
 ---
-# <a name="txtlocpiny-cell-text-transform-section"></a>Ячейка TxtLocPinY (раздел "Преобразование текста")
+# <a name="txtlocpiny-cell-text-transform-section"></a>TxtLocPinY Cell (Text Transform Section)
 
-Определяет, *y* -координаты центра блок текста ротации относительно начала блока текста. Формула по умолчанию имеет вид: 
+Определяет координату *y* центра вращения блока текста относительно начала блока текста. По умолчанию используется следующая формула: 
   
-= ВысотаТекста \* 0,5
+= TxtHeight \* 0,5
   
 ## <a name="remarks"></a>Замечания
 
-Чтобы получить ссылку на ячейку TxtLocPinY по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку TxtLocPinY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | TxtLocPinY  <br/> |
+| Имя ячейки:  <br/> | TxtLocPinY  <br/> |
    
-Для получения ссылки на ячейки TxtLocPinY по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку TxtLocPinY по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowTextXForm** <br/> |
-| Индекс ячейки:  <br/> |**visXFormLocPinY** <br/> |
+| Индекс строки:  <br/> |**Висровтекстксформ** <br/> |
+| Индекс ячейки:  <br/> |**Висксформлокпини** <br/> |
    
 

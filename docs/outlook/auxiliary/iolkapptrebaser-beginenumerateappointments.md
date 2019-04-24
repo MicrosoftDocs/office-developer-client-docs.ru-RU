@@ -1,5 +1,5 @@
 ---
-title: IOlkApptRebaserBeginEnumerateAppointments
+title: Иолкапптребасербегиненумератеаппоинтментс
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8946703a-aaa8-6b3f-aa68-931365db620d
 description: Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.
-ms.openlocfilehash: 2ad26692483d87166a538ec2f04d3fc13b9ea930
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc89b3510f09bb98fd6720cb6d5ab3edeb13eac8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807862"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321947"
 ---
 # <a name="iolkapptrebaserbeginenumerateappointments"></a>IOlkApptRebaser::BeginEnumerateAppointments
 
@@ -28,13 +28,13 @@ HRESULT BeginEnumerateAppointments(
     void **ppContext);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
-_pfnProgress_
+_Пфнпрогресс_
   
 > [in] Optional. A pointer to a rebase task progress function to receive progress. **PFNREBASETASKPROGRESS** is defined in tzmovelib.h. 
     
-_ppContext_
+_Ппконтекст_
   
 > [out] Required. A pointer to a pointer to the returned context. This context will be passed to [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).
     
@@ -42,7 +42,7 @@ _ppContext_
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Замечания
 
 This task runs on a new thread.
   

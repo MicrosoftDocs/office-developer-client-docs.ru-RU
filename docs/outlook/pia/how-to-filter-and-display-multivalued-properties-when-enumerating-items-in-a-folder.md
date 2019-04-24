@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: acb6f6807f956ee6d468d3fcefc2cdd27732ab9b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320323"
 ---
 # <a name="filter-and-display-multivalued-properties-when-enumerating-items-in-a-folder"></a>Фильтрация и отображение многозначных свойств при перечислении элементов в папке
 
@@ -60,7 +60,7 @@ ms.locfileid: "28726409"
 
 В следующем примере кода показаны порядок добавления свойства пространства имен строки MAPI в объект **Table**, а также влияние многозначных свойств на значения, возвращаемые в объект [Column](https://msdn.microsoft.com/library/bb609646\(v=office.15\)). Процедура TableMultiValuedProperties обеспечивает фильтрацию объекта **Table** в поиске строк, в которых свойство [Categories](https://msdn.microsoft.com/library/bb646607\(v=office.15\)) не является пустой ссылкой. Свойство **Categories** представлено свойством, использующим пространство имен строки MAPI. Фильтр поиска и обнаружения DAV (DASL) создан для элементов, имеющих категории (фактический фильтр возвращает категории, для которых отсутствуют пустые ссылки). После этого столбец **Categories** добавляется в объект **Table** посредством объединения спецификатора типа 0000001f с константой categoriesProperty. Наконец, объект **Column**, представляющий свойство **Categories**, содержит одномерный массив строк, в котором каждый элемент массива представляет категорию, назначенную элементу. Свойства **Categories** и **Subject** записываются в прослушиватели трассировки коллекции [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

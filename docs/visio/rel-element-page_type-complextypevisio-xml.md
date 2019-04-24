@@ -1,31 +1,31 @@
 ---
-title: Элемент Rel (Page_Type complexType) ('Visio XML»)
+title: Элемент rel (Паже_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d61b1b97-c360-4d9d-217f-e6f45f760e42
-description: Указывает связь с частью с соответствующей страницы XML.
+description: Задает отношение к части с соответствующим XML-ДОКУМЕНТом страницы.
 ms.openlocfilehash: 7a45764817175f670cdb009157e21a1a25f31cc5
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398908"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320001"
 ---
-# <a name="rel-element-pagetype-complextype-visio-xml"></a>Элемент Rel (Page_Type complexType) ('Visio XML»)
+# <a name="rel-element-pagetype-complextype-visio-xml"></a>Элемент rel (Паже_типе complexType) (' Visio XML ')
 
-Указывает связь с частью с соответствующей страницы XML.
+Задает отношение к части с соответствующим XML-ДОКУМЕНТом страницы.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Рел_типе](rel_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Pages.XML, masters.xml, recordsets.xml, страницы # .xml, главные # .xml  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Pages. XML, Masters. XML, recordsets. XML, Page #. XML, Master #. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25398908"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Страница](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Один экземпляр страницы XML хранятся в документе.  <br/> |
+|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Паже_типе](page_type-complextypevisio-xml.md) <br/> |Задает один экземпляр XML-файла страницы, хранящегося в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,12 +52,12 @@ ms.locfileid: "25398908"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|r: код  <br/> |XSD:String  <br/> См. раздел "Замечания".  <br/> |Обязательный  <br/> |Указывает связь с частью.  <br/> |«Удалить #»  <br/> См. раздел "Замечания".  <br/> |
+|р:ИД  <br/> |XSD: строка  <br/> См. раздел "Замечания".  <br/> |Обязательный  <br/> |Задает отношение к части.  <br/> |"rId #"  <br/> См. раздел "Замечания".  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Значение атрибута **r: id** должен быть указан тип **простом типе ST_RelationshipID** . Тип **простом типе ST_RelationshipID** — это строка, которая должна быть в формате «избавиться #», где последний символ, должно быть числом. Номер должен быть уникальным во все элементы одного уровня элемента **Rel** . 
+Значение атрибута **р:ИД** должно быть типом **ст_релатионшипид** . Тип **ст_релатионшипид** — это строка, которая должна быть в формате rId #, где конечный символ должен быть числом. Число должно быть уникальным среди всех родственных элементов элемента **rel** . 
   
-Дополнительные сведения о типе простом типе ST_RelationshipID можно найти в [спецификации ISO/IEC 29500 часть 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Для получения дополнительных сведений о типе Ст_релатионшипид, ознакомьтесь со [спецификациЕй ISO/IEC 29500 Part 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

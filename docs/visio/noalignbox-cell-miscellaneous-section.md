@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoAlignBox (раздел "Прочее")
+title: NoAlignBox Cell (Miscellaneous Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - vis_sdr.chm700
 localization_priority: Normal
 ms.assetid: b2d51f4b-d64e-fd14-4ff1-ed67c69213bc
-description: Включает или отключает отображение прямоугольник выделения и отключает для выбранной фигуры.
-ms.openlocfilehash: c8e5fe28197a72b4cdb5306732dd155dc8f4f810
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Включает и выключает отображение прямоугольника выделения для выбранной фигуры.
+ms.openlocfilehash: 2ff9f051df54f4d424589332b9fbaea973552edc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319861"
 ---
-# <a name="noalignbox-cell-miscellaneous-section"></a>Ячейка NoAlignBox (раздел "Прочее")
+# <a name="noalignbox-cell-miscellaneous-section"></a>NoAlignBox Cell (Miscellaneous Section)
 
-Включает или отключает отображение прямоугольник выделения и отключает для выбранной фигуры.
+Включает и выключает отображение прямоугольника выделения для выбранной фигуры.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Прямоугольник выделения не отображаются при выборе фигуры.  <br/> |
-| FALSE  <br/> | Прямоугольник выделения отображается при выборе фигуры.  <br/> |
+| TRUE  <br/> | При выборе фигуры прямоугольник выделения не отображается.  <br/> |
+| FALSE  <br/> | Если выбрана фигура, отображается прямоугольник выделения.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Чтобы получить ссылку на ячейку NoAlignBox по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку NoAlignBox по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | NoAlignBox  <br/> |
+| Имя ячейки:  <br/> | NoAlignBox  <br/> |
    
-Для получения ссылки на ячейки NoAlignBox по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку NoAlignBox по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowMisc** <br/> |
-| Индекс ячейки:  <br/> |**visNoAlignBox** <br/> |
+| Индекс строки:  <br/> |**Висровмиск** <br/> |
+| Индекс ячейки:  <br/> |**Висноалигнбокс** <br/> |
    
 

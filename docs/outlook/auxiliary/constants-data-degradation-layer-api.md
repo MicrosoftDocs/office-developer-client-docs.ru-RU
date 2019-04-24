@@ -1,29 +1,29 @@
 ---
-title: Константы (layer уменьшение объема данных API).
+title: Константы (API уровня замедления данных)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 541dfe13-0f85-bac6-b302-fc044a75631e
-description: В этом разделе содержатся определения констант для API Layer уменьшение объема данных.
-ms.openlocfilehash: aaeac8804be96ece41f9d80a6355c51f3b58b1f7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: В этом разделе содержатся определения констант для API уровня ухудшения данных.
+ms.openlocfilehash: c2ad2fa7eba374fb7878609943ab63e684d1702c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19807701"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319014"
 ---
-# <a name="constants-data-degradation-layer-api"></a>Константы (layer уменьшение объема данных API).
+# <a name="constants-data-degradation-layer-api"></a>Константы (API уровня замедления данных)
 
-В этом разделе содержатся определения констант для API Layer уменьшение объема данных.
+В этом разделе содержатся определения констант для API уровня ухудшения данных.
   
 ## <a name="constants"></a>Константы
 
-|**Constant**|**Определение**|
+|**Константа**|**Определение**|
 |:-----|:-----|
-|DDLWRAP_FLAG_ANSI  <br/> |0x00000001  <br/> |
-|DDLWRAP_FLAG_UNICODE  <br/> |0x00000002  <br/> |
+|ДДЛВРАП_ФЛАГ_АНСИ  <br/> |0x00000001  <br/> |
+|ДДЛВРАП_ФЛАГ_УНИКОДЕ  <br/> |0x00000002  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: IMAPIGetSessionGetMAPISession
+title: Имапижетсессионжетмаписессион
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 581db5d9-35f7-43ad-aef3-a5d5da310150
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 7176f3547c18ec72e4bfc0a749b3814d1e906b7b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: dbf9f9f73d9e3860b482f81fb942673e6d373267
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22577039"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321555"
 ---
 # <a name="imapigetsessiongetmapisession"></a>IMAPIGetSession::GetMAPISession
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает указатель на сеанс MAPI, связанного с объектом поддержки MAPI.
+Возвращает указатель на сеанс MAPI, связанный с объектом поддержки MAPI.
   
 ```cpp
 HRESULT GetMAPISession(
@@ -35,9 +35,9 @@ HRESULT GetMAPISession(
 
 ## <a name="parameters"></a>Параметры
 
- _lppSession_
+ _Лппсессион_
   
-> [out] Указатель на текущий сеанс MAPI.
+> вышли Указатель на текущий сеанс MAPI.
     
 ## <a name="see-also"></a>См. также
 
@@ -46,5 +46,5 @@ HRESULT GetMAPISession(
 [IMAPIGetSession : IUnknown](imapigetsessioniunknown.md)
 
 
-[Обзор поддержки объектов](support-object-overview.md)
+[Обзор объектов поддержки](support-object-overview.md)
 

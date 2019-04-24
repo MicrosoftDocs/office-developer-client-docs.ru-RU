@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8fa5ac8d-3f63-499c-bb4e-439984773e4a
 description: Определения констант, объявления интерфейсов MAPI, идентификаторы классов и интерфейсов, используемые API-интерфейсами MAPI.
 ms.openlocfilehash: 343b777550d88276a1f5cad19f12ae7fc09c6244
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393735"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318923"
 ---
 # <a name="mapi-constants"></a>Константы MAPI
 
@@ -96,7 +96,7 @@ DEFINE_GUID(IID_IConverterSession, 0x4b401570, 0xb77b, 0x11d0, 0x9d, 0xa5, 0x0, 
 |E_NOINTERFACE  <br/> | *Определено в файле заголовка winerror.h пакета Windows SDK*  <br/> |
 |MAPIOFFLINE_ADVISE_DEFAULT  <br/> |(ULONG) 0  <br/> |
 |MAPIOFFLINE_UNADVISE_DEFAULT  <br/> |(ULONG) 0  <br/> |
-|MAPIOFFLINE_ADVISE_TYPE_STATECHANGE  <br/> |1  <br/> |
+|MAPIOFFLINE_ADVISE_TYPE_STATECHANGE  <br/> |1,1  <br/> |
 |MAPIOFFLINE_CAPABILITY_OFFLINE  <br/> |0x1  <br/> |
 |MAPIOFFLINE_CAPABILITY_ONLINE  <br/> |0x2  <br/> |
 |MAPIOFFLINE_FLAG_BLOCK  <br/> |0x00002000  <br/> |
@@ -266,8 +266,8 @@ const MAPIUID g_muidProvPrvNST =
 |MDB_OST_LOGON_UNICODE  <br/> |((ULONG) 0x00000800)  <br/> |
 |MDB_OST_LOGON_ANSI  <br/> |((ULONG) 0x00001000)  <br/> |
 |SHOW_SOFT_DELETES  <br/> |((ULONG) 0x00000002)  <br/> |
-|SS_ACTIVE  <br/> |0  <br/> |
-|SS_SUSPENDED  <br/> |1  <br/> |
+|SS_ACTIVE  <br/> |нуль  <br/> |
+|SS_SUSPENDED  <br/> |1,1  <br/> |
 |SYNC_UPLOAD_HIERARCHY  <br/> |0x00000001  <br/> |
 |SYNC_DOWNLOAD_HIERARCHY  <br/> |0x00000002  <br/> |
 |SYNC_UPLOAD_CONTENTS  <br/> |0x00000040  <br/> |

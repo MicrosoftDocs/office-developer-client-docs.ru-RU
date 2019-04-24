@@ -12,43 +12,43 @@ api_type:
 - COM
 ms.assetid: 42f4655d-b411-42be-aff6-4521a5b5290b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4027d7c6650c7330053e7745638de859a944b664
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f8df57579b23ea660f38a0f804b3729d0c73990e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320400"
 ---
 # <a name="pidtagtransportproviders-canonical-property"></a>Каноническое свойство PidTagTransportProviders
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список идентификаторов поставщиков транспорта текущего профиля.
+Содержит список идентификаторов поставщиков транспорта в текущем профиле.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_TRANSPORT_PROVIDERS  <br/> |
+|Связанные свойства:  <br/> |ПР_ТРАНСПОРТ_ПРОВИДЕРС  <br/> |
 |Идентификатор:  <br/> |0x3D02  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Профиль MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство не используется. Зарезервирован для использования с MAPI.
+Не используйте это свойство. Оно зарезервировано для использования MAPI.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -59,7 +59,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

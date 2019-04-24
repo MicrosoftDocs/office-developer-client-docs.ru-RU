@@ -13,48 +13,48 @@ api_type:
 ms.assetid: 46f31089-3b66-41a2-8094-e3db52464b9f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 5fc7360e3070ed4d20be7ac0155ebdcb04cf2048
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396955"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319210"
 ---
 # <a name="pidtagattachcontentid-canonical-property"></a>Каноническое свойство PidTagAttachContentId
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит заголовок контента идентификации вложения сообщения Multipurpose Internet Mail Extensions (MIME). 
+Содержит заголовок идентификации содержимого для вложения сообщения с многоцелевыми поЧтовыми расширениями в Интернете (MIME). 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ATTACH_CONTENT_ID, PR_ATTACH_CONTENT_ID_A, PR_ATTACH_CONTENT_ID_W  <br/> |
+|Связанные свойства:  <br/> |ПР_АТТАЧ_КОНТЕНТ_ИД, ПР_АТТАЧ_КОНТЕНТ_ИД_А, ПР_АТТАЧ_КОНТЕНТ_ИД_В  <br/> |
 |Идентификатор:  <br/> |0x3712  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Эти свойства, используемые для поддержки MHTML. Они представляют заголовок контента идентификации для соответствующих MIME-части текста. 
+Эти свойства используются для поддержки MHTML. Они представляют заголовок идентификации содержимого для соответствующей части MIME Body. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-## <a name="header-files"></a>Файлы заголовков
+## <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

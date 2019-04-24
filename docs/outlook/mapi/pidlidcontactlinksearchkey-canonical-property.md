@@ -13,55 +13,55 @@ api_type:
 ms.assetid: 82d21d38-a6c6-4e12-85b1-8158b2f5cce7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ea815631f63b5585a3f2705cfbd2639b8c655e6e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387498"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319777"
 ---
 # <a name="pidlidcontactlinksearchkey-canonical-property"></a>Каноническое свойство PidLidContactLinkSearchKey
 
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит список **SearchKeys** для контакта, связанного с объектом сообщения. 
+Содержит список **сеарчкэйс** для контакта, связанного с этим объектом Message. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidContactLinkSearchKey  <br/> |
-|Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008584  <br/> |
+|Связанные свойства:  <br/> |Диспидконтактлинксеарчкэй  <br/> |
+|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008584  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Contact  <br/> |
+|Область:  <br/> |Контакт  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
 |**Длина в байтах**|**Описание**|**Примечания**|
 |:-----|:-----|:-----|
-|2  <br/> |ContactEntryCount  <br/> |Отсутствует  <br/> |
-|переменная  <br/> |SearchKey данных  <br/> |Повторяет ContactEntryCount раз  <br/> |
+|2  <br/> |Контактентрикаунт  <br/> |Нет  <br/> |
+|переменная  <br/> |Данные Сеарчкэй  <br/> |Повторяет Контактентрикаунт раз  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
 - [Свойства MAPI](mapi-properties.md) 
-- [Каноническое свойства MAPI](mapi-canonical-properties.md)
+- [Каноническое свойство MAPI](mapi-canonical-properties.md)
 - [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
 - [Сопоставление имен MAPI с именами канонических свойств](mapping-mapi-names-to-canonical-property-names.md)
 

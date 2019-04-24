@@ -6,23 +6,23 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 780ade1c-88d0-04d2-ba7e-251c19c43438
-description: Создает объект, клиент может получить доступ в предпочтительном символьном формате.
+description: Создает объект, к которому клиент может получить доступ в предпочтительном символьном формате.
 ms.openlocfilehash: 3f68e0f275bcc5df065b3113d3322d6957f76df0
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25384194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317607"
 ---
 # <a name="hrcreatenewwrappedobject"></a>HrCreateNewWrappedObject
 
-Создает объект, клиент может получить доступ в предпочтительном символьном формате.
+Создает объект, к которому клиент может получить доступ в предпочтительном символьном формате.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Экспортировать с:  <br/> |Msmapi32.dll  <br/> |
+|Экспортировано:  <br/> |MSMapi32. dll  <br/> |
 |Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
    
@@ -41,56 +41,56 @@ HRESULT HrCreateNewWrappedObject(
 
 ## <a name="parameters"></a>Параметры
 
-_pvUnwrapped_
+_Пвунвраппед_
   
-> [in] Начальное развернутый объект Outlook. Должен реализовывать следующие интерфейсы:
+> возврата Исходный неупакованный объект Outlook. Необходимо реализовать один из следующих интерфейсов:
     
-   - [IMailUser: IMAPIProp](https://msdn.microsoft.com/library/74c25870-62d9-484a-9a99-4dc35c52479e%28Office.15%29.aspx), [IMAPIFolder: IMAPIContainer](https://msdn.microsoft.com/library/bc2e8d17-7687-43c2-8f01-b677703f7288%28Office.15%29.aspx), [IMessage: IMAPIProp](https://msdn.microsoft.com/library/7e244d40-595e-432c-aa8c-f9f62ca3c138%28Office.15%29.aspx), [IMsgStore: IMAPIProp](https://msdn.microsoft.com/library/20090114-b183-4767-8971-a304a9aa47e6%28Office.15%29.aspx), [IMSLogon: IUnknown](https://msdn.microsoft.com/library/d87093dc-f705-465f-ab3c-944ca0cd3e54%28Office.15%29.aspx), или [IOSTX](https://msdn.microsoft.com/library/f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f%28Office.15%29.aspx).
+   - [Имаилусер: IMAPIProp](https://msdn.microsoft.com/library/74c25870-62d9-484a-9a99-4dc35c52479e%28Office.15%29.aspx), [IMAPIFolder: IMAPIContainer](https://msdn.microsoft.com/library/bc2e8d17-7687-43c2-8f01-b677703f7288%28Office.15%29.aspx), [iMessage: IMAPIProp](https://msdn.microsoft.com/library/7e244d40-595e-432c-aa8c-f9f62ca3c138%28Office.15%29.aspx), [IMsgStore: IMAPIProp](https://msdn.microsoft.com/library/20090114-b183-4767-8971-a304a9aa47e6%28Office.15%29.aspx), [имслогон: IUnknown](https://msdn.microsoft.com/library/d87093dc-f705-465f-ab3c-944ca0cd3e54%28Office.15%29.aspx)или [иосткс](https://msdn.microsoft.com/library/f374d8d9-be8e-2489-d5fe-8a92e0ecfc6f%28Office.15%29.aspx).
     
-_ulUnwrappedFlags_
+_Улунвраппедфлагс_
   
-> [in] Флаги, создание характеристик развернутый исходный объект. Должен быть один или несколько из следующих значений:
+> возврата Флаги, характеризующие неупакованный исходный объект. Должно иметь одно или несколько из следующих значений:
     
-   - DDLWRAP_FLAG_ANSI — объект Unwrapped — ANSI.
+   - ДДЛВРАП_ФЛАГ_АНСИ — неупакованный объект — ANSI.
     
-   - DDLWRAP_FLAG_UNICODE — объект Unwrapped — Юникод.
+   - ДДЛВРАП_ФЛАГ_УНИКОДЕ — неупакованный объект — UNICODE.
     
-_ulWrappedFlags_
+_Улвраппедфлагс_
   
->  [in] Флаги предпочтительном символьном формате. Должен быть один или несколько из следующих значений: 
+>  возврата Флаги для предпочтительного формата знаков. Должно иметь одно или несколько из следующих значений: 
     
-   - DDLWRAP_FLAG_ANSI — объект Wrapped будут предоставляться как ANSI.
+   - ДДЛВРАП_ФЛАГ_АНСИ — упакованный объект будет предоставлен как ANSI.
     
-   - DDLWRAP_FLAG_UNICODE — объект Wrapped будет предоставлено в качестве Юникод.
+   - ДДЛВРАП_ФЛАГ_УНИКОДЕ — упакованный объект будет представлен в формате Юникод.
     
-_pIID_
+_Пиид_
   
->  [in] Идентификатор элемента интерфейс, поддерживаемый развернутый объект; Задайте его значение NULL, если это не известен. 
+>  возврата Идентификатор интерфейса, поддерживаемого неупакованным объектом; Если этот параметр неизвестен, установите для него значение NULL. 
     
-_pulReserved_
+_Пулресервед_
   
->  [in] Этот параметр не используется. Это должен быть NULL. 
+>  возврата Этот параметр не используется. Он должен иметь значение NULL. 
     
-_fCheckWrap_
+_Фчеккврап_
   
->  [in] Присвойте этому параметру значение **true** , если _pvUnwrapped_ необходимо проверить его формате перед переносом; Если объект, должны быть помещены без проверки, присвойте этому параметру **значение false** . 
+>  возврата Установите для этого параметра **значение true** , если перед переносом в _пвунвраппед_ необходимо проверить его формат. Задайте для него значение **false** , если объект необходимо включить в оболочку без проверки. 
     
-_ppvWrapped_
+_Ппввраппед_
   
->  [out] Указатель на запрошенный объект, заключенное в запрошенные символьном формате. 
+>  вышли Указатель на запрошенный объект, заключенный в оболочку запрошенного формата знаков. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Замечания
 
-Передача перенесенного объекта с _fCheckWrap_ присвоено **значение true** приведет к развернутый объект. Независимо от того, является ли оформлено возвращенного объекта клиент несет ответственность за освобождение ссылки на возвращенный объект. 
+При передаче упакованного объекта с _фчеккврап_ , для которого задано **значение true** , будет получен неупакованный объект. Независимо от того, является ли возвращенный объект упакованным, клиент несет ответственность за освобождение ссылки на возвращенный объект. 
   
-При использовании **GetProcAddress** следует искать адреса этой функции msmapi32.dll, укажите **HrCreateNewWrappedObject@28** в качестве имени процедуры. 
+При использовании **GetProcAddress** для поиска адреса этой функции в MSMapi32. dll укажите в качестве имени процедуры **хркреатеневвраппедобжект @ 28** . 
   
 ## <a name="see-also"></a>См. также
 
 - [About the Data Degradation Layer API](about-the-data-degradation-layer-api.md)
-- [Константы (layer уменьшение объема данных API).](constants-data-degradation-layer-api.md)
+- [Константы (API уровня замедления данных)](constants-data-degradation-layer-api.md)
 

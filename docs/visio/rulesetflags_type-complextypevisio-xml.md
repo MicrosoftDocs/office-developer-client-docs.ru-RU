@@ -1,5 +1,5 @@
 ---
-title: RuleSetFlags_Type complexType ('Visio XML»)
+title: Рулесетфлагс_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bacc4fbd-1530-033d-b323-1fac944af1ad
 ms.openlocfilehash: 3b4cc3a726d26b0722dda0b77bfffe96436036ca
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393154"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318993"
 ---
-# <a name="rulesetflagstype-complextype-visio-xml"></a>RuleSetFlags_Type complexType ('Visio XML»)
+# <a name="rulesetflagstype-complextype-visio-xml"></a>Рулесетфлагс_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -46,6 +46,6 @@ ms.locfileid: "25393154"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Hidden  <br/> |XSD:Boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
+|Скрытый  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
    
 

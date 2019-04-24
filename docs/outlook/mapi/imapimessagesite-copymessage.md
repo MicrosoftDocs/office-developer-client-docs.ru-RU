@@ -1,5 +1,5 @@
 ---
-title: IMAPIMessageSiteCopyMessage
+title: Имапимессажеситекопимессаже
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d4e18483-409a-4d81-91dc-f4aec29a82bb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 074a806a710ce8c11adba815951c93c25d8cae7c
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aeb8b090997bd0c4f51f872b36d6520547846f7f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579258"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321548"
 ---
 # <a name="imapimessagesitecopymessage"></a>IMAPIMessageSite::CopyMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "22579258"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Копирует текущего сообщения в папку.
+Копирует текущее сообщение в папку.
   
 ```cpp
 HRESULT CopyMessage(
@@ -35,9 +35,9 @@ HRESULT CopyMessage(
 
 ## <a name="parameters"></a>Параметры
 
- _pFolderDestination_
+ _Пфолдердестинатион_
   
-> [in] Указатель на папку, где Копировать сообщение.
+> возврата Указатель на папку, в которую необходимо скопировать сообщение.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -45,27 +45,27 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-MAPI_E_NO_SUPPORT 
+МАПИ_Е_НО_СУППОРТ 
   
-> Операция не поддерживается на этом сайте сообщения.
+> Эта операция не поддерживается этим сайтом сообщений.
     
 ## <a name="remarks"></a>Замечания
 
-Объекты формы вызовите метод **IMAPIMessageSite::CopyMessage** для копирования текущего сообщения в новую папку. **CopyMessage** не изменяет сообщение, в настоящее время отображается для пользователя и интерфейс для только что созданный сообщения не возвращаются в форму. 
+Объекты форм вызовите метод **имапимессажесите:: копимессаже** , чтобы скопировать текущее сообщение в новую папку. **Копимессаже** не изменяет сообщение, отображаемое в данный момент для пользователя, и интерфейс для нового сообщения не возвращается в форму. 
   
-## <a name="notes-to-implementers"></a>Примечания для реализующих
+## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Типичное использование метода **CopyMessage** выполняет следующие задачи: 
+Типичная реализация метода **копимессаже** выполняет следующие задачи: 
   
-1. Создание сообщения для текущего сообщения для копирования.
+1. Создает новое сообщение для копирования текущего сообщения.
     
-2. Вызывает метод [IPersistMessage::Save](ipersistmessage-save.md) с указатель на новое сообщение в параметре _pMessage_ и значение FALSE в параметре _fSameAsLoad_ . 
+2. Вызывает метод [иперсистмессаже:: Save](ipersistmessage-save.md) с указателем на новое сообщение в параметре _ПМЕССАЖЕ_ и значение false в параметре _фсамеаслоад_ . 
     
-3. Вызывает метод [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) , передав NULL в параметре _pMessage_ . 
+3. Вызывает метод [иперсистмессаже:: савекомплетед](ipersistmessage-savecompleted.md) , ПЕРЕДАВАЯ значение NULL в параметре _пмессаже_ . 
     
-4. Вызывает метод [IMAPIProp::SaveChanges](imapiprop-savechanges.md) нового сообщения. 
+4. Вызывает метод [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) для нового сообщения. 
     
-Список интерфейсов, которые связаны с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).
+Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -73,7 +73,7 @@ MAPI_E_NO_SUPPORT
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::CopyMessage  <br/> |Не реализован.  <br/> |
+|Мимапиформвиевер. cpp  <br/> |Кмимапиформвиевер:: Копимессаже  <br/> |Не реализовано.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
@@ -90,5 +90,5 @@ MAPI_E_NO_SUPPORT
 
 [MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы формы MAPI](mapi-form-interfaces.md)
+[Интерфейсы форм MAPI](mapi-form-interfaces.md)
 

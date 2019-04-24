@@ -1,5 +1,5 @@
 ---
-title: Получение папки, используемой по умолчанию, и выполнение перечисления вложенных в нее папок
+title: Получение папки, используемой по умолчанию, и перечисление вложенных в нее папок
 TOCTitle: Get a default folder and enumerate its subfolders
 ms:assetid: 587e8392-cb03-442c-9058-1282f36dabdb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184610(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6151b564957f9574f3a65502584716f5bab0c17e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710050"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320239"
 ---
 # <a name="get-a-default-folder-and-enumerate-its-subfolders"></a>Получение папки, используемой по умолчанию, и выполнение перечисления вложенных в нее папок
 
@@ -25,7 +25,7 @@ ms.locfileid: "28710050"
 
 В примере кода ниже показано, как GetRSSFeeds с помощью метода [GetDefaultFolder(OlDefaultFolders)](https://msdn.microsoft.com/library/bb646473\(v=office.15\)) объекта [NameSpace](https://msdn.microsoft.com/library/bb645857\(v=office.15\)) получает корневую папку "RSS Feeds" ("RSS-каналы") пользователя. Затем метод GetRSSFeeds отображает окно сообщения с именами папок для всех RSS-каналов в папке "RSS Feeds" ("RSS-каналы").
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкцию **using** непосредственно перед функциями в примере кода, но ее необходимо добавить перед объявлением общедоступного класса. В строке кода ниже показано, как выполнить импорт и назначение на языке C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

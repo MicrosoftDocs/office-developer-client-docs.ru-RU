@@ -1,5 +1,5 @@
 ---
-title: IMAPIMessageSiteGetMessage
+title: Имапимессажеситежетмессаже
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 49d12c49-84f8-44ac-bc4a-2ee44a46f8c1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3612c12a503174484d4a469ffa167922a015ed5b
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 03dd0553d0203585850ac5c4f8c91c86ef60236a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576612"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321282"
 ---
 # <a name="imapimessagesitegetmessage"></a>IMAPIMessageSite::GetMessage
 
@@ -35,9 +35,9 @@ HRESULT GetMessage(
 
 ## <a name="parameters"></a>Параметры
 
- _ppmsg_
+ _ппмсг_
   
-> [out] Указатель на указатель на возвращенный интерфейс для сообщения.
+> вышли Указатель на указатель на возвращенный интерфейс для сообщения.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,15 +47,15 @@ S_OK
     
 S_FALSE 
   
-> Для вызова формы в настоящий момент не сообщения.
+> Для вызывающей формы не существует сообщения.
     
 ## <a name="remarks"></a>Замечания
 
-Форм вызовите метод **IMAPIMessageSite::GetMessage** для получения интерфейса сообщения для текущего сообщения. Текущее сообщение имеет то же сообщение как ранее был передан в метод [IPersistMessage::InitNew](ipersistmessage-initnew.md), [IPersistMessage::Load](ipersistmessage-load.md)или [IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) . 
+Формы вызывают метод **имапимессажесите::** , чтобы получить интерфейс сообщения для текущего сообщения. Текущее сообщение это то же сообщение, которое ранее было передано в методе [иперсистмессаже:: инитнев](ipersistmessage-initnew.md), [Иперсистмессаже:: Load](ipersistmessage-load.md)или [иперсистмессаже:: савекомплетед](ipersistmessage-savecompleted.md) . 
   
- **GetMessage** возвращает S_FALSE, если сообщение не в настоящий момент. Это состояние может произойти после вызовов в метод [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) или до следующего вызова **IPersistMessage::Load** или **IPersistMessage::SaveCompleted** будет создано. 
+ **** ВОЗВРАЩАЕТ значение S_FALSE, если сообщение в настоящее время не существует. Это состояние может происходить после вызовов метода [иперсистмессаже:: хандсоффмессаже](ipersistmessage-handsoffmessage.md) или перед следующим вызовом **Иперсистмессаже:: Load** или **иперсистмессаже:: савекомплетед** . 
   
-Список интерфейсы, связанные с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).
+Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -63,7 +63,7 @@ S_FALSE
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |Mfcmapi (en) использует метод **IMAPIMessageSite::GetMessage** возвращает указатель в настоящее время кэширования сообщение, если она доступна.  <br/> |
+|Мимапиформвиевер. cpp  <br/> |Кмимапиформвиевер:: @ Session  <br/> |MFCMAPI использует метод **имапимессажесите::-Message** , чтобы возвратить текущий указатель сообщения, если он доступен.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
@@ -84,5 +84,5 @@ S_FALSE
 
 [MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы формы MAPI](mapi-form-interfaces.md)
+[Интерфейсы форм MAPI](mapi-form-interfaces.md)
 

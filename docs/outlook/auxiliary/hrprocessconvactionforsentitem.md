@@ -6,23 +6,23 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 08121e33-7820-4a31-b6da-06a4a54ec43f
-description: Выполняет категоризации после отправки почтового элемента на основании его PidTagConversationId.
+description: Выполняет категоризацию после отправки для почтового элемента на основе его Пидтагконверсатионид.
 ms.openlocfilehash: 675f308093eea30084271abc66c1fa66e2ad6828
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389544"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318902"
 ---
 # <a name="hrprocessconvactionforsentitem"></a>HrProcessConvActionForSentItem
 
-Выполняет категоризации после отправки почтового элемента на основании его [PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).
+Выполняет категоризацию после отправки для почтового элемента на основе его [пидтагконверсатионид](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx).
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Экспортировать с:  <br/> |Outlook.exe  <br/> |
+|Экспортировано:  <br/> |Outlook. exe  <br/> |
 |Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
    
@@ -36,37 +36,37 @@ HRESULT WINAPI HrProcessConvActionForSentItem(
 
 ## <a name="parameters"></a>Параметры
 
-_pmbinStoreEid_
+_Пмбинсториид_
   
-> [in] [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) хранилище или [PidTagStoreEntryId](https://msdn.microsoft.com/library/0d705667-19f4-4eda-a068-e65ea8f00d9b%28Office.15%29.aspx) из почтового элемента. Не может быть NULL или недопустимые. 
+> возврата [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) хранилища или [PidTagStoreEntryId](https://msdn.microsoft.com/library/0d705667-19f4-4eda-a068-e65ea8f00d9b%28Office.15%29.aspx) почтового элемента. Не может иметь значение NULL или быть недопустимым. 
     
-_pmbinMsgEid_
+_Пмбинмсжеид_
   
-> [in] [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) почтового элемента. Не может быть NULL или недопустимые. 
+> возврата [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) почтового элемента. Не может иметь значение NULL или быть недопустимым. 
     
-_pmbinConvID_
+_Пмбинконвид_
   
-> [in] [PidTagConversationId](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx) почтового элемента. Не может быть NULL или недопустимые. 
+> возврата [Пидтагконверсатионид](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx) почтового элемента. Не может иметь значение NULL или быть недопустимым. 
     
 _dwFlags_
   
-> [in] Битовая маска, которая указывает Дополнительные сведения о вызове метода.
+> возврата Битовая маска, указывающая дополнительные сведения о вызове метода.
     
-   - 0 — Дополнительные параметры не используются в вызове этого метода. Это рекомендуемое значение. 
+   - 0 — в этом вызове метода не используются дополнительные параметры. Это рекомендуемое значение. 
     
-   - **PCAFSIF_MSGEID_IS_SEARCH_KEY**— _pmbinMsgEid_ — это фактически [PidTagSearchKey](https://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) сообщения. С помощью **PidTagSearchKey** интенсивно и следует избегать при наличии [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) . 
+   - **Пкафсиф_мсжеид_ис_сеарч_кэй**— _Пмбинмсжеид_ фактически является [PidTagSearchKey](https://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) сообщения. Использование **PidTagSearchKey** является трудоемким и его следует избегать, если доступен [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) . 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |Вызов выполнен успешно.  <br/> |
-|E_INVALIDARG  <br/> | _dwFlags_ содержит неизвестное флаг.  <br/> |
+|E_INVALIDARG  <br/> | _dwFlags_ содержит неизвестный флаг.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Категории считаются персональные данные и не будут передаваться за пределами почтового ящика пользователя. Таким образом не вызывать **HrProcessConvActionForSentItem** неотправленные почтового элемента. Вместо этого отправить элемент, а затем вызвать **HrProcessConvActionForSentItem** на резервной копии. Архивные копии могут храниться в папке «Отправленные» или соответствующее место. 
+Категории считаются персональными сведениями и не должны передаваться вне почтового ящика пользователя. Поэтому не вызывайте **хрпроцессконвактионфорсентитем** для неотправленного почтового элемента. Вместо этого отправьте элемент, а затем вызовите **хрпроцессконвактионфорсентитем** для архивной копии. Архивная копия может храниться в папке "Отправленные" или в эквивалентном расположении. 
   
-Ваше приложение не должно содержать в работе с Outlook.exe, например, из надстройки COM, чтобы вызвать **HrProcessConvActionForSentItem**. При попытке вызова **HrProcessConvActionForSentItem** ожидания процесс **HrProcessConvActionForSentItem** вызовет исключение нарушение прав доступа. 
+Приложение должно быть в процессе работы с Outlook. exe, например из надстройки COM, для вызова **хрпроцессконвактионфорсентитем**. Если вы попытаетесь вызвать **хрпроцессконвактионфорсентитем** вне процесса, **хрпроцессконвактионфорсентитем** выдаст исключение нарушения прав доступа. 
   
 

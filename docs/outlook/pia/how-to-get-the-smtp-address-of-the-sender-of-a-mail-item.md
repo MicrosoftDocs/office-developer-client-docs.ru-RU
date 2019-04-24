@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 74adbf02180e0e993b22e35481f51d304b14e7d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320085"
 ---
 # <a name="get-the-smtp-address-of-the-sender-of-a-mail-item"></a>Получение SMTP-адреса отправителя почтового элемента
 
@@ -24,7 +24,7 @@ ms.locfileid: "28712486"
 
 В следующем примере кода метод GetSenderSMTPAddress использует объект **PropertyAccessor** для получения значений, которые не предоставляются явно в объектной модели приложения Outlook. Метод GetSenderSMTPAddress получает объект **MailItem**. Если свойство [SenderEmailType](https://msdn.microsoft.com/library/bb624136\(v=office.15\)) полученного объекта **MailItem** имеет значение "EX", отправитель сообщения размещается на сервере Exchange в организации. Метод GetSenderSMTPAddress использует свойство [Sender](https://msdn.microsoft.com/library/ff184720\(v=office.15\)) объекта **MailItem** для получения отправителя, представленного объектом [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)). Если объект **AddressEntry** представляет пользователя Exchange, в этом примере вызывается метод [GetExchangeUser()](https://msdn.microsoft.com/library/bb611808\(v=office.15\)), который возвращает объект [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) объекта **AddressEntry**. После этого метод GetSenderSMTPAddress использует свойство [PrimarySmtpAddress](https://msdn.microsoft.com/library/bb645506\(v=office.15\)) объекта **ExchangeUser**, которое возвращает SMTP-адрес отправителя. Если объект **AddressEntry** для отправителя не представляет объект **ExchangeUser**, для получения SMTP-адреса отправителя используется метод [GetProperty(String)](https://msdn.microsoft.com/library/bb645726\(v=office.15\)) объекта **PropertyAccessor** с аргументом **PR\_SMTP\_ADDRESS** ([PidTagSmtpAddress](https://msdn.microsoft.com/library/cc842421\(v=office.15\))).
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

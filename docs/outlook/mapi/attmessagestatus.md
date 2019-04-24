@@ -8,29 +8,29 @@ api_type:
 - COM
 ms.assetid: 8f55470a-65b3-4210-a7d2-9031cb17ca80
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 704707b34fb4532f0e60636df31edbae1a939f35
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: d4dc72309ff090317b2353cab0b4fc2c5be41181
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565748"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318216"
 ---
 # <a name="attmessagestatus"></a>attMessageStatus
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Отметки сообщений MAPI, сопоставляются с флаги TNEF для поддержки обратной совместимости. Все флаги объединять и кодируются в один байт. Сопоставления, как показано ниже:
+Флаги сообщений MAPI сопоставляются с флагами TNEF для сохранения обратной совместимости. Все флаги группируются и кодируются в одном байте. Используются следующие сопоставления:
   
-|**Отметки сообщений MAPI**|**Флаги TNEF**|
+|**Флаги сообщений MAPI**|**Флаги TNEF**|
 |:-----|:-----|
-|MSGFLAG_READ  <br/> |fmsRead  <br/> |
-|MSGFLAG_UNMODIFED  <br/> |~ fmsModified  <br/> |
-|MSGFLAG_SUBMIT  <br/> |fmsSubmitted  <br/> |
-|MSGFLAG_HASATTACH  <br/> |fmsHasAttach  <br/> |
-|MSGFLAG_UNSENT  <br/> |fmsLocal  <br/> |
+|МСГФЛАГ_РЕАД  <br/> |Фмсреад  <br/> |
+|МСГФЛАГ_УНМОДИФЕД  <br/> |~ Фмсмодифиед  <br/> |
+|МСГФЛАГ_СУБМИТ  <br/> |Фмссубмиттед  <br/> |
+|МСГФЛАГ_ХАСАТТАЧ  <br/> |Фмшасаттач  <br/> |
+|МСГФЛАГ_УНСЕНТ  <br/> |Фмслокал  <br/> |
    
-Эти параметры определены в формате TNEF. Файл заголовка.
+Эти флаги определены в формате TNEF. H файл заголовка.
   
 

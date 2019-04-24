@@ -1,26 +1,26 @@
 ---
-title: IEnumFBBlockClone
+title: Иенумфбблоккклоне
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
-description: Создает копию перечислителя, с помощью же ограничения времени, но установки курсора в начало перечислитель.
-ms.openlocfilehash: 51503be2091fa01da6f636bf6944274068617f05
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Создает копию перечислителя с использованием того же ограничения времени, но устанавливая курсор в начало перечислителя.
+ms.openlocfilehash: 1a279430bf6a29611fa223bebbf8023c34967139
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807705"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317600"
 ---
 # <a name="ienumfbblockclone"></a>IEnumFBBlock::Clone
 
-Создает копию перечислителя, с помощью же ограничения времени, но установки курсора в начало перечислитель.
+Создает копию перечислителя с использованием того же ограничения времени, но устанавливая курсор в начало перечислителя.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IEnumFBBlock](ienumfbblock.md).
+Обратитесь к разделу [иенумфбблокк](ienumfbblock.md).
   
 ```cpp
 HRESULT Clone(  
@@ -30,20 +30,20 @@ HRESULT Clone(
 
 ## <a name="parameters"></a>Параметры
 
-_ppclone_
+_ппклоне_
   
-> [out] A указателя копию интерфейс [IEnumFBBlock](ienumfbblock.md) . 
+> вышли Указатель на копию интерфейса [иенумфбблокк](ienumfbblock.md) . 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
-|E_OUTOFMEMORY  <br/> |Не хватает памяти для создания копии.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
+|E_OUTOFMEMORY  <br/> |Недостаточно памяти для создания копии.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Константы (занятости API)](constants-free-busy-api.md)
+- [Константы (API сведений о доступности)](constants-free-busy-api.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  
 - [IEnumFBBlock::Restrict](ienumfbblock-restrict.md)  

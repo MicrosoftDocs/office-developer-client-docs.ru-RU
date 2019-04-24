@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: fed1e7eb39f31ddd4340fc82a16e31ec67523a9d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320288"
 ---
 # <a name="get-a-folder-based-on-its-folder-path"></a>Получение папки на основе пути к ней
 
@@ -25,7 +25,7 @@ ms.locfileid: "28708132"
 
 В следующем примере кода метод GetKeyContacts использует свойство [GetRootFolder()](https://msdn.microsoft.com/library/bb645807\(v=office.15\)), чтобы получить путь для папки Contacts\\Key Contacts. Затем вызывается метод GetFolder с использованием свойства [FolderPath](https://msdn.microsoft.com/library/bb647409\(v=office.15\)) в качестве аргумента. Если GetFolder возвращает папку, появляется сообщение о том, что папка Key Contacts найдена. Метод GetFolder получает путь к папке и возвращает правильный объект [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)). Для этого свойство **FolderPath** сначала разбивается на массив из элементов string, который затем используется для поиска правильного объекта **Folder**, начиная с верхнего компонента свойства **FolderPath**. Если заданная папка не найдена, GetFolder возвращает пустую ссылку (NULL).
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -84,5 +84,5 @@ private Outlook.Folder GetFolder(string folderPath)
 
 ## <a name="see-also"></a>См. также
 
-- [Папки](folders.md)
+- [Folders](folders.md)
 

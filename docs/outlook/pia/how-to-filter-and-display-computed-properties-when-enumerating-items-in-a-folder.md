@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 946858221b649cd6189ddf44680b316554cab5de
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28723077"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320337"
 ---
 # <a name="filter-and-display-computed-properties-when-enumerating-items-in-a-folder"></a>Фильтрация и отображение вычисляемых свойств при перечислении элементов в папке
 
@@ -52,8 +52,8 @@ ms.locfileid: "28723077"
 </tr>
 <tr class="odd">
 <td><p>Свойства вычисления, например <b>AutoResolvedWinner</b> и <b>BodyFormat</b>.</p></td>
-<td><p>Не поддерживаются.</p></td>
-<td><p>Не поддерживаются.</p></td>
+<td><p>Не поддерживается.</p></td>
+<td><p>Не поддерживается.</p></td>
 </tr>
 <tr class="even">
 <td><p>Многозначные свойства, например <b>Categories</b>, <b>Children</b>, <b>Companies</b> и <b>VotingOptions</b>.</p></td>
@@ -62,8 +62,8 @@ ms.locfileid: "28723077"
 </tr>
 <tr class="odd">
 <td><p>Свойства, возвращающие объект, например <b>Attachments</b>, <b>Parent</b>, <b>Recipients</b>, <b>RecurrencePattern</b> и <b> UserProperties</b>.</p></td>
-<td><p>Не поддерживаются.</p></td>
-<td><p>Не поддерживаются.</p></td>
+<td><p>Не поддерживается.</p></td>
+<td><p>Не поддерживается.</p></td>
 </tr>
 </tbody>
 </table>
@@ -81,10 +81,10 @@ ms.locfileid: "28723077"
 <tr class="odd">
 <td><p>AutoResolvedWinner</p></td>
 <td><p>BodyFormat</p></td>
-<td><p>Class</p></td>
+<td><p>Класс</p></td>
 </tr>
 <tr class="even">
-<td><p>Companies</p></td>
+<td><p>Компании</p></td>
 <td><p>ContactNames</p></td>
 <td><p>DLName</p></td>
 </tr>
@@ -101,7 +101,7 @@ ms.locfileid: "28723077"
 <tr class="odd">
 <td><p>MeetingWorkspaceURL</p></td>
 <td><p>MemberCount</p></td>
-<td><p>Permission</p></td>
+<td><p>Разрешение</p></td>
 </tr>
 <tr class="even">
 <td><p>PermissionService</p></td>
@@ -124,7 +124,7 @@ ms.locfileid: "28723077"
 
 Некоторые вычисляемые свойства невозможно добавить в набор столбцов таблицы, но в следующем примере кода выполняется обход этого ограничения. В процедуре GetToDoItems используется запрос DASL для ограничения элементов, отображающихся в объекте **Table**. Если вычисляемое свойство имеет представление в пространстве имен, это представление используется для создания запроса DASL, который ограничивает объект **Table** и возвращает строки для заданного значения вычисляемого свойства. Процедура GetToDoItems получает элементы из папки "Входящие", для которых значение свойства [IsMarkedAsTask](https://msdn.microsoft.com/library/bb623631\(v=office.15\)) равно **true**, а затем присваивает эти значения определенным свойствам задачи, таким как [TaskSubject](https://msdn.microsoft.com/library/bb643880\(v=office.15\)), [TaskDueDate](https://msdn.microsoft.com/library/bb623035\(v=office.15\)), [TaskStartDate](https://msdn.microsoft.com/library/bb610832\(v=office.15\)) и [TaskCompletedDate](https://msdn.microsoft.com/library/bb624055\(v=office.15\)). В завершение эти свойства записываются в прослушиватели трассировки коллекции [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкцию **using** непосредственно перед функциями в примере кода, но ее необходимо добавить перед объявлением общедоступного класса. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

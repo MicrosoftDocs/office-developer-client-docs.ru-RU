@@ -1,5 +1,5 @@
 ---
-title: IMAPIMessageSiteGetStore
+title: Имапимессажеситежетсторе
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: d1ca619e-8bdc-417b-aed6-23dd30e6eafa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1f4e6c49ca1c537f78ccce708c4a0b00f81ad7e4
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 0c78574f213245a5c30ff589ade824e5c5bd84ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321436"
 ---
 # <a name="imapimessagesitegetstore"></a>IMAPIMessageSite::GetStore
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567932"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Если такие хранилища возвращает хранилище сообщение, содержащее текущее сообщение. Этот метод возвращает значение NULL в параметре _ppStore_ для внедренных сообщений, которые хранятся в другое сообщение, а не непосредственно в хранилище сообщений. 
+Возвращает хранилище сообщений, содержащее текущее сообщение, если такое хранилище существует. Этот метод будет возвращать значение NULL в параметре _ппсторе_ для внедренных сообщений, которые хранятся в другом сообщении, а не непосредственно в хранилище сообщений. 
   
 ```cpp
 HRESULT GetStore(
@@ -35,9 +35,9 @@ HRESULT GetStore(
 
 ## <a name="parameters"></a>Параметры
 
- _ppStore_
+ _Ппсторе_
   
-> [out] Указатель на указатель на хранилище сообщений.
+> вышли Указатель на указатель на хранилище сообщений.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,11 +47,11 @@ S_OK
     
 S_FALSE 
   
-> Нет без хранилища, содержащий сообщение.
+> Нет хранилища, содержащего сообщение.
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
-Список интерфейсы, связанные с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).
+Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -59,7 +59,7 @@ S_FALSE
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetStore  <br/> |Mfcmapi (en) использует метод **IMAPIMessageSite::GetStore** для получения указатель в настоящее время кэширования для заданного хранилища, если она доступна.  <br/> |
+|Мимапиформвиевер. cpp  <br/> |Кмимапиформвиевер:: DataStore  <br/> |MFCMAPI использует метод **имапимессажесите::-Store** , чтобы получить текущий кэшируемый указатель для указанного хранилища, если он доступен.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
@@ -70,5 +70,5 @@ S_FALSE
 
 [MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы формы MAPI](mapi-form-interfaces.md)
+[Интерфейсы форм MAPI](mapi-form-interfaces.md)
 

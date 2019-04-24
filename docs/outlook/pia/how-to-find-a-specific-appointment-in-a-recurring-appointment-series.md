@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 19502895996d4777f2d1a6887aa80883a5398a09
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722979"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320254"
 ---
 # <a name="find-a-specific-appointment-in-a-recurring-appointment-series"></a>Поиск определенной встречи в серии повторяющихся встреч
 
@@ -31,7 +31,7 @@ ms.locfileid: "28722979"
 
 В представленном ниже примере кода CheckOccurrenceExample использует повторяющуюся встречу, созданную в примере кода в статье [Создание встречи, которая повторяется по недельному расписанию](how-to-create-a-recurring-appointment-that-has-a-weekly-pattern.md). Затем вызывается метод GetOccurrence, чтобы определить, начинается ли повторяющаяся встреча в определенную дату и время. Чтобы гарантировать продолжение выполнения процедуры, даже если предоставленные сведения не соответствуют дате начала и времени вхождения повторяющейся встречи, в примере используется блок try…catch. После вызова метода GetOccurrence для каждой встречи в серии процедура CheckOccurrenceExample проверяет переменную singleAppt, чтобы определить, является ли она пустой ссылкой (это указывает на сбой метода и на то, что объект **AppointmentItem** не был получен).
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением public Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

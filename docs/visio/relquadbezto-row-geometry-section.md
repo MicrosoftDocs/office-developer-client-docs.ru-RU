@@ -1,33 +1,33 @@
 ---
-title: Строка RelQuadBezTo (раздел "Геометрия")
+title: RelQuadBezTo Row (Geometry Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5ae57707-5a50-43f0-8c78-516790b5034e
-description: Содержит x - и y - координаты конечной точки кривая Безье относительно фигуры ширину и высоту и x - и y-координаты точки управления фигуры график относительно ширины и высоты.
-ms.openlocfilehash: 99796e85a857fd320598cb48993fc29bdfa4964d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Содержит координаты x и y конечной точки квадратичной кривой Безье относительно ширины и высоты фигуры, а также координат x и y контрольной точки кривой относительно ширины и высоты фигуры.
+ms.openlocfilehash: f517fa006c6630a26e9162adfbb1be2139487e63
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814608"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319931"
 ---
-# <a name="relquadbezto-row-geometry-section"></a>Строка RelQuadBezTo (раздел "Геометрия")
+# <a name="relquadbezto-row-geometry-section"></a>RelQuadBezTo Row (Geometry Section)
 
-Содержит *x* - и *y* - координаты конечной точки кривая Безье относительно фигуры ширину и высоту и *x* - и *y* -координаты точки управления фигуры график относительно ширины и высоты. 
+Содержит координаты *x* и *y* конечной точки квадратичной кривой Безье относительно ширины и высоты фигуры, а также координат *x* и *y* контрольной точки кривой относительно ширины и высоты фигуры. 
   
 > [!NOTE]
-> Строка **RelQuadBezTo** только могут быть сохранены в форматы файлов vsdx (en), .vsdm, .vstx, .vstm, .vssx и .vssm. При сохранении файла в Visio 2003-2010 форматы строки **RelQuadBezTo** преобразуется в строку [NURBSTo](nurbsto-row-geometry-section.md) . 
+> Строку **строка relquadbezto** можно хранить только в форматах vsdx, vsdm, vstx, vstm, vssx и vssm. При сохранении файла в форматах Visio 2003-2010 строка **строка relquadbezto** преобразуется в строку [NURBSTo](nurbsto-row-geometry-section.md) . 
   
-Строка **RelQuadBezTo** содержит следующие ячейки. 
+Строка **строка relquadbezto** содержит следующие ячейки. 
   
 |**Cell**|**Описание**|
 |:-----|:-----|
-|[X](x-cell-geometry-section.md) <br/> |*X* -координаты окончания вершины кривая Безье ширине фигуры.  <br/> |
-|[Да](y-cell-geometry-section.md) <br/> |*Y* -координат окончания вершины кривая Безье высоте фигуры.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |*X* -координата точки управления график ширине фигуры; точка дуги. Контрольная точка расположена лучше всего о пользователю между начала и окончания грани дуги.  <br/> |
-|[B](b-cell-geometry-section.md) <br/> |*Y* -координата точки управления график высоте фигуры.  <br/> |
+|[X](x-cell-geometry-section.md) <br/> |Координата *x* конечной вершины кривой Безье второго уровня относительно ширины фигуры.  <br/> |
+|[Y (да)](y-cell-geometry-section.md) <br/> |Координата *y* конечной вершины кривой Безье второго уровня относительно высоты фигуры.  <br/> |
+|[Определенно](a-cell-geometry-section.md) <br/> |Координата *x* контрольной точки кривой относительно ширины фигуры; точка на дуги. Контрольная точка лучше всего расположена около посередине между начальным и конечным вершинами дуги.  <br/> |
+|[З](b-cell-geometry-section.md) <br/> |Координата *y* контрольной точки кривой относительно высоты фигуры.  <br/> |
    
 

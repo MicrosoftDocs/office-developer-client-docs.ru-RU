@@ -1,5 +1,5 @@
 ---
-title: IMAPIMessageSiteGetSession
+title: Имапимессажеситежетсессион
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: c35d9e38-f4cf-4908-aaa1-a4263b58f7e8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: d5d86af111bc778839a78f9b56ba7126e6c973d5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e1ea68a7690a93915cd80ad5406c4d71d3a97400
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567379"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321443"
 ---
 # <a name="imapimessagesitegetsession"></a>IMAPIMessageSite::GetSession
 
@@ -25,7 +25,7 @@ ms.locfileid: "22567379"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Возвращает сеанса MAPI, в которой была создана или открыта текущего сообщения.
+Возвращает сеанс MAPI, в котором было создано или открыто текущее сообщение.
   
 ```cpp
 HRESULT GetSession(
@@ -35,9 +35,9 @@ HRESULT GetSession(
 
 ## <a name="parameters"></a>Параметры
 
- _ppSession_
+ _Ппсессион_
   
-> [out] Указатель на указатель на объект возвращенные сеанса.
+> вышли Указатель на указатель на возвращенный объект Session.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,11 +47,11 @@ S_OK
     
 S_FALSE 
   
-> Не существуют сеансы для текущего сообщения.
+> Для текущего сообщения не существует сеансов.
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
-Список интерфейсов, которые связаны с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).
+Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -59,7 +59,7 @@ S_FALSE
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |Mfcmapi (en) использует метод **IMAPIMessageSite::GetSession** возвращает указатель в настоящее время кэширования сеанса, если она доступна.  <br/> |
+|Мимапиформвиевер. cpp  <br/> |Кмимапиформвиевер:: @ Session  <br/> |MFCMAPI использует метод **имапимессажесите::-Session** для возврата текущего кэшированного указателя сеанса, если он доступен.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

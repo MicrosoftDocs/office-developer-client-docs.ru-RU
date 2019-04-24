@@ -13,52 +13,52 @@ api_type:
 ms.assetid: c5dfb21f-b35e-4521-bf2b-e3d03d98d75d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 235efce341e1870f0c33917f1c6d42b021727308
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392727"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321345"
 ---
 # <a name="pidtagruleuserflags-canonical-property"></a>Каноническое свойство PidTagRuleUserFlags
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Это свойство имеет значение клиентом использовать только клиента. 
+Это свойство задается клиентом для эксклюзивного использования клиента. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_RULE_USER_FLAGS  <br/> |
+|Связанные свойства:  <br/> |ПР_РУЛЕ_УСЕР_ФЛАГС  <br/> |
 |Идентификатор:  <br/> |0x6678  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Правила со стороны сервера  <br/> |
+|Область:  <br/> |Правила на стороне сервера  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Сервер должны сохранить значение этого свойства, если оно было задано клиентом. Сервер должен пропустить во время оценки правил и обработки.
+Сервер должен сохранить значение этого свойства, если оно было задано клиентом. Сервер должен игнорировать его во время оценки и обработки правила.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS — ОКСОРУЛЕ]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Управляет входящие сообщения электронной почты на сервере.
+> Управляет входящими сообщениями электронной почты на сервере.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

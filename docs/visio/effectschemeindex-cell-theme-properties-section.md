@@ -1,37 +1,37 @@
 ---
-title: Ячейка EffectSchemeIndex (раздел "Свойства темы")
+title: EffectSchemeIndex Cell (Theme Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 366ade40-e89f-49b6-b4be-4e4967dbacbf
-description: Определяет схему влияние темы, применяемые к фигуре, как целое число.
-ms.openlocfilehash: 369eb059633a7efc27ee670c400f383205bceea6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет схему результатов темы, применяемой к фигуре, в виде целого числа.
+ms.openlocfilehash: 0d8ed18ca960868b1cd27abe517bfea99e1f2318
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813674"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321450"
 ---
-# <a name="effectschemeindex-cell-theme-properties-section"></a>Ячейка EffectSchemeIndex (раздел "Свойства темы")
+# <a name="effectschemeindex-cell-theme-properties-section"></a>EffectSchemeIndex Cell (Theme Properties Section)
 
-Определяет схему влияние темы, применяемые к фигуре, как целое число.
+Определяет схему результатов темы, применяемой к фигуре, в виде целого числа.
   
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **EffectSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **EffectSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | EffectSchemeIndex  <br/> |
+| Имя ячейки:  <br/> | EffectSchemeIndex  <br/> |
    
-Для получения ссылки на ячейки **EffectSchemeIndex** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **EffectSchemeIndex** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowThemeProperties** <br/> |
-| Индекс ячейки:  <br/> |** visEffectSchemeIndex ** <br/> |
+| Индекс строки:  <br/> |**Висровсемепропертиес** <br/> |
+| Индекс ячейки:  <br/> |* * Висеффектсчемеиндекс * * <br/> |
    
 

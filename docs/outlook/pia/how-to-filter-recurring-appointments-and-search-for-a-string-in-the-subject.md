@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6bda9cc663af1d1b9167ec78da286fe1c1991d40
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706709"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320267"
 ---
 # <a name="filter-recurring-appointments-and-search-for-a-string-in-the-subject"></a>Фильтрация повторяющихся встреч и поиск строки в теме
 
@@ -24,7 +24,7 @@ ms.locfileid: "28706709"
 
 После получения коллекции **Items** элементов повторяющихся встреч, которые находятся в заданном диапазоне дат, в примере кода выполняется два новых поиска с помощью запросов DASL. В первом поиске используются методы **Items.Find**, [FindNext](https://msdn.microsoft.com/library/bb623799\(v=office.15\)) и ключевое слово **like** для поиска элементов с подстрокой "office" в теме. Во втором поиске используется метод **Items.Restrict** и ключевое слово **ci\_startswith** для поиска элементов, темы которых начинаются "office".
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В следующих строках кода показано, как выполнить импорт и назначение в Visual Basic и C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

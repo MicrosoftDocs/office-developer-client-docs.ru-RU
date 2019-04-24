@@ -1,5 +1,5 @@
 ---
-title: Ячейка IsSnapTarget (раздел "Свойства группы")
+title: IsSnapTarget Cell (Group Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,39 +8,39 @@ f1_keywords:
 - Vis_DSS.chm82251626
 localization_priority: Normal
 ms.assetid: b58131f6-a566-d9ca-bad4-4f4b66e03aaf
-description: Определяет, выполняется ли привязка к группе или к фигурам в группе.
-ms.openlocfilehash: 89536923617f80768d7c14658cb07c97595824ea
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, привязана ли к группе или к фигурам в группе.
+ms.openlocfilehash: cae3eab64be3a91c48ae9f7fb49aa2a321087f43
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814003"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317901"
 ---
-# <a name="issnaptarget-cell-group-properties-section"></a>Ячейка IsSnapTarget (раздел "Свойства группы")
+# <a name="issnaptarget-cell-group-properties-section"></a>IsSnapTarget Cell (Group Properties Section)
 
-Определяет, выполняется ли привязка к группе или к фигурам в группе.
+Определяет, привязана ли к группе или к фигурам в группе.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|TRUE  <br/> |Включение привязки к фигурам в группе.  <br/> |
-|FALSE  <br/> |Привязка только для группы.  <br/> |
+|TRUE  <br/> |РазРешите привязку к фигурам в группе.  <br/> |
+|FALSE  <br/> |ПриКрепление только к группе.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Также можно задать это значение, выбрав в группу, щелкая вкладки " [Разработчик](run-in-developer-mode-display-the-developer-tab.md) " **поведение** и затем установите флажок **Привязка к фигурам** . 
+Вы также можете задать это значение, выбрав группу, нажав кнопку **поведение** на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) , а затем установив флажок **привязать к фигурам участника** . 
   
-Чтобы получить ссылку на ячейку IsSnapTarget по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку IsSnapTarget по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-|Имя ячейки.  <br/> |IsSnapTarget  <br/> |
+|Имя ячейки:  <br/> |IsSnapTarget  <br/> |
    
-Для получения ссылки на ячейки IsSnapTarget по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку IsSnapTarget по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**visRowGroup** <br/> |
-|Индекс ячейки:  <br/> |**visGroupIsSnapTarget** <br/> |
+|Индекс строки:  <br/> |**Висровграуп** <br/> |
+|Индекс ячейки:  <br/> |**Висграуписснаптаржет** <br/> |
    
 

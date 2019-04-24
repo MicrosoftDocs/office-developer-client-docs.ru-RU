@@ -6,33 +6,33 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 24e3cf95-88f1-444a-b9b9-738077db714a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: e5b3b7ac38e4e6b217779190fd652c7a223792b8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e685c178a4ecf9b5526780c514fd4a0dcf6559f2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575856"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318937"
 ---
 # <a name="mapi-concepts"></a>Основные понятия MAPI
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-В этом разделе приводятся инструкции по Общие сведения о и программирование с использованием MAPI.
+В этом разделе представлено руководство по программированию с использованием MAPI.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
-- [Функции MAPI и архитектура](mapi-features-and-architecture.md): содержит сведения об общих MAPI проектирования и основные понятия.
+- [Функции и архитектура MAPI](mapi-features-and-architecture.md): содержит сведения об общих структурах и концепциях MAPI.
     
-- [Разработка приложений MAPI](mapi-application-development.md): содержит сведения о разработке с использованием MAPI клиентских приложений и поставщиков услуг.
+- [Разработка приложений MAPI](mapi-application-development.md): содержит сведения о разработке клиентских приложений и поставщиков услуг с помощью MAPI.
     
-- [Элементы программирования MAPI](mapi-programming-elements.md): содержит обзоры элементов программирования в [Справочник по интерфейсу MAPI](mapi-reference.md).
+- [Элементы программирования MAPI](mapi-programming-elements.md): содержит концептуальные обзоры элементов программирования в справочнике по [MAPI](mapi-reference.md).
     
-- [Поставщиков служб MAPI](mapi-service-providers.md): содержатся основные сведения о поставщиков служб MAPI.
+- [Поставщики службы MAPI](mapi-service-providers.md): предоставляет базовые сведения о поставщиках службы MAPI.
     
 ## <a name="related-sections"></a>Связанные разделы
 
-- [Приступая к работе с Справочник по интерфейсу MAPI приложения Outlook](getting-started-with-the-outlook-mapi-reference.md)
+- [Начало работы со справочником по MAPI для Outlook](getting-started-with-the-outlook-mapi-reference.md)
 - [Примеры MAPI](mapi-samples.md)
-- [Справочник по интерфейсу MAPI](mapi-reference.md)
+- [Справочник по MAPI](mapi-reference.md)
   
 

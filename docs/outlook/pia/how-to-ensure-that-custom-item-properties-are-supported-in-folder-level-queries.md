@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9fcba2648988d2de3c208079d2845e2cb4c2f549
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319091"
 ---
 # <a name="ensure-that-custom-item-properties-are-supported-in-folder-level-queries"></a>Обеспечение поддержки настраиваемых свойств элемента в запросах на уровне папки
 
@@ -26,7 +26,7 @@ ms.locfileid: "28722972"
 
 Чтобы сохранить настраиваемое свойство, представленное объектом **UserDefinedProperty** в папке, необходимо сохранить настраиваемое свойство с тем же именем в элементе. Хранение значения в объекте **UserDefinedProperty** для папки не выполняет никаких действий. Нужно настроить коллекцию **UserProperties** элемента на доступ к объекту [UserProperty](https://msdn.microsoft.com/library/bb623119\(v=office.15\)), который нужно задать, а затем установить значение для объекта **UserProperty**. Убедитесь, что вызывается метод **Save** для элемента, чтобы сохранить изменения.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **Imports** или **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением public Class. В следующих строках кода показано, как выполнить импорт и назначение в Visual Basic и C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -143,5 +143,5 @@ private void DemoUserDefinedProperty()
 
 ## <a name="see-also"></a>См. также
 
-- [Папки](folders.md)
+- [Folders](folders.md)
 

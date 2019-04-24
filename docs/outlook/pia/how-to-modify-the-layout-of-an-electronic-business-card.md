@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7f85324b31ae865c69e2c40806d9654a0b443f4b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320183"
 ---
 # <a name="modify-the-layout-of-an-electronic-business-card"></a>Изменение макета электронной визитной карточки
 
@@ -27,7 +27,7 @@ ms.locfileid: "28722741"
 
 В представленном ниже примере кода BusinessCardLayoutExample изменяет макет электронной визитной карточки путем первоначального получения заданного объекта **ContactItem**. В этом случае объект **ContactItem** является контактом со значением свойства [Subject](https://msdn.microsoft.com/library/bb624088\(v=office.15\)) равным "Melissa MacBeth". Затем BusinessCardLayoutExample создает класс XML-документа [XmlDocument](https://msdn.microsoft.com/en-us/library/6kza7w4k) и получает атрибут структуры этого класса в строке с помощью значения **BusinessCardLayoutXML** для объекта **ContactItem**. После этого макет карточки изменяется с выравнивания по левому краю на выравнивание по правому.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

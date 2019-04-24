@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: cd15d220-1f3d-440d-8699-0c934518b4a7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 716550a847aff868d01cb67356409537df83b6d8
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ce087516dde110a22c129ae73259cc95e456e765
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317950"
 ---
 # <a name="cbnewsproptagarray"></a>CbNewSPropTagArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов, выделенная для новой структуры [SPropTagArray](sproptagarray.md) , содержащий указанное число тегов свойств. 
+Вычисляет число байтов, выделяемых для новой структуры [спроптагаррай](sproptagarray.md) , которая содержит указанное количество тегов свойств. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SPropTagArray** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 CbNewSPropTagArray (_ctag)
@@ -40,7 +40,7 @@ CbNewSPropTagArray (_ctag)
 
  __ctag_
   
-> Число теги свойства должны быть включены в новой структуры **SPropTagArray** . 
+> Количество тегов свойств, включаемых в новую структуру **спроптагаррай** . 
     
 ## <a name="see-also"></a>См. также
 

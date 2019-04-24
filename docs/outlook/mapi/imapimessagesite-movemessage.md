@@ -1,5 +1,5 @@
 ---
-title: IMAPIMessageSiteMoveMessage
+title: Имапимессажеситемовемессаже
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,11 +13,11 @@ api_type:
 ms.assetid: cd4d7b11-fad0-4f05-a99e-9567abcab45c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c68e4fbda661a119416918a2c35d1780f1deccda
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25382374"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321367"
 ---
 # <a name="imapimessagesitemovemessage"></a>IMAPIMessageSite::MoveMessage
 
@@ -25,7 +25,7 @@ ms.locfileid: "25382374"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Перемещает текущего сообщения в папку.
+ПереМещает текущее сообщение в папку.
   
 ```cpp
 HRESULT MoveMessage(
@@ -37,17 +37,17 @@ HRESULT MoveMessage(
 
 ## <a name="parameters"></a>Параметры
 
- _pFolderDestination_
+ _Пфолдердестинатион_
   
-> [in] Указатель на папку, где перемещать сообщения.
+> возврата Указатель на папку, в которую перемещается сообщение.
     
- _pViewContext_
+ _Пвиевконтекст_
   
-> [in] Указатель на объект контекста представления.
+> возврата Указатель на объект контекста представления.
     
- _prcPosRect_
+ _Пркпосрект_
   
-> [in] Указатель на структуру [Прямоугольник](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) , содержащий положение и размер окна текущей формы. Далее форме, отображаемой также использует этот прямоугольник окна. 
+> возврата Указатель на структуру [Rect](https://msdn.microsoft.com/library/dd162897%28VS.85%29.aspx) , которая содержит размер и положение окна текущей формы. В следующей отображаемой форме также используется этот прямоугольник окна. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -55,23 +55,23 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-MAPI_E_NO_SUPPORT 
+МАПИ_Е_НО_СУППОРТ 
   
-> Операция не поддерживается на этом сайте сообщения.
+> Эта операция не поддерживается этим сайтом сообщений.
     
 ## <a name="remarks"></a>Замечания
 
-Объекты формы вызовите метод **IMAPIMessageSite::MoveMessage** для перемещения текущего сообщения в новую папку. 
+Объекты формы вызывают метод **имапимессажесите:: мовемессаже** для перемещения текущего сообщения в новую папку. 
   
-## <a name="notes-to-implementers"></a>Примечания для реализующих
+## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-Реализация средства просмотра формы **MoveMessage** необходимо вызвать метод [IMAPIViewContext::ActivateNext](imapiviewcontext-activatenext.md) , передав флаг VCDIR_MOVE, прежде чем фактически перемещение сообщения в новую папку. Для получения структуры **Прямоугольник** , используемых окно формы, вызовите функцию Windows [GetWindowRect](https://msdn.microsoft.com/library/ms633519) . 
+Реализация **Мовемессаже** в средстве просмотра формы должна вызвать метод [Имапивиевконтекст:: активатенекст](imapiviewcontext-activatenext.md) , передав флаг вкдир_мове, прежде чем переносить сообщение в новую папку. Чтобы получить структуру **Rect** , используемую окном формы, вызовите функцию Windows [жетвиндоврект](https://msdn.microsoft.com/library/ms633519) . 
   
-Список интерфейсы, связанные с серверами формы в разделе [Интерфейсов формы MAPI](mapi-form-interfaces.md).
+Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
-После возврата **MoveMessage**форм необходимо проверить для текущего сообщения и затем закрыть сами, если не существует. 
+После возврата **мовемессаже**формы должны проверять текущее сообщение, а затем отменять себя, если они не существуют. 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -79,7 +79,7 @@ MAPI_E_NO_SUPPORT
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::MoveMessage  <br/> |Не реализован.  <br/> |
+|Мимапиформвиевер. cpp  <br/> |Кмимапиформвиевер:: Мовемессаже  <br/> |Не реализовано.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
@@ -92,5 +92,5 @@ MAPI_E_NO_SUPPORT
 
 [MFCMAPI как пример кода](mfcmapi-as-a-code-sample.md)
   
-[Интерфейсы формы MAPI](mapi-form-interfaces.md)
+[Интерфейсы форм MAPI](mapi-form-interfaces.md)
 

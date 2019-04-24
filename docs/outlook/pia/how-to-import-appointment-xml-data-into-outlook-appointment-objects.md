@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0af86772fced3e69d1d28cf8d98a544e3b4d90d2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320064"
 ---
 # <a name="import-appointment-xml-data-into-outlook-appointment-objects"></a>Импорт XML-данных встреч в объекты встреч Outlook
 
@@ -111,7 +111,7 @@ ms.locfileid: "28705388"
 
 CreateAppointmentsFromXml использует метод [Add](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1.add?view=netframework-4.7.2) класса [List\<T\>](https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1?view=netframework-4.7.2) в пространстве имен [System.Collections.Generic](https://docs.microsoft.com/dotnet/api/system.collections.generic?view=netframework-4.7.2), чтобы собрать эти объекты AppointmentItem. После обработки всех встреч в XML-данных метод возвращает объекты AppointmentItem в массив.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **Imports** или **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением public Class. В следующих строках кода показано, как выполнить импорт и назначение в Visual Basic и C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В следующих строках кода показано, как выполнить импорт и назначение в Visual Basic и C\#.
 
 
 ```vb

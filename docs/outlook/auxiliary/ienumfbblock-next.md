@@ -1,26 +1,26 @@
 ---
-title: IEnumFBBlockNext
+title: Иенумфбблоккнекст
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b46358c-bcab-f097-8746-fabfd4722b3c
-description: Получает указанное количество блоков данных о доступности в перечислении.
-ms.openlocfilehash: ec366cf102d3c75487f9485cfae7764d68695f10
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Получает следующее указанное количество блоков данных о занятости в перечислении.
+ms.openlocfilehash: f6ec49a9bac6bcf4fff67991d55c7656f6c8cce2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319595"
 ---
 # <a name="ienumfbblocknext"></a>IEnumFBBlock::Next
 
-Получает указанное количество блоков данных о доступности в перечислении.
+Получает следующее указанное количество блоков данных о занятости в перечислении.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IEnumFBBlock](ienumfbblock.md).
+Обратитесь к разделу [иенумфбблокк](ienumfbblock.md).
   
 ```cpp
 HRESULT Next(  
@@ -34,26 +34,26 @@ HRESULT Next(
 
 _celt_
   
-> [in] Количество данных о доступности блоков *pblk* для извлечения. 
+> возврата Количество блоков данных о занятости в *пблк* , которое требуется получить. 
     
-_pblk_
+_пблк_
   
-> [in] Указатель на массив сведений о доступности блоки. Массив, выделяемого размер *celt* . Запрошенный блоки занятости возвращаются в этот массив. 
+> возврата Указатель на массив блоков занятости. Размер массива размещается в параметре *celt* . Запрошенные блоки сведений о занятости возвращаются в этом массиве. 
     
-_pcfetch_
+_пкфетч_
   
-> [out] Количество блоков сведений о доступности, фактически возвращаемую в *pblk* . 
+> вышли Количество блоков сведений о доступности, фактически возвращенных в *пблк* . 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|ЗНАЧЕНИЕ S_OK  <br/> |Запрошенный количество блоков возвращена.  <br/> |
-|S_FALSE  <br/> |Запрошенный количество блоков не были возвращены.  <br/> |
+|S_OK  <br/> |Возвращено запрошенное число блоков.  <br/> |
+|S_FALSE  <br/> |Запрошенное число блоков не было возвращено.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [Константы (занятости API)](constants-free-busy-api.md)  
+- [Константы (API сведений о доступности)](constants-free-busy-api.md)  
 - [FBBlock_1](fbblock_1.md)  
 - [IEnumFBBlock::Clone](ienumfbblock-clone.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  

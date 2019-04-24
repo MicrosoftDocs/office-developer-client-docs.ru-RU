@@ -1,5 +1,5 @@
 ---
-title: Элемент набора правил (RuleSets_Type complexType) ('Visio XML»)
+title: Элемент RuleSet (Рулесетс_типе complexType) (' XML ' Visio ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,13 +8,13 @@ localization_priority: Normal
 ms.assetid: 5ca63b8a-782e-211f-be7a-8e177b61d8fc
 description: Представляет один набор правил проверки схемы.
 ms.openlocfilehash: 1231e8cdb3c8781dc47f470c0477b4585b1331c6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387393"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318916"
 ---
-# <a name="ruleset-element-rulesetstype-complextype-visio-xml"></a>Элемент набора правил (RuleSets_Type complexType) ('Visio XML»)
+# <a name="ruleset-element-rulesetstype-complextype-visio-xml"></a>Элемент RuleSet (Рулесетс_типе complexType) (' XML ' Visio ')
 
 Представляет один набор правил проверки схемы.
   
@@ -22,10 +22,10 @@ ms.locfileid: "25387393"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Рулесет_типе](ruleset_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Validation.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Проверка. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,23 +42,23 @@ ms.locfileid: "25387393"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Наборы правил](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Включает в себя элемент **набора правил** для каждого правила проверки, задайте в документе.  <br/> |
+|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[Рулесетс_типе](rulesets_type-complextypevisio-xml.md) <br/> |Включает элемент **RuleSet** для каждого набора правил проверки в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |Представляет правило одного проверки в набор правил проверки схемы.  <br/> |
-|[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |Задает свойства набора правил.  <br/> |
+|[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Руле_типе](rule_type-complextypevisio-xml.md) <br/> |Представляет одно правило проверки в наборе правил проверки схемы.  <br/> |
+|[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[Рулесетфлагс_типе](rulesetflags_type-complextypevisio-xml.md) <br/> |Задает свойства набора правил.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Описание  <br/> |XSD:String  <br/> |необязательный  <br/> |Указывает описание, которое отображается в пользовательском интерфейсе для набора правил проверки. Значение по умолчанию — пустая строка.  <br/> |Значения типа xsd:string.  <br/> |
-|Включена  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Указывает, проверяются ли правила в наборе правил указанного проверки при проверке запускается для текущего документа. Значение по умолчанию — True.  <br/> |Значения типа xsd:boolean.  <br/> |
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Задает уникальный идентификатор набора правил проверки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|Имя  <br/> |XSD:String  <br/> |необязательный  <br/> |Указывает локальное имя набора правил проверки. По умолчанию используется значение атрибута NameU.  <br/> |Значения типа xsd:string.  <br/> |
-|NameU  <br/> |XSD:String  <br/> |Обязательный  <br/> |Задает имя универсального набора правил проверки.  <br/> |Значения типа xsd:string.  <br/> |
+|Описание  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает описание, которое отображается в пользовательском интерфейсе для набора правил проверки. Значение по умолчанию — пустая строка.  <br/> |Значения типа String: XSD.  <br/> |
+|Включена  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, проверяются ли правила в указанном наборе правил проверки при запуске проверки для текущего документа. Значение по умолчанию — True.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор набора правил проверки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает локальное имя набора правил проверки. По умолчанию используется значение атрибута Намеу.  <br/> |Значения типа String: XSD.  <br/> |
+|NameU  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Задает универсальное имя набора правил проверки.  <br/> |Значения типа String: XSD.  <br/> |
    
 

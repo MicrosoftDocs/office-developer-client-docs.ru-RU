@@ -13,43 +13,43 @@ api_type:
 ms.assetid: c429f9d8-19f4-4c67-a93f-a55ebf6a148f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 9c5732a22f8d697a275f3641ca9fe7d8f6357f72
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319700"
 ---
 # <a name="pidnametitle-canonical-property"></a>Каноническое свойство PidNameTitle
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает заголовок файл, подключенный к документу.
+Задает заголовок файла, вложенного в документ.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Отсутствует  <br/> |
-|Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
-|Имя свойства:  <br/> |Title  <br/> |
+|Понятные имена:  <br/> |Нет  <br/> |
+|Набор свойств:  <br/> |ПС_ПУБЛИК_СТРИНГС  <br/> |
+|Имя свойства:  <br/> |Заголовок  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Common  <br/> |
+|Область:  <br/> |Распространенная  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
+[[MS — ОКСОДОК]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые в документах.
+> Задает свойства и операции, допустимые для документов.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -59,7 +59,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

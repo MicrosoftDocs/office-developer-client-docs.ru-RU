@@ -6,19 +6,19 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: ffdfdff8-985d-35de-73b1-c34e1932cb9f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 23e68d18a6de93a99d2db32c1d93dac33d9a1225
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7123b2deaa9ae0f26002b486df229ad589009f53
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575268"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321821"
 ---
 # <a name="about-the-mapi-mime-conversion-api"></a>Сведения об API преобразования MAPI-MIME
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-API преобразования MAPI-MIME позволяет поставщиков почты для преобразования между объектами MIME и сообщения MAPI. Он содержит определения констант, класс идентификаторы и идентификаторы интерфейса, как показано в [Константы MAPI](mapi-constants.md). Поставщики почты должен cocreate экземпляр **[IConverterSession](iconvertersessioniunknown.md)** путем вызова функции **CoCreateInstance** . 
+API преобразования MAPI-MIME позволяет почтовым поставщикам выполнять преобразование между объектами MIME и сообщениями MAPI. Он предоставляет определения констант, идентификаторы классов и идентификаторы интерфейсов, как показано в [константАх MAPI](mapi-constants.md). Поставщики почты должны создать экземпляр **[иконвертерсессион](iconvertersessioniunknown.md)** , вызвав функцию **CoCreateInstance** . 
   
 

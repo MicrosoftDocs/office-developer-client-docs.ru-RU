@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 98256ce539172b69c2ae94d495c4aab12e3b8cc4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701426"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320365"
 ---
 # <a name="enumerate-the-entries-in-the-global-address-list"></a>Выполнение перечисления записей в глобальном списке адресов
 
@@ -25,7 +25,7 @@ ms.locfileid: "28701426"
 
 В следующем примере получение кода адреса SMTP для объекта [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)) выполняется путем приведения его к объекту [ExchangeUser](https://msdn.microsoft.com/library/bb609574\(v=office.15\)) или [ExchangeDistributionList](https://msdn.microsoft.com/library/bb624320\(v=office.15\)) при вызове метода [GetExchangeUser()](https://msdn.microsoft.com/library/bb645260\(v=office.15\)) или [GetExchangeDistributionList()](https://msdn.microsoft.com/library/bb611805\(v=office.15\)) . Если объект **AddressEntry** представляет пользователя Exchange, метод EnumerateGAL возвращает объект **ExchangeUser**, через который можно получить доступ к свойствам объекта **AddressEntry**. Для доступа к этим свойствам используйте свойства объекта ExchangeUser, например [JobTitle](https://msdn.microsoft.com/library/bb645451\(v=office.15\)), [Department](https://msdn.microsoft.com/library/bb623789\(v=office.15\)), [Alias](https://msdn.microsoft.com/library/bb610682\(v=office.15\)), [BusinessTelephoneNumber](https://msdn.microsoft.com/library/bb612294\(v=office.15\)) или [PrimarySmtpAddress](https://msdn.microsoft.com/library/bb645506\(v=office.15\)).
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкцию **using** непосредственно перед функциями в примере кода, но ее необходимо добавить перед объявлением общедоступного класса. В строке кода ниже показано, как выполнить импорт и назначение на языке C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

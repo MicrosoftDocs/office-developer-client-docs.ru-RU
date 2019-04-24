@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: f5eeb75d-debb-4ac1-b239-e8e852460ce0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6c09c271fefcf31dcde01526d65091714c0b682d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e274e24d9aff30bb39b1865306477164d413d9a8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576276"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319175"
 ---
 # <a name="smapiforminfoarray"></a>SMAPIFormInfoArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит набор ссылок на объекты формы. 
+Содержит массив указателей для формирования объектов сведений. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Связанные макрос:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
+|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
+|Связанный макрос:  <br/> |[CbMAPIFormInfoArray](cbmapiforminfoarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -43,17 +43,17 @@ typedef struct
 
 ## <a name="members"></a>Members
 
- **cForms**
+ **Кформс**
   
-> Число указатели массива, на который указывает член **aFormInfo** . 
+> Количество указателей в массиве, на которые указывает элемент **аформинфо** . 
     
- **aFormInfo**
+ **Аформинфо**
   
-> Указатель на массив ссылок на объекты формы.
+> Указатель на массив указателей для формирования информационных объектов.
     
 ## <a name="remarks"></a>Замечания
 
-Структура **SMAPIFormInfoArray** передается как параметр в следующих методов: 
+Структура **смапиформинфоаррай** передается в качестве параметра в следующих методах: 
   
 - [IMAPIFormMgr::ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md)
     

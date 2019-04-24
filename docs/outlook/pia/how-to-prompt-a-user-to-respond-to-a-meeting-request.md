@@ -1,5 +1,5 @@
 ---
-title: Запрос ответа у пользователя на приглашение на собрание
+title: Предложение пользователю ответить на приглашение на собрание
 TOCTitle: Prompt a user to respond to a meeting request
 ms:assetid: a0d69f82-8659-457d-9418-1a897a10882f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184630(v=office.15)
@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 26e59cca7431e9f11f3fea5fa058548b9a5903a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722615"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320050"
 ---
 # <a name="prompt-a-user-to-respond-to-a-meeting-request"></a>Запрос ответа у пользователя на приглашение на собрание
 
@@ -27,7 +27,7 @@ ms.locfileid: "28722615"
 
 В следующем примере кода PromptUserMeetingRequest перечисляет объекты [MeetingItem](https://msdn.microsoft.com/library/bb645703\(v=office.15\)), чтобы получить связанные объекты **AppointmentItem**, а затем вызывает метод **Respond**, где параметру *fNoUI* присвоено значение **false**, а параметру *fAdditionalTextDialog*  значение **true**. Это позволяет пользователю выбрать, отправить ли ответ, или отредактировать основной текст ответа перед отправкой.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

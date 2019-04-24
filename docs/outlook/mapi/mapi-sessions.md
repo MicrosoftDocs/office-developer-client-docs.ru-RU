@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a2ab44081c79e72e082687006ab06d0f83b8367e
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3dd55d8ee3cb2751fb27184f0069ae831e2164ee
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575030"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319587"
 ---
 # <a name="mapi-sessions"></a>Сеансы MAPI
 
@@ -41,7 +41,7 @@ Sessions are initiated when a user logs on, a process that accesses a valid prof
   
 For information about handling sessions from within a client application, see [��������� ������ MAPI](mapi-session-handling.md)
   
-## <a name="see-also"></a>��. �����
+## <a name="see-also"></a>См. также
 
 - [MAPILogonEx](mapilogonex.md)  
 - [IMAPISession: IUnknown](imapisessioniunknown.md)

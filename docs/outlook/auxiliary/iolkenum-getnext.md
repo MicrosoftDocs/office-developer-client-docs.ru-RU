@@ -1,26 +1,26 @@
 ---
-title: IOlkEnumGetNext
+title: Иолкенумжетнекст
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b387f896-c213-fc07-a12a-33917e620837
-description: Получает перечислитель следующего учетной записи.
-ms.openlocfilehash: 496a4d787916d051c051b3a19a7113d9d50c6fe7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Получает следующую учетную запись в перечислителе.
+ms.openlocfilehash: e2ad98f7d7e71bd91d48b3824423e305baab429a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321898"
 ---
 # <a name="iolkenumgetnext"></a>IOlkEnum::GetNext
 
-Получает перечислитель следующего учетной записи.
+Получает следующую учетную запись в перечислителе.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkEnum](iolkenum.md).
+Обратитесь к разделу [иолкенум](iolkenum.md).
   
 ```cpp
 HRESULT IOlkEnum:: GetNext( 
@@ -31,20 +31,20 @@ HRESULT IOlkEnum:: GetNext(
 
 ## <a name="parameters"></a>Параметры
 
-_ppunk_
+_ппунк_
   
-> [in] Указатель на интерфейс **IUnknown** , клиента запроса можно получить интерфейс [IOlkAccount](iolkaccount.md) . 
+> возврата Указатель на интерфейс **IUnknown** , который клиент может запрашивать для получения интерфейса [иолкаккаунт](iolkaccount.md) . 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|ЗНАЧЕНИЕ S_OK  <br/> |The call succeeded.  <br/> |
-|S_FALSE  <br/> |Перечислитель достигнут конец.  <br/> |
+|S_OK  <br/> |The call succeeded.  <br/> |
+|S_FALSE  <br/> |Достигнут конец перечислителя.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Интерфейс, указанный *ppunk* наследует от **IUnknown**. Клиент запроса этот интерфейс (с помощью **IUnknown::QueryInterface**) можно получить указатель на интерфейс **IOlkAccount** и получить или задать сведения для этой учетной записи. 
+Интерфейс, указанный *ппунк* , наследуется от **IUnknown**. Клиент может запросить этот интерфейс (с помощью **IUnknown:: QueryInterface**), чтобы получить указатель на интерфейс **иолкаккаунт** , а также получить или задать сведения для этой учетной записи. 
   
 ## <a name="see-also"></a>См. также
 

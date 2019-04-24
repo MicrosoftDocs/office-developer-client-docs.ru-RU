@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 039b3a45-bd57-51f5-1485-a3f6d1bde85a
-description: В этом разделе показано, как читать структура TZDEFINITION из сохраненного формата, хранящиеся в двоичного свойства.
-ms.openlocfilehash: 1fdd4016d26c95cdbff80e88e34bdfac5aa91f06
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: В этом разделе показано, как считывать структуру TZDEFINITION из сохраненного формата, хранящегося в двоичном свойстве.
+ms.openlocfilehash: a685fbfcf918e13aa82ac32799997bb05730184e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807699"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317649"
 ---
 # <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a>Анализ потока из двоичного свойства для считывания структуры TZDEFINITION
 
-В этом разделе показано, как читать структура [TZDEFINITION](tzdefinition.md) из сохраненного формата, хранящиеся в двоичного свойства. 
+В этом разделе показано, как считывать структуру [TZDEFINITION](tzdefinition.md) из сохраненного формата, хранящегося в двоичном свойстве. 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 
@@ -85,6 +85,6 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 ## <a name="see-also"></a>См. также
 
-- [About persisting TZDEFINITION to a stream to commit to a binary property](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
+- [Сведения о сохранении TZDEFINITION в потоке для помещения в двоичное свойство](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
 - [Считывание свойств часового пояса встречи](how-to-read-time-zone-properties-from-an-appointment.md)
 

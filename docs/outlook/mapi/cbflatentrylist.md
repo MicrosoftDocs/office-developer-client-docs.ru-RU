@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 5676981b-a465-4b89-b818-1eb88333b639
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: a8e26340c4a4c80210b61f777ad00dbe3897b4f6
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 06fe8d33b98d9d2a211dba497bd99ff0ec21bbf7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318048"
 ---
 # <a name="cbflatentrylist"></a>CbFLATENTRYLIST
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов в имеющуюся структуру [FLATENTRYLIST](flatentrylist.md) . 
+Вычисляет количество байтов в существующей структуре [флатентрилист](flatentrylist.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**FLATENTRYLIST** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**FLATENTRYLIST** <br/> |
    
 ```cpp
 CbFLATENTRYLIST(_lplist)
@@ -38,9 +38,9 @@ CbFLATENTRYLIST(_lplist)
 
 ## <a name="parameters"></a>Параметры
 
- __lplist_
+ __лплист_
   
-> Указатель на структуру **FLATENTRYLIST** в вопросе. 
+> Указатель на структуру **флатентрилист** в вопросе. 
     
 ## <a name="see-also"></a>См. также
 

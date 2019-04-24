@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3a048d090c946ff5a86fddf4b1ac8c6818e061b1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698850"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321261"
 ---
 # <a name="create-a-contact-item-from-a-vcard-file-and-save-the-item-in-a-folder"></a>Создание элемента Contact из файла vCard и сохранение этого элемента в папке
 
@@ -92,5 +92,5 @@ private void ImportContacts(string path, Outlook.Folder targetFolder)
 
 ## <a name="see-also"></a>См. также
 
-- [Contacts](contacts.md)
+- [Контакты](contacts.md)
 

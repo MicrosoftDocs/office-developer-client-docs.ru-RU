@@ -1,5 +1,5 @@
 ---
-title: Ячейка NoCtlHandles (раздел "Прочее")
+title: NoCtlHandles Cell (Miscellaneous Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,37 +8,37 @@ f1_keywords:
 - Vis_DSS.chm82251319
 localization_priority: Normal
 ms.assetid: 4345b3e5-f522-e300-307c-4f8992a3ddce
-description: Включает или отключает отображение управляющих маркеров и отключает для выбранной фигуры.
-ms.openlocfilehash: 897e4cd97eeab8797f2652285ba395603c41a8e7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Включает и выключает отображение управляющих маркеров для выбранной фигуры.
+ms.openlocfilehash: cbe4d6a8b6fdd4b66acf064884d20999ff7e3b4f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814292"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319805"
 ---
-# <a name="noctlhandles-cell-miscellaneous-section"></a>Ячейка NoCtlHandles (раздел "Прочее")
+# <a name="noctlhandles-cell-miscellaneous-section"></a>NoCtlHandles Cell (Miscellaneous Section)
 
-Включает или отключает отображение управляющих маркеров и отключает для выбранной фигуры.
+Включает и выключает отображение управляющих маркеров для выбранной фигуры.
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-| TRUE  <br/> | Управляющие маркеры не отображаются при выборе фигуры.  <br/> |
+| TRUE  <br/> | Управляющие маркеры не отображаются, если выбрана фигура.  <br/> |
 | FALSE  <br/> | Управляющие маркеры отображаются при выборе фигуры.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Чтобы получить ссылку на ячейку NoCtlHandles по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку NoCtlHandles по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | NoCtlHandles  <br/> |
+| Имя ячейки:  <br/> | NoCtlHandles  <br/> |
    
-Для получения ссылки на ячейки NoCtlHandles по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку NoCtlHandles по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowMisc** <br/> |
-| Индекс ячейки:  <br/> |**visNoCtlHandles** <br/> |
+| Индекс строки:  <br/> |**Висровмиск** <br/> |
+| Индекс ячейки:  <br/> |**Висноктлхандлес** <br/> |
    
 

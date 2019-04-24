@@ -1,5 +1,5 @@
 ---
-title: IMAPIForm IUnknown
+title: Имапиформ IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,41 +12,41 @@ api_type:
 - COM
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: ce0e109aad52bfc4d7f4f55abfe1001d76276f64
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 172cbf9478d3206742df61d211051594e69ab173
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321779"
 ---
 # <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Включение средств просмотра формы для работы с контекстах представления формы и формы уведомлений, для выполнения команд формы и завершение работы форм.
+Позволяет средствам просмотра форм работать с контекстами представления формы и уведомлениями форм, для выполнения команд форм и для завершения работы форм.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Предоставляемые:  <br/> |Объекты формы  <br/> |
-|Реализованный:  <br/> |Серверы формы  <br/> |
-|Вызывается:  <br/> |Средства просмотра формы  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IMAPIForm  <br/> |
-|Тип указателя:  <br/> |LPMAPIFORM  <br/> |
+|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
+|Предоставлено:  <br/> |Объекты форм  <br/> |
+|Реализовано в:  <br/> |Серверы форм  <br/> |
+|Вызывающая сторона:  <br/> |Средства просмотра форм  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_имапиформ  <br/> |
+|Тип указателя:  <br/> |ЛПМАПИФОРМ  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[SetViewContext](imapiform-setviewcontext.md) <br/> |Устанавливает контекст представления для формы.  <br/> |
-|[GetViewContext](imapiform-getviewcontext.md) <br/> |Возвращает текущий контекст представления для формы.  <br/> |
-|[ShutdownForm](imapiform-shutdownform.md) <br/> |Закрывает форму.  <br/> |
-|[DoVerb](imapiform-doverb.md) <br/> |Запросы, формы выполнить все задачи связывается с определенным команды.  <br/> |
-|[Уведомить](imapiform-advise.md) <br/> |Регистрирует просмотра формы для уведомлений о событиях, которые влияют на форме.  <br/> |
-|[Unadvise](imapiform-unadvise.md) <br/> |Отменяет регистрацию для уведомлений с помощью средства просмотра формы, ранее установленные путем вызова **уведомлений**.  <br/> |
-|[GetLastError](imapiform-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR](mapierror.md) , содержащий сведения об ошибке предыдущей появление объекта формы.  <br/> |
+|[Сетвиевконтекст](imapiform-setviewcontext.md) <br/> |Создает контекст представления для формы.  <br/> |
+|[Жетвиевконтекст](imapiform-getviewcontext.md) <br/> |Возвращает текущий контекст представления для формы.  <br/> |
+|[Шутдовнформ](imapiform-shutdownform.md) <br/> |Закрывает форму.  <br/> |
+|[DoVerb](imapiform-doverb.md) <br/> |ЗаПрашивает выполнение формой любых задач, которые она связывает с определенной командой.  <br/> |
+|[Рекомендуем](imapiform-advise.md) <br/> |Регистрирует средство просмотра форм для уведомлений о событиях, влияющих на форму.  <br/> |
+|[Unadvise](imapiform-unadvise.md) <br/> |ОтМеняет регистрацию для уведомлений с помощью средства просмотра форм, предварительно установленного с помощью метода **advise**.  <br/> |
+|[GetLastError](imapiform-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущей ошибке, возникшей в объекте Form.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

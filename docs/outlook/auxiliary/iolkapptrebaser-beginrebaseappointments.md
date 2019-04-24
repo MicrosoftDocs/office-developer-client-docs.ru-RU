@@ -1,5 +1,5 @@
 ---
-title: IOlkApptRebaserBeginRebaseAppointments
+title: Иолкапптребасербегинребасеаппоинтментс
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ed50422e-9edf-4b73-1789-340b70532621
 description: Begins a task for appointment rebasing given a list of appointments, usually obtained from IOlkApptRebaser::EndEnumerateAppointments.
 ms.openlocfilehash: f0f2377f30de7688aaa4196e3a046c664c2128aa
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396094"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321912"
 ---
 # <a name="iolkapptrebaserbeginrebaseappointments"></a>IOlkApptRebaser::BeginRebaseAppointments
 
@@ -30,21 +30,21 @@ HRESULT BeginRebaseAppointments(
     void **ppContext);
 ```
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
-_pRows_
+_Провс_
   
 > [in] Required. A pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing. This structure is usually obtained from a prior call to [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).
     
-_pfnProgress_
+_Пфнпрогресс_
   
 > [in] Optional. A pointer to a rebase task progress function to receive progress. **PFNREBASETASKPROGRESS** is defined in tzmovelib.h. 
     
-_pfnComplete_
+_Пфнкомплете_
   
 > [out] Optional. A pointer to a rebase task completion function to receive notification of rebase completion. **PFNREBASETASKCOMPLETE** is defined in tzmovelib.h. 
     
-_ppContext_
+_Ппконтекст_
   
 > [out] Required. A pointer to a pointer to the returned context. This context will usually be passed to [IOlkApptRebaser::EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md).
     
@@ -52,7 +52,7 @@ _ppContext_
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Remarks
+## <a name="remarks"></a>Замечания
 
 This task runs on a new thread.
   

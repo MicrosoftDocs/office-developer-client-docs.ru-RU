@@ -13,47 +13,47 @@ api_type:
 ms.assetid: ffbab371-1a1d-4aa4-ad31-17549a74513c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b62779567a7dbd298fdd313e90b13fb223e4e47e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319273"
 ---
 # <a name="pidlidtimezone-canonical-property"></a>Каноническое свойство PidLidTimeZone
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает сведения о часовом поясе повторяющееся собрание.
+Указывает сведения о часовом поясе повторяющегося собрания.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |LID_TIME_ZONE  <br/> |
-|Набор свойств:  <br/> |PSETID_Meeting  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x0000000C  <br/> |
+|Связанные свойства:  <br/> |ЛИД_ТИМЕ_ЗОНЕ  <br/> |
+|Набор свойств:  <br/> |Псетид_митинг  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x0000000C  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Meetings (собрания);  <br/> |
+|Область:  <br/> |Meetings  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство читаются только в том случае, если свойство **dispidApptRecur** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) не установлено, но если свойство **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) имеет значение TRUE и **LID_IS_EXCEPTION** ([ PidLidIsException](pidlidisexception-canonical-property.md)) свойство имеет значение FALSE. Снижение WORD задает индекс в таблицу, содержащую сведения о часовом поясе. Из верхней WORD читать только высший бит. Если этот бит задан, выберите часовой пояс по ссылке не увидите, что следует делать летнего времени (летнее время), в противном случае — подробное описание даты перехода на летнее время в [[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
+Это свойство доступно только в том случае, если свойство **диспидапптрекур** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) не задано, но если свойство **ЛИД_ИС_РЕКУРРИНГ** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) имеет значение true и **лид_ис_ексцептион** ([ Свойство PidLidIsException](pidlidisexception-canonical-property.md)) имеет значение false. В нижнем СЛОВе указывается индекс в таблице, содержащей сведения о часовом поясе. В верхнем СЛОВе считывается только самый большой бит. Если этот бит задан, то на указанный часовой пояс не будет отображаться летнее время (DST), в противном случае будут выполнены даты летнего времени, описанные в [[MS-оксокал]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответы.
+> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

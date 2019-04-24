@@ -1,31 +1,31 @@
 ---
-title: Элемент проблему (Issues_Type complexType) ('Visio XML»)
+title: Элемент Issue (Иссуес_типе complexType) (' XML ' Visio ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5c4d07bf-4edc-e241-7827-017f96c11957
-description: Представляет ошибки проверки одного документа.
+description: Представляет одну ошибку проверки в документе.
 ms.openlocfilehash: 4ebe7d2d8b2b4627fb9c9e12113ef23ce19db52e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389843"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317908"
 ---
-# <a name="issue-element-issuestype-complextype-visio-xml"></a>Элемент проблему (Issues_Type complexType) ('Visio XML»)
+# <a name="issue-element-issuestype-complextype-visio-xml"></a>Элемент Issue (Иссуес_типе complexType) (' XML ' Visio ')
 
-Представляет ошибки проверки одного документа.
+Представляет одну ошибку проверки в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Иссуе_типе](issue_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Validation.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Проверка. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,20 +42,20 @@ ms.locfileid: "25389843"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Проблемы](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Содержит все элементы **проблему** для документа.  <br/> |
+|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Иссуес_типе](issues_type-complextypevisio-xml.md) <br/> |Содержит все элементы **issue** для документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |В зависимости от целевого родительский ошибки проверки указывает либо страницы или страницы и фигуры, связанного с родительской ошибки проверки.  <br/> |
-|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Задает сведения о правиле проверки, относящимися ошибки проверки родительского.  <br/> |
+|[Иссуетаржет](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[Иссуетаржет_типе](issuetarget_type-complextypevisio-xml.md) <br/> |В зависимости от цели родительской ошибки проверки указывает либо страницу, либо и фигуру, и страницу, связанную с ошибкой родительской проверки.  <br/> |
+|[Рулеинфо](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[Рулеинфо_типе](ruleinfo_type-complextypevisio-xml.md) <br/> |Задает сведения о правиле проверки, к которым относится ошибка родительской проверки.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Задает уникальный идентификатор ошибки проверки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
-|Игнорируется  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Задает сведения о правиле проверки, относящимися ошибки проверки родительского.  <br/> |Значения типа xsd:boolean.  <br/> |
+|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Указывает уникальный идентификатор для ошибки проверки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Игнорирован  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Задает сведения о правиле проверки, к которым относится ошибка родительской проверки.  <br/> |Значения типа XSD: Boolean.  <br/> |
    
 

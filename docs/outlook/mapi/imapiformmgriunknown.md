@@ -1,5 +1,5 @@
 ---
-title: IMAPIFormMgr IUnknown
+title: Имапиформмгр IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,46 +12,46 @@ api_type:
 - COM
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b4eaf424bd22f5cb7f40778d81a18cca0ef1dcc1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fbe6dc9364ee953661d574b70bcd225abcfe7a81
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22581519"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321653"
 ---
 # <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Включение средств просмотра формы для получения информации о и активации серверов формы. 
+Позволяет читателям форм получать сведения о серверах форм и активировать их. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Предоставляемые:  <br/> |Объекты диспетчер форм  <br/> |
-|Реализованный:  <br/> |Поставщики библиотеки форм  <br/> |
-|Вызывается:  <br/> |Средства просмотра формы  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IMAPIFormMgr  <br/> |
-|Тип указателя:  <br/> |LPMAPIFORMMGR  <br/> |
+|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
+|Предоставлено:  <br/> |Объекты диспетчера форм  <br/> |
+|Реализовано в:  <br/> |Поставщики библиотеки форм  <br/> |
+|Вызывающая сторона:  <br/> |Средства просмотра форм  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_имапиформмгр  <br/> |
+|Тип указателя:  <br/> |ЛПМАПИФОРММГР  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[LoadForm](imapiformmgr-loadform.md) <br/> |Запускает существующее сообщение при открытии формы.  <br/> |
-|[ResolveMessageClass](imapiformmgr-resolvemessageclass.md) <br/> |Разрешает класс сообщения в его формы в контейнере формы и возвращает объект сведения формы для этой формы.  <br/> |
-|[ResolveMultipleMessageClasses](imapiformmgr-resolvemultiplemessageclasses.md) <br/> |Разрешает группу классов сообщений в формах в контейнере формы и возвращает массив формы объекты для этих форм.  <br/> |
-|[CalcFormPropSet](imapiformmgr-calcformpropset.md) <br/> |Возвращает массив свойств, которые использует группа форм.  <br/> |
-|[CreateForm](imapiformmgr-createform.md) <br/> |Открывает форму для создания нового сообщения на основе класса сообщения формы.  <br/> |
-|[SelectForm](imapiformmgr-selectform.md) <br/> |Предоставляет диалоговое окно, которое позволяет пользователю выбрать форму и возвращает объект данные формы с описанием данной форме.  <br/> |
-|[SelectMultipleForms](imapiformmgr-selectmultipleforms.md) <br/> |Предоставляет диалоговое окно, которое позволяет пользователю выбрать нескольких форм и возвращает массив формы объекты, которые описывают формах.  <br/> |
-|[SelectFormContainer](imapiformmgr-selectformcontainer.md) <br/> |Отображает диалоговое окно, которое позволяет пользователю выбрать контейнер, формы и возвращает интерфейс для объекта контейнера выбранный пользователем.  <br/> |
-|[OpenFormContainer](imapiformmgr-openformcontainer.md) <br/> |Откроется интерфейс [IMAPIFormContainer](imapiformcontaineriunknown.md) для контейнера конкретной формы.  <br/> |
-|[PrepareForm](imapiformmgr-prepareform.md) <br/> |Файлы для загрузки для открытия формы.  <br/> |
-|[IsInConflict](imapiformmgr-isinconflict.md) <br/> |Определяет ли формы можно обработать собственный конфликтов сообщения.  <br/> |
-|[GetLastError](imapiformmgr-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR](mapierror.md) , содержащий сведения об ошибке предыдущей появление объект диспетчер форм.  <br/> |
+|[Лоадформ](imapiformmgr-loadform.md) <br/> |Запускает форму, чтобы открыть существующее сообщение.  <br/> |
+|[Ресолвемессажекласс](imapiformmgr-resolvemessageclass.md) <br/> |Разрешает класс сообщения в форму в контейнере формы и возвращает объект сведений о форме для этой формы.  <br/> |
+|[Ресолвемултиплемессажеклассес](imapiformmgr-resolvemultiplemessageclasses.md) <br/> |Разрешает группу классов сообщений в свои формы в контейнере формы и возвращает массив объектов данных формы для этих форм.  <br/> |
+|[Калкформпропсет](imapiformmgr-calcformpropset.md) <br/> |Возвращает массив свойств, которые использует группа форм.  <br/> |
+|[CreateForm](imapiformmgr-createform.md) <br/> |Запускает форму, чтобы создать новое сообщение на основе класса сообщений формы.  <br/> |
+|[Селектформ](imapiformmgr-selectform.md) <br/> |Отображает диалоговое окно, которое позволяет пользователю выбрать форму и возвращает объект сведений о форме, который описывает эту форму.  <br/> |
+|[Селектмултиплеформс](imapiformmgr-selectmultipleforms.md) <br/> |Отображает диалоговое окно, позволяющее пользователю выбрать несколько форм и возвратить массив объектов сведений о форме, описывающих эти формы.  <br/> |
+|[Селектформконтаинер](imapiformmgr-selectformcontainer.md) <br/> |Отображает диалоговое окно, позволяющее пользователю выбрать контейнер формы и возврат интерфейса для объекта контейнера, выбранного пользователем.  <br/> |
+|[Опенформконтаинер](imapiformmgr-openformcontainer.md) <br/> |Открывает интерфейс [имапиформконтаинер](imapiformcontaineriunknown.md) для определенного контейнера формы.  <br/> |
+|[Препареформ](imapiformmgr-prepareform.md) <br/> |ЗаГружает форму для открытия.  <br/> |
+|[Исинконфликт](imapiformmgr-isinconflict.md) <br/> |Определяет, может ли форма обрабатывать свои собственные конфликты сообщений.  <br/> |
+|[GetLastError](imapiformmgr-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущей ошибке, возникшей в объекте диспетчера форм.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

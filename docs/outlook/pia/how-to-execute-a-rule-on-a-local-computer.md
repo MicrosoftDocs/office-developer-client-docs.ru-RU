@@ -6,12 +6,13 @@ ms:mtpsurl: https://msdn.microsoft.com/library/Ff424471(v=office.15)
 ms:contentKeyID: 55119883
 ms.date: 07/24/2014
 mtps_version: v=office.15
-ms.openlocfilehash: 76587a72d9c77a5484d9aa9788173f9f40f57614
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+localization_priority: Normal
+ms.openlocfilehash: 4e9840133b7cd70b72e0bedf57931dfa9e53c67b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25405842"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320351"
 ---
 # <a name="execute-a-rule-on-a-local-computer"></a>Выполнение правила на локальном компьютере
 
@@ -30,7 +31,7 @@ ms.locfileid: "25405842"
 
 В представленном ниже примере кода DemoOnMachineOnly создает правило и включает условие [OnlyToMe](https://msdn.microsoft.com/library/bb609250\(v=office.15\)) и действие [Forward](https://msdn.microsoft.com/library/bb652908\(v=office.15\)) путем присвоения для свойств **Enabled** значения **true**. Затем включается условие **OnLocalMachine**, приводящее к локальному выполнению серверного правила, и правила сохраняются. По умолчанию действие **Forward** и условие **OnlyToMe** выполняются на сервере. После включения условия **OnLocalMachine** они выполняются в качестве клиентского правила.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 582b0e836edc361d1d8717f94a5d7490c57cd530
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719466"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320120"
 ---
 # <a name="get-the-global-address-list-or-a-set-of-address-lists-for-a-store"></a>Получение глобального списка адресов или набора списков адресов для хранилища
 
@@ -26,7 +26,7 @@ ms.locfileid: "28719466"
 
 Функция GetGlobalAddressList использует объект [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) и свойство MAPI https://schemas.microsoft.com/mapi/proptag/0x3D150102 для получения свойства PR\_EMSMDB\_SECTION\_UID списка адресов и текущего хранилища. Функция GetGlobalAddressList определяет, что список адресов связан с хранилищем, если их свойства PR\_EMSMDB\_SECTION\_UID совпадают, и что это глобальный список адресов, если его свойство [AddressListType](https://msdn.microsoft.com/library/bb610942\(v=office.15\)) имеет значение [olExchangeGlobalAddressList](https://msdn.microsoft.com/library/bb644009\(v=office.15\)). Если вызов GetGlobalAddressList выполняется успешно, метод DisplayGlobalAddressListForStore использует объект [SelectNamesDialog](https://msdn.microsoft.com/library/bb609866\(v=office.15\)) для отображения возвращаемого глобального списка адресов в диалоговом окне **Выбор имен**.
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкцию **using** непосредственно перед функциями в примере кода, но ее необходимо добавить перед объявлением общедоступного класса. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

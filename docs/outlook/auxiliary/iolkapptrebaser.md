@@ -6,36 +6,36 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d67bd395-d324-217d-8ddc-1d48dd724383
-description: Поддерживает повторного размещения en встреч в папке календаря.
-ms.openlocfilehash: 57ca59121f74c7b64a84282c7493e4aed3179f7a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Поддерживает переиндексацию встреч в папке "Календарь".
+ms.openlocfilehash: cf4f7c790a8561f149160c83418a0d5ebd91a455
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807869"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321863"
 ---
 # <a name="iolkapptrebaser"></a>IOlkApptRebaser
 
-Поддерживает повторного размещения en встреч в папке календаря.
+Поддерживает переиндексацию встреч в папке "Календарь".
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследует от:  <br/> |**Интерфейс IUnknown** <br/> |
-|Файл заголовка:  <br/> |tzmovelib.h  <br/> |
-|Реализованный:  <br/> |tzmovelib.dll  <br/> |
-|Вызывается:  <br/> |Клиентские приложения MAPI  <br/> |
-|Предоставляется для:  <br/> |Объект сдвига Outlook  <br/> |
+|Наследование от:  <br/> |**Интерфейс** <br/> |
+|Файл заголовка:  <br/> |тзмовелиб. h  <br/> |
+|Реализовано в:  <br/> |тзмовелиб. dll  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения MAPI  <br/> |
+|Предоставлено:  <br/> |Объект перебазового объекта Outlook  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|**[BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.  <br/> |
-|**[EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md)** <br/> |Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.  <br/> |
-|**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Начинается задач для повторного размещения встречи en список встреч, обычно получили от **EndEnumerateAppointments**.  <br/> |
-|**[EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md)** <br/> |Waits for appointment rebasing to complete and retrieves the results.  <br/> |
+|**[Бегиненумератеаппоинтментс](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.  <br/> |
+|**[Енденумератеаппоинтментс](iolkapptrebaser-endenumerateappointments.md)** <br/> |Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.  <br/> |
+|**[Бегинребасеаппоинтментс](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Начинает задачу, которая передается из списка встреч, обычно получаемых из **енденумератеаппоинтментс**.  <br/> |
+|**[Ендребасеаппоинтментс](iolkapptrebaser-endrebaseappointments.md)** <br/> |Waits for appointment rebasing to complete and retrieves the results.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

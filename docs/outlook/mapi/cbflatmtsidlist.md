@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 1ecc7c15-ca8a-4af2-9256-b572b70be093
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 52e9454f9743311a83ee78aa28e1e81dbb569c64
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 7495b2e24f31b4409c69a429d50b79c8e5f220eb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594161"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32318062"
 ---
 # <a name="cbflatmtsidlist"></a>CbFLATMTSIDLIST
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов в имеющуюся структуру [FLATMTSIDLIST](flatmtsidlist.md) . 
+Вычисляет количество байтов в существующей структуре [флатмтсидлист](flatmtsidlist.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**FLATMTSIDLIST** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**FLATMTSIDLIST** <br/> |
    
 ```cpp
 CbFLATMTSIDLIST (_lplist)
@@ -38,9 +38,9 @@ CbFLATMTSIDLIST (_lplist)
 
 ## <a name="parameters"></a>Параметры
 
- __lplist_
+ __лплист_
   
-> Указатель на структуру существующих **FLATMTSIDLIST** . 
+> Указатель на существующую структуру **флатмтсидлист** . 
     
 ## <a name="see-also"></a>См. также
 

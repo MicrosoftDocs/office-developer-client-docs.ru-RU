@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b34b79ac05530ec30e611c50bce8e81ce0470f02
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699557"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320113"
 ---
 # <a name="get-the-organizer-of-a-meeting"></a>Получение организатора собрания
 
@@ -25,7 +25,7 @@ ms.locfileid: "28699557"
 
 В следующем примере кода метод GetMeetingOrganizer принимает параметр типа [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)), который представляет собрание, и использует объект [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) и метод [GetProperty(String)](https://msdn.microsoft.com/library/bb645726\(v=office.15\)) для получения элемента [EntryID](https://msdn.microsoft.com/library/bb645980\(v=office.15\)) для объекта **AppointmentItem**. После получения элемента **EntryID** в примере используется метод [GetAddressEntryFromID(String)](https://msdn.microsoft.com/library/ff185034\(v=office.15\)), чтобы вернуть объект [AddressEntry](https://msdn.microsoft.com/library/bb609728\(v=office.15\)), представляющий организатора собрания.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

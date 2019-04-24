@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 77fe6e7df4cf67ed1ca2d62b8cf48f1b2873ccbe
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698801"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32320295"
 ---
 # <a name="filter-and-display-inbox-items-modified-in-the-last-month"></a>Фильтрация и отображение элементов папки "Входящие", измененных в прошлом месяце
 
@@ -110,7 +110,7 @@ DateTime modified = nextRow.LocalTimeUTC(“LastModificationTime”);
 
 В следующем примере в процедуре DemoDASLDateMacro создается запрос DASL, в котором используется макрос **lastmonthDateTime** для фильтрации элементов в папке "Входящие" пользователя, измененных в прошлом месяце. Затем создается объект **Table** с этим фильтром и выполняется перечисление и отображение строк в ограниченном объекте **Table**.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед открытым объявлением Class. В следующей строке кода показано, как выполнить импорт и назначение в C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;

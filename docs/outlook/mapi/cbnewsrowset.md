@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: 3b8b8d9f-33e1-45c3-b024-9afcaab8839c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: f31bccb9c975bbbccb079e40526f6c16eda37474
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: de6836c036c1b8c80a030a8a49009b8899267aa0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32317971"
 ---
 # <a name="cbnewsrowset"></a>CbNewSRowSet
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов, выделенная для новой структуры [SRowSet](srowset.md) , содержащий указанное число строк, представленного [SRow](srow.md) структуры. 
+Вычисляет число байтов, выделяемых для новой структуры [SRowSet](srowset.md) , которая содержит указанное количество строк, представленных структурами [сров](srow.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SRowSet** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SRowSet** <br/> |
    
 ```cpp
 CbNewSRowSet (_crow)
@@ -38,9 +38,9 @@ CbNewSRowSet (_crow)
 
 ## <a name="parameters"></a>Параметры
 
- __crow_
+ __CRowset_
   
-> Число **SRow** структуры, указывающее число строк, должны быть включены в новой структуры **SRowSet** . 
+> Количество структур **сров** , указывающих количество строк, включаемых в новую структуру **SRowSet** . 
     
 ## <a name="see-also"></a>См. также
 

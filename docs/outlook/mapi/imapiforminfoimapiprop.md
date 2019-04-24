@@ -1,5 +1,5 @@
 ---
-title: IMAPIFormInfo IMAPIProp
+title: Имапиформинфо IMAPIProp
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,44 +12,44 @@ api_type:
 - COM
 ms.assetid: a9fda518-11ba-42aa-85ef-dd2279e0319d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2b2abf4440ee2d81a8e95dcdb5fde2daeaa6e6f2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3913cb04f1f2f61ba6835b704f430d872756b227
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22575912"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321737"
 ---
 # <a name="imapiforminfo--imapiprop"></a>IMAPIFormInfo : IMAPIProp
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет клиентских приложений доступ к свойства для определения формы. Хранение сведений о форме в отдельном объекте, поставщика библиотеки форм можно ввести описание формы в клиент без активации формы.
+Предоставляет клиентским приложениям доступ к свойствам, определенным для определения формы. Сохраняя сведения о форме в отдельном объекте, поставщик библиотеки форм может описать форму для клиента, не активируя форму.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Предоставляемые:  <br/> |Объекты формы  <br/> |
-|Реализованный:  <br/> |Поставщики библиотеки форм  <br/> |
-|Вызывается:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IMAPIFormInfo  <br/> |
-|Тип указателя:  <br/> |LPMAPIFORMINFO  <br/> |
-|Модель транзакций:  <br/> |Не входящих в транзакции  <br/> |
+|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
+|Предоставлено:  <br/> |Объекты сведений о форме  <br/> |
+|Реализовано в:  <br/> |Поставщики библиотеки форм  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_имапиформинфо  <br/> |
+|Тип указателя:  <br/> |ЛПМАПИФОРМИНФО  <br/> |
+|Модель транзакции:  <br/> |Не transactd  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[CalcFormPropSet](imapiforminfo-calcformpropset.md) <br/> |Возвращает указатель на полный набор свойств, используемых в форме.  <br/> |
-|[CalcVerbSet](imapiforminfo-calcverbset.md) <br/> |Возвращает указатель на полный набор команд, которые использует формы.  <br/> |
-|[MakeIconFromBinary](imapiforminfo-makeiconfrombinary.md) <br/> |Создает значок из свойства значок формы.  <br/> |
-|[SaveForm](imapiforminfo-saveform.md) <br/> |Сохраняет описание определенной формы в файл конфигурации.  <br/> |
-|[OpenFormContainer](imapiforminfo-openformcontainer.md) <br/> |Возвращает указатель на контейнер формы, в которой установлен определенной формы.  <br/> |
+|[Калкформпропсет](imapiforminfo-calcformpropset.md) <br/> |Возвращает указатель на полный набор свойств, которые использует форма.  <br/> |
+|[Калквербсет](imapiforminfo-calcverbset.md) <br/> |Возвращает указатель на полный набор команд, которые использует форма.  <br/> |
+|[Макеиконфромбинари](imapiforminfo-makeiconfrombinary.md) <br/> |Создает значок на основе свойства Icon формы.  <br/> |
+|[Савеформ](imapiforminfo-saveform.md) <br/> |Сохраняет описание конкретной формы в файле конфигурации.  <br/> |
+|[Опенформконтаинер](imapiforminfo-openformcontainer.md) <br/> |Возвращает указатель на контейнер формы, в котором установлена определенная форма.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-В отличие от большинства интерфейсы, определенные в файле заголовка MapiForm.h **IMAPIFormInfo** наследует от интерфейса [IMAPIProp](imapipropiunknown.md) , так как экспортирует большинство сведений о форме посредством вызова метода [IMAPIProp::GetProps](imapiprop-getprops.md) . 
+В отличие от большинства интерфейсов, определенных в файле заголовка Мапиформ. h, **имапиформинфо** наследуется от интерфейса [IMAPIProp](imapipropiunknown.md) , так как он экспортирует большинство сведений о форме с помощью вызовов метода [IMAPIProp::](imapiprop-getprops.md) -PROPS. 
   
 ## <a name="see-also"></a>См. также
 

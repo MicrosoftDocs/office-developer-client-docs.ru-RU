@@ -1,5 +1,5 @@
 ---
-title: Элемент RuleSetFlags (RuleSet_Type complexType) ('Visio XML»)
+title: Элемент RuleSetFlags (Рулесет_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,13 +8,13 @@ localization_priority: Normal
 ms.assetid: c18d3a84-2088-13f7-7b14-1f4c129537b4
 description: Задает свойства набора правил.
 ms.openlocfilehash: 4a8ba44e2c77281f3d68fb3f5a7a2c58884ce66b
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25400103"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32319917"
 ---
-# <a name="rulesetflags-element-rulesettype-complextype-visio-xml"></a>Элемент RuleSetFlags (RuleSet_Type complexType) ('Visio XML»)
+# <a name="rulesetflags-element-rulesettype-complextype-visio-xml"></a>Элемент RuleSetFlags (Рулесет_типе complexType) (' Visio XML ')
 
 Задает свойства набора правил.
   
@@ -22,10 +22,10 @@ ms.locfileid: "25400103"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Рулесетфлагс_типе](rulesetflags_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Validation.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Проверка. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25400103"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Набор правил](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Представляет один набор правил проверки схемы.  <br/> |
+|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[Рулесет_типе](ruleset_type-complextypevisio-xml.md) <br/> |Представляет один набор правил проверки схемы.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,6 +52,6 @@ ms.locfileid: "25400103"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Hidden  <br/> |XSD:Boolean  <br/> |необязательный  <br/> |Указывает, отображается ли набор правил в правилах для контрольного списка.  <br/> |Значения типа xsd:boolean.  <br/> |
+|Скрытый  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, отображается ли набор правил в списке правил для проверки.  <br/> |Значения типа XSD: Boolean.  <br/> |
    
 

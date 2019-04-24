@@ -1,26 +1,26 @@
 ---
-title: IOlkAccountNotifyNotify
+title: Иолкаккаунтнотифинотифи
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dbce1c47-1252-ddeb-64ae-d52118e6821f
-description: Уведомляет клиента о изменения для указанной учетной записи.
-ms.openlocfilehash: ea4cab8cb8571cf5f34637c08935c78c657e5503
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Уведомляет клиента об изменениях указанной учетной записи.
+ms.openlocfilehash: 269d8a8bd605c9d8a0a4057e87895522d8587ee9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807866"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321968"
 ---
 # <a name="iolkaccountnotifynotify"></a>IOlkAccountNotify::Notify
 
-Уведомляет клиента о изменения для указанной учетной записи.
+Уведомляет клиента об изменениях указанной учетной записи.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе [IOlkAccountNotify](iolkaccountnotify.md).
+Обратитесь к разделу [иолкаккаунтнотифи](iolkaccountnotify.md).
   
 ```cpp
 HRESULT IOlkAccount::Notify(  
@@ -33,27 +33,27 @@ HRESULT IOlkAccount::Notify(
 
 ## <a name="parameters"></a>Параметры
 
-_dwNotify_
+_Двнотифи_
   
-> [in] Тип уведомления. The value must be one of the following:
+> возврата Тип уведомления. Поддерживаются такие значения:
     
-   - NOTIFY_ACCT_CHANGED 
+   - НОТИФИ_АККТ_ЧАНЖЕД 
     
-   - NOTIFY_ACCT_CREATED 
+   - НОТИФИ_АККТ_КРЕАТЕД 
     
-   - NOTIFY_ACCT_DELETED
+   - НОТИФИ_АККТ_ДЕЛЕТЕД
     
-   - NOTIFY_ACCT_ORDER_CHANGED 
+   - НОТИФИ_АККТ_ОРДЕР_ЧАНЖЕД 
     
-   - NOTIFY_ACCT_PREDELETED 
+   - НОТИФИ_АККТ_ПРЕДЕЛЕТЕД 
     
- _dwAcctID_
+ _Двакктид_
   
-> [in] Идентификатор учетной записи для учетной записи, которые были созданы, изменяется, удаления или предварительно удален.
+> возврата Идентификатор учетной записи, которая была создана, изменена, удалена или предварительно удалена.
     
  _dwFlags_
   
->  [in] Не используется. OLK_ACCOUNT_NO_FLAGS — это поддерживается только значение. 
+>  возврата Не используется. ОЛК_АККАУНТ_НО_ФЛАГС — единственное поддерживаемое значение. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
