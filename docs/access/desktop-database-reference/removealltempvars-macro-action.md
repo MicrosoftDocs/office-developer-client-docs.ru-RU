@@ -12,37 +12,37 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: eade809a6e3982dc0dc4cf94ae382af72e8f454e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705080"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306799"
 ---
-# <a name="removealltempvars-macro-action"></a><span data-ttu-id="3fa18-102">Макрокоманда RemoveAllTempVars</span><span class="sxs-lookup"><span data-stu-id="3fa18-102">RemoveAllTempVars macro action</span></span>
+# <a name="removealltempvars-macro-action"></a><span data-ttu-id="62734-102">Макрокоманда RemoveAllTempVars</span><span class="sxs-lookup"><span data-stu-id="62734-102">RemoveAllTempVars macro action</span></span>
 
 
-<span data-ttu-id="3fa18-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3fa18-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="62734-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="62734-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="3fa18-104">Чтобы удалить все временные переменные, которые созданы с помощью действия **SetTempVar** можно использовать действие **RemoveAllTempVars** .</span><span class="sxs-lookup"><span data-stu-id="3fa18-104">You can use the **RemoveAllTempVars** action to remove any temporary variables that you created by using the **SetTempVar** action.</span></span>
+<span data-ttu-id="62734-104">Вы можете использовать действие **Макрокоманда removealltempvars** , чтобы удалить все временные переменные, созданные с помощью действия **Макрокоманда SetTempVar** .</span><span class="sxs-lookup"><span data-stu-id="62734-104">You can use the **RemoveAllTempVars** action to remove any temporary variables that you created by using the **SetTempVar** action.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="3fa18-105">Setting</span><span class="sxs-lookup"><span data-stu-id="3fa18-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="62734-105">Параметр</span><span class="sxs-lookup"><span data-stu-id="62734-105">Setting</span></span>
 
-<span data-ttu-id="3fa18-106">Действие **RemoveAllTempVars** не имеет каких-либо аргументов.</span><span class="sxs-lookup"><span data-stu-id="3fa18-106">The **RemoveAllTempVars** action does not have any arguments.</span></span>
+<span data-ttu-id="62734-106">Действие **Макрокоманда removealltempvars** не имеет аргументов.</span><span class="sxs-lookup"><span data-stu-id="62734-106">The **RemoveAllTempVars** action does not have any arguments.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3fa18-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="3fa18-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="62734-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="62734-107">Remarks</span></span>
 
-  - <span data-ttu-id="3fa18-108">Может быть длиной до 255 временные переменные, определенные за один раз.</span><span class="sxs-lookup"><span data-stu-id="3fa18-108">You can have up to 255 temporary variables defined at one time.</span></span> <span data-ttu-id="3fa18-109">Если вы не удалите временную переменную, остается в памяти до закрытия базы данных или проекта.</span><span class="sxs-lookup"><span data-stu-id="3fa18-109">If you do not remove a temporary variable, it will remain in memory until you close the database or project.</span></span> <span data-ttu-id="3fa18-110">Рекомендуется удалить временные переменные после завершения их использования.</span><span class="sxs-lookup"><span data-stu-id="3fa18-110">It is a good practice to remove temporary variables when you are finished using them.</span></span>
+  - <span data-ttu-id="62734-108">Одновременно может быть определено до 255 временных переменных.</span><span class="sxs-lookup"><span data-stu-id="62734-108">You can have up to 255 temporary variables defined at one time.</span></span> <span data-ttu-id="62734-109">Если не удалить временную переменную, она останется в памяти до тех пор, пока не будет закрыта база данных или проект.</span><span class="sxs-lookup"><span data-stu-id="62734-109">If you do not remove a temporary variable, it will remain in memory until you close the database or project.</span></span> <span data-ttu-id="62734-110">Рекомендуется удалять временные переменные после завершения их использования.</span><span class="sxs-lookup"><span data-stu-id="62734-110">It is a good practice to remove temporary variables when you are finished using them.</span></span>
 
-  - <span data-ttu-id="3fa18-111">Access автоматически удаляет все временные переменные при закрытии базы данных или проекта.</span><span class="sxs-lookup"><span data-stu-id="3fa18-111">Access automatically removes all temporary variables when you close the database or project.</span></span>
+  - <span data-ttu-id="62734-111">Access автоматически удаляет все временные переменные при закрытии базы данных или проекта.</span><span class="sxs-lookup"><span data-stu-id="62734-111">Access automatically removes all temporary variables when you close the database or project.</span></span>
 
-  - <span data-ttu-id="3fa18-112">Чтобы удалить одного временную переменную, используйте действие **RemoveTempVar** и установите аргумента имя временную переменную, которые вы хотите удалить.</span><span class="sxs-lookup"><span data-stu-id="3fa18-112">To remove a single temporary variable, use the **RemoveTempVar** action and set its argument to the name of the temporary variable you want to remove.</span></span>
+  - <span data-ttu-id="62734-112">Чтобы удалить одну временную переменную, используйте действие **Макрокоманда removetempvar** и задайте для аргумента имя удаляемой временной переменной.</span><span class="sxs-lookup"><span data-stu-id="62734-112">To remove a single temporary variable, use the **RemoveTempVar** action and set its argument to the name of the temporary variable you want to remove.</span></span>
 
-  - <span data-ttu-id="3fa18-113">Чтобы выполнить действие **RemoveAllTempVars** в модуле VBA, используйте метод **RemoveAll** объекта **в TempVar** .</span><span class="sxs-lookup"><span data-stu-id="3fa18-113">To run the **RemoveAllTempVars** action in a VBA module, use the **RemoveAll** method of the **TempVars** object.</span></span>
+  - <span data-ttu-id="62734-113">Чтобы выполнить действие **Макрокоманда removealltempvars** в модуле VBA, используйте метод **RemoveAll** объекта **TempVars** .</span><span class="sxs-lookup"><span data-stu-id="62734-113">To run the **RemoveAllTempVars** action in a VBA module, use the **RemoveAll** method of the **TempVars** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="3fa18-114">Пример</span><span class="sxs-lookup"><span data-stu-id="3fa18-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="62734-114">Пример</span><span class="sxs-lookup"><span data-stu-id="62734-114">Example</span></span>
 
-<span data-ttu-id="3fa18-115">Следующий макрос показано, как создать временную переменную, используйте в окне сообщения и условия и затем удалить временную переменную с помощью действия **RemoveAllTempVars** .</span><span class="sxs-lookup"><span data-stu-id="3fa18-115">The following macro demonstrates how to create a temporary variable, use it in a condition and a message box, and then remove the temporary variable by using the **RemoveAllTempVars** action.</span></span>
+<span data-ttu-id="62734-115">В следующем макросе показано, как создать временную переменную, использовать ее в условии и окне сообщения, а затем удалить временную переменную с помощью действия **Макрокоманда removealltempvars** .</span><span class="sxs-lookup"><span data-stu-id="62734-115">The following macro demonstrates how to create a temporary variable, use it in a condition and a message box, and then remove the temporary variable by using the **RemoveAllTempVars** action.</span></span>
 
 <table>
 <colgroup>
@@ -52,25 +52,25 @@ ms.locfileid: "28705080"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="3fa18-116">Условие</span><span class="sxs-lookup"><span data-stu-id="3fa18-116">Condition</span></span></p></th>
-<th><p><span data-ttu-id="3fa18-117">Action</span><span class="sxs-lookup"><span data-stu-id="3fa18-117">Action</span></span></p></th>
-<th><p><span data-ttu-id="3fa18-118">Arguments</span><span class="sxs-lookup"><span data-stu-id="3fa18-118">Arguments</span></span></p></th>
+<th><p><span data-ttu-id="62734-116">Условие</span><span class="sxs-lookup"><span data-stu-id="62734-116">Condition</span></span></p></th>
+<th><p><span data-ttu-id="62734-117">Действие</span><span class="sxs-lookup"><span data-stu-id="62734-117">Action</span></span></p></th>
+<th><p><span data-ttu-id="62734-118">Аргументы</span><span class="sxs-lookup"><span data-stu-id="62734-118">Arguments</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="3fa18-119"><strong>SetTempVar</strong></span><span class="sxs-lookup"><span data-stu-id="3fa18-119"><strong>SetTempVar</strong></span></span></p></td>
-<td><p><span data-ttu-id="3fa18-120"><strong>Имя</strong>: MyVar<strong>выражение</strong>: InputBox (&quot;введите ненулевое число.&quot;)</span><span class="sxs-lookup"><span data-stu-id="3fa18-120"><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox(&quot;Enter a non-zero number.&quot;)</span></span></p></td>
+<td><p><span data-ttu-id="62734-119"><strong>Макрокоманда SetTempVar</strong></span><span class="sxs-lookup"><span data-stu-id="62734-119"><strong>SetTempVar</strong></span></span></p></td>
+<td><p><span data-ttu-id="62734-120"><strong>Name</strong>:<strong>выражение</strong>мивар: InputBox (&quot;введите ненулевое значение).&quot;</span><span class="sxs-lookup"><span data-stu-id="62734-120"><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox(&quot;Enter a non-zero number.&quot;)</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="3fa18-121">[В TempVar]! [MyVar] &lt; &gt;0</span><span class="sxs-lookup"><span data-stu-id="3fa18-121">[TempVars]![MyVar]&lt;&gt;0</span></span></p></td>
-<td><p><span data-ttu-id="3fa18-122"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="3fa18-122"><strong>MessageBox</strong></span></span></p></td>
-<td><p><span data-ttu-id="3fa18-123"><strong>Сообщение</strong>: =&quot;вы ввели &quot; &amp; [в TempVar]! [MyVar] &amp; &quot;. &quot; <strong>Звуковые сигналы</strong>: <strong>YesType</strong>: <strong>сведения</strong></span><span class="sxs-lookup"><span data-stu-id="3fa18-123"><strong>Message</strong>: =&quot;You entered &quot; &amp; [TempVars]![MyVar] &amp; &quot;.&quot;<strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></span></span></p></td>
+<td><p><span data-ttu-id="62734-121">[TempVars]! [Мивар] &lt; &gt;0</span><span class="sxs-lookup"><span data-stu-id="62734-121">[TempVars]![MyVar]&lt;&gt;0</span></span></p></td>
+<td><p><span data-ttu-id="62734-122"><strong>MessageBox</strong></span><span class="sxs-lookup"><span data-stu-id="62734-122"><strong>MessageBox</strong></span></span></p></td>
+<td><p><span data-ttu-id="62734-123"><strong>Сообщение</strong>: =&quot;вы ввели &quot; &amp; [TempVars]! [Мивар] &amp; &quot;. &quot; <strong>Гудок</strong>: <strong>естипе</strong>: <strong>Information</strong></span><span class="sxs-lookup"><span data-stu-id="62734-123"><strong>Message</strong>: =&quot;You entered &quot; &amp; [TempVars]![MyVar] &amp; &quot;.&quot;<strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></span></span></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><span data-ttu-id="3fa18-124"><strong>RemoveAllTempVars</strong></span><span class="sxs-lookup"><span data-stu-id="3fa18-124"><strong>RemoveAllTempVars</strong></span></span></p></td>
+<td><p><span data-ttu-id="62734-124"><strong>Макрокоманда removealltempvars</strong></span><span class="sxs-lookup"><span data-stu-id="62734-124"><strong>RemoveAllTempVars</strong></span></span></p></td>
 <td><p></p></td>
 </tr>
 </tbody>

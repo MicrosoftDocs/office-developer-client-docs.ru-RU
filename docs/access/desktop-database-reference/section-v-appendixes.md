@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: aa64e5582dd13a10d5071cfae2ddee5d1a826d5e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308766"
 ---
-# <a name="section-v-appendixes"></a><span data-ttu-id="8ea29-102">Раздел V. Приложения</span><span class="sxs-lookup"><span data-stu-id="8ea29-102">Section V: Appendixes</span></span>
+# <a name="section-v-appendixes"></a><span data-ttu-id="9a732-102">Раздел V. Приложения</span><span class="sxs-lookup"><span data-stu-id="9a732-102">Section V: Appendixes</span></span>
 
-<span data-ttu-id="8ea29-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8ea29-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9a732-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9a732-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8ea29-104">Руководство программиста ADO содержит следующие приложения:</span><span class="sxs-lookup"><span data-stu-id="8ea29-104">The ADO programmer's guide contains the following appendixes:</span></span>
+<span data-ttu-id="9a732-104">Руководство программиста по ADO содержит следующие приложения:</span><span class="sxs-lookup"><span data-stu-id="9a732-104">The ADO programmer's guide contains the following appendixes:</span></span>
 
-- [<span data-ttu-id="8ea29-105">Приложение А. Поставщики</span><span class="sxs-lookup"><span data-stu-id="8ea29-105">Appendix A: Providers</span></span>](appendix-a-providers.md)
-- [<span data-ttu-id="8ea29-106">Приложение Б. Ошибки ADO</span><span class="sxs-lookup"><span data-stu-id="8ea29-106">Appendix B: ADO errors</span></span>](appendix-b-ado-errors.md)
-- [<span data-ttu-id="8ea29-107">Приложение В. Программирование с помощью ADO</span><span class="sxs-lookup"><span data-stu-id="8ea29-107">Appendix C: Programming with ADO</span></span>](appendix-c-programming-with-ado.md)
-- [<span data-ttu-id="8ea29-108">Приложение Г. Примеры ADO</span><span class="sxs-lookup"><span data-stu-id="8ea29-108">Appendix D: ADO samples</span></span>](appendix-d-ado-samples.md)
+- [<span data-ttu-id="9a732-105">Appendix A: Providers</span><span class="sxs-lookup"><span data-stu-id="9a732-105">Appendix A: Providers</span></span>](appendix-a-providers.md)
+- [<span data-ttu-id="9a732-106">Приложение Б. Ошибки ADO</span><span class="sxs-lookup"><span data-stu-id="9a732-106">Appendix B: ADO errors</span></span>](appendix-b-ado-errors.md)
+- [<span data-ttu-id="9a732-107">Appendix C: Programming with ADO</span><span class="sxs-lookup"><span data-stu-id="9a732-107">Appendix C: Programming with ADO</span></span>](appendix-c-programming-with-ado.md)
+- [<span data-ttu-id="9a732-108">Приложение Г. Примеры ADO</span><span class="sxs-lookup"><span data-stu-id="9a732-108">Appendix D: ADO samples</span></span>](appendix-d-ado-samples.md)
 

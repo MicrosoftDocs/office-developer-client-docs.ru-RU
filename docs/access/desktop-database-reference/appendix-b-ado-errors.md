@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8344e530528d31a37752e863c596977d5e170ef8
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297020"
 ---
-# <a name="appendix-b-ado-errors"></a><span data-ttu-id="fb56f-102">Приложение Б. Ошибки ADO</span><span class="sxs-lookup"><span data-stu-id="fb56f-102">Appendix B: ADO errors</span></span>
+# <a name="appendix-b-ado-errors"></a><span data-ttu-id="22013-102">Приложение Б. Ошибки ADO</span><span class="sxs-lookup"><span data-stu-id="22013-102">Appendix B: ADO errors</span></span>
 
-<span data-ttu-id="fb56f-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fb56f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="22013-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="22013-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fb56f-104">В следующих разделах Дополнительные сведения о конкретной ошибок:</span><span class="sxs-lookup"><span data-stu-id="fb56f-104">See the following topics for more information about particular error messages:</span></span>
+<span data-ttu-id="22013-104">В следующих разделах приведены дополнительные сведения о конкретных сообщениях об ошибках.</span><span class="sxs-lookup"><span data-stu-id="22013-104">See the following topics for more information about particular error messages:</span></span>
 
-- [<span data-ttu-id="fb56f-105">Коды ошибок ADO</span><span class="sxs-lookup"><span data-stu-id="fb56f-105">ADO error codes</span></span>](ado-error-codes.md)
-- [<span data-ttu-id="fb56f-106">Коды ошибок DataControl</span><span class="sxs-lookup"><span data-stu-id="fb56f-106">DataControl error codes</span></span>](datacontrol-error-codes.md)
-- [<span data-ttu-id="fb56f-107">Коды ошибок Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="fb56f-107">Internet Explorer error codes</span></span>](internet-explorer-error-codes.md)
-- [<span data-ttu-id="fb56f-108">Коды ошибок служб IIS</span><span class="sxs-lookup"><span data-stu-id="fb56f-108">Internet Information Services error codes</span></span>](internet-information-services-error-codes.md)
+- [<span data-ttu-id="22013-105">Коды ошибок ADO</span><span class="sxs-lookup"><span data-stu-id="22013-105">ADO error codes</span></span>](ado-error-codes.md)
+- [<span data-ttu-id="22013-106">Коды ошибок DataControl</span><span class="sxs-lookup"><span data-stu-id="22013-106">DataControl error codes</span></span>](datacontrol-error-codes.md)
+- [<span data-ttu-id="22013-107">Коды ошибок Internet Explorer</span><span class="sxs-lookup"><span data-stu-id="22013-107">Internet Explorer error codes</span></span>](internet-explorer-error-codes.md)
+- [<span data-ttu-id="22013-108">Коды ошибок служб IIS</span><span class="sxs-lookup"><span data-stu-id="22013-108">Internet Information Services error codes</span></span>](internet-information-services-error-codes.md)
 

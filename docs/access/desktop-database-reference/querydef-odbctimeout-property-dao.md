@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef.ODBCTimeout (DAO)
+title: Свойство QueryDef. ODBCTimeout (DAO)
 TOCTitle: ODBCTimeout Property
 ms:assetid: b251c4fb-64a8-aa95-deed-64425df3e00c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822019(v=office.15)
@@ -12,36 +12,36 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2d34aee30e649b1c25ddc6af8078da2af9dd3b84
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301003"
 ---
-# <a name="querydefodbctimeout-property-dao"></a><span data-ttu-id="6ca24-102">Свойство QueryDef.ODBCTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="6ca24-102">QueryDef.ODBCTimeout property (DAO)</span></span>
+# <a name="querydefodbctimeout-property-dao"></a><span data-ttu-id="d985c-102">Свойство QueryDef. ODBCTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="d985c-102">QueryDef.ODBCTimeout property (DAO)</span></span>
 
 
-<span data-ttu-id="6ca24-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6ca24-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d985c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d985c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6ca24-104">Указывает количество секунд до ошибку времени ожидания происходит, когда **[QueryDef](querydef-object-dao.md)** выполняется в базе данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="6ca24-104">Indicates the number of seconds to wait before a timeout error occurs when a **[QueryDef](querydef-object-dao.md)** is executed on an ODBC database.</span></span>
+<span data-ttu-id="d985c-104">Указывает время ожидания (в секундах) до возникновения ошибки времени ожидания при выполнении объекта **[QueryDef](querydef-object-dao.md)** в базе данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="d985c-104">Indicates the number of seconds to wait before a timeout error occurs when a **[QueryDef](querydef-object-dao.md)** is executed on an ODBC database.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6ca24-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6ca24-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d985c-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d985c-105">Syntax</span></span>
 
-<span data-ttu-id="6ca24-106">*выражение* . Время ожидания ODBC</span><span class="sxs-lookup"><span data-stu-id="6ca24-106">*expression* .ODBCTimeout</span></span>
+<span data-ttu-id="d985c-106">*Expression* . ODBCTimeout</span><span class="sxs-lookup"><span data-stu-id="d985c-106">*expression* .ODBCTimeout</span></span>
 
-<span data-ttu-id="6ca24-107">*выражение* Переменная, которая представляет собой объект- **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="6ca24-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="d985c-107">*выражение*: переменная, представляющая объект **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="d985c-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6ca24-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="6ca24-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d985c-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="d985c-108">Remarks</span></span>
 
-<span data-ttu-id="6ca24-109">Если свойство **время ожидания ODBC** — это значение -1, время ожидания по умолчанию используется текущий параметр свойства **[QueryTimeout](database-querytimeout-property-dao.md)** **[подключения](connection-object-dao.md)** или объекта **[базы данных](database-object-dao.md)** , содержащий **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="6ca24-109">When the **ODBCTimeout** property is set to -1, the timeout defaults to the current setting of the **[QueryTimeout](database-querytimeout-property-dao.md)** property of the **[Connection](connection-object-dao.md)** or **[Database](database-object-dao.md)** object that contains the **QueryDef**.</span></span> <span data-ttu-id="6ca24-110">Если свойство **время ожидания ODBC** имеет значение 0, время ожидания ошибок нет.</span><span class="sxs-lookup"><span data-stu-id="6ca24-110">When the **ODBCTimeout** property is set to 0, no timeout error occurs.</span></span>
+<span data-ttu-id="d985c-109">Если для **Свойства ODBCTimeout** задано значение-1, время ожидания по умолчанию равно текущему значению **[Свойства QueryTimeout](database-querytimeout-property-dao.md)** **[подключения](connection-object-dao.md)** или объекта **[базы данных](database-object-dao.md)** , содержащего объект **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="d985c-109">When the **ODBCTimeout** property is set to -1, the timeout defaults to the current setting of the **[QueryTimeout](database-querytimeout-property-dao.md)** property of the **[Connection](connection-object-dao.md)** or **[Database](database-object-dao.md)** object that contains the **QueryDef**.</span></span> <span data-ttu-id="d985c-110">Если для свойства **ODBCTimeout** задано значение 0, ошибка времени ожидания не возникает.</span><span class="sxs-lookup"><span data-stu-id="d985c-110">When the **ODBCTimeout** property is set to 0, no timeout error occurs.</span></span>
 
-<span data-ttu-id="6ca24-111">При использовании базы данных ODBC, например Microsoft SQL Server, задержки могут возникнуть из-за сетевой трафик или интенсивное использование сервера ODBC.</span><span class="sxs-lookup"><span data-stu-id="6ca24-111">When you're using an ODBC database, such as Microsoft SQL Server, delays can occur because of network traffic or heavy use of the ODBC server.</span></span> <span data-ttu-id="6ca24-112">Без необходимости неограниченное время, можно указать время ожидания перед сообщение об ошибке.</span><span class="sxs-lookup"><span data-stu-id="6ca24-112">Rather than waiting indefinitely, you can specify how long to wait before returning an error.</span></span>
+<span data-ttu-id="d985c-111">При использовании базы данных ODBC, такой как Microsoft SQL Server, могут возникать задержки из-за сетевого трафика или интенсивного использования сервера ODBC.</span><span class="sxs-lookup"><span data-stu-id="d985c-111">When you're using an ODBC database, such as Microsoft SQL Server, delays can occur because of network traffic or heavy use of the ODBC server.</span></span> <span data-ttu-id="d985c-112">Вместо неопределенного периода ожидания можно указать время ожидания перед возвращением ошибки.</span><span class="sxs-lookup"><span data-stu-id="d985c-112">Rather than waiting indefinitely, you can specify how long to wait before returning an error.</span></span>
 
-<span data-ttu-id="6ca24-113">**Время ожидания ODBC** свойства объекта **QueryDef** переопределяет значение, назначаемое свойству **QueryTimeout** объекта **подключения** или **базы данных** , содержащего **QueryDef**, но только для этого \*\* QueryDef\*\* объекта.</span><span class="sxs-lookup"><span data-stu-id="6ca24-113">Setting the **ODBCTimeout** property of a **QueryDef** object overrides the value specified by the **QueryTimeout** property of the **Connection** or **Database** object containing the **QueryDef**, but only for that **QueryDef** object.</span></span>
+<span data-ttu-id="d985c-113">Установка свойства **ODBCTimeout** объекта **QueryDef** переопределяет значение, указанное в свойстве **QueryTimeOut** **подключения** или объекта **базы данных** , содержащего объект **QueryDef**, но только для этого \*\* Объект QueryDef\*\* .</span><span class="sxs-lookup"><span data-stu-id="d985c-113">Setting the **ODBCTimeout** property of a **QueryDef** object overrides the value specified by the **QueryTimeout** property of the **Connection** or **Database** object containing the **QueryDef**, but only for that **QueryDef** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="6ca24-114">Пример</span><span class="sxs-lookup"><span data-stu-id="6ca24-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d985c-114">Пример</span><span class="sxs-lookup"><span data-stu-id="d985c-114">Example</span></span>
 
-<span data-ttu-id="6ca24-115">В этом примере используется для отображения как параметр **QueryTimeout** для объекта **базы данных** задает **время ожидания ODBC** по умолчанию для любого объекта **QueryDef** , созданный из свойства **QueryTimeout** и **время ожидания ODBC** Объект **базы данных** .</span><span class="sxs-lookup"><span data-stu-id="6ca24-115">This example uses the **ODBCTimeout** and **QueryTimeout** properties to show how the **QueryTimeout** setting on a **Database** object sets the default **ODBCTimeout** setting on any **QueryDef** objects created from the **Database** object.</span></span>
+<span data-ttu-id="d985c-115">В этом примере используются свойства **ODBCTimeout** и **QueryTimeOut** , чтобы показать, как параметр **QueryTimeOut** в объекте **Database** задает значение по умолчанию **ODBCTimeout** для объектов **QueryDef** , созданных из Объект **Database** .</span><span class="sxs-lookup"><span data-stu-id="d985c-115">This example uses the **ODBCTimeout** and **QueryTimeout** properties to show how the **QueryTimeout** setting on a **Database** object sets the default **ODBCTimeout** setting on any **QueryDef** objects created from the **Database** object.</span></span>
 
 ```vb 
 Sub ODBCTimeoutX() 

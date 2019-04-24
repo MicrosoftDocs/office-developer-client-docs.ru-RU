@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 424b2b2cab9bc4272052a201350a0cc2ab297b8c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698311"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302816"
 ---
-# <a name="quitaccess-macro-action"></a><span data-ttu-id="cf69c-102">Макрокоманда QuitAccess</span><span class="sxs-lookup"><span data-stu-id="cf69c-102">QuitAccess macro action</span></span>
+# <a name="quitaccess-macro-action"></a><span data-ttu-id="a57ba-102">Макрокоманда QuitAccess</span><span class="sxs-lookup"><span data-stu-id="a57ba-102">QuitAccess macro action</span></span>
 
-<span data-ttu-id="cf69c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cf69c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a57ba-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a57ba-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cf69c-104">Действие **QuitAccess** можно использовать, чтобы выйти из Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="cf69c-104">You can use the **QuitAccess** action to exit Microsoft Access.</span></span> <span data-ttu-id="cf69c-105">Действие **QuitAccess** можно указать один из параметров сохранения объектов базы данных.</span><span class="sxs-lookup"><span data-stu-id="cf69c-105">The **QuitAccess** action can also specify one of several options for saving database objects prior to exiting Access.</span></span>
+<span data-ttu-id="a57ba-104">Вы можете использовать действие **куитакцесс** для выхода из Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="a57ba-104">You can use the **QuitAccess** action to exit Microsoft Access.</span></span> <span data-ttu-id="a57ba-105">Действие **куитакцесс** также может указывать один из нескольких вариантов сохранения объектов базы данных перед выходом из Access.</span><span class="sxs-lookup"><span data-stu-id="a57ba-105">The **QuitAccess** action can also specify one of several options for saving database objects prior to exiting Access.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="cf69c-106">Это действие не разрешено, если база данных не является доверенной.</span><span class="sxs-lookup"><span data-stu-id="cf69c-106">This action will not be allowed if the database is not trusted.</span></span> 
+> <span data-ttu-id="a57ba-106">Эта макрокоманда доступна только для доверенных баз данных.</span><span class="sxs-lookup"><span data-stu-id="a57ba-106">This action will not be allowed if the database is not trusted.</span></span> 
 
-## <a name="setting"></a><span data-ttu-id="cf69c-107">Setting</span><span class="sxs-lookup"><span data-stu-id="cf69c-107">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="a57ba-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="a57ba-107">Setting</span></span>
 
-<span data-ttu-id="cf69c-108">Действие **QuitAccess** использует следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="cf69c-108">The **QuitAccess** action has the following argument.</span></span>
+<span data-ttu-id="a57ba-108">Действие **куитакцесс** имеет следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="a57ba-108">The **QuitAccess** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -38,28 +38,28 @@ ms.locfileid: "28698311"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="cf69c-109">Аргумент макрокоманды</span><span class="sxs-lookup"><span data-stu-id="cf69c-109">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="cf69c-110">Описание</span><span class="sxs-lookup"><span data-stu-id="cf69c-110">Description</span></span></p></th>
+<th><p><span data-ttu-id="a57ba-109">Аргумент макрокоманды</span><span class="sxs-lookup"><span data-stu-id="a57ba-109">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="a57ba-110">Описание</span><span class="sxs-lookup"><span data-stu-id="a57ba-110">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="cf69c-111"><strong>Варианты</strong></span><span class="sxs-lookup"><span data-stu-id="cf69c-111"><strong>Options</strong></span></span></p></td>
-<td><p><span data-ttu-id="cf69c-112">Указывает, что происходит с несохраненными объектами при завершении работы Access.</span><span class="sxs-lookup"><span data-stu-id="cf69c-112">Specifies what happens to unsaved objects when you quit Access.</span></span> <span data-ttu-id="cf69c-113">Выберите <strong>запрос</strong> (для отображения диалоговых окон, которые ли сохранять каждый объект), <strong>Сохранить все</strong> (для сохранения всех объектов без запроса, диалоговые окна), или <strong>выйти из</strong> (без сохранения объектов) в поле <strong>Параметры</strong> в <strong>Действие Аргументы</strong> в области построения макросов.</span><span class="sxs-lookup"><span data-stu-id="cf69c-113">Click <strong>Prompt</strong> (to display dialog boxes that ask whether to save each object), <strong>Save All</strong> (to save all objects without prompting by dialog boxes), or <strong>Exit</strong> (to quit without saving any objects) in the <strong>Options</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane.</span></span> <span data-ttu-id="cf69c-114">Значение по умолчанию — <strong>Сохранить все</strong>.</span><span class="sxs-lookup"><span data-stu-id="cf69c-114">The default is <strong>Save All</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="a57ba-111"><strong>Options</strong></span><span class="sxs-lookup"><span data-stu-id="a57ba-111"><strong>Options</strong></span></span></p></td>
+<td><p><span data-ttu-id="a57ba-112">Указывает, что происходит с несохраненными объектами при выходе из Access.</span><span class="sxs-lookup"><span data-stu-id="a57ba-112">Specifies what happens to unsaved objects when you quit Access.</span></span> <span data-ttu-id="a57ba-113">Нажмите кнопку <strong>предлагать</strong> (чтобы отобразить диалоговое окно, в котором спрашивается, нужно ли сохранять каждый объект), <strong>Сохраните все</strong> (чтобы сохранить все объекты без запросов в диалоговых окнах) или <strong>Exit</strong> (чтобы выйти без сохранения объектов) в поле <strong>Параметры</strong> <strong>действия </strong>Раздел "аргументы" в панели построителя макросов.</span><span class="sxs-lookup"><span data-stu-id="a57ba-113">Click <strong>Prompt</strong> (to display dialog boxes that ask whether to save each object), <strong>Save All</strong> (to save all objects without prompting by dialog boxes), or <strong>Exit</strong> (to quit without saving any objects) in the <strong>Options</strong> box in the <strong>Action Arguments</strong> section of the Macro Builder pane.</span></span> <span data-ttu-id="a57ba-114">Значение по умолчанию — <strong>сохранить все</strong>.</span><span class="sxs-lookup"><span data-stu-id="a57ba-114">The default is <strong>Save All</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="cf69c-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="cf69c-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a57ba-115">Замечания</span><span class="sxs-lookup"><span data-stu-id="a57ba-115">Remarks</span></span>
 
-<span data-ttu-id="cf69c-116">Access не выполните все действия, которые выполните действие **QuitAccess** в макросе.</span><span class="sxs-lookup"><span data-stu-id="cf69c-116">Access doesn't run any actions that follow the **QuitAccess** action in a macro.</span></span>
+<span data-ttu-id="a57ba-116">Access не выполняет никакие действия, которые следуют за действием **куитакцесс** в макросе.</span><span class="sxs-lookup"><span data-stu-id="a57ba-116">Access doesn't run any actions that follow the **QuitAccess** action in a macro.</span></span>
 
-<span data-ttu-id="cf69c-117">Это действие можно использовать для завершения работы приложения Access без предупреждений из **Сохранить** диалоговых окон с помощью команды меню или кнопки на форме.</span><span class="sxs-lookup"><span data-stu-id="cf69c-117">You can use this action to quit Access without prompts from **Save** dialog boxes by using a custom menu command or a button on a form.</span></span> <span data-ttu-id="cf69c-118">Например возможно главной формы, которая используется для отображения в рабочей области, настраиваемых объектов.</span><span class="sxs-lookup"><span data-stu-id="cf69c-118">For example, you might have a master form that you use to display the objects in your custom workspace.</span></span> <span data-ttu-id="cf69c-119">Эта форма может содержать кнопку **Quit** , которая запускает макрос, содержащий действие **QuitAccess** со значением **Сохранить все** **Параметры** аргумента.</span><span class="sxs-lookup"><span data-stu-id="cf69c-119">This form could have a **Quit** button that runs a macro containing the **QuitAccess** action with the **Options** argument set to **Save All**.</span></span>
+<span data-ttu-id="a57ba-117">Это действие можно использовать для закрытия Access без запросов на **Сохранение** диалоговых окон с помощью настраиваемых команд меню или кнопки в форме.</span><span class="sxs-lookup"><span data-stu-id="a57ba-117">You can use this action to quit Access without prompts from **Save** dialog boxes by using a custom menu command or a button on a form.</span></span> <span data-ttu-id="a57ba-118">Например, у вас может быть Главная форма, используемая для отображения объектов в настраиваемой рабочей области.</span><span class="sxs-lookup"><span data-stu-id="a57ba-118">For example, you might have a master form that you use to display the objects in your custom workspace.</span></span> <span data-ttu-id="a57ba-119">Эта форма может содержать кнопку **Quit (выйти** ), которая запускает макрос, содержащий действие **куитакцесс** с набором аргументов **Options** , равным **Save All**.</span><span class="sxs-lookup"><span data-stu-id="a57ba-119">This form could have a **Quit** button that runs a macro containing the **QuitAccess** action with the **Options** argument set to **Save All**.</span></span>
 
-<span data-ttu-id="cf69c-120">Это действие имеет тот же эффект, как на вкладку **файл** и выбрав команду **Выход**.</span><span class="sxs-lookup"><span data-stu-id="cf69c-120">This action has the same effect as clicking the **File** tab and then clicking **Exit**.</span></span> <span data-ttu-id="cf69c-121">При наличии несохраненных объектов при выполнении этой команды, диалоговые окна, которые отображаются такие же, как, отображаемые при использовании **приглашениями** для аргумента **Options** **QuitAccess** действие.</span><span class="sxs-lookup"><span data-stu-id="cf69c-121">If you have any unsaved objects when you click this command, the dialog boxes that appear are the same as those displayed when you use **Prompt** for the **Options** argument of the **QuitAccess** action.</span></span>
+<span data-ttu-id="a57ba-120">Это действие эквивалентно переходу на вкладку **файл** и нажатие кнопки **выход**.</span><span class="sxs-lookup"><span data-stu-id="a57ba-120">This action has the same effect as clicking the **File** tab and then clicking **Exit**.</span></span> <span data-ttu-id="a57ba-121">Если при нажатии этой команды имеются несохраненные объекты, то отображаются те же диалоговые окна, что и при использовании параметра **Prompt** в качестве аргумента **Options** действия **куитакцесс** .</span><span class="sxs-lookup"><span data-stu-id="a57ba-121">If you have any unsaved objects when you click this command, the dialog boxes that appear are the same as those displayed when you use **Prompt** for the **Options** argument of the **QuitAccess** action.</span></span>
 
-<span data-ttu-id="cf69c-122">Действие **SaveObject** можно использовать в макросе для сохранения указанный объект без выхода из Access или закрытия объекта.</span><span class="sxs-lookup"><span data-stu-id="cf69c-122">You can use the **SaveObject** action in a macro to save a specified object without having to quit Access or close the object.</span></span>
+<span data-ttu-id="a57ba-122">Макрокоманду **савеобжект** можно использовать в макросе для сохранения указанного объекта без закрытия доступа или закрытия объекта.</span><span class="sxs-lookup"><span data-stu-id="a57ba-122">You can use the **SaveObject** action in a macro to save a specified object without having to quit Access or close the object.</span></span>
 
-<span data-ttu-id="cf69c-123">Чтобы выполнить действие **QuitAccess** в Visual Basic для приложений (VBA) модуль, используйте метод **Quit** **объекта** .</span><span class="sxs-lookup"><span data-stu-id="cf69c-123">To run the **QuitAccess** action in a Visual Basic for Applications (VBA) module, use the **Quit** method of the **DoCmd** object.</span></span>
+<span data-ttu-id="a57ba-123">Чтобы запустить действие **куитакцесс** в модуле Visual Basic для приложений (VBA), используйте метод **Quit** объекта **DoCmd** .</span><span class="sxs-lookup"><span data-stu-id="a57ba-123">To run the **QuitAccess** action in a Visual Basic for Applications (VBA) module, use the **Quit** method of the **DoCmd** object.</span></span>
 

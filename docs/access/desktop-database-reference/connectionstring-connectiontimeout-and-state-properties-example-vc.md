@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 929b81deeeab2fdc849d7a1ec9b7bf6b835d569e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295739"
 ---
-# <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a><span data-ttu-id="7c2da-102">Пример использования свойств ConnectionString, ConnectionTimeout и State (VC++)</span><span class="sxs-lookup"><span data-stu-id="7c2da-102">ConnectionString, ConnectionTimeout, and State properties example (VC++)</span></span>
+# <a name="connectionstring-connectiontimeout-and-state-properties-example-vc"></a><span data-ttu-id="5cc44-102">Пример использования свойств ConnectionString, ConnectionTimeout и State (VC++)</span><span class="sxs-lookup"><span data-stu-id="5cc44-102">ConnectionString, ConnectionTimeout, and State properties example (VC++)</span></span>
 
 
-<span data-ttu-id="7c2da-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c2da-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5cc44-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5cc44-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7c2da-104">В этом примере демонстрируется различные способы использования свойства [ConnectionString](connectionstring-property-ado.md) для открытия объект [подключения](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="7c2da-104">This example demonstrates different ways of using the [ConnectionString](connectionstring-property-ado.md) property to open a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="7c2da-105">Он также использует свойство [ConnectionTimeout](connectiontimeout-property-ado.md) , чтобы задать период времени ожидания и свойство [состояние](state-property-ado.md) для проверки состояния подключения.</span><span class="sxs-lookup"><span data-stu-id="7c2da-105">It also uses the [ConnectionTimeout](connectiontimeout-property-ado.md) property to set a connection timeout period, and the [State](state-property-ado.md) property to check the state of the connections.</span></span> <span data-ttu-id="7c2da-106">Функция GetState является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="7c2da-106">The GetState function is required for this procedure to run.</span></span>
+<span data-ttu-id="5cc44-104">В этом примере показаны различные способы использования свойства [ConnectionString](connectionstring-property-ado.md) для открытия объекта [Connection](connection-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="5cc44-104">This example demonstrates different ways of using the [ConnectionString](connectionstring-property-ado.md) property to open a [Connection](connection-object-ado.md) object.</span></span> <span data-ttu-id="5cc44-105">Кроме того, используется свойство [ConnectionTimeout](connectiontimeout-property-ado.md) для задания периода ожидания подключения и свойство [State](state-property-ado.md) для проверки состояния подключений.</span><span class="sxs-lookup"><span data-stu-id="5cc44-105">It also uses the [ConnectionTimeout](connectiontimeout-property-ado.md) property to set a connection timeout period, and the [State](state-property-ado.md) property to check the state of the connections.</span></span> <span data-ttu-id="5cc44-106">Для выполнения этой процедуры требуется функция-State.</span><span class="sxs-lookup"><span data-stu-id="5cc44-106">The GetState function is required for this procedure to run.</span></span>
 
 ```cpp 
  
