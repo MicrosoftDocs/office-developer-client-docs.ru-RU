@@ -1,5 +1,5 @@
 ---
-title: Метод Workspace.CreateDatabase (DAO)
+title: Метод Workspace. CreateDatabase (DAO)
 TOCTitle: CreateDatabase Method
 ms:assetid: c0ad986e-3b4d-f781-f782-5aa3cdccea7d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822832(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e6d271676ef91d29dca78ba9ee4b6142e055b36d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702133"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305868"
 ---
-# <a name="workspacecreatedatabase-method-dao"></a>Метод Workspace.CreateDatabase (DAO)
+# <a name="workspacecreatedatabase-method-dao"></a>Метод Workspace. CreateDatabase (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Создает новый объект **[базы данных](database-object-dao.md)** , сохраняет базы данных на диск и возвращает объект открыт **базы данных** (только для рабочих областей Microsoft Access).
+Создает новый объект **[Database](database-object-dao.md)** , сохраняет базу данных на диске и возвращает открытый объект **базы данных** (только для рабочих областей Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . CreateDatabase (***имя***, ***подключение***, ***вариант***)
+*Expression* . CreateDatabase (***имя***, ***Подключение***, ***возможность***)
 
-*выражение* Переменная, которая представляет собой объект- **рабочей области** .
+*expression*: переменная, представляющая объект **Workspace**.
 
 ## <a name="parameters"></a>Параметры
 
@@ -38,7 +38,7 @@ ms.locfileid: "28702133"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -48,26 +48,26 @@ ms.locfileid: "28702133"
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Строка длиной до 255 знаков, — это имя файла базы данных, который вы создаете. Это может быть полный путь и имя файла. Если сеть поддерживает его, можно также указать сетевой путь, таких как &quot; \\server1\share1\dir1\db1&quot;. Файлы базы данных Microsoft Access можно создать только с помощью этого метода.</p></td>
+<td><p>Строка длиной до 255 символов, которая является именем создаваемого файла базы данных. Это может быть полный путь и имя файла. Если ваша сеть поддерживает эту возможность, можно также указать сетевой путь, например &quot; \\server1\share1\dir1\db1&quot;. С помощью этого метода можно создавать только файлы баз данных Microsoft Access.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
 <td><ul>
-<li><p>Строковое выражение, которое определяет порядок сортировки при создании базы данных, как указано в настройки. Необходимо указать этот аргумент или возникает ошибка.</p></li>
-<li><p>Можно также создать пароль для нового объекта <strong>базы данных</strong> , объединив Строка пароля (начиная с &quot;; pwd =&quot;) с константой в аргументе <em>языкового стандарта</em> , следующим образом:</p></li>
-<li><p>dbLangSpanish &amp; &quot;; pwd = Новый_пароль&quot;</p></li>
-<li><p>Если вы хотите использовать по умолчанию для <em>языкового стандарта</em>, но укажите пароль, просто введите строку пароль для аргумента <em>языкового стандарта</em> :</p></li>
-<li><p>&quot;; pwd = Новый_пароль&quot;</p></li>
-<li><p>Используйте надежные пароли, содержащие верхний и строчные буквы, числа и символы. Ненадежные пароли не смешивайте этих элементов. Надежный пароль: Y6dh! et5. Ненадежный пароль: House27. Используйте надежный пароль, который вы можете запомнить, чтобы записать его не нужно.</p></li>
+<li><p>Строковое выражение, задающее порядок сортировки для создания базы данных, как указано в параметрах. Необходимо указать этот аргумент, иначе возникнет ошибка.</p></li>
+<li><p>Кроме того, можно создать пароль для нового объекта <strong>базы данных</strong> , присоединить строку пароля (начиная с &quot;;p WD =&quot;) с константой в аргументе <em>locale</em> , как показано ниже.</p></li>
+<li><p>дблангспаниш &amp; &quot;;p wd = NewPassword&quot;</p></li>
+<li><p>Если вы хотите использовать <em>языковой стандарт</em>по умолчанию, но укажите пароль, просто введите строку пароля для аргумента <em>locale</em> :</p></li>
+<li><p>&quot;;p WD = NewPassword&quot;</p></li>
+<li><p>Используйте надежные пароли, объединяющие прописные и строчные буквы, цифры и символы. В слабых паролях эти элементы не комбинируются. Надежный пароль: Y6dh!et5. Слабый пароль: House27. Используйте надежный пароль, который можно запомнить, чтобы не записывать его.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><em>Option</em></p></td>
+<td><p><em>Вариант</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа или сочетание констант, которое указывает один или несколько параметров, как указано в настройки. Параметры можно использовать суммируются соответствующий констант.</p></td>
+<td><p>Константа или сочетание констант, которые указывают на один или несколько параметров, как указано в параметрах. Вы можете комбинировать параметры, суммируя соответствующие константы.</p></td>
 </tr>
 </tbody>
 </table>
@@ -75,7 +75,7 @@ ms.locfileid: "28702133"
 
 ## <a name="remarks"></a>Замечания
 
-Можно использовать один из следующих константы для аргумента языковой стандарт для указания свойства [CollatingOrder](database-collatingorder-property-dao.md) текста для сравнения строк.
+Можно использовать одну из следующих констант для аргумента locale, чтобы указать свойство [коллатингордер](database-collatingorder-property-dao.md) текста для сравнения строк.
 
 <table>
 <colgroup>
@@ -90,87 +90,87 @@ ms.locfileid: "28702133"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>dbLangGeneral</strong></p></td>
-<td><p>Английский, немецкий, французский, португальский, итальянский и современных испанский</p></td>
+<td><p><strong>Дблангженерал</strong></p></td>
+<td><p>Английский, немецкий, французский, португальский, итальянский и современная Испанская</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLangArabic</strong></p></td>
+<td><p><strong>Дблангарабик</strong></p></td>
 <td><p>арабский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLangChineseSimplified</strong></p></td>
-<td><p>Китайский (упрощенное письмо)</p></td>
+<td><p><strong>Дблангчинесесимплифиед</strong></p></td>
+<td><p>китайский (упрощенное письмо)</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLangChineseTraditional</strong></p></td>
-<td><p>Китайский (традиционное письмо)</p></td>
+<td><p><strong>Дблангчинесетрадитионал</strong></p></td>
+<td><p>китайский (традиционное письмо)</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLangCyrillic</strong></p></td>
+<td><p><strong>Дблангцириллик</strong></p></td>
 <td><p>русский;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLangCzech</strong></p></td>
+<td><p><strong>Дблангкзеч</strong></p></td>
 <td><p>чешский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLangDutch</strong></p></td>
+<td><p><strong>Дблангдутч</strong></p></td>
 <td><p>голландский;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLangGreek</strong></p></td>
+<td><p><strong>Дбланггрик</strong></p></td>
 <td><p>греческий;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLangHebrew</strong></p></td>
+<td><p><strong>Дблангхебрев</strong></p></td>
 <td><p>иврит;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLangHungarian</strong></p></td>
+<td><p><strong>Дблангхунгариан</strong></p></td>
 <td><p>венгерский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLangIcelandic</strong></p></td>
+<td><p><strong>Дблангицеландик</strong></p></td>
 <td><p>Исландский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLangJapanese</strong></p></td>
+<td><p><strong>Дблангжапанесе</strong></p></td>
 <td><p>японский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLangKorean</strong></p></td>
+<td><p><strong>Дблангкореан</strong></p></td>
 <td><p>корейский;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLangNordic</strong></p></td>
-<td><p>Скандинавские языки (ядра Microsoft Jet базы данных версии 1.0 только)</p></td>
+<td><p><strong>Дблангнордик</strong></p></td>
+<td><p>Скандинавские языки (только для ядра базы данных Microsoft Jet версии 1,0)</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLangNorwDan</strong></p></td>
-<td><p>Датский и норвежский</p></td>
+<td><p><strong>Дблангнорвдан</strong></p></td>
+<td><p>Норвежский и датский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLangPolish</strong></p></td>
+<td><p><strong>Дблангполиш</strong></p></td>
 <td><p>польский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLangSlovenian</strong></p></td>
+<td><p><strong>Дблангсловениан</strong></p></td>
 <td><p>словенский;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLangSpanish</strong></p></td>
-<td><p>Испанский (традиционный)</p></td>
+<td><p><strong>Дблангспаниш</strong></p></td>
+<td><p>Традиционная испанская</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLangSwedFin</strong></p></td>
-<td><p>Финский и шведский</p></td>
+<td><p><strong>Дблангсведфин</strong></p></td>
+<td><p>Шведский и финский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLangThai</strong></p></td>
+<td><p><strong>Дблангсаи</strong></p></td>
 <td><p>тайский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLangTurkish</strong></p></td>
+<td><p><strong>Дблангтуркиш</strong></p></td>
 <td><p>турецкий;</p></td>
 </tr>
 </tbody>
@@ -178,7 +178,7 @@ ms.locfileid: "28702133"
 
 <br/>
 
-Одно или несколько из следующих констант в аргументе параметры можно использовать для указания версии должен иметь формат данных и ли шифрование базы данных.
+Можно использовать одну или несколько из приведенных ниже констант в аргументе Options, чтобы указать, какую версию должен иметь формат данных, а также следует ли шифровать базу данных.
 
 <table>
 <colgroup>
@@ -193,45 +193,45 @@ ms.locfileid: "28702133"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>dbEncrypt</strong></p></td>
-<td><p>Создает зашифрованной базе данных.</p></td>
+<td><p><strong>Дбенкрипт</strong></p></td>
+<td><p>Создает зашифрованную базу данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbVersion10</strong></p></td>
-<td><p>Создает базу данных в формате Microsoft Jet база данных модуля версии 1.0 файла.</p></td>
+<td><p>Создает базу данных, в которой используется формат файлов ядра базы данных Microsoft Jet версии 1,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVersion11</strong></p></td>
-<td><p>Создает базу данных в формате Microsoft Jet база данных модуля версии 1.1 файла.</p></td>
+<td><p>Создает базу данных, в которой используется формат файлов ядра базы данных Microsoft Jet версии 1,1.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbVersion20</strong></p></td>
-<td><p>Создает базу данных в формате Microsoft Jet база данных модуля версии 2.0 файла.</p></td>
+<td><p>Создает базу данных, в которой используется формат файлов ядра базы данных Microsoft Jet версии 2,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVersion30</strong></p></td>
-<td><p>Создает базу данных, который использует Microsoft Jet engine версии 3.0 формате файла базы данных (совместимый с версией 3.5).</p></td>
+<td><p>Создает базу данных, в которой используется формат файлов ядра базы данных Microsoft Jet версии 3,0 (совместимый с версией 3,5).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbVersion40</strong></p></td>
-<td><p>Создает базу данных в формате Microsoft Jet база данных модуля версии 4.0 файл.</p></td>
+<td><p>Создает базу данных, в которой используется формат файлов ядра базы данных Microsoft Jet версии 4,0.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVersion120</strong></p></td>
-<td><p>Создает базу данных в формате Microsoft Access базы данных модуля версии 12.0 файла.</p></td>
+<td><p>Создает базу данных, использующую формат файлов ядра СУБД Microsoft Access версии 12,0.</p></td>
 </tr>
 </tbody>
 </table>
 
 <br/>
 
-Если опустить константу шифрования **CreateDatabase** создает без зашифрованной базе данных.
+Если опустить константу шифрования, **CreateDatabase** создает незашифрованную базу данных.
 
-Используйте метод **CreateDatabase** Создание и открытие новой пустой базы данных и возвращают объект **базы данных** . С помощью дополнительных объектов DAO необходимо выполнить его структуру и содержимое. Если вы хотите создать частичного или полного копию существующей базы данных, можно использовать метод **[CompactDatabase](dbengine-compactdatabase-method-dao.md)** для копирования, можно настроить.
+Используйте метод **CreateDatabase** , чтобы создать и открыть новую пустую базу данных и возвратить объект **базы данных** . Для выполнения структуры и контента необходимо использовать дополнительные объекты DAO. Если вы хотите создать частичную или полную копию существующей базы данных, можно использовать метод **[CompactDatabase](dbengine-compactdatabase-method-dao.md)** , чтобы создать копию, которую можно настроить.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется **CreateDatabase** для создания нового, зашифрованные объекта **базы данных** .
+В этом примере используется **CreateDatabase** для создания нового зашифрованного объекта **базы данных** .
 
 ```vb
     Sub CreateDatabaseX() 

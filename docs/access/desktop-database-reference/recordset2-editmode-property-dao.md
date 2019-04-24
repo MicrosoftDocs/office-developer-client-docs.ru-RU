@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2.EditMode (DAO)
+title: Свойство Recordset2. EditMode (DAO)
 TOCTitle: EditMode Property
 ms:assetid: fd61ea2b-e7d7-195f-4114-87e54eba2451
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837240(v=office.15)
@@ -12,36 +12,36 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: d4043a442bec8c5ce421d85de6256eb9c5cb353f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716749"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307352"
 ---
-# <a name="recordset2editmode-property-dao"></a>Свойство Recordset2.EditMode (DAO)
+# <a name="recordset2editmode-property-dao"></a>Свойство Recordset2. EditMode (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает значение, указывающее состояние редактирования для текущей записи.
+Возвращает значение, которое указывает состояние редактирования для текущей записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . EditMode
+*Expression* . EditMode
 
-*выражение* Переменная, которая представляет собой объект- **Recordset2** .
+*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
 
 ## <a name="remarks"></a>Замечания
 
-Возвращает значение типа **Long** , указывающее состояние редактирования. Значение может быть одной из констант **[EditModeEnum](editmodeenum-enumeration-dao.md)** .
+Возвращаемое значение представляет собой **длинное** значение, которое указывает состояние редактирования. Значение может быть одной из констант **[едитмодинум](editmodeenum-enumeration-dao.md)** .
 
-Свойство **EditMode** полезен при прерывании редактирования процесса, например, с ошибкой во время проверки. Значение свойства **EditMode** можно использовать для определения, является ли следует использовать метод **[Update](recordset2-update-method-dao.md)** или **[CancelUpdate](recordset2-cancelupdate-method-dao.md)** .
+Свойство **EditMode** можно использовать, если процесс редактирования прерывается, например, при возникновении ошибки во время проверки. Чтобы определить, следует ли использовать метод **[Update](recordset2-update-method-dao.md)** или **[CancelUpdate](recordset2-cancelupdate-method-dao.md)** , можно использовать значение свойства **EditMode** .
 
-Вы также можете проверить ли значение свойства **[LockEdits](recordset2-lockedits-property-dao.md)** имеет **значение True** , и значение свойства **EditMode** — **dbEditInProgress** для определения, заблокирован ли текущей страницы.
+Вы также можете проверить, имеет ли значение свойства **[LockEdits](recordset2-lockedits-property-dao.md)** **значение true** , а свойство **EditMode** — **дбедитинпрогресс** , чтобы определить, заблокирована ли текущая страница.
 
 ## <a name="example"></a>Пример
 
-В этом примере показано значение свойства **EditMode** в различных условиях. Функция EditModeOutput является обязательным для выполнения этой процедуры.
+В этом примере показано значение свойства **EditMode** в различных условиях. Для выполнения этой процедуры требуется функция Едитмодеаутпут.
 
 ```vb
     Sub EditModeX() 

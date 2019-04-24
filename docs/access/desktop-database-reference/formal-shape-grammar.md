@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d30ff9146146bb0457a5aa383b2b720a4fdaeb78
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708048"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292323"
 ---
 # <a name="formal-shape-grammar"></a>Формальная грамматика фигур
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Это официальную грамматики для создания любой фигуры команд:
+Это формальное грамматическая грамматика для создания любой команды Shape:
 
-  - Необходимые условия грамматических требуются текстовые строки угловые скобки (»\<\>«).
+  - Обязательные грамматические термины — это текстовые строки, разделенные угловыми скобками ("\<\>").
 
-  - Дополнительные термины разделяются квадратные скобки (»\[ \]«).
+  - НеОбязательные термины разделяются квадратными скобками ("\[ \]").
 
-  - Альтернативы обозначены делительная черта (» |»).
+  - Альтернативы указываются с помощью виргуле ("|").
 
-  - Повторяющиеся альтернативы обозначены многоточие («...»).
+  - Повторяющиеся варианты обозначаются многоточием ("...").
 
-  - *Буква* указывает строку алфавитном букв.
+  - *Альфа* — это строка букв в алфавитном порядке.
 
-  - *Цифра* указывает строку номеров.
+  - *Digit* указывает строку чисел.
 
-  - *Юникод цифра* указывает строки знаков Юникод.
+  - *Юникод — цифра* указывает строку цифр Юникода.
 
-Все остальные слова, литералы.
+Все остальные термины являются литералами.
 
 <table>
 <colgroup>
@@ -49,122 +49,122 @@ ms.locfileid: "28708048"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Команда фигуры&gt;</p></td>
-<td><p>ФИГУРА [&lt;таблице exp&gt; [[AS] &lt;псевдоним&gt;]] [&lt;действия фигуры&gt;]</p></td>
+<td><p>&lt;Shape – Command&gt;</p></td>
+<td><p>Shape [&lt;Table — exp&gt; [[AS] &lt;псевдоним&gt;]] [&lt;Shape — действие&gt;]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;в таблице exp&gt;</p></td>
-<td><p>{&lt;текст команды поставщика&gt;} |<br />
-(&lt;фигуры command&gt;) |<br />
-В ТАБЛИЦЕ &lt;quoted имя&gt; |<br />
-&lt;в кавычках имя&gt;</p></td>
+<td><p>&lt;Таблица — exp&gt;</p></td>
+<td><p>{&lt;Provider – Command — Text&gt;} |<br />
+(&lt;Shape-Command&gt;) |<br />
+Таблица &lt;, заключенная в кавычки — имя&gt; |<br />
+&lt;имя, заключенное в кавычки&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;Действие фигуры&gt;</p></td>
-<td><p>ДОБАВЛЕНИЕ &lt;список полей псевдонимом&gt; |</p>
-<p>ВЫЧИСЛЕНИЕ &lt;список полей псевдонимом&gt; [по &lt;список полей&gt;]</p></td>
+<td><p>&lt;Shape — действие&gt;</p></td>
+<td><p>Добавление &lt;псевдонима для поля со списком&gt; |</p>
+<p>ВыЧИСЛить &lt;псевдоним поля — список&gt; [по &lt;полю "список&gt;"]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Список полей псевдонимом&gt;</p></td>
-<td><p>&lt;Псевдонимы поля&gt; [, &lt;псевдонимы поля... &gt;]</p></td>
+<td><p>&lt;псевдоним поля списка&gt;</p></td>
+<td><p>&lt;псевдоним поля&gt; [, &lt;псевдоним поля...] &gt;]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;псевдоним поля&gt;</p></td>
-<td><p>&lt;поле exp&gt; [[AS] &lt;псевдоним&gt;]</p></td>
+<td><p>&lt;поле с псевдонимом&gt;</p></td>
+<td><p>&lt;Field — exp&gt; [[AS] &lt;псевдоним&gt;]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;поле exp&gt;</p></td>
-<td><p>(&lt;отношения exp&gt;) |</p>
-<p>&lt;вычисляется exp&gt; |</p>
-<p>&lt;выполняется статистическая обработка exp&gt; |</p>
-<p>&lt;новые exp&gt;</p></td>
+<td><p>&lt;поле — exp&gt;</p></td>
+<td><p>(&lt;отношение-exp&gt;) |</p>
+<p>&lt;вычисляемый exp&gt; |</p>
+<p>&lt;Aggregate — exp&gt; |</p>
+<p>&lt;New — exp&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;relation_exp&gt;</p></td>
-<td><p>&lt;в таблице exp&gt; [[AS] &lt;псевдоним&gt;]</p>
-<p>&lt;в таблице exp&gt; [[AS] &lt;псевдоним&gt;]</p></td>
+<td><p>&lt;релатион_експ&gt;</p></td>
+<td><p>&lt;Таблица — exp&gt; [[AS] &lt;псевдоним&gt;]</p>
+<p>&lt;Таблица — exp&gt; [[AS] &lt;псевдоним&gt;]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;отношения cond списка&gt;</p></td>
-<td><p>&lt;отношения cond&gt; [, &lt;отношения cond&gt;...]</p></td>
+<td><p>&lt;отношение — Конд — список&gt;</p></td>
+<td><p>&lt;relation — Конд&gt; [, &lt;relation – Конд&gt;...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;отношения cond&gt;</p></td>
-<td><p>&lt;Имя поля&gt; Кому &lt;дочерних ref&gt;</p></td>
+<td><p>&lt;отношение — Конд&gt;</p></td>
+<td><p>&lt;поле — имя&gt; &lt;дочерней ссылки&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;параметры ref дочерних&gt;</p></td>
-<td><p>&lt;Имя поля&gt; |</p>
-<p>ПАРАМЕТР &lt;ref параметров&gt;</p></td>
+<td><p>&lt;дочерняя ссылка&gt;</p></td>
+<td><p>&lt;имя поля&gt; |</p>
+<p>ПАРАМЕТР &lt;param — ref&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;параметр ref&gt;</p></td>
-<td><p>&lt;номер&gt;</p></td>
+<td><p>&lt;Param — ref&gt;</p></td>
+<td><p>&lt;значение&gt;</p></td>
 </tr>
 <tr class="even">
 <td><p>&lt;Список полей&gt;</p></td>
-<td><p>&lt;Имя поля&gt; [, &lt;имя поля&gt;]</p></td>
+<td><p>&lt;Field: Name&gt; [, &lt;Field Name&gt;]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;выполняется статистическая обработка exp&gt;</p></td>
-<td><p>Сумма (&lt;-поля имя с указанием&gt;) |</p>
-<p>AVG (&lt;-поля имя с указанием&gt;) |</p>
-<p>MIN (&lt;-поля имя с указанием&gt;) |</p>
-<p>Максимальное число (&lt;-поля имя с указанием&gt;) |</p>
-<p>COUNT (&lt;рекомендованные псевдоним&gt; | &lt;имя с указанием&gt;) |</p>
-<p>STDEV (&lt;-поля имя с указанием&gt;) |</p>
-<p>ЛЮБОЙ (&lt;-поля имя с указанием&gt;)</p></td>
+<td><p>&lt;Aggregate — exp&gt;</p></td>
+<td><p>SUM (&lt;полное-поле-имя&gt;) |</p>
+<p>AVG (&lt;полное-поле-имя&gt;) |</p>
+<p>MIN (&lt;полное-поле-имя&gt;) |</p>
+<p>MAX (&lt;полное-поле-имя&gt;) |</p>
+<p>Count (&lt;уточненное имя&gt; | &lt;&gt;псевдонима) |</p>
+<p>СТАНДОТКЛОН (&lt;полное-поле-имя&gt;) |</p>
+<p>ANY (&lt;полное-имя&gt;)</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;вычисляется exp&gt;</p></td>
-<td><p>Вычисление (&lt;выражение&gt;)</p></td>
+<td><p>&lt;вычисляемый exp&gt;</p></td>
+<td><p>CALC (&lt;выражение&gt;)</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;Рекомендованные--имя поля&gt;</p></td>
-<td><p>&lt;псевдоним&gt;. [&lt;псевдоним&gt;...] &lt;имя поля&gt;</p></td>
+<td><p>&lt;полное имя поля&gt;</p></td>
+<td><p>&lt;псевдоним&gt;. [&lt;Alias&gt;...] &lt;имя поля&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;alias&gt;</p></td>
-<td><p>&lt;в кавычках имя&gt;</p></td>
+<td><p>&lt;смешан&gt;</p></td>
+<td><p>&lt;имя, заключенное в кавычки&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;Имя поля&gt;</p></td>
-<td><p>&lt;в кавычках, имя&gt; [[AS] &lt;псевдоним&gt;]</p></td>
+<td><p>&lt;имя поля&gt;</p></td>
+<td><p>&lt;в кавычках —&gt; имя [[AS &lt;]&gt;псевдоним]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;в кавычках имя&gt;</p></td>
-<td><p>&quot;&lt;Строка&gt;&quot; |</p>
-<p>"&lt;строка&gt;" |</p>
+<td><p>&lt;имя, заключенное в кавычки&gt;</p></td>
+<td><p>&quot;&lt;substring&gt;&quot; |</p>
+<p>'&lt;строка&gt;' |</p>
 <p>[&lt;строка&gt;] |</p>
-<p>&lt;Имя&gt;</p></td>
+<p>&lt;расширением&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;имя с указанием&gt;</p></td>
-<td><p>псевдоним [.alias]</p></td>
+<td><p>&lt;полное имя&gt;</p></td>
+<td><p>Alias [. alias...]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Имя&gt;</p></td>
-<td><p>буква [буква | цифры | _ | # |: |...]</p></td>
+<td><p>&lt;расширением&gt;</p></td>
+<td><p>альфа-канал [альфа | цифра | _ | # |: |...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;номер&gt;</p></td>
-<td><p>цифры [цифра]</p></td>
+<td><p>&lt;значение&gt;</p></td>
+<td><p>цифра [цифра...]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;новые exp&gt;</p></td>
-<td><p>НОВЫЕ &lt;типа поля&gt; [(&lt;номер&gt; [, &lt;номер&gt;])]</p></td>
+<td><p>&lt;New — exp&gt;</p></td>
+<td><p>New &lt;Field-Type&gt; [(&lt;число&gt; [, &lt;число&gt;])]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;Тип поля&gt;</p></td>
+<td><p>&lt;тип поля&gt;</p></td>
 <td><p>Тип данных OLE DB или ADO.</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;string&gt;</p></td>
-<td><p>символ Юникода [символ unicode...]</p></td>
+<td><p>&lt;строка&gt;</p></td>
+<td><p>Unicode – char [Unicode – char...]</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;выражение&gt;</p></td>
-<td><p>Visual Basic для приложений выражения операнды которых являются другие не Вычисление столбцов в той же строке.</p></td>
+<td><p>Выражение Visual Basic для приложений, операнды которого являются другими столбцами, не являющимися ВЫЧИСЛЯЕМыми, в одной строке.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Свойство Field2.IsComplex (DAO)
+title: Свойство field2. Complex (DAO)
 TOCTitle: IsComplex Property
 ms:assetid: ffc90e6e-e3ee-4f9b-ca6b-615199300d45
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837318(v=office.15)
@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d24229a0fc3122cc8a9fb20b041fc9fadc5ccb0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713157"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292785"
 ---
-# <a name="field2iscomplex-property-dao"></a>Свойство Field2.IsComplex (DAO)
+# <a name="field2iscomplex-property-dao"></a>Свойство field2. Complex (DAO)
 
-**Применимо к**: Access 2013, Office 2013 
+**Область применения**: Access 2013, Office 2013 
 
-Возвращает значение **типа Boolean** , указывающее, является ли указанное поле Тип данных, поддерживающий несколько значений. Только для чтения.
+Возвращает **логическое значение** , которое указывает, является ли указанное поле многозначным типом данных. Только для чтения.
 
 ## <a name="version-information"></a>Сведения о версии
 
-Добавлена версия: Access 2007
+Добавлен в версии: Access 2007
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . IsComplex
+*Expression* . Сложный
 
-*выражение* Переменная, которая представляет собой объект- **поле2** .
+*expression* — переменная, представляющая объект **Field2**.
 
 ## <a name="example"></a>Пример
 
-Следующем примере показано, как переходить набор записей с несколькими значениями полей.
+В примере ниже показано, как выполнять навигацию по объекту Recordset, содержащему многозначное поле.
 
-**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub PrintStudentsAndClasses()

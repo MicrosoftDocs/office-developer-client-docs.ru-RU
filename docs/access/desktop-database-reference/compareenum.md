@@ -1,5 +1,5 @@
 ---
-title: CompareEnum (Справочник по для настольных баз данных Access)
+title: Компаринум (Справочник по базам данных Access на компьютере)
 TOCTitle: CompareEnum
 ms:assetid: 7ac84af6-4f8b-4d1f-7eb3-a015b8b60bc6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249509(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cd120f726a51c884d063bb03f6d6864ea2d48344
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718898"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296068"
 ---
 # <a name="compareenum"></a>CompareEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает относительное положение двух записей, представленное закладок.
+Задает относительное положение двух записей, представленных в закладках.
 
 <br/>
 
@@ -37,29 +37,29 @@ ms.locfileid: "28718898"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adCompareEqual</strong></p></td>
-<td><p>1</p></td>
-<td><p>Указывает, что закладки равны.</p></td>
+<td><p><strong>Адкомпарикуал</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Указывает, что закладки совпадают.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adCompareGreaterThan</strong></p></td>
+<td><p><strong>Адкомпарегреатерсан</strong></p></td>
 <td><p>2</p></td>
-<td><p>Указывает, что первая закладка после секунды.</p></td>
+<td><p>Указывает, что первая закладка находится после секунды.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adCompareLessThan</strong></p></td>
-<td><p>0</p></td>
-<td><p>Указывает, что первая закладка перед второй.</p></td>
+<td><p><strong>Адкомпарелесссан</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Указывает, что первая закладка предшествует второй.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adCompareNotComparable</strong></p></td>
-<td><p>4</p></td>
-<td><p>Указывает, что нельзя сравнивать закладки.</p></td>
+<td><p><strong>Адкомпареноткомпарабле</strong></p></td>
+<td><p>SP4</p></td>
+<td><p>Указывает, что закладки невозможно сравнить.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adCompareNotEqual</strong></p></td>
-<td><p>3</p></td>
-<td><p>Указывает, что закладки не равно и не упорядоченные.</p></td>
+<td><p><strong>Адкомпаренотекуал</strong></p></td>
+<td><p>4</p></td>
+<td><p>Указывает, что закладки не равны и не упорядочены.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "28718898"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -80,19 +80,19 @@ ms.locfileid: "28718898"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Compare.EQUAL</p></td>
+<td><p>Адоенумс. Compare. EQUALs</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Compare.GREATERTHAN</p></td>
+<td><p>Адоенумс. Compare. GREATERTHAN</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Compare.LESSTHAN</p></td>
+<td><p>Адоенумс. Compare. ЛЕСССАН</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Compare.NOTCOMPARABLE</p></td>
+<td><p>Адоенумс. Compare. НОТКОМПАРАБЛЕ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Compare.NOTEQUAL</p></td>
+<td><p>Адоенумс. Compare. NOTEQUAL</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Члены баз данных (DAO)
+title: Элементы баз данных (DAO)
 TOCTitle: Databases Members
 ms:assetid: 26590849-6530-7e10-9a2c-1a9a5b2bfac6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191890(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1d334c42aa2ddb9658fc860dfcebbac2b0ae80ac
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716529"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294612"
 ---
-# <a name="databases-members-dao"></a>Члены баз данных (DAO)
+# <a name="databases-members-dao"></a>Элементы баз данных (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Коллекция баз данных содержит все открытые объекты базы данных открывается или созданы в рабочей области для объекта.
+Коллекция баз данных содержит все открытые объекты базы данных, открытые или созданные в объекте Workspace.
 
 ## <a name="methods"></a>Методы
 
@@ -37,7 +37,7 @@ ms.locfileid: "28716529"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="databases-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Не поддерживается для этого объекта.</p></td>
+<td><p>Не поддерживается для объекта.</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ ms.locfileid: "28716529"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="databases-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает число объектов в указанном семействе сайтов. Только для чтения.</p></td>
+<td><p>Возвращает число объектов в указанной коллекции. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

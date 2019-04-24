@@ -1,5 +1,5 @@
 ---
-title: EventStatusEnum (Справочник по для настольных баз данных Access)
+title: Евентстатусенум (Справочник по базам данных Access на компьютере)
 TOCTitle: EventStatusEnum
 ms:assetid: ae1711bc-2af5-04fd-7d8c-222d8afc9d3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249821(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 654d2a485c9273072d1daa61321e73418a15e969
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712584"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293275"
 ---
 # <a name="eventstatusenum"></a>EventStatusEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Указывает текущее состояние выполнения события.
 
@@ -37,29 +37,29 @@ ms.locfileid: "28712584"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adStatusCancel</strong></p></td>
+<td><p><strong>Адстатусканцел</strong></p></td>
+<td><p>SP4</p></td>
+<td><p>ЗаПрашивает отмену операции, которая привела к возникновению события.</p></td>
+</tr>
+<tr class="even">
+<td><p><strong>Адстатускантдени</strong></p></td>
 <td><p>4</p></td>
-<td><p>Отмена запросов на операцию, которая вызвала событие.</p></td>
-</tr>
-<tr class="even">
-<td><p><strong>adStatusCantDeny</strong></p></td>
-<td><p>3</p></td>
-<td><p>Указывает, что операция не могут запрашивать отмену ожидающие операции.</p></td>
+<td><p>Указывает, что операция не может запросить отмену ожидающей операции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adStatusErrorsOccurred</strong></p></td>
+<td><p><strong>Адстатусеррорсоккурред</strong></p></td>
 <td><p>2</p></td>
-<td><p>Указывает, что операция, которая вызвала событие сбой из-за ошибки или ошибки.</p></td>
+<td><p>Указывает, что операция, вызвавшая событие, не удалась из-за ошибки или ошибок.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adStatusOK</strong></p></td>
-<td><p>1</p></td>
-<td><p>Указывает, что операция, которая вызвала событие прошла успешно.</p></td>
+<td><p><strong>Адстатусок</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Указывает, что операция, вызвавшая событие, выполнена успешно.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adStatusUnwantedEvent</strong></p></td>
-<td><p>5</p></td>
-<td><p>До завершения выполнения метода события не позволяет последующие уведомления.</p></td>
+<td><p><strong>Адстатусунвантедевент</strong></p></td>
+<td><p>17:00</p></td>
+<td><p>Предотвращает последующие уведомления до завершения выполнения метода события.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "28712584"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -80,19 +80,19 @@ ms.locfileid: "28712584"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.EventStatus.CANCEL</p></td>
+<td><p>Адоенумс. Евентстатус. CANCEL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.EventStatus.CANTDENY</p></td>
+<td><p>Адоенумс. Евентстатус. КАНТДЕНИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.EventStatus.ERRORSOCCURRED</p></td>
+<td><p>Адоенумс. Евентстатус. ЕРРОРСОККУРРЕД</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.EventStatus.OK</p></td>
+<td><p>Адоенумс. Евентстатус. ОК</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.EventStatus.UNWANTEDEVENT</p></td>
+<td><p>Адоенумс. Евентстатус. УНВАНТЕДЕВЕНТ</p></td>
 </tr>
 </tbody>
 </table>

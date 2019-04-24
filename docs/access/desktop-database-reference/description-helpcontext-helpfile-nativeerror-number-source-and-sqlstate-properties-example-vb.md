@@ -1,5 +1,5 @@
 ---
-title: 'Пример: свойства Description, HelpContext, HelpFile (VB)'
+title: Пример свойств Description, HelpContext, HelpFile (VB)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VB)
 ms:assetid: 3c129aec-cd69-5822-4dad-ebef226538e1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249156(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 526a393cba640f55e0cab5424752c047c7286a2c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711716"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294003"
 ---
 # <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb"></a>Пример использования свойств Description, HelpContext, HelpFile, NativeError, Number, Source и SQLState (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере вызывает ошибку, его перехватывает и отображает [Описание](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [файл справки](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [номер](number-property-ado.md), [источника](source-property-ado-error.md)и свойства [SQLState](sqlstate-property-ado.md) итоговый [Ошибка](error-object-ado.md) объект.
+В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md)и [SQLSTATE](sqlstate-property-ado.md) полученной [ошибки](error-object-ado.md) . объектам.
 
 ```vb
     'BeginDescriptionVB

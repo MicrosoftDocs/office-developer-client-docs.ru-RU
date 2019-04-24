@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7e18bb9ecb65e2664b082d5305196386c536b716
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698024"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296110"
 ---
 # <a name="comment-macro-statement"></a>Оператор макроса Comment
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Оператор **комментария** можно использовать для предоставления пояснительных комментариев в макросе.
+Оператор **comment** можно использовать для предоставления пояснительных примечаний в макросе.
 
 ## <a name="remarks"></a>Замечания
 
-**Комментарий** может иметь длину до 1000 символов в длину. Тем не менее по умолчанию отображается только первая строка комментария.
+Длина **комментария** может доставлять до 1000 символов. Однако по умолчанию отображается только первая строка комментария.
 

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 17bb30a3af97c3ec83fd44c8a9e5d3c5dbf12d2a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700824"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295409"
 ---
 # <a name="create-method-example-vc"></a>Пример использования метода Create (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Следующий код демонстрирует создание новой базы данных Microsoft Jet с помощью метода [Create](create-method-adox.md) .
+В приведенном ниже коде показано, как создать новую базу данных Microsoft Jet с помощью метода [CREATE](create-method-adox.md) .
 
 ```cpp 
  

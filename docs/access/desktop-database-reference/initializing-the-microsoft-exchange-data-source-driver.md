@@ -12,99 +12,31 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: b3460786785ae7b21184b6d96384ecc59e89d287
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704170"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291409"
 ---
 # <a name="initializing-the-microsoft-exchange-data-source-driver"></a>Инициализация драйвера источника данных Microsoft Exchange
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-При установке драйвера источника данных Microsoft Exchange, программа установки записывает набор значений по умолчанию реестра Microsoft Windows в подразделы обработчики и ISAM Formats. Не изменяйте эти параметры напрямую; для добавления, удаления или изменения этих параметров с помощью программы установки для приложения. В следующих разделах инициализации и параметров ISAM Format драйвера источника данных Microsoft Exchange.
+При установке драйвера источника данных Microsoft Exchange программа установки записывает набор значений по умолчанию в реестр Microsoft Windows в подразделах Engines и ISAM formats. Эти параметры не следует изменять напрямую; Используйте программу установки приложения, чтобы добавлять, удалять или изменять эти параметры. В следующих разделах описываются параметры инициализации и ISAM Format для драйвера источника данных Microsoft Exchange.
 
 ## <a name="microsoft-exchange-data-source-initialization-settings"></a>Параметры инициализации источника данных Microsoft Exchange
 
-**Модуль подключения к Access\\обработчики\\Exchange** папка содержит параметры инициализации для драйвера Aceexch.dll, который используется для внешнего доступа к папкам Microsoft Outlook и Microsoft Exchange. Единственная запись в этой папке выглядит следующим образом:
+Папка **\\Exchange Engine Engines Engine\\** включает параметры инициализации для драйвера ацеексч. dll, используемого для внешнего доступа к папкам Microsoft Outlook и Microsoft Exchange. Единственной записью в этой папке является следующее:
 
 `win32=<path>\ACEEXCH.DLL`
 
-Ядро базы данных Microsoft Access использует этот параметр для указания расположения Aceexch.dll. Полный путь определяется во время установки. Тип Реестра значений —\_SZ.
+Этот параметр используется ядром СУБД Microsoft Access для указания расположения Ацеексч. dll. Полный путь определяется во время установки. Значения имеют тип REG\_СЗ.
 
-Результаты использования формата Outlook ISAM и использования формата ISAM клиента Exchange похожи. Единственное отличие заключается в том, что два разных клиента используют разные имена для одного столбца. Два формата ISAM были созданы, чтобы ядро базы данных Microsoft Access может вернуть имена столбцов в виде, который определит пользователь.
+Результаты использования формата ISAM Outlook и с использованием формата ISAM клиента Exchange похожи. Единственное отличие состоит в том, что два разных клиента используют разные имена для одних и тех же столбцов. Были созданы два формата ISAM, поэтому ядро СУБД Microsoft Access может возвращать имена столбцов в определенном стиле, который пользователь хочет.
 
-## <a name="microsoft-outlook-client-isam-formats"></a>Клиент Microsoft Outlook ISAM formats
+## <a name="microsoft-outlook-client-isam-formats"></a>ISAM formats клиента Microsoft Outlook
 
-**Модуль подключения к Access\\ISAM Formats\\Outlook 9.0** папка содержит следующие записи.
-
-<table>
-<colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Имя записи</p></th>
-<th><p>Тип</p></th>
-<th><p>Значение</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Модуль</p></td>
-<td><p>REG_SZ</p></td>
-<td><p>Exchange;</p></td>
-</tr>
-<tr class="even">
-<td><p>ImportFilter</p></td>
-<td><p>REG_SZ</p></td>
-<td><p>Outlook()</p></td>
-</tr>
-<tr class="odd">
-<td><p>CanLink</p></td>
-<td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
-</tr>
-<tr class="even">
-<td><p>OneTablePerFile</p></td>
-<td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
-</tr>
-<tr class="odd">
-<td><p>IsamType</p></td>
-<td><p>REG_DWORD</p></td>
-<td><p>3</p></td>
-</tr>
-<tr class="even">
-<td><p>IndexDialog</p></td>
-<td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
-</tr>
-<tr class="odd">
-<td><p>CreateDBOnExport</p></td>
-<td><p>REG_BINARY</p></td>
-<td><p>00</p></td>
-</tr>
-<tr class="even">
-<td><p>SupportsLongNames</p></td>
-<td><p>REG_BINARY</p></td>
-<td><p>01</p></td>
-</tr>
-</tbody>
-</table>
-
-
-
-> [!NOTE]
-> При изменении параметров реестра Windows, необходимо выйти из и перезапустить ядро базы данных для новых параметров вступили в силу.
-
-
-
-## <a name="microsoft-exchange-client-isam-formats"></a>Форматы ISAM клиента Microsoft Exchange
-
-**Модуль подключения к Access\\ISAM Formats\\Exchange 4.0** папка содержит следующие записи.
+**Подсистема\\подключения доступа ISAM\\formats Outlook 9,0** содержит следующие записи.
 
 <table>
 <colgroup>
@@ -121,42 +53,42 @@ ms.locfileid: "28704170"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Модуль</p></td>
+<td><p>Модул</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Exchange;</p></td>
+<td><p>Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>ImportFilter</p></td>
+<td><p>Импортфилтер</p></td>
 <td><p>REG_SZ</p></td>
-<td><p>Exchange()</p></td>
+<td><p>Outlook ()</p></td>
 </tr>
 <tr class="odd">
-<td><p>CanLink</p></td>
+<td><p>Канлинк</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>01</p></td>
 </tr>
 <tr class="even">
-<td><p>OneTablePerFile</p></td>
+<td><p>Онетаблеперфиле</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>00</p></td>
 </tr>
 <tr class="odd">
-<td><p>IsamType</p></td>
+<td><p>Исамтипе</p></td>
 <td><p>REG_DWORD</p></td>
-<td><p>3</p></td>
+<td><p>4</p></td>
 </tr>
 <tr class="even">
-<td><p>IndexDialog</p></td>
+<td><p>Индексдиалог</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>00</p></td>
 </tr>
 <tr class="odd">
-<td><p>CreateDBOnExport</p></td>
+<td><p>Креатедбонекспорт</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>00</p></td>
 </tr>
 <tr class="even">
-<td><p>SupportsLongNames</p></td>
+<td><p>Суппортслонгнамес</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>01</p></td>
 </tr>
@@ -166,13 +98,81 @@ ms.locfileid: "28704170"
 
 
 > [!NOTE]
-> При изменении параметров реестра Windows, необходимо выйти из и перезапустить ядро базы данных для новых параметров вступили в силу.
+> При изменении параметров реестра Windows необходимо выйти и перезапустить ядро СУБД, чтобы новые параметры вступили в силу.
 
 
 
-## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Настройка Schema.ini файла данных Outlook и Exchange
+## <a name="microsoft-exchange-client-isam-formats"></a>ISAM formats клиента Microsoft Exchange
 
-Файл Schema.ini используется Outlook и Exchange ISAM точно так же, как он используется в ISAM текста. Этот файл содержит особенности источника данных: формат данных и имена столбцов, которые должны быть доступны.
+**Модуль\\подключения к службе доступа ISAM\\formats Exchange 4,0** папка содержит следующие записи.
 
-Измените файл Schema.ini перед данных можно прочитать, импортируемые или экспортируемые для Outlook и Exchange необязательно. Многие из параметров в файле Schema.ini для Outlook и Exchange специфичны для внутренних тегов, которые требуется MAPI. Не следует пытаться изменить значения этих тегов.
+<table>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 33%" />
+<col style="width: 33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p>Имя записи</p></th>
+<th><p>Тип</p></th>
+<th><p>Значение</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p>Модул</p></td>
+<td><p>REG_SZ</p></td>
+<td><p>Exchange</p></td>
+</tr>
+<tr class="even">
+<td><p>Импортфилтер</p></td>
+<td><p>REG_SZ</p></td>
+<td><p>Exchange ()</p></td>
+</tr>
+<tr class="odd">
+<td><p>Канлинк</p></td>
+<td><p>REG_BINARY</p></td>
+<td><p>01</p></td>
+</tr>
+<tr class="even">
+<td><p>Онетаблеперфиле</p></td>
+<td><p>REG_BINARY</p></td>
+<td><p>00</p></td>
+</tr>
+<tr class="odd">
+<td><p>Исамтипе</p></td>
+<td><p>REG_DWORD</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="even">
+<td><p>Индексдиалог</p></td>
+<td><p>REG_BINARY</p></td>
+<td><p>00</p></td>
+</tr>
+<tr class="odd">
+<td><p>Креатедбонекспорт</p></td>
+<td><p>REG_BINARY</p></td>
+<td><p>00</p></td>
+</tr>
+<tr class="even">
+<td><p>Суппортслонгнамес</p></td>
+<td><p>REG_BINARY</p></td>
+<td><p>01</p></td>
+</tr>
+</tbody>
+</table>
+
+
+
+> [!NOTE]
+> При изменении параметров реестра Windows необходимо выйти и перезапустить ядро СУБД, чтобы новые параметры вступили в силу.
+
+
+
+## <a name="customizing-the-schemaini-file-for-outlook-and-exchange-data"></a>Настройка файла Schema. ini для данных Outlook и Exchange
+
+Файл Schema. ini используется в Outlook и Exchange ISAM точно так же, как и при использовании текста ISAM. Schema. ini содержит особенности источника данных: способ форматирования данных и имена столбцов, к которым нужно получить доступ.
+
+Нет необходимости изменять файл Schema. ini до того, как данные могут быть прочитаны, импортированы или экспортированы для Outlook и Exchange. Многие параметры в файле Schema. ini для Outlook и Exchange относятся к внутренним тегам, которые необходимы для MAPI. Не пытайтесь изменить значения этих тегов.
 

@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 23fdb0d9ba636ae58fa19b42d5a8a47cb01d4ab2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720732"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296901"
 ---
 # <a name="axis-object-ado-md"></a>Объект Axis (ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Представляет позиционные или оси фильтра набора ячеек, содержащий выбранные элементы из одного или нескольких измерений.
+Представляет положение или ось фильтра для набора ячеек, содержащего выбранные элементы одного или нескольких измерений.
 
 ## <a name="remarks"></a>Замечания
 
-Объект **оси** можно заключенный в коллекцию [осей](axes-collection-ado-md.md) или возвращается свойством [FilterAxis](filteraxis-property-ado-md.md) [ячеек](cellset-object-ado-md.md).
+Объект **Axis** может содержаться в коллекции [осей](axes-collection-ado-md.md) или возвращен свойством [FilterAxis](filteraxis-property-ado-md.md) набора [ячеек](cellset-object-ado-md.md).
 
-С помощью семейств сайтов и свойствам объекта **ось** сделайте следующее:
+С помощью коллекций и свойств объекта **Axis** можно выполнить следующие действия:
 
-- Определение **оси** с помощью свойства [Name](name-property-ado-md.md) .
+- Определите **ось** со свойством [Name](name-property-ado-md.md) .
 
-- Выполните итерацию по каждой позиции по **оси** с использованием [положения](positions-collection-ado-md.md) коллекции.
+- Выполните итерацию по каждой позиции вдоль **оси** с помощью коллекции [Positions](positions-collection-ado-md.md) .
 
-- Получите число измерений на **оси** со свойством [DimensionCount](dimensioncount-property-ado-md.md) .
+- Получите количество измерений на **оси** со свойством [DimensionCount](dimensioncount-property-ado-md.md) .
 
-- Получение атрибутов поставщика **ось** , коллекции стандартных ADO [Свойства](properties-collection-ado.md) .
+- Получите атрибуты **оси** , зависящие от поставщика, с помощью стандартной коллекции [свойств](properties-collection-ado.md) ADO.
 

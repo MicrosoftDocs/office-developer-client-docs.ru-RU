@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0ee7d2e68df90c8eee4227f949f93ea074b7df97
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713089"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296593"
 ---
 # <a name="catalog-object-ado-md"></a>Объект Catalog (ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Содержит многомерные сведения о схеме (то есть, кубов и базовым измерений, иерархии, уровни и элементы) определенного поставщика многомерных данных (MDP).
+Содержит сведения о многомерной схеме (то есть Кубы и базовые измерения, иерархии, уровни и элементы), характерные для поставщика многомерных данных (МДП).
 
 ## <a name="remarks"></a>Замечания
 
-Со свойствами объекта **каталога** и семейств сайтов выполните следующее:
+С помощью коллекций и свойств объекта **Catalog** можно выполнить следующие действия:
 
-- Откройте каталог путем установки свойства [ActiveConnection](activeconnection-property-ado-md.md) стандартный объект ADO- [подключение](connection-object-ado.md) или это допустимая строка подключения.
+- Откройте каталог, задав для свойства [ActiveConnection](activeconnection-property-ado-md.md) стандартный объект [подключения](connection-object-ado.md) ADO или допустимую строку подключения.
 
-- Определение **каталога** с помощью свойства [Name](name-property-ado-md.md) .
+- Определите **Каталог** со свойством [Name](name-property-ado-md.md) .
 
-- Выполните итерацию по кубов в каталог с помощью коллекции [CubeDefs](cubedefs-collection-ado-md.md) .
+- Выполните итерацию по кубам в каталоге, используя коллекцию [коллекция cubedefs](cubedefs-collection-ado-md.md) .
 

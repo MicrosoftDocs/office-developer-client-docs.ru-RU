@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 56de57f16ed487d78d96b389ca00e3f3e1014176
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721656"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296355"
 ---
 # <a name="clone-method-example-vb"></a>Пример использования метода Clone (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется метод [клонированной](clone-method-ado.md) для создания копии [набора записей](recordset-object-ado.md) и затем позволяет пользователя положение указателя записи каждой копии независимо друг от друга.
+В этом примере используется метод [clone](clone-method-ado.md) для создания копий объекта [Recordset](recordset-object-ado.md) , а затем пользователю разрешается располагать указатель записи каждой копии независимо друг от друга.
 
 ```vb 
  

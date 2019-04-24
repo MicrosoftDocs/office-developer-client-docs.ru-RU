@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2.LastModified (DAO)
+title: Свойство Recordset2. LastModified (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 1c13cb43-23b5-73b6-af00-a3676cc37cc7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845726(v=office.15)
@@ -8,32 +8,32 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c3d9337c36a2b126f4ce6d9a27ae6d26712a7b6a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309430"
 ---
-# <a name="recordset2lastmodified-property-dao"></a>Свойство Recordset2.LastModified (DAO)
+# <a name="recordset2lastmodified-property-dao"></a>Свойство Recordset2. LastModified (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает ookmark, указывающее наиболее недавно добавлены или изменены записи.
+Возвращает закладку, определяющую самую последнюю из добавленных или измененных записей.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Дата изменения
+*Expression* . Дата
 
-*выражение* Переменная, которая представляет собой объект- **Recordset2** .
+*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
 
 ## <a name="remarks"></a>Замечания
 
-Свойство **LastModified** перейти с самыми последними добавлены или обновленные записи. Используйте свойство **LastModified** с таблице - и добавляющий объекты **[набора записей](recordset-object-dao.md)** . Записи должны быть добавлены или изменены в объекте **набора записей** в порядке для свойства **LastModified** , которое должно иметь значение.
+Можно использовать свойство **LastModified** для перехода к последнему добавленной или обновленной записи. Используйте свойство **LastModified** с объектами **[Recordset](recordset-object-dao.md)** типа Table и динамического подмножества. Для свойства LastModified в самом объекте **Recordset** необходимо добавить или изменить запись, чтобы свойство **LastModified** было иметь значение.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется свойство **LastModified** для перемещения указатель текущей записи запись, которая была изменена и только что созданная запись.
+В этом примере используется свойство **LastModified**, чтобы переместить указатель текущей записи на измененную и заново созданную записи.
 
 ```vb
     Sub LastModifiedX() 
@@ -94,7 +94,7 @@ ms.locfileid: "28712864"
 
 <br/>
 
-В этом примере используется метод **AddNew** , чтобы создать новую запись с указанным именем. Функция AddName является обязательным для выполнения этой процедуры.
+В этом примере используется метод **AddNew**, чтобы создать запись с указанным именем. Функция AddName необходима для запуска этой процедуры.
 
 ```vb
     Sub AddNewX() 

@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 121e81734fc5ecc0a761dae53942f1cbed98df2a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294136"
 ---
 # <a name="definedsize-property-ado"></a>Свойство DefinedSize (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает объем данных объекта [поля](field-object-ado.md) .
+Указывает объем данных объекта [field](field-object-ado.md) .
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает значение типа **Long** , отражает определенный размер поля в байтах.
+Возвращает значение **типа Long** , которое соответствует заданному размеру поля в байтах.
 
 ## <a name="remarks"></a>Замечания
 
-Свойство **DefinedSize** используется для определения емкости данных объекта **поля** .
+Используйте свойство **DefinedSize** для определения емкости данных объекта **field** .
 
-Свойства **DefinedSize** и [ActualSize](actualsize-property-ado.md) не совпадают. Например рассмотрим объект **Field** с типом объявленные **adVarChar** и значение свойства **DefinedSize** 50, содержащий один символ. **ActualSize** свойство возвращает значение длины в байтах один символ.
+Свойства **DefinedSize** и [ActualSize](actualsize-property-ado.md) отличаются. Например, рассмотрим объект **field** с объявляемым типом **адварчар** и значением свойства **DefinedSize** , равным 50, с одним символом. Возвращаемое значение свойства **ActualSize** — это длина в байтах одного символа.
 

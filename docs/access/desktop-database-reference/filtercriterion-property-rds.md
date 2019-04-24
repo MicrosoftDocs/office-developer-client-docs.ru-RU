@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 65541e8f64c5a019679252246edbe8027130c4ed
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707950"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292428"
 ---
 # <a name="filtercriterion-property-rds"></a>Свойство FilterCriterion (RDS)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает оператор оценки, используемый в значение фильтра.
+Указывает оператор оценки для использования в значении фильтра.
 
 ## <a name="syntax"></a>Синтаксис
 
-*DataControl*. FilterCriterion = *строка*
+*Элемент управления*. FilterCriterion = *строка*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.|
-|*String* |**Строковое** значение, указывающее, оператор оценки [Значение_фильтра](filtervalue-property-rds.md) в записи. Может быть одним из следующих значений: \<, \<=, \>, \>=, =, или \< \>.|
+|*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
+|*String* |**Строковое** значение, задающее оператор оценки [FilterValue](filtervalue-property-rds.md) для записей. Может \<быть одним из следующих:, \<=, \>, \>=, = или. \< \>|
 
 ## <a name="remarks"></a>Замечания
 
-[SortColumn](sortcolumn-property-rds.md), [SortDirection](sortdirection-property-rds.md), [Значение_фильтра](filtervalue-property-rds.md), **FilterCriterion**и [FilterColumn](filtercolumn-property-rds.md) свойства предоставляют функциональные возможности сортировки и фильтрации на кэш со стороны клиента. Функциональные возможности сортировки упорядочивает записей по значениями, полученными из одного столбца. Функции фильтрации отображает подмножество записей на основании условия поиска, пока сохраняется полный [набор записей](recordset-object-ado.md) в кэше. Метод [Reset](reset-method-rds.md) будет выполнять критерии и замените текущего **набора записей** обновляемых **записей**.
+Свойства [sortColumn](sortcolumn-property-rds.md), [SortDirection](sortdirection-property-rds.md), [FilterValue](filtervalue-property-rds.md), **FilterCriterion**и [FilterColumn](filtercolumn-property-rds.md) предоставляют функции сортировки и фильтрации кэша на стороне клиента. Функция сортировки упорядочивает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе критериев поиска, в то время как в кэше сохраняется полный [набор записей](recordset-object-ado.md) . Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий **набор** записей на обновляемый. ****
 
-"\!=» Недопустимый оператор для **FilterCriterion**; Используйте "\<\>«.
+Недопустимый оператор "\!=" для **FilterCriterion**; Вместо этого используйте "\<\>".
 
-Если задать свойства фильтрации и сортировки, вызовите метод **Сброс** набор строк сначала фильтруется и затем сортировки. Для сортировки в порядке возрастания, пустые значения отображаются сверху; для Сортировка по убыванию значения null, в нижней (по возрастанию — это поведение по умолчанию).
+Если заданы свойства Filter и Sort и вызван метод **Reset** , сначала выполняется фильтрация набора строк, а затем он сортируется. Для сортировки по возрастанию значения NULL отображаются сверху; для сортировки по убыванию значения NULL находятся в нижней части (по возрастанию это поведение по умолчанию).
 

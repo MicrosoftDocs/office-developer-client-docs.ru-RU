@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 586dc434dfe2c3176232a98fe63005300ce13d55
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713767"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294073"
 ---
 # <a name="delete-method-example-vj"></a>Пример использования метода Delete (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере с помощью метода [Delete](delete-method-ado-recordset.md) для удаления определенной записи из [набора записей](recordset-object-ado.md).
+В этом примере используется метод [Delete](delete-method-ado-recordset.md) для удаления указанной записи из объекта [Recordset](recordset-object-ado.md).
 
 ```java 
  

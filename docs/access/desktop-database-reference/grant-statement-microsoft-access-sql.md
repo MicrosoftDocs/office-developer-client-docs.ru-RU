@@ -1,5 +1,5 @@
 ---
-title: Инструкция GRANT (Microsoft Access SQL)
+title: Оператор GRANT (Microsoft Access SQL)
 TOCTitle: GRANT statement (Microsoft Access SQL)
 ms:assetid: 50ae97ae-d5be-57e5-d9da-f3fc42f01d83
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193820(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 4357099f8bcb9b2308b5cda3543949765b8c3420
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716399"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292134"
 ---
-# <a name="grant-statement-microsoft-access-sql"></a>Инструкция GRANT (Microsoft Access SQL)
+# <a name="grant-statement-microsoft-access-sql"></a>Оператор GRANT (Microsoft Access SQL)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Предоставление определенных привилегий существующему пользователю или группе.
+Предоставляет определенные привилегии существующему пользователю или группе.
 
 ## <a name="syntax"></a>Синтаксис
 
-Предоставление {*принципу предоставления минимальных прав*\[, *принципу предоставления минимальных прав*,... \]} Д {таблицы в *таблице* | Объект *object*|
+Grant {*привилегия*\[, *привилегия*,... \]} В *таблице* {Table | *Объект* Object|
 
-КОНТЕЙНЕР *container* } Кому {*имя_обладателя_прав*\[, *имя_обладателя_прав*,... \]}
+*Container Container* } to {*аусоризатионнаме*\[, *аусоризатионнаме*,... \]}
 
-Инструкция GRANT состоит из следующих частей:
+Оператор GRANT состоит из следующих частей:
 
 <table>
 <colgroup>
@@ -45,8 +45,8 @@ ms.locfileid: "28716399"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>принципу предоставления минимальных прав</em></p></td>
-<td><p>Принципу предоставления минимальных прав или предоставляемые привилегии. Привилегии задаются с помощью следующих ключевых слов: выбор, DELETE, INSERT, UPDATE, размещения сообщений, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, создать, SELECTSCHEMA, СХЕМЫ и UPDATEOWNER.</p></td>
+<td><p><em>правах</em></p></td>
+<td><p>Привилегия или привилегии, которые необходимо получить. Разрешения указываются с помощью следующих ключевых слов: SELECT, DELETE, INSERT, UPDATE, DROP, СЕЛЕКТСЕКУРИТИ, УПДАТЕСЕКУРИТИ, DBPASSWORD, УПДАТЕИДЕНТИТИ, CREATE, СЕЛЕКТСЧЕМА, SCHEMA и УПДАТЕОВНЕР.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>TableName</em></p></td>
@@ -54,14 +54,14 @@ ms.locfileid: "28716399"
 </tr>
 <tr class="odd">
 <td><p><em>object</em></p></td>
-<td><p>Это могут использовать любой объект не таблицы. Сохраненные запрос (представления или процедуры) — один пример.</p></td>
+<td><p>Это может охватывать любой объект, не являющийся таблицей. Сохраненным запросом (представление или процедура) является один из примеров.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>контейнер</em></p></td>
-<td><p>Имя допустимого хранилища.</p></td>
+<td><p><em>Container</em></p></td>
+<td><p>Имя допустимого контейнера.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>имя_обладателя_прав</em></p></td>
+<td><p><em>аусоризатионнаме</em></p></td>
 <td><p>Имя пользователя или группы.</p></td>
 </tr>
 </tbody>

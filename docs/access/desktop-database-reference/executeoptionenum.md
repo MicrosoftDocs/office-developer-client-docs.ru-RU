@@ -1,5 +1,5 @@
 ---
-title: ExecuteOptionEnum (Справочник по для настольных баз данных Access)
+title: Ексекутеоптионенум (Справочник по базам данных Access на компьютере)
 TOCTitle: ExecuteOptionEnum
 ms:assetid: bd6d44a3-e471-7aa0-3e65-6775334de2ff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249915(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: febeb3b52eb579647c995b01d6723a5c1f1b0c1f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718310"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293247"
 ---
 # <a name="executeoptionenum"></a>ExecuteOptionEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, как поставщик должен выполнить команду.
+Указывает, как поставщик должен выполнять команду.
 
 <br/>
 
@@ -37,40 +37,40 @@ ms.locfileid: "28718310"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adAsyncExecute</strong></p></td>
+<td><p><strong>Адасинцексекуте</strong></p></td>
 <td><p>0x10</p></td>
-<td><p>Указывает, что будет выполняться асинхронно. Это значение не может быть вместе с значение <a href="commandtypeenum.md">CommandTypeEnum</a> <strong>adCmdTableDirect</strong>.</p></td>
+<td><p>Указывает, что команда должна выполняться асинхронно. Это значение не может сочетаться со <a href="commandtypeenum.md"></a> значением коммандтипинум <strong>адкмдтабледирект</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adAsyncFetch</strong></p></td>
+<td><p><strong>Адасинкфетч</strong></p></td>
 <td><p>0x20</p></td>
-<td><p>Указывает, что оставшиеся строки после начального количества, указанных в свойстве <a href="cachesize-property-ado.md">CacheSize</a> должны быть получены асинхронно.</p></td>
+<td><p>Указывает, что оставшиеся строки после начального количества, указанного в свойстве <a href="cachesize-property-ado.md">CacheSize</a> , должны быть получены асинхронно.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adAsyncFetchNonBlocking</strong></p></td>
+<td><p><strong>Адасинкфетчнонблоккинг</strong></p></td>
 <td><p>0x40</p></td>
-<td><p>Указывает, что основной поток не блокируется при получении. Если не был получен запрашиваемый строку, текущей строки автоматически перемещается в конец файла.</p><p>При открытии <a href="recordset-object-ado.md">набора записей</a> из <a href="stream-object-ado.md">потока</a> , содержащий постоянно сохраненных <strong>записей</strong> <strong>adAsyncFetchNonBlocking</strong> не будет иметь эффекта. Операция будет синхронная и блокировки. <strong>adAsynchFetchNonBlocking</strong> не оказывает влияния при использовании параметра <a href="commandtypeenum.md">adCmdTableDirect</a> для открытия <strong>набора записей</strong>.</p></td>
+<td><p>Указывает, что главный поток никогда не блокируется при извлечении. Если запрашиваемая строка не была получена, текущая строка автоматически перемещается в конец файла.</p><p>Если вы откроете <a href="recordset-object-ado.md">набор записей</a> из <a href="stream-object-ado.md">потока</a> , содержащего сохраняемый <strong>набор записей</strong>, <strong>адасинкфетчнонблоккинг</strong> не будет оказывать никакого результата; операция будет синхронной и блокирующей. <strong>адасинчфетчнонблоккинг</strong> не оказывает никакого действия, если для открытия объекта <strong>Recordset</strong>используется параметр <a href="commandtypeenum.md">адкмдтабледирект</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adExecuteNoRecords</strong></p></td>
+<td><p><strong>Адексекутенорекордс</strong></p></td>
 <td><p>0x80</p></td>
-<td><p>Указывает, что текст команды команду или хранимую процедуру, которая не возвращает строки (например, команды, только вставляет данные). Если извлекаются все строки, они удалены и не возвращается. <strong>adExecuteNoRecords</strong> можно только передаваться как необязательный параметр <strong>команда</strong> или метод <strong>Execute</strong> <strong>подключения</strong> .</p></td>
+<td><p>Указывает, что текст команды — это команда или хранимая процедура, не возвращающая строки (например, команда, которая вставляет только данные). Если извлекаются какие бы то ни было строки, они отбрасываются и не возвращаются. <strong>адексекутенорекордс</strong> можно передать только как необязательный параметр для метода <strong></strong> или метода <strong>подключения</strong> <strong>EXECUTE</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adExecuteStream</strong></p></td>
+<td><p><strong>Адексекутестреам</strong></p></td>
 <td><p>0x400</p></td>
-<td><p>Указывает, что результаты выполнения команды должны возвращаться в виде потока. <strong>adExecuteStream</strong> могут передаваться только как необязательный параметр для метода <strong>Execute</strong> <strong>команды</strong> .</p></td>
+<td><p>Указывает, что результаты выполнения команды должны возвращаться в виде потока. <strong>адексекутестреам</strong> можно передавать в качестве необязательного параметра методу <strong></strong> <strong>EXECUTE</strong> Command.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adExecuteRecord</strong></p></td>
+<td><p><strong>Адексекутерекорд</strong></p></td>
 <td><p><br />
 </p></td>
-<td><p>Указывает, что <strong>CommandText</strong> команду или хранимую процедуру, возвращающую одной строки, которые должны быть возвращены как объект <strong>записи</strong> .</p></td>
+<td><p>Указывает, что <strong>CommandText</strong> — это команда или хранимая процедура, возвращающая одну строку, которая должна возвращаться как объект <strong>Record</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adOptionUnspecified</strong></p></td>
+<td><p><strong>АдоптионунспеЦифиед</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Указывает, что команда не определено.</p></td>
+<td><p>Указывает, что команда не задана.</p></td>
 </tr>
 </tbody>
 </table>
@@ -78,7 +78,7 @@ ms.locfileid: "28718310"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -91,19 +91,19 @@ ms.locfileid: "28718310"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ExecuteOption.ASYNCEXECUTE</p></td>
+<td><p>Адоенумс. Ексекутеоптион. АСИНЦЕКСЕКУТЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ExecuteOption.ASYNCFETCH</p></td>
+<td><p>Адоенумс. Ексекутеоптион. АСИНКФЕТЧ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ExecuteOption.ASYNCFETCHNONBLOCKING</p></td>
+<td><p>Адоенумс. Ексекутеоптион. АСИНКФЕТЧНОНБЛОККИНГ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ExecuteOption.NORECORDS</p></td>
+<td><p>Адоенумс. Ексекутеоптион. unRECORDs</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ExecuteOption.UNSPECIFIED</p></td>
+<td><p>Адоенумс. Ексекутеоптион. unspecifieded</p></td>
 </tr>
 </tbody>
 </table>

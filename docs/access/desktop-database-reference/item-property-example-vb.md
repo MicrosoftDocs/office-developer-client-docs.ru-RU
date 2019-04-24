@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: df39d66db67652c840980aa01e15cd39a437bc48
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714502"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290917"
 ---
 # <a name="item-property-example-vb"></a>Пример использования свойства Item (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к элементам коллекции. В примере открывается в таблице ***авторов*** базы данных ***Pubs*** с параметрами команды.
+В этом примере показано, как свойство [Item](item-property-ado.md) получает доступ к членам коллекции. В этом примере открывается ****** таблица Authors базы данных ***pubs*** с параметризованной командой.
 
-Параметр в команды в базе данных осуществляется из коллекции [параметров](parameters-collection-ado.md) объекта [команды](command-object-ado.md) индекс и название. Поля возвращаемых [записей](recordset-object-ado.md) затем обращением из коллекции [полей](fields-collection-ado.md) этого объекта индекс и название.
+Доступ к параметру в команде, выданной для базы данных, осуществляется из коллекции [параметров](parameters-collection-ado.md) объекта [Command](command-object-ado.md) по индексу и имени. Затем к полям возвращаемого [набора записей](recordset-object-ado.md) обращаются из коллекции [полей](fields-collection-ado.md) объекта по индексу и имени.
 
 ```vb 
  

@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0d3f86136d8dd376b444083430557729c11ec473
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309143"
 ---
 # <a name="relatedcolumn-property-adox"></a>Свойство RelatedColumn (ADOX)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает имя соответствующего столбца в связанной таблице (только для ключевых столбцов).
+Указывает имя связанного столбца в связанной таблице (только ключевые столбцы).
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает и возвращает значение типа **String** , — это имя соответствующего столбца в связанной таблице.
+Задает и возвращает **строковое** значение, которое представляет собой имя связанного столбца в связанной таблице.
 
 ## <a name="remarks"></a>Замечания
 
-Значение по умолчанию — пустая строка (»»).
+Значение по умолчанию — пустая строка ("").
 
-Это свойство доступно только для чтения для объектов [столбца](column-object-adox.md) уже добавляется в конец коллекции.
+Это свойство доступно только для чтения для объектов [Column](column-object-adox.md) , уже добавленных в коллекцию.
 

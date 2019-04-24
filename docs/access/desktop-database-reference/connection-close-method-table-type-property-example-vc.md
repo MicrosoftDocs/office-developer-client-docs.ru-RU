@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b8e817557c882a28365677a8f5e5ae7f677f4fc6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720914"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295956"
 ---
 # <a name="connection-close-method-table-type-property-example-vc"></a>Метод Close подключения, пример свойства Type таблицы (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** «закрыть» каталог. Связанные коллекции будет пустым. Любые объекты, которые были созданы на основе схемы объектам в каталоге будут изолированы. Любые свойства на те объекты, которые были кэшированы по-прежнему доступны, но при чтении свойства, которые требуют вызова к поставщику завершится с ошибкой.
+Если задать для свойства [ActiveConnection](activeconnection-property-adox.md) значение **Nothing** , каталог будет закрыт. СоПоставленные коллекции будут пустыми. Все объекты, созданные из объектов схемы в каталоге, будут потеряны. Все свойства для этих объектов, которые были кэшированы, будут доступны, но попытка чтения свойств, требующих вызова поставщика, завершится с ошибками.
 
 ```cpp 
  

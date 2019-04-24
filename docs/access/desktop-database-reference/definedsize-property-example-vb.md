@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 527f680ca43bf1735e273b23545514f084a69a0a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699837"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294122"
 ---
 # <a name="definedsize-property-example-vb"></a>Пример использования свойства DefinedSize (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется свойство [DefinedSize](definedsize-property-adox.md) [столбца](column-object-adox.md). Код будет переопределения размера столбце FirstName таблице **Employees** базы данных *Northwind* . Затем отображается на изменение значений [полей](field-object-ado.md) [набора записей](recordset-object-ado.md) , основанного на таблице **Employees** . Обратите внимание на то, что по умолчанию для поля FirstName становится дополняются пробелами после переопределить свойство **DefinedSize** .
+В этом примере показано свойство [DefinedSize](definedsize-property-adox.md) [столбца](column-object-adox.md). Код переопределит размер столбца "FirstName" таблицы Employees базы данных **** *Northwind* . Затем отображается изменение значений [поля](field-object-ado.md) FirstName объекта [Recordset](recordset-object-ado.md) на основе таблицы Employees ( **сотрудники** ). Обратите внимание, что по умолчанию поле FirstName заполняется пробелами после переопределения свойства **DefinedSize** .
 
 ```vb 
  

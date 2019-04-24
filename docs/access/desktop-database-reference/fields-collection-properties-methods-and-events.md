@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1a3a9fdbadd365334a38dc831d86d4072dbc1938
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703988"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292554"
 ---
 # <a name="fields-collection-properties-methods-and-events"></a>Свойства, методы и события коллекции Fields
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="properties"></a>Свойства
 
@@ -27,7 +27,7 @@ ms.locfileid: "28703988"
 
 - [Метод Append](append-method-ado.md)
 - [Метод CancelUpdate](cancelupdate-method-ado.md)
-- [Удаление метода (коллекции полей ADO)](delete-method-ado-fields-collection.md)
+- [Метод Delete (коллекция Fields в ADO)](delete-method-ado-fields-collection.md)
 - [Метод Refresh](refresh-method-ado.md)
 - [Метод Resync](resync-method-ado.md)
 - [Метод Update](update-method-ado.md)

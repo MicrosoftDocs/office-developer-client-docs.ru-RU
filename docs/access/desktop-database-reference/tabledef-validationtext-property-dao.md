@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef.ValidationText (DAO)
+title: Свойство TableDef. ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 9f38616a-41ee-cbd1-9e29-da436b258e08
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198366(v=office.15)
@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f2c45aa1bd6f470b342ffec51f2affd39c7cb552
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710484"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314247"
 ---
-# <a name="tabledefvalidationtext-property-dao"></a>Свойство TableDef.ValidationText (DAO)
+# <a name="tabledefvalidationtext-property-dao"></a>Свойство TableDef. ValidationText (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, указывающее, текст сообщения, приложение, если значение **поля** объекта не удовлетворяют правило проверки, указанного идентификатором **условие на значение** свойства поля (только для рабочих областей Microsoft Access) . Для чтения и записи, **String**.
+Задает или возвращает значение, определяющее текст сообщения, которое отображает ваше приложение, если значение объекта **Field** не удовлетворяют правилу проверки, задаваемому настройкой параметра **ValidationRule** (только для рабочих областей Microsoft Access). Для чтения и записи, **String**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Сообщение об ошибке
+*Expression* . ValidationText
 
-*выражение* Переменная, которая представляет собой объект- **TableDef** .
+*выражение*: переменная, представляющая объект **TableDef**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Для объекта **[TableDef](tabledef-object-dao.md)** значение этого свойства доступно только для чтения для связанной таблицы, а также чтения и записи для базовой таблицы.
+Для объекта **[tabledef](tabledef-object-dao.md)** это свойство доступно только для чтения для связанной таблицы, а для базовой таблицы — для чтения и записи.
 

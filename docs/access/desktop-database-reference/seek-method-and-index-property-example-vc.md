@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5a9498a24b858de013aa717e9ce54963a81ab137
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726458"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308745"
 ---
 # <a name="seek-method-and-index-property-example-vc"></a>Пример использования метода Seek и свойства Index (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется метод [Seek](seek-method-ado.md) и свойства [Index](index-property-ado.md) объекта [набора записей](recordset-object-ado.md) в сочетании с заданным ***Идентификатор сотрудника***, найдите имя сотрудника в таблице ***Employees*** базы данных Nwind.mdb.
+В этом примере используется метод [Seek](seek-method-ado.md) объекта [Recordset](recordset-object-ado.md) и свойство [index](index-property-ado.md) в сочетании с заданным ***идентификатором сотрудника***, чтобы найти имя сотрудника в таблице ***Employees*** базы данных нвинд. mdb.
 
 ```cpp 
  
@@ -243,7 +243,7 @@ void PrintComError(_com_error &e)
 // EndSeekCpp 
 ```
 
-**SeekX.h**
+**Сиккс. h**
 
 ```cpp 
  

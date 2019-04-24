@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 302c3fcfe5e42018e5d2eb5509f32de77e900c57
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296180"
 ---
 # <a name="command-and-commandtext-properties-example-vc"></a>Пример использования свойств Command и CommandText (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Следующий код демонстрирует использование свойства [команда](command-property-adox.md) обновление текста процедуры.
+В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) для обновления текста процедуры.
 
 ```cpp 
  

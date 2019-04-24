@@ -8,21 +8,21 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3a9af5d09a7a7a7a7ec97d757d502efbf2402900
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715636"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295151"
 ---
 # <a name="customization-file-logs-section"></a>Раздел Logs в файле настройки
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В разделе **Журналы** содержит записи файла журнала, который определяет имя файла, ошибки во время операции **DataFactory**.
+Раздел **logs** содержит запись файла журнала, в которой задается имя файла, записывающего ошибки во время выполнения операции. ****
 
 ## <a name="syntax"></a>Синтаксис
 
-Запись файла журнала имеет форму:
+Запись файла журнала имеет следующий вид:
 
 `err=FileName`
 
@@ -41,16 +41,16 @@ ms.locfileid: "28715636"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Ошибка</strong></p></td>
-<td><p>Строковый литерал, которое указывает, это — это записи файла журнала.</p></td>
+<td><p><strong>err</strong></p></td>
+<td><p>Строка литерала, указывающая на запись в файле журнала.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>FileName</em></p></td>
-<td><p>Полный путь и имя файла. Имя файла типичные — <strong>c:\msdfmap.log</strong>.</p></td>
+<td><p>Полный путь и имя файла. Обычное имя файла — <strong>к:\мсдфмап.лог</strong>.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Файл журнала будет содержать имя пользователя, HRESULT, Дата и время каждой ошибки.
+Файл журнала будет содержать имя пользователя, HRESULT, дату и время каждой ошибки.
 

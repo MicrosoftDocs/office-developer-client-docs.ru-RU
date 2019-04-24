@@ -8,38 +8,38 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 92983163a909e72c3da142ebcf63b7e0723e96af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726248"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308269"
 ---
 # <a name="writetext-method-ado"></a>Метод WriteText (ADO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Записывает строку, указанный текст в объект [потока](stream-object-ado.md) .
+ЗаПисывает указанную текстовую строку в объект [Stream](stream-object-ado.md) .
 
 ## <a name="syntax"></a>Синтаксис
 
-*Поток*. WriteText*данных*, *Параметры*
+*Stream*. *Данные*WriteText, *Options*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Данные* |**Строковое** значение, содержащее текст в символов для записи.|
-|*Варианты* |Необязательно. [StreamWriteEnum](streamwriteenum.md) значение, указывающее, является ли знака разделителя строки должны быть записаны в конце указанной строки.|
+|*Data* |**Строковое** значение, содержащее текст символов для записи.|
+|*Options* |Необязательный атрибут. Значение [стреамвритинум](streamwriteenum.md) , которое указывает, должен ли символ разделителя строк записываться в конце указанной строки.|
 
 ## <a name="remarks"></a>Замечания
 
-Объект **потока** без промежуточных пробелов и знаков между каждую строку, записывается заданных строк.
+Указанные строки записываются в объект **Stream** без лишних пробелов или знаков между строками.
 
-Символ, следующий записываемые данные имеет значение текущей [позиции](position-property-ado.md) . Метод **WriteText** не усекать остальную часть данных в поток. Если вы хотите усекать эти символы, вызовите [SetEOS](seteos-method-ado.md).
+Для текущей [позиции](position-property-ado.md) задается символ, следующий за записанными данными. Метод **WriteText** не усекает остальные данные в потоке. Если вы хотите усечь эти символы, вызовите [SetEOS](seteos-method-ado.md).
 
-Если записать за текущую позицию [EOS](eos-property-ado.md) будет увеличить [размер](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) **потока** , содержит новые символы и **EOS** будут перемещаться до нового получения последнего байта в **поток**.
+Если вы пишете за пределами текущей позиции [](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) [EOS](eos-property-ado.md) , размер **потока** увеличится до того, как будут содержаться новые символы, и **EOS** перейдет к новому последнему байту в **потоке**.
 
 > [!NOTE]
-> Метод **WriteText** используется с потоками текст ([Тип](type-property-ado-stream.md) — **adTypeText**). Для двоичного файла потоков (**Тип** — **adTypeBinary**), используйте [запись](write-method-ado.md).
+> Метод **WriteText** используется с текстовыми потоками ([Type](type-property-ado-stream.md) — **адтипетекст**). Для двоичных потоков (**Type** — **Адтипебинари**) используйте [Write](write-method-ado.md).
 
 

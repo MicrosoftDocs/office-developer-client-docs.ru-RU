@@ -1,5 +1,5 @@
 ---
-title: Рабочие области члены (DAO)
+title: Участники рабочих областей (DAO)
 TOCTitle: Workspaces Members
 ms:assetid: 5eaf6de5-44dc-5566-a98f-db54aecf15cb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194667(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6be2aba5ab072e40193aff11ab6be54ba6c94f34
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698437"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302606"
 ---
-# <a name="workspaces-members-dao"></a>Рабочие области члены (DAO)
+# <a name="workspaces-members-dao"></a>Участники рабочих областей (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Рабочие области для семейства содержит все активные, Показать объекты рабочей области для объекта DBEngine. (Скрытые рабочей области объекты не добавляется в конец коллекции и ссылается переменная, к которому они назначены.)
+Коллекция Workspace содержит все активные, нескрытые объекты рабочей области объекта DBEngine. (Скрытые объекты рабочей области не добавляются в коллекцию и ссылаются на переменную, которой они назначены.)
 
 ## <a name="methods"></a>Методы
 
@@ -36,16 +36,16 @@ ms.locfileid: "28698437"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspaces-append-method-dao.md">Добавление</a></strong></p></td>
-<td><p>Добавление новой <strong>рабочей области для</strong> семейства сайтов <strong>рабочих областей</strong> .</p></td>
+<td><p><strong><a href="workspaces-append-method-dao.md">Error</a></strong></p></td>
+<td><p>Добавляет новую <strong>рабочую область</strong> в коллекцию <strong>workspaces</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspaces-delete-method-dao.md">Удаление</a></strong></p></td>
-<td><p>Удаляет указанную форму <strong>рабочей области для</strong> семейства сайтов <strong>рабочих областей</strong> .</p></td>
+<td><p><strong><a href="workspaces-delete-method-dao.md">Delete</a></strong></p></td>
+<td><p>Удаляет указанную <strong>рабочую область</strong> в <strong></strong> коллекции workspaces.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspaces-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Не поддерживается для этого объекта.</p></td>
+<td><p>Не поддерживается для объекта.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "28698437"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="workspaces-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает число объектов в указанном семействе сайтов. Только для чтения.</p></td>
+<td><p>Возвращает число объектов в указанной коллекции. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

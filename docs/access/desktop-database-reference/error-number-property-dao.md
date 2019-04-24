@@ -1,5 +1,5 @@
 ---
-title: Свойство Error.Number (DAO)
+title: Свойство Error. Number (DAO)
 TOCTitle: Number Property
 ms:assetid: 2fb94dca-f990-04f8-bbd2-9919d28de75a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192259(v=office.15)
@@ -12,33 +12,33 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 257c403951eff5bbb2f37de8b38a1c63a3445285
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699858"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293499"
 ---
-# <a name="errornumber-property-dao"></a>Свойство Error.Number (DAO)
+# <a name="errornumber-property-dao"></a>Свойство Error. Number (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
  
 
-Возвращает значение, указывающее ошибку.
+Возвращает числовое значение, определяющее ошибку.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Номер
+*Expression* . Значение
 
-*выражение* Переменная, которая содержит объект **Error** .
+*Expression (выражение* ) Переменная, представляющая объект **Error** .
 
 ## <a name="remarks"></a>Замечания
 
-Используйте свойство **номер** для определения возникшей ошибки. Значение свойства соответствует выполнилось уникальный номер, который соответствует ошибки.
+Используйте свойство **Number** для определения возникшей ошибки. Значение свойства соответствует уникальному номеру ловушки, соответствующему условию ошибки.
 
 ## <a name="example"></a>Пример
 
-В этом примере принудительно ошибку, его перехватывает и отображает свойства **Description**, **номер**, **источник**, **HelpContext**и **HelpFile** итоговый объект **Error** .
+В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства **Description**, **Number**, **Source**, **HelpContext**и **HelpFile** полученного объекта **Error** .
 
 ```vb 
 Sub DescriptionX() 

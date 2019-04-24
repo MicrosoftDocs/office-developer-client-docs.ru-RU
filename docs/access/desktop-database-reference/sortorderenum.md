@@ -1,5 +1,5 @@
 ---
-title: SortOrderEnum (Справочник по для настольных баз данных Access)
+title: Сортордеренум (Справочник по базам данных Access на компьютере)
 TOCTitle: SortOrderEnum
 ms:assetid: 65a1f984-3ce4-f434-8c20-33162517ecba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249393(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3c953e1f6cd6f0a508260e838295f25aa1996844
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718086"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306463"
 ---
 # <a name="sortorderenum"></a>SortOrderEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Определяет последовательность сортировки для индексированного столбца.
+Задает последовательность сортировки для индексированного столбца.
 
 <br/>
 
@@ -37,14 +37,14 @@ ms.locfileid: "28718086"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adSortAscending</strong></p></td>
-<td><p>1</p></td>
-<td><p>Значение, используемое по умолчанию. По возрастанию последовательности сортировки столбца.</p></td>
+<td><p><strong>Адсортасцендинг</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Значение, используемое по умолчанию. Последовательность сортировки для столбца — по возрастанию.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adSortDescending</strong></p></td>
+<td><p><strong>Адсортдесцендинг</strong></p></td>
 <td><p>2</p></td>
-<td><p>Последовательности сортировки столбца — по убыванию.</p></td>
+<td><p>Последовательность сортировки для столбца — по убыванию.</p></td>
 </tr>
 </tbody>
 </table>

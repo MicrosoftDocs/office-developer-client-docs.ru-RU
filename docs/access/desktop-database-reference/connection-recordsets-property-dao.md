@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection.Recordsets (DAO)
+title: Свойство Connection. Recordsets (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: 3f8c8932-d404-ef54-a869-f77dc1325794
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192854(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 8bec9bb377b85977fee92f9b101149db012cef51
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295809"
 ---
-# <a name="connectionrecordsets-property-dao"></a>Свойство Connection.Recordsets (DAO)
+# <a name="connectionrecordsets-property-dao"></a>Свойство Connection. Recordsets (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **наборов записей** , который содержит все открытые наборы записей в для указанного подключения. Только для чтения.
+Возвращает коллекцию **Recordset** , содержащую все открытые наборы записей в поле для указанного подключения. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Наборы записей
+*Expression* . Recordsets
 
-*выражение* Переменная, которая содержит объект **подключения** .
+*Expression (выражение* ) Переменная, представляющая объект **Connection** .
 

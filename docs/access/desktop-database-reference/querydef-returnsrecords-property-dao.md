@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef.ReturnsRecords (DAO)
+title: Свойство QueryDef. ReturnsRecords (DAO)
 TOCTitle: ReturnsRecords Property
 ms:assetid: 3d1e538b-4d60-588f-4a20-89f1e2b434e6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192701(v=office.15)
@@ -12,34 +12,34 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 7d2202aa506750cd0a0d2a84eea5c507c3bb1147
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704940"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303341"
 ---
-# <a name="querydefreturnsrecords-property-dao"></a>Свойство QueryDef.ReturnsRecords (DAO)
+# <a name="querydefreturnsrecords-property-dao"></a>Свойство QueryDef. ReturnsRecords (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, указывающее, возвращает ли запрос к серверу к внешней базе данных записей (только для рабочих областей Microsoft Access).
+Задает или возвращает значение, указывающее, возвращает ли запрос к серверу SQL Server только записи (только для рабочих областей Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . ReturnsRecords
+*Expression* . Записей
 
-*выражение* Переменная, которая представляет собой объект- **QueryDef** .
+*выражение*: переменная, представляющая объект **QueryDef**.
 
 ## <a name="remarks"></a>Замечания
 
-Не все запросы к серверу SQL к внешним базам данных возвращает записи. Например инструкция SQL UPDATE обновляет записи без возвращения записей, пока инструкции SQL SELECT возврата записей. Если запрос возвращает записей, присвойте свойству **ReturnsRecords** значение **True**; Если запрос не возвращает записей, присвойте свойству **ReturnsRecords** значение **False**.
+Не все запросы к серверу SQL возвращаются к внешним базам данных и возвращают записи. Например, инструкция SQL UPDATE обновляет записи, не возвращая записи, а инструкция SQL SELECT возвращает записи. Если запрос возвращает записи, задайте для свойства **ReturnsRecords** значение **true**; Если запрос не возвращает записи, задайте для свойства **ReturnsRecords** значение **false**.
 
 > [!NOTE]
-> Необходимо установить свойство **[подключение](querydef-connect-property-dao.md)** , прежде чем задать свойство **ReturnsRecords** .
+> Перед заданием свойства **ReturnsRecords** необходимо задать свойство **[Connect](querydef-connect-property-dao.md)** .
 
 ## <a name="example"></a>Пример
 
-В этом примере используется **подключение** и **ReturnsRecords** свойств, выберите верхний пять книги заголовков из базы данных Microsoft SQL Server, используя суммы продаж с начала года. В случае точное совпадение в суммы продаж в примере увеличивается размер списка отображения результатов запроса и печатает сообщение о том, почему это произошло.
+В этом примере используются свойства **Connect** и **ReturnsRecords** для выбора пяти основных названий книг из базы данных Microsoft SQL Server на основе сумм продаж с начала года. В случае точного совпадения в суммах продаж в примере увеличивается размер списка, в котором отображаются результаты запроса, и выводится сообщение с объяснением причины возникновения.
 
 ```vb 
 Sub ClientServerX1() 
@@ -105,7 +105,7 @@ Sub ClientServerX1()
 
 <br/>
 
-В этом примере используется свойство **ReturnsRecords** и пользовательское свойство **LogMessages** для создания запроса к серверу, который будет возвращать данные и все сообщения, создаваемые с удаленного сервера.
+В этом примере используется свойство **ReturnsRecords** и свойство Custom **логмессажес** для создания запроса к серверу, который будет возвращать данные и все сообщения, созданные удаленным сервером.
 
 ```vb 
 Sub LogMessagesX() 

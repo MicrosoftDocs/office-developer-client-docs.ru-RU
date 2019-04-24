@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 447bb0c457cb5994e22fde5aa39c9e5f810ca027
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708293"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314863"
 ---
 # <a name="supports-method-example-vj"></a>Пример использования метода Supports (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере используется метод [поддерживает](supports-method-ado.md) для отображения параметров, поддерживаемый набор записей, открытый с типами другой курсор. Функция DisplaySupport является обязательным для выполнения этого примера.
+В этом примере используется [](supports-method-ado.md) метод Supports для отображения параметров, которые поддерживаются набором записей с разными типами курсоров. Для запуска этого примера требуется функция Дисплайсуппорт.
 
 ```java 
  

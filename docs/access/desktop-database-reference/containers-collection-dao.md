@@ -1,5 +1,5 @@
 ---
-title: Коллекция контейнеров (DAO)
+title: Коллекция Containers (DAO)
 TOCTitle: Containers Object
 ms:assetid: 4996ee39-ea13-f560-3069-dd7bc6022119
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193464(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9c874a1555fa6a6f5f948275176c57b5fb1c48bf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703827"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295606"
 ---
-# <a name="containers-collection-dao"></a>Коллекция контейнеров (DAO)
+# <a name="containers-collection-dao"></a>Коллекция Containers (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Коллекция **контейнеров** содержит все объекты **контейнера** , определенные в базе данных.
+Коллекция **Containers** содержит все объекты **контейнера** , определенные в базе данных.
 
 ## <a name="remarks"></a>Замечания
 
-Каждый объект **базы данных** имеет коллекцию **контейнеров** , состоящую из встроенных объектов **контейнера** . Некоторые из этих объектов **контейнера** определяются ядро базы данных Microsoft Access, в то время как другие пользователи могут быть определены с другими приложениями.
+Каждый объект **базы данных** содержит коллекцию **Containers** , состоящую из встроенных объектов **контейнера** . Некоторые из этих объектов **Container** определены ядром СУБД Microsoft Access, в то время как другие могут определять другие приложения.
 
 ## <a name="example"></a>Пример
 
-В этом примере перечисляются коллекция **контейнеров** базы данных Northwind и коллекции **свойств** для каждого объекта- **контейнера** в коллекции.
+В этом примере показано, как перечислить коллекцию **контейнеров** базы данных Northwind и коллекцию **свойств** каждого объекта **Container** в коллекции.
 
 ```vb
     Sub ContainerObjectX()

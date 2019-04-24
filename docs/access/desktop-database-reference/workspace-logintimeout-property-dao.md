@@ -1,5 +1,5 @@
 ---
-title: Свойство Workspace.LoginTimeout (DAO)
+title: Свойство Workspace. LoginTimeout (DAO)
 TOCTitle: LoginTimeout Property
 ms:assetid: 5f03b166-abbc-20de-1a01-3869a9f2907d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194743(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dbc0ed4849e8c22bc7023bd4254fdee74a5d016c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699613"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306911"
 ---
-# <a name="workspacelogintimeout-property-dao"></a>Свойство Workspace.LoginTimeout (DAO)
+# <a name="workspacelogintimeout-property-dao"></a>Свойство Workspace. LoginTimeout (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает или возвращает число секунд, прежде чем возникает ошибка при попытке выполнить вход в базе данных ODBC.
+Задает или возвращает число секунд до возникновения ошибки при попытке входа в базу данных ODBC.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . LoginTimeout
+*Expression* . LoginTimeout
 
-*выражение* Переменная, которая представляет собой объект- **рабочей области** .
+*expression*: переменная, представляющая объект **Workspace**.
 
 ## <a name="remarks"></a>Замечания
 
-Свойство **LoginTimeout** по умолчанию установлено 20 секунд. Если свойство **LoginTimeout** имеет значение 0, происходит нет времени ожидания.
+Значение свойства **LoginTimeOut** по умолчанию — 20 секунд. Если для свойства **LoginTimeOut** задано значение 0, время ожидания не возникает.
 
-Когда вы при входе в систему в базе данных ODBC, например Microsoft SQL Server может возникнуть сбой подключения из-за ошибки сети, или сервер не будет запущен. Без необходимости по умолчанию 20 секунд для подключения, можно указать время до возникновения ошибки. Вход в систему на сервере происходит неявно, как часть из нескольких разных события, такие как выполнение запроса базы данных внешнего сервера.
+При попытке войти в базу данных ODBC, например Microsoft SQL Server, подключение может завершиться неудачей из-за ошибок сети или из-за того, что сервер не запущен. Вместо того чтобы ждать подключения по умолчанию (20 секунд), можно указать время ожидания перед возникновением ошибки. Вход на сервер неявно происходит в рамках ряда различных событий, например при выполнении запроса к базе данных внешнего сервера.
 

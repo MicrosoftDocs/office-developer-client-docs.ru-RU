@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 879d8e7b3733937687671a164f86dbb273cf7533
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699900"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291444"
 ---
 # <a name="infomessage-event-ado"></a>Событие InfoMessage (ADO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-При появлении предупреждения в процессе выполнения операции **ConnectionEvent** вызывает события **InfoMessage** .
+Событие **InfoMessage** вызывается при возникновении предупреждения в ходе операции **коннектионевент** .
 
 ## <a name="syntax"></a>Синтаксис
 
-InfoMessage*pError*, *adStatus* *pConnection*
+InfoMessage*перрор*, *адстатус*, *пконнектион*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*pError* |Объект [Error](error-object-ado.md) . Этот параметр содержит все ошибки, которые возвращаются. Если возвращаются несколько ошибок, перечисление семейство **Errors** их поиск.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). Прежде чем возвращает это событие, присвойте этому параметру значение **adStatusUnwantedEvent** , чтобы запретить последующие уведомления.|
-|*pConnection* |Объект [подключения](connection-object-ado.md) . Подключение, для которого произошло предупреждение. К примеру, можно предупреждений при открытии **подключения** объекта или выполнения [команды](command-object-ado.md) для **подключения**.|
+|*Перрор* |Объект [Error](error-object-ado.md) . Этот параметр содержит все возвращенные ошибки. Если возвращено несколько ошибок, перечислите **** коллекцию Errors, чтобы найти их.|
+|*Адстатус* |[Евентстатусенум](eventstatusenum.md). Перед возвращением этого события установите для этого параметра значение **адстатусунвантедевент** , чтобы предотвратить появление последующих уведомлений.|
+|*Пконнектион* |Объект [Connection](connection-object-ado.md) . Подключение, для которого возникло предупреждение. Например, предупреждения могут возникать при открытии объекта **Connection** или при выполнении [команды](command-object-ado.md) для **подключения**.|
 

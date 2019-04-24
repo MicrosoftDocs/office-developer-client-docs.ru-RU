@@ -1,5 +1,5 @@
 ---
-title: Свойство Workspace.Type (DAO)
+title: Свойство Workspace. Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 89e59280-d2cd-b6a2-16c5-9f14f42fdd99
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197086(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e698963d60809e8d88c4ff87532fb7b74cff275c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722685"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311307"
 ---
-# <a name="workspacetype-property-dao"></a>Свойство Workspace.Type (DAO)
+# <a name="workspacetype-property-dao"></a>Свойство Workspace. Type (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Только для чтения **целое число**.
+Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Только для чтения, **Integer**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Тип
+*Expression* . Тип
 
-*выражение* Переменная, которая представляет собой объект- **рабочей области** .
+*expression*: переменная, представляющая объект **Workspace**.
 
 ## <a name="remarks"></a>Замечания
 
-Для объекта **рабочей области** возможные параметры и возвращаемые значения, как показано ниже.
+Для объекта **Workspace** возможны следующие параметры и возвращаемые значения.
 
 <table>
 <colgroup>
@@ -44,12 +44,12 @@ ms.locfileid: "28722685"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>dbUseJet</strong></p></td>
-<td><p><strong>Рабочая область для</strong> подключенных к ядру базы данных Microsoft Access.</p></td>
+<td><p><strong>Дбусежет</strong></p></td>
+<td><p><strong>Рабочая область</strong> подключена к ядру СУБД Microsoft Access.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbUseODBC</strong></p></td>
-<td><p><strong>Рабочая область для</strong> подключенных к источнику данных ODBC.</p></td>
+<td><p><strong>Дбусеодбк</strong></p></td>
+<td><p><strong>Рабочая область</strong> подключена к источнику данных ODBC.</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 89ac6756ced96cf360c9d5920c48088e750383b4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711807"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309389"
 ---
 # <a name="recordset2name-property-dao"></a>Свойство Recordset2.Name (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Возвращает имя указанного объекта. Только для чтения, **String**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Имя
+*Expression* . Расширением
 
-*выражение* Переменная, которая представляет собой объект- **Recordset2** .
+*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
 
 ## <a name="remarks"></a>Замечания
 
-Свойство **Name** объекта **набора записей** открыто с помощью инструкции SQL — это первых 256 символов инструкции SQL.
+Свойство **Name** объекта **Recordset** , открытого с помощью оператора SQL, представляет собой первые 256 символов оператора SQL.
 

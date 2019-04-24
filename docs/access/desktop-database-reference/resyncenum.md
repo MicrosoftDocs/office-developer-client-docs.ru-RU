@@ -1,5 +1,5 @@
 ---
-title: ResyncEnum (Справочник по для настольных баз данных Access)
+title: Ресинценум (Справочник по базам данных Access на компьютере)
 TOCTitle: ResyncEnum
 ms:assetid: 3d38b77b-6afe-e6a0-1a05-7c7ffc19edef
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249164(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ff09d69a9cf36246b3367202531a011c4e1aba12
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703771"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306547"
 ---
 # <a name="resyncenum"></a>ResyncEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, будут перезаписаны ли базовых значений с помощью вызова [выполнить повторную синхронизацию](resync-method-ado.md).
+Указывает, перезаписываются ли базовые значения при вызове метода повторной [синхронизации](resync-method-ado.md).
 
 <br/>
 
@@ -37,14 +37,14 @@ ms.locfileid: "28703771"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adResyncAllValues</strong></p></td>
+<td><p><strong>Адресинкаллвалуес</strong></p></td>
 <td><p>2</p></td>
-<td><p>Значение, используемое по умолчанию. Перезаписывает данные и ожидающие обновления будут отменены.</p></td>
+<td><p>Значение, используемое по умолчанию. Перезаписывает данные, и ожидающие обновления отменяются.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adResyncUnderlyingValues</strong></p></td>
-<td><p>1</p></td>
-<td><p>Не перезаписывает данные и ожидающие обновления не будут отменены.</p></td>
+<td><p><strong>Адресинкундерлингвалуес</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Не перезаписывает данные, а ожидающие обновления не отменяются.</p></td>
 </tr>
 </tbody>
 </table>
@@ -52,7 +52,7 @@ ms.locfileid: "28703771"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -65,10 +65,10 @@ ms.locfileid: "28703771"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Resync.ALLVALUES</p></td>
+<td><p>Адоенумс. Resync. АЛЛВАЛУЕС</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Resync.UNDERLYINGVALUES</p></td>
+<td><p>Адоенумс. Resync. УНДЕРЛИНГВАЛУЕС</p></td>
 </tr>
 </tbody>
 </table>

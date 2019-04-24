@@ -1,5 +1,5 @@
 ---
-title: Перечисление RelationAttributeEnum (DAO)
+title: Перечисление Релатионаттрибутинум (DAO)
 TOCTitle: RelationAttributeEnum Enumeration
 ms:assetid: ce8d0696-66d7-052f-1313-64baee3442ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834499(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: dbb8ca2e1a63154f17bd814a26fe79ed405765cb
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711121"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306981"
 ---
-# <a name="relationattributeenum-enumeration-dao"></a>Перечисление RelationAttributeEnum (DAO)
+# <a name="relationattributeenum-enumeration-dao"></a>Перечисление Релатионаттрибутинум (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используется со свойством **атрибуты** для определения атрибутов объекта **связи** .
+Используется вместе со **** свойством Attributes для определения атрибутов объекта **relation** .
 
 <table>
 <colgroup>
@@ -36,39 +36,39 @@ ms.locfileid: "28711121"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbRelationDeleteCascade</p></td>
+<td><p>Дбрелатионделетекаскаде</p></td>
 <td><p>4096</p></td>
-<td><p>Удаление cascade</p></td>
+<td><p>Удаление каскадом</p></td>
 </tr>
 <tr class="even">
-<td><p>dbRelationDontEnforce</p></td>
+<td><p>Дбрелатиондонтенфорце</p></td>
 <td><p>2</p></td>
-<td><p>Отношение не применяется (не целостность данных)</p></td>
+<td><p>Связь не применяется (нет ссылочной целостности)</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbRelationInherited</p></td>
-<td><p>4</p></td>
-<td><p>Связь существует в базе данных, содержащий два связанных таблиц</p></td>
+<td><p>Дбрелатионинхеритед</p></td>
+<td><p>SP4</p></td>
+<td><p>Связь существует в базе данных, содержащей две связанные таблицы</p></td>
 </tr>
 <tr class="even">
-<td><p>dbRelationLeft</p></td>
+<td><p>Дбрелатионлефт</p></td>
 <td><p>16777216</p></td>
-<td><p>Microsoft Access. В режиме конструктора отображение LEFT JOIN как тип связи по умолчанию.</p></td>
+<td><p>Только Microsoft Access. В представлении конструктора отображать левое соединение как тип соединения по умолчанию.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbRelationRight</p></td>
+<td><p>Дбрелатионригхт</p></td>
 <td><p>33554432</p></td>
-<td><p>Microsoft Access. В режиме конструктора отображение RIGHT JOIN как тип связи по умолчанию.</p></td>
+<td><p>Только Microsoft Access. В представлении конструктора отображать ПРАВОе приСОЕДИНЕНИЕ в качестве типа соединения по умолчанию.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbRelationUnique</p></td>
-<td><p>1</p></td>
-<td><p>Двустороннее отношение</p></td>
+<td><p>Дбрелатионуникуе</p></td>
+<td><p>1,1</p></td>
+<td><p>Отношение "один к одному"</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbRelationUpdateCascade</p></td>
+<td><p>Дбрелатионупдатекаскаде</p></td>
 <td><p>256</p></td>
-<td><p>Cascade обновлений</p></td>
+<td><p>Обновление каскадом</p></td>
 </tr>
 </tbody>
 </table>

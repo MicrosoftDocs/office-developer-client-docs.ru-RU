@@ -1,5 +1,5 @@
 ---
-title: Свойство Containers.Count (DAO)
+title: Свойство Containers. Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 3b0bf865-a4d5-82bb-c1a9-9957f110db4c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192657(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 7553b0e7d64e059dfeed50f158f21f48455976d7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699949"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295592"
 ---
-# <a name="containerscount-property-dao"></a>Свойство Containers.Count (DAO)
+# <a name="containerscount-property-dao"></a>Свойство Containers. Count (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает количество объектов **[подключения](connection-object-dao.md)** в коллекции **[подключений](connections-collection-dao.md)** .
+Возвращает количество объектов **[Connection](connection-object-dao.md)** в коллекции Connections **[](connections-collection-dao.md)** .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Count
+*Expression* . Отсчет
 
-*выражение* Переменная, которая представляет собой объект- **подключений** .
+*Expression (выражение* ) Переменная, представляющая объект **Connections** .
 
 ## <a name="remarks"></a>Замечания
 
-Так как члены коллекции начинаются с 0, должны всегда кода циклов, начиная с элемента 0 и заканчивая значение свойства **Count** минус 1. Если вы хотите выполняют цикл по элементам коллекции без проверки свойство **Count** , можно использовать **For Each... Далее** команды.
+Так как члены коллекции начинаются с 0, всегда следует всегда кодировать циклы, начиная с элемента 0 и заканчивая значением свойства **Count** минус 1. Если требуется перебрать элементы коллекции, не проверяя свойство **Count** , можно использовать оператор **For Each... Следующая** команда.
 
-Значение свойства **Count** никогда не имеет значение Null. Если значение равно 0, нет объектов в коллекции.
+Значение свойства **Count** не может быть равно null. Если его значение равно 0, в коллекции отсутствуют объекты.
 

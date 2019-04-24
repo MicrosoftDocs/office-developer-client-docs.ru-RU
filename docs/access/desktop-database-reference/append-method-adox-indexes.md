@@ -8,35 +8,35 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0b541512de9748e94d033bb56f27dd0941c7f5a7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707558"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297097"
 ---
 # <a name="append-method-adox-indexes"></a>Метод Append (коллекция Indexes в ADOX)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 
 
-Добавляет новый объект [индекса](index-object-adox.md) в коллекцию [индексов](indexes-collection-adox.md) .
+Добавляет новый объект [index](index-object-adox.md) в коллекцию [indexes](indexes-collection-adox.md) .
 
 ## <a name="syntax"></a>Синтаксис
 
-*Индексы*. Добавление*индекса* \[,*столбцы*\]
+*Индексы*. Добавление*индекса* \[,*столбцов*\]
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Index* |Объект **индекса** для добавления или имя индекса для создания и добавления.|
-|*Columns* |Необязательно. Значение **типа Variant** , который указывает имена столбцов для индексации. Параметр *столбцы* соответствует значения свойства [Name](name-property-adox.md) [столбца](column-object-adox.md) объект или объекты.|
+|*Index* |Объект **index** , который требуется добавить, или имя индекса, который требуется создать и добавить.|
+|*Columns* |Необязательный атрибут. Значение **типа Variant** , задающее имена столбцов для индексирования. Параметр *Columns* соответствует значениям свойства [Name](name-property-adox.md) объекта [Column](column-object-adox.md) или объектов.|
 
 ## <a name="remarks"></a>Замечания
 
-Для *столбцов* параметра можно задать имя столбца, либо массив имена столбцов.
+Параметр *Columns* может принимать либо имя столбца, либо массив имен столбцов.
 
 Если поставщик не поддерживает создание индексов, произойдет ошибка.
 

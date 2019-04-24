@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c8eeafa97b2b27f157136674372061d3074e5f01
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28708174"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314485"
 ---
 # <a name="stayinsync-property-example-vc"></a>Пример использования свойства StayInSync (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показано, как свойство [StayInSync](stayinsync-property-ado.md) упрощает доступ к строк в иерархической [набора записей](recordset-object-ado.md).
+В этом примере показано, как свойство [StayInSync](stayinsync-property-ado.md) упрощает доступ к строкам в иерархическом [наборе записей](recordset-object-ado.md).
 
-Внешний цикл отображается имя и фамилию, состояние и идентификации каждого автора. Добавленный **набора записей** для каждой строки извлекается из коллекции [полей](fields-collection-ado.md) и автоматически назначается **rstTitleAuthor** свойством **StayInSync** при перемещении родительского **набора записей** на новую строку. Внутренний цикл отображаются четыре поля из каждой строки в присоединенной записей.
+В внешнем цикле отображаются имя, состояние и идентификатор каждого автора. Добавленный **набор записей** для каждой строки извлекается из коллекции [Fields](fields-collection-ado.md) и автоматически назначается свойству **рсттитлеаусор** , когда родительский объект **Recordset** перемещается в новую строку. **** Внутренний цикл отображает четыре поля из каждой строки добавленного набора записей.
 
 ```cpp 
  

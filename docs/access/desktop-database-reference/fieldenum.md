@@ -1,5 +1,5 @@
 ---
-title: FieldEnum (Справочник по для настольных баз данных Access)
+title: Фиелденум (Справочник по базам данных Access на компьютере)
 TOCTitle: FieldEnum
 ms:assetid: fbd415c0-d6b4-278f-318b-98432c013634
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250289(v=office.15)
@@ -8,21 +8,21 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e42dcfe63194364986e5b235c59b011231307a7c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726087"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292596"
 ---
 # <a name="fieldenum"></a>FieldEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает особых полей, указанных в коллекции [полей](fields-collection-ado.md) объект [записи](record-object-ado.md) .
+Указывает специальные поля, указанные в коллекции Fields объекта [](fields-collection-ado.md) [Record](record-object-ado.md) .
 
 ## <a name="remarks"></a>Замечания
 
-Эти константы предоставляют «ярлык» для доступа к особых полей, сопоставленных с **записи**. Получение объекта [поля](field-object-ado.md) из коллекции **полей** и получение его содержимое с помощью свойства [Value](value-property-ado.md) объекта **поля** .
+Эти константы предоставляют "ярлык" для доступа к специальным полям, связанным с **записью**. ИзВлеките объект [field](field-object-ado.md) из коллекции **Fields** и получите его содержимое со свойством [value](value-property-ado.md) объекта **field** .
 
 <br/>
 
@@ -41,14 +41,14 @@ ms.locfileid: "28726087"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adDefaultStream</strong></p></td>
+<td><p><strong>Аддефаултстреам</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Ссылается на поле, содержащее объект <a href="stream-object-ado.md">потока</a> по умолчанию, связанный с <strong>записи</strong>.</p></td>
+<td><p>Ссылается на поле, содержащее объект <a href="stream-object-ado.md">потока</a> по умолчанию, <strong></strong>связанный с записью.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adRecordURL</strong></p></td>
+<td><p><strong>Адрекордурл</strong></p></td>
 <td><p>–2</p></td>
-<td><p>Ссылается на поле, содержащее строку абсолютный URL-адрес для текущей <strong>записи</strong>.</p></td>
+<td><p>Ссылается на поле, содержащее строку абсолютного URL-адреса для текущей <strong>записи</strong>.</p></td>
 </tr>
 </tbody>
 </table>

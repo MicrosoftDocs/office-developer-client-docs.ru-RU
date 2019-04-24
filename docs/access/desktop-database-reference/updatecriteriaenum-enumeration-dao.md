@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e27eb1bdfb9b393df76af8bdf54bc7f05fd82c2e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306372"
 ---
 # <a name="updatecriteriaenum-enumeration-dao"></a>Перечисление UpdateCriteriaEnum (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используется с методом **UpdateOptions** для указания способа создания пакета обновления.
+Используется с методом **UpdateOptions** для указания способа создания пакетного обновления.
 
 <table>
 <colgroup>
@@ -36,34 +36,34 @@ ms.locfileid: "28725961"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbCriteriaAllCols</p></td>
-<td><p>4</p></td>
-<td><p>Использует столбцы ключа и все столбцы в списке место предложение.</p></td>
+<td><p>Дбкритериааллколс</p></td>
+<td><p>SP4</p></td>
+<td><p>Использует ключевые столбцы и все столбцы в предложении WHERE.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbCriteriaDeleteInsert</p></td>
-<td><p>16</p></td>
-<td><p>Использует пару операторов INSERT и DELETE для каждой измененной строки.</p></td>
+<td><p>Дбкритериаделетеинсерт</p></td>
+<td><p>столбцов</p></td>
+<td><p>Использует сочетание операторов DELETE и INSERT для каждой измененной строки.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbCriteriaKey</p></td>
-<td><p>1</p></td>
-<td><p>Используется только что ключевых столбцов в списке место предложение.</p></td>
+<td><p>Дбкритериакэй</p></td>
+<td><p>1,1</p></td>
+<td><p>Использует только ключевые столбцы в предложении WHERE.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbCriteriaModValues</p></td>
+<td><p>Дбкритериамодвалуес</p></td>
 <td><p>2</p></td>
-<td><p>Использует столбцы ключа и всех обновленных столбцов в списке место предложение.</p></td>
+<td><p>Использует ключевые столбцы и все обновленные столбцы в предложении WHERE.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbCriteriaTimestamp</p></td>
-<td><p>8</p></td>
-<td><p>Использует столбце метка времени, если он доступен (создаст ошибку времени выполнения при нет столбца timestamp в наборе результатов).</p></td>
+<td><p>Дбкритериатиместамп</p></td>
+<td><p>8,5</p></td>
+<td><p>Использует только столбец timestamp (если он доступен) (при отсутствии столбца timestamp в наборе результатов будет создано сообщение об ошибке во время выполнения).</p></td>
 </tr>
 <tr class="even">
-<td><p>dbCriteriaUpdate</p></td>
+<td><p>Дбкритериаупдате</p></td>
 <td><p>32</p></td>
-<td><p>Инструкция UPDATE для каждой измененной строки.</p></td>
+<td><p>Использует инструкцию UPDATE для каждой измененной строки.</p></td>
 </tr>
 </tbody>
 </table>

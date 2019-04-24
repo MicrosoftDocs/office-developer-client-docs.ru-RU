@@ -1,5 +1,5 @@
 ---
-title: Строка свойство - ActiveX Data Objects (ADO)
+title: Свойство Row — объекты данных ActiveX (ADO)
 TOCTitle: Row property (ADO)
 ms:assetid: 1c2b0e27-7232-4b1c-826c-9dc15d758851
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248959(v=office.15)
@@ -8,34 +8,34 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9b4beaa742bfc46ecd32fc04733c3e6ddaf12aa2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715006"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306484"
 ---
 # <a name="row-property-ado"></a>Свойство Row (ADO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Получает или задает объект OLE DB **строку** из/на объекте **ADORecordConstruction** . При использовании **поместить\_строки** Чтобы установить для объекта **строки** , строка включается в объект ADO **записи** . Для чтения и записи.
+Получает или задает объект **строки** OLE DB from/On объекта **ADORecordConstruction** . При использовании **строки PUT\_** для установки объекта **Row** строка будет преобразована в объект **записи** ADO. Для чтения и записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-HRESULT get\_строки (\[out retval\] IUnknown\* \* ppRow);
+HRESULT Get\_Row (\[out,\] IUnknown IUnknown\* \* ппров);
 
-Поместите HRESULT\_строки (\[в\] IUnknown\* pRow);
+Строка размещения\_HRESULT (\[в\] интерфейсе IUnknown\* пров);
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*ppRow* |Указатель на объект OLE DB **строки** .|
-|*PRow* |Объект OLE DB **строки** .|
+|*Ппров* |Указатель на объект **строки** OLE DB.|
+|*Пров* |Объект **строки** OLE DB.|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Этот метод свойство возвращает стандартных значений HRESULT, включая S\_ОК и E\_с ОШИБКОЙ.
+Этот метод свойства возвращает стандартные значения HRESULT, включая S\_ОК и электронную\_ошибку.
 
 ## <a name="applies-to"></a>Область применения
 

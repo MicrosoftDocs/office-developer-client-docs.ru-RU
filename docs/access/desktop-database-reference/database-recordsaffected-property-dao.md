@@ -1,5 +1,5 @@
 ---
-title: Свойство Database.RecordsAffected (DAO)
+title: Свойство Database. Рекордсаффектед (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 1c591231-21dd-f0b1-4ba6-87784c5890d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845732(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: a1bcb9ac1140b275d0c7a2441f58d2ced0e0f82c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715853"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294745"
 ---
-# <a name="databaserecordsaffected-property-dao"></a>Свойство Database.RecordsAffected (DAO)
+# <a name="databaserecordsaffected-property-dao"></a>Свойство Database. Рекордсаффектед (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает число записей, влияет на недавно вызванного метода **[Execute](connection-execute-method-dao.md)** .
+Возвращает число записей, затронутых последним вызванным методом **[EXECUTE](connection-execute-method-dao.md)** .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . RecordsAffected
+*Expression* . Рекордсаффектед
 
-*выражение* Переменная, которая представляет собой объект **базы данных** .
+*выражение*: переменная, представляющая объект **Database**.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется свойство **RecordsAffected** с запросы действия, выполняемые из объекта **базы данных** и из объекта **QueryDef** . Функция RecordsAffectedOutput является обязательным для выполнения этой процедуры.
+В этом примере используется свойство **рекордсаффектед** с запросами на изменение, выполненными из объекта **базы данных** и из объекта **QueryDef** . Для выполнения этой процедуры требуется функция Рекордсаффектедаутпут.
 
 ```vb
     Sub RecordsAffectedX() 

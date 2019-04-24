@@ -1,5 +1,5 @@
 ---
-title: Свойство Errors.Count (DAO)
+title: Свойство Errors. Count (DAO)
 TOCTitle: Count Property
 ms:assetid: ad135955-3b18-4f99-66d9-aff1492df13b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821719(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c2cbbed2c7061b225d969dbd7554191e8db4a28a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293401"
 ---
-# <a name="errorscount-property-dao"></a>Свойство Errors.Count (DAO)
+# <a name="errorscount-property-dao"></a>Свойство Errors. Count (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает число объектов в указанном семействе сайтов. Только для чтения.
+Возвращает число объектов в указанной коллекции. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Count
+*Expression* . Отсчет
 
-*выражение* Переменная, которая представляет объект **ошибки** .
+*Expression (выражение* ) Переменная, представляющая объект **Errors** .
 
 ## <a name="remarks"></a>Замечания
 
-Так как члены коллекции начинаются с 0, должны всегда кода циклов, начиная с элемента 0 и заканчивая значение свойства **Count** минус 1. Если вы хотите выполняют цикл по элементам коллекции без проверки свойство **Count** , можно использовать **For Each... Далее** команды.
+Так как члены коллекции начинаются с 0, всегда следует всегда кодировать циклы, начиная с элемента 0 и заканчивая значением свойства **Count** минус 1. Если требуется перебрать элементы коллекции, не проверяя свойство **Count** , можно использовать оператор **For Each... Следующая** команда.
 
-Значение свойства **Count** никогда не имеет значение Null. Если значение равно 0, нет объектов в коллекции.
+Значение свойства **Count** не может быть равно null. Если его значение равно 0, в коллекции отсутствуют объекты.
 

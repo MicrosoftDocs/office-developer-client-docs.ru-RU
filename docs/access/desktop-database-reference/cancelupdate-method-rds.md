@@ -8,29 +8,29 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: b0c02a9ca72add763e1d3ccf62d5ede8adaecc6b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718618"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296670"
 ---
 # <a name="cancelupdate-method-rds"></a>Метод CancelUpdate (RDS)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Отменяет все изменения, внесенные в строку текущей или новый объект [набора записей](recordset-object-ado.md) .
+ОтМеняет любые изменения, внесенные в текущую или новую строку объекта [Recordset](recordset-object-ado.md) .
 
 ## <a name="syntax"></a>Синтаксис
 
-*DataControl*. CancelUpdate
+*Элемент управления*. CancelUpdate
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектную переменную, которая представляет [RDS. DataControl](datacontrol-object-rds.md) объекта.|
+|*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
 
 ## <a name="remarks"></a>Замечания
 
-Служба курсора для OLE DB сохраняет как копию исходных значений, так и в кэш изменений. При вызове **CancelUpdate**выполнен сброс кэша изменения пустая строка, и все привязки элементов управления обновляется с исходными данными.
+Служба курсора для OLE DB сохраняет копию исходных значений и кэш изменений. При вызове **CancelUpdate**кэш изменений сбрасывается в пустое значение, а все привязанные элементы управления обновляются с использованием исходных данных.
 

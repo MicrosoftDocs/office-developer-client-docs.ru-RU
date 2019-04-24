@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e70a9bcc90348d6be48b7d681b6273b1fdd9201f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720648"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292393"
 ---
 # <a name="find-method-example-jscript"></a>Пример использования метода Find (JScript)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере метод объекта [набора записей](recordset-object-ado.md) [поиска](find-method-ado.md) для поиска и отображения компаний в базе ***данных Northwind*** , имя которых начинается с буквы Вырезать ж. и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем ** FindJS.asp**.
+В этом примере используется метод [Find](find-method-ado.md) объекта [Recordset](recordset-object-ado.md) для поиска и отображения компаний в базе данных ***Northwind*** , имена которых начинаются с буквы G. вырежьте и вставьте следующий код в Блокнот или другой текстовый редактор, и сохраните его как ** Финджс. ASP**.
 
 ```javascript 
  

@@ -1,5 +1,5 @@
 ---
-title: ОТМЕНИТЬ оператора (Microsoft Access SQL)
+title: Оператор REVOKE (Microsoft Access SQL)
 TOCTitle: REVOKE statement (Microsoft Access SQL)
 ms:assetid: 69399fd6-c4e8-f2e2-e5f4-48ae779323f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195272(v=office.15)
@@ -12,25 +12,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 20122fee617597987940766a076d5f968a87c2d2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28698452"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306533"
 ---
-# <a name="revoke-statement-microsoft-access-sql"></a>ОТМЕНИТЬ оператора (Microsoft Access SQL)
+# <a name="revoke-statement-microsoft-access-sql"></a>Оператор REVOKE (Microsoft Access SQL)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Запрещение определенных привилегий существующему пользователю или группе.
+Отзывает определенные привилегии у существующего пользователя или группы.
 
 ## <a name="syntax"></a>Синтаксис
 
-ОТМЕНИТЬ {*принципу предоставления минимальных прав*\[, *принципу предоставления минимальных прав*,... \]} Д {таблицы в *таблице* | Объект *object*|
+Отзыв {*привилегия*\[, *привилегия*,... \]} В *таблице* {Table | *Объект* Object|
 
-CONTAINTER *container*} из {*имя_обладателя_прав*\[, *имя_обладателя_прав*,... \]}
+Контаинтер *Container*} из {*аусоризатионнаме*\[, *аусоризатионнаме*,... \]}
 
-Инструкция REVOKE состоит из следующих частей:
+Оператор REVOKE состоит из следующих частей:
 
 <table>
 <colgroup>
@@ -45,8 +45,8 @@ CONTAINTER *container*} из {*имя_обладателя_прав*\[, *имя_
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>принципу предоставления минимальных прав</em></p></td>
-<td><p>Привилегии или права, которое требуется отозвать. Привилегии задаются с помощью следующих ключевых слов: выбор, DELETE, INSERT, UPDATE, размещения сообщений, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, создать, SELECTSCHEMA, СХЕМЫ и UPDATEOWNER.</p></td>
+<td><p><em>правах</em></p></td>
+<td><p>Привилегия или привилегии, которые необходимо отменить. Разрешения указываются с помощью следующих ключевых слов: SELECT, DELETE, INSERT, UPDATE, DROP, СЕЛЕКТСЕКУРИТИ, УПДАТЕСЕКУРИТИ, DBPASSWORD, УПДАТЕИДЕНТИТИ, CREATE, СЕЛЕКТСЧЕМА, SCHEMA и УПДАТЕОВНЕР.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>table</em></p></td>
@@ -54,14 +54,14 @@ CONTAINTER *container*} из {*имя_обладателя_прав*\[, *имя_
 </tr>
 <tr class="odd">
 <td><p><em>object</em></p></td>
-<td><p>Это могут использовать любой объект не таблицы. Сохраненные запрос (представления или процедуры) — один пример.</p></td>
+<td><p>Это может охватывать любой объект, не являющийся таблицей. Сохраненным запросом (представление или процедура) является один из примеров.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>контейнер</em></p></td>
-<td><p>Имя допустимого хранилища.</p></td>
+<td><p><em>Container</em></p></td>
+<td><p>Имя допустимого контейнера.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>имя_обладателя_прав</em></p></td>
+<td><p><em>аусоризатионнаме</em></p></td>
 <td><p>Имя пользователя или группы.</p></td>
 </tr>
 </tbody>

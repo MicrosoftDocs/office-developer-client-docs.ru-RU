@@ -1,5 +1,5 @@
 ---
-title: Свойство Field2.AllowZeroLength (DAO)
+title: Свойство field2. пустые (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: d3795634-527f-b4c5-b606-50f9945cac12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3125a5669ea8aa016d8554be0357572d56c08ecf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721180"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292911"
 ---
-# <a name="field2allowzerolength-property-dao"></a>Свойство Field2.AllowZeroLength (DAO)
+# <a name="field2allowzerolength-property-dao"></a>Свойство field2. пустые (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 
-Задает или возвращает значение, указывающее, является ли строка нулевой длины ("») — это недопустимое значение для свойства **[Value](field-value-property-dao.md)** объекта **поле2** с типом данных Text или Memo (только для рабочих областей Microsoft Access).
+Задает или возвращает значение, которое указывает, является ли строка нулевой длины ("") допустимым значением для свойства **[value](field-value-property-dao.md)** объекта **field2** с типом данных text или MEMO (только для рабочих областей Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Пустые строки
+*Expression* . Пустые
 
-*выражение* Переменная, которая представляет собой объект- **поле2** .
+*expression* — переменная, представляющая объект **Field2**.
 
 ## <a name="remarks"></a>Замечания
 
-Для объекта еще не добавляется в конец коллекции **полей** это свойство соответствует чтения и записи.
+Для объекта, который еще не добавлен в коллекцию **Fields** , это свойство доступно для чтения и записи.
 
-Когда добавляется в конец коллекции **полей** , доступность свойства **пустые строки** зависит от объекта, который содержит коллекцию **полей** , как показано в следующей таблице.
+После добавления в коллекцию **Fields** доступность свойства **AllowZeroLength** зависит от объекта, содержащего коллекцию Fields, как показано в **** следующей таблице.
 
 <table>
 <colgroup>
@@ -41,13 +41,13 @@ ms.locfileid: "28721180"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Если принадлежит коллекции полей</p></th>
-<th><p>Затем — пустые строки</p></th>
+<th><p>Если коллекция Fields принадлежит к элементу</p></th>
+<th><p>То есть пустые строки</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Объект <strong>индекса</strong></p></td>
+<td><p>Объект <strong>Index</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
@@ -55,11 +55,11 @@ ms.locfileid: "28721180"
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p>Объект <strong>набора записей</strong></p></td>
+<td><p>Объект <strong>Recordset</strong></p></td>
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Отношения</strong> объектов</p></td>
+<td><p>Объект <strong>Relation</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="odd">
@@ -70,11 +70,11 @@ ms.locfileid: "28721180"
 </table>
 
 
-Это свойство, а также **[требуется](field-required-property-dao.md)** **[Проверка набора](field-validateonset-property-dao.md)** и **[значение](field-validationrule-property-dao.md)** свойства можно использовать для проверки значения в поле.
+Это свойство можно использовать вместе со свойством **[Required](field-required-property-dao.md)**, **[валидатеонсет](field-validateonset-property-dao.md)** или **[ValidationRule](field-validationrule-property-dao.md)** для проверки значения в поле.
 
 ## <a name="example"></a>Пример
 
-В следующем примере свойство **пустые строки** пользователь может задать значение **поле2** пустую строку. В этом случае пользователь может различать записи, где неизвестно данных и запись, где данные не применяется.
+В этом примере свойство **AllowZeroLength** позволяет пользователю установить значение **field2** в виде пустой строки. В этом случае пользователь может различать записи, в которых неизвестны данные, и запись, в которой данные не применяются.
 
 ```vb
     Sub AllowZeroLengthX() 

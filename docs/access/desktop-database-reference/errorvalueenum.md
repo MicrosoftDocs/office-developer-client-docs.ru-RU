@@ -1,5 +1,5 @@
 ---
-title: ErrorValueEnum (Справочник по для настольных баз данных Access)
+title: Еррорвалуинум (Справочник по базам данных Access на компьютере)
 TOCTitle: ErrorValueEnum
 ms:assetid: 2af99f32-6004-1225-367c-45d693f447b8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249058(v=office.15)
@@ -8,28 +8,28 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c2d4207f157d361f3b8aba2ff80f46d06b2f328e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28717666"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293324"
 ---
 # <a name="errorvalueenum"></a>ErrorValueEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает тип ADO ошибка во время выполнения.
+Задает тип ошибки времени выполнения ADO.
 
-Перечислены три формы номеру ошибки.
+В списке ниже перечислены три формы номера ошибки.
 
-- Положительное десятичное число — низкий два байта полный номер в десятичном формате. Этот номер отображается в диалоговом окне по умолчанию сообщения об ошибках Visual Basic. Например ошибка во время выполнения "3707".
+- Положительное десятичное число — два нижних байта полного числа в десятичном формате. Этот номер отображается в диалоговом окне "сообщение об ошибке Visual Basic" по умолчанию. Например, ошибка времени выполнения ' 3707 '.
 
-- Знаков после запятой отрицательные — decimal перевода полного ошибка с номером.
+- Отрицательное десятичное число — десятичное преобразование полного номера ошибки.
 
-- Шестнадцатеричном представлении — Шестнадцатеричное представление полного ошибка с номером. Код устройства Windows — в четвертой из цифр. Код средства для номеров ошибка ADO — *A*. Например: 0E7B 0x800***A***.
+- Шестнадцатеричное — шестнадцатеричное представление полного номера ошибки. Код средства Windows находится в четвертой цифре. Код устройства для номеров ошибок ADO — *A*. Пример: 0x800***A***0E7B.
 
 > [!NOTE]
-> OLE DB ошибки могут передаваться в приложение ADO. Как правило их можно определить по код устройства Windows *4*. Например**4**_ 0x800_... Дополнительные сведения об этих номеров см из *Справочник программиста OLE DB.*
+> Ошибки OLE DB могут передаваться в приложение ADO. Как правило, они могут быть идентифицированы с помощью кода средства Windows *4*. Например, 0x800_**4**_.... Более подробную информацию об этих номерах можно найти в главе 16 *Справочника программиста OLE DB.*
 
 <br/>
 
@@ -48,380 +48,380 @@ ms.locfileid: "28717666"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adErrBoundToCommand</strong></p></td>
+<td><p><strong>Адеррбаундтокомманд</strong></p></td>
 <td><p>3707<br />
--2146824581<br />
+— 2146824581<br />
 0x800A0E7B</p></td>
-<td><p>Невозможно изменить свойство <strong>ActiveConnection</strong> объекта <strong>набора записей</strong> , который содержит объект <strong>команды</strong> в качестве источника.</p></td>
+<td><p>Не удается изменить свойство <strong>ActiveConnection</strong> объекта <strong>Recordset</strong> , который содержит объект <strong>Command</strong> в качестве источника.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrCannotComplete</strong></p></td>
+<td><p><strong>Адеррканноткомплете</strong></p></td>
 <td><p>3732<br />
--2146824556<br />
+— 2146824556<br />
 0x800A0E94</p></td>
-<td><p>Сервер не может завершить операцию.</p></td>
+<td><p>Серверу не удается завершить операцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrCantChangeConnection</strong></p></td>
+<td><p><strong>Адерркантчанжеконнектион</strong></p></td>
 <td><p>3748<br />
--2146824540<br />
+— 2146824540<br />
 0x800A0EA4</p></td>
-<td><p>Подключение было запрещено. Новое подключение запрошенный имеет разные характеристики, чем в уже используется.</p></td>
+<td><p>Подключение было отклонено. Для нового подключения, которое вы запросили, отличаются характеристики, которые уже используются.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrCantChangeProvider</strong></p></td>
+<td><p><strong>Адерркантчанжепровидер</strong></p></td>
 <td><p>3220<br />
--2146825068<br />
+— 2146825068<br />
 0X800A0C94</p></td>
-<td><p>Заданный поставщик отличается от одной уже для использования.</p></td>
+<td><p>Указанный поставщик отличается от того, который уже используется.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrCantConvertvalue</strong></p></td>
+<td><p><strong>Адерркантконвертвалуе</strong></p></td>
 <td><p>3724<br />
--2146824564<br />
+— 2146824564<br />
 0x800A0E8C</p></td>
-<td><p>Невозможно преобразовать значение данных по причине, отличной от несоответствия знака или данных переполнения. Например, для преобразования будет усечено данных.</p></td>
+<td><p>Значение данных не может быть преобразовано по причинам, отличным от несоответствия знака или переполнения данных. Например, преобразование приведет к усечению данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrCantCreate</strong></p></td>
+<td><p><strong>Адеррканткреате</strong></p></td>
 <td><p>3725<br />
--2146824563<br />
+— 2146824563<br />
 0x800A0E8D</p></td>
-<td><p>Значение данных не может быть задана или получена так, как тип данных поля неизвестно или должен недостаточно ресурсов для выполнения операции.</p></td>
+<td><p>Значение данных не может быть задано или получено, так как тип данных поля неизвестен или у поставщика недостаточно ресурсов для выполнения операции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrCatalogNotSet</strong></p></td>
+<td><p><strong>Адерркаталогнотсет</strong></p></td>
 <td><p>3747<br />
--2146824541<br />
+— 2146824541<br />
 0x800A0EA3</p></td>
-<td><p>Операции требуется допустимый <strong>ParentCatalog</strong>.</p></td>
+<td><p>Для операции требуется допустимый <strong>ParentCatalog</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrColumnNotOnThisRow</strong></p></td>
+<td><p><strong>Адеррколумннотонсисров</strong></p></td>
 <td><p>3726<br />
--2146824562<br />
+— 2146824562<br />
 0x800A0E8E</p></td>
 <td><p>Запись не содержит это поле.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrDataConversion</strong></p></td>
+<td><p><strong>Адеррдатаконверсион</strong></p></td>
 <td><p>3421<br />
--2146824867<br />
+— 2146824867<br />
 0x800A0D5D</p></td>
-<td><p>Приложение использует значение недопустимого типа для текущей операции.</p></td>
+<td><p>Приложение использует значение неправильного типа для текущей операции.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrDataOverflow</strong></p></td>
+<td><p><strong>Адеррдатаоверфлов</strong></p></td>
 <td><p>3721<br />
--2146824567<br />
+— 2146824567<br />
 0x800A0E89</p></td>
-<td><p>Значение данных слишком велик для представления по типу данных поля.</p></td>
+<td><p>Слишком большое значение данных для представления типом данных поля.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrDelResOutOfScope</strong></p></td>
+<td><p><strong>Адеррделресаутофскопе</strong></p></td>
 <td><p>3738<br />
--2146824550<br />
+— 2146824550<br />
 0x800A0E9A</p></td>
-<td><p>URL-адрес объекта к удалению выходит за рамки текущей записи.</p></td>
+<td><p>URL-адрес удаляемого объекта находится вне области текущей записи.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrDenyNotSupported</strong></p></td>
+<td><p><strong>Адеррденинотсуппортед</strong></p></td>
 <td><p>3750<br />
--2146824538<br />
+— 2146824538<br />
 0x800A0EA6</p></td>
-<td><p>Поставщик не поддерживает ограничения общего доступа.</p></td>
+<td><p>Поставщик не поддерживает ограничения на общий доступ.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrDenyTypeNotSupported</strong></p></td>
+<td><p><strong>Адеррденитипенотсуппортед</strong></p></td>
 <td><p>3751<br />
--2146824537<br />
+— 2146824537<br />
 0x800A0EA7</p></td>
-<td><p>Поставщик не поддерживает запрошенный тип общего доступа к ограничение.</p></td>
+<td><p>Поставщик не поддерживает запрошенный тип ограничения на совместное использование.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrFeatureNotAvailable</strong></p></td>
+<td><p><strong>Адеррфеатуренотаваилабле</strong></p></td>
 <td><p>3251<br />
--2146825037<br />
+— 2146825037<br />
 0x800A0CB3</p></td>
-<td><p>Объект или поставщик не может выполнить запрошенную операцию.</p></td>
+<td><p>Объект или поставщик не могут выполнять запрошенную операцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrFieldsUpdateFailed</strong></p></td>
+<td><p><strong>Адеррфиелдсупдатефаилед</strong></p></td>
 <td><p>3749<br />
--2146824539<br />
+— 2146824539<br />
 0x800A0EA5</p></td>
-<td><p>Не удалось обновить поля. Для получения дополнительных сведений проверьте свойство <strong>Status</strong> объектов отдельного поля.</p></td>
+<td><p>Не удалось обновить поля. Для получения дополнительных сведений изучите свойство <strong>Status</strong> отдельных объектов Field.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrIllegalOperation</strong></p></td>
+<td><p><strong>Адерриллегалоператион</strong></p></td>
 <td><p>3219<br />
--2146825069<br />
+— 2146825069<br />
 0x800A0C93</p></td>
-<td><p>Операция не допускается в данном контексте.</p></td>
+<td><p>Операция не разрешена в данном контексте.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrIntegrityViolation</strong></p></td>
+<td><p><strong>Адерринтегритивиолатион</strong></p></td>
 <td><p>3719<br />
--2146824569<br />
+— 2146824569<br />
 0x800A0E87</p></td>
-<td><p>Данные значения конфликтует с ограничения целостности поля.</p></td>
+<td><p>Значение данных вступает в противоречие с ограничениями целостности поля.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrInTransaction</strong></p></td>
+<td><p><strong>Адерринтрансактион</strong></p></td>
 <td><p>3246<br />
--2146825042<br />
+— 2146825042<br />
 0x800A0CAE</p></td>
-<td><p>Объект <strong>подключения</strong> не может быть закрыт явным образом в транзакции.</p></td>
+<td><p>Объект <strong>Connection</strong> не может быть закрыт явным образом во время транзакции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrInvalidArgument</strong></p></td>
+<td><p><strong>Адерринвалидаргумент</strong></p></td>
 <td><p>3001<br />
--2146825287<br />
+— 2146825287<br />
 0x800A0BB9</p></td>
-<td><p>Аргументы имеют неправильный тип, находятся вне допустимого диапазона или конфликтуют друг с другом.</p></td>
+<td><p>Аргументы имеют неверный тип, выходят за пределы допустимого диапазона или конфликтуют друг с другом.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrInvalidConnection</strong></p></td>
+<td><p><strong>Адерринвалидконнектион</strong></p></td>
 <td><p>3709<br />
--2146824579<br />
+— 2146824579<br />
 0x800A0E7D</p></td>
-<td><p>Подключение не может использоваться для выполнения этой операции. Он является закрытой или недопустимый в данном контексте.</p></td>
+<td><p>Невозможно использовать соединение для выполнения этой операции. Он либо закрывается, либо не является допустимым в данном контексте.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrInvalidParamInfo</strong></p></td>
+<td><p><strong>Адерринвалидпараминфо</strong></p></td>
 <td><p>3708<br />
--2146824580<br />
+— 2146824580<br />
 0x800A0E7C</p></td>
-<td><p>Объект <strong>параметра</strong> определен неправильно. Несогласованные или неполные сведения отсутствуют.</p></td>
+<td><p>Объект <strong>Parameter</strong> определен неправильно. Предоставлены несогласованные или неполные сведения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrInvalidTransaction</strong></p></td>
+<td><p><strong>Адерринвалидтрансактион</strong></p></td>
 <td><p>3714<br />
--2146824574<br />
+— 2146824574<br />
 0x800A0E82</p></td>
-<td><p>Координирование транзакций является недопустимым или не запущен.</p></td>
+<td><p>Координация транзакции является недопустимой или не запущена.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrInvalidURL</strong></p></td>
+<td><p><strong>Адерринвалидурл</strong></p></td>
 <td><p>3729<br />
--2146824559<br />
+— 2146824559<br />
 0x800A0E91</p></td>
-<td><p>URL-адрес содержит недопустимые символы. Убедитесь в том, что URL-адрес введен правильно.</p></td>
+<td><p>URL-адрес содержит недопустимые символы. Убедитесь, что URL-адрес введен правильно.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrItemNotFound</strong></p></td>
+<td><p><strong>Адерритемнотфаунд</strong></p></td>
 <td><p>3265<br />
--2146825023<br />
+— 2146825023<br />
 0x800A0CC1</p></td>
-<td><p>Не удается найти элемента в коллекции, соответствующий запрошенные имя или порядковый номер.</p></td>
+<td><p>Не удается найти элемент в семействе, соответствующем запрошенному имени или порядковому номеру.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrNoCurrentRecord</strong></p></td>
+<td><p><strong>Адеррнокуррентрекорд</strong></p></td>
 <td><p>3021<br />
--2146825267<br />
+— 2146825267<br />
 0x800A0BCD</p></td>
-<td><p><strong>BOF</strong> или <strong>EOF</strong> имеет значение True или текущей запись была удалена. Запрошенная операция требует текущей записи.</p></td>
+<td><p>Либо <strong>BOF</strong> , либо <strong>EOF</strong> имеет значение true, или текущая запись была удалена. Для выполнения запрошенной операции требуется текущая запись.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrNotExecuting</strong></p></td>
+<td><p><strong>Адеррнотексекутинг</strong></p></td>
 <td><p>3715<br />
--2146824573<br />
+— 2146824573<br />
 0x800A0E83</p></td>
-<td><p>Невозможно выполнить операцию во время не выполняется.</p></td>
+<td><p>Не удается выполнить операцию, пока не выполняется.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrNotReentrant</strong></p></td>
+<td><p><strong>Адеррнотринтрант</strong></p></td>
 <td><p>3710<br />
--2146824578<br />
+— 2146824578<br />
 0x800A0E7E</p></td>
-<td><p>Невозможно выполнить операцию во время обработки событий.</p></td>
+<td><p>Не удается выполнить операцию во время обработки события.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrObjectClosed</strong></p></td>
+<td><p><strong>Адерробжектклосед</strong></p></td>
 <td><p>3704<br />
--2146824584<br />
+— 2146824584<br />
 0x800A0E78</p></td>
-<td><p>Операция не допускается при закрытии объекта.</p></td>
+<td><p>Операция не разрешена при закрытии объекта.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrObjectInCollection</strong></p></td>
+<td><p><strong>Адерробжектинколлектион</strong></p></td>
 <td><p>3367<br />
--2146824921<br />
+— 2146824921<br />
 0x800A0D27</p></td>
-<td><p>Объект уже присутствует в коллекции. Не удается добавить.</p></td>
+<td><p>Объект уже находится в коллекции. Не удается добавить.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrObjectNotSet</strong></p></td>
+<td><p><strong>Адерробжектнотсет</strong></p></td>
 <td><p>3420<br />
--2146824868<br />
+— 2146824868<br />
 0x800A0D5C</p></td>
 <td><p>Объект больше не является допустимым.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrObjectOpen</strong></p></td>
+<td><p><strong>Адерробжектопен</strong></p></td>
 <td><p>3705<br />
--2146824583<br />
+— 2146824583<br />
 0x800A0E79</p></td>
-<td><p>Операция не разрешена, когда объект открыт.</p></td>
+<td><p>Операция не разрешена, если объект открыт.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrOpeningFile</strong></p></td>
+<td><p><strong>Адерропенингфиле</strong></p></td>
 <td><p>3002<br />
--2146825286<br />
+— 2146825286<br />
 0x800A0BBA</p></td>
-<td><p>Не удается открыть файл.</p></td>
+<td><p>Не удалось открыть файл.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrOperationCancelled</strong></p></td>
+<td><p><strong>Адерроператионканцеллед</strong></p></td>
 <td><p>3712<br />
--2146824576<br />
+— 2146824576<br />
 0x800A0E80</p></td>
 <td><p>Операция отменена пользователем.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrOutOfSpace</strong></p></td>
+<td><p><strong>Адерраутофспаце</strong></p></td>
 <td><p>3734<br />
--2146824554<br />
+— 2146824554<br />
 0x800A0E96</p></td>
-<td><p>Невозможно выполнить операцию. Поставщик не удается получить достаточно дискового пространства.</p></td>
+<td><p>Не удается выполнить операцию. Поставщик не может получить достаточно места для хранения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrPermissionDenied</strong></p></td>
+<td><p><strong>Адеррпермиссиондениед</strong></p></td>
 <td><p>3720<br />
--2146824568<br />
+— 2146824568<br />
 0x800A0E88</p></td>
-<td><p>Недостаточно разрешений не позволяет записи в поле.</p></td>
+<td><p>Разрешение Инсуффицент запрещает запись в поле.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrProviderFailed</strong></p></td>
+<td><p><strong>Адеррпровидерфаилед</strong></p></td>
 <td><p>3000<br />
--2146825288<br />
+— 2146825288<br />
 0x800A0BB8</p></td>
-<td><p>Не удалось выполнить запрошенную операцию поставщика.</p></td>
+<td><p>Поставщику не удалось выполнить запрошенную операцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrProviderNotFound</strong></p></td>
+<td><p><strong>Адеррпровидернотфаунд</strong></p></td>
 <td><p>3706<br />
--2146824582<br />
+— 2146824582<br />
 0x800A0E7A</p></td>
-<td><p>Не удается найти поставщика. Она может быть установлено неправильно.</p></td>
+<td><p>Не удается найти поставщика. Он может быть неправильно установлен.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrReadFile</strong></p></td>
+<td><p><strong>Адеррреадфиле</strong></p></td>
 <td><p>3003<br />
--2146825285<br />
+— 2146825285<br />
 0x800A0BBB</p></td>
 <td><p>Не удалось прочитать файл.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrResourceExists</strong></p></td>
+<td><p><strong>Адеррресаурцеексистс</strong></p></td>
 <td><p>3731<br />
--2146824557<br />
+— 2146824557<br />
 0x800A0E93</p></td>
-<td><p>Невозможно выполнить операцию копирования. Объект с именем, URL-адрес назначения уже существует. Укажите <strong>adCopyOverwrite</strong> объект.</p></td>
+<td><p>Не удается выполнить операцию копирования. Объект с именем URL-адреса назначения уже существует. Укажите <strong>адкопйоверврите</strong> , чтобы заменить объект.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrResourceLocked</strong></p></td>
+<td><p><strong>Адеррресаурцелоккед</strong></p></td>
 <td><p>3730<br />
--2146824558<br />
+— 2146824558<br />
 0x800A0E92</p></td>
-<td><p>Объект, представленный указанным URL-адрес заблокирован один или несколько других процессов. Дождитесь завершения процесса и повторите попытку выполнения операции.</p></td>
+<td><p>Объект, представленный указанным URL-АДРЕСом, заблокирован одним или несколькими другими процессами. ДоЖдитесь завершения процесса и повторите операцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrResourceOutOfScope</strong></p></td>
+<td><p><strong>Адеррресаурцеаутофскопе</strong></p></td>
 <td><p>3735<br />
--2146824553<br />
+— 2146824553<br />
 0x800A0E97</p></td>
-<td><p>URL-адрес источника и назначения выходит за рамки текущей записи.</p></td>
+<td><p>Исходный или конечный URL-адрес находится вне области текущей записи.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrSchemaViolation</strong></p></td>
+<td><p><strong>Адеррсчемавиолатион</strong></p></td>
 <td><p>3722<br />
--2146824566<br />
+— 2146824566<br />
 0x800A0E8A</p></td>
-<td><p>Данные значения конфликтует с типом данных или ограничения поля.</p></td>
+<td><p>Значение данных вступает в противоречие с типом данных или ограничениями поля.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrSignMismatch</strong></p></td>
+<td><p><strong>Адеррсигнмисматч</strong></p></td>
 <td><p>3723<br />
--2146824565<br />
+— 2146824565<br />
 0x800A0E8B</p></td>
-<td><p>Сбой преобразования, так как значение данных имеет знак, а тип данных поля, используемый поставщиком без знака.</p></td>
+<td><p>Произошел сбой преобразования, так как значение данных было подписано, а тип данных поля, используемый поставщиком, не подписан.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrStillConnecting</strong></p></td>
+<td><p><strong>Адеррстиллконнектинг</strong></p></td>
 <td><p>3713<br />
--2146824575<br />
+— 2146824575<br />
 0x800A0E81</p></td>
-<td><p>Не удается выполнить операцию при подключении aynchronously.</p></td>
+<td><p>Не удается выполнить операцию при подключении айнчронаусли.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrStillExecuting</strong></p></td>
+<td><p><strong>Адеррстиллексекутинг</strong></p></td>
 <td><p>3711<br />
--2146824577<br />
+— 2146824577<br />
 0x800A0E7F</p></td>
-<td><p>Невозможно выполнить операцию во время выполнения асинхронно.</p></td>
+<td><p>Не удается выполнить операцию во время асинхронного выполнения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrTreePermissionDenied</strong></p></td>
+<td><p><strong>Адерртрипермиссиондениед</strong></p></td>
 <td><p>3728<br />
--2146824560<br />
+— 2146824560<br />
 0x800A0E90</p></td>
-<td><p>Недостаточно разрешений для доступа к дерево или поддерево.</p></td>
+<td><p>Недостаточно разрешений для доступа к дереву или поддереву.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrUnavailable</strong></p></td>
+<td><p><strong>Адеррунаваилабле</strong></p></td>
 <td><p>3736<br />
--2146824552<br />
+— 2146824552<br />
 0x800A0E98</p></td>
-<td><p>Не удалось завершить операцию и состояние недоступна. Поле может быть недоступна или не попытка выполнения операции.</p></td>
+<td><p>Не удалось завершить операцию, состояние — недоступно. Поле может быть недоступно или операция не была предпринята.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrUnsafeOperation</strong></p></td>
+<td><p><strong>Адеррунсафеоператион</strong></p></td>
 <td><p>3716<br />
--2146824572<br />
+— 2146824572<br />
 0x800A0E84</p></td>
-<td><p>Параметры безопасности на данном компьютере запрещают доступ к источнику данных в другом домене.</p></td>
+<td><p>Параметры безопасности этого компьютера запрещают доступ к источнику данных в другом домене.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrURLDoesNotExist</strong></p></td>
+<td><p><strong>Адеррурлдоеснотексист</strong></p></td>
 <td><p>3727<br />
--2146824561<br />
+— 2146824561<br />
 0x800A0E8F</p></td>
-<td><p>Исходный URL-адрес или родительский URL-адрес конечного не существует.</p></td>
+<td><p>Либо исходный URL-адрес, либо родительский URL-адрес назначения не существует.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrURLNamedRowDoesNotExist</strong></p></td>
+<td><p><strong>Адеррурлнамедровдоеснотексист</strong></p></td>
 <td><p>3737<br />
--2146824551<br />
+— 2146824551<br />
 0x800A0E99</p></td>
-<td><p>Запись с именем, этот URL-адрес не существует.</p></td>
+<td><p>Запись, указанная с помощью этого URL-адреса, не существует.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adErrVolumeNotFound</strong></p></td>
+<td><p><strong>Адеррволуменотфаунд</strong></p></td>
 <td><p>3733<br />
--2146824555<br />
+— 2146824555<br />
 0x800A0E95</p></td>
-<td><p>Поставщик может найти запоминающее устройство, указанный в параметре URL-адрес. Убедитесь в том, что URL-адрес введен правильно.</p></td>
+<td><p>Поставщик не может определить устройство хранения данных, указанное с помощью URL-адреса. Убедитесь, что URL-адрес введен правильно.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adErrWriteFile</strong></p></td>
+<td><p><strong>Адеррвритефиле</strong></p></td>
 <td><p>3004<br />
--2146825284<br />
+— 2146825284<br />
 0x800A0BBC</p></td>
-<td><p>Запись в файл не удалось.</p></td>
+<td><p>Ошибка записи в файл.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adWrnSecurityDialog</strong></p></td>
+<td><p><strong>Адврнсекуритидиалог</strong></p></td>
 <td><p>3717<br />
--2146824571<br />
+— 2146824571<br />
 0x800A0E85</p></td>
 <td><p>Только для внутреннего использования. Не следует использовать.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adWrnSecurityDialogHeader</strong></p></td>
+<td><p><strong>Адврнсекуритидиалогхеадер</strong></p></td>
 <td><p>3718<br />
--2146824570<br />
+— 2146824570<br />
 0x800A0E86</p></td>
 <td><p>Только для внутреннего использования. Не следует использовать.</p></td>
 </tr>
@@ -431,9 +431,9 @@ ms.locfileid: "28717666"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
-Определяются следующие подмножества ADO/WFC эквивалентами.
+Определены только следующие подмножества эквивалентов ADO/WFC.
 
 <table>
 <colgroup>
@@ -446,67 +446,67 @@ ms.locfileid: "28717666"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.BOUNDTOCOMMAND</p></td>
+<td><p>Адоенумс. Еррорвалуе. БАУНДТОКОММАНД</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.DATACONVERSION</p></td>
+<td><p>Адоенумс. Еррорвалуе. CONVERSION</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.FEATURENOTAVAILABLE</p></td>
+<td><p>Адоенумс. Еррорвалуе. ФЕАТУРЕНОТАВАИЛАБЛЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.ILLEGALOPERATION</p></td>
+<td><p>Адоенумс. Еррорвалуе. ИЛЛЕГАЛОПЕРАТИОН</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.INTRANSACTION</p></td>
+<td><p>Адоенумс. Еррорвалуе. TRANSACTION</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.INVALIDARGUMENT</p></td>
+<td><p>Адоенумс. Еррорвалуе. INVALIDARGUMENT</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.INVALIDCONNECTION</p></td>
+<td><p>Адоенумс. Еррорвалуе. ИНВАЛИДКОННЕКТИОН</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.INVALIDPARAMINFO</p></td>
+<td><p>Адоенумс. Еррорвалуе. ИНВАЛИДПАРАМИНФО</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.ITEMNOTFOUND</p></td>
+<td><p>Адоенумс. Еррорвалуе. ITEMNOTFOUND</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.NOCURRENTRECORD</p></td>
+<td><p>Адоенумс. Еррорвалуе. НОКУРРЕНТРЕКОРД</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.NOTEXECUTING</p></td>
+<td><p>Адоенумс. Еррорвалуе. НОТЕКСЕКУТИНГ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.NOTREENTRANT</p></td>
+<td><p>Адоенумс. Еррорвалуе. НОТРИНТРАНТ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OBJECTCLOSED</p></td>
+<td><p>Адоенумс. Еррорвалуе. ОБЖЕКТКЛОСЕД</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.OBJECTINCOLLECTION</p></td>
+<td><p>Адоенумс. Еррорвалуе. ОБЖЕКТИНКОЛЛЕКТИОН</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OBJECTNOTSET</p></td>
+<td><p>Адоенумс. Еррорвалуе. ОБЖЕКТНОТСЕТ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.OBJECTOPEN</p></td>
+<td><p>Адоенумс. Еррорвалуе. ОБЖЕКТОПЕН</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.OPERATIONCANCELLED</p></td>
+<td><p>Адоенумс. Еррорвалуе. ОПЕРАТИОНКАНЦЕЛЛЕД</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.PROVIDERNOTFOUND</p></td>
+<td><p>Адоенумс. Еррорвалуе. ПРОВИДЕРНОТФАУНД</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.STILLCONNECTING</p></td>
+<td><p>Адоенумс. Еррорвалуе. СТИЛЛКОННЕКТИНГ</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.ErrorValue.STILLEXECUTING</p></td>
+<td><p>Адоенумс. Еррорвалуе. СТИЛЛЕКСЕКУТИНГ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.ErrorValue.UNSAFEOPERATION</p></td>
+<td><p>Адоенумс. Еррорвалуе. УНСАФЕОПЕРАТИОН</p></td>
 </tr>
 </tbody>
 </table>

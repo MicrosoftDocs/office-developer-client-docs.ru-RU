@@ -1,5 +1,5 @@
 ---
-title: Код HelloData (Справочник по для настольных баз данных Access)
+title: Код HelloData (Справочник по базам данных Access на компьютере)
 TOCTitle: HelloData code
 ms:assetid: b413a72a-fb85-177a-2d93-27c2bde935b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249860(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3f180413b47d909d0f23a8dacd70f85bc9684c57
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705605"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292008"
 ---
 # <a name="hellodata-code"></a>Код HelloData
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ```vb 
  

@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3b201fd952587f634387876fb7aef995eccc8c58
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699480"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306232"
 ---
 # <a name="using-ado-with-microsoft-visual-j"></a>Использование ADO с Microsoft Visual J++
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Вы можете реализовать ADO с помощью Visual J ++ следующими способами:
+Вы можете реализовать ADO с помощью Visual J++ следующими способами:
 
-  - С помощью Visual J ++ 6.0 (или более поздней версии) используйте [ADO для Windows Foundation классы](ado-wfc-programming.md).
+  - В Visual J++ 6,0 (или более поздней версии) используйте [классы ADO для Windows Foundation](ado-wfc-programming.md).
 
-  - С помощью Visual J ++ 1.x, с помощью [Мастера библиотеки типов Java](using-the-java-type-library-wizard.md).
+  - В Visual J++ 1. x используйте [Мастер библиотек типов Java](using-the-java-type-library-wizard.md).
 
-  - С помощью программы [Microsoft SDK для Java](using-the-microsoft-sdk-for-java.md) .
+  - Используйте [Microsoft SDK для](using-the-microsoft-sdk-for-java.md) служебных программ Java.
 
-Для получения дополнительных сведений об использовании ADO с помощью Visual J ++ в следующих разделах:
+Дополнительные сведения об использовании ADO с Visual J++ представлены в следующих разделах:
 
-  - [Класс оболочки ADO Java](ado-java-class-wrappers.md)
+  - [ADO Java Class Wrappers](ado-java-class-wrappers.md)
 
-  - [Синтаксис ADO/WFC индекса](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-wfc-syntax-index)
+  - [Индекс синтаксиса ADO/WFC](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-wfc-syntax-index)
 

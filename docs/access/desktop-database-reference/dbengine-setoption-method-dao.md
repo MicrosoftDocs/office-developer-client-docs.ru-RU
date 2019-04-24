@@ -1,5 +1,5 @@
 ---
-title: 'Метод: DBEngine.SetOption (DAO)'
+title: Метод DBEngine. SetOption (DAO)
 TOCTitle: SetOption Method
 ms:assetid: ea55c10c-2385-1b7e-0cba-32982c9b6643
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836236(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5875a8935b1b44c3c36b29344af32df552f6e01c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699893"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294199"
 ---
-# <a name="dbenginesetoption-method-dao"></a>Метод: DBEngine.SetOption (DAO)
+# <a name="dbenginesetoption-method-dao"></a>Метод DBEngine. SetOption (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Временно переопределяет значения для клавиш ядра базы данных Microsoft Access в реестре Windows (только для рабочих областей Microsoft Access).
+Временно переопределяет значения ключей ядра СУБД Microsoft Access в реестре Windows (только для рабочих областей Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . SetOption (***вариант***, ***значение***)
+*Expression* . SetOption (***параметр***, ***значение***)
 
-*выражение* Выражение, возвращающее объект **DBEngine** .
+*Expression (выражение* ) Выражение, возвращающее объект **DBEngine** .
 
 ## <a name="parameters"></a>Параметры
 
@@ -42,23 +42,23 @@ ms.locfileid: "28699893"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Option</em></p></td>
+<td><p><em>Вариант</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Константа, как описано в разделе Примечания.</p></td>
+<td><p>Константа, описанная в разделе Примечания.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Value</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Значение, которое требуется для параметра.</p></td>
+<td><p>Значение, которое необходимо присвоить параметру.</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,7 +66,7 @@ ms.locfileid: "28699893"
 
 ## <a name="remarks"></a>Замечания
 
-Каждая константа ссылается на соответствующий раздел реестра в поле путь HKEY\_ЛОКАЛЬНОГО\_МАШИНЫ\\программного обеспечения\\Microsoft\\Office\\12.0\\ядро доступа подключения к\\обработчики\\ACE (то есть, **dbSharedAsyncDelay** соответствующий ключ HKEY\_ЛОКАЛЬНОГО\_МАШИНЫ\\программного обеспечения\\Microsoft\\Office\\12.0\\модуль подключения к Access\\обработчики\\элемент управления ДОСТУПОМ \\SharedAsyncDelay, и так далее).
+Каждая константа относится к соответствующему разделу реестра в пути\_к\_локальному компьютеру\\в\\пути\\к программному\\обеспечению\\\\Microsoft\\Office 12,0 Access Engines Engine (то есть **дбшаредасинкделай** соответствует ключевому программному\_обеспечению\\\\для локального\\\_компьютера\\hKey\\механизмы\\подключения к\\Microsoft Office 12,0 Access Engines \\Шаредасинкделай и т. д.).
 
 <table>
 <colgroup>
@@ -81,52 +81,52 @@ ms.locfileid: "28699893"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>dbPageTimeout</strong></p></td>
-<td><p>Клавиша PageTimeout</p></td>
+<td><p><strong>Дбпажетимеаут</strong></p></td>
+<td><p>Ключ Пажетимеаут</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSharedAsyncDelay</strong></p></td>
-<td><p>Клавиша SharedAsyncDelay</p></td>
+<td><p><strong>Дбшаредасинкделай</strong></p></td>
+<td><p>Ключ Шаредасинкделай</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbExclusiveAsyncDelay</strong></p></td>
-<td><p>Клавиша ExclusiveAsyncDelay</p></td>
+<td><p><strong>Дбексклусивеасинкделай</strong></p></td>
+<td><p>Ключ Ексклусивеасинкделай</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbLockRetry</strong></p></td>
-<td><p>Клавиша LockRetry</p></td>
+<td><p><strong>Дблоккретри</strong></p></td>
+<td><p>Ключ Локкретри</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbUserCommitSync</strong></p></td>
-<td><p>Клавиша UserCommitSync</p></td>
+<td><p><strong>Дбусеркоммитсинк</strong></p></td>
+<td><p>Ключ Усеркоммитсинк</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbImplicitCommitSync</strong></p></td>
-<td><p>Клавиша ImplicitCommitSync</p></td>
+<td><p><strong>ДбимплиЦиткоммитсинк</strong></p></td>
+<td><p>Ключ ИмплиЦиткоммитсинк</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbMaxBufferSize</strong></p></td>
-<td><p>Клавиша MaxBufferSize</p></td>
+<td><p><strong>Дбмаксбуфферсизе</strong></p></td>
+<td><p>Ключ Максбуфферсизе</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbMaxLocksPerFile</strong></p></td>
-<td><p>Клавиша MaxLocksPerFile</p></td>
+<td><p><strong>Дбмакслокксперфиле</strong></p></td>
+<td><p>Ключ MaxLocksPerFile</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbLockDelay</strong></p></td>
-<td><p>Клавиша LockDelay</p></td>
+<td><p><strong>Дблоккделай</strong></p></td>
+<td><p>Ключ Локкделай</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbRecycleLVs</strong></p></td>
-<td><p>Клавиша RecycleLVs</p></td>
+<td><p><strong>Дбрециклелвс</strong></p></td>
+<td><p>Ключ Рециклелвс</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbFlushTransactionTimeout</strong></p></td>
-<td><p>Клавиша FlushTransactionTimeout</p></td>
+<td><p><strong>Дбфлуштрансактионтимеаут</strong></p></td>
+<td><p>Ключ Флуштрансактионтимеаут</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Используйте метод **SetOption** переопределение значения реестра во время выполнения. Новые значения, установленных с помощью метода **SetOption** остаются в силе до еще раз изменена другой вызов **SetOption** или закрытии объекта **DBEngine** .
+Метод **SetOption** используется для переопределения значений реестра во время выполнения. Новые значения, установленные с помощью метода **SetOption** , действуют до тех пор, пока не будут изменены другим вызовом **SetOption** или пока объект **DBEngine** не будет закрыт.
 

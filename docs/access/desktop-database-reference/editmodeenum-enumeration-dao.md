@@ -1,5 +1,5 @@
 ---
-title: Перечисление EditModeEnum (DAO)
+title: Перечисление Едитмодинум (DAO)
 TOCTitle: EditModeEnum Enumeration
 ms:assetid: 738ab5b7-75dc-2e45-45f2-eb64cc7e9527
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195860(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 1bd4ab28dc5638047668383838b256b1b08892d5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700628"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293604"
 ---
-# <a name="editmodeenum-enumeration-dao"></a>Перечисление EditModeEnum (DAO)
+# <a name="editmodeenum-enumeration-dao"></a>Перечисление Едитмодинум (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Указывает состояние редактирования для текущей записи.
 
@@ -36,19 +36,19 @@ ms.locfileid: "28700628"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbEditAdd</p></td>
+<td><p>Дбедитадд</p></td>
 <td><p>2</p></td>
-<td><p>Метод <strong>AddNew</strong> вызван.</p></td>
+<td><p>Вызван метод <strong>AddNew</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>dbEditInProgress</p></td>
-<td><p>1</p></td>
-<td><p><strong>Изменение</strong> вызванного метода.</p></td>
+<td><p>Дбедитинпрогресс</p></td>
+<td><p>1,1</p></td>
+<td><p>Вызван метод <strong>Edit</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbEditNone</p></td>
-<td><p>0</p></td>
-<td><p><strong>Изменение</strong> вызванного метода.</p></td>
+<td><p>Дбедитноне</p></td>
+<td><p>нуль</p></td>
+<td><p>Вызван метод <strong>Edit</strong> .</p></td>
 </tr>
 </tbody>
 </table>

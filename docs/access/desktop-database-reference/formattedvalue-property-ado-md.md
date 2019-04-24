@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d750944cd42feb95b09f53382c54329ea0c32e1d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711597"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292316"
 ---
 # <a name="formattedvalue-property-ado-md"></a>Свойство FormattedValue (ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, отформатированный отображаемое значение ячейки.
+Указывает отформатированное отображение значения ячейки.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает **строку** и доступен только для чтения.
+Возвращает **строку** и доступна только для чтения.
 
 ## <a name="remarks"></a>Замечания
 
-Используйте свойство **FormattedValue** для получения форматированный отображаемое значение свойства [Value](value-property-ado-md.md) объекта [ячейки](cell-object-ado-md.md) . Например если значение ячейки было 1056.87, и это значение представлено денежное значение, **FormattedValue** будет 1,056.87 $.
+Используйте свойство **FormattedValue** для получения форматированного отображаемого значения свойства [value](value-property-ado-md.md) объекта [Cell](cell-object-ado-md.md) . Например, если ячейка имеет значение 1056,87, а это значение представляет собой денежное значение, то **FormattedValue** будет $1 056,87.
 

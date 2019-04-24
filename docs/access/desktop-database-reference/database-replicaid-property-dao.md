@@ -1,5 +1,5 @@
 ---
-title: Свойство Database.ReplicaID (DAO)
+title: Свойство Database. ReplicaID (DAO)
 TOCTitle: ReplicaID Property
 ms:assetid: cf2ca8a1-d13f-30e0-2ca1-dd32ac736c56
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834672(v=office.15)
@@ -12,37 +12,37 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 2ada9bf23a4b8fc34c5f9b4f24350fc6af91dc85
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294717"
 ---
-# <a name="databasereplicaid-property-dao"></a>Свойство Database.ReplicaID (DAO)
+# <a name="databasereplicaid-property-dao"></a>Свойство Database. ReplicaID (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 
-Возвращает 16-битное значение, уникальным образом идентифицирующее реплики базы данных (только для рабочих областей Microsoft Access).
+Возвращает 16-байтовое значение, уникально идентифицирующее реплику базы данных (только для рабочих областей Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . ReplicaID
+*Expression* . Одинаковые
 
-*выражение* Переменная, которая представляет собой объект **базы данных** .
+*выражение*: переменная, представляющая объект **Database**.
 
 ## <a name="remarks"></a>Замечания
 
-Возвращаемое значение — это значение **GUID** , который уникальным образом определяет, так и основной.
+Возвращаемое значение — это значение **GUID** , которое уникально идентифицирует реплику или основную реплику.
 
-Ядро базы данных Microsoft Access автоматически создает это значение при создании новой реплики.
+Ядро СУБД Microsoft Access автоматически создает это значение при создании новой реплики.
 
-Свойство **ReplicaID** каждой реплики (и основной) хранятся в таблице MSysReplicas системы.
+Свойство **replicaId** каждой реплики (и основной реплики) хранится в системной таблице мсисрепликас.
 
 ## <a name="example"></a>Пример
 
-В этом примере вносятся реплики из основной части Northwind.mdb и возвращает реплики **ReplicaID**, которая создается автоматически ядром СУБД Microsoft Access. (Если основной Northwind еще не создан, ссылка на свойство **является реплицируемым** или измените имя базы данных в коде для имеющегося образца разработки).
+В этом примере создается реплика из основной реплики базы данных Northwind. mdb, а затем возвращается значение **replicaId**реплики, которое автоматически создается ядром СУБД Microsoft Access. (Если вы еще не создали основную реплику базы данных, обратитесь к свойству **Реплицируемое** или измените имя базы данных в коде на существующую основную реплику.)
 
 ```vb 
 Sub MakeReplicaReplicaIDX() 

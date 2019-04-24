@@ -1,5 +1,5 @@
 ---
-title: Свойство Field.CollatingOrder (DAO)
+title: Свойство Field. Коллатингордер (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: a2607ace-a660-899b-eae8-4612ce2f87f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820980(v=office.15)
@@ -12,28 +12,28 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 3d016d779472ec9809d3ac5c77158c2c1d994f3c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718233"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293128"
 ---
-# <a name="fieldcollatingorder-property-dao"></a>Свойство Field.CollatingOrder (DAO)
+# <a name="fieldcollatingorder-property-dao"></a>Свойство Field. Коллатингордер (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает значение, указывающее последовательность порядок сортировки в текст для сравнения строк или сортировка (только для рабочих областей Microsoft Access). Только для чтения **времени**.
+Возвращает значение, задающее последовательность порядка сортировки в тексте для сравнения строк или сортировки (только для рабочих областей Microsoft Access). Только для чтения, **Long**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . CollatingOrder
+*Expression* . Коллатингордер
 
-*выражение* Переменная, которая представляет собой объект- **поля** .
+*выражение*: переменная, представляющая объект **Field**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Комментарии
 
-Возвращаемое значение — **длинное целое** значение или константа, которая может иметь одно из следующих значений.
+Возвращаемое значение — это **длинное** значение или константа, которая может принимать одно из следующих значений.
 
 <table>
 <colgroup>
@@ -48,110 +48,110 @@ ms.locfileid: "28718233"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>dbSortGeneral</strong></p></td>
-<td><p>Общие (английский, французский, немецкий, португальский, итальянский и современных на испанском языке)</p></td>
+<td><p><strong>Дбсортженерал</strong></p></td>
+<td><p>Общие (английский, французский, немецкий, португальский, итальянский и современная Испанская)</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortArabic</strong></p></td>
+<td><p><strong>Дбсортарабик</strong></p></td>
 <td><p>арабский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortChineseSimplified</strong></p></td>
-<td><p>Китайский (упрощенное письмо)</p></td>
+<td><p><strong>Дбсортчинесесимплифиед</strong></p></td>
+<td><p>китайский (упрощенное письмо)</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortChineseTraditional</strong></p></td>
-<td><p>Китайский (традиционное письмо)</p></td>
+<td><p><strong>Дбсортчинесетрадитионал</strong></p></td>
+<td><p>китайский (традиционное письмо)</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortCyrillic</strong></p></td>
+<td><p><strong>Дбсортцириллик</strong></p></td>
 <td><p>русский;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortCzech</strong></p></td>
+<td><p><strong>Дбсорткзеч</strong></p></td>
 <td><p>чешский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortDutch</strong></p></td>
+<td><p><strong>Дбсортдутч</strong></p></td>
 <td><p>голландский;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortGreek</strong></p></td>
+<td><p><strong>Дбсортгрик</strong></p></td>
 <td><p>греческий;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortHebrew</strong></p></td>
+<td><p><strong>Дбсорсебрев</strong></p></td>
 <td><p>иврит;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortHungarian</strong></p></td>
+<td><p><strong>Дбсорсунгариан</strong></p></td>
 <td><p>венгерский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortIcelandic</strong></p></td>
+<td><p><strong>Дбсортицеландик</strong></p></td>
 <td><p>Исландский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortJapanese</strong></p></td>
+<td><p><strong>Дбсортжапанесе</strong></p></td>
 <td><p>японский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortKorean</strong></p></td>
+<td><p><strong>Дбсорткореан</strong></p></td>
 <td><p>корейский;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortNeutral</strong></p></td>
+<td><p><strong>Дбсортнеутрал</strong></p></td>
 <td><p>Нейтральный</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortNorwDan</strong></p></td>
-<td><p>Датский и норвежский</p></td>
+<td><p><strong>Дбсортнорвдан</strong></p></td>
+<td><p>Норвежский или датский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortPDXIntl</strong></p></td>
-<td><p>Международный Paradox</p></td>
+<td><p><strong>Дбсортпдксинтл</strong></p></td>
+<td><p>Международная связь Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortPDXNor</strong></p></td>
-<td><p>Датский и норвежский Paradox</p></td>
+<td><p><strong>Дбсортпдкснор</strong></p></td>
+<td><p>Paradox норвежский или датский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortPDXSwe</strong></p></td>
-<td><p>Финский и шведский Paradox</p></td>
+<td><p><strong>Дбсортпдкссве</strong></p></td>
+<td><p>Paradox шведский или Финский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortPolish</strong></p></td>
+<td><p><strong>Дбсортполиш</strong></p></td>
 <td><p>польский;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortSlovenian</strong></p></td>
+<td><p><strong>Дбсортсловениан</strong></p></td>
 <td><p>словенский;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortSpanish</strong></p></td>
+<td><p><strong>Дбсортспаниш</strong></p></td>
 <td><p>испанский;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortSwedFin</strong></p></td>
-<td><p>Финский и шведский</p></td>
+<td><p><strong>Дбсортсведфин</strong></p></td>
+<td><p>Шведский или Финский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortThai</strong></p></td>
+<td><p><strong>Дбсортсаи</strong></p></td>
 <td><p>тайский;</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>dbSortTurkish</strong></p></td>
+<td><p><strong>Дбсорттуркиш</strong></p></td>
 <td><p>турецкий;</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>dbSortUndefined</strong></p></td>
-<td><p>Неопределенный или неизвестный</p></td>
+<td><p><strong>Дбсортундефинед</strong></p></td>
+<td><p>Неопределенное или неизвестное</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Доступность свойство **CollatingOrder** зависит от объекта, который содержит коллекцию **полей** , как показано в следующей таблице.
+Доступность свойства **коллатингордер** зависит от объекта, содержащего коллекцию Fields, как **** показано в следующей таблице.
 
 <table>
 <colgroup>
@@ -160,13 +160,13 @@ ms.locfileid: "28718233"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Если принадлежит коллекции полей</p></th>
-<th><p>Затем — CollatingOrder</p></th>
+<th><p>Если коллекция Fields принадлежит к элементу</p></th>
+<th><p>Затем Коллатингордер</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Объект <strong>индекса</strong></p></td>
+<td><p>Объект <strong>Index</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
@@ -174,11 +174,11 @@ ms.locfileid: "28718233"
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="odd">
-<td><p>Объект <strong>набора записей</strong></p></td>
+<td><p>Объект <strong>Recordset</strong></p></td>
 <td><p>Только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Отношения</strong> объектов</p></td>
+<td><p>Объект <strong>Relation</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="odd">
@@ -189,7 +189,7 @@ ms.locfileid: "28718233"
 </table>
 
 
-Настройка свойства **CollatingOrder** соответствует языкового стандарта аргумента метода **CreateDatabase** при создании базы данных или метода **CompactDatabase** при последним сжатие базы данных.
+Значение свойства **коллатингордер** соответствует аргументу языкового стандарта метода **CreateDatabase** при создании базы данных или методе **CompactDatabase** при последнем сжатии базы данных.
 
-Параметры свойства **CollatingOrder** и **атрибуты** объекта **поля** в коллекцию **полей** **индекс** объекта вместе определяют последовательность и направление сортировки в индекс. Тем не менее, невозможно задать порядок сортировки для конкретного индекса, его можно задать только для всей таблицы.
+Параметры свойств **коллатингордер** и **Attributes** объекта **field** в коллекции Fields **** объекта **index** вместе определяют последовательность и направление порядка сортировки в индексе. Однако вы не можете задать порядок сортировки для отдельного индекса — его можно задать только для всей таблицы.
 

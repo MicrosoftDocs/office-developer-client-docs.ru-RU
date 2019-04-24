@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5051cfd74f2a745ee430f2ed8a20445d2f9965f3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716308"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306757"
 ---
 # <a name="removetempvar-macro-action"></a>Макрокоманда RemoveTempVar
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 
 
-Действие **RemoveTempVar** можно использовать для удаления одного временную переменную, созданный с помощью действия **SetTempVar** .
+Вы можете использовать действие **Макрокоманда removetempvar** для удаления одной временной переменной, созданной с помощью действия **Макрокоманда SetTempVar** .
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Параметр
 
-Действие **RemoveTempVar** использует следующий аргумент.
+Действие **Макрокоманда removetempvar** имеет следующий аргумент.
 
 <table>
 <colgroup>
@@ -45,7 +45,7 @@ ms.locfileid: "28716308"
 <tbody>
 <tr class="odd">
 <td><p><strong>Name</strong></p></td>
-<td><p>Введите имя временную переменную, которые вы хотите удалить.</p></td>
+<td><p>Введите имя временной переменной, которую необходимо удалить.</p></td>
 </tr>
 </tbody>
 </table>
@@ -53,19 +53,19 @@ ms.locfileid: "28716308"
 
 ## <a name="remarks"></a>Замечания
 
-  - Может быть длиной до 255 временные переменные, определенные за один раз. Если вы не удалите временную переменную, остается в памяти до закрытия базы данных. Рекомендуется удалить временные переменные после завершения их использования.
+  - Одновременно может быть определено до 255 временных переменных. Если не удалить временную переменную, она останется в памяти до тех пор, пока не будет закрыта база данных. Рекомендуется удалять временные переменные после завершения их использования.
 
   - Access автоматически удаляет все временные переменные при закрытии базы данных или проекта.
 
-  - Если неправильно введено имя переменной удаляемых доступа не отображает ошибку. Переменная, которую вы хотите удалить будет оставаться в памяти до закрытия базы данных.
+  - Если вы неправильно задаете имя удаляемой переменной, Access не отобразит сообщение об ошибке. Переменная, которую вы хотите удалить, остается в памяти до закрытия базы данных.
 
-  - Если были созданы более одного временную переменную, требуется одновременное удаление используйте действие **RemoveAllTempVars** .
+  - Если вы создали более одной временной переменной и хотите удалить их все сразу, используйте действие **Макрокоманда removealltempvars** .
 
-  - Чтобы выполнить действие **RemoveTempVar** в модуле VBA, используйте метод **Remove** объекта **в TempVar** .
+  - Чтобы выполнить действие **Макрокоманда removetempvar** в модуле VBA, используйте метод Remove **** объекта **TempVars** .
 
 ## <a name="example"></a>Пример
 
-Следующий макрос показано, как создать временную переменную, используйте в окне сообщения и условия и затем удалить временную переменную с помощью действия **RemoveTempVar** .
+В следующем макросе показано, как создать временную переменную, использовать ее в условии и окне сообщения, а затем удалить временную переменную с помощью действия **Макрокоманда removetempvar** .
 
 <table>
 <colgroup>
@@ -76,25 +76,25 @@ ms.locfileid: "28716308"
 <thead>
 <tr class="header">
 <th><p>Условие</p></th>
-<th><p>Action</p></th>
-<th><p>Arguments</p></th>
+<th><p>Действие</p></th>
+<th><p>Аргументы</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>SetTempVar</strong></p></td>
-<td><p><strong>Имя</strong>: MyVar<strong>выражение</strong>: InputBox (&quot;введите ненулевое число.&quot;)</p></td>
+<td><p><strong>Макрокоманда SetTempVar</strong></p></td>
+<td><p><strong>Name</strong>:<strong>выражение</strong>мивар: InputBox (&quot;введите ненулевое значение).&quot;</p></td>
 </tr>
 <tr class="even">
-<td><p>[В TempVar]! [MyVar] &lt; &gt;0</p></td>
+<td><p>[TempVars]! [Мивар] &lt; &gt;0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Сообщение</strong>: =&quot;вы ввели &quot; &amp; [в TempVar]! [MyVar] &amp; &quot;. &quot; <strong>Звуковые сигналы</strong>: <strong>YesType</strong>: <strong>сведения</strong></p></td>
+<td><p><strong>Сообщение</strong>: =&quot;вы ввели &quot; &amp; [TempVars]! [Мивар] &amp; &quot;. &quot; <strong>Гудок</strong>: <strong>естипе</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>RemoveTempVar</strong></p></td>
-<td><p><strong>Имя</strong>: MyVar</p></td>
+<td><p><strong>Макрокоманда removetempvar</strong></p></td>
+<td><p><strong>Name</strong>: мивар</p></td>
 </tr>
 </tbody>
 </table>

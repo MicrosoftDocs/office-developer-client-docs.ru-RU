@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c2d8af2ac4dc49d8ff2236ac49f372864d0d21f6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718247"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293282"
 ---
 # <a name="execute-requery-and-clear-methods-example-vj"></a>Пример использования методов Execute, Requery и Clear (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) . Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в наборе записей и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) . Процедуры ExecuteCommand и PrintOutput необходимы для выполнения этой процедуры.
+В этом примере демонстрируется метод **EXECUTE** при выполнении как из объекта [Command](command-object-ado.md) , так и из объекта [Connection](connection-object-ado.md) . Кроме того, он [](requery-method-ado.md) использует метод Requery для получения текущих данных в объекте Recordset, а метод [clear](clear-method-ado.md) — для очистки содержимого коллекции [Errors](errors-collection-ado.md) . Для выполнения этой процедуры необходимы процедуры ExecuteCommand и Принтаутпут.
 
 ```java 
  

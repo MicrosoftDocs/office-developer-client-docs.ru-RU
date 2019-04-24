@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e98854665185d682b9049b000bf4b600040ba624
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718317"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295424"
 ---
 # <a name="create-method-adox"></a>Метод Create (ADOX)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Создает новый каталог.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Каталог*. Создание*стрсоедин*
+*Каталог*. Создание*коннектстринг*
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
@@ -32,7 +32,7 @@ ms.locfileid: "28718317"
 
 ## <a name="remarks"></a>Замечания
 
-Метод **Create** создает и открывает новый ADO [подключения](connection-object-ado.md) к источнику данных, указанной в *стрсоедин*. В случае успешной свойству [ActiveConnection](activeconnection-property-adox.md) назначен новый объект **подключения** .
+Метод **CREATE** создает и открывает новое [Подключение](connection-object-ado.md) ADO к источнику данных, указанному в *коннектстринг*. В случае успешного выполнения новый объект **Connection** назначается свойству [ActiveConnection](activeconnection-property-adox.md) .
 
 Если поставщик не поддерживает создание новых каталогов, произойдет ошибка.
 

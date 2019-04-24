@@ -1,5 +1,5 @@
 ---
-title: Свойство Database.Connection (DAO)
+title: Свойство Database. Connection (DAO)
 TOCTitle: Connection Property
 ms:assetid: 8b900ea4-9179-9ed1-bc0b-0576939bb2bd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197325(v=office.15)
@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 77d9bfa30dbfab21fd75de36b336a25e6af3187e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709840"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294997"
 ---
-# <a name="databaseconnection-property-dao"></a>Свойство Database.Connection (DAO)
+# <a name="databaseconnection-property-dao"></a>Свойство Database. Connection (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Подключение
+*Expression* . Соединений
 
-*выражение* Переменная, которая представляет собой объект **базы данных** .
+*выражение*: переменная, представляющая объект **Database**.
 
 ## <a name="remarks"></a>Замечания
 
-Используйте свойство **подключение** для получения ссылки на объект **подключения** , соответствующее **базы данных**. В DAO, объект **подключения** и его соответствующего объекта **базы данных** — это просто два разных объектных переменных ссылки на тот же объект. **[База данных](connection-database-property-dao.md)** свойств объекта **подключения** и свойство **Connection** объекта **базы данных** облегчают изменять подключения к источнику данных ODBC с помощью ядро базы данных Microsoft Access, чтобы использовать технология ODBCDirect.
+Используйте свойство **Connection** для получения ссылки на объект **подключения** , соответствующий **базе данных**. В DAO объект **Connection** и соответствующий объект **базы данных** представляют собой две разные ссылки на переменные объекта для одного и того же объекта. Свойство **[Database](connection-database-property-dao.md)** объекта **Connection** и свойство **Connection** объекта **Database** упрощают изменение подключений к источнику данных ODBC с помощью ядра СУБД Microsoft Access для использования ODBCDirect.
 

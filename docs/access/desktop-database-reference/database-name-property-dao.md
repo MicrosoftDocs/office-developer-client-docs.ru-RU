@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 2c4e888c1077f143a773bdb4abf593170a53fbef
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294878"
 ---
 # <a name="databasename-property-dao"></a>Свойство Database.Name (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Возвращает имя указанного объекта. Только для чтения, **String**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Имя
+*Expression* . Расширением
 
-*выражение* Переменная, которая представляет собой объект **базы данных** .
+*выражение*: переменная, представляющая объект **Database**.
 

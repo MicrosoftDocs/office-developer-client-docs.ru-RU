@@ -1,5 +1,5 @@
 ---
-title: Свойство Field2.VisibleValue (DAO)
+title: Свойство field2. Висиблевалуе (DAO)
 TOCTitle: VisibleValue Property
 ms:assetid: 1e023a1a-fd49-7570-42bd-2f4c06ac5e5e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845809(v=office.15)
@@ -12,24 +12,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 0161ea66068457b53a9667a6739c3a3a0458c8c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721033"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292617"
 ---
-# <a name="field2visiblevalue-property-dao"></a>Свойство Field2.VisibleValue (DAO)
+# <a name="field2visiblevalue-property-dao"></a>Свойство field2. Висиблевалуе (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . VisibleValue
+*Expression* . Висиблевалуе
 
-*выражение* Переменная, которая представляет собой объект- **поле2** .
+*expression* — переменная, представляющая объект **Field2**.
 
 ## <a name="remarks"></a>Замечания
 
-Это свойство содержит значение поля, который в данный момент в базе данных на сервере. Во время обновления оптимистичный пакета конфликт может возникнуть, где второй клиента изменены тем же полем и записи между время первого клиента извлечения данных и попытку обновления первого клиента. В этом случае значение, которое задано второй клиента будет доступен через это свойство.
+Это свойство содержит значение поля, которое в настоящее время находится в базе данных на сервере. Во время оптимистического пакетного обновления может произойти конфликт, при котором второй клиент изменил то же поле и записывает данные между моментом, когда первый клиент получил данные, и попытка обновления первого клиента. В этом случае значение, которое будет доступно во втором наборе клиентов, будет доступно через это свойство.
 

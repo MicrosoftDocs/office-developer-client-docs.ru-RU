@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 75556927bc5d3e10526da6a45bfe1e4f6d8abea2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710057"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296271"
 ---
 # <a name="clustered-property-example-vb"></a>Пример использования свойства Clustered (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется свойство [Clustered](clustered-property-adox.md) [индекса](index-object-adox.md). Обратите внимание, что баз данных Microsoft Jet не поддерживают кластеризованных индексов, поэтому этот пример возвращает **значение False** для свойства **Clustered** всех индексов в базе *данных "Борей"* .
+В этом примере показано свойство [cluster](clustered-property-adox.md) [индекса](index-object-adox.md). Обратите внимание, что базы данных Microsoft Jet не поддерживают кластеризованные индексы, поэтому в этом **** примере возвращается **значение false** для свойства Clustered для всех индексов в базе данных *Northwind* .
 
 ```vb 
  

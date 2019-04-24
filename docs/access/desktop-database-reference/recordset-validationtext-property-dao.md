@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset.ValidationText (DAO)
+title: Свойство Recordset. ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 32a5ab9a-becc-b39a-f6da-d44142235c78
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192311(v=office.15)
@@ -12,22 +12,22 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: e090e8de6dceffc753fac2541a2dcc91b88a0dff
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712969"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307520"
 ---
-# <a name="recordsetvalidationtext-property-dao"></a>Свойство Recordset.ValidationText (DAO)
+# <a name="recordsetvalidationtext-property-dao"></a>Свойство Recordset. ValidationText (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, указывающее, текст сообщения, приложение, если значение **поля** объекта не удовлетворяют правило проверки, указанного идентификатором **условие на значение** свойства поля (только для рабочих областей Microsoft Access) . Только для чтения, **String**.
+Задает или возвращает значение, определяющее текст сообщения, которое отображает ваше приложение, если значение объекта **Field** не удовлетворяют правилу проверки, задаваемому настройкой параметра **ValidationRule** (только для рабочих областей Microsoft Access). Только для чтения, **String**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Сообщение об ошибке
+*Expression* . ValidationText
 
-*выражение* Переменная, которая представляет собой объект **набора записей** .
+*expression*: переменная, представляющая объект **Recordset**.
 

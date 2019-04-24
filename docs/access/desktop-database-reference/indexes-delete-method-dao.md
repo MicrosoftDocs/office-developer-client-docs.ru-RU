@@ -1,5 +1,5 @@
 ---
-title: Метод Indexes.Delete (DAO)
+title: Метод indexes. Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 8d3c3221-3b2e-15ba-32ff-f2dfc592d82c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197351(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6ab52f353b7a3e636f64ff2ad6ad5354d62bed48
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291554"
 ---
-# <a name="indexesdelete-method-dao"></a>Метод Indexes.Delete (DAO)
+# <a name="indexesdelete-method-dao"></a>Метод indexes. Delete (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Удаляет указанный **индекс** из набора **индексов** .
+Удаляет указанный **индекс** из коллекции **индексов** .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Удаление (***имя***)
+*Expression* . Delete (***имя***)
 
-*выражение* Переменная, которая представляет объект **индексов** .
+*Expression (выражение* ) Переменная, представляющая объект **индексов** .
 
 ## <a name="parameters"></a>Параметры
 
@@ -38,7 +38,7 @@ ms.locfileid: "28703547"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -48,7 +48,7 @@ ms.locfileid: "28703547"
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Имя индекс, который требуется удалить.</p></td>
+<td><p>Имя индекса, который требуется удалить.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,5 +56,5 @@ ms.locfileid: "28703547"
 
 ## <a name="remarks"></a>Замечания
 
-Метод **Delete** поддерживается только в том случае, когда объект **индекса** новые и еще не был добавлен к базе данных.
+Метод **Delete** поддерживается только в том случае, если объект **index** является новым и не добавлен в базу данных.
 

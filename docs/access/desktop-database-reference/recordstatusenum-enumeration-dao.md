@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: eb7bffaf91db9e1170702d2e36393da669dbe0c6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710505"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309236"
 ---
 # <a name="recordstatusenum-enumeration-dao"></a>Перечисление RecordStatusEnum (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используется совместно со свойством **RecordStatus** для указания состояния обновление текущей записи, если он входит в состав пакета обновления.
+Используется вместе со свойством **рекордстатус** , чтобы указать состояние обновления текущей записи, если она является частью пакетного обновления.
 
 <table>
 <colgroup>
@@ -36,29 +36,29 @@ ms.locfileid: "28710505"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbRecordDBDeleted</p></td>
+<td><p>Дбрекорддбделетед</p></td>
+<td><p>SP4</p></td>
+<td><p>Запись удалена на локальном компьютере и в базе данных.</p></td>
+</tr>
+<tr class="even">
+<td><p>Дбрекордделетед</p></td>
 <td><p>4</p></td>
-<td><p>Запись была удалена, локально и в базе данных.</p></td>
-</tr>
-<tr class="even">
-<td><p>dbRecordDeleted</p></td>
-<td><p>3</p></td>
-<td><p>Удален, но еще не удалены в базе данных записи.</p></td>
+<td><p>Запись была удалена, но еще не удалена в базе данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbRecordModified</p></td>
-<td><p>1</p></td>
-<td><p>Запись изменения и не обновляются в базе данных.</p></td>
+<td><p>Дбрекордмодифиед</p></td>
+<td><p>1,1</p></td>
+<td><p>Запись изменена и не обновлена в базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbRecordNew</p></td>
+<td><p>Дбрекорднев</p></td>
 <td><p>2</p></td>
-<td><p>Вставить с помощью метода <strong>AddNew</strong> , но еще не вставлен в базе данных записи.</p></td>
+<td><p>Запись была вставлена с помощью метода <strong>AddNew</strong> , но еще не вставлена в базу данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbRecordUnmodified</p></td>
-<td><p>0</p></td>
-<td><p>(По умолчанию) Записи не были изменены или успешно обновлены.</p></td>
+<td><p>Дбрекордунмодифиед</p></td>
+<td><p>нуль</p></td>
+<td><p>Умолчани Запись не была изменена или была успешно обновлена.</p></td>
 </tr>
 </tbody>
 </table>

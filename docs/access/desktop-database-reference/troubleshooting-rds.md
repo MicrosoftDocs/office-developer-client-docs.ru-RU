@@ -8,22 +8,22 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 9f62bb4578cfcad978bf596648ad040552edd1a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28726199"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306281"
 ---
 # <a name="troubleshooting-rds"></a>Устранение неполадок RDS
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Обратитесь в этом разделе для решения конкретных ошибки или проблемы с помощью служб удаленных рабочих СТОЛОВ:
+В этом разделе приведены рекомендации по определенным ошибкам или проблемам с RDS:
 
-- [Настройка RDS в Windows 2000](configuring-rds-on-windows-2000.md)
-- [Взаимоблокировок с уровнем изоляции чтения повторяющихся](deadlocks-with-read-repeatable-isolation-level.md)
+- [Configuring RDS on Windows 2000](configuring-rds-on-windows-2000.md)
+- [ВзаимоБлокировки с уровнем изоляции с повторяемым чтением](deadlocks-with-read-repeatable-isolation-level.md)
 - [Обеспечение наличия достаточного места в TempDB](ensuring-sufficient-tempdb-space.md)
-- [Ошибка сервера Интернета: Отказано в доступе](internet-server-error-access-denied.md)
+- [Ошибка сервера Интернета: доступ запрещен](internet-server-error-access-denied.md)
 - [Минимизация места, занимаемого файлом журнала](minimizing-log-file-space-usage.md)
 - [RDS возвращает ошибку "Поток не прочитан"](rds-returns-stream-not-read-error.md)
 

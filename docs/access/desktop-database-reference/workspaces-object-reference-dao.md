@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект рабочие области (DAO)
+title: Справочник по объектам рабочих областей (DAO)
 TOCTitle: Workspaces
 ms:assetid: eb32673a-ffbd-4f6a-9a11-60c93f632be3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn126013(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6aaba4ab42b32033123cd1723108017dfbedeecf
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716952"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302627"
 ---
-# <a name="workspaces-object-reference-dao"></a>Ссылка на объект рабочие области (DAO)
+# <a name="workspaces-object-reference-dao"></a>Справочник по объектам рабочих областей (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-- [Рабочие области для семейства сайтов (DAO)](workspaces-collection-dao.md)
-- [Рабочие области члены (DAO)](workspaces-members-dao.md)
-- [Рабочие области для свойства (DAO)](workspaces-properties-dao.md)
-- [Рабочие области для методов (DAO)](workspaces-methods-dao.md)
+- [Коллекция workspaces (DAO)](workspaces-collection-dao.md)
+- [Участники рабочих областей (DAO)](workspaces-members-dao.md)
+- [Свойства рабочих областей (DAO)](workspaces-properties-dao.md)
+- [Методы рабочих областей (DAO)](workspaces-methods-dao.md)
 

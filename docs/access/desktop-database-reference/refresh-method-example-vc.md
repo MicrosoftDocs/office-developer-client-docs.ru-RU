@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: abeb701e05e8c7c79c8b0cf38528df601e29cdc4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716406"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309250"
 ---
 # <a name="refresh-method-example-vc"></a>Пример использования метода Refresh (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере показано использование метода [обновления на](refresh-method-ado.md) обновление коллекцию [параметров](parameters-collection-ado.md) для хранимой процедуры объект [команды](command-object-ado.md) .
+В этом примере демонстрируется использование метода [Refresh](refresh-method-ado.md) для обновления коллекции [Parameters](parameters-collection-ado.md) для объекта [Command](command-object-ado.md) хранимой процедуры.
 
 ```cpp 
  
@@ -239,7 +239,7 @@ void PrintComError(_com_error &e)
 // EndRefreshCpp 
 ```
 
-**RefreshX.h**
+**Рефрешкс. h**
 
 ```cpp 
  

@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset.Restartable (DAO)
+title: Свойство Recordset. restarted Property (DAO)
 TOCTitle: Restartable Property
 ms:assetid: 00def49d-ea7e-6cd5-2f4a-914a1ddcdd51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844737(v=office.15)
@@ -12,34 +12,34 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: 5142d0d47be37ca8c2e1c6b89462c05b7d41d302
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721698"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307576"
 ---
-# <a name="recordsetrestartable-property-dao"></a>Свойство Recordset.Restartable (DAO)
+# <a name="recordsetrestartable-property-dao"></a>Свойство Recordset. restarted Property (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает значение, указывающее, поддерживает ли объект **[набора записей](recordset-object-dao.md)** метод **[повторный запрос](recordset-requery-method-dao.md)** , который повторно выполняет запрос, на котором основано объекта **набора записей** .
+Возвращает значение, которое указывает на то, поддерживает ли объект **[Recordset](recordset-object-dao.md)** метод **[Requery](recordset-requery-method-dao.md)**, который повторно выполняет запрос, на котором основан объект **Recordset**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Перезапускаемое
+*Expression* . Перезапускаемой
 
-*выражение* Переменная, которая представляет собой объект **набора записей** .
+*expression*: переменная, представляющая объект **Recordset**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Объекты **набора записей** в таблице типа всегда возвращает **значение False**.
+Объект **Recordset** табличного типа всегда возвращает **значение false**.
 
-Проверьте свойство **Restartable** перед использованием метода **повторный запрос** на объект **набора записей** . Если свойство **Restartable** имеет значение **False**, используйте метод **[OpenRecordset](connection-openrecordset-method-dao.md)** для базового объекта **[QueryDef](querydef-object-dao.md)** повторное выполнение запроса.
+Проверьте свойство **** restarted перед использованием метода Restart объекта **Recordset** . **** Если свойство restarted объекта имеет значение **false**, используйте метод **[OpenRecordset](connection-openrecordset-method-dao.md)** базового объекта **[QueryDef](querydef-object-dao.md)** , чтобы повторно выполнить запрос. ****
 
 ## <a name="example"></a>Пример
 
-В этом примере демонстрируется свойство **Restartable** с разных объектов **набора записей** .
+В этом примере показано **** свойство restarted с различными объектами **Recordset** .
 
 ```vb
     Sub RestartableX() 

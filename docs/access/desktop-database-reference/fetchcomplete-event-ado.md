@@ -1,5 +1,5 @@
 ---
-title: Событие FetchComplete (ADO)
+title: Событие событие fetchcomplete (ADO)
 TOCTitle: FetchComplete event (ADO)
 ms:assetid: 4863d5b5-7d77-bdef-c511-f85c9e6dec9d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249224(v=office.15)
@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: f4c1cb1379d1faec39fd44fa8273fba4aadca548
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701965"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293191"
 ---
-# <a name="fetchcomplete-event-ado"></a>Событие FetchComplete (ADO)
+# <a name="fetchcomplete-event-ado"></a>Событие событие fetchcomplete (ADO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Событие **FetchComplete** вызывается после извлечения всех записей в объемных асинхронной операции в [набора записей](recordset-object-ado.md).
+Событие **событие fetchcomplete** вызывается после того, как в [набор записей](recordset-object-ado.md)были получены все записи длительной асинхронной операции.
 
 ## <a name="syntax"></a>Синтаксис
 
-FetchComplete*pError*, *adStatus* *pRecordset*
+Событие fetchcomplete*перрор*, *адстатус*, ** пред
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*pError* |Объект [Error](error-object-ado.md) . Описание ошибки, возникшей при имеет значение **adStatus** **adStatusErrorsOccurred**; в противном случае он не задан.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). Прежде чем возвращает это событие, присвойте этому параметру значение **adStatusUnwantedEvent** , чтобы запретить последующие уведомления.|
-|*pRecordset* |Объект **набора записей** . Объект, для которого возвращенных записей.|
+|*Перрор* |Объект [Error](error-object-ado.md) . В нем описывается ошибка, которая возникла, если значение **адстатус** равно **адстатусеррорсоккурред**; в противном случае он не задается.|
+|*Адстатус* |[Евентстатусенум](eventstatusenum.md). Перед возвращением этого события установите для этого параметра значение **адстатусунвантедевент** , чтобы предотвратить появление последующих уведомлений.|
+|*предшнур* |Объект **Recordset** . Объект, для которого были получены записи.|
 
 ## <a name="remarks"></a>Замечания
 
-Чтобы использовать **FetchComplete** с помощью Microsoft Visual Basic, необходим Visual Basic 6.0 или более поздней версии.
+Чтобы использовать **событие fetchcomplete** с Microsoft Visual Basic, требуется Visual Basic 6,0 или более поздней версии.
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Field2.Type (DAO)
+title: Свойство field2. Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 057d6ec9-b72c-cee6-005a-6d916e3dda29
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844921(v=office.15)
@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 4da32f18a2b3e9dddbb0ae04e3257de34ba09761
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699788"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292666"
 ---
-# <a name="field2type-property-dao"></a>Свойство Field2.Type (DAO)
+# <a name="field2type-property-dao"></a>Свойство field2. Type (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Чтение и запись **целое число**.
+Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Чтение и запись **целоГо числа**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Тип
+*Expression* . Тип
 
-*выражение* Переменная, которая представляет собой объект- **поле2** .
+*expression* — переменная, представляющая объект **Field2**.
 
 ## <a name="remarks"></a>Замечания
 
-Параметр или возвращаемое значение — это константа, которая указывает тип действующие или данных. Для объекта **поле2** это свойство является чтение и запись, пока объект добавляется к коллекции или другой объект, после чего он доступен только для чтения.
+Параметр или возвращаемое значение — это константа, указывающая операционный тип данных. Для объекта **field2** это свойство доступно для чтения и записи до тех пор, пока объект не будет добавлен в коллекцию или другой объект, после которого он доступен только для чтения.
 
-Для объекта **поле2** в следующей таблице описаны возможные параметры и возвращаемые значения.
+В приведенной ниже таблице описаны возможные параметры и возвращаемые значения для объекта **field2** .
 
 <table>
 <colgroup>
@@ -47,7 +47,7 @@ ms.locfileid: "28699788"
 <tbody>
 <tr class="odd">
 <td><p><strong>dbBigInt</strong></p></td>
-<td><p>Длинное целое число</p></td>
+<td><p>Большое целое число</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
@@ -55,7 +55,7 @@ ms.locfileid: "28699788"
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
-<td><p>Логический</p></td>
+<td><p>Boolean</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbByte</strong></p></td>
@@ -71,15 +71,15 @@ ms.locfileid: "28699788"
 </tr>
 <tr class="odd">
 <td><p><strong>dbDate</strong></p></td>
-<td><p>Дата, время</p></td>
+<td><p>Дата/время</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbDecimal</strong></p></td>
-<td><p>Decimal</p></td>
+<td><p>Десятичное число</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbDouble</strong></p></td>
-<td><p>Double</p></td>
+<td><p>Двойное с плавающей точкой</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
@@ -87,7 +87,7 @@ ms.locfileid: "28699788"
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
-<td><p>Идентификатор GUID</p></td>
+<td><p>GUID</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbInteger</strong></p></td>
@@ -99,23 +99,23 @@ ms.locfileid: "28699788"
 </tr>
 <tr class="even">
 <td><p><strong>dbLongBinary</strong></p></td>
-<td><p>Длинные двоичный файл (объект OLE)</p></td>
+<td><p>Большой двоичный файл (объект OLE)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbMemo</strong></p></td>
-<td><p>Заметка</p></td>
+<td><p>Memo</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbNumeric</strong></p></td>
-<td><p>Числовой</p></td>
+<td><p>Numeric</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
-<td><p>Single</p></td>
+<td><p>Одинарное с плавающей точкой</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbText</strong></p></td>
-<td><p>Текст</p></td>
+<td><p>Text</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbTime</strong></p></td>
@@ -123,15 +123,15 @@ ms.locfileid: "28699788"
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>
-<td><p>Метка времени</p></td>
+<td><p>ОтМетка времени</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVarBinary</strong></p></td>
-<td><p>VarBinary</p></td>
+<td><p>Типа</p></td>
 </tr>
 </tbody>
 </table>
 
 
-При добавьте новый **поле2**, **параметр**или **свойство** объекта в коллекцию **индекса**, **QueryDef**, **набора записей**или **TableDef** объекта, если основной базы данных не поддерживает возникает ошибка Тип данных, указанный для нового объекта.
+При добавлении нового объекта **field2**, **параметра**или **Свойства** в коллекцию объекта **index**, **QueryDef**, **Recordset**или **tabledef** возникает ошибка, если базовая база данных не поддерживается. тип данных, указанный для нового объекта.
 

@@ -1,5 +1,5 @@
 ---
-title: CursorTypeEnum (Справочник по для настольных баз данных Access)
+title: Курсортипинум (Справочник по базам данных Access на компьютере)
 TOCTitle: CursorTypeEnum
 ms:assetid: 7c5fa8b2-85ea-a0a7-41f1-a78650aced3e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249519(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0bcaaa1298f12d72c5e836dcfe1e74cdcda68d19
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710792"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295165"
 ---
 # <a name="cursortypeenum"></a>CursorTypeEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает тип курсора, используемого в объекте [набора записей](recordset-object-ado.md) .
+Указывает тип курсора, используемого в объекте [Recordset](recordset-object-ado.md) .
 
 <br/>
 
@@ -37,29 +37,29 @@ ms.locfileid: "28710792"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adOpenDynamic</strong></p></td>
+<td><p><strong>Адопендинамик</strong></p></td>
 <td><p>2</p></td>
-<td><p>С помощью динамического курсора. Видны добавления, изменения и удаления другими пользователями, а все типы перемещения по <strong>набору записей</strong> , разрешены, за исключением закладки, если их не поддерживает поставщик.</p></td>
+<td><p>Использование динамического курсора. Для других пользователей отображаются дополнения, изменения и удаления, а также все типы передвижений по <strong>набору записей</strong> , кроме закладок, если они не поддерживаются поставщиком.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adOpenForwardOnly</strong></p></td>
-<td><p>0</p></td>
-<td><p>Значение, используемое по умолчанию. Используется только для прямого курсора. Совпадает с статический курсор, за исключением того, что вы можно только просмотреть записей. Это повышает производительность, если вам нужно сделать только один проход по <strong>набора записей</strong>.</p></td>
+<td><p><strong>Адопенфорвардонли</strong></p></td>
+<td><p>нуль</p></td>
+<td><p>Значение, используемое по умолчанию. Использует однонаправленный курсор. Идентично статическому курсору, за исключением того, что можно прокручивать только записи вперед. Это повышает производительность, если необходимо выполнить только один проход через <strong>набор записей</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adOpenKeyset</strong></p></td>
-<td><p>1</p></td>
-<td><p>Использует курсор набора ключей. Как динамический курсор, за исключением того, что нельзя просматривать записи, которые другие пользователи добавляют, несмотря на то, что записи, которые другие пользователи удалять недоступны из набора <strong>записей</strong>. Изменения данных другие пользователи по-прежнему видимы.</p></td>
+<td><p><strong>Адопенкэйсет</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Использует курсор KEYSET. Как и динамический курсор, за исключением того, что записи, добавленные другими пользователями, не видны, хотя записи, которые другие пользователи удаляют, недоступны из <strong>набора записей</strong>. Изменения данных, внесенные другими пользователями, по-прежнему видимы.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adOpenStatic</strong></p></td>
-<td><p>3</p></td>
-<td><p>Использует статический курсор. Статические копия набора записей, которые можно использовать для поиска данных и создания отчетов. Дополнения, изменения или удаления другие пользователи не отображаются.</p></td>
+<td><p><strong>Адопенстатик</strong></p></td>
+<td><p>4</p></td>
+<td><p>Использует статический курсор. Статическая копия набора записей, которую можно использовать для поиска данных или создания отчетов. Добавленные, измененные или удаленные пользователи не отображаются.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adOpenUnspecified</strong></p></td>
+<td><p><strong>АдопенунспеЦифиед</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Не указан тип курсора.</p></td>
+<td><p>Не указывает тип курсора.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "28710792"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -80,19 +80,19 @@ ms.locfileid: "28710792"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.CursorType.DYNAMIC</p></td>
+<td><p>Адоенумс. CursorType. DYNAMIC</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorType.FORWARDONLY</p></td>
+<td><p>Адоенумс. CursorType. ФОРВАРДОНЛИ</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorType.KEYSET</p></td>
+<td><p>Адоенумс. CursorType. KEYSET</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorType.STATIC</p></td>
+<td><p>Адоенумс. CursorType. STATIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorType.UNSPECIFIED</p></td>
+<td><p>Адоенумс. CursorType. unspecifieded</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,27 +8,27 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 5f3b1ee81928a8da77cc3edff7f1feffb7196bba
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722762"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308710"
 ---
 # <a name="seteos-method-ado"></a>Метод SetEOS (ADO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает позицию за конец потока.
+Задает позицию, которая является концом потока.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Поток*. SetEOS
+*Stream*. SetEOS
 
 ## <a name="remarks"></a>Замечания
 
-**SetEOS** обновляет значение свойства [EOS](eos-property-ado.md) , сделав текущую [позицию](position-property-ado.md) в конец потока. Любой байт или после текущего положения знаков усекаются.
+**SetEOS** обновляет значение свойства [EOS](eos-property-ado.md) , выполнив текущую [позицию](position-property-ado.md) в конце потока. Все байты и символы, следующие за текущей позицией, усекаются.
 
-С момента [написания](write-method-ado.md), [WriteText](writetext-method-ado.md)и [CopyTo](copyto-method-ado.md) не удалять любые дополнительные значения в существующие объекты **потока** , задав новое место окончания потока с **SetEOS**можно усекать этих байт или символов.
+Так как [Write](write-method-ado.md), [WriteText](writetext-method-ado.md)и [CopyTo](copyto-method-ado.md) не усекаются никакие лишние значения в существующих объектах **потока** , можно усечь эти байты или символы, установив новую позицию конца потока в **SetEOS**.
 
 > [!WARNING]
-> Если значение **EOS** позицию перед фактический конец потока, будут потеряны все данные после новую позицию **EOS** .
+> Если для **EOS** задано положение до фактического конца потока, все данные после новой позиции **EOS** будут потеряны.

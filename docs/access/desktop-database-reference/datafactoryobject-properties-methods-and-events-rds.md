@@ -1,5 +1,5 @@
 ---
-title: DataFactory свойства, методы и события (RDS)
+title: Свойства, методы и события, которые представляют собой факты (RDS)
 TOCTitle: Properties, methods, and events
 ms:assetid: d5df9160-2931-7773-f75a-8065881d9487
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3febbf56077ad1961ee0e0dd122ef2d0508d6878
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720144"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294514"
 ---
-# <a name="datafactory-properties-methods-and-events-rds"></a>DataFactory свойства, методы и события (RDS)
+# <a name="datafactory-properties-methods-and-events-rds"></a>Свойства, методы и события, которые представляют собой факты (RDS)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 
 
@@ -35,19 +35,19 @@ ms.locfileid: "28720144"
 <tbody>
 <tr class="odd">
 <td><p><a href="converttostring-method-rds.md">Метод ConvertToString (RDS)</a></p></td>
-<td><p>Преобразует в строку MIME64 набора записей.</p></td>
+<td><p>Преобразует объект Recordset в строку MIME64.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="createrecordset-method-rds.md">Метод CreateRecordset (RDS)</a></p></td>
 <td><p>Создает и возвращает пустой набор записей.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="query-method-rds.md">Метод Query (RDS)</a></p></td>
-<td><p>Выполнение запроса и создайте набор строк данных.</p></td>
+<td><p><a href="query-method-rds.md">Метод query (RDS)</a></p></td>
+<td><p>Выполните запрос и создайте расширенный набор строк данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="submitchanges-method-rds.md">Метод SubmitChanges (RDS)</a></p></td>
-<td><p>Учитывая набора записей с ожидающие изменения, этот метод отправляет их в базу данных, указанным в строке подключения.</p></td>
+<td><p>При наличии объекта Recordset с ожидающими изменениями этот метод передает их в базу данных, указанную в строке подключения.</p></td>
 </tr>
 </tbody>
 </table>

@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 698139e031535b3a678ae573ebcb747f3a92eea2
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701972"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293310"
 ---
 # <a name="execute-requery-and-clear-methods-example-vbscript"></a>Пример использования методов Execute, Requery и Clear (VBScript)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется использование метода **Execute** при вызове из объекта [команды](command-object-ado.md) и объект [подключения](connection-object-ado.md) . Он также использует метод [повторный запрос](requery-method-ado.md) для получения текущих данных в [набор записей](recordset-object-ado.md)и метод [снимите флажок](clear-method-ado.md) , чтобы удалить содержимое семейства [Errors](errors-collection-ado.md) . Процедуры ExecuteCommand и PrintOutput необходимы для выполнения этой процедуры.
+В этом примере демонстрируется метод **EXECUTE** при выполнении как из объекта [Command](command-object-ado.md) , так и из объекта [Connection](connection-object-ado.md) . Кроме того, он [](requery-method-ado.md) использует метод Requery для получения текущих данных в объекте [Recordset](recordset-object-ado.md), а метод [clear](clear-method-ado.md) — для очистки содержимого коллекции [Errors](errors-collection-ado.md) . Для выполнения этой процедуры необходимы процедуры ExecuteCommand и Принтаутпут.
 
-Используйте следующий пример в активную страницу сервера (ASP). Используйте **Поиск** для найдите файл Adovbs.inc и помещения их в каталог, который планируется использовать. Скопируйте и вставьте следующий код в блокноте или другом текстовом редакторе и сохраните файл с именем **ExecuteVBS.asp**. Результат можно просмотреть в браузере любого клиента.
+Используйте приведенный ниже пример на активной серверной странице (ASP). Используйте **Find** , чтобы найти файл адовбс. Inc и разместить его в каталоге, который планируется использовать. Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **ексекутевбс. ASP**. Результаты можно просмотреть в любом клиентском браузере.
 
 ```vb 
  

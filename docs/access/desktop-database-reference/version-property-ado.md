@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 809ed24ed682089d99b119ad78e9e75cc9d5a8af
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719871"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32305945"
 ---
 # <a name="version-property-ado"></a>Свойство Version (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Указывает номер версии ADO.
 
@@ -27,7 +27,7 @@ ms.locfileid: "28719871"
 
 ## <a name="remarks"></a>Замечания
 
-Свойство **Version** возвращает номер версии реализации ADO.
+Используйте свойство **Version** для возврата номера версии реализации ADO.
 
-Версия поставщика будет доступен в качестве динамического свойства в коллекции [свойств](properties-collection-ado.md) .
+Версия поставщика будет доступна в виде динамического свойства в коллекции [свойств](properties-collection-ado.md) .
 

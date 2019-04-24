@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6159fb08c321eb63f6ce6817bb30e61440ab3b9f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28714992"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292036"
 ---
 # <a name="handling-errors-in-other-languages"></a>Обработка ошибок на других языках
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-На данный момент в этой главе описывается ошибки с точки зрения Microsoft Visual Basic. В оставшейся части этого раздела представлены общие сведения о обработка ошибок в языках, отличных от Visual Basic.
+На данный момент в этой главе обсуждались ошибки точки зрения Microsoft Visual Basic. В оставшейся части этого раздела дается обзор обработки ошибок на языках, отличных от Visual Basic.
 
 - [Обработка ошибок в JScript](handling-errors-in-jscript.md)
 - [Обработка ошибок на языке VBScript](handling-errors-in-vbscript.md)

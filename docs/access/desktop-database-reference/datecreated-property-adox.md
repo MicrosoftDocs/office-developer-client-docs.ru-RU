@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 59b19ab3be6633daf7295a63a33a31a34b64fbd7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712619"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294423"
 ---
 # <a name="datecreated-property-adox"></a>Свойство DateCreated (ADOX)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Указывает дату создания объекта.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает значение **типа Variant** , определяющее Дата создания. Значение null, если **DateCreated** не поддерживается поставщиком.
+Возвращает значение **типа Variant** , определяющее созданную дату. Значение равно null, если **DateCreated** не поддерживается поставщиком.
 
 ## <a name="remarks"></a>Замечания
 
-Свойство **DateCreated** имеет значение null для добавленного объектов. После добавления нового [представления](view-object-adox.md) или [процедуры](procedure-object-adox.md), необходимо вызвать метод [Refresh](refresh-method-ado.md) коллекции для получения значения для свойства **DateCreated** [представления](views-collection-adox.md) или [процедуры](procedures-collection-adox.md) .
+Для новых добавленных объектов свойство **DateCreated** имеет значение null. После добавления нового [представления](view-object-adox.md) или [процедуры](procedure-object-adox.md)необходимо вызвать метод [Refresh](refresh-method-ado.md) коллекции [представлений](views-collection-adox.md) или [процедур](procedures-collection-adox.md) для получения значений для свойства **DateCreated** .
 

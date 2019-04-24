@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 051a9f0cc50ae3a60edb033f6807f72fc0688976
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702448"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306365"
 ---
 # <a name="state-property-ado-md"></a>Свойство State (ADO MD)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает текущее состояние ячеек.
+Указывает текущее состояние набора ячеек.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает **длинное** целое число, указывающее текущее состояние объекта [ячеек](cellset-object-ado-md.md) и доступен только для чтения. Допустимыми являются следующие значения: **adStateClosed** (0) и **adStateOpen** (1).
+Возвращает **длинное** целое число, указывающее текущее состояние объекта набора [ячеек](cellset-object-ado-md.md) и доступно только для чтения. Допустимы следующие значения: **адстатеклосед** (0) и **адстатеопен** (1).
 
 ## <a name="remarks"></a>Замечания
 
-Чтобы использовать имена констант [ObjectStateEnum](objectstateenum.md) , необходимо иметь на библиотеку типов ADO ссылается проект. [С помощью ADO с ADO MD](using-ado-with-ado-md.md) более подробные сведения.
+Чтобы использовать имена констант [обжектстатинум](objectstateenum.md) , необходимо, чтобы в проекте была ссылка на БИБЛИОТЕКУ типов ADO. Более подробную информацию можно узнать в статье [Использование ADO с ADO MD](using-ado-with-ado-md.md) .
 

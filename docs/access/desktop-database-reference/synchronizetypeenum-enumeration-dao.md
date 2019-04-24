@@ -1,5 +1,5 @@
 ---
-title: Перечисление SynchronizeTypeEnum (DAO)
+title: Перечисление Синчронизетипинум (DAO)
 TOCTitle: SynchronizeTypeEnum Enumeration
 ms:assetid: f9546171-283d-e9bd-5178-41bd4f41c9a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837004(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: acd4ca20e9b6e17f28a17b012bb182060471e949
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "28725884"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308451"
 ---
-# <a name="synchronizetypeenum-enumeration-dao"></a>Перечисление SynchronizeTypeEnum (DAO)
+# <a name="synchronizetypeenum-enumeration-dao"></a>Перечисление Синчронизетипинум (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используется с методом **синхронизации** , чтобы определить тип синхронизации для применения к две реплики.
+Используется с методом **Synchronize** для определения типа синхронизации, применяемой к двум репликам.
 
 <table>
 <colgroup>
@@ -36,24 +36,24 @@ ms.locfileid: "28725884"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>dbRepExportChanges</p></td>
-<td><p>1</p></td>
-<td><p>Отправляет изменения из текущей базы данных в целевую базу данных.</p></td>
+<td><p>Дбрепекспортчанжес</p></td>
+<td><p>1,1</p></td>
+<td><p>Отправляет изменения из текущей базы данных в целевую.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbRepImpExpChanges</p></td>
-<td><p>4</p></td>
-<td><p>Отправка и получение данных в exchange двунаправленный.</p></td>
+<td><p>Дбрепимпекспчанжес</p></td>
+<td><p>SP4</p></td>
+<td><p>Отправка и получение данных в двунаправленном обмене.</p></td>
 </tr>
 <tr class="odd">
-<td><p>dbRepImportChanges</p></td>
+<td><p>Дбрепимпортчанжес</p></td>
 <td><p>2</p></td>
-<td><p>Принимает изменения из целевой базы данных.</p></td>
+<td><p>Получает изменения из целевой базы данных.</p></td>
 </tr>
 <tr class="even">
-<td><p>dbRepSyncInternet</p></td>
-<td><p>16</p></td>
-<td><p>Отправка и получение данных в exchange двунаправленный.</p></td>
+<td><p>ДбрепсинЦинтернет</p></td>
+<td><p>столбцов</p></td>
+<td><p>Отправка и получение данных в двунаправленном обмене.</p></td>
 </tr>
 </tbody>
 </table>

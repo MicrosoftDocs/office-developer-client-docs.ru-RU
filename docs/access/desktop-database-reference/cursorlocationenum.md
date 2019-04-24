@@ -1,5 +1,5 @@
 ---
-title: CursorLocationEnum (Справочник по для настольных баз данных Access)
+title: Курсорлокатионенум (Справочник по базам данных Access на компьютере)
 TOCTitle: CursorLocationEnum
 ms:assetid: 520cc738-998b-ce80-6362-0df310c40c39
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249268(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 95e5744d5e19e7c3d40de19e240bbe338b2d5d55
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28701132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295214"
 ---
 # <a name="cursorlocationenum"></a>CursorLocationEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Указывает расположение службы курсора.
 
@@ -37,19 +37,19 @@ ms.locfileid: "28701132"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adUseClient</strong></p></td>
-<td><p>3</p></td>
-<td><p>Используется в телефонном локальный курсор библиотеки записей на стороне клиента. Локальный курсор служб часто позволит множество функций, которые не разрешается-драйвер курсоры, с помощью этого параметра может предоставить преимущество по отношению к функции, которые будут включены. Для обеспечения обратной совместимости также поддерживается синоним <strong>adUseClientBatch</strong> .</p></td>
+<td><p><strong>Адусеклиент</strong></p></td>
+<td><p>4</p></td>
+<td><p>Использует курсоры на стороне клиента, предоставляемые библиотекой локальных курсоров. Службы локальных курсоров часто поддерживают множество функций, которые могут быть недоступны в драйверах, поэтому использование этого параметра может привести к преимуществам в отношении функций, которые будут включены. Для обеспечения обратной совместимости также поддерживается <strong>адусеклиентбатч</strong> синонимов.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adUseNone</strong></p></td>
-<td><p>1</p></td>
-<td><p>Не используйте службы курсора. (Этой константы является устаревшим и отображается только для обратной совместимости).</p></td>
+<td><p><strong>Адусеноне</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Не использует службы курсоров. (Эта константа является устаревшей и отображается исключительно в целях обратной совместимости.)</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adUseServer</strong></p></td>
+<td><p><strong>Адусесервер</strong></p></td>
 <td><p>2</p></td>
-<td><p>Значение, используемое по умолчанию. Использует поставщик данных или курсоры драйвер. Эти курсоры иногда гибкой и позволяют для дополнительных знаков для изменения других пользователей к источнику данных. Тем не менее некоторые функции <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">Службы Microsoft курсора для OLE DB</a> (например, этом отдельные объекты <a href="recordset-object-ado.md">набора записей</a> ) нельзя моделируемые с записей на стороне сервера, и эти функции будут недоступны при использовании этого параметра.</p></td>
+<td><p>Значение, используемое по умолчанию. Использует курсоры, предоставляемые поставщиком данных или драйверами. В некоторых случаях эти курсоры являются очень гибкими и позволяют изменять другие чувствительность к источнику данных. Однако некоторые функции <a href="microsoft-cursor-service-for-ole-db-ado-service-component.md">службы курсора Майкрософт для OLE DB</a> (например, несвязанные объекты <a href="recordset-object-ado.md">Recordset</a> ) не могут быть смоделированы с помощью серверных курсоров, и эти функции будут недоступны в этом параметре.</p></td>
 </tr>
 </tbody>
 </table>
@@ -57,7 +57,7 @@ ms.locfileid: "28701132"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -70,13 +70,13 @@ ms.locfileid: "28701132"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.CursorLocation.CLIENT</p></td>
+<td><p>Адоенумс. CursorLocation. CLIENT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.CursorLocation.NONE</p></td>
+<td><p>Адоенумс. CursorLocation. NONE</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.CursorLocation.SERVER</p></td>
+<td><p>Адоенумс. CursorLocation. SERVER</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Члены документа (DAO)
+title: Элементы документов (DAO)
 TOCTitle: Document Members
 ms:assetid: 8de770e6-e4d1-372a-3ef8-8539c921b41f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197365(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cd50ec72113b0615849ff6b8b2e8d73c0e61c3ce
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720011"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293793"
 ---
-# <a name="document-members-dao"></a>Члены документа (DAO)
+# <a name="document-members-dao"></a>Элементы документов (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Объект Document содержит сведения о один экземпляр объекта. Объект может быть базы данных, сохраненные в таблице, запрос или связь (Microsoft Access базами данных, ядро только).
+Объект Document включает сведения об одном экземпляре объекта. Объект может быть базой данных, сохраненной таблицей, запросом или отношением (только базы данных ядра СУБД Microsoft Access).
 
 ## <a name="methods"></a>Методы
 
@@ -37,7 +37,7 @@ ms.locfileid: "28720011"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="document-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>Создание пользовательских <strong><a href="property-object-dao.md">свойств</a></strong> объекта (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Создает новый объект определяемого пользователем <strong><a href="property-object-dao.md">Свойства</a></strong> (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ ms.locfileid: "28720011"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="document-container-property-dao.md">Container</a></strong></p></td>
-<td><p>Возвращает имя объекта <strong><a href="container-object-dao.md">контейнера</a></strong> , которому принадлежит объект <strong>Document</strong> (только для рабочих областей Microsoft Access). .</p></td>
+<td><p>Возвращает имя объекта <strong><a href="container-object-dao.md">контейнера</a></strong> , к которому принадлежит объект <strong>Document</strong> (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-datecreated-property-dao.md">DateCreated</a></strong></p></td>
@@ -67,15 +67,15 @@ ms.locfileid: "28720011"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="document-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Возвращает дату и время последнего изменения, внесенные в объект. Только для чтения, <strong>Variant</strong>.</p></td>
+<td><p>Возвращает дату и время последнего изменения, внесенного в объект. Только для чтения, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Возвращает имя указанного объекта. Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="document-properties-property-dao.md">Свойства</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
+<td><p><strong><a href="document-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">Properties</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

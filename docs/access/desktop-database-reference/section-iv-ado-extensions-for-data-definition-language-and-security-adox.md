@@ -8,17 +8,17 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 18275ed4f62e6bad4d6addd796a9f421df0904b4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709644"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308773"
 ---
 # <a name="section-iv-ado-extensions-for-data-definition-language-and-security-adox"></a>Раздел IV. Расширения ADO для языка определения данных и безопасности (ADOX)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом разделе содержатся следующие главы:
+Этот раздел содержит следующую главу:
 
 - [Глава 15. Основы ADOX](chapter-15-adox-fundamentals.md)
 

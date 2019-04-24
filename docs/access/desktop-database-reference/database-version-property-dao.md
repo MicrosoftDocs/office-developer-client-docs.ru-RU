@@ -1,5 +1,5 @@
 ---
-title: Свойство Database.Version (DAO)
+title: Свойство Database. Version (DAO)
 TOCTitle: Version Property
 ms:assetid: 40faaa0c-e764-e968-f606-7e06ded80c3f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192887(v=office.15)
@@ -8,31 +8,31 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 41b408f63522902fd1d4f806090eef7563a3492a
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700071"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294654"
 ---
-# <a name="databaseversion-property-dao"></a>Свойство Database.Version (DAO)
+# <a name="databaseversion-property-dao"></a>Свойство Database. Version (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В рабочей области Microsoft Access возвращает vesion ядро базы данных Microsoft Access или Microsoft Jet созданной базе данных. Только для чтения, **String**.
+В рабочей области Microsoft Access возвращает весион базы данных Microsoft Jet или ядра СУБД Microsoft Access, который создал базу данных. Только для чтения, **String**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Версия
+*Expression* . Версия
 
-*выражение* Переменная, которая представляет собой объект **базы данных** .
+*выражение*: переменная, представляющая объект **Database**.
 
 ## <a name="remarks"></a>Замечания
 
-Возвращаемое значение — это строка, которое оценивается как номер версии, следующий формат.
+Возвращаемое значение — это строка, в которой вычисляется номер версии, отформатированный следующим образом.
 
-- Рабочая область для Microsoft Access представляет номер версии в форме «*major.minor*». Например «3.0». Номер версии продукта состоит из номера версии (3), за период и номер версии (0).
+- Рабочая область Microsoft Access представляет номер версии в виде "*Major. Minor*". Например, "3,0". Номер версии продукта состоит из номера версии (3), точки и номера выпуска (0).
 
-В следующей таблице показаны версии ядра базы данных была включена в различных версиях продуктов Майкрософт.
+В приведенной ниже таблице показано, какая версия ядра СУБД была включена в состав различных версий продуктов Майкрософт.
 
 <table style="width:100%;">
 <colgroup>
@@ -45,7 +45,7 @@ ms.locfileid: "28700071"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Компонент Database Engine</p></th>
+<th><p>Ядро СУБД</p></th>
 <th><p>Версия (год выпуска)</p></th>
 <th><p>Microsoft Access</p></th>
 <th><p>Microsoft Visual Basic</p></th>
@@ -56,63 +56,63 @@ ms.locfileid: "28700071"
 <tbody>
 <tr class="odd">
 <td><p>Microsoft Jet</p></td>
-<td><p>1.0 (1992)</p></td>
+<td><p>1,0 (1992)</p></td>
 <td><p>1.0</p></td>
-<td><p>Нет</p></td>
-<td><p>Нет</p></td>
-<td><p>Нет</p></td>
+<td><p>Недоступно</p></td>
+<td><p>Недоступно</p></td>
+<td><p>Недоступно</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet</p></td>
-<td><p>1.1 (1993)</p></td>
+<td><p>1,1 (1993)</p></td>
 <td><p>1.1</p></td>
-<td><p>3.0</p></td>
-<td><p>Нет</p></td>
-<td><p>Нет</p></td>
+<td><p>3,0</p></td>
+<td><p>Недоступно</p></td>
+<td><p>Недоступно</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Jet</p></td>
-<td><p>2.0 (1994)</p></td>
+<td><p>2,0 (1994)</p></td>
 <td><p>2.0</p></td>
-<td><p>Нет</p></td>
-<td><p>Нет</p></td>
-<td><p>Нет</p></td>
+<td><p>Недоступно</p></td>
+<td><p>Недоступно</p></td>
+<td><p>Недоступно</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet</p></td>
-<td><p>2.5 (1995)</p></td>
-<td><p>Н/Д</p></td>
-<td><p>4.0 (16-разрядная версия)</p></td>
-<td><p>Нет</p></td>
-<td><p>Нет</p></td>
+<td><p>2,5 (1995)</p></td>
+<td><p>Недоступно</p></td>
+<td><p>4,0 (16-разрядная версия)</p></td>
+<td><p>Недоступно</p></td>
+<td><p>Недоступно</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Jet</p></td>
-<td><p>3.0 (1995)</p></td>
-<td><p>"95 (7.0)</p></td>
-<td><p>4.0 (32-разрядная версия)</p></td>
-<td><p>"95 (7.0)</p></td>
-<td><p>4.x</p></td>
+<td><p>3,0 (1995)</p></td>
+<td><p>' 95 (7,0)</p></td>
+<td><p>4,0 (32-бит)</p></td>
+<td><p>' 95 (7,0)</p></td>
+<td><p>х</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet</p></td>
-<td><p>3.5 (1996 г.)</p></td>
-<td><p>' 97 (8.0)</p></td>
-<td><p>5.0</p></td>
-<td><p>' 97 (8.0)</p></td>
-<td><p>5.0</p></td>
+<td><p>3,5 (1996)</p></td>
+<td><p>' 97 (8,0)</p></td>
+<td><p>5,0</p></td>
+<td><p>' 97 (8,0)</p></td>
+<td><p>5,0</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Jet</p></td>
-<td><p>4.0 (2000)</p></td>
-<td><p>2000 (9.0)</p></td>
+<td><p>4,0 (2000)</p></td>
+<td><p>2000 (9,0)</p></td>
 <td><p></p></td>
-<td><p>2000 (9.0)</p></td>
+<td><p>2000 (9,0)</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Ядро СУБД Microsoft Access</p></td>
-<td><p>12.0 (2007)</p></td>
+<td><p>12,0 (2007)</p></td>
 <td><p>2007</p></td>
 <td><p></p></td>
 <td><p></p></td>

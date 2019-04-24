@@ -8,40 +8,40 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 84d3ad7cc5b3d43b15ac1113f6fa00932678ebc3
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306862"
 ---
 # <a name="rowposition-property-ado"></a>Свойство RowPosition (ADO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Получает или задает объект OLE DB **RowPosition** из/на объекте **ADORecordsetConstruction** . При использовании **поместить\_RowPosition** Чтобы установить для объекта **RowPosition** , объекте результирующего **набора записей** использует объект **RowPosition** для определения текущей строки.
+Получает или задает объект **ROWPOSITION** OLE DB from/On объекта **ADORecordsetConstruction** . При использовании **Put\_RowPosition** для задания объекта **RowPosition** результирующий объект **Recordset** использует объект **RowPosition** для определения текущей строки.
 
 Для чтения и записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-HRESULT get\_RowPosition (\[out retval\] IUnknown\* \* ppRowPos);
+HRESULT Get\_RowPosition (\[out,\] IUnknown,\* \* IUnknown ппровпос);
 
-Поместите HRESULT\_RowPosition (\[в\] IUnknown\* pRowPos);
+HRESULT PUT\_RowPosition (\[в\] IUnknown\* провпос);
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*ppRowPos* |Указатель на объект OLE DB **RowPosition** .|
-|*PRowPos* |Объект OLE DB **RowPosition** .|
+|*Ппровпос* |Указатель на объект **ROWPOSITION** OLE DB.|
+|*Провпос* |Объект **ROWPOSITION** OLE DB.|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Этот метод свойство возвращает стандартных значений HRESULT, включая S\_ОК и E\_с ОШИБКОЙ.
+Этот метод свойства возвращает стандартные значения HRESULT, включая S\_ОК и электронную\_ошибку.
 
 ## <a name="remarks"></a>Замечания
 
-Если значение этого свойства, если объекта **набора записей** в объекте **RowPosition** отличается от объекта **набора записей** в объекте **набора записей** , бывшие переопределяет второй. То же самое относится к текущей **главы** **RowPosition** также.
+Если это свойство задано, то в случае, если объект **набора строк** в объекте **RowPosition** отличается от объекта набора **строк** в объекте **Recordset** , прежний приоритет переопределяется последним. Такое же поведение распространяется и на текущую **главу** **RowPosition** .
 
 ## <a name="applies-to"></a>Область применения
 

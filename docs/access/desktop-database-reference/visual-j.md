@@ -1,5 +1,5 @@
 ---
-title: Visual J ++ (Справочник по для настольных баз данных Access)
+title: Visual J++ (Справочник по базам данных Access для настольных ПК)
 TOCTitle: Visual J++
 ms:assetid: 5c05db85-cdf2-9a73-fbc5-3dbfa6752376
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249320(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: da13ae0f10e2338b961f2f12686bd378580a69d7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705813"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32311335"
 ---
 # <a name="visual-j"></a>Visual J++
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Этот короткий Microsoft Visual J ++ пример как собственную функцию можно связать с конкретным событием.
+В этом кратком примере для Microsoft Visual J++ показано, как связать свою функцию с определенным событием.
 
 ```java 
  
@@ -53,7 +53,7 @@ public class EventExampleVJ
 // EndEventExampleVJ 
 ```
 
-Во-первых, метод класса *onConnectionComplete* связан с событием **ConnectionComplete** , создав новый объект **ConnectionEventHandler** и назначение функции *onConnectComplete* объект.
+Во-первых, метод класса *онконнектионкомплете* связан с событием **коннектионкомплете** путем создания нового объекта **коннектионевенсандлер** и назначения функции *онконнекткомплете* объекту.
 
-*Основная* функция затем создает объект **подключения** и включает обработки путем вызова метода **addOnConnectComplete** и передачи его адрес функции *обработчика* событий.
+Затем функция *Main* создает объект **Connection** и включает обработку событий, вызывая метод **аддонконнекткомплете** и передавая ему адрес функции обработчика. **
 

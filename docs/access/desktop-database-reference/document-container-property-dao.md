@@ -1,5 +1,5 @@
 ---
-title: Свойство Document.Container (DAO)
+title: Свойство Document. Container (DAO)
 TOCTitle: Container Property
 ms:assetid: aa1ace1d-f0b8-e0b0-20b6-d3e296254c51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821451(v=office.15)
@@ -12,28 +12,28 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Normal
 ms.openlocfilehash: af1a531e57aaca7d497f3f71d6c16e8ea1bab177
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718359"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293828"
 ---
-# <a name="documentcontainer-property-dao"></a>Свойство Document.Container (DAO)
+# <a name="documentcontainer-property-dao"></a>Свойство Document. Container (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Возвращает имя объекта **[контейнера](container-object-dao.md)** , которому принадлежит объект **Document** (только для рабочих областей Microsoft Access). .
+Возвращает имя объекта **[контейнера](container-object-dao.md)** , к которому принадлежит объект **Document** (только для рабочих областей Microsoft Access). .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Контейнер
+*Expression* . Container
 
-*выражение* Переменная, которая представляет собой объект- **документов** .
+*Expression (выражение* ) Переменная, представляющая объект **Document** .
 
 ## <a name="example"></a>Пример
 
-В этом примере отображаются свойства **контейнера** для различных объектов **документа** .
+В этом примере отображается свойство **Container** для различных объектов **Document** .
 
 ```vb 
 Sub ContainerPropertyX() 

@@ -1,5 +1,5 @@
 ---
-title: CubeDefs коллекции свойства, методы и события (ADO MD)
+title: Свойства, методы и события коллекции коллекция cubedefs (ADO MD)
 TOCTitle: CubeDefs collection properties, methods, and events
 ms:assetid: e12076d1-1d51-dea2-205f-9e4c23626b2e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250144(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: c547556dfe53bb6aa5fc881e91acccd4194144b1
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295263"
 ---
-# <a name="cubedefs-collection-properties-methods-and-events-ado-md"></a>CubeDefs коллекции свойства, методы и события (ADO MD)
+# <a name="cubedefs-collection-properties-methods-and-events-ado-md"></a>Свойства, методы и события коллекции коллекция cubedefs (ADO MD)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="properties"></a>Свойства
 

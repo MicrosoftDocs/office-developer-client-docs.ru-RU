@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 6347c64c9622abd433136d19ed352e81407fd8be
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707635"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296971"
 ---
 # <a name="attributes-and-name-properties-example-vj"></a>Пример использования свойств Attributes и Name (VJ++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере отображается значение свойства [атрибуты](attributes-property-ado.md) для [подключения](connection-object-ado.md), [поля](field-object-ado.md)и [Свойства](property-object-ado.md) объектов. Свойство [Name](name-property-ado.md) используется для отображения имени каждого **поля** и **Свойства** объекта.
+В этом примере отображается значение свойства [Attributes](attributes-property-ado.md) для объектов [Connection](connection-object-ado.md), [field](field-object-ado.md)и [Property](property-object-ado.md) . Свойство [Name](name-property-ado.md) используется для отображения имени каждого **поля** и объекта **Property** .
 
 ```java 
  

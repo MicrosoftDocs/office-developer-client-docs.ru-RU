@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект базы данных (DAO)
+title: Ссылка на объект баз данных (DAO)
 TOCTitle: Databases Object
 ms:assetid: e9728dde-303c-44fd-ba8c-0e5773cfd0e7
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125983(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3787ea608625f8baa34121fbb1c86cabe49efcdd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703820"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294603"
 ---
-# <a name="databases-object-reference-dao"></a>Ссылка на объект базы данных (DAO)
+# <a name="databases-object-reference-dao"></a>Ссылка на объект баз данных (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 - [Коллекция баз данных (DAO)](databases-collection-dao.md)
-- [Члены баз данных (DAO)](databases-members-dao.md)
-- [Свойства базы данных (DAO)](databases-properties-dao.md)
+- [Элементы баз данных (DAO)](databases-members-dao.md)
+- [Свойства баз данных (DAO)](databases-properties-dao.md)
 - [Методы баз данных (DAO)](databases-methods-dao.md)
 

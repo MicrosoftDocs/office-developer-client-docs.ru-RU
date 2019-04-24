@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection.StillExecuting (DAO)
+title: Свойство Connection. Стиллексекутинг (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 0121f98a-cc23-5b5e-9a75-28307404a9a3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844743(v=office.15)
@@ -8,33 +8,33 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 616e2bc6e374d7aba17c5cd07030469d8941014c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719934"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295795"
 ---
-# <a name="connectionstillexecuting-property-dao"></a>Свойство Connection.StillExecuting (DAO)
+# <a name="connectionstillexecuting-property-dao"></a>Свойство Connection. Стиллексекутинг (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . StillExecuting
+*Expression* . Стиллексекутинг
 
-*выражение* Переменная, которая содержит объект **подключения** .
+*Expression (выражение* ) Переменная, представляющая объект **Connection** .
 
 ## <a name="remarks"></a>Замечания
 
-Свойство **StillExecuting** определяет наиболее недавно вызванный асинхронный метод **OpenConnection** (то есть, метод выполнен с помощью параметра **dbRunAsync** ) или **выполнить** завершена. Хотя свойство **StillExecuting** имеет **значение True**, любой возвращенный объект не были доступны.
+Используйте свойство **стиллексекутинг** , чтобы определить, завершен ли последний вызов метода асинхронного **выполнения** или **OpenConnection** (то есть метод, выполняемый с параметром **дбрунасинк** ). Несмотря на то, что свойство **стиллексекутинг** имеет **значение true**, доступ к возвращенному объекту невозможен.
 
-Как только свойство **StillExecuting** возвращает **значение False**, следующий за вызовом **OpenConnection** , которое возвращает связанный объект **подключения** можно ссылка на объект. До тех пор, пока **StillExecuting** остается равным **True**, объект не может существовать ссылок, отличный от для чтения свойство **StillExecuting** .
+После того как свойство **стиллексекутинг** возвращает **значение false**, после вызова **OpenConnection** , возвращающего связанный объект **Connection** , можно ссылаться на объект. До тех пор пока **стиллексекутинг** остается **true**, на объект не может быть ссылок, кроме чтения свойства **стиллексекутинг** .
 
-Используйте метод **[Cancel](connection-cancel-method-dao.md)** для завершения выполнения задачи в процессе выполнения.
+Используйте метод **[Cancel](connection-cancel-method-dao.md)** , чтобы прекратить выполнение задачи в ходе выполнения.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется свойство **StillExecuting** и метод **Cancel** асинхронно Открытие объект **подключения** .
+В этом примере используется свойство **стиллексекутинг** и метод **Cancel** для асинхронного открытия объекта **Connection** .
 
 ```vb
     Sub CancelConnectionX() 

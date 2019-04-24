@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3a709a37f84fd90ef497fdf25e523475fae31b7f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28706515"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296992"
 ---
 # <a name="attributes-and-name-properties-example-vc"></a>Пример использования свойств Attributes и Name (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере отображается значение свойства [атрибуты](attributes-property-ado.md) для [подключения](connection-object-ado.md), [поля](field-object-ado.md)и [Свойства](property-object-ado.md) объектов. Свойство [Name](name-property-ado.md) используется для отображения имени каждого **поля** и **Свойства** объекта.
+В этом примере отображается значение свойства [Attributes](attributes-property-ado.md) для объектов [Connection](connection-object-ado.md), [field](field-object-ado.md)и [Property](property-object-ado.md) . Свойство [Name](name-property-ado.md) используется для отображения имени каждого **поля** и объекта **Property** .
 
 ```cpp 
  
@@ -212,7 +212,7 @@ VOID PrintComError(_com_error &e)
 // EndAttributesCpp 
 ```
 
-**AttributesX.h**
+**Аттрибутескс. h**
 
 ```cpp 
  

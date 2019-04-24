@@ -8,24 +8,24 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 735e72e8ed4f06c887ff790209529787e38142a4
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710603"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306442"
 ---
 # <a name="sortorder-property-adox"></a>Свойство SortOrder (ADOX)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает последовательности сортировки для столбца (только для столбцов индекса).
+Указывает последовательность сортировки для столбца (только столбцы индекса).
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает и возвращает значение типа **Long** , может быть одной из констант [SortOrderEnum](sortorderenum.md) . Значение по умолчанию — **adSortAscending**.
+Задает и возвращает **длинное** значение, которое может быть одной из констант [сортордеренум](sortorderenum.md) . Значение по умолчанию — **адсортасцендинг**.
 
 ## <a name="remarks"></a>Замечания
 
-Это свойство применяется только к объектам [столбца](column-object-adox.md) в коллекции [столбцов](columns-collection-adox.md) [индекса](index-object-adox.md).
+Это свойство применяется только к объектам [Column](column-object-adox.md) в коллекции [Columns](columns-collection-adox.md) [индекса](index-object-adox.md).
 

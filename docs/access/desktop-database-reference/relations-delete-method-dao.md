@@ -1,5 +1,5 @@
 ---
-title: Метод Relations.Delete (DAO)
+title: Метод отношениях. Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: e95408d2-9dde-44e7-875e-8f2d4b837cf6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836064(v=office.15)
@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e0b7fbf20a8732e8f4db525fd32bf4e5737b4d79
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716434"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306967"
 ---
-# <a name="relationsdelete-method-dao"></a>Метод Relations.Delete (DAO)
+# <a name="relationsdelete-method-dao"></a>Метод отношениях. Delete (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Удаляет указанное **отношение** из набора **связей** .
+Удаляет указанное **отношение** из коллекции **связей** .
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Удаление (***имя***)
+*Expression* . Delete (***имя***)
 
-*выражение* Переменная, которая представляет собой объект- **связи** .
+*Expression (выражение* ) Переменная, представляющая объект **отношений** .
 
 ## <a name="parameters"></a>Параметры
 
@@ -38,7 +38,7 @@ ms.locfileid: "28716434"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательно/необязательно</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -48,7 +48,7 @@ ms.locfileid: "28716434"
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>String</strong></p></td>
-<td><p>Имя отношения для удаления.</p></td>
+<td><p>Имя отношения, которое требуется удалить.</p></td>
 </tr>
 </tbody>
 </table>
@@ -56,5 +56,5 @@ ms.locfileid: "28716434"
 
 ## <a name="remarks"></a>Замечания
 
-Метод **Delete** поддерживается только в том случае, когда объект **связи** — это новый, unappended объект.
+Метод **Delete** поддерживается, только если объект **relation** является новым, неприсоединенным объектом.
 

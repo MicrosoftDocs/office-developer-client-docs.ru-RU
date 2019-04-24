@@ -8,48 +8,48 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 3dda0840617c32e9dceea3bd1baa362c5652a373
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703022"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295340"
 ---
 # <a name="createrecordset-method-rds"></a>Метод CreateRecordset (RDS)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Создает пустой, отключенные [набора записей](recordset-object-ado.md).
+Создает пустой отключенный [набор записей](recordset-object-ado.md).
 
 ## <a name="syntax"></a>Синтаксис
 
-*объект*. CreateRecordset (*ColumnInfos*)
+*объект*. CreateRecordset (*колумнинфос*)
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Object* |Объектную переменную, которая представляет [RDSServer.DataFactory](datafactory-object-rdsserver.md) или [RDS. DataControl](datacontrol-object-rds.md) объекта.|
-|*ColumnsInfos* |Создать **Variant** массив атрибутов, определяющий столбцы в **набора записей** . Определение каждого столбца содержит массив четыре обязательные атрибуты и один необязательный атрибут. Набор столбцов массивов нажмите сгруппированы в массив, который определяет **набор записей**. Список атрибутов обратитесь к таблице ниже.|
+|*Object* |Объектная переменная, представляющая объект [рдссервер.](datafactory-object-rdsserver.md) DataObject или [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
+|*Колумнсинфос* |Массив **Variant** атрибутов, который определяет каждый столбец в созданном **наборе записей** . Каждое определение столбца содержит массив из четырех обязательных атрибутов и один необязательный атрибут. После этого набор массивов столбцов будет сгруппирован в массив, который определяет **набор записей**. Список атрибутов представлен в следующей таблице.|
 
-### <a name="variant-array-attributes"></a>Атрибуты массив вариантов
+### <a name="variant-array-attributes"></a>Атрибуты массива Variant
 
 |Атрибут|Описание|
 |:--------|:----------|
 |Имя |Имя заголовка столбца.|
 |Тип |Целое число типа данных.|
-|Размер |Целое число от ширины знаков, независимо от типа данных.|
-|Возможность принимать значение NULL |Логическое значение.|
-|Масштаб (необязательно) |Этот дополнительный атрибут задает масштаб для числовых полей. Если это значение не указано, с горизонтальным трех усекаются числовых значений. Количество разрядов после запятой будет усечено до трех, но не повлияет точности.|
+|Размер |Целое значение ширины в символах, независимо от типа данных.|
+|Возможность принимать значения NULL |Логическое значение.|
+|Scale (необязательно) |Этот необязательный атрибут определяет масштаб для числовых полей. Если это значение не указано, числовые значения будут сокращены до шкалы 3. На точность не влияет, но количество цифр после десятичной точки будет укорочено до 3.|
 
 ## <a name="remarks"></a>Замечания
 
-На сервере бизнес-объекта можно заполнить результирующего **набора записей** с данными из не - поставщиков данных OLE DB, такие как файл операционной системы, содержащий акций.
+Серверный бизнес-объект может заполнить полученный **набор записей** данными из поставщика данных, отличного от OLE DB, например из файла операционной системы, содержащего котировки акций.
 
-В следующей таблице перечислены значения [DataTypeEnum](datatypeenum.md) , поддерживаемый метод **CreateRecordset** . Номер, указанный является номер ссылки, используемые для определения полей.
+В следующей таблице приведены значения [DataTypeEnum](datatypeenum.md) , поддерживаемые методом **CreateRecordset** . В списке указан номер ссылки, используемый для определения полей.
 
-Каждый из типов данных является фиксированной длины или переменной длины. Типы фиксированной длины должны быть определены с размером – 1, так как предварительно определенный размер и определение размера по-прежнему требуется. Типы данных переменной длины разрешить размер от 1 до 32767.
+Каждый тип данных имеет фиксированную или переменную длину. Типы фиксированной длины должны определяться размером – 1, так как размер предварительно определен, а определение размера по-прежнему требуется. Типы данных переменной длины допускают размер от 1 до 32767.
 
-Для некоторых типов данных переменной тип может привести к типу, указаны в столбце подстановки. Вы не увидите замены до того времени, после создания и заполнения **набора записей** . Затем следует проверить, тип фактических данных, если это необходимо.
+Для некоторых типов данных переменных тип может быть приведен к типу, указанному в столбце подСтановки. Подстановки не отображаются до тех пор, пока не будет создан и заполнен **набор записей** . При необходимости вы можете проверить фактический тип данных.
 
 <table>
 <colgroup>
@@ -60,190 +60,190 @@ ms.locfileid: "28703022"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Length</p></th>
+<th><p>Длина</p></th>
 <th><p>Константа</p></th>
-<th><p>Число</p></th>
-<th><p>Замена </p></th>
+<th><p>Номер</p></th>
+<th><p>Подстановки</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Фиксация</p></td>
-<td><p><strong>adTinyInt</strong></p></td>
-<td><p>16</p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адтининт</strong></p></td>
+<td><p>столбцов</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Фиксация</p></td>
-<td><p><strong>adSmallInt</strong></p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адсмаллинт</strong></p></td>
 <td><p>2</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Фиксация</p></td>
-<td><p><strong>adInteger</strong></p></td>
-<td><p>3</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Фиксация</p></td>
-<td><p><strong>adBigInt</strong></p></td>
-<td><p>20</p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Фиксация</p></td>
-<td><p><strong>adUnsignedTinyInt</strong></p></td>
-<td><p>17</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Фиксация</p></td>
-<td><p><strong>adUnsignedSmallInt</strong></p></td>
-<td><p>18</p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Фиксация</p></td>
-<td><p><strong>adUnsignedInt</strong></p></td>
-<td><p>19</p></td>
-<td><p></p></td>
-</tr>
-<tr class="even">
-<td><p>Фиксация</p></td>
-<td><p><strong>adUnsignedBigInt</strong></p></td>
-<td><p>21</p></td>
-<td><p></p></td>
-</tr>
-<tr class="odd">
-<td><p>Фиксация</p></td>
-<td><p><strong>adSingle</strong></p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адинтежер</strong></p></td>
 <td><p>4</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Фиксация</p></td>
-<td><p><strong>adDouble</strong></p></td>
-<td><p>5</p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адбигинт</strong></p></td>
+<td><p>двадцать</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Фиксация</p></td>
-<td><p><strong>adCurrency</strong></p></td>
-<td><p>6</p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адунсигнедтининт</strong></p></td>
+<td><p>17</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Фиксация</p></td>
-<td><p><strong>adDecimal</strong></p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адунсигнедсмаллинт</strong></p></td>
+<td><p>0,18</p></td>
+<td><p></p></td>
+</tr>
+<tr class="odd">
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адунсигнединт</strong></p></td>
+<td><p>19</p></td>
+<td><p></p></td>
+</tr>
+<tr class="even">
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адунсигнедбигинт</strong></p></td>
+<td><p>21</p></td>
+<td><p></p></td>
+</tr>
+<tr class="odd">
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адсингле</strong></p></td>
+<td><p>SP4</p></td>
+<td><p></p></td>
+</tr>
+<tr class="even">
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Аддаубле</strong></p></td>
+<td><p>17:00</p></td>
+<td><p></p></td>
+</tr>
+<tr class="odd">
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адкурренци</strong></p></td>
+<td><p>ICMPv6</p></td>
+<td><p></p></td>
+</tr>
+<tr class="even">
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>АддеЦимал</strong></p></td>
 <td><p>14</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Фиксация</p></td>
-<td><p><strong>adNumeric</strong></p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Аднумерик</strong></p></td>
 <td><p>131</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Фиксация</p></td>
-<td><p><strong>adBoolean</strong></p></td>
-<td><p>11</p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адбулеан</strong></p></td>
+<td><p>-11:00</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Фиксация</p></td>
-<td><p><strong>adError</strong></p></td>
-<td><p>10</p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адеррор</strong></p></td>
+<td><p>десяти</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Фиксация</p></td>
-<td><p><strong>adGuid</strong></p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Адгуид</strong></p></td>
 <td><p>72</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Фиксация</p></td>
-<td><p><strong>adDate</strong></p></td>
-<td><p>7</p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Аддате</strong></p></td>
+<td><p>см</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Фиксация</p></td>
-<td><p><strong>adDBDate</strong></p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Аддбдате</strong></p></td>
 <td><p>133</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Фиксация</p></td>
-<td><p><strong>adDBTime</strong></p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Аддбтиме</strong></p></td>
 <td><p>134</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Фиксация</p></td>
-<td><p><strong>adDBTimestamp</strong></p></td>
+<td><p>ИСПРАВЛЕНО</p></td>
+<td><p><strong>Аддбтиместамп</strong></p></td>
 <td><p>135</p></td>
-<td><p>7</p></td>
+<td><p>см</p></td>
 </tr>
 <tr class="odd">
 <td><p>Переменная</p></td>
-<td><p><strong>adBSTR</strong></p></td>
-<td><p>8</p></td>
+<td><p><strong>Адбстр</strong></p></td>
+<td><p>8,5</p></td>
 <td><p>130</p></td>
 </tr>
 <tr class="even">
 <td><p>Переменная</p></td>
-<td><p><strong>adChar</strong></p></td>
+<td><p><strong>Адчар</strong></p></td>
 <td><p>129</p></td>
 <td><p>200</p></td>
 </tr>
 <tr class="odd">
 <td><p>Переменная</p></td>
-<td><p><strong>adVarChar</strong></p></td>
+<td><p><strong>Адварчар</strong></p></td>
 <td><p>200</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Переменная</p></td>
-<td><p><strong>adLongVarChar</strong></p></td>
+<td><p><strong>Адлонгварчар</strong></p></td>
 <td><p>201</p></td>
 <td><p>200</p></td>
 </tr>
 <tr class="odd">
 <td><p>Переменная</p></td>
-<td><p><strong>adWChar</strong></p></td>
+<td><p><strong>Адвчар</strong></p></td>
 <td><p>130</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Переменная</p></td>
-<td><p><strong>adVarWChar</strong></p></td>
+<td><p><strong>Адварвчар</strong></p></td>
 <td><p>202</p></td>
 <td><p>130</p></td>
 </tr>
 <tr class="odd">
 <td><p>Переменная</p></td>
-<td><p><strong>adLongVarWChar</strong></p></td>
+<td><p><strong>Адлонгварвчар</strong></p></td>
 <td><p>203</p></td>
 <td><p>130</p></td>
 </tr>
 <tr class="even">
 <td><p>Переменная</p></td>
-<td><p><strong>adBinary</strong></p></td>
+<td><p><strong>Адбинари</strong></p></td>
 <td><p>128</p></td>
 <td><p></p></td>
 </tr>
 <tr class="odd">
 <td><p>Переменная</p></td>
-<td><p><strong>adVarBinary</strong></p></td>
+<td><p><strong>Адварбинари</strong></p></td>
 <td><p>204</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
 <td><p>Переменная</p></td>
-<td><p><strong>adLongVarBinary</strong></p></td>
+<td><p><strong>Адлонгварбинари</strong></p></td>
 <td><p>205</p></td>
 <td><p>204</p></td>
 </tr>

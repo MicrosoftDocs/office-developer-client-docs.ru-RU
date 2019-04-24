@@ -1,5 +1,5 @@
 ---
-title: События WillMove и MoveComplete (ADO)
+title: События события WillMove и MoveComplete (ADO)
 TOCTitle: WillMove and MoveComplete events (ADO)
 ms:assetid: fe7eb823-b388-6b3d-1ae9-056018032ef5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250307(v=office.15)
@@ -8,36 +8,36 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: e663e18a13803097d490e0e315d139e6e15400da
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705962"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32306057"
 ---
-# <a name="willmove-and-movecomplete-events-ado"></a>События WillMove и MoveComplete (ADO)
+# <a name="willmove-and-movecomplete-events-ado"></a>События события WillMove и MoveComplete (ADO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Событие **WillMove** вызывается перед ожидающие операции изменяет текущую позицию в наборе [записей](recordset-object-ado.md). Событие **MoveComplete** вызывается после текущей позиции в изменения **записей** .
+Событие **события WillMove** вызывается до того, как ожидающая операция меняет текущую позицию в [наборе записей](recordset-object-ado.md). Событие **MoveComplete** вызывается после изменения текущей позиции в наборе **записей** .
 
 ## <a name="syntax"></a>Синтаксис
 
-WillMove*adReason*, *adStatus* *pRecordset*
+События WillMove*адреасон*, *адстатус*, ** пред
 
-MoveComplete*adReason*, *pError*, *adStatus*, *pRecordset*
+MoveComplete*адреасон*, *перрор*, *адстатус*, ** пред
 
-## <a name="parameters"></a>Parameters
+## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*adReason* |Значение [EventReasonEnum](eventreasonenum.md) , указывает причину это событие. Его значение может быть **adRsnMoveFirst**, **adRsnMoveLast**, **adRsnMoveNext**, **adRsnMovePrevious**, **adRsnMove**или **adRsnRequery**.|
-|*pError* |Объект [Error](error-object-ado.md) . Описание ошибки, возникшей при имеет значение *adStatus* **adStatusErrorsOccurred**; в противном случае он не задан.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). При вызове **WillMove** этот параметр имеет значение **adStatusOK** , если операция, которая вызвала событие прошла успешно. Если это событие не могут запрашивать отмену ожидающие операции перейдут в **adStatusCantDeny** . <br/><br/>При вызове **MoveComplete** этот параметр имеет значение **adStatusOK** в случае успешного операцию, которая вызвала событие или **adStatusErrorsOccurred** , если операция завершилась неудачно. <br/><br/>Прежде чем возвращает **WillMove** , присвойте этому параметру значение **adStatusCancel** для запроса отмены ожидающие операции или присвойте этому параметру значение adStatusUnwantedEvent, чтобы запретить последующие notications. <br/><br/>Прежде чем возвращает **MoveComplete** , присвойте этому параметру значение **adStatusUnwantedEvent** , чтобы запретить последующие уведомления.|
-|*pRecordset* |Объект [набора записей](recordset-object-ado.md) . **Набор записей** , для которого произошло это событие.|
+|*Адреасон* |Значение [евентреасоненум](eventreasonenum.md) , указывающее причину этого события. Возможные значения: **адрснмовефирст**, **адрснмовеласт**, **адрснмовенекст**, **адрснмовепревиаус**, **адрснмове**или **адрснрекуери**.|
+|*Перрор* |Объект [Error](error-object-ado.md) . В нем описывается ошибка, которая возникла, если значение *адстатус* равно **адстатусеррорсоккурред**; в противном случае он не задается.|
+|*Адстатус* |[Евентстатусенум](eventstatusenum.md). При вызове **события WillMove** этот параметр имеет значение **адстатусок** , если операция, вызвавшая событие, прошла успешно. Он имеет значение **адстатускантдени** , если данное событие не может запрашивать отмену ожидающей операции. <br/><br/>При вызове **MoveComplete** этот параметр имеет значение **адстатусок** , если операция, вызвавшая событие, прошла успешно, или значение **адстатусеррорсоккурред** , если операция завершилась неудачно. <br/><br/>Перед возвратом **события WillMove** присвойте этому параметру значение **адстатусканцел** , чтобы запросить отмену ожидающей операции, или присвойте этому параметру значение адстатусунвантедевент, чтобы предотвратить последующие уведомления. <br/><br/>Перед возвратом **MoveComplete** присвойте этому параметру значение **адстатусунвантедевент** , чтобы предотвратить появление последующих уведомлений.|
+|*предшнур* |Объект [Recordset](recordset-object-ado.md) . Объект **Recordset** , для которого произошло это событие.|
 
 ## <a name="remarks"></a>Замечания
 
-Событие **WillMove** или **MoveComplete** могут быть вызваны следующие операции **набора записей** :
+События **события WillMove** или **MoveComplete** могут возникать из-за следующих операций с **набором записей** :
 
 - [Open](open-method-ado-recordset.md)
 - [Move](move-method-ado.md)
@@ -48,15 +48,15 @@ MoveComplete*adReason*, *pError*, *adStatus*, *pRecordset*
 - [AddNew](addnew-method-ado.md)
 - [Requery](requery-method-ado.md)
 
-Эти события могут возникнуть из-за следующие свойства:
+Эти события могут возникать из-за следующих свойств:
 
-- [Фильтр](filter-property-ado.md)
+- [Filter](filter-property-ado.md)
 - [Index](index-property-ado.md)
 - [Bookmark](bookmark-property-ado.md)
 - [AbsolutePage](absolutepage-property-ado.md)
 - [AbsolutePosition](absoluteposition-property-ado.md)
 
-Эти события также возникают при дочерних **записей** имеет **записей** событий подключенных и родительский перемещены **набора записей** .
+Эти события также возникают, если для дочернего объекта **Recordset** имеются связанные события **Recordset** и перемещен родительский **набор записей** .
 
-Параметр *adStatus* должен значение **adStatusUnwantedEvent** для каждого *adReason* возможные значения для полностью остановите уведомления о событиях для любого события, которое включает параметр *adReason* .
+Необходимо задать для параметра *адстатус* значение **адстатусунвантедевент** для каждого возможного значения *адреасон* , чтобы полностью остановить уведомление о событии для любого события, включающего параметр *адреасон* .
 

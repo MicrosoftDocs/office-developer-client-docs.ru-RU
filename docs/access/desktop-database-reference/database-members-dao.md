@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: d2254aeff94aeb2b8b078fc4f4cd4d3ef807e597
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28713053"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294927"
 ---
 # <a name="database-members-dao"></a>Элементы базы данных (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Объект базы данных представляет базу данных.
+Объект Database представляет открытую базу данных.
 
 ## <a name="methods"></a>Методы
 
@@ -36,20 +36,20 @@ ms.locfileid: "28713053"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="database-close-method-dao.md">Закрыть</a></strong></p></td>
-<td><p>Закрывает открыть <strong>базу данных</strong>.</p></td>
+<td><p><strong><a href="database-close-method-dao.md">Close</a></strong></p></td>
+<td><p>ЗаКрывает открытую <strong>базу данных</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>Создание пользовательских <strong><a href="property-object-dao.md">свойств</a></strong> объекта (только для рабочих областей Microsoft Access). .</p></td>
+<td><p>Создает новый объект определяемого пользователем <strong><a href="property-object-dao.md">Свойства</a></strong> (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></p></td>
 <td><p>Создает новый объект <strong><a href="querydef-object-dao.md">QueryDef</a></strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-createrelation-method-dao.md">CreateRelation</a></strong></p></td>
-<td><p>Создает новый объект <strong><a href="relation-object-dao.md">связи</a></strong> (только для рабочих областей Microsoft Access). .</p></td>
+<td><p><strong><a href="database-createrelation-method-dao.md">Креатерелатион</a></strong></p></td>
+<td><p>Создает новый объект <strong><a href="relation-object-dao.md">relation</a></strong> (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createtabledef-method-dao.md">CreateTableDef</a></strong></p></td>
@@ -57,27 +57,27 @@ ms.locfileid: "28713053"
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-execute-method-dao.md">Execute</a></strong></p></td>
-<td><p>Запуск запроса или выполняет инструкции SQL на указанный объект.</p></td>
+<td><p>Выполняет запрос на изменение или выполняет инструкцию SQL для указанного объекта.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-makereplica-method-dao.md">MakeReplica</a></strong></p></td>
-<td><p>Делает новой реплики из другой реплики базы данных (только для рабочих областей Microsoft Access).</p></td>
+<td><p><strong><a href="database-makereplica-method-dao.md">Макереплика</a></strong></p></td>
+<td><p>Создает новую реплику из другой реплики базы данных (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-newpassword-method-dao.md">Новый_пароль</a></strong></p></td>
-<td><p>Изменение пароля существующей базы данных ядра базы данных Microsoft Access (только для рабочих областей Microsoft Access).</p></td>
+<td><p><strong><a href="database-newpassword-method-dao.md">NewPassword</a></strong></p></td>
+<td><p>Изменяет пароль существующей базы данных ядра СУБД Microsoft Access (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
-<td><p>Создает новый объект <strong><a href="recordset-object-dao.md">набора записей</a></strong> и добавляет его в коллекцию <strong>наборов записей</strong> .</p></td>
+<td><p>Создает новый объект <strong><a href="recordset-object-dao.md">Recordset</a></strong> и добавляет его в коллекцию <strong>Recordsets</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-populatepartial-method-dao.md">PopulatePartial</a></strong></p></td>
-<td><p>Синхронизирует все изменения в частичные реплики с полной реплики, очищает все записи в частичные реплики и затем повторно заполняется реплику на основе текущего фильтров реплики. (База данных ядра базы данных Microsoft Access только.).</p></td>
+<td><p><strong><a href="database-populatepartial-method-dao.md">Популатепартиал</a></strong></p></td>
+<td><p>Синхронизирует все изменения в частичной реплике с полной репликой, очищает все записи в частичной реплике, а затем повторно заполняет частичную реплику на основе текущих фильтров реплик. (Только для баз данных ядра СУБД Microsoft Access.).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-synchronize-method-dao.md">Синхронизация</a></strong></p></td>
-<td><p>Синхронизирует две реплики. (Microsoft Access рабочие области только).</p></td>
+<td><p><strong><a href="database-synchronize-method-dao.md">Synchronize</a></strong></p></td>
+<td><p>Синхронизирует две реплики. (Только для рабочих областей Microsoft Access).</p></td>
 </tr>
 </tbody>
 </table>
@@ -98,73 +98,73 @@ ms.locfileid: "28713053"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="database-collatingorder-property-dao.md">CollatingOrder</a></strong></p></td>
-<td><p>Возвращает значение, указывающее последовательность порядок сортировки в текст для сравнения строк или сортировка (только для рабочих областей Microsoft Access). Только для чтения <strong>времени</strong>.</p></td>
+<td><p><strong><a href="database-collatingorder-property-dao.md">Коллатингордер</a></strong></p></td>
+<td><p>Возвращает значение, задающее последовательность порядка сортировки в тексте для сравнения строк или сортировки (только для рабочих областей Microsoft Access). Только для чтения, <strong>Long</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-connect-property-dao.md">Connect</a></strong></p></td>
-<td><p>Задает или возвращает значение, которое содержит сведения об источнике открыть базу данных. Для чтения и записи, <strong>String</strong>.</p></td>
+<td><p>Задает или возвращает значение, предоставляющее сведения об источнике в открытой базе данных. Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-connection-property-dao.md">Connection</a></strong></p></td>
-<td><p><strong>Примечание</strong>: технология ODBCDirect рабочие области, не поддерживаются в Microsoft Access 2013. Использование ADO, если вы хотите получить доступ к внешним источникам данных без использования ядро базы данных Microsoft Access.</p>
-<p>Возвращает объект <strong><a href="connection-object-dao.md">подключения</a></strong> , соответствующий базе данных (только для рабочих областей технология ODBCDirect).</p></td>
+<td><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p>
+<p>Возвращает объект <strong><a href="connection-object-dao.md">Connection</a></strong> , соответствующий базе данных (только для рабочих областей ODBCDirect).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-containers-property-dao.md">Containers</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>контейнеров</strong> , представляющий все объекты <strong>контейнера</strong> в указанной базе данных. Только для чтения.</p></td>
+<td><p>Возвращает коллекцию <strong>Containers</strong> , которая представляет все объекты <strong>контейнера</strong> в указанной базе данных. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-designmasterid-property-dao.md">DesignMasterID</a></strong></p></td>
-<td><p>Задает или возвращает 16-битное значение, уникальным образом идентифицирующее репликой в наборе реплик (только для рабочих областей Microsoft Access).</p></td>
+<td><p><strong><a href="database-designmasterid-property-dao.md">Десигнмастерид</a></strong></p></td>
+<td><p>Задает или возвращает 16-байтовое значение, которое уникально определяет основную реплику в наборе реплик (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-name-property-dao.md">Name</a></strong></p></td>
 <td><p>Возвращает имя указанного объекта. Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-properties-property-dao.md">Свойства</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">свойств</a></strong> для указанного объекта. Только для чтения.</p></td>
+<td><p><strong><a href="database-properties-property-dao.md">Properties</a></strong></p></td>
+<td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">Properties</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-querydefs-property-dao.md">QueryDefs</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>QueryDefs</strong> , который содержит все объекты <strong>QueryDef</strong> с указанной базы данных. Только для чтения.</p></td>
+<td><p>Возвращает коллекцию <strong>QueryDef</strong> , содержащую все объекты <strong>QueryDef</strong> указанной базы данных. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-querytimeout-property-dao.md">QueryTimeout</a></strong></p></td>
-<td><p>Задает или возвращает значение, указывающее количество секунд ожидания до возникновения ошибки времени ожидания при выполнении запроса на источник данных ODBC.</p></td>
+<td><p>Задает или возвращает значение, задающее время ожидания в секундах до возникновения ошибки времени ожидания при выполнении запроса к источнику данных ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-recordsaffected-property-dao.md">RecordsAffected</a></strong></p></td>
-<td><p>Возвращает число записей, влияет на недавно вызванного метода <strong><a href="connection-execute-method-dao.md">Execute</a></strong> .</p></td>
+<td><p><strong><a href="database-recordsaffected-property-dao.md">Рекордсаффектед</a></strong></p></td>
+<td><p>Возвращает число записей, затронутых последним вызванным методом <strong><a href="connection-execute-method-dao.md">EXECUTE</a></strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-recordsets-property-dao.md">Recordsets</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>наборов записей</strong> , который содержит все открытые наборы записей в указанной базы данных. Только для чтения.</p></td>
+<td><p>Возвращает коллекцию <strong>Recordset</strong> , содержащую все открытые наборы записей в указанной базе данных. Только для чтения.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-relations-property-dao.md">Relations</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>отношений</strong> , который содержит все хранимые объекты <strong>отношения</strong> для указанной базы данных. Только для чтения.</p></td>
+<td><p>Возвращает коллекцию <strong>связей</strong> , содержащую все хранимые объекты <strong>relation</strong> для указанной базы данных. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-replicaid-property-dao.md">ReplicaID</a></strong></p></td>
-<td><p>Возвращает 16-битное значение, уникальным образом идентифицирующее реплики базы данных (только для рабочих областей Microsoft Access).</p></td>
+<td><p><strong><a href="database-replicaid-property-dao.md">Одинаковые</a></strong></p></td>
+<td><p>Возвращает 16-байтовое значение, уникально идентифицирующее реплику базы данных (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-tabledefs-property-dao.md">TableDefs</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>TableDefs</strong> , который содержит все объекты <strong>TableDef</strong> , хранящиеся в указанной базе данных. Только для чтения.</p></td>
+<td><p>Возвращает коллекцию <strong>tabledef</strong> , которая содержит все объекты <strong>tabledef</strong> , хранящиеся в указанной базе данных. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-transactions-property-dao.md">Transactions</a></strong></p></td>
-<td><p>Возвращает значение, указывающее, поддерживает ли объект транзакции. Только для чтения, <strong>Boolean</strong>.</p></td>
+<td><p>Возвращает значение, которое указывает на то, поддерживает ли объект транзакций. Только для чтения, <strong>Boolean</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-updatable-property-dao.md">Обновляемые</a></strong></p></td>
-<td><p>Возвращает значение, указывающее, является ли объект DAO можно изменить. Только для чтения, <strong>Boolean</strong>.</p></td>
+<td><p><strong><a href="database-updatable-property-dao.md">Updatable</a></strong></p></td>
+<td><p>Возвращает значение, которое указывает на то, можно ли изменить DAO объект. Только для чтения, <strong>Boolean</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-version-property-dao.md">Версия</a></strong></p></td>
-<td><p>В рабочей области Microsoft Access возвращает vesion ядро базы данных Microsoft Access или Microsoft Jet созданной базе данных. Только для чтения, <strong>String</strong>.</p></td>
+<td><p>В рабочей области Microsoft Access возвращает весион базы данных Microsoft Jet или ядра СУБД Microsoft Access, который создал базу данных. Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 </tbody>
 </table>

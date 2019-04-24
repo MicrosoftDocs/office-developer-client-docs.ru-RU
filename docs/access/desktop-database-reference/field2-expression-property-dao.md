@@ -1,5 +1,5 @@
 ---
-title: Свойство Field2.Expression (DAO)
+title: Свойство field2. Expression (DAO)
 TOCTitle: Expression Property
 ms:assetid: 8ae9db2c-7460-5bfc-0dc4-3f87e5ab30ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 603dfaa9a54ddfe769b96a57b790b4657abbeb14
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720088"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292820"
 ---
-# <a name="field2expression-property-dao"></a>Свойство Field2.Expression (DAO)
+# <a name="field2expression-property-dao"></a>Свойство field2. Expression (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Получает или задает выражение, представляющее формулу для вычисляемого поля. Для чтения и записи, **String**.
 
@@ -26,23 +26,23 @@ ms.locfileid: "28720088"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Выражение
+*Expression* . Выражение
 
-*выражение* Переменная, которая представляет собой объект- **поле2** .
+*expression* — переменная, представляющая объект **Field2**.
 
 ## <a name="remarks"></a>Замечания
 
-В Access 2013 можно создавать поля в таблице, вычисление значений. Расчеты могут включать значения из полей в одной таблицы, а также встроенных функций доступа.
+В Access 2013 можно создать поля таблицы, которые вычисляют значения. Вычисления могут включать значения из полей в одной и той же таблице, а также встроенные функции Access.
 
-Расчет не может содержать поля из таблицы или запросы.
+Вычисление не может включать поля из других таблиц или запросов.
 
-Результаты расчета доступны только для чтения.
+Результаты вычисления доступны только для чтения.
 
 ## <a name="example"></a>Пример
 
-Следующий пример демонстрирует создание вычисляемого поля. Метод CreateField создает поле с именем **полное имя**. Выражение затем задано значение выражения, вычисляющий значение поля.
+В приведенном ниже примере показано, как создать вычисляемое поле. Метод CreateField создает поле с именем **FullName**. Затем для свойства Expression устанавливается выражение, вычисляющее значение поля.
 
-**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateCalculatedField()

@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 8ae6adc835a75472570282650d1c9b86133a15ec
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712046"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297055"
 ---
 # <a name="appendchunk-and-getchunk-methods-example-vb"></a>Пример использования методов AppendChunk и GetChunk (VB)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере использует методы [AppendChunk](appendchunk-method-ado.md) и [GetChunk](getchunk-method-ado.md) для заполнения поля изображения с данными из другой записи.
+В этом примере используются методы AppendChunk [](getchunk-method-ado.md) и [](appendchunk-method-ado.md) для заполнения поля изображения данными из другой записи.
 
 ```vb 
  

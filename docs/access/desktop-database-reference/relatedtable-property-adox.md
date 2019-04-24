@@ -8,26 +8,26 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: ec2df7a8fcf53f8f35232fd497a5f93270f4eaba
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309151"
 ---
 # <a name="relatedtable-property-adox"></a>Свойство RelatedTable (ADOX)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает имя связанной таблице.
+Указывает имя связанной таблицы.
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает и возвращает значение типа **String** .
+Задает и возвращает **строковое** значение.
 
 ## <a name="remarks"></a>Замечания
 
-Значение по умолчанию — пустая строка (»»).
+Значение по умолчанию — пустая строка ("").
 
-Если ключ — внешний ключ, **RelatedTable** — имя таблицы, которая содержит ключ.
+Если ключ является внешним ключом, то **RelatedTable** — это имя таблицы, содержащей ключ.
 

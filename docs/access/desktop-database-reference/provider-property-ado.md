@@ -8,16 +8,16 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0e640fb6131919cbdf88fbbf8229c62d0e2e4e13
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719556"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301136"
 ---
 # <a name="provider-property-ado"></a>Свойство Provider (ADO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 Указывает имя поставщика для объекта [подключения](connection-object-ado.md) .
 
@@ -27,7 +27,7 @@ ms.locfileid: "28719556"
 
 ## <a name="remarks"></a>Замечания
 
-Используйте свойство **поставщика** или возвращает имя поставщика для подключения. Это свойство также можно установить с содержимое со значением свойства [ConnectionString](connectionstring-property-ado.md) или аргумент *ConnectionString* метода [Open](open-method-ado-connection.md) ; Тем не менее определение поставщика в нескольких местах, во время вызова метода **Open** может привести к непредсказуемым результатам. Если поставщик не указан, свойство по умолчанию MSDASQL ([Поставщик Microsoft OLE DB для ODBC](microsoft-ole-db-provider-for-odbc.md)).
+Используйте свойство **provider** , чтобы задать или вернуть имя поставщика для подключения. Это свойство также можно задать с помощью содержимого свойства [ConnectionString](connectionstring-property-ado.md) или аргумента *ConnectionString* метода [Open](open-method-ado-connection.md) ; Однако при указании поставщика в нескольких местах при вызове метода **Open** могут возможно получить непредсказуемые результаты. Если поставщик не указан, свойство по умолчанию будет МСДАСКЛ ([Microsoft OLE DB Provider для ODBC](microsoft-ole-db-provider-for-odbc.md)).
 
-Свойство **поставщика** — чтение и запись при подключении закрытой и только для чтения при открытии. Параметр вступает в силу до при открытии объект **подключения** или коллекции [свойств](properties-collection-ado.md) объекта **подключения** . Если параметр не является допустимым, возникает ошибка.
+Свойство **provider** доступно для чтения и записи, когда соединение закрывается и только для чтения при его открытии. Параметр не вступает в силу до открытия объекта **Connection** или доступа к коллекции [свойств](properties-collection-ado.md) объекта **Connection** . Если параметр не является допустимым, возникает ошибка.
 

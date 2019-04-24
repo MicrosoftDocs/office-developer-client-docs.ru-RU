@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: cb5a7050e17dfc1424809cfc5588236ed61d602f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720179"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32296943"
 ---
 # <a name="attributes-property-example-vc"></a>Пример использования свойства Attributes (VC++)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В этом примере свойство [Attributes](attributes-property-adox.md) [столбца](column-object-adox.md). Установка его **adColNullable** пользователь может задать значение [набора записей](recordset-object-ado.md)[поля](field-object-ado.md) пустую строку. В этом случае пользователь может различать записи, где неизвестно данных и запись, где данные не применяется.
+В этом примере показано [](attributes-property-adox.md) свойство Attributes [столбца](column-object-adox.md). Если задать для него значение **адколнуллабле** , пользователь может задать для[поля](field-object-ado.md) [Recordset](recordset-object-ado.md)значение пустая строка. В этом случае пользователь может различать записи, в которых неизвестны данные, и запись, в которой данные не применяются.
 
 ```cpp 
  
@@ -222,7 +222,7 @@ void AttributesX(void)
 // EndAttributesCpp 
 ```
 
-**ADOXAttributesX.h**
+**Адоксаттрибутескс. h**
 
 ```cpp
     // BeginAttributesH 

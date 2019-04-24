@@ -1,5 +1,5 @@
 ---
-title: AffectEnum (Справочник по для настольных баз данных Access)
+title: Аффектенум (Справочник по базам данных Access на компьютере)
 TOCTitle: AffectEnum
 ms:assetid: 15393398-d7eb-a685-1bfa-d6712d8e5015
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
@@ -8,17 +8,17 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 0183cde0862e947f686bed9821e447abc117d205
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720585"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297202"
 ---
 # <a name="affectenum"></a>AffectEnum
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Указывает, какие записи, влияют операции.
+Указывает, какие записи затрагиваются операцией.
 
 <br/>
 
@@ -37,25 +37,25 @@ ms.locfileid: "28720585"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>adAffectAll</strong></p></td>
-<td><p>3</p></td>
-<td><p>Если не применен <a href="filter-property-ado.md">Фильтр</a> для <strong>записей</strong>, влияет на все записи. Если свойство <strong>фильтра</strong> имеет значение условий строки (например, &quot;автор = «Smith»&quot;), операцию влияет на видимых записей в текущем. Если свойство <strong>фильтра</strong> должна быть членом <a href="filtergroupenum.md">FilterGroupEnum</a> или массив закладки, операция повлияет на все строки из <strong>набора записей</strong>.</p><p><strong>Примечание</strong>: adAffectAll скрыто в обозревателе объектов Visual Basic.</p>
+<td><p><strong>Адаффекталл</strong></p></td>
+<td><p>4</p></td>
+<td><p>Если к <strong>набору записей</strong>не применен <a href="filter-property-ado.md">Фильтр</a> , затрагивают все записи. Если для свойства <strong>Filter</strong> задано строковое условие (например, &quot;Author = ' Smith '&quot;), операция влияет на видимые записи в текущей главе. Если свойству <strong>Filter</strong> присвоено значение Member объекта <a href="filtergroupenum.md">Филтерграупенум</a> или массива закладок, операция повлияет на все строки <strong>набора записей</strong>.</p><p><strong>Note</strong>: адаффекталл скрыт в обозревателе объектов Visual Basic.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p><strong>adAffectAllChapters</strong></p></td>
-<td><p>4</p></td>
-<td><p>Влияет на все записи в все родственные главы набора <strong>записей</strong>, включая те, которые не видны с помощью любого <strong>фильтра</strong> , применяемого в настоящее время.</p></td>
+<td><p><strong>Адаффекталлчаптерс</strong></p></td>
+<td><p>SP4</p></td>
+<td><p>Влияет на все записи во всех соседних главах <strong>набора записей</strong>, включая те, которые не видны с помощью <strong>фильтра</strong> , который применяется в данный момент.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>adAffectCurrent</strong></p></td>
-<td><p>1</p></td>
-<td><p>Влияет только текущей записи.</p></td>
+<td><p><strong>Адаффекткуррент</strong></p></td>
+<td><p>1,1</p></td>
+<td><p>Влияет только на текущую запись.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>adAffectGroup</strong></p></td>
+<td><p><strong>Адаффектграуп</strong></p></td>
 <td><p>2</p></td>
-<td><p>Влияет только записи, которые удовлетворяют текущего значения свойства <a href="filter-property-ado.md">фильтра</a> . Значение <strong>FilterGroupEnum</strong> или массив <strong>закладки</strong> , чтобы использовать этот параметр, необходимо установить свойство <strong>фильтра</strong> .</p></td>
+<td><p>Влияет только на записи, которые соответствуют текущему значению свойства <a href="filter-property-ado.md">Filter</a> . Для использования этого параметра необходимо задать для свойства <strong>Filter</strong> значение <strong>Филтерграупенум</strong> или массив <strong>закладок</strong> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,7 @@ ms.locfileid: "28720585"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com.ms.wfc.data**
+Пакет: **com. MS. WFC. Data**
 
 <table>
 <colgroup>
@@ -76,16 +76,16 @@ ms.locfileid: "28720585"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>AdoEnums.Affect.ALL</p></td>
+<td><p>Адоенумс. ALL</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Affect.ALLCHAPTERS</p></td>
+<td><p>Адоенумс. влиял. АЛЛЧАПТЕРС</p></td>
 </tr>
 <tr class="odd">
-<td><p>AdoEnums.Affect.CURRENT</p></td>
+<td><p>Адоенумс. влиял. CURRENT</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.Affect.GROUP</p></td>
+<td><p>Адоенумс. влияние. GROUP</p></td>
 </tr>
 </tbody>
 </table>
