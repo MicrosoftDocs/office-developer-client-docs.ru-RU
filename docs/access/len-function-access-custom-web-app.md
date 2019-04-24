@@ -1,34 +1,34 @@
 ---
-title: Функция LEN (приложение настраиваемых web Access)
+title: Функция Len (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6434655b-8fb3-4a20-9649-8934042bfc7b
-description: Возвращает число символов из указанного строкового выражения, исключая конечные пробелы.
-ms.openlocfilehash: 63f914f56647dea1c443cfe7bc47f217d8604fa8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает число символов указанного строкового выражения, исключая конечные пробелы.
+ms.openlocfilehash: 2bd4f4fc4407f946398003e8e572e01e3a9f60f9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301843"
 ---
-# <a name="len-function-access-custom-web-app"></a>Функция LEN (приложение настраиваемых web Access)
+# <a name="len-function-access-custom-web-app"></a>Функция Len (пользовательское веб-приложение для Access)
 
-Возвращает число символов из указанного строкового выражения, исключая конечные пробелы.
+Возвращает число символов указанного строкового выражения, исключая конечные пробелы.
   
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 
- **Функция Len** (*TextExpression*) 
+ **ДЛСТР** (*Текстекспрессион*) 
   
 Функция **Len** содержит следующий аргумент. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Строковое выражение.  <br/> |
+| *Текстекспрессион*  <br/> |Строковое выражение.  <br/> |
    
 

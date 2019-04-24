@@ -8,11 +8,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 3543d882e0584c35c88a5475032d9fe5505f516c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705983"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303236"
 ---
 # <a name="querydefs-collection-dao"></a>Коллекция QueryDefs (DAO)
 

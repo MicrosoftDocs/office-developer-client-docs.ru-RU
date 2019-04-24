@@ -5,17 +5,17 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
-description: Средство объединения форм Microsoft InfoPath редактора предназначен для объединения данных из нескольких форм в одну.
+description: The Merge Forms feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form.
 ms.openlocfilehash: 598c44bfe63a31237bf82ceb2212b001fbe7cc1f
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386917"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303726"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>Включение настраиваемого объединения форм InfoPath
 
-Средство **Объединения форм** Microsoft InfoPath редактора предназначен для объединения данных из нескольких форм в одну. Это также называется статистических данных. Объединение форм этот параметр включен, можно перейдите на вкладку **файл** , щелкните **Сохранить &amp; отправить**, нажмите кнопку **Объединение форм** в разделе **импорта &amp; ссылка**и нажмите кнопку **Объединение форм** , чтобы выбрать одну или несколько форм для объединения с текущая открытая форма. Форма, открытая в настоящий момент является конечной формой и форм, выбранные в диалоговом окне **Объединение форм** называются исходных форм.
+The **Merge Forms** feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form. This is also known as data aggregation. If merging forms is enabled, you can click the **File** tab, click **Save &amp; Send**, click **Merge Forms** under **Import &amp; Link**, and then click the **Merge Forms** button to select one or more forms to merge with the currently opened form. The form that is currently open is the target form and the forms selected in the **Merge Forms** dialog box are known as the source forms.
   
 В состав данных, полученных после объединения форм, могут быть включены любые данные, содержащиеся в целевых и исходных формах, или их часть. По умолчанию выполняются следующие действия:
   
@@ -52,7 +52,7 @@ XML-атрибуты и их значения выполняют роль ука
  agg:action="replace">Some Value</my:field1>
 ```
 
-### <a name="mergeattributes"></a>mergeAttributes
+### <a name="mergeattributes"></a>Мержеаттрибутес
 
 Если значение атрибута **agg:action** равно mergeAttributes, то атрибуты исходного элемента объединяются с атрибутами каждого из целевых элементов, на которые ссылается атрибут **select**. 
   
@@ -72,7 +72,7 @@ XML-атрибуты и их значения выполняют роль ука
 
 Наряду с атрибутами, указанными в пространстве имен  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`, разработчик может использовать пространство имен  `https://schemas.microsoft.com/office/infopath/2003/aggregation-target` для указания XSL объекта, который реализует интерфейс **IXMLDOMDocument**. Одним из наиболее полезных инструментов этого интерфейса является метод **get-documentElement**.
   
-### <a name="get-documentelement"></a>get-documentElement
+### <a name="get-documentelement"></a>Get — documentElement
 
 Функция **target:get-documentElement** предоставляет доступ к объектной модели целевого документа. Она может использоваться для изменения способа объединения в зависимости от содержания целевого документа. 
   
@@ -147,9 +147,9 @@ XML-атрибуты и их значения выполняют роль ука
 
 6. Последним подготовительным действием для обеспечения поддержки пользовательского объединения форм является обновление элемента **importParameters** в XSF-файле, связанном с формой. 
 
-    Найдите тег  `<xsf:importParameters>` в файле XSF. Для каждой пары преобразование схемы/XSL, созданный для формы, добавьте элемент **xsf:importSource** элемент **xsf:importParameters** : `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`. 
+    Найдите тег  `<xsf:importParameters>` в файле XSF. Для каждой созданной для формы схемы/XSL-преобразования добавьте элемент **xsf: импортсаурце** в элемент **xsf: ImportParameters** : `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`. 
     
-    Атрибут **имени** элемента **xsf:importSource** содержит имя шаблона формы, который может находиться в исходный XML-документ. Это значение обычно можно оставить пустым. Атрибут **schema** содержит имя файла схемы, добавленного к шаблону формы на предыдущем шаге. Атрибут **transform** содержит имя преобразования XSL, которое используется для преобразования форм, соответствующих схеме. 
+    Атрибут **Name** элемента **xsf: импортсаурце** содержит имя шаблона формы, которое может быть найдено в исходном XML-документе. Это значение обычно можно оставить пустым. Атрибут **schema** содержит имя файла схемы, добавленного к шаблону формы на предыдущем шаге. Атрибут **transform** содержит имя преобразования XSL, которое используется для преобразования форм, соответствующих схеме. 
     
     Настраиваемое преобразование можно использовать как с событием [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) , так и без него. 
     

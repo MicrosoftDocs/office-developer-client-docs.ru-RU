@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: bb27b28a-b2bd-4d4a-b0bb-0692f3de8e16
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 9e17e8ef7df33ffa248eec4195c00c77d0c49f94
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 16e85eabc067bd82f5fb89c917afaf2831c75673
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587770"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300471"
 ---
 # <a name="getattribimsgonistg"></a>GetAttribIMsgOnIStg
 
@@ -25,13 +25,13 @@ ms.locfileid: "22587770"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Извлекает атрибуты свойств в объект [IMessage](imessageimapiprop.md) функцию [OpenIMsgOnIStg](openimsgonistg.md) . 
+Получает атрибуты свойств объекта [iMessage](imessageimapiprop.md) , предоставляемого функцией [опенимсгонистг](openimsgonistg.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |IMessage.h  <br/> |
+|Файл заголовка:  <br/> |IMessage. h  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
-|Вызывающая сторона:  <br/> |Поставщики удаленного хранилища клиентских приложений и сообщения  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения и поставщики хранилищ сообщений  <br/> |
    
 ```cpp
 HRESULT GetAttribIMsgOnIStg(
@@ -43,17 +43,17 @@ HRESULT GetAttribIMsgOnIStg(
 
 ## <a name="parameters"></a>Параметры
 
- _lpObject_
+ _Лпобжект_
   
-> [in] Указатель на объект **IMessage** , полученный из функции [OpenIMsgOnIStg](openimsgonistg.md) . 
+> возврата Указатель на объект **iMessage** , полученный из функции [опенимсгонистг](openimsgonistg.md) . 
     
- _lpPropTagArray_
+ _Лппроптагаррай_
   
-> [in] Указатель на структуру [SPropTagArray](sproptagarray.md) , который содержит массив свойств, для которых должны получить атрибуты тегов свойств. 
+> возврата Указатель на структуру [спроптагаррай](sproptagarray.md) , содержащую массив тегов свойств, указывающий свойства, для которых необходимо извлечь атрибуты. 
     
- _lppPropAttrArray_
+ _Лпппропаттраррай_
   
-> [out] Указатель на указатель на структуру возвращенные [SPropAttrArray](spropattrarray.md) , который содержит атрибуты, извлеченное свойство. 
+> вышли Указатель на указатель на возвращенную структуру [спропаттраррай](spropattrarray.md) , содержащую атрибуты извлеченных свойств. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -61,17 +61,17 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������. 
     
-MAPI_W_ERRORS_RETURNED 
+МАПИ_В_ЕРРОРС_РЕТУРНЕД 
   
-> Вызов завершился успешно в целом, но одно или несколько свойств не удается получить доступ к и были возвращены с типом свойства PT_ERROR.
+> Вызов выполнен в целом, но не удалось получить доступ к одному или нескольким свойствам и они возвращались с типом свойства ПТ_ЕРРОР.
     
 ## <a name="remarks"></a>Замечания
 
-Свойство атрибуты осуществляется только на свойство объекты, то есть, реализация [IMAPIProp: IUnknown](imapipropiunknown.md) интерфейса. Чтобы сделать свойства MAPI на объект структурированного хранилища OLE, обеспечивающая [OpenIMsgOnIStg](openimsgonistg.md) [IMessage: IMAPIProp](imessageimapiprop.md) объекта поверх объекта OLE **IStorage** . Атрибуты свойств для таких объектов можно задать или изменены с помощью [SetAttribIMsgOnIStg](setattribimsgonistg.md) и получены с **GetAttribIMsgOnIStg**. 
+Доступ к атрибутам свойств возможен только для объектов Property, то есть объектов, реализующих интерфейс [IMAPIProp: IUnknown](imapipropiunknown.md) . Чтобы сделать свойства MAPI доступными в объекте структурированного хранилища OLE, [опенимсгонистг](openimsgonistg.md) создает объект [iMessage: IMAPIProp](imessageimapiprop.md) в начале объекта OLE **IStorage** . Атрибуты свойств таких объектов можно задавать или изменять с помощью [сетаттрибимсгонистг](setattribimsgonistg.md) и извлекаются с помощью **жетаттрибимсгонистг**. 
   
 > [!NOTE]
-> **GetAttribIMsgOnIStg** и **SetAttribIMsgOnIStg** работают на все объекты **IMessage** . Они действительны только для **IMessage**- on - **IStorage** объекты, возвращаемые **OpenIMsgOnIStg**. 
+> **Жетаттрибимсгонистг** и **сетаттрибимсгонистг** не работают со всеми объектами **iMessage** . Они действительны только для объектов **iMessage**— On — **IStorage** , возвращаемых методом **опенимсгонистг**. 
   
-Количество и положения атрибуты с помощью параметра _lppPropAttrArray_ соответствуют номер и положения тегов свойств с помощью параметра _lpPropTagArray_ . 
+Число и позиции атрибутов в параметре _лпппропаттраррай_ соответствуют числу и положениям тегов свойств в параметре _лппроптагаррай_ . 
   
 

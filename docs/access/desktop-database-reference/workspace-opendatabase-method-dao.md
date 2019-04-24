@@ -8,11 +8,11 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: ca2ccb4183a59c2b579fd4375f26aa4fd539532f
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28700957"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302585"
 ---
 # <a name="workspaceopendatabase-method-dao"></a>Метод Workspace.OpenDatabase (DAO)
 
@@ -38,7 +38,7 @@ ms.locfileid: "28700957"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательно/необязательно</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -52,7 +52,7 @@ ms.locfileid: "28700957"
 </tr>
 <tr class="even">
 <td><p><em>Options</em></p></td>
-<td><p>Необязательно устанавливать.</p></td>
+<td><p>Необязательно</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Определяет различные опции для базы данных, согласно данным в Комментариях.</p></td>
 </tr>
@@ -64,7 +64,7 @@ ms.locfileid: "28700957"
 </tr>
 <tr class="even">
 <td><p><em>Connect</em></p></td>
-<td><p>Необязательно устанавливать.</p></td>
+<td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Определяет различные сведения о подключении, включая пароли.</p></td>
 </tr>

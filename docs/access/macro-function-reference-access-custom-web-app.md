@@ -1,39 +1,39 @@
 ---
-title: Справочник по функциям макросов (приложение настраиваемых web Access)
+title: Справка по функциям макросов (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fb1ef018-6ea4-46b4-b81a-c51f86d80180
-ms.openlocfilehash: 0fbb3cba6d7e3df74da4d7c549148e71e1084f80
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fe8640c1ff9773a5ee7254434f39735cd95daff6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806922"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301773"
 ---
-# <a name="macro-function-reference-access-custom-web-app"></a>Справочник по функциям макросов (приложение настраиваемых web Access)
+# <a name="macro-function-reference-access-custom-web-app"></a>Справка по функциям макросов (пользовательское веб-приложение для Access)
 
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
-- [Блоки данных (приложение настраиваемых web Access)](data-blocksaccess-custom-web-app.md)
+- [Блоки данных (пользовательское веб-приложение для Access)](data-blocksaccess-custom-web-app.md)
     
-- [Действия с данными (приложение настраиваемых web Access)](data-actions-access-custom-web-app.md)
+- [Действия с данными (пользовательское веб-приложение для Access)](data-actions-access-custom-web-app.md)
     
-- [Операции ввода данных (приложение настраиваемых web Access)](data-entry-operations-access-custom-web-app.md)
+- [Операции ввода данных (пользовательское веб-приложение для Access)](data-entry-operations-access-custom-web-app.md)
     
-- [Объекты базы данных (приложение настраиваемых web Access)](database-objects-access-custom-web-app.md)
+- [Объекты базы данных (пользовательское веб-приложение для Access)](database-objects-access-custom-web-app.md)
     
-- [Фильтр, запрос или поиск (приложение настраиваемых web Access)](filter-query-search-access-custom-web-app.md)
+- [Фильтр, запрос и поиск (пользовательское веб-приложение для Access)](filter-query-search-access-custom-web-app.md)
     
-- [Макрос команды (приложение настраиваемых web Access)](macro-commands-access-custom-web-app.md)
+- [Команды макросов (пользовательское веб-приложение для Access)](macro-commands-access-custom-web-app.md)
     
-- [Выполнение программы (приложение настраиваемых web Access)](program-flow-access-custom-web-app.md)
+- [Программный процесс (пользовательское веб-приложение для Access)](program-flow-access-custom-web-app.md)
     
-- [Команд интерфейса пользователя (приложение настраиваемых web Access)](user-interface-commands-access-custom-web-app.md)
+- [Команды пользовательского интерфейса (пользовательское веб-приложение для Access)](user-interface-commands-access-custom-web-app.md)
     
 

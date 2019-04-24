@@ -8,11 +8,11 @@ ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
 ms.openlocfilehash: 871acb6d9b3905653a382e6548d74f0105d5a186
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715349"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303425"
 ---
 # <a name="mail"></a>Почта
 
@@ -20,7 +20,7 @@ ms.locfileid: "28715349"
 
 ## <a name="in-this-section"></a>В этой статье
 
-|Раздел|Описание|
+|Статья|Описание|
 |:----|:----------|
 |[Создание почтового элемента с помощью шаблона сообщения](how-to-create-a-mail-item-by-using-a-message-template.md)  |Создание почтового элемента с помощью метода [CreateItemFromTemplate](https://msdn.microsoft.com/library/bb611329\(v=office.15\)).|
 |[Создание почтового элемента, вложение отчета и отправка почтового элемента руководителю пользователя](how-to-create-a-mail-item-attach-a-report-and-send-the-mail-item-to-the-user-s-manager.md)  |Создание почтового элемента с вложением и отправка почтового элемента руководителю пользователя.|

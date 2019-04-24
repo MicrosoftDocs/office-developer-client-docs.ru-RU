@@ -4,11 +4,11 @@ description: Для поддержки мониторов с высоким ра
 ms.date: 03/09/2019
 localization_priority: Normal
 ms.openlocfilehash: 0425e5e9dd0f060a6336888cfe6c236b39732080
-ms.sourcegitcommit: 18f3d9462048859fe040e12136ff66f19066764b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31980469"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301754"
 ---
 # <a name="handle-high-dpi-and-dpi-scaling-in-your-office-solution"></a>Обработка высокого разрешения и масштабирования в решении для Office
 

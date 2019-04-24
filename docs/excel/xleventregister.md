@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b98637d4-02e3-4dbd-8be5-6b46d32980c6
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d837d87c479f70f0184a7cf1612dea5ab8c99e6d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 869122954ffe3928dfea72b8fc9fb432b9979e42
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807352"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303936"
 ---
 # <a name="xleventregister"></a>xlEventRegister
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Используется для регистрации обработчика событий. Появился в Excel 2010.
+Используется для регистрации обработчика событий. Представлены в Excel 2010.
   
 ```vb
 Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12 pxEvent);
@@ -26,24 +26,24 @@ Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12
 
 ## <a name="parameters"></a>Параметры
 
- _pxProcedure_ (**xltypeStr**)
+ _пкспроцедуре_ (**кслтипестр**)
   
-Имя функции обработчика событий как оно отображается в коде DLL.
+Имя функции обработчика событий в том виде, в котором оно отображается в коде DLL.
   
- _pxEvent_ (**xltypeInt**)
+ _пксевент_ (**кслтипеинт**)
   
-Событие обрабатывается с помощью функции, указанный в параметре _pxProcedure_ . 
+Событие, обрабатываемое функцией, указанной в параметре _пкспроцедуре_ . 
   
-Начиная с версии Excel 2010, Excel поддерживает следующие события:
+Начиная с Excel 2010, Excel поддерживает следующие события:
   
-|**Событие**|**Описание**|
+|**Event**|**Описание**|
 |:-----|:-----|
-|**xleventCalculationEnded** <br/> |Возникает после завершения вычислений Excel. Можно освободить все ресурсы, выделенные при расчете после этого события.  <br/> |
-|**xleventCalculationCanceled** <br/> |Возникает, когда пользователь прерывает вычисления. XLL необходимо остановить любые асинхронной операции. Событие CalculationEnded вызывается сразу после этого события.  <br/> |
+|**Кслевенткалкулатионендед** <br/> |Создается, когда Excel завершает вычисление. После этого события можно освобождать ресурсы, выделенные в ходе вычисления.  <br/> |
+|**Кслевенткалкулатионканцелед** <br/> |Создается, когда пользователь прерывает вычисление. XLL должен остановить все асинхронные действия. Событие Калкулатионендед вызывается сразу после этого события.  <br/> |
    
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-В случае успешного выполнения возвращает **значение TRUE** (**xltypeBool**). В случае неудачи возвращает **значение FALSE**.
+В случае успеха возвращает **значение true** (**кслтипебул**). В случае неудачной попытки возвращает **значение false**.
   
 ## <a name="see-also"></a>См. также
 

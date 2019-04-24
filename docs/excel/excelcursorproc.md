@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - ExcelCursorProc
 keywords:
-- функция excelcursorproc [excel 2007]
+- Функция ексцелкурсорпрок [Excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 07be8da4a07b988d5e848048a088859b58ea3a14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: d3cc41487f0cae31e110249fe148f5370319a39a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807249"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304097"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-При отображении модального диалогового окна на Microsoft Excel окно курсор является «занят» через окно Excel. В этом **WndProc** извещения WM_SETCURSOR введите сообщения Windows и изменения курсор назад к обычным стрелку. 
+Когда модальное диалоговое окно отображается над окном Microsoft Excel, курсор является занятым курсором на окне Excel. Это **WndProc** ВЫПОЛНЯЕТ треппинг вм_сеткурсор типов сообщений Windows и изменяет курсор на обычную стрелку. 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
@@ -30,31 +30,31 @@ LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lPa
 
 ## <a name="parameters"></a>Параметры
 
- _hWndDlg_ (**HWND**)
+ _хвнддлг_ (**HWND**)
   
-Содержит маркер HWND Windows диалогового окна.
+Содержит дескриптор окна HWND диалогового окна.
   
- _сообщение_ (**UINT**)
+ _Message (сообщение_ ) (**Uint**)
   
-Ответ на сообщение.
+Сообщение, на которое необходимо ответить.
   
- _wParam_ (**WPARAM**)
+ _wParam_ (**WParam**)
   
- _lParam_ (**LPARAM**)
+ _lParam_ (**LParam**)
   
-Аргументов, передаваемых операционной системой Windows.
+Аргументы, переданные Windows.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-LRESULT: 0, если сообщение было обработано, в противном случае возвращается результат по умолчанию **WndProc**.
+LRESULT: 0, если сообщение было обработано, в противном случае результат возвращается методом **WndProc**по умолчанию.
   
 ### <a name="example"></a>Пример
 
-Просмотреть `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции в универсальной библиотеке DLL](functions-in-the-generic-dll.md)
 

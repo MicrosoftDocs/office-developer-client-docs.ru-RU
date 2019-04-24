@@ -8,22 +8,22 @@ f1_keywords:
 - fDialog
 - fDialog12
 keywords:
-- функция fdialog [excel 2007], функция fDialog12 [Excel 2007]
+- Функция фдиалог [Excel 2007], функция fDialog12 [Excel 2007]
 localization_priority: Normal
 ms.assetid: a9a47408-07d1-4a00-9596-abc48b12392f
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 554b76d2d316110286e83158acfff33aa68e19c1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 58d0df500c38534ec1315d2dab1517c1f5272ad5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304069"
 ---
 # <a name="fdialogfdialog12"></a>fDialog/fDialog12
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Пример пользовательской команды, демонстрируется создание UDD Excel Microsoft (пользовательские диалоговое окно "") в библиотеке DLL с помощью возможностей поле диалогового окна в C API. При загрузке GENERIC.xll, он создает пользовательских меню, общая, через который доступ к этой команды.
+Пример пользовательской команды, в которой показано, как создать УДД Microsoft Excel (пользовательское диалоговое окно) в библиотеке DLL с помощью возможностей диалогового окна в API C. При загрузке GENERIC. XLL создается пользовательское меню с общим доступом, через которое осуществляется доступ к этой команде.
   
 ```cs
 int WINAPI fDialog(void);
@@ -33,17 +33,17 @@ int WINAPI fDialog(void);
 
 Функция не принимает параметры.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
 Функция всегда возвращает 1.
   
 ### <a name="example"></a>Пример
 
-Просмотреть `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции в универсальной библиотеке DLL](functions-in-the-generic-dll.md)
 

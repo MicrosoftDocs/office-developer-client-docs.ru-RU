@@ -1,33 +1,33 @@
 ---
-title: 'Пошаговое руководство: Создание и отладка шаблона базовой формы с помощью объектной модели InfoPath'
+title: 'ПоШаговое руководство: создание и отладка базового шаблона формы с помощью объектной модели InfoPath'
 manager: soliver
 ms.date: 01/13/2015
 ms.audience: Developer
 keywords:
-- шаблоны [InfoPath 2007], создание совместимых с InfoPath 2003, совместимых с InfoPath 2003 шаблонов форм, пошаговые руководства по форм шаблонов форм [infopath 2007], примеры,
+- шаблоны форм [InfoPath 2007], пошаговые руководства, шаблоны форм [InfoPath 2007], создание InfoPath 2003 — совместимый, шаблоны форм, совместимые с InfoPath, пошаговые руководства
 localization_priority: Normal
 ms.assetid: 7658705f-c062-49a1-bea6-837737df2425
-description: Этот раздел представляет собой пошаговое руководство по созданию базового шаблона форм управляемого кода InfoPath, работающего с объектной моделью совместимых с InfoPath 2003, предоставляемой пространством имен Microsoft.Office.Interop.InfoPath.SemiTrust.
-ms.openlocfilehash: 3939cfcfdf2a8683fe614c5f49cc8b2719484ff7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: В этом разделе представлено пошаговое руководство по созданию базового шаблона формы InfoPath с управляемым кодом, работающего с объектной моделью, совместимой с InfoPath 2003, предоставляемой пространством имен Microsoft. Office. Interop. InfoPath. SemiTrust.
+ms.openlocfilehash: c559aedad5c62134c796196c63c1a84f70c4dc3e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807596"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303201"
 ---
-# <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>Пошаговое руководство: Создание и отладка шаблона базовой формы с помощью объектной модели InfoPath
+# <a name="walkthrough-create-and-debug-a-basic-form-template-using-the-infopath-object-model"></a>ПоШаговое руководство: создание и отладка базового шаблона формы с помощью объектной модели InfoPath
 
-Этот раздел представляет собой пошаговое руководство по созданию базового шаблона форм управляемого кода InfoPath, работающего с объектной моделью совместимых с InfoPath 2003, предоставляемой пространством имен [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
+В этом разделе представлено пошаговое руководство по созданию базового шаблона формы InfoPath с управляемым кодом, работающего с объектной моделью, совместимой с InfoPath 2003, предоставляемой пространством имен [Microsoft. Office. Interop. InfoPath. SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . 
   
 ## <a name="hello-world"></a>Hello World
 
-В следующем примере вы узнаете, как для отображения простого диалогового окна оповещения с помощью метода [оповещение](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) объектной модели, совместимой с InfoPath 2003. 
+В следующем примере показано, как отобразить диалоговое окно простого оповещения с помощью метода [Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) объектной модели, совместимОй с InfoPath 2003. 
   
 ### <a name="create-a-new-infopath-form-template-that-works-with-the-infopath-2003-compatible-object-model"></a>Создание нового шаблона формы InfoPath, работающего с объектной моделью, совместимой с InfoPath 2003
 
-1. Создание нового шаблона формы, который работает с помощью объектной модели, совместимой с InfoPath 2003, как описано в разделе [Создание формы шаблона с помощью объектной модели InfoPath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md).
+1. Создайте новый шаблон формы, работающий с объектной моделью, совместимой с InfoPath 2003, как описано в статье [Создание шаблона формы с помощью объектНой модели infopath 2003](how-to-create-a-form-template-using-the-infopath-2003-object-model.md).
     
-2. Введите имя проекта шаблона формы HelloWorld и сохраните проект.  
+2. Введите имя проекта шаблона формы HelloWorld и сохраните проект. 
     
    Проектная система создаст файлы кода и проекта, а затем откроет пустой шаблон формы в режиме конструктора InfoPath. Теперь можно добавлять обработчики событий.
     
@@ -37,13 +37,13 @@ ms.locfileid: "19807596"
     
 2. Щелкните правой кнопкой мыши элемент управления и выберите **Свойства кнопки**.
     
-3. Измените значение параметра **Метка** на оповещение.
+3. Измените **метку** на Alert (оповещение).
     
-4. Измените **идентификатор** на AlertID.
+4. Измените **идентификатор** на алертид.
     
 5. Щелкните **Редактировать код формы**.
     
-   Созданы каркас обработчика событий для событий [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) и фокус перемещается на редактор кода в Visual Studio 2012. Дополнительные сведения по работе с обработчиков событий можно [Добавить события обработчик с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
+   Создается скелет обработчика событий для [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) события OnClick, а фокус перемещается в редактор кода в Visual Studio 2012. Дополнительные сведения о работе с обработчиками событий можно найти в статье [Добавление обработчика событий с помощью объектНой модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md). 
     
    Теперь можно добавить код формы для обработчика событий кнопки.
     
@@ -77,7 +77,7 @@ ms.locfileid: "19807596"
    ```
 
    > [!NOTE]
-   > В качестве альтернативы, с помощью метода **оповещения** можно использовать метод **MessageBox.Show** пространства имен **System.Windows.Forms** для отображения окна сообщения. Для этого необходимо добавить ссылку на сборку System.Windows.Forms, добавьте `using System.Windows.Forms;` или `Imports System.Windows.Forms` директив в начале файла кода и затем введите строку кода, включая следующие:`MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
+   > В качестве альтернативы использованию метода **Alert** можно воспользоваться методом **MessageBox.Show** пространства имен **System.Windows.Forms** для отображения окна сообщения. Для этого необходимо добавить ссылку на сборку System. Windows. Forms, добавить `using System.Windows.Forms;` или `Imports System.Windows.Forms` в директивы в начале файла кода, а затем ввести следующую строку кода:`MessageBox.Show("Hello World!); or MessageBox.Show("Hello World!)`
   
 2. Переключитесь в окно режима конструктора InfoPath и нажмите кнопку **Просмотр** на вкладке **Главная**. 
     
@@ -103,13 +103,13 @@ ms.locfileid: "19807596"
     
 2. В меню **Отладка** выберите пункт **Начать отладку** (или нажмите клавишу F5). 
     
-3. В окне InfoPath **Просмотр** нажмите кнопку **Оповещение**.  
+3. В окне InfoPath **Просмотр** нажмите кнопку **Оповещение**. 
     
    Фокус перемещается на редактор кода, и выделяется строка точки останова.
     
-4. Чтобы продолжить выполнение кода, в меню **Отладка** выберите пункт **Шаг с обходом** (или нажмите сочетание клавиш SHIFT+F8). 
+4. В меню **Отладка** выберите пункт **Шаг с обходом** (или нажмите сочетание клавиш SHIFT+F8), чтобы продолжить обход кода. 
     
-   Выполнится код метода **Alert** и в окне InfoPath **Просмотр** отобразится оповещение "Hello World!". 
+   Выполняется код метода **оповещения** , а "Hello World!" оповещение отображается в окне **предварительНый Просмотр** InfoPath. 
     
 ## <a name="getting-the-current-users-name"></a>Получение имени текущего пользователя
 
@@ -129,7 +129,7 @@ ms.locfileid: "19807596"
     
 6. На вкладке **Разработчик** щелкните **Событие OnLoad**.
     
-   Это будет создан обработчик событий для события [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) и фокус перемещается в редактор кода. Код в этот обработчик событий вызывается каждый раз, когда загрузки формы. Далее показано, как добавить код формы, который извлекается имя пользователя для обработчика событий. 
+   При этом будет создан обработчик событий OnLoad [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) , а фокус переместится в редактор кода. Код этого обработчика событий будет вызываться при каждой загрузке формы. В следующей процедуре демонстрируется добавление кода формы, получающего имя пользователя для обработчика событий. 
     
 ### <a name="add-form-code"></a>Добавление кода формы 
 
@@ -166,11 +166,11 @@ ms.locfileid: "19807596"
     
    Теперь в текстовом поле employee должно быть выведено текущее имя пользователя. 
     
-Сведения о развертывании шаблона форм с управляемым кодом содержатся в разделе [Развертывание шаблонов форм InfoPath с кодом](how-to-deploy-infopath-form-templates-with-code.md). Сведения об объектной модели InfoPath и типичные задачи программирования в шаблонах форм с управляемым кодом, работающих с объектной моделью совместимых с InfoPath 2003 в разделе [Общие сведения об объектной модели InfoPath 2003](understanding-the-infopath-2003-object-model.md). 
+Сведения о развертывании шаблона формы с управляемым кодом можно найти [в статье Развертывание шаблонов форм InfoPath с кодом](how-to-deploy-infopath-form-templates-with-code.md). Сведения об объектной модели InfoPath и типичных задачах программирования в шаблонах форм с управляемым кодом, работающих с объектной моделью, совместимой с InfoPath 2003, представлены в разделе [Общие сведения об объектНой модели infopath 2003](understanding-the-infopath-2003-object-model.md). 
   
 ## <a name="see-also"></a>См. также
 
 - [Инициализация и очистка кода с помощью объектной модели InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
 - [Объектные модели, совместимые с InfoPath 2003](infopath-2003-compatible-object-models.md)
-- [Добавление обработчика события, использующего объектную модель InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+- [Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

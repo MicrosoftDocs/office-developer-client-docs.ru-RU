@@ -7,19 +7,19 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 6c286821-67d6-4d96-973a-bca7934c7672
 description: Макрокоманда GoToControl позволяет переместить фокус на указанный элемент управления в текущей записи открытого представления.
-ms.openlocfilehash: ec156d1eb6c510ee38c0268a7b0f51bdde80f887
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 2368933a6277615554a565d3bdd973f7d1f366f8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806945"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302578"
 ---
 # <a name="gotocontrol-macro-action-access-custom-web-app"></a>Макрокоманда GoToControl (пользовательское веб-приложение для Access)
 
 Макрокоманда **GoToControl** позволяет переместить фокус на указанный элемент управления в текущей записи открытого представления. 
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-RU/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 ## <a name="setting"></a>Параметр
 

@@ -1,34 +1,34 @@
 ---
-title: Функция СТРОЧН (приложение настраиваемых web Access)
+title: Функция LOWER (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d2607bdd-6694-4b37-983e-020e175d230a
-description: Возвращает выражение символ после преобразования символов в нижний регистр.
-ms.openlocfilehash: a0cccdc524ab11e7126395278b70d7b765d0300c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает символьное выражение после преобразования символьных данных в нижний регистр.
+ms.openlocfilehash: 17d53706eb6c6089e9f7f99a4b26f10776b9cb08
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806963"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301815"
 ---
-# <a name="lower-function-access-custom-web-app"></a>Функция СТРОЧН (приложение настраиваемых web Access)
+# <a name="lower-function-access-custom-web-app"></a>Функция LOWER (пользовательское веб-приложение для Access)
 
-Возвращает выражение символ после преобразования символов в нижний регистр.
+Возвращает символьное выражение после преобразования символьных данных в нижний регистр.
   
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 
- **Меньше** (*TextExpression*) 
+ **Ниже** (*Текстекспрессион*) 
   
-Функция **СТРОЧН** содержит следующий аргумент. 
+Функция **Lower** содержит следующий аргумент. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Выражение текста.  <br/> |
+| *Текстекспрессион*  <br/> |Текстовое выражение.  <br/> |
    
 

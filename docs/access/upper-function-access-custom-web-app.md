@@ -1,34 +1,34 @@
 ---
-title: Функция ПРОПИСН (приложение настраиваемых web Access)
+title: Функция upper (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7c9737cc-4da6-46da-9dfa-57dfe91641bf
-description: Возвращает выражение текста с символы нижнего регистра преобразованы в верхний регистр.
-ms.openlocfilehash: 4bcb1e75d7bbd63fdf7f5c285e76a6735b5d9922
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает текстовое выражение с символьными данными нижнего регистра, преобразованными в верхний регистр.
+ms.openlocfilehash: 831e633fbb588994091fb54dcf150ba306d7f670
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807130"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304216"
 ---
-# <a name="upper-function-access-custom-web-app"></a>Функция ПРОПИСН (приложение настраиваемых web Access)
+# <a name="upper-function-access-custom-web-app"></a>Функция upper (пользовательское веб-приложение для Access)
 
-Возвращает выражение текста с символы нижнего регистра преобразованы в верхний регистр.
+Возвращает текстовое выражение с символьными данными нижнего регистра, преобразованными в верхний регистр.
   
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 
- **Верхний** (*TextExpression*) 
+ **Upper (верхний** ) (*Текстекспрессион*) 
   
-Функция **ПРОПИСН** содержит следующий аргумент. 
+Функция **Upper** содержит следующий аргумент. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Выражение текста.  <br/> |
+| *Текстекспрессион*  <br/> |Текстовое выражение.  <br/> |
    
 

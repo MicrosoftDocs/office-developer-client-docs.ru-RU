@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: c1d70e9f-b9fc-7bdb-107e-d0cd8191607b
 description: В шаблоне формы, создаваемом с помощью Microsoft InfoPath, схема XML (XSD) используется для выполнения проверки данных в XML, который представляет вводные, отредактированные и выводные данные из формы InfoPath. Каждый шаблон формы, созданный в конструкторе форм InfoPath, содержит как минимум один файл схемы XSD (XSD), используемый для проверки во время выполнения.
 ms.openlocfilehash: 25828c3ec21d22a9952452d5a82fe1a3b4bab54c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25395506"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303166"
 ---
 # <a name="working-with-xml-schemas-in-infopath"></a>Работа с XML-схемами в InfoPath
 

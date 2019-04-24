@@ -1,47 +1,47 @@
 ---
-title: Работа с представлениями
+title: Работать с представлениями
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
-- Класс View [infopath 2007] InfoPath 2007, работа с представлениями, служит для просмотра [InfoPath 2007]
+- Класс View [InfoPath 2007], InfoPath 2007, работа с представлениями, представления [InfoPath 2007]
 localization_priority: Normal
 ms.assetid: 947b33c3-2acc-45d2-a89d-a712b6bc53df
-description: При работе с шаблона формы InfoPath можно написать код для доступа к представлениям формы и выполните ряд действий на данные, которые содержат представления. InfoPath объектной модели, предоставляемые с Microsoft.Office.InfoPath пространство имен поддерживает доступ к представлений формы посредством использования членов класса View.
-ms.openlocfilehash: 84c32244454e388e50433922c007d556fbef806a
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: При работе с шаблоном формы InfoPath можно написать код для доступа к представлениям формы, а затем выполнить различные действия с данными, содержащимися в представлении. Объектная модель InfoPath, предоставляемая пространством имен Microsoft. Office. InfoPath, поддерживает доступ к представлениям формы с помощью членов класса View.
+ms.openlocfilehash: 829375a87513634ef0b38b6d92de9f33a605e89f
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303544"
 ---
-# <a name="work-with-views"></a>Работа с представлениями
+# <a name="work-with-views"></a>Работать с представлениями
 
-При работе с шаблона формы InfoPath можно написать код для доступа к представлениям формы и выполните ряд действий на данные, которые содержат представления. Объектная модель InfoPath, предоставленные поддерживает доступ пространства имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) для представления формы посредством использования членов класса [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) . 
+При работе с шаблоном формы InfoPath можно написать код для доступа к представлениям формы, а затем выполнить различные действия с данными, содержащимися в представлении. Объектная модель InfoPath, предоставляемая пространством имен [Microsoft. Office. InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) , поддерживает доступ к представлениям формы с помощью членов класса [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) . 
   
 ## <a name="overview-of-the-view-class"></a>Обзор класса View
 
-Класс [представления](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с представлением InfoPath. 
+Класс [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с представлением InfoPath. 
   
 > [!NOTE]
 > Методы и свойства класса [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) недоступны во время события [загрузки](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) . 
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|Метод [DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.DisableAutoUpdate.aspx)  <br/> |Отключает автоматическую синхронизацию между базовым XML-документом формы и связанным представлением.  <br/> |
-|Метод [EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.EnableAutoUpdate.aspx)  <br/> |Включает автоматическую синхронизацию между базовым XML-документом формы и связанным представлением.  <br/> |
-|Метод [ExecuteAction(ActionType)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ExecuteAction.aspx)  <br/> |Выполняет команду редактирования для базового XML-документа формы, основываясь на выбранных в данный момент данных в представлении.  <br/> |
-|Метод [ExecuteAction (тип действия, строка)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ExecuteAction.aspx)  <br/> |Выполняет команду редактирования для базового XML-документа формы, основываясь на указанном поле или группе.  <br/> |
-|Метод [Export](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.Export.aspx)  <br/> |Экспортирует представление в файл определенного формата.  <br/> |
-|Метод [ForceUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ForceUpdate.aspx)  <br/> |Выполняет синхронизацию между базовым XML-документом формы и связанным представлением.  <br/> |
-|Метод [GetContextNodes(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx)  <br/> |Возвращает ссылку на объект **XPathNodeIterator** для прохода по возвращенным XML-узлам, начиная с указанного узла.   <br/> |
-|Метод [GetContextNodes (XPathNavigator, строка)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx)  <br/> |Возвращает ссылку на объект **XPathNodeIterator** для прохода по возвращенным XML-узлам в текущей выборке в рамках элемента управления, связанного с указанным полем или группой.   <br/> |
-|Метод [GetSelectedNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetSelectedNodes.aspx)  <br/> |Возвращает ссылку на объект **XPathNodeIterator** для прохода по всем XML-узлам в текущей выборке объектов в представлении.   <br/> |
-|Метод [SelectNodes(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |Выбирает диапазон узлов в представлении, основываясь на указанном начальном XML-узле.   <br/> |
-|Метод [SelectNodes (XPathNavigator, XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |Выбирает диапазон узлов в представлении, основываясь на указанных начальном и конечном XML-узлах.  <br/> |
-|Метод [SelectNodes (XPathNavigator, XPathNavigator, строка)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |Выбирает диапазон узлов в представлении, основываясь на указанных начальном и конечном XML-узлах, а также на указанном элементе управления.   <br/> |
-|Метод [SelectText(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx)  <br/> |Выбирает текст, содержащийся в изменяемом элементе управления, связанном с узлом, который указан объектом **XPathNavigator**, переданным в этот метод.   <br/> |
-|Метод [SelectText (XPathNavigator, строка)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx)  <br/> |Выбирает текст, содержащийся в изменяемом элементе управления, связанном с узлом, который указан объектом **XPathNavigator**, переданным в этот метод, а также с указанным элементом управления.   <br/> |
+|Метод [DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.DisableAutoUpdate.aspx)  <br/> |Отключает автоматическую синхронизацию между XML-документом формы и связанным представлением.  <br/> |
+|Метод [EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.EnableAutoUpdate.aspx)  <br/> |Включает автоматическую синхронизацию между XML-документом формы и связанным представлением.  <br/> |
+|Метод [ExecuteAction (метод)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ExecuteAction.aspx)  <br/> |Выполняет команду редактирования для связанного XML-документа формы на основе данных, выбранных в представлении.  <br/> |
+|Метод [ExecuteAction (себя, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ExecuteAction.aspx)  <br/> |Выполняет команду редактирования для связанного XML-документа формы на основе указанного поля или группы.  <br/> |
+|Метод [Export](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.Export.aspx)  <br/> |Экспортирует представление в файл указанного формата.  <br/> |
+|Метод [ForceUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ForceUpdate.aspx)  <br/> |Выполняет принудительную синхронизацию между XML-документом формы и связанным представлением.  <br/> |
+|Метод [GetContextNodes (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx)  <br/> |Возвращает ссылку на объект **XPathNodeIterator** для прохода по возвращенным XML-узлам, начиная с указанного узла.  <br/> |
+|Метод [GetContextNodes (XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetContextNodes.aspx)  <br/> |Возвращает ссылку на объект **XPathNodeIterator** для прохода по возвращенным XML-узлам в текущей выборке в рамках элемента управления, связанного с указанным полем или группой.  <br/> |
+|Метод [GetSelectedNodes](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.GetSelectedNodes.aspx)  <br/> |Возвращает ссылку на объект **XPathNodeIterator** для прохода по всем XML-узлам в текущей выборке объектов в представлении.  <br/> |
+|Метод [SelectNodes (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |Выбирает диапазон узлов в представлении на основе указанного начального узла XML.  <br/> |
+|Метод [SelectNodes (XPathNavigator, XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |Выбирает диапазон узлов в представлении на основе указанного начального и конечного узла XML.  <br/> |
+|Метод [SelectNodes (XPathNavigator, XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  <br/> |Выбирает диапазон узлов в представлении на основе указанного начального, конечного узла XML и элемента управления.  <br/> |
+|Метод [SelectText (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx)  <br/> |Выбирает текст, содержащийся в изменяемом элементе управления, связанном с узлом, который указан объектом **XPathNavigator**, переданным в этот метод.  <br/> |
+|[SelectText (XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) метод  <br/> |Выбирает текст, содержащийся в изменяемом элементе управления, связанном с узлом, который указан объектом **XPathNavigator**, переданным в этот метод, а также с указанным элементом управления.  <br/> |
 |Метод [ShowMailItem](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ShowMailItem.aspx)  <br/> |Создает сообщение электронной почты, содержащее текущее представление.  <br/> |
 |Свойство [ViewInfo](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.ViewInfo.aspx)  <br/> |Возвращает ссылку на объект [ViewInfo](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfo.aspx) , связанный с представлением.  <br/> |
 |Свойство [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.Window.aspx)  <br/> |Возвращает ссылку на объект [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) , связанный с представлением.  <br/> |
@@ -51,7 +51,7 @@ ms.locfileid: "19807522"
   
 ## <a name="using-the-view-class"></a>Использование класса View
 
-Класс [представления](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) доступен через свойство [CurrentView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.CurrentView.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) , к которому можно получить с помощью **этой** (C#) или ключевое слово **Me** (Visual Basic). Для доступа к имени представления, необходимо получить доступ к объекту [ViewInfo](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfo.aspx) , связанный с представлением. Следующий пример демонстрирует для отображения окна сообщения с именем активного представления. 
+Доступ к классу [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) осуществляется с помощью свойства [CurrentView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.CurrentView.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) , доступ к которому осуществляется с помощью ключевого слова **this** (C#) или **Me** (Visual Basic). Чтобы получить доступ к имени представления, необходимо получить доступ к объекту [ViewInfo](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfo.aspx) , связанному с представлением. В следующем примере демонстрируется отображение окна сообщения с именем активного в данный момент представления. 
   
 ```cs
 MessageBox.Show("Current view name: " + 
@@ -63,7 +63,7 @@ MessageBox.Show("Current view name: " &amp; _
    Me.CurrentView.ViewInfo.Name)
 ```
 
-Все шаблоны форм InfoPath содержит по крайней мере один представление по умолчанию; Тем не менее InfoPath поддерживает создание нескольких представлений формы XML-документом. При наличии нескольких представлений [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) можно использовать для работы со всех представлениях, реализованных в шаблоне формы. Для доступа к коллекции [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) шаблона формы, используйте свойство [ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.ViewInfos.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) . Программными средствами можно изменить представление, в настоящее время active, используя метод [SwitchView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.SwitchView.aspx) [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) , как показано в следующем примере кода. 
+Все шаблоны форм InfoPath содержат по крайней мере одно представление по умолчанию; Однако InfoPath также поддерживает создание нескольких представлений базового XML-документа формы. При наличии нескольких представлений [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) можно использовать для работы со всеми представлениями, реализованными в шаблоне формы. Чтобы получить доступ к [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) шаблона формы, используйте свойство [ViewInfos](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.ViewInfos.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) . Можно программно изменить текущее активное представление с помощью метода [SwitchView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.SwitchView.aspx) объекта [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) , как показано в следующем примере кода. 
   
 ```cs
 this.ViewInfos.SwitchView("MySecondView");
@@ -73,7 +73,7 @@ this.ViewInfos.SwitchView("MySecondView");
 Me.ViewInfos.SwitchView("MySecondView")
 ```
 
-Для предыдущего примера для переключения представления будут работать только после открыта форма. Чтобы задать представление по умолчанию во время события [загрузки](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) , воспользуйтесь свойством [начальной](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.Initial.aspx) класса [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) , как показано в следующем примере. Обратите внимание, что это значение только вступят в силу после сохранения и повторного открытия формы. 
+Предыдущий пример по переключению представления будет работать только после открытия формы. Чтобы задать представление по умолчанию во время события [Load](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) , используйте свойство [Initial](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.Initial.aspx) класса [ViewInfoCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ViewInfoCollection.aspx) , как показано в следующем примере. Однако обратите внимание, что это значение применяется только после сохранения и повторного открытия формы. 
   
 ```cs
 this.ViewInfos.Initial = this.ViewInfos["MyInitialView"];
@@ -85,13 +85,13 @@ Me.ViewInfos.Initial = Me.ViewInfos["MyInitialView"];
 
 ## <a name="selecting-controls-in-a-view"></a>Выбор элементов управления в представлении
 
-InfoPath предоставляет два метода класса [представления](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) , которые являются перегруженными, чтобы программно выбрать элемент управления в текущем представлении: методы [SelectText()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) и [SelectNodes()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) . Метод [SelectText(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) используется для данных элементов управления, например **Текстовое поле**, а метод **SelectNodes** для структурные элементы управления, такие как **Дополнительный раздел**. Чтобы выбрать определенный элемент управления в представлении, необходимо указать узел и, возможно, идентификатором ViewContext элемента управления. Идентификатор ViewContext необходим, когда у вас есть несколько элементов управления, привязанных на том же узле в источнике данных. InfoPath предоставляет сведения идентификатор ViewContext, при создании формы.
+InfoPath предоставляет два метода класса [представления](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) , которые перегружаются для программного выбора элемента управления в текущем представлении: методы [SelectText ()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) и [SelectNodes ()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) . Метод [SelectText (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) используется для элементов управления вводом данных, например **текстового поля**, а метод **SelectNodes** используется для структурных элементов управления, таких как необязательный **раздел**. Для выбора конкретного элемента управления в представлении необходимо предоставить узел и, при желании, идентификатор ViewContext элемента управления. Идентификатор ViewContext необходим, если к одному узлу в источнике данных привязано несколько элементов управления. InfoPath предоставляет сведения об идентификаторе ViewContext при создании формы.
   
-Идентификатор ViewContext элемента управления отображается на вкладке **Дополнительно** диалоговое окно "Свойства" для элемента управления, к которому можно получить, щелкнув правой кнопкой мыши элемент управления, нажав кнопку _ИмяЭлементаУправления_ **Свойства**и перейдите на вкладку **Дополнительно** . Идентификатор ViewContext элемента управления отображается в разделе **код** на вкладку **Дополнительно** . 
+Идентификатор ViewContext элемента управления отображается на вкладке **Дополнительно** диалогового окна Свойства элемента управления, к которому можно получить доступ, щелкнув элемент управления правой кнопкой мыши, выбрав _контролнаме_ **Свойства**и выбрав вкладку **Дополнительно** . Идентификатор ViewContext элемента управления указан в разделе **код** вкладки **Дополнительно** . 
   
 ## <a name="when-to-use-selecttext-and-selectnodes"></a>Когда используется SelectText и SelectNodes
 
-Следующие элементы управления запись данных можно выбрать программными средствами с помощью метода [SelectText(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) : 
+Вы можете программным способом выбрать следующие элементы управления вводом данных с помощью метода [SelectText (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) : 
   
 - Текстовое поле
     
@@ -99,7 +99,7 @@ InfoPath предоставляет два метода класса [предс
     
 - Выбор даты
     
-Следующие структурные элементы управления можно выбрать программными средствами с помощью метода [SelectNodes(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) : 
+С помощью метода [SelectNodes (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) можно программно выбрать следующие структурные элементы управления: 
   
 - Дополнительный раздел
     
@@ -131,7 +131,7 @@ InfoPath предоставляет два метода класса [предс
     
 - Рисунок от руки
     
-- Гиперссылка
+- Hyperlink
     
 - Поле выражения
     
@@ -143,7 +143,7 @@ InfoPath предоставляет два метода класса [предс
     
 ## <a name="using-the-selecttext-and-selectnodes-methods"></a>Использование методов SelectText и SelectNodes
 
-В следующем примере перегрузка [SelectText(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) метода **SelectText** , предоставляющего один параметр _xmlNode_ , используется в **Текстовое поле** , связанное с «my: field1». 
+В следующем примере перегрузка [(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) метода **SelectText** , который предоставляет один параметр _XmlNode_ , используется для выбора **текстового поля** , которое привязано к "My: поле1". 
   
 ```cs
 // Create XPathNavigator and select field.
@@ -154,7 +154,7 @@ XPathNavigator textNode =
 CurrentView.SelectText(textNode);
 ```
 
-Если у вас есть несколько элементов управления, привязанных к «my: field1», необходимо использовать перегруженный метод [SelectText (XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) метода **SelectText** , который предоставляется параметр Дополнительные _viewContext_ для выбора конкретного элемента управления. В следующем примере предполагается, что существует два элемента управления **Текстового поля** , привязанных к «my: field1», с помощью первый элемент управления с Идентификатором ViewContext «CTRL1» и второй элемент управления с Идентификатором ViewContext «CTRL8». Второй элемент управления установлен. 
+При наличии нескольких элементов управления, привязанных к "My: Field1", необходимо использовать перегрузку метода SelectText [(XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) метода **SelectText** , который предоставляет дополнительный параметр _ViewContext_ для выбора определенного элемента управления. В следующем примере предполагается, что к "my:field1" привязано два элемента управления **Текстовое поле**, при этом идентификатор ViewContext первого элемента управления — "CTRL1", а второго — "CTRL8". Выбран второй элемент управления. 
   
 ```cs
 // Create XPathNavigator and select field.
@@ -165,7 +165,7 @@ XPathNavigator textNode =
 CurrentView.SelectText(textNode, "CTRL8");
 ```
 
-В следующем примере перегрузка [SelectNodes(XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) методу **SelectNodes** , который содержит только один параметр _Начальный_узел_ используется для выберите первую строку в повторяющейся таблицы, привязанных к повторяющейся группе «my: Сотрудник». 
+В следующем примере перегрузка [SelectNodes (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) метода **SelectNodes** , который предоставляет только один параметр _StartNode_ , используется для выбора первой строки в повторяющейся таблице, привязанной к повторяющейся группе "My: Employee (сотрудник). 
   
 ```cs
 // Create XPathNavigator and specify XPath for nodes.
@@ -176,7 +176,7 @@ XPathNavigator repeatingTableRow1 =
 CurrentView.SelectNodes(repeatingTableRow1);
 ```
 
-Также можно выбрать несколько строк в повторяющейся таблицы. В следующем примере первые три строки повторяющейся таблицы, привязанных к повторяющейся группе «my: сотрудников» выбраны с помощью метода **SelectNodes** , который предоставляет перегрузки [SelectNodes (XPathNavigator, XPathNavigator, строка)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx)  Параметры _Начальный_узел_ и _endNode_ : 
+В повторяющейся таблице также можно выбирать и несколько строк. В следующем примере первые три строки повторяющейся таблицы, привязанные к повторяющейся группе "My: Employee", выбираются с помощью перегрузки метода SelectNodes [(XPathNavigator, XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) метода **SelectNodes** , который предоставляет  параметры _StartNode_ и _ендноде_ : 
   
 ```cs
 // Create XPathNavigators to specify range of nodes.

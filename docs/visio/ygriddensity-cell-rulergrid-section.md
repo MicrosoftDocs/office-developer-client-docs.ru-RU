@@ -9,23 +9,23 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 3ea2b3c7-0c69-a9f2-379f-8daa0c665810
 description: Указывает тип вертикальной сетки для использования.
-ms.openlocfilehash: 4e0d1b1dc6f3da95b9328342e0398313b6c85eb4
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 793fa40316edd591c8b4873d8919507c2393b5d8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815224"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307709"
 ---
 # <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Ячейка YGridDensity (раздел "Линейка и сетка")
 
 Указывает тип вертикальной сетки для использования.
   
-|**Значение**|**Описание**|**Константа автоматизации**|
+|**Value**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-|0  <br/> |Фиксация  <br/> |**visGridFixed** <br/> |
+|нуль  <br/> |Фиксация  <br/> |**visGridFixed** <br/> |
 |2  <br/> |С большими интервалами  <br/> |**visGridCoarse** <br/> |
-|4  <br/> |С обычными интервалами (по умолчанию)  <br/> |**visGridNormal** <br/> |
-|8  <br/> |С небольшими интервалами  <br/> |**visGridFine** <br/> |
+|SP4  <br/> |С обычными интервалами (по умолчанию)  <br/> |**visGridNormal** <br/> |
+|8,5  <br/> |С небольшими интервалами  <br/> |**visGridFine** <br/> |
    
 ## <a name="remarks"></a>Замечания
 

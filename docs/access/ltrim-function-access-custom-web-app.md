@@ -1,34 +1,34 @@
 ---
-title: Функции LTrim (приложение настраиваемых web Access)
+title: Функция LTrim (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5a34539a-0245-4268-bcd3-90a17ee095f4
-description: Возвращает выражение символ после удаление начальных пробелов.
-ms.openlocfilehash: 7ba34066028f4edbbf6d86c3a9fd85b616b32d77
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает символьное выражение после удаления начальных пробелов.
+ms.openlocfilehash: 83dba56e4ed8b140bb9f278f9e836ab4006e0955
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806920"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301794"
 ---
-# <a name="ltrim-function-access-custom-web-app"></a>Функции LTrim (приложение настраиваемых web Access)
+# <a name="ltrim-function-access-custom-web-app"></a>Функция LTrim (пользовательское веб-приложение для Access)
 
-Возвращает выражение символ после удаление начальных пробелов.
+Возвращает символьное выражение после удаления начальных пробелов.
   
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 
- **Функции LTrim** (*TextExpression*) 
+ **LTRIM** (*Текстекспрессион*) 
   
-Функции **LTrim** содержит следующий аргумент. 
+Функция **LTRIM** содержит следующий аргумент. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *TextExpression*  <br/> |Строковое выражение.  <br/> |
+| *Текстекспрессион*  <br/> |Строковое выражение.  <br/> |
    
 

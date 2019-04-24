@@ -8,32 +8,32 @@ keywords:
 localization_priority: Normal
 ms.assetid: a2c18b72-426b-4f63-8454-187e96d26199
 description: В этом разделе предоставляются сведения о типичных задачах разработчиков, возникающих при разработке шаблонов форм InfoPath с управляемым кодом.
-ms.openlocfilehash: 9f0bbf36b2533b12ca3f31100c3abc21173d7c6b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a84bf1a70407ca87e1a83f74856d363d8860d4a1
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807594"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303439"
 ---
 # <a name="understanding-the-infopath-object-model-and-common-developer-tasks"></a>Ознакомление с объектной моделью InfoPath и распространенными задачами разработчиков
 
 В этом разделе предоставляются сведения о типичных задачах разработчиков, возникающих при разработке шаблонов форм InfoPath с управляемым кодом.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание
 
 [Доступ к данным приложения](how-to-access-application-data.md)
   
 > Описывается доступ к сведениям о приложении InfoPath.
     
-[Обработка событий форм](how-to-respond-to-form-events.md)
+[Реагирование на события формы](how-to-respond-to-form-events.md)
   
 > Описывается создание обработчиков событий для обработки событий, возникающих при заполнении пользователем формы.
     
-[Доступ к данным форм](how-to-access-form-data.md)
+[Доступ к данным формы](how-to-access-form-data.md)
   
 > Описывается доступ к сведениям о базовом документе XML для формы и о содержащихся в форме данных, а также выполнение некоторых действий с документом XML.
     
-[Доступ ко внешним источникам данных](how-to-access-external-data-sources.md)
+[Доступ к внешним источникам данных](how-to-access-external-data-sources.md)
   
 > Описывается доступ к данным, расположенным на внешних источниках данных.
     
@@ -41,11 +41,11 @@ ms.locfileid: "19807594"
   
 > Описывается написание кода, выполняющего различные действия в зависимости от того, где открыта форма: в InfoPath, в веб-браузере или в браузере мобильного устройства.
     
-[Работа с окнами форм](how-to-work-with-form-windows.md)
+[Работать с окнами форм](how-to-work-with-form-windows.md)
   
 > Описывается работа с окнами форм.
     
-[Работа с представлениями](how-to-work-with-views.md)
+[Работать с представлениями](how-to-work-with-views.md)
   
 > Описывается работа с представлениями.
     
@@ -53,7 +53,7 @@ ms.locfileid: "19807594"
   
 > Описывается работа с автономными решениями.
     
-[Работа с цифровыми подписями](how-to-work-with-digital-signatures.md)
+[Работать с цифровыми подписями](how-to-work-with-digital-signatures.md)
   
 > Описывается работа с цифровыми подписями.
     
@@ -61,11 +61,11 @@ ms.locfileid: "19807594"
   
 > Описывается обработка ошибок в проектах InfoPath с управляемым кодом.
     
-[Работа с параметрами управления правами на доступ к данным](how-to-work-with-information-rights-management-settings.md)
+[Работать с параметрами управления правами на доступ к данным](how-to-work-with-information-rights-management-settings.md)
   
 > Описывается работа с параметрами управления правами на доступ к данным (IRM).
     
-[Добавление настраиваемых сборок и ссылок на них](how-to-add-and-reference-custom-assemblies.md)
+[Добавление и ссылки на пользовательские сборки](how-to-add-and-reference-custom-assemblies.md)
   
 > Рассматривается добавление в проект шаблона формы пользовательских сборок и ссылок на них.
     

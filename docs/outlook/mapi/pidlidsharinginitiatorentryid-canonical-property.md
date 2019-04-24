@@ -13,47 +13,47 @@ api_type:
 ms.assetid: 47f00706-83df-49cb-bda7-ef572d76a020
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: bfe682fc3263278c6e1d02a29a8b6432f41ac79e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25396409"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309529"
 ---
 # <a name="pidlidsharinginitiatorentryid-canonical-property"></a>Каноническое свойство PidLidSharingInitiatorEntryId
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Определяет, как свойство общего доступа сообщения.
+Указывает как свойство сообщения о совместном доступе.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidSharingInitiatorEid  <br/> |
-|Набор свойств:  <br/> |PSETID_Sharing  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x00008A09  <br/> |
+|Связанные свойства:  <br/> |Диспидшарингинитиатореид  <br/> |
+|Набор свойств:  <br/> |Псетид_шаринг  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x00008A09  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Sharing  <br/> |
+|Область:  <br/> |Общий доступ  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство должно быть присвоено значение свойства **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) для пользователя, находящегося в адресной книге (см [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)). 
+Для этого свойства должно быть задано значение свойства **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)) для адресной книги пользователя, выполнившего вход в систему (см. раздел [[MS-оксоабк]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS — ОКСШАРЕ]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Открывает общий доступ папки почтовых ящиков между клиентами.
+> Предоставляет общий доступ к папкам почтового ящика между клиентами.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -63,7 +63,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

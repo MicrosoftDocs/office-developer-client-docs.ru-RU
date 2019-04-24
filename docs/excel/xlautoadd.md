@@ -7,26 +7,26 @@ ms.topic: reference
 f1_keywords:
 - xlAutoAdd
 keywords:
-- функция xlautoadd [excel 2007]
+- Функция кслаутоадд [Excel 2007]
 localization_priority: Normal
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: ae0b4ae2d5f5fc58c3e18ffa9d79ec4128cb4639
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 9a38d5dafd30fda87dda5eadf8fa97ab6e6768a7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807333"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303993"
 ---
 # <a name="xlautoadd"></a>xlAutoAdd
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Когда пользователь активирует XLL во время сеанса обмена Excel с помощью диспетчера надстроек, добавляемые в Microsoft Excel. Эта функция не вызывается при запуске и загрузка предварительно установленные надстройки Excel.
+Добавляется Microsoft Excel, когда пользователь активирует XLL во время сеанса Excel с помощью диспетчера надстроек. Эта функция не вызывается при запуске Excel и загрузке предварительно установленной надстройки.
   
-Эта функция может использоваться для отображения настраиваемого диалогового окна, о том, что надстройка была активирована, чтение или запись в реестр или проверьте сведения о лицензировании, например.
+Эту функцию можно использовать для отображения настраиваемого диалогового окна, которое сообщает пользователю, что надстройка активирована, а также для чтения или записи в реестр или для проверки сведений о лицензировании, например.
   
-Excel не требуется XLL внедрение и экспорт этой функции.
+Для реализации и экспорта этой функции в Excel не требуется XLL.
   
 ```cs
 int WINAPI xlAutoAdd(void);
@@ -38,15 +38,15 @@ int WINAPI xlAutoAdd(void);
   
 ## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
 
-Реализация этой функции должен возвращать 1. (**int**).
+Ваша реализация этой функции должна вернуть 1. (**int**).
   
 ## <a name="remarks"></a>Замечания
 
-Использование этой функции, что-то, что ваше XLL необходимо сделать при добавлении, диспетчер надстроек.
+Используйте эту функцию, если у вас есть все, что нужно сделать для XLL, когда она добавляется с помощью диспетчера надстроек.
   
 ## <a name="example"></a>Пример
 
-Просмотреть `\SAMPLES\EXAMPLE\EXAMPLE.C` и `\SAMPLES\GENERIC\GENERIC.C` для примера реализации этой функции. Следующий код — из файла `\SAMPLES\EXAMPLE\EXAMPLE.C`.
+`\SAMPLES\GENERIC\GENERIC.C` В этой статье приведены `\SAMPLES\EXAMPLE\EXAMPLE.C` примеры реализации этой функции. Следующий код — из файла `\SAMPLES\EXAMPLE\EXAMPLE.C`.
   
 ```cs
 int WINAPI xlAutoAdd(void)

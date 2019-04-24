@@ -7,11 +7,11 @@ ms.assetid: 597f7b81-3baf-4bf2-9ef0-f7fedad8c36e
 description: Здесь вы найдете инструкции, примеры кода, документацию по API и пакетам SDK, справочные материалы по VBA, учебные материалы и технические статьи, посвященные разработке решений и настройке Excel.
 localization_priority: Priority
 ms.openlocfilehash: 8e83acd1420a36dbcbc1fdf2c730b3b6b3022f67
-ms.sourcegitcommit: b9814794fcc929f53892417f2b788f2a7931da87
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31903805"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304132"
 ---
 # <a name="develop-solutions-and-customize-excel"></a>Разработка решений и настройка Excel
 

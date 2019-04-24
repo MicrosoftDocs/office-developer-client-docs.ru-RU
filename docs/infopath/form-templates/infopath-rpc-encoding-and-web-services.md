@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: f8d7b944-a8fd-9c5f-8f66-0f1b628b7c6e
 description: 'Веб-службы могут предоставлять один или два стиля привязки к своим веб-методам в контракте WSDL, где они описаны: документальный или RPC.'
 ms.openlocfilehash: 0eacf013c9cdf74f18f3de1d4412ca4ca165a960
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387680"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303530"
 ---
 # <a name="infopath-rpc-encoding-and-web-services"></a>InfoPath, кодировка RPC и веб-службы
 

@@ -13,56 +13,56 @@ api_type:
 ms.assetid: 104ef21c-b607-48b7-9b06-bc53b7d9b68a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 39f2e6aeb4026f0b33be08b3bd8123283e5df3e1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391943"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303012"
 ---
 # <a name="pidlidtaskhistory-canonical-property"></a>Каноническое свойство PidLidTaskHistory
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает тип изменения, внесенные последнего к задаче.
+Указывает тип изменения, который был выполнен последним в задаче.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |dispidTaskHistory  <br/> |
-|Набор свойств:  <br/> |PSETID_Task  <br/> |
-|Длинный идентификатор (КРЫШКА):  <br/> |0x0000811A  <br/> |
+|Связанные свойства:  <br/> |Диспидтаскхистори  <br/> |
+|Набор свойств:  <br/> |Псетид_таск  <br/> |
+|Длинный идентификатор (крышка):  <br/> |0x0000811A  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Task  <br/> |
+|Область:  <br/> |Задача  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Если значение этого свойства, свойство **dispidTaskLastUpdate** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) необходимо также установить для текущего времени. В следующей таблице показаны **dispidTaskHistory** значения свойств, перечисленных в порядке убывания приоритета. 
+Если значение этого свойства задано, свойству **диспидтаскластупдате** ([PidLidTaskLastUpdate](pidlidtasklastupdate-canonical-property.md)) также должно быть присвоено текущее время. В следующей таблице приведены значения свойств **диспидтаскхистори** , перечисленные в порядке убывания приоритета. 
   
-|**Значение**|**Описание**|
+|**Value**|**Описание**|
 |:-----|:-----|
-|0x00000004  <br/> |Изменения свойства **dispidTaskDueDate** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)).  <br/> |
-|0x00000003  <br/> |Свойство был изменен.  <br/> |
-|0x00000001  <br/> |Назначена задача принимаются этой задачи.  <br/> |
-|0x00000002  <br/> |Назначена задача отклонено этой задачи.  <br/> |
-|0x00000005  <br/> |Задача назначена назначена задача.  <br/> |
-|0x00000000  <br/> |Не были изменены.  <br/> |
+|0x00000004  <br/> |Изменено свойство **диспидтаскдуедате** ([PidLidTaskDueDate](pidlidtaskduedate-canonical-property.md)).  <br/> |
+|0x00000003  <br/> |Изменено другое свойство.  <br/> |
+|0x00000001  <br/> |Уполномоченная задача приняла эту задачу.  <br/> |
+|0x00000002  <br/> |Задача, которой назначена задача, отклонила эту задачу.  <br/> |
+|0x00000005  <br/> |Задача назначена уполномоченному пользователю задачи.  <br/> |
+|0x00000000  <br/> |Изменения не были внесены.  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения набора свойств и ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
     
-[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS — ОКСОТАСК]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Определяет несколько объектов, которые модель электронный эквивалент задач, назначений задач и обновления задач.
+> Определяет несколько объектов, которые моделируют электронные эквиваленты задач, назначений задач и обновлений задач.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
@@ -72,7 +72,7 @@ Mapidefs.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

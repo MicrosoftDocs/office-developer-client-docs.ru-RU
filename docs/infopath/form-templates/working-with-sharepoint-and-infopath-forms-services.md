@@ -8,18 +8,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0b0c185e-eb41-417f-bfee-aeb6f0475866
 description: В этом разделе представлены сведения о работе с шаблонами форм, совместимыми с браузерами и предназначенными для развертывания в приложении Microsoft SharePoint Server 2010 с InfoPath Forms Services.
-ms.openlocfilehash: 3efd241587a1872c8b5784c7adcc6e6395776dc9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a53aa12593033f4df0acc48dbc6197f096765365
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807611"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303159"
 ---
-# <a name="working-with-sharepoint-and-infopath-forms-services"></a>Работа со службами SharePoint и InfoPath Forms Services
+# <a name="working-with-sharepoint-and-infopath-forms-services"></a>Работа с SharePoint и InfoPath Forms Services
 
 В этом разделе представлены сведения о работе с шаблонами форм, совместимыми с браузерами и предназначенными для развертывания в приложении Microsoft SharePoint Server 2010 с InfoPath Forms Services.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание
 
 [Создание шаблонов форм InfoPath, работающих со службами InfoPath Forms Services](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
   

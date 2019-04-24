@@ -1,27 +1,27 @@
 ---
-title: Действия макроса ExitForEachRecord (приложение настраиваемых web Access)
+title: Макрокоманда Екситфореачрекорд (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: ee0aec9b-cdb0-4204-8a15-7542d943f096
-description: Действие ExitForEachRecord используется для немедленного выхода из блока ДляКаждойЗаписи данных.
-ms.openlocfilehash: dba71171914b7328bdd14246fbd46969b0d242bc
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Используйте действие Екситфореачрекорд для немедленного выхода из блока данных ДляКаждойЗаписи.
+ms.openlocfilehash: f4f2a5cd280b26471aa9cc1596b4d6269d059f94
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806939"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32302480"
 ---
-# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a>Действия макроса ExitForEachRecord (приложение настраиваемых web Access)
+# <a name="exitforeachrecord-macro-action-access-custom-web-app"></a>Макрокоманда Екситфореачрекорд (пользовательское веб-приложение для Access)
 
-Действие **ExitForEachRecord** используется для немедленного выхода из блока **[ДляКаждойЗаписи](foreachrecord-data-block-access-custom-web-app.md)** данных. 
+Используйте действие **екситфореачрекорд** для немедленного выхода из блока данных **[ДляКаждойЗаписи](foreachrecord-data-block-access-custom-web-app.md)** . 
   
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 > [!NOTE]
-> Действие **ExitForEachRecord** доступна только в макросов данных. 
+> Действие **екситфореачрекорд** доступно только в макросах данных. 
   
 

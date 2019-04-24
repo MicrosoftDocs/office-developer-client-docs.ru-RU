@@ -6,18 +6,18 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 917e9a1d-df17-4732-8496-097c6b7bcd1f
 description: В этом разделе приведены сведения о дополнительных способах разработки и задачах InfoPath.
-ms.openlocfilehash: decec7d612e4cdd2be3d9717a1caba56830f04d8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 592a2764216bd126e153921d08f37c00abc0df79
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807464"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300443"
 ---
 # <a name="additional-infopath-development-concepts"></a>Дополнительные сведения о разработке InfoPath
 
 В этом разделе приведены сведения о дополнительных способах разработки и задачах InfoPath.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание
 
 [О компонентах шаблона формы](about-form-template-components.md)
   

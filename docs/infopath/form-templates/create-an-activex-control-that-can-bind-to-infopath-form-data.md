@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: a0d62047-bf08-9f70-de00-7f81ef1331f1
 description: В формах InfoPath, предназначенных для открытия в редакторе InfoPath, разработчики могут размещать элементы управления ActiveX. Такие элементы управления могут уже существовать (при этом применяются некоторые ограничения) или могут создаваться специально для InfoPath.
 ms.openlocfilehash: 70ac6a16b305403ffa99d8fe840a165913642f57
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25392797"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300191"
 ---
 # <a name="create-an-activex-control-that-can-bind-to-infopath-form-data"></a>Создание элемента управления ActiveX, который можно прикрепить к данным формы InfoPath
 
@@ -23,37 +23,37 @@ ms.locfileid: "25392797"
   
 - **IDispatch**
     
-- **IPersistPropertyBag**
+- **Иперсистпропертибаг**
     
-- **Программу**
+- **Иперсистстреаминит**
     
-- **IPropertyPage**
+- **Ипропертипаже**
     
-- **IObjectSafety**
+- **Иобжектсафети**
     
-- **IPropertyNotifySink**
+- **Ипропертинотифисинк**
     
-- **IViewObject**
+- **Ивиевобжект**
     
-- **IOleObject**
+- **Иолеобжект**
     
-- **IOleInPlaceObject**
+- **Иолеинплацеобжект**
     
 Для обновления свойств модели DOM при изменении ими элемента управления в InfoPath этот элемент должен реализовывать следующие интерфейсы:
   
-- **IConnectionPointContainer**
+- **Иконнектионпоинтконтаинер**
     
-- **IEnumConnectionPoints**
+- **Иенумконнектионпоинтс**
     
 - **IConnectionPoint**
     
-- **IEnumConnections**
+- **Иенумконнектионс**
     
 Кроме того, существует два интерфейса COM для InfoPath, обеспечивающие более тесную интеграцию элементов управления:
   
-- [IInfoPathControl](https://msdn.microsoft.com/library/bb264625.aspx)
+- [Иинфопасконтрол](https://msdn.microsoft.com/library/bb264625.aspx)
     
-- [IInfoPathControlSite](https://msdn.microsoft.com/library/bb264627.aspx)
+- [Иинфопасконтролсите](https://msdn.microsoft.com/library/bb264627.aspx)
     
 ## <a name="add-an-activex-control-to-the-infopath-design-environment"></a>Добавление элемента управления ActiveX в среду разработки InfoPath
 

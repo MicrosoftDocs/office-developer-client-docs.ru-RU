@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4646659b-f932-4d11-a46f-4231bb397243
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 165be9eada54b2030471fc10e7a0bf0c7dcc7c8e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0fa5fe57e537a7b8c7d880b934809a6f68ce27a2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807328"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301619"
 ---
 # <a name="pingsession"></a>PingSession
 
 **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Проверяет, допустим ли сеанс. Эта функция обычно вызывается, когда Excel необходимо определить, если ранее возвращенные сеанс остается активным и можно использовать.
+Проверяет, является ли сеанс допустимым. Эта функция обычно вызывается, когда Excel должен определить, является ли ранее возвращенный идентификатор сеанса активным и может использоваться.
   
 ```cpp
 int PingSession(int SessionId)
@@ -26,13 +26,13 @@ int PingSession(int SessionId)
 
 ## <a name="parameters"></a>Параметры
 
-_Код сеанса_
+_SessionID_
   
-> Идентификатор сеанса для проверки связи. Это значение должно соответствовать идентификатор, который возвращает предыдущего вызова [метод OpenSession](opensession.md).
+> Идентификатор сеанса, для которого проверяется связь. Это значение должно быть равно ИДЕНТИФИКАТОРу, возвращенному при предыдущем вызове [опенсессион](opensession.md).
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-**xlHpcRetSuccess** Если аргумент _SessionId_ является допустимым; в противном случае — **xlHpcRetInvalidSessionId**.
+**кслхпкретсукцесс** , если аргумент _SessionID_ является допустимым; в противном случае **кслхпкретинвалидсессионид**.
   
 ## <a name="see-also"></a>См. также
 

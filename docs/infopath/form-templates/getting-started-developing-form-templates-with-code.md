@@ -8,18 +8,18 @@ keywords:
 localization_priority: Normal
 ms.assetid: 66468447-2012-4497-b371-c61f64a8bb49
 description: В этом разделе предоставляются вводные сведения о создании шаблонов форм с управляемым кодом, работающих с объектной моделью InfoPath, предоставляемой элементами пространства имен Microsoft.Office.InfoPath.
-ms.openlocfilehash: a4e4e8a4e01dc8d0fbfe9c5cbed0ae4b85b51e94
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 59167533eba6dd3537b6c5c0170ef32b795b02cc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19807488"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303705"
 ---
 # <a name="getting-started-developing-form-templates-with-code"></a>Введение в разработку шаблонов форм с кодом
 
 В этом разделе предоставляются вводные сведения о создании шаблонов форм с управляемым кодом, работающих с объектной моделью InfoPath, предоставляемой элементами пространства имен **Microsoft.Office.InfoPath**. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>Содержание
 
 [Новые возможности для разработчиков InfoPath](what-s-new-for-infopath-developers.md)
   
@@ -33,23 +33,23 @@ ms.locfileid: "19807488"
   
 > Описывается процедура установки набора Visual Studio 2012.
     
-[Установка локальной справки .NET Framework для набора средств Visual Studio Tools для работы с приложениями](how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md)
+[Установка локальной справки .NET Framework для средств Visual Studio Tools for Applications](how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md)
   
 > Описывается процедура установки локальной копии документации .NET Framework для автономного использования в наборе Visual Studio 2012.
     
-[Добавление обработчика события](how-to-add-an-event-handler.md)
+[Добавление обработчика событий](how-to-add-an-event-handler.md)
   
 > Описывается добавление обработчиков событий в шаблон формы InfoPath с управляемым кодом. 
     
-[Просмотр и отладка шаблонов форм InfoPath с кодом](how-to-preview-and-debug-infopath-form-templates-with-code.md)
+[Предварительный просмотр и отладка шаблонов форм InfoPath с кодом](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   
 > Описывается просмотр и отладка шаблонов форм InfoPath с управляемым кодом.
     
-[Просмотр и отладка шаблонов форм, требующих полного доверия](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+[Предварительный просмотр и отладка шаблонов форм, требующих полного доверия](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
   
 > Описывается просмотр и отладка шаблонов форм InfoPath с управляемым кодом, содержащих бизнес-логику, не требующую полного доверия.
     
-[Пошаговое руководство. Создание базового шаблона формы с кодом](walkthrough-creating-a-basic-form-template-with-code.md)
+[ПоШаговое руководство: создание базового шаблона формы с кодом](walkthrough-creating-a-basic-form-template-with-code.md)
   
 > Пошаговая инструкция, предоставляющая вводные сведения о создании и отладке базового шаблона формы InfoPath с управляемым кодом 
     
@@ -57,7 +57,7 @@ ms.locfileid: "19807488"
   
 > Описывается создание многострочного поля и вспомогательной функции для записи в поле данных отладки.
     
-[Открытие и преобразование шаблона формы, созданного с помощью набора средств InfoPath](how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md)
+[Открытие и преобразование шаблона формы, созданного с помощью InfoPath Toolkit](how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md)
   
 > Описывается открытие и преобразование шаблона формы с управляемым кодом, созданного с помощью набора инструментов InfoPath 2003 и Visual Studio .NET или набора инструментов InfoPath 2003 для Visual Studio 2005.
     
@@ -69,11 +69,11 @@ ms.locfileid: "19807488"
   
 > Предоставляются обобщенные сведения о типичных задачах разработчиков шаблонов форм InfoPath с управляемым кодом.
     
-[Работа с классами XPathNavigator и XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)
+[Работать с классами XPathNavigator и XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)
   
 > Предоставляются обобщенные сведения об элементах объектной модели управляемого кода InfoPath, использующих классы **XPathNavigator** и **XPathNodeIterator** для работы с XML-данными. 
     
-[Использование элементов объектной модели SharePoint](how-to-use-sharepoint-object-model-members.md)
+[Использование членов объектной модели SharePoint](how-to-use-sharepoint-object-model-members.md)
   
 > Описывается создание ссылки на сборку Microsoft.SharePoint для написания кода с использованием соответствующей объектной модели в коде формы.
     

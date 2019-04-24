@@ -7,28 +7,28 @@ ms.topic: reference
 f1_keywords:
 - xlAddInManagerInfo
 keywords:
-- функция xladdinmanagerinfo [excel 2007]
+- Функция xladdinmanagerinfo [Excel 2007]
 localization_priority: Normal
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e42cca809c4426ddf9a98b3b275d08490d31c8db
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 66d2ac05b9603d6bb587a3898bde2545c1bb844a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807327"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303999"
 ---
 # <a name="xladdinmanagerinfoxladdinmanagerinfo12"></a>xlAddInManagerInfo/xlAddInManagerInfo12
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Именем с Microsoft Excel, когда диспетчер надстроек вызывается в первый раз в сеансе Excel. Эта функция используется для предоставления сведений о надстройке Диспетчер надстроек.
+Вызывается Microsoft Excel, когда диспетчер надстроек вызывается в первый раз в сеансе Excel. Эта функция используется для предоставления диспетчеру надстроек сведений о надстройке.
   
-Excel 2007 и более поздних версий вызовите **xlAddInManagerInfo12** вместо **xlAddInManagerInfo** при экспорте с XLL. Функция **xlAddInManagerInfo12** должны работать в так же, как **xlAddInManagerInfo** во избежание разных версий различия в поведении XLL. Предполагается, что **xlAddInManagerInfo12** возвращает тип данных **XLOPER12** , тогда как **xlAddInManagerInfo** должен возвращать **XLOPER**.
+Excel 2007 и более поздние версии вызывают **xlAddInManagerInfo12** в предпочтение **xlAddInManagerInfo** , если экспортировано XLL. Функция **xlAddInManagerInfo12** должна работать так же, как и **xlAddInManagerInfo** , чтобы избежать отличий, связанных с ВЕРСИЯМИ, в работе XLL. Excel ожидает, что **xlAddInManagerInfo12** Возвращает тип данных **XLOPER12** , в то время как **xlAddInManagerInfo** должны возвращать **XLOPER**.
   
-Функция **xlAddInManagerInfo12** не вызывается с версии Excel, предшествующие Excel 2007, как они не поддерживают **XLOPER12**.
+Функция **xlAddInManagerInfo12** не вызывается в версиях Excel, предшествующих Excel 2007, так как они не поддерживают **XLOPER12**.
   
-Excel не требуется XLL внедрение и экспортировать любой из этих функций.
+В Excel не требуется XLL для реализации и экспорта любой из этих функций.
   
 ```cs
 LPXLOPER WINAPI xlAddInManagerInfo(LPXLOPER pxAction);
@@ -37,19 +37,19 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
 
 ## <a name="parameters"></a>Параметры
 
- _pxAction:_ Указатель на числовой **XLOPER и XLOPER12** (**xltypeInt** или **xltypeNum**).
+ _пксактион:_ Указатель на числовое значение **XLOPER/XLOPER12** (**кслтипеинт** или **кслтипенум**).
   
-Сведения о, запрашивает Excel.
+Сведения, которые Excel запрашивает.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-Если _pxAction_ является или могут быть приведены к номер 1, реализация этой функции должен возвращать строку, содержащую сведения о надстройки, обычно его имя и может быть номер версии. В противном случае возвращается #VALUE!. 
+Если _пксактион_ имеет значение, или его можно привести к числу 1, то ваша реализация этой функции должна вернуть строку, содержащую сведения о надстройке, обычно ее имя и, возможно, номер версии. В противном случае возвращается #VALUE!. 
   
-Если строка не возвращают, Excel пытается преобразовать возвращаемое значение в строку.
+Если вы не возвращаете строку, Excel пытается преобразовать возвращенное значение в строку.
   
 ## <a name="remarks"></a>Замечания
 
-Если Возвращенная строка указывает динамически выделенный буфер, необходимо убедиться, что в конечном счете освобождается этот буфер. Если строка выделена в Excel, это можно сделать, задав **xlbitXLFree**. Если строка была выделена библиотеки DLL, для этого параметра **xlbitDLLFree**и также необходимо реализовать в [xlAutoFree](xlautofree-xlautofree12.md) (если, возвращают **XLOPER**) или **xlAutoFree12** (если, возвращают **XLOPER12**).
+Если возвращаемая строка указывает на динамически выделенный буфер, необходимо убедиться, что этот буфер в конечном итоге освобождается. Если эта строка была выделена приложением Excel, то для этого необходимо установить **кслбиткслфри**. Если строка была выделена БИБЛИОТЕКой DLL, это делается путем установки **кслбитдллфри**, а также необходимо реализовать в [xlAutoFree](xlautofree-xlautofree12.md) (при возврате **XLOPER**) или **xlAutoFree12** (если возвращается **XLOPER12**).
   
 ## <a name="example"></a>Пример
 

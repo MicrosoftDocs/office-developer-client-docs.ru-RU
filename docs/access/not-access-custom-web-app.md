@@ -1,43 +1,43 @@
 ---
-title: НЕ (приложение настраиваемых web Access)
+title: НЕТ (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f0f0a65f-5248-4d7c-a4a4-a0cc863b15ec
-description: Инвертирует логическое входные данные.
-ms.openlocfilehash: e455a6fb73c014fca5360a5c048a0b10cdb06507
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Выполняет логическую операцию логического ввода.
+ms.openlocfilehash: b910613a7bf08c79c2f66a417b5faec4886cb8d7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807079"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308136"
 ---
-# <a name="not-access-custom-web-app"></a>НЕ (приложение настраиваемых web Access)
+# <a name="not-access-custom-web-app"></a>НЕТ (пользовательское веб-приложение для Access)
 
-Инвертирует логическое входные данные.
+Выполняет логическую операцию логического ввода.
   
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 
-[ **Не** ]  *BooleanExpression* 
+[ **Not** ]  *Булеанекспрессион* 
   
 Оператор **Not** содержит следующие аргументы. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *BooleanExpression*  <br/> |Допустимое логическое выражение.  <br/> |
+| *Булеанекспрессион*  <br/> |Допустимое логическое выражение.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-В следующей таблице показаны результаты сравнения TRUE и FALSE значений с помощью оператор **Not** . 
+В следующей таблице показаны результаты сравнения значений TRUE и FALSE с помощью оператора **Not** . 
   
-||**Не**|
+||**Not**|
 |:-----|:-----|
-|**ЗНАЧЕНИЕ TRUE** <br/> |False  <br/> |
-|**ЗНАЧЕНИЕ FALSE** <br/> |True  <br/> |
+|**ОТНОСИТСЯ** <br/> |False  <br/> |
+|**ЗНАЧЕНИЯ** <br/> |True  <br/> |
    
 

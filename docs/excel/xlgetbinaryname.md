@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - xlGetBinaryName
 keywords:
-- функция xlgetbinaryname [excel 2007]
+- Функция кслжетбинаринаме [Excel 2007]
 localization_priority: Normal
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: d2332967e798b43a350c0733cd7398e2a921add6
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 6d063213e3f83451e8a072e71f0878174214f73e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807355"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303838"
 ---
 # <a name="xlgetbinaryname"></a>xlGetBinaryName
 
 **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Используется для возврата дескриптор для данных, сохраненных с помощью [функции xlDefineBinaryName](xldefinebinaryname.md). Данные с заданным именем двоичные сохраняется вместе с книгой и может быть доступен по имени в любое время. Для получения дополнительных сведений см раздел «Имя ограничения области двоичный» [Известные проблемы при разработке XLL для Excel](known-issues-in-excel-xll-development.md).
+Используется для возврата дескриптора для данных, сохраненных [функцией кслдефинебинаринаме](xldefinebinaryname.md). Данные с определенным двоичным именем сохраняются вместе с книгой и могут быть доступны по имени в любое время. Дополнительные сведения см. в разделе "ограничения области двоичных имен [](known-issues-in-excel-xll-development.md)".
   
 ```cs
 Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
@@ -30,17 +30,17 @@ Excel12(xlGetBinaryName, LPXLOPER12 pxRes, 1, LPXLOPER12 pxName);
 
 ## <a name="parameters"></a>Параметры
 
-_pxRes_ (**xltypeBigData** или **xltypeErr**)
+_пксрес_ (**кслтипебигдата** или **кслтипирр**)
   
-Не удалось получить Bigdata структура извлеченные данные или ошибка является данных или имя не определено. Если функция возвращает, **hdata** членом **XLOPER**/ **XLOPER12** содержит маркер для именованного данных.  _pxRes_ нужно освободить в вызове **xlFree** больше не требуется. 
+Структура Бигдата, указывающая извлеченные данные или ошибка — не удается получить данные или имя не определено. Когда функция возвращает значение, элемент **хдата** в элементе **XLOPER**/ **XLOPER12** содержит дескриптор для именованных данных.  _пксрес_ следует освобождать в вызове **кслфри** , когда он больше не требуется. 
   
-_pxName_ (**xltypeStr**)
+_пкснаме_ (**кслтипестр**)
   
-Строка, задающая имя данных.
+Строка, указывающая имя данных.
   
 ## <a name="remarks"></a>Замечания
 
-Microsoft Excel несет ответственность за памяти дескриптор, возвращенный в **hdata**. В Windows дескриптор — это глобальный дескриптор памяти (выделены функцией **GlobalAlloc** ). 
+Microsoft Excel владеет дескриптором памяти, возвращаемым в **хдата**. В Windows дескриптор является глобальным дескриптором памяти (выделенный функцией **глобалаллок** ). 
   
 ## <a name="see-also"></a>См. также
 

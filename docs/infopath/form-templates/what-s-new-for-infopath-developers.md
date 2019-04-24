@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d0ad3111-bd41-4f35-8a34-62c17f20fc19
 description: Приложение InfoPath упрощает создание многофункциональных приложений на основе форм платформы Microsoft SharePoint Server. Microsoft InfoPath 2013 в сочетании с Microsoft SharePoint Server 2013 и InfoPath Forms Services предоставляет разработчикам множество возможностей. Приложение InfoPath Forms Services, доступное в SharePoint Server 2013, позволяет развернуть шаблон формы InfoPath в SharePoint Server, чтобы пользователи без расширенного клиента InfoPath могли открывать и заполнять формы InfoPath в браузере.
 ms.openlocfilehash: 5d469dfb99290054008271867f24d947a42efeee
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385153"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303194"
 ---
 # <a name="whats-new-for-infopath-developers"></a>Новые возможности для разработчиков InfoPath
 

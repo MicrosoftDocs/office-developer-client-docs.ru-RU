@@ -8,22 +8,22 @@ f1_keywords:
 - FreeXLOper12T
 - FreeXLOperT
 keywords:
-- функция freexlopert [excel 2007], функция FreeXLOper12T [Excel 2007]
+- Функция фрикслоперт [Excel 2007], функция FreeXLOper12T [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: b7411bc51770dadc7c2d4a5c2c65d2d546f6025f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 0b604cbe5cb24ac7d8de28278dfbcf0d4fd92c7d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807262"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304076"
 ---
 # <a name="freexlopertfreexloper12t"></a>FreeXLOperT/FreeXLOper12T
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Функция Framework, освобождает память, связанные с **XLOPER**/ **XLOPER12**. Функция предполагается, что объем памяти выделена с вызовы malloc в библиотеке DLL. Если было выделить память с Microsoft Excel или каким-либо другим образом или другим процессом, эта функция не предназначена освободить память. Используйте [xlFree](xlfree.md) , чтобы освободить память, выделенную Excel для **XLOPER**/ **XLOPER12**s. 
+Функция Framework, которая освобождает память, связанную с **XLOPER**/ **XLOPER12**. Функция предполагает, что память была выделена с помощью вызовов malloc в библиотеке DLL. Если память была выделена Microsoft Excel или другим способом или каким бы то ни было другим процессом, эта функция не должна использоваться для освобождения памяти. Используйте [кслфри](xlfree.md) для освобождения памяти, выделенной Excel для **XLOPER**/ ****, с. 
   
 ```cs
 void FreeXLOperT(LPXLOPER pxloper);
@@ -32,11 +32,11 @@ void FreeXLOper12T(LPXLOPER12 pxloper12);
 
 ## <a name="parameters"></a>Параметры
 
- _pxloper_ (**LPXLOPER**)
+ _пкслопер_ (**Лпкслопер**)
   
  _pxloper12_ (**LPXLOPER12**)
   
-Указатель на **структуру XLOPER**/ **XLOPER12** освобождения. 
+Указатель на значение параметра **XLOPER**/ **XLOPER12** , которое нужно освободить. 
   
 ## <a name="example"></a>Пример
 

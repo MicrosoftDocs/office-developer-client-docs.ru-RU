@@ -1,37 +1,37 @@
 ---
-title: Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003
+title: Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
-- Источники данных [infopath 2007], доступ к объектной модели infopath 2003, совместимых с InfoPath 2003 шаблонов форм, доступ к внешним данным
+- источники данных [InfoPath 2007], доступ с помощью объектной модели InfoPath 2003, шаблоны форм, совместимые с InfoPath 2003, доступ к внешним данным
 localization_priority: Normal
 ms.assetid: 9fd9ca47-abf1-48dd-8668-dfee27161793
 description: При работе с шаблоном формы InfoPath, использующим объектную модель, совместимую с InfoPath 2003, можно написать код для доступа к дополнительным источникам данных формы и управления содержащимися в них данными.
-ms.openlocfilehash: cf06cdc6a02eba855442cdab4c3c698ed3f4425f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 569f029b412328f4d49e3079eaf207dc1556fc4b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807486"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303698"
 ---
-# <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003
+# <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003
 
 При работе с шаблоном формы InfoPath, использующим объектную модель, совместимую с InfoPath 2003, можно написать код для доступа к дополнительным источникам данных формы и управления содержащимися в них данными.
   
-Каждый дополнительный источник данных представлены объектом создан с помощью интерфейса [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) и соответствующий сохраненные данные, полученные из внешнего источника данных, например база данных или веб-службы запросов. Следующие источники данных будут называться дополнительный так как при сохранении формы InfoPath, пользователь является сохранение данных только в основном источнике данных, не данные в дополнительные источники данных. Подключение к источнику данных, представленного объект, созданный с помощью одного из интерфейсов «адаптер данных», например, интерфейс [WebServiceAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WebServiceAdapterObject.aspx) , который представляет подключение к веб-службе XML. 
+Каждый дополнительный источник данных представлен объектом, созданным с помощью интерфейса [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , и соответствует сохраненным данным, полученным из внешнего источника данных, например базы данных или запроса веб-службы. Эти источники данных указываются как дополнительные, поскольку при сохранении пользователем формы InfoPath сохраняются только данные из основного источника данных, но не данные из дополнительных источников. Подключение к источнику данных представлено объектом, созданным с помощью одного из интерфейсов "адаптер данных", таких как интерфейс [WebServiceAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WebServiceAdapterObject.aspx) , который представляет подключение к данным веб-службе XML. 
   
-Представляет экземпляр объекта [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) хранилище данных XML, возвращенных подключения к данным (к базе данных или веб-службы запросов) и адаптер данных представляет само подключение к данным. 
+Созданный экземпляр объекта [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) представляет хранилище XML-данных, возвращаемых подключением данных (в запрос базы данных или веб-службы), а адаптер данных представляет само подключение данных. 
   
-Объектная модель InfoPath поддерживает доступ к источникам данных дополнительного формы посредством использования интерфейса [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) в сочетании с помощью интерфейса [DataObjectsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjectsCollection.aspx) . 
+Объектная модель InfoPath поддерживает доступ к дополнительным источникам данных формы с помощью интерфейса [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) в связи с интерфейсом [датаобжектсколлектион](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjectsCollection.aspx) . 
   
-Также объектная модель InfoPath предоставляет набор объектов адаптера данных, содержащий сведения об используемых формой подключениях к данным.  
+Также объектная модель InfoPath предоставляет набор объектов адаптера данных, содержащий сведения об используемых формой подключениях к данным. 
   
 Существует два типа адаптеров данных: адаптеры запросов и адаптеры отправки. Адаптеры запросов используются для получения данных, которые затем сохраняются в дополнительном источнике данных, а адаптеры отправки используются для отправки данных, например, в базу данных или в веб-службу. Отправленные данные копируются из основных или дополнительных источников данных. 
   
 ## <a name="overview-of-the-dataobjectscollection-interface"></a>Обзор интерфейса DataObjectsCollection
 
-Интерфейс [DataObjectsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjectsCollection.aspx) предоставляет следующие свойства и методы, которые могут использоваться разработчиками форм для управления экземплярами [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , содержащимися в форме. 
+Интерфейс [датаобжектсколлектион](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjectsCollection.aspx) предоставляет следующие свойства и методы, которые могут использоваться разработчиками форм для управления экземплярами [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , содержащимися в форме. 
   
 |**Имя**|**Описание**|
 |:-----|:-----|
@@ -45,25 +45,25 @@ ms.locfileid: "19807486"
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|Метод [Query](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Query.aspx)  <br/> |Выполняет запрос для адаптера данных и вставляет возвращенные данные в виде XML в модель XML DOM, связанную с **DataSourceObject**.  <br/> |
+|Метод [запроса](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Query.aspx)  <br/> |Выполняет запрос для адаптера данных и вставляет возвращенные данные в виде XML в модель XML DOM, связанную с **DataSourceObject**.  <br/> |
 |Свойство [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.DOM.aspx)  <br/> |Возвращает ссылку на модель XML DOM, используемую для хранения и обработки данных с помощью **DataSourceObject**.  <br/> |
 |Свойство [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Name.aspx)  <br/> |Возвращает строковое значение, указывающее имя объекта **DataSourceObject**.  <br/> |
 |Свойство [QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.QueryAdapter.aspx)  <br/> |Возвращает ссылку на связанный объект адаптера данных.  <br/> |
    
 ## <a name="overview-of-the-data-adapter-interfaces"></a>Обзор интерфейсов адаптера данных
 
-Интерфейсы для доступа к адаптеров данных предоставляют различные свойства и методы для получения и отправки данных через подключения к внешним источникам данных; адаптер данных, связанный с объектом [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , зависит от типа подключения к внешним данным. InfoPath реализует следующие интерфейсы для доступа к адаптеров данных. 
+Интерфейсы для доступа к адаптерам данных предоставляют различные свойства и методы, которые извлекают и отправляют данные через подключения к внешним источникам данных; адаптер данных, связанный с объектом [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , зависит от типа подключения к внешним данным. InfoPath реализует следующие интерфейсы для доступа к адаптерам данных. 
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|Интерфейс [ADOAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapterObject.aspx)  <br/> |Подключается к источникам данных ADO/OLEDB, которые ограничены Microsoft Access и Microsoft SQL Server™.  <br/> |
-|Интерфейс [SharepointListAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SharepointListAdapterObject.aspx)  <br/> |Подключается к библиотеке документов или списку SharePoint.  <br/> |
+|Интерфейс [адоадаптеробжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapterObject.aspx)  <br/> |Подключается к источникам данных ADO/OLEDB, которые ограничены Microsoft Access и Microsoft SQL Server™.  <br/> |
+|Интерфейс [шарепоинтлистадаптеробжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SharepointListAdapterObject.aspx)  <br/> |Подключается к библиотеке документов или списку SharePoint.  <br/> |
 |Интерфейс [WebServiceAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.WebServiceAdapterObject.aspx)  <br/> |Подключается к веб-службам XML.  <br/> |
 |Объект [XMLFileAdapterObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XMLFileAdapterObject.aspx)  <br/> |Подключается к XML-файлу.  <br/> |
    
 ## <a name="using-the-datasourceobjects-and-the-datasourceobject-interfaces"></a>Использование интерфейсов DataSourceObjects и DataSourceObject
 
-Коллекция **DataSourceObjects** доступен через свойство [DataObjects](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx) интерфейс [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) . Например при создании дополнительного источника данных с именем сотрудников, который получает данные из таблицы Employees базы данных Northwind Traders Microsoft Access, можно использовать семейства **DataSourceObjects** для задания ссылки на **DataObject** Объект, представляющий извлеченные данные. 
+Доступ к коллекции **датасаурцеобжектс** осуществляется через свойство [DataObjects](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx) интерфейса [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) . Например, если создать дополнительный источник данных "Employees", который получает данные из таблицы "Employees" базы данных Microsoft Access компании "Борей", то можно использовать семейство **DataSourceObjects** для указания ссылки на объект **DataObject**, представляющий полученные данные. 
   
 В следующем примере кода имя дополнительного источника данных передается в метод доступа интерфейса **DataObjectsCollection**, который возвращает ссылку на объект **DataSourceObject**. Данные из дополнительного источника данных отображаются в окне сообщения с помощью свойства **DOM** интерфейса **DataSourceObject** для доступа к свойству **xml** модели XML DOM. 
   
@@ -98,9 +98,9 @@ End Sub
   
 ## <a name="using-the-dataadapterscollection-and-the-dataadapterobject-interfaces"></a>Использование интерфейсов DataAdaptersCollection и DataAdapterObject
 
-Интерфейс [DataAdaptersCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataAdaptersCollection.aspx) доступен через свойство [DataAdapters](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataAdapters.aspx) интерфейс **XDocument** . Например при создании дополнительного источника данных с именем сотрудников, который получает данные из таблицы Employees базы данных Northwind Traders Microsoft Access, можно использовать семейства **DataAdapterObjects** для задания ссылки на ** DataAdapterObject** , который представляет подключение к базе данных. 
+Доступ к интерфейсу [DataAdaptersCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataAdaptersCollection.aspx) осуществляется с [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataAdapters.aspx) помощью свойства Adapters интерфейса **XDocument** . Например, если создать дополнительный источник данных "Employees", который получает данные из таблицы "Employees" базы данных Microsoft Access компании "Борей", то можно использовать семейство **DataAdapterObjects** для указания ссылки на объект **DataAdapterObject**, представляющий подключение к базе данных. 
   
-В следующем примере кода имя дополнительного источника данных передается **DataAdaptersCollection**, который в этом случае возвращает ссылку на экземпляр **ADOAdapterObject** , представляющий подключение со значением свойства доступа к данным для базы данных Northwind Microsoft Access. Для правильной работы необходимо явно привести объект, возвращаемых как **ADOAdapterObject**. Свойство [Connection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapter2.Connection.aspx) интерфейса **ADOAdapterObject** используется для отображения в окне сообщения строки подключения ADO. 
+В следующем примере кода имя дополнительного источника данных передается в метод доступа интерфейса **DataAdaptersCollection**, который в этом случае возвращает ссылку на экземпляр **ADOAdapterObject**, представляющий подключение к базе данных Microsoft Access компании "Борей". Чтобы эта схема работала правильно, необходимо использовать явное приведение объекта, возвращаемого в виде **ADOAdapterObject**. Свойство [Connection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapter2.Connection.aspx) интерфейса **адоадаптеробжект** используется для отображения строки подключения ADO в окне сообщения. 
   
 ```cs
 public void CTRL1_5_OnClick(DocActionEvent e)

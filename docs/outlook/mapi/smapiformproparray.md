@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: bb243bc4-4974-4ad6-aa76-2426c1ebe84b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 389984f9d98ece6b2040edd741e3028fd7d766ed
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 50b6581dec8211968a49b204c6d9b1ba1c65bb62
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22579314"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309515"
 ---
 # <a name="smapiformproparray"></a>SMAPIFormPropArray
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит массив структур [SMAPIFormProp](smapiformprop.md) . 
+Содержит массив структур [смапиформпроп](smapiformprop.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiform.h  <br/> |
-|Связанные макрос:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
+|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
+|Связанный макрос:  <br/> |[CbMAPIFormPropArray](cbmapiformproparray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -44,21 +44,21 @@ typedef struct
 
 ## <a name="members"></a>Members
 
- **cProps**
+ **Кпропс**
   
-> Число именованных свойств в массиве элементов **aFormProp** . 
+> Количество именованных свойств в массиве элемента **аформпроп** . 
     
- **ulPad**
+ **Улпад**
   
->  Восемь байт внутренние поля, используемый для обеспечения правильного выравнивания. 
+>  Восемь байтов заполнения, используемых для обеспечения правильного выравнивания. 
     
- **aFormProp**
+ **Аформпроп**
   
-> Массив, содержащий свойства формы.
+> Массив свойств формы.
     
 ## <a name="remarks"></a>Замечания
 
-Структура **SMAPIFormPropArray** передается как параметр следующих методов: 
+Структура **смапиформпропаррай** передается в качестве параметра следующим методам: 
   
 - [IMAPIFormInfo::CalcFormPropSet](imapiforminfo-calcformpropset.md)
     

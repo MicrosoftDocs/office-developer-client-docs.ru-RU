@@ -8,18 +8,18 @@ ms.assetid: 687a4200-380d-48ef-85d0-0a2a10d9d87b
 description: Сравнивает два выражения. При сравнении непустых выражений результатом будет значение TRUE, если левый операнд не равен правому. В противном случае результатом будет значение FALSE.
 localization_priority: Priority
 ms.openlocfilehash: 42273a92a8492ea69e7633275454fa7c9ea52b3b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28704397"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308129"
 ---
 # <a name="not-equal-to-access-custom-web-app"></a>Не равно (пользовательское веб-приложение Access)
 
 Сравнивает два выражения. При сравнении непустых выражений результатом будет значение TRUE, если левый операнд не равен правому. В противном случае результатом будет значение FALSE.
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/ru-RU/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 

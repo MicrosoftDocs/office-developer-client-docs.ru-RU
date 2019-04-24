@@ -7,18 +7,18 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6cfd3513-800f-4602-b3e6-6430920718d6
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 782843f11643e203488b313181d224443a1d36c5
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3e4df0c5772f28ab4ab8d84eaddfe4409a88061b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807315"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301633"
 ---
 # <a name="opensession"></a>OpenSession
 
 **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Создает сеанс, в котором могут быть выполнены определенные пользователем функции.
+Создает сеанс, в котором можно выполнить пользовательские функции.
   
 ```cpp
 int OpenSession(WCHAR *Params)
@@ -28,11 +28,11 @@ int OpenSession(WCHAR *Params)
 
 _Параметры_
   
-> Указатель, разделенных точкой с запятой строку ЮНИКОДА параметров для этого сеанса. Excel не использует этот аргумент.
+> Указатель на строку параметров в Юникоде, разделенных точкой с запятой для сеанса. В Excel этот аргумент не используется.
     
-## <a name="return-value"></a>������������ ��������
+## <a name="return-value"></a>Возвращаемое значение
 
-Идентификатор сеанса для использования в других вызовов соединитель кластера, если сеанс был успешно создан; в противном случае — **xlHpcRetCallFailed**.
+Идентификатор сеанса, используемый в других вызовах соединителя кластера, если сеанс был успешно создан; в противном случае **кслхпкреткаллфаилед**.
   
 ## <a name="see-also"></a>См. также
 

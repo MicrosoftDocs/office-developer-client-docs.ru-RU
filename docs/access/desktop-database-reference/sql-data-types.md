@@ -12,11 +12,11 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: fb72a0090550692e7cf5028a6a58a078fc5d9d32
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722202"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308584"
 ---
 # <a name="sql-data-types"></a>Типы данных SQL
 

@@ -1,5 +1,5 @@
 ---
-title: Архитектура Project Server 2013 и Программируемость
+title: Архитектура и возможности программирования Project Server 2013
 manager: soliver
 ms.date: 09/17/2015
 ms.audience: Developer
@@ -12,53 +12,53 @@ f1_keywords:
 - Project Server architecture
 - Project Server programmability
 keywords:
-- преимущества архитектуры и программирования, программирования, Project Server, Project 2013 для EPM, архитектуры и Project Server, Project 2013
+- проект 2013, архитектура и программируемость, программирование, программирование, Project Server, проект 2013, преимущества для EPM, архитектура и Project Server
 localization_priority: Normal
 ms.assetid: 9ea3b3c1-fb90-454a-b8e6-abc44fca663d
-description: В статьях этого раздела описывается общую архитектуру решения Enterprise Project Management (EPM), который объединяет Project Professional 2013, Project Server 2013, Project Web App и SharePoint Server 2013.
-ms.openlocfilehash: 6b5ab94968dbb996a370e0e5abb89813f5e41ef7
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Статьи в этом разделе описывают общую архитектуру решения по управлению корпоративными проектами (EPM), которое сочетает Project профессиональный 2013, Project Server 2013, Project Web App и SharePoint Server 2013.
+ms.openlocfilehash: 44cd5a32b8d3de421ffe3b2d9bf0137146bc4c4e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813062"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301472"
 ---
-# <a name="project-server-2013-architecture-and-programmability"></a>Архитектура Project Server 2013 и Программируемость
+# <a name="project-server-2013-architecture-and-programmability"></a>Архитектура и возможности программирования Project Server 2013
 
-В статьях этого раздела описывается общую архитектуру решения Enterprise Project Management (EPM), который объединяет Project Professional 2013, Project Server 2013, Project Web App и SharePoint Server 2013.
+Статьи в этом разделе описывают общую архитектуру решения по управлению корпоративными проектами (EPM), которое сочетает Project профессиональный 2013, Project Server 2013, Project Web App и SharePoint Server 2013.
   
-Project Server 2013, созданных с помощью .NET Framework 4 и — это третий основной версии Project Server для обеспечения true многоуровневой архитектуре. Для доступа к облачных Project Server 2013 реализует клиентской объектной модели (CSOM) и службе OData для создания отчетов, который может использоваться веб-приложений, мобильных приложений и приложений Silverlight. Для приложений в локальной клиенты могут использовать CSOM или службы интерфейса Project Server (PSI). 
+Project Server 2013 создан с помощью .NET Framework 4 и является третьим основным выпуском Project Server для реализации многоуровневой многоуровневой архитектуры. Для облачного доступа Project Server 2013 реализует клиентскую объектную модель (CSOM) и службу OData для создания отчетов, которые можно использовать в веб-приложениях, мобильных приложениях и приложениях Silverlight. Для локальных приложений клиенты могут использовать либо службы CSOM, либо службы интерфейса Project Server (PSI). 
   
 ## <a name="introduction-to-project-server-architecture"></a>Общие сведения об архитектуре Project Server
 
-В этом разделе описываются общую архитектуру решения Enterprise Project Management (EPM), который объединяет Project Professional 2013, Project Server 2013, Project Web App и SharePoint Server 2013.
+В подразделах этого раздела описывается общая архитектура решения для управления корпоративными проектами (EPM), которая сочетает в себе Project профессиональный 2013, Project Server 2013, Project Web App и SharePoint Server 2013.
   
-Для программного доступа к серверу Project Server с помощью интерфейса Windows Communication Foundation (WCF) следует использовать службы PSI или CSOM. Интерфейс веб-службы ASMX из PSI рекомендуется использовать в Project Server 2013, но по-прежнему работает. PSI включает эффективного доступа с помощью наборов данных и можно создать обработчики для событий на сервере. CSOM самого использует PSI для доступа к бизнес-объектов Project Server уровне. Вместо четырех баз данных Project Server Project Server 2013 использует одну базу данных в уровень доступа к данным.
+Для программного доступа к Project Server следует использовать CSOM или службы PSI с интерфейсом Windows Communication Foundation (WCF). Интерфейс веб-службы ASMX PSI является устаревшим в Project Server 2013, но по-прежнему работает. PSI обеспечивает эффективный доступ с помощью наборов данных, и вы можете создавать обработчики для событий на стороне сервера. CSOM сам использует PSI для доступа к уровню бизнес-объектов Project Server. Вместо четырех баз данных Project Server 2013 в Project Server используется одна база данных на уровне доступа к данным.
   
-Project Server 2013 глубоко интегрированы с SharePoint Server 2013. Служба приложения Project может быть связан с другим семействам сайтов SharePoint в ферме. Project Server можно работать с и создание отчетов по SharePoint, списки задач в семейства веб-сайтов и может также получить полный доступ, где Project Server импортирует и управляет списки задач как корпоративных проектов. Project Server также использует версии 4 Windows Workflow Foundation (WF4) и добавляет действий рабочего процесса для решений по управлению запросами.
+Project Server 2013 тесно интегрируется с SharePoint Server 2013. Служба приложения Project может быть связана с другими семействами веб-сайтов SharePoint в ферме. Project Server может работать с списками задач SharePoint в семействе веб-сайтов и сообщать о них, а также получать полный доступ, когда Project Server импортирует и управляет списками задач в качестве корпоративных проектов. Project Server также использует версию 4 для Windows Workflow Foundation (WF4) и добавляет действия рабочего процесса для решений управления запросами.
   
-Описание множество новых функций, предоставляемых Project 2013 для разработчиков и компонентов, которые поддерживаются посетите страницу [обновления в Project 2013 для разработчиков](updates-for-developers-in-project-2013.md).
+Сведения о многочисленных новых возможностях, предоставляемых Project 2013 для разработчиков, а также об устаревших функциях можно узнать [в статье Updates for Developers in Project 2013](updates-for-developers-in-project-2013.md).
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
-[Архитектура Project Server 2013](project-server-2013-architecture.md) описывает основные части платформы Project 2013, включая клиенты и серверы. 
+[Архитектура Project Server 2013](project-server-2013-architecture.md) описывает основные части платформы Project 2013, в том числе клиенты и серверы. 
   
-[Возможность программирования Project Server](project-server-programmability.md) рассматриваются возможности основных расширяемости Project Server 2013 Настройка Project Web App и обновление приложения, созданные для предыдущих версий Project Server. 
+[Программирование Project Server](project-server-programmability.md) обсуждает основные функции расширения project Server 2013, настройка Project Web App и обновление приложений, созданных для предыдущих версий Project Server. 
   
-[Что PSI делает и не имеет](what-the-psi-does-and-does-not-do.md) описаны сценарии использования PSI и перечислены возможности, которые не PSI. 
+[Что делает PSI и не выполняет](what-the-psi-does-and-does-not-do.md) описание сценариев, в которых можно использовать PSI, и список действий, которые не могут выполняться в PSI. 
   
-[CSOM что делает и не поддерживает](what-the-csom-does-and-does-not-do.md) описаны сценарии, где можно использовать CSOM и перечислены возможности, которые не CSOM. 
+[Действия, выполняемЫЕ CSOM,](what-the-csom-does-and-does-not-do.md) не описывают сценарии, в которых можно использовать CSOM, и перечислены действия, которые не могут делать CSOM. 
   
-### <a name="topics-not-covered"></a>Темы не охватывают
+### <a name="topics-not-covered"></a>Неохваченные темы
 
-Статьи в разделе *архитектуры и программирования* свойства проекта настольных клиентов (стандартный 2013 Project и Project Professional 2013) или Project Web App не документов. 
+В статьях раздела *архитектура и программирование* не задокументированы компоненты клиентских настольНых компьютеров Project (project стандартный 2013 и project профессиональный 2013) или Project Web App. 
   
-Visual Basic для приложений (VBA) Справка доступна в редакторе Visual Basic в Project Стандартный и Project Professional.
+Справка по Visual Basic для приложений (VBA) доступна в редакторе Visual Basic в Project Standard и Project профессиональный.
   
 ## <a name="see-also"></a>См. также
 <a name="bk_addresources"> </a>
 
-- [Обновления для разработчиков в Project 2013](updates-for-developers-in-project-2013.md)
+- [Обновления для разработчиков в Project 2013](updates-for-developers-in-project-2013.md)
     
 - [Начало разработки рабочих процессов Project Server](getting-started-developing-project-server-workflows.md)
     

@@ -1,5 +1,5 @@
 ---
-title: IPersistMessageIsDirty
+title: Иперсистмессажеисдирти
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 57f688db-3a1c-49ff-a15a-8508bda5de68
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 0d2ae556f4dd98b5f6e274a21c608d4ea364d4ec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 91985d3dc8a7816c3da3215e505097c57c63e035
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576206"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32309613"
 ---
 # <a name="ipersistmessageisdirty"></a>IPersistMessage::IsDirty
 
@@ -25,7 +25,7 @@ ms.locfileid: "22576206"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Проверяет формы для изменения, внесенные с момента последнего сохранения.
+Проверяет форму на наличие изменений, выполненных с момента последнего сохранения.
   
 ```cpp
 HRESULT IsDirty( void );
@@ -33,7 +33,7 @@ HRESULT IsDirty( void );
 
 ## <a name="parameters"></a>Параметры
 
-None
+Нет
   
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -43,11 +43,11 @@ S_OK
     
 S_FALSE 
   
-> Форма не имеет изменения, внесенные с момента последнего сохранения.
+> В форме не внесены изменения, внесенные с момента последнего сохранения.
     
 ## <a name="remarks"></a>Замечания
 
-Средства просмотра формы вызовите метод **IPersistMessage::IsDirty** , чтобы определить, имеет ли сообщение несохраненные данные. 
+Средства просмотра форм вызывают метод **иперсистмессаже:: IsDirty** , чтобы определить, содержит ли сообщение несохраненные данные. 
   
 ## <a name="see-also"></a>См. также
 

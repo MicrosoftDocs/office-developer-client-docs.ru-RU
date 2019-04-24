@@ -1,40 +1,40 @@
 ---
-title: Доступ ко внешним источникам данных
+title: Доступ к внешним источникам данных
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 keywords:
-- классов подключений данных [infopath 2007], дополнительным источникам данных [InfoPath 2007], данных [InfoPath 2007], дополнительный, класс DataSource [InfoPath 2007], доступ к внешним источникам данных [InfoPath 2007], класс DataSourceCollection [InfoPath 2007] Класс DataConnectionCollection [InfoPath 2007], класс DataConnection [InfoPath 2007], InfoPath 2007, доступ к внешним данным, данные [InfoPath 2007] внешних источников
+- классы подключений к данным [InfoPath 2007], дополнительные источники данных [InfoPath 2007], данные [InfoPath 2007], дополнительный, класс DataSource [InfoPath 2007], доступ к внешним источникам данных [InfoPath 2007], Класс DataSourceCollection [InfoPath 2007], Класс DataConnectionCollection [InfoPath 2007], класс подключения к данным [InfoPath 2007], InfoPath 2007, доступ к внешним данным, Data [InfoPath 2007], внешние источники
 localization_priority: Normal
 ms.assetid: db7c2521-a1ad-4802-b398-79575d3d310a
 description: При работе с шаблоном формы InfoPath можно написать код для доступа к дополнительным источникам данных формы и управления содержащимися в них данными.
-ms.openlocfilehash: e26708e0033bbfe4110ac522dd1e0a0dd037c31e
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: f6957c561231eef0e3e4df6deb09ae89f85afcc5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807493"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300198"
 ---
-# <a name="access-external-data-sources"></a>Доступ ко внешним источникам данных
+# <a name="access-external-data-sources"></a>Доступ к внешним источникам данных
 
 При работе с шаблоном формы InfoPath можно написать код для доступа к дополнительным источникам данных формы и управления содержащимися в них данными. 
   
-Каждый дополнительный источник данных представлены объектом создан с помощью класса [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) и соответствующий сохраненные данные, полученные из внешнего источника данных, например база данных или веб-службы запросов. Следующие источники данных будут называться дополнительный так как при сохранении формы InfoPath, пользователь является сохранение данных только в источнике данных основной (или основной), не данные в дополнительные источники данных. Подключение к источнику данных, представленного объект, созданный с помощью одного из классов «подключение к данным», такие как класс [WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx) , который представляет подключение к веб-службе XML. 
+Каждый дополнительный источник данных представлен объектом, созданным с помощью класса [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) , и соответствует сохраненным данным, полученным из внешнего источника данных, например базы данных или запроса веб-службы. Эти источники данных указываются как дополнительные, поскольку при сохранении пользователем формы InfoPath сохраняются только данные из основного (или главного) источника данных, но не данные из дополнительных источников. Подключение к источнику данных представлено объектом, созданным с помощью одного из классов "подключение к данным", например класс [WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx) , который представляет подключение данных к веб-службе XML. 
   
-Представляет экземпляр объекта [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) хранилище данных XML, возвращенный подключения к данным (из базы данных или веб-службы запросов) и класс «подключение к данным» представляет само подключение к данным (как определенной и именованные с помощью **данных Подключения к** на вкладке **данные** ). 
+Экземпляр объекта [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) представляет хранилище XML-данных, возвращенных подключением к данным (из базы данных или запроса веб-службы), а класс подключения к данным представляет само подключение данных (как определено и названо с использованием **данных **Команда "подключения" на вкладке " **данные** ". 
   
-Объектная модель InfoPath поддерживает доступ к источникам данных дополнительного формы посредством использования класса [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) в сочетании с классом [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) . 
+Объектная модель InfoPath поддерживает доступ к дополнительным источникам данных формы с помощью класса [DataSource](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.aspx) в связи с классом [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) . 
   
 Объектная модель InfoPath также предоставляет набор классов подключений данных, где содержатся сведения об используемых формой подключениях данных.
   
 > [!NOTE]
 > В приложении Microsoft InfoPath 2003 подключение данных указывается как адаптер данных.  
   
-Существует два типа подключений данных. Подключения запросов используются для получения данных, которые затем сохраняются в дополнительном источнике данных. Подключения отправки используются для отправки данных, например, в базу данных или веб-службу. Отправленные данные копируются из основных или дополнительных источников данных. 
+Подключения к данным бывают двух типов: подключения к запросам используются для получения данных, которые затем хранятся в дополнительном источнике данных. Подключения для отправления используются для отсылки данных в базу данных или веб-службу, например. Отправленные данные копируются из основных или дополнительных источников данных. 
   
 ## <a name="overview-of-the-datasourcecollection-class"></a>Обзор класса DataSourceCollection
 
-Класс [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) предоставляет следующие свойства и методы, которые могут использоваться разработчиками форм для управления экземплярами объекта [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) , содержащимися в форме. 
+Класс [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) предоставляет следующие свойства и методы, которые могут использоваться разработчиками форм для управления экземплярами объектов [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) , содержащимися в форме. 
   
 |**Имя**|**Описание**|
 |:-----|:-----|
@@ -49,35 +49,35 @@ ms.locfileid: "19807493"
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|Метод [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx)  <br/> |Возвращает объект [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) для доступа и редактирования источника данных  <br/> |
-|Свойство [QueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.QueryConnection.aspx)  <br/> |Возвращает ссылку на связанный объект подключения данных.   <br/> Чтобы выполнить запрос на подключение к данным и вставка возвращенные данные в XML-ФАЙЛЕ в узле XML, связанного с объектом **источника данных** , используйте метод [Execute](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnection.Execute.aspx) связанный объект подключения данных.  <br/> |
+|Метод [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx)  <br/> |Возвращает объект [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) для доступа к источнику данных и его изменения  <br/> |
+|Свойство [куериконнектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.QueryConnection.aspx)  <br/> |Возвращает ссылку на связанный объект подключения данных.  <br/> Чтобы выполнить запрос для подключения данных и вставить возвращенные данные в виде XML-кода в узел XML, связанный с объектом **DataSource** , используйте метод [EXECUTE](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnection.Execute.aspx) связанного объекта подключения данных.  <br/> |
 |Свойство [Name](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.Name.aspx)  <br/> |Возвращает имя объекта **DataSource**.  <br/> |
-|Свойство [только для чтения](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.ReadOnly.aspx)  <br/> |Возвращает значение, которое указывает наличие у источника данных атрибута только для чтения  <br/> |
-|Метод [GetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx)  <br/> |Возвращает значение именованного свойства для указанного XML-узла, который должен являться узлом **nonattribute** в основном источнике данных.  <br/> |
-|Метод [SetNamedNodeProperty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx)  <br/> |Задает значение именованного свойства для указанного XML-узла, который должен являться узлом **nonattribute** в основном источнике данных.  <br/> |
+|Свойство [ReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.ReadOnly.aspx)  <br/> |Возвращает значение, которое указывает наличие у источника данных атрибута только для чтения  <br/> |
+|Метод [жетнамеднодепроперти](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.GetNamedNodeProperty.aspx)  <br/> |Возвращает значение именованного свойства для указанного узла XML, который должен быть узлом **nonattribute** в основном источнике данных.  <br/> |
+|Метод [сетнамеднодепроперти](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.SetNamedNodeProperty.aspx)  <br/> |Задает значение именованного свойства для указанного XML-узла, который должен являться узлом **nonattribute** в основном источнике данных.  <br/> |
    
 ## <a name="overview-of-the-data-connection-classes"></a>Обзор классов подключений данных
 
-Классы для доступа к подключениям данных представляют различные свойства и методы для получения и отправки данных через подключения к внешним источникам данных. Подключение данных, связанное с объектом **DataSource**, зависит от типа подключения внешних данных. Для доступа к подключениям данных приложение InfoPath реализует следующие классы. 
+Классы для доступа к подключениям к данным предоставляют различные свойства и методы, которые извлекают и отправляют данные через подключения к внешним источникам данных; подключение к данным, связанное с объектом **DataSource** , зависит от типа подключения к внешним данным. InfoPath реализует следующие классы для доступа к подключениям к данным. 
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|Класс [AdoQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.aspx)  <br/> |Запрашивает источник данных ADO/OLEDB, ограничивается Microsoft Access и Microsoft SQL Server.  <br/> |
+|Класс [ADOQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.aspx)  <br/> |Запрашивает источник данных ADO/OLEDB, ограничивается Microsoft Access и Microsoft SQL Server.  <br/> |
 |Класс [AdoSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.aspx)  <br/> |Отправляет данные в источник данных ADO/OLEDB, ограничивается Microsoft Access и Microsoft SQL Server.  <br/> |
-|Класс [SharePointListRWQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWQueryConnection.aspx)  <br/> |Запрашивает библиотеку документов или список SharePoint.  <br/> |
-|[SharePointListRWSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWSubmitConnection.aspx) <br/> |Отправляет данные в библиотеку документов или список SharePoint.  <br/> |
+|Класс [шарепоинтлистрвкуериконнектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWQueryConnection.aspx)  <br/> |Запрашивает библиотеку документов или список SharePoint.  <br/> |
+|[Шарепоинтлистрвсубмитконнектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SharePointListRWSubmitConnection.aspx) <br/> |Отправляет данные в библиотеку документов или список SharePoint.  <br/> |
 |Класс [WebServiceConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WebServiceConnection.aspx)  <br/> |Подключается к веб-службе XML.  <br/> |
 |Класс [FileQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileQueryConnection.aspx)  <br/> |Запрашивает XML-файл.  <br/> |
 |Класс [FileSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FileSubmitConnection.aspx)  <br/> |Отправляет данные в XML-файл.  <br/> |
-|Класс [EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx)  <br/> |Отправляет форму в виде вложения в сообщении электронной почты.  <br/> |
-|Класс [BdcQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcQueryConnection.aspx)  <br/> |Запрашивает внешний список на сервере под управлением SharePoint Foundation 2010 и SharePoint Server 2010.  <br/> |
-|Класс [BdcSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcSubmitConnection.aspx)  <br/> |Отправляет данные во внешний список на сервере под управлением SharePoint Foundation 2010 и SharePoint Server 2010.  <br/> |
+|Класс [EmailSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.EmailSubmitConnection.aspx)  <br/> |Отправка формы в виде вложения в сообщение электронной почты.  <br/> |
+|Класс [бдккуериконнектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcQueryConnection.aspx)  <br/> |Запрос внешнего списка на сервере, на котором работает SharePoint Foundation 2010 или SharePoint Server 2010.  <br/> |
+|Класс [бдксубмитконнектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.BdcSubmitConnection.aspx)  <br/> |ОтПравляются во внешний список на сервере, на котором работает SharePoint Foundation 2010 или SharePoint Server 2010.  <br/> |
    
 ## <a name="using-the-datasourcecollection-and-the-datasource-classes"></a>Использование классов DataSourceCollection и DataSource
 
-**DataSourceCollection** объект, представляющий коллекцию источников данных, связанных с шаблоном формы доступен через свойство [DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) . Например, при создании дополнительного источника данных с именем сотрудников, который получает данные из таблицы Employees базы данных Northwind, можно использовать объекта **DataSourceCollection** для задания ссылки на объект **DataSource** , который представляет извлеченные данные. 
+Доступ к объекту **DataSourceCollection** , представляющему коллекцию источников данных, связанных с шаблоном формы, осуществляется через [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) свойство DataSources класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) . Например, при создании дополнительного источника данных Employees, получающего данные из таблицы Employees базы данных компании "Борей", можно использовать объект **DataSourceCollection** для указания ссылки на объект **DataSource**, представляющий полученные данные. 
   
-В следующем примере кода имя дополнительного источника данных передается в метод доступа класса **DataSourceCollection**, возвращающего ссылку на объект **DataSource**, представляющий полученные данные таблицы Employees. XML-узел, где хранятся данные, полученные из дополнительного источника данных, отображается в окне сообщения с помощью метода **CreateNavigator** класса **DataSource** для доступа к свойству **InnerXml** класса **XPathNavigator**. 
+В следующем примере кода имя дополнительного источника данных передается в свойство аксессор класса **DataSourceCollection** , которое возвращает ссылку на объект **DataSource** , представляющий извлеченные данные таблицы Employees. XML-узел, где хранятся данные, полученные из дополнительного источника данных, отображается в окне сообщения с помощью метода **CreateNavigator** класса **DataSource** для доступа к свойству **InnerXml** класса **XPathNavigator**. 
   
 ```cs
 // Instantiate a variable to access the specified data source
@@ -99,13 +99,13 @@ MessageBox.Show("Data source data: " &amp; _
    myDataSource.CreateNavigator().InnerXml.ToString())
 ```
 
-Для работы с данными, в дополнительного источника данных, используйте метод **CreateNavigator** класса **DataSource** возвращает ссылку на объект **XPathNavigator** , размещенный в узле, где хранится дополнительных данных. Можно использовать свойства и методы класса **XPathNavigator** для работы с данными. Для получения дополнительных сведений см [классов XPathNavigator и XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
+Для управления данными, содержащимися в дополнительном источнике данных, используйте метод **CreateNavigator** класса **DataSource**, чтобы вернуть ссылку на объект **XPathNavigator**, расположенный на узле, где хранятся дополнительные данные. Чтобы управлять данными, можно воспользоваться свойствами и методами класса **XPathNavigator**. Дополнительные сведения см. в статье Work of the [xpathnavigators and XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   
 ## <a name="using-the-dataconnectioncollection-and-the-dataconnection-classes"></a>Использование классов DataConnectionCollection и DataConnection
 
-[DataConnectionCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnectionCollection.aspx) объект, представляющий коллекцию подключений к данным, связанного с шаблоном формы доступен через свойство [DataConnections](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataConnections.aspx) класса **XmlForm** . Например при создании дополнительного источника данных с именем сотрудников, который получает данные из таблицы Employees базы данных Northwind, можно использовать объект **DataConnectionCollection** , связанный с шаблоном формы для задания ссылки на ** Подключение данных** , который представляет подключение к базе данных. 
+Доступ к объекту [DataConnectionCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnectionCollection.aspx) , представляющему коллекцию подключений данных, связанных с шаблоном формы, осуществляется с [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataConnections.aspx) помощью свойства Connections класса **XmlForm** . Например, при создании дополнительного источника данных Employees, получающего данные из таблицы Employees базы данных "Борей", можно использовать объект **DataConnectionCollection**, связанный  с шаблоном формы, для указания ссылки на объект **DataConnection**, представляющий подключение к базе данных. 
   
-В следующем примере кода имя дополнительного источника данных передается свойство доступа к данным класс **DataConnectionCollection** , который в этом случае возвращает ссылку на объект **ADOQueryConnection** , который представляет подключение к базе данных "Борей". Для правильной работы необходимо явно привести объект, возвращаемых к типу **ADOQueryConnection** . Свойство [Connection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.Connection.aspx) интерфейса **ADOAdapterObject** используется для отображения в окне сообщения строки подключения ADO. 
+В следующем примере кода имя дополнительного источника данных передается в метод доступа класса **DataConnectionCollection**, который в данном случае возвращает ссылку на объект **ADOQueryConnection**, представляющий подключение к базе данных "Борей". Чтобы эта процедура работала правильно, необходимо явно привести возвращаемый объект к типу **ADOQueryConnection**. Свойство [Connection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.Connection.aspx) интерфейса **адоадаптеробжект** используется для отображения строки подключения ADO в окне сообщения. 
   
 ```cs
 // Instantiate a variable to access the specified data connection

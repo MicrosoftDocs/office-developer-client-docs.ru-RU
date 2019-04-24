@@ -7,11 +7,11 @@ ms.assetid: 369b30e3-eadf-4086-b023-abbdd8e810b0
 description: Вы можете интегрировать свои приложения и веб-интерфейс с Office для iOS, Office для Android, Office Online, Excel, PowerPoint или Word Mobile, чтобы пользователи могли легко переходить к работе в приложениях Office из решений сторонних поставщиков.
 localization_priority: Priority
 ms.openlocfilehash: 332f61f2b7a551516e55e7c966c649a6ee5f7f80
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28719346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303145"
 ---
 # <a name="integrate-with-office"></a>Интеграция с Office
 

@@ -12,11 +12,11 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: f475635424cfb9ed8ddab4025d6a944bdedd39fd
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28702728"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300527"
 ---
 # <a name="recordsetindex-property-dao"></a>Свойство Recordset.Index (DAO)
 

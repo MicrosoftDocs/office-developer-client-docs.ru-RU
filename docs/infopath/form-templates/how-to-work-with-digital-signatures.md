@@ -1,27 +1,27 @@
 ---
-title: Работа с цифровыми подписями
+title: Работать с цифровыми подписями
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
-- цифровые подписи [infopath 2007] InfoPath 2007 цифровых подписей
+- Цифровые подписи [InfoPath 2007], InfoPath 2007, цифровые подписи
 localization_priority: Normal
 ms.assetid: fd13fb71-aecf-47bb-8a6b-db70bd90ceeb
-description: Объектная модель пространства имен Microsoft.Office.InfoPath предоставляет функции для работы с цифровыми подписями программными средствами.
-ms.openlocfilehash: 1277998edf4feb94da40d82372fd4d96fedf2d54
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Объектная модель пространства имен Microsoft. Office. InfoPath предоставляет функции для программной работы с цифровыми подписями.
+ms.openlocfilehash: ea657f80f6e38a06a91e19c245eadc203c7c580c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/21/2018
-ms.locfileid: "19807546"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303586"
 ---
-# <a name="work-with-digital-signatures"></a>Работа с цифровыми подписями
+# <a name="work-with-digital-signatures"></a>Работать с цифровыми подписями
 
-Объектная модель пространства имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) предоставляет функции для работы с цифровыми подписями программными средствами. 
+Объектная модель пространства имен [Microsoft. Office. InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) предоставляет функции для программной работы с цифровыми подписями. 
   
 ## <a name="digital-signature-features"></a>Функции цифровых подписей
 
-Предоставляемые в InfoPath функции цифровых подписей позволяют:  
+Предоставляемые в InfoPath функции цифровых подписей позволяют: 
   
 - Применять цифровые подписи ко всей форме или к определенным наборам данных в форме, которые можно подписывать отдельно.
     
@@ -29,7 +29,7 @@ ms.locfileid: "19807546"
     
 - Указывать сообщение, которое будет отображаться пользователям при подписании формы.
     
-- Вставлять и просматривать подпись документа.  
+- Вставлять и просматривать подпись документа. 
     
 - Просматривать утверждаемые неотрекаемые сведения, добавленные к каждой подписи для повышения безопасности. Эти дополнительные сведения, которые включают представление формы для каждого подписывающегося лица, являются составным элементом подписи, и их нельзя удалить до тех пор, пока подпись действительна. Эти сведения можно вызвать в любой момент, щелкнув подпись в форме для отображения диалогового окна **Проверка цифровой подписи**. 
     
@@ -47,15 +47,15 @@ ms.locfileid: "19807546"
    
 ### <a name="the-signeventargs-object"></a>Объект SignEventArgs
 
-Обработчик событий для события [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) может работать с объектом событий [SignEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.aspx) , который предоставляет следующие свойства. 
+Обработчик событий для события [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) может работать с объектом события [сигневентаргс](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.aspx) , который предоставляет следующие свойства. 
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignedDataBlock.aspx) <br/> |Получает набор данных, который вызвал событие [входа](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) .  <br/> |
-|[SignatureWizard](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignatureWizard.aspx) <br/> |Возвращает или задает факт отображения диалогового окна **Цифровые подписи**.  <br/> |
+|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignedDataBlock.aspx) <br/> |Возвращает набор данных, которые вызвали событие [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) .  <br/> |
+|[Сигнатуревизард](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignatureWizard.aspx) <br/> |Возвращает или задает факт отображения диалогового окна **Цифровые подписи**.  <br/> |
    
 > [!NOTE]
-> В управляемом коде объектной модели [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) , поставляемый с InfoPath 2003 объект [SignEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) события для события [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2.OnSign.aspx) предоставляет свойство **XDocument** для доступа к ** XDocument** объекта формы, связанный с событием. Это не требуется с шаблонами форм, созданных с помощью службы InfoPath Forms Services или с помощью объектной модели [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) , так как элементы объектной модели класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) может осуществляться в код формы с помощью **это InfoPath **(C#) или ключевое слово **Me** (Visual Basic). Например, для доступа к свойству [выполнен вход](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Signed.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) , чтобы определить, если подпись формы, можно ввести либо `this.Signed` или`Me.Signed.`
+> В объектной модели [Microsoft. Office. Interop. InfoPath. SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) с управляемым кодом, которая поставляется с InfoPath 2003, объект события [сигневент](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) для события OnSign предоставляет свойство **XDocument** для доступа к элементу [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2.OnSign.aspx) ** Объект XDocument** формы, связанной с событием. Это не требуется для шаблонов форм, созданных с помощью InfoPath Forms Services или InfoPath, с помощью объектной модели [Microsoft. Office. InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) , так как к элементам объектной модели класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) можно получить доступ в коде формы с помощью **этого **Ключевое слово (C#) или **Me** (Visual Basic). Например, чтобы получить доступ к свойству [signed](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Signed.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) , чтобы определить, подписана ли форма, можно ввести либо `this.Signed``Me.Signed.`
   
 ### <a name="collections-and-objects"></a>Семейства и объекты
 
@@ -63,36 +63,36 @@ ms.locfileid: "19807546"
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|[SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) <br/> |Коллекция объектов [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) в шаблоне формы, заданных во время разработки в режиме конструктора InfoPath.  <br/> Коллекция [SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) реализует свойства, которые можно использовать для доступа к объектам [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) , связанный с формой. Объект [SignedDataBlockCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) , связанный с формой доступен через свойство [SignedDataBlocks](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SignedDataBlocks.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) .  <br/> |
-|[SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) <br/> |Содержит коллекцию объектов [подписи](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) для каждого объекта [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) в форме.  <br/> Класс [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) реализует свойства и метод, который может использоваться для доступа к связанным объектам [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) формы и для создания подписи. Объект [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) , связанный с [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) доступен с помощью свойства [подписи](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Signatures.aspx) .  <br/> При использовании метода [CreateSignature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.CreateSignature.aspx) класса [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) помните, что до [входа](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) не записывается подписи для объекта [подписи](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) вызывается метод. Эти методы могут вызываться только из обработчика событий **входа** шаблона полностью доверенной формы.  <br/> |
+|[Сигнеддатаблоккколлектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) <br/> |Коллекция объектов [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) в шаблоне формы, определенная во время конструирования в режиме конструктора InfoPath.  <br/> Коллекция [сигнеддатаблоккколлектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) реализует свойства, которые можно использовать для доступа к объектам [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) , связанным с формой. Объект [сигнеддатаблоккколлектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) , связанный с формой, доступен с помощью свойства [сигнеддатаблоккс](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SignedDataBlocks.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx)  <br/> |
+|[SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) <br/> |Содержит коллекцию объектов [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) для каждого объекта [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) в форме.  <br/> Класс [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) реализует свойства и метод, которые можно использовать для доступа к связанным объектам [подписи](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) формы и для создания подписи. Объект [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) , связанный с [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) , доступен с помощью свойства [Signatures](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Signatures.aspx) .  <br/> При использовании метода [креатесигнатуре](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.CreateSignature.aspx) класса [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) имейте в виду, что подпись не записывается, пока не будет вызван метод [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) для объекта [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) . Эти методы можно вызывать только из обработчика событий **Sign** в шаблоне формы с полным доверием.  <br/> |
    
 Объектная модель для цифровых подписей предоставляет следующие объекты.
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |Представляет набор подписываемых данных в форме. Объект [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) предоставляет набор свойств и один метод для программного взаимодействия с набором подписываемых данных.<br/> |
-|[Подпись](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |Представляет цифровую подпись, добавленную в форму или набор подписываемых данных в форме. Объект [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) реализует свойства, которые можно использовать для получения сведений о цифровой подписи и метод [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) запись блока цифровой подписи XML и вычислений криптографический хэш.  <br/> |
-|[Сертификат](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Certificate.aspx) <br/> |Представляет цифровой сертификат X.509, использованный для создания подписи.  <br/> |
+|[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |Представляет набор подписываемых данных в форме. Объект [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) предоставляет набор свойств и один метод для программного взаимодействия с набором подписываемых данных.  <br/> |
+|[Подпись](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |Представляет цифровую подпись, добавленную в форму, или набор подписываемых данных в форме. Объект [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) реализует свойства, которые можно использовать для получения сведений о цифровой подписи, а также метод [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) для записи блока цифровой подписи XML и вычисления его криптографического хэш-значения.  <br/> |
+|[Certificate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Certificate.aspx) <br/> |Представляет цифровой сертификат X.509, использованный для создания подписи.  <br/> |
    
 ## <a name="working-with-digital-signatures-programmatically"></a>Программная работа с цифровыми подписями
 
-Объектная модель пространства имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) предоставляет члены для программного взаимодействия с цифровыми подписями. В частности полностью доверенных форм можно добавить различные сведения в блок подписи перед сохранением, согласно следующей шкале: 
+Объектная модель пространства имен [Microsoft. Office. InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) предоставляет члены для программного взаимодействия с цифровыми подписями. В частности, формы с полным доверием могут добавлять настраиваемые сведения в блок подписи до его утверждения, в соответствии со следующей временной шкалой: 
   
 1. Пользователь решает добавить цифровую подпись в форму.
     
-2. Отображается диалоговое окно **Цифровые подписи** , пользователь щелкает **Добавить**, а затем выбирает данные для входа.
+2. Откроется диалоговое окно **цифровые подписи** , пользователь нажимает кнопку **Добавить**, а затем выбирает данные для подписи.
     
-3. Возникает событие [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) для выбранных данных, представленного объектом [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) и метод [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Sign.aspx) объекта [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) и метод [CreateSignature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.CreateSignature.aspx) [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) выполняются семейства сайтов. 
+3. Вызывается событие [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) для выбранных данных, представленное объектом [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) , и метод [Sign ()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Sign.aspx) объекта [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) и метод [креатесигнатуре](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.CreateSignature.aspx) объекта [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) выполняется сбор. 
     
 4. Все необязательные настраиваемые действия выполнены.
     
-5. Выполняет метод [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) объекта [подписи](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) . 
+5. Выполняется метод [Sign ()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) объекта [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) . 
     
 6. Отображается диалоговое окно **Подписать** для ввода имени (или выбора рисунка подписи), выбора сертификата подписи и ввода комментариев. 
     
 7. При щелчке кнопки **Подписать** производится добавление подписи в семейство подписей для формы, а неотрекаемые сведения извлекаются и сохраняются вместе с подписью (их можно впоследствии просмотреть, щелкнув **Просмотреть подписанную форму** в диалоговом окне **Цифровые подписи**, а затем щелкнув **Дополнительные сведения, которые будут включены в подпись**).
     
-В следующем примере вызывается метод [Sign()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Sign.aspx) , когда пользователь подписывает выбранные данные и визирует подпись значением метки времени извлекается из надежной службы метки времени. 
+В следующем примере вызывается метод [Sign ()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Sign.aspx) , когда пользователь подписывает выбранные данные и визирует подпись со значением timestamp, полученным из надежной службы меток времени. 
   
 ```cs
 public void FormEvents_Sign(object sender, SignEventArgs e)

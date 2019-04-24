@@ -5,24 +5,24 @@ ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- функции библиотеки Framework [excel 2007], функции [Excel 2007] библиотеки Framework
+- функции библиотеки Framework [Excel 2007], функции [Excel 2007], Библиотека Framework
 localization_priority: Normal
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 1d3878e376f95be3b277f1bb1a59545eb0a631ac
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 4eeb9e5db09592e98e9afb763efaa6be18eb2f7e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304055"
 ---
 # <a name="functions-in-the-framework-library"></a>Функции в библиотеке платформы
 
 **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Чтобы обеспечить создание XLL-модулей для упрощения был создан библиотеки Framework. Включает простой функции для управления **XLOPER**/ **XLOPER12** памяти, создание временной **XLOPER**/ **XLOPER12**, надежно вызов функции обратного вызова Microsoft Excel (**Excel4**, **Excel4v** ** Excel12 **, ** Excel12v **) и отладки строк на подключенного терминала печати.
+Библиотека Framework была создана для упрощения создания XLL. Он включает простые функции для управления памятью **XLOPER**/ **XLOPER12** , создавая временную группу **XLOPER**/ **** и надежно вызывая функции обратного вызова Microsoft Excel (**Excel4**, **Excel4v** * * Excel12 * *, * * Excel12v * *) и печать строк отладки на присоединенном терминале.
   
-Функции, включенные в этой библиотеке облегчить фрагмент кода, выглядит следующим образом.
+Функции, включенные в эту библиотеку, помогают упростить фрагмент кода, который выглядит примерно так:
   
 ```cs
 XLOPER12 xMissing, xBool;
@@ -32,42 +32,42 @@ xBool.val.xbool = 0;
 Excel12(xlcDisplay, 0, 2, (LPXLOPER12) &xMissing, (LPXLOPER12) &xBool);
 ```
 
-Упрощенная код выглядит как следующий пример.
+Упрощенный код выглядит так, как показано в следующем примере.
   
 ```cs
 Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
 ```
 
-В библиотеке Framework включены следующие функции:
+В библиотеку Framework включены следующие функции:
   
 ||
 |:-----|
 |[debugPrintf](debugprintf.md) <br/> |
-|**GetTempMemory** <br/> |
-|**FreeAllTempMemory** <br/> |
+|**Жеттемпмемори** <br/> |
+|**Фриаллтемпмемори** <br/> |
 |[InitFramework](initframework.md) <br/> |
 |[QuitFramework](quitframework.md) <br/> |
    
-|**Функции, используемые с XLOPERs**|**Функции, используемые с XLOPER12s**|
+|**Функции, используемые с XLOPER**|**Функции, используемые с XLOPER12**|
 |:-----|:-----|
 |[Excel](excel-excel12f.md) <br/> |[Excel12f](excel-excel12f.md) <br/> |
-|[TempNum](tempnum-tempnum12.md) <br/> |[TempNum12](tempnum-tempnum12.md) <br/> |
+|[Темпнум](tempnum-tempnum12.md) <br/> |[TempNum12](tempnum-tempnum12.md) <br/> |
 |[TempStr](tempstr.md) <br/> |[TempStr12](tempstrconst-tempstr12.md) <br/> |
-|[TempStrConst](tempstrconst-tempstr12.md) <br/> |[TempStr12Const](tempstrconst-tempstr12.md) <br/> |
-|[TempBool](tempbool-tempbool12.md) <br/> |[TempBool12](tempbool-tempbool12.md) <br/> |
-|[TempInt](tempint-tempint12.md) <br/> |[TempInt12](tempint-tempint12.md) <br/> |
-|[TempErr](temperr-temperr12.md) <br/> |[TempErr12](temperr-temperr12.md) <br/> |
-|[TempActiveRef](tempactiveref-tempactiveref12.md) <br/> |[TempActiveRef12](tempactiveref-tempactiveref12.md) <br/> |
-|[TempActiveCell](tempactivecell-tempactivecell12.md) <br/> |[TempActiveCell12](tempactivecell-tempactivecell12.md) <br/> |
-|[TempActiveRow](tempactiverow-tempactiverow12.md) <br/> |[TempActiveRow12](tempactiverow-tempactiverow12.md) <br/> |
-|[TempActiveColumn](tempactivecolumn-tempactivecolumn12.md) <br/> |[TempActiveColumn12](tempactivecolumn-tempactivecolumn12.md) <br/> |
-|[TempMissing](tempmissing-tempmissing12.md) <br/> |[TempMissing12](tempmissing-tempmissing12.md) <br/> |
+|[Темпстрконст](tempstrconst-tempstr12.md) <br/> |[TempStr12Const](tempstrconst-tempstr12.md) <br/> |
+|[Темпбул](tempbool-tempbool12.md) <br/> |[TempBool12](tempbool-tempbool12.md) <br/> |
+|[Темпинт](tempint-tempint12.md) <br/> |[TempInt12](tempint-tempint12.md) <br/> |
+|[Темперр](temperr-temperr12.md) <br/> |[TempErr12](temperr-temperr12.md) <br/> |
+|[Темпактивереф](tempactiveref-tempactiveref12.md) <br/> |[TempActiveRef12](tempactiveref-tempactiveref12.md) <br/> |
+|[Темпактивецелл](tempactivecell-tempactivecell12.md) <br/> |[TempActiveCell12](tempactivecell-tempactivecell12.md) <br/> |
+|[Темпактиверов](tempactiverow-tempactiverow12.md) <br/> |[TempActiveRow12](tempactiverow-tempactiverow12.md) <br/> |
+|[Темпактивеколумн](tempactivecolumn-tempactivecolumn12.md) <br/> |[TempActiveColumn12](tempactivecolumn-tempactivecolumn12.md) <br/> |
+|[Темпмиссинг](tempmissing-tempmissing12.md) <br/> |[TempMissing12](tempmissing-tempmissing12.md) <br/> |
    
-Использование этих функций сокращает время, необходимое для записи DLL или XLL. Начало разработки в моем приложении УНИВЕРСАЛЬНЫЙ также сокращает время разработки. Использование УНИВЕРСАЛЬНЫХ. C как шаблон для настройки framework XLL-модуль и затем замените существующий код на свой.
+Использование этих функций сокращает количество времени, необходимого для записи DLL или XLL. Запуск разработки из примера УНИВЕРСАЛЬНого приложения также сокращает время разработки. Используйте GENERIC. C в качестве шаблона для помощи в настройке платформы XLL, а затем замените существующий код на свой собственный.
   
-Временные **XLOPER**/ **XLOPER12** функции создать **XLOPER**/ **XLOPER12** значения с помощью памяти из локального кучи управляется библиотеки Framework. **XLOPER**/ **XLOPER12** значения остаются действительными до вызова функции **FreeAllTempMemory** или любой из функции **Excel** или **Excel12f** . (Функции **Excel** и **Excel12f** освободить память все временные перед возвращением.) 
+Функции Temporary **XLOPER**/ **XLOPER12** создают значения **XLOPER**/ **XLOPER12** , используя память из локальной кучи, управляемой библиотекой Framework. Значения параметра **XLOPER**/ **XLOPER12** действуют до тех пор, пока не будет вызвана функция **фриаллтемпмемори** или обе функции **Excel** или **Excel12f** . (В **Excel** и **Excel12f** функции освобождают всю временную память перед возвратом.) 
   
-Чтобы использовать функции библиотеки Framework, необходимо включить FRAMEWRK. H в коде C и добавьте FRAMEWRK. C или FRMWRK32. Файлы LIB в проект кода.
+Чтобы использовать функции библиотеки Framework, необходимо включить FRAMEWRK. H в коде C и добавление FRAMEWRK. C или FRMWRK32. LIB файлы в проект кода.
   
 ## <a name="see-also"></a>См. также
 

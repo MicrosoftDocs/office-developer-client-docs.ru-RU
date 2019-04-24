@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 3e641564-0735-5d65-b37f-527283d52dd0
 description: При разработке шаблона форм InfoPath для повышения производительности следует уделять особое внимание размеру и числу представлений, размеру и структуре XML-кода и количеству элементов управления файлами и рисунками, а также организации цифровых подписей и размеру и числу подключений данных в форме. Следуя правилам и рекомендациям в статье Повышение производительности форм InfoPath 2007, можно избежать проблем производительности при разработке шаблона форм и устранить их в существующих шаблонах.
-ms.openlocfilehash: 605e5250deb82135b04139e181439a0d1f7cce8b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: feb23a70684883bd637308d4c4063325725bc548
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807468"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300359"
 ---
 # <a name="guidelines-for-improving-the-performance-of-infopath-forms"></a>Рекомендации по повышению производительности форм InfoPath
 

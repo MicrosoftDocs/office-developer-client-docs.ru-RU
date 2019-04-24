@@ -1,28 +1,28 @@
 ---
-title: Функции API C, которые можно вызывать только из библиотеки DLL или XLL
+title: Функции API C, которые можно вызывать только из библиотеки DLL или XLL
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- функции [excel 2007], c api вызов выполняется из dll или xll
+- функции [Excel 2007], API c, вызванные из DLL или XLL
 localization_priority: Normal
 ms.assetid: 87c9e75b-c364-4428-a169-010886313b85
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 7935d86d1c0a460bcbec85157429d99242a73620
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e6d2d3c824c482e3726cdaefa869393002a80f44
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807151"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301654"
 ---
-# <a name="c-api-functions-that-can-be-called-only-from-a-dll-or-xll"></a>Функции API C, которые можно вызывать только из библиотеки DLL или XLL
+# <a name="c-api-functions-that-can-be-called-only-from-a-dll-or-xll"></a>Функции API C, которые можно вызывать только из библиотеки DLL или XLL
 
 **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-API-Интерфейс C предоставляет 15 функции обратного вызова Microsoft Excel, которые могут вызываться только с помощью **Excel4**, **Excel4v**, **Excel12**или **Excel12v** функции (или один из этих функций, косвенно с помощью функции Framework **Excel **или **Excel12f**). Это означает, что они могут вызываться только из DLL или XLL.
+API C предоставляет 15 функций обратного вызова Microsoft Excel, которые можно вызывать только с помощью функций **Excel4**, **Excel4v**, **Excel12**или **Excel12v** (или с помощью одной из этих функций, косвенно с помощью функций платформы **Excel **или **Excel12f**). Это означает, что они могут вызываться только из библиотеки DLL или XLL.
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
 [xlAbort](xlabort.md)
   

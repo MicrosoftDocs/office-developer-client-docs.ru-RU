@@ -10,24 +10,24 @@ api_type:
 - COM
 ms.assetid: 3d314d4e-553b-4767-a64a-b9cf1839de52
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 85b31361ad39370cf4c935363b341c8378f85e19
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: e09e77020d3f2c45ec4033c6945c21850aa1a5bc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572745"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32307793"
 ---
 # <a name="mapi-data-types"></a>Типы данных MAPI
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Следующие записи в алфавитном порядке содержат документацию для типов данных, используемых в методы интерфейса MAPI, функции и структуры. 
+Приведенные в алфавитном порядке записи содержат документацию по типам данных, используемым в методах, функциях и структурах MAPI. 
   
 ||
 |:-----|
-|[BOOKMARK](bookmark.md) <br/> |
+|[Закладка](bookmark.md) <br/> |
 |[DNHIER](dnhier.md) <br/> |
 |[DNTBL](dntbl.md) <br/> |
 |[DNTBLE](dntble.md) <br/> |
@@ -48,9 +48,9 @@ ms.locfileid: "22572745"
 |[OlFlagIcon](olflagicon.md) <br/> |
 |[SCODE](scode.md) <br/> |
 |[SKEY](skey.md) <br/> |
-|[SYNC](sync.md) <br/> |
+|[Синхр](sync.md) <br/> |
 |[SYNCCONT](synccont.md) <br/> |
-|[СОСТОЯНИЕ](syncstate.md) <br/> |
+|[SYNCSTATE](syncstate.md) <br/> |
 |[TCHAR](tchar.md) <br/> |
 |[UPDEL](updel.md) <br/> |
 |[UPDELE](updele.md) <br/> |

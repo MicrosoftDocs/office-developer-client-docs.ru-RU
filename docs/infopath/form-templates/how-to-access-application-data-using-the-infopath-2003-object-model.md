@@ -1,25 +1,25 @@
 ---
-title: Доступ к данным приложений с помощью объектной модели InfoPath 2003
+title: Доступ к данным приложения с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- шаблоны форм [infopath 2007], доступ к данным с помощью объектной модели 2003, совместимых с InfoPath 2003 шаблонов форм, доступ к данным приложения
+- шаблоны форм [InfoPath 2007], доступ к данным с помощью объектной модели 2003, шаблоны форм, совместимые с InfoPath 2003, доступ к данным приложения
 localization_priority: Normal
 ms.assetid: da604c72-c760-4aa3-9574-d59c392753df
-description: Объектная модель совместимых с InfoPath 2003, предоставляет объекты и коллекции, которые можно использовать для получения доступа к сведениям о приложении InfoPath, а также приведены сведения, относящиеся к XML-документом формы и файла определения формы (XSF). Эти данные осуществляется с помощью объекта верхнего уровня в иерархии модели объектов InfoPath, который создается с помощью интерфейса приложения.
-ms.openlocfilehash: e9cf01ff2ffa939fce5af277e756e679478f8b39
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Объектная модель, совместимая с InfoPath 2003, предоставляет объекты и семейства, которые можно использовать для получения доступа к сведениям о приложении InfoPath, в том числе к сведениям, связанным с базовым XML-документом формы и файлом определения формы (XSF-файл). Доступ к этим данным осуществляется с помощью объекта верхнего уровня в иерархии объектной модели InfoPath, который создается с помощью интерфейса приложения.
+ms.openlocfilehash: 849882a97109d91a5807a6798d5a62457ab971fd
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807474"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303684"
 ---
-# <a name="access-application-data-using-the-infopath-2003-object-model"></a>Доступ к данным приложений с помощью объектной модели InfoPath 2003
+# <a name="access-application-data-using-the-infopath-2003-object-model"></a>Доступ к данным приложения с помощью объектной модели InfoPath 2003
 
-Объектная модель совместимых с InfoPath 2003, предоставляет объекты и коллекции, которые можно использовать для получения доступа к сведениям о приложении InfoPath, а также приведены сведения, относящиеся к XML-документом формы и файла определения формы (XSF). Эти данные осуществляется с помощью объекта верхнего уровня в иерархии модели объектов InfoPath, который создается с помощью интерфейса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) . 
+Объектная модель, совместимая с InfoPath 2003, предоставляет объекты и семейства, которые можно использовать для получения доступа к сведениям о приложении InfoPath, в том числе к сведениям, связанным с базовым XML-документом формы и файлом определения формы (XSF-файл). Доступ к этим данным осуществляется с помощью объекта верхнего уровня в иерархии объектной модели InfoPath, который создается с помощью интерфейса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) . 
   
-Инициализирует проект шаблона формы управляемый код совместимых с InfoPath 2003, созданных с помощью Visual Studio 2012 `thisApplication` переменной в `_Startup` метод класса кода формы, который можно использовать для доступа к элементам интерфейса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) . В следующем примере свойства [имя](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.Name.aspx) и [версию](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.Version.aspx) интерфейса [приложений](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) используются для возврата имя и номер версии выполняемый экземпляр InfoPath. Эти сведения отображаются в окне сообщения с помощью метода [Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) интерфейс [UI2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.aspx) . 
+Проект шаблона формы с управляемым кодом, совместимый с InfoPath 2003, созданный с помощью Visual `thisApplication` Studio 2012, `_Startup` инициализирует переменную в методе класса кода формы, который можно использовать для доступа к членам интерфейса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) . В следующем примере свойства [Name](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.Name.aspx) и [Version](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.Version.aspx) интерфейса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) используются для возврата имени и номера версии запущенного экземпляра InfoPath. Эти сведения отображаются в окне сообщения с помощью метода [Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) интерфейса [UI2](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.aspx) . 
   
 ```cs
 thisXDocument.UI.Alert("Application name: " + thisApplication.Name +
@@ -31,7 +31,7 @@ thisXDocument.UI.Alert("Application name: " &amp; thisApplication.Name &amp; _
    vbNewLine &amp; "Application version: " &amp; thisApplication.Version)
 ```
 
-В примере Visual C#, ссылку на файл `\n` символов в строке для отображения сообщения оповещения в InfoPath, неуправляемый код как стандартная новой строки выводит текст для приостановки выполнения и помещенных на новую строку в окне сообщения. Чтобы явно использовать новое значение строки, определенное для текущей среде и платформе, используйте свойство **Environment.NewLine** , как показано в следующем примере. 
+В примере на языке Visual C# ссылка на `\n` символ в строке сообщения оповещения отображается неуправляемым кодом InfoPath как стандартный новый перевод строки, что приводит к разрыву текста и помещается на новую строку в окне сообщения. Чтобы явно использовать значение новой строки, указанное для текущей среды и платформы, используйте вместо этого свойство **Environment.NewLine**, как показано в следующем примере. 
   
 ```cs
 thisXDocument.UI.Alert("Application name: " + thisApplication.Name +
@@ -41,9 +41,9 @@ thisXDocument.UI.Alert("Application name: " + thisApplication.Name +
 
 ## <a name="accessing-data-from-the-underlying-xml-document-of-a-form"></a>Доступ к данным из базового XML-документа формы
 
-Разработчики могут использовать интерфейс [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) для получения доступа к сведениям о базовом XML-документе формы, включая ссылку на документ модели объектов XML (DOM), содержащее источник XML-данные формы. 
+Разработчики могут использовать интерфейс [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) для получения доступа к сведениям о БАЗОВОМ XML-документе формы, включая ссылку на модель объектов документа XML (DOM), СОДЕРЖАЩУЮ исходные XML-данные формы. 
   
-В следующем примере в первом окне сообщения отображаются некоторые данные, доступные из интерфейса [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) , например, были ли изменены базового XML-документа (с помощью свойства [IsDirty](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDirty.aspx) ) и ли ее Цифровая подпись (с использованием свойство [IsSigned](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsSigned.aspx) ). Далее окно сообщения использует свойство [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx) интерфейс [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) для отображения исходного XML базового документа XML формы. 
+В следующем примере в первом окне сообщения отображаются некоторые данные, доступные в интерфейсе [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) , например сведения об изменении базового XML-документа (с помощью свойства [IsDirty](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDirty.aspx) ) и о том, является ли оно Цифровая подпись (с использованием свойства [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsSigned.aspx) с подписыванием). В следующем окне сообщения используется свойство [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx) интерфейса [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) для отображения ИСХОДНОГО XML базового XML-документа формы. 
   
 ```cs
 thisXDocument.UI.Alert("\nIsDirty: " + thisXDocument.IsDirty +
@@ -67,9 +67,9 @@ thisXDocument.UI.Alert(thisXDocument.DOM.xml)
   
 ## <a name="accessing-data-from-a-forms-form-definition-file"></a>Доступ к данным из файла определения формы
 
-Сведения о файла XSF формы, включая ссылку на модель XML DOM в источник данных XML, которые он содержит также осуществляется с помощью интерфейса [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) . Эти сведения осуществляется с помощью свойства [решение](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Solution.aspx) , которое возвращает ссылку на интерфейс [SolutionObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SolutionObject.aspx) . 
+Сведения о файле формы xsf, включая ссылку XML DOM на исходные XML-данные, которые он содержит, можно также получить с помощью интерфейса [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) . Доступ к этой информации осуществляется с помощью свойства [Solution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Solution.aspx) , которое возвращает ссылку на интерфейс [солутионобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SolutionObject.aspx) . 
   
-В следующем примере первое оповещение отображает данные, доступные через интерфейс [SolutionObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SolutionObject.aspx) , такие как расположение универсальный код ресурса (URI) (с помощью свойства [URI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Solution.URI.aspx) ) и номер версии (с использованием [ Версия](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Solution.Version.aspx) свойства). В следующем оповещении используется свойство [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Solution.DOM.aspx) интерфейса [SolutionObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SolutionObject.aspx) для отображения исходного XML XSF-файла. 
+В следующем примере первое оповещение отображает некоторые данные, доступные через интерфейс [солутионобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SolutionObject.aspx) , например, расположение URI (с использованием свойства [URI](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Solution.URI.aspx) ) и номер его версии (с помощью [ Свойство Version](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Solution.Version.aspx) ). Следующее оповещение использует свойство [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Solution.DOM.aspx) интерфейса [солутионобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SolutionObject.aspx) для отображения исходного XML-файла XSF-файла. 
   
 ```cs
 thisXDocument.UI.Alert("PackageURL: " +

@@ -5,38 +5,38 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- Универсальный dll [excel 2007], функции, функции [Excel 2007], универсальный DLL
+- универсальная библиотека DLL [Excel 2007], функции, функции [Excel 2007], Общая библиотека DLL
 localization_priority: Normal
 ms.assetid: 80ce2247-d69d-45b0-b5e2-4ff0d7078a2c
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: e78f276e58ca1c98786e28ed5167762cf0bfdf7f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 3064e1a09ad8850e121da678f3702a6236574599
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807275"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304090"
 ---
 # <a name="functions-in-the-generic-dll"></a>Функции из универсальной библиотеки DLL
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Папка `\EXAMPLES\GENERIC\` содержит файлы проекта Microsoft Visual Studio и файлы исходного кода, которые требуются для компиляции примера DLL GENERIC.xll. Можно использовать этот проект как шаблон для создания собственных XLL-модулей для Microsoft Excel. Исходный код в этот проект демонстрирует многие функции интерфейса API для C Excel. 
+В этой `\EXAMPLES\GENERIC\` папке содержатся файлы проекта Microsoft Visual Studio и файлы исходного кода, необходимые для компиляции примера GENERIC DLL Generic. XLL. Вы можете использовать этот проект в качестве шаблона для создания собственных XLL Microsoft Excel. Исходный код в этом проекте демонстрирует многие функции API C для Excel. 
   
-При загрузке GENERIC.xll, он создает новые **универсальные** меню с четырьмя командами: 
+При загрузке GENERIC. XLL создается новое универсальное меню с **** четырьмя командами: 
   
-- **Диалоговое окно** - отображает диалоговое окно Microsoft Excel. 
+- **ДиалоговОе окно** — отображает диалоговое окно Microsoft Excel. 
     
-- **Танец** - перемещается выделение только после нажатия клавиши **ESC** . 
+- **Данце** — выделяет выделенный фрагмент, пока вы не нажмете клавишу **ESC** . 
     
-- **Собственная диалогового окна** — отображает диалоговое окно Windows. 
+- **Собственное диалоговОе окно** — отображает диалоговое окно Windows. 
     
-- **Выход** - GENERIC.xll выгрузки и удаляет **универсальный** меню. 
+- **Exit** — выгружает Generic. XLL и удаляет **Общее** меню. 
     
-GENERIC.xll также предоставляет три функции листа, Func1, FuncSum и FuncFib, которую можно использовать при загрузке GENERIC.xll. GENERIC.xll можно загрузить с помощью диспетчера надстроек, или она загружается, если она была активна в конце обычной последнего сеанса Excel.
+GENERIC. XLL также предоставляет три функции листа, func1, Функсум и Функфиб, которые можно использовать каждый раз, когда загружается GENERIC. XLL. GENERIC. XLL можно загрузить с помощью диспетчера надстроек или загрузить, если она была активна в обычном конце последнего сеанса Excel.
   
-Этот проект использует библиотеку framework (FRMWRK32.lib).
+В этом проекте используется библиотека Framework (FRMWRK32. lib).
   
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
 [DIALOGMsgProc](dialogmsgproc.md)
   

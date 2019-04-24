@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: a765fa49-a272-4047-9147-59cc68e5dd27
 description: Office для Android предоставляет расширенное решение, позволяющее интегрировать приложения сторонних производителей. Вы можете выполнить интеграцию с Office из своего приложения Android, передав пользователей из своего приложения в Office.
 ms.openlocfilehash: 4e674b3d66f3acba7e9c9c19e716ff0d73d803b2
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
-ms.translationtype: HT
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25393028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303152"
 ---
 # <a name="integrate-with-office-from-android-applications"></a>Интеграция приложений Android с Office
 
@@ -57,7 +57,7 @@ Office для Android предоставляет расширенное реше
     
 - режим открытия;
     
-- URL-адрес
+- URL-адрес.
     
 Формат схемы:
   

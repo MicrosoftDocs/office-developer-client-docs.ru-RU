@@ -1,25 +1,25 @@
 ---
-title: Обработка ошибок с помощью объектной модели InfoPath 2003
+title: Обработка ошибок с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
-- шаблоны форм с поддержкой веб-2003 InfoPath, обработки ошибок, совместимых с InfoPath 2003 шаблонов форм, обработки ошибок, шаблонов форм [InfoPath 2007], обработки ошибок, ошибок [InfoPath 2007], шаблонов форм совместимых с InfoPath 2003
+- шаблоны форм, совместимые с InfoPath 2003, обработка ошибок, шаблоны форм, совместимые с InfoPath 2003, обработка ошибок, шаблоны форм [InfoPath 2007], обработка ошибок, обработка ошибок [InfoPath 2007], шаблоны форм, совместимые с InfoPath 2003
 localization_priority: Normal
 ms.assetid: eeb05205-d6f4-4931-b9a9-55a663bb1a25
-description: При создании настраиваемых приложений разработчики должны выполнять обработку ошибок, включающую написание программного кода на наличие ошибок, вызываемых приложения или для создания и обнаружения настраиваемых ошибок. Объектная модель совместимых с InfoPath 2003 поддерживает обработку ошибок с помощью объекта ErrorObject в сочетании с семейства ErrorsCollection.
-ms.openlocfilehash: 577e531d8943dc8fc3884cd81f68b11ca285c5d3
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: При создании пользовательских приложений разработчики часто выполняют обработку ошибок, которая предполагает написание программы для проверки на наличие ошибок, созданных приложением, или для создания и инициирования пользовательских ошибок. Объектная модель, совместимая с InfoPath 2003, поддерживает обработку ошибок с помощью объекта ErrorObject в связи с коллекцией ErrorsCollection.
+ms.openlocfilehash: 93991e33d8867f89454bec08b41ba83e98ab0a17
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807513"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300128"
 ---
-# <a name="handle-errors-using-the-infopath-2003-object-model"></a>Обработка ошибок с помощью объектной модели InfoPath 2003
+# <a name="handle-errors-using-the-infopath-2003-object-model"></a>Обработка ошибок с помощью объектной модели InfoPath 2003
 
-При создании настраиваемых приложений разработчики должны выполнять обработку ошибок, включающую написание программного кода на наличие ошибок, вызываемых приложения или для создания и обнаружения настраиваемых ошибок. Объектная модель совместимых с InfoPath 2003 поддерживает обработку ошибок с помощью объекта [ErrorObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorObject.aspx) в сочетании с семейства [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) . 
+При создании пользовательских приложений разработчики часто выполняют обработку ошибок, которая предполагает написание программы для проверки на наличие ошибок, созданных приложением, или для создания и инициирования пользовательских ошибок. Объектная модель, совместимая с InfoPath 2003, поддерживает обработку ошибок с помощью объекта [ErrorObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorObject.aspx) в связи с коллекцией [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) . 
   
-В приложении InfoPath могут возникать ошибки, когда данные, введенные в форму не удается выполнить проверку на соответствие схеме XML, при сбое ограничение нестандартной проверки, когда ошибка создается с помощью метода [ReportError](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReportError.aspx) объекта [DataDOMEventObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEventObject.aspx) или при создании ошибки с помощью метода [Add](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx) семейства [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) . 
+В приложении InfoPath ошибки могут возникать, если данные, введенные в форму, не прошли проверку схемы XML, когда настраиваемое ограничение проверки не проходит, при создании ошибки методом [ReportError](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReportError.aspx) объекта [датадомевентобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEventObject.aspx) или при создании ошибки использование метода [Add](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx) коллекции [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) . 
   
 ## <a name="overview-of-the-errorscollection-collection"></a>Обзор семейства ErrorsCollection
 
@@ -28,7 +28,7 @@ ms.locfileid: "19807513"
 |**Имя**|**Описание**|
 |:-----|:-----|
 |Метод [Add](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx)  <br/> |Создает объект **ErrorObject** и добавляет его в семейство.  <br/> |
-|Метод [DELETE](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Delete.aspx)  <br/> |Удаляет все объекты **ErrorObject**, связанные с указанным XML-узлом и именем условия, за исключением пользовательских ошибок, добавленных с помощью метода **ReportError**.  <br/> |
+|Метод [Delete](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Delete.aspx)  <br/> |Удаляет все объекты **ErrorObject**, связанные с указанным XML-узлом и именем условия, за исключением пользовательских ошибок, добавленных с помощью метода **ReportError**.  <br/> |
 |Метод [DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.DeleteAll.aspx)  <br/> |Удаляет все объекты **ErrorObject** из семейства.  <br/> |
 |Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Count.aspx)  <br/> |Возвращает количество объектов **ErrorObject**, содержащихся в семействе.  <br/> |
 |Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Item.aspx)  <br/> |Возвращает ссылку на объект **ErrorObject**, основываясь на указанном номере индекса.  <br/> |
@@ -39,16 +39,16 @@ ms.locfileid: "19807513"
   
 |**Имя**|**Описание**|
 |:-----|:-----|
-|Свойство [ConditionName](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ConditionName.aspx)  <br/> |Возвращает имя условия ошибки или **null**, в зависимости от типа объекта **ErrorObject**.  <br/> |
-|Свойство [DetailedErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.DetailedErrorMessage.aspx)  <br/> |Возвращает или задает подробное сообщение об ошибке для объекта **ErrorObject**.  <br/> |
+|Свойство [ИмяУсловия](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ConditionName.aspx)  <br/> |Возвращает имя условия ошибки или **null**, в зависимости от типа объекта **ErrorObject**.  <br/> |
+|Свойство [детаиледеррормессаже](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.DetailedErrorMessage.aspx)  <br/> |Возвращает или задает подробное сообщение об ошибке для объекта **ErrorObject**.  <br/> |
 |Свойство [ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorCode.aspx)  <br/> |Возвращает или задает код ошибки для объекта **ErrorObject**.  <br/> |
-|Свойство [узла](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.Node.aspx)  <br/> |Возвращает ссылку на XML-узел, связанный с объектом **ErrorObject**.  <br/> |
-|Свойство [ShortErrorMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ShortErrorMessage.aspx)  <br/> |Возвращает или задает краткое сообщение об ошибке для объекта **ErrorObject**.  <br/> |
+|Свойство [node](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.Node.aspx)  <br/> |Возвращает ссылку на XML-узел, связанный с объектом **ErrorObject**.  <br/> |
+|Свойство [шортеррормессаже](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ShortErrorMessage.aspx)  <br/> |Возвращает или задает краткое сообщение об ошибке для объекта **ErrorObject**.  <br/> |
 |Свойство [ErrorType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ErrorType.aspx)  <br/> |Возвращает тип объекта **ErrorObject**.  <br/> |
    
 ## <a name="using-the-errorscollection-and-errorobject"></a>Использование ErrorsCollection и ErrorObject
 
-Семейство **ErrorsCollection** доступен через свойство [Errors](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument.Errors.aspx) объекта [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) . Семейство **ErrorsCollection** связан с XML-документом формы, что при возникновении ошибки, происходит в XML-документ. Следующий пример показывает, как цикла **foreach** Visual C# можно использовать для проверки ошибок, которые могут существовать в XML-документом формы. При наличии ошибок, функция обрабатывает каждую из них и, с помощью свойства **ShortErrorMessage** объекта **ErrorObject** отображает окно сообщения для пользователя. 
+Доступ к коллекции **ErrorsCollection** осуществляется с помощью [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument.Errors.aspx) свойства Errors объекта [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) . Семейство **ErrorsCollection** связано с базовым XML-документом формы, поэтому когда возникает ошибка, она возникает в XML-документе. В следующем примере демонстрируется использование цикла Visual C# **foreach** для проверки ошибок, которые могут присутствовать в базовом XML-документе формы. При наличии ошибок функция обрабатывает в цикле каждую из них и с помощью свойства **ShortErrorMessage** объекта **ErrorObject** отображает пользователю окно сообщения. 
   
 ```cs
 public void CheckErrors(IXMLDOMNode xmlNode)
@@ -62,7 +62,7 @@ public void CheckErrors(IXMLDOMNode xmlNode)
 }
 ```
 
-Предыдущая функцию можно вызвать из одного из обработчиков событий проверки данных формы. Например при использовании в обработчике события [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx) для поля в форме, вызов функции проходит аргумент узла XML, с помощью свойства [сайта](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.Site.aspx) объекта [DataDOMEventObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEventObject.aspx) следующим образом. 
+Предыдущую функцию можно вызвать из одного из обработчиков событий проверки данных в форме. Например, если используется в обработчике события [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx) для поля в форме, вызов функции передаст аргумент узла XML с помощью свойства [site](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.Site.aspx) объекта [датадомевентобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEventObject.aspx) следующим образом. 
   
 ```cs
 CheckErrors(e.Site);
@@ -99,6 +99,6 @@ catch (Exception ex)
 }
 ```
 
-Если в коде формы не используется обработка исключений "try-catch", то при отладке и просмотре приложение InfoPath будет отображать сведения о необработанных исключениях в диалоговом окне ошибок InfoPath.  
+Если в коде формы не используется обработка исключений "try-catch", то при отладке и просмотре приложение InfoPath будет отображать сведения о необработанных исключениях в диалоговом окне ошибок InfoPath. 
   
 

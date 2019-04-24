@@ -4,26 +4,26 @@ manager: soliver
 ms.date: 01/20/2015
 ms.audience: Developer
 keywords:
-- событие OnAfterImport [infopath 2007], событие OnAfterChange [InfoPath 2007], событие OnBeforeChange [InfoPath 2007], событие OnSubmitRequest [InfoPath 2007], событие OnVersionUpgrade [InfoPath 2007], совместимых с InfoPath 2003 шаблонов форм, обработчиков событий Событие onLoad [InfoPath 2007] обработчиков событий [InfoPath 2007], добавление с помощью объектной модели InfoPath 2003, событие OnValidate [InfoPath 2007], событие OnContextChange [InfoPath 2007], событие OnSaveRequest [InfoPath 2007], событие OnClick [InfoPath 2007] Событие OnSwitchView [InfoPath 2007], событие OnSign [InfoPath 2007], событие OnMergeRequest [InfoPath 2007]
+- событие OnAfterImport [InfoPath 2007], событие OnAfterChange [InfoPath 2007], событие OnBeforeChange [InfoPath 2007], OnSubmitRequest событие [InfoPath 2007], событие OnVersionUpgrade [InfoPath 2007], шаблоны форм, совместимые с InfoPath 2003,, обработчики событий событие onload [infopath 2007], обработчики событий [infopath 2007], добавление с помощью объектной модели infopath 2003, событие reload [InfoPath 2007], событие OnContextChange [InfoPath 2007], событие OnSaveRequest [infopath 2007], событие onload [infopath 2007], Событие OnSwitchView [InfoPath 2007], событие onSign [InfoPath 2007], событие OnMergeRequest [InfoPath 2007]
 localization_priority: Normal
 ms.assetid: 0520df55-2d91-4cc5-be31-82144a2db4f6
-description: Команды меню для добавления функции обработчика событий в проект шаблона формы, совместимого с помощью объектной модели InfoPath 2003, по сути такие же, как для других типов шаблонов форм.
+description: Команды меню для добавления функций обработчика событий в проекте шаблона формы, совместимом с объектной моделью InfoPath 2003, аналогичны другим типам шаблонов форм.
 ms.openlocfilehash: 8533b6bc11dccdad9d0f05de35406ad3cf68eacd
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25386707"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303670"
 ---
 # <a name="add-an-event-handler-using-the-infopath-object-model"></a>Добавление обработчика событий с помощью объектной модели InfoPath
 
-Команды меню для добавления функции обработчика событий в проект шаблона формы, совместимого с помощью объектной модели InfoPath 2003, по сути такие же, как для других типов шаблонов форм. Например для добавления обработчика события **OnLoad** с шаблоном формы в конструкторе InfoPath, выберите команду **При загрузке** на вкладке **Разработчик** . Фокус переключится автоматически в код формы для обработчика событий **OnLoad** в редакторе кода Visual Studio 2012. 
+Команды меню для добавления функций обработчика событий в проекте шаблона формы, совместимом с объектной моделью InfoPath 2003, аналогичны другим типам шаблонов форм. Например, чтобы добавить обработчик событий OnLoad **** с открытым шаблоном формы в конструкторе InfoPath, щелкните команду **при загрузке события** на вкладке **разработчик** . Фокус автоматически переключается на код формы обработчика **** событий OnLoad в редакторе кода Visual Studio 2012. 
   
 В проектах шаблонов форм с управляемым кодом, совместимых с InfoPath 2003, класс, содержащий функции обработчиков событий и собственно обработчики событий, идентифицируется по относящимся к InfoPath атрибутам в модуле кода.
 
 ## <a name="adding-event-handlers"></a>Добавление обработчиков событий
 
-Все из следующих процедур предполагается, что у вас есть проект шаблона формы в Microsoft InfoPath с помощью Visual Studio 2012.
+Во всех следующих процедурах предполагается, что в Microsoft InfoPath открыт проект шаблона формы с помощью Visual Studio 2012.
   
 ### <a name="add-an-event-handler-for-the-onclick-event-of-a-command-button"></a>Добавление обработчика событий "OnClick" для кнопки
 
@@ -31,7 +31,7 @@ ms.locfileid: "25386707"
     
 2. На вкладке  **Свойства** щелкните  **Пользовательский код**.
     
-   Фокус переключится на заглушку обработчика событий для событий [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) в редакторе кода. 
+   Фокус переключится на заглушку обработчика событий для события [OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) в редакторе кода. 
     
 ### <a name="add-an-event-handler-for-the-onbeforechange-onvalidate-or-onafterchange-event-of-a-field-or-group"></a>Добавление обработчика событий "OnBeforeChange", "OnValidate" или "OnAfterChange" для поля или группы
 
@@ -39,13 +39,13 @@ ms.locfileid: "25386707"
     
 2. Наведите указатель на пункт **Программирование** и щелкните одну из команд, например, **Событие OnValidate**.
     
-   Фокус переключится на заглушку обработчика событий для одного из следующих событий в редакторе кода: [OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx)"," [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx)"или" [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx). 
+   Фокус переключится на заглушку обработчика событий для одного из следующих событий в редакторе кода: [OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx), onvalidateий [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx)или [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx). 
     
 ### <a name="add-an-event-handler-for-the-onload-onswitchview-oncontextchange-or-onsign-event-of-a-form"></a>Добавление обработчика событий "OnLoad", "OnSwitchView", "OnContextChange" или "OnSign" для формы
 
 - В меню **Сервис** выберите пункт **Программирование** и щелкните событие формы, для которого требуется написать обработчик событий.
     
-    Фокус переключится на заглушку обработчика событий для одного из следующих действий в редакторе кода: [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx)"," [OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx)"," [OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx)"или" [OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx). 
+    Фокус переключится на заглушку обработчика событий для одного из следующих элементов в редакторе кода: OnLoad [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx), [OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx), [OnContextChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnContextChange.aspx)или OnLoad. [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx) 
     
 ### <a name="add-an-event-handler-for-the-onsubmitrequest-event-of-a-form"></a>Добавление обработчика событий "OnSubmitRequest" для формы
 
@@ -83,7 +83,7 @@ ms.locfileid: "25386707"
     
 ## <a name="adding-an-event-handler-for-the-onafterimport-event"></a>Добавление обработчика событий для события OnAfterImport
 
-Чтобы добавить обработчик событий для события [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) , необходимо открыть код формы для шаблона форм с управляемым кодом и вручную добавьте функцию обработчика событий. Сведения о том, как написать обработчик событий для этого события щелкните ссылку для события **OnAfterImport** . 
+Чтобы добавить обработчики событий для события [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) , необходимо открыть код формы для шаблона формы с управляемым кодом и добавить функцию обработчика событий вручную. Для получения сведений о способах написания обработчика для этого события щелкните ссылку для события **OnAfterImport**. 
   
 ## <a name="adding-an-event-handler-for-a-secondary-data-source"></a>Добавление обработчика событий для дополнительного источника данных
 
@@ -125,7 +125,7 @@ ms.locfileid: "25386707"
 
 <br/>
 
-Представление формы создается из этого источника данных. Код формы создается на основе авторы и число книг, созданные им хэш-таблицы. Вы можете обновить запись из таблицы, отображаемые в представлении и обработчик событий **OnAfterChange** обновляет хэш-таблицы. Обратите внимание на то, что свойство [DataObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.DataObject.aspx) атрибут **InfoPathEventHandler** (реализованного классом [InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) используется для ссылки дополнительного источника данных. 
+Представление формы строится на основе этого источника данных. Код формы создает хэш-таблицу, включающую список авторов и количество написанных ими книг. Можно обновить записи таблицы, отображаемой в представлении, после чего обработчик событий **OnAfterChange** обновит хэш-таблицу. Обратите внимание, что свойство [DataObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.DataObject.aspx) атрибута **инфопасевенсандлер** (реализуемого классом [инфопасевенсандлераттрибуте](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) используется для ссылки на дополнительный источник данных. 
   
 ```cs
 namespace AuxDom
@@ -220,7 +220,7 @@ namespace AuxDom
 
 ```
 
-## <a name="how-the-class-that-contains-event-handlers-is-identified"></a>Идентификация класса, содержащего обработчики событий
+## <a name="how-the-class-that-contains-event-handlers-is-identified"></a>Способ идентификации класса, содержащего обработчики событий
 
 При создании нового проекта шаблона формы InfoPath, совместимого с объектной моделью управляемого кода InfoPath 2003, к классу, расположенному в начале модуля кода формы, добавляется атрибут уровня сборки **System.ComponentModel.Description**, позволяющий идентифицировать класс, содержащий все обработчики событий для шаблона формы. 
   
@@ -243,7 +243,7 @@ Imports Microsoft.Office.Interop.InfoPath.SemiTrust
 
 ## <a name="how-event-handlers-are-identified"></a>Идентификация обработчиков событий
 
-При добавлении нового обработчика событий с помощью кнопки или команды меню в пользовательском интерфейсе режима конструктора InfoPath заглушку функцию обработчика событий записывается в данный момент форму. В следующем примере показано, что заглушку обработчика событий, созданные для [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) добавлен для поля с именем «общее». 
+Когда новый обработчик событий добавляется с помощью команд меню или кнопок пользовательского интерфейса в режиме конструктора InfoPath, в форму записывается заглушка для функции обработчика событий. В следующем примере показан обработчик событий заглушки, созданный для [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) элемента OnValidate, добавленного для поля с именем "Total". 
   
 ```cs
 [InfoPathEventHandler(MatchPath="/invoice/total", EventType=InfoPathEventType.OnValidate)]
@@ -261,7 +261,7 @@ End Sub
 
 ```
 
-Затем можно добавить код, который вызывает элементы объектной модели InfoPath, с помощью закрытого кэшированные элементы `thisXDocument` или `thisApplication` переменные, или с помощью элементов, доступного из `e` объект **EventArgs** , получаемые обработчика событий: 
+Затем можно добавить код, который вызывает членов объектной модели InfoPath с помощью закрытых кэшированных `thisXDocument` членов или `thisApplication` переменных, или используя элементы, к которым получен доступ из `e` объекта **EventArgs** , полученного обработчиком событий: 
   
 ```cs
 thisXDocument.UI.Alert.(e.Site.text);
@@ -273,15 +273,15 @@ thisXDocument.UI.Alert.(e.Site.text)
 
 ```
 
-Атрибут **InfoPathEventHandler** (как определено в классе [InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) является пользовательским атрибутом для функций, которые будут использоваться в качестве обработчиков событий. 
+Атрибут **инфопасевенсандлер** (как определено классом [инфопасевенсандлераттрибуте](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) является настраиваемым атрибутом для функций, которые будут использоваться в качестве обработчиков событий. 
   
-При необходимости событием параметра **"matchpath"** (как определено в свойстве ["matchpath"](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.MatchPath.aspx) класс **InfoPathEventHandlerAttribute** ) задает выражение XPath, указывающее источник событий. Параметр **EventType** (как определено свойство [EventType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.EventType.aspx) класса **InfoPathEventHandlerAttribute** ) указывает тип события. Не изменяйте значения этих параметров. При изменении значения этих параметров обработчик событий не может правильно компиляции или уведомления о событии не возникает, как ожидалось. 
+Если это необходимо для события, параметр **матчпас** (как определено свойством [матчпас](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.MatchPath.aspx) класса **инфопасевенсандлераттрибуте** ) указывает выражение XPath, которое определяет источник события. Параметр **EventType** (как определено свойством [EventType](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.EventType.aspx) класса **инфопасевенсандлераттрибуте** ) указывает тип события. Не следует менять значения этих параметров. Изменение этих значений может привести к неправильной компиляции обработчика событий или к отсутствию ожидаемого уведомления о событии. 
   
-## <a name="obfuscating-code-in-event-handlers"></a>Скрытие кода в обработчиках событий
+## <a name="obfuscating-code-in-event-handlers"></a>Код маскировки в обработчиках событий
 
-При запуске программы obfuscator на сборки, в которой создается, когда шаблон форм с управляемым кодом компиляции ( *имя_проекта* .dll), InfoPath не сможет загрузить сборку при открытии формы. Если вы хотите маскирование код для обработчиков событий или другие формы, необходимо поместите код, который требуется маскирование в отдельной сборке и ссылки, сборку в проекте, а затем вызвать члены ссылка из FormCode.cs или FormCode.vb. Не важно, запустите программу obfuscator только на указанной сборки. 
+Если запустить служебную программу запутывания для сборки, которая создается при компиляции шаблона формы с управляемым кодом ( *имяПроекта* . dll), InfoPath не сможет загрузить сборку, когда пользователь откроет форму. Если требуется скрыть код обработчиков событий или другой код формы, следует поместить код, который требуется скрыть, в отдельную сборку и указать в проекте ссылку на эту сборку, а затем вызвать элементы связанной сборки из файла FormCode.cs или FormCode.vb. Очень важно запускать средство скрытия кода только для отдельной сборки, связанной с проектом посредством ссылки. 
   
 ## <a name="see-also"></a>См. также
 
-- [Обработка событий форм с помощью объектной модели InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
+- [Реагирование на события формы с помощью объектной модели InfoPath 2003](how-to-respond-to-form-events-using-the-infopath-2003-object-model.md)
 

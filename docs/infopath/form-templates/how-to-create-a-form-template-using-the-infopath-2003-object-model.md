@@ -1,26 +1,26 @@
 ---
-title: Создание шаблона формы, использующего объектную модель InfoPath 2003
+title: Создание шаблона формы с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- Создание шаблонов форм с поддержкой веб-2003 InfoPath, шаблонов форм [InfoPath 2007], совместимого с InfoPath 2003, InfoPath 2007, создание шаблонов форм совместимых с InfoPath 2003
+- шаблоны форм, совместимые с InfoPath 2003, шаблоны форм [InfoPath 2007], создание InfoPath 2003 — совместимый, InfoPath 2007, создание шаблонов форм, совместимых с InfoPath 2003
 localization_priority: Normal
 ms.assetid: c746aeb1-902c-440e-830b-5b9efad0ca04
 description: В главе описаны действия, необходимые для создания шаблона формы, работающего с объектной моделью, совместимой с InfoPath 2003.
-ms.openlocfilehash: 0cea526c2d41674afc6fee152c3e0584e6b69564
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 35a9fcfbb0d93a19e013bde6980bc94af3bb5dd9
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807491"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303642"
 ---
-# <a name="create-a-form-template-using-the-infopath-2003-object-model"></a>Создание шаблона формы, использующего объектную модель InfoPath 2003
+# <a name="create-a-form-template-using-the-infopath-2003-object-model"></a>Создание шаблона формы с помощью объектной модели InfoPath 2003
 
 В главе описаны действия, необходимые для создания шаблона формы, работающего с объектной моделью, совместимой с InfoPath 2003.
   
 > [!IMPORTANT]
-> Помимо приведенных ниже процедур необходимо также перейдите на вкладку **файл** , выберите команду **Сохранить как**и затем выберите **Шаблон формы InfoPath 2003** в поле **Тип файла** , чтобы сохранить шаблон формы в формат файлов совместимых с InfoPath 2003. Кроме того чтобы открыть шаблоны форм совместимых с InfoPath 2003, созданных с помощью InfoPath, все пользователи InfoPath 2003 необходимо .NET Framework 2.0 или более поздней версии на своих компьютерах. 
+> Помимо описанных далее процедур, также необходимо выбрать пункт **Сохранить как** на вкладке **Файл**, а затем выбрать **Шаблон формы InfoPath 2003** в поле **Вывод** для сохранения шаблона формы в файл с форматом, совместимым с InfoPath 2003. Кроме того, чтобы открыть шаблоны форм, совместимые с InfoPath 2003, созданные с помощью InfoPath, на компьютерах пользователей InfoPath 2003 должна быть установлена платформа .NET Framework версии 2,0 или более поздней. 
   
 ### <a name="to-create-an-infopath-2003-compatible-form-template-in-infopath-with-visual-studio-tools-for-applications"></a>Создание шаблона формы, совместимого с InfoPath 2003, в InfoPath с набором средств Visual Studio Tools для работы с приложениями
 
@@ -34,7 +34,7 @@ ms.locfileid: "19807491"
     
 5. Нажмите кнопку **ОК**.
     
-6. Создание шаблона формы и добавление обработчиков событий в Visual Studio 2012, как описано в диалоговом окне [Добавить события обработчик с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+6. Создайте шаблон формы, а затем добавьте обработчики событий в Visual Studio 2012, как описано в статье [Добавление обработчика событий с помощью объектНой модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
     
 ## <a name="see-also"></a>См. также
 
@@ -42,5 +42,5 @@ ms.locfileid: "19807491"
 
 [Пошаговое руководство. Создание и отладка начального шаблона формы с помощью объектной модели InfoPath 2003](walkthrough-create-and-debug-basic-form-template-using-infopath-object-model.md)
   
-[Создание шаблонов форм, использующих объектную модель InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
+[Создание шаблонов форм с помощью объектной модели InfoPath 2003](creating-form-templates-using-the-infopath-2003-object-model.md)
 

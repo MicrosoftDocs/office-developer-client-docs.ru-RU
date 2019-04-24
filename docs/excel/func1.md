@@ -7,22 +7,22 @@ ms.topic: reference
 f1_keywords:
 - Func1
 keywords:
-- функция func1 [excel 2007]
+- Функция func1 [Excel 2007]
 localization_priority: Normal
 ms.assetid: 801b14ef-0be8-4b97-919d-a9d413705d1c
 description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 26439f1fb05aae2077844ce19935d9ff99e4f701
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a3d3c6bbd529f43bd75b31b9348498928390a8f5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807257"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32304083"
 ---
 # <a name="func1"></a>Func1
 
  **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
   
-Пример пользовательской функции показано возвращение статического строковое значение. При загрузке GENERIC.xll регистрирует эту функцию, чтобы его можно вызывать из рабочего листа.
+В примере пользовательской функции листа показано возвращение статического строкового значения. Когда GENERIC. XLL загружается, она регистрирует эту функцию, чтобы ее можно было вызывать из листа.
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
@@ -30,21 +30,21 @@ LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 
 ## <a name="parameters"></a>Параметры
 
- _точек_ (**LPXLOPER**)
+ _px_ (**Лпкслопер**)
   
-Этот аргумент игнорируется и используется только для запуска Microsoft Excel для вызова функции.
+Этот аргумент игнорируется и служит только для вызова функции в Microsoft Excel.
   
-## <a name="property-valuereturn-value"></a>Значение свойства или возвращаемое значение
+## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
- **LPXLOPER12**: всегда строка «Func1»
+ **LPXLOPER12**: всегда строка "func1"
   
 ### <a name="example"></a>Пример
 
-Просмотреть `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
+Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Функции из универсальной библиотеки DLL](functions-in-the-generic-dll.md)
+[Функции в универсальной библиотеке DLL](functions-in-the-generic-dll.md)
 

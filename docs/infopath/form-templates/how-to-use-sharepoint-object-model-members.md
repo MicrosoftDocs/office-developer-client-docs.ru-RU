@@ -1,19 +1,19 @@
 ---
-title: Использование элементов объектной модели SharePoint
+title: Использование членов объектной модели SharePoint
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 8cbafca3-7831-4231-8e61-38330b5ad61b
 description: Прежде чем начать программировать с использованием членов объектной модели SharePoint из кода, выполняемого в форме InfoPath, необходимо определить ссылку на сборку Microsoft.SharePoint.dll в проекте набора Visual Studio 2012 для формы. Для этого требуется доступ к файловой системе лицензионной копии Microsoft SharePoint Server 2010 или сервера, на котором выполняются Microsoft SharePoint Foundation 2010, чтобы получить копию сборки Microsoft.SharePoint.dll.
-ms.openlocfilehash: c496f603f50a55ae2eaee237d6910d92612e1761
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: e29725450a6a1bdcba99215e337493f8686491e3
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807495"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32303593"
 ---
-# <a name="use-sharepoint-object-model-members"></a>Использование элементов объектной модели SharePoint
+# <a name="use-sharepoint-object-model-members"></a>Использование членов объектной модели SharePoint
 
 Прежде чем начать программировать с использованием членов объектной модели SharePoint из кода, выполняемого в форме InfoPath, необходимо определить ссылку на сборку Microsoft.SharePoint.dll в проекте набора Visual Studio 2012 для формы. Для этого требуется доступ к файловой системе лицензионной копии Microsoft SharePoint Server 2010 или сервера, на котором выполняются Microsoft SharePoint Foundation 2010, чтобы получить копию сборки Microsoft.SharePoint.dll. 
   
