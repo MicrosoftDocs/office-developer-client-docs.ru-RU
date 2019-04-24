@@ -13,52 +13,52 @@ api_type:
 ms.assetid: 8cb0e46c-0937-482f-be78-1f2e5261b210
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1b09d8d7621121b3652ceb9824f6d36b53844206
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388059"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283137"
 ---
 # <a name="pidtagrecipientproposed-canonical-property"></a>Каноническое свойство PidTagRecipientProposed
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, были ли получены участник собрания.
+Указывает, ответил ли участник собрания.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_RECIPIENT_PROPOSED  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕЦИПИЕНТ_ПРОПОСЕД  <br/> |
 |Идентификатор:  <br/> |0x5FE1  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Получатель транспорта  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Значение TRUE для этого свойства указывает, что участник предложенное новые даты и времени. Значение FALSE или отсутствие этого свойства означает, что участник не еще не ответил, либо самыми последними ответа от участника не включить новые даты / времени предложения. Это значение не должно быть значение TRUE для участников в ряду.
+Значение TRUE для этого свойства указывает на то, что участник предложил новую дату и/или время. Значение FALSE или отсутствие этого свойства означает, что участник еще не ответил, или последний ответ участника не включал в себя новое предложение с датой и временем. Это значение не должно быть TRUE для участников в повторяющихся рядах.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответы.
+> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

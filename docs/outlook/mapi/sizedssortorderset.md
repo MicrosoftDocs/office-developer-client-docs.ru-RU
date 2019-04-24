@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: f0b9c2f4-7011-414d-8e6c-ab22893ef132
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 7622baaebf6918cf84c48e53291cf5ec2c0b1a4a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 60a335f85eea8778580e0bd74693a5c28591103c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22572566"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282630"
 ---
 # <a name="sizedssortorderset"></a>SizedSSortOrderSet
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает структуру [SSortOrderSet](ssortorderset.md) именованные, содержащий указанное число порядок сортировки. 
+Создает именованную структуру [ссортордерсет](ssortorderset.md) , содержащую указанное число порядков сортировки. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SSortOrderSet** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SSortOrderSet** <br/> |
    
 ```cpp
 SizedSSortOrderSet (_csort,_name)
@@ -36,19 +36,19 @@ SizedSSortOrderSet (_csort,_name)
 
 ## <a name="parameters"></a>Параметры
 
-__csort_
+__ксорт_
   
-> Число порядок сортировки должны быть включены в новой структуры.
+> Количество порядков сортировки, включаемых в новую структуру.
     
-_имя_
+__имя_
   
 > Имя для новой структуры.
     
 ## <a name="remarks"></a>Замечания
 
-Используйте макрос **SizedSSortOrderSet** для создания набора с явные границы порядок сортировки. 
+Используйте макрос **сизедссортордерсет** для создания набора порядка сортировки с явными границами. 
   
-Для применения новой структуры, результаты из макроса **SizedSSortOrderSet** как указатель на структуру **SSortOrderSet** , выполните следующие приведения. 
+Чтобы использовать новую структуру, полученную из макроса **сизедссортордерсет** в качестве указателя на структуру **ссортордерсет** , выполните приведенные ниже действия. 
   
 ```cpp
 lpSSortOrderSet = (LPSSortOrderSet) &SizedSSortOrderSet;

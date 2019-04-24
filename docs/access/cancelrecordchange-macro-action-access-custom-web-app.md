@@ -1,30 +1,30 @@
 ---
-title: Действия макроса CancelRecordChange (приложение настраиваемых web Access)
+title: Макрокоманда Канцелрекордчанже (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: cbdbee8c-70d6-45df-a56b-5f7c6e5bdc6d
-description: Отмена изменения, примененные к записи блока данных СоздатьЗапись или ИзменитьЗапись до изменения, можно использовать действие CancelRecordChange.
-ms.openlocfilehash: 5f5d131ce8662dbd290a30ea08594cb413791d5c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Вы можете использовать действие Канцелрекордчанже, чтобы отменить изменения, примененные к записи в блоке данных СоздатьЗапись или ИзменитьЗапись перед фиксацией изменений.
+ms.openlocfilehash: fe95718e752513c4b8b700f331fec7b78092e553
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806964"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280762"
 ---
-# <a name="cancelrecordchange-macro-action-access-custom-web-app"></a>Действия макроса CancelRecordChange (приложение настраиваемых web Access)
+# <a name="cancelrecordchange-macro-action-access-custom-web-app"></a>Макрокоманда Канцелрекордчанже (пользовательское веб-приложение для Access)
 
-Отмена изменения, примененные к записи блока данных **[СоздатьЗапись](createrecord-data-block-access-custom-web-app.md)** или **[ИзменитьЗапись](editrecord-data-block-access-custom-web-app.md)** до изменения, можно использовать действие **CancelRecordChange** . 
+Вы можете использовать действие **канцелрекордчанже** , чтобы отменить изменения, примененные к записи в блоке данных **[СоздатьЗапись](createrecord-data-block-access-custom-web-app.md)** или **[ИзменитьЗапись](editrecord-data-block-access-custom-web-app.md)** перед фиксацией изменений. 
   
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 > [!NOTE]
-> Действие **CancelRecordChange** доступна только в макросов данных. 
+> Действие **канцелрекордчанже** доступно только в макросах данных. 
   
 ## <a name="remarks"></a>Замечания
 
-При вызове действие **CancelRecordChange** блок данных **СоздатьЗапись** или **ИзменитьЗапись** немедленно прекращается. 
+При вызове действия **канцелрекордчанже** сразу же завершается блок данных **СоздатьЗапись** или **ИзменитьЗапись** . 
   
 

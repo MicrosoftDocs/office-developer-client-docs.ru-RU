@@ -8,11 +8,11 @@ ms.date: 10/18/2018
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: f31067c96c19804352ca74957e064f9338b49260
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28718296"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293653"
 ---
 # <a name="drop-statement-microsoft-access-sql"></a>Инструкция DROP (Microsoft Access SQL)
 

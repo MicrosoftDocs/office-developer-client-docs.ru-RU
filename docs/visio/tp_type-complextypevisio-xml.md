@@ -1,5 +1,5 @@
 ---
-title: tp_Type complexType ('Visio XML»)
+title: Тп_типе complexType (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,13 +7,13 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 27a4147f-bd69-0a17-be2f-264f41e84ec1
 ms.openlocfilehash: ca8becda3898dd16cccb25568b195a8ea1dd0c55
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388996"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280940"
 ---
-# <a name="tptype-complextype-visio-xml"></a>tp_Type complexType ('Visio XML»)
+# <a name="tptype-complextype-visio-xml"></a>Тп_типе complexType (' Visio XML ')
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -47,6 +47,6 @@ ms.locfileid: "25388996"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|IX  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

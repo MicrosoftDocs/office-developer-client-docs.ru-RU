@@ -10,45 +10,45 @@ api_type:
 - COM
 ms.assetid: 429811c4-73fe-4a05-9c42-e5ac8e974f29
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 1ad6d6047a021683d658a8ad9ab28ff2d1ec31f7
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 4fc3d2751841cb2fb119e7b1695c93260758dcea
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22589156"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283116"
 ---
 # <a name="pidtagreportoriginalsender-canonical-property"></a>Каноническое свойство PidTagReportOriginalSender
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает исходный отправитель сообщения для сообщений, запрашивающих поступлений.
+Указывает исходного отправителя сообщения для сообщений, запрашивающих уведомления.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REPORT_ORIGINAL_SENDER, PR_REPORT_ORIGINAL_SENDER_A, PR_REPORT_ORIGINAL_SENDER_W  <br/> |
+|Связанные свойства:  <br/> |ПР_РЕПОРТ_ОРИГИНАЛ_СЕНДЕР, ПР_РЕПОРТ_ОРИГИНАЛ_СЕНДЕР_А, ПР_РЕПОРТ_ОРИГИНАЛ_СЕНДЕР_В  <br/> |
 |Идентификатор:  <br/> |0x0082  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]] 
+[[MS — ОКСПРОПС]] 
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

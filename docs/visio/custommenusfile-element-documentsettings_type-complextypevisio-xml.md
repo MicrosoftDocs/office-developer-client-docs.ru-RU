@@ -1,31 +1,31 @@
 ---
-title: Элемент CustomMenusFile (DocumentSettings_Type complexType) ('Visio XML»)
+title: Элемент CustomMenusFile (Документсеттингс_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4c88bde5-45e1-8030-e72c-a735c374a5c4
-description: Содержит имя файла Microsoft Visio пользовательского интерфейса (.vsu), который определяет пользовательские меню и сочетания клавиш для документа.
+description: Содержит имя файла пользовательского интерфейса Microsoft Visio (VSU), определяющего настраиваемые меню и ускорители для документа.
 ms.openlocfilehash: 347660abab266493254b4dc2b47150f3b80fd371
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25394388"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282903"
 ---
-# <a name="custommenusfile-element-documentsettingstype-complextype-visio-xml"></a>Элемент CustomMenusFile (DocumentSettings_Type complexType) ('Visio XML»)
+# <a name="custommenusfile-element-documentsettingstype-complextype-visio-xml"></a>Элемент CustomMenusFile (Документсеттингс_типе complexType) (' Visio XML ')
 
-Содержит имя файла Microsoft Visio пользовательского интерфейса (.vsu), который определяет пользовательские меню и сочетания клавиш для документа.
+Содержит имя файла пользовательского интерфейса Microsoft Visio (VSU), определяющего настраиваемые меню и ускорители для документа.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[CustomMenusFile_Type](custommenusfile_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Кустомменусфиле_типе](custommenusfile_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25394388"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, которые определяют параметры документов.  <br/> |
+|[Документсеттингс](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Документсеттингс_типе](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

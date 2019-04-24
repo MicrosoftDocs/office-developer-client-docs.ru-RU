@@ -8,33 +8,33 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 40161358-4d41-43cf-83c7-fdd843bec87b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 505ea9ba5d7105f20f335035e42286fdab1cb1aa
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c8bccbfeb7f04745a66831618deff490bc651b02
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22576325"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278773"
 ---
 # <a name="pidtagstoreentryidemsmdbv1-canonical-property"></a>Каноническое свойство PidTagStoreEntryIdEmsmdbV1
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит старый стиль (Microsoft Outlook 2002 и более ранних версий) идентификатор записи банка сообщений Microsoft Exchange Server 2010 или Exchange Server 2013.
+Содержит старый стиль (Microsoft Outlook 2002 и более ранние версии) идентификатора записи для хранилища сообщений Microsoft Exchange Server 2010 или Exchange Server 2013.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_STORE_ENTRYID_EMSMDB_V1  <br/> |
 |Идентификатор:  <br/> |0x65F60102  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Идентификатор свойства  <br/> |
+|Область:  <br/> |Свойства идентификатора  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Начиная с Microsoft Outlook 2003, полные доменные имена серверов были интегрированы в идентификаторы, тем самым позволяет избежать дополнительных RPC для ссылок. Тем не менее это делает запись идентификаторы больше времени и приводятся ссылки на дополнительные сценарии использования метода **CompareEntryIDs** для определения ли два запись идентификаторы эквивалентны. PR_STORE_ENTRYID_EMSMDB_V1 (PidTagStoreIdEmsbdbV1) свойство обращается к старый формат идентификатор записи Exchange Server, используемый с Microsoft Outlook 2002 (Microsoft Office XP) и более ранних версий. Это можно сохранить пространство и также сократить количество вызовов **CompareEntryIDs** , необходимо определить, когда запись идентификаторы эквивалентны. Обратите внимание, что с помощью более старые записи идентификаторов для открытия почтового ящика, могут вызвать некоторые дополнительные RPC Если ссылка является обязательным. 
+Начиная с Microsoft Outlook 2003, полные доменные имена сервера были интегрированы в идентификаторы записей, что позволяет избежать дополнительных вызовов RPC для ссылок. Тем не менее, это делает идентификаторы записей более длинными и вводит дополнительные сценарии, в которых метод **метод compareentryids** должен использоваться для определения того, эквивалентны ли два идентификатора записи. Свойство PR_STORE_ENTRYID_EMSMDB_V1 (PidTagStoreIdEmsbdbV1) получает доступ к старому формату идентификатора записи Exchange Server, используемого Microsoft Outlook 2002 (Microsoft Office XP) и более ранних версий. Это может сэкономить место, а также сократить количество вызовов **метод compareentryids** , необходимых для определения того, когда идентификаторы записей эквивалентны. Обратите внимание на то, что использование старых идентификаторов записей для открытия почтового ящика может привести к дополнительным RPC, если требуется ссылка. 
   
-Для доступа к свойству PR_STORE_ENTRYID_EMSMDB_V1 в режиме кэширования данных, необходимо обойти кэша, используя флаг MAPI_NO_CACHE с помощью метода [IMAPIProp::GetProps](imapiprop-getprops.md) . Если **PR_STORE_ENTRYID_EMSMDB_V1** недоступен, код должен вернуться к PR_STORE_ENTRYID. Свойство PR_STORE_ENTRYID_EMSMDB_V1 поддерживается только в Outlook 2003 через Microsoft Outlook 2013. 
+Чтобы получить доступ к свойству PR_STORE_ENTRYID_EMSMDB_V1 в режиме кэширования, необходимо обойти кэш с помощью флага МАПИ_НО_КАЧЕ с методом [IMAPIProp::](imapiprop-getprops.md) GetProperty. Если **PR_STORE_ENTRYID_EMSMDB_V1** недоступен, код должен ВОЗВРАЩАТЬСЯ к пр_сторе_ентрид. Свойство PR_STORE_ENTRYID_EMSMDB_V1 поддерживается только для Outlook 2003 с помощью Microsoft Outlook 2013. 
   
 ## <a name="see-also"></a>См. также
 
@@ -45,7 +45,7 @@ ms.locfileid: "22576325"
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

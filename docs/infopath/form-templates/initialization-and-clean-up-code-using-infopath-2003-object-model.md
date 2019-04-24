@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8d19e8fa-4e5c-40bb-ae89-7a552cc7914d
 description: По умолчанию файл FormCode.cs или FormCode.vb, который создается для проекта шаблона формы, совместимого с InfoPath 2003, содержит полный исходный код для программирования логики формы. Шаблон проекта создает класс в файле FormCode.cs или FormCode.vb, схожий с классами, приведенными в указанных далее примерах, где можно указать инициализацию и очистку кода, а также обработчики для событий формы. Файлы FormCode.cs и FormCode.vb применяют атрибут уровня сборки System.ComponentModel.DescriptionAttribute, который идентифицирует класс в качестве единственного класса, где реализуются обработчики событий. Атрибут InfoPathNamespace (который реализуется типом InfoPathNamespaceAttribute ) применяется к классу для идентификации пространств имен выборки XML DOM, используемых в рамках класса. Пространства имен, указанные в InfoPathNamespace, обслуживаются системой проектов InfoPath.
 ms.openlocfilehash: 1ae81c261ad9927195c0a4ac6d80f58a16a6ebf1
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25383123"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299744"
 ---
 # <a name="initialization-and-clean-up-code-using-infopath-2003-object-model"></a>Инициализация и очистка кода с помощью объектной модели InfoPath 2003
 
@@ -126,7 +126,7 @@ Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
 End Sub
 ```
 
-Сведения о том, как создать обработчик событий в разделе [Add события обработчик с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Сведения о том, как создать обработчик событий, можно найти в статье [Добавление обработчика событий с помощью объектНой модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## <a name="the-shutdown-method"></a>Метод _ShutDown
 
@@ -148,7 +148,7 @@ End Sub
 В следующем примере демонстрируется инициализация подключения к базе данных Microsoft SQL Server в методе  `_Startup` и закрытие подключения в методе  `_Shutdown`. Чтобы этот пример работал правильно, необходимо сначала указать ссылку на сборку System.Data для платформы .NET Framework, выбрав пункт **Добавить ссылку** в меню **Проект**, а затем выбрать компонент System.Data.dll на вкладке **.NET**. Кроме того, обратите внимание, что в верхней части файла кода формы добавлена директива  `using System.Data.SqlClient` (или  `Imports System.Data.SqlClient)` для уменьшения числа нажатий клавиш. 
   
 > [!NOTE]
-> Пользователи формы InfoPath, который содержит код формы, который подключается к базе данных SQL Server может потребоваться разрешения безопасности в зависимости от того, как развернуть формы и определена политика безопасности. Дополнительные сведения о безопасности содержатся в разделе [О модели безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md) и [Настройка параметров безопасности для шаблонов форм с кодом](how-to-configure-security-settings-for-form-templates-with-code.md). 
+> Пользователям формы InfoPath, содержащей код формы для подключения к базе данных SQL Server, могут потребоваться разрешения безопасности, зависящие от метода развертывания формы и определения политики безопасности. Дополнительные сведения о безопасности см. в статье [модель безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md) и [Настройка параметров безопасности для шаблонов форм с кодом](how-to-configure-security-settings-for-form-templates-with-code.md). 
   
 ```cs
 using System;
@@ -221,5 +221,5 @@ End Namespace
 
 
 
-[Добавление обработчика события, использующего объектную модель InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

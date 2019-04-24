@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 75807d66-6483-2785-567c-d238067e1e52
 description: Возвращает арккосинус числа, например угол, косинус которого равен числу.
-ms.openlocfilehash: 53dbf70793b463193fb038cdc5e51991b4332c16
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: fbfb5f6d9879e2e398fb2ae66d8b5c8a76f9251c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813120"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283102"
 ---
 # <a name="acos-function"></a>Функция ACOS
 
@@ -26,12 +26,12 @@ ACOS ( *число*)
   
 ## <a name="remarks"></a>Замечания
 
-Входное значение должно быть в диапазоне от -1 \<= номер \<= 1 или #NUM! возвращается ошибка. Значение полученного угла находится в диапазоне от 0 \<= угол \<= радианах PI (0 \<= угол \<= 180 градусов).
+Входное значение должно быть в диапазоне от 1 \<до Number \<= 1 или #NUM! возвращается ошибка. Полученный угол \<находится в диапазоне 0 = Angle \<= Пи радиан (0 \<= угол \<= 180 градусов).
   
 ## <a name="example"></a>Пример
 
-ACOS(0) 
+ACOS (0) 
   
-Возвращает 90 градусов 
+Возвращает 90 град 
   
 

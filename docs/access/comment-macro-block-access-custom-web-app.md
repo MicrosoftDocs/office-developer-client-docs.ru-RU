@@ -1,27 +1,27 @@
 ---
-title: Закомментировать блок макросов (приложение настраиваемых web Access)
+title: Макрос Comment Block (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 1d8977a0-e787-415f-adc0-2e0c53a364a4
-description: Оператор комментария можно использовать для предоставления пояснительных комментариев в макросе.
-ms.openlocfilehash: 4dd8c869494fcc0dd038ef9414a625cffd9c23f1
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Оператор Comment можно использовать для предоставления пояснительных примечаний в макросе.
+ms.openlocfilehash: 93404f24750fd63d42127f71d3593d863c2bf1ba
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806929"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282280"
 ---
-# <a name="comment-macro-block-access-custom-web-app"></a>Закомментировать блок макросов (приложение настраиваемых web Access)
+# <a name="comment-macro-block-access-custom-web-app"></a>Макрос Comment Block (пользовательское веб-приложение для Access)
 
-Оператор **комментария** можно использовать для предоставления пояснительных комментариев в макросе. 
+Оператор **comment** можно использовать для предоставления пояснительных примечаний в макросе. 
   
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
 ## <a name="remarks"></a>Замечания
 
-**Комментарий** может иметь длину до 1000 символов в длину. Тем не менее по умолчанию отображается только первая строка комментария. 
+Длина **комментария** может доставлять до 1000 символов. Однако по умолчанию отображается только первая строка комментария. 
   
 

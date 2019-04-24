@@ -1,5 +1,5 @@
 ---
-title: ISocialSessionGetActivities
+title: ИсоЦиалсессионжетактивитиес
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6546be99-aee4-41a6-8297-ace378776503
-description: Этот метод является устаревшим в версии 1.1 OSC.
-ms.openlocfilehash: dc5fe25e4c4f83717309d407963d0046aa6063ec
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Этот метод не рекомендуется использовать в OSC 1,1.
+ms.openlocfilehash: 29a7cdc9895dcfa2bd926d95dbd2089b7a5dc778
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812738"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285457"
 ---
 # <a name="isocialsessiongetactivities"></a>ISocialSession::GetActivities
 
-Этот метод является устаревшим в версии 1.1 OSC.
+Этот метод не рекомендуется использовать в OSC 1,1.
   
 ```cpp
 HRESULT GetActivities([in] SAFEARRAY(BSTR) emailAddresses, [in] DATE startTime, [out, retval] BSTR *activities);
@@ -25,7 +25,7 @@ HRESULT GetActivities([in] SAFEARRAY(BSTR) emailAddresses, [in] DATE startTime, 
 
 ## <a name="remarks"></a>Замечания
 
-Начиная с версии OSC 1.1, OSC больше не вызывает **GetActivities**. OSC игнорирует значение **dynamicActivitiesLookup**. Для поддержки динамических действия подстановки, реализуйте метод [ISocialSession2::GetActivitiesEx](isocialsession2-getactivitiesex.md) . Сделать **cacheActivities** **значение false**и **getActivities** и **dynamicActivitiesLookupEx** как **значение true**, которое выводит запрос, OSC вместо этого вызов **ISocialSession2::GetActivitiesEx** . 
+Начиная с OSC 1,1, OSC больше не вызывает **операции**с операциями. OSC игнорирует значение параметра **динамикактивитиеслукуп**. Для поддержки поиска динамических действий реализуйте метод [ISocialSession2:: жетактивитиесекс](isocialsession2-getactivitiesex.md) . Задайте для параметра **качеактивитиес** **значение false**, а для **динамикактивитиеслукупекс** — **значение true**, после чего OSC будет вызывать **ISocialSession2:: жетактивитиесекс** . **** 
   
 ## <a name="see-also"></a>См. также
 

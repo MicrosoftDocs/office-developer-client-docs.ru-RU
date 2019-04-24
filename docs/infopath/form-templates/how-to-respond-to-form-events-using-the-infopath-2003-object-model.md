@@ -1,33 +1,33 @@
 ---
-title: Обработка событий форм с помощью объектной модели InfoPath 2003
+title: Реагирование на события формы с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
-- шаблоны форм [infopath 2007] реагирование на события, совместимых с InfoPath 2003 шаблонов форм, реагирование на события формы
+- шаблоны форм [InfoPath 2007], реагирование на события, шаблоны форм, совместимые с InfoPath 2003, реагирование на события формы
 localization_priority: Normal
 ms.assetid: 59e9c1ed-32a8-4bcd-bdfc-9aa568a34d2a
 description: Можно написать код, реагирующий на различные события, которые могут происходить при заполнении пользователем формы. Для работы с событиями в InfoPath в режиме конструктора InfoPath создаются обработчики событий.
-ms.openlocfilehash: dff7b4f1657b7d1450d8b345521a747c0594462b
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: b7347f882df991e64bdf4e76c471b1220a84dc58
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807499"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300100"
 ---
-# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Обработка событий форм с помощью объектной модели InfoPath 2003
+# <a name="respond-to-form-events-using-the-infopath-2003-object-model"></a>Реагирование на события формы с помощью объектной модели InfoPath 2003
 
 Можно написать код, реагирующий на различные события, которые могут происходить при заполнении пользователем формы. Для работы с событиями в InfoPath в режиме конструктора InfoPath создаются обработчики событий.
   
-Обработчики событий Microsoft InfoPath должны быть созданы в InfoPath designer, так как, когда с помощью объектной модели совместимых с InfoPath 2003, InfoPath автоматически добавляет правильное объявление и применяется атрибут ([InfoPathEventHandlerAttribute](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) в файла кода формы (FormCode.cs или FormCode.vb) для идентификации и приемник обработчик событий. После создания обработчика событий следует не изменять его объявления и атрибут в файле кода формы. 
+Обработчики событий InfoPath следует создавать в конструкторе InfoPath, так как при использовании объектной модели, совместимой с InfoPath 2003, InfoPath автоматически добавляет правильное объявление и применяет атрибут ([инфопасевенсандлераттрибуте](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.InfoPathEventHandlerAttribute.aspx) ) в файл кода формы (FormCode.cs или FormCode. vb) для идентификации и приема обработчика событий. После создания обработчика событий не следует менять его объявление и атрибут в файле кода формы. 
   
-Сведения о создании обработчиков событий приложения InfoPath содержатся в разделе [Добавление события обработчик с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Сведения о создании обработчиков событий InfoPath приведены в статье [Добавление обработчика событий с помощью объектНой модели infopath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## <a name="overview-of-the-event-objects"></a>Обзор объектов событий
 
-Объектная модель совместимых с InfoPath 2003 реализует девяти объектов событий, предоставляемые в пространстве имен [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . В следующей таблице приведены каждого из объектов событий Microsoft InfoPath, обработчики событий, связанные с ними и описание возможностей, предоставляемых. 
+Объектная модель, совместимая с InfoPath 2003, реализует девять объектов Event, которые представлены в пространстве имен [Microsoft. Office. Interop. InfoPath. SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) . В приведенной ниже таблице перечислены все объекты событий InfoPath, связанные с ними обработчики событий, а также приведено описание выполняемых ими функций. 
   
-|**Имя**|**обработчики событий.**|**Описание**|
+|**Name**|**обработчики событий;**|**Описание**|
 |:-----|:-----|:-----|
 |[DataDOMEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.aspx) <br/> |[OnBeforeChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnBeforeChange.aspx) <br/> [OnValidate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnValidate.aspx) , [OnAfterChange](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._DataDOMEventSink_Event.OnAfterChange.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, состояние возврата и другие свойства, содержащие сведения о XML-узле во время изменения объектной модели XML-документа. Также включает метод выявления ошибок.  <br/> |
 |[DocActionEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocActionEvent.aspx) <br/> |[OnClick](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._ButtonEventSink_Event.OnClick.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, статус возврата, а также исходный XML-узел во время нажатия кнопки в области формы.  <br/> |
@@ -35,9 +35,9 @@ ms.locfileid: "19807499"
 |[DocEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocEvent.aspx) <br/> |[OnSwitchView](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSwitchView.aspx) , [OnAfterImport](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnAfterImport.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы во время переключения режимов или во время операции объединения форм.  <br/> |
 |[DocReturnEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DocReturnEvent.aspx) <br/> |[OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) , [OnSubmitRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSubmitRequest.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, а также статус возврата в течение загрузки или отправки формы.  <br/> |
 |[MergeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.MergeEvent.aspx) <br/> |[OnMergeRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnMergeRequest.aspx) <br/> |Возвращает свойства и методы, которые можно использовать при выполнении события  **OnMergeRequest** для программного взаимодействия с базовым XML-документом формы, а также для определения свойств объединения, таких как число объединяемых файлов.  <br/> |
-|[SaveEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SaveEvent.aspx) <br/> |[OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) <br/> |Возвращает число свойств и методов, которые можно использовать во время сохранения из обработчика событий **OnSaveRequest** для программного взаимодействия с базовым XML-документом формы, определения свойств сохранения и выполнения сохранения.  <br/> |
-|[SignEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) <br/> |[OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx) <br/> |Используется для ввода дополнительных данных в цифровую подпись.  <br/> |
-|[VersionUpgradeEvent](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.VersionUpgradeEvent.aspx) <br/> |[OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, статус возврата, а также номера версий документа и приложения во время обновления версии.  <br/> |
+|[Савивент](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SaveEvent.aspx) <br/> |[OnSaveRequest](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSaveRequest.aspx) <br/> |Возвращает число свойств и методов, которые можно использовать во время сохранения из обработчика событий **OnSaveRequest** для программного взаимодействия с базовым XML-документом формы, определения свойств сохранения и выполнения сохранения.  <br/> |
+|[Сигневент](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEvent.aspx) <br/> |[OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx) <br/> |Используется для ввода дополнительных данных в цифровую подпись.  <br/> |
+|[Версионупградивент](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.VersionUpgradeEvent.aspx) <br/> |[OnVersionUpgrade](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnVersionUpgrade.aspx) <br/> |Возвращает ссылку на базовый XML-документ формы, статус возврата, а также номера версий документа и приложения во время обновления версии.  <br/> |
    
 ## <a name="using-the-event-objects"></a>Использование объектов событий
 
@@ -64,7 +64,7 @@ Public Sub FormEvents_OnLoad(ByVal e As DocReturnEvent)
 End Sub
 ```
 
-При написании кода для обработчика событий, можно использовать свойства и методы, объект события, который передается через параметр **e** . К примеру в следующий обработчик события **OnBeforeChange** [новое значение](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.NewValue.aspx) свойства событий объекта **DataDOMEvent** используется для проверки значения поля, который был только что изменен. Если он не задан, свойство [ReturnMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReturnMessage.aspx) объекта события **DataDOMEvent** используется для отображения ошибки в диалоговом окне и свойство [ReturnStatus](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReturnStatus.aspx) имеет значение **false**, это означает, что изменения, внесенные пользователь должен не будет принято.
+При написании кода для обработчика событий можно воспользоваться свойствами и методами, внедренными объектом события, переданным через параметр **e**. Например, в следующем обработчике события **OnBeforeChange** свойство [newValue](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.NewValue.aspx) объекта события **DataDOMEvent** используется для проверки значения поля, которое было только что изменено. Если он пуст, свойство [ReturnMessage](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReturnMessage.aspx) объекта события **DataDOMEvent** используется для отображения ошибки для пользователя в диалоговом окне, а свойство [ReturnStatus](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReturnStatus.aspx) имеет значение **false**, указывая, что изменения, внесенные пользователем, должны не принимается.
   
 ```cs
 [InfoPathEventHandler(MatchPath="/my:myFields/my:field1", 

@@ -1,37 +1,37 @@
 ---
-title: Ячейка BevelDepthColor (раздел "Свойства багетной рамки")
+title: BevelDepthColor Cell (Bevel Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1665774f-4049-4eda-ba7a-62314286699e
-description: Определяет цвет глубина рельефов как значение RGB, либо в соответствии с активной темы.
-ms.openlocfilehash: b3b10ad220367a504a3df5c90453524a1c5fe59d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет цвет глубины скоса в виде значения RGB или определяется активной темой.
+ms.openlocfilehash: 027b7b8675666b82d0ae26259fe77470708628c2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813190"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285142"
 ---
-# <a name="beveldepthcolor-cell-bevel-properties-section"></a>Ячейка BevelDepthColor (раздел "Свойства багетной рамки")
+# <a name="beveldepthcolor-cell-bevel-properties-section"></a>BevelDepthColor Cell (Bevel Properties Section)
 
-Определяет цвет глубина рельефов как значение RGB, либо в соответствии с активной темы.
+Определяет цвет глубины скоса в виде значения RGB или определяется активной темой.
   
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **BevelDepthColor** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelDepthColor** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | BevelDepthColor  <br/> |
+| Имя ячейки:  <br/> | BevelDepthColor  <br/> |
    
-Для получения ссылки на ячейки **BevelDepthColor** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **BevelDepthColor** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
-| Индекс ячейки:  <br/> |**visBevelDepthColor** <br/> |
+| Индекс строки:  <br/> |**Висровбевелпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Висбевелдепсколор** <br/> |
    
 

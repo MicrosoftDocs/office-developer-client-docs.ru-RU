@@ -1,27 +1,27 @@
 ---
-title: Действия макроса макрокоманду УдалитьЗапись (приложение настраиваемых web Access)
+title: Макрокоманда DeleteRecord (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 071ef6c8-ee0a-4092-8f41-bbb115f5eeea
-description: Чтобы удалить запись, можно использовать УдалитьЗапись.
-ms.openlocfilehash: 7511de86b68c35921462e538e26c670d3a5e0ca8
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Для удаления записи можно использовать действие DeleteRecord.
+ms.openlocfilehash: 3b7d501f8b784b7df2250ffdd80ca7184e539616
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806911"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280783"
 ---
-# <a name="deleterecord-macro-action-access-custom-web-app"></a>Действия макроса макрокоманду УдалитьЗапись (приложение настраиваемых web Access)
+# <a name="deleterecord-macro-action-access-custom-web-app"></a>Макрокоманда DeleteRecord (пользовательское веб-приложение для Access)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
-Чтобы удалить запись, можно использовать **УдалитьЗапись** . 
+Для удаления записи можно использовать действие **DeleteRecord** . 
   
 ## <a name="setting"></a>Параметр
 
-**УдалитьЗапись** не содержит какие-либо аргументы при использовании в макросе пользовательского интерфейса (UI). 
+Макрокоманда **DeleteRecord** не содержит аргументов при использовании в макросе пользовательского интерфейса. 
   
 

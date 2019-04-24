@@ -1,5 +1,5 @@
 ---
-title: 'Пошаговое руководство: Создание шаблона базовой формы с помощью кода'
+title: 'ПоШаговое руководство: создание базового шаблона формы с кодом'
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -8,20 +8,20 @@ keywords:
 localization_priority: Normal
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
 description: Бизнес-логику для приложения Microsoft InfoPath можно написать на языке Visual Basic или C#, открыв шаблон формы в конструкторе InfoPath и воспользовавшись одной из команд интерфейса пользователя для добавления обработчика событий, который откроет набор Visual Studio 2012 для написания необходимого кода.
-ms.openlocfilehash: 8c98d71c26f8e56c532b2a4467218c366072b2ce
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: cc09856750ced28d35c8da172a08a31c4e3cd4a2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299736"
 ---
-# <a name="walkthrough-create-a-basic-form-template-with-code"></a>Пошаговое руководство: Создание шаблона базовой формы с помощью кода
+# <a name="walkthrough-create-a-basic-form-template-with-code"></a>ПоШаговое руководство: создание базового шаблона формы с кодом
 
 Бизнес-логику для приложения Microsoft InfoPath можно написать на языке Visual Basic или C#, открыв шаблон формы в конструкторе InfoPath и воспользовавшись одной из команд интерфейса пользователя для добавления обработчика событий, который откроет набор Visual Studio 2012 для написания необходимого кода. По умолчанию проекты шаблонов форм создаются с помощью набора средств Visual Studio 2012, использующего новую объектную модель управляемого кода, которая предоставляется пространством имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 
   
 В первом пошаговом руководстве демонстрируются методы создания простого приложения "Hello World" с помощью языка C# или Visual Basic в наборе Visual Studio 2012. В заключении руководства приведен пример кода, демонстрирующий принципы использования свойства [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) класса [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) для получения имени текущего пользователя и заполнения элемента управления **Текстовое поле** полученным значением. 
   
-## <a name="prerequisites"></a>Необходимые условия
+## <a name="prerequisites"></a>Необходимые компоненты
 
 Для выполнения инструкций этого пошагового руководства в наборе Visual Studio 2012 необходимо установить следующее программное обеспечение:
   
@@ -144,7 +144,7 @@ ms.locfileid: "19807614"
     
 8. Нажмите кнопку **ОК**, чтобы вернуться в редактор кода набора Visual Studio 2012, а затем щелкните **Остановить отладку** в меню **Отладка** (или нажмите сочетание клавиш CTRL+ALT+BREAK). 
     
-## <a name="getting-the-current-users-name"></a>Получение имени текущего пользователя
+## <a name="getting-the-current-users-name"></a>Извлечение имени текущего пользователя
 
 В следующем примере демонстрируется, как использовать свойство [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) класса [User](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.aspx) для получения имени текущего пользователя и заполнения значения элемента управления **Текстовое поле** с помощью обработчика событий [Loading](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) . 
   
@@ -154,7 +154,7 @@ ms.locfileid: "19807614"
   
 Метод [SelectSingleNode](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator.selectsinglenode%28v=vs.100%29.aspx) класса **XPathNavigator** вызывается для выбора поля employee в источнике данных формы. В заключение вызывается метод [SetValue](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator.setvalue%28v=vs.100%29.aspx) для установки значения поля с использованием свойства [UserName](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.User.UserName.aspx) . 
   
-Дополнительные сведения о работе с **System.Xml** в шаблонах форм с управляемым кодом [могли работать с классов XPathNavigator и XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)см.
+Дополнительные сведения о работе с **System. XML** в шаблонах форм с управляемым кодом приведены в статье [Работа с классами XPathNavigator и XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   
 ### <a name="add-a-loading-event-handler"></a>Добавление обработчика событий загрузки
 
@@ -199,11 +199,11 @@ ms.locfileid: "19807614"
     
 ## <a name="next-steps"></a>Дальнейшие действия
 
-- Сведения о работе с обработчики событий для других элементов управления и события можно [Добавить обработчик событий](how-to-add-an-event-handler.md).
+- Сведения о работе с обработчиками событий для других элементов управления и событий можно найти [в статье Добавление обработчика событий](how-to-add-an-event-handler.md).
     
-- Дополнительные сведения о просмотре и отладке кода в шаблонах форм можно [Предварительный просмотр и отладка шаблонов форм InfoPath с кодом](how-to-preview-and-debug-infopath-form-templates-with-code.md).
+- Для получения дополнительных сведений о предварительном просмотре и отладке кода в шаблонах форм, ознакомьтесь со статьей [Просмотр и отладка шаблонов форм InfoPath с кодом](how-to-preview-and-debug-infopath-form-templates-with-code.md).
     
-- Сведения о развертывании шаблонов форм с управляемым кодом содержатся в разделе [Развертывание шаблонов форм InfoPath с кодом](how-to-deploy-infopath-form-templates-with-code.md).
+- Сведения о развертывании шаблона формы с управляемым кодом можно найти в статье [Развертывание шаблонов форм InfoPath с кодом](how-to-deploy-infopath-form-templates-with-code.md).
     
 - Сведения об объектной модели InfoPath и распространенных задачах программирования для шаблонов форм с управляемым кодом см. в разделе [Ознакомление с объектной моделью InfoPath и распространенными задачами разработчиков](understanding-the-infopath-object-model-and-common-developer-tasks.md)
     

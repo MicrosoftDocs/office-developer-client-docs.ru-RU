@@ -1,5 +1,5 @@
 ---
-title: ISocialSessionGetPerson
+title: ИсоЦиалсессионжетперсон
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2d0a2945-54d7-417f-b5c6-2647c70263cf
-description: Получает интерфейс ISocialPerson на основе параметра идентификатор пользователя.
-ms.openlocfilehash: 5769f4c41bb97f45ab722f1b3a3febe24c8a7ab2
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Получает интерфейс ИсоЦиалперсон, основанный на параметре userID.
+ms.openlocfilehash: b54e39b3712fb57d89d03787f1e5fa0ff50ff84a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812739"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285332"
 ---
 # <a name="isocialsessiongetperson"></a>ISocialSession::GetPerson
 
-Получает интерфейс [ISocialPerson](isocialpersoniunknown.md) на основе параметра _идентификатор пользователя_ . 
+Получает интерфейс [исоЦиалперсон](isocialpersoniunknown.md) , основанный на параметре _UserID_ . 
   
 ```cpp
 HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** result);
@@ -27,15 +27,15 @@ HRESULT _stdcall GetPerson([in] BSTR userId, [out, retval] ISocialPerson** resul
 
 _userId_
   
-> [in] Строка, содержащая пользователя ID или адрес SMTP пользователя.
+> возврата Строка, содержащая идентификатор пользователя или SMTP-адрес человека.
     
-_результат_
+_result_
   
-> [out] Интерфейс **ISocialPerson** . 
+> вышли Интерфейс **исоЦиалперсон** . 
     
 ## <a name="remarks"></a>Замечания
 
-Параметр _идентификатор пользователя_ должен быть адрес SMTP или идентификатор пользователя. 
+Параметр _UserID_ должен быть идентификатором пользователя или SMTP-адресом. 
   
 ## <a name="see-also"></a>См. также
 

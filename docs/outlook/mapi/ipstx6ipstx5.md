@@ -12,12 +12,12 @@ api_type:
 - COM
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 41e957df1c7e304765d8a6ca03ea1946ac1df2f1
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: ad17f93f6a24dad8c392d16900a01df05fe71f1d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22570522"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279509"
 ---
 # <a name="ipstx6--ipstx5"></a>IPSTX6 : IPSTX5
 
@@ -25,22 +25,22 @@ ms.locfileid: "22570522"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Этот интерфейс предоставляет функциональные возможности модуля поддержки при выполнении репликации с помощью интерфейса IOSTX.
+Этот интерфейс предоставляет вспомогательные функциональные возможности при выполнении репликации с помощью интерфейса ИОСТКС.
   
 |||
 |:-----|:-----|
-|Автор  <br/> |Запрос на [IMsgStore](imsgstoreimapiprop.md) <br/> |
+|Предоставлено  <br/> |Запрос на [IMsgStore](imsgstoreimapiprop.md) <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IPSTX6  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-|**[DisconnectStore](ipstx6-disconnectstore.md)** <br/> |Отключение локального хранилища.  <br/> |
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
-| *Заполнитель члена*  <br/> | *Не поддерживается, документированных.*  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+|**[Дисконнектсторе](ipstx6-disconnectstore.md)** <br/> |Отключает локальное хранилище.  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
+| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
    
 ## <a name="see-also"></a>См. также
 

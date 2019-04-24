@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0f22ccf2-1004-4731-9d68-f66c01b4588b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1e3d384f35726ff28bb47f3d537c8a7a1dda6dce
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25399657"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299435"
 ---
 # <a name="gettnefstreamcodepage"></a>GetTnefStreamCodepage
 
@@ -21,13 +21,13 @@ ms.locfileid: "25399657"
   
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Определяет кодовую страницу для потока Transport-Neutral Encapsulation формата TNEF ().
+Определяет кодовую страницу для потока TNEF (протокол инкапсуляции формата инкапсуляции).
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |TNEF.h  <br/> |
+|Файл заголовка:  <br/> |TNEF. h  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
-|Вызывающая сторона:  <br/> |Клиентские приложения и поставщиков услуг.  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения и поставщики услуг.  <br/> |
    
 ```cpp
 HRESULT GetTnefStreamCodepage(
@@ -39,17 +39,17 @@ HRESULT GetTnefStreamCodepage(
 
 ## <a name="parameters"></a>Параметры
 
- _lpStream_
+ _Лпстреам_
   
-> [in] Указатель на хранилище потока объекта OLE **IStream** интерфейс предоставление источника для потока сообщения в формате TNEF. 
+> возврата Указатель на объект потока хранилища OLE **IStream** , предоставляющий источник сообщения для потока TNEF. 
     
- _lpulCodepage_
+ _Лпулкодепаже_
   
-> [out] Указатель на страницу кода потока.
+> вышли Указатель на кодовую страницу в потоке.
     
- _lpulSubCodepage_
+ _Лпулсубкодепаже_
   
-> [out] Указатель на страницу subcode потока.
+> вышли Указатель на страницу подкода потока.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -57,21 +57,21 @@ HRESULT GetTnefStreamCodepage(
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
- **MAPI_E_NOT_ENOUGH_DISK**
+ **МАПИ_Е_НОТ_ЕНАУГХ_ДИСК**
   
-> Возникла ошибка при чтении атрибута в поток TNEF.
+> Произошла ошибка при чтении атрибута в потоке TNEF.
     
- **MAPI_E_CORRUPT_DATA**
+ **МАПИ_Е_КОРРУПТ_ДАТА**
   
-> Поток не поток TNEF либо произошла ошибка при чтении атрибута attOemCodepage.
+> Поток не являлся потоком TNEF или возникла ошибка при чтении атрибута Аттоемкодепаже.
     
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
-Используйте функцию **GetTnefStreamCodepage** для чтения атрибута **attOemCodepage** поток TNEF для определения кода страницы и страницы дополнительный код. Если **attOemCodepage** не найден, **GetTnefStreamCodepage** возвращает кодовую страницу 437 и страницы subcode 0. 
+Используйте функцию **жеттнефстреамкодепаже** для считывания атрибута **аттоемкодепаже** потока TNEF, чтобы определить кодовую страницу и страницу подкода. Если **аттоемкодепаже** не найден, **жеттнефстреамкодепаже** возвращает кодовую страницу 437 и страницу подкода 0. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[attOemCodepage](https://msdn.microsoft.com/library/ee158667%28EXCHG.80%29.aspx)
+[Аттоемкодепаже](https://msdn.microsoft.com/library/ee158667%28EXCHG.80%29.aspx)
 

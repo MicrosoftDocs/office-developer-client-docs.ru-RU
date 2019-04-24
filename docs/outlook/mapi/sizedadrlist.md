@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: 5c64d74a-83a7-4122-b1d1-fcca0f4a6cdb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 62911e0dec15002f39fff81e8c517c1cb11d0183
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c35a1eb54b29c04bc8eed453272b59aae0ea737e
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22574743"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282777"
 ---
 # <a name="sizedadrlist"></a>SizedADRLIST
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Определяет структуру [ADRLIST](adrlist.md) с указанным именем, содержащий указанное число [ADRENTRY](adrentry.md) структуры. 
+Определяет структуру [ADRLIST](adrlist.md) с указанным именем, которая содержит указанное число структур [адрентри](adrentry.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**ADRLIST** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**ADRLIST** <br/> |
    
 ```cpp
 SizedADRLIST (_centries,_name)
@@ -36,17 +36,17 @@ SizedADRLIST (_centries,_name)
 
 ## <a name="parameters"></a>Параметры
 
-__centries_
+__центриес_
   
-> Число структур **ADRENTRY** должны быть включены в новой структуры **ADRLIST** . 
+> Количество структур **адрентри** , включаемых в новую структуру **ADRLIST** . 
     
-_имя_
+__имя_
   
-> Имя для новой структуры **ADRLIST** . 
+> Имя новой структуры **ADRLIST** . 
     
 ## <a name="remarks"></a>Замечания
 
-Макрос **SizedADRLIST** позволяет определить список получателей, который имеет явные границы, когда известны требования к длине массива. Приведенный ниже код показано, как приведения результатов макроса **SizedADRLIST** в структуре указатель **ADRLIST** : 
+Макрос **сизедадрлист** позволяет определить список получателей с явными границами при известных требованиях к длине массива. В приведенном ниже коде показано, как привести результат выполнения макроса **сизедадрлист** к указателю структуры **ADRLIST** : 
   
 ```cpp
 lpADRList = (LPADRLIST) &SizedADRList;

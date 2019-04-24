@@ -12,43 +12,43 @@ api_type:
 - HeaderDef
 ms.assetid: 6c2e64bc-786e-4867-a504-46f4d1214337
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 3640ec4471b72dea81d56cc2c462ef145095480f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 77ca51ae5a0e7e1d5a9be8f4ca05a1187fe71694
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590927"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279854"
 ---
 # <a name="pidtaglatestdeliverytime-canonical-property"></a>Каноническое свойство PidTagLatestDeliveryTime
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит последние дата и время, когда сообщение передачи (агента) необходимо доставить сообщение. 
+Содержит последние дата и время, когда агент передачи сообщений (MTA) должен доставить сообщение. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_LATEST_DELIVERY_TIME  <br/> |
+|Связанные свойства:  <br/> |ПР_ЛАТЕСТ_ДЕЛИВЕРИ_ТИМЕ  <br/> |
 |Идентификатор:  <br/> |0x0019  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
-|Область:  <br/> |Общие системы обмена сообщениями  <br/> |
+|Область:  <br/> |Общий обмен сообщениями  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Если агента передачи сообщений не удается доставить сообщение, время, когда это свойство определяет, отменяет сообщение без доставки. 
+Если MTA не может доставить сообщение по времени, указанному этим свойством, оно отменяет сообщение без доставки. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

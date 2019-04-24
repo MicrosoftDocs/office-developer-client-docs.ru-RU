@@ -13,23 +13,23 @@ api_type:
 ms.assetid: e4fc8bd9-2ec4-462e-b6cb-e533b323bd05
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 253b14d6b8dd0fa7e41d0dcbd4c6db89c47be720
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25387092"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279704"
 ---
 # <a name="pidtaglastverbexecutiontime-canonical-property"></a>Каноническое свойство PidTagLastVerbExecutionTime
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит время выполнения последнего действия.
+Содержит время выполнения последней команды.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_LAST_VERB_EXECUTION_TIME  <br/> |
+|Связанные свойства:  <br/> |ПР_ЛАСТ_ВЕРБ_ЕКСЕКУТИОН_ТИМЕ  <br/> |
 |Идентификатор:  <br/> |0x1082  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |History  <br/> |
@@ -38,23 +38,23 @@ ms.locfileid: "25387092"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразование между IETF RFC2445, RFC2446 и RFC2447 и встречи и собрания объекты.
+> Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

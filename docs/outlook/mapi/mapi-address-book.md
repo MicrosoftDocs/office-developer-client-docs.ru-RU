@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: 6703ba3f-54a5-4059-b10a-1d42a9e81be1
 description: '���� ���������� ���������: 9 ����� 2015 �.'
-ms.openlocfilehash: de63e728fbabf9c153f7a4faa68cad1d7a9331ec
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 14f9bff8dbf55456c37e70e1ae7a0c236471b6c0
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22587924"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32298119"
 ---
 # <a name="mapi-address-book"></a>�������� ����� MAPI
 
@@ -45,11 +45,11 @@ ms.locfileid: "22587924"
   
 |**�������� ������� �����**|**��������**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |��� ������ ��� ����������. ������ ��� ������ ������� ������������ ������������ ������ � ������������ � ���������� ������� ������ �����������.  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |������������ ��� ��� ����������.  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |����� ����������.  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |������������� ������ ��� ������� � ����������.  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |�������� ��������� ����, ������������ ��� ������������� ����������.  <br/> |
+|**Пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |��� ������ ��� ����������. ������ ��� ������ ������� ������������ ������������ ������ � ������������ � ���������� ������� ������ �����������.  <br/> |
+|**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |������������ ��� ��� ����������.  <br/> |
+|**Пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |����� ����������.  <br/> |
+|**Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |������������� ������ ��� ������� � ����������.  <br/> |
+|**Пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |�������� ��������� ����, ������������ ��� ������������� ����������.  <br/> |
    
 MAPI ���������� ���������� ����� �������, ������� �������� ���������� �������� ������� �����. ��� ������ ������ ��������� ������ ����������� ������������� � ������ �������� � ��������� ���������. �������� ������� �� ����� ������ ��������� ������� ����������� ��������� � ������ ������ ����������� ��������.
   

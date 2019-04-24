@@ -1,5 +1,5 @@
 ---
-title: ISocialProfile ISocialPerson
+title: ИсоЦиалпрофиле ИсоЦиалперсон
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,33 +7,33 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4dbfdb6c-a930-4efb-85c3-dc2757ddcf83
-description: Представляет пользователя, вошедшего в систему.
-ms.openlocfilehash: 61ff73547cda864142b81d74b14fb5fb65062e8d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Представляет пользователя, выполнившего вход в систему.
+ms.openlocfilehash: 8fccb87ebc2745a12545d0c88127be0651ab8620
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285865"
 ---
 # <a name="isocialprofile--isocialperson"></a>ISocialProfile : ISocialPerson
 
-Представляет пользователя, вошедшего в систему. 
+Представляет пользователя, выполнившего вход в систему. 
   
 ## <a name="members"></a>Members
 
-В следующей таблице показаны элементы, доступные в интерфейсе **ISocialProfile** . 
+В следующей таблице показаны элементы, доступные в интерфейсе **исоЦиалпрофиле** . 
   
-|**Имя**|**Тип участника**|**Описание**|
+|**Name**|**Тип элемента**|**Описание**|
 |:-----|:-----|:-----|
-|[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |Метод  <br/> |Определяет, будет ли указанных пользователей друзей.  <br/> |
-|[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Метод  <br/> |Этот метод устарел и начиная с Outlook Social Connector 2013.  <br/> |
-|[SetStatus](isocialprofile-setstatus.md) <br/> |Метод  <br/> |Этот метод в настоящее время не поддерживается.  <br/> |
+|[Арефриендсорколлеагуес](isocialprofile-arefriendsorcolleagues.md) <br/> |Метод  <br/> |Определяет, являются ли указанные пользователи друзьями.  <br/> |
+|[Жетактивитиесоффриендсандколлеагуес](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Метод  <br/> |Этот метод является устаревшим, так как Outlook Social Connector 2013.  <br/> |
+|[SetStatus](isocialprofile-setstatus.md) <br/> |Метод  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Поставщика Outlook Social Connector (OSC) необходимо реализовать этот интерфейс для взаимодействия с OSC.
+Поставщик Outlook Social Connector (OSC) должен реализовать этот интерфейс для взаимодействия с OSC.
   
 ## <a name="see-also"></a>См. также
 
-- [Интерфейсы поставщика Outlook Social Connector](outlook-social-connector-provider-interfaces.md)
+- [Интерфейсы поставщика социальных соединителей Outlook](outlook-social-connector-provider-interfaces.md)
 

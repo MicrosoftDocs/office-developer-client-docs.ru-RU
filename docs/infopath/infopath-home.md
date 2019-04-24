@@ -8,11 +8,11 @@ ms.assetid: 13aa6de0-3687-4f46-a1b6-a6e3aabf5981
 description: Здесь вы найдете инструкции, технические статьи, справочники и записи блогов, посвященные разработке решений и настройке InfoPath.
 localization_priority: Priority
 ms.openlocfilehash: d5ca854e58b594351ec9665ebc7466d25206b06c
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28712878"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299779"
 ---
 # <a name="infopath"></a>InfoPath
 

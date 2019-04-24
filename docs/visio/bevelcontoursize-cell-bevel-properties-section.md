@@ -1,37 +1,37 @@
 ---
-title: Ячейка BevelContourSize (раздел "Свойства багетной рамки")
+title: BevelContourSize Cell (Bevel Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0ebde552-f1e6-43d0-8704-4e29eb2b1c9d
-description: Определяет размер контур рельефов в пунктах.
-ms.openlocfilehash: 1b7a83674492d5ea8d3fae8150e995fd8511eef0
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет размер контура скоса в пунктах.
+ms.openlocfilehash: bb37c1a9990e1ee4bcca917f065b7872b8ae3bd7
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285128"
 ---
-# <a name="bevelcontoursize-cell-bevel-properties-section"></a>Ячейка BevelContourSize (раздел "Свойства багетной рамки")
+# <a name="bevelcontoursize-cell-bevel-properties-section"></a>BevelContourSize Cell (Bevel Properties Section)
 
-Определяет размер контур рельефов в пунктах. 
+Определяет размер контура скоса в пунктах. 
   
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **BevelContourSize** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelContourSize** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | BevelContourSize  <br/> |
+| Имя ячейки:  <br/> | BevelContourSize  <br/> |
    
-Для получения ссылки на ячейки **BevelContourSize** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **BevelContourSize** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
-| Индекс ячейки:  <br/> |**visBevelContourSize** <br/> |
+| Индекс строки:  <br/> |**Висровбевелпропертиес** <br/> |
+| Индекс ячейки:  <br/> |**Висбевелконтаурсизе** <br/> |
    
 

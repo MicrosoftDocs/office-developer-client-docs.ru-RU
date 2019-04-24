@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e1d86df1-3712-39cc-ad63-4c41f81a8f9d
-description: Возвращает общее число контейнеров, включая фигуры как члена группы (включая вложенные отношения).
-ms.openlocfilehash: eee8fc1b31bafa424c09464a1451c4f30ba9b461
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает общее число контейнеров, включающих фигуру в качестве элемента (включая вложенные отношения).
+ms.openlocfilehash: 377ba8590cbe987a1c1ecc2e7d51fbd7dc027f5a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813479"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282987"
 ---
 # <a name="containercount-function"></a>Функция CONTAINERCOUNT
 
-Возвращает общее число контейнеров, включая фигуры как члена группы (включая вложенные отношения).
+Возвращает общее число контейнеров, включающих фигуру в качестве элемента (включая вложенные отношения).
   
 ## <a name="version-information"></a>Сведения о версии
 
@@ -25,9 +25,9 @@ ms.locfileid: "19813479"
   
 ## <a name="syntax"></a>Синтаксис
 
-CONTAINERCOUNT()
+CONTAINERCOUNT ()
   
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
  **Integer**
   

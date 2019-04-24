@@ -1,37 +1,37 @@
 ---
-title: Добавьте определение для нового пользовательского поля
+title: Добавление определения для нового пользовательского поля
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 183d3b86-4506-44da-bbfc-d6242ad89e57
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a2f9d1623c3733292ebf5c65452ac0d65f577c4d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 2879299d152d8fea7690162ae55a22f337f5fd59
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299071"
 ---
-# <a name="add-a-definition-for-a-new-user-defined-field"></a>Добавьте определение для нового пользовательского поля
+# <a name="add-a-definition-for-a-new-user-defined-field"></a>Добавление определения для нового пользовательского поля
  
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-При добавлении пользовательских полей в элемент Microsoft Outlook вы добавьте определение поля в соответствующем структуру потока [Определение свойства](propertydefinition-stream-structure.md) . Используйте следующую процедуру, чтобы добавить новое определение поля на структуру потока определение свойства. 
+При добавлении поля, определенного пользователем, в элемент Microsoft Outlook вы добавляете определение поля в соответствующую структуру потока [PropertyDefinition](propertydefinition-stream-structure.md) . Используйте следующую процедуру для добавления нового определения поля в структуру потока PropertyDefinition. 
   
-### <a name="to-add-a-definition-for-a-new-user-defined-field"></a>Добавление определения пользовательского поля
+### <a name="to-add-a-definition-for-a-new-user-defined-field"></a>Добавление определения для нового пользовательского поля
 
-1. Копирование существующего определения полей структуры потока определение свойства новый массив определения поля. 
+1. Скопируйте существующие определения полей структуры потока PropertyDefinition в новый массив определений полей. 
     
-2. Если все существующие определения поля, в формате PropDefV1 преобразуйте их в формат PropDefV2. Дополнительные сведения о форматах определения поля [Определение свойства потока](propertydefinition-stream-structure.md) - [Структура потока FieldDefinition](fielddefinition-stream-structure.md)см.
+2. Если существующие определения полей находятся в формате PropDefV1, преобразуйте их в формат PropDefV2. Дополнительные сведения о форматах определений полей приведены в разделе [структура потока PropertyDefinition](propertydefinition-stream-structure.md) и [структура потока FieldDefinition](fielddefinition-stream-structure.md).
     
-3. Создание определения нового поля, выбранные пользователем в формате PropDefV2 и добавить его в массиве.
+3. Создайте определение нового определяемого пользователем поля в формате PropDefV2 и добавьте его в массив.
     
-4. Установите элемент Version структуры потока определение свойства в качестве 0x0103, если элемент Version не были установлены для этого значения.
+4. ПриСвойте элементу Version структуры потока PropertyDefinition значение 0x0103, если для элемента Version не задано это значение.
     
-5. Увеличьте элемент FieldDefinitionCount на 1.
+5. Увеличьте значение элемента Фиелддефинитионкаунт на 1.
     
-6. Сохраните как значение элемента FieldDefinitions массива.
+6. Сохраните массив в качестве значения элемента Фиелддефинитионс.
     
 ## <a name="see-also"></a>См. также
 

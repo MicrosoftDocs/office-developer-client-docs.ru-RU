@@ -1,42 +1,42 @@
 ---
-title: Ячейка PageLockDuplicate (раздел "Свойства страницы")
+title: PageLockDuplicate Cell (Page Properties Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fbaa7d64-06ef-46d6-81d5-9d7af1c14b65
-description: Определяет, будет ли страница может быть реализовано, как логическое значение.
-ms.openlocfilehash: 6cfe8f7a33942f51130ef103b8aba70a5c38b37d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет, можно ли дублировать страницу в качестве логического значения.
+ms.openlocfilehash: 8ce730fcdc2dff5deac44d8c053b84e82a82d4cb
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19814335"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283666"
 ---
-# <a name="pagelockduplicate-cell-page-properties-section"></a>Ячейка PageLockDuplicate (раздел "Свойства страницы")
+# <a name="pagelockduplicate-cell-page-properties-section"></a>PageLockDuplicate Cell (Page Properties Section)
 
-Определяет, будет ли страница может быть реализовано, как логическое значение.
+Определяет, можно ли дублировать страницу в качестве логического значения.
   
 |||
 |:-----|:-----|
-|TRUE  <br/> |**Дублируется** в контекстное меню страницы и метод автоматизации **Page.Duplicate** оба отключены для страницы.  <br/> |
-|FALSE  <br/> |Страница может быть реализовано.  <br/> |
+|TRUE  <br/> |**Дублировать** в контекстном меню страницы и на **странице.** для этой страницы оба метода автоматизации для дубликатов отключены.  <br/> |
+|FALSE  <br/> |Страница может дублироваться.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Для получения ссылки на ячейки **PageLockDuplicate** по имени из другой формулы, по значению атрибута **N** элемент **ячейки** и программы, с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **PageLockDuplicate** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | PageLockDuplicate  <br/> |
+| Имя ячейки:  <br/> | PageLockDuplicate  <br/> |
    
-Для получения ссылки на ячейки **PageLockDuplicate** по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку **PageLockDuplicate** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowPage** <br/> |
-| Индекс ячейки:  <br/> |**visPageLockDuplicate** <br/> |
+| Индекс строки:  <br/> |**Висровпаже** <br/> |
+| Индекс ячейки:  <br/> |**Виспажелоккдупликате** <br/> |
    
 

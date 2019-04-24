@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a8995020-3eaa-2b2c-eca0-dd475de4d06f
 description: Смещение по оси x для кнопки тега действия, связанной с точкой, которая определена ячейками X и Y.
-ms.openlocfilehash: 043d7b198ae5a529c623545fb54ef5aa1d32217d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: f8542d2f3a22b12794d999323d202d7a5bece20b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284974"
 ---
 # <a name="x-justify-cell-action-tags-section"></a>Ячейка X Justify (раздел "Теги действий")
 
@@ -23,10 +23,10 @@ ms.locfileid: "19815189"
 > [!NOTE]
 > В предыдущих версиях Microsoft Visio теги действий назывались смарт-тегами. 
   
-|**Значение**|**Описание**|**Константа автоматизации**|
+|**Value**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| 0  <br/> | Выравнивание по левому краю (по умолчанию).  <br/> |**visSmartTagXJustifyLeft** <br/> |
-| 1  <br/> | Выравнивание по центру.  <br/> |**visSmartTagXJustifyCenter** <br/> |
+| нуль  <br/> | Выравнивание по левому краю (по умолчанию).  <br/> |**visSmartTagXJustifyLeft** <br/> |
+| 1,1  <br/> | Выравнивание по центру.  <br/> |**visSmartTagXJustifyCenter** <br/> |
 | 2  <br/> | Выравнивание по правому краю.  <br/> |**visSmartTagXJustifyRight** <br/> |
    
 ## <a name="remarks"></a>Замечания

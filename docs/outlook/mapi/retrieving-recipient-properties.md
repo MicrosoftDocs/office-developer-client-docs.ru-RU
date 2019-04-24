@@ -1,5 +1,5 @@
 ---
-title: Извлечение свойств получателя
+title: Получение свойств получателя
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -8,25 +8,25 @@ api_type:
 - COM
 ms.assetid: 358f892b-54a7-4213-b3c0-94f28f99716f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: a48c6a8e043062bc6b48e09934fded1dccb507b2
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 38063cebe70b153decce6713ac5fc31d6916dbf6
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22585439"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279596"
 ---
-# <a name="retrieving-recipient-properties"></a>Извлечение свойств получателя
+# <a name="retrieving-recipient-properties"></a>Получение свойств получателя
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Для доступа к одного или нескольких свойств записи адресной книги
+### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a>Доступ к одному или нескольким свойствам записи адресной книги
   
-1. Для каждой записи адресной книги интересов вызовите [IAddrBook::OpenEntry](iaddrbook-openentry.md), передав идентификатор записи конечного пользователя или список рассылки системы обмена сообщениями.
+1. Для каждой интересующей записи адресной книги вызовите [IAddrBook:: OpenEntry](iaddrbook-openentry.md), передав идентификатор записи целевого пользователя обмена сообщениями или списка рассылки.
     
 2. Затем выполните одно из следующих действий.
     
-   - Вызовите метод [IMAPIProp::GetProps](imapiprop-getprops.md) списка рассылки или обмена мгновенными сообщениями пользователя для каждой записи адресной книги интересов, со списком одно или несколько свойств для извлечения. 
+   - ВыЗовите метод [IMAPIProp::](imapiprop-getprops.md) -PROPS для каждой интересующей записи адресной книги со списком одного или нескольких извлекаемых свойств. 
     
-   - Вызовите [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), передав структуру [ADRLIST](adrlist.md) , в котором содержатся все свойства для всех записей желаемую адресной книги. Так как один вызов **PrepareRecips** можно получить сведения о нескольких адрес записей книги, это предпочтительными стратегии, когда вы заинтересованы в нескольких получателей. 
+   - Call [IAddrBook::P репаререЦипс](iaddrbook-preparerecips.md), передающий структуру [ADRLIST](adrlist.md) , в которой хранятся все свойства всех нужных записей адресной книги. Так как один вызов **препаререЦипс** может возвращать сведения о нескольких записях адресных книг, это предпочтительная стратегия, когда вы заинтересованы в нескольких получателях. 
     
 

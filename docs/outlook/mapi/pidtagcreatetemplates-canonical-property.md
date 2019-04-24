@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: d2530009-5de3-4872-a0a5-be1389c4206e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 28611e442f816e4d091cc6b29e2ee69195a63d09
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 08cf1faa0c3cc4cf61e2253b0026361704fdd0e2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22563361"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32269939"
 ---
 # <a name="pidtagcreatetemplates-canonical-property"></a>Каноническое свойство PidTagCreateTemplates
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит объект внедренных в таблице, который содержит идентификаторы записей шаблона поля диалогового окна. 
+Содержит объект внедренной таблицы, который содержит идентификаторы элементов шаблона диалогового окна. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CREATE_TEMPLATES  <br/> |
+|Связанные свойства:  <br/> |ПР_КРЕАТЕ_ТЕМПЛАТЕС  <br/> |
 |Идентификатор:  <br/> |0x3604  <br/> |
-|Тип данных:  <br/> |PT_OBJECT  <br/> |
+|Тип данных:  <br/> |ПТ_ОБЖЕКТ  <br/> |
 |Область:  <br/> |Адресная книга  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Чтобы узнать, какой шаблон объекты могут быть созданы в контейнере, вызовите метод [IMAPIProp::OpenProperty](imapiprop-openproperty.md) на это свойство. Полученный объект является таблицей одноразовых, задающей идентификаторы записей для всех шаблонов, которые можно создавать внутри контейнера. 
+Чтобы узнать, какие объекты шаблонов можно создать в контейнере, вызовите метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) для этого свойства. Полученный объект является одноразовой таблицей, которая предоставляет идентификаторы записей для всех шаблонов, которые можно создать в контейнере. 
   
-Для создания объекта шаблона, вызовите метод **CreateEntry** объекта-контейнера на значения столбцов **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) в одноразовых TABLE.
+Чтобы создать объекты шаблона, вызовите метод **креатинтри** объекта Container для значений столбца **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)) из таблицы с отправителями.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -61,7 +61,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

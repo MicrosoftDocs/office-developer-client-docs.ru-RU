@@ -1,28 +1,28 @@
 ---
-title: '[Ссылка access VBA]'
+title: '[Справочник по VBA для Access]'
 ms.date: 01/01/1900
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2a7b2d1c-35c5-41b0-920c-d78606e71ec1
-description: '{insert summary}'
-ms.openlocfilehash: b4bd45b06536a59b96cf03f66ae151c41ec6ee4d
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: '{вставьте сводку}'
+ms.openlocfilehash: d1d70acd372dc4a26cd09ffe2fce018f71bf1572
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806913"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280370"
 ---
-# <a name="access-vba-reference"></a>[Ссылка access VBA]
+# <a name="access-vba-reference"></a>[Справочник по VBA для Access]
 
 {вставьте сводку}
   
 {вставьте введение}
   
-## <a name="insert-section-title-text"></a>{вставьте текст заголовка раздела}
+## <a name="insert-section-title-text"></a>{insert section title text}
 
 {insert body text}
   
-### <a name="insert-subsection-title-text"></a>{вставьте текст подзаголовка раздела}
+### <a name="insert-subsection-title-text"></a>{insert subsection title text}
 
 {insert body text}
   

@@ -1,31 +1,31 @@
 ---
-title: Элемент Trigger ('Visio XML»)
+title: Элемент Trigger ("Visio XML")
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d897d2d1-25ba-48d7-b87e-d3c533d88c15
-description: Инструкции для Microsoft Visio для пересчета отношение между частями документа в файл Visio.
+description: В этой статье приведены инструкции по пересчету связей между частями документа в файле Visio в Microsoft Visio.
 ms.openlocfilehash: a590ec1f9c19270f75d4d9e77804c0a7b45157b6
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385440"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280852"
 ---
-# <a name="trigger-element-visio-xml"></a>Элемент Trigger ('Visio XML»)
+# <a name="trigger-element-visio-xml"></a>Элемент Trigger ("Visio XML")
 
-Инструкции для Microsoft Visio для пересчета отношение между частями документа в файл Visio.
+В этой статье приведены инструкции по пересчету связей между частями документа в файле Visio в Microsoft Visio.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Тригжер_типе](trigger_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |главные # .xml, страницы # .xml  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,52 +42,52 @@ ms.locfileid: "25385440"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Определяет элементы ячеек, которые содержат сведения для определения фигуры.  <br/> |
-|[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |Определяет структуру DocumentSheet.  <br/> |
-|[Таблица стилей](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Представляет стиль, определенный в документе.  <br/> |
-|[PageSheet (Master_Type complexType)](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Задает свойства страницы рисунка, связанного с шаблоном.  <br/> |
-|[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Задает свойства страницы рисунка, связанного с странице документа.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Шапешит_типе](shapesheet_type-complextypevisio-xml.md) <br/> |Задает элементы Cell, которые предоставляют сведения для определения фигуры.  <br/> |
+|[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Документшит_типе](documentsheet_type-complextypevisio-xml.md) <br/> |Определяет структуру DocumentSheet.  <br/> |
+|[Применение](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[Стилешит_типе](stylesheets_type-complextypevisio-xml.md) <br/> |Представляет стиль, определенный в документе.  <br/> |
+|[PageSheet (Мастер_типе complexType)](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[Пажешит_типе](pagesheet_type-complextypevisio-xml.md) <br/> |Задает свойства страницы документа, связанной с образцом.  <br/> |
+|[PageSheet (Паже_типе complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[Пажешит_типе](pagesheet_type-complextypevisio-xml.md) <br/> |Задает свойства страницы документа, связанной со страницей документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-trigger_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает страницу ссылку таблицы ссылок в документе.  <br/> |
+|[RefBy](refby-element-trigger_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу таблицы ссылок в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|N  <br/> |XSD:String  <br/> |Обязательный  <br/> |Имя формулы, которая вызывается при активации триггера.  <br/> В разделе Примечания.  <br/> |Значения типа xsd:string.  <br/> |
+|N  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Имя формулы, вызываемой при активации триггера.  <br/> Ознакомьтесь с разделом "Примечания".  <br/> |Значения типа String: XSD.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Атрибут **N** этого элемента **триггер** должен быть один из ограниченный набор значений, которые соответствуют триггер инструкции. Обратитесь к таблице ниже для определения значений атрибутов **N** , разрешенных для этого элемента **триггер** . 
+Атрибут **N** этого элемента **Trigger** должен быть одним из ограниченных наборов значений, соответствующих инструкциям триггера. Используйте приведенную ниже таблицу, чтобы определить значения атрибута **N** , разрешенные для этого элемента **Trigger** . 
   
 |**Значение**|**Родительский элемент**|**Описание**|
 |:-----|:-----|:-----|
-|CategoryChanged  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **HASCATEGORIES** .  <br/> |
-|RecalcBkgPageName  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице, когда есть ссылка кросс часть, с помощью функции **BKGPAGENAME**  <br/> |
-|RecalcColor  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице каждый раз, когда странице или к любому его автономные фигур используется функция **RGB** .  <br/> |
-|RecalcCreateDT  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе, когда есть ссылка кросс часть, с помощью функции **DOCCREATION** .  <br/> |
-|RecalcData1  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **бд1** .  <br/> |
-|RecalcData2  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **бд2** .  <br/> |
-|RecalcData3  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **DATA3** .  <br/> |
-|RecalcEditDT  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе, когда есть ссылка кросс часть, с помощью функции **DOCLASTEDIT** .  <br/> |
-|RecalcID  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **идентификатор** .  <br/> |
-|RecalcMasterName  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **ИМЯОБРАЗЦА** .  <br/> |
-|RecalcName  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс части с помощью **ИМЕНИ** функции.  <br/> |
-|RecalcNowAndRand  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице, если страницу или какие-либо его содержащего фигур **ТЕПЕРЬ** или функция **РЭНД** .  <br/> |
-|RecalcPageCount  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе, когда есть ссылка кросс часть, с помощью функции **PAGECOUNT** .  <br/> |
-|RecalcPageName  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> [Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **ИМЯ_СТРАНИЦЫ** .  <br/> |
-|RecalcPageNum  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице, когда есть ссылка кросс часть, с помощью функции **PAGENUMBER** .  <br/> |
-|RecalcPath  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры при получении нескольких частей ссылки, с помощью функции **POINTALONGPATH**, **PATHLENGTH**или **PATHSEGMENT** существует.  <br/> |
-|RecalcPrintDT  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе, когда есть ссылка кросс часть, с помощью функции **DOCLASTPRINT** .  <br/> |
-|RecalcSaveDT  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе, когда есть ссылка кросс часть, с помощью функции **DOCLASTSAVE** .  <br/> |
-|RecalcSummary  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Существует триггер, который отображается в документе, когда ссылка кросс части с помощью функции **категории**, **СОЗДАТЕЛЯ**, **Описание**, **ключевые слова**, **Тема**или **заголовок** .  <br/> |
-|RecalcType  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **ТИПА** .  <br/> |
-|RelChanged  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуры, когда есть ссылка кросс часть, с помощью функции **CONTAINERMEMBERCOUNT** .  <br/> |
-|ZOrderChanged  <br/> |[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице, когда есть ссылка кросс часть, с помощью функции **CONTAINERSHEETREF** .  <br/> |
-|Path  <br/> |[Фигура](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице при получении нескольких частей ссылки, с помощью функции **POINTALONGPATH**, **PATHLENGTH**или **PATHSEGMENT** существует.  <br/> |
+|Категоричанжед  <br/> |[PageSheet (Паже_типе complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **хаскатегориес** .  <br/> |
+|Рекалкбкгпаженаме  <br/> |[PageSheet (Паже_типе complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице при наличии ссылки между частями с помощью функции **BKGPAGENAME**  <br/> |
+|Рекалкколор  <br/> |[PageSheet (Паже_типе complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице, когда страница или любая из содержащихся в ней фигур используют функцию **RGB** .  <br/> |
+|Рекалккреатедт  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе при наличии ссылки между частями с помощью функции **DOCCREATION** .  <br/> |
+|RecalcData1  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **файл1** .  <br/> |
+|RecalcData2  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **файл2** .  <br/> |
+|RecalcData3  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **DATA3** .  <br/> |
+|Рекалцедитдт  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе при наличии ссылки между частями с помощью функции **DOCLASTEDIT** .  <br/> |
+|РекалЦид  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **ID** .  <br/> |
+|Рекалкмастернаме  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **MASTERNAME** .  <br/> |
+|Рекалкнаме  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **Name** .  <br/> |
+|Рекалкновандранд  <br/> |[PageSheet (Паже_типе complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице, если либо страница, либо содержащаяся в ней фигуре, **** имеют функцию Rand или функция **Rand** .  <br/> |
+|Рекалкпажекаунт  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе при наличии ссылки между частями с помощью функции **PAGECOUNT** .  <br/> |
+|Рекалкпаженаме  <br/> |[PageSheet (Паже_типе complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> [Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **PAGENAME** .  <br/> |
+|Рекалкпаженум  <br/> |[PageSheet (Паже_типе complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице при наличии ссылки между частями с помощью функции **PAGENUMBER** .  <br/> |
+|Рекалкпас  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **POINTALONGPATH**, **PATHLENGTH**или **PATHSEGMENT** .  <br/> |
+|Рекалкпринтдт  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе при наличии ссылки между частями с помощью функции **DOCLASTPRINT** .  <br/> |
+|Рекалксаведт  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе при наличии ссылки между частями с помощью функции **DOCLASTSAVE** .  <br/> |
+|Рекалксуммари  <br/> |[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |Триггер, который отображается в документе при наличии ссылки на несколько частей с использованием **категории**, **создателя**, **описания**, **ключевых слов**, **темы**или названия функции **Title** .  <br/> |
+|Рекалктипе  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **Type** .  <br/> |
+|Релчанжед  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **CONTAINERMEMBERCOUNT** .  <br/> |
+|Зордерчанжед  <br/> |[PageSheet (Паже_типе complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице при наличии ссылки между частями с помощью функции **CONTAINERSHEETREF** .  <br/> |
+|Path  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице при наличии ссылки на несколько частей с помощью функции **POINTALONGPATH**, **PATHLENGTH**или **PATHSEGMENT** .  <br/> |
    
 

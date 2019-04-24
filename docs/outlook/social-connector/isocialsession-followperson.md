@@ -1,5 +1,5 @@
 ---
-title: ISocialSessionFollowPerson
+title: ИсоЦиалсессионфолловперсон
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de7f56e2-c131-4955-b945-0a72043e0f5a
-description: Добавляет пользователя, определенного параметром emailAddress как friend для пользователя при входе в социальных сетях.
-ms.openlocfilehash: 6dc289801c99f2f3bf1647e9c98c072d2f53d066
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Добавляет пользователя, указанного параметром emailAddress, в качестве друга для пользователя, выполнившего вход в социальной сети.
+ms.openlocfilehash: 849085bd40788039a96ac159fd76a5e252395916
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812741"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285366"
 ---
 # <a name="isocialsessionfollowperson"></a>ISocialSession::FollowPerson
 
-Добавляет пользователя, определенного параметром _emailAddress_ как friend для пользователя при входе в социальных сетях. 
+Добавляет пользователя, указанного параметром _EmailAddress_ , в качестве друга для пользователя, выполнившего вход в социальной сети. 
   
 ```cpp
 HRESULT _stdcall FollowPerson([in] BSTR emailAddress);
@@ -27,15 +27,15 @@ HRESULT _stdcall FollowPerson([in] BSTR emailAddress);
 
 _emailAddress_
   
-> [in] Строка, содержащая адрес электронной почты пользователя.
+> возврата Строка, содержащая адрес электронной почты человека.
     
 ## <a name="remarks"></a>Замечания
 
-Параметр _emailAddress_ должен быть допустимым адресом SMTP. Если аргумент для _emailAddress_ не соответствует пользователя в сети поставщика Outlook Social Connector (OSC) Выбор метода **followPerson** **значение true** в **возможности**, поставщик должен возвращать OSC_E_NOT_FOUND Ошибка. Если поставщик значение **followPerson** **значение false** в **возможности**, поставщик должен возвращать ошибку OSC_E_FAIL.
+Параметр _EmailAddress_ должен быть ДОПУСТИМЫМ SMTP-адресом. Если поставщик Outlook Social Connector (OSC) установил для метода **фолловперсон** **значение true** в функциях ****, а аргумент для _EmailAddress_ не соответствует пользователю в сети, поставщик должен возвратить оск_е_нот_фаунд ошибкой. Если у поставщика для **фолловперсон** задано **значение false** в возможностях, поставщик должен возвратить ошибку оск_е_фаил. ****
   
-Если поставщик реализует интерфейс [ISocialSession2](isocialsession2iunknown.md) и установил **followPerson** **значение true** в **возможности**, OSC выполняется звонок [ISocialSession2::FollowPersonEx](isocialsession2-followpersonex.md) вместо **ISocialSession::FollowPerson **. Если поставщик не реализует интерфейс **ISocialSession2** или **ISocialSession2::FollowPersonEx** возвращает OSC_E_NOTIMPL ошибка, OSC выполняется звонок **ISocialSession::FollowPerson** до тех пор, пока поставщик установил ** followPerson** как **true** в **возможности**. Сведения о кодах ошибок см. в статье [Коды ошибок поставщика Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
+Если поставщик реализует интерфейс [ISocialSession2](isocialsession2iunknown.md) и присвоить свойству **фолловперсон** **значение true** в возможностях, OSC вызывает [ISocialSession2:: фолловперсонекс](isocialsession2-followpersonex.md) вместо **** **настроенный ISocialSession:: фолловперсон **. Если поставщик не реализует интерфейс **ISocialSession2** , или **ISocialSession2:: фолловперсонекс** возвращает сообщение об ошибке Оск_е_нотимпл, OSC вызывает **настроенный ISocialSession:: фолловперсон** , если для поставщика задано значение ** Фолловперсон** **имеет значение true** в возможностях. **** Сведения о кодах ошибок см. в статье [Коды ошибок поставщика Outlook Social Connector](outlook-social-connector-provider-error-codes.md).
   
-В решение о ли для реализации **ISocalSession::FollowPerson** или **ISocialSession2::FollowPersonEx**, следует ли поставщик должен другие методы в **ISocialSession2**и ли вы можете использовать _ djsplayName_ параметр в **FollowPersonEx**.
+Принимая решение о том, следует ли реализовать **исокалсессион:: фолловперсон** или **ISocialSession2:: фолловперсонекс**, следует определить, требуются ли поставщику другие методы в **ISocialSession2**, а также можно ли использовать _ параметр Джсплайнаме_ в **фолловперсонекс**.
   
 ## <a name="see-also"></a>См. также
 

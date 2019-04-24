@@ -13,23 +13,23 @@ api_type:
 ms.assetid: 4c327336-4ce0-490d-9016-945305f18b16
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a06c94cf2c46fef443d5a9d90cb9a305a3d0b073
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25389053"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285135"
 ---
 # <a name="pidtaginternetcodepage-canonical-property"></a>Каноническое свойство PidTagInternetCodepage
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает кодовую страницу, используемую для свойства **PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)) или **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)).
+Указывает кодовую страницу, используемую для свойств **пр_боди** ([PidTagBody](pidtagbody-canonical-property.md)) или **пр_боди_хтмл** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_INTERNET_CPID  <br/> |
+|Связанные свойства:  <br/> |ПР_ИНТЕРНЕТ_КПИД  <br/> |
 |Идентификатор:  <br/> |0x3FDE  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Разное  <br/> |
@@ -38,23 +38,23 @@ ms.locfileid: "25389053"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на связанные спецификаций протокола Exchange Server.
+> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Обрабатывает объекты сообщения и вложения.
+> Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -62,7 +62,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

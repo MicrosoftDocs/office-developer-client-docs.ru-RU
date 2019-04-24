@@ -1,5 +1,5 @@
 ---
-title: ISocialSessionGetLogonUrl
+title: ИсоЦиалсессионжетлогонурл
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d61bab07-acb3-433b-8783-c3fe110a5582
-description: Получает строку, представляющую URL-адрес, используемый для представления формы на основе браузера для пользователя в ходе проверки подлинности web.
-ms.openlocfilehash: 343919f194b238fc519bb8f6d808b44a8ab6e7b9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Получает строку, представляющую URL-адрес, используемый для представления формы на основе браузера пользователю во время веб-проверки подлинности.
+ms.openlocfilehash: 83867282922ea136b9673609cc2ba2f1a206f6ab
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812736"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285380"
 ---
 # <a name="isocialsessiongetlogonurl"></a>ISocialSession::GetLogonUrl
 
-Получает строку, представляющую URL-адрес, используемый для представления формы на основе браузера для пользователя в ходе проверки подлинности web.
+Получает строку, представляющую URL-адрес, используемый для представления формы на основе браузера пользователю во время веб-проверки подлинности.
   
 ```cpp
 HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
@@ -25,13 +25,13 @@ HRESULT _stdcall GetLogonUrl([out, retval] BSTR* url);
 
 ## <a name="parameters"></a>Параметры
 
-_URL-адрес_
+_url_
   
-> [out] Строка, содержащая URL-адрес для формы, используемые в веб-проверка подлинности.
+> вышли Строка, содержащая URL-адрес для формы, используемой при веб-проверке подлинности.
     
 ## <a name="remarks"></a>Замечания
 
-После форма будет предоставлен пользователю, метод [ISocialSession::LogonWeb](isocialsession-logonweb.md) вызывается с пустая строка для параметра _connectIn_ . 
+После того как форма представлена пользователю, метод [настроенный ISocialSession:: логонвеб](isocialsession-logonweb.md) вызывается с пустой строкой для параметра _Connect_ . 
   
 ## <a name="see-also"></a>См. также
 

@@ -12,45 +12,45 @@ api_type:
 - HeaderDef
 ms.assetid: f8270ef2-56d4-4b47-bdda-a39c966bbcba
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: fb0b66cbf0de1ac351bb2026a48e0154de779206
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b396cd326dd25fd72346f9f8037e8a712b84a196
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571194"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278874"
 ---
 # <a name="pidtagmailpermission-canonical-property"></a>Каноническое свойство PidTagMailPermission
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если пользователь обмена сообщениями может отправлять и получать сообщения. 
+Содержит значение TRUE, если пользователю обмена сообщениями разрешено отправлять и получать сообщения. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_MAIL_PERMISSION  <br/> |
+|Связанные свойства:  <br/> |ПР_МАИЛ_ПЕРМИССИОН  <br/> |
 |Идентификатор:  <br/> |0x3A0E  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Address  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Если это свойство не задано, MAPI обрабатывает ее как имеющий значение TRUE. 
+Если это свойство не задано, MAPI рассматривает его как имеющий значение TRUE. 
   
-Этому свойству присвоено значение FALSE в каталоге организации которых некоторые записи не включенной поддержкой электронной почты. 
+Установите для этого свойства значение FALSE в корпоративном каталоге, в котором для некоторых записей не включена поддержка электронной почты. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойств указано, что связанными свойствами.
+> Содержит определения свойств, перечисленных как связанные свойства.
     
 ## <a name="see-also"></a>См. также
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

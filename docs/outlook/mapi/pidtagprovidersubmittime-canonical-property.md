@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 9e5161d9-fefe-4a12-b7f7-5600f1d2e95b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: e08b56fcfea38bf65e8628acfa481716554e2c01
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c5e840250da7ba3b95150f2e83e1eb08b0c61ab5
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22571614"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286424"
 ---
 # <a name="pidtagprovidersubmittime-canonical-property"></a>Каноническое свойство PidTagProviderSubmitTime
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит дату и время, для поставщика транспорта сообщение системы обмена сообщениями.
+Содержит дату и время, когда поставщик транспорта передал сообщение в базовую систему обмена сообщениями.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PROVIDER_SUBMIT_TIME  <br/> |
+|Связанные свойства:  <br/> |ПР_ПРОВИДЕР_СУБМИТ_ТИМЕ  <br/> |
 |Идентификатор:  <br/> |0x0048  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство задается исходящей поставщика транспорта во время отправки сообщения.
+Это свойство задается поставщиком транспорта исходящей почты во время отправки сообщения.
   
-Это свойство соответствует атрибуту X.400 конверт отправки каждого сообщения. 
+Это свойство соответствует атрибуту конверта отправки X. 400 для каждого сообщения. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

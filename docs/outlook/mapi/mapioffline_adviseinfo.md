@@ -8,22 +8,22 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 20a46c69-d6ae-7d17-f8af-12952867d342
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 82869fa479ebe8a4d7b1881cec5d5c243b7d7957
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 3cb110fdcbbd88e494c44ba2ed73cc26674638ca
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22565097"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270037"
 ---
 # <a name="mapiofflineadviseinfo"></a>MAPIOFFLINE_ADVISEINFO
  
 **Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет сведения о **[IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)** для регистрации обратного вызова для объекта в автономном режиме. 
+Предоставляет сведения для **[имапиоффлинемгр:: Advise](imapiofflinemgr-advise.md)** для регистрации обратного вызова для автономного объекта. 
   
 ## <a name="quick-info"></a>Краткие сведения
 
-В разделе **IMAPIOfflineMgr::Advise**. 
+Обратитесь к разделу **имапиоффлинемгр:: Advise**. 
   
 ```cpp
 typedef struct 
@@ -37,28 +37,28 @@ typedef struct
 } MAPIOFFLINE_ADVISEINFO;
 ```
 
-## <a name="members"></a>Элементы
+## <a name="members"></a>Members
 
-_ulSize_: размер **MAPIOFFLINE_ADVISEINFO**. 
+_улсизе_: размер **мапиоффлине_адвисеинфо**. 
     
-_ulClientToken_: маркер, определенные в клиента о обратного вызова. Это член *ulClientToken* структуры **[MAPIOFFLINE_NOTIFY](mapioffline_notify.md)** , переданной в **[IMAPIOfflineNotify::Notify](imapiofflinenotify-notify.md)**. 
+_улклиенттокен_: маркер, определяемый клиентом для обратного вызова. Это член *улклиенттокен* структуры **[мапиоффлине_нотифи](mapioffline_notify.md)** , переданный в **[имапиоффлиненотифи:: notify](imapiofflinenotify-notify.md)**. 
     
-_CallbackType_: тип обратного вызова, чтобы сделать.
+_Каллбакктипе_: тип обратного вызова, который требуется выполнить.
     
-   -  MAPIOFFLINE_CALLBACK_TYPE_NOTIFY 
+   -  МАПИОФФЛИНЕ_КАЛЛБАКК_ТИПЕ_НОТИФИ 
     
-   - Тип обратного вызова является уведомлений. Это единственный поддерживаемый тип обратного вызова.  *pCallback* необходимо указать интерфейс **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+   - Тип обратного вызова — уведомление. Это единственный поддерживаемый тип обратного вызова.  *пкаллбакк* должен указывать на интерфейс **[имапиоффлиненотифи](imapiofflinenotifyiunknown.md)**. 
     
-_pCallback_: интерфейс для обратного вызова. Это реализация клиента **[IMAPIOfflineNotify](imapiofflinenotifyiunknown.md)**. 
+_пкаллбакк_: интерфейс, используемый для обратного вызова. Это реализация **[имапиоффлиненотифи](imapiofflinenotifyiunknown.md)** клиентом. 
     
-_ulAdviseTypes_: типы уведомлений, которые определяются условие с уведомлением о том. Единственным поддерживаемым типом является MAPIOFFLINE_ADVISE_TYPE_STATECHANGE.
+_уладвисетипес_: типы уведомлений, определяемые условием для рекомендации. Единственный поддерживаемый тип — МАПИОФФЛИНЕ_АДВИСЕ_ТИПЕ_СТАТЕЧАНЖЕ.
     
-_ulStateMask_: MAPIOFFLINE_STATE_ALL — это единственный поддерживаемый состояние.
+_улстатемаск_: единственное поддерживаемое состояние — мапиоффлине_стате_алл.
     
 ## <a name="see-also"></a>См. также
 
 - [IMAPIOfflineMgr::Advise](imapiofflinemgr-advise.md)
 - [Об API автономного режима](about-the-offline-state-api.md) 
-- [Константы MAPI](mapi-constants.md) 
+- [��������� MAPI](mapi-constants.md) 
 - [MAPIOFFLINE_CALLBACK_TYPE](mapioffline_callback_type.md)
 

@@ -8,28 +8,28 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 325b6b47-b6a6-503e-e9bb-65ef7b73d659
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 91a56acf4afc7453496fa89becd905184101c910
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 8e8a6ac07e14af52337b6e280fa58274df453c65
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22591396"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299708"
 ---
 # <a name="getdefcachedmode"></a>GetDefCachedMode
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Указывает, включена ли режима кэширования данных Exchange для закрытого хранилища Exchange и ли это требование политики.
+Указывает, включен ли режим кэширования данных Exchange для частного хранилища Exchange и является ли он принудительно примененным с помощью политики.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Экспортировать с:  <br/> |Msmapi32.dll  <br/> |
-|Вызывается:  <br/> |Клиент  <br/> |
-|Реализованный:  <br/> |Outlook  <br/> |
+|Экспортировано:  <br/> |MSMapi32. dll  <br/> |
+|Вызывающая сторона:  <br/> |Клиент  <br/> |
+|Реализовано в:  <br/> |Outlook  <br/> |
    
 ```cpp
 BOOL GetDefCachedMode(BOOL *pfPolicy); 
@@ -38,17 +38,17 @@ BOOL GetDefCachedMode(BOOL *pfPolicy);
 
 ## <a name="parameters"></a>Параметры
 
- _pfPolicy_
+ _Пфполици_
   
-> [out] **значение true,** Если возвращаемое значение обеспечивается политики **значение false** , если он не установлен. 
+> вышли **имеет значение true** , если возвращаемое значение принудительно применяется политикой, в противном случае — **false** . 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
- **значение true**
+ **true**
   
-- Кэширование.
+- Включено кэширование.
     
- **false**
+ **значения**
   
 - Кэширование отключено.
     

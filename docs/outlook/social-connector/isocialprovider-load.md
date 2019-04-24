@@ -1,5 +1,5 @@
 ---
-title: ISocialProviderLoad
+title: ИсоЦиалпровидерлоад
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,17 +7,17 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 6356f7bf-e3a1-4294-ad6e-df77bdd0356c
-description: Инициализирует поставщика Outlook Social Connector (OSC).
+description: Инициализирует поставщик Outlook Social Connector (OSC).
 ms.openlocfilehash: 73d14f66785417e80448f622256d0b9cb059b83c
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25385832"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285762"
 ---
 # <a name="isocialproviderload"></a>ISocialProvider::Load
 
-Инициализирует поставщика Outlook Social Connector (OSC).
+Инициализирует поставщик Outlook Social Connector (OSC).
   
 ```cpp
 HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR languageTag);
@@ -25,17 +25,17 @@ HRESULT _stdcall Load([in] BSTR socialProviderInterfaceVersion, [in] BSTR langua
 
 ## <a name="parameters"></a>Параметры
 
-_socialProviderInterfaceVersion_
+_СоЦиалпровидеринтерфацеверсион_
   
-> [in] Версия интерфейсы поставщика OSC, ожидаемый OSC.
+> возврата Версия интерфейсов поставщика OSC, ожидаемых для OSC.
     
-_languageTag_
+_Лангуажетаг_
   
-> [in] Тег языка IETF Internet Engineering Task Force (), определенные в [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) и [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt), представляющий текущий язык пользовательского интерфейса Outlook.
+> возврата Тег языка IETF, определяемый [[RFC4646]](https://www.ietf.org/rfc/rfc4646.txt) и [[RFC4647]](https://www.ietf.org/rfc/rfc4647.txt), который представляет текущий язык пользовательского интерфейса Outlook.
     
 ## <a name="remarks"></a>Замечания
 
-Версия формата для параметра _socialProviderInterfaceVersion_ составляет _X_. _xxxx_, где _X_ — это основной версии и _xxxx_ — это дополнительный номер версии OSC. Office 2013 Проверьте основной номер версии, 15. 
+Формат версии для параметра _соЦиалпровидеринтерфацеверсион_ — _X_. _XXXX_, где _X_ — это основная версия, а _XXXX_ — вспомогательная версия OSC. Для Office 2013 проверьте наличие основной версии 15. 
   
 ## <a name="see-also"></a>См. также
 

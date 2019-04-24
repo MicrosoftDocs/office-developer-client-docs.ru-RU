@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 32c80bcd-a5d6-af32-38ba-9ca9ff148b99
 description: Большинство элементов представления, необходимых в конструкторе форм Microsoft InfoPath, может быть создано пользователем. Если необходим пользовательский элемент представления, который не может создать InfoPath, можно вручную изменить преобразование XSL (XSLT), используемое InfoPath для создания представления. Чтобы сделать это, извлеките форму в соответствующие файлы компонентов при помощи команды Экспортировать исходные файлы на вкладке Опубликовать приложения Microsoft Office Backstage, далее измените преобразование в предпочитаемом редакторе XML, например Microsoft Visual Studio или Блокноте.
-ms.openlocfilehash: 796115c99c81fc2a77812d91d317f5ce9ed54e5f
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: a61980191dbedeec33b06ad8173ce50126fea781
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807601"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299905"
 ---
 # <a name="using-custom-xslt-in-infopath-form-templates"></a>Использование пользовательского XSLT-кода в шаблонах форм InfoPath
 

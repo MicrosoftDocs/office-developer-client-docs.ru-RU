@@ -8,18 +8,18 @@ f1_keywords:
 - Vis_DSS.chm82253222
 localization_priority: Normal
 ms.assetid: 30384098-09e9-95a3-aefd-9bda3ff1b699
-description: Возвращает текст из поля автора в свойствах документа.
-ms.openlocfilehash: 9608c1cd4da0d3e60e15aa0b67b4d4ebf80cb802
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает текст из поля "Автор" в свойствах документа.
+ms.openlocfilehash: d87543391f3880ac42253791e3720bdd57805bdc
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813509"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282945"
 ---
 # <a name="creator-function"></a>Функция CREATOR
 
-Возвращает текст из поля **автора** в свойствах документа. 
+Возвращает текст из поля " **Автор** " в свойствах документа. 
   
-(CREATOR) 
+CREATOR () 
   
 

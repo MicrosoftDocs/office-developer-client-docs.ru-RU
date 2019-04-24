@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: e408fe16-a2fc-4714-895d-31b8c3763e3e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 2297f7fa17eb25752e0acec2a5287dfaef77e4af
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6c1d0d3a433c98b97d51d507885f6a83712456d4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567267"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32281601"
 ---
 # <a name="cbmtsid"></a>CbMTSID
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Вычисляет число байтов в имеющуюся структуру [MTSID](mtsid.md) . 
+Вычисляет количество байтов в существующей структуре [мтсид](mtsid.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**MTSID** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**MTSID** <br/> |
    
 ```cpp
 CbMTSID (_lpentry)
@@ -38,9 +38,9 @@ CbMTSID (_lpentry)
 
 ## <a name="parameters"></a>Параметры
 
- __lpentry_
+ __лпентри_
   
-> Указатель на структуру существующих **MTSID** . 
+> Указатель на существующую структуру **мтсид** . 
     
 ## <a name="see-also"></a>См. также
 

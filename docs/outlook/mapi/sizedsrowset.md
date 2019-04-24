@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: 419e2c6d-ac3b-46c6-9a12-33f51f6d7f12
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: b8c70c8b13025f196fdebb2956939bec840a96f5
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: cb1e19a3f3703dc4943a5f6c322f1c8b429da5fa
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22583941"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282644"
 ---
 # <a name="sizedsrowset"></a>SizedSRowSet
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает структуру [SRowSet](srowset.md) именованные, содержащий указанное число строк. 
+Создает именованную структуру [SRowSet](srowset.md) , которая содержит указанное количество строк. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SRowSet** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SRowSet** <br/> |
    
 ```cpp
 SizedSRowSet (_crow, _name)
@@ -36,17 +36,17 @@ SizedSRowSet (_crow, _name)
 
 ## <a name="parameters"></a>Параметры
 
-__crow_
+__CRowset_
   
-> Количество строк должны быть включены в новой структуры.
+> Количество строк, включаемых в новую структуру.
     
-_имя_
+__имя_
   
 > Имя для новой структуры.
     
 ## <a name="remarks"></a>Замечания
 
-Для применения новой структуры, результаты из макроса **SizedSRowSet** как указатель на структуру **SRowSet** , выполните следующие приведения. 
+Чтобы использовать новую структуру, полученную из макроса **сизедсровсет** в качестве указателя на структуру **SRowSet** , выполните приведенные ниже действия. 
   
 ```cpp
 lpSRowSet = (LPSRowSet) &SizedSRowSet;

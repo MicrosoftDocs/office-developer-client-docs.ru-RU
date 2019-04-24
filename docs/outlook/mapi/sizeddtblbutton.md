@@ -12,25 +12,25 @@ api_type:
 - COM
 ms.assetid: ee73ced9-14d8-4a30-9b9f-d54ed9c3a454
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: dc4d3a7a827e728dfd6725ac269350067d4530cb
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: a7d62d29638ae234667eb33a8103fb3a716afc32
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22590346"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282763"
 ---
 # <a name="sizeddtblbutton"></a>SizedDtblButton
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает именованный структуру, которая включает в себя структуры [DTBLBUTTON](dtblbutton.md) для описания кнопки и метки заданной длины. 
+Создает именованную структуру, включающую структуру [дтблбуттон](dtblbutton.md) для описания кнопки и метки заданной длины. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**DTBLBUTTON** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**DTBLBUTTON** <br/> |
    
 ```cpp
 SizedDtblButton (n, u)
@@ -40,7 +40,7 @@ SizedDtblButton (n, u)
 
  _n_
   
-> Длина метки должны быть включены в новой структуры.
+> Длина метки, которая должна быть включена в новую структуру.
     
  _u_
   
@@ -48,7 +48,7 @@ SizedDtblButton (n, u)
     
 ## <a name="remarks"></a>Замечания
 
-Новая структура создается с следующие элементы:
+Новая структура создается со следующими элементами:
   
 ```
 DTBLBUTTON dtblbutton;

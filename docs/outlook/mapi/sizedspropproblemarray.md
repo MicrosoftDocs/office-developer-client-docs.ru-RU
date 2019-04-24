@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: 2fc3febb-8c69-4315-a112-a28eee98013d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: bbced8412c2c3438c58af74ef072a46606b59ddc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: b3818e5e1429c7e2b7d5f7533db733ba29e672c8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22594616"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282693"
 ---
 # <a name="sizedspropproblemarray"></a>SizedSPropProblemArray
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает структуру [SPropProblemArray](spropproblemarray.md) именованные, содержащий указанное число [SPropProblem](spropproblem.md) структуры. 
+Создает именованную структуру [спроппроблемаррай](spropproblemarray.md) , содержащую указанное число структур [спроппроблем](spropproblem.md) . 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SPropProblemArray** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
 SizedSPropProblemArray(_cprob, _name)
@@ -36,17 +36,17 @@ SizedSPropProblemArray(_cprob, _name)
 
 ## <a name="parameters"></a>Параметры
 
-__cprob_
+__кпроб_
   
-> Число структур **SPropProblem** должны быть включены в новой структуры. 
+> Количество структур **спроппроблем** , включаемых в новую структуру. 
     
-_имя_
+__имя_
   
 > Имя для новой структуры.
     
 ## <a name="remarks"></a>Замечания
 
-Используйте макрос **SizedSPropProblemArray** для создания массива проблема свойства с помощью явных границы. Для применения новой структуры, результаты из макроса **SizedSPropProblemArray** как указатель на структуру **SPropProblemArray** , выполните следующие приведения. 
+С помощью макроса **сизедспроппроблемаррай** создайте массив проблем свойств с явными границами. Чтобы использовать новую структуру, полученную из макроса **сизедспроппроблемаррай** в качестве указателя на структуру **спроппроблемаррай** , выполните приведенные ниже действия. 
   
 ```cpp
 lpPropProbArray = (LPSPropProblemArray) &SizedSPropProblemArray;

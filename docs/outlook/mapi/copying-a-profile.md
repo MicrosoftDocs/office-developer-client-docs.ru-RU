@@ -8,31 +8,31 @@ api_type:
 - COM
 ms.assetid: b722a157-0d92-404d-9075-39547241dbb7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
-ms.openlocfilehash: 53b7099ae74828a97eb703b865ba30ab385e9a5f
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 86f381eff1dab0144afe0f94dcd6dd54d1ad7fa8
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564936"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285232"
 ---
 # <a name="copying-a-profile"></a>Копирование профиля
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-— Это один из способов создать профиль для копирования из существующего профиля и измените необходимые сообщения служб и поставщиков услуг. Копирование профиль включает использование объект администрирования профилей, предоставляемые MAPI через функцию [MAPIAdminProfiles](mapiadminprofiles.md) . 
+Один из способов создания профиля — копирование из существующего профиля и изменение необходимых служб сообщений и поставщиков услуг. Копирование профиля включает в себя использование объекта администрирования профиля, предоставляемого MAPI с помощью функции [мапиадминпрофилес](mapiadminprofiles.md) . 
   
- **Чтобы скопировать в профиль**
+ **Копирование профиля**
   
-1. Вызов **MAPIAdminProfiles** для получения указателя интерфейса **IProfAdmin** . 
+1. ВыЗовите **мапиадминпрофилес** , чтобы получить указатель интерфейса **ипрофадмин** . 
     
-2. Вызов [IProfAdmin::GetProfileTable](iprofadmin-getprofiletable.md) для доступа к таблице профилей. 
+2. Call [ипрофадмин:: жетпрофилетабле](iprofadmin-getprofiletable.md) для доступа к таблице профилей. 
     
-3. Выполните построение ограничение свойства с [SPropertyRestriction](spropertyrestriction.md) структурой в соответствии с **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) с именем профиля для копирования. 
+3. Создайте ограничение свойства с помощью структуры [спропертирестриктион](spropertyrestriction.md) для сравнения **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) с именем профиля, который необходимо скопировать. 
     
-4. Вызовите [IMAPITable::FindRow](imapitable-findrow.md) , чтобы найти соответствующую строку в таблице профилей. 
+4. Call [IMAPITable:: FindRow](imapitable-findrow.md) для обнаружения соответствующей строки в таблице Profile. 
     
-5. Вызовите [IProfAdmin::CopyProfile](iprofadmin-copyprofile.md), передает значение столбца **PR_DISPLAY_NAME** в качестве параметра _lpszOldProfileName_ . 
+5. Call [ипрофадмин:: копипрофиле](iprofadmin-copyprofile.md), передавая значение столбца **пр_дисплай_наме** в качестве параметра _лпсзолдпрофиленаме_ . 
     
 

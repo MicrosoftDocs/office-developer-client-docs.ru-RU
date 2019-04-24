@@ -1,31 +1,31 @@
 ---
-title: Элемент SnapAngle (SnapAngles_Type complexType) ('Visio XML»)
+title: Элемент Снапангле (Снапанглес_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d4f93fc5-80fb-3195-d25b-9a407de7848e
-description: Содержит число с плавающей запятой, которое указывает угол в оснастке в градусов.
+description: Содержит число с плавающей запятой, задающее угол привязки в градусах.
 ms.openlocfilehash: c283be7d613c574d60412f645271d2c947ae0ffb
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25397004"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270065"
 ---
-# <a name="snapangle-element-snapanglestype-complextype-visio-xml"></a>Элемент SnapAngle (SnapAngles_Type complexType) ('Visio XML»)
+# <a name="snapangle-element-snapanglestype-complextype-visio-xml"></a>Элемент Снапангле (Снапанглес_типе complexType) (' Visio XML ')
 
-Содержит число с плавающей запятой, которое указывает угол в оснастке в градусов.
+Содержит число с плавающей запятой, задающее угол привязки в градусах.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Снапангле_типе](snapangle_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |Document.XML, windows.xml  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |Document. XML, Windows. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,8 +42,8 @@ ms.locfileid: "25397004"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **SnapAngle** .  <br/> |
-|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **SnapAngle** .  <br/> |
+|[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[Снапанглес_типе](snapangles_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **снапангле** .  <br/> |
+|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Снапанглес_типе](snapangles_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **снапангле** .  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

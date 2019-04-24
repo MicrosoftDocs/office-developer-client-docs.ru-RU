@@ -9,35 +9,35 @@ api_type:
 ms.assetid: ffceaa03-76f2-42e0-b28d-226f1f9cc889
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 29d53ba1242014a501a01d161c19dade164f393a
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32270058"
 ---
 # <a name="launching-a-new-compose-form"></a>Запуск новой формы создания
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Специалистов по внедрению сервера форм следует ожидать следующую последовательность вызовов к серверу формы и объекты формы при клиентского приложения откроется новое сообщение для составления:
+При открытии приложением для создания нового сообщения с помощью средств реализации сервера форм необходимо ожидать приведенной ниже последовательности вызовов этих методов к серверу форм и объектам формы.
   
-1. Клиентское приложение вызывает метод [IMAPIFormMgr::ResolveMessageClass](imapiformmgr-resolvemessageclass.md) для получения класса сведений о класс сообщения сервера форм. 
+1. Клиентское приложение вызывает метод [имапиформмгр:: ресолвемессажекласс](imapiformmgr-resolvemessageclass.md) для получения сведений о классе, посвященных классу сообщений сервера форм. 
     
-2. Клиентское приложение вызывает [IMAPIFormMgr::CreateForm](imapiformmgr-createform.md) для получения объекта формы. 
+2. Клиентское приложение вызывает метод [имапиформмгр:: креатеформ](imapiformmgr-createform.md) , чтобы получить новый объект Form. 
     
-3. Диспетчер формы MAPI загружает на сервере формы, если он еще не в памяти и получает интерфейс [IMAPIForm](imapiformiunknown.md) с сервера формы. 
+3. Диспетчер форм MAPI загружает сервер форм, если он еще не находится в памяти, и получает интерфейс [имапиформ](imapiformiunknown.md) от сервера форм. 
     
-4. Клиентское приложение принимает итоговый интерфейс **IMAPIForm** и вызывает метод [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) для получения объекта [IPersistMessage](ipersistmessageiunknown.md) интерфейса. 
+4. Клиентское приложение получает полученный в результате интерфейс **имапиформ** и вызывает метод [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d%28Office.15%29.aspx) для получения интерфейса [иперсистмессаже](ipersistmessageiunknown.md) объекта. 
     
-5. Клиентское приложение вызывает метод [IPersistMessage::InitNew](ipersistmessage-initnew.md) для связывания объекта формы с [IMessage](imessageimapiprop.md), контекст представления и уведомить объектов приемника.
+5. Клиентское приложение вызывает метод [иперсистмессаже:: инитнев](ipersistmessage-initnew.md) , чтобы сопоставить объект формы с объектами [iMessage](imessageimapiprop.md), View контекста и приемника уведомлений.
     
-6. Клиентское приложение вызывает метод [IMAPIForm::DoVerb](imapiform-doverb.md) для вызова open команды. 
+6. Клиентское приложение вызывает метод [имапиформ::D оверб](imapiform-doverb.md) для вызова команды Open. 
     
 ## <a name="see-also"></a>См. также
 
 
 
-[Взаимодействие серверов форм](form-server-interactions.md)
+[Взаимодействие с сервером форм](form-server-interactions.md)
 

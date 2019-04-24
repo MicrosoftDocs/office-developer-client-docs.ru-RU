@@ -1,5 +1,5 @@
 ---
-title: IPropData IMAPIProp
+title: Ипропдата IMAPIProp
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: c320b2c42b9a14c6dc428fc3df59991528cdbe36
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: aed9120ac264a6c47c9d02502093e56d3268d08a
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22592572"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279544"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Предоставляет возможность извлекать и изменять уровень доступа для свойств объекта. 
+Предоставляет возможность извлечения и изменения доступа к свойствам объекта. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapiutil.h  <br/> |
-|Предоставляемые:  <br/> |Объект данных свойств  <br/> |
-|Реализованный:  <br/> |MAPI  <br/> |
-|Вызывается:  <br/> |Поставщиков услуг и клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |IID_IMAPIPropData  <br/> |
-|Тип указателя:  <br/> |LPPROPDATA  <br/> |
-|Модель транзакций:  <br/> |Не входящих в транзакции  <br/> |
+|Файл заголовка:  <br/> |Мапиутил. h  <br/> |
+|Предоставлено:  <br/> |Объект данных свойства  <br/> |
+|Реализовано в:  <br/> |MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Поставщики услуг и клиентские приложения  <br/> |
+|Идентификатор интерфейса:  <br/> |Иид_имапипропдата  <br/> |
+|Тип указателя:  <br/> |ЛППРОПДАТА  <br/> |
+|Модель транзакции:  <br/> |Не transactd  <br/> |
    
-## <a name="vtable-order"></a>Порядке vtable
+## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[HrSetObjAccess](ipropdata-hrsetobjaccess.md) <br/> |Задает уровень доступа для объекта.  <br/> |
-|[HrSetPropAccess](ipropdata-hrsetpropaccess.md) <br/> |Задает уровень доступа и состояние для одной или нескольких свойств объекта.  <br/> |
-|[HrGetPropAccess](ipropdata-hrgetpropaccess.md) <br/> |Получает уровень доступа и состояние для одной или нескольких свойств объекта.  <br/> |
-|[HrAddObjProps](ipropdata-hraddobjprops.md) <br/> |Добавление одного или нескольких свойств типа PT_OBJECT объект.  <br/> |
+|[Хрсетобжакцесс](ipropdata-hrsetobjaccess.md) <br/> |Задает уровень доступа для объекта.  <br/> |
+|[Хрсетпропакцесс](ipropdata-hrsetpropaccess.md) <br/> |Задает уровень доступа и состояние для одного или нескольких свойств объекта.  <br/> |
+|[Хржетпропакцесс](ipropdata-hrgetpropaccess.md) <br/> |Получает уровень доступа и состояние для одного или нескольких свойств объекта.  <br/> |
+|[Храддобжпропс](ipropdata-hraddobjprops.md) <br/> |Добавляет одно или несколько свойств типа ПТ_ОБЖЕКТ в объект.  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Интерфейс **IPropData::IMAPIProp** реализован MAPI и используется в первую очередь поставщиками услуг, обращающихся к этой реализации путем вызова функции [CreateIProp](createiprop.md) . 
+Интерфейс **ипропдата:: IMAPIProp** реализуется MAPI и используется преимущественно поставщиками услуг, которые обращаются к этой реализации, вызывая функцию [креатеипроп](createiprop.md) . 
   
-Дополнительные сведения о уровни доступа для объектов и свойств содержатся в разделе [разрешения для объектов и свойств](permissions-for-mapi-objects-and-properties.md).
+Дополнительные сведения о уровнях доступа к объектам и свойствам содержатся в разделе [разрешения для объектов и свойств](permissions-for-mapi-objects-and-properties.md).
   
 ## <a name="see-also"></a>См. также
 

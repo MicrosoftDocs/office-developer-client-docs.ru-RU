@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 72c7c99e-4d29-4b53-dc7b-a3220317d20a
-description: Возвращает значение TRUE, если фигуры 1 D (одномерный массив); Возвращает значение FALSE, если плоских фигур (двухмерный).
-ms.openlocfilehash: 07ffd72393b438e113e6fb3e5f4558e4f09d1eba
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Возвращает значение TRUE, если фигура является 1-D (одномерным); Возвращает значение FALSE, если фигура имеет 2-D (двухмерный).
+ms.openlocfilehash: 6a62b481672b0e1040a34fd0a635ee7382b24f78
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19813989"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297237"
 ---
 # <a name="is1d-function"></a>Функция IS1D
 
-Возвращает значение TRUE, если фигуры 1 D (одномерный массив); Возвращает значение FALSE, если плоских фигур (двухмерный).
+Возвращает значение TRUE, если фигура является 1-D (одномерным); Возвращает значение FALSE, если фигура имеет 2-D (двухмерный).
   
 ## <a name="version-information"></a>Сведения о версии
 
@@ -25,14 +25,14 @@ ms.locfileid: "19813989"
   
 ## <a name="syntax"></a>Синтаксис
 
-IS1D()
+IS1D ()
   
-### <a name="return-value"></a>������������ ��������
+### <a name="return-value"></a>Возвращаемое значение
 
  **Boolean**
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Если лист (фигуры) страницы или документа, функция IS1D возвращает #REF!.
+Если лист (Shape) является страницей или документом, функция IS1D возвращает #REF!.
   
 

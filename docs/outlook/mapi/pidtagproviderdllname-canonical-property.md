@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 9ddb38eb-9a32-4dbe-b42c-6ea9db98acd2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 57fdc754ed4be29dbdd50a198707d8f39a14b3d4
-ms.sourcegitcommit: 18f3d9462048859fe040e12136ff66f19066764b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/22/2019
-ms.locfileid: "31980462"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286490"
 ---
 # <a name="pidtagproviderdllname-canonical-property"></a>Каноническое свойство PidTagProviderDllName
 
@@ -34,7 +34,7 @@ ms.locfileid: "31980462"
 |Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Замечания
 
 MAPI использует соглашение об именовании файлов DLL. Он добавляет к имени базового DLL строку 32, чтобы определить версию, работающую на 32 разрядных платформах. Например, если имя MAPI. DLL, то MAPI создает имя MAPI32. DLL для представления соответствующей 32 разрядной версии DLL.
   

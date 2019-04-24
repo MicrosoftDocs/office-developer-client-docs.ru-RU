@@ -1,38 +1,38 @@
 ---
-title: Выражения SQL и справочник по Access (приложение настраиваемых web Access)
+title: Справочник по SQL и выражениям Access (пользовательское веб-приложение для Access)
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: c68cbbe9-d97f-4d1c-b639-fc067b6cd316
-ms.openlocfilehash: 517f19b4eff2d4ebdaa53c875f83d9a943bf2c14
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+ms.openlocfilehash: 09f527c1fd77da47287ff41a9d23d6d0b9682c17
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19806953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280475"
 ---
-# <a name="access-sql-and-expressions-reference-access-custom-web-app"></a>Выражения SQL и справочник по Access (приложение настраиваемых web Access)
+# <a name="access-sql-and-expressions-reference-access-custom-web-app"></a>Справочник по SQL и выражениям Access (пользовательское веб-приложение для Access)
 
-## <a name="in-this-section"></a>В этой статье
+## <a name="in-this-section"></a>Содержание
 
 > [!IMPORTANT]
 > Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
   
-- [Функции преобразования (приложение настраиваемых web Access)](conversion-functions-access-custom-web-app.md)
+- [Функции преобразования (пользовательское веб-приложение для Access)](conversion-functions-access-custom-web-app.md)
     
-- [Функции базы данных (приложение настраиваемых web Access)](database-functions-access-custom-web-app.md)
+- [Функции баз данных (пользовательское веб-приложение для Access)](database-functions-access-custom-web-app.md)
     
-- [Дата и время функции (приложение настраиваемых web Access)](date-time-functionsaccess-custom-web-app.md)
+- [Функции даты и времени (пользовательское веб-приложение для Access)](date-time-functionsaccess-custom-web-app.md)
     
-- [Проверка на наличие функции (приложение настраиваемых web Access)](inspection-functions-access-custom-web-app.md)
+- [Функции проверки (пользовательское веб-приложение для Access)](inspection-functions-access-custom-web-app.md)
     
-- [Математические функции (приложение настраиваемых web Access)](math-functions-access-custom-web-app.md)
+- [Математические функции (пользовательское веб-приложение для Access)](math-functions-access-custom-web-app.md)
     
-- [Функции управления ходом выполнения программы (приложение настраиваемых web Access)](program-flow-functions-access-custom-web-app.md)
+- [Функции программного процесса (пользовательское веб-приложение для Access)](program-flow-functions-access-custom-web-app.md)
     
-- [Текстовые функции (приложение настраиваемых web Access)](text-functions-access-custom-web-app.md)
+- [Функции для работы с текстом (пользовательское веб-приложение для Access)](text-functions-access-custom-web-app.md)
     
-- [Операторы (приложение настраиваемых web Access)](operators-access-custom-web-app.md)
+- [Операторы (пользовательское веб-приложение для Access)](operators-access-custom-web-app.md)
     
 

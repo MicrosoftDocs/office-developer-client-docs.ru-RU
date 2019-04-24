@@ -4,31 +4,31 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- выполнение в infopath [infopath 2007], среда выполнения [InfoPath 2007], работающей в браузере [InfoPath 2007], InfoPath 2007, определение среды выполнения
+- работа в InfoPath [InfoPath 2007], среда выполнения [InfoPath 2007], работа в браузере [InfoPath 2007], InfoPath 2007, определение среды выполнения
 localization_priority: Normal
 ms.assetid: 1a43bbdc-666b-47ef-a5e3-cb477a4deb04
-description: Свойство среды класса приложение получает ссылку на объект среды, который можно использовать, чтобы определить, какой среде выполнения (InfoPath, веб-браузер или браузер мобильного телефона) использовалась при открытии формы.
-ms.openlocfilehash: b854d6a3b65fcc37375480bef9f1909d84407b6c
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Свойство Environment класса Application получает ссылку на объект Environment, который можно использовать для определения того, какая среда выполнения (InfoPath, веб-браузер или браузер мобильного устройства) использовалась для открытия формы.
+ms.openlocfilehash: 31bfd8dcd05d52d6c6e162d4aa4838e423d97e0b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19807496"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299729"
 ---
 # <a name="write-conditional-logic-that-determines-the-run-time-environment"></a>Написание условной логики, определяющей среду выполнения
 
-Свойство [среды](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.Environment.aspx) класса [приложение](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) получает ссылку на объект [среды](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.aspx) , который можно использовать, чтобы определить, какой среде выполнения (InfoPath, веб-браузер или браузер мобильного телефона) использовалась при открытии формы. 
+Свойство [Environment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.Environment.aspx) класса [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) получает ссылку на объект [Environment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.aspx) , который можно использовать для определения того, какая среда выполнения (InfoPath, веб-браузер или браузер мобильного устройства) использовалась для открытия формы. 
   
 ## <a name="example"></a>Пример
 
 ### <a name="determining-which-runtime-environment-a-form-is-running-in"></a>Определение среды выполнения, в которой запускается форма
 
-Класс [среды](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.aspx) предоставляет свойства [IsBrowser](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.IsBrowser.aspx) и [IsMobile](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.IsMobile.aspx) , которые позволяют определить, какая среда редактирования использовалось для открытия шаблона формы. Если оба свойства возвращают **значение false**, шаблон формы был открыт в редакторе Microsoft InfoPath. Если одно из свойств возвращает **значение true**, шаблон формы был открыт из соответственно настроенной библиотеки документов на сервере Microsoft SharePoint Server 2010 под управлением службы InfoPath Forms Services в программе для соответствующего свойства: веб-браузера ([ IsBrowser](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.IsBrowser.aspx) свойство) или браузер мобильного телефона (свойство [IsMobile](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.IsMobile.aspx) ). 
+Класс [Environment](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.aspx) предоставляет свойства [Browser](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.IsBrowser.aspx) и для [мобильных устройств](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.IsMobile.aspx) , которые позволяют определить, какая среда редактирования использовалась для открытия шаблона формы. Если оба свойства возвращают **значение false**, шаблон формы был открыт в редакторе Microsoft InfoPath. Если любое свойство возвращает **значение true**, шаблон формы был открыт из соответствующей настроенной библиотеки документов в Microsoft SharePoint Server 2010, на котором запущены службы InfoPath Forms Services в программе для соответствующего свойства: веб-браузер ([ Свойство Browser](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.IsBrowser.aspx) ) или веб-браузер для мобильных [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Environment.IsMobile.aspx) устройств (свойство для мобильных устройств). 
   
 Если в следующем примере форма открывается в веб-браузере или в браузере мобильного устройства, то для значения field1 (связанное с элементом управления **Текстовое поле**) устанавливается строка, указывающая среду выполнения, в которой выполнялось открытие формы. Если форма открывается в InfoPath, то для отображения окна сообщения используется метод **System.Windows.Forms.MessageBox.Show** (который недоступен при запуске формы в веб-браузере). 
   
 > [!IMPORTANT]
-> При создании шаблона формы для в следующем образце кода выберите **пустой** шаблон на вкладке **Создать** в представлении Backstage. (Кроме того, можно выбрать **Форма веб-браузера** в раскрывающемся списке **тип формы** в разделе категория **Совместимость** диалогового окна **Параметры формы** .) Чтобы обеспечить поддержку класс **MessageBox** , добавьте ссылку на **System.Windows.Forms** на. Вкладка **NET** диалогового окна **Добавить ссылку на** поле в Visual Studio 2012, а затем добавьте директива **using** или **Imports** для **System.Windows.Forms** в разделе объявлений модуля кода формы. 
+> При создании шаблона формы для следующего образца кода выберите **пустой** шаблон на вкладке **создать** представления Backstage. (Кроме того, вы можете выбрать **форму веб-браузера** в раскрывающемся списке **тип формы** под категорией **Совместимость** в диалоговом окне **Параметры формы** .) Чтобы обеспечить поддержку класса **MessageBox** , добавьте ссылку на **System. Windows. Forms** на странице. Вкладка " **сеть** " диалогового окна " **Добавление ссылки** " в Visual Studio 2012, а затем добавьте директиву **using** или **Imports** для **System. Windows. Forms** в разделе объявления модуля кода формы. 
   
 ```cs
 if(this.Application.Environment.IsBrowser)

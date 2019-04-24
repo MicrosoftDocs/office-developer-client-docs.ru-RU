@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d8d41ced-c2bb-482e-b0bc-1b46c82121bd
 description: Получает автоматически настроенный интерфейс ISocialSession.
-ms.openlocfilehash: 7108a7e42e9b54e069d8d420283c1ebad3367830
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
-ms.translationtype: HT
+ms.openlocfilehash: 34f048158a484612b92bcd2750401caecda64ba2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19812751"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285781"
 ---
 # <a name="isocialprovidergetautoconfiguredsession"></a>ISocialProvider::GetAutoConfiguredSession
 

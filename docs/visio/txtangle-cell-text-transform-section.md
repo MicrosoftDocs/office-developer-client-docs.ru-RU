@@ -1,5 +1,5 @@
 ---
-title: Ячейка TxtAngle (раздел "Преобразование текста")
+title: TxtAngle Cell (Text Transform Section)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -8,32 +8,32 @@ f1_keywords:
 - Vis_DSS.chm82251272
 localization_priority: Normal
 ms.assetid: b8482cd8-5205-40ef-b4e1-4ceb197ac80f
-description: Определяет блок текста текущий угол вращения относительно x-ось фигуры. Значение по умолчанию — 0 градусов.
-ms.openlocfilehash: 08ed4422392a355db948fa947abdfd3772dec0a9
-ms.sourcegitcommit: 9d60cd82b5413446e5bc8ace2cd689f683fb41a7
+description: Определяет текущий угол вращения блока текста относительно оси x фигуры. Значение по умолчанию — 0 градусов.
+ms.openlocfilehash: 701a2b0ce5fccb29cc61309de1d1768a96d92c99
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "19815072"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32280739"
 ---
-# <a name="txtangle-cell-text-transform-section"></a>Ячейка TxtAngle (раздел "Преобразование текста")
+# <a name="txtangle-cell-text-transform-section"></a>TxtAngle Cell (Text Transform Section)
 
-Определяет блок текста текущий угол вращения относительно *x* -ось фигуры. Значение по умолчанию — 0 градусов. 
+Определяет текущий угол вращения блока текста относительно оси *x* фигуры. Значение по умолчанию — 0 градусов. 
   
 ## <a name="remarks"></a>Замечания
 
-Чтобы получить ссылку на ячейку TxtAngle по имени из другой формулы, и программы, с помощью свойства **CellsU** , используйте следующую команду: 
+Чтобы получить ссылку на ячейку TxtAngle по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   
 |||
 |:-----|:-----|
-| Имя ячейки.  <br/> | TxtAngle  <br/> |
+| Имя ячейки:  <br/> | TxtAngle  <br/> |
    
-Для получения ссылки на ячейки TxtAngle по индексу из программы, используйте свойство **CellsSRC** с следующие аргументы: 
+Чтобы получить ссылку на ячейку TxtAngle по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**visRowTextXForm** <br/> |
-| Индекс ячейки:  <br/> |**visXFormAngle** <br/> |
+| Индекс строки:  <br/> |**Висровтекстксформ** <br/> |
+| Индекс ячейки:  <br/> |**Висксформангле** <br/> |
    
 

@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 363a85e1c6f111936b16e471eda6b9f962f8b65d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: f873ad5234460f9f1781c7427b60d285f7486196
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573623"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282700"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает структуру [SPropTagArray](sproptagarray.md) именованные, содержащий указанное число тегов свойств. 
+Создает именованную структуру [спроптагаррай](sproptagarray.md) , которая включает указанное количество тегов свойств. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**SPropTagArray** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**SPropTagArray** <br/> |
    
 ```cpp
 SizedSPropTagArray (_ctag, _name)
@@ -38,17 +38,17 @@ SizedSPropTagArray (_ctag, _name)
 
 __ctag_
   
-> Число теги свойства должны быть включены в новой структуры.
+> Количество тегов свойств, включаемых в новую структуру.
     
-_имя_
+__имя_
   
 > Имя для новой структуры.
     
 ## <a name="remarks"></a>Замечания
 
-Используйте макрос **SizedSPropTagArray** для создания массива тега свойства с помощью явных границы. 
+С помощью макроса **сизедспроптагаррай** создайте массив тегов свойств с явными границами. 
   
-Для применения новой структуры, результаты из макроса **SizedSPropTagArray** как указатель на структуру **SPropTagArray** , выполните следующие приведения. 
+Чтобы использовать новую структуру, полученную из макроса **сизедспроптагаррай** в качестве указателя на структуру **спроптагаррай** , выполните приведенные ниже действия. 
   
 ```cpp
 lpPropTagArray = (LPPropTagArray) &SizedSPropTagArray;

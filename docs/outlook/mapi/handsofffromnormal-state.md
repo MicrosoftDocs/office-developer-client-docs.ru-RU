@@ -8,28 +8,28 @@ api_type:
 - COM
 ms.assetid: 1afe6a2e-a5e6-4844-9f82-908894fc6759
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 92c604c621e2837b76e9e49fd182524ad17fbcac
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 17fa0f3d4e74ce7d717a94378880f2cc46150fc2
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22588344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32299470"
 ---
 # <a name="handsofffromnormal-state"></a>Состояние HandsOffFromNormal
 
   
   
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Состояние HandsOffFromNormal очень похоже на состояние [HandsOffAfterSave](handsoffaftersave-state.md) . Он является частью процесс сохранения содержимое формы в постоянном хранилище. При работе в это состояние означает, объекта формы следует отказаться от внесения изменений в памяти копии значений свойств сообщений, так как не может быть другой возможности, чтобы сохранить изменения. В следующей таблице описываются допустимые переходы из состояния HandsOffFromNormal. 
+Состояние HandsOffFromNormal очень похоже на состояние [HandsOffAfterSave](handsoffaftersave-state.md) . Это часть процесса сохранения содержимого формы в постоянном хранилище. В этом состоянии объект Form должен относиться к изменениям копий значений свойств сообщения в памяти, так как эти изменения могут быть недоступны другим пользователям. В следующей таблице описаны допустимые переходы из состояния HandsOffFromNormal. 
   
-|IPersistMessage ** метод **|**Действие**|**Новое состояние**|
+|Иперсистмессаже * * метод * *|**Действие**|**Новое состояние**|
 |:-----|:-----|:-----|
-|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md) (_pMessage! =_ значение NULL)  <br/> |Замените объект message сообщение _pMessage_которого является заменой отозван предыдущего вызова [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md)сообщение. Данные в новое сообщение гарантированно такой же, как отозванного сообщения. Сообщение не должен быть помечен как чистая, а также [IMAPIViewAdviseSink::OnSaved](imapiviewadvisesink-onsaved.md) вызван после этого вызова. Если выполнен вызов **SaveCompleted** введите состояние [Normal](normal-state.md) . В противном случае остаются в состоянии HandsOffFromNormal.  <br/> |Обычный или HandsOffFromNormal  <br/> |
-|**IPersistMessage::SaveCompleted** (_pMessage ==_ значение NULL)  <br/> |Присвоено значение E_UNEXPECTED последнюю ошибку.  <br/> |HandsOffFromNormal  <br/> |
-|**HandsOffMessage**, [IPersistMessage::Save](ipersistmessage-save.md), [IPersistMessage::InitNew](ipersistmessage-initnew.md)или [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Присвоено значение E_UNEXPECTED последнюю ошибку.  <br/> |HandsOffFromNormal  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращает последнюю ошибку.  <br/> |HandsOffFromNormal  <br/> |
-|Другие [IPersistMessage: IUnknown](ipersistmessageiunknown.md) методы или методы от других интерфейсов  <br/> |Присвоено значение E_UNEXPECTED последнюю ошибку.  <br/> |HandsOffFromNormal  <br/> |
+|[Иперсистмессаже:: савекомплетед](ipersistmessage-savecompleted.md) (_пмессаже! =_ null)  <br/> |Замените сообщение объекта Message на _пмессаже_, заменяющее сообщение, которое было отозвано предыдущим вызовом метода [Иперсистмессаже:: хандсоффмессаже](ipersistmessage-handsoffmessage.md). Данные в новом сообщении гарантированно совпадают с теми, что и в отозванном сообщении. Сообщение не должно быть помечено как Clean, и не должно [имапивиевадвисесинк:: OnSave](imapiviewadvisesink-onsaved.md) вызывается после этого вызова. Если вызов **савекомплетед** выполнен успешно, введите нормальное [](normal-state.md) состояние. В противном случае Оставайтесь в состоянии HandsOffFromNormal.  <br/> |Обычный или HandsOffFromNormal  <br/> |
+|**Иперсистмессаже:: савекомплетед** (_пмессаже = =_ null)  <br/> |Задайте для последней ошибки значение Е_УНЕКСПЕКТЕД.  <br/> |HandsOffFromNormal  <br/> |
+|**Хандсоффмессаже**, [Иперсистмессаже:: Save](ipersistmessage-save.md), [Иперсистмессаже:: Инитнев](ipersistmessage-initnew.md)или [иперсистмессаже:: Load](ipersistmessage-load.md) <br/> |Задайте для последней ошибки значение Е_УНЕКСПЕКТЕД.  <br/> |HandsOffFromNormal  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возврат последней ошибки.  <br/> |HandsOffFromNormal  <br/> |
+|Другие [иперсистмессаже:](ipersistmessageiunknown.md) методы или методы IUnknown из других интерфейсов  <br/> |Задайте для последней ошибки значение Е_УНЕКСПЕКТЕД.  <br/> |HandsOffFromNormal  <br/> |
    
 ## <a name="see-also"></a>См. также
 

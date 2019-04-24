@@ -12,23 +12,23 @@ api_type:
 - COM
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 6120439ea0d98ed6b64fe1542a4372265574723a
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: 6d23d56a27095497aedc64d7bbf5ffda266d0c97
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22567533"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282756"
 ---
 # <a name="sizeddtblcheckbox"></a>SizedDtblCheckBox
  
-**Применимо к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Создает именованный структуру, которая включает в себя структуры [DTBLCHECKBOX](dtblcheckbox.md) для описания элемента управления "флажок" и метки заданной длины. 
+Создает именованную структуру, которая включает структуру [дтблчеккбокс](dtblcheckbox.md) для описания элемента управления "флажок" и метку указанной длины. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
-|Связанные структуры:  <br/> |**DTBLCHECKBOX** <br/> |
+|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Связанная структура:  <br/> |**DTBLCHECKBOX** <br/> |
    
 ```cpp
 SizedDtblCheckBox (n, u)
@@ -38,7 +38,7 @@ SizedDtblCheckBox (n, u)
 
 _n_
   
-> Длина метки должны быть включены в новой структуры.
+> Длина метки, которая должна быть включена в новую структуру.
     
 _u_
   
@@ -46,14 +46,14 @@ _u_
     
 ## <a name="remarks"></a>Замечания
 
-Макрос **SizedDtblCheckBox** позволяет определить флажок при известные число знаков метки. Новая структура создается с следующие элементы: 
+Макрос **сизеддтблчеккбокс** позволяет установить флажок, если число символов в метке известно. Новая структура создается со следующими элементами: 
   
 ```cpp
 DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
 ```
 
-Чтобы использовать указатель в итоговый структуру из макроса **SizedDtblCheckBox** как указатель на структуру **DTBLCHECKBOX** , выполните следующие приведения: 
+Чтобы использовать указатель на полученную структуру из макроса **сизеддтблчеккбокс** в качестве указателя структуры **дтблчеккбокс** , выполните следующую операцию приведения: 
   
 ```cpp
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;

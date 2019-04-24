@@ -1,31 +1,31 @@
 ---
-title: элемент позиции символа (Text_Type complexType) ('Visio XML»)
+title: элемент CP (Текст_типе complexType) (' Visio XML ')
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4edd0a3f-e433-bf54-34cd-3b05fd10a5a5
-description: Метки в начале символ свойства запустите то есть отформатированное в соответствии с соответствующих элементов (знак). Запустить определен в конец текста или до следующего тега.
+description: Помечает начало свойства знака, которое отформатировано в соответствии с соответствующим элементом char. Выполнение определяется до конца текста или до следующего тега.
 ms.openlocfilehash: eb7fd30c2314e159dc3649e87cd63bd4090ba283
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25388198"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32282952"
 ---
-# <a name="cp-element-texttype-complextype-visio-xml"></a>элемент позиции символа (Text_Type complexType) ('Visio XML»)
+# <a name="cp-element-texttype-complextype-visio-xml"></a>элемент CP (Текст_типе complexType) (' Visio XML ')
 
-Метки в начале символ свойства запустите то есть отформатированное в соответствии с соответствующих элементов (знак). Запустить определен в конец текста или до следующего тега.
+Помечает начало свойства знака, которое отформатировано в соответствии с соответствующим элементом char. Выполнение определяется до конца текста или до следующего тега.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Кп_типе](cp_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
-|**Части документа** <br/> |страницы # .xml, главные # .xml  <br/> |
+|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "25388198"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Содержит текст фигуры.  <br/> |
+|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Текст_типе](text_type-complextypevisio-xml.md) <br/> |Содержит текст фигуры.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,6 +52,6 @@ ms.locfileid: "25388198"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |XSD:unsignedInt  <br/> |Обязательный  <br/> |Индекс элемента (знак), который представляет это свойство запуска.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|IX  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Индекс элемента char, представляемый этим свойством.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

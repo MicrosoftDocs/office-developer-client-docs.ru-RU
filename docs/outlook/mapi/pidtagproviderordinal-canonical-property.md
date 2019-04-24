@@ -12,45 +12,45 @@ api_type:
 - COM
 ms.assetid: d062b54d-7c32-4369-ab69-f7193773a1c0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 4cd865fbc443a20ebf4b4cd9722fe52c44d5eddc
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fbeb63bbae23f8f7f78c92d3abed6bea1c3ac85d
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22573812"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286441"
 ---
 # <a name="pidtagproviderordinal-canonical-property"></a>Каноническое свойство PidTagProviderOrdinal
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Содержит начинающийся с нуля индекс положения поставщика услуг в таблице поставщика.
+Содержит Отсчитываемый от нуля индекс положения поставщика услуг в таблице поставщика.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PROVIDER_ORDINAL  <br/> |
+|Связанные свойства:  <br/> |ПР_ПРОВИДЕР_ОРДИНАЛ  <br/> |
 |Идентификатор:  <br/> |0x300D  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Распространенные MAPI  <br/> |
+|Область:  <br/> |Общие протоколы MAPI  <br/> |
    
 ## <a name="remarks"></a>Замечания
 
-Это свойство вычисляется путем MAPI.
+Это свойство вычисляется MAPI.
   
-В таблице поставщика получите путем вызова метода [IMsgServiceAdmin::GetProviderTable](imsgserviceadmin-getprovidertable.md) . Сортировка в таблице поставщика для данного свойства для отображения порядка транспорта. 
+Получите таблицу поставщика, вызвав метод [имсгсервицеадмин:: жетпровидертабле](imsgserviceadmin-getprovidertable.md) . В этом свойстве отСортируйте таблицу поставщика для отображения транспортного заказа. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заГоловков
 
-Mapidefs.h
+MAPIDEFS. h
   
 > Содержит определения типов данных.
     
-Mapitags.h
+Мапитагс. h
   
-> Содержит определения свойства в списке альтернативных имен.
+> Содержит определения свойств, перечисленных как альтернативные имена.
     
 ## <a name="see-also"></a>См. также
 
@@ -58,7 +58,7 @@ Mapitags.h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойства MAPI](mapi-canonical-properties.md)
+[Каноническое свойство MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

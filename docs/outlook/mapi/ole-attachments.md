@@ -8,12 +8,12 @@ api_type:
 - COM
 ms.assetid: febb6a5e-7c40-4f21-806e-7f827d1c37cf
 description: '���� ���������� ���������: 23 ���� 2011 �.'
-ms.openlocfilehash: ccd4a77e74a4a4cbdfcd8474d4cc00d0d0516839
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: fb716ce014ec3c4b21ce2b021c1a9f6f291d511c
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22584641"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279769"
 ---
 # <a name="ole-attachments"></a>�������� OLE
 
