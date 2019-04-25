@@ -1,5 +1,5 @@
 ---
-title: Блок макросов If...Then...Else
+title: Макроблок Если... То... Иначе
 TOCTitle: If...Then...Else macro block
 ms:assetid: 0c4a4b7a-4fdb-9dbc-a94e-939a2ff1c0e5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845158(v=office.15)
@@ -8,18 +8,18 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: fb6cbd6cc925a3e4841d9e7d6d77332cc36c7a03
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28703113"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291896"
 ---
-# <a name="ifthenelse-macro-block"></a><span data-ttu-id="06844-102">Блок макросов If...Then...Else</span><span class="sxs-lookup"><span data-stu-id="06844-102">If...Then...Else macro block</span></span>
+# <a name="ifthenelse-macro-block"></a><span data-ttu-id="2fb11-102">Макроблок Если... То... Иначе</span><span class="sxs-lookup"><span data-stu-id="2fb11-102">If...Then...Else macro block</span></span>
 
 
-<span data-ttu-id="06844-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="06844-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2fb11-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2fb11-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="06844-104">Можно использовать макрос блок **If** позволяет выполнять группу действия в зависимости от значения выражения.</span><span class="sxs-lookup"><span data-stu-id="06844-104">You can use the **If** macro block to conditionally execute a group of actions, depending on the value of an expression.</span></span>
+<span data-ttu-id="2fb11-104">Вы можете использовать макроблок **Если**, чтобы выполнять группы макрокоманд в зависимости от значения выражения.</span><span class="sxs-lookup"><span data-stu-id="2fb11-104">You can use the **If** macro block to conditionally execute a group of actions, depending on the value of an expression.</span></span>
 
 ```vb
     If expression Then 
@@ -31,9 +31,9 @@ ms.locfileid: "28703113"
     End If
 ```
 
-## <a name="setting"></a><span data-ttu-id="06844-105">Setting</span><span class="sxs-lookup"><span data-stu-id="06844-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="2fb11-105">Настройка</span><span class="sxs-lookup"><span data-stu-id="2fb11-105">Setting</span></span>
 
-<span data-ttu-id="06844-106">**Если** и **Else If**требуются следующие аргументы.</span><span class="sxs-lookup"><span data-stu-id="06844-106">For both **If** and **Else If**, the following arguments are required.</span></span>
+<span data-ttu-id="2fb11-106">Как для макроблока **Если**, так и для макроблока **Иначе если** необходимо задать следующие аргументы.</span><span class="sxs-lookup"><span data-stu-id="2fb11-106">For both **If** and **Else If**, the following arguments are required.</span></span>
 
 <table>
 <colgroup>
@@ -42,30 +42,30 @@ ms.locfileid: "28703113"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="06844-107">Аргумент макрокоманды</span><span class="sxs-lookup"><span data-stu-id="06844-107">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="06844-108">Описание</span><span class="sxs-lookup"><span data-stu-id="06844-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="2fb11-107">Аргумент макрокоманды</span><span class="sxs-lookup"><span data-stu-id="2fb11-107">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="2fb11-108">Описание</span><span class="sxs-lookup"><span data-stu-id="2fb11-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="06844-109"><strong>Expression</strong></span><span class="sxs-lookup"><span data-stu-id="06844-109"><strong>Expression</strong></span></span></p></td>
-<td><p><span data-ttu-id="06844-110">Условие, которое требуется проверить.</span><span class="sxs-lookup"><span data-stu-id="06844-110">The condition that you wish to test.</span></span> <span data-ttu-id="06844-111">Это должно быть выражение, которое оценивается как True или False.</span><span class="sxs-lookup"><span data-stu-id="06844-111">It must be an expression that evaluates to True or False.</span></span></p></td>
+<td><p><span data-ttu-id="2fb11-109"><strong>Expression</strong></span><span class="sxs-lookup"><span data-stu-id="2fb11-109"><strong>Expression</strong></span></span></p></td>
+<td><p><span data-ttu-id="2fb11-110">Условие, истинность которого должна проверяться.</span><span class="sxs-lookup"><span data-stu-id="2fb11-110">The condition that you wish to test.</span></span> <span data-ttu-id="2fb11-111">Принимает значение ИСТИНА или ЛОЖЬ.</span><span class="sxs-lookup"><span data-stu-id="2fb11-111">It must be an expression that evaluates to True or False.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="06844-112">Замечания</span><span class="sxs-lookup"><span data-stu-id="06844-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2fb11-112">Примечания</span><span class="sxs-lookup"><span data-stu-id="2fb11-112">Remarks</span></span>
 
-<span data-ttu-id="06844-113">При выборе макрос блок **If** текстовое поле отображается таким образом, можно ввести выражение, представляющее условие, которую вы хотите проверить.</span><span class="sxs-lookup"><span data-stu-id="06844-113">When you select the **If** macro block, a textbox appears so that you can enter an expression that represents the condition you wish to test.</span></span> <span data-ttu-id="06844-114">Кроме того поле со списком отображается, где можно вставить действия макроса, под которой автоматически отображается текст «End If».</span><span class="sxs-lookup"><span data-stu-id="06844-114">In addition, a combo box appears where you can insert a macro action, below which the text "End If" automatically displays.</span></span> <span data-ttu-id="06844-115">If и End If квадратная скобка область, в котором можно ввести группу или блок действия.</span><span class="sxs-lookup"><span data-stu-id="06844-115">The If and the End If bracket an area in which you can enter a group, or block, of actions.</span></span> <span data-ttu-id="06844-116">Блок выполняется только в том случае, если выражение, которое вводится имеет значение True.</span><span class="sxs-lookup"><span data-stu-id="06844-116">The block executes only if the expression that you enter is True.</span></span>
+<span data-ttu-id="2fb11-113">При выборе макроблока **Если** появляется поле для ввода выражения, представляющего собой условие, истинность которого будет в дальнейшем проверяться.</span><span class="sxs-lookup"><span data-stu-id="2fb11-113">When you select the **If** macro block, a textbox appears so that you can enter an expression that represents the condition you wish to test.</span></span> <span data-ttu-id="2fb11-114">Кроме того, доступно поле со списком, в которое можно добавить макрокоманду. Под ним автоматически отображается текст "Конец блока "Если"</span><span class="sxs-lookup"><span data-stu-id="2fb11-114">In addition, a combo box appears where you can insert a macro action, below which the text "End If" automatically displays.</span></span> <span data-ttu-id="2fb11-115">Поля "Если" и "Конец блока "Если" ограничивают область, в которую можно добавить группу (блок) макрокоманд.</span><span class="sxs-lookup"><span data-stu-id="2fb11-115">The If and the End If bracket an area in which you can enter a group, or block, of actions.</span></span> <span data-ttu-id="2fb11-116">Макрокоманды блока будут выполнены лишь в случае, если введенное выражение примет значение ИСТИНА.</span><span class="sxs-lookup"><span data-stu-id="2fb11-116">The block executes only if the expression that you enter is True.</span></span>
 
-<span data-ttu-id="06844-117">Чтобы оценить различные выражения, если первое выражение имеет значение false, щелкните **Добавить Else If** для вставки необязательно блок **Else If** .</span><span class="sxs-lookup"><span data-stu-id="06844-117">To evaluate a different expression when the first expression is false, you can click **Add Else If** to insert an optional **Else If** block.</span></span> <span data-ttu-id="06844-118">Необходимо ввести выражение, которое оценивается как True или False.</span><span class="sxs-lookup"><span data-stu-id="06844-118">You must enter an expression that evaluates to True or False.</span></span> <span data-ttu-id="06844-119">В этом случае блок выполняется только в том случае, если выражение имеет значение True и первое выражение имеет значение False.</span><span class="sxs-lookup"><span data-stu-id="06844-119">In this case, the block executes only if the expression is True and the first expression is False.</span></span>
+<span data-ttu-id="2fb11-117">Для проверки истинности другого выражения в случае ложности первого вы можете выбрать команду **Добавить блок "Иначе если"**, чтобы вставить необязательный блок **Иначе если**.</span><span class="sxs-lookup"><span data-stu-id="2fb11-117">To evaluate a different expression when the first expression is false, you can click **Add Else If** to insert an optional **Else If** block.</span></span> <span data-ttu-id="2fb11-118">Необходимо ввести выражение, принимающее значение ИСТИНА или ЛОЖЬ.</span><span class="sxs-lookup"><span data-stu-id="2fb11-118">You must enter an expression that evaluates to True or False.</span></span> <span data-ttu-id="2fb11-119">Добавленный блок будет выполнен только в случае истинности этого выражения и ложности первого.</span><span class="sxs-lookup"><span data-stu-id="2fb11-119">In this case, the block executes only if the expression is True and the first expression is False.</span></span>
 
-<span data-ttu-id="06844-120">Как вы, как в том случае, если блокировка можно добавить столько блоки **Else If** .</span><span class="sxs-lookup"><span data-stu-id="06844-120">You can add as many **Else If** blocks as you like to an If block.</span></span>
+<span data-ttu-id="2fb11-120">К блоку "Если" можно добавить любое число блоков **Иначе если**.</span><span class="sxs-lookup"><span data-stu-id="2fb11-120">You can add as many **Else If** blocks as you like to an If block.</span></span>
 
-<span data-ttu-id="06844-121">Щелкните **Добавить Else** для вставки блок **Else** необязательно.</span><span class="sxs-lookup"><span data-stu-id="06844-121">You can click **Add Else** to insert an optional **Else** block.</span></span> <span data-ttu-id="06844-122">В этом случае действия, которые можно вставить **Else** форм блок **Else** , который выполняет только в том случае, когда не следует действий, описанных выше.</span><span class="sxs-lookup"><span data-stu-id="06844-122">In this case, the actions that you insert below the **Else** form the **Else** block, which executes only when the actions above do not.</span></span> <span data-ttu-id="06844-123">**Если** блок можно добавить один блок **Else** .</span><span class="sxs-lookup"><span data-stu-id="06844-123">You can add a single **Else** block to an **If** block.</span></span>
+<span data-ttu-id="2fb11-121">Вы можете выбрать команду **Добавить блок "Иначе"**, чтобы вставить необязательный блок **Иначе**.</span><span class="sxs-lookup"><span data-stu-id="2fb11-121">You can click **Add Else** to insert an optional **Else** block.</span></span> <span data-ttu-id="2fb11-122">В этом случае макрокоманды, добавленные под формой **Иначе**, сформируют блок **Иначе**, который будет выполнен только в случае ложности выражений в блоках "Если" и "Иначе если".</span><span class="sxs-lookup"><span data-stu-id="2fb11-122">In this case, the actions that you insert below the **Else** form the **Else** block, which executes only when the actions above do not.</span></span> <span data-ttu-id="2fb11-123">К каждому блоку **Если** можно добавить один блок **Иначе**.</span><span class="sxs-lookup"><span data-stu-id="2fb11-123">You can add a single **Else** block to an **If** block.</span></span>
 
-<span data-ttu-id="06844-124">В следующем примере кода макрокоманд в первый блок выполняется, если значение \[состояние\] больше 0.</span><span class="sxs-lookup"><span data-stu-id="06844-124">In the following code example, the macro actions in the first block execute if the value of \[Status\] is greater than 0.</span></span> <span data-ttu-id="06844-125">Если значение \[состояние\] не больше 0, исходя из **Else If** выражение.</span><span class="sxs-lookup"><span data-stu-id="06844-125">If the value of \[Status\] is not greater than 0, the expression that follows the **Else If** is evaluated.</span></span> <span data-ttu-id="06844-126">Действия макроса в блоке **Else If** выполняется, если значение \[состояние\] равно 0.</span><span class="sxs-lookup"><span data-stu-id="06844-126">The macro actions in the **Else If** block execute if the value of \[Status\] is equal to 0.</span></span> <span data-ttu-id="06844-127">И, наконец Если первый блок ни второй блок выполнение, выполните действия в блоке **Else** .</span><span class="sxs-lookup"><span data-stu-id="06844-127">Finally, if neither the first block nor the second block execute, the actions in the **Else** block execute.</span></span>
+<span data-ttu-id="2fb11-124">В представленном ниже примере кода макрокоманды первого блока выполняются, если параметр \[Status\] принимает положительное значение.</span><span class="sxs-lookup"><span data-stu-id="2fb11-124">In the following code example, the macro actions in the first block execute if the value of \[Status\] is greater than 0.</span></span> <span data-ttu-id="2fb11-125">Если значение параметра \[Status\] отрицательно или равно нулю, оценивается истинность выражения в блоке **Иначе если**.</span><span class="sxs-lookup"><span data-stu-id="2fb11-125">If the value of \[Status\] is not greater than 0, the expression that follows the **Else If** is evaluated.</span></span> <span data-ttu-id="2fb11-126">Макрокоманды блока **Иначе если** выполняются, если параметр \[Status\] равен нулю.</span><span class="sxs-lookup"><span data-stu-id="2fb11-126">The macro actions in the **Else If** block execute if the value of \[Status\] is equal to 0.</span></span> <span data-ttu-id="2fb11-127">Наконец, если ложны выражения как в первом, так и во втором блоке, выполняются макрокоманды блока **Иначе**.</span><span class="sxs-lookup"><span data-stu-id="2fb11-127">Finally, if neither the first block nor the second block execute, the actions in the **Else** block execute.</span></span>
 
 ```vb
     If [Status] > 0 Then 
@@ -77,7 +77,7 @@ ms.locfileid: "28703113"
     End If
 ```
 
-<span data-ttu-id="06844-128">**Если** блоки можно вкладывать.</span><span class="sxs-lookup"><span data-stu-id="06844-128">You can nest **If** blocks.</span></span> <span data-ttu-id="06844-129">Необходимо учитывать вложением блока **Если** блока **если** , чтобы оценить второго выражения, если первое выражение имеет значение True.</span><span class="sxs-lookup"><span data-stu-id="06844-129">You should consider nesting an **If** block within an **If** block if you want to evaluate a second expression when the first expression is True.</span></span> <span data-ttu-id="06844-130">В следующем примере кода внутреннего блока **If** выполняется только если значение \[состояние\] оба больше 0 *и* больше 100.</span><span class="sxs-lookup"><span data-stu-id="06844-130">In the following code example, the inner **If** block only executes when the value of \[Status\] is both greater than 0 *and* greater than 100.</span></span>
+<span data-ttu-id="2fb11-128">Вы можете вкладывать блоки **Если** друг в друга.</span><span class="sxs-lookup"><span data-stu-id="2fb11-128">You can nest **If** blocks.</span></span> <span data-ttu-id="2fb11-129">Один блок **Если** можно вложить в другой, если в случае истинности первого выражения нужно оценить второе.</span><span class="sxs-lookup"><span data-stu-id="2fb11-129">You should consider nesting an **If** block within an **If** block if you want to evaluate a second expression when the first expression is True.</span></span> <span data-ttu-id="2fb11-130">В представленном ниже примере кода внутренний блок **Если** выполняется только если значение параметра \[Status\] положительно *и* больше 100.</span><span class="sxs-lookup"><span data-stu-id="2fb11-130">In the following code example, the inner **If** block only executes when the value of \[Status\] is both greater than 0 *and* greater than 100.</span></span>
 
 ```vb
     If [Status] > 0 Then 
