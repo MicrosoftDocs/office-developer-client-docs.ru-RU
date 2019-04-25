@@ -1,5 +1,5 @@
 ---
-title: Коллекция параметров (DAO)
+title: Коллекция Parameters (DAO)
 TOCTitle: Parameters Collection
 ms:assetid: 52fc1ce4-7b3e-152d-7b6a-9c32a6470147
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193967(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 09f60cb8dde407aacbb19e6b2124151dbbf9b3c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287897"
 ---
-# <a name="parameters-collection-dao"></a>Коллекция параметров (DAO)
+# <a name="parameters-collection-dao"></a>Коллекция Parameters (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Коллекция **параметров** содержит все объекты **параметров** объекта **QueryDef** .
+Коллекция **Parameters** содержит все объекты **Parameter** объекта **QueryDef**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Коллекция **параметров** сведения только о существующих параметров. Не удается добавить объектов или удалять объекты из коллекции **параметров** .
+Коллекция **Parameters** предоставляет сведения только о существующих параметрах. Нельзя добавить объекты в коллекцию **Parameters** или удалить их из нее.
 
 ## <a name="example"></a>Пример
 
-В этом примере демонстрируется **параметр** объекты и коллекции **параметров** путем создания временной **QueryDef** и извлечение данных на основании изменений, внесенных в объекта **QueryDef** **параметров**. Процедура ParametersChange является обязательным для выполнения этой процедуры.
+В этом примере демонстрируются объекты **Parameter** и коллекция **Parameters** путем создания временного объекта **QueryDef** и получения данных с учетом изменений, внесенных в **Parameters** объекта **QueryDef**. Процедура ParametersChange является обязательной для запуска этой процедуры.
 
 ```vb
     Sub ParameterX() 
@@ -94,9 +94,9 @@ ms.locfileid: "28721747"
 
 <br/>
 
-Следующий пример демонстрирует создание запроса с параметрами. Запрос с именем **myQuery** создается с двумя параметрами, с именем Param1 и Param2. Для этого свойства SQL запроса значение оператор структурированный язык запросов (SQL), который определяет параметры.
+В следующем примере показано, как создать запрос параметра. Запрос с именем **myQuery** создается с двумя параметрами: Param1 и Param2. Для этого в качестве свойства SQL запроса задается оператор языка SQL, определяющий параметры.
 
-**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateQueryWithParameters()
@@ -123,7 +123,7 @@ ms.locfileid: "28721747"
 
 <br/>
 
-Приведенный ниже показано, как выполнить запрос параметра. Коллекции параметров используется для задания параметра организации запроса myActionQuery до выполнения запроса.
+В приведенном ниже примере показано, как выполнить запрос параметра. Коллекция Parameters используется, чтобы задать параметр Organization запроса myActionQuery перед его выполнением.
 
 ```vb
     Public Sub ExecParameterQuery()
@@ -150,7 +150,7 @@ ms.locfileid: "28721747"
 
 <br/>
 
-Следующем примере показано, как открыть записей, основанный на параметр запроса.
+В приведенном ниже примере показано, как открыть объект Recordset на основании запроса параметра.
 
 ```vb
     Dim dbs As DAO.Database

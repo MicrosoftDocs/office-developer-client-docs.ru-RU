@@ -12,18 +12,18 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 3ea0641c7325bfcb4339572bc8b50724115af8d6
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699382"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32293513"
 ---
 # <a name="equivalent-ansi-sql-data-types"></a>Эквивалентные типы данных ANSI SQL
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-В следующей таблице перечислены типы данных ANSI SQL, эквивалентные им типы данных ядра базы данных Microsoft Access SQL и допустимые синонимы. Он также приведены эквивалентные типы данных Microsoft SQL Server™.
+В следующей таблице перечислены типы данных ANSI SQL, эквивалентные типы данных SQL ядра СУБД Microsoft Access и допустимые синонимы. В ней также перечислены эквивалентные типы данных Microsoft SQL Server™.
 
 <table>
 <colgroup>
@@ -42,100 +42,100 @@ ms.locfileid: "28699382"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>BIT, ИЗМЕНЕНИЕ БИТА</p></td>
-<td><p>ДВОИЧНЫЙ (см. примечания)</p></td>
-<td><p>VARBINARY ДВОИЧНЫЕ МЕНЯЮЩЕГОСЯ ИЗМЕНЕНИЕ БИТА</p></td>
-<td><p>ДВОИЧНЫЙ VARBINARY</p></td>
+<td><p>BIT, BIT VARYING</p></td>
+<td><p>BINARY (см. примечания)</p></td>
+<td><p>VARBINARY, BINARY VARYING BIT VARYING</p></td>
+<td><p>BINARY, VARBINARY</p></td>
 </tr>
 <tr class="even">
 <td><p>Не поддерживается</p></td>
-<td><p>БИТ (см. примечания)</p></td>
-<td><p>ЛОГИЧЕСКОЕ ЗНАЧЕНИЕ, ЛОГИЧЕСКИХ, ЛОГИЧЕСКОЕ_ЗНАЧЕНИЕ1, YESNO</p></td>
-<td><p>БИТ</p></td>
+<td><p>BIT (см. примечания)</p></td>
+<td><p>BOOLEAN, LOGICAL, LOGICAL1, YESNO</p></td>
+<td><p>BIT</p></td>
 </tr>
 <tr class="odd">
 <td><p>Не поддерживается</p></td>
 <td><p>TINYINT</p></td>
-<td><p>INTEGER1 БАЙТ</p></td>
+<td><p>INTEGER1, BYTE</p></td>
 <td><p>TINYINT</p></td>
 </tr>
 <tr class="even">
 <td><p>Не поддерживается</p></td>
-<td><p>СЧЕТЧИК (см. примечания)</p></td>
-<td><p>АВТОУВЕЛИЧЕНИЕ</p></td>
+<td><p>COUNTER (см. примечания)</p></td>
+<td><p>AUTOINCREMENT</p></td>
 <td><p>(См. примечания)</p></td>
 </tr>
 <tr class="odd">
 <td><p>Не поддерживается</p></td>
-<td><p>ДЕНЬГИ</p></td>
+<td><p>MONEY</p></td>
 <td><p>CURRENCY</p></td>
-<td><p>ДЕНЬГИ</p></td>
+<td><p>MONEY</p></td>
 </tr>
 <tr class="even">
-<td><p>ДАТА, ВРЕМЯ, МЕТКИ ВРЕМЕНИ</p></td>
+<td><p>DATE, TIME, TIMESTAMP</p></td>
 <td><p>DATETIME</p></td>
-<td><p>Дата и время СОЗДАНИЯ (см. примечания)</p></td>
+<td><p>DATE, TIME (см. примечания)</p></td>
 <td><p>DATETIME</p></td>
 </tr>
 <tr class="odd">
 <td><p>Не поддерживается</p></td>
 <td><p>UNIQUEIDENTIFIER</p></td>
-<td><p>Идентификатор GUID</p></td>
+<td><p>GUID</p></td>
 <td><p>UNIQUEIDENTIFIER</p></td>
 </tr>
 <tr class="even">
 <td><p>DECIMAL</p></td>
 <td><p>DECIMAL</p></td>
-<td><p>ЧИСЛОВЫЕ, ДЕК</p></td>
+<td><p>NUMERIC, DEC</p></td>
 <td><p>DECIMAL</p></td>
 </tr>
 <tr class="odd">
-<td><p>РЕАЛЬНЫЕ</p></td>
-<td><p>РЕАЛЬНЫЕ</p></td>
+<td><p>REAL</p></td>
+<td><p>REAL</p></td>
 <td><p>SINGLE, FLOAT4, IEEESINGLE</p></td>
-<td><p>РЕАЛЬНЫЕ</p></td>
+<td><p>REAL</p></td>
 </tr>
 <tr class="even">
-<td><p>ДВОЙНОЙ ТОЧНОСТИ С ПЛАВАЮЩЕЙ ЗАПЯТОЙ</p></td>
+<td><p>DOUBLE PRECISION, FLOAT</p></td>
 <td><p>FLOAT</p></td>
-<td><p>Данные типа DOUBLE, FLOAT8, IEEEDOUBLE, номер (см. примечания)</p></td>
+<td><p>DOUBLE, FLOAT8, IEEEDOUBLE, NUMBER (см. примечания)</p></td>
 <td><p>FLOAT</p></td>
 </tr>
 <tr class="odd">
 <td><p>SMALLINT</p></td>
 <td><p>SMALLINT</p></td>
-<td><p>SHORT INTEGER2</p></td>
+<td><p>SHORT, INTEGER2</p></td>
 <td><p>SMALLINT</p></td>
 </tr>
 <tr class="even">
-<td><p>ЦЕЛОЕ ЧИСЛО</p></td>
-<td><p>ЦЕЛОЕ ЧИСЛО</p></td>
+<td><p>INTEGER</p></td>
+<td><p>INTEGER</p></td>
 <td><p>LONG, INT, INTEGER4</p></td>
-<td><p>ЦЕЛОЕ ЧИСЛО</p></td>
+<td><p>INTEGER</p></td>
 </tr>
 <tr class="odd">
-<td><p>ИНТЕРВАЛ</p></td>
+<td><p>INTERVAL</p></td>
 <td><p>Не поддерживается</p></td>
 <td><p></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
 <td><p>Не поддерживается</p></td>
-<td><p>ИЗОБРАЖЕНИЕ</p></td>
-<td><p>OLEOBJECT LONGBINARY, ОБЩЕЕ,</p></td>
-<td><p>ИЗОБРАЖЕНИЕ</p></td>
+<td><p>IMAGE</p></td>
+<td><p>LONGBINARY, GENERAL, OLEOBJECT</p></td>
+<td><p>IMAGE</p></td>
 </tr>
 <tr class="odd">
 <td><p>Не поддерживается</p></td>
-<td><p>ТЕКСТ (см. примечания)</p></td>
-<td><p>LONGTEXT, LONGCHAR, ЗАМЕТКА, примечание, NTEXT (см. примечания)</p></td>
-<td><p>ТЕКСТ</p></td>
+<td><p>TEXT (см. примечания)</p></td>
+<td><p>LONGTEXT, LONGCHAR, MEMO, NOTE, NTEXT (см. примечания)</p></td>
+<td><p>TEXT</p></td>
 </tr>
 <tr class="even">
-<td><p>СИМВОЛ, РАЗЛИЧНАЯ СИМВОЛ, НАЦИОНАЛЬНЫЙ СИМВОЛ МЕНЯЮЩЕГОСЯ НАЦИОНАЛЬНЫЙ СИМВОЛОВ</p></td>
-<td><p>ЗНАКОВ (см. примечания)</p></td>
-<td><p>Text(n) буквы, символов, строка, VARCHAR, VARYING символ, NCHAR, НАЦИОНАЛЬНЫЙ символ, НАЦИОНАЛЬНЫЙ символ, VARYING НАЦИОНАЛЬНЫЙ символ, НАЦИОНАЛЬНЫЙ ЗНАКОВ VARYING (см. примечания)</p></td>
-<td><p>СИМВОЛ, VARCHAR, NCHAR, NVARCHAR</p></td>
+<td><p>CHARACTER, CHARACTER VARYING, NATIONAL CHARACTER, NATIONAL CHARACTER VARYING</p></td>
+<td><p>CHAR (см. примечания)</p></td>
+<td><p>TEXT(n), ALPHANUMERIC, CHARACTER, STRING, VARCHAR, CHARACTER VARYING, NCHAR, NATIONAL CHARACTER, NATIONAL CHAR, NATIONAL CHARACTER VARYING, NATIONAL CHAR VARYING (см. примечания)</p></td>
+<td><p>CHAR, VARCHAR, NCHAR, NVARCHAR</p></td>
 </tr>
 </tbody>
 </table>
@@ -143,12 +143,12 @@ ms.locfileid: "28699382"
 
 
 > [!NOTE]
-> - Тип данных ANSI SQL BIT не соответствует типа данных Microsoft Access SQL BIT. Он соответствует типу ДВОИЧНЫХ данных вместо этого. Для типа данных Microsoft Access SQL РАЗРЯДНАЯ эквивалентно не ANSI SQL.
-> - Метка времени больше не поддерживается как синоним для даты и времени.
-> - ЧИСЛОВОЙ больше не поддерживается как синоним с плавающей запятой или DOUBLE. ЧИСЛОВОЙ теперь используется как синоним для знаков после запятой.
-> - Поле LONGTEXT всегда хранятся в формате Юникод представления.
-> - Если тип данных, имя, которое TEXT используется без указания длины, например TEXT(25), создается поле LONGTEXT. Это позволяет написать, приведет к типов данных, схожих с Microsoft SQL Server [инструкции CREATE TABLE](create-table-statement-microsoft-access-sql.md) .
-> - Поле символов всегда хранится в формате представления Unicode эквивалентен параметру типа данных НАЦИОНАЛЬНЫЙ ЗНАКОВ ANSI SQL.
-> - Если имя типа данных TEXT используется с указанием длины, например TEXT(25), тип данных поля эквивалентно тип данных (знак). Это позволяет сохранить обратной совместимости для большинства приложений Microsoft Jet, обеспечивая тип данных TEXT (без указания длины) для совместимости с Microsoft SQL Server.
+> - Тип данных BIT ANSI SQL не соответствует типу данных BIT Microsoft Access SQL. Он соответствует типу данных BINARY. Для типа данных BIT Microsoft Access SQL отсутствует эквивалент ANSI SQL.
+> - TIMESTAMP больше не поддерживается в качестве синонима для DATETIME.
+> - NUMERIC больше не поддерживается в качестве синонима для FLOAT или DOUBLE. NUMERIC теперь используется в качестве синонима для DECIMAL.
+> - Поле LONGTEXT всегда хранится в формате представления Юникода.
+> - Если тип данных TEXT используется без указания необязательной длины, например TEXT(25), создается поле LONGTEXT. Это позволяет записывать [операторы CREATE TABLE](create-table-statement-microsoft-access-sql.md), возвращающие типы данных, которые соответствуют Microsoft SQL Server.
+> - Поле CHAR всегда хранится в формате представления Юникода, что соответствует типу данных NATIONAL CHAR ANSI SQL.
+> - Если тип данных TEXT используется с указанием необязательной длины, например TEXT(25), тип данных поля эквивалентен типу данных CHAR. Это сохраняет обратную совместимость для большинства приложений Microsoft Jet, позволяя сопоставлять тип данных TEXT (без указания длины) с Microsoft SQL Server.
 
 

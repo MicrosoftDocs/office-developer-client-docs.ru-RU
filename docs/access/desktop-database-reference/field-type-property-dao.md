@@ -8,30 +8,30 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c8f212c5e1f10f4270987c9453802575d88cebfa
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28709483"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32292953"
 ---
 # <a name="fieldtype-property-dao"></a>Свойство Field.Type (DAO)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, указывающее действующие типа или данных тип объекта. Чтение и запись **целое число**.
+Задает или возвращает значение, указывающее операционный тип или тип данных объекта. Для чтения и записи, **Integer**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . Тип
+*выражение* .Type
 
-*выражение* Переменная, которая представляет собой объект- **поля** .
+*выражение*: переменная, представляющая объект **Field**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Параметр или возвращаемое значение — это константа, которая указывает тип действующие или данных. Для объекта **поля** это свойство является чтение и запись, пока объект добавляется к коллекции или другой объект, после чего он доступен только для чтения.
+Параметр или возвращаемое значение является константой, указывающей операционный тип или тип данных. Для объекта **Field** это свойство предназначено для чтения и записи, пока объект не добавляется в коллекцию или к другому объекту, после чего он доступен только для чтения.
 
-Для объекта **поля** в следующей таблице описаны возможные параметры и возвращаемые значения.
+Для объекта **Field** возможные параметры и возвращаемые значения описаны в следующей таблице.
 
 <table>
 <colgroup>
@@ -47,11 +47,11 @@ ms.locfileid: "28709483"
 <tbody>
 <tr class="odd">
 <td><p><strong>dbBigInt</strong></p></td>
-<td><p>Длинное целое число</p></td>
+<td><p>Большое целое</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binary</p></td>
+<td><p>Двоичный</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
@@ -63,7 +63,7 @@ ms.locfileid: "28709483"
 </tr>
 <tr class="odd">
 <td><p><strong>dbChar</strong></p></td>
-<td><p>Char</p></td>
+<td><p>Знак</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbCurrency</strong></p></td>
@@ -71,39 +71,39 @@ ms.locfileid: "28709483"
 </tr>
 <tr class="odd">
 <td><p><strong>dbDate</strong></p></td>
-<td><p>Дата, время</p></td>
+<td><p>Дата и время</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbDecimal</strong></p></td>
-<td><p>Decimal</p></td>
+<td><p>Десятичный</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbDouble</strong></p></td>
-<td><p>Double</p></td>
+<td><p>Двойное</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
-<td><p>Float</p></td>
+<td><p>С плавающей запятой</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
-<td><p>Идентификатор GUID</p></td>
+<td><p>Глобальный уникальный идентификатор (GUID)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbInteger</strong></p></td>
-<td><p>Целое число</p></td>
+<td><p>Целое</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbLong</strong></p></td>
-<td><p>Long</p></td>
+<td><p>Длинное целое</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLongBinary</strong></p></td>
-<td><p>Длинные двоичный файл (объект OLE)</p></td>
+<td><p>Длинное двоичное (объект OLE)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbMemo</strong></p></td>
-<td><p>Заметка</p></td>
+<td><p>Memo</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbNumeric</strong></p></td>
@@ -111,7 +111,7 @@ ms.locfileid: "28709483"
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
-<td><p>Single</p></td>
+<td><p>Одинарное</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbText</strong></p></td>
@@ -119,7 +119,7 @@ ms.locfileid: "28709483"
 </tr>
 <tr class="odd">
 <td><p><strong>dbTime</strong></p></td>
-<td><p>Time</p></td>
+<td><p>Время</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>
@@ -133,5 +133,5 @@ ms.locfileid: "28709483"
 </table>
 
 
-При добавьте новое **поле**, **параметр**или **свойство** объекта в коллекцию **[индекса](index-object-dao.md)**, **QueryDef**, **набора записей**или **TableDef** объекта, если основной базы данных не поддерживает возникает ошибка Тип данных, указанный для нового объекта.
+Когда новый объект **Field**, **Parameter** или **Property** добавляется в коллекцию объектов **[Index](index-object-dao.md)**, **QueryDef**, **Recordset** или **TableDef**, возникает ошибка, если основная база данных не поддерживает тип данных, указанный для нового объекта.
 

@@ -12,20 +12,20 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 77d56efd63d6a0841b595f12456baa808751706e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28720340"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295522"
 ---
 # <a name="convert-dao-code-to-ado"></a>Преобразование кода DAO в ADO
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 > [!NOTE]
-> Версии библиотеки DAO перед 3.6 не предоставляются и не поддерживаются в клиенте.
+> Библиотеки DAO до версии 3.6 не предоставляются и не поддерживаются в Access.
 
-## <a name="dao-to-ado-object-map"></a>DAO карту объект ADO
+## <a name="dao-to-ado-object-map"></a>Сопоставление объектов DAO с ADO
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ ms.locfileid: "28720340"
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>База данных</p></td>
+<td><p>Database</p></td>
 <td><p>Connection</p></td>
 <td><p></p></td>
 </tr>
@@ -62,24 +62,24 @@ ms.locfileid: "28720340"
 <td><p></p></td>
 </tr>
 <tr class="odd">
-<td><p>Добавляющий</p></td>
-<td><p>Набор ключей</p></td>
+<td><p>Тип "Динамический набор"</p></td>
+<td><p>Keyset</p></td>
 <td><p>Извлекает набор указателей на записи в наборе записей.</p></td>
 </tr>
 <tr class="even">
-<td><p>Тип моментальных снимков</p></td>
-<td><p>Статическое</p></td>
-<td><p>Оба Получение полного записей, но могут быть обновлены статического набора записей.</p></td>
+<td><p>Тип "Статический набор"</p></td>
+<td><p>Static</p></td>
+<td><p>Оба извлекают полные записи, но набор записей Static можно обновлять.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Тип таблицы</p></td>
-<td><p>Набор ключей с помощью параметра adCmdTableDirect.</p></td>
+<td><p>Табличный тип</p></td>
+<td><p>Keyset с параметром adCmdTableDirect.</p></td>
 <td><p></p></td>
 </tr>
 <tr class="even">
-<td><p>Поле</p></td>
-<td><p>Поле</p></td>
-<td><p>Если приведенные в набор записей.</p></td>
+<td><p>Field</p></td>
+<td><p>Field</p></td>
+<td><p>При ссылке на набор записей.</p></td>
 </tr>
 </tbody>
 </table>
@@ -125,11 +125,11 @@ ms.locfileid: "28720340"
 
 
 > [!NOTE]
-> Перемещение фокуса из текущей записи через **MoveNext, MoveLast, MoveFirst, MovePrevious** без использования метода **CancelUpdate** неявно выполняет метод **Update** .
+> Перемещение фокуса с текущей записи с помощью методов **MoveNext, MoveLast, MoveFirst, MovePrevious** без предварительного использования метода **CancelUpdate** неявно запускает метод **Update**.
 
-### <a name="about-the-contributors"></a>О участники
+### <a name="about-the-contributors"></a>Об участниках
 
-**Автор ссылку** [UtterAccess](https://www.utteraccess.com) сообщества. UtterAccess — это премьер форум вики-сайт и Справка по Microsoft Access.
+**Ссылка, предоставляемая** сообществом [UtterAccess](https://www.utteraccess.com). UtterAccess — это премиальный вики-портал и форум, посвященный Microsoft Access.
 
 - [Выбор между DAO и ADO](https://www.utteraccess.com/wiki/index.php/choosing_between_dao_and_ado)
 
