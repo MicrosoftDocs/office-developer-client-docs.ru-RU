@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 46bc0a50e31555189c069e0ee09c4c84349c04c7
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710953"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295431"
 ---
-# <a name="create-index-statement-microsoft-access-sql"></a><span data-ttu-id="79e8c-102">Инструкция CREATE INDEX (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="79e8c-102">CREATE INDEX statement (Microsoft Access SQL)</span></span>
+# <a name="create-index-statement-microsoft-access-sql"></a><span data-ttu-id="58f8a-102">Инструкция CREATE INDEX (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="58f8a-102">CREATE INDEX Statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="79e8c-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="79e8c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="58f8a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58f8a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="79e8c-104">Создает новый индекс на существующей таблицы.</span><span class="sxs-lookup"><span data-stu-id="79e8c-104">Creates a new index on an existing table.</span></span>
+<span data-ttu-id="58f8a-104">Создает новый индекс в существующей таблице.</span><span class="sxs-lookup"><span data-stu-id="58f8a-104">Creates a new index on an existing table.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="79e8c-105">Для баз данных ядра базы данных Microsoft Access ядро базы данных Microsoft Access не поддерживает использование CREATE INDEX (за исключением создания псевдоиндекса на связанная таблица ODBC) и любых других инструкций языка (DDL).</span><span class="sxs-lookup"><span data-stu-id="79e8c-105">For non-Microsoft Access database engine databases, the Microsoft Access database engine does not support the use of CREATE INDEX (except to create a pseudo index on an ODBC linked table) or any of the data definition language (DDL) statements.</span></span> <span data-ttu-id="79e8c-106">Используйте методы DAO **Создать** .</span><span class="sxs-lookup"><span data-stu-id="79e8c-106">Use the DAO **Create** methods instead.</span></span> <span data-ttu-id="79e8c-107">Для получения дополнительных сведений см.</span><span class="sxs-lookup"><span data-stu-id="79e8c-107">For more information, see the Remarks section.</span></span>
+> <span data-ttu-id="58f8a-105">Ядро СУБД Microsoft Access не поддерживает использование CREATE INDEX (кроме как для создания псевдоиндекса в связанной таблице ODBC) или любых других инструкций DDL с базами данных, которые не основаны на ядре СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="58f8a-105">For non-Microsoft Access database engine databases, the Microsoft Access database engine does not support the use of CREATE INDEX (except to create a pseudo index on an ODBC linked table) or any of the data definition language (DDL) statements.</span></span> <span data-ttu-id="58f8a-106">Используйте вместо этого методы DAO **Create**.</span><span class="sxs-lookup"><span data-stu-id="58f8a-106">Use the DAO **Create** methods instead.</span></span> <span data-ttu-id="58f8a-107">Дополнительные сведения см. в разделе "Примечания".</span><span class="sxs-lookup"><span data-stu-id="58f8a-107">For more information, see the Remarks section.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="79e8c-108">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="79e8c-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="58f8a-108">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="58f8a-108">Syntax</span></span>
 
-<span data-ttu-id="79e8c-109">Создание \[ UNIQUE \] д *индекса* ИНДЕКСА *в таблице* (*поле* \[ASC | DESC\]\[, *поле* \[ASC | DESC\],... \]) \[WITH {ОСНОВНОЙ | DISALLOW NULL | ПРОПУСК NULL}\]</span><span class="sxs-lookup"><span data-stu-id="79e8c-109">CREATE \[ UNIQUE \] INDEX *index* ON *table* (*field* \[ASC|DESC\]\[, *field* \[ASC|DESC\], …\]) \[WITH { PRIMARY | DISALLOW NULL | IGNORE NULL }\]</span></span>
+<span data-ttu-id="58f8a-109">CREATE \[ UNIQUE \] INDEX *индекс* ON *таблица* (*поле* \[ASC|DESC\]\[, *поле* \[ASC|DESC\], …\]) \[WITH { PRIMARY | DISALLOW NULL | IGNORE NULL }\]</span><span class="sxs-lookup"><span data-stu-id="58f8a-109">CREATE \[ UNIQUE \] INDEX *index* ON *table* (*field* \[ASC|DESC\]\[, *field* \[ASC|DESC\], …\]) \[WITH { PRIMARY | DISALLOW NULL | IGNORE NULL }\]</span></span>
 
-<span data-ttu-id="79e8c-110">Инструкция CREATE INDEX состоит из следующих частей:</span><span class="sxs-lookup"><span data-stu-id="79e8c-110">The CREATE INDEX statement has these parts:</span></span>
+<span data-ttu-id="58f8a-110">Инструкция CREATE INDEX включает в себя следующие элементы:</span><span class="sxs-lookup"><span data-stu-id="58f8a-110">The CREATE PROCEDURE statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -40,49 +40,49 @@ ms.locfileid: "28710953"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="79e8c-111">Часть</span><span class="sxs-lookup"><span data-stu-id="79e8c-111">Part</span></span></p></th>
-<th><p><span data-ttu-id="79e8c-112">Описание</span><span class="sxs-lookup"><span data-stu-id="79e8c-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="58f8a-111">Часть</span><span class="sxs-lookup"><span data-stu-id="58f8a-111">Part</span></span></p></th>
+<th><p><span data-ttu-id="58f8a-112">Описание</span><span class="sxs-lookup"><span data-stu-id="58f8a-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="79e8c-113"><em>index</em></span><span class="sxs-lookup"><span data-stu-id="79e8c-113"><em>index</em></span></span></p></td>
-<td><p><span data-ttu-id="79e8c-114">Имя индекс, который требуется создать.</span><span class="sxs-lookup"><span data-stu-id="79e8c-114">The name of the index to be created.</span></span></p></td>
+<td><p><span data-ttu-id="58f8a-113"><em>индекс</em></span><span class="sxs-lookup"><span data-stu-id="58f8a-113"><em>index</em></span></span></p></td>
+<td><p><span data-ttu-id="58f8a-114">Имя создаваемого индекса.</span><span class="sxs-lookup"><span data-stu-id="58f8a-114">The name of the constraint to be created.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="79e8c-115"><em>table</em></span><span class="sxs-lookup"><span data-stu-id="79e8c-115"><em>table</em></span></span></p></td>
-<td><p><span data-ttu-id="79e8c-116">Имя существующей таблицы, которая будет содержать индекс.</span><span class="sxs-lookup"><span data-stu-id="79e8c-116">The name of the existing table that will contain the index.</span></span></p></td>
+<td><p><span data-ttu-id="58f8a-115"><em>таблица</em></span><span class="sxs-lookup"><span data-stu-id="58f8a-115"><em>table</em></span></span></p></td>
+<td><p><span data-ttu-id="58f8a-116">Имя существующей таблицы, в которой будет создан индекс.</span><span class="sxs-lookup"><span data-stu-id="58f8a-116">The name of the existing table that will contain the index.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="79e8c-117"><em>поля</em></span><span class="sxs-lookup"><span data-stu-id="79e8c-117"><em>field</em></span></span></p></td>
-<td><p><span data-ttu-id="79e8c-118">Имя поля для индексирования.</span><span class="sxs-lookup"><span data-stu-id="79e8c-118">The name of the field or fields to be indexed.</span></span> <span data-ttu-id="79e8c-119">Чтобы создать индекс по одному полю, укажите имя поля в скобках после имени таблицы.</span><span class="sxs-lookup"><span data-stu-id="79e8c-119">To create a single-field index, list the field name in parentheses following the table name.</span></span> <span data-ttu-id="79e8c-120">Чтобы создать составной индекс, укажите имена всех полей, включаемых в индекс.</span><span class="sxs-lookup"><span data-stu-id="79e8c-120">To create a multiple-field index, list the name of each field to be included in the index.</span></span> <span data-ttu-id="79e8c-121">Для создания индексов по убыванию используйте слово DESC; в противном случае индексов предполагается, что будет по возрастанию.</span><span class="sxs-lookup"><span data-stu-id="79e8c-121">To create descending indexes, use the DESC reserved word; otherwise, indexes are assumed to be ascending.</span></span></p></td>
+<td><p><span data-ttu-id="58f8a-117"><em>поле</em></span><span class="sxs-lookup"><span data-stu-id="58f8a-117"><em>Field</em></span></span></p></td>
+<td><p><span data-ttu-id="58f8a-118">Имя одного или нескольких полей для индексации.</span><span class="sxs-lookup"><span data-stu-id="58f8a-118">The name of the field or fields to be designated the primary key.</span></span> <span data-ttu-id="58f8a-119">Чтобы создать индекс по одному полю, укажите имя поля в круглых скобках после имени таблицы.</span><span class="sxs-lookup"><span data-stu-id="58f8a-119">To create a single-field index, list the field name in parentheses following the table name.</span></span> <span data-ttu-id="58f8a-120">Чтобы создать индекс по нескольким полям, укажите имена всех полей, включаемых в индекс.</span><span class="sxs-lookup"><span data-stu-id="58f8a-120">To create a multiple-field index, list the name of each field to be included in the index.</span></span> <span data-ttu-id="58f8a-121">Чтобы создать индексы с упорядочением по убыванию, используйте зарезервированное слово DESC; в противном случае будут созданы индексы с упорядочением по возрастанию.</span><span class="sxs-lookup"><span data-stu-id="58f8a-121">To create descending indexes, use the DESC reserved word; otherwise, indexes are assumed to be ascending.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="79e8c-122">Замечания</span><span class="sxs-lookup"><span data-stu-id="79e8c-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="58f8a-122">Примечания</span><span class="sxs-lookup"><span data-stu-id="58f8a-122">Remarks</span></span>
 
-<span data-ttu-id="79e8c-123">Чтобы запретить повторяющиеся значения в одном или нескольких индексированных полей различные записи, используйте УНИКАЛЬНОЕ зарезервированным словом.</span><span class="sxs-lookup"><span data-stu-id="79e8c-123">To prohibit duplicate values in the indexed field or fields of different records, use the UNIQUE reserved word.</span></span>
+<span data-ttu-id="58f8a-123">Чтобы запретить появление повторяющихся значений в одном или нескольких индексированных полях, используйте зарезервированное слово UNIQUE.</span><span class="sxs-lookup"><span data-stu-id="58f8a-123">To prohibit duplicate values in the indexed field or fields of different records, use the UNIQUE reserved word.</span></span>
 
-<span data-ttu-id="79e8c-124">В необязательном с предложения может задать правила проверки данных.</span><span class="sxs-lookup"><span data-stu-id="79e8c-124">In the optional WITH clause, you can enforce data validation rules.</span></span> <span data-ttu-id="79e8c-125">Вы можете выполнить указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="79e8c-125">You can:</span></span>
+<span data-ttu-id="58f8a-124">Чтобы определить правила проверки данных, можно использовать необязательное предложение WITH.</span><span class="sxs-lookup"><span data-stu-id="58f8a-124">In the optional WITH clause, you can enforce data validation rules.</span></span> <span data-ttu-id="58f8a-125">Вы можете выполнить указанные ниже действия.</span><span class="sxs-lookup"><span data-stu-id="58f8a-125">You can:</span></span>
 
-- <span data-ttu-id="79e8c-126">Запретить Null записей в одном или нескольких индексированных полях для новых записей с помощью параметра DISALLOW NULL.</span><span class="sxs-lookup"><span data-stu-id="79e8c-126">Prohibit Null entries in the indexed field or fields of new records by using the DISALLOW NULL option.</span></span>
+- <span data-ttu-id="58f8a-126">Запретить значения NULL в индексированных полях новых записей с помощью параметра DISALLOW NULL.</span><span class="sxs-lookup"><span data-stu-id="58f8a-126">Prohibit Null entries in the indexed field or fields of new records by using the DISALLOW NULL option.</span></span>
 
-- <span data-ttu-id="79e8c-127">Запретить **пустые** записи в индексированные поля или полей, включенных в индекс с помощью параметра IGNORE NULL.</span><span class="sxs-lookup"><span data-stu-id="79e8c-127">Prevent records with **Null** values in the indexed field or fields from being included in the index by using the IGNORE NULL option.</span></span>
+- <span data-ttu-id="58f8a-127">Предотвратить индексирование записей со значениями **NULL** в одном или нескольких индексированных полях с помощью параметра IGNORE NULL.</span><span class="sxs-lookup"><span data-stu-id="58f8a-127">Prevent records with **Null** values in the indexed field or fields from being included in the index by using the IGNORE NULL option.</span></span>
 
-- <span data-ttu-id="79e8c-128">Назначьте индексированных полей или поля в качестве первичного ключа с помощью ОСНОВНОЙ зарезервированным словом.</span><span class="sxs-lookup"><span data-stu-id="79e8c-128">Designate the indexed field or fields as the primary key by using the PRIMARY reserved word.</span></span> <span data-ttu-id="79e8c-129">Это означает, что ключ является уникальным, поэтому можно опустить УНИКАЛЬНЫЙ зарезервированным словом.</span><span class="sxs-lookup"><span data-stu-id="79e8c-129">This implies that the key is unique, so you can omit the UNIQUE reserved word.</span></span>
+- <span data-ttu-id="58f8a-128">Определить одно или несколько индексированных полей в качестве первичного ключа с помощью зарезервированного слова PRIMARY.</span><span class="sxs-lookup"><span data-stu-id="58f8a-128">Designate the indexed field or fields as the primary key by using the PRIMARY reserved word.</span></span> <span data-ttu-id="58f8a-129">Поскольку подразумевается, что первичный ключ уникален, зарезервированное слово UNIQUE можно опустить.</span><span class="sxs-lookup"><span data-stu-id="58f8a-129">This implies that the key is unique, so you can omit the UNIQUE reserved word.</span></span>
 
-<span data-ttu-id="79e8c-130">CREATE INDEX можно использовать для создания псевдоиндекса в связанной таблицы в источник данных ODBC, например Microsoft SQL Server, который не имеет индекса.</span><span class="sxs-lookup"><span data-stu-id="79e8c-130">You can use CREATE INDEX to create a pseudo index on a linked table in an ODBC data source, such as Microsoft SQL Server, that does not already have an index.</span></span> <span data-ttu-id="79e8c-131">Нет необходимости разрешения и доступ к удаленному серверу для создания псевдоиндекса и удаленной базы данных не и не затрагиваются псевдоиндекса.</span><span class="sxs-lookup"><span data-stu-id="79e8c-131">You do not need permission or access to the remote server to create a pseudo index, and the remote database is unaware of and unaffected by the pseudo index.</span></span> <span data-ttu-id="79e8c-132">Используйте тот же синтаксис для связанных и оригинальных таблиц.</span><span class="sxs-lookup"><span data-stu-id="79e8c-132">You use the same syntax for both linked and native tables.</span></span> <span data-ttu-id="79e8c-133">Создание виртуального индекса в таблице, которая будет использоваться только для чтения может быть особенно полезным.</span><span class="sxs-lookup"><span data-stu-id="79e8c-133">Creating a pseudo-index on a table that would ordinarily be read-only can be especially useful.</span></span>
+<span data-ttu-id="58f8a-130">Инструкция CREATE INDEX может быть использована для создания псевдоиндекса в связанной таблице источника данных ODBC, такого как Microsoft SQL Server, если в ней еще нет индекса.</span><span class="sxs-lookup"><span data-stu-id="58f8a-130">You can use CREATE INDEX to create a pseudo index on a linked table in an ODBC data source, such as Microsoft SQL Server, that does not already have an index.</span></span> <span data-ttu-id="58f8a-131">Для создания псевдоиндекса не требуется разрешения или доступа к удаленному серверу, а на удаленном сервере никак не отразится наличие псевдоиндекса.</span><span class="sxs-lookup"><span data-stu-id="58f8a-131">You do not need permission or access to the remote server to create a pseudo index, and the remote database is unaware of and unaffected by the pseudo index.</span></span> <span data-ttu-id="58f8a-132">Для связанных и исходных таблиц используется один и тот же синтаксис.</span><span class="sxs-lookup"><span data-stu-id="58f8a-132">You use the same syntax for both linked and native tables.</span></span> <span data-ttu-id="58f8a-133">Особенно полезным может быть создание псевдоиндекса в таблице, которая будет использоваться преимущественно для чтения.</span><span class="sxs-lookup"><span data-stu-id="58f8a-133">Creating a pseudo-index on a table that would ordinarily be read-only can be especially useful.</span></span>
 
-<span data-ttu-id="79e8c-134">Можно также использовать инструкцию [ALTER](alter-table-statement-microsoft-access-sql.md) для добавления одного или нескольких полей индекса в таблицу и инструкцию ALTER или инструкции [DROP](drop-statement-microsoft-access-sql.md) можно использовать для удаления индекса, созданных с помощью ALTER TABLE или CREATE INDEX.</span><span class="sxs-lookup"><span data-stu-id="79e8c-134">You can also use the [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) statement to add a single- or multiple-field index to a table, and you can use the ALTER TABLE statement or the [DROP](drop-statement-microsoft-access-sql.md) statement to remove an index created with ALTER TABLE or CREATE INDEX.</span></span>
+<span data-ttu-id="58f8a-134">Чтобы добавить индекс по одному полю или по набору полей в таблице, можно также воспользоваться инструкцией [ALTER TABLE](alter-table-statement-microsoft-access-sql.md). Чтобы удалить индекс, созданный с помощью инструкции ALTER TABLE или CREATE INDEX, можно воспользоваться инструкцией ALTER TABLE или [DROP](drop-statement-microsoft-access-sql.md).</span><span class="sxs-lookup"><span data-stu-id="58f8a-134">You can also use the [ALTER TABLE](alter-table-statement-microsoft-access-sql.md) statement to add a single- or multiple-field index to a table, and you can use the ALTER TABLE statement or the [DROP](drop-statement-microsoft-access-sql.md) statement to remove an index created with ALTER TABLE or CREATE INDEX.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="79e8c-135">Не используйте ОСНОВНОЙ зарезервированным словом при создании нового индекса в таблице, уже имеет первичный ключ; в противном случае возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="79e8c-135">Do not use the PRIMARY reserved word when you create a new index on a table that already has a primary key; if you do, an error occurs.</span></span>
+> <span data-ttu-id="58f8a-135">Если в таблице уже есть первичный ключ, не используйте зарезервированное слово PRIMARY при создании в ней нового индекса: это приведет к ошибке.</span><span class="sxs-lookup"><span data-stu-id="58f8a-135">Do not use the PRIMARY reserved word when you create a new index on a table that already has a primary key; if you do, an error occurs.</span></span>
 
-## <a name="example"></a><span data-ttu-id="79e8c-136">Пример</span><span class="sxs-lookup"><span data-stu-id="79e8c-136">Example</span></span>
+## <a name="example"></a><span data-ttu-id="58f8a-136">Пример</span><span class="sxs-lookup"><span data-stu-id="58f8a-136">Example</span></span>
 
-<span data-ttu-id="79e8c-137">В этом примере создается индекс, состоящий из поля домашний телефон и расширение в таблице сотрудников.</span><span class="sxs-lookup"><span data-stu-id="79e8c-137">This example creates an index consisting of the fields Home Phone and Extension in the Employees table.</span></span>
+<span data-ttu-id="58f8a-137">В этом примере создается индекс, состоящий из полей Home Phone (Домашний телефон) и Extension (Расширение) в таблице Employees (Сотрудники).</span><span class="sxs-lookup"><span data-stu-id="58f8a-137">This example creates an index consisting of the fields Home Phone and Extension in the Employees table.</span></span>
 
 ```vb
     Sub CreateIndexX1() 
@@ -104,7 +104,7 @@ ms.locfileid: "28710953"
 
 <br/>
 
-<span data-ttu-id="79e8c-138">В этом примере создается индекса на таблице Customers, с помощью поля CustomerID.</span><span class="sxs-lookup"><span data-stu-id="79e8c-138">This example creates an index on the Customers table using the CustomerID field.</span></span> <span data-ttu-id="79e8c-139">Две записи не могут иметь те же данные в поле CustomerID и значения Null не разрешены.</span><span class="sxs-lookup"><span data-stu-id="79e8c-139">No two records can have the same data in the CustomerID field, and no Null values are allowed.</span></span>
+<span data-ttu-id="58f8a-138">В этом примере создается индекс в таблице Customers (Клиенты) с помощью поля CustomerID (КодКлиента).</span><span class="sxs-lookup"><span data-stu-id="58f8a-138">This example creates an index on the Customers table using the CustomerID field.</span></span> <span data-ttu-id="58f8a-139">Никакие две записи не могут содержать одинаковые данные в поле CustomerID (КодКлиента), и не допускаются значения NULL.</span><span class="sxs-lookup"><span data-stu-id="58f8a-139">No two records can have the same data in the CustomerID field, and no Null values are allowed.</span></span>
 
 ```vb
     Sub CreateIndexX2() 

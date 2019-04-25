@@ -14,25 +14,25 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 6ff2ad40d318801ecec2332b53b41f327c20fbc5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28722524"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291402"
 ---
-# <a name="inner-join-operation-microsoft-access-sql"></a><span data-ttu-id="62352-102">Операция INNER JOIN (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="62352-102">INNER JOIN operation (Microsoft Access SQL)</span></span>
+# <a name="inner-join-operation-microsoft-access-sql"></a><span data-ttu-id="8994e-102">Операция INNER JOIN (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="8994e-102">INNER JOIN Operation (Microsoft Access SQL)</span></span>
 
 
-<span data-ttu-id="62352-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="62352-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8994e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8994e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="62352-104">Объединяет записи из двух таблиц при каждом содержат одинаковые значения общего поля.</span><span class="sxs-lookup"><span data-stu-id="62352-104">Combines records from two tables whenever there are matching values in a common field.</span></span>
+<span data-ttu-id="8994e-104">Объединяет записи из двух таблиц, если в связующих полях этих таблиц содержатся одинаковые значения.</span><span class="sxs-lookup"><span data-stu-id="8994e-104">Combines records from two tables whenever there are matching values in a common field.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="62352-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="62352-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8994e-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8994e-105">Syntax</span></span>
 
-<span data-ttu-id="62352-106">ИЗ внутреннего СОЕДИНЕНИЯ *table1* *Таблица2* на *table1*. *field1* *оператор_сравнения Таблица2*. *поле2*</span><span class="sxs-lookup"><span data-stu-id="62352-106">FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr table2*.*field2*</span></span>
+<span data-ttu-id="8994e-106">FROM *таблица1* INNER JOIN *таблица2* ON *таблица1*.*поле1* *оператор_сравнения таблица2*.*поле2*</span><span class="sxs-lookup"><span data-stu-id="8994e-106">FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr table2*.*field2*</span></span>
 
-<span data-ttu-id="62352-107">Операция INNER JOIN состоит из следующих частей:</span><span class="sxs-lookup"><span data-stu-id="62352-107">The INNER JOIN operation has these parts:</span></span>
+<span data-ttu-id="8994e-107">Операция INNER JOIN состоит из следующих элементов:</span><span class="sxs-lookup"><span data-stu-id="8994e-107">The UNION operation has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -41,38 +41,38 @@ ms.locfileid: "28722524"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="62352-108">Часть</span><span class="sxs-lookup"><span data-stu-id="62352-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="62352-109">Описание</span><span class="sxs-lookup"><span data-stu-id="62352-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="8994e-108">Часть</span><span class="sxs-lookup"><span data-stu-id="8994e-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="8994e-109">Описание</span><span class="sxs-lookup"><span data-stu-id="8994e-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="62352-110"><em>table1</em>, <em>Таблица2</em></span><span class="sxs-lookup"><span data-stu-id="62352-110"><em>table1</em>, <em>table2</em></span></span></p></td>
-<td><p><span data-ttu-id="62352-111">Имена таблиц, из которых объединяются записи.</span><span class="sxs-lookup"><span data-stu-id="62352-111">The names of the tables from which records are combined.</span></span></p></td>
+<td><p><span data-ttu-id="8994e-110"><em>таблица1</em>, <em>таблица2</em></span><span class="sxs-lookup"><span data-stu-id="8994e-110"><em>table1</em>, <em>table2</em></span></span></p></td>
+<td><p><span data-ttu-id="8994e-111">Имена таблиц, содержащих объединяемые записи.</span><span class="sxs-lookup"><span data-stu-id="8994e-111">The names of the tables from which records are combined.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="62352-112"><em>field1</em>, <em>field2</em></span><span class="sxs-lookup"><span data-stu-id="62352-112"><em>field1</em>, <em>field2</em></span></span></p></td>
-<td><p><span data-ttu-id="62352-113">Имена полей, входящих в состав.</span><span class="sxs-lookup"><span data-stu-id="62352-113">The names of the fields that are joined.</span></span> <span data-ttu-id="62352-114">Если они не числовое, поля должны быть тот же тип данных и содержат одинаковые данные, но нет необходимости с одинаковыми именами.</span><span class="sxs-lookup"><span data-stu-id="62352-114">If they are not numeric, the fields must be of the same data type and contain the same kind of data, but they do not have to have the same name.</span></span></p></td>
+<td><p><span data-ttu-id="8994e-112"><em>поле1</em>, <em>поле2</em></span><span class="sxs-lookup"><span data-stu-id="8994e-112"><em>field1</em>, <em>field2</em></span></span></p></td>
+<td><p><span data-ttu-id="8994e-113">Имена объединяемых полей.</span><span class="sxs-lookup"><span data-stu-id="8994e-113">The names of the fields that are joined.</span></span> <span data-ttu-id="8994e-114">Поля, не являющиеся числовыми, должны относиться к одному типу данных и содержать данные одного вида. Однако имена этих полей могут быть разными.</span><span class="sxs-lookup"><span data-stu-id="8994e-114">If they are not numeric, the fields must be of the same data type and contain the same kind of data, but they do not have to have the same name.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="62352-115"><em>оператор_сравнения</em></span><span class="sxs-lookup"><span data-stu-id="62352-115"><em>compopr</em></span></span></p></td>
-<td><p><span data-ttu-id="62352-116">Любой оператор сравнения: &quot;=,&quot; &quot; &lt;,&quot; &quot; &gt;,&quot; &quot; &lt;=,&quot; &quot; &gt;=,&quot; или &quot; &lt; &gt;.&quot;</span><span class="sxs-lookup"><span data-stu-id="62352-116">Any relational comparison operator: &quot;=,&quot; &quot;&lt;,&quot; &quot;&gt;,&quot; &quot;&lt;=,&quot; &quot;&gt;=,&quot; or &quot;&lt;&gt;.&quot;</span></span></p></td>
+<td><p><span data-ttu-id="8994e-115"><em>оператор_сравнения</em></span><span class="sxs-lookup"><span data-stu-id="8994e-115"><em>compopr</em></span></span></p></td>
+<td><p><span data-ttu-id="8994e-116">Любой оператор сравнения: &quot;=,&quot; &quot;&lt;,&quot; &quot;&gt;,&quot; &quot;&lt;=,&quot; &quot;&gt;=,&quot; или &quot;&lt;&gt;.&quot;</span><span class="sxs-lookup"><span data-stu-id="8994e-116">Any relational comparison operator: &quot;=,&quot; &quot;&lt;,&quot; &quot;&gt;,&quot; &quot;&lt;=,&quot; &quot;&gt;=,&quot; or &quot;&lt;&gt;.&quot;</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="62352-117">Замечания</span><span class="sxs-lookup"><span data-stu-id="62352-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8994e-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="8994e-117">Remarks</span></span>
 
-<span data-ttu-id="62352-118">Можно использовать операцию INNER JOIN в [любой FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) .</span><span class="sxs-lookup"><span data-stu-id="62352-118">You can use an INNER JOIN operation in any [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) clause.</span></span> <span data-ttu-id="62352-119">Это наиболее распространенный тип объединения.</span><span class="sxs-lookup"><span data-stu-id="62352-119">This is the most common type of join.</span></span> <span data-ttu-id="62352-120">Объединение записей из двух таблиц всякий раз, когда они соответствуют в поле обеих таблицах.</span><span class="sxs-lookup"><span data-stu-id="62352-120">Inner joins combine records from two tables whenever there are matching values in a field common to both tables.</span></span>
+<span data-ttu-id="8994e-118">Операцию INNER JOIN можно использовать в любом предложении [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql).</span><span class="sxs-lookup"><span data-stu-id="8994e-118">You can use an INNER JOIN operation in any [FROM](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/from-clause-microsoft-access-sql) clause.</span></span> <span data-ttu-id="8994e-119">Это самый распространенный тип объединения.</span><span class="sxs-lookup"><span data-stu-id="8994e-119">This is the most common URI type.</span></span> <span data-ttu-id="8994e-120">С его помощью происходит объединение записей из двух таблиц по связующему полю, если оно содержит одинаковые значения в обеих таблицах.</span><span class="sxs-lookup"><span data-stu-id="8994e-120">Inner joins combine records from two tables whenever there are matching values in a field common to both tables.</span></span>
 
-<span data-ttu-id="62352-121">Можно использовать INNER JOIN с таблицами отделов и сотрудников для выбора всех сотрудников в каждого подразделения.</span><span class="sxs-lookup"><span data-stu-id="62352-121">You can use INNER JOIN with the Departments and Employees tables to select all the employees in each department.</span></span> <span data-ttu-id="62352-122">С другой стороны чтобы выбрать все отделы (даже если некоторые имеют нет сотрудников) или всех сотрудников (даже если некоторые не назначены отделом), можно использовать операцию [LEFT JOIN или RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) для создания внешнего соединения.</span><span class="sxs-lookup"><span data-stu-id="62352-122">In contrast, to select all departments (even if some have no employees assigned to them) or all employees (even if some are not assigned to a department), you can use a [LEFT JOIN or RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) operation to create an outer join.</span></span>
+<span data-ttu-id="8994e-121">При работе с таблицами "Отделы" и "Сотрудники" операцией INNER JOIN можно воспользоваться для выбора всех сотрудников в каждом отделе.</span><span class="sxs-lookup"><span data-stu-id="8994e-121">You can use INNER JOIN with the Departments and Employees tables to select all the employees in each department.</span></span> <span data-ttu-id="8994e-122">Если же требуется выбрать все отделы (включая те из них, в которых нет сотрудников) или всех сотрудников (в том числе и не закрепленных за отделом), можно при помощи операции [LEFT JOIN или RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) создать внешнее соединение.</span><span class="sxs-lookup"><span data-stu-id="8994e-122">In contrast, to select all departments (even if some have no employees assigned to them) or all employees (even if some are not assigned to a department), you can use a [LEFT JOIN or RIGHT JOIN](left-join-right-join-operations-microsoft-access-sql.md) operation to create an outer join.</span></span>
 
-<span data-ttu-id="62352-123">При попытке объединить поля, содержащие данные Memo или OLE-объектов, возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="62352-123">If you try to join fields containing Memo or OLE Object data, an error occurs.</span></span>
+<span data-ttu-id="8994e-123">При попытке связи полей, содержащих данные типа Memo или объекты OLE, возникнет ошибка.</span><span class="sxs-lookup"><span data-stu-id="8994e-123">If you try to join fields containing Memo or OLE Object data, an error occurs.</span></span>
 
-<span data-ttu-id="62352-124">Можно объединить два числовых поля из как типы.</span><span class="sxs-lookup"><span data-stu-id="62352-124">You can join any two numeric fields of like types.</span></span> <span data-ttu-id="62352-125">Например можно объединить для счетчика и много полей, так как они являются как типы.</span><span class="sxs-lookup"><span data-stu-id="62352-125">For example, you can join on AutoNumber and Long fields because they are like types.</span></span> <span data-ttu-id="62352-126">Тем не менее не может присоединиться к Single и Double типов полей.</span><span class="sxs-lookup"><span data-stu-id="62352-126">However, you cannot join Single and Double types of fields.</span></span>
+<span data-ttu-id="8994e-124">Можно связать любые два числовых поля аналогичных типов.</span><span class="sxs-lookup"><span data-stu-id="8994e-124">You can join any two numeric fields of like types.</span></span> <span data-ttu-id="8994e-125">Например, можно связать поля AutoNumber и Long, так как эти типы аналогичны,</span><span class="sxs-lookup"><span data-stu-id="8994e-125">For example, you can join on AutoNumber and Long fields because they are like types.</span></span> <span data-ttu-id="8994e-126">однако не поля Single и Double.</span><span class="sxs-lookup"><span data-stu-id="8994e-126">However, you cannot join Single and Double types of fields.</span></span>
 
-<span data-ttu-id="62352-127">В следующем примере показано, как можно объединить таблицы категорий и продуктов в поле Идентификатор категории:</span><span class="sxs-lookup"><span data-stu-id="62352-127">The following example shows how you could join the Categories and Products tables on the CategoryID field:</span></span>
+<span data-ttu-id="8994e-127">В следующем примере показано, как можно объединить таблицы Categories и Products по полю CategoryID.</span><span class="sxs-lookup"><span data-stu-id="8994e-127">The following example shows how you could join the Categories and Products tables on the CategoryID field:</span></span>
 
 ```sql
 SELECT CategoryName, ProductName 
@@ -80,23 +80,23 @@ FROM Categories INNER JOIN Products
 ON Categories.CategoryID = Products.CategoryID;
 ```
 
-<span data-ttu-id="62352-128">В предыдущем примере идентификатор категории — это поле объединения, но не включенный в выходных данных запроса, так как он не включен в операторе [SELECT](select-statement-microsoft-access-sql.md) .</span><span class="sxs-lookup"><span data-stu-id="62352-128">In the preceding example, CategoryID is the joined field, but it is not included in the query output because it is not included in the [SELECT](select-statement-microsoft-access-sql.md) statement.</span></span> <span data-ttu-id="62352-129">Чтобы включить поле объединения, добавьте имя поля в операторе SELECT — в данном случае Categories.CategoryID.</span><span class="sxs-lookup"><span data-stu-id="62352-129">To include the joined field, include the field name in the SELECT statement — in this case, Categories.CategoryID.</span></span>
+<span data-ttu-id="8994e-128">В предыдущем примере CategoryID является объединенным полем, но оно не включается в результаты запроса, поскольку не указано в инструкции [SELECT](select-statement-microsoft-access-sql.md).</span><span class="sxs-lookup"><span data-stu-id="8994e-128">In the preceding example, CategoryID is the joined field, but it is not included in the query output because it is not included in the [SELECT](select-statement-microsoft-access-sql.md) statement.</span></span> <span data-ttu-id="8994e-129">Чтобы включить объединенное поле в результаты запроса, добавьте его имя в инструкцию SELECT. В данном случае это Categories.CategoryID.</span><span class="sxs-lookup"><span data-stu-id="8994e-129">To include the joined field, include the field name in the SELECT statement — in this case, Categories.CategoryID.</span></span>
 
-<span data-ttu-id="62352-130">Также можно связать несколько предложений ON в операторе JOIN, используя следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="62352-130">You can also link several ON clauses in a JOIN statement, using the following syntax:</span></span>
+<span data-ttu-id="8994e-130">В инструкции JOIN можно также связать несколько предложений ON, используя следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="8994e-130">You can also link several ON clauses in a JOIN statement, using the following syntax:</span></span>
 
-<span data-ttu-id="62352-131">ВЫБЕРИТЕ из *поля* *table1* INNER JOIN *Таблица2* д *table1*. *field1* *оператор_сравнения* *Таблица2*. *field1* И на *table1*. *поле2* *оператор_сравнения* *Таблица2*. *поле2*) ИЛИ на *table1*. *поле3* *оператор_сравнения* *Таблица2*. *поле3*) \];</span><span class="sxs-lookup"><span data-stu-id="62352-131">SELECT *fields* FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr* *table2*.*field1* AND ON *table1*.*field2* *compopr* *table2*.*field2*) OR ON *table1*.*field3* *compopr* *table2*.*field3*)\];</span></span>
+<span data-ttu-id="8994e-131">SELECT *поля* FROM *поле1* INNER JOIN *таблица2* ON *таблица1*.*поле1* *оператор_сравнения* *таблица2*.*поле1* AND ON *таблица1*.*поле2* *оператор_сравнения* *таблица2*.*поле2*) OR ON *таблица1*.*поле3* *оператор_сравнения* *таблица2*.*поле3*)\];</span><span class="sxs-lookup"><span data-stu-id="8994e-131">SELECT *fields* FROM *table1* INNER JOIN *table2* ON *table1*.*field1* *compopr* *table2*.*field1* AND ON *table1*.*field2* *compopr* *table2*.*field2*) OR ON *table1*.*field3* *compopr* *table2*.*field3*)\];</span></span>
 
-<span data-ttu-id="62352-132">Кроме того, можно вкладывать инструкций СОЕДИНЕНИЯ, используя следующий синтаксис:</span><span class="sxs-lookup"><span data-stu-id="62352-132">You can also nest JOIN statements using the following syntax:</span></span>
+<span data-ttu-id="8994e-132">Ниже приведен пример синтаксиса, с помощью которого можно составлять вложенные инструкции JOIN.</span><span class="sxs-lookup"><span data-stu-id="8994e-132">You can also nest JOIN statements using the following syntax:</span></span>
 
-<span data-ttu-id="62352-133">ВЫБЕРИТЕ из *поля* *table1* INNER JOIN (*Таблица2* INNER JOIN \[( \] *Таблица3* \[INNER JOIN \[( \] *tablex* \[INNER JOIN...) \] На *Таблица3*. *поле3* *оператор_сравнения* *tablex*. *fieldx*) \] На *Таблица2*. *поле2* *оператор_сравнения* *Таблица3*. *поле3*) НА *table1*. *field1* *оператор_сравнения* *Таблица2*. *поле2*;</span><span class="sxs-lookup"><span data-stu-id="62352-133">SELECT *fields* FROM *table1* INNER JOIN (*table2* INNER JOIN \[( \]*table3* \[INNER JOIN \[( \]*tablex* \[INNER JOIN …)\] ON *table3*.*field3* *compopr* *tablex*.*fieldx*)\] ON *table2*.*field2* *compopr* *table3*.*field3*) ON *table1*.*field1* *compopr* *table2*.*field2*;</span></span>
+<span data-ttu-id="8994e-133">SELECT *поля* FROM *таблица1* INNER JOIN (*таблица2* INNER JOIN \[( \]*таблица3* \[INNER JOIN \[( \]*таблицаx* \[INNER JOIN …)\] ON *таблица3*.*поле3* *оператор_сравнения* *таблицаx*.*полеx*)\] ON *таблица2*.*поле2* *оператор_сравнения* *таблица3*.*поле3*) ON *таблица1*.*поле1* *оператор_сравнения* *таблица2*.*поле2*;</span><span class="sxs-lookup"><span data-stu-id="8994e-133">SELECT *fields* FROM *table1* INNER JOIN (*table2* INNER JOIN \[( \]*table3* \[INNER JOIN \[( \]*tablex* \[INNER JOIN …)\] ON *table3*.*field3* *compopr* *tablex*.*fieldx*)\] ON *table2*.*field2* *compopr* *table3*.*field3*) ON *table1*.*field1* *compopr* *table2*.*field2*;</span></span>
 
-<span data-ttu-id="62352-134">LEFT JOIN или RIGHT JOIN может быть вложена в ВНУТРЕННЕЕ соединение, но ВНУТРЕННЕЕ соединение не могут быть вложены внутри LEFT JOIN или RIGHT JOIN.</span><span class="sxs-lookup"><span data-stu-id="62352-134">A LEFT JOIN or a RIGHT JOIN may be nested inside an INNER JOIN, but an INNER JOIN may not be nested inside a LEFT JOIN or a RIGHT JOIN.</span></span>
+<span data-ttu-id="8994e-134">Операции LEFT JOIN и RIGHT JOIN могут быть вложены в операцию INNER JOIN, но операция INNER JOIN не может быть вложена в операцию LEFT JOIN или RIGHT JOIN.</span><span class="sxs-lookup"><span data-stu-id="8994e-134">A LEFT JOIN or a RIGHT JOIN may be nested inside an INNER JOIN, but an INNER JOIN may not be nested inside a LEFT JOIN or a RIGHT JOIN.</span></span>
 
-## <a name="example"></a><span data-ttu-id="62352-135">Пример</span><span class="sxs-lookup"><span data-stu-id="62352-135">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8994e-135">Пример</span><span class="sxs-lookup"><span data-stu-id="8994e-135">Example</span></span>
 
-<span data-ttu-id="62352-136">В этом примере создается два эквивалентные соединения: один между сведения о заказе и заказы таблиц между таблицами заказы и сотрудников.</span><span class="sxs-lookup"><span data-stu-id="62352-136">This example creates two equi-joins: one between the Order Details and Orders tables and another between the Orders and Employees tables.</span></span> <span data-ttu-id="62352-137">Это необходимо, так как в таблице сотрудников не содержит данные о продажах и в таблице сведения о заказе не содержит данные о сотрудниках.</span><span class="sxs-lookup"><span data-stu-id="62352-137">This is necessary because the Employees table does not contain sales data, and the Order Details table does not contain employee data.</span></span> <span data-ttu-id="62352-138">Запрос создает список сотрудников и общего объема продаж.</span><span class="sxs-lookup"><span data-stu-id="62352-138">The query produces a list of employees and their total sales.</span></span>
+<span data-ttu-id="8994e-136">В этом примере создается два уравнивающих соединения: одно между таблицами Order Details (Сведения о заказах) и Orders (Заказы), а другое между таблицами Orders (Заказы) и Employees (Сотрудники).</span><span class="sxs-lookup"><span data-stu-id="8994e-136">This example creates two equi-joins: one between the Order Details and Orders tables and another between the Orders and Employees tables.</span></span> <span data-ttu-id="8994e-137">Это необходимо, так как таблица Employees (Сотрудники) не содержит данные о продажах, а таблица Order Details (Сведения о заказах) не содержит данные сотрудников.</span><span class="sxs-lookup"><span data-stu-id="8994e-137">This is necessary because the Employees table does not contain sales data, and the Order Details table does not contain employee data.</span></span> <span data-ttu-id="8994e-138">Результат запроса представляет собой список сотрудников и их общие объемы продаж.</span><span class="sxs-lookup"><span data-stu-id="8994e-138">The query produces a list of employees and their total sales.</span></span>
 
-<span data-ttu-id="62352-139">В этом примере вызывает процедуре EnumFields, которую можно найти в приведенном примере инструкции SELECT.</span><span class="sxs-lookup"><span data-stu-id="62352-139">This example calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
+<span data-ttu-id="8994e-139">В этом примере вызывается процедура EnumFields, которую можно найти в примере инструкции SELECT.</span><span class="sxs-lookup"><span data-stu-id="8994e-139">This example calls the EnumFields procedure, which you can find in the SELECT statement example.</span></span>
 
 ```vb
     Sub InnerJoinX() 

@@ -1,5 +1,5 @@
 ---
-title: Коллекция параметров (DAO)
+title: Коллекция Parameters (DAO)
 TOCTitle: Parameters Collection
 ms:assetid: 52fc1ce4-7b3e-152d-7b6a-9c32a6470147
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193967(v=office.15)
@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 09f60cb8dde407aacbb19e6b2124151dbbf9b3c5
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28721747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287897"
 ---
-# <a name="parameters-collection-dao"></a><span data-ttu-id="73c41-102">Коллекция параметров (DAO)</span><span class="sxs-lookup"><span data-stu-id="73c41-102">Parameters collection (DAO)</span></span>
+# <a name="parameters-collection-dao"></a><span data-ttu-id="468a0-102">Коллекция Parameters (DAO)</span><span class="sxs-lookup"><span data-stu-id="468a0-102">Parameters Collection (DAO)</span></span>
 
-<span data-ttu-id="73c41-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73c41-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="468a0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="468a0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="73c41-104">Коллекция **параметров** содержит все объекты **параметров** объекта **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="73c41-104">A **Parameters** collection contains all the **Parameter** objects of a **QueryDef** object.</span></span>
+<span data-ttu-id="468a0-104">Коллекция **Parameters** содержит все объекты **Parameter** объекта **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="468a0-104">A **Parameters** collection contains all the **Parameter** objects of a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="73c41-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="73c41-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="468a0-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="468a0-105">Remarks</span></span>
 
-<span data-ttu-id="73c41-106">Коллекция **параметров** сведения только о существующих параметров.</span><span class="sxs-lookup"><span data-stu-id="73c41-106">The **Parameters** collection provides information only about existing parameters.</span></span> <span data-ttu-id="73c41-107">Не удается добавить объектов или удалять объекты из коллекции **параметров** .</span><span class="sxs-lookup"><span data-stu-id="73c41-107">You can't append objects to or delete objects from the **Parameters** collection.</span></span>
+<span data-ttu-id="468a0-106">Коллекция **Parameters** предоставляет сведения только о существующих параметрах.</span><span class="sxs-lookup"><span data-stu-id="468a0-106">The **Parameters** collection provides information only about existing parameters.</span></span> <span data-ttu-id="468a0-107">Нельзя добавить объекты в коллекцию **Parameters** или удалить их из нее.</span><span class="sxs-lookup"><span data-stu-id="468a0-107">You can't append objects to or delete objects from the **Parameters** collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="73c41-108">Пример</span><span class="sxs-lookup"><span data-stu-id="73c41-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="468a0-108">Пример</span><span class="sxs-lookup"><span data-stu-id="468a0-108">Example</span></span>
 
-<span data-ttu-id="73c41-109">В этом примере демонстрируется **параметр** объекты и коллекции **параметров** путем создания временной **QueryDef** и извлечение данных на основании изменений, внесенных в объекта **QueryDef** **параметров**.</span><span class="sxs-lookup"><span data-stu-id="73c41-109">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**.</span></span> <span data-ttu-id="73c41-110">Процедура ParametersChange является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="73c41-110">The ParametersChange procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="468a0-109">В этом примере демонстрируются объекты **Parameter** и коллекция **Parameters** путем создания временного объекта **QueryDef** и получения данных с учетом изменений, внесенных в **Parameters** объекта **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="468a0-109">This example demonstrates **Parameter** objects and the **Parameters** collection by creating a temporary **QueryDef** and retrieving data based on changes made to the **QueryDef** object's **Parameters**.</span></span> <span data-ttu-id="468a0-110">Процедура ParametersChange является обязательной для запуска этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="468a0-110">The OpenRecordsetOutput procedure is required for this procedure to run.</span></span>
 
 ```vb
     Sub ParameterX() 
@@ -94,9 +94,9 @@ ms.locfileid: "28721747"
 
 <br/>
 
-Следующий пример демонстрирует создание запроса с параметрами. Запрос с именем **myQuery** создается с двумя параметрами, с именем Param1 и Param2. <span data-ttu-id="73c41-113">Для этого свойства SQL запроса значение оператор структурированный язык запросов (SQL), который определяет параметры.</span><span class="sxs-lookup"><span data-stu-id="73c41-113">To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.</span></span>
+В следующем примере показано, как создать запрос параметра. Запрос с именем **myQuery** создается с двумя параметрами: Param1 и Param2. <span data-ttu-id="468a0-113">Для этого в качестве свойства SQL запроса задается оператор языка SQL, определяющий параметры.</span><span class="sxs-lookup"><span data-stu-id="468a0-113">To do this, the SQL property of the query is set to a Structured Query Language (SQL) statement that defines the parameters.</span></span>
 
-<span data-ttu-id="73c41-114">**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="73c41-114">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="468a0-114">**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="468a0-114">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 ```vb
     Sub CreateQueryWithParameters()
@@ -123,7 +123,7 @@ ms.locfileid: "28721747"
 
 <br/>
 
-<span data-ttu-id="73c41-115">Приведенный ниже показано, как выполнить запрос параметра.</span><span class="sxs-lookup"><span data-stu-id="73c41-115">The following example shows how to execute a parameter query.</span></span> <span data-ttu-id="73c41-116">Коллекции параметров используется для задания параметра организации запроса myActionQuery до выполнения запроса.</span><span class="sxs-lookup"><span data-stu-id="73c41-116">The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.</span></span>
+<span data-ttu-id="468a0-115">В приведенном ниже примере показано, как выполнить запрос параметра.</span><span class="sxs-lookup"><span data-stu-id="468a0-115">The following example shows how to execute a parameter query.</span></span> <span data-ttu-id="468a0-116">Коллекция Parameters используется, чтобы задать параметр Organization запроса myActionQuery перед его выполнением.</span><span class="sxs-lookup"><span data-stu-id="468a0-116">The Parameters collection is used to set the Organization parameter of the myActionQuery query before the query is executed.</span></span>
 
 ```vb
     Public Sub ExecParameterQuery()
@@ -150,7 +150,7 @@ ms.locfileid: "28721747"
 
 <br/>
 
-<span data-ttu-id="73c41-117">Следующем примере показано, как открыть записей, основанный на параметр запроса.</span><span class="sxs-lookup"><span data-stu-id="73c41-117">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
+<span data-ttu-id="468a0-117">В приведенном ниже примере показано, как открыть объект Recordset на основании запроса параметра.</span><span class="sxs-lookup"><span data-stu-id="468a0-117">The following example shows how to open a Recordset that is based on a parameter query.</span></span>
 
 ```vb
     Dim dbs As DAO.Database
