@@ -12,34 +12,34 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 7033c612642aa3ae6ce6c6175560438c893cde6d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711933"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32295921"
 ---
-# <a name="connectiondatabase-property-dao"></a><span data-ttu-id="c2db1-102">Свойство Connection.Database (DAO)</span><span class="sxs-lookup"><span data-stu-id="c2db1-102">Connection.Database property (DAO)</span></span>
+# <a name="connectiondatabase-property-dao"></a><span data-ttu-id="4d0f9-102">Свойство Connection.Database (DAO)</span><span class="sxs-lookup"><span data-stu-id="4d0f9-102">Connection.Database Property (DAO)</span></span>
 
 
-<span data-ttu-id="c2db1-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c2db1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4d0f9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d0f9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
 
-## <a name="syntax"></a><span data-ttu-id="c2db1-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c2db1-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4d0f9-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4d0f9-104">Syntax</span></span>
 
-<span data-ttu-id="c2db1-105">*выражение* . Базы данных</span><span class="sxs-lookup"><span data-stu-id="c2db1-105">*expression* .Database</span></span>
+<span data-ttu-id="4d0f9-105">*выражение* .Database</span><span class="sxs-lookup"><span data-stu-id="4d0f9-105">*expression* .Database</span></span>
 
-<span data-ttu-id="c2db1-106">*выражение* Переменная, которая содержит объект **подключения** .</span><span class="sxs-lookup"><span data-stu-id="c2db1-106">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="4d0f9-106">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="4d0f9-106">*expression* A variable that represents a **Range** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c2db1-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="c2db1-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4d0f9-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="4d0f9-107">Remarks</span></span>
 
-<span data-ttu-id="c2db1-108">На объект **[подключения](connection-object-dao.md)** используйте свойство **базы данных** для получения ссылки на объект **базы данных** , соответствующий **подключения**.</span><span class="sxs-lookup"><span data-stu-id="c2db1-108">On a **[Connection](connection-object-dao.md)** object, use the **Database** property to obtain a reference to a **Database** object that corresponds to the **Connection**.</span></span> <span data-ttu-id="c2db1-109">В DAO, объект **подключения** и его соответствующего объекта **базы данных** — это просто два разных объектных переменных ссылки на тот же объект.</span><span class="sxs-lookup"><span data-stu-id="c2db1-109">In DAO, a **Connection** object and its corresponding **Database** object are simply two different object variable references to the same object.</span></span> <span data-ttu-id="c2db1-110">**База данных** свойств объекта **подключения** и свойство **[Connection](database-connection-property-dao.md)** объекта **базы данных** облегчают изменять подключения к источнику данных ODBC с помощью ядро базы данных Microsoft Access, чтобы использовать технология ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="c2db1-110">The **Database** property of a **Connection** object and the **[Connection](database-connection-property-dao.md)** property of a **Database** object make it easier to change connections to an ODBC data source through the Microsoft Access database engine to use ODBCDirect.</span></span>
+<span data-ttu-id="4d0f9-108">Используйте свойство **Database** объекта **[Connection](connection-object-dao.md)**, чтобы получить ссылку на объект **Database**, соответствующий этому объекту **Connection**.</span><span class="sxs-lookup"><span data-stu-id="4d0f9-108">On a **[Connection](connection-object-dao.md)** object, use the **Database** property to obtain a reference to a **Database** object that corresponds to the **Connection**.</span></span> <span data-ttu-id="4d0f9-109">В DAO объект **Connection** и соответствующий ему объект **Database** — это просто две разных ссылки на один и тот же объект.</span><span class="sxs-lookup"><span data-stu-id="4d0f9-109">In DAO, a **Connection** object and its corresponding **Database** object are simply two different object variable references to the same object.</span></span> <span data-ttu-id="4d0f9-110">Свойство **Database** объекта **Connection** и свойство **[Connection](database-connection-property-dao.md)** объекта **Database** упрощают установку подключений к источникам данных ODBC через ядро СУБД Microsoft Access для использования ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="4d0f9-110">The **Database** property of a **Connection** object and the **[Connection](database-connection-property-dao.md)** property of a **Database** object make it easier to change connections to an ODBC data source through the Microsoft Access database engine to use ODBCDirect.</span></span>
 
-## <a name="example"></a><span data-ttu-id="c2db1-111">Пример</span><span class="sxs-lookup"><span data-stu-id="c2db1-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="4d0f9-111">Пример</span><span class="sxs-lookup"><span data-stu-id="4d0f9-111">Example</span></span>
 
-<span data-ttu-id="c2db1-112">В этом примере используется свойство **базы данных** для отображения как код, который используется для доступа к данным ODBC через ядро базы данных Microsoft Access может быть преобразована с помощью объектов соединения технология ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="c2db1-112">This example uses the **Database** property to show how code that used to access ODBC data through the Microsoft Access database engine can be converted to use ODBCDirect Connection objects.</span></span>
+<span data-ttu-id="4d0f9-112">В этом примере используется свойство **Database**, чтобы показать, как код, используемый для доступа к данным ODBC через ядро СУБД Microsoft Access, можно преобразовать для использования объектов Connection в ODBCDirect.</span><span class="sxs-lookup"><span data-stu-id="4d0f9-112">This example uses the **Database** property to show how code that used to access ODBC data through the Microsoft Access database engine can be converted to use ODBCDirect Connection objects.</span></span>
 
-<span data-ttu-id="c2db1-113">В процедуре OldDatabaseCode используется источника данных, подключенного ядра базы данных Microsoft Access для доступа к базе данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="c2db1-113">The OldDatabaseCode procedure uses a Microsoft Access database engine-connected data source to access an ODBC database.</span></span>
+<span data-ttu-id="4d0f9-113">Процедура OldDatabaseCode использует источник данных, подключенный к ядру СУБД Microsoft Access, для доступа к базе данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="4d0f9-113">The OldDatabaseCode procedure uses a Microsoft Access database engine-connected data source to access an ODBC database.</span></span>
 
 ```vb
     Sub OldDatabaseCode() 
@@ -88,7 +88,7 @@ ms.locfileid: "28711933"
     End Sub 
 ```
 
-В примере NewDatabaseCode открывает объект **подключения** в рабочей области технология ODBCDirect. Свойство **базы данных** объекта **подключения** назначает объектную переменную с тем же именем, как источника данных в старой процедуры. <span data-ttu-id="c2db1-116">Ни одна из последующих код должен быть изменен до тех пор, пока оно не использует все определенные функции рабочие области Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="c2db1-116">None of the subsequent code has to be changed as long as it doesn't use any features specific to Microsoft Access workspaces.</span></span>
+В примере NewDatabaseCode открывается объект **Connection** из рабочей области ODBCDirect. Затем свойство **Database** объекта **Connection** назначается объектной переменной с тем же именем, что и у источника данных в старой процедуре. <span data-ttu-id="4d0f9-116">Никакой последующий код менять не требуется, если в нем не используются функции, применимые исключительно к рабочим областям Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="4d0f9-116">None of the subsequent code has to be changed as long as it doesn't use any features specific to Microsoft Access workspaces.</span></span>
 
 ```vb 
 Sub NewDatabaseCode() 

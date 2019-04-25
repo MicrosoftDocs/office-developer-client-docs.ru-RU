@@ -8,25 +8,25 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: a9ef8f1714244b02ed5423a38cf3fb8fa328ec1e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28699270"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300639"
 ---
-# <a name="recordsetfindnext-method-dao"></a><span data-ttu-id="d9d18-102">Метод Recordset.FindNext (DAO)</span><span class="sxs-lookup"><span data-stu-id="d9d18-102">Recordset.FindNext method (DAO)</span></span>
+# <a name="recordsetfindnext-method-dao"></a><span data-ttu-id="64fa3-102">Метод Recordset.FindNext (DAO)</span><span class="sxs-lookup"><span data-stu-id="64fa3-102">Recordset.FindNext method (DAO)</span></span>
 
-<span data-ttu-id="d9d18-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d9d18-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="64fa3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="64fa3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d9d18-104">Находит следующую запись в объект **[набора записей](recordset-object-dao.md)** добавляющий или моментальных снимков, которая должна удовлетворять определенным условиям и делает, запишите текущей записи (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d9d18-104">Locates the next record in a dynaset- or snapshot-type **[Recordset](recordset-object-dao.md)** object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="64fa3-104">Определяет положение следующей записи в объекте **[Recordset](recordset-object-dao.md)** типа dynaset или мгновенный снимок, которая отвечает заданным условиям и превращает запись в текущую запись (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="64fa3-104">Locates the next record in a dynaset- or snapshot-type **[Recordset](recordset-object-dao.md)** object that satisfies the specified criteria and makes that record the current record (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d9d18-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d9d18-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="64fa3-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="64fa3-105">Syntax</span></span>
 
-<span data-ttu-id="d9d18-106">*выражение* . FindNext (***критерии***)</span><span class="sxs-lookup"><span data-stu-id="d9d18-106">*expression* .FindNext(***Criteria***)</span></span>
+<span data-ttu-id="64fa3-106">*expression* .FindNext(***Criteria***)</span><span class="sxs-lookup"><span data-stu-id="64fa3-106">*expression* .FindNext(***Criteria***)</span></span>
 
-<span data-ttu-id="d9d18-107">*выражение* Переменная, которая представляет собой объект **набора записей** .</span><span class="sxs-lookup"><span data-stu-id="d9d18-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="64fa3-107">*expression*: переменная, представляющая объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="64fa3-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="d9d18-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="d9d18-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="64fa3-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="64fa3-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,30 +37,30 @@ ms.locfileid: "28699270"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d9d18-109">Имя</span><span class="sxs-lookup"><span data-stu-id="d9d18-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="d9d18-110">Обязательный или необязательный</span><span class="sxs-lookup"><span data-stu-id="d9d18-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="d9d18-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="d9d18-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="d9d18-112">Описание</span><span class="sxs-lookup"><span data-stu-id="d9d18-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="64fa3-109">Имя</span><span class="sxs-lookup"><span data-stu-id="64fa3-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="64fa3-110">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="64fa3-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="64fa3-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="64fa3-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="64fa3-112">Описание</span><span class="sxs-lookup"><span data-stu-id="64fa3-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d9d18-113"><em>Criteria</em></span><span class="sxs-lookup"><span data-stu-id="d9d18-113"><em>Criteria</em></span></span></p></td>
-<td><p><span data-ttu-id="d9d18-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="d9d18-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="d9d18-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="d9d18-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="d9d18-116">Строка, используемая для поиска записи.</span><span class="sxs-lookup"><span data-stu-id="d9d18-116">A String used to locate the record.</span></span> <span data-ttu-id="d9d18-117">Это предложение WHERE в инструкции SQL, но без слова like ГДЕ.</span><span class="sxs-lookup"><span data-stu-id="d9d18-117">It is like the WHERE clause in an SQL statement, but without the word WHERE.</span></span></p></td>
+<td><p><span data-ttu-id="64fa3-113"><em>Criteria</em></span><span class="sxs-lookup"><span data-stu-id="64fa3-113"><em>Criteria</em></span></span></p></td>
+<td><p><span data-ttu-id="64fa3-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="64fa3-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="64fa3-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="64fa3-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="64fa3-116">Строка, используемая для поиска записи.</span><span class="sxs-lookup"><span data-stu-id="64fa3-116">A String used to locate the record.</span></span> <span data-ttu-id="64fa3-117">Аналогично предложению WHERE в инструкции SQL, но без слова WHERE.</span><span class="sxs-lookup"><span data-stu-id="64fa3-117">It is like the WHERE clause in an SQL statement, but without the word WHERE.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="d9d18-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="d9d18-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="64fa3-118">Примечания</span><span class="sxs-lookup"><span data-stu-id="64fa3-118">Remarks</span></span>
 
-<span data-ttu-id="d9d18-119">Если требуется включить все записи в поле поиска — не только те, которые соответствуют определенное условие — использовать методы **перемещения** для перемещения между записями.</span><span class="sxs-lookup"><span data-stu-id="d9d18-119">If you want to include all the records in your search — not just those that meet a specific condition — use the **Move** methods to move from record to record.</span></span> <span data-ttu-id="d9d18-120">Чтобы найти записи в таблице тип **набора записей**, используйте метод **поиска** .</span><span class="sxs-lookup"><span data-stu-id="d9d18-120">To locate a record in a table-type **Recordset**, use the **Seek** method.</span></span>
+<span data-ttu-id="64fa3-119">Если в поиск нужно включить все записи, а не только те, которые удовлетворяют заданному условию, используйте методы **Move**, чтобы переходить между записями.</span><span class="sxs-lookup"><span data-stu-id="64fa3-119">If you want to include all the records in your search — not just those that meet a specific condition — use the **Move** methods to move from record to record.</span></span> <span data-ttu-id="64fa3-120">Для поиска записи в объекте **Recordset** табличного типа используется метод **Seek**.</span><span class="sxs-lookup"><span data-stu-id="64fa3-120">To locate a record in a table-type **Recordset**, use the **Seek** method.</span></span>
 
-<span data-ttu-id="d9d18-121">Если записи, соответствующие критериям не находится, указатель текущей записи не известен, и свойство **NoMatch** имеет значение **True**.</span><span class="sxs-lookup"><span data-stu-id="d9d18-121">If a record matching the criteria isn't located, the current record pointer is unknown, and the **NoMatch** property is set to **True**.</span></span> <span data-ttu-id="d9d18-122">Если набор записей содержит более одной записи, соответствующие этим условиям **FindFirst** находит первого появления, **FindNext** находит следующее вхождение и т. д.</span><span class="sxs-lookup"><span data-stu-id="d9d18-122">If recordset contains more than one record that satisfies the criteria, **FindFirst** locates the first occurrence, **FindNext** locates the next occurrence, and so on.</span></span>
+<span data-ttu-id="64fa3-121">Если соответствующая условиям запись не найдена, то указатель текущей записи неизвестен, а свойству **NoMatch** присваивается значение **True**.</span><span class="sxs-lookup"><span data-stu-id="64fa3-121">If a record matching the criteria isn't located, the current record pointer is unknown, and the **NoMatch** property is set to **True**.</span></span> <span data-ttu-id="64fa3-122">Если набор записей содержит несколько записей, удовлетворяющих условиям, **FindFirst** находит первое вхождение, **FindNext** находит следующее вхождение и т. д.</span><span class="sxs-lookup"><span data-stu-id="64fa3-122">If recordset contains more than one record that satisfies the criteria, **FindFirst** locates the first occurrence, **FindNext** locates the next occurrence, and so on.</span></span>
 
-<span data-ttu-id="d9d18-123">Каждый из способов **Найти** начинается поиск из расположения и в направлении, указанных в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="d9d18-123">Each of the **Find** methods begins its search from the location and in the direction specified in the following table.</span></span>
+<span data-ttu-id="64fa3-123">В приведенной ниже таблице показано, с какого расположения и в каком направлении выполняют поиск разные методы **Find**.</span><span class="sxs-lookup"><span data-stu-id="64fa3-123">Each of the **Find** methods begins its search from the location and in the direction specified in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -70,66 +70,66 @@ ms.locfileid: "28699270"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d9d18-124">Метод Find</span><span class="sxs-lookup"><span data-stu-id="d9d18-124">Find method</span></span></p></th>
-<th><p><span data-ttu-id="d9d18-125">Начинает поиск</span><span class="sxs-lookup"><span data-stu-id="d9d18-125">Begins searching at</span></span></p></th>
-<th><p><span data-ttu-id="d9d18-126">Направление поиска</span><span class="sxs-lookup"><span data-stu-id="d9d18-126">Search direction</span></span></p></th>
+<th><p><span data-ttu-id="64fa3-124">Метод Find</span><span class="sxs-lookup"><span data-stu-id="64fa3-124">Find method</span></span></p></th>
+<th><p><span data-ttu-id="64fa3-125">Начало поиска</span><span class="sxs-lookup"><span data-stu-id="64fa3-125">Begins searching at</span></span></p></th>
+<th><p><span data-ttu-id="64fa3-126">Направление поиска</span><span class="sxs-lookup"><span data-stu-id="64fa3-126">Search direction</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d9d18-127"><strong>FindFirst</strong></span><span class="sxs-lookup"><span data-stu-id="d9d18-127"><strong>FindFirst</strong></span></span></p></td>
-<td><p><span data-ttu-id="d9d18-128">Приступая к работе с набора записей</span><span class="sxs-lookup"><span data-stu-id="d9d18-128">Beginning of recordset</span></span></p></td>
-<td><p><span data-ttu-id="d9d18-129">Конец набора записей</span><span class="sxs-lookup"><span data-stu-id="d9d18-129">End of recordset</span></span></p></td>
+<td><p><span data-ttu-id="64fa3-127"><strong>FindFirst</strong></span><span class="sxs-lookup"><span data-stu-id="64fa3-127"><strong>FindFirst</strong></span></span></p></td>
+<td><p><span data-ttu-id="64fa3-128">Начало набора записей</span><span class="sxs-lookup"><span data-stu-id="64fa3-128">Beginning of recordset</span></span></p></td>
+<td><p><span data-ttu-id="64fa3-129">Конец набора записей</span><span class="sxs-lookup"><span data-stu-id="64fa3-129">End of recordset</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d9d18-130"><strong>FindLast</strong></span><span class="sxs-lookup"><span data-stu-id="d9d18-130"><strong>FindLast</strong></span></span></p></td>
-<td><p><span data-ttu-id="d9d18-131">Конец набора записей</span><span class="sxs-lookup"><span data-stu-id="d9d18-131">End of recordset</span></span></p></td>
-<td><p><span data-ttu-id="d9d18-132">Приступая к работе с набора записей</span><span class="sxs-lookup"><span data-stu-id="d9d18-132">Beginning of recordset</span></span></p></td>
+<td><p><span data-ttu-id="64fa3-130"><strong>FindLast</strong></span><span class="sxs-lookup"><span data-stu-id="64fa3-130"><strong>FindLast</strong></span></span></p></td>
+<td><p><span data-ttu-id="64fa3-131">Конец набора записей</span><span class="sxs-lookup"><span data-stu-id="64fa3-131">End of recordset</span></span></p></td>
+<td><p><span data-ttu-id="64fa3-132">Начало набора записей</span><span class="sxs-lookup"><span data-stu-id="64fa3-132">Beginning of recordset</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="d9d18-133"><strong>FindNext</strong></span><span class="sxs-lookup"><span data-stu-id="d9d18-133"><strong>FindNext</strong></span></span></p></td>
-<td><p><span data-ttu-id="d9d18-134">Текущая запись</span><span class="sxs-lookup"><span data-stu-id="d9d18-134">Current record</span></span></p></td>
-<td><p><span data-ttu-id="d9d18-135">Конец набора записей</span><span class="sxs-lookup"><span data-stu-id="d9d18-135">End of recordset</span></span></p></td>
+<td><p><span data-ttu-id="64fa3-133"><strong>FindNext</strong></span><span class="sxs-lookup"><span data-stu-id="64fa3-133"><strong>FindNext</strong></span></span></p></td>
+<td><p><span data-ttu-id="64fa3-134">Текущая запись</span><span class="sxs-lookup"><span data-stu-id="64fa3-134">current record</span></span></p></td>
+<td><p><span data-ttu-id="64fa3-135">Конец набора записей</span><span class="sxs-lookup"><span data-stu-id="64fa3-135">End of recordset</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="d9d18-136"><strong>FindPrevious</strong></span><span class="sxs-lookup"><span data-stu-id="d9d18-136"><strong>FindPrevious</strong></span></span></p></td>
-<td><p><span data-ttu-id="d9d18-137">Текущая запись</span><span class="sxs-lookup"><span data-stu-id="d9d18-137">Current record</span></span></p></td>
-<td><p><span data-ttu-id="d9d18-138">Приступая к работе с набора записей</span><span class="sxs-lookup"><span data-stu-id="d9d18-138">Beginning of recordset</span></span></p></td>
+<td><p><span data-ttu-id="64fa3-136"><strong>FindPrevious</strong></span><span class="sxs-lookup"><span data-stu-id="64fa3-136"><strong>FindPrevious</strong></span></span></p></td>
+<td><p><span data-ttu-id="64fa3-137">Текущая запись</span><span class="sxs-lookup"><span data-stu-id="64fa3-137">current record</span></span></p></td>
+<td><p><span data-ttu-id="64fa3-138">Начало набора записей</span><span class="sxs-lookup"><span data-stu-id="64fa3-138">Beginning of recordset</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="d9d18-139">С помощью одного из методов **поиска** не совпадает с помощью метода **Move** , тем не менее, что делает просто имя, Фамилия, следующий или предыдущий запись текущей без указания условие.</span><span class="sxs-lookup"><span data-stu-id="d9d18-139">Using one of the **Find** methods isn't the same as using a **Move** method, however, which simply makes the first, last, next, or previous record current without specifying a condition.</span></span> <span data-ttu-id="d9d18-140">Можно выполнить операцию поиска с помощью операции перемещения.</span><span class="sxs-lookup"><span data-stu-id="d9d18-140">You can follow a Find operation with a Move operation.</span></span>
+<span data-ttu-id="64fa3-139">Однако использование методов **Find** отличается от использования метода **Move**, который просто делает первую, последнюю, следующую или предыдущую запись текущей без указания условия.</span><span class="sxs-lookup"><span data-stu-id="64fa3-139">Using one of the **Find** methods isn't the same as using a **Move** method, however, which simply makes the first, last, next, or previous record current without specifying a condition.</span></span> <span data-ttu-id="64fa3-140">После операции Find можно выполнить операцию Move.</span><span class="sxs-lookup"><span data-stu-id="64fa3-140">You can follow a Find operation with a Move operation.</span></span>
 
-<span data-ttu-id="d9d18-141">Всегда проверяйте значение свойства **NoMatch** , чтобы определить, является ли операция поиска успешно выполнено.</span><span class="sxs-lookup"><span data-stu-id="d9d18-141">Always check the value of the **NoMatch** property to determine whether the Find operation has succeeded.</span></span> <span data-ttu-id="d9d18-142">Если поиск завершается успешно, **NoMatch** имеет **значение False**.</span><span class="sxs-lookup"><span data-stu-id="d9d18-142">If the search succeeds, **NoMatch** is **False**.</span></span> <span data-ttu-id="d9d18-143">В случае неудачи **NoMatch** имеет **значение True** , а не определена текущей записи.</span><span class="sxs-lookup"><span data-stu-id="d9d18-143">If it fails, **NoMatch** is **True** and the current record isn't defined.</span></span> <span data-ttu-id="d9d18-144">В этом случае необходимо разместить указатель текущей записи обратно в допустимый записи.</span><span class="sxs-lookup"><span data-stu-id="d9d18-144">In this case, you must position the current record pointer back to a valid record.</span></span>
+<span data-ttu-id="64fa3-141">Всегда проверяйте значение свойства **NoMatch**, чтобы определить, успешно ли выполнена операция Find.</span><span class="sxs-lookup"><span data-stu-id="64fa3-141">Always check the value of the **NoMatch** property to determine whether the Find operation has succeeded.</span></span> <span data-ttu-id="64fa3-142">Если поиск выполнен успешно, свойство **NoMatch** принимает значение **False**.</span><span class="sxs-lookup"><span data-stu-id="64fa3-142">If the search succeeds, **NoMatch** is **False**.</span></span> <span data-ttu-id="64fa3-143">Если поиск не дал результатов, то свойство **NoMatch** принимает значение **True**, а текущая запись не определяется.</span><span class="sxs-lookup"><span data-stu-id="64fa3-143">If it fails, **NoMatch** is **True** and the current record isn't defined.</span></span> <span data-ttu-id="64fa3-144">В этом случае необходимо вернуть указатель текущей записи к допустимой записи.</span><span class="sxs-lookup"><span data-stu-id="64fa3-144">In this case, you must position the current record pointer back to a valid record.</span></span>
 
-<span data-ttu-id="d9d18-145">Использование методов **поиска** с Microsoft Access базы данных подключен модуль доступ к ODBC наборов записей может быть неэффективны.</span><span class="sxs-lookup"><span data-stu-id="d9d18-145">Using the **Find** methods with Microsoft Access database engine-connected ODBC-accessed recordsets can be inefficient.</span></span> <span data-ttu-id="d9d18-146">Может оказаться, что перефразирования заданные критерии для поиска конкретной записи быстрее, особенно при работе с больших наборов записей.</span><span class="sxs-lookup"><span data-stu-id="d9d18-146">You may find that rephrasing your criteria to locate a specific record is faster, especially when working with large recordsets.</span></span>
+<span data-ttu-id="64fa3-145">Использование методов **Find** с наборами записей, доступ к которым осуществляется через ODBC с подключением к ядру СУБД Microsoft Access, может быть неэффективным.</span><span class="sxs-lookup"><span data-stu-id="64fa3-145">Using the **Find** methods with Microsoft Access database engine-connected ODBC-accessed recordsets can be inefficient.</span></span> <span data-ttu-id="64fa3-146">Может оказаться, что изменение условий поиска определенной записи выполняется быстрее, особенно при работе с большими наборами записей.</span><span class="sxs-lookup"><span data-stu-id="64fa3-146">You may find that rephrasing your criteria to locate a specific record is faster, especially when working with large recordsets.</span></span>
 
-<span data-ttu-id="d9d18-147">В рабочей области технология ODBCDirect **Поиск** и методы **Seek** недоступны на любой тип объекта **набора записей** , поскольку выполняется **Поиск** или **Seek** через подключения ODBC не является очень эффективным по сети.</span><span class="sxs-lookup"><span data-stu-id="d9d18-147">In an ODBCDirect workspace, the **Find** and **Seek** methods are not available on any type of **Recordset** object, because executing a **Find** or **Seek** through an ODBC connection is not very efficient over the network.</span></span> <span data-ttu-id="d9d18-148">Вместо этого следует разрабатывать запроса (с использованием исходный аргумент методу **OpenRecordset** ) с соответствующее предложение WHERE, который ограничивает число возвращаемых записей только те, которые соответствуют требованиям в противном случае используется в поле **поиска** или Метод **поиска** .</span><span class="sxs-lookup"><span data-stu-id="d9d18-148">Instead, you should design the query (that is, using the source argument to the **OpenRecordset** method) with an appropriate WHERE clause that restricts the returned records to only those that meet the criteria you would otherwise use in a **Find** or **Seek** method.</span></span>
+<span data-ttu-id="64fa3-147">В рабочей области ODBCDirect методы **Find** и **Seek** недоступны для объектов **Recordset** любых типов, так как выполнение методов **Find** и **Seek** через подключение ODBC по сети не очень эффективно.</span><span class="sxs-lookup"><span data-stu-id="64fa3-147">In an ODBCDirect workspace, the **Find** and **Seek** methods are not available on any type of **Recordset** object, because executing a **Find** or **Seek** through an ODBC connection is not very efficient over the network.</span></span> <span data-ttu-id="64fa3-148">Вместо этого следует составить запрос (то есть использовать аргумент source метода **OpenRecordset**) с соответствующим предложением WHERE, благодаря которому будут возвращаться только записи, отвечающие условиям, которые в ином случае использовались бы в методе **Find** или **Seek**.</span><span class="sxs-lookup"><span data-stu-id="64fa3-148">Instead, you should design the query (that is, using the source argument to the **OpenRecordset** method) with an appropriate WHERE clause that restricts the returned records to only those that meet the criteria you would otherwise use in a **Find** or **Seek** method.</span></span>
 
-<span data-ttu-id="d9d18-149">При работе с базами данных ODBC подключением модуль базы данных Microsoft Access и больших добавляющий v объекты, может оказаться, что с помощью методов **поиска** или **сортировки** или **фильтрации** свойство медленная.</span><span class="sxs-lookup"><span data-stu-id="d9d18-149">When working with Microsoft Access database engine-connected ODBC databases and large dynaset-type v objects, you might discover that using the **Find** methods or using the **Sort** or **Filter** property is slow.</span></span> <span data-ttu-id="d9d18-150">Для повышения производительности, использование запросов SQL с помощью настраиваемого ORDER BY или ГДЕ предложения, запросы с параметрами или **QueryDef** объектов, получения индексированных записей.</span><span class="sxs-lookup"><span data-stu-id="d9d18-150">To improve performance, use SQL queries with customized ORDER BY or WHERE clauses, parameter queries, or **QueryDef** objects that retrieve specific indexed records.</span></span>
+<span data-ttu-id="64fa3-149">При работе с базами данных ODBC, подключенными к ядру СУБД Microsoft Access, и большими объектами типа "Динамический набор" может оказаться, что методы **Find** или свойства **Sort** и **Filter** работают медленно.</span><span class="sxs-lookup"><span data-stu-id="64fa3-149">When working with Microsoft Access database engine-connected ODBC databases and large dynaset-type v objects, you might discover that using the **Find** methods or using the **Sort** or **Filter** property is slow.</span></span> <span data-ttu-id="64fa3-150">Чтобы повысить производительность, используйте SQL-запросы с настроенными предложениями ORDER BY или WHERE, запросы параметров или объекты **QueryDef**, возвращающие определенные индексированные записи.</span><span class="sxs-lookup"><span data-stu-id="64fa3-150">To improve performance, use SQL queries with customized ORDER BY or WHERE clauses, parameter queries, or **QueryDef** objects that retrieve specific indexed records.</span></span>
 
-<span data-ttu-id="d9d18-151">Следует использовать формат даты США (месяц день года) при выполнении поиска для полей, содержащих даты, даже в том случае, если вы не используете США версии ядра СУБД Microsoft Access; в противном случае данных может быть не найдена.</span><span class="sxs-lookup"><span data-stu-id="d9d18-151">You should use the U.S. date format (month-day-year) when you search for fields containing dates, even if you're not using the U.S. version of the Microsoft Access database engine; otherwise, the data may not be found.</span></span> <span data-ttu-id="d9d18-152">Чтобы преобразовать дату, используйте функцию Visual Basic **Формат** .</span><span class="sxs-lookup"><span data-stu-id="d9d18-152">Use the Visual Basic **Format** function to convert the date.</span></span> <span data-ttu-id="d9d18-153">Пример:</span><span class="sxs-lookup"><span data-stu-id="d9d18-153">For example:</span></span>
+<span data-ttu-id="64fa3-151">При поиске полей, содержащих даты, следует использовать формат даты, применяемый в США (месяц, день, год), даже если вы не используете версию ядра СУБД Microsoft Access для США. В противном случае данные могут быть не найдены.</span><span class="sxs-lookup"><span data-stu-id="64fa3-151">You should use the U.S. date format (month-day-year) when you search for fields containing dates, even if you're not using the U.S. version of the Microsoft Access database engine; otherwise, the data may not be found.</span></span> <span data-ttu-id="64fa3-152">Используйте функцию **Format** в Visual Basic для преобразования даты.</span><span class="sxs-lookup"><span data-stu-id="64fa3-152">Use the Visual Basic **Format** function to convert the date.</span></span> <span data-ttu-id="64fa3-153">Пример:</span><span class="sxs-lookup"><span data-stu-id="64fa3-153">For example:</span></span>
 
 ```vb
     rstEmployees.FindFirst "HireDate > #" _ 
         & Format(mydate, 'm-d-yy' ) & "#" 
 ```
 
-<span data-ttu-id="d9d18-154">Если критерии состоит из строки объединяется с дробное значение и системных параметров укажите десятичных знаков например запятыми (, например strSQL = «PRICE \> "& lngPrice и lngPrice = 125,50), возникает ошибка при попытке вызов метода.</span><span class="sxs-lookup"><span data-stu-id="d9d18-154">If criteria is composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE \> " & lngPrice, and lngPrice = 125,50), an error occurs when you try to call the method.</span></span> <span data-ttu-id="d9d18-155">Это так, как во время объединения, номер будет преобразован в строку с помощью системы по умолчанию десятичных знаков и Microsoft Access SQL принимает только США десятичных знаков.</span><span class="sxs-lookup"><span data-stu-id="d9d18-155">This is because during concatenation, the number will be converted to a string using your system's default decimal character, and Microsoft Access SQL only accepts U.S. decimal characters.</span></span>
+<span data-ttu-id="64fa3-154">Если условие состоит из строки, объединенной с нецелочисленным значением, а параметры системы содержат десятичные символы, не используемые в США, например запятую (примеры: strSQL = "PRICE \> " & lngPrice и lngPrice = 125,50), то при попытке вызова метода возникнет ошибка.</span><span class="sxs-lookup"><span data-stu-id="64fa3-154">If source refers to an SQL statement composed of a string concatenated with a non-integer value, and the system parameters specify a non-U.S. decimal character such as a comma (for example, strSQL = "PRICE  "  lngPrice, and lngPrice = 125,50), an error occurs when you try to open the Recordset.</span></span> <span data-ttu-id="64fa3-155">Это связано с тем, что при объединении число будет преобразовано в строку при помощи используемого по умолчанию в вашей системе десятичного символа, а Microsoft Access SQL поддерживает только десятичные символы, используемые в США.</span><span class="sxs-lookup"><span data-stu-id="64fa3-155">This is because during concatenation, the number will be converted to a string using your system's default decimal character, and SQL only accepts U.S. decimal characters.</span></span>
 
 > [!NOTE]
-> - <span data-ttu-id="d9d18-156">Для достижения наилучшей производительности *критерии* должны быть либо форма "*поля* = *значение*" где индексированных полей в базовой таблицы или «*поля* как *префикс*» где *поле* — это *поле* индексированные поля в базовой таблицы и *префикс* — это строка поиска префикс (например, «КАРТИНКА \*»).</span><span class="sxs-lookup"><span data-stu-id="d9d18-156">For best performance, the *criteria* should be in either the form "*field* = *value*" where *field* is an indexed field in the underlying base table, or "*field* LIKE *prefix*" where *field* is an indexed field in the underlying base table and *prefix* is a prefix search string (for example, "ART\*").</span></span>
+> - <span data-ttu-id="64fa3-156">Для оптимальной производительности *условия* должны быть представлены в форме "*поле* = *значение*" (где *поле* — это индексированное поле в базовой таблице) или "*поле* LIKE *префикс*", где *поле* — это индексированное поле в базовой таблице, а *префикс* — префикс строки поиска (например, "ART\*").</span><span class="sxs-lookup"><span data-stu-id="64fa3-156">For best performance, the *criteria* should be in either the form "*field* = *value*" where *field* is an indexed field in the underlying base table, or "*field* LIKE *prefix*" where *field* is an indexed field in the underlying base table and *prefix* is a prefix search string (for example, "ART\*").</span></span>
 > 
-> - <span data-ttu-id="d9d18-157">В общем случае для эквивалентные типы операций поиска метод **Seek** предоставляет лучшую производительность, чем методы **поиска** .</span><span class="sxs-lookup"><span data-stu-id="d9d18-157">In general, for equivalent types of searches, the **Seek** method provides better performance than the **Find** methods.</span></span> <span data-ttu-id="d9d18-158">Предполагается, что объекты **набора записей** в таблице типа сам по себе он удовлетворяет вашим требованиям.</span><span class="sxs-lookup"><span data-stu-id="d9d18-158">This assumes that table-type **Recordset** objects alone can satisfy your needs.</span></span>
+> - <span data-ttu-id="64fa3-157">Как правило, для эквивалентных типов поиска метод **Seek** обеспечивает более высокую производительность, чем метод **Find**.</span><span class="sxs-lookup"><span data-stu-id="64fa3-157">In general, for equivalent types of searches, the **Seek** method provides better performance than the **Find** methods.</span></span> <span data-ttu-id="64fa3-158">При этом предполагается, что для ваших потребностей будет достаточно объектов **Recordset** табличного типа.</span><span class="sxs-lookup"><span data-stu-id="64fa3-158">This assumes that table-type **Recordset** objects alone can satisfy your needs.</span></span>
 
 
-## <a name="example"></a><span data-ttu-id="d9d18-159">Пример</span><span class="sxs-lookup"><span data-stu-id="d9d18-159">Example</span></span>
+## <a name="example"></a><span data-ttu-id="64fa3-159">Пример</span><span class="sxs-lookup"><span data-stu-id="64fa3-159">Example</span></span>
 
-<span data-ttu-id="d9d18-160">Следующем примере показано, как использовать методы FindFirst и FindNext для поиска записей в наборе записей.</span><span class="sxs-lookup"><span data-stu-id="d9d18-160">The following example shows how to use the FindFirst and FindNext methods to find a record in a Recordset.</span></span>
+<span data-ttu-id="64fa3-160">В приведенном ниже примере показано, как использовать методы FindFirst и FindNext для поиска записи в Recordset.</span><span class="sxs-lookup"><span data-stu-id="64fa3-160">The following example shows how to use the FindFirst and FindNext methods to find a record in a Recordset.</span></span>
 
-<span data-ttu-id="d9d18-161">**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="d9d18-161">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
+<span data-ttu-id="64fa3-161">**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span><span class="sxs-lookup"><span data-stu-id="64fa3-161">**Sample code provided by** the [Microsoft Access 2010 Programmer’s Reference](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).</span></span>
 
 
 ```vb

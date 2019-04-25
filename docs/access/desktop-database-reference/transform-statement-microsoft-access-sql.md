@@ -1,5 +1,5 @@
 ---
-title: Преобразование оператора (Microsoft Access SQL)
+title: Инструкция TRANSFORM (Microsoft Access SQL)
 TOCTitle: TRANSFORM statement (Microsoft Access SQL)
 ms:assetid: 419770b1-c833-959d-a84d-56c68764799f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192901(v=office.15)
@@ -12,23 +12,23 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 9abe91d4ce6996a725e246da6922015d15a8bd39
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711961"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314044"
 ---
-# <a name="transform-statement-microsoft-access-sql"></a><span data-ttu-id="f508b-102">Преобразование оператора (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="f508b-102">TRANSFORM statement (Microsoft Access SQL)</span></span>
+# <a name="transform-statement-microsoft-access-sql"></a><span data-ttu-id="30189-102">Инструкция TRANSFORM (Microsoft Access SQL)</span><span class="sxs-lookup"><span data-stu-id="30189-102">TRANSFORM Statement (Microsoft Access SQL)</span></span>
 
-<span data-ttu-id="f508b-103">**Применимо к**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f508b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="30189-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="30189-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f508b-104">Создание запроса.</span><span class="sxs-lookup"><span data-stu-id="f508b-104">Creates a crosstab query.</span></span>
+<span data-ttu-id="30189-104">Создает перекрестный запрос.</span><span class="sxs-lookup"><span data-stu-id="30189-104">Creates a crosstab query.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="f508b-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f508b-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="30189-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="30189-105">Syntax</span></span>
 
-<span data-ttu-id="f508b-106">ПРЕОБРАЗОВАНИЕ *aggfunctionselectstatement* PIVOT *сводных полей* \[IN (*значение1*\[, *значение2*\[,... \]\])\]</span><span class="sxs-lookup"><span data-stu-id="f508b-106">TRANSFORM *aggfunctionselectstatement* PIVOT *pivotfield* \[IN (*value1*\[, *value2*\[, …\]\])\]</span></span>
+<span data-ttu-id="30189-106">TRANSFORM *агрегатная_функция инструкция_select* PIVOT *поле_сводной_таблицы* \[IN (*значение1*\[, *значение2*\[, ...\]\])\]</span><span class="sxs-lookup"><span data-stu-id="30189-106">TRANSFORM *aggfunctionselectstatement* PIVOT *pivotfield* \[IN (*value1*\[, *value2*\[, …\]\])\]</span></span>
 
-<span data-ttu-id="f508b-107">Оператор ПРЕОБРАЗОВАНИЯ состоит из следующих частей:</span><span class="sxs-lookup"><span data-stu-id="f508b-107">The TRANSFORM statement has these parts:</span></span>
+<span data-ttu-id="30189-107">Инструкция TRANSFORM состоит из следующих элементов:</span><span class="sxs-lookup"><span data-stu-id="30189-107">The SELECT statement has these parts:</span></span>
 
 <table>
 <colgroup>
@@ -37,41 +37,41 @@ ms.locfileid: "28711961"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="f508b-108">Часть</span><span class="sxs-lookup"><span data-stu-id="f508b-108">Part</span></span></p></th>
-<th><p><span data-ttu-id="f508b-109">Описание</span><span class="sxs-lookup"><span data-stu-id="f508b-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="30189-108">Часть</span><span class="sxs-lookup"><span data-stu-id="30189-108">Part</span></span></p></th>
+<th><p><span data-ttu-id="30189-109">Описание</span><span class="sxs-lookup"><span data-stu-id="30189-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="f508b-110"><em>aggfunction</em></span><span class="sxs-lookup"><span data-stu-id="f508b-110"><em>aggfunction</em></span></span></p></td>
-<td><p><span data-ttu-id="f508b-111"><a href="sql-aggregate-functions-sql.md">Статистические функции SQL</a> , которая работает на выбранные данные.</span><span class="sxs-lookup"><span data-stu-id="f508b-111">An <a href="sql-aggregate-functions-sql.md">SQL aggregate function</a> that operates on the selected data.</span></span></p></td>
+<td><p><span data-ttu-id="30189-110"><em>агрегатная_функция</em></span><span class="sxs-lookup"><span data-stu-id="30189-110"><em>aggfunction</em></span></span></p></td>
+<td><p><span data-ttu-id="30189-111"><a href="sql-aggregate-functions-sql.md">Агрегатная функция SQL</a>, обрабатывающая выбранные данные.</span><span class="sxs-lookup"><span data-stu-id="30189-111">An <a href="sql-aggregate-functions-sql.md">SQL aggregate function</a> that operates on the selected data.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f508b-112"><em>selectstatement</em></span><span class="sxs-lookup"><span data-stu-id="f508b-112"><em>selectstatement</em></span></span></p></td>
-<td><p><span data-ttu-id="f508b-113">Инструкция <a href="select-statement-microsoft-access-sql.md">SELECT</a> .</span><span class="sxs-lookup"><span data-stu-id="f508b-113">A <a href="select-statement-microsoft-access-sql.md">SELECT</a> statement.</span></span></p></td>
+<td><p><span data-ttu-id="30189-112"><em>инструкция_select</em></span><span class="sxs-lookup"><span data-stu-id="30189-112"><em>selectstatement</em></span></span></p></td>
+<td><p><span data-ttu-id="30189-113">Инструкция <a href="select-statement-microsoft-access-sql.md">SELECT</a>.</span><span class="sxs-lookup"><span data-stu-id="30189-113">A <a href="select-statement-microsoft-access-sql.md">SELECT</a> statement.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="f508b-114"><em>сводных полей</em></span><span class="sxs-lookup"><span data-stu-id="f508b-114"><em>pivotfield</em></span></span></p></td>
-<td><p><span data-ttu-id="f508b-115">Поле или выражение, которое будет использоваться для создания заголовков столбцов в результирующем наборе.</span><span class="sxs-lookup"><span data-stu-id="f508b-115">The field or expression you want to use to create column headings in the query's result set.</span></span></p></td>
+<td><p><span data-ttu-id="30189-114"><em>поле_сводной_таблицы</em></span><span class="sxs-lookup"><span data-stu-id="30189-114"><em>PivotField</em></span></span></p></td>
+<td><p><span data-ttu-id="30189-115">Поле или выражение, которое нужно использовать для создания заголовков столбцов в наборе результатов запроса.</span><span class="sxs-lookup"><span data-stu-id="30189-115">The field or expression you want to use to create column headings in the query's result set.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="f508b-116"><em>value1</em>, <em>value2</em></span><span class="sxs-lookup"><span data-stu-id="f508b-116"><em>value1</em>, <em>value2</em></span></span></p></td>
-<td><p><span data-ttu-id="f508b-117">Фиксированные значения, используемые для создания заголовков столбцов.</span><span class="sxs-lookup"><span data-stu-id="f508b-117">Fixed values used to create column headings.</span></span></p></td>
+<td><p><span data-ttu-id="30189-116"><em>значение1</em>, <em>значение2</em></span><span class="sxs-lookup"><span data-stu-id="30189-116"><em>value1</em>, <em>value2</em></span></span></p></td>
+<td><p><span data-ttu-id="30189-117">Фиксированные значения, используемые для создания заголовков столбцов.</span><span class="sxs-lookup"><span data-stu-id="30189-117">Fixed values used to create column headings.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="remarks"></a><span data-ttu-id="f508b-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="f508b-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="30189-118">Примечания</span><span class="sxs-lookup"><span data-stu-id="30189-118">Remarks</span></span>
 
-<span data-ttu-id="f508b-119">Сведение данных с помощью перекрестного запроса, чтобы выбрать значения из указанного поля или выражения как заголовок столбца, чтобы просмотреть данные в формате compact более чем с запроса.</span><span class="sxs-lookup"><span data-stu-id="f508b-119">When you summarize data using a crosstab query, you select values from specified fields or expressions as column headings so you can view data in a more compact format than with a select query.</span></span>
+<span data-ttu-id="30189-119">При суммировании данных с помощью перекрестного запроса значения выбираются из указанных полей или выражений, например из заголовков столбцов. Таким образом, данные отображаются в более сжатом формате, чем при использовании запроса на выборку.</span><span class="sxs-lookup"><span data-stu-id="30189-119">When you summarize data using a crosstab query, you select values from specified fields or expressions as column headings so you can view data in a more compact format than with a select query.</span></span>
 
-<span data-ttu-id="f508b-120">Преобразование обязательно инструкцию в строке SQL.</span><span class="sxs-lookup"><span data-stu-id="f508b-120">TRANSFORM is optional but when included is the first statement in an SQL string.</span></span> <span data-ttu-id="f508b-121">Он предшествует ВЫБЕРИТЕ оператор, который определяет поля, которые используются как [предложение сортировку строк](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) и заголовков строк.</span><span class="sxs-lookup"><span data-stu-id="f508b-121">It precedes a SELECT statement that specifies the fields used as row headings and a [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) clause that specifies row grouping.</span></span> <span data-ttu-id="f508b-122">Кроме того можно включить другие предложения, например, [ГДЕ](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), которые задают дополнительные выделения или критериев сортировки.</span><span class="sxs-lookup"><span data-stu-id="f508b-122">Optionally, you can include other clauses, such as [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), that specify additional selection or sorting criteria.</span></span> <span data-ttu-id="f508b-123">Вы можете также включить —, особенно в предложении WHERE — в запросе перекрестного.</span><span class="sxs-lookup"><span data-stu-id="f508b-123">You can also use subqueries as predicates — specifically, those in the WHERE clause — in a crosstab query.</span></span>
+<span data-ttu-id="30189-120">Инструкция TRANSFORM является необязательной, но если она используется, она должна быть первой инструкцией в строке SQL.</span><span class="sxs-lookup"><span data-stu-id="30189-120">TRANSFORM is optional but when included is the first statement in an SQL string.</span></span> <span data-ttu-id="30189-121">Она предшествует инструкции SELECT, в которой задаются поля, используемые в качестве заголовков строк, и предложению [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql), определяющему группировку строк.</span><span class="sxs-lookup"><span data-stu-id="30189-121">It precedes a SELECT statement that specifies the fields used as row headings and a [GROUP BY](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/group-by-clause-microsoft-access-sql) clause that specifies row grouping.</span></span> <span data-ttu-id="30189-122">При необходимости вы можете добавить другие предложения, например [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), чтобы задать дополнительные условия выбора или сортировки.</span><span class="sxs-lookup"><span data-stu-id="30189-122">Optionally, you can include other clauses, such as [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql), that specify additional selection or sorting criteria.</span></span> <span data-ttu-id="30189-123">В перекрестном запросе также можно использовать вложенные запросы в качестве предикатов, например в предложении WHERE.</span><span class="sxs-lookup"><span data-stu-id="30189-123">You can also use subqueries as predicates — specifically, those in the WHERE clause — in a crosstab query.</span></span>
 
-<span data-ttu-id="f508b-124">Значения, возвращаемые в *сводных полей* используются в качестве заголовков столбцов в набор результатов запроса.</span><span class="sxs-lookup"><span data-stu-id="f508b-124">The values returned in *pivotfield* are used as column headings in the query's result set.</span></span> <span data-ttu-id="f508b-125">Например сведения о продажах и месяца продажи в запросе перекрестного будет создано 12 столбцов.</span><span class="sxs-lookup"><span data-stu-id="f508b-125">For example, pivoting the sales figures on the month of the sale in a crosstab query would create 12 columns.</span></span> <span data-ttu-id="f508b-126">Можно ограничить *сводных полей* для создания заголовков с фиксированными значениями (*значение1*, *значение2* ), перечисленные в необязательном предложении.</span><span class="sxs-lookup"><span data-stu-id="f508b-126">You can restrict *pivotfield* to create headings from fixed values (*value1*, *value2* ) listed in the optional IN clause.</span></span> <span data-ttu-id="f508b-127">Также можно включить фиксированные значения, для которых не содержит данных для создания дополнительных столбцов.</span><span class="sxs-lookup"><span data-stu-id="f508b-127">You can also include fixed values for which no data exists to create additional columns.</span></span>
+<span data-ttu-id="30189-124">Значения, возвращаемые *полем_сводной_таблицы*, используются в качестве заголовков столбцов в результирующем наборе записей.</span><span class="sxs-lookup"><span data-stu-id="30189-124">The values returned in *pivotfield* are used as column headings in the query's result set.</span></span> <span data-ttu-id="30189-125">Например, при сведении данных объемов продаж и месяца продажи в перекрестном запросе будет создано 12 столбцов.</span><span class="sxs-lookup"><span data-stu-id="30189-125">For example, pivoting the sales figures on the month of the sale in a crosstab query would create 12 columns.</span></span> <span data-ttu-id="30189-126">Вы можете ограничить действие *поля_сводной_таблицы* и создать заголовки, используя фиксированные значения (*значение1*, *значение2*), указанные в необязательном предложении IN.</span><span class="sxs-lookup"><span data-stu-id="30189-126">You can restrict *pivotfield* to create headings from fixed values (*value1*, *value2* ) listed in the optional IN clause.</span></span> <span data-ttu-id="30189-127">Чтобы создать дополнительные столбцы, можно ввести фиксированные значения, для которых не существует данных.</span><span class="sxs-lookup"><span data-stu-id="30189-127">You can also include fixed values for which no data exists to create additional columns.</span></span>
 
-## <a name="example"></a><span data-ttu-id="f508b-128">Пример</span><span class="sxs-lookup"><span data-stu-id="f508b-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="30189-128">Пример</span><span class="sxs-lookup"><span data-stu-id="30189-128">Example</span></span>
 
-<span data-ttu-id="f508b-129">В этом примере используется предложение ПРЕОБРАЗОВАНИЯ SQL для создания перекрестного запроса, отражающая число заказов на каждого сотрудника, занимаемых для каждого Календарный квартал 1994.</span><span class="sxs-lookup"><span data-stu-id="f508b-129">This example uses the SQL TRANSFORM clause to create a crosstab query showing the number of orders taken by each employee for each calendar quarter of 1994.</span></span> <span data-ttu-id="f508b-130">Функция SQLTRANSFORMOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="f508b-130">The SQLTRANSFORMOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="30189-129">В этом примере используется предложение SQL TRANSFORM, чтобы создать перекрестный запрос, показывающий количество заказов, принятых каждым сотрудником, за каждый календарный квартал 1994 года.</span><span class="sxs-lookup"><span data-stu-id="30189-129">This example uses the SQL TRANSFORM clause to create a crosstab query showing the number of orders taken by each employee for each calendar quarter of 1994.</span></span> <span data-ttu-id="30189-130">Для запуска этой процедуры необходима функция SQLTRANSFORMOutput.</span><span class="sxs-lookup"><span data-stu-id="30189-130">The SortOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub TransformX1() 
@@ -109,7 +109,7 @@ ms.locfileid: "28711961"
 
 <br/>
 
-<span data-ttu-id="f508b-131">В этом примере используется предложение ПРЕОБРАЗОВАНИЯ SQL для создания немного сложнее перекрестного запроса, отображение доллар общее количество заказов, занимаемых каждого сотрудника для каждого Календарный квартал 1994.</span><span class="sxs-lookup"><span data-stu-id="f508b-131">This example uses the SQL TRANSFORM clause to create a slightly more complex crosstab query showing the total dollar amount of orders taken by each employee for each calendar quarter of 1994.</span></span> <span data-ttu-id="f508b-132">Функция SQLTRANSFORMOutput является обязательным для выполнения этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="f508b-132">The SQLTRANSFORMOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="30189-131">В этом примере используется предложение SQL TRANSFORM, чтобы создать немного более сложный перекрестный запрос, показывающий общую сумму (в долларах) заказов, принятых каждым сотрудником, за каждый календарный квартал 1994 года.</span><span class="sxs-lookup"><span data-stu-id="30189-131">This example uses the SQL TRANSFORM clause to create a slightly more complex crosstab query showing the total dollar amount of orders taken by each employee for each calendar quarter of 1994.</span></span> <span data-ttu-id="30189-132">Для запуска этой процедуры необходима функция SQLTRANSFORMOutput.</span><span class="sxs-lookup"><span data-stu-id="30189-132">The AddName function is required for this procedure to run.</span></span>
 
 ```vb
     Sub TransformX2() 
