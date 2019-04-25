@@ -1,5 +1,5 @@
 ---
-title: Свойства набора записей (DAO)
+title: Свойства объекта Recordset (DAO)
 TOCTitle: Properties
 ms:assetid: 37114a17-3737-4995-b35d-dd64c75b5ed2
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124336(v=office.15)
@@ -8,15 +8,15 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: dc5329b9c320a98076c4dad88c4681cdd10fba7e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707369"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32300408"
 ---
-# <a name="recordset-properties-dao"></a>Свойства набора записей (DAO)
+# <a name="recordset-properties-dao"></a>Свойства объекта Recordset (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
 - [Свойство Recordset.AbsolutePosition (DAO)](recordset-absoluteposition-property-dao.md)
 - [Свойство Recordset.BatchCollisionCount (DAO)](recordset-batchcollisioncount-property-dao.md)

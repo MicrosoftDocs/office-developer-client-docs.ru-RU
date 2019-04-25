@@ -1,5 +1,5 @@
 ---
-title: Описание PARAMETERS (Microsoft Access SQL)
+title: Объявление ARAMETERS (Microsoft Access SQL)
 TOCTitle: PARAMETERS declaration (Microsoft Access SQL)
 ms:assetid: 0dcaad68-6a5f-93dc-e62a-b82b36e1e69c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845220(v=office.15)
@@ -14,24 +14,24 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: d78a6c043e99af1ca50ca798b94088400fd09f0d
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28707775"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287869"
 ---
-# <a name="parameters-declaration-microsoft-access-sql"></a>Описание PARAMETERS (Microsoft Access SQL)
+# <a name="parameters-declaration-microsoft-access-sql"></a>Объявление ARAMETERS (Microsoft Access SQL)
 
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Объявляет имя и тип данных для каждого параметра в запросе с параметрами.
+Используется для описания имен и типов данных параметров в запросе с параметрами.
 
 ## <a name="syntax"></a>Синтаксис
 
-Параметры *типа данных имя* \[, *тип данных имя* \[,...\]\]
+PARAMETERS *name datatype* \[, *name datatype* \[, ...\]\]
 
-Описание PARAMETERS состоит из следующих частей:
+Объявление PARAMETERS включает следующие элементы:
 
 <table>
 <colgroup>
@@ -47,29 +47,29 @@ ms.locfileid: "28707775"
 <tbody>
 <tr class="odd">
 <td><p><em>name</em></p></td>
-<td><p>Имя параметра. Назначается свойство <strong>Name</strong> объекта <strong>параметра</strong> и используется для идентификации этого параметра в коллекции <strong>параметров</strong> . Можно использовать <em>имя</em> как строка, которая отображается в диалоговом окне во время запроса приложением. Используйте скобки ([]), чтобы заключить текст, который содержит пробелов и знаков препинания. Например, [Низкая цена] и [приступить к отчет с какой month?] — допустимое <em>имя</em> аргументов.</p></td>
+<td><p>Имя параметра. Присваивается свойству <strong>Name</strong> объекта <strong>Parameter</strong> и используется для его идентификации в коллекции <strong>Parameters</strong>. Параметр <em>name</em> можно вывести в диалоговом окне во время обработки запроса приложением. Текст, содержащий пробелы или знаки пунктуации, необходимо заключить в квадратные скобки ([ ]). Например, [Низкая цена] или [С какого месяца начинать составление отчета?] — допустимые значения аргумента <em>name</em>.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Тип данных</em></p></td>
-<td><p>Одна из основных <a href="sql-data-types.md">типов данных Microsoft Access SQL</a> или их синонимы.</p></td>
+<td><p><em>datatype</em></p></td>
+<td><p>Один из основных <a href="sql-data-types.md">типов данных Microsoft Access SQL</a> или их синонимов.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для запросов, на которых выполняется регулярно можно использовать параметры объявления для создания запроса с параметрами. Параметр запроса может помочь автоматизировать процесс изменения условия запроса. С помощью параметра запроса кода потребуется для предоставления параметров при каждом выполнении запроса.
+Объявление PARAMETERS можно использовать для создания регулярно выполняемых запросов с параметрами. Запрос с параметрами позволяет автоматически вносить изменения в условия запроса. При использовании запросов с параметрами программа должна запрашивать параметры при каждом выполнении запроса.
 
-Описание PARAMETERS обязательно предшествует любой другой инструкции, включая [Выбор](select-statement-microsoft-access-sql.md).
+Использование объявления PARAMETERS не является обязательным. Если оно используется, объявление PARAMETERS должно предшествовать всем остальным инструкциям, в том числе [SELECT](select-statement-microsoft-access-sql.md).
 
-Если объявление включает несколько параметров, разделяйте их запятыми. Следующий пример включает в себя два параметра:
+Если параметров в объявлении несколько, их необходимо разделять запятыми. В приведенном ниже примере использованы два параметра.
 
 ```sql
 PARAMETERS [Low price] Currency, [Beginning date] DateTime;
 ```
 
-*Имя* , но не *тип данных* можно использовать в предложении [ГДЕ](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) или [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) . В следующем примере описаны два параметра предоставляемую и применено условие в записи в таблице Orders:
+В предложении [WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql) или [HAVING](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/having-clause-microsoft-access-sql) нельзя использовать *datatype*, но можно использовать *name*. В следующем примере ожидается ввод двух параметров, которые затем используются в качестве условий отбора записей в таблице Orders:
 
 ```sql
 PARAMETERS [Low price] Currency, 
@@ -82,9 +82,9 @@ AND OrderDate >= [Beginning date];
 
 ## <a name="example"></a>Пример
 
-В этом примере пользователю требуется укажите название задания, а затем использует данной должности как критерии для запроса.
+В этом примере пользователю нужно указать должность, которая затем используется в качестве условия запроса.
 
-Он вызывает процедуру EnumFields, которые можно найти в примере [оператор SELECT](select-statement-microsoft-access-sql.md) .
+В этом примере выполняется вызов процедуры EnumFields, который вы можете найти в примере для [инструкции SELECT](select-statement-microsoft-access-sql.md).
 
 ```vb
     Sub ParametersX() 

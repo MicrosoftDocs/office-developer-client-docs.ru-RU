@@ -15,11 +15,11 @@ ms.assetid: db78a09c-ebef-47cc-8623-40abe117aa08
 description: Эта статья содержит таблицы кодов ошибок для интерфейса Project Server (PSI) в Project Server 2013. Таблицы упорядочены по функциональным областям и по диапазонам кодов ошибок.
 localization_priority: Priority
 ms.openlocfilehash: c61821bcb85fa3bd83601659850577eaa93eda61
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705598"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32301479"
 ---
 # <a name="project-server-error-codes"></a>Коды ошибок Project Server
 
@@ -156,7 +156,7 @@ ms.locfileid: "28705598"
 |GeneralInvalidObject = 20009  <br/> |Недопустимый объект.  <br/> |
 |GeneralSecurityAccessDenied = 20010  <br/> |Отказ в доступе из-за разрешений безопасности.  <br/> |
 |GeneralInvalidOperation = 20011  <br/> |Недопустимая операция.  <br/> |
-|GeneralInvalidCharacters = 20012  <br/> |Некоторые символы являются недопустимыми. Кроме символа табуляции, в имени проекта нельзя использовать следующие символы: `\ / " : ; < > | , . ' ? * #` <br/> |
+|GeneralInvalidCharacters = 20012  <br/> |Некоторые символы являются недопустимыми. Кроме символа табуляции, в имени проекта не допускается использование следующих символов: `\ / " : ; < > | , . ' ? * #`. <br/> |
 |GeneralNameTooLong = 20013  <br/> |Слишком длинное имя.  <br/> |
 |GeneralNameCannotBeBlank = 20014  <br/> |Имя не может быть пустым. Не используйте значение NULL или пустую строку.  <br/> |
 |GeneralInvalidOperationOnReadOnlyValue = 20016  <br/> |Запрошенная операция со значением, доступным только для чтения, не является допустимой.  <br/> |

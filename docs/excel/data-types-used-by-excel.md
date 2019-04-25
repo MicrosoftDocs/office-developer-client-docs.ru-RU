@@ -10,11 +10,11 @@ ms.assetid: 8740a8fb-ad67-4232-a49b-d78967a786c2
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 localization_priority: Priority
 ms.openlocfilehash: c546fc80b212301689744d3279a59733d9cc5524
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710610"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32310908"
 ---
 # <a name="data-types-used-by-excel"></a>Типы данных, используемые в Excel
 
@@ -90,9 +90,9 @@ ms.locfileid: "28710610"
 |[signed] short [int]  <br/> |I  <br/> |M  <br/> |16-разрядный  <br/> |
 |[signed long] int  <br/> |J  <br/> |N  <br/> |32-разрядный  <br/> |
 |Array  <br/> ||O  <br/> | Передается по ссылке в виде трех аргументов:  <br/>1. short int \*rows  <br/>2. short int \*columns  <br/>3. double \*array  <br/> |
-|Array  <br/> (������� � Excel�2007)  <br/> ||O%  <br/> | Передается по ссылке в виде трех аргументов:  <br/>1. int \*rows  <br/>2. int \*columns  <br/>3. double \*array  <br/> |
+|Array  <br/> (начиная с Excel 2007)  <br/> ||O%  <br/> | Передается по ссылке в виде трех аргументов:  <br/>1. int \*rows  <br/>2. int \*columns  <br/>3. double \*array  <br/> |
 |FP  <br/> ||K  <br/> |Структура массива с плавающей запятой  <br/> |
-|FP12  <br/> (������� � Excel�2007)  <br/> ||K%  <br/> |Структура большого массива сетки с плавающей запятой  <br/> |
+|FP12  <br/> (начиная с Excel 2007)  <br/> ||K%  <br/> |Структура большого массива сетки с плавающей запятой  <br/> |
 |XLOPER  <br/> ||P  <br/> |Значения и массивы листа в виде переменной  <br/> |
 |||R  <br/> |Значения, массивы и ссылки на диапазон  <br/> |
 |XLOPER12  <br/> (������� � Excel�2007)  <br/> ||Q  <br/> |Значения и массивы листа в виде переменной  <br/> |

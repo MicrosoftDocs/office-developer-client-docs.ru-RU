@@ -8,23 +8,23 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: c19ef8ab8ef2e937ba7467b3695f9aa5780c21c0
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28711114"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32294983"
 ---
 # <a name="databasecreatequerydef-method-dao"></a>Метод Database.CreateQueryDef (DAO)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Создает новый объект **[QueryDef](querydef-object-dao.md)** .
+Создает новый объект **[QueryDef](querydef-object-dao.md)**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение* . CreateQueryDef (***имя***, ***SQLText***)
+*expression* .CreateQueryDef(***Name***, ***SQLText***)
 
-*выражение* Переменная, которая представляет собой объект **базы данных** .
+*выражение*: переменная, представляющая объект **Database**.
 
 ## <a name="parameters"></a>Параметры
 
@@ -38,7 +38,7 @@ ms.locfileid: "28711114"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательный или необязательный</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -46,15 +46,15 @@ ms.locfileid: "28711114"
 <tbody>
 <tr class="odd">
 <td><p><em>Name</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (<strong>String</strong> подтип), уникальным образом новые <strong>QueryDef</strong>.</p></td>
+<td><p>Объект типа <strong>Variant</strong> (подтип <strong>String</strong>), однозначно определяющий новый объект <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>SQLText</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (<strong>String</strong> подтип), которая является инструкцией SQL, определение <strong>QueryDef</strong>. Если опустить аргумент, можно определить <strong>QueryDef</strong> путем установки свойства <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> до или после добавления его в коллекцию.</p></td>
+<td><p>Объект <strong>Variant</strong> (подтип <strong>String</strong>), представляющий инструкцию SQL, которая определяет объект <strong>QueryDef</strong>. Если не указать этот аргумент, вы можете определить объект <strong>QueryDef</strong>, задав его свойство <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> до или после его добавления к коллекции.</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,23 +64,23 @@ ms.locfileid: "28711114"
 
 QueryDef
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-В рабочей области Microsoft Access Если вы укажите отличное от строку нулевой длины имени при создании **QueryDef**результирующего объекта **QueryDef** автоматически добавляется к коллекции **[QueryDefs](querydefs-collection-dao.md)** .
+В рабочей области Microsoft Access, если указать в качестве имени какое-либо значение, кроме строки нулевой длины, при создании объекта **QueryDef**, полученный объект **QueryDef** будет автоматически добавлен к коллекции **[QueryDefs](querydefs-collection-dao.md)**.
 
-Если объектом, заданным с именем уже должна быть членом **QueryDefs** коллекции, возникает ошибка времени выполнения. Временные **QueryDef** можно создать с помощью строку нулевой длины для аргумента имени, при выполнении метода **CreateQueryDef** . Это также можно сделать, задав свойство **[Name](querydef-name-property-dao.md)** только что созданный **QueryDef** в строку нулевой длины (»»). 
+Если объект, указанный по имени, уже является элементом коллекции **QueryDefs**, возникает ошибка во время выполнения. Вы можете создать временный объект **QueryDef**, указав в качестве имени строку нулевой длины при выполнении метода **CreateQueryDef**. Это также можно сделать, указав строку нулевой длины ("") в качестве значения свойства **[Name](querydef-name-property-dao.md)** нового объекта **QueryDef**. 
 
-Временные объекты **QueryDef** полезны, если требуется повторно использовать динамические инструкции SQL, не создавая для создания новых постоянных объектов в коллекции **QueryDefs** . Временные **QueryDef** невозможно добавить в любой коллекции, так как строку нулевой длины не является допустимым именем для постоянного объекта **QueryDef** . Всегда можно задать **имя** и свойства **SQL** объекта **QueryDef** только что созданный и затем добавьте **QueryDef** в коллекцию **QueryDefs** .
+Временные объекты **QueryDef** полезны, если требуется регулярно использовать динамические инструкции SQL, не создавая постоянных объектов в коллекции **QueryDefs**. Временный объект **QueryDef** невозможно добавить к какой-либо коллекции, так как строка нулевой длины не является допустимым именем постоянного объекта **QueryDef**. Вы всегда можете задать свойства **Name** и **SQL** нового объекта **QueryDef**, а затем добавить объект **QueryDef** к коллекции **QueryDefs**.
 
-Чтобы запустить инструкции SQL в объект **QueryDef** , используйте метод **[Execute](querydef-execute-method-dao.md)** или **[OpenRecordset](database-openrecordset-method-dao.md)** .
+Чтобы выполнить инструкцию SQL в объекте **QueryDef**, используйте метод **[Execute](querydef-execute-method-dao.md)** или **[OpenRecordset](database-openrecordset-method-dao.md)**.
 
-С помощью объекта **QueryDef** является предпочтительным для выполнения запросов к серверу с использованием баз данных ODBC.
+Использование объекта **QueryDef** является предпочтительным способом выполнения SQL-запросов к серверу с базами данных ODBC.
 
-Для удаления объекта **QueryDef** из коллекции **QueryDefs** в базе данных ядра базы данных Microsoft Access, используйте метод **[Delete](querydefs-delete-method-dao.md)** в семействе сайтов.
+Чтобы удалить объект **QueryDef** из коллекции **QueryDefs** в базе данных ядра СУБД Microsoft Access, используйте метод **[Delete](querydefs-delete-method-dao.md)** для этой коллекции.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется метод **CreateQueryDef** для создания и выполнения временное и постоянное **QueryDef**. Функция GetrstTemp является обязательным для выполнения этой процедуры.
+В этом примере используется метод **CreateQueryDef**, чтобы создать и выполнить временный и постоянный объекты **QueryDef**. Функция GetrstTemp необходима для запуска этой процедуры.
 
 ```vb
     Sub CreateQueryDefX() 
@@ -135,7 +135,7 @@ QueryDef
 
 <br/>
 
-В этом примере использует **CreateQueryDef** и **OpenRecordset** методы и свойства **SQL** для запроса к таблице заголовки в образце базы данных Pubs Microsoft SQL Server и вернуть название и идентификатор заголовка лидера продаж. Затем запрашивает таблицы авторов и указывает на отправку выполняется проверка премии каждого автора на его основе или совместно использовать свой прямые (общее вознаграждение равно 1000 долларов США и каждого автора должны принимать процент это значение).
+В этом примере используются методы **CreateQueryDef** и **OpenRecordset**, а также свойство **SQL**, чтобы отправить запрос к таблице названий в примере базы данных Pubs из Microsoft SQL Server и получить название самой продаваемой книги, а также его идентификатор. Затем этот пример отправляет запрос к таблице авторов и предлагает пользователю отправить премиальный чек каждому автору с учетом доли его лицензионных выплат (общая сумма премии составляет 1000 долл. США, а каждый автор должен получить определенный процент от этой суммы).
 
 ```vb 
 Sub ClientServerX2() 
@@ -203,9 +203,9 @@ End Sub
 
 <br/>
 
-Следующий пример демонстрирует создание запроса с параметрами. Запрос с именем **myQuery** создается с двумя параметрами, с именем Param1 и Param2. Для этого свойства SQL запроса значение оператор структурированный язык запросов (SQL), который определяет параметры.
+В приведенном ниже примере показано, как создать запрос с параметрами. Запрос с именем **myQuery** создается с двумя параметрами: Param1 и Param2. Для этого в качестве свойства SQL запроса задается инструкция языка SQL, определяющая параметры.
 
-**Пример кода предоставлен** [Справочник программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
+**Пример кода из** [справочника программиста Microsoft Access 2010](https://www.amazon.com/Microsoft-Access-2010-Programmers-Reference/dp/8126528125).
 
 ```vb
     Sub CreateQueryWithParameters()

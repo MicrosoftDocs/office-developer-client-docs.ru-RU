@@ -7,11 +7,11 @@ ms.assetid: ef88e30e-7537-488e-bc72-8da29810f7aa
 description: Используйте журнал телеметрии для Office 2013, чтобы выявить проблемы совместимости с Office 2013 и решениями для предыдущих версий Office.
 localization_priority: Priority
 ms.openlocfilehash: 3954662a9476dca0cbb9bf4b8197979783b7e11e
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28715167"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32346292"
 ---
 # <a name="troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log"></a>Устранение проблем с файлами Office и пользовательскими решениями при помощи журнала телеметрии
 
@@ -75,7 +75,7 @@ ms.locfileid: "28715167"
     
    - **Для Windows 7:** в меню **Пуск** выберите пункт **Все программы**, в списке программ разверните узел **Microsoft Office 2013**, узел **Office 2013 Tools** (Инструменты Office 2013), а затем щелкните элемент **Office 2013 Telemetry Log** (Журнал телеметрии Office 2013).
     
-     В Excel 2013 открывается новая книга с тремя листами  **События**, **Сведения о системе** и **Руководство**.
+     В Excel 2013 откроется новая книга. Она содержит три листа: **События**, **Сведения о системе** и **Руководство**.
     
    - **Для Windows 8:** проведите вверх для отображения панели приложения, выберите **All Apps** (Все приложения) и затем **Office 2013 Telemetry Log** (Журнал телеметрии Office 2013).
     
