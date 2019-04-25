@@ -1,5 +1,5 @@
 ---
-title: Событие макроса After Insert
+title: Событие макроса "После вставки"
 TOCTitle: After Insert macro event
 ms:assetid: 78013896-ee07-6979-96f7-fa0f3490419e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196099(v=office.15)
@@ -12,26 +12,26 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: c84a737d08b791bfe560bfe6af6bcc59a14d2678
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28716140"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32297223"
 ---
-# <a name="after-insert-macro-event"></a>Событие макроса After Insert
+# <a name="after-insert-macro-event"></a>Событие макроса "После вставки"
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-**После вставки** событие происходит после добавления записи.
+Событие макроса **После вставки** возникает после добавления записи.
 
 > [!NOTE]
-> События **После вставки** доступна только в макросов данных.
+> Событие **После вставки** доступно только в макросах данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Событие **После вставки** используется для выполнения действий, которые должны происходить при добавлении записи в таблицу. Чаще всего используется **После вставки** включают применение бизнес-правил, рабочие процессы, обновление общую сумму и отправки уведомлений.
+Используйте событие **После вставки**, чтобы выполнять любые действия, которые должны происходить при добавлении записи в таблицу. Распространенные варианты использования события **После вставки** включают применение бизнес-правил, рабочих процессов, обновление суммарного итогового значения и отправку уведомлений.
 
-Чтобы определить, изменился ли поле можно использовать функцию **Updated ("*Имя поля*")** . В следующем примере кода показано, как использовать, **Если** оператор, чтобы определить, определить, были ли изменены в поле PaidInFull.
+Вы можете использовать функцию **Updated("*Имя поля*")**, чтобы определить, изменилось ли поле. В следующем примере кода показано, как использовать инструкцию **If**, чтобы определить, изменилось ли поле PaidInFull.
 
 ```vb 
  
@@ -43,7 +43,7 @@ End If
  
 ```
 
-В следующей таблице перечислены команды макросов, которые можно использовать в событии**После вставки** .
+В следующей таблице перечислены макрокоманды, которые можно использовать в событии **После вставки**.
 
 <table>
 <colgroup>
@@ -53,117 +53,117 @@ End If
 <thead>
 <tr class="header">
 <th><p>Тип команды</p></th>
-<th><p>Command</p></th>
+<th><p>Команда</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Выполнение программы</p></td>
-<td><p><a href="comment-macro-statement.md">Оператор макроса Comment</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="comment-macro-statement.md">Оператор макроса "Примечание"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Выполнение программы</p></td>
-<td><p><a href="group-macro-statement.md">Оператор макроса Group</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="group-macro-statement.md">Оператор макроса "Группа"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Выполнение программы</p></td>
-<td><p><a href="if-then-else-macro-block.md">Блок макросов If...Then...Else</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="if-then-else-macro-block.md">Макроблок Если... То... Иначе</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
-<td><p><a href="createrecord-data-block.md">Действия макроса СоздатьЗапись</a></p></td>
+<td><p><a href="createrecord-data-block.md">Макрокоманда "СоздатьЗапись"</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Блок данных</p></td>
-<td><p><a href="editrecord-data-block.md">Действия макроса ИзменитьЗапись</a></p></td>
+<td><p><a href="editrecord-data-block.md">Макрокоманда "ИзменитьЗапись"</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
-<td><p><a href="foreachrecord-data-block.md">Действия макроса ДляКаждойЗаписи</a></p></td>
+<td><p><a href="foreachrecord-data-block.md">Макрокоманда "ДляКаждойЗаписи"</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Блок данных</p></td>
-<td><p><a href="lookuprecord-data-block.md">Блок данных макрокомандой НайтиЗапись, после</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Блок данных "НайтиЗапись"</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="cancelrecordchange-macro-action.md">Макрокоманда CancelRecordChange</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Макрокоманда "ОтменитьИзменениеЗаписи"</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Макрокоманда ClearMacroError</a></p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Макрокоманда "УстранитьОшибкуМакроса"</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="deleterecord-macro-action.md">Макрокоманда DeleteRecord</a></p></td>
+<td><p><a href="deleterecord-macro-action.md">Макрокоманда "УдалитьЗапись"</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="exitforeachrecord-macro-action.md">Макрокоманда ExitForEachRecord</a></p></td>
+<td><p><a href="exitforeachrecord-macro-action.md">Макрокоманда "ВыходДляКаждойЗаписи"</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="logevent-macro-action.md">Макрокоманда LogEvent</a></p></td>
+<td><p><a href="logevent-macro-action.md">Макрокоманда "РегистрацияСобытия"</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="onerror-macro-action.md">Макрокоманда OnError</a></p></td>
+<td><p><a href="onerror-macro-action.md">Макрокоманда "ПриОшибке"</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="raiseerror-macro-action.md">Макрокоманда RaiseError</a></p></td>
+<td><p><a href="raiseerror-macro-action.md">Макрокоманда "ВыводОшибки"</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="rundatamacro-macro-action.md">Макрокоманда RunDataMacro</a></p></td>
+<td><p><a href="rundatamacro-macro-action.md">Макрокоманда "ЗапускМакросаДанных"</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="sendemail-macro-action.md">Макрокоманда SendEmail</a></p></td>
+<td><p><a href="sendemail-macro-action.md">Макрокоманда "ОтправитьПочту"</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="setfield-macro-action.md">Макрокоманда SetField</a></p></td>
+<td><p><a href="setfield-macro-action.md">Макрокоманда "ЗадатьПоле"</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Макрокоманда SetLocalVar</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Макрокоманда "ЗадатьЛокПеременную"</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Действия с данными</p></td>
-<td><p><a href="stopallmacros-macro-action.md">Макрокоманда StopAllMacros</a></p></td>
+<td><p><a href="stopallmacros-macro-action.md">Макрокоманда "ОстановитьВсеМакросы"</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Действия с данными</p></td>
-<td><p><a href="stopmacro-macro-action.md">Макрокоманда StopMacro</a></p></td>
+<td><p><a href="stopmacro-macro-action.md">Макрокоманда "ОстановитьМакрос"</a></p></td>
 </tr>
 </tbody>
 </table>
 
 
-Чтобы создать макрос данных, который захватывает событие **После вставки** , выполните следующие действия.
+Чтобы создать макрос данных, который записывает событие **После вставки**, выполните следующие действия:
 
-1.  Откройте таблицу для записи события **После вставки** .
+1.  Откройте таблицу, для которой нужно записать событие **После вставки**.
 
-2.  На вкладке **таблицы** в группе **После событий** щелкните **После вставки**.
+2.  На вкладке **Таблица** в группе **После событий** щелкните **После вставки**.
 
-Макрос пустой данных отображается в конструктор макросов.
+В окне конструктора макросов отобразится пустой макрос данных.
 
 ## <a name="example"></a>Пример
 
-В следующем примере кода используется события **После вставки** для обработки некоторых при добавлении записи в таблице пожертвования. При добавлении записи объем пожертвования добавляется поле DonationsReceived в таблице кампании и TotalDonatedField в таблице дарители.
+В следующем примере кода используется событие **После вставки** для выполнения некоторой обработки при добавлении записи в таблицу Donations (Пожертвования). При добавлении записи сумма пожертвований добавляется в поле DonationsReceived таблицы Campaigns (Кампании) и TotalDonatedField таблицы Donors (Спонсоры).
 
 **Щелкните здесь, чтобы просмотреть копию макроса, который можно вставить в конструктор макросов.**
 
-Чтобы просмотреть в этом примере в конструктор макросов, выполните следующие действия:
+Чтобы просмотреть этот пример в конструкторе макросов, выполните следующие действия:
 
-1.  Откройте таблицу для записи события **После вставки** .
+1.  Откройте таблицу, для которой нужно записать событие **После вставки**.
 
-2.  На вкладке **таблицы** в группе **После событий** щелкните **После вставки**.
+2.  На вкладке **Таблица** в группе **После событий** щелкните **После вставки**.
 
-3.  Выберите код в следующем примере кода и нажмите клавиши CTRL + C для копирования его в буфер обмена.
+3.  Выделите код в следующем примере и нажмите клавиши CTRL+C, чтобы скопировать его в буфер обмена.
 
-4.  Активация окно конструктора макросов и нажмите клавиши CTRL + V.
+4.  Активируйте окно конструктора макросов и нажмите клавиши CTRL+V.
 
 <!-- end list -->
 

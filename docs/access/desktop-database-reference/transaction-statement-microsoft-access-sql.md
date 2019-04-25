@@ -1,5 +1,5 @@
 ---
-title: Оператор ТРАНЗАКЦИЙ (Microsoft Access SQL)
+title: Инструкция TRANSACTION (Microsoft Access SQL)
 TOCTitle: TRANSACTION statement (Microsoft Access SQL)
 ms:assetid: 481e807d-94e4-f201-adac-d25ee89d9220
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193241(v=office.15)
@@ -12,37 +12,37 @@ f1_categories:
 - Office.Version=v15
 localization_priority: Priority
 ms.openlocfilehash: 828bccfad83320d27f9473d532ab86f73b2fde98
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28705521"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32314149"
 ---
-# <a name="transaction-statement-microsoft-access-sql"></a>Оператор ТРАНЗАКЦИЙ (Microsoft Access SQL)
+# <a name="transaction-statement-microsoft-access-sql"></a>Инструкция TRANSACTION (Microsoft Access SQL)
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Используется для начинать и завершать явные операции.
+Позволяет начинать и завершать явные транзакции.
 
 ## <a name="syntax"></a>Синтаксис
 
-**Начало новой операции**:
+**Начало новой транзакции**:
 
-НАЧАТЬ ТРАНЗАКЦИЮ
+BEGIN TRANSACTION
 
-**Conclude транзакций с внесением всех рабочих выполнена во время операции**:
+**Завершение транзакции с возвращением результата, полученного во время нее**:
 
-ФИКСАЦИЯ \[ТРАНЗАКЦИЙ | РАБОТА\]
+COMMIT \[TRANSACTION | WORK\]
 
-**Conclude транзакций с помощью отката все действия выполняются во время операции**:
+**Завершение транзакции с отменой всех действий, выполненных во время нее**:
 
-ОТКАТ \[ТРАНЗАКЦИЙ | РАБОТА\]
+ROLLBACK \[TRANSACTION | WORK\]
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Не удалось автоматически запустить транзакции. Чтобы запустить операцию, необходимо выполнить явно использовать команду НАЧАТЬ ТРАНЗАКЦИЙ.
+Транзакции не запускаются автоматически. Чтобы запустить транзакцию, необходимо явно использовать команду BEGIN TRANSACTION.
 
-Операции могут быть вложенными до пяти уровней вложенности. Чтобы начать вложенных транзакций, используйте приступить к ТРАНЗАКЦИЙ в контексте существующей транзакции.
+У транзакций может быть до пяти уровней вложенности. Чтобы запустить вложенную транзакцию, используйте команду BEGIN TRANSACTION внутри существующей транзакции.
 
-Транзакции не поддерживаются для связанных таблиц.
+Транзакции не поддерживаются в связанных таблицах.
 

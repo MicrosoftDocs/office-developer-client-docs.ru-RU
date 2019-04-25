@@ -1,5 +1,5 @@
 ---
-title: Выражения SQL (Справочник по для настольных баз данных Access)
+title: Выражения SQL (справочник по базам данных Access на компьютере)
 TOCTitle: SQL expressions
 ms:assetid: 91722f18-8589-d9fc-79ef-0be4ab11f822
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197629(v=office.15)
@@ -8,20 +8,20 @@ ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Priority
 ms.openlocfilehash: 5bbe9718bfb18ced5f09d2a9396e1e0829d0d81b
-ms.sourcegitcommit: d6695c94415fa47952ee7961a69660abc0904434
-ms.translationtype: Auto
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 01/17/2019
-ms.locfileid: "28710547"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32308570"
 ---
 # <a name="sql-expressions"></a>Выражения SQL
 
-**Применимо к**: Access 2013, Office 2013
+**Область применения**: Access 2013, Office 2013
 
-Выражение SQL — это строка, которая значительно облегчает копирование полностью или частично инструкции SQL. Например метод **FindFirst** **целиком** использует выражение SQL, составляет выбора SQL [предложение WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql).
+Выражение SQL — это строка, из которой частично или полностью состоит инструкция SQL. Например, метод **FindFirst**, примененный к объекту **Recordset**, использует выражение SQL, состоящее из условий отбора в [предложении WHERE](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/where-clause-microsoft-access-sql).
 
-Ядро базы данных Microsoft Access используется служба выражений Microsoft Visual Basic для приложений (или VBA) для выполнения простых вычислений арифметические операторы и функции. Все операторы, используемые в выражения SQL ядра базы данных Microsoft Access (за исключением **[ **[между](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)** и **[как](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/like-operator-microsoft-access-sql)**)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-operator-microsoft-access-sql)** определены службы выражений VBA. Кроме того, VBA выражения, которые предлагает служба более 100 функций, которые можно использовать в выражениях SQL. Например эти функции VBA можно использовать для создания запроса SQL в режиме конструктора запроса Microsoft Access, и можно также использовать эти функции в SQL-запроса в методе DAO **OpenRecordset** в Microsoft Visual C++, Microsoft Visual Basic и Microsoft Код Excel.
+Для выполнения простых арифметических действий и вычисления функций ядро СУБД Microsoft Access использует Microsoft Visual Basic для приложений (VBA). При этом все операторы, используемые в выражениях SQL ядра СУБД Microsoft Access (за исключением **[Between](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**, **[In](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/in-operator-microsoft-access-sql)** и **[Like](https://docs.microsoft.com/office/vba/access/Concepts/Structured-Query-Language/like-operator-microsoft-access-sql)**), определяются службой выражений VBA. Кроме того, VBA позволяет использовать для выражений SQL более 100 функций VBA. Например, функции VBA можно использовать для создания запроса SQL в режиме конструктора запросов Microsoft Access, а также в режиме DAO с использованием метода **OpenRecordset** в коде Microsoft Visual C++, Microsoft Visual Basic и Microsoft Excel.
 
 ## <a name="see-also"></a>См. также
 
-- [Основные понятия Access VBA](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/concepts-access-vba-reference)
+- [Основные понятия VBA для Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/concepts-access-vba-reference)
