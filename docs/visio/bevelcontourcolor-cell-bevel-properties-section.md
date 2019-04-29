@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 90bc9be5-282e-4a84-9d8b-e11788070768
 description: Определяет цвет контура скоса в значении RGB или определяется активной темой.
 ms.openlocfilehash: df22f001dc7fa85e192ab93d5ff799a0b424aefe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327148"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428384"
 ---
 # <a name="bevelcontourcolor-cell-bevel-properties-section"></a>BevelContourColor Cell (Bevel Properties Section)
 
 Определяет цвет контура скоса в значении RGB или определяется активной темой.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку **BevelContourColor** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   

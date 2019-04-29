@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
 description: 'Дата последнего изменения: 03 июля, 2012'
 ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356975"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430310"
 ---
 # <a name="meid"></a>MEID
 
  
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Идентификатор элемента Outlook. Он содержит идентификатор записи и другую важную информацию.
   

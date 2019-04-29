@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1a8bbe0c-17d1-9349-4c63-f257faf4edda
 description: Получает предварительно заданный диапазон времени для перечисления блоков сведений о занятости для пользователя.
 ms.openlocfilehash: 26951ea6a885f8d0e5e6a2fb5bcf9a63069c7f44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317530"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430079"
 ---
 # <a name="ifreebusydatagetfbpublishrange"></a>IFreeBusyData::GetFBPublishRange
 
@@ -44,7 +44,7 @@ _Пртменд_
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Поставщик сведений о доступности вызывает [ифрибусидата:: енумблоккс](ifreebusydata-enumblocks.md) или [Ифрибусидата:: сетфбранже](ifreebusydata-setfbrange.md) , чтобы задать диапазон времени для перечисления. Если [ифрибусидата:: енумблоккс](ifreebusydata-enumblocks.md) или [Ифрибусидата:: сетфбранже](ifreebusydata-setfbrange.md) не вызывался, значения по умолчанию для **пртмстарт** и **Пртменд** должны быть заданы между 1 апреля 1601 00:00:00Z и 31 августа 4500 11:59:59Z соответственно. Кроме того, не следует устанавливать время начала, превышающее время окончания. 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f6877435-6b26-4060-924f-a65591ad9538
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: fd29afc93bc952bb619dfac752fae232bf7991cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327879"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437324"
 ---
 # <a name="pidtagipmsentmailentryid-canonical-property"></a>Каноническое свойство PidTagIpmSentMailEntryId
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор стандартной папки "Отправленные" сообщений об ошибках (IPM). 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32327879"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 После отправки межпользовательские сообщения обычно помещаются в папку "Отправленные". Клиент может использовать это свойство, чтобы задать свойство **пр_сентмаил_ентрид** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) для отправленного сообщения. 
   

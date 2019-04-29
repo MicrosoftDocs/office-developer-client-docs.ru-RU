@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 10979706-6dfe-5241-e862-3f94716d14fa
 description: Указывает процентное отношение для увеличения или уменьшения тени фигуры.
 ms.openlocfilehash: 9175e9a1148779524fdce96ff18eac22fe8dd421
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342884"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429007"
 ---
 # <a name="shdwscalefactor-cell-page-properties-section"></a>ShdwScaleFactor Cell (Page Properties Section)
 
 Указывает процентное отношение для увеличения или уменьшения тени фигуры. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Каждая теневая копия имеет затененный ПИН-код, указывающий на тень, соответствующую ПИН-коду фигуры. Например, если ПИН-код фигуры находится в центре фигуры, то затененное расположение ПИН-кода будет точкой в центре тени. При применении масштаба к простым теням, увеличение выравнивается по центру в затененном расположении; При применении масштаба к теням теней наклон применяется при увеличении наклона. 
   

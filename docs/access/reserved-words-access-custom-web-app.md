@@ -8,18 +8,18 @@ localization_priority: Normal
 ms.assetid: 2b5beeb6-e52d-41be-94df-083d36141a9d
 description: Для определения, управления и доступа к базам данных в Microsoft Access используются зарезервированные ключевые слова. ЗаРезервированные ключевые слова являются частью грамматики языка, который используется в Access для синтаксического анализа и изучения операторов SQL.
 ms.openlocfilehash: 132f912d2b6b5a65980355b18c0a23eaa8c24cbc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307975"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424982"
 ---
 # <a name="reserved-keywords-access-custom-web-app"></a>ЗаРезервированные ключевые слова (пользовательское веб-приложение для Access)
 
 Для определения, управления и доступа к базам данных в Microsoft Access используются зарезервированные ключевые слова. ЗаРезервированные ключевые слова являются частью грамматики языка, который используется в Access для синтаксического анализа и изучения операторов SQL. 
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
 ## <a name="access-reserved-keywords"></a>Доступ к зарезервированным ключевым словам
 
@@ -28,16 +28,16 @@ ms.locfileid: "32307975"
 ||||
 |:-----|:-----|:-----|
 |НАДСТРОЙКИ  <br/> |FILLFACTOR  <br/> |Квартал  <br/> |
-|ВСЕ  <br/> |Float  <br/> |Функция  <br/> |
+|ВСЕ  <br/> |С плавающей запятой  <br/> |Функция  <br/> |
 |ALTER  <br/> |Дополнительные  <br/> |ПРОЧИТАН  <br/> |
 |И  <br/> |FOREIGN  <br/> |READTEXT  <br/> |
 |ANY  <br/> |ПРЕДИКАТ  <br/> |ПОВТОРНО настройте  <br/> |
-|AS  <br/> |FREETEXTTABLE  <br/> |СОДЕРЖИТ  <br/> |
+|AS  <br/> |FREETEXTTABLE  <br/> |REFERENCES  <br/> |
 |ASC  <br/> |FROM  <br/> |РЕПЛИКАЦИИ  <br/> |
 |AUTHORIZATION  <br/> |ПОЛНЫЙ  <br/> |ВОССТАНАВЛИВАТЬ  <br/> |
 |РЕЗЕРВНОГО копирования  <br/> |ФУНКЦИЯМИ  <br/> |RESTRICT  <br/> |
-|ВЫПОЛНЕНИЯ  <br/> |Оператор  <br/> |RETURN  <br/> |
-|BETWEEN  <br/> |ОБЛАДАЮТ  <br/> |ЗНАЧЕНИ  <br/> |
+|BEGIN  <br/> |Оператор  <br/> |RETURN  <br/> |
+|BETWEEN  <br/> |GRANT  <br/> |ЗНАЧЕНИ  <br/> |
 |BREAK  <br/> |ГРУППЫ  <br/> |REVOKE  <br/> |
 |ОБРАТИТЕСЬ  <br/> |HAVING  <br/> |Правильно  <br/> |
 |BULK  <br/> |ТАБЛИЧ  <br/> |ROLLBACK  <br/> |
@@ -62,10 +62,10 @@ ms.locfileid: "32307975"
 |СОСТАВ  <br/> |LIKE  <br/> |SYSTEM_USER  <br/> |
 |Денежный  <br/> |ЛИНЕНО  <br/> |TABLE  <br/> |
 |ЭТОЙ  <br/> |НАГРУЗКИ  <br/> |УКАЗАНО  <br/> |
-|CURRENT_DATE  <br/> |Лонгтекст  <br/> |Text  <br/> |
+|CURRENT_DATE  <br/> |Лонгтекст  <br/> |Текст  <br/> |
 |CURRENT_TIME  <br/> |MERGE  <br/> |TEXTSIZE  <br/> |
 |CURRENT_TIMESTAMP  <br/> |До  <br/> |ПОТОМ  <br/> |
-|CURRENT_USER  <br/> |Минуты  <br/> |Time  <br/> |
+|CURRENT_USER  <br/> |Минуты  <br/> |Время  <br/> |
 |CURSOR  <br/> |Month  <br/> |TO  <br/> |
 |БАЗУ  <br/> |NATIONAL  <br/> |Вверх  <br/> |
 |Дата  <br/> |Нет  <br/> |ТРАНЗАКЦИЙ  <br/> |
@@ -75,7 +75,7 @@ ms.locfileid: "32307975"
 |ИНСТРУКЦИИ  <br/> |ОПРЕДЕЛЕН  <br/> |ТРИ_КОНВЕРТ  <br/> |
 |ОСВОБОЖДЕНИЕ  <br/> |Функция  <br/> |ТСЕКУАЛ  <br/> |
 |DECLARE  <br/> |ИЗ  <br/> |ОБЪЕДИНИТЬ  <br/> |
-|УМОЛЧАНИ  <br/> |Отключение  <br/> |УНИКАЛЬНЫЙ  <br/> |
+|УМОЛЧАНИ  <br/> |Отключение  <br/> |UNIQUE  <br/> |
 |DELETE  <br/> |СМЕЩЕНИЯ  <br/> |Отмена сведения  <br/> |
 |ЗАПРЕТИТЬ  <br/> |ВКЛ  <br/> |UPDATE  <br/> |
 |DESC  <br/> |OPEN  <br/> |UPDATETEXT  <br/> |
@@ -88,14 +88,14 @@ ms.locfileid: "32307975"
 |КРОЕТ  <br/> |ПОРЯДКЕ  <br/> |Неделя  <br/> |
 |END  <br/> |Внешняя  <br/> |День недели  <br/> |
 |ЕРРЛВЛ  <br/> |ПЕРЕД  <br/> |WHEN  <br/> |
-|ПЕРЕКЛЮЧЕН  <br/> |ДОЛЯ  <br/> |WHERE  <br/> |
+|ПЕРЕКЛЮЧЕН  <br/> |PERCENT  <br/> |WHERE  <br/> |
 |Кроме  <br/> |ОТМЕНЫ  <br/> |ПОПЫТК  <br/> |
 |ИСПОЛНЯЕМ  <br/> |Планирование  <br/> |WITH  <br/> |
 |ВЫПОЛНЕНЫ  <br/> |PRECISION  <br/> |В ГРУППЕ  <br/> |
-|Существует  <br/> |ОСНОВНОЙ  <br/> |Инструкция  <br/> |
+|EXISTS  <br/> |PRIMARY  <br/> |Инструкция  <br/> |
 |EXIT  <br/> |ПРЕДВАРИТЕЛЬНОГО  <br/> |Year  <br/> |
 |ВНЕШНИХ  <br/> |ПРОЦЕДУР  <br/> |Да  <br/> |
-|FETCH  <br/> |ПРОЦЕДУРА  <br/> |ЕСНО  <br/> |
+|FETCH  <br/> |ПРОЦЕДУРА  <br/> |YesNo  <br/> |
 |ФАЙЛУ  <br/> |PUBLIC  <br/> ||
    
 
@@ -112,24 +112,24 @@ ms.locfileid: "32307975"
 |:-----|:-----|:-----|
 |ABSOLUTE  <br/> |ИСПОЛНЯЕМ  <br/> |ПЕРЕКРЫВАЕТ  <br/> |
 |МЕРЫ  <br/> |ВЫПОЛНЕНЫ  <br/> |PAD  <br/> |
-|ADA  <br/> |Существует  <br/> |Partial  <br/> |
+|ADA  <br/> |EXISTS  <br/> |Partial  <br/> |
 |НАДСТРОЙКИ  <br/> |ВНЕШНИХ  <br/> |СТИЛЕ  <br/> |
 |ВСЕ  <br/> |EXTRACT  <br/> |POSITION  <br/> |
 |РЕСУРСЫ  <br/> |FALSE  <br/> |PRECISION  <br/> |
 |ALTER  <br/> |FETCH  <br/> |PREPARE  <br/> |
 |И  <br/> |FIRST  <br/> |СОХРАНИТЬ  <br/> |
-|ANY  <br/> |FLOAT  <br/> |ОСНОВНОЙ  <br/> |
+|ANY  <br/> |FLOAT  <br/> |PRIMARY  <br/> |
 |ARE  <br/> |Дополнительные  <br/> |НАСТУПЛЕНИ  <br/> |
 |AS  <br/> |FOREIGN  <br/> |PRIVILEGES  <br/> |
 |ASC  <br/> |FORTRAN  <br/> |ПРОЦЕДУРА  <br/> |
 |ASSERTION  <br/> |НАЙТИ  <br/> |PUBLIC  <br/> |
 |AT  <br/> |FROM  <br/> |ПРОЧИТАН  <br/> |
 |AUTHORIZATION  <br/> |ПОЛНЫЙ  <br/> |REAL  <br/> |
-|СРЕДНЕЙ  <br/> |GET  <br/> |СОДЕРЖИТ  <br/> |
-|ВЫПОЛНЕНИЯ  <br/> |ГЛОБАЛЬНОГО  <br/> |СРАВНЕНИЯ  <br/> |
+|СРЕДНЕЙ  <br/> |GET  <br/> |REFERENCES  <br/> |
+|BEGIN  <br/> |ГЛОБАЛЬНОГО  <br/> |СРАВНЕНИЯ  <br/> |
 |BETWEEN  <br/> |ЗАЙТИ  <br/> |RESTRICT  <br/> |
 |BIT  <br/> |Оператор  <br/> |REVOKE  <br/> |
-|BIT_LENGTH  <br/> |ОБЛАДАЮТ  <br/> |Правильно  <br/> |
+|BIT_LENGTH  <br/> |GRANT  <br/> |Правильно  <br/> |
 |BOTH  <br/> |ГРУППЫ  <br/> |ROLLBACK  <br/> |
 |BY  <br/> |HAVING  <br/> |NOROWS  <br/> |
 |CASCADE  <br/> |HOUR  <br/> |SCHEMA  <br/> |
@@ -143,21 +143,21 @@ ms.locfileid: "32307975"
 |CHARACTER_LENGTH  <br/> |INNER  <br/> |SIZE  <br/> |
 |CHECK  <br/> |INPUT  <br/> |SMALLINT  <br/> |
 |CLOSE  <br/> |INSENSITIVE  <br/> |SOME  <br/> |
-|COALESCE  <br/> |ВСТАВКА  <br/> |ПРОБЕЛ  <br/> |
+|COALESCE  <br/> |ВСТАВКА  <br/> |SPACE  <br/> |
 |COLLATE  <br/> |INT  <br/> |SQL  <br/> |
 |COLLATION  <br/> |INTEGER  <br/> |СКЛКА  <br/> |
 |ВЫЧИСЛЯЕМ  <br/> |ПЕРЕСЕКАЛ  <br/> |СКЛКОДЕ  <br/> |
-|COMMIT  <br/> |КАЖДЫЕ  <br/> |СКЛЕРРОР  <br/> |
+|COMMIT  <br/> |INTERVAL  <br/> |СКЛЕРРОР  <br/> |
 |CONNECT  <br/> |INTO  <br/> |SQLSTATE  <br/> |
 |CONNECTION  <br/> |ВКЛЮЧЕНА  <br/> |СКЛВАРНИНГ  <br/> |
 |Индекс  <br/> |ISOLATION  <br/> |SUBSTRING  <br/> |
 |ПРОВЕРОЧ  <br/> |JOIN  <br/> |ПРОИЗВЕДЕН  <br/> |
 |'  <br/> |РАЗДЕЛЕ  <br/> |SYSTEM_USER  <br/> |
 |CONVERT  <br/> |Функция LANGUAGE  <br/> |TABLE  <br/> |
-|ОТНОСЯЩ  <br/> |LAST  <br/> |ВРЕМЕННЫЕ  <br/> |
+|ОТНОСЯЩ  <br/> |LAST  <br/> |TEMPORARY  <br/> |
 |COUNT  <br/> |Первый  <br/> |ПОТОМ  <br/> |
 |CREATE  <br/> |ЛЕВЫЙ  <br/> |ВРЕМЕНЕМ  <br/> |
-|СОСТАВ  <br/> |СТЕПЕНЬ  <br/> |Метка времени  <br/> |
+|СОСТАВ  <br/> |СТЕПЕНЬ  <br/> |TIMESTAMP  <br/> |
 |ЭТОЙ  <br/> |LIKE  <br/> |TIMEZONE_HOUR  <br/> |
 |CURRENT_DATE  <br/> |ЛОКАЛЬНОМ  <br/> |TIMEZONE_MINUTE  <br/> |
 |CURRENT_TIME  <br/> |LOWER  <br/> |TO  <br/> |
@@ -168,7 +168,7 @@ ms.locfileid: "32307975"
 |DAY  <br/> |НАЗНАЧАЕМ  <br/> |TRIM  <br/> |
 |ОСВОБОЖДЕНИЕ  <br/> |MONTH  <br/> |TRUE  <br/> |
 |Дек  <br/> |ПСЕВДОНИМ  <br/> |ОБЪЕДИНИТЬ  <br/> |
-|DECIMAL  <br/> |NATIONAL  <br/> |УНИКАЛЬНЫЙ  <br/> |
+|DECIMAL  <br/> |NATIONAL  <br/> |UNIQUE  <br/> |
 |DECLARE  <br/> |ОБЫЧНО  <br/> |UNKNOWN  <br/> |
 |УМОЛЧАНИ  <br/> |NCHAR  <br/> |UPDATE  <br/> |
 |ДЕФЕРРАБЛЕ  <br/> |СТРЕЛКУ  <br/> |UPPER  <br/> |
@@ -198,7 +198,7 @@ ms.locfileid: "32307975"
 |:-----|:-----|:-----|
 |ABSOLUTE  <br/> |РАЗМЕЩАТЬ  <br/> |СРАВНЕНИЯ  <br/> |
 |МЕРЫ  <br/> |HOUR  <br/> |УДАЛЕНИЯ  <br/> |
-|ГРУППЫ  <br/> |ПРОПУСК  <br/> |ПРИВЕЛО  <br/> |
+|ГРУППЫ  <br/> |IGNORE  <br/> |ПРИВЕЛО  <br/> |
 |ВЫПОЛНЕНИЯ  <br/> |ОПЕРАНД  <br/> |ВЕРНЕТ  <br/> |
 |ОБЪЕДИНИТ  <br/> |ИНДИКАТОР  <br/> |РОЛЕЙ  <br/> |
 |СМЕШАН  <br/> |INITIALIZE  <br/> |СВОДНЫЕ  <br/> |
@@ -208,7 +208,7 @@ ms.locfileid: "32307975"
 |АСЕНСИТИВЕ  <br/> |INT  <br/> |ПИКСЕЛ  <br/> |
 |ASSERTION  <br/> |INTEGER  <br/> |Свиток  <br/> |
 |OAEP  <br/> |ПЕРЕСЕКА  <br/> |ВИДИМОСТИ  <br/> |
-|AT  <br/> |КАЖДЫЕ  <br/> |ВЫПОЛНЯТЬ  <br/> |
+|AT  <br/> |INTERVAL  <br/> |ВЫПОЛНЯТЬ  <br/> |
 |ХАРАКТЕР  <br/> |ISOLATION  <br/> |SECOND  <br/> |
 |ТЕЧЕНИ  <br/> |ИТЕРАЦИ  <br/> |РАЗДЕЛОВ  <br/> |
 |BINARY  <br/> |Функция LANGUAGE  <br/> |НЕЗАВИСИМО  <br/> |
@@ -218,7 +218,7 @@ ms.locfileid: "32307975"
 |BOTH  <br/> |Первый  <br/> |ТАКОЕ  <br/> |
 |ШИРИНУ  <br/> |СНИЗИТЬ  <br/> |SIZE  <br/> |
 |ВЫЗЫВАТЬ  <br/> |СТЕПЕНЬ  <br/> |SMALLINT  <br/> |
-|НАЗЫВАТЬ  <br/> |ЛИКЕ_РЕЖЕКС  <br/> |ПРОБЕЛ  <br/> |
+|НАЗЫВАТЬ  <br/> |ЛИКЕ_РЕЖЕКС  <br/> |SPACE  <br/> |
 |КОЛИЧЕСТВО элементов  <br/> |ОТДЕЛЯЕТ  <br/> |УКАЗАННОЙ  <br/> |
 |КАСКАДНОЙ  <br/> |ПРОТИВ  <br/> |СПЕЦИФИКТИПЕ  <br/> |
 |ПРИВЕСТИ  <br/> |ЛОКАЛЬНОМ  <br/> |SQL  <br/> |
@@ -236,11 +236,11 @@ ms.locfileid: "32307975"
 |ПРОВЕРОЧ  <br/> |НАЗНАЧАЕМ  <br/> |СУБСТРИНГ_РЕЖЕКС  <br/> |
 |Конструктор  <br/> |MONTH  <br/> |ОТКРЫВАЕМ  <br/> |
 |КОРР  <br/> |МУЛЬТИНАБОР  <br/> |СИСТЕМЫ  <br/> |
-|ОТНОСЯЩ  <br/> |ПСЕВДОНИМ  <br/> |ВРЕМЕННЫЕ  <br/> |
+|ОТНОСЯЩ  <br/> |ПСЕВДОНИМ  <br/> |TEMPORARY  <br/> |
 |КОВАР_ПОП  <br/> |ОБЫЧНО  <br/> |ЗАВЕРШИТЬ  <br/> |
 |КОВАР_САМП  <br/> |NCHAR  <br/> |ОТЛИЧНЫЕ  <br/> |
 |Куба  <br/> |NCLOB  <br/> |ВРЕМЕНЕМ  <br/> |
-|КУМЕ_ДИСТ  <br/> |Новые функции  <br/> |Метка времени  <br/> |
+|КУМЕ_ДИСТ  <br/> |Новые функции  <br/> |TIMESTAMP  <br/> |
 |КУРРЕНТ_КАТАЛОГ  <br/> |СТРЕЛКУ  <br/> |TIMEZONE_HOUR  <br/> |
 |КУРРЕНТ_ДЕФАУЛТ_ТРАНСФОРМ_ГРАУП  <br/> |Нет  <br/> |TIMEZONE_MINUTE  <br/> |
 |КУРРЕНТ_ПАС  <br/> |ВИДИМ  <br/> |TRAILING  <br/> |

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 84234177-a2df-6acc-2761-230bc5d12627
 description: Задает выравнивание табуляции.
 ms.openlocfilehash: 461357c9c838fb4c0e5b0159bf027dd6adce26f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341540"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425542"
 ---
 # <a name="alignment-cell-tabs-section"></a>Alignment Cell (Tabs Section)
 
@@ -25,10 +25,10 @@ ms.locfileid: "32341540"
 | нуль  <br/> | Left  <br/> |**Вистабстоплефт** <br/> |
 | 1,1  <br/> | Center  <br/> |**Вистабстопцентер** <br/> |
 | 2  <br/> | Right  <br/> |**Вистабстопригхт** <br/> |
-| 4  <br/> | Десятичное число  <br/> |**ВистабстопдеЦимал** <br/> |
+| 4  <br/> | Десятичный  <br/> |**ВистабстопдеЦимал** <br/> |
 | SP4  <br/> | Числ  <br/> |**Вистабстопкомма** <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку выравнивания по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c630ecaf-b19c-4991-9779-e13cc492c755
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 84e87f8a8d3c419afc4b86e200aeaba57e6a85f1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316662"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427495"
 ---
 # <a name="imapisupportmakeinvalid"></a>IMAPISupport::MakeInvalid
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Помечает объект как непригодный к использованию.
   
@@ -60,7 +60,7 @@ S_OK
   
 > Объект успешно помечен как непригодный для использования.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: макеинвалид** реализован для всех объектов поддержки. Объект, который необходимо сделать недействительным, должен быть производным от интерфейса **IUnknown** или от интерфейса, производного от **IUnknown**.
   

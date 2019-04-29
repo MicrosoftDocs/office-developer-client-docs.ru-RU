@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2b1a8902-b1d4-c3d9-8c9f-1a28fddacc59
 description: Указывает горизонтальную координату начала сетки.
 ms.openlocfilehash: ee58ea7d950dd7e422f8a60a13bac8aa4ed353a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322311"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428622"
 ---
 # <a name="xgridorigin-cell-ruler-amp-grid-section"></a>Ячейка XGridOrigin (раздел "Линейка и сетка")
 

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c0a65d2b-a9b8-4477-a1c7-18c8478126f6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 9ca34fb2cce6e86c42e8e9525cd213f1008997d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348372"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427481"
 ---
 # <a name="hraddcolumnsex"></a>HrAddColumnsEx
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Добавляет или перемещает столбцы в начало существующей таблицы. 
   

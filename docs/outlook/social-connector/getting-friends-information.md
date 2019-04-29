@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d8a56746-4de4-4f24-af32-e85079c060b8
 description: 'Outlook Social Connector (OSC) вызывает метод ИсоЦиалпровидер:: capabilities, который определяет возможности поставщика OSC для социальной сети.'
 ms.openlocfilehash: 697902631b010afab015e9cfb73fac81ac427d6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286324"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428797"
 ---
 # <a name="getting-friends-information"></a>Получение сведений о друзьях
 

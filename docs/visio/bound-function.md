@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 36374d78-1028-bd7f-6282-66555ee31306
 description: Ограничивает значение ячейки диапазоном или набором диапазонов.
 ms.openlocfilehash: 85fbe66d4e458ac4e42c9eb3c65b9a3a1d8211df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348953"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425962"
 ---
 # <a name="bound-function"></a>Функция BOUND
 
@@ -50,7 +50,7 @@ Controls. x1 = граница (\*ширина 0,5, 0, ложь,\*ширина 0,
   
 Controls. Y1 = граница (\*высота 0,5, 0, ложь,\*высота 0,\*высота 1)
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 В этом примере функция привязки используется для ограничения ширины фигуры до 2 дюймов, 4 дюймов или 6 дюймов. 
   

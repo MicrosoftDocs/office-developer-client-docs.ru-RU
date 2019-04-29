@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a298eead-044b-6f40-54c7-e0e6088baa19
 description: Возвращает координату по оси y (в локальной системе координат) точки, в которой пересекаются две линии.
 ms.openlocfilehash: 6fcd06e7086d52b9c45f1deb9d4c191f1a7b1fd2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335261"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426102"
 ---
 # <a name="intersecty-function"></a>Функция INTERSECTY
 
@@ -37,9 +37,9 @@ INTERSECTX (* * *x1* * *, * * *Y1* * *, * * *angle1* * *, * * *x2* * *, * * *Y2*
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Номер
+Число
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Каждая строка определяется как точка (*x, y*) и угол. 
   

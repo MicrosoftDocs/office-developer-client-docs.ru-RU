@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d6fe2574-b719-f38e-b1f1-592a812f1682
 description: Определяет ширину шрифта. Значение по умолчанию для этой ячейки — 100%.
 ms.openlocfilehash: 60e896772ddd1d59e1a1da7f2c0e90893658c624
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341631"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429154"
 ---
 # <a name="scale-cell-character-section"></a>Scale Cell (Character Section)
 
 Определяет ширину шрифта. Значение по умолчанию для этой ячейки — 100%.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Задайте в процентах значение от 1 до 99%, чтобы уменьшить ширину шрифта. Задайте для него значение от 101% до 600%, чтобы увеличить ширину шрифта.
   

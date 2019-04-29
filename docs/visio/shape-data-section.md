@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2e113791-891f-6c2a-7981-a6a9a115622a
 description: Содержит по одной строке для каждого элемента данных фигуры и ячеек для связывания данных с фигурой.
 ms.openlocfilehash: b3d3924d3087789500bf084da4c795c01fc8e36f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325846"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426830"
 ---
 # <a name="shape-data-section"></a>Shape Data Section
 
 Содержит по одной строке для каждого элемента данных фигуры и ячеек для связывания данных с фигурой.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Данные фигуры можно определить с помощью окна " **данные фигуры** " или ячеек в разделе "данные фигуры". 
   

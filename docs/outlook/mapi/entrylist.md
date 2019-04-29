@@ -13,17 +13,17 @@ api_type:
 ms.assetid: b2b5d6e6-201b-4ad7-8de2-e40f09165e62
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f4d2c8460e5baf484d30f4861e15a56fcd8d491b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287090"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436974"
 ---
 # <a name="entrylist"></a>ENTRYLIST
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Массив идентификаторов записей, представляющих объект MAPI, который использует ту же реализацию, что и структура [сбинаряррай](sbinaryarray.md) . 
   
@@ -44,7 +44,7 @@ typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
 
 
 
-[КОД](entryid.md)
+[ENTRYID](entryid.md)
   
 [SBinaryArray](sbinaryarray.md)
 

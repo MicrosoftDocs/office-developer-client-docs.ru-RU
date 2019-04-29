@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 48667fda-ddc4-42ac-9231-761db0a4c1a9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 9c71a2b806b810906c13ea4750e5491b1544f640
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332006"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424506"
 ---
 # <a name="pidtagaccesscontrollisttable-canonical-property"></a>Каноническое свойство PidTagAccessControlListTable
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит таблицу, состоящую из всех системных списков управления доступом (SACL), применяемых к папке.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32332006"
 |Тип данных:  <br/> |ПТ_ОБЖЕКТ  <br/> |
 |Область:  <br/> |Управление доступом  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство присутствует для всех объектов Folder на сервере Exchange. Значения, включенные в это свойство, используются для чтения и изменения списков управления доступом (ACL) в папках. Вы можете использовать метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) с идентификатором интерфейса **иид_иексчанжемодифитабле** для получения интерфейса [ИЕКСЧАНЖЕМОДИФИТАБЛЕ: IUnknown](iexchangemodifytableiunknown.md) для таблицы ACL в папке. Этот интерфейс можно использовать для чтения и изменения этих списков управления доступом. 
   

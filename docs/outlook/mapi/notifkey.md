@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 031b7e18-59b2-445c-a747-348fda92f458
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ab1586696a4b72aa9e88545c2069c3f8b5d22d72
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280049"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429630"
 ---
 # <a name="notifkey"></a>NOTIFKEY
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Уникально идентифицирует соединение между приемником уведомлений, источником уведомлений и MAPI.
   
@@ -50,7 +50,7 @@ typedef struct
   
 > Массив байтов, описывающих ключ уведомления.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Методы [Subscribe](imapisupport-subscribe.md) и [Notify](imapisupport-notify.md) [имаписуппорт](imapisupportiunknown.md) используют структуру **нотифкэй** для создания уведомлений о соответствующем источнике уведомлений в соответствующем приемнике уведомлений. 
   
