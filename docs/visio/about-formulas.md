@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ec0de3e1-21dc-c5d6-2c2a-d5fef80d89bd
 description: Ключом к управлению действиями фигур является написание формул, определяющих требуемое поведение. Вы можете изменить формулу ячейки, чтобы изменить значение ячейки и, как следствие, изменить поведение конкретной фигуры. Например, ячейка Height в разделе Преобразование фигуры содержит формулу, которую можно изменить, чтобы изменить высоту фигуры.
 ms.openlocfilehash: e8e1a2b77cc355e930af6f31f0b375dfba321e74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344459"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426263"
 ---
 # <a name="about-formulas"></a>Сведения о формулах
 

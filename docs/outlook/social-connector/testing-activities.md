@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 98343c36-5e32-4d07-b474-adfeca693135
 description: В этом разделе описываются тесты и сценарии для проверки того, что поставщик Outlook Social Connector (OSC) использует синхронизацию по запросу для возврата действий друзей и не друзей.
 ms.openlocfilehash: 0a40dca84681a9e758c2f17d2647c339ded70462
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329206"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436302"
 ---
 # <a name="testing-activities"></a>Тестирование получения сведений о действиях
 

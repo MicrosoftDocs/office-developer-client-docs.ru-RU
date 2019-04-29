@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3ea2b3c7-0c69-a9f2-379f-8daa0c665810
 description: Указывает тип вертикальной сетки для использования.
 ms.openlocfilehash: 793fa40316edd591c8b4873d8919507c2393b5d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307709"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429812"
 ---
 # <a name="ygriddensity-cell-ruler-amp-grid-section"></a>Ячейка YGridDensity (раздел "Линейка и сетка")
 
 Указывает тип вертикальной сетки для использования.
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 |нуль  <br/> |Фиксация  <br/> |**visGridFixed** <br/> |
 |2  <br/> |С большими интервалами  <br/> |**visGridCoarse** <br/> |

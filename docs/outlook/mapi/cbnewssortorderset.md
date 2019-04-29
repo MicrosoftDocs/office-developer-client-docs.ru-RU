@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a2fb67e0-ccdb-4eb0-9f8c-75213442159f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a9d01d3b8d414032d0d4f05fe5f966640a181ba1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317957"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423715"
 ---
 # <a name="cbnewssortorderset"></a>CbNewSSortOrderSet
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов, выделяемых для новой структуры [сизедссортордерсет](sizedssortorderset.md) , которая содержит указанное число порядков сортировки, представленных структурами [ссортордер](ssortorder.md) . 
   

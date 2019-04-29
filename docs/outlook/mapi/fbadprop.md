@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 929330c8-e6f2-4adf-a36e-fba18fa055d4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d899c8af541da231b015f6178eb7bc8f0ffd86e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341043"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426718"
 ---
 # <a name="fbadprop"></a>FBadProp
 

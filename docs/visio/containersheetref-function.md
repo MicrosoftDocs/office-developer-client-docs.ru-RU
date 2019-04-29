@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: bbdb2dea-4f75-b73e-a98a-0031f34dff2c
 description: Возвращает ссылку на лист для указанного контейнера, содержащего фигуру.
 ms.openlocfilehash: 473d8c0b81ecc568c1d4f3a3b3a885e1ceb4e00d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318986"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437268"
 ---
 # <a name="containersheetref-function"></a>Функция CONTAINERSHEETREF
 
@@ -31,14 +31,14 @@ CONTAINERSHEETREF (* * *index* * * * * *[, Category]* * *)
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _index_ <br/> |Обязательный  <br/> |**Integer** <br/> |Индекс контейнера, основанный на 1. Дополнительные сведения см.  <br/> |
-| _категории_ <br/> |Необязательный  <br/> |**String** <br/> |Категория контейнера. Дополнительные сведения см.  <br/> |
+| _индекс_ <br/> |Обязательный  <br/> |**Integer** <br/> |Индекс контейнера, основанный на 1. Дополнительные сведения см.  <br/> |
+| _category_ <br/> |Необязательный  <br/> |**String** <br/> |Категория контейнера. Дополнительные сведения см.  <br/> |
    
 ### <a name="return-value"></a>Возвращаемое значение
 
 Ссылка на таблицу свойств фигуры
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Индекс контейнера вычисляется на основе z-порядка контейнеров от передней до заднего.
   

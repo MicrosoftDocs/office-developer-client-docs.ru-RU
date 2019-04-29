@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 6f62650d-36f8-4c6e-b79f-c9c397a5954d
 description: Представляет значение произвольности, используемое для определения геометрии результата эскиза в виде положительного целого числа. Значение ячейки SketchSeed случайным образом создается при применении к фигуре эффекты эскиза.
 ms.openlocfilehash: 3ec58fbfa183d1a6d7bb6960672658f9a6cca073
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315150"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434398"
 ---
 # <a name="sketchseed-cell-additional-effect-properties-section"></a>SketchSeed Cell (Additional Effect Properties Section)
 
 Представляет значение произвольности, используемое для определения геометрии результата эскиза в виде положительного целого числа. Значение ячейки **SketchSeed** случайным образом создается при применении к фигуре эффекты эскиза. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку **SketchSeed** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   

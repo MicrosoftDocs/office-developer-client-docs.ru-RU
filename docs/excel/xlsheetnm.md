@@ -10,17 +10,17 @@ keywords:
 - Функция кслшитнм [Excel 2007]
 localization_priority: Normal
 ms.assetid: bcb16207-5499-4474-b006-51ccde1002d7
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 5d62be7ebef71547de3a903db4c1a030984b8640
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303873"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437415"
 ---
 # <a name="xlsheetnm"></a>xlSheetNm
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает имя листа или листа макроса из внутреннего идентификатора листа, содержащегося во внешней ссылке, или имя текущего листа при передаче внутренней ссылки.
   

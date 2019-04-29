@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 64d62990-6275-edef-c639-b6ba8d10c38c
 description: InfoPath предоставляет возможность создавать полностью доверенные формы, которые имеют более высокие разрешения безопасности и могут получать доступ к системным ресурсам и другим компонентам на компьютере пользователя. В этой статье описывается, что такое полностью доверенная форма и зачем она используется, а также создание полностью доверенной формы с помощью ручного преобразования и регистрации стандартной формы или цифровой подписи стандартной формы.
 ms.openlocfilehash: 04560e0c844d6a6ff681fd366ca7da2e4db36ba1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299769"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430394"
 ---
 # <a name="understanding-fully-trusted-forms"></a>Основные сведения о полностью доверенных формах
 

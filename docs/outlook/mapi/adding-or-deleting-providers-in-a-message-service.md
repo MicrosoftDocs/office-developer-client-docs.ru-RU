@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 44bb4d34-ca96-4d5a-93fe-85e09bd7971d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: ed5ea8bdfcbdaaa6b6abd81a39f0e8df50d3b314
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329563"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433425"
 ---
 # <a name="adding-or-deleting-providers-in-a-message-service"></a>Добавление или удаление поставщиков в службе сообщений
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Чтобы добавить или удалить поставщиков служб в службе сообщений, используйте интерфейс [ипровидерадмин: IUnknown](iprovideradminiunknown.md) . Вы можете получить указатель **ипровидерадмин** , вызвав [Имсгсервицеадмин:: админпровидерс](imsgserviceadmin-adminproviders.md). Таблица поставщика, доступная с помощью [ипровидерадмин:: жетпровидертабле](iprovideradmin-getprovidertable.md), содержит сведения о поставщиках услуг, установленных в службе сообщений в данный момент. Клиенты и поставщики услуг могут использовать таблицу поставщика для доступа к имени DLL поставщика, например, **мапиуид**, отображаемое имя и тип поставщика, а также сведения о службе сообщений. Дополнительные сведения см. в [таблице поставщиков](provider-tables.md).
   

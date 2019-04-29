@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 784b6218-548d-817a-caaa-cf9be6bc3d2f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3ca7fdc39da8d3ee8ecf6f0f253284df10a392e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321429"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426921"
 ---
 # <a name="imapiofflinemgradvise"></a>IMAPIOfflineMgr::Advise
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Регистрирует клиент для получения обратных вызовов в автономном объекте.
   
@@ -63,7 +63,7 @@ E_NOINTERFACE
   
 > Интерфейс обратного вызова, указанный в *падвисеинфо* , является недопустимым. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При открытии автономного объекта с помощью **[хропеноффлинеобж](hropenofflineobj.md)** клиент получает автономный объект, поддерживающий **имапиоффлинемгр**. Клиент может проверить виды обратных вызовов, поддерживаемые объектом, с помощью **[имапиоффлине:: Capabilities](imapioffline-getcapabilities.md)**. Клиент может определить тип и другие сведения о обратном вызове, а затем вызвать метод **имапиоффлинемгр:: Advise** для регистрации, чтобы получать такие обратные вызовы для объекта. 
   

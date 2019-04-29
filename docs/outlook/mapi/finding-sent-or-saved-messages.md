@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 6b6714a5-7f36-4a72-9a2a-0d7fdf0e21b7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 86373fae2753df66d4456cc0fc00f8b289977650
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337130"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437422"
 ---
 # <a name="finding-sent-or-saved-messages"></a>Поиск отправленных или сохраненных сообщений
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
  **Обнаружение всех сохраненных или отправленных исходящих сообщений**
   

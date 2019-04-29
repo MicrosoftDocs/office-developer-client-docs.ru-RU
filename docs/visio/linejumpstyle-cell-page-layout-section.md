@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 89f16674-ee1f-f5f9-9830-7bcc52e3a068
 description: Определяет стиль значка пересечения линий для всех соединителей на странице документа, у которых нет стиля значков для локальной линии.
 ms.openlocfilehash: 066c96f659061290b825684a479432e6d71f518c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316438"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427243"
 ---
 # <a name="linejumpstyle-cell-page-layout-section"></a>LineJumpStyle Cell (Page Layout Section)
 
@@ -33,7 +33,7 @@ ms.locfileid: "32316438"
 |8,5  <br/> |6 сторон  <br/> |**visLOJumpStyle5Point** <br/> |
 |10  <br/> |7 Сторон  <br/> |**visLOJumpStyle6Point** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Значение этой ячейки также можно задать на вкладке **Макет и маршрутизация** в диалоговом окне **Параметры страницы** (на вкладке **конструктор** щелкните стрелку **Параметры страницы** , а затем выберите **Макет и маршрутизация**).
   

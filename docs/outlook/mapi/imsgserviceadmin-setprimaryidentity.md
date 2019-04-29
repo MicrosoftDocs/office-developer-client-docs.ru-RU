@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 763cab41-f6f6-4cb0-8cb8-170fdf2a92e6
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b237a57dfea020c7bfcb66d49d43428c1f6506c2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317362"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430366"
 ---
 # <a name="imsgserviceadminsetprimaryidentity"></a>IMsgServiceAdmin::SetPrimaryIdentity
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Назначает службу сообщений поставщику основного удостоверения для профиля.
   
@@ -54,7 +54,7 @@ S_OK
   
 > В **сетпримаридентити** предпринята попытка назначить службу сообщений с установленным флагом сервице_но_примари_идентити в свойстве **пр_ресаурце_флагс** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имсгсервицеадмин:: сетпримаридентити** устанавливает службу сообщений в качестве поставщика основного удостоверения для профиля. Обычно основным удостоверением является пользователь, который вошел в службу сообщений. Он представлен тремя свойствами: 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 581db5d9-35f7-43ad-aef3-a5d5da310150
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: dbf9f9f73d9e3860b482f81fb942673e6d373267
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321555"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439613"
 ---
 # <a name="imapigetsessiongetmapisession"></a>IMAPIGetSession::GetMAPISession
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель на сеанс MAPI, связанный с объектом поддержки MAPI.
   

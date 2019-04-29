@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 38391818-21c9-9450-2ed1-11cc1d862310
 description: Указывает язык по умолчанию для документа.
 ms.openlocfilehash: 1a4f9f353821c0b336d0a9a53b8f42b4f4abb0e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332706"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430072"
 ---
 # <a name="doclangid-cell-document-properties-section"></a>DocLangID Cell (Document Properties Section)
 
 Указывает язык по умолчанию для документа.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Язык документа основан на языке, определенном в диалоговом окне " **языковые параметры Microsoft Office** ". (Нажмите кнопку **Пуск**, **выберите все программы**, **Microsoft Office**, **средства Microsoft Office**, а затем выберите языковые **Параметры Microsoft Office**.)
   
@@ -28,7 +28,7 @@ ms.locfileid: "32332706"
   
 В приведенной ниже таблице содержится список языков и соответствующие им ИДЕНТИФИКАТОРы.
   
-|**Language**|**Код языка**|
+|**Язык**|**Код языка**|
 |:-----|:-----|
 |Африкаанс  <br/> |1078  <br/> |
 |Албанский  <br/> |1052  <br/> |

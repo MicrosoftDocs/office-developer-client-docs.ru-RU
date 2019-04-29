@@ -9,15 +9,15 @@ api_type:
 ms.assetid: c5a7c137-393e-40ff-a2b9-afe02da2435a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3dd55d8ee3cb2751fb27184f0069ae831e2164ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319587"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435875"
 ---
 # <a name="mapi-sessions"></a>Сеансы MAPI
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ������ ��� ���������� ���������� ����� �������� ������� ������ �����������, ���������� ���������� ���������� � ����������� MAPI ��� ������.
   
@@ -46,5 +46,5 @@ For information about handling sessions from within a client application, see [�
 - [MAPILogonEx](mapilogonex.md)  
 - [IMAPISession: IUnknown](imapisessioniunknown.md)
 - [��������� ������ MAPI](mapi-session-handling.md)  
-- [����� �������� � ���������������� MAPI](mapi-programming-overview.md)
+- [Общие сведения о программировании MAPI](mapi-programming-overview.md)
 

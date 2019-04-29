@@ -9,15 +9,15 @@ api_type:
 ms.assetid: c0350698-5304-40cd-903d-279471f3c226
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 39da1e02622d81cd12a2d4673b827d49bf418128
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326175"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430625"
 ---
 # <a name="opening-an-attachment"></a>Открытие вложения
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Открытие вложения подразумевает отображение его данных. Например, при открытии вложения файла отображается его содержимое. В то время как сообщения и папки открываются с помощью идентификаторов записей, вложения открываются с использованием их номеров вложений — свойств **пр_аттач_нум** . Дополнительные сведения см. в статье **пр_аттач_нум** ([PidTagAttachNumber](pidtagattachnumber-canonical-property.md)). Номера вложений доступны в таблице вложений сообщения.
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c4aaca65-d553-476c-8c6d-5f880b6efdc1
 description: 'Дата последнего изменения: 26 июня 2012 года'
 ms.openlocfilehash: 108073f5e4833d9641e67065eb642320352fffe4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341372"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426858"
 ---
 # <a name="imapisync--synchronizeinbackground"></a>IMAPISync : SynchronizeInBackground
 
  
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
  Инициирует синхронизацию. Этот метод вызывается с помощью Microsoft Outlook 2010 и Microsoft Outlook 2013 и реализуется поставщиками хранилища сообщений. 
   

@@ -9,15 +9,15 @@ api_type:
 ms.assetid: cc3e1546-e58b-413f-82d7-4efeb86b0000
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 2c174d48a19e23de725e1d5a1533130175f2ab00
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350752"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429770"
 ---
 # <a name="posting-a-message"></a>Публикация сообщения
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Отправка сообщения похожа на отправку сообщения. Основным различием является назначение. Вместо того чтобы направляться одному или нескольким получателям в одной или нескольких системах обмена сообщениями, помещенное в папку сообщение остается в папке в текущем хранилище сообщений.
   

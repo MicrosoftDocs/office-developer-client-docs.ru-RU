@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2a21d6f9-bad6-92ab-6d36-477bcb9d7f17
 description: Возвращает целое число от 0 до 23, представляющее час суток даты и времени или выражение.
 ms.openlocfilehash: 1d0c6ec2bd80605401f44d2a5ef6e3d41bc72556
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329969"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429637"
 ---
 # <a name="hour-function-visioshapesheet"></a>HOUR Function (VisioShapeSheet)
 
@@ -32,7 +32,7 @@ HOUR ("* * *DateTime* * *" | * * *выражение* * * [, * * *LCID* * *])
 | _expression_ <br/> |Обязательный  <br/> |**Разные** <br/> |Выражение, которое возвращает дату и время.  <br/> |
 | _lcid_ <br/> |Необязательный  <br/> |**Number** <br/> | Идентификатор языкового стандарта, используемый для оценки нелокальной даты и времени. Идентификатор языкового стандарта — это число, представленной в файлах системных заголовков.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Компонент даты в *DateTime* и *выражении* отбрасывается. 
   
@@ -48,13 +48,13 @@ HOUR ("* * *DateTime* * *" | * * *выражение* * * [, * * *LCID* * *])
   
 Возвращает 15.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 ЧАС ("30 мая, 1997 3:45:24 PM")
   
 Возвращает 15.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 ЧАС (0,5)
   

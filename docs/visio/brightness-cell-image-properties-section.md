@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5bb1cc81-f3fd-a835-1449-233dbd1a62b6
 description: НаСтраивает яркость растрового изображения. Чтобы уменьшить яркость изображения, введите значение от 0 до 49% или увеличьте яркость, указав значение от 51% до 100%. Значение по умолчанию — 50%.
 ms.openlocfilehash: ae1390d2db3adad86a8afcbeaff88172a841d030
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338026"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424793"
 ---
 # <a name="brightness-cell-image-properties-section"></a>Brightness Cell (Image Properties Section)
 
 НаСтраивает яркость растрового изображения. Чтобы уменьшить яркость изображения, введите значение от 0 до 49% или увеличьте яркость, указав значение от 51% до 100%. Значение по умолчанию — 50%.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку яркости по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

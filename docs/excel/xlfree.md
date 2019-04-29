@@ -10,17 +10,17 @@ keywords:
 - Функция кслфри [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8ce2eef2-0138-495d-b6cb-bbb727a3cda4
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: de1c75ad65acacd44644e9bfb111b30abd0a578e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310222"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424716"
 ---
 # <a name="xlfree"></a>xlFree
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Используется для высвобождения ресурсов памяти, выделенных Microsoft Excel при создании возвращаемого значения **XLOPER**/ **XLOPER12** в вызове [Excel4](excel4-excel12.md), [Excel4v](excel4v-excel12v.md), [Excel12](excel4-excel12.md)или [Excel12v](excel4v-excel12v.md). Функция **кслфри** освобождает вспомогательную память и сбрасывает указатель на **значение NULL** , но не уничтожает другие части **XLOPER**/ **XLOPER12**.
   
@@ -39,7 +39,7 @@ Excel12(xlFree, 0, n, LPXLOPER12 px_1, ..., LPXLOPER12 px_n);
 
 Эта функция не возвращает значение.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Необходимо освобождать каждую каждую **** из них, полученную в качестве возвращаемого значения из **Excel4** или **Excel4v** , и каждую **XLOPER12** , полученную в качестве возвращаемого значения из **Excel12** или **Excel12v** , если они имеют один из следующих типов: **кслтипестр **, **XltypeMulti**или **кслтипереф**. Всегда безопаснее освобождать другие типы, даже если они не используют вспомогательную память, если они получены из **Excel4** или **Excel12**.
   

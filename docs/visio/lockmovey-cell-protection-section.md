@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 4ed8cab4-112a-e96a-f4e3-02490a6f87fa
 description: Блокирует вертикальную позицию фигуры, чтобы ее нельзя было перемещать по вертикали.
 ms.openlocfilehash: 6666d47555f8175b4950f95e1fb15abb8b11bfd5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348351"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434048"
 ---
 # <a name="lockmovey-cell-protection-section"></a>LockMoveY Cell (Protection Section)
 
 Блокирует вертикальную позицию фигуры, чтобы ее нельзя было перемещать по вертикали.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Позиция по вертикали заблокирована.  <br/> |
 | FALSE  <br/> | Позиция по вертикали не заблокирована.  <br/> |

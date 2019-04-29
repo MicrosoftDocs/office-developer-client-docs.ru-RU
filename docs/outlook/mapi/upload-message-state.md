@@ -7,17 +7,17 @@ localization_priority: Normal
 ms.assetid: 7fdc1494-4f40-38bd-d363-144ca70e5906
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 61cda23557a501a2651385d192f1dc7432ef1cb5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332636"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433803"
 ---
 # <a name="upload-message-state"></a>Состояние отправки сообщения
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описывается, что происходит во время отправки сообщения на конечный автомат репликации. 
   

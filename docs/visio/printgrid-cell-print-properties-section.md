@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 0504ff7f-2274-7ae3-1f4b-a3d890dbd79a
 description: Указывает, следует ли печатать сетку при печати страницы документа.
 ms.openlocfilehash: 9b98999cd02fa6a47ec8564bbd7337ecf8637306
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315192"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433208"
 ---
 # <a name="printgrid-cell-print-properties-section"></a>PrintGrid Cell (Print Properties Section)
 
 Указывает, следует ли печатать сетку при печати страницы документа.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Отображать сетку при печати этой страницы.  <br/> |
 |FALSE  <br/> |Не показывать сетку при печати этой страницы (по умолчанию).  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это значение соответствует флажку " **линии сетки** " на вкладке " **Настройка печати** " диалогового окна " **Параметры страницы** " (на вкладке " **конструктор** " щелкните стрелку **настройки страницы** ). Кроме цвета (Распечатанная версия серый), напечатанная сетка идентична сетке, которая отображается в окне документа Microsoft Visio. 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 30b8ae9e-0c0c-4468-b286-29e083696fed
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: aed9120ac264a6c47c9d02502093e56d3268d08a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279544"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435147"
 ---
 # <a name="ipropdata--imapiprop"></a>IPropData : IMAPIProp
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет возможность извлечения и изменения доступа к свойствам объекта. 
   
@@ -46,7 +46,7 @@ ms.locfileid: "32279544"
 |[Хржетпропакцесс](ipropdata-hrgetpropaccess.md) <br/> |Получает уровень доступа и состояние для одного или нескольких свойств объекта.  <br/> |
 |[Храддобжпропс](ipropdata-hraddobjprops.md) <br/> |Добавляет одно или несколько свойств типа ПТ_ОБЖЕКТ в объект.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Интерфейс **ипропдата:: IMAPIProp** реализуется MAPI и используется преимущественно поставщиками услуг, которые обращаются к этой реализации, вызывая функцию [креатеипроп](createiprop.md) . 
   

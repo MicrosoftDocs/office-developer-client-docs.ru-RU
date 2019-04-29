@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b0fb6a47-47d8-ab9c-854d-0b0bbfdfcc27
 description: Представляет различные сведения в разных строках. В этой таблице описывается ячейка B на основе строки, в которой она расположена.
 ms.openlocfilehash: ff032b5af2918ec9865360ede5c3d76e8e872e9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346244"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423309"
 ---
 # <a name="b-cell-geometry-section"></a>B Cell (Geometry Section)
 
@@ -28,7 +28,7 @@ ms.locfileid: "32346244"
 |[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Координата *y* точки на бесконечной линии; Связывание с координатой *x* , представленной [](a-cell-geometry-section.md) ячейкой.  <br/> |
 |[Ellipse](ellipse-row-geometry-section.md) <br/> | Координата *y* точки эллипса; Связывание с координатой *x* , представленной [](a-cell-geometry-section.md) ячейкой.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку B по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   

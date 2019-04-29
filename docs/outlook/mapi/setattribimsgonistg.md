@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 683d0d00-1b93-445d-86ff-180a3e6d2323
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 852ce31ba5ab02ff8f05dee25c9b32acb73130ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337970"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428832"
 ---
 # <a name="setattribimsgonistg"></a>SetAttribIMsgOnIStg
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает или изменяет атрибуты свойств объекта [iMessage](imessageimapiprop.md) , предоставляемого функцией [опенимсгонистг](openimsgonistg.md) . 
   
@@ -70,7 +70,7 @@ S_OK
   
 > Вызов выполнен в целом, но не удалось получить доступ к одному или нескольким свойствам и они возвращались с типом свойства ПТ_ЕРРОР.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Доступ к атрибутам свойств возможен только для объектов Property, то есть объектов, реализующих интерфейс [IMAPIProp: IUnknown](imapipropiunknown.md) . Чтобы сделать свойства MAPI доступными в объекте структурированного хранилища OLE, [опенимсгонистг](openimsgonistg.md) создает объект [iMessage: IMAPIProp](imessageimapiprop.md) в начале объекта OLE **IStorage** . Атрибуты свойств таких объектов можно задавать или изменять с помощью **сетаттрибимсгонистг** и извлекаются с помощью [жетаттрибимсгонистг](getattribimsgonistg.md). 
   

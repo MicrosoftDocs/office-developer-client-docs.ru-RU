@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 12c07302-472f-4e4f-8087-1bdf0dc09a5a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 0fb867d662064dfe5ff7759dba4b36a4635a2914
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346839"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427731"
 ---
 # <a name="hrthisthreadadvisesink"></a>HrThisThreadAdviseSink
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает приемник уведомлений, который упаковывает существующий приемник уведомлений для обеспечения безопасности потоков. 
   

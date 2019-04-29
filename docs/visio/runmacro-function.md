@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 86b0f071-5e0b-56de-ff5b-63c114ad823a
 description: Вызывает макрос в проекте Microsoft Visual Basic для приложений (VBA).
 ms.openlocfilehash: 77045bd67fe9be9aab14e73199b33b93c6d70c2c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355715"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428090"
 ---
 # <a name="runmacro-function"></a>Функция RUNMACRO
 
@@ -29,7 +29,7 @@ ms.locfileid: "32355715"
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
 | _макрос_ <br/> |Обязательный  <br/> |**String** <br/> |Имя вызываемого макроса.  <br/> |
-| _прожнаме_опт_ <br/> |Необязательно  <br/> |**String** <br/> | Проект, содержащий макрос.  <br/> |
+| _прожнаме_опт_ <br/> |Необязательный  <br/> |**String** <br/> | Проект, содержащий макрос.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

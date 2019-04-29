@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 039b3a45-bd57-51f5-1485-a3f6d1bde85a
 description: В этом разделе показано, как считывать структуру TZDEFINITION из сохраненного формата, хранящегося в двоичном свойстве.
 ms.openlocfilehash: a685fbfcf918e13aa82ac32799997bb05730184e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317649"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434209"
 ---
 # <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a>Анализ потока из двоичного свойства для считывания структуры TZDEFINITION
 

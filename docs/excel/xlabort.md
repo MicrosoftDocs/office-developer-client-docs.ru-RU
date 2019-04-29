@@ -10,17 +10,17 @@ keywords:
 - функция xlAbort [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0fe71454-6b00-464b-8abf-afb209d57754
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 08ab69252520e76a5631c5e32a3970d2d95b1ff4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310257"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436659"
 ---
 # <a name="xlabort"></a>xlAbort
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Передает процессор другим задачам в системе и проверяет, нажал ли пользователь клавишу **ESC** для отмены макроса. Если во время пересчета книги пользователь нажал **клавишу ESC** , его также можно обнаружить в функции листа, вызвав эту функцию. 
   
@@ -38,7 +38,7 @@ Excel12(xlAbort, LPXLOPER12 pxRes, 1, LPXLOPER12 pxRetain);
 
 Возвращает **значение true** (**кслтипебул**), если пользователь нажал клавишу **ESC**.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 ### 
 

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: ea1daf74-d9e3-4304-bf5d-889afeea6ae9
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9f80130279e3437dd9be947de97d3f0d4181165e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287030"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411276"
 ---
 # <a name="iabcontainercreateentry"></a>IABContainer::CreateEntry
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает новую запись, которая может быть пользователем обмена сообщениями, списком рассылки или другим контейнером.
   
@@ -72,7 +72,7 @@ S_OK
   
 > Новая запись успешно создана.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **иабконтаинер:: креатинтри** создает новую запись определенного типа в указанном контейнере, возвращая указатель на реализацию интерфейса для последующего доступа к записи. Новая запись создается с помощью шаблона, выбранного из списка доступных шаблонов контейнера, опубликованных в обратной таблице. Вызывающие абоненты обращаются к одноразовой таблице контейнера, вызывая метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) и запрашивая свойство **пр_креате_темплатес** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)). 
   

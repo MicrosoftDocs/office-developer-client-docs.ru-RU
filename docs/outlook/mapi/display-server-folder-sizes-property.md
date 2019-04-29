@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 38429fdb-be93-213a-a780-80f9837f55fa
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 85a8b5216eac1dd4e4cebd1313cb31c9b5d70227
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337081"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434552"
 ---
 # <a name="display-server-folder-sizes-property"></a>Отображение свойства размеров папок сервера
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Отображает размеры указанных папок на сервере в диалоговом окне **Размер папки** Outlook. 
   
@@ -37,7 +37,7 @@ ms.locfileid: "32337081"
 |Тип свойства:  <br/> |PT_BOOLEAN  <br/> |
 |Тип доступа:  <br/> |Чтение и запись  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы обеспечить какую бы то ни было функцию хранилища, поставщик магазина должен реализовать [IMAPIProp: IUnknown](imapipropiunknown.md) и вернуть допустимый тег свойства для любого из этих свойств, переданного в вызов [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) . Когда тег свойства для любого из этих свойств передается в [IMAPIProp::](imapiprop-getprops.md)-Props, поставщик хранилища также должен возвращать правильное значение свойства. Поставщики хранилища могут вызывать [хржетонепроп](hrgetoneprop.md) и [хрсетонепроп](hrsetoneprop.md) для получения или задания этих свойств. 
   

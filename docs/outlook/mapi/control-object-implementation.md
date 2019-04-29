@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 4ad62ff0-c527-4e75-a2af-b5906a7588e8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 8304021565638f8a5893d0be8cd6a94ed62a8d95
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335660"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422609"
 ---
 # <a name="control-object-implementation"></a>Реализация объекта Control
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Объекты управления или объекты, которые поддерживают интерфейс [имапиконтрол: IUnknown](imapicontroliunknown.md) , реализуются поставщиками для добавления функциональных возможностей кнопки, которая отображается в диалоговом окне MAPI. Объекты Control могут быть реализованы только для кнопок. 
   

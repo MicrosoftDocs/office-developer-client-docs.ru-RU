@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 38cb3692-a5f8-403a-9615-9bd5868af23c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 7477213ee854be1ae71b47a0c1b339c4c13b6f04
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338684"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435581"
 ---
 # <a name="imapisessiongetlasterror"></a>IMAPISession::GetLastError
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [мапиеррор](mapierror.md) , содержащую сведения об ошибке предыдущего сеанса. 
   
@@ -63,7 +63,7 @@ S_OK
   
 > Установлен флаг МАПИ_УНИКОДЕ, а сеанс не поддерживает Юникод.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPISession:: GetLastError** получает сведения о последней ошибке, возвращенной вызовом метода **IMAPISession** . Клиенты могут предоставить пользователям подробные сведения об ошибке, включив эти сведения в диалоговое окно. 
   

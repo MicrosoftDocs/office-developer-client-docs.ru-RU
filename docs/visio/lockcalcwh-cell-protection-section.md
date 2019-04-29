@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6eb51e5a-03d8-3daa-b4e1-6107d540aed9
 description: Блокирует прямоугольник выделения фигуры, чтобы его нельзя было пересчитать при изменении вершины или при изменении типа строки в разделе Geometry.
 ms.openlocfilehash: 2b1d907f480a22a56f5847035da8d1cbde5fdcc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359635"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423043"
 ---
 # <a name="lockcalcwh-cell-protection-section"></a>LockCalcWH Cell (Protection Section)
 
 Блокирует прямоугольник выделения фигуры, чтобы его нельзя было пересчитать при изменении вершины или при изменении типа строки в разделе Geometry.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Невозможно пересчитать ширину и высоту.  <br/> |
 | FALSE  <br/> | Можно пересчитать ширину и высоту.  <br/> |

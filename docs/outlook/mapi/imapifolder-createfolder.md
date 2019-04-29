@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 39d07fc8-09aa-4122-af32-b02f2c893d29
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 606d780aa59e363c30ddc7a5b562db64d845ccb0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280080"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436764"
 ---
 # <a name="imapifoldercreatefolder"></a>IMAPIFolder::CreateFolder
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает новую вложенную папку.
   
@@ -98,7 +98,7 @@ S_OK
   
 > Папка с именем, заданной в параметре _лпсзфолдернаме_ , уже существует. Имена папок должны быть уникальными. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPIFolder:: CreateFolder** создает вложенную папку в текущей папке и присваивает новой папке идентификатор записи. 
   

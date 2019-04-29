@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 4c939a8c-8148-4add-b181-5a12e6d32309
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 5f6ebd20afc3b8d029fa7c632c55982862664055
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325643"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421132"
 ---
 # <a name="writing-a-hierarchy-viewer"></a>Написание средства просмотра иерархии
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Средство просмотра иерархии — это компонент пользовательского интерфейса, используемый для отображения таблиц иерархии контейнеров папок и адресной книги. Пользователи, просматривающие иерархию, могут отображать элементы иерархии на разных уровнях, расширяя и променяя каждый уровень по запросу.
   

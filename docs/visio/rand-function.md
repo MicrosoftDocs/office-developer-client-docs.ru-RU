@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 482497ee-fe19-c2fa-53ce-bdb27b5d28bc
 description: Возвращает случайное число с плавающей запятой от 0,0 до 1,0. Он возвращает разное число всякий раз, когда вычисляется функция, которая выполняется один раз в минуту в соответствии с системными часами.
 ms.openlocfilehash: bab2fd74aff85be85f886e3ac8fe7df113664ae5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360006"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424527"
 ---
 # <a name="rand-function"></a>Функция RAND
 
@@ -26,7 +26,7 @@ ms.locfileid: "32360006"
   
 ### <a name="return-value"></a>Возвращаемое значение
 
-Float
+С плавающей запятой
   
 ## <a name="remarks"></a>Примечания
 

@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 46146424-b4c9-2240-36c0-19bb35ec51d1
 description: Указывает, выполняется ли рецензирование документа для разметки.
 ms.openlocfilehash: 4e0860639b0d89fce2c35a8947bd5ac00fcc63e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338635"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427635"
 ---
 # <a name="addmarkup-cell-document-properties-section"></a>AddMarkup Cell (Document Properties Section)
 
 Указывает, выполняется ли рецензирование документа для разметки.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Документ просматривается.  <br/> |
 |FALSE  <br/> |Документ не просматривается (значение по умолчанию).  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если для ячейки AddMarkup задано значение TRUE, проверяющий добавляет разметку, а изменения применяются к страницам разметки, а не к исходным страницам документа. Если ячейка AddMarkup имеет значение FALSE, отслеживание разметки отключено, а изменения применяются к исходным страницам документа.
   

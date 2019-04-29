@@ -9,17 +9,17 @@ api_type:
 ms.assetid: df7e122f-0c44-4d81-8174-3a2d51671ba9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 329841a49154763a3e73a234e28def149719cb08
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328723"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435980"
 ---
 # <a name="required-properties-for-all-messages"></a>Обязательные свойства для всех сообщений
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В следующей таблице описываются свойства, которые клиенты могут ожидать установки или просмотра для сообщений всех классов.
   

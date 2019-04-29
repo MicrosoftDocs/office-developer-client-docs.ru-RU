@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 4949aef9-4c96-82cc-cd13-57981e07cc40
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: fc5f5a42e2b1e57374ff80a9333b927cc8dba120
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326266"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436813"
 ---
 # <a name="nofolderscan"></a>NoFolderScan
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, должно ли приложение Microsoft Office Outlook сканировать папки контактов в хранилище.
   
@@ -33,7 +33,7 @@ ms.locfileid: "32326266"
 |Тип свойства:  <br/> |PT_LONG  <br/> |
 |Тип доступа:  <br/> |Только чтение или чтение и запись в зависимости от поставщика услуг хранения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы обеспечить какую бы то ни было функцию хранилища, поставщик магазина должен реализовать [IMAPIProp: IUnknown](imapipropiunknown.md) и вернуть допустимый тег свойства для любого из этих свойств, переданного в вызов [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) . Когда тег свойства для любого из этих свойств передается в [IMAPIProp::](imapiprop-getprops.md)-Props, поставщик хранилища также должен возвращать правильное значение свойства. Поставщики хранилища могут вызывать [хржетонепроп](hrgetoneprop.md) и [хрсетонепроп](hrsetoneprop.md) для получения или задания этих свойств. 
   

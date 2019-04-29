@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 24261b77-e3e8-7434-a503-9f23798bdab1
 description: Представляет координату x конечной точки одномерной фигуры относительно начала родительского элемента.
 ms.openlocfilehash: 4bd3099b2c13572023b0b813b1cc69a7b211546b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329094"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411570"
 ---
 # <a name="endx-cell-1-d-endpoints-section"></a>EndX Cell (1-D Endpoints Section)
 
 Представляет координату *x* конечной точки одномерной фигуры относительно начала родительского элемента. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку EndX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

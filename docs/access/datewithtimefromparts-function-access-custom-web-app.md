@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: aa97cbaa-8b14-42e3-a098-938ebe0769eb
 description: Возвращает дату и время на основе указанного года, месяца, дня и времени.
 ms.openlocfilehash: ee995d346ca27e683f342cf3f611c1147997d24e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282144"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422091"
 ---
 # <a name="datewithtimefromparts-function-access-custom-web-app"></a>Функция Датевистимефромпартс (пользовательское веб-приложение для Access)
 
@@ -35,7 +35,7 @@ ms.locfileid: "32282144"
 | *Minute*  <br/> |Целочисленное выражение, задающее минуты.  <br/> |
 | *Second*  <br/> |Целочисленное выражение, задающее секунды.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 **Датевистимефромпартс** Возвращает полностью инициализированное значение даты и времени. Если аргументы являются недопустимыми, возникает ошибка. Если обязательные аргументы имеют значение null, возвращается значение null. 
   

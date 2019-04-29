@@ -13,11 +13,11 @@ api_type:
 ms.assetid: 17cb53c4-7154-4a4e-b4ec-de720fa055cb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7726811467324242037ec11a69ae0b1b123d7f21
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328072"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427159"
 ---
 # <a name="fpropcompareprop"></a>FPropCompareProp
 
@@ -63,7 +63,7 @@ FALSE
   
 > Значения свойств не соответствуют указанному отношению.
     
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
 Метод сравнения зависит от типов свойств, указанных в определениях свойств [спропвалуе](spropvalue.md) . Функции **фпропкомпарепроп** и [фпропконтаинспроп](fpropcontainsprop.md) можно использовать для подготовки ограничений для создания таблицы. 
   

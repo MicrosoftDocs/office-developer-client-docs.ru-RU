@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3537de44-8d6f-4bd9-bf8c-fa851fc007b9
 description: Указывает, будет ли текст фигуры игнорировать Поворот фигуры в трехмерном виде. Не применяется к повороту на 2 D.
 ms.openlocfilehash: fc8cf2fac431645876c7f81ed9864cb6c2036169
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360440"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422042"
 ---
 # <a name="keeptextflat-cell-3-d-rotation-properties-section"></a>KeepTextFlat Cell (3-D Rotation Properties Section)
 
@@ -20,7 +20,7 @@ ms.locfileid: "32360440"
   
 ****
 
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Текст фигуры не поворачивается вместе с геометрическим объектом фигуры.  <br/> |
 |FALSE  <br/> |Текст фигуры преобразуется в поворот с помощью геометрии фигуры.  <br/> |

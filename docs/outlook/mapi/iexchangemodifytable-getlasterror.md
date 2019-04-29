@@ -13,17 +13,17 @@ api_type:
 ms.assetid: b850dc08-73c3-4b19-ae29-1892d6a2ff2f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 8d5d4895e4440945896ee4f2212c5fca6da8610d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350864"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424513"
 ---
 # <a name="iexchangemodifytablegetlasterror"></a>IExchangeModifyTable::GetLastError
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает сведения о последней ошибке, произошедшей в объекте Table.
   

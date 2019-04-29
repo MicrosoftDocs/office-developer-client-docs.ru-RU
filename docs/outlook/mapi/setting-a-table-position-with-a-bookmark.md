@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 56ab37f9-5aa6-4e9d-9dc8-b3d95aa19f35
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f0b041cecca92c0ced32631c67c72fcafdab2a16
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351235"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422462"
 ---
 # <a name="setting-a-table-position-with-a-bookmark"></a>Задание позиции таблицы с помощью закладки
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Закладка — это ресурс, указывающий конкретное расположение в таблице. Задание закладки позволяет вернуться к позиции позднее, которая может значительно увеличить производительность операций с таблицами. MAPI определяет три стандартные закладки: 
   

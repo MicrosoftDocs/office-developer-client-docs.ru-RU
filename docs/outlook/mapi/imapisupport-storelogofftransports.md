@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f21fba96-c5ca-4d41-9b93-c7955ab7327f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 30c91ec7a5a28b0c270da5223a2a245fb504d8c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326497"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421384"
 ---
 # <a name="imapisupportstorelogofftransports"></a>IMAPISupport::StoreLogoffTransports
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ЗаПрашивает выпуск хранилища сообщений по расрядку.
   
@@ -83,7 +83,7 @@ S_OK
   
 > Процедура выхода выполнена успешно.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: сторелогоффтранспортс** реализован для объектов поддержки поставщика хранилища сообщений. Поставщики хранилищ сообщений вызывают **сторелогоффтранспортс** , чтобы предоставить клиентским приложениям возможность управления процессом обработки службой MAPI действия поставщика транспорта в случае закрытия хранилища сообщений. 
   

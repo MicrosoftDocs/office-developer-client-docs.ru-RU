@@ -13,17 +13,17 @@ api_type:
 ms.assetid: aa8dc48b-9e1c-8da0-9579-10b7174e99de
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 48d59d17d81da2ae78348a57ad8b1cb75486b1a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321317"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433376"
 ---
 # <a name="imapiofflinegetcapabilities"></a>IMAPIOffline::GetCapabilities
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Получает условия, для которых в автономном объекте поддерживаются обратные вызовы.
   
@@ -47,7 +47,7 @@ MAPIOFFLINE_CAPABILITY_ONLINE
   
 > Автономный объект способен предоставлять интерактивные уведомления.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Когда вы открываете автономный объект с помощью **[хропеноффлинеобж](hropenofflineobj.md)**, клиент может запрашивать [имапиоффлинемгр](imapiofflinemgrimapioffline.md) , чтобы получить указатель на интерфейс **имапиоффлине** , и вызывать **имапиоффлине::** GetObject, чтобы узнать, какие функции обратного вызова поддерживаются объектом. После этого клиент может выбрать настройку обратных вызовов с помощью **имапиоффлинемгр**.
   

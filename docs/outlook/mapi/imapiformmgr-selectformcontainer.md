@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c33daad6-52c4-4968-ac56-415178c9bf12
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: bfddc24e6a9c7cf8bdeae1e5ea730ecdb116f564
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321590"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428594"
 ---
 # <a name="imapiformmgrselectformcontainer"></a>IMAPIFormMgr::SelectFormContainer
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Отображает диалоговое окно, позволяющее пользователю выбрать контейнер формы и возврат интерфейса для объекта контейнера, выбранного пользователем.
   
@@ -67,7 +67,7 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Средства просмотра форм обычно вызывают метод **имапиформмгр:: селектформконтаинер** для выбора контейнера формы, в котором установлена форма. **Селектформконтаинер** не может использоваться для выбора локального контейнера форм, который имеет значение хфрмрег_локал. 
   

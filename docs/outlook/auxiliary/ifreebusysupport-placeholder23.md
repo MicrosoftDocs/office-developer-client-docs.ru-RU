@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7d35a1d0-2267-86d9-2bf4-b3f95b3693e1
 description: Этот элемент является заполнителем и не поддерживается.
 ms.openlocfilehash: f4a3fc0950bc92f62ca724baf6f88cea68f753e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319385"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427026"
 ---
 # <a name="ifreebusysupportplaceholder23"></a>IFreeBusySupport::Placeholder23
 
@@ -36,7 +36,7 @@ HRESULT Placeholder23(
 
 Всегда значение E_NOTIMPL, так как этот член является заполнителем и не поддерживается.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент должен возвращать E_NOTIMPL.
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 365f7005-ba34-2311-4c5c-16344962fc3f
 description: Определяет категорию вставленного поля в более ранних версиях Visio, чем Visio 2000.
 ms.openlocfilehash: c67ced9e4f731e66bce0589929ac90fb9bb8d67c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331201"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434027"
 ---
 # <a name="uicategory-cell-text-fields-section"></a>UICategory Cell (Text Fields Section)
 
 Определяет категорию вставленного поля в более ранних версиях Visio, чем Visio 2000.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эта ячейка не отображается в окне таблицы свойств фигуры. Используйте эту ячейку, если вам нужно разобраться с проблемами обратной связи, например, сохранив документ Visio версии 2000 в формате файлов Visio версии 5,0.
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0846415b-6fe1-4504-8620-108af6719015
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8c5e6078be05ff846b7737ff53e9a6338fcb2141
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318097"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431598"
 ---
 # <a name="builddisplaytable"></a>BuildDisplayTable
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает таблицу отображения из данных страницы свойств, которые хранятся в одной или нескольких структурах [дтпаже](dtpage.md) . 
   
@@ -98,7 +98,7 @@ MAPI_UNICODE
 
 Нет
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 MAPI использует функции, на которые указывает _лпаллокатебуффер_, _лпаллокатеморе_и _лпфрибуффер_ для большей части памяти и освобождений, в частности, для выделения памяти, используемой клиентскими приложениями при вызове интерфейсов объектов Например, [IMAPIProp::](imapiprop-getprops.md) /PROPS и [IMAPITable:: QueryRows](imapitable-queryrows.md). 
   

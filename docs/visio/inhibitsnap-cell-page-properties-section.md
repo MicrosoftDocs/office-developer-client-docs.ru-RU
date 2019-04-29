@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: ab9fcebc-1550-3b9e-e3b4-e8b92424390b
 description: Определяет, привязываются ли фигуры на переднем плане к другим объектам на странице и фигурам на фоновой странице.
 ms.openlocfilehash: 665130e9f9f938349028ffa1d1c06224e746de5d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335324"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426753"
 ---
 # <a name="inhibitsnap-cell-page-properties-section"></a>InhibitSnap Cell (Page Properties Section)
 
 Определяет, привязываются ли фигуры на переднем плане к другим объектам на странице и фигурам на фоновой странице.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Запрет на все привязки на странице, за исключением привязки к линейке и сетке.  <br/> |
 | FALSE  <br/> | Включить привязку.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку InhibitSnap по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

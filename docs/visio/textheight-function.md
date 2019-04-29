@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5a10892f-c8fa-c127-2f5a-564009ce5411
 description: Возвращает высоту составного текста в фигуре, где строка без текста не превышает максимумвидс.
 ms.openlocfilehash: 7455f58f14f9a4a0ae1fcd5375dba5d5860d3852
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332367"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427411"
 ---
 # <a name="textheight-function"></a>Функция TEXTHEIGHT
 
@@ -33,9 +33,9 @@ TEXTHEIGHT (* * *шапенаме! TheText* * * * * *[, максимумвидс
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Возвращаемое значение включает высоту текста, включая пробел до и после текста, междустрочный интервал в тексте, а также поля блока верхнего и нижнего текста. Эта функция обычно используется для настройки высоты фигуры в соответствии с текстом, который она содержит.
   

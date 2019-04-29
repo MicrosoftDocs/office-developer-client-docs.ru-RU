@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 8cbd1a42-7de6-43e0-8c77-7711773843d5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: fbe6dc9364ee953661d574b70bcd225abcfe7a81
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321653"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413061"
 ---
 # <a name="imapiformmgr--iunknown"></a>IMAPIFormMgr : IUnknown
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Позволяет читателям форм получать сведения о серверах форм и активировать их. 
   

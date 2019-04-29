@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 59fe0887-2092-4fad-ea38-2aba354f3b92
 description: Включает и выключает печать для выбранной фигуры.
 ms.openlocfilehash: c3e1fc1b2d91fa4808f8ea89c904218c2236f5b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357234"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437261"
 ---
 # <a name="nonprinting-cell-miscellaneous-section"></a>NonPrinting Cell (Miscellaneous Section)
 
 Включает и выключает печать для выбранной фигуры.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Печать отключена, но фигура будет отображаться в окне документа.  <br/> |
 | FALSE  <br/> | Печать включена.  <br/> |

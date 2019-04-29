@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5a6ddb97-39b8-4e24-9b89-7a1e3bb261d5
 description: Возвращает синус угла.
 ms.openlocfilehash: 00701656d400264c206f4a48ed88cf94f0902dc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328583"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429805"
 ---
 # <a name="sin-function-visioshapesheet"></a>SIN Function (VisioShapeSheet)
 
@@ -32,9 +32,9 @@ SIN (* * *угол* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Номер
+Число
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Функция SIN использует радианы, если вы не укажете другую единицу измерения в качестве _угла_.
   

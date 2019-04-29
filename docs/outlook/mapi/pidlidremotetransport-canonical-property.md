@@ -13,17 +13,17 @@ api_type:
 ms.assetid: b3b30d6a-05cd-4dd1-a162-20768f12e680
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ddedc2ca0785be2fe4850ec3cfdf979d1e5f2798
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285181"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439445"
 ---
 # <a name="pidlidremotetransport-canonical-property"></a>Каноническое свойство PidLidRemoteTransport
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет учетную запись, с которой связан элемент заголовка, в первую очередь для реализации функции POP на сервере. 
   
@@ -35,7 +35,7 @@ ms.locfileid: "32285181"
 |Тип данных:  <br/> |PT_STRING8  <br/> |
 |Область:  <br/> |Удаленное сообщение  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство относится только к сообщениям, у которых есть класс сообщения IPM. Удаленного. В Microsoft Outlook поддерживается сопоставление различных учетных записей, которые загружаются в заданное хранилище в сообщении со сведениями о папке (ФАИ), но эти сведения также могут храниться в реестре.
   
