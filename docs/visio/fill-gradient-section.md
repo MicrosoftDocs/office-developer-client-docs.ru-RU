@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 73e3a261-6282-4051-aec5-9f24abf32ec0
 description: Отображает значения цвета для градиента заливки, применяемого к фигуре.
 ms.openlocfilehash: ca3aff17d184e566d4d8c054495a03770448830b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322528"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405466"
 ---
 # <a name="fill-gradient-section"></a>Fill Gradient Section
 
 Отображает значения цвета для градиента заливки, применяемого к фигуре. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Каждая строка [ограничителя градиента (раздел градиентНая Заливка)](gradient-stop-row-fill-gradient-section.md) в разделе представляет точку градиента в поле Fill (Заливка). Этот раздел может быть пустым. 
   

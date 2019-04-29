@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8733aab9-3a8e-4924-b62f-4e871d991c72
 description: Возвращает строку, содержащую коллекцию сведений о пользователях и изображениях для пользователей, указанных в параметре Персонсаддрессес.
 ms.openlocfilehash: 08b6eca193da59bbdc3c9d21d4dc9b6d0e0c884f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344872"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404535"
 ---
 # <a name="isocialsession2getpeopledetails"></a>ISocialSession2::GetPeopleDetails
 
@@ -33,7 +33,7 @@ _Персонсколлектион_
   
 > вышли XML-строка, содержащая коллекцию сведений о пользователях и изображениях.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Outlook Social Connector (OSC) вызывает **жетпеопледетаилс** , если поставщик OSC поддерживает потребовать или гибридную синхронизацию друзей и не друзей. 
   

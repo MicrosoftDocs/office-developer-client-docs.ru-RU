@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: cf15b879-a47e-a5a5-bfdd-1d7ea423742f
 description: Определяет значок, который появляется рядом с элементом в контекстном меню или меню тегов действий.
 ms.openlocfilehash: 7ee9c4e7e857acb34ce75429aa0aaf679320b0e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337550"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407377"
 ---
 # <a name="buttonface-cell-actions-section"></a>ButtonFace Cell (Actions Section)
 

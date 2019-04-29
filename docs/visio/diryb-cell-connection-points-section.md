@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d951c57d-2c22-0289-35af-44e3c2877b2c
 description: Определяет y компонента для требуемого вектора выравнивания соответствующей точки подключения. Он также используется для ориентации присоединенного участка динамической соединительной линии. Эта ячейка принимает значение с плавающей запятой.
 ms.openlocfilehash: b0dc3c9f7e1a9e87b2ecdace21c8fa1658b1388d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332587"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417093"
 ---
 # <a name="diry--b-cell-connection-points-section"></a>DirY / B Cell (Connection Points Section)
 
 Определяет *y* компонента для требуемого вектора выравнивания соответствующей точки подключения. Он также используется для ориентации присоединенного участка динамической соединительной линии. Эта ячейка принимает значение с плавающей запятой. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку ячейка diry/B по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

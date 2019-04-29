@@ -8,17 +8,17 @@ keywords:
 - функции библиотеки Framework [Excel 2007], функции [Excel 2007], Библиотека Framework
 localization_priority: Normal
 ms.assetid: 7d9a13fd-9a4c-423e-bb08-4a5be57c7905
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4eeb9e5db09592e98e9afb763efaa6be18eb2f7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304055"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417548"
 ---
 # <a name="functions-in-the-framework-library"></a>Функции в библиотеке платформы
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Библиотека Framework была создана для упрощения создания XLL. Он включает простые функции для управления памятью **XLOPER**/ **XLOPER12** , создавая временную группу **XLOPER**/ **** и надежно вызывая функции обратного вызова Microsoft Excel (**Excel4**, **Excel4v** * * Excel12 * *, * * Excel12v * *) и печать строк отладки на присоединенном терминале.
   

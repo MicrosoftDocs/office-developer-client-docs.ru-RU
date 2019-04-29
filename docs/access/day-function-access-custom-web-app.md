@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 8e0a77e4-0653-4a85-b507-13440aef195b
 description: Возвращает целое число, представляющее день (день месяца) указанной даты григорианского календаря.
 ms.openlocfilehash: 720adaffbd97a735f6b1395e64965f972c6099cd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280693"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417471"
 ---
 # <a name="day-function-access-custom-web-app"></a>Функция Day (пользовательское веб-приложение для Access)
 
@@ -30,7 +30,7 @@ ms.locfileid: "32280693"
 |:-----|:-----|
 | *Date*  <br/> |Выражение, которое может быть разрешено в значение даты и времени. Выражение аргумента *Date* , выражение столбца, определяемая пользователем переменная или строковый литерал.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 **Day** возвращает то же значение, что и **DatePart** (Day, Date). 
   

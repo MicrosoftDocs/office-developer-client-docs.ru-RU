@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 230c66c4-ab04-4fa6-946f-9f4b704f2842
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 9a5f8b44f9d795282ccfd61fd32a306c5478ed21
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342793"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416239"
 ---
 # <a name="msproviderinit"></a>MSProviderInit
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Инициализирует поставщик хранилища сообщений для операции.
   
@@ -99,7 +99,7 @@ S_OK
   
 > Версия SPI, используемая MAPI, несовместима с SPI, используемым этим поставщиком.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 MAPI вызывает функцию точки входа **мспровидеринит** для инициализации поставщика хранилища сообщений после входа клиента. 
   

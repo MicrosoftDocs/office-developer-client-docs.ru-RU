@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a304ca8f-e404-4535-be76-0b673f2061a0
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 8c76e6059670e782ea6530ec8e94f77abfe5b9fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316646"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417163"
 ---
 # <a name="imapisupportmodifystatusrow"></a>IMAPISupport::ModifyStatusRow
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Изменяет таблицу состояний, добавляя новую строку или изменяя существующую строку.
   
@@ -59,7 +59,7 @@ S_OK
   
 > Таблица состояния успешно обновлена.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: модифистатусров** реализован для всех объектов поддержки поставщика услуг. Поставщики услуг вызывают **модифистатусров** во время входа, чтобы добавить строку в таблицу состояния и в другое время сеанса, чтобы обновить строку. **Модифистатусров** предоставляет MAPI со сведениями, необходимыми для создания таблицы состояния. 
   

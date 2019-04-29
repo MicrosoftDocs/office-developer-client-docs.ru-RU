@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c472ce02-4ef4-40a9-51de-12b37f092342
 description: Этот элемент является заполнителем и не поддерживается. Он должен всегда возвращать E_NOTIMPL.
 ms.openlocfilehash: 0c263039ed562763cef2ab5e5e3f3a3e5ca90ab2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322087"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418892"
 ---
 # <a name="iolkaccounthelperplaceholder1"></a>IOlkAccountHelper::Placeholder1
 
@@ -30,7 +30,7 @@ HRESULT IOlkAccountHelper::Placeholder1 (
 
 Всегда значение E_NOTIMPL, так как этот член является заполнителем в [иолкаккаунселпер](iolkaccounthelper.md) и не поддерживается. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент должен всегда возвращать E_NOTIMPL.
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c01dd938-677c-b2ba-8f56-4638e7e988fd
 description: Вычисляет одно из двух выражений в зависимости от значения State.
 ms.openlocfilehash: 544bb2b19dc610591afc78c407301098fac9c7c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331327"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420348"
 ---
 # <a name="userui-function"></a>Функция USERUI
 
@@ -32,7 +32,7 @@ USERUI (* * *State* * *, * * *дефаултекспрессион* * *, * * *у
 | _дефаултекспрессион_ <br/> |Обязательный  <br/> |**String** <br/> |Выражение, используемое по умолчанию.  <br/> |
 | _усерекспрессион_ <br/> |Обязательный  <br/> |**String** <br/> |Выражение, предоставленное пользователем.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если значение _State_ равно 0, функция USERUI оценивает значение _дефаултекспрессион_. Если _состояние_ равно 1, вычисляется _усерекспрессион_.
   

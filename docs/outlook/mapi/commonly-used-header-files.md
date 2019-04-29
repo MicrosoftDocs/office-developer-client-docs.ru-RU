@@ -9,17 +9,17 @@ api_type:
 ms.assetid: bf23b72c-0171-444c-96bc-7af2499b4d6a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ec4923bb5fbe78dfed55bea1b537a33d195cb0cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332055"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406215"
 ---
 # <a name="commonly-used-header-files"></a>Часто используемые файлы заГоловков
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Каждый раздел справки содержит таблицу с именем файла заголовка MAPI, в котором определен элемент API. В следующей таблице описываются файлы заголовков MAPI, которые часто используются разработчиками.
   

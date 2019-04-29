@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d16219a0-268c-428d-9f02-4f06eb5b6d7d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: e66315042f8b5cd5aff0e4aa076588c9f312376a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328786"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406173"
 ---
 # <a name="imapiviewadvisesinkonprint"></a>IMAPIViewAdviseSink::OnPrint
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Уведомляет средство просмотра форм о состоянии печати формы.
   
@@ -66,7 +66,7 @@ S_OK
   
 > Пользователь отменил операцию, как правило, нажав кнопку Отмена в диалоговом окне. 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Объекты форм вызывают метод **имапивиевадвисесинк:: OnPrint** при печати для информирования средства просмотра о ходе печати. 
   

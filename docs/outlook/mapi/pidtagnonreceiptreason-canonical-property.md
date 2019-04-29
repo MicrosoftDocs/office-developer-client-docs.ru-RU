@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 39fd9df4-4fb8-412e-a610-d450051516ed
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 64f98c8a9f8ab515393bb0fac4bdc10e98d9760f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329304"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405431"
 ---
 # <a name="pidtagnonreceiptreason-canonical-property"></a>Каноническое свойство PidTagNonReceiptReason
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит причины, по которым сообщение не было получено в составе отчета о недоставке.
   
@@ -32,9 +32,9 @@ ms.locfileid: "32329304"
 |Связанные свойства:  <br/> |ПР_НОН_РЕЦЕИПТ_РЕАСОН  <br/> |
 |Идентификатор:  <br/> |0x003E  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Exchange  <br/> |
+|Область:  <br/> |Exchange;  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Причины могут включать, например, то, что сообщение было отклонено.
   

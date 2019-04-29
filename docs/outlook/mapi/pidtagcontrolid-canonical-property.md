@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 281bc3e0-7c69-461b-bf09-4281abbb5e1b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b27f59e0bfdcac8eca1751af2f07139f12e2b3a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334743"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416022"
 ---
 # <a name="pidtagcontrolid-canonical-property"></a>Каноническое свойство PidTagControlId
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит уникальный идентификатор элемента управления, используемого в диалоговом окне. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32334743"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Таблица отображения MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство содержит уникальный идентификатор для элемента управления. Этот идентификатор должен содержать структуру [GUID](guid.md) и двоичное значение типа **Long**. Все элементы управления в диалоговом окне должны использовать один **GUID** для идентификации поставщика услуг, а каждый элемент управления должен использовать уникальное **длинное** значение, чтобы избежать конфликта элементов управления. 
   

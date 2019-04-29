@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8df34463-0238-0b0d-9f99-ea912a644f56
 description: Открывает блок текста фигуры, чтобы можно было редактировать текст.
 ms.openlocfilehash: f182943b8ef01ff78c2f606cd0f925110ce83fef
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315668"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414461"
 ---
 # <a name="opentextwin-function"></a>Функция OPENTEXTWIN
 
@@ -24,7 +24,7 @@ ms.locfileid: "32315668"
 
 OPENTEXTWIN ()
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В более ранних версиях Visio Эта функция отображается как _ОПЕНТЕКСТВИН. Visio версии 4,0 и более поздних принимают любой из этих стилей. 
   

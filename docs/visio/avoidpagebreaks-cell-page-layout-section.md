@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 7d2ec869-7ffa-3b41-8126-3f4889501e0c
 description: Определяет, могут ли фигуры размещаться поверх разрывов страниц, когда фигуры инкрементно выравниваются, инкрементно или и то, и другое.
 ms.openlocfilehash: 5ff5a31e26cc1ab9415eb69b76fc9f64ccd1ae7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338726"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416316"
 ---
 # <a name="avoidpagebreaks-cell-page-layout-section"></a>AvoidPageBreaks Cell (Page Layout Section)
 
 Определяет, могут ли фигуры размещаться поверх разрывов страниц, когда фигуры инкрементно выравниваются, инкрементно или и то, и другое.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку AvoidPageBreaks по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

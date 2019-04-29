@@ -10,17 +10,17 @@ keywords:
 - Функция xlfSetName [Excel 2007]
 localization_priority: Normal
 ms.assetid: ea7fd713-7c1b-4648-a609-3334f595c61a
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e6327ccf2cd18e42c3ef9abe538e6f669e498352
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310278"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404262"
 ---
 # <a name="xlfsetname"></a>xlfSetName
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Используется для создания и удаления определенных имен, связанных с БИБЛИОТЕКой DLL.
   
@@ -44,7 +44,7 @@ _пксрес_ (**кслтипебул** или **кслтипирр**)
   
 ЗНАЧЕНИЕ TRUE, если операция завершилась успешно, или значение FALSE, если имя не удалось создать или удалить. Возвращает #VALUE! Если один или несколько аргументов являются недопустимыми.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если функция или команда зарегистрирована с помощью **xlfRegister** с допустимым аргументом _пксфунктионтекст_ , Excel создает имя, связанНОЕ с ресурсом DLL. При выгрузке библиотеки DLL такие имена необходимо удалить с помощью [функции xlfSetName](xlfsetname.md). Однако из-за известной проблемы в Excel эта операция удаления завершается с ошибкой. Дополнительные сведения см. в статье [Известные проблемы, возникающие при разработке XLL для Excel](known-issues-in-excel-xll-development.md).
   

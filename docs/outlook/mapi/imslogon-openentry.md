@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 612cbab7-60cb-48bb-906e-18d9135e7a86
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 544aaaace18a9d26972e6484803b63a1ee7060fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317285"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416302"
 ---
 # <a name="imslogonopenentry"></a>IMSLogon::OpenEntry
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Открывает папку или объект Message и возвращает указатель на объект, предоставляющий дополнительный доступ. 
   
@@ -82,7 +82,7 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 MAPI вызывает метод **имслогон:: OpenEntry** для открытия папки или сообщения в хранилище сообщений. MAPI передает идентификатор записи объекта, который требуется открыть. Поставщик хранилища сообщений должен возвратить указатель, который обеспечивает дальнейший доступ к объекту, указанному в параметре _лппунк_ . 
   

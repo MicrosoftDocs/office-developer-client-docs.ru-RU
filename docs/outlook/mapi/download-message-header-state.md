@@ -7,17 +7,17 @@ localization_priority: Normal
 ms.assetid: 03f69592-a5ea-e30b-9674-9cfa895163d8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c8e83119d724f583d40583a6a5227bc467dc94da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338838"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417121"
 ---
 # <a name="download-message-header-state"></a>Загрузка состояния заголовка сообщения
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описывается, что происходит во время загрузки состояния заголовка сообщения для конечного автомата репликации. 
   

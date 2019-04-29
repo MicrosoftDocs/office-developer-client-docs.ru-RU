@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b72124aa-2e85-057c-9343-a40af60b91a0
 description: Возвращает идентификатор, который уникальным образом определяет учетную запись в профиле, в котором создается учетная запись.
 ms.openlocfilehash: dcb0a7935b9b764c44088971a1acb1f3647cbdb0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327659"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407167"
 ---
 # <a name="propacctid"></a>PROP_ACCT_ID
 
@@ -29,7 +29,7 @@ ms.locfileid: "32327659"
 |Тег свойства:  <br/> |0x00010003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **е_олк_проп_реад_онли**. 
   

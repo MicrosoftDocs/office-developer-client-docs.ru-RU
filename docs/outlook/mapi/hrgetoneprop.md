@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 8d0a381a-e714-4663-9a57-b0e1cdbd6ba7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e5adc7d0c317d8b803645d78227777998d7d241f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347840"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416057"
 ---
 # <a name="hrgetoneprop"></a>HrGetOneProp
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Извлекает значение одного свойства из интерфейса свойства, то есть интерфейс, производный от [IMAPIProp](imapipropiunknown.md). 
   

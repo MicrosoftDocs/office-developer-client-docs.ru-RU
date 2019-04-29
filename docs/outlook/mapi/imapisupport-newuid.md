@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 7994477d-5207-4335-b538-69c98782d52d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: a38f7ea475f8a5cbad4f1cc295c3e2550ea8cd66
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330200"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406999"
 ---
 # <a name="imapisupportnewuid"></a>IMAPISupport::NewUID
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает новую структуру [мапиуид](mapiuid.md) , которая будет использоваться в качестве уникального идентификатора. 
   
@@ -45,7 +45,7 @@ S_OK
   
 > Создана новая структура **мапиуид** . 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: невуид** реализован для всех объектов поддержки. Поставщики услуг и службы сообщений вызывайте **невуид** , когда им нужно создать долгосрочный уникальный идентификатор. Например, поставщик хранилища сообщений может вызвать **невуид** , чтобы получить **мапиуид** , которое будет размещено в свойстве **пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) только что созданного сообщения.
   

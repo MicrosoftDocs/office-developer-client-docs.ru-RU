@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: acc136ef-9946-7c12-a467-9ded732a3549
 description: Возвращает целое число, представляющее год по григорианскому календарю, в виде даты и времени или выражения, отформатированного в соответствии со стилем краткой даты из текущих системных параметров языка и региона.
 ms.openlocfilehash: c9bacd34557d365841171bee5c9f4683e6a3d296
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351655"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420712"
 ---
 # <a name="year-function-visioshapesheet"></a>Функция YEAR (VisioShapeSheet)
 

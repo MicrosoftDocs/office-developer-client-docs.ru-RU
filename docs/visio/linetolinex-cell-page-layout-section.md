@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f6b461fe-56ac-4c0e-31cd-6b3c1075db6e
 description: Определяет горизонтальный зазор между всеми соединителями на странице документа.
 ms.openlocfilehash: f3dbf43c737fef1fa1156fb4dc8d0f23449328c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358956"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416330"
 ---
 # <a name="linetolinex-cell-page-layout-section"></a>LineToLineX Cell (Page Layout Section)
 

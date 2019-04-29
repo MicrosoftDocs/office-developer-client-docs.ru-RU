@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 9bd31233-fc8d-4e0a-9f1b-218c5ecb6d1b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: f72c916e917543b11089f8f5ef1aa4b9552a1b6a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351410"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417345"
 ---
 # <a name="setting-address-book-options"></a>Настройка параметров адресной книги
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Вы можете задать три свойства, описывающих параметры использования адресной книги:
   

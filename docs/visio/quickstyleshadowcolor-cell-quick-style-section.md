@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0a80959f-941f-451c-9049-dc661ff4930f
 description: Определяет, какой цвет темы использует теневую форму, в виде целого числа от 0 до 7.
 ms.openlocfilehash: b623eee89d214bade2706b12fcb344eccd8814b8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360040"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414958"
 ---
 # <a name="quickstyleshadowcolor-cell-quick-style-section"></a>QuickStyleShadowColor Cell (Quick Style Section)
 

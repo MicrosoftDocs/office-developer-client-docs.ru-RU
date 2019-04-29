@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: dd88fb8d-3ec3-476a-870d-6642b191496f
 description: Представляет координату центра вращения фигуры по оси x относительно начала координат родительского объекта.
 ms.openlocfilehash: de12b379d5f345209a468298174634ff4f9cd639
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346755"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404822"
 ---
 # <a name="pinx-cell-shape-transform-section"></a>PinX Cell (Shape Transform Section)
 

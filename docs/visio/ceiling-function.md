@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1a8d6d48-7ae3-5483-28d2-5b1706088a53
 description: Округляет число от 0 (нуля) до следующего экземпляра множителя. Если не указано значение Multiple, число округляется от 0 до следующего целого числа.
 ms.openlocfilehash: 449f17d1b68c116cccb2635723a3f6277d0ac2a9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337228"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404129"
 ---
 # <a name="ceiling-function"></a>Функция CEILING
 
@@ -31,7 +31,7 @@ CEILING (* * *число* * * * * * *несколько* * *)
 | _число_ <br/> |Обязательный  <br/> |**Number** <br/> |Округляемое число.  <br/> |
 | _сразу_ <br/> |Обязательный  <br/> |**Number** <br/> |Точность до.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
  _Число_ и _множество_ должны иметь одинаковые знаки или #NUM! возвращается ошибка. Если один или _несколько_ _чисел_ не могут быть преобразованы в значение, то #VALUE! возвращается ошибка. Если один или _несколько_ _чисел_ имеют значение 0, результат равен 0. 
   
@@ -41,13 +41,13 @@ CEILING (3.7)
   
 Возвращает 4
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 CEILING (-3,7)
   
 Возвращает значение — 4
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 CEILING (3.7, 0,25)
   

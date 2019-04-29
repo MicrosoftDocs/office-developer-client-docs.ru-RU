@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3b2991aa-4722-fe3b-39c5-02d38c4c7efc
 description: Определяет расстояние смещения объекта по вертикали от начала границы объекта. По умолчанию используется значение 0. При панорамировании объекта с помощью инструмента "обРезать" это значение изменяется.
 ms.openlocfilehash: 908972216a24370bc48990ddc99a36da9274d648
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344739"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406740"
 ---
 # <a name="imgoffsety-cell-foreign-image-info-section"></a>ImgOffsetY Cell (Foreign Image Info Section)
 
 Определяет расстояние смещения объекта по вертикали от начала границы объекта. По умолчанию используется значение 0. При панорамировании объекта с **** помощью инструмента "обрезать" это значение изменяется. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку ImgOffsetY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

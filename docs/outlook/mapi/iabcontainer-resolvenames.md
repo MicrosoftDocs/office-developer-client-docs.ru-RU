@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 27474af2-29a2-4cfb-b94f-72eb91562dac
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: fac4978bef94650f85ac3179acd3858602f933ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279572"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405816"
 ---
 # <a name="iabcontainerresolvenames"></a>IABContainer::ResolveNames
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Выполняет разрешение имен для одной или нескольких записей получателей.
   
@@ -92,7 +92,7 @@ S_OK
   
 > Поставщик адресных книг не поддерживает массовое разрешение имен с помощью этого метода.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **ResolveNames** пытается сопоставлять неразрешенных получателей из массива записей параметра _лпадрлист_ с получателями в этом контейнере адресной книги. У неизвестного получателя обычно есть только свойство **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) и, возможно, несколько других свойств. Нераспознанный получатель не имеет свойства **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)), а соответствующий флаг в параметре _лпфлаглист_ имеет значение мапи_унресолвед. И наоборот, у разрешенного получателя всегда есть по крайней мере свойство **пр_ентрид** , а также некоторые другие свойства, такие как **пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), **пр_дисплай_наме**и **пр_аддртипе** ([ PidTagAddressType](pidtagaddresstype-canonical-property.md)).
   

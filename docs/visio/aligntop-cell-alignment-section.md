@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 56e0b544-8504-0fbb-5810-7cf94d775f7c
 description: Определяет вертикальное положение относительно начала координат родительского элемента, горизонтальной направляющей или направляющей точки, относительно которого выравнивается верхняя граница фигуры.
 ms.openlocfilehash: a52527b8a0ef6398f475b3d6241e03afa6cd697b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341519"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406698"
 ---
 # <a name="aligntop-cell-alignment-section"></a>AlignTop Cell (Alignment Section)
 
 Определяет вертикальное положение относительно начала координат родительского элемента, горизонтальной направляющей или направляющей точки, относительно которого выравнивается верхняя граница фигуры.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку AlignTop по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

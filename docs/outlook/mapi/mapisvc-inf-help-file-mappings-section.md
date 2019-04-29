@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 62aee641-b73f-4f53-9e8d-adf010c9ea1a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 4760c9965975bb5d950e51b707d28bee647ef99a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269974"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407559"
 ---
 # <a name="mapisvcinf-help-file-mappings-section"></a>MapiSvc. INF [Справка по соПоставлению файлов]
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Раздел **[Help File Mappings]** содержит записи, каждый из которых сопоставляет одну службу сообщений с файлом, который предоставляет справку по ошибкам, создаваемым службой. В записях этого раздела используется следующий формат: 
   

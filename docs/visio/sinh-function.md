@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: de2aca1d-a591-cf39-990c-a24666764a6f
 description: Возвращает гиперболический синус угла.
 ms.openlocfilehash: 305dd9e62a32db3a91724cd182964012e482442e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314807"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416155"
 ---
 # <a name="sinh-function"></a>Функция SINH
 
@@ -32,9 +32,9 @@ SINH (* * *угол* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Номер
+Число
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Функция SINH использует радианы, если вы не укажете другую единицу измерения в качестве _угла_.
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c746aeb1-902c-440e-830b-5b9efad0ca04
 description: В главе описаны действия, необходимые для создания шаблона формы, работающего с объектной моделью, совместимой с InfoPath 2003.
 ms.openlocfilehash: 35a9fcfbb0d93a19e013bde6980bc94af3bb5dd9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303642"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418185"
 ---
 # <a name="create-a-form-template-using-the-infopath-2003-object-model"></a>Создание шаблона формы с помощью объектной модели InfoPath 2003
 

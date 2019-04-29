@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 02048012-a814-410b-f26e-56fcfbe106e6
 description: Указывает, видимы ли фигуры, принадлежащие слою, на странице документа.
 ms.openlocfilehash: 4266debc318c839bdd29fa818d11b5e1da669a9e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357815"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405452"
 ---
 # <a name="visible-cell-layers-section"></a>Visible Cell (Layers Section)
 
 Указывает, видимы ли фигуры, принадлежащие слою, на странице документа.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Фигуры видимы.  <br/> |
 |FALSE  <br/> |Фигуры скрыты.  <br/> |

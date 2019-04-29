@@ -10,17 +10,17 @@ keywords:
 - функция xlAutoOpen [Excel 2007]
 localization_priority: Normal
 ms.assetid: 748cecb6-61d0-496b-a1a4-a73d22eb29e2
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: bf02f71458f2f4d8514f69a6b6f0921b5318303a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310292"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406649"
 ---
 # <a name="xlautoopen"></a>xlAutoOpen
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Функция обратного вызова, которая должна быть реализована и экспортирована каждым действительным XLL. Функция **xlAutoOpen** рекомендуется использовать для регистрации функций и команд XLL, инициализации структур данных, настройки пользовательского интерфейса и т. д. 
   

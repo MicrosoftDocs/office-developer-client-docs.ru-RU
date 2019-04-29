@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c4f176d6-4af0-282d-5640-7d98e84dfb55
 description: Изменяет цвет, увеличивая его яркость на величину (положительный или отрицательный), указанную в параметре int.
 ms.openlocfilehash: 8924bc0662814e14d01b4bd5332f5fadeb0a1082
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280933"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406579"
 ---
 # <a name="tint-function"></a>Функция TINT
 
@@ -33,7 +33,7 @@ ms.locfileid: "32280933"
 
  **RGB**
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Верхние и нижние пределы яркости — 0 и 240 соответственно. Не существует ограничения на размер целого числа, которое можно передать для параметра _int_ , но яркость не превышает эти ограничения. 
   

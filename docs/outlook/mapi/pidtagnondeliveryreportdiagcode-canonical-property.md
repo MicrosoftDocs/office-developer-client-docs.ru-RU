@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a39c0f54-bdca-498f-a75c-dd8702e5385a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a3cf1d32ac4c21137e1b1cbb04f64d7efbc0729d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329353"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406236"
 ---
 # <a name="pidtagnondeliveryreportdiagcode-canonical-property"></a>Каноническое свойство PidTagNonDeliveryReportDiagCode
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит диагностический код, который формирует часть отчета о недоставке.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32329353"
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство может иметь только одно из следующих значений:
   

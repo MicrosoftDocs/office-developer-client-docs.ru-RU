@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f86f7c59-42ab-4ac0-80fe-c985103e6bd6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c64288f393f15ee330065a43a92930f2e6f4e134
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331908"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419774"
 ---
 # <a name="pidtagcontentreturnrequested-canonical-property"></a>Каноническое свойство PidTagContentReturnRequested
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если сообщение должно быть возвращено с отчетом о недоставке. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32331908"
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Отчет  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если это свойство не задано, MAPI рассматривает его как имеющий значение TRUE. 
   

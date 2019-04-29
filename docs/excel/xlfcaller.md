@@ -10,17 +10,17 @@ keywords:
 - функция xlfCaller [Excel 2007]
 localization_priority: Normal
 ms.assetid: de4b119c-ae2e-4207-9783-8d5692a4d052
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: fb788375504cefab75fde9513147c1d54acdaa07
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310229"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405732"
 ---
 # <a name="xlfcaller"></a>xlfCaller
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает сведения о ячейке, диапазоне ячеек, команде меню, инструменте на панели инструментов или объекте, вызвавшем команду или функцию DLL, которая выполняется в данный момент.
   
@@ -48,7 +48,7 @@ Excel12(xlfCaller, (LPXLOPER12) pxRes,0);
   
 Для получения дополнительных сведений о параметрах **XLOPER**/ **** см [в Excel](memory-management-in-excel.md).
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Эта функция является единственной функцией, не являющейся функцией, которая может вызываться из функции листа DLL/XLL. Другие функции данных XLM могут вызываться только из команд или эквивалентных функций листа макросов.
   

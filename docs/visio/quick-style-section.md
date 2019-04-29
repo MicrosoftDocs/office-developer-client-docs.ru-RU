@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 3fa79e60-934b-46fd-a305-03fe9428a2c9
 description: Показывает текущие значения форматирования быстрых стилей, примененные к фигуре, в том числе цвет и стиль линии, цвет и стиль заливки, цвет тени, эффекты, шрифт и тип стиля.
 ms.openlocfilehash: e56d14473077381d331574f0ab098beab0cbe50e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358844"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418101"
 ---
 # <a name="quick-style-section"></a>Quick Style Section
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7675aae8-05b5-6361-c20f-c0ae3fd32576
 description: Этот элемент является заполнителем и не поддерживается.
 ms.openlocfilehash: 469fe49f65b848b9f66b1d3a481de38b8ba19e9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319378"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417751"
 ---
 # <a name="ifreebusysupportplaceholder22"></a>IFreeBusySupport::Placeholder22
 
@@ -30,7 +30,7 @@ HRESULT Placeholder22();
 
 Всегда имеет значение S_OK, так как этот член является заполнителем и не поддерживается.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот элемент должен возвращать значение S_OK.
   

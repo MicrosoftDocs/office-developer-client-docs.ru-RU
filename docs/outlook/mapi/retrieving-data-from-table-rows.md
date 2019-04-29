@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 19a42794-a3a2-4336-af2a-473f24431252
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2f389d26ec80b9af3ed28c5eb85b589c9cbb26c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328660"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405256"
 ---
 # <a name="retrieving-data-from-table-rows"></a>Получение данных из строк таблицы
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Получение строк из таблицы состоит из следующих компонентов:
   

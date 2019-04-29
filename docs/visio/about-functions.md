@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 871b8601-8117-bc51-17b9-6002234b4bfb
 description: 'Функция выполняет одну строго определенную задачу. Большинство функций в качестве входных данных используют несколько аргументов. Несмотря на то, что тип и количество аргументов зависят от функции, все функции имеют одинаковый общий синтаксис:'
 ms.openlocfilehash: 14995b0f7e3c1cc8346d47965038902b8ca4e8bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345061"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415980"
 ---
 # <a name="about-functions"></a>Сведения о функциях
 

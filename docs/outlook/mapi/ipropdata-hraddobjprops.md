@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 683cf476-3c02-4b3b-939f-6fff6611f9aa
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: df63f08d3d453575816c4f7ab043f802023e21d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315535"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416386"
 ---
 # <a name="ipropdatahraddobjprops"></a>IPropData::HrAddObjProps
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Добавляет одно или несколько свойств типа ПТ_ОБЖЕКТ в объект.
   
@@ -62,7 +62,7 @@ S_OK
   
 > Некоторые (но не все) свойства были добавлены.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **ипропдата:: храддобжпропс** добавляет одно или несколько свойств типа пт_обжект в объект. **Храддобжпропс** предоставляет альтернативу методу [IMAPIProp:: SetProps](imapiprop-setprops.md) для свойств объекта, так как свойства объекта невозможно создать с помощью метода **SetProps**. При добавлении свойства объекта в тег свойства включается в список тегов свойств, возвращаемых методом [IMAPIProp:: жетпроплист](imapiprop-getproplist.md) . 
   

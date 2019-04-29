@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 7e3761be-afd6-46cb-9a08-25e9016c1241
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 63cef6ef2bb26e8b723c60fe01dd6771aa070ae8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341638"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407258"
 ---
 # <a name="srowset"></a>SRowSet
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив структур [сров](srow.md) . Каждая структура **сров** описывает строку из таблицы. 
   
@@ -51,7 +51,7 @@ typedef struct _SRowSet
   
 > Массив структур **сров** . Для каждой строки в таблице существует одна структура. 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Структура **SRowSet** используется для описания нескольких строк данных из таблицы. Структуры **SRowSet** используются в методах интерфейса [IAddrBook](iaddrbookimapiprop.md), [итабледата](itabledataiunknown.md)и [IMAPITable](imapitableiunknown.md) в дополнение к следующим функциям: 
   

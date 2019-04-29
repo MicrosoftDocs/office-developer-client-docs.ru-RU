@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 890e2537-66a5-2863-c78d-320b42565ea7
 description: Определяет, будет ли страница документа выравниваться по горизонтали на странице принтера.
 ms.openlocfilehash: 13b05ed71248a3f8fada947fca6b203c6ab19c6d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341897"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418080"
 ---
 # <a name="centerx-cell-print-properties-section"></a>CenterX Cell (Print Properties Section)
 
 Определяет, будет ли страница документа выравниваться по горизонтали на странице принтера. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | РазЦентрирование страницы документа по горизонтали на странице принтера.  <br/> |
 | FALSE  <br/> | Не выравнивать страницу документа по горизонтали на странице принтера (по умолчанию).  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 По умолчанию страницы документа выравниваются по верхнему и левому краю страницы принтера. Установка для CenterX и центрированных ячеек значения TRUE поместит страницу документа в центре страницы принтера (или на страницах при необходимости заполнения). 
   

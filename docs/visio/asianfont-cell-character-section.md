@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 45bfaaaa-52cc-f8b4-68e7-8b99e5788ce1
 description: Содержит номер шрифта, используемого для форматирования текста, содержащего восточноазиатские символы. Номера шрифтов зависят от установленных в системе шрифтов.
 ms.openlocfilehash: 4af7e590a7bd0733ad622f3df259aa6c01837c4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341331"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406593"
 ---
 # <a name="asianfont-cell-character-section"></a>AsianFont Cell (Character Section)
 
 Содержит номер шрифта, используемого для форматирования текста, содержащего восточноазиатские символы. Номера шрифтов зависят от установленных в системе шрифтов. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Восточноазиатские шрифты отображаются на вкладке **Шрифт** в диалоговом окне **текст** (щелкните стрелку в группе **Шрифт** на вкладке **Главная** ). Этот список отображается только в том случае, если в диалоговом окне **языковые параметры Microsoft Office** добавлен язык, содержащий восточноазиатские или сложные знаки. (Нажмите кнопку **Пуск**, **выберите все программы**, **Microsoft Office**, **средства Microsoft Office**, а затем выберите языковые **Параметры Microsoft Office**.
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d05a001c-9001-90d9-5028-f38b90acc53e
 description: 'Представляет текущий угол вращения фигуры относительно родительского элемента. По умолчанию для определения угла вращения одномерной фигуры используется формула: = ATAN2 (Енди-Begin-EndX-BeginX).'
 ms.openlocfilehash: 85f64c6111b492940d278a5558508a2dea6b1e1a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341470"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414552"
 ---
 # <a name="angle-cell-shape-transform-section"></a>Angle Cell (Shape Transform Section)
 
 Представляет текущий угол вращения фигуры относительно родительского элемента. По умолчанию для определения угла вращения одномерной фигуры используется формула: = ATAN2 (Енди-Begin-EndX-BeginX).
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку угла по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 9eec90d3-2369-4340-86ed-0efa58918ed5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 5983ed3229f6b0053f15a614116cf5680e942587
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351445"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407363"
 ---
 # <a name="imapiadvisesinkonnotify"></a>IMAPIAdviseSink::OnNotify
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Реагирует на уведомление, выполняя одну или несколько задач. Выполняемые задачи зависят от типа события и объекта, который создает уведомление. 
   

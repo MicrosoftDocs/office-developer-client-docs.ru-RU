@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9caf424d-cb70-8f1a-b984-64cf776bdfb4
 description: Возвращает координаты x и y точки в системе координат родительского элемента фигуры.
 ms.openlocfilehash: 4e7517c4210db31f1c3f5dc8bf98185b6f4104aa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269946"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414510"
 ---
 # <a name="par-function"></a>Функция PAR
 
@@ -30,7 +30,7 @@ ms.locfileid: "32269946"
 |:-----|:-----|:-----|:-----|
 | _Указывает_ <br/> |Обязательный  <br/> |**Число, число** <br/> |Координаты точки в системе координат текущей фигуры.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В Microsoft Visio точка — это одно значение, ембодиес с двумя координатами *x* и *y* . Если фигура находится в группе, ее родитель — это группа. Если фигура не входит в группу, ее родителем является страница. 
   

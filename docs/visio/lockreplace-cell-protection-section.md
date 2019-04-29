@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: b3880511-dd27-4dc2-9e50-a49084ef8195
 description: Указывает, может ли фигура участвовать в операции замены (как целевой объект или как фигура замены).
 ms.openlocfilehash: 8b0e3175cacd9b906d91a4185dcd98fad604d8bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348225"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404143"
 ---
 # <a name="lockreplace-cell-protection-section"></a>LockReplace Cell (Protection Section)
 
 Указывает, может ли фигура участвовать в операции замены (как целевой объект или как фигура замены). 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Фигура не может быть заменена или использована как фигура для замены.  <br/> Для фигуры на холста кнопка **Изменить фигуру** отключается при выборе фигуры.  <br/> Для фигуры на трафарете фигура не отображается в виде фигуры замещения при нажатии кнопки **Изменить фигуру** .  <br/> |
 |FALSE  <br/> |Фигуру можно заменить или использовать в качестве фигуры для замены.  <br/> |

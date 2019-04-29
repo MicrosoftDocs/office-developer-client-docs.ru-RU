@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a8d6b622-60b3-e43f-b6a1-55db561204ed
 description: Определяет горизонтальное выравнивание текста в блоке текста фигуры.
 ms.openlocfilehash: a48619e2531c0a69ad63af3b88ae9f019019b1fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360181"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414741"
 ---
 # <a name="halign-cell-paragraph-section"></a>HAlign Cell (Paragraph Section)
 
 Определяет горизонтальное выравнивание текста в блоке текста фигуры.
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | нуль  <br/> | Выравнивание по левому краю  <br/> |**Вишорзлефт** <br/> |
 | 1,1  <br/> | Center  <br/> |**Вишорзцентер** <br/> |

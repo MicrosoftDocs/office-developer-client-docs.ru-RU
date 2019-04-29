@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6949c717-dc69-1d17-5215-eb6efce56fcb
 description: Определяет, какие динамические соединители разделяются между приложениями, если они направляются друг на друга.
 ms.openlocfilehash: 3eb9f5513ee3ce2f5dce96cb47c356bca29a289c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359327"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415189"
 ---
 # <a name="lineadjustfrom-cell-page-layout-section"></a>LineAdjustFrom Cell (Page Layout Section)
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: a637dcab-81e0-4195-a1d5-61d9957fcf10
 description: Отображает диалоговое окно "Параметры учетной записи" или "Добавление новой учетной записи".
 ms.openlocfilehash: ecf5242fa4f224516e12e667ab66fd0adfe4a25d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322066"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415035"
 ---
 # <a name="iolkaccountmanagerdisplayaccountlist"></a>IOlkAccountManager::DisplayAccountList
 
@@ -77,7 +77,7 @@ _Пклсидтипе_
 |МАПИ_Е_ИНВАЛИД_ПАРАМЕТЕР  <br/> |Параметр _ккатегориес_, _ргклсидкатегориес_или _пклсидтипе_ имеет значение, отличное от NULL.  <br/> |
 |МАПИ_Е_УСЕР_КАНЦЕЛ  <br/> |Диалоговое окно " **Параметры учетНой записи** " возвратило ошибку.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметры _ккатегориес_, _ргклсидкатегориес_и _пклсидтипе_ не используются в данный момент и должны иметь значение null.  _всзтитле_ не используется, и он также должен иметь значение null. 
   

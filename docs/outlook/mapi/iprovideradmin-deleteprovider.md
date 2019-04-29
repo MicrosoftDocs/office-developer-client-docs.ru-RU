@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0065b50f-95f6-4af1-81c2-a73e5111eecf
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 28dbbb98c9810bb688b9ecdd730ef6c4ada5f60b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279551"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404864"
 ---
 # <a name="iprovideradmindeleteprovider"></a>IProviderAdmin::DeleteProvider
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Удаляет поставщика услуг из службы сообщений.
   
@@ -49,7 +49,7 @@ S_OK
   
 > **Мапиуид** , на который указывает параметр _лпуид_ , не распознан. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **ипровидерадмин::D елетепровидер** Удаляет поставщика услуг из службы сообщений. **Делетепровидер** определяет поставщика услуг, который необходимо удалить, с помощью соответствующей структуры **мапиуид** , на которую указывает _лпуид_ с набором идентификаторов, зарегистрированных поставщиками активных служб. 
   

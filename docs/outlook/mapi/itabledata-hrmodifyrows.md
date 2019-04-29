@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d295c896-9882-4d6f-9689-5cf40db208c0
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: d0074dd006fda6d44252011d0b979169e0c3d4cb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348673"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405361"
 ---
 # <a name="itabledatahrmodifyrows"></a>ITableData::HrModifyRows
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Вставляет несколько строк таблицы, что может привести к замене существующих строк.
   

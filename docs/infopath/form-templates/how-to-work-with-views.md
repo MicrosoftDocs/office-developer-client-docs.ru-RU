@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 947b33c3-2acc-45d2-a89d-a712b6bc53df
 description: При работе с шаблоном формы InfoPath можно написать код для доступа к представлениям формы, а затем выполнить различные действия с данными, содержащимися в представлении. Объектная модель InfoPath, предоставляемая пространством имен Microsoft. Office. InfoPath, поддерживает доступ к представлениям формы с помощью членов класса View.
 ms.openlocfilehash: 829375a87513634ef0b38b6d92de9f33a605e89f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303544"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406299"
 ---
 # <a name="work-with-views"></a>Работать с представлениями
 
@@ -26,7 +26,7 @@ ms.locfileid: "32303544"
 > [!NOTE]
 > Методы и свойства класса [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) недоступны во время события [загрузки](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) . 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Метод [DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.DisableAutoUpdate.aspx)  <br/> |Отключает автоматическую синхронизацию между XML-документом формы и связанным представлением.  <br/> |
 |Метод [EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.EnableAutoUpdate.aspx)  <br/> |Включает автоматическую синхронизацию между XML-документом формы и связанным представлением.  <br/> |

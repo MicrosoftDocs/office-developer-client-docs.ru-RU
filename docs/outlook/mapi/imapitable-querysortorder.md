@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 7b4ca523-0703-417c-8586-c4324c200020
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 61991972fdf8674a9ffd2b790e26c7fa669df357
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328863"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407552"
 ---
 # <a name="imapitablequerysortorder"></a>IMAPITable::QuerySortOrder
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Получает текущий порядок сортировки таблицы.
   
@@ -49,7 +49,7 @@ S_OK
   
 > Выполняется другая операция, которая не позволяет запустить операцию извлечения порядка сортировки. Выполнение выполняемой операции должно быть разрешено или остановлено.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPITable:: куерисортордер** получает текущий порядок сортировки таблицы. Порядок сортировки описан в структуре [ссортордерсет](ssortorderset.md) . 
   

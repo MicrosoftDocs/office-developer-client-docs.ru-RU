@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a8ada6fe-9963-4c25-b4b4-db77f9517368
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 62231a900dbe01ebe1e848355226c0589072cd42
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316802"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404563"
 ---
 # <a name="deregisteridleroutine"></a>DeregisterIdleRoutine
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Удаляет процедуру бездействия на основе [фнидле](fnidle.md) из системы MAPI. 
   
@@ -49,7 +49,7 @@ VOID DeregisterIdleRoutine(
 
 Нет.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Любая задача в клиентском приложении или поставщике услуг может отменить регистрацию любой программы, для которой он имеет действительный параметр _ФТГ_ . В частности, процедура бездействия может отменить регистрацию. 
   

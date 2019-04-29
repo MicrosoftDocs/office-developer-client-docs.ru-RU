@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 03e53e08-9113-4101-84c9-ccf6d43127f6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e47f4e0d1ab9ab3ecfd53932b8ef26440134c603
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334820"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407244"
 ---
 # <a name="flatentry"></a>FLATENTRY
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Структура [EntryID](entryid.md) и число байтов, определяющее размер структуры **EntryID** . 
   
@@ -51,7 +51,7 @@ typedef struct
   
 > Полный идентификатор записи, включающий массив флагов и двоичных данных.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Структура **флатентри** похожа на структуру [EntryID](entryid.md) . Однако существуют некоторые отличия. 
   
@@ -67,7 +67,7 @@ typedef struct
 
 
 
-[КОД](entryid.md)
+[ENTRYID](entryid.md)
 
 
 [Структуры MAPI](mapi-structures.md)

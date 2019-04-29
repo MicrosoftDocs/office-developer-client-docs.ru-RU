@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 1f66d2b2-ec9e-cd58-7642-96850fe4589e
 description: Возвращает координату указанного края ограничительной рамки фигуры.
 ms.openlocfilehash: 0018118eb0991fe9dc1da0eb000566b69d8a4b4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338054"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418073"
 ---
 # <a name="boundingboxrect-function"></a>Функция BOUNDINGBOXRECT
 
@@ -37,11 +37,11 @@ BOUNDINGBOXRECT (* * *index* * *)
 
  **Number**
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
  *Индекс* может принимать одно из следующих значений. 
   
-|**Item**|**Значение**|
+|**Элемент**|**Значение**|
 |:-----|:-----|
 |Левый край  <br/> |нуль  <br/> |
 |Правый край  <br/> |1,1  <br/> |

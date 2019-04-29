@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3e8cf5a1-31d1-4d69-8db3-511b6880eb89
 description: Поставщик Outlook Social Connector (OSC) позволяет пользователям Office просматривать в клиентском приложении Office объединение обновлений социальных данных, примененных на сайте профессионального или социальных сетей.
 ms.openlocfilehash: 06514937ab07fa78b83a4687eaeba8967213d76c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329142"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415868"
 ---
 # <a name="why-develop-an-outlook-social-connector-provider"></a>Зачем разрабатывать поставщика Outlook Social Connector
 

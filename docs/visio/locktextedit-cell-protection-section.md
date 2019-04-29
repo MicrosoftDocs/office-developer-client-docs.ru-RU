@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d8de5fa4-826b-e869-4d9f-997361d05fd8
 description: Блокирует текст фигуры, чтобы его нельзя было редактировать.
 ms.openlocfilehash: f6e5176e3ab654b76c0641b8f642abcf6b1050dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348316"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404500"
 ---
 # <a name="locktextedit-cell-protection-section"></a>LockTextEdit Cell (Protection Section)
 
 Блокирует текст фигуры, чтобы его нельзя было редактировать.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Текст не может быть изменен.  <br/> |
 | FALSE  <br/> | Текст можно редактировать.  <br/> |

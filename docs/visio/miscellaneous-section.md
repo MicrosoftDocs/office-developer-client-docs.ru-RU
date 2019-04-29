@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: d2f21377-2954-d589-1329-cd23fe3fb4c6
 description: Содержит различные атрибуты фигур и групп, такие как выделение и видимость элементов управления.
 ms.openlocfilehash: 16ee384d137dfb4d8544c499519985c712fd56a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335289"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418801"
 ---
 # <a name="miscellaneous-section"></a>Miscellaneous Section
 
 Содержит различные атрибуты фигур и групп, такие как выделение и видимость элементов управления.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Можно задать значение многих ячеек в этом разделе в окне таблицы свойств фигуры или на вкладке **поведение** в диалоговом окне **поведение** ( **поведение** в группе **Макет фигуры** на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) ). в окне документа. Вы можете задать другие свойства группы с помощью ячеек в разделе Свойства группы. 
   

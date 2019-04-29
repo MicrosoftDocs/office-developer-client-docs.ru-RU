@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 771a2ab4-578d-51c3-fabd-138f7952bb11
 description: Определяет источник бумаги для страницы.
 ms.openlocfilehash: eb6e7daccb1743c43a30b34598e47187496e4aac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301465"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406761"
 ---
 # <a name="papersource-cell-printproperties-section"></a>PaperSource Cell (PrintProperties Section)
 
 Определяет источник бумаги для страницы. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот параметр соответствует параметру **источник бумаги** в диалоговом окне " **Настройка печати** " (на вкладке " **конструктор** " щелкните стрелку **Параметры страницы** , а затем на вкладке **Настройка печати** нажмите кнопку **Настройка**).
   

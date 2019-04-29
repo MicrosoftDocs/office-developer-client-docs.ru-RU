@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 8c22547e-ddf5-47f7-aed3-76e3854688df
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 7300c11d5835640fe308430c9bb08d40b397e47b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331607"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407321"
 ---
 # <a name="imapisupportaddress"></a>IMAPISupport::Address
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Отображает диалоговое окно "общий адрес". 
   
@@ -55,7 +55,7 @@ S_OK
   
 > Диалоговое окно "адрес" успешно отображено.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: Address** реализован для объектов поддержки поставщика адресных книг. Поставщик адресных книг **адрес** вызова для создания или обновления списка получателей сообщения. 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: fa03d819-2621-4990-80ae-4140b83a8a85
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ec73a456f87b18905c180803d26720ef09254c7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327897"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405060"
 ---
 # <a name="pidtagipmoutboxentryid-canonical-property"></a>Каноническое свойство PidTagIpmOutboxEntryId
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор стандартной папки "исХодящие сообщения" (IPM). 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32327897"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 ИсХодящие сообщения обычно создаются в папке "исХодящие". Для отправки в эту папку необходимо поместить между ними сообщения. 
   

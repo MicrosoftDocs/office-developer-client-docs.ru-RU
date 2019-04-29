@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 31a7d0d4-4666-ddef-c5eb-4d13803e6a2f
 description: Представляет расстояние для всех строк текста в абзаце с отступом от левого поля блока текста. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, отступ слева остается прежним.
 ms.openlocfilehash: 2a942ef3d874b8d1ce2ef85f423c93bc0db33230
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335338"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405165"
 ---
 # <a name="indleft-cell-paragraph-section"></a>IndLeft Cell (Paragraph Section)
 
 Представляет расстояние для всех строк текста в абзаце с отступом от левого поля блока текста. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, отступ слева остается прежним.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку IndLeft по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

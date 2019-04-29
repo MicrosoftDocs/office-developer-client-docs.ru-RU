@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 539bf79a-df09-2048-2aba-8c863dd26fc2
 description: Возвращает процентное отношение расстояния вдоль пути к точке, ближайшей к заданным координатам, в виде значения от 0 до 1.
 ms.openlocfilehash: ced20cdf1f3531eafaa03c2666b09334029fd3da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319721"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407335"
 ---
 # <a name="nearestpointonpath-function"></a>Функция NEARESTPOINTONPATH
 
@@ -39,7 +39,7 @@ NEARESTPOINTONPATH (* * *раздел* * *, * * *x* * *, * * *y* * *)
 
  **Double**
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если _раздел_ не существует, Microsoft Visio возвращает #REF!. 
   

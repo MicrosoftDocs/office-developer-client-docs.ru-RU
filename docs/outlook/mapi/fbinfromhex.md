@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 47e6c576-bd99-4410-8e41-7dd3159b23b7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 55c7deec9d29ae22a07b2f5ccd1c832d56782c03
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341645"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414937"
 ---
 # <a name="fbinfromhex"></a>FBinFromHex
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Преобразует строковое представление шестнадцатеричного числа в двоичные данные. 
   

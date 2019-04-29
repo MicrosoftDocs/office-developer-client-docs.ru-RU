@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5630b446-5668-f7c1-1e34-6d4f84600f7f
 description: Рабочая область для ввода формул в пользовательские ячейки, на которые можно ссылаться по другим ячейкам и средствам надстроек.
 ms.openlocfilehash: d10336578ae5738b5ffe06cad01ae5075d3ee3dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337137"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405578"
 ---
 # <a name="user-defined-cells-section"></a>User-defined Cells Section
 
 Рабочая область для ввода формул в пользовательские ячейки, на которые можно ссылаться по другим ячейкам и средствам надстроек.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Как и в разделе ["вспомогательНый"](scratch-section.md) , раздел " **пользовательские ячейки** " можно использовать в решении множеством различных способов. Преимуществом раздела " **пользовательские ячейки** " является то, что ячейкам можно присвоить имена; ячейки в разделе **"Рабочая область"** не могут иметь имя. 
   

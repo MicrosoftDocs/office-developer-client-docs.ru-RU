@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4168cd98-9674-1233-254f-0afe81b7245b
 description: Хранит отношения между контейнерами, списками, выносками и фигурами.
 ms.openlocfilehash: b270366fe1045aea3d628150c82e7fd798fa21df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359971"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406411"
 ---
 # <a name="relationships-cell-shape-layout-section"></a>Relationships Cell (Shape Layout Section)
 
@@ -35,8 +35,8 @@ ms.locfileid: "32359971"
 |см  <br/> |Контейнер на границе слева, на которой располагается эта фигура.  <br/> |
 |8,5  <br/> |Контейнер на правой границе, на которой располагается эта фигура.  <br/> |
 |10  <br/> |Контейнер для верхнего края, на котором располагается эта фигура.  <br/> |
-|десяти  <br/> |Контейнер для нижнего края, на котором располагается эта фигура.  <br/> |
-|-11:00  <br/> |Список перекрывает этот список.  <br/> |
+|10   <br/> |Контейнер для нижнего края, на котором располагается эта фигура.  <br/> |
+|11   <br/> |Список перекрывает этот список.  <br/> |
    
 Чтобы получить ссылку на ячейку Relationships по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6f7e052a-4270-4b83-b1ed-feabf6dbeaa2
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f387d5ddb184c681ab5e005a6eb24058f6f52f9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310390"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414468"
 ---
 # <a name="multithreading-and-memory-management"></a>Многопоточность и управление памятью
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Правильная обработка памяти крайне важна для создания надежных надстроек XLL для Microsoft Excel. Не удается выделить соответствующие буферы памяти и освободить их, когда они больше не нужны, уменьшает производительность, создает состязание за ресурсы и дестабилизации Excel.
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c8387f1c-b34c-490e-8bf9-d824bf98d826
 description: Приложение Microsoft InfoPath с набором Visual Studio 2012 позволяет выполнять отладку путем запуска кода формы в режиме просмотра. При начале отладки кода формы проект компилируется, и приложение InfoPath отображает форму в окне просмотра InfoPath. Когда встречается строка кода, на которой установлена точка останова, фокус переносится на редактор кода. При продолжении выполнения после точки останова фокус смещается обратно на окно просмотра. При закрытии окна просмотра отладка останавливается.
 ms.openlocfilehash: 8f9ff97fdd5b4b016d96129304fa6f994d7b4561
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300436"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405242"
 ---
 # <a name="preview-and-debug-infopath-form-templates-with-code"></a>Предварительный просмотр и отладка шаблонов форм InfoPath с кодом
 

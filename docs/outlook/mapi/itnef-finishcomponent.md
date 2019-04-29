@@ -13,17 +13,17 @@ api_type:
 ms.assetid: bcdd0688-0897-47d7-9601-f592ba453b39
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: c8dc10bdb8bcde15dccf7bab4d9e10d2481cef11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278888"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416442"
 ---
 # <a name="itneffinishcomponent"></a>ITnef::FinishComponent
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Обрабатывает отдельные компоненты из сообщения по одному на один раз в поток формата TNEF.
   
@@ -78,7 +78,7 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Поставщики транспорта, поставщики хранилищ сообщений и шлюзы вызывают метод **итнеф:: финишкомпонент** для выполнения обработки TNEF для одного компонента, сообщения или вложения, как показано в параметре _ulFlags_ . 
   

@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 2dd95561-ed8f-8a3b-6532-b53556f16666
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 5e623c9d40ffd2dd276bd9601676244644bb3402
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299890"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417709"
 ---
 # <a name="getdefcachedmodedownloadpubfoldfavs"></a>GetDefCachedModeDownloadPubFoldFavs
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, включен ли режим кэширования данных Exchange для папки избранных общеДоступных **папок** , и является ли он принудительно примененной политикой. 
   
@@ -28,7 +28,7 @@ ms.locfileid: "32299890"
 |||
 |:-----|:-----|
 |Экспортировано:  <br/> |MSMapi32. dll  <br/> |
-|Вызывающая сторона:  <br/> |Клиент  <br/> |
+|Вызывающая сторона:  <br/> |Client  <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
    
 ```cpp
@@ -44,7 +44,7 @@ BOOL GetDefCachedModeDownloadPubFoldFavs(BOOL *pfPolicy);
     
 ## <a name="return-values"></a>Возвращаемые значения
 
- **true**
+ **относится**
   
 - Включено кэширование.
     

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 70f67614-af0d-43f6-99f6-391a2f5673cb
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9cc4e3ba77395e09a6b95e8381fa402fc3cdff61
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356534"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405158"
 ---
 # <a name="imapisupportcopymessages"></a>IMAPISupport::CopyMessages
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Копирует или перемещает сообщения из одной папки в другую.
   

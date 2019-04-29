@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2e662230-0760-5f43-52dc-927f499715f6
 description: Возвращает время, представленное в виде часа, минуты и секунды.
 ms.openlocfilehash: f5be55d7e63a70d15da49c68b924cc5b03c5ca88
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280999"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414475"
 ---
 # <a name="time-function-visioshapesheet"></a>TIME Function (VisioShapeSheet)
 
@@ -34,7 +34,7 @@ TIME (* * *час* * *, * * *минут* * *, * * *секунд* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Numeric
+Числовой
   
 ## <a name="example-1"></a>Пример 1
 
@@ -42,13 +42,13 @@ Numeric
   
 Возвращает значение, представляющее 15:30:30.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 FORMAT (время (15, 30, 30), "чч: мм")
   
 Возвращает значение, представляющее 15:30.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 ВРЕМЯ (15, 30, 30) + 8 EH.
   

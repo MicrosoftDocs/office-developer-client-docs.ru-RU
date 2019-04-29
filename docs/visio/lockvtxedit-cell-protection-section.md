@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 966cde5c-f04e-7149-3660-720ffa4f7079
 description: Блокирует вершины фигуры, чтобы их нельзя было редактировать.
 ms.openlocfilehash: 1703769fe54171a14f7052f0f6686e1eb5ec92fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358060"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417668"
 ---
 # <a name="lockvtxedit-cell-protection-section"></a>LockVtxEdit Cell (Protection Section)
 
 Блокирует вершины фигуры, чтобы их нельзя было редактировать.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Вершины нельзя редактировать.  <br/> |
 |FALSE  <br/> |Вершины можно редактировать.  <br/> |

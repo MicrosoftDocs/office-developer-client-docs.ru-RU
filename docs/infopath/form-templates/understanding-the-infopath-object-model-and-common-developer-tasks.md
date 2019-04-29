@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: a2c18b72-426b-4f63-8454-187e96d26199
 description: В этом разделе предоставляются сведения о типичных задачах разработчиков, возникающих при разработке шаблонов форм InfoPath с управляемым кодом.
 ms.openlocfilehash: a84bf1a70407ca87e1a83f74856d363d8860d4a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303439"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418857"
 ---
 # <a name="understanding-the-infopath-object-model-and-common-developer-tasks"></a>Ознакомление с объектной моделью InfoPath и распространенными задачами разработчиков
 
 В этом разделе предоставляются сведения о типичных задачах разработчиков, возникающих при разработке шаблонов форм InfoPath с управляемым кодом.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 
 [Доступ к данным приложения](how-to-access-application-data.md)
   

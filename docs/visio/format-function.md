@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 52f5ef4d-07c6-ab36-bf74-b30b50eea221
 description: Возвращает результат выражения в виде строки, отформатированной в соответствии с форматпиктуре.
 ms.openlocfilehash: 5eb2195c2bc52e9cc8e7aa8bc4068826a5cd14c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339895"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404654"
 ---
 # <a name="format-function"></a>Функция FORMAT
 
@@ -33,9 +33,9 @@ Format (* * *Expression* * *, "* * *форматпиктуре* * *")
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Тип выражения и тип, указанный в формате рисунок, управляют поведением возвращенной строки. _Форматпиктуре_ должен соответствовать типу выражения. Дополнительные сведения о задании формата изображений см. [](about-format-pictures.md)
   
@@ -47,13 +47,13 @@ FORMAT (1cm/4, "0,000 u")
   
 Возвращает значение "0,250 cm".
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 FORMAT (1cm/4, "0,00 U")
   
 Возвращает значение "0,25 CM".
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 FORMAT (1cm/4, "0,0 u")
   

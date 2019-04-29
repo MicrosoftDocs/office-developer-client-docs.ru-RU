@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8e327e00-0844-efa4-900b-6954d3b009bb
 description: Содержит координаты x и y для второй контрольной точки сплайна, второй Кнот, ее первый Кнот, последний кнот и степень сплайна.
 ms.openlocfilehash: 2ec06619770af4e5dbcc1a763595b6e01a39052b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358795"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417478"
 ---
 # <a name="splinestart-row-geometry-section"></a>SplineStart Row (Geometry Section)
 
@@ -26,7 +26,7 @@ ms.locfileid: "32358795"
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Координата *X* второй контрольной точки сплайна.  <br/> |
 |[Y (да)](y-cell-geometry-section.md) <br/> |Координата *Y* второй контрольной точки сплайна.  <br/> |
-|[А](a-cell-geometry-section.md) <br/> |Второй кнот сплайна.  <br/> |
+|[A](a-cell-geometry-section.md) <br/> |Второй кнот сплайна.  <br/> |
 |[З](b-cell-geometry-section.md) <br/> |Первый кнот сплайна.  <br/> |
 |[C](c-cell-geometry-section.md) <br/> |Последний кнот сплайна.  <br/> |
 |[D](d-cell-geometry-section.md) <br/> |Степень сплайна (целое число от 1 до 25).  <br/> |

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: d82986c1-3a1e-48de-b6c9-b4bc64a88ee2
 description: Указывает, следует ли использовать безопасную проверку пароля (SPA) для учетной записи SMTP.
 ms.openlocfilehash: b1f2ba9b7568361ad25147a94966bf42b98eda40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328338"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418556"
 ---
 # <a name="propsmtpusespa"></a>PROP_SMTP_USE_SPA
 
@@ -27,7 +27,7 @@ ms.locfileid: "32328338"
 |Тег свойства:  <br/> |0x02070003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Нулевое значение означает, что не следует использовать SPA, в противном случае использовать SPA.
   

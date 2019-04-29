@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a00d71b1-d705-40d5-b667-f91b57db85da
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 4b18cfc2191ffee936e1056d9bb656a7ad7dd3ec
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326392"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405249"
 ---
 # <a name="imapiprovidershutdownnotifyprocessshutdown"></a>IMAPIProviderShutdown::NotifyProcessShutdown
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает поставщику MAPI, что клиент MAPI планирует выполнить быстрое завершение работы, чтобы поставщик мог выполнять действия для предотвращения потери данных.
   

@@ -8,17 +8,17 @@ keywords:
 - UDF [Excel 2007], вызов из библиотек DLL, пользовательские функции [Excel 2007], вызов из библиотек DLL, библиотеки DLL [Excel 2007], вызов пользовательских функций
 localization_priority: Normal
 ms.assetid: 99a37108-0083-4240-9c6a-3afa8d7a04f6
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9e2ca3f4485fb41c5ab6a48f323b4c0093e747e4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301647"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417947"
 ---
 # <a name="calling-user-defined-functions-from-dlls"></a>Вызов пользовательских функций из библиотек DLL
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Вызов пользовательских функций из листа выполняется так же, как вызов встроенных функций: вы вводите функцию с помощью формулы ячейки. Однако из API C нет предварительно определенных кодов функций, которые можно использовать для обратного вызова. Чтобы разрешить вызов пользовательских функций, API C экспортирует функцию-только XLL, функцию [xlUDF](xludf.md) . Первый аргумент функции — это имя функции в виде строки, а последующие аргументы — те, которые обычно задерживает UDF. 
   

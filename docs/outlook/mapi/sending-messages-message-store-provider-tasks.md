@@ -9,15 +9,15 @@ api_type:
 ms.assetid: acbfd3ae-bfdc-4103-bed2-6bcf7b9c448c
 description: '���� ���������� ���������: 9 ����� 2015 �.'
 ms.openlocfilehash: b65113e59b236b1f13596627a8669ae458f76369
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338432"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406502"
 ---
 # <a name="sending-messages-message-store-provider-tasks"></a>Отправка сообщений: задачи поставщика хранилища сообщений
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 A message store provider gets involved with the message sending process when a client calls the message's [IMessage::SubmitMessage](imessage-submitmessage.md) method. If multiple messages are to be sent, the message store must send them in the same order that the client used for its **SubmitMessage** calls. 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a95fd86d-ebc1-66b6-e7d9-9c8ea84d23ab
 description: Возвращает красный компонент цвета.
 ms.openlocfilehash: e8c6115ac0441b25ce8333485828e8ef0f615459
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359985"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415525"
 ---
 # <a name="red-function"></a>Функция RED
 
@@ -32,7 +32,7 @@ RED (* * *Expression* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Номер
+Число
   
 ## <a name="remarks"></a>Примечания
 
@@ -44,13 +44,13 @@ RED (* * *Expression* * *)
   
 Возвращает 51, если в документе используется цветовая палитра Microsoft Office Visio по умолчанию, где темно-серый — цвет с индексом 22.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 КРАСНЫЙ (char. Color)
   
 Возвращает значение красного компонента текущего цвета шрифта.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 RED (RGB (10, 20, 30))
   

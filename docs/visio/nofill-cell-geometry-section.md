@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 0ba7f6da-681b-b749-fe72-afbca23d7e16
 description: Указывает, можно ли заполнить путь.
 ms.openlocfilehash: 301f30b644e338ff9e597a7a7d8226b9c8a4462f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357255"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415021"
 ---
 # <a name="nofill-cell-geometry-section"></a>NoFill Cell (Geometry Section)
 
 Указывает, можно ли заполнить путь.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Путь не заполняется, даже если другие пути в фигуре заполнены.  <br/> |
 | FALSE  <br/> | Заливка фигуры применяется к пути, даже если она не закрыта.  <br/> |

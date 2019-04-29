@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 71967150-1005-4c85-90f1-76fc7876c0d0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 43b0090192a2f9b02acee4edf471c5ae6c6de7e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328492"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407055"
 ---
 # <a name="property-types"></a>Типы свойств
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 MAPI поддерживает свойства с одним значением и с несколькими значениями. Для свойства с одним значением существует одно значение базового типа для свойства. При наличии свойства с несколькими значениями существует несколько значений базового типа. 
   

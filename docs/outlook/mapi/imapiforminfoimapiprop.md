@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a9fda518-11ba-42aa-85ef-dd2279e0319d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3913cb04f1f2f61ba6835b704f430d872756b227
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321737"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417366"
 ---
 # <a name="imapiforminfo--imapiprop"></a>IMAPIFormInfo : IMAPIProp
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет клиентским приложениям доступ к свойствам, определенным для определения формы. Сохраняя сведения о форме в отдельном объекте, поставщик библиотеки форм может описать форму для клиента, не активируя форму.
   
@@ -47,7 +47,7 @@ ms.locfileid: "32321737"
 |[Савеформ](imapiforminfo-saveform.md) <br/> |Сохраняет описание конкретной формы в файле конфигурации.  <br/> |
 |[Опенформконтаинер](imapiforminfo-openformcontainer.md) <br/> |Возвращает указатель на контейнер формы, в котором установлена определенная форма.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В отличие от большинства интерфейсов, определенных в файле заголовка Мапиформ. h, **имапиформинфо** наследуется от интерфейса [IMAPIProp](imapipropiunknown.md) , так как он экспортирует большинство сведений о форме с помощью вызовов метода [IMAPIProp::](imapiprop-getprops.md) -PROPS. 
   

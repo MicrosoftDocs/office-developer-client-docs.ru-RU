@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b7aea554-f491-6a9a-4d07-feeab739a9df
 description: Представляет x-координату, определяющую расположение управляющего маркера фигуры в локальных координатах.
 ms.openlocfilehash: 58eea4e9c3cfe127c4adcc7fb75e395f53874dd9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269785"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406453"
 ---
 # <a name="x-cell-controls-section"></a>Ячейка X (раздел "Элементы управления")
 

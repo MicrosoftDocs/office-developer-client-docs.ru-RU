@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 76e4cc52-e1a0-4e0b-a2a6-a17644f6b2e7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 49634bda487143ddd8d8806b94f6c451ccf57b75
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351319"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404976"
 ---
 # <a name="sccountprops"></a>ScCountProps
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет размер массива значений свойства (в байтах) и проверяет память, связанную с массивом. 
   

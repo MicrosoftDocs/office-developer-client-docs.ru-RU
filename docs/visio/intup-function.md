@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ce193ce1-c7fd-6609-ad37-a3a28b30a1bd
 description: Округляет число до ближайшего целого числа.
 ms.openlocfilehash: 405345ae1d22d599df85e2a640445c8c681ec2f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357290"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416141"
 ---
 # <a name="intup-function"></a>Функция INTUP
 
@@ -36,13 +36,13 @@ INTUP (3.2)
   
 Возвращает 4.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 INTUP (-3,2)
   
 Возвращает значение 3.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 INTUP (3)
   

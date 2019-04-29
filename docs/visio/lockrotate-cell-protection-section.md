@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2d97b31d-9008-307d-273a-1726007eeb34
 description: Отменяет поворот плоских фигур с помощью маркера вращения или поворота влево на 90 ° или повернуть вправо 90 °.
 ms.openlocfilehash: 36da1868e4f974bd19d00e86e31bea96eb8ad5bf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348275"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404675"
 ---
 # <a name="lockrotate-cell-protection-section"></a>LockRotate Cell (Protection Section)
 
 Отменяет поворот плоских фигур с помощью маркера вращения или поворота **влево на 90 °** или **повернуть вправо 90 °** . 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Поворот фигуры невозможен.  <br/> |
 | FALSE  <br/> | Фигура может быть повернута (по умолчанию).  <br/> |

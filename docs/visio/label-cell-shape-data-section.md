@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6d328b1c-8d92-eb1a-7317-7dd85c674ff9
 description: Указывает метку, которая отображается для пользователей в окне "данные фигуры". Метка состоит из буквенно-цифровых символов, включая знак подчеркивания (_).
 ms.openlocfilehash: d341acfbd47446a5b6dbee51ed821d1e1f34e15d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358753"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420180"
 ---
 # <a name="label-cell-shape-data-section"></a>Label Cell (Shape Data Section)
 

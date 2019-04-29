@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c75f908e-c462-4608-9d27-8287d963d735
 description: Представляет имя пользователя для учетной записи SMTP.
 ms.openlocfilehash: 3740a87a6a7c5dbbf68a1616146e009d2adaac56
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328156"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420320"
 ---
 # <a name="propsmtpuser"></a>PROP_SMTP_USER
 

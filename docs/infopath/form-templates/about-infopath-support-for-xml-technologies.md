@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 074181a2-3a75-824c-049d-549aabff0f9f
 description: Microsoft InfoPath — это гибридное средство, которое сочетает в себе лучшее от традиционных возможностей редактирования документов, таких как текстовый процессор или приложение для работы с электронной почтой, с жесткими возможностями записи данных в пакет форм. В этой статье рассматриваются проблемы, для решения которых предназначено средство InfoPath, а также описаны принципы проектирования и отраслевые стандарты XML, использованные в решении проблем.
 ms.openlocfilehash: 20831635fba8d76b9d6b45f42a5308ab7236db20
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300338"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407230"
 ---
 # <a name="about-infopath-support-for-xml-technologies"></a>Сведения о поддержке InfoPath технологий XML
 

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 02835aff-455b-ffeb-d53b-28387b6ce361
 description: Указывает процентное отношение увеличения страницы документа на странице принтера.
 ms.openlocfilehash: 0f8e86675a039002b60438eac7df92f4a2b13b98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342730"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406992"
 ---
 # <a name="scaley-cell-print-properties-section"></a>ScaleY Cell (Print Properties Section)
 
 Указывает процентное отношение увеличения страницы документа на странице принтера.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это значение используется только в том случае, если ячейка onPage имеет значение FALSE. Ячейки ScaleX и Scale всегда имеют одинаковое значение, которое соответствует значению, указанному в параметре **изменить** на вкладке **Настройка печати** в диалоговом окне **Параметры страницы** (на вкладке **конструктор** щелкните стрелку **настройки страницы** ). 
   

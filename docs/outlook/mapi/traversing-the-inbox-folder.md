@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 2ad1459f-d59a-4784-94ea-4cad194e6e50
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: e954cb2d8029a31e7f69daaa7e8ed55a7953ac02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356583"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406558"
 ---
 # <a name="traversing-the-inbox-folder"></a>Просмотр папки "Входящие"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
  **Циклическое переключение между всеми сообщениями в папке "Входящие"**
   

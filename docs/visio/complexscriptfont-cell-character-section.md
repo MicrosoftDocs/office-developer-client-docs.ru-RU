@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e1cf9e97-101b-384f-65fe-0169c89dfccc
 description: Содержит номер шрифта, используемого для форматирования текста, состоящего из сложных символов. Номера шрифтов зависят от установленных в системе шрифтов.
 ms.openlocfilehash: 5ec8deb59b875a01592b6d7b652204089ecf11e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359383"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404836"
 ---
 # <a name="complexscriptfont-cell-character-section"></a>ComplexScriptFont Cell (Character Section)
 

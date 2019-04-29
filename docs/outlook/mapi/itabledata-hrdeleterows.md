@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 7b351eec-9624-4b38-9978-5d0b67b64687
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: fdd6f40b4d7aa7f65bf1a46d3d9a4f18472b19f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278949"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416456"
 ---
 # <a name="itabledatahrdeleterows"></a>ITableData::HrDeleteRows
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Удаляет несколько строк таблицы.
   
@@ -59,7 +59,7 @@ S_OK
   
 > Строки таблицы были успешно удалены.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **итабледата:: хрделетеровс** ищет и удаляет строки таблицы, которые содержат столбцы, которые совпадают со свойством, на которое указывает элемент **лппропс** для каждой записи **аров** в наборе строк. Столбец индекса используется для идентификации каждой строки; Этот столбец должен иметь тот же тег Property, что и тег свойства, переданный в параметре _улпроптагиндексколумн_ при вызове функции [креатетабле](createtable.md) . 
   

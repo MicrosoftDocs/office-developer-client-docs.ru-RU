@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3121911b-34d5-d99c-3806-76f6e2824f92
 description: Определяет расстояние между нижней границей блока текста и последней строкой текста, который он содержит. Значение по умолчанию 0,1 дюйма. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, нижний край остается прежним.
 ms.openlocfilehash: 544557f1e797315619bc9975db0b87a09981726c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338089"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417212"
 ---
 # <a name="bottommargin-cell-text-block-format-section"></a>BottomMargin Cell (Text Block Format Section)
 
 Определяет расстояние между нижней границей блока текста и последней строкой текста, который он содержит. Значение по умолчанию 0,1 дюйма. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, нижний край остается прежним.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку BottomMargin по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

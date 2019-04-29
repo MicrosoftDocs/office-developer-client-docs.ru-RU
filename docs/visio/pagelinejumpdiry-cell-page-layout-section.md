@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f73cc157-b332-279b-f7cf-d5a090bc09a4
 description: Определяет направление значков пересечения линий на вертикальных динамических соединителях на странице документа, для которых вы не применили локальное направление перехода.
 ms.openlocfilehash: 21ad1d95fd83780f31778dbc8bb70f9bdb4b922d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329899"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414678"
 ---
 # <a name="pagelinejumpdiry-cell-page-layout-section"></a>PageLineJumpDirY Cell (Page Layout Section)
 
@@ -26,7 +26,7 @@ ms.locfileid: "32329899"
 | 1,1  <br/> | Left  <br/> |**Висложумпдирилефт** <br/> |
 | 2  <br/> | Right  <br/> |**Висложумпдириригхт** <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку PageLineJumpDirY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

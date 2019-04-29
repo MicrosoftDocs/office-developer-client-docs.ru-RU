@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 60b3e5f4-4a9b-432f-bad4-4284225ab93f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 0fe21cea26c956f8a03a51e2f302b040fc89e751
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299498"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416540"
 ---
 # <a name="handling-a-transport-provider"></a>Обработка поставщика транспорта
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиенты взаимодействуют с поставщиками транспорта через объекты состояния, предоставляемые поставщиками транспорта и диспетчером очереди MAPI. Клиенты получают доступ к объектам состояния, вызывая [IMAPISession:: жетстатустабле](imapisession-getstatustable.md) для получения таблицы Status. Объекты Status реализуют интерфейс [имапистатус: IMAPIProp](imapistatusimapiprop.md) , который содержит методы для настройки поставщиков, очистки входящих и исходящих очередей сообщений, установки паролей и проверки состояния. Для получения дополнительных сведений об объектах состояния просмотрите [объекты состояния таблица и состояние](status-table-and-status-objects.md).
 

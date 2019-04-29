@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c7feec6f-f47a-60ee-b056-7b2dc51ed9a9
 description: 'Возвращает значение TRUE, если значение целлреференце имеет тип ошибки #VALUE, где аргумент формулы имеет неправильный тип. Функция ISERRVALUE используется в логических выражениях, которые ссылаются на другую ячейку.'
 ms.openlocfilehash: 62058522dc8a2387aec9867e4892da740aba9b44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317888"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404430"
 ---
 # <a name="iserrvalue-function"></a>Функция ISERRVALUE
 
@@ -30,7 +30,7 @@ ISERRVALUE (* * *целлреференце* * *)
 |:-----|:-----|:-----|:-----|
 | _целлреференце_ <br/> |Обязательный  <br/> |**String** <br/> |Ссылка на ячейку.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 НеРабочие ячейки С A по D не возвращают #VALUE! ошибка, так как формула может содержать числа и буквы в одной строке. Ячейки X и Y должны содержать только цифры. 
   
@@ -43,7 +43,7 @@ ISERRVALUE (* * *целлреференце* * *)
    
 Возвращает 2, так как возвращаемое значение является #VALUE! , а выражение указывает, что Microsoft Visio возвращает 2 вместо ошибки.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 |**Cell**|**Formula**|**Возвращаемое значение**|
 |:-----|:-----|:-----|

@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 8d4f5e14-4f17-05a6-4092-5a102c9dc85f
 description: Указывает, была ли фигура отражена по горизонтали.
 ms.openlocfilehash: b7a4a15e5a7759eddcda3ec391a81f14df545691
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346188"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415952"
 ---
 # <a name="flipx-cell-shape-transform-section"></a>FlipX Cell (Shape Transform Section)
 
 Указывает, была ли фигура отражена по горизонтали.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Фигура была зеркально отражена по горизонтали.  <br/> |
 | FALSE  <br/> | Фигура не была отражена по горизонтали.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку FlipX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

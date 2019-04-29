@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: be39cd0b-56bf-a070-f5d8-c9a440d81ee2
 description: Содержит имя рецензента документов.
 ms.openlocfilehash: 02f353ab8f2d39cc075211bb13157b93081e9d8f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335170"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417688"
 ---
 # <a name="name-cell-reviewer-section"></a>Name Cell (Reviewer Section)
 
 Содержит имя рецензента документов.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
  Это значение по умолчанию равно имени, указанному в поле **имя пользователя** на **вкладке Общие** диалогового **окна Параметры Visio** (перейдите на вкладку **файл** , щелкните **Параметры**, а затем выберите **Общие**). 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 52d45876-367b-42da-b99a-29cdb71fa5a9
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 680fd16771b62d705808a04d768115a076e54750
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316564"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415539"
 ---
 # <a name="imapisupportgetmemallocroutines"></a>IMAPISupport::GetMemAllocRoutines
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Получение адресов функций выделения и освобождения памяти MAPI ([мапиаллокатебуффер](mapiallocatebuffer.md), [мапиаллокатеморе](mapiallocatemore.md)и [мапифрибуффер](mapifreebuffer.md)).
   
@@ -55,7 +55,7 @@ S_OK
   
 > Адреса функции были успешно возвращены.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: жетмемаллокраутинес** реализован для всех объектов поддержки. Поставщики услуг вызывают **жетмемаллокраутинес** для получения адресов трех функций выделения памяти, которые передаются в функцию инициализации ( [абпровидеринит](abproviderinit.md), [мспровидеринит](msproviderinit.md)или [ксппровидеринит](xpproviderinit.md)). 
   

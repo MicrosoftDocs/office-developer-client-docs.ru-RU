@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 172dc15b-7bda-403f-a93a-446b2f9ff1d3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ff5d35104e9effc27c405b716cb61cf4643677b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359957"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417793"
 ---
 # <a name="pidtagdefcreatedl-canonical-property"></a>Каноническое свойство PidTagDefCreateDl
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор элемента шаблона для списка рассылки по умолчанию. 
   

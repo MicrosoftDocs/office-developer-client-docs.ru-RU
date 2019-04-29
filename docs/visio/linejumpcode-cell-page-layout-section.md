@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 56f9043d-a632-65df-c710-45867cce1627
 description: Определяет соединители, к которым вы хотите добавить переходы.
 ms.openlocfilehash: 7b5b8c8f1de160a4dc766d30a5f518c5653c270b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361119"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416253"
 ---
 # <a name="linejumpcode-cell-page-layout-section"></a>LineJumpCode Cell (Page Layout Section)
 

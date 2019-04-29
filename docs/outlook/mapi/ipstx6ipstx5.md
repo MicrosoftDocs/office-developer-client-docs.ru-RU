@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 2fe6c1ef-c923-23b9-73ed-a149f7336754
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ad17f93f6a24dad8c392d16900a01df05fe71f1d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279509"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404416"
 ---
 # <a name="ipstx6--ipstx5"></a>IPSTX6 : IPSTX5
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Этот интерфейс предоставляет вспомогательные функциональные возможности при выполнении репликации с помощью интерфейса ИОСТКС.
   

@@ -9,17 +9,17 @@ api_type:
 ms.assetid: eabbde74-49a1-4eeb-a01d-67e45ae4b343
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 72dc73b6ed8519be2d8010544fdd5dc5b7b0f759
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332888"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417422"
 ---
 # <a name="implementing-a-container-one-off-table"></a>Реализация одноразовой таблицы контейнера
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Для доступа к односторонней таблице, принадлежащей одному из контейнеров, MAPI вызывает метод контейнера [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , чтобы открыть свойство **пр_креате_темплатес** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) с помощью **IMAPITable** . взаимодействия. В вашем контейнере предлагается возврат обратной таблицы, когда клиентское приложение пытается добавить получателя в контейнер. Если контейнер позволяет любому получателю, поставщик может возвратить свою собственную реализацию или вызов [имаписуппорт:: жетонеоффтабле](imapisupport-getoneofftable.md) , чтобы вернуть реализацию MAPI. 
   

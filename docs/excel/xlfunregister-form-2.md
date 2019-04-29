@@ -10,17 +10,17 @@ keywords:
 - xlfUnregister [Excel 2007]
 localization_priority: Normal
 ms.assetid: 39c6eba7-ba41-4e7b-9a28-2b662378ff5a
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 8bf1151e1ba4c165e784b88dce80096a2eaa62de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310166"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419907"
 ---
 # <a name="xlfunregister-form-2"></a>xlfUnregister (форма 2)
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Может вызываться из команды DLL или XLL, которая вызывается Microsoft Excel. Это эквивалентно вызову **Unregister** из листа макросов Excel XLM. 
   
@@ -46,7 +46,7 @@ _пксмодулетекст_ (**кслтипестр**)
 
 В случае успеха возвращает **значение true** (**кслтипебул**). В случае неудачной попытки возвращает **значение false**.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 > [!NOTE] 
 > Не вызывайте эту форму функции из реализации [xlAutoClose](xlautoclose.md) при попытке отменить регистрацию всех ресурсов библиотеки DLL с помощью одного вызова простой функции. Это приводит к рекурсивному вызову **xlAutoClose** и переполнению стека. 

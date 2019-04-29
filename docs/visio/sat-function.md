@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 407817fb-9e4a-d2ca-6125-2440d2a417c6
 description: Возвращает значение компонента насыщенности цвета.
 ms.openlocfilehash: 3b3fd8e13ca9af4f0aea00d2f78c7b5c27be1932
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319000"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415007"
 ---
 # <a name="sat-function"></a>Функция SAT
 
@@ -32,9 +32,9 @@ ms.locfileid: "32319000"
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Numeric
+Числовой
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Возвращаемое значение — число в диапазоне от 0 до 240 включительно. Функция возвращает значение 0 для недопустимых входных данных.
   
@@ -44,13 +44,13 @@ Numeric
   
 Возвращает насыщенность цвета переднего плана листа. 4's.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 КОТ (8)
   
 Возвращает 240, если документ использует цветовую палитру Visio по умолчанию, где темно-красный — цвет с индексом 8.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 СБ (HSL (, 10, 20, 30))
   

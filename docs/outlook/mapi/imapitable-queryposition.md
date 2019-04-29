@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 510b2e21-ba27-47dd-87cb-2a549e31fa28
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 2e44d824bbb5cc96c51d7ca91eb639001bc52a71
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328876"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415665"
 ---
 # <a name="imapitablequeryposition"></a>IMAPITable::QueryPosition
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает текущую позицию строки таблицы курсора на основе дробного значения.
   
@@ -55,7 +55,7 @@ S_OK
   
 > Метод возвращает допустимые значения в _лпулров_, _лпулнумератор_и _лпулденоминатор_.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPITable:: куерипоситион** определяет положение текущей строки и возвращает номер текущей строки и дробное значение, обозначающее его относительное положение до конца таблицы. MAPI определяет текущую строку в качестве следующей строки для считывания. 
   

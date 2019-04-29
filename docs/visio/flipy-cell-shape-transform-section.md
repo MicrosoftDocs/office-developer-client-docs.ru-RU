@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 062022ff-e243-2540-becd-d9b969ce83ce
 description: Указывает, была ли фигура отражена по вертикали.
 ms.openlocfilehash: 44ea0341cda3655e8acc69e82e89acddac69b80d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346202"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417450"
 ---
 # <a name="flipy-cell-shape-transform-section"></a>FlipY Cell (Shape Transform Section)
 
 Указывает, была ли фигура отражена по вертикали.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Фигура была зеркально отражена по вертикали.  <br/> |
 | FALSE  <br/> | Фигура не была зеркально отражена по вертикали.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на переВернутую ячейку по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

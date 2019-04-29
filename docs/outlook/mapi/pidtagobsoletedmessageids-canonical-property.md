@@ -13,17 +13,17 @@ api_type:
 ms.assetid: bc979398-f1ad-4496-b982-428b95719369
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1f00a57798b03edb368fb0dc59fead7a2e9f5c8f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329248"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416113"
 ---
 # <a name="pidtagobsoletedmessageids-canonical-property"></a>Каноническое свойство PidTagObsoletedMessageIds
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификаторы сообщений, которые заменяют это сообщение.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32329248"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Идентификаторы, хранящиеся в этом свойстве, являются стандартными ключами поиска, использующими формат свойства **пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
   

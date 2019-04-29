@@ -9,15 +9,15 @@ api_type:
 ms.assetid: ab17dcf2-409b-4a57-9cc4-5794f995cd3e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: ea192ec6356cc3b929bf8379567144d3a54223f2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309543"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405564"
 ---
 # <a name="mapisvcinf-service-provider-sections"></a>Разделы поставщика службы MapiSvc. INF
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Mapisvc. inf содержит один раздел поставщика услуг для каждой записи, указанной в записи **поставщиков** в предыдущем разделе Services messages. Разделы поставщика **услуг** аналогичны разделам службы сообщений, в которых разделы обоих типов содержат записи в следующем формате: 
   

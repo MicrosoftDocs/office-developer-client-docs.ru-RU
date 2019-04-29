@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 3ccfc15d-f3c6-4c7b-b1cc-855af66036de
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 385660889c40e5f59dfc015ad92ce6a1398ab0cd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351326"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415658"
 ---
 # <a name="sccreateconversationindex"></a>ScCreateConversationIndex
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, относится ли сообщение к сообщению в цепочке сообщений. 
   

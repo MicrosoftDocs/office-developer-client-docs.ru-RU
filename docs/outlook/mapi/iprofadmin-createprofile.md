@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 10cda14a-8f93-41e0-b1fb-500098bdc392
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b104c62eb617e6c68f85dea4ef6379c831733844
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317117"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404402"
 ---
 # <a name="iprofadmincreateprofile"></a>IProfAdmin::CreateProfile
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает новый профиль.
   
@@ -72,7 +72,7 @@ S_OK
   
 > Указанный новый профиль уже существует.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **ипрофадмин:: креатепрофиле** создает новый профиль. 
   

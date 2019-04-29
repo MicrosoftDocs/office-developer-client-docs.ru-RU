@@ -7,17 +7,17 @@ localization_priority: Normal
 ms.assetid: cf36c6cb-57b4-7b2b-e23d-e0bc8696de96
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a0644e4bf5c6847d61cc59e203d50f61ad142e84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329752"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416484"
 ---
 # <a name="about-the-replication-state-machine"></a>Сведения о конечном автомате репликации
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этой статье представлен обзор конечного автомата для Microsoft Outlook 2013 и репликации данных Microsoft Outlook 2010.
   
@@ -53,7 +53,7 @@ ms.locfileid: "32329752"
 |[Отправка состояния папки](upload-folder-state.md) <br/> |Folder  <br/> |**ЛР_СИНК_УПЛОАД_ФОЛДЕР** <br/> |**[UPFLD](upfld.md)** <br/> |
 |[Состояние синхронизации контента](synchronize-contents-state.md) <br/> |Элементы  <br/> |**ЛР_СИНК_КОНТЕНТС** <br/> |**[SYNCCONT](synccont.md)** <br/> |
 |[Состояние отправки таблицы](upload-table-state.md) <br/> |Элементы  <br/> |**ЛР_СИНК_УПЛОАД_ТАБЛЕ** <br/> |**[UPTBL](uptbl.md)** <br/> |
-|[Состояние отправки сообщения](upload-message-state.md) <br/> |Элемент  <br/> |**ЛР_СИНК_УПЛОАД_МЕССАЖЕ** <br/> |**[UPMSG](upmsg.md)** <br/> |
+|[Состояние отправки сообщения](upload-message-state.md) <br/> |Item  <br/> |**ЛР_СИНК_УПЛОАД_МЕССАЖЕ** <br/> |**[UPMSG](upmsg.md)** <br/> |
 |[Состояние отправки состояния чтения](upload-read-status-state.md) <br/> |Элементы  <br/> |**ЛР_СИНК_УПЛОАД_МЕССАЖЕ_РЕАД** <br/> |**[UPREAD](upread.md)** <br/> |
 |[Состояние отправки состояния удаления](upload-delete-status-state.md) <br/> |Элементы  <br/> |**ЛР_СИНК_УПЛОАД_МЕССАЖЕ_ДЕЛ** <br/> |**[UPDEL](updel.md)** <br/> |
 |[Состояние загрузки иерархии](download-hierarchy-state.md) <br/> |Folders  <br/> |**ЛР_СИНК_ДОВНЛОАД_ХИЕРАРЧИ** <br/> |**[DNHIER](dnhier.md)** <br/> |

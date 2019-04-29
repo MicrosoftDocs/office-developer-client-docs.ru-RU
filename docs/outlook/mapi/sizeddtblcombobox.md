@@ -13,15 +13,15 @@ api_type:
 ms.assetid: 1e5ea9f2-1029-4584-845a-890d3e956036
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8861c8f86eaab6defb270b673e0ee200446aedb3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282826"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416267"
 ---
 # <a name="sizeddtblcombobox"></a>SizedDtblComboBox
  
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает именованную структуру, включающую структуру [дтблкомбобокс](dtblcombobox.md) для описания элемента управления "поле со списком" и максимальное количество символов, которое можно ввести в связанный элемент управления редактирования. 
   
@@ -44,7 +44,7 @@ _u_
   
 > Имя для новой структуры.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 С помощью макроса **сизеддтблкомбобокс** можно определить поле со списком, если известна длина строки разрешенных символов. Новая структура создается со следующими элементами: 
   

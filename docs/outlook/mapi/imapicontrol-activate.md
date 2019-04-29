@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 2b641030-2429-4217-a648-0a9f3d1a1b29
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: d3b47e423daf428c67761d13deef1ae0858c91c0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280204"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418017"
 ---
 # <a name="imapicontrolactivate"></a>IMAPIControl::Activate
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Выполняет задачу, например отображение диалогового окна или запуск программной операции, когда пользователь клиентского приложения щелкает элемент управления "Кнопка".
   
@@ -50,7 +50,7 @@ S_OK
   
 > Элемент управления "Кнопка" успешно активирован.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имапиконтрол:: Activate** выполняет задачи после нажатия пользователем кнопки элемента управления "Кнопка". После выполнения щелчка в рамках обработки отображаемой таблицы MAPI вызывает **активацию** после первого вызова [имапиконтрол::-State](imapicontrol-getstate.md) , чтобы определить, включена ли кнопка. 
   

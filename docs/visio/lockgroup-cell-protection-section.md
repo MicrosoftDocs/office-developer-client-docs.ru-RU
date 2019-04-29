@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 04b0fa5b-1680-cfe2-6aaf-0502ad196027
 description: Блокирует группу, чтобы ее нельзя было разгруппировать.
 ms.openlocfilehash: 0cb2c0653780dcb653e5903faaaa0ebf30ea9d69
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341794"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404311"
 ---
 # <a name="lockgroup-cell-protection-section"></a>LockGroup Cell (Protection Section)
 
 Блокирует группу, чтобы ее нельзя было разгруппировать.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Группа не может быть разгруппирована.  <br/> |
 |FALSE  <br/> |Группу можно разгруппировать.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 При установке значения TRUE для Локкграупцелл также запрещается удаление всех фигур, которые являются членами группы.
   

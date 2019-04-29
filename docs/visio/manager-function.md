@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b2453014-7d45-f4c9-0384-def705c5c4d4
 description: Возвращает текст из поля "руководитель" в свойствах документа.
 ms.openlocfilehash: f69666fa762a96ecedd9ab4c41a4db34ce78f2cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344788"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404542"
 ---
 # <a name="manager-function"></a>Функция MANAGER
 
@@ -26,6 +26,6 @@ MANAGER ()
   
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
 

@@ -13,15 +13,15 @@ api_type:
 ms.assetid: 7f73b5cf-7093-42e9-8acc-63d73df77cf5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 19d3df004676a71e2bf6243d9288efd824d99c33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325769"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418024"
 ---
 # <a name="imapisessionopenmsgstore"></a>IMAPISession::OpenMsgStore
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Открывает хранилище сообщений и возвращает указатель [IMsgStore](imsgstoreimapiprop.md) для получения доступа. 
   
@@ -102,7 +102,7 @@ S_OK
   
 > Вызов выполнен успешно, но у поставщика хранилища сообщений есть доступные сведения об ошибке. При возвращении этого предупреждения вызов должен обрабатываться как успешный. Чтобы получить сведения об ошибке от поставщика, вызовите метод [IMAPISession:: GetLastError](imapisession-getlasterror.md) . Чтобы проверить это предупреждение, используйте макрос **хр_фаилед** . Дополнительные сведения см. [в разделе Использование макросов для обработки ошибок](using-macros-for-error-handling.md).
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPISession:: опенмсгсторе** открывает определенное хранилище сообщений. 
   

@@ -9,15 +9,15 @@ localization_priority: Normal
 ms.assetid: 63c47e94-f603-aef9-afed-e3819bd79408
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 64348347ea930e6a6a80b9a9075299d2e3109eda
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360706"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417632"
 ---
 # <a name="syncstate"></a>SYNCSTATE
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Эта структура определяет состояния для конечного автомата репликации.
   

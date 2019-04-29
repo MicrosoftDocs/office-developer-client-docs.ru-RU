@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: ff681afd-c058-4fce-855f-5075b8c680c2
 description: Определяет высоту скоса нижнего скоса фигуры в точках.
 ms.openlocfilehash: f0bed55f5ddeb8676b2b2bc2bf0cddad779b011c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283025"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417527"
 ---
 # <a name="bevelbottomheight-cell-bevel-properties-section"></a>BevelBottomHeight Cell (Bevel Properties Section)
 
 Определяет высоту скоса нижнего скоса фигуры в точках. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку **BevelBottomHeight** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   

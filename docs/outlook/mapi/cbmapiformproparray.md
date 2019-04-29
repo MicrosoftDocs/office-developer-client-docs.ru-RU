@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f85bd23d-c285-4448-a946-7ab4fc0f03be
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 704935e5863d789ee1120ddde8d4eb42edbec573
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331950"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420257"
 ---
 # <a name="cbmapiformproparray"></a>CbMAPIFormPropArray
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет количество байтов в существующей структуре [смапиформпропаррай](smapiformproparray.md) , которая содержит указанное число структур [смапиформпроп](smapiformprop.md) . 
   

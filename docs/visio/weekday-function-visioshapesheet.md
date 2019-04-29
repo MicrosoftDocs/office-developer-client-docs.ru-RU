@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f2625ef8-3bdb-5a8d-48b9-149be0592533
 description: Возвращает целое число от 1 до 7, представляющее значение дня недели в значении даты и времени или выражении.
 ms.openlocfilehash: 7c5d467d8c6ff14b99b64b8b0462d21d0b769998
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285246"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404808"
 ---
 # <a name="weekday-function-visioshapesheet"></a>WEEKDAY Function (VisioShapeSheet)
 
@@ -50,13 +50,13 @@ WEEKDAY ("30 мая, 1999")
   
 Возвращает значение 7.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 WEEKDAY ("DATEVALUE" ("30 мая 1999 г.") + 2 ED.)
   
 Возвращает 2.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 WEEKDAY (35880.6337)
   

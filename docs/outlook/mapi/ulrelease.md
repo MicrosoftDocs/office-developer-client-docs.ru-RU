@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 95db96ef-f95f-41da-b216-f717c23bffd2
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 288e34a159db48b1344524b87f02b045259f1565
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315297"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415847"
 ---
 # <a name="ulrelease"></a>UlRelease
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет альтернативный способ вызова метода OLE **IUnknown:: Release**. 
   
@@ -55,7 +55,7 @@ S_OK
   
 > Не удалось завершить операцию из — из — из — из — из — из — из неизвестного источника.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Число ссылок — это количество существующих указателей на освобождаемый объект. 
   

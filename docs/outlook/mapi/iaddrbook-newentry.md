@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 8d2d786b-e621-456d-b087-3373df6f8ac5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 285da82d143524d2b2cf73ed3e5f1e3aeef6f9b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336717"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405102"
 ---
 # <a name="iaddrbooknewentry"></a>IAddrBook::NewEntry
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Добавляет нового получателя в контейнер адресной книги или в список получателей исходящего сообщения.
   
@@ -84,7 +84,7 @@ S_OK
   
 > Новая запись адресной книги успешно создана.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **невентри** создает новую запись адресной книги, которая будет добавляться непосредственно в контейнер или использоваться для адресации исходящих сообщений. 
   
