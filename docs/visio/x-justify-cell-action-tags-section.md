@@ -10,41 +10,41 @@ localization_priority: Normal
 ms.assetid: a8995020-3eaa-2b2c-eca0-dd475de4d06f
 description: Смещение по оси x для кнопки тега действия, связанной с точкой, которая определена ячейками X и Y.
 ms.openlocfilehash: f8542d2f3a22b12794d999323d202d7a5bece20b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284974"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414125"
 ---
-# <a name="x-justify-cell-action-tags-section"></a><span data-ttu-id="d0bd4-103">Ячейка X Justify (раздел "Теги действий")</span><span class="sxs-lookup"><span data-stu-id="d0bd4-103">X Justify Cell (Action Tags Section)</span></span>
+# <a name="x-justify-cell-action-tags-section"></a><span data-ttu-id="c9502-103">Ячейка X Justify (раздел "Теги действий")</span><span class="sxs-lookup"><span data-stu-id="c9502-103">X Justify Cell (Action Tags Section)</span></span>
 
-<span data-ttu-id="d0bd4-104">Смещение по оси *x* для кнопки тега действия, связанной с точкой, которая определена ячейками X и Y.</span><span class="sxs-lookup"><span data-stu-id="d0bd4-104">The  *x*  -offset of the action tag button relative to the point defined by the X and Y cells.</span></span> 
+<span data-ttu-id="c9502-104">Смещение по оси *x* для кнопки тега действия, связанной с точкой, которая определена ячейками X и Y.</span><span class="sxs-lookup"><span data-stu-id="c9502-104">The  *x*  -offset of the action tag button relative to the point defined by the X and Y cells.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="d0bd4-105">В предыдущих версиях Microsoft Visio теги действий назывались смарт-тегами.</span><span class="sxs-lookup"><span data-stu-id="d0bd4-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="c9502-105">В предыдущих версиях Microsoft Visio теги действий назывались смарт-тегами.</span><span class="sxs-lookup"><span data-stu-id="c9502-105">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-|<span data-ttu-id="d0bd4-106">**Value**</span><span class="sxs-lookup"><span data-stu-id="d0bd4-106">**Value**</span></span>|<span data-ttu-id="d0bd4-107">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d0bd4-107">**Description**</span></span>|<span data-ttu-id="d0bd4-108">**Константа автоматизации**</span><span class="sxs-lookup"><span data-stu-id="d0bd4-108">**Automation constant**</span></span>|
+|<span data-ttu-id="c9502-106">**Значение**</span><span class="sxs-lookup"><span data-stu-id="c9502-106">**Value**</span></span>|<span data-ttu-id="c9502-107">**Описание**</span><span class="sxs-lookup"><span data-stu-id="c9502-107">**Description**</span></span>|<span data-ttu-id="c9502-108">**Константа автоматизации**</span><span class="sxs-lookup"><span data-stu-id="c9502-108">**Automation constant**</span></span>|
 |:-----|:-----|:-----|
-| <span data-ttu-id="d0bd4-109">нуль</span><span class="sxs-lookup"><span data-stu-id="d0bd4-109">0</span></span>  <br/> | <span data-ttu-id="d0bd4-110">Выравнивание по левому краю (по умолчанию).</span><span class="sxs-lookup"><span data-stu-id="d0bd4-110">Left justified (the default).</span></span>  <br/> |<span data-ttu-id="d0bd4-111">**visSmartTagXJustifyLeft**</span><span class="sxs-lookup"><span data-stu-id="d0bd4-111">**visSmartTagXJustifyLeft**</span></span> <br/> |
-| <span data-ttu-id="d0bd4-112">1,1</span><span class="sxs-lookup"><span data-stu-id="d0bd4-112">1</span></span>  <br/> | <span data-ttu-id="d0bd4-113">Выравнивание по центру.</span><span class="sxs-lookup"><span data-stu-id="d0bd4-113">Centered.</span></span>  <br/> |<span data-ttu-id="d0bd4-114">**visSmartTagXJustifyCenter**</span><span class="sxs-lookup"><span data-stu-id="d0bd4-114">**visSmartTagXJustifyCenter**</span></span> <br/> |
-| <span data-ttu-id="d0bd4-115">2</span><span class="sxs-lookup"><span data-stu-id="d0bd4-115">2</span></span>  <br/> | <span data-ttu-id="d0bd4-116">Выравнивание по правому краю.</span><span class="sxs-lookup"><span data-stu-id="d0bd4-116">Right justified.</span></span>  <br/> |<span data-ttu-id="d0bd4-117">**visSmartTagXJustifyRight**</span><span class="sxs-lookup"><span data-stu-id="d0bd4-117">**visSmartTagXJustifyRight**</span></span> <br/> |
+| <span data-ttu-id="c9502-109">нуль</span><span class="sxs-lookup"><span data-stu-id="c9502-109">0</span></span>  <br/> | <span data-ttu-id="c9502-110">Выравнивание по левому краю (по умолчанию).</span><span class="sxs-lookup"><span data-stu-id="c9502-110">Left justified (the default).</span></span>  <br/> |<span data-ttu-id="c9502-111">**visSmartTagXJustifyLeft**</span><span class="sxs-lookup"><span data-stu-id="c9502-111">**visSmartTagXJustifyLeft**</span></span> <br/> |
+| <span data-ttu-id="c9502-112">1,1</span><span class="sxs-lookup"><span data-stu-id="c9502-112">1</span></span>  <br/> | <span data-ttu-id="c9502-113">Выравнивание по центру.</span><span class="sxs-lookup"><span data-stu-id="c9502-113">Centered.</span></span>  <br/> |<span data-ttu-id="c9502-114">**visSmartTagXJustifyCenter**</span><span class="sxs-lookup"><span data-stu-id="c9502-114">**visSmartTagXJustifyCenter**</span></span> <br/> |
+| <span data-ttu-id="c9502-115">2</span><span class="sxs-lookup"><span data-stu-id="c9502-115">2</span></span>  <br/> | <span data-ttu-id="c9502-116">Выравнивание по правому краю.</span><span class="sxs-lookup"><span data-stu-id="c9502-116">Right justified.</span></span>  <br/> |<span data-ttu-id="c9502-117">**visSmartTagXJustifyRight**</span><span class="sxs-lookup"><span data-stu-id="c9502-117">**visSmartTagXJustifyRight**</span></span> <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d0bd4-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="d0bd4-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c9502-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="c9502-118">Remarks</span></span>
 
-<span data-ttu-id="d0bd4-119">Ячейки X Justify и Y Justify указывают, где размещается кнопка тега действия по отношению к точке, определенной в ячейках X и Y.</span><span class="sxs-lookup"><span data-stu-id="d0bd4-119">The X Justify and Y Justify cells determine where the action tag button is placed in relation to the point defined in the X and Y cells.</span></span> 
+<span data-ttu-id="c9502-119">Ячейки X Justify и Y Justify указывают, где размещается кнопка тега действия по отношению к точке, определенной в ячейках X и Y.</span><span class="sxs-lookup"><span data-stu-id="c9502-119">The X Justify and Y Justify cells determine where the action tag button is placed in relation to the point defined in the X and Y cells.</span></span> 
   
-<span data-ttu-id="d0bd4-120">Чтобы получить ссылку на ячейку X Justify по имени из другой формулы или из программы с помощью свойства **CellsU**, укажите следующее:</span><span class="sxs-lookup"><span data-stu-id="d0bd4-120">To get a reference to the X Justify cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="c9502-120">Чтобы получить ссылку на ячейку X Justify по имени из другой формулы или из программы с помощью свойства **CellsU**, укажите следующее:</span><span class="sxs-lookup"><span data-stu-id="c9502-120">To get a reference to the X Justify cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d0bd4-121">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="d0bd4-121">Cell name:</span></span>  <br/> | <span data-ttu-id="d0bd4-122">SmartTags.</span><span class="sxs-lookup"><span data-stu-id="d0bd4-122">SmartTags.</span></span>  <span data-ttu-id="d0bd4-123">*имя* .XJustify, где SmartTags.</span><span class="sxs-lookup"><span data-stu-id="d0bd4-123">*name*  .XJustify           where SmartTags.</span></span> <span data-ttu-id="d0bd4-124">*имя* — название строки тегов действий.</span><span class="sxs-lookup"><span data-stu-id="d0bd4-124">*name*  is the name of the action tag row</span></span>  <br/> |
+| <span data-ttu-id="c9502-121">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="c9502-121">Cell name:</span></span>  <br/> | <span data-ttu-id="c9502-122">SmartTags.</span><span class="sxs-lookup"><span data-stu-id="c9502-122">SmartTags.</span></span>  <span data-ttu-id="c9502-123">*имя* .XJustify, где SmartTags.</span><span class="sxs-lookup"><span data-stu-id="c9502-123">*name*  .XJustify           where SmartTags.</span></span> <span data-ttu-id="c9502-124">*имя* — название строки тегов действий.</span><span class="sxs-lookup"><span data-stu-id="c9502-124">*name*  is the name of the action tag row</span></span>  <br/> |
    
-<span data-ttu-id="d0bd4-125">Чтобы получить ссылку на ячейку X Justify по индексу из программы, укажите свойство **CellsSRC** с такими аргументами:</span><span class="sxs-lookup"><span data-stu-id="d0bd4-125">To get a reference to the X Justify cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="c9502-125">Чтобы получить ссылку на ячейку X Justify по индексу из программы, укажите свойство **CellsSRC** с такими аргументами:</span><span class="sxs-lookup"><span data-stu-id="c9502-125">To get a reference to the X Justify cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d0bd4-126">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="d0bd4-126">Section index:</span></span>  <br/> |<span data-ttu-id="d0bd4-127">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="d0bd4-127">**visSectionSmartTag**</span></span> <br/> |
-| <span data-ttu-id="d0bd4-128">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="d0bd4-128">Row index:</span></span>  <br/> |<span data-ttu-id="d0bd4-129">**visRowSmartTag** +  *i*, где *i* = 0, 1, 2…</span><span class="sxs-lookup"><span data-stu-id="d0bd4-129">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="d0bd4-130">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="d0bd4-130">Cell index:</span></span>  <br/> |<span data-ttu-id="d0bd4-131">**visSmartTagXJustify**</span><span class="sxs-lookup"><span data-stu-id="d0bd4-131">**visSmartTagXJustify**</span></span> <br/> |
+| <span data-ttu-id="c9502-126">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="c9502-126">Section index:</span></span>  <br/> |<span data-ttu-id="c9502-127">**visSectionSmartTag**</span><span class="sxs-lookup"><span data-stu-id="c9502-127">**visSectionSmartTag**</span></span> <br/> |
+| <span data-ttu-id="c9502-128">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="c9502-128">Row index:</span></span>  <br/> |<span data-ttu-id="c9502-129">**visRowSmartTag** +  *i*, где *i* = 0, 1, 2…</span><span class="sxs-lookup"><span data-stu-id="c9502-129">**visRowSmartTag** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="c9502-130">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="c9502-130">Cell index:</span></span>  <br/> |<span data-ttu-id="c9502-131">**visSmartTagXJustify**</span><span class="sxs-lookup"><span data-stu-id="c9502-131">**visSmartTagXJustify**</span></span> <br/> |
    
 
