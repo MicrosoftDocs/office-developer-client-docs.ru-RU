@@ -7,17 +7,17 @@ localization_priority: Normal
 ms.assetid: acc96bb9-1592-c480-53ee-1325f65297e1
 description: '���� ���������� ���������: 25 ���� 2012 �.'
 ms.openlocfilehash: 9671126c0d83064d926f4211468cdfa6ebf43270
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339846"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428153"
 ---
-# <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a><span data-ttu-id="363c5-103">Определение того, скачан ли в Outlook только заголовок сообщения</span><span class="sxs-lookup"><span data-stu-id="363c5-103">Determine if Outlook downloaded only the header of a message</span></span>
+# <a name="determine-if-outlook-downloaded-only-the-header-of-a-message"></a><span data-ttu-id="b3edb-103">Определение того, скачан ли в Outlook только заголовок сообщения</span><span class="sxs-lookup"><span data-stu-id="b3edb-103">Determine if Outlook downloaded only the header of a message</span></span>
 
-<span data-ttu-id="363c5-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="363c5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b3edb-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b3edb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="363c5-105">В этом разделе показан пример кода в Visual C++, который использует имя [канонИческое свойство PidLidHeaderItem](pidlidheaderitem-canonical-property.md) , чтобы определить, загружен ли в Microsoft Outlook 2013 только заголовок сообщения или заголовок и текст сообщения.</span><span class="sxs-lookup"><span data-stu-id="363c5-105">This topic shows a code sample in Visual C++ that uses the named [PidLidHeaderItem Canonical Property](pidlidheaderitem-canonical-property.md) to determine whether Microsoft Outlook 2013 has downloaded only the header of a message or the header and the body of a message.</span></span> 
+<span data-ttu-id="b3edb-105">В этом разделе показан пример кода в Visual C++, который использует имя [канонИческое свойство PidLidHeaderItem](pidlidheaderitem-canonical-property.md) , чтобы определить, загружен ли в Microsoft Outlook 2013 только заголовок сообщения или заголовок и текст сообщения.</span><span class="sxs-lookup"><span data-stu-id="b3edb-105">This topic shows a code sample in Visual C++ that uses the named [PidLidHeaderItem Canonical Property](pidlidheaderitem-canonical-property.md) to determine whether Microsoft Outlook 2013 has downloaded only the header of a message or the header and the body of a message.</span></span> 
   
 ```cpp
 BOOL bIsHeader(LPMESSAGE lpMessage) 

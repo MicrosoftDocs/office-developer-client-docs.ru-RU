@@ -8,30 +8,30 @@ localization_priority: Normal
 ms.assetid: 6f62650d-36f8-4c6e-b79f-c9c397a5954d
 description: Представляет значение произвольности, используемое для определения геометрии результата эскиза в виде положительного целого числа. Значение ячейки SketchSeed случайным образом создается при применении к фигуре эффекты эскиза.
 ms.openlocfilehash: 3ec58fbfa183d1a6d7bb6960672658f9a6cca073
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315150"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434398"
 ---
-# <a name="sketchseed-cell-additional-effect-properties-section"></a><span data-ttu-id="38cb3-104">SketchSeed Cell (Additional Effect Properties Section)</span><span class="sxs-lookup"><span data-stu-id="38cb3-104">SketchSeed Cell (Additional Effect Properties Section)</span></span>
+# <a name="sketchseed-cell-additional-effect-properties-section"></a><span data-ttu-id="07f46-104">SketchSeed Cell (Additional Effect Properties Section)</span><span class="sxs-lookup"><span data-stu-id="07f46-104">SketchSeed Cell (Additional Effect Properties Section)</span></span>
 
-<span data-ttu-id="38cb3-105">Представляет значение произвольности, используемое для определения геометрии результата эскиза в виде положительного целого числа.</span><span class="sxs-lookup"><span data-stu-id="38cb3-105">Represents a randomization value used to determine the geometry of a sketch effect, as a positive integer.</span></span> <span data-ttu-id="38cb3-106">Значение ячейки **SketchSeed** случайным образом создается при применении к фигуре эффекты эскиза.</span><span class="sxs-lookup"><span data-stu-id="38cb3-106">The value of the **SketchSeed** cell is randomly created when a sketch effect is applied to the shape.</span></span> 
+<span data-ttu-id="07f46-105">Представляет значение произвольности, используемое для определения геометрии результата эскиза в виде положительного целого числа.</span><span class="sxs-lookup"><span data-stu-id="07f46-105">Represents a randomization value used to determine the geometry of a sketch effect, as a positive integer.</span></span> <span data-ttu-id="07f46-106">Значение ячейки **SketchSeed** случайным образом создается при применении к фигуре эффекты эскиза.</span><span class="sxs-lookup"><span data-stu-id="07f46-106">The value of the **SketchSeed** cell is randomly created when a sketch effect is applied to the shape.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="38cb3-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="38cb3-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="07f46-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="07f46-107">Remarks</span></span>
 
-<span data-ttu-id="38cb3-108">Чтобы получить ссылку на ячейку **SketchSeed** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="38cb3-108">To get a reference to the **SketchSeed** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="07f46-108">Чтобы получить ссылку на ячейку **SketchSeed** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="07f46-108">To get a reference to the **SketchSeed** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="38cb3-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="38cb3-109">Cell name:</span></span>  <br/> | <span data-ttu-id="38cb3-110">SketchSeed</span><span class="sxs-lookup"><span data-stu-id="38cb3-110">SketchSeed</span></span>  <br/> |
+| <span data-ttu-id="07f46-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="07f46-109">Cell name:</span></span>  <br/> | <span data-ttu-id="07f46-110">SketchSeed</span><span class="sxs-lookup"><span data-stu-id="07f46-110">SketchSeed</span></span>  <br/> |
    
-<span data-ttu-id="38cb3-111">Чтобы получить ссылку на ячейку **SketchSeed** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="38cb3-111">To get a reference to the **SketchSeed** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="07f46-111">Чтобы получить ссылку на ячейку **SketchSeed** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="07f46-111">To get a reference to the **SketchSeed** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="38cb3-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="38cb3-112">Section index:</span></span>  <br/> |<span data-ttu-id="38cb3-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="38cb3-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="38cb3-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="38cb3-114">Row index:</span></span>  <br/> |<span data-ttu-id="38cb3-115">**Висровосереффектпропертиес**</span><span class="sxs-lookup"><span data-stu-id="38cb3-115">**visRowOtherEffectProperties**</span></span> <br/> |
-| <span data-ttu-id="38cb3-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="38cb3-116">Cell index:</span></span>  <br/> |<span data-ttu-id="38cb3-117">**Висскетчсид**</span><span class="sxs-lookup"><span data-stu-id="38cb3-117">**visSketchSeed**</span></span> <br/> |
+| <span data-ttu-id="07f46-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="07f46-112">Section index:</span></span>  <br/> |<span data-ttu-id="07f46-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="07f46-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="07f46-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="07f46-114">Row index:</span></span>  <br/> |<span data-ttu-id="07f46-115">**Висровосереффектпропертиес**</span><span class="sxs-lookup"><span data-stu-id="07f46-115">**visRowOtherEffectProperties**</span></span> <br/> |
+| <span data-ttu-id="07f46-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="07f46-116">Cell index:</span></span>  <br/> |<span data-ttu-id="07f46-117">**Висскетчсид**</span><span class="sxs-lookup"><span data-stu-id="07f46-117">**visSketchSeed**</span></span> <br/> |
    
 

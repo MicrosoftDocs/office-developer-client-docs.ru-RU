@@ -10,18 +10,18 @@ localization_priority: Normal
 ms.assetid: fb422d46-0b4d-3bf7-73aa-6b01e2454a84
 description: Содержит ячейки для группы, которые управляют способом добавления фигур в группу, перемещения участников группы и выбора групп.
 ms.openlocfilehash: bb5d0bccd21e192ed4aff244929d2dbb507ae40b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317075"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430751"
 ---
-# <a name="group-properties-section"></a><span data-ttu-id="e6341-103">Group Properties Section</span><span class="sxs-lookup"><span data-stu-id="e6341-103">Group Properties Section</span></span>
+# <a name="group-properties-section"></a><span data-ttu-id="523f9-103">Group Properties Section</span><span class="sxs-lookup"><span data-stu-id="523f9-103">Group Properties Section</span></span>
 
-<span data-ttu-id="e6341-104">Содержит ячейки для группы, которые управляют способом добавления фигур в группу, перемещения участников группы и выбора групп.</span><span class="sxs-lookup"><span data-stu-id="e6341-104">Contains cells for a group that control how you add shapes to a group, move members of a group, and select groups.</span></span> 
+<span data-ttu-id="523f9-104">Содержит ячейки для группы, которые управляют способом добавления фигур в группу, перемещения участников группы и выбора групп.</span><span class="sxs-lookup"><span data-stu-id="523f9-104">Contains cells for a group that control how you add shapes to a group, move members of a group, and select groups.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="e6341-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="e6341-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="523f9-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="523f9-105">Remarks</span></span>
 
-<span data-ttu-id="e6341-106">Вы также можете задать эти значения на вкладке **поведение** в диалоговом окне **поведение** (нажмите **поведение** в группе **Макет фигуры** на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) ).</span><span class="sxs-lookup"><span data-stu-id="e6341-106">You can also set these values on the **Behavior** tab in the **Behavior** dialog box (click **Behavior** in the **Shape Design** group on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab).</span></span> 
+<span data-ttu-id="523f9-106">Вы также можете задать эти значения на вкладке **поведение** в диалоговом окне **поведение** (нажмите **поведение** в группе **Макет фигуры** на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) ).</span><span class="sxs-lookup"><span data-stu-id="523f9-106">You can also set these values on the **Behavior** tab in the **Behavior** dialog box (click **Behavior** in the **Shape Design** group on the [Developer](run-in-developer-mode-display-the-developer-tab.md) tab).</span></span> 
   
 
