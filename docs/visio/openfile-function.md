@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ff59ab04-a589-cf9e-db3b-20658a7dffdc
 description: Открывает документ Microsoft Visio, если он еще не открыт, и активирует окно документа.
 ms.openlocfilehash: 5a89a658e560d144007ec19796de82b9949bea82
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360958"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419578"
 ---
 # <a name="openfile-function"></a>Функция OPENFILE
 

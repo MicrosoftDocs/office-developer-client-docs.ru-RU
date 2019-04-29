@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 04a0ba9f-48dd-488f-9c87-3890a12adf89
 description: Содержит координаты x и y первой вершины фигуры или координаты x и y первой вершины после разрыва в контуре, относительно высоты и ширины фигуры (относительно высоты и ширины).
 ms.openlocfilehash: 488945dbeeea177514770da57b5f26ac947053a3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319924"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414202"
 ---
 # <a name="relmoveto-row-geometry-section"></a>RelMoveTo Row (Geometry Section)
 
@@ -28,7 +28,7 @@ ms.locfileid: "32319924"
 |[X](x-cell-geometry-section.md) <br/> |Если строка **строка relmoveto** является первой строкой раздела, то ячейка x представляет координату *x* первой вершины фигуры относительно ширины фигуры. Если строка **строка relmoveto** находится между двумя строками, ячейка x представляет координату *x* первой вершины после разрыва в пути.  <br/> |
 |[Y (да)](y-cell-geometry-section.md) <br/> |Если строка **строка relmoveto** является первой строкой раздела, то ячейка y представляет координату *y* первой вершины фигуры. Если строка **строка relmoveto** находится между двумя строками, ячейка y представляет координату *y* первой вершины после разрыва в пути.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Значения в строке **строка relmoveto** эквивалентны значениям в строке [MoveTo](moveto-row-geometry-section.md) , умноженной на ширину и высоту фигуры. Например: строка **строка relmoveto** , где значение ячейки **x** — "0", а значение ячейки **Y** — "0,5", которое может быть заменено строкой **MoveTo** , где значение ячейки **X** — формула "Width*0", а ячейка **Y** — Формула "Height*0,5". 
   

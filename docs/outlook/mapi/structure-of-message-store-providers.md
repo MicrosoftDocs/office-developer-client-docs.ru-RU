@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 064b2fc1-e690-43e6-95d3-a61438115de5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: eda62a4cd31e0de695d52391a6717e7a0f5ea581
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327210"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426424"
 ---
 # <a name="structure-of-message-store-providers"></a>Структура поставщиков хранилищ сообщений
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Поставщик хранилища сообщений (при его запуске в памяти) является интерфейсом [функцииimsprovider: IUnknown](imsprovideriunknown.md) . Интерфейс **функцииimsprovider** позволяет клиентским приложениям и диспетчеру очереди MAPI выполнять вход и выход из хранилища сообщений. Интерфейсы, которые используются клиентскими приложениями и диспетчером очереди MAPI для доступа к папкам и сообщениям в хранилище сообщений, являются интерфейсами [имслогон](imslogoniunknown.md) и [IMsgStore](imsgstoreimapiprop.md) . Эти интерфейсы обычно создаются при первом входе в банк сообщений, хотя точка входа [мспровидеринит](msproviderinit.md) в DLL хранилища сообщений может также создать их. 
   

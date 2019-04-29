@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 8c59abaf-d2cc-94c9-08ba-004bc40efd9e
 description: Определяет, включены ли в стиль свойства текста.
 ms.openlocfilehash: 3f1d87316955b4e6e40cea16634cff7645a720fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328919"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419263"
 ---
 # <a name="enabletextprops-cell-style-properties-section"></a>EnableTextProps Cell (Style Properties Section)
 
 Определяет, включены ли в стиль свойства текста.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Включить свойства текста.  <br/> |
 |FALSE  <br/> |Исключите свойства текста.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку EnableTextProps по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

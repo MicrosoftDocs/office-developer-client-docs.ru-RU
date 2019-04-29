@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 9641a5a2-af6a-4999-b42b-5e9a004b47fc
 description: Указывает, следует ли использовать безопасную проверку пароля (SPA) для общего почтового ящика в Интернете.
 ms.openlocfilehash: b20bba4866ba61c66d6c79ee53ca2fe225f6d433
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326539"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413516"
 ---
 # <a name="propinetusespa"></a>PROP_INET_USE_SPA
 
@@ -27,7 +27,7 @@ ms.locfileid: "32326539"
 |Тег свойства:  <br/> |0x01080003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Нулевое значение означает, что не следует использовать SPA, в противном случае использовать SPA.
   

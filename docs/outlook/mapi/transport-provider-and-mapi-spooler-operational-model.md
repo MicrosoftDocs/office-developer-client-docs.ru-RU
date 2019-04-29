@@ -9,17 +9,17 @@ api_type:
 ms.assetid: b0f8d8f0-fed7-4a7c-bc40-e935f159591d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 5987111844f087801c63989b905992900ff6909c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356611"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426627"
 ---
 # <a name="transport-provider-and-mapi-spooler-operational-model"></a>Модель поставщика транспорта и очереди печати MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Инициализация, запуск, обработка, завершение работы и деинициализация поставщика транспорта выполняются с помощью ряда вызовов от диспетчера очереди MAPI к поставщику транспорта. Звонки упорядочены следующим образом:
   

@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 855292b8-028e-4c1e-87ed-3f20b9ba584a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3c95f6a1d4d50dd6552c6e786d17c40da14f3f3c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351487"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419109"
 ---
 # <a name="mapi-form-servers"></a>Серверы форм MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 С точки зрения пользователя форма обычно является листом свойств для сообщения или формы ввода данных, позволяющей пользователям вводить структурированную информацию. Тем не менее, это может быть любой пользовательский интерфейс, связанный с классом сообщений. С точки зрения программиста, форма состоит из следующих элементов:
   

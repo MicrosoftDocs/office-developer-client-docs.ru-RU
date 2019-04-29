@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 75601a1e-6b1a-27ee-a2bd-69e569315982
 description: Содержит строки, в которых перечислены координаты вершин для линий и дуг, составляющих фигуру.
 ms.openlocfilehash: 32a815015c7d1764399215767b674668b7235832
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345117"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423911"
 ---
 # <a name="geometry-section"></a>Geometry Section
 
@@ -22,7 +22,7 @@ ms.locfileid: "32345117"
   
 Геометрия фигуры может быть выражена в нескольких разделах **геометрии** . Несколько путей удобно использовать, если несколько путей имеют различные свойства (например, [обтравочные](clippingpath-cell-foreign-image-info-section.md) контуры изображений). 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Раздел " **геометрия** " содержит следующие типы строк. Дополнительные сведения см. 
   

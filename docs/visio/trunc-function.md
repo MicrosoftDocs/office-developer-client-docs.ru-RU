@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 62f074ef-5bf8-df1e-d826-fc1027a36501
 description: Возвращает число, которое усекается до указанного количества цифр.
 ms.openlocfilehash: 5b2138ff3091f70313344d5b38d8225d572d8e70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335177"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426501"
 ---
 # <a name="trunc-function"></a>Функция TRUNC
 
@@ -35,7 +35,7 @@ ms.locfileid: "32335177"
 
 Числовых.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если _нумберофдигитс_ больше 0, _число_ усекается до _нумберофдигитс_ справа от десятичного разделителя. Если _нумберофдигитс_ имеет значение 0, _число_ усекается до целого. Если _нумберофдигитс_ меньше 0, _число_ усекается до _нумберофдигитс_ слева от десятичного разделителя. 
   
@@ -45,13 +45,13 @@ ms.locfileid: "32335177"
   
 Возвращает 123,65.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 ОТБР (123.654, 0)
   
 Возвращает 123.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 ОТБР (123.654,-1)
   

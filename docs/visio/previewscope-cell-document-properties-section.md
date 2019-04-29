@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d03ae1b3-da6c-56d3-4f96-6e131c04e93e
 description: Определяет, содержит ли документ предварительный просмотр. Если в документе есть предварительный просмотр, он определяет, отображается ли в предварительном просмотре только первая страница или все страницы документа.
 ms.openlocfilehash: 34dbc9ac02032b2cb5cb6373c3c6361e3d822312
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356114"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426508"
 ---
 # <a name="previewscope-cell-document-properties-section"></a>PreviewScope Cell (Document Properties Section)
 

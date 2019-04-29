@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 524278fb-196e-9cf9-e27b-d03642beeee4
 description: Возвращает угол между вектором, представленным x, y и направлением оси x. Результатом является число в текущей единице измерения для углов.
 ms.openlocfilehash: 906c024f2a78d6e11c1bbf770c14d04299cadca8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341484"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436484"
 ---
 # <a name="atan2-function"></a>Функция ATAN2
 
@@ -31,7 +31,7 @@ ATAN2 (* * *y* * *, * * *x* * *)
 | _y_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Значение _y_точки.  <br/> |
 | _x_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Значение _x_точки.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Арктангенс — это угол, который измеряется против положительной оси *x* в строку, пересекающую начало координат (0, 0), и точку, представленную *x* и *y* . В Microsoft Visio ATAN2 (0, 0) возвращает значение 0. Чтобы принудительно применить результат ATAN2 к другому измерению в угловом измерении, используйте функцию град или RAD. 
   
@@ -43,13 +43,13 @@ ATAN2 (1,25, 2,25)
   
 Возвращает 29,0456 град
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 ATAN2 (1, SQRT (3))
   
 Возвращает 30 градусов
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 ATAN2 (1, 1)
   

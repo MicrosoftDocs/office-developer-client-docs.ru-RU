@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e1d86df1-3712-39cc-ad63-4c41f81a8f9d
 description: Возвращает общее число контейнеров, включающих фигуру в качестве элемента (включая вложенные отношения).
 ms.openlocfilehash: 377ba8590cbe987a1c1ecc2e7d51fbd7dc027f5a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282987"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419137"
 ---
 # <a name="containercount-function"></a>Функция CONTAINERCOUNT
 

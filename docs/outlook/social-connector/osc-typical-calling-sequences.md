@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f61960f7-e018-4d2e-8e32-426ed46d9064
 description: В этом разделе описываются типичные последовательности вызовов для Outlook Social Connector (OSC), которые входят в интерфейсы расширения поставщика OSC, реализуемые поставщиком OSC.
 ms.openlocfilehash: f7829b710d6840ccd1fa0f990d6e03b2eb879431
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356268"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413614"
 ---
 # <a name="osc-typical-calling-sequences"></a>Типичные последовательности вызовов OSC
 
@@ -25,7 +25,7 @@ ms.locfileid: "32356268"
     
 - Тип проверки подлинности (например, проверка подлинности на основе форм), который должен использоваться OSC.
     
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 
 - [Обычная проверка](basic-authentication.md)подлинности: описание типичной последовательности вызовов OSC для поддержки пользователя Office, который выполняет вход в социальной сети, если поставщик OSC поддерживает обычную проверку подлинности.
     

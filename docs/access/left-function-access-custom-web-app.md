@@ -8,18 +8,18 @@ localization_priority: Normal
 ms.assetid: d2c726a3-29b2-491b-9c14-b4523f7f08f2
 description: Возвращает левую часть строки символов с указанным количеством символов.
 ms.openlocfilehash: 6a2ba6f43701552a2dba2b983f405d4f3d898bad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311104"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424170"
 ---
 # <a name="left-function-access-custom-web-app"></a>Функция Left (пользовательское веб-приложение для Access)
 
 Возвращает левую часть строки символов с указанным количеством символов.
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 

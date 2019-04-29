@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d423f7b5-23b8-44dd-bca3-6590182dc42d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: db1c23f33e604d6aafdd8a046566c7390c281ad8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339223"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414279"
 ---
 # <a name="iaddrbookpreparerecips"></a>IAddrBook::PrepareRecips
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ПодГотавливает список получателей для последующего использования системой обмена сообщениями. 
   
@@ -59,7 +59,7 @@ S_OK
   
 > Список получателей был успешно подготовлен.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Клиенты и поставщики услуг вызывают метод **препаререЦипс** для выполнения следующих действий: 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 87ea5e8f-c3e0-009f-4bf8-8c34fbdb83a6
 description: Получает текст из фигуры.
 ms.openlocfilehash: bb9b1fbe5900cd051828ed6c7ff07546567c1b23
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349114"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419347"
 ---
 # <a name="shapetext-function"></a>Функция SHAPETEXT
 
@@ -33,7 +33,7 @@ SHAPETEXT (* * *шапенаме! TheText* * * * * *[, флаг]* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
 ## <a name="remarks"></a>Примечания
 
@@ -46,7 +46,7 @@ SHAPETEXT (* * *шапенаме! TheText* * * * * *[, флаг]* * *)
 |2  <br/> |Не включайте развернутый текст в поля.  <br/> |
 |SP4  <br/> |Преобразование вкладок в один пробел.  <br/> |
 |8,5  <br/> |Преобразование вкладок в набор пробелов.  <br/> |
-|столбцов  <br/> |Преобразование символов возврата каретки и перевода строки в пробелы.  <br/> |
+|16   <br/> |Преобразование символов возврата каретки и перевода строки в пробелы.  <br/> |
 |32  <br/> |ПреОбразуйте типографские кавычки в обычные кавычки.  <br/> |
 |64  <br/> |ПреОбразуйте соседние пробелы в один пробел.  <br/> |
    
@@ -56,13 +56,13 @@ SHAPETEXT (Шитн! theText)
   
 Возвращает текст фигуры с именем Шитн, точно так же, как показано в фигуре.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 SHAPETEXT (theText)
   
 Возвращает текст текущей фигуры точно так же, как показано в фигуре.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 SHAPETEXT (theText, 84)
   

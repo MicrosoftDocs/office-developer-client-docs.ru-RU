@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 23329ca3-89f9-4e5a-9c8a-6262f2a2d26f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: cee99b93d41ac8cd4a3dee18cad6cd4ab01cabe3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335284"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418920"
 ---
 # <a name="pidtagacknowledgementmode-canonical-property"></a>Каноническое свойство PidTagAcknowledgementMode
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор режима подтверждения сообщений.
   
@@ -32,13 +32,13 @@ ms.locfileid: "32335284"
 |Связанные свойства:  <br/> |ПР_АККНОВЛЕДЖЕМЕНТ_МОДЕ  <br/> |
 |Идентификатор:  <br/> |0x0001  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Exchange  <br/> |
+|Область:  <br/> |Exchange;  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство может иметь только одно из следующих значений:
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |нуль  <br/> |Подтверждение вручную.  <br/> |
 |1,1  <br/> |Автоматическое подтверждение.  <br/> |

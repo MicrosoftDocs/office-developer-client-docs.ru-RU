@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2416b323-e084-18e1-c9be-a797078dfab9
 description: Представляет положение фигуры по оси X в локальной системе координат. В этой таблице описывается ячейка X с учетом столбца, в котором она расположена.
 ms.openlocfilehash: 6554000a86a6bf27d343a5647161bbe416725e64
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285114"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423946"
 ---
 # <a name="x-cell-geometry-section"></a>Ячейка X (раздел "Геометрия")
 

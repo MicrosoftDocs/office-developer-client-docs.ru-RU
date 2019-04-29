@@ -7,18 +7,18 @@ localization_priority: Normal
 ms.assetid: d931535b-428f-4300-93bf-cfe0ebcc2ac9
 description: Возвращает количество записей в запросе или таблице.
 ms.openlocfilehash: 98dbed393bf2f6dc401119f6c5dc7ab6b5ff7864
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282238"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419144"
 ---
 # <a name="count-function-access-custom-web-app"></a>Функция счёт (пользовательское веб-приложение для Access)
 
 Возвращает количество записей в запросе или таблице.
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 

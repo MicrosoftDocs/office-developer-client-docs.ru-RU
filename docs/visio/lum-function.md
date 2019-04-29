@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 38e6bba7-1bf2-3d31-0912-707002454f5d
 description: Возвращает значение компонента яркости цвета.
 ms.openlocfilehash: 17fa43f8e2cd7422428f92724e351436233c2d62
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357983"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419340"
 ---
 # <a name="lum-function"></a>Функция LUM
 
@@ -32,7 +32,7 @@ ms.locfileid: "32357983"
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Номер
+Число
   
 ## <a name="remarks"></a>Примечания
 
@@ -44,13 +44,13 @@ ms.locfileid: "32357983"
   
 Возвращает яркость листа. 4's заливки текста.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 ЯРКОСТЬ (6)
   
 Возвращает 120, если документ использует цветовую палитру Visio по умолчанию, где пурпурный — цвет с индексом 6.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 ЯРКОСТЬ (HSL (10, 20, 30))
   

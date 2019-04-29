@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 7a0ccad3-f497-4871-b733-771e6cb8ef6a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 74eae4a4ed742c3bb90496f5975ad7dac6ff798f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360839"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419256"
 ---
 # <a name="pidtagdetailstable-canonical-property"></a>Каноническое свойство PidTagDetailsTable
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит внедренный объект таблицы отображения.
   

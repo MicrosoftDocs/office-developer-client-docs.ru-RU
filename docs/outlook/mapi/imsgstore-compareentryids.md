@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 33d70748-0d3f-4be4-bcb5-7ec048887944
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2a2439bae79b497f018391983e2c4b03a35eee70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348792"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424254"
 ---
 # <a name="imsgstorecompareentryids"></a>IMsgStore::CompareEntryIDs
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Сравнивает два идентификатора записи, чтобы определить, ссылаются ли они на одну и ту же запись в хранилище сообщений. MAPI передает этот вызов поставщику услуг, только если уникальные идентификаторы (UID) в обоих идентификаторах записей будут обрабатываться этим поставщиком.
   

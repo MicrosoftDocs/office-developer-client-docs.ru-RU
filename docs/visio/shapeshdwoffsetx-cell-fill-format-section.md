@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a426f471-d35f-ef87-4c59-2c007ec2653f
 description: Определяет расстояние смещения тени фигуры по горизонтали относительно фигуры в единицах страницы.
 ms.openlocfilehash: 5c3f994f0ceba84c86585a76c7a67667a0c20a53
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349128"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426487"
 ---
 # <a name="shapeshdwoffsetx-cell-fill-format-section"></a>ShapeShdwOffsetX Cell (Fill Format Section)
 

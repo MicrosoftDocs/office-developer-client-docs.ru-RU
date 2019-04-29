@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 544c87e5-887d-82ec-bf1a-0d95027fe0ec
 ms.openlocfilehash: 5657aeb5f710281a1dcb482b3ebf15049e085b11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322003"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413656"
 ---
 # <a name="iolkaccountmanager"></a>IOlkAccountManager
 
@@ -24,7 +24,7 @@ ms.locfileid: "32322003"
 |Наследование от:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
 |Предоставлено:  <br/> |Клсид_олкаккаунтманажер  <br/> |
-|Вызывающая сторона:  <br/> |Клиент  <br/> |
+|Вызывающая сторона:  <br/> |Client  <br/> |
 |Идентификатор интерфейса:  <br/> |Иид_иолкаккаунтманажер  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable

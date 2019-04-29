@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f6b7ff0c-19a0-4cad-8868-c05397fcebf4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6f78609537b85a89617e7b2fa8f30a4ba952805b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340938"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414811"
 ---
 # <a name="pidtagoriginatingmtacertificate-canonical-property"></a>Каноническое свойство PidTagOriginatingMtaCertificate
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор агента передачи сообщений (MTA), отправившего сообщение.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32340938"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство, если задано, доступно для отправленных сообщений в папке "Отправленные".
   

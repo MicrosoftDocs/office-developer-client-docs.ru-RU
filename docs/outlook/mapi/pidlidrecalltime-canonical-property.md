@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 65aed75f-7e4e-4de9-b219-64dde8891a79
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d4038e3ecd1b4e5283e071305a316db014aacfd6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360088"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414167"
 ---
 # <a name="pidlidrecalltime-canonical-property"></a>Каноническое свойство PidLidRecallTime
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает время инициирования отзыва сообщения.
   

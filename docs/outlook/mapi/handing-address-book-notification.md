@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 0dc4bb48-c8a1-447f-9e38-1c234a358fca
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 122e50328272a4009e5a129233d449613817dfc8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299505"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413537"
 ---
 # <a name="handing-address-book-notification"></a>Обработка уведомления об адресной книге
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Уведомления в адресной книге позволяют клиенту получать сведения о событиях, происходящих с любой записью адресной книги или конкретной записи. Вы можете зарегистрироваться для получения этих уведомлений либо через адресную книгу MAPI, вызвав [IAddrBook:: Advise](iaddrbook-advise.md) или через иерархию или таблицу содержимого контейнера адресной книги, вызывая метод [IMAPITable:: Advise](imapitable-advise.md). 
   

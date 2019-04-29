@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d48bd537-c562-4deb-8a4c-011208991054
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2d4100d9bcd1b086747d742d9636c4bf7a39f50b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321374"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419459"
 ---
 # <a name="imapimessagesitegetformmanager"></a>IMAPIMessageSite::GetFormManager
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает интерфейс диспетчера форм, который сервер форм может использовать для открытия другого сервера форм.
   
@@ -45,7 +45,7 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).
   

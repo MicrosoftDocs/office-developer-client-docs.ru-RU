@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0a2fb371-90ea-41dc-b2ab-051cf790e85a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 6a6f8f9d675bee362b4a9f1c5b7fc544fa66d7b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328793"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419606"
 ---
 # <a name="imapiviewadvisesinkonnewmessage"></a>IMAPIViewAdviseSink::OnNewMessage
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Уведомляет средство просмотра форм о том, что в форме загружено новое или существующее сообщение.
   
@@ -41,7 +41,7 @@ S_OK
   
 > Уведомление успешно установлено.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Объекты формы вызывают метод **имапивиевадвисесинк:: онневмессаже** при каждом загрузке сообщения в форме с помощью метода [Иперсистмессаже:: инитнев](ipersistmessage-initnew.md) или [иперсистмессаже:: Load](ipersistmessage-load.md) . 
   

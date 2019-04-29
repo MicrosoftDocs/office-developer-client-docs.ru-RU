@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8cac444b-0e81-44ff-a7a0-87793b533e26
 description: Выполняет вход на сайт социальных сетей с помощью кэшированных учетных данных.
 ms.openlocfilehash: b79c692c01022dd10ecb8d4085f0aedb28a810c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336507"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436624"
 ---
 # <a name="isocialsession2logoncached"></a>ISocialSession2::LogonCached
 
@@ -33,7 +33,7 @@ _userName_
   
 > возврата Строка, содержащая имя пользователя.
     
-_Ввод_
+_password_
   
 > возврата Строка, содержащая пароль пользователя.
     
@@ -41,7 +41,7 @@ _подключение_
   
 > вышли Непрозрачная строка, содержащая учетные данные.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Этот метод вызывается для проверки подлинности только в том случае, если для **уселогонкачед** задано **значение true** в XML-коде **возможностей** , возвращаемом [исоЦиалпровидер::-Capabilities](isocialprovider-getcapabilities.md).
   

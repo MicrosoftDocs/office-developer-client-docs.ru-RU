@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3e3f8dc9-203f-447d-9674-eb0be2d557d1
 description: Пересчитывает прямоугольник выделения при перемещении управляющего маркера.
 ms.openlocfilehash: 3b9d46b48002b6b3b1729df014fb0627a9c7f152
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327337"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414797"
 ---
 # <a name="updatealignbox-cell-miscellaneous-section"></a>UpdateAlignBox Cell (Miscellaneous Section)
 
 Пересчитывает прямоугольник выделения при перемещении управляющего маркера.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку UpdateAlignBox по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

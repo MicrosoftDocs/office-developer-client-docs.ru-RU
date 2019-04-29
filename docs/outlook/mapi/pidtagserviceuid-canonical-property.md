@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 9d99a3b6-d0b4-4e8a-8f08-f46fdeb6b3e7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d5c6e1dc30c3ee7862341bce204b4a78bd6d379b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359446"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426529"
 ---
 # <a name="pidtagserviceuid-canonical-property"></a>Каноническое свойство PidTagServiceUid
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит структуру [мапиуид](mapiuid.md) для службы сообщений. 
   

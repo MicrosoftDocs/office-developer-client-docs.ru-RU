@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 02c66b46-1f01-43fb-832c-bac27aaae19f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e0cdcb92238dd4dffbcd6514e698e5511b05bf45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360496"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419613"
 ---
 # <a name="ulvalidateparms"></a>UlValidateParms
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Вызывает внутреннюю функцию для проверки параметров клиентские приложения, которые передаются поставщикам услуг и MAPI. 
   

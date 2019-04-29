@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: 551166d0-3aaa-0fd7-e742-cf3450ba90ed
 description: Указывает тип тени по умолчанию для страницы.
 ms.openlocfilehash: f1fc72484d94788ca2798760ca935c89c3e841ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342891"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424100"
 ---
 # <a name="shdwtype-cell-page-properties-section"></a>ShdwType Cell (Page Properties Section)
 
 Указывает тип тени по умолчанию для страницы.
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | 1,1  <br/> | Simple (Простая)  <br/> |**Висфстсимпле** <br/> |
 | 2  <br/> | Наклон  <br/> |**Висфстобликуе** <br/> |
 |4  <br/> |Inner  <br/> |**Висфстиннер** <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
  Тип Shadow, описанный в этой ячейке, используется всякий раз, когда ячейка ShapeShdwType (тип тени для отдельной фигуры на странице) имеет значение Default страницы (**висфстпажедефаулт** ). 
   

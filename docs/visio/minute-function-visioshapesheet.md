@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5a90cb16-7eef-8876-8e25-408787b16f58
 description: Возвращает целое число от 0 до 59, представляющее компонент минут в значении DateTime или Expression.
 ms.openlocfilehash: 35fe1dc8d4026dd6c829a38504d9ba82d64edda2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283974"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436568"
 ---
 # <a name="minute-function-visioshapesheet"></a>MINUTE Function (VisioShapeSheet)
 
@@ -52,13 +52,13 @@ ms.locfileid: "32283974"
   
 Возвращает 45.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 МИНУТа (TIMEVALUE ("Янв. 25, 1999 12:07:45") + 6 EM.)
   
 Возвращает 13.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 МИНУТА (0.575)
   

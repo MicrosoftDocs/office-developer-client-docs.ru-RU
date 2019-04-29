@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ffe48267-d6c7-c1d0-9298-272b31fd8102
 description: Возвращает или задает отображаемое имя пользователя.
 ms.openlocfilehash: 2fb42a6f6ae9a72bc31c103af6314fcfd098439c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328247"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419473"
 ---
 # <a name="propacctuserdisplayname"></a>PROP_ACCT_USER_DISPLAY_NAME
 
@@ -29,7 +29,7 @@ ms.locfileid: "32328247"
 |Тег свойства:  <br/> |0x000B001F  <br/> |
 |Обращения  <br/> |Чтение и запись  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Получите или задайте значение этого свойства с помощью [иолкаккаунт::](iolkaccount-getprop.md) GetProperty или [Иолкаккаунт:: сетпроп](iolkaccount-setprop.md), соответственно.
   

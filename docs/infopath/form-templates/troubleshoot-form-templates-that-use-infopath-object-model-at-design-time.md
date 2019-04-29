@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 4179b235-e21d-4c37-ae2b-ad01388296ec
 description: В следующих разделах описываются распространенные сценарии устранения неполадок, которые могут встретиться при разработке и отладке шаблонов форм с управляемым кодом, использующих объектную модель, совместимую с InfoPath 2003, которая предоставляется пространством имен Microsoft.Office.Interop.InfoPath.SemiTrust.
 ms.openlocfilehash: 106f12602bae86d85c2a7d2f920f59d50326c908
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303474"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436526"
 ---
 # <a name="troubleshoot-form-templates-that-use-the-infopath-object-model-at-design-time"></a>Устранение неполадок шаблонов форм, использующих объектную модель InfoPath, на этапе создания
 

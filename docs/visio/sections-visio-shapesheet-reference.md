@@ -7,15 +7,15 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 982ed30a-bdf3-4c1a-9788-43b5933ff631
 ms.openlocfilehash: dbfb770b86f768bf4860c7298f27b7b79413fd5a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326035"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419228"
 ---
 # <a name="sections-visio-shapesheet-reference"></a>Разделы (Справочник по таблице свойств фигур Visio)
 
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 
 - [1-D Endpoints Section](1-d-endpoints-section.md)
     

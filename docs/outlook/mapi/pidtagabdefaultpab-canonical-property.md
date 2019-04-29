@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 3f6ce4ba-aebe-4b89-87ba-35568a4414d4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8406df2df40a12f039f4108a849700199eb77319
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315801"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419158"
 ---
 # <a name="pidtagabdefaultpab-canonical-property"></a>Каноническое свойство PidTagAbDefaultPab
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор контейнера адресной книги, который будет использоваться в качестве личной адресной книги (PAB). 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32315801"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Адресная книга  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Не используйте это свойство. Оно зарезервировано для использования MAPI.
   
