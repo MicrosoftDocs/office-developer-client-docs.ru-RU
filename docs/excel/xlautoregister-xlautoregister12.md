@@ -10,55 +10,55 @@ keywords:
 - Функция xlAutoRegister [Excel 2007]
 localization_priority: Normal
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f043558f3f642001e9ba11ee5b18a2721c3dddfb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303950"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421167"
 ---
-# <a name="xlautoregisterxlautoregister12"></a><span data-ttu-id="3896a-104">xlAutoRegister/xlAutoRegister12</span><span class="sxs-lookup"><span data-stu-id="3896a-104">xlAutoRegister/xlAutoRegister12</span></span>
+# <a name="xlautoregisterxlautoregister12"></a><span data-ttu-id="9af14-104">xlAutoRegister/xlAutoRegister12</span><span class="sxs-lookup"><span data-stu-id="9af14-104">xlAutoRegister/xlAutoRegister12</span></span>
 
- <span data-ttu-id="3896a-105">**Относится к**: Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="3896a-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="9af14-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="9af14-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="3896a-106">Excel вызывает [функцию xlAutoRegister](xlautoregister-xlautoregister12.md) при каждом вызове в **регистре**функции XLM или В эквивалентной функции C API [xlfRegister](xlfregister-form-1.md)с типами возвращаемых значения и аргументов функции, которую вы зарегистрировали.</span><span class="sxs-lookup"><span data-stu-id="3896a-106">Excel calls the [xlAutoRegister function](xlautoregister-xlautoregister12.md) whenever a call has been made to the XLM function **REGISTER**, or the C API equivalent [xlfRegister function](xlfregister-form-1.md), with the return and argument types of the function being registered missing.</span></span> <span data-ttu-id="3896a-107">Он позволяет XLL выполнить поиск по внутренним спискам экспортированных функций и команд, чтобы зарегистрировать функцию с указанными аргументами и возвращаемыми типами.</span><span class="sxs-lookup"><span data-stu-id="3896a-107">It allows the XLL to search its internal lists of exported functions and commands to register the function with the argument and return types specified.</span></span>
+<span data-ttu-id="9af14-106">Excel вызывает [функцию xlAutoRegister](xlautoregister-xlautoregister12.md) при каждом вызове в **регистре**функции XLM или В эквивалентной функции C API [xlfRegister](xlfregister-form-1.md)с типами возвращаемых значения и аргументов функции, которую вы зарегистрировали.</span><span class="sxs-lookup"><span data-stu-id="9af14-106">Excel calls the [xlAutoRegister function](xlautoregister-xlautoregister12.md) whenever a call has been made to the XLM function **REGISTER**, or the C API equivalent [xlfRegister function](xlfregister-form-1.md), with the return and argument types of the function being registered missing.</span></span> <span data-ttu-id="9af14-107">Он позволяет XLL выполнить поиск по внутренним спискам экспортированных функций и команд, чтобы зарегистрировать функцию с указанными аргументами и возвращаемыми типами.</span><span class="sxs-lookup"><span data-stu-id="9af14-107">It allows the XLL to search its internal lists of exported functions and commands to register the function with the argument and return types specified.</span></span>
   
-<span data-ttu-id="3896a-108">Начиная с Excel 2007, Excel вызывает функцию **xlAutoRegister12** в предпочтение функции **xlAutoRegister** , если она экспортируется XLL.</span><span class="sxs-lookup"><span data-stu-id="3896a-108">Starting in Excel 2007, Excel calls the **xlAutoRegister12** function in preference to the **xlAutoRegister** function if it is exported by the XLL.</span></span> 
+<span data-ttu-id="9af14-108">Начиная с Excel 2007, Excel вызывает функцию **xlAutoRegister12** в предпочтение функции **xlAutoRegister** , если она экспортируется XLL.</span><span class="sxs-lookup"><span data-stu-id="9af14-108">Starting in Excel 2007, Excel calls the **xlAutoRegister12** function in preference to the **xlAutoRegister** function if it is exported by the XLL.</span></span> 
   
-<span data-ttu-id="3896a-109">В Excel не требуется XLL для реализации и экспорта любой из этих функций.</span><span class="sxs-lookup"><span data-stu-id="3896a-109">Excel does not require an XLL to implement and export either of these functions.</span></span>
+<span data-ttu-id="9af14-109">В Excel не требуется XLL для реализации и экспорта любой из этих функций.</span><span class="sxs-lookup"><span data-stu-id="9af14-109">Excel does not require an XLL to implement and export either of these functions.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="3896a-110">Если **xlAutoRegister**/ **xlAutoRegister12** пытается зарегистрировать функцию, не предоставляя аргументы и типы возвращаемых данных, вызывается рекурсивный цикл вызова, который в конечном итоге переполняет стек вызовов и завершает работу Excel.</span><span class="sxs-lookup"><span data-stu-id="3896a-110">If **xlAutoRegister**/ **xlAutoRegister12** tries to register the function without supplying the argument and return types, a recursive calling loop occurs which eventually overflows the call stack and crashes Excel.</span></span> 
+> <span data-ttu-id="9af14-110">Если **xlAutoRegister**/ **xlAutoRegister12** пытается зарегистрировать функцию, не предоставляя аргументы и типы возвращаемых данных, вызывается рекурсивный цикл вызова, который в конечном итоге переполняет стек вызовов и завершает работу Excel.</span><span class="sxs-lookup"><span data-stu-id="9af14-110">If **xlAutoRegister**/ **xlAutoRegister12** tries to register the function without supplying the argument and return types, a recursive calling loop occurs which eventually overflows the call stack and crashes Excel.</span></span> 
   
 ```cs
 LPXLOPER12 WINAPI xlAutoRegister12(LPXLOPER12 pxName);
 LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3896a-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="3896a-111">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9af14-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="9af14-111">Parameters</span></span>
 
- <span data-ttu-id="3896a-112">_пкснаме_ (**кслтипестр**)</span><span class="sxs-lookup"><span data-stu-id="3896a-112">_pxName_ (**xltypeStr**)</span></span>
+ <span data-ttu-id="9af14-112">_пкснаме_ (**кслтипестр**)</span><span class="sxs-lookup"><span data-stu-id="9af14-112">_pxName_ (**xltypeStr**)</span></span>
   
-<span data-ttu-id="3896a-113">Имя регистрируемой функции XLL.</span><span class="sxs-lookup"><span data-stu-id="3896a-113">The name of the XLL function that is being registered.</span></span>
+<span data-ttu-id="9af14-113">Имя регистрируемой функции XLL.</span><span class="sxs-lookup"><span data-stu-id="9af14-113">The name of the XLL function that is being registered.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="3896a-114">Значение свойства и возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3896a-114">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="9af14-114">Значение свойства и возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9af14-114">Property value/Return value</span></span>
 
-<span data-ttu-id="3896a-115">Функция должна возвращать результат попытки зарегистрировать функцию XLL _пкснаме_ с помощью функции **xlfRegister** .</span><span class="sxs-lookup"><span data-stu-id="3896a-115">The function should return the result of the attempt to register the XLL function  _pxName_ using the **xlfRegister** function.</span></span> <span data-ttu-id="3896a-116">Если указанная функция не является одним из экспортируемых компонентов XLL, она должна возвращать **#VALUE!**</span><span class="sxs-lookup"><span data-stu-id="3896a-116">If the specified function is not one of the XLL's exports, it should return the **#VALUE!**</span></span> <span data-ttu-id="3896a-117">ошибка или **значение NULL** , которое будет интерпретировано в приложении Excel на **#VALUE!**.</span><span class="sxs-lookup"><span data-stu-id="3896a-117">error, or **NULL** which Excel will interpret at **#VALUE!**.</span></span>
+<span data-ttu-id="9af14-115">Функция должна возвращать результат попытки зарегистрировать функцию XLL _пкснаме_ с помощью функции **xlfRegister** .</span><span class="sxs-lookup"><span data-stu-id="9af14-115">The function should return the result of the attempt to register the XLL function  _pxName_ using the **xlfRegister** function.</span></span> <span data-ttu-id="9af14-116">Если указанная функция не является одним из экспортируемых компонентов XLL, она должна возвращать **#VALUE!**</span><span class="sxs-lookup"><span data-stu-id="9af14-116">If the specified function is not one of the XLL's exports, it should return the **#VALUE!**</span></span> <span data-ttu-id="9af14-117">ошибка или **значение NULL** , которое будет интерпретировано в приложении Excel на **#VALUE!**.</span><span class="sxs-lookup"><span data-stu-id="9af14-117">error, or **NULL** which Excel will interpret at **#VALUE!**.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="3896a-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="3896a-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9af14-118">Примечания</span><span class="sxs-lookup"><span data-stu-id="9af14-118">Remarks</span></span>
 
-<span data-ttu-id="3896a-119">Ваша реализация **xlAutoRegister** должна выполнять поиск с учетом регистра, используя внутренние списки функций и команд, которые она экспортирует, в поисках сравнения с переданным именем.</span><span class="sxs-lookup"><span data-stu-id="3896a-119">Your implementation of **xlAutoRegister** should perform a case-insensitive search through your XLL's internal lists of the functions and commands it exports looking for a match with the passed-in name.</span></span> <span data-ttu-id="3896a-120">Если функция или команда найдена, **xlAutoRegister** должна попытаться зарегистрировать ее, используя функцию **xlfRegister** , убедившись, что строка, указывающая на Excel, возвращает типы возвращаемого значения и аргументы функции, а также любые другие необходимые сведения о функции.</span><span class="sxs-lookup"><span data-stu-id="3896a-120">If the function or command is found, **xlAutoRegister** should attempt to register it, using the **xlfRegister** function, making sure to provide the string that tells Excel the return and argument types of the function, as well as any other required information about the function.</span></span> <span data-ttu-id="3896a-121">Затем он должен вернуться в Excel, что бы возвращался вызов **xlfRegister** .</span><span class="sxs-lookup"><span data-stu-id="3896a-121">It should then return to Excel whatever the call to **xlfRegister** returned.</span></span> <span data-ttu-id="3896a-122">Если функция была зарегистрирована успешно, **xlfRegister** возвращает значение **КСЛТИПЕНУМ** , содержащее идентификатор регистра функции.</span><span class="sxs-lookup"><span data-stu-id="3896a-122">If the function was registered successfully, **xlfRegister** returns an **xltypeNum** value containing the Register ID of the function.</span></span> 
+<span data-ttu-id="9af14-119">Ваша реализация **xlAutoRegister** должна выполнять поиск с учетом регистра, используя внутренние списки функций и команд, которые она экспортирует, в поисках сравнения с переданным именем.</span><span class="sxs-lookup"><span data-stu-id="9af14-119">Your implementation of **xlAutoRegister** should perform a case-insensitive search through your XLL's internal lists of the functions and commands it exports looking for a match with the passed-in name.</span></span> <span data-ttu-id="9af14-120">Если функция или команда найдена, **xlAutoRegister** должна попытаться зарегистрировать ее, используя функцию **xlfRegister** , убедившись, что строка, указывающая на Excel, возвращает типы возвращаемого значения и аргументы функции, а также любые другие необходимые сведения о функции.</span><span class="sxs-lookup"><span data-stu-id="9af14-120">If the function or command is found, **xlAutoRegister** should attempt to register it, using the **xlfRegister** function, making sure to provide the string that tells Excel the return and argument types of the function, as well as any other required information about the function.</span></span> <span data-ttu-id="9af14-121">Затем он должен вернуться в Excel, что бы возвращался вызов **xlfRegister** .</span><span class="sxs-lookup"><span data-stu-id="9af14-121">It should then return to Excel whatever the call to **xlfRegister** returned.</span></span> <span data-ttu-id="9af14-122">Если функция была зарегистрирована успешно, **xlfRegister** возвращает значение **КСЛТИПЕНУМ** , содержащее идентификатор регистра функции.</span><span class="sxs-lookup"><span data-stu-id="9af14-122">If the function was registered successfully, **xlfRegister** returns an **xltypeNum** value containing the Register ID of the function.</span></span> 
   
-### <a name="example"></a><span data-ttu-id="3896a-123">Пример</span><span class="sxs-lookup"><span data-stu-id="3896a-123">Example</span></span>
+### <a name="example"></a><span data-ttu-id="9af14-123">Пример</span><span class="sxs-lookup"><span data-stu-id="9af14-123">Example</span></span>
 
-<span data-ttu-id="3896a-124">В этом файле `SAMPLES\EXAMPLE\EXAMPLE.C` представлен пример реализации этой функции.</span><span class="sxs-lookup"><span data-stu-id="3896a-124">See the file  `SAMPLES\EXAMPLE\EXAMPLE.C` for an example implementation of this function.</span></span> 
+<span data-ttu-id="9af14-124">В этом файле `SAMPLES\EXAMPLE\EXAMPLE.C` представлен пример реализации этой функции.</span><span class="sxs-lookup"><span data-stu-id="9af14-124">See the file  `SAMPLES\EXAMPLE\EXAMPLE.C` for an example implementation of this function.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="3896a-125">См. также</span><span class="sxs-lookup"><span data-stu-id="3896a-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9af14-125">См. также</span><span class="sxs-lookup"><span data-stu-id="9af14-125">See also</span></span>
 
 
 
-[<span data-ttu-id="3896a-126">РЕГИСТРАЦИЯ</span><span class="sxs-lookup"><span data-stu-id="3896a-126">REGISTER</span></span>](xlfregister-form-1.md)
+[<span data-ttu-id="9af14-126">РЕГИСТРАЦИЯ</span><span class="sxs-lookup"><span data-stu-id="9af14-126">REGISTER</span></span>](xlfregister-form-1.md)
   
-[<span data-ttu-id="3896a-127">Отмена регистрации</span><span class="sxs-lookup"><span data-stu-id="3896a-127">UNREGISTER</span></span>](xlfunregister-form-1.md)
+[<span data-ttu-id="9af14-127">Отмена регистрации</span><span class="sxs-lookup"><span data-stu-id="9af14-127">UNREGISTER</span></span>](xlfunregister-form-1.md)
 

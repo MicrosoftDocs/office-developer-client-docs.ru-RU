@@ -8,19 +8,19 @@ localization_priority: Normal
 ms.assetid: dcb526f8-1476-39da-cb07-42575db94320
 description: Этот элемент является заполнителем и не поддерживается.
 ms.openlocfilehash: b18d21bdd0d0d2c3a909a21906b18236f7575560
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319364"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437709"
 ---
-# <a name="ifreebusysupportplaceholder8"></a><span data-ttu-id="8992e-103">IFreeBusySupport::Placeholder8</span><span class="sxs-lookup"><span data-stu-id="8992e-103">IFreeBusySupport::Placeholder8</span></span>
+# <a name="ifreebusysupportplaceholder8"></a><span data-ttu-id="42c89-103">IFreeBusySupport::Placeholder8</span><span class="sxs-lookup"><span data-stu-id="42c89-103">IFreeBusySupport::Placeholder8</span></span>
 
-<span data-ttu-id="8992e-104">Этот элемент является заполнителем и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="8992e-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="42c89-104">Этот элемент является заполнителем и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="42c89-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="8992e-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="8992e-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="42c89-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="42c89-105">Quick info</span></span>
 
-<span data-ttu-id="8992e-106">Обратитесь к разделу [ифрибусисуппорт](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="8992e-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="42c89-106">Обратитесь к разделу [ифрибусисуппорт](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="42c89-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 HRESULT Placeholder8( 
@@ -29,16 +29,16 @@ BOOL
 );
 ```
 
-## <a name="return-values"></a><span data-ttu-id="8992e-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="8992e-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="42c89-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="42c89-107">Return values</span></span>
 
-<span data-ttu-id="8992e-108">Всегда значение E_NOTIMPL, так как этот член является заполнителем и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="8992e-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="42c89-108">Всегда значение E_NOTIMPL, так как этот член является заполнителем и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="42c89-108">Always E_NOTIMPL, because this member is a placeholder and is not supported.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8992e-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="8992e-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="42c89-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="42c89-109">Remarks</span></span>
 
-<span data-ttu-id="8992e-110">Этот элемент должен возвращать E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="8992e-110">This member must return E_NOTIMPL.</span></span>
+<span data-ttu-id="42c89-110">Этот элемент должен возвращать E_NOTIMPL.</span><span class="sxs-lookup"><span data-stu-id="42c89-110">This member must return E_NOTIMPL.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="8992e-111">См. также</span><span class="sxs-lookup"><span data-stu-id="8992e-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="42c89-111">См. также</span><span class="sxs-lookup"><span data-stu-id="42c89-111">See also</span></span>
 
-- [<span data-ttu-id="8992e-112">Константы (API сведений о доступности)</span><span class="sxs-lookup"><span data-stu-id="8992e-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
-- [<span data-ttu-id="8992e-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="8992e-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
+- [<span data-ttu-id="42c89-112">Константы (API сведений о доступности)</span><span class="sxs-lookup"><span data-stu-id="42c89-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
+- [<span data-ttu-id="42c89-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="42c89-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
 

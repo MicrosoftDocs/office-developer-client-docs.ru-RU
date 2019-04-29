@@ -8,25 +8,25 @@ localization_priority: Normal
 ms.assetid: 67c3bdd1-ffe3-4fed-ad7f-d47a2d646e21
 description: ''
 ms.openlocfilehash: 2ede918eb816a5b134db27a2bf25e511b3b01b04
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307856"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421692"
 ---
-# <a name="user-interface-commands-access-custom-web-app"></a><span data-ttu-id="92859-102">Команды пользовательского интерфейса (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="92859-102">User interface commands (Access custom web app)</span></span>
+# <a name="user-interface-commands-access-custom-web-app"></a><span data-ttu-id="45c46-102">Команды пользовательского интерфейса (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="45c46-102">User interface commands (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="92859-103">Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="92859-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="92859-104">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="92859-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="45c46-103">Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="45c46-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="45c46-104">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="45c46-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="92859-105">Содержание</span><span class="sxs-lookup"><span data-stu-id="92859-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="45c46-105">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="45c46-105">In this section</span></span>
 
-- [<span data-ttu-id="92859-106">Макрокоманда ChangeView (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="92859-106">ChangeView Macro Action (Access custom web app)</span></span>](changeview-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="45c46-106">Макрокоманда ChangeView (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="45c46-106">ChangeView Macro Action (Access custom web app)</span></span>](changeview-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="92859-107">Макрокоманда Клосепопуп (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="92859-107">ClosePopup Macro Action (Access custom web app)</span></span>](closepopup-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="45c46-107">Макрокоманда Клосепопуп (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="45c46-107">ClosePopup Macro Action (Access custom web app)</span></span>](closepopup-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="92859-108">Макрокоманда MessageBox (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="92859-108">MessageBox Macro Action (Access custom web app)</span></span>](messagebox-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="45c46-108">Макрокоманда MessageBox (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="45c46-108">MessageBox Macro Action (Access custom web app)</span></span>](messagebox-macro-action-access-custom-web-app.md)
     
-- [<span data-ttu-id="92859-109">Макрокоманда Опенпопуп (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="92859-109">OpenPopup Macro Action (Access custom web app)</span></span>](openpopup-macro-action-access-custom-web-app.md)
+- [<span data-ttu-id="45c46-109">Макрокоманда Опенпопуп (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="45c46-109">OpenPopup Macro Action (Access custom web app)</span></span>](openpopup-macro-action-access-custom-web-app.md)
     
 
