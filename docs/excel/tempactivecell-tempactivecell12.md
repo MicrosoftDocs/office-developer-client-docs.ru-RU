@@ -11,17 +11,17 @@ keywords:
 - Функция TempActiveCell12 [Excel 2007], функция Темпактивецелл [Excel 2007]
 localization_priority: Normal
 ms.assetid: ac5a200d-32d5-4313-9a6d-d730032aaf10
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f9bdb4cd9919d0e52654a3996ede99c4d1b35cc6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301577"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413194"
 ---
 # <a name="tempactivecelltempactivecell12"></a>TempActiveCell/TempActiveCell12
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Функции библиотеки Framework, которые создают временную структуру **XLOPER**/ **** , содержащую внешнюю ссылку на ячейку на активном листе. 
   

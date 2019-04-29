@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: f3a277ba-7ba1-4eea-83b5-915b409f3093
 description: Office для iOS предлагает расширяемое решение для интеграции с приложениями сторонних поставщиков. В этой статье описано, как интегрировать приложение для iOS и Office, перенаправляя пользователей из приложения в Office, а затем обратно.
 ms.openlocfilehash: d17a096c17eadab0cd94ee1dce18e979e80fa65d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299750"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413852"
 ---
 # <a name="integrate-with-office-from-ios-applications"></a>Интеграция приложений для iOS с Office
 

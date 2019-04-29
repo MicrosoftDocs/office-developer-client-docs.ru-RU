@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e6baaff1-446e-431a-a09b-9b529153382b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 5a8c288e877078ece6ab2da8c6494d96e1714ad7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328968"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419928"
 ---
 # <a name="imapisupportsubscribe"></a>IMAPISupport::Subscribe
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Регистрирует приемник уведомлений для получения уведомлений через MAPI.
   
@@ -105,7 +105,7 @@ S_OK
   
 > Успешная регистрация уведомления.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: Subscribe** реализован для всех объектов поддержки поставщика услуг. Поставщики услуг выполняют **подписку** на один из методов **advise** , чтобы разрешить MAPI управлять уведомлениями. 
   

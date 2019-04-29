@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 905cd1cc-14d3-5d37-89c4-f8461a03dda2
 description: Изменяет цвет, уменьшая яркость на указанный процент.
 ms.openlocfilehash: 207893552c7378589d4a648bf29ed88fcfd15224
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283712"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414496"
 ---
 # <a name="msoshade-function"></a>Функция MSOSHADE
 
@@ -34,7 +34,7 @@ MSOSHADE (* * *Color* * *, * * *-делталум* * *)
 | _color_ <br/> |Обязательный  <br/> |**RGB** <br/> |Стандартное значение цвета RGB (красный, зеленый, синий) или ссылка на цвет.  <br/> |
 | _— Делталум_ <br/> |Обязательный  <br/> |**Integer** <br/> |Процент изменения в сторону белого (-100%) или Black (100%) из значения _цвета_ .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чем ближе значение _цвета_ к белому или черному, тем меньше изменяется затенение, созданное определенным значением _делталум_ . 
   

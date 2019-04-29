@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ef94ee0f-dbb8-a2e1-1805-8a6609830d2a
 description: Возвращает строку, преобразованную к верхнему регистру.
 ms.openlocfilehash: b88958526bfb5e08839077217759f7ffb50151b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327330"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415147"
 ---
 # <a name="upper-function"></a>Функция UPPER
 
@@ -30,7 +30,7 @@ UPPER (* * *выражение* * *)
 |:-----|:-----|:-----|:-----|
 | _expression_ <br/> |Обязательный  <br/> |**Разные** <br/> | Строка, ссылка на ячейку или выражение; результат преобразуется в строку, которая затем преобразуется в верхний регистр.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Преобразование регистра зависит от параметров текущего пользователя. 
   

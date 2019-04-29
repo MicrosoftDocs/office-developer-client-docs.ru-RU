@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: dd7ea5fa-1d34-44e8-5a29-69ca542aecba
 description: Представляет y-координату, определяющую расположение управляющего маркера фигуры в локальных координатах.
 ms.openlocfilehash: 14aaa7aef7e7250baeb8ffb863244ece26a201e7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
-ms.translationtype: HT
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360153"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407951"
 ---
 # <a name="y-cell-controls-section"></a>Ячейка Y (раздел "Элементы управления")
 

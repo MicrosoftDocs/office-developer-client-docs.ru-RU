@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 5a647e15-ba22-4a7c-b235-75cd76b77c1a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8dce1415ef8d18f4b786e92324c888f9a0845162
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280143"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414041"
 ---
 # <a name="imapicontrol--iunknown"></a>IMAPIControl : IUnknown
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Включает и отключает элемент управления "Кнопка" и выполняет задачи, когда пользователь клиентского приложения щелкает включенный элемент управления. Поставщики услуг реализуют объекты управления для создания настраиваемых кнопок в диалоговых окнах, например на страницах свойств конфигурации, которые определяются с помощью отображения таблиц. 
   

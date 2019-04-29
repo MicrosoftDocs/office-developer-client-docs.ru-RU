@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f9506faf-a75a-47a9-b32b-00780e1c5df4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2ec578df320c76014adde468cb7e86a0c4ab40bd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338271"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413754"
 ---
 # <a name="pidtagphysicalforwardingaddress-canonical-property"></a>Каноническое свойство PidTagPhysicalForwardingAddress
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит физический адрес переадресации получателя сообщения и используется только с отчетами о сообщениях.
   

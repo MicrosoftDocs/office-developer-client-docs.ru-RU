@@ -10,17 +10,17 @@ keywords:
 - Функция xladdinmanagerinfo [Excel 2007]
 localization_priority: Normal
 ms.assetid: 63a73cd2-6479-4233-ad68-93379f940717
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 66d2ac05b9603d6bb587a3898bde2545c1bb844a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303999"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407797"
 ---
 # <a name="xladdinmanagerinfoxladdinmanagerinfo12"></a>xlAddInManagerInfo/xlAddInManagerInfo12
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Вызывается Microsoft Excel, когда диспетчер надстроек вызывается в первый раз в сеансе Excel. Эта функция используется для предоставления диспетчеру надстроек сведений о надстройке.
   
@@ -47,7 +47,7 @@ LPXLOPER12 WINAPI xlAddInManagerInfo12(LPXLOPER12 pxAction);
   
 Если вы не возвращаете строку, Excel пытается преобразовать возвращенное значение в строку.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если возвращаемая строка указывает на динамически выделенный буфер, необходимо убедиться, что этот буфер в конечном итоге освобождается. Если эта строка была выделена приложением Excel, то для этого необходимо установить **кслбиткслфри**. Если строка была выделена БИБЛИОТЕКой DLL, это делается путем установки **кслбитдллфри**, а также необходимо реализовать в [xlAutoFree](xlautofree-xlautofree12.md) (при возврате **XLOPER**) или **xlAutoFree12** (если возвращается **XLOPER12**).
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6c956266-8266-3312-5a68-cc9d8bdb8cd9
 description: Определяет, отображаются ли разметки в окне документа.
 ms.openlocfilehash: eeccdd0d14bf28630937b0e480822abb6fb19da5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355827"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416407"
 ---
 # <a name="viewmarkup-cell-document-properties-section"></a>ViewMarkup Cell (Document Properties Section)
 
 Определяет, отображаются ли разметки в окне документа. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |В документе отображается разМетка.  <br/> |
 |FALSE  <br/> |РазМетка не отображается (значение по умолчанию).  <br/> |

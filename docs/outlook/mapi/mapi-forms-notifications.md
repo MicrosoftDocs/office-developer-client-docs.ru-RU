@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 97ff2733-a2b1-4da0-b628-00850fc7925b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: e9c10f78af6dff2e0d0c59d0bfe59be07dccd4b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351480"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418612"
 ---
 # <a name="mapi-forms-notifications"></a>Уведомления о формах MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Регистрация и обработка уведомлений из объектов формы отличается от процесса для других объектов MAPI. Приемники уведомлений для уведомлений формы реализуют либо интерфейс **имапивиевадвисесинк** , либо интерфейс **имапиформадвисесинк** , а не **имапиадвисесинк**. [Имапивиевадвисесинк: IUnknown](imapiviewadvisesinkiunknown.md) и [Имапиформадвисесинк: интерфейс IUnknown](imapiformadvisesinkiunknown.md) имеет несколько методов, по одному для каждого из возможных событий, которые может создавать соответствующий источник рекомендаций. Например, в **имапиформадвисесинк** есть два метода: [имапиформадвисесинк:: OnChange](imapiformadvisesink-onchange.md) для обработки изменений состояния средства просмотра формы и [имапиформадвисесинк:: онактиватенекст](imapiformadvisesink-onactivatenext.md) для отображения нового сообщения с правильной формой. 
   

@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 05bafe43-a78a-4659-92f0-0b4fe444c64f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: cce43301ac73a5646e263b2ab92700e57804637d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307779"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419711"
 ---
 # <a name="logging-on-to-mapi"></a>Вход в MAPI
  
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения выполняют вход в подсистему MAPI, вызывая функцию **мапилогонекс** . Дополнительные сведения см. в разделе [мапилогонекс](mapilogonex.md). **Мапилогонекс** проверяет выбор профиля и конфигурацию каждого поставщика услуг в профиле. После настройки MAPI запускает поставщиков адресных книг перед запуском поставщиков хранилища сообщений. Поставщики транспорта запускаются, когда их службы впервые требуются. 
   

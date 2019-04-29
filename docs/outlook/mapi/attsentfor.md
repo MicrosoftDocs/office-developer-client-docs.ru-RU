@@ -9,17 +9,17 @@ api_type:
 ms.assetid: aa8c8d64-d2a0-4cdf-a8aa-21c8d0a0a3fc
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: f961348e7be474202273aa97a2922566ef40c3a5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318118"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408840"
 ---
 # <a name="attsentfor"></a>attSentFor
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Атрибут **аттсентфор** кодируется в виде строк, подсчитанных до конца. Формат для **аттсентфор** выглядит следующим образом: 
   

@@ -17,11 +17,11 @@ localization_priority: Normal
 ms.assetid: 9ea3b3c1-fb90-454a-b8e6-abc44fca663d
 description: Статьи в этом разделе описывают общую архитектуру решения по управлению корпоративными проектами (EPM), которое сочетает Project профессиональный 2013, Project Server 2013, Project Web App и SharePoint Server 2013.
 ms.openlocfilehash: 44cd5a32b8d3de421ffe3b2d9bf0137146bc4c4e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301472"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413789"
 ---
 # <a name="project-server-2013-architecture-and-programmability"></a>Архитектура и возможности программирования Project Server 2013
 
@@ -39,7 +39,7 @@ Project Server 2013 тесно интегрируется с SharePoint Server 2
   
 Сведения о многочисленных новых возможностях, предоставляемых Project 2013 для разработчиков, а также об устаревших функциях можно узнать [в статье Updates for Developers in Project 2013](updates-for-developers-in-project-2013.md).
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 
 [Архитектура Project Server 2013](project-server-2013-architecture.md) описывает основные части платформы Project 2013, в том числе клиенты и серверы. 
   

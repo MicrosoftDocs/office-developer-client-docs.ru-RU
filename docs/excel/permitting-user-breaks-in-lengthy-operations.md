@@ -8,17 +8,17 @@ keywords:
 - функция xlAbort [Excel 2007], одновременные задачи [Excel 2007], пользовательские перерывы [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0e3df597-0aa6-497f-bc52-58c7dc064538
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 650af14e4e97ebd2642a4442a87965f313d3b556
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310383"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414692"
 ---
 # <a name="permitting-user-breaks-in-lengthy-operations"></a>Разрешение преРывать работу пользователей в длительные операции
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Несмотря на то, что Windows использует многозадачное прерывание, где выполнение функций или команд может занять длительное время, рекомендуется немедленно получить некоторое время на операционную систему и еще раз, чтобы оно могло запланировать параллельные задачи. С помощью собственных вызовов Windows вы можете сделать это с помощью функции Sleep. С помощью API C можно сделать это с помощью [функции xlAbort](xlabort.md), которая не только получает обработчик для мгновенного, но также проверяет, нажал ли пользователь клавишу Cancel, **ESC**.
   

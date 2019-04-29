@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c7f10b8a-6b20-44cf-bde6-8d2b711c1c14
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 30ed8053c9c3d77f4831da37ddd2456ad0564a5a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331894"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415728"
 ---
 # <a name="pidtagcontentintegritycheck-canonical-property"></a>Каноническое свойство PidTagContentIntegrityCheck
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение проверки целостности содержимого ASN. 1, позволяющее отправителю сообщения защитить содержимое сообщения от разглашения неавторизованным получателям.
   
@@ -32,9 +32,9 @@ ms.locfileid: "32331894"
 |Связанные свойства:  <br/> |ПР_КОНТЕНТ_ИНТЕГРИТИ_ЧЕКК  <br/> |
 |Идентификатор:  <br/> |0x0C00  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Exchange  <br/> |
+|Область:  <br/> |Exchange;  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство предоставляет неподдельность содержимого сообщения. В сочетании с **пр_мессаже_токен** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) гарантируется, что содержимое сообщения поступает в свое место назначения без изменений.
   

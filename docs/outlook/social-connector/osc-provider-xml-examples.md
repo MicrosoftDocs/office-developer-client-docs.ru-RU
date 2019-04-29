@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 65d0c111-b090-4b1b-a747-44285b7c16b2
 description: В этом разделе содержатся примеры XML-элементов, в которых используются XML-элементы capabilities, Friend и activityFeed, соответствующие XML-схеме поставщика Outlook Social Connector (OSC).
 ms.openlocfilehash: fe8d88d70a8fc593016f4aa6ac5acb0c79fcbf30
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339587"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405928"
 ---
 # <a name="osc-provider-xml-examples"></a>Примеры XML-кода поставщика OSC
 

@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 99709a4c-cb52-436e-a322-02ded5d65ce5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2b81f4aebae692d28ed492df102d59ba34debf63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328464"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408973"
 ---
 # <a name="provider-tables"></a>Таблицы поставщиков
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Таблица "поставщик" содержит сведения о поставщиках услуг. Существует две различные таблицы поставщиков, которые реализуются MAPI и используются клиентами. Первая таблица, доступная при вызове метода [имсгсервицеадмин:: жетпровидертабле](imsgserviceadmin-getprovidertable.md) , содержит сведения обо всех поставщиках для текущего профиля. Вторая таблица, доступная с помощью [ипровидерадмин:: жетпровидертабле](iprovideradmin-getprovidertable.md), создает таблицу, в которой хранятся сведения обо всех поставщиках услуг для службы сообщений.
   

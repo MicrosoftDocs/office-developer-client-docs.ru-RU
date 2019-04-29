@@ -9,17 +9,17 @@ api_type:
 ms.assetid: c314ff6d-3e60-4b81-87ac-6ca6753ff633
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1b94b0ea69237be3675e1ea02fc3e2bfac337025
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338558"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406222"
 ---
 # <a name="display-tables"></a>Таблицы отображения
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В таблице показано, как отобразить определенный тип диалогового окна, в котором есть одна или несколько страниц свойств с вкладками, выделенных для отображения и, возможно, редактирования одного или нескольких свойств. Связанная со всеми таблицами отображения — это [IMAPIProp:](imapipropiunknown.md) реализация интерфейса IUnknown. Реализация **IMAPIProp** поддерживает данные свойства, представленные в диалоговом окне. 
   

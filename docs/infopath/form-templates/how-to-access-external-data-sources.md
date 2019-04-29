@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: db7c2521-a1ad-4802-b398-79575d3d310a
 description: При работе с шаблоном формы InfoPath можно написать код для доступа к дополнительным источникам данных формы и управления содержащимися в них данными.
 ms.openlocfilehash: f6957c561231eef0e3e4df6deb09ae89f85afcc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300198"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408315"
 ---
 # <a name="access-external-data-sources"></a>Доступ к внешним источникам данных
 
@@ -36,7 +36,7 @@ ms.locfileid: "32300198"
 
 Класс [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) предоставляет следующие свойства и методы, которые могут использоваться разработчиками форм для управления экземплярами объектов [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) , содержащимися в форме. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.Count.aspx)  <br/> |Возвращает количество экземпляров объектов  **DataSource** в семействе.  <br/> |
 |Метод [GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.GetEnumerator.aspx)  <br/> |Возвращает объект **IEnumerator**, который можно использовать для выполнения итерации по семейству.  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "32300198"
 
 Класс [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с дополнительным источником данных InfoPath. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Метод [CreateNavigator](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.CreateNavigator.aspx)  <br/> |Возвращает объект [XPathNavigator](https://msdn.microsoft.com/library/system.xml.xpath.xpathnavigator%28v=vs.110%29.aspx) для доступа к источнику данных и его изменения  <br/> |
 |Свойство [куериконнектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSource.QueryConnection.aspx)  <br/> |Возвращает ссылку на связанный объект подключения данных.  <br/> Чтобы выполнить запрос для подключения данных и вставить возвращенные данные в виде XML-кода в узел XML, связанный с объектом **DataSource** , используйте метод [EXECUTE](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnection.Execute.aspx) связанного объекта подключения данных.  <br/> |
@@ -60,7 +60,7 @@ ms.locfileid: "32300198"
 
 Классы для доступа к подключениям к данным предоставляют различные свойства и методы, которые извлекают и отправляют данные через подключения к внешним источникам данных; подключение к данным, связанное с объектом **DataSource** , зависит от типа подключения к внешним данным. InfoPath реализует следующие классы для доступа к подключениям к данным. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Класс [ADOQueryConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoQueryConnection.aspx)  <br/> |Запрашивает источник данных ADO/OLEDB, ограничивается Microsoft Access и Microsoft SQL Server.  <br/> |
 |Класс [AdoSubmitConnection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.AdoSubmitConnection.aspx)  <br/> |Отправляет данные в источник данных ADO/OLEDB, ограничивается Microsoft Access и Microsoft SQL Server.  <br/> |

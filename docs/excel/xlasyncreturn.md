@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 159bc9bf-8dd5-4cd2-8384-474c74a3f112
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 32d5075af34cda9753c5d082bd4ab00afab1ecff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310250"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414111"
 ---
 # <a name="xlasyncreturn"></a>xlAsyncReturn
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Используется для возврата результата асинхронной пользовательской функции (UDF).
   
@@ -38,7 +38,7 @@ _Пксфунктионресулт_
 
 В случае успеха возвращает **значение true** (**кслтипебул**). В случае неудачной попытки возвращает **значение false**.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 **ксласинкретурн** — единственный обратный вызов, позволяющий использовать в процессе пересчета потоки, не связанные с вычислениями. Асинхронная часть асинхронной UDF не должна выполнять обратные вызовы, кроме **ксласинкретурн**. XLL должен освободить память, выделенную для хранения возвращаемого значения.
   

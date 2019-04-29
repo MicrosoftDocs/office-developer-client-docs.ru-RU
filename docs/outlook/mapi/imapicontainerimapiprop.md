@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d83fdd83-3e86-43c8-a73f-8e9e01b53371
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8be3b1857d539f81e42d2ac3e5813afa73513a16
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286722"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406124"
 ---
 # <a name="imapicontainer--imapiprop"></a>IMAPIContainer : IMAPIProp
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Управляет операциями высокого уровня для объектов контейнеров, таких как адресные книги, списки рассылки и папки. Интерфейсы [IMAPIFolder: IMAPIContainer](imapifolderimapicontainer.md), [иабконтаинер: IMAPIContainer](iabcontainerimapicontainer.md)и [идистлист: IMAPIContainer](idistlistimapicontainer.md) являются производными от **IMAPIContainer**.
   

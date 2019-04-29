@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 5632cd25-58f5-4b9c-906c-cd377abc3daf
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: f3270528194b3cc3429d3afec153355349dabbff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335794"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413306"
 ---
 # <a name="creating-a-profile-by-using-custom-code"></a>Создание профиля с помощью пользовательского кода
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Если вы напишете код для создания профиля, убедитесь, что вы знаете, как упорядочивать записи профиля, а также тип и количество сведений, необходимых для каждой записи. Влияние порядка записей в профиле объясняется в профилях [MAPI](mapi-profiles.md).
   

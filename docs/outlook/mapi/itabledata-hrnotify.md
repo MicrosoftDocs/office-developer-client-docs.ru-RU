@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 98548b50-342e-434a-9ad3-c37ba418c5ce
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: aa2170bf4bedfb441ad4808f774f6f71d5caf85e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348638"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413271"
 ---
 # <a name="itabledatahrnotify"></a>ITableData::HrNotify
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Отправляет уведомление для строки таблицы.
   

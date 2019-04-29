@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 3c07f71d-b906-4a7f-b20a-4a7f558dbf11
 description: Возвращает идентификатор GUID, представляющий уникальный идентификатор для социальной сети.
 ms.openlocfilehash: fc96799ada773cc7260e156d3e2ab8423b73884b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285514"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407874"
 ---
 # <a name="isocialprovidersocialnetworkguid"></a>ISocialProvider::SocialNetworkGuid
 
@@ -27,7 +27,7 @@ ms.locfileid: "32285514"
 
 Указатель на значение GUID, которое представляет уникальный идентификатор для социальной сети.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 GUID должен быть неизменяемым и не должен изменяться, даже если версия поставщика изменяется.
   

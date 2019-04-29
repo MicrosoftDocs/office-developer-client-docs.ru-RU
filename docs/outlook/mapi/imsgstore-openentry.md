@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a63c42cf-36af-466b-b41e-d6b53ce1c9fb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 07667558a21a9110d684164d2e6c143d6a519368
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309697"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409337"
 ---
 # <a name="imsgstoreopenentry"></a>IMsgStore::OpenEntry
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Открывает папку или сообщение и возвращает указатель интерфейса для получения дальнейших прав. 
   
@@ -90,7 +90,7 @@ MAPI_NO_CACHE
   
 > Когда хранилище открывается в режиме кэширования, клиент или поставщик услуг может вызвать **IMsgStore:: OpenEntry**, УСТАНОВИВ флаг мапи_но_каче, чтобы открыть элемент или папку в удаленном хранилище. Если вы откроете хранилище сообщений с флагом МДБ_ОНЛИНЕ на удаленном сервере, не нужно использовать флаг МАПИ_НО_КАЧЕ.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMsgStore:: OpenEntry** открывает папку или сообщение и возвращает указатель на интерфейс, который можно использовать для дальнейшего доступа. 
   

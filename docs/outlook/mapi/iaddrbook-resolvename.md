@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a7823c16-efda-45c2-b931-3e1fbc823b0b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8a6a73153b857078cb37d94a634a6b0215a0a8c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287009"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408133"
 ---
 # <a name="iaddrbookresolvename"></a>IAddrBook::ResolveName
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Выполняет разрешение имен, назначая идентификаторы записей получателям в списке получателей.
   
@@ -84,7 +84,7 @@ S_OK
   
 > Не удается разрешить по крайней мере одного получателя в параметре _лпадрлист_ . Обычно это значение возвращается, если установлен флаг МАПИ_ДИАЛОГ, запрещая отображение диалогового окна. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Клиенты и поставщики услуг вызывают метод **ресолвенаме** для запуска процесса разрешения имен. Неразрешенная запись — это запись, у которой еще нет идентификатора записи или свойства **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   

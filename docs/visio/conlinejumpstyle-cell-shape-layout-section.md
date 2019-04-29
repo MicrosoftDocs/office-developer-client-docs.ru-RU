@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: baa05a50-97d0-3769-635e-0ea20317d59a
 description: Определяет стиль значка пересечения линий для перемычек на динамическом соединителе.
 ms.openlocfilehash: ae8af4e326a6c895b3617a4869f98eaf0db68db1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360062"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415994"
 ---
 # <a name="conlinejumpstyle-cell-shape-layout-section"></a>ConLineJumpStyle Cell (Shape Layout Section)
 

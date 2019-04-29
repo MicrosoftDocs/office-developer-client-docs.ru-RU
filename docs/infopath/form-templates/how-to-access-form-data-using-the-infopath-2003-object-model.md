@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: e0731014-f454-4417-9f90-19f3387f5776
 description: Если требуется расширить функциональность формы InfoPath, то зачастую требуется обеспечить программный доступ к сведениям о базовом XML-документе формы или к данным, содержащимся в этом XML-документе, а также выполнить некоторые действия над XML-документом. Объектная модель InfoPath поддерживает доступ к базовому XML-документу формы и управление им с помощью интерфейса XDocument в связи с интерфейсом XDocumentsCollection.
 ms.openlocfilehash: 803122c6c377686a85f11cf48b76876c056f2ec1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303677"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416477"
 ---
 # <a name="access-form-data-using-the-infopath-2003-object-model"></a>Доступ к данным форм с помощью объектной модели InfoPath 2003
 
@@ -25,7 +25,7 @@ ms.locfileid: "32303677"
 
 Интерфейс **XDocumentsCollection** предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для управления объектами **XDocument**, содержащимися в семействе. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Метод [Close](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Close.aspx)  <br/> |Закрывает указанную форму.  <br/> |
 |Метод [New](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.New.aspx)  <br/> |Создает новую форму на основе существующей формы.  <br/> |
@@ -39,7 +39,7 @@ ms.locfileid: "32303677"
 
 Интерфейс **XDocument** предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с базовым XML-документом формы и выполнения действий над ним. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Метод [GetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDataVariable.aspx)  <br/> |Возвращает строковое значение указанной переменной данных.  <br/> |
 |Метод [GetDOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDOM.aspx)  <br/> |Возвращает ссылку на модель XML DOM, связанную с указанным объектом **DataObject**.  <br/> |

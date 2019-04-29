@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d8d41ced-c2bb-482e-b0bc-1b46c82121bd
 description: Получает автоматически настроенный интерфейс ISocialSession.
 ms.openlocfilehash: 34f048158a484612b92bcd2750401caecda64ba2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285781"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417443"
 ---
 # <a name="isocialprovidergetautoconfiguredsession"></a>ISocialProvider::GetAutoConfiguredSession
 

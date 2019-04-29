@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7919a255-2935-4cb0-bffa-9d431d77848a
 description: В этом разделе представлены общие сведения о календарях и встречах Outlook, в том числе API сведений о доступности, обновлении приглашений на собрания и изменении базового календаря для летнего времени.
 ms.openlocfilehash: 3e265ee962e6f55214e9c26978abe7496561a482
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327806"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420271"
 ---
 # <a name="outlook-calendars-and-appointments"></a>Календари и встречи Outlook
 

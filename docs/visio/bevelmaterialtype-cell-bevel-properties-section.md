@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 30f50a94-88dc-41a3-bb46-45c92d6817a4
 description: Определяет тип материала, из которого состоит Багетная рамка.
 ms.openlocfilehash: b8efaa1f84594c803c79be02cd88dda1a5346dc7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315766"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414587"
 ---
 # <a name="bevelmaterialtype-cell-bevel-properties-section"></a>BevelMaterialType Cell (Bevel Properties Section)
 
@@ -30,10 +30,10 @@ ms.locfileid: "32315766"
 |см  <br/> |Обычно  <br/> |
 |8,5  <br/> |Каркасная  <br/> |
 |10  <br/> |Туманно  <br/> |
-|десяти  <br/> |Полупрозрачный порошок  <br/> |
-|-11:00  <br/> |Очистка  <br/> |
+|10   <br/> |Полупрозрачный порошок  <br/> |
+|11   <br/> |Очистка  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку **BevelMaterialType** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 056b54ae-1475-9480-6ebc-5c34ef48e0f8
 description: Определяет, совпадают ли две строки.
 ms.openlocfilehash: ac5a74e08079f86c28b086b92302ebb01a4b0627
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329794"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413866"
 ---
 # <a name="strsameex-function"></a>Функция STRSAMEEX
 

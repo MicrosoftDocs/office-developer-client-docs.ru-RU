@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5a2bb1a7-e688-d32f-f231-ac6916d838a6
 description: Определяет, сохраняется ли предварительный просмотр при каждом сохранении документа.
 ms.openlocfilehash: 91362d8a88cf6db2f4807c655a6d071ebbc731f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348330"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418864"
 ---
 # <a name="lockpreview-cell-document-properties-section"></a>LockPreview Cell (Document Properties Section)
 
 Определяет, сохраняется ли предварительный просмотр при каждом сохранении документа.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Не сохраняйте предварительный просмотр при каждом сохранении документа.  <br/> |
 | FALSE  <br/> | Сохраните предварительный просмотр при каждом сохранении документа.  <br/> |

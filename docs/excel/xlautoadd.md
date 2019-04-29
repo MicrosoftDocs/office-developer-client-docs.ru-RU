@@ -10,17 +10,17 @@ keywords:
 - Функция кслаутоадд [Excel 2007]
 localization_priority: Normal
 ms.assetid: c69299af-a28a-44d9-be10-9c9fb92e21f2
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 9a38d5dafd30fda87dda5eadf8fa97ab6e6768a7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303993"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413761"
 ---
 # <a name="xlautoadd"></a>xlAutoAdd
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Добавляется Microsoft Excel, когда пользователь активирует XLL во время сеанса Excel с помощью диспетчера надстроек. Эта функция не вызывается при запуске Excel и загрузке предварительно установленной надстройки.
   
@@ -40,7 +40,7 @@ int WINAPI xlAutoAdd(void);
 
 Ваша реализация этой функции должна вернуть 1. (**int**).
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте эту функцию, если у вас есть все, что нужно сделать для XLL, когда она добавляется с помощью диспетчера надстроек.
   

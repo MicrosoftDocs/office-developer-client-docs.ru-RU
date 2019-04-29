@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 41250e47-404c-40e7-99be-9bb8c1ed5ba2
 description: Определяет, какой цвет темы использует Заливка фигуры, в виде целого числа от 0 до 7.
 ms.openlocfilehash: 3ace0de7e3bfc878a2101eaca3847ef079b8f919
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358728"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407965"
 ---
 # <a name="quickstylefillcolor-cell-quick-style-section"></a>QuickStyleFillColor Cell (Quick Style Section)
 

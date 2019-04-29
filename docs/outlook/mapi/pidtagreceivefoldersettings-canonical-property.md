@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 2f0b1679-05b0-4580-b6d2-474fe3f9d012
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8590e357252089aaa49a71d443037b9b9ed77ee4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356744"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415056"
 ---
 # <a name="pidtagreceivefoldersettings-canonical-property"></a>Каноническое свойство PidTagReceiveFolderSettings
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит таблицу параметров получения папки для хранилища сообщений.
   

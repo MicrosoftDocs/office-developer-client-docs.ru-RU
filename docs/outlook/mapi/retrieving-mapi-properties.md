@@ -9,17 +9,17 @@ api_type:
 ms.assetid: bd3f9f59-9020-46e6-9560-86a7a0eeca20
 description: '���� ���������� ���������: 7 ������� 2015 �.'
 ms.openlocfilehash: 9666c551543cefd12ee8c902db1a2372aab20632
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328646"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417086"
 ---
 # <a name="retrieving-mapi-properties"></a>Получение свойств MAPI
 
  
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Когда клиент или поставщик услуг получает свойство из объекта, объект делает доступным значение, тип и идентификатор свойства. 
   

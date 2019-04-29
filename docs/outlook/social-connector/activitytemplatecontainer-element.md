@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 74662f25-5e18-4d0b-999c-a144427ad9e3
 description: Элемент activityTemplateContainer — это шаблон, позволяющий отформатировать элементы веб-канала активности и повторно использовать XML, указывающий макет.
 ms.openlocfilehash: c2540b1d871e440e8f8f343a1788194c32d7dcc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281122"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413719"
 ---
 # <a name="activitytemplatecontainer-element"></a>Элемент activityTemplateContainer
 
@@ -33,7 +33,7 @@ ms.locfileid: "32281122"
 |:-----|:-----|
 |**icon** <br/> |Маркер ссылки, который ссылается на URL-адрес значка для этого элемента веб-канала.  <br/> |
 |**заголовок** <br/> |Необходимые сведения для элемента веб-канала.  <br/> |
-|**type** <br/> |Тип действия, например обновление состояния, фотографии или документа.  <br/> |
+|**тип** <br/> |Тип действия, например обновление состояния, фотографии или документа.  <br/> |
 |**data** <br/> |Любая дополнительная информация для элемента веб-канала, например изображения, текст или ссылки.  <br/> |
    
 Пример XML-кода канала активности представлен в статье [Пример XML-канала активности](activity-feed-xml-example.md)

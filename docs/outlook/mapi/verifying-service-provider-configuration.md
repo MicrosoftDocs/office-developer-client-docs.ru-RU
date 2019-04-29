@@ -9,15 +9,15 @@ api_type:
 ms.assetid: dc23dc61-7b51-43ab-a184-ce0bdac91d03
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 381e2c9ec84811b69d666017a568e7b9cca21755
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329611"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418850"
 ---
 # <a name="verifying-service-provider-configuration"></a>Проверка конфигурации поставщика службы
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Метод входа ([иабпровидер:: logon](iabprovider-logon.md), [Функцииimsprovider:: logon](imsprovider-logon.md)или [иксппровидер:: транспортлогон](ixpprovider-transportlogon.md)) должен проверить конфигурацию поставщика. Это включает проверку правильности настройки всех свойств, необходимых для полной операции. Каждому поставщику необходимо различное количество свойств; Настройка зависит от поставщика и степени взаимодействия с пользователем. Некоторые поставщики услуг хранят все необходимые свойства в профиле. 
 

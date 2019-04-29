@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f5afe93a-9217-a9ec-76ce-daf12afbb0f7
 description: Показывает атрибуты форматирования для текста фигуры, такие как шрифт, цвет, стиль текста, регистр, положение относительно базовой линии и размер кегля.
 ms.openlocfilehash: 4ff7dfce0ec25f3db0738bc63014f2cf4321ac2e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341883"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416841"
 ---
 # <a name="character-section"></a>Character Section
 
 Показывает атрибуты форматирования для текста фигуры, такие как шрифт, цвет, стиль текста, регистр, положение относительно базовой линии и размер кегля.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Каждый стиль символов в фигуре имеет соответствующую строку в разделе " **символ** ", как показано в окне таблицы свойств фигуры. Имя строки представляет число символов, к которым применяется стиль символа. 
   

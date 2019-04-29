@@ -7,18 +7,18 @@ localization_priority: Normal
 ms.assetid: 70c1ac24-a28f-4401-91d3-61129578bebd
 description: Возвращает элемент по указанному индексу из списка значений.
 ms.openlocfilehash: e44655b9c2f4055f1f3dc57befa8adc6884c43b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282287"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414118"
 ---
 # <a name="choose-function-access-custom-web-app"></a>Функция Choose (пользовательское веб-приложение для Access)
 
 Возвращает элемент по указанному индексу из списка значений.
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -31,7 +31,7 @@ ms.locfileid: "32282287"
 | *Индекснумбер*  <br/> |Целочисленное выражение, представляющее индекс, отсчитываемый от 1, в списке следующих элементов.  <br/> |
 | *Значение*  <br/> |Список значений любого типа данных.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если предоставленный *индекснумбер* не является целым числом, значение неявно преобразуется в целое число. 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: a7d28349-3121-49ae-ad28-043789e2d205
 description: В этом разделе предлагаются тесты, которые можно выполнить перед запуском поставщика Outlook Social Connector (OSC).
 ms.openlocfilehash: 8a36b13f8adc42a1834481d3a5942f0350c43cc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327155"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414664"
 ---
 # <a name="getting-ready-to-release-an-osc-provider"></a>Подготовка к выпуску поставщика OSC
 
@@ -21,7 +21,7 @@ ms.locfileid: "32327155"
 
 Эти тесты проверяют базовые функциональные возможности реализации интерфейсов поставщика OSC в соответствии с возможностями, указанными для поставщика OSC. Кроме того, несмотря на то, что OSC является компонентом, используемым несколькими клиентскими приложениями Office, эти тесты используют Outlook в качестве клиента для тестирования основных функций. Необходимо определить, требуются ли другие тесты для компонентов, относящихся к поставщику.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 
 - [Тестирование развертывания](testing-deployment.md): в этой статье описываются сценарии, которые необходимо протестировать для установки и удаления поставщика OSC.
     

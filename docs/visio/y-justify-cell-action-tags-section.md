@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 27042b62-7623-95d7-7e10-f589d74605c7
 description: Смещение по оси Y для кнопки тега действия, связанной с точкой, которая определена ячейками X и Y.
 ms.openlocfilehash: d7a1f5c1feda3624c9f96039e7247c737a91a813
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357017"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419984"
 ---
 # <a name="y-justify-cell-action-tags-section"></a>Ячейка Y Justify (раздел "Теги действий")
 
@@ -23,7 +23,7 @@ ms.locfileid: "32357017"
 > [!NOTE]
 > В предыдущих версиях Microsoft Visio теги действий назывались смарт-тегами. 
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | нуль  <br/> | Выравнивание по верхнему краю (по умолчанию).  <br/> |**visSmartTagYJustifyTop** <br/> |
 | 1,1  <br/> | Выравнивание по центру.  <br/> |**visSmartTagYJustifyMiddle** <br/> |

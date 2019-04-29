@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 52ce22a9-3ec2-481c-bb91-7a5bcca817f5
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 167710243c61a7226375b88977c94ff4a517c1c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356562"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417058"
 ---
 # <a name="types-of-client-applications"></a>Типы клиентских приложений
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В основном существует два типа клиентов обмена сообщениями: те, которые обрабатывают обмен сообщениями (IPM), и те, которые обрабатывают сообщения взаимодействия между процессами (IPC). В этих типах клиентские приложения для обмена сообщениями можно классифицировать следующим образом:
   

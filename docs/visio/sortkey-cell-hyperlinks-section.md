@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 93d7b00c-bd34-6b4e-44fe-afeb8aa9a294
 description: Число, определяющее порядок гиперссылок в контекстном меню.
 ms.openlocfilehash: 002ab036f5305aa6daa631c15b0e9eb6148a9635
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335219"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406383"
 ---
 # <a name="sortkey-cell-hyperlinks-section"></a>SortKey Cell (Hyperlinks Section)
 
 Число, определяющее порядок гиперссылок в контекстном меню.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Гиперссылки в контекстном меню отображаются в меню, отсортированном от самого низкого до более высокого, с меньшими номерами в верхней части меню. Если две строки гиперссылок имеют одинаковое значение ячейки SortKey, порядок определяется физическим порядком строк. Значение по умолчанию — 0 (ноль). 
   

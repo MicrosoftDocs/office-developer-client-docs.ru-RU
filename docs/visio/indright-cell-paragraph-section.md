@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f0891064-95d9-ae1b-28f3-3aef1406b636
 description: Представляет расстояние для всех строк текста в абзаце с отступом от правого поля блока текста. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, отступ справа остается прежним.
 ms.openlocfilehash: e6529bf41cb8fdd40371d9a663291961626afb56
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335345"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408868"
 ---
 # <a name="indright-cell-paragraph-section"></a>IndRight Cell (Paragraph Section)
 
 Представляет расстояние для всех строк текста в абзаце с отступом от правого поля блока текста. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, отступ справа остается прежним.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку IndRight по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

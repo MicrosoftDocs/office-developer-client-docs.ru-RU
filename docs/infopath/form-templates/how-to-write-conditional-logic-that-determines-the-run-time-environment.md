@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1a43bbdc-666b-47ef-a5e3-cb477a4deb04
 description: Свойство Environment класса Application получает ссылку на объект Environment, который можно использовать для определения того, какая среда выполнения (InfoPath, веб-браузер или браузер мобильного устройства) использовалась для открытия формы.
 ms.openlocfilehash: 31bfd8dcd05d52d6c6e162d4aa4838e423d97e0b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299729"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408602"
 ---
 # <a name="write-conditional-logic-that-determines-the-run-time-environment"></a>Написание условной логики, определяющей среду выполнения
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 135c4a12-8ee0-4b70-bb58-572a064ecee4
 description: Показывает значения индекса темы, которые в данный момент применены к документу, в том числе значения цвета, шрифта, соединителя и эффектов.
 ms.openlocfilehash: 4ee074e11cea0787ccbe616e97a279ee5e8e20dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360587"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413964"
 ---
 # <a name="theme-properties-section"></a>Theme Properties Section
 

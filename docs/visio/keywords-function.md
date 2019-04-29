@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a157c27e-afae-7c67-e96d-4ace7b7a82be
 description: Возвращает текст из поля ключевые слова в свойствах документа.
 ms.openlocfilehash: d5a5aa00248a016d209c17016e248a2fe93bccde
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360461"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416050"
 ---
 # <a name="keywords-function"></a>Функция KEYWORDS
 
@@ -26,6 +26,6 @@ ms.locfileid: "32360461"
   
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
 

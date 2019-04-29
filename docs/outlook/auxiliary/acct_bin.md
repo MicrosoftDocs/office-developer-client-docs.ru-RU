@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5b57296c-61d7-e517-7ab7-44a9cc1f7ffc
 description: Переменная этого типа данных содержит двоичное значение.
 ms.openlocfilehash: 3dcaaf73a04ddc608e68ca7bd1f801d0a5d99bb6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316914"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408126"
 ---
 # <a name="acctbin"></a>ACCT_BIN
 

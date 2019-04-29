@@ -7,15 +7,15 @@ localization_priority: Normal
 ms.assetid: 364bc5fd-2199-0bb2-142b-9b3b686b2268
 description: 'Дата последнего изменения: 02 июля 2012 г.'
 ms.openlocfilehash: 96f472d67f144a451046ff61a3ed6c6ff2ff9acf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307821"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408988"
 ---
 # <a name="logging-on-to-a-wrapped-pst-store-provider"></a>Вход в систему поставщика упакованного PST-хранилища
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Прежде чем войти в систему MAPI в поставщик упакованного PST-хранилища, необходимо инициализировать и настроить поставщик хранилища файлов личных папок (PST) с оболочкой. Дополнительные сведения см. [в статье инициализация поставщика упакованНОГО PST-хранилища](initializing-a-wrapped-pst-store-provider.md).
   

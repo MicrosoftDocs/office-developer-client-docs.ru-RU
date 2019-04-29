@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d082f3a3-387a-4db1-bbad-495c326b8ee3
 description: Объектная модель, предоставляемая пространством имен Microsoft. Office. Interop. InfoPath. SemiTrust, включает объекты и члены, которые предоставляют новые функциональные возможности, добавленные в Office InfoPath 2007 и InfoPath.
 ms.openlocfilehash: 45f7607aec8ccfd653780a550df0823730835a86
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300086"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415343"
 ---
 # <a name="use-microsoftofficeinteropinfopathsemitrust-members-not-compatible-with-infopath"></a>Использование элементов Microsoft. Office. Interop. InfoPath. SemiTrust, не совместимых с InfoPath
 

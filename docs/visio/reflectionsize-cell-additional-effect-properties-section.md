@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7dfeb78e-a0fa-4492-b35f-70b1e2975d38
 description: Определяет размер отражения относительно фигуры в процентах от 0,0 до 100,0%. Фигура со значением 0% в ячейке ReflectionSize не имеет отражения; значение 100% отображает полное зеркальное изображение фигуры.
 ms.openlocfilehash: 60fcb315ec1b6187082bdcdbbdcfaa4b80bbcfb3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348358"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409078"
 ---
 # <a name="reflectionsize-cell-additional-effect-properties-section"></a>ReflectionSize Cell (Additional Effect Properties Section)
 

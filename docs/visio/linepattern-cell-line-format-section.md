@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: a416762b-7294-c99f-d9f1-332c3ed35dff
 description: Определяет шаблон линии фигуры. Значение, введенное в ячейке LinePattern, — это число, которое является индексом в коллекции шаблонов строк.
 ms.openlocfilehash: eec5bed18777f7822f9544d59dce7722f2f732bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316445"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416757"
 ---
 # <a name="linepattern-cell-line-format-section"></a>LinePattern Cell (Line Format Section)
 
 Определяет шаблон линии фигуры. Значение, введенное в ячейке LinePattern, — это число, которое является индексом в коллекции шаблонов строк.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |нуль  <br/> |Без шаблона линии  <br/> |
 |1,1  <br/> |Сплошная  <br/> |
 |2-23  <br/> |Шаблоны строк для ассортимента  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Вы можете просмотреть коллекцию шаблонов линий в диалоговом окне **линия** (на вкладке **Главная** , в группе **фигура** , щелкните **линия**, выберите штрихи и нажмите **** кнопку **другие линии**).
   

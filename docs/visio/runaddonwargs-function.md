@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c154413f-c366-a66b-94e3-ed71ad23f325
 description: Выполняет строку и передает аргументы командной строки в программу в виде строки.
 ms.openlocfilehash: bc05a4480438875c348373059f57bf04f82c9eca
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318951"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408707"
 ---
 # <a name="runaddonwargs-function"></a>Функция RUNADDONWARGS
 
@@ -31,7 +31,7 @@ RUNADDONWARGS ("* * *String* * *", "* * *аргументы* * *")
 | _string_ <br/> |Обязательный  <br/> |**String** <br/> | Имя надстройки.  <br/> |
 | _указаны_ <br/> |Обязательный  <br/> |**String** <br/> |Аргументы для передачи в программу.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 На практике _аргументы_ должны иметь длину не более 50 символов. Используйте функцию RUNADDONWARGS для привязывания программы, например надстройки, к ячейке, например, к ячейке Action или Events. 
   

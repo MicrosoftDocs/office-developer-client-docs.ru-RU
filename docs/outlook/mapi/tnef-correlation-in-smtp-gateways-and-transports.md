@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 593f57d7-2891-40d1-a661-478a62d490ff
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 0a685e081d319c43daa583d95d163677e81f2480
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339692"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413670"
 ---
 # <a name="tnef-correlation-in-smtp-gateways-and-transports"></a>Корреляция TNEF в шлюзах и транспортах SMTP
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Шлюзы и транспорты, которые подключаются к системам на основе Интернета, использующие SMTP, используют значение заголовка SMTP SMTP и свойство **пр_тнеф_коррелатион_кэй** для реализации корреляции TNEF. 
   

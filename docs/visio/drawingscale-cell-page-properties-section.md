@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bc447f22-a188-2c61-e33c-df0d401a4725
 description: Представляет значение единицы документа в текущем масштабе документа. Масштаб документа для страницы — это отношение единицы страницы, показанной в ячейке PageScale, к единице измерения, показанной в ячейке DrawingScale.
 ms.openlocfilehash: 8a3a5f93ff096e42ba3c13b671b46bf1cf97df82
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316508"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413320"
 ---
 # <a name="drawingscale-cell-page-properties-section"></a>DrawingScale Cell (Page Properties Section)
 
@@ -39,7 +39,7 @@ debug.print ActivePage.PageSheet.Cells("DrawingScale").Units = _
  visCentimeters 
 ```
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Эта ячейка соответствует параметрам в диалоговом окне "Параметры **страницы** " (щелкните стрелку **настройки страницы** на вкладке " **Главная** "). 
   

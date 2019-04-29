@@ -10,17 +10,17 @@ keywords:
 - Функция кслфрегистерид [Excel 2007]
 localization_priority: Normal
 ms.assetid: d34cf20c-a5cd-45fb-9dcb-d49eac2d99dd
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 05119226d0b6190a2c4b30846c03a59b5c3cd1d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303880"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420061"
 ---
 # <a name="xlfregisterid"></a>xlfRegisterId
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Может вызываться из библиотеки DLL, которая вызывается Microsoft Excel. Если функция уже зарегистрирована, она возвращает существующий идентификатор регистра для этой функции без его повторной регистрации. Если функция еще не зарегистрирована, она регистрирует ее и возвращает результирующий идентификатор регистра.
   
@@ -46,7 +46,7 @@ _пкстипетекст_ (**кслтипестр**)
 
 Возвращает идентификатор регистра функции (**кслтипенум**), который можно использовать в последующих вызовах **xlfUnregister**.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Эта функция полезна, если вы не хотите беспокоиться об управлении ИДЕНТИФИКАТОРом регистра, но вам потребуется еще один позже для отмены регистрации. Он также полезен для назначения меню, инструментов и кнопок, когда функция, которую необходимо назначить, находится в библиотеке DLL.
   
