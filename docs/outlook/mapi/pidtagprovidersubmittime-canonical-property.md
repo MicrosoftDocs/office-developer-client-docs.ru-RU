@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 9e5161d9-fefe-4a12-b7f7-5600f1d2e95b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c5e840250da7ba3b95150f2e83e1eb08b0c61ab5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286424"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409022"
 ---
 # <a name="pidtagprovidersubmittime-canonical-property"></a>Каноническое свойство PidTagProviderSubmitTime
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит дату и время, когда поставщик транспорта передал сообщение в базовую систему обмена сообщениями.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32286424"
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство задается поставщиком транспорта исходящей почты во время отправки сообщения.
   

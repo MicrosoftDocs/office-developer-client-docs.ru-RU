@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 5004dc1f-6bd3-4764-b83c-d04d83161dba
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 32c81474580dbe4948c40390dadd0445776ab825
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360846"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434804"
 ---
 # <a name="pidtagdiscardreason-canonical-property"></a>Каноническое свойство PidTagDiscardReason
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит причину, по которой агент передачи сообщений (MTA) отклоняет сообщение. 
   

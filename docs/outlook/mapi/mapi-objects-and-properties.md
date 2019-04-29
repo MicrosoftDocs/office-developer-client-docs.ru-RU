@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 0aebf536-dcfb-406d-86ac-65db98c78139
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 7fef84b7519c7a9d6373198283e903fba4fd0780
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345810"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411213"
 ---
 # <a name="mapi-objects-and-properties"></a>Объекты и свойства MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Некоторые свойства поддерживаются множеством различных типов объектов. Следующие свойства являются примерами свойств, которые используются несколькими объектами:
   

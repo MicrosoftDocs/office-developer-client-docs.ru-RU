@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 98597495-7761-4eda-ae75-1ccefa6abb81
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a99760e11c34404f48ec193750b1a7f4ac541674
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327834"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412305"
 ---
 # <a name="pidtagphysicaldeliverymode-canonical-property"></a>Каноническое свойство PidTagPhysicalDeliveryMode
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов, определяющих режим физической доставки (например, особая доставка) для сообщения, предназначенного для определенного получателя.
   

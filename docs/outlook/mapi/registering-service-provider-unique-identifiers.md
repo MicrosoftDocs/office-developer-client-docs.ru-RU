@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 964fceb4-8a1c-46c1-98e1-a325c9259f8b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9f4acbb06f85a88a6c057da263ae95e09f72e0bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328401"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410177"
 ---
 # <a name="registering-service-provider-unique-identifiers"></a>Регистрация уникальных идентификаторов поставщиков служб
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Адресная книга, хранилище сообщений и поставщики транспорта используют уникальный идентификатор, который называется [мапиуид](mapiuid.md) для регистрации в объектах обслуживания различных типов. **Мапиуид** — это 16-байтовый идентификатор, который содержит GUID. Вы можете создать **мапиуид** с помощью следующей процедуры: 
   

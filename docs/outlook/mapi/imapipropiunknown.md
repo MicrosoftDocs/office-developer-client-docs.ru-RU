@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 3c9e4e05-cd3a-4b56-9dff-879e33ff6fd5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6b0a8923ee5efe22584170ce9853698885527ee8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282473"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407664"
 ---
 # <a name="imapiprop--iunknown"></a>IMAPIProp : IUnknown
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Позволяет клиентам, поставщикам услуг и MAPI работать со свойствами. Этот интерфейс реализуется всеми объектами, которые поддерживаются свойствами.
   
@@ -53,7 +53,7 @@ ms.locfileid: "32282473"
 |[Жетнамесфромидс](imapiprop-getnamesfromids.md) <br/> |Предоставляет имена свойств, которые соответствуют одному или нескольким идентификаторам свойств.  <br/> |
 |[Жетидсфромнамес](imapiprop-getidsfromnames.md) <br/> |Предоставляет идентификаторы свойств, соответствующие одному или нескольким именам свойств.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
  **IMAPIProp** является базовым интерфейсом для следующих интерфейсов: 
   

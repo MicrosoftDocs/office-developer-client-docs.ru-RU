@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 15be5a8c-4299-4434-b521-c901215b9dda
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b0260ffe5dc4806cb627fd71c78866bf96796455
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341008"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434720"
 ---
 # <a name="fbadcolumnset"></a>FBadColumnSet
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Проверяет допустимость набора столбцов таблицы для использования поставщиком услуг при следующем вызове метода [IMAPITable:: метода SetColumns](imapitable-setcolumns.md) . 
   
@@ -55,7 +55,7 @@ FALSE
   
 > Указанный набор столбцов является допустимым.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Функция **фбадколумнсет** обрабатывает столбцы типа пт_еррор как недопустимые и столбцы типа пт_нулл как допустимые. 
   

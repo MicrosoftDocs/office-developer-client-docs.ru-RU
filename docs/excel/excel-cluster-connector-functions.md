@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 65927ef9-29f7-499a-a1c1-6f672c09bb6b
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 41a5cf1ecb7c8f38f4aa5b62a493b3f45c2fe090
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311069"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408588"
 ---
 # <a name="excel-cluster-connector-functions"></a>Функции соединителя кластера Excel
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 В библиотеках DLL соединителя кластера Microsoft Excel 2013 должны быть реализованы функции, описанные в этом разделе.
   
@@ -26,7 +26,7 @@ ms.locfileid: "32311069"
 
 Excel вызывает точки входа в кластерном соединителе для передачи вызовов пользовательских функций в высокопроизводительный вычислительный кластер, а для управления сеансом кластера.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 
 [CallUDF](calludf.md)
   

@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 72b447e9-b4f2-4557-baf5-0afefe463749
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 587736e7ca2f30468b169a33cea34927f857382c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328359"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410877"
 ---
 # <a name="rendering-an-attachment-in-plain-text"></a>Отображение вложения в виде обычного текста
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Чтобы отобразить вложение в сообщении с обычным текстом, извлеките свойство **пр_рендеринг_поситион** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)) вложения и примените его к данным в **пр_аттач_рендеринг** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md)). свойств. Получить **пр_рендеринг_поситион**можно двумя способами:
   

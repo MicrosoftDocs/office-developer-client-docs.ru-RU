@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 9c76bf02-7269-65bb-2fd2-920243d962ef
 description: Указывает, можно ли напечатать фигуры, принадлежащие слою.
 ms.openlocfilehash: f9a1dca6d45b53c02ff0ed29f921c352fc947630
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356184"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435217"
 ---
 # <a name="print-cell-layers-section"></a>Print Cell (Layers Section)
 
 Указывает, можно ли напечатать фигуры, принадлежащие слою.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Можно распечатать фигуры.  <br/> |
 |FALSE  <br/> |Невозможно напечатать фигуры.  <br/> |

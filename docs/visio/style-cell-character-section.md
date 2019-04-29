@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4372f1e1-f0a9-2f63-ff79-58f2afdceed5
 description: Показывает форматирование символов, применяемое к диапазону текста в блоке текста фигуры.
 ms.openlocfilehash: 349bdc42485aa511011aeb85a43f1ab3e4ea853d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329813"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411430"
 ---
 # <a name="style-cell-character-section"></a>Style Cell (Character Section)
 
@@ -27,7 +27,7 @@ ms.locfileid: "32329813"
 | Подчеркнутый  <br/> | &amp;H4  <br/> |**Висундерлине** <br/> |
 | Малые прописные  <br/> | &amp;H8  <br/> |**Виссмаллкапс** <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Ячейка style содержит сведения о форматировании, примененные к поддиапазону текста фигуры, если раздел символы содержит несколько строк. В противном случае он содержит сведения о форматировании для всего текста фигуры.
   

@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 88a3356c-0b53-4401-8fcc-64071723c226
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 39d98972c22bd49549bf370ce1699b15cf1e27d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339909"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408924"
 ---
 # <a name="pidtagassociatedsharingprovider-canonical-property"></a>Каноническое свойство PidTagAssociatedSharingProvider
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет, настроен ли поставщик хранилища файлов личных папок (PST) в качестве PST-файла Microsoft SharePoint 2010.
   
@@ -30,7 +30,7 @@ ms.locfileid: "32339909"
 |Тип данных:  <br/> |PT_CLSID  <br/> |
 |Область:  <br/> |Внутренняя таблица хранения личных данных (PST)  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство указывает, настроен ли PST-файл для Microsoft SharePoint 2010. Если свойство отсутствует, PST-файл не был настроен как PST-файл Microsoft SharePoint 2010.
   

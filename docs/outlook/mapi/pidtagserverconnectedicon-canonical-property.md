@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 8adbc29b-8fb1-474f-b128-b8fc58283b92
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 07ffd527d94dce4f040b577eedc6822020f95184
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342877"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410464"
 ---
 # <a name="pidtagserverconnectedicon-canonical-property"></a>Каноническое свойство PidTagServerConnectedIcon
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает значок, отображаемый в строке состояния.
   

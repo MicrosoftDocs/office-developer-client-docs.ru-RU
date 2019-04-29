@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 60ebbcd5-b758-4c96-b8ec-089e0aae1a5f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e9aee3280edbed60e97ef6e00e61f3086f6f07ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330144"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436337"
 ---
 # <a name="pidtagresourcemethods-canonical-property"></a>Каноническое свойство PidTagResourceMethods
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов, указывающих методы в интерфейсе **имапистатус** , поддерживаемые объектом Status. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32330144"
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство указывает, какие методы в реализации объекта Status поддерживаются в **имапистатус** . Объектам состояния разрешено возвращать МАПИ_Е_НО_СУППОРТ из неподдерживаемых методов. 
   

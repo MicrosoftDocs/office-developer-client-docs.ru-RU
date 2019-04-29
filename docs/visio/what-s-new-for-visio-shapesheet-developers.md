@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d4f0cf7a-ac4b-c914-7887-e1d65e9d59fa
 description: Visio 2013 предоставляет функциональную единую платформу для ваших документов. Новые функции и ячейки таблиц свойств фигур, а также новые свойства, методы, события и объекты автоматизации предоставляют больше возможностей по определению и контролю поведения элементов в решениях.
 ms.openlocfilehash: 9ab1c447e7cfdf41b8c88a85438ac2904b1395cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297209"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413327"
 ---
 # <a name="whats-new-for-visio-shapesheet-developers"></a>Новые возможности для разработчиков таблиц свойств фигур Visio
 
@@ -100,7 +100,7 @@ Visio 2013 предоставляет функциональную единую
    
 В приведенной ниже таблице перечислены ячейки, измененные в Visio 2013.
   
-|**Измененная ячейка**|**Notes**|
+|**Измененная ячейка**|**Примечания**|
 |:-----|:-----|
 |[ShdwType](shdwtype-cell-page-properties-section.md) <br/> |Новые значение и константа автоматизации  <br/> |
    

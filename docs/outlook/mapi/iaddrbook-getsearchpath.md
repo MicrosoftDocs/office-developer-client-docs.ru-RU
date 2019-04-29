@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 43b51a66-71fa-4e10-93e4-d533b48af4de
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: f8c129e772870804ef464765b2035a3582317a09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341393"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412984"
 ---
 # <a name="iaddrbookgetsearchpath"></a>IAddrBook::GetSearchPath
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает упорядоченный список идентификаторов элементов контейнеров, которые должны быть включены в процесс разрешения имен, инициированный методом [IAddrBook:: ресолвенаме](iaddrbook-resolvename.md) . 
   
@@ -54,7 +54,7 @@ S_OK
   
 > Путь поиска успешно получен.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Клиенты и поставщики услуг вызывают метод **жетсеарчпас** , чтобы получить путь поиска, используемый для разрешения имен с помощью метода **ресолвенаме** . Как правило, клиенты вызывают метод [IAddrBook:: сетсеарчпас](iaddrbook-setsearchpath.md) для установки пути поиска контейнера в профиле перед вызовом **жетсеарчпас** для их извлечения. Однако вызывать **сетсеарчпас** необязательно. 
   

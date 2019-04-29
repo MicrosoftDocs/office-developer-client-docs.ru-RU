@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b7d90666-a1bb-f0de-32da-b2855977f648
 description: Определяет, является ли предварительный просмотр изображения черновым или подробным.
 ms.openlocfilehash: 9db2d3e1eb829bfd2ad787fcfc94cd9ba5abaf9e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356037"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416820"
 ---
 # <a name="previewquality-cell-document-properties-section"></a>PreviewQuality Cell (Document Properties Section)
 

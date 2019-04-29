@@ -13,17 +13,17 @@ api_type:
 ms.assetid: ec1b8e14-b27d-4a28-b9b7-f36f7c3e7427
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2edc65b4c0dad964e83b2731528124a86c87a32d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338117"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418311"
 ---
 # <a name="pidtagcontactaddressbookuid-canonical-property"></a>Каноническое свойство PidTagContactAddressBookUid
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор, идентифицирующий этот сеанс контактной адресной книги.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32338117"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если настроено несколько книг адресных адресов контактов, для каждого из них должно быть задано значение. 
   

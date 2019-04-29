@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e0222afa-c148-4735-a603-cac7be6c91f9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 4d38648f5e3084c8342fca8d18f0bd3efc915155
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280087"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412634"
 ---
 # <a name="imapifoldercreatemessage"></a>IMAPIFolder::CreateMessage
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает новое сообщение.
   
@@ -67,7 +67,7 @@ S_OK
   
 > Сообщение успешно создано.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPIFolder:: CreateMessage** создает новое сообщение с универсальным или связанным контентом и назначает идентификатор записи. Идентификатор записи состоит из части, представляющей поставщика хранилища сообщений, и части, представляющей отдельное сообщение. 
   

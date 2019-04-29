@@ -13,15 +13,15 @@ api_type:
 ms.assetid: 9d04a124-54d4-43ac-967f-ea8e7a09b1d0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6d23d56a27095497aedc64d7bbf5ffda266d0c97
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282756"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420810"
 ---
 # <a name="sizeddtblcheckbox"></a>SizedDtblCheckBox
  
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает именованную структуру, которая включает структуру [дтблчеккбокс](dtblcheckbox.md) для описания элемента управления "флажок" и метку указанной длины. 
   
@@ -44,7 +44,7 @@ _u_
   
 > Имя для новой структуры.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Макрос **сизеддтблчеккбокс** позволяет установить флажок, если число символов в метке известно. Новая структура создается со следующими элементами: 
   

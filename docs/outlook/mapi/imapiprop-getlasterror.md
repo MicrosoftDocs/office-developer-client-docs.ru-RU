@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f64a765d-c653-4eef-a0fc-24a54968757c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 8c31cbf0472d3d64c7327fcfc80480ef27a1638e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342051"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435833"
 ---
 # <a name="imapipropgetlasterror"></a>IMAPIProp::GetLastError
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущем сообщении об ошибке. 
   
@@ -63,7 +63,7 @@ S_OK
   
 > Установлен либо флаг МАПИ_УНИКОДЕ, либо реализация не поддерживает Юникод, или МАПИ_УНИКОДЕ не задано, а реализация поддерживает только Юникод.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPIProp:: GetLastError** предоставляет сведения о предыдущем вызове метода, который завершился сбоем. Клиенты могут предоставить пользователям подробные сведения об ошибке, включив данные из структуры **мапиеррор** в диалоговом окне. 
   

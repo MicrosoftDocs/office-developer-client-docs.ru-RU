@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 098d216f-e699-0e74-f702-ccfa7809c19b
 description: Воспроизводит звуковой файл или системный звук.
 ms.openlocfilehash: 752412aab6584d2b01235fe88644e3ec3fa5daee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346846"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435841"
 ---
 # <a name="playsound-function"></a>Функция PLAYSOUND
 
@@ -44,7 +44,7 @@ PLAYSOUND ("аккорд. wav", 0, 0, 0)
   
 Выполняет асинхронное воспроизведение звукового файла аккорд. WAV без сигнала предупреждения.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 PLAYSOUND ("Системекскламатион", 1, 0, 0)
   

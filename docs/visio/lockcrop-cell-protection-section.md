@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: ae05de63-b527-66e6-2c79-056c9c92ec95
 description: Блокирует объект из другой программы для кадрирования с помощью инструмента "рамка".
 ms.openlocfilehash: bfb8bebd50908387fa3f94a8ca228935ef709133
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359628"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411857"
 ---
 # <a name="lockcrop-cell-protection-section"></a>LockCrop Cell (Protection Section)
 
 Блокирует объект из другой программы для кадрирования с помощью инструмента " **рамка** ". 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Не удается обрезать фигуру  <br/> |
 | FALSE  <br/> | Фигуру можно обрезать.  <br/> |

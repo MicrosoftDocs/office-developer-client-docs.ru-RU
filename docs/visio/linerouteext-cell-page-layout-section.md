@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 3d16b8b3-601b-c10b-68a8-ffd47251306f
 description: Определяет внешний вид по умолчанию для всех соединителей на странице документа.
 ms.openlocfilehash: 6daed2e06f7673e5a4ec97ec83dc31bad2766301
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358984"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410625"
 ---
 # <a name="linerouteext-cell-page-layout-section"></a>LineRouteExt Cell (Page Layout Section)
 
 Определяет внешний вид по умолчанию для всех соединителей на странице документа.
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | нуль  <br/> | По умолчанию (прямолинейный)  <br/> |**Вислораутикстдефаулт** <br/> |
 | 1,1  <br/> | Располагает  <br/> |**Вислораутикстстраигхт** <br/> |

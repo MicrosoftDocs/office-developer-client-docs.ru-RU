@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 906f6c19-7f53-a8de-9748-c5dff0425bd3
 description: Этот элемент является заполнителем и не поддерживается.
 ms.openlocfilehash: 8d929d330aeccb45cc492a4d4b887ec81f4b2d87
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319882"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434965"
 ---
 # <a name="ifreebusysupportplaceholder11"></a>IFreeBusySupport::Placeholder11
 
@@ -32,7 +32,7 @@ BOOL Placeholder11(
 
 Всегда **имеет значение false**, так как этот член является заполнителем и не поддерживается.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот член должен возвращать **значение false**.
   

@@ -11,17 +11,17 @@ keywords:
 - Функция Excel12v [Excel 2007], функция Excel4v [Excel 2007]
 localization_priority: Normal
 ms.assetid: e3e96b98-c5a7-4625-95b6-a1e2d09c6d3d
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 11ab86a95dde2ad52840822b28ce4d74dd05d148
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310901"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414993"
 ---
 # <a name="excel4vexcel12v"></a>Excel4v/Excel12v
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Вызывает внутреннюю функцию листа Microsoft Excel, функцию или команду листа макроса или специальную функцию или команду, предназначенную только для XLL, из библиотеки DLL, XLL или программного ресурса.
   
@@ -58,7 +58,7 @@ int _cdecl Excel12v(int iFunction, LPXLOPER12 pxRes, int iCount, LPXLOPER12 rgx[
 
 Эти функции возвращают те же значения, что и **Excel4** и **Excel12**.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Эти функции удобно использовать в тех случаях, когда число аргументов, передаваемых оператору, является переменной. Например, **Excel4v** и **Excel12v** можно использовать при регистрации функций с помощью [xlfRegister](xlfregister-form-1.md) , где количество аргументов зависит от количества аргументов, принятых регистрируемой функцией. **Excel4v** и **Excel12v** также могут использоваться при написании функции-оболочки для **Excel4** или **Excel12**. В таких случаях необходимо преобразовать список аргументов переменных, как обычно указывается в **Excel4** или **Excel12**, в один аргумент массива, равный переменной Size, для обратного вызова в Excel с помощью **Excel4v** или **Excel12v**.
   

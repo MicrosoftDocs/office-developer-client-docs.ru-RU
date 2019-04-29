@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 797833f7-8295-41bc-8980-977e5f5e05e8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: a1ad209ff127a34d7da5ca8dbe1f4a6656d32876
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328932"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409456"
 ---
 # <a name="imapitablefreebookmark"></a>IMAPITable::FreeBookmark
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Освобождает память, связанную с закладкой.
   
@@ -49,7 +49,7 @@ S_OK
   
 > Указанная закладка не существует.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPITable:: фрибукмарк** освобождает закладку, которая больше не нужна. После этого вызова закладка станет недействительной. При отпускании каждой таблицы из памяти также освобождаются все связанные с ним закладки. 
   

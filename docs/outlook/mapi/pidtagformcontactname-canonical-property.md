@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 50cf1cac-c376-4bcd-9ede-8219b74ba200
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 0114da6030fbe5b1fe451e0e9831746bf58cc4b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316256"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435644"
 ---
 # <a name="pidtagformcontactname-canonical-property"></a>Каноническое свойство PidTagFormContactName
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя контакта для получения сведений о форме. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32316256"
 |Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Контакт обычно содержит имя человека или псевдоним, который отвечает за сопровождение формы. 
   

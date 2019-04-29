@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6c85414c-9fb6-cdc5-f5b6-8eb13c9608af
 description: Защищает выражение от удаления и изменения по действиям, выполняемым в окне документа, например при перемещении, изменении размера, группировании или разгруппировании фигур.
 ms.openlocfilehash: 0bdfa023d53e739a970cab65b1dbd67bc1a44461
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360195"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408154"
 ---
 # <a name="guard-function"></a>Функция GUARD
 

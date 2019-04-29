@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 17b2aa43-0267-45b6-8c57-11b7a5c67333
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f90cf661c069ecd476bd02c5719147633a8392e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331530"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408301"
 ---
 # <a name="imapistatus--imapiprop"></a>IMAPIStatus : IMAPIProp
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет сведения о состоянии подсистемы MAPI, интегрированной адресной книги и диспетчере очереди MAPI. Поставщик услуг реализует **имапистатус** для предоставления сведений о своем состоянии. 
   
@@ -56,7 +56,7 @@ ms.locfileid: "32331530"
 |**Пр_ресаурце_типе** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |Только для чтения  <br/> |
 |**Пр_статус_коде** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Объекты состояния, реализованные в MAPI, поддерживают следующие методы:
   

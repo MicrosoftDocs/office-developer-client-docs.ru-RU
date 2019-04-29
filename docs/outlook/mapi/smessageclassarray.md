@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 05f8c191-db2b-4174-8b3c-a9fdabfe6ac8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 01b42c04244d35d72dd856222b4bab543b84db45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339664"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412697"
 ---
 # <a name="smessageclassarray"></a>SMessageClassArray
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив указателей на строки класса сообщений.
   
@@ -51,7 +51,7 @@ typedef struct
   
 > Массив указателей на строки класса сообщений.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Структура **смессажеклассаррай** передается в качестве параметра в следующих методах: 
   

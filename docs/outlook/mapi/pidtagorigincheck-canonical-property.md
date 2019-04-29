@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 27e0ab2f-b373-41ae-b922-2f45f9671ac6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a82b1351c9d2d19c32e34b03a537a12bf93deb8a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335527"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435763"
 ---
 # <a name="pidtagorigincheck-canonical-property"></a>Каноническое свойство PidTagOriginCheck
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит двоичное значение проверки, позволяющее получателю отчета о доставке проверять происхождение исходного сообщения.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32335527"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство предоставляет средства для третьей стороны, например агента передачи сообщений (MTA) или пользователя обмена сообщениями, получающего отчет о доставке, для проверки источника отправленного сообщения. При наличии в полученном сообщении это свойство должно быть скопировано в отчет о доставке, созданный в ответ на сообщение.
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 62d5b815-f199-499e-85eb-2dff21a8216e
 description: Получает строку, представляющую коллекцию людей.
 ms.openlocfilehash: f755476f66ab2f91471b88c74baff899f31b83e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331663"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407657"
 ---
 # <a name="isocialpersongetfriendsandcolleagues"></a>ISocialPerson::GetFriendsAndColleagues
 
@@ -29,7 +29,7 @@ _Персонсколлектион_
   
 > вышли XML-строка, представляющая набор друзей человека и удовлетворяющая определению **друзей** в соответствии с определением схемы XML для расширяемости поставщика Outlook Social Connector (OSC). 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 OSC вызывает **жетфриендсандколлеагуес** , если поставщик OSC поддерживает кэшированную или гибридную синхронизацию друзей в социальной сети. Когда OSC вызывает метод **жетфриендсандколлеагуес** для пользователя Outlook, выполнившего вход в социальной сети, **ЖЕТФРИЕНДСАНДКОЛЛЕАГУЕС** возвращает строку XML, которая представляет друзей пользователя, выполнившего вход в социальной сети. XML-строка соответствует определению схемы XML **друзей** и указывает элемент **Person** (который также соответствует определению схемы поставщика OSC) для каждого друга. 
   

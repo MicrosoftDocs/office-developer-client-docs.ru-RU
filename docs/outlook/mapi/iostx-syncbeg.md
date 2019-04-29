@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 4a935df3-98c4-2742-206e-4e16eda7b9bc
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: ae4497295328155780fc5208d1699169698e02d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317173"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411941"
 ---
 # <a name="iostxsyncbeg"></a>IOSTX::SyncBeg
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ПодГотавливает локальное хранилище к синхронизации в определенном состоянии и получает сведения, необходимые для репликации.
   
@@ -148,7 +148,7 @@ HRESULT SyncBeg(
   
 > 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Клиент вызывает **[иосткс:: сетсинкресулт](iostx-setsyncresult.md)** , чтобы задать результат синхронизации, а затем вызывает **[Иосткс:: синценд](iostx-syncend.md)** , чтобы завершить это состояние. Клиент должен вызвать **[иосткс:: синценд](iostx-syncend.md)** для каждого вызова **Иосткс:: синкбег** для определения успешности репликации состояния. После того как это будет определено, Outlook может начать очистку своего внутреннего состояния. 
   

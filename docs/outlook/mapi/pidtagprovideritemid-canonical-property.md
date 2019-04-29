@@ -13,17 +13,17 @@ api_type:
 ms.assetid: fadbf1af-32c2-43ea-8475-15b31b2a9e68
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 48653b86d625da963b655dbd1acc01a46f4687dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286476"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412123"
 ---
 # <a name="pidtagprovideritemid-canonical-property"></a>Каноническое свойство PidTagProviderItemId
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает идентификатор для папки или элемента в хранилище.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32286476"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Мапинонтрансмиттабле  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Поставщики хранилища могут указывать значение этого свойства для папки или элемента, но должны поддерживать одинаковое значение между сеансами. Поставщики магазина это свойство используется для определения результатов поиска, возвращаемых из поисковой системы.
   

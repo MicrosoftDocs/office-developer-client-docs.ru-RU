@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 9b2e287e-1cf8-4b8f-b92c-a065ed264d02
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 784cac21aac5de18952f3768af9b8f189f604981
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328436"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411087"
 ---
 # <a name="recipient-properties-for-delivery-status-reports"></a>Свойства получателей для отчетов о состоянии доставки
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В отчетах о состоянии доставки для получателей имеются следующие свойства. **Пр_деливер_тиме** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)) не используется в отчетах о недоставке. **Пр_ндр_диаг_коде** ([PidTagNonDeliveryReportDiagCode](pidtagnondeliveryreportdiagcode-canonical-property.md)) и **пр_ндр_реасон_коде** ([PidTagNonDeliveryReportReasonCode](pidtagnondeliveryreportreasoncode-canonical-property.md)) используются только в отчетах о недоставке.
   

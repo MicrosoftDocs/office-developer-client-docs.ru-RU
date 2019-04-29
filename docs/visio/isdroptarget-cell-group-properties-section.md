@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 8140fc7b-b99c-54bb-7af3-7de6fcdae7d3
 description: Определяет, можно ли добавить фигуру в группу, перетащив ее в группу.
 ms.openlocfilehash: 50f545b3cbd4f7e1541a7f5e8ca32c34d0429c5e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297230"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410793"
 ---
 # <a name="isdroptarget-cell-group-properties-section"></a>IsDropTarget Cell (Group Properties Section)
 
 Определяет, можно ли добавить фигуру в группу, перетащив ее в группу.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Можно добавить фигуру в группу, перетащив ее в группу.  <br/> |
 |FALSE  <br/> |Не удается удалить фигуру в группу.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Вы также можете задать это значение, выбрав группу, нажав кнопку **поведение** на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) и установив флажок **принять пропущенные фигуры** . 
   

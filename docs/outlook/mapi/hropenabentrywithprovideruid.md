@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 83821a86-abff-460c-bb8e-9fd9d232dc6b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 20344185ffcbd90017fa3c3493218bd9b3ddfd74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347819"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408896"
 ---
 # <a name="hropenabentrywithprovideruid"></a>HrOpenABEntryWithProviderUID
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Открывает идентификатор **entryID** , используя адресную книгу Exchange, определенную в _пемсабпуид_. Эта функция работает аналогично [IAddrBook:: OpenEntry](iaddrbook-openentry.md) , за исключением того, что с помощью этой функции гарантируется, что [IAddrBook:: OpenEntry](iaddrbook-openentry.md) открывается с использованием ожидаемОго поставщика адресных книг Exchange. 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c9ceca01-9c4e-4b59-8171-a4c2d6aca45d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f2110682be9296a874e6f42d40a375b69d201431
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331887"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435154"
 ---
 # <a name="pidtagcontentlength-canonical-property"></a>Каноническое свойство PidTagContentLength
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит длину сообщения (в байтах), которая передается клиентскому приложению или поставщику услуг, чтобы определить, может ли быть доставлено сообщение этой длины. 
   
@@ -32,7 +32,7 @@ ms.locfileid: "32331887"
 |Связанные свойства:  <br/> |ПР_КОНТЕНТ_ЛЕНГС  <br/> |
 |Идентификатор:  <br/> |0x0009  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Exchange  <br/> |
+|Область:  <br/> |Exchange;  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 

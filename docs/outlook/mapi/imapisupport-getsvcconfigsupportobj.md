@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 56c3bdae-a3a8-4334-b6d2-a89c6820d72e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 6de0fed4df9d23e67c3520ffb019a961b890f988
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316560"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411311"
 ---
 # <a name="imapisupportgetsvcconfigsupportobj"></a>IMAPISupport::GetSvcConfigSupportObj
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает объект поддержки службы сообщений.
   
@@ -50,7 +50,7 @@ S_OK
   
 > Объект поддержки конфигурации успешно создан.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: жетсвкконфигсуппортобж** реализован для всех объектов поддержки. Поставщики услуг вызывают **жетсвкконфигсуппортобж** , чтобы создать объект поддержки конфигурации для передачи в функцию точки входа службы сообщений. 
   

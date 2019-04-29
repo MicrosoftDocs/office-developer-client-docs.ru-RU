@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 11304a4c-d986-4ad9-a140-19a59825a8df
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6e78c80d861a5a56584bfb03bfdf2895efde8730
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319293"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412410"
 ---
 # <a name="mapi-client-objects"></a>Клиентские объекты MAPI
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Стандартные клиентские приложения обмена сообщениями реализуют только один объект — приемник уведомлений. Приемники уведомлений наследуют от интерфейса [имапиадвисесинк: IUnknown](imapiadvisesinkiunknown.md) и используются MAPI и поставщиками услуг для уведомления о событиях. Некоторые клиенты также реализуют объекты хода выполнения для поддержки отображения диалоговых окон хода выполнения. 
   

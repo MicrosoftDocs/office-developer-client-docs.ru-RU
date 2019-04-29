@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 16b0e293-eeef-34b4-aeb0-4472815dd543
 description: Определяет толщину линии фигуры. Задайте толщину линии, введя число с допустимой единицей измерения.
 ms.openlocfilehash: 654a93f939226bedab2e40ab591dad0e3f872267
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341813"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412249"
 ---
 # <a name="lineweight-cell-line-format-section"></a>LineWeight Cell (Line Format Section)
 
 Определяет толщину линии фигуры. Задайте толщину линии, введя число с допустимой единицей измерения.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Кроме того, можно задать значение LineWeight в диалоговом окне **линия** (на вкладке **Главная** , в группе **фигур** , щелкнуть **линия**, выбрать толщину и щелкнуть **** **больше линий**).
   

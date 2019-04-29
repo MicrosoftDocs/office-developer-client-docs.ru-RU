@@ -9,15 +9,15 @@ api_type:
 ms.assetid: e37fc9d8-433b-41b4-84f2-42a952063f35
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 305b0534f828ea72c1e116fd38fb8f578062e32e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348582"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407538"
 ---
 # <a name="opening-message-text"></a>Открытие текста сообщения
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Текст сообщения хранится в свойстве текста по отношению к **тексту (PR)\_** или сжатом **RTF\_\_(пр.)** . Дополнительную информацию можно узнать в **статье\_Body** ([PidTagBody](pidtagbody-canonical-property.md)), **\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) и сжатом **\_RTF\_** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
 

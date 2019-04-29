@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e35216e0-c23f-70f2-0d5f-1ac5dc00fd8c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6fc5e8eb74d79d0a30ae6a423772ce741dee4562
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281594"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418094"
 ---
 # <a name="archivesourcesupportmask"></a>ArchiveSourceSupportMask
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, следует ли Microsoft Office Outlook сканировать папки в хранилище и автоматически архивировать их.
   
@@ -37,7 +37,7 @@ ms.locfileid: "32281594"
 |Тип свойства:  <br/> |PT_LONG  <br/> |
 |Тип доступа:  <br/> |Только чтение или чтение и запись в зависимости от поставщика услуг хранения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы обеспечить какую бы то ни было функцию хранилища, поставщик магазина должен реализовать [IMAPIProp: IUnknown](imapipropiunknown.md) и вернуть допустимый тег свойства для любого из этих свойств, переданного в вызов [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) . Когда тег свойства для любого из этих свойств передается в [IMAPIProp::](imapiprop-getprops.md)-Props, поставщик хранилища также должен возвращать правильное значение свойства. Поставщики хранилища могут вызывать [хржетонепроп](hrgetoneprop.md) и [хрсетонепроп](hrsetoneprop.md) для получения или задания этих свойств. 
   

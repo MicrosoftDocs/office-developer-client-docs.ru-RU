@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 599bfc7d-7b62-7cc1-69ff-6db04c96a49b
 description: Значение true, если учетная запись является учетной записью Exchange.
 ms.openlocfilehash: 2df750b208ff9d2a18cb0d7c22ec6b32b658c7b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327652"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418234"
 ---
 # <a name="propacctisexch"></a>PROP_ACCT_IS_EXCH
 
@@ -29,7 +29,7 @@ ms.locfileid: "32327652"
 |Тег свойства:  <br/> |0x00140003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **е_олк_проп_реад_онли**. 
   

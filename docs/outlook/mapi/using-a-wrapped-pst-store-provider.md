@@ -7,15 +7,15 @@ localization_priority: Normal
 ms.assetid: 98f08432-e86c-cba6-45fd-5a6c94d50aaf
 description: 'Дата последнего изменения: 03 июля, 2012'
 ms.openlocfilehash: b7c651044ab7f4cad7032db69e157c9a3589bde9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329689"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420824"
 ---
 # <a name="using-a-wrapped-pst-store-provider"></a>Использование поставщика упакованного PST-хранилища
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Перед использованием упакованного поставщика хранилища файлов личных папок (PST) необходимо инициализировать и настроить поставщик упакованного PST-хранилища. После настройки поставщика упакованного PST-хранилища необходимо реализовать функции, чтобы MAPI и Диспетчер очереди MAPI могли входить в систему поставщика хранилища сообщений. Дополнительные сведения об инициализации и входе в систему поставщика упакованного PST-хранилища можно найти в статье инициализация поставщика упакованного [PST-](initializing-a-wrapped-pst-store-provider.md) хранилища и вход в систему [поставщика упакованного PST-хранилища](logging-on-to-a-wrapped-pst-store-provider.md).
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 1ae7f629-fb9f-1a11-1194-b381d6c9de5b
 description: Указывает, вставляется ли разделитель в меню над этим действием.
 ms.openlocfilehash: 115dbfe051201dc3ec2b127ff129b077e1067865
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361035"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407839"
 ---
 # <a name="begingroup-cell-actions-section"></a>BeginGroup Cell (Actions Section)
 
 Указывает, вставляется ли разделитель в меню над этим действием. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |В меню над этим действием вставляется разделитель.  <br/> |
 |FALSE  <br/> |Разделитель не вставляется в меню над этим действием (по умолчанию).  <br/> |

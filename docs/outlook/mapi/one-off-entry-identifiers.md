@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 741d21ae-f14a-4b7f-80aa-91d0f0ff3f34
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: abe52cb45e13e6713d28fffe379e245e2483bffa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279696"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411045"
 ---
 # <a name="one-off-entry-identifiers"></a>Одноразовые идентификаторы записей
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Одноразовые идентификаторы записей создаются MAPI в методе **IAddrBook:: креатеонеофф** и компонентах, у которых нет доступа к подсистеме MAPI, например, к компонентам шлюза. For more information, see [IAddrBook::CreateOneOff](iaddrbook-createoneoff.md). На следующем рисунке показан формат идентификатора одноразовой записи.
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 500f60ed-fdec-4d70-8cf5-664c46643956
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ad8aec8d015849965bea6ac011c8a45e75c69ca1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287110"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408224"
 ---
 # <a name="dtpage"></a>DTPAGE
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывает диалоговое окно, созданное из таблицы отображения с помощью функции [буилддисплайтабле](builddisplaytable.md) . 
   
@@ -68,7 +68,7 @@ typedef struct DTPAGE
   
 > Указатель на массив структур [дтктл](dtctl.md) , по одному для каждого элемента управления на странице. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы определить файл справки для страницы с вкладками, установите для элемента **лпсзкомпонент** жестко заданную строку или элемент **улитемид** в целочисленный идентификатор ресурса. 
   

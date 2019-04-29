@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 132cb698-d9a5-4767-b3d1-5dd1343a1ff4
 description: При создании пользовательских приложений разработчики часто выполняют обработку ошибок, которая предполагает написание программы для проверки на наличие ошибок, созданных приложением, или для создания и инициирования пользовательских ошибок. Объектная модель InfoPath, предоставляемая пространством имен Microsoft. Office. InfoPath, поддерживает обработку ошибок с помощью класса FormError в связи с классом FormErrorCollection.
 ms.openlocfilehash: 30cf649188b7e4cbc35469d2a50540bb13ecb38d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303607"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410779"
 ---
 # <a name="handle-errors"></a>Обработка ошибок
 
@@ -33,7 +33,7 @@ ms.locfileid: "32303607"
 
 Класс [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для управления объектами [FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.aspx) , содержащимися в коллекции. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Метод [Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) (+ 3 перегрузки)  <br/> |Создает объект **FormError** и добавляет его в коллекцию.  <br/> |
 |Метод [Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) (+ 1 перегрузка)  <br/> |Удаляет указанную пользовательскую ошибку из коллекции.  <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "32303607"
 
 Класс [FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.aspx) предоставляет следующие свойства, которые могут использоваться разработчиками форм для доступа к сведениям о произошедшей ошибке. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Свойство [детаиледмессаже](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.DetailedMessage.aspx)  <br/> |Возвращает или задает подробное сообщение об ошибке для объекта **FormError**.  <br/> |
 |Свойство [ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.ErrorCode.aspx)  <br/> |Возвращает или задает код ошибки для объекта **FormError**.  <br/> |

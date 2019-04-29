@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 9e3c8d6e-74be-46a7-94ed-74a969caf165
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 302aebd0be78c833acf4f82d2bb815ba46ae6f77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317397"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412144"
 ---
 # <a name="imsgserviceadmingetlasterror"></a>IMsgServiceAdmin::GetLastError
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о последней ошибке, произошедшей для объекта администрирования службы сообщений. 
   
@@ -63,7 +63,7 @@ S_OK
   
 > Установлен флаг МАПИ_УНИКОДЕ, а объект администрирования службы сообщений не поддерживает Юникод.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имсгсервицеадмин:: GetLastError** получает сведения о последней ошибке, возвращенной вызовом метода [имсгсервицеадмин](imsgserviceadminiunknown.md) . Клиенты могут предоставить пользователям подробные сведения об ошибке, включив эти сведения в диалоговое окно. 
   

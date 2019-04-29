@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0135f049-0311-45e5-9685-78597d599a4e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e7d30c1aba8ddc1419045c1caa8524f7d2063dc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317402"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434979"
 ---
 # <a name="imsgserviceadmincreatemsgservice"></a>IMsgServiceAdmin::CreateMsgService
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Устаревший: рекомендуется использовать [IMsgServiceAdmin2:: креатемсгсервицеекс](imsgserviceadmin2-createmsgserviceex.md) . Добавляет службу сообщений в текущий профиль. 
   
@@ -80,7 +80,7 @@ S_OK
   
 > Имя службы сообщений не входит в раздел **[Services]** файла MapiSvc. INF. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имсгсервицеадмин:: креатемсгсервице** добавляет службу сообщений в текущий профиль. **Креатемсгсервице** вызывает функцию точки входа службы сообщений для выполнения определенных задач по настройке служб. Если в параметре _ulFlags_ ЗАДАН флаг сервице_уи_алловед, устанавливаемая служба сообщений может отображать страницу свойств, позволяющую пользователю настраивать его параметры. 
   

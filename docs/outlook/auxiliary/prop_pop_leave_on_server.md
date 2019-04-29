@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 22d7c1e8-48b9-4768-b4de-9a9f32a3aabb
 description: Указывает, что копия сообщения на сервере остается на сервере для учетной записи POP.
 ms.openlocfilehash: e1bbddea0f10c07d630676960d1b330f6055e137
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326490"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410947"
 ---
 # <a name="proppopleaveonserver"></a>PROP_POP_LEAVE_ON_SERVER
 
@@ -27,7 +27,7 @@ ms.locfileid: "32326490"
 |Тег свойства:  <br/> |0x10000003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В приведенной ниже таблице перечислены возможные значения. Для [](constants-account-management-api.md) получения дополнительных сведений о константах см. 
   

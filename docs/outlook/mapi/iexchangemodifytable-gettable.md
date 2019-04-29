@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 97df32c4-07c6-41f1-84e7-c6e87d396e34
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 87c60f424e08eea011bb643041196ca9445a3aa1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336619"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436246"
 ---
 # <a name="iexchangemodifytablegettable"></a>IExchangeModifyTable::GetTable
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает указатель на интерфейс для объекта таблицы MAPI.
   

@@ -7,15 +7,15 @@ localization_priority: Normal
 ms.assetid: 5c6df156-4015-2d0f-26b7-07055a3f7810
 description: 'Дата последнего изменения: 02 июля 2012 г.'
 ms.openlocfilehash: 0d977507f6aff8aa5fbf437b4b718486a71f67dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299064"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420733"
 ---
 # <a name="access-a-store-on-the-remote-server-when-outlook-is-in-cached-exchange-mode"></a>Доступ к хранилищу на удаленном сервере, если Outlook работает в режиме кэширования Exchange
  
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе приведен пример кода на языке C++, в котором показано, как использовать флаг **мапи_но_каче** для открытия папки или сообщения в хранилище сообщений на удаленном сервере, если Microsoft Office Outlook находится в режиме кэширования Exchange. 
   

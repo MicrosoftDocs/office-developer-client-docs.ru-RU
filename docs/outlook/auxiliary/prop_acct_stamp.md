@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 70b6ecc8-6be3-0f05-3291-ac5b7f2ecfdb
 description: Возвращает метку учетной записи.
 ms.openlocfilehash: fe3c6e65e12ab62bd1c2ec0245e4a22502f610eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327596"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408252"
 ---
 # <a name="propacctstamp"></a>PROP_ACCT_STAMP
 
@@ -29,7 +29,7 @@ ms.locfileid: "32327596"
 |Тег свойства:  <br/> |0x000D001F  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **е_олк_проп_реад_онли**. 
   

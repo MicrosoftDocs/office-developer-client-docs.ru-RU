@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 4ad91898-b23e-4410-8839-a65259e53d37
 description: 'Существует два типа параметров управления правами на доступ к данным (IRM), доступных в Microsoft InfoPath: один для защиты доступа к шаблонам форм InfoPath и один для управления доступом к данным формы, которые хранятся в заполненных формах.'
 ms.openlocfilehash: 6f7317cfdc4e6bfc89482e813b1670c8b8861a6b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299792"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420012"
 ---
 # <a name="work-with-information-rights-management-settings"></a>Работать с параметрами управления правами на доступ к данным
 
@@ -70,7 +70,7 @@ ms.locfileid: "32299792"
 
 Класс **UserPermissionCollection** предоставляет указанные ниже свойства и один метод. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Метод [апплиполици](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.ApplyPolicy.aspx)  <br/> |Применяет к форме политику с помощью файла шаблона политики.  <br/> |
 |Свойство [DocumentAuthor](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.DocumentAuthor.aspx)  <br/> |Получает или задает автора текущей формы в качестве адреса электронной почты.  <br/> |
@@ -86,7 +86,7 @@ ms.locfileid: "32299792"
 
 Класс **UserPermissionCollection** предоставляет следующие свойства и методы. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Метод [Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) (+ 3 перегрузки)  <br/> |Добавляет нового пользователя для текущей формы с указанием разрешений и срока действия (необязательно).  <br/> |
 |Метод [Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Remove.aspx)  <br/> |Удаляет из коллекции объект **UserPermission** с указанным идентификатором **UserId**.  <br/> |
@@ -98,7 +98,7 @@ ms.locfileid: "32299792"
 
 Класс **UserPermission** предоставляет указанные ниже свойства и один метод. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Метод [Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Remove.aspx)  <br/> |Удаляет текущий объект **UserPermission** из разрешений формы.  <br/> |
 |Свойство [ExpirationDate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.ExpirationDate.aspx)  <br/> |Возвращает или задает необязательный срок действия разрешений текущей формы, назначенных пользователю, связанному с экземпляром класса **UserPermission**.  <br/> |
@@ -109,7 +109,7 @@ ms.locfileid: "32299792"
 
 Разрешения пользователя задаются или считываются с помощью значений перечисления [пермиссионтипе](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.aspx) . 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |**Пермиссионтипе. Change** <br/> |Позволяет пользователям просматривать, редактировать, копировать и сохранять форму, но не печатать ее. Эквивалентно сочетанию разрешений **Read**, **Edit**, **Save** и **Extract**.  <br/> |
 |**Пермиссионтипе. Edit** <br/> |Позволяет пользователю редактировать форму.  <br/> |

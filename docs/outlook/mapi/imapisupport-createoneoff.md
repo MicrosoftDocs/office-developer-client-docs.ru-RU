@@ -13,17 +13,17 @@ api_type:
 ms.assetid: ee57d6e0-9de0-4427-97ce-371c1c01f3de
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9571d51e01c2d58d9b8a9a913ba2c210ae0bd44d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322404"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411997"
 ---
 # <a name="imapisupportcreateoneoff"></a>IMAPISupport::CreateOneOff
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает идентификатор записи для одного адреса.
   
@@ -78,7 +78,7 @@ S_OK
   
 > Успешно создан идентификатор одноразовой записи.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: креатеонеофф** реализован для всех объектов поддержки поставщика услуг. Поставщики услуг вызывают **креатеонеофф** для создания идентификатора записи для одноразового получателя (получателя, не относящегося к какому-либо из контейнеров из загруженных в текущий момент поставщиков адресной книги). 
   

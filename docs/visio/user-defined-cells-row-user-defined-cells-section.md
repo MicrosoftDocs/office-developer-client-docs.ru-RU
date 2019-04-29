@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6c48b9b3-5c62-7d5a-1c8f-fe96606f4dea
 description: Содержит значение и описательное приглашение для всех ячеек в решении, определенных пользователем. Фигура содержит одну строку заданных пользователем ячеек для каждой из заданных пользователем комбинаций ячеек значений и приглашений.
 ms.openlocfilehash: 01e2da8ef1e97e8a911df605ab6cf1e9f8a853eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337186"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420691"
 ---
 # <a name="user-defined-cells-row-user-defined-cells-section"></a>User-defined Cells Row (User-defined Cells Section)
 
@@ -27,7 +27,7 @@ ms.locfileid: "32337186"
 |[Значение](value-cell-user-defined-cells-section.md) <br/> |Задает значение для соответствующей пользовательской ячейки.  <br/> |
 |[Prompt](prompt-cell-user-defined-cells-section.md) <br/> |Задает описательное приглашение или комментарий для пользовательской ячейки.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Пользовательские ячейки можно использовать для ввода формул или констант, на которые ссылаются другие ячейки или надстройки. Значения в пользовательских ячейках являются переносимыми, то есть если фигура, ссылающаяся на пользовательскую ячейку в одной фигуре, копируется в другую фигуру, которая не имеет той же пользовательской ячейки, ячейка добавляется к фигуре.
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: db7b353f-4379-8865-1c35-36b89cf93257
 description: Указывает тип горизонтальной сетки для использования.
 ms.openlocfilehash: 5ebd172e56a66bfb39bd9bfa20967bb6b52c5aa2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328990"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436043"
 ---
 # <a name="xgriddensity-cell-ruler-amp-grid-section"></a>Ячейка XGridDensity (раздел "Линейка и сетка")
 
 Указывает тип горизонтальной сетки для использования.
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 |нуль  <br/> |Фиксация  <br/> |**visGridFixed** <br/> |
 |2  <br/> |С большими интервалами  <br/> |**visGridCoarse** <br/> |

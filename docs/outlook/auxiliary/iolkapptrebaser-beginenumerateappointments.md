@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8946703a-aaa8-6b3f-aa68-931365db620d
 description: Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.
 ms.openlocfilehash: cc89b3510f09bb98fd6720cb6d5ab3edeb13eac8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321947"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407272"
 ---
 # <a name="iolkapptrebaserbeginenumerateappointments"></a>IOlkApptRebaser::BeginEnumerateAppointments
 
@@ -42,7 +42,7 @@ _Ппконтекст_
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 This task runs on a new thread.
   

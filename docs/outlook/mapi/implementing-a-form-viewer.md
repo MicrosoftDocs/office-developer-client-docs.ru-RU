@@ -9,17 +9,17 @@ api_type:
 ms.assetid: a567185c-bd72-4307-928c-08cac5494c1a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: bbd0792b0e3e3f274797fabd7f5d5eb49cfc73fd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332895"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435819"
 ---
 # <a name="implementing-a-form-viewer"></a>Реализация средства просмотра форм
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Средство просмотра форм включает три объекта: сайт сообщений, приемник уведомлений о представлении и контекст представления. Каждый из этих объектов позволяет взаимодействовать с сервером форм и формами.
   

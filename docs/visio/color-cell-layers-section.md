@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 61c19342-46fb-48d4-6375-c9ea8306286d
 description: Указывает цвет, используемый для отображения слоя.
 ms.openlocfilehash: a2eef24187165cabfdfc8dee49747a2381562d3e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341827"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435133"
 ---
 # <a name="color-cell-layers-section"></a>Color Cell (Layers Section)
 
 Указывает цвет, используемый для отображения слоя.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы задать цвет, введите число от 0 до 23.
   

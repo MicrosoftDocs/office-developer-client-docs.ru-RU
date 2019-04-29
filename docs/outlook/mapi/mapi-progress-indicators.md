@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 73a99e52-97fe-40f5-af90-52cfd858ab22
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: cdfb6898146583b7da9b043eadd3acc09edbf292
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328212"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410709"
 ---
 # <a name="mapi-progress-indicators"></a>Индикаторы хода выполнения MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Многие операции, выполняемые для клиентов, могут занимать много времени. Чтобы уведомить клиентов о ходе выполнения длительной операции, можно отобразить индикатор, отображающий законченную часть операции в любой заданную точку от начала операции до ее завершения. Индикатор выполнения показывает процент от общей операции, которую необходимо выполнить.
   

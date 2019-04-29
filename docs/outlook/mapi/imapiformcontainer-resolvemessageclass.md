@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 9ce13f11-5787-4ea5-a84f-b1e3824529ee
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c0954d6f8b14b4088ece2ac276b045b6c163ed98
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342163"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408553"
 ---
 # <a name="imapiformcontainerresolvemessageclass"></a>IMAPIFormContainer::ResolveMessageClass
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Разрешает класс сообщения в форму в контейнере формы и возвращает объект сведений о форме для этой формы.
   
@@ -63,7 +63,7 @@ S_OK
   
 > Класс сообщения, переданный в параметре _сзмессажекласс_ , не соответствует классу сообщения для любой формы в контейнере формы. 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Клиентские приложения вызывают метод **имапиформконтаинер:: ресолвемессажекласс** для разрешения класса сообщений в форму в контейнере формы. Объект сведений о форме, возвращенный в параметре _ппформинфо_ , предоставляет дополнительный доступ к свойствам формы с заданным классом Message. 
   

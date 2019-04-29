@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 02910389-b346-431c-a282-dedbc9f7dfc6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: cf91620042f916d51f27be50d15f72db537ad5f7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335247"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412949"
 ---
 # <a name="pidtagcontrolstructure-canonical-property"></a>Каноническое свойство PidTagControlStructure
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит указатель на структуру для элемента управления, используемого в диалоговом окне. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32335247"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Таблица отображения MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство представляет длинный указатель, приведенный к одной из структур управления. Структуры управления включают:
   

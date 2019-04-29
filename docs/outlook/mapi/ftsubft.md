@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 6619fc41-5518-44ce-85c1-6b0077ed5cb9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: edd789a586adc71289ff821aa7cf7a33f79fb738
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300394"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408420"
 ---
 # <a name="ftsubft"></a>FtSubFt
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ВыЧитает одно целое число без знака (64) из другого. 
   

@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 670fb896-9aaf-4a96-83f7-76237409e956
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: d8e620516e2b3e61cd07f3a08af989cc4ed5b61e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348603"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436029"
 ---
 # <a name="opening-the-default-message-store"></a>Открытие хранилища сообщений по умолчанию
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В каждом конкретном сеансе одно хранилище сообщений действует как хранилище сообщений по умолчанию. Хранилище сообщений по умолчанию имеет следующие характеристики:
   

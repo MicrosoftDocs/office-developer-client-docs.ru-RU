@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 08b730c4-5dd8-106e-ddf3-da2c942e2ef6
 description: Определяет диапазон уровней отображения для фигуры (относительный диапазон группирования Z-порядка).
 ms.openlocfilehash: 4f7e3fcb2d28f8c4c0706502c66444c121ae6ee6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332538"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408147"
 ---
 # <a name="displaylevel-cell-shape-layout-section"></a>DisplayLevel Cell (Shape Layout Section)
 
 Определяет диапазон уровней отображения для фигуры (относительный диапазон группирования Z-порядка).
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Z-порядок — это порядок отображения фигур на странице документа. Фигура, расположенная выше в Z-порядке, отображается перед фигурой, которая находится ниже в Z-порядке, когда одна из фигур накладывается на другую. 
   

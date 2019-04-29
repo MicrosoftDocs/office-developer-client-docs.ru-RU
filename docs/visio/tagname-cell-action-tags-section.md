@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 28d1cd60-4fb6-9feb-1a13-0962798ac1ad
 description: Имя тега действия, используемого в качестве ключа для сопоставления тега действия с его действиями.
 ms.openlocfilehash: 777d6c1098888c9835c1ad367bb70926b835180b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332398"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417912"
 ---
 # <a name="tagname-cell-action-tags-section"></a>TagName Cell (Action Tags Section)
 

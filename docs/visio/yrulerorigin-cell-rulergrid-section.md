@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5d21b64f-a559-76ef-06df-d24c048cc6ef
 description: Указывает точку начала координат на линейке по оси y для страницы.
 ms.openlocfilehash: ead9ca453bfeb86f32a943950b297b9b629de95d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284967"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420418"
 ---
 # <a name="yrulerorigin-cell-ruler-amp-grid-section"></a>Ячейка YRulerOrigin (раздел "Линейка и сетка")
 

@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 83692674-0b5a-468d-9cd7-a2ac3d140bda
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 76332b57b2957b5682efb415121ea6db42409c30
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316764"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412613"
 ---
 # <a name="developing-a-mapi-message-store-provider"></a>Разработка поставщика хранилища сообщений MAPI
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Как и другие поставщики службы MAPI, хранилища сообщений — это библиотеки динамической компоновки (DLL), которые представляют службы базового механизма хранения для клиентских приложений MAPI и диспетчера очереди MAPI. Поставщик хранилища сообщений предоставляет базовый механизм хранения в виде иерархического набора папок и сообщений, которые могут использовать клиенты MAPI и Диспетчер очереди MAPI.
   

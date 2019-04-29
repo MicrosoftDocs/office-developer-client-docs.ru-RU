@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: fdc032c2-d0bd-1592-de3f-33c478d066ee
 description: Возвращает значение, представляющее знак числа.
 ms.openlocfilehash: 34bbbab17de94b0a8c95b4b0bfd3829a06dc7e70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357458"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420656"
 ---
 # <a name="sign-function"></a>Функция SIGN
 
@@ -33,7 +33,7 @@ SIGN (* * *Number* * *, * * *Монте* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Numeric
+Числовой
   
 ## <a name="remarks"></a>Примечания
 
@@ -47,13 +47,13 @@ SIGN (-5)
   
 Возвращает значение – 1.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 ЗНАК (0)
   
 Возвращает 0.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 SIGN (0.00000000001)
   

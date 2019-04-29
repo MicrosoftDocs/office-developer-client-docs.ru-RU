@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 7ffe9e7d-1084-4698-86fb-e7eb55064dc1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6fb6f1c8def0e772c580ddb8abf7b5ed0f3d9e74
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334547"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420124"
 ---
 # <a name="pidtagcontactaddressbookfoldernames-canonical-property"></a>Каноническое свойство PidTagContactAddressBookFolderNames
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит имена папок контактов, в которых хранятся почтовые пользователи.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32334547"
 |Тип данных:  <br/> |ПТ_МВ_УНИКОДЕ, PT_MV_STRING8  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойства раздела "профиль адресной книги контакта".
   

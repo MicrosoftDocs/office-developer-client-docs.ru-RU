@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 67cda756-ba71-4f29-a601-55359e44d93b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7918c5d5b585ffb199bfbc140edfb8286b499b40
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329241"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436169"
 ---
 # <a name="pidtagoriginalauthoremailaddress-canonical-property"></a>Каноническое свойство PidTagOriginalAuthorEmailAddress
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит адрес электронной почты автора первой версии сообщения, то есть сообщение перед пересылкой или ответом.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32329241"
 |Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эти свойства являются примерами свойств адреса для автора сообщения. При первой отправке сообщения клиентское приложение должно задать для этих свойств значение свойства **пр_сендер_емаил_аддресс** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)). Он никогда не изменяется при пересылке сообщения или ответе на него.
   

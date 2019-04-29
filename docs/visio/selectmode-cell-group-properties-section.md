@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 5ba68e05-f394-d7b7-390d-f0a9fdad011e
 description: Определяет способ выбора групповой фигуры и ее членов.
 ms.openlocfilehash: 82f9e2806d1131a0acfd064f585c681fef0f209f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326014"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435364"
 ---
 # <a name="selectmode-cell-group-properties-section"></a>SelectMode Cell (Group Properties Section)
 
@@ -26,7 +26,7 @@ ms.locfileid: "32326014"
 |1,1  <br/> |Сначала выберите фигуру Group (группа).  <br/> |**visGrpSelModeGroup1st** <br/> |
 |2  <br/> |Сначала выберите участников группы.  <br/> |**visGrpSelModeMembers1st** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Вы также можете задать это значение в диалоговом окне **поведение** (если выбрана фигура группы, на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) в группе **Макет фигуры** щелкните **поведение**, а затем выберите режим в списке **Выбор** раздела **Группа Поведение** ). 
   

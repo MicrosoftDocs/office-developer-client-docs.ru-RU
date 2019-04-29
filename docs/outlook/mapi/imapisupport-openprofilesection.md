@@ -13,17 +13,17 @@ api_type:
 ms.assetid: cd1fa994-9531-46c4-94e5-505e7f90b884
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: e7f13acc34a77b79057d32fd4049db7222dadf49
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326448"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411388"
 ---
 # <a name="imapisupportopenprofilesection"></a>IMAPISupport::OpenProfileSection
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Открывает раздел текущего профиля и возвращает указатель [ипрофсект](iprofsectimapiprop.md) для получения дальнейших прав. 
   
@@ -75,7 +75,7 @@ S_OK
   
 > Используются заРезервированные или неподдерживаемые флаги, поэтому операция не выполнена.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: опенпрофилесектион** реализован для всех объектов поддержки. Поставщики услуг и службы сообщений вызывают **опенпрофилесектион** , чтобы открыть раздел профиля и получить указатель на его реализацию интерфейса **ипрофсект** . 
   

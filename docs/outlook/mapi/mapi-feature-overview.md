@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 22cf56c5-2804-40a8-99e6-a6d127897720
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b1087f5156ad79b20eb31ef55c0388ffd82e1601
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357717"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416925"
 ---
 # <a name="mapi-feature-overview"></a>Обзор функции MAPI
  
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В MAPI есть несколько ключевых функций, позволяющих обеспечить единообразную работу и использование различных систем обмена сообщениями для разработчиков. Эти функции включают полный и открытый программный интерфейс, а также поддержку отраслевых стандартов. 
   

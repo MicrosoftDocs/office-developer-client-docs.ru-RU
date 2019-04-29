@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 7ac11e60-6b2c-4241-96e2-20219f84d949
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: afd69f5a3fff69f670d6be78ba4957307cdb6995
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320407"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436862"
 ---
 # <a name="tables-and-memory-usage"></a>Таблицы и использование памяти
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Важная ошибка, связанная с извлечением данных из таблицы, — использование памяти. Недостаток доступной памяти может вызвать сбой [IMAPITable:: QueryRows](imapitable-queryrows.md) и [хркуеряллровс](hrqueryallrows.md) , возвращая меньше требуемого количества строк. Решение о том, какой метод или функция использовать для получения табличных данных, зависит от того, может ли таблица быть вписана в память, и если это не так, то в случае неудачи. 
   

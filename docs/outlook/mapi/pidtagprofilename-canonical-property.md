@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 13ca726d-ae7a-4da9-9c8e-3db3c479f839
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 992b3a6a30e15d267ffeda11ec98c7b4aeacb2c4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341652"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435651"
 ---
 # <a name="pidtagprofilename-canonical-property"></a>Каноническое свойство PidTagProfileName
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя профиля.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32341652"
 |Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Конфигурация профиля MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эти свойства рассчитываются поставщиками услуг. Реализация поставщика функции **сервицеентри** может использовать эти свойства для обнаружения имени профиля. 
   

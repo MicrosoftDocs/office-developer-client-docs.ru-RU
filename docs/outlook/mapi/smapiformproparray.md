@@ -13,17 +13,17 @@ api_type:
 ms.assetid: bb243bc4-4974-4ad6-aa76-2426c1ebe84b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 50b6581dec8211968a49b204c6d9b1ba1c65bb62
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309515"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420068"
 ---
 # <a name="smapiformproparray"></a>SMAPIFormPropArray
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив структур [смапиформпроп](smapiformprop.md) . 
   
@@ -56,7 +56,7 @@ typedef struct
   
 > Массив свойств формы.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Структура **смапиформпропаррай** передается в качестве параметра следующим методам: 
   

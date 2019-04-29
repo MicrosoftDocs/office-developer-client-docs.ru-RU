@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 92a7cc0a-1f9f-4969-8439-56a8d18e1347
 description: Возвращает первое выражение, не равное NULL, из списка аргументов.
 ms.openlocfilehash: af309d2330f5c3b3999a4d99d8f2ab2d6d7d61db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282273"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411395"
 ---
 # <a name="coalesce-function-access-custom-web-app"></a>Функция объединения (пользовательское веб-приложение для Access)
 
@@ -30,7 +30,7 @@ ms.locfileid: "32282273"
 |:-----|:-----|
 | *Значение*  <br/> |Выражение.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если все аргументы имеют значение NULL, функция **объединения** ВОЗВРАЩАЕТ значение null. 
   

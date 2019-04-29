@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 69d64520-9a47-07ca-09c7-d1e5da620348
 description: Задает тип данных для значения текстового поля.
 ms.openlocfilehash: 91a2d60133d9a39e152656558f168742a5409883
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358928"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407986"
 ---
 # <a name="type-cell-text-fields-section"></a>Type Cell (Text Fields Section)
 
 Задает тип данных для значения текстового поля.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |нуль  <br/> |Строка.  <br/> |
 |2  <br/> |Значение. Включает в себя даты, время, продолжительность и денежные значения, а также скаляры, измерения и углы. Укажите формат рисунка в ячейке Format (формат).  <br/> |

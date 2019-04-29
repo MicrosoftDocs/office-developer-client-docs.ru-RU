@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f25be2b1-0f94-4a0c-b29d-d2201dc70ab7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d6a13799da4ef9315f9c23317fa18853d71c72f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328800"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420117"
 ---
 # <a name="imapitable--iunknown"></a>IMAPITable : IUnknown
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступное только для чтения представление таблицы. С помощью **IMAPITable** клиенты и поставщики услуг могут управлять способом отображения таблицы. 
   

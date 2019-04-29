@@ -8,17 +8,17 @@ keywords:
 - кслруннингонклустер
 localization_priority: Normal
 ms.assetid: 7662f255-4184-4af0-97f5-9a89347a201a
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f5c630c73899b07e2727a7d42b18eb1891797bab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310103"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418290"
 ---
 # <a name="xlrunningoncluster"></a>xlRunningOnCluster
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Возвращает значение, которое указывает, выполняется ли пользовательская функция в кластере. 
   

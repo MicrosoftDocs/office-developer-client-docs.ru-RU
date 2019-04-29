@@ -13,17 +13,17 @@ api_type:
 ms.assetid: fa5498ab-2f8a-42f8-ba9d-1d555768594f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 5605de7dbcc18197748713bcf909839690d7259f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336353"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411598"
 ---
 # <a name="iid"></a>IID
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывает структуру [GUID](guid.md) , используемую для описания идентификатора интерфейса MAPI. 
   
@@ -42,7 +42,7 @@ typedef struct _GUID
 
 Просмотр структуры **GUID** . 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Структура **IID** используется для уникальной идентификации интерфейса MAPI и связывания определенного интерфейса с объектом. Например, когда клиент вызывает [IMAPISession:: OpenEntry](imapisession-openentry.md) , чтобы открыть папку, клиент устанавливает параметр _лпинтерфаце_ , который указывает на **IID** , представляющий интерфейс [IMAPIFolder](imapifolderimapicontainer.md) . MAPI определяет **имапифолдериид** для иид_имапифолдер. Структуры **IID** также используются для уникальной идентификации интерфейсов OLE. 
   

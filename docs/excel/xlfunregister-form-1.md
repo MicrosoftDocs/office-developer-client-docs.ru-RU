@@ -10,17 +10,17 @@ keywords:
 - Функция xlfUnregister [Excel 2007]
 localization_priority: Normal
 ms.assetid: 850bf65f-a151-44d6-b49f-d53ae2c83760
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3f5ebc08f89651331186990d8574e3150d4f484a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303894"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410086"
 ---
 # <a name="xlfunregister-form-1"></a>xlfUnregister (форма 1)
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Может вызываться из команды DLL или XLL, которая вызывается Microsoft Excel. Это эквивалентно вызову **Unregister** из листа макросов Excel XLM. 
   
@@ -48,7 +48,7 @@ _пксрегистерид_ (**кслтипенум**)
 
 В случае успеха возвращает **значение true** (**кслтипебул**), в противном случае возвращает значение false.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 ИДЕНТИФИКАТОР регистрации функции возвращается **xlfRegister** при первой регистрации функции. Его также можно получить, вызвав [функцию кслфрегистерид](xlfregisterid.md) или [функцию xlfEvaluate](xlfevaluate.md). Обратите внимание, что Кслфрегистерид пытается зарегистрировать функцию, если она еще не зарегистрирована. По этой причине, если вы пытаетесь получить идентификатор только для того, чтобы можно было отменить регистрацию функции, ее лучше получить, передав зарегистрированное имя в **xlfEvaluate**. Если функция не была зарегистрирована, **xlfEvaluate** завершается с ошибкой #NAME? ошибкой. 
   

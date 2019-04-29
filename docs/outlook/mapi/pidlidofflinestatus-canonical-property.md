@@ -13,17 +13,17 @@ api_type:
 ms.assetid: ee69f0c4-b552-4cfd-8a39-a822d414549e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 537b45420390903d67722c074a1edcc04a0aede8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326301"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418836"
 ---
 # <a name="pidlidofflinestatus-canonical-property"></a>Каноническое свойство PidLidOfflineStatus
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет состояние файла документа на сервере, который реализует [MS — ЛИСТСВС].
   
@@ -35,11 +35,11 @@ ms.locfileid: "32326301"
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В следующей таблице приведены возможные значения этого свойства.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |нуль  <br/> |Документ не извлечен.  <br/> |
 |1,1  <br/> |Документ извлечен текущему пользователю.  <br/> |

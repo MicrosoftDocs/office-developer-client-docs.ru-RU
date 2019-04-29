@@ -13,17 +13,17 @@ api_type:
 ms.assetid: fec5d5ac-bca6-4fff-b264-45cdb6b37f55
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 4eef7c0b1078cb9e7ced21e2403f0b3948362d6c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341036"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434832"
 ---
 # <a name="fbadrglpnameid"></a>FBadRglpNameID
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Проверяет массив структур, описывающих именованные свойства, и проверяет их выделение. 
   
@@ -60,7 +60,7 @@ FALSE
   
 > Указаны допустимые структуры имени свойства.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Функцию **фбадрглпнамеид** можно использовать при настройке вызова [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) или [IMAPIProp:: жетнамесфромидс](imapiprop-getnamesfromids.md). 
   

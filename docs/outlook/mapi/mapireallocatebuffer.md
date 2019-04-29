@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 182ab0c6-c9d3-4cc8-892f-f6b09312ceb9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 59d0ce192605257dc0aebed46d8093a352fce05f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270240"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435287"
 ---
 # <a name="mapireallocatebuffer"></a>MAPIReallocateBuffer
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Перераспределяет буфер памяти. Он используется с функцией [мапиаллокатебуффер](mapiallocatebuffer.md) . 
   
@@ -51,7 +51,7 @@ LPVOID * lppv
   
 > Указатель на возвращенный выделенный буфер.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
  **Мапиреаллокатебуффер** выделяет новый блок памяти запрошенного размера и копирует содержимое буфера, переданного в новый блок памяти. Если блок памяти, который передается, содержит внутренние указатели, указатели не меняются для согласования с новым расположением. 
   

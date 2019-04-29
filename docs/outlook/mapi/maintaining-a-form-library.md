@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 8488f7ec-e44b-4d1a-ba42-baea8c71d350
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 51c7c3f8ba70dcb3d35dc50806e984fd4b193818
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298462"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408805"
 ---
 # <a name="maintaining-a-form-library"></a>Обслуживание библиотеки форм
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В библиотеке форм хранятся все важные сведения о форме: ее свойствах, ее командах и исполняемых файлах сервера. Некоторые клиенты позволяют пользователям поддерживать, устанавливать и удалять серверы форм. Если вы хотите предоставить эту функцию пользователям, у вас должен быть доступ к:
   

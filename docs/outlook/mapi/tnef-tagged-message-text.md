@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 8c65339e-240c-412d-9b71-69c746468bfb
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 2b4d4cd790870a024cac6f2ed9952d18a970235a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339594"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419921"
 ---
 # <a name="tnef-tagged-message-text"></a>Текст сообщения с тегами в формате TNEF
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ФОРМАТ TNEF использует текст сообщения с тегами для разрешения положений вложений в родительском сообщении. Это делается путем добавления заполнителя места в тексте сообщения в позиции вложения. Этот держатель или тег вложений описывает вложение таким образом, что формат TNEF знает, как Разрешить вложение и его положение. Теги форматируются следующим образом:
   

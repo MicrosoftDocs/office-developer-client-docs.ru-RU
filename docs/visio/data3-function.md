@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c3a72b48-5edf-221e-0508-bab6cbbe64fa
 description: Возвращает текст из поля "данные 3" в диалоговом окне "имя фигуры" для фигуры (на вкладке "Разработчик" щелкните имя фигуры) в виде строки.
 ms.openlocfilehash: 982b6eaa241e6a13137549ad191a62360bfff38e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344683"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434986"
 ---
 # <a name="data3-function"></a>Функция DATA3
 
@@ -24,7 +24,7 @@ ms.locfileid: "32344683"
 
 DATA3 ()
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если поле пустое, функция возвращает пустую строку. 
   

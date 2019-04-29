@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 911a41c3-c10f-4473-8853-fafb56b721ba
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 34f19e279c86e0c0856d242cf2aa13d744d46f13
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325807"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420187"
 ---
 # <a name="working-with-multivalued-columns"></a>Работа с многозначными столбцами
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Многозначный столбец содержит данные многозначного свойства, который является свойством, имеющим массив значений базового типа, а не одно значение. Так как ни одна таблица не содержит многозначные свойства в наборах столбцов по умолчанию, многозначные свойства включаются в таблицу только в том случае, если пользователь таблицы запрашивает ее. 
   

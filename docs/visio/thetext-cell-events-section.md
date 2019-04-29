@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2d63768e-afdb-4b3f-de49-f9ba69ae5391
 description: Ячейка события, вычисляемая при изменении текста фигуры или текстовой композиции.
 ms.openlocfilehash: 6aa5e14f339d0030d8421eaae62b0e481be91fc7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326679"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435168"
 ---
 # <a name="thetext-cell-events-section"></a>TheText Cell (Events Section)
 
 Ячейка события, вычисляемая при изменении текста фигуры или текстовой композиции.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Ячейки событий оцениваются только при возникновении события, а не при вводе формул. Вы можете использовать ячейку TheText для запуска пересчета, например для пересчета ширины и высоты текста с помощью функций TEXTWIDTH () и TEXTHEIGHT ().
   

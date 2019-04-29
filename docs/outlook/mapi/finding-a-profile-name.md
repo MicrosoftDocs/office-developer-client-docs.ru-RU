@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 18df25b7-16b7-44cd-a9a0-5276966c1fd4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b4efdd8d8238d4bc7e89a1153b9be34c7af76355
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336997"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407923"
 ---
 # <a name="finding-a-profile-name"></a>Поиск имени профиля
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Иногда клиентам необходимо найти имя профиля, используемого в данный момент для сеанса, имя профиля по умолчанию или имя альтернативного профиля, установленного на компьютере.
   

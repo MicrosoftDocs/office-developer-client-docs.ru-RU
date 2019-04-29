@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: aebcd321-9d1c-e04e-7c85-3ec1ed851561
 description: Определяет вертикальные промежуточные деления линейки для страницы.
 ms.openlocfilehash: c92c48f6c86fc794cf6f53a87fdb99e67a73b9f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357206"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406803"
 ---
 # <a name="yrulerdensity-cell-ruler-amp-grid-section"></a>Ячейка YRulerDensity (раздел "Линейка и сетка")
 
 Определяет вертикальные промежуточные деления линейки для страницы.
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 |нуль  <br/> |Фиксация  <br/> |**visRulerFixed** <br/> |
 |8 (&amp;H8)  <br/> |С большими интервалами  <br/> |**visRulerCoarse** <br/> |

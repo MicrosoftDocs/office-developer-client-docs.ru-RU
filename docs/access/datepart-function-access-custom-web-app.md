@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 8936f0b6-f9b2-44ef-bf90-e482b64611cd
 description: Возвращает числовое значение, представляющее указанную часть даты указанной даты.
 ms.openlocfilehash: 31ac6423614afd61ed943bb7ba375f14696df1ea
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280772"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411437"
 ---
 # <a name="datepart-function-access-custom-web-app"></a>Функция DatePart (пользовательское веб-приложение для Access)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32280772"
 | *DatePart*  <br/> |Часть *даты* (значение даты или времени), для которой будет возвращено целое число. В разделе "Примечания" приведен список допустимых сокращений.  <br/> |
 | *Date*  <br/> |Выражение, которое может быть разрешено в значение даты и времени. Выражение аргумента *Date* , выражение столбца, определяемая пользователем переменная или строковый литерал.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В следующей таблице перечислены все допустимые аргументы *DatePart* . 
   

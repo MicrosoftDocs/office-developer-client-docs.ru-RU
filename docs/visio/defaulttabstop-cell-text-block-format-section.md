@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3b3e458a-206c-8699-8bf7-da80f4350706
 description: Определяет интервал по умолчанию для табуляции в текстовом блоке.
 ms.openlocfilehash: 1ae923f6373b9cee76238b1fb27ec5eb3acb43ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360272"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407832"
 ---
 # <a name="defaulttabstop-cell-text-block-format-section"></a>DefaultTabstop Cell (Text Block Format Section)
 

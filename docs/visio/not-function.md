@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 65873b32-2406-7c33-8e68-802461f467b2
 description: Возвращает значение истина (1), если логикалекспрессион имеет значение FALSE. В противном случае возвращается значение FALSE (0).
 ms.openlocfilehash: 3359e21654bcc318caf31405093f851eca064119
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341141"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413334"
 ---
 # <a name="not-function"></a>Функция NOT
 

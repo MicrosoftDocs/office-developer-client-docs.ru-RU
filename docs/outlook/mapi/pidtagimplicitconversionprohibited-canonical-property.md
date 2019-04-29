@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c6cb5a86-0105-4743-9f8e-b832e898da52
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a0e18ef529b65317abd9446408ed73638c792809
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346608"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420670"
 ---
 # <a name="pidtagimplicitconversionprohibited-canonical-property"></a>Каноническое свойство PidTagImplicitConversionProhibited
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если агенту передачи сообщений (MTA) запрещено делать неявные преобразования текста сообщений.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32346608"
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если это свойство имеет значение TRUE, система обмена сообщениями не должна выполнять преобразование содержимого для сообщения, если оно не было явно запрошено для каждого получателя с помощью свойства **пр_експлиЦит_конверсион** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
   

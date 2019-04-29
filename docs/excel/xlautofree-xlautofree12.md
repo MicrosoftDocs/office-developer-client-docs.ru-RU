@@ -10,17 +10,17 @@ keywords:
 - функция xlAutoFree [Excel 2007]
 localization_priority: Normal
 ms.assetid: f73d292c-d6d8-4be5-89c0-bef15db236d6
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3dfba5ae98b0635c95308eac01bf2f10867678e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303971"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413292"
 ---
 # <a name="xlautofreexlautofree12"></a>xlAutoFree/xlAutoFree12
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Вызывается Microsoft Excel сразу после того, как функция листа XLL ****/ **** возвращает для нее значение параметра, указывающее на наличие памяти, которую все еще требуется выпустить. Благодаря этому библиотека XLL может вернуть динамически выделяемые массивы, строки и внешние ссылки на лист без утечек памяти. Дополнительные сведения см. в статье [Управление памятью в Excel](memory-management-in-excel.md).
   
@@ -47,7 +47,7 @@ void WINAPI xlAutoFree12(LPXLOPER12 pxFree);
 
 Эта функция не возвращает значение и должна объявляться, как возвращаемое значение void.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если в Excel настроено использование многопотокового пересчета, **xlAutoFree**/ **xlAutoFree12** вызывается в том же потоке, который использовался для вызова функции, которая возвращает ее. Вызов функции **xlAutoFree**/ **xlAutoFree12** всегда выполняется перед оценкой последующих ячеек листа для этого потока. Это упрощает потокобезопасную разработку библиотеки XLL. 
   

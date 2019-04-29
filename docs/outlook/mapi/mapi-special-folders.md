@@ -9,17 +9,17 @@ api_type:
 ms.assetid: f2aa2376-b293-4d05-9104-218cc1fe1758
 description: '���� ���������� ���������: 9 ����� 2015 �.'
 ms.openlocfilehash: fa221510a5f6a8c8be24b4869960d1770cef5882
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357360"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410926"
 ---
 # <a name="mapi-special-folders"></a>����������� ����� MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 MAPI ���������� ��������� �����, ������� �������� �������, ��������� ��� ����� �������������� �������������� ������������ ���� � �������� ����� �� ��������� ��� ������������ ����� ���������. ��������� ����������� ����� ������ �� ����� ���� ������, � � ��� ����������� ������ �������������� ��������.
   
@@ -55,9 +55,9 @@ MAPI assigns special entry identifier properties for these special folders. For 
 |**Folder**|**�������� ��� �������**|
 |:-----|:-----|
 |���������  <br/> |**Пр_ипм_аппоинтмент_ентрид** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
-|Контакты  <br/> |**Пр_ипм_контакт_ентрид** ([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
+|Contacts  <br/> |**Пр_ипм_контакт_ентрид** ([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
 |Журнал  <br/> |**Пр_ипм_жаурнал_ентрид** ([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
-|Примечания  <br/> |**Пр_ипм_ноте_ентрид** ([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
+|Заметки  <br/> |**Пр_ипм_ноте_ентрид** ([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
 |Задачи  <br/> |**Пр_ипм_таск_ентрид** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
 |Черновики  <br/> |**Пр_ипм_драфтс_ентрид** ([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
    

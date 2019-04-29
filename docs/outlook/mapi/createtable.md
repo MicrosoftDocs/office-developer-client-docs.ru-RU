@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 106ce3d8-d0bf-4a0e-9a15-dc8988d0eb58
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e8c399569e68b8cb55d803733ed93105ea0be799
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332986"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435014"
 ---
 # <a name="createtable"></a>CreateTable
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает структуры и дескриптор объекта для объекта [итабледата](itabledataiunknown.md) , который можно использовать для создания содержимого таблицы. 
   
@@ -103,7 +103,7 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Входные параметры _лпаллокатебуффер_, _лпаллокатеморе_и _Лпфрибуффер_ заменяют функции [мапиаллокатебуффер](mapiallocatebuffer.md), [мапиаллокатеморе](mapiallocatemore.md)и [MAPIFreeBuffer](mapifreebuffer.md) соответственно. Клиентское приложение, вызывающее **креатетабле** , передает указатели на функции MAPI только с именем; поставщик услуг передает указатели на эти функции, полученные в результате инициализации или извлеченные при вызове метода [имаписуппорт:: жетмемаллокраутинес](imapisupport-getmemallocroutines.md) . 
   

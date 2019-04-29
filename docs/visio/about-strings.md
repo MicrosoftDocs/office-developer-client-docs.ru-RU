@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e1174d8f-70cb-4595-7906-889da15367db
 description: 'Формулы могут содержать строки. Чтобы отформатировать выходные данные строки, например в ячейке подсказки, значении элемента данных фигуры или текстовом поле, необходимо указать рисунок формата. Выходные данные можно форматировать как числовые, строковые, даты и время, продолжительность и денежные единицы. Например, формат picture0 #/10 ууформатс в качестве значения, состоящий из числового блока 10.9 cm AS10 9/10 сантиметры.'
 ms.openlocfilehash: aa95e11db387913edbb40292f7da6a0f4b8a5cf7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345068"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409519"
 ---
 # <a name="about-strings"></a>Сведения о строках
 

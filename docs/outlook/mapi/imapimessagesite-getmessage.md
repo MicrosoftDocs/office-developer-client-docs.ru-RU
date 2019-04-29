@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 49d12c49-84f8-44ac-bc4a-2ee44a46f8c1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 03dd0553d0203585850ac5c4f8c91c86ef60236a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321282"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409029"
 ---
 # <a name="imapimessagesitegetmessage"></a>IMAPIMessageSite::GetMessage
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает текущее сообщение.
   
@@ -49,7 +49,7 @@ S_FALSE
   
 > Для вызывающей формы не существует сообщения.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Формы вызывают метод **имапимессажесите::** , чтобы получить интерфейс сообщения для текущего сообщения. Текущее сообщение это то же сообщение, которое ранее было передано в методе [иперсистмессаже:: инитнев](ipersistmessage-initnew.md), [Иперсистмессаже:: Load](ipersistmessage-load.md)или [иперсистмессаже:: савекомплетед](ipersistmessage-savecompleted.md) . 
   

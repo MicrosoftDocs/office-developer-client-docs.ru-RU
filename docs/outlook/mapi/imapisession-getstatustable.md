@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 53428f8d-4838-46d1-a0ab-cafb194f4cc3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 17e936093536f548d16021523d9434f09777c6d9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338764"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407139"
 ---
 # <a name="imapisessiongetstatustable"></a>IMAPISession::GetStatusTable
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступ к таблице Status (таблица), в которой содержатся сведения обо всех ресурсах MAPI в сеансе.
   
@@ -54,7 +54,7 @@ S_OK
   
 > Таблица была успешно возвращена.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPISession:: жетстатустабле** предоставляет доступ к таблице состояния, которая содержит сведения обо всех ресурсах MAPI в сеансе. В таблице есть одна строка для сведений о подсистеме MAPI, одна строка для диспетчера очереди MAPI, одна строка для встроенной адресной книги и одна строка для каждого поставщика услуг в профиле. 
   

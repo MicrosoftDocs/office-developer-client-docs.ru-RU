@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 10c7cb9d-2e9d-72eb-6b07-31eed892e646
 description: '���� ���������� ���������: 25 ���� 2012 �.'
 ms.openlocfilehash: 4440df4b8e4a46e13748cf47d599e16599aaf858
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270086"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410695"
 ---
 # <a name="imapiofflinenotifynotify"></a>IMAPIOfflineNotify::Notify
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Отправляет клиенту уведомления об изменениях состояния подключения.
   
@@ -39,7 +39,7 @@ void STDMETHODCALLTYPE Notify(
   
 > возврата Уведомление, которое Outlook отправляет клиенту. Уведомление указывает часть состояния подключения, которая изменилась, старое состояние подключения и новое состояние подключения.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Outlook использует этот метод для отправки обратного вызова уведомлений клиенту. Чтобы сделать этот интерфейс доступным для Microsoft Outlook 2010 или Microsoft Outlook 2013, клиент должен реализовать этот интерфейс и передать указатель на него в качестве члена в **[мапиоффлине_адвисеинфо](mapioffline_adviseinfo.md)** при настройке обратных вызовов с помощью **[Имапиоффлинемгр:: Advise ](imapiofflinemgr-advise.md)**. 
   

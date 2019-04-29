@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 42ffbbe0-d678-474a-a016-91c71255613e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: fbb05efff67fa90c68db86249d4657e489e7bd63
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342779"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417275"
 ---
 # <a name="imapifoldersetmessagestatus"></a>IMAPIFolder::SetMessageStatus
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает состояние, связанное с сообщением (например, помечено ли это сообщение для удаления).
   
@@ -89,7 +89,7 @@ S_OK
   
 > Состояние сообщения успешно задано.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPIFolder:: сетмессажестатус** задает для состояния сообщения значение, хранящееся в его свойстве **пр_мсг_статус** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)). 
   

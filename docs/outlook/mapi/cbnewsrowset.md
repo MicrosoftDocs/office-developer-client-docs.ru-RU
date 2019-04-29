@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 3b8b8d9f-33e1-45c3-b024-9afcaab8839c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: de6836c036c1b8c80a030a8a49009b8899267aa0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317971"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411892"
 ---
 # <a name="cbnewsrowset"></a>CbNewSRowSet
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Вычисляет число байтов, выделяемых для новой структуры [SRowSet](srowset.md) , которая содержит указанное количество строк, представленных структурами [сров](srow.md) . 
   

@@ -13,15 +13,15 @@ api_type:
 ms.assetid: f6b31bb4-69dd-43de-b62b-abfa99557641
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 534f4da15bba5f38bec4cde91206694f8691cbc6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342247"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412382"
 ---
 # <a name="fnidle"></a>FNIDLE
  
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет процедуру бездействия, которая периодически вызывается модулем бездействия MAPI в соответствии с приоритетом. 
   
@@ -50,7 +50,7 @@ FALSE
   
 > Процедура бездействия с прототипом **фнидле** всегда должна возвращать значение false. 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Конкретные функциональные возможности процедуры Idle определяются с помощью реализации клиентского приложения или поставщика услуг. 
   

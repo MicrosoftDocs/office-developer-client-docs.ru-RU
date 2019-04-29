@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 6c2e64bc-786e-4867-a504-46f4d1214337
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 77ca51ae5a0e7e1d5a9be8f4ca05a1187fe71694
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279854"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407790"
 ---
 # <a name="pidtaglatestdeliverytime-canonical-property"></a>Каноническое свойство PidTagLatestDeliveryTime
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит последние дата и время, когда агент передачи сообщений (MTA) должен доставить сообщение. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32279854"
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если MTA не может доставить сообщение по времени, указанному этим свойством, оно отменяет сообщение без доставки. 
   

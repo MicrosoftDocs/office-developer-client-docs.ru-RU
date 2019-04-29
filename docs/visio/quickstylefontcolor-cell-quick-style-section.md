@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 31c56d08-19ea-4b8b-8be7-42e1c736fbca
 description: Определяет цвет шрифта из быстрых стилей, которые текст фигуры наследует от активной темы в виде целого числа от 0-1.
 ms.openlocfilehash: bd645383df02260fcf6a2045764d9a1b44126090
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282637"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415028"
 ---
 # <a name="quickstylefontcolor-cell-quick-style-section"></a>QuickStyleFontColor Cell (Quick Style Section)
 
@@ -24,7 +24,7 @@ ms.locfileid: "32282637"
 |нуль  <br/> |В тексте фигуры используется темный цвет шрифта.  <br/> |
 |1,1  <br/> |В тексте фигуры используется светлый цвет шрифта.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку **QuickStyleFontColor** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   

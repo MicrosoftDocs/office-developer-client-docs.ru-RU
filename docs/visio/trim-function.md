@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6f2d84fd-27eb-4c2f-a2e1-43d20e0c78be
 description: Удаляет все пробелы из текста, за исключением одиночных пробелов между словами.
 ms.openlocfilehash: b947c9500012d0ceefe3e8044be387f7b810dda9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280845"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435721"
 ---
 # <a name="trim-function"></a>Функция TRIM
 
@@ -32,9 +32,9 @@ TRIM (* * *Text* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Функцию TRIM можно использовать для текста, полученного из другого приложения с неравномерными интервалами.
   
