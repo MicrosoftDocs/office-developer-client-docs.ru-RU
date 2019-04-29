@@ -10,32 +10,32 @@ localization_priority: Normal
 ms.assetid: 992ae9d8-ea15-0f5c-ccd6-e4c536099692
 description: 'Содержит ширину выбранной фигуры в единицах документа. По умолчанию для определения ширины фигуры 1-D используется следующая формула:'
 ms.openlocfilehash: c99f4669f3b27390a5b8e9062d6085a5a9db54e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351221"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415196"
 ---
-# <a name="width-cell-shape-transform-section"></a><span data-ttu-id="05676-104">Width Cell (Shape Transform Section)</span><span class="sxs-lookup"><span data-stu-id="05676-104">Width Cell (Shape Transform Section)</span></span>
+# <a name="width-cell-shape-transform-section"></a><span data-ttu-id="91519-104">Width Cell (Shape Transform Section)</span><span class="sxs-lookup"><span data-stu-id="91519-104">Width Cell (Shape Transform Section)</span></span>
 
-<span data-ttu-id="05676-105">Содержит ширину выбранной фигуры в единицах документа.</span><span class="sxs-lookup"><span data-stu-id="05676-105">Contains the width of the selected shape in drawing units.</span></span> <span data-ttu-id="05676-106">По умолчанию для определения ширины фигуры 1-D используется следующая формула:</span><span class="sxs-lookup"><span data-stu-id="05676-106">The default formula for determining the width of a 1-D shape is:</span></span>
+<span data-ttu-id="91519-105">Содержит ширину выбранной фигуры в единицах документа.</span><span class="sxs-lookup"><span data-stu-id="91519-105">Contains the width of the selected shape in drawing units.</span></span> <span data-ttu-id="91519-106">По умолчанию для определения ширины фигуры 1-D используется следующая формула:</span><span class="sxs-lookup"><span data-stu-id="91519-106">The default formula for determining the width of a 1-D shape is:</span></span>
   
-<span data-ttu-id="05676-107">= SQRT ((EndX-BeginX) ^ 2 + (Енди-Begin) ^ 2)</span><span class="sxs-lookup"><span data-stu-id="05676-107">= SQRT((EndX - BeginX) ^ 2 + (EndY - BeginY) ^ 2)</span></span>
+<span data-ttu-id="91519-107">= SQRT ((EndX-BeginX) ^ 2 + (Енди-Begin) ^ 2)</span><span class="sxs-lookup"><span data-stu-id="91519-107">= SQRT((EndX - BeginX) ^ 2 + (EndY - BeginY) ^ 2)</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="05676-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="05676-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="91519-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="91519-108">Remarks</span></span>
 
-<span data-ttu-id="05676-109">Чтобы получить ссылку на ячейку Width по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="05676-109">To get a reference to the Width cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="91519-109">Чтобы получить ссылку на ячейку Width по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="91519-109">To get a reference to the Width cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="05676-110">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="05676-110">Cell name:</span></span>  <br/> | <span data-ttu-id="05676-111">Width</span><span class="sxs-lookup"><span data-stu-id="05676-111">Width</span></span>  <br/> |
+| <span data-ttu-id="91519-110">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="91519-110">Cell name:</span></span>  <br/> | <span data-ttu-id="91519-111">Width</span><span class="sxs-lookup"><span data-stu-id="91519-111">Width</span></span>  <br/> |
    
-<span data-ttu-id="05676-112">Чтобы получить ссылку на ячейку Width по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="05676-112">To get a reference to the Width cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="91519-112">Чтобы получить ссылку на ячейку Width по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="91519-112">To get a reference to the Width cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="05676-113">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="05676-113">Section index:</span></span>  <br/> |<span data-ttu-id="05676-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="05676-114">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="05676-115">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="05676-115">Row index:</span></span>  <br/> |<span data-ttu-id="05676-116">**Висровксформаут**</span><span class="sxs-lookup"><span data-stu-id="05676-116">**visRowXFormOut**</span></span> <br/> |
-| <span data-ttu-id="05676-117">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="05676-117">Cell index:</span></span>  <br/> |<span data-ttu-id="05676-118">**Висксформвидс**</span><span class="sxs-lookup"><span data-stu-id="05676-118">**visXFormWidth**</span></span> <br/> |
+| <span data-ttu-id="91519-113">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="91519-113">Section index:</span></span>  <br/> |<span data-ttu-id="91519-114">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="91519-114">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="91519-115">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="91519-115">Row index:</span></span>  <br/> |<span data-ttu-id="91519-116">**Висровксформаут**</span><span class="sxs-lookup"><span data-stu-id="91519-116">**visRowXFormOut**</span></span> <br/> |
+| <span data-ttu-id="91519-117">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="91519-117">Cell index:</span></span>  <br/> |<span data-ttu-id="91519-118">**Висксформвидс**</span><span class="sxs-lookup"><span data-stu-id="91519-118">**visXFormWidth**</span></span> <br/> |
    
 

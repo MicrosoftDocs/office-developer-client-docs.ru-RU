@@ -13,23 +13,23 @@ api_type:
 ms.assetid: 5f7012f7-060d-4f2d-bcff-2aa9f6980e71
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e176f280cbe15b9c15697b03eb9738887c2924c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336416"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406327"
 ---
-# <a name="ssubrestriction"></a><span data-ttu-id="9224a-103">SSubRestriction</span><span class="sxs-lookup"><span data-stu-id="9224a-103">SSubRestriction</span></span>
+# <a name="ssubrestriction"></a><span data-ttu-id="d9593-103">SSubRestriction</span><span class="sxs-lookup"><span data-stu-id="d9593-103">SSubRestriction</span></span>
 
   
   
-<span data-ttu-id="9224a-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9224a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d9593-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d9593-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9224a-105">Описывает ограничение вложенного объекта, которое используется для фильтрации строк в таблице вложения или получателя сообщения.</span><span class="sxs-lookup"><span data-stu-id="9224a-105">Describes a sub-object restriction which is used to filter the rows of a message's attachment or recipient table.</span></span>
+<span data-ttu-id="d9593-105">Описывает ограничение вложенного объекта, которое используется для фильтрации строк в таблице вложения или получателя сообщения.</span><span class="sxs-lookup"><span data-stu-id="d9593-105">Describes a sub-object restriction which is used to filter the rows of a message's attachment or recipient table.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9224a-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="9224a-106">Header file:</span></span>  <br/> |<span data-ttu-id="9224a-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="9224a-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="d9593-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="d9593-106">Header file:</span></span>  <br/> |<span data-ttu-id="d9593-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="d9593-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SSubRestriction
@@ -40,38 +40,38 @@ typedef struct _SSubRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="9224a-108">Members</span><span class="sxs-lookup"><span data-stu-id="9224a-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="d9593-108">Members</span><span class="sxs-lookup"><span data-stu-id="d9593-108">Members</span></span>
 
- <span data-ttu-id="9224a-109">**Улсубобжект**</span><span class="sxs-lookup"><span data-stu-id="9224a-109">**ulSubObject**</span></span>
+ <span data-ttu-id="d9593-109">**Улсубобжект**</span><span class="sxs-lookup"><span data-stu-id="d9593-109">**ulSubObject**</span></span>
   
-> <span data-ttu-id="9224a-110">Тип дочернего объекта, который будет использоваться в качестве целевого для ограничения.</span><span class="sxs-lookup"><span data-stu-id="9224a-110">Type of sub-object to serve as the target for the restriction.</span></span> <span data-ttu-id="9224a-111">Возможны следующие значения:</span><span class="sxs-lookup"><span data-stu-id="9224a-111">Possible values are as follows:</span></span> 
+> <span data-ttu-id="d9593-110">Тип дочернего объекта, который будет использоваться в качестве целевого для ограничения.</span><span class="sxs-lookup"><span data-stu-id="d9593-110">Type of sub-object to serve as the target for the restriction.</span></span> <span data-ttu-id="d9593-111">Возможны следующие значения:</span><span class="sxs-lookup"><span data-stu-id="d9593-111">Possible values are as follows:</span></span> 
     
-<span data-ttu-id="9224a-112">ПР_МЕССАЖЕ_РЕЦИПИЕНТС</span><span class="sxs-lookup"><span data-stu-id="9224a-112">PR_MESSAGE_RECIPIENTS</span></span> 
+<span data-ttu-id="d9593-112">ПР_МЕССАЖЕ_РЕЦИПИЕНТС</span><span class="sxs-lookup"><span data-stu-id="d9593-112">PR_MESSAGE_RECIPIENTS</span></span> 
   
-> <span data-ttu-id="9224a-113">Применить ограничение к таблице получателей сообщения.</span><span class="sxs-lookup"><span data-stu-id="9224a-113">Apply the restriction to a message's recipient table.</span></span> 
+> <span data-ttu-id="d9593-113">Применить ограничение к таблице получателей сообщения.</span><span class="sxs-lookup"><span data-stu-id="d9593-113">Apply the restriction to a message's recipient table.</span></span> 
     
-<span data-ttu-id="9224a-114">ПР_МЕССАЖЕ_АТТАЧМЕНТС</span><span class="sxs-lookup"><span data-stu-id="9224a-114">PR_MESSAGE_ATTACHMENTS</span></span> 
+<span data-ttu-id="d9593-114">ПР_МЕССАЖЕ_АТТАЧМЕНТС</span><span class="sxs-lookup"><span data-stu-id="d9593-114">PR_MESSAGE_ATTACHMENTS</span></span> 
   
->  <span data-ttu-id="9224a-115">Примените ограничение к таблице вложений сообщения.</span><span class="sxs-lookup"><span data-stu-id="9224a-115">Apply the restriction to a message's attachment table.</span></span> 
+>  <span data-ttu-id="d9593-115">Примените ограничение к таблице вложений сообщения.</span><span class="sxs-lookup"><span data-stu-id="d9593-115">Apply the restriction to a message's attachment table.</span></span> 
     
- <span data-ttu-id="9224a-116">**Лпрес**</span><span class="sxs-lookup"><span data-stu-id="9224a-116">**lpRes**</span></span>
+ <span data-ttu-id="d9593-116">**Лпрес**</span><span class="sxs-lookup"><span data-stu-id="d9593-116">**lpRes**</span></span>
   
-> <span data-ttu-id="9224a-117">Указатель на структуру [срестриктион](srestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="9224a-117">Pointer to an [SRestriction](srestriction.md) structure.</span></span> 
+> <span data-ttu-id="d9593-117">Указатель на структуру [срестриктион](srestriction.md) .</span><span class="sxs-lookup"><span data-stu-id="d9593-117">Pointer to an [SRestriction](srestriction.md) structure.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="9224a-118">Комментарии</span><span class="sxs-lookup"><span data-stu-id="9224a-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d9593-118">Примечания</span><span class="sxs-lookup"><span data-stu-id="d9593-118">Remarks</span></span>
 
-<span data-ttu-id="9224a-119">Ограничения на вложенные объекты не поддерживаются всеми таблицами.</span><span class="sxs-lookup"><span data-stu-id="9224a-119">Sub-object restrictions are not supported by all tables.</span></span> <span data-ttu-id="9224a-120">Как правило, эти таблицы поддерживают только таблицы содержимого папок и папки результатов поиска.</span><span class="sxs-lookup"><span data-stu-id="9224a-120">Typically, only folder contents tables and search results folders support them.</span></span> <span data-ttu-id="9224a-121">Например, ограничения на вложенные объекты используются для поиска сообщения с определенным типом вложения или получателя.</span><span class="sxs-lookup"><span data-stu-id="9224a-121">For example, sub-object restrictions are used to find a message that has a particular type of attachment or recipient.</span></span> 
+<span data-ttu-id="d9593-119">Ограничения на вложенные объекты не поддерживаются всеми таблицами.</span><span class="sxs-lookup"><span data-stu-id="d9593-119">Sub-object restrictions are not supported by all tables.</span></span> <span data-ttu-id="d9593-120">Как правило, эти таблицы поддерживают только таблицы содержимого папок и папки результатов поиска.</span><span class="sxs-lookup"><span data-stu-id="d9593-120">Typically, only folder contents tables and search results folders support them.</span></span> <span data-ttu-id="d9593-121">Например, ограничения на вложенные объекты используются для поиска сообщения с определенным типом вложения или получателя.</span><span class="sxs-lookup"><span data-stu-id="d9593-121">For example, sub-object restrictions are used to find a message that has a particular type of attachment or recipient.</span></span> 
   
-<span data-ttu-id="9224a-122">Если реализация не поддерживает ограничения для вложенных объектов, она возвращает МАПИ_Е_ТУ_КОМПЛЕКС из методов [IMAPITable:: restrict](imapitable-restrict.md) или [IMAPITable:: FindRow](imapitable-findrow.md) .</span><span class="sxs-lookup"><span data-stu-id="9224a-122">If an implementation does not support sub-object restrictions, it returns MAPI_E_TOO_COMPLEX from its [IMAPITable::Restrict](imapitable-restrict.md) or [IMAPITable::FindRow](imapitable-findrow.md) methods.</span></span> 
+<span data-ttu-id="d9593-122">Если реализация не поддерживает ограничения для вложенных объектов, она возвращает МАПИ_Е_ТУ_КОМПЛЕКС из методов [IMAPITable:: restrict](imapitable-restrict.md) или [IMAPITable:: FindRow](imapitable-findrow.md) .</span><span class="sxs-lookup"><span data-stu-id="d9593-122">If an implementation does not support sub-object restrictions, it returns MAPI_E_TOO_COMPLEX from its [IMAPITable::Restrict](imapitable-restrict.md) or [IMAPITable::FindRow](imapitable-findrow.md) methods.</span></span> 
   
-<span data-ttu-id="9224a-123">Общие сведения о том, как действуют ограничения, можно узнать в статье [ограничения](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="9224a-123">For a general discussion of how restrictions work, see [About Restrictions](about-restrictions.md).</span></span> 
+<span data-ttu-id="d9593-123">Общие сведения о том, как действуют ограничения, можно узнать в статье [ограничения](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="d9593-123">For a general discussion of how restrictions work, see [About Restrictions](about-restrictions.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="9224a-124">См. также</span><span class="sxs-lookup"><span data-stu-id="9224a-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d9593-124">См. также</span><span class="sxs-lookup"><span data-stu-id="d9593-124">See also</span></span>
 
 
 
-[<span data-ttu-id="9224a-125">SRestriction</span><span class="sxs-lookup"><span data-stu-id="9224a-125">SRestriction</span></span>](srestriction.md)
+[<span data-ttu-id="d9593-125">SRestriction</span><span class="sxs-lookup"><span data-stu-id="d9593-125">SRestriction</span></span>](srestriction.md)
 
 
-[<span data-ttu-id="9224a-126">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="9224a-126">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="d9593-126">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="d9593-126">MAPI Structures</span></span>](mapi-structures.md)
 

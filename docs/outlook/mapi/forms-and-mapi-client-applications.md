@@ -9,23 +9,23 @@ api_type:
 ms.assetid: 658ebb86-e9f4-44d8-a5f1-6f66eaf75dd6
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 36c137555a051dbc56d5023a7b2244126f4f8255
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327295"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415448"
 ---
-# <a name="forms-and-mapi-client-applications"></a><span data-ttu-id="85652-103">Формы и клиентские приложения MAPI</span><span class="sxs-lookup"><span data-stu-id="85652-103">Forms and MAPI client applications</span></span>
+# <a name="forms-and-mapi-client-applications"></a><span data-ttu-id="ba5bd-103">Формы и клиентские приложения MAPI</span><span class="sxs-lookup"><span data-stu-id="ba5bd-103">Forms and MAPI client applications</span></span>
 
-<span data-ttu-id="85652-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="85652-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ba5bd-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ba5bd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="85652-105">Так как все сообщения MAPI являются экземплярами форм, клиентские приложения отображают и взаимодействуют с объектами формы так же, как и с другими объектами Message.</span><span class="sxs-lookup"><span data-stu-id="85652-105">Because all MAPI messages are instances of forms, client applications display and interact with form objects just as they do with other message objects.</span></span>
+<span data-ttu-id="ba5bd-105">Так как все сообщения MAPI являются экземплярами форм, клиентские приложения отображают и взаимодействуют с объектами формы так же, как и с другими объектами Message.</span><span class="sxs-lookup"><span data-stu-id="ba5bd-105">Because all MAPI messages are instances of forms, client applications display and interact with form objects just as they do with other message objects.</span></span>
   
-<span data-ttu-id="85652-106">Клиентские приложения, использующие интерфейсы форм MAPI, могут предоставлять дополнительные возможности взаимодействия с объектами форм.</span><span class="sxs-lookup"><span data-stu-id="85652-106">Client applications that use the MAPI form interfaces can provide additional interaction with form objects.</span></span> <span data-ttu-id="85652-107">Клиентские приложения могут использовать любые специальные команды, определенные формой, чтобы предоставить пользователям полный диапазон взаимодействий, предназначенных для конструктора формы.</span><span class="sxs-lookup"><span data-stu-id="85652-107">Client applications can use any special verbs defined by a form to provide users with the full range of interactions intended by the form's designer.</span></span> <span data-ttu-id="85652-108">Клиенты также могут использовать любые настраиваемые свойства, предоставляемые сервером форм, чтобы помочь пользователям сортировать, просматривать и иным способом управлять формами в интерфейсе клиента.</span><span class="sxs-lookup"><span data-stu-id="85652-108">Clients can also use any custom properties that the form server exposes to help users sort, preview, or otherwise manage forms in the client's interface.</span></span>
+<span data-ttu-id="ba5bd-106">Клиентские приложения, использующие интерфейсы форм MAPI, могут предоставлять дополнительные возможности взаимодействия с объектами форм.</span><span class="sxs-lookup"><span data-stu-id="ba5bd-106">Client applications that use the MAPI form interfaces can provide additional interaction with form objects.</span></span> <span data-ttu-id="ba5bd-107">Клиентские приложения могут использовать любые специальные команды, определенные формой, чтобы предоставить пользователям полный диапазон взаимодействий, предназначенных для конструктора формы.</span><span class="sxs-lookup"><span data-stu-id="ba5bd-107">Client applications can use any special verbs defined by a form to provide users with the full range of interactions intended by the form's designer.</span></span> <span data-ttu-id="ba5bd-108">Клиенты также могут использовать любые настраиваемые свойства, предоставляемые сервером форм, чтобы помочь пользователям сортировать, просматривать и иным способом управлять формами в интерфейсе клиента.</span><span class="sxs-lookup"><span data-stu-id="ba5bd-108">Clients can also use any custom properties that the form server exposes to help users sort, preview, or otherwise manage forms in the client's interface.</span></span>
   
-<span data-ttu-id="85652-109">Более подробную информацию можно найти в статье [Обработка форм MAPI](handling-mapi-forms.md).</span><span class="sxs-lookup"><span data-stu-id="85652-109">For more information, see [Handling MAPI Forms](handling-mapi-forms.md).</span></span>
+<span data-ttu-id="ba5bd-109">Более подробную информацию можно найти в статье [Обработка форм MAPI](handling-mapi-forms.md).</span><span class="sxs-lookup"><span data-stu-id="ba5bd-109">For more information, see [Handling MAPI Forms](handling-mapi-forms.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="85652-110">См. также</span><span class="sxs-lookup"><span data-stu-id="85652-110">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ba5bd-110">См. также</span><span class="sxs-lookup"><span data-stu-id="ba5bd-110">See also</span></span>
 
-- [<span data-ttu-id="85652-111">Формы MAPI</span><span class="sxs-lookup"><span data-stu-id="85652-111">MAPI Forms</span></span>](mapi-forms.md)
+- [<span data-ttu-id="ba5bd-111">Формы MAPI</span><span class="sxs-lookup"><span data-stu-id="ba5bd-111">MAPI Forms</span></span>](mapi-forms.md)
 

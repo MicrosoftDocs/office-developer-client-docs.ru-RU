@@ -10,14 +10,14 @@ localization_priority: Normal
 ms.assetid: aa6a95bc-4669-47fd-5055-a147ec55e78f
 description: 'Содержит общие сведения о размещении фигуры: например, ее ширину, высоту, угол и центр вращения (ПИН-код). Указывает, была ли фигура отражена; и как должна вести себя форма при изменении размеров в группе.'
 ms.openlocfilehash: c9d8bf44e5d897d17477cf0c4e75b5dbf063339f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325832"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419704"
 ---
-# <a name="shape-transform-section"></a><span data-ttu-id="81e87-103">Shape Transform Section</span><span class="sxs-lookup"><span data-stu-id="81e87-103">Shape Transform Section</span></span>
+# <a name="shape-transform-section"></a><span data-ttu-id="653fd-103">Shape Transform Section</span><span class="sxs-lookup"><span data-stu-id="653fd-103">Shape Transform Section</span></span>
 
-<span data-ttu-id="81e87-104">Содержит общие сведения о размещении фигуры: например, ее ширину, высоту, угол и центр вращения (ПИН-код). Указывает, была ли фигура отражена; и как должна вести себя форма при изменении размеров в группе.</span><span class="sxs-lookup"><span data-stu-id="81e87-104">Contains general positioning information about a shape: for example, its width, height, angle, and center of rotation (pin); whether the shape has been flipped; and how the shape should behave when resized within a group.</span></span>
+<span data-ttu-id="653fd-104">Содержит общие сведения о размещении фигуры: например, ее ширину, высоту, угол и центр вращения (ПИН-код). Указывает, была ли фигура отражена; и как должна вести себя форма при изменении размеров в группе.</span><span class="sxs-lookup"><span data-stu-id="653fd-104">Contains general positioning information about a shape: for example, its width, height, angle, and center of rotation (pin); whether the shape has been flipped; and how the shape should behave when resized within a group.</span></span>
   
 
