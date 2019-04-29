@@ -13,19 +13,19 @@ api_type:
 ms.assetid: 33bef4ea-d6c0-4455-b95d-4b29edb9c0bc
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 4c296b12d2dc98c4ff8d94349298e9dda0fb9409
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316606"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419991"
 ---
-# <a name="imapisupportmodifyprofile"></a><span data-ttu-id="2353e-103">IMAPISupport::ModifyProfile</span><span class="sxs-lookup"><span data-stu-id="2353e-103">IMAPISupport::ModifyProfile</span></span>
+# <a name="imapisupportmodifyprofile"></a><span data-ttu-id="a1b1f-103">IMAPISupport::ModifyProfile</span><span class="sxs-lookup"><span data-stu-id="a1b1f-103">IMAPISupport::ModifyProfile</span></span>
 
   
   
-<span data-ttu-id="2353e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2353e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a1b1f-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a1b1f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2353e-105">Вносит изменения в раздел профиля хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="2353e-105">Makes changes to a message store profile section permanent.</span></span>
+<span data-ttu-id="a1b1f-105">Вносит изменения в раздел профиля хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="a1b1f-105">Makes changes to a message store profile section permanent.</span></span>
   
 ```cpp
 HRESULT ModifyProfile(
@@ -33,35 +33,35 @@ ULONG ulFlags
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2353e-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="2353e-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a1b1f-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="a1b1f-106">Parameters</span></span>
 
- <span data-ttu-id="2353e-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="2353e-107">_ulFlags_</span></span>
+ <span data-ttu-id="a1b1f-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="a1b1f-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="2353e-108">возврата Битовая маска флагов, указывающая тип хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="2353e-108">[in] A bitmask of flags that indicates the type of message store.</span></span> <span data-ttu-id="2353e-109">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="2353e-109">The following flag can be set:</span></span>
+> <span data-ttu-id="a1b1f-108">возврата Битовая маска флагов, указывающая тип хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="a1b1f-108">[in] A bitmask of flags that indicates the type of message store.</span></span> <span data-ttu-id="a1b1f-109">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="a1b1f-109">The following flag can be set:</span></span>
     
-<span data-ttu-id="2353e-110">МДБ_ТЕМПОРАРИ</span><span class="sxs-lookup"><span data-stu-id="2353e-110">MDB_TEMPORARY</span></span> 
+<span data-ttu-id="a1b1f-110">МДБ_ТЕМПОРАРИ</span><span class="sxs-lookup"><span data-stu-id="a1b1f-110">MDB_TEMPORARY</span></span> 
   
-> <span data-ttu-id="2353e-111">Хранилище сообщений является временным и не должно добавляться в таблицу хранения сообщений.</span><span class="sxs-lookup"><span data-stu-id="2353e-111">The message store is temporary and should not be added to the message store table.</span></span> <span data-ttu-id="2353e-112">Если задано значение МДБ_ТЕМПОРАРИ, **модифипрофиле** ВОЗВРАЩАЕТ значение S_OK немедленно.</span><span class="sxs-lookup"><span data-stu-id="2353e-112">When MDB_TEMPORARY is set, **ModifyProfile** returns S_OK immediately.</span></span> 
+> <span data-ttu-id="a1b1f-111">Хранилище сообщений является временным и не должно добавляться в таблицу хранения сообщений.</span><span class="sxs-lookup"><span data-stu-id="a1b1f-111">The message store is temporary and should not be added to the message store table.</span></span> <span data-ttu-id="a1b1f-112">Если задано значение МДБ_ТЕМПОРАРИ, **модифипрофиле** ВОЗВРАЩАЕТ значение S_OK немедленно.</span><span class="sxs-lookup"><span data-stu-id="a1b1f-112">When MDB_TEMPORARY is set, **ModifyProfile** returns S_OK immediately.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="2353e-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2353e-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="a1b1f-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="a1b1f-113">Return value</span></span>
 
-<span data-ttu-id="2353e-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="2353e-114">S_OK</span></span> 
+<span data-ttu-id="a1b1f-114">S_OK</span><span class="sxs-lookup"><span data-stu-id="a1b1f-114">S_OK</span></span> 
   
-> <span data-ttu-id="2353e-115">Изменения в разделе профиля выполнены успешно.</span><span class="sxs-lookup"><span data-stu-id="2353e-115">The changes to the profile section were successful.</span></span>
+> <span data-ttu-id="a1b1f-115">Изменения в разделе профиля выполнены успешно.</span><span class="sxs-lookup"><span data-stu-id="a1b1f-115">The changes to the profile section were successful.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="2353e-116">Замечания</span><span class="sxs-lookup"><span data-stu-id="2353e-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a1b1f-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="a1b1f-116">Remarks</span></span>
 
-<span data-ttu-id="2353e-117">Метод **имаписуппорт:: модифипрофиле** реализован для объектов поддержки поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="2353e-117">The **IMAPISupport::ModifyProfile** method is implemented for message store provider support objects.</span></span> <span data-ttu-id="2353e-118">Поставщики хранилищ сообщений вызывают **модифипрофиле** для запроса MAPI для изменения сведений о профиле.</span><span class="sxs-lookup"><span data-stu-id="2353e-118">Message store providers call **ModifyProfile** to prompt MAPI to modify their profile information.</span></span> 
+<span data-ttu-id="a1b1f-117">Метод **имаписуппорт:: модифипрофиле** реализован для объектов поддержки поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="a1b1f-117">The **IMAPISupport::ModifyProfile** method is implemented for message store provider support objects.</span></span> <span data-ttu-id="a1b1f-118">Поставщики хранилищ сообщений вызывают **модифипрофиле** для запроса MAPI для изменения сведений о профиле.</span><span class="sxs-lookup"><span data-stu-id="a1b1f-118">Message store providers call **ModifyProfile** to prompt MAPI to modify their profile information.</span></span> 
   
- <span data-ttu-id="2353e-119">**Модифипрофиле** добавляет раздел профиля, связанный с поставщиком вызовов, в список установленных ресурсов поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="2353e-119">**ModifyProfile** adds the profile section that is associated with the calling provider to the list of installed message store provider resources.</span></span> <span data-ttu-id="2353e-120">Это приводит к тому, что хранилище сообщений отображается в таблице хранилища сообщений, которое доступно клиентам через метод [IMAPISession:: жетмсгсторестабле](imapisession-getmsgstorestable.md) , и его можно открыть без отображения диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="2353e-120">This causes the message store to be listed in the message store table, which is available to clients through the [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) method, and to be opened without the display of a dialog box.</span></span> 
+ <span data-ttu-id="a1b1f-119">**Модифипрофиле** добавляет раздел профиля, связанный с поставщиком вызовов, в список установленных ресурсов поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="a1b1f-119">**ModifyProfile** adds the profile section that is associated with the calling provider to the list of installed message store provider resources.</span></span> <span data-ttu-id="a1b1f-120">Это приводит к тому, что хранилище сообщений отображается в таблице хранилища сообщений, которое доступно клиентам через метод [IMAPISession:: жетмсгсторестабле](imapisession-getmsgstorestable.md) , и его можно открыть без отображения диалогового окна.</span><span class="sxs-lookup"><span data-stu-id="a1b1f-120">This causes the message store to be listed in the message store table, which is available to clients through the [IMAPISession::GetMsgStoresTable](imapisession-getmsgstorestable.md) method, and to be opened without the display of a dialog box.</span></span> 
   
-<span data-ttu-id="2353e-121">Если установлен флаг МДБ_ТЕМПОРАРИ, MAPI не выполняет никаких действий, а метод немедленно возвращает значение S_OK.</span><span class="sxs-lookup"><span data-stu-id="2353e-121">If the MDB_TEMPORARY flag is set, MAPI does nothing and the method returns immediately with S_OK.</span></span>
+<span data-ttu-id="a1b1f-121">Если установлен флаг МДБ_ТЕМПОРАРИ, MAPI не выполняет никаких действий, а метод немедленно возвращает значение S_OK.</span><span class="sxs-lookup"><span data-stu-id="a1b1f-121">If the MDB_TEMPORARY flag is set, MAPI does nothing and the method returns immediately with S_OK.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="2353e-122">См. также</span><span class="sxs-lookup"><span data-stu-id="2353e-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a1b1f-122">См. также</span><span class="sxs-lookup"><span data-stu-id="a1b1f-122">See also</span></span>
 
 
 
-[<span data-ttu-id="2353e-123">IMAPISession::GetMsgStoresTable</span><span class="sxs-lookup"><span data-stu-id="2353e-123">IMAPISession::GetMsgStoresTable</span></span>](imapisession-getmsgstorestable.md)
+[<span data-ttu-id="a1b1f-123">IMAPISession::GetMsgStoresTable</span><span class="sxs-lookup"><span data-stu-id="a1b1f-123">IMAPISession::GetMsgStoresTable</span></span>](imapisession-getmsgstorestable.md)
   
-[<span data-ttu-id="2353e-124">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="2353e-124">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="a1b1f-124">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="a1b1f-124">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 
