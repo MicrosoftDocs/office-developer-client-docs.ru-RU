@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 250b9137-facb-81a2-41b1-96a57366c04e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 800f79179f999ba193d4177abb7341095b8b896d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321219"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404857"
 ---
 # <a name="imapiofflinemgrunadvise"></a>IMAPIOfflineMgr::Unadvise
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ОтМеняет обратные вызовы для автономного объекта.
   
@@ -50,7 +50,7 @@ S_OK
   
 > Вызов выполнен успешно. Этот вызов должен возвращать значение S_OK.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Удаляет регистрацию для обратного вызова, который был связан с *уладвисетокен* , возвращенный при предыдущем вызове метода **[Имапиоффлинемгр:: Advise](imapiofflinemgr-advise.md)**. Заставляет объект **имапиоффлинемгр** освобождать ссылку на объект **[имапиоффлиненотифи](imapiofflinenotifyiunknown.md)** , связанный с *уладвисетокен* . 
   

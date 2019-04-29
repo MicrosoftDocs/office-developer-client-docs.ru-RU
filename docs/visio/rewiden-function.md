@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c20842cd-86b1-83fa-49ba-118936013b6f
 description: Преобразует формулу, которая создает 16 – битовые коды символов, которые являются расширенными кодами символов с одним или более многобайтовым кодом, в строку 16 – разрядных символов Юникода с использованием указанных наборов символов.
 ms.openlocfilehash: c885487f91e541027b7ba09812e7321a9deb00ac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326770"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405214"
 ---
 # <a name="rewiden-function"></a>Функция REWIDEN
 
@@ -32,7 +32,7 @@ ReWIDEN (* * *сркчарсет* * *, * * *дстчарсет* * *, * * *Text* 
 | _Дстчарсет_ <br/> |Обязательный  <br/> |**String** <br/> | Набор символов в целевом документе.  <br/> |
 | _text_ <br/> |Обязательный  <br/> |**String** <br/> |Преобразуемый текст.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Функция reWIDEN используется для автоматического преобразования документов Visio 2002 в документы Visio 2003. Использовать другие рекомендации не рекомендуется.
   

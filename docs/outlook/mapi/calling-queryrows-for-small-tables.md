@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 8c38bb0f-de0b-4d70-9f6d-db652445e137
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 8b38dcc485e75f94ccf4f4c3c8c9a57d314465a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331637"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404178"
 ---
 # <a name="calling-queryrows-for-small-tables"></a>Вызов QueryRows для небольших таблиц
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 При извлечении строк из маленькой таблицы вызывайте функцию [IMAPITable:: QueryRows](imapitable-queryrows.md) , а не создавать ограничение. Создание ограничения влияет на производительность, так как поставщик должен сначала создать таблицу, найти подходящие строки в исходной таблице, а затем скопировать строки в новую таблицу. Если общее количество строк в таблице меньше 100, вероятно, лучше прочитать все строки, а затем вызвать команду [IMAPITable:: FindRow](imapitable-findrow.md) , чтобы найти соответствующую строку. Это особенно хорошая стратегия, если эти сведения необходимы только иногда. 
   

@@ -8,22 +8,22 @@ localization_priority: Normal
 ms.assetid: 7c7353b7-f28e-4004-bf13-6e9714fbed37
 description: Определяет количество искажений для эффекты эскиза в виде целого числа от 0 до 25.
 ms.openlocfilehash: fd9ee3390d05f24d81d9c6677160155b0f0f0d35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314772"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404423"
 ---
 # <a name="sketchamount-cell-additional-effect-properties-section"></a>SketchAmount Cell (Additional Effect Properties Section)
 
 Определяет количество искажений для эффекты эскиза в виде целого числа от 0 до 25. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |нуль  <br/> |К фигуре не применены эффекты эскиза.  <br/> |
 |1-25  <br/> |К фигуре применено искажение эскизов, где значение 1 является самым подмножеством искажений, а 25 — наименьшей.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку **SketchAmount** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   

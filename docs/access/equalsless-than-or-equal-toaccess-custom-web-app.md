@@ -8,18 +8,18 @@ localization_priority: Normal
 ms.assetid: dc0dc67a-aadf-4a5c-9264-e8df1dcd183f
 description: Сравнивает два выражения. При сравнении выражений, не относящихся к null, результат имеет значение TRUE, если значение левого операнда меньше или равно значению правого операнда; в противном случае результат имеет значение FALSE.
 ms.openlocfilehash: 4a43c83024a7f5318faef25b4505c10246a5eabf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308220"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405655"
 ---
 # <a name="less-than-or-equal-to-access-custom-web-app"></a>Меньше или равно (пользовательское веб-приложение для Access)
 
 Сравнивает два выражения. При сравнении выражений, не относящихся к null, результат имеет значение TRUE, если значение левого операнда меньше или равно значению правого операнда; в противном случае результат имеет значение FALSE.
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 

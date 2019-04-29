@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 22005976-37c0-d2be-8e34-8aee8458e4be
 description: Возвращает целое число от 0 до 59, которое представляет компонент секунд в значении даты и времени или выражении.
 ms.openlocfilehash: c23bbded12a3886fe3bd4dd2a3c3ba1bd6d11619
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332790"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404878"
 ---
 # <a name="second-function-visioshapesheet"></a>SECOND Function (VisioShapeSheet)
 
@@ -50,13 +50,13 @@ SECOND ("* * *DateTime* * *" | * * *выражение* * * [, * * *LCID* * *])
   
 Возвращает 32.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 SECOND (TIMEVALUE ("30 мая, 1996 12:07:45") + 7 ES.)
   
 Возвращает 52.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 СЕКУНДА (0.6337)
   

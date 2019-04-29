@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 75807d66-6483-2785-567c-d238067e1e52
 description: Возвращает арккосинус числа, например угол, косинус которого равен числу.
 ms.openlocfilehash: fbfb5f6d9879e2e398fb2ae66d8b5c8a76f9251c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283102"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405830"
 ---
 # <a name="acos-function"></a>Функция ACOS
 
@@ -24,7 +24,7 @@ ms.locfileid: "32283102"
 
 ACOS ( *число*) 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Входное значение должно быть в диапазоне от 1 \<до Number \<= 1 или #NUM! возвращается ошибка. Полученный угол \<находится в диапазоне 0 = Angle \<= Пи радиан (0 \<= угол \<= 180 градусов).
   

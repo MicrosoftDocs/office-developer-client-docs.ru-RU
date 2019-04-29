@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: eeec59f8-f301-5639-ffd6-8a36b2bf9c8f
 description: Указывает начало сетки по вертикали.
 ms.openlocfilehash: fa8ee15d5ef2b5d581a9532336d3983bed17b1dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351676"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404493"
 ---
 # <a name="ygridorigin-cell-ruler-amp-grid-section"></a>Ячейка YGridOrigin (раздел "Линейка и сетка")
 

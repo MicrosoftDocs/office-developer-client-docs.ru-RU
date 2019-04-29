@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 93f82ae0-3442-fac1-9906-b84afef85f5c
 description: Определяет направление пересечения линий при пересечении вертикальной динамической соединительной линии для фигуры.
 ms.openlocfilehash: f86c77da62042d1bc2c0274564efa9fdb0887971
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342744"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404773"
 ---
 # <a name="conlinejumpdiry-cell-shape-layout-section"></a>ConLineJumpDirY Cell (Shape Layout Section)
 
@@ -26,7 +26,7 @@ ms.locfileid: "32342744"
 | 1,1  <br/> | Left  <br/> |**Висложумпдирилефт** <br/> |
 | 2  <br/> | Right  <br/> |**Висложумпдириригхт** <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы задать вертикальное направление по умолчанию для *всех* переходов между соединителями на странице, используйте ячейку PageLineJumpDirY в разделе Макет страницы. 
   

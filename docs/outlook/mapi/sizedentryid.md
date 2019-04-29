@@ -13,22 +13,22 @@ api_type:
 ms.assetid: 491170af-db35-4d7e-a912-44ffe8c7506b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 88cf91330dea82dda490b81cc8de6fea0504baf7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282686"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405711"
 ---
 # <a name="sizedentryid"></a>SizedENTRYID
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает именованную структуру [EntryID](entryid.md) , содержащую элемент **AB** указанного размера. 
   
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
-|Связанная структура:  <br/> |**КОД** <br/> |
+|Связанная структура:  <br/> |**ENTRYID** <br/> |
    
 ```cpp
 SizedENTRYID (_cb, _name)
@@ -44,7 +44,7 @@ __имя_
   
 > Имя для новой структуры.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Макрос **сизедентрид** позволяет определить идентификатор записи после того, как будут известны требования к длине массива. Используйте этот макрос для создания идентификатора записи с явно заданными границами. 
   
@@ -57,6 +57,6 @@ lpENTRYID = (LPENTRYID) &SizedENTRYID;
 
 ## <a name="see-also"></a>См. также
 
-- [КОД](entryid.md)
+- [ENTRYID](entryid.md)
 - [Макросы, связанные со структурами](macros-related-to-structures.md)
 

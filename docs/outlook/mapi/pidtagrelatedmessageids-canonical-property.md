@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 51f0eb8a-0a16-4b45-9380-28caddecf955
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d909a121bdc528a04d0f400555a6f98f29da8f0c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355162"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406054"
 ---
 # <a name="pidtagrelatedmessageids-canonical-property"></a>Каноническое свойство PidTagRelatedMessageIds
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит список идентификаторов сообщений, к которым относится сообщение.
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 5f368c2e-2a40-38ee-3568-ed5c57633345
 description: Указывает, отображается ли элемент данных фигуры в окне "данные фигуры".
 ms.openlocfilehash: 8671fcc249b7ca81c011f697721093e7842c1558
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357269"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33405319"
 ---
 # <a name="invisible-cell-shape-data-section"></a>Invisible Cell (Shape Data Section)
 
 Указывает, отображается ли элемент данных фигуры в окне " **данные фигуры** ". 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Элемент данных фигуры не отображается.  <br/> |
 | FALSE  <br/> | Элемент данных фигуры является видимым.  <br/> |

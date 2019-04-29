@@ -10,17 +10,17 @@ keywords:
 - Функция кслсет [Excel 2007]
 localization_priority: Normal
 ms.assetid: 121e6212-0692-4430-97be-4792b53719bf
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 0912c1d40882933778d0df927ceb9de773063444
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303859"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404605"
 ---
 # <a name="xlset"></a>xlSet
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Очень быстро поМещает постоянные значения в ячейки или диапазоны. Для получения дополнительных сведений обратитесь к разделу "Кслсет and книги с формулами массива" в статье " [Известные проблемы разработки XLL для Excel](known-issues-in-excel-xll-development.md)".
   
@@ -38,7 +38,7 @@ _Пксвалуе_
   
 Значение или значения, помещаемые в ячейки или ячейки. Для получения дополнительных сведений см раздел "Примечания".
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 ### <a name="pxvalue-argument"></a>аргумент Пксвалуе
 

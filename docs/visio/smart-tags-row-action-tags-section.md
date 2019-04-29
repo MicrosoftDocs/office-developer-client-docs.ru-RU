@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 065c6977-c737-a4f4-effa-0fd2c98e8bbf
 description: Содержит сведения об отдельном теге действия, связанном с фигурой или страницей. Фигура или страница содержит одну строку смарт-тегов для каждого тега действия.
 ms.openlocfilehash: 1c1591fd2d2cacfbfb350a542e6601cb2f6fbfd6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339832"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404710"
 ---
 # <a name="smart-tags-row-action-tags-section"></a>Smart Tags Row (Action Tags Section)
 
@@ -37,7 +37,7 @@ ms.locfileid: "32339832"
 |[Описание](description-cell-action-tags-section.md) <br/> |Строка с описанием для тега Action.  <br/> |
 |[Disabled](disabled-cell-action-tags-section.md) <br/> |Указывает, отключен ли тег action.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
  Можно добавить любое количество SmartTags.  ** укажите имена строк, назначьте им значимые имена и задайте значения ячеек. Чтобы добавить тег действия к существующему разделу смарт-тегов, щелкните строку правой кнопкой мыши и выберите команду **Вставить строку** в контекстном меню. 
   

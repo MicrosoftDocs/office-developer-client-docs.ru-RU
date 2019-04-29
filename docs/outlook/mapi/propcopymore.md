@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 133d47cf-3592-44f3-8cdd-be402d160ee4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 827cdb919499a068f7932d8f1f7ec264ddc5b47c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328555"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404472"
 ---
 # <a name="propcopymore"></a>PropCopyMore
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Копирует одно значение свойства из исходного расположения в конечное расположение. 
   
@@ -70,7 +70,7 @@ S_OK
   
 > Обнаружен неизвестный тип свойства.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Клиентское приложение или поставщик услуг может использовать функцию **пропкопиморе** , чтобы скопировать свойство из таблицы, которая будет освобождена, чтобы использовать ее в других целях. 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: bfe30c22-017b-42e0-93be-c85d674c07e3
 description: Получает строку, представляющую коллекцию действий каждого из пользователей, указанных в параметре Хашедаддрессес.
 ms.openlocfilehash: be29d0226eb137b1ad8ed025acfe3f4958efa85f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336451"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404339"
 ---
 # <a name="isocialsession2getactivitiesex"></a>ISocialSession2::GetActivitiesEx
 
@@ -37,7 +37,7 @@ _действий_
   
 > вышли Строка XML, представляющая набор действий пользователей, указанных в _хашедаддрессес_ в социальной сети с _начала_работы.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 OSC вызывает **жетактивитиесекс** , если поставщик OSC поддерживает синхронизацию действий по требованию. В файле OSC хранятся сведения, возвращенные в памяти. __ Для получения дополнительных сведений о том, как OSC использует и обновляет эти сведения в памяти, обратитесь к разделу [Синхронизация друзей и действий](synchronizing-friends-and-activities.md).
   

@@ -9,17 +9,17 @@ api_type:
 ms.assetid: a0d9a3e0-a500-4d72-8859-ecfd1604fc5b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 7f9768d47cf740bdf50b439ee3af4b0d2a191602
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328688"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33404444"
 ---
 # <a name="required-functionality-for-transport-providers"></a>Необходимые функции для поставщиков транспорта
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Каждый поставщик транспорта MAPI должен:
   
