@@ -9,24 +9,24 @@ api_type:
 ms.assetid: 358f892b-54a7-4213-b3c0-94f28f99716f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 38063cebe70b153decce6713ac5fc31d6916dbf6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279596"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426676"
 ---
-# <a name="retrieving-recipient-properties"></a><span data-ttu-id="a0722-103">Получение свойств получателя</span><span class="sxs-lookup"><span data-stu-id="a0722-103">Retrieving recipient properties</span></span>
+# <a name="retrieving-recipient-properties"></a><span data-ttu-id="b139d-103">Получение свойств получателя</span><span class="sxs-lookup"><span data-stu-id="b139d-103">Retrieving recipient properties</span></span>
   
-<span data-ttu-id="a0722-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a0722-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b139d-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b139d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a><span data-ttu-id="a0722-105">Доступ к одному или нескольким свойствам записи адресной книги</span><span class="sxs-lookup"><span data-stu-id="a0722-105">To access one or more properties of an address book entry</span></span>
+### <a name="to-access-one-or-more-properties-of-an-address-book-entry"></a><span data-ttu-id="b139d-105">Доступ к одному или нескольким свойствам записи адресной книги</span><span class="sxs-lookup"><span data-stu-id="b139d-105">To access one or more properties of an address book entry</span></span>
   
-1. <span data-ttu-id="a0722-106">Для каждой интересующей записи адресной книги вызовите [IAddrBook:: OpenEntry](iaddrbook-openentry.md), передав идентификатор записи целевого пользователя обмена сообщениями или списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="a0722-106">For each address book entry of interest, call [IAddrBook::OpenEntry](iaddrbook-openentry.md), passing the entry identifier of the target messaging user or distribution list.</span></span>
+1. <span data-ttu-id="b139d-106">Для каждой интересующей записи адресной книги вызовите [IAddrBook:: OpenEntry](iaddrbook-openentry.md), передав идентификатор записи целевого пользователя обмена сообщениями или списка рассылки.</span><span class="sxs-lookup"><span data-stu-id="b139d-106">For each address book entry of interest, call [IAddrBook::OpenEntry](iaddrbook-openentry.md), passing the entry identifier of the target messaging user or distribution list.</span></span>
     
-2. <span data-ttu-id="a0722-107">Затем выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="a0722-107">Then do one of the following:</span></span>
+2. <span data-ttu-id="b139d-107">Затем выполните одно из следующих действий.</span><span class="sxs-lookup"><span data-stu-id="b139d-107">Then do one of the following:</span></span>
     
-   - <span data-ttu-id="a0722-108">ВыЗовите метод [IMAPIProp::](imapiprop-getprops.md) -PROPS для каждой интересующей записи адресной книги со списком одного или нескольких извлекаемых свойств.</span><span class="sxs-lookup"><span data-stu-id="a0722-108">Call the messaging user or distribution list's [IMAPIProp::GetProps](imapiprop-getprops.md) method for each address book entry of interest, with a list of the one or more properties to retrieve.</span></span> 
+   - <span data-ttu-id="b139d-108">ВыЗовите метод [IMAPIProp::](imapiprop-getprops.md) -PROPS для каждой интересующей записи адресной книги со списком одного или нескольких извлекаемых свойств.</span><span class="sxs-lookup"><span data-stu-id="b139d-108">Call the messaging user or distribution list's [IMAPIProp::GetProps](imapiprop-getprops.md) method for each address book entry of interest, with a list of the one or more properties to retrieve.</span></span> 
     
-   - <span data-ttu-id="a0722-109">Call [IAddrBook::P репаререЦипс](iaddrbook-preparerecips.md), передающий структуру [ADRLIST](adrlist.md) , в которой хранятся все свойства всех нужных записей адресной книги.</span><span class="sxs-lookup"><span data-stu-id="a0722-109">Call [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), passing an [ADRLIST](adrlist.md) structure that holds all of the properties for all of the desired address book entries.</span></span> <span data-ttu-id="a0722-110">Так как один вызов **препаререЦипс** может возвращать сведения о нескольких записях адресных книг, это предпочтительная стратегия, когда вы заинтересованы в нескольких получателях.</span><span class="sxs-lookup"><span data-stu-id="a0722-110">Because one call to **PrepareRecips** can return information for multiple address book entries, it is the preferable strategy when you are interested in more than one recipient.</span></span> 
+   - <span data-ttu-id="b139d-109">Call [IAddrBook::P репаререЦипс](iaddrbook-preparerecips.md), передающий структуру [ADRLIST](adrlist.md) , в которой хранятся все свойства всех нужных записей адресной книги.</span><span class="sxs-lookup"><span data-stu-id="b139d-109">Call [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), passing an [ADRLIST](adrlist.md) structure that holds all of the properties for all of the desired address book entries.</span></span> <span data-ttu-id="b139d-110">Так как один вызов **препаререЦипс** может возвращать сведения о нескольких записях адресных книг, это предпочтительная стратегия, когда вы заинтересованы в нескольких получателях.</span><span class="sxs-lookup"><span data-stu-id="b139d-110">Because one call to **PrepareRecips** can return information for multiple address book entries, it is the preferable strategy when you are interested in more than one recipient.</span></span> 
     
 
