@@ -9,15 +9,15 @@ api_type:
 ms.assetid: dfc9fbf1-90d4-4756-92d9-032ac56a9c50
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 61d20ff7010151a82c53cafc69270e6925796a5c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327519"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429168"
 ---
 # <a name="form-states"></a>Состояния форм
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Объекты формы могут находиться в одном из пяти различных состояний, в зависимости от того, какие методы были вызваны в них и какие ошибки возникли при выполнении этих методов. Эти состояния описаны в следующих разделах:
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 99a5ca0e-5cb4-64cc-8af5-15ac6d02c77f
 description: Определяет, будет ли размер страницы документа автоматически изменяться в соответствии с схемой.
 ms.openlocfilehash: 6956c1e021ffffdb54f3dfa36270b9df04e892b0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316501"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437009"
 ---
 # <a name="drawingresizetype-cell-page-properties-section"></a>DrawingResizeType Cell (Page Properties Section)
 
 Определяет, будет ли размер страницы документа автоматически изменяться в соответствии с схемой. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку DrawingResizeType по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

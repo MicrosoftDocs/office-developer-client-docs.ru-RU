@@ -13,15 +13,15 @@ api_type:
 ms.assetid: 1d2dc6e9-735d-4b5b-af6f-adf6a32a666d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f873ad5234460f9f1781c7427b60d285f7486196
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282700"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429350"
 ---
 # <a name="sizedsproptagarray"></a>SizedSPropTagArray
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает именованную структуру [спроптагаррай](sproptagarray.md) , которая включает указанное количество тегов свойств. 
   
@@ -44,7 +44,7 @@ __имя_
   
 > Имя для новой структуры.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 С помощью макроса **сизедспроптагаррай** создайте массив тегов свойств с явными границами. 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 9f4b4147-ed98-47cb-a799-ddf028f8e826
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 24461099877af683109c8627eacd22a657d6e156
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321387"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430569"
 ---
 # <a name="imapimessagesitegetfolder"></a>IMAPIMessageSite::GetFolder
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает папку, в которой было создано или открыто текущее сообщение, если такая папка существует. Этот метод возвращает значение NULL в параметре _ппфолдер_ для внедренных сообщений, которые не хранятся непосредственно в папке. 
   
@@ -49,7 +49,7 @@ S_FALSE
   
 > Для сообщения не существует папки.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).
   

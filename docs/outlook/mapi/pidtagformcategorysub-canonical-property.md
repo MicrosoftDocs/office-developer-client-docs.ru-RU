@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0e654152-c850-417a-8877-29d47cf85db5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3b15cd27f6852f28e9dac113f6c45942de40ebbe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316270"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428790"
 ---
 # <a name="pidtagformcategorysub-canonical-property"></a>Каноническое свойство PidTagFormCategorySub
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит подкатегорию формы в соответствии с определением клиентского приложения. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32316270"
 |Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Эти свойства являются подчиненными для категории главной формы, которая представлена в свойстве **пр_форм_категори** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)). 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0a5cb49f-c4f3-4893-8616-80d6332efcfc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c14ccac0addbc1288e3507cf549344f75e69cc28
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351081"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430709"
 ---
 # <a name="imessagedeleteattach"></a>IMessage::DeleteAttach
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Удаляет вложение.
   

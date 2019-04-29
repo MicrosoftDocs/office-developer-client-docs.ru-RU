@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 7f489f55-46d4-8a88-6ebe-9db6446e69a5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: da55afcabb1354959a71d6f10472c05540427b19
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32298469"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428545"
 ---
 # <a name="make-store-type-private-property"></a>Сделать личное свойство типа хранилища
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 РасСматривает вторичное хранилище как личное.
   
@@ -37,7 +37,7 @@ ms.locfileid: "32298469"
 |Тип свойства:  <br/> |PT_BOOLEAN  <br/> |
 |Тип доступа:  <br/> |Чтение и запись  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы обеспечить какую бы то ни было функцию хранилища, поставщик магазина должен реализовать [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) и вернуть допустимый тег свойства для любого из этих свойств, передаваемого в вызов [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) . Когда тег свойства для любого из этих свойств передается в [IMAPIProp::](imapiprop-getprops.md)-Props, поставщик хранилища также должен возвращать правильное значение свойства. Поставщики хранилища могут вызывать [хржетонепроп](hrgetoneprop.md) и [хрсетонепроп](hrsetoneprop.md) для получения или задания этих свойств. 
   

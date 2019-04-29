@@ -13,17 +13,17 @@ api_type:
 ms.assetid: eaf3bafb-975d-42c8-99ea-7f9ef9c934ba
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: a58e723113f70c10b5c8468f5bdd0d8d9014bd2c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351127"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425129"
 ---
 # <a name="imapiviewcontextgetprintsetup"></a>IMAPIViewContext::GetPrintSetup
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Получает текущие сведения о печати.
   

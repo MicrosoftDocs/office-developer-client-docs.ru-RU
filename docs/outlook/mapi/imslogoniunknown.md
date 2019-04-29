@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d87093dc-f705-465f-ab3c-944ca0cd3e54
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 991e48aa458a58ad2d7d688e81dbb357ef9bda5b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348715"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428881"
 ---
 # <a name="imslogon--iunknown"></a>IMSLogon : IUnknown
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Получает доступ к ресурсам в объекте входа в хранилище сообщений.
   

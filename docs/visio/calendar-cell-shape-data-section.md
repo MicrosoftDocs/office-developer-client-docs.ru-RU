@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f5dcc6d9-474a-9ecb-21f5-56415d934890
 description: Определяет календарь, используемый для данных фигуры, когда типом данных является "Дата".
 ms.openlocfilehash: 2ddbd578053e2ae37514194450bd95dc9cdf441d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337508"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432760"
 ---
 # <a name="calendar-cell-shape-data-section"></a>Calendar Cell (Shape Data Section)
 
 Определяет календарь, используемый для данных фигуры, когда типом данных является "Дата".
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Возможные значения: 0 (Западный), 1 (арабский Хиджра), 2 (Еврейский лунный), 3 (тайваньский календарь), 4 (японский императоров Реигн), 5 (тайский), 6 (корейский), 7 (на английском языке), 8 (английский), 8 (французский (транслитерация)) и 9 (французский (французский)). 
   

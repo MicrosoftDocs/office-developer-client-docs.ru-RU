@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d3cc6658-e46d-42dd-b1ac-65c88cfef8ca
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 515061c6c208008c4752e5ff2f23933a4c259c00
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321870"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428020"
 ---
 # <a name="imapiformmgrresolvemultiplemessageclasses"></a>IMAPIFormMgr::ResolveMultipleMessageClasses
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Разрешает группу классов сообщений в свои формы в контейнере формы и возвращает массив объектов данных формы для этих форм.
   
@@ -68,7 +68,7 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Средства просмотра форм вызывают метод **имапиформмгр:: ресолвемултиплемессажеклассес** для разрешения группы классов сообщений в формы в контейнере формы. Массив объектов данных формы, возвращаемых в _ппфрминфоаррай_ , обеспечивает дополнительный доступ к каждому из свойств формы. 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f4217030-5fd1-4ec4-a83f-752717fbb787
 description: Выполняет вход на сайт социальных сетей с помощью проверки подлинности на основе форм.
 ms.openlocfilehash: 7ef7af8c1c2cdb783bdecd71b29635468e19dc6a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335366"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430338"
 ---
 # <a name="isocialsessionlogonweb"></a>ISocialSession::LogonWeb
 
@@ -33,7 +33,7 @@ _подключение_
   
 > вышли Строка, содержащая учетные данные для входа.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Outlook Social Connector (OSC) вызывает метод **логонвеб** , только если поставщик указывает, что он поддерживает проверку подлинности на основе форм. Поставщик указывает, что требуется проверка подлинности на основе форм, задав для **уселогонвебаус** **значение true** в XML для **возможностей**. Если поставщик устанавливает **уселогонвебаус** как **false**, OSC использует обычную проверку подлинности и вызывает метод [настроенный ISocialSession:: logon](isocialsession-logon.md) . 
   

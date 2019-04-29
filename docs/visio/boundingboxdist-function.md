@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8a2490f2-48c4-5df3-a3b3-40e8e0c80479
 description: Возвращает единицу измерения указанной части ограничительной рамки фигуры.
 ms.openlocfilehash: a62d5b82c310e7b99e16b70982b75a68172b7fd8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348967"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428279"
 ---
 # <a name="boundingboxdist-function"></a>Функция BOUNDINGBOXDIST
 
@@ -41,7 +41,7 @@ BOUNDINGBOXDIST (* * *index* * *)
 
  *Индекс* может принимать одно из следующих значений. 
   
-|**Item**|**Значение**|
+|**Элемент**|**Значение**|
 |:-----|:-----|
 |Width  <br/> |нуль  <br/> |
 |Height  <br/> |1,1  <br/> |

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e9059739-51b4-4574-bd0f-709eb5144ae7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 172cbf9478d3206742df61d211051594e69ab173
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321779"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436386"
 ---
 # <a name="imapiform--iunknown"></a>IMAPIForm : IUnknown
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Позволяет средствам просмотра форм работать с контекстами представления формы и уведомлениями форм, для выполнения команд форм и для завершения работы форм.
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 2ba7d372-0c2a-9fa7-0af6-97da0aafdb12
 description: Возвращает наименьшее расстояние от точки, представленной указанными координатами, к точке пути.
 ms.openlocfilehash: 5727b24739705d3e562150c48fe77f7ad6eedb57
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332692"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427019"
 ---
 # <a name="disttopath-function"></a>Функция DISTTOPATH
 
@@ -39,7 +39,7 @@ DISTTOPATH (* * *раздел* * *, * * *x* * *, * * *y* * *)
 
  **Double**
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Microsoft Visio возвращает #REF! Если _раздел_ не существует. 
   

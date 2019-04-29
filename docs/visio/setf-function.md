@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: fcf415c1-171f-b75f-6e40-2bbdbe8b1cfb
 description: Задает формулу ячейки.
 ms.openlocfilehash: 63050de92394ebbdce6cfe053e15347ca3ce5c7f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325839"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425976"
 ---
 # <a name="setf-function"></a>Функция SETF
 
@@ -31,7 +31,7 @@ SETF (GETREF (* * *ячейка* * *), * * *Формула* * *)
 | _элемент_ <br/> |Обязательный  <br/> |**String** <br/> |Ячейка, для которой задается формула.  <br/> |
 | _formula_ <br/> |Обязательный  <br/> |**String** <br/> |Используемая формула.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При оценке результат выражения в формуле становится новой __ формулой в ячейке. __ Если _Формула_ заключена в кавычки, выражение с кавычками записывается в _ячейку_. Чтобы присвоить _ячейке_ строку, заключите _формулу_ в три набора кавычек. 
   
@@ -45,13 +45,13 @@ SETF (GETREF ("с нуля. a1), \* 1,5 в 6 + 1 ФТ)
   
 Задает формулу "с нуля" до 21 дюймов.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 SETF (GETREF ("с нуля. a1"), \* "1,5" в 6 + 1 ФТ)
   
 Задает формулу "с нуля". A1 на выражение 1,5 в\*6 + 1 ФТ.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 SETF (GETREF ("с нуля. a1"), "" "" "" "" "АХХ" "" "" ")
   

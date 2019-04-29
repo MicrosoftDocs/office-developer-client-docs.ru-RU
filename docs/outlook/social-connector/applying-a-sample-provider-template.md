@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: da487569-f2f0-404c-b944-38ed1c1b82bb
 description: 'Шаблоны поставщика приложения Outlook Social Connector (OSC) предоставляют платформу для реализации поставщика OSC. '
 ms.openlocfilehash: 10fb21ab640e298bc655b8cad554fae789e2ad47
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281129"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425913"
 ---
 # <a name="applying-a-sample-provider-template"></a>Применение образца шаблона поставщика
 

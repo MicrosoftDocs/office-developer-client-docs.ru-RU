@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d03b7fc8-8c94-16cd-1542-11c6a31ff769
 description: Содержит строки, описывающие пункты меню в контекстном меню или меню тегов действий фигуры или страницы. В предыдущих версиях Microsoft Visio теги действий называются смарт-тегами. Ячейка TagName используется для связи действия со строкой в разделе тегов действий, где определяются теги действий.
 ms.openlocfilehash: 310bf164a0cd1419dbad51cdccf66147d6bcbf89
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283032"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435525"
 ---
 # <a name="actions-section"></a>Actions Section
 

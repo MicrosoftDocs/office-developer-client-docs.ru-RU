@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: c599b444-4d0e-a855-b04b-dd9dcaedf263
 description: Определяет расстояние между верхней границей блока текста и первой строкой текста, который он содержит. Значение по умолчанию — 4,0000 пт. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, верхнее поле остается прежним.
 ms.openlocfilehash: 97d349fd4ddc3c76cda61e1ee7ce25909161e6fa
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280926"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435574"
 ---
 # <a name="topmargin-cell-text-block-format-section"></a>TopMargin Cell (Text Block Format Section)
 
 Определяет расстояние между верхней границей блока текста и первой строкой текста, который он содержит. Значение по умолчанию — 4,0000 пт. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, верхнее поле остается прежним.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку TopMargin по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

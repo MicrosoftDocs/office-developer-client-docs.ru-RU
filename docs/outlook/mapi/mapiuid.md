@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 63eac3ee-e59b-4a06-8bb9-f72764d84bda
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: da314205f7d2dd746b72aa7e2b5ff2a13bb0c21b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32269925"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432207"
 ---
 # <a name="mapiuid"></a>MAPIUID
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Независимая от порядка байтов версия структуры [GUID](guid.md) , которая используется для уникальной идентификации поставщика услуг. 
   
@@ -46,7 +46,7 @@ typedef struct _MAPIUID
   
 > Массив, содержащий 16 байтового идентификатора.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Структура **мапиуид** — это структура **GUID** , помещенная в последовательность байтов процессора Intel ®. 
   

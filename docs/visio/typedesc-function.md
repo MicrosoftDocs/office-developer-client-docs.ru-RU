@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 08bc529e-e04e-206a-6322-77a8941e19f4
 description: Возвращает строку, описывающую внутренний тип объекта.
 ms.openlocfilehash: d6674e95bb41c9791893426bd58d67e10f165dc8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316417"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428664"
 ---
 # <a name="typedesc-function"></a>Функция TYPEDESC
 
@@ -26,9 +26,9 @@ TYPEDESC ()
   
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В следующей таблице приведены описательные строки для внутренних объектов.
   

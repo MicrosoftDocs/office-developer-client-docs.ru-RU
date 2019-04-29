@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a1736a5c-421c-2bdb-b164-76a8cd06cc3d
 description: Задает поведение при размещении размещаемой фигуры.
 ms.openlocfilehash: eae44a0579129fbe8da1c0cc8c37318beb024563
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325734"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431745"
 ---
 # <a name="shapefixedcode-cell-shape-layout-section"></a>ShapeFixedCode Cell (Shape Layout Section)
 
@@ -29,7 +29,7 @@ ms.locfileid: "32325734"
 |&amp;H40 (64)  <br/> |Разрешите маршрутизацию только сторонам с точками подключения.  <br/> |**Висслофикседконнптсонли** <br/> |
 |&amp;H80 (128)  <br/> |Не приклейте на периметр этой фигуры. ПриКлейте к рамке выравнивания фигуры?  <br/> |**Висслофикседнофолдтошапе** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Вы также можете задать значение этой ячейки на вкладке " **Размещение** " в диалоговом окне **поведение** (с выбранной фигурой на вкладке " [разработчик](run-in-developer-mode-display-the-developer-tab.md) ", в группе " **Макет фигуры** " щелкните **поведение**, а затем перейдите на вкладку **Размещение** . ). 
   

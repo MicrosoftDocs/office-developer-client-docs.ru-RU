@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c0a4f6ce-4c40-c00e-6682-a932ae70d2f2
 description: Возвращает общее количество фигур в контейнере.
 ms.openlocfilehash: 5b2323d9f10af541bdd8ceb9832e54455c4ae99b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318944"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426669"
 ---
 # <a name="containermembercount-function"></a>Функция CONTAINERMEMBERCOUNT
 
@@ -31,7 +31,7 @@ CONTAINERMEMBERCOUNT ()
 
  **Integer**
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если фигура не является контейнером, CONTAINERMEMBERCOUNT возвращает значение-1.
   

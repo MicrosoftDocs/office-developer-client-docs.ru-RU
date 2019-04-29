@@ -9,15 +9,15 @@ localization_priority: Normal
 ms.assetid: c38aa8be-ae77-0c40-9843-42e07b80db6b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9bd61739b14d0ec382a9d582689c1049fe89429b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360545"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424884"
 ---
 # <a name="updele"></a>UPDELE
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Расширенные сведения об элементах, удаленных в локальном хранилище. Эти сведения используются в состоянии состояния [отправки для удаления](upload-delete-status-state.md).
   

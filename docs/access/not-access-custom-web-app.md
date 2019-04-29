@@ -8,18 +8,18 @@ localization_priority: Normal
 ms.assetid: f0f0a65f-5248-4d7c-a4a4-a0cc863b15ec
 description: Выполняет логическую операцию логического ввода.
 ms.openlocfilehash: b910613a7bf08c79c2f66a417b5faec4886cb8d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308136"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430723"
 ---
 # <a name="not-access-custom-web-app"></a>НЕТ (пользовательское веб-приложение для Access)
 
 Выполняет логическую операцию логического ввода.
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -31,7 +31,7 @@ ms.locfileid: "32308136"
 |:-----|:-----|
 | *Булеанекспрессион*  <br/> |Допустимое логическое выражение.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В следующей таблице показаны результаты сравнения значений TRUE и FALSE с помощью оператора **Not** . 
   

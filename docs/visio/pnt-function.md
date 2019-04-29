@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d14a735c-0278-922f-7823-79adf6cb1e64
 description: Возвращает точку, представленную координатами x и y в виде одного значения.
 ms.openlocfilehash: c0a12aa18f4c766ea1f5b0fa1d827804d766713c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322353"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435714"
 ---
 # <a name="pnt-function"></a>Функция PNT
 
@@ -34,7 +34,7 @@ PNT (* * *x, y* * *)
 
 Point
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При преобразовании координат в точки можно изменить геометрию фигуры без необходимости управлять координатами *x* и *y* раздельно. 
   

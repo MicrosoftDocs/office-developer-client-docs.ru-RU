@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 34654660-b003-42f5-9fcd-24ebaccd735d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 866c28bc08f669d18487c99c9a13bc7347b605fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356205"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425591"
 ---
 # <a name="pidtagoriginalauthorentryid-canonical-property"></a>Каноническое свойство PidTagOriginalAuthorEntryId
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор автора первой версии сообщения, то есть сообщение перед пересылкой или ответом на него.
   

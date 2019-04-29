@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 79d5af23-efad-4013-a330-56babfb2bb0f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 794674df38266743cac8c947ec93dc1fcfff438b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309739"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430576"
 ---
 # <a name="imsproviderspoolerlogon"></a>IMSProvider::SpoolerLogon
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ЗаНосит в журнал Диспетчер очереди MAPI в хранилище сообщений.
   
@@ -124,7 +124,7 @@ S_OK
   
 > Вызов выполнен успешно, но у поставщика хранилища сообщений есть доступные сведения об ошибке. При возвращении этого предупреждения вызов должен обрабатываться как успешный. Чтобы проверить это предупреждение, используйте макрос **хр_фаилед** . Дополнительные сведения см. [в разделе Использование макросов для обработки ошибок](using-macros-for-error-handling.md). Чтобы получить сведения об ошибке от поставщика, вызовите метод [IMAPISession:: GetLastError](imapisession-getlasterror.md) . 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Диспетчер очереди MAPI вызывает метод **функцииimsprovider:: спулерлогон** для входа в хранилище сообщений. Диспетчер очереди MAPI должен использовать объект хранилища сообщений, возвращенный поставщиком хранилища сообщений, в параметре _лппмдб_ во время и после входа. 
   

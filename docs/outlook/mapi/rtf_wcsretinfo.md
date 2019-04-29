@@ -9,15 +9,15 @@ localization_priority: Normal
 ms.assetid: 62561d8d-33cb-e482-7fa0-132afe2b464a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: cfa18c215fc98610b836db31e2a07581291910be
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315787"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426172"
 ---
 # <a name="rtfwcsretinfo"></a>RTF_WCSRETINFO
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Эта структура предоставляет сведения о потоке в собственном формате, возвращенном из распаковки текста сообщения, инкапсулированного в формате RTF.
   
@@ -32,7 +32,7 @@ typedef struct {
 
 ## <a name="members"></a>Элементы
 
-_size_
+_размер_
   
 > Размер структуры **ртф_вксретинфо** в байтах. 
     

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: d69393fb-fb5a-4edb-abc0-38f5d7e80bcc
 description: В этом разделе описываются процедуры добавления обработчиков событий в шаблон формы с управляемым кодом Microsoft InfoPath с помощью Visual Studio 2012. Чтобы добавить обработчик событий в шаблон формы, сначала откройте шаблон формы в конструкторе InfoPath, а затем выберите соответствующую команду пользовательского интерфейса для события, для которого необходимо создать код. После выбора команды для события в конструкторе InfoPath фокус автоматически переключается на каркас обработчика событий для этого события в редакторе кода Visual Studio 2012.
 ms.openlocfilehash: c6406ec1604355c59f4ee4818fdaea5d70f696bb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300121"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427187"
 ---
 # <a name="add-an-event-handler"></a>Добавление обработчика событий
 

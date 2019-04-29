@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 1dd14858-2ce6-4629-a2f1-82d23cd6576b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 159a25347cd64b44f42dbb5052425ebb67894a9b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341132"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430373"
 ---
 # <a name="pidtagserviceinstallid-canonical-property"></a>Каноническое свойство PidTagServiceInstallId
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Идентификатор компонента поставщика.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32341132"
 |Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Профиль MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эти свойства можно использовать в качестве параметра Component для вызова **мсипровидекуалифиедкомпонент** для установки поставщика. 
   

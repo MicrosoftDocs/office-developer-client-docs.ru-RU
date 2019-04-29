@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 260ee328-e73f-48bc-7762-d592b7d42afc
 description: Возвращает или задает имя учетной записи.
 ms.openlocfilehash: 90b62548694687d9357f4302af36e4c8efeb8c0c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327624"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429434"
 ---
 # <a name="propacctname"></a>PROP_ACCT_NAME
 
@@ -29,7 +29,7 @@ ms.locfileid: "32327624"
 |Тег свойства:  <br/> |0x0002001F  <br/> |
 |Обращения  <br/> |Чтение и запись  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Получите или задайте значение этого свойства с помощью [иолкаккаунт::](iolkaccount-getprop.md) GetProperty или [Иолкаккаунт:: сетпроп](iolkaccount-setprop.md), соответственно.
   

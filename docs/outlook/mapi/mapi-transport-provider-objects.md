@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 4f28fab8-2ce1-4398-a941-6d718c9bbd6a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3f05e5b4b45e18d580737d37250e183c4cead881
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357380"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430359"
 ---
 # <a name="mapi-transport-provider-objects"></a>Объекты поставщика транспорта MAPI
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Помимо стандартных объектов provider и logon, реализованных всеми поставщиками услуг, для реализации объекта Status необходимы поставщики транспорта. Для других типов поставщиков услуг реализация объекта Status является необязательной. Однако для поставщиков транспорта требуется MAPI. Поставщики транспорта, поддерживающие загрузку заголовков сообщений с удаленного сервера, также реализуют папку и таблицу. 
   

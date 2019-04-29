@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 42f4655d-b411-42be-aff6-4521a5b5290b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f8df57579b23ea660f38a0f804b3729d0c73990e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320400"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425003"
 ---
 # <a name="pidtagtransportproviders-canonical-property"></a>Каноническое свойство PidTagTransportProviders
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит список идентификаторов поставщиков транспорта в текущем профиле.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32320400"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Профиль MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Не используйте это свойство. Оно зарезервировано для использования MAPI.
   

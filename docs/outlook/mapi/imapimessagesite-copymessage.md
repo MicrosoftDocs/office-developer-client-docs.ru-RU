@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d4e18483-409a-4d81-91dc-f4aec29a82bb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: aeb8b090997bd0c4f51f872b36d6520547846f7f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321548"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430002"
 ---
 # <a name="imapimessagesitecopymessage"></a>IMAPIMessageSite::CopyMessage
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Копирует текущее сообщение в папку.
   
@@ -49,7 +49,7 @@ S_OK
   
 > Эта операция не поддерживается этим сайтом сообщений.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объекты форм вызовите метод **имапимессажесите:: копимессаже** , чтобы скопировать текущее сообщение в новую папку. **Копимессаже** не изменяет сообщение, отображаемое в данный момент для пользователя, и интерфейс для нового сообщения не возвращается в форму. 
   

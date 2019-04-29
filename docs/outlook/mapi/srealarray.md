@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 95be07bf-5732-4775-9e0f-fec47e99d9b7
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8439d6609ebece75699a1150a9d0c1a41277fd52
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344382"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429875"
 ---
 # <a name="srealarray"></a>SRealArray
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив значений float, которые используются для описания свойства типа PT_MV_R4. 
   
@@ -50,7 +50,7 @@ typedef struct _SRealArray
   
 > Указатель на массив значений с плавающей запятой.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Более подробную информацию о типе свойства PT_MV_R4 можно узнать в статье [типы свойств](property-types.md).
   

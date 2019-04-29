@@ -10,17 +10,17 @@ keywords:
 - Функция кслстакк [Excel 2007]
 localization_priority: Normal
 ms.assetid: f9f030e8-1ec9-4cbf-92e1-360526260916
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 55ceed93407b1d99e05bc20fb6ce0b22459de7df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310159"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429981"
 ---
 # <a name="xlstack"></a>xlStack
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Проверяет объем места, оставшееся на стеке.
   
@@ -36,7 +36,7 @@ Excel12(xlStack, LPXLOPER12 pxRes, 0);
 
 Возвращает количество байтов (**кслтипеинт**), оставшееся в стеке.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объем доступного места в стеке последних версий превышает 16-разрядное целое число со знаком для **XLOPER**. Это означает, что **кслстакк** может возвращать значение между – 32767 и 32768 при вызове с помощью **XLOPER**s и **Excel4** или **Excel4v**. Чтобы получить правильное значение в этом случае, необходимо присвоить возвращенное значение неподписанному сокращенному типу.
   

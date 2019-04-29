@@ -7,11 +7,11 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7b7cb295-fc77-a8b9-aac9-e548f3b4afcb
 ms.openlocfilehash: 007a44d13565889b4775f2d3fe9979685e1878b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322276"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425066"
 ---
 # <a name="iolkaccount"></a>IOlkAccount
 
@@ -24,7 +24,7 @@ ms.locfileid: "32322276"
 |Наследование от:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
 |Предоставлено:  <br/> |[Иолкаккаунтманажер:: финдаккаунт](iolkaccountmanager-findaccount.md) и [Иолкенум:: GetNext](iolkenum-getnext.md) <br/> |
-|Вызывающая сторона:  <br/> |Клиент  <br/> |
+|Вызывающая сторона:  <br/> |Client  <br/> |
 |Идентификатор интерфейса:  <br/> |Иид_иолкаккаунт  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
@@ -67,7 +67,7 @@ ms.locfileid: "32322276"
 |[PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) <br/> |Возвращает или задает идентификатор записи адресной книги для учетной записи.  <br/> |
 |[PROP_MAPI_TRANSPORT_FLAGS](prop_mapi_transport_flags.md) <br/> |Представляет параметры транспорта, которые Microsoft Outlook использует для определения необходимых задач синхронизации и отключения элементов пользовательского интерфейса, которые не поддерживаются учетной записью.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот интерфейс возвращается методом **иолкаккаунтманажер:: финдаккаунт** при поиске учетной записи, которая поддерживает **иолкаккаунт** и **иолкенум::-Next** при возврате следующей учетной записи в перечислителе. 
   

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: caafab24-6413-4731-813d-cba3ae9ea97e
 description: Любой администратор семейства веб-сайтов может публиковать формы с кодом непосредственно из мастера публикации InfoPath Designer в библиотеке форм в SharePoint. Код выполняется в изолированной среде, что предотвращает выполнение вредоносного кода на сервере. Этот процесс называется публикацией изолированного решения или публикацией в изолированной инфраструктуре SharePoint.
 ms.openlocfilehash: f8f8a48ea6810b5331198f6ddc112b3bd38ab886
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303509"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428328"
 ---
 # <a name="publishing-forms-with-code"></a>Публикация форм с кодом
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ef62f63f-b2ce-4d12-a294-93dbdc9a869d
 description: Возвращает значение RGB или целое число, представляющее индекс в цветовой палитре документа, где цвет (число), переданный в качестве аргумента, был изменен указанным оттенком или значением затенения, хранящимся в параметрах градиента активной темы.
 ms.openlocfilehash: 014dc04c5114e296cd2226f3cf04dfb729817578
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332265"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429140"
 ---
 # <a name="themecbv-function"></a>Функция THEMECBV
 
@@ -38,7 +38,7 @@ ms.locfileid: "32332265"
 
  **Number**
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 > [!NOTE]
 > Функция THEMECBV ничего не относится к цвету, переданному в качестве аргумента, если Куиккстиле, назначенный фигуре, не имеет градиента. 

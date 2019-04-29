@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: fbcf3a04-ee0f-40a6-8edd-583ae203e2e1
 description: При работе с формой InfoPath программным образом можно написать код для доступа к окнам формы, а затем настроить некоторые содержащиеся в них элементы. Объектная модель, совместимая с InfoPath 2003, поддерживает доступ к окнам формы с помощью интерфейса WindowObject в связи с интерфейсом WindowsCollection.
 ms.openlocfilehash: f8939fc562cf16c1bce0f6f88bba659e895254f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299897"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427579"
 ---
 # <a name="work-with-form-windows-using-the-infopath-2003-object-model"></a>Работать с окнами форм с помощью объектной модели InfoPath 2003
 
@@ -31,7 +31,7 @@ ms.locfileid: "32299897"
 
 Интерфейс **WindowsCollection** предоставляет указанные ниже свойства, которыми разработчики форм могут пользоваться для управления экземплярами **WindowObject**, содержащимися в интерфейсе. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Возвращает количество объектов  **Window** в семействе.  <br/> |
 |Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Возвращает ссылку на указанный объект **Window**.  <br/> **Note**: Visual C# обращается к коллекциям с помощью индексатора вместо вызова свойства **Item** . Например,  `thisApplication.Windows[0].Caption`.           |
@@ -40,7 +40,7 @@ ms.locfileid: "32299897"
 
 Интерфейс **WindowObject** предоставляет указанные ниже методы и свойства, которыми разработчики форм могут пользоваться для взаимодействия с окном InfoPath. Поддержка этих методов и свойств зависит от типа окна ( [ксдвиндовтипе](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdWindowType.aspx) ), с которым ведется работа. Некоторые методы и свойства работают только с окном редактора (**XdWindowType.xdEditorWindow**). Остальные методы и свойства работают как с окном редактора, так и с окном конструктора (**XdWindowType.xdDesignerWindow**). Кроме того, как и для всех членов объектной модели InfoPath, при вызове из шаблона формы поддержка методов и свойств может изменяться в зависимости от уровня безопасности и метода развертывания формы.
   
-|**Имя**|**Описание**|**Поддержка типов окон**|
+|**Name**|**Описание**|**Поддержка типов окон**|
 |:-----|:-----|:-----|
 |Метод [Activate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Activate.aspx)  <br/> |Обозначает окно как активное в данный момент окно.  <br/> |Типы **xdDesignWindow** и **xdEditorWindow**  <br/> |
 |Свойство [Active](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Active.aspx)  <br/> |Возвращает логическое (**Boolean**) значение, указывающее, является ли окно активным в данный момент.  <br/> |Типы **типы xddesignwindow** и **xdEditorWindow**  <br/> |

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f58687d7-2ba4-ff77-0bcc-3106867d89de
 description: Размер шрифта, используемого для форматирования текста, состоящего из сложных символов.
 ms.openlocfilehash: 38b01c4a0142c7eca2923ee9b13963eaa1a62830
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359351"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428440"
 ---
 # <a name="complexscriptsize-cell-character-section"></a>ComplexScriptSize Cell (Character Section)
 

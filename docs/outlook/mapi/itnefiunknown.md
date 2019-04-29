@@ -13,17 +13,17 @@ api_type:
 ms.assetid: eddca896-9497-4425-9904-87ef3cbae298
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1f815a914deb5e21f3d913abe46a84cc7a32b4ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315038"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428517"
 ---
 # <a name="itnef--iunknown"></a>ITnef : IUnknown
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет методы инкапсуляции свойств MAPI, которые не поддерживаются системой обмена сообщениями в двоичные потоки, которые можно вложить в сообщения. Для этой инкапсуляции используется формат TNEF, не зависящий от транспорта. Целевой поставщик транспорта или клиентское приложение на основе MAPI могут затем при получении сообщения, которое содержит вложение в формате TNEF, восстановите свойства из вложения.
   

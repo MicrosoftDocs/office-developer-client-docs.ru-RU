@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 2635a829-0f3a-49ed-a672-2f350a2cf979
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f308c1f6f3cd2c9904dd94cd6761517bd5b410b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328023"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429707"
 ---
 # <a name="ftadcft"></a>FtAdcFt
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Добавляет одно целое число без знака 64 в другое, при необходимости используя флаг.
   
@@ -54,7 +54,7 @@ FILETIME FtAdcFt(
 
 Функция **фтадкфт** возвращает структуру **fileTime** , которая содержит сумму двух целых чисел. Два входных параметра остаются неизменными. Если **пвкарри** не имеет значение null, он содержит результат, равный сумме (0 или 1). 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Функция **фтадкфт** идентична **Фтаддфт** , когда _пвкарри_ имеет значение null. Если _пвкарри_ имеет значение, отличное от NULL, а указывает на 0, **фтадкфт** возвращает то же значение **fileTime** , которое возвращает **фтаддфт** . 
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 2a15e5df-b8e3-9c37-b1ee-2881d010e30b
 description: В этом разделе содержатся определения констант, идентификаторы классов и идентификаторы интерфейсов для API управления учетными записями.
 ms.openlocfilehash: 52d6e1801ac35621179aa0cac8acc2893aeb06b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316872"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429077"
 ---
 # <a name="constants-account-management-api"></a>Constants (Account management API)
 

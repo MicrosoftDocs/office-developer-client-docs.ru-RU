@@ -13,17 +13,17 @@ api_type:
 ms.assetid: ef31b61a-93b6-4ae8-bc71-f5ef5caf43f4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 1915004847fdfd27c97656223866aaab9d3e59c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326308"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425325"
 ---
 # <a name="imapisupportreadreceipt"></a>IMAPISupport::ReadReceipt
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает отчет о прочтении или непрочтении для сообщения.
   
@@ -59,7 +59,7 @@ S_OK
   
 > Отчет успешно создан.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: ReadReceipt** реализован только для объектов поддержки поставщика хранилища сообщений. Поставщики хранилищ сообщений вызывают **ReadReceipt** , чтобы сообщить MAPI о создании отчета о прочтении или непрочтении для сообщения, на которое указывает параметр _лпреадмессаже_ . 
   

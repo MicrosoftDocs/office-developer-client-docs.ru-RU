@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 0dddef20-c58e-2306-ab8e-6cac8e159f61
 description: Определяет формат вставленного поля в более ранних версиях Visio, чем Visio 2000.
 ms.openlocfilehash: 16cefc5f45d6b5f0f677e35bd5d0937d48fb2680
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337144"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426368"
 ---
 # <a name="uiformat-cell-text-fields-section"></a>UIFormat Cell (Text Fields Section)
 
 Определяет формат вставленного поля в более ранних версиях Visio, чем Visio 2000.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эта ячейка не отображается в окне таблицы свойств фигуры. Используйте эту ячейку, если вам нужно разобраться с проблемами обратной связи, например сохранить документ Visio версии 2000 в формате файлов Visio версии 5,0.
   

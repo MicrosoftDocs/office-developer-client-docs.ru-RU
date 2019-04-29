@@ -13,15 +13,15 @@ api_type:
 ms.assetid: 627f95e9-39ac-4d43-8f02-687783b09785
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: dfdf1068caaab3894b1b489d53ccc8debe1b3a29
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316483"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436211"
 ---
 # <a name="rtfsync"></a>RTFSync
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Убедитесь, что текст сообщения в формате RTF соответствует версии обычного текста. Перед считыванием версии RTF и изменением версии RTF необходимо вызвать эту функцию. 
   
@@ -65,7 +65,7 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если свойство **пр_ртф_ин_синк** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) отсутствует или имеет значение false, перед чтением свойства **пр_ртф_компрессед** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) необходимо вызвать функцию **ртфсинк** с помощью параметра ртф_синк_боди_ ИЗМЕНЕНный набор флагов. 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: b7f80e0a-8ddd-4b24-ab63-2078a8152058
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 31840923e24cddd0dc3dfa9cc67b610d0dcd7e47
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336976"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428461"
 ---
 # <a name="fbadsortorderset"></a>FBadSortOrderSet
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Проверяет порядок сортировки, установленный путем проверки выделения памяти. 
   
@@ -55,7 +55,7 @@ FALSE
   
 > Указан допустимый набор порядка сортировки.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Функцию **фбадсортордерсет** можно использовать для подготовки к вызову метода сортировки, такого как метод [IMAPITable:: сорттабле](imapitable-sorttable.md) . 
   

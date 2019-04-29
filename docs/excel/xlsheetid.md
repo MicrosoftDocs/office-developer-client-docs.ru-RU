@@ -10,17 +10,17 @@ keywords:
 - Функция кслшитид [Excel 2007]
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: a2ca1bb478c5c985ad7032e30ed0cfe3aef31406
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310306"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428433"
 ---
 # <a name="xlsheetid"></a>xlSheetId
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Находит идентификатор именованного листа, чтобы создать внешние ссылки.
   
@@ -41,7 +41,7 @@ _пксшитнаме_ (**кслтипестр**)
 > [!NOTE]
 > После этого вызова в указателе массива _пксрес-\>Val. мреф. лпмреф_ ЗАдается значение null, поэтому нет необходимости вызывать **кслфри** , чтобы освободить память, которую обычно содержит этот тип, хотя это совершенно безопасно для этого. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы использовать эту функцию, необходимо открыть книгу, содержащую указанный лист. Невозможно создать ссылку на неоткрытую книгу из библиотеки DLL. Дополнительные сведения об использовании **кслшитид** для создания ссылок приведены в статье [Управление памятью в Excel](memory-management-in-excel.md) для примера конструкции **кслтипереф** . 
   

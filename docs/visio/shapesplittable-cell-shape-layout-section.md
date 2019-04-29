@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 6330304a-71f3-62b4-1b27-14495e3f12c3
 description: Указывает, можно ли разделить эту одноМерное фигуру.
 ms.openlocfilehash: 9f92cf7d147be8e59d860bcc8a958bf0cdc008c6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349156"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427075"
 ---
 # <a name="shapesplittable-cell-shape-layout-section"></a>ShapeSplittable Cell (Shape Layout Section)
 
 Указывает, можно ли разделить эту одноМерное фигуру. 
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | нуль  <br/> | Не разрешать разделение этой фигуры.  <br/> |**Висслосплиттабленоне** <br/> |
 | 1,1  <br/> | РазРешите разделение этой фигуры.  <br/> |**Висслосплиттаблеаллов** <br/> |

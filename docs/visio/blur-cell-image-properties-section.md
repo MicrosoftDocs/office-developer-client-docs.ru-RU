@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 8b077cdb-6036-4f77-dc20-a476bb75b0f7
 description: 'Размытие или смягчение растрового изображения. Значение по умолчанию: 0%.'
 ms.openlocfilehash: 599810d126c853e37552045d0ef83cb580606ae2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348981"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427908"
 ---
 # <a name="blur-cell-image-properties-section"></a>Blur Cell (Image Properties Section)
 

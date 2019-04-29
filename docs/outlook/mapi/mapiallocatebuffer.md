@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f1fc7fc5-c71f-44f7-930a-571773eb6809
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 589ad42199e6f2ec1039499dfd9beda044ccc3dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357311"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425696"
 ---
 # <a name="mapiallocatebuffer"></a>MAPIAllocateBuffer
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Выделяет буфер памяти. 
   

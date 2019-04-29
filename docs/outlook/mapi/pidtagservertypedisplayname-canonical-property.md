@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 7b1ebf5c-3355-4691-bf7b-164d0c411d0c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 1ddd8812962fa962f4f2958b5ef3d817f6d2142c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356660"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425955"
 ---
 # <a name="pidtagservertypedisplayname-canonical-property"></a>Каноническое свойство PidTagServerTypeDisplayName
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает строку Юникода, которая будет отображаться в строке состояния с этим свойством.
   

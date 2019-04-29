@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 85d71b73-0630-4c5d-b0e3-b48d27a300d0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 44e3613338c8932bc80dd1150392033dfa3cd050
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278738"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426935"
 ---
 # <a name="isequalmapiuid"></a>IsEqualMAPIUID
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Тестирует две структуры [мапиуид](mapiuid.md) , чтобы определить, содержат ли они один и тот же идентификатор. 
   
@@ -46,7 +46,7 @@ IsEqualMAPIUID(lpuid1, lpuid2)
   
 > Указатель на вторую структуру **мапиуид** , которую необходимо протестировать. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Макрос **исекуалмапиуид** ВОЗВРАЩАЕТ значение true, если две структуры **мапиуид** содержат один и тот же идентификатор, и значение false в противном случае. 
   

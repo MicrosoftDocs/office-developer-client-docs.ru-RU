@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 98f7ebdc-fdd5-4534-97dc-9d4c00490d62
 description: Изменение внешнего вида выносок, контейнеров, временных шкал и фигур организационной диаграммы.
 ms.openlocfilehash: 089623bbb310f78488a5c8c7261eed1c16a5c6e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345628"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427698"
 ---
 # <a name="embellishmentindex-cell-theme-properties-section"></a>EmbellishmentIndex Cell (Theme Properties Section)
 
 Изменение внешнего вида выносок, контейнеров, временных шкал и фигур организационной диаграммы.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку **EmbellishmentIndex** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   

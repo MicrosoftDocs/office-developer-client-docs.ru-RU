@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 2872130d-a36b-46ea-bfd1-4700fe3dd41b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 84b44b4b054a2b2617502a6a463a6d4a89546804
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336444"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426270"
 ---
 # <a name="statusobjectnotification"></a>STATUS_OBJECT_NOTIFICATION
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывает объект status, на который влияет изменение. 
   
@@ -60,7 +60,7 @@ typedef struct
   
 > Указатель на массив структур **спропвалуе** , описывающих свойства измененного объекта Status. 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Структура **статус_обжект_нотификатион** — это один из членов объединения структур, включенных в элемент **info** структуры [уведомления](notification.md) . Структура **статус_обжект_нотификатион** включена в уведомление объекта Status для события типа _фневстатусобжектмодифиед_. Уведомление объекта Status является внутренним уведомлением MAPI; Клиенты и поставщики услуг не могут регистрироваться для ИТ, и поставщики услуг не могут создать ее.
   

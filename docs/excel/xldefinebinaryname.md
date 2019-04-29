@@ -10,17 +10,17 @@ keywords:
 - Функция кслдефинебинаринаме [Excel 2007]
 localization_priority: Normal
 ms.assetid: e3e8f91b-cc31-4f09-9941-f950ae96820a
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 3c7fc4f6b6fc7179c1ca84043895273b2781f8b5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310215"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430254"
 ---
 # <a name="xldefinebinaryname"></a>xlDefineBinaryName
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Используется для выделения постоянного хранилища для **кслтипебигдата** **XLOPER**/ ****. Данные с определенным двоичным именем сохраняются вместе с книгой и могут быть доступны по имени в любое время. Дополнительные сведения см. в разделе "ограничения области двоичных имен [](known-issues-in-excel-xll-development.md)".
   

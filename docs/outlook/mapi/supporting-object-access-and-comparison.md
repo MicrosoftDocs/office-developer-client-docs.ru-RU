@@ -9,17 +9,17 @@ api_type:
 ms.assetid: aac7c6c5-6896-4824-ba36-81bb292777a9
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 2b62f92325fcebf8cd3f0c86d28d98e7ff511ee2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349611"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429035"
 ---
 # <a name="supporting-object-access-and-comparison"></a>Поддержка доступа к объектам и их сравнения
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Поставщики услуг могут использовать методы [имаписуппорт:: OpenEntry](imapisupport-openentry.md) и [Имаписуппорт:: метод compareentryids](imapisupport-compareentryids.md) для открытия и сравнения объектов, принадлежащих их поставщику или другим поставщикам: 
   

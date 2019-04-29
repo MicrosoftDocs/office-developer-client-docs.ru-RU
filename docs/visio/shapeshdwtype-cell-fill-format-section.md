@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: 1461148d-90a9-6f7c-1b28-9310ffaf0e3b
 description: Указывает тип тени для фигуры.
 ms.openlocfilehash: 607881e4a520f1376562394c6e40ab5d2508906d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342863"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430261"
 ---
 # <a name="shapeshdwtype-cell-fill-format-section"></a>ShapeShdwType Cell (Fill Format Section)
 
 Указывает тип тени для фигуры. 
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 |нуль  <br/> |Использовать страницу по умолчанию (по умолчанию)  <br/> |**Висфстпажедефаулт** <br/> |
 |1,1  <br/> |Simple (Простая)  <br/> |**Висфстсимпле** <br/> |
 |2  <br/> |Наклон  <br/> |**Висфстобликуе** <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Используйте эту ячейку для применения тени фигуры, отличной от страницы по умолчанию (тип тени по умолчанию для страницы определен в ячейке ShdwType в разделе Свойства страницы).
   

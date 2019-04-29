@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 923fb879-5f32-4fe2-8920-2ec17002256c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: a623ef24f76dae93bfc13e6613e885a120f3278e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341288"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430450"
 ---
 # <a name="imapisupportwrapstoreentryid"></a>IMAPISupport::WrapStoreEntryID
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Преобразует внутренний идентификатор записи банка сообщений в идентификатор записи в стандартном формате MAPI.
   
@@ -60,7 +60,7 @@ S_OK
   
 > Идентификатор записи успешно заключен в оболочку.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: врапсторинтрид** реализован для всех объектов поддержки поставщика услуг. Поставщики услуг используют **врапсторинтрид** для создания идентификатора записи для хранилища сообщений, который создает оболочку для внутреннего идентификатора записи хранилища. 
   

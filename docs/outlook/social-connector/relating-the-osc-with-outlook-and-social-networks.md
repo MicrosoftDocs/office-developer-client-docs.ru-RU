@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f33705cc-8add-42be-9d9f-f4e9245d83f5
 description: Outlook Social Connector (OSC) может отображаться в карточке контакта Office и в области "Пользователи" в области "Пользователи", состояния или обновлений фотографий для коллег, друга или любого человека, с которым вы связаны.
 ms.openlocfilehash: 0ee9451e64f12e8ba371c1ba91a1379cff257313
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329261"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428013"
 ---
 # <a name="relating-the-osc-with-outlook-and-social-networks"></a>Связывание OSC с Outlook и социальными сетями
 

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 456c207f-5d41-4d0c-94b6-0c58893a6bed
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f4ff2a3897306ebe4f77c08630782c5f2c7d5d3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335807"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426109"
 ---
 # <a name="imapisessionsetdefaultstore"></a>IMAPISession::SetDefaultStore
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Устанавливает хранилище сообщений в качестве хранилища сообщений по умолчанию для данного сеанса.
   
@@ -75,7 +75,7 @@ S_OK
   
 > Вызов выполнен успешно и вернул ожидаемое значение или значения.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPISession:: сетдефаултсторе** устанавливает хранилище сообщений одним из следующих способов: 
   

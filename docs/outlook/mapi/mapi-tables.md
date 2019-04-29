@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 7974cae1-10f1-42e9-8be4-c02f2bd86714
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 840c34a64cd0478be8f208799653b9916f50079d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355840"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437086"
 ---
 # <a name="mapi-tables"></a>Таблицы MAPI
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Таблица MAPI — это объект MAPI, используемый для просмотра коллекции свойств, принадлежащих другим объектам MAPI определенного типа. Таблицы MAPI структурированы в виде строк и столбцов с каждой строкой, представляющей объект, и каждым столбцом, представляющим свойство объекта. Одним из свойств, которые обычно включаются в каждую строку, является свойство **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)), которое можно использовать для открытия и изменения объекта. 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: ef93ef3d-c159-40ae-9b8d-0af8a0567565
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: dd962515a85cb6a4b8661a0fd5294cea55cd6e96
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339776"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428188"
 ---
 # <a name="dismissmodeless"></a>DISMISSMODELESS
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет функцию обратного вызова, которая вызывает MAPI при закрытии диалогового окна с немодальной адресной книгой. 
   
@@ -54,7 +54,7 @@ void (STDMETHODCALLTYPE DISMISSMODELESS)(
 
 Нет
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Когда клиентское приложение вызывает немодальное диалоговое окно адресной книги, оно включает в себя цикл обработки сообщений Windows, который вызывает функцию на основе прототипа [акцелератеабсди](accelerateabsdi.md) , который проверяет и обрабатывает сочетания клавиш. Когда диалоговое окно закрывается, MAPI вызывает функцию на основе **дисмиссмоделесс** , чтобы клиентское приложение не вызывало вызов функции на основе **акцелератеабсди** . 
   

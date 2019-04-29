@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 77db2dff-4534-440f-a05c-635711cbc2c3
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 5fced633023ebf00efaf5b667dc7994eeb5de316
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338831"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428139"
 ---
 # <a name="imapisessiongetmsgstorestable"></a>IMAPISession::GetMsgStoresTable
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступ к таблице хранилища сообщений, в которой содержатся сведения обо всех хранилищах сообщений в профиле сеанса.
   
@@ -58,7 +58,7 @@ S_OK
   
 > Установлен флаг МАПИ_УНИКОДЕ, а сеанс не поддерживает Юникод.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPISession:: жетмсгсторестабле** извлекает указатель на таблицу хранилища сообщений, таблицу, поддерживаемую MAPI, которая содержит сведения о каждом открытом хранилище сообщений в профиле. 
   

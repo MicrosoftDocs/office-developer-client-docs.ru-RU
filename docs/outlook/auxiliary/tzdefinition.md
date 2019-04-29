@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 0ae21571-2299-6407-807c-428668bb6798
 description: Представляет весь часовой пояс, включая все правила сдвига в прошлом, текущих и будущих часовых поясов для летнего времени.
 ms.openlocfilehash: 5f7000ecc1fa602b330670c2ee1c39f673a11a65
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328296"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429343"
 ---
 # <a name="tzdefinition"></a>TZDEFINITION
 
@@ -47,7 +47,7 @@ _Ргрулес_
   
 > Массив правил, описывающих, когда происходят сдвиги.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 В *ргрулес* должно быть по крайней мере одно правило. Первое правило в *ргрулес* считается используемым правилом, пока не будет запущено второе правило, независимо от того, какой *стстарт* в первом правиле. 
   

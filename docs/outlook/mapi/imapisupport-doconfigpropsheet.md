@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 3899c49c-a0ec-4dca-92e8-e801cd4908cf
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: cd8727104af694d456074614b5ea7c222c9b91b9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322374"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429019"
 ---
 # <a name="imapisupportdoconfigpropsheet"></a>IMAPISupport::DoConfigPropsheet
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Отображает страницу свойств конфигурации.
   
@@ -70,7 +70,7 @@ S_OK
   
 > Отображается страница свойств конфигурации.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт::D оконфигпропшит** реализован для всех объектов поддержки. **Доконфигпропшит** предоставляет стандартный пользовательский интерфейс для отображения свойств поставщиков услуг и служб сообщений. Это стандартное диалоговое окно следует использовать для всех свойств конфигурации, чтобы пользователи могли воспользоваться единообразным интерфейсом Windows. 
   

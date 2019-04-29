@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 055764aa-9681-ffb0-83ce-fdd612fe37af
 description: Определяет, перемещаются ли размещаемые фигуры, а соединители перенаправляются по другим фигурам и соединительным линиям на странице документа.
 ms.openlocfilehash: d1075ab1b0512d5db1c7b7a5f2895305318dae7d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315723"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437478"
 ---
 # <a name="dynamicsoff-cell-page-layout-section"></a>DynamicsOff Cell (Page Layout Section)
 
 Определяет, перемещаются ли размещаемые фигуры, а соединители перенаправляются по другим фигурам и соединительным линиям на странице документа.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Отключить Dynamics.  <br/> |
 | FALSE  <br/> | Включение Dynamics.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Вы можете отключить Dynamics, чтобы увеличить производительность решения. Например, если ваше решение добавляет размещаемые фигуры в документ и вы не хотите, чтобы приложение перенаправляло соединители и изменить положение фигур каждый раз при добавлении фигуры, можно отключить Dynamics. После того как решение добавит фигуры, повторно включите Dynamics.
   

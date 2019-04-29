@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 17b4af7f-7967-422b-996c-792705c93ad3
 description: Добавляет пользователя, идентифицируемого параметрами emailAddresses и displayName, как Friend для вошедшего в сеть пользователя в социальной сети.
 ms.openlocfilehash: b44b442ba928b48411e5b1fc8a0c8b76477022ae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339657"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429833"
 ---
 # <a name="isocialsession2followpersonex"></a>ISocialSession2::FollowPersonEx
 
@@ -33,7 +33,7 @@ _displayName_
   
 > возврата Строка, содержащая отображаемое имя человека, которого требуется добавить в качестве друга.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если Outlook Social Connector (OSC) предоставляет более чем адрес SMTP в массиве параметра **EmailAddresses** , то поставщик OSC может предположить, что первый элемент является основным SMTP-адресом. 
   

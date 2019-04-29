@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d276c122-6326-75a7-220c-6a78e94e0db0
 description: Выполняет команду для объекта OLE.
 ms.openlocfilehash: c339d03a00afdf7f777bb0624ddb8fa75f277e05
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32301493"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435664"
 ---
 # <a name="dooleverb-function"></a>Функция DOOLEVERB
 
@@ -30,7 +30,7 @@ DOOLEVERB ("* * *глагол* * *")
 |:-----|:-----|:-----|:-----|
 | _команд_ <br/> |Обязательный  <br/> |**String** <br/> |Выполняемая команда.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В более ранних версиях Visio Эта функция отображается как _ДУЛЕВЕРБ. Visio версии 4,0 и более поздних принимают любой из этих стилей. 
   

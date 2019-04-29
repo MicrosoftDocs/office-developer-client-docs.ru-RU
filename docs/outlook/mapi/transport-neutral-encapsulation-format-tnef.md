@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 98d4fe3c-3908-4cd2-bfdb-ff1874a80b24
 description: 'Дата последнего изменения: 12 марта 2013 г.'
 ms.openlocfilehash: d902039fa1081e30947ddd8f70ead9ae7acec06a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356632"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428692"
 ---
 # <a name="transport-neutral-encapsulation-format-tnef"></a>Формат TNEF
 
  
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Формат TNEF — это формат, служащий для преобразования набора параметров MAPI — сообщения MAPI — в поток последовательных данных. Функции TNEF в основном используются поставщиками транспорта, которые нуждаются в кодировании свойств сообщений MAPI для передачи через систему обмена сообщениями, которая не поддерживает эти свойства напрямую. Например, транспорт на основе SMTP использует TNEF для кодирования свойств, таких как **пр_сент_репресентинг_наме** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)), которые не имеют прямого представления в структуре SMTP-сообщения.
   

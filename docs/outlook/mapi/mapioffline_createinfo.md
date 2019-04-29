@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 539aa31d-7dec-4dbb-93f7-fa060c43565a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a9b11b134f5d4a32a5a55008f557821d74b474bc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357129"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429567"
 ---
 # <a name="mapiofflinecreateinfo"></a>MAPIOFFLINE_CREATEINFO
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Эта структура используется с [хркреатеоффлинеобж](hrcreateofflineobj.md).
   

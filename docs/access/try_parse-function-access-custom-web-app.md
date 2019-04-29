@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: ed35263c-b0ad-4269-9caa-c0164015e980
 description: Выполняет синтаксический анализ текстового значения до указанного типа данных в культуре приложения или возвращает значение null, если преобразование является недопустимым.
 ms.openlocfilehash: 5d201557607d2d18c36238d9658b705a6a49fda8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307800"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427530"
 ---
 # <a name="tryparse-function-access-custom-web-app"></a>Функция Три_парсе (пользовательское веб-приложение для Access)
 
@@ -32,7 +32,7 @@ ms.locfileid: "32307800"
 | *Текстекспрессион*  <br/> |Текстовое выражение, представляющее форматированное значение, которое необходимо проанализировать в указанный тип данных.  <br/> |
 | *DataType*  <br/> |Тип данных, в который необходимо проанализировать *текстекспрессион* .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте **три_парсе** только для преобразования из String в типы даты/времени и Number. Для преобразования общих типов продолжайте использовать **Convert**. 
   

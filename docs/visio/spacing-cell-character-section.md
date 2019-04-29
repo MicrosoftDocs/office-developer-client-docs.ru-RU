@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 46feb136-01ac-1303-66ab-d772c0ec41a0
 description: Управляет расстоянием между двумя или более символами. Место можно добавить или вычесть с шагом 1/20-й точки.
 ms.openlocfilehash: 927b6203b81af453411cdd13b6f8c8342507a61b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334904"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430065"
 ---
 # <a name="spacing-cell-character-section"></a>Spacing Cell (Character Section)
 
 Управляет расстоянием между двумя или более символами. Место можно добавить или вычесть с шагом 1/20-й точки.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Значение этой ячейки также можно задать с помощью диалогового окна **текст** (на вкладке **Главная** щелкните значок со стрелкой **шрифта** ). 
   

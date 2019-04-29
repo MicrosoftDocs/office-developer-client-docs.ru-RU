@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 8e1c8c8f-4ed0-0f53-f93f-3a264edc02bd
 description: Включает и выключает отображение маркеров выделения для выбранной фигуры.
 ms.openlocfilehash: e46f19d77d1743fb7223b5f7d98f80a05d8f6b07
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357241"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428657"
 ---
 # <a name="noobjhandles-cell-miscellaneous-section"></a>NoObjHandles Cell (Miscellaneous Section)
 
 Включает и выключает отображение маркеров выделения для выбранной фигуры.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | При выборе фигуры маркеры выделения не отображаются.  <br/> |
 | FALSE  <br/> | Маркеры выделения отображаются, когда выбрана фигура.  <br/> |

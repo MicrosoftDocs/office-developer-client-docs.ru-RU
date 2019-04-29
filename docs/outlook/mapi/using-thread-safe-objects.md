@@ -9,17 +9,17 @@ api_type:
 ms.assetid: e688db5e-d1a1-4afc-998f-b3d31eb6239b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 611e0a49f0fd8df8fe40205a33ed5501055c3d45
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329591"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425171"
 ---
 # <a name="using-thread-safe-objects"></a>Использование потокобезопасных объектов
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения могут предполагать, что объекты, которые использовались напрямую или как обратные вызовы, всегда являются потокобезопасными, за исключением следующих случаев:
   

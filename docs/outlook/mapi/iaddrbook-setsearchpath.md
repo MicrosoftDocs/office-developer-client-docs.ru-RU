@@ -13,17 +13,17 @@ api_type:
 ms.assetid: fbff82de-77d3-411e-a30c-a37cefdd92fc
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 8611249207811446ae47f056486ec498bf1e7eab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349310"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426207"
 ---
 # <a name="iaddrbooksetsearchpath"></a>IAddrBook::SetSearchPath
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает новый путь поиска в профиле, который используется для процесса разрешения имен. 
   

@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: ce3a583c-16a9-4268-9476-926d2780eae5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2eb643e0002e2159e3197d66e021aba0bb8c126f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347777"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33429910"
 ---
 # <a name="hropenabentrywithresolvedrow"></a>HrOpenABEntryWithResolvedRow
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Выполняет те же функции, что и [хропенабентривисексчанжеконтекст](hropenabentrywithexchangecontext.md) , за исключением того, что он автоматически получает **емсабпуид** из разрешенной строки и открывает **entryID**.
   
