@@ -10,36 +10,36 @@ localization_priority: Normal
 ms.assetid: 3d16b8b3-601b-c10b-68a8-ffd47251306f
 description: Определяет внешний вид по умолчанию для всех соединителей на странице документа.
 ms.openlocfilehash: 6daed2e06f7673e5a4ec97ec83dc31bad2766301
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358984"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410625"
 ---
-# <a name="linerouteext-cell-page-layout-section"></a><span data-ttu-id="91707-103">LineRouteExt Cell (Page Layout Section)</span><span class="sxs-lookup"><span data-stu-id="91707-103">LineRouteExt Cell (Page Layout Section)</span></span>
+# <a name="linerouteext-cell-page-layout-section"></a><span data-ttu-id="0b5fc-103">LineRouteExt Cell (Page Layout Section)</span><span class="sxs-lookup"><span data-stu-id="0b5fc-103">LineRouteExt Cell (Page Layout Section)</span></span>
 
-<span data-ttu-id="91707-104">Определяет внешний вид по умолчанию для всех соединителей на странице документа.</span><span class="sxs-lookup"><span data-stu-id="91707-104">Determines the default appearance for all connectors on a drawing page.</span></span>
+<span data-ttu-id="0b5fc-104">Определяет внешний вид по умолчанию для всех соединителей на странице документа.</span><span class="sxs-lookup"><span data-stu-id="0b5fc-104">Determines the default appearance for all connectors on a drawing page.</span></span>
   
-|<span data-ttu-id="91707-105">**Value**</span><span class="sxs-lookup"><span data-stu-id="91707-105">**Value**</span></span>|<span data-ttu-id="91707-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="91707-106">**Description**</span></span>|<span data-ttu-id="91707-107">**Константа автоматизации**</span><span class="sxs-lookup"><span data-stu-id="91707-107">**Automation constant**</span></span>|
+|<span data-ttu-id="0b5fc-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="0b5fc-105">**Value**</span></span>|<span data-ttu-id="0b5fc-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="0b5fc-106">**Description**</span></span>|<span data-ttu-id="0b5fc-107">**Константа автоматизации**</span><span class="sxs-lookup"><span data-stu-id="0b5fc-107">**Automation constant**</span></span>|
 |:-----|:-----|:-----|
-| <span data-ttu-id="91707-108">нуль</span><span class="sxs-lookup"><span data-stu-id="91707-108">0</span></span>  <br/> | <span data-ttu-id="91707-109">По умолчанию (прямолинейный)</span><span class="sxs-lookup"><span data-stu-id="91707-109">Default (straight)</span></span>  <br/> |<span data-ttu-id="91707-110">**Вислораутикстдефаулт**</span><span class="sxs-lookup"><span data-stu-id="91707-110">**visLORouteExtDefault**</span></span> <br/> |
-| <span data-ttu-id="91707-111">1,1</span><span class="sxs-lookup"><span data-stu-id="91707-111">1</span></span>  <br/> | <span data-ttu-id="91707-112">Располагает</span><span class="sxs-lookup"><span data-stu-id="91707-112">Straight</span></span>  <br/> |<span data-ttu-id="91707-113">**Вислораутикстстраигхт**</span><span class="sxs-lookup"><span data-stu-id="91707-113">**visLORouteExtStraight**</span></span> <br/> |
-| <span data-ttu-id="91707-114">2</span><span class="sxs-lookup"><span data-stu-id="91707-114">2</span></span>  <br/> | <span data-ttu-id="91707-115">Прямолинейны</span><span class="sxs-lookup"><span data-stu-id="91707-115">Curved</span></span>  <br/> |<span data-ttu-id="91707-116">**Вислораутикстнурбс**</span><span class="sxs-lookup"><span data-stu-id="91707-116">**visLORouteExtNURBS**</span></span> <br/> |
+| <span data-ttu-id="0b5fc-108">нуль</span><span class="sxs-lookup"><span data-stu-id="0b5fc-108">0</span></span>  <br/> | <span data-ttu-id="0b5fc-109">По умолчанию (прямолинейный)</span><span class="sxs-lookup"><span data-stu-id="0b5fc-109">Default (straight)</span></span>  <br/> |<span data-ttu-id="0b5fc-110">**Вислораутикстдефаулт**</span><span class="sxs-lookup"><span data-stu-id="0b5fc-110">**visLORouteExtDefault**</span></span> <br/> |
+| <span data-ttu-id="0b5fc-111">1,1</span><span class="sxs-lookup"><span data-stu-id="0b5fc-111">1</span></span>  <br/> | <span data-ttu-id="0b5fc-112">Располагает</span><span class="sxs-lookup"><span data-stu-id="0b5fc-112">Straight</span></span>  <br/> |<span data-ttu-id="0b5fc-113">**Вислораутикстстраигхт**</span><span class="sxs-lookup"><span data-stu-id="0b5fc-113">**visLORouteExtStraight**</span></span> <br/> |
+| <span data-ttu-id="0b5fc-114">2</span><span class="sxs-lookup"><span data-stu-id="0b5fc-114">2</span></span>  <br/> | <span data-ttu-id="0b5fc-115">Прямолинейны</span><span class="sxs-lookup"><span data-stu-id="0b5fc-115">Curved</span></span>  <br/> |<span data-ttu-id="0b5fc-116">**Вислораутикстнурбс**</span><span class="sxs-lookup"><span data-stu-id="0b5fc-116">**visLORouteExtNURBS**</span></span> <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="91707-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="91707-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0b5fc-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="0b5fc-117">Remarks</span></span>
 
-<span data-ttu-id="91707-118">Чтобы получить ссылку на ячейку LineRouteExt по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="91707-118">To get a reference to the LineRouteExt cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="0b5fc-118">Чтобы получить ссылку на ячейку LineRouteExt по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="0b5fc-118">To get a reference to the LineRouteExt cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="91707-119">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="91707-119">Cell name:</span></span>  <br/> | <span data-ttu-id="91707-120">LineRouteExt</span><span class="sxs-lookup"><span data-stu-id="91707-120">LineRouteExt</span></span>  <br/> |
+| <span data-ttu-id="0b5fc-119">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="0b5fc-119">Cell name:</span></span>  <br/> | <span data-ttu-id="0b5fc-120">LineRouteExt</span><span class="sxs-lookup"><span data-stu-id="0b5fc-120">LineRouteExt</span></span>  <br/> |
    
-<span data-ttu-id="91707-121">Чтобы получить ссылку на ячейку LineRouteExt по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="91707-121">To get a reference to the LineRouteExt cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="0b5fc-121">Чтобы получить ссылку на ячейку LineRouteExt по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="0b5fc-121">To get a reference to the LineRouteExt cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="91707-122">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="91707-122">Section index:</span></span>  <br/> |<span data-ttu-id="91707-123">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="91707-123">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="91707-124">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="91707-124">Row index:</span></span>  <br/> |<span data-ttu-id="91707-125">**Висровпажелайаут**</span><span class="sxs-lookup"><span data-stu-id="91707-125">**visRowPageLayout**</span></span> <br/> |
-| <span data-ttu-id="91707-126">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="91707-126">Cell index:</span></span>  <br/> |<span data-ttu-id="91707-127">**Висплолинераутикст**</span><span class="sxs-lookup"><span data-stu-id="91707-127">**visPLOLineRouteExt**</span></span> <br/> |
+| <span data-ttu-id="0b5fc-122">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="0b5fc-122">Section index:</span></span>  <br/> |<span data-ttu-id="0b5fc-123">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="0b5fc-123">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="0b5fc-124">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="0b5fc-124">Row index:</span></span>  <br/> |<span data-ttu-id="0b5fc-125">**Висровпажелайаут**</span><span class="sxs-lookup"><span data-stu-id="0b5fc-125">**visRowPageLayout**</span></span> <br/> |
+| <span data-ttu-id="0b5fc-126">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="0b5fc-126">Cell index:</span></span>  <br/> |<span data-ttu-id="0b5fc-127">**Висплолинераутикст**</span><span class="sxs-lookup"><span data-stu-id="0b5fc-127">**visPLOLineRouteExt**</span></span> <br/> |
    
 
