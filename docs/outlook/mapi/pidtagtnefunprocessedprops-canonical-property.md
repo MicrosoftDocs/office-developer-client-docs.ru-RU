@@ -13,17 +13,17 @@ api_type:
 ms.assetid: df9cd614-1198-44a2-9bf5-36c57179a9a9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 9ea9938ca9f8dd0b25cf2de5199178a76e17b6d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361182"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431325"
 ---
 # <a name="pidtagtnefunprocessedprops-canonical-property"></a>Каноническое свойство PidTagTnefUnprocessedProps
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Сериализует свойства при фильтрации формата TNEF для протокола нейтральной инкапсуляции (TNEF).
   

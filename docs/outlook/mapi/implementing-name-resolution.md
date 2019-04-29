@@ -9,17 +9,17 @@ api_type:
 ms.assetid: a4c71b08-c47a-4421-8603-d5356d32dca9
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 15c1d502947865c02973f4950b6b6fa8109b8e78
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310082"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434706"
 ---
 # <a name="implementing-name-resolution"></a>Реализация разрешения имен
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Поставщики адресных книг несут ответственность за поддержку разрешения имен — процесс связывания идентификатора записи с отображаемым именем. Клиенты инициируют разрешение имен при вызове [IAddrBook:: ресолвенаме](iaddrbook-resolvename.md) , чтобы убедиться, что каждый участник списка получателей исходящих сообщений соответствует действительному адресу. 
   

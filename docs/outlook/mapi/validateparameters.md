@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 80aadd11-5409-4636-8fad-fa2206336671
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b3862ea539907bb0570a0e845b09a15e7bed0507
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329570"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425205"
 ---
 # <a name="validateparameters"></a>ValidateParameters
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Вызывает внутреннюю функцию для проверки параметров клиентские приложения, которые передаются поставщикам услуг. 
   
@@ -60,7 +60,7 @@ S_OK
   
 > Один или несколько параметров являются недопустимыми.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Макрос **валидатепараметерс** был заменен макросом [валидатепармс](validateparms.md) . **Валидатепараметерс** работает неправильно на платформах RISC и теперь не может компилироваться. Он по-прежнему компилирует и работает правильно на платформах Intel, но **валидатепармс** рекомендуется на всех платформах. 
   

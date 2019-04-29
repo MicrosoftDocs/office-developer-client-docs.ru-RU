@@ -10,17 +10,17 @@ keywords:
 - Функция ConvertXLRef12ToXLRef [Excel 2007]
 localization_priority: Normal
 ms.assetid: b620ed21-73ef-489b-9c00-7be12bb41214
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 0a12052a93d030088feb548449955129ff5bdc0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311055"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432655"
 ---
 # <a name="convertxlref12toxlref"></a>ConvertXLRef12ToXLRef
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Пытается преобразовать **XLREF12** в **кслреф**.
   
@@ -42,7 +42,7 @@ BOOL ConvertXLRefToXLRef12(LPXLREF12 pxRef12, LPXLREF pxRef);
 
  **Значение true** , если преобразование выполнено успешно, в противном случае — **значение false** . 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Преобразование из **XLREF12** в **кслреф** завершается с ошибкой, если предоставленная ссылка относится к части листа Excel 2007, которая не поддерживается в более ранних версиях. 
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a7d5b0a1-3657-8211-f0e0-eaed588fa0bc
 description: Определяет количество пробелов, вставленных перед каждым абзацем в блоке текста фигуры, в дополнение к любому пробелу из ячейки сплайна, если это первый абзац в текстовом блоке, ячейка TopMargin.
 ms.openlocfilehash: 9890910a11990bb5be7fe3ee4af95e578c8d9799
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329885"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425759"
 ---
 # <a name="spbefore-cell-paragraph-section"></a>SpBefore Cell (Paragraph Section)
 
 Определяет количество пробелов, вставленных перед каждым абзацем в блоке текста фигуры, в дополнение к любому пробелу из ячейки сплайна, если это первый абзац в текстовом блоке, ячейка TopMargin.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, то параметр пробел до параметра остается прежним.
   
