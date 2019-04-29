@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 303c9dcb-f9b5-4cea-b5f2-3eba01aa3b09
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 08470a80153e42136922ae502252d83de0125512
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317236"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433145"
 ---
 # <a name="installing-a-form-into-a-library"></a>Установка формы в библиотеку
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Диспетчер форм MAPI по умолчанию, поставляемый с Windows SDK, не предоставляет пользовательский интерфейс для установки форм в различных библиотеках форм. В связи с этим необходимо создать небольшое приложение (или подробный набор инструкций), которое пользователи могут использовать для установки формы.
   

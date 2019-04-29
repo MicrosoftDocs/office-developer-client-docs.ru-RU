@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 887cea55-8f1c-45ec-3100-d03e1213d7c9
 description: Ограничит перечисление до указанного периода времени.
 ms.openlocfilehash: e7f7a5d846d13422f9ed79ef26f1b9b0008463f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317565"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431948"
 ---
 # <a name="ienumfbblockrestrict"></a>IEnumFBBlock::Restrict
 
@@ -44,7 +44,7 @@ _Фтменд_
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот метод также сбрасывает перечисление.
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 20e1f43e-8279-48fc-8f34-16a2729dbc9b
 description: Если в проект шаблона формы с управляемым кодом добавляется ссылка на пользовательскую сборку, то при компиляции и публикации проекта эта сборка включается в файл шаблона формы (XSN-файл).
 ms.openlocfilehash: 19b5f06231bb03cfac8b32b157e03956b5fc334e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303663"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431171"
 ---
 # <a name="add-and-reference-custom-assemblies"></a>Добавление и ссылки на пользовательские сборки
 

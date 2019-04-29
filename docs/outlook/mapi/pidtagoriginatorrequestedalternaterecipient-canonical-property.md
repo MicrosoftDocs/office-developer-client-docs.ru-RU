@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c85b7862-18bc-4e17-94db-9097e0ac4a02
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 45cd0e8a95f908d7ef56d03b3ecab5d5df5bcae1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342002"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437863"
 ---
 # <a name="pidtagoriginatorrequestedalternaterecipient-canonical-property"></a>Каноническое свойство PidTagOriginatorRequestedAlternateRecipient
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор записи для альтернативного получателя, назначенного отправителем.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32342002"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство используется в перенаправляемых сообщениях. Если не разрешено использование пересылки или не назначен альтернативный получатель, следует создать отчет о недоставке.
   

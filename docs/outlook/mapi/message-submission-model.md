@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 4bcd19f6-c225-43ac-8c27-c46388e9097a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 090a765fd6c758e5f146caa0e7f36276b052f69e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356877"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421125"
 ---
 # <a name="message-submission-model"></a>Модель отправки сообщений
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Отправка сообщений выполняется с помощью ряда вызовов от диспетчера очереди MAPI к поставщику транспорта. Звонки упорядочены следующим образом:
   

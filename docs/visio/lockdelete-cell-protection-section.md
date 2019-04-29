@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 596c62b7-8d42-1854-d709-592db09a6a84
 description: Блокирует фигуру таким образом, чтобы ее нельзя было удалить.
 ms.openlocfilehash: 0819969c9ba17a52de19341b359b33ceae5b44d8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359621"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423141"
 ---
 # <a name="lockdelete-cell-protection-section"></a>LockDelete Cell (Protection Section)
 
 Блокирует фигуру таким образом, чтобы ее нельзя было удалить.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Удаление фигуры невозможно  <br/> |
 | FALSE  <br/> | Фигуру можно удалить.  <br/> |

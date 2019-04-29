@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: c1b24e45-6f08-686b-b53d-e85fb9087a50
 description: Определяет, могут ли другие фигуры привязываться к фигурам, назначенным для слоя. Фигуры, назначенные слою, могут быть привязаны к другим фигурам, но не могут привязываться к ним.
 ms.openlocfilehash: 87e7e7500469fb7f8c7fdd4771a0225d0e4fc993
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359810"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434846"
 ---
 # <a name="snap-cell-layers-section"></a>Snap Cell (Layers Section)
 
 Определяет, могут ли другие фигуры привязываться к фигурам, назначенным для слоя. Фигуры, назначенные слою, могут быть привязаны к другим фигурам, но не могут привязываться к ним.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Другие фигуры могут привязываться к фигурам в слое.  <br/> |
 |FALSE  <br/> |Другие фигуры не могут быть привязаны к фигурам в слое.  <br/> |

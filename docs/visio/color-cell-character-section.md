@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 1c9aab2e-6c2f-0684-4e66-c35ac71883d6
 description: Определяет цвет, используемый для текста фигуры.
 ms.openlocfilehash: a27d957781ca9a784e7ab9d5c1ce4f533b9a55ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341841"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439991"
 ---
 # <a name="color-cell-character-section"></a>Color Cell (Character Section)
 
 Определяет цвет, используемый для текста фигуры.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы задать цвет, введите число от 0 до 23.
   

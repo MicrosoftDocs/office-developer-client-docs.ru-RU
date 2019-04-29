@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e2757028-27e7-4fc0-9674-e8e30737ef1d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9d7c1693dfb22ae89afed8cbe1426c1e186f8b2d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329409"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439921"
 ---
 # <a name="imapisessionopenprofilesection"></a>IMAPISession::OpenProfileSection
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Открывает раздел текущего профиля и возвращает указатель [ипрофсект](iprofsectimapiprop.md) для получения дальнейших прав. 
   
@@ -80,7 +80,7 @@ S_OK
   
 > Запрошенный раздел профиля не существует.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPISession:: опенпрофилесектион** открывает раздел профиля или объект, который поддерживает интерфейс **ипрофсект** . Разделы профиля используются для чтения и записи информации в профиль сеанса. 
   

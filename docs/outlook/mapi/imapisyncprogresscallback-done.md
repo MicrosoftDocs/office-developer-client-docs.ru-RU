@@ -13,17 +13,17 @@ api_type:
 ms.assetid: aaa8eb56-f22f-4c5a-a224-807ff001e0ca
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 8d397e12b8b24c5031e6e6d89d98134d487a815b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341274"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422350"
 ---
 # <a name="imapisyncprogresscallbackdone"></a>IMAPISyncProgressCallback::Done
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
  Информирует Microsoft Outlook о завершении синхронизации. 
   

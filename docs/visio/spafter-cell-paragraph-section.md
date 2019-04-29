@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 2dd56ae5-300e-ba09-a73a-83c2b6c2a0ef
 description: Определяет объем пространства, вставленного после каждого абзаца в блоке текста фигуры, в дополнение к любому пробелу из ячейки сплайна и, если это последний абзац в текстовом блоке, ячейка BottomMargin.
 ms.openlocfilehash: 2b8fe7e2b0df09561d0db4367f917c8f4b71335d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335226"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439837"
 ---
 # <a name="spafter-cell-paragraph-section"></a>SpAfter Cell (Paragraph Section)
 
 Определяет объем пространства, вставленного после каждого абзаца в блоке текста фигуры, в дополнение к любому пробелу из ячейки сплайна и, если это последний абзац в текстовом блоке, ячейка BottomMargin.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, пробел после параметра остается прежним.
   

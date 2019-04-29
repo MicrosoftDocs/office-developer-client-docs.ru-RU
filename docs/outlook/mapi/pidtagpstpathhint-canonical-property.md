@@ -11,17 +11,17 @@ api_type:
 ms.assetid: 9cb4af50-3735-4029-a608-a6e7927019dd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6415ddcec2823192967b8869b46b22b58b08ba5f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286359"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437310"
 ---
 # <a name="pidtagpstpathhint-canonical-property"></a>Каноническое свойство PidTagPstPathHint
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет имя личной таблицы хранения (PST-файла), которую пользователь может редактировать, в диалоговом окне Конфигурация. 
   
@@ -32,7 +32,7 @@ ms.locfileid: "32286359"
 |Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Внутренняя таблица хранения личных данных (PST)  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если вместо этого используется свойство **пр_пст_пас** ([PidTagPstPath](pidtagpstpath-canonical-property.md)), откроется диалоговое окно Настройка, но пользователю не будет разрешено изменять путь и многие другие свойства.
   

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e219adf6-e591-72e6-b9bd-2fc62eb5142d
 description: Изменяет порядок указанной категории учетных записей.
 ms.openlocfilehash: 29dfe4fd1bda9e323481297167361650c3b3a173
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322045"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422861"
 ---
 # <a name="iolkaccountmanagersetorder"></a>IOlkAccountManager::SetOrder
 
@@ -58,7 +58,7 @@ _Ргакктс_
 |E_INVALIDARG  <br/> |Один или несколько аргументов являются недопустимыми.  <br/> |
 |Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Вызывающий абонент выделяет память для указателя массива _пргакктс_ , а также для массива, в котором точки _пргакктс_ . 
   

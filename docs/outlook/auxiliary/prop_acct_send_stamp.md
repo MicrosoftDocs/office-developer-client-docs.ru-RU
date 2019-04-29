@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: b86242f3-dfd7-398e-a054-93db85b69752
 description: Возвращает аккаунтсендстамп.
 ms.openlocfilehash: d860a117e4ab5470f84ff1807cb6246cd852d24b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327610"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423008"
 ---
 # <a name="propacctsendstamp"></a>PROP_ACCT_SEND_STAMP
 
@@ -29,7 +29,7 @@ ms.locfileid: "32327610"
 |Тег свойства:  <br/> |0x000E001F  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **е_олк_проп_реад_онли**. 
   

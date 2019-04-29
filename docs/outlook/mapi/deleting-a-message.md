@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 9ed166b4-6b7b-478f-bbe5-4115bb818ac0
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 663eebfcd1b8862b22d8c822957024c4f31499de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316837"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433166"
 ---
 # <a name="deleting-a-message"></a>Удаление сообщения
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиент может удалить сообщение, когда оно открыто и пользователь его просматривает, или когда он закрывается, и пользователь просматривает таблицу содержимого. Чтобы предотвратить случайное удаление сообщения пользователем, MAPI определяет удаление сообщения в ходе выполнения двух этапов:
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 3efa4731-cf32-4a6c-9ba8-d059e58b0d98
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f6688afde9b36a7722eaaf768f091481c15b7308
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329062"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423575"
 ---
 # <a name="imapipropgetnamesfromids"></a>IMAPIProp::GetNamesFromIDs
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет имена свойств, которые соответствуют одному или нескольким идентификаторам свойств.
   
@@ -85,7 +85,7 @@ S_OK
   
 > Элемент **квалуес** одной или нескольких записей в массиве тегов свойств, на который указывает _лпппроптагс_ , имеет значение 0. 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Несмотря на то, что доступ к большинству свойств осуществляется с помощью идентификатора свойства, к некоторым свойствам можно получить доступ по имени. Метод **IMAPIProp:: жетнамесфромидс** может быть вызван для выполнения следующих действий: 
   

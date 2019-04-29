@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: fef022ea-38ab-2b66-60c8-b94a6b0bdfbf
 description: Блокирует ширину фигуры таким образом, чтобы ее ширина оставалась неизменной при изменении размера фигуры.
 ms.openlocfilehash: 84c89b5f264c00d6fe5f95cb27eae74b91b88dc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314835"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439809"
 ---
 # <a name="lockwidth-cell-protection-section"></a>LockWidth Cell (Protection Section)
 
 Блокирует ширину фигуры таким образом, чтобы ее ширина оставалась неизменной при изменении размера фигуры.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Ширина заблокирована.  <br/> |
 | FALSE  <br/> | Ширина не заблокирована.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку LockWidth по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

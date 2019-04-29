@@ -7,18 +7,18 @@ localization_priority: Normal
 ms.assetid: 7eb20f21-0218-4a2c-9bbc-90218a1e87bc
 description: Вы можете использовать действие ChangeView для перехода между представлениями.
 ms.openlocfilehash: 0c1e27c264a826d38ec2efbd5be9bc6237ad7437
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282315"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425360"
 ---
 # <a name="changeview-macro-action-access-custom-web-app"></a>Макрокоманда ChangeView (пользовательское веб-приложение для Access)
 
 Вы можете использовать действие **ChangeView** для перехода между представлениями. 
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
 ## <a name="setting"></a>Параметр
 
@@ -31,7 +31,7 @@ ms.locfileid: "32282315"
 |Где  <br/> |Нет  <br/> |Если этот параметр указан, заменяется условие WHERE источника записей объекта.  <br/> |
 |ORDER BY  <br/> |Нет  <br/> |Строковое выражение, включающее имя поля или полей, по которым сортируются записи, а также необязательные ключевые слова ASC и DESC. По умолчанию этот аргумент не задан.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При вызове действия **ChangeView** удаляется любая сортировка или фильтрация, примененные пользователем. 
   

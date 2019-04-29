@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 7e244d40-595e-432c-aa8c-f9f62ca3c138
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 217411dc8bae12a3d7544a4cfd189c4c8f863195
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332874"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432501"
 ---
 # <a name="imessage--imapiprop"></a>IMessage : IMAPIProp
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Управляет сообщениями, вложениями и получателями.
   
@@ -107,7 +107,7 @@ ms.locfileid: "32332874"
 |**Пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Только для чтения  <br/> |Обязательный  <br/> |
 |**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |Обязательный  <br/> |
 |**Пр_дисплай_типе** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Чтение и запись  <br/> |Обязательный  <br/> |
-|**Пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Только для чтения  <br/> |Необязательно заполнять.  <br/> |
+|**Пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Только для чтения  <br/> |Необязательный  <br/> |
 |**PR_ENTRYID** <br/> |Только для чтения  <br/> |Обязательный  <br/> |
 |**Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |Обязательный  <br/> |
 |**PR_SEARCH_KEY** <br/> |Только для чтения  <br/> |Необязательная  <br/> |

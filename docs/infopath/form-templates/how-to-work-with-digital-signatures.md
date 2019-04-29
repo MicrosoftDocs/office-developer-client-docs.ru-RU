@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: fd13fb71-aecf-47bb-8a6b-db70bd90ceeb
 description: Объектная модель пространства имен Microsoft. Office. InfoPath предоставляет функции для программной работы с цифровыми подписями.
 ms.openlocfilehash: ea657f80f6e38a06a91e19c245eadc203c7c580c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303586"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425577"
 ---
 # <a name="work-with-digital-signatures"></a>Работать с цифровыми подписями
 
@@ -41,7 +41,7 @@ ms.locfileid: "32303586"
 
 Объектная модель для цифровых подписей предоставляет следующее событие.
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |[Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) <br/> |Возникает после выбора для подписания определенного набора данных.  <br/> Это событие можно использовать для управления данными, хранящимися внутри цифровой подписи. Например, можно добавить данные с надежного сервера метки времени или добавить серверную подпись других сторон для транзакции. Также можно использовать это событие для блокирования подписания, если текущий пользователь не входит в состав определенной группы.  <br/> |
    
@@ -49,7 +49,7 @@ ms.locfileid: "32303586"
 
 Обработчик событий для события [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) может работать с объектом события [сигневентаргс](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.aspx) , который предоставляет следующие свойства. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignedDataBlock.aspx) <br/> |Возвращает набор данных, которые вызвали событие [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Sign.aspx) .  <br/> |
 |[Сигнатуревизард](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignEventArgs.SignatureWizard.aspx) <br/> |Возвращает или задает факт отображения диалогового окна **Цифровые подписи**.  <br/> |
@@ -61,14 +61,14 @@ ms.locfileid: "32303586"
 
 Объектная модель для цифровых подписей предоставляет следующие семейства.
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |[Сигнеддатаблоккколлектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) <br/> |Коллекция объектов [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) в шаблоне формы, определенная во время конструирования в режиме конструктора InfoPath.  <br/> Коллекция [сигнеддатаблоккколлектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) реализует свойства, которые можно использовать для доступа к объектам [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) , связанным с формой. Объект [сигнеддатаблоккколлектион](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlockCollection.aspx) , связанный с формой, доступен с помощью свойства [сигнеддатаблоккс](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SignedDataBlocks.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx)  <br/> |
 |[SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) <br/> |Содержит коллекцию объектов [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) для каждого объекта [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) в форме.  <br/> Класс [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) реализует свойства и метод, которые можно использовать для доступа к связанным объектам [подписи](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) формы и для создания подписи. Объект [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) , связанный с [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) , доступен с помощью свойства [Signatures](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.Signatures.aspx) .  <br/> При использовании метода [креатесигнатуре](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.CreateSignature.aspx) класса [SignatureCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignatureCollection.aspx) имейте в виду, что подпись не записывается, пока не будет вызван метод [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) для объекта [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) . Эти методы можно вызывать только из обработчика событий **Sign** в шаблоне формы с полным доверием.  <br/> |
    
 Объектная модель для цифровых подписей предоставляет следующие объекты.
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |[SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) <br/> |Представляет набор подписываемых данных в форме. Объект [SignedDataBlock](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.SignedDataBlock.aspx) предоставляет набор свойств и один метод для программного взаимодействия с набором подписываемых данных.  <br/> |
 |[Подпись](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) <br/> |Представляет цифровую подпись, добавленную в форму, или набор подписываемых данных в форме. Объект [Signature](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.aspx) реализует свойства, которые можно использовать для получения сведений о цифровой подписи, а также метод [Sign](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Signature.Sign.aspx) для записи блока цифровой подписи XML и вычисления его криптографического хэш-значения.  <br/> |

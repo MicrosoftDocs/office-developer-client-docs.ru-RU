@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: cafd7589-1c94-b9bc-b1a6-40f7c15fba71
 description: Определяет внешний вид соединителя.
 ms.openlocfilehash: 19fe948daf7aa3d67db858849ecb2b15f40ba02d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327106"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434615"
 ---
 # <a name="conlinerouteext-cell-shape-layout-section"></a>ConLineRouteExt Cell (Shape Layout Section)
 
 Определяет внешний вид соединителя.
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | нуль  <br/> | Умолчани использовать параметр страницы  <br/> |**Вислораутикстдефаулт** <br/> |
 | 1,1  <br/> | Располагает  <br/> |**Вислораутикстстраигхт** <br/> |
 | 2  <br/> | Прямолинейны  <br/> |**Вислораутикстнурбс** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку ConLineRouteExt по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

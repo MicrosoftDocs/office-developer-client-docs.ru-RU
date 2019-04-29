@@ -8,22 +8,22 @@ localization_priority: Normal
 ms.assetid: 80db9c0c-13c6-47de-967f-ade6e5899f14
 description: Определяет, включена ли Градиентная заливка для этой фигуры.
 ms.openlocfilehash: 17f617c13b632318be22b86a3354a194f0f835f5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322493"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431213"
 ---
 # <a name="fillgradientenabled-cell-gradient-properties-section"></a>FillGradientEnabled Cell (Gradient Properties Section)
 
 Определяет, включена ли Градиентная заливка для этой фигуры. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Градиентная заливка отображается на фигуре.  <br/> |
 |FALSE  <br/> |Градиентные заливки не отображаются на фигуре.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку **FillGradientEnabled** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   

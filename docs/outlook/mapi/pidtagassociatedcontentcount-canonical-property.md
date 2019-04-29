@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 79bbdd84-a3a7-4472-9447-8b0ddbf163ef
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f301bb50cc0d28126040a80cccb5d4e5566aebac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339923"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421321"
 ---
 # <a name="pidtagassociatedcontentcount-canonical-property"></a>Каноническое свойство PidTagAssociatedContentCount
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит количество элементов в связанной таблице содержимого папки.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32339923"
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Данное свойство содержит число записей в таблице содержимого папки. 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: bb95b639-e5de-44f8-82f2-dff3b00dd3d1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 4d388bee615e89d5ef3231e9f4643b8c9d70587d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344907"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421601"
 ---
 # <a name="pidtagcontactaddressbookfolderentryids-canonical-property"></a>Каноническое свойство PidTagContactAddressBookFolderEntryIds
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификаторы папок "Контакты" в хранилищах сообщений, в которых хранятся пользователи почты.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32344907"
 |Тип данных:  <br/> |PT_MV_BINARY  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство раздела профиля адресной книги контакта.
   

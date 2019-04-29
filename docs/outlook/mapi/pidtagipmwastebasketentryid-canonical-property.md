@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0f8dd043-66f0-4193-9b95-853bc3827f73
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3794386c4461c90f973e4028132cb8220dfaa19b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327883"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426354"
 ---
 # <a name="pidtagipmwastebasketentryid-canonical-property"></a>Каноническое свойство PidTagIpmWastebasketEntryId
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор стандартной папки "Удаленные" межпользовательского сообщения (IPM). 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32327883"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Folder  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Клиентское приложение должно перемещать удаленные межпользовательские сообщения в папку "Удаленные". Если сообщение уже находится в этой папке или если это свойство не поддерживается, клиент должен удалить сообщение. 
   

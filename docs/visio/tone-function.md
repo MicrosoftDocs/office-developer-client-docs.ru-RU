@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c2d6a7dd-9f15-27bd-9623-2a047683ff98
 description: Изменяет цвет, уменьшая его насыщенность на величину, указанную в параметре int.
 ms.openlocfilehash: c3352d4c15671244d0fc4701f2c26b4e0c2ea54d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335688"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434377"
 ---
 # <a name="tone-function"></a>Функция TONE
 
@@ -33,7 +33,7 @@ ms.locfileid: "32335688"
 
  **RGB**
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Верхние и нижние границы насыщенности равны 0 и 240 соответственно. Не существует ограничения на размер целого числа, которое можно передать для параметра _int_ , но насыщенность никогда не превышает эти ограничения. 
   

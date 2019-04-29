@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 668f993c-b4d1-4762-9801-c578b17fdafd
 description: Определяет, исправляются ли правописание автоматически и отображаются ли орфографические ошибки для выбранной фигуры. Принимает логическое значение.
 ms.openlocfilehash: 8d7eebcc349c54db3cd48d6c5fa3c8fa6f4f760e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357227"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431255"
 ---
 # <a name="noproofing-cell-miscellaneous-section"></a>NoProofing Cell (Miscellaneous Section)
 
 Определяет, исправляются ли правописание автоматически и отображаются ли орфографические ошибки для выбранной фигуры. Принимает **логическое** значение. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Проверка орфографии не выполняется автоматически, а орфографические ошибки не отображаются для выбранной фигуры.  <br/> |
 |FALSE  <br/> |Проверка правоПисания автоматически исправляется и для выбранной фигуры отображаются орфографические ошибки.  <br/> |

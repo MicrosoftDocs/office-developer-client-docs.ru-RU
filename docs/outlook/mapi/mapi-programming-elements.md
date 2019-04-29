@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 69b466b6-3f65-479a-8148-644443331927
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: ea211b8bb0bdcdd60b34396c44c37c23cbf66413
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328168"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439319"
 ---
 # <a name="mapi-programming-elements"></a>Элементы программирования MAPI
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе представлены концептуальные обзоры элементов программирования в справочнике по [MAPI](mapi-reference.md). 
   

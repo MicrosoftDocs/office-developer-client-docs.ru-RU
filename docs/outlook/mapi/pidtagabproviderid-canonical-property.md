@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 23cfd1d0-8e9d-4508-93dd-a88c0ef77c51
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 820df61ec23e2dd1459582e5a7bb35ad9525e0b4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315822"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422245"
 ---
 # <a name="pidtagabproviderid-canonical-property"></a>Каноническое свойство PidTagAbProviderId
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит структуру [мапиуид](mapiuid.md) поставщика адресных книг. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32315822"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Адресная книга  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Структура **мапиуид** определяет, какой поставщик адресных книг предоставляет этот конкретный контейнер в иерархии контейнеров. Значение уникально для каждого поставщика. 
   

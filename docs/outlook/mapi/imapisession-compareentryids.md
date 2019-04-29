@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 319f10e9-db8d-4d16-aa1f-6cf5fef493eb
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 4dfde82aa843072168288f4e0b0084dfccd5cd2b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338460"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427817"
 ---
 # <a name="imapisessioncompareentryids"></a>IMAPISession::CompareEntryIDs
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Сравнивает два идентификатора записи, чтобы определить, ссылаются ли они на один и тот же объект. 
   
@@ -74,7 +74,7 @@ S_OK
   
 > Один или оба идентификатора записи, указанные как параметры, не ссылаются на объекты, возможно, из-за того, что эти объекты в данный момент неоткрыты и недоступны.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPISession:: метод compareentryids** сравнивает два идентификатора записи, которые принадлежат одному поставщику услуг, чтобы определить, ссылаются ли они на один и тот же объект. MAPI извлекает часть [мапиуид](mapiuid.md) из идентификаторов записей, чтобы определить поставщика услуг, ответственного за объекты, а затем вызывает метод **метод compareentryids** объекта logon для выполнения сравнения. 
   

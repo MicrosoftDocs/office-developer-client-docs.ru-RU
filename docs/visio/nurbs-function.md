@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f34db20d-6501-2026-a5e8-29c4d4cb2405
 description: Возвращает неоднородного рациональный B-сплайн (NURBS). Эта функция используется в ячейке E в строках геометрии NURBSTo.
 ms.openlocfilehash: af92374a829c0df8e71ac81e630abc4fa64988dc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340126"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438458"
 ---
 # <a name="nurbs-function"></a>Функция NURBS
 
@@ -37,7 +37,7 @@ NURBS (* * *кнотласт* * *, * * *градусы* * *, * * *кстипе* 
 | _knot1_ <br/> |Обязательный  <br/> |**String** <br/> |Объект кнот на B — сплайн.  <br/> |
 | _weight1_ <br/> |Обязательный  <br/> |**String** <br/> |Вес для сбалансированного сплайна.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Для каждого аргумента *x* должен быть аргумент *y* ; в противном случае возвращается ошибка. 
   

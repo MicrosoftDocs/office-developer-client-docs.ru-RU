@@ -11,17 +11,17 @@ api_type:
 ms.assetid: 1f0f13e2-7554-41fc-a7a9-a90c34181c96
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e56d7851b1fe28ddea1703d9ec3ffb7737abeda6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345257"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435630"
 ---
 # <a name="pidtagreturnedmessageid-canonical-property"></a>Каноническое свойство PidTagReturnedMessageid
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если исходное сообщение возвращается с непрочитанным отчетом.
   
@@ -32,7 +32,7 @@ ms.locfileid: "32345257"
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Поставщик транспорта X. 400 задает данное свойство в отчете о непрочтении.
   

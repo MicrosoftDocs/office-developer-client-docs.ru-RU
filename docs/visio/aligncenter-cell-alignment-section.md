@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 7d4416b2-429b-713e-61dc-8b2ead0e6053
 description: Определяет горизонтальное положение относительно начала координат родительского элемента, вертикальной направляющей или направляющей точки, относительно которого выровнен горизонтальный центр фигуры.
 ms.openlocfilehash: 6249c994299582d52a7f54a0c75370851dfad498
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341547"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421461"
 ---
 # <a name="aligncenter-cell-alignment-section"></a>AlignCenter Cell (Alignment Section)
 
 Определяет горизонтальное положение относительно начала координат родительского элемента, вертикальной направляющей или направляющей точки, относительно которого выровнен горизонтальный центр фигуры.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку AlignCenter по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

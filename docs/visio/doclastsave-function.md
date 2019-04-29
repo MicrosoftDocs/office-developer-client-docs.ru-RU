@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: be65d1c2-e48a-a85a-79ad-1a3409e60c16
 description: Возвращает дату и время последнего сохранения документа в виде порядкового значения.
 ms.openlocfilehash: 35d3a3f3051d5e5024eb48c56f131325e86314cf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359055"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425990"
 ---
 # <a name="doclastsave-function"></a>Функция DOCLASTSAVE
 

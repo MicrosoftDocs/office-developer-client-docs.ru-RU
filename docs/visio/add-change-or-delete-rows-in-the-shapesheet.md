@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 47aa9737-363b-b57f-14cf-c007f6dbb8be
 description: Вы можете добавлять новые строки, изменять тип существующих строк или удалять строки в таблице свойств фигуры в Microsoft Visio.
 ms.openlocfilehash: 385d1040527f8c4322fb1f158c1de2deb0e6f59c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338768"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425087"
 ---
 # <a name="add-change-or-delete-rows-in-the-shapesheet"></a>Добавление, изменение и удаление строк в таблице свойств фигуры
 

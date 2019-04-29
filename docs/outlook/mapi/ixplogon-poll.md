@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 1524eb06-7492-42de-b455-e0982bda7ece
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3e68c564357880b623e02081a228e881c084fa94
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351613"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425276"
 ---
 # <a name="ixplogonpoll"></a>IXPLogon::Poll
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, получил ли поставщик транспорта одно или несколько входящих сообщений.
   

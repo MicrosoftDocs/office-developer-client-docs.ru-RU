@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a53b5787-f419-7a36-3c04-c63b3c173ac7
 description: Представляет положение фигуры по оси Y в локальной системе координат. В этой таблице описывается ячейка Y с учетом столбца, в котором она расположена.
 ms.openlocfilehash: 9e823b8d21682b419a70ce498016abf575f36f6b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342814"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420943"
 ---
 # <a name="y-cell-geometry-section"></a>Ячейка Y (раздел "Геометрия")
 

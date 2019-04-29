@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 853ddee5-24d6-423d-b483-6a07a12de51f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 4fc4867d5ca20f8e770afa239b0dffbd8ab1c480
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279645"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439851"
 ---
 # <a name="iprovideradmingetlasterror"></a>IProviderAdmin::GetLastError
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущей ошибке, произошедшей для объекта администрирования поставщика. 
   
@@ -63,7 +63,7 @@ S_OK
   
 > Установлен либо флаг МАПИ_УНИКОДЕ, либо **GetLastError** не поддерживает Юникод, или мапи_уникоде не задано, а **GetLastError** поддерживает только Юникод. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **ипровидерадмин:: GetLastError** предоставляет сведения о предыдущем вызове метода, который завершился сбоем. Вызывающие абоненты могут предоставить пользователям подробные сведения об ошибке, включив данные из структуры **мапиеррор** в диалоговом окне. 
   

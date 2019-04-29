@@ -10,17 +10,17 @@ keywords:
 - Функция xlAutoRegister [Excel 2007]
 localization_priority: Normal
 ms.assetid: aa4673cf-8e97-4678-b8d4-6a74426334f9
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f043558f3f642001e9ba11ee5b18a2721c3dddfb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303950"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421167"
 ---
 # <a name="xlautoregisterxlautoregister12"></a>xlAutoRegister/xlAutoRegister12
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Excel вызывает [функцию xlAutoRegister](xlautoregister-xlautoregister12.md) при каждом вызове в **регистре**функции XLM или В эквивалентной функции C API [xlfRegister](xlfregister-form-1.md)с типами возвращаемых значения и аргументов функции, которую вы зарегистрировали. Он позволяет XLL выполнить поиск по внутренним спискам экспортированных функций и команд, чтобы зарегистрировать функцию с указанными аргументами и возвращаемыми типами.
   
@@ -46,7 +46,7 @@ LPXLOPER WINAPI xlAutoRegister(LPXLOPER pxName);
 
 Функция должна возвращать результат попытки зарегистрировать функцию XLL _пкснаме_ с помощью функции **xlfRegister** . Если указанная функция не является одним из экспортируемых компонентов XLL, она должна возвращать **#VALUE!** ошибка или **значение NULL** , которое будет интерпретировано в приложении Excel на **#VALUE!**.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Ваша реализация **xlAutoRegister** должна выполнять поиск с учетом регистра, используя внутренние списки функций и команд, которые она экспортирует, в поисках сравнения с переданным именем. Если функция или команда найдена, **xlAutoRegister** должна попытаться зарегистрировать ее, используя функцию **xlfRegister** , убедившись, что строка, указывающая на Excel, возвращает типы возвращаемого значения и аргументы функции, а также любые другие необходимые сведения о функции. Затем он должен вернуться в Excel, что бы возвращался вызов **xlfRegister** . Если функция была зарегистрирована успешно, **xlfRegister** возвращает значение **КСЛТИПЕНУМ** , содержащее идентификатор регистра функции. 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 4864ebc2-fee6-2415-7c59-e0af8611f8d6
 description: Возвращает значение TRUE, если значение целлреференце имеет любой тип ошибки; в противном случае возвращает значение FALSE. Функция ЕОШИБКА используется в формулах, которые ссылаются на другую ячейку.
 ms.openlocfilehash: a07b2345858e36dc2e4514d7e4f0f0d653491b50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317894"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421545"
 ---
 # <a name="iserror-function-visioshapesheet"></a>ISERROR Function (VisioShapeSheet)
 
@@ -39,7 +39,7 @@ ms.locfileid: "32317894"
    
 Возвращает значение TRUE, так как #N/A! Ошибка распознается функцией ЕОШИБКА. Вы можете использовать ЕОШ для поиска всех типов, но #N/A! ошибкой.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 |**Cell**|**Formula**|**Возвращаемое значение**|
 |:-----|:-----|:-----|

@@ -9,17 +9,17 @@ api_type:
 ms.assetid: d0a6d182-961c-4496-a3bd-f643612527a5
 description: '���� ���������� ���������: 25 ���� 2012 �.'
 ms.openlocfilehash: abfe734ad8af436f52fc0308d0cd236078bb47df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318210"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436890"
 ---
 # <a name="api-elements-deprecated-in-this-edition"></a>Элементы API, устаревшие в этом выПуске
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Следующие элементы API являются устаревшими в Microsoft Outlook 2013. Они больше не поддерживаются, и их не следует использовать в новых проектах.
   

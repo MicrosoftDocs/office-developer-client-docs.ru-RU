@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: de7f56e2-c131-4955-b945-0a72043e0f5a
 description: Добавляет пользователя, указанного параметром emailAddress, в качестве друга для пользователя, выполнившего вход в социальной сети.
 ms.openlocfilehash: 849085bd40788039a96ac159fd76a5e252395916
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285366"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423260"
 ---
 # <a name="isocialsessionfollowperson"></a>ISocialSession::FollowPerson
 
@@ -29,7 +29,7 @@ _emailAddress_
   
 > возврата Строка, содержащая адрес электронной почты человека.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметр _EmailAddress_ должен быть ДОПУСТИМЫМ SMTP-адресом. Если поставщик Outlook Social Connector (OSC) установил для метода **фолловперсон** **значение true** в функциях ****, а аргумент для _EmailAddress_ не соответствует пользователю в сети, поставщик должен возвратить оск_е_нот_фаунд ошибкой. Если у поставщика для **фолловперсон** задано **значение false** в возможностях, поставщик должен возвратить ошибку оск_е_фаил. ****
   

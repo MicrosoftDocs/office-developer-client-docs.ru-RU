@@ -13,17 +13,17 @@ api_type:
 ms.assetid: aec72e51-1f75-b2c5-76ca-626cd21fbc7d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 024583926b5d0be638b33b1b60c5d4c5dc74d05b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315094"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438955"
 ---
 # <a name="ipstxemulatespooler"></a>IPSTX::EmulateSpooler
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает локальное хранилище для эмуляции диспетчера протокола Outlook для постановки в очередь исходящих сообщений на сервер.
   
@@ -37,7 +37,7 @@ HRESULT EmulateSpooler(
   
 >  возврата Установите для этого параметра значение true, если локальное хранилище должно эмулировать Диспетчер очереди печати; Если нет, задайте для него значение false. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Локальное хранилище вызывает **ипсткс:: емулатеспулер** для работы в качестве диспетчера протокола Outlook, отправки сообщений из очереди исходящих сообщений на внутренний сервер (например, MSN Server или AOL Server) для обработки. При эмуляции диспетчера очереди во время синхронизации хранилище вызывает следующие два метода: 
   

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 4fa49d5f-12ea-4d14-9a03-28418f01746c
 description: Возвращает значение даты для указанного года, месяца и дня.
 ms.openlocfilehash: 7d47fe93d1990365f1db5885a3ea8fc056aabb9f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282124"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423225"
 ---
 # <a name="datefromparts-function-access-custom-web-app"></a>Функция Датефромпартс (пользовательское веб-приложение для Access)
 
@@ -32,7 +32,7 @@ ms.locfileid: "32282124"
 | *Month*  <br/> |Целочисленное выражение, задающее месяц, от 1 до 12.  <br/> |
 | *Day*  <br/> |Целочисленное выражение, задающее день.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 **Датефромпартс** возвращает значение даты с компонентом Date, значение которого равно указанному году, месяцу и дню и временной части, установленной по умолчанию. Если аргументы являются недопустимыми, возникает ошибка. Если обязательные аргументы имеют значение null, возвращается значение NULL. 
   

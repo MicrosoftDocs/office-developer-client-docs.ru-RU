@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: eca73b80-9835-9011-1dce-187ccee92e76
 description: Определяет узор заливки для тени фигуры.
 ms.openlocfilehash: c2591fbc9f208b1bf9c7d0c85e6de765cd9825f6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349044"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427614"
 ---
 # <a name="shdwpattern-cell-fill-format-section"></a>ShdwPattern Cell (Fill Format Section)
 
 Определяет узор заливки для тени фигуры.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |нуль  <br/> |Нет (прозрачная заливка)  <br/> |
 |1,1  <br/> |Сплошной цвет переднего плана  <br/> |

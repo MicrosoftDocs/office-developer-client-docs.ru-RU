@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 5add1f2b-d9e6-4d78-8739-c3848f6e32a3
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: ca68c604152a7a28fb6a5357aa9c012ec7466b5a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357213"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435378"
 ---
 # <a name="ixplogonaddresstypes"></a>IXPLogon::AddressTypes
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает типы получателей, которые обрабатывает поставщик транспорта.
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d0a2f7ea-df6a-89e8-18c2-ac92e0a20edc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: cc3fcedb73b4acbd85529615d857403b4c268f3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32333049"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420915"
 ---
 # <a name="crawlsourcesupportmask"></a>CrawlSourceSupportMask
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, следует ли Microsoft Office Outlook сканировать папки в хранилище, включая папки Контакты, календарь и задачи, при запуске, чтобы заполнить область навигации.
   
@@ -37,7 +37,7 @@ ms.locfileid: "32333049"
 |Тип свойства:  <br/> |PT_LONG  <br/> |
 |Тип доступа:  <br/> |Только чтение или чтение и запись в зависимости от поставщика услуг хранения  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы обеспечить какую бы то ни было функцию хранилища, поставщик магазина должен реализовать [IMAPIProp: IUnknown](imapipropiunknown.md) и вернуть допустимый тег свойства для любого из этих свойств, переданного в вызов [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) . Когда тег свойства для любого из этих свойств передается в [IMAPIProp::](imapiprop-getprops.md)-Props, поставщик хранилища также должен возвращать правильное значение свойства. Поставщики хранилища могут вызывать [хржетонепроп](hrgetoneprop.md) и [хрсетонепроп](hrsetoneprop.md) для получения или задания этих свойств. 
   

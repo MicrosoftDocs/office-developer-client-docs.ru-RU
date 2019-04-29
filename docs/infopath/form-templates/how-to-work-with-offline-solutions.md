@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 108f9bd0-c80f-4790-a572-da2f571a7d85
 description: Объектная модель InfoPath предоставляет свойство MachineOnlineState класса Application, которое позволяет коду формы проверить, подключен ли компьютер пользователя к сети. Проверяя значение свойства MachineOnlineState, код формы может выполнять различные действия в зависимости от состояния подключения.
 ms.openlocfilehash: eb2903c2445a61be803c0d7a2f5ddd7ac7a912ad
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299820"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436141"
 ---
 # <a name="work-with-offline-solutions"></a>Работа с автономными решениями
 

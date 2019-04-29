@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 7c3e5a71-7b78-4328-b8ee-265cc4da4be5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f22d30c1bc7c797834f58bcd1306b14ac2542c6d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345138"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421258"
 ---
 # <a name="szfindlastch"></a>SzFindLastCh
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Ищет последнее вхождение символа в строке с завершающим нулем. 
   
@@ -54,7 +54,7 @@ LPSTR SzFindLastCh(
 
  **Сзфиндластч** возвращает указатель на последнее вхождение символа в строке. Если символ не встречается в строке или параметр _лпсз_ имеет значение null, возвращается значение null. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Функция **сзфиндластч** выполняет поиск только точного совпадения; Это зависит от регистра и диакритических различий. Поисковые запросы поддерживаются в форматах Юникод и DBCS. 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 02c139db-fe67-f550-1d07-8c8a9a4fb427
 description: Определяет метод, с помощью которого анализируется документ перед созданием макета, и определяет тип макета.
 ms.openlocfilehash: 463c7dad39955161538aa89d1482685189bf7fdc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346797"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432039"
 ---
 # <a name="placedepth-cell-page-layout-section"></a>PlaceDepth Cell (Page Layout Section)
 
@@ -23,7 +23,7 @@ ms.locfileid: "32346797"
 |**Значение**|**Глубина размещения для вертикальных и горизонтальных макетов**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 | нуль  <br/> | Страница по умолчанию  <br/> |**Висплоплацедепсдефаулт** <br/> |
-| 1,1  <br/> | Средние  <br/> |**Висплоплацедепсмедиум** <br/> |
+| 1,1  <br/> | Средняя  <br/> |**Висплоплацедепсмедиум** <br/> |
 | 2  <br/> | Углублен  <br/> |**Висплоплацедепсдип** <br/> |
 | 4  <br/> | Поверхност  <br/> |**Висплоплацедепсшаллов** <br/> |
    

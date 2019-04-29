@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: c67cfd32-5911-d8e9-dd51-fd4885dd2b0d
 description: Возвращает ссылку на лист с конечной формой фигуры выноски.
 ms.openlocfilehash: aeeb919fb2efc175d8e5ce23f464503c13331249
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337249"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423015"
 ---
 # <a name="callouttargetref-function"></a>Функция CALLOUTTARGETREF
 
@@ -31,7 +31,7 @@ CALLOUTTARGETREF ()!
 
 Ссылка на таблицу свойств фигуры
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если фигура не является фигурой выноски или не связана с целевой фигурой, CALLOUTTARGETREF возвращает #REF.
   

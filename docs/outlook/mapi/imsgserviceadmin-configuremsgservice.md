@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a08f5905-2585-49ca-abb7-a77f2736f604
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 87ac394f9ab77b092cdfcd44f65b040a039319e7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317411"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422189"
 ---
 # <a name="imsgserviceadminconfiguremsgservice"></a>IMsgServiceAdmin::ConfigureMsgService
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Перестраивает службу сообщений.
   
@@ -97,7 +97,7 @@ S_OK
   
 > Пользователь отменил операцию, как правило, нажав кнопку **Отмена** в окне свойств. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имсгсервицеадмин:: конфигуремсгсервице** позволяет настроить службу сообщений со страницей свойств конфигурации или без нее. 
   

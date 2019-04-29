@@ -11,17 +11,17 @@ api_type:
 ms.assetid: 56b9e7bd-eece-4264-8ee5-a1bcbec4f35c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: dae31959cddad7ad61ea32f2372ea34bdbff658e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346356"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423708"
 ---
 # <a name="pidtagreportdisposition-canonical-property"></a>Каноническое свойство PidTagReportDisposition
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает состояние прихода для сообщений, запрашивающих уведомления. 
   
@@ -32,9 +32,9 @@ ms.locfileid: "32346356"
 |Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Поддерживаются следующие допустимые значения:
+Допустимые значения:
   
 - удалять
     

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e099dbb3-c591-d934-5cfd-7728b10bd8dc
 description: Возвращает целое число от 1 до 12, представляющее месяц.
 ms.openlocfilehash: 71ecc7992839c871780e9b703377db37279246e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335275"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431976"
 ---
 # <a name="month-function-visioshapesheet"></a>MONTH Function (VisioShapeSheet)
 
@@ -52,13 +52,13 @@ MONTH ("30 мая 1999 13:45:24")
   
 Возвращает 5.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 MONTH ("DATEVALUE (" 30 мая 1999 г. ") + 7 ED.)
   
 Возвращает значение 6.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 MONTH (35580.6337)
   

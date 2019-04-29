@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a6082162-2a74-4850-a0df-4bdbc67b41d8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e15c259003ed2cb425eb181f4383f3054967b993
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339321"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437940"
 ---
 # <a name="pidtagstoreunicodemask-canonical-property"></a>Каноническое свойство PidTagStoreUnicodeMask
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов, которые клиентские приложения должны запросить для определения характеристик хранилища сообщений.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32339321"
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Хранилище сообщений MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство позволяет раскрывать возможности хранилища сообщений с планированием клиентских приложений, чтобы отправить ему сообщение. Флаги могут способствовать принятию решений клиентом или другим хранилищем, например, следует ли отправлять **пр_боди** ([PidTagBody](pidtagbody-canonical-property.md)) или только **пр_ртф_компрессед** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). Клиент никогда не должен задавать это свойство. Попытка возвращает **мапи_е_компутед**. 
   

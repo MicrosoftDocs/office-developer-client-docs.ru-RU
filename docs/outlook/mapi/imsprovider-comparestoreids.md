@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c3e3cfaa-9c4a-482a-9411-9c4ab01d312f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 734e53c1e897c902c72319aa6f2d3d7af2d23fb6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317271"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431710"
 ---
 # <a name="imsprovidercomparestoreids"></a>IMSProvider::CompareStoreIDs
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Сравнивает два идентификатора записи хранилища сообщений, чтобы определить, ссылаются ли они на один и тот же объект хранилища.
   
@@ -70,7 +70,7 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 MAPI вызывает метод **функцииimsprovider:: компарестореидс** при обработке вызова метода [IMAPISession:: опенмсгсторе](imapisession-openmsgstore.md) . В этой точке вызывается **компарестореидс** , чтобы определить, какой раздел профиля связан с открываемым хранилищем сообщений. Вызов **компарестореидс** можно выполнить, если нет открытых хранилищ сообщений для конкретного поставщика услуг хранения. Кроме того, MAPI также вызывает **компарестореидс** , когда он обрабатывает вызов поставщика хранилища в метод [Имаписуппорт:: опенпрофилесектион](imapisupport-openprofilesection.md) . 
   

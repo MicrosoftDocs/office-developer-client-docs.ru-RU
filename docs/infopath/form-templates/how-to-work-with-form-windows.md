@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 32ae2427-882b-45f8-8754-0e8c27fc23ba
 description: При работе с формой InfoPath программным образом можно написать код для доступа к окнам формы, а затем настроить некоторые содержащиеся в них элементы. Объектная модель InfoPath, предоставляемая пространством имен Microsoft. Office. InfoPath, поддерживает доступ к окнам формы с помощью класса Window в связи с классом WindowCollection.
 ms.openlocfilehash: 018357519e27629c29b2611bd0a88b8d64f0a1eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303558"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431066"
 ---
 # <a name="work-with-form-windows"></a>Работать с окнами форм
 
@@ -34,7 +34,7 @@ ms.locfileid: "32303558"
 
 Класс [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.aspx) предоставляет следующие свойства, которые разработчики шаблонов форм могут использовать для управления объектами [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) , которые он содержит. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Count.aspx)  <br/> |Получает количество объектов [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) , которые содержит коллекция.  <br/> |
 |Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Item.aspx)  <br/> |Возвращает ссылку на указанный объект [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) .  <br/> |
@@ -43,7 +43,7 @@ ms.locfileid: "32303558"
 
 Класс [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с окном InfoPath. Поддержка этих методов и свойств зависит от типа окна ( [виндовтипе](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowType.aspx) ), с которым ведется работа. Некоторые методы и свойства работают только с окном редактора (**WindowType.Editor**). Остальные методы и свойства работают как с окном редактора, так и с окном конструктора (**WindowType.Designer**). Кроме того, как и для всех членов объектной модели InfoPath, при вызове из шаблона формы поддержка методов и свойств может изменяться в зависимости от уровня безопасности и метода развертывания формы.
   
-|**Имя**|**Описание**|**Поддержка типов окон**|
+|**Name**|**Описание**|**Поддержка типов окон**|
 |:-----|:-----|:-----|
 |Метод [Activate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Activate.aspx)  <br/> |Активирует окно (переключает фокус).  <br/> |Типы **Designer** и **Editor**  <br/> |
 |Свойство [Active](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Active.aspx)  <br/> |Возвращает логическое (**Boolean**) значение, указывающее, является ли окно активным в данный момент.  <br/> |Типы **Designer** и **Editor**  <br/> |

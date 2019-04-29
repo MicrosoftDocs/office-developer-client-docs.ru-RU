@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 3f2870f7-1c08-4d0f-b9d8-7644f5e55b78
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: f27da216b9c474aa31503917a6d3c7a74eab9c4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341267"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421216"
 ---
 # <a name="imapisupportunsubscribe"></a>IMAPISupport::Unsubscribe
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ОтМеняет ответственность за отправку уведомлений, которые были установлены ранее при вызове метода [имаписуппорт:: Subscribe](imapisupport-subscribe.md) . 
   
@@ -49,7 +49,7 @@ S_OK
   
 > Номер подключения, переданный в параметре _улконнектион_ , не существует. 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт:: unsubscribe** реализован для всех объектов поддержки поставщика услуг. Поставщики услуг отменяют подписываться на отмену регистрации уведомлений, предварительно настроенных подПискум. **** **** **Unsubscribe** отменяет регистрацию, освобождая указатель приемника уведомлений, переданный в вызове **Subscribe** . 
   

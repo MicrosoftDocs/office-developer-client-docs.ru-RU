@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 4aafb254-6074-4a7c-b915-d3d33304ac38
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c73fb96c9620a90ab0505b394fcb9853d02dcde5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360692"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421090"
 ---
 # <a name="screlocprops"></a>ScRelocProps
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 НаСтраивает указатели в массиве [спропвалуе](spropvalue.md) после того, как массив и его данные были скопированы или перемещены в новое расположение. 
   

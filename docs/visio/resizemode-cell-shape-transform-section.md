@@ -10,23 +10,23 @@ localization_priority: Normal
 ms.assetid: 49816e46-fa83-3ee4-1451-9c85fbd0f519
 description: Показывает текущий параметр поведения изменения размера для фигуры.
 ms.openlocfilehash: 7e9080fcd4604e2dbdc1dae31992f05e5b512213
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326882"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421965"
 ---
 # <a name="resizemode-cell-shape-transform-section"></a>ResizeMode Cell (Shape Transform Section)
 
 Показывает текущий параметр поведения изменения размера для фигуры.
   
-|**Value**|**Описание**|**Константа автоматизации**|
+|**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
 |нуль  <br/> |Используйте параметр группы.  <br/> |**Висксформресизедонткаре** <br/> |
 |1,1  <br/> |Только перестановка.  <br/> |**Висксформресизеспреад** <br/> |
 |2  <br/> |Масштабирование с помощью Group.  <br/> |**Висксформресизескале** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Вы также можете задать это значение на вкладке **поведение** в диалоговом окне **поведение** (на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md)в группе **Макет фигуры** щелкните **поведение**). Чтобы получить ссылку на ячейку ResizeMode по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

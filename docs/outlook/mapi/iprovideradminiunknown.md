@@ -13,17 +13,17 @@ api_type:
 ms.assetid: bdb4cdca-8dfd-4f90-9467-ec31cea3f518
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: bedec72e8371d0e8aa69415d2f0dc77b4c62ff76
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315528"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437534"
 ---
 # <a name="iprovideradmin--iunknown"></a>IProviderAdmin : IUnknown
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Работает с поставщиками услуг в службе сообщений. 
   
@@ -46,7 +46,7 @@ ms.locfileid: "32315528"
 |[Делетепровидер](iprovideradmin-deleteprovider.md) <br/> |Удаляет поставщика услуг из службы сообщений.  <br/> |
 |[Опенпрофилесектион](iprovideradmin-openprofilesection.md) <br/> |Открывает раздел профиля из текущего профиля и возвращает указатель [ипрофсект](iprofsectimapiprop.md) для получения дальнейших прав.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Клиенты могут получить указатель на интерфейс **ипровидерадмин** , вызвав метод [Имсгсервицеадмин:: админпровидерс](imsgserviceadmin-adminproviders.md) ; поставщики услуг передаются в качестве указателя **ипровидерадмин** при вызове функции точки входа для службы сообщений. 
   

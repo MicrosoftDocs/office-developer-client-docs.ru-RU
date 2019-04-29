@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 232fa528-2375-90be-8e18-7a064ce1345e
 description: Возвращает вычисленный результат первичного выражения, если он не вычисляется как ошибка. В противном случае возвращает результат вычисления альтернативного выражения.
 ms.openlocfilehash: 7b9b42b5c7e7053bae862ddadf17e65015d8ecc3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344816"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431178"
 ---
 # <a name="iferror-function"></a>Функция IFERROR
 

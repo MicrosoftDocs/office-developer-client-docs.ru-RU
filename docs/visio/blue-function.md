@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: da9fb933-4e2c-3e2a-1879-6e70db0cd830
 description: Возвращает синий компонент цвета. Возвращаемое значение — это целое число в диапазоне от 0 до 255 включительно. Функция возвращает значение 0 для недопустимых входных данных.
 ms.openlocfilehash: adefbe0f8c2df0ead0f3e50cd5d4945501972865
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297356"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439039"
 ---
 # <a name="blue-function"></a>Функция BLUE
 
@@ -40,13 +40,13 @@ BLUE (* * *Expression* * *)
   
 Возвращает синий компонент листа лист. 4's заливки цветом текста.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 СИНИЙ (13)
   
 Возвращает 128, если документ использует цветовую палитру Visio по умолчанию, где голубой — цвет с индексом 13.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 BLUE (RGB (10, 20, 30))
   

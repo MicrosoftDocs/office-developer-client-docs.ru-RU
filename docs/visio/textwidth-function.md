@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a9b8efcf-edc0-ad99-deae-21df16c58807
 description: Возвращает ширину составного текста в фигуре.
 ms.openlocfilehash: 43848bba4d24a0c31a3a084d123cd56140bf0709
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332272"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422035"
 ---
 # <a name="textwidth-function"></a>Функция TEXTWIDTH
 
@@ -33,9 +33,9 @@ TEXTWIDTH (* * *шапенаме! TheText* * * * * *[, максимумвидс]
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Функция TEXTWIDTH обычно используется для настройки ширины фигуры в соответствии с текстом, который она содержит.
   

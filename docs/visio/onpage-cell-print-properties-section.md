@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 4015506a-e24a-0276-c854-7791a7019067
 description: Указывает, печатается ли документ на определенном числе страниц принтера.
 ms.openlocfilehash: 61d45a5bffdbb1afd5db9c608f80bc4f797f5191
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360986"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439606"
 ---
 # <a name="onpage-cell-print-properties-section"></a>OnPage Cell (Print Properties Section)
 
 Указывает, печатается ли документ на определенном числе страниц принтера. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |ПодГонку страницы документа к определенному числу страниц принтера.  <br/> |
 |FALSE  <br/> |Не подгонять страницу документа к определенному количеству страниц принтера (по умолчанию).  <br/> |

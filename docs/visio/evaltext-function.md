@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: c9b5b96c-d8c8-6119-e3f1-a2ce9d7c043e
 description: Оценивает текст в шапенаме как формулу и возвращает результат.
 ms.openlocfilehash: 6600d9d6ddaf630a93fdb5c37639ce50a21a4307
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329052"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438360"
 ---
 # <a name="evaltext-function"></a>Функция EVALTEXT
 
@@ -32,9 +32,9 @@ EVALTEXT (* * *шапенаме! theText* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
  _шапенаме_ можно использовать для ссылки на текст фигуры, отличной от текущей фигуры. 
   

@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 0027fd5a-f30a-4025-b670-c21869b3a480
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: d1df84c37cc2a24806c35ae0c90e4bf2a5e438d2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328065"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433180"
 ---
 # <a name="forwarding-a-message"></a>Пересылка сообщения
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ПереСылка сообщения включает в себя множество таких же задач, как отправка исходного сообщения. Для начала необходимо открыть хранилище сообщений по умолчанию и папку, предназначенную для хранения исходящих сообщений, как правило, в папке "исХодящие", и вызвать метод [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) для создания переадресованного сообщения. Кроме того, необходимо открыть папку, в которой находится исходное сообщение, обычно это папка "Входящие". Сведения о том, как открывать другие папки, можно найти [в разделе Открытие папки хранилища сообщений](opening-a-message-store-folder.md).
   

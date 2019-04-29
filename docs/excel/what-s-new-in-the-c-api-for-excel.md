@@ -8,17 +8,17 @@ keywords:
 - c API [Excel 2007], новые возможности
 localization_priority: Normal
 ms.assetid: f11552e1-b8ea-4933-b6fc-c452b07eb59d
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 64e3933ec25f0771db5bd36bbf57f3f259cdc8a1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310271"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439690"
 ---
 # <a name="whats-new-in-the-c-api-for-excel"></a>Новые возможности API C для Excel
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 В сочетании с Microsoft Excel 2013 пакет средств разработки программного обеспечения (SDK) Microsoft Excel 2013 XLL включает поддержку следующих функций.
   

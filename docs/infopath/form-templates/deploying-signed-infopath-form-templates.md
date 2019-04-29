@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 8345a4bc-ad7b-d0b0-7615-f77ade35006d
 description: Перед чтением этой статьи ознакомьтесь с разделомПодписанные шаблоны формв документе Дополнительные концепции безопасности форм InfoPath, чтобы понять принципы защиты подписанной формы. Важно также просмотреть сведения и обсуждения в разделе Уровни безопасности, развертывание форм по электронной почте и удаленные шаблоны форм.
 ms.openlocfilehash: 76cc6dfdbd2c01827182c348281a98ad7cd17b69
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303719"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426802"
 ---
 # <a name="deploying-signed-infopath-form-templates"></a>Развертывание шаблонов подписанной формы InfoPath
 

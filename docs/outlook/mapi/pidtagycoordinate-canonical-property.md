@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f176308d-efb9-460c-8379-8a12d4f8e017
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ab90b05f8bd92f4cfd90f84078691a293ae159b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350668"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436855"
 ---
 # <a name="pidtagycoordinate-canonical-property"></a>Каноническое свойство Пидтагикурдинате
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит координату y начальной позиции (верхнего левого угла) элемента управления "диалоговое окно" в стандартных единицах диалогового окна Windows.
   

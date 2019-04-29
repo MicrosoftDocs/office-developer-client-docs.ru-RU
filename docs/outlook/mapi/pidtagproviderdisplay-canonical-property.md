@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 62e96db8-4c3e-4f73-b695-99eb4b2396fd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 58db944720817491420f2bcb1774e51e3842b4a6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286469"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421594"
 ---
 # <a name="pidtagproviderdisplay-canonical-property"></a>Каноническое свойство PidTagProviderDisplay
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемое имя, определенное поставщиком услуг.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32286469"
 |Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Эти свойства и **пр_провидер_длл_наме** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) определяются только в разделах профиля, относящихся к поставщикам услуг. Они должны присутствовать в MAPISVC. INF.
   

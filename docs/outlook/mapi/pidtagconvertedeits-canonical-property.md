@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 569106ff-440b-4376-9608-afc8d4dba3e4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7603fbd99f959108b0db8bda000da4cdf2c90f67
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358942"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423456"
 ---
 # <a name="pidtagconvertedeits-canonical-property"></a>Каноническое свойство PidTagConvertedEits
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор для типов текста в сообщении после преобразования.
   
@@ -32,7 +32,7 @@ ms.locfileid: "32358942"
 |Связанные свойства:  <br/> |ПР_КОНВЕРТЕД_ЕИТС  <br/> |
 |Идентификатор:  <br/> |0x000E  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Exchange  <br/> |
+|Область:  <br/> |Exchange;  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

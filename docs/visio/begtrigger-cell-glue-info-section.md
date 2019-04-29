@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0b7ffe39-ee6c-71eb-355c-9bb4660260f1
 description: Содержит формулу триггера, созданную приложением, которая определяет, нужно ли перемещать начальную точку одноМерной фигуры для сохранения ее связи с другой фигурой.
 ms.openlocfilehash: b401d349119337016a96b5fffbc26f7be2891864
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360357"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437954"
 ---
 # <a name="begtrigger-cell-glue-info-section"></a>BegTrigger Cell (Glue Info Section)
 

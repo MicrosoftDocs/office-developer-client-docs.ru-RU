@@ -7,17 +7,17 @@ localization_priority: Normal
 ms.assetid: 4d45574e-df87-8c44-4aa7-d41b38406f0a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e8ad2acf019df3f07060c8e8c71a62afd3fca03c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282665"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431542"
 ---
 # <a name="upload-read-status-state"></a>Состояние отправки состояния чтения
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описывается, что происходит во время отправки состояния прочтения конечного автомата репликации. 
   

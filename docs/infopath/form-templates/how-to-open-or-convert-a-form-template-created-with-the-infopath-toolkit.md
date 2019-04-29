@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: af8eca2e-ba9a-4c37-94af-662815fff518
 description: Если вы создали шаблон формы с управляемым кодом InfoPath 2003 с помощью одного из набора инструментов InfoPath 2003 для Visual Studio и хотите обеспечить совместимость с InfoPath 2003, вы можете продолжить работу над проектом шаблона формы и продолжить его разработку, открыв его в Microsoft InfoPath и Visual Studio 2012.
 ms.openlocfilehash: 0acbfab4a83a71d94a1c70a667a963056f5b9a38
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300114"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428587"
 ---
 # <a name="open-or-convert-a-form-template-created-with-the-infopath-toolkit"></a>Открытие и преобразование шаблона формы, созданного с помощью InfoPath Toolkit
 

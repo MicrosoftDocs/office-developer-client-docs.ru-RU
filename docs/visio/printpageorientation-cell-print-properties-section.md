@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f8354d0d-0ce2-fb33-ddf7-611a2c24a8be
 description: Определяет, будет ли страница печататься по книжной или альбомной ориентации.
 ms.openlocfilehash: f7e73bea5120d878a1b2dbf553a66b349d247fce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315185"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434867"
 ---
 # <a name="printpageorientation-cell-print-properties-section"></a>PrintPageOrientation Cell (Print Properties Section)
 
@@ -26,7 +26,7 @@ ms.locfileid: "32315185"
 | 1,1  <br/> | Ориентацию  <br/> |**Висппопортраит** <br/> |
 |2  <br/> |Вдоль  <br/> |**Виспполандскапе** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 При вставке в документ новых страниц этот параметр по умолчанию устанавливается на активной странице.
   

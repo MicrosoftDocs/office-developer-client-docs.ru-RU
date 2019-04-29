@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1d198ea6-49e0-e462-b2cf-b65fbb920b55
 description: Возвращает строку, преобразованную в нижний регистр.
 ms.openlocfilehash: 275e5cc40bed5c3ca7d6f40b0882f523334611c3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358018"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421244"
 ---
 # <a name="lower-function"></a>Функция LOWER
 
@@ -32,7 +32,7 @@ LOWER (* * *Expression* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
 ## <a name="remarks"></a>Примечания
 

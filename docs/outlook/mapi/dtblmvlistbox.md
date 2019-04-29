@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 1c22f842-d0e7-44f0-a7d5-c9c2aa6b8820
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ae8f3ab28837bf0579549ead46c28477f815f35c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338278"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439704"
 ---
 # <a name="dtblmvlistbox"></a>DTBLMVLISTBOX
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывает Многозначный список, который будет отображаться в диалоговом окне, созданном из таблицы отображения.
   
@@ -50,7 +50,7 @@ typedef struct _DTBLMVLISTBOX
   
 > Тег свойства с многозначным свойством типа ПТ_МВ_ТСТРИНГ.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Структура **дтблмвлистбокс** описывает стандартный Многозначный список, содержащий список элементов, предназначенный только для чтения. При использовании стандартного многозначного списка значения отображаются сразу. 
   

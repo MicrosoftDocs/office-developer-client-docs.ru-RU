@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: e316a424-d789-4ce5-bcc6-263049f3659e
 description: Указывает тип зашифрованного подключения, используемого для учетной записи SMTP.
 ms.openlocfilehash: 67eae5c9c5ca1b7f664ceaac0463ef3f3c9a291a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328331"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421286"
 ---
 # <a name="propsmtpsecureconnection"></a>PROP_SMTP_SECURE_CONNECTION
 
@@ -27,7 +27,7 @@ ms.locfileid: "32328331"
 |Тег свойства:  <br/> |0x020A0003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Значение может быть одной из следующих констант. В этом разделе приведены [константы (API управления учетНыми записями)](constants-account-management-api.md) для их значений. 
   

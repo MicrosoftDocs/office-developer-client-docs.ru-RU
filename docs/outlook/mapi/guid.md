@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e3608c47-06be-4476-a6ef-060fac252387
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 12c50ab5936d7fffd364c276ba07ca69d3459ae7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299519"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421587"
 ---
 # <a name="guid"></a>GUID
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывает глобальный уникальный идентификатор (GUID). 
   
@@ -60,7 +60,7 @@ typedef struct _GUID
   
 > Массив неподписанных символов.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
  Структуры **GUID** используются в MAPI следующим образом: 
   

@@ -10,17 +10,17 @@ keywords:
 - Функция фшовдиалог [Excel 2007]
 localization_priority: Normal
 ms.assetid: 6cc01075-7221-488e-870f-433da62930e6
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 6122e4b99c69cd1bd878c9267ff85f59d0f61998
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310852"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433593"
 ---
 # <a name="fshowdialog"></a>fShowDialog
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Пример пользовательской команды, которая загружает и отображает пример собственного диалогового окна Windows. При загрузке GENERIC. XLL создается пользовательское меню с общим доступом, через которое осуществляется доступ к этой команде.
   
@@ -36,7 +36,7 @@ int WINAPI fShowDialog(void);
 
 Функция возвращает целочисленный ноль, указывающий на успешность выполнения
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Ниже приведены действия по отображению собственного диалогового окна Windows.
   

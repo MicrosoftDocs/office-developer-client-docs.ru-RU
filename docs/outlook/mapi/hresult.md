@@ -13,17 +13,17 @@ api_type:
 ms.assetid: b248ed11-3d8a-4d4c-9b84-fa5bee7979c7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 64fcbebbd71bc3f478f36c711e49db9a3518ef9a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347798"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435021"
 ---
 # <a name="hresult"></a>HRESULT
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 32-разрядное значение, используемое для описания ошибки или предупреждения.
   

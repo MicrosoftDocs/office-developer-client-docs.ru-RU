@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 070b4468-c907-b201-1633-1d3e10ecc2b2
 description: Указывает, отображается ли действие в теге действия или в контекстном меню.
 ms.openlocfilehash: 69bc96e76f27a64d6e1443f045c27566f598c1db
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297244"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423876"
 ---
 # <a name="invisible-cell-actions-section"></a>Invisible Cell (Actions Section)
 
@@ -23,12 +23,12 @@ ms.locfileid: "32297244"
 > [!NOTE]
 > В предыдущих версиях Microsoft Visio теги действий назывались смарт-тегами. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Действие не отображается в меню.  <br/> |
 |FALSE  <br/> |Действие отображается в меню (по умолчанию).  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на неВидимую ячейку по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

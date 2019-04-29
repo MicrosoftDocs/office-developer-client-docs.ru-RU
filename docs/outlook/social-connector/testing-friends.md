@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 109c34b6-911b-4dfc-9799-aadf47172e84
 description: В этом разделе описываются тесты и сценарии для проверки того, что поставщик Outlook Social Connector (OSC) правильно возвращает данные о друзьях и не друзьях, где это применимо в зависимости от режима синхронизации, поддерживаемого поставщиком.
 ms.openlocfilehash: 1c97342fd5b219b15b1f58dbc065fc268f8e81d7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338789"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433670"
 ---
 # <a name="testing-friends"></a>Тестирование получения данных друзей
 

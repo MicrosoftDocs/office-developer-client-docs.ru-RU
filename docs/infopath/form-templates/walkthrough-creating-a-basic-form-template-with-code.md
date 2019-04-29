@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 0f55c8be-8641-476a-b0c8-c88adb2ac2b9
 description: Бизнес-логику для приложения Microsoft InfoPath можно написать на языке Visual Basic или C#, открыв шаблон формы в конструкторе InfoPath и воспользовавшись одной из команд интерфейса пользователя для добавления обработчика событий, который откроет набор Visual Studio 2012 для написания необходимого кода.
 ms.openlocfilehash: cc09856750ced28d35c8da172a08a31c4e3cd4a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299736"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420649"
 ---
 # <a name="walkthrough-create-a-basic-form-template-with-code"></a>ПоШаговое руководство: создание базового шаблона формы с кодом
 

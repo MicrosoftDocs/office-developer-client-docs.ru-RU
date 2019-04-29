@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e7f9be6a-92e7-44a8-93ee-b087713a31df
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: db19c3908c419b98b8deb71e2a86d0aa6eebe240
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344424"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438101"
 ---
 # <a name="ssortorderset"></a>SSortOrderSet
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет коллекцию ключей сортировки для таблицы, используемой для сортировки по стандарту или по категориям.
   
@@ -61,7 +61,7 @@ typedef struct _SSortOrderSet
   
 > Массив структур **ссортордер** , каждый из которых определяет порядок сортировки. 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Структура **ссортордерсет** используется для определения нескольких порядков сортировки для стандартной и упорядоченной сортировки. 
   

@@ -7,15 +7,15 @@ localization_priority: Normal
 ms.assetid: ab677a06-6d7d-47e7-99ea-535b0b24389a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 479339762867aa778bc8bc8baa1f21f6bc34b441
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328485"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438591"
 ---
 # <a name="propertydefinition-stream-structure"></a>Структура потока PropertyDefinition
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Структура потока PropertyDefinition — это массив структуры потоков [FieldDefinition](fielddefinition-stream-structure.md) , который содержит определения для всех пользовательских полей в элементе Microsoft Outlook и параметры привязки данных для некоторых встроенных полей. 
   
@@ -27,7 +27,7 @@ ms.locfileid: "32328485"
   
 - Версия: WORD (2 байта), формат определений полей в структуре потока PropertyDefinition. В следующей таблице представлены возможные значения.
     
-    |**Value**|**Описание**|
+    |**Значение**|**Описание**|
     |:-----|:-----|
     |0x0102  <br/> |Формат — PropDefV1.  <br/> |
     |0x0103  <br/> |Формат — PropDefV2.  <br/> |

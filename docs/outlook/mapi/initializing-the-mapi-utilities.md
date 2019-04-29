@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 02b14285-bbef-44f2-b2a4-45d96395998a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 5c5a9355e9edec28e08986ccd055fc43eec7b974
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317222"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420950"
 ---
 # <a name="initializing-the-mapi-utilities"></a>Инициализация служебных программ MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Если необходимо использовать только те служебные программы MAPI, которые необходимы, это программы, а также интерфейсы и функции, объявляемые в МАПИУТИЛ MAPI. H-файл заголовков, например **ипропдата** и **итабледата** , не требуется вызывать **мапиинитиализе** для инициализации. Дополнительные сведения см. в статье [ипропдата: IMAPIProp](ipropdataimapiprop.md), [итабледата: IUnknown](itabledataiunknown.md)и [мапиинитиализе](mapiinitialize.md). Вместо этого вызовите функцию **сЦинитмапиутил** . Дополнительные сведения см. в разделе [сЦинитмапиутил](scinitmapiutil.md). **СЦинитмапиутил** позволяет клиентским приложениям использовать служебные функции и методы, требующие распределения MAPI, но не запрашивают их явным образом. 
   

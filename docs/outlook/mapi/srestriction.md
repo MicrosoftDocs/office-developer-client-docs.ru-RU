@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c12b4409-da6f-480b-87af-1e5baea2e8bd
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: a2a6d273495df52adb83393dc5549b0872c8f6f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341743"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439361"
 ---
 # <a name="srestriction"></a>SRestriction
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывает фильтр для ограничения представления таблицы определенными строками. 
   
@@ -122,7 +122,7 @@ typedef struct _SRestriction
 |РЕС_СИЗЕ  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |
 |РЕС_СУБРЕСТРИКТИОН  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Клиенты используют структуру **срестриктион** для ограничения числа и типа строк в представлении таблицы, а также для поиска определенных сообщений в папке. Чтобы наложить ограничение на таблицу, клиенты вызывают вызов [IMAPITable:: restrict](imapitable-restrict.md) или [IMAPITable:: FindRow](imapitable-findrow.md). Чтобы наложить ограничение на папку, клиенты вызывают метод [IMAPIContainer:: сетсеарчкритериа](imapicontainer-setsearchcriteria.md) папки. 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6788bc96-cc86-5f21-781f-67274e7f605a
 description: Округляет число в сторону 0 (ноль), на следующее целое число или на следующий экземпляр множителя.
 ms.openlocfilehash: 7a16a77a990180f34dd7a5706c24ec3232438467
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346181"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439900"
 ---
 # <a name="floor-function"></a>Функция FLOOR
 
@@ -33,9 +33,9 @@ FLOOR (* * *число* * *, * * *несколько* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Номер
+Число
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если не указано значение _Multiple_ , число округляется до 0 до следующего целого числа. 
   
@@ -47,13 +47,13 @@ FLOOR (* * *число* * *, * * *несколько* * *)
   
 Возвращает значение 3.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 FLOOR (-3,7)
   
 Возвращает значение 3.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 FLOOR (3.7, 0,5)
   

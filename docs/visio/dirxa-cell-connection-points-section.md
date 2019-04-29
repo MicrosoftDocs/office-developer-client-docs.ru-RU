@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 00d87b92-0da7-37d6-e7b5-23f350db0a9b
 description: Определяет x компонент для требуемого вектора выравнивания соответствующей точки подключения. Ячейка ячейка dirx/A также используется для ориентации присоединенной стороны динамической соединительной линии. Эта ячейка принимает значение с плавающей запятой.
 ms.openlocfilehash: cb86ef1064537911ffd00a66f5c0b7942459f85e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332595"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422399"
 ---
 # <a name="dirx--a-cell-connection-points-section"></a>DirX / A Cell (Connection Points Section)
 
 Определяет *x* компонент для требуемого вектора выравнивания соответствующей точки подключения. Ячейка ячейка dirx/A также используется для ориентации присоединенной стороны динамической соединительной линии. Эта ячейка принимает значение с плавающей запятой. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку ячейка dirx/A по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 9e055269-f3bf-4b64-8384-3cbc372c0b34
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e7abcb2c86ff5cabe0b8f5664ec316244617ac09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316676"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421237"
 ---
 # <a name="direntryid"></a>DIR_ENTRYID
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывает свойства идентификатора записи каталога.
   
@@ -58,7 +58,7 @@ typedef struct _dir_entryid
   
 > Целое число, представляющее тип идентификатора записи каталога. Он должен иметь одно из следующих значений:
     
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |CONTAB_ROOT  <br/> |Корневая папка для адресной книги MAPI.  <br/> |
 |CONTAB_SUBROOT  <br/> |Вложенная папка, находящаяся в корневой папке объекта адресной книги MAPI.  <br/> |
@@ -68,7 +68,7 @@ typedef struct _dir_entryid
   
 > Идентификатор GUID, определяющий объект logon.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Структуры **дир_ентрид** и [контаб_ентрид](contab_entryid.md) идентичны, за исключением элемента **ултипе** . Содержимое элемента **ултипе** определяет, какая структура подходит для остальных полей. 
   

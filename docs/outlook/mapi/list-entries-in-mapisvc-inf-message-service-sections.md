@@ -9,17 +9,17 @@ api_type:
 ms.assetid: f4f052d6-ef63-421a-9d8c-4f3c6df83863
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b6b641a288cea8bac5a1990e85520f3583c02f22
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32307835"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435931"
 ---
 # <a name="list-entries-in-mapisvcinf-message-service-sections"></a>Список записей в разделах службы сообщений MapiSvc. INF
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Существует два типа записей списка разделов: один, который содержит список разделов поставщиков услуг и один, в котором перечислены разделы, относящиеся к службе различных сообщений. Эти два типа записей отображаются в Mapisvc. INF в следующих форматах:
   

@@ -7,15 +7,15 @@ localization_priority: Normal
 ms.assetid: 3a1f0aa2-813f-222c-f871-0501de5d9dec
 description: 'Содержит пример кода на языке C++, который показывает, как использовать Иид_имессажерав в IMsgStore:: OpenEntry, чтобы получить интерфейс IMessage, который управляет сообщением в файле автономных папок (OST) без принудительного скачивания всего сообщения, когда клиент находится в кэшированной среде Exchange Режимов.'
 ms.openlocfilehash: e50637b496ff43daedad2df27d027d8a6d0dc743
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316396"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418759"
 ---
 # <a name="manage-messages-in-ost-without-invoking-a-synchronization-in-cached-exchange-mode"></a>Управление сообщениями в OST без вызова синхронизации в режиме кэширования Exchange
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе приведен пример кода на языке C++, который показывает, `IID_IMessageRaw` как использовать в **[IMsgStore:: OpenEntry](imsgstore-openentry.md)** , чтобы получить интерфейс **[iMessage](imessageimapiprop.md)** , который управляет сообщением в файле автономных папок (OST) без принудительного скачивания всего сообщения, когда клиент находится в режиме кэширования Exchange. 
   

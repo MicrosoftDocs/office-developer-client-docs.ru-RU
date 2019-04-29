@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 670c2291-d5b6-4dcf-9046-9125272dd8f8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b187cccc4505256b7ab4d580c30eeb2e15ebf574
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278862"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421678"
 ---
 # <a name="itabledatahrdeleterow"></a>ITableData::HrDeleteRow
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Удаляет строку таблицы.
   
@@ -49,7 +49,7 @@ S_OK
   
 > Свойство, на которое указывает параметр _лпспропвалуе_ , не определяет строку в таблице. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **итабледата:: хрделетеров** удаляет строку таблицы, содержащую столбец, который соответствует свойству, на которую указывает параметр _лпспропвалуе_ . Данные для строки удаляются, а строка удаляется из всех открытых представлений. 
   

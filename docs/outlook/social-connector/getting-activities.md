@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 8cb8f916-f061-4c4c-ad1b-40d44af3345a
 description: 'OSC вызывает метод ИсоЦиалпровидер:: Capabilities для определения возможностей поставщика OSC для социальной сети.'
 ms.openlocfilehash: 9d504fb64368a6910feaa38f0ef19ed631b4d4e3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327190"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420579"
 ---
 # <a name="getting-activities"></a>Получение действий
 

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0c46c1fb-dd63-4ac5-960e-80f68e75d8f4
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9598e0c90c16db14cdc3a46d2b2ae74e0d9a9300
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286934"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423638"
 ---
 # <a name="imapicontaineropenentry"></a>IMAPIContainer::OpenEntry
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Открывает объект в контейнере, возвращая указатель интерфейса для дальнейшего доступа.
   
@@ -98,7 +98,7 @@ S_OK
   
 > Идентификатор записи в параметре _лпентрид_ имеет формат, отличный от формата, распознаваемого контейнером. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPIContainer:: OpenEntry** открывает объект в контейнере и возвращает указатель на реализацию интерфейса, который будет использоваться для дальнейшего доступа. 
   

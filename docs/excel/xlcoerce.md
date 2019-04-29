@@ -10,17 +10,17 @@ keywords:
 - Функция xlCoerce [Excel 2007]
 localization_priority: Normal
 ms.assetid: 9d47c16c-a7e7-4998-b594-9cf001827b7b
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: d84839535d5eb913ca8a62d631238e3330683d0e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303964"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424835"
 ---
 # <a name="xlcoerce"></a>xlCoerce
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Преобразует один тип параметра ****/ **XLOPER12** в другой или ищет значения ячеек на листе. 
   
@@ -42,7 +42,7 @@ Excel12(xlCoerce, LPXLOPER12 pxRes, 2, LPXLOPER12 pxSource, LPXLOPER12 pxDestTyp
 
 Возвращает приведенное значение (**кслтипестр**, **кслтипенум**, **кслтипебул**, **кслтипирр**, **кслтипенил**или **xltypeMulti**).
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
  **xlCoerce** не удается выполнить преобразование в **кслтипебигдата** или **кслтипефлов**. Передача типа **кслтипемиссинг** или **Кслтипенил** в качестве _пксдесттипе_ эквивалентна опущению аргумента. В некоторых случаях может возникнуть ошибка преобразования. Например, некоторые строки не могут быть преобразованы в числа, в то время как другие могут. 
   

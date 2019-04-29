@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 0ec70417-5b23-45af-95a0-1b26f6791699
 description: Содержит ссылку на геометрию пути, с которым связан образ.
 ms.openlocfilehash: cfbbb3ca7294f751f088df7c3284bf6461270af7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341862"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425514"
 ---
 # <a name="clippingpath-cell-foreign-image-info-section"></a>ClippingPath Cell (Foreign Image Info Section)
 
 Содержит ссылку на геометрию пути, с которым связан образ. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если ячейка **ClippingPath** указывает на действительный путь, изображение обрезается таким образом, чтобы изображение отображалось в пределах пути. Если ячейка **ClippingPath** пустая или содержит недопустимый элемент, изображение будет визуализировано с помощью прямоугольного клипа с использованием значений Scale и offset. 
   

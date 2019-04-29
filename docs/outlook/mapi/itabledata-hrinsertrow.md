@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e5ae37ea-81a5-49c7-9ad0-0bfac518426c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 2709ac612fc9e2edaa57b280d52c0a5229ee9978
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278808"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435441"
 ---
 # <a name="itabledatahrinsertrow"></a>ITableData::HrInsertRow
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Вставляет строку таблицы. 
   
@@ -54,7 +54,7 @@ S_OK
   
 > Строка, имеющая то же значение для столбца индекса, что и вставляемая строка, уже существует в таблице.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **итабледата:: хринсертров** вставляет строку в таблицу в определенном месте. Новая строка вставляется после строки, которая находится в позиции, заданной параметром _улиров_ . 
   

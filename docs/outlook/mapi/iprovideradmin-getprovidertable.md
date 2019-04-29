@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e9deaa7c-430b-4e97-8ed6-f7c615956e0f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 843a61696def4398c22a244a7f3f66d7e5dc75ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279530"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434475"
 ---
 # <a name="iprovideradmingetprovidertable"></a>IProviderAdmin::GetProviderTable
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступ к таблице поставщика службы сообщений, список поставщиков служб в службе сообщений.
   
@@ -54,7 +54,7 @@ S_OK
   
 > Таблица поставщика успешно возвращена.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **ипровидерадмин:: жетпровидертабле** извлекает указатель на таблицу поставщика службы сообщений, таблицу, которую поддерживает MAPI, содержащую сведения о каждом поставщике услуг в службе сообщений. 
   

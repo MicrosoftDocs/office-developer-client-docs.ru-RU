@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 7dcd5a35-bd3d-447f-e4aa-986091d129de
 description: Определяет, как фигуры размещаются на странице при разметке фигур с помощью диалогового окна "Настройка макета" (на вкладке Конструктор в группе Макет выберите пункт изменить макет страницы, а затем щелкните Дополнительные параметры макета).
 ms.openlocfilehash: b3159b765922d6656d12dd42a377322e4a91fc04
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346867"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420803"
 ---
 # <a name="placestyle-cell-page-layout-section"></a>PlaceStyle Cell (Page Layout Section)
 

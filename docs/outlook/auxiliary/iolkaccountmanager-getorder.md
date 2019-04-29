@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: bd22026c-e4f7-2f25-0ef2-5d9539fd7eee
 description: Получает упорядочивание указанной категории учетных записей.
 ms.openlocfilehash: 3eb6dd96caa43f81eba86a389c938ef90c9533b2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322031"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424625"
 ---
 # <a name="iolkaccountmanagergetorder"></a>IOlkAccountManager::GetOrder
 
@@ -58,7 +58,7 @@ _Пргакктс_
 |E_INVALIDARG  <br/> |Один или несколько аргументов являются недопустимыми.  <br/> |
 |Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Перед вызовом этого метода вызывающий абонент выделяет только указатель массива *пргакктс* , но не память для массива, в котором точки *пргакктс* . После возврата этого метода вызывающий должен использовать [иолкаккаунтманажер:: фримемори](iolkaccountmanager-freememory.md) для освобождения памяти, выделенной для *пргакктс* . 
   

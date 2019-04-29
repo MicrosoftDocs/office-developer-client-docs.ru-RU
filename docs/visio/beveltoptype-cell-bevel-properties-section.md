@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 3e29af0d-4183-41d1-8b0f-96450089f882
 description: Определяет тип скоса верхнего края фигуры.
 ms.openlocfilehash: 225600a3e39ec58622bcd8597e1115a52cb62a3f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315731"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33421496"
 ---
 # <a name="beveltoptype-cell-bevel-properties-section"></a>BevelTopType Cell (Bevel Properties Section)
 
 Определяет тип скоса верхнего края фигуры. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |нуль  <br/> |Без рельефа  <br/> |
 |1,1  <br/> |Круглая Багетная рамка  <br/> |
@@ -30,11 +30,11 @@ ms.locfileid: "32315731"
 |см  <br/> |Конвекс Багетная рамка  <br/> |
 |8,5  <br/> |Наклонная Багетная рамка  <br/> |
 |10  <br/> |Дивот Багетная рамка  <br/> |
-|десяти  <br/> |Риблет Багетная рамка  <br/> |
-|-11:00  <br/> |Скос с четким краем  <br/> |
-|12  <br/> |Декоративная художественная Багетная рамка  <br/> |
+|10   <br/> |Риблет Багетная рамка  <br/> |
+|11   <br/> |Скос с четким краем  <br/> |
+|12   <br/> |Декоративная художественная Багетная рамка  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку **BevelTopType** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   

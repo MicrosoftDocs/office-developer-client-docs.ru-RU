@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0edea0ea-58dd-15da-6d4f-185d40133452
 description: Определяет гиперссылку, используемую по умолчанию для фигуры или страницы. ПриСвойте ячейке значение TRUE, чтобы задать гиперссылку по умолчанию.
 ms.openlocfilehash: 9991bd0e241c5dfd4fda65aeff8b6cc203ad3458
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360279"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434356"
 ---
 # <a name="default-cell-hyperlinks-section"></a>Default Cell (Hyperlinks Section)
 

@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 513de39d-6d16-47b6-b2f4-e1bd12a7193f
 description: В этом разделе описываются типы данных в API управления учетными записями.
 ms.openlocfilehash: 27bc93dfaf9c5beb07c05772d1195cf995f69286
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317705"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422602"
 ---
 # <a name="data-types-account-management-api"></a>Типы данных (API управления учетными записями)
 

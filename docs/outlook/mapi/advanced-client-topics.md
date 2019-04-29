@@ -9,21 +9,21 @@ api_type:
 ms.assetid: 9eb052b5-c0ad-418b-9469-e11ffe450fb7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: d0a43d5977b2007416caa1793ad779e790498cac
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331383"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431031"
 ---
 # <a name="advanced-client-topics"></a>Дополнительные разделы для клиентов
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе приводятся подразделы, в которых описывается, как реализовать некоторые из более редких или сложных функций в клиентском приложении.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 
 [Написание автоматизированного клиента](writing-an-automated-client.md)
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 124a5ee1-6dd1-d17d-6f0e-dbaa5d95d9cd
 description: Определяет стиль маркеров.
 ms.openlocfilehash: 03b7d046cd42458b614313c19b2100259730539c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338201"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422770"
 ---
 # <a name="bullet-cell-paragraph-section"></a>Bullet Cell (Paragraph Section)
 
@@ -37,7 +37,7 @@ ms.locfileid: "32338201"
 |Индекс строки:  <br/> |**висровпараграф** +  *i* , где *i* = 0, 1, 2,...  <br/> |
 |Индекс ячейки:  <br/> |**Висбуллетиндекс** <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Можно также задать значение этой ячейки, щелкнув фигуру правой кнопкой мыши, выбрав пункт **Формат**, пункт **текст**, а затем выбрав вкладку **маркеры** . 
   
