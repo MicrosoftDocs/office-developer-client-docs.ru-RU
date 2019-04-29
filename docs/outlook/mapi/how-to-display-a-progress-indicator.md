@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 20f5ad5a-b700-4fb5-9658-f71da5a06a12
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 7b0ce0ab75ffdce045ccde5bf6ea8a7da046f463
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345131"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408029"
 ---
 # <a name="display-a-progress-indicator"></a>Отображение индикатора хода выполнения
  
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Чтобы отобразить индикатор хода выполнения, вызовите [IMAPIProgress::](imapiprogress-getflags.md) GetSetting, чтобы получить текущие параметры флагов. 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 754db64b-179f-4385-8dd9-c20c9407b186
 description: Можно написать код, реагирующий на различные события, которые могут произойти при заполнении пользователем формы. Для работы с событиями в InfoPath следует добавить обработчики событий при работе с шаблоном формы в режиме конструктора.
 ms.openlocfilehash: 0db3209dfe005f2a87ad65f3fc89b1714ec7d95c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300107"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407685"
 ---
 # <a name="respond-to-form-events"></a>Реагирование на события формы
 

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d2a84f24-b4a5-4e16-9219-7a579a31a8f8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ae9b79abea9a1b2b31867b9ed575e16e8f1c4474
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327281"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412473"
 ---
 # <a name="pidtagattachmimesequence-canonical-property"></a>Каноническое свойство PidTagAttachMimeSequence
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит порядковый номер MIME вложения сообщения MIME.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32327281"
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Свойства вложений сообщений  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство используется для поддержки MHTML. Он представляет порядковый номер вложения в родительском составном тексте MIME сообщения MIME.
   

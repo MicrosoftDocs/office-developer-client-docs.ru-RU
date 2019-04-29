@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 5f0e5c97-5089-47cb-b604-2292b2ff945c
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: d8ec18ee7b80d8603266cf827f9484ee85bdb03c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329633"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409988"
 ---
 # <a name="using-the-mapi-utilities"></a>Использование служебных программ MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Служебные программы MAPI состоят из объектов данных и данных свойств таблиц и различных функций для поддержки различных функций. Клиенту может потребоваться использовать только эти служебные программы и не нужно выполнять вход в подсистему MAPI для установления подключения к поставщикам услуг. Если ваш клиент соответствует этой категории, вызовите функцию API [сЦинитмапиутил](scinitmapiutil.md) , а не функцию [мапиинитиализе](mapiinitialize.md) во время инициализации. 
   

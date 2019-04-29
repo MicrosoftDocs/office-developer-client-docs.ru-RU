@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 120749ca-a740-4a57-bc70-529e238f4415
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 81dc4e9dda28f4c0a4ea83afdd5cb28bae5b40dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351494"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411115"
 ---
 # <a name="mapi-form-libraries"></a>Библиотеки форм MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Чтобы упростить организацию серверов форм и сделать их доступными для клиентских приложений, архитектура форм MAPI включает библиотеки форм, которые поддерживают установку, Администрирование, репликацию и использование серверов форм.
   

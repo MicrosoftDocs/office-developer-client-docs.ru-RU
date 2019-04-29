@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d7f07524-6935-4a60-aaf3-3f753ea8d86a
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 087d38face72e1e067350b1959b37313ebbd7c44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326294"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410681"
 ---
 # <a name="mviprop"></a>MVI_PROP
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает МВИ_ФЛАГ для указанного свойства. 
   
@@ -42,7 +42,7 @@ MVI_PROP (tag)
   
 > Тег свойства, который необходимо изменить.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 МВИ_ФЛАГ сочетает параметр МВ_ФЛАГ, определяющий свойство как многозначный, и МВ_ИНСТАНЦЕ, запросив, что многозначное свойство будет отображаться в таблице в нескольких строках. Тип свойства для соответствующего свойства изменяется, но идентификатор остается неизменным. 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: feb1bfcb-1cb1-4d5c-bc84-df86a33a5934
 description: При работе с шаблоном формы InfoPath можно написать код для доступа к представлениям формы, а затем выполнить различные действия с данными, содержащимися в представлении. Объектная модель, совместимая с InfoPath 2003, поддерживает доступ к представлениям формы с помощью членов интерфейса ViewObject.
 ms.openlocfilehash: 6a2dd408ba51e5c8394120944e0c28897e768738
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299881"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411885"
 ---
 # <a name="work-with-views-using-the-infopath-2003-object-model"></a>Работать с представлениями с помощью объектной модели InfoPath 2003
 
@@ -26,7 +26,7 @@ ms.locfileid: "32299881"
 > [!NOTE]
 > Методы и свойства интерфейса [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) недоступны во время события OnLoad. [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Метод [DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.DisableAutoUpdate.aspx)  <br/> |Отключает синхронизацию модели XML DOM и представления.  <br/> |
 |Метод [EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.EnableAutoUpdate.aspx)  <br/> |Включает синхронизацию модели XML DOM и представления.  <br/> |

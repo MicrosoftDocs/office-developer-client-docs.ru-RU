@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 831075ff-2875-b598-00bb-eb8481fee57b
 description: Указывает, отображается ли путь на странице документа.
 ms.openlocfilehash: bd42b069e6796b107aafaea3080f6970c4f678c5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341085"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410352"
 ---
 # <a name="noshow-cell-geometry-section"></a>NoShow Cell (Geometry Section)
 
 Указывает, отображается ли путь на странице документа.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Обводка и заливка контура, представленного в разделе, скрыта.  <br/> |
 | FALSE  <br/> | Отображается обводка и заливка контура.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку Show по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   

@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 1c9f4dd4-65f6-446f-8b86-a375ce402658
 description: Представляет экземпляр поставщика Outlook Social Connector (OSC).
 ms.openlocfilehash: f28b8343d92b09455b6049f421b839efbda21c1a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285486"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409960"
 ---
 # <a name="isocialprovider--iunknown"></a>ISocialProvider : IUnknown
 
@@ -34,9 +34,9 @@ ms.locfileid: "32285486"
 |[СоЦиалнетворкгуид](isocialprovider-socialnetworkguid.md) <br/> |Свойство  <br/> |Возвращает идентификатор GUID, представляющий уникальный идентификатор для социальной сети.  <br/> |
 |[СоЦиалнетворкикон](isocialprovider-socialnetworkicon.md) <br/> |Свойство  <br/> |Возвращает массив байтов, представляющий значок социальной сети.  <br/> |
 |[СоЦиалнетворкнаме](isocialprovider-socialnetworkname.md) <br/> |Свойство  <br/> |Возвращает строку, представляющую имя социальной сети.  <br/> |
-|[Версия](isocialprovider-version.md) <br/> |Свойство  <br/> |Возвращает строку, представляющую номер версии поставщика для этой социальной сети.  <br/> |
+|[Version](isocialprovider-version.md) <br/> |Свойство  <br/> |Возвращает строку, представляющую номер версии поставщика для этой социальной сети.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Поставщик OSC должен реализовать этот интерфейс для взаимодействия с OSC.
   

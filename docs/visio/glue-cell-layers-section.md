@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 75f2ea45-52ac-ddfa-14ea-402933ae2449
 description: Указывает, можно ли склеить фигуры, принадлежащие слою.
 ms.openlocfilehash: 55886a7e96bd2c08966cb85f5edad6a7174e30cd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332811"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408518"
 ---
 # <a name="glue-cell-layers-section"></a>Glue Cell (Layers Section)
 
 Указывает, можно ли склеить фигуры, принадлежащие слою.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Включена функция приклеивание.  <br/> |
 |FALSE  <br/> |Приклеивание отключена.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эта ячейка соответствует параметру "приКлеить" в диалоговом окне **Свойства слоя** (на вкладке **Главная** , в группе **Правка** щелкните **слои**, а затем выберите **Свойства слоя** ). **** 
   

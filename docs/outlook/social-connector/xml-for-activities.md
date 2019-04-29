@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: acc4a555-a3bf-4a79-86dc-aba6477733b8
 description: В этой статье приведен пример сценария, в котором показаны вызовы API расширения поставщика Outlook Social Connector (OSC), реализуемые поставщиком OSC, а также OSC для получения сведений о действиях. Сведения выражаются в XML-строках, соответствующих схеме XML поставщика OSC.
 ms.openlocfilehash: a4f1c6ce1f33b59811f6a6fecb737cd1f737946b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329122"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409631"
 ---
 # <a name="xml-for-activities"></a>XML для действий
 

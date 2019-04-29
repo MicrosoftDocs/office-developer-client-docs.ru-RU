@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 144dd06f-7225-57db-fd19-a58d6bccf0e1
 description: Рабочая область для ввода и тестирования формул, на которые можно ссылаться по другим ячейкам.
 ms.openlocfilehash: a7d2c6762e96fc19986521c2ba164666b925c928
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344529"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411605"
 ---
 # <a name="scratch-section"></a>Scratch Section
 
 Рабочая область для ввода и тестирования формул, на которые можно ссылаться по другим ячейкам.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Этот раздел можно добавить с помощью диалогового окна " **Вставить раздел** ". Щелкните правой кнопкой мыши в окне таблицы свойств фигуры и выберите команду **Вставить раздел**.
   
@@ -32,7 +32,7 @@ ms.locfileid: "32344529"
   
 Например, Visio извлекает формулу `PNT(3,4)` тремя способами. 
   
-|**Cell**|**Если ввести**|**Visio рассматривает его как**|**Result**|
+|**Cell**|**Если ввести**|**Visio рассматривает его как**|**Результат**|
 |:-----|:-----|:-----|:-----|
 | X  <br/> | `PNT(3,4)` <br/> | `PNTX(PNT(3,4))` <br/> | 3,0000.  <br/> |
 | Да  <br/> | `PNT(3,4)` <br/> | `PNTY(PNT(3,4))` <br/> | 4,0000.  <br/> |

@@ -7,17 +7,17 @@ localization_priority: Normal
 ms.assetid: b3685890-117c-9acc-e19f-cf22a349a088
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3dd551dd0c1ea229381e5dd01c5cf6fa04790c30
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322136"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409176"
 ---
 # <a name="about-notification-based-store-indexing"></a>Об индексировании хранилищ на основе уведомлений
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Поставщик хранилища MAPI может указать, будет ли обработчик протокола MAPI выполнять обход и индексирование сообщений в хранилище, а также указывает, отправляет ли хранилище уведомления индексатору при наличии сообщений для индексирования. Последнее называется индексированием на основе уведомлений, а хранилище, которое поддерживает индексирование на основе уведомлений, называется хранилищем пушер.
   

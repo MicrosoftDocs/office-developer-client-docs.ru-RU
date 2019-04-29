@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: 3b10221d-30f8-48f5-81ed-0283fdfc3e5d
 description: Определяет стиль линии быстрого стиля, наследуемый формой, как целое число от 0-6.
 ms.openlocfilehash: e04fc6328d40b0564364aa8feff971628360d813
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282588"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410821"
 ---
 # <a name="quickstylelinematrix-cell-quick-style-section"></a>QuickStyleLineMatrix Cell (Quick Style Section)
 
 Определяет стиль линии быстрого стиля, наследуемый формой, как целое число от 0-6. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку **QuickStyleLineMatrix** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
   
