@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a0a17309-fc59-4822-be9b-b6f623b68bb1
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 877bebf0a156c99907505d815ca8d36a4b398678
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334939"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412039"
 ---
 # <a name="closeimsgsession"></a>CloseIMsgSession
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ЗаКрывает сеанс сообщения и все сообщения, созданные в этом сеансе. 
   

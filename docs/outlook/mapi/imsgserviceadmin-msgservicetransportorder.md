@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c57ada0e-b9a1-496b-8548-75686d8cba4e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3d532e0eb46daa412711344421936a58da309b7b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310005"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33420096"
 ---
 # <a name="imsgserviceadminmsgservicetransportorder"></a>IMsgServiceAdmin::MsgServiceTransportOrder
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает порядок, в котором будут вызываться поставщики транспорта для доставки сообщения.
   
@@ -63,7 +63,7 @@ S_OK
   
 > Одна или несколько структур [мапиуид](mapiuid.md) , переданных в параметре _лпуидлист_ , не ссылаются на поставщика транспорта, находящихся в данный момент в профиле. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имсгсервицеадмин:: мсгсервицетранспортордер** устанавливает порядок доставки поставщиков транспорта в профиле. Параметр _лпуидлист_ должен содержать отсортированный список идентификаторов записей поставщика транспорта, полученных из свойства **пр_провидер_уид** ([PidTagProviderUid](pidtagprovideruid-canonical-property.md)) таблицы, возвращаемой из [имсгсервицеадмин:: Метод Жетпровидертабле](imsgserviceadmin-getprovidertable.md) . Клиентское приложение должно передать полный список в _лпуидлист_.
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 29a7464a-b9d4-a8ea-161b-3044de32ed23
 description: Содержит ячейки, указывающие действия, связанные с настраиваемыми командами в контекстном меню или меню тегов действий. Раздел действия содержит по одной строке действий для каждого действия.
 ms.openlocfilehash: 37464e98b3e4f7d07b2ae4bd391b31ec009b6726
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283046"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408007"
 ---
 # <a name="actions-row-actions-section"></a>Actions Row (Actions Section)
 
@@ -38,7 +38,7 @@ ms.locfileid: "32283046"
 |[Скрытым](invisible-cell-actions-section.md) <br/> |Указывает, виден ли элемент меню в теге действия или в контекстном меню.  <br/> |
 |[BeginGroup](begingroup-cell-actions-section.md) <br/> |Указывает, следует ли вставить разделитель в меню над элементом меню.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
  Можно добавить любое количество действий.  ** укажите имена строк, назначьте им значимые имена и задайте значения ячеек. Чтобы добавить пользовательскую команду в раздел существующие действия, щелкните строку правой кнопкой мыши и выберите команду **Вставить строку** в контекстном меню. 
   

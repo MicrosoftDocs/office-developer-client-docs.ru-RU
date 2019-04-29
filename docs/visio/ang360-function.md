@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 23e6899d-0a94-a7d8-8de2-091e0531f163
 description: Нормализует диапазон угла.
 ms.openlocfilehash: 017dd89bd3b814c10422cd32eea1ee7e343eaf50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341491"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417198"
 ---
 # <a name="ang360-function"></a>Функция ANG360
 
@@ -30,7 +30,7 @@ ANG360 (* * *угол* * *)
 |:-----|:-----|:-----|:-----|
 | _градусов_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Угол для нормализации.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если *угол* не указан с помощью угловых единиц, он интерпретируется как радианы. Если *угол* не может быть преобразован в значение, то #VALUE! возвращается ошибка. 
   
@@ -40,13 +40,13 @@ ANG360 (395 градусов)
   
 Возвращает 35 град
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 ANG360 (-9,8 RAD)
   
 Возвращает 2,7664 RAD
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 ANG360 (45)
   

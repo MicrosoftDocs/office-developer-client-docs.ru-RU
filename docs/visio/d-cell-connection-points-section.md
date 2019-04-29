@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 28b18e8d-fecf-a798-813e-c1a310002244
 description: Вспомогательная ячейка, которую можно использовать для ввода или тестирования формул.
 ms.openlocfilehash: e7bd61b8bc7a1a3b765af738681d958e2c83ba05
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345089"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408175"
 ---
 # <a name="d-cell-connection-points-section"></a>D Cell (Connection Points Section)
 
 Вспомогательная ячейка, которую можно использовать для ввода или тестирования формул.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить доступ к ячейке D, щелкните строку правой кнопкой мыши и выберите в контекстном меню команду **изменить тип строки** . 
   

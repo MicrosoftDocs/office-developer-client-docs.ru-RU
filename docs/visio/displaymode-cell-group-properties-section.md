@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e6d72529-aa03-e94b-130c-79ed04336299
 description: Определяет способ отображения фигуры группы и ее членов.
 ms.openlocfilehash: a49d7a38eac75a2845de0ca3ad22f7cbf79a63df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332713"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413187"
 ---
 # <a name="displaymode-cell-group-properties-section"></a>DisplayMode Cell (Group Properties Section)
 
@@ -26,7 +26,7 @@ ms.locfileid: "32332713"
 |1,1  <br/> |Отображает фигуру группы позади фигур элементов.  <br/> |**Висгрпдиспмодебакк** <br/> |
 |2  <br/> |Отображает фигуру группы перед фигурами элементов.  <br/> |**Висгрпдиспмодефронт** <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это значение можно также задать, выбрав группу, щелкнув **поведение** в группе **Макет фигуры** на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) , а затем выбрав режим отображения в списке **данные группы** . 
   

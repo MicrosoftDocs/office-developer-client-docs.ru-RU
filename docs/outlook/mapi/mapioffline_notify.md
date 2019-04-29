@@ -9,15 +9,15 @@ localization_priority: Normal
 ms.assetid: e03c5a87-4513-2133-ae0a-11d242f80e4b
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 6c5480a8f5e008c01c7ab8141317f5f19547ab10
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270296"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414769"
 ---
 # <a name="mapiofflinenotify"></a>MAPIOFFLINE_NOTIFY
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Это уведомление об изменении состояния подключения. Он указывает часть состояния подключения, которая изменилась, старое состояние подключения и новое состояние подключения.
   
@@ -82,7 +82,7 @@ typedef struct
     
    - MAPIOFFLINE_STATE_ONLINE
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 API автономного состояния поддерживает только уведомления об изменениях в Интернете и в автономном режиме. Клиент должен проверить, что Outlook возвращает следующие значения перед изучением фактического изменения:
   

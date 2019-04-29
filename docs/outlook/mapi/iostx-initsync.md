@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e22244a2-ac5f-910a-501f-4483ea0667c2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b9086383b45d40d5839284ac785d72438be60e00
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317194"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413355"
 ---
 # <a name="iostxinitsync"></a>IOSTX::InitSync
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Информирует локальное хранилище сообщений о том, что синхронизация будет запущена.
   

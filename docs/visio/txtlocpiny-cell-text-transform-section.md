@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 3f46cfcf-7eac-4a37-e782-39f4e7f8fc43
 description: 'Определяет координату y центра вращения блока текста относительно начала блока текста. По умолчанию используется следующая формула:'
 ms.openlocfilehash: 937c4e9928d32d55e8336d192b1ecc6140fd8381
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317733"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414062"
 ---
 # <a name="txtlocpiny-cell-text-transform-section"></a>TxtLocPinY Cell (Text Transform Section)
 
@@ -22,7 +22,7 @@ ms.locfileid: "32317733"
   
 = TxtHeight \* 0,5
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку TxtLocPinY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

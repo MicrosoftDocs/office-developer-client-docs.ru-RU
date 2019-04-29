@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 17238019-c800-5d3a-32f6-fb0008d4e25f
 description: Определяет формат вывода для рисунка. Страницы документа обычно форматируются для печати (по умолчанию); Тем не менее, вы можете выбрать другие форматы вывода.
 ms.openlocfilehash: 09fa34095772936ab1c6a3025ed1884a533f55e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359286"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413887"
 ---
 # <a name="outputformat-cell-document-properties-section"></a>OutputFormat Cell (Document Properties Section)
 

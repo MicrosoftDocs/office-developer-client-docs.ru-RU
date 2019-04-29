@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 1fafc810-7cf3-4c8c-bf21-055ae34da690
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: da40e240b60fa42c48185600b74c6162a966e6f9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347756"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409547"
 ---
 # <a name="hropenabentrywithprovideruidsupport"></a>HrOpenABEntryWithProviderUIDSupport
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Выполняет ту же функцию, что и функция [хропенабентривиспровидеруид](hropenabentrywithprovideruid.md) , за исключением того, что функция **хропенабентривиспровидеруидсуппорт** открывает запись, используя указанный объект поддержки, а не сеанс и адресную книгу. 
   

@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 4c8e366f-9e9b-30ea-a89f-57c8d7a1168e
 description: Указывает, активен ли слой. Фигуры без предварительно назначенных слоев назначаются активным слоям при их перетаскивании на страницу документа.
 ms.openlocfilehash: f97f7dc09d1f882452ae2234882de45f06bd0da1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338782"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417436"
 ---
 # <a name="active-cell-layers-section"></a>Active Cell (Layers Section)
 
 Указывает, активен ли слой. Фигуры без предварительно назначенных слоев назначаются активным слоям при их перетаскивании на страницу документа.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Слой активен.  <br/> |
 |FALSE  <br/> |Слой не активен.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Значение в этой ячейке соответствует параметру **Активная** в диалоговом окне **Свойства слоя** (в группе **Правка** на вкладке **Главная** щелкните **слои**, а затем выберите **Свойства слоя**).
   

@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 642a678b-4bf2-4246-85cb-c798de23e36f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f58fa70e98841db5507323a63737f1df6c1b7a6d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327435"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411752"
 ---
 # <a name="structured-storage-in-mapi"></a>Структурированное хранилище в MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Структурированное хранилище — это иерархическая организация хранилища, появившаяся в COM. В структурированной среде хранения хранилище разбито на два или три типа объектов: 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0dfad40b-f97e-0c4a-2102-7344d1317b82
 description: Определяет, отображается ли тег action, когда пользователь наводит указатель мыши на тег, когда фигура выделена или все время.
 ms.openlocfilehash: 0254ad361c63dfdeddaf8a1c2173e99aa1c05398
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332734"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33415819"
 ---
 # <a name="displaymode-cell-action-tags-section"></a>DisplayMode Cell (Action Tags Section)
 
@@ -29,7 +29,7 @@ ms.locfileid: "32332734"
 | 1,1  <br/> | Отображается, когда выбрана фигура.  <br/> |**Виссмарттагдиспмодешапеселектед** <br/> |
 | 2  <br/> | Отображается все время.  <br/> |**Виссмарттагдиспмодеалвайс** <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Теги действий не отображаются в распечатанных или опубликованных выходных данных. 
   

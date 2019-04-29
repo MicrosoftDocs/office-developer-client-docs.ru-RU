@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 56c406fb-8778-4f85-bbdc-4cabfa140248
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8637ef8036ccec79b82bcfff4a9f6d21fd5c2e11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342590"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33419844"
 ---
 # <a name="pidtagoriginallyintendedrecipientname-canonical-property"></a>Каноническое свойство PidTagOriginallyIntendedRecipientName
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит закодированное имя первоначального получателя сообщения, предназначенного для пересылки.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32342590"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Свойство **пр_оригиналли_интендед_реЦипиент_наме** должно быть задано автоматическим агентом, который перенаправлял сообщение. 
   

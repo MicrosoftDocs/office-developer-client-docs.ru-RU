@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 66c83041-ee83-41d5-b9dc-a4dc4c670f82
 description: Удаляет пользователя, определенного параметром userID, в качестве друга в социальной сети.
 ms.openlocfilehash: c276a9e5af18f7e4a3afbaa66d366d55de460a58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336780"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33418437"
 ---
 # <a name="isocialsessionunfollowperson"></a>ISocialSession::UnFollowPerson
 
@@ -29,7 +29,7 @@ _userID_
   
 > возврата Строка, содержащая идентификатор пользователя социальной сети для человека.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Параметр _UserID_ должен быть ДОПУСТИМЫм идентификатором пользователя для пользователя в социальной сети. 
   

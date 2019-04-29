@@ -8,20 +8,20 @@ localization_priority: Normal
 ms.assetid: 3e2a88ad-d92c-4550-8da3-fa7fdd032e73
 description: Определяет составной тип линии фигуры.
 ms.openlocfilehash: 120975e419656234266cb8151b2fa37ef19602e5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359374"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407174"
 ---
 # <a name="compoundtype-cell-line-format-section"></a>CompoundType Cell (Line Format Section)
 
 Определяет составной тип линии фигуры. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |нуль  <br/> |Simple (Простая)  <br/> |
-|1,1  <br/> |Двойное с плавающей точкой  <br/> |
+|1,1  <br/> |Двойное  <br/> |
 |2  <br/> |Толстая тонкая  <br/> |
 |4  <br/> |Тонкие плотности  <br/> |
 |SP4  <br/> |Triple  <br/> |

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1d0954c5-b2cb-6c5d-62b3-a68011cf0c85
 description: Возвращает 16-разрядное двоичное число, в котором для каждого бита задано значение 1, если соответствующий бит в двоичных значениях Число1 или число2 имеет значение 1. Для бита устанавливается значение 0, только если соответствующий бит равен 0 в двоичных значениях Число1 и число2.
 ms.openlocfilehash: 13bda2c6c65557b1f8372432cf919b2aaf2d75de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303376"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408084"
 ---
 # <a name="bitor-function"></a>Функция BITOR
 

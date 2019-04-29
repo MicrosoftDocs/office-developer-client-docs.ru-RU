@@ -8,17 +8,17 @@ keywords:
 - REFERENCES [Excel 2007], лист, ссылки на листы [Excel 2007], ссылки на внешние листы [Excel 2007], активный лист [Excel 2007], текущий лист [Excel 2007], ссылки на внутренние листы [Excel 2007]
 localization_priority: Normal
 ms.assetid: 53406fb8-4ca5-4204-a6ad-b21ca9e6a100
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 2944f73a3144837a4be8aff7c7fed9a8d2158203
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304027"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416463"
 ---
 # <a name="worksheet-references"></a>Ссылки на лист
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Ссылка в Microsoft Excel — это тип данных, ссылающийся на прямоугольный блок ячеек (может быть только одна ячейка), или, в некоторых случаях, несколько несвязанных блоков ячеек. Для внутренних целей Excel использует один ссылочный тип для ячеек на текущем листе, который называется внутренней ссылкой. Любая ячейка, не включенная в текущий лист, описана другим типом ссылки, называемой внешней ссылкой. Определение активных и текущих элементов приведено в следующем разделе.
   
