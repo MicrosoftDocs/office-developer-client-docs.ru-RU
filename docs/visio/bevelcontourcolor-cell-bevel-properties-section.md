@@ -8,30 +8,30 @@ localization_priority: Normal
 ms.assetid: 90bc9be5-282e-4a84-9d8b-e11788070768
 description: Определяет цвет контура скоса в значении RGB или определяется активной темой.
 ms.openlocfilehash: df22f001dc7fa85e192ab93d5ff799a0b424aefe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327148"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428384"
 ---
-# <a name="bevelcontourcolor-cell-bevel-properties-section"></a><span data-ttu-id="29bca-103">BevelContourColor Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="29bca-103">BevelContourColor Cell (Bevel Properties Section)</span></span>
+# <a name="bevelcontourcolor-cell-bevel-properties-section"></a><span data-ttu-id="b9a06-103">BevelContourColor Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="b9a06-103">BevelContourColor Cell (Bevel Properties Section)</span></span>
 
-<span data-ttu-id="29bca-104">Определяет цвет контура скоса в значении RGB или определяется активной темой.</span><span class="sxs-lookup"><span data-stu-id="29bca-104">Determines the color of the bevel's contour in RGB value or as determined by the active theme.</span></span>
+<span data-ttu-id="b9a06-104">Определяет цвет контура скоса в значении RGB или определяется активной темой.</span><span class="sxs-lookup"><span data-stu-id="b9a06-104">Determines the color of the bevel's contour in RGB value or as determined by the active theme.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="29bca-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="29bca-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b9a06-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="b9a06-105">Remarks</span></span>
 
-<span data-ttu-id="29bca-106">Чтобы получить ссылку на ячейку **BevelContourColor** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="29bca-106">To get a reference to the **BevelContourColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="b9a06-106">Чтобы получить ссылку на ячейку **BevelContourColor** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="b9a06-106">To get a reference to the **BevelContourColor** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="29bca-107">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="29bca-107">Cell name:</span></span>  <br/> | <span data-ttu-id="29bca-108">BevelContourColor</span><span class="sxs-lookup"><span data-stu-id="29bca-108">BevelContourColor</span></span>  <br/> |
+| <span data-ttu-id="b9a06-107">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="b9a06-107">Cell name:</span></span>  <br/> | <span data-ttu-id="b9a06-108">BevelContourColor</span><span class="sxs-lookup"><span data-stu-id="b9a06-108">BevelContourColor</span></span>  <br/> |
    
-<span data-ttu-id="29bca-109">Чтобы получить ссылку на ячейку **BevelContourColor** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="29bca-109">To get a reference to the **BevelContourColor** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="b9a06-109">Чтобы получить ссылку на ячейку **BevelContourColor** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="b9a06-109">To get a reference to the **BevelContourColor** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="29bca-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="29bca-110">Section index:</span></span>  <br/> |<span data-ttu-id="29bca-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="29bca-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="29bca-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="29bca-112">Row index:</span></span>  <br/> |<span data-ttu-id="29bca-113">**Висровбевелпропертиес**</span><span class="sxs-lookup"><span data-stu-id="29bca-113">**visRowBevelProperties**</span></span> <br/> |
-| <span data-ttu-id="29bca-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="29bca-114">Cell index:</span></span>  <br/> |<span data-ttu-id="29bca-115">**Vis BevelContourColor**</span><span class="sxs-lookup"><span data-stu-id="29bca-115">**vis BevelContourColor**</span></span> <br/> |
+| <span data-ttu-id="b9a06-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="b9a06-110">Section index:</span></span>  <br/> |<span data-ttu-id="b9a06-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="b9a06-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="b9a06-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="b9a06-112">Row index:</span></span>  <br/> |<span data-ttu-id="b9a06-113">**Висровбевелпропертиес**</span><span class="sxs-lookup"><span data-stu-id="b9a06-113">**visRowBevelProperties**</span></span> <br/> |
+| <span data-ttu-id="b9a06-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="b9a06-114">Cell index:</span></span>  <br/> |<span data-ttu-id="b9a06-115">**Vis BevelContourColor**</span><span class="sxs-lookup"><span data-stu-id="b9a06-115">**vis BevelContourColor**</span></span> <br/> |
    
 

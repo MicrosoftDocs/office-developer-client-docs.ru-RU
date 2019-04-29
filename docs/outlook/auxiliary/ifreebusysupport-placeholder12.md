@@ -8,34 +8,34 @@ localization_priority: Normal
 ms.assetid: 97591e34-59c4-41e0-5efc-634fb0f5aa1b
 description: Этот элемент является заполнителем и не поддерживается.
 ms.openlocfilehash: bc948f0338905cad407942f510a261bbd7de4658
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319889"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424639"
 ---
-# <a name="ifreebusysupportplaceholder12"></a><span data-ttu-id="afbec-103">IFreeBusySupport::Placeholder12</span><span class="sxs-lookup"><span data-stu-id="afbec-103">IFreeBusySupport::Placeholder12</span></span>
+# <a name="ifreebusysupportplaceholder12"></a><span data-ttu-id="c9beb-103">IFreeBusySupport::Placeholder12</span><span class="sxs-lookup"><span data-stu-id="c9beb-103">IFreeBusySupport::Placeholder12</span></span>
 
-<span data-ttu-id="afbec-104">Этот элемент является заполнителем и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="afbec-104">This member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="c9beb-104">Этот элемент является заполнителем и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="c9beb-104">This member is a placeholder and is not supported.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="afbec-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="afbec-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="c9beb-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="c9beb-105">Quick info</span></span>
 
-<span data-ttu-id="afbec-106">Обратитесь к разделу [ифрибусисуппорт](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="afbec-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
+<span data-ttu-id="c9beb-106">Обратитесь к разделу [ифрибусисуппорт](ifreebusysupport.md).</span><span class="sxs-lookup"><span data-stu-id="c9beb-106">See [IFreeBusySupport](ifreebusysupport.md).</span></span>
   
 ```cpp
 HRESULT Placeholder12();
 ```
 
-## <a name="return-values"></a><span data-ttu-id="afbec-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="afbec-107">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="c9beb-107">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="c9beb-107">Return values</span></span>
 
-<span data-ttu-id="afbec-108">Всегда имеет значение S_OK, так как этот член является заполнителем и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="afbec-108">Always S_OK, because this member is a placeholder and is not supported.</span></span>
+<span data-ttu-id="c9beb-108">Всегда имеет значение S_OK, так как этот член является заполнителем и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="c9beb-108">Always S_OK, because this member is a placeholder and is not supported.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="afbec-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="afbec-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c9beb-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="c9beb-109">Remarks</span></span>
 
-<span data-ttu-id="afbec-110">Этот элемент должен возвращать значение S_OK.</span><span class="sxs-lookup"><span data-stu-id="afbec-110">This member must return S_OK.</span></span>
+<span data-ttu-id="c9beb-110">Этот элемент должен возвращать значение S_OK.</span><span class="sxs-lookup"><span data-stu-id="c9beb-110">This member must return S_OK.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="afbec-111">См. также</span><span class="sxs-lookup"><span data-stu-id="afbec-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c9beb-111">См. также</span><span class="sxs-lookup"><span data-stu-id="c9beb-111">See also</span></span>
 
-- [<span data-ttu-id="afbec-112">Константы (API сведений о доступности)</span><span class="sxs-lookup"><span data-stu-id="afbec-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
-- [<span data-ttu-id="afbec-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="afbec-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
+- [<span data-ttu-id="c9beb-112">Константы (API сведений о доступности)</span><span class="sxs-lookup"><span data-stu-id="c9beb-112">Constants (Free/busy API)</span></span>](constants-free-busy-api.md)
+- [<span data-ttu-id="c9beb-113">IFreeBusySupport::LoadFreeBusyData</span><span class="sxs-lookup"><span data-stu-id="c9beb-113">IFreeBusySupport::LoadFreeBusyData</span></span>](ifreebusysupport-loadfreebusydata.md)
 
