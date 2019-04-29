@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d062b54d-7c32-4369-ab69-f7193773a1c0
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: fbeb63bbae23f8f7f78c92d3abed6bea1c3ac85d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286441"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438353"
 ---
 # <a name="pidtagproviderordinal-canonical-property"></a>Каноническое свойство PidTagProviderOrdinal
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит Отсчитываемый от нуля индекс положения поставщика услуг в таблице поставщика.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32286441"
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство вычисляется MAPI.
   

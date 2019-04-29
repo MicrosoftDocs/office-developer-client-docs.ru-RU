@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 26372539-e9fe-464d-95c7-90b58c20b98f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: b2a1a23f073d05e85c8203826e3407c5ae193f19
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280362"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439795"
 ---
 # <a name="rendering-an-attachment-in-rtf-text"></a>Отображение вложения в тексте в формате RTF
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиенты, поддерживающие формат RTF, могут получать сведения о позициях отображения из текста сообщений в формате RTF, найдя следующую escape-последовательность в свойстве **пр_ртф_компрессед** сообщения ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)):
   

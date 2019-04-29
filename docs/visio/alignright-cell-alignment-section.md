@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: c6d298a4-1602-a53c-bb5d-2ef16b43f722
 description: Определяет горизонтальное положение относительно начала координат родительского элемента, вертикальной направляющей или направляющей точки, относительно которого выровнена правая граница фигуры.
 ms.openlocfilehash: 558808908107a3e42d9d6e4a6fc1cf177150edb9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341505"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439774"
 ---
 # <a name="alignright-cell-alignment-section"></a>AlignRight Cell (Alignment Section)
 
 Определяет горизонтальное положение относительно начала координат родительского элемента, вертикальной направляющей или направляющей точки, относительно которого выровнена правая граница фигуры.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку AlignRight по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

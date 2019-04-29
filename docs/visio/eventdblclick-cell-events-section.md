@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: ca949013-f998-1bce-39e5-ac6f68ab2392
 description: Ячейка события, вычисляемая при двойном щелчке фигуры.
 ms.openlocfilehash: a50e88ecd8e432629e246f7038dfcc9626725cc5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337172"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438220"
 ---
 # <a name="eventdblclick-cell-events-section"></a>EventDblClick Cell (Events Section)
 
 Ячейка события, вычисляемая при двойном щелчке фигуры.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Ячейки событий оцениваются только при возникновении события, а не при вводе формул.
   

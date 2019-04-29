@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 7d601cee-ffc4-4c7c-8006-40b717dee247
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: bf7ef15ccfd9cd015771785bda9d6ad79415736b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317201"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407678"
 ---
 # <a name="invalidating-an-object"></a>Аннулирование объекта
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В рамках процесса завершения работы поставщика может потребоваться сделать объект недействительным. Аннулирование объекта включает замену его виртуальной таблицы (vtable), которая содержит реализации трех методов **IUnknown** : **AddRef**, **Release**и **QueryInterface**. Сделать объект недействительным, вызвав [имаписуппорт:: макеинвалид](imapisupport-makeinvalid.md), метод, который включен в объект поддержки каждого из трех типов поставщика. Поставщики обычно выполняют этот вызов в реализации метода **выхода** объекта logon. 
   

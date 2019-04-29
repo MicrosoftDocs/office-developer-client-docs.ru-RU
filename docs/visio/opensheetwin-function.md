@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b574a99d-08f4-29e4-c40a-eb0770580ed5
 description: Открывает окно таблицы свойств фигуры в новом окне.
 ms.openlocfilehash: c68ab1e0c9d52514dff16b7b1b4adbd8789d3e85
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32340133"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409890"
 ---
 # <a name="opensheetwin-function"></a>Функция OPENSHEETWIN
 
@@ -24,7 +24,7 @@ ms.locfileid: "32340133"
 
 OPENSHEETWIN ()
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 В более ранних версиях Visio Эта функция отображается как _ОПЕНШИТВИН. Visio версии 4,0 и более поздних принимают любой из этих стилей. 
   

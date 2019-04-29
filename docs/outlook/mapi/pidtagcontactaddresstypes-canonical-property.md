@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 8cfd4c89-a74f-4af9-b9c3-5c1a396ee600
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 949d20d7158639a0b3e8e71f431b76edc048b38e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303026"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439158"
 ---
 # <a name="pidtagcontactaddresstypes-canonical-property"></a>Каноническое свойство PidTagContactAddressTypes
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит список типов адресов для контакта.
   

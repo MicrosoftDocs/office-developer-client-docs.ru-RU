@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1265e4d6-58c7-896d-0d13-12944f96cf35
 description: 'Возвращает натуральный логарифм числа. Число должно быть положительным, а LN Возвращает значение ошибки #NUM.'
 ms.openlocfilehash: 867e487d369a7f042c3be297abd1b29e931ffea6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284174"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439977"
 ---
 # <a name="ln-function"></a>Функция LN
 
@@ -32,7 +32,7 @@ LN (* * *Number* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Numeric
+Числовой
   
 ## <a name="example"></a>Пример
 

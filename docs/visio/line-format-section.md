@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: e3399716-44de-f8cc-8b42-446284d2fbd4
 description: Содержит ячейки, которые контролируют атрибуты линии для фигуры, такие как узор, толщина и цвет. Они определяют, форматируется ли конца строки (например, с наконечником стрелки), размером конца строки, радиусом круглого круга, применяемого к линии, и стилем концов линий (круг или квадрат).
 ms.openlocfilehash: 1ef8f029676801be8461faac5333d0afd4214def
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359362"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433747"
 ---
 # <a name="line-format-section"></a>Line Format Section
 

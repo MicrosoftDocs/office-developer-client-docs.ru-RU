@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e04c2228-aa0a-4958-b5b2-6467e93ab613
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 682e75c4e0a2f60dbd46a13b0b737ca4a8e18f3d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345781"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33409148"
 ---
 # <a name="mapierror"></a>MAPIERROR
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет подробные сведения об ошибке, обычно создаваемой операционной системой, MAPI или поставщиком услуг. 
   
@@ -65,7 +65,7 @@ typedef struct _MAPIERROR
   
 > Значение, представляющее расположение в компоненте, на которое указывает элемент **лпсзкомпонент** , определяющий место возникновения ошибки. 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Структура **мапиеррор** используется для описания сведений об ошибках. Клиенты и поставщики услуг передают указатель на структуру **мапиеррор** в параметре _лппмапиеррор_ метода [IMAPIProp:: GetLastError](imapiprop-getlasterror.md) . **GetLastError** возвращает сведения о предыдущей ошибке, возникшей в объекте. Вызывающие абоненты **GetLastError** освобождают память для структуры **мапиеррор** , вызывая [мапифрибуффер](mapifreebuffer.md).
   

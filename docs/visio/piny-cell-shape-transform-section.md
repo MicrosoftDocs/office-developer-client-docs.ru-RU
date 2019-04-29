@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 98b86b9d-9cc0-1169-1c44-ef1505bf92fa
 description: Представляет координату по оси y для ПИН-кода фигуры (центра вращения) относительно начала координат родительского объекта.
 ms.openlocfilehash: 17daf691e4802a93775bfd5272d2142ef33bd189
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346790"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411864"
 ---
 # <a name="piny-cell-shape-transform-section"></a>PinY Cell (Shape Transform Section)
 

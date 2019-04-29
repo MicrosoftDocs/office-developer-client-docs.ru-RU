@@ -13,17 +13,17 @@ api_type:
 ms.assetid: ce6b6e6c-7f22-43c2-8182-90cf6db93844
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f51dd1fe533d0577996e6e1be185302f2dc972fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321457"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438773"
 ---
 # <a name="imapimessagesitenewmessage"></a>IMAPIMessageSite::NewMessage
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает новое сообщение.
   
@@ -70,7 +70,7 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объекты формы вызывают метод **имапимессажесите:: невмессаже** для создания нового сообщения. Форма использует **невмессаже** , чтобы получить новое сообщение и связанный с ним сайт сообщений из его представления. Затем он может изменить новое сообщение. 
   

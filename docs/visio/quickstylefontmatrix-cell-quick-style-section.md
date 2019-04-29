@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 304ee083-e9c8-45df-b411-ba5e7db4c086
 description: Определяет стиль шрифта для каждого экспресс стиля в виде целого числа от 1 до 6.
 ms.openlocfilehash: 0708a243b001c7b4e03158b5a332a3166727cabc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360076"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407251"
 ---
 # <a name="quickstylefontmatrix-cell-quick-style-section"></a>QuickStyleFontMatrix Cell (Quick Style Section)
 

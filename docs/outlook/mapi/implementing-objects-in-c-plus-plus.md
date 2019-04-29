@@ -9,15 +9,15 @@ api_type:
 ms.assetid: d1a050ff-3cf9-4bf7-812d-b7c1b31056e7
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 89247ca1b263d6f06af73f1ffa14709a2aff23de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310152"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432956"
 ---
 # <a name="implementing-objects-in-c"></a>Реализация объектов в C++
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиенты и поставщики услуг C++ определяют объекты MAPI, создавая классы, которые наследуются от интерфейсов, которые они реализуют. Каждый из методов интерфейса является открытым, как конструктор и деструктор для класса. Если у класса есть дополнительные методы, они могут быть общедоступными или частными, в зависимости от реализации. Все элементы данных являются частными. 
   

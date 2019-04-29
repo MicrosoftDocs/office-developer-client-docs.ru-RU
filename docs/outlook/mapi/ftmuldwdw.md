@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 8c1a342c-d7ae-4e26-b327-a63cdd3c3ee6
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 54561450e7d91d8a30695dacf508758623547e39
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327981"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412914"
 ---
 # <a name="ftmuldwdw"></a>FtMulDwDw
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Умножает одно целое число без знака 32 на другое.
   

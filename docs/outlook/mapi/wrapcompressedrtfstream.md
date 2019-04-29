@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0949e066-aa28-4ede-ac88-b2dccd5098e8
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 710e0e2fc334194e33c6d8ba1296e4c7b1938bc0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325629"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439802"
 ---
 # <a name="wrapcompressedrtfstream"></a>WrapCompressedRTFStream
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает текстовый поток в формате несжатого текста RTF из сжатого формата, используемого в свойстве **пр_ртф_компрессед** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
   
@@ -69,7 +69,7 @@ S_OK
   
 > ����� ������� � ������ ��������� ��������� ��� ��������.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если в параметре _ulFlags_ передается флаг мапи_модифи, параметр _лпкомпресседртфстреам_ должен быть уже открыт для чтения и записи. Новый, несжатый текст в формате RTF должен быть записан в интерфейс потока, возвращенный в _лпункомпресседртфстреам_. Так как невозможно добавить существующий поток, необходимо записать весь текст сообщения. 
   

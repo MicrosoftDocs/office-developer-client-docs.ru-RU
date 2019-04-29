@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 53579e0e-fcec-e745-0207-3861b5efa333
 description: Возвращает значение времени, представленное в виде даты и времени или выражения, на основе региональных параметров и языковых параметров системы.
 ms.openlocfilehash: 61eeafac64ce199eba0f9032c42474d2b44febce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361112"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432326"
 ---
 # <a name="timevalue-function-visioshapesheet"></a>TIMEVALUE Function (VisioShapeSheet)
 
@@ -46,13 +46,13 @@ TIMEVALUE ("6:00 AM")
   
 Возвращает значение, представляющее 6:00 AM.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 TIMEVALUE ("14:30") + 4 EH. + 30 EM.
   
 Возвращает значение, представляющее 19:00:00.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 TIMEVALUE ("11 AM, 1 июля, 1997")
   

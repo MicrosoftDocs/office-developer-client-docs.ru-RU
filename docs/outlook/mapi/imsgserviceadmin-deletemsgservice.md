@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 3a6b34eb-9d46-488f-8d02-91b27c35de67
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 6cef03e33abab81a407698b73a007f247ef88194
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309991"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407384"
 ---
 # <a name="imsgserviceadmindeletemsgservice"></a>IMsgServiceAdmin::DeleteMsgService
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Удаляет службу сообщений из профиля.
   
@@ -49,7 +49,7 @@ S_OK
   
 > **Мапиуид** , на который указывает _лпуид_ , не отвечает существующей службе сообщений. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имсгсервицеадмин::D елетемсгсервице** Удаляет службу сообщений из профиля. **Делетемсгсервице** удаляет все разделы профиля, связанные со службой сообщений. 
   

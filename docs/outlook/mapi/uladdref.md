@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 9b897cbc-90b2-4c60-b5f1-dc78e7e7952d
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f9e55153830dbe41a2b4a48454157c900d96cf90
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315374"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432837"
 ---
 # <a name="uladdref"></a>UlAddRef
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет альтернативный способ вызова метода OLE **IUnknown:: AddRef**. 
   
@@ -55,7 +55,7 @@ S_OK
   
 > Не удалось завершить операцию из — из — из — из — из — из — из неизвестного источника.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
  **Уладдреф** возвращает значение, возвращенное методом **IUnknown:: AddRef** , который является новым значением счетчика ссылок для интерфейса. Значение не равно нулю. 
   

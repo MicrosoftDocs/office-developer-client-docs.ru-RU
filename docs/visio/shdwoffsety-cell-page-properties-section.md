@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: f3f53a7d-7450-b2b0-b508-6044a87450d9
 description: Определяет расстояние в единицах страницы, на которое тень фигуры смещается по вертикали от фигуры.
 ms.openlocfilehash: be7ec4cccd53cc9d74811e2e45122c8bc29497d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349058"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438143"
 ---
 # <a name="shdwoffsety-cell-page-properties-section"></a>ShdwOffsetY Cell (Page Properties Section)
 

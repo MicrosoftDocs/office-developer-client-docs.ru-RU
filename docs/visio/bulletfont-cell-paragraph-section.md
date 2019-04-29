@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: a75ff1f3-2f4d-89e3-108b-e16a34f5184f
 description: Представляет номер шрифта, используемого для форматирования текста, если указана строка настраиваемого маркера, а значение в ячейке маркера не равно нулю.
 ms.openlocfilehash: 1cf04917bb7dfa68ee9395abb66ffe9e150f0273
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337557"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438465"
 ---
 # <a name="bulletfont-cell-paragraph-section"></a>BulletFont Cell (Paragraph Section)
 
 Представляет номер шрифта, используемого для форматирования текста, если указана строка настраиваемого маркера, а значение в ячейке маркера не равно нулю. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Номера шрифтов зависят от установленных в системе шрифтов. Если значение равно 0 и имеется настраиваемая строка маркера, используемый шрифт совпадает с шрифтом первого символа абзаца.
   

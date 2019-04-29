@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d4b1a087-0986-467a-aaa9-fc643f7c56fc
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7bd5a030d11577c2afabb8a2253cf4f6129814cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339237"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407104"
 ---
 # <a name="pidtagsubjectmessageid-canonical-property"></a>Каноническое свойство PidTagSubjectMessageId
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит двоичное значение, которое копируется из сообщения, для которого создается отчет. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32339237"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство, например, свойство **пр_репорт_таг** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), можно использовать для сопоставления отчета с исходным сообщением. 
   

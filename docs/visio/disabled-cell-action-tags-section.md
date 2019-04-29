@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bf0a80c9-0fdb-e2cf-3ab0-74cb6338fdce
 description: Указывает, отображается ли тег действия в окне документа.
 ms.openlocfilehash: 867d36e27cb890509b0687500caf719362a711fb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332566"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439669"
 ---
 # <a name="disabled-cell-action-tags-section"></a>Disabled Cell (Action Tags Section)
 
@@ -23,12 +23,12 @@ ms.locfileid: "32332566"
 > [!NOTE]
 > В предыдущих версиях Microsoft Visio теги действий назывались смарт-тегами. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Тег действия отключен.  <br/> |
 | FALSE  <br/> | Тег действия включен (значение по умолчанию).  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если тег действия отключен, он не отображается, пока он не будет повторно включен. 
   

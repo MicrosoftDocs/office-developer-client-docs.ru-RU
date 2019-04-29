@@ -10,17 +10,17 @@ keywords:
 - Функция ексцелкурсорпрок [Excel 2007]
 localization_priority: Normal
 ms.assetid: 43759617-998d-4030-a17d-c4bbe35ffaf9
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: d3cc41487f0cae31e110249fe148f5370319a39a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304097"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432494"
 ---
 # <a name="excelcursorproc"></a>ExcelCursorProc
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Когда модальное диалоговое окно отображается над окном Microsoft Excel, курсор является занятым курсором на окне Excel. Это **WndProc** ВЫПОЛНЯЕТ треппинг вм_сеткурсор типов сообщений Windows и изменяет курсор на обычную стрелку. 
   

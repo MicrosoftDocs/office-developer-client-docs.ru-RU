@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 2d405268-bb33-4863-be38-2d17e8fc956e
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 496bd5439b9f004d3b13d2d73b31b5cac3f9eec9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318160"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432417"
 ---
 # <a name="attfrom"></a>attFrom
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Атрибут **аттфром** кодируется как структура **ТРП** , которая кодирует отображаемое имя и адрес электронной почты отправителя, а также отображаемое имя и адрес отправителя, за которым следуют все необходимые поля. Формат для **аттфром** выглядит следующим образом: 
   

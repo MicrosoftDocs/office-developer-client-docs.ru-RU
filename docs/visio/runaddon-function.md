@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 122c1d30-3cb9-7e7d-b4cc-e93ab8e4da4f
 description: Выполняет надстройку или макрос в проекте Microsoft Visual Basic для приложений (VBA).
 ms.openlocfilehash: 280f6eaf1e5db045d8c1d22965df00960d188112
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319063"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432011"
 ---
 # <a name="runaddon-function"></a>Функция RUNADDON
 
@@ -30,7 +30,7 @@ RUNADDON (" *строка* ")
 |:-----|:-----|:-----|:-----|
 | _string_ <br/> |Обязательный  <br/> |**String** <br/> | Имя надстройки в коллекции **надстроек** или макросе в проекте VBA.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если проект документа, который содержит вызов функции RUNADDON (или другой проект, если он указан), не имеет именованной _строки_(процедура без аргументов), Microsoft Visio выполняет именованную _строку_надстройки. Если не удается найти _строку_ с именованной надстройкой, Visio ничего не делает и не сообщает об ошибке. (Вы можете использовать свойство **трацефлагс** для отслеживания процедур и надстроек, которые Visio пытается запустить.) 
   
@@ -51,13 +51,13 @@ RUNADDON ("Calendar. exe")
   
 Запускает надстройку с именем Calendar. exe.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 RUNADDON ("фигуры массива")
   
 Запускает надстройку с (с расширением VSL), имя которой состоит из фигур массива.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 RUNADDON ("ThisDocument. Репортстатистикс")
   

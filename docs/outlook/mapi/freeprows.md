@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0f8f9fc4-4940-4c0a-92cc-2a6409b9a13f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b1109b3201e1b1e4a78c3a0fe0f2eb4d0cd43c05
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328016"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438822"
 ---
 # <a name="freeprows"></a>FreeProws
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Уничтожает структуру [SRowSet](srowset.md) и освобождает связанную память, в том числе память, выделенную для всех массивов и структур элементов. 
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: b6de7c6a-f2e7-4248-adea-d354924a8bbf
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b07c40882c0b9974c71eeb03123e7025b948a75e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346657"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432445"
 ---
 # <a name="mapiinitidle"></a>MAPIInitIdle
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Инициализирует модуль бездействия MAPI для вызывающего приложения. 
   

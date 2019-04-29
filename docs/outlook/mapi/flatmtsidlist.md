@@ -13,17 +13,17 @@ api_type:
 ms.assetid: b66c2815-72bc-4535-b34c-899bb830f29e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: bd9bfe4d1411b84a7811235aa68728afaefe64ab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327309"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439221"
 ---
 # <a name="flatmtsidlist"></a>FLATMTSIDLIST
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит массив структур [мтсид](mtsid.md) , каждый из которых содержит идентификатор записи MTS (X. 400 Message transporting System). 
   
@@ -56,7 +56,7 @@ typedef struct
   
 > Массив байтов, который содержит одну или несколько структур **мтсид** . 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Использование структуры **флатмтсидлист** в сообщениях X. 400 соответствует использованию структуры [флатентрилист](flatentrylist.md) в сообщениях MAPI. В MAPI используются структуры **флатмтсидлист** для хранения свойств X. 400 во время обработки сообщений. Поставщики услуг используют структуры **флатмтсидлист** при обработке входящих и исходящих сообщений X. 400. 
   

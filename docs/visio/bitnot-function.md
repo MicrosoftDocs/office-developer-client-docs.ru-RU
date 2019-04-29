@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 7b6486bb-3618-3747-4b00-93bd55767c1c
 description: Возвращает 16-разрядное двоичное число, для каждого бита которого задано значение 1, только если соответствующий бит в двоичном числе равен 0. В противном случае для бита задается значение 0.
 ms.openlocfilehash: 34ea6fd614feae8e3c8e97e34b7ff6c531f4c123
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330011"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438836"
 ---
 # <a name="bitnot-function"></a>Функция BITNOT
 

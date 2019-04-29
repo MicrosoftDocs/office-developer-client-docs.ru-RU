@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b64abbd7-38df-9756-23c6-4457be987464
 description: Возвращает координату x точки.
 ms.openlocfilehash: 3a751fc440457fe11c829319d4b56e64dd9683ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348365"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33417037"
 ---
 # <a name="pntx-function"></a>Функция PNTX
 
@@ -32,7 +32,7 @@ PNTX (* * *Point* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Номер
+Число
   
 ## <a name="example"></a>Пример
 

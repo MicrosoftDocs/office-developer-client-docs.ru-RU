@@ -13,17 +13,17 @@ api_type:
 ms.assetid: f114f1fa-bc05-4587-875b-71548c5912ea
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ec305fc872d1bf1718592dabdd230617d50d3f54
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328898"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434335"
 ---
 # <a name="imapitablegetstatus"></a>IMAPITable::GetStatus
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает состояние и тип таблицы.
   
@@ -94,7 +94,7 @@ S_OK
   
 > Состояние таблицы было успешно возвращено.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **имаптабле::** не получает сведений о типе таблицы и текущем состоянии. 
   

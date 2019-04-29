@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 5df43594-a434-4fb7-8109-e5cf0401ae09
 description: Возвращает целое число, представляющее месяц указанной даты.
 ms.openlocfilehash: 0ca7059a2fd6dad1f9790ad6f4eafe7affa014dd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308143"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411493"
 ---
 # <a name="month-function-access-custom-web-app"></a>Функция Month (пользовательское веб-приложение для Access)
 
@@ -31,7 +31,7 @@ ms.locfileid: "32308143"
 |:-----|:-----|
 | *Date*  <br/> |Выражение, которое может быть разрешено в значение даты и времени.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
  **Month** возвращает то же значение, что и **DatePart** (month, Date). 
   

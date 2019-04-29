@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 49913050-900a-4b05-84c4-c596a93ce68b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 25af1c1b05618d4f36a43721e71be6ff5c7c597f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326245"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439858"
 ---
 # <a name="newmailnotification"></a>NEWMAIL_NOTIFICATION
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Сведения, связанные с поступлением нового сообщения. 
   
@@ -79,7 +79,7 @@ MAPI_UNICODE
   
 > Битовая маска флагов, описывающих текущее состояние вновь полученного сообщения. Элемент **улмессажефлагс** является копией свойства **пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) сообщения.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Структура **невмаил_нотификатион** — это один из членов объединения структур, включенных в элемент **info** структуры [уведомления](notification.md) . Когда элемент **info** структуры **уведомлений** содержит структуру **Невмаил_нотификатион** , элемент **улевенттипе** структуры **уведомлений** имеет значение _фневневмаил._
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 9ca1861d-9bc9-485a-9807-a598b869e5a2
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 77688f8a09c1d990201a247a3c4e3a11ba0963b3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317264"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438626"
 ---
 # <a name="imsprovidershutdown"></a>IMSProvider::Shutdown
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 ЗаКрывает поставщик хранилища сообщений в определенном порядке.
   
@@ -45,7 +45,7 @@ S_OK
   
 > Вызов выполнен успешно и вернул ожидаемое значение или значения.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 MAPI вызывает метод **функцииimsprovider:: Shutdown** непосредственно перед освобождением объекта поставщика хранилища сообщений. MAPI освобождает все объекты входа для поставщика до **завершения** вызова для этого поставщика. 
   

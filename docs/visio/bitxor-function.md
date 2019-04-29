@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 672eacaf-a374-c7e2-b39b-8d42d2371aee
 description: Возвращает 16-разрядное двоичное число, в котором для каждого бита задано значение 1, если соответствующий бит, но не оба двоичных файла Число1 и число2 имеют значение 1. В противном случае для бита задается значение 0.
 ms.openlocfilehash: ab8ff46fe98512d963ef4ecd5c37127353827725
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32302991"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439235"
 ---
 # <a name="bitxor-function"></a>Функция BITXOR
 

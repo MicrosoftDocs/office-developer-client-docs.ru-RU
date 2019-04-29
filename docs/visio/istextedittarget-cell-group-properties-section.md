@@ -10,22 +10,22 @@ localization_priority: Normal
 ms.assetid: 355cef8b-9213-479a-af95-b591f4bc51ad
 description: Определяет назначение текста для группы.
 ms.openlocfilehash: 78a70dc0398745765bca12a1e768390b35fce8ce
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314919"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432648"
 ---
 # <a name="istextedittarget-cell-group-properties-section"></a>IsTextEditTarget Cell (Group Properties Section)
 
 Определяет назначение текста для группы.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Текст добавляется в фигуру группы.  <br/> |
 |FALSE  <br/> |Текст добавляется к фигуре в группе в верхней части порядка размещения.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Вы также можете задать это значение, выбрав группу, нажав кнопку **поведение** на вкладке [разработчик](run-in-developer-mode-display-the-developer-tab.md) , а затем установив флажок **изменить текст группы** . 
   

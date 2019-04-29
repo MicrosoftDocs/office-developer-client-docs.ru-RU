@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 9d58e23e-b411-c5c1-b785-5014488d42c8
 description: Определяет горизонтальный зазор между всеми соединительными линиями и фигурами на странице документа.
 ms.openlocfilehash: c5a27edb25ce7b1449ad6e2988027b474bd79fdb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358935"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439711"
 ---
 # <a name="linetonodex-cell-page-layout-section"></a>LineToNodeX Cell (Page Layout Section)
 

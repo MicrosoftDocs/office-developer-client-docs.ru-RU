@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: a374fe7d-7302-5365-81ab-64f5474d9d5c
 description: Округляет число до точности, представленной нумберофдигитс.
 ms.openlocfilehash: 6795cbc4d99e293da06c0ec369d2cefb84f9f5b5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315577"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439970"
 ---
 # <a name="round-function-visioshapesheet"></a>ROUND Function (VisioShapeSheet)
 
@@ -31,7 +31,7 @@ ROUND (* * *число* * *, * * *нумберофдигитс* * *)
 | _число_ <br/> |Обязательный  <br/> |**Number** <br/> |Число, которое требуется округлить.  <br/> |
 | _нумберофдигитс_ <br/> |Обязательный  <br/> |**Number** <br/> |Число десятичных разрядов точности.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если _нумберофдигитс_ больше 0, _число_ округляется на _нумберофдигитс_ справа от десятичного разделителя. Если значение _нумберофдигитс_ равно 0, то _число_ округляется до целого числа. Если _нумберофдигитс_ меньше 0, _число_ округляется с _нумберофдигитс_ слева от десятичного разделителя. 
   
@@ -41,13 +41,13 @@ ROUND (123.654, 2)
   
 Возвращает 123,65.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 ROUND (123.654, 0)
   
 Возвращает 124.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 ROUND (123.654,-1)
   

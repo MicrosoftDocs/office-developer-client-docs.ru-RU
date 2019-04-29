@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d1c3b6d9-75aa-4bc2-9a10-4b9664a8d42e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7818a638654c2d4a821ad25d71991d4468172a35
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332825"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439886"
 ---
 # <a name="pidtagcontactaddressbookstorenames-canonical-property"></a>Каноническое свойство PidTagContactAddressBookStoreNames
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемые имена хранилищ, связанных с адресной книгой.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32332825"
 |Тип данных:  <br/> |ПТ_МВ_УНИКОДЕ, PT_MV_STRING8  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эти свойства относятся к разделу профиля адресной книги контакта.
   

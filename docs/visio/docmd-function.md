@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 6574edeb-eb6f-afd9-89c4-eb5996dffa30
 description: Выполняет определенную команду.
 ms.openlocfilehash: 9e5c02c9a90f3aab66c5d582c83d7d9d892f964c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315234"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33413075"
 ---
 # <a name="docmd-function"></a>Функция DOCMD
 
@@ -30,7 +30,7 @@ ms.locfileid: "32315234"
 |:-----|:-----|:-----|:-----|
 | _Коммандид_ <br/> |Обязательный  <br/> |**Number** <br/> | Выполняемая команда.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Список команд, поддерживаемых с помощью функции DOCMd, приведен в разделе "команды DoCmd/DOCMd" в справочнике по автоматизации Microsoft Visio 2013. 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 2e6c82e7-a025-9df5-a95d-b00b0f39724f
 description: Возвращает косинус угла.
 ms.openlocfilehash: ee8e2f4a256617c37c4aac7876aa33ae04ab2f97
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283011"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432739"
 ---
 # <a name="cos-function-visioshapesheet"></a>COS Function (VisioShapeSheet)
 
@@ -30,7 +30,7 @@ COS ( *угол*)
 |:-----|:-----|:-----|:-----|
 | _градусов_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Угол для получения косинуса.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Функция COS использует радианы, если вы не укажете другую единицу измерения в качестве *угла* . 
   

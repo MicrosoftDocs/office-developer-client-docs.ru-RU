@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 41b6c162-9984-43a3-b38e-44f0afae67de
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 7845238722ce81b84210b6f4fc33f9df0abacc07
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349296"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412025"
 ---
 # <a name="imapicontainergetsearchcriteria"></a>IMAPIContainer::GetSearchCriteria
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Получает условия поиска для контейнера.
   

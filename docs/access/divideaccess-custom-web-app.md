@@ -7,18 +7,18 @@ localization_priority: Normal
 ms.assetid: 3d296730-197b-44db-853b-881597dd9b48
 description: Делит одно число на другое.
 ms.openlocfilehash: 48d43b224743949f86c5d206d9919a9e2d6fbcae
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308262"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435189"
 ---
 # <a name="-divide-access-custom-web-app"></a>/(Деление) (пользовательское веб-приложение для Access)
 
 Делит одно число на другое.
   
 > [!IMPORTANT]
-> Корпорация Майкрософт больше не рекомендует создавать и использовать веб-приложения для Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/), чтобы создавать бизнес-решения без кода для Интернета и мобильных устройств. 
+> Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -34,7 +34,7 @@ ms.locfileid: "32308262"
   
 Если целочисленный *делимый* делится на целый *делитель* , результатом является целое число, которое содержит дробную часть результата. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Фактические значения, возвращаемые оператором/, являются частными первого выражения, разделенного вторым выражением.
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 74c52b96-e903-444b-8bda-73a08f278c22
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 3de29e9af5caa82d2e57c8fcbbdab7d5ddb19dd9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285208"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432585"
 ---
 # <a name="imapisupportdoprogressdialog"></a>IMAPISupport::DoProgressDialog
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Получает объект Progress, который отображает индикатор хода выполнения.
   
@@ -59,7 +59,7 @@ S_OK
   
 > Объект Progress успешно получен.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **имаписуппорт::D опрогрессдиалог** реализован для адресных книг и объектов поддержки поставщиков хранилища сообщений. Эти поставщики вызывают **допрогрессдиалог** для доступа к реализации MAPI интерфейса [IMAPIProgress](imapiprogressiunknown.md) , который вычисляет сведения о ходе выполнения и отображает стандартное диалоговое окно. 
   

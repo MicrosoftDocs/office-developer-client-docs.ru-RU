@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 320af2ff-c2a5-43b1-b3a1-76cb5ffd6a4f
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: c251dacce0d4e1743a74f1ba45e395b6e1c05064
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329010"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408826"
 ---
 # <a name="imapitablecreatebookmark"></a>IMAPITable::CreateBookmark
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Создает закладку в текущей позиции таблицы.
   
@@ -49,7 +49,7 @@ S_OK
   
 > Не удалось выполнить запрошенную операцию.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **IMAPITable:: креатебукмарк** помечает положение таблицы, создавая значение, которое называется закладкой. С помощью закладки можно вернуться к положению, определенному закладкой. Позиция с закладками связана с объектом в этой строке таблицы. 
   

@@ -10,17 +10,17 @@ keywords:
 - Функция xlfEvaluate [Excel 2007]
 localization_priority: Normal
 ms.assetid: deea3ee6-2a32-47ef-bfa4-914891538633
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 527f7e932a41103c374e327a1bd0dd4c7d8e92a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303929"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439186"
 ---
 # <a name="xlfevaluate"></a>xlfEvaluate
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Использует средство синтаксического анализа Microsoft Excel и средство оценки функций для оценки любого выражения, которое можно ввести в ячейку листа.
   
@@ -38,7 +38,7 @@ Excel12(xlfEvaluate, LPXLOPER12 pxRes, 1, LPXLOPER12 pxFormulaText);
 
 Возвращает результат вычисления строки, которая может иметь тип **кслтипенум**, **кслтипестр**, **кслтипебул**, **кслтипирр**, **кслтипенил**, **xltypeMulti**.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Строка может содержать только функции, а не эквиваленты команд. Это эквивалентно нажатию клавиши **F9** в строке формул. Если **xlfEvaluate** вызывается из функции листа XLL, зарегистрированной как потокобезопасным, выражение должно содержать только потокобезопасные функции. 
   

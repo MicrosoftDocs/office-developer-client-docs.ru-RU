@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: 9b824e70-ed9a-490c-b777-8902a793fece
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b9a31fec93ec7fafc4d1565d63e4bc427ba4050e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32347833"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439109"
 ---
 # <a name="hrgetgalfromemsmdbuid"></a>HrGetGALFromEmsmdbUID
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает идентификатор глобальной адресной книги для службы Exchange, идентифицируемой _пемсмдбуид_. Возвращенный идентификатор элемента должен быть освобожден с помощью [мапифрибуффер](mapifreebuffer.md).
   

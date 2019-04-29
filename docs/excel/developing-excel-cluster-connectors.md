@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: b538ae44-37d2-496b-b6e7-b0e39f6e38cb
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: e1c70713586a7a143f119a2c3e9d34b982dcedba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310957"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412599"
 ---
 # <a name="developing-excel-cluster-connectors"></a>Разработка соединителей кластеров Excel
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Кластерные соединители Excel предоставляют средства для автоматической разгрузки вызовов пользовательских функций, защищенных с помощью кластера, в XLL на кластерный сервер. Описание функций, которые можно получить от кластера, можно найти в статье [безопасные функции кластера](cluster-safe-functions.md). Такая разгрузка может повысить производительность, позволяя использовать дополнительные вычислительные ресурсы. Кластерный соединитель обычно разрабатывается с помощью высокопроизводительного вычислительного поставщика вычислительных кластеров.
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 1da42991-5791-ebab-84cc-286cfe984a61
 description: Получает значение ячейки и не вычисляет формулу при изменении значения в ячейке.
 ms.openlocfilehash: 9449ccd8f849b23faf08ee25826301a1b6efe6d0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327316"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33416890"
 ---
 # <a name="getval-function"></a>Функция GETVAL
 

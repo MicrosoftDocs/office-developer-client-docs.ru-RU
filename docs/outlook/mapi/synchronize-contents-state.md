@@ -7,17 +7,17 @@ localization_priority: Normal
 ms.assetid: 52216bc3-8cbd-3856-ea46-78f7d0dd66ff
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 3ebe1f5f48f9becdf01ea184c2b76fa2c8fa21e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349569"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438472"
 ---
 # <a name="synchronize-contents-state"></a>Состояние синхронизации контента
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
  В этом разделе описывается, что происходит во время состояния "Синхронизация контента" для конечного автомата репликации. 
   

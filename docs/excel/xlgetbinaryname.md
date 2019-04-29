@@ -10,17 +10,17 @@ keywords:
 - Функция кслжетбинаринаме [Excel 2007]
 localization_priority: Normal
 ms.assetid: 66af3f78-65b5-42e0-82f9-ffd639d41751
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 6d063213e3f83451e8a072e71f0878174214f73e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303838"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412466"
 ---
 # <a name="xlgetbinaryname"></a>xlGetBinaryName
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Используется для возврата дескриптора для данных, сохраненных [функцией кслдефинебинаринаме](xldefinebinaryname.md). Данные с определенным двоичным именем сохраняются вместе с книгой и могут быть доступны по имени в любое время. Дополнительные сведения см. в разделе "ограничения области двоичных имен [](known-issues-in-excel-xll-development.md)".
   
@@ -38,7 +38,7 @@ _пкснаме_ (**кслтипестр**)
   
 Строка, указывающая имя данных.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Microsoft Excel владеет дескриптором памяти, возвращаемым в **хдата**. В Windows дескриптор является глобальным дескриптором памяти (выделенный функцией **глобалаллок** ). 
   

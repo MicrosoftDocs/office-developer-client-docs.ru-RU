@@ -10,21 +10,21 @@ localization_priority: Normal
 ms.assetid: b2f9d317-cc42-bec5-66f9-f988bcbdcc24
 description: Определяет уровень прозрачности для цвета фона блока текста фигуры.
 ms.openlocfilehash: f4c4dc7700c553bd4c9bee337220e357c4c5538a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332351"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33408693"
 ---
 # <a name="textbkgndtrans-cell-text-block-format-section"></a>TextBkgndTrans Cell (Text Block Format Section)
 
 Определяет уровень прозрачности для цвета фона блока текста фигуры.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |0-100  <br/> |Представляет процент прозрачности. Значение по умолчанию: 0% (полностью непрозрачно).  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Значения округляются до ближайшей половины процентов. Значение 100% полностью прозрачно. Несмотря на то, что фигура с полностью прозрачным текстовым фоном отображается на странице документа как фигура без текста, она взаимодействует с другими объектами на странице так же, как если бы ее прозрачность была равна 0%.
   

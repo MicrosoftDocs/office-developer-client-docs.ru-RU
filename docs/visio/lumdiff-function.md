@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 6a79f124-20a2-e119-4c58-25da99ecc555
 description: Возвращает разницу в яркости между color1 и color2.
 ms.openlocfilehash: 654ce6a92402278d8b6a6db1e03d0a6fa1f4575f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357997"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439746"
 ---
 # <a name="lumdiff-function"></a>Функция LUMDIFF
 

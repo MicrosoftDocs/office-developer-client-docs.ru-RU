@@ -13,15 +13,15 @@ api_type:
 ms.assetid: 3231a91a-1ef2-4dd8-9f3e-79ca56d2eae9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 513ec0db4e99e687d8aeb9e1d6acdef73df4d158
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351291"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33440005"
 ---
 # <a name="scomparepropsrestriction"></a>SComparePropsRestriction
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывает ограничение свойства Compare, которое проверяет два свойства с помощью оператора отношения. 
   

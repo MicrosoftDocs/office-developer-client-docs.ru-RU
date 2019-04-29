@@ -13,15 +13,15 @@ api_type:
 ms.assetid: 95a40c8a-0a8b-46c7-a07a-cbc6a7de8a3c
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 15504ecc88188ed7bc4eed0e64b1871dbc6a5e8d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32350990"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33406915"
 ---
 # <a name="imapifoldersetreadflags"></a>IMAPIFolder::SetReadFlags
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает или очищает флаг МСГФЛАГ_РЕАД в свойстве **пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) одного или нескольких сообщений папки и управляет отправкой отчетов о прочтении. 
   
@@ -134,7 +134,7 @@ S_OK
 
 Эти возвращаемые значения следует ожидать при соблюдении следующих условий.
   
-|**Condition**|**Возвращаемое значение**|
+|**Условие**|**Возвращаемое значение**|
 |:-----|:-----|
 |**Сетреадфлагс** успешно обработал каждое сообщение.  <br/> |S_OK  <br/> |
 |**Сетреадфлагс** не удалось успешно обработать каждое сообщение.  <br/> |МАПИ_В_ПАРТИАЛ_КОМПЛЕТИОН или МАПИ_Е_НОТ_ФАУНД  <br/> |

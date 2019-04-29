@@ -13,17 +13,17 @@ api_type:
 ms.assetid: ec2b0c67-18ff-4c3a-ae33-ce5b643b615f
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 73877a146336f40d3c70511fd8caa7797370fab1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316221"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432361"
 ---
 # <a name="pidtagformdesignername-canonical-property"></a>Каноническое свойство PidTagFormDesignerName
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит отображаемое имя объекта, используемого для создания формы. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32316221"
 |Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Эти свойства содержат уникальный идентификатор для объекта конструктора форм. 
   

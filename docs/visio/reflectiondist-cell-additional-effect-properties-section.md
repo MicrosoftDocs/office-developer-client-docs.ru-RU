@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 858a3191-420a-4065-9180-ebd8503d1eef
 description: Определяет расстояние смещения отражения от фигуры (в пунктах от 0,0 до 100,0).
 ms.openlocfilehash: cc0aca484a77602b78523819cd4f01d78a9ff86f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348386"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433026"
 ---
 # <a name="reflectiondist-cell-additional-effect-properties-section"></a>ReflectionDist Cell (Additional Effect Properties Section)
 

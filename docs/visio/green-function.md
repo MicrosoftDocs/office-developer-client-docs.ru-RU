@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: eccec432-32d3-15c2-06b3-dd02b6313d4c
 description: Возвращает зеленый компонент цвета.
 ms.openlocfilehash: 0412e4519c2964b05d7663805d7773e8dc5deaab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360209"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438108"
 ---
 # <a name="green-function"></a>Функция GREEN
 
@@ -44,13 +44,13 @@ ms.locfileid: "32360209"
   
 Возвращает зеленый компонент листа Sheet. 4's заливки цветом текста.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 ЗЕЛЕНЫЙ (11)
   
 Возвращает 128, если документ использует цветовую палитру Visio по умолчанию, где темно-желтый — цвет с индексом 11.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 ЗЕЛЕНЫЙ (RGB (10, 20, 30))
   

@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 8fd82432-9fd9-49ed-aa52-72109db04dc9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 8bfb7e5af2e2e5e1a51225dc1cf20baf897752c1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316214"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432886"
 ---
 # <a name="pidtagformmessagebehavior-canonical-property"></a>Каноническое свойство PidTagFormMessageBehavior
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если сообщение должно состоять в текущей папке. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32316214"
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Значение FALSE указывает на то, что сообщение должно состоять из любого другого междоступного сообщения, то есть в папке "исХодящие". 
   

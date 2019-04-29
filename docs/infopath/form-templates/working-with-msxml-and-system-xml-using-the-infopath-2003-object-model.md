@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: f7a0cac5-26f9-49ed-b52c-0240ef0c9d38
 description: Проекты шаблонов форм, работающие с объектной моделью InfoPath 2003, используют службы MSXML для внутренней работы с XML. В управляемом коде зачастую проще воспользоваться поддержкой XML, предоставляемой пространством имен System.Xml в библиотеке классов .NET. Службы MSXML и файл System.Xml изначально не могут обмениваться объектами, поэтому при необходимости передать XML-данные между InfoPath и другим управляемым кодом требуется преобразовать XML-данные. Передавать XML-данные из объектов System.Xml в код формы InfoPath можно с помощью методик, приведенных в этой теме.
 ms.openlocfilehash: c56939a0cf03b5de6466de37013e154529afd1ee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299722"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33437401"
 ---
 # <a name="working-with-msxml-and-systemxml-using-the-infopath-2003-object-model"></a>Работа с MSXML и System.Xml с использованием объектной модели InfoPath 2003
 

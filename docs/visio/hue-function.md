@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 0f5c6097-eef5-5f58-e2ef-2c348e42dc9a
 description: Возвращает значение компонента оттенка цвета.
 ms.openlocfilehash: 39fdd160f5cd792e95930a3e7c7cea3c37ed16c1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329913"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439494"
 ---
 # <a name="hue-function"></a>Функция HUE
 
@@ -32,9 +32,9 @@ ms.locfileid: "32329913"
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Номер
+Число
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Возвращаемое значение — число в диапазоне от 0 до 239 включительно. Вход — это индекс цвета в таблице цветов документа, выражение, которое разрешается в настраиваемый цвет (например, RGB или HSL), или ссылка на ячейку, содержащую цветовой индекс или цветовой результат. Функция возвращает значение 0 для недопустимых входных данных. 
   
@@ -44,13 +44,13 @@ ms.locfileid: "32329913"
   
 Возвращает оттенок цвета переднего плана листа. 4's.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 ОТТЕНОК (7)
   
 Возвращает 120, если в документе используется цветовая палитра Microsoft Visio по умолчанию, где голубой — цвет с индексом 7.
   
-## <a name="example-3"></a>Пример 3
+## <a name="example-3"></a>Пример 3
 
 ОТТЕНОК (HSL (10, 20, 30))
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 158b4188-570c-3817-bf34-8dc0c64befa5
 description: Определяет, является ли действие для тега действия или контекстного меню предназначенным только для чтения.
 ms.openlocfilehash: f45f22001a4d7275bb9367414c8b04ea3c0d9c6e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359992"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33434237"
 ---
 # <a name="readonly-cell-actions-section"></a>ReadOnly Cell (Actions Section)
 
@@ -23,7 +23,7 @@ ms.locfileid: "32359992"
 > [!NOTE]
 > В предыдущих версиях Microsoft Visio теги действий назывались смарт-тегами. 
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Действие отображается в меню, но доступно только для чтения.  <br/> |
 |FALSE  <br/> |Действие отображается в меню и может быть выбрано (по умолчанию).  <br/> |

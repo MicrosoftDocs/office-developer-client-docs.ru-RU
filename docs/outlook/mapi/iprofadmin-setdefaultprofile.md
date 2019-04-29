@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 58f50535-b0ed-4097-bda8-fd3ccc2d4b49
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 44be43864d943257520f27297e5754a4978c568d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32270170"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439627"
 ---
 # <a name="iprofadminsetdefaultprofile"></a>IProfAdmin::SetDefaultProfile
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает или очищает профиль клиента, используемый по умолчанию.
   
@@ -58,7 +58,7 @@ S_OK
   
 > Указанный профиль не существует.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **ипрофадмин:: SetDefaultProfile** устанавливает определенный профиль в качестве профиля клиента по умолчанию или очищает текущий профиль по умолчанию. Профиль по умолчанию — это профиль, который автоматически используется всякий раз, когда клиент начинает сеанс MAPI. **SetDefaultProfile** также задает для нового свойства **пр_дефаулт_профиле** профиля по умолчанию ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) значение true.
   

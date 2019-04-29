@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 3edfbfff-ea15-4926-bf0f-47137251d921
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: bf6324b89f06ef7f0553d3de1eaa24ae31a329ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339755"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438724"
 ---
 # <a name="sending-messages-by-using-mapi"></a>Отправка сообщений с помощью MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения вызывают метод [iMessage:: субмитмессаже](imessage-submitmessage.md) для отправки сообщения. **Субмитмессаже** вызывает [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) для сохранения сообщения перед передачей управления диспетчеру MAPI или непосредственно поставщику транспорта. 
   

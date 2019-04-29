@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: cce34aba-caae-51ee-992e-92a490b68ea5
 description: Блокирует начальную точку (BeginX, начало) фигуры 1-D в определенном расположении.
 ms.openlocfilehash: 2e6c6284ff82a88677eb46bb13b8ab8afa986584
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359649"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407762"
 ---
 # <a name="lockbegin-cell-protection-section"></a>LockBegin Cell (Protection Section)
 
 Блокирует начальную точку (BeginX, начало) фигуры 1-D в определенном расположении.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Начальная точка заблокирована.  <br/> |
 | FALSE  <br/> | Начало не заблокировано.  <br/> |

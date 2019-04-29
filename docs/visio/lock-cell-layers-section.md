@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 47bb268f-acdd-7369-716c-bd51a32b8a49
 description: Указывает, заблокированы ли фигуры, принадлежащие слою, для выбора или изменения.
 ms.openlocfilehash: d548a6f0fe0cac10d80d73c904739b2979ecf27f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359684"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438829"
 ---
 # <a name="lock-cell-layers-section"></a>Lock Cell (Layers Section)
 
 Указывает, заблокированы ли фигуры, принадлежащие слою, для выбора или изменения.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 |TRUE  <br/> |Фигуры заблокированы.  <br/> |
 |FALSE  <br/> |Фигуры не блокируются.  <br/> |

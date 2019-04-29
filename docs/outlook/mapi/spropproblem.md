@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 55943197-fd11-442d-bb4b-0bff565b846e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: b3a0872c94459fc7c24d13e35adf335ef8012182
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32357850"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33407776"
 ---
 # <a name="spropproblem"></a>SPropProblem
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этой статье описывается ошибка, связанная с операцией, включающей в себя свойство.
   

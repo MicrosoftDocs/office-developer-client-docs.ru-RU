@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 1b7dfe87-f87f-43e3-8332-a0d9c3f70d16
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: da35c9c72f4cf3f076715a7a35a3e3514c672ceb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344662"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33438885"
 ---
 # <a name="sandrestriction"></a>SAndRestriction
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывает ограничения **и** ограничения, которые используются для присоединения к группе ограничений с помощью логической операции **и** . 
   
@@ -50,7 +50,7 @@ typedef struct _SAndRestriction
   
 > Указатель на массив структур [срестриктион](srestriction.md) , которые будут объединены с логической операцией **and** . 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Результат **сандрестриктион** имеет значение true, если все его дочерние ограничения оцениваются как true. Имеет значение FALSE, если любое дочернее ограничение имеет значение FALSE. 
   

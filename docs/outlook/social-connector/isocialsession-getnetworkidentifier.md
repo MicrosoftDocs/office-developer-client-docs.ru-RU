@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 534e404f-54c6-4d2b-a8d0-d2ee990a972f
 description: Получает строку, представляющую уникальный идентификатор социальной сети для данного подключения к социальной сети.
 ms.openlocfilehash: 3051abd6dcccec878e8c53332980731772d543eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285339"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433278"
 ---
 # <a name="isocialsessiongetnetworkidentifier"></a>ISocialSession::GetNetworkIdentifier
 
@@ -29,7 +29,7 @@ _Нетворкидентифиер_
   
 > вышли Строка, содержащая уникальный идентификатор социальной сети.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Уникальный идентификатор сети — это строка, идентифицирующая социальную сеть поставщика Outlook Social Connector (OSC). Этот метод также может возвращать E_NOTIMPL.
   

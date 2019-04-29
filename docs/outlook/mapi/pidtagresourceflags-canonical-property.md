@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 69be9ad3-006a-459e-9cd4-eb3f609d71ad
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 2fb9eed0beaf7269ac90a021dae650355484ebc2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32330186"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436232"
 ---
 # <a name="pidtagresourceflags-canonical-property"></a>Каноническое свойство PidTagResourceFlags
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит битовую маску флагов для служб сообщений и поставщиков.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32330186"
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство описывает характеристики службы сообщений, поставщика услуг или объекта состояния. Флаги, заданные для этого свойства, зависят от контекста. Например, некоторые флаги действительны только для объектов status и других флагов только для столбцов в таблице службы сообщений. 
   

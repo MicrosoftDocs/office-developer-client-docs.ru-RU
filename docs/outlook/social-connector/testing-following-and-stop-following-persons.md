@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: c603c3c6-62c8-4895-93e1-b2e146dfaa4f
 description: В этом разделе описываются сценарии, позволяющие протестировать способность поставщика Outlook Social Connector (OSC) подписаться другу и прекратить отслеживание друга в социальной сети.
 ms.openlocfilehash: 06a2bc48fa723f4d4513376cace96a195cef9fa3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316018"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432452"
 ---
 # <a name="testing-following-and-stop-following-persons"></a>Тестирование подписки на пользователей и ее отмены
 

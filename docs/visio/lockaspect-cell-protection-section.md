@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: e9bfced5-af29-f86c-8604-44ec9a573229
 description: Блокирует пропорции фигуры таким образом, чтобы ее можно было изменять только пропорционально. его нельзя изменять в отдельном измерении.
 ms.openlocfilehash: 83ce1aaf555cfaaa0109423e74ae930450b4c1e2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359642"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33411584"
 ---
 # <a name="lockaspect-cell-protection-section"></a>LockAspect Cell (Protection Section)
 
 Блокирует пропорции фигуры таким образом, чтобы ее можно было изменять только пропорционально. его нельзя изменять в отдельном измерении.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
 | TRUE  <br/> | Пропорции заблокированы.  <br/> |
 | FALSE  <br/> | Пропорции не блокируются.  <br/> |

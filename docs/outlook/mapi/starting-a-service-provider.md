@@ -9,17 +9,17 @@ api_type:
 ms.assetid: c4b61cc3-d9fe-4616-a05c-d1e4096b5abd
 description: '���� ���������� ���������: 7 ������� 2015 �.'
 ms.openlocfilehash: f67976681ef0283c86e1c09c49e531572668ff50
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341715"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439557"
 ---
 # <a name="starting-a-service-provider"></a>Запуск поставщика услуг
 
  
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В некоторый момент после того, как клиент начнет сеанс с MAPI, ваш поставщик услуг будет запущен. Поставщики транспорта запускаются, когда клиент отправляет запрос на их службы. Адресные книги и поставщики хранилища сообщений запускаются в процессе входа клиента.
   

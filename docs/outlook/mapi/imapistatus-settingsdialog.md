@@ -13,17 +13,17 @@ api_type:
 ms.assetid: e931246e-7fff-4116-a9fc-f685988e21e8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 1e9d390a895490f2f7445c5f1ed6e0bde3a87639
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32331544"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439732"
 ---
 # <a name="imapistatussettingsdialog"></a>IMAPIStatus::SettingsDialog
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Отображает страницу свойств, с помощью которой пользователь может изменить конфигурацию поставщика услуг этот метод не поддерживается в объектах состояния, реализованных MAPI.
   
@@ -58,7 +58,7 @@ S_OK
   
 > Объект Status не поддерживает этот метод, как указано в отсутствие флага СТАТУС_СЕТТИНГС_ДИАЛОГ в свойстве **пр_ресаурце_месодс** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **имапистатус:: сеттингсдиалог** отображает страницу свойств конфигурации. Все поставщики служб должны поддерживать метод **сеттингсдиалог** , но это не обязательно. Поставщики услуг могут реализовывать собственные страницы свойств или использовать реализацию, предоставленную в методе [имаписуппорт::D оконфигпропшит](imapisupport-doconfigpropsheet.md) . **Доконфигпропшит** создает страницу свойств для чтения и записи. 
   

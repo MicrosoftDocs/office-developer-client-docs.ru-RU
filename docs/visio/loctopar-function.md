@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: ce1028d6-0293-e8dd-b79d-3f02c50f6250
 description: Возвращает преобразованную точку в родительских координатах в конечной системе координат.
 ms.openlocfilehash: 65a08837d7d026836ebc8d5e35938ea049d005e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32314849"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33439984"
 ---
 # <a name="loctopar-function"></a>Функция LOCTOPAR
 
@@ -34,9 +34,9 @@ LOCTOPAR (* * *сркпоинт* * *, * * *сркреф* * *, * * *дстреф*
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Строка
+String
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Преобразует точку из локальных координат исходной фигуры в родительские координаты конечной фигуры. Можно использовать функцию LOCTOPAR для установки родительских координат в ячейках, таких как PinX, PinY, BeginX и начало фигуры, с помощью другой точки из другой системы координат. 
   

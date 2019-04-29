@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 9e7b413f-a88a-a4ec-8d57-1f3058cce4a4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ac7c891fa05560231a257f9bd52ccbbfe564b49d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299512"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412102"
 ---
 # <a name="hide-meeting-update-option-property"></a>Скрыть свойство параметра обновления собрания
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Скрывает возможность отправки обновлений собраний только для добавленных или удаленных участников.
   
@@ -37,7 +37,7 @@ ms.locfileid: "32299512"
 |Тип свойства:  <br/> |PT_BOOLEAN  <br/> |
 |Тип доступа:  <br/> |Чтение и запись  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы обеспечить какую бы то ни было функцию хранилища, поставщик магазина должен реализовать [IMAPIProp: IUnknown](imapipropiunknown.md) и вернуть допустимый тег свойства для любого из этих свойств, переданного в вызов [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) . Когда тег свойства для любого из этих свойств передается в [IMAPIProp::](imapiprop-getprops.md)-Props, поставщик хранилища также должен возвращать правильное значение свойства. Поставщики хранилища могут вызывать [хржетонепроп](hrgetoneprop.md) и [хрсетонепроп](hrsetoneprop.md) для получения или задания этих свойств. 
   
