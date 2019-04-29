@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 63d7360a-e3a3-4365-9d46-50df1c715bde
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 9720b649eadecc73d84d98926674a1786796ba70
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32309522"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431395"
 ---
 # <a name="mapi-string-properties"></a>Свойства строки MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В ИНТЕРФЕЙСе MAPI предусмотрены три различных типа свойств, описывающих свойства String:
   

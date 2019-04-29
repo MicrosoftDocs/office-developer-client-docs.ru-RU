@@ -9,15 +9,15 @@ api_type:
 ms.assetid: 43b23fd7-999a-42c0-8f4d-47f5de266bdb
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 665c14b285db166e4f2a421d46e57f23e2f7ad52
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326224"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432375"
 ---
 # <a name="opening-a-message-store"></a>Открытие хранилища сообщений
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В зависимости от профиля клиенту потребуется открыть одно или несколько хранилищ сообщений во время типичного сеанса. Открытие хранилища сообщений означает получение доступа к указателю на его реализацию [IMsgStore: IMAPIProp](imsgstoreimapiprop.md) . Интерфейс **IMsgStore** предоставляет методы уведомления, создания назначений папок и доступа к папкам и сообщениям. 
   

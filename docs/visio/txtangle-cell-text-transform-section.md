@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: b8482cd8-5205-40ef-b4e1-4ceb197ac80f
 description: Определяет текущий угол вращения блока текста относительно оси x фигуры. Значение по умолчанию — 0 градусов.
 ms.openlocfilehash: 701a2b0ce5fccb29cc61309de1d1768a96d92c99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280739"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432172"
 ---
 # <a name="txtangle-cell-text-transform-section"></a>TxtAngle Cell (Text Transform Section)
 
 Определяет текущий угол вращения блока текста относительно оси *x* фигуры. Значение по умолчанию — 0 градусов. 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку TxtAngle по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

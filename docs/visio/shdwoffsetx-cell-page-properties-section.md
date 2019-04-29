@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 92ec9b11-f53f-a1c9-832a-6cac08aa5379
 description: Определяет расстояние смещения тени фигуры по горизонтали относительно фигуры в единицах страницы.
 ms.openlocfilehash: fbc7d37fc8ba45f3219af6a4350301102954f23d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338754"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431654"
 ---
 # <a name="shdwoffsetx-cell-page-properties-section"></a>ShdwOffsetX Cell (Page Properties Section)
 
 Определяет расстояние смещения тени фигуры по горизонтали относительно фигуры в единицах страницы.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это значение задается в диалоговом окне " **Параметры страницы** " (на вкладке " **конструктор** " щелкните стрелку **Параметры страницы** ). Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, смещение тени остается прежним. 
   

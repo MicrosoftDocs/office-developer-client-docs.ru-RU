@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 7238b1a9-01ed-46a0-a625-26763323317d
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 01d5ae3fd06d570e15336fad9538f01e586cd0f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327407"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431605"
 ---
 # <a name="supporting-formatted-text-in-outgoing-messages-client-responsibilities"></a>Поддержка форматированного текста в исХодящих сообщениях: обязанности клиентов
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиентские приложения задают свойство **пр_боди** ([PidTagBody](pidtagbody-canonical-property.md)), свойство **пр_ртф_компрессед** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) или свойство **пр_хтмл** ([PidTagHtml](pidtaghtml-canonical-property.md)) для исходящих сообщений. Клиенты, поддерживающие только обычный текст, задают только свойство **пр_боди** . Клиенты, поддерживающие формат RTF, могут задавать как свойства **пр_боди** , так и **пр_ртф_компрессед** , или только **пр_ртф_компрессед**, в зависимости от используемого поставщика хранилища сообщений. Клиенты, поддерживающие HTML, задают свойство **пр_хтмл** . 
   

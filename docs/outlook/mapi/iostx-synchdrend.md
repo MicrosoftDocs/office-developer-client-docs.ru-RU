@@ -13,17 +13,17 @@ api_type:
 ms.assetid: a0beb6eb-7978-c64e-dba1-89f0caf2090e
 description: 'Дата последнего изменения: 03 июля, 2012'
 ms.openlocfilehash: 864c2d2dfd17c285b0d8a401d59ce5b7d0463864
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332188"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432774"
 ---
 # <a name="iostxsynchdrend"></a>IOSTX::SyncHdrEnd
 
  
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Завершает синхронизацию для заголовка сообщения.
   
@@ -39,7 +39,7 @@ HRESULT SyncHdrEnd(
   
 > возврата Интерфейс **[IMAPIProgress](imapiprogressiunknown.md)** для синхронизации перемещенных или скопированных сообщений. Определение типа **лпмапипрогресс**можно найти в файле MAPIDEFS. h. 
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 После **[иосткс:: синкбег](iostx-syncbeg.md)**, локальное хранилище вводит [состояние загрузки сообщения](download-message-header-state.md). Клиент загружает полный элемент сообщения (как *пмсгфулл* в **[хдрсинк](hdrsync.md)** ). В случае успеха клиент также устанавливает *ulFlags* в **хдрсинк** как **хсф_ок**. После **иосткс:: синчдренд**Outlook проверяет результат в **хдрсинк** и использует *ппрог* и информацию в **хдрсинк** для обновления заголовка локального сообщения. 
   

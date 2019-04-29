@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 5fe55ba7-4ecd-4a43-ab5b-2ef595c2cdd9
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 5f5f5eaa41d6256bed69b2cd9a91208181d5bda1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346636"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423750"
 ---
 # <a name="pidtagidentitysearchkey-canonical-property"></a>Каноническое свойство PidTagIdentitySearchKey
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит ключ поиска для удостоверения поставщика услуг в соответствии с определением в системе обмена сообщениями. 
   

@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b57fb962-0b3e-f2e5-3b88-3edf33e40496
 description: 'Определяет ширину изображения объекта в пределах его границ. По умолчанию используется следующая формула:'
 ms.openlocfilehash: 9da5e06a7fbf6ae77a49fb0410aefb406e2afecb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344725"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422833"
 ---
 # <a name="imgwidth-cell-foreign-image-info-section"></a>ImgWidth Cell (Foreign Image Info Section)
 
@@ -24,7 +24,7 @@ ms.locfileid: "32344725"
   
 При кадрировании объекта изменяется коэффициент, на который умножается ширина.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку ImgWidth по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

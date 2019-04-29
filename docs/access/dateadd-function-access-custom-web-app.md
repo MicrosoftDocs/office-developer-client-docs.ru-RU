@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7174c585-86e1-42a3-bb7f-d6641001b0f2
 description: Возвращает указанную дату с указанным интервалом (положительное или отрицательное целое число), добавленной к указанной части даты.
 ms.openlocfilehash: 7cfd68c4983eee22a5e542facd72ea083deb3184
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282182"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423204"
 ---
 # <a name="dateadd-function-access-custom-web-app"></a>Функция DateAdd (пользовательское веб-приложение для Access)
 
@@ -32,7 +32,7 @@ ms.locfileid: "32282182"
 | *Number*  <br/> |— Это выражение, которое можно сопоставить с целым числом, добавляемым к ** части *даты* . Если указать значение с десятичной дробью, дробная часть усекается.  <br/> |
 | *Date*  <br/> |Выражение, которое может быть разрешено в значение даты и времени. Выражение аргумента *Date* , выражение столбца, определяемая пользователем переменная или строковый литерал.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В следующей таблице перечислены все допустимые аргументы *DatePart* . 
   

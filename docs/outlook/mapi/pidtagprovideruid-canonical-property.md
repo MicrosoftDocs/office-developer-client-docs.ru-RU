@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 993f5bca-58a6-455d-8a25-6e08b441ad31
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 0d79075ea1db451e0c3d327df9a662e5032ebb22
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286417"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422777"
 ---
 # <a name="pidtagprovideruid-canonical-property"></a>Каноническое свойство PidTagProviderUid
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит структуру **мапиуид** поставщика услуг, который обрабатывает сообщение. 
   
@@ -34,7 +34,7 @@ ms.locfileid: "32286417"
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство вычисляется всеми поставщиками служб. Он содержит структуру [мапиуид](mapiuid.md) , связанную с, и обычно жестко запрограммированную поставщиком. Он обычно используется клиентским приложением, которое заинтересовано только в контейнерах адресной книги, предоставленных определенным поставщиком. 
   

@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 4817e446-982d-491c-abcf-cc888a771afa
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 96682dd2bdfedc42ea13c6985cb834f0adffd4df
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327302"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423757"
 ---
 # <a name="form-configuration-file-extensions-section"></a>Раздел "файл конфигурации формы [расширения]"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В разделе **[Extensions]** перечисляются расширенные атрибуты формы, обычно это именованный набор свойств, который содержит все атрибуты за пределами базовых, перечисленных в разделе **[Description]** файла конфигурации формы. Расширенные атрибуты — это свойства, возвращаемые из **** вызовов метода PROPS объекта **имапиформинфо** с набором High bit в теге Property. Клиентские приложения могут определять дополнительные атрибуты формы, если они есть, путем извлечения этих тегов. Для этого клиенты вызывают метод [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) , передавая имена свойств формы и вызывайте метод [IMAPIProp:: Prop](imapiprop-getprops.md) для получения свойств. 
   

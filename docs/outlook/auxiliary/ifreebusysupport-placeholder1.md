@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: dfb3bca5-5f51-9868-e4f6-e4a94006585d
 description: Этот элемент является заполнителем и не поддерживается.
 ms.openlocfilehash: ef07ea8d01c34fe9c1454cee3baa4dbb7d5adc71
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317516"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422924"
 ---
 # <a name="ifreebusysupportplaceholder1"></a>IFreeBusySupport::Placeholder1
 

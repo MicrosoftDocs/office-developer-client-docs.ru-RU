@@ -13,17 +13,17 @@ api_type:
 ms.assetid: faf795a2-84db-432d-a05f-082f25a5cab5
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: c7f4e8835831af6277cef134bf3961e9928cba33
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326588"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433530"
 ---
 # <a name="spropvalue"></a>SPropValue
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Описывает свойство MAPI.
   
@@ -63,7 +63,7 @@ typedef struct _SPropValue
 |PT_I4 или ПТ_ЛОНГ (без знака)  <br/> |**сертифицирован** <br/> |ULONG  <br/> |
 |PT_R4 или ПТ_ФЛОАТ  <br/> |**ФЛТ** <br/> |с плавающей запятой  <br/> |
 |PT_R8 или ПТ_ДАУБЛЕ  <br/> |**нажат** <br/> |double  <br/> |
-|PT_BOOLEAN  <br/> |**з** <br/> |короткое целое без знака  <br/> |
+|PT_BOOLEAN  <br/> |**b** <br/> |короткое целое без знака  <br/> |
 |ПТ_КУРРЕНЦИ  <br/> |**cur** <br/> |[CURRENCY](currency.md) <br/> |
 |ПТ_АППТИМЕ  <br/> |**в** <br/> |double  <br/> |
 |PT_SYSTIME  <br/> |**метр** <br/> |[FILETIME](filetime.md) <br/> |
@@ -88,7 +88,7 @@ typedef struct _SPropValue
 |ПТ_НУЛЛ или ПТ_ОБЖЕКТ  <br/> |**x** <br/> |БОЛЬШОМ  <br/> |
 |ПТ_ПТР  <br/> |**лпв** <br/> |ОТМЕНИТЬ\*  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Элемент **улпроптаг** состоит из двух частей: 
   

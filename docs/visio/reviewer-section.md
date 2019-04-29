@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 70b00dd9-78d6-eb0f-b5c1-686eb397cf4b
 description: Содержит идентификационные сведения о каждом проверяющем документе.
 ms.openlocfilehash: a4bed2efa738dba1ccb4a7649f1762d7dedbd6e6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326840"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423477"
 ---
 # <a name="reviewer-section"></a>Reviewer Section
 
 Содержит идентификационные сведения о каждом проверяющем документе.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Раздел Review содержит по одной строке для каждого рецензента, который добавил разметку в документ, даже если удаляется вся разметка рецензента. 
   

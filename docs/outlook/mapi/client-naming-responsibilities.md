@@ -9,17 +9,17 @@ api_type:
 ms.assetid: dbb6ba5f-18c8-426f-9f50-ce6f2fd1dc5b
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: 808c7abf3d29872a8c5095fdc6dc39b2107a8993
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335142"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424954"
 ---
 # <a name="client-naming-responsibilities"></a>Обязанности по именованию клиентов
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Клиенты должны следовать соглашению об именовании для свойств, которые необходимо преобразовать с помощью шлюза. Все свойства, подлежащего преобразованию, должны создаваться в виде именованных свойств в одном из пяти наборов свойств, предназначенных для хранения свойств сопоставляемые со:
   

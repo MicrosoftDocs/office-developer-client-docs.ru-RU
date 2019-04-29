@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 9c7d6605-73ee-468c-981b-e0853106c9ba
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 54eaf9e67da1b520896122c937508a90700a0b84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328100"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433285"
 ---
 # <a name="forcing-a-notification"></a>Принудительное уведомление
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Когда поставщики услуг используют методы [имаписуппорт: IUnknown](imapisupportiunknown.md) для уведомлений, MAPI доставляет уведомления с помощью скрытого окна и соответствующей процедуры окна. Для каждого процесса, который должен получать уведомление, MAPI отправляет специальное сообщение в скрытое окно. Этому сообщению присвоено значение константы **сзмапинотификатионмсг** , которое определено в MAPIDEFS. Высоты. 
   

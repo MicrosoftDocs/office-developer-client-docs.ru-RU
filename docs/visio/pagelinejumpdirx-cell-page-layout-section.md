@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: 77892ec7-4c6a-78a5-5af4-5b6be7709e77
 description: Определяет направление пересечения линий на горизонтальных динамических соединительных линиях на странице документа, для которых вы не применили локальное направление перехода.
 ms.openlocfilehash: 4e1213990877e1260cc8cecd5a55beda4592a844
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283739"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431010"
 ---
 # <a name="pagelinejumpdirx-cell-page-layout-section"></a>PageLineJumpDirX Cell (Page Layout Section)
 
@@ -26,7 +26,7 @@ ms.locfileid: "32283739"
 | 1,1  <br/> | Настройка  <br/> |**Висложумпдирксуп** <br/> |
 | 2  <br/> | Понижен  <br/> |**Висложумпдирксдовн** <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку PageLineJumpDirX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
   

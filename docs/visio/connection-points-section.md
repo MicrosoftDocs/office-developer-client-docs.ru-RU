@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: e0c9d25d-933c-1c46-2cdd-3fa6ba3e56af
 description: Содержит строку и ячейки для каждой точки подключения, определенной для фигуры.
 ms.openlocfilehash: 23d5f4a48948be517875577cd05fd253ac16ec09
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318909"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422819"
 ---
 # <a name="connection-points-section"></a>Connection Points Section
 
 Содержит строку и ячейки для каждой точки подключения, определенной для фигуры.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Точки подключения можно определить в разделе " **точки подключения** " в окне таблицы свойств фигуры или щелкнув инструмент **точка подключения** на вкладке **Главная** . 
   

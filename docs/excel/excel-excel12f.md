@@ -10,17 +10,17 @@ keywords:
 - функция Excel [Excel 2007], функция Excel12f [Excel 2007]
 localization_priority: Normal
 ms.assetid: 4e6a9ccc-988d-42a9-8874-01f2ee29b835
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: f7ff6afac1737ee869e69fffd3dbed36a908b376
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32310915"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431675"
 ---
 # <a name="excelexcel12f"></a>Excel/Excel12f
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Функции библиотеки Framework. **Excel** — это оболочка для функции [Excel4](excel4-excel12.md) . **Excel12f** — это оболочка для функции [Excel12](excel4-excel12.md) . Каждый из них проверяет, не имеет ли ни одного из аргументов нулевого значения, что свидетельствует о том, что не удалось создать временную **XLOPER** или **XLOPER12** . При возникновении ошибки каждая печатает сообщение отладки. По завершении каждая освобождает всю временную память, которая могла быть создана для временных **** и **XLOPER12**s.
   

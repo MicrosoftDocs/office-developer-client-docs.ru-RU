@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 5874dc28-1b10-48a3-8287-9474db0b7435
 description: При отладке шаблона формы InfoPath часто полезно заносить значения непосредственно в поле формы для создания записи данных отладки в ходе сеанса тестирования формы. В следующих процедурах описывается создание многострочного поля с последующим добавлением в код формы вспомогательных функций, которые позволяют заносить данные отладки в это поле.
 ms.openlocfilehash: 28f2a1ad3c13aefd9f898bdf397c9103df98d3c9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303579"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431815"
 ---
 # <a name="log-values-to-a-field-for-debugging"></a>Запись значений в поле для отладки
 

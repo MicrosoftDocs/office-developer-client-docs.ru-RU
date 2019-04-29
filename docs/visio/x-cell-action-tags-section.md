@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d13e362b-9b69-30c5-003a-9c5df2aa29f6
 description: Положение на оси x в локальных координатах фигуры, относительно которого размещается кнопка тега действия.
 ms.openlocfilehash: 9f26bec81563c9813a88ed5c69730266834ee101
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335779"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431115"
 ---
 # <a name="x-cell-action-tags-section"></a>Ячейка X (раздел "Теги действий")
 

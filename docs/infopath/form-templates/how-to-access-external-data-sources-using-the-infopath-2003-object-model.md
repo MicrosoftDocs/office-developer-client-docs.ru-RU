@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 9fd9ca47-abf1-48dd-8668-dfee27161793
 description: При работе с шаблоном формы InfoPath, использующим объектную модель, совместимую с InfoPath 2003, можно написать код для доступа к дополнительным источникам данных формы и управления содержащимися в них данными.
 ms.openlocfilehash: 569f029b412328f4d49e3079eaf207dc1556fc4b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303698"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431682"
 ---
 # <a name="access-external-data-sources-using-the-infopath-2003-object-model"></a>Доступ к внешним источникам данных с помощью объектной модели InfoPath 2003
 
@@ -33,7 +33,7 @@ ms.locfileid: "32303698"
 
 Интерфейс [датаобжектсколлектион](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjectsCollection.aspx) предоставляет следующие свойства и методы, которые могут использоваться разработчиками форм для управления экземплярами [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , содержащимися в форме. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.Count.aspx)  <br/> |Возвращает количество экземпляров **DataSourceObject** в семействе.  <br/> |
 |Метод [GetEnumerator](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObjects.GetEnumerator.aspx)  <br/> |Возвращает объект **IEnumerator**, который можно использовать для выполнения итерации по семейству.  <br/> |
@@ -43,7 +43,7 @@ ms.locfileid: "32303698"
 
 Интерфейс [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с дополнительным источником данных InfoPath. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Метод [запроса](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.Query.aspx)  <br/> |Выполняет запрос для адаптера данных и вставляет возвращенные данные в виде XML в модель XML DOM, связанную с **DataSourceObject**.  <br/> |
 |Свойство [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataObject.DOM.aspx)  <br/> |Возвращает ссылку на модель XML DOM, используемую для хранения и обработки данных с помощью **DataSourceObject**.  <br/> |
@@ -54,7 +54,7 @@ ms.locfileid: "32303698"
 
 Интерфейсы для доступа к адаптерам данных предоставляют различные свойства и методы, которые извлекают и отправляют данные через подключения к внешним источникам данных; адаптер данных, связанный с объектом [DataSourceObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataSourceObject.aspx) , зависит от типа подключения к внешним данным. InfoPath реализует следующие интерфейсы для доступа к адаптерам данных. 
   
-|**Имя**|**Описание**|
+|**Name**|**Описание**|
 |:-----|:-----|
 |Интерфейс [адоадаптеробжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ADOAdapterObject.aspx)  <br/> |Подключается к источникам данных ADO/OLEDB, которые ограничены Microsoft Access и Microsoft SQL Server™.  <br/> |
 |Интерфейс [шарепоинтлистадаптеробжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SharepointListAdapterObject.aspx)  <br/> |Подключается к библиотеке документов или списку SharePoint.  <br/> |

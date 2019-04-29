@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: f71d8737-92ef-1124-ba4a-b7e17305bd0a
 description: Представляет имя целевого кадра, когда приложение открыто как активный документ в контейнерном приложении. Значение по умолчанию — пустая строка.
 ms.openlocfilehash: 8f41e5bf854e31e1f17eabb2aecbded55175ebaf
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344856"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432858"
 ---
 # <a name="frame-cell-hyperlinks-section"></a>Frame Cell (Hyperlinks Section)
 
 Представляет имя целевого кадра, когда приложение открыто как активный документ в контейнерном приложении. Значение по умолчанию — пустая строка.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Чтобы получить ссылку на ячейку Frame по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
   

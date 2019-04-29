@@ -9,17 +9,17 @@ api_type:
 ms.assetid: d46ce99a-4d7f-45b0-ba21-154498c15775
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 88c58d14893f2ac561dc56441eb38b7f4bd0db32
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316599"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424849"
 ---
 # <a name="ensuring-a-thread-safe-notification"></a>Обеспечение безопасного для потоков уведомления
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Если клиент работает на многопоточной платформе, может потребоваться гарантия того, что вызовы методов [имапиадвисесинк:: OnNotify](imapiadvisesink-onnotify.md) выполняются в определенном потоке. Так как вызовы **OnNotify** могут возникать в любом потоке, можно получать уведомления о непредвиденных и нежелательных потоках, ведущих к ошибкам, которые трудно отладить. 
   

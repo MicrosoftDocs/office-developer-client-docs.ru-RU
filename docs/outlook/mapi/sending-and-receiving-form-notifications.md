@@ -9,17 +9,17 @@ api_type:
 ms.assetid: a4374728-e2bc-47d9-8b03-ba09545a38d8
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 4ee47b51a98cf732f4e9af2a87fa1734a7250208
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339713"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431857"
 ---
 # <a name="sending-and-receiving-form-notifications"></a>Отправка и получение уведомлений формы
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Уведомления формы используются в MAPI для упрощения взаимодействия между формой и средством просмотра, а также от средства просмотра в форме.
   
