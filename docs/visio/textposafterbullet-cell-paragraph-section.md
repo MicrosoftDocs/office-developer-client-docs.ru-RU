@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: 08958abb-9d66-5a83-dac3-4cbfd1f6d85e
 description: Представляет расстояние между первой строкой абзаца и маркером.
 ms.openlocfilehash: a98967cb5f9541434745c3b3d6afafde0878074a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332289"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422154"
 ---
 # <a name="textposafterbullet-cell-paragraph-section"></a>TextPosAfterBullet Cell (Paragraph Section)
 
 Представляет расстояние между первой строкой абзаца и маркером. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это расстояние добавляется к расстоянию, которое хранится в ячейке Индфирст по умолчанию в левом отступе. Это значение не зависит от масштаба рисунка. 
   

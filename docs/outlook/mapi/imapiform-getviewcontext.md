@@ -13,17 +13,17 @@ api_type:
 ms.assetid: c6938986-a9f9-4ef4-9655-ded55b7357db
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: f0b217372f6b4848f83c993846cd08a81c7098e8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329464"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33430905"
 ---
 # <a name="imapiformgetviewcontext"></a>IMAPIForm::GetViewContext
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает текущий контекст представления для формы. 
   
@@ -49,7 +49,7 @@ S_FALSE
   
 > Контекст представления для формы отсутствует.
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Средства просмотра форм вызывают **жетвиевконтекст** , чтобы получить указатель на контекст представления, установленный в предыдущем вызове [Имапиформ:: сетвиевконтекст](imapiform-setviewcontext.md). Если в **сетвиевконтекст**не был выполнен вызов, **Жетвиевконтекст** ЗАДАЕТ для _ппвиевконтекст_ значение null. 
   

@@ -10,17 +10,17 @@ localization_priority: Normal
 ms.assetid: ab937a00-84c2-6c1c-9080-b7c95ead4f63
 description: Задает форматирование текстового поля, которое является строкой, числом, датой или временем, длительностью или валютой.
 ms.openlocfilehash: c1c7fc7e9c699b7642369fbb979c005829b06cb8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346020"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431521"
 ---
 # <a name="format-cell-text-fields-section"></a>Format Cell (Text Fields Section)
 
 Задает форматирование текстового поля, которое является строкой, числом, датой или временем, длительностью или валютой.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Если значение ячейки Type равно 0, 2, 5, 6 или 7 (строка, число, дата или время, продолжительность или валюта соответственно), укажите формат, соответствующий типу данных. Например, рисунок формата "# #/4 UU" форматирует число 12,43 в. как 12 2/4 дюймов. Дополнительные сведения о том, как указать формат рисунка, можно узнать в статье [Форматирование рисунков](about-format-pictures.md).
   

@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: 7b396d9f-9a47-3170-367f-5d1f0144f927
 description: "Цифровая подпись \x97 это электронная, зашифрованная и защищенная отметка проверки подлинности в макросе документа. Допустимая цифровая подпись подтверждает, что данные получены от подписавшего и они не были изменены с момента подписи. Если документы или определенные данные подписываются, вычисляется подпись и затем добавляется в документ. Таким образом подписи всегда перемещаются с подписанными данными."
 ms.openlocfilehash: 6c1f5a1c14c15bc88839dc44d9a5a595d8b52893
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32300247"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425101"
 ---
 # <a name="digitally-signing-data-in-infopath-forms"></a>Цифровая подпись данных в формах InfoPath
 

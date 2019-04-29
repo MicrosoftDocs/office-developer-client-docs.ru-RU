@@ -9,17 +9,17 @@ localization_priority: Normal
 ms.assetid: eb96d198-0003-4a19-9441-42eaa4eba15a
 description: В этом разделе описана модель безопасности для шаблонов форм Microsoft InfoPath, использующих управляемый код.
 ms.openlocfilehash: fc0c490346ca25cce495c7a174cf8a0464c712fe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303488"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433880"
 ---
 # <a name="security-in-infopath-form-templates-with-code"></a>Безопасность в шаблонах форм InfoPath с кодом
 
 В этом разделе описана модель безопасности для шаблонов форм Microsoft InfoPath, использующих управляемый код.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 
 [Модель безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
   

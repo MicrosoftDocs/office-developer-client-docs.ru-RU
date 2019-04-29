@@ -13,17 +13,17 @@ api_type:
 ms.assetid: d6b01a91-b452-4b2c-9802-698e7b0f4169
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 5f8396ca84192e485d33fb5a96f641361b717584
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32328196"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33432606"
 ---
 # <a name="imapistatusflushqueues"></a>IMAPIStatus::FlushQueues
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Принудительно отправляет или загружает все сообщения, ожидающие отправки или получения. Этот метод поддерживаются объектом состояния и объектами состояния очереди печати MAPI, которые реализуются поставщиками транспорта.
   
@@ -88,7 +88,7 @@ S_OK
   
 > Объект Status не поддерживает эту операцию, как указано в отсутствие флага СТАТУС_ФЛУШ_КУЕУЕС в свойстве **пр_ресаурце_месодс** объекта Status ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
     
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Метод **имапистатус:: FlushQueues** запрашивает немедленную отправку всех сообщений в исходящей очереди или получение всех сообщений из очереди поступающих с помощью диспетчера MAPI или поставщика транспорта. **FlushQueues** реализован только в объекте состояния ДИСПЕТЧЕРА очереди MAPI и объектах состояния, предоставленных поставщиками транспорта. 
   

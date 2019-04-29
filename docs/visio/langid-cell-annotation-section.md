@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: b6f5ea5e-b350-0817-d631-f059b9b95c23
 description: Указывает язык, на котором был введен комментарий.
 ms.openlocfilehash: b3b2cba3d0a04f75ef2d87f0ee8dcd1f8115e15e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360552"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33422259"
 ---
 # <a name="langid-cell-annotation-section"></a>LangID Cell (Annotation Section)
 

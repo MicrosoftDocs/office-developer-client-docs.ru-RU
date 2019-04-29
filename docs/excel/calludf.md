@@ -6,17 +6,17 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6421c9a2-07f7-4deb-aa43-c50d82cb0002
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 096f57335572c3788fdf129dd3bcf4a76cf62b01
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32304167"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33433013"
 ---
 # <a name="calludf"></a>CallUDF
 
-**Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+**Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Вызывает пользовательскую функцию в высокопроизводительной вычислительной среде.
   
@@ -58,7 +58,7 @@ _Параметр1_
 
 **кслхпкретсукцесс** при успешной инициации вызова UDF; **кслхпкретинвалидсессионид** , если аргумент _SessionID_ является недопустимым; **кслхпкреткаллфаилед** для других сбоев, включая время ожидания. Если вызов возвращает код ошибки (все, кроме **кслхпкретсукцесс**), Excel считает, что не удалось выполнить вызов UDF, делает недействительным _пксасинчандле_и не ожидает выполнения обратного вызова.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Эта функция выполняется асинхронно.
   

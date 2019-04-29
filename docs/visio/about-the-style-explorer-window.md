@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: bfdc1a63-c355-c759-bdfa-ce27e3ad10e7
 description: Окно проводника стилей предоставляет разработчикам фигур быстрый способ определения того, какие ячейки фигуры наследуются от определенного стиля, или стиль, из которого данная ячейка наследует значение.
 ms.openlocfilehash: 55800b692443bae3720b433e5a6178f2709d3675
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345348"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33431787"
 ---
 # <a name="about-the-style-explorer-window"></a>Сведения о окне "Обозреватель стилей"
 
