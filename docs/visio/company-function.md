@@ -10,18 +10,18 @@ localization_priority: Normal
 ms.assetid: 8bca3efa-1f0d-6f60-537c-c9f976737dcf
 description: Возвращает текст из поля Company в свойствах документа.
 ms.openlocfilehash: c8a33c5cc82353b887d2fc7da358270e124c21ab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359353"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33412704"
 ---
-# <a name="company-function"></a><span data-ttu-id="da95e-103">Функция COMPANY</span><span class="sxs-lookup"><span data-stu-id="da95e-103">COMPANY Function</span></span>
+# <a name="company-function"></a><span data-ttu-id="0dcde-103">Функция COMPANY</span><span class="sxs-lookup"><span data-stu-id="0dcde-103">COMPANY Function</span></span>
 
-<span data-ttu-id="da95e-104">Возвращает текст из поля **Company** в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="da95e-104">Returns the text from the **Company** field of a document's properties.</span></span> 
+<span data-ttu-id="0dcde-104">Возвращает текст из поля **Company** в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="0dcde-104">Returns the text from the **Company** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="da95e-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="da95e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0dcde-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0dcde-105">Syntax</span></span>
 
-<span data-ttu-id="da95e-106">ОРГАНИЗАЦИЯ ()</span><span class="sxs-lookup"><span data-stu-id="da95e-106">COMPANY ()</span></span>
+<span data-ttu-id="0dcde-106">ОРГАНИЗАЦИЯ ()</span><span class="sxs-lookup"><span data-stu-id="0dcde-106">COMPANY ()</span></span>
   
 

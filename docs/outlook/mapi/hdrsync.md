@@ -9,21 +9,21 @@ localization_priority: Normal
 ms.assetid: bf6892d0-a923-e926-5361-59efa49ebdc0
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 2131197ca24804eec74270100fa70c05c47a27cc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342786"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33410254"
 ---
-# <a name="hdrsync"></a><span data-ttu-id="991b8-103">HDRSYNC</span><span class="sxs-lookup"><span data-stu-id="991b8-103">HDRSYNC</span></span>
+# <a name="hdrsync"></a><span data-ttu-id="6dad0-103">HDRSYNC</span><span class="sxs-lookup"><span data-stu-id="6dad0-103">HDRSYNC</span></span>
 
   
   
-<span data-ttu-id="991b8-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="991b8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6dad0-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6dad0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="991b8-105">Сведения о синхронизации заголовка сообщения во время [загрузки состояния заголовка сообщения](download-message-header-state.md).</span><span class="sxs-lookup"><span data-stu-id="991b8-105">Information for synchronizing a message header during the [download message header state](download-message-header-state.md).</span></span>
+<span data-ttu-id="6dad0-105">Сведения о синхронизации заголовка сообщения во время [загрузки состояния заголовка сообщения](download-message-header-state.md).</span><span class="sxs-lookup"><span data-stu-id="6dad0-105">Information for synchronizing a message header during the [download message header state](download-message-header-state.md).</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="991b8-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="991b8-106">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="6dad0-106">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="6dad0-106">Quick info</span></span>
 
 ```cpp
 struct HDRSYNC 
@@ -36,49 +36,49 @@ struct HDRSYNC
 };
 ```
 
-## <a name="members"></a><span data-ttu-id="991b8-107">Элементы</span><span class="sxs-lookup"><span data-stu-id="991b8-107">Members</span></span>
+## <a name="members"></a><span data-ttu-id="6dad0-107">Элементы</span><span class="sxs-lookup"><span data-stu-id="6dad0-107">Members</span></span>
 
- <span data-ttu-id="991b8-108">_пупмсг_</span><span class="sxs-lookup"><span data-stu-id="991b8-108">_pupmsg_</span></span>
+ <span data-ttu-id="6dad0-108">_пупмсг_</span><span class="sxs-lookup"><span data-stu-id="6dad0-108">_pupmsg_</span></span>
   
-- <span data-ttu-id="991b8-109">вышли Сведения о текущем заголовке сообщения в локальном хранилище.</span><span class="sxs-lookup"><span data-stu-id="991b8-109">[out] Information for the current message header in the local store.</span></span>
+- <span data-ttu-id="6dad0-109">вышли Сведения о текущем заголовке сообщения в локальном хранилище.</span><span class="sxs-lookup"><span data-stu-id="6dad0-109">[out] Information for the current message header in the local store.</span></span>
     
- <span data-ttu-id="991b8-110">_Феидпар_</span><span class="sxs-lookup"><span data-stu-id="991b8-110">_feidPar_</span></span>
+ <span data-ttu-id="6dad0-110">_Феидпар_</span><span class="sxs-lookup"><span data-stu-id="6dad0-110">_feidPar_</span></span>
   
-- <span data-ttu-id="991b8-111">вышли Идентификатор записи для родительской папки элемента сообщения.</span><span class="sxs-lookup"><span data-stu-id="991b8-111">[out] Entry ID for the parent folder of the message item.</span></span>
+- <span data-ttu-id="6dad0-111">вышли Идентификатор записи для родительской папки элемента сообщения.</span><span class="sxs-lookup"><span data-stu-id="6dad0-111">[out] Entry ID for the parent folder of the message item.</span></span>
     
- <span data-ttu-id="991b8-112">_pstmReserved_</span><span class="sxs-lookup"><span data-stu-id="991b8-112">_pstmReserved_</span></span>
+ <span data-ttu-id="6dad0-112">_pstmReserved_</span><span class="sxs-lookup"><span data-stu-id="6dad0-112">_pstmReserved_</span></span>
   
-- <span data-ttu-id="991b8-113">[] Данный элемент резервируется для внутреннего использования в Outlook и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="991b8-113">[out] This member is reserved for the internal use of Outlook and is not supported.</span></span> 
+- <span data-ttu-id="6dad0-113">[] Данный элемент резервируется для внутреннего использования в Outlook и не поддерживается.</span><span class="sxs-lookup"><span data-stu-id="6dad0-113">[out] This member is reserved for the internal use of Outlook and is not supported.</span></span> 
     
- <span data-ttu-id="991b8-114">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="991b8-114">_ulFlags_</span></span>
+ <span data-ttu-id="6dad0-114">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="6dad0-114">_ulFlags_</span></span>
   
-- <span data-ttu-id="991b8-115">возврата Флаги для изменения поведения:</span><span class="sxs-lookup"><span data-stu-id="991b8-115">[in] Flags to modify behavior:</span></span>
+- <span data-ttu-id="6dad0-115">возврата Флаги для изменения поведения:</span><span class="sxs-lookup"><span data-stu-id="6dad0-115">[in] Flags to modify behavior:</span></span>
     
-- <span data-ttu-id="991b8-116">HSF_LOCAL</span><span class="sxs-lookup"><span data-stu-id="991b8-116">HSF_LOCAL</span></span>
+- <span data-ttu-id="6dad0-116">HSF_LOCAL</span><span class="sxs-lookup"><span data-stu-id="6dad0-116">HSF_LOCAL</span></span>
     
-  - <span data-ttu-id="991b8-117">возврата Полный элемент находится в том же локальном хранилище, что и элемент заголовка.</span><span class="sxs-lookup"><span data-stu-id="991b8-117">[in] Full item resides in the same local store as the header item.</span></span>
+  - <span data-ttu-id="6dad0-117">возврата Полный элемент находится в том же локальном хранилище, что и элемент заголовка.</span><span class="sxs-lookup"><span data-stu-id="6dad0-117">[in] Full item resides in the same local store as the header item.</span></span>
     
-- <span data-ttu-id="991b8-118">HSF_COPYDESTRUCTIVE</span><span class="sxs-lookup"><span data-stu-id="991b8-118">HSF_COPYDESTRUCTIVE</span></span>
+- <span data-ttu-id="6dad0-118">HSF_COPYDESTRUCTIVE</span><span class="sxs-lookup"><span data-stu-id="6dad0-118">HSF_COPYDESTRUCTIVE</span></span>
     
-  -  <span data-ttu-id="991b8-119">возврата Оптимизируйте внутренние операции копирования.</span><span class="sxs-lookup"><span data-stu-id="991b8-119">[in] Optimize internal copy operations.</span></span> <span data-ttu-id="991b8-120">Это может привести к потере данных.</span><span class="sxs-lookup"><span data-stu-id="991b8-120">This might cause data loss.</span></span> <span data-ttu-id="991b8-121">Необходимо задать **хсф_локал** .</span><span class="sxs-lookup"><span data-stu-id="991b8-121">**HSF_LOCAL** must be set.</span></span> 
+  -  <span data-ttu-id="6dad0-119">возврата Оптимизируйте внутренние операции копирования.</span><span class="sxs-lookup"><span data-stu-id="6dad0-119">[in] Optimize internal copy operations.</span></span> <span data-ttu-id="6dad0-120">Это может привести к потере данных.</span><span class="sxs-lookup"><span data-stu-id="6dad0-120">This might cause data loss.</span></span> <span data-ttu-id="6dad0-121">Необходимо задать **хсф_локал** .</span><span class="sxs-lookup"><span data-stu-id="6dad0-121">**HSF_LOCAL** must be set.</span></span> 
     
-- <span data-ttu-id="991b8-122">HSF_OK</span><span class="sxs-lookup"><span data-stu-id="991b8-122">HSF_OK</span></span>
+- <span data-ttu-id="6dad0-122">HSF_OK</span><span class="sxs-lookup"><span data-stu-id="6dad0-122">HSF_OK</span></span>
     
-  - <span data-ttu-id="991b8-123">возврата Синхронизация заГоловков выполнена успешно.</span><span class="sxs-lookup"><span data-stu-id="991b8-123">[in] Header synchronization was successful.</span></span> <span data-ttu-id="991b8-124">Устанавливается клиентом после скачивания информации с сервера.</span><span class="sxs-lookup"><span data-stu-id="991b8-124">The client sets this after downloading information from the server.</span></span>
+  - <span data-ttu-id="6dad0-123">возврата Синхронизация заГоловков выполнена успешно.</span><span class="sxs-lookup"><span data-stu-id="6dad0-123">[in] Header synchronization was successful.</span></span> <span data-ttu-id="6dad0-124">Устанавливается клиентом после скачивания информации с сервера.</span><span class="sxs-lookup"><span data-stu-id="6dad0-124">The client sets this after downloading information from the server.</span></span>
     
-     <span data-ttu-id="991b8-125">_Пмсгфулл_</span><span class="sxs-lookup"><span data-stu-id="991b8-125">_pmsgFull_</span></span>
+     <span data-ttu-id="6dad0-125">_Пмсгфулл_</span><span class="sxs-lookup"><span data-stu-id="6dad0-125">_pmsgFull_</span></span>
     
-  - <span data-ttu-id="991b8-126">возврата Полный элемент сообщения, включая заголовок сообщения, загруженный с сервера.</span><span class="sxs-lookup"><span data-stu-id="991b8-126">[in] The full message item including the message header downloaded from the server.</span></span> <span data-ttu-id="991b8-127">Определение типа **лпмессаже**можно найти в файле MAPIDEFS. h.</span><span class="sxs-lookup"><span data-stu-id="991b8-127">See mapidefs.h for the type definition of **LPMESSAGE**.</span></span> 
+  - <span data-ttu-id="6dad0-126">возврата Полный элемент сообщения, включая заголовок сообщения, загруженный с сервера.</span><span class="sxs-lookup"><span data-stu-id="6dad0-126">[in] The full message item including the message header downloaded from the server.</span></span> <span data-ttu-id="6dad0-127">Определение типа **лпмессаже**можно найти в файле MAPIDEFS. h.</span><span class="sxs-lookup"><span data-stu-id="6dad0-127">See mapidefs.h for the type definition of **LPMESSAGE**.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="991b8-128">См. также</span><span class="sxs-lookup"><span data-stu-id="991b8-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6dad0-128">См. также</span><span class="sxs-lookup"><span data-stu-id="6dad0-128">See also</span></span>
 
 
 
-[<span data-ttu-id="991b8-129">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="991b8-129">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="6dad0-129">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="6dad0-129">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="991b8-130">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="991b8-130">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
+[<span data-ttu-id="6dad0-130">Сведения о конечном автомате репликации</span><span class="sxs-lookup"><span data-stu-id="6dad0-130">About the Replication State Machine</span></span>](about-the-replication-state-machine.md)
   
-[<span data-ttu-id="991b8-131">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="991b8-131">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="6dad0-131">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="6dad0-131">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="991b8-132">FEID</span><span class="sxs-lookup"><span data-stu-id="991b8-132">FEID</span></span>](feid.md)
+[<span data-ttu-id="6dad0-132">FEID</span><span class="sxs-lookup"><span data-stu-id="6dad0-132">FEID</span></span>](feid.md)
 
