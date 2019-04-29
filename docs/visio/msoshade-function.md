@@ -8,34 +8,34 @@ localization_priority: Normal
 ms.assetid: 905cd1cc-14d3-5d37-89c4-f8461a03dda2
 description: Изменяет цвет, уменьшая яркость на указанный процент.
 ms.openlocfilehash: 207893552c7378589d4a648bf29ed88fcfd15224
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283712"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33414496"
 ---
-# <a name="msoshade-function"></a><span data-ttu-id="2ca77-103">Функция MSOSHADE</span><span class="sxs-lookup"><span data-stu-id="2ca77-103">MSOSHADE Function</span></span>
+# <a name="msoshade-function"></a><span data-ttu-id="97d30-103">Функция MSOSHADE</span><span class="sxs-lookup"><span data-stu-id="97d30-103">MSOSHADE Function</span></span>
 
-<span data-ttu-id="2ca77-104">Изменяет цвет, уменьшая яркость на указанный процент.</span><span class="sxs-lookup"><span data-stu-id="2ca77-104">Modifies the color by decreasing its luminosity by the specified percentage.</span></span>
+<span data-ttu-id="97d30-104">Изменяет цвет, уменьшая яркость на указанный процент.</span><span class="sxs-lookup"><span data-stu-id="97d30-104">Modifies the color by decreasing its luminosity by the specified percentage.</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="2ca77-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="2ca77-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="97d30-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="97d30-105">Version Information</span></span>
 
-<span data-ttu-id="2ca77-106">Добавлена версия: Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="2ca77-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="97d30-106">Добавлена версия: Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="97d30-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="2ca77-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2ca77-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="97d30-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="97d30-107">Syntax</span></span>
 
-<span data-ttu-id="2ca77-108">MSOSHADE (\* \* *Color* \* \*, \* \* *-делталум* \* \*)</span><span class="sxs-lookup"><span data-stu-id="2ca77-108">MSOSHADE(\*\* *color* \*\*, \*\* *-deltaLum* \*\* )</span></span> 
+<span data-ttu-id="97d30-108">MSOSHADE (\* \* *Color* \* \*, \* \* *-делталум* \* \*)</span><span class="sxs-lookup"><span data-stu-id="97d30-108">MSOSHADE(\*\* *color* \*\*, \*\* *-deltaLum* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="2ca77-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="2ca77-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="97d30-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="97d30-109">Parameters</span></span>
 
-|<span data-ttu-id="2ca77-110">**Имя**</span><span class="sxs-lookup"><span data-stu-id="2ca77-110">**Name**</span></span>|<span data-ttu-id="2ca77-111">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="2ca77-111">**Required/Optional**</span></span>|<span data-ttu-id="2ca77-112">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="2ca77-112">**Data Type**</span></span>|<span data-ttu-id="2ca77-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="2ca77-113">**Description**</span></span>|
+|<span data-ttu-id="97d30-110">**Имя**</span><span class="sxs-lookup"><span data-stu-id="97d30-110">**Name**</span></span>|<span data-ttu-id="97d30-111">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="97d30-111">**Required/Optional**</span></span>|<span data-ttu-id="97d30-112">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="97d30-112">**Data Type**</span></span>|<span data-ttu-id="97d30-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="97d30-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="2ca77-114">_color_</span><span class="sxs-lookup"><span data-stu-id="2ca77-114">_color_</span></span> <br/> |<span data-ttu-id="2ca77-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="2ca77-115">Required</span></span>  <br/> |<span data-ttu-id="2ca77-116">**RGB**</span><span class="sxs-lookup"><span data-stu-id="2ca77-116">**RGB**</span></span> <br/> |<span data-ttu-id="2ca77-117">Стандартное значение цвета RGB (красный, зеленый, синий) или ссылка на цвет.</span><span class="sxs-lookup"><span data-stu-id="2ca77-117">The standard RGB (red, green, blue) color value or reference to a color.</span></span>  <br/> |
-| <span data-ttu-id="2ca77-118">_— Делталум_</span><span class="sxs-lookup"><span data-stu-id="2ca77-118">_-deltaLum_</span></span> <br/> |<span data-ttu-id="2ca77-119">Обязательный</span><span class="sxs-lookup"><span data-stu-id="2ca77-119">Required</span></span>  <br/> |<span data-ttu-id="2ca77-120">**Integer**</span><span class="sxs-lookup"><span data-stu-id="2ca77-120">**Integer**</span></span> <br/> |<span data-ttu-id="2ca77-121">Процент изменения в сторону белого (-100%) или Black (100%) из значения _цвета_ .</span><span class="sxs-lookup"><span data-stu-id="2ca77-121">The percentage change toward white (-100%) or black (100%) from the  _color_ value.</span></span>  <br/> |
+| <span data-ttu-id="97d30-114">_color_</span><span class="sxs-lookup"><span data-stu-id="97d30-114">_color_</span></span> <br/> |<span data-ttu-id="97d30-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="97d30-115">Required</span></span>  <br/> |<span data-ttu-id="97d30-116">**RGB**</span><span class="sxs-lookup"><span data-stu-id="97d30-116">**RGB**</span></span> <br/> |<span data-ttu-id="97d30-117">Стандартное значение цвета RGB (красный, зеленый, синий) или ссылка на цвет.</span><span class="sxs-lookup"><span data-stu-id="97d30-117">The standard RGB (red, green, blue) color value or reference to a color.</span></span>  <br/> |
+| <span data-ttu-id="97d30-118">_— Делталум_</span><span class="sxs-lookup"><span data-stu-id="97d30-118">_-deltaLum_</span></span> <br/> |<span data-ttu-id="97d30-119">Обязательный</span><span class="sxs-lookup"><span data-stu-id="97d30-119">Required</span></span>  <br/> |<span data-ttu-id="97d30-120">**Integer**</span><span class="sxs-lookup"><span data-stu-id="97d30-120">**Integer**</span></span> <br/> |<span data-ttu-id="97d30-121">Процент изменения в сторону белого (-100%) или Black (100%) из значения _цвета_ .</span><span class="sxs-lookup"><span data-stu-id="97d30-121">The percentage change toward white (-100%) or black (100%) from the  _color_ value.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="2ca77-122">Замечания</span><span class="sxs-lookup"><span data-stu-id="2ca77-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="97d30-122">Примечания</span><span class="sxs-lookup"><span data-stu-id="97d30-122">Remarks</span></span>
 
-<span data-ttu-id="2ca77-123">Чем ближе значение _цвета_ к белому или черному, тем меньше изменяется затенение, созданное определенным значением _делталум_ .</span><span class="sxs-lookup"><span data-stu-id="2ca77-123">The closer the  _color_ value is to white or black, the smaller the change to the shade that is produced by a specific  _-deltaLum_ value.</span></span> 
+<span data-ttu-id="97d30-123">Чем ближе значение _цвета_ к белому или черному, тем меньше изменяется затенение, созданное определенным значением _делталум_ .</span><span class="sxs-lookup"><span data-stu-id="97d30-123">The closer the  _color_ value is to white or black, the smaller the change to the shade that is produced by a specific  _-deltaLum_ value.</span></span> 
   
 
