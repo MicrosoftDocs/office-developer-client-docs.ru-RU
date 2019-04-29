@@ -8,17 +8,17 @@ localization_priority: Normal
 ms.assetid: c6c6bfda-5525-4618-b08c-bf85440b7415
 description: Справочные материалы по ИНТЕРФЕЙСу API уровня замедления данных, что позволяет скрывать основной формат символов объекта Outlook.
 ms.openlocfilehash: 4edbf09ce2b123425a271f090a466fdad770fb0b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317712"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33423365"
 ---
 # <a name="data-degradation-layer-api-reference"></a>Справочник по API уровня замедления данных
 
 В этом разделе представлены справочные материалы по ИНТЕРФЕЙСу API уровня замедления данных, который позволяет скрывать основной формат символов объекта Outlook, позволяя клиенту получать доступ к объекту в предпочтительном символьном формате, а не в собственный формат символов объекта.
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе:
 
 - [Константы](constants-data-degradation-layer-api.md)
     

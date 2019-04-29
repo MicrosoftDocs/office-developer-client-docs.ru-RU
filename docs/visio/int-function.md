@@ -10,11 +10,11 @@ localization_priority: Normal
 ms.assetid: d51120f7-df80-f0bb-8af9-751d3c59f045
 description: Округляет число до ближайшего целого числа.
 ms.openlocfilehash: 6acc150e5291093bc7436c1d8e915b28e4840ca3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335303"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436953"
 ---
 # <a name="int-function"></a>Функция INT
 
@@ -36,7 +36,7 @@ INT (7,2)
   
 Возвращает значение 7.
   
-## <a name="example-2"></a>Пример 2
+## <a name="example-2"></a>Пример 2
 
 INT (-7,2)
   

@@ -7,15 +7,15 @@ localization_priority: Normal
 ms.assetid: e2d8d8a9-7e8f-9cf0-56a8-d8a6281ad589
 description: 'Дата последнего изменения: 03 июля, 2012'
 ms.openlocfilehash: c6aaac128e1a3e1a8d77d3fa8b6c50a335348b71
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32345544"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33424450"
 ---
 # <a name="detect-the-version-of-exchange-server-in-an-outlook-profile"></a>Определение версии Exchange Server в профиле Outlook
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе представлен пример кода на языке C++, в котором показано, как использовать свойство **[пр_профиле_сервер_версион](pidtagprofileserverversion-canonical-property.md)** и свойство **[пр_профиле_сервер_фулл_версион](pidtagprofileserverfullversion-canonical-property.md)** для получения сведений о версии сервера Microsoft Exchange, на котором активна учетная запись подключено к. 
   

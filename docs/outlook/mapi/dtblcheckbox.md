@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 0dd12990-5431-4768-9d64-27d4ef6b7b20
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: ed0bbe986f374648e2ee85f3a0d2dfe7bc392e0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287271"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436834"
 ---
 # <a name="dtblcheckbox"></a>DTBLCHECKBOX
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит сведения об установленном флажке, который будет использоваться в диалоговом окне, созданном из таблицы отображения. 
   
@@ -60,7 +60,7 @@ MAPI_UNICODE
   
 > Тег свойства для свойства типа ПТ_БУЛЕАН. Значение этого свойства зависит от состояния флажка.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Структура **дтблчеккбокс** описывает флажок элемента управления, который отражает одно из двух состояний: включено (отмечено флажком) или Disabled (пустое поле). 
   

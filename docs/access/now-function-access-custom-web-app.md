@@ -8,11 +8,11 @@ localization_priority: Normal
 ms.assetid: 8842a555-d4c8-4528-b5f9-0ddf5691273d
 description: Возвращает текущее значение даты и времени в часовом поясе, определенном приложением.
 ms.openlocfilehash: 74b0a124e5715036146fedc9a6079d84a39ce84a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308101"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425717"
 ---
 # <a name="now-function-access-custom-web-app"></a>Функция Now (пользовательское веб-приложение для Access)
 
@@ -25,7 +25,7 @@ ms.locfileid: "32308101"
 
  **Теперь** () 
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Результат выполнения функции **Now** изменяется только при обновлении столбца, содержащего формулу. Он не обновляется непрерывно. 
   

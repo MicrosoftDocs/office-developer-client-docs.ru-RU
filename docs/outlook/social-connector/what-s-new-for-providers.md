@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 92f59a0d-3834-424d-ad81-167fdeba9bd0
 description: В этом разделе перечислены основные изменения в Outlook Social Connector 2013 (OSC). Он представляет собой сравнение функций, доступных в Outlook Social Connector 2013 и Outlook Social Connector 1,1.
 ms.openlocfilehash: 6b735555d312c149d7dc8b827990b96bfc229678
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329115"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33435455"
 ---
 # <a name="whats-new-for-providers"></a>Новые возможности для поставщиков
 

@@ -9,17 +9,17 @@ api_type:
 ms.assetid: 0d66124b-a018-4db4-b55b-a0e5ed467e14
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 6b21d6746baf438af438787d966d9af886d4a74f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316046"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33425472"
 ---
 # <a name="setting-a-table-position-with-a-filter"></a>Установка позиции таблицы с помощью фильтра
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Таблица пользователи могут перемещать курсор в строку, которая соответствует набору условий фильтра. Фильтры могут основываться на различных рекомендациях, таких как значения свойств столбцов, битовые маски или подобъекты. Фильтры указываются в MAPI с использованием структуры [срестриктион](srestriction.md) . 
   

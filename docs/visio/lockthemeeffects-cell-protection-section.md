@@ -9,11 +9,11 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 84179718-d7a6-d503-08f2-213571bf108f
 ms.openlocfilehash: 8d707d4a87371dc457deae168a84d968f165f4fc
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32348309"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426333"
 ---
 # <a name="lockthemeeffects-cell-protection-section"></a>LockThemeEffects Cell (Protection Section)
 

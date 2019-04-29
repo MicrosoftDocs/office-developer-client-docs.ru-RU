@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 18a10f14-0795-4d4d-b590-f4cef4f2902a
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 391ea3ef4f44db2a9d007241232f58db27647ba2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32321716"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33428748"
 ---
 # <a name="imapiforminfosaveform"></a>IMAPIFormInfo::SaveForm
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Сохраняет описание конкретной формы в файле конфигурации.
   
@@ -53,7 +53,7 @@ S_OK
   
 > **Савеформ** , вероятно, был вызван для сохранения формы в локальном контейнере форм. **Савеформ** не поддерживается в локальном контейнере форм. 
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Клиентские приложения вызывают метод **имапиформинфо:: савеформ** для сохранения описания текущей формы в файле с заданное именем файла. **Савеформ** создает файл конфигурации. 
   

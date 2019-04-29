@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 32cc3a1f-1310-4788-b0f4-93c1e4940f37
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 ms.openlocfilehash: 2189a39e115236e6c2ec9de8a263ce3982d8b8e0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32317166"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33426711"
 ---
 # <a name="ipersistmessagegetlasterror"></a>IPersistMessage::GetLastError
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущем сообщении об ошибке в объекте Form. 
   
@@ -63,7 +63,7 @@ S_OK
   
 > Установлен либо флаг МАПИ_УНИКОДЕ, либо поставщик адресных книг не поддерживает Юникод, или МАПИ_УНИКОДЕ не задан, а поставщик адресных книг поддерживает только Юникод.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объекты Form реализуют метод **иперсистмессаже:: GetLastError** для предоставления сведений о предыдущем вызове метода, который завершился неудачно. Средства просмотра форм могут предоставить пользователям подробные сведения об ошибке, включив данные из структуры [мапиеррор](mapierror.md) в диалоговом окне. 
   

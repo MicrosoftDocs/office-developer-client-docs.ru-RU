@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 68f5aac1-714c-48fc-a0cf-a0c0401a6070
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: e06d9a3ee2352e05e38ab1f2d86014f970160f9d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338264"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33427803"
 ---
 # <a name="pidtagcontactaddressbookstoresupportmasks-canonical-property"></a>Каноническое свойство PidTagContactAddressBookStoreSupportMasks
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит флаги, указывающие поддерживаемые функции хранилища.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32338264"
 |Тип данных:  <br/> |ПТ_МВ_ЛОНГ  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Это свойство извлекается из хранилищ, содержащих папки "Контакты". Поставщик адресной книги контакта использует его для оценки адекуаци поддерживаемых компонентов хранилища. Это свойство раздела профиля адресной книги контакта. 
   

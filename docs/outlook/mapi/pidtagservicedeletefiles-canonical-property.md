@@ -13,17 +13,17 @@ api_type:
 ms.assetid: 9ec80a93-9e8f-46be-a1d4-7648aae47fec
 description: 'Дата последнего изменения: 9 марта 2015 г.'
 ms.openlocfilehash: da01385f83d9af9ad02eeb2fed08e3bc22d4df84
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32336402"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33436827"
 ---
 # <a name="pidtagservicedeletefiles-canonical-property"></a>Каноническое свойство PidTagServiceDeleteFiles
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит список имен файлов, которые необходимо удалить при удалении службы сообщений.
   
@@ -34,7 +34,7 @@ ms.locfileid: "32336402"
 |Тип данных:  <br/> |PT_MV_STRING8, ПТ_МВ_УНИКОДЕ  <br/> |
 |Область:  <br/> |Профиль MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Имена файлов из списка, содержащегося в этих свойствах, удаляются с компьютера при использовании панели управления для удаления службы сообщений. Не включайте в список всех библиотек DLL, поддерживающих несколько служб сообщений, или непреднамеренно удаляются дополнительные службы сообщений.
   
