@@ -1,17 +1,17 @@
 ---
 title: Выбор API или технологии для разработки решений для Outlook
 manager: soliver
-ms.date: 10/21/2016
+ms.date: 05/21/2019
 ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: В этой статье описаны API и технологии, которые можно использовать для расширения Outlook 2013 и Outlook 2016. Кроме того, статья поможет вам решить, какие именно API или технологии больше подходят для выбранного вами сценария.
 localization_priority: Priority
-ms.openlocfilehash: c744fcd834c01bd2835f88843d4be67e6122ac15
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 54931ea9235e549a8fb4338c425123b99c2b11e4
+ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279381"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "34250428"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Выбор API или технологии для разработки решений для Outlook
 
@@ -19,505 +19,514 @@ ms.locfileid: "32279381"
   
 Майкрософт поддерживает различные API и технологии, расширяющие возможности Outlook: 
   
-- Starting in Office 2013, the apps for Office platform opens up opportunities to extend Outlook functionality across Outlook clients on the desktop, tablet and smart phone. The platform includes a JavaScript API for Office and a schema for app manifests.
+- Начиная с Office 2013 приложения для платформы Office открывают возможности для расширения функциональности Outlook в клиентах Outlook на компьютере, планшете и смартфоне. Эта платформа содержит API JavaScript для Office и схему манифестов приложений.
     
-- The object model, the corresponding Outlook Primary Interop Assembly (PIA), and the Messaging API (MAPI) have been the most commonly used APIs in Outlook solutions.
+- В решениях Outlook чаще всего использовались такие API, как объектная модель, соответствующая основная сборка взаимодействия Outlook (PIA), а также API обмена сообщениями (MAPI).
     
-- The auxiliary APIs complement MAPI in a few scenarios.
+- В некоторых сферах применения используются вспомогательные API, дополняющие MAPI.
     
-- Outlook Social Connector (OSC) provider extensibility and the Weather Bar extensibility serve specific scenarios of their niche markets.
+- Расширяемость поставщика Outlook Social Connector (OSC) и расширяемость панели прогноза погоды обслуживают конкретные сценарии своих нишевых рынков.
     
-This article explains the selection criteria for the Надстройки Office platform, the object model, PIA, and MAPI. Note that Надстройки Office use the JavaScript API for Office and do not call into the object model, and vice versa. Solutions that use the other APIs can use one or more APIs. For example, a COM add-in written in C++ can use the object model, MAPI, and auxiliary APIs in the same solution.
+В этой статье описаны критерии выбора объектной модели, PIA и MAPI для платформы надстроек Office. Надо учесть, что надстройки Office, использующие API JavaScript для Office, не обращаются к объектной модели, и наоборот. В решениях, использующих другие API, можно использовать один или несколько API-интерфейсов. Например, надстройка COM, написанная на C++, может использовать объектную модель, MAPI и вспомогательные API в одном и том же решении.
   
-To get the most benefit from this article, you should be familiar with Outlook at the user level and have general software development knowledge. However, you do not need to have a comprehensive understanding of the features that these APIs or technologies support. The article helps answer the following questions:
+Для наиболее эффективного использования этой статьи вы должны быть знакомы с Outlook на уровне пользователя и обладать общими знаниями о разработке программного обеспечения. Однако вы не обязаны до тонкостей знать функции, поддерживаемые этими API или технологиями. Эта статья поможет вам ответить на следующие вопросы:
   
-- If you have only an idea about the goals of your solution, the target market, and available resources, what other criteria should you consider to select an API?
+- Если у вас есть только общее представление о целях решения,предполагаемом рынке и доступных ресурсах, то какие другие критерии следует использовать для выбора API?
     
-- Why would you consider Надстройки Office, and when would you choose to create apps as opposed to add-ins?
+- Зачем надо рассматривать надстройки Office и когда надо выбирать создание приложений вместо надстроек?
     
-- If your solution has to run on earlier versions of Outlook, including Outlook 2003, how does that affect your API choice?
+- Если решение нужно запускать в более ранних версиях Outlook, включая Outlook 2003, как это влияет на выбор API?
     
-- If your solution has to iterate through Outlook folders that contain thousands of items, and you need to be able to modify those items, which API would work best?
+- Если решение должно обрабатывать папки Outlook, содержащие тысячи элементов, и предлагать возможность изменения этих элементов, какой API-интерфейс лучше всего использовать?
     
-- If your solution relies heavily on Outlook business logic and interacts with other Office applications, is the Outlook object model the best choice?
+- Если в решении интенсивно используется бизнес-логика Outlook и взаимодействие с другими приложениями Office, оптимальный выбор — объектная модель Outlook.
     
-- What do the object model and MAPI allow you to extend in Outlook?
+- Что дают объектная модель и MAPI для расширения возможностей Outlook?
     
-- If you can use either the object model or MAPI to achieve your task, how should you decide which API to use?
-    
-## <a name="objective-evaluation-criteria"></a>Objective evaluation criteria
+- Если задачу можно выполнить с помощью как объектной модели, так и MAPI, как выбрать API для использования?
+
 <a name="OLSelectAPI_ObjectiveChar"> </a>
 
-This section describes criteria that you can use to compare the Надстройки Office platform, object model, PIA, and MAPI to determine which better meets your needs. Different criteria can be more or less important, depending on your projects and available resources.
+## <a name="objective-evaluation-criteria"></a>Критерии объективной оценки
+
+В данном разделе описаны критерии, по которым можно сравнивать платформу надстроек Office, объектную модель, PIA и MAPI для выбора инструментов, которые лучше всего соответствуют вашим потребностям. Другие критерии могут быть более или менее важными, в зависимости от проектов и доступных ресурсов.
   
-The tables in this section define evaluation criteria in the following categories:
+В таблицах данного раздела представлены критерии оценки по следующим категориям:
   
-- Functional criteriaDescribes the things you can and cannot do with the technology.
+- Функциональные критерии — описание того, что можно и чего нельзя реализовать с помощью данной технологии.
     
-- Development criteriaDescribes the development tools or information you need to use the technology
+- Критерии разработки — описание средств разработки или сведений, необходимых для использования технологии.
     
-- Security criteriaDescribes the security and permissions issues related to the technology.
+- Критерии безопасности — описание проблем безопасности и доступа, связанных с этой технологией.
     
-- Deployment criteriaDescribes the recommended deployment and distribution methods for the technology.
-    
-### <a name="objective-evaluation-criteria-for-the-apps-for-office-platform"></a>Objective evaluation criteria for the apps for Office platform
+- Критерии развертывания — описание рекомендуемых методов развертывания и распространения технологии.
+
 <a name="OLSelectAPI_ObjectiveEvalCritApps"> </a>
 
-Starting in Office 2013, developers can use the Надстройки Office platform to extend web services and content into the context of Office rich and web clients. An Надстройка Office is a web page that is developed using common web technologies, hosted inside an Office client application (such as Outlook), and can run on-premises or in the cloud. Of the few types of Надстройки Office, the type that Outlook supports is called mail apps. While the object model, PIA, and MAPI are often used to automate Outlook at an application level, you can use the JavaScript API for Office to interact at an item level with the content and properties of an email message, meeting request, or appointment. You can publish mail apps to the Магазин Office or an internal Exchange catalog. 
+### <a name="objective-evaluation-criteria-for-the-apps-for-office-platform"></a>Критерии объективной оценки приложений для платформы Office
+
+Начиная с Office 2013, разработчики могут использовать платформу надстроек Office для расширения веб-служб и контента в контексте полнофункциональных клиентов и веб-клиентов Office. Надстройка Office — это веб-страница, которая разработана при помощи стандартных веб-технологий, размещена в клиентском приложении Office (например, Outlook) и может выполняться локально или в облаке. Из нескольких типов надстроек Office тот тип, который поддерживается в Outlook, называется почтовыми приложениями. Хотя объектная модель, PIA и MAPI часто используются для автоматизации Outlook на уровне приложений, на уровне отдельного элемента для работы с содержимым и свойствами сообщения электронной почты, приглашения на собрание или встречи также можно использовать API JavaScript для Office. Почтовые приложения можно публиковать в магазине Office или во внутреннем каталоге Exchange. 
   
-End users and administrators can install mail apps on an Exchange mailbox, and use mail apps in the Outlook rich client as well as Outlook Web App. As a developer, you can choose to make your mail app available on only the desktop, or also on the tablet or smart phone. Figure 1 shows an example of a YouTube mail app, which is described in detail in [Пример: создание почтового приложения для просмотра видеороликов YouTube в Outlook](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-01c9248f). The YouTube mail app allows end users select a URL for a YouTube video and watch the video within Outlook or Outlook Web App, on the desktop or tablet.
+Пользователи и администраторы могут устанавливать почтовые приложения в почтовом ящике Exchange, а также использовать их в полнофункциональном клиенте Outlook и в Outlook Web App. Разработчик может сделать так, чтобы почтовое приложение было доступно только на компьютере, или также разрешить доступ на планшете или смартфоне. На рисунке 1 показан пример почтового приложения YouTube, которое подробно описано в статье [Создание почтовой надстройки для просмотра видео YouTube в Outlook](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-01c9248f). Почтовое приложение YouTube позволяет выбрать URL-адрес видео на сайте YouTube и посмотреть видео в Outlook или Outlook Web App на компьютере или планшете.
   
-**Figure 1. YouTube mail app is active for the selected message, which contains a URL to a video on YouTube.com**
+**Рис. 1. Почтовое приложение YouTube активно для выбранного сообщения, которое содержит URL-адрес видео на сайте YouTube.com**
 
 ![Почтовое приложение YouTube в Outlook](media/off15appsdk_YouTubeMailAppScreenshot.png)
   
-After a user installs a mail app, the app is available for use in the app bar when the current context matches the activation conditions that the app specifies. A mail apps allows you to specify rules about the currently selected item that activate a mail app only if certain conditions are met. For example, the YouTube mail app that lets you play a YouTube video within Outlook is relevant only when the selected Outlook item contains a URL to a video on YouTube.com. In this case, you would specify that the app should be active only when the selected message contains such a URL.
+После того как пользователь установит почтовое приложение, оно будет доступно для использования на панели приложения, если текущий контекст соответствует условиям активации, заданным в приложении. Почтовое приложение позволяет задать правила, применяемые к выбранному элементу, которые активируют почтовое приложение только при выполнении определенных условий. Например, почтовое приложение YouTube, которое воспроизводит видео YouTube в Outlook, срабатывает только в том случае, если выбранный элемент Outlook содержит URL-адрес видео на сайте YouTube.com. В этом случае можно указать, что приложение должно быть активным только в том случае, если выбранное сообщение содержит такой URL-адрес.
   
-The following tables show the evaluation criteria for the Надстройки Office platform.
+В приведенных ниже таблицах показаны критерии оценки для платформы надстроек Office.
   
-#### <a name="functional-criteria"></a>Functional criteria
+#### <a name="functional-criteria"></a>Функциональные критерии
 
-|**Criteria**|**Mail apps support in apps for Office platform**|
+|**Criteria**|**Поддержка почтовых приложений в приложениях для платформы Office**|
 |:-----|:-----|
-|Application domain  <br/> |The scope of activity of a mail app is virtually any supported message or appointment item in the user's Exchange mailbox that the user has selected and that satisfies the activation conditions. The permissions of a mail app determine its access to the properties and specific entities (such as an email address or telephone number) that exist for that item. For example, a mail app requesting the **read/write mailbox** permission can read and write all the properties of any item in the user's mailbox; create, read, and write to any folder or item; and send an item from that mailbox.  <br/> |
-|Major objects  <br/> |The JavaScript API for Office provides a few objects at the top level that are shared by all the types of Надстройки Office: [Office](https://msdn.microsoft.com/library/c490b13d-ee52-4291-af5d-f4a5a11d3af0%28Office.15%29.aspx), [Context](https://msdn.microsoft.com/library/662883d5-b86f-4bdc-99f0-9ee9129ed16c%28Office.15%29.aspx), and [AysncResult](https://msdn.microsoft.com/library/540c114f-0398-425c-baf3-7363f2f6bc47%28Office.15%29.aspx). The next level in the API that is applicable and specific to mail apps includes the [Mailbox](https://msdn.microsoft.com/library/a3880d3b-8a09-4cf9-9274-f2682cb3b769%28Office.15%29.aspx), [Item](https://msdn.microsoft.com/library/ad288df1-3ca2-474c-bea4-c51f46e6fc43%28Office.15%29.aspx), and [UserProfile](https://msdn.microsoft.com/library/6d0a36ec-0d5c-40e3-9f6f-9a7fcf0ac3d8%28Office.15%29.aspx) objects, which support accessing information about the user and the item currently selected in the user's mailbox. At the data level, the [CustomProperties](https://msdn.microsoft.com/library/95a69bd6-c4dc-429a-8b27-e2b68f74f3e3%28Office.15%29.aspx) and [RoamingSettings](https://msdn.microsoft.com/library/cf21bb08-7274-4ad6-ae9e-b2c12f92abc9%28Office.15%29.aspx) objects support persisting properties set up by the mail app for the selected item and for the user's mailbox, respectively. Item-level objects include the [Appointment](https://msdn.microsoft.com/library/08ebffff-eb52-4e21-9d4e-8f79e426f992%28Office.15%29.aspx) and [Message](https://msdn.microsoft.com/library/909ad9eb-a1bc-4caa-b51e-fd59a02b9569%28Office.15%29.aspx) objects that inherit from **Item**, and the [MeetingRequest](https://msdn.microsoft.com/library/c658fa3d-1138-4a67-9a4b-c9edd11f8385%28Office.15%29.aspx) object that inherits from **Message**. These represent the types of Outlook items that support mail apps: calendar items of appointments and meetings, and message items such as email messages, meeting requests, responses, and cancellations. Beyond this level in the API are item-level properties (such as [Appointment.subject](https://msdn.microsoft.com/library/ffa6812c-34b8-4b0a-8f92-22c3580c8379%28Office.15%29.aspx)) as well as objects and properties that support certain known [Entities](https://msdn.microsoft.com/library/1a06c8d1-dafe-46f4-967e-dd9b1d5b20e9%28Office.15%29.aspx) objects (for example [Contact](https://msdn.microsoft.com/library/2604b44c-7b79-47f0-ac3e-7d99bc9e6751%28Office.15%29.aspx), [MeetingSuggestion](https://msdn.microsoft.com/library/9726fbff-0f4f-4b70-8deb-effc14607d4e%28Office.15%29.aspx), [PhoneNumber](https://msdn.microsoft.com/library/cc86426a-2730-4774-9067-0611e5c8e9c1%28Office.15%29.aspx), and [TaskSuggestion](https://msdn.microsoft.com/library/16b0c3d6-adf4-4a88-ad09-4bb5565816b1%28Office.15%29.aspx)).  <br/> See [Обзор архитектуры и функций надстроек Outlook](https://msdn.microsoft.com/library/2cd5641b-492b-4431-8388-7fc589163e9c%28Office.15%29.aspx) for a summary of the features supported for mail apps.  <br/> |
-|Data-access model  <br/> |The JavaScript API for Office represents the following features as a hierarchical set of objects: the app's runtime environment, user's mailbox and profile, and data about an item.  <br/> |
-|Threading models  <br/> |Each mail app executes in its own process separate from the Outlook process.  <br/> |
-|Application architectures  <br/> |In Outlook, a mail app is a set of HTML and JavaScript web pages hosted as a separate process inside a web browser control which, in turn, is hosted inside an app runtime process that provides security and performance isolation.  <br/> |
-|Remote usage  <br/> |Mail apps use the JavaScript API for Office to access data about the current user, mailbox, and selected item stored on the corresponding Exchange Server. Provided that they have the appropriate permissions and use the appropriate technique for cross-domain access, mail apps can also call Exchange Web Services and other third-party web services to extend their functionality.  <br/> |
-|Транзакции  <br/> |The JavaScript API for Office does not support transactions.  <br/> |
-|Доступность  <br/> |The JavaScript API for Office is available for mailboxes on Exchange Server 2013, starting in Outlook 2013.  <br/> |
+|Домен приложения  <br/> |Область действия почтового приложения — практически все поддерживаемые сообщения или встречи в почтовом ящике Exchange, выбранном пользователем и удовлетворяющем условиям активации. Разрешения почтового приложения определяют его доступ к свойствам и определенным объектам (например, адресу электронной почты или номеру телефона), которые существуют для данного элемента. Например, почтовое приложение, которое запрашивает разрешение на **чтение и запись в почтовый ящик**, может просматривать и записывать все свойства любого элемента в почтовом ящике пользователя; создавать любую папку или элемент, считывать и записывать данные в них, а также отправлять элементы из этого почтового ящика.  <br/> |
+|Основные объекты  <br/> |API JavaScript для Office предоставляет несколько объектов верхнего уровня, которые являются общими для всех типов надстроек Office: [Office](https://msdn.microsoft.com/library/c490b13d-ee52-4291-af5d-f4a5a11d3af0%28Office.15%29.aspx), [Context](https://msdn.microsoft.com/library/662883d5-b86f-4bdc-99f0-9ee9129ed16c%28Office.15%29.aspx) и [AsyncResult](https://msdn.microsoft.com/library/540c114f-0398-425c-baf3-7363f2f6bc47%28Office.15%29.aspx). Следующий уровень API, применимый к почтовым приложениям и зависимый от них, включает объекты [Mailbox](https://msdn.microsoft.com/library/a3880d3b-8a09-4cf9-9274-f2682cb3b769%28Office.15%29.aspx), [Item](https://msdn.microsoft.com/library/ad288df1-3ca2-474c-bea4-c51f46e6fc43%28Office.15%29.aspx) и [UserProfile](https://msdn.microsoft.com/library/6d0a36ec-0d5c-40e3-9f6f-9a7fcf0ac3d8%28Office.15%29.aspx), которые обеспечивают доступ к сведениям о пользователе и элементу, выбранному в его почтовом ящике. На уровне данных объекты [CustomProperties](https://msdn.microsoft.com/library/95a69bd6-c4dc-429a-8b27-e2b68f74f3e3%28Office.15%29.aspx) и [RoamingSettings](https://msdn.microsoft.com/library/cf21bb08-7274-4ad6-ae9e-b2c12f92abc9%28Office.15%29.aspx) поддерживают постоянные свойства, заданные почтовым приложением для выбранного элемента и для почтового ящика пользователя соответственно. К объектам уровня элемента относятся [Appointment](https://msdn.microsoft.com/library/08ebffff-eb52-4e21-9d4e-8f79e426f992%28Office.15%29.aspx) и [Message](https://msdn.microsoft.com/library/909ad9eb-a1bc-4caa-b51e-fd59a02b9569%28Office.15%29.aspx), наследующие объект **Item**, и объект [MeetingRequest](https://msdn.microsoft.com/library/c658fa3d-1138-4a67-9a4b-c9edd11f8385%28Office.15%29.aspx), наследующий объект **Message**. Они представляют типы элементов Outlook, поддерживающих почтовые приложения: элементы встреч и собраний в календаре, а также элементы сообщений, такие как сообщения электронной почты, приглашения на собрания, ответы и отмены. Ниже этого уровня в API имеются свойства уровня элемента (например, [Appointment.subject](https://msdn.microsoft.com/library/ffa6812c-34b8-4b0a-8f92-22c3580c8379%28Office.15%29.aspx)), а также объекты и свойства, которые поддерживают определенные объекты [Entities](https://msdn.microsoft.com/library/1a06c8d1-dafe-46f4-967e-dd9b1d5b20e9%28Office.15%29.aspx) (например, [Contact](https://msdn.microsoft.com/library/2604b44c-7b79-47f0-ac3e-7d99bc9e6751%28Office.15%29.aspx), [MeetingSuggestion](https://msdn.microsoft.com/library/9726fbff-0f4f-4b70-8deb-effc14607d4e%28Office.15%29.aspx), [PhoneNumber](https://msdn.microsoft.com/library/cc86426a-2730-4774-9067-0611e5c8e9c1%28Office.15%29.aspx) и [TaskSuggestion](https://msdn.microsoft.com/library/16b0c3d6-adf4-4a88-ad09-4bb5565816b1%28Office.15%29.aspx)).  <br/> Сводка функций, поддерживаемых в почтовых приложениях, приводится в статье [Обзор архитектуры и функций надстроек Outlook](https://msdn.microsoft.com/library/2cd5641b-492b-4431-8388-7fc589163e9c%28Office.15%29.aspx).  <br/> |
+|Модель доступа к данным  <br/> |API JavaScript для Office представляет перечисленные ниже функции в виде иерархического набора объектов: среды выполнения приложения, почтового ящика пользователя и его профиля, а также данных об элементе.  <br/> |
+|Модели потоков  <br/> |Каждое почтовое приложение выполняется в своем собственном процессе отдельно от процесса Outlook.  <br/> |
+|Архитектуры приложений  <br/> |Почтовое приложение в Outlook — это набор веб-страниц HTML и JavaScript, размещенных как отдельный процесс внутри элемента управления браузера, который, в свою очередь, размещен внутри процесса среды выполнения приложения, обеспечивающего безопасность и изоляцию.  <br/> |
+|Удаленное использование  <br/> |Почтовые приложения используют API JavaScript для Office для доступа к данным о текущем пользователе, почтовом ящике и выбранном элементе, которые хранятся на соответствующем сервере Exchange. При условии, что у них есть соответствующие разрешения и для междоменного доступа используется подходящий способ, почтовые приложения также могут обращаться к веб-службам Exchange и другим сторонним веб-службам для расширения их функциональности.  <br/> |
+|Транзакции  <br/> |API JavaScript для Office не поддерживает транзакции.  <br/> |
+|Доступность  <br/> |API-интерфейс JavaScript для Office доступен для почтовых ящиков на сервере Exchange Server 2013, начиная с Outlook 2013.  <br/> |
    
-#### <a name="development-criteria"></a>Development criteria
+#### <a name="development-criteria"></a>Критерии разработки
 
-|**Criteria**|**Mail apps support in apps for Office platform**|
+|**Criteria**|**Поддержка почтовых приложений в приложениях для платформы Office**|
 |:-----|:-----|
-|Languages and tools  <br/> |You can implement mail apps using any common web technology, including HTML5, JavaScript, CSS3, XML, and REST APIs. You can use your preferred web development tool. Alternatively, using Napa, Visual Studio 2012, or a later version of these tools provides conveniences that save you time in development.  <br/> |
-|Managed implementation  <br/> |Where appropriate in your scenario, you can use managed .aspx pages to implement server-side code for your mail apps.  <br/> |
-|Scriptable  <br/> |The JavaScript API for Office is directly used in scripts.  <br/> |
-|Test and debug tools  <br/> |You can use any web development tools you prefer. Napa and Visual Studio provide an integrated development environment that facilitates app testing and debugging. [Устранение неполадок активации надстроек Outlook](https://msdn.microsoft.com/library/da5b56c9-7fd1-4556-8c0e-f489c4c9e9b6%28Office.15%29.aspx) and [Пример. Свойства отладки элементов Outlook](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-faca78cd) provide further help in troubleshooting and debugging mail apps.  <br/> |
-|Expert availability  <br/> |Programmers who have the required level of web development expertise for Надстройки Office are relatively easy to find. The platform is intended for both professional and non-professional developers.  <br/> |
-|Доступные сведения  <br/> |Information about developing and posting Надстройки Office is available at [Build apps for Office and SharePoint](https://msdn.microsoft.com/office/apps/fp160950.aspx). Specific documentation for mail apps is available at [Надстройки Outlook](https://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx).  <br/> |
-|Developer and deployment licensing  <br/> |Refer to [Лицензирование надстроек Office и SharePoint](https://msdn.microsoft.com/library/3e0e8ff6-66d6-44ff-b0c2-59108ebd9181%28Office.15%29.aspx) for information about the app license framework for Надстройки Office.  <br/> |
+|Языки и инструменты  <br/> |Почтовые приложения можно реализовать с помощью любой распространенной веб-технологии, включая HTML5, JavaScript, CSS3, XML и REST API. Можно использовать рекомендуемое средство разработки веб-приложений, или же Napa, Visual Studio 2012 и более поздние версии этих инструментов, оснащенных средствами экономии времени при разработке.  <br/> |
+|Управляемая реализация  <br/> |Можно использовать управляемые страницы ASPX для реализации серверного кода для почтовых приложений, если это допустимо в данной области применения.  <br/> |
+|Scriptable  <br/> |API JavaScript для Office непосредственно используется в сценариях.  <br/> |
+|Средства тестирования и отладки  <br/> |Используйте любые удобные вам инструменты веб-разработки. Napa и Visual Studio предлагают интегрированную среду разработки, которая облегчает тестирование и отладку приложений. В статьях [Устранение неполадок при активации надстроек Outlook](https://msdn.microsoft.com/library/da5b56c9-7fd1-4556-8c0e-f489c4c9e9b6%28Office.15%29.aspx) и [Пример: отладка свойств элементов Outlook](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-faca78cd) приведены дополнительные сведения по устранению неполадок и отладке почтовых приложений.  <br/> |
+|Доступность специалистов  <br/> |Программистов с необходимым уровнем квалификации в веб-разработке для надстроек Office относительно легко найти. Платформа предназначена как для профессиональных, так и для непрофессиональных разработчиков.  <br/> |
+|Доступные сведения  <br/> |Сведения о разработке и публикации надстроек Office можно найти в статье [Создание приложений сборки для Office и SharePoint](https://msdn.microsoft.com/office/apps/fp160950.aspx). Специальная документация по почтовым приложениям доступна в [надстройках Outlook](https://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx).  <br/> |
+|Лицензирование для разработчиков и развертывания  <br/> |О платформе лицензирования приложений для Office можно прочитать в статье [Лицензирование надстроек Office и SharePoint](https://msdn.microsoft.com/library/3e0e8ff6-66d6-44ff-b0c2-59108ebd9181%28Office.15%29.aspx).  <br/> |
    
 #### <a name="security-criteria"></a>Security criteria
 
-|**Criteria**|**Mail apps support in apps for Office platform**|
+|**Criteria**|**Поддержка почтовых приложений в приложениях для платформы Office**|
 |:-----|:-----|
-|Design-time permissions  <br/> |No special permissions are required to develop mail apps.  <br/> |
-|Setup permissions  <br/> |By default, end users and administrators can install low-trust mail apps that require **restricted** or **read item** permission, and administrators can install high-trust mail apps that require **read/write mailbox** permission.  <br/> |
-|Run-time permissions  <br/> |Mail apps request a specific level of permission that is based on a three-tier permissions model: **restricted**, **read item**, and **read/write mailbox**.  <br/> |
-|Built-in security features  <br/> | The Надстройки Office runtime provides the following benefits to prevent an app from damaging the end user's environment:  <br/>  Isolates the process that the app runs in.  <br/>  Doesn't involve .dll or .exe replacement or ActiveX components.  <br/>  Makes apps easy to install or uninstall by the end user.  <br/>  The administrator and end users have control over the mail apps that are made available and whether to grant the requested permission before installing a mail app.  <br/>  In the case of rich clients, governs the use of memory and CPU to prevent denial of service malicious attacks.  <br/> |
+|Разрешения времени разработки  <br/> |Для разработки почтовых приложений не требуются специальные разрешения.  <br/> |
+|Разрешения при установке  <br/> |По умолчанию конечные пользователи и администраторы могут устанавливать почтовые приложения с низким уровнем доверия, для которых требуется **ограниченный** доступ или разрешение на **чтение элемента**, и администраторы могут устанавливать приложения с высоким уровнем доверия, для которых требуется **разрешение на чтение и запись** в почтовом ящике.  <br/> |
+|Разрешения времени выполнения  <br/> |Почтовые приложения запрашивают разрешения определенного уровня, основанные на трехуровневой модели разрешений: **ограниченный доступ**, **чтение элемента** и **чтение и запись почтового ящика**.  <br/> |
+|Встроенные функции безопасности  <br/> | Среда выполнения надстроек Office предлагает следующие меры, предотвращающие повреждение приложением среды конечного пользователя.  <br/>  Изолирует процесс, в котором работает надстройка.  <br/>  Не предусматривает замены DLL- или EXE-файлов, а также компонентов ActiveX.  <br/>  Упрощает установку или удаление приложений пользователем.  <br/>  Администраторы и пользователи могут управлять доступными почтовыми приложениями, а также указывать, надо ли перед установкой почтового приложения предоставлять требуемое разрешение.  <br/>  При использовании полнофункциональных клиентов управляет использованием памяти и ЦП, чтобы предотвратить атаки типа "отказ в обслуживании".  <br/> |
 |Security monitoring features  <br/> | For mail apps, the following resources are monitored:  <br/>  CPU core usage.  <br/>  Memory usage.  <br/>  Number of crashes.  <br/>  Length of time blocking an application.  <br/>  Regular expression response time.  <br/>  Number of times re-evaluating regular expressions.  <br/>  Administrators can override default settings that govern the resource usage.  <br/> |
    
 #### <a name="deployment-criteria"></a>Deployment criteria
 
-|**Criteria**|**Mail apps support in apps for Office platform**|
+|**Criteria**|**Поддержка почтовых приложений в приложениях для платформы Office**|
 |:-----|:-----|
-|Требования к платформе сервера  <br/> |The user's mailbox for which a mail app is installed must be on Exchange Server 2013 or a later version.  <br/> |
-|Требования к платформе клиента  <br/> |For a mail app to run on the Outlook rich client, Outlook 2013 and Internet Explorer 9, or a later version of these applications, must be installed on the local computer.  <br/> |
-|Методы развертывания  <br/> |You can publish mail apps to the Магазин Office or to an Exchange catalog that makes the app available to users on that Exchange Server. Administrators or users can then choose to install a mail app from the Магазин Office or Exchange catalog, by using either the Exchange Admin Center (EAC) or by running remote Windows PowerShell cmdlets. You can access the EAC from the Outlook Backstage view or Outlook Web App, or by directly signing into the EAC for your mailbox.  <br/> Дополнительные сведения см. в статье [Развертывание и установка надстроек Outlook для тестирования](https://msdn.microsoft.com/library/d6eea4c4-bb21-4f24-bcba-1eccbb4e12dd%28Office.15%29.aspx).  <br/> |
-|Deployment notes  <br/> |Once you install a mail app on Outlook or Outlook Web App, the mail app is available for that mailbox on both Outlook clients.  <br/> |
-   
-### <a name="objective-evaluation-criteria-for-the-object-model-and-pia"></a>Objective evaluation criteria for the object model and PIA
+|Требования к платформе сервера  <br/> |Почтовый ящик пользователя, для которого устанавливается почтовое приложение, должен размещаться в Exchange Server 2013 или более поздней версии.  <br/> |
+|Требования к платформе клиента  <br/> |Для работы почтового приложения в полнофункциональном клиенте Outlook на компьютере необходимо установить Outlook 2013 и Internet Explorer 9 или более поздней версии этих приложений.  <br/> |
+|Методы развертывания  <br/> |Почтовые приложения можно публиковать в магазине Office или в каталоге Exchange, чтобы приложение стало доступно для пользователей на этом сервере Exchange. Администраторы и пользователи могут затем установить почтовое приложение из магазина Office или каталога Exchange, используя Центр администрирования Exchange (EAC) или запуская удаленные командлеты Windows PowerShell. Обратиться к EAC можно в представлении Outlook Backstage или в Outlook Web App, или же либо непосредственно войти в EAC для вашего почтового ящика.  <br/> Дополнительные сведения см. в статье [Развертывание и установка надстроек Outlook для тестирования](https://msdn.microsoft.com/library/d6eea4c4-bb21-4f24-bcba-1eccbb4e12dd%28Office.15%29.aspx).  <br/> |
+|Deployment notes  <br/> |После установки почтового приложения в Outlook или Outlook Web App оно будет доступно для этого почтового ящика в обоих клиентах Outlook.  <br/> |
+
 <a name="OLSelectAPI_ObjectiveEvalCritApps"> </a>
 
-Solutions that run on the client computer can use the Outlook object model or PIA to programmatically access Outlook items, such as contacts, messages, calendar items, meeting requests, and tasks. Unlike MAPI, the Outlook object model and PIA can provide event notifications for Outlook user-interface changes, such as changing the current folder or displaying an Outlook inspector.
+### <a name="objective-evaluation-criteria-for-the-object-model-and-pia"></a>Критерии объективной оценки приложений для объектной модели и PIA
+
+В решениях, выполняемых на клиентском компьютере, может использоваться объектная модель Outlook или PIA для программного доступа к элементам Outlook, таким как контакты, сообщения, элементы календаря, приглашения на собрания и задачи. В отличие от MAPI, объектная модель Outlook и PIA могут уведомлять о событиях в пользовательском интерфейсе Outlook, таких как изменение текущей папки или отображение инспектора Outlook.
   
 > [!NOTE]
-> For a solution to access data that is stored in a Microsoft Exchange mailbox or a personal folders (.pst) file, Outlook must be installed and configured on the client computer on which the application is running. > The Outlook object model and PIA support the same functionality to extend Outlook. The PIA defines managed interfaces that map to the COM-based object model and that a managed solution can interact with. In the remaining discussions in this section, most of the functional, security, and deployment criteria apply to the object model and the PIA in the same way. Дополнительную информацию о том, как PIA обеспечивает взаимодействие между COM и .NET Framework см. в статьях [Введение во взаимодействие между COM и .NET](https://msdn.microsoft.com/library/6b2d099a-ec6f-4099-aaf6-e61003fe5a32%28Office.15%29.aspx) и [Архитектура PIA Outlook](https://msdn.microsoft.com/library/89577d14-e6e2-4270-8e72-b0adba378667%28Office.15%29.aspx). 
+> Чтобы решение могло обращаться к данным, хранящимся в почтовом ящике Microsoft Exchange или в PST-файле личных папок, на клиентском компьютере, на котором запущено приложение, необходимо установить и настроить Outlook. > Объектная модель Outlook и PIA обеспечивают одно и то же расширение возможностей Outlook. PIA определяет управляемые интерфейсы, которые сопоставляются с объектной моделью COM и с которым может взаимодействовать управляемое решение. В остальной части данного раздела большая часть критериев применения, защиты и развертывания применима как к объектной модели, так и к PIA. Дополнительную информацию о том, как PIA обеспечивает взаимодействие между COM и .NET Framework см. в статьях [Введение во взаимодействие между COM и .NET](https://msdn.microsoft.com/library/6b2d099a-ec6f-4099-aaf6-e61003fe5a32%28Office.15%29.aspx) и [Архитектура PIA Outlook](https://msdn.microsoft.com/library/89577d14-e6e2-4270-8e72-b0adba378667%28Office.15%29.aspx). 
   
 В приведенных ниже таблицах перечислены условия оценки для объектной модели Outlook и PIA.
   
-#### <a name="functional-criteria"></a>Functional criteria
+#### <a name="functional-criteria"></a>Функциональные критерии
 
-|**Criteria**|**Outlook object model or PIA**|
+|**Criteria**|**Объектная модель Outlook или PIA**|
 |:-----|:-----|
-|Application domain  <br/> |Add-ins or standalone applications that use the Outlook object model or PIA typically handle user-specific messages, customize the Outlook user interface, or create custom item types for specialized solutions such as customer relationship management (CRM) solutions that integrate with Outlook. The Outlook object model or PIA is sometimes used for message processing in an informal workflow process, especially where application development on the Microsoft Exchange Server is not permitted. Unlike browser-based clients, cached-mode operation allows Outlook solutions to work when the user is offline or disconnected from the corporate network.  <br/> |
-|Major objects  <br/> |The top-level object in the Outlook object model and PIA is the Outlook [Application](https://msdn.microsoft.com/library/797003e7-ecd1-eccb-eaaf-32d6ddde8348%28Office.15%29.aspx) object. [Explorers](https://msdn.microsoft.com/library/8398532a-1fad-7390-6778-109ac5e6c67c%28Office.15%29.aspx), [Conversation](https://msdn.microsoft.com/library/2705d38a-ebc0-e5a7-208b-ffe1f5446b1b%28Office.15%29.aspx), [Inspectors](https://msdn.microsoft.com/library/b65475d6-a212-fc96-459d-47390dfe5ee5%28Office.15%29.aspx), [Views](https://msdn.microsoft.com/library/5dd7edc2-12a2-f4c2-d158-8053d80e8dc9%28Office.15%29.aspx), [NavigationPane](https://msdn.microsoft.com/library/b6538c72-6115-99fc-c926-e0532a747823%28Office.15%29.aspx), [SolutionsModule](https://msdn.microsoft.com/library/4597765e-a95d-bf07-2ac4-103218ebc696%28Office.15%29.aspx), [FormRegion](https://msdn.microsoft.com/library/3a0b83eb-4076-9cb3-86a9-68f9e44df89f%28Office.15%29.aspx), and related objects represent elements of the Outlook user interface. The [NameSpace](https://msdn.microsoft.com/library/f0dcaa19-07f5-5d42-a3bf-2e42b7885644%28Office.15%29.aspx), [Stores](https://msdn.microsoft.com/library/8915a8e4-9c22-21d5-c492-051d393ce5f7%28Office.15%29.aspx), [Folders](https://msdn.microsoft.com/library/0c814c3c-74fc-414c-982d-a0097fcb35c2%28Office.15%29.aspx), [Accounts](https://msdn.microsoft.com/library/2510b7d7-5062-8ea3-dda4-b544d2882a2b%28Office.15%29.aspx), [AccountSelector](https://msdn.microsoft.com/library/846f176e-5680-a214-7624-75f3a524c989%28Office.15%29.aspx), [AddressEntries](https://msdn.microsoft.com/library/db91b717-07c6-d1f2-c545-b766ee1f0c6b%28Office.15%29.aspx), [ExchangeUser](https://msdn.microsoft.com/library/6ec117d1-7fdb-aa36-b567-1242f8238df0%28Office.15%29.aspx), and related objects support extending Outlook sessions, profiles, user accounts, message stores, and folders. At the data level, a number of item-level objects, such as [MailItem](https://msdn.microsoft.com/library/14197346-05d2-0250-fa4c-4a6b07daf25f%28Office.15%29.aspx), [AppointmentItem](https://msdn.microsoft.com/library/204a409d-654e-27aa-643a-8344c631b82d%28Office.15%29.aspx), [ContactItem](https://msdn.microsoft.com/library/8e32093c-a678-f1fd-3f35-c2d8994d166f%28Office.15%29.aspx), and [TaskItem](https://msdn.microsoft.com/library/5df8cfa5-5460-a5a1-a130-ba5bca1a0091%28Office.15%29.aspx), represent the built-in Outlook item types. The [PropertyAccessor](https://msdn.microsoft.com/library/2fc91e13-703c-3ec9-9066-ffee7144306c%28Office.15%29.aspx), [Table](https://msdn.microsoft.com/library/0affaafd-93fe-227a-acee-e09a86cadc20%28Office.15%29.aspx), [Search](https://msdn.microsoft.com/library/226a5d49-3caf-90dd-725c-265404d1939f%28Office.15%29.aspx), [ItemProperties](https://msdn.microsoft.com/library/34a110ed-6617-72da-1e98-a9773c705b40%28Office.15%29.aspx), [UserDefinedProperties](https://msdn.microsoft.com/library/196e5d4c-22be-02d3-95e0-3ea7594c2e4b%28Office.15%29.aspx), [Attachments](https://msdn.microsoft.com/library/4cc96a5f-a822-8ad5-6f61-e996bee8ba22%28Office.15%29.aspx), [Categories](https://msdn.microsoft.com/library/319efa26-269d-9f2f-c8ec-33082e80a9e2%28Office.15%29.aspx), [Recipients](https://msdn.microsoft.com/library/774f56b7-4de8-9584-60cd-4fbf361f4c85%28Office.15%29.aspx), [RecurrencePattern](https://msdn.microsoft.com/library/36c098f7-59fb-879a-5173-ed0260d13fa4%28Office.15%29.aspx), [Reminders](https://msdn.microsoft.com/library/66b94251-7fe4-886b-7c29-7feac4440dee%28Office.15%29.aspx), [Rules](https://msdn.microsoft.com/library/dd41b4de-bf5f-5532-46c9-394a5d078bec%28Office.15%29.aspx), and related objects support customizing and manipulating item-level objects.  <br/> |
-|Data-access model  <br/> |The Outlook object model and PIA represent all data as a hierarchical set of objects and collections.  <br/> |
-|Threading models  <br/> |All calls to the Outlook object model and PIA execute on Outlook's main foreground thread. The only threading model that the Outlook object model supports is single-threaded apartment (STA). Calling the Outlook object model or PIA from a background thread is not supported and can lead to errors and unexpected results in your solution.  <br/> |
-|Application architectures  <br/> |Typically, COM add-ins and other Office applications use the Outlook object model to extend Outlook. Managed solutions can use the Outlook PIA and the COM interoperability layer of Visual Studio and the .NET Framework to access the Outlook object model. Visual Studio provides templates and additional class libraries and manifests to facilitate Office document and application customizations. For more information about using Visual Studio to develop managed add-ins for Outlook, see [Architecture of Application-Level Add-Ins](https://msdn.microsoft.com/library/978f102f-15c6-44e4-84e8-80b161408324.aspx) and [Outlook Solutions](https://msdn.microsoft.com/library/2ae3cd9c-bf31-4efa-8b18-b6b1c34a8d93.aspx). The Outlook object model also supports Visual Basic for Applications (VBA) macros and Windows Scripting Host (WSH), but does not support Windows Service applications.  <br/> |
-|Remote usage  <br/> |The Outlook object model and PIA can be used only on a computer on which Outlook is installed. The Outlook object model can be used to access information stored in Exchange that is available in the Outlook application.  <br/> |
-|Транзакции  <br/> |The Outlook object model and PIA do not support transactions.  <br/> |
-|Доступность  <br/> |The Outlook object model is currently available in all versions of Outlook. The PIA is available in versions of Outlook since Outlook 2003. There have been extensions and improvements with each new version of Outlook.  <br/> |
+|Application domain  <br/> |Надстройки и автономные приложения, которые используют объектную модель Outlook или PIA, обычно обрабатывают сообщения для конкретного пользователя, видоизменяют пользовательский интерфейс Outlook или создают элементы пользовательских типов для специализированных решений, таких как системы управления отношениями с клиентами (CRM), которые интегрируются с Outlook. Объектная модель Outlook и PIA иногда используются для обработки сообщений в неформальном рабочем процессе, особенно в том случае, если развертывание приложений на сервере Microsoft Exchange не разрешено. В отличие от браузерных клиентов, режим кэширования позволяет решениям Outlook работать, когда пользователь находится в автономном режиме или отключен от корпоративной сети.  <br/> |
+|Основные объекты  <br/> |Объект верхнего уровня в объектной модели Outlook и PIA — это объект Outlook [Application](https://msdn.microsoft.com/library/797003e7-ecd1-eccb-eaaf-32d6ddde8348%28Office.15%29.aspx). Объекты [Explorers](https://msdn.microsoft.com/library/8398532a-1fad-7390-6778-109ac5e6c67c%28Office.15%29.aspx), [Conversation](https://msdn.microsoft.com/library/2705d38a-ebc0-e5a7-208b-ffe1f5446b1b%28Office.15%29.aspx), [Inspectors](https://msdn.microsoft.com/library/b65475d6-a212-fc96-459d-47390dfe5ee5%28Office.15%29.aspx), [Views](https://msdn.microsoft.com/library/5dd7edc2-12a2-f4c2-d158-8053d80e8dc9%28Office.15%29.aspx), [NavigationPane](https://msdn.microsoft.com/library/b6538c72-6115-99fc-c926-e0532a747823%28Office.15%29.aspx), [SolutionsModule](https://msdn.microsoft.com/library/4597765e-a95d-bf07-2ac4-103218ebc696%28Office.15%29.aspx), [FormRegion](https://msdn.microsoft.com/library/3a0b83eb-4076-9cb3-86a9-68f9e44df89f%28Office.15%29.aspx) и подобные представляют элементы пользовательского интерфейса Outlook. Объекты [NameSpace](https://msdn.microsoft.com/library/f0dcaa19-07f5-5d42-a3bf-2e42b7885644%28Office.15%29.aspx), [Stores](https://msdn.microsoft.com/library/8915a8e4-9c22-21d5-c492-051d393ce5f7%28Office.15%29.aspx), [Folders](https://msdn.microsoft.com/library/0c814c3c-74fc-414c-982d-a0097fcb35c2%28Office.15%29.aspx), [Accounts](https://msdn.microsoft.com/library/2510b7d7-5062-8ea3-dda4-b544d2882a2b%28Office.15%29.aspx), [AccountSelector](https://msdn.microsoft.com/library/846f176e-5680-a214-7624-75f3a524c989%28Office.15%29.aspx), [AddressEntries](https://msdn.microsoft.com/library/db91b717-07c6-d1f2-c545-b766ee1f0c6b%28Office.15%29.aspx), [ExchangeUser](https://msdn.microsoft.com/library/6ec117d1-7fdb-aa36-b567-1242f8238df0%28Office.15%29.aspx) и подобные поддерживают расширение сеансов, профилей, учетных записей пользователей, хранилищ сообщений и папок Outlook. На уровне данных ряд объектов уровня элементов, такие как [MailItem](https://msdn.microsoft.com/library/14197346-05d2-0250-fa4c-4a6b07daf25f%28Office.15%29.aspx), [AppointmentItem](https://msdn.microsoft.com/library/204a409d-654e-27aa-643a-8344c631b82d%28Office.15%29.aspx), [ContactItem](https://msdn.microsoft.com/library/8e32093c-a678-f1fd-3f35-c2d8994d166f%28Office.15%29.aspx) и [TaskItem](https://msdn.microsoft.com/library/5df8cfa5-5460-a5a1-a130-ba5bca1a0091%28Office.15%29.aspx), представляют встроенные элементы Outlook. Объекты [PropertyAccessor](https://msdn.microsoft.com/library/2fc91e13-703c-3ec9-9066-ffee7144306c%28Office.15%29.aspx), [Table](https://msdn.microsoft.com/library/0affaafd-93fe-227a-acee-e09a86cadc20%28Office.15%29.aspx), [Search](https://msdn.microsoft.com/library/226a5d49-3caf-90dd-725c-265404d1939f%28Office.15%29.aspx), [ItemProperties](https://msdn.microsoft.com/library/34a110ed-6617-72da-1e98-a9773c705b40%28Office.15%29.aspx), [UserDefinedProperties](https://msdn.microsoft.com/library/196e5d4c-22be-02d3-95e0-3ea7594c2e4b%28Office.15%29.aspx), [Attachments](https://msdn.microsoft.com/library/4cc96a5f-a822-8ad5-6f61-e996bee8ba22%28Office.15%29.aspx), [Categories](https://msdn.microsoft.com/library/319efa26-269d-9f2f-c8ec-33082e80a9e2%28Office.15%29.aspx), [Recipients](https://msdn.microsoft.com/library/774f56b7-4de8-9584-60cd-4fbf361f4c85%28Office.15%29.aspx), [RecurrencePattern](https://msdn.microsoft.com/library/36c098f7-59fb-879a-5173-ed0260d13fa4%28Office.15%29.aspx), [Reminders](https://msdn.microsoft.com/library/66b94251-7fe4-886b-7c29-7feac4440dee%28Office.15%29.aspx), [Rules](https://msdn.microsoft.com/library/dd41b4de-bf5f-5532-46c9-394a5d078bec%28Office.15%29.aspx) и подобные поддерживают видоизменение объектов уровня элементов и операции с ними.  <br/> |
+|Модель доступа к данным  <br/> |Объектная модель Outlook и PIA представляют все данные в виде иерархического набора объектов и коллекций.  <br/> |
+|Модели потоков  <br/> |Все обращения к объектной модели Outlook и PIA выполняются в основном потоке переднего плана Outlook. Единственная потоковая модель, поддерживаемая объектной моделью Outlook, — является однопотоковое подразделение (STA). Обращение к объектной модели Outlook или PIA из фонового потока не поддерживается и может привести к ошибкам и неожиданным результатам работы решения.  <br/> |
+|Архитектуры приложений  <br/> |Как правило, в надстройках COM и других приложениях Office для расширения возможностей Outlook используется объектная модель Outlook. В управляемых решениях для доступа к объектной модели Outlook можно использовать PIA Outlook и уровень взаимодействия COM в Visual Studio и платформу .NET Framework. В Visual Studio имеются шаблоны и дополнительные библиотеки классов и манифесты, упрощающие настройку документов и приложений Office. Дополнительные сведения об использовании Visual Studio для разработки управляемых надстроек для Outlook см. в статьях [Архитектура надстроек уровня приложения](https://msdn.microsoft.com/library/978f102f-15c6-44e4-84e8-80b161408324.aspx) и [Решения Outlook](https://msdn.microsoft.com/library/2ae3cd9c-bf31-4efa-8b18-b6b1c34a8d93.aspx). Объектная модель Outlook также поддерживает макросы Visual Basic для приложений (VBA) и сервер сценариев Windows (WSH), но не поддерживает приложения служб Windows.  <br/> |
+|Удаленное использование  <br/> |Объектную модель Outlook и PIA можно использовать только на том компьютере, на котором установлено приложение Outlook. Объектную модель Outlook можно использовать для доступа к информации, хранящейся в Exchange, которая доступна в приложении Outlook.  <br/> |
+|Транзакции  <br/> |Объектная модель Outlook и PIA не поддерживают транзакции.  <br/> |
+|Доступность  <br/> |Объектная модель Outlook в настоящее время доступна во всех версиях Outlook. Сборка PIA доступна в версиях Outlook, начиная с Outlook 2003. В каждой новой версии Outlook появляются расширения и усовершенствования.  <br/> |
    
-#### <a name="development-criteria"></a>Development criteria
+#### <a name="development-criteria"></a>Критерии разработки
 
-|**Criteria**|**Outlook object model or PIA**|
+|**Criteria**|**Объектная модель Outlook или PIA**|
 |:-----|:-----|
-|Languages and tools  <br/> |You can implement Outlook object model applications by using any COM or automation-compatible language, such as Visual Basic or C#, as well as non-COM languages, such as native C or C++. Инструменты разработчика Microsoft Office в Microsoft Visual Studio 2010 are the preferred tools for development of managed add-ins for Outlook 2010 and Outlook 2007. Microsoft Visual Studio 2005 Tools for the Microsoft Office System are the preferred tools for Outlook 2003. You can also use Инструменты разработчика Office в Visual Studio 2010 to create solutions for 32-bit and 64-bit versions of Outlook. When you build a solution in Инструменты разработчика Office в Visual Studio 2010 or Microsoft Visual Studio Tools for the Microsoft Office System, specifying the **Any CPU** option for the target platform results in managed solutions that work for both 32-bit and 64-bit versions of Outlook 2010.  <br/> |
-|Managed implementation  <br/> |The Outlook PIA enables the Outlook object model to be used in a managed-code environment, which is supported by a rich set of class libraries and support technologies that address many limitations of VBA and COM add-ins. The PIA is a COM wrapper that acts as a bridge between the managed and COM environments. For more information, see [Причины использования Outlook PIA](https://msdn.microsoft.com/library/5cc9085e-7c97-4698-8cb9-e33e427c02e7%28Office.15%29.aspx).  <br/> |
-|Scriptable  <br/> |The Outlook object model can be used in scripts.  <br/> |
-|Test and debug tools  <br/> |No special debugging tools are needed to use the Outlook object model or PIA. On the other hand, you can use Visual Studio to provide an integrated development environment that facilitates application testing and debugging.  <br/> |
-|Expert availability  <br/> |Developers who can successfully develop applications by using the Outlook object model or PIA are relatively easy to find. The Outlook object model and PIA are intended for add-ins created by using widely available development tools, such as Visual Studio. These tools provide design-time environments that simplify the development process.  <br/> |
-|Доступные сведения  <br/> |Information about programming by using the Outlook object model is available in both Microsoft and third-party resources. For more information about the Outlook object model, see the [Outlook 2010 Developer Reference](https://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx). For more information about the Outlook PIA, see the [Outlook 2010 Primary Interop Assembly Reference](https://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx). For examples of managed Outlook solutions developed by using Office development tools in Visual Studio, see [Outlook Solutions with Visual Studio](https://msdn.microsoft.com/vsto/dd162450.aspx).  <br/> |
-|Developer and deployment licensing  <br/> |Refer to your Exchange and Microsoft Developer Network (MSDN) subscription licensing agreements to determine whether additional licenses are required for Outlook and Outlook object model use in your applications.  <br/> |
+|Языки и инструменты  <br/> |Приложения объектной модели Outlook можно реализовать на любом языке, совместимом с COM или автоматизацией, например Visual Basic или C#, а также на других языках, например C или C++. Для разработки управляемых надстроек для Outlook 2010 и Outlook 2007 рекомендуется использовать инструменты разработки Microsoft Office в Microsoft Visual Studio 2010. Рекомендуемые инструменты для Outlook 2003 — Microsoft Visual Studio 2005 Tools для Microsoft Office. Кроме того, можно использовать средства разработки Office в Visual Studio 2010 для создания решений для 32-и 64-разрядных версий Outlook. При создании решения в средствах разработки Office в Visual Studio 2010 или Microsoft Visual Studio Tools для Microsoft Office, если указать целевую платформу **Any CPU** (Любой ЦП), будет получено управляемое решение, пригодное как для 32-разрядной, так и для 64-разрядной версии Outlook 2010.  <br/> |
+|Управляемая реализация  <br/> |PIA Outlook обеспечивает использование объектной модели Outlook в среде управляемого кода, которая поддерживается множеством библиотек классов и технологий поддержки, устраняющих множество ограничений надстроек VBA и COM. PIA — это обертка COM, которая играет роль моста между управляемой средой и средой COM. Дополнительные сведения см. в статье [Причины использования PIA Outlook](https://msdn.microsoft.com/library/5cc9085e-7c97-4698-8cb9-e33e427c02e7%28Office.15%29.aspx).  <br/> |
+|Scriptable  <br/> |Объектную модель Outlook можно использовать в сценариях.  <br/> |
+|Средства тестирования и отладки  <br/> |Для использования объектной модели Outlook или PIA не требуются специальные инструменты отладки. С другой стороны, можно средствами Visual Studio создать интегрированную среду разработки, облегчающую тестирование и отладку приложений.  <br/> |
+|Доступность специалистов  <br/> |Программистов, способных успешно разрабатывать приложения с помощью объектной модели Outlook или PIA, относительно легко найти. Объектная модель Outlook и PIA предназначены для надстроек, созданных с помощью общедоступных инструментов разработки, например Visual Studio. Эти инструменты предлагают среды разработки, которая упрощает процесс разработки.  <br/> |
+|Доступные сведения  <br/> |Сведения о программировании с помощью объектной модели Outlook доступны как в корпорации Майкрософт, так и в сторонних ресурсах. Дополнительные сведения о объектной модели Outlook см. в [Справочнике разработчика Outlook 2010](https://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx). Дополнительные сведения о PIA в Outlook см. в [Справочнике по основной сборке взаимодействия Outlook 2010](https://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx). Примеры управляемых решений Outlook, разработанных с помощью средств разработки Office в Visual Studio, см в статье [Решения Outlook в среде Visual Studio](https://msdn.microsoft.com/vsto/dd162450.aspx).  <br/> |
+|Лицензирование для разработчиков и развертывания  <br/> |Чтобы узнать, требуются ли дополнительные лицензии для использования Outlook и объектной модели Outlook в приложениях, обратитесь к лицензионным соглашениям для Microsoft Exchange и подписки на Microsoft Developer Network (MSDN).  <br/> |
    
 #### <a name="security-criteria"></a>Security criteria
 
-|**Criteria**|**Outlook object model or PIA**|
+|**Criteria**|**Объектная модель Outlook или PIA**|
 |:-----|:-----|
-|Design-time permissions  <br/> |No special permissions are required to develop applications by using the Outlook object model or PIA.  <br/> |
-|Setup permissions  <br/> |No special permissions are required to install applications that use the Outlook object model or PIA. However, local administrator rights are required to install Office and Outlook.  <br/> |
-|Run-time permissions  <br/> |No special permissions are required to run applications that use the Outlook object model or PIA.  <br/> |
-|Built-in security features  <br/> |The Outlook object model and PIA communicate with Exchange by using MAPI and with Active Directory by using Active Directory Service Interfaces (ADSI). The current security context of the user who is running the application is used to determine what resources that code can access. By default, add-ins are trusted for full access to all objects, properties, and methods in the Outlook object model or PIA. IT administrators can exercise control over which add-ins and objects can access the Outlook object model or PIA. The Outlook object model and PIA prevent code that is run outside the Outlook process from accessing secure objects and methods.  <br/> |
+|Разрешения времени разработки  <br/> |Для разработки приложений с помощью объектной модели Outlook или PIA не требуются специальные разрешения.  <br/> |
+|Разрешения при установке  <br/> |Для установки приложений, использующих объектную модель Outlook или PIA, не требуются специальные разрешения. Однако для установки Office и Outlook требуются права локального администратора.  <br/> |
+|Разрешения времени выполнения  <br/> |Для запуска приложений, использующих объектную модель Outlook или PIA, не требуются специальные разрешения.  <br/> |
+|Встроенные функции безопасности  <br/> |Объектная модель Outlook и PIA обмениваются данными с Exchange с помощью MAPI, а с Active Directory — с помощью интерфейсов службы Active Directory (ADSI). Для определения ресурсов, доступ к которым может получить код приложения, используется текущий контекст безопасности пользователя, который запустил приложение. По умолчанию надстройки являются доверенными для полного доступа ко всем объектам, свойствам и методам объектной модели Outlook или PIA. ИТ-администраторы могут осуществлять контроль над тем, какие надстройки и объекты могут получить доступ к объектной модели Outlook или PIA. Объектная модель Outlook и PIA запрещают доступ к защищенным объектам и методам коду, который выполняется вне процесса Outlook.  <br/> |
 |Security monitoring features  <br/> | Outlook monitors the following metrics of an add-in to determine whether it should disable the add-in:  <br/>  Startup  <br/>  Shutdown  <br/>  Folder switch  <br/>  Item open  <br/> **Invoke** frequency  <br/>  Administrators can use group policy to override user settings and control the add-ins that run on the user's computers.  <br/>  For more information, see [Performance criteria for keeping add-ins enabled](https://msdn.microsoft.com/library/office/4c6d44d2-238b-42d8-896b-51d513c9e14c#ol15WhatsNew_AddinDisabling).  <br/> |
    
 #### <a name="deployment-criteria"></a>Deployment criteria
 
-|**Criteria**|**Outlook object model or PIA**|
+|**Criteria**|**Объектная модель Outlook или PIA**|
 |:-----|:-----|
-|Требования к платформе сервера  <br/> |The Outlook object model and PIA are client-side technologies.  <br/> |
-|Требования к платформе клиента  <br/> |Applications that use the Outlook object model or PIA to access Exchange data require that Outlook be installed on the local computer.  <br/> |
-|Методы развертывания  <br/> |Applications that use the Outlook object model or PIA are distributed by using standard application installation software.  <br/> |
-|Deployment notes  <br/> |Because Outlook should not be installed on the Exchange Server, applications that use the Outlook object model or PIA cannot be run on the Exchange Server.  <br/> |
-   
-### <a name="objective-evaluation-criteria-for-mapi"></a>Objective evaluation criteria for MAPI
+|Требования к платформе сервера  <br/> |Объектная модель Outlook и PIA представляют собой клиентские технологии.  <br/> |
+|Требования к платформе клиента  <br/> |Приложения, которые используют объектную модель Outlook или PIA для доступа к данным Exchange, требуют, чтобы на локальном компьютере было установлено приложение Outlook.  <br/> |
+|Методы развертывания  <br/> |Приложения, использующие объектную модель Outlook или PIA, распространяются с использованием стандартного программного обеспечения для установки приложений.  <br/> |
+|Deployment notes  <br/> |Так как на сервере Exchange нельзя устанавливать Outlook, приложения, использующие объектную модель Outlook или PIA, невозможно запускать на сервере Exchange.  <br/> |
+
 <a name="OLSelectAPI_ObjectiveEvalCritApps"> </a>
 
-You can use MAPI to access items and folders in public and private stores, as well as to access the properties stored with each item. All versions of Outlook use MAPI. You can create clients that use MAPI, and can create MAPI servers and MAPI forms handlers, as well. The information in this section applies only to MAPI client applications.
+### <a name="objective-evaluation-criteria-for-mapi"></a>Критерии объективной оценки для MAPI
+
+MAPI можно использовать для доступа к элементам и папкам в общедоступных и частных хранилищах, а также для доступа к свойствам, хранящимся в каждом из них. Все версии Outlook используют MAPI. Можно создавать клиенты, использующие MAPI, а также создавать серверы MAPI и обработчики форм MAPI. Сведения, приведенные в этом разделе, относятся только к клиентским приложениям MAPI.
   
 > [!NOTE]
-> MAPI is a mature mechanism used to access information in Exchange or in a personal folders (.pst) file, and MAPI provides some capabilities that are not available in any other API. However, MAPI does not work well outside an intranet, maintains an open connection for the duration of the MAPI session, and can be difficult to learn. MAPI does not enforce Outlook business logic, so you must take special care to ensure that Outlook business logic is maintained. 
+> MAPI — это испытанная технология, которая используется для доступа к информации в Exchange или в PST-файле личных папок и предоставляет некоторые возможности, недоступные в других API-интерфейсах. Однако MAPI не работает за пределами интрасети, поддерживает открытое подключение в течение всего сеанса MAPI и может представлять трудности для изучения. MAPI не требует использования бизнес-логики Outlook, поэтому, если необходимо применять бизнес-логику Outlook, ее следует обеспечить другими средствами. 
   
-The following tables show evaluation criteria for MAPI.
+В следующих таблицах показаны критерии для MAPI.
   
-#### <a name="functional-criteria"></a>Functional criteria
+#### <a name="functional-criteria"></a>Функциональные критерии
 
 |**Criteria**|**MAPI**|
 |:-----|:-----|
-|Application domain  <br/> |Client applications that use MAPI access a user mailbox or public folder information stored in Exchange, and user directory information stored in Active Directory. Client applications that use MAPI are typically email clients, such as Outlook, and applications that require complex email processing.  <br/> |
-|Major objects  <br/> |MAPI objects are all obtained through the [IMAPISession: IUnknown](https://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx) interface. The session object provides the client access to objects for working with MAPI profiles, status, message service provider administration, message store tables, and address books. The message store table contains objects for the message store, folders, messages, attachments, and recipients. The address book tables contain objects for messaging users and distribution lists.  <br/> |
-|Data-access model  <br/> |MAPI represents messages and users as a hierarchical set of objects.  <br/> |
-|Threading models  <br/> |There are no specific threading prohibitions. However, applications that use free-threading should avoid sharing MAPI objects among threads due to the high costs of marshaling the object. MAPI and MAPI service providers use free-threading.  <br/> |
-|Application architectures  <br/> |MAPI client applications are typically Windows Forms-based client applications. However, you can use MAPI to write N-tier applications.  <br/> |
-|Remote usage  <br/> |MAPI uses remote procedure calls (RPCs) to communicate with the Exchange Server. Typically RPCs are intentionally blocked from passing through Internet firewalls.  <br/> |
-|Транзакции  <br/> |MAPI does not support transactions.  <br/> |
-|Доступность  <br/> |A MAPI stub currently ships with all versions of Windows. Office installs its own MAPI subsystem when it installs Outlook. No changes to MAPI are anticipated at this time.  <br/> |
+|Домен приложения  <br/> |Клиентские приложения, использующие MAPI, получают доступ к информации почтового ящика пользователя или общей папки, хранящихся в Exchange, а также информацию каталога пользователей, который хранится в службе Active Directory. Как правило, клиентские приложения, использующие MAPI, — это клиенты электронной почты, такие как Outlook, и приложения, в которых требуется сложная обработка электронной почты.  <br/> |
+|Основные объекты  <br/> |Объекты MAPI можно получить через интерфейс [IMAPISession : IUnknown](https://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx). Объект сеанса предоставляет клиентский доступ к объектам для работы с профилями MAPI, состоянием, администрированием поставщика службы сообщений, таблицами хранилища сообщений и адресными книгами. Таблица хранилища сообщений содержит объекты для хранилища сообщений, папки, сообщений, вложений и получателей. Таблицы адресных книг содержат объекты для пользователей службы сообщений и списков рассылки.  <br/> |
+|Модель доступа к данным  <br/> |MAPI представляет сообщения и пользователей в виде иерархического набора объектов.  <br/> |
+|Модели потоков  <br/> |Особых запретов на использование потоков нет. Однако приложения, использующие модель свободных потоков, не должны предоставлять общий доступ к объектам MAPI в разных потоках из-за высоких затрат на маршалинг объекта. Поставщики услуг MAPI и MAPI используют модель свободных потоков.  <br/> |
+|Архитектуры приложений  <br/> |Клиентские приложения MAPI, как правило, представляют собой клиентские приложения на основе Windows Forms. Однако можно использовать MAPI и для написания многоуровневых приложений.  <br/> |
+|Удаленное использование  <br/> |MAPI использует удаленные вызовы процедур (RPC) для связи с сервером Exchange. Как правило, передача таких вызовов через брандмауэры Интернета запрещается.  <br/> |
+|Транзакции  <br/> |MAPI не поддерживает транзакции.  <br/> |
+|Доступность  <br/> |В настоящий момент заглушка MAPI поставляется со всеми версиями Windows. При установке Outlook в Office устанавливается отдельная подсистема MAPI. На данный момент изменения в MAPI не принимаются.  <br/> |
    
-#### <a name="development-criteria"></a>Development criteria
+#### <a name="development-criteria"></a>Критерии разработки
 
 |**Criteria**|**MAPI**|
 |:-----|:-----|
-|Languages and tools  <br/> |You can directly access MAPI by using C or C++. Other languages that can access the C/C++ calling convention may be able to access MAPI. The use of managed languages, such as Visual Basic or C#, is not supported. You must compile separate MAPI solutions for 32-bit and 64-bit versions of Outlook.  <br/> |
-|Managed implementation  <br/> |MAPI is an unmanaged component. Use of MAPI is not supported under the COM interoperability layer of Visual Studio and the .NET Framework. For more information about MAPI support for managed components, see Knowledge Base article [266353: The support guidelines for client-side messaging development](https://go.microsoft.com/fwlink/?LinkId=133254).  <br/> |
-|Scriptable  <br/> |MAPI cannot be directly used in scripts.  <br/> |
-|Test and debug Tools  <br/> |No special debugging tools are needed to debug applications that use MAPI. On the other hand, you can use [MFCMAPI](https://mfcmapi.codeplex.com/). MFCMAPI uses MAPI to provide access to MAPI stores through a graphical user interface, and facilitates investigation of issues when you extend Outlook by using MAPI.  <br/> |
-|Expert availability  <br/> |Expert MAPI programmers can be difficult to find, and learning the technology can take a significant amount of time. In addition to the Microsoft communities, there are only a small number of high-quality third-party websites that provide helpful MAPI development information.  <br/> |
-|Доступные сведения  <br/> |Both Microsoft and third-party books that describe MAPI programming are available.  <br/> |
-|Developer and deployment licensing  <br/> |No special licensing is required for developing applications that use MAPI.  <br/> |
+|Языки и инструменты  <br/> |Можно обращаться к MAPI напрямую, используя C или C++. Другие языки, использующие соглашение о вызовах C/C++, также могут обращаться к MAPI. Использование управляемых языков, таких как Visual Basic или C#, не поддерживается. Решения MAPI для 32- и 64-разрядных версий Outlook необходимо компилировать отдельно.  <br/> |
+|Managed implementation  <br/> |MAPI — это неуправляемый компонент. Использование MAPI не поддерживается на уровне COM-совместимости Visual Studio и в .NET Framework. Дополнительные сведения о поддержке MAPI для управляемых компонентов см. в статье базы знаний [KB 266353: рекомендации поддержки для разработки клиентской системы обмена сообщениями](https://go.microsoft.com/fwlink/?LinkId=133254).  <br/> |
+|Scriptable  <br/> |MAPI нельзя использовать в сценариях напрямую.  <br/> |
+|Средства тестирования и отладки  <br/> |Для отладки приложений, использующих MAPI, не требуются специальные инструменты отладки. Также можно использовать средство [MFCMAPI](https://mfcmapi.codeplex.com/). Это средство с помощью MAPI предоставляет доступ к хранилищу MAPI через графический пользовательский интерфейс, а также помогает исследовать проблемы, возникающие при расширении возможностей Outlook с помощью MAPI.  <br/> |
+|Доступность специалистов  <br/> |Найти опытных программистов по MAPI может быть затруднительно, и изучение технологии может занять много времени. Кроме сообществ Майкрософт, существует лишь небольшое число высококачественных сторонних веб-сайтов, которые содержат полезные сведения о разработке MAPI.  <br/> |
+|Доступные сведения  <br/> |Имеются как источники Microsoft, так и книги других издателей, в которых описывается программирование MAPI.  <br/> |
+|Лицензирование для разработчиков и развертывания  <br/> |No special licensing is required for developing applications that use MAPI.  <br/> |
    
 #### <a name="security-criteria"></a>Security criteria
 
 |**Criteria**|**MAPI**|
 |:-----|:-----|
-|Design-time permissions  <br/> |The developer must have permissions to access the data in the Exchange store. Exchange stores user and distribution list information in Active Directory, so developers who create MAPI client applications that access that information must have the ability to retrieve and set that information.  <br/> |
-|Setup permissions  <br/> |Setting up MAPI-based applications typically requires the user to be a local administrator, or to have rights to install software.  <br/> |
-|Run-time permissions  <br/> |Running a MAPI-based application usually requires only that the user has sufficient permissions to access the data on an Exchange store or personal folders (.pst) file.  <br/> |
-|Built-in security features  <br/> |MAPI profiles can be password protected on most platforms.  <br/> |
+|Разрешения времени разработки  <br/> |Разработчик должен иметь разрешения на доступ к данным в хранилище Exchange. В Exchange информация пользователей и списков рассылки хранится в службе каталогов Active Directory, поэтому разработчики, создающие клиентские приложения MAPI с доступом к этой информации, должны иметь возможность чтения и записи этой информации.  <br/> |
+|Разрешения при установке  <br/> |Для настройки приложений на основе MAPI обычно требуются права локального администратора или права на установку программного обеспечения.  <br/> |
+|Разрешения времени выполнения  <br/> |Для запуска приложения на основе MAPI, как правило, достаточно, чтобы у пользователя были необходимые разрешения на доступ к данным в хранилище Exchange или в файле личных папок (PST).  <br/> |
+|Встроенные функции безопасности  <br/> |Профили MAPI на большинстве платформ можно защищать паролями.  <br/> |
    
 #### <a name="deployment-criteria"></a>Deployment criteria
 
 |**Criteria**|**MAPI**|
 |:-----|:-----|
-|Требования к платформе сервера  <br/> |The Exchange Server on which user data is stored for users of the MAPI client application must be properly configured to allow access by MAPI clients.  <br/> |
-|Требования к платформе клиента  <br/> |The client application installer should verify that the proper version of MAPI is available on the computer, and that it is properly configured by using the Mapisvc.inf file.  <br/> |
-|Методы развертывания  <br/> |Applications that use MAPI can be deployed to client computers by using standard software distribution technologies.  <br/> |
-|Deployment notes  <br/> |The installer should verify that the correct version of MAPI is available.  <br/> |
-   
-## <a name="decision-factors-for-the-apps-for-office-platform"></a>Decision factors for the apps for Office platform
+|Требования к платформе сервера  <br/> |Сервер Exchange, на котором хранятся пользовательские данные для пользователей клиентского приложения MAPI, должен быть правильно настроен, чтобы разрешить доступ клиентам MAPI.  <br/> |
+|Требования к платформе клиента  <br/> |Установщик клиентского приложения должен убедиться в том, что на компьютере имеется требуемая версия MAPI и что она правильно настроена с помощью файла Mapisvc.inf.  <br/> |
+|Методы развертывания  <br/> |Приложения, использующие MAPI, можно развертывать на клиентских компьютерах с помощью стандартных технологий распространения программного обеспечения.  <br/> |
+|Deployment notes  <br/> |Установщик должен убедиться в наличии требуемой версии MAPI.  <br/> |
+
 <a name="OLSelectAPI_FactorsApps"> </a>
 
-Because Надстройки Office use web technologies, they are best for connecting to services in the cloud or on-premises, and bringing the services into the context of the rich client and web client. By requesting appropriate permissions, mail apps also allow reading, writing, or sending items in a mailbox.
+## <a name="decision-factors-for-the-apps-for-office-platform"></a>Решающие факторы для приложений для платформы Office
+
+Поскольку надстройки Office используют веб-технологии, они лучше всего подходят для подключения к службам в облаке или в локальной среде, а также для внесения служб в контекст полнофункционального клиента и веб-клиента. Запрашивая соответствующие разрешения, почтовые приложения также позволяют читать, записывать и отправлять элементы в почтовом ящике.
   
-The following are common reasons why mail apps are a better choice for developers than add-ins:
+Ниже приведены распространенные причины, по которым почтовые приложения более удобны для разработчиков, чем надстройки.
   
-- You can use existing knowledge of and the benefits of web technologies such as HTML, JavaScript, and CSS. For power users and new developers, XML, HTML, and JavaScript require less significant ramp-up time than COM-based APIs, including the object model and MAPI.
+- Можно использовать существующие знания и преимущества веб-технологий, таких как HTML, JavaScript и CSS. Для опытных пользователей и разработчиков-новичков XML, HTML и JavaScript требуют значительно меньше времени на освоение, чем API на базе COM, включая объектную модель и MAPI.
     
-- You can use a simple web deployment model to update your mail app (including the web services that the app uses) on your web server without any complex installation on the Outlook client. In fact, any updates to the mail app, with the exception of the app manifest, do not require any updating on the Office client. You can update the code or user interface of the mail app conveniently just on the web server. This presents a significant advantage over the administrative overhead involved in updating add-ins.
+- Можно использовать простую модель веб-развертывания для обновления почтового приложения (в том числе веб-служб, используемых приложением) на веб-сервере без сложной процедуры установки в клиенте Outlook. По сути, любые обновления почтового приложения, за исключением манифеста приложения, не требуют обновления в клиенте Office. Можно обновлять код или пользовательский интерфейс почтового приложения лишь на веб-сервере. Это дает преимущество перед обновлением настроек, связанным со значительными административными издержками.
     
-- You can use a common web development platform for mail apps that can roam across the Outlook rich client and Outlook Web App on the desktop, tablet, and smartphone. On the other hand, add-ins use the object model for the Outlook rich client and, hence, can run on only that rich client on a desktop form factor.
+- Можно использовать стандартную платформу веб-разработки для почтовых приложений, которые могут размещаться в полнофункциональном клиенте Outlook и Outlook Web App на компьютере, планшете и смартфоне. С другой стороны, надстройки используют объектную модель полнофункционального клиента Outlook и, следовательно, могут работать только в таком многофункциональном клиенте на компьютере.
     
-- You can enjoy rapid turnaround of building and releasing apps via the Магазин Office.
+- Доступно быстрое создание приложений и их выпуск через магазин Office.
     
-- Because of the three-tier permissions model, users and administrators perceive better security and privacy in mail apps than add-ins, which have full access to the content of each account in the user's profile. This, in turn, encourages user consumption of apps.
+- Исходя из трехуровневой модели разрешений, пользователи и администраторы получают более высокий уровень безопасности и конфиденциальности в почтовых приложениях, чем в надстройках, которые имеют полный доступ к содержимому каждой учетной записи в профиле пользователя. Это, в свою очередь, способствует интересу пользователей к приложениям.
     
-- Depending on your scenarios, there are features unique to mail apps that you can take advantage of and that are not supported by add-ins:
+- В зависимости от ситуации применения могут существовать функции, доступные только в почтовых приложениях и не поддерживаемые надстройками:
     
-  - You can specify a mail app to activate only for certain contexts (for example, Outlook displays the app in the app bar only if the message class of the user-selected appointment is IPM.Appointment.Contoso, or if the body of an email contains a package tracking number or a customer identifier).
+  - Можно указать, чтобы почтовое приложение активировалось только в определенных контекстах (например, приложение отображается на панели приложения в Outlook, только если выбранная пользователем встреча имеет класс IPM.Appointment.Contoso или если текст сообщения электронной почты содержит номер отслеживания пакета или идентификатор клиента).
     
-  - You can activate a mail app if the selected message contains some known entities, such as an address, contact, email address, meeting suggestion, or task suggestion.
+  - Можно активировать почтовое приложение, если выбранное сообщение содержит определенные известные объекты, такие как адрес, контакт, адрес электронной почты, предложение встречи или предложение задачи.
     
-  - You can take advantage of authentication by identity tokens, and of Exchange Web Services.
+  - Можно использовать проверку подлинности по маркерам удостоверения, а также веб-службы Exchange.
     
-However, the following features are unique to add-ins and may make them a more appropriate choice than mail apps in some circumstances:
+Однако указанные ниже функции имеются только в надстройках, что в некоторых случаях может заставить сделать выбор в их пользу перед почтовыми приложениями.
   
-- You can use add-ins to extend or automate Outlook at an application-level, because the object model and PIA have extensive integration with Outlook features (such as all Outlook item types, user interface, sessions, and rules). At the item-level, add-ins can interact with an item in read or compose mode. With mail apps, you cannot automate Outlook at the application level, and you can extend Outlook's functionality in the context of only the read-mode of the supported items (messages and appointments) in the user's mailbox.
+- Надстройки можно использовать для расширения или автоматизации Outlook на уровне приложений, так как объектная модель и PIA более тесно интегрированы с функциями Outlook (такими как все типы элементов Outlook, пользовательский интерфейс, сеансы и правила). На уровне элементов надстройки могут взаимодействовать с элементами в режиме чтения или создания. В почтовых приложениях невозможна автоматизация Outlook на уровне приложений, и функциональные возможности Outlook можно расширять только в контексте режима чтения поддерживаемых элементов (сообщений и встреч) в почтовом ящике пользователя.
     
-- You can specify custom business logic for a new item type.
+- Можно указать нестандартную бизнес-логику для нового типа элементов.
     
-- You can modify and add custom commands in the ribbon and Backstage view.
+- Можно изменять и добавлять собственные команды на ленте и в представлении Backstage.
     
-- You can display a custom form page or form region.
+- Можно создать настраиваемую страницу формы или область формы.
     
-- You can detect events such as sending an item or modifying properties of an item.
+- Можно обнаруживать события, такие как отправка элемента или изменение его свойств.
     
 - Вы можете использовать надстройки в Outlook 2013 и Exchange Server 2013, так же, как в более ранних версиях Outlook и Exchange. С другой стороны, почтовые приложения работают с Outlook и Exchange, начиная с Outlook 2013 и Exchange Server 2013 (более ранние версии не поддерживаются).
     
-For more information about scenarios that the object model and PIA support, see the next section, [Decision factors for the object model or PIA](#OLSelectAPI_FactorsOM). For a comparison of the Надстройки Office platform with other extensibility technologies for Office, see [The background on apps for Office and SharePoint](https://blogs.msdn.com/b/officeapps/archive/2012/07/23/introducing-apps-for-the-new-office-and-sharepoint.aspx).
-  
-## <a name="decision-factors-for-the-object-model-or-pia"></a>Decision factors for the object model or PIA
+Дополнительные сведения о сценариях использование объектной модели и PIA, см. в следующем разделе: [Факторы, влияющие на выбор объектной модели или PIA](#OLSelectAPI_FactorsOM). Сравнение платформы надстроек Office с другими технологиями расширения Office см. в статье [Общие сведения о приложениях для Office и SharePoint](https://blogs.msdn.com/b/officeapps/archive/2012/07/23/introducing-apps-for-the-new-office-and-sharepoint.aspx).
+
 <a name="OLSelectAPI_FactorsOM"> </a>
 
-In general, use the object model or the PIA if your solution customizes the Outlook user interface or relies on Outlook's business logic. Figure 2 shows the major baseline scenarios for which Outlook solutions use the object model or the PIA. 
+## <a name="decision-factors-for-the-object-model-or-pia"></a>Решающие факторы для объектной модели или PIA
+
+### <a name="major-baseline-scenarios-supported-by-the-outlook-object-model-or-pia"></a>Сценарии базового плана, которые поддерживает объектная модель Outlook или PIA
+
+Как правило, объектная модель или PIA используется для решений, которые видоизменяют пользовательский интерфейс Outlook или используют бизнес-логику Outlook. Ниже перечислены основные сценарии, в которых решения Outlook используют объектная модель или PIA. 
   
-> [!NOTE]
-> For more information about the scenarios, click the boxes in the following figures. 
-  
-Рисунок 2. Сценарии базового плана, которые поддерживает объектная модель Outlook или PIA
-  
-[![Настройка пользовательского интерфейса Outlook](media/odc_ol15_ta_SelectingTech_Fig2-1.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_CustomizeTheOutlookInterface)[![Использование элементов Outlook](media/odc_ol15_ta_SelectingTech_Fig2-2.gif)
-  
-](https://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)[![Настройка полей, форм и свойств элемента](media/odc_ol15_ta_SelectingTech_Fig2-3.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_ItemPropFieldsForms)
-  
-[![Обработка событий Outlook](media/odc_ol15_ta_SelectingTech_Fig2-4.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Events)[![Автоматизация Outlook](media/odc_ol15_ta_SelectingTech_Fig2-5.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_AutomateOutlook)
-  
-In addition to the baseline scenarios, if your Outlook solution supports any of the scenarios shown in Figure 3, and your solution is intended to run on Outlook 2007 or a later version but not earlier versions, you can use the object model or the PIA, as well. Figure 3 specifies the main objects or members you can use in the Outlook object model to extend each scenario (with the exception of the [IDTExtensibility2](https://msdn.microsoft.com/library/Extensibility.IDTExtensibility2.aspx) interface in the Visual Studio automation object model, and the [IRibbonExtensibility](https://msdn.microsoft.com/library/b27a7576-b6f5-031e-e307-78ef5f8507e0%28Office.15%29.aspx) interface in the Office object model, which you can integrate with the Outlook object model). 
-  
-Рисунок 3. Дополнительные сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2007
-  
-[![Настройка пользовательского интерфейса Outlook](media/odc_ol15_ta_SelectingAPI_Fig3-1.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_CustomizeTheOutlookInterface)[![Настройка областей форм](media/odc_ol15_ta_SelectingTech_Fig3-2.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_CustomFormRegions)[![Использование PropertyAccessor для доступа к свойствам](media/odc_ol15_ta_SelectingAPI_Fig3-3.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_CustomizingProperties)
-  
-[![Перечисление и просмотр элементов в папке](media/odc_ol15_ta_SelectingAPI_Fig3-4.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Enumerating)[![Пометка элементов в качестве задач](media/odc_ol15_ta_SelectingAPI_Fig3-5.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_ItemsFlag)[![Общий доступ к календарям, RSS-каналам и папкам](media/odc_ol15_ta_SelectingAPI_Fig3-6.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Sharing)
-  
-[![Управление вложениями](media/odc_ol15_ta_SelectingAPI_Fig3-7.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Attachments)[![Управление правилами, часовыми поясами и представлениями](media/odc_ol15_ta_SelectingAPI_Fig3-8.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Misc)[![Добавление или удаление категории](media/odc_ol15_ta_SelectingAPI_Fig3-9.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Categories)
-  
-[![Получение подробной информации для учетной записи](media/odc_ol15_ta_SelectingAPI_Fig3-10.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_PrimaryAccount)[![Управление списками рассылки и пользователями Exchange](media/odc_ol15_ta_SelectingAPI_Fig3-11.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_AddressBook)[![Хранение личных данных для решений](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_StoringData)
-  
-If your Outlook solution is intended to run on Outlook 2010 and not earlier versions, you can choose to use the object model or the PIA to support the scenarios shown in Figure 4. Figure 4 specifies the main objects or members you can use in the Outlook object model to extend each scenario (with the exception of the [IRibbonControl](https://msdn.microsoft.com/library/63aef709-e1d3-b1a6-76af-b568ad0e69ae%28Office.15%29.aspx), [IRibbonExtensibility](https://msdn.microsoft.com/library/b27a7576-b6f5-031e-e307-78ef5f8507e0%28Office.15%29.aspx), and [IRibbonUI](https://msdn.microsoft.com/library/d323aa21-de74-e821-c914-db71ef3b9c5e%28Office.15%29.aspx) interfaces that are in the Office object model, which you can integrate with the Outlook object model). 
-  
-Рисунок 4. Больше сценариев, которые поддерживает объектная модель или PIA, начиная с Outlook 2010
-  
-[![Настройка пользовательского интерфейса Outlook 2010](media/odc_ol15_ta_SelectingAPI_Fig4-1.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_CustomizingUIOutlook2010)[![Управление элементами в беседе](media/odc_ol15_ta_SelectingAPI_Fig4-2.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Conversations)[![Управление выбором элементов в проводнике](media/odc_ol15_ta_SelectingAPI_Fig4-3.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_ItemSelection)
-  
-[![Управление выбором вложений в инспекторе](media/odc_ol15_ta_SelectingAPI_Fig4-4.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_AttachmentSelection)[![Поддержка нескольких учетных записей Exchange в одном профиле](media/odc_ol15_ta_SelectingAPI_Fig4-5.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_MultipleAccounts)[![Создание карточки контакта для записи адреса](media/odc_ol15_ta_SelectingAPI_Fig4-6.gif)
-  
-](https://msdn.microsoft.com/library/d050e0e3-3c0d-bd01-f008-2628056625d1%28Office.15%29.aspx)
-  
-[![Упорядочение папок решения](media/odc_ol15_ta_SelectingAPI_Fig4-7.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_Folders)
-  
-And if your solution is intended to run on Outlook 2013 and not any earlier version, you can use the object model or the PIA to support the scenarios shown in Figure 5.
-  
-Рисунок 5. Дополнительные сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2013
-  
-[![Представление просмотра для всех контактов в текущей папке](media/odc_ol15_ta_SelectingAPI_Fig5-1.gif)
-  
-](https://msdn.microsoft.com/library/7b569709-5da8-a950-a0fb-9d64b520a21b%28Office.15%29.aspx)[![Встроенный ответ в области чтения](media/odc_ol15_ta_SelectingAPI_Fig5-2.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_InlineResponse)[![Отображение диалогового окна проверки адреса или полного имени для контакта](media/odc_ol15_ta_SelectingAPI_Fig5-3.gif)
-  
-](selecting-an-api-or-technology-for-developing-solutions-for-outlook.md#OLSelectAPI_ContactCheckDialogs)
-  
-[![Определение того, что свойства элемента прочитаны](media/odc_ol15_ta_SelectingAPI_Fig5-4.gif)
-  
-](https://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
-  
-## <a name="decision-factors-for-mapi"></a>Решающие факторы для MAPI
+- [Настройка пользовательского интерфейса Outlook](#OLSelectAPI_CustomizeTheOutlookInterface)
+- [Добавление, удаление, чтение, запись, фильтрация, поиск и сортировка элементов Outlook](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects)
+- [Настройка полей, форм и свойств элемента](#OLSelectAPI_ItemPropFieldsForms)
+- [Обработка таких событий Outlook, как переключение между папками или открытие элемента](#OLSelectAPI_Events)
+- [Автоматизация Outlook и интеграция с другими приложениями Office](#OLSelectAPI_AutomateOutlook)
+
+<!--Images removed because we can't add a link to the images. If someone figures out a way to do this, you can add them back in but they're not really needed; I replaced them with a bulleted list here and after the next paragraph: 
+![Customize the Outlook UI](media/odc_ol15_ta_SelectingTech_Fig2-1.gif)
+![Use Outlook items](media/odc_ol15_ta_SelectingTech_Fig2-2.gif)
+![Customize item properties, fields, and forms](media/odc_ol15_ta_SelectingTech_Fig2-3.gif)
+![Process Outlook events](media/odc_ol15_ta_SelectingTech_Fig2-4.gif)
+![Automate Outlook](media/odc_ol15_ta_SelectingTech_Fig2-5.gif)-->
+
+### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Дополнительные сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2007
+
+В дополнение к основным сценариям, если решение Outlook поддерживает какие-либо из приведенных в следующем списке сценариев, а ваше решение предназначено для работы в Outlook 2007 или более поздней версии, но не в более ранних версиях, можно использовать как объектную модель, так и PIA. На рисунке 3 показаны основные объекты или члены, которые можно использовать в объектной модели Outlook для расширения каждого сценария (за исключением интерфейса [IDTExtensibility2](https://docs.microsoft.com/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017) в модели объектов автоматизации Visual Studio и интерфейса [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) в объектной модели Office, которые можно интегрировать с объектной моделью Outlook). 
+
+- [Настройка пользовательского интерфейса — лента Office Fluent, область навигации, область задач](#OLSelectAPI_CustomizeTheOutlookInterface)
+- [Настройка форм в качестве регионов форм и их развертывание надстройками](#OLSelectAPI_CustomFormRegions)
+- [Установка и получение встроенных свойств на уровне элемента, которые не предоставляются в объектной модели](#OLSelectAPI_CustomizingProperties)
+- [Перечисление и просмотр множества элементов в папке](#OLSelectAPI_Enumerating)
+- [Пометка элементов как задач](#OLSelectAPI_ItemsFlag)
+- [Общий доступ к календарям, RSS-каналам и папкам](#OLSelectAPI_Sharing)
+- [Добавление, удаление, сохранение и получение уровня блокировки, пути, размера и типа вложения](#OLSelectAPI_Attachments)
+- [Управление правилами, часовыми поясами и представлениями](#OLSelectAPI_Misc)
+- [Добавление или удаление категории в основном списке категорий для текущего профиля](#OLSelectAPI_Categories)
+- [Получение подробных сведений для учетной записи в текущем профиле](#OLSelectAPI_PrimaryAccount)
+- [Получение подробных сведений о списке рассылки Exchange или пользователе Exchange в качестве записи адреса](#OLSelectAPI_AddressBook)
+- [Хранение частных данных для решений](#OLSelectAPI_StoringData)
+
+<!--More removed images
+![Customize the Outlook UI](media/odc_ol15_ta_SelectingAPI_Fig3-1.gif)
+![Customize form regions](media/odc_ol15_ta_SelectingTech_Fig3-2.gif)
+![Use PropertyAccessor to access properties](media/odc_ol15_ta_SelectingAPI_Fig3-3.gif)
+![Enumerate and view items in a folder](media/odc_ol15_ta_SelectingAPI_Fig3-4.gif)
+![Flag items as tasks](media/odc_ol15_ta_SelectingAPI_Fig3-5.gif)
+![Share calendars, RSS feeds, and folders](media/odc_ol15_ta_SelectingAPI_Fig3-6.gif)
+![Manage attachments](media/odc_ol15_ta_SelectingAPI_Fig3-7.gif)
+![Manage rules, time zones, and views](media/odc_ol15_ta_SelectingAPI_Fig3-8.gif)
+![Add or remove a category](media/odc_ol15_ta_SelectingAPI_Fig3-9.gif)
+![Get detailed information for an account](media/odc_ol15_ta_SelectingAPI_Fig3-10.gif)
+![Manage Exchange distribution lists and users](media/odc_ol15_ta_SelectingAPI_Fig3-11.gif)
+![Store private data for solutions](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
+-->
+
+### <a name="more-scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>Другие сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2010
+
+Если решение Outlook предназначено для работы в Outlook 2010, а не в более ранних версиях, можно использовать объектную модель или PIA для поддержки сценариев, приведенных в следующем разделе. На рисунке 3 показаны основные объекты или члены, которые можно использовать в объектной модели Outlook для расширения каждого сценария (за исключением интерфейсов [IRibbonControl](https://docs.microsoft.com/office/vba/api/Office.IRibbonControl), [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) и [IRibbonUI](https://docs.microsoft.com/office/vba/api/Office.IRibbonUI) в объектной модели Office, которые можно интегрировать с объектной моделью Outlook). 
+   
+- [Настройка пользовательского интерфейса Outlook 2010, например представления Office Backstage и контекстных меню](#OLSelectAPI_CustomizingUIOutlook2010)
+- [Управление разнородными элементами беседы и доступ к ним](#OLSelectAPI_Conversations)
+- [Управление выбором элементов в проводнике или поиск выделенного фрагмента](#OLSelectAPI_ItemSelection)
+- [Управление выбором вложений в инспекторе](#OLSelectAPI_AttachmentSelection)
+- [Поддержка нескольких учетных записей Exchange в одном профиле](#OLSelectAPI_MultipleAccounts)
+- [Создание карточки контакта для адресной записи](https://docs.microsoft.com/office/vba/api/Outlook.NameSpace.CreateContactCard)
+- [Упорядочение папок конкретных решений в модуле "Решения"](#OLSelectAPI_Folders)
+
+<!--more removed images:
+![Customize the Outlook 2010 UI](media/odc_ol15_ta_SelectingAPI_Fig4-1.gif)
+![Manage items in a conversation](media/odc_ol15_ta_SelectingAPI_Fig4-2.gif)
+![Manage selection of items in an explorer](media/odc_ol15_ta_SelectingAPI_Fig4-3.gif)
+![Manage selection of attachments in an inspector](media/odc_ol15_ta_SelectingAPI_Fig4-4.gif)
+![Support multiple Exchange accounts in one profile](media/odc_ol15_ta_SelectingAPI_Fig4-5.gif)
+![Create a contact card for an address entry](media/odc_ol15_ta_SelectingAPI_Fig4-6.gif)
+![Organize solution-specific folders](media/odc_ol15_ta_SelectingAPI_Fig4-7.gif)
+-->
+
+### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>Дополнительные сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2013
+
+Если решение предназначено для работы в Outlook 2013, а не в более ранних версиях, можно использовать объектную модель или PIA для поддержки сценариев, приведенных в следующих ресурсах.
+
+- [Представление просмотра для всех контактов в текущей папке](https://docs.microsoft.com/office/vba/api/Outlook.peopleview)
+- [Выбор встроенного ответа в области чтения](#OLSelectAPI_InlineResponse)
+- [Отображение диалогового окна проверки адреса или полного имени для контакта](#OLSelectAPI_ContactCheckDialogs)
+- [Определение того, что свойства элемента прочитаны](https://docs.microsoft.com/office/vba/outlook/How-to/Items-Folders-and-Stores/outlook-item-objects)
+
+<!--more removed images:
+![Display view for all contacts in current folder](media/odc_ol15_ta_SelectingAPI_Fig5-1.gif)
+![Inline response in reading pane](media/odc_ol15_ta_SelectingAPI_Fig5-2.gif)
+![Show check address or full name dialog for contact](media/odc_ol15_ta_SelectingAPI_Fig5-3.gif)
+![Detecting reading item properties is complete](media/odc_ol15_ta_SelectingAPI_Fig5-4.gif)
+-->
+
+
+
 <a name="OLSelectAPI_FactorsMAPI"> </a>
 
-In general, you use MAPI to access data on a MAPI-based server such as the Microsoft Exchange server, and to do tasks such as the following:
+## <a name="decision-factors-for-mapi"></a>Решающие факторы для MAPI
+
+В общем случае MAPI используется для доступа к данным на MAPI-сервере, например Microsoft Exchange Server, и выполнения таких задач, как:
   
-- Create a custom service provider such as an address book provider, transport provider, or store provider.
+- Создание настраиваемого поставщика услуг, например поставщика адресных книг, поставщика транспорта или поставщика хранилища.
     
-- Create a sink process.
+- Создание процесса-приемника.
     
-- Create or manipulate a profile.
+- Создание профиля и операции с ним.
     
-- Run an application as a Windows NT service.
+- Запуск приложения в качестве службы Windows NT.
     
-- Run tasks on a background thread. For example, enumerating numerous items in a folder and modifying the items' properties in a background thread can optimize performance.
+- Выполнение задач в фоновом потоке; например, перечисление многочисленных элементов в папке и изменение свойств элементов в фоновом потоке может повысить производительность.
     
-For more information and code samples, see the [Справочник по MAPI для Outlook](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx) and [MFCMAPI](https://mfcmapi.codeplex.com/).
+Дополнительные сведения и примеры кода см. в [Справочнике по Outlook MAPI](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx) и [MFCMAPI](https://mfcmapi.codeplex.com/).
   
-In addition, if your solution runs on a version of Outlook earlier than Outlook 2007, and scenarios such as the following apply to your solution, you should use MAPI to extend those scenarios.
+Кроме того, если ваше решение работает в более ранней версии Outlook, чем Outlook 2007, а в решении применяются перечисленные ниже сценарии, используйте MAPI для расширения этих сценариев.
   
-- Set and get built-in item-level properties that are not exposed in the object model.
+- Установка и получение встроенных свойств на уровне элемента, которые не предоставляются в объектной модели.
     
-- Manage accounts, attachments, Exchange distribution lists, Exchange users, or stores.
+- Управление учетными записями, вложениями, списками рассылки Exchange, пользователями Exchange и хранилищами.
     
-- Store private data for solutions.
+- Хранение частных данных для решений.
     
-- Manage a message store for an account.
+- Управление хранилищем сообщений для учетной записи.
     
-Since Outlook 2007, the object model has supported a range of features that, prior to Outlook 2007, developers had to resort to MAPI or other APIs such as Microsoft Collaboration Data Objects (CDO) 1.2.1 and Microsoft Exchange Client Extensions. So if any of the scenarios in the previous list applies to your solution, but your solution runs on Outlook 2007 or Outlook 2010, you can and should use the Outlook object model or PIA to support these scenarios. For more information about Outlook 2007 enhancements that unify Outlook development technologies, see [What's New for Developers in Outlook 2007 (Part 1 of 2)](https://msdn.microsoft.com/library/76e3f0b7-ef2b-4e9f-8515-3002d75d7721%28Office.15%29.aspx).
-  
-## <a name="decision-factors-for-the-auxiliary-apis"></a>Decision factors for the Auxiliary APIs
+Начиная с Outlook 2007 объектная модель поддерживает ряд функций, за которыми до Outlook 2007 разработчикам приходилось обращаться к MAPI или другим API-интерфейсам, таким как Microsoft Collaboration Data Objects (CDO) 1.2.1 и клиентские расширения Microsoft Exchange. Поэтому, если хотя бы один из сценариев, приведенных в предыдущем списке, подходит для вашего решения, но оно работает в Outlook 2007 или Outlook 2010, для поддержки этих сценариев можно использовать объектную модель Outlook или PIA. Дополнительные сведения о новых возможностях Outlook 2007, которые унифицируют технологии разработки Outlook, см. в статье [Новые возможности для разработчиков в Outlook 2007 (часть 1 из 2)](https://msdn.microsoft.com/library/76e3f0b7-ef2b-4e9f-8515-3002d75d7721%28Office.15%29.aspx).
+
 <a name="OLSelectAPI_FactorsAux"> </a>
 
-The Outlook auxiliary APIs can integrate with Outlook business logic or MAPI in some scenarios where the object model or MAPI does not provide a solution. Use the Outlook auxiliary APIs in the following scenarios:
+## <a name="decision-factors-for-the-auxiliary-apis"></a>Решающие факторы для вспомогательных API
+
+В некоторых ситуациях, когда объектная модель или MAPI не дает решения, можно интегрировать вспомогательные API Outlook с бизнес-логикой Outlook или MAPI. Используйте вспомогательные API Outlook в следующих случаях:
   
-- Account management: Manage account information, manipulate accounts, provide notification on account changes, and protect accounts from spam. 
+- Управление учетными записями: управление информацией учетной записи, операции с учетными записями, уведомление об изменениях учетной записи и защита учетных записей от спама. 
     
-- Data degradation: Wrap an object in a preferred character format rather than exposing the object in its native format.
+- Замедление данных: обтекание объекта в предпочтительном символьном формате, а не предоставление объекта в его исходном формате.
     
-- Rebasing calendars and time zone support: Rebase Outlook calendars to support daylight saving time.
+- Перевод времени календарей и поддержка часовых поясов: перевод календарей Outlook на летнее время.
     
-- Free/busy status: Provide free/busy information on calendars.
+- Состояние доступности: предоставление сведений о доступности в календарях.
     
-- Contact pictures: Determine the display of a contact's picture in Outlook.
+- Изображения контактов: определение вида изображения контакта в Outlook.
     
-- Item currency: Determine whether an Outlook item has unsaved changes.
+- Действительность элемента: определение наличия несохраненных изменений в элементе Outlook.
     
-- Categorizing an item: Categorize an Outlook item after sending the item.
+- Классификация элемента: выбор категории для элемента Outlook после его отправки.
     
-For more information about the auxiliary APIs, see the [Additional resourcesAuxiliary APIs](#OLSelectAPI_AdditionalResourcesAuxAPIs) section. 
-  
-## <a name="automating-outlook-by-in-process-vs-out-of-process-solutions"></a>Automating Outlook by in-process vs. out-of-process Solutions
+Дополнительные сведения о вспомогательных API см. в разделе [Дополнительные ресурсы — вспомогательные API](#OLSelectAPI_AdditionalResourcesAuxAPIs). 
+
 <a name="OLSelectAPI_InOrOut"> </a>
 
+## <a name="automating-outlook-by-in-process-vs-out-of-process-solutions"></a>Автоматизация Outlook с помощью внутрипроцессных или внепроцессных решений
+
 > [!NOTE]
-> The discussion of automating Outlook in this section and the next is outside the scope of Надстройки Office, which are intended to extend the functionality of the Office client or web application but not to automate it. 
+> Описание автоматизации Outlook в этом и следующем разделах выходит за рамки надстроек Office, которые предназначены для расширения функциональности клиента или веб-приложения Office, но не для их автоматизации. 
   
-Outlook supports automation by using add-ins that run in the same foreground process as the Outlook process, and by standalone solutions that run in their own separate process outside of the Outlook process. Generally, to automate Outlook, use an add-in to interact with Outlook through the object model, PIA, or MAPI, and in less common scenarios, through an auxiliary API (such as [HrProcessConvActionForSentItem](auxiliary/hrprocessconvactionforsentitem.md)). Use an out-of-process solution only when it's necessary (for example, when you're writing a MAPI client application that uses the Tzmovelib.dll file to rebase Outlook calendars for customers, or enumerating numerous items in a folder and modifying the items' properties in a background thread to optimize performance). 
+Outlook поддерживает автоматизацию путем использования надстроек, которые выполняются в том же основном процессе, что и процесс Outlook, а также с помощью автономных решений, которые выполняются в отдельном процессе вне процесса Outlook. Как правило, для автоматизации Outlook надстройка используется для взаимодействия с Outlook через объектную модель, PIA или MAPI и, в менее распространенных сценариях, через вспомогательный API-интерфейс (например, [HrProcessConvActionForSentItem](auxiliary/hrprocessconvactionforsentitem.md)). Внепроцессное решение следует использовать только в том случае, когда это необходимо (например, при создании клиентского приложения MAPI, в котором используется файл Tzmovelib.dll для перевода времени календарей Outlook для клиентов, или при перечислении многочисленных элементов в папке и изменении их свойств в фоновом потоке для повышения производительности). 
   
-Add-ins are the preferred solution to automate Outlook, because Outlook trusts only the [Application](https://msdn.microsoft.com/library/797003e7-ecd1-eccb-eaaf-32d6ddde8348%28Office.15%29.aspx) object passed to the add-in during the [OnConnection(Object, ext_ConnectMode, Object, Array)](https://msdn.microsoft.com/library/Extensibility.IDTExtensibility2.OnConnection.aspx) event of the add-in. You can avoid the display of security warnings of the Object Model Guard by deriving all objects, properties, and methods from this **Application** object. If the add-in creates a new instance of the **Application** object, Outlook does not trust that object, even if the add-in is on the list of trusted add-ins. Any objects, properties, and methods derived from such an **Application** object will not be trusted and the blocked properties and methods will invoke security warnings. For more information about the Outlook Object Model Guard, see [Security Behavior of the Outlook Object Model](https://msdn.microsoft.com/library/4aa3b7c7-5f3f-41ce-bbf3-75d8ecbd6d4f%28Office.15%29.aspx).
-  
-## <a name="automating-outlook-by-managed-vs-unmanaged-solutions"></a>Automating Outlook by managed vs. unmanaged solutions
+Надстройки — это оптимальное решение для автоматизации Outlook, потому что Outlook доверяет только объекту [Application](https://msdn.microsoft.com/library/797003e7-ecd1-eccb-eaaf-32d6ddde8348%28Office.15%29.aspx), переданному в надстройку во время события [OnConnection(Object, ext_ConnectMode, Object, Array)](https://msdn.microsoft.com/library/Extensibility.IDTExtensibility2.OnConnection.aspx) в надстройке. Можно избежать появления предупреждений системы безопасности объектной модели, наследуя все объекты, свойства и методы из этого объекта **Application**. Если надстройка создает новый экземпляр объекта **Application**, Outlook не будет доверять этому объекту, даже если надстройка присутствует в списке надежных надстроек. Все объекты, свойства и методы, унаследованные от такого объекта **Application**, не будут доверенными, а заблокированные свойства и методы будут вызывать предупреждения системы безопасности. Дополнительные сведения см. в статье [Режим безопасности объектной модели Outlook](https://msdn.microsoft.com/library/4aa3b7c7-5f3f-41ce-bbf3-75d8ecbd6d4f%28Office.15%29.aspx).
+
 <a name="OLSelectAPI_ManOrUnman"> </a>
 
-Outlook supports automation by add-ins and standalone applications, written in managed or unmanaged languages. The more commonly used managed languages are C# and Visual Basic. C++ and Delphi tools are more common in unmanaged development. Available expertise is one consideration when choosing between managed and unmanaged development. 
+## <a name="automating-outlook-by-managed-vs-unmanaged-solutions"></a>Автоматизация Outlook с помощью управляемых и неуправляемых решений
+
+Outlook поддерживает автоматизацию с помощью надстроек и автономных приложений, написанных на управляемых или неуправляемых языках. Чаще всего используются управляемые языки C# и Visual Basic. Инструменты C++ и Delphi чаще всего используются в неуправляемой среде. Это одно из соображений, которые следует учитывать при выборе между управляемой и неуправляемой разработкой. 
   
-If your solution uses only the object model, you can consider developing a managed solution by using the PIA, or Office development tools in Visual Studio. The Office development tools in Visual Studio provide project templates and visual designers that simplify creating custom user interfaces and developing Office solutions.
+Если в решении используется только объектная модель, можно разработать управляемое решение с помощью PIA или средств разработки Office в Visual Studio. Средства разработки Office в Visual Studio предлагают шаблоны проектов и визуальные конструкторы, упрощающие создание нестандартных пользовательских интерфейсов и разработку решений Office.
   
-On the other hand, because MAPI was developed years before the .NET Framework, and Microsoft does not provide managed wrappers for MAPI, Microsoft does not support using MAPI in managed code. If you are using MAPI, you must develop an unmanaged solution. For more information, see [The support guidelines for client-side messaging development](https://support.microsoft.com/kb/266353/en-us).
-  
-## <a name="niche-apis-and-technologies"></a>Niche APIs and technologies
+С другой стороны, поскольку технология MAPI была разработана гораздо раньше, чем .NET Framework, а корпорация Майкрософт не предоставляет управляемых оболочек для MAPI, корпорация Майкрософт не поддерживает использование MAPI в управляемом коде. В случае использования MAPI необходимо разрабатывать неуправляемое решение. Дополнительные сведения см. в статье [Рекомендации поддержки для разработки клиентской системы обмена сообщениями](https://support.microsoft.com/kb/266353/en-us).
+
 <a name="OLSelectAPI_NicheAPI"> </a>
 
-The Outlook Social Connector (OSC) and Weather Bar support extending very specific scenarios in Outlook. 
-  
-### <a name="outlook-social-connector-osc-provider-extensibility"></a>Outlook Social Connector (OSC) provider extensibility
+## <a name="niche-apis-and-technologies"></a>Нишевые API и технологии
 
-The Outlook Social Connector (OSC) provider extensibility supports developing a provider for a social network to allow users to view, in Outlook and other Office client applications, friends and activities updates on that social network. Figure 6 shows the OSC displaying in the People Pane the activities of a person in social network sites.
+Outlook Social Connector (OSC) и панель прогноза погоды поддерживают очень специфичные сценарии использования Outlook. 
   
-**Figure 6. The OSC displaying social network data in the People Pane**
+### <a name="outlook-social-connector-osc-provider-extensibility"></a>Расширяемость поставщика Outlook Social Connector (OSC)
+
+Расширяемость поставщика Outlook Social Connector (OSC) поддерживает разработку поставщика социальных сетей, который позволяет пользователям просматривать в Outlook и других клиентских приложениях Office обновления друзей и событий в этой социальной сети. На рисунке 6 показано, как OSC отображает в области "Люди" события для определенного лица на сайтах социальных сетей.
+  
+**Рис. 6. OSC с отображением данных из социальной сети в области "Люди"**
 
 ![Панель Outlook Social Connector](media/2d6b867f-73d8-4a3b-b8bd-3844bc34bf4e.jpg)
   
-The OSC in Outlook allows users to view, in the People Pane, an aggregation of emails, attachments, and meeting requests from a person in Outlook. In an organizational environment, users who collaborate on a SharePoint site can see document updates and other site activities of this person on the SharePoint site. Outlook Social Connector provider extensibility supports developing a provider for the OSC to synchronize and surface social network updates in Outlook. Common OSC providers (such as Facebook and LinkedIn) are installed by default with Outlook. Depending on the social network sites that an Outlook user has signed into, the user can see, in the People Pane, updates such as photos, status, and activities on the corresponding social networks. 
+OSC в Outlook позволяет пользователям просматривать в области "Люди" сводку сообщений электронной почты, вложений и приглашений на собрания от определенного лица в Outlook. В организационной среде пользователи, которые совместно работают на сайте SharePoint, могут просматривать обновления документов и другие действия этого лица на сайте SharePoint. Расширяемость поставщика услуг Outlook Social Connector поддерживает разработку поставщика для OSC, предназначенного для синхронизации и отображения обновлений социальных сетей в Outlook. Стандартные поставщики OSC (например, Facebook и LinkedIn) устанавливаются в Outlook по умолчанию. В зависимости от сайтов социальных сетей, на которые вошел пользователь Outlook выполнил вход, он будет видеть в области "Люди" такие обновления, как фотографии, статус и действия в соответствующих социальных сетях. 
   
 ### <a name="weather-bar-extensibility"></a>Weather Bar extensibility
 
-Starting in Outlook 2013, the Weather Bar allows developers to plug in a third-party weather web service for the Weather Bar, to provide weather conditions data for a user-chosen location. The Weather Bar in Outlook displays weather conditions and forecast for a geographic location. A user can choose one or multiple locations, and conveniently see weather data in the Weather Bar in the calendar module. Figure 7 shows the Weather Bar displaying a three-day forecast for New York, NY. 
+Начиная с Outlook 2013 панель прогноза погоды позволяет разработчикам добавлять сторонние веб-службы для показа прогноза погоды в выбранном пользователем месте. На панели прогноза погоды в Outlook отображаются погодные условия и прогноз для заданного местоположения. Пользователь может выбрать одно или несколько местоположений, а также просмотреть данные о погоде на панели прогноза погоды в модуле календаря. На рисунке 7 показана панель прогноза погоды с прогнозом на три дня для Нью-Йорка. 
   
 **Figure 7. Weather Bar in Outlook**
 
 ![Панель прогноза погоды, в которой показан прогноз для Нью-Йорка.](media/ol15_WeatherBar_fig1.jpg)
   
-By default, Outlook uses weather data provided by MSN Weather. The Weather Bar supports third-party weather data web services which follow a defined protocol to communicate with Outlook. As long as a third-party weather data service supports this protocol, users can choose that weather data service to provide weather data in the Weather Bar.
+По умолчанию в Outlook используются данные прогноза погоды, предоставляемые службой "MSN Погода". Панель прогноза погоды поддерживает сторонние погодные веб-службы, использующие определенный протокол для связи с Outlook. Если сторонняя служба данных погоды поддерживает такой протокол, пользователи могут выбрать эту службу для показа данных погоды на панели прогноза погоды.
   
-See the [Additional resourcesprimary references, resources, and code samples](#OLSelectAPI_AdditionalResourcesRefCode) section for more information about using OSC provider extensibility and the Weather Bar extensibility. 
-  
-## <a name="conclusion"></a>Заключение
+Дополнительные сведения об использовании расширяемости поставщика OSC и расширяемости панели прогноза погоды см. в статье [Дополнительные ресурсы: основные ссылки, ресурсы и примеры кода](#OLSelectAPI_AdditionalResourcesRefCode). 
+
 <a name="OLSelectAPI_Conclusion"> </a>
 
-To determine the best API or technology for your solution, you must first define the goals of your solution: 
+## <a name="conclusion"></a>Заключение
+
+Чтобы определить оптимальные API или технологии для решения, нужно сначала установить цели вашего решения. 
   
-- The versions of Outlook you intend your solution to support.
+- Версии Outlook, которые должно поддерживать решение.
     
-- The high-priority scenarios of your solution. Does your solution mainly interact with the content and properties of a message or appointment item? Or does your solution automate Outlook at an application level? If so, do these scenarios involve enumerating, filtering, or modifying folders that contain many Outlook items?
+- Высокоприоритетные сценарии вашего решения. Будет ли решение в основном работать с контентом и свойствами сообщения или встречи? Или решение автоматизирует Outlook на уровне приложения? Если да, предусматривают ли эти сценарии перечисление, фильтрацию или изменение папок, содержащих множество элементов Outlook?
     
-First, verify whether the mail app support in the Надстройки Office platform meets your needs. See the Functional Criteria section of [Objective evaluation criteria for the apps for Office platform](#OLSelectAPI_ObjectiveEvalCritApps) to determine whether the major objects and features support your scenarios. See the section [Decision factors for the apps for Office platform](#OLSelectAPI_FactorsApps) to verify whether mail apps are a better choice than add-ins for your scenarios. In general, develop your solution as an app, if possible, to take advantage of the platform's support across Outlook clients over different form factors. 
+Сначала убедитесь в том, что поддержка почтового приложения на платформе надстроек Office соответствует вашим нуждам. Ознакомьтесь с разделом "Функциональные критерии" статьи [Критерии объективной оценки приложений для платформы Office](#OLSelectAPI_ObjectiveEvalCritApps) и определите, поддерживают ли ваши сценарии основные объекты и компоненты. Ознакомьтесь с разделом [Решающие факторы для приложений платформы Office](#OLSelectAPI_FactorsApps) и установите, действительно ли почтовые приложения лучше надстроек для ваших сценариев. Как правило, разрабатывайте свое решение как приложение, если это возможно, чтобы использовать поддержку платформы в клиентах Outlook различного форм-фактора. 
   
-If your scenarios require you to extend beyond message and appointment items, or require you to automate Outlook at an application level, try to match your scenarios with those outlined in the section [Decision factors for the object model or PIA](#OLSelectAPI_FactorsOM). If the object model (or PIA) of your target Outlook versions supports your scenarios, and your solution does not manipulate folders with many items, you should implement your solution as an add-in, in either a managed or unmanaged language. 
+Если ваши сценарии требуют не ограничиваться сообщениями и встречами или автоматизировать Outlook на уровне приложения, попробуйте сопоставить эти сценарии с описанными в разделе [Решающие факторы для объектной модели или PIA](#OLSelectAPI_FactorsOM). Если объектная модель (или PIA) целевых версий Outlook поддерживает ваши сценарии, а решение не управляет папками с большим количеством элементов, следует реализовать решение в виде надстройки, с использованием как управляемого, так и неуправляемого языка. 
   
-If the object model (or PIA) of a target Outlook version does not support some of your scenarios, verify whether the scenarios in the [Decision factors for MAPI](#OLSelectAPI_FactorsMAPI) or [Decision factors for the Auxiliary APIs](#OLSelectAPI_FactorsAux) section meet your needs. If MAPI meets your needs, you should implement your solution in unmanaged code. If an auxiliary API solves one of your scenarios, you can use managed or unmanaged code. 
+Если объектная модель (или PIA) целевой версии Outlook не поддерживает некоторые из этих сценариев, проверьте, соответствуют ли вашим нуждам сценарии, приведенные в разделах [Решающие факторы для MAPI](#OLSelectAPI_FactorsMAPI) или [Решающие факторы для вспомогательных API](#OLSelectAPI_FactorsAux). Если MAPI удовлетворяет вашим потребностям, следует реализовать решение в неуправляемом коде. Если вспомогательный API-интерфейс выполняет один из сценариев, можно использовать управляемый или неуправляемый код. 
   
-If your solution uses MAPI, you must implement it in unmanaged code, such as C++. Otherwise, the decision to use managed or unmanaged code to create the solution generally depends on your available resources and their expertise. As for deciding whether to implement the solution as an add-in or standalone application, choose an add-in to avoid the user constantly invoking the Outlook Object Model Guard, unless your scenario requires manipulation of folders that contain numerous items. In the latter scenario, implementing the solution to run as a background thread can optimize Outlook performance.
+Если в решении используется MAPI, его необходимо реализовать в неуправляемом коде, например на C++. В ином случае решение об использовании управляемого или неуправляемого кода для создания решения обычно зависит от доступных ресурсов и знаний. Рассуждая, следует ли реализовать решение как надстройку или отдельное приложение, выберите надстройку, чтобы пользователи не сталкивались с постоянными предупреждениями системы безопасности объектной модели Outlook, если только вашему сценарию не требуется работать с папками, содержащими множество элементов. В последнем случае реализация решения для работы в фоновом потоке может оптимизировать производительность Outlook.
   
-If your scenarios include showing social network information or updates in Outlook, you should use the OSC provider extensibility to create a COM-visible DLL. You can do this in either a managed or unmanaged language.
+Если сценарии предусматривают отображение информации или обновлений из социальных сетей в Outlook, используйте расширяемость поставщика OSC для создания DLL с видимостью COM. Это можно сделать с помощью как управляемого, так и неуправляемого языка.
   
-If you are interested in plugging in a third-party weather data service to the Weather Bar, you can follow the protocol defined by Weather Bar extensibility and provide the appropriate web services. You can create these web services in a managed language.
+Если вас интересует подключение сторонней службы погодных данных к панели прогноза погоды, можно воспользоваться протоколом, определенным расширяемостью панели прогноза погоды, и указать соответствующие веб-службы. Такие веб-службы можно создавать на управляемом языке.
   
-Once you have decided on the APIs or technologies to use in your solution, you can refer to additional documentation and code samples in the [Additional resourcesprimary references, resources, and code samples](#OLSelectAPI_AdditionalResourcesRefCode) section for more information. 
-  
-## <a name="see-also-office-add-ins"></a>См. также: "Надстройки Office"
+Выбрав API или технологии для использования в решении, вы можете обратиться к дополнительной документации и примерам кода в разделе [Дополнительные ресурсы: основные ссылки, ресурсы и примеры кода](#OLSelectAPI_AdditionalResourcesRefCode). 
+
 <a name="OLSelectAPI_AdditionalResourcesApps"> </a>
 
-[Обзор платформы надстроек Office](https://msdn.microsoft.com/library/e64de870-ce22-4331-92e7-76d35279bf91%28Office.15%29.aspx) provides a good introduction of Надстройки Office, including the architecture and development life cycle. 
+## <a name="see-also-office-add-ins"></a>См. также: "Надстройки Office"
+
+[Обзор платформы надстроек Office](https://msdn.microsoft.com/library/e64de870-ce22-4331-92e7-76d35279bf91%28Office.15%29.aspx) дает хорошую общую информацию о настройках Office, включая архитектуру и жизненный цикл разработки. 
   
 Подробный план ресурсов, посвященных разработке почтовых приложений, см. в статье [Надстройки Outlook](https://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx). 
-  
-## <a name="see-also-object-model-and-pia"></a>См. также: "Объектная модель и PIA"
+
 <a name="OLSelectAPI_AdditionalResourcesObjModelPIA"> </a>
 
-The following resources provide more information about using the object model and PIA.
-  
-### <a name="accountsprimary-exchange-account-in-profile"></a>Accountsprimary Exchange account in profile
+## <a name="see-also-object-model-and-pia"></a>См. также: "Объектная модель и PIA"
+
+В приведенных ниже ресурсах можно найти дополнительные сведения об использовании объектной модели и PIA.
+
 <a name="OLSelectAPI_PrimaryAccount"> </a>
 
-- [Account](https://msdn.microsoft.com/library/f624438c-4e45-2822-18b6-bfe8074a33c0%28Office.15%29.aspx) object 
+### <a name="accountsprimary-exchange-account-in-profile"></a>Учетные записи: основная учетная запись Exchange в профиле
+
+- Объект [Account](https://msdn.microsoft.com/library/f624438c-4e45-2822-18b6-bfe8074a33c0%28Office.15%29.aspx) 
     
-- [NameSpace.Accounts](https://msdn.microsoft.com/library/80e969ea-d2cc-966d-5fe4-68d59951b5c9%28Office.15%29.aspx) property 
-    
-### <a name="accountsmultiple-accounts-in-profile"></a>Accountsmultiple accounts in profile
+- Свойство [NameSpace.Accounts](https://msdn.microsoft.com/library/80e969ea-d2cc-966d-5fe4-68d59951b5c9%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_MultipleAccounts"> </a>
 
-- [Account](https://msdn.microsoft.com/library/f624438c-4e45-2822-18b6-bfe8074a33c0%28Office.15%29.aspx) object 
+### <a name="accountsmultiple-accounts-in-profile"></a>Учетные записи: несколько учетных записей в профиле
+
+- Объект [Account](https://msdn.microsoft.com/library/f624438c-4e45-2822-18b6-bfe8074a33c0%28Office.15%29.aspx) 
     
 - [Использование нескольких учетных записей для одного профиля в Outlook](https://msdn.microsoft.com/library/9e06e076-d62a-37c8-4502-709da5a0b104%28Office.15%29.aspx)
     
 - [Получение информации для нескольких учетных записей](https://msdn.microsoft.com/library/af587ee2-429a-252f-ecb6-2f058b9a37a8%28Office.15%29.aspx)
     
 - [Управление несколькими учетными записями Exchange в Outlook 2010](https://msdn.microsoft.com/library/b5a80da9-102d-4617-8a06-49ded01a237a%28Office.15%29.aspx) 
-    
-### <a name="address-book-and-exchange-users"></a>Address book and Exchange users
+
 <a name="OLSelectAPI_AddressBook"> </a>
+
+### <a name="address-book-and-exchange-users"></a>Адресная книга и пользователи Exchange
 
 - [Отображение имен из адресной книги](https://msdn.microsoft.com/library/32e7179c-8133-ee20-ecf6-52c9275f205f%28Office.15%29.aspx)
     
@@ -529,50 +538,54 @@ The following resources provide more information about using the object model an
     
 - Объект [AddressEntries](https://msdn.microsoft.com/library/db91b717-07c6-d1f2-c545-b766ee1f0c6b%28Office.15%29.aspx) 
     
-- [AddressLists](https://msdn.microsoft.com/library/b8c5ce75-3030-0179-45bb-f44fe6628074%28Office.15%29.aspx) object 
+- Объект [AddressLists](https://msdn.microsoft.com/library/b8c5ce75-3030-0179-45bb-f44fe6628074%28Office.15%29.aspx) 
     
-- [ExchangeDistributionList](https://msdn.microsoft.com/library/2830dfba-6c0a-a81f-6b98-92ac2aafb59d%28Office.15%29.aspx) object 
+- Объект [ExchangeDistributionList](https://msdn.microsoft.com/library/2830dfba-6c0a-a81f-6b98-92ac2aafb59d%28Office.15%29.aspx) 
     
-- [ExchangeUser](https://msdn.microsoft.com/library/6ec117d1-7fdb-aa36-b567-1242f8238df0%28Office.15%29.aspx) object 
+- Объект [ExchangeUser](https://msdn.microsoft.com/library/6ec117d1-7fdb-aa36-b567-1242f8238df0%28Office.15%29.aspx) 
     
-- [SelectNamesDialog](https://msdn.microsoft.com/library/1522736a-3cad-9f1c-4da9-b52a3a01731c%28Office.15%29.aspx) object 
-    
-### <a name="attachments"></a>Вложения
+- Объект [SelectNamesDialog](https://msdn.microsoft.com/library/1522736a-3cad-9f1c-4da9-b52a3a01731c%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_Attachments"> </a>
+
+### <a name="attachments"></a>Вложения
 
 - [Вложение файла в почтовый элемент](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- [Типы вложенных файлов, ограниченных Outlook 2010](https://technet.microsoft.com/ru-RU/library/cc179163.aspx)
+- 
+  [Типы вложенных файлов, ограниченных Outlook 2010](https://technet.microsoft.com/ru-RU/library/cc179163.aspx)
     
-- [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) object 
+- Объект [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) 
     
-- [AttachmentSelection](https://msdn.microsoft.com/library/398cf106-a904-9048-e627-e47aaadf1105%28Office.15%29.aspx) object 
+- Объект [AttachmentSelection](https://msdn.microsoft.com/library/398cf106-a904-9048-e627-e47aaadf1105%28Office.15%29.aspx) 
     
-- **AttachmentAdd** event per item object 
+- Событие **AttachmentAdd** для объекта элемента 
     
-- **AttachmentRead** event per item object 
+- Событие **AttachmentRead** для объекта элемента 
     
-- **AttachmentRemove** event per item object 
+- Событие **AttachmentRemove** для объекта элемента 
     
-- **BeforeAttachmentAdd** event per item object 
+- Событие **BeforeAttachmentAdd** для объекта элемента 
     
-- **BeforeAttachmentPreview** event per item object 
+- Событие **BeforeAttachmentPreview** для объекта элемента 
     
-- **BeforeAttachmentRead** event per item object 
+- Событие **BeforeAttachmentRead** для объекта элемента 
     
-- **BeforeAttachmentSave** event per item object 
+- Событие **BeforeAttachmentSave** для объекта элемента 
     
-- **BeforeAttachmentWrite** event per item object 
-    
-### <a name="attachments-selection-in-inspector"></a>Attachments: selection in inspector
+- Событие **BeforeAttachmentWrite** для объекта элемента 
+
 <a name="OLSelectAPI_AttachmentSelection"> </a>
 
-- [Inspector.AttachmentSelection](https://msdn.microsoft.com/library/19466ce7-def8-4cce-1776-dcea1df9f15d%28Office.15%29.aspx) property 
+### <a name="attachments-selection-in-inspector"></a>Вложения: выбор в инспекторе
+
+- Свойство [Inspector.AttachmentSelection](https://msdn.microsoft.com/library/19466ce7-def8-4cce-1776-dcea1df9f15d%28Office.15%29.aspx) 
     
-- [Inspector.AttachmentSelectionChange](https://msdn.microsoft.com/library/1250045d-bcb3-b823-31d5-ec31c64ad59e%28Office.15%29.aspx) event 
-    
-### <a name="automating-outlook"></a>Automating Outlook
+- Событие [Inspector.AttachmentSelectionChange](https://msdn.microsoft.com/library/1250045d-bcb3-b823-31d5-ec31c64ad59e%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_AutomateOutlook"> </a>
+
+### <a name="automating-outlook"></a>Автоматизация Outlook
 
 - [Настройка Outlook с помощью надстроек COM](https://msdn.microsoft.com/library/84a4f616-3ace-0139-57d5-f0c070064ab2%28Office.15%29.aspx)
     
@@ -589,25 +602,28 @@ The following resources provide more information about using the object model an
 - [Автоматизация Outlook из приложения Visual Basic](https://msdn.microsoft.com/library/623f91af-cd50-1ff0-9519-5a39cbcf5d18%28Office.15%29.aspx)
     
 - [Автоматизация Outlook из других приложений Office](https://msdn.microsoft.com/library/d3e44f80-df67-2d28-94dc-14d7a8c8c26c%28Office.15%29.aspx)
-    
-### <a name="categories"></a>Категории
+
 <a name="OLSelectAPI_Categories"> </a>
+
+### <a name="categories"></a>Категории
 
 - [Классификация элементов Outlook](https://msdn.microsoft.com/library/e8cfb450-b8b0-bee6-fdf0-d0a92bf9af56%28Office.15%29.aspx)
     
-- [Category](https://msdn.microsoft.com/library/143ef095-54b0-cbe2-e356-632029061ac2%28Office.15%29.aspx) object 
+- Объект [Category](https://msdn.microsoft.com/library/143ef095-54b0-cbe2-e356-632029061ac2%28Office.15%29.aspx) 
     
-- [NameSpace.Categories](https://msdn.microsoft.com/library/3963afca-3a7e-38d7-1347-7e1467be3a10%28Office.15%29.aspx) property 
-    
-### <a name="contacts-check-address-and-full-name"></a>Contacts: check address and full name
+- Свойство [NameSpace.Categories](https://msdn.microsoft.com/library/3963afca-3a7e-38d7-1347-7e1467be3a10%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_ContactCheckDialogs"> </a>
 
-- [ContactItem.ShowCheckAddressDialog](https://msdn.microsoft.com/library/773a1a3c-1247-fd48-399a-728766e56570%28Office.15%29.aspx) method 
+### <a name="contacts-check-address-and-full-name"></a>Контакты: проверка адреса и полного имени
+
+- Метод [ContactItem.ShowCheckAddressDialog](https://msdn.microsoft.com/library/773a1a3c-1247-fd48-399a-728766e56570%28Office.15%29.aspx) 
     
-- [ContactItem.ShowCheckFullNameDialog](https://msdn.microsoft.com/library/d42632e3-6f50-cce7-80c6-cf846be1f925%28Office.15%29.aspx) method 
-    
-### <a name="conversations"></a>Беседы
+- Метод [ContactItem.ShowCheckFullNameDialog](https://msdn.microsoft.com/library/d42632e3-6f50-cce7-80c6-cf846be1f925%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_Conversations"> </a>
+
+### <a name="conversations"></a>Беседы
 
 - [Управление элементами Outlook как беседами](https://msdn.microsoft.com/library/d91959d7-07b2-7952-8e6d-a39422d355e0%28Office.15%29.aspx)
     
@@ -615,36 +631,39 @@ The following resources provide more information about using the object model an
     
 - Объект [Conversation](https://msdn.microsoft.com/library/2705d38a-ebc0-e5a7-208b-ffe1f5446b1b%28Office.15%29.aspx) 
     
-- [ConversationHeader](https://msdn.microsoft.com/library/5142d5f7-55c1-4d9d-3a11-d25c8763fcb7%28Office.15%29.aspx) object 
+- Объект [ConversationHeader](https://msdn.microsoft.com/library/5142d5f7-55c1-4d9d-3a11-d25c8763fcb7%28Office.15%29.aspx) 
     
-- [SimpleItems](https://msdn.microsoft.com/library/b929ae28-fe5f-607e-37b5-ed6a304d4896%28Office.15%29.aspx) object 
+- Объект [SimpleItems](https://msdn.microsoft.com/library/b929ae28-fe5f-607e-37b5-ed6a304d4896%28Office.15%29.aspx) 
     
-- **ConversationID** property per item object 
-    
-### <a name="events"></a>Мероприятия
+- Свойство **ConversationID** объекта элемента 
+
 <a name="OLSelectAPI_Events"> </a>
+
+### <a name="events"></a>События
 
 - [Работа с событиями Outlook](https://msdn.microsoft.com/library/514f8f31-8047-2a9f-cbac-d0a23218f49c%28Office.15%29.aspx)
     
 - [Реализация оболочки для инспекторов и отслеживание событий уровня элемента в каждом инспекторе](https://msdn.microsoft.com/library/8021dd2b-c36c-492b-b281-783e85140ad8%28Office.15%29.aspx)
-    
-### <a name="explorer-inline-response"></a>Проводник: ответ в тексте
+
 <a name="OLSelectAPI_InlineResponse"> </a>
 
-- [Explorer.ActiveInlineResponse](https://msdn.microsoft.com/library/fc38314d-7cff-44f4-9151-6129f918a721%28Office.15%29.aspx) property 
+### <a name="explorer-inline-response"></a>Проводник: ответ в тексте
+
+- Свойство [Explorer.ActiveInlineResponse](https://msdn.microsoft.com/library/fc38314d-7cff-44f4-9151-6129f918a721%28Office.15%29.aspx) 
     
 - [Explorer.ActiveInlineResponseWordEditor](https://msdn.microsoft.com/library/b9058694-ab8f-4962-ab7d-afac1704dd29%28Office.15%29.aspx) property 
     
-- [Explorer.InlineResponse](https://msdn.microsoft.com/library/5dbaddbd-e6cd-4776-b417-c67f51b12812%28Office.15%29.aspx) event 
-    
-### <a name="items-basic-properties-fields-and-forms"></a>Items: basic properties, fields, and forms
+- Свойство [Explorer.InlineResponse](https://msdn.microsoft.com/library/5dbaddbd-e6cd-4776-b417-c67f51b12812%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_ItemPropFieldsForms"> </a>
+
+### <a name="items-basic-properties-fields-and-forms"></a>Элементы: основные свойства, поля и формы
 
 - [Объекты элементов Outlook](https://msdn.microsoft.com/library/6ea4babf-facf-4018-ef5a-4a484e55153a%28Office.15%29.aspx)
     
-- [ItemProperties](https://msdn.microsoft.com/library/34a110ed-6617-72da-1e98-a9773c705b40%28Office.15%29.aspx) object 
+- Объект [ItemProperties](https://msdn.microsoft.com/library/34a110ed-6617-72da-1e98-a9773c705b40%28Office.15%29.aspx) 
     
-- [UserProperties](https://msdn.microsoft.com/library/20b49c86-d74f-9bda-382c-559af278c148%28Office.15%29.aspx) object 
+- Объект [UserProperties](https://msdn.microsoft.com/library/20b49c86-d74f-9bda-382c-559af278c148%28Office.15%29.aspx) 
     
 - [Standard Fields Overview](https://msdn.microsoft.com/library/f0d903a3-f404-8511-af3d-d4f3e30f0779%28Office.15%29.aspx)
     
@@ -653,18 +672,20 @@ The following resources provide more information about using the object model an
 - [Custom Fields and Data Types Overview](https://msdn.microsoft.com/library/a85a7bc2-2b85-1782-04a3-0104e0df32aa%28Office.15%29.aspx)
     
 - [Настройка страниц и областей форм](https://msdn.microsoft.com/library/c8c2d080-66a8-b761-bdc0-527b209e0bd1%28Office.15%29.aspx)
-    
-### <a name="items-customizing-properties"></a>Items: customizing properties
+
 <a name="OLSelectAPI_CustomizingProperties"> </a>
+
+### <a name="items-customizing-properties"></a>Элементы: настройка свойств
 
 - [Обзор свойств](https://msdn.microsoft.com/library/242c9e89-a0c5-ff89-0d2a-410bd42a3461%28Office.15%29.aspx)
     
 - [Эффективное получение и задание пользовательских свойств в папке контактов в Outlook 2010 (машинный перевод)](https://msdn.microsoft.com/library/bb49f7a6-ec0a-483a-a27e-e843c6af781b%28Office.15%29.aspx)
     
-- [PropertyAccessor](https://msdn.microsoft.com/library/2fc91e13-703c-3ec9-9066-ffee7144306c%28Office.15%29.aspx) object 
-    
-### <a name="items-enumerating-filtering-and-sorting"></a>Items: enumerating, filtering, and sorting
+- Объект [PropertyAccessor](https://msdn.microsoft.com/library/2fc91e13-703c-3ec9-9066-ffee7144306c%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_Enumerating"> </a>
+
+### <a name="items-enumerating-filtering-and-sorting"></a>Элементы: перечисление, фильтрация и сортировка
 
 - [Хранение элементов Outlook](https://msdn.microsoft.com/library/e4a639a4-10b2-7665-9261-19d6e7707e48%28Office.15%29.aspx)
     
@@ -676,12 +697,13 @@ The following resources provide more information about using the object model an
     
 - [Сортировка элементов в папке](https://msdn.microsoft.com/library/bc3651da-cfdb-4301-4034-bb848f371e55%28Office.15%29.aspx)
     
-- [Table](https://msdn.microsoft.com/library/0affaafd-93fe-227a-acee-e09a86cadc20%28Office.15%29.aspx) object 
-    
-### <a name="items-flag-as-tasks"></a>Items: flag as tasks
+- Объект [Table](https://msdn.microsoft.com/library/0affaafd-93fe-227a-acee-e09a86cadc20%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_ItemsFlag"> </a>
 
-See the following task-related properties in some item objects such as the [MailItem](https://msdn.microsoft.com/library/14197346-05d2-0250-fa4c-4a6b07daf25f%28Office.15%29.aspx) object: 
+### <a name="items-flag-as-tasks"></a>Элементы: пометка как задач
+
+См. следующие свойства, связанные с задачами, в некоторых объектах элементов, таких как объект [MailItem](https://msdn.microsoft.com/library/14197346-05d2-0250-fa4c-4a6b07daf25f%28Office.15%29.aspx): 
   
 - [TaskCompleteDate](https://msdn.microsoft.com/library/4bee35d4-1f1e-0b77-2021-84d4916bef8e%28Office.15%29.aspx) property 
     
@@ -691,17 +713,19 @@ See the following task-related properties in some item objects such as the [Mail
     
 - [TaskSubject](https://msdn.microsoft.com/library/f7e4629f-ad47-b455-9fee-b5e537602a34%28Office.15%29.aspx) property 
     
-- [ToDoTaskOrdinal](https://msdn.microsoft.com/library/d1ccb01a-0792-3779-3f94-eb5195a39bb0%28Office.15%29.aspx) property 
-    
-### <a name="items-selection-in-explorer"></a>Items: selection in explorer
+- Свойство [ToDoTaskOrdinal](https://msdn.microsoft.com/library/d1ccb01a-0792-3779-3f94-eb5195a39bb0%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_ItemSelection"> </a>
 
-- [Selection.GetSelection](https://msdn.microsoft.com/library/c6af6665-d97d-3833-1014-5b43282bafc2%28Office.15%29.aspx) method 
+### <a name="items-selection-in-explorer"></a>Элементы: выбор в проводнике
+
+- Метод [Selection.GetSelection](https://msdn.microsoft.com/library/c6af6665-d97d-3833-1014-5b43282bafc2%28Office.15%29.aspx) 
     
-- [Selection.Location](https://msdn.microsoft.com/library/8a2db72a-8db0-840e-349e-5d9d22f3affb%28Office.15%29.aspx) property 
-    
-### <a name="miscellaneous-business-cards-rules-and-views"></a>Miscellaneous: business cards, rules, and views
+- Свойство [Selection.Location](https://msdn.microsoft.com/library/8a2db72a-8db0-840e-349e-5d9d22f3affb%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_Misc"> </a>
+
+### <a name="miscellaneous-business-cards-rules-and-views"></a>Разное: визитные карточки, правила и представления
 
 - [Настройка визитных карточек и предоставление доступа к ним](https://msdn.microsoft.com/library/d29fd962-ea5f-040d-e9af-e8ab70595832%28Office.15%29.aspx)
     
@@ -711,54 +735,60 @@ See the following task-related properties in some item objects such as the [Mail
     
 - Объект [Rules](https://msdn.microsoft.com/library/dd41b4de-bf5f-5532-46c9-394a5d078bec%28Office.15%29.aspx) 
     
-- [RuleActions](https://msdn.microsoft.com/library/82ba76cd-86a4-3372-cb51-2df1d58c8b71%28Office.15%29.aspx) object 
+- Объект [RuleActions](https://msdn.microsoft.com/library/82ba76cd-86a4-3372-cb51-2df1d58c8b71%28Office.15%29.aspx) 
     
-- [RuleConditions](https://msdn.microsoft.com/library/b2af6ebf-f9f8-8106-20a3-1725c3b78174%28Office.15%29.aspx) object 
+- Объект [RuleConditions](https://msdn.microsoft.com/library/b2af6ebf-f9f8-8106-20a3-1725c3b78174%28Office.15%29.aspx) 
     
-- [TimeZones](https://msdn.microsoft.com/library/c68f8589-44e9-3c12-45c1-96943fa9bcb7%28Office.15%29.aspx) object 
+- Объект [TimeZones](https://msdn.microsoft.com/library/c68f8589-44e9-3c12-45c1-96943fa9bcb7%28Office.15%29.aspx) 
     
 - [Представления Outlook](https://msdn.microsoft.com/library/cbaa3192-6c27-26c0-ebd6-f6489c2e812e%28Office.15%29.aspx)
     
-- [Views](https://msdn.microsoft.com/library/5dd7edc2-12a2-f4c2-d158-8053d80e8dc9%28Office.15%29.aspx) object 
-    
-### <a name="security"></a>Безопасность
+- Объект [Views](https://msdn.microsoft.com/library/5dd7edc2-12a2-f4c2-d158-8053d80e8dc9%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_Misc"> </a>
+
+### <a name="security"></a>Безопасность
 
 - [Режим безопасности объектной модели Outlook](https://msdn.microsoft.com/library/4aa3b7c7-5f3f-41ce-bbf3-75d8ecbd6d4f%28Office.15%29.aspx)
     
 - [Изменения завершения работы Outlook 2010](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- [Attachment file types restricted by Outlook 2010](https://technet.microsoft.com/ru-RU/library/cc179163.aspx)
+- 
+  [Attachment file types restricted by Outlook 2010](https://technet.microsoft.com/ru-RU/library/cc179163.aspx)
     
 - [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     
-- [Code Security Changes in Outlook 2007](https://msdn.microsoft.com/library/26a9fd8f-6277-48ac-a92f-3ff46e1d883a%28Office.15%29.aspx)
-    
-### <a name="sharing"></a>Доступ
+- [Изменения безопасности кода в Outlook 2007](https://msdn.microsoft.com/library/26a9fd8f-6277-48ac-a92f-3ff46e1d883a%28Office.15%29.aspx)
+
 <a name="OLSelectAPI_Sharing"> </a>
+
+### <a name="sharing"></a>Общий доступ
 
 - [Совместное использование календарей](https://msdn.microsoft.com/library/03e0b693-5446-ca62-f868-69a583087966%28Office.15%29.aspx)
     
 - [Совместное использование интернет-календарей, RSS-каналов, а также папок Microsoft SharePoint Foundation и Exchange](https://msdn.microsoft.com/library/e579e026-bd10-37bb-eb3e-5c9f042fa0fa%28Office.15%29.aspx)
     
-- [SharingItem](https://msdn.microsoft.com/library/63dd3451-44f3-7cc4-c6e2-7dad5835a7d2%28Office.15%29.aspx) object 
-    
-### <a name="solutions-solution-specific-folders"></a>Solutions: solution-specific folders
+- Объект [SharingItem](https://msdn.microsoft.com/library/63dd3451-44f3-7cc4-c6e2-7dad5835a7d2%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_Folders"> </a>
+
+### <a name="solutions-solution-specific-folders"></a>Решения: папки для определенных решений
 
 - [Программирование модуля "Решения" Outlook 2010](https://msdn.microsoft.com/library/5989a3da-2f2a-4abd-87b0-cc0e1560dd59%28Office.15%29.aspx)
     
-- [SolutionsModule](https://msdn.microsoft.com/library/4597765e-a95d-bf07-2ac4-103218ebc696%28Office.15%29.aspx) object 
-    
-### <a name="solutions-storing-data"></a>Solutions: storing data
+- Объект [SolutionsModule](https://msdn.microsoft.com/library/4597765e-a95d-bf07-2ac4-103218ebc696%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_StoringData"> </a>
 
-- [Storing Data for Solutions ](https://msdn.microsoft.com/library/58e69983-5718-4dde-64fc-858abd80c9e5%28Office.15%29.aspx)
+### <a name="solutions-storing-data"></a>Решения: хранение данных
+
+- [Хранение данных для решений](https://msdn.microsoft.com/library/58e69983-5718-4dde-64fc-858abd80c9e5%28Office.15%29.aspx)
     
-- [StorageItem](https://msdn.microsoft.com/library/41776bc3-b838-2755-fd6b-3b5012fb9ae5%28Office.15%29.aspx) object 
-    
-### <a name="user-interface-customizing-form-regions"></a>User interface: customizing form regions
+- Объект [StorageItem](https://msdn.microsoft.com/library/41776bc3-b838-2755-fd6b-3b5012fb9ae5%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_CustomFormRegions"> </a>
+
+### <a name="user-interface-customizing-form-regions"></a>Пользовательский интерфейс: настройка областей формы
 
 - [Настройка страниц и областей форм](https://msdn.microsoft.com/library/c8c2d080-66a8-b761-bdc0-527b209e0bd1%28Office.15%29.aspx)
     
@@ -772,12 +802,13 @@ See the following task-related properties in some item objects such as the [Mail
     
 - [Реализация области формы для отображения заголовков сообщений электронной почты в Outlook 2010 (машинный перевод)](https://msdn.microsoft.com/library/243a4e64-d4ea-4cfc-871e-af19d622fb1b%28Office.15%29.aspx)
     
-- [FormRegion](https://msdn.microsoft.com/library/3a0b83eb-4076-9cb3-86a9-68f9e44df89f%28Office.15%29.aspx) object 
+- Объект [FormRegion](https://msdn.microsoft.com/library/3a0b83eb-4076-9cb3-86a9-68f9e44df89f%28Office.15%29.aspx) 
     
-- [FormRegionStartup](https://msdn.microsoft.com/library/948ea6b7-2962-57e7-618d-fa0977b65651%28Office.15%29.aspx) object 
-    
-### <a name="user-interface-customizing-since-outlook-2007"></a>User interface: customizing since Outlook 2007
+- Объект [FormRegionStartup](https://msdn.microsoft.com/library/948ea6b7-2962-57e7-618d-fa0977b65651%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_CustomizeTheOutlookInterface"> </a>
+
+### <a name="user-interface-customizing-since-outlook-2007"></a>Пользовательский интерфейс: настройка в Outlook 2007
 
 - [Общие сведения о настройке ленты](https://msdn.microsoft.com/library/ee49751d-9eae-357c-5fa9-0b2dd4ff0890%28Office.15%29.aspx)
     
@@ -791,16 +822,17 @@ See the following task-related properties in some item objects such as the [Mail
     
 - [Настройка области навигации](https://msdn.microsoft.com/library/426c3d1c-13b5-cac5-702d-87dfe71f2478%28Office.15%29.aspx)
     
-- [Outlook View Control Object Model Reference](https://msdn.microsoft.com/library/36fa9303-2135-6fcc-b93c-05eef37af3ec%28Office.15%29.aspx)
+- [Справочник по объектной модели элемента управления представления Outlook](https://msdn.microsoft.com/library/36fa9303-2135-6fcc-b93c-05eef37af3ec%28Office.15%29.aspx)
     
 - [IDTExtensibility2](https://msdn.microsoft.com/library/Extensibility.IDTExtensibility2.aspx) interface 
     
-- [IRibbonExtensibility](https://msdn.microsoft.com/library/b27a7576-b6f5-031e-e307-78ef5f8507e0%28Office.15%29.aspx) object 
+- Объект [IRibbonExtensibility](https://msdn.microsoft.com/library/b27a7576-b6f5-031e-e307-78ef5f8507e0%28Office.15%29.aspx) 
     
-- [NavigationPane](https://msdn.microsoft.com/library/b6538c72-6115-99fc-c926-e0532a747823%28Office.15%29.aspx) object 
-    
-### <a name="user-interface-customizing-since-outlook-2010"></a>User interface: customizing since Outlook 2010
+- Объект [NavigationPane](https://msdn.microsoft.com/library/b6538c72-6115-99fc-c926-e0532a747823%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_CustomizingUIOutlook2010"> </a>
+
+### <a name="user-interface-customizing-since-outlook-2010"></a>Пользовательский интерфейс: настройка в Outlook 2010
 
 - [Расширение интерфейса пользователя в Outlook 2010](https://msdn.microsoft.com/library/00b504b0-e897-43b9-8615-44276166823f%28Office.15%29.aspx)
     
@@ -810,25 +842,27 @@ See the following task-related properties in some item objects such as the [Mail
     
 - [Настройка контекстного меню карточки контакта в Outlook 2010 (машинный перевод)](https://msdn.microsoft.com/library/8513c8de-15d7-4396-8ced-f5f56f4cd9b3%28Office.15%29.aspx)
     
-- [IRibbonControl](https://msdn.microsoft.com/library/63aef709-e1d3-b1a6-76af-b568ad0e69ae%28Office.15%29.aspx) object 
+- Объект [IRibbonControl](https://msdn.microsoft.com/library/63aef709-e1d3-b1a6-76af-b568ad0e69ae%28Office.15%29.aspx) 
     
-- [IRibbonExtensibility](https://msdn.microsoft.com/library/b27a7576-b6f5-031e-e307-78ef5f8507e0%28Office.15%29.aspx) object 
+- Объект [IRibbonExtensibility](https://msdn.microsoft.com/library/b27a7576-b6f5-031e-e307-78ef5f8507e0%28Office.15%29.aspx) 
     
-- [IRibbonUI](https://msdn.microsoft.com/library/d323aa21-de74-e821-c914-db71ef3b9c5e%28Office.15%29.aspx) object 
-    
-### <a name="user-interface-solutions-specific-folders"></a>User interface: solutions-specific folders
+- Объект [IRibbonUI](https://msdn.microsoft.com/library/d323aa21-de74-e821-c914-db71ef3b9c5e%28Office.15%29.aspx) 
+
 <a name="OLSelectAPI_CustomizingUIOutlook2010"> </a>
+
+### <a name="user-interface-solutions-specific-folders"></a>Пользовательский интерфейс: папки с определенными решениями
 
 - [Программирование модуля "Решения" Outlook 2010](https://msdn.microsoft.com/library/5989a3da-2f2a-4abd-87b0-cc0e1560dd59%28Office.15%29.aspx)
     
 - [Добавление папки для решения конкретных решениях модулю в Outlook 2010 (машинный перевод)](https://msdn.microsoft.com/library/9709af57-1577-4497-8c9c-3d239353e2ed%28Office.15%29.aspx)
     
 - Объект [SolutionsModule](https://msdn.microsoft.com/library/4597765e-a95d-bf07-2ac4-103218ebc696%28Office.15%29.aspx) 
-    
-## <a name="see-also-auxiliary-apis"></a>См. также: "Дополнительные API"
+
 <a name="OLSelectAPI_AdditionalResourcesAuxAPIs"> </a>
 
-The following resources provide more information about the Outlook auxiliary APIs.
+## <a name="see-also-auxiliary-apis"></a>См. также: Вспомогательные API
+
+В приведенных ниже ресурсах можно найти дополнительные сведения об использовании вспомогательных API Outlook.
   
 ### <a name="account-management"></a>Account management
 
@@ -875,11 +909,12 @@ The following resources provide more information about the Outlook auxiliary API
 - [Анализ потока из двоичного свойства для считывания структуры TZREG](auxiliary/how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)
     
 - [Считывание свойств часового пояса встречи](auxiliary/how-to-read-time-zone-properties-from-an-appointment.md)
-    
-## <a name="see-also-primary-references-resources-and-code-samples"></a>См. также: "Основные ссылки, ресурсы и примеры кода"
+
 <a name="OLSelectAPI_AdditionalResourcesRefCode"> </a>
 
-The following resources provide more information about the primary Outlook references, resources, and code samples.
+## <a name="see-also-primary-references-resources-and-code-samples"></a>См. также: "Основные ссылки, ресурсы и примеры кода"
+
+В приведенных ниже ресурсах можно найти дополнительные сведения о основных ресурсах и примерах кода для Outlook.
   
 ### <a name="major-references-and-resources"></a>Major references and resources
 
@@ -899,7 +934,7 @@ The following resources provide more information about the primary Outlook refer
 ### <a name="code-samples"></a>Примеры кода
 
 - [Mail apps samples](https://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)   
-- Object model code samples: [How Do I ... in Outlook](https://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)  
+- Примеры кода объектной модели: [Как это сделать в Outlook](https://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)  
 - PIA code samples: [Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)](https://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)  
 - [Примеры MAPI](https://msdn.microsoft.com/library/641659f2-3c0a-43af-96f1-2521b4b06680%28Office.15%29.aspx)
 - Auxiliary API code samples: [Sample tasks](auxiliary/sample-tasks.md)
