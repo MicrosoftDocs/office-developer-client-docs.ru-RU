@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (строка Controls) ("Visio XML")
+title: Элемент Cell (строка Controls) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3c04d243-002c-bb00-a4be-0bcb8e156402
 description: Содержит свойство для определенного управляющего маркера, определенного для фигуры.
-ms.openlocfilehash: ea54865a645486dfba53688278cb380142899d77
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 662dfe730c92ae25b3d243364bf1fa22a5eb8605
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356093"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541837"
 ---
-# <a name="cell-element-controls-row-visio-xml"></a>Элемент Cell (строка Controls) ("Visio XML")
+# <a name="cell-element-controls-row-visio-xml"></a>Элемент Cell (строка Controls) (XML для Visio)
 
 Содержит свойство для определенного управляющего маркера, определенного для фигуры.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356093"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -64,12 +64,12 @@ ms.locfileid: "32356093"
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |Канглуе  <br/> |Определяет, можно ли приклеить управляющий маркер к другим фигурам.  <br/> |[Can Glue Cell (Controls Section)](can-glue-cell-controls-section.md) <br/> |
 |Prompt  <br/> |Представляет строку описательного текста, которая отображается в виде подсказки, когда пользователь приостанавливает указатель над маркером управления фигуры.  <br/> |[Tip Cell (Controls Section)](tip-cell-controls-section.md) <br/> |
 |X  <br/> |Представляет x – координату, определяющую расположение управляющего маркера фигуры в локальных координатах.  <br/> |[X Cell (Controls Section)](x-cell-controls-section.md) <br/> |
-|Кскон  <br/> |Указывает тип поведения, который обОзначает x-координату управляющего маркера после перемещения маркера.  <br/> |Нет.  <br/> |
+|Кскон  <br/> |Указывает тип поведения, который обозначает x-координату управляющего маркера после перемещения маркера.  <br/> |Нет.  <br/> |
 |Ксдин  <br/> |Представляет x координат для точки привязки управляющего маркера в локальных координатах.  <br/> |[X Dynamics Cell (Controls Section)](x-dynamics-cell-controls-section.md) <br/> |
 |Да  <br/> |Представляет y – координату, определяющую расположение управляющего маркера фигуры в локальных координатах.  <br/> |[Y Cell (Controls Section)](y-cell-controls-section.md) <br/> |
 |Икон  <br/> |Указывает тип поведения, который будет иметь координаты y управляющего маркера после его перемещения.  <br/> |Нет.  <br/> |

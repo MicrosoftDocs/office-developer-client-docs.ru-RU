@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: ae1abafe-160c-47c0-b4d5-4a689c8c4cb1
 description: Пример XML в этом разделе — это XML-строка, возвращаемая Outlook Social Connector (OSC) после вызова метода ИсоЦиалпровидер::-Capabilities для социальной сети. В XML-коде показано, как поставщик OSC указывает свои возможности и требования для OSC.
-ms.openlocfilehash: 53bd250432e7b27d984a846d206adc812c47898f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3340f5b1e0718edd1a062ab817c6621c338bee42
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281232"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542263"
 ---
 # <a name="capabilities-xml-example"></a>Пример XML возможностей
 
@@ -41,7 +41,7 @@ ms.locfileid: "32281232"
   
 - методические **действия** имеют **значение true** , чтобы указать, что поставщик OSC поддерживает метод [исоЦиалпрофиле:: жетактивитиесоффриендсандколлеагуес](isocialprofile-getactivitiesoffriendsandcolleagues.md) для программного получения действий друзей. 
     
-- **качеактивитиес** в качестве значения **false** для поддержки действий по кэшированию друзей в скрытОй папке веб-канала новостей Outlook. 
+- **качеактивитиес** в качестве значения **false** для поддержки действий по кэшированию друзей в скрытой папке веб-канала новостей Outlook. 
     
 - **динамикактивитиеслукупекс** как **true** , чтобы указать, что OSC должен хранить действия друзей в памяти. 
     
@@ -65,7 +65,7 @@ ms.locfileid: "32281232"
   
 ```XML
 <?xml version="1.0" encoding="utf-8" ?>
-<capabilities xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<capabilities xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <getFriends>true</getFriends>
   <cacheFriends>true</cacheFriends>
   <followPerson>true</followPerson>

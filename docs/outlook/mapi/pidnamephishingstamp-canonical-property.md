@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 6cc0357e-f1d5-4387-b30f-432ba7ee42b4
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 73089431569cce3480967b05910df0b7bcf187eb
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8dbede5391f6913c7869b5f93e6744e10c8081b3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355785"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540905"
 ---
 # <a name="pidnamephishingstamp-canonical-property"></a>Каноническое свойство PidNamePhishingStamp
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение, определяющее и помечающих сообщения, которые, скорее всего, будут фишингом.
   
@@ -31,7 +31,7 @@ ms.locfileid: "32355785"
 |:-----|:-----|
 |Понятные имена:  <br/> |Нет  <br/> |
 |Набор свойств:  <br/> |ПС_ПУБЛИК_СТРИНГС  <br/> |
-|Имя свойства:  <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|Имя свойства:  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Защита обмена сообщениями  <br/> |
    
@@ -47,7 +47,7 @@ ms.locfileid: "32355785"
   
 > Определяет и помечает сообщения электронной почты, предназначенные для получения пользователями конфиденциальных сведений (таких как пароли и другие персональные данные) в ненадежном источнике.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

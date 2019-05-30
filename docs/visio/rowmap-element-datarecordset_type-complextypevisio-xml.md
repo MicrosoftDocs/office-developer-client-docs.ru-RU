@@ -1,5 +1,5 @@
 ---
-title: Элемент Ровмап (Датарекордсет_типе complexType) (' Visio XML ')
+title: Элемент Ровмап (Датарекордсет_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f90dc76b-7f0b-dead-38c0-97062a7b76a6
 description: Сопоставляет строку набора записей данных с фигурой.
-ms.openlocfilehash: 2dffa49d66e8e447b4e31d771179c74eecad21da
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 178ceb06d64bfc9ef50f75dd22f8bd94f09f5c33
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332517"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540772"
 ---
-# <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>Элемент Ровмап (Датарекордсет_типе complexType) (' Visio XML ')
+# <a name="rowmap-element-datarecordsettype-complextype-visio-xml"></a>Элемент Ровмап (Датарекордсет_типе complexType) (XML для Visio)
 
 Сопоставляет строку набора записей данных с фигурой.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32332517"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Ровмап_типе](rowmap_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Recordset. XML  <br/> |
    

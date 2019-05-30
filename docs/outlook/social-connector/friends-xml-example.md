@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
 description: 'Пример XML в этом разделе — это дружественная XML-строка, возвращаемая Outlook Social Connector (OSC) после вызова метода ИсоЦиалперсон:: Жетфриендсандколлеагуес. В примере показывается XML-файл друзей для двух друзей, каждый из которых ограничен элементом Person. Каждый друг указывает уникальное значение для элемента userID в социальной сети.'
-ms.openlocfilehash: 5dbda1e4439f807ccc6e7abddd0ef654ae801fe0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 593019ec4dcd1b9b578bfe275fb8e6664bbd11a9
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280961"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542228"
 ---
 # <a name="friends-xml-example"></a>Пример XML друзей
 
@@ -27,7 +27,7 @@ ms.locfileid: "32280961"
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<friends xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<friends xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <person>
     <userID>4667647</userID>
     <firstName>Melissa</firstName>

@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 87926f7d-e1dc-41d5-8805-6ba91fc7b154
 description: С помощью методов интерфейса приложения можно извлекать и обновлять содержимое и данные OneNote, а также работать с такими данными и содержимым. Методы разбиты на четыре общие категории.
 localization_priority: Priority
-ms.openlocfilehash: 20b2fc42711aaf4f1b407efb2c70057bd88a9046
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 295db4fcb64541ccf461fbd8d48dc19b89e6b1f8
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303110"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537824"
 ---
 # <a name="application-interface-onenote"></a>Интерфейс приложения (OneNote)
 
@@ -98,7 +98,7 @@ static void UpdateExistingHierarchy()
   
 ```XML
 <?xml version="1.0" ?> 
-    <one:Notebooks xmlns:one="https://schemas.microsoft.com/office/onenote/12/2004/onenote"> 
+    <one:Notebooks xmlns:one="http://schemas.microsoft.com/office/onenote/12/2004/onenote"> 
         <one:Notebook name="My Notebook" nickname="My Notebook" ID="{0B8E7305-AC2C-4BCB-8651-1CDA55AAE14C}{1}{B0}"> 
             <one:Section name="My Renamed Section" ID="{5F4E2908-44BA-4C02-91FE-49FC665E9A33}{1}{B0}" path="C:\My Section.one" /> 
         </one:Notebook> 
@@ -127,7 +127,7 @@ static void GetAllSections()
     {
         
         // OneNote 2013 Schema namespace.
-        string strNamespace = "https://schemas.microsoft.com/office/onenote/2013/onenote";
+        string strNamespace = "http://schemas.microsoft.com/office/onenote/2013/onenote";
         string outputXML;
         Application onApplication = new Application();
         onApplication.GetHierarchy(null, HierarchyScope.hsSections, out outputXML);
@@ -263,7 +263,7 @@ static void UpdatePageContent()
         OneNote.Application onApplication = new OneNote.Application();
         String strImportXML;
         strImportXML = "<?xml version=\"1.0\"?>" +
-            "<one:Page xmlns:one=\"https://schemas.microsoft.com/office/onenote/12/2004/onenote\" 
+            "<one:Page xmlns:one=\"http://schemas.microsoft.com/office/onenote/12/2004/onenote\" 
             ID=\"{3428B7BB-EF39-4B9C-A167-3FAE20630C37}{1}{B0}\">" +
             "    <one:PageSettings RTL=\"false\" color=\"automatic\">" +
             "        <one:PageSize>" +

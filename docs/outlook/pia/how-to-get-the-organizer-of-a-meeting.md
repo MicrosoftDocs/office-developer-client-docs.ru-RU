@@ -7,12 +7,12 @@ ms:contentKeyID: 55119872
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: b34b79ac05530ec30e611c50bce8e81ce0470f02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e19b293b581984e9dbb1fe27c9564cb78a73caa1
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320113"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542538"
 ---
 # <a name="get-the-organizer-of-a-meeting"></a>Получение организатора собрания
 
@@ -40,7 +40,7 @@ private Outlook.AddressEntry GetMeetingOrganizer(Outlook.AppointmentItem appt)
         throw new ArgumentNullException();
     }
     string PR_SENT_REPRESENTING_ENTRYID =
-        @"https://schemas.microsoft.com/mapi/proptag/0x00410102";
+        @"http://schemas.microsoft.com/mapi/proptag/0x00410102";
     string organizerEntryID =
         appt.PropertyAccessor.BinaryToString(
             appt.PropertyAccessor.GetProperty(

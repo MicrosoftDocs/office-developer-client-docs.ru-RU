@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (раздел "Градиентная заливка") ("Visio XML")
+title: Элемент Cell (раздел "Градиентная заливка") (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d085f83a-f77b-9bf9-07dc-4561b83e288c
 description: Содержит цвет, прозрачность и положение остановки градиента для градиента заливки.
-ms.openlocfilehash: 3c4cdf1f60f68748fd2500b2dec0b5a5ad553ff5
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 998c63d5273c39601e5b7293ae03eebbc3b467b2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356100"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539553"
 ---
-# <a name="cell-element-fill-gradient-section-visio-xml"></a>Элемент Cell (раздел "Градиентная заливка") ("Visio XML")
+# <a name="cell-element-fill-gradient-section-visio-xml"></a>Элемент Cell (раздел "Градиентная заливка") (XML-файл Visio)
 
 Содержит цвет, прозрачность и положение остановки градиента для градиента заливки.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356100"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
    
@@ -64,7 +64,7 @@ ms.locfileid: "32356100"
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |Градиентстопколор  <br/> |Значение цвета остановки градиента. Это значение может быть выражено в виде номера индекса цвета в палитре документа или с помощью функций **RGB**, **THEMEVAL**или **HSL** .  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
 |Градиентстопколортранс  <br/> |Степень прозрачности точки цвета градиента в процентах.  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |

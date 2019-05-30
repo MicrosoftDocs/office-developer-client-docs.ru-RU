@@ -1,5 +1,5 @@
 ---
-title: Элемент СтенЦилграуппос (Виндов_типе complexType) (' Visio XML ')
+title: Элемент СтенЦилграуппос (Виндов_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7440a59b-1c7c-6477-32e7-35188fbd2b39
 description: Содержит целое число, задающее относительное положение набора элементов в группе в окне.
-ms.openlocfilehash: 3ac4957638d136a235a7e037368dc0963aa611f3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a539cd4435477f43a2e9c16b6a9b77e6e1e9d7f5
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329857"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538881"
 ---
-# <a name="stencilgrouppos-element-windowtype-complextype-visio-xml"></a>Элемент СтенЦилграуппос (Виндов_типе complexType) (' Visio XML ')
+# <a name="stencilgrouppos-element-windowtype-complextype-visio-xml"></a>Элемент СтенЦилграуппос (Виндов_типе complexType) (XML для Visio)
 
 Содержит целое число, задающее относительное положение набора элементов в группе в окне.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32329857"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[СтенЦилграуппос_типе](stencilgrouppos_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Windows. XML  <br/> |
    

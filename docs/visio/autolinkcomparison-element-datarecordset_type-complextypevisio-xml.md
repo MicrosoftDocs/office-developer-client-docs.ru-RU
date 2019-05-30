@@ -1,5 +1,5 @@
 ---
-title: Элемент Аутолинккомпарисон (Датарекордсет_типе complexType) (' Visio XML ')
+title: Элемент Аутолинккомпарисон (Датарекордсет_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: af5eb7fd-89c6-49bf-4e45-431b63d6cd6a
 description: Определяет правило, которое сравнивает столбец в родительском элементе данных фигуры с элементом данных фигуры из последнего успешного действия автоматического связывания, выполняемого в пользовательском интерфейсе.
-ms.openlocfilehash: 474acc4c1d259621881ea498decfeaf18b69809e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7d25d12844fe33ec1f1abb66984c5be40c4995c3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32338320"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537873"
 ---
-# <a name="autolinkcomparison-element-datarecordsettype-complextype-visio-xml"></a>Элемент Аутолинккомпарисон (Датарекордсет_типе complexType) (' Visio XML ')
+# <a name="autolinkcomparison-element-datarecordsettype-complextype-visio-xml"></a>Элемент Аутолинккомпарисон (Датарекордсет_типе complexType) (XML для Visio)
 
 Определяет правило, которое сравнивает столбец в родительском элементе данных **** фигуры с элементом данных фигуры из последнего успешного действия автоматического связывания, выполняемого в пользовательском интерфейсе. 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32338320"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Аутолинккомпарисон_типе](autolinkcomparison_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Recordset. XML  <br/> |
    

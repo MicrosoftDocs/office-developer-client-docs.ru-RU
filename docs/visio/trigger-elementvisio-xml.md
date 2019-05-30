@@ -1,5 +1,5 @@
 ---
-title: Элемент Trigger ("Visio XML")
+title: Элемент Trigger (XML в Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d897d2d1-25ba-48d7-b87e-d3c533d88c15
 description: В этой статье приведены инструкции по пересчету связей между частями документа в файле Visio в Microsoft Visio.
-ms.openlocfilehash: a590ec1f9c19270f75d4d9e77804c0a7b45157b6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e757331984586dc910ada7d14e6385761f15929f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32280852"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542907"
 ---
-# <a name="trigger-element-visio-xml"></a>Элемент Trigger ("Visio XML")
+# <a name="trigger-element-visio-xml"></a>Элемент Trigger (XML в Visio)
 
 В этой статье приведены инструкции по пересчету связей между частями документа в файле Visio в Microsoft Visio.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32280852"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Тригжер_типе](trigger_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -60,7 +60,7 @@ ms.locfileid: "32280852"
 |:-----|:-----|:-----|:-----|:-----|
 |N  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Имя формулы, вызываемой при активации триггера.  <br/> Ознакомьтесь с разделом "Примечания".  <br/> |Значения типа String: XSD.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Trigger** должен быть одним из ограниченных наборов значений, соответствующих инструкциям триггера. Используйте приведенную ниже таблицу, чтобы определить значения атрибута **N** , разрешенные для этого элемента **Trigger** . 
   
@@ -88,6 +88,6 @@ ms.locfileid: "32280852"
 |Рекалктипе  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **Type** .  <br/> |
 |Релчанжед  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на фигуре при наличии ссылки на несколько частей с помощью функции **CONTAINERMEMBERCOUNT** .  <br/> |
 |Зордерчанжед  <br/> |[PageSheet (Паже_типе complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице при наличии ссылки между частями с помощью функции **CONTAINERSHEETREF** .  <br/> |
-|Path  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице при наличии ссылки на несколько частей с помощью функции **POINTALONGPATH**, **PATHLENGTH**или **PATHSEGMENT** .  <br/> |
+|Путь  <br/> |[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |Триггер, который отображается на странице при наличии ссылки на несколько частей с помощью функции **POINTALONGPATH**, **PATHLENGTH**или **PATHSEGMENT** .  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Элемент StyleSheet (Стилешитс_типе complexType) (' XML ' Visio ')
+title: Элемент StyleSheet (Стилешитс_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 323e1ccd-8ddd-46d3-1032-5d68d01cf4bd
 description: Представляет стиль, определенный в документе.
-ms.openlocfilehash: af1f8270be28e7edabf22d93471517531f5cc226
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 939180d24972ae68d01b2a707e7806380b706d14
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329801"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541941"
 ---
-# <a name="stylesheet-element-stylesheetstype-complextype-visio-xml"></a>Элемент StyleSheet (Стилешитс_типе complexType) (' XML ' Visio ')
+# <a name="stylesheet-element-stylesheetstype-complextype-visio-xml"></a>Элемент StyleSheet (Стилешитс_типе complexType) (XML для Visio)
 
 Представляет стиль, определенный в документе.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32329801"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Стилешит_типе](stylesheet_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
    
@@ -55,7 +55,7 @@ ms.locfileid: "32329801"
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |FillStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор элемента StyleSheet, из которого этот стиль наследует форматирование заливки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Искустомнаме  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, настроено ли имя пользователем.  <br/> |Значения типа XSD: Boolean.  <br/> |
 |Искустомнамеу  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, настроено ли универсальное имя пользователем.  <br/> |Значения типа XSD: Boolean.  <br/> |
 |LineStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор элемента StyleSheet, из которого этот стиль наследует форматирование линии.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |

@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: de3c35ef-84a3-b991-7c98-3eca720c9ba0
 description: Задает условия для расположения в прогнозе погоды.
-ms.openlocfilehash: 19e6669d51aa38d10587c6334aef0409f31baf58
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 18669dfc4636c28e03a582bc0c8df512aa38a4e4
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355148"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541269"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-information-schema"></a>элемент Weather (элемент веасердата) (схема сведений о погоде Outlook)
 
@@ -24,7 +24,7 @@ ms.locfileid: "32355148"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Веасертипе](weathertype-complextype-outlook-weather-information-schema.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Файл схемы** <br/> |жетвеасеринфо. xsd  <br/> |
    
 ## <a name="definition"></a>Определение
@@ -59,7 +59,7 @@ ms.locfileid: "32355148"
 |Attribution  <br/> |xs: String  <br/> |Обязательный  <br/> |Указывает источник сведений о погоде.  <br/> |Значение типа xs: String.  <br/> |
 |дегритипе  <br/> |xs: String  <br/> |Обязательный  <br/> |Задает единицу измерения температуры местоположения, например "Цельсия".  <br/> |C, F  <br/> |
 |имажерелативеурл  <br/> |xs: String  <br/> |Обязательный  <br/> |Задает URL-адрес изображения для расположения.  <br/> |Значение типа xs: String.  <br/> |
-|часовой  <br/> |xs: integer  <br/> |Обязательный  <br/> |Указывает смещение GMT.  <br/> |Значение В диапазоне от – 11 до 12 включительно  <br/> |
+|часовой  <br/> |xs: integer  <br/> |Обязательный  <br/> |Указывает смещение GMT.  <br/> |Значение в диапазоне от – 11 до 12 включительно  <br/> |
 |url  <br/> |xs: String  <br/> |Обязательный  <br/> |Задает URL-адрес веб-страницы службы погоды, содержащей сведения о погоде для указанного расположения.  <br/> |Значение типа xs: String.  <br/> |
 |веасерлокатионкоде  <br/> |xs: String  <br/> |Обязательный  <br/> |Указывает код, связанный с расположением, используемым для различения нескольких расположений с одинаковыми именами.  <br/> |Значение типа xs: String.  <br/> |
 |веасерлокатионнаме  <br/> |xs: String  <br/> |Обязательный  <br/> |Задает имя расположения, которое отображается в раскрывающемся элементе управления.  <br/> |Значение типа xs: String.  <br/> |

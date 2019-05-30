@@ -1,25 +1,25 @@
 ---
-title: Екстенсионс_типе complexType (' Visio XML ')
+title: Екстенсионс_типе complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5f516e1a-e789-8085-1cc3-70514910eb26
-ms.openlocfilehash: 7760e1b22a7d573d8f61cf08ed54789f601e9339
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7fe070087afab9cdc6eac9e35a230b02ab7d62ab
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351088"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542375"
 ---
-# <a name="extensionstype-complextype-visio-xml"></a>Екстенсионс_типе complexType (' Visio XML ')
+# <a name="extensionstype-complextype-visio-xml"></a>Екстенсионс_типе complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Базовый элемент расширения** <br/> |Отсутствует  <br/> |
    

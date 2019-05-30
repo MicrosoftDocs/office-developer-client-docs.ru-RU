@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 5f1fdf59-db58-561c-e187-1af72a8b87f2
 description: Представляет различные сведения в разных строках. В этой таблице описывается ячейка D, основанная на строке, в которой она расположена.
-ms.openlocfilehash: 1da6ac19e6a50ea87f07bf3e3c9f96378b512ba8
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a76093f028986907b58175bc6b8c81a7056cfe07
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33424380"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542501"
 ---
 # <a name="d-cell-geometry-section"></a>D Cell (Geometry Section)
 
 Представляет различные сведения в разных строках. В этой таблице описывается ячейка D, основанная на строке, в которой она расположена.
   
-|**Строка**|**Описание**|
+|Строка|Описание|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Отношение основной оси дуги к ее вспомогательной оси. Несмотря на обычное значение этих слов, ось "Major" не должна превышать "младшую" ось, поэтому значение этого коэффициента не должно превышать 1. Присвоение этой ячейке значения меньше или равно 0 или больше 1000 может привести к непредсказуемым результатам.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Первый вес рационального понеоднородногоного B-сплайна (NURBS).  <br/> |

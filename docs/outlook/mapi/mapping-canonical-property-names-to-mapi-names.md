@@ -8,22 +8,22 @@ api_type:
 - COM
 ms.assetid: 43c7225b-8f9f-47a2-aadf-36a249b2d78e
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 36d75c0a3a5f4767bfb0eeb0f9ae3d0c249b084b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ed73c0947e51150dd15617a95a99cd709101eb9e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32316550"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541920"
 ---
 # <a name="mapping-canonical-property-names-to-mapi-names"></a>Сопоставление имен канонических свойств с именами MAPI
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 В этом разделе каждое каноническое имя свойства сопоставляется со свойством MAPI или свойствами, которые она представляет. Раздел содержит три таблицы: таблица для именованных свойств с числовыми идентификаторами, вторая таблица для именованных свойств со строковыми идентификаторами и третья таблица для свойств с тегами.
   
-Для получения дополнительных сведений о том, как канонические свойства относятся к свойствам MAPI, см [канонИческое свойство MAPI](mapi-canonical-properties.md).
+Для получения дополнительных сведений о том, как канонические свойства относятся к свойствам MAPI, см [каноническое свойство MAPI](mapi-canonical-properties.md).
   
 ## <a name="named-properties-with-numerical-identifiers"></a>Именованные свойства с числовыми идентификаторами
 
@@ -318,7 +318,7 @@ ms.locfileid: "32316550"
 |[PidNameCategory](pidnamecategory-canonical-property.md) <br/> |Категория  <br/> |
 |[PidNameCharacterCount](pidnamecharactercount-canonical-property.md) <br/> |CharCount  <br/> |
 |[PidNameComments](pidnamecomments-canonical-property.md) <br/> |Comments  <br/> |
-|[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Организация  <br/> |
+|[PidNameCompany](pidnamecompany-canonical-property.md) <br/> |Company  <br/> |
 |[PidNameContentBase](pidnamecontentbase-canonical-property.md) <br/> |Content — Base  <br/> |
 |[PidNameContentClass](pidnamecontentclass-canonical-property.md) <br/> |Content – class  <br/> |
 |[PidNameContentTransferEncoding](pidnamecontenttransferencoding-canonical-property.md) <br/> |Content-Transfer-Encoding  <br/> |
@@ -326,7 +326,7 @@ ms.locfileid: "32316550"
 |[PidNameCreateDateTimeReadOnly](pidnamecreatedatetimereadonly-canonical-property.md) <br/> |Креатедтмро  <br/> |
 |[PidNameCrossReference](pidnamecrossreference-canonical-property.md) <br/> |Ксреф  <br/> |
 |[PidNameEditTime](pidnameedittime-canonical-property.md) <br/> |Едиттиме  <br/> |
-|[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|[PidNameExchangeJunkEmailMoveStamp](pidnameexchangejunkemailmovestamp-canonical-property.md) <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |[PidNameHiddenCount](pidnamehiddencount-canonical-property.md) <br/> |Хидденкаунт  <br/> |
 |[PidNameKeywords](pidnamekeywords-canonical-property.md) <br/> |Ключевые слова  <br/> |
 |[PidNameLastAuthor](pidnamelastauthor-canonical-property.md) <br/> |LastAuthor  <br/> |
@@ -336,7 +336,7 @@ ms.locfileid: "32316550"
 |[PidNameManager](pidnamemanager-canonical-property.md) <br/> |Директор  <br/> |
 |[PidNameMultimediaClipCount](pidnamemultimediaclipcount-canonical-property.md) <br/> |Ммклипкаунт  <br/> |
 |[PidNameNoteCount](pidnamenotecount-canonical-property.md) <br/> |Нотекаунт  <br/> |
-|[Пиднамеаутлукфишингстамп](pidnamephishingstamp-canonical-property.md) <br/> |https://schemas.microsoft.com/outlook/phishingstamp  <br/> |
+|[Пиднамеаутлукфишингстамп](pidnamephishingstamp-canonical-property.md) <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |[PidNamePageCount](pidnamepagecount-canonical-property.md) <br/> |PageCount  <br/> |
 |[PidNameParagraphCount](pidnameparagraphcount-canonical-property.md) <br/> |Паркаунт  <br/> |
 |[PidNamePresentationFormat](pidnamepresentationformat-canonical-property.md) <br/> |Пресформат  <br/> |
@@ -346,7 +346,7 @@ ms.locfileid: "32316550"
 |[PidNameSlideCount](pidnameslidecount-canonical-property.md) <br/> |Слидекаунт  <br/> |
 |[PidNameSubject](pidnamesubject-canonical-property.md) <br/> |Subject  <br/> |
 |[PidNameTemplate](pidnametemplate-canonical-property.md) <br/> |Шаблон  <br/> |
-|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Заголовок  <br/> |
+|[PidNameTitle](pidnametitle-canonical-property.md) <br/> |Название  <br/> |
 |[PidNameWordCount](pidnamewordcount-canonical-property.md) <br/> |WordCount  <br/> |
 |[PidNameXSharingCapabilities](pidnamexsharingcapabilities-canonical-property.md) <br/> |Возможности совместного использования X  <br/> |
 |[PidNameXSharingConfigUrl](pidnamexsharingconfigurl-canonical-property.md) <br/> |X-Sharing-config-URL  <br/> |

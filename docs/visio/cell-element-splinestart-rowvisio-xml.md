@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (строка строка splinestart) (' Visio XML ')
+title: Элемент Cell (строка строка splinestart) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 021536b9-6724-4b8a-35c2-966e456e5232
 description: Содержит координаты x или y для второй контрольной точки сплайна, второй Кнот, ее первый Кнот, последний кнот или степень сплайна.
-ms.openlocfilehash: d2e12eba831dafb9a79b9f76638a0bdb23671ce9
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e3a99818d897af21e3064e0fc92d9d56ffcf5a15
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339538"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539357"
 ---
-# <a name="cell-element-splinestart-row-visio-xml"></a>Элемент Cell (строка строка splinestart) (' Visio XML ')
+# <a name="cell-element-splinestart-row-visio-xml"></a>Элемент Cell (строка строка splinestart) (XML для Visio)
 
 Содержит координаты x или y для второй контрольной точки сплайна, второй Кнот, ее первый Кнот, последний кнот или степень сплайна.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32339538"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -60,15 +60,15 @@ ms.locfileid: "32339538"
 |U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
 |V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки таблицы свойств фигуры.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |X  <br/> |Координата x второй контрольной точки сплайна.  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
 |Да  <br/> |Координата y второй контрольной точки сплайна.  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
-|А  <br/> |Второй кнот сплайна.  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
+|A  <br/> |Второй кнот сплайна.  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
 |B  <br/> |Первый кнот сплайна.  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
 |C  <br/> |Последний кнот сплайна.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |
 |D  <br/> |Степень сплайна (целое число от 1 до 25).  <br/> |[SplineStart Row (Geometry Section)](splinestart-row-geometry-section.md) <br/> |

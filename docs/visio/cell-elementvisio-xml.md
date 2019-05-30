@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (' XML ' Visio ')
+title: Элемент Cell (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3131bfbb-9bf6-d15d-c6ca-2f15bd038f39
 description: Указывает элементы ячейки, которые могут содержаться в DocumentSheet, таблице стилей, PageSheet или таблице свойств фигуры.
-ms.openlocfilehash: a48e440e40659209fe3a9fd30587204e3ad724ff
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2b76abeb83fb7251bf492e92d8dd1a81feeab092
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32327134"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542312"
 ---
-# <a name="cell-element-visio-xml"></a>Элемент Cell (' XML ' Visio ')
+# <a name="cell-element-visio-xml"></a>Элемент Cell (XML для Visio)
 
 Указывает элементы ячейки, которые могут содержаться в DocumentSheet, таблице стилей, PageSheet или таблице свойств фигуры.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32327134"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Pages. XML, Master. XML, Master #. XML, Page #. XML  <br/> |
    
@@ -62,11 +62,11 @@ ms.locfileid: "32327134"
 |U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
 |V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки **таблицы свойств фигуры** .  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |AddMarkup  <br/> |Указывает, выполняется ли рецензирование документа для разметки.  <br/> |[AddMarkup Cell (Document Properties Section)](addmarkup-cell-document-properties-section.md) <br/> |
 |AlignBottom  <br/> |Определяет вертикальное положение относительно начала координат родительского элемента, горизонтальной направляющей или направляющей точки, относительно которого выровнена Нижняя граница фигуры.  <br/> |[AlignBottom Cell (Alignment Section)](alignbottom-cell-alignment-section.md) <br/> |
@@ -81,9 +81,9 @@ ms.locfileid: "32327134"
 |AvoidPageBreaks  <br/> |Определяет, могут ли фигуры размещаться поверх разрывов страниц, когда фигуры инкрементно выравниваются, инкрементно или и то, и другое.  <br/> |[AvoidPageBreaks Cell (Page Layout Section)](avoidpagebreaks-cell-page-layout-section.md) <br/> |
 |BeginArrow  <br/> |Указывает, имеет ли линия наконечник стрелки или другой конечный формат в первой вершине. Введите число от 0 до 45 или функцию USE с именем настраиваемого конца линии или используйте диалоговое окно "линия".  <br/> |[BeginArrow Cell (Line Format Section)](beginarrow-cell-line-format-section.md) <br/> |
 |BeginArrowSize  <br/> |Определяет размер наконечника в начале линии.  <br/> |[BeginArrowSize Cell (Line Format Section)](beginarrowsize-cell-line-format-section.md) <br/> |
-|BeginX  <br/> |Представляет координату x начальной точки одноМерной фигуры относительно начала координат родительского элемента. Представляет координату x начальной точки одноМерной фигуры относительно начала координат родительского элемента.  <br/> |[BeginX Cell (1-D Endpoints Section)](beginx-cell-1-d-endpoints-section.md) <br/> |
-|BeginY  <br/> |Представляет координату y начальной точки одноМерной фигуры относительно начала координат родительского элемента.  <br/> |[BeginY Cell (1-D Endpoints Section)](beginy-cell-1-d-endpoints-section.md) <br/> |
-|BegTrigger  <br/> |Содержит формулу триггера, созданную приложением, которая определяет, нужно ли перемещать начальную точку одноМерной фигуры для сохранения ее связи с другой фигурой.  <br/> |[BegTrigger Cell (Glue Info Section)](begtrigger-cell-glue-info-section.md) <br/> |
+|BeginX  <br/> |Представляет координату x начальной точки одномерной фигуры относительно начала координат родительского элемента. Представляет координату x начальной точки одномерной фигуры относительно начала координат родительского элемента.  <br/> |[BeginX Cell (1-D Endpoints Section)](beginx-cell-1-d-endpoints-section.md) <br/> |
+|BeginY  <br/> |Представляет координату y начальной точки одномерной фигуры относительно начала координат родительского элемента.  <br/> |[BeginY Cell (1-D Endpoints Section)](beginy-cell-1-d-endpoints-section.md) <br/> |
+|BegTrigger  <br/> |Содержит формулу триггера, созданную приложением, которая определяет, нужно ли перемещать начальную точку одномерной фигуры для сохранения ее связи с другой фигурой.  <br/> |[BegTrigger Cell (Glue Info Section)](begtrigger-cell-glue-info-section.md) <br/> |
 |BevelBottomHeight  <br/> |Определяет высоту скоса нижнего скоса фигуры в точках.  <br/> |[BevelBottomHeight Cell (Bevel Properties Section)](bevelbottomheight-cell-bevel-properties-section.md) <br/> |
 |BevelBottomType  <br/> |Задает нижний тип скоса фигуры.  <br/> |[BevelBottomType Cell (Bevel Properties Section)](bevelbottomtype-cell-bevel-properties-section.md) <br/> |
 |BevelBottomWidth  <br/> |Определяет ширину нижнего скоса в точках.  <br/> |[BevelBottomWidth Cell (Bevel Properties Section)](bevelbottomwidth-cell-bevel-properties-section.md) <br/> |
@@ -101,7 +101,7 @@ ms.locfileid: "32327134"
 |BlockSizeY  <br/> |Определяет размер вертикального блока (область, в которой все фигуры должны размещаться на странице документа при размещении фигур с помощью диалогового окна "Настройка макета").  <br/> |[BlockSizeY Cell (Page Layout Section)](blocksizey-cell-page-layout-section.md) <br/> |
 |Размытие  <br/> |Размытие или смягчение растрового изображения. Значение по умолчанию: 0%.  <br/> |[Blur Cell (Image Properties Section)](blur-cell-image-properties-section.md) <br/> |
 |BottomMargin  <br/> |Определяет расстояние между нижней границей блока текста и последней строкой текста, который он содержит.  <br/> |[BottomMargin Cell (Text Block Format Section)](bottommargin-cell-text-block-format-section.md) <br/> |
-|Яркость  <br/> |НаСтраивает яркость растрового изображения.  <br/> |[Ячейка яркости (раздел "Свойства изображения"](brightness-cell-image-properties-section.md) <br/> |
+|Яркость  <br/> |Настраивает яркость растрового изображения.  <br/> |[Ячейка яркости (раздел "Свойства изображения"](brightness-cell-image-properties-section.md) <br/> |
 |Календарь  <br/> |Определяет календарь, который используется, когда Формула ячейки содержит сведения о дате.  <br/> |[Calendar Cell (Miscellaneous Section)](calendar-cell-miscellaneous-section.md) <br/> |
 |Календарь  <br/> |Определяет календарь, используемый для данных фигуры, когда типом данных является "Дата".  <br/> |[Calendar Cell (Shape Data Section)](calendar-cell-shape-data-section.md) <br/> |
 |Календарь  <br/> |Определяет календарь, используемый для текстового поля, когда тип данных — Date.  <br/> |[Calendar Cell (Text Fields Section)](calendar-cell-text-fields-section.md) <br/> |
@@ -119,7 +119,7 @@ ms.locfileid: "32327134"
 |ConLineJumpStyle  <br/> |Определяет стиль значка пересечения линий для перемычек на динамическом соединителе.  <br/> |[ConLineJumpStyle Cell (Shape Layout Section)](conlinejumpstyle-cell-shape-layout-section.md) <br/> |
 |ConLineRouteExt  <br/> |Определяет внешний вид соединителя.  <br/> |[ConLineRouteExt Cell (Shape Layout Section)](conlinerouteext-cell-shape-layout-section.md) <br/> |
 |ConnectorSchemeIndex  <br/> |Определяет схему соединителей темы, применяемой к фигуре, в виде целого числа.  <br/> |[ConnectorSchemeIndex Cell (Theme Properties Section)](connectorschemeindex-cell-theme-properties-section.md) <br/> |
-|Контраст  <br/> |НаСтраивает контрастность растрового изображения.  <br/> |[Contrast Cell (Image Properties Section)](contrast-cell-image-properties-section.md) <br/> |
+|Контраст  <br/> |Настраивает контрастность растрового изображения.  <br/> |[Contrast Cell (Image Properties Section)](contrast-cell-image-properties-section.md) <br/> |
 |Авторское право  <br/> |Содержит строку, представляющую удобное для человека заявление об авторских правах  <br/> ||
 |CtrlAsInput  <br/> |Определяет, какая фигура является родительской, при использовании фигур с управляющими маркерами. В этой ячейке задается поведение всех фигур на странице документа.  <br/> |[CtrlAsInput Cell (Page Layout Section)](ctrlasinput-cell-page-layout-section.md) <br/> |
 |DefaultTabStop  <br/> |Определяет интервал по умолчанию для табуляции в текстовом блоке.  <br/> |[DefaultTabstop Cell (Text Block Format Section)](defaulttabstop-cell-text-block-format-section.md) <br/> |
@@ -147,7 +147,7 @@ ms.locfileid: "32327134"
 |EnableTextProps  <br/> |Определяет, включены ли в стиль свойства текста.  <br/> |[EnableTextProps Cell (Style Properties Section)](enabletextprops-cell-style-properties-section.md) <br/> |
 |EndArrow  <br/> |Указывает, имеет ли строка наконечник стрелки или другой конечный формат на последней вершине.  <br/> |[EndArrow Cell (Line Format Section)](endarrow-cell-line-format-section.md) <br/> |
 |EndArrowSize  <br/> |Определяет размер наконечника в конце строки.  <br/> |[EndArrowSize Cell (Line Format Section)](endarrowsize-cell-line-format-section.md) <br/> |
-|EndTrigger  <br/> |Содержит формулу триггера, созданную приложением, которая определяет, нужно ли перемещать конечную точку одноМерной фигуры для сохранения ее связи с другой фигурой.  <br/> |[EndTrigger Cell (Glue Info Section)](endtrigger-cell-glue-info-section.md) <br/> |
+|EndTrigger  <br/> |Содержит формулу триггера, созданную приложением, которая определяет, нужно ли перемещать конечную точку одномерной фигуры для сохранения ее связи с другой фигурой.  <br/> |[EndTrigger Cell (Glue Info Section)](endtrigger-cell-glue-info-section.md) <br/> |
 |EndX  <br/> |Представляет координату x конечной точки одномерной фигуры относительно начала родительского элемента.  <br/> |[EndX Cell (1-D Endpoints Section)](endx-cell-1-d-endpoints-section.md) <br/> |
 |Енди  <br/> |Представляет координату y конечной точки одномерной фигуры относительно начала родительского элемента.  <br/> |[EndY Cell (1-D Endpoints Section)](endy-cell-1-d-endpoints-section.md) <br/> |
 |EventDblClick  <br/> |Ячейка события, вычисляемая при двойном щелчке фигуры.  <br/> |[EventDblClick Cell (Events Section)](eventdblclick-cell-events-section.md) <br/> |
@@ -169,7 +169,7 @@ ms.locfileid: "32327134"
 |GlowColor  <br/> |Определяет цвет, используемый для обводки внешнего свечения, примененного к фигуре, в виде значения в формате RGB или темы.  <br/> |[GlowColor Cell (Additional Effect Properties Section)](glowcolor-cell-additional-effect-properties-section.md) <br/> |
 |GlowColorTrans  <br/> |Определяет уровень прозрачности цвета, используемого для обводки свечения фигуры в процентном соотношении.  <br/> |[GlowColorTrans Cell (Additional Effect Properties Section)](glowcolortrans-cell-additional-effect-properties-section.md) <br/> |
 |GlowSize  <br/> |Определяет размер внешнего свечения фигуры в точках.  <br/> |[GlowSize Cell (Additional Effect Properties Section)](glowsize-cell-additional-effect-properties-section.md) <br/> |
-|GlueType  <br/> |Определяет, использует ли одноМерная фигура статическую ("точка-точка") или динамическую (фигурную фигуру) приклеить к другой фигуре.  <br/> |[GlueType Cell (Glue Info Section)](gluetype-cell-glue-info-section.md) <br/> |
+|GlueType  <br/> |Определяет, использует ли Одномерная фигура статическую ("точка-точка") или динамическую (фигурную фигуру) приклеить к другой фигуре.  <br/> |[GlueType Cell (Glue Info Section)](gluetype-cell-glue-info-section.md) <br/> |
 |Height  <br/> |Определяет высоту фигуры в единицах документа.  <br/> |[Height Cell (Shape Transform Section)](height-cell-shape-transform-section.md) <br/> |
 |Хелптопик  <br/> |Задает идентификатор раздела справки для фигуры.  <br/> ||
 |HideForApply  <br/> |Определяет, где отображается стиль в пользовательском интерфейсе Microsoft Visio.  <br/> |[HideForApply Cell (Style Properties Section)](hideforapply-cell-style-properties-section.md) <br/> |
@@ -289,7 +289,7 @@ ms.locfileid: "32327134"
 |ReflectionDist  <br/> |Определяет расстояние смещения отражения от фигуры (в пунктах от 0,0 до 100,0).  <br/> |[ReflectionDist Cell (Additional Effect Properties Section)](reflectiondist-cell-additional-effect-properties-section.md) <br/> |
 |ReflectionSize  <br/> |Определяет размер отражения относительно фигуры в процентах от 0,0 до 100,0%. Фигура со значением 0% в ячейке ReflectionSize не имеет отражения; значение 100% отображает полное зеркальное изображение фигуры.  <br/> |[ReflectionSize Cell (Additional Effect Properties Section)](reflectionsize-cell-additional-effect-properties-section.md) <br/> |
 |ReflectionTrans  <br/> |Определяет прозрачность отражения в процентах от 0 до 100%.  <br/> |[ReflectionTrans Cell (Additional Effect Properties Section)](reflectiontrans-cell-additional-effect-properties-section.md) <br/> |
-|Связи  <br/> |Хранит отношения между контейнерами, списками, выносками и фигурами.  <br/> |[Relationships Cell (Shape Layout Section)](relationships-cell-shape-layout-section.md) <br/> |
+|Отношения  <br/> |Хранит отношения между контейнерами, списками, выносками и фигурами.  <br/> |[Relationships Cell (Shape Layout Section)](relationships-cell-shape-layout-section.md) <br/> |
 |ReplaceCopyCells  <br/> |Указывает список ячеек таблицы свойств фигуры, которые копируются из старой фигуры в фигуру замены во время операции замены фигуры.  <br/> |[ReplaceCopyCells Cell (Change Shape Behavior Section)](replacecopycells-cell-change-shape-behavior-section.md) <br/> |
 |ReplaceLockFormat  <br/> |Указывает, перезаписывает ли значения заданных ячеек в главной фигуре значения (включая локальные значения) фигуры, которые заменяются во время операции замены фигуры. Если ячейка ReplaceLockFormat главной фигуры имеет значение TRUE (1), то значения форматирования образца перезапишу все соответствующие значения фигуры, замещенной образцом.  <br/> |[ReplaceLockFormat Cell (Change Shape Behavior Section)](replacelockformat-cell-change-shape-behavior-section.md) <br/> |
 |ReplaceLockShapeData  <br/> |Указывает, перезаписывает ли значения заданных ячеек в главной фигуре значения (включая локальные значения) фигуры, которые заменяются во время операции замены фигуры. ReplaceLockShapeData определяет, будут ли данные фигуры основной фигуры перезаписывать все данные фигуры заменяемой фигуры.  <br/> |[ReplaceLockShapeData Cell (Change Shape Behavior Section)](replacelockshapedata-cell-change-shape-behavior-section.md) <br/> |
@@ -324,7 +324,7 @@ ms.locfileid: "32327134"
 |ShapeShdwShow  <br/> |Определяет, отображается ли в фигуре тень как целое число от 0 до 2.  <br/> |[ShapeShdwShow Cell (Fill Format Section)](shapeshdwshow-cell-fill-format-section.md) <br/> |
 |ShapeShdwType  <br/> |Указывает тип тени для фигуры.  <br/> |[ShapeShdwType Cell (Fill Format Section)](shapeshdwtype-cell-fill-format-section.md) <br/> |
 |ShapeSplit  <br/> |Указывает, может ли эта фигура разделять фигуры, которые являются сплиттабле.  <br/> |[ShapeSplit Cell (Shape Layout Section)](shapesplit-cell-shape-layout-section.md) <br/> |
-|ShapeSplittable  <br/> |Указывает, можно ли разделить эту одноМерное фигуру.  <br/> |[ShapeSplittable Cell (Shape Layout Section)](shapesplittable-cell-shape-layout-section.md) <br/> |
+|ShapeSplittable  <br/> |Указывает, можно ли разделить эту одномерное фигуру.  <br/> |[ShapeSplittable Cell (Shape Layout Section)](shapesplittable-cell-shape-layout-section.md) <br/> |
 |»  <br/> |Повышает резкость растрового изображения. Значение по умолчанию: 0%. Усиление резкости изображения путем увеличения контрастности смежных пикселов.  <br/> |[Sharpen Cell (Image Properties Section)](sharpen-cell-image-properties-section.md) <br/> |
 |ShdwForegnd  <br/> |Определяет цвет, используемый для переднего плана (штриха) узора заливки тени фигуры.  <br/> |[ShdwForegnd Cell (Fill Format Section)](shdwforegnd-cell-fill-format-section.md) <br/> |
 |ShdwForegndTrans  <br/> |Определяет уровень прозрачности для цвета, используемого для переднего плана (штриха) узора заливки тени фигуры.  <br/> |[ShdwForegndTrans Cell (Fill Format Section)](shdwforegndtrans-cell-fill-format-section.md) <br/> |
@@ -344,7 +344,7 @@ ms.locfileid: "32327134"
 |TextBkgnd  <br/> |Определяет цвет фона текста для фигуры.  <br/> |[TextBkgnd Cell (Text Block Format Section)](textbkgnd-cell-text-block-format-section.md) <br/> |
 |TextBkgndTrans  <br/> |Определяет уровень прозрачности для цвета фона блока текста фигуры.  <br/> |[TextBkgndTrans Cell (Text Block Format Section)](textbkgndtrans-cell-text-block-format-section.md) <br/> |
 |TextDirection  <br/> |Определяет направление символов в текстовом блоке.  <br/> |[TextDirection Cell (Text Block Format Section)](textdirection-cell-text-block-format-section.md) <br/> |
-|TheData  <br/> |Зарезервирован для использования в будущем.  <br/> |[TheData Cell (Events Section)](thedata-cell-events-section.md) <br/> |
+|TheData  <br/> |Зарезервировано для последующего использования.  <br/> |[TheData Cell (Events Section)](thedata-cell-events-section.md) <br/> |
 |ThemeIndex  <br/> |Сохраняет перечисление встроенной темы Microsoft Visio, примененной к документу, в виде целого числа. При выборе для документа новой темы ячейка ThemeIndex для документа и всех содержащихся в ней страниц и фигур обновляется с помощью индекса встроенной темы.  <br/> |[ThemeIndex Cell (Theme Properties Section)](themeindex-cell-theme-properties-section.md) <br/> |
 |TheText  <br/> |Ячейка события, вычисляемая при изменении текста фигуры или текстовой композиции.  <br/> |[TheText Cell (Events Section)](thetext-cell-events-section.md) <br/> |
 |TopMargin  <br/> |Определяет расстояние между верхней границей блока текста и первой строкой текста, который он содержит. Значение по умолчанию — 4,0000 пт. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, верхнее поле остается прежним.  <br/> |[TopMargin Cell (Text Block Format Section)](topmargin-cell-text-block-format-section.md) <br/> |
@@ -365,7 +365,7 @@ ms.locfileid: "32327134"
 |VariationStyleIndex  <br/> |Определяет индекс стиля для активного варианта темы на странице в виде целого числа.  <br/> |[VariationStyleIndex Cell (Theme Properties Section)](variationstyleindex-cell-theme-properties-section.md) <br/> |
 |VerticalAlign  <br/> |Определяет вертикальное выравнивание текста в блоке текста.  <br/> |[VerticalAlign Cell (Text Block Format Section)](verticalalign-cell-text-block-format-section.md) <br/> |
 |ViewMarkup  <br/> |Определяет, отображаются ли разметки в окне документа.  <br/> |[ViewMarkup Cell (Document Properties Section)](viewmarkup-cell-document-properties-section.md) <br/> |
-|WalkPreference  <br/> |Определяет, перемещается ли конечная точка одноМерной фигуры в горизонтальную или вертикальную точку подключения на фигуре, к которой она связана, с помощью динамической ссылки, когда фигура перемещается в неоднозначное положение. По умолчанию обе конечные точки фигуры 1 – D перемещаются на горизонтальные точки подключения.  <br/> |[WalkPreference Cell (Glue Info Section)](walkpreference-cell-glue-info-section.md) <br/> |
+|WalkPreference  <br/> |Определяет, перемещается ли конечная точка одномерной фигуры в горизонтальную или вертикальную точку подключения на фигуре, к которой она связана, с помощью динамической ссылки, когда фигура перемещается в неоднозначное положение. По умолчанию обе конечные точки фигуры 1 – D перемещаются на горизонтальные точки подключения.  <br/> |[WalkPreference Cell (Glue Info Section)](walkpreference-cell-glue-info-section.md) <br/> |
 |Width  <br/> |Содержит ширину выбранной фигуры в единицах документа. По умолчанию для определения ширины фигуры 1-D используется следующая формула: = SQRT ((EndX-BeginX) ^ 2 + (Енди-Begin) ^ 2)  <br/> |[Width Cell (Shape Transform Section)](width-cell-shape-transform-section.md) <br/> |
 |XGridDensity  <br/> |Указывает тип горизонтальной сетки для использования.  <br/> |[Ячейка XGridDensity ( &amp; раздел "Сетка" линейки)](xgriddensity-cell-rulergrid-section.md) <br/> |
 |XGridOrigin  <br/> |Указывает горизонтальную координату начала сетки.  <br/> |[Ячейка XGridOrigin ( &amp; раздел "Сетка" линейки)](xgridorigin-cell-rulergrid-section.md) <br/> |

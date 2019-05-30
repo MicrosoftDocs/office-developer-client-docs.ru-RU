@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "гиперссылка") ("Visio XML")
+title: Элемент Row (раздел "гиперссылка") (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f87cd7a4-b9de-5fb1-20ec-90759c966bd9
 description: Содержит элементы для создания нескольких переходов между фигурой или страницей документа и другой странице документа, файлом или веб-сайтом.
-ms.openlocfilehash: 16935e463e76e0f0ee72b3fa40964551cf125cdd
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d2147504455c4edb13681a20aab0ade6a100a532
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358574"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540884"
 ---
-# <a name="row-element-hyperlink-section-visio-xml"></a>Элемент Row (раздел "гиперссылка") ("Visio XML")
+# <a name="row-element-hyperlink-section-visio-xml"></a>Элемент Row (раздел "гиперссылка") (XML для Visio)
 
 Содержит элементы для создания нескольких переходов между фигурой или страницей документа и другой странице документа, файлом или веб-сайтом.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358574"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Хиперлинкров_типе](hyperlinkrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    

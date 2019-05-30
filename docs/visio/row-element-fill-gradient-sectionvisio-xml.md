@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "Градиентная заливка") ("Visio XML")
+title: Элемент Row (раздел "Градиентная заливка") (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f216afb5-4393-6e1c-54c2-3c184a26d934
 description: Содержит цвет, прозрачность и положение остановки градиента для градиента заливки.
-ms.openlocfilehash: 55ec3b58f57d1fb008825c1a5a4156e5aec59552
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d9f3661d91b43bca7ff809c4e41a0c1257660e66
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358520"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538622"
 ---
-# <a name="row-element-fill-gradient-section-visio-xml"></a>Элемент Row (раздел "Градиентная заливка") ("Visio XML")
+# <a name="row-element-fill-gradient-section-visio-xml"></a>Элемент Row (раздел "Градиентная заливка") (XML для Visio)
 
 Содержит цвет, прозрачность и положение остановки градиента для градиента заливки.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358520"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Филлградиентров_типе](fillgradientrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
    

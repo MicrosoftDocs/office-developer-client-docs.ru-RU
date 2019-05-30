@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: f08f9212-af10-1287-477d-adde7674f523
 description: The Merge Forms feature of the Microsoft InfoPath editor is designed to combine the data from multiple forms into a single form.
-ms.openlocfilehash: 598c44bfe63a31237bf82ceb2212b001fbe7cc1f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f79553f7fdf0b59c77a98fd479e0a307e4f2e6a3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32303726"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537803"
 ---
 # <a name="enable-custom-merging-of-infopath-forms"></a>Включение настраиваемого объединения форм InfoPath
 
@@ -25,7 +25,7 @@ The **Merge Forms** feature of the Microsoft InfoPath editor is designed to comb
     
 ## <a name="creating-a-custom-transform"></a>Создание пользовательского преобразования
 
-Операция по умолчанию при объединении форм лучше всего подходит для форм, основанных на одной схеме XML. В то же время в некоторых случаях может выполняться объединение форм, основанных на различных схемах, или возникнуть необходимость переопределения операции объединения по умолчанию для форм, основанных на одном критерии. В этом случае можно создать преобразование XSL (XSLT), которое содержит указания по объединению. Преобразование применяется в ходе объединения; при этом создается документ DOM, содержащий импортируемую информацию наряду с указаниями по встраиванию этой информации в целевой документ. Эти указания представлены в виде XML-атрибутов пространства имен  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
+Операция по умолчанию при объединении форм лучше всего подходит для форм, основанных на одной схеме XML. В то же время в некоторых случаях может выполняться объединение форм, основанных на различных схемах, или возникнуть необходимость переопределения операции объединения по умолчанию для форм, основанных на одном критерии. В этом случае можно создать преобразование XSL (XSLT), которое содержит указания по объединению. Преобразование применяется в ходе объединения; при этом создается документ DOM, содержащий импортируемую информацию наряду с указаниями по встраиванию этой информации в целевой документ. Эти указания представлены в виде XML-атрибутов пространства имен  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`.
   
 XML-атрибуты и их значения выполняют роль указаний по объединению каждого узла с целевым XML-документом. Эти атрибуты описаны в следующих разделах.
   
@@ -70,7 +70,7 @@ XML-атрибуты и их значения выполняют роль ука
  agg:action="delete"/>
 ```
 
-Наряду с атрибутами, указанными в пространстве имен  `https://schemas.microsoft.com/office/InfoPath/2003/aggregation`, разработчик может использовать пространство имен  `https://schemas.microsoft.com/office/infopath/2003/aggregation-target` для указания XSL объекта, который реализует интерфейс **IXMLDOMDocument**. Одним из наиболее полезных инструментов этого интерфейса является метод **get-documentElement**.
+Наряду с атрибутами, указанными в пространстве имен  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`, разработчик может использовать пространство имен  `http://schemas.microsoft.com/office/infopath/2003/aggregation-target` для указания XSL объекта, который реализует интерфейс **IXMLDOMDocument**. Одним из наиболее полезных инструментов этого интерфейса является метод **get-documentElement**.
   
 ### <a name="get-documentelement"></a>Get — documentElement
 
@@ -103,9 +103,9 @@ XML-атрибуты и их значения выполняют роль ука
     ```XML
         <?xml version="1.0"?> 
         <xsl:stylesheet version="1.0" xmlns:xsl="https://www.w3.org/1999/XSL/Transform" 
-        xmlns:agg="https://schemas.microsoft.com/office/infopath/2003/aggregation" 
-        xmlns:target="https://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
-        xmlns:my="https://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
+        xmlns:agg="http://schemas.microsoft.com/office/infopath/2003/aggregation" 
+        xmlns:target="http://schemas.microsoft.com/office/infopath/2003/aggregation-target" 
+        xmlns:my="http://schemas.microsoft.com/office/infopath/2003/myXSD/2003-05-29T20:30:47"> 
             <xsl:template match="/"> 
                 <xsl:copy> 
                 <xsl:apply-templates select="@* | node()" /> 

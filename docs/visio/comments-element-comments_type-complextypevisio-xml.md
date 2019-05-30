@@ -1,5 +1,5 @@
 ---
-title: Элемент Comments (Комментс_типе complexType) (' Visio XML ')
+title: Элемент Comments (Комментс_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f72ced69-0d49-18cd-f1e6-d0b2cb39b4c0
 description: Задает свойства, используемые для идентификации авторов и комментариев в документе.
-ms.openlocfilehash: d82125cc5d795f0cb4455a5c10be1abf001e1198
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 93e75e47a203ee13385085c4b5e261fd3a724d4f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32359397"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539222"
 ---
-# <a name="comments-element-commentstype-complextype-visio-xml"></a>Элемент Comments (Комментс_типе complexType) (' Visio XML ')
+# <a name="comments-element-commentstype-complextype-visio-xml"></a>Элемент Comments (Комментс_типе complexType) (XML для Visio)
 
 Задает свойства, используемые для идентификации авторов и комментариев в документе.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32359397"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Комментс_типе](comments_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Comments. XML  <br/> |
    

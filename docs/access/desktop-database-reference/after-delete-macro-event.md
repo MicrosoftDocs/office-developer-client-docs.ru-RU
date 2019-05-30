@@ -11,12 +11,12 @@ f1_keywords:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: f524a544736f68bcfa6bd15e3bcc720ffa2bc4d6
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5b3b2da44d817885eb6190a8cbbfc73bf99e9e0a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32297216"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538237"
 ---
 # <a name="after-delete-macro-event"></a>Событие макроса After Delete
 
@@ -27,13 +27,13 @@ ms.locfileid: "32297216"
 > [!NOTE]
 > Событие " **после удаления** " доступно только для макросов данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте событие " **после удаления** " для выполнения действий, которые должны выполняться при удалении записи. Типичные случаи использования " **после удаления** " включают применение бизнес-правил, рабочих процессов, обновление итоговых сумм и отправку уведомлений.
 
 При возникновении события " **после удаления** " значения, хранящиеся в удаленной записи, по-прежнему доступны. Можно использовать удаленное значение для увеличения или уменьшения суммы, создания журнала аудита или сравнения с существующим значением в аргументе *WhereCondition* .
 
-Можно использовать функцию **Updated ("*имя поля*")** , чтобы определить, изменилось ли поле. В приведенном ниже примере кода показано, как использовать метод if стаемент, чтобы определить, было ли изменено поле Паидинфулл.
+Вы можете использовать функцию **Updated("*Имя поля*")**, чтобы определить, изменилось ли поле. В приведенном ниже примере кода показано, как использовать метод if стаемент, чтобы определить, было ли изменено поле Паидинфулл.
 
 ```vb 
  
@@ -65,89 +65,89 @@ End If
 <thead>
 <tr class="header">
 <th><p>Тип команды</p></th>
-<th><p>Command</p></th>
+<th><p>Команда</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Program Flow</p></td>
-<td><p><a href="comment-macro-statement.md">Оператор макроса Comment</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="comment-macro-statement.md">Оператор макроса "Примечание"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Program Flow</p></td>
-<td><p><a href="group-macro-statement.md">Оператор макроса Group</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="group-macro-statement.md">Оператор макроса "Группа"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Program Flow</p></td>
-<td><p><a href="if-then-else-macro-block.md">Блок макросов If...Then...Else</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="if-then-else-macro-block.md">Макроблок Если... То... Иначе</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
-<td><p><a href="createrecord-data-block.md">Макрокоманда СоздатьЗапись</a></p></td>
+<td><p><a href="createrecord-data-block.md">Макрокоманда "СоздатьЗапись"</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Блок данных</p></td>
-<td><p><a href="editrecord-data-block.md">Макрокоманда ИзменитьЗапись</a></p></td>
+<td><p><a href="editrecord-data-block.md">Макрокоманда "ИзменитьЗапись"</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
-<td><p><a href="foreachrecord-data-block.md">Макрокоманда ДляКаждойЗаписи</a></p></td>
+<td><p><a href="foreachrecord-data-block.md">Макрокоманда "ДляКаждойЗаписи"</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Блок данных</p></td>
-<td><p><a href="lookuprecord-data-block.md">Блок данных LookupRecord</a></p></td>
+<td><p><a href="lookuprecord-data-block.md">Блок данных "НайтиЗапись"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="cancelrecordchange-macro-action.md">Макрокоманда CancelRecordChange</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Макрокоманда "ОтменитьИзменениеЗаписи"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Макрокоманда ClearMacroError</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Макрокоманда "УстранитьОшибкуМакроса"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="deleterecord-macro-action.md">Макрокоманда DeleteRecord</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="deleterecord-macro-action.md">Макрокоманда "УдалитьЗапись"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="exitforeachrecord-macro-action.md">Макрокоманда ExitForEachRecord</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="exitforeachrecord-macro-action.md">Макрокоманда "ВыходДляКаждойЗаписи"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="logevent-macro-action.md">Макрокоманда LogEvent</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="logevent-macro-action.md">Макрокоманда "РегистрацияСобытия"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="onerror-macro-action.md">Макрокоманда OnError</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="onerror-macro-action.md">Макрокоманда "ПриОшибке"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="raiseerror-macro-action.md">Макрокоманда RaiseError</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="raiseerror-macro-action.md">Макрокоманда "ВыводОшибки"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="rundatamacro-macro-action.md">Макрокоманда RunDataMacro</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="rundatamacro-macro-action.md">Макрокоманда "ЗапускМакросаДанных"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="sendemail-macro-action.md">Макрокоманда SendEmail</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="sendemail-macro-action.md">Макрокоманда "ОтправитьПочту"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="setfield-macro-action.md">Макрокоманда SetField</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="setfield-macro-action.md">Макрокоманда "ЗадатьПоле"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Макрокоманда SetLocalVar</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="setlocalvar-macro-action.md">Макрокоманда "ЗадатьЛокПеременную"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="stopallmacros-macro-action.md">Макрокоманда StopAllMacros</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="stopallmacros-macro-action.md">Макрокоманда "ОстановитьВсеМакросы"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="stopmacro-macro-action.md">Макрокоманда StopMacro</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="stopmacro-macro-action.md">Макрокоманда "ОстановитьМакрос"</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -175,13 +175,13 @@ End If
 
 3.  Выберите приведенный ниже код и нажмите клавиши CTRL + C, чтобы скопировать его в буфер обмена.
 
-4.  Активируйте окно конструктора макросов и нажмите клавиши CTRL + V.
+4.  Активируйте окно конструктора макросов и нажмите клавиши CTRL+V.
 
 <!-- end list -->
 
 ```xml
     <?xml version="1.0" encoding="UTF-16" standalone="no"?> 
-    <DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+    <DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
       <DataMacro Event="AfterDelete"> 
         <Statements> 
           <Comment>Initialize a variable and assign the old</Comment> 

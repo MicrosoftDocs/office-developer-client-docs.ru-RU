@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "символ") ("Visio XML")
+title: Элемент Row (раздел "символ") (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 764a8e77-5308-e6ce-8763-dc6e6090da9d
 description: Показывает атрибуты форматирования для текстового запуска фигуры, такие как шрифт, цвет, стиль текста, регистр, положение относительно базовой линии и размер кегля.
-ms.openlocfilehash: 3d8aa3e508b2f045a2cf38faaa795922dcc14803
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: afff4dcb809bf73da6ada25045678711ade75b6b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358529"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541787"
 ---
-# <a name="row-element-character-section-visio-xml"></a>Элемент Row (раздел "символ") ("Visio XML")
+# <a name="row-element-character-section-visio-xml"></a>Элемент Row (раздел "символ") (XML для Visio)
 
 Показывает атрибуты форматирования для текстового запуска фигуры, такие как шрифт, цвет, стиль текста, регистр, положение относительно базовой линии и размер кегля.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358529"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Чарактерров_типе](characterrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
    

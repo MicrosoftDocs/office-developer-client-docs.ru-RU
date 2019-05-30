@@ -13,12 +13,12 @@ dev_langs:
 f1_categories:
 - Office.Version=v15
 localization_priority: Normal
-ms.openlocfilehash: b37fb96ddfeaabc97c6f445f8951876e8026fbfe
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a180068e805ae11883822ebf26f924e10d34bac5
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296859"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538118"
 ---
 # <a name="before-change-macro-event"></a>Событие макроса Before Change
 
@@ -29,11 +29,11 @@ ms.locfileid: "32296859"
 > [!NOTE]
 > Событие " **до изменения** " доступно только в макросах данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте событие **Before Change** для выполнения действий, которые должны выполняться перед изменением записи. Для выполнения проверки и порождения настраиваемых сообщений об ошибках обычно используется значение **Before Change** .
 
-Можно использовать функцию **Updated ("*имя поля*")** , чтобы определить, изменилось ли поле. В приведенном ниже примере кода показано, как использовать оператор **If** , чтобы определить, было ли изменено поле паидинфулл.
+Вы можете использовать функцию **Updated("*Имя поля*")**, чтобы определить, изменилось ли поле. В приведенном ниже примере кода показано, как использовать оператор **If** , чтобы определить, было ли изменено поле паидинфулл.
 
 ```vb
     If  Updated("PaidInFull")   Then 
@@ -59,13 +59,13 @@ ms.locfileid: "32296859"
     End If
 ```
 
-Вы можете использовать для доступа к предыдущему значению в поле, используя следующий синтаксис.
+Можно использовать доступ к предыдущему значению в поле с помощью следующего синтаксиса.
 
 ```vb
     [Old].[Field Name]
 ```
 
-Например, чтобы получить доступ к предыдущему значению поля Куантитинстокк, используйте следующий синтаксис.
+Например, для доступа к предыдущему значению поля QuantityInStock используйте следующий синтаксис.
 
 ```vb
     [Old].[QuantityInStock]
@@ -85,49 +85,49 @@ ms.locfileid: "32296859"
 <thead>
 <tr class="header">
 <th><p>Тип команды</p></th>
-<th><p>Command</p></th>
+<th><p>Команда</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Program Flow</p></td>
-<td><p><a href="comment-macro-statement.md">Оператор макроса Comment</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="comment-macro-statement.md">Оператор макроса "Примечание"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Program Flow</p></td>
-<td><p><a href="group-macro-statement.md">Оператор макроса Group</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="group-macro-statement.md">Оператор макроса "Группа"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Program Flow</p></td>
-<td><p><a href="if-then-else-macro-block.md">Блок макросов If...Then...Else</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="if-then-else-macro-block.md">Макроблок Если... То... Иначе</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
 <td><p><a href="lookuprecord-data-block.md">Макрокоманда LookupRecord</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Макрокоманда ClearMacroError</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Макрокоманда "УстранитьОшибкуМакроса"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="onerror-macro-action.md">Макрокоманда OnError</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="onerror-macro-action.md">Макрокоманда "ПриОшибке"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="raiseerror-macro-action.md">Макрокоманда RaiseError</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="raiseerror-macro-action.md">Макрокоманда "ВыводОшибки"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="setfield-macro-action.md">Макрокоманда SetField</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="setfield-macro-action.md">Макрокоманда "ЗадатьПоле"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Макрокоманда SetLocalVar</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="setlocalvar-macro-action.md">Макрокоманда "ЗадатьЛокПеременную"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="stopmacro-macro-action.md">Макрокоманда StopMacro</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="stopmacro-macro-action.md">Макрокоманда "ОстановитьМакрос"</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -139,7 +139,7 @@ ms.locfileid: "32296859"
 
 2.  На вкладке **Таблица** в группе **события до** выберите **перед изменением**.
 
-Пустой макрос данных отображается в конструкторе макросов.
+В окне конструктора макросов отобразится пустой макрос данных.
 
 ## <a name="example"></a>Пример
 
@@ -185,7 +185,7 @@ End If
 
 
 ```xml
-<DataMacros xmlns="https://schemas.microsoft.com/office/accessservices/2009/04/application"> 
+<DataMacros xmlns="http://schemas.microsoft.com/office/accessservices/2009/04/application"> 
   <DataMacro Event="BeforeChange"> 
     <Statements> 
       <Comment>Check to ensure that if the bug is resloved that the user has selected a resolution </Comment> 

@@ -7,12 +7,12 @@ ms:contentKeyID: 55119884
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 35215c24a9b953bf8406b268a6169abbd536202b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: e1d5b293f89c453886cafd9effc3fb5205f9696c
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320309"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542599"
 ---
 # <a name="filter-and-efficiently-enumerate-items-in-a-folder"></a>Фильтрация и эффективное перечисление элементов в папке
 
@@ -24,7 +24,7 @@ ms.locfileid: "32320309"
 
 После этого в примере еще раз вызывается **Columns.Add**, чтобы добавить свойство **ReceiveTime**, указывающее пространство имен MAPI, чтобы в этом столбце хранить значения даты и времени в формате UTC. В конце в примере перечисляются все элементы в объекте Table с отображением значения каждого из четырех свойств, указанных в качестве столбцов таблицы.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **Imports** или **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook
@@ -39,7 +39,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 ```vb
 Private Sub DemoTableColumns()
     Const PR_HAS_ATTACH As String = _
-        "https://schemas.microsoft.com/mapi/proptag/0x0E1B000B"
+        "http://schemas.microsoft.com/mapi/proptag/0x0E1B000B"
     ' Obtain Inbox
     Dim folder As Outlook.Folder = _
         CType(Application.Session.GetDefaultFolder( _
@@ -82,7 +82,7 @@ End Sub
 private void DemoTableColumns()
 {
     const string PR_HAS_ATTACH =
-        "https://schemas.microsoft.com/mapi/proptag/0x0E1B000B";
+        "http://schemas.microsoft.com/mapi/proptag/0x0E1B000B";
     // Obtain Inbox
     Outlook.Folder folder =
         Application.Session.GetDefaultFolder(

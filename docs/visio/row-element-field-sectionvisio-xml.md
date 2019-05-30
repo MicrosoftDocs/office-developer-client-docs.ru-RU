@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "поле") ("Visio XML")
+title: Элемент Row (раздел "поле") (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 7883cb55-a7db-10c0-be20-5d3c561e490f
 description: Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна "поле".
-ms.openlocfilehash: 578269b9bcb2a85db2145f1bccafd3c3cff91936
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: c05f704610d7061b9e2c8b742adc39f2b72ba4ae
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358495"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541759"
 ---
-# <a name="row-element-field-section-visio-xml"></a>Элемент Row (раздел "поле") ("Visio XML")
+# <a name="row-element-field-section-visio-xml"></a>Элемент Row (раздел "поле") (XML-файл Visio)
 
 Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна "поле".
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358495"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Фиелдров_типе](fieldrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    

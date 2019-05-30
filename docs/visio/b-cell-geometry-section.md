@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: b0fb6a47-47d8-ab9c-854d-0b0bbfdfcc27
 description: Представляет различные сведения в разных строках. В этой таблице описывается ячейка B на основе строки, в которой она расположена.
-ms.openlocfilehash: ff032b5af2918ec9865360ede5c3d76e8e872e9a
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 46c8aa418f495905630fed2833d84afc93945346
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33423309"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537796"
 ---
 # <a name="b-cell-geometry-section"></a>B Cell (Geometry Section)
 
 Представляет различные сведения в разных строках. В этой таблице описывается ячейка B на основе строки, в которой она расположена.
   
-|**Строка**|**Описание**|
+|Строка|Описание|
 |:-----|:-----|
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Координата *y* контрольной точки дуги.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Последний вес неоднородного рационального B-сплайна (NURBS).  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Элемент PrimaryKey (Датарекордсет_типе complexType) (' XML ' Visio ')
+title: Элемент PrimaryKey (Датарекордсет_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 47533e6e-0a48-af61-a0c2-b2cec140ae4b
 description: Определяет один или несколько столбцов первичного ключа в наборе записей данных.
-ms.openlocfilehash: c001c343c33e65c3990744b885f1c345575b1ab3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bd77b1d18490695dc2b0cb43520f42bb845e91ab
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355999"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537712"
 ---
-# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>Элемент PrimaryKey (Датарекордсет_типе complexType) (' XML ' Visio ')
+# <a name="primarykey-element-datarecordsettype-complextype-visio-xml"></a>Элемент PrimaryKey (Датарекордсет_типе complexType) (XML для Visio)
 
 Определяет один или несколько столбцов первичного ключа в наборе записей данных.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32355999"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Примарикэй_типе](primarykey_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Recordset. XML  <br/> |
    

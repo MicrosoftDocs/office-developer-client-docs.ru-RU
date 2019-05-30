@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (раздел "теги действий") ("Visio XML")
+title: Элемент Cell (раздел "теги действий") (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6210ff71-fbcd-2c97-6dde-1e334891e08d
 description: Определяет одно свойство для тега действия на фигуре или странице.
-ms.openlocfilehash: 61fad8575532adde0106ef6db2888fe38f3ae4b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3b43206838dae432df677a3ff8792c85328db53b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337179"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538804"
 ---
-# <a name="cell-element-action-tag-section-visio-xml"></a>Элемент Cell (раздел "теги действий") ("Visio XML")
+# <a name="cell-element-action-tag-section-visio-xml"></a>Элемент Cell (раздел "теги действий") (XML-файл Visio)
 
 Определяет одно свойство для тега действия на фигуре или странице.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32337179"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32337179"
 |U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
 |V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки таблицы свойств фигуры.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |ButtonFace  <br/> |Содержит идентификатор изображения кнопки, которое отображается на кнопке тега действия.  <br/> |[ButtonFace Cell (Action Tags Section)](buttonface-cell-action-tags-section.md) <br/> |
 |Описание  <br/> |Содержит строку, описывающую тег действия, который отображается как всплывающая подсказка, когда пользователь наводит указатель мыши на тег.  <br/> |[Description Cell (Action Tags Section)](description-cell-action-tags-section.md) <br/> |

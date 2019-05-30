@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "соединение") ("Visio XML")
+title: Элемент Row (раздел "подключение") (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3f44fc18-4757-7aba-8778-a474ab93a78d
 description: Содержит координаты x или y, горизонтальное и вертикальное направление и тип для одной точки подключения на фигуре.
-ms.openlocfilehash: 9f8f5f0735f7eeff2f1b2ec4562b79e6550d1716
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: eb32030e89d3ac77adfdc64e2d20a5fb954dbb53
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358577"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541766"
 ---
-# <a name="row-element-connection-section-visio-xml"></a>Элемент Row (раздел "соединение") ("Visio XML")
+# <a name="row-element-connection-section-visio-xml"></a>Элемент Row (раздел "подключение") (XML-файл Visio)
 
 Содержит координаты x или y, горизонтальное и вертикальное направление и тип для одной точки подключения на фигуре.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358577"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Коннектионров_типе](connectionrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    

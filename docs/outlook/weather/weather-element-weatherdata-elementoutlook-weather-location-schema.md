@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 1127956a-37aa-c39e-60b4-343dcc4ead82
 description: Указывает расположение для отчета о погоде.
-ms.openlocfilehash: f6642b3f477b9fe45ed0e6a43efcd40e21559b7e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a907fb9df02d88d317a73e409ea8738273eb2cb1
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32355211"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539014"
 ---
 # <a name="weather-element-weatherdata-element-outlook-weather-location-schema"></a>элемент Weather (элемент веасердата) (схема расположений о погоде Outlook)
 
@@ -24,7 +24,7 @@ ms.locfileid: "32355211"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Веасертипе](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Файл схемы** <br/> |жетвеасерлокатион. xsd  <br/> |
    
 ## <a name="definition"></a>Определение

@@ -1,25 +1,25 @@
 ---
-title: Фиелдров_типе complexType (' Visio XML ')
+title: Фиелдров_типе complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3474d268-4435-cb4d-9c66-a30924635e20
-ms.openlocfilehash: 5f59ca23fa83d98622624cc20544f9b482ce5378
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f6102c89cc0e484b1a07fb11bf26285df8954a5a
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322563"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542361"
 ---
-# <a name="fieldrowtype-complextype-visio-xml"></a>Фиелдров_типе complexType (' Visio XML ')
+# <a name="fieldrowtype-complextype-visio-xml"></a>Фиелдров_типе complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Базовый элемент расширения** <br/> |Индекседров_типе  <br/> |
    

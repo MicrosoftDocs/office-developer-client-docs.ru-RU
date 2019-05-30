@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (раздел "данные фигуры") ("Visio XML")
+title: Элемент Cell (раздел "данные фигуры") (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 98643832-7861-385d-3a52-0060ea413e2e
 description: Задает одно свойство данных фигуры.
-ms.openlocfilehash: 5e0c79d9439fb3800a277e039143060eec708b11
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3a6238f19f27d001d3c9eebcbcec720822a0ed40
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339545"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539378"
 ---
-# <a name="cell-element-shape-data-section-visio-xml"></a>Элемент Cell (раздел "данные фигуры") ("Visio XML")
+# <a name="cell-element-shape-data-section-visio-xml"></a>Элемент Cell (раздел "данные фигуры") (XML-файл Visio)
 
 Задает одно свойство данных фигуры.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32339545"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32339545"
 |U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
 |V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки таблицы свойств фигуры.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |Календарь  <br/> |Указывает тип календаря, используемого при выборе типа даты элемента данных фигуры.  <br/> |[Calendar Cell (Shape Data Section)](calendar-cell-shape-data-section.md) <br/> |
 |Связь с связью  <br/> |Указывает, связана ли строка данных формы с полем в наборе записей данных.  <br/> ||

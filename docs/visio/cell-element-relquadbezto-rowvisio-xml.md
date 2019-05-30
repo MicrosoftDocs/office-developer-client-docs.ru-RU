@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (строка строка relquadbezto) (' Visio XML ')
+title: Элемент Cell (строка строка relquadbezto) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8b3aea70-a69f-a85e-83d8-c0fa2ee68836
 description: Содержит координаты x или y конечной точки квадратичной кривой Безье относительно ширины и высоты фигуры, а также координат x или y контрольной точки кривой относительно ширины и высоты фигуры.
-ms.openlocfilehash: 986ed0a5f6e79f13b92f2ede54361916d9681e17
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 7bdd55cfd5401c8455f09cf7d237117572d12723
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339615"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542389"
 ---
-# <a name="cell-element-relquadbezto-row-visio-xml"></a>Элемент Cell (строка строка relquadbezto) (' Visio XML ')
+# <a name="cell-element-relquadbezto-row-visio-xml"></a>Элемент Cell (строка строка relquadbezto) (XML для Visio)
 
 Содержит координаты x или y конечной точки квадратичной кривой Безье относительно ширины и высоты фигуры, а также координат x или y контрольной точки кривой относительно ширины и высоты фигуры.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32339615"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -58,15 +58,15 @@ ms.locfileid: "32339615"
 |U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
 |V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки таблицы свойств фигуры.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |X  <br/> |Координата x конечной вершины кривой Безье второго уровня относительно ширины фигуры.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
 |Да  <br/> |Координата y конечной вершины кривой Безье второго уровня относительно высоты фигуры.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
-|А  <br/> |Координата x контрольной точки кривой относительно ширины фигуры; точка на дуги. Контрольная точка лучше всего расположена около посередине между начальным и конечным вершинами дуги.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
+|A  <br/> |Координата x контрольной точки кривой относительно ширины фигуры; точка на дуги. Контрольная точка лучше всего расположена около посередине между начальным и конечным вершинами дуги.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
 |B  <br/> |Координата y контрольной точки кривой относительно высоты фигуры.  <br/> |[RelQuadBezTo Row (Geometry Section)](relquadbezto-row-geometry-section.md) <br/> |
    
 

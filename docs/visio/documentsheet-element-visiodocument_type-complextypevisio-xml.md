@@ -1,5 +1,5 @@
 ---
-title: Элемент DocumentSheet (Висиодокумент_типе complexType) (' Visio XML ')
+title: Элемент DocumentSheet (Висиодокумент_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b8673e1-b913-52db-2d1d-b3e8f4b8f952
 description: Указывает структуру DocumentSheet.
-ms.openlocfilehash: a2594e0325cc2743036a03998eb7ac71ed2183c8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 279fca457163d5bcbdda885c11c589bfcde0baa9
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356366"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540044"
 ---
-# <a name="documentsheet-element-visiodocumenttype-complextype-visio-xml"></a>Элемент DocumentSheet (Висиодокумент_типе complexType) (' Visio XML ')
+# <a name="documentsheet-element-visiodocumenttype-complextype-visio-xml"></a>Элемент DocumentSheet (Висиодокумент_типе complexType) (XML для Visio)
 
 Указывает структуру DocumentSheet.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356366"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Документшит_типе](documentsheet_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
    

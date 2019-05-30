@@ -1,5 +1,5 @@
 ---
-title: Элемент Rule (Рулесет_типе complexType) (' XML ' Visio ')
+title: Элемент Rule (Рулесет_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: fcd22f3a-c8e8-1133-160c-fe26e612a15d
 description: Представляет одно правило проверки в наборе правил проверки схемы.
-ms.openlocfilehash: 92d52456164b89ff2aad31fa8d8f02f818c8bd1c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0d848ce3309d7dfc5a89b201be30ce060ec6f88f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358802"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541710"
 ---
-# <a name="rule-element-rulesettype-complextype-visio-xml"></a>Элемент Rule (Рулесет_типе complexType) (' XML ' Visio ')
+# <a name="rule-element-rulesettype-complextype-visio-xml"></a>Элемент Rule (Рулесет_типе complexType) (XML для Visio)
 
 Представляет одно правило проверки в наборе правил проверки схемы.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358802"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Руле_типе](rule_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Проверка. XML  <br/> |
    
@@ -57,7 +57,7 @@ ms.locfileid: "32358802"
 |:-----|:-----|:-----|:-----|:-----|
 |Категория  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает текст, отображаемый в столбце **категорий** окна "проблемы". Значение по умолчанию — пустая строка.  <br/> |Значения типа String: XSD.  <br/> |
 |Описание  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает описание правила проверки, которое отображается в пользовательском интерфейсе. Значение по умолчанию — "Unknown".  <br/> |Значения типа String: XSD.  <br/> |
-|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор для правила проверки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор для правила проверки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Игнорирован  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, игнорируется ли правило проверки. Значение по умолчанию — false.  <br/> |Значения типа XSD: Boolean.  <br/> |
 |NameU  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Задает универсальное имя правила проверки.  <br/> |Значения типа String: XSD.  <br/> |
 |Рулетаржет  <br/> |XSD: int  <br/> |необязательный  <br/> |Указывает тип объекта, к которому применяется правило проверки.  <br/> |Значения типа XSD: int.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "вкладки") ("Visio XML")
+title: Элемент Row (раздел "вкладки") (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: a30d5701-4b56-c44c-fb62-d9daaee3b86e
 description: Содержит ячейки для фигур или стилей, которые управляют позицией табуляции и выравниванием.
-ms.openlocfilehash: 3299a35a3f7391e587a31869adf64caf3c614f08
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 530d2e564615f33292b52f9aa860c0cf2794bc67
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326763"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538181"
 ---
-# <a name="row-element-tabs-section-visio-xml"></a>Элемент Row (раздел "вкладки") ("Visio XML")
+# <a name="row-element-tabs-section-visio-xml"></a>Элемент Row (раздел "вкладки") (XML-файл Visio)
 
 Содержит ячейки для фигур или стилей, которые управляют позицией табуляции и выравниванием.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32326763"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Табсров_типе](tabsrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
    

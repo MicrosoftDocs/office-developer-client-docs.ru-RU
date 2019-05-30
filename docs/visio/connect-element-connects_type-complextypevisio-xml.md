@@ -1,5 +1,5 @@
 ---
-title: Элемент Connect (Коннектс_типе complexType) (' XML ' Visio ')
+title: Элемент Connect (Коннектс_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e1ad47b-ee28-6b9a-f2f9-642e09ca28d4
 description: Представляет соединение между двумя фигурами в документе, например линии и поле на организационной диаграмме.
-ms.openlocfilehash: 82413f44f05f2ec6140e2b3981b7a1e8435becb0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 3450a07e042fc633b9cd4952d9b3ad6b8190ed1e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346510"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541997"
 ---
-# <a name="connect-element-connectstype-complextype-visio-xml"></a>Элемент Connect (Коннектс_типе complexType) (' XML ' Visio ')
+# <a name="connect-element-connectstype-complextype-visio-xml"></a>Элемент Connect (Коннектс_типе complexType) (XML для Visio)
 
 Представляет соединение между двумя фигурами в документе, например линии и поле на организационной диаграмме.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32346510"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Коннект_типе](connect_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
    

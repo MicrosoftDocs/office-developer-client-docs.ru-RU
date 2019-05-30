@@ -1,5 +1,5 @@
 ---
-title: Типы (' Visio XML ')
+title: Типы (Visio XML)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b9db404-a56a-efeb-90bc-669b61483f81
 description: В этом разделе перечислены типы в XML-схеме формата файлов Visio 2013.
-ms.openlocfilehash: 1aef5ba241b74c434e54e296d93b3d5c98d5c163
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 465204a71b991fa0402665086ca146c3e094f641
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33422434"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538594"
 ---
-# <a name="types-visio-xml"></a>Типы (' Visio XML ')
+# <a name="types-visio-xml"></a>Типы (Visio XML)
 
 В этом разделе перечислены типы в XML-схеме формата файлов Visio 2013.
   

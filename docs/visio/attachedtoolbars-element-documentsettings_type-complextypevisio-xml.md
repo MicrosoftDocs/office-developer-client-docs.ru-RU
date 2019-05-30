@@ -1,29 +1,29 @@
 ---
-title: Элемент Аттачедтулбарс (Документсеттингс_типе complexType) (' Visio XML ')
+title: Элемент Аттачедтулбарс (Документсеттингс_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cd7d8a06-5661-d515-f106-ff8275a04f40
-description: Зашифрованный В формате MIME файл пользовательского интерфейса Microsoft Visio (VSU), представляющий настраиваемые панели инструментов.
-ms.openlocfilehash: a769204c7e13bacc147689803b31bf898e6de71a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+description: Зашифрованный в формате MIME файл пользовательского интерфейса Microsoft Visio (VSU), представляющий настраиваемые панели инструментов.
+ms.openlocfilehash: 99bc85aff23abf11dafb644fb43ee540fff7a2ca
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32341365"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537929"
 ---
-# <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Элемент Аттачедтулбарс (Документсеттингс_типе complexType) (' Visio XML ')
+# <a name="attachedtoolbars-element-documentsettingstype-complextype-visio-xml"></a>Элемент Аттачедтулбарс (Документсеттингс_типе complexType) (XML для Visio)
 
-Зашифрованный В формате MIME файл пользовательского интерфейса Microsoft Visio (VSU), представляющий настраиваемые панели инструментов.
+Зашифрованный в формате MIME файл пользовательского интерфейса Microsoft Visio (VSU), представляющий настраиваемые панели инструментов.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Аттачедтулбарс_типе](attachedtoolbars_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
    

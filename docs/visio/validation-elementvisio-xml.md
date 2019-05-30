@@ -1,5 +1,5 @@
 ---
-title: Элемент Validation (' Visio XML ')
+title: Элемент Validation (XML в Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: db6292c7-9f4c-c287-803b-64fa41c0a269
 description: Сохраняет сведения о проверке схемы для документа.
-ms.openlocfilehash: 7e40cd3a79922b56800cbb566a0d88de23829cc0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b1b1bcbd70d57d7a7316e91d137cf8c3c3750722
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32329086"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538552"
 ---
-# <a name="validation-element-visio-xml"></a>Элемент Validation (' Visio XML ')
+# <a name="validation-element-visio-xml"></a>Элемент Validation (XML в Visio)
 
 Сохраняет сведения о проверке схемы для документа.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32329086"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Валидатион_типе](validation_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Проверка. XML  <br/> |
    

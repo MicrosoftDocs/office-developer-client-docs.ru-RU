@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (раздел "вспомогательный") ("Visio XML")
+title: Элемент Cell (раздел "вспомогательный") (XML в Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: af17b1c5-51ee-f46f-79d0-4f33369b66f1
 description: Задает рабочую область для ввода и тестирования формул, на которые можно ссылаться по другим ячейкам.
-ms.openlocfilehash: 147cc152ec20e3e2b032b91f6387ec06a3cb1d6f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 32e7eb2cfe13221ced2a8096acde412625d3ad33
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339531"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542326"
 ---
-# <a name="cell-element-scratch-section-visio-xml"></a>Элемент Cell (раздел "вспомогательный") ("Visio XML")
+# <a name="cell-element-scratch-section-visio-xml"></a>Элемент Cell (раздел "вспомогательный") (XML в Visio)
 
 Задает рабочую область для ввода и тестирования формул, на которые можно ссылаться по другим ячейкам.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32339531"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
    
@@ -60,13 +60,13 @@ ms.locfileid: "32339531"
 |U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
 |V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки таблицы свойств фигуры.  <br/> |
    
-### <a name="remarks"></a>Комментарии
+### <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
-|А  <br/> |Вспомогательная ячейка, которую можно использовать для ввода или тестирования формул.  <br/> |[Scratch Section](scratch-section.md) <br/> |
+|A  <br/> |Вспомогательная ячейка, которую можно использовать для ввода или тестирования формул.  <br/> |[Scratch Section](scratch-section.md) <br/> |
 |B  <br/> |Вспомогательная ячейка, которую можно использовать для ввода или тестирования формул.  <br/> |[Scratch Section](scratch-section.md) <br/> |
 |C  <br/> |Вспомогательная ячейка, которую можно использовать для ввода или тестирования формул.  <br/> |[Scratch Section](scratch-section.md) <br/> |
 |D  <br/> |Вспомогательная ячейка, которую можно использовать для ввода или тестирования формул.  <br/> |[Scratch Section](scratch-section.md) <br/> |
