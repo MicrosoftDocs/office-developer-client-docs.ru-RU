@@ -1,5 +1,5 @@
 ---
-title: Элемент PageSheet (Мастер_типе complexType) (' Visio XML ')
+title: Элемент PageSheet (Мастер_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 824fbeb0-1a2f-35a0-50e3-c57143dc21ab
 description: Задает свойства страницы документа, связанной с образцом.
-ms.openlocfilehash: 579b2b4f02c79a38842a150b8757329e19e7bb3a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 94fde64b130c2a05c4bd70c97552fe4218171ce7
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32361126"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540618"
 ---
-# <a name="pagesheet-element-mastertype-complextype-visio-xml"></a>Элемент PageSheet (Мастер_типе complexType) (' Visio XML ')
+# <a name="pagesheet-element-mastertype-complextype-visio-xml"></a>Элемент PageSheet (Мастер_типе complexType) (XML для Visio)
 
 Задает свойства страницы документа, связанной с образцом.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32361126"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Пажешит_типе](pagesheet_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Главные. XML  <br/> |
    

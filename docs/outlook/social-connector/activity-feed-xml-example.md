@@ -8,12 +8,12 @@ ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa50ca36-8d01-4770-9d9c-30a5baa146ff
 description: 'Пример XML в этом разделе — это строка XML веб-канала активности, возвращаемая Outlook Social Connector (OSC) после вызова метода ISocialSession2:: Жетактивитиесекс для социальной сети.'
-ms.openlocfilehash: 6370b559c5160bfa48d32afa77715e9a7c126aab
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bb8af45f25d8ee2897a3a01e2863466aeacec4e8
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281334"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538328"
 ---
 # <a name="activity-feed-xml-example"></a>Пример XML-канала активности
 
@@ -47,7 +47,7 @@ ms.locfileid: "32281334"
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<activityFeed xmlns="https://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
+<activityFeed xmlns="http://schemas.microsoft.com/office/outlook/2010/06/socialprovider.xsd">
   <network>Contoso</network>
   <activities>
     <activityDetails>

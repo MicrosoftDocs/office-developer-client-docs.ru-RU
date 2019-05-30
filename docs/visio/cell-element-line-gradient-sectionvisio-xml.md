@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (раздел "градиентная линия") ("Visio XML")
+title: Элемент Cell (раздел "градиентная линия") (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8001249c-ea67-c5c0-3168-485400c43d8c
 description: Содержит цвет, прозрачность или положение остановки градиента для линейного градиента.
-ms.openlocfilehash: 915341b41849aae2af2285b49f0421798a16cf99
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d8ac664285d24e47a142c22b1483e2ff435aef48
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318230"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539504"
 ---
-# <a name="cell-element-line-gradient-section-visio-xml"></a>Элемент Cell (раздел "градиентная линия") ("Visio XML")
+# <a name="cell-element-line-gradient-section-visio-xml"></a>Элемент Cell (раздел "градиентная линия") (XML для Visio)
 
 Содержит цвет, прозрачность или положение остановки градиента для линейного градиента.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32318230"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32318230"
 |U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
 |V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки таблицы свойств фигуры.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |Градиентстопколор  <br/> |Значение цвета остановки градиента.  <br/> |[Gradient Stop Row (Line Gradient Section)](gradient-stop-row-line-gradient-section.md) <br/> |
 |Градиентстопколортранс  <br/> |Степень прозрачности цвета остановки градиента в процентах.  <br/> |[Gradient Stop Row (Line Gradient Section)](gradient-stop-row-line-gradient-section.md) <br/> |

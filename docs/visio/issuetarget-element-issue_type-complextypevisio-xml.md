@@ -1,5 +1,5 @@
 ---
-title: Элемент Иссуетаржет (Иссуе_типе complexType) (' Visio XML ')
+title: Элемент Иссуетаржет (Иссуе_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bd9a5d5f-16fe-29b4-5af0-913b14d2be16
 description: В зависимости от цели родительской ошибки проверки указывает либо страницу, либо и фигуру, и страницу, связанную с ошибкой родительской проверки. Если целью родительской ошибки проверки является документ, Иссуетаржет спеЦифес ни страницу, ни фигуру.
-ms.openlocfilehash: 74005bfb6035e32b7b34fdd5a8a5737813a562a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 686f37afee43d9cee3f58979d5856602f571eec8
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32332524"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542956"
 ---
-# <a name="issuetarget-element-issuetype-complextype-visio-xml"></a>Элемент Иссуетаржет (Иссуе_типе complexType) (' Visio XML ')
+# <a name="issuetarget-element-issuetype-complextype-visio-xml"></a>Элемент Иссуетаржет (Иссуе_типе complexType) (XML для Visio)
 
 В зависимости от цели родительской ошибки проверки указывает либо страницу, либо и фигуру, и страницу, связанную с ошибкой родительской проверки. Если целью родительской ошибки проверки является документ, **иссуетаржет** спеЦифес ни страницу, ни фигуру. 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32332524"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Иссуетаржет_типе](issuetarget_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Проверка. XML  <br/> |
    

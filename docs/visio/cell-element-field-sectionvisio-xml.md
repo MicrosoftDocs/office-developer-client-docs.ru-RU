@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (раздел "поле") ("Visio XML")
+title: Элемент Cell (раздел "поле") (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1a51a5ca-6b68-d2d8-befb-2b1d9cda1b8e
 description: Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна "поле".
-ms.openlocfilehash: f6c3c724b210ad579012ff58b93333e28c2a8cf1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b3bae89d20a4defed591e95ce0155f70d806e6f2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356240"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540058"
 ---
-# <a name="cell-element-field-section-visio-xml"></a>Элемент Cell (раздел "поле") ("Visio XML")
+# <a name="cell-element-field-section-visio-xml"></a>Элемент Cell (раздел "поле") (XML-файл Visio)
 
 Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна "поле".
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356240"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -64,7 +64,7 @@ ms.locfileid: "32356240"
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |Календарь  <br/> |Определяет календарь, используемый для текстового поля, когда тип данных — Date.  <br/> |[Calendar Cell (Text Fields Section)](calendar-cell-text-fields-section.md) <br/> |
 |Format  <br/> |Задает форматирование текстового поля, которое является строкой, числом, датой или временем, длительностью или валютой.  <br/> |[Format Cell (Text Fields Section)](format-cell-text-fields-section.md) <br/> |

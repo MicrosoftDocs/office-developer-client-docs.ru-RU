@@ -1,5 +1,5 @@
 ---
-title: Элемент Page (Пажес_типе complexType) (' XML ' Visio ')
+title: Элемент Page (Пажес_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e4ac41f-3855-05d8-e659-02c265b8750c
 description: Содержит элементы, определяющие страницу в документе.
-ms.openlocfilehash: 800e4ab2c6446ab298747f0492800000bb44cca3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f32cf3ed7bbf1e68ddca3fc8f5a1c50ce45fe73e
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334449"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538027"
 ---
-# <a name="page-element-pagestype-complextype-visio-xml"></a>Элемент Page (Пажес_типе complexType) (' XML ' Visio ')
+# <a name="page-element-pagestype-complextype-visio-xml"></a>Элемент Page (Пажес_типе complexType) (XML для Visio)
 
 Содержит элементы, определяющие страницу в документе.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32334449"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Паже_типе](page_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Pages. XML  <br/> |
    
@@ -54,9 +54,9 @@ ms.locfileid: "32334449"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Общие сведения  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Флаг, указывающий, является ли страница страницей фона.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|Фон  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Флаг, указывающий, является ли страница страницей фона.  <br/> |Значения типа XSD: Boolean.  <br/> |
 |BackPage  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор фоновой страницы этой страницы.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Искустомнаме  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, настроено ли имя пользователем.  <br/> |Значения типа XSD: Boolean.  <br/> |
 |Искустомнамеу  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, настроено ли универсальное имя пользователем.  <br/> |Значения типа XSD: Boolean.  <br/> |
 |Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> |Имя элемента.  <br/> |Значения типа String: XSD.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: элемент PP (Текст_типе complexType) (' Visio XML ')
+title: элемент PP (Текст_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5444543-fcd9-91cc-e7f8-cf860caa9fcc
 description: Задает начало работы со свойствами абзаца. Выполнение определяется до конца текста или до следующего тега.
-ms.openlocfilehash: bb2b0ab7a76c142b810ecd02dbc1b5ba7463520a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 695958c77f730abed03f50d6ad9c71f4de76dd63
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356079"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34537740"
 ---
-# <a name="pp-element-texttype-complextype-visio-xml"></a>элемент PP (Текст_типе complexType) (' Visio XML ')
+# <a name="pp-element-texttype-complextype-visio-xml"></a>элемент PP (Текст_типе complexType) (XML для Visio)
 
 Задает начало работы со свойствами абзаца. Выполнение определяется до конца текста или до следующего тега.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356079"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Пп_типе](pp_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
    

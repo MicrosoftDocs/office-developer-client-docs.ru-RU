@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (раздел "геометрия") ("Visio XML")
+title: Элемент Cell (раздел "геометрия") (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 82dcad38-d5fa-4892-91d9-1f3f25f1e600
 description: Определяет свойства, которые определяют свойства форматирования и поведения по отношению к линиям и дуг, которые составляют раздел "геометрия".
-ms.openlocfilehash: ebfdb4dc7809f8883143fdda39f873a36f7bf896
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 93cc7e204d97a813fea2db4b84c36dedf19cf5f2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356058"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539809"
 ---
-# <a name="cell-element-geometry-section-visio-xml"></a>Элемент Cell (раздел "геометрия") ("Visio XML")
+# <a name="cell-element-geometry-section-visio-xml"></a>Элемент Cell (раздел "геометрия") (XML для Visio)
 
 Определяет свойства, которые определяют свойства форматирования и поведения по отношению к линиям и дуг, которые составляют раздел "геометрия".
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356058"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -64,7 +64,7 @@ ms.locfileid: "32356058"
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |NoFill  <br/> |Указывает, можно ли заполнить путь.  <br/> |[NoFill Cell (Geometry Section)](nofill-cell-geometry-section.md) <br/> |
 |NoLine  <br/> |Определяет, отображается ли линия вокруг границы пути.  <br/> |[NoLine Cell (Geometry Section)](noline-cell-geometry-section.md) <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (раздел "пользовательские ячейки") ("Visio XML")
+title: Элемент Cell (раздел "пользовательские ячейки") (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: ab7a11a0-a413-d4fe-ddf1-0d2e967dc21d
 description: Одно свойство указанного пользователем набора данных, на которые можно ссылаться по другим ячейкам и средствам надстроек.
-ms.openlocfilehash: 0ce456b624f4a4b12a3f2fdc73f56651ea6985ed
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 5b7e3eb1f4550430e4df51098b86862fcc7400da
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339510"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539316"
 ---
-# <a name="cell-element-user-defined-cells-section-visio-xml"></a>Элемент Cell (раздел "пользовательские ячейки") ("Visio XML")
+# <a name="cell-element-user-defined-cells-section-visio-xml"></a>Элемент Cell (раздел "пользовательские ячейки") (XML для Visio)
 
 Одно свойство указанного пользователем набора данных, на которые можно ссылаться по другим ячейкам и средствам надстроек.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32339510"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
    
@@ -60,11 +60,11 @@ ms.locfileid: "32339510"
 |U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
 |V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки таблицы свойств фигуры.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |Prompt  <br/> |Задает описательное приглашение или комментарий для пользовательской ячейки.  <br/> |[Prompt Cell (User-Defined Cells Section)](prompt-cell-user-defined-cells-section.md) <br/> |
 |Значение  <br/> |Задает значение для соответствующей пользовательской ячейки.  <br/> |[Value Cell (User-Defined Cells Section)](value-cell-user-defined-cells-section.md) <br/> |

@@ -1,5 +1,5 @@
 ---
-title: элемент FLD (Текст_типе complexType) (' Visio XML ')
+title: элемент FLD (Текст_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 92d90240-012b-9598-c893-6e7085813aa5
 description: Указывает точку вставки текстового поля для соответствующего элемента Field.
-ms.openlocfilehash: a7303697a9471dab68f5b1cf851f60d51650a84e
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: efacb7ed11968dec5d5c2f62b0ca3e3bcd8580c0
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346216"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539616"
 ---
-# <a name="fld-element-texttype-complextype-visio-xml"></a>элемент FLD (Текст_типе complexType) (' Visio XML ')
+# <a name="fld-element-texttype-complextype-visio-xml"></a>элемент FLD (Текст_типе complexType) (XML для Visio)
 
 Указывает точку вставки текстового поля для соответствующего элемента **field** . 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32346216"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Флд_типе](fld_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
    

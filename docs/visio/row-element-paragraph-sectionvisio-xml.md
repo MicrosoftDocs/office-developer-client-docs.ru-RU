@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "Абзац") ("Visio XML")
+title: Элемент Row (раздел "Абзац") (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 00ecaa82-3b40-24cc-91c0-b2562e92161d
 description: Показывает атрибуты форматирования абзаца для текста фигуры, такие как отступы, междустрочный интервал, маркеры и горизонтальное выравнивание абзацев.
-ms.openlocfilehash: 304c63bf810232b5a9a0f08b9b36718dd75dcc69
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 48d32f3a0712e2ed3110ced545d5b946f147d755
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283579"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540821"
 ---
-# <a name="row-element-paragraph-section-visio-xml"></a>Элемент Row (раздел "Абзац") ("Visio XML")
+# <a name="row-element-paragraph-section-visio-xml"></a>Элемент Row (раздел "Абзац") (XML-файл Visio)
 
 Показывает атрибуты форматирования абзаца для текста фигуры, такие как отступы, междустрочный интервал, маркеры и горизонтальное выравнивание абзацев.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32283579"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Параграфров_типе](paragraphrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (строка гиперссылки) (' Visio XML ')
+title: Элемент Cell (строка гиперссылки) (XML в Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d2089db4-39eb-06d3-d2f8-9465baef5c75
 description: Содержит сведения об одной гиперссылке, связанной с фигурой. Фигура будет содержать одну строку гиперссылок для каждой гиперссылки.
-ms.openlocfilehash: 6644dc70f3d3616e5c20587db4eabaaf773c31d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: f9526b3e4bb7dc9216a0b72c0a816e136c6e89bf
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356065"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539795"
 ---
-# <a name="cell-element-hyperlink-row-visio-xml"></a>Элемент Cell (строка гиперссылки) (' Visio XML ')
+# <a name="cell-element-hyperlink-row-visio-xml"></a>Элемент Cell (строка гиперссылки) (XML в Visio)
 
 Содержит сведения об одной гиперссылке, связанной с фигурой. Фигура будет содержать одну строку **гиперссылок** для каждой гиперссылки. 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356065"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -64,7 +64,7 @@ ms.locfileid: "32356065"
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |Address  <br/> |Задает URL-адрес, имя файла или UNC-путь для перехода.  <br/> |[Address Cell (Hyperlinks Section)](address-cell-hyperlinks-section.md) <br/> |
 |По умолчанию  <br/> |Определяет гиперссылку, используемую по умолчанию для фигуры или страницы.  <br/> |[Default Cell (Hyperlinks Section)](default-cell-hyperlinks-section.md) <br/> |

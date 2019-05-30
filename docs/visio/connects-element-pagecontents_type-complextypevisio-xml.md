@@ -1,5 +1,5 @@
 ---
-title: Элемент Connects (Пажеконтентс_типе complexType) (' XML ' Visio ')
+title: Элемент connects (Пажеконтентс_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 398c141c-8a40-7605-254a-2ee7cc0a7af5
 description: Содержит элемент Connect для каждого подключения между двумя фигурами в документе.
-ms.openlocfilehash: 00bba6be8b32fc2a8e1d996e89c6983e1e61e3a8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d421068926a40a8f7c24a783388d06091700211f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318965"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538713"
 ---
-# <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>Элемент Connects (Пажеконтентс_типе complexType) (' XML ' Visio ')
+# <a name="connects-element-pagecontentstype-complextype-visio-xml"></a>Элемент connects (Пажеконтентс_типе complexType) (XML для Visio)
 
 Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе. 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32318965"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Коннектс_типе](connects_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
    

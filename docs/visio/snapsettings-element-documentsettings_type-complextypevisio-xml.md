@@ -1,5 +1,5 @@
 ---
-title: Элемент SnapSettings (Документсеттингс_типе complexType) (' Visio XML ')
+title: Элемент SnapSettings (Документсеттингс_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6e86e943-bd29-0a7b-3d6a-d91281f98777
 description: Указывает объекты, к которым привязываются фигуры при активации привязки в окне.
-ms.openlocfilehash: 68c2bd198a20047ce4f56fe06630177a17319191
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8d4be35a4cd66a1d3914dbda8162f4acb3d05bfa
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334491"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540296"
 ---
-# <a name="snapsettings-element-documentsettingstype-complextype-visio-xml"></a>Элемент SnapSettings (Документсеттингс_типе complexType) (' Visio XML ')
+# <a name="snapsettings-element-documentsettingstype-complextype-visio-xml"></a>Элемент SnapSettings (Документсеттингс_типе complexType) (XML для Visio)
 
 Указывает объекты, к которым привязываются фигуры при активации привязки в окне.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32334491"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Снапсеттингс_типе](snapsettings_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
    
@@ -56,19 +56,19 @@ ms.locfileid: "32334491"
 
 Значение может быть суммой значений, приведенных в следующей таблице.
   
-|**Value**|**Описание**|
+|**Значение**|**Описание**|
 |:-----|:-----|
-|нуль  <br/> |ПриВязывать к Nothing.  <br/> |
+|нуль  <br/> |Привязывать к Nothing.  <br/> |
 |1,1  <br/> |Привязка к промежуточным делениям линейки.  <br/> |
-|2  <br/> |ПриВязать к сетке.  <br/> |
-|SP4  <br/> |ПриВязывать к направляющим.  <br/> |
-|8,5  <br/> |ПриКрепить к маркерам выделения.  <br/> |
-|столбцов  <br/> |ПриВязать к вершинам.  <br/> |
-|32  <br/> |ПриВязывать к точкам подключения.  <br/> |
+|2  <br/> |Привязать к сетке.  <br/> |
+|SP4  <br/> |Привязывать к направляющим.  <br/> |
+|8   <br/> |Прикрепить к маркерам выделения.  <br/> |
+|столбцов  <br/> |Привязать к вершинам.  <br/> |
+|32  <br/> |Привязывать к точкам подключения.  <br/> |
 |256  <br/> |Привязка к видимым краям фигур.  <br/> |
-|512  <br/> |ПриВязать к полю выравнивания.  <br/> |
-|1024  <br/> |ПриВязывать к параметрам расширений фигур.  <br/> |
-|32768  <br/> |ПриКрепление отключена.  <br/> |
-|65536  <br/> |ПриВязывать к пересечениям.  <br/> |
+|512  <br/> |Привязать к полю выравнивания.  <br/> |
+|1024  <br/> |Привязывать к параметрам расширений фигур.  <br/> |
+|32768  <br/> |Прикрепление отключена.  <br/> |
+|65536  <br/> |Привязывать к пересечениям.  <br/> |
    
 

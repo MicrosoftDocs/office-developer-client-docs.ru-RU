@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "слой") ("Visio XML")
+title: Элемент Row (раздел "слой") (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9b884be2-3eed-0864-6a6c-877b43d9065f
 description: Содержит элементы, определяющие один слой и его свойства для страницы.
-ms.openlocfilehash: 2aff1666f5a2cb87ed10b76e0facdb19a4278c89
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: edd076651838d7522af07013cda5fedd9a28de7f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358452"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540865"
 ---
-# <a name="row-element-layer-section-visio-xml"></a>Элемент Row (раздел "слой") ("Visio XML")
+# <a name="row-element-layer-section-visio-xml"></a>Элемент Row (раздел "слой") (XML-файл Visio)
 
 Содержит элементы, определяющие один слой и его свойства для страницы.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358452"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Лайерров_типе](layerrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |файлы хозяев. XML, Pages. XML  <br/> |
    

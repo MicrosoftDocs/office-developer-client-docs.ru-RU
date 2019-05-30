@@ -1,25 +1,25 @@
 ---
-title: Рулетест_типе complexType (' Visio XML ')
+title: Рулетест_типе complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3cacaf05-a84b-b597-0b2c-2f12c4c50376
-ms.openlocfilehash: f745f91af7f68a86582740ff74b740ebd67db282
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 27608c22386c875c6443689dd8ffac38845353af
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32319035"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541528"
 ---
-# <a name="ruletesttype-complextype-visio-xml"></a>Рулетест_типе complexType (' Visio XML ')
+# <a name="ruletesttype-complextype-visio-xml"></a>Рулетест_типе complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Базовый элемент расширения** <br/> |XSD: строка  <br/> |
    

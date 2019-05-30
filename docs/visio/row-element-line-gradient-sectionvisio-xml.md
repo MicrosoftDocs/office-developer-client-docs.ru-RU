@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "градиентная линия") ("Visio XML")
+title: Элемент Row (раздел "градиентная линия") (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4d823766-5cb0-925c-f622-18025f44426c
 description: Содержит цвет, прозрачность и положение остановки градиента для линейного градиента.
-ms.openlocfilehash: 105d93344343f223a6b5d909f1174f7df56ffb4d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bfaf3ab8cc16e11051310d7e838b9dddbf7e108d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358431"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540828"
 ---
-# <a name="row-element-line-gradient-section-visio-xml"></a>Элемент Row (раздел "градиентная линия") ("Visio XML")
+# <a name="row-element-line-gradient-section-visio-xml"></a>Элемент Row (раздел "градиентная линия") (XML для Visio)
 
 Содержит цвет, прозрачность и положение остановки градиента для линейного градиента.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358431"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Линеградиентров_типе](linegradientrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
    

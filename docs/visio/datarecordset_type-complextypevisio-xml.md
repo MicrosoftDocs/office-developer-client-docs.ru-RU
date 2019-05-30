@@ -1,25 +1,25 @@
 ---
-title: Датарекордсет_типе complexType (' Visio XML ')
+title: Датарекордсет_типе complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 59544910-6bd5-2c89-71b3-5c8ee91a1dea
-ms.openlocfilehash: 36d6cf3b34ad0aa81f7b097d6452c46679342a02
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 132261ae823d1749676b7bdc28cdd1cb94f6ef5b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360364"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539146"
 ---
-# <a name="datarecordsettype-complextype-visio-xml"></a>Датарекордсет_типе complexType (' Visio XML ')
+# <a name="datarecordsettype-complextype-visio-xml"></a>Датарекордсет_типе complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Базовый элемент расширения** <br/> |Отсутствует  <br/> |
    
@@ -132,7 +132,7 @@ ms.locfileid: "32360364"
 |Контрольная сумма  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |Command  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
 |Коннектионид  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
-|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
 |Некстровид  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |Параметры  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |

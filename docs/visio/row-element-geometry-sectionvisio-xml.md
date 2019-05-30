@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "геометрия") ("Visio XML")
+title: Элемент Row (раздел "геометрия") (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2b273958-1997-7c63-4a61-d231f023a81f
 description: Содержит строки, в которых перечислены координаты вершин для линий и дуг, составляющих фигуру.
-ms.openlocfilehash: 53482b0db3f2deb3c8e2ba30f41be67f0d9e27a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6dbf18b749ed072645c4941922729010f74fc0ae
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32358556"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540856"
 ---
-# <a name="row-element-geometry-section-visio-xml"></a>Элемент Row (раздел "геометрия") ("Visio XML")
+# <a name="row-element-geometry-section-visio-xml"></a>Элемент Row (раздел "геометрия") (XML для Visio)
 
 Содержит строки, в которых перечислены координаты вершин для линий и дуг, составляющих фигуру.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32358556"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Жеометриров_типе](geometry_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -82,7 +82,7 @@ ms.locfileid: "32358556"
 
 Атрибут **T** элемента **Row** должен быть одним из ограниченных наборов значений, соответствующих строкам таблицы свойств фигуры. Используйте приведенную ниже таблицу, чтобы определить значения атрибута **T** , разрешенные для этого элемента **Row** . 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |ArcTo  <br/> |Содержит координаты x и y, а также арксинус круга.  <br/> |[ArcTo Row (Geometry Section)](arcto-row-geometry-section.md) <br/> |
 |Ellipse  <br/> |Содержит координаты x и y центральной точки эллипса и две точки эллипса.  <br/> |[Ellipse Row (Geometry Section)](ellipse-row-geometry-section.md) <br/> |

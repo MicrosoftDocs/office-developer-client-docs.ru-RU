@@ -1,5 +1,5 @@
 ---
-title: Элемент HeaderMargin (Хеадерфутер_типе complexType) (' Visio XML ')
+title: Элемент HeaderMargin (Хеадерфутер_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2bb0f4c5-eacf-e09b-2fce-dcff2d927557
 description: Задает поле заголовка документа.
-ms.openlocfilehash: d8126ae73b1fb330234698343d14468fcbb3eed8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: b7c055e818c490399df66e3e7ba626afc9645851
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32351669"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539129"
 ---
-# <a name="headermargin-element-headerfootertype-complextype-visio-xml"></a>Элемент HeaderMargin (Хеадерфутер_типе complexType) (' Visio XML ')
+# <a name="headermargin-element-headerfootertype-complextype-visio-xml"></a>Элемент HeaderMargin (Хеадерфутер_типе complexType) (XML для Visio)
 
 Задает поле заголовка документа.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32351669"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Хеадермаргин_типе](headermargin_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
    

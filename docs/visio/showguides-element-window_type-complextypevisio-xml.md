@@ -1,5 +1,5 @@
 ---
-title: Элемент ShowGuides (Виндов_типе complexType) (' Visio XML ')
+title: Элемент ShowGuides (Виндов_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b81bc46b-6eff-c11f-f583-85959a47c313
 description: Указывает, отображаются ли направляющие в окне документа.
-ms.openlocfilehash: 25e630d1d6e48aef922d225924b872097e1a7aee
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 9f747568c664f86dd88a68b9a6e6e2f6df723f67
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32325747"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542984"
 ---
-# <a name="showguides-element-windowtype-complextype-visio-xml"></a>Элемент ShowGuides (Виндов_типе complexType) (' Visio XML ')
+# <a name="showguides-element-windowtype-complextype-visio-xml"></a>Элемент ShowGuides (Виндов_типе complexType) (XML для Visio)
 
 Указывает, отображаются ли направляющие в окне документа.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32325747"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Шовгуидес_типе](showguides_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Windows. XML  <br/> |
    

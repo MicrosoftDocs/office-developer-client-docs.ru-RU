@@ -1,25 +1,25 @@
 ---
-title: Рефрешабледата_типе complexType (' Visio XML ')
+title: Рефрешабледата_типе complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d715737a-1daa-4c61-e1c6-c997b1b71302
-ms.openlocfilehash: 6313799e6be26720e9d6c3b5677ca0ab3783e6b7
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: bb6dc17ed0a3580bc6e29548465109a0d63f92a9
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32346468"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542872"
 ---
-# <a name="refreshabledatatype-complextype-visio-xml"></a>Рефрешабледата_типе complexType (' Visio XML ')
+# <a name="refreshabledatatype-complextype-visio-xml"></a>Рефрешабледата_типе complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Базовый элемент расширения** <br/> |Отсутствует  <br/> |
    
@@ -47,6 +47,6 @@ ms.locfileid: "32346468"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

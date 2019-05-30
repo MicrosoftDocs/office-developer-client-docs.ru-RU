@@ -7,12 +7,12 @@ ms:contentKeyID: 55119853
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 1b6c88d40236ffb6cc3201b659a39e4d869de188
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: ab8da62d75b5714967c3fbdc0d0f985370e617aa
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32335394"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540639"
 ---
 # <a name="synchronize-outlook-with-a-sharepoint-folder"></a>Синхронизация приложения Outlook с папкой SharePoint
 
@@ -40,7 +40,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void DisplaySharePointUrl()
 {
     const string PROP_SYNC_URL = 
-        "https://schemas.microsoft.com/mapi/id/{00062040-0000-0000-C000-000000000046}/8A24001E";
+        "http://schemas.microsoft.com/mapi/id/{00062040-0000-0000-C000-000000000046}/8A24001E";
 
     Outlook.Folder folder = Application.ActiveExplorer().CurrentFolder as Outlook.Folder;
     Outlook.Table table = folder.GetTable(Type.Missing, Outlook.OlTableContents.olHiddenItems);

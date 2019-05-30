@@ -9,18 +9,18 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: a53b5787-f419-7a36-3c04-c63b3c173ac7
 description: Представляет положение фигуры по оси Y в локальной системе координат. В этой таблице описывается ячейка Y с учетом столбца, в котором она расположена.
-ms.openlocfilehash: 9e823b8d21682b419a70ce498016abf575f36f6b
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 7dea96b544c84f09abe1d72304da0bacaa09432f
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33420943"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540492"
 ---
 # <a name="y-cell-geometry-section"></a>Ячейка Y (раздел "Геометрия")
 
 Представляет положение фигуры по оси *Y* в локальной системе координат. В этой таблице описывается ячейка Y с учетом столбца, в котором она расположена. 
   
-|**Строка**|**Описание**|
+|Строка|Описание|
 |:-----|:-----|
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Если строка MoveTo находится в первой строке раздела, то ячейка Y представляет координату *Y* первой вершины пути. Если строка MoveTo находится между двух строк, то ячейка Y представляет координату *Y* первой вершины после прерывания пути.  <br/> |
 |[LineTo](lineto-row-geometry-section.md) <br/> | Координата *Y* последней вершины сегмента прямой линии.  <br/> |

@@ -1,5 +1,5 @@
 ---
-title: Элементы (' Visio XML ')
+title: Элементы (Visio XML)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: cffc4005-e260-38ab-7142-47f949cc7494
 description: В этом разделе перечислены элементы XML-схемы формата файлов Visio 2013.
-ms.openlocfilehash: 19dc710c9a76938f7ed02dec9b2e8e3a7c48f5b6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 8efa50eeac8f236e6879915d920fdb0f38e1f4f2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33431829"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539921"
 ---
-# <a name="elements-visio-xml"></a>Элементы (' Visio XML ')
+# <a name="elements-visio-xml"></a>Элементы (Visio XML)
 
 В этом разделе перечислены элементы XML-схемы формата файлов Visio 2013.
   

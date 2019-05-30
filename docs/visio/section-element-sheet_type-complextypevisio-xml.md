@@ -1,5 +1,5 @@
 ---
-title: Элемент Section (Шит_типе complexType) (' XML ' Visio ')
+title: Элемент Section (Шит_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 2e7e5dcc-f667-a08c-caa0-4b81e3126ef9
 description: Задает коллекцию связанных свойств.
-ms.openlocfilehash: e20d076d4e1958cce29554d728b64385c2f8adef
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 2862d2ccf10d235996c2a6fb26691d498bdfdbcf
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/24/2019
-ms.locfileid: "32326084"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539035"
 ---
-# <a name="section-element-sheettype-complextype-visio-xml"></a>Элемент Section (Шит_типе complexType) (' XML ' Visio ')
+# <a name="section-element-sheettype-complextype-visio-xml"></a>Элемент Section (Шит_типе complexType) (XML для Visio)
 
 Задает коллекцию связанных свойств.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32326084"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
    
@@ -70,13 +70,13 @@ ms.locfileid: "32326084"
   
 |**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
-|Actions  <br/> |Коллекция свойств, которые используются для оценки формул. Он должен иметь родительский элемент **шапешит_типе** или **пажешит_типе** .  <br/> |[Actions Section](actions-section.md) <br/> |
+|Действия  <br/> |Коллекция свойств, которые используются для оценки формул. Он должен иметь родительский элемент **шапешит_типе** или **пажешит_типе** .  <br/> |[Actions Section](actions-section.md) <br/> |
 |Актионтаг  <br/> |Коллекция свойств, которые используются только для оценки формул. Он должен иметь родительский элемент **шапешит_типе** или **пажешит_типе** .  <br/> |[Action Tag Section](action-tag-section.md) <br/> |
 |Connections  <br/> |Коллекция свойств, которые используются только для оценки формул. Он должен иметь родительский элемент **шапешит_типе** .  <br/> ||
 |Элементы управления  <br/> |Коллекция свойств, которые используются только для оценки формул. Он должен иметь родительский элемент **шапешит_типе** .  <br/> |[Controls Section](controls-section.md) <br/> |
-|Hyperlink  <br/> |Коллекция связанных свойств, указывающих гиперссылки на фигуры. Он должен иметь родительский элемент **шапешит_типе** .  <br/> |[Hyperlinks Section](hyperlinks-section.md) <br/> |
+|Гиперссылка  <br/> |Коллекция связанных свойств, указывающих гиперссылки на фигуры. Он должен иметь родительский элемент **шапешит_типе** .  <br/> |[Hyperlinks Section](hyperlinks-section.md) <br/> |
 |Шапедата  <br/> |Коллекция связанных свойств, которые задают данные фигуры. Он должен иметь родительский элемент **шапешит_типе** .  <br/> |[Shape Data Section](shape-data-section.md) <br/> |
-|User  <br/> |Коллекция свойств, которые используются для оценки формул. Он должен иметь родительский элемент **документшит_типе**, **пажешит_типе**или **шапешит_типе** .  <br/> |[User-defined Cells Section](user-defined-cells-section.md) <br/> |
+|Пользователь  <br/> |Коллекция свойств, которые используются для оценки формул. Он должен иметь родительский элемент **документшит_типе**, **пажешит_типе**или **шапешит_типе** .  <br/> |[User-defined Cells Section](user-defined-cells-section.md) <br/> |
    
 Атрибут **IX** этого элемента **section** должен быть одним из ограниченных наборов значений, соответствующих ячейкам **таблицы свойств фигуры** . Используйте приведенную ниже таблицу, чтобы определить значения атрибута **IX** , разрешенные для этого элемента **section** . 
   
@@ -85,7 +85,7 @@ ms.locfileid: "32326084"
 |Метка  <br/> |Коллекция свойств, которые содержат сведения о комментариях, вставленных в страницу документа.  <br/> |[Annotation Section](annotation-section.md) <br/> |
 |Знак  <br/> |Коллекция связанных свойств, которые задают свойства символов текста фигуры. Он должен иметь родительский элемент **шапешит_типе** или родительский элемент **стилешит_типе** .  <br/> |[Character Section](character-section.md) <br/> |
 |Connections  <br/> |Коллекция свойств, которые используются только для оценки формул. Он должен иметь родительский элемент **шапешит_типе** .  <br/> |[Connection Points Section](connection-points-section.md) <br/> |
-|Field  <br/> |Коллекция связанных свойств, которые задают текстовые поля фигуры. Он должен иметь родительский элемент **шапешит_типе** .  <br/> |[Text Fields Section](text-fields-section.md) <br/> |
+|Поле  <br/> |Коллекция связанных свойств, которые задают текстовые поля фигуры. Он должен иметь родительский элемент **шапешит_типе** .  <br/> |[Text Fields Section](text-fields-section.md) <br/> |
 |Филлградиент  <br/> |Коллекция свойств, которые задают градиентный цвет заливки фигуры. Он должен иметь родительский элемент **шапешит_типе** или **стилешит_типе** .  <br/> |[Fill Gradient Section](fill-gradient-section.md) <br/> |
 |Геометрия  <br/> |Коллекция связанных свойств, указывающих визуализацию геометрии. Он должен иметь родительский элемент **шапешит_типе** . Первый дочерний элемент **ров_типе** этого элемента должен иметь тип moveTo, строка relmoveto, Ellipse или строка infiniteline.  <br/> |[Geometry Section](geometry-section.md) <br/> |
 |Слои  <br/> |Коллекция свойств, которые отображают все слои, определенные на странице документа. Он должен быть дочерним элементом элемента **пажешит_типе** .  <br/> |[Layers Section](layers-section.md) <br/> |

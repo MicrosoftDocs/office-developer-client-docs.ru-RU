@@ -1,5 +1,5 @@
 ---
-title: Элемент Висиодокумент (' XML ' Visio ')
+title: Элемент Висиодокумент (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: f5954685-3a2d-7848-388f-5dd7e536551c
 description: Корневой элемент документа Microsoft Visio.
-ms.openlocfilehash: 9829fa8960d78777e0fff4306b96978da90a647d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: acb0a4e8ef1efb6d6d5872118241e36bb4e9630c
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285315"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538489"
 ---
-# <a name="visiodocument-element-visio-xml"></a>Элемент Висиодокумент (' XML ' Visio ')
+# <a name="visiodocument-element-visio-xml"></a>Элемент Висиодокумент (XML для Visio)
 
 Корневой элемент документа Microsoft Visio.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32285315"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Висиодокумент_типе](visiodocument_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
    

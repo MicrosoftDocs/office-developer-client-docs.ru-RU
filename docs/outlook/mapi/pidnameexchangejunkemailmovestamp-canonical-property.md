@@ -12,18 +12,18 @@ api_type:
 - COM
 ms.assetid: 7a52f46c-371c-46d0-8d66-e154482e8269
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 07acfd8715dccad8833ee14ac8e573fb995539ba
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 098261cd71631e4816d22272e1b1bef1d5932a94
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32337949"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540947"
 ---
 # <a name="pidnameexchangejunkemailmovestamp-canonical-property"></a>Каноническое свойство PidNameExchangeJunkEmailMoveStamp
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит постоянное значение сообщения, которое указывает на то, что сообщение не должно обрабатываться фильтром нежелательной почты, так как сообщение уже было обработано или является безопасным.
   
@@ -31,13 +31,13 @@ ms.locfileid: "32337949"
 |:-----|:-----|
 |Понятные имена:  <br/> |Нет  <br/> |
 |Набор свойств:  <br/> |ПС_ПУБЛИК_СТРИНГС  <br/> |
-|Имя свойства:  <br/> |https://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
+|Имя свойства:  <br/> |http://schemas.microsoft.com/exchange/junkemailmovestamp  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Защита обмена сообщениями  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Это свойство отмечено для каждого сообщения, которое перемещается с помощью правила неЖелательной почты или является надежным контентом.
+Это свойство отмечено для каждого сообщения, которое перемещается с помощью правила нежелательной почты или является надежным контентом.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -55,7 +55,7 @@ ms.locfileid: "32337949"
   
 > Задает свойства и операции, представляющие элементы RSS.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

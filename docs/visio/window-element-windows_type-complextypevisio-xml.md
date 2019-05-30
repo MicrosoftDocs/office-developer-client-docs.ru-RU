@@ -1,5 +1,5 @@
 ---
-title: Элемент Window (Виндовс_типе complexType) (' XML ' Visio ')
+title: Элемент Window (Виндовс_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: da776276-e8c2-085b-9b23-e5b1f5ba64cd
 description: Представляет открытое окно в экземпляре Microsoft Visio. Этот элемент содержит сведения, необходимые для точного повторного создания окна пользовательского интерфейса в рабочей области приложения при первом открытии файла в Visio.
-ms.openlocfilehash: 676818ddea7747a17b0fe296da515e80c4ffd98f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2700ee7a9a17460f6ac707f5b1a8f35d622e33e3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339902"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538461"
 ---
-# <a name="window-element-windowstype-complextype-visio-xml"></a>Элемент Window (Виндовс_типе complexType) (' XML ' Visio ')
+# <a name="window-element-windowstype-complextype-visio-xml"></a>Элемент Window (Виндовс_типе complexType) (XML для Visio)
 
 Представляет открытое окно в экземпляре Microsoft Visio. Этот элемент содержит сведения, необходимые для точного повторного создания окна пользовательского интерфейса в рабочей области приложения при первом открытии файла в Visio.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32339902"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Window_Type](window_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Windows. XML  <br/> |
    
@@ -69,7 +69,7 @@ ms.locfileid: "32339902"
 |Container  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор контейнера: страница, лист или образец. Уместно и обязательно, если указан **контаинертипе** .  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |ContainerType  <br/> |XSD: маркер  <br/> |необязательный  <br/> |Может принимать одно из следующих значений: Document, Page или Master. Применяется только в том случае, если для **виндовтипе** задано значение "документ" или "лист".  <br/> |Значения типа маркера XSD:.  <br/> |
 |Document  <br/> |XSD: строка  <br/> |необязательный  <br/> |Путь к файлу документа, отображаемого в этом окне.  <br/> |Значения типа String: XSD.  <br/> |
-|ИД  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Master  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Основной идентификатор, если в этом окне отображается образец.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Page  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор страницы, если в этом окне отображается страница. Уместно, только если для **виндовтипе** задано значение Drawing, а **контаинертипе** задано как Page.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |ParentWindow  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |ИДЕНТИФИКАТОР окна, в котором находится данное окно набора элементов. Уместно, только если **виндовтипе** указан как набор элементов.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |

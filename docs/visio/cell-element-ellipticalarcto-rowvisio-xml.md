@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (строка строка ellipticalarcto) (' Visio XML ')
+title: Элемент Cell (строка строка ellipticalarcto) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3c0aa7a3-cc54-ffac-2c62-917b3d0a357e
 description: Содержит координаты x или y конечной точки эллиптической дуги, x или y элемента управления, указывающих на дугу, угол от оси x до основной оси эллипса или соотношение между основными и дополнительными осями эллипса.
-ms.openlocfilehash: 22dc813108d8f7b5b517c298c40c73ead8d4eec4
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 396575c069925fe472fa3df0543e29303881dad3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356072"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539830"
 ---
-# <a name="cell-element-ellipticalarcto-row-visio-xml"></a>Элемент Cell (строка строка ellipticalarcto) (' Visio XML ')
+# <a name="cell-element-ellipticalarcto-row-visio-xml"></a>Элемент Cell (строка строка ellipticalarcto) (XML для Visio)
 
 Содержит координаты x или y конечной точки эллиптической дуги, x или y элемента управления, указывающих на дугу, угол от оси x до основной оси эллипса или соотношение между основными и дополнительными осями эллипса.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356072"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -64,11 +64,11 @@ ms.locfileid: "32356072"
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |X  <br/> |Координата x конечной вершины дуги.  <br/> |[EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md) <br/> |
 |Да  <br/> |Координата y конечной вершины дуги.  <br/> |[EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md) <br/> |
-|А  <br/> |Координата x контрольной точки дуги; точка на дуги. Контрольная точка лучше всего расположена около посередине между начальным и конечным вершинами дуги. В противном случае дуга может увеличиться до экстремального размера для прохождения через контрольную точку с непредсказуемыми результатами.  <br/> |[EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md) <br/> |
+|A  <br/> |Координата x контрольной точки дуги; точка на дуги. Контрольная точка лучше всего расположена около посередине между начальным и конечным вершинами дуги. В противном случае дуга может увеличиться до экстремального размера для прохождения через контрольную точку с непредсказуемыми результатами.  <br/> |[EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md) <br/> |
 |B  <br/> |Координата y контрольной точки дуги.  <br/> |[EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md) <br/> |
 |C  <br/> |Угол основной оси дуги относительно оси x его родительской фигуры.  <br/> |[EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md) <br/> |
 |D  <br/> |Отношение основной оси дуги к ее вспомогательной оси. Несмотря на обычное значение этих слов, ось "Major" не должна превышать "младшую" ось, поэтому значение этого коэффициента не должно превышать 1. Присвоение этой ячейке значения меньше или равно 0 или больше 1000 может привести к непредсказуемым результатам.  <br/> |[EllipticalArcTo Row (Geometry Section)](ellipticalarcto-row-geometry-section.md) <br/> |

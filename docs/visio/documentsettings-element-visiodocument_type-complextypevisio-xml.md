@@ -1,5 +1,5 @@
 ---
-title: Элемент Документсеттингс (Висиодокумент_типе complexType) (' Visio XML ')
+title: Элемент Документсеттингс (Висиодокумент_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 46712e1f-4e02-974f-c224-85db47666ae1
 description: Содержит элементы, определяющие параметры документа.
-ms.openlocfilehash: e86dc5a0875006cb8bd1bbaffd36037a07fd5c0f
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 0d8e0809afae7b3de059166343577bb58f0eb01b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32315220"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540072"
 ---
-# <a name="documentsettings-element-visiodocumenttype-complextype-visio-xml"></a>Элемент Документсеттингс (Висиодокумент_типе complexType) (' Visio XML ')
+# <a name="documentsettings-element-visiodocumenttype-complextype-visio-xml"></a>Элемент Документсеттингс (Висиодокумент_типе complexType) (XML для Visio)
 
 Содержит элементы, определяющие параметры документа.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32315220"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Документсеттингс_типе](documentsettings_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
    
@@ -48,7 +48,7 @@ ms.locfileid: "32315220"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Аттачедтулбарс](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Аттачедтулбарс_типе](attachedtoolbars_type-complextypevisio-xml.md) <br/> |Зашифрованный В формате MIME файл пользовательского интерфейса Microsoft Visio (VSU), представляющий настраиваемые панели инструментов.  <br/> |
+|[Аттачедтулбарс](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Аттачедтулбарс_типе](attachedtoolbars_type-complextypevisio-xml.md) <br/> |Зашифрованный в формате MIME файл пользовательского интерфейса Microsoft Visio (VSU), представляющий настраиваемые панели инструментов.  <br/> |
 |[CustomMenusFile](custommenusfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Кустомменусфиле_типе](custommenusfile_type-complextypevisio-xml.md) <br/> |Содержит имя файла пользовательского интерфейса Microsoft Visio (VSU), определяющего настраиваемые меню и ускорители для документа.  <br/> |
 |[CustomToolbarsFile](customtoolbarsfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Кустомтулбарсфиле_типе](customtoolbarsfile_type-complextypevisio-xml.md) <br/> |Содержит имя файла пользовательского интерфейса Microsoft Visio (VSU), которое определяет настраиваемые панели инструментов и строки состояния документа.  <br/> |
 |[DynamicGridEnabled](dynamicgridenabled-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Динамикгриденаблед_типе](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |Указывает, включена ли динамическая сетка для документа или окна.  <br/> |

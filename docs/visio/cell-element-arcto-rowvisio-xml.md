@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (строка строка ArcTo) (' Visio XML ')
+title: Элемент Cell (строка строка ArcTo) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 69f1a0cc-90fe-4b49-653c-bba4a1a2b1b2
 description: Содержит координату x, координату по оси y или дугу круговой дуги.
-ms.openlocfilehash: 709251c40299425d59df97fc0c48901bb0204167
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6d744366cda7db0f3950ed0962c7ba5bd01b8e36
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356136"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538825"
 ---
-# <a name="cell-element-arcto-row-visio-xml"></a>Элемент Cell (строка строка ArcTo) (' Visio XML ')
+# <a name="cell-element-arcto-row-visio-xml"></a>Элемент Cell (строка строка ArcTo) (XML для Visio)
 
 Содержит координату x, координату по оси y или дугу круговой дуги.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356136"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -64,9 +64,9 @@ ms.locfileid: "32356136"
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
-|А  <br/> |Расстояние от средней дуги до средней точки аккорда.  <br/> |[ArcTo Row (Geometry Section)](arcto-row-geometry-section.md) <br/> |
+|A  <br/> |Расстояние от средней дуги до средней точки аккорда.  <br/> |[ArcTo Row (Geometry Section)](arcto-row-geometry-section.md) <br/> |
 |X  <br/> |Координата x конечной вершины дуги.  <br/> |[ArcTo Row (Geometry Section)](arcto-row-geometry-section.md) <br/> |
 |Да  <br/> |Координата y конечной вершины дуги.  <br/> |[ArcTo Row (Geometry Section)](arcto-row-geometry-section.md) <br/> |
    

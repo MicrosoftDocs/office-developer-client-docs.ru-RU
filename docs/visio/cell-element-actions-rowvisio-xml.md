@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (строка Actions) (' Visio XML ')
+title: Элемент Cell (строка Actions) (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5ae2b4db-03f4-1b8a-1274-7eb1521f2f59
 description: Задает одно свойство действия, связанного с настраиваемой командой, в контекстном меню или меню тегов действий.
-ms.openlocfilehash: 01b81a593de07be8059263d7a6e6538f31ed3be1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8cce85bdfb7d0ce54d968e00cda56e4e6c2455bc
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356275"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538783"
 ---
-# <a name="cell-element-actions-row-visio-xml"></a>Элемент Cell (строка Actions) (' Visio XML ')
+# <a name="cell-element-actions-row-visio-xml"></a>Элемент Cell (строка Actions) (XML-файл Visio)
 
 Задает одно свойство действия, связанного с настраиваемой командой, в контекстном меню или меню тегов действий.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356275"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
    
@@ -64,9 +64,9 @@ ms.locfileid: "32356275"
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
-|Действие  <br/> |Содержит формулу, которая должна выполняться, когда пользователь выбирает команду в контекстном меню или меню тегов действий.  <br/> |[Action Cell (Actions Section)](action-cell-actions-section.md) <br/> |
+|Action  <br/> |Содержит формулу, которая должна выполняться, когда пользователь выбирает команду в контекстном меню или меню тегов действий.  <br/> |[Action Cell (Actions Section)](action-cell-actions-section.md) <br/> |
 |BeginGroup  <br/> |Указывает, вставляется ли разделитель в меню над этим действием.  <br/> |[BeginGroup Cell (Actions Section)](begingroup-cell-actions-section.md) <br/> |
 |ButtonFace  <br/> |Определяет значок, который появляется рядом с элементом в контекстном меню или меню тегов действий.  <br/> |[ButtonFace Cell (Actions Section)](buttonface-cell-actions-section.md) <br/> |
 |Checked  <br/> |Указывает, отмечен ли элемент в контекстном меню или меню тегов действий.  <br/> |[Checked Cell (Actions Section)](checked-cell-actions-section.md) <br/> |

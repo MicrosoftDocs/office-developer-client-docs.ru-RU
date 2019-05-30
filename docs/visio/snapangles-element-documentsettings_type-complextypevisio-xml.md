@@ -1,5 +1,5 @@
 ---
-title: Элемент SnapAngles (Документсеттингс_типе complexType) (' Visio XML ')
+title: Элемент SnapAngles (Документсеттингс_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 803ddfc1-b7d3-736f-2d85-7b8780ef9278
 description: Содержит коллекцию элементов Снапангле.
-ms.openlocfilehash: 8121a65505c5283ea3cc4ff93a94fdae4c64d7a2
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: d0b2c2a0643b4f3bccd5b450ef0d9c89ce9ab7c2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334659"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540394"
 ---
-# <a name="snapangles-element-documentsettingstype-complextype-visio-xml"></a>Элемент SnapAngles (Документсеттингс_типе complexType) (' Visio XML ')
+# <a name="snapangles-element-documentsettingstype-complextype-visio-xml"></a>Элемент SnapAngles (Документсеттингс_типе complexType) (XML для Visio)
 
 Содержит коллекцию элементов **снапангле** . 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32334659"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Снапанглес_типе](snapangles_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
    

@@ -1,5 +1,5 @@
 ---
-title: Элемент data3 (Шапешит_типе complexType) (' Visio XML ')
+title: Элемент data3 (Шапешит_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 63493467-af55-fa62-6c39-6b5896895952
 description: Содержит произвольное строковое значение, которое используется для предоставления дополнительных сведений о фигуре.
-ms.openlocfilehash: a21d92e6ff8683ed3e35e233c8cce3aee015e4a0
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1ce286c0c8db53305f78def465ac31a3ef3afdec
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344641"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541255"
 ---
-# <a name="data3-element-shapesheettype-complextype-visio-xml"></a>Элемент data3 (Шапешит_типе complexType) (' Visio XML ')
+# <a name="data3-element-shapesheettype-complextype-visio-xml"></a>Элемент data3 (Шапешит_типе complexType) (XML для Visio)
 
 Содержит произвольное строковое значение, которое используется для предоставления дополнительных сведений о фигуре.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32344641"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Data_Type](data_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
    

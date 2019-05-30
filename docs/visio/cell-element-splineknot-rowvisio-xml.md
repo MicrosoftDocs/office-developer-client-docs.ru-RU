@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (строка строка splineknot) (' Visio XML ')
+title: Элемент Cell (строка строка splineknot) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 61faf0d6-c0a2-9350-8712-7a450591afad
 description: Содержит координаты x или y для контрольной точки сплайна или кнотного сплайна.
-ms.openlocfilehash: 1f2ddbcf7b750f2c2de983e16861070c7305fc3a
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4eb6e2ce47adae20738c0d210ad2dc30f362200d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339790"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539371"
 ---
-# <a name="cell-element-splineknot-row-visio-xml"></a>Элемент Cell (строка строка splineknot) (' Visio XML ')
+# <a name="cell-element-splineknot-row-visio-xml"></a>Элемент Cell (строка строка splineknot) (XML для Visio)
 
 Содержит координаты x или y для контрольной точки сплайна или кнотного сплайна.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32339790"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -60,14 +60,14 @@ ms.locfileid: "32339790"
 |U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
 |V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки таблицы свойств фигуры.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |X  <br/> |Координата x контрольной точки.  <br/> |[SplineKnot Row (Geometry Section)](splineknot-row-geometry-section.md) <br/> |
 |Да  <br/> |Координата y контрольной точки.  <br/> |[SplineKnot Row (Geometry Section)](splineknot-row-geometry-section.md) <br/> |
-|А  <br/> |Один из Кнотс сплайна (отличный от последнего или первых двух).  <br/> |[SplineKnot Row (Geometry Section)](splineknot-row-geometry-section.md) <br/> |
+|A  <br/> |Один из Кнотс сплайна (отличный от последнего или первых двух).  <br/> |[SplineKnot Row (Geometry Section)](splineknot-row-geometry-section.md) <br/> |
    
 

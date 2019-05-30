@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "действия") ("Visio XML")
+title: Элемент Row (раздел "действия") (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5141589b-10f3-f908-56d2-206244f449fb
 description: Содержит строки, описывающие пункты меню в контекстном меню или меню тегов действий фигуры или страницы.
-ms.openlocfilehash: 509fd06a77419bf684b214ff5a5d16f24a1f4a84
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: dfe23aa7d635fc09d625c414e5548a0166384fbb
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "32356422"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540415"
 ---
-# <a name="row-element-actions-section-visio-xml"></a>Элемент Row (раздел "действия") ("Visio XML")
+# <a name="row-element-actions-section-visio-xml"></a>Элемент Row (раздел "действия") (XML для Visio)
 
 Содержит строки, описывающие пункты меню в контекстном меню или меню тегов действий фигуры или страницы.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356422"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Актионсров_типе](actionsrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
    

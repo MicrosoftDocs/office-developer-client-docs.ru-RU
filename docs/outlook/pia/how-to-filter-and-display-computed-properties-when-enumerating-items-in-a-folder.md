@@ -7,12 +7,12 @@ ms:contentKeyID: 55119922
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 946858221b649cd6189ddf44680b316554cab5de
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 1c1702ce816714b21da860aea3e49db8a3511701
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320337"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542641"
 ---
 # <a name="filter-and-display-computed-properties-when-enumerating-items-in-a-folder"></a>Фильтрация и отображение вычисляемых свойств при перечислении элементов в папке
 
@@ -124,7 +124,7 @@ ms.locfileid: "32320337"
 
 Некоторые вычисляемые свойства невозможно добавить в набор столбцов таблицы, но в следующем примере кода выполняется обход этого ограничения. В процедуре GetToDoItems используется запрос DASL для ограничения элементов, отображающихся в объекте **Table**. Если вычисляемое свойство имеет представление в пространстве имен, это представление используется для создания запроса DASL, который ограничивает объект **Table** и возвращает строки для заданного значения вычисляемого свойства. Процедура GetToDoItems получает элементы из папки "Входящие", для которых значение свойства [IsMarkedAsTask](https://msdn.microsoft.com/library/bb623631\(v=office.15\)) равно **true**, а затем присваивает эти значения определенным свойствам задачи, таким как [TaskSubject](https://msdn.microsoft.com/library/bb643880\(v=office.15\)), [TaskDueDate](https://msdn.microsoft.com/library/bb623035\(v=office.15\)), [TaskStartDate](https://msdn.microsoft.com/library/bb610832\(v=office.15\)) и [TaskCompletedDate](https://msdn.microsoft.com/library/bb624055\(v=office.15\)). В завершение эти свойства записываются в прослушиватели трассировки коллекции [Listeners](https://msdn.microsoft.com/library/system.diagnostics.debug.listeners.aspx).
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -141,7 +141,7 @@ private void GetToDoItems()
         as Outlook.Folder;
     // DASL filter for IsMarkedAsTask
     string filter = "@SQL=" + "\"" +
-        "https://schemas.microsoft.com/mapi/proptag/0x0E2B0003"
+        "http://schemas.microsoft.com/mapi/proptag/0x0E2B0003"
         + "\"" + " = 1";
     Outlook.Table table =
         folder.GetTable(filter,
@@ -151,7 +151,7 @@ private void GetToDoItems()
     table.Columns.Add("TaskCompletedDate");
     // Use GUID/ID to represent TaskSubject
     table.Columns.Add(
-        "https://schemas.microsoft.com/mapi/id/" +
+        "http://schemas.microsoft.com/mapi/id/" +
         "{00062008-0000-0000-C000-000000000046}/85A4001E");
     while (!table.EndOfTable)
     {

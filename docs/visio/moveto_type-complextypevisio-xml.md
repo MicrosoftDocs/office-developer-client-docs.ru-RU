@@ -1,25 +1,25 @@
 ---
-title: Мовето_типе complexType (' Visio XML ')
+title: Мовето_типе complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4cd3e605-9ac1-14f5-f4e1-992c9100b1b2
-ms.openlocfilehash: f3c3ba2bfc789661f57c3d21634b5c876bc11f44
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 2348d67bb51987efdf2dbb1d9d817b37d754cab9
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283746"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542662"
 ---
-# <a name="movetotype-complextype-visio-xml"></a>Мовето_типе complexType (' Visio XML ')
+# <a name="movetotype-complextype-visio-xml"></a>Мовето_типе complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
 |||
 |:-----|:-----|
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
 |**Базовый элемент расширения** <br/> |Жеометриров_типе  <br/> |
    

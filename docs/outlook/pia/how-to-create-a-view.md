@@ -7,12 +7,12 @@ ms:contentKeyID: 55119902
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: c91f43001d6c56ad3b4c316aede9845a5e0a0064
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 75f414d95818b618cfcae236822bb2f5dacdf5f2
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32349492"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540807"
 ---
 # <a name="create-a-view"></a>Создание представления
 
@@ -85,7 +85,7 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 private void CreateMeetingRequestsView()
 {
     const string PR_MESSAGE_CLASS =
-        "https://schemas.microsoft.com/mapi/proptag/0x001A001E";
+        "http://schemas.microsoft.com/mapi/proptag/0x001A001E";
     Outlook.Views views =
         Application.Session.GetDefaultFolder(
         Outlook.OlDefaultFolders.olFolderInbox).Views;

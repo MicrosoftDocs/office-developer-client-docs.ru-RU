@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (строка строка relellipticalarcto) (' Visio XML ')
+title: Элемент Cell (строка строка relellipticalarcto) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: beaa8860-807e-c8dd-8a59-29cd0f91ba45
 description: Содержит координаты x или y конечной точки эллиптической дуги относительно ширины и высоты фигуры, а также координат x или y элемента управления на дуги относительно ширины и высоты фигуры, угла от оси x до основной оси эллипса или соотношения между Основные и дополнительные оси эллипса.
-ms.openlocfilehash: 55e7f664aaab34aa079bafe8f11c57e99fd8a935
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 84d7fe222cd46b54f38bc03e058103cc1d7a9620
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32339552"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34539434"
 ---
-# <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Элемент Cell (строка строка relellipticalarcto) (' Visio XML ')
+# <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Элемент Cell (строка строка relellipticalarcto) (XML для Visio)
 
 Содержит координаты x или y конечной точки эллиптической дуги относительно ширины и высоты фигуры, а также координат x или y элемента управления на дуги относительно ширины и высоты фигуры, угла от оси x до основной оси эллипса или соотношения между Основные и дополнительные оси эллипса.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32339552"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
    
@@ -60,15 +60,15 @@ ms.locfileid: "32339552"
 |U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
 |V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки таблицы свойств фигуры.  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |X  <br/> |Координата x конечной вершины в дуге относительно ширины фигуры.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
 |Да  <br/> |Координата y конечной вершины дуги относительно высоты фигуры.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
-|А  <br/> |Координата x контрольной точки дуги относительно ширины фигуры; точка на дуги.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
+|A  <br/> |Координата x контрольной точки дуги относительно ширины фигуры; точка на дуги.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
 |B  <br/> |Координата y контрольной точки дуги относительно ширины фигуры.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
 |C  <br/> |Угол основной оси дуги относительно оси x его родительского элемента.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
 |D  <br/> |Отношение основной оси дуги к ее вспомогательной оси.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |

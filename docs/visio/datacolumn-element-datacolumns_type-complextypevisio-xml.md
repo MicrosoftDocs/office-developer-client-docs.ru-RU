@@ -1,5 +1,5 @@
 ---
-title: Элемент DataColumn (Датаколумнс_типе complexType) (' XML ' Visio ')
+title: Элемент DataColumn (Датаколумнс_типе complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 92469c2f-f809-dff2-d0ee-b3b8f75083d2
 description: Определяет, как столбец данных отображается в окне "внешние данные" в пользовательском интерфейсе Visio, и определяет данные в столбце, определяя тип данных и форматирование.
-ms.openlocfilehash: 453ff44131575bd3d6927fdddb81db5f3f431a3b
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 021e7ffd154f1e124b9eb163acc27260b90c23eb
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32344823"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541227"
 ---
-# <a name="datacolumn-element-datacolumnstype-complextype-visio-xml"></a>Элемент DataColumn (Датаколумнс_типе complexType) (' XML ' Visio ')
+# <a name="datacolumn-element-datacolumnstype-complextype-visio-xml"></a>Элемент DataColumn (Датаколумнс_типе complexType) (XML для Visio)
 
 Определяет, как столбец данных отображается в окне " **Внешние данные** " в пользовательском интерфейсе Visio, и определяет данные в столбце, определяя тип данных и форматирование. 
   
@@ -23,7 +23,7 @@ ms.locfileid: "32344823"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Датаколумн_типе](datacolumn_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Recordset. XML  <br/> |
    
@@ -59,7 +59,7 @@ ms.locfileid: "32344823"
 |Degree  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Задает степень (степень) единиц измерения (например, квадрат или куб). Значение по умолчанию (Attribute отсутствует) равно 1.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Дисплайордер  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Определяет позицию отображения столбца данных в окне **Внешние данные** от левого столбца (0) до крайнего правого столбца (наибольшее значение).  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Дисплайвидс  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Ширина столбца данных в окне " **Внешние данные** ".  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Hyperlink  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Создает ли столбец данных гиперссылку в фигуре, когда фигура связана с данными.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|Гиперссылка  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Создает ли столбец данных гиперссылку в фигуре, когда фигура связана с данными.  <br/> |Значения типа XSD: Boolean.  <br/> |
 |Label  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Метка столбца данных.  <br/> |Значения типа String: XSD.  <br/> |
 |LangID  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор языка столбца данных.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Распределен  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, отображается ли столбец в окне " **Внешние данные** ". Значение true (1), если столбец должен быть видимым; Значение false (0), чтобы столбец не отображался. Значение по умолчанию (атрибут отсутствует) предназначено для отображения столбца.  <br/> |Значения типа XSD: Boolean.  <br/> |

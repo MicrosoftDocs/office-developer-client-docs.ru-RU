@@ -1,5 +1,5 @@
 ---
-title: Элемент Cell (раздел "символ") ("Visio XML")
+title: Элемент Cell (раздел "символ") (XML-файл Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: 6b452591-cf0c-9e1c-c203-e9cf608d3cc3
 description: Задает атрибут форматирования для текстового запуска фигуры, например шрифт, цвет, стиль, регистр, положение относительно базовой линии или кегля.
-ms.openlocfilehash: 6dd895b33353944d27abb0d64a6a6df64ca19896
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: a7d67aa3c53f3a4c673151afc991202904f0557b
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32356086"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34540086"
 ---
-# <a name="cell-element-character-section-visio-xml"></a>Элемент Cell (раздел "символ") ("Visio XML")
+# <a name="cell-element-character-section-visio-xml"></a>Элемент Cell (раздел "символ") (XML-файл Visio)
 
 Задает атрибут форматирования для текстового запуска фигуры, например шрифт, цвет, стиль, регистр, положение относительно базовой линии или кегля.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32356086"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
    
@@ -64,7 +64,7 @@ ms.locfileid: "32356086"
 
 Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
   
-|**Value**|**Описание**|**Дополнительные сведения**|
+|**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
 |AsianFont  <br/> |Содержит перечисление шрифта, используемого для форматирования текста Run, содержащего восточноазиатские символы.  <br/> |[AsianFont Cell (Character Section)](asianfont-cell-character-section.md) <br/> |
 |Ситуация  <br/> |Определяет регистр текстового запуска фигуры.  <br/> |[Case Cell (Character Section)](case-cell-character-section.md) <br/> |

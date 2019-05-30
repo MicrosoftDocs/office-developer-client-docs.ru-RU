@@ -1,5 +1,5 @@
 ---
-title: Элемент Row (раздел "вспомогательный") ("Visio XML")
+title: Элемент Row (раздел "вспомогательный") (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,14 +7,14 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: bdbaf263-ae57-2807-f100-8d590ab92927
 description: Рабочая область для ввода и тестирования формул, на которые можно ссылаться по другим ячейкам.
-ms.openlocfilehash: eac975fa1233e74b7bb5f2efc90b6b6edad8215c
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: fb346785b9cb6539d970ae1bd1c44fc706bd657d
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32342737"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34541003"
 ---
-# <a name="row-element-scratch-section-visio-xml"></a>Элемент Row (раздел "вспомогательный") ("Visio XML")
+# <a name="row-element-scratch-section-visio-xml"></a>Элемент Row (раздел "вспомогательный") (XML для Visio)
 
 Рабочая область для ввода и тестирования формул, на которые можно ссылаться по другим ячейкам.
   
@@ -23,7 +23,7 @@ ms.locfileid: "32342737"
 |||
 |:-----|:-----|
 |**Тип элемента** <br/> |[Скратчров_типе](scratchrow_type-complextypevisio-xml.md) <br/> |
-|**Пространство имен** <br/> |https://schemas.microsoft.com/office/visio/2012/main  <br/> |
+|**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
    

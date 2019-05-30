@@ -7,12 +7,12 @@ ms:contentKeyID: 55119860
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: bef6ebe051e669b831dfee752b1b17db0a9023b8
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 031b7736ed397b9218ea677442f80595da2aa919
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32320211"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542564"
 ---
 # <a name="get-the-default-message-class-of-a-folder"></a>Получение класса сообщений по умолчанию для папки
 
@@ -27,7 +27,7 @@ ms.locfileid: "32320211"
 
 В следующем примере кода процедура GetDefaultMessageClass использует **PropertyAccessor**, чтобы определить для папки форму по умолчанию. Если свойство **\_Folder мсгкласс\_Post\_** [(PidTagDefaultPostMessageClass)](https://msdn.microsoft.com/library/cc815305\(v=office.15\)) не найдено, а Outlook вызывает ошибку, то **try... Catch** возвращает свойство **DefaultMessageClass** для **папки**.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
+Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 
 ```csharp
 using Outlook = Microsoft.Office.Interop.Outlook;
@@ -42,7 +42,7 @@ private string GetDefaultMessageClass(Outlook.Folder folder)
     try
     {
         const string PR_DEF_POST_MSGCLASS =
-            @"https://schemas.microsoft.com/mapi/proptag/0x36E5001E";
+            @"http://schemas.microsoft.com/mapi/proptag/0x36E5001E";
         string messageClass =
             folder.PropertyAccessor.GetProperty(
             PR_DEF_POST_MSGCLASS).ToString();

@@ -8,12 +8,12 @@ keywords:
 localization_priority: Normal
 ms.assetid: 8d19e8fa-4e5c-40bb-ae89-7a552cc7914d
 description: По умолчанию файл FormCode.cs или FormCode.vb, который создается для проекта шаблона формы, совместимого с InfoPath 2003, содержит полный исходный код для программирования логики формы. Шаблон проекта создает класс в файле FormCode.cs или FormCode.vb, схожий с классами, приведенными в указанных далее примерах, где можно указать инициализацию и очистку кода, а также обработчики для событий формы. Файлы FormCode.cs и FormCode.vb применяют атрибут уровня сборки System.ComponentModel.DescriptionAttribute, который идентифицирует класс в качестве единственного класса, где реализуются обработчики событий. Атрибут InfoPathNamespace (который реализуется типом InfoPathNamespaceAttribute ) применяется к классу для идентификации пространств имен выборки XML DOM, используемых в рамках класса. Пространства имен, указанные в InfoPathNamespace, обслуживаются системой проектов InfoPath.
-ms.openlocfilehash: 1ae81c261ad9927195c0a4ac6d80f58a16a6ebf1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 659214a21dacf75b12f36cb6ad1e7f09c5af8800
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32299744"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538370"
 ---
 # <a name="initialization-and-clean-up-code-using-infopath-2003-object-model"></a>Инициализация и очистка кода с помощью объектной модели InfoPath 2003
 
@@ -36,7 +36,7 @@ namespace Template1
     // The namespace prefixes defined in this attribute must remain synchronized with
     // those in the form definition file (.xsf).
     [InfoPathNamespace(
-        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-27-27'")]
+        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-27-27'")]
     public partial class FormCode
     {
         private XDocument thisXDocument;
@@ -66,7 +66,7 @@ Namespace Template1
     ' The namespace prefixes defined in this attribute must remain synchronized with
     ' those in the form definition file (.xsf).
     <InfoPathNamespace( _
-        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-36-40'")> _
+        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-29T22-36-40'")> _
     Public Class FormCode
         Private thisXDocument As XDocument
         Private thisApplication As Application
@@ -126,7 +126,7 @@ Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
 End Sub
 ```
 
-Сведения о том, как создать обработчик событий, можно найти в статье [Добавление обработчика событий с помощью объектНой модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Сведения о том, как создать обработчик событий, можно найти в статье [Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
 ## <a name="the-shutdown-method"></a>Метод _ShutDown
 
@@ -163,7 +163,7 @@ namespace Template1
     // The namespace prefixes defined in this attribute must remain synchronized with
     // those in the form definition file (.xsf).
     [InfoPathNamespace(
-        "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-05T20-56-13'")]
+        "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-05T20-56-13'")]
     public partial class Template1
     {
         private XDocument    thisXDocument;
@@ -198,7 +198,7 @@ Namespace Template1
         ' The namespace prefixes defined in this attribute must remain synchronized with
         ' those in the form definition file (.xsf).
         <InfoPathNamespace( _
-            "xmlns:my='https://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-08T18-47-33'")>        _
+            "xmlns:my='http://schemas.microsoft.com/office/infopath/2003/myXSD/2004-03-08T18-47-33'")>        _
         Public Class Template1
             Private thisXDocument As XDocument
             Private thisApplication As Application
