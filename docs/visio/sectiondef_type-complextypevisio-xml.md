@@ -1,29 +1,29 @@
 ---
-title: Сектиондеф_типе complexType (' Visio XML ')
+title: Сектиондеф_типе complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5ab57bf2-0d9f-4a3a-4882-c77d7c781cbd
-ms.openlocfilehash: 1d13cf54861435aea2ce0b3aade955575d538891
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 96812d1911d249ebce02aeab20b0a77ef518fbff
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32326077"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34542081"
 ---
-# <a name="sectiondeftype-complextype-visio-xml"></a><span data-ttu-id="7ac40-102">Сектиондеф_типе complexType (' Visio XML ')</span><span class="sxs-lookup"><span data-stu-id="7ac40-102">SectionDef_Type complexType ('Visio XML')</span></span>
+# <a name="sectiondeftype-complextype-visio-xml"></a><span data-ttu-id="6f749-102">Сектиондеф_типе complexType (XML для Visio)</span><span class="sxs-lookup"><span data-stu-id="6f749-102">SectionDef_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="7ac40-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="7ac40-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="6f749-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="6f749-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="7ac40-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="7ac40-104">**Namespace**</span></span> <br/> |https://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="7ac40-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="7ac40-105">**Schema file**</span></span> <br/> |<span data-ttu-id="7ac40-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="7ac40-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="7ac40-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="7ac40-107">**Extension base**</span></span> <br/> |<span data-ttu-id="7ac40-108">Отсутствует</span><span class="sxs-lookup"><span data-stu-id="7ac40-108">None</span></span>  <br/> |
+|<span data-ttu-id="6f749-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="6f749-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="6f749-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="6f749-105">**Schema file**</span></span> <br/> |<span data-ttu-id="6f749-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="6f749-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="6f749-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="6f749-107">**Extension base**</span></span> <br/> |<span data-ttu-id="6f749-108">Отсутствует</span><span class="sxs-lookup"><span data-stu-id="6f749-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="7ac40-109">Определение</span><span class="sxs-lookup"><span data-stu-id="7ac40-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="6f749-109">Определение</span><span class="sxs-lookup"><span data-stu-id="6f749-109">Definition</span></span>
 
 ```XML
           <xs:complexType name="SectionDef_Type">
@@ -56,23 +56,23 @@ ms.locfileid: "32326077"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="7ac40-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="7ac40-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="6f749-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="6f749-110">Elements and attributes</span></span>
 
-<span data-ttu-id="7ac40-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="7ac40-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="6f749-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="6f749-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="7ac40-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="7ac40-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="6f749-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="6f749-112">Child elements</span></span>
 
-|<span data-ttu-id="7ac40-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="7ac40-113">**Element**</span></span>|<span data-ttu-id="7ac40-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="7ac40-114">**Type**</span></span>|<span data-ttu-id="7ac40-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="7ac40-115">**Description**</span></span>|
+|<span data-ttu-id="6f749-113">**Элемент**</span><span class="sxs-lookup"><span data-stu-id="6f749-113">**Element**</span></span>|<span data-ttu-id="6f749-114">**Тип**</span><span class="sxs-lookup"><span data-stu-id="6f749-114">**Type**</span></span>|<span data-ttu-id="6f749-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6f749-115">**Description**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="7ac40-116">Целлдеф</span><span class="sxs-lookup"><span data-stu-id="7ac40-116">CellDef</span></span> <br/> |[<span data-ttu-id="7ac40-117">Целлдеф_типе</span><span class="sxs-lookup"><span data-stu-id="7ac40-117">CellDef_Type</span></span>](celldef_type-complextypevisio-xml.md) <br/> ||
-|<span data-ttu-id="7ac40-118">Ровдеф</span><span class="sxs-lookup"><span data-stu-id="7ac40-118">RowDef</span></span> <br/> |[<span data-ttu-id="7ac40-119">Ровдеф_типе</span><span class="sxs-lookup"><span data-stu-id="7ac40-119">RowDef_Type</span></span>](rowdef_type-complextypevisio-xml.md) <br/> ||
+|<span data-ttu-id="6f749-116">Целлдеф</span><span class="sxs-lookup"><span data-stu-id="6f749-116">CellDef</span></span> <br/> |[<span data-ttu-id="6f749-117">Целлдеф_типе</span><span class="sxs-lookup"><span data-stu-id="6f749-117">CellDef_Type</span></span>](celldef_type-complextypevisio-xml.md) <br/> ||
+|<span data-ttu-id="6f749-118">Ровдеф</span><span class="sxs-lookup"><span data-stu-id="6f749-118">RowDef</span></span> <br/> |[<span data-ttu-id="6f749-119">Ровдеф_типе</span><span class="sxs-lookup"><span data-stu-id="6f749-119">RowDef_Type</span></span>](rowdef_type-complextypevisio-xml.md) <br/> ||
    
-### <a name="attributes"></a><span data-ttu-id="7ac40-120">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="7ac40-120">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="6f749-120">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="6f749-120">Attributes</span></span>
 
-|<span data-ttu-id="7ac40-121">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="7ac40-121">**Attribute**</span></span>|<span data-ttu-id="7ac40-122">**Тип**</span><span class="sxs-lookup"><span data-stu-id="7ac40-122">**Type**</span></span>|<span data-ttu-id="7ac40-123">**Обязательный**</span><span class="sxs-lookup"><span data-stu-id="7ac40-123">**Required**</span></span>|<span data-ttu-id="7ac40-124">**Описание**</span><span class="sxs-lookup"><span data-stu-id="7ac40-124">**Description**</span></span>|<span data-ttu-id="7ac40-125">**Возможные значения**</span><span class="sxs-lookup"><span data-stu-id="7ac40-125">**Possible values**</span></span>|
+|<span data-ttu-id="6f749-121">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="6f749-121">**Attribute**</span></span>|<span data-ttu-id="6f749-122">**Тип**</span><span class="sxs-lookup"><span data-stu-id="6f749-122">**Type**</span></span>|<span data-ttu-id="6f749-123">**Обязательный**</span><span class="sxs-lookup"><span data-stu-id="6f749-123">**Required**</span></span>|<span data-ttu-id="6f749-124">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6f749-124">**Description**</span></span>|<span data-ttu-id="6f749-125">**Возможные значения**</span><span class="sxs-lookup"><span data-stu-id="6f749-125">**Possible values**</span></span>|
 |:-----|:-----|:-----|:-----|:-----|
-|<span data-ttu-id="7ac40-126">N</span><span class="sxs-lookup"><span data-stu-id="7ac40-126">N</span></span>  <br/> |<span data-ttu-id="7ac40-127">XSD: строка</span><span class="sxs-lookup"><span data-stu-id="7ac40-127">xsd:string</span></span>  <br/> |<span data-ttu-id="7ac40-128">Обязательный</span><span class="sxs-lookup"><span data-stu-id="7ac40-128">required</span></span>  <br/> ||<span data-ttu-id="7ac40-129">Значения типа String: XSD.</span><span class="sxs-lookup"><span data-stu-id="7ac40-129">Values of the xsd:string type.</span></span>  <br/> |
-|<span data-ttu-id="7ac40-130">S</span><span class="sxs-lookup"><span data-stu-id="7ac40-130">S</span></span>  <br/> |<span data-ttu-id="7ac40-131">XSD: Унсигнедбите</span><span class="sxs-lookup"><span data-stu-id="7ac40-131">xsd:unsignedByte</span></span>  <br/> |<span data-ttu-id="7ac40-132">необязательный</span><span class="sxs-lookup"><span data-stu-id="7ac40-132">optional</span></span>  <br/> ||<span data-ttu-id="7ac40-133">Значения типа XSD: Унсигнедбите.</span><span class="sxs-lookup"><span data-stu-id="7ac40-133">Values of the xsd:unsignedByte type.</span></span>  <br/> |
-|<span data-ttu-id="7ac40-134">Д</span><span class="sxs-lookup"><span data-stu-id="7ac40-134">T</span></span>  <br/> |<span data-ttu-id="7ac40-135">XSD: строка</span><span class="sxs-lookup"><span data-stu-id="7ac40-135">xsd:string</span></span>  <br/> |<span data-ttu-id="7ac40-136">необязательный</span><span class="sxs-lookup"><span data-stu-id="7ac40-136">optional</span></span>  <br/> ||<span data-ttu-id="7ac40-137">Значения типа String: XSD.</span><span class="sxs-lookup"><span data-stu-id="7ac40-137">Values of the xsd:string type.</span></span>  <br/> |
+|<span data-ttu-id="6f749-126">N</span><span class="sxs-lookup"><span data-stu-id="6f749-126">N</span></span>  <br/> |<span data-ttu-id="6f749-127">XSD: строка</span><span class="sxs-lookup"><span data-stu-id="6f749-127">xsd:string</span></span>  <br/> |<span data-ttu-id="6f749-128">Обязательный</span><span class="sxs-lookup"><span data-stu-id="6f749-128">required</span></span>  <br/> ||<span data-ttu-id="6f749-129">Значения типа String: XSD.</span><span class="sxs-lookup"><span data-stu-id="6f749-129">Values of the xsd:string type.</span></span>  <br/> |
+|<span data-ttu-id="6f749-130">S</span><span class="sxs-lookup"><span data-stu-id="6f749-130">S</span></span>  <br/> |<span data-ttu-id="6f749-131">XSD: Унсигнедбите</span><span class="sxs-lookup"><span data-stu-id="6f749-131">xsd:unsignedByte</span></span>  <br/> |<span data-ttu-id="6f749-132">необязательный</span><span class="sxs-lookup"><span data-stu-id="6f749-132">optional</span></span>  <br/> ||<span data-ttu-id="6f749-133">Значения типа XSD: Унсигнедбите.</span><span class="sxs-lookup"><span data-stu-id="6f749-133">Values of the xsd:unsignedByte type.</span></span>  <br/> |
+|<span data-ttu-id="6f749-134">Д</span><span class="sxs-lookup"><span data-stu-id="6f749-134">T</span></span>  <br/> |<span data-ttu-id="6f749-135">XSD: строка</span><span class="sxs-lookup"><span data-stu-id="6f749-135">xsd:string</span></span>  <br/> |<span data-ttu-id="6f749-136">необязательный</span><span class="sxs-lookup"><span data-stu-id="6f749-136">optional</span></span>  <br/> ||<span data-ttu-id="6f749-137">Значения типа String: XSD.</span><span class="sxs-lookup"><span data-stu-id="6f749-137">Values of the xsd:string type.</span></span>  <br/> |
    
 
