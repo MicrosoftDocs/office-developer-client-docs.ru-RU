@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: В этой статье описаны API и технологии, которые можно использовать для расширения Outlook 2013 и Outlook 2016. Кроме того, статья поможет вам решить, какие именно API или технологии больше подходят для выбранного вами сценария.
 localization_priority: Priority
-ms.openlocfilehash: 54931ea9235e549a8fb4338c425123b99c2b11e4
-ms.sourcegitcommit: 9716521f7bcd531f93be9855ae7835be20cdd0e2
+ms.openlocfilehash: ac7ad2f183ed71ae893745429c6d27793a983be3
+ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34250428"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34538398"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Выбор API или технологии для разработки решений для Outlook
 
@@ -293,7 +293,7 @@ MAPI можно использовать для доступа к элемент
 ![Process Outlook events](media/odc_ol15_ta_SelectingTech_Fig2-4.gif)
 ![Automate Outlook](media/odc_ol15_ta_SelectingTech_Fig2-5.gif)-->
 
-### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Дополнительные сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2007
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2007"></a>Сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2007
 
 В дополнение к основным сценариям, если решение Outlook поддерживает какие-либо из приведенных в следующем списке сценариев, а ваше решение предназначено для работы в Outlook 2007 или более поздней версии, но не в более ранних версиях, можно использовать как объектную модель, так и PIA. На рисунке 3 показаны основные объекты или члены, которые можно использовать в объектной модели Outlook для расширения каждого сценария (за исключением интерфейса [IDTExtensibility2](https://docs.microsoft.com/dotnet/api/extensibility.idtextensibility2?view=visualstudiosdk-2017) в модели объектов автоматизации Visual Studio и интерфейса [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) в объектной модели Office, которые можно интегрировать с объектной моделью Outlook). 
 
@@ -325,7 +325,7 @@ MAPI можно использовать для доступа к элемент
 ![Store private data for solutions](media/odc_ol15_ta_SelectingAPI_Fig3-12.gif)
 -->
 
-### <a name="more-scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>Другие сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2010
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2010"></a>Сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2010
 
 Если решение Outlook предназначено для работы в Outlook 2010, а не в более ранних версиях, можно использовать объектную модель или PIA для поддержки сценариев, приведенных в следующем разделе. На рисунке 3 показаны основные объекты или члены, которые можно использовать в объектной модели Outlook для расширения каждого сценария (за исключением интерфейсов [IRibbonControl](https://docs.microsoft.com/office/vba/api/Office.IRibbonControl), [IRibbonExtensibility](https://docs.microsoft.com/office/vba/api/Office.IRibbonExtensibility) и [IRibbonUI](https://docs.microsoft.com/office/vba/api/Office.IRibbonUI) в объектной модели Office, которые можно интегрировать с объектной моделью Outlook). 
    
@@ -347,9 +347,9 @@ MAPI можно использовать для доступа к элемент
 ![Organize solution-specific folders](media/odc_ol15_ta_SelectingAPI_Fig4-7.gif)
 -->
 
-### <a name="additional-scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>Дополнительные сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2013
+### <a name="scenarios-supported-by-the-object-model-or-pia-since-outlook-2013"></a>Сценарии, которые поддерживает объектная модель или PIA, начиная с Outlook 2013
 
-Если решение предназначено для работы в Outlook 2013, а не в более ранних версиях, можно использовать объектную модель или PIA для поддержки сценариев, приведенных в следующих ресурсах.
+Если решение предназначено для работы в Outlook 2013, а не в более ранних версиях, можно использовать объектную модель или PIA для поддержки сценариев, описанных в перечисленных ниже ресурсах.
 
 - [Представление просмотра для всех контактов в текущей папке](https://docs.microsoft.com/office/vba/api/Outlook.peopleview)
 - [Выбор встроенного ответа в области чтения](#OLSelectAPI_InlineResponse)
