@@ -34,8 +34,7 @@ ms.locfileid: "32360524"
   
 ### <a name="code-samples"></a>Примеры кода
   
-- 
-  [Примеры кода для Word в Центре разработчиков Office](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
+- [Примеры кода для Word в Центре разработчиков Office](https://developer.microsoft.com/word/gallery/?filterBy=Word,Samples)
   
 ### <a name="other-resources"></a>Другие ресурсы
   
