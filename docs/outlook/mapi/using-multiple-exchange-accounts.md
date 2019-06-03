@@ -27,7 +27,7 @@ Microsoft Outlook 2010 и Microsoft Outlook 2013 поддерживают инт
   
 Outlook 2010 и Outlook 2013 используют **PidTagExchangeProfileSectionId** в качестве уникального идентификатора для указания учетной записи Exchange. При таком использовании этот уникальный идентификатор называется **emsmdbUID**. Для некоторых операций MAPI и Outlook идентификатор **emsmdbUID** может быть необходим, чтобы указать учетную запись Exchange, которую следует использовать для выполнения операции. 
   
-Для поддержки нескольких учетных записей Exchange необходимо использовать вызовы новых функций в коде. Замените любой вызов с использованием идентификатора **entryID** и метода [IAddrBook::OpenEntry](iaddrbook-openentry.md) или [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md) в объектах [IMailUser : IMAPIProp](imailuserimapiprop.md) и [IDistList : IMAPIContainer](idistlistimapicontainer.md) на одну из перечисленных ниже функций. 
+Для поддержки нескольких учетных записей Exchange необходимо использовать вызовы новых функций в коде. Замените любой вызов с использованием идентификатора **entryID** и метода [IAddrBook::OpenEntry](iaddrbook-openentry.md) или [IAddrBook::CompareEntryIDs](iaddrbook-compareentryids.md) в объектах [IMailUser : IMAPIProp](imailuserimapiprop.md) и [IDistList : IMAPIContainer](idistlistimapicontainer.md) одной из перечисленных ниже функций. 
   
 - [HrCompareABEntryIDsWithExchangeContext](hrcompareabentryidswithexchangecontext.md)
     
@@ -72,9 +72,9 @@ Outlook 2010 и Outlook 2013 используют **PidTagExchangeProfileSecti
     
 2. Значение **emsabpUID** определяет поставщика адресной книги Exchange. 
     
-Значение **emsabpUID** обычно используется при разрешении получателя. При разрешении получателя с помощью [IAddrBook::ResolveName](iaddrbook-resolvename.md) строка получателя Exchange содержит свойство **PR_AB_PROVIDERS** (0x3D010102), которое содержит значение **emsabpUID**. Это значение **emsabpUID** определяет поставщика адресной книги Exchange для определенного получателя. 
+Значение **emsabpUID** обычно используется при разрешении получателя. При разрешении получателя с помощью [IAddrBook::ResolveName](iaddrbook-resolvename.md) строка получателя Exchange содержит свойство **PR_AB_PROVIDERS** (0x3D010102), которое включает значение **emsabpUID**. Это значение **emsabpUID** определяет поставщика адресной книги Exchange для конкретного получателя. 
   
-Если вам нужно определить значение **emsabpUID** для определенного идентификатора **emsmdbUID**, откройте раздел профиля для **emsmdbUID** и получите свойство **PR_EMSABP_USER_UID** (0x0x3D1A0102). 
+Если вам нужно определить значение **emsabpUID** для идентификатора **emsmdbUID**, откройте раздел профиля для **emsmdbUID** и получите свойство **PR_EMSABP_USER_UID** (0x0x3D1A0102). 
   
 Если вы вызываете метод [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md), убедитесь, что получатели Exchange в передаваемом списке содержат свойство **PR_AB_PROVIDERS** с идентификатором **emsabpUID**, соответствующим поставщику адресной книги, к которому относится получатель. Вызов метода [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) для строки, полученной из метода [IAddrBook::ResolveName](iaddrbook-resolvename.md), не требует дополнительных действий, но некоторые фрагменты кода будет вызывать метод [IAddrBook::PrepareRecips](iaddrbook-preparerecips.md) для строк, содержащих только свойство **PR_ENTRYID**. В этой и других подобных ситуациях строки должны содержать свойства **PR_ENTRYID** и **PR_AB_PROVIDERS** со свойством **PR_AB_PROVIDERS**, где задан правильный идентификатор **emsabpUID**.
   
