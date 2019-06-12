@@ -4,27 +4,27 @@ TOCTitle: Comparison of Microsoft Access SQL and ANSI SQL
 ms:assetid: 0686f98f-10fe-0e02-e9d1-84ff3e755b57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844937(v=office.15)
 ms:contentKeyID: 48543052
-ms.date: 09/18/2015
+ms.date: 06/13/2019
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 195d9f5d882fd252b1b10e937fe851c4830c52d3
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 4e9f30401891452970fdbe80123fc373e26f26c6
+ms.sourcegitcommit: d0e1ce095a478d90411abb8c147eb9efe19ffa5f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32296054"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34870859"
 ---
 # <a name="comparison-of-microsoft-access-sql-and-ansi-sql"></a>Сравнение Microsoft Access SQL и ANSI SQL
 
 **Область применения**: Access 2013, Office 2013
 
-SQL ядра СУБД Microsoft Access, как правило, соответствует СТАНДАРТу ANSI-89 Level 1. Однако некоторые функции ANSI SQL не реализованы в Microsoft Access SQL. И наоборот, Microsoft Access SQL включает зарезервированные слова и функции, не поддерживаемые в ANSI SQL.
+SQL ядра СУБД Microsoft Access, как правило, соответствует стандарту ANSI-89 Level 1. Однако некоторые функции ANSI SQL не реализованы в Microsoft Access SQL. И наоборот, Microsoft Access SQL включает зарезервированные слова и функции, не поддерживаемые в ANSI SQL.
 
 ## <a name="major-differences"></a>Основные различия
 
-- Microsoft Access SQL и ANSI SQL имеют различные зарезервированные слова и типы данных. Для получения дополнительных сведений см [ЗарезервированНые слова SQL для ядра СУБД Microsoft Access](sql-reserved-words.md) и [эквивалентные типы данных ANSI SQL](equivalent-ansi-sql-data-types.md). Использование поставщика OLE DB для ядра СУБД Microsoft Access содержит дополнительные зарезервированные слова.
+- Microsoft Access SQL и ANSI SQL имеют различные зарезервированные слова и типы данных. Для получения дополнительных сведений см [зарезервированные слова SQL для ядра СУБД Microsoft Access](sql-reserved-words.md) и [эквивалентные типы данных ANSI SQL](equivalent-ansi-sql-data-types.md). Использование поставщика OLE DB для ядра СУБД Microsoft Access содержит дополнительные зарезервированные слова.
 
-- **[Между... С](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/and-operator)**
+- **[Между... С](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/between-and-operator)**
     
   *Выражение1* \[Не\] **между** *Значение1* **и** *value2*
     
@@ -40,7 +40,7 @@ SQL ядра СУБД Microsoft Access, как правило, соответс�
     </colgroup>
     <thead>
     <tr class="header">
-    <th><p>СоПоставленный символ</p></th>
+    <th><p>Сопоставленный символ</p></th>
     <th><p>Microsoft Access SQL</p></th>
     <th><p>ANSI SQL</p></th>
     </tr>
