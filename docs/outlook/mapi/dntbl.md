@@ -9,11 +9,11 @@ localization_priority: Normal
 ms.assetid: 77835b48-43aa-8518-9712-754e84f1e713
 description: 'Дата последнего изменения: 05 июля 2012 г.'
 ms.openlocfilehash: 4716a6f42968d7451a5db36173c4e6a9e843c08e
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25398124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32337004"
 ---
 # <a name="dntbl"></a>DNTBL
  
@@ -55,7 +55,7 @@ _ulFlags_
     
   - DNT_OK
     
-    - [в] Скачивание выполнено успешно. Устанавливается клиентом после скачивания информации с сервера.
+    - [in] Скачивание выполнено успешно. Устанавливается клиентом после скачивания информации с сервера.
     
 _pstmReserved1_
   
@@ -75,7 +75,7 @@ _pstmReserved4_
     
 _pxicc_
   
->  [] Указатель для интерфейса контента **IExchangeImportContentsChanges**, который поддерживает скачивание изменений контента. Дополнительные сведения о **IExchangeImportContentsChanges** см. в статье [Критерии оценки ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
+>  [out] Указатель для интерфейса контента **IExchangeImportContentsChanges**, который поддерживает скачивание изменений контента. Дополнительные сведения о **IExchangeImportContentsChanges** см. в статье [Критерии оценки ICS](https://msdn.microsoft.com/library/aa579252%28EXCHG.80%29.aspx).
     
 _pxihc_
   

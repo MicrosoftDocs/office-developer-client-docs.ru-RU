@@ -7,11 +7,11 @@ localization_priority: Normal
 ms.assetid: e1589568-cb49-86dd-5d16-b08c8117bd17
 description: 'Дата последнего изменения: 05 июля 2012 г.'
 ms.openlocfilehash: 07a4c3e90f686f291f95ff87f337b54d8bf35edc
-ms.sourcegitcommit: ef717c65d8dd41ababffb01eafc443c79950aed4
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "25391411"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32321835"
 ---
 # <a name="about-setting-the-resolution-order-for-address-lists-in-outlook"></a>Сведения о настройке порядка разрешения для списков адресов в Outlook
 

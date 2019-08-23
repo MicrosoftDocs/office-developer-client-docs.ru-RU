@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 6922cb38-a9e3-e4a9-d4a3-e11b81fc77e2
 description: 'Дата последнего изменения: 7 декабря 2015 года'
-ms.openlocfilehash: ce25c6777c8a71da0fe11e0bbf34eefafe2ca50d
-ms.sourcegitcommit: 0cf39e5382b8c6f236c8a63c6036849ed3527ded
+ms.openlocfilehash: c665bae57a72428df7acd92e080f7c31b131253b
+ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 08/23/2018
-ms.locfileid: "22564138"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32316655"
 ---
 # <a name="disconnecting-an-offline-state-add-in"></a>Отключение надстройки, позволяющей управлять автономным состоянием
 
