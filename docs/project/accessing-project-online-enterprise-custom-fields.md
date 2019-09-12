@@ -206,8 +206,7 @@ private static ProjectContext projContext =
 ## <a name="see-also"></a>См. также
 
 - [Портал разработки для Project](https://developer.microsoft.com/ru-RU/project)
-- 
-  [Обзор: корпоративные настраиваемые поля и таблицы подстановки](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
+- [Обзор: корпоративные настраиваемые поля и таблицы подстановки](https://support.office.com/en-us/article/overview-enterprise-custom-fields-and-lookup-tables-f99db553-0b33-4648-93c0-f6a74637d790?ui=en-us&rs=en-us&ad=us)
 - [Локальные и корпоративные настраиваемые поля](https://msdn.microsoft.com/library/office/ms447495(v=office.14).aspx)
 - [Добавление и редактирование корпоративных настраиваемых полей в Project Server 2013](https://docs.microsoft.com/project/add-or-edit-enterprise-custom-fields-in-project-server)
     

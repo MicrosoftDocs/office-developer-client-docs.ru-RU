@@ -552,8 +552,7 @@ OSC в Outlook позволяет пользователям просматри�
 
 - [Вложение файла в почтовый элемент](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- 
-  [Типы вложенных файлов, ограниченных Outlook 2010](https://technet.microsoft.com/ru-RU/library/cc179163.aspx)
+- [Типы вложенных файлов, ограниченных Outlook 2010](https://technet.microsoft.com/ru-RU/library/cc179163.aspx)
     
 - Объект [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) 
     
@@ -753,8 +752,7 @@ OSC в Outlook позволяет пользователям просматри�
     
 - [Изменения завершения работы Outlook 2010](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- 
-  [Attachment file types restricted by Outlook 2010](https://technet.microsoft.com/ru-RU/library/cc179163.aspx)
+- [Attachment file types restricted by Outlook 2010](https://technet.microsoft.com/ru-RU/library/cc179163.aspx)
     
 - [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     
