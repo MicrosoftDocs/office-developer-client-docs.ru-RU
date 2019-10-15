@@ -7,12 +7,12 @@ ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2a15e5df-b8e3-9c37-b1ee-2881d010e30b
 description: В этом разделе содержатся определения констант, идентификаторы классов и идентификаторы интерфейсов для API управления учетными записями.
-ms.openlocfilehash: 52d6e1801ac35621179aa0cac8acc2893aeb06b3
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: d36116e30eb7879dcd0db0523be8f28bb8fe82a7
+ms.sourcegitcommit: adcf409d56b6cb25be6117f09794defa41ad6c0f
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33429077"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "37495315"
 ---
 # <a name="constants-account-management-api"></a>Constants (Account management API)
 
@@ -22,113 +22,114 @@ ms.locfileid: "33429077"
 
 |**Константа**|**Определение**|
 |:-----|:-----|
-|АККТ_ИНИТ_НОСИНЧ_МАПИ_АККТС  <br/> |0x00000001  <br/> |
-|АККТ_ИНИТ_НО_СТОРЕС_ЧЕКК  <br/> |0x00000002  <br/> |
-|АККТУИ_НО_ВАРНИНГ  <br/> |0x0100  <br/> |
-|АККТУИ_ШОВ_АККТВИЗАРД  <br/> |0x0400  <br/> |
-|АККТУИ_ШОВ_ДАТА_ТАБ  <br/> |0x0200  <br/> |
-|Е_АККТ_НОТ_ФАУНД  <br/> |0x800C8101  <br/> |
-|Е_АККТ_УИ_БУСИ  <br/> |0x800C8102  <br/> |
-|Е_АККТ_ВРОНГ_СОРТ_ОРДЕР  <br/> |0x800C8105  <br/> |
+|ACCT_INIT_NOSYNCH_MAPI_ACCTS  <br/> |0x00000001  <br/> |
+|ACCT_INIT_NO_STORES_CHECK  <br/> |0x00000002  <br/> |
+|ACCT_INIT_NO_NOTIFICATIONS <br/> |0x00000004 <br/> |
+|ACCTUI_NO_WARNING  <br/> |0x0100  <br/> |
+|ACCTUI_SHOW_ACCTWIZARD  <br/> |0x0400  <br/> |
+|ACCTUI_SHOW_DATA_TAB  <br/> |0x0200  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |0x800C8101  <br/> |
+|E_ACCT_UI_BUSY  <br/> |0x800C8102  <br/> |
+|E_ACCT_WRONG_SORT_ORDER  <br/> |0x800C8105  <br/> |
 |E_INVALIDARG  <br/> | *Как определено в файле заголовков пакета средств разработки программного обеспечения (SDK) для Windows (SDK) Winerror. h.*  <br/> |
 |E_NOTIMPL  <br/> | *Как указано в файле заголовка пакета SDK для Windows, как указано в файле Winerror. h.*  <br/> |
-|Е_ОЛК_АЛРЕАДИ_ИНИТИАЛИЗЕД  <br/> |0x800C8002  <br/> |
-|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |0x800C8005  <br/> |
-|Е_ОЛК_ПАРАМ_НОТ_СУППОРТЕД  <br/> |0x800C8003  <br/> |
-|Е_ОЛК_ПРОП_РЕАД_ОНЛИ  <br/> |0x800C800D  <br/> |
-|Е_ОЛК_РЕГИСТРИ  <br/> |0x800C8001  <br/> |
-|Следующие константы, начинающиеся с ЕНКРИПТ_, используются свойством [проп_смтп_секуре_коннектион](prop_smtp_secure_connection.md) для указания типа зашифрованного подключения.  <br/> ||
-|ЕНКРИПТ_КОНН_АУТО  <br/> |4  <br/> |
-|ЕНКРИПТ_КОНН_НО_СЕКУРИТИ  <br/> |нуль  <br/> |
-|ЕНКРИПТ_КОНН_ССЛ  <br/> |1,1  <br/> |
-|ЕНКРИПТ_КОНН_ТЛС  <br/> |2  <br/> |
-|МАПИАККТ_СЕНД_ОНЛИ  <br/> |0x00000001  <br/> |
-|НОТИФИ_АККТ_ЧАНЖЕД  <br/> |1,1  <br/> |
-|НОТИФИ_АККТ_КРЕАТЕД  <br/> |2  <br/> |
-|НОТИФИ_АККТ_ДЕЛЕТЕД  <br/> |4  <br/> |
-|НОТИФИ_АККТ_ОРДЕР_ЧАНЖЕД  <br/> |SP4  <br/> |
-|НОТИФИ_АККТ_ПРЕДЕЛЕТЕД  <br/> |17:00  <br/> |
-|ОЛК_АККАУНТ_НО_ФЛАГС  <br/> |нуль  <br/> |
+|E_OLK_ALREADY_INITIALIZED  <br/> |0x800C8002  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |0x800C8005  <br/> |
+|E_OLK_PARAM_NOT_SUPPORTED  <br/> |0x800C8003  <br/> |
+|E_OLK_PROP_READ_ONLY  <br/> |0x800C800D  <br/> |
+|E_OLK_REGISTRY  <br/> |0x800C8001  <br/> |
+|Следующие константы, начинающиеся с ENCRYPT_, используются свойством [PROP_SMTP_SECURE_CONNECTION](prop_smtp_secure_connection.md) для указания типа зашифрованного подключения.  <br/> ||
+|ENCRYPT_CONN_AUTO  <br/> |4  <br/> |
+|ENCRYPT_CONN_NO_SECURITY  <br/> |нуль  <br/> |
+|ENCRYPT_CONN_SSL  <br/> |1,1  <br/> |
+|ENCRYPT_CONN_TLS  <br/> |2  <br/> |
+|MAPIACCT_SEND_ONLY  <br/> |0x00000001  <br/> |
+|NOTIFY_ACCT_CHANGED  <br/> |1,1  <br/> |
+|NOTIFY_ACCT_CREATED  <br/> |2  <br/> |
+|NOTIFY_ACCT_DELETED  <br/> |4  <br/> |
+|NOTIFY_ACCT_ORDER_CHANGED  <br/> |4   <br/> |
+|NOTIFY_ACCT_PREDELETED  <br/> |5   <br/> |
+|OLK_ACCOUNT_NO_FLAGS  <br/> |нуль  <br/> |
 |S_OK  <br/> | *Как указано в файле заголовка пакета SDK для Windows, как указано в файле Winerror. h.*  <br/> |
 |S_FALSE  <br/> | *Как указано в файле заголовка пакета SDK для Windows, как указано в файле Winerror. h.*  <br/> |
-|СЕКУРЕ_ФЛАГ  <br/> |0x8000  <br/> |
-|Следующие константы, начинающиеся с СМТП_, используются свойством [проп_смтп_аус_месод](prop_smtp_auth_method.md) и определяют метод проверки подлинности.  <br/> ||
-|СМТП_АУС_САМЕ_АС_ПОП  <br/> |нуль  <br/> |
-|СМТП_АУС_РЕЦЕИВЕ_БЕФОРЕ_СЕНД  <br/> |2  <br/> |
-|СМТП_АУС_УСЕР_ПАСС  <br/> |1,1  <br/> |
-|Следующие 5 констант и макросов используются в свойстве [проп_поп_леаве_он_сервер](prop_pop_leave_on_server.md) и указывают параметры для учетных записей POP, чтобы оставлять копии сообщений на сервере.  <br/> ||
-|ЛЕАВЕ_ОН_СЕРВЕР  <br/> |0x1  <br/> |
-|РЕМОВЕ_АФТЕР  <br/> |0x2  <br/> |
-|РЕМОВЕ_ОН_НУКЕ  <br/> |0x4  <br/> |
-|ЖЕТ_РЕМОВЕ_АФТЕР_ДАЙС (UL)  <br/> |((UL)\>\>16)  <br/> |
-|СЕТ_РЕМОВЕ_АФТЕР_ДАЙС (дней)  <br/> |((дней)\<\<16)  <br/> |
+|SECURE_FLAG  <br/> |0x8000  <br/> |
+|Следующие константы, начинающиеся с SMTP_, используются свойством [PROP_SMTP_AUTH_METHOD](prop_smtp_auth_method.md) и определяют метод проверки подлинности.  <br/> ||
+|SMTP_AUTH_SAME_AS_POP  <br/> |нуль  <br/> |
+|SMTP_AUTH_RECEIVE_BEFORE_SEND  <br/> |2  <br/> |
+|SMTP_AUTH_USER_PASS  <br/> |1,1  <br/> |
+|Следующие 5 констант и макросов используются в свойстве [PROP_POP_LEAVE_ON_SERVER](prop_pop_leave_on_server.md) и указывают параметры для учетных записей POP, чтобы оставлять копии сообщений на сервере.  <br/> ||
+|LEAVE_ON_SERVER  <br/> |0x1  <br/> |
+|REMOVE_AFTER  <br/> |0x2  <br/> |
+|REMOVE_ON_NUKE  <br/> |0x4  <br/> |
+|GET_REMOVE_AFTER_DAYS (UL)  <br/> |((UL)\>\>16)  <br/> |
+|SET_REMOVE_AFTER_DAYS (дней)  <br/> |((дней)\<\<16)  <br/> |
    
 ## <a name="class-identifiers"></a>Идентификаторы классов
 
-Используйте макрос ДЕФИНЕ_ГУИД, определенный в файле заголовка Windows SDK guiddef. h, чтобы связать символьное имя GUID со значением.
+Используйте макрос DEFINE_GUID, определенный в файле заголовка Windows SDK guiddef. h, чтобы связать символьное имя GUID со значением.
   
 {ed475410-b0d6-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (Клсид_олкаккаунтманажер, 0xed475410, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76); 
+DEFINE_GUID (CLSID_OlkAccountManager, 0xed475410, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76); 
   
 {ed475411-b0d6-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (CLSID_OlkPOP3Account, 0xed475411, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
+DEFINE_GUID (CLSID_OlkPOP3Account, 0xed475411, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
   
 {ed475412-b0d6-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (CLSID_OlkIMAP4Account, 0xed475412, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
+DEFINE_GUID (CLSID_OlkIMAP4Account, 0xed475412, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
   
 {ed475414-b0d6-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (Клсид_олкмапиаккаунт, 0xed475414, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
+DEFINE_GUID (CLSID_OlkMAPIAccount, 0xed475414, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
   
 {ed475418-b0d6-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (Клсид_олкмаил, 0xed475418, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
+DEFINE_GUID (CLSID_OlkMail, 0xed475418, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
   
 {ed475419-b0d6-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (Клсид_олкаддрессбук, 0xed475419, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
+DEFINE_GUID (CLSID_OlkAddressBook, 0xed475419, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
   
 {ed475420-b0d6-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (Клсид_олксторе, 0xed475420, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
+DEFINE_GUID (CLSID_OlkStore, 0xed475420, 0xb0d6, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
   
 {4db5cbf0-3b77-4852-bc8e-bb81908861f3}
   
-ДЕФИНЕ_ГУИД (Клсид_олкхотмаилаккаунт, 0x4db5cbf0, 0x3b77, 0x4852, 0xbc, 0x8E, 0xBB, 0x81, 0x90, 0x88, 0x61, 0xf3);
+DEFINE_GUID(CLSID_OlkHotmailAccount, 0x4db5cbf0, 0x3b77, 0x4852, 0xbc, 0x8e, 0xbb, 0x81, 0x90, 0x88, 0x61, 0xf3);
   
 {4db5cbf2-3b77-4852-bc8e-bb81908861f3}
   
-ДЕФИНЕ_ГУИД (Клсид_олклдапаккаунт, 0x4db5cbf2, 0x3b77, 0x4852, 0xbc, 0x8E, 0xBB, 0x81, 0x90, 0x88, 0x61, 0xf3);
+DEFINE_GUID(CLSID_OlkLDAPAccount, 0x4db5cbf2, 0x3b77, 0x4852, 0xbc, 0x8e, 0xbb, 0x81, 0x90, 0x88, 0x61, 0xf3);
   
 ## <a name="interface-identifiers"></a>Идентификаторы интерфейсов
 
-Используйте макрос ДЕФИНЕ_ГУИД, определенный в файле заголовка Windows SDK guiddef. h, чтобы связать символьное имя GUID со значением.
+Используйте макрос DEFINE_GUID, определенный в файле заголовка Windows SDK guiddef. h, чтобы связать символьное имя GUID со значением.
   
 {9240A6C0-AF41-11d2-8C3B-00104B2A6676}
   
-ДЕФИНЕ_ГУИД (Иид_иолкеррорункновн, 0x9240a6c0, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
+DEFINE_GUID (IID_IOlkErrorUnknown, 0x9240a6c0, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
   
 {9240A6C1-AF41-11d2-8C3B-00104B2A6676}
   
-ДЕФИНЕ_ГУИД (Иид_иолкенум, 0x9240a6c1, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
+DEFINE_GUID (IID_IOlkEnum, 0x9240a6c1, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
   
 {9240a6c3-af41-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (Иид_иолкаккаунтнотифи, 0x9240a6c3, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
+DEFINE_GUID (IID_IOlkAccountNotify, 0x9240a6c3, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
   
 {9240a6cb-af41-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (Иид_иолкаккаунселпер, 0x9240a6cb, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76); 
+DEFINE_GUID (IID_IOlkAccountHelper, 0x9240a6cb, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76); 
   
 {9240a6cd-af41-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (Иид_иолкаккаунтманажер, 0x9240a6cd, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76); 
+DEFINE_GUID (IID_IOlkAccountManager, 0x9240a6cd, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76); 
   
 {9240a6d2-af41-11d2-8c3b-00104b2a6676}
   
-ДЕФИНЕ_ГУИД (Иид_иолкаккаунт, 0x9240a6d2, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
+DEFINE_GUID (IID_IOlkAccount, 0x9240a6d2, 0xaf41, 0x11d2, 0x8C, 0x3B, 0x0, 0x10, 0x4B, 0x2A, 0x66, 0x76);
   
 
