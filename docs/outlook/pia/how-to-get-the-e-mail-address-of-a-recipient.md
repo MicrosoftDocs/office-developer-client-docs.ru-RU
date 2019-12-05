@@ -2,17 +2,17 @@
 title: Получение электронного адреса получателя
 TOCTitle: Get the email address of a recipient
 ms:assetid: e585811b-a298-496f-ba79-df7d46526169
-ms:mtpsurl: https://msdn.microsoft.com/library/Ff184647(v=office.15)
+ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-get-the-e-mail-address-of-a-recipient?redirectedfrom=MSDN
 ms:contentKeyID: 55119879
-ms.date: 07/24/2014
+ms.date: 12/03/2019
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 5d145dadd974b6608da29cdf85a4624d6c452eb8
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 8957cbc92414b0cdac442167a5c9ea025ce318cb
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34542578"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819338"
 ---
 # <a name="get-the-email-address-of-a-recipient"></a>Получение адреса электронной почты получателя
 
@@ -20,7 +20,7 @@ ms.locfileid: "34542578"
 
 ## <a name="example"></a>Пример
 
-В следующем примере кода метод GetSMTPAddressForRecipients принимает в качестве аргумента ввода объект [MailItem](https://msdn.microsoft.com/library/bb643865\(v=office.15\)), а затем показывает SMTP-адрес каждого получателя этого почтового элемента. Метод сначала извлекает коллекцию [Recipients](https://msdn.microsoft.com/library/bb646361\(v=office.15\)), которая представляет набор получателей, указанный для почтового элемента. Затем метод получает для каждого [Recipient](https://msdn.microsoft.com/library/bb624370\(v=office.15\)) в коллекции **Recipients** объект [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) , который соответствует объекту **Recipient**. Наконец, метод использует свойство [PropertyAccessor](https://msdn.microsoft.com/library/bb623797\(v=office.15\)) , чтобы получить значение свойства http://schemas.microsoft.com/mapi/proptag/0x39FE001EMAPI, которое сопоставляется с **\_SMTP-\_адресом**([PidTagSmtpAddress](https://msdn.microsoft.com/library/cc842421\(v=office.15\))) для получателя (URL-адрес ) получателя.
+В следующем примере кода метод GetSMTPAddressForRecipients принимает в качестве аргумента ввода объект [MailItem](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.mailitem?redirectedfrom=MSDN&view=outlook-pia), а затем показывает SMTP-адрес каждого получателя этого почтового элемента. Метод сначала извлекает коллекцию [Recipients](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.recipients?redirectedfrom=MSDN&view=outlook-pia), которая представляет набор получателей, указанный для почтового элемента. Для каждого [получателя](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.recipient?redirectedfrom=MSDN&view=outlook-pia) в коллекции **получателей** метод затем получает объект [PropertyAccessor](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.propertyaccessor?redirectedfrom=MSDN&view=outlook-pia)), соответствующий объекту **Recipient** . Наконец, метод использует свойство [PropertyAccessor](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.recipient.propertyaccessor?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_Recipient_PropertyAccessor) , чтобы получить значение свойства https://schemas.microsoft.com/mapi/proptag/0x39FE001EMAPI, которое сопоставляется с **\_SMTP-адресом\_**([PidTagSmtpAddress](https://docs.microsoft.com/office/client-developer/outlook/mapi/pidtagsmtpaddress-canonical-property?redirectedfrom=MSDN)) для получателя (URL-адрес ) получателя.
 
 Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент Microsoft Outlook 15.0 Object Library и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **using** не должна находиться непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В приведенной ниже строке кода показано, как выполнить импорт и назначение на языке C\#.
 

@@ -2,17 +2,17 @@
 title: Поиск точной фразы во вложениях элементов в папке
 TOCTitle: Search attachments of items in a folder for an exact phrase
 ms:assetid: 3202c0c7-ee3d-4396-b3a9-d24990b44829
-ms:mtpsurl: https://msdn.microsoft.com/library/Bb609825(v=office.15)
+ms:mtpsurl: https://docs.microsoft.com/office/client-developer/outlook/pia/how-to-search-attachments-of-items-in-a-folder-for-an-exact-phrase?redirectedfrom=MSDN
 ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 615b90a8423493a9e202e51993eea1c8127a9939
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: a937a273e0735b2d14369ae8cb8127e827501160
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34540898"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819289"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Поиск точной фразы во вложениях элементов в папке
 
@@ -20,7 +20,7 @@ ms.locfileid: "34540898"
 
 ## <a name="example"></a>Пример
 
-В этом примере кода используется синтаксис DASL для определения запроса. Для создания фильтра в коде сначала проверяется, включена ли в хранилище по умолчанию функция мгновенного поиска, чтобы определить, использовать ли ключевое слово **ci\_phrasematch** для поиска точного совпадения фразы с "office" во вложении. Затем в примере применяется фильтр к методу [GetTable](https://msdn.microsoft.com/library/bb612592\(v=office.15\)) в папке "Входящие" с получением результатов в объекте [Table](https://msdn.microsoft.com/library/bb652856\(v=office.15\)). После этого в примере кода отображается тема каждого возвращенного элемента в объекте **Table**.
+В этом примере кода используется синтаксис DASL для определения запроса. Для создания фильтра в коде сначала проверяется, включена ли в хранилище по умолчанию функция мгновенного поиска, чтобы определить, использовать ли ключевое слово **ci\_phrasematch** для поиска точного совпадения фразы с "office" во вложении. Затем в примере применяется фильтр к методу [GetTable](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.mapifolder.gettable?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_MAPIFolder_GetTable_System_Object_System_Object_) в папке "Входящие" с получением результатов в объекте [Table](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.table?redirectedfrom=MSDN&view=outlook-pia). После этого в примере кода отображается тема каждого возвращенного элемента в объекте **Table**.
 
 Значение свойства **Attachments** в примере кода задается с помощью представления пространства имен, http://schemas.microsoft.com/mapi/proptag/0x0EA5001E. Для ключевого слова **ci\_phrasematch** используется следующий синтаксис:
 

@@ -1,17 +1,17 @@
 ---
 title: Настройка пользовательских функций в Excel Online в Office Online Server
-manager: soliver
-ms.date: 03/18/2016
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Используйте пользовательские функции (UDF) в Excel Online в Office Online Server, чтобы вызывать пользовательские функции.
-ms.openlocfilehash: dbba60a62a1a4783b47c3f1fe40a118dd8ed0d6d
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 6e16ea753090b2fefca4ae15330f1a27d53da777
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32311062"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819359"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server"></a>Настройка пользовательских функций в Excel Online в Office Online Server
 
@@ -19,19 +19,19 @@ ms.locfileid: "32311062"
   
 Пользовательские функции (UDF) в Excel Online позволяют вызывать пользовательские функции, написанные в управляемом коде, с помощью формул в ячейках. Пользовательские функции можно использовать для следующих функций:
   
-- Call custom mathematical functions.
+- вызова специальных математических функций;
     
-- Get data from custom data sources into worksheets.
+- загрузки на листы данных из специальных источников;
     
 - Вызов веб-служб.
     
 Двоичные файлы UDF можно установить в одном из двух расположений:
   
-- Локальный каталог. Пример: 
+- Локальный каталог. Например: 
     
-    К:\удфс\мисамплеудф.длл
+    к:\удфс\мисамплеудф.длл
     
-- Глобальный кэш сборок. Пример: 
+- Глобальный кэш сборок. Например: 
     
     CompanyName.Hierarchichal.MyUdfNamespace.MyUdfClassName.dll, Version=1.1.0.0, Culture=en, PublicKeyToken=e8123117d7ba9ae38
     
@@ -54,9 +54,9 @@ ms.locfileid: "32311062"
   
 - **Сборок**
     
-- **Ассемблилокатион**
+- **ассемблилокатион**
     
-- **Включение** (по умолчанию задано значение false) 
+- **Enable** (по умолчанию задано значение false) 
     
 - **Описание**
     
@@ -72,22 +72,21 @@ ms.locfileid: "32311062"
 
 Используйте следующие командлеты Windows PowerShell для работы с UDF:
   
-- **Get — оффицевебаппсексцелусердефинедфунктион** (нет обязательных параметров) — возвращает список определений UDF, настроенных на сервере Office Online Server. 
+- **Get-оффицевебаппсексцелусердефинедфунктион** (нет обязательных параметров) — возвращает список определений UDF, настроенных на сервере Office Online Server. 
     
-- **Set — оффицевебаппсексцелусердефинедфунктион** (Обязательный параметр Identity) — задает свойства существующих определений UDF. 
+- **Set-оффицевебаппсексцелусердефинедфунктион** (обязательный параметр Identity) — задает свойства существующих определений UDF. 
     
-- **Remove — оффицевебаппсексцелусердефинедфунктион** (Обязательный параметр Identity) — удаляет существующие определения UDF. 
+- **Remove-оффицевебаппсексцелусердефинедфунктион** (обязательный параметр Identity) — удаляет существующие определения UDF. 
     
 ## <a name="udf-sample"></a>Пример использования UDF
 
-В следующих файлах представлена пример книги, в которой используется UDF и двоичный файл UDF:
+Следующий файл примера содержит образец книги, в которой используется UDF и двоичный файл UDF:
   
 - [Булеандататипе. xlsx](https://download.microsoft.com/download/6/7/F/67F724FD-1186-4209-BFF1-FBFD99E959D9/User%20Defined%20Function%20Assemblies/BooleanDataType.xlsx): образец книги, ИСПОЛЬЗУЮЩей UDF  
-- [Ексудфскоммонсет. dll](https://www.microsoft.com/en-us/search/result.aspx?q=EcsUdfsCommonSet.dll): двоичный файл UDF 
     
 ## <a name="see-also"></a>См. также
 
 - [Настройка параметров администрирования Excel Online](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
-- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)
+- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-serverr)
     
 
