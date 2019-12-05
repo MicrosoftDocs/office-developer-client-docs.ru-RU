@@ -1,17 +1,17 @@
 ---
 title: Выбор API или технологии для разработки решений для Outlook
-manager: soliver
-ms.date: 05/21/2019
+manager: lindalu
+ms.date: 12/03/2019
 ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: В этой статье описаны API и технологии, которые можно использовать для расширения Outlook 2013 и Outlook 2016. Кроме того, статья поможет вам решить, какие именно API или технологии больше подходят для выбранного вами сценария.
 localization_priority: Priority
-ms.openlocfilehash: ac7ad2f183ed71ae893745429c6d27793a983be3
-ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
+ms.openlocfilehash: 60e02d25b53e494f2552622321a3f68921e84000
+ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34538398"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39819317"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Выбор API или технологии для разработки решений для Outlook
 
@@ -67,7 +67,7 @@ ms.locfileid: "34538398"
 
 Начиная с Office 2013, разработчики могут использовать платформу надстроек Office для расширения веб-служб и контента в контексте полнофункциональных клиентов и веб-клиентов Office. Надстройка Office — это веб-страница, которая разработана при помощи стандартных веб-технологий, размещена в клиентском приложении Office (например, Outlook) и может выполняться локально или в облаке. Из нескольких типов надстроек Office тот тип, который поддерживается в Outlook, называется почтовыми приложениями. Хотя объектная модель, PIA и MAPI часто используются для автоматизации Outlook на уровне приложений, на уровне отдельного элемента для работы с содержимым и свойствами сообщения электронной почты, приглашения на собрание или встречи также можно использовать API JavaScript для Office. Почтовые приложения можно публиковать в магазине Office или во внутреннем каталоге Exchange. 
   
-Пользователи и администраторы могут устанавливать почтовые приложения в почтовом ящике Exchange, а также использовать их в полнофункциональном клиенте Outlook и в Outlook Web App. Разработчик может сделать так, чтобы почтовое приложение было доступно только на компьютере, или также разрешить доступ на планшете или смартфоне. На рисунке 1 показан пример почтового приложения YouTube, которое подробно описано в статье [Создание почтовой надстройки для просмотра видео YouTube в Outlook](https://code.msdn.microsoft.com/office/Mail-apps-for-Outlook-01c9248f). Почтовое приложение YouTube позволяет выбрать URL-адрес видео на сайте YouTube и посмотреть видео в Outlook или Outlook Web App на компьютере или планшете.
+Пользователи и администраторы могут устанавливать почтовые приложения в почтовом ящике Exchange, а также использовать их в полнофункциональном клиенте Outlook и в Outlook Web App. Разработчик может сделать так, чтобы почтовое приложение было доступно только на компьютере, или также разрешить доступ на планшете или смартфоне. На рисунке 1 показан пример почтового приложения YouTube, которое подробно описано в статье [Создание почтовой надстройки для просмотра видео YouTube в Outlook](https://docs.microsoft.com/samples/browse/?redirectedfrom=MSDN-samples). Почтовое приложение YouTube позволяет выбрать URL-адрес видео на сайте YouTube и посмотреть видео в Outlook или Outlook Web App на компьютере или планшете.
   
 **Рис. 1. Почтовое приложение YouTube активно для выбранного сообщения, которое содержит URL-адрес видео на сайте YouTube.com**
 
@@ -435,8 +435,10 @@ Outlook поддерживает автоматизацию путем испо�
 Outlook поддерживает автоматизацию с помощью надстроек и автономных приложений, написанных на управляемых или неуправляемых языках. Чаще всего используются управляемые языки C# и Visual Basic. Инструменты C++ и Delphi чаще всего используются в неуправляемой среде. Это одно из соображений, которые следует учитывать при выборе между управляемой и неуправляемой разработкой. 
   
 Если в решении используется только объектная модель, можно разработать управляемое решение с помощью PIA или средств разработки Office в Visual Studio. Средства разработки Office в Visual Studio предлагают шаблоны проектов и визуальные конструкторы, упрощающие создание нестандартных пользовательских интерфейсов и разработку решений Office.
+
+С другой стороны, поскольку технология MAPI была разработана гораздо раньше, чем .NET Framework, а корпорация Майкрософт не предоставляет управляемых оболочек для MAPI, корпорация Майкрософт не поддерживает использование MAPI в управляемом коде. В случае использования MAPI необходимо разрабатывать неуправляемое решение. Дополнительные сведения см. в статье [Рекомендации поддержки для разработки клиентской системы обмена сообщениями](https://support.office.com/article/Best-practices-for-Outlook-f90e5f69-8832-4d89-95b3-bfdf76c82ef8).
   
-С другой стороны, поскольку технология MAPI была разработана гораздо раньше, чем .NET Framework, а корпорация Майкрософт не предоставляет управляемых оболочек для MAPI, корпорация Майкрософт не поддерживает использование MAPI в управляемом коде. В случае использования MAPI необходимо разрабатывать неуправляемое решение. Дополнительные сведения см. в статье [Рекомендации поддержки для разработки клиентской системы обмена сообщениями](https://support.microsoft.com/kb/266353/en-us).
+## <a name="niche-apis-and-technologies"></a>Niche APIs and technologies
 
 <a name="OLSelectAPI_NicheAPI"> </a>
 
@@ -492,11 +494,11 @@ OSC в Outlook позволяет пользователям просматри�
 
 <a name="OLSelectAPI_AdditionalResourcesApps"> </a>
 
-## <a name="see-also-office-add-ins"></a>См. также: "Надстройки Office"
-
-[Обзор платформы надстроек Office](https://msdn.microsoft.com/library/e64de870-ce22-4331-92e7-76d35279bf91%28Office.15%29.aspx) дает хорошую общую информацию о настройках Office, включая архитектуру и жизненный цикл разработки. 
+[Обзор платформы надстроек Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins?redirectedfrom=MSDN) provides a good introduction of Надстройки Office, including the architecture and development life cycle. 
   
-Подробный план ресурсов, посвященных разработке почтовых приложений, см. в статье [Надстройки Outlook](https://msdn.microsoft.com/library/71e64bc9-e347-4f5d-8948-0a47b5dd93e6%28Office.15%29.aspx). 
+Подробный план ресурсов, посвященных разработке почтовых приложений, см. в статье [Надстройки Outlook](https://docs.microsoft.com/outlook/add-ins/?redirectedfrom=MSDN). 
+  
+## <a name="see-also-object-model-and-pia"></a>См. также: "Объектная модель и PIA"
 
 <a name="OLSelectAPI_AdditionalResourcesObjModelPIA"> </a>
 
@@ -506,9 +508,8 @@ OSC в Outlook позволяет пользователям просматри�
 
 <a name="OLSelectAPI_PrimaryAccount"> </a>
 
-### <a name="accountsprimary-exchange-account-in-profile"></a>Учетные записи: основная учетная запись Exchange в профиле
+- [Account](https://docs.microsoft.com/office/vba/api/Outlook.Account) object 
 
-- Объект [Account](https://msdn.microsoft.com/library/f624438c-4e45-2822-18b6-bfe8074a33c0%28Office.15%29.aspx) 
     
 - Свойство [NameSpace.Accounts](https://msdn.microsoft.com/library/80e969ea-d2cc-966d-5fe4-68d59951b5c9%28Office.15%29.aspx) 
 
@@ -917,24 +918,24 @@ OSC в Outlook позволяет пользователям просматри�
 ### <a name="major-references-and-resources"></a>Major references and resources
 
 - [Надстройки Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)   
-- [Outlook 2013 developer reference](https://msdn.microsoft.com/library/75e4ad96-62a2-49d2-bc51-48ceab50634c%28Office.15%29.aspx)   
-- [Outlook 2010 Primary Interop Assembly Reference](https://msdn.microsoft.com/library/54bdde85-8dc9-4498-a1ac-f72eaf8f0cd3%28Office.15%29.aspx)   
-- [Справочник по MAPI для Outlook](https://msdn.microsoft.com/library/3d980b86-7001-4869-9780-121c6bfc7275%28Office.15%29.aspx)   
+- [Outlook 2013 developer reference](https://docs.microsoft.com/office/vba/api/overview/outlook)   
+- [Outlook 2010 Primary Interop Assembly Reference](https://docs.microsoft.com/office/client-developer/outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference)   
+- [Справочник по MAPI для Outlook](https://docs.microsoft.com/office/client-developer/outlook/mapi/outlook-mapi-reference)   
 - [Outlook 2013 Auxiliary Reference](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
 - [Outlook Social Connector provider reference](social-connector/outlook-social-connector-provider-reference.md)   
 - [Extending the Weather Bar in Outlook](weather/extending-the-weather-bar-in-outlook.md)   
 - [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
 - [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
-- [What's New in XML Schemas for Outlook 2010](https://msdn.microsoft.com/library/52f91e6f-a774-488c-8e55-111ae8f68f8a%28Office.15%29.aspx)   
-- [Outlook 2010: XML Schema Reference](https://www.microsoft.com/downloads/en/details.aspx?FamilyID=10ca414a-6cff-46a1-a521-e42c25f079d3&amp;displaylang=en)   
-- [Developing Outlook 2010 Solutions for 32-Bit and 64-Bit Systems](https://msdn.microsoft.com/library/076753e1-6252-4189-843c-7b1be1967176%28Office.15%29.aspx)
+- [What's New in XML Schemas for Outlook 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff697175(v=office.14))   
+- [Outlook 2010: XML Schema Reference](https://www.microsoft.com/download/details.aspx?id=22609)   
+- [Developing Outlook 2010 Solutions for 32-Bit and 64-Bit Systems](https://docs.microsoft.com/previous-versions/office/developer/office-2010/gg549122(v=office.14))
     
 ### <a name="code-samples"></a>Примеры кода
 
-- [Mail apps samples](https://code.msdn.microsoft.com/officeapps/site/search?f%5B0%5D.Type=Technology&amp;f%5B0%5D.Value=Outlook%202013)   
-- Примеры кода объектной модели: [Как это сделать в Outlook](https://msdn.microsoft.com/library/3c33646d-e5c2-3103-b219-487ffe23357f%28Office.15%29.aspx)  
-- PIA code samples: [Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)](https://msdn.microsoft.com/library/ff647d52-bd32-4945-afa4-5b97d9a0d7dd%28Office.15%29.aspx)  
-- [Примеры MAPI](https://msdn.microsoft.com/library/641659f2-3c0a-43af-96f1-2521b4b06680%28Office.15%29.aspx)
+- [Mail apps samples](https://developer.microsoft.com/outlook/gallery/?filterBy=Outlook,Samples)   
+- Примеры кода объектной модели: [Как это сделать в Outlook](https://docs.microsoft.com/office/vba/outlook/concepts/miscellaneous/how-do-i-outlook-vba-reference)  
+- PIA code samples: [Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)](https://docs.microsoft.com/office/client-developer/outlook/pia/how-do-i-outlook-2013-pia-reference?redirectedfrom=MSDN)  
+- [Примеры MAPI](https://docs.microsoft.com/office/client-developer/outlook/mapi/mapi-samples)
 - Auxiliary API code samples: [Sample tasks](auxiliary/sample-tasks.md)
     
 
