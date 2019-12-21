@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Используйте пользовательские функции (UDF) в Excel Online в Office Online Server, чтобы вызывать пользовательские функции.
-ms.openlocfilehash: 6e16ea753090b2fefca4ae15330f1a27d53da777
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: c9ace9a678a57a0d97e2fee65ee62bf9497f4451
+ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819359"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40825767"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server"></a>Настройка пользовательских функций в Excel Online в Office Online Server
 
@@ -27,11 +27,11 @@ ms.locfileid: "39819359"
     
 Двоичные файлы UDF можно установить в одном из двух расположений:
   
-- Локальный каталог. Например: 
+- Локальный каталог. Пример: 
     
     к:\удфс\мисамплеудф.длл
     
-- Глобальный кэш сборок. Например: 
+- Глобальный кэш сборок. Пример: 
     
     CompanyName.Hierarchichal.MyUdfNamespace.MyUdfClassName.dll, Version=1.1.0.0, Culture=en, PublicKeyToken=e8123117d7ba9ae38
     
@@ -87,6 +87,6 @@ ms.locfileid: "39819359"
 ## <a name="see-also"></a>См. также
 
 - [Настройка параметров администрирования Excel Online](https://docs.microsoft.com/officeonlineserver/configure-excel-online-administrative-settings)  
-- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-serverr)
+- [Office Online Server](https://docs.microsoft.com/officeonlineserver/office-online-server)
     
 
