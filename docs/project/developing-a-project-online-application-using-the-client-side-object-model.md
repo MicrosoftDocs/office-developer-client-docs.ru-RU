@@ -1,21 +1,22 @@
 ---
 title: Разработка приложений для Project Online с помощью клиентской объектной модели
-manager: soliver
-ms.date: 11/08/2016
+manager: lindalu
+ms.date: 12/18/2019
 ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
-description: В этой статье описана разработка приложений Microsoft Project Online для классических приложений с помощью .NET Framework 4.0. Приложения, представленные в данной статье, загружают сведения с сервера размещения.
+description: 'В этой статье описана разработка приложений Microsoft Project Online с помощью .NET Framework 4.0 и CSOM. '
 localization_priority: Priority
-ms.openlocfilehash: 3d3c2dd5b896c10dab9a0494288f38610cbc99e1
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 33ddafe2e3a75039bf55381524accf1a25692885
+ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32322625"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40825774"
 ---
-# <a name="developing-a-project-online-application-using-the-client-side-object-model"></a>Разработка приложений для Project Online с помощью клиентской объектной модели
+# <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>Разработка приложений для Project Online с помощью клиентской объектной модели (CSOM)
 
-В этой статье описана разработка приложений Microsoft Project Online для классических приложений с помощью .NET Framework 4.0. Приложения, представленные в данной статье, загружают сведения с сервера размещения. 
+>[!NOTE] 
+>В этой статье описана разработка приложений Microsoft Project Online для использования CSOM. Рекомендуется изучить способ разработки приложений с помощью [нового приложения Project в Интернете](https://developer.microsoft.com/ru-RU/office/blogs/developing-applications-and-reports-using-the-new-project/).
   
 ## <a name="background"></a>Общие сведения
 
@@ -60,7 +61,7 @@ Project Online обладает тремя онлайн-наборами API: к
 
 При разработке классического приложения для SharePoint предпочтительным интерфейсом выступает клиентская объектная модель (CSOM). 
   
-Готовый пример можно скачать здесь: https://github.com/OfficeDev/Project-CSOM-List-Projects-Tasks.
+Вы можете скачать [примеры CSOM для Project](https://developer.microsoft.com/project/gallery/?filterBy=Samples,Project) из коллекции ресурсов для разработчиков Project в Центре разработчиков Office.
   
 В первых двух разделах рассказывается об основных проблемах — создании проекта Visual Studio с соответствующим пространством имен и сборками и получении доступа к серверу размещения. В оставшихся разделах рассматривается получение данных с помощью CSOM из одного или нескольких объектов. 
   
@@ -194,7 +195,7 @@ Project Online — приложение SharePoint, поэтому разумн
 
    При создании экземпляра контекста проектов необходимо предоставить доступ к корню приложения для семейства веб-сайтов проектов. Приложение использует подстроку URL-адреса корня проектов. Снимок этого расположения выделен красным прямоугольником на приведенном ниже рисунке. Для проверки подлинности нужна строка от начала до подстроки "pwa". В листинге кода приложение использует строку "https://XXXXXXXX.sharepoint.com/sites/pwa".
         
-   ![Снимок URL-адреса семейства веб-сайтов проектов в красной рамке. ](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Снимок URL-адреса семейства веб-сайтов проектов в красной рамке")
+   ![Снимок экрана: URL-адрес для семейства веб-сайтов проектов в красной рамке.](media/d48c4894-5dba-46b6-886a-3c59bfb83c4d.png "Снимок экрана: URL-адрес для семейства веб-сайтов проектов в красной рамке.")
   
 3. Поместите пароль в защищенную строку. Данное действие выполняется приведенным ниже кодом из предыдущего фрагмента кода.
     
@@ -637,8 +638,8 @@ Value: Red
 
 ```
 
-## <a name="see-also"></a>Дополнительные ресурсы
+## <a name="see-also"></a>См. также
 
-Документы и примеры, относящиеся к Project Online и разработке приложений с помощью CSOM, находятся на [портале разработчиков Project](https://developer.microsoft.com/ru-RU/project).
+Документы и примеры, относящиеся к Project Online и разработке приложений с помощью CSOM, находятся на [портале разработчиков Project](https://developer.microsoft.com/project) в Центре разработчиков Office.
     
 
