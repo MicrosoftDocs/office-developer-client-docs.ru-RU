@@ -7,12 +7,12 @@ ms:contentKeyID: 55119889
 ms.date: 07/24/2014
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: a937a273e0735b2d14369ae8cb8127e827501160
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 3d14da44731810308d57ba0e70f9651f3105aad0
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819289"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773717"
 ---
 # <a name="search-attachments-of-items-in-a-folder-for-an-exact-phrase"></a>Поиск точной фразы во вложениях элементов в папке
 
@@ -22,7 +22,7 @@ ms.locfileid: "39819289"
 
 В этом примере кода используется синтаксис DASL для определения запроса. Для создания фильтра в коде сначала проверяется, включена ли в хранилище по умолчанию функция мгновенного поиска, чтобы определить, использовать ли ключевое слово **ci\_phrasematch** для поиска точного совпадения фразы с "office" во вложении. Затем в примере применяется фильтр к методу [GetTable](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.mapifolder.gettable?redirectedfrom=MSDN&view=outlook-pia#Microsoft_Office_Interop_Outlook_MAPIFolder_GetTable_System_Object_System_Object_) в папке "Входящие" с получением результатов в объекте [Table](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.table?redirectedfrom=MSDN&view=outlook-pia). После этого в примере кода отображается тема каждого возвращенного элемента в объекте **Table**.
 
-Значение свойства **Attachments** в примере кода задается с помощью представления пространства имен, http://schemas.microsoft.com/mapi/proptag/0x0EA5001E. Для ключевого слова **ci\_phrasematch** используется следующий синтаксис:
+Значение свойства **Attachments** в примере кода задается с помощью представления пространства имен, https://schemas.microsoft.com/mapi/proptag/0x0EA5001E. Для ключевого слова **ci\_phrasematch** используется следующий синтаксис:
 
 `<PropertySchemaName> ci_phrasematch <ComparisonString>`
 

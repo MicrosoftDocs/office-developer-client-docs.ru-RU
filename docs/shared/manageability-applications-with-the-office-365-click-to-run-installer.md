@@ -1,17 +1,17 @@
 ---
 title: Интеграция приложений управления с помощью установщика Office 365 нажми и работай
 manager: lindalu
-ms.date: 12/03/2019
+ms.date: 10/22/2017
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
 description: Узнайте, как интегрировать установщик Office 365 нажми и работай с решением управления программным обеспечением.
-ms.openlocfilehash: 62bfef0063c414fcecd0948e49dfa098b5c82bbb
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 0c695d538a0a906bce19719c2735cb39740ff6a2
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819275"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773738"
 ---
 # <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>Интеграция приложений управления с помощью установщика Office 365 нажми и работай
 
@@ -185,7 +185,7 @@ HRESULT Cancel() // Cancel the download action.
 
 - Этот метод можно запускать только при **eDOWNLOAD_WIP**идентификатора состояния com. Будет предпринята попытка отменить текущее действие скачивания. Состояние COM изменится на **eDOWNLOAD_CANCELLING** и в конечном итоге изменится на **eDOWNLOAD_CANCELED**. Состояние COM возвращает **E_ILLEGAL_METHOD_CALL** , если триггер запускается в любое другое время. 
     
-### <a name="download"></a>Download (Скачать)
+### <a name="download"></a>Скачать
 
 ```cpp
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.

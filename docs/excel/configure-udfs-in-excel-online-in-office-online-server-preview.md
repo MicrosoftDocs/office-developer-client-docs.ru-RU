@@ -6,12 +6,12 @@ ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: 3e0ca274-e9cd-48a1-8cfc-9d5053738972
 description: Используйте пользовательские функции (UDF) в Excel Online в Office Online Server, чтобы вызывать пользовательские функции.
-ms.openlocfilehash: c9ace9a678a57a0d97e2fee65ee62bf9497f4451
-ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
+ms.openlocfilehash: f916e56f7f79bfac1494b980a5591e4c531efea9
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40825767"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773710"
 ---
 # <a name="configure-udfs-in-excel-online-in-office-online-server"></a>Настройка пользовательских функций в Excel Online в Office Online Server
 
@@ -42,7 +42,7 @@ ms.locfileid: "40825767"
   
 ## <a name="enable-udfs-on-office-online-server"></a>Включение пользовательских функций в Office Online Server 
 
-Когда администратор создает новую ферму серверов Office Web Apps с помощью командлета Windows PowerShell [New-OfficeWebAppsFarm](https://technet.microsoft.com/en-us/library/jj219436.aspx) , сборки UDF по умолчанию отключены. Значение по умолчанию для флага **ексцелудфсалловед** — false. 
+Когда администратор создает новую ферму серверов Office Web Apps с помощью командлета Windows PowerShell [New-OfficeWebAppsFarm](https://docs.microsoft.com/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps) , сборки UDF по умолчанию отключены. Значение по умолчанию для флага **ексцелудфсалловед** — false. 
   
 Чтобы включить UDF, выполните следующую команду Windows PowerShell на сервере Office Online Server после создания фермы серверов Office Web Apps.
   
@@ -58,7 +58,7 @@ ms.locfileid: "40825767"
     
 - **Enable** (по умолчанию задано значение false) 
     
-- **Описание**
+- **Description**
     
 В следующих примерах показано, как создать определения UDF.
   
