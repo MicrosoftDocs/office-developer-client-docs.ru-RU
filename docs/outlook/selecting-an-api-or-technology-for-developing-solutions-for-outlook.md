@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 01a46083-03d0-4333-920c-01a9f17f68cb
 description: В этой статье описаны API и технологии, которые можно использовать для расширения Outlook 2013 и Outlook 2016. Кроме того, статья поможет вам решить, какие именно API или технологии больше подходят для выбранного вами сценария.
 localization_priority: Priority
-ms.openlocfilehash: 60e02d25b53e494f2552622321a3f68921e84000
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 42ca5056c49186229ab1689c9aeeb4d34dda60fc
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819317"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773752"
 ---
 # <a name="selecting-an-api-or-technology-for-developing-solutions-for-outlook"></a>Выбор API или технологии для разработки решений для Outlook
 
@@ -110,9 +110,9 @@ ms.locfileid: "39819317"
 |Разрешения при установке  <br/> |По умолчанию конечные пользователи и администраторы могут устанавливать почтовые приложения с низким уровнем доверия, для которых требуется **ограниченный** доступ или разрешение на **чтение элемента**, и администраторы могут устанавливать приложения с высоким уровнем доверия, для которых требуется **разрешение на чтение и запись** в почтовом ящике.  <br/> |
 |Разрешения времени выполнения  <br/> |Почтовые приложения запрашивают разрешения определенного уровня, основанные на трехуровневой модели разрешений: **ограниченный доступ**, **чтение элемента** и **чтение и запись почтового ящика**.  <br/> |
 |Встроенные функции безопасности  <br/> | Среда выполнения надстроек Office предлагает следующие меры, предотвращающие повреждение приложением среды конечного пользователя.  <br/>  Изолирует процесс, в котором работает надстройка.  <br/>  Не предусматривает замены DLL- или EXE-файлов, а также компонентов ActiveX.  <br/>  Упрощает установку или удаление приложений пользователем.  <br/>  Администраторы и пользователи могут управлять доступными почтовыми приложениями, а также указывать, надо ли перед установкой почтового приложения предоставлять требуемое разрешение.  <br/>  При использовании полнофункциональных клиентов управляет использованием памяти и ЦП, чтобы предотвратить атаки типа "отказ в обслуживании".  <br/> |
-|Security monitoring features  <br/> | For mail apps, the following resources are monitored:  <br/>  CPU core usage.  <br/>  Memory usage.  <br/>  Number of crashes.  <br/>  Length of time blocking an application.  <br/>  Regular expression response time.  <br/>  Number of times re-evaluating regular expressions.  <br/>  Administrators can override default settings that govern the resource usage.  <br/> |
+|Функции мониторинга безопасности  <br/> | Для почтовых приложений отслеживаются следующие ресурсы:  <br/>  Использование ядра ЦП.  <br/>  Использование памяти.  <br/>  Число сбоев.  <br/>  Длительность блокировки приложения.  <br/>  Время ответа регулярного выражения.  <br/>  Число повторных оценок регулярных выражений.  <br/>  Администраторы могут переопределять параметры по умолчанию, управляющие использованием ресурсов.  <br/> |
    
-#### <a name="deployment-criteria"></a>Deployment criteria
+#### <a name="deployment-criteria"></a>Условия развертывания
 
 |**Criteria**|**Поддержка почтовых приложений в приложениях для платформы Office**|
 |:-----|:-----|
@@ -165,9 +165,9 @@ ms.locfileid: "39819317"
 |Разрешения при установке  <br/> |Для установки приложений, использующих объектную модель Outlook или PIA, не требуются специальные разрешения. Однако для установки Office и Outlook требуются права локального администратора.  <br/> |
 |Разрешения времени выполнения  <br/> |Для запуска приложений, использующих объектную модель Outlook или PIA, не требуются специальные разрешения.  <br/> |
 |Встроенные функции безопасности  <br/> |Объектная модель Outlook и PIA обмениваются данными с Exchange с помощью MAPI, а с Active Directory — с помощью интерфейсов службы Active Directory (ADSI). Для определения ресурсов, доступ к которым может получить код приложения, используется текущий контекст безопасности пользователя, который запустил приложение. По умолчанию надстройки являются доверенными для полного доступа ко всем объектам, свойствам и методам объектной модели Outlook или PIA. ИТ-администраторы могут осуществлять контроль над тем, какие надстройки и объекты могут получить доступ к объектной модели Outlook или PIA. Объектная модель Outlook и PIA запрещают доступ к защищенным объектам и методам коду, который выполняется вне процесса Outlook.  <br/> |
-|Security monitoring features  <br/> | Outlook monitors the following metrics of an add-in to determine whether it should disable the add-in:  <br/>  Startup  <br/>  Shutdown  <br/>  Folder switch  <br/>  Item open  <br/> **Invoke** frequency  <br/>  Administrators can use group policy to override user settings and control the add-ins that run on the user's computers.  <br/>  For more information, see [Performance criteria for keeping add-ins enabled](https://msdn.microsoft.com/library/office/4c6d44d2-238b-42d8-896b-51d513c9e14c#ol15WhatsNew_AddinDisabling).  <br/> |
+|Функции мониторинга безопасности  <br/> | Outlook отслеживает следующие показатели надстройки, чтобы определить, следует ли отключить надстройку:  <br/>  Startup  <br/>  Shutdown  <br/>  Folder switch  <br/>  Item open  <br/> **Invoke** frequency  <br/>  Администраторы могут использовать групповую политику для переопределения параметров пользователей и управления надстройками, работающими на компьютерах пользователей.  <br/>  Дополнительные сведения см. в разделе [Условия производительности для поддержания работы надстроек](https://msdn.microsoft.com/library/office/4c6d44d2-238b-42d8-896b-51d513c9e14c#ol15WhatsNew_AddinDisabling).  <br/> |
    
-#### <a name="deployment-criteria"></a>Deployment criteria
+#### <a name="deployment-criteria"></a>Условия развертывания
 
 |**Criteria**|**Объектная модель Outlook или PIA**|
 |:-----|:-----|
@@ -210,7 +210,7 @@ MAPI можно использовать для доступа к элемент
 |Средства тестирования и отладки  <br/> |Для отладки приложений, использующих MAPI, не требуются специальные инструменты отладки. Также можно использовать средство [MFCMAPI](https://mfcmapi.codeplex.com/). Это средство с помощью MAPI предоставляет доступ к хранилищу MAPI через графический пользовательский интерфейс, а также помогает исследовать проблемы, возникающие при расширении возможностей Outlook с помощью MAPI.  <br/> |
 |Доступность специалистов  <br/> |Найти опытных программистов по MAPI может быть затруднительно, и изучение технологии может занять много времени. Кроме сообществ Майкрософт, существует лишь небольшое число высококачественных сторонних веб-сайтов, которые содержат полезные сведения о разработке MAPI.  <br/> |
 |Доступные сведения  <br/> |Имеются как источники Microsoft, так и книги других издателей, в которых описывается программирование MAPI.  <br/> |
-|Лицензирование для разработчиков и развертывания  <br/> |No special licensing is required for developing applications that use MAPI.  <br/> |
+|Лицензирование для разработчиков и развертывания  <br/> |Для разработки приложений, использующих MAPI, не требуется специальное лицензирование.  <br/> |
    
 #### <a name="security-criteria"></a>Security criteria
 
@@ -221,7 +221,7 @@ MAPI можно использовать для доступа к элемент
 |Разрешения времени выполнения  <br/> |Для запуска приложения на основе MAPI, как правило, достаточно, чтобы у пользователя были необходимые разрешения на доступ к данным в хранилище Exchange или в файле личных папок (PST).  <br/> |
 |Встроенные функции безопасности  <br/> |Профили MAPI на большинстве платформ можно защищать паролями.  <br/> |
    
-#### <a name="deployment-criteria"></a>Deployment criteria
+#### <a name="deployment-criteria"></a>Условия развертывания
 
 |**Criteria**|**MAPI**|
 |:-----|:-----|
@@ -494,7 +494,7 @@ OSC в Outlook позволяет пользователям просматри�
 
 <a name="OLSelectAPI_AdditionalResourcesApps"> </a>
 
-[Обзор платформы надстроек Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins?redirectedfrom=MSDN) provides a good introduction of Надстройки Office, including the architecture and development life cycle. 
+[Обзор платформы надстроек Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins?redirectedfrom=MSDN) дает хорошую общую информацию о настройках Office, включая архитектуру и жизненный цикл разработки. 
   
 Подробный план ресурсов, посвященных разработке почтовых приложений, см. в статье [Надстройки Outlook](https://docs.microsoft.com/outlook/add-ins/?redirectedfrom=MSDN). 
   
@@ -553,7 +553,7 @@ OSC в Outlook позволяет пользователям просматри�
 
 - [Вложение файла в почтовый элемент](https://msdn.microsoft.com/library/1d94629b-e713-92cb-32de-c8910612e861%28Office.15%29.aspx)
     
-- [Типы вложенных файлов, ограниченных Outlook 2010](https://technet.microsoft.com/ru-RU/library/cc179163.aspx)
+- [Типы вложенных файлов, ограниченных Outlook 2010](https://technet.microsoft.com/library/cc179163.aspx)
     
 - Объект [Attachment](https://msdn.microsoft.com/library/3e11582b-ac90-0948-bc37-506570bb287b%28Office.15%29.aspx) 
     
@@ -669,7 +669,7 @@ OSC в Outlook позволяет пользователям просматри�
     
 - [Поля Outlook и эквивалентные свойства](https://msdn.microsoft.com/library/acc5d2c5-f579-0a60-5676-3faa63f26c0e%28Office.15%29.aspx)
     
-- [Custom Fields and Data Types Overview](https://msdn.microsoft.com/library/a85a7bc2-2b85-1782-04a3-0104e0df32aa%28Office.15%29.aspx)
+- [Обзор настраиваемых полей и типов данных](https://msdn.microsoft.com/library/a85a7bc2-2b85-1782-04a3-0104e0df32aa%28Office.15%29.aspx)
     
 - [Настройка страниц и областей форм](https://msdn.microsoft.com/library/c8c2d080-66a8-b761-bdc0-527b209e0bd1%28Office.15%29.aspx)
 
@@ -705,13 +705,13 @@ OSC в Outlook позволяет пользователям просматри�
 
 См. следующие свойства, связанные с задачами, в некоторых объектах элементов, таких как объект [MailItem](https://msdn.microsoft.com/library/14197346-05d2-0250-fa4c-4a6b07daf25f%28Office.15%29.aspx): 
   
-- [TaskCompleteDate](https://msdn.microsoft.com/library/4bee35d4-1f1e-0b77-2021-84d4916bef8e%28Office.15%29.aspx) property 
+- Свойство [TaskCompleteDate](https://msdn.microsoft.com/library/4bee35d4-1f1e-0b77-2021-84d4916bef8e%28Office.15%29.aspx) 
     
-- [TaskDueDate](https://msdn.microsoft.com/library/161ed0ed-0e3f-2e4c-7e63-daad4e918dd6%28Office.15%29.aspx) property 
+- Свойство [TaskDueDate](https://msdn.microsoft.com/library/161ed0ed-0e3f-2e4c-7e63-daad4e918dd6%28Office.15%29.aspx) 
     
-- [TaskStartDate](https://msdn.microsoft.com/library/76b7109f-55fc-b7e2-63dc-bf7804a709f5%28Office.15%29.aspx) property 
+- Свойство [TaskStartDate](https://msdn.microsoft.com/library/76b7109f-55fc-b7e2-63dc-bf7804a709f5%28Office.15%29.aspx) 
     
-- [TaskSubject](https://msdn.microsoft.com/library/f7e4629f-ad47-b455-9fee-b5e537602a34%28Office.15%29.aspx) property 
+- Свойство [TaskSubject](https://msdn.microsoft.com/library/f7e4629f-ad47-b455-9fee-b5e537602a34%28Office.15%29.aspx) 
     
 - Свойство [ToDoTaskOrdinal](https://msdn.microsoft.com/library/d1ccb01a-0792-3779-3f94-eb5195a39bb0%28Office.15%29.aspx) 
 
@@ -753,7 +753,7 @@ OSC в Outlook позволяет пользователям просматри�
     
 - [Изменения завершения работы Outlook 2010](https://msdn.microsoft.com/library/1b154d46-8d13-4c65-91e3-180b22603d03%28Office.15%29.aspx)
     
-- [Attachment file types restricted by Outlook 2010](https://technet.microsoft.com/ru-RU/library/cc179163.aspx)
+- [Attachment file types restricted by Outlook 2010](https://technet.microsoft.com/library/cc179163.aspx)
     
 - [Application Shutdown Changes in Outlook 2007 SP2](https://msdn.microsoft.com/library/795a8237-7804-4da4-9d04-2bb663d300d9%28Office.15%29.aspx)
     
@@ -811,11 +811,11 @@ OSC в Outlook позволяет пользователям просматри�
 
 - [Общие сведения о настройке ленты](https://msdn.microsoft.com/library/ee49751d-9eae-357c-5fa9-0b2dd4ff0890%28Office.15%29.aspx)
     
-- [Customizing the Ribbon in Outlook 2007](https://msdn.microsoft.com/library/946e97ea-f556-4e84-8fac-01cd9214e170%28Office.15%29.aspx)
+- [Настройка ленты в Outlook 2007](https://msdn.microsoft.com/library/946e97ea-f556-4e84-8fac-01cd9214e170%28Office.15%29.aspx)
     
-- [Developing Interfaces in Outlook 2007](https://msdn.microsoft.com/library/e50257a3-98dd-498f-b9ff-dbfb6705a95a%28Office.15%29.aspx)
+- [Разработка интерфейсов в Outlook 2007](https://msdn.microsoft.com/library/e50257a3-98dd-498f-b9ff-dbfb6705a95a%28Office.15%29.aspx)
     
-- [Custom Task Panes Overview](https://msdn.microsoft.com/library/9a415109-5333-433e-95c6-3d59ce9c4d02.aspx)
+- [Обзор настраиваемых областей задач](https://msdn.microsoft.com/library/9a415109-5333-433e-95c6-3d59ce9c4d02.aspx)
     
 - [Ориентация решений пользовательского интерфейса на выпуски 2007 и 2010 системы Microsoft Office](https://msdn.microsoft.com/library/98726fb2-5d5c-44be-80c3-cfef926471f9%28Office.15%29.aspx)
     
@@ -863,15 +863,15 @@ OSC в Outlook позволяет пользователям просматри�
 
 В приведенных ниже ресурсах можно найти дополнительные сведения об использовании вспомогательных API Outlook.
   
-### <a name="account-management"></a>Account management
+### <a name="account-management"></a>Управление учетными записями
 
-- [About the Account Management API](auxiliary/about-the-account-management-api.md)
+- [Сведения об API управления учетными записями](auxiliary/about-the-account-management-api.md)
     
-- [Account management API reference](auxiliary/account-management-api-reference.md)
+- [Справочник по API управления учетными записями](auxiliary/account-management-api-reference.md)
     
-- [About anti-spam settings](auxiliary/about-anti-spam-settings.md)
+- [Сведения о параметрах защиты от нежелательной почты](auxiliary/about-anti-spam-settings.md)
     
-### <a name="categorizing-items"></a>Categorizing items
+### <a name="categorizing-items"></a>Категоризация элементов
 
 - [HrProcessConvActionForSentItem](auxiliary/hrprocessconvactionforsentitem.md)
     
@@ -881,9 +881,9 @@ OSC в Outlook позволяет пользователям просматри�
     
 ### <a name="data-degradation"></a>Замедление данных
 
-- [About the Data Degradation Layer API](auxiliary/about-the-data-degradation-layer-api.md)
+- [Сведения об API уровня ухудшения данных](auxiliary/about-the-data-degradation-layer-api.md)
     
-- [Data degradation layer API reference](auxiliary/data-degradation-layer-api-reference.md)
+- [Справочник по API уровня ухудшения данных](auxiliary/data-degradation-layer-api-reference.md)
     
 ### <a name="freebusy-status"></a>сведения о занятости
 
@@ -899,7 +899,7 @@ OSC в Outlook позволяет пользователям просматри�
     
 ### <a name="rebase-calendars"></a>Перемещение календарей
 
-- [About rebasing calendars programmatically for Daylight Saving Time](auxiliary/about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [Сведения о программном переводе календарей на летнее время](auxiliary/about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
     
 - [Сведения о сохранении TZDEFINITION в потоке для помещения в двоичное свойство](auxiliary/about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
     
@@ -915,20 +915,20 @@ OSC в Outlook позволяет пользователям просматри�
 
 В приведенных ниже ресурсах можно найти дополнительные сведения о основных ресурсах и примерах кода для Outlook.
   
-### <a name="major-references-and-resources"></a>Major references and resources
+### <a name="major-references-and-resources"></a>Основные справочники и ресурсы
 
 - [Надстройки Office](https://docs.microsoft.com/office/dev/add-ins/overview/office-add-ins)   
-- [Outlook 2013 developer reference](https://docs.microsoft.com/office/vba/api/overview/outlook)   
-- [Outlook 2010 Primary Interop Assembly Reference](https://docs.microsoft.com/office/client-developer/outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference)   
+- [Справочник разработчика Outlook 2013](https://docs.microsoft.com/office/vba/api/overview/outlook)   
+- [Справочное руководство по основной сборке взаимодействия Outlook 2010](https://docs.microsoft.com/office/client-developer/outlook/pia/welcome-to-the-outlook-primary-interop-assembly-reference)   
 - [Справочник по MAPI для Outlook](https://docs.microsoft.com/office/client-developer/outlook/mapi/outlook-mapi-reference)   
 - [Outlook 2013 Auxiliary Reference](auxiliary/welcome-to-the-outlook-auxiliary-reference.md)   
-- [Outlook Social Connector provider reference](social-connector/outlook-social-connector-provider-reference.md)   
-- [Extending the Weather Bar in Outlook](weather/extending-the-weather-bar-in-outlook.md)   
-- [Outlook Weather Information XML Schema](weather/outlook-weather-information-xml-schema.md)   
-- [Outlook Weather Location XML Schema](weather/outlook-weather-location-xml-schema.md)   
-- [What's New in XML Schemas for Outlook 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff697175(v=office.14))   
-- [Outlook 2010: XML Schema Reference](https://www.microsoft.com/download/details.aspx?id=22609)   
-- [Developing Outlook 2010 Solutions for 32-Bit and 64-Bit Systems](https://docs.microsoft.com/previous-versions/office/developer/office-2010/gg549122(v=office.14))
+- [Справочник по поставщикам Outlook Social Connector](social-connector/outlook-social-connector-provider-reference.md)   
+- [Расширение панели прогноза погоды в Outlook](weather/extending-the-weather-bar-in-outlook.md)   
+- [Схема XML для отображения сведений о погоде в Outlook](weather/outlook-weather-information-xml-schema.md)   
+- [Схема XML для отображения расположения касательно прогноза погоды в Outlook](weather/outlook-weather-location-xml-schema.md)   
+- [Новые возможности схем XML для Outlook 2010](https://docs.microsoft.com/previous-versions/office/developer/office-2010/ff697175(v=office.14))   
+- [Outlook 2010: справочник по схеме XML](https://www.microsoft.com/download/details.aspx?id=22609)   
+- [Разработка решений Outlook 2010 для 32- и 64-разрядных систем](https://docs.microsoft.com/previous-versions/office/developer/office-2010/gg549122(v=office.14))
     
 ### <a name="code-samples"></a>Примеры кода
 
@@ -936,6 +936,6 @@ OSC в Outlook позволяет пользователям просматри�
 - Примеры кода объектной модели: [Как это сделать в Outlook](https://docs.microsoft.com/office/vba/outlook/concepts/miscellaneous/how-do-i-outlook-vba-reference)  
 - PIA code samples: [Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)](https://docs.microsoft.com/office/client-developer/outlook/pia/how-do-i-outlook-2013-pia-reference?redirectedfrom=MSDN)  
 - [Примеры MAPI](https://docs.microsoft.com/office/client-developer/outlook/mapi/mapi-samples)
-- Auxiliary API code samples: [Sample tasks](auxiliary/sample-tasks.md)
+- Примеры кода вспомогательного API: [примеры задач](auxiliary/sample-tasks.md)
     
 
