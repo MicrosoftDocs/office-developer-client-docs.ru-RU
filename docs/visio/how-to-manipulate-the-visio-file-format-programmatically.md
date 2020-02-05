@@ -1,18 +1,18 @@
 ---
 title: Программное управление форматами файлов Visio
 manager: lindalu
-ms.date: 12/03/2019
+ms.date: 04/17/2019
 ms.audience: Developer
 ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Создайте в Visual Studio 2012 решение для чтения пакетов с новым форматом файлов, используемым в Visio 2013, выбора частей в пакете, изменения данных в части и добавления новых частей в пакет.
 localization_priority: Priority
-ms.openlocfilehash: f54a0afec4bc45d322e3a18194eafc3bd768e0d0
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 36a621856e5d53e7b3355a39edd7b7a03636b15d
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819303"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773745"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Программное управление форматами файлов Visio
 
@@ -302,8 +302,8 @@ ms.locfileid: "39819303"
  `Press any key to continue …`
   
 Обычно требуется выбрать один объект **PackagePart**, не выполняя итерацию всех таких объектов. Вы можете получить объект **PackagePart** из объекта **Package**, используя его связь с объектом **Package** или другим объектом **PackagePart**. В формате файлов Visio 2013 связь представляет собой дискретный объект, который описывает, каким образом часть документа связана с пакетом файла или как две части документа связаны друг с другом. Например, сам пакет файла Visio 2013 имеет связь со своей частью Visio Document, а часть Visio Document имеет связь с частью Windows. Эти связи представлены как экземпляры классов [PackageRelationship](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationship?view=netframework-4.8) или [PackageRelationshipCollection](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationshipcollection?view=netframework-4.8). 
-  
-Класс **Package** предоставляет доступ к нескольким методам, которые используются для получения связей и содержатся в нем в виде объектов **PackageRelationship** или **PackageRelationshipCollection**. С помощью метода [GetRelationshipsByType(String)](https://docs.microsoft.com/dotnet/api/system.io.packaging.package.getrelationshipsbytype?redirectedfrom=MSDN&view=netframework-4.8#System_IO_Packaging_Package_GetRelationshipsByType_System_String_) вы можете создать экземпляр объекта **PackageRelationshipCollection**, содержащий объекты **PackageRelationship** одного определенного типа. Безусловно, чтобы использовать метод **Package.GetRelationshipsByType**, вы должны знать, какой тип связи необходим вам. Типы связей представляют собой строки в формате пространства имен XML. Например, тип связи части Visio Document — https://schemas.microsoft.com/visio/2010/relationships/document. 
+
+Класс **Package** предоставляет доступ к нескольким методам, которые используются для получения связей и содержатся в нем в виде объектов **PackageRelationship** или **PackageRelationshipCollection**. С помощью метода [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) вы можете создать экземпляр объекта **PackageRelationshipCollection**, содержащий объекты **PackageRelationship** одного определенного типа. Безусловно, чтобы использовать метод **Package.GetRelationshipsByType**, вы должны знать, какой тип связи необходим вам. Типы связей представляют собой строки в формате пространства имен XML. Например, тип связи части Visio Document — https://schemas.microsoft.com/visio/2010/relationships/document. 
   
 После того как вы получите сведения о связи объекта **PackagePart** с объектом **Package** или другим объектом **PackagePart** (то есть когда у вас будет объект **PackageRelationship**, который ссылается на необходимый вам объект **PackagePart**), вы сможете использовать эту связь для получения универсального кода ресурса (URI) этого объекта **PackagePart**. После этого можно передать универсальный код ресурса (URI) в метод **Package.GetPart**, чтобы возвратить объект **PackagePart**.
   

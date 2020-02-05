@@ -7,16 +7,16 @@ ms:contentKeyID: 55119926
 ms.date: 12/03/2019
 mtps_version: v=office.15
 localization_priority: Priority
-ms.openlocfilehash: edcf2053a2f678b2280e1735ee728196cc431d31
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 5bae79531e7d2be39610194e0b59477fcee28c15
+ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819345"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41773703"
 ---
 # <a name="get-and-sign-in-to-an-instance-of-outlook"></a>Получение экземпляра Outlook и вход в него
 
-В этом разделе показано получение объекта [Application](https://docs.microsoft.com/en-us/dotnet/api/microsoft.office.interop.outlook.application?redirectedfrom=MSDN&view=outlook-pia), представляющего активный экземпляр приложения Microsoft Outlook (если таковой запущен на локальном компьютере), а также создание нового экземпляра Outlook с последующим входом в профиль по умолчанию и возвратом этого экземпляра Outlook.
+В этом разделе показано получение объекта [Application](https://docs.microsoft.com/dotnet/api/microsoft.office.interop.outlook.application?redirectedfrom=MSDN&view=outlook-pia), представляющего активный экземпляр приложения Microsoft Outlook (если таковой запущен на локальном компьютере), а также создание нового экземпляра Outlook с последующим входом в профиль по умолчанию и возвратом этого экземпляра Outlook.
 
 ## <a name="example"></a>Пример
 
