@@ -7,7 +7,7 @@ ms.assetid: 74a80e0a-fe60-4356-b238-13de4c2822d9
 description: Здесь вы найдете инструкции, примеры кода, документацию по SDK и API, справочники по VBA, обучающие курсы и статьи, посвященные разработке решений и настройке приложений Office.
 ms.openlocfilehash: 4ecf232e0381fec9acc55582db6c7aaacedde891
 ms.sourcegitcommit: 63e14e1e6124222a0a347aa1ad02ce1bd7e94949
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ru-RU
 ms.lasthandoff: 09/11/2019
 ms.locfileid: "36849864"
@@ -44,7 +44,7 @@ ms.locfileid: "36849864"
   
 - [Справочник по библиотеке объектов VBA для Office](https://docs.microsoft.com/office/vba/api/overview/library-reference)
   
-- [Справочник по VBA для Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
+- [Справочник по языку VBA для Office](https://docs.microsoft.com/office/vba/api/overview/language-reference)
   
 - [Ресурсы по Office](shared/office-shared.md)
   
