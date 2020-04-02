@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: 5740d0b2-5d36-40e4-9e83-577cb186359f
 description: 'В этой статье описана разработка приложений Microsoft Project Online с помощью .NET Framework 4.0 и CSOM. '
 localization_priority: Priority
-ms.openlocfilehash: 33ddafe2e3a75039bf55381524accf1a25692885
-ms.sourcegitcommit: 55205b4ec1376713d31e75d195e031798fb2c6ad
+ms.openlocfilehash: d48cf50b95ecea664cd9eae1b0e642fc2551d5be
+ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40825774"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43102970"
 ---
 # <a name="developing-a-project-online-application-using-the-client-side-object-model-csom"></a>Разработка приложений для Project Online с помощью клиентской объектной модели (CSOM)
 
@@ -50,7 +50,7 @@ Project Online обладает тремя онлайн-наборами API: к
     
 - Пакет SDK клиентских компонентов SharePoint. Project Online и Project Server возглавляют список компонентов SharePoint и сборок SharePoint. Клиентские компоненты SharePoint включены в выпуски Visual Studio Professional Edition и Visual Studio Enterprise Edition. Если вы используете выпуск Visual Studio Community Edition, последняя версия пакета SDK для инструментов разработчика Office доступна по адресу https://www.microsoft.com/en-us/download/details.aspx?id=35585.
     
-- Учетная запись Project Online. Учетные данные необходимы для доступа к сайту размещения. Дополнительные сведения о получении учетной записи Project Online см. здесь: https://products.office.com/en-us/Project/project-online-portfolio-management.
+- Учетная запись Project Online. Учетные данные необходимы для доступа к сайту размещения. Дополнительные сведения о получении учетной записи Project Online см. здесь: https://products.office.com/en-gb/project/project-portfolio-management.
     
 - Проекты с данными на сайте размещения.
     
