@@ -45,7 +45,7 @@ ms.locfileid: "32294283"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-compactdatabase-method-dao.md">CompactDatabase</a></strong></p></td>
-<td><p>Копирует и сжимает закрытую базу данных, а также позволяет изменить ее версию, порядок сортировки и шифрование. (Только для рабочих областей Microsoft Access). .</p></td>
+<td><p>Копирует и сжимает закрытую базу данных, предоставляя возможность изменить ее версию, порядок сортировки и шифрование. (Только для рабочих областей Microsoft Access.) .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-createdatabase-method-dao.md">CreateDatabase</a></strong></p></td>
@@ -57,7 +57,7 @@ ms.locfileid: "32294283"
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-idle-method-dao.md">Простоя</a></strong></p></td>
-<td><p>ПриОстанавливает обработку данных, позволяя ядру СУБД Microsoft Access выполнять все ожидающие задачи, такие как оптимизация памяти или время ожидания страниц (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Приостанавливает обработку данных, позволяя ядру СУБД Microsoft Access выполнять все ожидающие задачи, такие как оптимизация памяти или время ожидания страниц (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong></p></td>
@@ -67,7 +67,7 @@ ms.locfileid: "32294283"
 </tr>
 <tr class="even">
 <td><p><strong><a href="dbengine-opendatabase-method-dao.md">OpenDatabase</a></strong></p></td>
-<td><p>Открывает указанную базу данных и возвращает ссылку на объект <strong><a href="database-object-dao.md">базы данных</a></strong> , представляющий эту базу данных.</p></td>
+<td><p>Открывает указанную базу данных и возвращает ссылку на объект <strong><a href="database-object-dao.md">Database</a></strong>, который ее представляет.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="dbengine-registerdatabase-method-dao.md">RegisterDatabase</a></strong></p></td>
