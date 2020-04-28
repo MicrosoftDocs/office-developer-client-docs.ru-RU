@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295116"
 ---
-# <a name="data-actions"></a><span data-ttu-id="49490-102">Действия с данными</span><span class="sxs-lookup"><span data-stu-id="49490-102">Data actions</span></span>
+# <a name="data-actions"></a><span data-ttu-id="08ecc-102">Действия с данными</span><span class="sxs-lookup"><span data-stu-id="08ecc-102">Data actions</span></span>
 
-<span data-ttu-id="49490-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="49490-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="08ecc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="08ecc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="49490-104">Макрокоманда CancelRecordChange</span><span class="sxs-lookup"><span data-stu-id="49490-104">CancelRecordChange macro action</span></span>](cancelrecordchange-macro-action.md)
-- [<span data-ttu-id="49490-105">Макрокоманда ClearMacroError</span><span class="sxs-lookup"><span data-stu-id="49490-105">ClearMacroError macro action</span></span>](clearmacroerror-macro-action.md)
-- [<span data-ttu-id="49490-106">Макрокоманда ExitForEachRecord</span><span class="sxs-lookup"><span data-stu-id="49490-106">ExitForEachRecord macro action</span></span>](exitforeachrecord-macro-action.md)
-- [<span data-ttu-id="49490-107">Макрокоманда LogEvent</span><span class="sxs-lookup"><span data-stu-id="49490-107">LogEvent macro action</span></span>](logevent-macro-action.md)
-- [<span data-ttu-id="49490-108">Макрокоманда OnError</span><span class="sxs-lookup"><span data-stu-id="49490-108">OnError macro action</span></span>](onerror-macro-action.md)
-- [<span data-ttu-id="49490-109">Макрокоманда RaiseError</span><span class="sxs-lookup"><span data-stu-id="49490-109">RaiseError macro action</span></span>](raiseerror-macro-action.md)
-- [<span data-ttu-id="49490-110">Макрокоманда SendEmail</span><span class="sxs-lookup"><span data-stu-id="49490-110">SendEmail macro action</span></span>](sendemail-macro-action.md)
-- [<span data-ttu-id="49490-111">Макрокоманда SetField</span><span class="sxs-lookup"><span data-stu-id="49490-111">SetField macro action</span></span>](setfield-macro-action.md)
-- [<span data-ttu-id="49490-112">Макрокоманда SetLocalVar</span><span class="sxs-lookup"><span data-stu-id="49490-112">SetLocalVar macro action</span></span>](setlocalvar-macro-action.md)
-- [<span data-ttu-id="49490-113">Макрокоманда SetReturnVar</span><span class="sxs-lookup"><span data-stu-id="49490-113">SetReturnVar macro action</span></span>](setreturnvar-macro-action.md)
+- [<span data-ttu-id="08ecc-104">Макрокоманда "ОтменитьИзменениеЗаписи"</span><span class="sxs-lookup"><span data-stu-id="08ecc-104">CancelRecordChange macro action</span></span>](cancelrecordchange-macro-action.md)
+- [<span data-ttu-id="08ecc-105">Макрокоманда "УстранитьОшибкуМакроса"</span><span class="sxs-lookup"><span data-stu-id="08ecc-105">ClearMacroError macro action</span></span>](clearmacroerror-macro-action.md)
+- [<span data-ttu-id="08ecc-106">Макрокоманда "ВыходДляКаждойЗаписи"</span><span class="sxs-lookup"><span data-stu-id="08ecc-106">ExitForEachRecord macro action</span></span>](exitforeachrecord-macro-action.md)
+- [<span data-ttu-id="08ecc-107">Макрокоманда "РегистрацияСобытия"</span><span class="sxs-lookup"><span data-stu-id="08ecc-107">LogEvent macro action</span></span>](logevent-macro-action.md)
+- [<span data-ttu-id="08ecc-108">Макрокоманда "ПриОшибке"</span><span class="sxs-lookup"><span data-stu-id="08ecc-108">OnError macro action</span></span>](onerror-macro-action.md)
+- [<span data-ttu-id="08ecc-109">Макрокоманда "ВыводОшибки"</span><span class="sxs-lookup"><span data-stu-id="08ecc-109">RaiseError macro action</span></span>](raiseerror-macro-action.md)
+- [<span data-ttu-id="08ecc-110">Макрокоманда "ОтправитьПочту"</span><span class="sxs-lookup"><span data-stu-id="08ecc-110">SendEmail macro action</span></span>](sendemail-macro-action.md)
+- [<span data-ttu-id="08ecc-111">Макрокоманда "ЗадатьПоле"</span><span class="sxs-lookup"><span data-stu-id="08ecc-111">SetField macro action</span></span>](setfield-macro-action.md)
+- [<span data-ttu-id="08ecc-112">Макрокоманда "ЗадатьЛокПеременную"</span><span class="sxs-lookup"><span data-stu-id="08ecc-112">SetLocalVar macro action</span></span>](setlocalvar-macro-action.md)
+- [<span data-ttu-id="08ecc-113">Макрокоманда SetReturnVar</span><span class="sxs-lookup"><span data-stu-id="08ecc-113">SetReturnVar macro action</span></span>](setreturnvar-macro-action.md)
 

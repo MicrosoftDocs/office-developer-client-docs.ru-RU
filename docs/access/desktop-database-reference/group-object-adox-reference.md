@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292099"
 ---
-# <a name="group-object-adox-reference"></a><span data-ttu-id="e9e77-102">Справочник по объектам Group (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e9e77-102">Group object (ADOX) reference</span></span>
+# <a name="group-object-adox-reference"></a><span data-ttu-id="7c048-102">Справочник по объектам Group (ADOX)</span><span class="sxs-lookup"><span data-stu-id="7c048-102">Group object (ADOX) reference</span></span>
 
-<span data-ttu-id="e9e77-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9e77-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7c048-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7c048-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e9e77-104">Объект Group (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e9e77-104">Group object (ADOX)</span></span>](group-object-adox.md)
-- [<span data-ttu-id="e9e77-105">Свойства, методы и события группы (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e9e77-105">Group properties, methods, and events (ADOX)</span></span>](group-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="7c048-104">Объект Group (ADOX)</span><span class="sxs-lookup"><span data-stu-id="7c048-104">Group object (ADOX)</span></span>](group-object-adox.md)
+- [<span data-ttu-id="7c048-105">Свойства, методы и события группы (ADOX)</span><span class="sxs-lookup"><span data-stu-id="7c048-105">Group properties, methods, and events (ADOX)</span></span>](group-properties-methods-and-events-adox.md)
 

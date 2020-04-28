@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296460"
 ---
-# <a name="chapter-3-examining-data"></a><span data-ttu-id="a0892-102">Глава 3. Изучение данных</span><span class="sxs-lookup"><span data-stu-id="a0892-102">Chapter 3: Examining data</span></span>
+# <a name="chapter-3-examining-data"></a><span data-ttu-id="55215-102">Глава 3. Изучение данных</span><span class="sxs-lookup"><span data-stu-id="55215-102">Chapter 3: Examining data</span></span>
 
-<span data-ttu-id="a0892-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0892-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="55215-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="55215-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a0892-104">В главе 2 описывается извлечение данных из источника данных в качестве объекта **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="a0892-104">Chapter 2 explained how to retrieve data from a data source as a **Recordset** object.</span></span> <span data-ttu-id="a0892-105">В этой главе описывается более подробное описание объекта **Recordset** , в том числе перемещение по **набору записей** и просмотр его данных.</span><span class="sxs-lookup"><span data-stu-id="a0892-105">This chapter will discuss the **Recordset** in more detail, including how to navigate through the **Recordset** and view its data.</span></span>
+<span data-ttu-id="55215-104">В главе 2 описывается извлечение данных из источника данных в качестве объекта **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="55215-104">Chapter 2 explained how to retrieve data from a data source as a **Recordset** object.</span></span> <span data-ttu-id="55215-105">В этой главе описывается более подробное описание объекта **Recordset** , в том числе перемещение по **набору записей** и просмотр его данных.</span><span class="sxs-lookup"><span data-stu-id="55215-105">This chapter will discuss the **Recordset** in more detail, including how to navigate through the **Recordset** and view its data.</span></span>
 
-<span data-ttu-id="a0892-106">**Наборы записей** имеют методы и свойства, предназначенные для упрощения их перемещения и проверки их содержимого.</span><span class="sxs-lookup"><span data-stu-id="a0892-106">**Recordsets** have methods and properties designed to make it easy to move through them and examine their contents.</span></span> <span data-ttu-id="a0892-107">В зависимости от функциональных возможностей, поддерживаемых поставщиком, некоторые методы или свойства **набора записей** могут быть недоступны.</span><span class="sxs-lookup"><span data-stu-id="a0892-107">Depending on the functionality supported by the provider, some **Recordset** methods or properties might not be available.</span></span> <span data-ttu-id="a0892-108">Чтобы продолжить изучение объекта **Recordset** , рассмотрим **набор записей** , который будет возвращен из учебной базы данных Northwind в Microsoft SQL Server 2000, используя следующий код:</span><span class="sxs-lookup"><span data-stu-id="a0892-108">To continue exploring the **Recordset** object, consider a **Recordset** that would be returned from the Northwind sample database on Microsoft SQL Server 2000, using the following code:</span></span>
+<span data-ttu-id="55215-106">**Наборы записей** имеют методы и свойства, предназначенные для упрощения их перемещения и проверки их содержимого.</span><span class="sxs-lookup"><span data-stu-id="55215-106">**Recordsets** have methods and properties designed to make it easy to move through them and examine their contents.</span></span> <span data-ttu-id="55215-107">В зависимости от функциональных возможностей, поддерживаемых поставщиком, некоторые методы или свойства **набора записей** могут быть недоступны.</span><span class="sxs-lookup"><span data-stu-id="55215-107">Depending on the functionality supported by the provider, some **Recordset** methods or properties might not be available.</span></span> <span data-ttu-id="55215-108">Чтобы продолжить изучение объекта **Recordset** , рассмотрим **набор записей** , который будет возвращен из учебной базы данных Northwind в Microsoft SQL Server 2000, используя следующий код:</span><span class="sxs-lookup"><span data-stu-id="55215-108">To continue exploring the **Recordset** object, consider a **Recordset** that would be returned from the Northwind sample database on Microsoft SQL Server 2000, using the following code:</span></span>
 
 ```vb 
  
@@ -57,7 +57,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="a0892-109">Этот запрос SQL возвращает объект **Recordset** с пятью строками (записями) и тремя столбцами (полями).</span><span class="sxs-lookup"><span data-stu-id="a0892-109">This SQL query returns a **Recordset** with five rows (records) and three columns (fields).</span></span> <span data-ttu-id="a0892-110">Значения для каждой строки показаны в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="a0892-110">The values for each row are shown in the following table.</span></span>
+<span data-ttu-id="55215-109">Этот запрос SQL возвращает объект **Recordset** с пятью строками (записями) и тремя столбцами (полями).</span><span class="sxs-lookup"><span data-stu-id="55215-109">This SQL query returns a **Recordset** with five rows (records) and three columns (fields).</span></span> <span data-ttu-id="55215-110">Значения для каждой строки показаны в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="55215-110">The values for each row are shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -67,48 +67,48 @@ End Sub
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="a0892-111">ПОЛЕ 0</span><span class="sxs-lookup"><span data-stu-id="a0892-111">FIELD 0</span></span><br />
-<span data-ttu-id="a0892-112">Name = ProductID</span><span class="sxs-lookup"><span data-stu-id="a0892-112">Name = ProductID</span></span></p></th>
-<th><p><span data-ttu-id="a0892-113">ПОЛЕ 1</span><span class="sxs-lookup"><span data-stu-id="a0892-113">FIELD 1</span></span><br />
-<span data-ttu-id="a0892-114">Name = ProductName</span><span class="sxs-lookup"><span data-stu-id="a0892-114">Name = ProductName</span></span></p></th>
-<th><p><span data-ttu-id="a0892-115">ПОЛЕ 2</span><span class="sxs-lookup"><span data-stu-id="a0892-115">FIELD 2</span></span><br />
-<span data-ttu-id="a0892-116">Name = UnitPrice</span><span class="sxs-lookup"><span data-stu-id="a0892-116">Name = UnitPrice</span></span></p></th>
+<th><p><span data-ttu-id="55215-111">ПОЛЕ 0</span><span class="sxs-lookup"><span data-stu-id="55215-111">FIELD 0</span></span><br />
+<span data-ttu-id="55215-112">Name = ProductID</span><span class="sxs-lookup"><span data-stu-id="55215-112">Name = ProductID</span></span></p></th>
+<th><p><span data-ttu-id="55215-113">ПОЛЕ 1</span><span class="sxs-lookup"><span data-stu-id="55215-113">FIELD 1</span></span><br />
+<span data-ttu-id="55215-114">Name = ProductName</span><span class="sxs-lookup"><span data-stu-id="55215-114">Name = ProductName</span></span></p></th>
+<th><p><span data-ttu-id="55215-115">ПОЛЕ 2</span><span class="sxs-lookup"><span data-stu-id="55215-115">FIELD 2</span></span><br />
+<span data-ttu-id="55215-116">Name = UnitPrice</span><span class="sxs-lookup"><span data-stu-id="55215-116">Name = UnitPrice</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="a0892-117">см</span><span class="sxs-lookup"><span data-stu-id="a0892-117">7</span></span></p></td>
-<td><p><span data-ttu-id="a0892-118">Ункле Марии Дриед груши</span><span class="sxs-lookup"><span data-stu-id="a0892-118">Uncle Bob's Organic Dried Pears</span></span></p></td>
-<td><p><span data-ttu-id="a0892-119">30,0000</span><span class="sxs-lookup"><span data-stu-id="a0892-119">30.0000</span></span></p></td>
+<td><p><span data-ttu-id="55215-117">7 </span><span class="sxs-lookup"><span data-stu-id="55215-117">7</span></span></p></td>
+<td><p><span data-ttu-id="55215-118">Ункле Марии Дриед груши</span><span class="sxs-lookup"><span data-stu-id="55215-118">Uncle Bob's Organic Dried Pears</span></span></p></td>
+<td><p><span data-ttu-id="55215-119">30,0000</span><span class="sxs-lookup"><span data-stu-id="55215-119">30.0000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a0892-120">14</span><span class="sxs-lookup"><span data-stu-id="a0892-120">14</span></span></p></td>
-<td><p><span data-ttu-id="a0892-121">Тофу</span><span class="sxs-lookup"><span data-stu-id="a0892-121">Tofu</span></span></p></td>
-<td><p><span data-ttu-id="a0892-122">23,2500</span><span class="sxs-lookup"><span data-stu-id="a0892-122">23.2500</span></span></p></td>
+<td><p><span data-ttu-id="55215-120">14 </span><span class="sxs-lookup"><span data-stu-id="55215-120">14</span></span></p></td>
+<td><p><span data-ttu-id="55215-121">тофу</span><span class="sxs-lookup"><span data-stu-id="55215-121">Tofu</span></span></p></td>
+<td><p><span data-ttu-id="55215-122">23,2500</span><span class="sxs-lookup"><span data-stu-id="55215-122">23.2500</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a0892-123">8</span><span class="sxs-lookup"><span data-stu-id="a0892-123">28</span></span></p></td>
-<td><p><span data-ttu-id="a0892-124">Рссле Сауеркраут</span><span class="sxs-lookup"><span data-stu-id="a0892-124">Rssle Sauerkraut</span></span></p></td>
-<td><p><span data-ttu-id="a0892-125">45,6000</span><span class="sxs-lookup"><span data-stu-id="a0892-125">45.6000</span></span></p></td>
+<td><p><span data-ttu-id="55215-123">8</span><span class="sxs-lookup"><span data-stu-id="55215-123">28</span></span></p></td>
+<td><p><span data-ttu-id="55215-124">Рссле Сауеркраут</span><span class="sxs-lookup"><span data-stu-id="55215-124">Rssle Sauerkraut</span></span></p></td>
+<td><p><span data-ttu-id="55215-125">45,6000</span><span class="sxs-lookup"><span data-stu-id="55215-125">45.6000</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="a0892-126">51</span><span class="sxs-lookup"><span data-stu-id="a0892-126">51</span></span></p></td>
-<td><p><span data-ttu-id="a0892-127">Манжимуп Дриед яблоки</span><span class="sxs-lookup"><span data-stu-id="a0892-127">Manjimup Dried Apples</span></span></p></td>
-<td><p><span data-ttu-id="a0892-128">53,0000</span><span class="sxs-lookup"><span data-stu-id="a0892-128">53.0000</span></span></p></td>
+<td><p><span data-ttu-id="55215-126">51</span><span class="sxs-lookup"><span data-stu-id="55215-126">51</span></span></p></td>
+<td><p><span data-ttu-id="55215-127">Манжимуп Дриед яблоки</span><span class="sxs-lookup"><span data-stu-id="55215-127">Manjimup Dried Apples</span></span></p></td>
+<td><p><span data-ttu-id="55215-128">53,0000</span><span class="sxs-lookup"><span data-stu-id="55215-128">53.0000</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="a0892-129">74</span><span class="sxs-lookup"><span data-stu-id="a0892-129">74</span></span></p></td>
-<td><p><span data-ttu-id="a0892-130">Лонглифе тофу</span><span class="sxs-lookup"><span data-stu-id="a0892-130">Longlife Tofu</span></span></p></td>
-<td><p><span data-ttu-id="a0892-131">10,0000</span><span class="sxs-lookup"><span data-stu-id="a0892-131">10.0000</span></span></p></td>
+<td><p><span data-ttu-id="55215-129">74</span><span class="sxs-lookup"><span data-stu-id="55215-129">74</span></span></p></td>
+<td><p><span data-ttu-id="55215-130">Лонглифе тофу</span><span class="sxs-lookup"><span data-stu-id="55215-130">Longlife Tofu</span></span></p></td>
+<td><p><span data-ttu-id="55215-131">10,0000</span><span class="sxs-lookup"><span data-stu-id="55215-131">10.0000</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="a0892-132">В следующем разделе рассказывается, как определить расположение текущего положения курсора в этом примере **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="a0892-132">The next section explains how to locate the current position of the cursor in this sample **Recordset**.</span></span>
+<span data-ttu-id="55215-132">В следующем разделе рассказывается, как определить расположение текущего положения курсора в этом примере **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="55215-132">The next section explains how to locate the current position of the cursor in this sample **Recordset**.</span></span>
 
-<span data-ttu-id="a0892-133">В этой главе рассматриваются следующие темы:</span><span class="sxs-lookup"><span data-stu-id="a0892-133">This chapter covers the following topics:</span></span>
+<span data-ttu-id="55215-133">В этой главе рассматриваются следующие темы:</span><span class="sxs-lookup"><span data-stu-id="55215-133">This chapter covers the following topics:</span></span>
 
-- [<span data-ttu-id="a0892-134">Поиск текущей записи (ADO)</span><span class="sxs-lookup"><span data-stu-id="a0892-134">Locating the current record (ADO)</span></span>](locating-the-current-record.md)
-- [<span data-ttu-id="a0892-135">Навигация по данным (ADO)</span><span class="sxs-lookup"><span data-stu-id="a0892-135">Navigating through the data (ADO)</span></span>](navigating-through-the-data.md)
-- [<span data-ttu-id="a0892-136">Общие сведения о структуре Recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="a0892-136">Understanding Recordset structure (ADO)</span></span>](understanding-recordset-structure.md)
+- [<span data-ttu-id="55215-134">Поиск текущей записи (ADO)</span><span class="sxs-lookup"><span data-stu-id="55215-134">Locating the current record (ADO)</span></span>](locating-the-current-record.md)
+- [<span data-ttu-id="55215-135">Навигация по данным (ADO)</span><span class="sxs-lookup"><span data-stu-id="55215-135">Navigating through the data (ADO)</span></span>](navigating-through-the-data.md)
+- [<span data-ttu-id="55215-136">Общие сведения о структуре Recordset (ADO)</span><span class="sxs-lookup"><span data-stu-id="55215-136">Understanding Recordset structure (ADO)</span></span>](understanding-recordset-structure.md)

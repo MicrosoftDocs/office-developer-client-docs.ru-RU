@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293814"
 ---
-# <a name="documentdatecreated-property-dao"></a><span data-ttu-id="af519-102">Свойство Document. DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="af519-102">Document.DateCreated property (DAO)</span></span>
+# <a name="documentdatecreated-property-dao"></a><span data-ttu-id="b703e-102">Свойство Document. DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="b703e-102">Document.DateCreated property (DAO)</span></span>
 
 
-<span data-ttu-id="af519-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="af519-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b703e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b703e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="af519-104">Возвращает дату и время создания объекта.</span><span class="sxs-lookup"><span data-stu-id="af519-104">Returns the date and time that an object was created.</span></span> <span data-ttu-id="af519-105">Только для чтения, **Variant**.</span><span class="sxs-lookup"><span data-stu-id="af519-105">Read-only **Variant**.</span></span>
+<span data-ttu-id="b703e-104">Возвращает дату и время создания объекта.</span><span class="sxs-lookup"><span data-stu-id="b703e-104">Returns the date and time that an object was created.</span></span> <span data-ttu-id="b703e-105">Только для чтения, **Variant**.</span><span class="sxs-lookup"><span data-stu-id="b703e-105">Read-only **Variant**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="af519-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="af519-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b703e-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="b703e-106">Syntax</span></span>
 
-<span data-ttu-id="af519-107">*Expression* . DateCreated</span><span class="sxs-lookup"><span data-stu-id="af519-107">*expression* .DateCreated</span></span>
+<span data-ttu-id="b703e-107">*Expression* . DateCreated</span><span class="sxs-lookup"><span data-stu-id="b703e-107">*expression* .DateCreated</span></span>
 
-<span data-ttu-id="af519-108">*Expression (выражение* ) Переменная, представляющая объект **Document** .</span><span class="sxs-lookup"><span data-stu-id="af519-108">*expression* A variable that represents a **Document** object.</span></span>
+<span data-ttu-id="b703e-108">*Expression (выражение* ) Переменная, представляющая объект **Document** .</span><span class="sxs-lookup"><span data-stu-id="b703e-108">*expression* A variable that represents a **Document** object.</span></span>
 

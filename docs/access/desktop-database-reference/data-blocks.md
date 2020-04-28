@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295130"
 ---
-# <a name="data-blocks"></a><span data-ttu-id="b141c-102">Блоки данных</span><span class="sxs-lookup"><span data-stu-id="b141c-102">Data blocks</span></span>
+# <a name="data-blocks"></a><span data-ttu-id="90b35-102">Блоки данных</span><span class="sxs-lookup"><span data-stu-id="90b35-102">Data blocks</span></span>
 
-<span data-ttu-id="b141c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b141c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="90b35-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="90b35-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b141c-104">Блок данных СоздатьЗапись</span><span class="sxs-lookup"><span data-stu-id="b141c-104">CreateRecord data block</span></span>](createrecord-data-block.md)
-- [<span data-ttu-id="b141c-105">Блок данных ИзменитьЗапись</span><span class="sxs-lookup"><span data-stu-id="b141c-105">EditRecord data block</span></span>](editrecord-data-block.md)
-- [<span data-ttu-id="b141c-106">Блок данных ДляКаждойЗаписи</span><span class="sxs-lookup"><span data-stu-id="b141c-106">ForEachRecord data block</span></span>](foreachrecord-data-block.md)
-- [<span data-ttu-id="b141c-107">Блок данных LookupRecord</span><span class="sxs-lookup"><span data-stu-id="b141c-107">LookupRecord data block</span></span>](lookuprecord-data-block.md)
+- [<span data-ttu-id="90b35-104">Блок данных СоздатьЗапись</span><span class="sxs-lookup"><span data-stu-id="90b35-104">CreateRecord data block</span></span>](createrecord-data-block.md)
+- [<span data-ttu-id="90b35-105">Блок данных ИзменитьЗапись</span><span class="sxs-lookup"><span data-stu-id="90b35-105">EditRecord data block</span></span>](editrecord-data-block.md)
+- [<span data-ttu-id="90b35-106">Блок данных ДляКаждойЗаписи</span><span class="sxs-lookup"><span data-stu-id="90b35-106">ForEachRecord data block</span></span>](foreachrecord-data-block.md)
+- [<span data-ttu-id="90b35-107">Блок данных "НайтиЗапись"</span><span class="sxs-lookup"><span data-stu-id="90b35-107">LookupRecord data block</span></span>](lookuprecord-data-block.md)
 

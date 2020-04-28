@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295767"
 ---
-# <a name="connections-members-dao"></a><span data-ttu-id="354f3-102">Элементы Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="354f3-102">Connections members (DAO)</span></span>
+# <a name="connections-members-dao"></a><span data-ttu-id="7f044-102">Элементы Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="7f044-102">Connections members (DAO)</span></span>
 
-<span data-ttu-id="354f3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="354f3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7f044-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f044-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="354f3-104">Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="354f3-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="354f3-105">Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="354f3-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span> <span data-ttu-id="354f3-106">Коллекция Connections содержит текущие объекты подключения объекта Workspace (только для рабочих областей ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="354f3-106">A Connections collection contains the current Connection objects of a Workspace object (ODBCDirect workspaces only).</span></span>
+> <span data-ttu-id="7f044-104">Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="7f044-104">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="7f044-105">Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="7f044-105">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span> <span data-ttu-id="7f044-106">Коллекция Connections содержит текущие объекты подключения объекта Workspace (только для рабочих областей ODBCDirect).</span><span class="sxs-lookup"><span data-stu-id="7f044-106">A Connections collection contains the current Connection objects of a Workspace object (ODBCDirect workspaces only).</span></span>
 
-## <a name="methods"></a><span data-ttu-id="354f3-107">Методы</span><span class="sxs-lookup"><span data-stu-id="354f3-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="7f044-107">Методы</span><span class="sxs-lookup"><span data-stu-id="7f044-107">Methods</span></span>
 
 <table>
 <colgroup>
@@ -30,20 +30,20 @@ ms.locfileid: "32295767"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="354f3-108">Имя</span><span class="sxs-lookup"><span data-stu-id="354f3-108">Name</span></span></p></th>
-<th><p><span data-ttu-id="354f3-109">Описание</span><span class="sxs-lookup"><span data-stu-id="354f3-109">Description</span></span></p></th>
+<th><p><span data-ttu-id="7f044-108">Имя</span><span class="sxs-lookup"><span data-stu-id="7f044-108">Name</span></span></p></th>
+<th><p><span data-ttu-id="7f044-109">Описание</span><span class="sxs-lookup"><span data-stu-id="7f044-109">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="354f3-110"><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="354f3-110"><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="354f3-111">Не поддерживается для коллекции <strong><a href="connections-collection-dao.md">Connections</a></strong> .</span><span class="sxs-lookup"><span data-stu-id="354f3-111">Not supported for the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="7f044-110"><strong><a href="connections-refresh-method-dao.md">Обновление</a></strong></span><span class="sxs-lookup"><span data-stu-id="7f044-110"><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="7f044-111">Не поддерживается для коллекции <strong><a href="connections-collection-dao.md">Connections</a></strong> .</span><span class="sxs-lookup"><span data-stu-id="7f044-111">Not supported for the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="354f3-112">Свойства</span><span class="sxs-lookup"><span data-stu-id="354f3-112">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="7f044-112">Свойства</span><span class="sxs-lookup"><span data-stu-id="7f044-112">Properties</span></span>
 
 <table>
 <colgroup>
@@ -52,14 +52,14 @@ ms.locfileid: "32295767"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="354f3-113">Имя</span><span class="sxs-lookup"><span data-stu-id="354f3-113">Name</span></span></p></th>
-<th><p><span data-ttu-id="354f3-114">Описание</span><span class="sxs-lookup"><span data-stu-id="354f3-114">Description</span></span></p></th>
+<th><p><span data-ttu-id="7f044-113">Имя</span><span class="sxs-lookup"><span data-stu-id="7f044-113">Name</span></span></p></th>
+<th><p><span data-ttu-id="7f044-114">Описание</span><span class="sxs-lookup"><span data-stu-id="7f044-114">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="354f3-115"><strong><a href="connections-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="354f3-115"><strong><a href="connections-count-property-dao.md">Count</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="354f3-116">Возвращает количество объектов <strong><a href="connection-object-dao.md">Connection</a></strong> в коллекции Connections <strong><a href="connections-collection-dao.md"></a></strong> .</span><span class="sxs-lookup"><span data-stu-id="354f3-116">Returns the number of <strong><a href="connection-object-dao.md">Connection</a></strong> objects in the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
+<td><p><span data-ttu-id="7f044-115"><strong><a href="connections-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="7f044-115"><strong><a href="connections-count-property-dao.md">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="7f044-116">Возвращает количество объектов <strong><a href="connection-object-dao.md">Connection</a></strong> в коллекции <strong><a href="connections-collection-dao.md">Connections</a></strong> .</span><span class="sxs-lookup"><span data-stu-id="7f044-116">Returns the number of <strong><a href="connection-object-dao.md">Connection</a></strong> objects in the <strong><a href="connections-collection-dao.md">Connections</a></strong> collection.</span></span></p></td>
 </tr>
 </tbody>
 </table>

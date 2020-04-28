@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283277"
 ---
-# <a name="ado-numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="d2023-102">Пример свойств ADO NumericScale и Precision (VB)</span><span class="sxs-lookup"><span data-stu-id="d2023-102">ADO NumericScale and Precision properties example (VB)</span></span>
+# <a name="ado-numericscale-and-precision-properties-example-vb"></a><span data-ttu-id="26bdb-102">Пример свойств ADO NumericScale и Precision (VB)</span><span class="sxs-lookup"><span data-stu-id="26bdb-102">ADO NumericScale and Precision properties example (VB)</span></span>
 
 
-<span data-ttu-id="d2023-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2023-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="26bdb-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="26bdb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d2023-104">В этом примере используются свойства [NumericScale](numericscale-property-ado.md) и [Precision](precision-property-ado.md) для отображения числового масштаба и точности полей в таблице ***скидок*** базы данных ***pubs*** .</span><span class="sxs-lookup"><span data-stu-id="d2023-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
+<span data-ttu-id="26bdb-104">В этом примере используются свойства [NumericScale](numericscale-property-ado.md) и [Precision](precision-property-ado.md) для отображения числового масштаба и точности полей в таблице ***скидок*** базы данных ***pubs*** .</span><span class="sxs-lookup"><span data-stu-id="26bdb-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
 
 ```vb 
  

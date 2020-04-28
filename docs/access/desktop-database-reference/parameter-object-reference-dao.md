@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288065"
 ---
-# <a name="parameter-object-reference-dao"></a><span data-ttu-id="20cc2-102">Ссылка на объект Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="20cc2-102">Parameter object reference (DAO)</span></span>
+# <a name="parameter-object-reference-dao"></a><span data-ttu-id="c7f5c-102">Ссылка на объект Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7f5c-102">Parameter object reference (DAO)</span></span>
 
-<span data-ttu-id="20cc2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="20cc2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c7f5c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7f5c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="20cc2-104">Объект Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="20cc2-104">Parameter object (DAO)</span></span>](parameter-object-dao.md)
-- [<span data-ttu-id="20cc2-105">Элементы Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="20cc2-105">Parameter members (DAO)</span></span>](parameter-members-dao.md)
-- [<span data-ttu-id="20cc2-106">Свойства параметров (DAO)</span><span class="sxs-lookup"><span data-stu-id="20cc2-106">Parameter properties (DAO)</span></span>](parameter-properties-dao.md)
+- [<span data-ttu-id="c7f5c-104">Объект Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7f5c-104">Parameter object (DAO)</span></span>](parameter-object-dao.md)
+- [<span data-ttu-id="c7f5c-105">Элементы Parameter (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7f5c-105">Parameter members (DAO)</span></span>](parameter-members-dao.md)
+- [<span data-ttu-id="c7f5c-106">Свойства параметров (DAO)</span><span class="sxs-lookup"><span data-stu-id="c7f5c-106">Parameter properties (DAO)</span></span>](parameter-properties-dao.md)
 

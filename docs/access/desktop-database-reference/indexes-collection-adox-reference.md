@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291575"
 ---
-# <a name="indexes-collection-adox-reference"></a><span data-ttu-id="771c1-102">Справочник по коллекциям indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="771c1-102">Indexes collection (ADOX) reference</span></span>
+# <a name="indexes-collection-adox-reference"></a><span data-ttu-id="992b7-102">Справочник по коллекциям indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="992b7-102">Indexes collection (ADOX) reference</span></span>
 
-<span data-ttu-id="771c1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="771c1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="992b7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="992b7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="771c1-104">Коллекция indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="771c1-104">Indexes collection (ADOX)</span></span>](indexes-collection-adox.md)
-- [<span data-ttu-id="771c1-105">Свойства, методы и события коллекции indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="771c1-105">Indexes collection properties, methods, and events (ADOX)</span></span>](indexes-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="992b7-104">Коллекция indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="992b7-104">Indexes collection (ADOX)</span></span>](indexes-collection-adox.md)
+- [<span data-ttu-id="992b7-105">Свойства, методы и события коллекции indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="992b7-105">Indexes collection properties, methods, and events (ADOX)</span></span>](indexes-collection-properties-methods-and-events-adox.md)
 

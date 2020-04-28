@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295900"
 ---
-# <a name="connection-object-ado-reference"></a><span data-ttu-id="c50ef-102">Справочник по объекту Connection (ADO)</span><span class="sxs-lookup"><span data-stu-id="c50ef-102">Connection object (ADO) reference</span></span>
+# <a name="connection-object-ado-reference"></a><span data-ttu-id="7b926-102">Справочник по объекту Connection (ADO)</span><span class="sxs-lookup"><span data-stu-id="7b926-102">Connection object (ADO) reference</span></span>
 
-<span data-ttu-id="c50ef-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c50ef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7b926-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7b926-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c50ef-104">Объект Connection (ADO)</span><span class="sxs-lookup"><span data-stu-id="c50ef-104">Connection object (ADO)</span></span>](connection-object-ado.md)
-- [<span data-ttu-id="c50ef-105">Свойства, методы и события подключения (ADO)</span><span class="sxs-lookup"><span data-stu-id="c50ef-105">Connection properties, methods, and events (ADO)</span></span>](connection-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="7b926-104">Объект Connection (ADO)</span><span class="sxs-lookup"><span data-stu-id="7b926-104">Connection object (ADO)</span></span>](connection-object-ado.md)
+- [<span data-ttu-id="7b926-105">Свойства, методы и события подключения (ADO)</span><span class="sxs-lookup"><span data-stu-id="7b926-105">Connection properties, methods, and events (ADO)</span></span>](connection-properties-methods-and-events-ado.md)
 

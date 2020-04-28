@@ -14,15 +14,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295088"
 ---
-# <a name="data-importexport"></a><span data-ttu-id="33efd-102">Импорт и экспорт данных</span><span class="sxs-lookup"><span data-stu-id="33efd-102">Data import/export</span></span>
+# <a name="data-importexport"></a><span data-ttu-id="6aecf-102">Импорт и экспорт данных</span><span class="sxs-lookup"><span data-stu-id="6aecf-102">Data import/export</span></span>
 
-<span data-ttu-id="33efd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="33efd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6aecf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6aecf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="33efd-104">Макрокоманда RunSavedImportExport</span><span class="sxs-lookup"><span data-stu-id="33efd-104">RunSavedImportExport macro action</span></span>](runsavedimportexport-macro-action.md)
-- [<span data-ttu-id="33efd-105">Макрокоманда EMailDatabaseObject</span><span class="sxs-lookup"><span data-stu-id="33efd-105">EMailDatabaseObject macro action</span></span>](emaildatabaseobject-macro-action.md)
-- [<span data-ttu-id="33efd-106">Макрокоманда ExportWithFormatting</span><span class="sxs-lookup"><span data-stu-id="33efd-106">ExportWithFormatting macro action</span></span>](exportwithformatting-macro-action.md)
-- [<span data-ttu-id="33efd-107">Макрокоманда ImportExportData</span><span class="sxs-lookup"><span data-stu-id="33efd-107">ImportExportData macro action</span></span>](importexportdata-macro-action.md)
-- [<span data-ttu-id="33efd-108">Макрокоманда ImportExportSpreadsheet</span><span class="sxs-lookup"><span data-stu-id="33efd-108">ImportExportSpreadsheet macro action</span></span>](importexportspreadsheet-macro-action.md)
-- [<span data-ttu-id="33efd-109">Макрокоманда ImportExportText</span><span class="sxs-lookup"><span data-stu-id="33efd-109">ImportExportText macro action</span></span>](importexporttext-macro-action.md)
-- [<span data-ttu-id="33efd-110">Макрокоманда ImportSharePointList</span><span class="sxs-lookup"><span data-stu-id="33efd-110">ImportSharePointList macro action</span></span>](importsharepointlist-macro-action.md)
+- [<span data-ttu-id="6aecf-104">Макрокоманда RunSavedImportExport</span><span class="sxs-lookup"><span data-stu-id="6aecf-104">RunSavedImportExport macro action</span></span>](runsavedimportexport-macro-action.md)
+- [<span data-ttu-id="6aecf-105">Макрокоманда EMailDatabaseObject</span><span class="sxs-lookup"><span data-stu-id="6aecf-105">EMailDatabaseObject macro action</span></span>](emaildatabaseobject-macro-action.md)
+- [<span data-ttu-id="6aecf-106">Макрокоманда ExportWithFormatting</span><span class="sxs-lookup"><span data-stu-id="6aecf-106">ExportWithFormatting macro action</span></span>](exportwithformatting-macro-action.md)
+- [<span data-ttu-id="6aecf-107">Макрокоманда ImportExportData</span><span class="sxs-lookup"><span data-stu-id="6aecf-107">ImportExportData macro action</span></span>](importexportdata-macro-action.md)
+- [<span data-ttu-id="6aecf-108">Макрокоманда ImportExportSpreadsheet</span><span class="sxs-lookup"><span data-stu-id="6aecf-108">ImportExportSpreadsheet macro action</span></span>](importexportspreadsheet-macro-action.md)
+- [<span data-ttu-id="6aecf-109">Макрокоманда ImportExportText</span><span class="sxs-lookup"><span data-stu-id="6aecf-109">ImportExportText macro action</span></span>](importexporttext-macro-action.md)
+- [<span data-ttu-id="6aecf-110">Макрокоманда ImportSharePointList</span><span class="sxs-lookup"><span data-stu-id="6aecf-110">ImportSharePointList macro action</span></span>](importsharepointlist-macro-action.md)
 

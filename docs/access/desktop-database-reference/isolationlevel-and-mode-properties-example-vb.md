@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291172"
 ---
-# <a name="isolationlevel-and-mode-properties-example-vb"></a><span data-ttu-id="57d98-102">Пример использования свойств IsolationLevel и Mode (VB)</span><span class="sxs-lookup"><span data-stu-id="57d98-102">IsolationLevel and Mode properties example (VB)</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vb"></a><span data-ttu-id="7f349-102">Пример использования свойств IsolationLevel и Mode (VB)</span><span class="sxs-lookup"><span data-stu-id="7f349-102">IsolationLevel and Mode properties example (VB)</span></span>
 
 
-<span data-ttu-id="57d98-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="57d98-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7f349-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f349-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="57d98-104">В этом примере используется свойство [mode](mode-property-ado.md) для открытия монопольного подключения, а свойство [IsolationLevel](isolationlevel-property-ado.md) — для открытия транзакции, которая выполняется в изоляции других транзакций.</span><span class="sxs-lookup"><span data-stu-id="57d98-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="7f349-104">В этом примере используется свойство [mode](mode-property-ado.md) для открытия монопольного подключения, а свойство [IsolationLevel](isolationlevel-property-ado.md) — для открытия транзакции, которая выполняется в изоляции других транзакций.</span><span class="sxs-lookup"><span data-stu-id="7f349-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```vb 
  

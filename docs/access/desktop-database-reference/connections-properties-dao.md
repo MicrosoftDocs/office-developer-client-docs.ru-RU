@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295746"
 ---
-# <a name="connections-properties-dao"></a><span data-ttu-id="e4f2b-102">Свойства подключений (DAO)</span><span class="sxs-lookup"><span data-stu-id="e4f2b-102">Connections properties (DAO)</span></span>
+# <a name="connections-properties-dao"></a><span data-ttu-id="1ee1f-102">Свойства подключений (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ee1f-102">Connections properties (DAO)</span></span>
 
-<span data-ttu-id="e4f2b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4f2b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1ee1f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1ee1f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e4f2b-104">Свойство Connections. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="e4f2b-104">Connections.Count property (DAO)</span></span>](connections-count-property-dao.md)
+- [<span data-ttu-id="1ee1f-104">Свойство Connections. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="1ee1f-104">Connections.Count property (DAO)</span></span>](connections-count-property-dao.md)
 

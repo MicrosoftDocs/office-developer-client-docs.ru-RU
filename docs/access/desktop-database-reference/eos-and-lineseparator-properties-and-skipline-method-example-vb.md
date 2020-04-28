@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293534"
 ---
-# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a><span data-ttu-id="19ee9-102">Пример свойств EOS и LineSeparator, а затем метод SkipLine (VB)</span><span class="sxs-lookup"><span data-stu-id="19ee9-102">EOS and LineSeparator Properties and SkipLine method example (VB)</span></span>
+# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a><span data-ttu-id="c9661-102">Пример свойств EOS и LineSeparator, а затем метод SkipLine (VB)</span><span class="sxs-lookup"><span data-stu-id="c9661-102">EOS and LineSeparator Properties and SkipLine method example (VB)</span></span>
 
 
-<span data-ttu-id="19ee9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="19ee9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c9661-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9661-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="19ee9-104">В этом примере показано, как управлять потоками текста по одной строке за раз.</span><span class="sxs-lookup"><span data-stu-id="19ee9-104">This example demonstrates how to manipulate text streams one line at a time.</span></span> <span data-ttu-id="19ee9-105">Отображается результат изменения разделителя строк с символа возврата каретки/перевода строки (**адкрлф**) на символ перевода строки (**адлф**) или возврата каретки (**адкр**).</span><span class="sxs-lookup"><span data-stu-id="19ee9-105">The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.</span></span>
+<span data-ttu-id="c9661-104">В этом примере показано, как управлять потоками текста по одной строке за раз.</span><span class="sxs-lookup"><span data-stu-id="c9661-104">This example demonstrates how to manipulate text streams one line at a time.</span></span> <span data-ttu-id="c9661-105">Отображается результат изменения разделителя строк с символа возврата каретки/перевода строки (**адкрлф**) на символ перевода строки (**адлф**) или возврата каретки (**адкр**).</span><span class="sxs-lookup"><span data-stu-id="c9661-105">The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.</span></span>
 
 ```vb 
  

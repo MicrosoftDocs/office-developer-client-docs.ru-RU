@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290781"
 ---
-# <a name="key-object-adox-reference"></a><span data-ttu-id="f5c0a-102">Справочник по объектам Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f5c0a-102">Key object (ADOX) reference</span></span>
+# <a name="key-object-adox-reference"></a><span data-ttu-id="2efb2-102">Справочник по объектам Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2efb2-102">Key object (ADOX) reference</span></span>
 
-<span data-ttu-id="f5c0a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f5c0a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2efb2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2efb2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f5c0a-104">Объект Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f5c0a-104">Key object (ADOX)</span></span>](key-object-adox.md)
-- [<span data-ttu-id="f5c0a-105">Ключевые свойства, методы и события (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f5c0a-105">Key properties, methods, and events (ADOX)</span></span>](key-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="2efb2-104">Объект Key (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2efb2-104">Key object (ADOX)</span></span>](key-object-adox.md)
+- [<span data-ttu-id="2efb2-105">Ключевые свойства, методы и события (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2efb2-105">Key properties, methods, and events (ADOX)</span></span>](key-properties-methods-and-events-adox.md)
 

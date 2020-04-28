@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293940"
 ---
-# <a name="description-property-ado-md"></a><span data-ttu-id="c9dd1-102">Свойство Description (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="c9dd1-102">Description property (ADO MD)</span></span>
+# <a name="description-property-ado-md"></a><span data-ttu-id="25a3a-102">Свойство Description (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="25a3a-102">Description property (ADO MD)</span></span>
 
 
-<span data-ttu-id="c9dd1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9dd1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="25a3a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25a3a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c9dd1-104">Возвращает текстовое описание текущего объекта.</span><span class="sxs-lookup"><span data-stu-id="c9dd1-104">Returns a text explanation of the current object.</span></span>
+<span data-ttu-id="25a3a-104">Возвращает текстовое описание текущего объекта.</span><span class="sxs-lookup"><span data-stu-id="25a3a-104">Returns a text explanation of the current object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="c9dd1-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="c9dd1-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="25a3a-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="25a3a-105">Return values</span></span>
 
-<span data-ttu-id="c9dd1-106">Возвращает **строку** и доступна только для чтения.</span><span class="sxs-lookup"><span data-stu-id="c9dd1-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="25a3a-106">Возвращает **строку** и доступна только для чтения.</span><span class="sxs-lookup"><span data-stu-id="25a3a-106">Returns a **String** and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="c9dd1-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="c9dd1-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="25a3a-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="25a3a-107">Remarks</span></span>
 
-<span data-ttu-id="c9dd1-108">Для объектов [member](member-object-ado-md.md) **Описание** применяется только к элементам Measure и Measure.</span><span class="sxs-lookup"><span data-stu-id="c9dd1-108">For [Member](member-object-ado-md.md) objects, **Description** applies only to measure and formula members.</span></span> <span data-ttu-id="c9dd1-109">**Description** возвращает пустую строку ("") для всех других типов элементов.</span><span class="sxs-lookup"><span data-stu-id="c9dd1-109">**Description** returns an empty string ("") for all other types of members.</span></span> <span data-ttu-id="c9dd1-110">Дополнительные сведения о различных типах членов можно узнать в свойстве [Type](type-property-ado-md.md) .</span><span class="sxs-lookup"><span data-stu-id="c9dd1-110">For more information about the various types of members, see the [Type](type-property-ado-md.md) property.</span></span>
+<span data-ttu-id="25a3a-108">Для объектов [member](member-object-ado-md.md) **Описание** применяется только к элементам Measure и Measure.</span><span class="sxs-lookup"><span data-stu-id="25a3a-108">For [Member](member-object-ado-md.md) objects, **Description** applies only to measure and formula members.</span></span> <span data-ttu-id="25a3a-109">**Description** возвращает пустую строку ("") для всех других типов элементов.</span><span class="sxs-lookup"><span data-stu-id="25a3a-109">**Description** returns an empty string ("") for all other types of members.</span></span> <span data-ttu-id="25a3a-110">Дополнительные сведения о различных типах членов можно узнать в свойстве [Type](type-property-ado-md.md) .</span><span class="sxs-lookup"><span data-stu-id="25a3a-110">For more information about the various types of members, see the [Type](type-property-ado-md.md) property.</span></span>
 
-<span data-ttu-id="c9dd1-111">Это свойство поддерживается только для объектов **member** , принадлежащих объекту [уровня](level-object-ado-md.md) .</span><span class="sxs-lookup"><span data-stu-id="c9dd1-111">This property is only supported on **Member** objects belonging to a [Level](level-object-ado-md.md) object.</span></span> <span data-ttu-id="c9dd1-112">При обращении к этому свойству из объектов **member** , принадлежащих объекту [position](position-object-ado-md.md) , возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="c9dd1-112">An error occurs when this property is referenced from **Member** objects belonging to a [Position](position-object-ado-md.md) object.</span></span>
+<span data-ttu-id="25a3a-111">Это свойство поддерживается только для объектов **member** , принадлежащих объекту [уровня](level-object-ado-md.md) .</span><span class="sxs-lookup"><span data-stu-id="25a3a-111">This property is only supported on **Member** objects belonging to a [Level](level-object-ado-md.md) object.</span></span> <span data-ttu-id="25a3a-112">При обращении к этому свойству из объектов **member** , принадлежащих объекту [position](position-object-ado-md.md) , возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="25a3a-112">An error occurs when this property is referenced from **Member** objects belonging to a [Position](position-object-ado-md.md) object.</span></span>
 

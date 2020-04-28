@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294437"
 ---
-# <a name="dataspace-properties-methods-and-events-rds"></a><span data-ttu-id="a713a-102">Свойства, методы и события пространства, события (RDS)</span><span class="sxs-lookup"><span data-stu-id="a713a-102">DataSpace properties, methods, and events (RDS)</span></span>
+# <a name="dataspace-properties-methods-and-events-rds"></a><span data-ttu-id="e6db7-102">Свойства, методы и события пространства, события (RDS)</span><span class="sxs-lookup"><span data-stu-id="e6db7-102">DataSpace properties, methods, and events (RDS)</span></span>
 
 
-<span data-ttu-id="a713a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a713a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e6db7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e6db7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="a713a-104">Свойства</span><span class="sxs-lookup"><span data-stu-id="a713a-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="e6db7-104">Свойства</span><span class="sxs-lookup"><span data-stu-id="e6db7-104">Properties</span></span>
 
-- [<span data-ttu-id="a713a-105">Свойство InternetTimeout (RDS)</span><span class="sxs-lookup"><span data-stu-id="a713a-105">InternetTimeout property (RDS)</span></span>](internettimeout-property-rds.md)
+- [<span data-ttu-id="e6db7-105">Свойство InternetTimeout (RDS)</span><span class="sxs-lookup"><span data-stu-id="e6db7-105">InternetTimeout property (RDS)</span></span>](internettimeout-property-rds.md)
 
-## <a name="methods"></a><span data-ttu-id="a713a-106">Методы</span><span class="sxs-lookup"><span data-stu-id="a713a-106">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="e6db7-106">Methods</span><span class="sxs-lookup"><span data-stu-id="e6db7-106">Methods</span></span>
 
-- [<span data-ttu-id="a713a-107">Метод CreateObject (RDS)</span><span class="sxs-lookup"><span data-stu-id="a713a-107">CreateObject method (RDS)</span></span>](createobject-method-rds.md)
+- [<span data-ttu-id="e6db7-107">Метод CreateObject (RDS)</span><span class="sxs-lookup"><span data-stu-id="e6db7-107">CreateObject method (RDS)</span></span>](createobject-method-rds.md)
 
-## <a name="events"></a><span data-ttu-id="a713a-108">События</span><span class="sxs-lookup"><span data-stu-id="a713a-108">Events</span></span>
+## <a name="events"></a><span data-ttu-id="e6db7-108">События</span><span class="sxs-lookup"><span data-stu-id="e6db7-108">Events</span></span>
 
-<span data-ttu-id="a713a-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="a713a-109">None.</span></span>
+<span data-ttu-id="e6db7-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="e6db7-109">None.</span></span>
 

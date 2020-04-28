@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295298"
 ---
-# <a name="cubedef-properties-methods-and-events-ado-md"></a><span data-ttu-id="2978f-102">Свойства, методы и события CubeDef (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="2978f-102">CubeDef properties, methods, and events (ADO MD)</span></span>
+# <a name="cubedef-properties-methods-and-events-ado-md"></a><span data-ttu-id="11780-102">Свойства, методы и события CubeDef (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="11780-102">CubeDef properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="2978f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2978f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="11780-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="11780-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="2978f-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="2978f-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="11780-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="11780-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="2978f-105">Свойство Description</span><span class="sxs-lookup"><span data-stu-id="2978f-105">Description property</span></span>](description-property-ado-md.md)
-- [<span data-ttu-id="2978f-106">Коллекция Dimensions</span><span class="sxs-lookup"><span data-stu-id="2978f-106">Dimensions collection</span></span>](dimensions-collection-ado-md.md)
-- [<span data-ttu-id="2978f-107">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="2978f-107">Name property</span></span>](name-property-ado-md.md)
-- [<span data-ttu-id="2978f-108">Коллекция Properties</span><span class="sxs-lookup"><span data-stu-id="2978f-108">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="11780-105">Свойство Description</span><span class="sxs-lookup"><span data-stu-id="11780-105">Description property</span></span>](description-property-ado-md.md)
+- [<span data-ttu-id="11780-106">Коллекция Dimensions</span><span class="sxs-lookup"><span data-stu-id="11780-106">Dimensions collection</span></span>](dimensions-collection-ado-md.md)
+- [<span data-ttu-id="11780-107">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="11780-107">Name property</span></span>](name-property-ado-md.md)
+- [<span data-ttu-id="11780-108">Коллекция Properties</span><span class="sxs-lookup"><span data-stu-id="11780-108">Properties collection</span></span>](properties-collection-ado.md)
 
-## <a name="events"></a><span data-ttu-id="2978f-109">События</span><span class="sxs-lookup"><span data-stu-id="2978f-109">Events</span></span>
+## <a name="events"></a><span data-ttu-id="11780-109">События</span><span class="sxs-lookup"><span data-stu-id="11780-109">Events</span></span>
 
-<span data-ttu-id="2978f-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="2978f-110">None.</span></span>
+<span data-ttu-id="11780-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="11780-110">None.</span></span>
 

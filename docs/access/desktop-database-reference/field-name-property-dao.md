@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293079"
 ---
-# <a name="fieldname-property-dao"></a><span data-ttu-id="46c0c-102">Свойство Field.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="46c0c-102">Field.Name property (DAO)</span></span>
+# <a name="fieldname-property-dao"></a><span data-ttu-id="93b5c-102">Свойство Field.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="93b5c-102">Field.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="46c0c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="46c0c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="93b5c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="93b5c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="46c0c-104">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="46c0c-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="46c0c-105">**Строка** для чтения и записи, если объект не был добавлен в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="46c0c-105">Read/write **String** if the object has not been appended to a collection.</span></span> <span data-ttu-id="46c0c-106">**Строка** , доступная только для чтения, если объект добавлен в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="46c0c-106">Read-only **String** if the object has been appended to a collection.</span></span>
+<span data-ttu-id="93b5c-104">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="93b5c-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="93b5c-105">**Строка** для чтения и записи, если объект не был добавлен в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="93b5c-105">Read/write **String** if the object has not been appended to a collection.</span></span> <span data-ttu-id="93b5c-106">**Строка** , доступная только для чтения, если объект добавлен в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="93b5c-106">Read-only **String** if the object has been appended to a collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="46c0c-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="46c0c-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="93b5c-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="93b5c-107">Syntax</span></span>
 
-<span data-ttu-id="46c0c-108">*Expression* . Расширением</span><span class="sxs-lookup"><span data-stu-id="46c0c-108">*expression* .Name</span></span>
+<span data-ttu-id="93b5c-108">*Expression* . Расширением</span><span class="sxs-lookup"><span data-stu-id="93b5c-108">*expression* .Name</span></span>
 
-<span data-ttu-id="46c0c-109">*выражение*: переменная, представляющая объект **Field**.</span><span class="sxs-lookup"><span data-stu-id="46c0c-109">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="93b5c-109">*выражение*: переменная, представляющая объект **Field**.</span><span class="sxs-lookup"><span data-stu-id="93b5c-109">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="46c0c-110">Комментарии</span><span class="sxs-lookup"><span data-stu-id="46c0c-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="93b5c-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="93b5c-110">Remarks</span></span>
 
-<span data-ttu-id="46c0c-111">Максимальная длина имени объекта **field** составляет 64 символов.</span><span class="sxs-lookup"><span data-stu-id="46c0c-111">The maximum length for the name of a **Field** object is 64 characters.</span></span>
+<span data-ttu-id="93b5c-111">Максимальная длина имени объекта **field** составляет 64 символов.</span><span class="sxs-lookup"><span data-stu-id="93b5c-111">The maximum length for the name of a **Field** object is 64 characters.</span></span>
 

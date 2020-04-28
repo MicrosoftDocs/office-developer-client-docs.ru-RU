@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294745"
 ---
-# <a name="databaserecordsaffected-property-dao"></a><span data-ttu-id="22819-102">Свойство Database. Рекордсаффектед (DAO)</span><span class="sxs-lookup"><span data-stu-id="22819-102">Database.RecordsAffected property (DAO)</span></span>
+# <a name="databaserecordsaffected-property-dao"></a><span data-ttu-id="fc152-102">Свойство Database. Рекордсаффектед (DAO)</span><span class="sxs-lookup"><span data-stu-id="fc152-102">Database.RecordsAffected property (DAO)</span></span>
 
 
-<span data-ttu-id="22819-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="22819-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc152-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc152-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="22819-104">Возвращает число записей, затронутых последним вызванным методом **[EXECUTE](connection-execute-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="22819-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="fc152-104">Возвращает число записей, затронутых последним вызванным методом **[EXECUTE](connection-execute-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="fc152-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="22819-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="22819-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fc152-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="fc152-105">Syntax</span></span>
 
-<span data-ttu-id="22819-106">*Expression* . Рекордсаффектед</span><span class="sxs-lookup"><span data-stu-id="22819-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="fc152-106">*Expression* . рекордсаффектед</span><span class="sxs-lookup"><span data-stu-id="fc152-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="22819-107">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="22819-107">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="fc152-107">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="fc152-107">*expression* A variable that represents a **Database** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="22819-108">Пример</span><span class="sxs-lookup"><span data-stu-id="22819-108">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fc152-108">Пример</span><span class="sxs-lookup"><span data-stu-id="fc152-108">Example</span></span>
 
-<span data-ttu-id="22819-109">В этом примере используется свойство **рекордсаффектед** с запросами на изменение, выполненными из объекта **базы данных** и из объекта **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="22819-109">This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object.</span></span> <span data-ttu-id="22819-110">Для выполнения этой процедуры требуется функция Рекордсаффектедаутпут.</span><span class="sxs-lookup"><span data-stu-id="22819-110">The RecordsAffectedOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="fc152-109">В этом примере используется свойство **рекордсаффектед** с запросами на изменение, выполненными из объекта **базы данных** и из объекта **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="fc152-109">This example uses the **RecordsAffected** property with action queries executed from a **Database** object and from a **QueryDef** object.</span></span> <span data-ttu-id="fc152-110">Для выполнения этой процедуры требуется функция Рекордсаффектедаутпут.</span><span class="sxs-lookup"><span data-stu-id="fc152-110">The RecordsAffectedOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub RecordsAffectedX() 

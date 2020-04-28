@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287547"
 ---
-# <a name="position-object-ado-md"></a><span data-ttu-id="6dec3-102">Объект Position (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6dec3-102">Position object (ADO MD)</span></span>
+# <a name="position-object-ado-md"></a><span data-ttu-id="1b9ff-102">Объект Position (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1b9ff-102">Position object (ADO MD)</span></span>
 
 
-<span data-ttu-id="6dec3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6dec3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1b9ff-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b9ff-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6dec3-104">Представляет набор из одного или нескольких элементов разных измерений, определяющих точку вдоль оси.</span><span class="sxs-lookup"><span data-stu-id="6dec3-104">Represents a set of one or more members of different dimensions that defines a point along an axis.</span></span>
+<span data-ttu-id="1b9ff-104">Представляет набор из одного или нескольких элементов разных измерений, определяющих точку вдоль оси.</span><span class="sxs-lookup"><span data-stu-id="1b9ff-104">Represents a set of one or more members of different dimensions that defines a point along an axis.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6dec3-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="6dec3-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1b9ff-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="1b9ff-105">Remarks</span></span>
 
-<span data-ttu-id="6dec3-106">С помощью свойств и коллекций объекта **position** можно выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="6dec3-106">With the properties and collections of a **Position** object you can do the following:</span></span>
+<span data-ttu-id="1b9ff-106">С помощью свойств и коллекций объекта **position** можно выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="1b9ff-106">With the properties and collections of a **Position** object you can do the following:</span></span>
 
-  - <span data-ttu-id="6dec3-107">Свойство **Ordinal** используется для возврата порядкового номера **позиции** вдоль [оси](axis-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="6dec3-107">Use the **Ordinal** property to return the ordinal position of the **Position** along the [Axis](axis-object-ado-md.md).</span></span>
+  - <span data-ttu-id="1b9ff-107">Свойство **Ordinal** используется для возврата порядкового номера **позиции** вдоль [оси](axis-object-ado-md.md).</span><span class="sxs-lookup"><span data-stu-id="1b9ff-107">Use the **Ordinal** property to return the ordinal position of the **Position** along the [Axis](axis-object-ado-md.md).</span></span>
 
-  - <span data-ttu-id="6dec3-108">Коллекция [Members](members-collection-ado-md.md) используется для возврата элементов, составляющих позицию на **оси**.</span><span class="sxs-lookup"><span data-stu-id="6dec3-108">Use the [Members](members-collection-ado-md.md) collection to return the members that make up the position along the **Axis**.</span></span>
+  - <span data-ttu-id="1b9ff-108">Коллекция [Members](members-collection-ado-md.md) используется для возврата элементов, составляющих позицию на **оси**.</span><span class="sxs-lookup"><span data-stu-id="1b9ff-108">Use the [Members](members-collection-ado-md.md) collection to return the members that make up the position along the **Axis**.</span></span>
 

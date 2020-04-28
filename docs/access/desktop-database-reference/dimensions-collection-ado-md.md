@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293842"
 ---
-# <a name="dimensions-collection-ado-md"></a><span data-ttu-id="7d3a3-102">Коллекция Dimensions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="7d3a3-102">Dimensions collection (ADO MD)</span></span>
+# <a name="dimensions-collection-ado-md"></a><span data-ttu-id="ffee8-102">Коллекция Dimensions (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ffee8-102">Dimensions collection (ADO MD)</span></span>
 
 
-<span data-ttu-id="7d3a3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d3a3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ffee8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ffee8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7d3a3-104">Содержит объекты [измерения](dimension-object-ado-md.md) , составляющие куб.</span><span class="sxs-lookup"><span data-stu-id="7d3a3-104">Contains the [Dimension](dimension-object-ado-md.md) objects that make up a cube.</span></span>
+<span data-ttu-id="ffee8-104">Содержит объекты [измерения](dimension-object-ado-md.md) , составляющие куб.</span><span class="sxs-lookup"><span data-stu-id="ffee8-104">Contains the [Dimension](dimension-object-ado-md.md) objects that make up a cube.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7d3a3-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="7d3a3-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ffee8-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="ffee8-105">Remarks</span></span>
 
-<span data-ttu-id="7d3a3-106">**Измерения** — это стандартная коллекция ADO.</span><span class="sxs-lookup"><span data-stu-id="7d3a3-106">**Dimensions** is a standard ADO collection.</span></span> <span data-ttu-id="7d3a3-107">С помощью свойств и методов коллекции можно выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="7d3a3-107">With the properties and methods of a collection, you can do the following:</span></span>
+<span data-ttu-id="ffee8-106">**Измерения** — это стандартная коллекция ADO.</span><span class="sxs-lookup"><span data-stu-id="ffee8-106">**Dimensions** is a standard ADO collection.</span></span> <span data-ttu-id="ffee8-107">С помощью свойств и методов коллекции можно выполнить следующие действия:</span><span class="sxs-lookup"><span data-stu-id="ffee8-107">With the properties and methods of a collection, you can do the following:</span></span>
 
-- <span data-ttu-id="7d3a3-108">Получите число объектов в коллекции со свойством [Count](count-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="7d3a3-108">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
+- <span data-ttu-id="ffee8-108">Получите число объектов в коллекции со свойством [Count](count-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="ffee8-108">Obtain the number of objects in the collection with the [Count](count-property-ado.md) property.</span></span>
 
-- <span data-ttu-id="7d3a3-109">Возвращает объект из коллекции со свойством [Item](item-property-ado.md) по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="7d3a3-109">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
+- <span data-ttu-id="ffee8-109">Возвращает объект из коллекции со свойством [Item](item-property-ado.md) по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="ffee8-109">Return an object from the collection with the default [Item](item-property-ado.md) property.</span></span>
 
-- <span data-ttu-id="7d3a3-110">Обновление объектов в коллекции от поставщика с помощью метода [Refresh](refresh-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="7d3a3-110">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
+- <span data-ttu-id="ffee8-110">Обновление объектов в коллекции от поставщика с помощью метода [Refresh](refresh-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="ffee8-110">Update the objects in the collection from the provider with the [Refresh](refresh-method-ado.md) method.</span></span>
 

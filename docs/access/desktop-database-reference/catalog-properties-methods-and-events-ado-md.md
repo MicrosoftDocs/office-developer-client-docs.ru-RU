@@ -14,21 +14,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296579"
 ---
-# <a name="catalog-properties-methods-and-events-ado-md"></a><span data-ttu-id="5cc70-102">Свойства, методы и события каталога (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="5cc70-102">Catalog properties, methods, and events (ADO MD)</span></span>
+# <a name="catalog-properties-methods-and-events-ado-md"></a><span data-ttu-id="3726e-102">Свойства, методы и события каталога (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="3726e-102">Catalog properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="5cc70-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5cc70-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3726e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3726e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="5cc70-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="5cc70-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="3726e-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="3726e-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="5cc70-105">Свойство ActiveConnection</span><span class="sxs-lookup"><span data-stu-id="5cc70-105">ActiveConnection property</span></span>](activeconnection-property-ado-md.md)
-- [<span data-ttu-id="5cc70-106">Коллекция CubeDefs</span><span class="sxs-lookup"><span data-stu-id="5cc70-106">CubeDefs collection</span></span>](cubedefs-collection-ado-md.md)
-- [<span data-ttu-id="5cc70-107">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="5cc70-107">Name property</span></span>](name-property-ado-md.md)
+- [<span data-ttu-id="3726e-105">Свойство ActiveConnection</span><span class="sxs-lookup"><span data-stu-id="3726e-105">ActiveConnection property</span></span>](activeconnection-property-ado-md.md)
+- [<span data-ttu-id="3726e-106">Коллекция CubeDefs</span><span class="sxs-lookup"><span data-stu-id="3726e-106">CubeDefs collection</span></span>](cubedefs-collection-ado-md.md)
+- [<span data-ttu-id="3726e-107">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="3726e-107">Name property</span></span>](name-property-ado-md.md)
 
-## <a name="methods"></a><span data-ttu-id="5cc70-108">Методы</span><span class="sxs-lookup"><span data-stu-id="5cc70-108">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="3726e-108">Methods</span><span class="sxs-lookup"><span data-stu-id="3726e-108">Methods</span></span>
 
-<span data-ttu-id="5cc70-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="5cc70-109">None.</span></span>
+<span data-ttu-id="3726e-109">Нет.</span><span class="sxs-lookup"><span data-stu-id="3726e-109">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="5cc70-110">События</span><span class="sxs-lookup"><span data-stu-id="5cc70-110">Events</span></span>
+## <a name="events"></a><span data-ttu-id="3726e-110">События</span><span class="sxs-lookup"><span data-stu-id="3726e-110">Events</span></span>
 
-<span data-ttu-id="5cc70-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="5cc70-111">None.</span></span>
+<span data-ttu-id="3726e-111">Нет.</span><span class="sxs-lookup"><span data-stu-id="3726e-111">None.</span></span>
 

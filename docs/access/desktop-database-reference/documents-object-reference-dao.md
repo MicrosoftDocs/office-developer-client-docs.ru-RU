@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293716"
 ---
-# <a name="documents-object-reference-dao"></a><span data-ttu-id="12c64-102">Ссылка на объект Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="12c64-102">Documents object reference (DAO)</span></span>
+# <a name="documents-object-reference-dao"></a><span data-ttu-id="f82ae-102">Ссылка на объект Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="f82ae-102">Documents object reference (DAO)</span></span>
 
-<span data-ttu-id="12c64-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12c64-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f82ae-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f82ae-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="12c64-104">Коллекция Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="12c64-104">Documents collection (DAO)</span></span>](documents-collection-dao.md)
-- [<span data-ttu-id="12c64-105">Элементы Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="12c64-105">Documents members (DAO)</span></span>](documents-members-dao.md)
-- [<span data-ttu-id="12c64-106">Свойства документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="12c64-106">Documents properties (DAO)</span></span>](documents-properties-dao.md)
-- [<span data-ttu-id="12c64-107">Методы для документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="12c64-107">Documents methods (DAO)</span></span>](documents-methods-dao.md)
+- [<span data-ttu-id="f82ae-104">Коллекция Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="f82ae-104">Documents collection (DAO)</span></span>](documents-collection-dao.md)
+- [<span data-ttu-id="f82ae-105">Элементы Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="f82ae-105">Documents members (DAO)</span></span>](documents-members-dao.md)
+- [<span data-ttu-id="f82ae-106">Свойства документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="f82ae-106">Documents properties (DAO)</span></span>](documents-properties-dao.md)
+- [<span data-ttu-id="f82ae-107">Методы для документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="f82ae-107">Documents methods (DAO)</span></span>](documents-methods-dao.md)
 

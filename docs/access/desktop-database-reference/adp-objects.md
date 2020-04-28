@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32284829"
 ---
-# <a name="adp-objects"></a><span data-ttu-id="f72c6-102">Объекты ADP</span><span class="sxs-lookup"><span data-stu-id="f72c6-102">ADP objects</span></span>
+# <a name="adp-objects"></a><span data-ttu-id="cadcc-102">Объекты ADP</span><span class="sxs-lookup"><span data-stu-id="cadcc-102">ADP objects</span></span>
 
-<span data-ttu-id="f72c6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f72c6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cadcc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cadcc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f72c6-104">Макрокоманда CopyDatabaseFile</span><span class="sxs-lookup"><span data-stu-id="f72c6-104">CopyDatabaseFile macro action</span></span>](copydatabasefile-macro-action.md)
-- [<span data-ttu-id="f72c6-105">Макрокоманда OpenDiagram</span><span class="sxs-lookup"><span data-stu-id="f72c6-105">OpenDiagram macro action</span></span>](opendiagram-macro-action.md)
-- [<span data-ttu-id="f72c6-106">Макрокоманда OpenFunction</span><span class="sxs-lookup"><span data-stu-id="f72c6-106">OpenFunction macro action</span></span>](openfunction-macro-action.md)
-- [<span data-ttu-id="f72c6-107">Макрокоманда OpenStoredProcedure</span><span class="sxs-lookup"><span data-stu-id="f72c6-107">OpenStoredProcedure macro action</span></span>](openstoredprocedure-macro-action.md)
-- [<span data-ttu-id="f72c6-108">Макрокоманда OpenView</span><span class="sxs-lookup"><span data-stu-id="f72c6-108">OpenView macro action</span></span>](openview-macro-action.md)
-- [<span data-ttu-id="f72c6-109">Макрокоманда TransferSQLDatabase</span><span class="sxs-lookup"><span data-stu-id="f72c6-109">TransferSQLDatabase macro action</span></span>](transfersqldatabase-macro-action.md)
+- [<span data-ttu-id="cadcc-104">Макрокоманда CopyDatabaseFile</span><span class="sxs-lookup"><span data-stu-id="cadcc-104">CopyDatabaseFile macro action</span></span>](copydatabasefile-macro-action.md)
+- [<span data-ttu-id="cadcc-105">Макрокоманда OpenDiagram</span><span class="sxs-lookup"><span data-stu-id="cadcc-105">OpenDiagram macro action</span></span>](opendiagram-macro-action.md)
+- [<span data-ttu-id="cadcc-106">Макрокоманда OpenFunction</span><span class="sxs-lookup"><span data-stu-id="cadcc-106">OpenFunction macro action</span></span>](openfunction-macro-action.md)
+- [<span data-ttu-id="cadcc-107">Макрокоманда OpenStoredProcedure</span><span class="sxs-lookup"><span data-stu-id="cadcc-107">OpenStoredProcedure macro action</span></span>](openstoredprocedure-macro-action.md)
+- [<span data-ttu-id="cadcc-108">Макрокоманда OpenView</span><span class="sxs-lookup"><span data-stu-id="cadcc-108">OpenView macro action</span></span>](openview-macro-action.md)
+- [<span data-ttu-id="cadcc-109">Макрокоманда TransferSQLDatabase</span><span class="sxs-lookup"><span data-stu-id="cadcc-109">TransferSQLDatabase macro action</span></span>](transfersqldatabase-macro-action.md)
 

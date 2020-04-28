@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290245"
 ---
-# <a name="keytypeenum"></a><span data-ttu-id="be61a-102">KeyTypeEnum</span><span class="sxs-lookup"><span data-stu-id="be61a-102">KeyTypeEnum</span></span>
+# <a name="keytypeenum"></a><span data-ttu-id="d770f-102">KeyTypeEnum</span><span class="sxs-lookup"><span data-stu-id="d770f-102">KeyTypeEnum</span></span>
 
-<span data-ttu-id="be61a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="be61a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d770f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d770f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="be61a-104">Указывает тип [ключа](key-object-adox.md): основной, внешний или уникальный.</span><span class="sxs-lookup"><span data-stu-id="be61a-104">Specifies the type of [Key](key-object-adox.md): primary, foreign, or unique.</span></span>
+<span data-ttu-id="d770f-104">Указывает тип [ключа](key-object-adox.md): основной, внешний или уникальный.</span><span class="sxs-lookup"><span data-stu-id="d770f-104">Specifies the type of [Key](key-object-adox.md): primary, foreign, or unique.</span></span>
 
 <br/>
 
@@ -30,26 +30,26 @@ ms.locfileid: "32290245"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="be61a-105">Константа</span><span class="sxs-lookup"><span data-stu-id="be61a-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="be61a-106">Значение</span><span class="sxs-lookup"><span data-stu-id="be61a-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="be61a-107">Описание</span><span class="sxs-lookup"><span data-stu-id="be61a-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="d770f-105">Константа</span><span class="sxs-lookup"><span data-stu-id="d770f-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="d770f-106">Значение</span><span class="sxs-lookup"><span data-stu-id="d770f-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="d770f-107">Описание</span><span class="sxs-lookup"><span data-stu-id="d770f-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="be61a-108"><strong>Адкэйпримари</strong></span><span class="sxs-lookup"><span data-stu-id="be61a-108"><strong>adKeyPrimary</strong></span></span></p></td>
-<td><p><span data-ttu-id="be61a-109">1,1</span><span class="sxs-lookup"><span data-stu-id="be61a-109">1</span></span></p></td>
-<td><p><span data-ttu-id="be61a-110">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="be61a-110">Default.</span></span> <span data-ttu-id="be61a-111">Ключ является первичным ключом.</span><span class="sxs-lookup"><span data-stu-id="be61a-111">The key is a primary key.</span></span></p></td>
+<td><p><span data-ttu-id="d770f-108"><strong>адкэйпримари</strong></span><span class="sxs-lookup"><span data-stu-id="d770f-108"><strong>adKeyPrimary</strong></span></span></p></td>
+<td><p><span data-ttu-id="d770f-109">1,1</span><span class="sxs-lookup"><span data-stu-id="d770f-109">1</span></span></p></td>
+<td><p><span data-ttu-id="d770f-110">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="d770f-110">Default.</span></span> <span data-ttu-id="d770f-111">Ключ является первичным ключом.</span><span class="sxs-lookup"><span data-stu-id="d770f-111">The key is a primary key.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="be61a-112"><strong>Адкэйфореигн</strong></span><span class="sxs-lookup"><span data-stu-id="be61a-112"><strong>adKeyForeign</strong></span></span></p></td>
-<td><p><span data-ttu-id="be61a-113">2</span><span class="sxs-lookup"><span data-stu-id="be61a-113">2</span></span></p></td>
-<td><p><span data-ttu-id="be61a-114">Ключ является внешним ключом.</span><span class="sxs-lookup"><span data-stu-id="be61a-114">The key is a foreign key.</span></span></p></td>
+<td><p><span data-ttu-id="d770f-112"><strong>адкэйфореигн</strong></span><span class="sxs-lookup"><span data-stu-id="d770f-112"><strong>adKeyForeign</strong></span></span></p></td>
+<td><p><span data-ttu-id="d770f-113">2</span><span class="sxs-lookup"><span data-stu-id="d770f-113">2</span></span></p></td>
+<td><p><span data-ttu-id="d770f-114">Ключ является внешним ключом.</span><span class="sxs-lookup"><span data-stu-id="d770f-114">The key is a foreign key.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="be61a-115"><strong>Адкэйуникуе</strong></span><span class="sxs-lookup"><span data-stu-id="be61a-115"><strong>adKeyUnique</strong></span></span></p></td>
-<td><p><span data-ttu-id="be61a-116">4</span><span class="sxs-lookup"><span data-stu-id="be61a-116">3</span></span></p></td>
-<td><p><span data-ttu-id="be61a-117">Ключ уникален.</span><span class="sxs-lookup"><span data-stu-id="be61a-117">The key is unique.</span></span></p></td>
+<td><p><span data-ttu-id="d770f-115"><strong>адкэйуникуе</strong></span><span class="sxs-lookup"><span data-stu-id="d770f-115"><strong>adKeyUnique</strong></span></span></p></td>
+<td><p><span data-ttu-id="d770f-116">4</span><span class="sxs-lookup"><span data-stu-id="d770f-116">3</span></span></p></td>
+<td><p><span data-ttu-id="d770f-117">Ключ уникален.</span><span class="sxs-lookup"><span data-stu-id="d770f-117">The key is unique.</span></span></p></td>
 </tr>
 </tbody>
 </table>

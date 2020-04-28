@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296614"
 ---
-# <a name="caption-property-ado-md"></a><span data-ttu-id="c1060-102">Свойство Caption (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="c1060-102">Caption property (ADO MD)</span></span>
+# <a name="caption-property-ado-md"></a><span data-ttu-id="94177-102">Свойство Caption (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="94177-102">Caption property (ADO MD)</span></span>
 
 
-<span data-ttu-id="c1060-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1060-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="94177-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="94177-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c1060-104">Указывает заголовок текста, используемый при отображении объекта [уровня](level-object-ado-md.md) или [элемента](member-object-ado-md.md) .</span><span class="sxs-lookup"><span data-stu-id="c1060-104">Indicates the text caption to use when displaying a [Level](level-object-ado-md.md) or [Member](member-object-ado-md.md) object.</span></span>
+<span data-ttu-id="94177-104">Указывает заголовок текста, используемый при отображении объекта [уровня](level-object-ado-md.md) или [элемента](member-object-ado-md.md) .</span><span class="sxs-lookup"><span data-stu-id="94177-104">Indicates the text caption to use when displaying a [Level](level-object-ado-md.md) or [Member](member-object-ado-md.md) object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="c1060-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="c1060-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="94177-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="94177-105">Return values</span></span>
 
-<span data-ttu-id="c1060-106">Возвращает **строку** и доступна только для чтения.</span><span class="sxs-lookup"><span data-stu-id="c1060-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="94177-106">Возвращает **строку** и доступна только для чтения.</span><span class="sxs-lookup"><span data-stu-id="94177-106">Returns a **String** and is read-only.</span></span>
 

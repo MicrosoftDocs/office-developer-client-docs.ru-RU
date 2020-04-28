@@ -14,8 +14,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296103"
 ---
-# <a name="committransoptionsenum-enumeration-dao"></a><span data-ttu-id="a6ba1-102">Перечисление Коммиттрансоптионсенум (DAO)</span><span class="sxs-lookup"><span data-stu-id="a6ba1-102">CommitTransOptionsEnum enumeration (DAO)</span></span>
+# <a name="committransoptionsenum-enumeration-dao"></a><span data-ttu-id="27a5b-102">Перечисление Коммиттрансоптионсенум (DAO)</span><span class="sxs-lookup"><span data-stu-id="27a5b-102">CommitTransOptionsEnum enumeration (DAO)</span></span>
 
-<span data-ttu-id="a6ba1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a6ba1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="27a5b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="27a5b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a6ba1-104">Подлежит уточнению.</span><span class="sxs-lookup"><span data-stu-id="a6ba1-104">TBD</span></span>
+<span data-ttu-id="27a5b-104">Подлежит уточнению.</span><span class="sxs-lookup"><span data-stu-id="27a5b-104">TBD</span></span>

@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293436"
 ---
-# <a name="errors-collection-ado-reference"></a><span data-ttu-id="f7e96-102">Справочник по сборам ошибок (ADO)</span><span class="sxs-lookup"><span data-stu-id="f7e96-102">Errors collection (ADO) reference</span></span>
+# <a name="errors-collection-ado-reference"></a><span data-ttu-id="cc98f-102">Справочник по сборам ошибок (ADO)</span><span class="sxs-lookup"><span data-stu-id="cc98f-102">Errors collection (ADO) reference</span></span>
 
-<span data-ttu-id="f7e96-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f7e96-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cc98f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc98f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f7e96-104">Коллекция Errors (ADO)</span><span class="sxs-lookup"><span data-stu-id="f7e96-104">Errors collection (ADO)</span></span>](errors-collection-ado.md)
-- [<span data-ttu-id="f7e96-105">Свойства, методы и события коллекции Errors</span><span class="sxs-lookup"><span data-stu-id="f7e96-105">Errors collection properties, methods, and events</span></span>](errors-collection-properties-methods-and-events.md)
+- [<span data-ttu-id="cc98f-104">Коллекция Errors (ADO)</span><span class="sxs-lookup"><span data-stu-id="cc98f-104">Errors collection (ADO)</span></span>](errors-collection-ado.md)
+- [<span data-ttu-id="cc98f-105">Свойства, методы и события коллекции Errors</span><span class="sxs-lookup"><span data-stu-id="cc98f-105">Errors collection properties, methods, and events</span></span>](errors-collection-properties-methods-and-events.md)
 

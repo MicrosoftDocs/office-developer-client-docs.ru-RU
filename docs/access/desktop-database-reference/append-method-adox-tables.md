@@ -14,23 +14,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297076"
 ---
-# <a name="append-method-adox-tables"></a><span data-ttu-id="bad9e-102">Метод Append (коллекция Tables в ADOX)</span><span class="sxs-lookup"><span data-stu-id="bad9e-102">Append method (ADOX Tables)</span></span>
+# <a name="append-method-adox-tables"></a><span data-ttu-id="5d842-102">Метод Append (коллекция Tables в ADOX)</span><span class="sxs-lookup"><span data-stu-id="5d842-102">Append method (ADOX Tables)</span></span>
 
-<span data-ttu-id="bad9e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bad9e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5d842-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5d842-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bad9e-104">Добавляет новый объект [Table](table-object-adox.md) в коллекцию [Tables](tables-collection-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="bad9e-104">Adds a new [Table](table-object-adox.md) object to the [Tables](tables-collection-adox.md) collection.</span></span>
+<span data-ttu-id="5d842-104">Добавляет новый объект [Table](table-object-adox.md) в коллекцию [Tables](tables-collection-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="5d842-104">Adds a new [Table](table-object-adox.md) object to the [Tables](tables-collection-adox.md) collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="bad9e-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="bad9e-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5d842-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5d842-105">Syntax</span></span>
 
-<span data-ttu-id="bad9e-106">*Таблицы*. Добавление*таблицы*</span><span class="sxs-lookup"><span data-stu-id="bad9e-106">*Tables*.Append*Table*</span></span>
+<span data-ttu-id="5d842-106">*Таблицы*. Добавление*таблицы*</span><span class="sxs-lookup"><span data-stu-id="5d842-106">*Tables*.Append*Table*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="bad9e-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="bad9e-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5d842-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="5d842-107">Parameters</span></span>
 
-|<span data-ttu-id="bad9e-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="bad9e-108">Parameter</span></span>|<span data-ttu-id="bad9e-109">Описание</span><span class="sxs-lookup"><span data-stu-id="bad9e-109">Description</span></span>|
+|<span data-ttu-id="5d842-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="5d842-108">Parameter</span></span>|<span data-ttu-id="5d842-109">Описание</span><span class="sxs-lookup"><span data-stu-id="5d842-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="bad9e-110">*Table*</span><span class="sxs-lookup"><span data-stu-id="bad9e-110">*Table*</span></span> | <span data-ttu-id="bad9e-111">Значение **Variant** , которое содержит ссылку на **таблицу** для добавления или имя таблицы для создания и добавления.</span><span class="sxs-lookup"><span data-stu-id="bad9e-111">A **Variant** value that contains a reference to the **Table** to append or the name of the table to create and append.</span></span>|
+|<span data-ttu-id="5d842-110">*Table*</span><span class="sxs-lookup"><span data-stu-id="5d842-110">*Table*</span></span> | <span data-ttu-id="5d842-111">Значение **Variant** , которое содержит ссылку на **таблицу** для добавления или имя таблицы для создания и добавления.</span><span class="sxs-lookup"><span data-stu-id="5d842-111">A **Variant** value that contains a reference to the **Table** to append or the name of the table to create and append.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="bad9e-112">Замечания</span><span class="sxs-lookup"><span data-stu-id="bad9e-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5d842-112">Примечания</span><span class="sxs-lookup"><span data-stu-id="5d842-112">Remarks</span></span>
 
-<span data-ttu-id="bad9e-113">Если поставщик не поддерживает создание таблиц, произойдет ошибка.</span><span class="sxs-lookup"><span data-stu-id="bad9e-113">An error will occur if the provider does not support creating tables.</span></span>
+<span data-ttu-id="5d842-113">Если поставщик не поддерживает создание таблиц, произойдет ошибка.</span><span class="sxs-lookup"><span data-stu-id="5d842-113">An error will occur if the provider does not support creating tables.</span></span>
 

@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294458"
 ---
-# <a name="dataspace-rds-ado"></a><span data-ttu-id="63faa-102">Пространство (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="63faa-102">DataSpace (RDS) (ADO)</span></span>
+# <a name="dataspace-rds-ado"></a><span data-ttu-id="2ccaf-102">Пространство (RDS) (ADO)</span><span class="sxs-lookup"><span data-stu-id="2ccaf-102">DataSpace (RDS) (ADO)</span></span>
 
-<span data-ttu-id="63faa-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="63faa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2ccaf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2ccaf-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="63faa-104">Объект Space (RDS)</span><span class="sxs-lookup"><span data-stu-id="63faa-104">DataSpace object (RDS)</span></span>](dataspace-object-rds.md)
-- [<span data-ttu-id="63faa-105">Свойства, методы и события пространства, события (RDS)</span><span class="sxs-lookup"><span data-stu-id="63faa-105">DataSpace properties, methods, and events (RDS)</span></span>](dataspace-properties-methods-and-events-rds.md)
+- [<span data-ttu-id="2ccaf-104">Объект Space (RDS)</span><span class="sxs-lookup"><span data-stu-id="2ccaf-104">DataSpace object (RDS)</span></span>](dataspace-object-rds.md)
+- [<span data-ttu-id="2ccaf-105">Свойства, методы и события пространства, события (RDS)</span><span class="sxs-lookup"><span data-stu-id="2ccaf-105">DataSpace properties, methods, and events (RDS)</span></span>](dataspace-properties-methods-and-events-rds.md)
 

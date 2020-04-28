@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289737"
 ---
-# <a name="marshaloptions-property-example-vj"></a><span data-ttu-id="23ee1-102">Пример использования свойства MarshalOptions (VJ++)</span><span class="sxs-lookup"><span data-stu-id="23ee1-102">MarshalOptions property example (VJ++)</span></span>
+# <a name="marshaloptions-property-example-vj"></a><span data-ttu-id="2ec63-102">Пример использования свойства MarshalOptions (VJ++)</span><span class="sxs-lookup"><span data-stu-id="2ec63-102">MarshalOptions property example (VJ++)</span></span>
 
 
-<span data-ttu-id="23ee1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23ee1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2ec63-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2ec63-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="23ee1-104">В этом примере используется свойство [MarshalOptions](marshaloptions-property-ado.md) для указания того, какие строки отправляются обратно на сервер — все строки или только измененные строки.</span><span class="sxs-lookup"><span data-stu-id="23ee1-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
+<span data-ttu-id="2ec63-104">В этом примере используется свойство [MarshalOptions](marshaloptions-property-ado.md) для указания того, какие строки отправляются обратно на сервер — все строки или только измененные строки.</span><span class="sxs-lookup"><span data-stu-id="2ec63-104">This example uses the [MarshalOptions](marshaloptions-property-ado.md) property to specify what rows are sent back to the server — All Rows or only Modified Rows.</span></span>
 
 ```java 
  

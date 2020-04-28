@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295683"
 ---
-# <a name="connectoptionenum"></a><span data-ttu-id="586b2-102">ConnectOptionEnum</span><span class="sxs-lookup"><span data-stu-id="586b2-102">ConnectOptionEnum</span></span>
+# <a name="connectoptionenum"></a><span data-ttu-id="80067-102">ConnectOptionEnum</span><span class="sxs-lookup"><span data-stu-id="80067-102">ConnectOptionEnum</span></span>
 
-<span data-ttu-id="586b2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="586b2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="80067-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="80067-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="586b2-104">Указывает, должен ли метод [Open](open-method-ado-connection.md) объекта [Connection](connection-object-ado.md) возвращаться (синхронно) или до (асинхронно) подключения.</span><span class="sxs-lookup"><span data-stu-id="586b2-104">Specifies whether the [Open](open-method-ado-connection.md) method of a [Connection](connection-object-ado.md) object should return after (synchronously) or before (asynchronously) the connection is established.</span></span>
+<span data-ttu-id="80067-104">Указывает, должен ли метод [Open](open-method-ado-connection.md) объекта [Connection](connection-object-ado.md) возвращаться (синхронно) или до (асинхронно) подключения.</span><span class="sxs-lookup"><span data-stu-id="80067-104">Specifies whether the [Open](open-method-ado-connection.md) method of a [Connection](connection-object-ado.md) object should return after (synchronously) or before (asynchronously) the connection is established.</span></span>
 
 <br/>
 
@@ -30,29 +30,29 @@ ms.locfileid: "32295683"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="586b2-105">Константа</span><span class="sxs-lookup"><span data-stu-id="586b2-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="586b2-106">Значение</span><span class="sxs-lookup"><span data-stu-id="586b2-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="586b2-107">Описание</span><span class="sxs-lookup"><span data-stu-id="586b2-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="80067-105">Константа</span><span class="sxs-lookup"><span data-stu-id="80067-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="80067-106">Значение</span><span class="sxs-lookup"><span data-stu-id="80067-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="80067-107">Описание</span><span class="sxs-lookup"><span data-stu-id="80067-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="586b2-108"><strong>Адасинкконнект</strong></span><span class="sxs-lookup"><span data-stu-id="586b2-108"><strong>adAsyncConnect</strong></span></span></p></td>
-<td><p><span data-ttu-id="586b2-109">столбцов</span><span class="sxs-lookup"><span data-stu-id="586b2-109">16</span></span></p></td>
-<td><p><span data-ttu-id="586b2-110">Асинхронно открывает подключение.</span><span class="sxs-lookup"><span data-stu-id="586b2-110">Opens the connection asynchronously.</span></span> <span data-ttu-id="586b2-111">Событие <a href="connectcomplete-and-disconnect-events-ado.md">события connectcomplete</a> можно использовать для определения доступности подключения.</span><span class="sxs-lookup"><span data-stu-id="586b2-111">The <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> event may be used to determine when the connection is available.</span></span></p></td>
+<td><p><span data-ttu-id="80067-108"><strong>адасинкконнект</strong></span><span class="sxs-lookup"><span data-stu-id="80067-108"><strong>adAsyncConnect</strong></span></span></p></td>
+<td><p><span data-ttu-id="80067-109">16 </span><span class="sxs-lookup"><span data-stu-id="80067-109">16</span></span></p></td>
+<td><p><span data-ttu-id="80067-110">Асинхронно открывает подключение.</span><span class="sxs-lookup"><span data-stu-id="80067-110">Opens the connection asynchronously.</span></span> <span data-ttu-id="80067-111">Событие <a href="connectcomplete-and-disconnect-events-ado.md">события connectcomplete</a> можно использовать для определения доступности подключения.</span><span class="sxs-lookup"><span data-stu-id="80067-111">The <a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a> event may be used to determine when the connection is available.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="586b2-112"><strong>АдконнектунспеЦифиед</strong></span><span class="sxs-lookup"><span data-stu-id="586b2-112"><strong>adConnectUnspecified</strong></span></span></p></td>
-<td><p><span data-ttu-id="586b2-113">–1</span><span class="sxs-lookup"><span data-stu-id="586b2-113">-1</span></span></p></td>
-<td><p><span data-ttu-id="586b2-114">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="586b2-114">Default.</span></span> <span data-ttu-id="586b2-115">Синхронно открывает подключение.</span><span class="sxs-lookup"><span data-stu-id="586b2-115">Opens the connection synchronously.</span></span></p></td>
+<td><p><span data-ttu-id="80067-112"><strong>адконнектунспеЦифиед</strong></span><span class="sxs-lookup"><span data-stu-id="80067-112"><strong>adConnectUnspecified</strong></span></span></p></td>
+<td><p><span data-ttu-id="80067-113">–1</span><span class="sxs-lookup"><span data-stu-id="80067-113">-1</span></span></p></td>
+<td><p><span data-ttu-id="80067-114">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="80067-114">Default.</span></span> <span data-ttu-id="80067-115">Синхронно открывает подключение.</span><span class="sxs-lookup"><span data-stu-id="80067-115">Opens the connection synchronously.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="586b2-116">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="586b2-116">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="80067-116">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="80067-116">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="586b2-117">Пакет: **com. MS. WFC. Data**</span><span class="sxs-lookup"><span data-stu-id="586b2-117">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="80067-117">Пакет: **com. MS. WFC. Data**</span><span class="sxs-lookup"><span data-stu-id="80067-117">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -60,15 +60,15 @@ ms.locfileid: "32295683"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="586b2-118">Константа</span><span class="sxs-lookup"><span data-stu-id="586b2-118">Constant</span></span></p></th>
+<th><p><span data-ttu-id="80067-118">Константа</span><span class="sxs-lookup"><span data-stu-id="80067-118">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="586b2-119">Адоенумс. Коннектоптион. АСИНККОННЕКТ</span><span class="sxs-lookup"><span data-stu-id="586b2-119">AdoEnums.ConnectOption.ASYNCCONNECT</span></span></p></td>
+<td><p><span data-ttu-id="80067-119">Адоенумс. Коннектоптион. АСИНККОННЕКТ</span><span class="sxs-lookup"><span data-stu-id="80067-119">AdoEnums.ConnectOption.ASYNCCONNECT</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="586b2-120">Адоенумс. Коннектоптион. КОННЕКТУНСПЕЦИФИЕД</span><span class="sxs-lookup"><span data-stu-id="586b2-120">AdoEnums.ConnectOption.CONNECTUNSPECIFIED</span></span></p></td>
+<td><p><span data-ttu-id="80067-120">Адоенумс. Коннектоптион. КОННЕКТУНСПЕЦИФИЕД</span><span class="sxs-lookup"><span data-stu-id="80067-120">AdoEnums.ConnectOption.CONNECTUNSPECIFIED</span></span></p></td>
 </tr>
 </tbody>
 </table>

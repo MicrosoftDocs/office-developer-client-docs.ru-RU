@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280211"
 ---
-# <a name="addnew-method-example-jscript"></a><span data-ttu-id="03b85-102">Пример использования метода AddNew (JScript)</span><span class="sxs-lookup"><span data-stu-id="03b85-102">AddNew method example (JScript)</span></span>
+# <a name="addnew-method-example-jscript"></a><span data-ttu-id="4efa7-102">Пример использования метода AddNew (JScript)</span><span class="sxs-lookup"><span data-stu-id="4efa7-102">AddNew method example (JScript)</span></span>
 
-<span data-ttu-id="03b85-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="03b85-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4efa7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4efa7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="03b85-104">В этом примере используется метод [AddNew](addnew-method-ado.md), чтобы создать запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="03b85-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span> <span data-ttu-id="03b85-105">Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **аддневжс. ASP**.</span><span class="sxs-lookup"><span data-stu-id="03b85-105">Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.</span></span>
+<span data-ttu-id="4efa7-104">В этом примере используется метод [AddNew](addnew-method-ado.md), чтобы создать запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="4efa7-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span> <span data-ttu-id="4efa7-105">Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **аддневжс. ASP**.</span><span class="sxs-lookup"><span data-stu-id="4efa7-105">Cut and paste the following code to Notepad or another text editor, and save it as **AddNewJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginAddNewJS --> 

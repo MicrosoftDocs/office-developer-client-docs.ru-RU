@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297041"
 ---
-# <a name="appendchunk-and-getchunk-methods-example-vc"></a><span data-ttu-id="daf83-102">Пример использования методов AppendChunk и GetChunk (VC++)</span><span class="sxs-lookup"><span data-stu-id="daf83-102">AppendChunk and GetChunk methods example (VC++)</span></span>
+# <a name="appendchunk-and-getchunk-methods-example-vc"></a><span data-ttu-id="866e6-102">Пример использования методов AppendChunk и GetChunk (VC++)</span><span class="sxs-lookup"><span data-stu-id="866e6-102">AppendChunk and GetChunk methods example (VC++)</span></span>
 
 
-<span data-ttu-id="daf83-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="daf83-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="866e6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="866e6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="daf83-104">В этом примере используются методы AppendChunk [](getchunk-method-ado.md) и [](appendchunk-method-ado.md) для заполнения поля изображения данными из другой записи.</span><span class="sxs-lookup"><span data-stu-id="daf83-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
+<span data-ttu-id="866e6-104">В этом примере [используются методы](getchunk-method-ado.md) [AppendChunk и](appendchunk-method-ado.md) для заполнения поля изображения данными из другой записи.</span><span class="sxs-lookup"><span data-stu-id="866e6-104">This example uses the [AppendChunk](appendchunk-method-ado.md) and [GetChunk](getchunk-method-ado.md) methods to fill an image field with data from another record.</span></span>
 
 ```cpp 
  
@@ -294,7 +294,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 // EndAppendChunkCpp 
 ```
 
-<span data-ttu-id="daf83-105">**Аппендчунккс. h**</span><span class="sxs-lookup"><span data-stu-id="daf83-105">**AppendChunkX.h**</span></span>
+<span data-ttu-id="866e6-105">**Аппендчунккс. h**</span><span class="sxs-lookup"><span data-stu-id="866e6-105">**AppendChunkX.h**</span></span>
 
 ```cpp 
  

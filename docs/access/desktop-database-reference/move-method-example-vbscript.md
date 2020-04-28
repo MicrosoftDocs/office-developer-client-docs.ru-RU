@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288843"
 ---
-# <a name="move-method-example-vbscript"></a><span data-ttu-id="45150-102">Пример использования метода Move (VBScript)</span><span class="sxs-lookup"><span data-stu-id="45150-102">Move method example (VBScript)</span></span>
+# <a name="move-method-example-vbscript"></a><span data-ttu-id="8e169-102">Пример использования метода Move (VBScript)</span><span class="sxs-lookup"><span data-stu-id="8e169-102">Move method example (VBScript)</span></span>
 
 
-<span data-ttu-id="45150-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="45150-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8e169-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8e169-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="45150-104">В этом примере с помощью метода [Move](move-method-ado.md) замещается указатель записи на основании вводимых пользователем данных.</span><span class="sxs-lookup"><span data-stu-id="45150-104">This example uses the [Move](move-method-ado.md) method to position the record pointer, based on user input.</span></span>
+<span data-ttu-id="8e169-104">В этом примере с помощью метода [Move](move-method-ado.md) замещается указатель записи на основании вводимых пользователем данных.</span><span class="sxs-lookup"><span data-stu-id="8e169-104">This example uses the [Move](move-method-ado.md) method to position the record pointer, based on user input.</span></span>
 
-<span data-ttu-id="45150-105">Используйте приведенный ниже пример на активной серверной странице (ASP).</span><span class="sxs-lookup"><span data-stu-id="45150-105">Use the following example in an Active Server Page (ASP).</span></span>
+<span data-ttu-id="8e169-105">Используйте приведенный ниже пример на активной серверной странице (ASP).</span><span class="sxs-lookup"><span data-stu-id="8e169-105">Use the following example in an Active Server Page (ASP).</span></span>
 
-<span data-ttu-id="45150-106">Используйте **Find** , чтобы найти файл адовбс. Inc и разместить его в каталоге, который планируется использовать.</span><span class="sxs-lookup"><span data-stu-id="45150-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="45150-107">Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **мовевбс. ASP**.</span><span class="sxs-lookup"><span data-stu-id="45150-107">Cut and paste the following code to Notepad or another text editor, and save it as **MoveVBS.asp**.</span></span> <span data-ttu-id="45150-108">Вы можете просмотреть результат в любом браузере.</span><span class="sxs-lookup"><span data-stu-id="45150-108">You can view the result in any browser.</span></span>
+<span data-ttu-id="8e169-106">Используйте **Find** , чтобы найти файл адовбс. Inc и разместить его в каталоге, который планируется использовать.</span><span class="sxs-lookup"><span data-stu-id="8e169-106">Use **Find** to locate the file Adovbs.inc and place it in the directory you plan to use.</span></span> <span data-ttu-id="8e169-107">Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **мовевбс. ASP**.</span><span class="sxs-lookup"><span data-stu-id="8e169-107">Cut and paste the following code to Notepad or another text editor, and save it as **MoveVBS.asp**.</span></span> <span data-ttu-id="8e169-108">Вы можете просмотреть результат в любом браузере.</span><span class="sxs-lookup"><span data-stu-id="8e169-108">You can view the result in any browser.</span></span>
 
-<span data-ttu-id="45150-109">Попробуйте ввести букву или нецелое число, чтобы увидеть работу по обработке ошибок.</span><span class="sxs-lookup"><span data-stu-id="45150-109">Try entering a letter or noninteger to see the error handling work.</span></span>
+<span data-ttu-id="8e169-109">Попробуйте ввести букву или нецелое число, чтобы увидеть работу по обработке ошибок.</span><span class="sxs-lookup"><span data-stu-id="8e169-109">Try entering a letter or noninteger to see the error handling work.</span></span>
 
 ```vb 
  

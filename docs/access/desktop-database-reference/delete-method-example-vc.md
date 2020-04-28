@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294066"
 ---
-# <a name="delete-method-example-vc"></a><span data-ttu-id="e66c6-102">Пример использования метода Delete (VC++)</span><span class="sxs-lookup"><span data-stu-id="e66c6-102">Delete method example (VC++)</span></span>
+# <a name="delete-method-example-vc"></a><span data-ttu-id="58117-102">Пример использования метода Delete (VC++)</span><span class="sxs-lookup"><span data-stu-id="58117-102">Delete method example (VC++)</span></span>
 
 
-<span data-ttu-id="e66c6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e66c6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="58117-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="58117-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e66c6-104">В этом примере используется метод [Delete](delete-method-ado-recordset.md) для удаления указанной записи из объекта [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="e66c6-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
+<span data-ttu-id="58117-104">В этом примере используется метод [Delete](delete-method-ado-recordset.md) для удаления указанной записи из объекта [Recordset](recordset-object-ado.md).</span><span class="sxs-lookup"><span data-stu-id="58117-104">This example uses the [Delete](delete-method-ado-recordset.md) method to remove a specified record from a [Recordset](recordset-object-ado.md).</span></span>
 
 ```cpp 
  
@@ -294,7 +294,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-<span data-ttu-id="e66c6-105">**Делетекс. h**</span><span class="sxs-lookup"><span data-stu-id="e66c6-105">**DeleteX.h**</span></span>
+<span data-ttu-id="58117-105">**Делетекс. h**</span><span class="sxs-lookup"><span data-stu-id="58117-105">**DeleteX.h**</span></span>
 
 ```cpp 
  

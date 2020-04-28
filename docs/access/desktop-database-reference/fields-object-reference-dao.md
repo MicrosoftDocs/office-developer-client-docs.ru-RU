@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292505"
 ---
-# <a name="fields-object-reference-dao"></a><span data-ttu-id="ef07b-102">Ссылка на объект Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef07b-102">Fields object reference (DAO)</span></span>
+# <a name="fields-object-reference-dao"></a><span data-ttu-id="de194-102">Ссылка на объект Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="de194-102">Fields object reference (DAO)</span></span>
 
-<span data-ttu-id="ef07b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ef07b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="de194-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="de194-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ef07b-104">Коллекция Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef07b-104">Fields collection (DAO)</span></span>](fields-collection-dao.md)
-- [<span data-ttu-id="ef07b-105">Элементы Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef07b-105">Fields members (DAO)</span></span>](fields-members-dao.md)
-- [<span data-ttu-id="ef07b-106">Свойства Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef07b-106">Fields properties (DAO)</span></span>](fields-properties-dao.md)
-- [<span data-ttu-id="ef07b-107">Методы Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef07b-107">Fields methods (DAO)</span></span>](fields-methods-dao.md)
+- [<span data-ttu-id="de194-104">Коллекция Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="de194-104">Fields collection (DAO)</span></span>](fields-collection-dao.md)
+- [<span data-ttu-id="de194-105">Элементы Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="de194-105">Fields members (DAO)</span></span>](fields-members-dao.md)
+- [<span data-ttu-id="de194-106">Свойства Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="de194-106">Fields properties (DAO)</span></span>](fields-properties-dao.md)
+- [<span data-ttu-id="de194-107">Методы Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="de194-107">Fields methods (DAO)</span></span>](fields-methods-dao.md)
 

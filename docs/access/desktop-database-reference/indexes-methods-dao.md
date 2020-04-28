@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291507"
 ---
-# <a name="indexes-methods-dao"></a><span data-ttu-id="6bfef-102">Методы indexes (DAO)</span><span class="sxs-lookup"><span data-stu-id="6bfef-102">Indexes methods (DAO)</span></span>
+# <a name="indexes-methods-dao"></a><span data-ttu-id="66325-102">Методы indexes (DAO)</span><span class="sxs-lookup"><span data-stu-id="66325-102">Indexes methods (DAO)</span></span>
 
-<span data-ttu-id="6bfef-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6bfef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="66325-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="66325-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="6bfef-104">Метод indexes. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="6bfef-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
-- [<span data-ttu-id="6bfef-105">Метод indexes. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="6bfef-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
-- [<span data-ttu-id="6bfef-106">Метод indexes. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="6bfef-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
+- [<span data-ttu-id="66325-104">Метод indexes. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="66325-104">Indexes.Append method (DAO)</span></span>](indexes-append-method-dao.md)
+- [<span data-ttu-id="66325-105">Метод indexes. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="66325-105">Indexes.Delete method (DAO)</span></span>](indexes-delete-method-dao.md)
+- [<span data-ttu-id="66325-106">Метод indexes. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="66325-106">Indexes.Refresh method (DAO)</span></span>](indexes-refresh-method-dao.md)
 

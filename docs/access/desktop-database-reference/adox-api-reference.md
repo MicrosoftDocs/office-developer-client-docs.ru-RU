@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282840"
 ---
-# <a name="adox-api-reference"></a><span data-ttu-id="5b47b-102">Справочник по API ADOX</span><span class="sxs-lookup"><span data-stu-id="5b47b-102">ADOX API reference</span></span>
+# <a name="adox-api-reference"></a><span data-ttu-id="880b3-102">Справочник по API ADOX</span><span class="sxs-lookup"><span data-stu-id="880b3-102">ADOX API reference</span></span>
 
-<span data-ttu-id="5b47b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5b47b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="880b3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="880b3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5b47b-104">В этом разделе документации ADOX содержатся подразделы для каждого объекта ADOX, коллекции, метода и свойства, а также примеры кода, когда это необходимо.</span><span class="sxs-lookup"><span data-stu-id="5b47b-104">This section of the ADOX documentation contains topics for each ADOX object, collection, method, and property, as well as example code when appropriate.</span></span> <span data-ttu-id="5b47b-105">Для получения дополнительных сведений выполните поиск определенной темы в индексе или ознакомьтесь со следующими разделами:</span><span class="sxs-lookup"><span data-stu-id="5b47b-105">For more information, search for a specific topic in the index or refer to the following topics:</span></span>
+<span data-ttu-id="880b3-104">В этом разделе документации ADOX содержатся подразделы для каждого объекта ADOX, коллекции, метода и свойства, а также примеры кода, когда это необходимо.</span><span class="sxs-lookup"><span data-stu-id="880b3-104">This section of the ADOX documentation contains topics for each ADOX object, collection, method, and property, as well as example code when appropriate.</span></span> <span data-ttu-id="880b3-105">Для получения дополнительных сведений выполните поиск определенной темы в индексе или ознакомьтесь со следующими разделами:</span><span class="sxs-lookup"><span data-stu-id="880b3-105">For more information, search for a specific topic in the index or refer to the following topics:</span></span>
 
-- [<span data-ttu-id="5b47b-106">Объекты ADOX</span><span class="sxs-lookup"><span data-stu-id="5b47b-106">ADOX objects</span></span>](adox-objects.md)
-- [<span data-ttu-id="5b47b-107">Коллекции ADOX</span><span class="sxs-lookup"><span data-stu-id="5b47b-107">ADOX collections</span></span>](adox-collections.md)
-- [<span data-ttu-id="5b47b-108">Свойства ADOX</span><span class="sxs-lookup"><span data-stu-id="5b47b-108">ADOX properties</span></span>](adox-properties.md)
-- [<span data-ttu-id="5b47b-109">Методы ADOX</span><span class="sxs-lookup"><span data-stu-id="5b47b-109">ADOX methods</span></span>](adox-methods.md)
-- [<span data-ttu-id="5b47b-110">Перечислимые константы ADOX</span><span class="sxs-lookup"><span data-stu-id="5b47b-110">ADOX enumerated constants</span></span>](adox-enumerated-constants.md)
-- [<span data-ttu-id="5b47b-111">Примеры кода ADOX</span><span class="sxs-lookup"><span data-stu-id="5b47b-111">ADOX code examples</span></span>](adox-code-examples.md)
+- [<span data-ttu-id="880b3-106">Объекты ADOX</span><span class="sxs-lookup"><span data-stu-id="880b3-106">ADOX objects</span></span>](adox-objects.md)
+- [<span data-ttu-id="880b3-107">Коллекции ADOX</span><span class="sxs-lookup"><span data-stu-id="880b3-107">ADOX collections</span></span>](adox-collections.md)
+- [<span data-ttu-id="880b3-108">Свойства ADOX</span><span class="sxs-lookup"><span data-stu-id="880b3-108">ADOX properties</span></span>](adox-properties.md)
+- [<span data-ttu-id="880b3-109">Методы ADOX</span><span class="sxs-lookup"><span data-stu-id="880b3-109">ADOX methods</span></span>](adox-methods.md)
+- [<span data-ttu-id="880b3-110">Перечислимые константы ADOX</span><span class="sxs-lookup"><span data-stu-id="880b3-110">ADOX enumerated constants</span></span>](adox-enumerated-constants.md)
+- [<span data-ttu-id="880b3-111">Примеры кода ADOX</span><span class="sxs-lookup"><span data-stu-id="880b3-111">ADOX code examples</span></span>](adox-code-examples.md)
 

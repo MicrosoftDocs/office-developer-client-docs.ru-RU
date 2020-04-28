@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287932"
 ---
-# <a name="parameters-collection-command-property-example-vb"></a><span data-ttu-id="00603-102">Коллекция Parameters, пример свойства Command (VB)</span><span class="sxs-lookup"><span data-stu-id="00603-102">Parameters Collection, Command property example (VB)</span></span>
+# <a name="parameters-collection-command-property-example-vb"></a><span data-ttu-id="42c5e-102">Коллекция Parameters, пример свойства Command (VB)</span><span class="sxs-lookup"><span data-stu-id="42c5e-102">Parameters Collection, Command property example (VB)</span></span>
 
 
-<span data-ttu-id="00603-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="00603-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="42c5e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="42c5e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="00603-104">В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) с объектом [Command](command-object-ado.md) для получения сведений о параметрах для процедуры.</span><span class="sxs-lookup"><span data-stu-id="00603-104">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
+<span data-ttu-id="42c5e-104">В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) с объектом [Command](command-object-ado.md) для получения сведений о параметрах для процедуры.</span><span class="sxs-lookup"><span data-stu-id="42c5e-104">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
 
 ```vb 
  

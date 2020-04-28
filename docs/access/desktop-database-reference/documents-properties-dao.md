@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293695"
 ---
-# <a name="documents-properties-dao"></a><span data-ttu-id="67f47-102">Свойства документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="67f47-102">Documents properties (DAO)</span></span>
+# <a name="documents-properties-dao"></a><span data-ttu-id="b4350-102">Свойства документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="b4350-102">Documents properties (DAO)</span></span>
 
-<span data-ttu-id="67f47-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="67f47-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b4350-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b4350-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="67f47-104">Свойство Documents. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="67f47-104">Documents.Count property (DAO)</span></span>](documents-count-property-dao.md)
+- [<span data-ttu-id="b4350-104">Свойство Documents. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="b4350-104">Documents.Count property (DAO)</span></span>](documents-count-property-dao.md)
 

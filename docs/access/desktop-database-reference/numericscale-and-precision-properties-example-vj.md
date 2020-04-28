@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288562"
 ---
-# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="2b1e1-102">Пример использования свойств NumericScale и Precision (VJ++)</span><span class="sxs-lookup"><span data-stu-id="2b1e1-102">NumericScale and Precision properties example (VJ++)</span></span>
+# <a name="numericscale-and-precision-properties-example-vj"></a><span data-ttu-id="e9fcd-102">Пример использования свойств NumericScale и Precision (VJ++)</span><span class="sxs-lookup"><span data-stu-id="e9fcd-102">NumericScale and Precision properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="2b1e1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b1e1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e9fcd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9fcd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2b1e1-104">В этом примере используются свойства [NumericScale](numericscale-property-ado.md) и [Precision](precision-property-ado.md) для отображения числового масштаба и точности полей в таблице ***скидок*** базы данных ***pubs*** .</span><span class="sxs-lookup"><span data-stu-id="2b1e1-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
+<span data-ttu-id="e9fcd-104">В этом примере используются свойства [NumericScale](numericscale-property-ado.md) и [Precision](precision-property-ado.md) для отображения числового масштаба и точности полей в таблице ***скидок*** базы данных ***pubs*** .</span><span class="sxs-lookup"><span data-stu-id="e9fcd-104">This example uses the [NumericScale](numericscale-property-ado.md) and [Precision](precision-property-ado.md) properties to display the numeric scale and precision of fields in the ***Discounts*** table of the ***Pubs*** database.</span></span>
 
 ```java 
  

@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283228"
 ---
-# <a name="ado-programmers-reference-topics"></a><span data-ttu-id="789c9-102">Справочные разделы программиста по ADO</span><span class="sxs-lookup"><span data-stu-id="789c9-102">ADO programmer's reference topics</span></span>
+# <a name="ado-programmers-reference-topics"></a><span data-ttu-id="3c481-102">Справочные разделы программиста по ADO</span><span class="sxs-lookup"><span data-stu-id="3c481-102">ADO programmer's reference topics</span></span>
 
-<span data-ttu-id="789c9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="789c9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3c481-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3c481-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="789c9-104">Справочные материалы по API ADO</span><span class="sxs-lookup"><span data-stu-id="789c9-104">ADO API reference topics</span></span>](ado-api-reference-topics.md)
-- [<span data-ttu-id="789c9-105">Справочные материалы по API RDS</span><span class="sxs-lookup"><span data-stu-id="789c9-105">RDS API reference topics</span></span>](rds-api-reference-topics.md)
-- [<span data-ttu-id="789c9-106">Справочные материалы по API ADO MD</span><span class="sxs-lookup"><span data-stu-id="789c9-106">ADO MD API reference topics</span></span>](ado-md-api-reference-topics.md)
-- [<span data-ttu-id="789c9-107">Справочные материалы по API ADOX</span><span class="sxs-lookup"><span data-stu-id="789c9-107">ADOX API reference topics</span></span>](adox-api-reference-topics.md)
+- [<span data-ttu-id="3c481-104">Справочные материалы по API ADO</span><span class="sxs-lookup"><span data-stu-id="3c481-104">ADO API reference topics</span></span>](ado-api-reference-topics.md)
+- [<span data-ttu-id="3c481-105">Справочные материалы по API RDS</span><span class="sxs-lookup"><span data-stu-id="3c481-105">RDS API reference topics</span></span>](rds-api-reference-topics.md)
+- [<span data-ttu-id="3c481-106">Справочные материалы по API ADO MD</span><span class="sxs-lookup"><span data-stu-id="3c481-106">ADO MD API reference topics</span></span>](ado-md-api-reference-topics.md)
+- [<span data-ttu-id="3c481-107">Справочные материалы по API ADOX</span><span class="sxs-lookup"><span data-stu-id="3c481-107">ADOX API reference topics</span></span>](adox-api-reference-topics.md)
 

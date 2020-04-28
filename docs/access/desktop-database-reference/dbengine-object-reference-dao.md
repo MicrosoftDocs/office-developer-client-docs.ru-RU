@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294248"
 ---
-# <a name="dbengine-object-reference-dao"></a><span data-ttu-id="da4dd-102">Ссылка на объект DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="da4dd-102">DBEngine object reference (DAO)</span></span>
+# <a name="dbengine-object-reference-dao"></a><span data-ttu-id="9e729-102">Ссылка на объект DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e729-102">DBEngine object reference (DAO)</span></span>
 
-<span data-ttu-id="da4dd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="da4dd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9e729-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e729-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="da4dd-104">Объект DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="da4dd-104">DBEngine object (DAO)</span></span>](dbengine-object-dao.md)
-- [<span data-ttu-id="da4dd-105">Элементы DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="da4dd-105">DBEngine members (DAO)</span></span>](dbengine-members-dao.md)
-- [<span data-ttu-id="da4dd-106">Свойства DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="da4dd-106">DBEngine properties (DAO)</span></span>](dbengine-properties-dao.md)
-- [<span data-ttu-id="da4dd-107">Методы DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="da4dd-107">DBEngine methods (DAO)</span></span>](dbengine-methods-dao.md)
+- [<span data-ttu-id="9e729-104">Объект DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e729-104">DBEngine object (DAO)</span></span>](dbengine-object-dao.md)
+- [<span data-ttu-id="9e729-105">Элементы DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e729-105">DBEngine members (DAO)</span></span>](dbengine-members-dao.md)
+- [<span data-ttu-id="9e729-106">Свойства DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e729-106">DBEngine properties (DAO)</span></span>](dbengine-properties-dao.md)
+- [<span data-ttu-id="9e729-107">Методы DBEngine (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e729-107">DBEngine methods (DAO)</span></span>](dbengine-methods-dao.md)
 

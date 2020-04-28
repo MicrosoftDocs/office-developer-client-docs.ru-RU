@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296047"
 ---
-# <a name="complextype-members-dao"></a><span data-ttu-id="9f3e1-102">Члены ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="9f3e1-102">ComplexType members (DAO)</span></span>
+# <a name="complextype-members-dao"></a><span data-ttu-id="1abae-102">Члены ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="1abae-102">ComplexType members (DAO)</span></span>
 
 
-<span data-ttu-id="9f3e1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9f3e1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1abae-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1abae-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9f3e1-104">Представляет Многозначное поле.</span><span class="sxs-lookup"><span data-stu-id="9f3e1-104">Represents a multi-valued field.</span></span>
+<span data-ttu-id="1abae-104">Представляет Многозначное поле.</span><span class="sxs-lookup"><span data-stu-id="1abae-104">Represents a multi-valued field.</span></span>
 
-## <a name="properties"></a><span data-ttu-id="9f3e1-105">Свойства</span><span class="sxs-lookup"><span data-stu-id="9f3e1-105">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="1abae-105">Свойства</span><span class="sxs-lookup"><span data-stu-id="1abae-105">Properties</span></span>
 
 <table>
 <colgroup>
@@ -30,14 +30,14 @@ ms.locfileid: "32296047"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="9f3e1-106">Имя</span><span class="sxs-lookup"><span data-stu-id="9f3e1-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="9f3e1-107">Описание</span><span class="sxs-lookup"><span data-stu-id="9f3e1-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="1abae-106">Имя</span><span class="sxs-lookup"><span data-stu-id="1abae-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="1abae-107">Описание</span><span class="sxs-lookup"><span data-stu-id="1abae-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="9f3e1-108"><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></span><span class="sxs-lookup"><span data-stu-id="9f3e1-108"><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="9f3e1-109">Возвращает коллекцию <strong>Fields</strong>, которая представляет все объекты <strong>Field</strong> для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="9f3e1-109">Returns a <strong>Fields</strong> collection that represents all stored <strong>Field</strong> objects for the specified object.</span></span> <span data-ttu-id="9f3e1-110">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9f3e1-110">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="1abae-108"><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></span><span class="sxs-lookup"><span data-stu-id="1abae-108"><strong><a href="complextype-fields-property-dao.md">Fields</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="1abae-109">Возвращает коллекцию <strong>Fields</strong>, которая представляет все объекты <strong>Field</strong> для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="1abae-109">Returns a <strong>Fields</strong> collection that represents all stored <strong>Field</strong> objects for the specified object.</span></span> <span data-ttu-id="1abae-110">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1abae-110">Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297111"
 ---
-# <a name="append-and-createparameter-methods-example-vc"></a><span data-ttu-id="debb8-102">Пример использования методов Append и CreateParameter (VC++)</span><span class="sxs-lookup"><span data-stu-id="debb8-102">Append and CreateParameter methods example (VC++)</span></span>
+# <a name="append-and-createparameter-methods-example-vc"></a><span data-ttu-id="bcd2d-102">Пример использования методов Append и CreateParameter (VC++)</span><span class="sxs-lookup"><span data-stu-id="bcd2d-102">Append and CreateParameter methods example (VC++)</span></span>
 
 
-<span data-ttu-id="debb8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="debb8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bcd2d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bcd2d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="debb8-104">В этом примере используются методы [append](append-method-ado.md) и [CreateParameter](createparameter-method-ado.md) для выполнения хранимой процедуры с входным параметром.</span><span class="sxs-lookup"><span data-stu-id="debb8-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
+<span data-ttu-id="bcd2d-104">В этом примере используются методы [append](append-method-ado.md) и [CreateParameter](createparameter-method-ado.md) для выполнения хранимой процедуры с входным параметром.</span><span class="sxs-lookup"><span data-stu-id="bcd2d-104">This example uses the [Append](append-method-ado.md) and [CreateParameter](createparameter-method-ado.md) methods to execute a stored procedure with an input parameter.</span></span>
 
 ```cpp 
  
@@ -200,7 +200,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-<span data-ttu-id="debb8-105">**Аппендкс. h**</span><span class="sxs-lookup"><span data-stu-id="debb8-105">**AppendX.h**</span></span>
+<span data-ttu-id="bcd2d-105">**Аппендкс. h**</span><span class="sxs-lookup"><span data-stu-id="bcd2d-105">**AppendX.h**</span></span>
 
 ```cpp 
  

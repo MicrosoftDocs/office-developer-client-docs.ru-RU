@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295319"
 ---
-# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="b13b1-102">Создание и выполнение простой команды</span><span class="sxs-lookup"><span data-stu-id="b13b1-102">Creating and executing a simple command</span></span>
+# <a name="creating-and-executing-a-simple-command"></a><span data-ttu-id="ad1a7-102">Создание и выполнение простой команды</span><span class="sxs-lookup"><span data-stu-id="ad1a7-102">Creating and executing a simple command</span></span>
 
 
-<span data-ttu-id="b13b1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b13b1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ad1a7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad1a7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b13b1-104">Хотя объект **Command** не является типичным, приведенный ниже код показывает базовый метод использования объекта **Command** для выполнения команды для источника данных.</span><span class="sxs-lookup"><span data-stu-id="b13b1-104">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source.</span></span> <span data-ttu-id="b13b1-105">В этом случае это команда, возвращающая строки, поэтому она возвращает результаты выполнения команды в объект **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="b13b1-105">In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
+<span data-ttu-id="ad1a7-104">Хотя объект **Command** не является типичным, приведенный ниже код показывает базовый метод использования объекта **Command** для выполнения команды для источника данных.</span><span class="sxs-lookup"><span data-stu-id="ad1a7-104">Though not a typical usage of the **Command** object, the following code shows the basic method of using the **Command** object to execute a command against a data source.</span></span> <span data-ttu-id="ad1a7-105">В этом случае это команда, возвращающая строки, поэтому она возвращает результаты выполнения команды в объект **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="ad1a7-105">In this case, it is a row-returning command, so it returns the results of the command execution into a **Recordset** object.</span></span>
 
 ```vb 
  
@@ -79,11 +79,11 @@ ErrHandler:
 'EndBasicCmd 
 ```
 
-<span data-ttu-id="b13b1-106">Выполняемая команда указывается с помощью свойства **CommandText** .</span><span class="sxs-lookup"><span data-stu-id="b13b1-106">The command to be executed is specified with the **CommandText** property.</span></span>
+<span data-ttu-id="ad1a7-106">Выполняемая команда указывается с помощью свойства **CommandText** .</span><span class="sxs-lookup"><span data-stu-id="ad1a7-106">The command to be executed is specified with the **CommandText** property.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="b13b1-107">Несколько примеров в этом разделе вызывают служебную функцию, **жетневконнектион**, чтобы установить подключение к поставщику данных.</span><span class="sxs-lookup"><span data-stu-id="b13b1-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="b13b1-108">Чтобы избежать избыточности, он указывается только один раз:</span><span class="sxs-lookup"><span data-stu-id="b13b1-108">To avoid redundancy, it is listed only once:</span></span>
+> <span data-ttu-id="ad1a7-107">Несколько примеров в этом разделе вызывают служебную функцию, **жетневконнектион**, чтобы установить подключение к поставщику данных.</span><span class="sxs-lookup"><span data-stu-id="ad1a7-107">Several examples in this section call a utility function, **GetNewConnection**, to establish a connection with the data provider.</span></span> <span data-ttu-id="ad1a7-108">Чтобы избежать избыточности, он указывается только один раз:</span><span class="sxs-lookup"><span data-stu-id="ad1a7-108">To avoid redundancy, it is listed only once:</span></span>
 
 ```vb 
  

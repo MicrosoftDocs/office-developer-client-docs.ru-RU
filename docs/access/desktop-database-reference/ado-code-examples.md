@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281813"
 ---
-# <a name="ado-code-examples"></a><span data-ttu-id="79820-102">Примеры кода ADO</span><span class="sxs-lookup"><span data-stu-id="79820-102">ADO code examples</span></span>
+# <a name="ado-code-examples"></a><span data-ttu-id="031c3-102">Примеры кода ADO</span><span class="sxs-lookup"><span data-stu-id="031c3-102">ADO code examples</span></span>
 
-<span data-ttu-id="79820-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="79820-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="031c3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="031c3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="79820-104">Используйте приведенные ниже примеры кода, чтобы узнать, как использовать объекты ADO, методы, свойства и события.</span><span class="sxs-lookup"><span data-stu-id="79820-104">Use the following code examples to learn how to use the ADO objects, methods, properties, and events.</span></span>
+<span data-ttu-id="031c3-104">Используйте приведенные ниже примеры кода, чтобы узнать, как использовать объекты ADO, методы, свойства и события.</span><span class="sxs-lookup"><span data-stu-id="031c3-104">Use the following code examples to learn how to use the ADO objects, methods, properties, and events.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="79820-105">Вставьте весь пример кода в редакторе кода.</span><span class="sxs-lookup"><span data-stu-id="79820-105">Paste the entire code example into your code editor.</span></span> <span data-ttu-id="79820-106">Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.</span><span class="sxs-lookup"><span data-stu-id="79820-106">The example may not run correctly if partial examples are used or if paragraph formatting is lost.</span></span>
+> <span data-ttu-id="031c3-105">Вставьте весь пример кода в редакторе кода.</span><span class="sxs-lookup"><span data-stu-id="031c3-105">Paste the entire code example into your code editor.</span></span> <span data-ttu-id="031c3-106">Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.</span><span class="sxs-lookup"><span data-stu-id="031c3-106">The example may not run correctly if partial examples are used or if paragraph formatting is lost.</span></span>
 
-- [<span data-ttu-id="79820-107">Примеры кода ADO в Microsoft Visual Basic</span><span class="sxs-lookup"><span data-stu-id="79820-107">ADO code examples in Microsoft Visual Basic</span></span>](ado-code-examples-in-microsoft-visual-basic.md)
-- [<span data-ttu-id="79820-108">Примеры кода ADO на языке сценариев VBScript</span><span class="sxs-lookup"><span data-stu-id="79820-108">ADO code examples in Microsoft Visual Basic Scripting Edition</span></span>](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)
-- [<span data-ttu-id="79820-109">Примеры кода ADO в Microsoft Visual C++</span><span class="sxs-lookup"><span data-stu-id="79820-109">ADO code examples in Microsoft Visual C++</span></span>](ado-code-examples-in-microsoft-visual-c.md)
-- [<span data-ttu-id="79820-110">Примеры кода ADO на Microsoft Visual J++</span><span class="sxs-lookup"><span data-stu-id="79820-110">ADO code examples in Microsoft Visual J++</span></span>](ado-code-examples-in-microsoft-visual-j.md)
-- [<span data-ttu-id="79820-111">Примеры кода ADO на Microsoft JScript</span><span class="sxs-lookup"><span data-stu-id="79820-111">ADO code examples in Microsoft JScript</span></span>](ado-code-examples-in-microsoft-jscript.md)
+- [<span data-ttu-id="031c3-107">Примеры кода ADO в Microsoft Visual Basic</span><span class="sxs-lookup"><span data-stu-id="031c3-107">ADO code examples in Microsoft Visual Basic</span></span>](ado-code-examples-in-microsoft-visual-basic.md)
+- [<span data-ttu-id="031c3-108">Примеры кода ADO на языке сценариев VBScript</span><span class="sxs-lookup"><span data-stu-id="031c3-108">ADO code examples in Microsoft Visual Basic Scripting Edition</span></span>](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)
+- [<span data-ttu-id="031c3-109">Примеры кода ADO в Microsoft Visual C++</span><span class="sxs-lookup"><span data-stu-id="031c3-109">ADO code examples in Microsoft Visual C++</span></span>](ado-code-examples-in-microsoft-visual-c.md)
+- [<span data-ttu-id="031c3-110">Примеры кода ADO на Microsoft Visual J++</span><span class="sxs-lookup"><span data-stu-id="031c3-110">ADO code examples in Microsoft Visual J++</span></span>](ado-code-examples-in-microsoft-visual-j.md)
+- [<span data-ttu-id="031c3-111">Примеры кода ADO на Microsoft JScript</span><span class="sxs-lookup"><span data-stu-id="031c3-111">ADO code examples in Microsoft JScript</span></span>](ado-code-examples-in-microsoft-jscript.md)
 

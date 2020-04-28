@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291250"
 ---
-# <a name="intervening-shape-compute-clauses"></a><span data-ttu-id="8424e-102">Промежуточные предложения вычисления фигур</span><span class="sxs-lookup"><span data-stu-id="8424e-102">Intervening Shape COMPUTE clauses</span></span>
+# <a name="intervening-shape-compute-clauses"></a><span data-ttu-id="f26fd-102">Промежуточные предложения вычисления фигур</span><span class="sxs-lookup"><span data-stu-id="f26fd-102">Intervening Shape COMPUTE clauses</span></span>
 
 
-<span data-ttu-id="8424e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8424e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f26fd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f26fd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8424e-104">Допускается внедрение одного или нескольких предложений COMPUTE между родительским и дочерним элементом в команде параметризованной фигуры, как показано в следующем примере:</span><span class="sxs-lookup"><span data-stu-id="8424e-104">It is valid to embed one or more COMPUTE clauses between the parent and child in a parameterized shape command, as in the following example:</span></span>
+<span data-ttu-id="f26fd-104">Допускается внедрение одного или нескольких предложений COMPUTE между родительским и дочерним элементом в команде параметризованной фигуры, как показано в следующем примере:</span><span class="sxs-lookup"><span data-stu-id="f26fd-104">It is valid to embed one or more COMPUTE clauses between the parent and child in a parameterized shape command, as in the following example:</span></span>
 
 ```vb 
  

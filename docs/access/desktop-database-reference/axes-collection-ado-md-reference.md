@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296929"
 ---
-# <a name="axes-collection-ado-md-reference"></a><span data-ttu-id="5ca6f-102">Коллекция осей (справочные материалы по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="5ca6f-102">Axes collection (ADO MD reference)</span></span>
+# <a name="axes-collection-ado-md-reference"></a><span data-ttu-id="31322-102">Коллекция осей (справочные материалы по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="31322-102">Axes collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="5ca6f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5ca6f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="31322-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="31322-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="5ca6f-104">Коллекция осей (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="5ca6f-104">Axes collection (ADO MD)</span></span>](axes-collection-ado-md.md)
-- [<span data-ttu-id="5ca6f-105">Свойства, методы и события коллекции осей (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="5ca6f-105">Axes collection properties, methods, and events (ADO MD)</span></span>](axes-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="31322-104">Коллекция осей (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="31322-104">Axes collection (ADO MD)</span></span>](axes-collection-ado-md.md)
+- [<span data-ttu-id="31322-105">Свойства, методы и события коллекции осей (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="31322-105">Axes collection properties, methods, and events (ADO MD)</span></span>](axes-collection-properties-methods-and-events-ado-md.md)
 

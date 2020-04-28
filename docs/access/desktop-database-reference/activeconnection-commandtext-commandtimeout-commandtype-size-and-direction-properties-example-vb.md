@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282553"
 ---
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb"></a><span data-ttu-id="c34ac-102">Пример использования свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction (VB)</span><span class="sxs-lookup"><span data-stu-id="c34ac-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VB)</span></span>
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb"></a><span data-ttu-id="e3455-102">Пример использования свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction (VB)</span><span class="sxs-lookup"><span data-stu-id="e3455-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VB)</span></span>
 
-<span data-ttu-id="c34ac-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c34ac-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e3455-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e3455-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c34ac-104">В этом примере используются свойства [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [size](size-property-ado.md)и [Direction](direction-property-ado.md) для выполнения хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="c34ac-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
+<span data-ttu-id="e3455-104">В этом примере используются свойства [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [size](size-property-ado.md)и [Direction](direction-property-ado.md) для выполнения хранимой процедуры.</span><span class="sxs-lookup"><span data-stu-id="e3455-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
 
 ```vb 
  

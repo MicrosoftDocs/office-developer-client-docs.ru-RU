@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294241"
 ---
-# <a name="dbengineproperties-property-dao"></a><span data-ttu-id="47a3b-102">Свойство DBEngine. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="47a3b-102">DBEngine.Properties property (DAO)</span></span>
+# <a name="dbengineproperties-property-dao"></a><span data-ttu-id="033c6-102">Свойство DBEngine. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="033c6-102">DBEngine.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="47a3b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="47a3b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="033c6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="033c6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="47a3b-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="47a3b-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="47a3b-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="47a3b-105">Read-only.</span></span>
+<span data-ttu-id="033c6-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="033c6-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="033c6-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="033c6-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="47a3b-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="47a3b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="033c6-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="033c6-106">Syntax</span></span>
 
-<span data-ttu-id="47a3b-107">*Expression* . Параметры</span><span class="sxs-lookup"><span data-stu-id="47a3b-107">*expression* .Properties</span></span>
+<span data-ttu-id="033c6-107">*Expression* . Параметры</span><span class="sxs-lookup"><span data-stu-id="033c6-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="47a3b-108">*Expression (выражение* ) Переменная, представляющая объект **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="47a3b-108">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="033c6-108">*expression*: переменная, представляющая объект **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="033c6-108">*expression* A variable that represents a **DBEngine** object.</span></span>
 

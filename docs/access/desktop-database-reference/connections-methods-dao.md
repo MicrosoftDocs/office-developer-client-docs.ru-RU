@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295774"
 ---
-# <a name="connections-methods-dao"></a><span data-ttu-id="6f94f-102">Методы подключений (DAO)</span><span class="sxs-lookup"><span data-stu-id="6f94f-102">Connections methods (DAO)</span></span>
+# <a name="connections-methods-dao"></a><span data-ttu-id="d6b77-102">Методы подключений (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6b77-102">Connections methods (DAO)</span></span>
 
-<span data-ttu-id="6f94f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6f94f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d6b77-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6b77-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="6f94f-104">Метод Connections. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="6f94f-104">Connections.Refresh method (DAO)</span></span>](connections-refresh-method-dao.md)
+- [<span data-ttu-id="d6b77-104">Метод Connections. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6b77-104">Connections.Refresh method (DAO)</span></span>](connections-refresh-method-dao.md)
 

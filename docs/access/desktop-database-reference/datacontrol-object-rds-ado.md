@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294528"
 ---
-# <a name="datacontrol-rds-ado"></a><span data-ttu-id="dfa75-102">Управление объектами (RDS)</span><span class="sxs-lookup"><span data-stu-id="dfa75-102">DataControl (RDS) (ADO)</span></span>
+# <a name="datacontrol-rds-ado"></a><span data-ttu-id="11a11-102">Управление объектами (RDS)</span><span class="sxs-lookup"><span data-stu-id="11a11-102">DataControl (RDS) (ADO)</span></span>
 
-<span data-ttu-id="dfa75-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dfa75-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="11a11-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="11a11-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="dfa75-104">Объект управления объектами (RDS)</span><span class="sxs-lookup"><span data-stu-id="dfa75-104">DataControl object (RDS)</span></span>](datacontrol-object-rds.md)
-- [<span data-ttu-id="dfa75-105">Свойства, методы и события элемента управления "элемент управления" (RDS)</span><span class="sxs-lookup"><span data-stu-id="dfa75-105">DataControl properties, methods, and events (RDS)</span></span>](datacontrol-properties-methods-and-events-rds.md)
+- [<span data-ttu-id="11a11-104">Объект управления объектами (RDS)</span><span class="sxs-lookup"><span data-stu-id="11a11-104">DataControl object (RDS)</span></span>](datacontrol-object-rds.md)
+- [<span data-ttu-id="11a11-105">Свойства, методы и события элемента управления "элемент управления" (RDS)</span><span class="sxs-lookup"><span data-stu-id="11a11-105">DataControl properties, methods, and events (RDS)</span></span>](datacontrol-properties-methods-and-events-rds.md)
 

@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290633"
 ---
-# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="7753c-102">Пример: метод Append, тип ключа, свойство RelatedColumn, RelatedTable и UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="7753c-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
+# <a name="keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb"></a><span data-ttu-id="d31a0-102">Пример: метод Append, тип ключа, свойство RelatedColumn, RelatedTable и UpdateRule (VB)</span><span class="sxs-lookup"><span data-stu-id="d31a0-102">Keys Append Method, Key Type, RelatedColumn, RelatedTable and UpdateRule properties example (VB)</span></span>
 
 
-<span data-ttu-id="7753c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7753c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d31a0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d31a0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7753c-104">В приведенном ниже коде показано, как создать новый внешний ключ.</span><span class="sxs-lookup"><span data-stu-id="7753c-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="7753c-105">Предполагается, что существуют\*\*\*\* две таблицы (Customers и **Orders**).</span><span class="sxs-lookup"><span data-stu-id="7753c-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
+<span data-ttu-id="d31a0-104">В приведенном ниже коде показано, как создать новый внешний ключ.</span><span class="sxs-lookup"><span data-stu-id="d31a0-104">The following code demonstrates how to create a new foreign key.</span></span> <span data-ttu-id="d31a0-105">Предполагается, что существуют две таблицы (**Customers** и **Orders**).</span><span class="sxs-lookup"><span data-stu-id="d31a0-105">It assumes two tables (**Customers** and **Orders**) exist.</span></span>
 
 ```vb 
  

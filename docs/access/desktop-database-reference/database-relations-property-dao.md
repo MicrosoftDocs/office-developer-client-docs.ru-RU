@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294724"
 ---
-# <a name="databaserelations-property-dao"></a><span data-ttu-id="9fa62-102">Свойство Database. отношениях (DAO)</span><span class="sxs-lookup"><span data-stu-id="9fa62-102">Database.Relations property (DAO)</span></span>
+# <a name="databaserelations-property-dao"></a><span data-ttu-id="35ad3-102">Свойство Database. отношениях (DAO)</span><span class="sxs-lookup"><span data-stu-id="35ad3-102">Database.Relations property (DAO)</span></span>
 
 
-<span data-ttu-id="9fa62-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9fa62-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="35ad3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="35ad3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9fa62-104">Возвращает коллекцию **связей** , содержащую все хранимые объекты **relation** для указанной базы данных.</span><span class="sxs-lookup"><span data-stu-id="9fa62-104">Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database.</span></span> <span data-ttu-id="9fa62-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9fa62-105">Read-only.</span></span>
+<span data-ttu-id="35ad3-104">Возвращает коллекцию **связей** , содержащую все хранимые объекты **relation** для указанной базы данных.</span><span class="sxs-lookup"><span data-stu-id="35ad3-104">Returns a **Relations** collection that contains all of the stored **Relation** objects for the specified database.</span></span> <span data-ttu-id="35ad3-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="35ad3-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9fa62-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9fa62-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="35ad3-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="35ad3-106">Syntax</span></span>
 
-<span data-ttu-id="9fa62-107">*Expression* . Отношениях</span><span class="sxs-lookup"><span data-stu-id="9fa62-107">*expression* .Relations</span></span>
+<span data-ttu-id="35ad3-107">*Expression* . Отношениях</span><span class="sxs-lookup"><span data-stu-id="35ad3-107">*expression* .Relations</span></span>
 
-<span data-ttu-id="9fa62-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="9fa62-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="35ad3-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="35ad3-108">*expression* A variable that represents a **Database** object.</span></span>
 

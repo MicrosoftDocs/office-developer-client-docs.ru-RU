@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295753"
 ---
-# <a name="connections-object-reference-dao"></a><span data-ttu-id="5d702-102">Ссылка на объект Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="5d702-102">Connections object reference (DAO)</span></span>
+# <a name="connections-object-reference-dao"></a><span data-ttu-id="9e1e7-102">Ссылка на объект Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e1e7-102">Connections object reference (DAO)</span></span>
 
-<span data-ttu-id="5d702-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5d702-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9e1e7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9e1e7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="5d702-104">Коллекция Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="5d702-104">Connections collection (DAO)</span></span>](connections-collection-dao.md)
-- [<span data-ttu-id="5d702-105">Элементы Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="5d702-105">Connections members (DAO)</span></span>](connections-members-dao.md)
-- [<span data-ttu-id="5d702-106">Свойства подключений (DAO)</span><span class="sxs-lookup"><span data-stu-id="5d702-106">Connections properties (DAO)</span></span>](connections-properties-dao.md)
-- [<span data-ttu-id="5d702-107">Методы подключений (DAO)</span><span class="sxs-lookup"><span data-stu-id="5d702-107">Connections methods (DAO)</span></span>](connections-methods-dao.md)
+- [<span data-ttu-id="9e1e7-104">Коллекция Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e1e7-104">Connections collection (DAO)</span></span>](connections-collection-dao.md)
+- [<span data-ttu-id="9e1e7-105">Элементы Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e1e7-105">Connections members (DAO)</span></span>](connections-members-dao.md)
+- [<span data-ttu-id="9e1e7-106">Свойства подключений (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e1e7-106">Connections properties (DAO)</span></span>](connections-properties-dao.md)
+- [<span data-ttu-id="9e1e7-107">Методы подключений (DAO)</span><span class="sxs-lookup"><span data-stu-id="9e1e7-107">Connections methods (DAO)</span></span>](connections-methods-dao.md)
 

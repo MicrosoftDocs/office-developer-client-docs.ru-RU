@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283305"
 ---
-# <a name="ado-md-enumerated-constants"></a><span data-ttu-id="607ed-102">Перечислимые константы ADO MD</span><span class="sxs-lookup"><span data-stu-id="607ed-102">ADO MD enumerated constants</span></span>
+# <a name="ado-md-enumerated-constants"></a><span data-ttu-id="67cb1-102">Перечислимые константы ADO MD</span><span class="sxs-lookup"><span data-stu-id="67cb1-102">ADO MD enumerated constants</span></span>
 
-<span data-ttu-id="607ed-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="607ed-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="67cb1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="67cb1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="607ed-104">Для поддержки отладки в перечислимых константах ADO MD перечислены значения для каждой константы.</span><span class="sxs-lookup"><span data-stu-id="607ed-104">To assist debugging, the ADO MD enumerated constants list a value for each constant.</span></span> <span data-ttu-id="607ed-105">Однако это значение является исключительно рекомендацией и может изменяться от одного выпуска ADO MD к другому.</span><span class="sxs-lookup"><span data-stu-id="607ed-105">However, this value is purely advisory, and may change from one release of ADO MD to another.</span></span> <span data-ttu-id="607ed-106">Код должен зависеть только от имени, а не фактического значения перечислимых констант.</span><span class="sxs-lookup"><span data-stu-id="607ed-106">Your code should only depend on the name, not the actual value, of enumerated constants.</span></span>
+<span data-ttu-id="67cb1-104">Для поддержки отладки в перечислимых константах ADO MD перечислены значения для каждой константы.</span><span class="sxs-lookup"><span data-stu-id="67cb1-104">To assist debugging, the ADO MD enumerated constants list a value for each constant.</span></span> <span data-ttu-id="67cb1-105">Однако это значение является исключительно рекомендацией и может изменяться от одного выпуска ADO MD к другому.</span><span class="sxs-lookup"><span data-stu-id="67cb1-105">However, this value is purely advisory, and may change from one release of ADO MD to another.</span></span> <span data-ttu-id="67cb1-106">Код должен зависеть только от имени, а не фактического значения перечислимых констант.</span><span class="sxs-lookup"><span data-stu-id="67cb1-106">Your code should only depend on the name, not the actual value, of enumerated constants.</span></span>
 
-<span data-ttu-id="607ed-107">Определено следующее перечисление:</span><span class="sxs-lookup"><span data-stu-id="607ed-107">The following enumeration is defined:</span></span>
+<span data-ttu-id="67cb1-107">Определено следующее перечисление:</span><span class="sxs-lookup"><span data-stu-id="67cb1-107">The following enumeration is defined:</span></span>
 
-- [<span data-ttu-id="607ed-108">MemberTypeEnum</span><span class="sxs-lookup"><span data-stu-id="607ed-108">MemberTypeEnum</span></span>](membertypeenum.md)
+- [<span data-ttu-id="67cb1-108">MemberTypeEnum</span><span class="sxs-lookup"><span data-stu-id="67cb1-108">MemberTypeEnum</span></span>](membertypeenum.md)
 

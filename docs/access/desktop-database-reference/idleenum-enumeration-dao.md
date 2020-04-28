@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291903"
 ---
-# <a name="idleenum-enumeration-dao"></a><span data-ttu-id="a8362-102">Перечисление Идлинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="a8362-102">IdleEnum enumeration (DAO)</span></span>
+# <a name="idleenum-enumeration-dao"></a><span data-ttu-id="ceff4-102">Перечисление Идлинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="ceff4-102">IdleEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="a8362-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a8362-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ceff4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ceff4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a8362-104">Подлежит уточнению.</span><span class="sxs-lookup"><span data-stu-id="a8362-104">TBD</span></span>
+<span data-ttu-id="ceff4-104">Подлежит уточнению.</span><span class="sxs-lookup"><span data-stu-id="ceff4-104">TBD</span></span>
 

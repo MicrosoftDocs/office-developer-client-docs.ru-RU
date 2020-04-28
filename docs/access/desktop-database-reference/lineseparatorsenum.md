@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289944"
 ---
-# <a name="lineseparatorsenum"></a><span data-ttu-id="be7ec-102">LineSeparatorsEnum</span><span class="sxs-lookup"><span data-stu-id="be7ec-102">LineSeparatorsEnum</span></span>
+# <a name="lineseparatorsenum"></a><span data-ttu-id="2999b-102">LineSeparatorsEnum</span><span class="sxs-lookup"><span data-stu-id="2999b-102">LineSeparatorsEnum</span></span>
 
-<span data-ttu-id="be7ec-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="be7ec-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2999b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2999b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="be7ec-104">Указывает символ, используемый в качестве разделителя строк в текстовых объектах [потока](stream-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="be7ec-104">Specifies the character used as a line separator in text [Stream](stream-object-ado.md) objects.</span></span>
+<span data-ttu-id="2999b-104">Указывает символ, используемый в качестве разделителя строк в текстовых объектах [потока](stream-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="2999b-104">Specifies the character used as a line separator in text [Stream](stream-object-ado.md) objects.</span></span>
 
 <br/>
 
@@ -30,32 +30,32 @@ ms.locfileid: "32289944"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="be7ec-105">Константа</span><span class="sxs-lookup"><span data-stu-id="be7ec-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="be7ec-106">Значение</span><span class="sxs-lookup"><span data-stu-id="be7ec-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="be7ec-107">Описание</span><span class="sxs-lookup"><span data-stu-id="be7ec-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="2999b-105">Константа</span><span class="sxs-lookup"><span data-stu-id="2999b-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="2999b-106">Значение</span><span class="sxs-lookup"><span data-stu-id="2999b-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="2999b-107">Описание</span><span class="sxs-lookup"><span data-stu-id="2999b-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="be7ec-108"><strong>Адкр</strong></span><span class="sxs-lookup"><span data-stu-id="be7ec-108"><strong>adCR</strong></span></span></p></td>
-<td><p><span data-ttu-id="be7ec-109">13</span><span class="sxs-lookup"><span data-stu-id="be7ec-109">13</span></span></p></td>
-<td><p><span data-ttu-id="be7ec-110">Указывает на возврат каретки.</span><span class="sxs-lookup"><span data-stu-id="be7ec-110">Indicates carriage return.</span></span></p></td>
+<td><p><span data-ttu-id="2999b-108"><strong>адкр</strong></span><span class="sxs-lookup"><span data-stu-id="2999b-108"><strong>adCR</strong></span></span></p></td>
+<td><p><span data-ttu-id="2999b-109">13</span><span class="sxs-lookup"><span data-stu-id="2999b-109">13</span></span></p></td>
+<td><p><span data-ttu-id="2999b-110">Указывает на возврат каретки.</span><span class="sxs-lookup"><span data-stu-id="2999b-110">Indicates carriage return.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="be7ec-111"><strong>Адкрлф</strong></span><span class="sxs-lookup"><span data-stu-id="be7ec-111"><strong>adCRLF</strong></span></span></p></td>
-<td><p><span data-ttu-id="be7ec-112">–1</span><span class="sxs-lookup"><span data-stu-id="be7ec-112">-1</span></span></p></td>
-<td><p><span data-ttu-id="be7ec-113">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="be7ec-113">Default.</span></span> <span data-ttu-id="be7ec-114">Указывает перевод строки возврата каретки.</span><span class="sxs-lookup"><span data-stu-id="be7ec-114">Indicates carriage return line feed.</span></span></p></td>
+<td><p><span data-ttu-id="2999b-111"><strong>адкрлф</strong></span><span class="sxs-lookup"><span data-stu-id="2999b-111"><strong>adCRLF</strong></span></span></p></td>
+<td><p><span data-ttu-id="2999b-112">–1</span><span class="sxs-lookup"><span data-stu-id="2999b-112">-1</span></span></p></td>
+<td><p><span data-ttu-id="2999b-113">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="2999b-113">Default.</span></span> <span data-ttu-id="2999b-114">Указывает перевод строки возврата каретки.</span><span class="sxs-lookup"><span data-stu-id="2999b-114">Indicates carriage return line feed.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="be7ec-115"><strong>Адлф</strong></span><span class="sxs-lookup"><span data-stu-id="be7ec-115"><strong>adLF</strong></span></span></p></td>
-<td><p><span data-ttu-id="be7ec-116">десяти</span><span class="sxs-lookup"><span data-stu-id="be7ec-116">10</span></span></p></td>
-<td><p><span data-ttu-id="be7ec-117">Указывает на перевод строки.</span><span class="sxs-lookup"><span data-stu-id="be7ec-117">Indicates line feed.</span></span></p></td>
+<td><p><span data-ttu-id="2999b-115"><strong>адлф</strong></span><span class="sxs-lookup"><span data-stu-id="2999b-115"><strong>adLF</strong></span></span></p></td>
+<td><p><span data-ttu-id="2999b-116">10 </span><span class="sxs-lookup"><span data-stu-id="2999b-116">10</span></span></p></td>
+<td><p><span data-ttu-id="2999b-117">Указывает на перевод строки.</span><span class="sxs-lookup"><span data-stu-id="2999b-117">Indicates line feed.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="be7ec-118">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="be7ec-118">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="2999b-118">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="2999b-118">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="be7ec-119">Эти константы не имеют эквивалентов ADO/WFC.</span><span class="sxs-lookup"><span data-stu-id="be7ec-119">These constants do not have ADO/WFC equivalents.</span></span>
+<span data-ttu-id="2999b-119">Эти константы не имеют эквивалентов ADO/WFC.</span><span class="sxs-lookup"><span data-stu-id="2999b-119">These constants do not have ADO/WFC equivalents.</span></span>
 

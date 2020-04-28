@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295718"
 ---
-# <a name="connectionsrefresh-method-dao"></a><span data-ttu-id="32cf7-102">Метод Connections. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="32cf7-102">Connections.Refresh method (DAO)</span></span>
+# <a name="connectionsrefresh-method-dao"></a><span data-ttu-id="bfcda-102">Метод Connections. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="bfcda-102">Connections.Refresh method (DAO)</span></span>
 
 
-<span data-ttu-id="32cf7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="32cf7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bfcda-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bfcda-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="32cf7-104">Не поддерживается для коллекции **[Connections](connections-collection-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="32cf7-104">Not supported for the **[Connections](connections-collection-dao.md)** collection.</span></span>
+<span data-ttu-id="bfcda-104">Не поддерживается для коллекции **[Connections](connections-collection-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="bfcda-104">Not supported for the **[Connections](connections-collection-dao.md)** collection.</span></span>
 
-<span data-ttu-id="32cf7-105">Невозможно использовать метод **Refresh** с непостоянными коллекциями, такими как **подключения**, **базы данных**, **наборы записей**, **рабочие области**или коллекция **QueryDef** объекта **Connection** .</span><span class="sxs-lookup"><span data-stu-id="32cf7-105">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
+<span data-ttu-id="bfcda-105">Невозможно использовать метод **Refresh** с непостоянными коллекциями, такими как **подключения**, **базы данных**, **наборы записей**, **рабочие области**или коллекция **QueryDef** объекта **Connection** .</span><span class="sxs-lookup"><span data-stu-id="bfcda-105">You can't use the **Refresh** method with collections that aren't persistent, such as **Connections**, **Databases**, **Recordsets**, **Workspaces**, or the **QueryDefs** collection of a **Connection** object.</span></span>
 

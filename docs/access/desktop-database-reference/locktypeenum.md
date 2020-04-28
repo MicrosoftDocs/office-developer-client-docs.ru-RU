@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289866"
 ---
-# <a name="locktypeenum"></a><span data-ttu-id="4d60e-102">LockTypeEnum</span><span class="sxs-lookup"><span data-stu-id="4d60e-102">LockTypeEnum</span></span>
+# <a name="locktypeenum"></a><span data-ttu-id="ea058-102">LockTypeEnum</span><span class="sxs-lookup"><span data-stu-id="ea058-102">LockTypeEnum</span></span>
 
-<span data-ttu-id="4d60e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d60e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ea058-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ea058-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4d60e-104">Указывает тип блокировки, помещаемой в записи во время редактирования.</span><span class="sxs-lookup"><span data-stu-id="4d60e-104">Specifies the type of lock placed on records during editing.</span></span>
+<span data-ttu-id="ea058-104">Указывает тип блокировки, помещаемой в записи во время редактирования.</span><span class="sxs-lookup"><span data-stu-id="ea058-104">Specifies the type of lock placed on records during editing.</span></span>
 
 <table>
 <colgroup>
@@ -28,44 +28,44 @@ ms.locfileid: "32289866"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4d60e-105">Константа</span><span class="sxs-lookup"><span data-stu-id="4d60e-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="4d60e-106">Значение</span><span class="sxs-lookup"><span data-stu-id="4d60e-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="4d60e-107">Описание</span><span class="sxs-lookup"><span data-stu-id="4d60e-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="ea058-105">Константа</span><span class="sxs-lookup"><span data-stu-id="ea058-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="ea058-106">Значение</span><span class="sxs-lookup"><span data-stu-id="ea058-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="ea058-107">Описание</span><span class="sxs-lookup"><span data-stu-id="ea058-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4d60e-108"><strong>Адлоккбатчоптимистик</strong></span><span class="sxs-lookup"><span data-stu-id="4d60e-108"><strong>adLockBatchOptimistic</strong></span></span></p></td>
-<td><p><span data-ttu-id="4d60e-109">SP4</span><span class="sxs-lookup"><span data-stu-id="4d60e-109">4</span></span></p></td>
-<td><p><span data-ttu-id="4d60e-110">Указывает на неоптимистичные пакетные обновления.</span><span class="sxs-lookup"><span data-stu-id="4d60e-110">Indicates optimistic batch updates.</span></span> <span data-ttu-id="4d60e-111">Обязательный режим для режима пакетного обновления.</span><span class="sxs-lookup"><span data-stu-id="4d60e-111">Required for batch update mode.</span></span></p></td>
+<td><p><span data-ttu-id="ea058-108"><strong>адлоккбатчоптимистик</strong></span><span class="sxs-lookup"><span data-stu-id="ea058-108"><strong>adLockBatchOptimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="ea058-109">4 </span><span class="sxs-lookup"><span data-stu-id="ea058-109">4</span></span></p></td>
+<td><p><span data-ttu-id="ea058-110">Указывает на неоптимистичные пакетные обновления.</span><span class="sxs-lookup"><span data-stu-id="ea058-110">Indicates optimistic batch updates.</span></span> <span data-ttu-id="ea058-111">Обязательный режим для режима пакетного обновления.</span><span class="sxs-lookup"><span data-stu-id="ea058-111">Required for batch update mode.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4d60e-112"><strong>Адлоккоптимистик</strong></span><span class="sxs-lookup"><span data-stu-id="4d60e-112"><strong>adLockOptimistic</strong></span></span></p></td>
-<td><p><span data-ttu-id="4d60e-113">4</span><span class="sxs-lookup"><span data-stu-id="4d60e-113">3</span></span></p></td>
-<td><p><span data-ttu-id="4d60e-114">Указывает на оптимистичную блокировку, запись по записи.</span><span class="sxs-lookup"><span data-stu-id="4d60e-114">Indicates optimistic locking, record by record.</span></span> <span data-ttu-id="4d60e-115">Поставщик использует оптимистическую блокировку, блокируя записи только при вызове метода <a href="update-method-ado.md">Update</a> .</span><span class="sxs-lookup"><span data-stu-id="4d60e-115">The provider uses optimistic locking, locking records only when you call the <a href="update-method-ado.md">Update</a> method.</span></span></p></td>
+<td><p><span data-ttu-id="ea058-112"><strong>адлоккоптимистик</strong></span><span class="sxs-lookup"><span data-stu-id="ea058-112"><strong>adLockOptimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="ea058-113">4</span><span class="sxs-lookup"><span data-stu-id="ea058-113">3</span></span></p></td>
+<td><p><span data-ttu-id="ea058-114">Указывает на оптимистичную блокировку, запись по записи.</span><span class="sxs-lookup"><span data-stu-id="ea058-114">Indicates optimistic locking, record by record.</span></span> <span data-ttu-id="ea058-115">Поставщик использует оптимистическую блокировку, блокируя записи только при вызове метода <a href="update-method-ado.md">Update</a> .</span><span class="sxs-lookup"><span data-stu-id="ea058-115">The provider uses optimistic locking, locking records only when you call the <a href="update-method-ado.md">Update</a> method.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4d60e-116"><strong>Адлоккпессимистик</strong></span><span class="sxs-lookup"><span data-stu-id="4d60e-116"><strong>adLockPessimistic</strong></span></span></p></td>
-<td><p><span data-ttu-id="4d60e-117">2</span><span class="sxs-lookup"><span data-stu-id="4d60e-117">2</span></span></p></td>
-<td><p><span data-ttu-id="4d60e-118">Указывает на пессимистическую блокировку, запись по записи.</span><span class="sxs-lookup"><span data-stu-id="4d60e-118">Indicates pessimistic locking, record by record.</span></span> <span data-ttu-id="4d60e-119">Поставщик выполняет то, что необходимо для успешного редактирования записей, как правило, путем блокировки записей в источнике данных сразу же после редактирования.</span><span class="sxs-lookup"><span data-stu-id="4d60e-119">The provider does what is necessary to ensure successful editing of the records, usually by locking records at the data source immediately after editing.</span></span></p></td>
+<td><p><span data-ttu-id="ea058-116"><strong>адлоккпессимистик</strong></span><span class="sxs-lookup"><span data-stu-id="ea058-116"><strong>adLockPessimistic</strong></span></span></p></td>
+<td><p><span data-ttu-id="ea058-117">2</span><span class="sxs-lookup"><span data-stu-id="ea058-117">2</span></span></p></td>
+<td><p><span data-ttu-id="ea058-118">Указывает на пессимистическую блокировку, запись по записи.</span><span class="sxs-lookup"><span data-stu-id="ea058-118">Indicates pessimistic locking, record by record.</span></span> <span data-ttu-id="ea058-119">Поставщик выполняет то, что необходимо для успешного редактирования записей, как правило, путем блокировки записей в источнике данных сразу же после редактирования.</span><span class="sxs-lookup"><span data-stu-id="ea058-119">The provider does what is necessary to ensure successful editing of the records, usually by locking records at the data source immediately after editing.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4d60e-120"><strong>Адлоккреадонли</strong></span><span class="sxs-lookup"><span data-stu-id="4d60e-120"><strong>adLockReadOnly</strong></span></span></p></td>
-<td><p><span data-ttu-id="4d60e-121">1,1</span><span class="sxs-lookup"><span data-stu-id="4d60e-121">1</span></span></p></td>
-<td><p><span data-ttu-id="4d60e-122">Указывает записи, предназначенные только для чтения.</span><span class="sxs-lookup"><span data-stu-id="4d60e-122">Indicates read-only records.</span></span> <span data-ttu-id="4d60e-123">Вы не можете изменить данные.</span><span class="sxs-lookup"><span data-stu-id="4d60e-123">You cannot alter the data.</span></span></p></td>
+<td><p><span data-ttu-id="ea058-120"><strong>адлоккреадонли</strong></span><span class="sxs-lookup"><span data-stu-id="ea058-120"><strong>adLockReadOnly</strong></span></span></p></td>
+<td><p><span data-ttu-id="ea058-121">1,1</span><span class="sxs-lookup"><span data-stu-id="ea058-121">1</span></span></p></td>
+<td><p><span data-ttu-id="ea058-122">Указывает записи, предназначенные только для чтения.</span><span class="sxs-lookup"><span data-stu-id="ea058-122">Indicates read-only records.</span></span> <span data-ttu-id="ea058-123">Вы не можете изменить данные.</span><span class="sxs-lookup"><span data-stu-id="ea058-123">You cannot alter the data.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4d60e-124"><strong>АдлоккунспеЦифиед</strong></span><span class="sxs-lookup"><span data-stu-id="4d60e-124"><strong>adLockUnspecified</strong></span></span></p></td>
-<td><p><span data-ttu-id="4d60e-125">–1</span><span class="sxs-lookup"><span data-stu-id="4d60e-125">-1</span></span></p></td>
-<td><p><span data-ttu-id="4d60e-126">Не указывает тип блокировки.</span><span class="sxs-lookup"><span data-stu-id="4d60e-126">Does not specify a type of lock.</span></span> <span data-ttu-id="4d60e-127">Для клонов создается клон с тем же типом блокировки, что и исходный.</span><span class="sxs-lookup"><span data-stu-id="4d60e-127">For clones, the clone is created with the same lock type as the original.</span></span></p></td>
+<td><p><span data-ttu-id="ea058-124"><strong>адлоккунспеЦифиед</strong></span><span class="sxs-lookup"><span data-stu-id="ea058-124"><strong>adLockUnspecified</strong></span></span></p></td>
+<td><p><span data-ttu-id="ea058-125">–1</span><span class="sxs-lookup"><span data-stu-id="ea058-125">-1</span></span></p></td>
+<td><p><span data-ttu-id="ea058-126">Не указывает тип блокировки.</span><span class="sxs-lookup"><span data-stu-id="ea058-126">Does not specify a type of lock.</span></span> <span data-ttu-id="ea058-127">Для клонов создается клон с тем же типом блокировки, что и исходный.</span><span class="sxs-lookup"><span data-stu-id="ea058-127">For clones, the clone is created with the same lock type as the original.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="4d60e-128">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="4d60e-128">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="ea058-128">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="ea058-128">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="4d60e-129">Пакет: **com. MS. WFC. Data**</span><span class="sxs-lookup"><span data-stu-id="4d60e-129">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="ea058-129">Пакет: **com. MS. WFC. Data**</span><span class="sxs-lookup"><span data-stu-id="ea058-129">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -73,24 +73,24 @@ ms.locfileid: "32289866"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4d60e-130">Константа</span><span class="sxs-lookup"><span data-stu-id="4d60e-130">Constant</span></span></p></th>
+<th><p><span data-ttu-id="ea058-130">Константа</span><span class="sxs-lookup"><span data-stu-id="ea058-130">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4d60e-131">Адоенумс. LockType. БАТЧОПТИМИСТИК</span><span class="sxs-lookup"><span data-stu-id="4d60e-131">AdoEnums.LockType.BATCHOPTIMISTIC</span></span></p></td>
+<td><p><span data-ttu-id="ea058-131">Адоенумс. LockType. БАТЧОПТИМИСТИК</span><span class="sxs-lookup"><span data-stu-id="ea058-131">AdoEnums.LockType.BATCHOPTIMISTIC</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4d60e-132">Адоенумс. LockType. ОПТИМИСТИЧеская блокировка</span><span class="sxs-lookup"><span data-stu-id="4d60e-132">AdoEnums.LockType.OPTIMISTIC</span></span></p></td>
+<td><p><span data-ttu-id="ea058-132">Адоенумс. LockType. Оптимистическая блокировка</span><span class="sxs-lookup"><span data-stu-id="ea058-132">AdoEnums.LockType.OPTIMISTIC</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4d60e-133">Адоенумс. LockType. ПЕССИМИСТическая блокировка</span><span class="sxs-lookup"><span data-stu-id="4d60e-133">AdoEnums.LockType.PESSIMISTIC</span></span></p></td>
+<td><p><span data-ttu-id="ea058-133">Адоенумс. LockType. Пессимистическая блокировка</span><span class="sxs-lookup"><span data-stu-id="ea058-133">AdoEnums.LockType.PESSIMISTIC</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="4d60e-134">Адоенумс. LockType. READONLY</span><span class="sxs-lookup"><span data-stu-id="4d60e-134">AdoEnums.LockType.READONLY</span></span></p></td>
+<td><p><span data-ttu-id="ea058-134">Адоенумс. LockType. READONLY</span><span class="sxs-lookup"><span data-stu-id="ea058-134">AdoEnums.LockType.READONLY</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="4d60e-135">Адоенумс. LockType. unspecifieded</span><span class="sxs-lookup"><span data-stu-id="4d60e-135">AdoEnums.LockType.UNSPECIFIED</span></span></p></td>
+<td><p><span data-ttu-id="ea058-135">Адоенумс. LockType. unspecifieded</span><span class="sxs-lookup"><span data-stu-id="ea058-135">AdoEnums.LockType.UNSPECIFIED</span></span></p></td>
 </tr>
 </tbody>
 </table>

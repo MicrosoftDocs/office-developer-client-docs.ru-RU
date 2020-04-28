@@ -18,22 +18,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293828"
 ---
-# <a name="documentcontainer-property-dao"></a><span data-ttu-id="2a3b2-102">Свойство Document. Container (DAO)</span><span class="sxs-lookup"><span data-stu-id="2a3b2-102">Document.Container property (DAO)</span></span>
+# <a name="documentcontainer-property-dao"></a><span data-ttu-id="1582d-102">Свойство Document. Container (DAO)</span><span class="sxs-lookup"><span data-stu-id="1582d-102">Document.Container property (DAO)</span></span>
 
 
-<span data-ttu-id="2a3b2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2a3b2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1582d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1582d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2a3b2-104">Возвращает имя объекта **[контейнера](container-object-dao.md)** , к которому принадлежит объект **Document** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="2a3b2-104">Returns the name of the **[Container](container-object-dao.md)** object to which a **Document** object belongs (Microsoft Access workspaces only).</span></span> <span data-ttu-id="2a3b2-105">.</span><span class="sxs-lookup"><span data-stu-id="2a3b2-105"></span></span>
+<span data-ttu-id="1582d-104">Возвращает имя объекта **[контейнера](container-object-dao.md)** , к которому принадлежит объект **Document** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="1582d-104">Returns the name of the **[Container](container-object-dao.md)** object to which a **Document** object belongs (Microsoft Access workspaces only).</span></span> <span data-ttu-id="1582d-105">.</span><span class="sxs-lookup"><span data-stu-id="1582d-105">.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2a3b2-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2a3b2-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1582d-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1582d-106">Syntax</span></span>
 
-<span data-ttu-id="2a3b2-107">*Expression* . Container</span><span class="sxs-lookup"><span data-stu-id="2a3b2-107">*expression* .Container</span></span>
+<span data-ttu-id="1582d-107">*Expression* . Container</span><span class="sxs-lookup"><span data-stu-id="1582d-107">*expression* .Container</span></span>
 
-<span data-ttu-id="2a3b2-108">*Expression (выражение* ) Переменная, представляющая объект **Document** .</span><span class="sxs-lookup"><span data-stu-id="2a3b2-108">*expression* A variable that represents a **Document** object.</span></span>
+<span data-ttu-id="1582d-108">*Expression (выражение* ) Переменная, представляющая объект **Document** .</span><span class="sxs-lookup"><span data-stu-id="1582d-108">*expression* A variable that represents a **Document** object.</span></span>
 
-## <a name="example"></a><span data-ttu-id="2a3b2-109">Пример</span><span class="sxs-lookup"><span data-stu-id="2a3b2-109">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1582d-109">Пример</span><span class="sxs-lookup"><span data-stu-id="1582d-109">Example</span></span>
 
-<span data-ttu-id="2a3b2-110">В этом примере отображается свойство **Container** для различных объектов **Document** .</span><span class="sxs-lookup"><span data-stu-id="2a3b2-110">This example displays the **Container** property for a variety of **Document** objects.</span></span>
+<span data-ttu-id="1582d-110">В этом примере отображается свойство **Container** для различных объектов **Document** .</span><span class="sxs-lookup"><span data-stu-id="1582d-110">This example displays the **Container** property for a variety of **Document** objects.</span></span>
 
 ```vb 
 Sub ContainerPropertyX() 

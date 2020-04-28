@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292036"
 ---
-# <a name="handling-errors-in-other-languages"></a><span data-ttu-id="bc210-102">Обработка ошибок на других языках</span><span class="sxs-lookup"><span data-stu-id="bc210-102">Handling errors in other languages</span></span>
+# <a name="handling-errors-in-other-languages"></a><span data-ttu-id="35fc1-102">Обработка ошибок на других языках</span><span class="sxs-lookup"><span data-stu-id="35fc1-102">Handling errors in other languages</span></span>
 
-<span data-ttu-id="bc210-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bc210-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="35fc1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="35fc1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bc210-104">На данный момент в этой главе обсуждались ошибки точки зрения Microsoft Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="bc210-104">So far, this chapter has discussed errors from a Microsoft Visual Basic point of view.</span></span> <span data-ttu-id="bc210-105">В оставшейся части этого раздела дается обзор обработки ошибок на языках, отличных от Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="bc210-105">The remainder of this section will give you an overview of error handling in languages other than Visual Basic.</span></span>
+<span data-ttu-id="35fc1-104">На данный момент в этой главе обсуждались ошибки точки зрения Microsoft Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="35fc1-104">So far, this chapter has discussed errors from a Microsoft Visual Basic point of view.</span></span> <span data-ttu-id="35fc1-105">В оставшейся части этого раздела дается обзор обработки ошибок на языках, отличных от Visual Basic.</span><span class="sxs-lookup"><span data-stu-id="35fc1-105">The remainder of this section will give you an overview of error handling in languages other than Visual Basic.</span></span>
 
-- [<span data-ttu-id="bc210-106">Обработка ошибок в JScript</span><span class="sxs-lookup"><span data-stu-id="bc210-106">Handling errors in JScript</span></span>](handling-errors-in-jscript.md)
-- [<span data-ttu-id="bc210-107">Обработка ошибок на языке VBScript</span><span class="sxs-lookup"><span data-stu-id="bc210-107">Handling errors in VBScript</span></span>](handling-errors-in-vbscript.md)
-- [<span data-ttu-id="bc210-108">Обработка ошибок в Visual C++</span><span class="sxs-lookup"><span data-stu-id="bc210-108">Handling errors in Visual C++</span></span>](handling-errors-in-visual-c.md)
+- [<span data-ttu-id="35fc1-106">Обработка ошибок в JScript</span><span class="sxs-lookup"><span data-stu-id="35fc1-106">Handling errors in JScript</span></span>](handling-errors-in-jscript.md)
+- [<span data-ttu-id="35fc1-107">Обработка ошибок на языке VBScript</span><span class="sxs-lookup"><span data-stu-id="35fc1-107">Handling errors in VBScript</span></span>](handling-errors-in-vbscript.md)
+- [<span data-ttu-id="35fc1-108">Обработка ошибок в Visual C++</span><span class="sxs-lookup"><span data-stu-id="35fc1-108">Handling errors in Visual C++</span></span>](handling-errors-in-visual-c.md)
 

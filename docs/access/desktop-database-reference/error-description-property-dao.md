@@ -18,27 +18,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293506"
 ---
-# <a name="errordescription-property-dao"></a><span data-ttu-id="a94b9-102">Свойство Error. Description (DAO)</span><span class="sxs-lookup"><span data-stu-id="a94b9-102">Error.Description property (DAO)</span></span>
+# <a name="errordescription-property-dao"></a><span data-ttu-id="1be2a-102">Свойство Error. Description (DAO)</span><span class="sxs-lookup"><span data-stu-id="1be2a-102">Error.Description property (DAO)</span></span>
 
 
-<span data-ttu-id="a94b9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a94b9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1be2a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1be2a-103">**Applies to**: Access 2013, Office 2013</span></span>
  
 
-<span data-ttu-id="a94b9-104">Возвращает строку описания, связанную с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="a94b9-104">Returns a descriptive string associated with an error.</span></span> <span data-ttu-id="a94b9-105">Это свойство по умолчанию для объекта **Error** .</span><span class="sxs-lookup"><span data-stu-id="a94b9-105">This is the default property for the **Error** object.</span></span>
+<span data-ttu-id="1be2a-104">Возвращает строку описания, связанную с ошибкой.</span><span class="sxs-lookup"><span data-stu-id="1be2a-104">Returns a descriptive string associated with an error.</span></span> <span data-ttu-id="1be2a-105">Это свойство по умолчанию для объекта **Error** .</span><span class="sxs-lookup"><span data-stu-id="1be2a-105">This is the default property for the **Error** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a94b9-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a94b9-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1be2a-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1be2a-106">Syntax</span></span>
 
-<span data-ttu-id="a94b9-107">*Expression* . Обзор</span><span class="sxs-lookup"><span data-stu-id="a94b9-107">*expression* .Description</span></span>
+<span data-ttu-id="1be2a-107">*Expression* . Обзор</span><span class="sxs-lookup"><span data-stu-id="1be2a-107">*expression* .Description</span></span>
 
-<span data-ttu-id="a94b9-108">*Expression (выражение* ) Переменная, представляющая объект **Error** .</span><span class="sxs-lookup"><span data-stu-id="a94b9-108">*expression* A variable that represents an **Error** object.</span></span>
+<span data-ttu-id="1be2a-108">*Expression (выражение* ) Переменная, представляющая объект **Error** .</span><span class="sxs-lookup"><span data-stu-id="1be2a-108">*expression* A variable that represents an **Error** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a94b9-109">Замечания</span><span class="sxs-lookup"><span data-stu-id="a94b9-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1be2a-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="1be2a-109">Remarks</span></span>
 
-<span data-ttu-id="a94b9-110">Свойство **Description** содержит краткое описание ошибки.</span><span class="sxs-lookup"><span data-stu-id="a94b9-110">The **Description** property comprises a short description of the error.</span></span> <span data-ttu-id="a94b9-111">Используйте это свойство, чтобы предупредить пользователя об ошибке, которая не может быть обработана или не требуется.</span><span class="sxs-lookup"><span data-stu-id="a94b9-111">Use this property to alert the user about an error that you cannot or do not want to handle.</span></span>
+<span data-ttu-id="1be2a-110">Свойство **Description** содержит краткое описание ошибки.</span><span class="sxs-lookup"><span data-stu-id="1be2a-110">The **Description** property comprises a short description of the error.</span></span> <span data-ttu-id="1be2a-111">Используйте это свойство, чтобы предупредить пользователя об ошибке, которая не может быть обработана или не требуется.</span><span class="sxs-lookup"><span data-stu-id="1be2a-111">Use this property to alert the user about an error that you cannot or do not want to handle.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a94b9-112">Пример</span><span class="sxs-lookup"><span data-stu-id="a94b9-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="1be2a-112">Пример</span><span class="sxs-lookup"><span data-stu-id="1be2a-112">Example</span></span>
 
-<span data-ttu-id="a94b9-113">В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства **Description**, **Number**, **Source**, **HelpContext**и **HelpFile** полученного объекта Error.</span><span class="sxs-lookup"><span data-stu-id="a94b9-113">This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting Error object.</span></span>
+<span data-ttu-id="1be2a-113">В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства **Description**, **Number**, **Source**, **HelpContext**и **HelpFile** полученного объекта Error.</span><span class="sxs-lookup"><span data-stu-id="1be2a-113">This example forces an error, traps it, and displays the **Description**, **Number**, **Source**, **HelpContext**, and **HelpFile** properties of the resulting Error object.</span></span>
 
 ```vb 
 Sub DescriptionX() 

@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291791"
 ---
-# <a name="index-methods-dao"></a><span data-ttu-id="dcb11-102">Методы индексирования (DAO)</span><span class="sxs-lookup"><span data-stu-id="dcb11-102">Index methods (DAO)</span></span>
+# <a name="index-methods-dao"></a><span data-ttu-id="669b1-102">Методы индексирования (DAO)</span><span class="sxs-lookup"><span data-stu-id="669b1-102">Index methods (DAO)</span></span>
 
-<span data-ttu-id="dcb11-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dcb11-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="669b1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="669b1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="dcb11-104">Метод index. CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="dcb11-104">Index.CreateField method (DAO)</span></span>](index-createfield-method-dao.md)
-- [<span data-ttu-id="dcb11-105">Метод index. CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="dcb11-105">Index.CreateProperty method (DAO)</span></span>](index-createproperty-method-dao.md)
+- [<span data-ttu-id="669b1-104">Метод index. CreateField (DAO)</span><span class="sxs-lookup"><span data-stu-id="669b1-104">Index.CreateField method (DAO)</span></span>](index-createfield-method-dao.md)
+- [<span data-ttu-id="669b1-105">Метод index. CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="669b1-105">Index.CreateProperty method (DAO)</span></span>](index-createproperty-method-dao.md)
 

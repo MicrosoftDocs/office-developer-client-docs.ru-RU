@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290178"
 ---
-# <a name="keys-collection-adox-reference"></a><span data-ttu-id="8d37f-102">Справочник по коллекции Keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="8d37f-102">Keys collection (ADOX) reference</span></span>
+# <a name="keys-collection-adox-reference"></a><span data-ttu-id="da8a0-102">Справочник по коллекции Keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="da8a0-102">Keys collection (ADOX) reference</span></span>
 
-<span data-ttu-id="8d37f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8d37f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="da8a0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="da8a0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="8d37f-104">Коллекция Keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="8d37f-104">Keys collection (ADOX)</span></span>](keys-collection-adox.md)
-- [<span data-ttu-id="8d37f-105">Свойства, методы и события коллекции Keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="8d37f-105">Keys collection properties, methods, and events (ADOX)</span></span>](keys-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="da8a0-104">Коллекция Keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="da8a0-104">Keys collection (ADOX)</span></span>](keys-collection-adox.md)
+- [<span data-ttu-id="da8a0-105">Свойства, методы и события коллекции Keys (ADOX)</span><span class="sxs-lookup"><span data-stu-id="da8a0-105">Keys collection properties, methods, and events (ADOX)</span></span>](keys-collection-properties-methods-and-events-adox.md)
 

@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292498"
 ---
-# <a name="fields-properties-dao"></a><span data-ttu-id="88c87-102">Свойства Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="88c87-102">Fields properties (DAO)</span></span>
+# <a name="fields-properties-dao"></a><span data-ttu-id="67728-102">Свойства Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="67728-102">Fields properties (DAO)</span></span>
 
-<span data-ttu-id="88c87-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="88c87-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="67728-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="67728-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="88c87-104">Свойство Fields. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="88c87-104">Fields.Count property (DAO)</span></span>](fields-count-property-dao.md)
+- [<span data-ttu-id="67728-104">Свойство Fields. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="67728-104">Fields.Count property (DAO)</span></span>](fields-count-property-dao.md)
 

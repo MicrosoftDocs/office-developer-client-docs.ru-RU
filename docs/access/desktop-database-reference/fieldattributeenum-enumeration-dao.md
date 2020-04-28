@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292638"
 ---
-# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="aa128-102">Перечисление Фиелдаттрибутинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="aa128-102">FieldAttributeEnum enumeration (DAO)</span></span>
+# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="81be9-102">Перечисление Фиелдаттрибутинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="81be9-102">FieldAttributeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="aa128-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aa128-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="81be9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="81be9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="aa128-104">Подлежит уточнению.</span><span class="sxs-lookup"><span data-stu-id="aa128-104">TBD</span></span>
+<span data-ttu-id="81be9-104">Подлежит уточнению.</span><span class="sxs-lookup"><span data-stu-id="81be9-104">TBD</span></span>
 

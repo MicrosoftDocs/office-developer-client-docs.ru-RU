@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294668"
 ---
-# <a name="databaseupdatable-property-dao"></a><span data-ttu-id="70a05-102">Свойство Database. обновляемое свойство (DAO)</span><span class="sxs-lookup"><span data-stu-id="70a05-102">Database.Updatable property (DAO)</span></span>
+# <a name="databaseupdatable-property-dao"></a><span data-ttu-id="4f9d0-102">Свойство Database. обновляемое свойство (DAO)</span><span class="sxs-lookup"><span data-stu-id="4f9d0-102">Database.Updatable property (DAO)</span></span>
 
 
-<span data-ttu-id="70a05-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="70a05-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4f9d0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f9d0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="70a05-104">Возвращает значение, которое указывает на то, можно ли изменить DAO объект.</span><span class="sxs-lookup"><span data-stu-id="70a05-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="70a05-105">Только для чтения, **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="70a05-105">Read-only **Boolean**.</span></span>
+<span data-ttu-id="4f9d0-104">Возвращает значение, которое указывает на то, можно ли изменить DAO объект.</span><span class="sxs-lookup"><span data-stu-id="4f9d0-104">Returns a value that indicates whether you can change a DAO object.</span></span> <span data-ttu-id="4f9d0-105">Только для чтения, **Boolean**.</span><span class="sxs-lookup"><span data-stu-id="4f9d0-105">Read-only **Boolean**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="70a05-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="70a05-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4f9d0-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4f9d0-106">Syntax</span></span>
 
-<span data-ttu-id="70a05-107">*Expression* . Updatable</span><span class="sxs-lookup"><span data-stu-id="70a05-107">*expression* .Updatable</span></span>
+<span data-ttu-id="4f9d0-107">*Expression* . Updatable</span><span class="sxs-lookup"><span data-stu-id="4f9d0-107">*expression* .Updatable</span></span>
 
-<span data-ttu-id="70a05-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="70a05-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="4f9d0-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="4f9d0-108">*expression* A variable that represents a **Database** object.</span></span>
 

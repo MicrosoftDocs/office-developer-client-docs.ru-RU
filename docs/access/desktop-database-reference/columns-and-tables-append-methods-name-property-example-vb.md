@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296229"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="5093b-102">Методы Append столбцов и таблиц, пример свойства Name (VB)</span><span class="sxs-lookup"><span data-stu-id="5093b-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
+# <a name="columns-and-tables-append-methods-name-property-example-vb"></a><span data-ttu-id="2421a-102">Методы Append столбцов и таблиц, пример свойства Name (VB)</span><span class="sxs-lookup"><span data-stu-id="2421a-102">Columns and Tables Append Methods, Name property example (VB)</span></span>
 
 
-<span data-ttu-id="5093b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5093b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2421a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2421a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5093b-104">В приведенном ниже коде показано, как создать новую таблицу.</span><span class="sxs-lookup"><span data-stu-id="5093b-104">The following code demonstrates how to create a new table.</span></span>
+<span data-ttu-id="2421a-104">В приведенном ниже коде показано, как создать новую таблицу.</span><span class="sxs-lookup"><span data-stu-id="2421a-104">The following code demonstrates how to create a new table.</span></span>
 
 ```vb 
  

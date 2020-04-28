@@ -18,19 +18,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294332"
 ---
-# <a name="dbengineidle-method-dao"></a><span data-ttu-id="d21ef-102">Метод DBEngine. Idle (DAO)</span><span class="sxs-lookup"><span data-stu-id="d21ef-102">DBEngine.Idle method (DAO)</span></span>
+# <a name="dbengineidle-method-dao"></a><span data-ttu-id="add2b-102">Метод DBEngine. Idle (DAO)</span><span class="sxs-lookup"><span data-stu-id="add2b-102">DBEngine.Idle method (DAO)</span></span>
 
-<span data-ttu-id="d21ef-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d21ef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="add2b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="add2b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d21ef-104">ПриОстанавливает обработку данных, позволяя ядру СУБД Microsoft Access выполнять все ожидающие задачи, такие как оптимизация памяти или время ожидания страниц (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d21ef-104">Suspends data processing, enabling the Microsoft Access database engine to complete any pending tasks, such as memory optimization or page timeouts (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="add2b-104">Приостанавливает обработку данных, позволяя ядру СУБД Microsoft Access выполнять все ожидающие задачи, такие как оптимизация памяти или время ожидания страниц (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="add2b-104">Suspends data processing, enabling the Microsoft Access database engine to complete any pending tasks, such as memory optimization or page timeouts (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d21ef-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d21ef-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="add2b-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="add2b-105">Syntax</span></span>
 
-<span data-ttu-id="d21ef-106">*Expression* . БезДействие (***действие***)</span><span class="sxs-lookup"><span data-stu-id="d21ef-106">*expression* .Idle(***Action***)</span></span>
+<span data-ttu-id="add2b-106">*Expression* . Бездействие (***действие***)</span><span class="sxs-lookup"><span data-stu-id="add2b-106">*expression* .Idle(***Action***)</span></span>
 
-<span data-ttu-id="d21ef-107">*Expression (выражение* ) Переменная, представляющая объект **DBEngine** .</span><span class="sxs-lookup"><span data-stu-id="d21ef-107">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="add2b-107">*expression*: переменная, представляющая объект **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="add2b-107">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="d21ef-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="d21ef-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="add2b-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="add2b-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,40 +41,40 @@ ms.locfileid: "32294332"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d21ef-109">Имя</span><span class="sxs-lookup"><span data-stu-id="d21ef-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="d21ef-110">Обязательно/необязательно</span><span class="sxs-lookup"><span data-stu-id="d21ef-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="d21ef-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="d21ef-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="d21ef-112">Описание</span><span class="sxs-lookup"><span data-stu-id="d21ef-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="add2b-109">Имя</span><span class="sxs-lookup"><span data-stu-id="add2b-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="add2b-110">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="add2b-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="add2b-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="add2b-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="add2b-112">Описание</span><span class="sxs-lookup"><span data-stu-id="add2b-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d21ef-113"><em>Action</em></span><span class="sxs-lookup"><span data-stu-id="d21ef-113"><em>Action</em></span></span></p></td>
-<td><p><span data-ttu-id="d21ef-114">Необязательный</span><span class="sxs-lookup"><span data-stu-id="d21ef-114">Optional</span></span></p></td>
-<td><p><span data-ttu-id="d21ef-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="d21ef-115"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="d21ef-116">Задает действие, которое необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="d21ef-116">Specifies the action to take.</span></span> <span data-ttu-id="d21ef-117">Может быть одной из констант <strong><a href="idleenum-enumeration-dao.md">идлинум</a></strong> .</span><span class="sxs-lookup"><span data-stu-id="d21ef-117">Can be one of the <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> constants.</span></span></p></td>
+<td><p><span data-ttu-id="add2b-113"><em>Action</em></span><span class="sxs-lookup"><span data-stu-id="add2b-113"><em>Action</em></span></span></p></td>
+<td><p><span data-ttu-id="add2b-114">Необязательный</span><span class="sxs-lookup"><span data-stu-id="add2b-114">Optional</span></span></p></td>
+<td><p><span data-ttu-id="add2b-115"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="add2b-115"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="add2b-116">Задает действие, которое необходимо выполнить.</span><span class="sxs-lookup"><span data-stu-id="add2b-116">Specifies the action to take.</span></span> <span data-ttu-id="add2b-117">Может быть одной из констант <strong><a href="idleenum-enumeration-dao.md">идлинум</a></strong> .</span><span class="sxs-lookup"><span data-stu-id="add2b-117">Can be one of the <strong><a href="idleenum-enumeration-dao.md">IdleEnum</a></strong> constants.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="d21ef-118">Замечания</span><span class="sxs-lookup"><span data-stu-id="d21ef-118">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="add2b-118">Примечания</span><span class="sxs-lookup"><span data-stu-id="add2b-118">Remarks</span></span>
 
-<span data-ttu-id="d21ef-119">Метод **Idle** позволяет ядру СУБД Microsoft Access выполнять фоновые задачи, которые могут быть не актуальны из-за интенсивной обработки данных.</span><span class="sxs-lookup"><span data-stu-id="d21ef-119">The **Idle** method allows the Microsoft Access database engine to perform background tasks that may not be up-to-date because of intense data processing.</span></span> <span data-ttu-id="d21ef-120">Это часто относится к многозадачным средам, в которых недостаточно времени фоновой обработки для хранения всех записей в текущем **[наборе записей](recordset-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="d21ef-120">This is often true in multiuser, multitasking environments that don't have enough background processing time to keep all records in a **[Recordset](recordset-object-dao.md)** current.</span></span>
+<span data-ttu-id="add2b-119">Метод **Idle** позволяет ядру СУБД Microsoft Access выполнять фоновые задачи, которые могут быть не актуальны из-за интенсивной обработки данных.</span><span class="sxs-lookup"><span data-stu-id="add2b-119">The **Idle** method allows the Microsoft Access database engine to perform background tasks that may not be up-to-date because of intense data processing.</span></span> <span data-ttu-id="add2b-120">Это часто относится к многозадачным средам, в которых недостаточно времени фоновой обработки для хранения всех записей в текущем **[наборе записей](recordset-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="add2b-120">This is often true in multiuser, multitasking environments that don't have enough background processing time to keep all records in a **[Recordset](recordset-object-dao.md)** current.</span></span>
 
-<span data-ttu-id="d21ef-121">Обычно блокировки чтения удаляются и данные в локальных объектах **набора записей** динамического типа обновляются только в том случае, если не выполняются никакие другие действия (включая перемещение мыши).</span><span class="sxs-lookup"><span data-stu-id="d21ef-121">Usually, read locks are removed and data in local dynaset-type **Recordset** objects are updated only when no other actions (including mouse movements) occur.</span></span> <span data-ttu-id="d21ef-122">Если вы периодически используете метод **Idle** , ядро СУБД Microsoft Access может отслеживать задачи фоновой обработки, освобождая ненужные блокировки чтения.</span><span class="sxs-lookup"><span data-stu-id="d21ef-122">If you periodically use the **Idle** method, the Microsoft Access database engine can catch up on background processing tasks by releasing unneeded read locks.</span></span>
+<span data-ttu-id="add2b-121">Обычно блокировки чтения удаляются и данные в локальных объектах **набора записей** динамического типа обновляются только в том случае, если не выполняются никакие другие действия (включая перемещение мыши).</span><span class="sxs-lookup"><span data-stu-id="add2b-121">Usually, read locks are removed and data in local dynaset-type **Recordset** objects are updated only when no other actions (including mouse movements) occur.</span></span> <span data-ttu-id="add2b-122">Если вы периодически используете метод **Idle** , ядро СУБД Microsoft Access может отслеживать задачи фоновой обработки, освобождая ненужные блокировки чтения.</span><span class="sxs-lookup"><span data-stu-id="add2b-122">If you periodically use the **Idle** method, the Microsoft Access database engine can catch up on background processing tasks by releasing unneeded read locks.</span></span>
 
-<span data-ttu-id="d21ef-123">При указании необязательного аргумента **дбрефрешкаче** происходит обновление памяти с использованием только самых актуальных данных из базы данных.</span><span class="sxs-lookup"><span data-stu-id="d21ef-123">Specifying the optional **dbRefreshCache** argument refreshes memory with only the most current data from the database.</span></span>
+<span data-ttu-id="add2b-123">При указании необязательного аргумента **дбрефрешкаче** происходит обновление памяти с использованием только самых актуальных данных из базы данных.</span><span class="sxs-lookup"><span data-stu-id="add2b-123">Specifying the optional **dbRefreshCache** argument refreshes memory with only the most current data from the database.</span></span>
 
-<span data-ttu-id="d21ef-124">Этот метод не требуется использовать в средах с одним пользователем, если не запущено несколько экземпляров приложения.</span><span class="sxs-lookup"><span data-stu-id="d21ef-124">You don't need to use this method in single-user environments unless multiple instances of an application are running.</span></span> <span data-ttu-id="d21ef-125">Метод **Idle** может увеличить производительность в многопользовательской среде, так как она заставляет ядро СУБД записывать данные на диск, освобождая блокировку памяти.</span><span class="sxs-lookup"><span data-stu-id="d21ef-125">The **Idle** method may increase performance in a multiuser environment because it forces the database engine to write data to disk, releasing locks on memory.</span></span>
+<span data-ttu-id="add2b-124">Этот метод не требуется использовать в средах с одним пользователем, если не запущено несколько экземпляров приложения.</span><span class="sxs-lookup"><span data-stu-id="add2b-124">You don't need to use this method in single-user environments unless multiple instances of an application are running.</span></span> <span data-ttu-id="add2b-125">Метод **Idle** может увеличить производительность в многопользовательской среде, так как она заставляет ядро СУБД записывать данные на диск, освобождая блокировку памяти.</span><span class="sxs-lookup"><span data-stu-id="add2b-125">The **Idle** method may increase performance in a multiuser environment because it forces the database engine to write data to disk, releasing locks on memory.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="d21ef-126">Кроме того, можно выпустить блокировку чтения, делая операции частью транзакции.</span><span class="sxs-lookup"><span data-stu-id="d21ef-126">You can also release read locks by making operations part of a transaction.</span></span>
+> <span data-ttu-id="add2b-126">Кроме того, можно выпустить блокировку чтения, делая операции частью транзакции.</span><span class="sxs-lookup"><span data-stu-id="add2b-126">You can also release read locks by making operations part of a transaction.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d21ef-127">Пример</span><span class="sxs-lookup"><span data-stu-id="d21ef-127">Example</span></span>
+## <a name="example"></a><span data-ttu-id="add2b-127">Пример</span><span class="sxs-lookup"><span data-stu-id="add2b-127">Example</span></span>
 
-<span data-ttu-id="d21ef-128">В этом примере используется метод **Idle** , обеспечивающий доступ к последним данным, доступным из базы данных, в выходной процедуре.</span><span class="sxs-lookup"><span data-stu-id="d21ef-128">This example uses the **Idle** method to ensure that an output procedure is accessing the most current data available from the database.</span></span> <span data-ttu-id="d21ef-129">Для выполнения этой процедуры требуется процедура Идлеаутпут.</span><span class="sxs-lookup"><span data-stu-id="d21ef-129">The IdleOutput procedure is required for this procedure to run.</span></span>
+<span data-ttu-id="add2b-128">В этом примере используется метод **Idle** , обеспечивающий доступ к последним данным, доступным из базы данных, в выходной процедуре.</span><span class="sxs-lookup"><span data-stu-id="add2b-128">This example uses the **Idle** method to ensure that an output procedure is accessing the most current data available from the database.</span></span> <span data-ttu-id="add2b-129">Для выполнения этой процедуры требуется процедура Идлеаутпут.</span><span class="sxs-lookup"><span data-stu-id="add2b-129">The IdleOutput procedure is required for this procedure to run.</span></span>
 
 ```vb 
 Sub IdleX() 

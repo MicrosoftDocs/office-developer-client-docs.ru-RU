@@ -14,28 +14,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288058"
 ---
-# <a name="parameter-properties-methods-and-events-ado"></a><span data-ttu-id="727f1-102">Свойства, методы и события параметров (ADO)</span><span class="sxs-lookup"><span data-stu-id="727f1-102">Parameter properties, methods, and events (ADO)</span></span>
+# <a name="parameter-properties-methods-and-events-ado"></a><span data-ttu-id="35f22-102">Свойства, методы и события параметров (ADO)</span><span class="sxs-lookup"><span data-stu-id="35f22-102">Parameter properties, methods, and events (ADO)</span></span>
 
-<span data-ttu-id="727f1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="727f1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="35f22-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="35f22-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="727f1-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="727f1-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="35f22-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="35f22-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="727f1-105">Свойство Attributes</span><span class="sxs-lookup"><span data-stu-id="727f1-105">Attributes property</span></span>](attributes-property-ado.md)
-- [<span data-ttu-id="727f1-106">Свойство Direction</span><span class="sxs-lookup"><span data-stu-id="727f1-106">Direction property</span></span>](direction-property-ado.md)
-- [<span data-ttu-id="727f1-107">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="727f1-107">Name property</span></span>](name-property-ado.md)
-- [<span data-ttu-id="727f1-108">Свойство NumericScale</span><span class="sxs-lookup"><span data-stu-id="727f1-108">NumericScale property</span></span>](numericscale-property-ado.md)
-- [<span data-ttu-id="727f1-109">Свойство Precision</span><span class="sxs-lookup"><span data-stu-id="727f1-109">Precision property</span></span>](precision-property-ado.md)
-- [<span data-ttu-id="727f1-110">Коллекция Properties</span><span class="sxs-lookup"><span data-stu-id="727f1-110">Properties collection</span></span>](properties-collection-ado.md)
-- [<span data-ttu-id="727f1-111">Свойство Size</span><span class="sxs-lookup"><span data-stu-id="727f1-111">Size property</span></span>](size-property-ado.md)
-- [<span data-ttu-id="727f1-112">Свойство Type</span><span class="sxs-lookup"><span data-stu-id="727f1-112">Type property</span></span>](type-property-ado.md)
-- [<span data-ttu-id="727f1-113">Свойство Value</span><span class="sxs-lookup"><span data-stu-id="727f1-113">Value property</span></span>](value-property-ado.md)
+- [<span data-ttu-id="35f22-105">Свойство Attributes</span><span class="sxs-lookup"><span data-stu-id="35f22-105">Attributes property</span></span>](attributes-property-ado.md)
+- [<span data-ttu-id="35f22-106">Свойство Direction</span><span class="sxs-lookup"><span data-stu-id="35f22-106">Direction property</span></span>](direction-property-ado.md)
+- [<span data-ttu-id="35f22-107">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="35f22-107">Name property</span></span>](name-property-ado.md)
+- [<span data-ttu-id="35f22-108">Свойство NumericScale</span><span class="sxs-lookup"><span data-stu-id="35f22-108">NumericScale property</span></span>](numericscale-property-ado.md)
+- [<span data-ttu-id="35f22-109">Свойство Precision</span><span class="sxs-lookup"><span data-stu-id="35f22-109">Precision property</span></span>](precision-property-ado.md)
+- [<span data-ttu-id="35f22-110">Коллекция Properties</span><span class="sxs-lookup"><span data-stu-id="35f22-110">Properties collection</span></span>](properties-collection-ado.md)
+- [<span data-ttu-id="35f22-111">Свойство Size</span><span class="sxs-lookup"><span data-stu-id="35f22-111">Size property</span></span>](size-property-ado.md)
+- [<span data-ttu-id="35f22-112">Свойство Type</span><span class="sxs-lookup"><span data-stu-id="35f22-112">Type property</span></span>](type-property-ado.md)
+- [<span data-ttu-id="35f22-113">Свойство Value</span><span class="sxs-lookup"><span data-stu-id="35f22-113">Value property</span></span>](value-property-ado.md)
 
 
-## <a name="methods"></a><span data-ttu-id="727f1-114">Методы</span><span class="sxs-lookup"><span data-stu-id="727f1-114">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="35f22-114">Methods</span><span class="sxs-lookup"><span data-stu-id="35f22-114">Methods</span></span>
 
-- [<span data-ttu-id="727f1-115">Метод AppendChunk</span><span class="sxs-lookup"><span data-stu-id="727f1-115">AppendChunk method</span></span>](appendchunk-method-ado.md)
+- [<span data-ttu-id="35f22-115">Метод AppendChunk</span><span class="sxs-lookup"><span data-stu-id="35f22-115">AppendChunk method</span></span>](appendchunk-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="727f1-116">События</span><span class="sxs-lookup"><span data-stu-id="727f1-116">Events</span></span>
+## <a name="events"></a><span data-ttu-id="35f22-116">События</span><span class="sxs-lookup"><span data-stu-id="35f22-116">Events</span></span>
 
-<span data-ttu-id="727f1-117">Нет.</span><span class="sxs-lookup"><span data-stu-id="727f1-117">None.</span></span>
+<span data-ttu-id="35f22-117">Нет.</span><span class="sxs-lookup"><span data-stu-id="35f22-117">None.</span></span>
 

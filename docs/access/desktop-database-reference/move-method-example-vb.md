@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288857"
 ---
-# <a name="move-method-example-vb"></a><span data-ttu-id="f3ec5-102">Пример использования метода Move (VB)</span><span class="sxs-lookup"><span data-stu-id="f3ec5-102">Move method example (VB)</span></span>
+# <a name="move-method-example-vb"></a><span data-ttu-id="6302f-102">Пример использования метода Move (VB)</span><span class="sxs-lookup"><span data-stu-id="6302f-102">Move method example (VB)</span></span>
 
 
-<span data-ttu-id="f3ec5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3ec5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6302f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6302f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f3ec5-104">В этом примере с помощью метода [Move](move-method-ado.md) замещается указатель записи на основании вводимых пользователем данных.</span><span class="sxs-lookup"><span data-stu-id="f3ec5-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
+<span data-ttu-id="6302f-104">В этом примере с помощью метода [Move](move-method-ado.md) указатель перемещается в соответствии с вводимыми пользователем данными.</span><span class="sxs-lookup"><span data-stu-id="6302f-104">This example uses the [Move](move-method-ado.md) method to position the record pointer based on user input.</span></span>
 
 ```vb 
  

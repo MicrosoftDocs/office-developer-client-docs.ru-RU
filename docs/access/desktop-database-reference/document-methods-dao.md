@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293800"
 ---
-# <a name="document-methods-dao"></a><span data-ttu-id="c1c17-102">Методы документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="c1c17-102">Document methods (DAO)</span></span>
+# <a name="document-methods-dao"></a><span data-ttu-id="31145-102">Методы документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="31145-102">Document methods (DAO)</span></span>
 
 
-<span data-ttu-id="c1c17-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1c17-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="31145-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="31145-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c1c17-104">Метод Document. CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="c1c17-104">Document.CreateProperty method (DAO)</span></span>](document-createproperty-method-dao.md)
+- [<span data-ttu-id="31145-104">Метод Document. CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="31145-104">Document.CreateProperty method (DAO)</span></span>](document-createproperty-method-dao.md)
 

@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296187"
 ---
-# <a name="command-object-ado-reference"></a><span data-ttu-id="41004-102">Справочник по объекту Command (ADO)</span><span class="sxs-lookup"><span data-stu-id="41004-102">Command object (ADO) reference</span></span>
+# <a name="command-object-ado-reference"></a><span data-ttu-id="7ff52-102">Справочник по объекту Command (ADO)</span><span class="sxs-lookup"><span data-stu-id="7ff52-102">Command object (ADO) reference</span></span>
 
-<span data-ttu-id="41004-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="41004-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7ff52-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7ff52-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="41004-104">Объект Command (ADO)</span><span class="sxs-lookup"><span data-stu-id="41004-104">Command object (ADO)</span></span>](command-object-ado.md)
-- [<span data-ttu-id="41004-105">Свойства, методы и события команды (ADO)</span><span class="sxs-lookup"><span data-stu-id="41004-105">Command properties, methods, and events (ADO)</span></span>](command-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="7ff52-104">Объект Command (ADO)</span><span class="sxs-lookup"><span data-stu-id="7ff52-104">Command object (ADO)</span></span>](command-object-ado.md)
+- [<span data-ttu-id="7ff52-105">Свойства, методы и события команды (ADO)</span><span class="sxs-lookup"><span data-stu-id="7ff52-105">Command properties, methods, and events (ADO)</span></span>](command-properties-methods-and-events-ado.md)
 

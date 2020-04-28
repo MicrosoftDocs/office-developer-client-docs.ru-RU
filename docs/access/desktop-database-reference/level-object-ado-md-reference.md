@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290140"
 ---
-# <a name="level-object-ado-md-reference"></a><span data-ttu-id="1d0e2-102">Объект Level (Справочник по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1d0e2-102">Level object (ADO MD reference)</span></span>
+# <a name="level-object-ado-md-reference"></a><span data-ttu-id="f8ac5-102">Объект Level (Справочник по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f8ac5-102">Level object (ADO MD reference)</span></span>
 
-<span data-ttu-id="1d0e2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1d0e2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f8ac5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8ac5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="1d0e2-104">Объект Level (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1d0e2-104">Level object (ADO MD)</span></span>](level-object-ado-md.md)
-- [<span data-ttu-id="1d0e2-105">Свойства, методы и события уровня (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="1d0e2-105">Level properties, methods, and events (ADO MD)</span></span>](level-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="f8ac5-104">Объект Level (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f8ac5-104">Level object (ADO MD)</span></span>](level-object-ado-md.md)
+- [<span data-ttu-id="f8ac5-105">Свойства, методы и события уровня (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f8ac5-105">Level properties, methods, and events (ADO MD)</span></span>](level-properties-methods-and-events-ado-md.md)
 

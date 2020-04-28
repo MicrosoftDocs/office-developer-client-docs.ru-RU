@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294612"
 ---
-# <a name="databases-members-dao"></a><span data-ttu-id="e1a0b-102">Элементы баз данных (DAO)</span><span class="sxs-lookup"><span data-stu-id="e1a0b-102">Databases members (DAO)</span></span>
+# <a name="databases-members-dao"></a><span data-ttu-id="a6fdc-102">Элементы баз данных (DAO)</span><span class="sxs-lookup"><span data-stu-id="a6fdc-102">Databases members (DAO)</span></span>
 
 
-<span data-ttu-id="e1a0b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e1a0b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a6fdc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a6fdc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e1a0b-104">Коллекция баз данных содержит все открытые объекты базы данных, открытые или созданные в объекте Workspace.</span><span class="sxs-lookup"><span data-stu-id="e1a0b-104">A Databases collection contains all open Database objects opened or created in a Workspace object.</span></span>
+<span data-ttu-id="a6fdc-104">Коллекция баз данных содержит все открытые объекты базы данных, открытые или созданные в объекте Workspace.</span><span class="sxs-lookup"><span data-stu-id="a6fdc-104">A Databases collection contains all open Database objects opened or created in a Workspace object.</span></span>
 
-## <a name="methods"></a><span data-ttu-id="e1a0b-105">Методы</span><span class="sxs-lookup"><span data-stu-id="e1a0b-105">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="a6fdc-105">Методы</span><span class="sxs-lookup"><span data-stu-id="a6fdc-105">Methods</span></span>
 
 <table>
 <colgroup>
@@ -30,20 +30,20 @@ ms.locfileid: "32294612"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e1a0b-106">Имя</span><span class="sxs-lookup"><span data-stu-id="e1a0b-106">Name</span></span></p></th>
-<th><p><span data-ttu-id="e1a0b-107">Описание</span><span class="sxs-lookup"><span data-stu-id="e1a0b-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="a6fdc-106">Имя</span><span class="sxs-lookup"><span data-stu-id="a6fdc-106">Name</span></span></p></th>
+<th><p><span data-ttu-id="a6fdc-107">Описание</span><span class="sxs-lookup"><span data-stu-id="a6fdc-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e1a0b-108"><strong><a href="databases-refresh-method-dao.md">Refresh</a></strong></span><span class="sxs-lookup"><span data-stu-id="e1a0b-108"><strong><a href="databases-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="e1a0b-109">Не поддерживается для объекта.</span><span class="sxs-lookup"><span data-stu-id="e1a0b-109">Not supported for this object.</span></span></p></td>
+<td><p><span data-ttu-id="a6fdc-108"><strong><a href="databases-refresh-method-dao.md">Обновление</a></strong></span><span class="sxs-lookup"><span data-stu-id="a6fdc-108"><strong><a href="databases-refresh-method-dao.md">Refresh</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a6fdc-109">Не поддерживается для объекта.</span><span class="sxs-lookup"><span data-stu-id="a6fdc-109">Not supported for this object.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="properties"></a><span data-ttu-id="e1a0b-110">Свойства</span><span class="sxs-lookup"><span data-stu-id="e1a0b-110">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="a6fdc-110">Свойства</span><span class="sxs-lookup"><span data-stu-id="a6fdc-110">Properties</span></span>
 
 <table>
 <colgroup>
@@ -52,14 +52,14 @@ ms.locfileid: "32294612"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e1a0b-111">Имя</span><span class="sxs-lookup"><span data-stu-id="e1a0b-111">Name</span></span></p></th>
-<th><p><span data-ttu-id="e1a0b-112">Описание</span><span class="sxs-lookup"><span data-stu-id="e1a0b-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="a6fdc-111">Имя</span><span class="sxs-lookup"><span data-stu-id="a6fdc-111">Name</span></span></p></th>
+<th><p><span data-ttu-id="a6fdc-112">Описание</span><span class="sxs-lookup"><span data-stu-id="a6fdc-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e1a0b-113"><strong><a href="databases-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="e1a0b-113"><strong><a href="databases-count-property-dao.md">Count</a></strong></span></span></p></td>
-<td><p><span data-ttu-id="e1a0b-114">Возвращает число объектов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="e1a0b-114">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="e1a0b-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="e1a0b-115">Read-only.</span></span></p></td>
+<td><p><span data-ttu-id="a6fdc-113"><strong><a href="databases-count-property-dao.md">Count</a></strong></span><span class="sxs-lookup"><span data-stu-id="a6fdc-113"><strong><a href="databases-count-property-dao.md">Count</a></strong></span></span></p></td>
+<td><p><span data-ttu-id="a6fdc-114">Возвращает число объектов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="a6fdc-114">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="a6fdc-115">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a6fdc-115">Read-only.</span></span></p></td>
 </tr>
 </tbody>
 </table>

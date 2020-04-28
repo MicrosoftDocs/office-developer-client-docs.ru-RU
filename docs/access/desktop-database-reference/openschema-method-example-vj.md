@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288331"
 ---
-# <a name="openschema-method-example-vj"></a><span data-ttu-id="84a02-102">Пример использования метода OpenSchema (VJ++)</span><span class="sxs-lookup"><span data-stu-id="84a02-102">OpenSchema method example (VJ++)</span></span>
+# <a name="openschema-method-example-vj"></a><span data-ttu-id="907fc-102">Пример использования метода OpenSchema (VJ++)</span><span class="sxs-lookup"><span data-stu-id="907fc-102">OpenSchema method example (VJ++)</span></span>
 
 
-<span data-ttu-id="84a02-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="84a02-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="907fc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="907fc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="84a02-104">В этом примере используется метод [OpenSchema](openschema-method-ado.md) для отображения имени и типа каждой таблицы в базе данных ***pubs*** .</span><span class="sxs-lookup"><span data-stu-id="84a02-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
+<span data-ttu-id="907fc-104">В этом примере используется метод [OpenSchema](openschema-method-ado.md) для отображения имени и типа каждой таблицы в базе данных ***pubs*** .</span><span class="sxs-lookup"><span data-stu-id="907fc-104">This example uses the [OpenSchema](openschema-method-ado.md) method to display the name and type of each table in the ***Pubs*** database.</span></span>
 
 ```java 
  

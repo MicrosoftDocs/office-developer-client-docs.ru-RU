@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280441"
 ---
-# <a name="adcpropupdateresyncenum"></a><span data-ttu-id="8d4aa-102">Перечисление АДКПРОП\_упдатересинк\_</span><span class="sxs-lookup"><span data-stu-id="8d4aa-102">ADCPROP\_UPDATERESYNC\_ENUM</span></span>
+# <a name="adcprop_updateresync_enum"></a><span data-ttu-id="ac7a5-102">Перечисление АДКПРОП\_упдатересинк\_</span><span class="sxs-lookup"><span data-stu-id="ac7a5-102">ADCPROP\_UPDATERESYNC\_ENUM</span></span>
 
-<span data-ttu-id="8d4aa-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8d4aa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ac7a5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac7a5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8d4aa-104">Указывает, следует ли метод [UpdateBatch](updatebatch-method-ado.md) выполнить неявную операцию [](resync-method-ado.md) метода Resync и, если это так, область этой операции.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-104">Specifies whether the [UpdateBatch](updatebatch-method-ado.md) method is followed by an implicit [Resync](resync-method-ado.md) method operation and if so, the scope of that operation.</span></span>
+<span data-ttu-id="ac7a5-104">Указывает, следует ли метод [UpdateBatch](updatebatch-method-ado.md) выполнить неявную операцию метода [Resync](resync-method-ado.md) и, если это так, область этой операции.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-104">Specifies whether the [UpdateBatch](updatebatch-method-ado.md) method is followed by an implicit [Resync](resync-method-ado.md) method operation and if so, the scope of that operation.</span></span>
 
 <br/>
 
@@ -30,41 +30,41 @@ ms.locfileid: "32280441"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8d4aa-105">Константа</span><span class="sxs-lookup"><span data-stu-id="8d4aa-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="8d4aa-106">Значение</span><span class="sxs-lookup"><span data-stu-id="8d4aa-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="8d4aa-107">Описание</span><span class="sxs-lookup"><span data-stu-id="8d4aa-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="ac7a5-105">Константа</span><span class="sxs-lookup"><span data-stu-id="ac7a5-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="ac7a5-106">Значение</span><span class="sxs-lookup"><span data-stu-id="ac7a5-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="ac7a5-107">Описание</span><span class="sxs-lookup"><span data-stu-id="ac7a5-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8d4aa-108"><strong>Адресинкалл</strong></span><span class="sxs-lookup"><span data-stu-id="8d4aa-108"><strong>adResyncAll</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-109">означает</span><span class="sxs-lookup"><span data-stu-id="8d4aa-109">15</span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-110">Вызывает <strong>повторную синхронизацию</strong> со объединенным значением всех других элементов адкпроп_упдатересинк_енум.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-110">Invokes <strong>Resync</strong> with the combined value of all the other ADCPROP_UPDATERESYNC_ENUM members.</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-108"><strong>адресинкалл</strong></span><span class="sxs-lookup"><span data-stu-id="ac7a5-108"><strong>adResyncAll</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-109">15 </span><span class="sxs-lookup"><span data-stu-id="ac7a5-109">15</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-110">Вызывает <strong>повторную синхронизацию</strong> со объединенным значением всех других элементов ADCPROP_UPDATERESYNC_ENUM.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-110">Invokes <strong>Resync</strong> with the combined value of all the other ADCPROP_UPDATERESYNC_ENUM members.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d4aa-111"><strong>Адресинкаутоинкремент</strong></span><span class="sxs-lookup"><span data-stu-id="8d4aa-111"><strong>adResyncAutoIncrement</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-112">1,1</span><span class="sxs-lookup"><span data-stu-id="8d4aa-112">1</span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-113">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-113">Default.</span></span> <span data-ttu-id="8d4aa-114">Пытается получить новое значение идентификатора для столбцов, которые автоматически увеличиваются или генерируются источником данных, например поля автоНумерации Microsoft Jet или столбцы идентификаторов Microsoft SQL Server.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-114">Attempts to retrieve the new identity value for columns that are automatically incremented or generated by the data source, such as Microsoft Jet AutoNumber fields or Microsoft SQL Server Identity columns.</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-111"><strong>адресинкаутоинкремент</strong></span><span class="sxs-lookup"><span data-stu-id="ac7a5-111"><strong>adResyncAutoIncrement</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-112">1,1</span><span class="sxs-lookup"><span data-stu-id="ac7a5-112">1</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-113">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-113">Default.</span></span> <span data-ttu-id="ac7a5-114">Пытается получить новое значение идентификатора для столбцов, которые автоматически увеличиваются или генерируются источником данных, например поля автонумерации Microsoft Jet или столбцы идентификаторов Microsoft SQL Server.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-114">Attempts to retrieve the new identity value for columns that are automatically incremented or generated by the data source, such as Microsoft Jet AutoNumber fields or Microsoft SQL Server Identity columns.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d4aa-115"><strong>Адресинкконфликтс</strong></span><span class="sxs-lookup"><span data-stu-id="8d4aa-115"><strong>adResyncConflicts</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-116">2</span><span class="sxs-lookup"><span data-stu-id="8d4aa-116">2</span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-117">Вызывает <strong>повторную синхронизацию</strong> для всех строк, в которых произошел сбой операции обновления или удаления из-за конфликта параллелизма.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-117">Invokes <strong>Resync</strong> for all rows in which the update or delete operation failed because of a concurrency conflict.</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-115"><strong>адресинкконфликтс</strong></span><span class="sxs-lookup"><span data-stu-id="ac7a5-115"><strong>adResyncConflicts</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-116">2</span><span class="sxs-lookup"><span data-stu-id="ac7a5-116">2</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-117">Вызывает <strong>повторную синхронизацию</strong> для всех строк, в которых произошел сбой операции обновления или удаления из-за конфликта параллелизма.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-117">Invokes <strong>Resync</strong> for all rows in which the update or delete operation failed because of a concurrency conflict.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d4aa-118"><strong>АдресинЦинсертс</strong></span><span class="sxs-lookup"><span data-stu-id="8d4aa-118"><strong>adResyncInserts</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-119">8,5</span><span class="sxs-lookup"><span data-stu-id="8d4aa-119">8</span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-120">Вызывает <strong>повторную синхронизацию</strong> для всех успешно вставленных строк.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-120">Invokes <strong>Resync</strong> for all successfully inserted rows.</span></span> <span data-ttu-id="8d4aa-121">Однако значения столбцов AutoIncrement не синхронизируются повторно.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-121">However, AutoIncrement column values are not resynchronized.</span></span> <span data-ttu-id="8d4aa-122">Вместо этого содержимое вновь вставленных строк синхронизируется в соответствии с существующим значением первичного ключа.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-122">Instead, the contents of newly inserted rows are resynchronized based on the existing primary key value.</span></span> <span data-ttu-id="8d4aa-123">Если первичный ключ является значением AutoIncrement, повторная <strong>Синхронизация</strong> не извлекает содержимое предполагаемой строки.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-123">If the primary key is an AutoIncrement value, <strong>Resync</strong> won't retrieve the contents of the intended row.</span></span> <span data-ttu-id="8d4aa-124">Для автоматического увеличения значений первичных ключей автоПриращения вызовите <strong>UpdateBatch</strong> с объединенным значением <strong>адресинкаутоинкремент</strong> + <strong>адресинЦинсертс</strong>.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-124">For automatically incrementing AutoIncrement primary key values, call <strong>UpdateBatch</strong> with the combined value <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-118"><strong>адресинЦинсертс</strong></span><span class="sxs-lookup"><span data-stu-id="ac7a5-118"><strong>adResyncInserts</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-119">8 </span><span class="sxs-lookup"><span data-stu-id="ac7a5-119">8</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-120">Вызывает <strong>повторную синхронизацию</strong> для всех успешно вставленных строк.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-120">Invokes <strong>Resync</strong> for all successfully inserted rows.</span></span> <span data-ttu-id="ac7a5-121">Однако значения столбцов AutoIncrement не синхронизируются повторно.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-121">However, AutoIncrement column values are not resynchronized.</span></span> <span data-ttu-id="ac7a5-122">Вместо этого содержимое вновь вставленных строк синхронизируется в соответствии с существующим значением первичного ключа.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-122">Instead, the contents of newly inserted rows are resynchronized based on the existing primary key value.</span></span> <span data-ttu-id="ac7a5-123">Если первичный ключ является значением AutoIncrement, <strong>Повторная синхронизация</strong> не извлекает содержимое предполагаемой строки.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-123">If the primary key is an AutoIncrement value, <strong>Resync</strong> won't retrieve the contents of the intended row.</span></span> <span data-ttu-id="ac7a5-124">Для автоматического увеличения значений первичных ключей автоприращения вызовите <strong>UpdateBatch</strong> с объединенным значением <strong>адресинкаутоинкремент</strong> + <strong>адресинЦинсертс</strong>.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-124">For automatically incrementing AutoIncrement primary key values, call <strong>UpdateBatch</strong> with the combined value <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8d4aa-125"><strong>Адресинкноне</strong></span><span class="sxs-lookup"><span data-stu-id="8d4aa-125"><strong>adResyncNone</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-126">нуль</span><span class="sxs-lookup"><span data-stu-id="8d4aa-126">0</span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-127">Не вызывает <strong>повторную синхронизацию</strong>.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-127">Does not invoke <strong>Resync</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-125"><strong>адресинкноне</strong></span><span class="sxs-lookup"><span data-stu-id="ac7a5-125"><strong>adResyncNone</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-126">нуль</span><span class="sxs-lookup"><span data-stu-id="ac7a5-126">0</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-127">Не вызывает <strong>повторную синхронизацию</strong>.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-127">Does not invoke <strong>Resync</strong>.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8d4aa-128"><strong>Адресинкупдатес</strong></span><span class="sxs-lookup"><span data-stu-id="8d4aa-128"><strong>adResyncUpdates</strong></span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-129">SP4</span><span class="sxs-lookup"><span data-stu-id="8d4aa-129">4</span></span></p></td>
-<td><p><span data-ttu-id="8d4aa-130">Вызывает <strong>повторную синхронизацию</strong> для всех успешно обновленных строк.</span><span class="sxs-lookup"><span data-stu-id="8d4aa-130">Invokes <strong>Resync</strong> for all successfully updated rows.</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-128"><strong>адресинкупдатес</strong></span><span class="sxs-lookup"><span data-stu-id="ac7a5-128"><strong>adResyncUpdates</strong></span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-129">4 </span><span class="sxs-lookup"><span data-stu-id="ac7a5-129">4</span></span></p></td>
+<td><p><span data-ttu-id="ac7a5-130">Вызывает <strong>повторную синхронизацию</strong> для всех успешно обновленных строк.</span><span class="sxs-lookup"><span data-stu-id="ac7a5-130">Invokes <strong>Resync</strong> for all successfully updated rows.</span></span></p></td>
 </tr>
 </tbody>
 </table>
