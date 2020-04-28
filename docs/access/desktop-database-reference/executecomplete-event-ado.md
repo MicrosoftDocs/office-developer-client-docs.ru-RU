@@ -22,20 +22,20 @@ ms.locfileid: "32293226"
 
 ## <a name="syntax"></a>Синтаксис
 
-Событие executecomplete*рекордсаффектед*, *перрор*, *адстатус*, *пкомманд*, ** пода, *пконнектион*
+Событие executecomplete*рекордсаффектед*, *перрор*, *адстатус*, *пкомманд*, *пода*, *пконнектион*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Рекордсаффектед* |**Длинное** значение, указывающее количество записей, на которые влияет команда.|
-|*Перрор* |Объект [Error](error-object-ado.md) . В нем описывается ошибка, которая возникла, если значение **адстатус** равно **адстатусеррорсоккурред**; в противном случае он не задается.|
-|*Адстатус* |[Евентстатусенум](eventstatusenum.md). Перед возвращением этого события установите для этого параметра значение **адстатусунвантедевент** , чтобы предотвратить появление последующих уведомлений.|
-|*Пкомманд* |[Командный](command-object-ado.md) объект, который был выполнен. Содержит объект **Command** даже при вызове метода **Connection. Execute** или **Recordset. Open** без явного создания **команды**, при этом объект **Command** создается внутри ADO.|
+|*рекордсаффектед* |**Длинное** значение, указывающее количество записей, на которые влияет команда.|
+|*перрор* |Объект [Error](error-object-ado.md) . В нем описывается ошибка, которая возникла, если значение **адстатус** равно **адстатусеррорсоккурред**; в противном случае он не задается.|
+|*адстатус* |[Евентстатусенум](eventstatusenum.md). Перед возвращением этого события установите для этого параметра значение **адстатусунвантедевент** , чтобы предотвратить появление последующих уведомлений.|
+|*пкомманд* |[Командный](command-object-ado.md) объект, который был выполнен. Содержит объект **Command** даже при вызове метода **Connection. Execute** или **Recordset. Open** без явного создания **команды**, при этом объект **Command** создается внутри ADO.|
 |*предшнур* |Объект [Recordset](recordset-object-ado.md) , являющийся результатом выполненной команды. Этот **набор записей** может быть пустым. Не следует удалять этот объект Recordset из этого обработчика событий. Это приведет к нарушению прав доступа при попытке ADO получить доступ к объекту, который больше не существует.|
-|*Пконнектион* |Объект [Connection](connection-object-ado.md) . Подключение, для которого выполнялась операция.|
+|*пконнектион* |Объект [Connection](connection-object-ado.md) . Подключение, для которого выполнялась операция.|
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-В связи с подключением может возникнуть событие **событие executecomplete** **.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **команда.** [EXECUTE](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **Recordset.** [Открыть](open-method-ado-recordset.md), **Recordset.** [Requery](requery-method-ado.md)или **Recordset.** Методы [NextRecordset](nextrecordset-method-ado.md) .
+В связи с **подключением** может возникнуть событие **событие executecomplete** . [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **команда.** [EXECUTE](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **Recordset.** [Открыть](open-method-ado-recordset.md), **Recordset.** [Requery](requery-method-ado.md)или **Recordset.** Методы [NextRecordset](nextrecordset-method-ado.md) .
 

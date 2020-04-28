@@ -1,5 +1,5 @@
 ---
-title: Свойство Field. Value (DAO)
+title: Свойство Field.Value (DAO)
 TOCTitle: Value Property
 ms:assetid: 6c0f9a8d-f51a-b8cf-8830-f8d960a1d08c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195493(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292925"
 ---
-# <a name="fieldvalue-property-dao"></a>Свойство Field. Value (DAO)
+# <a name="fieldvalue-property-dao"></a>Свойство Field.Value (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "32292925"
 
 *выражение*: переменная, представляющая объект **Field**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Параметр или возвращаемое значение — это тип данных Variant, который оценивается как значение, соответствующее типу данных, как указано в свойстве **Type** объекта.
 

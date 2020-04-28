@@ -35,10 +35,10 @@ ms.locfileid: "32295291"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адопенфорвардонли</strong></p></td>
+<td><p><strong>адопенфорвардонли</strong></p></td>
 <td><p></p>
 <ul>
-<li><p>НеДорогие требования к ресурсам</p></li>
+<li><p>Недорогие требования к ресурсам</p></li>
 </ul>
 <p></p></td>
 <td><p></p>
@@ -49,7 +49,7 @@ ms.locfileid: "32295291"
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адопенстатик</strong></p></td>
+<td><p><strong>адопенстатик</strong></p></td>
 <td><p></p>
 <ul>
 <li><p>Прокручиваемой</p></li>
@@ -62,7 +62,7 @@ ms.locfileid: "32295291"
 <p></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адопенкэйсет</strong></p></td>
+<td><p><strong>адопенкэйсет</strong></p></td>
 <td><p></p>
 <ul>
 <li><p>Часть параллелизма данных</p></li>
@@ -77,7 +77,7 @@ ms.locfileid: "32295291"
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адопендинамик</strong></p></td>
+<td><p><strong>адопендинамик</strong></p></td>
 <td><p></p>
 <ul>
 <li><p>Высокая степень параллелизма данных</p></li>
@@ -92,10 +92,10 @@ ms.locfileid: "32295291"
 <p></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адлоккреадонли</strong></p></td>
+<td><p><strong>адлоккреадонли</strong></p></td>
 <td><p></p>
 <ul>
-<li><p>НеДорогие требования к ресурсам</p></li>
+<li><p>Недорогие требования к ресурсам</p></li>
 <li><p>Высокая масштабируемость</p></li>
 </ul>
 <p></p></td>
@@ -106,7 +106,7 @@ ms.locfileid: "32295291"
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адлоккбатчоптимистик</strong></p></td>
+<td><p><strong>адлоккбатчоптимистик</strong></p></td>
 <td><p></p>
 <ul>
 <li><p>Пакетные обновления</p></li>
@@ -121,7 +121,7 @@ ms.locfileid: "32295291"
 <p></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адлоккпессимистик</strong></p></td>
+<td><p><strong>адлоккпессимистик</strong></p></td>
 <td><p></p>
 <ul>
 <li><p>Данные не могут быть изменены другими пользователями, если они заблокированы</p></li>
@@ -134,7 +134,7 @@ ms.locfileid: "32295291"
 <p></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адлоккоптимистик</strong></p></td>
+<td><p><strong>адлоккоптимистик</strong></p></td>
 <td><p></p>
 <ul>
 <li><p>Другие пользователи, которые могут получать доступ к данным</p></li>

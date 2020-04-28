@@ -36,12 +36,12 @@ ms.locfileid: "32294563"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Дбдекрипт</p></td>
-<td><p>SP4</p></td>
+<td><p>dbDecrypt</p></td>
+<td><p>4 </p></td>
 <td><p>Расшифровка базы данных при сжатии</p></td>
 </tr>
 <tr class="even">
-<td><p>Дбенкрипт</p></td>
+<td><p>dbEncrypt</p></td>
 <td><p>2</p></td>
 <td><p>Шифрует базу данных</p></td>
 </tr>
@@ -52,7 +52,7 @@ ms.locfileid: "32294563"
 </tr>
 <tr class="even">
 <td><p>dbVersion11</p></td>
-<td><p>8,5</p></td>
+<td><p>8 </p></td>
 <td><p>Ядро базы данных Microsoft Jet версии 1,1</p></td>
 </tr>
 <tr class="odd">
@@ -62,7 +62,7 @@ ms.locfileid: "32294563"
 </tr>
 <tr class="even">
 <td><p>dbVersion20</p></td>
-<td><p>столбцов</p></td>
+<td><p>16 </p></td>
 <td><p>Ядро базы данных Microsoft Jet версии 2,0</p></td>
 </tr>
 <tr class="odd">

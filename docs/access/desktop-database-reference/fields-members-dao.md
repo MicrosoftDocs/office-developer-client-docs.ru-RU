@@ -19,7 +19,7 @@ ms.locfileid: "32292540"
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция Fields содержит все объекты, хранящиеся в объекте index, QueryDef, Recordset, relation или TableDef.
+Коллекция Fields содержит все сохраненные объекты Field объекта Index, QueryDef, Recordset, Relation или TableDef.
 
 ## <a name="methods"></a>Методы
 
@@ -37,14 +37,14 @@ ms.locfileid: "32292540"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="fields-append-method-dao.md">Error</a></strong></p></td>
-<td><p>Добавляет новое <strong><a href="field-object-dao.md">поле</a></strong> в коллекцию <strong><a href="fields-collection-dao.md">Fields</a></strong> .</p></td>
+<td><p>Добавляет новый объект <strong><a href="field-object-dao.md">Field</a></strong> в коллекцию <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="fields-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Удаляет <strong><a href="field-object-dao.md">поле</a></strong> из коллекции <strong><a href="fields-collection-dao.md">Fields</a></strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="fields-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p><strong><a href="fields-refresh-method-dao.md">Обновление</a></strong></p></td>
 <td><p>Обновляет объекты в заданном коллетион в соответствии с текущей схемой базы данных.</p></td>
 </tr>
 </tbody>

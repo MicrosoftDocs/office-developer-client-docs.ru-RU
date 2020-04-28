@@ -127,7 +127,7 @@ ms.locfileid: "32283235"
 <td><p>Описывает объект <strong>Error</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="direction-property-ado.md">Direction</a></p></td>
+<td><p><a href="direction-property-ado.md">Направление</a></p></td>
 <td><p>Указывает, представляет ли <strong>параметр</strong> входной параметр, выходной параметр или оба параметра, или если параметр является возвращаемым значением из хранимой процедуры.</p></td>
 </tr>
 <tr class="even">
@@ -140,14 +140,14 @@ ms.locfileid: "32283235"
 </tr>
 <tr class="even">
 <td><p><a href="filter-property-ado.md">Filter</a></p></td>
-<td><p>Указывает фильтр для данных в наборе <strong>записей</strong>.</p></td>
+<td><p>Указывает фильтр для данных в <strong>наборе записей</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="helpcontext-helpfile-properties-ado.md">HelpContext и HelpFile</a></p></td>
-<td><p>Указывает файл справки и раздел, связанный с объектом <strong>Error</strong> . <strong>HelpContextID</strong> — возвращает идентификатор контекста в виде длинного <strong></strong> значения для раздела в файле справки. <strong>HelpFile</strong> — возвращает <strong>строковое</strong> значение, которое оценивается как полностью разрешенный путь к файлу справки.</p></td>
+<td><p>Указывает файл справки и раздел, связанный с объектом <strong>Error</strong> . <strong>HelpContextID</strong> — возвращает идентификатор контекста в виде <strong>длинного</strong> значения для раздела в файле справки. <strong>HelpFile</strong> — возвращает <strong>строковое</strong> значение, которое оценивается как полностью разрешенный путь к файлу справки.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="index-property-ado.md">Index</a></p></td>
+<td><p><a href="index-property-ado.md">Индекс</a></p></td>
 <td><p>Указывает имя индекса, действующего в текущий момент для объекта <strong>Recordset</strong> .</p></td>
 </tr>
 <tr class="odd">
@@ -155,7 +155,7 @@ ms.locfileid: "32283235"
 <td><p>Указывает уровень изоляции для объекта <strong>подключения</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Элемент</a></p></td>
 <td><p>Указывает определенный элемент коллекции по имени или порядковому номеру.</p></td>
 </tr>
 <tr class="odd">
@@ -176,10 +176,10 @@ ms.locfileid: "32283235"
 </tr>
 <tr class="odd">
 <td><p><a href="mode-property-ado.md">Mode</a></p></td>
-<td><p>Указывает доступные разрешения для изменения данных в объекте <strong>подключения</strong>, <strong>записи</strong>или потоке <strong></strong> .</p></td>
+<td><p>Указывает доступные разрешения для изменения данных в объекте <strong>подключения</strong>, <strong>записи</strong>или <strong>потоке</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado.md">Name</a></p></td>
+<td><p><a href="name-property-ado.md">имя</a></p></td>
 <td><p>Указывает имя объекта.</p></td>
 </tr>
 <tr class="odd">
@@ -251,7 +251,7 @@ ms.locfileid: "32283235"
 <td><p>Получает или задает объект <strong>набора строк</strong> OLE DB from/On объекта <strong>ADORecordsetConstruction</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="size-property-ado.md">Size</a></p></td>
+<td><p><a href="size-property-ado.md">Размер</a></p></td>
 <td><p>Указывает максимальный размер объекта <strong>параметра</strong> в байтах или символах.</p></td>
 </tr>
 <tr class="odd">
@@ -292,10 +292,10 @@ ms.locfileid: "32283235"
 </tr>
 <tr class="even">
 <td><p><a href="stayinsync-property-ado.md">StayInSync</a></p></td>
-<td><p>Указывает, изменяется ли ссылка на базовые дочерние записи (то есть глава) в иерархическом объекте <em></em> <strong>Recordset</strong> при изменении положения родительской строки.</p></td>
+<td><p>Указывает, изменяется ли ссылка на базовые дочерние записи (то есть <em>глава</em>) в иерархическом объекте <strong>Recordset</strong> при изменении положения родительской строки.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado.md">Type</a></p></td>
+<td><p><a href="type-property-ado.md">Тип</a></p></td>
 <td><p>Указывает операционный тип или тип данных для <strong>параметра</strong>, <strong>поля</strong>или объекта <strong>Property</strong> .</p></td>
 </tr>
 <tr class="even">

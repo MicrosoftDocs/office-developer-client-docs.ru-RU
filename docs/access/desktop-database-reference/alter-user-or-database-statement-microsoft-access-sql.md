@@ -24,7 +24,7 @@ ms.locfileid: "32297181"
 
 ALTER DATABASE PASSWORD *newPassword олдпассворд*
 
-ИЗМЕНЕНИЕ пароля ** пользователя *newPassword олдпассворд*
+ИЗМЕНЕНИЕ пароля *пользователя* *newPassword олдпассворд*
 
 Инструкция ALTER USER или DATABASE состоит из следующих частей:
 

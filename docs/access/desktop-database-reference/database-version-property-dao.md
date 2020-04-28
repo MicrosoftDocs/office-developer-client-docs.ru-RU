@@ -26,7 +26,7 @@ ms.locfileid: "32294654"
 
 *выражение*: переменная, представляющая объект **Database**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Возвращаемое значение — это строка, в которой вычисляется номер версии, отформатированный следующим образом.
 
@@ -58,33 +58,33 @@ ms.locfileid: "32294654"
 <td><p>Microsoft Jet</p></td>
 <td><p>1,0 (1992)</p></td>
 <td><p>1.0</p></td>
-<td><p>Недоступно</p></td>
-<td><p>Недоступно</p></td>
-<td><p>Недоступно</p></td>
+<td><p>Н/Д</p></td>
+<td><p>Н/Д</p></td>
+<td><p>Н/Д</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet</p></td>
 <td><p>1,1 (1993)</p></td>
 <td><p>1.1</p></td>
 <td><p>3,0</p></td>
-<td><p>Недоступно</p></td>
-<td><p>Недоступно</p></td>
+<td><p>Н/Д</p></td>
+<td><p>Н/Д</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Jet</p></td>
 <td><p>2,0 (1994)</p></td>
 <td><p>2.0</p></td>
-<td><p>Недоступно</p></td>
-<td><p>Недоступно</p></td>
-<td><p>Недоступно</p></td>
+<td><p>Н/Д</p></td>
+<td><p>Н/Д</p></td>
+<td><p>Н/Д</p></td>
 </tr>
 <tr class="even">
 <td><p>Microsoft Jet</p></td>
 <td><p>2,5 (1995)</p></td>
-<td><p>Недоступно</p></td>
+<td><p>Н/Д</p></td>
 <td><p>4,0 (16-разрядная версия)</p></td>
-<td><p>Недоступно</p></td>
-<td><p>Недоступно</p></td>
+<td><p>Н/Д</p></td>
+<td><p>Н/Д</p></td>
 </tr>
 <tr class="odd">
 <td><p>Microsoft Jet</p></td>

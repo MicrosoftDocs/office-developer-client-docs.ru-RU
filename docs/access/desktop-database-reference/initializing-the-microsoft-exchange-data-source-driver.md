@@ -36,7 +36,7 @@ ms.locfileid: "32291409"
 
 ## <a name="microsoft-outlook-client-isam-formats"></a>ISAM formats клиента Microsoft Outlook
 
-**Подсистема\\подключения доступа ISAM\\formats Outlook 9,0** содержит следующие записи.
+**\\Подсистема подключения доступа ISAM\\formats Outlook 9,0** содержит следующие записи.
 
 <table>
 <colgroup>
@@ -58,37 +58,37 @@ ms.locfileid: "32291409"
 <td><p>Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>Импортфилтер</p></td>
+<td><p>импортфилтер</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Outlook ()</p></td>
 </tr>
 <tr class="odd">
-<td><p>Канлинк</p></td>
+<td><p>канлинк</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>01</p></td>
 </tr>
 <tr class="even">
-<td><p>Онетаблеперфиле</p></td>
+<td><p>онетаблеперфиле</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>00</p></td>
 </tr>
 <tr class="odd">
-<td><p>Исамтипе</p></td>
+<td><p>исамтипе</p></td>
 <td><p>REG_DWORD</p></td>
 <td><p>4</p></td>
 </tr>
 <tr class="even">
-<td><p>Индексдиалог</p></td>
+<td><p>индексдиалог</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>00</p></td>
 </tr>
 <tr class="odd">
-<td><p>Креатедбонекспорт</p></td>
+<td><p>креатедбонекспорт</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>00</p></td>
 </tr>
 <tr class="even">
-<td><p>Суппортслонгнамес</p></td>
+<td><p>суппортслонгнамес</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>01</p></td>
 </tr>
@@ -126,37 +126,37 @@ ms.locfileid: "32291409"
 <td><p>Exchange</p></td>
 </tr>
 <tr class="even">
-<td><p>Импортфилтер</p></td>
+<td><p>импортфилтер</p></td>
 <td><p>REG_SZ</p></td>
 <td><p>Exchange ()</p></td>
 </tr>
 <tr class="odd">
-<td><p>Канлинк</p></td>
+<td><p>канлинк</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>01</p></td>
 </tr>
 <tr class="even">
-<td><p>Онетаблеперфиле</p></td>
+<td><p>онетаблеперфиле</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>00</p></td>
 </tr>
 <tr class="odd">
-<td><p>Исамтипе</p></td>
+<td><p>исамтипе</p></td>
 <td><p>REG_DWORD</p></td>
 <td><p>4</p></td>
 </tr>
 <tr class="even">
-<td><p>Индексдиалог</p></td>
+<td><p>индексдиалог</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>00</p></td>
 </tr>
 <tr class="odd">
-<td><p>Креатедбонекспорт</p></td>
+<td><p>креатедбонекспорт</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>00</p></td>
 </tr>
 <tr class="even">
-<td><p>Суппортслонгнамес</p></td>
+<td><p>суппортслонгнамес</p></td>
 <td><p>REG_BINARY</p></td>
 <td><p>01</p></td>
 </tr>

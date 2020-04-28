@@ -19,7 +19,7 @@ ms.locfileid: "32294115"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [DefinedSize](definedsize-property-adox.md) [столбца](column-object-adox.md). Код переопределит размер столбца "FirstName" таблицы Employees базы данных **** *Northwind* . Затем отображается изменение значений [поля](field-object-ado.md) FirstName объекта [Recordset](recordset-object-ado.md) на основе таблицы Employees ( **сотрудники** ). Обратите внимание, что по умолчанию поле FirstName заполняется пробелами после переопределения свойства **DefinedSize** .
+В этом примере показано свойство [DefinedSize](definedsize-property-adox.md) [столбца](column-object-adox.md). Код переопределит размер столбца "FirstName" таблицы **Employees** базы данных *Northwind* . Затем отображается изменение значений [поля](field-object-ado.md) FirstName объекта [Recordset](recordset-object-ado.md) на основе таблицы **Employees (сотрудники** ). Обратите внимание, что по умолчанию поле FirstName заполняется пробелами после переопределения свойства **DefinedSize** .
 
 ```cpp 
  

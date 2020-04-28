@@ -32,7 +32,7 @@ ms.locfileid: "32296243"
 - [Свойство SortOrder](sortorder-property-adox.md)
 - [Свойство Type (Column)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 Нет.
 

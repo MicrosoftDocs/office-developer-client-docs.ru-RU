@@ -21,7 +21,7 @@ ms.locfileid: "32290754"
 
 Представляет первичное, внешнее или уникальное ключевое поле из таблицы базы данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Следующий код создает новый **ключ**:
 
@@ -33,7 +33,7 @@ ms.locfileid: "32290754"
 
 - Определите, является ли ключ первичным, внешним или уникальным, с помощью свойства [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox) .
 
-- Доступ к столбцам базы данных ключа с помощью [](columns-collection-adox.md) коллекции Columns.
+- Доступ к столбцам базы данных ключа с помощью коллекции [Columns](columns-collection-adox.md) .
 
 - Укажите имя связанной таблицы с помощью свойства [RelatedTable](relatedtable-property-adox.md) .
 

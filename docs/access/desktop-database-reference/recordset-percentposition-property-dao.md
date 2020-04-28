@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. PercentPosition (DAO)
+title: Свойство Recordset.PercentPosition (DAO)
 TOCTitle: PercentPosition Property
 ms:assetid: aebbda44-ed72-7a6c-0cd5-28c8997d4d96
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821751(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300167"
 ---
-# <a name="recordsetpercentposition-property-dao"></a>Свойство Recordset. PercentPosition (DAO)
+# <a name="recordsetpercentposition-property-dao"></a>Свойство Recordset.PercentPosition (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -33,7 +33,7 @@ ms.locfileid: "32300167"
 > [!NOTE]
 > Использование свойства **PercentPosition** для перемещения текущей записи в определенную запись в объекте **Recordset** не рекомендуется. Свойство **[Bookmark](recordset-bookmark-property-dao.md)** лучше подходит для этой задачи.
 
-Когда для свойства **PercentPosition** задано значение, запись в приближенной позиции, соответствующая этому значению, становится текущей, а свойство **PercentPosition** сбрасывается в значение, отражающее приближенное положение текущего запись. Например, если объект **Recordset** содержит только пять записей и для свойства **PercentPosition** задано значение 77, то значение, возвращаемое свойством **PercentPosition** , может быть равно 80, а не 77.
+Когда для свойства **PercentPosition** задано значение, запись в приближенной позиции, соответствующая этому значению, становится текущей, и свойство **PercentPosition** сбрасывается в значение, отражающее приближенное положение текущей записи. Например, если объект **Recordset** содержит только пять записей и для свойства **PercentPosition** задано значение 77, то значение, возвращаемое свойством **PercentPosition** , может быть равно 80, а не 77.
 
 Свойство **PercentPosition** применяется ко всем типам объектов **Recordset** , за исключением однонаправленных объектов **Recordset** и объектов **Recordset** , открытых из запросов к удаленным базам данных.
 

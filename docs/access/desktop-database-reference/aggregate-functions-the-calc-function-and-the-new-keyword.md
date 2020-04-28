@@ -53,7 +53,7 @@ ms.locfileid: "32297195"
 </tr>
 <tr class="odd">
 <td><p>COUNT (<em>Chapter-Alias</em>[.<em> column-name</em>])</p></td>
-<td><p>ПодСчитывает количество строк в указанном псевдониме. Если указан столбец, в число включаются только те строки, для которых этот столбец имеет значение, отличное от NULL.</p></td>
+<td><p>Подсчитывает количество строк в указанном псевдониме. Если указан столбец, в число включаются только те строки, для которых этот столбец имеет значение, отличное от NULL.</p></td>
 </tr>
 <tr class="even">
 <td><p>СТАНДОТКЛОН (<em>Chapter-Alias</em>.<em> column-name</em>)</p></td>
@@ -102,7 +102,7 @@ ms.locfileid: "32297195"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>New <em>field-Type</em> [(<em>Ошибка</em> <em>точности</em> | <em>масштабирования</em> | <em>ширины</em> | , ошибка <em>масштабирования</em> | <em></em>])]</p></td>
+<td><p>New <em>field-Type</em> [(<em>Ошибка</em> <em>точности</em> | <em>масштабирования</em> | <em>ширины</em> | , ошибка <em>масштабирования</em> | <em>error</em>])]</p></td>
 <td><p>Добавляет в <strong>набор записей</strong>пустой столбец указанного типа.</p></td>
 </tr>
 </tbody>
@@ -125,84 +125,84 @@ ms.locfileid: "32297195"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>ДБТИПЕ_БСТР</p></td>
-<td><p>Адбстр</p></td>
+<td><p>DBTYPE_BSTR</p></td>
+<td><p>адбстр</p></td>
 </tr>
 <tr class="even">
-<td><p>ДБТИПЕ_БУЛ</p></td>
-<td><p>Адбулеан</p></td>
+<td><p>DBTYPE_BOOL</p></td>
+<td><p>адбулеан</p></td>
 </tr>
 <tr class="odd">
-<td><p>ДБТИПЕ_ДЕЦИМАЛ</p></td>
-<td><p>АддеЦимал</p></td>
+<td><p>DBTYPE_DECIMAL</p></td>
+<td><p>аддеЦимал</p></td>
 </tr>
 <tr class="even">
 <td><p>DBTYPE_UI1</p></td>
-<td><p>Адунсигнедтининт</p></td>
+<td><p>адунсигнедтининт</p></td>
 </tr>
 <tr class="odd">
 <td><p>DBTYPE_I1</p></td>
-<td><p>Адтининт</p></td>
+<td><p>адтининт</p></td>
 </tr>
 <tr class="even">
 <td><p>DBTYPE_UI2</p></td>
-<td><p>Адунсигнедсмаллинт</p></td>
+<td><p>адунсигнедсмаллинт</p></td>
 </tr>
 <tr class="odd">
 <td><p>DBTYPE_UI4</p></td>
-<td><p>Адунсигнединт</p></td>
+<td><p>адунсигнединт</p></td>
 </tr>
 <tr class="even">
 <td><p>DBTYPE_I8</p></td>
-<td><p>Адбигинт</p></td>
+<td><p>адбигинт</p></td>
 </tr>
 <tr class="odd">
 <td><p>DBTYPE_UI8</p></td>
-<td><p>Адунсигнедбигинт</p></td>
+<td><p>адунсигнедбигинт</p></td>
 </tr>
 <tr class="even">
-<td><p>ДБТИПЕ_ГУИД</p></td>
-<td><p>Адгуид</p></td>
+<td><p>DBTYPE_GUID</p></td>
+<td><p>адгуид</p></td>
 </tr>
 <tr class="odd">
-<td><p>ДБТИПЕ_БИТЕС</p></td>
+<td><p>DBTYPE_BYTES</p></td>
 <td><p>Адбинари, Адварбинари, Адлонгварбинари</p></td>
 </tr>
 <tr class="even">
-<td><p>ДБТИПЕ_СТР</p></td>
+<td><p>DBTYPE_STR</p></td>
 <td><p>Адчар, Адварчар, Адлонгварчар</p></td>
 </tr>
 <tr class="odd">
-<td><p>ДБТИПЕ_ВСТР</p></td>
+<td><p>DBTYPE_WSTR</p></td>
 <td><p>Адвчар, Адварвчар, Адлонгварвчар</p></td>
 </tr>
 <tr class="even">
-<td><p>ДБТИПЕ_НУМЕРИК</p></td>
-<td><p>Аднумерик</p></td>
+<td><p>DBTYPE_NUMERIC</p></td>
+<td><p>аднумерик</p></td>
 </tr>
 <tr class="odd">
-<td><p>ДБТИПЕ_ДБДАТЕ</p></td>
-<td><p>Аддбдате</p></td>
+<td><p>DBTYPE_DBDATE</p></td>
+<td><p>аддбдате</p></td>
 </tr>
 <tr class="even">
-<td><p>ДБТИПЕ_ДБТИМЕ</p></td>
-<td><p>Аддбтиме</p></td>
+<td><p>DBTYPE_DBTIME</p></td>
+<td><p>аддбтиме</p></td>
 </tr>
 <tr class="odd">
-<td><p>ДБТИПЕ_ДБТИМЕСТАМП</p></td>
-<td><p>Аддбтиместамп</p></td>
+<td><p>DBTYPE_DBTIMESTAMP</p></td>
+<td><p>аддбтиместамп</p></td>
 </tr>
 <tr class="even">
-<td><p>ДБТИПЕ_ВАРНУМЕРИК</p></td>
-<td><p>Адварнумерик</p></td>
+<td><p>DBTYPE_VARNUMERIC</p></td>
+<td><p>адварнумерик</p></td>
 </tr>
 <tr class="odd">
-<td><p>ДБТИПЕ_ФИЛЕТИМЕ</p></td>
-<td><p>Адфилетиме</p></td>
+<td><p>DBTYPE_FILETIME</p></td>
+<td><p>адфилетиме</p></td>
 </tr>
 <tr class="even">
-<td><p>ДБТИПЕ_ЕРРОР</p></td>
-<td><p>Адеррор</p></td>
+<td><p>DBTYPE_ERROR</p></td>
+<td><p>адеррор</p></td>
 </tr>
 </tbody>
 </table>

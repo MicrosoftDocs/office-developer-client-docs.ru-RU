@@ -36,17 +36,17 @@ ms.locfileid: "32288009"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адпарамсигнед</strong></p></td>
-<td><p>столбцов</p></td>
+<td><p><strong>адпарамсигнед</strong></p></td>
+<td><p>16 </p></td>
 <td><p>Указывает, что параметр принимает значения со знаком.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адпарамнуллабле</strong></p></td>
+<td><p><strong>адпарамнуллабле</strong></p></td>
 <td><p>64</p></td>
 <td><p>Указывает, что параметр может принимать значения NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адпарамлонг</strong></p></td>
+<td><p><strong>адпарамлонг</strong></p></td>
 <td><p>128</p></td>
 <td><p>Указывает, что параметр принимает длинные двоичные данные.</p></td>
 </tr>

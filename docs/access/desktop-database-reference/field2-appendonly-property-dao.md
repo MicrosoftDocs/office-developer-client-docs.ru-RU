@@ -27,7 +27,7 @@ ms.locfileid: "32292897"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Аппендонли
+*Expression* . аппендонли
 
 *expression* — переменная, представляющая объект **Field2**.
 

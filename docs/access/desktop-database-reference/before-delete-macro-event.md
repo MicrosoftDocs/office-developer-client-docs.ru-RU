@@ -27,7 +27,7 @@ ms.locfileid: "32296915"
 > [!NOTE]
 > Событие " **перед удалением** " доступно только в макросах данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте событие **перед удалением** для выполнения действий, которые должны выполняться перед удалением записи. Для выполнения проверки и порождения настраиваемых сообщений об ошибках обычно используется значение **Before Change** .
 
@@ -53,45 +53,45 @@ ms.locfileid: "32296915"
 <thead>
 <tr class="header">
 <th><p>Тип команды</p></th>
-<th><p>Command</p></th>
+<th><p>Команда</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Program Flow</p></td>
-<td><p><a href="comment-macro-statement.md">Оператор макроса Comment</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="comment-macro-statement.md">Оператор макроса "Примечание"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Program Flow</p></td>
-<td><p><a href="group-macro-statement.md">Оператор макроса Group</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="group-macro-statement.md">Оператор макроса "Группа"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Program Flow</p></td>
-<td><p><a href="if-then-else-macro-block.md">Блок макросов If...Then...Else</a></p></td>
+<td><p>Управление</p></td>
+<td><p><a href="if-then-else-macro-block.md">Макроблок Если... То... Иначе</a></p></td>
 </tr>
 <tr class="even">
 <td><p>Блок данных</p></td>
 <td><p><a href="lookuprecord-data-block.md">Макрокоманда LookupRecord</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="clearmacroerror-macro-action.md">Макрокоманда ClearMacroError</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="clearmacroerror-macro-action.md">Макрокоманда "УстранитьОшибкуМакроса"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="onerror-macro-action.md">Макрокоманда OnError</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="onerror-macro-action.md">Макрокоманда "ПриОшибке"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="raiseerror-macro-action.md">Макрокоманда RaiseError</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="raiseerror-macro-action.md">Макрокоманда "ВыводОшибки"</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Действие с данными</p></td>
-<td><p><a href="setlocalvar-macro-action.md">Макрокоманда SetLocalVar</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="setlocalvar-macro-action.md">Макрокоманда "ЗадатьЛокПеременную"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Действие с данными</p></td>
-<td><p><a href="stopmacro-macro-action.md">Макрокоманда StopMacro</a></p></td>
+<td><p>Действия с данными</p></td>
+<td><p><a href="stopmacro-macro-action.md">Макрокоманда "ОстановитьМакрос"</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -101,5 +101,5 @@ ms.locfileid: "32296915"
 
 1.  Откройте таблицу, для которой необходимо записать событие **перед удалением** .
 
-2.  На вкладке **Таблица** в группе **события перед** удалением выберите **перед удалением**.
+2.  На вкладке **Таблица** в группе **события перед** **удалением выберите перед удалением**.
 

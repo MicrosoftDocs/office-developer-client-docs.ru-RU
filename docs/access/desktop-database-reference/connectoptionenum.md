@@ -37,12 +37,12 @@ ms.locfileid: "32295683"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адасинкконнект</strong></p></td>
-<td><p>столбцов</p></td>
+<td><p><strong>адасинкконнект</strong></p></td>
+<td><p>16 </p></td>
 <td><p>Асинхронно открывает подключение. Событие <a href="connectcomplete-and-disconnect-events-ado.md">события connectcomplete</a> можно использовать для определения доступности подключения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>АдконнектунспеЦифиед</strong></p></td>
+<td><p><strong>адконнектунспеЦифиед</strong></p></td>
 <td><p>–1</p></td>
 <td><p>Значение, используемое по умолчанию. Синхронно открывает подключение.</p></td>
 </tr>

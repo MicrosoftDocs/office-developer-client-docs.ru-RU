@@ -37,23 +37,23 @@ ms.locfileid: "32293583"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адедитноне</strong></p></td>
+<td><p><strong>адедитноне</strong></p></td>
 <td><p>нуль</p></td>
 <td><p>Указывает, что операции редактирования не выполняются.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адедитинпрогресс</strong></p></td>
+<td><p><strong>адедитинпрогресс</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Указывает, что данные в текущей записи были изменены, но не были сохранены.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адедитадд</strong></p></td>
+<td><p><strong>адедитадд</strong></p></td>
 <td><p>2</p></td>
 <td><p>Указывает на то, что метод <a href="addnew-method-ado.md">AddNew</a> вызван, а текущая запись в буфере копии — это новая запись, которая не была сохранена в базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адедитделете</strong></p></td>
-<td><p>SP4</p></td>
+<td><p><strong>адедитделете</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Указывает, что текущая запись была удалена.</p></td>
 </tr>
 </tbody>
@@ -78,7 +78,7 @@ ms.locfileid: "32293583"
 <td><p>Адоенумс. EditMode. NONE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. EditMode. неВЫПОЛНЕНИЕ</p></td>
+<td><p>Адоенумс. EditMode. невыполнение</p></td>
 </tr>
 <tr class="odd">
 <td><p>Адоенумс. EditMode. ADD</p></td>

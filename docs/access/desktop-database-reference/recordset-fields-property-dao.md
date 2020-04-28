@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. Fields (DAO)
+title: Свойство Recordset.Fields (DAO)
 TOCTitle: Fields Property
 ms:assetid: ba6bbc10-41e0-87af-4372-f81205e7a320
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822496(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300513"
 ---
-# <a name="recordsetfields-property-dao"></a>Свойство Recordset. Fields (DAO)
+# <a name="recordsetfields-property-dao"></a>Свойство Recordset.Fields (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

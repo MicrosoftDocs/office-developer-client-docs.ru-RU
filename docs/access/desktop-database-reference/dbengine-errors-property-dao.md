@@ -29,5 +29,5 @@ ms.locfileid: "32294318"
 
 *Expression* . Обнаружен
 
-*Expression (выражение* ) Переменная, представляющая объект **DBEngine** .
+*expression*: переменная, представляющая объект **DBEngine**.
 

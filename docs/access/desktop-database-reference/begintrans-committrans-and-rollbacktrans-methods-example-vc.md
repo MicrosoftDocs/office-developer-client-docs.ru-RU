@@ -19,7 +19,7 @@ ms.locfileid: "32296838"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере изменяется тип Book всех книг психологии в таблице ***titles*** базы данных. После того как метод [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) начинает транзакцию, которая изолирует все изменения, внесенные ****** в таблицу titles, метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения. Для отмены изменений, сохраненных с помощью метода [Update](update-method-ado.md) , можно использовать метод [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) .
+В этом примере изменяется тип Book всех книг психологии в таблице ***titles*** базы данных. После того как метод [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) начинает транзакцию, которая изолирует все изменения, внесенные в таблицу ***titles*** , метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения. Для отмены изменений, сохраненных с помощью метода [Update](update-method-ado.md) , можно использовать метод [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) .
 
 ```cpp 
  

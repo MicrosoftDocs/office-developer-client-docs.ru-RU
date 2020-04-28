@@ -18,7 +18,7 @@ ms.locfileid: "32288941"
 
 **Область применения**: Access 2013, Office 2013
 
-Поставщик интерфейсов служб Microsoft Active Directory (ADSI) позволяет ADO подключаться к гетерогенным службам каталогов через ADSI. Это предоставляет приложениям ADO доступ только для чтения к службам каталогов Microsoft Windows NT 4,0 и Microsoft Windows 2000 в дополнение к любым LDAP-совместимым службам каталогов и службам Novell Directory. ИНТЕРФЕЙСЫ ADSI основываются на модели поставщика, поэтому если у вас есть новый поставщик, предоставляющий доступ к другому каталогу, приложение ADO сможет легко получить доступ к нему. Поставщик ADSI является бесплатным и поддерживает Юникод.
+Поставщик интерфейсов служб Microsoft Active Directory (ADSI) позволяет ADO подключаться к гетерогенным службам каталогов через ADSI. Это предоставляет приложениям ADO доступ только для чтения к службам каталогов Microsoft Windows NT 4,0 и Microsoft Windows 2000 в дополнение к любым LDAP-совместимым службам каталогов и службам Novell Directory. Интерфейсы ADSI основываются на модели поставщика, поэтому если у вас есть новый поставщик, предоставляющий доступ к другому каталогу, приложение ADO сможет легко получить доступ к нему. Поставщик ADSI является бесплатным и поддерживает Юникод.
 
 ## <a name="connection-string-parameters"></a>Параметры строки подключения
 
@@ -89,7 +89,7 @@ ADSDSOObject
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Корневой</em></p></td>
+<td><p><em>Root</em></p></td>
 <td><p>Указывает объект <strong>ADsPath</strong> , с которого начинается поиск (то есть, корневой каталог поиска).</p></td>
 </tr>
 <tr class="even">
@@ -101,8 +101,8 @@ ADSDSOObject
 <td><p>Указывает список возвращаемых атрибутов, разделенных запятыми.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Scope</em></p></td>
-<td><p>Необязательный атрибут. <strong>Строка</strong> , определяющая область поиска. Может быть одним из следующих: Base — Поиск только базового объекта (корня поиска).<br />
+<td><p><em>Область</em></p></td>
+<td><p>Необязательное. <strong>Строка</strong> , определяющая область поиска. Может быть одним из следующих: Base — Поиск только базового объекта (корня поиска).<br />
 Онелевел — Поиск только одного уровня.<br />
 Поддерево — Поиск во всем поддереве.</p></td>
 </tr>
@@ -110,14 +110,14 @@ ADSDSOObject
 </table>
 
 
-Пример:
+Например:
 
 ```vb 
  
 "<LDAP://DC=ArcadiaBay,DC=COM>;(objectClass=*);sn, givenName; subtree" 
 ```
 
-Поставщик также поддерживает SQL SELECT для текста команды. Пример:
+Поставщик также поддерживает SQL SELECT для текста команды. Например:
 
 ```vb 
  
@@ -131,7 +131,7 @@ objectClass='user' AND objectCategory='Person'"
 
 В следующих таблицах перечислены функции, доступные для объекта [Recordset](recordset-object-ado.md) , открытого с помощью этого поставщика. Доступен только статический тип курсора (**адопенстатик**).
 
-Для получения более подробных сведений о поведении **набора записей** для конфигурации поставщика [](supports-method-ado.md) запустите метод Supports и перечислите коллекцию [свойств](properties-collection-ado.md) объекта **Recordset** , чтобы определить, зависит ли от поставщика динамический имеются свойства.
+Для получения более подробных сведений о поведении **набора записей** для конфигурации поставщика [запустите метод](supports-method-ado.md) Supports и перечислите коллекцию [свойств](properties-collection-ado.md) объекта **Recordset** , чтобы определить, присутствуют ли динамические свойства, зависящие от поставщика.
 
 Доступность стандартных свойств **записей** ADO:
 
@@ -197,7 +197,7 @@ objectClass='user' AND objectCategory='Person'"
 </tr>
 <tr class="odd">
 <td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
-<td><p>недоступно</p></td>
+<td><p>недоступен</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
@@ -224,7 +224,7 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="status-property-ado-recordset.md">Status</a></p></td>
+<td><p><a href="status-property-ado-recordset.md">Состояние</a></p></td>
 <td><p>только для чтения</p></td>
 </tr>
 </tbody>
@@ -240,7 +240,7 @@ objectClass='user' AND objectCategory='Person'"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Метод</p></th>
+<th><p>Method</p></th>
 <th><p>Доступность?</p></th>
 </tr>
 </thead>
@@ -318,7 +318,7 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">обновление</a>;</p></td>
+<td><p><a href="update-method-ado.md">обновление</a>.</p></td>
 <td><p>Нет</p></td>
 </tr>
 <tr class="even">

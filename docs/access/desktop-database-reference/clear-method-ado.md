@@ -25,9 +25,9 @@ ms.locfileid: "32296362"
 
 *Ошибки*. Зашифрован
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Используйте метод **clear** в коллекции [Errors](errors-collection-ado.md) , чтобы удалить все существующие объекты [Error](error-object-ado.md) из коллекции. При возникновении ошибки ADO автоматически очищает коллекцию Errors **** и заполняет ее объектами **Error** на основе новой ошибки.
+Используйте метод **clear** в коллекции [Errors](errors-collection-ado.md) , чтобы удалить все существующие объекты [Error](error-object-ado.md) из коллекции. При возникновении ошибки ADO автоматически очищает коллекцию **Errors** и заполняет ее объектами **Error** на основе новой ошибки.
 
-Некоторые свойства и методы возвращают предупреждения, которые отображаются как объекты **Error** в коллекции **Errors** , но не приводят к остановке выполнения программы. Перед вызовом методов [Resync](resync-method-ado.md), [UpdateBatch](updatebatch-method-ado.md)и [CancelBatch](cancelbatch-method-ado.md) для объекта [Recordset](recordset-object-ado.md) ; метод [Open](open-method-ado-connection.md) для объекта [Connection](connection-object-ado.md) ; или задайте свойство [Filter](filter-property-ado.md) для объекта **Recordset** , вызовите метод **clear** в коллекции Errors **** . Таким образом, можно прочитать свойство [Count](count-property-ado.md) коллекции Errors, **** чтобы проверить наличие возвращенных предупреждений.
+Некоторые свойства и методы возвращают предупреждения, которые отображаются как объекты **Error** в коллекции **Errors** , но не приводят к остановке выполнения программы. Перед вызовом методов [Resync](resync-method-ado.md), [UpdateBatch](updatebatch-method-ado.md)и [CancelBatch](cancelbatch-method-ado.md) для объекта [Recordset](recordset-object-ado.md) ; метод [Open](open-method-ado-connection.md) для объекта [Connection](connection-object-ado.md) ; или задайте свойство [Filter](filter-property-ado.md) для объекта **Recordset** , вызовите метод **clear** в коллекции **Errors** . Таким образом, можно прочитать свойство [Count](count-property-ado.md) коллекции **Errors** , чтобы проверить наличие возвращенных предупреждений.
 

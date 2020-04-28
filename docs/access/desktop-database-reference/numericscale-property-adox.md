@@ -25,7 +25,7 @@ ms.locfileid: "32288520"
 
 Задает и возвращает значение **байта** , которое является масштабом значений данных в столбце, если свойство [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) равно **аднумерик** или **аддеЦимал**. **NumericScale** игнорируется для всех других типов данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Значение по умолчанию — ноль (0).
 

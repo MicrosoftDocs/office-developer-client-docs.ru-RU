@@ -36,109 +36,109 @@ ms.locfileid: "32290259"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Дблангарабик</p></td>
+<td><p>dbLangArabic</p></td>
 <td><p>&quot;; LANGID = 0x0401; CP = 1256; СТРАНА = 0&quot;</p></td>
-<td><p>арабский;</p></td>
+<td><p>Арабский</p></td>
 </tr>
 <tr class="even">
-<td><p>Дблангчинесесимплифиед</p></td>
+<td><p>dbLangChineseSimplified</p></td>
 <td><p>&quot;; LANGID = 0x0804; CP = 936; СТРАНА = 0&quot;</p></td>
-<td><p>китайский (упрощенное письмо)</p></td>
+<td><p>Китайский (упрощенное письмо)</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дблангчинесетрадитионал</p></td>
+<td><p>dbLangChineseTraditional</p></td>
 <td><p>&quot;; LANGID = 0x0404; CP = 950; СТРАНА = 0&quot;</p></td>
-<td><p>китайский (традиционное письмо)</p></td>
+<td><p>Китайский (традиционное письмо)</p></td>
 </tr>
 <tr class="even">
-<td><p>Дблангцириллик</p></td>
+<td><p>dbLangCyrillic</p></td>
 <td><p>&quot;; LANGID = 0x0419; CP = 1251; СТРАНА = 0&quot;</p></td>
-<td><p>русский;</p></td>
+<td><p>Русский</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дблангкзеч</p></td>
+<td><p>dbLangCzech</p></td>
 <td><p>&quot;; LANGID = 0x0405; CP = 1250; СТРАНА = 0&quot;</p></td>
-<td><p>чешский;</p></td>
+<td><p>Чешский</p></td>
 </tr>
 <tr class="even">
-<td><p>Дблангдутч</p></td>
+<td><p>dbLangDutch</p></td>
 <td><p>&quot;; LANGID = 0x0413; CP = 1252; СТРАНА = 0&quot;</p></td>
-<td><p>голландский;</p></td>
+<td><p>Голландский</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дблангженерал</p></td>
+<td><p>dbLangGeneral</p></td>
 <td><p>&quot;; LANGID = 0x0409; CP = 1252; СТРАНА = 0&quot;</p></td>
-<td><p>Английский, немецкий, французский, португальский, итальянский и современная Испанская</p></td>
+<td><p>Английский, немецкий, французский, португальский, итальянский и современный испанский</p></td>
 </tr>
 <tr class="even">
-<td><p>Дбланггрик</p></td>
+<td><p>dbLangGreek</p></td>
 <td><p>&quot;; LANGID = 0x0408; CP = 1253; СТРАНА = 0&quot;</p></td>
-<td><p>греческий;</p></td>
+<td><p>Греческий</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дблангхебрев</p></td>
+<td><p>dbLangHebrew</p></td>
 <td><p>&quot;; LANGID = 0x040D; CP = 1255; СТРАНА = 0&quot;</p></td>
-<td><p>иврит;</p></td>
+<td><p>Иврит</p></td>
 </tr>
 <tr class="even">
-<td><p>Дблангхунгариан</p></td>
+<td><p>dbLangHungarian</p></td>
 <td><p>&quot;; LANGID = 0x040E; CP = 1250; СТРАНА = 0&quot;</p></td>
-<td><p>венгерский;</p></td>
+<td><p>Венгерский</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дблангицеландик</p></td>
+<td><p>dbLangIcelandic</p></td>
 <td><p>&quot;; LANGID = 0x040F; CP = 1252; СТРАНА = 0&quot;</p></td>
 <td><p>Исландский</p></td>
 </tr>
 <tr class="even">
-<td><p>Дблангжапанесе</p></td>
+<td><p>dbLangJapanese</p></td>
 <td><p>&quot;; LANGID = 0x0411; CP = 932; СТРАНА = 0&quot;</p></td>
-<td><p>японский;</p></td>
+<td><p>Японский</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дблангкореан</p></td>
+<td><p>dbLangKorean</p></td>
 <td><p>&quot;; LANGID = 0x0412; CP = 949; СТРАНА = 0&quot;</p></td>
-<td><p>корейский;</p></td>
+<td><p>Корейский</p></td>
 </tr>
 <tr class="even">
-<td><p>Дблангнордик</p></td>
+<td><p>dbLangNordic</p></td>
 <td><p>&quot;; LANGID = 0x041D; CP = 1252; СТРАНА = 0&quot;</p></td>
 <td><p>Скандинавски</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дблангнорвдан</p></td>
+<td><p>dbLangNorwDan</p></td>
 <td><p>&quot;; LANGID = 0x0406; CP = 1252; СТРАНА = 0&quot;</p></td>
 <td><p>Норвежский и датский</p></td>
 </tr>
 <tr class="even">
-<td><p>Дблангполиш</p></td>
+<td><p>dbLangPolish</p></td>
 <td><p>&quot;; LANGID = 0x0415; CP = 1250; СТРАНА = 0&quot;</p></td>
-<td><p>польский;</p></td>
+<td><p>Польский</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дблангсловениан</p></td>
+<td><p>dbLangSlovenian</p></td>
 <td><p>&quot;; LANGID = 0x0424; CP = 1250; СТРАНА = 0&quot;</p></td>
-<td><p>словенский;</p></td>
+<td><p>Словенский</p></td>
 </tr>
 <tr class="even">
-<td><p>Дблангспаниш</p></td>
+<td><p>dbLangSpanish</p></td>
 <td><p>&quot;; LANGID = 0x040A; CP = 1252; СТРАНА = 0&quot;</p></td>
-<td><p>испанский;</p></td>
+<td><p>Испанский</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дблангсведфин</p></td>
+<td><p>dbLangSwedFin</p></td>
 <td><p>&quot;; LANGID = 0x041D; CP = 1252; СТРАНА = 0&quot;</p></td>
 <td><p>Шведский и финский</p></td>
 </tr>
 <tr class="even">
-<td><p>Дблангсаи</p></td>
+<td><p>dbLangThai</p></td>
 <td><p>&quot;; LANGID = 0x041E; CP = 874; СТРАНА = 0&quot;</p></td>
-<td><p>тайский;</p></td>
+<td><p>Тайский</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дблангтуркиш</p></td>
+<td><p>dbLangTurkish</p></td>
 <td><p>&quot;; LANGID = 0x041F; CP = 1254; СТРАНА = 0&quot;</p></td>
-<td><p>турецкий;</p></td>
+<td><p>Турецкий</p></td>
 </tr>
 </tbody>
 </table>

@@ -18,11 +18,11 @@ ms.locfileid: "32292596"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает специальные поля, указанные в коллекции Fields объекта [](fields-collection-ado.md) [Record](record-object-ado.md) .
+Указывает специальные поля, указанные в коллекции [Fields](fields-collection-ado.md) объекта [Record](record-object-ado.md) .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Эти константы предоставляют "ярлык" для доступа к специальным полям, связанным с **записью**. ИзВлеките объект [field](field-object-ado.md) из коллекции **Fields** и получите его содержимое со свойством [value](value-property-ado.md) объекта **field** .
+Эти константы предоставляют "ярлык" для доступа к специальным полям, связанным с **записью**. Извлеките объект [field](field-object-ado.md) из коллекции **Fields** и получите его содержимое со свойством [value](value-property-ado.md) объекта **field** .
 
 <br/>
 
@@ -41,12 +41,12 @@ ms.locfileid: "32292596"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Аддефаултстреам</strong></p></td>
+<td><p><strong>аддефаултстреам</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Ссылается на поле, содержащее объект <a href="stream-object-ado.md">потока</a> по умолчанию, <strong></strong>связанный с записью.</p></td>
+<td><p>Ссылается на поле, содержащее объект <a href="stream-object-ado.md">потока</a> по умолчанию, связанный с <strong>записью</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адрекордурл</strong></p></td>
+<td><p><strong>адрекордурл</strong></p></td>
 <td><p>–2</p></td>
 <td><p>Ссылается на поле, содержащее строку абсолютного URL-адреса для текущей <strong>записи</strong>.</p></td>
 </tr>

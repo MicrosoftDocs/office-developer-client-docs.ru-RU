@@ -25,7 +25,7 @@ ms.locfileid: "32287946"
 
 Содержит все объекты [параметров](parameter-object-ado.md) объекта [Command](command-object-ado.md) .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект **Command** содержит коллекцию **Parameters** , состоящего из объектов **Parameter** .
 

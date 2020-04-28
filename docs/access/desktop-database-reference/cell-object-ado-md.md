@@ -21,19 +21,19 @@ ms.locfileid: "32296551"
 
 Представляет данные на пересечении координат оси, содержащегося в наборе ячеек.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект **Cell** возвращается свойством [Item](item-property-ado-md-cellset.md) объекта набора [ячеек](cellset-object-ado-md.md) .
 
 С помощью коллекций и свойств объекта **Cell** можно выполнить следующие действия:
 
-- Возвращает данные в ячейке **** со свойством [value](value-property-ado-md.md) .
+- Возвращает данные в **ячейке** со свойством [value](value-property-ado-md.md) .
 
 - Возвращает строку, представляющую отформатированное отображение свойства **value** со свойством [FormattedValue](formattedvalue-property-ado-md.md) .
 
 - Возвращает порядковый номер **ячейки** в наборе **ячеек** с помощью свойства [Ordinal](ordinal-property-ado-md-cell.md) .
 
-- Определите положение **ячейки** в [CubeDef](cubedef-object-ado-md.md) с помощью коллекции Positions. [](positions-collection-ado-md.md)
+- Определите положение **ячейки** в [CubeDef](cubedef-object-ado-md.md) с помощью коллекции [Positions](positions-collection-ado-md.md) .
 
 - Получение других сведений о **ячейке** с помощью стандартной коллекции [свойств](properties-collection-ado.md) ADO.
 
@@ -56,7 +56,7 @@ ms.locfileid: "32296551"
 <td><p>Цвет фона, используемый при отображении ячейки.</p></td>
 </tr>
 <tr class="even">
-<td><p>Фонтфлагс</p></td>
+<td><p>фонтфлагс</p></td>
 <td><p>Битовая анимация на шрифте.</p></td>
 </tr>
 <tr class="odd">

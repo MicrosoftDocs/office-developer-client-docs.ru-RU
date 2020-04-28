@@ -21,7 +21,7 @@ ms.locfileid: "32291582"
 
 Содержит все объекты [индекса](index-object-adox.md) таблицы.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод [append](append-method-adox-indexes.md) коллекции **indexes** уникален для ADOX. Вы можете выполнить указанные ниже действия.
 

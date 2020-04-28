@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. Connection (DAO)
+title: Свойство Recordset.Connection (DAO)
 TOCTitle: Connection Property
 ms:assetid: 3d757283-761c-dc79-bb1e-5e607edbb0db
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192710(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300604"
 ---
-# <a name="recordsetconnection-property-dao"></a>Свойство Recordset. Connection (DAO)
+# <a name="recordsetconnection-property-dao"></a>Свойство Recordset.Connection (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

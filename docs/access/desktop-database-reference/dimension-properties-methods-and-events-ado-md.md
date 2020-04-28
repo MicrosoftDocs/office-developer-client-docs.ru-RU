@@ -26,7 +26,7 @@ ms.locfileid: "32293891"
 - [Коллекция Properties](properties-collection-ado.md)
 - [Свойство UniqueName](uniquename-property-ado-md.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 Нет.
 

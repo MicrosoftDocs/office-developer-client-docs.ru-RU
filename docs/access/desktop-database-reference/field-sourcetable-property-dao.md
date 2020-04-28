@@ -1,5 +1,5 @@
 ---
-title: Свойство Field. Саурцетабле (DAO)
+title: Свойство Field.SourceTable (DAO)
 TOCTitle: SourceTable Property
 ms:assetid: 9564ea1c-eafd-0b72-fd68-d88fcc3ea189
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197694(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292988"
 ---
-# <a name="fieldsourcetable-property-dao"></a>Свойство Field. Саурцетабле (DAO)
+# <a name="fieldsourcetable-property-dao"></a>Свойство Field.SourceTable (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,13 +27,13 @@ ms.locfileid: "32292988"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Саурцетабле
+*Expression* . саурцетабле
 
 *выражение*: переменная, представляющая объект **Field**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Для объекта **field** использование свойств **саурцефиелд** и **саурцетабле** зависит от объекта, содержащего коллекцию Fields, в которую **** добавляется объект **field** , как показано в следующей таблице.
+Для объекта **field** использование свойств **саурцефиелд** и **саурцетабле** зависит от объекта, содержащего коллекцию **Fields** , в которую добавляется объект **field** , как показано в следующей таблице.
 
 <table>
 <colgroup>
@@ -43,12 +43,12 @@ ms.locfileid: "32292988"
 <thead>
 <tr class="header">
 <th><p>Объект, добавленный в</p></th>
-<th><p>Использование</p></th>
+<th><p>Применение</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong></p></td>
+<td><p><strong>Индекс</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">
@@ -75,6 +75,6 @@ ms.locfileid: "32292988"
 
 
 > [!NOTE]
-> Свойство **саурцетабле** не будет возвращать осмысленное имя таблицы, если оно используется для объекта **field** в **** коллекции Fields объекта **Recordset** табличного типа.
+> Свойство **саурцетабле** не будет возвращать осмысленное имя таблицы, если оно используется для объекта **field** в коллекции **Fields** объекта **Recordset** табличного типа.
 
 

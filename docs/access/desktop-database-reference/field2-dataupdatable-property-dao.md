@@ -1,5 +1,5 @@
 ---
-title: Свойство field2. доПускает обновление (DAO)
+title: Свойство field2. допускает обновление (DAO)
 TOCTitle: DataUpdatable Property
 ms:assetid: e6619c4e-26b1-777b-f0de-78fed3dbc890
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835966(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292841"
 ---
-# <a name="field2dataupdatable-property-dao"></a>Свойство field2. доПускает обновление (DAO)
+# <a name="field2dataupdatable-property-dao"></a>Свойство field2. допускает обновление (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -28,11 +28,11 @@ ms.locfileid: "32292841"
 
 *expression* — переменная, представляющая объект **Field2**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте это свойство, чтобы определить, можно ли изменить значение свойства **[value](field-value-property-dao.md)** объекта **field2** . Это свойство всегда имеет **значение false** для объекта **field2** , свойство **[Attributes](field-attributes-property-dao.md)** которого равно **дбаутоинкрфиелд**.
 
-Можно использовать свойство с **возможностью обновления** для объектов **field2** , добавленных в коллекцию Fields объектов **[](fields-collection-dao.md)** **[QueryDef](querydef-object-dao.md)**, **[Recordset](recordset-object-dao.md)** и **[relation](relation-object-dao.md)** , но не коллекцию **Fields** объекта **[ Объекты index](index-object-dao.md)** или **[tabledef](tabledef-object-dao.md)** .
+Можно использовать свойство, поддерживающее **Обновление** , для объектов **field2** , добавленных в коллекцию **[Fields](fields-collection-dao.md)** объектов **[QueryDef](querydef-object-dao.md)**, **[Recordset](recordset-object-dao.md)** и **[relation](relation-object-dao.md)** , но не коллекцию **Fields** объектов **[index](index-object-dao.md)** и **[tabledef](tabledef-object-dao.md)** .
 
 ## <a name="example"></a>Пример
 

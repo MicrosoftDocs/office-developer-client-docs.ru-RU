@@ -30,13 +30,13 @@ HRESULT PUT\_ParentRow (\[в\] IUnknown\* ппарент);
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Ппарент* |Контейнер строки.|
+|*ппарент* |Контейнер строки.|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
 Этот метод свойства возвращает стандартные значения HRESULT, включая S\_ОК и электронную\_ошибку.
 
-## <a name="applies-to"></a>Область применения
+## <a name="applies-to"></a>Сфера применения
 
 [ADORecordConstruction](adorecordconstruction-interface-ado.md)
 

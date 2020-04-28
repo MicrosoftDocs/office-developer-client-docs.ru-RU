@@ -21,7 +21,7 @@ ms.locfileid: "32292120"
 
 Представляет учетную запись группы, имеющую разрешения на доступ в защищенной базе данных.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Коллекция [Groups](groups-collection-adox.md) [каталога](catalog-object-adox.md) представляет все учетные записи групп в каталоге. Коллекция **Groups** для [пользователя](user-object-adox.md) представляет только группу, к которой принадлежит пользователь.
 
@@ -29,7 +29,7 @@ ms.locfileid: "32292120"
 
   - Определите группу с помощью свойства [Name](name-property-adox.md) .
 
-  - Определите, имеет ли группа разрешения на чтение, запись или удаление с помощью [](getpermissions-method-adox.md) методов [SetPermissions](setpermissions-method-adox.md) и.
+  - Определите, имеет ли группа разрешения на чтение, запись или удаление [с помощью методов](getpermissions-method-adox.md) [SetPermissions](setpermissions-method-adox.md) и.
 
   - Доступ к учетным записям пользователей с членством в группе с коллекцией [Users](users-collection-adox.md) .
 

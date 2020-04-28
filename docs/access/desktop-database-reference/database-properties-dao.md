@@ -1,5 +1,5 @@
 ---
-title: Свойства базы данных (DAO)
+title: Свойства объекта Database (DAO)
 TOCTitle: Properties
 ms:assetid: eda1187b-7e05-4642-a3d3-a8769d5a8a7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn179959(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294822"
 ---
-# <a name="database-properties-dao"></a>Свойства базы данных (DAO)
+# <a name="database-properties-dao"></a>Свойства объекта Database (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

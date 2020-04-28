@@ -25,5 +25,5 @@ ms.locfileid: "32294241"
 
 *Expression* . Параметры
 
-*Expression (выражение* ) Переменная, представляющая объект **DBEngine** .
+*expression*: переменная, представляющая объект **DBEngine**.
 

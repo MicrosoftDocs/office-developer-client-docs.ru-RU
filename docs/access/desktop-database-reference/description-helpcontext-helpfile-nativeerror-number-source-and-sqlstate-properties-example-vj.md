@@ -19,7 +19,7 @@ ms.locfileid: "32293947"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md)и [SQLSTATE](sqlstate-property-ado.md) полученной [ошибки](error-object-ado.md) . объектам.
+В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md)и [SQLSTATE](sqlstate-property-ado.md) полученного объекта [Error](error-object-ado.md) .
 
 ```java
     // BeginDescriptionJ

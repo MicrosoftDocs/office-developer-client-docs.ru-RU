@@ -77,13 +77,13 @@ Name = UnitPrice</p></th>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>см</p></td>
+<td><p>7 </p></td>
 <td><p>Ункле Марии Дриед груши</p></td>
 <td><p>30,0000</p></td>
 </tr>
 <tr class="even">
-<td><p>14</p></td>
-<td><p>Тофу</p></td>
+<td><p>14 </p></td>
+<td><p>тофу</p></td>
 <td><p>23,2500</p></td>
 </tr>
 <tr class="odd">

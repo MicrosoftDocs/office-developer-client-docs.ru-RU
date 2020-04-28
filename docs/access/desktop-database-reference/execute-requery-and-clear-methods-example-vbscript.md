@@ -19,7 +19,7 @@ ms.locfileid: "32293310"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется метод **EXECUTE** при выполнении как из объекта [Command](command-object-ado.md) , так и из объекта [Connection](connection-object-ado.md) . Кроме того, он [](requery-method-ado.md) использует метод Requery для получения текущих данных в объекте [Recordset](recordset-object-ado.md), а метод [clear](clear-method-ado.md) — для очистки содержимого коллекции [Errors](errors-collection-ado.md) . Для выполнения этой процедуры необходимы процедуры ExecuteCommand и Принтаутпут.
+В этом примере демонстрируется метод **EXECUTE** при выполнении как из объекта [Command](command-object-ado.md) , так и из объекта [Connection](connection-object-ado.md) . Кроме того, он использует метод [Requery](requery-method-ado.md) для получения текущих данных в объекте [Recordset](recordset-object-ado.md), а метод [clear](clear-method-ado.md) — для очистки содержимого коллекции [Errors](errors-collection-ado.md) . Для выполнения этой процедуры необходимы процедуры ExecuteCommand и Принтаутпут.
 
 Используйте приведенный ниже пример на активной серверной странице (ASP). Используйте **Find** , чтобы найти файл адовбс. Inc и разместить его в каталоге, который планируется использовать. Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **ексекутевбс. ASP**. Результаты можно просмотреть в любом клиентском браузере.
 

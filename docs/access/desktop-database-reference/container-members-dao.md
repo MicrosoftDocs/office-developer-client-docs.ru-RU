@@ -36,7 +36,7 @@ ms.locfileid: "32295655"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="container-documents-property-dao.md">Documents</a></strong></p></td>
+<td><p><strong><a href="container-documents-property-dao.md">Документы</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong>Documents</strong> , содержащую все документы, хранящиеся в указанном объекте. Только для чтения.</p></td>
 </tr>
 <tr class="even">

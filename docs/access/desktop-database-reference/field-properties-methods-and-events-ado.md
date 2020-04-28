@@ -34,7 +34,7 @@ ms.locfileid: "32293051"
 - [Свойство Value](value-property-ado.md)
 
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод AppendChunk](appendchunk-method-ado.md)
 - [Метод GetChunk](getchunk-method-ado.md)

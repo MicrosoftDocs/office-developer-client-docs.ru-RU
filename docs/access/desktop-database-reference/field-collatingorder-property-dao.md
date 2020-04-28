@@ -1,5 +1,5 @@
 ---
-title: Свойство Field. Коллатингордер (DAO)
+title: Свойство Field.CollatingOrder (DAO)
 TOCTitle: CollatingOrder Property
 ms:assetid: a2607ace-a660-899b-eae8-4612ce2f87f8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff820980(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293128"
 ---
-# <a name="fieldcollatingorder-property-dao"></a>Свойство Field. Коллатингордер (DAO)
+# <a name="fieldcollatingorder-property-dao"></a>Свойство Field.CollatingOrder (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,11 +27,11 @@ ms.locfileid: "32293128"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Коллатингордер
+*Expression* . коллатингордер
 
 *выражение*: переменная, представляющая объект **Field**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Возвращаемое значение — это **длинное** значение или константа, которая может принимать одно из следующих значений.
 
@@ -48,110 +48,110 @@ ms.locfileid: "32293128"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Дбсортженерал</strong></p></td>
+<td><p><strong>дбсортженерал</strong></p></td>
 <td><p>Общие (английский, французский, немецкий, португальский, итальянский и современная Испанская)</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсортарабик</strong></p></td>
-<td><p>арабский;</p></td>
+<td><p><strong>дбсортарабик</strong></p></td>
+<td><p>Арабский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсортчинесесимплифиед</strong></p></td>
-<td><p>китайский (упрощенное письмо)</p></td>
+<td><p><strong>дбсортчинесесимплифиед</strong></p></td>
+<td><p>Китайский (упрощенное письмо)</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсортчинесетрадитионал</strong></p></td>
-<td><p>китайский (традиционное письмо)</p></td>
+<td><p><strong>дбсортчинесетрадитионал</strong></p></td>
+<td><p>Китайский (традиционное письмо)</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсортцириллик</strong></p></td>
-<td><p>русский;</p></td>
+<td><p><strong>дбсортцириллик</strong></p></td>
+<td><p>Русский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсорткзеч</strong></p></td>
-<td><p>чешский;</p></td>
+<td><p><strong>дбсорткзеч</strong></p></td>
+<td><p>Чешский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсортдутч</strong></p></td>
-<td><p>голландский;</p></td>
+<td><p><strong>дбсортдутч</strong></p></td>
+<td><p>Голландский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсортгрик</strong></p></td>
-<td><p>греческий;</p></td>
+<td><p><strong>дбсортгрик</strong></p></td>
+<td><p>Греческий</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсорсебрев</strong></p></td>
-<td><p>иврит;</p></td>
+<td><p><strong>дбсорсебрев</strong></p></td>
+<td><p>Иврит</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсорсунгариан</strong></p></td>
-<td><p>венгерский;</p></td>
+<td><p><strong>дбсорсунгариан</strong></p></td>
+<td><p>Венгерский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсортицеландик</strong></p></td>
+<td><p><strong>дбсортицеландик</strong></p></td>
 <td><p>Исландский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсортжапанесе</strong></p></td>
-<td><p>японский;</p></td>
+<td><p><strong>дбсортжапанесе</strong></p></td>
+<td><p>Японский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсорткореан</strong></p></td>
-<td><p>корейский;</p></td>
+<td><p><strong>дбсорткореан</strong></p></td>
+<td><p>Корейский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсортнеутрал</strong></p></td>
+<td><p><strong>дбсортнеутрал</strong></p></td>
 <td><p>Нейтральный</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсортнорвдан</strong></p></td>
+<td><p><strong>дбсортнорвдан</strong></p></td>
 <td><p>Норвежский или датский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсортпдксинтл</strong></p></td>
+<td><p><strong>дбсортпдксинтл</strong></p></td>
 <td><p>Международная связь Paradox</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсортпдкснор</strong></p></td>
+<td><p><strong>дбсортпдкснор</strong></p></td>
 <td><p>Paradox норвежский или датский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсортпдкссве</strong></p></td>
+<td><p><strong>дбсортпдкссве</strong></p></td>
 <td><p>Paradox шведский или Финский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсортполиш</strong></p></td>
-<td><p>польский;</p></td>
+<td><p><strong>дбсортполиш</strong></p></td>
+<td><p>Польский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсортсловениан</strong></p></td>
-<td><p>словенский;</p></td>
+<td><p><strong>дбсортсловениан</strong></p></td>
+<td><p>Словенский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсортспаниш</strong></p></td>
-<td><p>испанский;</p></td>
+<td><p><strong>дбсортспаниш</strong></p></td>
+<td><p>Испанский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсортсведфин</strong></p></td>
+<td><p><strong>дбсортсведфин</strong></p></td>
 <td><p>Шведский или Финский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсортсаи</strong></p></td>
-<td><p>тайский;</p></td>
+<td><p><strong>дбсортсаи</strong></p></td>
+<td><p>Тайский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбсорттуркиш</strong></p></td>
-<td><p>турецкий;</p></td>
+<td><p><strong>дбсорттуркиш</strong></p></td>
+<td><p>Турецкий</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбсортундефинед</strong></p></td>
+<td><p><strong>дбсортундефинед</strong></p></td>
 <td><p>Неопределенное или неизвестное</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Доступность свойства **коллатингордер** зависит от объекта, содержащего коллекцию Fields, как **** показано в следующей таблице.
+Доступность свойства **коллатингордер** зависит от объекта, содержащего коллекцию **Fields** , как показано в следующей таблице.
 
 <table>
 <colgroup>
@@ -191,5 +191,5 @@ ms.locfileid: "32293128"
 
 Значение свойства **коллатингордер** соответствует аргументу языкового стандарта метода **CreateDatabase** при создании базы данных или методе **CompactDatabase** при последнем сжатии базы данных.
 
-Параметры свойств **коллатингордер** и **Attributes** объекта **field** в коллекции Fields **** объекта **index** вместе определяют последовательность и направление порядка сортировки в индексе. Однако вы не можете задать порядок сортировки для отдельного индекса — его можно задать только для всей таблицы.
+Параметры свойств **коллатингордер** и **Attributes** объекта **field** в коллекции **Fields** объекта **index** вместе определяют последовательность и направление порядка сортировки в индексе. Однако вы не можете задать порядок сортировки для отдельного индекса — его можно задать только для всей таблицы.
 

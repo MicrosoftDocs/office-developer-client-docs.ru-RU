@@ -28,7 +28,7 @@ ms.locfileid: "32294227"
 
 *Expression* . RegisterDatabase (***DSN***, ***Driver***, ***Silent***, ***Attributes***)
 
-*Expression (выражение* ) Переменная, представляющая объект **DBEngine** .
+*expression*: переменная, представляющая объект **DBEngine**.
 
 ## <a name="parameters"></a>Параметры
 
@@ -42,7 +42,7 @@ ms.locfileid: "32294227"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательно/необязательно</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -76,7 +76,7 @@ ms.locfileid: "32294227"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если база данных уже зарегистрирована (сведения о подключении уже введены) в реестре Windows при использовании метода **RegisterDatabase** , сведения о подключении обновляются.
 

@@ -27,7 +27,7 @@ ms.locfileid: "32296908"
 - [Коллекция Positions](positions-collection-ado-md.md)
 - [Коллекция Properties](properties-collection-ado.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 Нет.
 

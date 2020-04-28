@@ -42,7 +42,7 @@ ms.locfileid: "32293821"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательно/необязательно</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -50,7 +50,7 @@ ms.locfileid: "32293821"
 <tbody>
 <tr class="odd">
 <td><p><em>Name</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p><strong>Строка</strong> , которая уникально названа нового объекта <strong>Property</strong> . Сведения о допустимых именах <strong>свойств</strong> приведены в свойстве <strong>Name</strong> .</p></td>
 </tr>
@@ -58,7 +58,7 @@ ms.locfileid: "32293821"
 <td><p><em>Type</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа, определяющая тип данных нового объекта <strong>Property</strong> . В разделе свойство <strong><a href="field-type-property-dao.md">Type</a></strong> для допустимых типов данных.</p></td>
+<td><p>Константа, определяющая тип данных нового объекта <strong>Property</strong> . Допустимые типы данных см. в свойстве <strong><a href="field-type-property-dao.md">Type</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Value</em></p></td>
@@ -80,7 +80,7 @@ ms.locfileid: "32293821"
 
 Свойство
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Пользовательский объект **Свойства** можно создать только в коллекции **[свойств](properties-collection-dao.md)** сохраняемого объекта.
 

@@ -37,22 +37,22 @@ ms.locfileid: "32287610"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адперсистадтг</strong></p></td>
+<td><p><strong>адперсистадтг</strong></p></td>
 <td><p>нуль</p></td>
 <td><p>Указывает формат Microsoft Advanced Data Таблеграм (АДТГ).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адперсистадо</strong></p></td>
+<td><p><strong>адперсистадо</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Указывает, что будет использоваться собственный формат языка XML для ADO. Это значение аналогично Адперсистксмл и включено для обратной совместимости.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адперсистксмл</strong></p></td>
+<td><p><strong>адперсистксмл</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Указывает на XML-формат.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>АдперсистпровидерспеЦифик</strong></p></td>
+<td><p><strong>адперсистпровидерспеЦифик</strong></p></td>
 <td><p>2</p></td>
 <td><p>Указывает, что поставщик сохранит <strong>набор записей</strong> в собственном формате.</p></td>
 </tr>

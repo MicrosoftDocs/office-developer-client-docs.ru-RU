@@ -19,7 +19,7 @@ ms.locfileid: "32295760"
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает количество объектов **[Connection](connection-object-dao.md)** в коллекции Connections **[](connections-collection-dao.md)** .
+Возвращает количество объектов **[Connection](connection-object-dao.md)** в коллекции **[Connections](connections-collection-dao.md)** .
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -27,7 +27,7 @@ ms.locfileid: "32295760"
 
 *Expression (выражение* ) Переменная, представляющая объект **Connections** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Так как члены коллекции начинаются с 0, всегда следует всегда кодировать циклы, начиная с элемента 0 и заканчивая значением свойства **Count** минус 1. Если требуется перебрать элементы коллекции, не проверяя свойство **Count** , можно использовать оператор **For Each... Следующая** команда.
 

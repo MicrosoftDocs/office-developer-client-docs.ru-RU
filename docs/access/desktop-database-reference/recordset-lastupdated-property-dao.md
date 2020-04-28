@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. Ластупдатед (DAO)
+title: Свойство Recordset.LastUpdated (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 091a8e10-01c0-20af-7230-cd7103c243a1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845045(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32284815"
 ---
-# <a name="recordsetlastupdated-property-dao"></a>Свойство Recordset. Ластупдатед (DAO)
+# <a name="recordsetlastupdated-property-dao"></a>Свойство Recordset.LastUpdated (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32284815"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Ластупдатед
+*Expression* . ластупдатед
 
 *expression*: переменная, представляющая объект **Recordset**.
 

@@ -41,7 +41,7 @@ ms.locfileid: "32281710"
 <td><p>Содержит все объекты <strong>field</strong> объекта <strong>Recordset</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parameters-collection-ado.md">Parameters</a></p></td>
+<td><p><a href="parameters-collection-ado.md">Параметры</a></p></td>
 <td><p>Содержит все объекты <strong>параметров</strong> объекта <strong>Command</strong> .</p></td>
 </tr>
 <tr class="even">

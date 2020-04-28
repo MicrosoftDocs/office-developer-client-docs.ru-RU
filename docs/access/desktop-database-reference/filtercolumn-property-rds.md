@@ -31,11 +31,11 @@ ms.locfileid: "32292442"
 |*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
 |*String* |**Строковое** значение, задающее столбец, для которого необходимо оценить условия фильтра. Условия фильтра указываются в свойстве [FilterCriterion](filtercriterion-property-rds.md) .|
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойства [sortColumn](sortcolumn-property-rds.md), [SortDirection](sortdirection-property-rds.md), [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md)и **FilterColumn** предоставляют функции сортировки и фильтрации кэша на стороне клиента. 
 
 Функция сортировки упорядочивает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе критериев поиска, в то время как в кэше сохраняется полный [набор записей](recordset-object-ado.md) . 
 
-Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий **набор** записей на обновляемый. ****
+Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий **набор** **записей на обновляемый.**
 

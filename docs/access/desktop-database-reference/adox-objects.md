@@ -29,7 +29,7 @@ ms.locfileid: "32280303"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Object</p></th>
+<th><p>Объект</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
@@ -39,15 +39,15 @@ ms.locfileid: "32280303"
 <td><p>Содержит коллекции, описывающие каталог схем источника данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="column-object-adox.md">Column</a></p></td>
+<td><p><a href="column-object-adox.md">Столбец</a></p></td>
 <td><p>Представляет столбец из таблицы, индекса или ключа.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-object-adox.md">Group</a></p></td>
+<td><p><a href="group-object-adox.md">group</a></p></td>
 <td><p>Представляет учетную запись группы, имеющую разрешения на доступ в защищенной базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="index-object-adox.md">Index</a></p></td>
+<td><p><a href="index-object-adox.md">Индекс</a></p></td>
 <td><p>Представляет индекс из таблицы базы данных.</p></td>
 </tr>
 <tr class="odd">
@@ -63,11 +63,11 @@ ms.locfileid: "32280303"
 <td><p>Представляет таблицу базы данных, включая столбцы, индексы и ключи.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="user-object-adox.md">Пользователь</a></p></td>
+<td><p><a href="user-object-adox.md">User</a></p></td>
 <td><p>Представляет учетную запись пользователя, имеющую разрешения на доступ в защищенной базе данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="view-object-adox.md">View</a></p></td>
+<td><p><a href="view-object-adox.md">Просмотр</a></p></td>
 <td><p>Представляет отфильтрованный набор записей или виртуальную таблицу.</p></td>
 </tr>
 </tbody>

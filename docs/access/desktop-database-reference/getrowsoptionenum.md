@@ -37,7 +37,7 @@ ms.locfileid: "32292197"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Аджетровсрест</strong></p></td>
+<td><p><strong>аджетровсрест</strong></p></td>
 <td><p>–1</p></td>
 <td><p>Извлекает остальные записи в <strong>наборе записей</strong>из текущей позиции или из закладки, заданной параметром <em>Start</em> метода <a href="getrows-method-ado.md">GetRows</a> .</p></td>
 </tr>

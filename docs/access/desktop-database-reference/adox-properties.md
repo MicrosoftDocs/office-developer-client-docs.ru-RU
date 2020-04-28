@@ -45,7 +45,7 @@ ms.locfileid: "32285253"
 <td><p>Указывает, является ли индекс кластеризованным.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="command-property-adox.md">Command</a></p></td>
+<td><p><a href="command-property-adox.md">Команда</a></p></td>
 <td><p>Указывает объект <strong>команды</strong> ADO, который можно использовать для создания или выполнения процедуры.</p></td>
 </tr>
 <tr class="odd">
@@ -73,11 +73,11 @@ ms.locfileid: "32285253"
 <td><p>Указывает, имеют ли записи индекса записи, имеющие значения NULL в их индексных полях.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Элемент</a></p></td>
 <td><p>Указывает определенный элемент коллекции по имени или порядковому номеру.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-adox.md">Name</a></p></td>
+<td><p><a href="name-property-adox.md">имя</a></p></td>
 <td><p>Указывает имя объекта.</p></td>
 </tr>
 <tr class="odd">
@@ -121,7 +121,7 @@ ms.locfileid: "32285253"
 <td><p>Указывает тип таблицы.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="unique-property-adox.md">Уникальные</a></p></td>
+<td><p><a href="unique-property-adox.md">Уникальный</a></p></td>
 <td><p>Указывает, должны ли ключи индекса быть уникальными.</p></td>
 </tr>
 <tr class="even">

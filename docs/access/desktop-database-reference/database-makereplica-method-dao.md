@@ -42,7 +42,7 @@ ms.locfileid: "32294920"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательно/необязательно</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -62,7 +62,7 @@ ms.locfileid: "32294920"
 </tr>
 <tr class="odd">
 <td><p><em>Options</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Константа <strong><a href="replicatypeenum-enumeration-dao.md">репликатипинум</a></strong> , определяющая характеристики создаваемой реплики.</p></td>
 </tr>
@@ -70,7 +70,7 @@ ms.locfileid: "32294920"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Только что созданная частичная реплика будет иметь все свойства **[репликафилтер](tabledef-replicafilter-property-dao.md)** со значением **false**, что означает, что в таблицах не будет данных.
 

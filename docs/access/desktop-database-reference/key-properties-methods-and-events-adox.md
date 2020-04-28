@@ -27,7 +27,7 @@ ms.locfileid: "32290313"
 - [Свойство Type (Key)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox)
 - [Свойство UpdateRule](updaterule-property-adox.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 Нет.
 

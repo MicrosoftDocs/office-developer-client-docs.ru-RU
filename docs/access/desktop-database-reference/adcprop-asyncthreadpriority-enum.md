@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281903"
 ---
-# <a name="adcpropasyncthreadpriorityenum"></a>Перечисление АДКПРОП\_асинксреадприорити\_
+# <a name="adcprop_asyncthreadpriority_enum"></a>Перечисление АДКПРОП\_асинксреадприорити\_
 
 **Область применения**: Access 2013, Office 2013
 
@@ -39,27 +39,27 @@ ms.locfileid: "32281903"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адприоритябовенормал</strong></p></td>
-<td><p>SP4</p></td>
+<td><p><strong>адприоритябовенормал</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Задает приоритет между обычным и максимальным приоритетом.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адприоритибеловнормал</strong></p></td>
+<td><p><strong>адприоритибеловнормал</strong></p></td>
 <td><p>2</p></td>
 <td><p>Задает приоритет между самым низким и нормальным.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адприоритихигхест</strong></p></td>
-<td><p>17:00</p></td>
+<td><p><strong>адприоритихигхест</strong></p></td>
+<td><p>5 </p></td>
 <td><p>Задает максимально возможный приоритет.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адприоритиловест</strong></p></td>
+<td><p><strong>адприоритиловест</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Устанавливает минимально возможный приоритет.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адприоритинормал</strong></p></td>
+<td><p><strong>адприоритинормал</strong></p></td>
 <td><p>4</p></td>
 <td><p>Устанавливает для приоритета значение Обычная.</p></td>
 </tr>

@@ -36,17 +36,17 @@ ms.locfileid: "32293604"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Дбедитадд</p></td>
+<td><p>дбедитадд</p></td>
 <td><p>2</p></td>
 <td><p>Вызван метод <strong>AddNew</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p>Дбедитинпрогресс</p></td>
+<td><p>дбедитинпрогресс</p></td>
 <td><p>1,1</p></td>
 <td><p>Вызван метод <strong>Edit</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p>Дбедитноне</p></td>
+<td><p>дбедитноне</p></td>
 <td><p>нуль</p></td>
 <td><p>Вызван метод <strong>Edit</strong> .</p></td>
 </tr>

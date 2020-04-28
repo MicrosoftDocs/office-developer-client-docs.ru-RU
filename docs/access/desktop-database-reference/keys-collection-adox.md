@@ -21,7 +21,7 @@ ms.locfileid: "32290252"
 
 Содержит все [Ключевые](key-object-adox.md) объекты таблицы.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод [append](append-method-adox-keys.md) коллекции **Keys** уникален для ADOX. Вы можете выполнить указанные ниже действия.
 

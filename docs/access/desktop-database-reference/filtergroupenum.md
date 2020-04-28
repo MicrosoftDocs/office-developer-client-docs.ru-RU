@@ -37,27 +37,27 @@ ms.locfileid: "32292421"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адфилтераффектедрекордс</strong></p></td>
+<td><p><strong>адфилтераффектедрекордс</strong></p></td>
 <td><p>2</p></td>
-<td><p>Фильтры для просмотра записей, затронутых последним вызовом <a href="delete-method-ado-recordset.md">Delete</a>, Resync, <a href="updatebatch-method-ado.md">UpdateBatch</a>или <a href="cancelbatch-method-ado.md">CancelBatch</a> . <a href="resync-method-ado.md"></a></p></td>
+<td><p>Фильтры для просмотра записей, затронутых последним вызовом <a href="delete-method-ado-recordset.md">Delete</a>, <a href="resync-method-ado.md">Resync</a>, <a href="updatebatch-method-ado.md">UpdateBatch</a>или <a href="cancelbatch-method-ado.md">CancelBatch</a> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адфилтерконфликтингрекордс</strong></p></td>
-<td><p>17:00</p></td>
+<td><p><strong>адфилтерконфликтингрекордс</strong></p></td>
+<td><p>5 </p></td>
 <td><p>Фильтры для просмотра записей, для которых не удалось выполнить Последнее пакетное обновление.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адфилтерфетчедрекордс</strong></p></td>
+<td><p><strong>адфилтерфетчедрекордс</strong></p></td>
 <td><p>4</p></td>
 <td><p>Фильтры для просмотра записей в текущем кэше (то есть результаты последнего вызова для получения записей из базы данных).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адфилтерноне</strong></p></td>
+<td><p><strong>адфилтерноне</strong></p></td>
 <td><p>нуль</p></td>
 <td><p>Удаляет текущий фильтр и восстанавливает все записи для просмотра.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адфилтерпендингрекордс</strong></p></td>
+<td><p><strong>адфилтерпендингрекордс</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Фильтры для просмотра только тех записей, которые были изменены, но еще не отправлены на сервер. Применяется только для режима пакетного обновления.</p></td>
 </tr>

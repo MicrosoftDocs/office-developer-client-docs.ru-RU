@@ -1,5 +1,5 @@
 ---
-title: Свойство Field. Required (DAO)
+title: Свойство Field.Required (DAO)
 TOCTitle: Required Property
 ms:assetid: 2f1dbdeb-a37a-59b2-fdc2-f16c7ae1a575
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192247(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292981"
 ---
-# <a name="fieldrequired-property-dao"></a>Свойство Field. Required (DAO)
+# <a name="fieldrequired-property-dao"></a>Свойство Field.Required (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,11 +27,11 @@ ms.locfileid: "32292981"
 
 *выражение*: переменная, представляющая объект **Field**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Для **поля** , еще не добавленного в коллекцию **Fields** , это свойство доступно для чтения и записи.
 
-Доступность обязательного свойства **** зависит от объекта, содержащего коллекцию Fields, [](fields-collection-dao.md) как показано в следующей таблице.
+Доступность **обязательного** свойства зависит от объекта, содержащего коллекцию [Fields](fields-collection-dao.md) , как показано в следующей таблице.
 
 <table>
 <colgroup>
@@ -69,7 +69,7 @@ ms.locfileid: "32292981"
 </table>
 
 
-Свойство **Required** , Валидатеонсет или ValidationRule можно использовать вместе со свойством **[AllowZeroLength](field-allowzerolength-property-dao.md)**, **[](field-validateonset-property-dao.md)** или **[ValidationRule](field-validationrule-property-dao.md)** , чтобы определить допустимость параметра свойства **[value](field-value-property-dao.md)** для этого объекта **field** . Если для свойства **Required** задано значение **false**, поле может содержать значения **null** , а также значения, соответствующие условиям, заданным параметрами **пустые** и **ValidationRule** .
+Свойство **Required** , Валидатеонсет или ValidationRule можно использовать вместе со свойством **[AllowZeroLength](field-allowzerolength-property-dao.md)**, **[ValidateOnSet](field-validateonset-property-dao.md)** или **[ValidationRule](field-validationrule-property-dao.md)** , чтобы определить допустимость параметра свойства **[value](field-value-property-dao.md)** для этого объекта **field** . Если для свойства **Required** задано значение **false**, поле может содержать значения **null** , а также значения, соответствующие условиям, заданным параметрами **пустые** и **ValidationRule** .
 
 
 > [!NOTE]

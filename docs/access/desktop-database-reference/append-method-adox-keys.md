@@ -22,19 +22,19 @@ ms.locfileid: "32297090"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Ключи*. Добавление*ключа* \[,*KeyType* \] \[,** \] Column \[,** RelatedTable\] ** , RelatedColumn \[\]
+*Ключи*. Добавление*ключа* \[,*KeyType* \] \[,*Column* \] Column \[,*RelatedTable* RelatedTable\] *RelatedColumn* , RelatedColumn \[\]
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
 |*Key* |Объект **Key** , который необходимо добавить, или имя ключа для создания и добавления.|
-|*Раздела* |Необязательный атрибут. **Длинное** значение, задающее тип ключа. Параметр *Key* соответствует свойству [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox) объекта **Key** .|
-|*Column* |Необязательный атрибут. **Строковое** значение, задающее имя индексируемого столбца. Параметр *Columns* соответствует значению свойства [Name](name-property-adox.md) объекта [Column](column-object-adox.md) .|
-|*RelatedTable* |Необязательный атрибут. **Строковое** значение, задающее имя связанной таблицы. Параметр *RelatedTable* соответствует значению свойства **Name** объекта [Table](table-object-adox.md) .|
-|*RelatedColumn* |Необязательный атрибут. **Строковое** значение, задающее имя связанного столбца для внешнего ключа. Параметр RelatedColumn соответствует значению свойства **Name** объекта **Column** .|
+|*Раздела* |Необязательное. **Длинное** значение, задающее тип ключа. Параметр *Key* соответствует свойству [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox) объекта **Key** .|
+|*Столбец* |Необязательное. **Строковое** значение, задающее имя индексируемого столбца. Параметр *Columns* соответствует значению свойства [Name](name-property-adox.md) объекта [Column](column-object-adox.md) .|
+|*RelatedTable* |Необязательное. **Строковое** значение, задающее имя связанной таблицы. Параметр *RelatedTable* соответствует значению свойства **Name** объекта [Table](table-object-adox.md) .|
+|*RelatedColumn* |Необязательное. **Строковое** значение, задающее имя связанного столбца для внешнего ключа. Параметр RelatedColumn соответствует значению свойства **Name** объекта **Column** .|
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметр *Columns* может принимать либо имя столбца, либо массив имен столбцов.
 

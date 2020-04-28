@@ -28,12 +28,12 @@ ms.locfileid: "32297125"
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Column* |Объект **Column** , который требуется добавить, или имя столбца для создания и добавления.|
-|*Type* |Необязательный атрибут. **Длинное** значение, задающее тип данных столбца. Параметр *Type* соответствует свойству [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) объекта **Column** .|
-|*DefinedSize* |Необязательный атрибут. **Длинное** значение, задающее размер столбца. Параметр *DefinedSize* соответствует свойству [DefinedSize](definedsize-property-adox.md) объекта **Column** .|
+|*Столбец* |Объект **Column** , который требуется добавить, или имя столбца для создания и добавления.|
+|*Тип* |Необязательное. **Длинное** значение, задающее тип данных столбца. Параметр *Type* соответствует свойству [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) объекта **Column** .|
+|*DefinedSize* |Необязательное. **Длинное** значение, задающее размер столбца. Параметр *DefinedSize* соответствует свойству [DefinedSize](definedsize-property-adox.md) объекта **Column** .|
 
 
 > [!NOTE]
-> При добавлении **столбца** в коллекцию **Columns** [индекса](index-object-adox.md) , если он не существует в [таблице](table-object-adox.md) , которая уже **** добавлена в коллекцию [Tables](tables-collection-adox.md) , произойдет ошибка.
+> При добавлении **столбца** в коллекцию **Columns** [индекса](index-object-adox.md) , **если он не** существует в [таблице](table-object-adox.md) , которая уже добавлена в коллекцию [Tables](tables-collection-adox.md) , произойдет ошибка.
 
 

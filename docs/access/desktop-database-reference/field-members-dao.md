@@ -45,7 +45,7 @@ ms.locfileid: "32293093"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field-getchunk-method-dao.md">GetChunk</a></strong></p></td>
-<td><p>Возвращает полностью или часть содержимого объекта <strong>MEMO</strong> или длинного двоичного <strong></strong> объекта <strong><a href="field-object-dao.md">field</a></strong> в коллекции Fields <strong><a href="fields-collection-dao.md"></a></strong> объекта <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
+<td><p>Возвращает полностью или часть содержимого объекта <strong>MEMO</strong> или <strong>длинного двоичного</strong> объекта <strong><a href="field-object-dao.md">field</a></strong> в коллекции <strong><a href="fields-collection-dao.md">Fields</a></strong> объекта <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,7 @@ ms.locfileid: "32293093"
 <td><p>Задает или возвращает значение, которое определяет одну или несколько характеристик объекта <strong><a href="field-object-dao.md">Field</a></strong>. Для чтения и записи, <strong>Long</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-collatingorder-property-dao.md">Коллатингордер</a></strong></p></td>
+<td><p><strong><a href="field-collatingorder-property-dao.md">коллатингордер</a></strong></p></td>
 <td><p>Возвращает значение, задающее последовательность порядка сортировки в тексте для сравнения строк или сортировки (только для рабочих областей Microsoft Access). Только для чтения, <strong>Long</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -90,7 +90,7 @@ ms.locfileid: "32293093"
 <td><p>Возвращает число байтов, используемых в базе данных (а не в памяти) объекта MEMO или длинного двоичного <strong><a href="field-object-dao.md">поля</a></strong> в коллекции <strong><a href="fields-collection-dao.md">Fields</a></strong> объекта <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-foreignname-property-dao.md">Фореигннаме</a></strong></p></td>
+<td><p><strong><a href="field-foreignname-property-dao.md">фореигннаме</a></strong></p></td>
 <td><p>Задает или возвращает значение, задающее имя объекта <strong><a href="field-object-dao.md">поля</a></strong> в внешней таблице, которое соответствует полю в главной таблице для отношения (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -98,8 +98,8 @@ ms.locfileid: "32293093"
 <td><p>Возвращает или задает имя указанного объекта. <strong>Строка</strong> для чтения и записи, если объект не был добавлен в коллекцию. <strong>Строка</strong> , доступная только для чтения, если объект добавлен в коллекцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-ordinalposition-property-dao.md">Ординалпоситион</a></strong></p></td>
-<td><p>Задает или возвращает относительное положение объекта <strong><a href="field-object-dao.md">field</a></strong> в коллекции Fields <strong><a href="fields-collection-dao.md"></a></strong> . .</p></td>
+<td><p><strong><a href="field-ordinalposition-property-dao.md">ординалпоситион</a></strong></p></td>
+<td><p>Задает или возвращает относительное положение объекта <strong><a href="field-object-dao.md">field</a></strong> в коллекции <strong><a href="fields-collection-dao.md">Fields</a></strong> . .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
@@ -116,23 +116,23 @@ ms.locfileid: "32293093"
 <td><p>Задает или возвращает значение, которое указывает, требуется ли для объекта <strong><a href="field-object-dao.md">field</a></strong> значение, отличное от NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-fieldsize-property-dao.md">Size</a></strong></p></td>
+<td><p><strong><a href="field-fieldsize-property-dao.md">Размер</a></strong></p></td>
 <td><p>Возвращает число байтов, используемых в базе данных (а не в памяти) объекта MEMO или длинного двоичного <strong><a href="field-object-dao.md">поля</a></strong> в коллекции <strong><a href="fields-collection-dao.md">Fields</a></strong> объекта <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field-sourcefield-property-dao.md">Саурцефиелд</a></strong></p></td>
+<td><p><strong><a href="field-sourcefield-property-dao.md">саурцефиелд</a></strong></p></td>
 <td><p>Возвращает значение, которое указывает имя поля, которое является исходным источником данных для объекта <strong>field</strong> . Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-sourcetable-property-dao.md">Саурцетабле</a></strong></p></td>
+<td><p><strong><a href="field-sourcetable-property-dao.md">саурцетабле</a></strong></p></td>
 <td><p>Возвращает значение, которое указывает имя таблицы, которая является исходным источником данных для объекта <strong>field</strong> . Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field-type-property-dao.md">Тип</a></strong></p></td>
-<td><p>Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Чтение и запись <strong>целоГо числа</strong>.</p></td>
+<td><p>Задает или возвращает значение, указывающее операционный тип или тип данных объекта. Для чтения и записи, <strong>Integer</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-validateonset-property-dao.md">Валидатеонсет</a></strong></p></td>
+<td><p><strong><a href="field-validateonset-property-dao.md">валидатеонсет</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее, является ли значение объекта <strong><a href="field-object-dao.md">поля</a></strong> немедленно проверенным, когда задано свойство <strong><a href="field-value-property-dao.md">value</a></strong> объекта (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -148,7 +148,7 @@ ms.locfileid: "32293093"
 <td><p>Задает или возвращает значение объекта. Для чтения и записи, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field-visiblevalue-property-dao.md">Висиблевалуе</a></strong></p></td>
+<td><p><strong><a href="field-visiblevalue-property-dao.md">висиблевалуе</a></strong></p></td>
 <td><p>Одно из значений <strong><a href="workspacetypeenum-enumeration-dao.md">воркспацетипинум</a></strong> .</p>
 <td><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p>
 <p>Возвращает значение, которое в настоящее время находится в базе данных, которое новее свойства <strong>originalValue</strong> , определенного конфликтом пакетного обновления (только для рабочих областей ODBCDirect).</p></td>

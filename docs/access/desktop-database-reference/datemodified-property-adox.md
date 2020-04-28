@@ -25,7 +25,7 @@ ms.locfileid: "32294409"
 
 Возвращает значение **типа Variant** , указывающее дату изменения. Значение равно null, если **DateModified** не поддерживается поставщиком.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Для новых добавленных объектов свойство **DateModified** имеет значение null. После добавления нового [представления](view-object-adox.md) или [процедуры](procedure-object-adox.md)необходимо вызвать метод [Refresh](refresh-method-ado.md) коллекции [представлений](views-collection-adox.md) или [процедур](procedures-collection-adox.md) для получения значений для свойства **DateModified** .
 

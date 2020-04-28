@@ -22,5 +22,5 @@ ms.locfileid: "32292771"
 - [Метод field2. CreateProperty (DAO)](field2-createproperty-method-dao.md)
 - [Метод field2. (DAO)](field2-getchunk-method-dao.md)
 - [Метод field2. LoadFromFile (DAO)](field2-loadfromfile-method-dao.md)
-- [Метод field2. SaveToFile (DAO)](field2-savetofile-method-dao.md)
+- [Метод Field2.SaveToFile (DAO)](field2-savetofile-method-dao.md)
 

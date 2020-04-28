@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. Батчколлисионс (DAO)
+title: Свойство Recordset.BatchCollisions (DAO)
 TOCTitle: BatchCollisions Property
 ms:assetid: 53e5572b-770c-9ea5-31a5-984abdf66faa
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194079(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300863"
 ---
-# <a name="recordsetbatchcollisions-property-dao"></a>Свойство Recordset. Батчколлисионс (DAO)
+# <a name="recordsetbatchcollisions-property-dao"></a>Свойство Recordset.BatchCollisions (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Батчколлисионс
+*Expression* . батчколлисионс
 
 *expression*: переменная, представляющая объект **Recordset**.
 

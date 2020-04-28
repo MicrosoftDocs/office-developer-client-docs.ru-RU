@@ -37,77 +37,77 @@ ms.locfileid: "32293331"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адрснадднев</strong></p></td>
+<td><p><strong>адрснадднев</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Операция добавила новую запись.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адрснклосе</strong></p></td>
-<td><p>10</p></td>
+<td><p><strong>адрснклосе</strong></p></td>
+<td><p>9 </p></td>
 <td><p>Операция закрыла <strong>набор записей</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адрснделете</strong></p></td>
+<td><p><strong>адрснделете</strong></p></td>
 <td><p>2</p></td>
 <td><p>Операция удалила запись.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адрснфирстчанже</strong></p></td>
-<td><p>-11:00</p></td>
+<td><p><strong>адрснфирстчанже</strong></p></td>
+<td><p>11 </p></td>
 <td><p>Операция выполняла первое изменение записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адрснмове</strong></p></td>
-<td><p>десяти</p></td>
+<td><p><strong>адрснмове</strong></p></td>
+<td><p>10 </p></td>
 <td><p>Операция переместила указатель записи в <strong>набор записей</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адрснмовефирст</strong></p></td>
-<td><p>12</p></td>
+<td><p><strong>адрснмовефирст</strong></p></td>
+<td><p>12 </p></td>
 <td><p>Операция переместила указатель записи на первую запись в <strong>наборе записей</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адрснмовеласт</strong></p></td>
-<td><p>означает</p></td>
+<td><p><strong>адрснмовеласт</strong></p></td>
+<td><p>15 </p></td>
 <td><p>Операция переместила указатель записи на последнюю запись в <strong>наборе записей</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адрснмовенекст</strong></p></td>
+<td><p><strong>адрснмовенекст</strong></p></td>
 <td><p>13</p></td>
 <td><p>Операция переместила указатель записи на следующую запись в <strong>наборе записей</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адрснмовепревиаус</strong></p></td>
-<td><p>14</p></td>
-<td><p>Операция переместила указатель записи на предыдущую запись в наборе <strong>записей</strong>.</p></td>
+<td><p><strong>адрснмовепревиаус</strong></p></td>
+<td><p>14 </p></td>
+<td><p>Операция переместила указатель записи на предыдущую запись в <strong>наборе записей</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адрснрекуери</strong></p></td>
-<td><p>см</p></td>
+<td><p><strong>адрснрекуери</strong></p></td>
+<td><p>7 </p></td>
 <td><p>Операция запросила <a href="recordset-object-ado.md">набор записей</a>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адрснресинч</strong></p></td>
-<td><p>8,5</p></td>
+<td><p><strong>адрснресинч</strong></p></td>
+<td><p>8 </p></td>
 <td><p>Операция повторно синхронизирует объект <strong>Recordset</strong> с базой данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адрснундоадднев</strong></p></td>
-<td><p>17:00</p></td>
+<td><p><strong>адрснундоадднев</strong></p></td>
+<td><p>5 </p></td>
 <td><p>Операция отменяет добавление новой записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адрснундоделете</strong></p></td>
-<td><p>ICMPv6</p></td>
+<td><p><strong>адрснундоделете</strong></p></td>
+<td><p>6 </p></td>
 <td><p>Операция отменяет удаление записи.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адрснундаупдате</strong></p></td>
-<td><p>SP4</p></td>
+<td><p><strong>адрснундаупдате</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Операция отменяет обновление записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адрснупдате</strong></p></td>
+<td><p><strong>адрснупдате</strong></p></td>
 <td><p>4</p></td>
 <td><p>Операция обновила существующую запись.</p></td>
 </tr>
@@ -157,10 +157,10 @@ ms.locfileid: "32293331"
 <td><p>Адоенумс. Евентреасон. MOVEPREVIOUS</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Евентреасон. reQUERY</p></td>
+<td><p>Адоенумс. Евентреасон. Requery</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Евентреасон. reSYNCH</p></td>
+<td><p>Адоенумс. Евентреасон. resynch</p></td>
 </tr>
 <tr class="even">
 <td><p>Адоенумс. Евентреасон. УНДОАДДНЕВ</p></td>

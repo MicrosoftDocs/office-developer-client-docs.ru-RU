@@ -24,7 +24,7 @@ ms.locfileid: "32296040"
 
 Добавлен в версии: Access 2007
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте свойство **[Fields](complextype-fields-property-dao.md)** , чтобы возвратить коллекцию **[Fields](fields-collection-dao.md)** для объекта **complexType** .
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Field. Саурцефиелд (DAO)
+title: Свойство Field.SourceField (DAO)
 TOCTitle: SourceField Property
 ms:assetid: e5750d6c-4078-7bbb-9356-f9207c4e8028
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835953(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292995"
 ---
-# <a name="fieldsourcefield-property-dao"></a>Свойство Field. Саурцефиелд (DAO)
+# <a name="fieldsourcefield-property-dao"></a>Свойство Field.SourceField (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,13 +23,13 @@ ms.locfileid: "32292995"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Саурцефиелд
+*Expression* . саурцефиелд
 
 *выражение*: переменная, представляющая объект **Field**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Для объекта **field** использование свойств **саурцефиелд** и **саурцетабле** зависит от объекта, содержащего коллекцию Fields, в которую **** добавляется объект **field** , как показано в следующей таблице.
+Для объекта **field** использование свойств **саурцефиелд** и **саурцетабле** зависит от объекта, содержащего коллекцию **Fields** , в которую добавляется объект **field** , как показано в следующей таблице.
 
 <table>
 <colgroup>
@@ -39,12 +39,12 @@ ms.locfileid: "32292995"
 <thead>
 <tr class="header">
 <th><p>Объект, добавленный в</p></th>
-<th><p>Использование</p></th>
+<th><p>Применение</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong></p></td>
+<td><p><strong>Индекс</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">

@@ -24,7 +24,7 @@ ms.locfileid: "32292106"
 - [Коллекция Properties](properties-collection-ado.md)
 - [Коллекция Users](users-collection-adox.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод GetPermissions](getpermissions-method-adox.md)
 - [Метод SetPermissions](setpermissions-method-adox.md)

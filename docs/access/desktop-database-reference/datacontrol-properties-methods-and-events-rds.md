@@ -37,7 +37,7 @@ ms.locfileid: "32294501"
 - [Свойство URL (RDS)](url-property-rds.md)
 
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод Cancel (RDS)](cancel-method-rds.md)
 - [Метод CancelUpdate (RDS)](cancelupdate-method-rds.md)

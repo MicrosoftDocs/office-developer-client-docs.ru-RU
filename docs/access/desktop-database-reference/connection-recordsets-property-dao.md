@@ -29,5 +29,5 @@ ms.locfileid: "32295809"
 
 *Expression* . Recordsets
 
-*Expression (выражение* ) Переменная, представляющая объект **Connection** .
+*выражение*: переменная, представляющая объект **Connection**.
 

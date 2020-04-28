@@ -25,7 +25,7 @@ ms.locfileid: "32290008"
 
 Возвращает целое число **типа Long** и доступно только для чтения.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойство **LevelDepth** используется для определения расстояния от объекта [member](member-object-ado-md.md) на корневом уровне иерархии. **LevelDepth** элемента на корневом уровне равен 0. Соответствует свойству [Depth](depth-property-ado-md.md) объекта [Level](level-object-ado-md.md) .
 

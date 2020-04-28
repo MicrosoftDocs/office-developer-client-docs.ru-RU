@@ -1,5 +1,5 @@
 ---
-title: Свойство Field. ValidationText (DAO)
+title: Свойство Field.ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 6d9ec790-a9d2-84d7-ccba-57d738491e36
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195540(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292932"
 ---
-# <a name="fieldvalidationtext-property-dao"></a>Свойство Field. ValidationText (DAO)
+# <a name="fieldvalidationtext-property-dao"></a>Свойство Field.ValidationText (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,11 +27,11 @@ ms.locfileid: "32292932"
 
 *выражение*: переменная, представляющая объект **Field**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Параметр или возвращаемое значение — это **строка** , указывающая текст, который отображается, если пользователь пытается ввести недопустимое значение для поля. Для объекта, который еще не добавлен в коллекцию, это свойство предназначено для чтения и записи.
 
-Для объекта **field** использование свойства **ValidationText** зависит от объекта, содержащего коллекцию Fields, к которой **[](fields-collection-dao.md)** добавляется объект **field** , как показано в следующей таблице.
+Для объекта **field** использование свойства **ValidationText** зависит от объекта, содержащего коллекцию **[Fields](fields-collection-dao.md)** , к которой добавляется объект **field** , как показано в следующей таблице.
 
 <table>
 <colgroup>
@@ -41,12 +41,12 @@ ms.locfileid: "32292932"
 <thead>
 <tr class="header">
 <th><p>Объект, добавленный в</p></th>
-<th><p>Использование</p></th>
+<th><p>Применение</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Index</strong></p></td>
+<td><p><strong>Индекс</strong></p></td>
 <td><p>Не поддерживается</p></td>
 </tr>
 <tr class="even">

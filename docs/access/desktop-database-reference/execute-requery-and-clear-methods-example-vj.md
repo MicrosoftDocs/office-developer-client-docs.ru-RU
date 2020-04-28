@@ -19,7 +19,7 @@ ms.locfileid: "32293282"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется метод **EXECUTE** при выполнении как из объекта [Command](command-object-ado.md) , так и из объекта [Connection](connection-object-ado.md) . Кроме того, он [](requery-method-ado.md) использует метод Requery для получения текущих данных в объекте Recordset, а метод [clear](clear-method-ado.md) — для очистки содержимого коллекции [Errors](errors-collection-ado.md) . Для выполнения этой процедуры необходимы процедуры ExecuteCommand и Принтаутпут.
+В этом примере демонстрируется метод **EXECUTE** при выполнении как из объекта [Command](command-object-ado.md) , так и из объекта [Connection](connection-object-ado.md) . Кроме того, он использует метод [Requery](requery-method-ado.md) для получения текущих данных в объекте Recordset, а метод [clear](clear-method-ado.md) — для очистки содержимого коллекции [Errors](errors-collection-ado.md) . Для выполнения этой процедуры необходимы процедуры ExecuteCommand и Принтаутпут.
 
 ```java 
  

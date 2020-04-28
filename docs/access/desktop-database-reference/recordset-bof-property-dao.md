@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. BOF (DAO)
+title: Свойство Recordset.BOF (DAO)
 TOCTitle: BOF Property
 ms:assetid: c50a0c5f-1b26-33ea-4cf2-311f9514a94a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823092(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300590"
 ---
-# <a name="recordsetbof-property-dao"></a>Свойство Recordset. BOF (DAO)
+# <a name="recordsetbof-property-dao"></a>Свойство Recordset.BOF (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -73,8 +73,8 @@ Move &gt; 0</p></th>
 <td><p><strong>BOF=True,</strong><br />
 <strong>EOF=False</strong></p></td>
 <td><p>Разрешено</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Ошибка</p></td>
+<td><p>Ошибка</p></td>
 <td><p>Разрешено</p></td>
 </tr>
 <tr class="even">
@@ -82,14 +82,14 @@ Move &gt; 0</p></th>
 <strong>EOF=True</strong></p></td>
 <td><p>Разрешено</p></td>
 <td><p>Разрешено</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Ошибка</p></td>
+<td><p>Ошибка</p></td>
 </tr>
 <tr class="odd">
 <td><p>Оба свойства имеют значение <strong>True</strong></p></td>
 <td><p>Ошибка</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Ошибка</p></td>
+<td><p>Ошибка</p></td>
 <td><p>Ошибка</p></td>
 </tr>
 <tr class="even">

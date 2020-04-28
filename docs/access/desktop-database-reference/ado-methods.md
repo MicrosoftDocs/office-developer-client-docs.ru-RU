@@ -50,15 +50,15 @@ ms.locfileid: "32283284"
 </tr>
 <tr class="odd">
 <td><p><a href="cancel-method-ado.md">Отмена</a></p></td>
-<td><p>ОтМеняет выполнение ожидающего асинхронного вызова метода.</p></td>
+<td><p>Отменяет выполнение ожидающего асинхронного вызова метода.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cancelbatch-method-ado.md">CancelBatch</a></p></td>
-<td><p>ОтМеняет ожидающее пакетное обновление.</p></td>
+<td><p>Отменяет ожидающее пакетное обновление.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cancelupdate-method-ado.md">CancelUpdate</a></p></td>
-<td><p>ОтМеняет любые изменения, внесенные в текущую или новую строку объекта <strong>Recordset</strong> , или коллекцию <strong>Fields</strong> объекта <strong>Record</strong> перед вызовом метода <strong>Update</strong> .</p></td>
+<td><p>Отменяет любые изменения, внесенные в текущую или новую строку объекта <strong>Recordset</strong> , или коллекцию <strong>Fields</strong> объекта <strong>Record</strong> перед вызовом метода <strong>Update</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="clear-method-ado.md">Clear</a></p></td>
@@ -70,7 +70,7 @@ ms.locfileid: "32283284"
 </tr>
 <tr class="even">
 <td><p><a href="close-method-ado.md">Close</a></p></td>
-<td><p>ЗаКрывает открытый объект и все зависимые объекты.</p></td>
+<td><p>Закрывает открытый объект и все зависимые объекты.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="comparebookmarks-method-ado.md">CompareBookmarks</a></p></td>
@@ -82,7 +82,7 @@ ms.locfileid: "32283284"
 </tr>
 <tr class="odd">
 <td><p><a href="copyto-method-ado.md">CopyTo</a></p></td>
-<td><p>Копирует указанное число символов или байтов (в зависимости от <strong>типа</strong>) в потоке в <strong></strong> другой объект <strong>Stream</strong> .</p></td>
+<td><p>Копирует указанное число символов или байтов (в зависимости от <strong>типа</strong>) в <strong>потоке</strong> в другой объект <strong>Stream</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="createparameter-method-ado.md">CreateParameter</a></p></td>
@@ -113,7 +113,7 @@ ms.locfileid: "32283284"
 <td><p>Выполняет указанный запрос, инструкцию SQL, хранимую процедуру или текст, зависящий от поставщика.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="find-method-ado.md">Find</a></p></td>
+<td><p><a href="find-method-ado.md">Поиск</a></p></td>
 <td><p>Выполняет поиск в <strong>наборе записей</strong> для строки, удовлетворяющей заданным условиям.</p></td>
 </tr>
 <tr class="even">
@@ -126,7 +126,7 @@ ms.locfileid: "32283284"
 </tr>
 <tr class="even">
 <td><p><a href="getchunk-method-ado.md">GetChunk</a></p></td>
-<td><p>Возвращает значение ALL или часть содержимого большого текстового или двоичного объекта данных. <strong></strong></p></td>
+<td><p>Возвращает значение ALL или часть содержимого большого текстового или двоичного <strong>объекта данных</strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="getrows-method-ado.md">GetRows</a></p></td>
@@ -138,11 +138,11 @@ ms.locfileid: "32283284"
 </tr>
 <tr class="odd">
 <td><p><a href="loadfromfile-method-ado.md">LoadFromFile</a></p></td>
-<td><p>ЗаГружает содержимое существующего файла в <strong>поток</strong>.</p></td>
+<td><p>Загружает содержимое существующего файла в <strong>поток</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="move-method-ado.md">Move</a></p></td>
-<td><p>Перемещает положение текущей записью в объекте <strong>Recordset</strong>.</p></td>
+<td><p>Перемещает положение текущей записи в объекте <strong>Recordset</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst, MoveLast, MoveNext и MovePrevious</a></p></td>
@@ -150,7 +150,7 @@ ms.locfileid: "32283284"
 </tr>
 <tr class="even">
 <td><p><a href="moverecord-method-ado.md">MoveRecord</a></p></td>
-<td><p>ПереМещает файл или каталог вместе с его содержимым в другое расположение.</p></td>
+<td><p>Перемещает файл или каталог вместе с его содержимым в другое расположение.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="nextrecordset-method-ado.md">NextRecordset</a></p></td>
@@ -177,7 +177,7 @@ ms.locfileid: "32283284"
 <td><p>Получает сведения о схеме базы данных от поставщика.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="read-method-ado.md">Read</a></p></td>
+<td><p><a href="read-method-ado.md">Чтение</a></p></td>
 <td><p>Считывает заданное число байтов из объекта <strong>Stream</strong> .</p></td>
 </tr>
 <tr class="even">
@@ -214,7 +214,7 @@ ms.locfileid: "32283284"
 </tr>
 <tr class="even">
 <td><p><a href="skipline-method-ado.md">SkipLine</a></p></td>
-<td><p>ПроПускает одну строку целиком при чтении текстового потока.</p></td>
+<td><p>Пропускает одну строку целиком при чтении текстового потока.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="stat-method-ado.md">Stat</a></p></td>
@@ -225,20 +225,20 @@ ms.locfileid: "32283284"
 <td><p>Определяет, поддерживает ли указанный объект <strong>Recordset</strong> определенный тип функциональных возможностей.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="update-method-ado.md">обновление</a>;</p></td>
-<td><p>Сохраняет все изменения, внесенные в текущую строку объекта <strong>Recordset</strong> , или коллекцию Fields <strong></strong> объекта <strong>Record</strong> .</p></td>
+<td><p><a href="update-method-ado.md">обновление</a>.</p></td>
+<td><p>Сохраняет все изменения, внесенные в текущую строку объекта <strong>Recordset</strong> , или коллекцию <strong>Fields</strong> объекта <strong>Record</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="updatebatch-method-ado.md">UpdateBatch</a></p></td>
-<td><p>ЗаПисывает все ожидающие пакетные обновления на диск.</p></td>
+<td><p>Записывает все ожидающие пакетные обновления на диск.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="write-method-ado.md">Write</a></p></td>
-<td><p>ЗаПисывает двоичные данные в объект <strong>Stream</strong> .</p></td>
+<td><p>Записывает двоичные данные в объект <strong>Stream</strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="writetext-method-ado.md">Инструкция</a></p></td>
-<td><p>ЗаПисывает указанную текстовую строку в объект <strong>Stream</strong> .</p></td>
+<td><p>Записывает указанную текстовую строку в объект <strong>Stream</strong> .</p></td>
 </tr>
 </tbody>
 </table>

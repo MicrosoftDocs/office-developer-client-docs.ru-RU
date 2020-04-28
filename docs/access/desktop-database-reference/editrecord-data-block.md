@@ -35,7 +35,7 @@ ms.locfileid: "32293597"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Аргумент</p></th>
+<th><p>Аргументация</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
@@ -47,7 +47,7 @@ ms.locfileid: "32293597"
 </tbody>
 </table>
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 После оператора **ИзменитьЗапись** вы можете вставить блок команд, который будет выполняться до отправки изменений записи. Следующие действия доступны в блоке данных **ИзменитьЗапись** .
 
@@ -57,22 +57,22 @@ ms.locfileid: "32293597"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="cancelrecordchange-macro-action.md">Макрокоманда CancelRecordChange</a></p></td>
+<td><p><a href="cancelrecordchange-macro-action.md">Макрокоманда "ОтменитьИзменениеЗаписи"</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="comment-macro-statement.md">Оператор макроса Comment</a></p></td>
+<td><p><a href="comment-macro-statement.md">Оператор макроса "Примечание"</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-macro-statement.md">Оператор макроса Group</a></p></td>
+<td><p><a href="group-macro-statement.md">Оператор макроса "Группа"</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="if-then-else-macro-block.md">If... Then... Оператор else макроса</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="setfield-macro-action.md">Макрокоманда SetField</a></p></td>
+<td><p><a href="setfield-macro-action.md">Макрокоманда "ЗадатьПоле"</a></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="setlocalvar-macro-action.md">Макрокоманда SetLocalVar</a></p></td>
+<td><p><a href="setlocalvar-macro-action.md">Макрокоманда "ЗадатьЛокПеременную"</a></p></td>
 </tr>
 </tbody>
 </table>

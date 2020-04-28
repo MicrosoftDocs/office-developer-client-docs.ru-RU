@@ -23,7 +23,7 @@ ms.locfileid: "32287890"
 - [Свойство Count](count-property-ado.md)
 - [Свойство Item](item-property-ado.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод Append](append-method-ado.md)
 - [Метод Delete (Коллекция параметров ADO)](delete-method-ado-parameters-collection.md)

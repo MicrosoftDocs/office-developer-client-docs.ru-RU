@@ -37,28 +37,28 @@ ms.locfileid: "32288527"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адстатеклосед</strong></p></td>
+<td><p><strong>адстатеклосед</strong></p></td>
 <td><p>нуль</p></td>
 <td><p>Указывает, что объект закрыт.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адстатеопен</strong></p></td>
+<td><p><strong>адстатеопен</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Указывает, что объект открыт.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адстатеконнектинг</strong></p></td>
+<td><p><strong>адстатеконнектинг</strong></p></td>
 <td><p>2</p></td>
 <td><p>Указывает, что объект подключается.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адстатиксекутинг</strong></p></td>
-<td><p>SP4</p></td>
+<td><p><strong>адстатиксекутинг</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Указывает, что объект выполняет команду.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адстатефетчинг</strong></p></td>
-<td><p>8,5</p></td>
+<td><p><strong>адстатефетчинг</strong></p></td>
+<td><p>8 </p></td>
 <td><p>Указывает, что извлекаются строки объекта.</p></td>
 </tr>
 </tbody>

@@ -22,13 +22,13 @@ ms.locfileid: "32296677"
 
 **Область применения**: Access 2013, Office 2013
 
-ОтМеняет выполнение ожидающего асинхронного вызова метода.
+Отменяет выполнение ожидающего асинхронного вызова метода.
 
 ## <a name="syntax"></a>Синтаксис
 
 *объект*. Отмена
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Используйте метод **Cancel** для завершения выполнения асинхронного вызова метода (то есть метод, вызываемый с параметром **адасинкконнект**, **адасинцексекуте**или **адасинкфетч** ).
 
@@ -48,7 +48,7 @@ ms.locfileid: "32296677"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="command-object-ado.md">Command</a></p></td>
+<td><p><a href="command-object-ado.md">Команда</a></p></td>
 <td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute</a></p></td>
 </tr>
 <tr class="even">

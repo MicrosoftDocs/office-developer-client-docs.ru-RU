@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. Bookmarkd (DAO)
+title: Свойство Recordset.Bookmarkable (DAO)
 TOCTitle: Bookmarkable Property
 ms:assetid: 6323f162-75c4-7cfe-c918-0b9454560f97
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194950(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300625"
 ---
-# <a name="recordsetbookmarkable-property-dao"></a>Свойство Recordset. Bookmarkd (DAO)
+# <a name="recordsetbookmarkable-property-dao"></a>Свойство Recordset.Bookmarkable (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

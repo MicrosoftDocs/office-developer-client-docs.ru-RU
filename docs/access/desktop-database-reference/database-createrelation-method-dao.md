@@ -42,7 +42,7 @@ ms.locfileid: "32294955"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательно/необязательно</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -68,9 +68,9 @@ ms.locfileid: "32294955"
 </tr>
 <tr class="even">
 <td><p><em>Attributes</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа или сочетание констант, содержащих сведения о типе связи. Дополнительные сведения <strong><a href="field-attributes-property-dao.md"></a></strong> см. в свойстве Attributes.</p></td>
+<td><p>Константа или сочетание констант, содержащих сведения о типе связи. Дополнительные сведения см. в свойстве <strong><a href="field-attributes-property-dao.md">Attributes</a></strong> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -80,7 +80,7 @@ ms.locfileid: "32294955"
 
 Relation
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект **relation** предоставляет сведения для ядра СУБД Microsoft Access относительно связи между полями в двух объектах **[tabledef](tabledef-object-dao.md)** или **[QueryDef](querydef-object-dao.md)** . Можно реализовать целостность ссылок с помощью свойства **Attributes** .
 

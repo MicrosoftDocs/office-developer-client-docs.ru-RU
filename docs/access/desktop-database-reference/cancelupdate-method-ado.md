@@ -19,7 +19,7 @@ ms.locfileid: "32296628"
 
 **Область применения**: Access 2013, Office 2013
 
-ОтМеняет любые изменения, внесенные в текущую или новую строку объекта [Recordset](recordset-object-ado.md) , или коллекцию [Fields](fields-collection-ado.md) объекта [Record](record-object-ado.md) перед вызовом метода [Update](update-method-ado.md) .
+Отменяет любые изменения, внесенные в текущую или новую строку объекта [Recordset](recordset-object-ado.md) , или коллекцию [Fields](fields-collection-ado.md) объекта [Record](record-object-ado.md) перед вызовом метода [Update](update-method-ado.md) .
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -27,7 +27,7 @@ ms.locfileid: "32296628"
 
 *запись*. *Поля*. CancelUpdate
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 **Recordset**
 

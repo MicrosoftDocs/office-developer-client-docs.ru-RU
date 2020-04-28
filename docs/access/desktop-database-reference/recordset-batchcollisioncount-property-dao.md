@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. Батчколлисионкаунт (DAO)
+title: Свойство Recordset.BatchCollisionCount (DAO)
 TOCTitle: BatchCollisionCount Property
 ms:assetid: 9d166463-8313-c0f5-8389-5d5ad933eb33
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198240(v=office.15)
@@ -18,14 +18,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300632"
 ---
-# <a name="recordsetbatchcollisioncount-property-dao"></a>Свойство Recordset. Батчколлисионкаунт (DAO)
+# <a name="recordsetbatchcollisioncount-property-dao"></a>Свойство Recordset.BatchCollisionCount (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Батчколлисионкаунт
+*Expression* . батчколлисионкаунт
 
 *expression*: переменная, представляющая объект **Recordset**.
 
@@ -39,7 +39,7 @@ ms.locfileid: "32300632"
 
 ## <a name="example"></a>Пример
 
-В этом примере используется свойство **батчколлисионкаунт** и метод **Update** для демонстрации пакетного обновления на то, какие конфликты разрешаются путем принудительного обновления пакета.
+В этом примере используются свойство **BatchCollisionCount** и метод **Update**, чтобы продемонстрировать пакетное обновление с разрешением всех конфликтов путем принудительного пакетного обновления.
 
 ```vb 
 Sub BatchX() 

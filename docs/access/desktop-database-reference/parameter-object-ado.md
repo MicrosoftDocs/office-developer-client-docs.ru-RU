@@ -21,7 +21,7 @@ ms.locfileid: "32288079"
 
 Представляет параметр или аргумент, связанный с объектом [Command](command-object-ado.md) на основе параметризованного запроса или хранимой процедуры.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Многие поставщики поддерживают параметризованные команды. Это команды, в которых нужное действие определено один раз, но переменные (или параметры) используются для изменения некоторых сведений о команде. Например, инструкция SQL SELECT может использовать параметр для определения условия соответствия предложения WHERE, а другое — для определения имени столбца для предложения SORT BY.
 
@@ -33,11 +33,11 @@ ms.locfileid: "32288079"
 
   - Задайте или возвратите значение параметра со свойством [value](value-property-ado.md) . **Value** является свойством по умолчанию для объекта **Parameter** .
 
-  - Задайте или возвращает характеристики параметров с помощью [](attributes-property-ado.md)свойств Attributes, [Direction](direction-property-ado.md), [Precision](precision-property-ado.md), [NumericScale](numericscale-property-ado.md), [size](size-property-ado.md)и [Type](type-property-ado.md) .
+  - Задайте или возвращает характеристики параметров с помощью свойств [Attributes](attributes-property-ado.md), [Direction](direction-property-ado.md), [Precision](precision-property-ado.md), [NumericScale](numericscale-property-ado.md), [size](size-property-ado.md)и [Type](type-property-ado.md) .
 
   - Передача длинных двоичных или символьных данных в параметр с помощью метода [AppendChunk](appendchunk-method-ado.md) .
 
   - Доступ к атрибутам, зависящим от поставщика, с коллекцией [свойств](properties-collection-ado.md) .
 
-Если вы знаете имена и свойства параметров, связанных с хранимой процедурой или параметризованным запросом, который вы хотите вызвать, можно использовать метод [CreateParameter](createparameter-method-ado.md) для создания объектов **Parameter** с соответствующими параметрами свойства и Используйте метод [append](append-method-ado.md) , чтобы добавить их в коллекцию [Parameters](parameters-collection-ado.md) . Это позволяет задавать и возвращать значения параметров, не выполняя вызов метода [Refresh](refresh-method-ado.md) коллекции **Parameters** для получения сведений о параметрах от поставщика, потенциально требовательных к ресурсам операций.
+Если вы знаете имена и свойства параметров, связанных с хранимой процедурой или параметризованным запросом, который вы хотите вызвать, можно использовать метод [CreateParameter](createparameter-method-ado.md) для создания объектов **Parameter** с соответствующими параметрами свойства и использовать метод [append](append-method-ado.md) , чтобы добавить их в коллекцию [Parameters](parameters-collection-ado.md) . Это позволяет задавать и возвращать значения параметров, не выполняя вызов метода [Refresh](refresh-method-ado.md) коллекции **Parameters** для получения сведений о параметрах от поставщика, потенциально требовательных к ресурсам операций.
 

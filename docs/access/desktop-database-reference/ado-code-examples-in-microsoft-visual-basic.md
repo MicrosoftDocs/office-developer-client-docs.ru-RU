@@ -23,7 +23,7 @@ ms.locfileid: "32282446"
 > [!NOTE]
 > Вставьте весь пример кода, начиная с начала до конца, в редакторе кода. Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Пример метода AddNew](addnew-method-example-vb.md)
 - [Пример методов Append и CreateParameter](append-and-createparameter-methods-example-vb.md)
@@ -37,7 +37,7 @@ ms.locfileid: "32282446"
 - [Пример метода CreateRecordset](createrecordset-method-example-vb.md)
 - [Пример метода Delete](delete-method-example-vb.md)
 - [Пример методов DeleteRecord и MoveRecord](deleterecord-and-moverecord-methods-example-vb.md)
-- [Пример методов Execute, reQuery и Clear](execute-requery-and-clear-methods-example-vb.md)
+- [Пример методов Execute, Requery и Clear](execute-requery-and-clear-methods-example-vb.md)
 - [Пример метода Find](find-method-example-vb.md)
 - [Пример метода GetRows](getrows-method-example-vb.md)
 - [Пример метода GetString](getstring-method-example-vb.md)

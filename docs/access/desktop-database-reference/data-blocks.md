@@ -21,5 +21,5 @@ ms.locfileid: "32295130"
 - [Блок данных СоздатьЗапись](createrecord-data-block.md)
 - [Блок данных ИзменитьЗапись](editrecord-data-block.md)
 - [Блок данных ДляКаждойЗаписи](foreachrecord-data-block.md)
-- [Блок данных LookupRecord](lookuprecord-data-block.md)
+- [Блок данных "НайтиЗапись"](lookuprecord-data-block.md)
 

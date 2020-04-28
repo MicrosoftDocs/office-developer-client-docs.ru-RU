@@ -31,7 +31,7 @@ ms.locfileid: "32296152"
 - [Коллекция Properties](properties-collection-ado.md)
 - [Свойство State](state-property-ado.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод Cancel](cancel-method-ado.md)
 - [Метод CreateParameter](createparameter-method-ado.md)

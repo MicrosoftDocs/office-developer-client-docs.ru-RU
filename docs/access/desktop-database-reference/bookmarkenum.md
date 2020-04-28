@@ -37,17 +37,17 @@ ms.locfileid: "32296782"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адбукмарккуррент</strong></p></td>
+<td><p><strong>адбукмарккуррент</strong></p></td>
 <td><p>нуль</p></td>
 <td><p>Начинается с текущей записи.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адбукмаркфирст</strong></p></td>
+<td><p><strong>адбукмаркфирст</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Начинается с первой записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адбукмаркласт</strong></p></td>
+<td><p><strong>адбукмаркласт</strong></p></td>
 <td><p>2</p></td>
 <td><p>Начинается с последней записи.</p></td>
 </tr>

@@ -22,13 +22,13 @@ ms.locfileid: "32295935"
 
 **Область применения**: Access 2013, Office 2013
 
-Создает новый объект **[QueryDef](querydef-object-dao.md)** .
+Создает новый объект **[QueryDef](querydef-object-dao.md)**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . CreateQueryDef (***имя***, ***склтекст***)
+*expression* .CreateQueryDef(***Name***, ***SQLText***)
 
-*Expression (выражение* ) Переменная, представляющая объект **Connection** .
+*выражение*: переменная, представляющая объект **Connection**.
 
 ## <a name="parameters"></a>Параметры
 
@@ -42,7 +42,7 @@ ms.locfileid: "32295935"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательно/необязательно</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -50,15 +50,15 @@ ms.locfileid: "32295935"
 <tbody>
 <tr class="odd">
 <td><p><em>Name</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (подтип<strong>String</strong> ), уникально названный новому <strong>QueryDef</strong>.</p></td>
+<td><p>Объект типа <strong>Variant</strong> (подтип <strong>String</strong>), однозначно определяющий новый объект <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Склтекст</em></p></td>
+<td><p><em>SQLText</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (подтип<strong>String</strong> ), который представляет собой инструкцию SQL, определяющую объект <strong>QueryDef</strong>. Если опустить этот аргумент, можно определить объект <strong>QueryDef</strong> , задав его свойство <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> перед добавлением в коллекцию или после него.</p></td>
+<td><p>Объект <strong>Variant</strong> (подтип <strong>String</strong>), представляющий инструкцию SQL, которая определяет объект <strong>QueryDef</strong>. Если не указать этот аргумент, вы можете определить объект <strong>QueryDef</strong>, задав его свойство <strong><a href="querydef-sql-property-dao.md">SQL</a></strong> до или после его добавления к коллекции.</p></td>
 </tr>
 </tbody>
 </table>
@@ -68,15 +68,15 @@ ms.locfileid: "32295935"
 
 QueryDef
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Если при создании объекта **QueryDef**в рабочей области Microsoft Access для имени указана любая строка, отличная от нулевой длины, полученный объект **QueryDef** автоматически добавляется в коллекцию **[QueryDef](querydefs-collection-dao.md)** .
+В рабочей области Microsoft Access, если указать в качестве имени какое-либо значение, кроме строки нулевой длины, при создании объекта **QueryDef**, полученный объект **QueryDef** будет автоматически добавлен к коллекции **[QueryDefs](querydefs-collection-dao.md)**.
 
-Если объект, указанный по имени, уже является членом коллекции **QueryDef** , возникает ошибка времени выполнения. Вы можете создать временный объект **QueryDef** , используя строку нулевой длины для аргумента name при выполнении метода **CreateQueryDef** . Это также можно сделать, задав для свойства **[Name](connection-name-property-dao.md)** созданного экземпляра **QueryDef** пустую строку (""). Временные объекты **QueryDef** удобно использовать, если вы хотите многократно использовать динамические инструкции SQL без необходимости создавать новые постоянные объекты в коллекции **QueryDef** . Невозможно добавить временный объект **QueryDef** в коллекцию, так как строка нулевой длины не является допустимым именем для постоянного объекта **QueryDef** . Вы всегда можете задать свойства **Name** и **SQL** нового объекта **QueryDef** , а затем добавить объект **QueryDef** в коллекцию **QueryDef** .
+Если объект, указанный по имени, уже является элементом коллекции **QueryDefs**, возникает ошибка во время выполнения. Вы можете создать временный объект **QueryDef**, указав в качестве имени строку нулевой длины при выполнении метода **CreateQueryDef**. Это также можно сделать, указав строку нулевой длины ("") в качестве значения свойства **[Name](connection-name-property-dao.md)** нового объекта **QueryDef**. Временные объекты **QueryDef** полезны, если требуется регулярно использовать динамические инструкции SQL, не создавая постоянных объектов в коллекции **QueryDefs**. Временный объект **QueryDef** невозможно добавить к какой-либо коллекции, так как строка нулевой длины не является допустимым именем постоянного объекта **QueryDef**. Вы всегда можете задать свойства **Name** и **SQL** нового объекта **QueryDef**, а затем добавить объект **QueryDef** к коллекции **QueryDefs**.
 
-Чтобы выполнить инструкцию SQL в объекте **QueryDef** , используйте метод **[EXECUTE](connection-execute-method-dao.md)** или **[OpenRecordset](connection-openrecordset-method-dao.md)** .
+Чтобы выполнить инструкцию SQL в объекте **QueryDef**, используйте метод **[Execute](connection-execute-method-dao.md)** или **[OpenRecordset](connection-openrecordset-method-dao.md)**.
 
-Использование объекта **QueryDef** является предпочтительным способом выполнения запросов к серверу SQL с помощью баз данных ODBC.
+Использование объекта **QueryDef** является предпочтительным способом выполнения SQL-запросов к серверу с базами данных ODBC.
 
-Чтобы удалить объект **QueryDef** из коллекции **QueryDef** в базе данных ядра СУБД Microsoft Access, используйте метод **[Delete](fields-delete-method-dao.md)** в коллекции.
+Чтобы удалить объект **QueryDef** из коллекции **QueryDefs** в базе данных ядра СУБД Microsoft Access, используйте метод **[Delete](fields-delete-method-dao.md)** для этой коллекции.
 

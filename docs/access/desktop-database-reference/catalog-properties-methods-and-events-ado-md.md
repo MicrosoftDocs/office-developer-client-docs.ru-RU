@@ -24,7 +24,7 @@ ms.locfileid: "32296579"
 - [Коллекция CubeDefs](cubedefs-collection-ado-md.md)
 - [Свойство Name](name-property-ado-md.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 Нет.
 

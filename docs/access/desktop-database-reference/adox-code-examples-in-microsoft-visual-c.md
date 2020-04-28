@@ -23,7 +23,7 @@ ms.locfileid: "32282819"
 > [!NOTE]
 > Вставьте весь пример кода, начиная с начала до конца, в редакторе кода. Этот пример может выполняться неправильно, если используются частичные примеры или потеряно форматирование абзаца.
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Методы Append для коллекций Columns и Tables, пример использования свойства Name (VC++)](columns-and-tables-append-methods-name-property-example-vc.md)
 - [Метод Close подключения, пример свойства Type таблицы (VC++)](connection-close-method-table-type-property-example-vc.md)

@@ -27,7 +27,7 @@ ms.locfileid: "32296558"
 - [Коллекция Users](users-collection-adox.md)
 - [Коллекция Views](views-collection-adox.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод Create](create-method-adox.md)
 - [Метод GetObjectOwner](getobjectowner-method-adox.md)

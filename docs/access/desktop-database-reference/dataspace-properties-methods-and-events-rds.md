@@ -23,7 +23,7 @@ ms.locfileid: "32294437"
 
 - [Свойство InternetTimeout (RDS)](internettimeout-property-rds.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод CreateObject (RDS)](createobject-method-rds.md)
 

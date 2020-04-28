@@ -50,7 +50,7 @@ ms.locfileid: "32281635"
 </table>
 
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 Нет.
 
@@ -58,9 +58,9 @@ ms.locfileid: "32281635"
 
 Нет.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-При наличии объекта **набора строк** OLE DB (провсет) построение объекта ADO **Recordset** (), создание объекта Recordset ADO (Адорс), **** будет иметь следующие три основные операции:
+При наличии объекта **набора строк** OLE DB (провсет) построение объекта ADO **Recordset** (), **Создание объекта Recordset ADO (** адорс), будет иметь следующие три основные операции:
 
 1. Создайте объект ADO **Recordset** :
     
@@ -68,7 +68,7 @@ ms.locfileid: "32281635"
     Recordset20Ptr adoRs;
     adoRs.CreateInstance(__uuidof(Recordset));
    ```
-2. ЗаПросите интерфейс **иадорекордсетконструктион** для объекта **Recordset** :
+2. Запросите интерфейс **иадорекордсетконструктион** для объекта **Recordset** :
 
    ```vb    
     adoRecordsetConstructionPtr adoRsConstruct=NULL;
@@ -76,7 +76,7 @@ ms.locfileid: "32281635"
          (void**)&adoRsConstruct);
    ```
 
-3. ВыЗовите метод Иадорекордсетконструктион::p\_UT Rowset, чтобы задать объект набора строк OLE DB для объекта RECORDSET объекта ADO:
+3. Вызовите метод Иадорекордсетконструктион::p\_UT Rowset, чтобы задать объект набора строк OLE DB для объекта RECORDSET объекта ADO:
 
    ```vb     
     IUnknown *pUnk=NULL;
@@ -87,7 +87,7 @@ ms.locfileid: "32281635"
 
 Вы также можете создать объект ADO **Recordset** из **главы** OLE DB или объекта **RowPosition** .
 
-## <a name="requirements"></a>Требования
+## <a name="requirements"></a>Requirements
 
 - **Версия:** ADO 2,0 и более поздние версии
 

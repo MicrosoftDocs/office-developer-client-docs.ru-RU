@@ -18,5 +18,5 @@ ms.locfileid: "32295102"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Макрокоманда DeleteRecord](deleterecord-macro-action.md)
+- [Макрокоманда "УдалитьЗапись"](deleterecord-macro-action.md)
 

@@ -49,18 +49,18 @@ ms.locfileid: "32288955"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Е_БАДСТРЕАМ</p></td>
+<td><p>E_BADSTREAM</p></td>
 <td><p>Открытый файл имеет недопустимый формат (то есть формат не АДТГ или XML).</p></td>
 </tr>
 <tr class="even">
-<td><p>Е_КАНТПЕРСИСТРОВСЕТ</p></td>
+<td><p>E_CANTPERSISTROWSET</p></td>
 <td><p>Сохраненный объект <strong>Recordset</strong> имеет характеристики, которые не позволяют сохранить его.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Поставщик сохраняемости Microsoft OLE DB не предоставляет динамические свойства.
 

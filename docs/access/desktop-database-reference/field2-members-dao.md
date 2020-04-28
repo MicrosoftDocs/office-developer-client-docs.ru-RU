@@ -45,11 +45,11 @@ ms.locfileid: "32292799"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-getchunk-method-dao.md">GetChunk</a></strong></p></td>
-<td><p>Возвращает полностью или часть содержимого объекта <strong>MEMO</strong> или длинного объекта <strong>BinaryField2</strong> в коллекции Fields объекта <strong><a href="fields-collection-dao.md"></a></strong> <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
+<td><p>Возвращает полностью или часть содержимого объекта <strong>MEMO</strong> или <strong>длинного объекта BinaryField2</strong> в коллекции <strong><a href="fields-collection-dao.md">Fields</a></strong> объекта <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-loadfromfile-method-dao.md">LoadFromFile</a></strong></p></td>
-<td><p>ЗаГружает указанный файл с диска.</p></td>
+<td><p>Загружает указанный файл с диска.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-savetofile-method-dao.md">SaveToFile</a></strong></p></td>
@@ -78,7 +78,7 @@ ms.locfileid: "32292799"
 <td><p>Задает или возвращает значение, которое указывает, является ли строка нулевой длины&quot;&quot;() допустимым параметром для свойства <strong><a href="field-value-property-dao.md">value</a></strong> объекта <strong>field2</strong> с типом данных text или MEMO (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-appendonly-property-dao.md">Аппендонли</a></strong></p></td>
+<td><p><strong><a href="field2-appendonly-property-dao.md">аппендонли</a></strong></p></td>
 <td><p>Получает или задает <strong>логическое</strong> значение, указывающее, задано ли для поля спЦифиед Добавление новых значений к существующему содержимому поля при их добавлении. Для чтения и записи.</p></td>
 </tr>
 <tr class="odd">
@@ -86,7 +86,7 @@ ms.locfileid: "32292799"
 <td><p>Задает или возвращает значение, которое указывает одну или несколько характеристик объекта <strong>field2</strong> . Для чтения и записи, <strong>Long</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-collatingorder-property-dao.md">Коллатингордер</a></strong></p></td>
+<td><p><strong><a href="field2-collatingorder-property-dao.md">коллатингордер</a></strong></p></td>
 <td><p>Возвращает значение, задающее последовательность порядка сортировки в тексте для сравнения строк или сортировки (только для рабочих областей Microsoft Access). Только для чтения, <strong>Long</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -110,7 +110,7 @@ ms.locfileid: "32292799"
 <td><p>Возвращает число байтов, используемых в базе данных (а не в памяти) объекта MEMO или длинного двоичного объекта <strong>field2</strong> в коллекции <strong><a href="fields-collection-dao.md">Fields</a></strong> объекта <strong><a href="recordset-object-dao.md">Recordset</a></strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-foreignname-property-dao.md">Фореигннаме</a></strong></p></td>
+<td><p><strong><a href="field2-foreignname-property-dao.md">фореигннаме</a></strong></p></td>
 <td><p>Задает или возвращает значение, задающее имя объекта <strong>field2</strong> в внешней таблице, которая соответствует полю в главной таблице для отношения (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
@@ -122,8 +122,8 @@ ms.locfileid: "32292799"
 <td><p>Возвращает или задает имя указанного объекта. <strong>Строка</strong> для чтения и записи, если объект не был добавлен в коллекцию. <strong>Строка</strong> , доступная только для чтения, если объект добавлен в коллекцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-ordinalposition-property-dao.md">Ординалпоситион</a></strong></p></td>
-<td><p>Задает или возвращает относительное положение объекта <strong>field2</strong> в коллекции Fields <strong><a href="fields-collection-dao.md"></a></strong> . .</p></td>
+<td><p><strong><a href="field2-ordinalposition-property-dao.md">ординалпоситион</a></strong></p></td>
+<td><p>Задает или возвращает относительное положение объекта <strong>field2</strong> в коллекции <strong><a href="fields-collection-dao.md">Fields</a></strong> . .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-originalvalue-property-dao.md">OriginalValue</a></strong></p></td>
@@ -140,23 +140,23 @@ ms.locfileid: "32292799"
 <td><p>Задает или возвращает значение, которое указывает, требуется ли для объекта <strong>field2</strong> значение, отличное от NULL.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-size-property-dao.md">Size</a></strong></p></td>
+<td><p><strong><a href="field2-size-property-dao.md">Размер</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое указывает максимальный размер объекта <strong>field2</strong> в байтах.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="field2-sourcefield-property-dao.md">Саурцефиелд</a></strong></p></td>
+<td><p><strong><a href="field2-sourcefield-property-dao.md">саурцефиелд</a></strong></p></td>
 <td><p>Возвращает значение, которое указывает имя поля, которое является исходным источником данных для объекта <strong>field2</strong> . Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-sourcetable-property-dao.md">Саурцетабле</a></strong></p></td>
+<td><p><strong><a href="field2-sourcetable-property-dao.md">саурцетабле</a></strong></p></td>
 <td><p>Возвращает значение, которое указывает имя таблицы, которая является исходным источником данных для объекта <strong>field2</strong> . Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-type-property-dao.md">Тип</a></strong></p></td>
-<td><p>Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Чтение и запись <strong>целоГо числа</strong>.</p></td>
+<td><p>Задает или возвращает значение, указывающее операционный тип или тип данных объекта. Для чтения и записи, <strong>Integer</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-validateonset-property-dao.md">Валидатеонсет</a></strong></p></td>
+<td><p><strong><a href="field2-validateonset-property-dao.md">валидатеонсет</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее, является ли значение объекта <strong>field2</strong> немедленно проверенным, когда задано свойство <strong>value</strong> объекта (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -165,14 +165,14 @@ ms.locfileid: "32292799"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="field2-validationtext-property-dao.md">ValidationText</a></strong></p></td>
-<td><p>Задает или возвращает значение, задающее текст сообщения, которое отображается в приложении, если значение объекта <strong>field2</strong> не удовлетворяет правилу проверки, заданному значением свойства <strong>ValidationRule</strong> (только для рабочих областей Microsoft Access ). Для чтения и записи, <strong>String</strong>.</p></td>
+<td><p>Задает или возвращает значение, задающее текст сообщения, которое отображается в приложении, если значение объекта <strong>field2</strong> не соответствует правилу проверки, заданному свойством <strong>ValidationRule</strong> (только для рабочих областей Microsoft Access). Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="field2-value-property-dao.md">Значение</a></strong></p></td>
 <td><p>Задает или возвращает значение объекта. Для чтения и записи, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="field2-visiblevalue-property-dao.md">Висиблевалуе</a></strong></p></td>
+<td><p><strong><a href="field2-visiblevalue-property-dao.md">висиблевалуе</a></strong></p></td>
 <td><p>Одно из значений <strong><a href="workspacetypeenum-enumeration-dao.md">воркспацетипинум</a></strong> .</p>
 <td><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p>
 <p>Возвращает значение, которое в настоящее время находится в базе данных, которое новее свойства <strong>originalValue</strong> , определенного конфликтом пакетного обновления (только для рабочих областей ODBCDirect).</p></td>

@@ -37,7 +37,7 @@ ms.locfileid: "32291798"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="index-createfield-method-dao.md">CreateField</a></strong></p></td>
-<td><p>Создает новый объект <strong><a href="field-object-dao.md">field</a></strong> (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Создает новый объект <strong><a href="field-object-dao.md">Field</a></strong> (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="index-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
@@ -66,7 +66,7 @@ ms.locfileid: "32291798"
 <td><p>Задает или возвращает значение, которое указывает, представляет ли объект <strong>index</strong> кластеризованный индекс для таблицы (только для рабочих областей Microsoft Access). Для чтения и записи, <strong>Boolean</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-distinctcount-property-dao.md">Дистинкткаунт</a></strong></p></td>
+<td><p><strong><a href="index-distinctcount-property-dao.md">дистинкткаунт</a></strong></p></td>
 <td><p>Возвращает значение, которое указывает количество уникальных значений для объекта <strong><a href="index-object-dao.md">index</a></strong> , включенных в связанную таблицу (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
@@ -78,7 +78,7 @@ ms.locfileid: "32291798"
 <td><p>Возвращает значение, которое указывает, представляет ли объект <strong><a href="index-object-dao.md">index</a></strong> внешний ключ в таблице (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-ignorenulls-property-dao.md">Игноренуллс</a></strong></p></td>
+<td><p><strong><a href="index-ignorenulls-property-dao.md">игноренуллс</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое указывает, имеют ли записи индекса значения NULL в полях индекса (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -86,7 +86,7 @@ ms.locfileid: "32291798"
 <td><p>Возвращает или задает имя указанного объекта. <strong>Строка</strong> для чтения и записи, если объект не был добавлен в коллекцию. <strong>Строка</strong> , доступная только для чтения, если объект добавлен в коллекцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="index-primary-property-dao.md">Primary</a></strong></p></td>
+<td><p><strong><a href="index-primary-property-dao.md">Основной</a></strong></p></td>
 <td><p>Задает или возвращает значение, которое указывает, представляет ли объект <strong><a href="index-object-dao.md">индекса</a></strong> первичный индекс ключа для таблицы (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -98,7 +98,7 @@ ms.locfileid: "32291798"
 <td><p>Задает или возвращает значение, которое указывает, требуется ли для объекта <strong><a href="field-object-dao.md">field</a></strong> значение, отличное от NULL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="index-unique-property-dao.md">Уникальные</a></strong></p></td>
+<td><p><strong><a href="index-unique-property-dao.md">Уникальный</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее, представляет ли объект <strong><a href="index-object-dao.md">индекса</a></strong> уникальный (ключ) индекс для таблицы (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 </tbody>

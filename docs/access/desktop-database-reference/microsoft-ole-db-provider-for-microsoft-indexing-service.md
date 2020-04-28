@@ -85,7 +85,7 @@ MSIDXS
 
 В следующих таблицах перечислены возможности, доступные при использовании объекта **Recordset** , открытого с помощью этого поставщика. Доступен только статический тип курсора (**адопенстатик**).
 
-Для получения более подробных сведений о поведении **набора записей** для конфигурации поставщика [](supports-method-ado.md) запустите метод Supports и перечислите коллекцию [свойств](properties-collection-ado.md) объекта **Recordset** , чтобы определить, зависит ли от поставщика динамический имеются свойства.
+Для получения более подробных сведений о поведении **набора записей** для конфигурации поставщика [запустите метод](supports-method-ado.md) Supports и перечислите коллекцию [свойств](properties-collection-ado.md) объекта **Recordset** , чтобы определить, присутствуют ли динамические свойства, зависящие от поставщика.
 
 Доступность стандартных свойств **записей** ADO:
 
@@ -151,7 +151,7 @@ MSIDXS
 </tr>
 <tr class="odd">
 <td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
-<td><p>недоступно</p></td>
+<td><p>недоступен</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
@@ -178,7 +178,7 @@ MSIDXS
 <td><p>только для чтения</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="status-property-ado-recordset.md">Status</a></p></td>
+<td><p><a href="status-property-ado-recordset.md">Состояние</a></p></td>
 <td><p>только для чтения</p></td>
 </tr>
 </tbody>
@@ -196,7 +196,7 @@ MSIDXS
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Метод</p></th>
+<th><p>Method</p></th>
 <th><p>Доступность?</p></th>
 </tr>
 </thead>
@@ -262,7 +262,7 @@ MSIDXS
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="update-method-ado.md">обновление</a>;</p></td>
+<td><p><a href="update-method-ado.md">обновление</a>.</p></td>
 <td><p>Нет</p></td>
 </tr>
 <tr class="odd">

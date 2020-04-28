@@ -44,7 +44,7 @@ ms.locfileid: "32291540"
 <td><p>Удаляет указанный <strong>индекс</strong> из коллекции <strong>индексов</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="indexes-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p><strong><a href="indexes-refresh-method-dao.md">Обновление</a></strong></p></td>
 <td><p>Обновляет объекты в заданном коллетион в соответствии с текущей схемой базы данных.</p></td>
 </tr>
 </tbody>

@@ -19,17 +19,17 @@ ms.locfileid: "32292666"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Чтение и запись **целоГо числа**.
+Задает или возвращает значение, указывающее операционный тип или тип данных объекта. Для чтения и записи, **Integer**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Тип
+*выражение* .Type
 
 *expression* — переменная, представляющая объект **Field2**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Параметр или возвращаемое значение — это константа, указывающая операционный тип данных. Для объекта **field2** это свойство доступно для чтения и записи до тех пор, пока объект не будет добавлен в коллекцию или другой объект, после которого он доступен только для чтения.
+Параметр или возвращаемое значение является константой, указывающей операционный тип или тип данных. Для объекта **field2** это свойство доступно для чтения и записи до тех пор, пока объект не будет добавлен в коллекцию или другой объект, после которого он доступен только для чтения.
 
 В приведенной ниже таблице описаны возможные параметры и возвращаемые значения для объекта **field2** .
 
@@ -47,15 +47,15 @@ ms.locfileid: "32292666"
 <tbody>
 <tr class="odd">
 <td><p><strong>dbBigInt</strong></p></td>
-<td><p>Большое целое число</p></td>
+<td><p>Большое целое</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbBinary</strong></p></td>
-<td><p>Binary</p></td>
+<td><p>Двоичный</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbBoolean</strong></p></td>
-<td><p>Boolean</p></td>
+<td><p>Логический</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbByte</strong></p></td>
@@ -63,7 +63,7 @@ ms.locfileid: "32292666"
 </tr>
 <tr class="odd">
 <td><p><strong>dbChar</strong></p></td>
-<td><p>Char</p></td>
+<td><p>Знак</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbCurrency</strong></p></td>
@@ -71,35 +71,35 @@ ms.locfileid: "32292666"
 </tr>
 <tr class="odd">
 <td><p><strong>dbDate</strong></p></td>
-<td><p>Дата/время</p></td>
+<td><p>Дата и время</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbDecimal</strong></p></td>
-<td><p>Десятичное число</p></td>
+<td><p>Десятичный</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbDouble</strong></p></td>
-<td><p>Двойное с плавающей точкой</p></td>
+<td><p>Двойное</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbFloat</strong></p></td>
-<td><p>Float</p></td>
+<td><p>С плавающей запятой</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbGUID</strong></p></td>
-<td><p>GUID</p></td>
+<td><p>Глобальный уникальный идентификатор (GUID)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbInteger</strong></p></td>
-<td><p>Целое число</p></td>
+<td><p>Целое</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbLong</strong></p></td>
-<td><p>Long</p></td>
+<td><p>Длинное целое</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbLongBinary</strong></p></td>
-<td><p>Большой двоичный файл (объект OLE)</p></td>
+<td><p>Длинное двоичное (объект OLE)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbMemo</strong></p></td>
@@ -107,31 +107,31 @@ ms.locfileid: "32292666"
 </tr>
 <tr class="even">
 <td><p><strong>dbNumeric</strong></p></td>
-<td><p>Numeric</p></td>
+<td><p>Числовой</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbSingle</strong></p></td>
-<td><p>Одинарное с плавающей точкой</p></td>
+<td><p>Одинарное</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbText</strong></p></td>
-<td><p>Text</p></td>
+<td><p>Текст</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbTime</strong></p></td>
-<td><p>Time</p></td>
+<td><p>Время</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbTimeStamp</strong></p></td>
-<td><p>ОтМетка времени</p></td>
+<td><p>Метка времени</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbVarBinary</strong></p></td>
-<td><p>Типа</p></td>
+<td><p>VarBinary</p></td>
 </tr>
 </tbody>
 </table>
 
 
-При добавлении нового объекта **field2**, **параметра**или **Свойства** в коллекцию объекта **index**, **QueryDef**, **Recordset**или **tabledef** возникает ошибка, если базовая база данных не поддерживается. тип данных, указанный для нового объекта.
+При добавлении нового объекта **field2**, **параметра**или **Свойства** в коллекцию объекта **index**, **QueryDef**, **Recordset**или **tabledef** возникает ошибка, если базовая база данных не поддерживает тип данных, указанный для нового объекта.
 

@@ -1,5 +1,5 @@
 ---
-title: Перечисления (справочные материалы по DAO)
+title: Перечисления (справочник по DAO)
 TOCTitle: Enumerations
 ms:assetid: d4d91585-f3cc-4e60-8177-244d7244465e
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125640(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293541"
 ---
-# <a name="enumerations-dao-reference"></a>Перечисления (справочные материалы по DAO)
+# <a name="enumerations-dao-reference"></a>Перечисления (справочник по DAO)
 
 **Область применения**: Access 2013, Office 2013
 

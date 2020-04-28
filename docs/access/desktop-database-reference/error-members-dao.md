@@ -36,15 +36,15 @@ ms.locfileid: "32293520"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="error-description-property-dao.md">Обзор</a></strong></p></td>
+<td><p><strong><a href="error-description-property-dao.md">Описание</a></strong></p></td>
 <td><p>Возвращает строку описания, связанную с ошибкой. Это свойство по умолчанию для объекта <strong>Error</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="error-number-property-dao.md">Number</a></strong></p></td>
+<td><p><strong><a href="error-number-property-dao.md">Номер</a></strong></p></td>
 <td><p>Возвращает числовое значение, определяющее ошибку.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="error-source-property-dao.md">Source</a></strong></p></td>
+<td><p><strong><a href="error-source-property-dao.md">Источник</a></strong></p></td>
 <td><p>Возвращает имя объекта или приложения, которые изначально вызвали ошибку.</p></td>
 </tr>
 </tbody>

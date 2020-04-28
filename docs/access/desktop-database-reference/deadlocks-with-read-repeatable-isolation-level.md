@@ -1,5 +1,5 @@
 ---
-title: ВзаимоБлокировки с уровнем изоляции с повторяемым чтением
+title: Взаимоблокировки с уровнем изоляции с повторяемым чтением
 TOCTitle: Deadlocks with read repeatable isolation level
 ms:assetid: 3d5f3293-33bb-cf6d-362a-278f9ec1bd3c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249165(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294178"
 ---
-# <a name="deadlocks-with-read-repeatable-isolation-level"></a>ВзаимоБлокировки с уровнем изоляции с повторяемым чтением
+# <a name="deadlocks-with-read-repeatable-isolation-level"></a>Взаимоблокировки с уровнем изоляции с повторяемым чтением
 
 
 **Область применения**: Access 2013, Office 2013

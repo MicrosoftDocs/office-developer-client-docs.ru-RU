@@ -37,33 +37,33 @@ ms.locfileid: "32288534"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адпермобжколумн</strong></p></td>
+<td><p><strong>адпермобжколумн</strong></p></td>
 <td><p>2</p></td>
 <td><p>Объект является столбцом.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адпермобждатабасе</strong></p></td>
+<td><p><strong>адпермобждатабасе</strong></p></td>
 <td><p>4</p></td>
 <td><p>Объект представляет собой базу данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адпермобжпроцедуре</strong></p></td>
-<td><p>SP4</p></td>
+<td><p><strong>адпермобжпроцедуре</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Объект является процедурой.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>АдпермобжпровидерспеЦифик</strong></p></td>
+<td><p><strong>адпермобжпровидерспеЦифик</strong></p></td>
 <td><p>–1</p></td>
 <td><p>Объект является типом, определяемым поставщиком. Если параметр <em>ObjectType</em> имеет значение <strong>АдпермобжпровидерспеЦифик</strong> , а <em>обжекттипеид</em> не предоставлено, возникает ошибка.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адпермобжтабле</strong></p></td>
+<td><p><strong>адпермобжтабле</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Объект является таблицей.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адпермобжвиев</strong></p></td>
-<td><p>17:00</p></td>
+<td><p><strong>адпермобжвиев</strong></p></td>
+<td><p>5 </p></td>
 <td><p>Объект является представлением.</p></td>
 </tr>
 </tbody>

@@ -27,7 +27,7 @@ ms.locfileid: "32283298"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Object</th>
+<th>Объект</th>
 <th>Описание</th>
 </tr>
 <tr class="odd">
@@ -63,7 +63,7 @@ ms.locfileid: "32283298"
 <td><p>Содержит набор элементов, каждый из которых имеет одинаковый ранг в иерархии.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="member-object-ado-md.md">Member</a></p></td>
+<td><p><a href="member-object-ado-md.md">Элемент</a></p></td>
 <td><p>Представляет элемент уровня в Кубе, дочерние элементы элемента уровня или элемента положения на оси в наборе ячеек.</p></td>
 </tr>
 <tr class="even">
@@ -86,7 +86,7 @@ ms.locfileid: "32283298"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Object</p></th>
+<th><p>Объект</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>

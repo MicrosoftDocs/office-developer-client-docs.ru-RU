@@ -28,7 +28,7 @@ ms.locfileid: "32294199"
 
 *Expression* . SetOption (***параметр***, ***значение***)
 
-*Expression (выражение* ) Выражение, возвращающее объект **DBEngine** .
+*выражение*: выражение, возвращающее объект **DBEngine**.
 
 ## <a name="parameters"></a>Параметры
 
@@ -42,21 +42,21 @@ ms.locfileid: "32294199"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательно/необязательно</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Вариант</em></p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Константа, описанная в разделе Примечания.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Value</em></p></td>
-<td><p>Обязательный</p></td>
+<td><p>Обязательно</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Значение, которое необходимо присвоить параметру.</p></td>
 </tr>
@@ -64,9 +64,9 @@ ms.locfileid: "32294199"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Каждая константа относится к соответствующему разделу реестра в пути\_к\_локальному компьютеру\\в\\пути\\к программному\\обеспечению\\\\Microsoft\\Office 12,0 Access Engines Engine (то есть **дбшаредасинкделай** соответствует ключевому программному\_обеспечению\\\\для локального\\\_компьютера\\hKey\\механизмы\\подключения к\\Microsoft Office 12,0 Access Engines \\Шаредасинкделай и т. д.).
+Каждая константа относится к соответствующему разделу реестра в каталоге\_hKey\_\\программное\\обеспечение\\Microsoft\\Office\\12,0 access Engine\\Engines Engine\\(то есть **дбшаредасинкделай** соответствует ключевому программному\_\_\\\\\\\\\\12,0\\\\обеспечению для локального компьютера hKey\\шаредасинкделай и т. д.).
 
 <table>
 <colgroup>
@@ -81,47 +81,47 @@ ms.locfileid: "32294199"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Дбпажетимеаут</strong></p></td>
+<td><p><strong>дбпажетимеаут</strong></p></td>
 <td><p>Ключ Пажетимеаут</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбшаредасинкделай</strong></p></td>
+<td><p><strong>дбшаредасинкделай</strong></p></td>
 <td><p>Ключ Шаредасинкделай</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбексклусивеасинкделай</strong></p></td>
+<td><p><strong>дбексклусивеасинкделай</strong></p></td>
 <td><p>Ключ Ексклусивеасинкделай</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дблоккретри</strong></p></td>
+<td><p><strong>дблоккретри</strong></p></td>
 <td><p>Ключ Локкретри</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбусеркоммитсинк</strong></p></td>
+<td><p><strong>дбусеркоммитсинк</strong></p></td>
 <td><p>Ключ Усеркоммитсинк</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>ДбимплиЦиткоммитсинк</strong></p></td>
+<td><p><strong>дбимплиЦиткоммитсинк</strong></p></td>
 <td><p>Ключ ИмплиЦиткоммитсинк</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбмаксбуфферсизе</strong></p></td>
+<td><p><strong>дбмаксбуфферсизе</strong></p></td>
 <td><p>Ключ Максбуфферсизе</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбмакслокксперфиле</strong></p></td>
+<td><p><strong>дбмакслокксперфиле</strong></p></td>
 <td><p>Ключ MaxLocksPerFile</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблоккделай</strong></p></td>
+<td><p><strong>дблоккделай</strong></p></td>
 <td><p>Ключ Локкделай</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбрециклелвс</strong></p></td>
+<td><p><strong>дбрециклелвс</strong></p></td>
 <td><p>Ключ Рециклелвс</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбфлуштрансактионтимеаут</strong></p></td>
+<td><p><strong>дбфлуштрансактионтимеаут</strong></p></td>
 <td><p>Ключ Флуштрансактионтимеаут</p></td>
 </tr>
 </tbody>

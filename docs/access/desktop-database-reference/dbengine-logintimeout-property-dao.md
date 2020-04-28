@@ -29,9 +29,9 @@ ms.locfileid: "32294311"
 
 *Expression* . LoginTimeout
 
-*Expression (выражение* ) Переменная, представляющая объект **DBEngine** .
+*expression*: переменная, представляющая объект **DBEngine**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Значение свойства **LoginTimeOut** по умолчанию — 20 секунд. Если для свойства **LoginTimeOut** задано значение 0, время ожидания не возникает.
 

@@ -37,17 +37,17 @@ ms.locfileid: "32287505"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адпосбоф</strong></p></td>
+<td><p><strong>адпосбоф</strong></p></td>
 <td><p>–2</p></td>
 <td><p>Указывает, что указатель текущей записи находится на BOF (то есть свойство <a href="bof-eof-properties-ado.md">BOF</a> имеет <strong>значение true</strong>).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адпосеоф</strong></p></td>
+<td><p><strong>адпосеоф</strong></p></td>
 <td><p>–3</p></td>
 <td><p>Указывает, что указатель текущей записи находится на EOF (свойство <a href="bof-eof-properties-ado.md">EOF</a> имеет <strong>значение true</strong>).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адпосункновн</strong></p></td>
+<td><p><strong>адпосункновн</strong></p></td>
 <td><p>–1</p></td>
 <td><p>Указывает, что <strong>набор записей</strong> пуст, текущая позиция неизвестна или поставщик не поддерживает свойство <a href="absolutepage-property-ado.md">AbsolutePage</a> или <a href="absoluteposition-property-ado.md">AbsolutePosition</a> .</p></td>
 </tr>

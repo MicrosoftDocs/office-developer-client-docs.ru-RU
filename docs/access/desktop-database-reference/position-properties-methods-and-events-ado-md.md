@@ -23,7 +23,7 @@ ms.locfileid: "32287554"
 - [Коллекция Members](members-collection-ado-md.md)
 - [Свойство Ordinal (Position)](ordinal-property-ado-md-position.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 Нет.
 

@@ -37,7 +37,7 @@ ms.locfileid: "32270128"
 <td><p>Содержит все объекты <strong>Column</strong> таблицы, индекса или ключа.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="groups-collection-adox.md">Groups</a></p></td>
+<td><p><a href="groups-collection-adox.md">Группы</a></p></td>
 <td><p>Содержит все объекты <strong>группы</strong> , хранящиеся в каталоге или пользователе.</p></td>
 </tr>
 <tr class="odd">
@@ -49,7 +49,7 @@ ms.locfileid: "32270128"
 <td><p>Содержит все <strong>Ключевые</strong> объекты таблицы.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="procedures-collection-adox.md">Procedures</a></p></td>
+<td><p><a href="procedures-collection-adox.md">Процедуры</a></p></td>
 <td><p>Содержит все объекты <strong>процедур</strong> каталога.</p></td>
 </tr>
 <tr class="even">

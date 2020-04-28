@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. LockEdits (DAO)
+title: Свойство Recordset.LockEdits (DAO)
 TOCTitle: LockEdits Property
 ms:assetid: baa11b24-a330-eaa4-bd03-b8b9739d209e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822514(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300464"
 ---
-# <a name="recordsetlockedits-property-dao"></a>Свойство Recordset. LockEdits (DAO)
+# <a name="recordsetlockedits-property-dao"></a>Свойство Recordset.LockEdits (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -47,7 +47,7 @@ ms.locfileid: "32300464"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>True</p></td>
+<td><p>Верно.</p></td>
 <td><p>Значение, используемое по умолчанию. Применяется Пессимистическая блокировка. Страница, содержащая редактируемую запись, блокируется сразу после вызова метода Edit.</p></td>
 </tr>
 <tr class="even">

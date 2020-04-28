@@ -71,11 +71,11 @@ ms.locfileid: "32283291"
 <td><p>Показывает сведения о фильтре для текущего поднабора ячеек.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="item-property-ado-md-cellset.md">Item</a></p></td>
+<td><p><a href="item-property-ado-md-cellset.md">Элемент</a></p></td>
 <td><p>Извлекает ячейку из элемента Cell с помощью ее координат.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="item-property-ado.md">Item</a></p></td>
+<td><p><a href="item-property-ado.md">Элемент</a></p></td>
 <td><p>Возвращает определенный элемент коллекции по имени или порядковому номеру.</p></td>
 </tr>
 <tr class="odd">
@@ -91,7 +91,7 @@ ms.locfileid: "32283291"
 <td><p>Указывает имя уровня элемента.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado-md.md">Name</a></p></td>
+<td><p><a href="name-property-ado-md.md">имя</a></p></td>
 <td><p>Указывает имя объекта.</p></td>
 </tr>
 <tr class="odd">
@@ -119,7 +119,7 @@ ms.locfileid: "32283291"
 <td><p>Указывает текущее состояние набора ячеек.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="type-property-ado-md.md">Type</a></p></td>
+<td><p><a href="type-property-ado-md.md">Тип</a></p></td>
 <td><p>Указывает тип текущего элемента.</p></td>
 </tr>
 <tr class="even">

@@ -35,28 +35,28 @@ ms.locfileid: "32291281"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Идс_иис_акцессдениед</strong></p></td>
+<td><p><strong>IDS_IIS_AccessDenied</strong></p></td>
 <td><p>8208<br />
 — 2146820080<br />
 0x800A2010</p></td>
 <td><p>Ошибка сервера Интернета: доступ запрещен.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Идс_иис_обжектнотфаунд</strong></p></td>
+<td><p><strong>IDS_IIS_ObjectNotFound</strong></p></td>
 <td><p>8209<br />
 — 2146820079<br />
 0x800A2011</p></td>
 <td><p>Ошибка Интернет-сервера: объект или модуль не найден.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Идс_иис_рекуестфорбидден</strong></p></td>
+<td><p><strong>IDS_IIS_RequestForbidden</strong></p></td>
 <td><p>8210<br />
 — 2146820078<br />
 0x800A2012</p></td>
 <td><p>Ошибка сервера Интернета: запрос запрещен.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Идс_иис_унекспектедеррор</strong></p></td>
+<td><p><strong>IDS_IIS_UnexpectedError</strong></p></td>
 <td><p>8447<br />
 — 2146819841<br />
 0x800A20FF</p></td>

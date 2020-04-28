@@ -21,7 +21,7 @@ ms.locfileid: "32296208"
 
 Содержит все объекты [Column](column-object-adox.md) таблицы, индекса или ключа.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод [append](append-method-adox-columns.md) для коллекции **Columns** уникален для ADOX. Вы можете выполнить указанные ниже действия.
 
@@ -39,6 +39,6 @@ ms.locfileid: "32296208"
 
 
 > [!NOTE]
-> При добавлении **столбца** в коллекцию **Columns** [индекса](index-object-adox.md) , если он не существует в [таблице](table-object-adox.md) , которая уже **** добавлена в коллекцию [Tables](tables-collection-adox.md) , произойдет ошибка.
+> При добавлении **столбца** в коллекцию **Columns** [индекса](index-object-adox.md) , **если он не** существует в [таблице](table-object-adox.md) , которая уже добавлена в коллекцию [Tables](tables-collection-adox.md) , произойдет ошибка.
 
 

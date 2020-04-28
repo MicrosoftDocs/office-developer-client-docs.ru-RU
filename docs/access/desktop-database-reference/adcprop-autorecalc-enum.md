@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280524"
 ---
-# <a name="adcpropautorecalcenum"></a>Перечисление АДКПРОП\_ауторекалк\_
+# <a name="adcprop_autorecalc_enum"></a>Перечисление АДКПРОП\_ауторекалк\_
 
 **Область применения**: Access 2013, Office 2013
 
 Указывает, когда поставщик [мсдаташапе](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) выполняет повторное вычисление статистических и вычисляемых столбцов в иерархическом наборе записей.
 
-Эти константы используются только с поставщиком **мсдаташапе** и динамическим свойством **Recordset** "**Auto пересчет**", на который ссылается [индекс динамического свойства ADO](ado-dynamic-property-index.md) и задокументированы в [службе курсора Майкрософт для OLE ](microsoft-cursor-service-for-ole-db-ado-service-component.md)Документация по базе [данных или службе формирования данных Майкрософт для OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) .
+Эти константы используются только с поставщиком **мсдаташапе** и динамическим свойством **Recordset** "**Auto recalc**", на который ссылается [индекс динамического свойства ADO](ado-dynamic-property-index.md) и задокументированы в [службе курсора Microsoft Cursor для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) или Microsoft Cursor [Data Service for OLE DB](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) .
 
 <br/>
 
@@ -39,12 +39,12 @@ ms.locfileid: "32280524"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адрекалкалвайс</strong></p></td>
+<td><p><strong>адрекалкалвайс</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Значение, используемое по умолчанию. Пересчитывается всякий раз, когда поставщик <strong>мсдаташапе</strong> определяет значения, от которых зависит изменение вычисляемых столбцов.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адрекалкупфронт</strong></p></td>
+<td><p><strong>адрекалкупфронт</strong></p></td>
 <td><p>нуль</p></td>
 <td><p>Вычисляется только при первоначальном построении иерархического <strong>набора записей</strong>.</p></td>
 </tr>

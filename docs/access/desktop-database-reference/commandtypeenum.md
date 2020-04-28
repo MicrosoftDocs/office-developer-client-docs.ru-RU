@@ -37,39 +37,39 @@ ms.locfileid: "32296117"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>АдкмдунспеЦифиед</strong></p></td>
+<td><p><strong>адкмдунспеЦифиед</strong></p></td>
 <td><p>–1</p></td>
 <td><p>Не указывает аргумент типа команды.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адкмдтекст</strong></p></td>
+<td><p><strong>адкмдтекст</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Вычисляет значение <a href="commandtext-property-ado.md">CommandText</a> в качестве текстового определения команды или вызова хранимой процедуры.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адкмдтабле</strong></p></td>
+<td><p><strong>адкмдтабле</strong></p></td>
 <td><p>2</p></td>
 <td><p>Оценивает свойство <strong>CommandText</strong> как имя таблицы, столбцы которой возвращаются внутренним запросом SQL.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адкмдсторедпрок</strong></p></td>
-<td><p>SP4</p></td>
+<td><p><strong>адкмдсторедпрок</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Вычисляет значение <strong>CommandText</strong> в качестве имени хранимой процедуры.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адкмдункновн</strong></p></td>
-<td><p>8,5</p></td>
+<td><p><strong>адкмдункновн</strong></p></td>
+<td><p>8 </p></td>
 <td><p>Значение, используемое по умолчанию. Указывает, что тип команды в свойстве <strong>CommandText</strong> неизвестен.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адкмдфиле</strong></p></td>
+<td><p><strong>адкмдфиле</strong></p></td>
 <td><p>256</p></td>
-<td><p>Вычисляет значение <strong>CommandText</strong> в качестве имени файла сохраняемого сохраняемого <a href="recordset-object-ado.md">набора записей</a>. Используется с <strong>Recordset.</strong> Только для <a href="open-method-ado-recordset.md">открытия</a> или повторного <a href="requery-method-ado.md">запроса</a> .</p></td>
+<td><p>Вычисляет значение <strong>CommandText</strong> в качестве имени файла сохраняемого сохраняемого <a href="recordset-object-ado.md">набора записей</a>. Используется с <strong>Recordset.</strong> Только для <a href="open-method-ado-recordset.md">открытия или повторного</a> <a href="requery-method-ado.md">запроса</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адкмдтабледирект</strong></p></td>
+<td><p><strong>адкмдтабледирект</strong></p></td>
 <td><p>512</p></td>
-<td><p>Оценивает свойство <strong>CommandText</strong> как имя таблицы, в которой возвращаются все столбцы. Используется с параметром <strong>Recordset. Open</strong> или Requery only. <strong></strong> Чтобы использовать метод <a href="seek-method-ado.md">Seek</a> , необходимо открыть объект <strong>Recordset</strong> с помощью <strong>адкмдтабледирект</strong>. Это значение не может сочетаться со <a href="executeoptionenum.md"></a> значением ексекутеоптионенум <strong>адасинцексекуте</strong>.</p></td>
+<td><p>Оценивает свойство <strong>CommandText</strong> как имя таблицы, в которой возвращаются все столбцы. Используется с параметром <strong>Recordset. Open</strong> или <strong>Requery</strong> only. Чтобы использовать метод <a href="seek-method-ado.md">Seek</a> , необходимо открыть объект <strong>Recordset</strong> с помощью <strong>адкмдтабледирект</strong>. Это значение не может сочетаться со <a href="executeoptionenum.md">ExecuteOptionEnum</a> значением ексекутеоптионенум <strong>адасинцексекуте</strong>.</p></td>
 </tr>
 </tbody>
 </table>
@@ -90,7 +90,7 @@ ms.locfileid: "32296117"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. CommandType. unSPECIFIEDо</p></td>
+<td><p>Адоенумс. CommandType. unspecifiedо</p></td>
 </tr>
 <tr class="even">
 <td><p>Адоенумс. CommandType. TEXT</p></td>

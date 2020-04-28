@@ -35,7 +35,7 @@ ms.locfileid: "32295844"
 - [Свойство Version](version-property-ado.md)
 
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Методы BeginTrans, CommitTrans и RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 - [Метод Cancel](cancel-method-ado.md)

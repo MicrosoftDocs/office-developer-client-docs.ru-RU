@@ -37,23 +37,23 @@ ms.locfileid: "32297202"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адаффекталл</strong></p></td>
+<td><p><strong>адаффекталл</strong></p></td>
 <td><p>4</p></td>
 <td><p>Если к <strong>набору записей</strong>не применен <a href="filter-property-ado.md">Фильтр</a> , затрагивают все записи. Если для свойства <strong>Filter</strong> задано строковое условие (например, &quot;Author = ' Smith '&quot;), операция влияет на видимые записи в текущей главе. Если свойству <strong>Filter</strong> присвоено значение Member объекта <a href="filtergroupenum.md">Филтерграупенум</a> или массива закладок, операция повлияет на все строки <strong>набора записей</strong>.</p><p><strong>Note</strong>: адаффекталл скрыт в обозревателе объектов Visual Basic.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p><strong>Адаффекталлчаптерс</strong></p></td>
-<td><p>SP4</p></td>
+<td><p><strong>адаффекталлчаптерс</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Влияет на все записи во всех соседних главах <strong>набора записей</strong>, включая те, которые не видны с помощью <strong>фильтра</strong> , который применяется в данный момент.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адаффекткуррент</strong></p></td>
+<td><p><strong>адаффекткуррент</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Влияет только на текущую запись.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адаффектграуп</strong></p></td>
+<td><p><strong>адаффектграуп</strong></p></td>
 <td><p>2</p></td>
 <td><p>Влияет только на записи, которые соответствуют текущему значению свойства <a href="filter-property-ado.md">Filter</a> . Для использования этого параметра необходимо задать для свойства <strong>Filter</strong> значение <strong>Филтерграупенум</strong> или массив <strong>закладок</strong> .</p></td>
 </tr>

@@ -21,7 +21,7 @@ ms.locfileid: "32296901"
 
 Представляет положение или ось фильтра для набора ячеек, содержащего выбранные элементы одного или нескольких измерений.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект **Axis** может содержаться в коллекции [осей](axes-collection-ado-md.md) или возвращен свойством [FilterAxis](filteraxis-property-ado-md.md) набора [ячеек](cellset-object-ado-md.md).
 

@@ -37,27 +37,27 @@ ms.locfileid: "32296068"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адкомпарикуал</strong></p></td>
+<td><p><strong>адкомпарикуал</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Указывает, что закладки совпадают.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адкомпарегреатерсан</strong></p></td>
+<td><p><strong>адкомпарегреатерсан</strong></p></td>
 <td><p>2</p></td>
 <td><p>Указывает, что первая закладка находится после секунды.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адкомпарелесссан</strong></p></td>
+<td><p><strong>адкомпарелесссан</strong></p></td>
 <td><p>нуль</p></td>
 <td><p>Указывает, что первая закладка предшествует второй.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адкомпареноткомпарабле</strong></p></td>
-<td><p>SP4</p></td>
+<td><p><strong>адкомпареноткомпарабле</strong></p></td>
+<td><p>4 </p></td>
 <td><p>Указывает, что закладки невозможно сравнить.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адкомпаренотекуал</strong></p></td>
+<td><p><strong>адкомпаренотекуал</strong></p></td>
 <td><p>4</p></td>
 <td><p>Указывает, что закладки не равны и не упорядочены.</p></td>
 </tr>

@@ -32,7 +32,7 @@ ms.locfileid: "32283333"
 </tr>
 <tr class="odd">
 <td><p><a href="close-method-ado-md.md">Закрыть</a></p></td>
-<td><p>ЗаКрывает открытый набор ячеек.</p></td>
+<td><p>Закрывает открытый набор ячеек.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="open-method-ado-md.md">Open</a></p></td>

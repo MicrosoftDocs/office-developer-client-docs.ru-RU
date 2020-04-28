@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. CacheSize (DAO)
+title: Свойство Recordset.CacheSize (DAO)
 TOCTitle: CacheSize Property
 ms:assetid: 8632f5fb-6e5d-5a3e-1bd7-81e1270e9531
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196807(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300597"
 ---
-# <a name="recordsetcachesize-property-dao"></a>Свойство Recordset. CacheSize (DAO)
+# <a name="recordsetcachesize-property-dao"></a>Свойство Recordset.CacheSize (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

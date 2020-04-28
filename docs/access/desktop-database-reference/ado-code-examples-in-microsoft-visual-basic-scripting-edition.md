@@ -23,12 +23,12 @@ ms.locfileid: "32281841"
 > [!NOTE]
 > Вставьте весь пример кода, начиная с начала до конца, в редакторе кода. Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Пример метода AddNew](addnew-method-example-vbscript.md)
 - [Пример метода Clone](clone-method-example-vbscript.md)
 - [Пример метода Delete](delete-method-example-vbscript.md)
-- [Пример методов Execute, reQuery и Clear](execute-requery-and-clear-methods-example-vbscript.md)
+- [Пример методов Execute, Requery и Clear](execute-requery-and-clear-methods-example-vbscript.md)
 - [Пример использования метода Move](move-method-example-vbscript.md)
 - [Пример методов MoveFirst, MoveLast, MoveNext и MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
 - [Пример методов Open и Close](open-and-close-methods-example-vbscript.md)

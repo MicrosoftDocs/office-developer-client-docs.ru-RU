@@ -20,5 +20,5 @@ ms.locfileid: "32293086"
 
 - [Метод Field. AppendChunk (DAO)](field-appendchunk-method-dao.md)
 - [Метод Field. CreateProperty (DAO)](field-createproperty-method-dao.md)
-- [Метод Field. выБлоч (DAO)](field-getchunk-method-dao.md)
+- [Метод Field. выблоч (DAO)](field-getchunk-method-dao.md)
 

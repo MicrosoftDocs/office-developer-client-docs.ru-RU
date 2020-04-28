@@ -31,7 +31,7 @@ ms.locfileid: "32283263"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Object</th>
+<th>Объект</th>
 <th>Описание</th>
 </tr>
 <tr class="odd">
@@ -43,7 +43,7 @@ ms.locfileid: "32283263"
 <td><p>Создает объект <strong>набора записей</strong> ADO из объекта <strong>набора строк</strong> OLE DB в приложении C/C++.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="error-object-ado.md">Command</a></p></td>
+<td><p><a href="error-object-ado.md">Команда</a></p></td>
 <td><p>Определяет определенную команду, которую необходимо выполнить для источника данных.</p></td>
 </tr>
 <tr class="even">
@@ -51,7 +51,7 @@ ms.locfileid: "32283263"
 <td><p>Представляет открытое подключение к источнику данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="error-object-ado.md">Error</a></p></td>
+<td><p><a href="error-object-ado.md">Ошибка</a></p></td>
 <td><p>Содержит сведения об ошибках доступа к данным, относящихся к одной операции, включающей в себя поставщика.</p></td>
 </tr>
 <tr class="even">
@@ -59,11 +59,11 @@ ms.locfileid: "32283263"
 <td><p>Представляет столбец данных с общим типом данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="parameter-object-ado.md">Parameter</a></p></td>
+<td><p><a href="parameter-object-ado.md">Параметр</a></p></td>
 <td><p>Представляет параметр или аргумент, связанный с объектом <strong>Command</strong> на основе параметризованного запроса или хранимой процедуры.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="property-object-ado.md">Property</a></p></td>
+<td><p><a href="property-object-ado.md">Свойство</a></p></td>
 <td><p>Представляет динамическую характеристику объекта ADO, определяемого поставщиком.</p></td>
 </tr>
 <tr class="odd">

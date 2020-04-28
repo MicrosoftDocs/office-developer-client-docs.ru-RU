@@ -41,15 +41,15 @@ ms.locfileid: "32295907"
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-close-method-dao.md">Close</a></strong></p></td>
-<td><p>ЗаКрывает открытое <strong>Подключение</strong>.</p></td>
+<td><p>Закрывает открытое <strong>Подключение</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-createquerydef-method-dao.md">CreateQueryDef</a></strong></p></td>
-<td><p>Создает новый объект <strong><a href="querydef-object-dao.md">QueryDef</a></strong> .</p></td>
+<td><p>Создает новый объект <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="connection-execute-method-dao.md">Execute</a></strong></p></td>
-<td><p>Выполняет запрос на изменение или выполняет инструкцию SQL для указанного объекта.</p></td>
+<td><p>Выполняет запрос на изменение или запускает инструкцию SQL для указанного объекта.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="connection-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
@@ -78,7 +78,7 @@ ms.locfileid: "32295907"
 <td><p>Задает или возвращает значение, предоставляющее сведения об источнике открытого подключения. Для чтения и записи, <strong>String</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-database-property-dao.md">Базу</a></strong></p></td>
+<td><p><strong><a href="connection-database-property-dao.md">Database</a></strong></p></td>
 <td><p>Возвращает объект <strong><a href="database-object-dao.md">базы данных</a></strong> , соответствующий этому подключению (только для рабочих областей ODBCDirect).</p></td>
 </tr>
 <tr class="odd">
@@ -94,7 +94,7 @@ ms.locfileid: "32295907"
 <td><p>Задает или возвращает значение, задающее время ожидания в секундах до возникновения ошибки времени ожидания при выполнении запроса к источнику данных ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="connection-recordsaffected-property-dao.md">Рекордсаффектед</a></strong></p></td>
+<td><p><strong><a href="connection-recordsaffected-property-dao.md">рекордсаффектед</a></strong></p></td>
 <td><p>Возвращает число записей, затронутых последним вызванным методом <strong><a href="connection-execute-method-dao.md">EXECUTE</a></strong> .</p></td>
 </tr>
 <tr class="odd">

@@ -30,7 +30,7 @@ ms.locfileid: "32291715"
 - [Свойство Unique](unique-property-adox.md)
 
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 Нет.
 

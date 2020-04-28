@@ -26,7 +26,7 @@ ms.locfileid: "32295123"
 
 Вы можете настроить параметры в реестре Windows четырьмя различными способами:
 
-- [Замена параметров по умолчанию с помощью reGedit. exe](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
+- [Замена параметров по умолчанию с помощью Regedit. exe](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-regedit-exe-to-overwrite-the-default-settings)
 - [Создание части в дереве реестра приложения для управления параметрами](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/creating-a-portion-in-your-application-s-registry-tree-to-manage-the-settings)
 - [Использование метода SetOption из DAO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-setoption-method-from-dao)
 - [Использование свойств подключения поставщика Microsoft OLE DB для Access](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/using-the-connection-properties-in-the-microsoft-ole-db-provider-for-access)

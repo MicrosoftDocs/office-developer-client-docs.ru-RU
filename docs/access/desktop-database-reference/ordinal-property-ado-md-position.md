@@ -25,9 +25,9 @@ ms.locfileid: "32288192"
 
 Возвращает целое значение **типа Long** и доступно только для чтения.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-**ПорядкОвый номер** объекта [position](position-object-ado-md.md) соответствует индексу **позиции** в коллекции [Positions](positions-collection-ado-md.md) .
+**Порядковый номер** объекта [position](position-object-ado-md.md) соответствует индексу **позиции** в коллекции [Positions](positions-collection-ado-md.md) .
 
-Ячейка может быстро извлекаться с помощью **порядкОвого номера** **позиции** на каждой оси со свойством [Item](item-property-ado-md-cellset.md) объекта набора [ячеек](cellset-object-ado-md.md) .
+Ячейка может быстро извлекаться с помощью **порядкового номера** **позиции** на каждой оси со свойством [Item](item-property-ado-md-cellset.md) объекта набора [ячеек](cellset-object-ado-md.md) .
 

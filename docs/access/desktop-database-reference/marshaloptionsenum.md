@@ -37,12 +37,12 @@ ms.locfileid: "32289730"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адмаршалалл</strong></p></td>
+<td><p><strong>адмаршалалл</strong></p></td>
 <td><p>нуль</p></td>
 <td><p>Значение, используемое по умолчанию. Возвращает все строки на сервер.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адмаршалмодифиедонли</strong></p></td>
+<td><p><strong>адмаршалмодифиедонли</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Возвращает на сервер только измененные строки.</p></td>
 </tr>

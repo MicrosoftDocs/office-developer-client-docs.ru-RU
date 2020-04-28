@@ -50,7 +50,7 @@ ms.locfileid: "32281717"
 </tr>
 <tr class="even">
 <td><p><a href="resync-command-property-dynamic-ado.md">Команда Resync</a></p></td>
-<td><p>Задает пользовательскую строку команды, которая выдает <strong></strong> метод Resync для обновления данных в таблице, имя которой указано в динамическом свойстве <strong>таблицы Unique</strong> .</p></td>
+<td><p>Задает пользовательскую строку команды, которая выдает метод <strong>Resync</strong> для обновления данных в таблице, имя которой указано в динамическом свойстве <strong>таблицы Unique</strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="unique-table-unique-schema-unique-catalog-properties-dynamic-ado.md">Уникальная таблица, уникальная схема, уникальный каталог</a></p></td>

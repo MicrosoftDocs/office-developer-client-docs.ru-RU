@@ -1,5 +1,5 @@
 ---
-title: Свойство Field. пустые (DAO)
+title: Свойство Field.AllowZeroLength (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: 5103a905-9258-e088-0210-857372f41c3c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193832(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293163"
 ---
-# <a name="fieldallowzerolength-property-dao"></a>Свойство Field. пустые (DAO)
+# <a name="fieldallowzerolength-property-dao"></a>Свойство Field.AllowZeroLength (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -30,11 +30,11 @@ ms.locfileid: "32293163"
 
 *выражение*: переменная, представляющая объект **Field**.
 
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Для объекта, который еще не добавлен в коллекцию **Fields** , это свойство доступно для чтения и записи.
 
-После добавления в коллекцию **Fields** доступность свойства **AllowZeroLength** зависит от объекта, содержащего коллекцию Fields, как показано в **** следующей таблице.
+После добавления в коллекцию **Fields** доступность свойства **AllowZeroLength** зависит от объекта, содержащего коллекцию **Fields** , как показано в следующей таблице.
 
 <table>
 <colgroup>

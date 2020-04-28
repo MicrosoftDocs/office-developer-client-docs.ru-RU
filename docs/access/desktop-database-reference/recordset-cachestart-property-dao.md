@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. CacheStart (DAO)
+title: Свойство Recordset.CacheStart (DAO)
 TOCTitle: CacheStart Property
 ms:assetid: 03814312-660a-d8e9-8a7b-bc14d66e05ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844802(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300618"
 ---
-# <a name="recordsetcachestart-property-dao"></a>Свойство Recordset. CacheStart (DAO)
+# <a name="recordsetcachestart-property-dao"></a>Свойство Recordset.CacheStart (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

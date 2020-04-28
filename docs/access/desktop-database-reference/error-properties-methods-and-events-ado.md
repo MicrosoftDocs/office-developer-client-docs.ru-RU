@@ -27,7 +27,7 @@ ms.locfileid: "32293457"
 - [Свойство Source (Error в ADO)](source-property-ado-error.md)
 - [Свойство SQLState](sqlstate-property-ado.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 Нет.
 

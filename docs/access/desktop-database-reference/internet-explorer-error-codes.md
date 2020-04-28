@@ -35,45 +35,45 @@ ms.locfileid: "32291288"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Идс_вининет_кантконнект</strong></p></td>
+<td><p><strong>IDS_WinInet_CantConnect</strong></p></td>
 <td><p>8195<br />
 — 2146820093<br />
 0x800A2003</p></td>
 <td><p>Ошибка клиента Интернета: не удается подключиться к серверу.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Идс_вининет_<br />
-Коннектионресет</strong></p></td>
+<td><p><strong>IDS_WinInet_<br />
+коннектионресет</strong></p></td>
 <td><p>12031<br />
 — 2146816257<br />
 0x800A2EFF</p></td>
 <td><p>Ошибка клиента Интернета: сброс подключения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Идс_вининет_еррор</strong></p></td>
+<td><p><strong>IDS_WinInet_Error</strong></p></td>
 <td><p>8193<br />
 — 2146820095<br />
 0x800A2001</p></td>
 <td><p>Ошибка клиента Интернета.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Идс_вининет_<br />
-Инвалидсерверреспонсе</strong></p></td>
+<td><p><strong>IDS_WinInet_<br />
+инвалидсерверреспонсе</strong></p></td>
 <td><p>8430<br />
 — 2146819858<br />
 0x800A20EE</p></td>
-<td><p>Ошибка клиента Интернета: неДопустимый ответ сервера.</p></td>
+<td><p>Ошибка клиента Интернета: недопустимый ответ сервера.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Идс_вининет_<br />
-Сслпостлимитатион</strong></p></td>
+<td><p><strong>IDS_WinInet_<br />
+сслпостлимитатион</strong></p></td>
 <td><p>8196<br />
 — 2146820092<br />
 0x800A2004</p></td>
 <td><p>Ошибка клиента Интернета: Ошибка SSL (возможно, ограничение на передачу данных, возможно, 32).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Идс_вининет_тимеаут</strong></p></td>
+<td><p><strong>IDS_WinInet_Timeout</strong></p></td>
 <td><p>8194<br />
 — 2146820094<br />
 0x800A2002</p></td>

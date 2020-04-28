@@ -22,7 +22,7 @@ ms.locfileid: "32283242"
 
 Руководство программиста по ADO содержит следующие разделы и главы:
 
-- [Introduction](introduction-to-ado-programming.md)
+- [Введение](introduction-to-ado-programming.md)
   
 - [Раздел I: ActiveX Data Objects (ADO)](section-i-activex-data-objects.md)
     

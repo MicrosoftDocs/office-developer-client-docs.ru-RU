@@ -18,14 +18,14 @@ ms.locfileid: "32295116"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Макрокоманда CancelRecordChange](cancelrecordchange-macro-action.md)
-- [Макрокоманда ClearMacroError](clearmacroerror-macro-action.md)
-- [Макрокоманда ExitForEachRecord](exitforeachrecord-macro-action.md)
-- [Макрокоманда LogEvent](logevent-macro-action.md)
-- [Макрокоманда OnError](onerror-macro-action.md)
-- [Макрокоманда RaiseError](raiseerror-macro-action.md)
-- [Макрокоманда SendEmail](sendemail-macro-action.md)
-- [Макрокоманда SetField](setfield-macro-action.md)
-- [Макрокоманда SetLocalVar](setlocalvar-macro-action.md)
+- [Макрокоманда "ОтменитьИзменениеЗаписи"](cancelrecordchange-macro-action.md)
+- [Макрокоманда "УстранитьОшибкуМакроса"](clearmacroerror-macro-action.md)
+- [Макрокоманда "ВыходДляКаждойЗаписи"](exitforeachrecord-macro-action.md)
+- [Макрокоманда "РегистрацияСобытия"](logevent-macro-action.md)
+- [Макрокоманда "ПриОшибке"](onerror-macro-action.md)
+- [Макрокоманда "ВыводОшибки"](raiseerror-macro-action.md)
+- [Макрокоманда "ОтправитьПочту"](sendemail-macro-action.md)
+- [Макрокоманда "ЗадатьПоле"](setfield-macro-action.md)
+- [Макрокоманда "ЗадатьЛокПеременную"](setlocalvar-macro-action.md)
 - [Макрокоманда SetReturnVar](setreturnvar-macro-action.md)
 

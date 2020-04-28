@@ -36,7 +36,7 @@ ms.locfileid: "32295767"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p><strong><a href="connections-refresh-method-dao.md">Обновление</a></strong></p></td>
 <td><p>Не поддерживается для коллекции <strong><a href="connections-collection-dao.md">Connections</a></strong> .</p></td>
 </tr>
 </tbody>
@@ -59,7 +59,7 @@ ms.locfileid: "32295767"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="connections-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает количество объектов <strong><a href="connection-object-dao.md">Connection</a></strong> в коллекции Connections <strong><a href="connections-collection-dao.md"></a></strong> .</p></td>
+<td><p>Возвращает количество объектов <strong><a href="connection-object-dao.md">Connection</a></strong> в коллекции <strong><a href="connections-collection-dao.md">Connections</a></strong> .</p></td>
 </tr>
 </tbody>
 </table>

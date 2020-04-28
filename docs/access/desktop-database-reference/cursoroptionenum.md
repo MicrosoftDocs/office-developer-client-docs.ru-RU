@@ -37,67 +37,67 @@ ms.locfileid: "32295200"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Ададднев</strong></p></td>
+<td><p><strong>ададднев</strong></p></td>
 <td><p>0x1000400</p></td>
 <td><p>Поддерживает метод <a href="addnew-method-ado.md">AddNew</a> для добавления новых записей.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адаппрокспоситион</strong></p></td>
+<td><p><strong>адаппрокспоситион</strong></p></td>
 <td><p>0x4000</p></td>
 <td><p>Поддерживает свойства <a href="absoluteposition-property-ado.md">AbsolutePosition</a> и <a href="absolutepage-property-ado.md">AbsolutePage</a> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адбукмарк</strong></p></td>
+<td><p><strong>адбукмарк</strong></p></td>
 <td><p>0x2000</p></td>
 <td><p>Поддерживает свойство <a href="bookmark-property-ado.md">Bookmark</a> для получения доступа к определенным записям.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адделете</strong></p></td>
+<td><p><strong>адделете</strong></p></td>
 <td><p>0x1000800</p></td>
 <td><p>Поддерживает метод <a href="delete-method-ado-recordset.md">Delete</a> для удаления записей.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адфинд</strong></p></td>
+<td><p><strong>адфинд</strong></p></td>
 <td><p>0x80000</p></td>
-<td><p>Поддерживает метод <a href="find-method-ado.md">Find</a> , чтобы найти строку в наборе <a href="recordset-object-ado.md">записей</a>.</p></td>
+<td><p>Поддерживает метод <a href="find-method-ado.md">Find</a> , чтобы найти строку в <a href="recordset-object-ado.md">наборе записей</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адхолдрекордс</strong></p></td>
+<td><p><strong>адхолдрекордс</strong></p></td>
 <td><p>0x100</p></td>
 <td><p>Получает дополнительные записи или изменяет следующее положение без фиксации всех ожидающих изменений.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адиндекс</strong></p></td>
+<td><p><strong>адиндекс</strong></p></td>
 <td><p>0x100000</p></td>
 <td><p>Поддерживает свойство <a href="index-property-ado.md">index</a> для именования индекса.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адмовепревиаус</strong></p></td>
+<td><p><strong>адмовепревиаус</strong></p></td>
 <td><p>0x200</p></td>
 <td><p>Поддерживает методы <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a> и <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MovePrevious</a> , а также методы <a href="move-method-ado.md">Move</a> и <a href="getrows-method-ado.md">GetRows</a> для перемещения текущей позиции записи назад без использования закладок.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Аднотифи</strong></p></td>
+<td><p><strong>аднотифи</strong></p></td>
 <td><p>0x40000</p></td>
 <td><p>Указывает, что базовый поставщик данных поддерживает уведомления (что определяет, поддерживаются ли события <strong>Recordset</strong> ).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адресинк</strong></p></td>
+<td><p><strong>адресинк</strong></p></td>
 <td><p>0x20000</p></td>
 <td><p>Поддерживает метод <a href="resync-method-ado.md">Resync</a> для обновления курсора с использованием данных, которые отображаются в основной базе данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адсик</strong></p></td>
+<td><p><strong>адсик</strong></p></td>
 <td><p>0x200000</p></td>
-<td><p>Поддерживает метод <a href="seek-method-ado.md">Seek</a> , чтобы найти строку в наборе <strong>записей</strong>.</p></td>
+<td><p>Поддерживает метод <a href="seek-method-ado.md">Seek</a> , чтобы найти строку в <strong>наборе записей</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адупдате</strong></p></td>
+<td><p><strong>адупдате</strong></p></td>
 <td><p>0x1008000</p></td>
 <td><p>Поддерживает метод <a href="update-method-ado.md">Update</a> для изменения существующих данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адупдатебатч</strong></p></td>
+<td><p><strong>адупдатебатч</strong></p></td>
 <td><p>0x10000</p></td>
 <td><p>Поддерживает пакетное обновление (методы<a href="updatebatch-method-ado.md">UpdateBatch</a> и <a href="cancelbatch-method-ado.md">CancelBatch</a> ) для передачи групп изменений поставщику.</p></td>
 </tr>
@@ -147,7 +147,7 @@ ms.locfileid: "32295200"
 <td><p>Адоенумс. Курсороптион. NOTIFY</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Курсороптион. reSYNC</p></td>
+<td><p>Адоенумс. Курсороптион. Resync</p></td>
 </tr>
 <tr class="odd">
 <td><p>Адоенумс. Курсороптион. SEEK</p></td>

@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. BatchSize (DAO)
+title: Свойство Recordset.BatchSize (DAO)
 TOCTitle: BatchSize Property
 ms:assetid: f03dc505-682f-4b60-62f2-1bd088d873c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836544(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300667"
 ---
-# <a name="recordsetbatchsize-property-dao"></a>Свойство Recordset. BatchSize (DAO)
+# <a name="recordsetbatchsize-property-dao"></a>Свойство Recordset.BatchSize (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

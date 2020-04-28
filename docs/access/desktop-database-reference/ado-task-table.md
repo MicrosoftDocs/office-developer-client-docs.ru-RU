@@ -109,7 +109,7 @@ ms.locfileid: "32283249"
 <td><p><a href="chapter-10-records-and-streams.md">Chapter 10: Records and Streams</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Публикация в СЛУЖБах IIS</p></td>
+<td><p>Публикация в службах IIS</p></td>
 <td><p><a href="using-ado-for-internet-publishing.md">Using ADO for Internet Publishing</a></p></td>
 </tr>
 </tbody>

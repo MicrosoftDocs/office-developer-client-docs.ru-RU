@@ -23,7 +23,7 @@ ms.locfileid: "32292715"
 - [Свойство field2. Attributes (DAO)](field2-attributes-property-dao.md)
 - [Свойство field2. Коллатингордер (DAO)](field2-collatingorder-property-dao.md)
 - [Свойство field2. ComplexType (DAO)](field2-complextype-property-dao.md)
-- [Свойство field2. доПускает обновление (DAO)](field2-dataupdatable-property-dao.md)
+- [Свойство field2. допускает обновление (DAO)](field2-dataupdatable-property-dao.md)
 - [Свойство field2. DefaultValue (DAO)](field2-defaultvalue-property-dao.md)
 - [Свойство field2. Expression (DAO)](field2-expression-property-dao.md)
 - [Свойство field2. FieldSize (DAO)](field2-fieldsize-property-dao.md)

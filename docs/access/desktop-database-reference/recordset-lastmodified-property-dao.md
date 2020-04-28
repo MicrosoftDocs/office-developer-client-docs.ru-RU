@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. LastModified (DAO)
+title: Свойство Recordset.LastModified (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 7386f25b-bde1-a446-e980-640696a3bfec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195859(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300500"
 ---
-# <a name="recordsetlastmodified-property-dao"></a>Свойство Recordset. LastModified (DAO)
+# <a name="recordsetlastmodified-property-dao"></a>Свойство Recordset.LastModified (DAO)
 
 
 **Область применения**: Access 2013, Office 2013 

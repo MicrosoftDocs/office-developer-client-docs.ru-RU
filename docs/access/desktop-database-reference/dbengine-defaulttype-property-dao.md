@@ -29,9 +29,9 @@ ms.locfileid: "32294381"
 
 *Expression* . DefaultType
 
-*Expression (выражение* ) Переменная, представляющая объект **DBEngine** .
+*expression*: переменная, представляющая объект **DBEngine**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметр или возвращаемое значение может быть одной из констант **[воркспацетипинум](workspacetypeenum-enumeration-dao.md)** .
 

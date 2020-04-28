@@ -28,7 +28,7 @@ ms.locfileid: "32296523"
 - [Свойство Source](source-property-ado-md.md)
 - [Свойство State](state-property-ado-md.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод Close](close-method-ado-md.md)
 - [Метод Open](open-method-ado-md.md)

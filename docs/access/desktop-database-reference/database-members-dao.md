@@ -1,5 +1,5 @@
 ---
-title: Элементы базы данных (DAO)
+title: Элементы объекта Database (DAO)
 TOCTitle: Database Members
 ms:assetid: 68b0c069-8ed9-64dc-ea68-0d323e24c79c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195257(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294927"
 ---
-# <a name="database-members-dao"></a>Элементы базы данных (DAO)
+# <a name="database-members-dao"></a>Элементы объекта Database (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -37,7 +37,7 @@ ms.locfileid: "32294927"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="database-close-method-dao.md">Close</a></strong></p></td>
-<td><p>ЗаКрывает открытую <strong>базу данных</strong>.</p></td>
+<td><p>Закрывает открытую <strong>базу данных</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
@@ -45,10 +45,10 @@ ms.locfileid: "32294927"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-createquerydef-method-dao.md">CreateQueryDef</a></strong></p></td>
-<td><p>Создает новый объект <strong><a href="querydef-object-dao.md">QueryDef</a></strong> .</p></td>
+<td><p>Создает новый объект <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-createrelation-method-dao.md">Креатерелатион</a></strong></p></td>
+<td><p><strong><a href="database-createrelation-method-dao.md">креатерелатион</a></strong></p></td>
 <td><p>Создает новый объект <strong><a href="relation-object-dao.md">relation</a></strong> (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
@@ -57,10 +57,10 @@ ms.locfileid: "32294927"
 </tr>
 <tr class="even">
 <td><p><strong><a href="database-execute-method-dao.md">Execute</a></strong></p></td>
-<td><p>Выполняет запрос на изменение или выполняет инструкцию SQL для указанного объекта.</p></td>
+<td><p>Выполняет запрос на изменение или запускает инструкцию SQL для указанного объекта.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-makereplica-method-dao.md">Макереплика</a></strong></p></td>
+<td><p><strong><a href="database-makereplica-method-dao.md">макереплика</a></strong></p></td>
 <td><p>Создает новую реплику из другой реплики базы данных (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -72,12 +72,12 @@ ms.locfileid: "32294927"
 <td><p>Создает новый объект <strong><a href="recordset-object-dao.md">Recordset</a></strong> и добавляет его в коллекцию <strong>Recordsets</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-populatepartial-method-dao.md">Популатепартиал</a></strong></p></td>
+<td><p><strong><a href="database-populatepartial-method-dao.md">популатепартиал</a></strong></p></td>
 <td><p>Синхронизирует все изменения в частичной реплике с полной репликой, очищает все записи в частичной реплике, а затем повторно заполняет частичную реплику на основе текущих фильтров реплик. (Только для баз данных ядра СУБД Microsoft Access.).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="database-synchronize-method-dao.md">Synchronize</a></strong></p></td>
-<td><p>Синхронизирует две реплики. (Только для рабочих областей Microsoft Access).</p></td>
+<td><p>Синхронизирует две реплики. (Только для рабочих областей Microsoft Access.)</p></td>
 </tr>
 </tbody>
 </table>
@@ -98,7 +98,7 @@ ms.locfileid: "32294927"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="database-collatingorder-property-dao.md">Коллатингордер</a></strong></p></td>
+<td><p><strong><a href="database-collatingorder-property-dao.md">коллатингордер</a></strong></p></td>
 <td><p>Возвращает значение, задающее последовательность порядка сортировки в тексте для сравнения строк или сортировки (только для рабочих областей Microsoft Access). Только для чтения, <strong>Long</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -115,7 +115,7 @@ ms.locfileid: "32294927"
 <td><p>Возвращает коллекцию <strong>Containers</strong> , которая представляет все объекты <strong>контейнера</strong> в указанной базе данных. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="database-designmasterid-property-dao.md">Десигнмастерид</a></strong></p></td>
+<td><p><strong><a href="database-designmasterid-property-dao.md">десигнмастерид</a></strong></p></td>
 <td><p>Задает или возвращает 16-байтовое значение, которое уникально определяет основную реплику в наборе реплик (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
@@ -135,7 +135,7 @@ ms.locfileid: "32294927"
 <td><p>Задает или возвращает значение, задающее время ожидания в секундах до возникновения ошибки времени ожидания при выполнении запроса к источнику данных ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="database-recordsaffected-property-dao.md">Рекордсаффектед</a></strong></p></td>
+<td><p><strong><a href="database-recordsaffected-property-dao.md">рекордсаффектед</a></strong></p></td>
 <td><p>Возвращает число записей, затронутых последним вызванным методом <strong><a href="connection-execute-method-dao.md">EXECUTE</a></strong> .</p></td>
 </tr>
 <tr class="odd">

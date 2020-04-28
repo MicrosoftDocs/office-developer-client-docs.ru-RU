@@ -46,7 +46,7 @@ ms.locfileid: "32283410"
 </tr>
 <tr class="even">
 <td><p><a href="adcprop-updateresync-enum.md">ADCPROP_UPDATERESYNC_ENUM</a></p></td>
-<td><p>Указывает, следует ли метод <strong>UpdateBatch</strong> выполнить неявную операцию <strong></strong> метода Resync и, если это так, область этой операции.</p></td>
+<td><p>Указывает, следует ли метод <strong>UpdateBatch</strong> выполнить неявную операцию метода <strong>Resync</strong> и, если это так, область этой операции.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="affectenum.md">AffectEnum</a></p></td>
@@ -118,7 +118,7 @@ ms.locfileid: "32283410"
 </tr>
 <tr class="even">
 <td><p><a href="fieldenum.md">FieldEnum</a></p></td>
-<td><p>Указывает специальные поля, указанные в коллекции Fields объекта <strong></strong> <strong>Record</strong> .</p></td>
+<td><p>Указывает специальные поля, указанные в коллекции <strong>Fields</strong> объекта <strong>Record</strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="fieldattributeenum.md">FieldAttributeEnum</a></p></td>

@@ -37,18 +37,18 @@ ms.locfileid: "32289944"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адкр</strong></p></td>
+<td><p><strong>адкр</strong></p></td>
 <td><p>13</p></td>
 <td><p>Указывает на возврат каретки.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адкрлф</strong></p></td>
+<td><p><strong>адкрлф</strong></p></td>
 <td><p>–1</p></td>
 <td><p>Значение, используемое по умолчанию. Указывает перевод строки возврата каретки.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адлф</strong></p></td>
-<td><p>десяти</p></td>
+<td><p><strong>адлф</strong></p></td>
+<td><p>10 </p></td>
 <td><p>Указывает на перевод строки.</p></td>
 </tr>
 </tbody>
