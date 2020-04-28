@@ -37,12 +37,12 @@ ms.locfileid: "32314450"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адтипебинари</strong></p></td>
+<td><p><strong>адтипебинари</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Указывает двоичные данные.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адтипетекст</strong></p></td>
+<td><p><strong>адтипетекст</strong></p></td>
 <td><p>2</p></td>
 <td><p>Значение, используемое по умолчанию. Указывает текстовые данные, которые находятся в наборе символов, указанном с помощью <a href="charset-property-ado.md">CharSet</a>.</p></td>
 </tr>

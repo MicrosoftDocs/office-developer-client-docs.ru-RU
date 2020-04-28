@@ -37,14 +37,14 @@ ms.locfileid: "32308479"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адвритечар</strong></p></td>
+<td><p><strong>адвритечар</strong></p></td>
 <td><p>нуль</p></td>
-<td><p>Значение, используемое по умолчанию. ЗаПисывает указанную текстовую строку (заданную параметром <em>Data</em> ) в объект <strong>Stream</strong> .</p></td>
+<td><p>Значение, используемое по умолчанию. Записывает указанную текстовую строку (заданную параметром <em>Data</em> ) в объект <strong>Stream</strong> .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адврителине</strong></p></td>
+<td><p><strong>адврителине</strong></p></td>
 <td><p>1,1</p></td>
-<td><p>ЗаПисывает текстовую строку и символ разделителя строк в объект <strong>Stream</strong> . Если свойство <a href="lineseparator-property-ado.md">LineSeparator</a> не определено, возвращается ошибка времени выполнения.</p></td>
+<td><p>Записывает текстовую строку и символ разделителя строк в объект <strong>Stream</strong> . Если свойство <a href="lineseparator-property-ado.md">LineSeparator</a> не определено, возвращается ошибка времени выполнения.</p></td>
 </tr>
 </tbody>
 </table>

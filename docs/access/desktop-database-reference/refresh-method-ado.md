@@ -24,7 +24,7 @@ ms.locfileid: "32309259"
 
 *коллекция*. Обновление
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод **Refresh** выполняет различные задачи в зависимости от того, из какой коллекции он вызывается.
 
@@ -32,16 +32,16 @@ ms.locfileid: "32309259"
 
 При использовании метода **Refresh** в коллекции [Parameters](parameters-collection-ado.md) объекта [Command](command-object-ado.md) извлекаются сведения о параметрах на стороне поставщика для хранимой процедуры или запроса с параметрами, указанными в объекте **Command** . Коллекция будет пустой для поставщиков, которые не поддерживают вызовы хранимых процедур или параметризованные запросы.
 
-Необходимо задать для свойства [ActiveConnection](activeconnection-property-ado.md) объекта **Command** допустимый объект [подключения](connection-object-ado.md) , свойство [CommandText](commandtext-property-ado.md) для допустимой команды, а свойство [CommandType](commandtype-property-ado.md) — **адкмдсторедпрок** перед вызов метода **Refresh** .
+Необходимо задать для свойства [ActiveConnection](activeconnection-property-ado.md) объекта **Command** допустимый объект [Connection](connection-object-ado.md) , свойство [CommandText](commandtext-property-ado.md) для допустимой команды, а свойство [CommandType](commandtype-property-ado.md) — **адкмдсторедпрок** перед вызовом метода **Refresh** .
 
 Если вы обращаетесь к коллекции **Parameters** перед вызовом метода **Refresh** , ADO автоматически вызывает метод и заполняет коллекцию.
 
 > [!NOTE]
-> Если вы используете метод **Refresh** для получения сведений о параметрах от поставщика и возвращает один или несколько объектов [параметров](parameter-object-ado.md) типа данных переменной длины, ADO может выделить память для параметров на основе максимального возможного размера, который будет вызывает ошибку во время выполнения. Необходимо явно задать свойство [size](size-property-ado.md) для этих параметров перед вызовом метода [EXECUTE](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) для предотвращения ошибок.
+> Если вы используете метод **Refresh** для получения сведений о параметрах от поставщика и возвращает один или несколько объектов [параметров](parameter-object-ado.md) типа данных переменной длины, ADO может выделить память для параметров на основе максимально возможного размера, что приведет к ошибке во время выполнения. Необходимо явно задать свойство [size](size-property-ado.md) для этих параметров перед вызовом метода [EXECUTE](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) для предотвращения ошибок.
 
 ### <a name="fields"></a>Fields
 
-Использование метода **Refresh** в коллекции **Fields** не имеет видимого результата. Чтобы получить изменения из базовой структуры базы данных, необходимо использовать метод reQuery [](requery-method-ado.md) либо, если объект [Recordset](recordset-object-ado.md) не поддерживает закладки, метод [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) .
+Использование метода **Refresh** в коллекции **Fields** не имеет видимого результата. Чтобы получить изменения из базовой структуры базы данных, необходимо использовать метод [Requery](requery-method-ado.md) либо, если объект [Recordset](recordset-object-ado.md) не поддерживает закладки, метод [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) .
 
 ### <a name="properties"></a>Свойства
 

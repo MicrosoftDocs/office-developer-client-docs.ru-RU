@@ -19,15 +19,15 @@ ms.locfileid: "32300947"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. **Целое число**, доступное только для чтения.
+Задает или возвращает значение, указывающее операционный тип или тип данных объекта. **Целое число**, доступное только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Тип
+*выражение* .Type
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В приведенной ниже таблице представлены возможные параметры и возвращаемые значения для объекта **QueryDef** .
 
@@ -44,60 +44,60 @@ ms.locfileid: "32300947"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Дбкактион</strong></p></td>
-<td><p>Действие</p></td>
+<td><p><strong>дбкактион</strong></p></td>
+<td><p>Action</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбкаппенд</strong></p></td>
+<td><p><strong>дбкаппенд</strong></p></td>
 <td><p>Error</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбккомпаунд</strong></p></td>
+<td><p><strong>дбккомпаунд</strong></p></td>
 <td><p>Состав</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбккросстаб</strong></p></td>
+<td><p><strong>дбккросстаб</strong></p></td>
 <td><p>Перекрестный</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбкддл</strong></p></td>
+<td><p><strong>дбкддл</strong></p></td>
 <td><p>Определение данных</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбкделете</strong></p></td>
-<td><p>Delete</p></td>
+<td><p><strong>дбкделете</strong></p></td>
+<td><p>Удаление</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбкмакетабле</strong></p></td>
+<td><p><strong>дбкмакетабле</strong></p></td>
 <td><p>Создание таблицы</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбкпроцедуре</strong></p></td>
+<td><p><strong>дбкпроцедуре</strong></p></td>
 <td><p>Процедура (только для рабочих областей ODBCDirect)</p><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбкселект</strong></p></td>
+<td><p><strong>дбкселект</strong></p></td>
 <td><p>Выбор</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбксетоператион</strong></p></td>
+<td><p><strong>дбксетоператион</strong></p></td>
 <td><p>Union</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбксптбулк</strong></p></td>
+<td><p><strong>дбксптбулк</strong></p></td>
 <td><p>Используется с <strong>дбксклпасссраугх</strong> , чтобы указать запрос, который не возвращает записи (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбксклпасссраугх</strong></p></td>
+<td><p><strong>дбксклпасссраугх</strong></p></td>
 <td><p>Сквозная передача (только для рабочих областей Microsoft Access)</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дбкупдате</strong></p></td>
+<td><p><strong>дбкупдате</strong></p></td>
 <td><p>Update</p></td>
 </tr>
 </tbody>
 </table>
 
 
-При добавлении нового **[поля](field-object-dao.md)**, **[параметра](parameter-object-dao.md)** или объекта **[Свойства](property-object-dao.md)** в коллекцию объекта **[index](index-object-dao.md)**, **QueryDef**, **[Recordset](recordset-object-dao.md)** или **[tabledef](tabledef-object-dao.md)** возникает ошибка, если базовая база данных не поддерживается. тип данных, указанный для нового объекта.
+При добавлении нового **[поля](field-object-dao.md)**, **[параметра](parameter-object-dao.md)** или объекта **[Свойства](property-object-dao.md)** в коллекцию объекта **[index](index-object-dao.md)**, **QueryDef**, **[Recordset](recordset-object-dao.md)** или **[tabledef](tabledef-object-dao.md)** возникает ошибка, если базовая база данных не поддерживает тип данных, указанный для нового объекта.
 

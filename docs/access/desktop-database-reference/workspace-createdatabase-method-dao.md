@@ -38,7 +38,7 @@ ms.locfileid: "32305868"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательно/необязательно</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -57,23 +57,23 @@ ms.locfileid: "32305868"
 <td><ul>
 <li><p>Строковое выражение, задающее порядок сортировки для создания базы данных, как указано в параметрах. Необходимо указать этот аргумент, иначе возникнет ошибка.</p></li>
 <li><p>Кроме того, можно создать пароль для нового объекта <strong>базы данных</strong> , присоединить строку пароля (начиная с &quot;;p WD =&quot;) с константой в аргументе <em>locale</em> , как показано ниже.</p></li>
-<li><p>дблангспаниш &amp; &quot;;p wd = NewPassword&quot;</p></li>
+<li><p>дблангспаниш &amp; &quot;;p WD = newPassword&quot;</p></li>
 <li><p>Если вы хотите использовать <em>языковой стандарт</em>по умолчанию, но укажите пароль, просто введите строку пароля для аргумента <em>locale</em> :</p></li>
 <li><p>&quot;;p WD = NewPassword&quot;</p></li>
-<li><p>Используйте надежные пароли, объединяющие прописные и строчные буквы, цифры и символы. В слабых паролях эти элементы не комбинируются. Надежный пароль: Y6dh!et5. Слабый пароль: House27. Используйте надежный пароль, который можно запомнить, чтобы не записывать его.</p></li>
+<li><p>Используйте надежные пароли, содержащие строчные и прописные буквы, цифры и знаки. В ненадежных паролях не используются сочетания таких элементов. Надежный пароль: Y6dh!et5. Слабый пароль: House27. Используйте надежный пароль, который можно запомнить, чтобы не пришлось его записывать.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><em>Вариант</em></p></td>
+<td><p><em>Option</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа или сочетание констант, которые указывают на один или несколько параметров, как указано в параметрах. Вы можете комбинировать параметры, суммируя соответствующие константы.</p></td>
+<td><p>Константа или сочетание констант, которые указывают на один или несколько параметров, как указано в параметрах. Вы можете объединить параметры, сложив соответствующие константы.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Можно использовать одну из следующих констант для аргумента locale, чтобы указать свойство [коллатингордер](database-collatingorder-property-dao.md) текста для сравнения строк.
 
@@ -90,88 +90,88 @@ ms.locfileid: "32305868"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Дблангженерал</strong></p></td>
-<td><p>Английский, немецкий, французский, португальский, итальянский и современная Испанская</p></td>
+<td><p><strong>dbLangGeneral</strong></p></td>
+<td><p>Английский, немецкий, французский, португальский, итальянский и современный испанский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дблангарабик</strong></p></td>
-<td><p>арабский;</p></td>
+<td><p><strong>dbLangArabic</strong></p></td>
+<td><p>Арабский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблангчинесесимплифиед</strong></p></td>
-<td><p>китайский (упрощенное письмо)</p></td>
+<td><p><strong>dbLangChineseSimplified</strong></p></td>
+<td><p>Китайский (упрощенное письмо)</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дблангчинесетрадитионал</strong></p></td>
-<td><p>китайский (традиционное письмо)</p></td>
+<td><p><strong>dbLangChineseTraditional</strong></p></td>
+<td><p>Китайский (традиционное письмо)</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблангцириллик</strong></p></td>
-<td><p>русский;</p></td>
+<td><p><strong>dbLangCyrillic</strong></p></td>
+<td><p>Русский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дблангкзеч</strong></p></td>
-<td><p>чешский;</p></td>
+<td><p><strong>dbLangCzech</strong></p></td>
+<td><p>Чешский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблангдутч</strong></p></td>
-<td><p>голландский;</p></td>
+<td><p><strong>dbLangDutch</strong></p></td>
+<td><p>Голландский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дбланггрик</strong></p></td>
-<td><p>греческий;</p></td>
+<td><p><strong>dbLangGreek</strong></p></td>
+<td><p>Греческий</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблангхебрев</strong></p></td>
-<td><p>иврит;</p></td>
+<td><p><strong>dbLangHebrew</strong></p></td>
+<td><p>Иврит</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дблангхунгариан</strong></p></td>
-<td><p>венгерский;</p></td>
+<td><p><strong>dbLangHungarian</strong></p></td>
+<td><p>Венгерский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблангицеландик</strong></p></td>
+<td><p><strong>dbLangIcelandic</strong></p></td>
 <td><p>Исландский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дблангжапанесе</strong></p></td>
-<td><p>японский;</p></td>
+<td><p><strong>dbLangJapanese</strong></p></td>
+<td><p>Японский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблангкореан</strong></p></td>
-<td><p>корейский;</p></td>
+<td><p><strong>dbLangKorean</strong></p></td>
+<td><p>Корейский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дблангнордик</strong></p></td>
-<td><p>Скандинавские языки (только для ядра базы данных Microsoft Jet версии 1,0)</p></td>
+<td><p><strong>dbLangNordic</strong></p></td>
+<td><p>Скандинавские языки (только ядро СУБД Microsoft Jet версии 1.0)</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблангнорвдан</strong></p></td>
+<td><p><strong>dbLangNorwDan</strong></p></td>
 <td><p>Норвежский и датский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дблангполиш</strong></p></td>
-<td><p>польский;</p></td>
+<td><p><strong>dbLangPolish</strong></p></td>
+<td><p>Польский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблангсловениан</strong></p></td>
-<td><p>словенский;</p></td>
+<td><p><strong>dbLangSlovenian</strong></p></td>
+<td><p>Словенский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дблангспаниш</strong></p></td>
-<td><p>Традиционная испанская</p></td>
+<td><p><strong>dbLangSpanish</strong></p></td>
+<td><p>Традиционный испанский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблангсведфин</strong></p></td>
+<td><p><strong>dbLangSwedFin</strong></p></td>
 <td><p>Шведский и финский</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Дблангсаи</strong></p></td>
-<td><p>тайский;</p></td>
+<td><p><strong>dbLangThai</strong></p></td>
+<td><p>Тайский</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Дблангтуркиш</strong></p></td>
-<td><p>турецкий;</p></td>
+<td><p><strong>dbLangTurkish</strong></p></td>
+<td><p>Турецкий</p></td>
 </tr>
 </tbody>
 </table>
@@ -193,7 +193,7 @@ ms.locfileid: "32305868"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Дбенкрипт</strong></p></td>
+<td><p><strong>dbEncrypt</strong></p></td>
 <td><p>Создает зашифрованную базу данных.</p></td>
 </tr>
 <tr class="even">
@@ -231,7 +231,7 @@ ms.locfileid: "32305868"
 
 ## <a name="example"></a>Пример
 
-В этом примере используется **CreateDatabase** для создания нового зашифрованного объекта **базы данных** .
+В этом примере используется метод **CreateDatabase** для создания нового зашифрованного объекта **Database**.
 
 ```vb
     Sub CreateDatabaseX() 

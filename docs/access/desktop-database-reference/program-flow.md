@@ -18,8 +18,8 @@ ms.locfileid: "32301290"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Блок макросов If...Then...Else](if-then-else-macro-block.md)
-- [Оператор макроса Comment](comment-macro-statement.md)
-- [Оператор макроса Group](group-macro-statement.md)
+- [Макроблок Если... То... Иначе](if-then-else-macro-block.md)
+- [Оператор макроса "Примечание"](comment-macro-statement.md)
+- [Оператор макроса "Группа"](group-macro-statement.md)
 - [Оператор макроса Submacro](submacro-macro-statement.md)
 

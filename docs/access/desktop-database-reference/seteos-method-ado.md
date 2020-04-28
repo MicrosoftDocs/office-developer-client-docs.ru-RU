@@ -24,7 +24,7 @@ ms.locfileid: "32308710"
 
 *Stream*. SetEOS
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 **SetEOS** обновляет значение свойства [EOS](eos-property-ado.md) , выполнив текущую [позицию](position-property-ado.md) в конце потока. Все байты и символы, следующие за текущей позицией, усекаются.
 

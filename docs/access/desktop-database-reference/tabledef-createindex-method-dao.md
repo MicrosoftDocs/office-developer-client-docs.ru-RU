@@ -42,7 +42,7 @@ ms.locfileid: "32314373"
 <thead>
 <tr class="header">
 <th><p>Имя</p></th>
-<th><p>Обязательно/необязательно</p></th>
+<th><p>Обязательный/необязательный</p></th>
 <th><p>Тип данных</p></th>
 <th><p>Описание</p></th>
 </tr>
@@ -50,9 +50,9 @@ ms.locfileid: "32314373"
 <tbody>
 <tr class="odd">
 <td><p><em>Name</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Строка</strong> , которая уникально присваивает новому объекту <strong>index</strong> . Сведения об допустимых именах индексов <strong></strong> приведены в свойстве <strong>Name</strong> .</p></td>
+<td><p><strong>Строка</strong> , которая уникально присваивает новому объекту <strong>index</strong> . Сведения об допустимых именах <strong>индексов</strong> приведены в свойстве <strong>Name</strong> .</p></td>
 </tr>
 </tbody>
 </table>
@@ -60,7 +60,7 @@ ms.locfileid: "32314373"
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Index
+Индекс
 
 ## <a name="remarks"></a>Примечания
 

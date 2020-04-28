@@ -25,7 +25,7 @@ ms.locfileid: "32306442"
 
 Задает и возвращает **длинное** значение, которое может быть одной из констант [сортордеренум](sortorderenum.md) . Значение по умолчанию — **адсортасцендинг**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство применяется только к объектам [Column](column-object-adox.md) в коллекции [Columns](columns-collection-adox.md) [индекса](index-object-adox.md).
 

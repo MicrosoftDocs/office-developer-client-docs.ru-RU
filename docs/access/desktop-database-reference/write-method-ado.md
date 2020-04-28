@@ -18,7 +18,7 @@ ms.locfileid: "32302466"
 
 **Область применения**: Access 2013, Office 2013
 
-ЗаПисывает двоичные данные в объект [Stream](stream-object-ado.md) .
+Записывает двоичные данные в объект [Stream](stream-object-ado.md) .
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -30,13 +30,13 @@ ms.locfileid: "32302466"
 |:--------|:----------|
 |*Буферизовать* |**Переменная типа Variant** , содержащая массив байтов для записи.|
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Указанные байты записываются в объект **Stream** без промежуточных пробелов между ними.
 
 Текущая [позиция](position-property-ado.md) равна байту после записанных данных. Метод **Write** не усекает остальные данные в потоке. Если вы хотите усечь эти байты, вызовите [SetEOS](seteos-method-ado.md).
 
-Если вы пишете за пределами текущей позиции [](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) [EOS](eos-property-ado.md) , размер **потока** увеличится до того, как будут содержаться новые байты, а **EOS** перейдет к новому последнему байту в **потоке**.
+Если вы пишете за пределами текущей позиции [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) [EOS](eos-property-ado.md) , размер **потока** увеличится до того, как будут содержаться новые байты, а **EOS** перейдет к новому последнему байту в **потоке**.
 
 > [!NOTE]
 > Метод **Write** используется с двоичными потоками ([Type](type-property-ado-stream.md) — **адтипебинари**). Для текстовых потоков (**Type** — **Адтипетекст**) используйте [WriteText](writetext-method-ado.md).

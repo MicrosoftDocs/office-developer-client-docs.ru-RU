@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. EditMode (DAO)
+title: Свойство Recordset.EditMode (DAO)
 TOCTitle: EditMode Property
 ms:assetid: 3cf67f64-c8c3-ad0a-ce00-6f37a3c264ee
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192697(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307653"
 ---
-# <a name="recordseteditmode-property-dao"></a>Свойство Recordset. EditMode (DAO)
+# <a name="recordseteditmode-property-dao"></a>Свойство Recordset.EditMode (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

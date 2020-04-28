@@ -34,7 +34,7 @@ ms.locfileid: "32314618"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Аргумент</p></th>
+<th><p>Аргументация</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>

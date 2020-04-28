@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. Рекордстатус (DAO)
+title: Свойство Recordset.RecordStatus (DAO)
 TOCTitle: RecordStatus Property
 ms:assetid: 6fbd6909-6191-d7be-9a3a-1e9908dacc2b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195591(v=office.15)
@@ -18,14 +18,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307611"
 ---
-# <a name="recordsetrecordstatus-property-dao"></a>Свойство Recordset. Рекордстатус (DAO)
+# <a name="recordsetrecordstatus-property-dao"></a>Свойство Recordset.RecordStatus (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Рекордстатус
+*Expression* . рекордстатус
 
 *expression*: переменная, представляющая объект **Recordset**.
 

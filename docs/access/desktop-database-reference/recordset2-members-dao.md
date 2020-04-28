@@ -278,8 +278,8 @@ ms.locfileid: "32307275"
 <td><p>Возвращает значение, которое указывает на то, поддерживает ли объект транзакций. Только для чтения, <strong>Boolean</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="recordset2-type-property-dao.md">Тип</a></strong></p></td>
-<td><p>Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Только для чтения, <strong>Integer</strong>.</p></td>
+<td><p><strong><a href="recordset2-type-property-dao.md">Type</a></strong></p></td>
+<td><p>Задает или возвращает значение, указывающее операционный тип или тип данных объекта. Только для чтения, <strong>Integer</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-updatable-property-dao.md">Updatable</a></strong></p></td>

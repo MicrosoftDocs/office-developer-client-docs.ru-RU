@@ -26,7 +26,7 @@ ms.locfileid: "32305980"
 
 **Службы** IIS Дополнительные сведения о службах Microsoft IIS можно найти на веб-сайте Microsoft Internet Information Services.
 
-**Активные серверНые страницы** Дополнительные сведения о ASP (Microsoft Active Server Pages) можно найти на веб-сайте веб-страниц Microsoft Active Server.
+**Активные серверные страницы** Дополнительные сведения о ASP (Microsoft Active Server Pages) можно найти на веб-сайте веб-страниц Microsoft Active Server.
 
 **Службы компонентов Майкрософт** Дополнительные сведения о службах компонентов можно найти на веб-сайте Microsoft Transaction Server.
 

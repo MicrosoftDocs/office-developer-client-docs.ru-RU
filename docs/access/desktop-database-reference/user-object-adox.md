@@ -23,7 +23,7 @@ ms.locfileid: "32313162"
 
 ## <a name="remarks"></a>Примечания
 
-Коллекция [Users](users-collection-adox.md) [каталога](catalog-object-adox.md) Users содержит все пользователи каталога. Коллекция **Users** для [группы](group-object-adox.md) представляет только пользователей определенной группы.
+Коллекция [Users каталога Users](users-collection-adox.md) содержит все пользователи каталога. [Catalog](catalog-object-adox.md) Коллекция **Users** для [группы](group-object-adox.md) представляет только пользователей определенной группы.
 
 С помощью свойств, коллекций и методов объекта **User** можно выполнять следующие действия:
 
@@ -31,7 +31,7 @@ ms.locfileid: "32313162"
 
   - Изменение пароля пользователя с помощью метода [ChangePassword](changepassword-method-adox.md) .
 
-  - Определите, имеет ли пользователь разрешения на чтение, запись или удаление с помощью [](getpermissions-method-adox.md) методов [SetPermissions](setpermissions-method-adox.md) и.
+  - Определите, имеет ли пользователь разрешения на чтение, запись или удаление [с помощью методов](getpermissions-method-adox.md) [SetPermissions](setpermissions-method-adox.md) и.
 
   - Доступ к группам, к которым принадлежит пользователь, с коллекцией [Groups](groups-collection-adox.md) .
 

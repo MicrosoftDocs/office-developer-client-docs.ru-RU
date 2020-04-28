@@ -23,13 +23,13 @@ ms.locfileid: "32314289"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . RecordCount
+*выражение* .RecordCount
 
 *выражение*: переменная, представляющая объект **TableDef**.
 
 ## <a name="remarks"></a>Комментарии
 
-Для объекта **Recordset** или объекта **tabledef** без записей задано свойство **RecordCount** , равное 0.
+У объекта **Recordset** или **TableDef** без записей свойству **RecordCount** соответствует значение 0.
 
 При работе с связанными объектами**tabledef** значение свойства **RecordCount** всегда равно – 1.
 

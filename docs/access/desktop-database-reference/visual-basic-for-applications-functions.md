@@ -43,7 +43,7 @@ ms.locfileid: "32302795"
 <td><p>CDate</p></td>
 <td><p>CDbl</p></td>
 <td><p>Chr</p></td>
-<td><p>Чрб</p></td>
+<td><p>чрб</p></td>
 <td><p>ChrW</p></td>
 <td><p>Chr $</p></td>
 </tr>
@@ -57,7 +57,7 @@ ms.locfileid: "32302795"
 </tr>
 <tr class="even">
 <td><p>CVar</p></td>
-<td><p>Квдате</p></td>
+<td><p>квдате</p></td>
 <td><p>CVErr</p></td>
 <td><p>Дата</p></td>
 <td><p>Date $</p></td>
@@ -72,7 +72,7 @@ ms.locfileid: "32302795"
 <td><p>DDB</p></td>
 </tr>
 <tr class="even">
-<td><p>Error</p></td>
+<td><p>Ошибка</p></td>
 <td><p>Ошибка $</p></td>
 <td><p>Exp</p></td>
 <td><p>Исправление</p></td>
@@ -88,7 +88,7 @@ ms.locfileid: "32302795"
 <td><p>InStr</p></td>
 </tr>
 <tr class="even">
-<td><p>Порог</p></td>
+<td><p>Целое</p></td>
 <td><p>IPmt</p></td>
 <td><p>IRR</p></td>
 <td><p>IsDate</p></td>
@@ -180,7 +180,7 @@ ms.locfileid: "32302795"
 <td><p>Val</p></td>
 <td><p>VarType</p></td>
 <td><p>День недели</p></td>
-<td><p>Year</p></td>
+<td><p>Год</p></td>
 <td><p><br />
 </p></td>
 </tr>

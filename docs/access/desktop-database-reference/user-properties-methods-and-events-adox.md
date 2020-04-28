@@ -24,7 +24,7 @@ ms.locfileid: "32312959"
 - [Свойство Name](name-property-adox.md)
 - [Коллекция Properties](properties-collection-ado.md)
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод ChangePassword](changepassword-method-adox.md)
 - [Метод GetPermissions](getpermissions-method-adox.md)

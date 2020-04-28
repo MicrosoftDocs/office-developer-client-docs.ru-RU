@@ -36,7 +36,7 @@ ms.locfileid: "32308276"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Дбусежет</p></td>
+<td><p>дбусежет</p></td>
 <td><p>2</p></td>
 <td><p>Создайте рабочую область Microsoft Access.</p></td>
 </tr>

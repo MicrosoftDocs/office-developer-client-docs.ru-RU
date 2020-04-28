@@ -41,10 +41,10 @@ ms.locfileid: "32302606"
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspaces-delete-method-dao.md">Delete</a></strong></p></td>
-<td><p>Удаляет указанную <strong>рабочую область</strong> в <strong></strong> коллекции workspaces.</p></td>
+<td><p>Удаляет указанную <strong>рабочую область</strong> в коллекции <strong>workspaces</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="workspaces-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p><strong><a href="workspaces-refresh-method-dao.md">Обновление</a></strong></p></td>
 <td><p>Не поддерживается для объекта.</p></td>
 </tr>
 </tbody>

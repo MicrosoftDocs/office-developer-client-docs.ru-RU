@@ -26,11 +26,11 @@ ms.locfileid: "32305931"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Дефаулткурсордривер
+*Expression* . дефаулткурсордривер
 
 *expression*: переменная, представляющая объект **Workspace**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Параметру или возвращаемому значению можно присвоить одну из констант **[курсордриверенум](cursordriverenum-enumeration-dao.md)** .
 

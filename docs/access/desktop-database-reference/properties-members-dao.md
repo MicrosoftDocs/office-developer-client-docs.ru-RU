@@ -44,7 +44,7 @@ ms.locfileid: "32301262"
 <td><p>Удаляет указанный объект <strong>Property</strong> из коллекции <strong>свойств</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="properties-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p><strong><a href="properties-refresh-method-dao.md">Обновление</a></strong></p></td>
 <td><p>Обновляет объекты в заданном коллетион в соответствии с текущей схемой базы данных.</p></td>
 </tr>
 </tbody>

@@ -18,5 +18,5 @@ ms.locfileid: "32309312"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство Recordsets. Count (DAO)](recordsets-count-property-dao.md)
+- [Свойство recordsets. Count (DAO)](recordsets-count-property-dao.md)
 

@@ -76,7 +76,7 @@ Response.Write("Success!")
 </HTML> 
 ```
 
-Более конкретные примеры VBScript включены в документацию по ADO. Для получения дополнительных сведений см. [примеры кода ADO в Microsoft Visual Basic scriptIng Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md).
+Более конкретные примеры VBScript включены в документацию по ADO. Для получения дополнительных сведений см. [примеры кода ADO в Microsoft Visual Basic Scripting Edition](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md).
 
 ## <a name="differences-between-vbscript-and-visual-basic"></a>Различия между VBScript и Visual Basic
 

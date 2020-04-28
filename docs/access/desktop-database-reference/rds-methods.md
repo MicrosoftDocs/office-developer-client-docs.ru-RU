@@ -32,11 +32,11 @@ ms.locfileid: "32300891"
 </tr>
 <tr class="odd">
 <td><p><a href="cancel-method-rds.md">Отмена</a></p></td>
-<td><p>ОтМеняет выполнение ожидающего асинхронного вызова метода.</p></td>
+<td><p>Отменяет выполнение ожидающего асинхронного вызова метода.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cancelupdate-method-rds.md">CancelUpdate</a></p></td>
-<td><p>ОтМеняет любые изменения, внесенные в текущую или новую строку объекта <strong>Recordset</strong> .</p></td>
+<td><p>Отменяет любые изменения, внесенные в текущую или новую строку объекта <strong>Recordset</strong> .</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="converttostring-method-rds.md">ConvertToString</a></p></td>

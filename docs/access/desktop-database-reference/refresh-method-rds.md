@@ -30,7 +30,7 @@ ms.locfileid: "32309301"
 |:--------|:----------|
 |*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Прежде чем использовать метод **Refresh** , необходимо задать свойства [Connect](connect-property-rds.md), [Server](server-property-rds.md)и [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) . Все элементы управления с привязкой к данным в форме, связанной с **RDS. Объект элемента управления** данным будет отражать новый набор записей. Освобождается любой существующий объект [Recordset](recordset-object-ado.md) , а все несохраненные изменения отбрасываются. Метод **Refresh** автоматически создает первую запись в текущей записи.
 

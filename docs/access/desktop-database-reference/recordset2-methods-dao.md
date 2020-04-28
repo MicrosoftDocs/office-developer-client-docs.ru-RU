@@ -39,6 +39,6 @@ ms.locfileid: "32309403"
 - [Метод Recordset2. MovePrevious (DAO)](recordset2-moveprevious-method-dao.md)
 - [Метод Recordset2. NextRecordset (DAO)](recordset2-nextrecordset-method-dao.md)
 - [Метод Recordset2. OpenRecordset (DAO)](recordset2-openrecordset-method-dao.md)
-- [Метод Recordset2. reQuery (DAO)](recordset2-requery-method-dao.md)
+- [Метод Recordset2. Requery (DAO)](recordset2-requery-method-dao.md)
 - [Метод Recordset2. Seek (DAO)](recordset2-seek-method-dao.md)
 - [Метод Recordset2. Update (DAO)](recordset2-update-method-dao.md)

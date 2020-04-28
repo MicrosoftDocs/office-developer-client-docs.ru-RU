@@ -37,7 +37,7 @@ ms.locfileid: "32307039"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="relation-createfield-method-dao.md">CreateField</a></strong></p></td>
-<td><p>Создает новый объект <strong><a href="field-object-dao.md">field</a></strong> (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Создает новый объект <strong><a href="field-object-dao.md">Field</a></strong> (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,7 +74,7 @@ ms.locfileid: "32307039"
 <td><p>Возвращает или задает имя указанного объекта. <strong>Строка</strong> для чтения и записи, если объект не был добавлен в коллекцию. <strong>Строка</strong> , доступная только для чтения, если объект добавлен в коллекцию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="relation-partialreplica-property-dao.md">Партиалреплика</a></strong></p></td>
+<td><p><strong><a href="relation-partialreplica-property-dao.md">партиалреплика</a></strong></p></td>
 <td><p>Задает или возвращает значение объекта <strong>relation</strong> , указывающее, следует ли учитывать это отношение при заполнении частичной реплики из полной реплики. (Только базы данных ядра СУБД Microsoft Access). Для чтения и записи, <strong>Boolean</strong>.</p></td>
 </tr>
 <tr class="even">
@@ -82,7 +82,7 @@ ms.locfileid: "32307039"
 <td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">Properties</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="relation-table-property-dao.md">Приведен</a></strong></p></td>
+<td><p><strong><a href="relation-table-property-dao.md">Table</a></strong></p></td>
 <td><p>Указывает имя основной таблицы объекта <strong><a href="relation-object-dao.md">связи</a></strong> . Это значение должно совпадать с параметром свойства <strong><a href="connection-name-property-dao.md">Name</a></strong> объекта <strong><a href="tabledef-object-dao.md">tabledef</a></strong> или <strong><a href="querydef-object-dao.md">QueryDef</a></strong> (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 </tbody>

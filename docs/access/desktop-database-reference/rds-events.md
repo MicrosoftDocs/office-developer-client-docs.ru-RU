@@ -35,7 +35,7 @@ ms.locfileid: "32301031"
 <td><p>Вызывается при возникновении ошибки во время выполнения операции.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="onreadystatechange-event-rds.md">Онреадистатечанже</a></p></td>
+<td><p><a href="onreadystatechange-event-rds.md">онреадистатечанже</a></p></td>
 <td><p>Вызывается при каждом изменении значения свойства <strong>ReadyState</strong> .</p></td>
 </tr>
 </tbody>

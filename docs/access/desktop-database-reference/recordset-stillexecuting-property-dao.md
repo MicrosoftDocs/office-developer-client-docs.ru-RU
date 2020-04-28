@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. Стиллексекутинг (DAO)
+title: Свойство Recordset.StillExecuting (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 0e53c98f-17ac-3569-d780-540a6932013e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845245(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307569"
 ---
-# <a name="recordsetstillexecuting-property-dao"></a>Свойство Recordset. Стиллексекутинг (DAO)
+# <a name="recordsetstillexecuting-property-dao"></a>Свойство Recordset.StillExecuting (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Стиллексекутинг
+*Expression* . стиллексекутинг
 
 *expression*: переменная, представляющая объект **Recordset**.
 

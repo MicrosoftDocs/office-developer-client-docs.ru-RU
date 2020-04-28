@@ -37,12 +37,12 @@ ms.locfileid: "32314723"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адреадалл</strong></p></td>
+<td><p><strong>адреадалл</strong></p></td>
 <td><p>–1</p></td>
 <td><p>Значение, используемое по умолчанию. Считывает все байты из потока, начиная с текущей позиции и до маркера <a href="eos-property-ado.md">EOS</a> . Это единственное допустимое значение <strong>стреамреаденум</strong> с двоичными потоками (<a href="type-property-ado-stream.md">Type</a> — <strong>адтипебинари</strong>).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адреадлине</strong></p></td>
+<td><p><strong>адреадлине</strong></p></td>
 <td><p>–2</p></td>
 <td><p>Считывает следующую строку из потока (задается свойством <a href="lineseparator-property-ado.md">LineSeparator</a> ).</p></td>
 </tr>

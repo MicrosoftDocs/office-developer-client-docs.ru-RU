@@ -49,7 +49,7 @@ ms.locfileid: "32307647"
 - [Свойство StayInSync](stayinsync-property-ado.md)
 
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод AddNew](addnew-method-ado.md)
 - [Метод Cancel](cancel-method-ado.md)

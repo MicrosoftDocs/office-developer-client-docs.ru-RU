@@ -25,7 +25,7 @@ ms.locfileid: "32313988"
 
 Возвращает значение [мембертипинум](membertypeenum.md) и доступно только для чтения.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство поддерживается только для объектов [member](member-object-ado-md.md) , принадлежащих объекту [уровня](level-object-ado-md.md) . При обращении к этому свойству из объектов **member** , принадлежащих объекту [position](position-object-ado-md.md) , возникает ошибка.
 

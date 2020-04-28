@@ -19,7 +19,7 @@ ms.locfileid: "32302984"
 
 **Область применения**: Access 2013, Office 2013
 
-Объект QueryDef это хранимое определение запроса в базе данных ядра СУБД Microsoft Access.
+Объект QueryDef — это сохраняемое определение запроса в базе данных ядра СУБД Microsoft Access.
 
 ## <a name="methods"></a>Методы
 
@@ -42,7 +42,7 @@ ms.locfileid: "32302984"
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-close-method-dao.md">Close</a></strong></p></td>
-<td><p>ЗаКрывает открытый объект <strong>QueryDef</strong>.</p></td>
+<td><p>Закрывает открытый объект <strong>QueryDef</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
@@ -113,14 +113,14 @@ ms.locfileid: "32302984"
 <tr class="even">
 <td><p><strong><a href="querydef-prepare-property-dao.md">Подготовка</a></strong></p></td>
 <td><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p>
-<p>Задает или возвращает значение, которое указывает, следует ли подготовить запрос на сервере в качестве временной хранимой процедуры, с помощью функции ODBC <strong>склпрепаре</strong> API, перед выполнением или только после выполнения с помощью функции ODBC <strong>склексекдирект</strong> API ( Только для рабочих областей ODBCDirect). Чтение и запись <strong><a href="querydefstateenum-enumeration-dao.md">куеридефстатинум</a></strong>.</p></td>
+<p>Задает или возвращает значение, которое указывает, следует ли подготовить запрос на сервере в качестве временной хранимой процедуры, с помощью функции ODBC <strong>склпрепаре</strong> API, перед выполнением или только после выполнения с помощью функции ODBC <strong>склексекдирект</strong> API (только для рабочих областей ODBCDirect). Чтение и запись <strong><a href="querydefstateenum-enumeration-dao.md">куеридефстатинум</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">Properties</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="querydef-recordsaffected-property-dao.md">Рекордсаффектед</a></strong></p></td>
+<td><p><strong><a href="querydef-recordsaffected-property-dao.md">рекордсаффектед</a></strong></p></td>
 <td><p>Возвращает число записей, затронутых последним вызванным методом <strong><a href="querydef-execute-method-dao.md">EXECUTE</a></strong> .</p></td>
 </tr>
 <tr class="odd">
@@ -129,7 +129,7 @@ ms.locfileid: "32302984"
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-sql-property-dao.md">SQL</a></strong></p></td>
-<td><p>Задает или возвращает инструкцию SQL, определяющую запрос, выполняемый объектом <strong><a href="querydef-object-dao.md">QueryDef</a></strong> .</p></td>
+<td><p>Задает или возвращает инструкцию SQL, которая определяет запрос, выполняемый объектом <strong><a href="querydef-object-dao.md">QueryDef</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-stillexecuting-property-dao.md">StillExecuting</a></strong></p></td>
@@ -138,7 +138,7 @@ ms.locfileid: "32302984"
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydef-type-property-dao.md">Тип</a></strong></p></td>
-<td><p>Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. <strong>Целое число</strong>, доступное только для чтения.</p></td>
+<td><p>Задает или возвращает значение, указывающее операционный тип или тип данных объекта. <strong>Целое число</strong>, доступное только для чтения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="querydef-updatable-property-dao.md">Updatable</a></strong></p></td>

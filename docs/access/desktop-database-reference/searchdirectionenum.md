@@ -36,12 +36,12 @@ ms.locfileid: "32308808"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адсеарчбакквард</strong></p></td>
+<td><p><strong>адсеарчбакквард</strong></p></td>
 <td><p>–1</p></td>
 <td><p>Выполняет поиск в обратном направлении, останавливается в начале <strong>набора записей</strong>. Если соответствующее значение не найдено, указатель записи располагается по адресу <a href="bof-eof-properties-ado.md">BOF</a>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адсеарчфорвард</strong></p></td>
+<td><p><strong>адсеарчфорвард</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Выполняет поиск вперед, завершается в конце <strong>набора записей</strong>. Если соответствующее значение не найдено, указатель записи размещается на <a href="bof-eof-properties-ado.md">EOF</a>.</p></td>
 </tr>

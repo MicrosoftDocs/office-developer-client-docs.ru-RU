@@ -77,8 +77,8 @@ Move &gt; 0</p></th>
 <td><p><strong>BOF=True,</strong><br />
 <strong>EOF=False</strong></p></td>
 <td><p>Разрешено</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Ошибка</p></td>
+<td><p>Ошибка</p></td>
 <td><p>Разрешено</p></td>
 </tr>
 <tr class="even">
@@ -86,14 +86,14 @@ Move &gt; 0</p></th>
 <strong>EOF=True</strong></p></td>
 <td><p>Разрешено</p></td>
 <td><p>Разрешено</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Ошибка</p></td>
+<td><p>Ошибка</p></td>
 </tr>
 <tr class="odd">
 <td><p>Оба свойства имеют значение <strong>True</strong></p></td>
 <td><p>Ошибка</p></td>
-<td><p>Error</p></td>
-<td><p>Error</p></td>
+<td><p>Ошибка</p></td>
+<td><p>Ошибка</p></td>
 <td><p>Ошибка</p></td>
 </tr>
 <tr class="even">

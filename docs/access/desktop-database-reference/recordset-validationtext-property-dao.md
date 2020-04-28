@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. ValidationText (DAO)
+title: Свойство Recordset.ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 32a5ab9a-becc-b39a-f6da-d44142235c78
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192311(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307520"
 ---
-# <a name="recordsetvalidationtext-property-dao"></a>Свойство Recordset. ValidationText (DAO)
+# <a name="recordsetvalidationtext-property-dao"></a>Свойство Recordset.ValidationText (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

@@ -42,7 +42,7 @@ ms.locfileid: "32306687"
 <tbody>
 <tr class="odd">
 <td><p><strong>Object Type</strong></p></td>
-<td><p>Тип объекта, который необходимо обновить. Щелкните <strong>Таблица</strong>, <strong>запрос</strong>, <strong>форма</strong>, <strong>отчет</strong>, <strong>макрос</strong>, <strong>модуль</strong>, <strong>Страница доступа к данным</strong>, <strong>представление сервера</strong>, <strong>схема</strong>, <strong>хранимая процедура</strong>или <strong>функция</strong> в <strong>типе объекта. </strong>в разделе <strong>аргументы макрокоманды</strong> в панели построителя макросов. Чтобы выбрать активный объект, оставьте этот аргумент пустым.</p></td>
+<td><p>Тип объекта, который необходимо обновить. Щелкните <strong>Таблица</strong>, <strong>запрос</strong>, <strong>форма</strong>, <strong>отчет</strong>, <strong>макрос</strong>, <strong>модуль</strong>, <strong>Страница доступа к данным</strong>, <strong>представление сервера</strong>, <strong>схема</strong>, <strong>хранимая процедура</strong>или <strong>функция</strong> в поле <strong>тип объекта</strong> в разделе <strong>аргументы макрокоманды</strong> в области построителя макросов. Чтобы выбрать активный объект, оставьте этот аргумент пустым.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Object Name</strong></p></td>
@@ -52,7 +52,7 @@ ms.locfileid: "32306687"
 </table>
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Microsoft Access ждет завершения отложенных обновлений экрана, пока не завершит другие задачи, ожидающие выполнения. С помощью этого действия можно принудительно выполнить немедленный перерисовку элементов управления в указанном объекте. Вы можете использовать это действие:
 

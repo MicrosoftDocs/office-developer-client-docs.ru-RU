@@ -37,7 +37,7 @@ ms.locfileid: "32314464"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адклипстринг</strong></p></td>
+<td><p><strong>адклипстринг</strong></p></td>
 <td><p>2</p></td>
 <td><p>Разделяет строки по <em>ровделимитер</em>, столбцам по <em>колумнделимитер</em>и значения NULL с помощью <em>нуллекспр</em>. Эти три параметра метода <a href="getstring-method-ado.md">GetString</a> действительны только с <em>стрингформат</em> <strong>адклипстринг</strong>.</p></td>
 </tr>

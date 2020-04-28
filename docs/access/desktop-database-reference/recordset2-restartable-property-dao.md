@@ -27,15 +27,15 @@ ms.locfileid: "32309092"
 
 *Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объект **Recordset** табличного типа всегда возвращает **значение false**.
 
-Проверьте свойство **** restarted перед использованием метода Restart объекта **Recordset** . **** Если свойство restarted объекта имеет значение **false**, используйте метод **[OpenRecordset](connection-openrecordset-method-dao.md)** базового объекта **[QueryDef](querydef-object-dao.md)** , чтобы повторно выполнить запрос. ****
+Проверьте свойство **restarted** перед использованием метода **restart** объекта **Recordset** . Если свойство **restarted** объекта имеет значение **false**, используйте метод **[OpenRecordset](connection-openrecordset-method-dao.md)** базового объекта **[QueryDef](querydef-object-dao.md)** , чтобы повторно выполнить запрос.
 
 ## <a name="example"></a>Пример
 
-В этом примере показано **** свойство restarted с различными объектами **Recordset** .
+В этом примере показано свойство **restarted** с различными объектами **Recordset** .
 
 ```vb
     Sub RestartableX()

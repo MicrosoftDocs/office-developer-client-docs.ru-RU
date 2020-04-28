@@ -20,7 +20,7 @@ ms.locfileid: "32314408"
 
 Представляет таблицу базы данных, в том числе столбцы, индексы и ключи.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В приведенном ниже коде создается новая **Таблица**:
 
@@ -32,7 +32,7 @@ ms.locfileid: "32314408"
 
 - Определите тип таблицы со свойством [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox) .
 
-- Доступ к столбцам базы данных таблицы с помощью [](columns-collection-adox.md) коллекции Columns.
+- Доступ к столбцам базы данных таблицы с помощью коллекции [Columns](columns-collection-adox.md) .
 
 - Доступ к индексам таблицы с помощью коллекции [indexes](indexes-collection-adox.md) .
 

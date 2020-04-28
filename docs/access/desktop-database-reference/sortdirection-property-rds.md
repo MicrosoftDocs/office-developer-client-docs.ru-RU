@@ -31,7 +31,7 @@ ms.locfileid: "32308619"
 |*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
 |*Значение* |**Логическое** значение, которое при установке равное **true**указывает направление сортировки — по возрастанию. **Значение false** указывает на убывающий порядок.|
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Свойства [sortColumn](sortcolumn-property-rds.md), **SortDirection**, [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) предоставляют функции сортировки и фильтрации кэша на стороне клиента. Функция сортировки упорядочивает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе критериев поиска, в то время как в кэше сохраняется полный [набор записей](recordset-object-ado.md) . Метод **Reset** выполнит условия и заменит текущий **набор** записей на обновляемый. ****
+Свойства [sortColumn](sortcolumn-property-rds.md), **SortDirection**, [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) предоставляют функции сортировки и фильтрации кэша на стороне клиента. Функция сортировки упорядочивает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе критериев поиска, в то время как в кэше сохраняется полный [набор записей](recordset-object-ado.md) . Метод **Reset** выполнит условия и заменит текущий **набор** **записей на обновляемый.**
 

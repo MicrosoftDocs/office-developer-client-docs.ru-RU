@@ -21,7 +21,7 @@ ms.locfileid: "32308486"
 
 Представляет поток двоичных данных или текста.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 В иерархических иерархиях, таких как файловая система или система электронной почты, [записи](record-object-ado.md) могут иметь двоичный поток по умолчанию, связанный с файлом, который содержит содержимое файла или сообщения электронной почты. Объект **Stream** можно использовать для управления полями или записями, содержащими эти потоки данных. Объект **Stream** можно получить следующими способами:
 
@@ -41,7 +41,7 @@ ms.locfileid: "32308486"
 
   - Считывание байтов из **потока** с помощью методов [Read](read-method-ado.md) и [ReadText](readtext-method-ado.md) .
 
-  - ЗаПишите все данные **потока** в БУФЕРе ADO в базовый объект с помощью метода [flush](flush-method-ado.md) .
+  - Запишите все данные **потока** в БУФЕРе ADO в базовый объект с помощью метода [flush](flush-method-ado.md) .
 
   - Скопируйте содержимое **потока** в другой **поток** с помощью метода [CopyTo](copyto-method-ado.md) .
 
@@ -55,17 +55,17 @@ ms.locfileid: "32308486"
 
   - Остановка асинхронной операции **потока** с помощью метода [Cancel](cancel-method-ado.md) .
 
-  - Определите количество байтов в потоке с **** помощью свойства [size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) .
+  - Определите количество байтов в **потоке** с помощью свойства [size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) .
 
-  - Управление текущей позицией в потоке **** с помощью свойства [position](position-property-ado.md) .
+  - Управление текущей позицией в **потоке** с помощью свойства [position](position-property-ado.md) .
 
-  - Определите тип данных в потоке с **** помощью свойства [Type](type-property-ado-stream.md) .
+  - Определите тип данных в **потоке** с помощью свойства [Type](type-property-ado-stream.md) .
 
   - Определение текущего состояния **потока** (закрытое, открытое или выполняемое) со свойством [State](state-property-ado.md) .
 
   - Укажите режим доступа для **потока** с помощью свойства [mode](mode-property-ado.md) .
 
 > [!NOTE]
-> URL-адреса, использующие схему HTTP, автоматически будут вызывать [поставщик Microsoft OLE DB для публикации в Интернете](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютные и относительНые URL-адреса](absolute-and-relative-urls.md).
+> URL-адреса, использующие схему HTTP, автоматически будут вызывать [поставщик Microsoft OLE DB для публикации в Интернете](microsoft-ole-db-provider-for-internet-publishing.md). Для получения дополнительных сведений см [абсолютные и относительные URL-адреса](absolute-and-relative-urls.md).
 
 

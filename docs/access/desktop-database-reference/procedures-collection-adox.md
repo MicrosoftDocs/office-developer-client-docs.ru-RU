@@ -21,7 +21,7 @@ ms.locfileid: "32301360"
 
 Содержит все объекты [процедур](procedure-object-adox.md) каталога.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Метод [append](append-method-adox-procedures.md) для коллекции **процедур** уникален для ADOX. Вы можете выполнить указанные ниже действия.
 

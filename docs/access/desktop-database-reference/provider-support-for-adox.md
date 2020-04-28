@@ -40,11 +40,11 @@ ms.locfileid: "32301101"
 <td><p>Метод <strong>CREATE</strong> не поддерживается.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong></strong> Коллекция Tables</p></td>
+<td><p>Коллекция <strong>Tables</strong></p></td>
 <td><p>Свойства доступны для чтения и записи перед созданием объекта и доступны только для чтения при обращении к существующему объекту.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong></strong> Коллекция views</p></td>
+<td><p>Коллекция <strong>views</strong></p></td>
 <td><p><strong>Представления</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
@@ -60,7 +60,7 @@ ms.locfileid: "32301101"
 <td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong></strong> Коллекция Users</p></td>
+<td><p>Коллекция <strong>Users</strong></p></td>
 <td><p><strong>Пользователи</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
@@ -90,7 +90,7 @@ ms.locfileid: "32301101"
 <td><p>Метод <strong>CREATE</strong> не поддерживается.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong></strong> Коллекция Tables</p></td>
+<td><p>Коллекция <strong>Tables</strong></p></td>
 <td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются. Свойства доступны для чтения и записи перед созданием объекта и доступны только для чтения при обращении к существующему объекту.</p></td>
 </tr>
 <tr class="odd">
@@ -110,7 +110,7 @@ ms.locfileid: "32301101"
 <td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong></strong> Коллекция Users</p></td>
+<td><p>Коллекция <strong>Users</strong></p></td>
 <td><p><strong>Пользователи</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
@@ -140,11 +140,11 @@ ms.locfileid: "32301101"
 <td><p>Метод <strong>CREATE</strong> не поддерживается.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong></strong> Коллекция Tables</p></td>
+<td><p>Коллекция <strong>Tables</strong></p></td>
 <td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются. Свойства доступны для чтения и записи перед созданием объекта и доступны только для чтения при обращении к существующему объекту.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong></strong> Коллекция views</p></td>
+<td><p>Коллекция <strong>views</strong></p></td>
 <td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
@@ -168,7 +168,7 @@ ms.locfileid: "32301101"
 <td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong></strong> Коллекция Users</p></td>
+<td><p>Коллекция <strong>Users</strong></p></td>
 <td><p><strong>Пользователи</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">

@@ -37,22 +37,22 @@ ms.locfileid: "32309285"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адсимплерекорд</strong></p></td>
+<td><p><strong>адсимплерекорд</strong></p></td>
 <td><p>нуль</p></td>
 <td><p>Показывает <em>простую</em> запись (не содержит дочерние узлы).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адколлектионрекорд</strong></p></td>
+<td><p><strong>адколлектионрекорд</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Указывает запись <em>коллекции</em> (содержит дочерние узлы).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адрекордункновн</strong></p></td>
+<td><p><strong>адрекордункновн</strong></p></td>
 <td><p>–1</p></td>
 <td><p>Указывает, что тип этой <strong>записи</strong> неизвестен.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адструктдок</strong></p></td>
+<td><p><strong>адструктдок</strong></p></td>
 <td><p>2</p></td>
 <td><p>Указывает запись <em>коллекции</em> особого типа, которая представляет структурированные документы com.</p></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. restarted Property (DAO)
+title: Свойство Recordset.Restartable (DAO)
 TOCTitle: Restartable Property
 ms:assetid: 00def49d-ea7e-6cd5-2f4a-914a1ddcdd51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844737(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307576"
 ---
-# <a name="recordsetrestartable-property-dao"></a>Свойство Recordset. restarted Property (DAO)
+# <a name="recordsetrestartable-property-dao"></a>Свойство Recordset.Restartable (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -35,11 +35,11 @@ ms.locfileid: "32307576"
 
 Объект **Recordset** табличного типа всегда возвращает **значение false**.
 
-Проверьте свойство **** restarted перед использованием метода Restart объекта **Recordset** . **** Если свойство restarted объекта имеет значение **false**, используйте метод **[OpenRecordset](connection-openrecordset-method-dao.md)** базового объекта **[QueryDef](querydef-object-dao.md)** , чтобы повторно выполнить запрос. ****
+Проверьте свойство **restarted** перед использованием метода **restart** объекта **Recordset** . Если свойство **restarted** объекта имеет значение **false**, используйте метод **[OpenRecordset](connection-openrecordset-method-dao.md)** базового объекта **[QueryDef](querydef-object-dao.md)** , чтобы повторно выполнить запрос.
 
 ## <a name="example"></a>Пример
 
-В этом примере показано **** свойство restarted с различными объектами **Recordset** .
+В этом примере показано свойство **restarted** с различными объектами **Recordset** .
 
 ```vb
     Sub RestartableX() 

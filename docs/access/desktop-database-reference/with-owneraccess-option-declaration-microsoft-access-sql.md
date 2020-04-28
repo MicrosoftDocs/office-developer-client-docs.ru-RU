@@ -31,7 +31,7 @@ ms.locfileid: "32302508"
 
 *склстатемент* С ПАРАМЕТРОМ OWNERACCESS OPTION
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Объявление параметра WITH OWNERACCESS OPTION является необязательным.
 

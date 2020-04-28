@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. RecordsetType (DAO)
+title: Свойство Recordset.RecordsetType (DAO)
 TOCTitle: RecordsetType Property
 ms:assetid: a66d4043-08cc-ead1-f9ff-efc7d7ea21bf
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821178(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307632"
 ---
-# <a name="recordsetrecordsettype-property-dao"></a>Свойство Recordset. RecordsetType (DAO)
+# <a name="recordsetrecordsettype-property-dao"></a>Свойство Recordset.RecordsetType (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -30,7 +30,7 @@ ms.locfileid: "32307632"
 
 *выражение*: переменная, представляющая объект **Form**.
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойство **RecordsetType** использует следующие параметры в базе данных Microsoft Access.
 
@@ -55,7 +55,7 @@ ms.locfileid: "32307632"
 </tr>
 <tr class="even">
 <td><p>1,1</p></td>
-<td><p>Динамическое подМножество (несогласованные обновления)</p></td>
+<td><p>Динамическое подмножество (несогласованные обновления)</p></td>
 <td><p>Можно редактировать все таблицы и элементы управления, привязанные к их полям.</p></td>
 </tr>
 <tr class="odd">
@@ -91,7 +91,7 @@ ms.locfileid: "32307632"
 <td><p>Не допускается редактирование таблиц и элементов управления, привязанных к их полям.</p></td>
 </tr>
 <tr class="even">
-<td><p>SP4</p></td>
+<td><p>4 </p></td>
 <td><p>Обновляемый моментальный снимок</p></td>
 <td><p>Умолчани Можно редактировать все таблицы и элементы управления, привязанные к их полям.</p></td>
 </tr>

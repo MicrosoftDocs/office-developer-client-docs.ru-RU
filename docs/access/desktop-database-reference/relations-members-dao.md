@@ -44,7 +44,7 @@ ms.locfileid: "32306953"
 <td><p>Удаляет указанное <strong>отношение</strong> из коллекции <strong>связей</strong> .</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="relations-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p><strong><a href="relations-refresh-method-dao.md">Обновление</a></strong></p></td>
 <td><p>Обновляет объекты в заданном коллетион в соответствии с текущей схемой базы данных.</p></td>
 </tr>
 </tbody>

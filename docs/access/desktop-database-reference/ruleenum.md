@@ -37,22 +37,22 @@ ms.locfileid: "32306680"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адрикаскаде</strong></p></td>
+<td><p><strong>адрикаскаде</strong></p></td>
 <td><p>1,1</p></td>
 <td><p>Изменения каскадом.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адриноне</strong></p></td>
+<td><p><strong>адриноне</strong></p></td>
 <td><p>нуль</p></td>
 <td><p>Значение, используемое по умолчанию. Никакие действия не предпринимаются.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Адрисетдефаулт</strong></p></td>
+<td><p><strong>адрисетдефаулт</strong></p></td>
 <td><p>4</p></td>
 <td><p>Для значения FOREIGN KEY задано значение по умолчанию.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адрисетнулл</strong></p></td>
+<td><p><strong>адрисетнулл</strong></p></td>
 <td><p>2</p></td>
 <td><p>Для значения FOREIGN KEY задано значение null.</p></td>
 </tr>

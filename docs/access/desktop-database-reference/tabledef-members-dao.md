@@ -37,10 +37,10 @@ ms.locfileid: "32314905"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="tabledef-createfield-method-dao.md">CreateField</a></strong></p></td>
-<td><p>Создает новый объект <strong><a href="field-object-dao.md">field</a></strong> (только для рабочих областей Microsoft Access). .</p></td>
+<td><p>Создает новый объект <strong><a href="field-object-dao.md">Field</a></strong> (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-createindex-method-dao.md">Креатеиндекс</a></strong></p></td>
+<td><p><strong><a href="tabledef-createindex-method-dao.md">креатеиндекс</a></strong></p></td>
 <td><p>Создает новый объект <strong><a href="index-object-dao.md">index</a></strong> (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
@@ -78,7 +78,7 @@ ms.locfileid: "32314905"
 <td><p>Задает или возвращает значение, которое указывает одну или несколько характеристик объекта <strong>tabledef</strong> . Для чтения и записи, <strong>Long</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-conflicttable-property-dao.md">Конфликттабле</a></strong></p></td>
+<td><p><strong><a href="tabledef-conflicttable-property-dao.md">конфликттабле</a></strong></p></td>
 <td><p>Возвращает имя таблицы конфликтов, содержащей записи базы данных, которые конфликтуют при синхронизации двух реплик (только для рабочих областей Microsoft Access). Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
@@ -114,8 +114,8 @@ ms.locfileid: "32314905"
 <td><p>Возвращает общее число записей в объекте <strong><a href="tabledef-object-dao.md">tabledef</a></strong> . Только для чтения, <strong>Long</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledef-replicafilter-property-dao.md">Репликафилтер</a></strong></p></td>
-<td><p>Задает или возвращает значение объекта <strong><a href="tabledef-object-dao.md">tabledef</a></strong> в частичной реплике, которое указывает, какое подмножество записей реплицируется в эту таблицу из полной реплики. (Только для рабочих областей Microsoft Access).</p></td>
+<td><p><strong><a href="tabledef-replicafilter-property-dao.md">репликафилтер</a></strong></p></td>
+<td><p>Задает или возвращает значение объекта <strong><a href="tabledef-object-dao.md">tabledef</a></strong> в частичной реплике, которое указывает, какое подмножество записей реплицируется в эту таблицу из полной реплики. (Только для рабочих областей Microsoft Access.)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong></p></td>

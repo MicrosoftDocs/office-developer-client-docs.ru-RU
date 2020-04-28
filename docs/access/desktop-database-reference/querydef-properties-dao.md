@@ -31,7 +31,7 @@ ms.locfileid: "32300989"
 - [Свойство QueryDef. Properties (DAO)](querydef-properties-property-dao.md)
 - [Свойство QueryDef. Рекордсаффектед (DAO)](querydef-recordsaffected-property-dao.md)
 - [Свойство QueryDef. ReturnsRecords (DAO)](querydef-returnsrecords-property-dao.md)
-- [Свойство QueryDef. SQL (DAO)](querydef-sql-property-dao.md)
+- [Свойство QueryDef.SQL (DAO)](querydef-sql-property-dao.md)
 - [Свойство QueryDef. Стиллексекутинг (DAO)](querydef-stillexecuting-property-dao.md)
 - [Свойство QueryDef. Type (DAO)](querydef-type-property-dao.md)
 - [Свойство QueryDef. обновляемое свойство (DAO)](querydef-updatable-property-dao.md)

@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordsets. Count (DAO)
+title: Свойство recordsets. Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 4362aa16-c8e9-e517-887e-c4532bd1eef9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192940(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309292"
 ---
-# <a name="recordsetscount-property-dao"></a>Свойство Recordsets. Count (DAO)
+# <a name="recordsetscount-property-dao"></a>Свойство recordsets. Count (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "32309292"
 
 *Expression (выражение* ) Переменная, представляющая объект **recordsets** .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Так как члены коллекции начинаются с 0, всегда следует всегда кодировать циклы, начиная с элемента 0 и заканчивая значением свойства **Count** минус 1. Если требуется перебрать элементы коллекции, не проверяя свойство **Count** , можно использовать оператор **For Each... Следующая** команда.
 

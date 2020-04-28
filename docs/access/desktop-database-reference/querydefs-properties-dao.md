@@ -1,5 +1,5 @@
 ---
-title: Свойства QueryDef (DAO)
+title: Свойства коллекции QueryDefs (DAO)
 TOCTitle: Properties
 ms:assetid: 06937998-6487-401e-a15c-ce3482223efb
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123567(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303446"
 ---
-# <a name="querydefs-properties-dao"></a>Свойства QueryDef (DAO)
+# <a name="querydefs-properties-dao"></a>Свойства коллекции QueryDefs (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

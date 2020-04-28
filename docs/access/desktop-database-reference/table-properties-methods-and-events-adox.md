@@ -29,7 +29,7 @@ ms.locfileid: "32308437"
 - [Свойство Type (Table)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
 
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 Нет.
 

@@ -24,7 +24,7 @@ ms.locfileid: "32307590"
 
 *Элемент управления*. SourceRecordset = *Recordset*
 
-** = *Элемент управления*"набор данных". Recordset
+*Recordset* = *Элемент управления*"набор данных". Recordset
 
 ## <a name="parameters"></a>Параметры
 
@@ -33,7 +33,7 @@ ms.locfileid: "32307590"
 |*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
 |*Recordset* |Объектная переменная, представляющая объект **Recordset** .|
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Вы можете задать для свойства **SourceRecordset** [набор записей](recordset-object-ado.md) , возвращенный из настраиваемого бизнес-объекта.
 

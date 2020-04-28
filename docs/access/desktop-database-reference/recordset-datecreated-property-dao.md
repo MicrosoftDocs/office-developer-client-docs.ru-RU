@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset. DateCreated (DAO)
+title: Свойство Recordset.DateCreated (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: bd63ac73-2218-b62c-a785-de08c4625dff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822732(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307667"
 ---
-# <a name="recordsetdatecreated-property-dao"></a>Свойство Recordset. DateCreated (DAO)
+# <a name="recordsetdatecreated-property-dao"></a>Свойство Recordset.DateCreated (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

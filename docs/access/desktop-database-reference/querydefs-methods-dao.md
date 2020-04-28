@@ -1,5 +1,5 @@
 ---
-title: Методы QueryDef (DAO)
+title: Методы коллекции QueryDefs (DAO)
 TOCTitle: Methods
 ms:assetid: 00c4003c-7d18-4c01-b5d3-78658bccfea3
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123475(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303229"
 ---
-# <a name="querydefs-methods-dao"></a>Методы QueryDef (DAO)
+# <a name="querydefs-methods-dao"></a>Методы коллекции QueryDefs (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

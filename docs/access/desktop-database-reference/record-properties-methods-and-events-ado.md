@@ -30,7 +30,7 @@ ms.locfileid: "32300716"
 - [Свойство State](state-property-ado.md)
 
 
-## <a name="methods"></a>Методы
+## <a name="methods"></a>Methods
 
 - [Метод Cancel](cancel-method-ado.md)
 - [Метод Close](close-method-ado.md)

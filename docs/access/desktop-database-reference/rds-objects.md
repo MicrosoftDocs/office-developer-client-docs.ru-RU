@@ -27,7 +27,7 @@ ms.locfileid: "32300884"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Object</th>
+<th>Объект</th>
 <th>Описание</th>
 </tr>
 <tr class="odd">

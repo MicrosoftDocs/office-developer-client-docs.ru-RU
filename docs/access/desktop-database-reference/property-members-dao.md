@@ -49,7 +49,7 @@ ms.locfileid: "32301213"
 </tr>
 <tr class="even">
 <td><p><strong><a href="property-type-property-dao.md">Тип</a></strong></p></td>
-<td><p>Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Чтение и запись <strong>целоГо числа</strong>.</p></td>
+<td><p>Задает или возвращает значение, указывающее операционный тип или тип данных объекта. Для чтения и записи, <strong>Integer</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="property-value-property-dao.md">Значение</a></strong></p></td>

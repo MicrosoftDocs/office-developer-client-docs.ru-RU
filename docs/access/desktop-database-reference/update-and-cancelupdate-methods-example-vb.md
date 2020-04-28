@@ -113,7 +113,7 @@ End Sub
 
 <br/>
 
-В этом примере демонстрируется метод **Update** в сочетании с методом [AddNew](addnew-method-ado.md) .
+В этом примере показано использование метода **Update** вместе с методом [AddNew](addnew-method-ado.md).
 
 ```vb 
  

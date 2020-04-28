@@ -31,11 +31,11 @@ ms.locfileid: "32314401"
 |Параметр|Описание|
 |:--------|:----------|
 |*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
-|*DataFactory* |Объектная переменная, представляющая объект [фактОв рдссервер.](datafactory-object-rdsserver.md) DataObject.|
+|*DataFactory* |Объектная переменная, представляющая объект [фактов рдссервер.](datafactory-object-rdsserver.md) DataObject.|
 |*Connection* |**Строковое** значение, представляющее подключение, созданное с помощью **RDS. **Свойство **Connect** объекта DataObject.|
 |*Recordset* |Объектная переменная, представляющая объект **Recordset** .|
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Необходимо задать свойства [Connect](connect-property-rds.md), [Server](server-property-rds.md)и [SQL](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado) , прежде чем можно будет использовать метод **SubmitChanges** с помощью **RDS. Объект управления** DataObject.
 

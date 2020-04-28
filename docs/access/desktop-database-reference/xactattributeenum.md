@@ -37,12 +37,12 @@ ms.locfileid: "32302571"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>Адксактабортретаининг</strong></p></td>
+<td><p><strong>адксактабортретаининг</strong></p></td>
 <td><p>262144</p></td>
 <td><p>Выполняет сохранение аварийных завершений; то есть при вызове <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> автоматически запускается новая транзакция. Не все поставщики поддерживают эту возможность.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>Адксакткоммитретаининг</strong></p></td>
+<td><p><strong>адксакткоммитретаининг</strong></p></td>
 <td><p>131072</p></td>
 <td><p>Сохраняет фиксации; то есть при вызове <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> автоматически запускается новая транзакция. Не все поставщики поддерживают эту возможность.</p></td>
 </tr>

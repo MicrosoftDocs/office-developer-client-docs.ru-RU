@@ -38,11 +38,11 @@ ms.locfileid: "32301381"
 |Часть |Описание |
 |:----|:-----------|
 |*name* |Название процедуры. Необходимо выполнение стандартных соглашений об именовании.|
-|*param1*, *param2* |Одно или несколько имен полей или параметров. Пример:<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Дополнительные сведения о параметрах приведены в разделе [Parameters](parameters-declaration-microsoft-access-sql.md).|
+|*param1*, *param2* |Одно или несколько имен полей или параметров. Например:<br/><br/>`PROCEDURE Sales_By_Country [Beginning Date] DateTime, [Ending Date] DateTime;`<br/><br/>Дополнительные сведения о параметрах приведены в разделе [Parameters](parameters-declaration-microsoft-access-sql.md).|
 |*datatype* | Один из основных [типов данных Microsoft Access SQL](sql-data-types.md) или их синонимов. |
 
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Процедура SQL состоит из предложения PROCEDURE (которое указывает имя процедуры), необязательного списка определений параметров и одной инструкции SQL. Например, номер детали\_\_процедуры Get может выполнить запрос, который получает номер указанной части.
 
@@ -52,7 +52,7 @@ ms.locfileid: "32301381"
 
 ## <a name="example"></a>Пример
 
-В этом примере присваивается имя запросу EnumFields и выполняется вызов процедуры EnumFields, который вы можете найти в приведенном примере инструкции SELECT.
+В этом примере присваивается имя запросу CategoryList и выполняется вызов процедуры EnumFields, которую вы можете найти в приведенном примере для оператора SELECT.
 
 ```vb
     Sub ProcedureX() 

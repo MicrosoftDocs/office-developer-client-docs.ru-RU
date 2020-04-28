@@ -1,5 +1,5 @@
 ---
-title: Элементы QueryDef (DAO)
+title: Элементы коллекции QueryDefs (DAO)
 TOCTitle: QueryDefs Members
 ms:assetid: d178fa87-cf01-cb5b-357d-45d8b4e1b0ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834754(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301024"
 ---
-# <a name="querydefs-members-dao"></a>Элементы QueryDef (DAO)
+# <a name="querydefs-members-dao"></a>Элементы коллекции QueryDefs (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -44,7 +44,7 @@ ms.locfileid: "32301024"
 <td><p>Не поддерживается для этой коллекции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydefs-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p><strong><a href="querydefs-refresh-method-dao.md">Обновление</a></strong></p></td>
 <td><p>Не поддерживается для объекта.</p></td>
 </tr>
 </tbody>

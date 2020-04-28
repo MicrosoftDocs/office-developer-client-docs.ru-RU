@@ -19,7 +19,7 @@ ms.locfileid: "32302596"
 
 **Область применения**: Access 2013, Office 2013
 
-Объект Workspace определяет именованный сеанс для пользователя. Он содержит открытые базы данных и предоставляет механизмы для одновременных транзакций, а в рабочих областях Microsoft Access обеспечивает надежную поддержку рабочих групп.
+Объект Workspace определяет именованный сеанс для пользователя. Он содержит открытые базы данных и предоставляет механизмы для одновременных транзакций и (в рабочих областях Microsoft Access) поддержку защищенной рабочей группы.
 
 ## <a name="methods"></a>Методы
 
@@ -41,7 +41,7 @@ ms.locfileid: "32302596"
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-close-method-dao.md">Close</a></strong></p></td>
-<td><p>ЗаКрывает открытую <strong>рабочую область</strong>.</p></td>
+<td><p>Закрывает открытую <strong>рабочую область</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="workspace-committrans-method-dao.md">CommitTrans</a></strong></p></td>
@@ -91,12 +91,12 @@ ms.locfileid: "32302596"
 <td><p>Возвращает коллекцию <strong>баз данных</strong> , представляющую открытые базы данных в указанной <strong>рабочей области</strong>. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="workspace-defaultcursordriver-property-dao.md">Дефаулткурсордривер</a></strong></p></td>
+<td><p><strong><a href="workspace-defaultcursordriver-property-dao.md">дефаулткурсордривер</a></strong></p></td>
 <td><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p>
 <p>Задает или возвращает тип драйвера курсора, используемого в соединении, созданном методами <strong><a href="dbengine-openconnection-method-dao.md">OpenConnection</a></strong> или <strong><a href="dbengine-opendatabase-method-dao.md">openDatabase</a></strong> (только для рабочих областей ODBCDirect).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">Исолатеодбктранс</a></strong></p></td>
+<td><p><strong><a href="workspace-isolateodbctrans-property-dao.md">исолатеодбктранс</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее, изолированы ли множественные транзакции, использующие один и тот же источник данных ODBC, подключенный к ядру СУБД Microsoft Access (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
@@ -113,7 +113,7 @@ ms.locfileid: "32302596"
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspace-type-property-dao.md">Тип</a></strong></p></td>
-<td><p>Задает или возвращает значение, которое указывает операционный тип или тип данных объекта. Только для чтения, <strong>Integer</strong>.</p></td>
+<td><p>Задает или возвращает значение, указывающее операционный тип или тип данных объекта. Только для чтения, <strong>Integer</strong>.</p></td>
 </tr>
 </tbody>
 </table>

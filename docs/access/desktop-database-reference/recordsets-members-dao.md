@@ -36,7 +36,7 @@ ms.locfileid: "32309264"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="recordsets-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p><strong><a href="recordsets-refresh-method-dao.md">Обновление</a></strong></p></td>
 <td><p>Не поддерживается для объекта.</p></td>
 </tr>
 </tbody>

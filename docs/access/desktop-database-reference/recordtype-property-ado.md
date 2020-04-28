@@ -25,7 +25,7 @@ ms.locfileid: "32309107"
 
 Возвращает значение [рекордтипинум](recordtypeenum.md) .
 
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Свойство **RecordType** доступно только для чтения.
 
