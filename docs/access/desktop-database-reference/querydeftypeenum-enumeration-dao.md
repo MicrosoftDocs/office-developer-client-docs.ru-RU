@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300919"
 ---
-# <a name="querydeftypeenum-enumeration-dao"></a><span data-ttu-id="aff0c-102">Перечисление Куеридефтипинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="aff0c-102">QueryDefTypeEnum enumeration (DAO)</span></span>
+# <a name="querydeftypeenum-enumeration-dao"></a><span data-ttu-id="bbc04-102">Перечисление Куеридефтипинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="bbc04-102">QueryDefTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="aff0c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aff0c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bbc04-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bbc04-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="aff0c-104">Используется со свойством **Type** для указания типа объекта **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="aff0c-104">Used with the **Type** property to specify the type of **QueryDef** object.</span></span>
+<span data-ttu-id="bbc04-104">Используется со свойством **Type** для указания типа объекта **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="bbc04-104">Used with the **Type** property to specify the type of **QueryDef** object.</span></span>
 
 <table>
 <colgroup>
@@ -29,76 +29,76 @@ ms.locfileid: "32300919"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="aff0c-105">Имя</span><span class="sxs-lookup"><span data-stu-id="aff0c-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="aff0c-106">Значение</span><span class="sxs-lookup"><span data-stu-id="aff0c-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="aff0c-107">Описание</span><span class="sxs-lookup"><span data-stu-id="aff0c-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="bbc04-105">Имя</span><span class="sxs-lookup"><span data-stu-id="bbc04-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="bbc04-106">Значение</span><span class="sxs-lookup"><span data-stu-id="bbc04-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="bbc04-107">Описание</span><span class="sxs-lookup"><span data-stu-id="bbc04-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="aff0c-108">Дбкактион</span><span class="sxs-lookup"><span data-stu-id="aff0c-108">dbQAction</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-109">240</span><span class="sxs-lookup"><span data-stu-id="aff0c-109">240</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-110">Запрос на изменение</span><span class="sxs-lookup"><span data-stu-id="aff0c-110">Action query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-108">дбкактион</span><span class="sxs-lookup"><span data-stu-id="bbc04-108">dbQAction</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-109">240</span><span class="sxs-lookup"><span data-stu-id="bbc04-109">240</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-110">Запрос на изменение</span><span class="sxs-lookup"><span data-stu-id="bbc04-110">Action query</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aff0c-111">Дбкаппенд</span><span class="sxs-lookup"><span data-stu-id="aff0c-111">dbQAppend</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-112">64</span><span class="sxs-lookup"><span data-stu-id="aff0c-112">64</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-113">Запрос на добавление</span><span class="sxs-lookup"><span data-stu-id="aff0c-113">Append query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-111">дбкаппенд</span><span class="sxs-lookup"><span data-stu-id="bbc04-111">dbQAppend</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-112">64</span><span class="sxs-lookup"><span data-stu-id="bbc04-112">64</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-113">Запрос на добавление</span><span class="sxs-lookup"><span data-stu-id="bbc04-113">Append query</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aff0c-114">Дбккомпаунд</span><span class="sxs-lookup"><span data-stu-id="aff0c-114">dbQCompound</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-115">160</span><span class="sxs-lookup"><span data-stu-id="aff0c-115">160</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-116">Составной запрос</span><span class="sxs-lookup"><span data-stu-id="aff0c-116">Compound query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-114">дбккомпаунд</span><span class="sxs-lookup"><span data-stu-id="bbc04-114">dbQCompound</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-115">160</span><span class="sxs-lookup"><span data-stu-id="bbc04-115">160</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-116">Составной запрос</span><span class="sxs-lookup"><span data-stu-id="bbc04-116">Compound query</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aff0c-117">Дбккросстаб</span><span class="sxs-lookup"><span data-stu-id="aff0c-117">dbQCrosstab</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-118">столбцов</span><span class="sxs-lookup"><span data-stu-id="aff0c-118">16</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-119">Перекрестный запрос</span><span class="sxs-lookup"><span data-stu-id="aff0c-119">Crosstab query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-117">дбккросстаб</span><span class="sxs-lookup"><span data-stu-id="bbc04-117">dbQCrosstab</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-118">16 </span><span class="sxs-lookup"><span data-stu-id="bbc04-118">16</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-119">Перекрестный запрос</span><span class="sxs-lookup"><span data-stu-id="bbc04-119">Crosstab query</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aff0c-120">Дбкддл</span><span class="sxs-lookup"><span data-stu-id="aff0c-120">dbQDDL</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-121">96</span><span class="sxs-lookup"><span data-stu-id="aff0c-121">96</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-122">Запрос языка определения данных (DDL)</span><span class="sxs-lookup"><span data-stu-id="aff0c-122">Data-definition language (DDL) query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-120">дбкддл</span><span class="sxs-lookup"><span data-stu-id="bbc04-120">dbQDDL</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-121">96</span><span class="sxs-lookup"><span data-stu-id="bbc04-121">96</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-122">Запрос языка определения данных (DDL)</span><span class="sxs-lookup"><span data-stu-id="bbc04-122">Data-definition language (DDL) query</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aff0c-123">Дбкделете</span><span class="sxs-lookup"><span data-stu-id="aff0c-123">dbQDelete</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-124">32</span><span class="sxs-lookup"><span data-stu-id="aff0c-124">32</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-125">Запрос на удаление</span><span class="sxs-lookup"><span data-stu-id="aff0c-125">Delete query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-123">дбкделете</span><span class="sxs-lookup"><span data-stu-id="bbc04-123">dbQDelete</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-124">32</span><span class="sxs-lookup"><span data-stu-id="bbc04-124">32</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-125">Запрос на удаление</span><span class="sxs-lookup"><span data-stu-id="bbc04-125">Delete query</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aff0c-126">Дбкмакетабле</span><span class="sxs-lookup"><span data-stu-id="aff0c-126">dbQMakeTable</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-127">80</span><span class="sxs-lookup"><span data-stu-id="aff0c-127">80</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-128">Запрос на создание таблицы</span><span class="sxs-lookup"><span data-stu-id="aff0c-128">Make-table query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-126">дбкмакетабле</span><span class="sxs-lookup"><span data-stu-id="bbc04-126">dbQMakeTable</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-127">80</span><span class="sxs-lookup"><span data-stu-id="bbc04-127">80</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-128">Запрос на создание таблицы</span><span class="sxs-lookup"><span data-stu-id="bbc04-128">Make-table query</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aff0c-129">Дбкпроцедуре</span><span class="sxs-lookup"><span data-stu-id="aff0c-129">dbQProcedure</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-130">224</span><span class="sxs-lookup"><span data-stu-id="aff0c-130">224</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-131">Процедура SQL, которая выполняет хранимую процедуру</span><span class="sxs-lookup"><span data-stu-id="aff0c-131">SQL procedure that executes a stored procedure</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-129">дбкпроцедуре</span><span class="sxs-lookup"><span data-stu-id="bbc04-129">dbQProcedure</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-130">224</span><span class="sxs-lookup"><span data-stu-id="bbc04-130">224</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-131">Процедура SQL, которая выполняет хранимую процедуру</span><span class="sxs-lookup"><span data-stu-id="bbc04-131">SQL procedure that executes a stored procedure</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aff0c-132">Дбкселект</span><span class="sxs-lookup"><span data-stu-id="aff0c-132">dbQSelect</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-133">нуль</span><span class="sxs-lookup"><span data-stu-id="aff0c-133">0</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-134">Запрос на выборку</span><span class="sxs-lookup"><span data-stu-id="aff0c-134">Select query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-132">дбкселект</span><span class="sxs-lookup"><span data-stu-id="bbc04-132">dbQSelect</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-133">нуль</span><span class="sxs-lookup"><span data-stu-id="bbc04-133">0</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-134">Запрос на выборку</span><span class="sxs-lookup"><span data-stu-id="bbc04-134">Select query</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aff0c-135">Дбксетоператион</span><span class="sxs-lookup"><span data-stu-id="aff0c-135">dbQSetOperation</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-136">128</span><span class="sxs-lookup"><span data-stu-id="aff0c-136">128</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-137">Запрос на определение операции</span><span class="sxs-lookup"><span data-stu-id="aff0c-137">Set operation query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-135">дбксетоператион</span><span class="sxs-lookup"><span data-stu-id="bbc04-135">dbQSetOperation</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-136">128</span><span class="sxs-lookup"><span data-stu-id="bbc04-136">128</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-137">Запрос на определение операции</span><span class="sxs-lookup"><span data-stu-id="bbc04-137">Set operation query</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aff0c-138">Дбксптбулк</span><span class="sxs-lookup"><span data-stu-id="aff0c-138">dbQSPTBulk</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-139">144</span><span class="sxs-lookup"><span data-stu-id="aff0c-139">144</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-140">Запрос массовой операции</span><span class="sxs-lookup"><span data-stu-id="aff0c-140">Bulk operation query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-138">дбксптбулк</span><span class="sxs-lookup"><span data-stu-id="bbc04-138">dbQSPTBulk</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-139">144</span><span class="sxs-lookup"><span data-stu-id="bbc04-139">144</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-140">Запрос массовой операции</span><span class="sxs-lookup"><span data-stu-id="bbc04-140">Bulk operation query</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="aff0c-141">Дбксклпасссраугх</span><span class="sxs-lookup"><span data-stu-id="aff0c-141">dbQSQLPassThrough</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-142">112</span><span class="sxs-lookup"><span data-stu-id="aff0c-142">112</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-143">Запрос к серверу SQL</span><span class="sxs-lookup"><span data-stu-id="aff0c-143">SQL pass-through query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-141">дбксклпасссраугх</span><span class="sxs-lookup"><span data-stu-id="bbc04-141">dbQSQLPassThrough</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-142">112</span><span class="sxs-lookup"><span data-stu-id="bbc04-142">112</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-143">Запрос к серверу SQL</span><span class="sxs-lookup"><span data-stu-id="bbc04-143">SQL pass-through query</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="aff0c-144">Дбкупдате</span><span class="sxs-lookup"><span data-stu-id="aff0c-144">dbQUpdate</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-145">48</span><span class="sxs-lookup"><span data-stu-id="aff0c-145">48</span></span></p></td>
-<td><p><span data-ttu-id="aff0c-146">Запрос на обновление</span><span class="sxs-lookup"><span data-stu-id="aff0c-146">Update query</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-144">дбкупдате</span><span class="sxs-lookup"><span data-stu-id="bbc04-144">dbQUpdate</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-145">48</span><span class="sxs-lookup"><span data-stu-id="bbc04-145">48</span></span></p></td>
+<td><p><span data-ttu-id="bbc04-146">Запрос на обновление</span><span class="sxs-lookup"><span data-stu-id="bbc04-146">Update query</span></span></p></td>
 </tr>
 </tbody>
 </table>

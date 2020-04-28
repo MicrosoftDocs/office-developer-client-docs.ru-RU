@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312049"
 ---
-# <a name="views-append-method-example-vb"></a><span data-ttu-id="1b89f-102">Пример использования метода Append для коллекции Views (VB)</span><span class="sxs-lookup"><span data-stu-id="1b89f-102">Views Append method example (VB)</span></span>
+# <a name="views-append-method-example-vb"></a><span data-ttu-id="a61a3-102">Пример использования метода Append для коллекции Views (VB)</span><span class="sxs-lookup"><span data-stu-id="a61a3-102">Views Append method example (VB)</span></span>
 
 
-<span data-ttu-id="1b89f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b89f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a61a3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a61a3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1b89f-104">В приведенном ниже коде показано, как использовать объект [Command](command-object-ado.md) и метод [append](append-method-adox-views.md) коллекции [views](views-collection-adox.md) для создания нового представления в базовом источнике данных.</span><span class="sxs-lookup"><span data-stu-id="1b89f-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Views](views-collection-adox.md) collection [Append](append-method-adox-views.md) method to create a new view in the underlying data source.</span></span>
+<span data-ttu-id="a61a3-104">В приведенном ниже коде показано, как использовать объект [Command](command-object-ado.md) и метод [append](append-method-adox-views.md) коллекции [views](views-collection-adox.md) для создания нового представления в базовом источнике данных.</span><span class="sxs-lookup"><span data-stu-id="a61a3-104">The following code demonstrates how to use a [Command](command-object-ado.md) object and the [Views](views-collection-adox.md) collection [Append](append-method-adox-views.md) method to create a new view in the underlying data source.</span></span>
 
 ```vb 
  

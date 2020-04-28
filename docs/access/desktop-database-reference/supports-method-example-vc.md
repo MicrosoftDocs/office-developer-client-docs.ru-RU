@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308458"
 ---
-# <a name="supports-method-example-vc"></a><span data-ttu-id="48640-102">Пример использования метода Supports (VC++)</span><span class="sxs-lookup"><span data-stu-id="48640-102">Supports method example (VC++)</span></span>
+# <a name="supports-method-example-vc"></a><span data-ttu-id="a4fd1-102">Пример использования метода Supports (VC++)</span><span class="sxs-lookup"><span data-stu-id="a4fd1-102">Supports method example (VC++)</span></span>
 
 
-<span data-ttu-id="48640-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="48640-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a4fd1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a4fd1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="48640-104">В этом примере используется [](supports-method-ado.md) метод Supports для отображения параметров, которые поддерживаются набором записей с разными типами курсоров.</span><span class="sxs-lookup"><span data-stu-id="48640-104">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types.</span></span> <span data-ttu-id="48640-105">Для запуска этого примера требуется функция Дисплайсуппорт.</span><span class="sxs-lookup"><span data-stu-id="48640-105">The DisplaySupport function is required for this example to run.</span></span>
+<span data-ttu-id="a4fd1-104">В этом примере используется [метод](supports-method-ado.md) Supports для отображения параметров, которые поддерживаются набором записей с разными типами курсоров.</span><span class="sxs-lookup"><span data-stu-id="a4fd1-104">This example uses the [Supports](supports-method-ado.md) method to display the options supported by a recordset opened with different cursor types.</span></span> <span data-ttu-id="a4fd1-105">Для запуска этого примера требуется функция Дисплайсуппорт.</span><span class="sxs-lookup"><span data-stu-id="a4fd1-105">The DisplaySupport function is required for this example to run.</span></span>
 
 ```cpp 
  

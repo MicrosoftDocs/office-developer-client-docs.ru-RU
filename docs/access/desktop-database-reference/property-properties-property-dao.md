@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301185"
 ---
-# <a name="propertyproperties-property-dao"></a><span data-ttu-id="18880-102">Свойство Property. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="18880-102">Property.Properties property (DAO)</span></span>
+# <a name="propertyproperties-property-dao"></a><span data-ttu-id="ffcce-102">Свойство Property. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="ffcce-102">Property.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="18880-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="18880-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ffcce-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ffcce-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="18880-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="18880-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="18880-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="18880-105">Read-only.</span></span>
+<span data-ttu-id="ffcce-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="ffcce-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="ffcce-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="ffcce-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="18880-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="18880-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ffcce-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ffcce-106">Syntax</span></span>
 
-<span data-ttu-id="18880-107">*Expression* . Параметры</span><span class="sxs-lookup"><span data-stu-id="18880-107">*expression* .Properties</span></span>
+<span data-ttu-id="ffcce-107">*Expression* . Параметры</span><span class="sxs-lookup"><span data-stu-id="ffcce-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="18880-108">*Expression (выражение* ) Переменная, представляющая объект **Property** .</span><span class="sxs-lookup"><span data-stu-id="18880-108">*expression* A variable that represents a **Property** object.</span></span>
+<span data-ttu-id="ffcce-108">*Expression (выражение* ) Переменная, представляющая объект **Property** .</span><span class="sxs-lookup"><span data-stu-id="ffcce-108">*expression* A variable that represents a **Property** object.</span></span>
 

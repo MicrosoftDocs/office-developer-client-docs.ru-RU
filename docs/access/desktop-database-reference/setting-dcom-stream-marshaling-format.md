@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308668"
 ---
-# <a name="setting-dcom-stream-marshaling-format"></a><span data-ttu-id="6b83c-102">Настройка формата маршалинга потоков DCOM</span><span class="sxs-lookup"><span data-stu-id="6b83c-102">Setting DCOM stream marshaling format</span></span>
+# <a name="setting-dcom-stream-marshaling-format"></a><span data-ttu-id="23ba1-102">Настройка формата маршалинга потоков DCOM</span><span class="sxs-lookup"><span data-stu-id="23ba1-102">Setting DCOM stream marshaling format</span></span>
 
 
-<span data-ttu-id="6b83c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b83c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="23ba1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23ba1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6b83c-104">Клиентский компьютер, использующий компоненты из RDS 1,5 или более ранней версии, несовместим с сервером, использующим компоненты RDS 2,0 или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="6b83c-104">A client computer using components from RDS 1.5 or earlier is not compatible with a server using components from RDS 2.0 or later.</span></span> <span data-ttu-id="6b83c-105">При использовании DCOM в качестве базового протокола поддержка RDS 2,0 или более поздней версии более эффективна при переносе объектов [Recordset](recordset-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="6b83c-105">When using DCOM as the underlying protocol, the support for RDS 2.0 or later is more efficient in transporting [Recordset](recordset-object-ado.md) objects.</span></span> <span data-ttu-id="6b83c-106">Если на клиенте выполняются компоненты из RDS 1,5 или более ранней версии, можно настроить сервер для работы с предыдущей службой поддержки RDS (называемой RDS 1,0) или более новой поддержкой RDS (под названием RDS 2,0 или более поздней версии).</span><span class="sxs-lookup"><span data-stu-id="6b83c-106">If your client is running components from RDS 1.5 or earlier, you can set your server to work with the previous RDS support (called RDS 1.0) or the newer RDS support (called RDS 2.0 or later).</span></span> <span data-ttu-id="6b83c-107">Задайте один из следующих параметров реестра:</span><span class="sxs-lookup"><span data-stu-id="6b83c-107">Set either of the following registry entries:</span></span>
+<span data-ttu-id="23ba1-104">Клиентский компьютер, использующий компоненты из RDS 1,5 или более ранней версии, несовместим с сервером, использующим компоненты RDS 2,0 или более поздней версии.</span><span class="sxs-lookup"><span data-stu-id="23ba1-104">A client computer using components from RDS 1.5 or earlier is not compatible with a server using components from RDS 2.0 or later.</span></span> <span data-ttu-id="23ba1-105">При использовании DCOM в качестве базового протокола поддержка RDS 2,0 или более поздней версии более эффективна при переносе объектов [Recordset](recordset-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="23ba1-105">When using DCOM as the underlying protocol, the support for RDS 2.0 or later is more efficient in transporting [Recordset](recordset-object-ado.md) objects.</span></span> <span data-ttu-id="23ba1-106">Если на клиенте выполняются компоненты из RDS 1,5 или более ранней версии, можно настроить сервер для работы с предыдущей службой поддержки RDS (называемой RDS 1,0) или более новой поддержкой RDS (под названием RDS 2,0 или более поздней версии).</span><span class="sxs-lookup"><span data-stu-id="23ba1-106">If your client is running components from RDS 1.5 or earlier, you can set your server to work with the previous RDS support (called RDS 1.0) or the newer RDS support (called RDS 2.0 or later).</span></span> <span data-ttu-id="23ba1-107">Задайте один из следующих параметров реестра:</span><span class="sxs-lookup"><span data-stu-id="23ba1-107">Set either of the following registry entries:</span></span>
 
 ```vb 
  
@@ -29,7 +29,7 @@ ms.locfileid: "32308668"
  \ADTGOptions]"MarshalFormat"="RDS10" 
 ```
 
-<span data-ttu-id="6b83c-108">\-также</span><span class="sxs-lookup"><span data-stu-id="6b83c-108">\-or-</span></span>
+<span data-ttu-id="23ba1-108">\-также</span><span class="sxs-lookup"><span data-stu-id="23ba1-108">\-or-</span></span>
 
 ```vb 
  

@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308451"
 ---
-# <a name="synchronizetypeenum-enumeration-dao"></a><span data-ttu-id="8090c-102">Перечисление Синчронизетипинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="8090c-102">SynchronizeTypeEnum enumeration (DAO)</span></span>
+# <a name="synchronizetypeenum-enumeration-dao"></a><span data-ttu-id="7340d-102">Перечисление Синчронизетипинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="7340d-102">SynchronizeTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="8090c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8090c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7340d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7340d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8090c-104">Используется с методом **Synchronize** для определения типа синхронизации, применяемой к двум репликам.</span><span class="sxs-lookup"><span data-stu-id="8090c-104">Used with the **Synchronize** method to determine the type of synchronization to apply to two replicas.</span></span>
+<span data-ttu-id="7340d-104">Используется с методом **Synchronize** для определения типа синхронизации, применяемой к двум репликам.</span><span class="sxs-lookup"><span data-stu-id="7340d-104">Used with the **Synchronize** method to determine the type of synchronization to apply to two replicas.</span></span>
 
 <table>
 <colgroup>
@@ -29,31 +29,31 @@ ms.locfileid: "32308451"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="8090c-105">Имя</span><span class="sxs-lookup"><span data-stu-id="8090c-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="8090c-106">Значение</span><span class="sxs-lookup"><span data-stu-id="8090c-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="8090c-107">Описание</span><span class="sxs-lookup"><span data-stu-id="8090c-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="7340d-105">Имя</span><span class="sxs-lookup"><span data-stu-id="7340d-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="7340d-106">Значение</span><span class="sxs-lookup"><span data-stu-id="7340d-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="7340d-107">Описание</span><span class="sxs-lookup"><span data-stu-id="7340d-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="8090c-108">Дбрепекспортчанжес</span><span class="sxs-lookup"><span data-stu-id="8090c-108">dbRepExportChanges</span></span></p></td>
-<td><p><span data-ttu-id="8090c-109">1,1</span><span class="sxs-lookup"><span data-stu-id="8090c-109">1</span></span></p></td>
-<td><p><span data-ttu-id="8090c-110">Отправляет изменения из текущей базы данных в целевую.</span><span class="sxs-lookup"><span data-stu-id="8090c-110">Sends changes from current database to target database.</span></span></p></td>
+<td><p><span data-ttu-id="7340d-108">дбрепекспортчанжес</span><span class="sxs-lookup"><span data-stu-id="7340d-108">dbRepExportChanges</span></span></p></td>
+<td><p><span data-ttu-id="7340d-109">1,1</span><span class="sxs-lookup"><span data-stu-id="7340d-109">1</span></span></p></td>
+<td><p><span data-ttu-id="7340d-110">Отправляет изменения из текущей базы данных в целевую.</span><span class="sxs-lookup"><span data-stu-id="7340d-110">Sends changes from current database to target database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8090c-111">Дбрепимпекспчанжес</span><span class="sxs-lookup"><span data-stu-id="8090c-111">dbRepImpExpChanges</span></span></p></td>
-<td><p><span data-ttu-id="8090c-112">SP4</span><span class="sxs-lookup"><span data-stu-id="8090c-112">4</span></span></p></td>
-<td><p><span data-ttu-id="8090c-113">Отправка и получение данных в двунаправленном обмене.</span><span class="sxs-lookup"><span data-stu-id="8090c-113">Sends and receives data in a bidirectional exchange.</span></span></p></td>
+<td><p><span data-ttu-id="7340d-111">дбрепимпекспчанжес</span><span class="sxs-lookup"><span data-stu-id="7340d-111">dbRepImpExpChanges</span></span></p></td>
+<td><p><span data-ttu-id="7340d-112">4 </span><span class="sxs-lookup"><span data-stu-id="7340d-112">4</span></span></p></td>
+<td><p><span data-ttu-id="7340d-113">Отправка и получение данных в двунаправленном обмене.</span><span class="sxs-lookup"><span data-stu-id="7340d-113">Sends and receives data in a bidirectional exchange.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="8090c-114">Дбрепимпортчанжес</span><span class="sxs-lookup"><span data-stu-id="8090c-114">dbRepImportChanges</span></span></p></td>
-<td><p><span data-ttu-id="8090c-115">2</span><span class="sxs-lookup"><span data-stu-id="8090c-115">2</span></span></p></td>
-<td><p><span data-ttu-id="8090c-116">Получает изменения из целевой базы данных.</span><span class="sxs-lookup"><span data-stu-id="8090c-116">Receives changes from target database.</span></span></p></td>
+<td><p><span data-ttu-id="7340d-114">дбрепимпортчанжес</span><span class="sxs-lookup"><span data-stu-id="7340d-114">dbRepImportChanges</span></span></p></td>
+<td><p><span data-ttu-id="7340d-115">2</span><span class="sxs-lookup"><span data-stu-id="7340d-115">2</span></span></p></td>
+<td><p><span data-ttu-id="7340d-116">Получает изменения из целевой базы данных.</span><span class="sxs-lookup"><span data-stu-id="7340d-116">Receives changes from target database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="8090c-117">ДбрепсинЦинтернет</span><span class="sxs-lookup"><span data-stu-id="8090c-117">dbRepSyncInternet</span></span></p></td>
-<td><p><span data-ttu-id="8090c-118">столбцов</span><span class="sxs-lookup"><span data-stu-id="8090c-118">16</span></span></p></td>
-<td><p><span data-ttu-id="8090c-119">Отправка и получение данных в двунаправленном обмене.</span><span class="sxs-lookup"><span data-stu-id="8090c-119">Sends and receives data in a bidirectional exchange.</span></span></p></td>
+<td><p><span data-ttu-id="7340d-117">дбрепсинЦинтернет</span><span class="sxs-lookup"><span data-stu-id="7340d-117">dbRepSyncInternet</span></span></p></td>
+<td><p><span data-ttu-id="7340d-118">16 </span><span class="sxs-lookup"><span data-stu-id="7340d-118">16</span></span></p></td>
+<td><p><span data-ttu-id="7340d-119">Отправка и получение данных в двунаправленном обмене.</span><span class="sxs-lookup"><span data-stu-id="7340d-119">Sends and receives data in a bidirectional exchange.</span></span></p></td>
 </tr>
 </tbody>
 </table>

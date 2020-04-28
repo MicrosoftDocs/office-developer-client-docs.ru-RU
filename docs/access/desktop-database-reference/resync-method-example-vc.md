@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306561"
 ---
-# <a name="resync-method-example-vc"></a><span data-ttu-id="b1679-102">Пример использования метода Resync (VC++)</span><span class="sxs-lookup"><span data-stu-id="b1679-102">Resync method example (VC++)</span></span>
+# <a name="resync-method-example-vc"></a><span data-ttu-id="1f3a8-102">Пример использования метода Resync (VC++)</span><span class="sxs-lookup"><span data-stu-id="1f3a8-102">Resync method example (VC++)</span></span>
 
 
-<span data-ttu-id="b1679-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1679-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1f3a8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1f3a8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b1679-104">В этом примере демонстрируется [](resync-method-ado.md) использование метода Resync для обновления данных в статическом объекте Recordset.</span><span class="sxs-lookup"><span data-stu-id="b1679-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="1f3a8-104">В этом примере демонстрируется использование метода [Resync](resync-method-ado.md) для обновления данных в статическом объекте Recordset.</span><span class="sxs-lookup"><span data-stu-id="1f3a8-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```cpp 
  

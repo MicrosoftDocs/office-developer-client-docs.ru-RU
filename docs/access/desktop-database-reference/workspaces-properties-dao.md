@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308304"
 ---
-# <a name="workspaces-properties-dao"></a><span data-ttu-id="5f8b2-102">Свойства рабочих областей (DAO)</span><span class="sxs-lookup"><span data-stu-id="5f8b2-102">Workspaces properties (DAO)</span></span>
+# <a name="workspaces-properties-dao"></a><span data-ttu-id="14092-102">Свойства рабочих областей (DAO)</span><span class="sxs-lookup"><span data-stu-id="14092-102">Workspaces properties (DAO)</span></span>
 
-<span data-ttu-id="5f8b2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5f8b2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="14092-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="14092-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="5f8b2-104">Свойство workspaces. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="5f8b2-104">Workspaces.Count property (DAO)</span></span>](workspaces-count-property-dao.md)
+- [<span data-ttu-id="14092-104">Свойство workspaces. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="14092-104">Workspaces.Count property (DAO)</span></span>](workspaces-count-property-dao.md)
 

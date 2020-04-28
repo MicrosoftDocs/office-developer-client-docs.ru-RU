@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312161"
 ---
-# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="c0fdf-102">Пример использования метода Refresh для коллекции Views (VB)</span><span class="sxs-lookup"><span data-stu-id="c0fdf-102">Views Refresh method example (VB)</span></span>
+# <a name="views-refresh-method-example-vb"></a><span data-ttu-id="59ee0-102">Пример использования метода Refresh для коллекции Views (VB)</span><span class="sxs-lookup"><span data-stu-id="59ee0-102">Views Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="c0fdf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c0fdf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="59ee0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="59ee0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c0fdf-104">В приведенном ниже коде показано, как [](views-collection-adox.md) обновить коллекцию views [каталога](catalog-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="c0fdf-104">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="c0fdf-105">Это необходимо, прежде чем можно будет получить доступ к объектам [просмотра](view-object-adox.md) из **каталога** .</span><span class="sxs-lookup"><span data-stu-id="c0fdf-105">This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="59ee0-104">В приведенном ниже коде показано, как обновить коллекцию [views](views-collection-adox.md) [каталога](catalog-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="59ee0-104">The following code shows how to refresh the [Views](views-collection-adox.md) collection of a [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="59ee0-105">Это необходимо, прежде чем можно будет получить доступ к объектам [просмотра](view-object-adox.md) из **каталога** .</span><span class="sxs-lookup"><span data-stu-id="59ee0-105">This is required before [View](view-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  

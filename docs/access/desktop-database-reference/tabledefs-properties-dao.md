@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314121"
 ---
-# <a name="tabledefs-properties-dao"></a><span data-ttu-id="507be-102">Свойства TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="507be-102">TableDefs properties (DAO)</span></span>
+# <a name="tabledefs-properties-dao"></a><span data-ttu-id="2db0f-102">Свойства TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="2db0f-102">TableDefs properties (DAO)</span></span>
 
-<span data-ttu-id="507be-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="507be-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2db0f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2db0f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="507be-104">Свойство TableDefs. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="507be-104">TableDefs.Count property (DAO)</span></span>](tabledefs-count-property-dao.md)
+- [<span data-ttu-id="2db0f-104">Свойство TableDefs. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="2db0f-104">TableDefs.Count property (DAO)</span></span>](tabledefs-count-property-dao.md)
 

@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301150"
 ---
-# <a name="provider-and-defaultdatabase-properties-example-vc"></a><span data-ttu-id="60d21-102">Пример использования свойств Provider и DefaultDatabase (VC++)</span><span class="sxs-lookup"><span data-stu-id="60d21-102">Provider and DefaultDatabase properties example (VC++)</span></span>
+# <a name="provider-and-defaultdatabase-properties-example-vc"></a><span data-ttu-id="68f2e-102">Пример использования свойств Provider и DefaultDatabase (VC++)</span><span class="sxs-lookup"><span data-stu-id="68f2e-102">Provider and DefaultDatabase properties example (VC++)</span></span>
 
 
-<span data-ttu-id="60d21-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="60d21-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="68f2e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="68f2e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="60d21-104">В этом примере показано свойство [provider](provider-property-ado.md) , открывающее три объекта [подключения](connection-object-ado.md) с использованием разных поставщиков.</span><span class="sxs-lookup"><span data-stu-id="60d21-104">This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers.</span></span> <span data-ttu-id="60d21-105">Кроме того, свойство [DefaultDatabase](defaultdatabase-property-ado.md) используется для задания базы данных по умолчанию для поставщика Microsoft ODBC.</span><span class="sxs-lookup"><span data-stu-id="60d21-105">It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.</span></span>
+<span data-ttu-id="68f2e-104">В этом примере показано свойство [provider](provider-property-ado.md) , открывающее три объекта [подключения](connection-object-ado.md) с использованием разных поставщиков.</span><span class="sxs-lookup"><span data-stu-id="68f2e-104">This example demonstrates the [Provider](provider-property-ado.md) property by opening three [Connection](connection-object-ado.md) objects using different providers.</span></span> <span data-ttu-id="68f2e-105">Кроме того, свойство [DefaultDatabase](defaultdatabase-property-ado.md) используется для задания базы данных по умолчанию для поставщика Microsoft ODBC.</span><span class="sxs-lookup"><span data-stu-id="68f2e-105">It also uses the [DefaultDatabase](defaultdatabase-property-ado.md) property to set the default database for the Microsoft ODBC Provider.</span></span>
 
 ```cpp 
  

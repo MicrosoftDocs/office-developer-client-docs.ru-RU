@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301178"
 ---
-# <a name="property-properties-dao"></a><span data-ttu-id="ac2ff-102">Свойства свойств (DAO)</span><span class="sxs-lookup"><span data-stu-id="ac2ff-102">Property properties (DAO)</span></span>
+# <a name="property-properties-dao"></a><span data-ttu-id="ce2e5-102">Свойства свойств (DAO)</span><span class="sxs-lookup"><span data-stu-id="ce2e5-102">Property properties (DAO)</span></span>
 
-<span data-ttu-id="ac2ff-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac2ff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ce2e5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ce2e5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ac2ff-104">Свойство. Inherited (DAO)</span><span class="sxs-lookup"><span data-stu-id="ac2ff-104">Property.Inherited property (DAO)</span></span>](property-inherited-property-dao.md)
-- [<span data-ttu-id="ac2ff-105">Свойство Property.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="ac2ff-105">Property.Name property (DAO)</span></span>](property-name-property-dao.md)
-- [<span data-ttu-id="ac2ff-106">Свойство Property. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="ac2ff-106">Property.Properties property (DAO)</span></span>](property-properties-property-dao.md)
-- [<span data-ttu-id="ac2ff-107">Свойство Property. Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="ac2ff-107">Property.Type property (DAO)</span></span>](property-type-property-dao.md)
-- [<span data-ttu-id="ac2ff-108">Свойство Property. Value (DAO)</span><span class="sxs-lookup"><span data-stu-id="ac2ff-108">Property.Value property (DAO)</span></span>](property-value-property-dao.md)
+- [<span data-ttu-id="ce2e5-104">Свойство. Inherited (DAO)</span><span class="sxs-lookup"><span data-stu-id="ce2e5-104">Property.Inherited property (DAO)</span></span>](property-inherited-property-dao.md)
+- [<span data-ttu-id="ce2e5-105">Свойство Property.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="ce2e5-105">Property.Name property (DAO)</span></span>](property-name-property-dao.md)
+- [<span data-ttu-id="ce2e5-106">Свойство Property. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="ce2e5-106">Property.Properties property (DAO)</span></span>](property-properties-property-dao.md)
+- [<span data-ttu-id="ce2e5-107">Свойство Property. Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="ce2e5-107">Property.Type property (DAO)</span></span>](property-type-property-dao.md)
+- [<span data-ttu-id="ce2e5-108">Свойство Property. Value (DAO)</span><span class="sxs-lookup"><span data-stu-id="ce2e5-108">Property.Value property (DAO)</span></span>](property-value-property-dao.md)
 

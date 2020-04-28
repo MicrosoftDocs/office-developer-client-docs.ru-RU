@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305945"
 ---
-# <a name="version-property-ado"></a><span data-ttu-id="bdf92-102">Свойство Version (ADO)</span><span class="sxs-lookup"><span data-stu-id="bdf92-102">Version property (ADO)</span></span>
+# <a name="version-property-ado"></a><span data-ttu-id="77e0c-102">Свойство Version (ADO)</span><span class="sxs-lookup"><span data-stu-id="77e0c-102">Version property (ADO)</span></span>
 
 
-<span data-ttu-id="bdf92-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bdf92-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="77e0c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="77e0c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="bdf92-104">Указывает номер версии ADO.</span><span class="sxs-lookup"><span data-stu-id="bdf92-104">Indicates the ADO version number.</span></span>
+<span data-ttu-id="77e0c-104">Указывает номер версии ADO.</span><span class="sxs-lookup"><span data-stu-id="77e0c-104">Indicates the ADO version number.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="bdf92-105">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="bdf92-105">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="77e0c-105">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="77e0c-105">Return value</span></span>
 
-<span data-ttu-id="bdf92-106">Возвращает **строковое** значение, обозначающее версию.</span><span class="sxs-lookup"><span data-stu-id="bdf92-106">Returns a **String** value that indicates the version.</span></span>
+<span data-ttu-id="77e0c-106">Возвращает **строковое** значение, обозначающее версию.</span><span class="sxs-lookup"><span data-stu-id="77e0c-106">Returns a **String** value that indicates the version.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="bdf92-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="bdf92-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="77e0c-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="77e0c-107">Remarks</span></span>
 
-<span data-ttu-id="bdf92-108">Используйте свойство **Version** для возврата номера версии реализации ADO.</span><span class="sxs-lookup"><span data-stu-id="bdf92-108">Use the **Version** property to return the version number of the ADO implementation.</span></span>
+<span data-ttu-id="77e0c-108">Используйте свойство **Version** для возврата номера версии реализации ADO.</span><span class="sxs-lookup"><span data-stu-id="77e0c-108">Use the **Version** property to return the version number of the ADO implementation.</span></span>
 
-<span data-ttu-id="bdf92-109">Версия поставщика будет доступна в виде динамического свойства в коллекции [свойств](properties-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="bdf92-109">The version of the provider will be available as a dynamic property in the [Properties](properties-collection-ado.md) collection.</span></span>
+<span data-ttu-id="77e0c-109">Версия поставщика будет доступна в виде динамического свойства в коллекции [свойств](properties-collection-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="77e0c-109">The version of the provider will be available as a dynamic property in the [Properties](properties-collection-ado.md) collection.</span></span>
 

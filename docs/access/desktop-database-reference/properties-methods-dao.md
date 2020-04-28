@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301249"
 ---
-# <a name="properties-methods-dao"></a><span data-ttu-id="e121e-102">Методы свойств (DAO)</span><span class="sxs-lookup"><span data-stu-id="e121e-102">Properties methods (DAO)</span></span>
+# <a name="properties-methods-dao"></a><span data-ttu-id="ef2f5-102">Методы свойств (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef2f5-102">Properties methods (DAO)</span></span>
 
-<span data-ttu-id="e121e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e121e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ef2f5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ef2f5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="e121e-104">Метод Properties. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="e121e-104">Properties.Append method (DAO)</span></span>](properties-append-method-dao.md)
-- [<span data-ttu-id="e121e-105">Метод Properties. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="e121e-105">Properties.Delete method (DAO)</span></span>](properties-delete-method-dao.md)
-- [<span data-ttu-id="e121e-106">Метод Properties. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="e121e-106">Properties.Refresh method (DAO)</span></span>](properties-refresh-method-dao.md)
+- [<span data-ttu-id="ef2f5-104">Метод Properties. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef2f5-104">Properties.Append method (DAO)</span></span>](properties-append-method-dao.md)
+- [<span data-ttu-id="ef2f5-105">Метод Properties. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef2f5-105">Properties.Delete method (DAO)</span></span>](properties-delete-method-dao.md)
+- [<span data-ttu-id="ef2f5-106">Метод Properties. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="ef2f5-106">Properties.Refresh method (DAO)</span></span>](properties-refresh-method-dao.md)
 

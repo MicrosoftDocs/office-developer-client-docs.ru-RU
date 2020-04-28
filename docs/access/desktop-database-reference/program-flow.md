@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301290"
 ---
-# <a name="program-flow"></a><span data-ttu-id="3c919-102">Ход выполнения приложения</span><span class="sxs-lookup"><span data-stu-id="3c919-102">Program flow</span></span>
+# <a name="program-flow"></a><span data-ttu-id="74b9f-102">Ход выполнения приложения</span><span class="sxs-lookup"><span data-stu-id="74b9f-102">Program flow</span></span>
 
-<span data-ttu-id="3c919-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3c919-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="74b9f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="74b9f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="3c919-104">Блок макросов If...Then...Else</span><span class="sxs-lookup"><span data-stu-id="3c919-104">If...Then...Else macro block</span></span>](if-then-else-macro-block.md)
-- [<span data-ttu-id="3c919-105">Оператор макроса Comment</span><span class="sxs-lookup"><span data-stu-id="3c919-105">Comment macro statement</span></span>](comment-macro-statement.md)
-- [<span data-ttu-id="3c919-106">Оператор макроса Group</span><span class="sxs-lookup"><span data-stu-id="3c919-106">Group macro statement</span></span>](group-macro-statement.md)
-- [<span data-ttu-id="3c919-107">Оператор макроса Submacro</span><span class="sxs-lookup"><span data-stu-id="3c919-107">Submacro macro statement</span></span>](submacro-macro-statement.md)
+- [<span data-ttu-id="74b9f-104">Макроблок Если... То... Иначе</span><span class="sxs-lookup"><span data-stu-id="74b9f-104">If...Then...Else macro block</span></span>](if-then-else-macro-block.md)
+- [<span data-ttu-id="74b9f-105">Оператор макроса "Примечание"</span><span class="sxs-lookup"><span data-stu-id="74b9f-105">Comment macro statement</span></span>](comment-macro-statement.md)
+- [<span data-ttu-id="74b9f-106">Оператор макроса "Группа"</span><span class="sxs-lookup"><span data-stu-id="74b9f-106">Group macro statement</span></span>](group-macro-statement.md)
+- [<span data-ttu-id="74b9f-107">Оператор макроса Submacro</span><span class="sxs-lookup"><span data-stu-id="74b9f-107">Submacro macro statement</span></span>](submacro-macro-statement.md)
 

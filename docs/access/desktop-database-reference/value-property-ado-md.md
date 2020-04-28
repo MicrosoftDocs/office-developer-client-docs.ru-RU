@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312091"
 ---
-# <a name="value-property-ado-md"></a><span data-ttu-id="27672-102">Свойство Value (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="27672-102">Value property (ADO MD)</span></span>
+# <a name="value-property-ado-md"></a><span data-ttu-id="bd0fc-102">Свойство Value (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="bd0fc-102">Value property (ADO MD)</span></span>
 
 
-<span data-ttu-id="27672-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="27672-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bd0fc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bd0fc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="27672-104">Указывает значение текущей ячейки.</span><span class="sxs-lookup"><span data-stu-id="27672-104">Indicates the value of the current cell.</span></span>
+<span data-ttu-id="bd0fc-104">Указывает значение текущей ячейки.</span><span class="sxs-lookup"><span data-stu-id="bd0fc-104">Indicates the value of the current cell.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="27672-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="27672-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="bd0fc-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="bd0fc-105">Return values</span></span>
 
-<span data-ttu-id="27672-106">Возвращает **Variant** и доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="27672-106">Returns a **Variant** and is read-only.</span></span>
+<span data-ttu-id="bd0fc-106">Возвращает **Variant** и доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="bd0fc-106">Returns a **Variant** and is read-only.</span></span>
 

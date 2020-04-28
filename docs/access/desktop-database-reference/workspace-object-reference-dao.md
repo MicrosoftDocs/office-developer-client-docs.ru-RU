@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302536"
 ---
-# <a name="workspace-object-reference-dao"></a><span data-ttu-id="8552b-102">Ссылка на объект Workspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="8552b-102">Workspace object reference (DAO)</span></span>
+# <a name="workspace-object-reference-dao"></a><span data-ttu-id="000d7-102">Ссылка на объект Workspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="000d7-102">Workspace object reference (DAO)</span></span>
 
-<span data-ttu-id="8552b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8552b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="000d7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="000d7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="8552b-104">Объект Workspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="8552b-104">Workspace object (DAO)</span></span>](workspace-object-dao.md)
-- [<span data-ttu-id="8552b-105">Участники рабочих областей (DAO)</span><span class="sxs-lookup"><span data-stu-id="8552b-105">Workspace members (DAO)</span></span>](workspace-members-dao.md)
-- [<span data-ttu-id="8552b-106">Свойства рабочей области (DAO)</span><span class="sxs-lookup"><span data-stu-id="8552b-106">Workspace properties (DAO)</span></span>](workspace-properties-dao.md)
-- [<span data-ttu-id="8552b-107">Методы рабочих областей (DAO)</span><span class="sxs-lookup"><span data-stu-id="8552b-107">Workspace methods (DAO)</span></span>](workspace-methods-dao.md)
+- [<span data-ttu-id="000d7-104">Объект Workspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="000d7-104">Workspace object (DAO)</span></span>](workspace-object-dao.md)
+- [<span data-ttu-id="000d7-105">Участники рабочих областей (DAO)</span><span class="sxs-lookup"><span data-stu-id="000d7-105">Workspace members (DAO)</span></span>](workspace-members-dao.md)
+- [<span data-ttu-id="000d7-106">Свойства рабочей области (DAO)</span><span class="sxs-lookup"><span data-stu-id="000d7-106">Workspace properties (DAO)</span></span>](workspace-properties-dao.md)
+- [<span data-ttu-id="000d7-107">Методы рабочих областей (DAO)</span><span class="sxs-lookup"><span data-stu-id="000d7-107">Workspace methods (DAO)</span></span>](workspace-methods-dao.md)
 

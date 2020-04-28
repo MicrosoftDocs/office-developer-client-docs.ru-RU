@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301388"
 ---
-# <a name="procedure-object-adox-reference"></a><span data-ttu-id="86775-102">Справочник по объектам процедур (ADOX)</span><span class="sxs-lookup"><span data-stu-id="86775-102">Procedure object (ADOX) reference</span></span>
+# <a name="procedure-object-adox-reference"></a><span data-ttu-id="fa9d6-102">Справочник по объектам процедур (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fa9d6-102">Procedure object (ADOX) reference</span></span>
 
-<span data-ttu-id="86775-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="86775-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fa9d6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa9d6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="86775-104">Объект PROCEDURE (ADOX)</span><span class="sxs-lookup"><span data-stu-id="86775-104">Procedure object (ADOX)</span></span>](procedure-object-adox.md)
-- [<span data-ttu-id="86775-105">Свойства, методы и события процедуры (ADOX)</span><span class="sxs-lookup"><span data-stu-id="86775-105">Procedure properties, methods, and events (ADOX)</span></span>](procedure-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="fa9d6-104">Объект PROCEDURE (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fa9d6-104">Procedure object (ADOX)</span></span>](procedure-object-adox.md)
+- [<span data-ttu-id="fa9d6-105">Свойства, методы и события процедуры (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fa9d6-105">Procedure properties, methods, and events (ADOX)</span></span>](procedure-properties-methods-and-events-adox.md)
 

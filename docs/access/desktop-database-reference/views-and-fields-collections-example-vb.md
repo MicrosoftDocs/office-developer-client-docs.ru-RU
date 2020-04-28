@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306000"
 ---
-# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="525e9-102">Пример коллекций Views и Fields (VB)</span><span class="sxs-lookup"><span data-stu-id="525e9-102">Views and Fields collections example (VB)</span></span>
+# <a name="views-and-fields-collections-example-vb"></a><span data-ttu-id="379a3-102">Пример коллекций Views и Fields (VB)</span><span class="sxs-lookup"><span data-stu-id="379a3-102">Views and Fields collections example (VB)</span></span>
 
 
-<span data-ttu-id="525e9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="525e9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="379a3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="379a3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="525e9-104">В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) и объект [Recordset](recordset-object-ado.md) для получения сведений о поле для представления.</span><span class="sxs-lookup"><span data-stu-id="525e9-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
+<span data-ttu-id="379a3-104">В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) и объект [Recordset](recordset-object-ado.md) для получения сведений о поле для представления.</span><span class="sxs-lookup"><span data-stu-id="379a3-104">The following code demonstrates how to use the [Command](command-property-adox.md) property and the [Recordset](recordset-object-ado.md) object to retrieve field information for the view.</span></span>
 
 ```vb 
  

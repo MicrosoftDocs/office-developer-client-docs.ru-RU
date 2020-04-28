@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314464"
 ---
-# <a name="stringformatenum"></a><span data-ttu-id="552ac-102">StringFormatEnum</span><span class="sxs-lookup"><span data-stu-id="552ac-102">StringFormatEnum</span></span>
+# <a name="stringformatenum"></a><span data-ttu-id="bfaa3-102">StringFormatEnum</span><span class="sxs-lookup"><span data-stu-id="bfaa3-102">StringFormatEnum</span></span>
 
-<span data-ttu-id="552ac-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="552ac-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bfaa3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bfaa3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="552ac-104">Задает формат при получении объекта [Recordset](recordset-object-ado.md) в виде строки.</span><span class="sxs-lookup"><span data-stu-id="552ac-104">Specifies the format when retrieving a [Recordset](recordset-object-ado.md) as a string.</span></span>
+<span data-ttu-id="bfaa3-104">Задает формат при получении объекта [Recordset](recordset-object-ado.md) в виде строки.</span><span class="sxs-lookup"><span data-stu-id="bfaa3-104">Specifies the format when retrieving a [Recordset](recordset-object-ado.md) as a string.</span></span>
 
 <br/>
 
@@ -30,24 +30,24 @@ ms.locfileid: "32314464"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="552ac-105">Константа</span><span class="sxs-lookup"><span data-stu-id="552ac-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="552ac-106">Значение</span><span class="sxs-lookup"><span data-stu-id="552ac-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="552ac-107">Описание</span><span class="sxs-lookup"><span data-stu-id="552ac-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="bfaa3-105">Константа</span><span class="sxs-lookup"><span data-stu-id="bfaa3-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="bfaa3-106">Значение</span><span class="sxs-lookup"><span data-stu-id="bfaa3-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="bfaa3-107">Описание</span><span class="sxs-lookup"><span data-stu-id="bfaa3-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="552ac-108"><strong>Адклипстринг</strong></span><span class="sxs-lookup"><span data-stu-id="552ac-108"><strong>adClipString</strong></span></span></p></td>
-<td><p><span data-ttu-id="552ac-109">2</span><span class="sxs-lookup"><span data-stu-id="552ac-109">2</span></span></p></td>
-<td><p><span data-ttu-id="552ac-110">Разделяет строки по <em>ровделимитер</em>, столбцам по <em>колумнделимитер</em>и значения NULL с помощью <em>нуллекспр</em>.</span><span class="sxs-lookup"><span data-stu-id="552ac-110">Delimits rows by <em>RowDelimiter</em>, columns by <em>ColumnDelimiter</em>, and null values by <em>NullExpr</em>.</span></span> <span data-ttu-id="552ac-111">Эти три параметра метода <a href="getstring-method-ado.md">GetString</a> действительны только с <em>стрингформат</em> <strong>адклипстринг</strong>.</span><span class="sxs-lookup"><span data-stu-id="552ac-111">These three parameters of the <a href="getstring-method-ado.md">GetString</a> method are valid only with a <em>StringFormat</em> of <strong>adClipString</strong>.</span></span></p></td>
+<td><p><span data-ttu-id="bfaa3-108"><strong>адклипстринг</strong></span><span class="sxs-lookup"><span data-stu-id="bfaa3-108"><strong>adClipString</strong></span></span></p></td>
+<td><p><span data-ttu-id="bfaa3-109">2</span><span class="sxs-lookup"><span data-stu-id="bfaa3-109">2</span></span></p></td>
+<td><p><span data-ttu-id="bfaa3-110">Разделяет строки по <em>ровделимитер</em>, столбцам по <em>колумнделимитер</em>и значения NULL с помощью <em>нуллекспр</em>.</span><span class="sxs-lookup"><span data-stu-id="bfaa3-110">Delimits rows by <em>RowDelimiter</em>, columns by <em>ColumnDelimiter</em>, and null values by <em>NullExpr</em>.</span></span> <span data-ttu-id="bfaa3-111">Эти три параметра метода <a href="getstring-method-ado.md">GetString</a> действительны только с <em>стрингформат</em> <strong>адклипстринг</strong>.</span><span class="sxs-lookup"><span data-stu-id="bfaa3-111">These three parameters of the <a href="getstring-method-ado.md">GetString</a> method are valid only with a <em>StringFormat</em> of <strong>adClipString</strong>.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="552ac-112">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="552ac-112">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="bfaa3-112">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="bfaa3-112">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="552ac-113">Пакет: **com. MS. WFC. Data**</span><span class="sxs-lookup"><span data-stu-id="552ac-113">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="bfaa3-113">Пакет: **com. MS. WFC. Data**</span><span class="sxs-lookup"><span data-stu-id="bfaa3-113">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -55,12 +55,12 @@ ms.locfileid: "32314464"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="552ac-114">Константа</span><span class="sxs-lookup"><span data-stu-id="552ac-114">Constant</span></span></p></th>
+<th><p><span data-ttu-id="bfaa3-114">Константа</span><span class="sxs-lookup"><span data-stu-id="bfaa3-114">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="552ac-115">Адоенумс. Стрингформат. КЛИПСТРИНГ</span><span class="sxs-lookup"><span data-stu-id="552ac-115">AdoEnums.StringFormat.CLIPSTRING</span></span></p></td>
+<td><p><span data-ttu-id="bfaa3-115">Адоенумс. Стрингформат. КЛИПСТРИНГ</span><span class="sxs-lookup"><span data-stu-id="bfaa3-115">AdoEnums.StringFormat.CLIPSTRING</span></span></p></td>
 </tr>
 </tbody>
 </table>

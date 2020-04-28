@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314730"
 ---
-# <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="becb3-102">Сохранение в объект XML DOM</span><span class="sxs-lookup"><span data-stu-id="becb3-102">Saving to the XML DOM object</span></span>
+# <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="3448a-102">Сохранение в объект XML DOM</span><span class="sxs-lookup"><span data-stu-id="3448a-102">Saving to the XML DOM object</span></span>
 
-<span data-ttu-id="becb3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="becb3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3448a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3448a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="becb3-104">Saving to the XML DOM Object</span><span class="sxs-lookup"><span data-stu-id="becb3-104">Saving to the XML DOM Object</span></span>
+## <a name="saving-to-the-xml-dom-object"></a><span data-ttu-id="3448a-104">Saving to the XML DOM Object</span><span class="sxs-lookup"><span data-stu-id="3448a-104">Saving to the XML DOM Object</span></span>
 
-<span data-ttu-id="becb3-105">Вы можете сохранить **набор записей** в формате XML в экземпляре объекта MSXML DOM, как показано в следующем примере кода Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="becb3-105">You can save a **Recordset** in XML format to an instance of an MSXML DOM object, as shown in the following Visual Basic code:</span></span>
+<span data-ttu-id="3448a-105">Вы можете сохранить **набор записей** в формате XML в экземпляре объекта MSXML DOM, как показано в следующем примере кода Visual Basic:</span><span class="sxs-lookup"><span data-stu-id="3448a-105">You can save a **Recordset** in XML format to an instance of an MSXML DOM object, as shown in the following Visual Basic code:</span></span>
 
 ```vb 
  

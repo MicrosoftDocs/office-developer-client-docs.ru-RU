@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306386"
 ---
-# <a name="tables-collection-adox-reference"></a><span data-ttu-id="25bd4-102">Справочник по коллекциям Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="25bd4-102">Tables collection (ADOX) reference</span></span>
+# <a name="tables-collection-adox-reference"></a><span data-ttu-id="913a0-102">Справочник по коллекциям Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="913a0-102">Tables collection (ADOX) reference</span></span>
 
-<span data-ttu-id="25bd4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25bd4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="913a0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="913a0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="25bd4-104">Коллекция Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="25bd4-104">Tables collection (ADOX)</span></span>](tables-collection-adox.md)
-- [<span data-ttu-id="25bd4-105">Свойства, методы и события коллекции Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="25bd4-105">Tables collection properties, methods, and events (ADOX)</span></span>](tables-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="913a0-104">Коллекция Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="913a0-104">Tables collection (ADOX)</span></span>](tables-collection-adox.md)
+- [<span data-ttu-id="913a0-105">Свойства, методы и события коллекции Tables (ADOX)</span><span class="sxs-lookup"><span data-stu-id="913a0-105">Tables collection properties, methods, and events (ADOX)</span></span>](tables-collection-properties-methods-and-events-adox.md)
 

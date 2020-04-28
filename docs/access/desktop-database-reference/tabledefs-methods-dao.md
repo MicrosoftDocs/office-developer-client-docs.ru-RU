@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314170"
 ---
-# <a name="tabledefs-methods-dao"></a><span data-ttu-id="4c875-102">Методы TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c875-102">TableDefs methods (DAO)</span></span>
+# <a name="tabledefs-methods-dao"></a><span data-ttu-id="e37ca-102">Методы TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="e37ca-102">TableDefs methods (DAO)</span></span>
 
-<span data-ttu-id="4c875-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c875-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e37ca-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e37ca-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="4c875-104">Методы TableDef. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c875-104">TableDefs.Append method (DAO)</span></span>](tabledefs-append-method-dao.md)
-- [<span data-ttu-id="4c875-105">Методы TableDef. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c875-105">TableDefs.Delete method (DAO)</span></span>](tabledefs-delete-method-dao.md)
-- [<span data-ttu-id="4c875-106">Методы TableDef. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c875-106">TableDefs.Refresh method (DAO)</span></span>](tabledefs-refresh-method-dao.md)
+- [<span data-ttu-id="e37ca-104">Методы TableDef. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="e37ca-104">TableDefs.Append method (DAO)</span></span>](tabledefs-append-method-dao.md)
+- [<span data-ttu-id="e37ca-105">Методы TableDef. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="e37ca-105">TableDefs.Delete method (DAO)</span></span>](tabledefs-delete-method-dao.md)
+- [<span data-ttu-id="e37ca-106">Методы TableDef. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="e37ca-106">TableDefs.Refresh method (DAO)</span></span>](tabledefs-refresh-method-dao.md)
 

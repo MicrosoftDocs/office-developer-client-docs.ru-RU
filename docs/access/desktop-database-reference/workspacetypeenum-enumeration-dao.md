@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308276"
 ---
-# <a name="workspacetypeenum-enumeration-dao"></a><span data-ttu-id="d61df-102">Перечисление Воркспацетипинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="d61df-102">WorkspaceTypeEnum enumeration (DAO)</span></span>
+# <a name="workspacetypeenum-enumeration-dao"></a><span data-ttu-id="920a8-102">Перечисление Воркспацетипинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="920a8-102">WorkspaceTypeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="d61df-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d61df-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="920a8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="920a8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d61df-104">Используется с методом **CreateWorkspace** , чтобы указать тип создаваемой рабочей области.</span><span class="sxs-lookup"><span data-stu-id="d61df-104">Used with the **CreateWorkspace** method to specify the type of workspace to create.</span></span>
+<span data-ttu-id="920a8-104">Используется с методом **CreateWorkspace** , чтобы указать тип создаваемой рабочей области.</span><span class="sxs-lookup"><span data-stu-id="920a8-104">Used with the **CreateWorkspace** method to specify the type of workspace to create.</span></span>
 
 <table>
 <colgroup>
@@ -29,16 +29,16 @@ ms.locfileid: "32308276"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="d61df-105">Имя</span><span class="sxs-lookup"><span data-stu-id="d61df-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="d61df-106">Значение</span><span class="sxs-lookup"><span data-stu-id="d61df-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="d61df-107">Описание</span><span class="sxs-lookup"><span data-stu-id="d61df-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="920a8-105">Имя</span><span class="sxs-lookup"><span data-stu-id="920a8-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="920a8-106">Значение</span><span class="sxs-lookup"><span data-stu-id="920a8-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="920a8-107">Описание</span><span class="sxs-lookup"><span data-stu-id="920a8-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="d61df-108">Дбусежет</span><span class="sxs-lookup"><span data-stu-id="d61df-108">dbUseJet</span></span></p></td>
-<td><p><span data-ttu-id="d61df-109">2</span><span class="sxs-lookup"><span data-stu-id="d61df-109">2</span></span></p></td>
-<td><p><span data-ttu-id="d61df-110">Создайте рабочую область Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="d61df-110">Create a Microsoft Access workspace.</span></span></p></td>
+<td><p><span data-ttu-id="920a8-108">дбусежет</span><span class="sxs-lookup"><span data-stu-id="920a8-108">dbUseJet</span></span></p></td>
+<td><p><span data-ttu-id="920a8-109">2</span><span class="sxs-lookup"><span data-stu-id="920a8-109">2</span></span></p></td>
+<td><p><span data-ttu-id="920a8-110">Создайте рабочую область Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="920a8-110">Create a Microsoft Access workspace.</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -14,27 +14,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314394"
 ---
-# <a name="tabledefattributes-property-dao"></a><span data-ttu-id="997e4-102">Свойство TableDef. Attributes (DAO)</span><span class="sxs-lookup"><span data-stu-id="997e4-102">TableDef.Attributes property (DAO)</span></span>
+# <a name="tabledefattributes-property-dao"></a><span data-ttu-id="92811-102">Свойство TableDef. Attributes (DAO)</span><span class="sxs-lookup"><span data-stu-id="92811-102">TableDef.Attributes property (DAO)</span></span>
 
 
-<span data-ttu-id="997e4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="997e4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="92811-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="92811-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="997e4-104">Задает или возвращает значение, которое указывает одну или несколько характеристик объекта **tabledef** .</span><span class="sxs-lookup"><span data-stu-id="997e4-104">Sets or returns a value that indicates one or more characteristics of a **TableDef** object.</span></span> <span data-ttu-id="997e4-105">Для чтения и записи, **Long**.</span><span class="sxs-lookup"><span data-stu-id="997e4-105">Read/write **Long**.</span></span>
+<span data-ttu-id="92811-104">Задает или возвращает значение, которое указывает одну или несколько характеристик объекта **tabledef** .</span><span class="sxs-lookup"><span data-stu-id="92811-104">Sets or returns a value that indicates one or more characteristics of a **TableDef** object.</span></span> <span data-ttu-id="92811-105">Для чтения и записи, **Long**.</span><span class="sxs-lookup"><span data-stu-id="92811-105">Read/write **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="997e4-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="997e4-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="92811-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="92811-106">Syntax</span></span>
 
-<span data-ttu-id="997e4-107">*expression* .Attributes</span><span class="sxs-lookup"><span data-stu-id="997e4-107">*expression* .Attributes</span></span>
+<span data-ttu-id="92811-107">*expression* .Attributes</span><span class="sxs-lookup"><span data-stu-id="92811-107">*expression* .Attributes</span></span>
 
-<span data-ttu-id="997e4-108">*выражение*: переменная, представляющая объект **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="997e4-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="92811-108">*выражение*: переменная, представляющая объект **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="92811-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="997e4-109">Комментарии</span><span class="sxs-lookup"><span data-stu-id="997e4-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="92811-109">Комментарии</span><span class="sxs-lookup"><span data-stu-id="92811-109">Remarks</span></span>
 
-<span data-ttu-id="997e4-110">Для объекта, который еще не добавлен в коллекцию, это свойство предназначено для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="997e4-110">For an object not yet appended to a collection, this property is read/write.</span></span>
+<span data-ttu-id="92811-110">Для объекта, который еще не добавлен в коллекцию, это свойство предназначено для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="92811-110">For an object not yet appended to a collection, this property is read/write.</span></span>
 
-## <a name="example"></a><span data-ttu-id="997e4-111">Пример</span><span class="sxs-lookup"><span data-stu-id="997e4-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="92811-111">Пример</span><span class="sxs-lookup"><span data-stu-id="92811-111">Example</span></span>
 
-<span data-ttu-id="997e4-112">Этот пример отображает свойство **Attributes** для объектов **Field**, **Relation** и **TableDef** в базе данных Northwind.</span><span class="sxs-lookup"><span data-stu-id="997e4-112">This example displays the **Attributes** property for **Field**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
+<span data-ttu-id="92811-112">Этот пример отображает свойство **Attributes** для объектов **Field**, **Relation** и **TableDef** в базе данных Northwind.</span><span class="sxs-lookup"><span data-stu-id="92811-112">This example displays the **Attributes** property for **Field**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
 
 ```vb 
 Sub AttributesX() 

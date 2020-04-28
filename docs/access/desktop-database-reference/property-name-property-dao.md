@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302907"
 ---
-# <a name="propertyname-property-dao"></a><span data-ttu-id="74b41-102">Свойство Property.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="74b41-102">Property.Name property (DAO)</span></span>
+# <a name="propertyname-property-dao"></a><span data-ttu-id="db8b6-102">Свойство Property.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="db8b6-102">Property.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="74b41-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="74b41-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="db8b6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="db8b6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="74b41-104">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="74b41-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="74b41-105">**Строка** для чтения и записи, если объект не был добавлен в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="74b41-105">Read/write **String** if the object has not been appended to a collection.</span></span> <span data-ttu-id="74b41-106">**Строка** , доступная только для чтения, если объект добавлен в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="74b41-106">Read-only **String** if the object has been appended to a collection.</span></span>
+<span data-ttu-id="db8b6-104">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="db8b6-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="db8b6-105">**Строка** для чтения и записи, если объект не был добавлен в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="db8b6-105">Read/write **String** if the object has not been appended to a collection.</span></span> <span data-ttu-id="db8b6-106">**Строка** , доступная только для чтения, если объект добавлен в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="db8b6-106">Read-only **String** if the object has been appended to a collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="74b41-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="74b41-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="db8b6-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="db8b6-107">Syntax</span></span>
 
-<span data-ttu-id="74b41-108">*Expression* . Расширением</span><span class="sxs-lookup"><span data-stu-id="74b41-108">*expression* .Name</span></span>
+<span data-ttu-id="db8b6-108">*Expression* . Расширением</span><span class="sxs-lookup"><span data-stu-id="db8b6-108">*expression* .Name</span></span>
 
-<span data-ttu-id="74b41-109">*Expression (выражение* ) Переменная, представляющая объект **Property** .</span><span class="sxs-lookup"><span data-stu-id="74b41-109">*expression* A variable that represents a **Property** object.</span></span>
+<span data-ttu-id="db8b6-109">*Expression (выражение* ) Переменная, представляющая объект **Property** .</span><span class="sxs-lookup"><span data-stu-id="db8b6-109">*expression* A variable that represents a **Property** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="74b41-110">Замечания</span><span class="sxs-lookup"><span data-stu-id="74b41-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="db8b6-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="db8b6-110">Remarks</span></span>
 
-<span data-ttu-id="74b41-111">Свойство **Name** встроенного свойства всегда доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="74b41-111">The **Name** property of a built-in property is always read-only.</span></span>
+<span data-ttu-id="db8b6-111">Свойство **Name** встроенного свойства всегда доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="db8b6-111">The **Name** property of a built-in property is always read-only.</span></span>
 
-<span data-ttu-id="74b41-112">Максимальная длина имени объекта **Property** составляет 64 символов.</span><span class="sxs-lookup"><span data-stu-id="74b41-112">The maximum length for the name of a **Property** object is 64 characters.</span></span>
+<span data-ttu-id="db8b6-112">Максимальная длина имени объекта **Property** составляет 64 символов.</span><span class="sxs-lookup"><span data-stu-id="db8b6-112">The maximum length for the name of a **Property** object is 64 characters.</span></span>
 

@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309132"
 ---
-# <a name="recordset2properties-property-dao"></a><span data-ttu-id="ae38d-102">Свойство Recordset2. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="ae38d-102">Recordset2.Properties property (DAO)</span></span>
+# <a name="recordset2properties-property-dao"></a><span data-ttu-id="22988-102">Свойство Recordset2. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="22988-102">Recordset2.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="ae38d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ae38d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="22988-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="22988-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ae38d-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="ae38d-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="ae38d-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="ae38d-105">Read-only.</span></span>
+<span data-ttu-id="22988-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="22988-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="22988-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="22988-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="ae38d-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ae38d-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="22988-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="22988-106">Syntax</span></span>
 
-<span data-ttu-id="ae38d-107">*Expression* . Параметры</span><span class="sxs-lookup"><span data-stu-id="ae38d-107">*expression* .Properties</span></span>
+<span data-ttu-id="22988-107">*Expression* . Параметры</span><span class="sxs-lookup"><span data-stu-id="22988-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="ae38d-108">*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="ae38d-108">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="22988-108">*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="22988-108">*expression* A variable that represents a **Recordset2** object.</span></span>
 

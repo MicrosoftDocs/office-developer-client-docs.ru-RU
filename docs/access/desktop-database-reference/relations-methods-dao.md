@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306939"
 ---
-# <a name="relations-methods-dao"></a><span data-ttu-id="f1a7f-102">Методы связи (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1a7f-102">Relations methods (DAO)</span></span>
+# <a name="relations-methods-dao"></a><span data-ttu-id="8d654-102">Методы связи (DAO)</span><span class="sxs-lookup"><span data-stu-id="8d654-102">Relations methods (DAO)</span></span>
 
-<span data-ttu-id="f1a7f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f1a7f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8d654-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8d654-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f1a7f-104">Метод отношениях. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1a7f-104">Relations.Append method (DAO)</span></span>](relations-append-method-dao.md)
-- [<span data-ttu-id="f1a7f-105">Метод отношениях. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1a7f-105">Relations.Delete method (DAO)</span></span>](relations-delete-method-dao.md)
-- [<span data-ttu-id="f1a7f-106">Метод отношениях. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="f1a7f-106">Relations.Refresh method (DAO)</span></span>](relations-refresh-method-dao.md)
+- [<span data-ttu-id="8d654-104">Метод отношениях. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="8d654-104">Relations.Append method (DAO)</span></span>](relations-append-method-dao.md)
+- [<span data-ttu-id="8d654-105">Метод отношениях. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="8d654-105">Relations.Delete method (DAO)</span></span>](relations-delete-method-dao.md)
+- [<span data-ttu-id="8d654-106">Метод отношениях. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="8d654-106">Relations.Refresh method (DAO)</span></span>](relations-refresh-method-dao.md)
 

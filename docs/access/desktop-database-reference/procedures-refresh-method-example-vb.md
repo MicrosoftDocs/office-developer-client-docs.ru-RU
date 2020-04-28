@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301339"
 ---
-# <a name="procedures-refresh-method-example-vb"></a><span data-ttu-id="462e7-102">Пример использования метода Refresh для коллекции Procedures (VB)</span><span class="sxs-lookup"><span data-stu-id="462e7-102">Procedures Refresh method example (VB)</span></span>
+# <a name="procedures-refresh-method-example-vb"></a><span data-ttu-id="310f3-102">Пример использования метода Refresh для коллекции Procedures (VB)</span><span class="sxs-lookup"><span data-stu-id="310f3-102">Procedures Refresh method example (VB)</span></span>
 
 
-<span data-ttu-id="462e7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="462e7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="310f3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="310f3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="462e7-104">В приведенном ниже коде показано, как обновить коллекцию [процедур](procedures-collection-adox.md) [каталога](catalog-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="462e7-104">The following code shows how to refresh the [Procedures](procedures-collection-adox.md) collection of a [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="462e7-105">Это необходимо, прежде чем можно будет получить доступ к объектам [процедуры](procedure-object-adox.md) из **каталога** .</span><span class="sxs-lookup"><span data-stu-id="462e7-105">This is required before [Procedure](procedure-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
+<span data-ttu-id="310f3-104">В приведенном ниже коде показано, как обновить коллекцию [процедур](procedures-collection-adox.md) [каталога](catalog-object-adox.md).</span><span class="sxs-lookup"><span data-stu-id="310f3-104">The following code shows how to refresh the [Procedures](procedures-collection-adox.md) collection of a [Catalog](catalog-object-adox.md).</span></span> <span data-ttu-id="310f3-105">Это необходимо, прежде чем можно будет получить доступ к объектам [процедуры](procedure-object-adox.md) из **каталога** .</span><span class="sxs-lookup"><span data-stu-id="310f3-105">This is required before [Procedure](procedure-object-adox.md) objects from the **Catalog** can be accessed.</span></span>
 
 ```vb 
  

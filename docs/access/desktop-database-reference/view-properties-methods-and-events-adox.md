@@ -14,23 +14,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312105"
 ---
-# <a name="view-properties-methods-and-events-adox"></a><span data-ttu-id="b5d81-102">Просмотр свойств, методов и событий (ADOX)</span><span class="sxs-lookup"><span data-stu-id="b5d81-102">View properties, methods, and events (ADOX)</span></span>
+# <a name="view-properties-methods-and-events-adox"></a><span data-ttu-id="d32fa-102">Просмотр свойств, методов и событий (ADOX)</span><span class="sxs-lookup"><span data-stu-id="d32fa-102">View properties, methods, and events (ADOX)</span></span>
 
 
-<span data-ttu-id="b5d81-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5d81-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d32fa-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d32fa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="b5d81-104">Свойства</span><span class="sxs-lookup"><span data-stu-id="b5d81-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="d32fa-104">Свойства</span><span class="sxs-lookup"><span data-stu-id="d32fa-104">Properties</span></span>
 
-- [<span data-ttu-id="b5d81-105">Свойство Command</span><span class="sxs-lookup"><span data-stu-id="b5d81-105">Command property</span></span>](command-property-adox.md)
-- [<span data-ttu-id="b5d81-106">Свойство DateCreated</span><span class="sxs-lookup"><span data-stu-id="b5d81-106">DateCreated property</span></span>](datecreated-property-adox.md)
-- [<span data-ttu-id="b5d81-107">Свойство DateModified</span><span class="sxs-lookup"><span data-stu-id="b5d81-107">DateModified property</span></span>](datemodified-property-adox.md)
-- [<span data-ttu-id="b5d81-108">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="b5d81-108">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="d32fa-105">Свойство Command</span><span class="sxs-lookup"><span data-stu-id="d32fa-105">Command property</span></span>](command-property-adox.md)
+- [<span data-ttu-id="d32fa-106">Свойство DateCreated</span><span class="sxs-lookup"><span data-stu-id="d32fa-106">DateCreated property</span></span>](datecreated-property-adox.md)
+- [<span data-ttu-id="d32fa-107">Свойство DateModified</span><span class="sxs-lookup"><span data-stu-id="d32fa-107">DateModified property</span></span>](datemodified-property-adox.md)
+- [<span data-ttu-id="d32fa-108">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="d32fa-108">Name property</span></span>](name-property-adox.md)
 
-## <a name="methods"></a><span data-ttu-id="b5d81-109">Методы</span><span class="sxs-lookup"><span data-stu-id="b5d81-109">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="d32fa-109">Methods</span><span class="sxs-lookup"><span data-stu-id="d32fa-109">Methods</span></span>
 
-<span data-ttu-id="b5d81-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="b5d81-110">None.</span></span>
+<span data-ttu-id="d32fa-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="d32fa-110">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="b5d81-111">События</span><span class="sxs-lookup"><span data-stu-id="b5d81-111">Events</span></span>
+## <a name="events"></a><span data-ttu-id="d32fa-111">События</span><span class="sxs-lookup"><span data-stu-id="d32fa-111">Events</span></span>
 
-<span data-ttu-id="b5d81-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="b5d81-112">None.</span></span>
+<span data-ttu-id="d32fa-112">Нет.</span><span class="sxs-lookup"><span data-stu-id="d32fa-112">None.</span></span>
 

@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302431"
 ---
-# <a name="workspacedatabases-property-dao"></a><span data-ttu-id="e286a-102">Свойство Workspace. databases (DAO)</span><span class="sxs-lookup"><span data-stu-id="e286a-102">Workspace.Databases property (DAO)</span></span>
+# <a name="workspacedatabases-property-dao"></a><span data-ttu-id="2715b-102">Свойство Workspace. databases (DAO)</span><span class="sxs-lookup"><span data-stu-id="2715b-102">Workspace.Databases property (DAO)</span></span>
 
 
-<span data-ttu-id="e286a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e286a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2715b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2715b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e286a-104">Возвращает коллекцию **баз данных** , представляющую открытые базы данных в указанной **рабочей области**.</span><span class="sxs-lookup"><span data-stu-id="e286a-104">Returns a **Databases** collection that represents the open databases in the specified **Workspace**.</span></span> <span data-ttu-id="e286a-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="e286a-105">Read-only.</span></span>
+<span data-ttu-id="2715b-104">Возвращает коллекцию **баз данных** , представляющую открытые базы данных в указанной **рабочей области**.</span><span class="sxs-lookup"><span data-stu-id="2715b-104">Returns a **Databases** collection that represents the open databases in the specified **Workspace**.</span></span> <span data-ttu-id="2715b-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="2715b-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e286a-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e286a-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2715b-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2715b-106">Syntax</span></span>
 
-<span data-ttu-id="e286a-107">*Expression* . Базы</span><span class="sxs-lookup"><span data-stu-id="e286a-107">*expression* .Databases</span></span>
+<span data-ttu-id="2715b-107">*Expression* . Базы</span><span class="sxs-lookup"><span data-stu-id="2715b-107">*expression* .Databases</span></span>
 
-<span data-ttu-id="e286a-108">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="e286a-108">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="2715b-108">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="2715b-108">*expression* A variable that represents a **Workspace** object.</span></span>
 

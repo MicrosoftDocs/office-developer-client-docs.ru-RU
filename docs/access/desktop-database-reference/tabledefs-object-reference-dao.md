@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314142"
 ---
-# <a name="tabledefs-object-reference-dao"></a><span data-ttu-id="eafba-102">Ссылка на объект TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="eafba-102">TableDefs object reference (DAO)</span></span>
+# <a name="tabledefs-object-reference-dao"></a><span data-ttu-id="69887-102">Ссылка на объект TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="69887-102">TableDefs object reference (DAO)</span></span>
 
-<span data-ttu-id="eafba-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eafba-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69887-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69887-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="eafba-104">Коллекция TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="eafba-104">TableDefs collection (DAO)</span></span>](tabledefs-collection-dao.md)
-- [<span data-ttu-id="eafba-105">Элементы TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="eafba-105">TableDefs members (DAO)</span></span>](tabledefs-members-dao.md)
-- [<span data-ttu-id="eafba-106">Свойства TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="eafba-106">TableDefs properties (DAO)</span></span>](tabledefs-properties-dao.md)
-- [<span data-ttu-id="eafba-107">Методы TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="eafba-107">TableDefs methods (DAO)</span></span>](tabledefs-methods-dao.md)
+- [<span data-ttu-id="69887-104">Коллекция TableDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="69887-104">TableDefs collection (DAO)</span></span>](tabledefs-collection-dao.md)
+- [<span data-ttu-id="69887-105">Элементы TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="69887-105">TableDefs members (DAO)</span></span>](tabledefs-members-dao.md)
+- [<span data-ttu-id="69887-106">Свойства TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="69887-106">TableDefs properties (DAO)</span></span>](tabledefs-properties-dao.md)
+- [<span data-ttu-id="69887-107">Методы TableDef (DAO)</span><span class="sxs-lookup"><span data-stu-id="69887-107">TableDefs methods (DAO)</span></span>](tabledefs-methods-dao.md)
 

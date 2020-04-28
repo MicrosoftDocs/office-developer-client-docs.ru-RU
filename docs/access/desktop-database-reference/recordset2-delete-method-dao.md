@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307359"
 ---
-# <a name="recordset2delete-method-dao"></a><span data-ttu-id="52470-102">Метод Recordset2. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="52470-102">Recordset2.Delete method (DAO)</span></span>
+# <a name="recordset2delete-method-dao"></a><span data-ttu-id="1c170-102">Метод Recordset2. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="1c170-102">Recordset2.Delete method (DAO)</span></span>
 
 
-<span data-ttu-id="52470-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="52470-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1c170-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1c170-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="52470-104">Не поддерживается для объекта.</span><span class="sxs-lookup"><span data-stu-id="52470-104">Not supported for this object.</span></span>
+<span data-ttu-id="1c170-104">Не поддерживается для объекта.</span><span class="sxs-lookup"><span data-stu-id="1c170-104">Not supported for this object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="52470-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="52470-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="1c170-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1c170-105">Syntax</span></span>
 
-<span data-ttu-id="52470-106">*Expression* . Удален</span><span class="sxs-lookup"><span data-stu-id="52470-106">*expression* .Delete</span></span>
+<span data-ttu-id="1c170-106">*Expression* . Удален</span><span class="sxs-lookup"><span data-stu-id="1c170-106">*expression* .Delete</span></span>
 
-<span data-ttu-id="52470-107">*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="52470-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="1c170-107">*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="1c170-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 

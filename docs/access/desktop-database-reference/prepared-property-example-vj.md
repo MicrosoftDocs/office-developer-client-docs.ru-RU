@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301437"
 ---
-# <a name="prepared-property-example-vj"></a><span data-ttu-id="acc57-102">Пример использования свойства Prepared (VJ++)</span><span class="sxs-lookup"><span data-stu-id="acc57-102">Prepared property example (VJ++)</span></span>
+# <a name="prepared-property-example-vj"></a><span data-ttu-id="f3c23-102">Пример использования свойства Prepared (VJ++)</span><span class="sxs-lookup"><span data-stu-id="f3c23-102">Prepared property example (VJ++)</span></span>
 
 
-<span data-ttu-id="acc57-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="acc57-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f3c23-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3c23-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="acc57-104">В этом примере показано свойство [Prepared](prepared-property-ado.md) , открывающее два объекта [Command](command-object-ado.md) — один подготовленный и один не подготовленный.</span><span class="sxs-lookup"><span data-stu-id="acc57-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
+<span data-ttu-id="f3c23-104">В этом примере показано свойство [Prepared](prepared-property-ado.md) , открывающее два объекта [Command](command-object-ado.md) — один подготовленный и один не подготовленный.</span><span class="sxs-lookup"><span data-stu-id="f3c23-104">This example demonstrates the [Prepared](prepared-property-ado.md) property by opening two [Command](command-object-ado.md) objects — one prepared and one not prepared.</span></span>
 
 ```java 
  

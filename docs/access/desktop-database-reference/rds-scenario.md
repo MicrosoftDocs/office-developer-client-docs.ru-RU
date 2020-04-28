@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300828"
 ---
-# <a name="rds-scenario"></a><span data-ttu-id="03c6f-102">Сценарий RDS</span><span class="sxs-lookup"><span data-stu-id="03c6f-102">RDS scenario</span></span>
+# <a name="rds-scenario"></a><span data-ttu-id="a42e5-102">Сценарий RDS</span><span class="sxs-lookup"><span data-stu-id="a42e5-102">RDS scenario</span></span>
 
-<span data-ttu-id="03c6f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="03c6f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a42e5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a42e5-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="03c6f-104">Address Book Command Buttons</span><span class="sxs-lookup"><span data-stu-id="03c6f-104">Address Book Command Buttons</span></span>](address-book-command-buttons.md)
-- [<span data-ttu-id="03c6f-105">Address Book Data-Binding Object</span><span class="sxs-lookup"><span data-stu-id="03c6f-105">Address Book Data-Binding Object</span></span>](address-book-data-binding-object.md)
-- [<span data-ttu-id="03c6f-106">Address Book Navigation Buttons</span><span class="sxs-lookup"><span data-stu-id="03c6f-106">Address Book Navigation Buttons</span></span>](address-book-navigation-buttons.md)
-- [<span data-ttu-id="03c6f-107">Running the Address Book Sample Application</span><span class="sxs-lookup"><span data-stu-id="03c6f-107">Running the Address Book Sample Application</span></span>](running-the-address-book-sample-application.md)
-- [<span data-ttu-id="03c6f-108">System Requirements for the Address Book Application</span><span class="sxs-lookup"><span data-stu-id="03c6f-108">System Requirements for the Address Book Application</span></span>](system-requirements-for-the-address-book-application.md)
+- [<span data-ttu-id="a42e5-104">Address Book Command Buttons</span><span class="sxs-lookup"><span data-stu-id="a42e5-104">Address Book Command Buttons</span></span>](address-book-command-buttons.md)
+- [<span data-ttu-id="a42e5-105">Address Book Data-Binding Object</span><span class="sxs-lookup"><span data-stu-id="a42e5-105">Address Book Data-Binding Object</span></span>](address-book-data-binding-object.md)
+- [<span data-ttu-id="a42e5-106">Address Book Navigation Buttons</span><span class="sxs-lookup"><span data-stu-id="a42e5-106">Address Book Navigation Buttons</span></span>](address-book-navigation-buttons.md)
+- [<span data-ttu-id="a42e5-107">Running the Address Book Sample Application</span><span class="sxs-lookup"><span data-stu-id="a42e5-107">Running the Address Book Sample Application</span></span>](running-the-address-book-sample-application.md)
+- [<span data-ttu-id="a42e5-108">System Requirements for the Address Book Application</span><span class="sxs-lookup"><span data-stu-id="a42e5-108">System Requirements for the Address Book Application</span></span>](system-requirements-for-the-address-book-application.md)
 
 

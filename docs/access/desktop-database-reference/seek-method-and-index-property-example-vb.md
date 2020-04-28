@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308759"
 ---
-# <a name="seek-method-and-index-property-example-vb"></a><span data-ttu-id="82643-102">Пример использования метода Seek и свойства Index (VB)</span><span class="sxs-lookup"><span data-stu-id="82643-102">Seek method and Index property example (VB)</span></span>
+# <a name="seek-method-and-index-property-example-vb"></a><span data-ttu-id="79ea6-102">Пример использования метода Seek и свойства Index (VB)</span><span class="sxs-lookup"><span data-stu-id="79ea6-102">Seek method and Index property example (VB)</span></span>
 
 
-<span data-ttu-id="82643-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="82643-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="79ea6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="79ea6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="82643-104">В этом примере используется метод [Seek](seek-method-ado.md) объекта [Recordset](recordset-object-ado.md) и свойство [index](index-property-ado.md) в сочетании с заданным ***идентификатором сотрудника***, чтобы найти имя сотрудника в таблице ***Employees*** базы данных нвинд. mdb.</span><span class="sxs-lookup"><span data-stu-id="82643-104">This example uses the [Recordset](recordset-object-ado.md) object's [Seek](seek-method-ado.md) method and [Index](index-property-ado.md) property in conjunction with a given ***Employee ID***, to locate the employee's name in the ***Employees*** table of the Nwind.mdb database.</span></span>
+<span data-ttu-id="79ea6-104">В этом примере используется метод [Seek](seek-method-ado.md) объекта [Recordset](recordset-object-ado.md) и свойство [index](index-property-ado.md) в сочетании с заданным ***идентификатором сотрудника***, чтобы найти имя сотрудника в таблице ***Employees*** базы данных нвинд. mdb.</span><span class="sxs-lookup"><span data-stu-id="79ea6-104">This example uses the [Recordset](recordset-object-ado.md) object's [Seek](seek-method-ado.md) method and [Index](index-property-ado.md) property in conjunction with a given ***Employee ID***, to locate the employee's name in the ***Employees*** table of the Nwind.mdb database.</span></span>
 
 ```vb 
  

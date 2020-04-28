@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301346"
 ---
-# <a name="procedures-collection-adox-reference"></a><span data-ttu-id="ffc66-102">Справочник по коллекции процедур (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ffc66-102">Procedures collection (ADOX) reference</span></span>
+# <a name="procedures-collection-adox-reference"></a><span data-ttu-id="2e5cd-102">Справочник по коллекции процедур (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2e5cd-102">Procedures collection (ADOX) reference</span></span>
 
-<span data-ttu-id="ffc66-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ffc66-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2e5cd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e5cd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ffc66-104">Коллекция процедур (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ffc66-104">Procedures collection (ADOX)</span></span>](procedures-collection-adox.md)
-- [<span data-ttu-id="ffc66-105">Свойства, методы и события коллекции процедуры (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ffc66-105">Procedures collection properties, methods, and events (ADOX)</span></span>](procedures-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="2e5cd-104">Коллекция процедур (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2e5cd-104">Procedures collection (ADOX)</span></span>](procedures-collection-adox.md)
+- [<span data-ttu-id="2e5cd-105">Свойства, методы и события коллекции процедуры (ADOX)</span><span class="sxs-lookup"><span data-stu-id="2e5cd-105">Procedures collection properties, methods, and events (ADOX)</span></span>](procedures-collection-properties-methods-and-events-adox.md)
 

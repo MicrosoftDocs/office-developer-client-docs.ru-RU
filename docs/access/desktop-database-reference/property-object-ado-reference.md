@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301206"
 ---
-# <a name="property-object-ado-reference"></a><span data-ttu-id="7986b-102">Справочник по объектам Property (ADO)</span><span class="sxs-lookup"><span data-stu-id="7986b-102">Property object (ADO) reference</span></span>
+# <a name="property-object-ado-reference"></a><span data-ttu-id="6b862-102">Справочник по объектам Property (ADO)</span><span class="sxs-lookup"><span data-stu-id="6b862-102">Property object (ADO) reference</span></span>
 
-<span data-ttu-id="7986b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7986b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6b862-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6b862-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="7986b-104">Объект Property (ADO)</span><span class="sxs-lookup"><span data-stu-id="7986b-104">Property object (ADO)</span></span>](property-object-ado.md)
-- [<span data-ttu-id="7986b-105">Свойства, методы и события свойств (ADO)</span><span class="sxs-lookup"><span data-stu-id="7986b-105">Property properties, methods, and events (ADO)</span></span>](property-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="6b862-104">Объект Property (ADO)</span><span class="sxs-lookup"><span data-stu-id="6b862-104">Property object (ADO)</span></span>](property-object-ado.md)
+- [<span data-ttu-id="6b862-105">Свойства, методы и события свойств (ADO)</span><span class="sxs-lookup"><span data-stu-id="6b862-105">Property properties, methods, and events (ADO)</span></span>](property-properties-methods-and-events-ado.md)
 

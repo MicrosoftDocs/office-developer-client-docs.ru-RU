@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314443"
 ---
-# <a name="table-object-adox-reference"></a><span data-ttu-id="f2022-102">Справочник по объектам таблицы (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f2022-102">Table object (ADOX) reference</span></span>
+# <a name="table-object-adox-reference"></a><span data-ttu-id="6cb21-102">Справочник по объектам таблицы (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6cb21-102">Table object (ADOX) reference</span></span>
 
-<span data-ttu-id="f2022-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f2022-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6cb21-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6cb21-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f2022-104">Объект Table (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f2022-104">Table object (ADOX)</span></span>](table-object-adox.md)
-- [<span data-ttu-id="f2022-105">Свойства, методы и события таблицы (ADOX)</span><span class="sxs-lookup"><span data-stu-id="f2022-105">Table properties, methods, and events (ADOX)</span></span>](table-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="6cb21-104">Объект Table (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6cb21-104">Table object (ADOX)</span></span>](table-object-adox.md)
+- [<span data-ttu-id="6cb21-105">Свойства, методы и события таблицы (ADOX)</span><span class="sxs-lookup"><span data-stu-id="6cb21-105">Table properties, methods, and events (ADOX)</span></span>](table-properties-methods-and-events-adox.md)
 

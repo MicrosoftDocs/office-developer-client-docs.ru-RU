@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309143"
 ---
-# <a name="relatedcolumn-property-adox"></a><span data-ttu-id="ffb43-102">Свойство RelatedColumn (ADOX)</span><span class="sxs-lookup"><span data-stu-id="ffb43-102">RelatedColumn property (ADOX)</span></span>
+# <a name="relatedcolumn-property-adox"></a><span data-ttu-id="02250-102">Свойство RelatedColumn (ADOX)</span><span class="sxs-lookup"><span data-stu-id="02250-102">RelatedColumn property (ADOX)</span></span>
 
 
-<span data-ttu-id="ffb43-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ffb43-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="02250-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="02250-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ffb43-104">Указывает имя связанного столбца в связанной таблице (только ключевые столбцы).</span><span class="sxs-lookup"><span data-stu-id="ffb43-104">Indicates the name of the related column in the related table (key columns only).</span></span>
+<span data-ttu-id="02250-104">Указывает имя связанного столбца в связанной таблице (только ключевые столбцы).</span><span class="sxs-lookup"><span data-stu-id="02250-104">Indicates the name of the related column in the related table (key columns only).</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="ffb43-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="ffb43-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="02250-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="02250-105">Settings and return values</span></span>
 
-<span data-ttu-id="ffb43-106">Задает и возвращает **строковое** значение, которое представляет собой имя связанного столбца в связанной таблице.</span><span class="sxs-lookup"><span data-stu-id="ffb43-106">Sets and returns a **String** value that is the name of the related column in the related table.</span></span>
+<span data-ttu-id="02250-106">Задает и возвращает **строковое** значение, которое представляет собой имя связанного столбца в связанной таблице.</span><span class="sxs-lookup"><span data-stu-id="02250-106">Sets and returns a **String** value that is the name of the related column in the related table.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ffb43-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="ffb43-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="02250-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="02250-107">Remarks</span></span>
 
-<span data-ttu-id="ffb43-108">Значение по умолчанию — пустая строка ("").</span><span class="sxs-lookup"><span data-stu-id="ffb43-108">The default value is an empty string ("").</span></span>
+<span data-ttu-id="02250-108">Значение по умолчанию — пустая строка ("").</span><span class="sxs-lookup"><span data-stu-id="02250-108">The default value is an empty string ("").</span></span>
 
-<span data-ttu-id="ffb43-109">Это свойство доступно только для чтения для объектов [Column](column-object-adox.md) , уже добавленных в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="ffb43-109">This property is read-only for [Column](column-object-adox.md) objects already appended to a collection.</span></span>
+<span data-ttu-id="02250-109">Это свойство доступно только для чтения для объектов [Column](column-object-adox.md) , уже добавленных в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="02250-109">This property is read-only for [Column](column-object-adox.md) objects already appended to a collection.</span></span>
 

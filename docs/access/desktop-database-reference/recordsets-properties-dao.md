@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309312"
 ---
-# <a name="recordsets-properties-dao"></a><span data-ttu-id="74adf-102">Свойства наборов записей (DAO)</span><span class="sxs-lookup"><span data-stu-id="74adf-102">Recordsets properties (DAO)</span></span>
+# <a name="recordsets-properties-dao"></a><span data-ttu-id="598bb-102">Свойства наборов записей (DAO)</span><span class="sxs-lookup"><span data-stu-id="598bb-102">Recordsets properties (DAO)</span></span>
 
-<span data-ttu-id="74adf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="74adf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="598bb-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="598bb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="74adf-104">Свойство Recordsets. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="74adf-104">Recordsets.Count property (DAO)</span></span>](recordsets-count-property-dao.md)
+- [<span data-ttu-id="598bb-104">Свойство recordsets. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="598bb-104">Recordsets.Count property (DAO)</span></span>](recordsets-count-property-dao.md)
 

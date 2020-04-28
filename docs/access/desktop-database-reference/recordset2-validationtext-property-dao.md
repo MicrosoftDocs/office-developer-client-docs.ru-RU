@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309046"
 ---
-# <a name="recordset2validationtext-property-dao"></a><span data-ttu-id="64003-102">Свойство Recordset2. ValidationText (DAO)</span><span class="sxs-lookup"><span data-stu-id="64003-102">Recordset2.ValidationText property (DAO)</span></span>
+# <a name="recordset2validationtext-property-dao"></a><span data-ttu-id="e6aef-102">Свойство Recordset2. ValidationText (DAO)</span><span class="sxs-lookup"><span data-stu-id="e6aef-102">Recordset2.ValidationText property (DAO)</span></span>
 
 
-<span data-ttu-id="64003-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="64003-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e6aef-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e6aef-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="64003-104">Задает или возвращает значение, определяющее текст сообщения, которое отображает ваше приложение, если значение объекта **Field** не удовлетворяют правилу проверки, задаваемому настройкой параметра **ValidationRule** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="64003-104">Sets or returns a value that specifies the text of the message that your application displays if the value of a **Field** object doesn't satisfy the validation rule specified by the **ValidationRule** property setting (Microsoft Access workspaces only).</span></span> <span data-ttu-id="64003-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="64003-105">Read-only **String**.</span></span>
+<span data-ttu-id="e6aef-104">Задает или возвращает значение, определяющее текст сообщения, которое отображает ваше приложение, если значение объекта **Field** не удовлетворяют правилу проверки, задаваемому настройкой параметра **ValidationRule** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="e6aef-104">Sets or returns a value that specifies the text of the message that your application displays if the value of a **Field** object doesn't satisfy the validation rule specified by the **ValidationRule** property setting (Microsoft Access workspaces only).</span></span> <span data-ttu-id="e6aef-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="e6aef-105">Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="64003-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="64003-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e6aef-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e6aef-106">Syntax</span></span>
 
-<span data-ttu-id="64003-107">*Expression* . ValidationText</span><span class="sxs-lookup"><span data-stu-id="64003-107">*expression* .ValidationText</span></span>
+<span data-ttu-id="e6aef-107">*Expression* . ValidationText</span><span class="sxs-lookup"><span data-stu-id="e6aef-107">*expression* .ValidationText</span></span>
 
-<span data-ttu-id="64003-108">*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="64003-108">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="e6aef-108">*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .</span><span class="sxs-lookup"><span data-stu-id="e6aef-108">*expression* A variable that represents a **Recordset2** object.</span></span>
 

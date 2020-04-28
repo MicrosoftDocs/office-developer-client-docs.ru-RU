@@ -14,15 +14,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314128"
 ---
-# <a name="understanding-recordset-structure"></a><span data-ttu-id="69da6-102">Структура набора записей</span><span class="sxs-lookup"><span data-stu-id="69da6-102">Understanding Recordset structure</span></span>
+# <a name="understanding-recordset-structure"></a><span data-ttu-id="66140-102">Структура набора записей</span><span class="sxs-lookup"><span data-stu-id="66140-102">Understanding Recordset structure</span></span>
 
-<span data-ttu-id="69da6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69da6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="66140-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="66140-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="69da6-104">Каждый **набор записей** содержит \*\*\*\* коллекцию Fields, состоящую из одного или нескольких объектов **field** .</span><span class="sxs-lookup"><span data-stu-id="69da6-104">Every **Recordset** has a **Fields** collection consisting of one or more **Field** objects.</span></span> <span data-ttu-id="69da6-105">Объект **field** обычно представляет столбец таблицы.</span><span class="sxs-lookup"><span data-stu-id="69da6-105">A **Field** object usually represents a table column.</span></span> 
+<span data-ttu-id="66140-104">Каждый **набор записей** содержит коллекцию **Fields** , состоящую из одного или нескольких объектов **field** .</span><span class="sxs-lookup"><span data-stu-id="66140-104">Every **Recordset** has a **Fields** collection consisting of one or more **Field** objects.</span></span> <span data-ttu-id="66140-105">Объект **field** обычно представляет столбец таблицы.</span><span class="sxs-lookup"><span data-stu-id="66140-105">A **Field** object usually represents a table column.</span></span> 
 
-<span data-ttu-id="69da6-106">В следующих разделах объясняется, как перемещаться \*\*\*\* по коллекции Fields и получать сведения о каждом поле.</span><span class="sxs-lookup"><span data-stu-id="69da6-106">The following topics explain how to navigate through the **Fields** collection and get information about each field.</span></span> <span data-ttu-id="69da6-107">Затем мы обсудим, какие сведения доступны вам через объект **field** , и как его использовать.</span><span class="sxs-lookup"><span data-stu-id="69da6-107">They then discuss what kind of information is available to you via the **Field** object and how to use it.</span></span>
+<span data-ttu-id="66140-106">В следующих разделах объясняется, как перемещаться по коллекции **Fields** и получать сведения о каждом поле.</span><span class="sxs-lookup"><span data-stu-id="66140-106">The following topics explain how to navigate through the **Fields** collection and get information about each field.</span></span> <span data-ttu-id="66140-107">Затем мы обсудим, какие сведения доступны вам через объект **field** , и как его использовать.</span><span class="sxs-lookup"><span data-stu-id="66140-107">They then discuss what kind of information is available to you via the **Field** object and how to use it.</span></span>
 
-- [<span data-ttu-id="69da6-108">Коллекция Fields</span><span class="sxs-lookup"><span data-stu-id="69da6-108">Fields collection</span></span>](the-fields-collection.md)
-- [<span data-ttu-id="69da6-109">Объект Field</span><span class="sxs-lookup"><span data-stu-id="69da6-109">Field object</span></span>](the-field-object.md)
-- [<span data-ttu-id="69da6-110">Working with Recordsets</span><span class="sxs-lookup"><span data-stu-id="69da6-110">Working with Recordsets</span></span>](working-with-recordsets.md)
+- [<span data-ttu-id="66140-108">Коллекция Fields</span><span class="sxs-lookup"><span data-stu-id="66140-108">Fields collection</span></span>](the-fields-collection.md)
+- [<span data-ttu-id="66140-109">Объект Field</span><span class="sxs-lookup"><span data-stu-id="66140-109">Field object</span></span>](the-field-object.md)
+- [<span data-ttu-id="66140-110">Working with Recordsets</span><span class="sxs-lookup"><span data-stu-id="66140-110">Working with Recordsets</span></span>](working-with-recordsets.md)
 

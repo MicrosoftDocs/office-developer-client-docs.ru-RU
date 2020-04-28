@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309278"
 ---
-# <a name="recordsets-methods-dao"></a><span data-ttu-id="4f074-102">Методы наборов записей (DAO)</span><span class="sxs-lookup"><span data-stu-id="4f074-102">Recordsets methods (DAO)</span></span>
+# <a name="recordsets-methods-dao"></a><span data-ttu-id="376aa-102">Методы наборов записей (DAO)</span><span class="sxs-lookup"><span data-stu-id="376aa-102">Recordsets methods (DAO)</span></span>
 
-<span data-ttu-id="4f074-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f074-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="376aa-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="376aa-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="4f074-104">Метод Recordset. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="4f074-104">Recordsets.Refresh method (DAO)</span></span>](recordsets-refresh-method-dao.md)
+- [<span data-ttu-id="376aa-104">Метод Recordset. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="376aa-104">Recordsets.Refresh method (DAO)</span></span>](recordsets-refresh-method-dao.md)
 

@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312077"
 ---
-# <a name="version-property-example-vb"></a><span data-ttu-id="0431c-102">Пример использования свойства Version (VB)</span><span class="sxs-lookup"><span data-stu-id="0431c-102">Version property example (VB)</span></span>
+# <a name="version-property-example-vb"></a><span data-ttu-id="4a0d4-102">Пример использования свойства Version (VB)</span><span class="sxs-lookup"><span data-stu-id="4a0d4-102">Version property example (VB)</span></span>
 
 
-<span data-ttu-id="0431c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0431c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4a0d4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a0d4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="0431c-104">В этом примере используется свойство [Version](version-property-ado.md) объекта [Connection](connection-object-ado.md) для отображения текущей версии ADO.</span><span class="sxs-lookup"><span data-stu-id="0431c-104">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version.</span></span> <span data-ttu-id="0431c-105">Кроме того, в нем используется несколько динамических свойств для отображения:</span><span class="sxs-lookup"><span data-stu-id="0431c-105">It also uses several dynamic properties to show:</span></span>
+<span data-ttu-id="4a0d4-104">В этом примере используется свойство [Version](version-property-ado.md) объекта [Connection](connection-object-ado.md) для отображения текущей версии ADO.</span><span class="sxs-lookup"><span data-stu-id="4a0d4-104">This example uses the [Version](version-property-ado.md) property of a [Connection](connection-object-ado.md) object to display the current ADO version.</span></span> <span data-ttu-id="4a0d4-105">Кроме того, в нем используется несколько динамических свойств для отображения:</span><span class="sxs-lookup"><span data-stu-id="4a0d4-105">It also uses several dynamic properties to show:</span></span>
 
-  - <span data-ttu-id="0431c-106">Текущее имя и версия СУБД.</span><span class="sxs-lookup"><span data-stu-id="0431c-106">the current DBMS name and version.</span></span>
+  - <span data-ttu-id="4a0d4-106">Текущее имя и версия СУБД.</span><span class="sxs-lookup"><span data-stu-id="4a0d4-106">the current DBMS name and version.</span></span>
 
-  - <span data-ttu-id="0431c-107">Версия OLE DB.</span><span class="sxs-lookup"><span data-stu-id="0431c-107">OLE DB version.</span></span>
+  - <span data-ttu-id="4a0d4-107">Версия OLE DB.</span><span class="sxs-lookup"><span data-stu-id="4a0d4-107">OLE DB version.</span></span>
 
-  - <span data-ttu-id="0431c-108">имя и версия поставщика.</span><span class="sxs-lookup"><span data-stu-id="0431c-108">provider name and version.</span></span>
+  - <span data-ttu-id="4a0d4-108">имя и версия поставщика.</span><span class="sxs-lookup"><span data-stu-id="4a0d4-108">provider name and version.</span></span>
 
-  - <span data-ttu-id="0431c-109">Версия ODBC.</span><span class="sxs-lookup"><span data-stu-id="0431c-109">ODBC version.</span></span>
+  - <span data-ttu-id="4a0d4-109">Версия ODBC.</span><span class="sxs-lookup"><span data-stu-id="4a0d4-109">ODBC version.</span></span>
 
-  - <span data-ttu-id="0431c-110">Имя и версия драйвера ODBC.</span><span class="sxs-lookup"><span data-stu-id="0431c-110">ODBC driver name and version.</span></span>
+  - <span data-ttu-id="4a0d4-110">Имя и версия драйвера ODBC.</span><span class="sxs-lookup"><span data-stu-id="4a0d4-110">ODBC driver name and version.</span></span>
 
 <!-- end list -->
 

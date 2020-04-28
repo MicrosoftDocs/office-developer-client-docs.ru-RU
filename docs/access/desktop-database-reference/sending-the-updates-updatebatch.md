@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308717"
 ---
-# <a name="sending-the-updates-updatebatch"></a><span data-ttu-id="f54c3-102">Отправка обновлений: UpdateBatch</span><span class="sxs-lookup"><span data-stu-id="f54c3-102">Sending the updates: UpdateBatch</span></span>
+# <a name="sending-the-updates-updatebatch"></a><span data-ttu-id="b1653-102">Отправка обновлений: UpdateBatch</span><span class="sxs-lookup"><span data-stu-id="b1653-102">Sending the updates: UpdateBatch</span></span>
 
 
-<span data-ttu-id="f54c3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f54c3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b1653-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b1653-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="sending-the-updates-updatebatch-method"></a><span data-ttu-id="f54c3-104">Отправка обновлений: метод UpdateBatch</span><span class="sxs-lookup"><span data-stu-id="f54c3-104">Sending the Updates: UpdateBatch Method</span></span>
+## <a name="sending-the-updates-updatebatch-method"></a><span data-ttu-id="b1653-104">Отправка обновлений: метод UpdateBatch</span><span class="sxs-lookup"><span data-stu-id="b1653-104">Sending the Updates: UpdateBatch Method</span></span>
 
-<span data-ttu-id="f54c3-105">Следующий код открывает объект **Recordset** в пакетном режиме, устанавливая для свойства **LockType** значение **адлоккбатчоптимистик** , а для **CursorLocation** — **адусеклиент**.</span><span class="sxs-lookup"><span data-stu-id="f54c3-105">The following code opens a **Recordset** in batch mode by setting the **LockType** property to **adLockBatchOptimistic** and the **CursorLocation** to **adUseClient**.</span></span> <span data-ttu-id="f54c3-106">Он добавляет две новые записи и изменяет значение поля в существующей записи, сохраняет исходные значения, а затем вызывает **UpdateBatch** для отправки изменений обратно в источник данных.</span><span class="sxs-lookup"><span data-stu-id="f54c3-106">It adds two new records and changes the value of a field in an existing record, saving the original values, and then calls **UpdateBatch** to send the changes back to the data source.</span></span>
+<span data-ttu-id="b1653-105">Следующий код открывает объект **Recordset** в пакетном режиме, устанавливая для свойства **LockType** значение **адлоккбатчоптимистик** , а для **CursorLocation** — **адусеклиент**.</span><span class="sxs-lookup"><span data-stu-id="b1653-105">The following code opens a **Recordset** in batch mode by setting the **LockType** property to **adLockBatchOptimistic** and the **CursorLocation** to **adUseClient**.</span></span> <span data-ttu-id="b1653-106">Он добавляет две новые записи и изменяет значение поля в существующей записи, сохраняет исходные значения, а затем вызывает **UpdateBatch** для отправки изменений обратно в источник данных.</span><span class="sxs-lookup"><span data-stu-id="b1653-106">It adds two new records and changes the value of a field in an existing record, saving the original values, and then calls **UpdateBatch** to send the changes back to the data source.</span></span>
 
 ```vb 
  
@@ -50,5 +50,5 @@ ms.locfileid: "32308717"
 'EndBatchUpdate 
 ```
 
-<span data-ttu-id="f54c3-107">Если вы редактируете текущую запись или добавляете новую запись при вызове метода **UpdateBatch** , ADO автоматически вызывает метод **Update** для сохранения всех ожидающих изменений в текущей записи, прежде чем передавать пакетные изменения в поставщики.</span><span class="sxs-lookup"><span data-stu-id="f54c3-107">If you are editing the current record or adding a new record when you call the **UpdateBatch** method, ADO will automatically call the **Update** method to save any pending changes to the current record before transmitting the batched changes to the provider.</span></span>
+<span data-ttu-id="b1653-107">Если вы редактируете текущую запись или добавляете новую запись при вызове метода **UpdateBatch** , ADO автоматически вызывает метод **Update** для сохранения всех ожидающих изменений в текущей записи, прежде чем передавать пакетные изменения поставщику.</span><span class="sxs-lookup"><span data-stu-id="b1653-107">If you are editing the current record or adding a new record when you call the **UpdateBatch** method, ADO will automatically call the **Update** method to save any pending changes to the current record before transmitting the batched changes to the provider.</span></span>
 

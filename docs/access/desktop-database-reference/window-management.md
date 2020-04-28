@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302529"
 ---
-# <a name="window-management"></a><span data-ttu-id="6a87d-102">Управление окнами</span><span class="sxs-lookup"><span data-stu-id="6a87d-102">Window management</span></span>
+# <a name="window-management"></a><span data-ttu-id="04863-102">Управление окнами</span><span class="sxs-lookup"><span data-stu-id="04863-102">Window management</span></span>
 
-<span data-ttu-id="6a87d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6a87d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="04863-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="04863-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="6a87d-104">Макрокоманда CloseWindow</span><span class="sxs-lookup"><span data-stu-id="6a87d-104">CloseWindow macro action</span></span>](closewindow-macro-action.md)
-- [<span data-ttu-id="6a87d-105">Макрокоманда MaximizeWindow</span><span class="sxs-lookup"><span data-stu-id="6a87d-105">MaximizeWindow macro action</span></span>](maximizewindow-macro-action.md)
-- [<span data-ttu-id="6a87d-106">Макрокоманда MinimizeWindow</span><span class="sxs-lookup"><span data-stu-id="6a87d-106">MinimizeWindow macro action</span></span>](minimizewindow-macro-action.md)
-- [<span data-ttu-id="6a87d-107">Макрокоманда MoveAndSizeWindow</span><span class="sxs-lookup"><span data-stu-id="6a87d-107">MoveAndSizeWindow macro action</span></span>](moveandsizewindow-macro-action.md)
-- [<span data-ttu-id="6a87d-108">Макрокоманда RestoreWindow</span><span class="sxs-lookup"><span data-stu-id="6a87d-108">RestoreWindow macro action</span></span>](restorewindow-macro-action.md)
+- [<span data-ttu-id="04863-104">Макрокоманда CloseWindow</span><span class="sxs-lookup"><span data-stu-id="04863-104">CloseWindow macro action</span></span>](closewindow-macro-action.md)
+- [<span data-ttu-id="04863-105">Макрокоманда MaximizeWindow</span><span class="sxs-lookup"><span data-stu-id="04863-105">MaximizeWindow macro action</span></span>](maximizewindow-macro-action.md)
+- [<span data-ttu-id="04863-106">Макрокоманда MinimizeWindow</span><span class="sxs-lookup"><span data-stu-id="04863-106">MinimizeWindow macro action</span></span>](minimizewindow-macro-action.md)
+- [<span data-ttu-id="04863-107">Макрокоманда MoveAndSizeWindow</span><span class="sxs-lookup"><span data-stu-id="04863-107">MoveAndSizeWindow macro action</span></span>](moveandsizewindow-macro-action.md)
+- [<span data-ttu-id="04863-108">Макрокоманда RestoreWindow</span><span class="sxs-lookup"><span data-stu-id="04863-108">RestoreWindow macro action</span></span>](restorewindow-macro-action.md)
 
 

@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305959"
 ---
-# <a name="workspaceclose-method-dao"></a><span data-ttu-id="4d469-102">Метод Workspace. Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="4d469-102">Workspace.Close method (DAO)</span></span>
+# <a name="workspaceclose-method-dao"></a><span data-ttu-id="4aed4-102">Метод Workspace. Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="4aed4-102">Workspace.Close method (DAO)</span></span>
 
 
-<span data-ttu-id="4d469-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4d469-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4aed4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4aed4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4d469-104">ЗаКрывает открытую **рабочую область**.</span><span class="sxs-lookup"><span data-stu-id="4d469-104">Closes an open **Workspace**.</span></span>
+<span data-ttu-id="4aed4-104">Закрывает открытую **рабочую область**.</span><span class="sxs-lookup"><span data-stu-id="4aed4-104">Closes an open **Workspace**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4d469-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4d469-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4aed4-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4aed4-105">Syntax</span></span>
 
-<span data-ttu-id="4d469-106">*выражение*.Close</span><span class="sxs-lookup"><span data-stu-id="4d469-106">*expression* .Close</span></span>
+<span data-ttu-id="4aed4-106">*выражение*.Close</span><span class="sxs-lookup"><span data-stu-id="4aed4-106">*expression* .Close</span></span>
 
-<span data-ttu-id="4d469-107">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="4d469-107">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="4aed4-107">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="4aed4-107">*expression* A variable that represents a **Workspace** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="4d469-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="4d469-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4aed4-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="4aed4-108">Remarks</span></span>
 
-<span data-ttu-id="4d469-109">Если объект **Workspace** уже закрыт при использовании **Close**, возникает ошибка времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="4d469-109">If the **Workspace** object is already closed when you use **Close**, a run-time error occurs.</span></span>
+<span data-ttu-id="4aed4-109">Если объект **Workspace** уже закрыт при использовании **Close**, возникает ошибка времени выполнения.</span><span class="sxs-lookup"><span data-stu-id="4aed4-109">If the **Workspace** object is already closed when you use **Close**, a run-time error occurs.</span></span>
 
-<span data-ttu-id="4d469-110">Альтернатива методу **Close** заключается в присвоении объектной переменной значения **Nothing** (Set dbsTemp = Nothing).</span><span class="sxs-lookup"><span data-stu-id="4d469-110">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
+<span data-ttu-id="4aed4-110">Альтернатива методу **Close** заключается в присвоении объектной переменной значения **Nothing** (Set dbsTemp = Nothing).</span><span class="sxs-lookup"><span data-stu-id="4aed4-110">An alternative to the **Close** method is to set the value of an object variable to **Nothing** (Set dbsTemp = Nothing).</span></span>
 

@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308318"
 ---
-# <a name="workspaces-methods-dao"></a><span data-ttu-id="d1d17-102">Методы рабочих областей (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1d17-102">Workspaces methods (DAO)</span></span>
+# <a name="workspaces-methods-dao"></a><span data-ttu-id="f9e49-102">Методы рабочих областей (DAO)</span><span class="sxs-lookup"><span data-stu-id="f9e49-102">Workspaces methods (DAO)</span></span>
 
-<span data-ttu-id="d1d17-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d1d17-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f9e49-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f9e49-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d1d17-104">Метод workspaces. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1d17-104">Workspaces.Append method (DAO)</span></span>](workspaces-append-method-dao.md)
-- [<span data-ttu-id="d1d17-105">Метод workspaces. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1d17-105">Workspaces.Delete method (DAO)</span></span>](workspaces-delete-method-dao.md)
-- [<span data-ttu-id="d1d17-106">Метод workspaces. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="d1d17-106">Workspaces.Refresh method (DAO)</span></span>](workspaces-refresh-method-dao.md)
+- [<span data-ttu-id="f9e49-104">Метод workspaces. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="f9e49-104">Workspaces.Append method (DAO)</span></span>](workspaces-append-method-dao.md)
+- [<span data-ttu-id="f9e49-105">Метод workspaces. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="f9e49-105">Workspaces.Delete method (DAO)</span></span>](workspaces-delete-method-dao.md)
+- [<span data-ttu-id="f9e49-106">Метод workspaces. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="f9e49-106">Workspaces.Refresh method (DAO)</span></span>](workspaces-refresh-method-dao.md)
 
