@@ -18,33 +18,33 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408917"
 ---
-# <a name="func1"></a><span data-ttu-id="e9dac-104">Func1</span><span class="sxs-lookup"><span data-stu-id="e9dac-104">Func1</span></span>
+# <a name="func1"></a><span data-ttu-id="ab603-104">Func1</span><span class="sxs-lookup"><span data-stu-id="ab603-104">Func1</span></span>
 
- <span data-ttu-id="e9dac-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="e9dac-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="ab603-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="ab603-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="e9dac-106">В примере пользовательской функции листа показано возвращение статического строкового значения.</span><span class="sxs-lookup"><span data-stu-id="e9dac-106">Example user-defined worksheet function demonstrates the return of a static string value.</span></span> <span data-ttu-id="e9dac-107">Когда GENERIC. XLL загружается, она регистрирует эту функцию, чтобы ее можно было вызывать из листа.</span><span class="sxs-lookup"><span data-stu-id="e9dac-107">When GENERIC.xll is loaded, it registers this function so that it can be called from the worksheet.</span></span>
+<span data-ttu-id="ab603-106">В примере пользовательской функции листа показано возвращение статического строкового значения.</span><span class="sxs-lookup"><span data-stu-id="ab603-106">Example user-defined worksheet function demonstrates the return of a static string value.</span></span> <span data-ttu-id="ab603-107">Когда GENERIC. XLL загружается, она регистрирует эту функцию, чтобы ее можно было вызывать из листа.</span><span class="sxs-lookup"><span data-stu-id="ab603-107">When GENERIC.xll is loaded, it registers this function so that it can be called from the worksheet.</span></span>
   
 ```cs
 LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e9dac-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="e9dac-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="ab603-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="ab603-108">Parameters</span></span>
 
- <span data-ttu-id="e9dac-109">_px_ (**Лпкслопер**)</span><span class="sxs-lookup"><span data-stu-id="e9dac-109">_px_ (**LPXLOPER**)</span></span>
+ <span data-ttu-id="ab603-109">_px_ (**лпкслопер**)</span><span class="sxs-lookup"><span data-stu-id="ab603-109">_px_ (**LPXLOPER**)</span></span>
   
-<span data-ttu-id="e9dac-110">Этот аргумент игнорируется и служит только для вызова функции в Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="e9dac-110">This argument is ignored, and serves only to trigger Microsoft Excel to call the function.</span></span>
+<span data-ttu-id="ab603-110">Этот аргумент игнорируется и служит только для вызова функции в Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="ab603-110">This argument is ignored, and serves only to trigger Microsoft Excel to call the function.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="e9dac-111">Значение свойства и возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="e9dac-111">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="ab603-111">Значение свойства и возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="ab603-111">Property value/Return value</span></span>
 
- <span data-ttu-id="e9dac-112">**LPXLOPER12**: всегда строка "func1"</span><span class="sxs-lookup"><span data-stu-id="e9dac-112">**LPXLOPER12**: Always the string "Func1"</span></span>
+ <span data-ttu-id="ab603-112">**LPXLOPER12**: всегда строка "func1"</span><span class="sxs-lookup"><span data-stu-id="ab603-112">**LPXLOPER12**: Always the string "Func1"</span></span>
   
-### <a name="example"></a><span data-ttu-id="e9dac-113">Пример</span><span class="sxs-lookup"><span data-stu-id="e9dac-113">Example</span></span>
+### <a name="example"></a><span data-ttu-id="ab603-113">Пример</span><span class="sxs-lookup"><span data-stu-id="ab603-113">Example</span></span>
 
-<span data-ttu-id="e9dac-114">Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе.</span><span class="sxs-lookup"><span data-stu-id="e9dac-114">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
+<span data-ttu-id="ab603-114">Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе.</span><span class="sxs-lookup"><span data-stu-id="ab603-114">See  `\SAMPLES\GENERIC\GENERIC.C` for the source code for this function.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="e9dac-115">См. также</span><span class="sxs-lookup"><span data-stu-id="e9dac-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ab603-115">См. также</span><span class="sxs-lookup"><span data-stu-id="ab603-115">See also</span></span>
 
 
 
-[<span data-ttu-id="e9dac-116">Функции в универсальной библиотеке DLL</span><span class="sxs-lookup"><span data-stu-id="e9dac-116">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
+[<span data-ttu-id="ab603-116">Функции в универсальной библиотеке DLL</span><span class="sxs-lookup"><span data-stu-id="ab603-116">Functions in the Generic DLL</span></span>](functions-in-the-generic-dll.md)
 

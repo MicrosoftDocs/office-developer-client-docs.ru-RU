@@ -16,12 +16,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412942"
 ---
-# <a name="directory-function"></a><span data-ttu-id="dbc0e-104">Функция DIRECTORY</span><span class="sxs-lookup"><span data-stu-id="dbc0e-104">DIRECTORY Function</span></span>
+# <a name="directory-function"></a><span data-ttu-id="bc18e-104">Функция DIRECTORY</span><span class="sxs-lookup"><span data-stu-id="bc18e-104">DIRECTORY Function</span></span>
 
-<span data-ttu-id="dbc0e-105">Возвращает полный путь к каталогу (папке), в котором сохранен документ, в виде строки.</span><span class="sxs-lookup"><span data-stu-id="dbc0e-105">Returns the full path of the directory (folder) in which a document is saved, as a string.</span></span> <span data-ttu-id="dbc0e-106">Возвращает пустую строку, если документ не был сохранен.</span><span class="sxs-lookup"><span data-stu-id="dbc0e-106">Returns an empty string if the document has not been saved.</span></span>
+<span data-ttu-id="bc18e-105">Возвращает полный путь к каталогу (папке), в котором сохранен документ, в виде строки.</span><span class="sxs-lookup"><span data-stu-id="bc18e-105">Returns the full path of the directory (folder) in which a document is saved, as a string.</span></span> <span data-ttu-id="bc18e-106">Возвращает пустую строку, если документ не был сохранен.</span><span class="sxs-lookup"><span data-stu-id="bc18e-106">Returns an empty string if the document has not been saved.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="dbc0e-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="dbc0e-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="bc18e-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="bc18e-107">Syntax</span></span>
 
-<span data-ttu-id="dbc0e-108">DIRECTORY ()</span><span class="sxs-lookup"><span data-stu-id="dbc0e-108">DIRECTORY ()</span></span>
+<span data-ttu-id="bc18e-108">DIRECTORY ()</span><span class="sxs-lookup"><span data-stu-id="bc18e-108">DIRECTORY ()</span></span>
   
 

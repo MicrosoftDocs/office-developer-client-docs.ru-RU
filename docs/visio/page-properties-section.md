@@ -16,12 +16,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411654"
 ---
-# <a name="page-properties-section"></a><span data-ttu-id="55e9e-103">Page Properties Section</span><span class="sxs-lookup"><span data-stu-id="55e9e-103">Page Properties Section</span></span>
+# <a name="page-properties-section"></a><span data-ttu-id="406dc-103">Page Properties Section</span><span class="sxs-lookup"><span data-stu-id="406dc-103">Page Properties Section</span></span>
 
-<span data-ttu-id="55e9e-104">Содержит ячейки, которые управляют атрибутами страниц, например шириной, высотой и масштабом страницы.</span><span class="sxs-lookup"><span data-stu-id="55e9e-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
+<span data-ttu-id="406dc-104">Содержит ячейки, которые управляют атрибутами страниц, например шириной, высотой и масштабом страницы.</span><span class="sxs-lookup"><span data-stu-id="406dc-104">Contains cells that control page attributes, such as the page width, height, and scale.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="55e9e-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="55e9e-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="406dc-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="406dc-105">Remarks</span></span>
 
-<span data-ttu-id="55e9e-106">Значения свойств страницы можно задать, выполнив запись в ячейке раздела **Свойства страницы** или с помощью диалогового окна **Параметры страницы** (на вкладке **конструктор** щелкните средство запуска диалогового окна в группе **Параметры страницы** ).</span><span class="sxs-lookup"><span data-stu-id="55e9e-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
+<span data-ttu-id="406dc-106">Значения свойств страницы можно задать, выполнив запись в ячейке раздела **Свойства страницы** или с помощью диалогового окна **Параметры страницы** (на вкладке **конструктор** щелкните средство запуска диалогового окна в группе **Параметры страницы** ).</span><span class="sxs-lookup"><span data-stu-id="406dc-106">You can set the values of page properties by making an entry in the **Page Properties** section cell, or by using the **Page Setup** dialog box (on the **Design** tab, click the dialog box launcher in the **Page Setup** group).</span></span> 
   
 

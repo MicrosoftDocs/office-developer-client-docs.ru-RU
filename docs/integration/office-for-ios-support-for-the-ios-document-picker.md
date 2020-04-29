@@ -32,7 +32,7 @@ ms.locfileid: "33410667"
 <span data-ttu-id="a2604-p102">При интеграции Office для iOS доступна операция открытия. После создания расширения Document Provider пользователи могут использовать инструмент Document Picker, чтобы открывать и редактировать документы непосредственно в Office, не создавая копию файла.</span><span class="sxs-lookup"><span data-stu-id="a2604-p102">Office for iOS integrates with the open operation. When you create a Document Provider extension, your users can use the Document Picker to open and edit documents directly in Office without creating a duplicate copy of the file.</span></span>
   
 ## <a name="learn-more-about-app-extensions-and-the-document-picker"></a><span data-ttu-id="a2604-115">Дополнительные сведения о расширениях приложений и инструменте Document Picker</span><span class="sxs-lookup"><span data-stu-id="a2604-115">Learn more about app extensions and the Document Picker</span></span>
-<span data-ttu-id="a2604-116"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="a2604-116"></span></span>
+<span data-ttu-id="a2604-116"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="a2604-116"><a name="bk_addresources"> </a></span></span>
 
 - [<span data-ttu-id="a2604-117">Расширения приложений</span><span class="sxs-lookup"><span data-stu-id="a2604-117">App extensions</span></span>](https://developer.apple.com/library/prerelease/ios/documentation/General/Conceptual/ExtensibilityPG/index.html#//apple_ref/doc/uid/TP40014214-CH20-SW1)
     

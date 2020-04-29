@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405515"
 ---
-# <a name="spropattrarray"></a><span data-ttu-id="75443-103">SPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="75443-103">SPropAttrArray</span></span>
+# <a name="spropattrarray"></a><span data-ttu-id="0cec9-103">SPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="0cec9-103">SPropAttrArray</span></span>
 
   
   
-<span data-ttu-id="75443-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="75443-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0cec9-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0cec9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="75443-105">Содержит список атрибутов для свойств объекта.</span><span class="sxs-lookup"><span data-stu-id="75443-105">Contains a list of attributes for properties of an object.</span></span> 
+<span data-ttu-id="0cec9-105">Содержит список атрибутов для свойств объекта.</span><span class="sxs-lookup"><span data-stu-id="0cec9-105">Contains a list of attributes for properties of an object.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="75443-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="75443-106">Header file:</span></span>  <br/> |<span data-ttu-id="75443-107">IMessage. h</span><span class="sxs-lookup"><span data-stu-id="75443-107">Imessage.h</span></span>  <br/> |
-|<span data-ttu-id="75443-108">Связанные макросы:</span><span class="sxs-lookup"><span data-stu-id="75443-108">Related macros:</span></span>  <br/> |<span data-ttu-id="75443-109">[Кбневспропаттраррай](cbnewspropattrarray.md), [кбспропаттраррай](cbspropattrarray.md)</span><span class="sxs-lookup"><span data-stu-id="75443-109">[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md)</span></span> <br/> |
+|<span data-ttu-id="0cec9-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="0cec9-106">Header file:</span></span>  <br/> |<span data-ttu-id="0cec9-107">IMessage. h</span><span class="sxs-lookup"><span data-stu-id="0cec9-107">Imessage.h</span></span>  <br/> |
+|<span data-ttu-id="0cec9-108">Связанные макросы:</span><span class="sxs-lookup"><span data-stu-id="0cec9-108">Related macros:</span></span>  <br/> |<span data-ttu-id="0cec9-109">[Кбневспропаттраррай](cbnewspropattrarray.md), [кбспропаттраррай](cbspropattrarray.md)</span><span class="sxs-lookup"><span data-stu-id="0cec9-109">[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md)</span></span> <br/> |
    
 ```cpp
 typedef struct
@@ -41,40 +41,40 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="75443-110">Members</span><span class="sxs-lookup"><span data-stu-id="75443-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="0cec9-110">"Участники"</span><span class="sxs-lookup"><span data-stu-id="0cec9-110">Members</span></span>
 
- <span data-ttu-id="75443-111">**Квалуес**</span><span class="sxs-lookup"><span data-stu-id="75443-111">**cValues**</span></span>
+ <span data-ttu-id="0cec9-111">**квалуес**</span><span class="sxs-lookup"><span data-stu-id="0cec9-111">**cValues**</span></span>
   
-> <span data-ttu-id="75443-112">Количество атрибутов свойств в элементе **апропаттр** .</span><span class="sxs-lookup"><span data-stu-id="75443-112">Count of property attributes in the **aPropAttr** member.</span></span> 
+> <span data-ttu-id="0cec9-112">Количество атрибутов свойств в элементе **апропаттр** .</span><span class="sxs-lookup"><span data-stu-id="0cec9-112">Count of property attributes in the **aPropAttr** member.</span></span> 
     
- <span data-ttu-id="75443-113">**Апропаттр**</span><span class="sxs-lookup"><span data-stu-id="75443-113">**aPropAttr**</span></span>
+ <span data-ttu-id="0cec9-113">**апропаттр**</span><span class="sxs-lookup"><span data-stu-id="0cec9-113">**aPropAttr**</span></span>
   
-> <span data-ttu-id="75443-114">Массив атрибутов свойств.</span><span class="sxs-lookup"><span data-stu-id="75443-114">An array of property attributes.</span></span> <span data-ttu-id="75443-115">Для атрибутов допустимы следующие значения:</span><span class="sxs-lookup"><span data-stu-id="75443-115">Valid values for attributes are as follows:</span></span>
+> <span data-ttu-id="0cec9-114">Массив атрибутов свойств.</span><span class="sxs-lookup"><span data-stu-id="0cec9-114">An array of property attributes.</span></span> <span data-ttu-id="0cec9-115">Для атрибутов допустимы следующие значения:</span><span class="sxs-lookup"><span data-stu-id="0cec9-115">Valid values for attributes are as follows:</span></span>
     
-    - <span data-ttu-id="75443-116">ПРОПАТТР_МАНДАТОРИ</span><span class="sxs-lookup"><span data-stu-id="75443-116">PROPATTR_MANDATORY</span></span>
+    - <span data-ttu-id="0cec9-116">PROPATTR_MANDATORY</span><span class="sxs-lookup"><span data-stu-id="0cec9-116">PROPATTR_MANDATORY</span></span>
     
-    - <span data-ttu-id="75443-117">ПРОПАТТР_РЕАДАБЛЕ</span><span class="sxs-lookup"><span data-stu-id="75443-117">PROPATTR_READABLE</span></span>
+    - <span data-ttu-id="0cec9-117">PROPATTR_READABLE</span><span class="sxs-lookup"><span data-stu-id="0cec9-117">PROPATTR_READABLE</span></span>
     
-    - <span data-ttu-id="75443-118">ПРОПАТТР_ВРИТЕАБЛЕ</span><span class="sxs-lookup"><span data-stu-id="75443-118">PROPATTR_WRITEABLE</span></span>
+    - <span data-ttu-id="0cec9-118">PROPATTR_WRITEABLE</span><span class="sxs-lookup"><span data-stu-id="0cec9-118">PROPATTR_WRITEABLE</span></span>
     
-    - <span data-ttu-id="75443-119">ПРОПАТТР_НОТ_ПРЕСЕНТ</span><span class="sxs-lookup"><span data-stu-id="75443-119">PROPATTR_NOT_PRESENT</span></span>
+    - <span data-ttu-id="0cec9-119">PROPATTR_NOT_PRESENT</span><span class="sxs-lookup"><span data-stu-id="0cec9-119">PROPATTR_NOT_PRESENT</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="75443-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="75443-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0cec9-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="0cec9-120">Remarks</span></span>
 
-<span data-ttu-id="75443-121">Структура **спропаттраррай** используется объектами данных свойств, которые реализуют интерфейс [ипропдата: IMAPIProp](ipropdataimapiprop.md) .</span><span class="sxs-lookup"><span data-stu-id="75443-121">The **SPropAttrArray** structure is used by property data objects that implement the [IPropData : IMAPIProp](ipropdataimapiprop.md) interface.</span></span> <span data-ttu-id="75443-122">Он также используется реализацией интерфейса MAPI [имапимессажесите: IUnknown](imapimessagesiteiunknown.md) , основанного на структурированном хранилище.</span><span class="sxs-lookup"><span data-stu-id="75443-122">It is also used by MAPI's implementation of [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) that is based on structured storage.</span></span> 
+<span data-ttu-id="0cec9-121">Структура **спропаттраррай** используется объектами данных свойств, которые реализуют интерфейс [ипропдата: IMAPIProp](ipropdataimapiprop.md) .</span><span class="sxs-lookup"><span data-stu-id="0cec9-121">The **SPropAttrArray** structure is used by property data objects that implement the [IPropData : IMAPIProp](ipropdataimapiprop.md) interface.</span></span> <span data-ttu-id="0cec9-122">Он также используется реализацией интерфейса MAPI [имапимессажесите: IUnknown](imapimessagesiteiunknown.md) , основанного на структурированном хранилище.</span><span class="sxs-lookup"><span data-stu-id="0cec9-122">It is also used by MAPI's implementation of [IMAPIMessageSite : IUnknown](imapimessagesiteiunknown.md) that is based on structured storage.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="75443-123">См. также</span><span class="sxs-lookup"><span data-stu-id="75443-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0cec9-123">См. также</span><span class="sxs-lookup"><span data-stu-id="0cec9-123">See also</span></span>
 
 
 
-[<span data-ttu-id="75443-124">IPropData : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="75443-124">IPropData : IMAPIProp</span></span>](ipropdataimapiprop.md)
+[<span data-ttu-id="0cec9-124">IPropData : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="0cec9-124">IPropData : IMAPIProp</span></span>](ipropdataimapiprop.md)
   
-[<span data-ttu-id="75443-125">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="75443-125">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
+[<span data-ttu-id="0cec9-125">IMAPIMessageSite : IUnknown</span><span class="sxs-lookup"><span data-stu-id="0cec9-125">IMAPIMessageSite : IUnknown</span></span>](imapimessagesiteiunknown.md)
   
-[<span data-ttu-id="75443-126">CbNewSPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="75443-126">CbNewSPropAttrArray</span></span>](cbnewspropattrarray.md)
+[<span data-ttu-id="0cec9-126">CbNewSPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="0cec9-126">CbNewSPropAttrArray</span></span>](cbnewspropattrarray.md)
   
-[<span data-ttu-id="75443-127">CbSPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="75443-127">CbSPropAttrArray</span></span>](cbspropattrarray.md)
+[<span data-ttu-id="0cec9-127">CbSPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="0cec9-127">CbSPropAttrArray</span></span>](cbspropattrarray.md)
 
 
-[<span data-ttu-id="75443-128">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="75443-128">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="0cec9-128">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="0cec9-128">MAPI Structures</span></span>](mapi-structures.md)
 

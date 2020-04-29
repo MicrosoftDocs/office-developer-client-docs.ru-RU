@@ -16,31 +16,31 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409757"
 ---
-# <a name="lockselect-cell-protection-section"></a><span data-ttu-id="cbf81-103">LockSelect Cell (Protection Section)</span><span class="sxs-lookup"><span data-stu-id="cbf81-103">LockSelect Cell (Protection Section)</span></span>
+# <a name="lockselect-cell-protection-section"></a><span data-ttu-id="45276-103">LockSelect Cell (Protection Section)</span><span class="sxs-lookup"><span data-stu-id="45276-103">LockSelect Cell (Protection Section)</span></span>
 
-<span data-ttu-id="cbf81-104">Запрещает выбор фигуры.</span><span class="sxs-lookup"><span data-stu-id="cbf81-104">Prevents a shape from being selected.</span></span>
+<span data-ttu-id="45276-104">Запрещает выбор фигуры.</span><span class="sxs-lookup"><span data-stu-id="45276-104">Prevents a shape from being selected.</span></span>
   
-|<span data-ttu-id="cbf81-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="cbf81-105">**Value**</span></span>|<span data-ttu-id="cbf81-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="cbf81-106">**Description**</span></span>|
+|<span data-ttu-id="45276-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="45276-105">**Value**</span></span>|<span data-ttu-id="45276-106">**Описание**</span><span class="sxs-lookup"><span data-stu-id="45276-106">**Description**</span></span>|
 |:-----|:-----|
-| <span data-ttu-id="cbf81-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="cbf81-107">TRUE</span></span>  <br/> | <span data-ttu-id="cbf81-108">Невозможно выбрать фигуру.</span><span class="sxs-lookup"><span data-stu-id="cbf81-108">Shape cannot be selected.</span></span>  <br/> |
-| <span data-ttu-id="cbf81-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="cbf81-109">FALSE</span></span>  <br/> | <span data-ttu-id="cbf81-110">Можно выбрать фигуру.</span><span class="sxs-lookup"><span data-stu-id="cbf81-110">Shape can be selected.</span></span>  <br/> |
+| <span data-ttu-id="45276-107">TRUE</span><span class="sxs-lookup"><span data-stu-id="45276-107">TRUE</span></span>  <br/> | <span data-ttu-id="45276-108">Невозможно выбрать фигуру.</span><span class="sxs-lookup"><span data-stu-id="45276-108">Shape cannot be selected.</span></span>  <br/> |
+| <span data-ttu-id="45276-109">FALSE</span><span class="sxs-lookup"><span data-stu-id="45276-109">FALSE</span></span>  <br/> | <span data-ttu-id="45276-110">Можно выбрать фигуру.</span><span class="sxs-lookup"><span data-stu-id="45276-110">Shape can be selected.</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="cbf81-111">Примечания</span><span class="sxs-lookup"><span data-stu-id="cbf81-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="45276-111">Примечания</span><span class="sxs-lookup"><span data-stu-id="45276-111">Remarks</span></span>
 
-<span data-ttu-id="cbf81-112">Чтобы LockSelect вступили в силу, в диалоговом окне **Защита документа** должен быть установлен флажок **фигуры** .</span><span class="sxs-lookup"><span data-stu-id="cbf81-112">In order for LockSelect to take effect, the **Shapes** check box must be selected in the **Protect Document** dialog box.</span></span> 
+<span data-ttu-id="45276-112">Чтобы LockSelect вступили в силу, в диалоговом окне **Защита документа** должен быть установлен флажок **фигуры** .</span><span class="sxs-lookup"><span data-stu-id="45276-112">In order for LockSelect to take effect, the **Shapes** check box must be selected in the **Protect Document** dialog box.</span></span> 
   
-<span data-ttu-id="cbf81-113">Чтобы получить ссылку на ячейку LockSelect по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="cbf81-113">To get a reference to the LockSelect cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="45276-113">Чтобы получить ссылку на ячейку LockSelect по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="45276-113">To get a reference to the LockSelect cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="cbf81-114">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="cbf81-114">Cell name:</span></span>  <br/> | <span data-ttu-id="cbf81-115">LockSelect</span><span class="sxs-lookup"><span data-stu-id="cbf81-115">LockSelect</span></span>  <br/> |
+| <span data-ttu-id="45276-114">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="45276-114">Cell name:</span></span>  <br/> | <span data-ttu-id="45276-115">LockSelect</span><span class="sxs-lookup"><span data-stu-id="45276-115">LockSelect</span></span>  <br/> |
    
-<span data-ttu-id="cbf81-116">Чтобы получить ссылку на ячейку LockSelect по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="cbf81-116">To get a reference to the LockSelect cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="45276-116">Чтобы получить ссылку на ячейку LockSelect по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="45276-116">To get a reference to the LockSelect cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="cbf81-117">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="cbf81-117">Section index:</span></span>  <br/> |<span data-ttu-id="cbf81-118">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cbf81-118">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="cbf81-119">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="cbf81-119">Row index:</span></span>  <br/> |<span data-ttu-id="cbf81-120">**Висровлокк**</span><span class="sxs-lookup"><span data-stu-id="cbf81-120">**visRowLock**</span></span> <br/> |
-| <span data-ttu-id="cbf81-121">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="cbf81-121">Cell index:</span></span>  <br/> |<span data-ttu-id="cbf81-122">**Вислоккселект**</span><span class="sxs-lookup"><span data-stu-id="cbf81-122">**visLockSelect**</span></span> <br/> |
+| <span data-ttu-id="45276-117">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="45276-117">Section index:</span></span>  <br/> |<span data-ttu-id="45276-118">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="45276-118">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="45276-119">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="45276-119">Row index:</span></span>  <br/> |<span data-ttu-id="45276-120">**висровлокк**</span><span class="sxs-lookup"><span data-stu-id="45276-120">**visRowLock**</span></span> <br/> |
+| <span data-ttu-id="45276-121">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="45276-121">Cell index:</span></span>  <br/> |<span data-ttu-id="45276-122">**вислоккселект**</span><span class="sxs-lookup"><span data-stu-id="45276-122">**visLockSelect**</span></span> <br/> |
    
 

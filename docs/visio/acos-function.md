@@ -16,22 +16,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405830"
 ---
-# <a name="acos-function"></a><span data-ttu-id="248c4-103">Функция ACOS</span><span class="sxs-lookup"><span data-stu-id="248c4-103">ACOS Function</span></span>
+# <a name="acos-function"></a><span data-ttu-id="a0565-103">Функция ACOS</span><span class="sxs-lookup"><span data-stu-id="a0565-103">ACOS Function</span></span>
 
-<span data-ttu-id="248c4-104">Возвращает арккосинус числа, например угол, косинус которого равен *числу* .</span><span class="sxs-lookup"><span data-stu-id="248c4-104">Returns the arccosine of number, for example, the angle whose cosine is  *number*  .</span></span> 
+<span data-ttu-id="a0565-104">Возвращает арккосинус числа, например угол, косинус которого равен *числу* .</span><span class="sxs-lookup"><span data-stu-id="a0565-104">Returns the arccosine of number, for example, the angle whose cosine is  *number*  .</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="248c4-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="248c4-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a0565-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a0565-105">Syntax</span></span>
 
-<span data-ttu-id="248c4-106">ACOS ( *число*)</span><span class="sxs-lookup"><span data-stu-id="248c4-106">ACOS( *number*)</span></span> 
+<span data-ttu-id="a0565-106">ACOS ( *число*)</span><span class="sxs-lookup"><span data-stu-id="a0565-106">ACOS( *number*)</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="248c4-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="248c4-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a0565-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="a0565-107">Remarks</span></span>
 
-<span data-ttu-id="248c4-108">Входное значение должно быть в диапазоне от 1 \<до Number \<= 1 или #NUM!</span><span class="sxs-lookup"><span data-stu-id="248c4-108">The input value must be in the range -1 \<= number \<= 1, or a #NUM!</span></span> <span data-ttu-id="248c4-109">возвращается ошибка.</span><span class="sxs-lookup"><span data-stu-id="248c4-109">error is returned.</span></span> <span data-ttu-id="248c4-110">Полученный угол \<находится в диапазоне 0 = Angle \<= Пи радиан (0 \<= угол \<= 180 градусов).</span><span class="sxs-lookup"><span data-stu-id="248c4-110">The resulting angle is in the range 0 \<= angle \<= PI radians (0 \<= angle \<= 180 degrees).</span></span>
+<span data-ttu-id="a0565-108">Входное значение должно быть в диапазоне от 1 \<до Number \<= 1 или #NUM!</span><span class="sxs-lookup"><span data-stu-id="a0565-108">The input value must be in the range -1 \<= number \<= 1, or a #NUM!</span></span> <span data-ttu-id="a0565-109">возвращается ошибка.</span><span class="sxs-lookup"><span data-stu-id="a0565-109">error is returned.</span></span> <span data-ttu-id="a0565-110">Полученный угол \<находится в диапазоне 0 = Angle \<= Пи радиан (0 \<= угол \<= 180 градусов).</span><span class="sxs-lookup"><span data-stu-id="a0565-110">The resulting angle is in the range 0 \<= angle \<= PI radians (0 \<= angle \<= 180 degrees).</span></span>
   
-## <a name="example"></a><span data-ttu-id="248c4-111">Пример</span><span class="sxs-lookup"><span data-stu-id="248c4-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a0565-111">Пример</span><span class="sxs-lookup"><span data-stu-id="a0565-111">Example</span></span>
 
-<span data-ttu-id="248c4-112">ACOS (0)</span><span class="sxs-lookup"><span data-stu-id="248c4-112">ACOS(0)</span></span> 
+<span data-ttu-id="a0565-112">ACOS (0)</span><span class="sxs-lookup"><span data-stu-id="a0565-112">ACOS(0)</span></span> 
   
-<span data-ttu-id="248c4-113">Возвращает 90 град</span><span class="sxs-lookup"><span data-stu-id="248c4-113">Returns 90 deg</span></span> 
+<span data-ttu-id="a0565-113">Возвращает 90 град</span><span class="sxs-lookup"><span data-stu-id="a0565-113">Returns 90 deg</span></span> 
   
 

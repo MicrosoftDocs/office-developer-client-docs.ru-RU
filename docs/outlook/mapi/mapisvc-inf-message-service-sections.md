@@ -15,12 +15,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415371"
 ---
-# <a name="mapisvcinf-message-service-sections"></a><span data-ttu-id="95662-103">Разделы службы сообщений MapiSvc. INF</span><span class="sxs-lookup"><span data-stu-id="95662-103">MapiSvc.inf Message Service Sections</span></span>
+# <a name="mapisvcinf-message-service-sections"></a><span data-ttu-id="1b9f8-103">Разделы службы сообщений MapiSvc. INF</span><span class="sxs-lookup"><span data-stu-id="1b9f8-103">MapiSvc.inf Message Service Sections</span></span>
 
   
   
-<span data-ttu-id="95662-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="95662-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1b9f8-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1b9f8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="95662-105">Mapisvc. inf содержит один раздел службы сообщений для каждой из записей, перечисленных в разделе **[службы]** .</span><span class="sxs-lookup"><span data-stu-id="95662-105">mapisvc.inf includes one message service section for each of the entries listed in the **[Services]** section.</span></span> <span data-ttu-id="95662-106">В этих разделах есть два типа записей: один для установки определенных свойств, а другой — для списка имен разделов, связанных с настраиваемой службой сообщений.</span><span class="sxs-lookup"><span data-stu-id="95662-106">There are two types of entries in these sections: one for setting certain properties and the other for listing names of sections that are related to the message service being configured.</span></span> 
+<span data-ttu-id="1b9f8-105">Mapisvc. inf содержит один раздел службы сообщений для каждой из записей, перечисленных в разделе **[службы]** .</span><span class="sxs-lookup"><span data-stu-id="1b9f8-105">mapisvc.inf includes one message service section for each of the entries listed in the **[Services]** section.</span></span> <span data-ttu-id="1b9f8-106">В этих разделах есть два типа записей: один для установки определенных свойств, а другой — для списка имен разделов, связанных с настраиваемой службой сообщений.</span><span class="sxs-lookup"><span data-stu-id="1b9f8-106">There are two types of entries in these sections: one for setting certain properties and the other for listing names of sections that are related to the message service being configured.</span></span> 
   
 

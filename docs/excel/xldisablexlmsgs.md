@@ -18,19 +18,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415329"
 ---
-# <a name="xldisablexlmsgs"></a><span data-ttu-id="138e9-104">xlDisableXLMsgs</span><span class="sxs-lookup"><span data-stu-id="138e9-104">xlDisableXLMsgs</span></span>
+# <a name="xldisablexlmsgs"></a><span data-ttu-id="a404a-104">xlDisableXLMsgs</span><span class="sxs-lookup"><span data-stu-id="a404a-104">xlDisableXLMsgs</span></span>
 
- <span data-ttu-id="138e9-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="138e9-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="a404a-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="a404a-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="138e9-106">Эта функция устарела, ее больше не нужно вызывать.</span><span class="sxs-lookup"><span data-stu-id="138e9-106">This function is deprecated and no longer needs to be called.</span></span>
+<span data-ttu-id="a404a-106">Эта функция устарела, ее больше не нужно вызывать.</span><span class="sxs-lookup"><span data-stu-id="a404a-106">This function is deprecated and no longer needs to be called.</span></span>
   
 ```cs
 Excel12(xlDisableXLMsgs, 0, 0);
 ```
 
-## <a name="see-also"></a><span data-ttu-id="138e9-107">См. также</span><span class="sxs-lookup"><span data-stu-id="138e9-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a404a-107">См. также</span><span class="sxs-lookup"><span data-stu-id="a404a-107">See also</span></span>
 
 
 
-[<span data-ttu-id="138e9-108">Функции API C, которые можно вызывать только из библиотеки DLL или XLL</span><span class="sxs-lookup"><span data-stu-id="138e9-108">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+[<span data-ttu-id="a404a-108">Функции API C, которые можно вызывать только из библиотеки DLL или XLL</span><span class="sxs-lookup"><span data-stu-id="a404a-108">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

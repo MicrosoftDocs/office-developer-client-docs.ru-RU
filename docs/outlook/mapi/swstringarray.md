@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413607"
 ---
-# <a name="swstringarray"></a><span data-ttu-id="3cfa9-103">SWStringArray</span><span class="sxs-lookup"><span data-stu-id="3cfa9-103">SWStringArray</span></span>
+# <a name="swstringarray"></a><span data-ttu-id="abdfe-103">SWStringArray</span><span class="sxs-lookup"><span data-stu-id="abdfe-103">SWStringArray</span></span>
 
   
   
-<span data-ttu-id="3cfa9-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3cfa9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="abdfe-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="abdfe-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3cfa9-105">Содержит массив строк символов, которые используются для описания свойства типа ПТ_МВ_УНИКОДЕ.</span><span class="sxs-lookup"><span data-stu-id="3cfa9-105">Contains an array of character strings that are used to describe a property of type PT_MV_UNICODE.</span></span> 
+<span data-ttu-id="abdfe-105">Содержит массив строк символов, которые используются для описания свойства типа PT_MV_UNICODE.</span><span class="sxs-lookup"><span data-stu-id="abdfe-105">Contains an array of character strings that are used to describe a property of type PT_MV_UNICODE.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3cfa9-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="3cfa9-106">Header file:</span></span>  <br/> |<span data-ttu-id="3cfa9-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="3cfa9-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="abdfe-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="abdfe-106">Header file:</span></span>  <br/> |<span data-ttu-id="abdfe-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="abdfe-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SWStringArray
@@ -40,26 +40,26 @@ typedef struct _SWStringArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="3cfa9-108">Members</span><span class="sxs-lookup"><span data-stu-id="3cfa9-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="abdfe-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="abdfe-108">Members</span></span>
 
- <span data-ttu-id="3cfa9-109">**Квалуес**</span><span class="sxs-lookup"><span data-stu-id="3cfa9-109">**cValues**</span></span>
+ <span data-ttu-id="abdfe-109">**квалуес**</span><span class="sxs-lookup"><span data-stu-id="abdfe-109">**cValues**</span></span>
   
-> <span data-ttu-id="3cfa9-110">Количество строк в массиве, на которое указывает элемент **лппсзв** .</span><span class="sxs-lookup"><span data-stu-id="3cfa9-110">Count of strings in the array pointed to by the **lppszW** member.</span></span> 
+> <span data-ttu-id="abdfe-110">Количество строк в массиве, на которое указывает элемент **лппсзв** .</span><span class="sxs-lookup"><span data-stu-id="abdfe-110">Count of strings in the array pointed to by the **lppszW** member.</span></span> 
     
- <span data-ttu-id="3cfa9-111">**Лппсзв**</span><span class="sxs-lookup"><span data-stu-id="3cfa9-111">**lppszW**</span></span>
+ <span data-ttu-id="abdfe-111">**лппсзв**</span><span class="sxs-lookup"><span data-stu-id="abdfe-111">**lppszW**</span></span>
   
-> <span data-ttu-id="3cfa9-112">Указатель на массив строк Юникода с символами NULL.</span><span class="sxs-lookup"><span data-stu-id="3cfa9-112">Pointer to an array of null-ended Unicode character strings.</span></span>
+> <span data-ttu-id="abdfe-112">Указатель на массив строк Юникода с символами NULL.</span><span class="sxs-lookup"><span data-stu-id="abdfe-112">Pointer to an array of null-ended Unicode character strings.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="3cfa9-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="3cfa9-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="abdfe-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="abdfe-113">Remarks</span></span>
 
-<span data-ttu-id="3cfa9-114">Дополнительные сведения о ПТ_МВ_УНИКОДЕ можно найти в статье [типы свойств](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="3cfa9-114">For more information about PT_MV_UNICODE, see [Property Types](property-types.md).</span></span>
+<span data-ttu-id="abdfe-114">Дополнительные сведения о PT_MV_UNICODEх: [типы свойств](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="abdfe-114">For more information about PT_MV_UNICODE, see [Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="3cfa9-115">См. также</span><span class="sxs-lookup"><span data-stu-id="3cfa9-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="abdfe-115">См. также</span><span class="sxs-lookup"><span data-stu-id="abdfe-115">See also</span></span>
 
 
 
-[<span data-ttu-id="3cfa9-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="3cfa9-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="abdfe-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="abdfe-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="3cfa9-117">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="3cfa9-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="abdfe-117">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="abdfe-117">MAPI Structures</span></span>](mapi-structures.md)
 

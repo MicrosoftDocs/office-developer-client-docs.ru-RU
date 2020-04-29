@@ -12,17 +12,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410289"
 ---
-# <a name="access-custom-web-app-reference"></a><span data-ttu-id="192d3-102">Справочник по пользовательским веб-приложениям для Access</span><span class="sxs-lookup"><span data-stu-id="192d3-102">Access custom web app reference</span></span>
+# <a name="access-custom-web-app-reference"></a><span data-ttu-id="6605b-102">Справочник по пользовательским веб-приложениям для Access</span><span class="sxs-lookup"><span data-stu-id="6605b-102">Access custom web app reference</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="192d3-103">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="192d3-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="6605b-103">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="6605b-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="192d3-104">Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="192d3-104">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="192d3-105">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="192d3-105">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="6605b-104">Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="6605b-104">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="6605b-105">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="6605b-105">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-- [<span data-ttu-id="192d3-106">Основные понятия (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="192d3-106">Concepts (Access custom web app)</span></span>](concepts-access-custom-web-app.md)
+- [<span data-ttu-id="6605b-106">Основные понятия (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="6605b-106">Concepts (Access custom web app)</span></span>](concepts-access-custom-web-app.md)
     
-- [<span data-ttu-id="192d3-107">Справочник по SQL и выражениям Access (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="192d3-107">Access SQL and expressions reference (Access custom web app)</span></span>](access-sql-and-expressions-reference-access-custom-web-app.md)
+- [<span data-ttu-id="6605b-107">Справочник по SQL и выражениям Access (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="6605b-107">Access SQL and expressions reference (Access custom web app)</span></span>](access-sql-and-expressions-reference-access-custom-web-app.md)
     
-- [<span data-ttu-id="192d3-108">Справка по функциям макросов (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="192d3-108">Macro function reference (Access custom web app)</span></span>](macro-function-reference-access-custom-web-app.md)
+- [<span data-ttu-id="6605b-108">Справка по функциям макросов (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="6605b-108">Macro function reference (Access custom web app)</span></span>](macro-function-reference-access-custom-web-app.md)
     
 

@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415602"
 ---
-# <a name="size-cell-character-section"></a><span data-ttu-id="d6d6c-103">Size Cell (Character Section)</span><span class="sxs-lookup"><span data-stu-id="d6d6c-103">Size Cell (Character Section)</span></span>
+# <a name="size-cell-character-section"></a><span data-ttu-id="d6d9b-103">Size Cell (Character Section)</span><span class="sxs-lookup"><span data-stu-id="d6d9b-103">Size Cell (Character Section)</span></span>
 
-<span data-ttu-id="d6d6c-104">Определяет размер текста в блоке текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="d6d6c-104">Determines the size of the text in the shape's text block.</span></span>
+<span data-ttu-id="d6d9b-104">Определяет размер текста в блоке текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="d6d9b-104">Determines the size of the text in the shape's text block.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="d6d6c-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="d6d6c-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d6d9b-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="d6d9b-105">Remarks</span></span>
 
-<span data-ttu-id="d6d6c-106">Размер текста не зависит от масштаба рисунка.</span><span class="sxs-lookup"><span data-stu-id="d6d6c-106">The text's size is independent of the scale of the drawing.</span></span> <span data-ttu-id="d6d6c-107">Если масштаб документа изменяется, размер текста остается прежним.</span><span class="sxs-lookup"><span data-stu-id="d6d6c-107">If the drawing is scaled, the text size remains the same.</span></span>
+<span data-ttu-id="d6d9b-106">Размер текста не зависит от масштаба рисунка.</span><span class="sxs-lookup"><span data-stu-id="d6d9b-106">The text's size is independent of the scale of the drawing.</span></span> <span data-ttu-id="d6d9b-107">Если масштаб документа изменяется, размер текста остается прежним.</span><span class="sxs-lookup"><span data-stu-id="d6d9b-107">If the drawing is scaled, the text size remains the same.</span></span>
   
-<span data-ttu-id="d6d6c-108">Чтобы получить ссылку на ячейку size по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="d6d6c-108">To get a reference to the Size cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="d6d9b-108">Чтобы получить ссылку на ячейку size по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="d6d9b-108">To get a reference to the Size cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d6d6c-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="d6d6c-109">Cell name:</span></span>  <br/> | <span data-ttu-id="d6d6c-110">Char. size [ *i* ], где *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="d6d6c-110">Char.Size[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="d6d9b-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="d6d9b-109">Cell name:</span></span>  <br/> | <span data-ttu-id="d6d9b-110">Char. size [ *i* ], где *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="d6d9b-110">Char.Size[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="d6d6c-111">Чтобы получить ссылку на ячейку size по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="d6d6c-111">To get a reference to the Size cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="d6d9b-111">Чтобы получить ссылку на ячейку size по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="d6d9b-111">To get a reference to the Size cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d6d6c-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="d6d6c-112">Section index:</span></span>  <br/> |<span data-ttu-id="d6d6c-113">**Виссектиончарактер**</span><span class="sxs-lookup"><span data-stu-id="d6d6c-113">**visSectionCharacter**</span></span> <br/> |
-| <span data-ttu-id="d6d6c-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="d6d6c-114">Row index:</span></span>  <br/> |<span data-ttu-id="d6d6c-115">**висровчарактер** +  *i* , где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="d6d6c-115">**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="d6d6c-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="d6d6c-116">Cell index:</span></span>  <br/> |<span data-ttu-id="d6d6c-117">**Висчарактерсизе**</span><span class="sxs-lookup"><span data-stu-id="d6d6c-117">**visCharacterSize**</span></span> <br/> |
+| <span data-ttu-id="d6d9b-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="d6d9b-112">Section index:</span></span>  <br/> |<span data-ttu-id="d6d9b-113">**виссектиончарактер**</span><span class="sxs-lookup"><span data-stu-id="d6d9b-113">**visSectionCharacter**</span></span> <br/> |
+| <span data-ttu-id="d6d9b-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="d6d9b-114">Row index:</span></span>  <br/> |<span data-ttu-id="d6d9b-115">**висровчарактер** +  *i* , где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="d6d9b-115">**visRowCharacter** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="d6d9b-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="d6d9b-116">Cell index:</span></span>  <br/> |<span data-ttu-id="d6d9b-117">**висчарактерсизе**</span><span class="sxs-lookup"><span data-stu-id="d6d9b-117">**visCharacterSize**</span></span> <br/> |
    
 

@@ -15,30 +15,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412851"
 ---
-# <a name="pidtagserveraccounticon-canonical-property"></a><span data-ttu-id="1ed51-103">Каноническое свойство PidTagServerAccountIcon</span><span class="sxs-lookup"><span data-stu-id="1ed51-103">PidTagServerAccountIcon Canonical Property</span></span>
+# <a name="pidtagserveraccounticon-canonical-property"></a><span data-ttu-id="9b9a9-103">Каноническое свойство PidTagServerAccountIcon</span><span class="sxs-lookup"><span data-stu-id="9b9a9-103">PidTagServerAccountIcon Canonical Property</span></span>
 
   
   
-<span data-ttu-id="1ed51-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1ed51-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9b9a9-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9b9a9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1ed51-105">Задает значок, отображаемый в **средстве выбора учетНых записей**.</span><span class="sxs-lookup"><span data-stu-id="1ed51-105">Specifies the icon displayed in the **Account Picker**.</span></span>
+<span data-ttu-id="9b9a9-105">Задает значок, отображаемый в **средстве выбора учетных записей**.</span><span class="sxs-lookup"><span data-stu-id="9b9a9-105">Specifies the icon displayed in the **Account Picker**.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1ed51-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="1ed51-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="1ed51-107">ПР_СЕРВЕР_АККАУНТ_ИКОН</span><span class="sxs-lookup"><span data-stu-id="1ed51-107">PR_SERVER_ACCOUNT_ICON</span></span>  <br/> |
-|<span data-ttu-id="1ed51-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="1ed51-108">Identifier:</span></span>  <br/> |<span data-ttu-id="1ed51-109">0x341F</span><span class="sxs-lookup"><span data-stu-id="1ed51-109">0x341F</span></span>  <br/> |
-|<span data-ttu-id="1ed51-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="1ed51-110">Data type:</span></span>  <br/> |<span data-ttu-id="1ed51-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="1ed51-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="1ed51-112">Область:</span><span class="sxs-lookup"><span data-stu-id="1ed51-112">Area:</span></span>  <br/> |<span data-ttu-id="1ed51-113">Распространенная</span><span class="sxs-lookup"><span data-stu-id="1ed51-113">Common</span></span>  <br/> |
+|<span data-ttu-id="9b9a9-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="9b9a9-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="9b9a9-107">PR_SERVER_ACCOUNT_ICON</span><span class="sxs-lookup"><span data-stu-id="9b9a9-107">PR_SERVER_ACCOUNT_ICON</span></span>  <br/> |
+|<span data-ttu-id="9b9a9-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="9b9a9-108">Identifier:</span></span>  <br/> |<span data-ttu-id="9b9a9-109">0x341F</span><span class="sxs-lookup"><span data-stu-id="9b9a9-109">0x341F</span></span>  <br/> |
+|<span data-ttu-id="9b9a9-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="9b9a9-110">Data type:</span></span>  <br/> |<span data-ttu-id="9b9a9-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="9b9a9-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="9b9a9-112">Область:</span><span class="sxs-lookup"><span data-stu-id="9b9a9-112">Area:</span></span>  <br/> |<span data-ttu-id="9b9a9-113">Распространенная</span><span class="sxs-lookup"><span data-stu-id="9b9a9-113">Common</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="1ed51-114">См. также</span><span class="sxs-lookup"><span data-stu-id="1ed51-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9b9a9-114">См. также</span><span class="sxs-lookup"><span data-stu-id="9b9a9-114">See also</span></span>
 
 
 
-[<span data-ttu-id="1ed51-115">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="1ed51-115">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="9b9a9-115">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="9b9a9-115">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="1ed51-116">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="1ed51-116">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="9b9a9-116">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="9b9a9-116">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="1ed51-117">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="1ed51-117">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="9b9a9-117">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="9b9a9-117">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="1ed51-118">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="1ed51-118">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="9b9a9-118">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="9b9a9-118">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

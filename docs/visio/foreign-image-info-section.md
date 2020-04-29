@@ -16,12 +16,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411717"
 ---
-# <a name="foreign-image-info-section"></a><span data-ttu-id="029c9-104">Foreign Image Info Section</span><span class="sxs-lookup"><span data-stu-id="029c9-104">Foreign Image Info Section</span></span>
+# <a name="foreign-image-info-section"></a><span data-ttu-id="6ec79-104">Foreign Image Info Section</span><span class="sxs-lookup"><span data-stu-id="6ec79-104">Foreign Image Info Section</span></span>
 
-<span data-ttu-id="029c9-105">Содержит ширину и высоту объекта из другой программы, используемой в документе Microsoft Visio, и отображается в окне таблицы свойств фигуры только для таких объектов.</span><span class="sxs-lookup"><span data-stu-id="029c9-105">Contains the width and height of an object from another program used in a Microsoft Visio drawing and appears in the ShapeSheet window only for such objects.</span></span> <span data-ttu-id="029c9-106">Он также указывает расстояние смещения изображения объекта в пределах границ.</span><span class="sxs-lookup"><span data-stu-id="029c9-106">It also indicates the distance the object's image is offset within its borders.</span></span>
+<span data-ttu-id="6ec79-105">Содержит ширину и высоту объекта из другой программы, используемой в документе Microsoft Visio, и отображается в окне таблицы свойств фигуры только для таких объектов.</span><span class="sxs-lookup"><span data-stu-id="6ec79-105">Contains the width and height of an object from another program used in a Microsoft Visio drawing and appears in the ShapeSheet window only for such objects.</span></span> <span data-ttu-id="6ec79-106">Он также указывает расстояние смещения изображения объекта в пределах границ.</span><span class="sxs-lookup"><span data-stu-id="6ec79-106">It also indicates the distance the object's image is offset within its borders.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="029c9-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="029c9-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6ec79-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="6ec79-107">Remarks</span></span>
 
-<span data-ttu-id="029c9-108">В версиях продуктов Visio, предшествующих версии 2000, этот раздел назывался **сведенияМи об изображении**.</span><span class="sxs-lookup"><span data-stu-id="029c9-108">In versions of Visio products earlier than version 2000, this section was named **Image Info**.</span></span>
+<span data-ttu-id="6ec79-108">В версиях продуктов Visio, предшествующих версии 2000, этот раздел назывался **сведениями об изображении**.</span><span class="sxs-lookup"><span data-stu-id="6ec79-108">In versions of Visio products earlier than version 2000, this section was named **Image Info**.</span></span>
   
 

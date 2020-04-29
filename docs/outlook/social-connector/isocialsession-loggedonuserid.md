@@ -1,5 +1,5 @@
 ---
-title: ИсоЦиалсессионлогжедонусерид
+title: исоЦиалсессионлогжедонусерид
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,20 +15,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413572"
 ---
-# <a name="isocialsessionloggedonuserid"></a><span data-ttu-id="b35ab-103">ISocialSession::LoggedOnUserID</span><span class="sxs-lookup"><span data-stu-id="b35ab-103">ISocialSession::LoggedOnUserID</span></span>
+# <a name="isocialsessionloggedonuserid"></a><span data-ttu-id="c2a49-103">ISocialSession::LoggedOnUserID</span><span class="sxs-lookup"><span data-stu-id="c2a49-103">ISocialSession::LoggedOnUserID</span></span>
 
-<span data-ttu-id="b35ab-104">Возвращает строку, представляющую идентификатор пользователя социальной сети пользователя, выполнившего вход в систему.</span><span class="sxs-lookup"><span data-stu-id="b35ab-104">Returns a string that represents the social network user ID of the user who is currently logged on.</span></span> 
+<span data-ttu-id="c2a49-104">Возвращает строку, представляющую идентификатор пользователя социальной сети пользователя, выполнившего вход в систему.</span><span class="sxs-lookup"><span data-stu-id="c2a49-104">Returns a string that represents the social network user ID of the user who is currently logged on.</span></span> 
   
 ```cpp
 [propget] HRESULT _stdcall LoggedOnUserID([out, retval] BSTR* result);
 ```
 
-## <a name="property-value"></a><span data-ttu-id="b35ab-105">Значение свойства</span><span class="sxs-lookup"><span data-stu-id="b35ab-105">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="c2a49-105">Значение свойства</span><span class="sxs-lookup"><span data-stu-id="c2a49-105">Property value</span></span>
 
-<span data-ttu-id="b35ab-106">Строка, содержащая идентификатор пользователя социальной сети пользователя, выполнившего вход в систему.</span><span class="sxs-lookup"><span data-stu-id="b35ab-106">A string that contains the social network user ID of the logged-on user.</span></span>
+<span data-ttu-id="c2a49-106">Строка, содержащая идентификатор пользователя социальной сети пользователя, выполнившего вход в систему.</span><span class="sxs-lookup"><span data-stu-id="c2a49-106">A string that contains the social network user ID of the logged-on user.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b35ab-107">См. также</span><span class="sxs-lookup"><span data-stu-id="b35ab-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c2a49-107">См. также</span><span class="sxs-lookup"><span data-stu-id="c2a49-107">See also</span></span>
 
-- [<span data-ttu-id="b35ab-108">ISocialSession::LoggedOnUserName</span><span class="sxs-lookup"><span data-stu-id="b35ab-108">ISocialSession::LoggedOnUserName</span></span>](isocialsession-loggedonusername.md)  
-- [<span data-ttu-id="b35ab-109">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="b35ab-109">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="c2a49-108">ISocialSession::LoggedOnUserName</span><span class="sxs-lookup"><span data-stu-id="c2a49-108">ISocialSession::LoggedOnUserName</span></span>](isocialsession-loggedonusername.md)  
+- [<span data-ttu-id="c2a49-109">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c2a49-109">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

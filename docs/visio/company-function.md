@@ -16,12 +16,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412704"
 ---
-# <a name="company-function"></a><span data-ttu-id="0dcde-103">Функция COMPANY</span><span class="sxs-lookup"><span data-stu-id="0dcde-103">COMPANY Function</span></span>
+# <a name="company-function"></a><span data-ttu-id="aebb3-103">Функция COMPANY</span><span class="sxs-lookup"><span data-stu-id="aebb3-103">COMPANY Function</span></span>
 
-<span data-ttu-id="0dcde-104">Возвращает текст из поля **Company** в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="0dcde-104">Returns the text from the **Company** field of a document's properties.</span></span> 
+<span data-ttu-id="aebb3-104">Возвращает текст из поля **Company** в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="aebb3-104">Returns the text from the **Company** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="0dcde-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0dcde-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="aebb3-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="aebb3-105">Syntax</span></span>
 
-<span data-ttu-id="0dcde-106">ОРГАНИЗАЦИЯ ()</span><span class="sxs-lookup"><span data-stu-id="0dcde-106">COMPANY ()</span></span>
+<span data-ttu-id="aebb3-106">ОРГАНИЗАЦИЯ ()</span><span class="sxs-lookup"><span data-stu-id="aebb3-106">COMPANY ()</span></span>
   
 

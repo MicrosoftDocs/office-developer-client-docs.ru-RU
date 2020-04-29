@@ -16,8 +16,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33410408"
 ---
-# <a name="1-d-endpoints-section"></a><span data-ttu-id="e9626-104">1-D Endpoints Section</span><span class="sxs-lookup"><span data-stu-id="e9626-104">1-D Endpoints Section</span></span>
+# <a name="1-d-endpoints-section"></a><span data-ttu-id="23e40-104">1-D Endpoints Section</span><span class="sxs-lookup"><span data-stu-id="23e40-104">1-D Endpoints Section</span></span>
 
-<span data-ttu-id="e9626-105">Содержит координаты x и y начальной и конечной точек фигуры 1 – D.</span><span class="sxs-lookup"><span data-stu-id="e9626-105">Contains x- and y-coordinates of the begin point and endpoint of a 1-D shape.</span></span> <span data-ttu-id="e9626-106">Этот раздел отображается только для одномерной фигуры.</span><span class="sxs-lookup"><span data-stu-id="e9626-106">This section appears for 1-D shapes only.</span></span>
+<span data-ttu-id="23e40-105">Содержит координаты x и y начальной и конечной точек фигуры 1 – D.</span><span class="sxs-lookup"><span data-stu-id="23e40-105">Contains x- and y-coordinates of the begin point and endpoint of a 1-D shape.</span></span> <span data-ttu-id="23e40-106">Этот раздел отображается только для одномерной фигуры.</span><span class="sxs-lookup"><span data-stu-id="23e40-106">This section appears for 1-D shapes only.</span></span>
   
 

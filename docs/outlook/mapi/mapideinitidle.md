@@ -19,49 +19,49 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408210"
 ---
-# <a name="mapideinitidle"></a><span data-ttu-id="b8f24-103">MAPIDeInitIdle</span><span class="sxs-lookup"><span data-stu-id="b8f24-103">MAPIDeInitIdle</span></span>
+# <a name="mapideinitidle"></a><span data-ttu-id="b50e6-103">MAPIDeInitIdle</span><span class="sxs-lookup"><span data-stu-id="b50e6-103">MAPIDeInitIdle</span></span>
 
   
   
-<span data-ttu-id="b8f24-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b8f24-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b50e6-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b50e6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b8f24-105">Завершает работу модуля бездействия MAPI для вызывающего приложения.</span><span class="sxs-lookup"><span data-stu-id="b8f24-105">Shuts down the MAPI idle engine for the calling application.</span></span> 
+<span data-ttu-id="b50e6-105">Завершает работу модуля бездействия MAPI для вызывающего приложения.</span><span class="sxs-lookup"><span data-stu-id="b50e6-105">Shuts down the MAPI idle engine for the calling application.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b8f24-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="b8f24-106">Header file:</span></span>  <br/> |<span data-ttu-id="b8f24-107">Мапиутил. h</span><span class="sxs-lookup"><span data-stu-id="b8f24-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="b8f24-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="b8f24-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="b8f24-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="b8f24-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="b8f24-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="b8f24-110">Called by:</span></span>  <br/> |<span data-ttu-id="b8f24-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="b8f24-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="b50e6-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="b50e6-106">Header file:</span></span>  <br/> |<span data-ttu-id="b50e6-107">Мапиутил. h</span><span class="sxs-lookup"><span data-stu-id="b50e6-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="b50e6-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="b50e6-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="b50e6-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="b50e6-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="b50e6-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="b50e6-110">Called by:</span></span>  <br/> |<span data-ttu-id="b50e6-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="b50e6-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 void MAPIDeInitIdle( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b8f24-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="b8f24-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b50e6-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="b50e6-112">Parameters</span></span>
 
-<span data-ttu-id="b8f24-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="b8f24-113">None.</span></span> 
+<span data-ttu-id="b50e6-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="b50e6-113">None.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="b8f24-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="b8f24-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b50e6-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="b50e6-114">Return value</span></span>
 
-<span data-ttu-id="b8f24-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="b8f24-115">None.</span></span>
+<span data-ttu-id="b50e6-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="b50e6-115">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="b8f24-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="b8f24-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b50e6-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="b50e6-116">Remarks</span></span>
 
-<span data-ttu-id="b8f24-117">Клиентское приложение или поставщик услуг должен вызывать **мапидеинитидле** , когда больше не требуется модуль для бездействия, например, когда он собирается остановить обработку.</span><span class="sxs-lookup"><span data-stu-id="b8f24-117">A client application or service provider should call **MAPIDeInitIdle** when it no longer needs the idle engine, for example, when it is about to stop processing.</span></span> 
+<span data-ttu-id="b50e6-117">Клиентское приложение или поставщик услуг должен вызывать **мапидеинитидле** , когда больше не требуется модуль для бездействия, например, когда он собирается остановить обработку.</span><span class="sxs-lookup"><span data-stu-id="b50e6-117">A client application or service provider should call **MAPIDeInitIdle** when it no longer needs the idle engine, for example, when it is about to stop processing.</span></span> 
   
-<span data-ttu-id="b8f24-118">Каждый вызов [мапиинитидле](mapiinitidle.md) должен быть сопоставлен последующему вызову **мапидеинитидле**, иначе для вызывающего приложения остается запущен модуль простоя.</span><span class="sxs-lookup"><span data-stu-id="b8f24-118">Every call to [MAPIInitIdle](mapiinitidle.md) must be matched by a subsequent call to **MAPIDeInitIdle**, or the idle engine is left running for the calling application.</span></span> 
+<span data-ttu-id="b50e6-118">Каждый вызов [мапиинитидле](mapiinitidle.md) должен быть сопоставлен последующему вызову **мапидеинитидле**, иначе для вызывающего приложения остается запущен модуль простоя.</span><span class="sxs-lookup"><span data-stu-id="b50e6-118">Every call to [MAPIInitIdle](mapiinitidle.md) must be matched by a subsequent call to **MAPIDeInitIdle**, or the idle engine is left running for the calling application.</span></span> 
   
-<span data-ttu-id="b8f24-119">Следующие функции работают с модулем бездействия MAPI и с процедурами Idle, основанными на прототипе функции [фнидле](fnidle.md) :</span><span class="sxs-lookup"><span data-stu-id="b8f24-119">The following functions deal with the MAPI idle engine and with idle routines based on the [FNIDLE](fnidle.md) function prototype:</span></span> 
+<span data-ttu-id="b50e6-119">Следующие функции работают с модулем бездействия MAPI и с процедурами Idle, основанными на прототипе функции [фнидле](fnidle.md) :</span><span class="sxs-lookup"><span data-stu-id="b50e6-119">The following functions deal with the MAPI idle engine and with idle routines based on the [FNIDLE](fnidle.md) function prototype:</span></span> 
   
-|<span data-ttu-id="b8f24-120">**Функция неАктивности**</span><span class="sxs-lookup"><span data-stu-id="b8f24-120">**Idle routine function**</span></span>|<span data-ttu-id="b8f24-121">**Usage**</span><span class="sxs-lookup"><span data-stu-id="b8f24-121">**Usage**</span></span>|
+|<span data-ttu-id="b50e6-120">**Функция неактивности**</span><span class="sxs-lookup"><span data-stu-id="b50e6-120">**Idle routine function**</span></span>|<span data-ttu-id="b50e6-121">**Usage**</span><span class="sxs-lookup"><span data-stu-id="b50e6-121">**Usage**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="b8f24-122">ChangeIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="b8f24-122">ChangeIdleRoutine</span></span>](changeidleroutine.md) <br/> |<span data-ttu-id="b8f24-123">Изменяет характеристики зарегистрированной процедуры бездействия.</span><span class="sxs-lookup"><span data-stu-id="b8f24-123">Changes the characteristics of a registered idle routine.</span></span>  <br/> |
-|[<span data-ttu-id="b8f24-124">DeregisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="b8f24-124">DeregisterIdleRoutine</span></span>](deregisteridleroutine.md) <br/> |<span data-ttu-id="b8f24-125">Удаляет зарегистрированную процедуру бездействия из системы MAPI.</span><span class="sxs-lookup"><span data-stu-id="b8f24-125">Removes a registered idle routine from the MAPI system.</span></span>  <br/> |
-|[<span data-ttu-id="b8f24-126">EnableIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="b8f24-126">EnableIdleRoutine</span></span>](enableidleroutine.md) <br/> |<span data-ttu-id="b8f24-127">Отключает или повторно включает зарегистрированную подпрограмму бездействия, не удаляя ее из системы MAPI.</span><span class="sxs-lookup"><span data-stu-id="b8f24-127">Disables or re-enables a registered idle routine without removing it from the MAPI system.</span></span>  <br/> |
-|[<span data-ttu-id="b8f24-128">FtgRegisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="b8f24-128">FtgRegisterIdleRoutine</span></span>](ftgregisteridleroutine.md) <br/> |<span data-ttu-id="b8f24-129">Добавляет подпрограмму бездействия в систему MAPI с включением или без него.</span><span class="sxs-lookup"><span data-stu-id="b8f24-129">Adds an idle routine to the MAPI system, with or without enabling it.</span></span>  <br/> |
-|<span data-ttu-id="b8f24-130">**MAPIDeInitIdle**</span><span class="sxs-lookup"><span data-stu-id="b8f24-130">**MAPIDeInitIdle**</span></span> <br/> |<span data-ttu-id="b8f24-131">Завершает работу модуля бездействия MAPI для вызывающего приложения.</span><span class="sxs-lookup"><span data-stu-id="b8f24-131">Shuts down the MAPI idle engine for the calling application.</span></span>  <br/> |
-|[<span data-ttu-id="b8f24-132">MAPIInitIdle</span><span class="sxs-lookup"><span data-stu-id="b8f24-132">MAPIInitIdle</span></span>](mapiinitidle.md) <br/> |<span data-ttu-id="b8f24-133">Инициализирует модуль бездействия MAPI для вызывающего приложения.</span><span class="sxs-lookup"><span data-stu-id="b8f24-133">Initializes the MAPI idle engine for the calling application.</span></span>  <br/> |
+|[<span data-ttu-id="b50e6-122">ChangeIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="b50e6-122">ChangeIdleRoutine</span></span>](changeidleroutine.md) <br/> |<span data-ttu-id="b50e6-123">Изменяет характеристики зарегистрированной процедуры бездействия.</span><span class="sxs-lookup"><span data-stu-id="b50e6-123">Changes the characteristics of a registered idle routine.</span></span>  <br/> |
+|[<span data-ttu-id="b50e6-124">DeregisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="b50e6-124">DeregisterIdleRoutine</span></span>](deregisteridleroutine.md) <br/> |<span data-ttu-id="b50e6-125">Удаляет зарегистрированную процедуру бездействия из системы MAPI.</span><span class="sxs-lookup"><span data-stu-id="b50e6-125">Removes a registered idle routine from the MAPI system.</span></span>  <br/> |
+|[<span data-ttu-id="b50e6-126">EnableIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="b50e6-126">EnableIdleRoutine</span></span>](enableidleroutine.md) <br/> |<span data-ttu-id="b50e6-127">Отключает или повторно включает зарегистрированную подпрограмму бездействия, не удаляя ее из системы MAPI.</span><span class="sxs-lookup"><span data-stu-id="b50e6-127">Disables or re-enables a registered idle routine without removing it from the MAPI system.</span></span>  <br/> |
+|[<span data-ttu-id="b50e6-128">FtgRegisterIdleRoutine</span><span class="sxs-lookup"><span data-stu-id="b50e6-128">FtgRegisterIdleRoutine</span></span>](ftgregisteridleroutine.md) <br/> |<span data-ttu-id="b50e6-129">Добавляет подпрограмму бездействия в систему MAPI с включением или без него.</span><span class="sxs-lookup"><span data-stu-id="b50e6-129">Adds an idle routine to the MAPI system, with or without enabling it.</span></span>  <br/> |
+|<span data-ttu-id="b50e6-130">**MAPIDeInitIdle**</span><span class="sxs-lookup"><span data-stu-id="b50e6-130">**MAPIDeInitIdle**</span></span> <br/> |<span data-ttu-id="b50e6-131">Завершает работу модуля бездействия MAPI для вызывающего приложения.</span><span class="sxs-lookup"><span data-stu-id="b50e6-131">Shuts down the MAPI idle engine for the calling application.</span></span>  <br/> |
+|[<span data-ttu-id="b50e6-132">MAPIInitIdle</span><span class="sxs-lookup"><span data-stu-id="b50e6-132">MAPIInitIdle</span></span>](mapiinitidle.md) <br/> |<span data-ttu-id="b50e6-133">Инициализирует модуль бездействия MAPI для вызывающего приложения.</span><span class="sxs-lookup"><span data-stu-id="b50e6-133">Initializes the MAPI idle engine for the calling application.</span></span>  <br/> |
    
-<span data-ttu-id="b8f24-134">Когда все фоновые задачи для платформы становятся неактивными, модуль бездействия MAPI вызывает подпрограмму самого высокого приоритета, готовую к выполнению.</span><span class="sxs-lookup"><span data-stu-id="b8f24-134">When all foreground tasks for the platform become idle, the MAPI idle engine calls the highest priority idle routine that is ready to execute.</span></span> <span data-ttu-id="b8f24-135">Не существует гарантии того, что вы звоните между процедурами неактивности и одинаковым приоритетом.</span><span class="sxs-lookup"><span data-stu-id="b8f24-135">There is no guarantee of calling order among idle routines of the same priority.</span></span> 
+<span data-ttu-id="b50e6-134">Когда все фоновые задачи для платформы становятся неактивными, модуль бездействия MAPI вызывает подпрограмму самого высокого приоритета, готовую к выполнению.</span><span class="sxs-lookup"><span data-stu-id="b50e6-134">When all foreground tasks for the platform become idle, the MAPI idle engine calls the highest priority idle routine that is ready to execute.</span></span> <span data-ttu-id="b50e6-135">Не существует гарантии того, что вы звоните между процедурами неактивности и одинаковым приоритетом.</span><span class="sxs-lookup"><span data-stu-id="b50e6-135">There is no guarantee of calling order among idle routines of the same priority.</span></span> 
   
 

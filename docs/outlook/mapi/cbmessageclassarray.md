@@ -19,35 +19,35 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413124"
 ---
-# <a name="cbmessageclassarray"></a><span data-ttu-id="a6852-103">CbMessageClassArray</span><span class="sxs-lookup"><span data-stu-id="a6852-103">CbMessageClassArray</span></span>
+# <a name="cbmessageclassarray"></a><span data-ttu-id="5cd20-103">CbMessageClassArray</span><span class="sxs-lookup"><span data-stu-id="5cd20-103">CbMessageClassArray</span></span>
 
   
   
-<span data-ttu-id="a6852-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a6852-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="5cd20-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5cd20-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a6852-105">Вычисляет количество байтов в существующей структуре [смессажеклассаррай](smessageclassarray.md) , которая содержит указанное число указателей строки для классов сообщений.</span><span class="sxs-lookup"><span data-stu-id="a6852-105">Computes the number of bytes in an existing [SMessageClassArray](smessageclassarray.md) structure that contains a specified number of string pointers to message classes.</span></span> 
+<span data-ttu-id="5cd20-105">Вычисляет количество байтов в существующей структуре [смессажеклассаррай](smessageclassarray.md) , которая содержит указанное число указателей строки для классов сообщений.</span><span class="sxs-lookup"><span data-stu-id="5cd20-105">Computes the number of bytes in an existing [SMessageClassArray](smessageclassarray.md) structure that contains a specified number of string pointers to message classes.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="a6852-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="a6852-106">Header file:</span></span>  <br/> |<span data-ttu-id="a6852-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="a6852-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="a6852-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="a6852-108">Related structure:</span></span>  <br/> |<span data-ttu-id="a6852-109">**SMessageClassArray**</span><span class="sxs-lookup"><span data-stu-id="a6852-109">**SMessageClassArray**</span></span> <br/> |
+|<span data-ttu-id="5cd20-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="5cd20-106">Header file:</span></span>  <br/> |<span data-ttu-id="5cd20-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="5cd20-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="5cd20-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="5cd20-108">Related structure:</span></span>  <br/> |<span data-ttu-id="5cd20-109">**SMessageClassArray**</span><span class="sxs-lookup"><span data-stu-id="5cd20-109">**SMessageClassArray**</span></span> <br/> |
    
 ```cpp
 CbMessageClassArray (_c)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a6852-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="a6852-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="5cd20-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="5cd20-110">Parameters</span></span>
 
- <span data-ttu-id="a6852-111">__c_</span><span class="sxs-lookup"><span data-stu-id="a6852-111">__c_</span></span>
+ <span data-ttu-id="5cd20-111">__c_</span><span class="sxs-lookup"><span data-stu-id="5cd20-111">__c_</span></span>
   
-> <span data-ttu-id="a6852-112">Количество указателей на классы сообщений, включенных в существующий **смессажеклассаррай**.</span><span class="sxs-lookup"><span data-stu-id="a6852-112">Count of the pointers to message classes that are included in the existing **SMessageClassArray**.</span></span>
+> <span data-ttu-id="5cd20-112">Количество указателей на классы сообщений, включенных в существующий **смессажеклассаррай**.</span><span class="sxs-lookup"><span data-stu-id="5cd20-112">Count of the pointers to message classes that are included in the existing **SMessageClassArray**.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="a6852-113">См. также</span><span class="sxs-lookup"><span data-stu-id="a6852-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="5cd20-113">См. также</span><span class="sxs-lookup"><span data-stu-id="5cd20-113">See also</span></span>
 
 
 
-[<span data-ttu-id="a6852-114">SMessageClassArray</span><span class="sxs-lookup"><span data-stu-id="a6852-114">SMessageClassArray</span></span>](smessageclassarray.md)
+[<span data-ttu-id="5cd20-114">SMessageClassArray</span><span class="sxs-lookup"><span data-stu-id="5cd20-114">SMessageClassArray</span></span>](smessageclassarray.md)
 
 
-[<span data-ttu-id="a6852-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="a6852-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="5cd20-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="5cd20-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

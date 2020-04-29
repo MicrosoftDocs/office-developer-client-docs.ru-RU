@@ -14,24 +14,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33411367"
 ---
-# <a name="usegroupgradient-cell-gradient-properties-section"></a><span data-ttu-id="346d9-104">UseGroupGradient Cell (Gradient Properties Section)</span><span class="sxs-lookup"><span data-stu-id="346d9-104">UseGroupGradient Cell (Gradient Properties Section)</span></span>
+# <a name="usegroupgradient-cell-gradient-properties-section"></a><span data-ttu-id="87ad8-104">UseGroupGradient Cell (Gradient Properties Section)</span><span class="sxs-lookup"><span data-stu-id="87ad8-104">UseGroupGradient Cell (Gradient Properties Section)</span></span>
 
-<span data-ttu-id="346d9-105">Определяет, принимает ли фигура градиент при объединении фигуры с другими фигурами в качестве логического значения.</span><span class="sxs-lookup"><span data-stu-id="346d9-105">Determines whether the shape takes on a gradient when the shape is grouped together with other shapes, as a Boolean.</span></span> <span data-ttu-id="346d9-106">Значение ячейки **UseGroupGradient** влияет только на заполнение фигуры.</span><span class="sxs-lookup"><span data-stu-id="346d9-106">The value of **UseGroupGradient** cell affects the shape fill only.</span></span> 
+<span data-ttu-id="87ad8-105">Определяет, принимает ли фигура градиент при объединении фигуры с другими фигурами в качестве логического значения.</span><span class="sxs-lookup"><span data-stu-id="87ad8-105">Determines whether the shape takes on a gradient when the shape is grouped together with other shapes, as a Boolean.</span></span> <span data-ttu-id="87ad8-106">Значение ячейки **UseGroupGradient** влияет только на заполнение фигуры.</span><span class="sxs-lookup"><span data-stu-id="87ad8-106">The value of **UseGroupGradient** cell affects the shape fill only.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="346d9-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="346d9-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="87ad8-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="87ad8-107">Remarks</span></span>
 
-<span data-ttu-id="346d9-108">Чтобы получить ссылку на ячейку **UseGroupGradient** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="346d9-108">To get a reference to the **UseGroupGradient** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="87ad8-108">Чтобы получить ссылку на ячейку **UseGroupGradient** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="87ad8-108">To get a reference to the **UseGroupGradient** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="346d9-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="346d9-109">Cell name:</span></span>  <br/> | <span data-ttu-id="346d9-110">UseGroupGradient</span><span class="sxs-lookup"><span data-stu-id="346d9-110">UseGroupGradient</span></span>  <br/> |
+| <span data-ttu-id="87ad8-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="87ad8-109">Cell name:</span></span>  <br/> | <span data-ttu-id="87ad8-110">UseGroupGradient</span><span class="sxs-lookup"><span data-stu-id="87ad8-110">UseGroupGradient</span></span>  <br/> |
    
-<span data-ttu-id="346d9-111">Чтобы получить ссылку на ячейку **UseGroupGradient** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="346d9-111">To get a reference to the **UseGroupGradient** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="87ad8-111">Чтобы получить ссылку на ячейку **UseGroupGradient** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="87ad8-111">To get a reference to the **UseGroupGradient** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="346d9-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="346d9-112">Section index:</span></span>  <br/> |<span data-ttu-id="346d9-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="346d9-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="346d9-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="346d9-114">Row index:</span></span>  <br/> |<span data-ttu-id="346d9-115">**Висровградиентпропертиес**</span><span class="sxs-lookup"><span data-stu-id="346d9-115">**visRowGradientProperties**</span></span> <br/> |
-| <span data-ttu-id="346d9-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="346d9-116">Cell index:</span></span>  <br/> |<span data-ttu-id="346d9-117">\* \* Висусеграупградиент \* \*</span><span class="sxs-lookup"><span data-stu-id="346d9-117">\*\*visUseGroupGradient \*\*</span></span> <br/> |
+| <span data-ttu-id="87ad8-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="87ad8-112">Section index:</span></span>  <br/> |<span data-ttu-id="87ad8-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="87ad8-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="87ad8-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="87ad8-114">Row index:</span></span>  <br/> |<span data-ttu-id="87ad8-115">**висровградиентпропертиес**</span><span class="sxs-lookup"><span data-stu-id="87ad8-115">**visRowGradientProperties**</span></span> <br/> |
+| <span data-ttu-id="87ad8-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="87ad8-116">Cell index:</span></span>  <br/> |<span data-ttu-id="87ad8-117">\* \* Висусеграупградиент \* \*</span><span class="sxs-lookup"><span data-stu-id="87ad8-117">\*\*visUseGroupGradient \*\*</span></span> <br/> |
    
 

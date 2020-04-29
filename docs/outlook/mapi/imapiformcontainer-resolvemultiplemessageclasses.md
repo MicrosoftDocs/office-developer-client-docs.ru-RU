@@ -1,5 +1,5 @@
 ---
-title: Имапиформконтаинерресолвемултиплемессажеклассес
+title: имапиформконтаинерресолвемултиплемессажеклассес
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412543"
 ---
-# <a name="imapiformcontainerresolvemultiplemessageclasses"></a><span data-ttu-id="e447a-103">IMAPIFormContainer::ResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="e447a-103">IMAPIFormContainer::ResolveMultipleMessageClasses</span></span>
+# <a name="imapiformcontainerresolvemultiplemessageclasses"></a><span data-ttu-id="64582-103">IMAPIFormContainer::ResolveMultipleMessageClasses</span><span class="sxs-lookup"><span data-stu-id="64582-103">IMAPIFormContainer::ResolveMultipleMessageClasses</span></span>
 
   
   
-<span data-ttu-id="e447a-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e447a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="64582-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="64582-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e447a-105">Разрешает группу классов сообщений в свои формы в контейнере формы и возвращает массив объектов данных формы для этих форм.</span><span class="sxs-lookup"><span data-stu-id="e447a-105">Resolves a group of message classes to their forms in a form container and returns an array of form information objects for those forms.</span></span>
+<span data-ttu-id="64582-105">Разрешает группу классов сообщений в свои формы в контейнере формы и возвращает массив объектов данных формы для этих форм.</span><span class="sxs-lookup"><span data-stu-id="64582-105">Resolves a group of message classes to their forms in a form container and returns an array of form information objects for those forms.</span></span>
   
 ```cpp
 HRESULT ResolveMultipleMessageClasses(
@@ -35,56 +35,56 @@ HRESULT ResolveMultipleMessageClasses(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e447a-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="e447a-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="64582-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="64582-106">Parameters</span></span>
 
- <span data-ttu-id="e447a-107">_Пмсгклассаррай_</span><span class="sxs-lookup"><span data-stu-id="e447a-107">_pMsgClassArray_</span></span>
+ <span data-ttu-id="64582-107">_пмсгклассаррай_</span><span class="sxs-lookup"><span data-stu-id="64582-107">_pMsgClassArray_</span></span>
   
-> <span data-ttu-id="e447a-108">возврата Указатель на массив, содержащий имена классов сообщений, которые требуется разрешить.</span><span class="sxs-lookup"><span data-stu-id="e447a-108">[in] A pointer to an array that contains the names of the message classes to resolve.</span></span> <span data-ttu-id="e447a-109">Имена классов сообщений всегда являются строками ANSI, а не Юникодом.</span><span class="sxs-lookup"><span data-stu-id="e447a-109">Message class names are always ANSI strings, never Unicode.</span></span>
+> <span data-ttu-id="64582-108">возврата Указатель на массив, содержащий имена классов сообщений, которые требуется разрешить.</span><span class="sxs-lookup"><span data-stu-id="64582-108">[in] A pointer to an array that contains the names of the message classes to resolve.</span></span> <span data-ttu-id="64582-109">Имена классов сообщений всегда являются строками ANSI, а не Юникодом.</span><span class="sxs-lookup"><span data-stu-id="64582-109">Message class names are always ANSI strings, never Unicode.</span></span>
     
- <span data-ttu-id="e447a-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="e447a-110">_ulFlags_</span></span>
+ <span data-ttu-id="64582-110">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="64582-110">_ulFlags_</span></span>
   
-> <span data-ttu-id="e447a-111">возврата Битовая маска флагов, определяющих способ разрешения классов сообщений.</span><span class="sxs-lookup"><span data-stu-id="e447a-111">[in] A bitmask of flags that controls how the message classes are resolved.</span></span> <span data-ttu-id="e447a-112">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="e447a-112">The following flag can be set:</span></span>
+> <span data-ttu-id="64582-111">возврата Битовая маска флагов, определяющих способ разрешения классов сообщений.</span><span class="sxs-lookup"><span data-stu-id="64582-111">[in] A bitmask of flags that controls how the message classes are resolved.</span></span> <span data-ttu-id="64582-112">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="64582-112">The following flag can be set:</span></span>
     
-<span data-ttu-id="e447a-113">МАПИФОРМ_ЕКСАКТМАТЧ</span><span class="sxs-lookup"><span data-stu-id="e447a-113">MAPIFORM_EXACTMATCH</span></span> 
+<span data-ttu-id="64582-113">MAPIFORM_EXACTMATCH</span><span class="sxs-lookup"><span data-stu-id="64582-113">MAPIFORM_EXACTMATCH</span></span> 
   
-> <span data-ttu-id="e447a-114">Необходимо разрешить только строки класса сообщений с точным совпадением.</span><span class="sxs-lookup"><span data-stu-id="e447a-114">Only message class strings that are an exact match should be resolved.</span></span>
+> <span data-ttu-id="64582-114">Необходимо разрешить только строки класса сообщений с точным совпадением.</span><span class="sxs-lookup"><span data-stu-id="64582-114">Only message class strings that are an exact match should be resolved.</span></span>
     
- <span data-ttu-id="e447a-115">_ппфрминфоаррай_</span><span class="sxs-lookup"><span data-stu-id="e447a-115">_ppfrminfoarray_</span></span>
+ <span data-ttu-id="64582-115">_ппфрминфоаррай_</span><span class="sxs-lookup"><span data-stu-id="64582-115">_ppfrminfoarray_</span></span>
   
-> <span data-ttu-id="e447a-116">вышли Указатель на указатель на массив объектов сведений о форме.</span><span class="sxs-lookup"><span data-stu-id="e447a-116">[out] A pointer to a pointer to an array of form information objects.</span></span> <span data-ttu-id="e447a-117">Если клиентское приложение передает значение NULL в параметр _пмсгклассаррай_ , параметр _ппфрминфоаррай_ содержит объекты информации формы для всех форм в контейнере.</span><span class="sxs-lookup"><span data-stu-id="e447a-117">If a client application passes NULL in the  _pMsgClassArray_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container.</span></span> 
+> <span data-ttu-id="64582-116">вышли Указатель на указатель на массив объектов сведений о форме.</span><span class="sxs-lookup"><span data-stu-id="64582-116">[out] A pointer to a pointer to an array of form information objects.</span></span> <span data-ttu-id="64582-117">Если клиентское приложение передает значение NULL в параметр _пмсгклассаррай_ , параметр _ппфрминфоаррай_ содержит объекты информации формы для всех форм в контейнере.</span><span class="sxs-lookup"><span data-stu-id="64582-117">If a client application passes NULL in the  _pMsgClassArray_ parameter, the  _ppfrminfoarray_ parameter contains form information objects for all forms in the container.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="e447a-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="e447a-118">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="64582-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="64582-118">Return value</span></span>
 
-<span data-ttu-id="e447a-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="e447a-119">S_OK</span></span> 
+<span data-ttu-id="64582-119">S_OK</span><span class="sxs-lookup"><span data-stu-id="64582-119">S_OK</span></span> 
   
-> <span data-ttu-id="e447a-120">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="e447a-120">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="64582-120">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="64582-120">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="e447a-121">Примечания</span><span class="sxs-lookup"><span data-stu-id="e447a-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="64582-121">Примечания</span><span class="sxs-lookup"><span data-stu-id="64582-121">Remarks</span></span>
 
-<span data-ttu-id="e447a-122">Клиентские приложения вызывают метод **имапиформконтаинер:: ресолвемултиплемессажеклассес** для разрешения группы классов сообщений в формы в контейнере формы.</span><span class="sxs-lookup"><span data-stu-id="e447a-122">Client applications call the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to resolve a group of message classes to forms within a form container.</span></span> <span data-ttu-id="e447a-123">Массив объектов данных формы, возвращаемых в параметре _ппфрминфоаррай_ , обеспечивает дополнительный доступ к каждому из свойств формы.</span><span class="sxs-lookup"><span data-stu-id="e447a-123">The array of form information objects returned in the  _ppfrminfoarray_ parameter provides further access to each of the forms' properties.</span></span> 
+<span data-ttu-id="64582-122">Клиентские приложения вызывают метод **имапиформконтаинер:: ресолвемултиплемессажеклассес** для разрешения группы классов сообщений в формы в контейнере формы.</span><span class="sxs-lookup"><span data-stu-id="64582-122">Client applications call the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to resolve a group of message classes to forms within a form container.</span></span> <span data-ttu-id="64582-123">Массив объектов данных формы, возвращаемых в параметре _ппфрминфоаррай_ , обеспечивает дополнительный доступ к каждому из свойств формы.</span><span class="sxs-lookup"><span data-stu-id="64582-123">The array of form information objects returned in the  _ppfrminfoarray_ parameter provides further access to each of the forms' properties.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="e447a-124">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="e447a-124">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="64582-124">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="64582-124">Notes to callers</span></span>
 
-<span data-ttu-id="e447a-125">Чтобы разрешить группу классов сообщений формам, передайте массив имен классов сообщений, которые требуется разрешить.</span><span class="sxs-lookup"><span data-stu-id="e447a-125">To resolve a group of message classes to forms, pass in an array of message class names to be resolved.</span></span> <span data-ttu-id="e447a-126">Чтобы принудительно разрешить точное решение (то есть, чтобы предотвратить разрешение для базового класса класса Message), можно передать флаг МАПИФОРМ_ЕКСАКТМАТЧ в параметр _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="e447a-126">To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter.</span></span> 
+<span data-ttu-id="64582-125">Чтобы разрешить группу классов сообщений формам, передайте массив имен классов сообщений, которые требуется разрешить.</span><span class="sxs-lookup"><span data-stu-id="64582-125">To resolve a group of message classes to forms, pass in an array of message class names to be resolved.</span></span> <span data-ttu-id="64582-126">Чтобы обеспечить точное разрешение (то есть, чтобы предотвратить разрешение для базового класса класса Message), можно передать флаг MAPIFORM_EXACTMATCH в параметре _ulFlags_ .</span><span class="sxs-lookup"><span data-stu-id="64582-126">To force the resolution to be exact (that is, to prevent resolution to a base class of the message class), the MAPIFORM_EXACTMATCH flag can be passed in the  _ulFlags_ parameter.</span></span> 
   
-<span data-ttu-id="e447a-127">Если класс сообщения невозможно разрешить в форму, возвращается значение NULL для этого класса сообщения в массиве данных формы.</span><span class="sxs-lookup"><span data-stu-id="e447a-127">If a message class cannot be resolved to a form, NULL is returned for that message class in the form information array.</span></span> <span data-ttu-id="e447a-128">Таким образом, даже если метод возвращает значение S_OK, не следует предполагать, что все классы сообщений успешно разрешены.</span><span class="sxs-lookup"><span data-stu-id="e447a-128">Therefore, even if the method returns S_OK, do not assume that all message classes have been successfully resolved.</span></span> <span data-ttu-id="e447a-129">Вместо этого проверьте значения в возвращенном массиве.</span><span class="sxs-lookup"><span data-stu-id="e447a-129">Instead, check the values in the returned array.</span></span>
+<span data-ttu-id="64582-127">Если класс сообщения невозможно разрешить в форму, возвращается значение NULL для этого класса сообщения в массиве данных формы.</span><span class="sxs-lookup"><span data-stu-id="64582-127">If a message class cannot be resolved to a form, NULL is returned for that message class in the form information array.</span></span> <span data-ttu-id="64582-128">Таким образом, даже если метод возвращает S_OK, не следует предполагать, что все классы сообщений успешно разрешены.</span><span class="sxs-lookup"><span data-stu-id="64582-128">Therefore, even if the method returns S_OK, do not assume that all message classes have been successfully resolved.</span></span> <span data-ttu-id="64582-129">Вместо этого проверьте значения в возвращенном массиве.</span><span class="sxs-lookup"><span data-stu-id="64582-129">Instead, check the values in the returned array.</span></span>
   
-## <a name="mfcmapi-reference"></a><span data-ttu-id="e447a-130">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="e447a-130">MFCMAPI reference</span></span>
+## <a name="mfcmapi-reference"></a><span data-ttu-id="64582-130">Справочные материалы по MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="64582-130">MFCMAPI reference</span></span>
 
-<span data-ttu-id="e447a-131">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="e447a-131">For MFCMAPI sample code, see the following table.</span></span>
+<span data-ttu-id="64582-131">Пример кода MFCMAPI указан в приведенной ниже таблице.</span><span class="sxs-lookup"><span data-stu-id="64582-131">For MFCMAPI sample code, see the following table.</span></span>
   
-|<span data-ttu-id="e447a-132">**Файл**</span><span class="sxs-lookup"><span data-stu-id="e447a-132">**File**</span></span>|<span data-ttu-id="e447a-133">**Функция**</span><span class="sxs-lookup"><span data-stu-id="e447a-133">**Function**</span></span>|<span data-ttu-id="e447a-134">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="e447a-134">**Comment**</span></span>|
+|<span data-ttu-id="64582-132">**Файл**</span><span class="sxs-lookup"><span data-stu-id="64582-132">**File**</span></span>|<span data-ttu-id="64582-133">**Функция**</span><span class="sxs-lookup"><span data-stu-id="64582-133">**Function**</span></span>|<span data-ttu-id="64582-134">**Примечание**</span><span class="sxs-lookup"><span data-stu-id="64582-134">**Comment**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="e447a-135">Формконтаинердлг. cpp</span><span class="sxs-lookup"><span data-stu-id="e447a-135">FormContainerDlg.cpp</span></span>  <br/> |<span data-ttu-id="e447a-136">Кформконтаинердлг:: Онресолвемултиплемессажеклассес</span><span class="sxs-lookup"><span data-stu-id="e447a-136">CFormContainerDlg::OnResolveMultipleMessageClasses</span></span>  <br/> |<span data-ttu-id="e447a-137">MFCMAPI использует метод **имапиформконтаинер:: ресолвемултиплемессажеклассес** для обнаружения формы, связанной с набором классов сообщений.</span><span class="sxs-lookup"><span data-stu-id="e447a-137">MFCMAPI uses the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to locate a form that is associated with a set of message classes.</span></span>  <br/> |
+|<span data-ttu-id="64582-135">Формконтаинердлг. cpp</span><span class="sxs-lookup"><span data-stu-id="64582-135">FormContainerDlg.cpp</span></span>  <br/> |<span data-ttu-id="64582-136">Кформконтаинердлг:: Онресолвемултиплемессажеклассес</span><span class="sxs-lookup"><span data-stu-id="64582-136">CFormContainerDlg::OnResolveMultipleMessageClasses</span></span>  <br/> |<span data-ttu-id="64582-137">MFCMAPI использует метод **имапиформконтаинер:: ресолвемултиплемессажеклассес** для обнаружения формы, связанной с набором классов сообщений.</span><span class="sxs-lookup"><span data-stu-id="64582-137">MFCMAPI uses the **IMAPIFormContainer::ResolveMultipleMessageClasses** method to locate a form that is associated with a set of message classes.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="e447a-138">См. также</span><span class="sxs-lookup"><span data-stu-id="e447a-138">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="64582-138">См. также</span><span class="sxs-lookup"><span data-stu-id="64582-138">See also</span></span>
 
 
 
-[<span data-ttu-id="e447a-139">IMAPIFormContainer::ResolveMessageClass</span><span class="sxs-lookup"><span data-stu-id="e447a-139">IMAPIFormContainer::ResolveMessageClass</span></span>](imapiformcontainer-resolvemessageclass.md)
+[<span data-ttu-id="64582-139">IMAPIFormContainer::ResolveMessageClass</span><span class="sxs-lookup"><span data-stu-id="64582-139">IMAPIFormContainer::ResolveMessageClass</span></span>](imapiformcontainer-resolvemessageclass.md)
   
-[<span data-ttu-id="e447a-140">IMAPIFormContainer : IUnknown</span><span class="sxs-lookup"><span data-stu-id="e447a-140">IMAPIFormContainer : IUnknown</span></span>](imapiformcontaineriunknown.md)
+[<span data-ttu-id="64582-140">IMAPIFormContainer : IUnknown</span><span class="sxs-lookup"><span data-stu-id="64582-140">IMAPIFormContainer : IUnknown</span></span>](imapiformcontaineriunknown.md)
 
 
-[<span data-ttu-id="e447a-141">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="e447a-141">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
+[<span data-ttu-id="64582-141">Mfcmapi (en) � �������� ������� ����</span><span class="sxs-lookup"><span data-stu-id="64582-141">MFCMAPI as a Code Sample</span></span>](mfcmapi-as-a-code-sample.md)
 

@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413964"
 ---
-# <a name="theme-properties-section"></a><span data-ttu-id="90c09-103">Theme Properties Section</span><span class="sxs-lookup"><span data-stu-id="90c09-103">Theme Properties Section</span></span>
+# <a name="theme-properties-section"></a><span data-ttu-id="f449f-103">Theme Properties Section</span><span class="sxs-lookup"><span data-stu-id="f449f-103">Theme Properties Section</span></span>
 
-<span data-ttu-id="90c09-104">Показывает значения индекса темы, которые в данный момент применены к документу, в том числе значения цвета, шрифта, соединителя и эффектов.</span><span class="sxs-lookup"><span data-stu-id="90c09-104">Shows the index values of the theme currently applied to the document, including color, font, connector, and effects values.</span></span> 
+<span data-ttu-id="f449f-104">Показывает значения индекса темы, которые в данный момент применены к документу, в том числе значения цвета, шрифта, соединителя и эффектов.</span><span class="sxs-lookup"><span data-stu-id="f449f-104">Shows the index values of the theme currently applied to the document, including color, font, connector, and effects values.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="90c09-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="90c09-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f449f-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="f449f-105">Remarks</span></span>
 
-<span data-ttu-id="90c09-106">Вы можете задать значения темы на вкладке " **конструктор** " или внести изменения в ячейки в разделе " **свойства темы** " таблицы свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="90c09-106">You can set theme values on the **Design** tab or by making changes in the cells in the **Theme Properties** section of the ShapeSheet.</span></span> 
+<span data-ttu-id="f449f-106">Вы можете задать значения темы на вкладке " **конструктор** " или внести изменения в ячейки в разделе " **свойства темы** " таблицы свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="f449f-106">You can set theme values on the **Design** tab or by making changes in the cells in the **Theme Properties** section of the ShapeSheet.</span></span> 
   
 

@@ -14,39 +14,39 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414587"
 ---
-# <a name="bevelmaterialtype-cell-bevel-properties-section"></a><span data-ttu-id="d8ea7-103">BevelMaterialType Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="d8ea7-103">BevelMaterialType Cell (Bevel Properties Section)</span></span>
+# <a name="bevelmaterialtype-cell-bevel-properties-section"></a><span data-ttu-id="5184f-103">BevelMaterialType Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="5184f-103">BevelMaterialType Cell (Bevel Properties Section)</span></span>
 
-<span data-ttu-id="d8ea7-104">Определяет тип материала, из которого состоит Багетная рамка.</span><span class="sxs-lookup"><span data-stu-id="d8ea7-104">Determines the type of material the bevel is composed of.</span></span> 
+<span data-ttu-id="5184f-104">Определяет тип материала, из которого состоит Багетная рамка.</span><span class="sxs-lookup"><span data-stu-id="5184f-104">Determines the type of material the bevel is composed of.</span></span> 
   
-|<span data-ttu-id="d8ea7-105">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d8ea7-105">**Description**</span></span>|<span data-ttu-id="d8ea7-106">**Значение**</span><span class="sxs-lookup"><span data-stu-id="d8ea7-106">**Value**</span></span>|
+|<span data-ttu-id="5184f-105">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5184f-105">**Description**</span></span>|<span data-ttu-id="5184f-106">**Значение**</span><span class="sxs-lookup"><span data-stu-id="5184f-106">**Value**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="d8ea7-107">нуль</span><span class="sxs-lookup"><span data-stu-id="d8ea7-107">0</span></span>  <br/> |<span data-ttu-id="d8ea7-108">Нет специальных материалов</span><span class="sxs-lookup"><span data-stu-id="d8ea7-108">No special material</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-109">1,1</span><span class="sxs-lookup"><span data-stu-id="d8ea7-109">1</span></span>  <br/> |<span data-ttu-id="d8ea7-110">Матовая</span><span class="sxs-lookup"><span data-stu-id="d8ea7-110">Matte</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-111">2</span><span class="sxs-lookup"><span data-stu-id="d8ea7-111">2</span></span>  <br/> |<span data-ttu-id="d8ea7-112">Теплый матовый</span><span class="sxs-lookup"><span data-stu-id="d8ea7-112">Warm Matte</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-113">4</span><span class="sxs-lookup"><span data-stu-id="d8ea7-113">3</span></span>  <br/> |<span data-ttu-id="d8ea7-114">PPGA</span><span class="sxs-lookup"><span data-stu-id="d8ea7-114">Plastic</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-115">SP4</span><span class="sxs-lookup"><span data-stu-id="d8ea7-115">4</span></span>  <br/> |<span data-ttu-id="d8ea7-116">Системы</span><span class="sxs-lookup"><span data-stu-id="d8ea7-116">Metal</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-117">17:00</span><span class="sxs-lookup"><span data-stu-id="d8ea7-117">5</span></span>  <br/> |<span data-ttu-id="d8ea7-118">Темный край</span><span class="sxs-lookup"><span data-stu-id="d8ea7-118">Dark Edge</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-119">ICMPv6</span><span class="sxs-lookup"><span data-stu-id="d8ea7-119">6</span></span>  <br/> |<span data-ttu-id="d8ea7-120">Мягкая поГраничная</span><span class="sxs-lookup"><span data-stu-id="d8ea7-120">Soft Edge</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-121">см</span><span class="sxs-lookup"><span data-stu-id="d8ea7-121">7</span></span>  <br/> |<span data-ttu-id="d8ea7-122">Обычно</span><span class="sxs-lookup"><span data-stu-id="d8ea7-122">Flat</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-123">8,5</span><span class="sxs-lookup"><span data-stu-id="d8ea7-123">8</span></span>  <br/> |<span data-ttu-id="d8ea7-124">Каркасная</span><span class="sxs-lookup"><span data-stu-id="d8ea7-124">Wireframe</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-125">10</span><span class="sxs-lookup"><span data-stu-id="d8ea7-125">9</span></span>  <br/> |<span data-ttu-id="d8ea7-126">Туманно</span><span class="sxs-lookup"><span data-stu-id="d8ea7-126">Powder</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-127">10 </span><span class="sxs-lookup"><span data-stu-id="d8ea7-127">10</span></span>  <br/> |<span data-ttu-id="d8ea7-128">Полупрозрачный порошок</span><span class="sxs-lookup"><span data-stu-id="d8ea7-128">Translucent Powder</span></span>  <br/> |
-|<span data-ttu-id="d8ea7-129">11 </span><span class="sxs-lookup"><span data-stu-id="d8ea7-129">11</span></span>  <br/> |<span data-ttu-id="d8ea7-130">Очистка</span><span class="sxs-lookup"><span data-stu-id="d8ea7-130">Clear</span></span>  <br/> |
+|<span data-ttu-id="5184f-107">нуль</span><span class="sxs-lookup"><span data-stu-id="5184f-107">0</span></span>  <br/> |<span data-ttu-id="5184f-108">Нет специальных материалов</span><span class="sxs-lookup"><span data-stu-id="5184f-108">No special material</span></span>  <br/> |
+|<span data-ttu-id="5184f-109">1,1</span><span class="sxs-lookup"><span data-stu-id="5184f-109">1</span></span>  <br/> |<span data-ttu-id="5184f-110">Матовая</span><span class="sxs-lookup"><span data-stu-id="5184f-110">Matte</span></span>  <br/> |
+|<span data-ttu-id="5184f-111">2</span><span class="sxs-lookup"><span data-stu-id="5184f-111">2</span></span>  <br/> |<span data-ttu-id="5184f-112">Теплый матовый</span><span class="sxs-lookup"><span data-stu-id="5184f-112">Warm Matte</span></span>  <br/> |
+|<span data-ttu-id="5184f-113">4</span><span class="sxs-lookup"><span data-stu-id="5184f-113">3</span></span>  <br/> |<span data-ttu-id="5184f-114">PPGA</span><span class="sxs-lookup"><span data-stu-id="5184f-114">Plastic</span></span>  <br/> |
+|<span data-ttu-id="5184f-115">4 </span><span class="sxs-lookup"><span data-stu-id="5184f-115">4</span></span>  <br/> |<span data-ttu-id="5184f-116">Системы</span><span class="sxs-lookup"><span data-stu-id="5184f-116">Metal</span></span>  <br/> |
+|<span data-ttu-id="5184f-117">5 </span><span class="sxs-lookup"><span data-stu-id="5184f-117">5</span></span>  <br/> |<span data-ttu-id="5184f-118">Темный край</span><span class="sxs-lookup"><span data-stu-id="5184f-118">Dark Edge</span></span>  <br/> |
+|<span data-ttu-id="5184f-119">6 </span><span class="sxs-lookup"><span data-stu-id="5184f-119">6</span></span>  <br/> |<span data-ttu-id="5184f-120">Мягкая пограничная</span><span class="sxs-lookup"><span data-stu-id="5184f-120">Soft Edge</span></span>  <br/> |
+|<span data-ttu-id="5184f-121">7 </span><span class="sxs-lookup"><span data-stu-id="5184f-121">7</span></span>  <br/> |<span data-ttu-id="5184f-122">Обычно</span><span class="sxs-lookup"><span data-stu-id="5184f-122">Flat</span></span>  <br/> |
+|<span data-ttu-id="5184f-123">8 </span><span class="sxs-lookup"><span data-stu-id="5184f-123">8</span></span>  <br/> |<span data-ttu-id="5184f-124">Каркасная</span><span class="sxs-lookup"><span data-stu-id="5184f-124">Wireframe</span></span>  <br/> |
+|<span data-ttu-id="5184f-125">9 </span><span class="sxs-lookup"><span data-stu-id="5184f-125">9</span></span>  <br/> |<span data-ttu-id="5184f-126">Туманно</span><span class="sxs-lookup"><span data-stu-id="5184f-126">Powder</span></span>  <br/> |
+|<span data-ttu-id="5184f-127">10 </span><span class="sxs-lookup"><span data-stu-id="5184f-127">10</span></span>  <br/> |<span data-ttu-id="5184f-128">Полупрозрачный порошок</span><span class="sxs-lookup"><span data-stu-id="5184f-128">Translucent Powder</span></span>  <br/> |
+|<span data-ttu-id="5184f-129">11 </span><span class="sxs-lookup"><span data-stu-id="5184f-129">11</span></span>  <br/> |<span data-ttu-id="5184f-130">Очистка</span><span class="sxs-lookup"><span data-stu-id="5184f-130">Clear</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d8ea7-131">Примечания</span><span class="sxs-lookup"><span data-stu-id="d8ea7-131">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5184f-131">Примечания</span><span class="sxs-lookup"><span data-stu-id="5184f-131">Remarks</span></span>
 
-<span data-ttu-id="d8ea7-132">Чтобы получить ссылку на ячейку **BevelMaterialType** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="d8ea7-132">To get a reference to the **BevelMaterialType** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="5184f-132">Чтобы получить ссылку на ячейку **BevelMaterialType** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="5184f-132">To get a reference to the **BevelMaterialType** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d8ea7-133">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="d8ea7-133">Cell name:</span></span>  <br/> | <span data-ttu-id="d8ea7-134">BevelMaterialType</span><span class="sxs-lookup"><span data-stu-id="d8ea7-134">BevelMaterialType</span></span>  <br/> |
+| <span data-ttu-id="5184f-133">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="5184f-133">Cell name:</span></span>  <br/> | <span data-ttu-id="5184f-134">BevelMaterialType</span><span class="sxs-lookup"><span data-stu-id="5184f-134">BevelMaterialType</span></span>  <br/> |
    
-<span data-ttu-id="d8ea7-135">Чтобы получить ссылку на ячейку **BevelMaterialType** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="d8ea7-135">To get a reference to the **BevelMaterialType** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="5184f-135">Чтобы получить ссылку на ячейку **BevelMaterialType** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="5184f-135">To get a reference to the **BevelMaterialType** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="d8ea7-136">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="d8ea7-136">Section index:</span></span>  <br/> |<span data-ttu-id="d8ea7-137">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="d8ea7-137">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="d8ea7-138">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="d8ea7-138">Row index:</span></span>  <br/> |<span data-ttu-id="d8ea7-139">**Висровбевелпропертиес**</span><span class="sxs-lookup"><span data-stu-id="d8ea7-139">**visRowBevelProperties**</span></span> <br/> |
-| <span data-ttu-id="d8ea7-140">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="d8ea7-140">Cell index:</span></span>  <br/> |<span data-ttu-id="d8ea7-141">**Висбевелматериалтипе**</span><span class="sxs-lookup"><span data-stu-id="d8ea7-141">**visBevelMaterialType**</span></span> <br/> |
+| <span data-ttu-id="5184f-136">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="5184f-136">Section index:</span></span>  <br/> |<span data-ttu-id="5184f-137">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="5184f-137">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="5184f-138">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="5184f-138">Row index:</span></span>  <br/> |<span data-ttu-id="5184f-139">**висровбевелпропертиес**</span><span class="sxs-lookup"><span data-stu-id="5184f-139">**visRowBevelProperties**</span></span> <br/> |
+| <span data-ttu-id="5184f-140">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="5184f-140">Cell index:</span></span>  <br/> |<span data-ttu-id="5184f-141">**висбевелматериалтипе**</span><span class="sxs-lookup"><span data-stu-id="5184f-141">**visBevelMaterialType**</span></span> <br/> |
    
 

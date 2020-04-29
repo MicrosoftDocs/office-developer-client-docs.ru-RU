@@ -19,37 +19,37 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413341"
 ---
-# <a name="cbnewspropproblemarray"></a><span data-ttu-id="e391e-103">CbNewSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="e391e-103">CbNewSPropProblemArray</span></span>
+# <a name="cbnewspropproblemarray"></a><span data-ttu-id="8c8a5-103">CbNewSPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="8c8a5-103">CbNewSPropProblemArray</span></span>
 
   
   
-<span data-ttu-id="e391e-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e391e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8c8a5-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8c8a5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e391e-105">Вычисляет число байтов, выделяемых для новой структуры [спроппроблемаррай](spropproblemarray.md) , которая содержит указанное число структур [спроппроблем](spropproblem.md) .</span><span class="sxs-lookup"><span data-stu-id="e391e-105">Computes the number of bytes to be allocated for a new [SPropProblemArray](spropproblemarray.md) structure that contains a specified number of [SPropProblem](spropproblem.md) structures.</span></span> 
+<span data-ttu-id="8c8a5-105">Вычисляет число байтов, выделяемых для новой структуры [спроппроблемаррай](spropproblemarray.md) , которая содержит указанное число структур [спроппроблем](spropproblem.md) .</span><span class="sxs-lookup"><span data-stu-id="8c8a5-105">Computes the number of bytes to be allocated for a new [SPropProblemArray](spropproblemarray.md) structure that contains a specified number of [SPropProblem](spropproblem.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e391e-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="e391e-106">Header file:</span></span>  <br/> |<span data-ttu-id="e391e-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="e391e-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="e391e-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="e391e-108">Related structure:</span></span>  <br/> |<span data-ttu-id="e391e-109">**SPropProblemArray**</span><span class="sxs-lookup"><span data-stu-id="e391e-109">**SPropProblemArray**</span></span> <br/> |
+|<span data-ttu-id="8c8a5-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="8c8a5-106">Header file:</span></span>  <br/> |<span data-ttu-id="8c8a5-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="8c8a5-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="8c8a5-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="8c8a5-108">Related structure:</span></span>  <br/> |<span data-ttu-id="8c8a5-109">**SPropProblemArray**</span><span class="sxs-lookup"><span data-stu-id="8c8a5-109">**SPropProblemArray**</span></span> <br/> |
    
 ```cpp
 CbNewSPropProblemArray (_cprob)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e391e-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="e391e-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8c8a5-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="8c8a5-110">Parameters</span></span>
 
- <span data-ttu-id="e391e-111">__кпроб_</span><span class="sxs-lookup"><span data-stu-id="e391e-111">__cprob_</span></span>
+ <span data-ttu-id="8c8a5-111">__кпроб_</span><span class="sxs-lookup"><span data-stu-id="8c8a5-111">__cprob_</span></span>
   
-> <span data-ttu-id="e391e-112">Количество структур **спроппроблем** , включаемых в новую структуру **спроппроблемаррай** .</span><span class="sxs-lookup"><span data-stu-id="e391e-112">Count of **SPropProblem** structures to be included in the new **SPropProblemArray** structure.</span></span> 
+> <span data-ttu-id="8c8a5-112">Количество структур **спроппроблем** , включаемых в новую структуру **спроппроблемаррай** .</span><span class="sxs-lookup"><span data-stu-id="8c8a5-112">Count of **SPropProblem** structures to be included in the new **SPropProblemArray** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="e391e-113">См. также</span><span class="sxs-lookup"><span data-stu-id="e391e-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8c8a5-113">См. также</span><span class="sxs-lookup"><span data-stu-id="8c8a5-113">See also</span></span>
 
 
 
-[<span data-ttu-id="e391e-114">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="e391e-114">SPropProblemArray</span></span>](spropproblemarray.md)
+[<span data-ttu-id="8c8a5-114">SPropProblemArray</span><span class="sxs-lookup"><span data-stu-id="8c8a5-114">SPropProblemArray</span></span>](spropproblemarray.md)
   
-[<span data-ttu-id="e391e-115">SPropProblem</span><span class="sxs-lookup"><span data-stu-id="e391e-115">SPropProblem</span></span>](spropproblem.md)
+[<span data-ttu-id="8c8a5-115">SPropProblem</span><span class="sxs-lookup"><span data-stu-id="8c8a5-115">SPropProblem</span></span>](spropproblem.md)
 
 
-[<span data-ttu-id="e391e-116">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="e391e-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="8c8a5-116">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="8c8a5-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

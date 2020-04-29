@@ -19,52 +19,52 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408679"
 ---
-# <a name="pidtagspoolerstatus-canonical-property"></a><span data-ttu-id="9ab30-103">Каноническое свойство PidTagSpoolerStatus</span><span class="sxs-lookup"><span data-stu-id="9ab30-103">PidTagSpoolerStatus Canonical Property</span></span>
+# <a name="pidtagspoolerstatus-canonical-property"></a><span data-ttu-id="e0268-103">Каноническое свойство PidTagSpoolerStatus</span><span class="sxs-lookup"><span data-stu-id="e0268-103">PidTagSpoolerStatus Canonical Property</span></span>
 
   
   
-<span data-ttu-id="9ab30-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9ab30-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e0268-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e0268-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9ab30-105">Содержит состояние сообщения на основе сведений, доступных для диспетчера очереди MAPI.</span><span class="sxs-lookup"><span data-stu-id="9ab30-105">Contains the status of the message based on information that is available to the MAPI spooler.</span></span>
+<span data-ttu-id="e0268-105">Содержит состояние сообщения на основе сведений, доступных для диспетчера очереди MAPI.</span><span class="sxs-lookup"><span data-stu-id="e0268-105">Contains the status of the message based on information that is available to the MAPI spooler.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9ab30-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="9ab30-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="9ab30-107">ПР_СПУЛЕР_СТАТУС</span><span class="sxs-lookup"><span data-stu-id="9ab30-107">PR_SPOOLER_STATUS</span></span>  <br/> |
-|<span data-ttu-id="9ab30-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="9ab30-108">Identifier:</span></span>  <br/> |<span data-ttu-id="9ab30-109">0x0E10</span><span class="sxs-lookup"><span data-stu-id="9ab30-109">0x0E10</span></span>  <br/> |
-|<span data-ttu-id="9ab30-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="9ab30-110">Data type:</span></span>  <br/> |<span data-ttu-id="9ab30-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="9ab30-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="9ab30-112">Область:</span><span class="sxs-lookup"><span data-stu-id="9ab30-112">Area:</span></span>  <br/> |<span data-ttu-id="9ab30-113">Несъемный MAPI</span><span class="sxs-lookup"><span data-stu-id="9ab30-113">MAPI non-transmittable</span></span>  <br/> |
+|<span data-ttu-id="e0268-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="e0268-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e0268-107">PR_SPOOLER_STATUS</span><span class="sxs-lookup"><span data-stu-id="e0268-107">PR_SPOOLER_STATUS</span></span>  <br/> |
+|<span data-ttu-id="e0268-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="e0268-108">Identifier:</span></span>  <br/> |<span data-ttu-id="e0268-109">0x0E10</span><span class="sxs-lookup"><span data-stu-id="e0268-109">0x0E10</span></span>  <br/> |
+|<span data-ttu-id="e0268-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="e0268-110">Data type:</span></span>  <br/> |<span data-ttu-id="e0268-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="e0268-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="e0268-112">Область:</span><span class="sxs-lookup"><span data-stu-id="e0268-112">Area:</span></span>  <br/> |<span data-ttu-id="e0268-113">Несъемный MAPI</span><span class="sxs-lookup"><span data-stu-id="e0268-113">MAPI non-transmittable</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="9ab30-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="9ab30-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e0268-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="e0268-114">Remarks</span></span>
 
-<span data-ttu-id="9ab30-115">Это свойство вычисляется MAPI для объектов Message.</span><span class="sxs-lookup"><span data-stu-id="9ab30-115">This property is computed by MAPI on message objects.</span></span>
+<span data-ttu-id="e0268-115">Это свойство вычисляется MAPI для объектов Message.</span><span class="sxs-lookup"><span data-stu-id="e0268-115">This property is computed by MAPI on message objects.</span></span>
   
-<span data-ttu-id="9ab30-116">Это свойство отображается только для входящих сообщений и зарезервировано во всех остальных случаях.</span><span class="sxs-lookup"><span data-stu-id="9ab30-116">This property appears on inbound messages only and is reserved in all other cases.</span></span> <span data-ttu-id="9ab30-117">Указывает, было ли сообщение доставлено в конечное расположение или же может ли поставщик обработчика сообщений удалить сообщение при его повторной маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="9ab30-117">It indicates whether or not a message has been delivered to its final location or whether a messaging hook provider potentially deleted the message while rerouting it.</span></span>
+<span data-ttu-id="e0268-116">Это свойство отображается только для входящих сообщений и зарезервировано во всех остальных случаях.</span><span class="sxs-lookup"><span data-stu-id="e0268-116">This property appears on inbound messages only and is reserved in all other cases.</span></span> <span data-ttu-id="e0268-117">Указывает, было ли сообщение доставлено в конечное расположение или же может ли поставщик обработчика сообщений удалить сообщение при его повторной маршрутизации.</span><span class="sxs-lookup"><span data-stu-id="e0268-117">It indicates whether or not a message has been delivered to its final location or whether a messaging hook provider potentially deleted the message while rerouting it.</span></span>
   
-<span data-ttu-id="9ab30-118">Клиентские приложения никогда не должны задавать это свойство.</span><span class="sxs-lookup"><span data-stu-id="9ab30-118">Client applications should never set this property.</span></span> <span data-ttu-id="9ab30-119">Для входящего сообщения клиент или поставщик услуг может вызвать [IMAPIProp::](imapiprop-getprops.md) /PROPS для этого свойства, чтобы определить состояние сообщения.</span><span class="sxs-lookup"><span data-stu-id="9ab30-119">For an inbound message, a client or service provider can call [IMAPIProp::GetProps](imapiprop-getprops.md) on this property to determine the message status.</span></span> <span data-ttu-id="9ab30-120">Значение S_OK указывает на то, что сообщение успешно доставлено в хранилище сообщений.</span><span class="sxs-lookup"><span data-stu-id="9ab30-120">The value S_OK indicates that the message was successfully delivered to the message store.</span></span> <span data-ttu-id="9ab30-121">Значение МАПИ_Е_ОБЖЕКТ_ДЕЛЕТЕД указывает на то, что сообщение было удалено и не было зафиксировано в хранилище.</span><span class="sxs-lookup"><span data-stu-id="9ab30-121">The value MAPI_E_OBJECT_DELETED indicates that the message was deleted and was never committed to the store.</span></span> 
+<span data-ttu-id="e0268-118">Клиентские приложения никогда не должны задавать это свойство.</span><span class="sxs-lookup"><span data-stu-id="e0268-118">Client applications should never set this property.</span></span> <span data-ttu-id="e0268-119">Для входящего сообщения клиент или поставщик услуг может вызвать [IMAPIProp::/PROPS](imapiprop-getprops.md) для этого свойства, чтобы определить состояние сообщения.</span><span class="sxs-lookup"><span data-stu-id="e0268-119">For an inbound message, a client or service provider can call [IMAPIProp::GetProps](imapiprop-getprops.md) on this property to determine the message status.</span></span> <span data-ttu-id="e0268-120">Значение S_OK указывает, что сообщение было успешно доставлено в хранилище сообщений.</span><span class="sxs-lookup"><span data-stu-id="e0268-120">The value S_OK indicates that the message was successfully delivered to the message store.</span></span> <span data-ttu-id="e0268-121">Значение MAPI_E_OBJECT_DELETED указывает на то, что сообщение было удалено и не было зафиксировано в хранилище.</span><span class="sxs-lookup"><span data-stu-id="e0268-121">The value MAPI_E_OBJECT_DELETED indicates that the message was deleted and was never committed to the store.</span></span> 
   
-<span data-ttu-id="9ab30-122">Поставщики хранилища сообщений должны поддерживать это свойство в сообщениях, таблицах получателей и таблице исходящей очереди.</span><span class="sxs-lookup"><span data-stu-id="9ab30-122">Message store providers should support this property on messages, recipient tables, and the outgoing queue table.</span></span> <span data-ttu-id="9ab30-123">Клиенты и поставщики должны иметь возможность задавать столбцы в таблице исходящей очереди и ограничиваться в соответствии с этим свойством.</span><span class="sxs-lookup"><span data-stu-id="9ab30-123">Clients and providers should be able to set columns on the outgoing queue table and restrict based on this property.</span></span>
+<span data-ttu-id="e0268-122">Поставщики хранилища сообщений должны поддерживать это свойство в сообщениях, таблицах получателей и таблице исходящей очереди.</span><span class="sxs-lookup"><span data-stu-id="e0268-122">Message store providers should support this property on messages, recipient tables, and the outgoing queue table.</span></span> <span data-ttu-id="e0268-123">Клиенты и поставщики должны иметь возможность задавать столбцы в таблице исходящей очереди и ограничиваться в соответствии с этим свойством.</span><span class="sxs-lookup"><span data-stu-id="e0268-123">Clients and providers should be able to set columns on the outgoing queue table and restrict based on this property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="9ab30-124">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="9ab30-124">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="e0268-124">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="e0268-124">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="9ab30-125">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="9ab30-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="e0268-125">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="e0268-125">Header files</span></span>
 
-<span data-ttu-id="9ab30-126">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="9ab30-126">Mapidefs.h</span></span>
+<span data-ttu-id="e0268-126">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="e0268-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="9ab30-127">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="9ab30-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="e0268-127">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="e0268-127">Provides data type definitions.</span></span>
     
-<span data-ttu-id="9ab30-128">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="9ab30-128">Mapitags.h</span></span>
+<span data-ttu-id="e0268-128">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="e0268-128">Mapitags.h</span></span>
   
-> <span data-ttu-id="9ab30-129">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="9ab30-129">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="e0268-129">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="e0268-129">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="9ab30-130">См. также</span><span class="sxs-lookup"><span data-stu-id="9ab30-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e0268-130">См. также</span><span class="sxs-lookup"><span data-stu-id="e0268-130">See also</span></span>
 
 
 
-[<span data-ttu-id="9ab30-131">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="9ab30-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="e0268-131">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="e0268-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="9ab30-132">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="9ab30-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="e0268-132">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="e0268-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="9ab30-133">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="9ab30-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="e0268-133">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="e0268-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="9ab30-134">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="9ab30-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="e0268-134">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="e0268-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

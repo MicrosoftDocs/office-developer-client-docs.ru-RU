@@ -16,15 +16,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404731"
 ---
-# <a name="lineto-row-geometry-section"></a><span data-ttu-id="7e363-103">LineTo Row (Geometry Section)</span><span class="sxs-lookup"><span data-stu-id="7e363-103">LineTo Row (Geometry Section)</span></span>
+# <a name="lineto-row-geometry-section"></a><span data-ttu-id="6425d-103">LineTo Row (Geometry Section)</span><span class="sxs-lookup"><span data-stu-id="6425d-103">LineTo Row (Geometry Section)</span></span>
 
-<span data-ttu-id="7e363-104">Содержит координаты *x* и *y* конечной вершины сегмента прямой линии.</span><span class="sxs-lookup"><span data-stu-id="7e363-104">Contains  *x*  -and  *y*  -coordinates of the ending vertex of a straight line segment.</span></span> 
+<span data-ttu-id="6425d-104">Содержит координаты *x* и *y* конечной вершины сегмента прямой линии.</span><span class="sxs-lookup"><span data-stu-id="6425d-104">Contains  *x*  -and  *y*  -coordinates of the ending vertex of a straight line segment.</span></span> 
   
-<span data-ttu-id="7e363-105">Строка LineTo содержит следующие ячейки.</span><span class="sxs-lookup"><span data-stu-id="7e363-105">A LineTo row contains the following cells.</span></span>
+<span data-ttu-id="6425d-105">Строка LineTo содержит следующие ячейки.</span><span class="sxs-lookup"><span data-stu-id="6425d-105">A LineTo row contains the following cells.</span></span>
   
-|<span data-ttu-id="7e363-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="7e363-106">**Cell**</span></span>|<span data-ttu-id="7e363-107">**Описание**</span><span class="sxs-lookup"><span data-stu-id="7e363-107">**Description**</span></span>|
+|<span data-ttu-id="6425d-106">**Cell**</span><span class="sxs-lookup"><span data-stu-id="6425d-106">**Cell**</span></span>|<span data-ttu-id="6425d-107">**Описание**</span><span class="sxs-lookup"><span data-stu-id="6425d-107">**Description**</span></span>|
 |:-----|:-----|
-|[<span data-ttu-id="7e363-108">X</span><span class="sxs-lookup"><span data-stu-id="7e363-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="7e363-109">Координата *X* последней вершины сегмента прямой линии.</span><span class="sxs-lookup"><span data-stu-id="7e363-109">The  *x*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
-|[<span data-ttu-id="7e363-110">Y (да)</span><span class="sxs-lookup"><span data-stu-id="7e363-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="7e363-111">Координата *Y* последней вершины сегмента прямой линии.</span><span class="sxs-lookup"><span data-stu-id="7e363-111">The  *y*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
+|[<span data-ttu-id="6425d-108">X</span><span class="sxs-lookup"><span data-stu-id="6425d-108">X</span></span>](x-cell-geometry-section.md) <br/> |<span data-ttu-id="6425d-109">Координата *X* последней вершины сегмента прямой линии.</span><span class="sxs-lookup"><span data-stu-id="6425d-109">The  *x*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
+|[<span data-ttu-id="6425d-110">Y (да)</span><span class="sxs-lookup"><span data-stu-id="6425d-110">Y</span></span>](y-cell-geometry-section.md) <br/> |<span data-ttu-id="6425d-111">Координата *Y* последней вершины сегмента прямой линии.</span><span class="sxs-lookup"><span data-stu-id="6425d-111">The  *y*  -coordinate of the ending vertex of a straight line segment.</span></span>  <br/> |
    
 

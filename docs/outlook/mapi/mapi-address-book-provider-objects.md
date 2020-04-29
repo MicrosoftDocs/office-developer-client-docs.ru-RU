@@ -15,17 +15,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404346"
 ---
-# <a name="mapi-address-book-provider-objects"></a><span data-ttu-id="37e4e-103">Объекты поставщика адресной книги MAPI</span><span class="sxs-lookup"><span data-stu-id="37e4e-103">MAPI address book provider objects</span></span>
+# <a name="mapi-address-book-provider-objects"></a><span data-ttu-id="05fe5-103">Объекты поставщика адресной книги MAPI</span><span class="sxs-lookup"><span data-stu-id="05fe5-103">MAPI address book provider objects</span></span>
   
-<span data-ttu-id="37e4e-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="37e4e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="05fe5-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="05fe5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="37e4e-105">В дополнение к стандартным объектам provider и logon, поставщики адресных книг реализуют контейнеры адресных книг, списки рассылки, пользователей обмена сообщениями, таблицы, объекты состояния и элементы управления.</span><span class="sxs-lookup"><span data-stu-id="37e4e-105">In addition to the standard provider and logon objects, address book providers implement address book containers, distribution lists, messaging users, tables, status objects, and controls.</span></span>
+<span data-ttu-id="05fe5-105">В дополнение к стандартным объектам provider и logon, поставщики адресных книг реализуют контейнеры адресных книг, списки рассылки, пользователей обмена сообщениями, таблицы, объекты состояния и элементы управления.</span><span class="sxs-lookup"><span data-stu-id="05fe5-105">In addition to the standard provider and logon objects, address book providers implement address book containers, distribution lists, messaging users, tables, status objects, and controls.</span></span>
   
-<span data-ttu-id="37e4e-106">На следующем рисунке показаны эти объекты, соответствующие им интерфейсы и компоненты MAPI, которые их используют.</span><span class="sxs-lookup"><span data-stu-id="37e4e-106">The following illustration shows these objects, their corresponding interfaces, and the MAPI components that use them.</span></span>
+<span data-ttu-id="05fe5-106">На следующем рисунке показаны эти объекты, соответствующие им интерфейсы и компоненты MAPI, которые их используют.</span><span class="sxs-lookup"><span data-stu-id="05fe5-106">The following illustration shows these objects, their corresponding interfaces, and the MAPI components that use them.</span></span>
   
-<span data-ttu-id="37e4e-107">![Объекты, реализуемые поставщиками адресных книг] (media/amapi_64.gif "Объекты, реализуемые поставщиками адресных книг")</span><span class="sxs-lookup"><span data-stu-id="37e4e-107">![Objects that address book providers implement](media/amapi_64.gif "Objects that address book providers implement")</span></span>
+<span data-ttu-id="05fe5-107">![Объекты, которые поставщики адресных книг реализуют](media/amapi_64.gif "объекты, реализуемые поставщиками адресных книг")</span><span class="sxs-lookup"><span data-stu-id="05fe5-107">![Objects that address book providers implement](media/amapi_64.gif "Objects that address book providers implement")</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="37e4e-108">См. также</span><span class="sxs-lookup"><span data-stu-id="37e4e-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="05fe5-108">См. также</span><span class="sxs-lookup"><span data-stu-id="05fe5-108">See also</span></span>
 
-- [<span data-ttu-id="37e4e-109">Объекты поставщика службы MAPI</span><span class="sxs-lookup"><span data-stu-id="37e4e-109">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
+- [<span data-ttu-id="05fe5-109">Объекты поставщика службы MAPI</span><span class="sxs-lookup"><span data-stu-id="05fe5-109">MAPI Service Provider Objects</span></span>](mapi-service-provider-objects.md)
 

@@ -21,7 +21,7 @@ ms.locfileid: "33413327"
 <span data-ttu-id="e8f1e-105">Visio 2013 предоставляет функциональную единую платформу для ваших документов.</span><span class="sxs-lookup"><span data-stu-id="e8f1e-105">Visio 2013 provides a powerful single platform for your custom drawing solutions.</span></span> <span data-ttu-id="e8f1e-106">Новые функции и ячейки таблиц свойств фигур, а также новые свойства, методы, события и объекты автоматизации предоставляют больше возможностей по определению и контролю поведения элементов в решениях.</span><span class="sxs-lookup"><span data-stu-id="e8f1e-106">New ShapeSheet cells and functions, along with new Automation objects, properties, methods, and events, give you more options to define and control the behavior of the elements in your solutions.</span></span>
   
 ## <a name="new-and-changed-cells"></a><span data-ttu-id="e8f1e-107">Новые и измененные ячейки</span><span class="sxs-lookup"><span data-stu-id="e8f1e-107">New and changed cells</span></span>
-<span data-ttu-id="e8f1e-108"><a name="vis15_WhatsNew_Cells"> </a></span><span class="sxs-lookup"><span data-stu-id="e8f1e-108"></span></span>
+<span data-ttu-id="e8f1e-108"><a name="vis15_WhatsNew_Cells"> </a></span><span class="sxs-lookup"><span data-stu-id="e8f1e-108"><a name="vis15_WhatsNew_Cells"> </a></span></span>
 
 <span data-ttu-id="e8f1e-109">В приведенной ниже таблице перечислены новые ячейки, с помощью которых можно создавать решения с таблицами свойств фигур в Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="e8f1e-109">The following table lists the new cells that you can use to build ShapeSheet solutions in Visio 2013.</span></span>
   
@@ -105,7 +105,7 @@ ms.locfileid: "33413327"
 |[<span data-ttu-id="e8f1e-255">ShdwType</span><span class="sxs-lookup"><span data-stu-id="e8f1e-255">ShdwType</span></span>](shdwtype-cell-page-properties-section.md) <br/> |<span data-ttu-id="e8f1e-256">Новые значение и константа автоматизации</span><span class="sxs-lookup"><span data-stu-id="e8f1e-256">New value and Automation constant</span></span>  <br/> |
    
 ## <a name="new-rows"></a><span data-ttu-id="e8f1e-257">Новые строки</span><span class="sxs-lookup"><span data-stu-id="e8f1e-257">New rows</span></span>
-<span data-ttu-id="e8f1e-258"><a name="vis15_WhatsNew_Rows"> </a></span><span class="sxs-lookup"><span data-stu-id="e8f1e-258"></span></span>
+<span data-ttu-id="e8f1e-258"><a name="vis15_WhatsNew_Rows"> </a></span><span class="sxs-lookup"><span data-stu-id="e8f1e-258"><a name="vis15_WhatsNew_Rows"> </a></span></span>
 
 <span data-ttu-id="e8f1e-259">В приведенной ниже таблице перечислены новые строки, с помощью которых можно создавать решения с таблицами свойств фигур в Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="e8f1e-259">The following table lists the new rows that you can use to build ShapeSheet solutions in Visio 2013.</span></span>
   
@@ -120,7 +120,7 @@ ms.locfileid: "33413327"
 |[<span data-ttu-id="e8f1e-274">RelQuadBezTo</span><span class="sxs-lookup"><span data-stu-id="e8f1e-274">RelQuadBezTo</span></span>](relquadbezto-row-geometry-section.md) <br/> |<span data-ttu-id="e8f1e-275">Геометрия</span><span class="sxs-lookup"><span data-stu-id="e8f1e-275">Geometry</span></span>  <br/> |
    
 ## <a name="new-and-deprecated-functions"></a><span data-ttu-id="e8f1e-276">Новые и устаревшие функции</span><span class="sxs-lookup"><span data-stu-id="e8f1e-276">New and deprecated functions</span></span>
-<span data-ttu-id="e8f1e-277"><a name="vis15_WhatsNew_Functions"> </a></span><span class="sxs-lookup"><span data-stu-id="e8f1e-277"></span></span>
+<span data-ttu-id="e8f1e-277"><a name="vis15_WhatsNew_Functions"> </a></span><span class="sxs-lookup"><span data-stu-id="e8f1e-277"><a name="vis15_WhatsNew_Functions"> </a></span></span>
 
 <span data-ttu-id="e8f1e-278">В приведенной ниже таблице перечислены новые функции, появившиеся в Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="e8f1e-278">The following table lists the new functions in Visio 2013.</span></span>
   

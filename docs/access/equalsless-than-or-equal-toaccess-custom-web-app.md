@@ -14,23 +14,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405655"
 ---
-# <a name="less-than-or-equal-to-access-custom-web-app"></a><span data-ttu-id="65d8d-104">Меньше или равно (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="65d8d-104">Less Than or Equal To (Access custom web app)</span></span>
+# <a name="less-than-or-equal-to-access-custom-web-app"></a><span data-ttu-id="23c39-104">Меньше или равно (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="23c39-104">Less Than or Equal To (Access custom web app)</span></span>
 
-<span data-ttu-id="65d8d-105">Сравнивает два выражения.</span><span class="sxs-lookup"><span data-stu-id="65d8d-105">Compares two expressions.</span></span> <span data-ttu-id="65d8d-106">При сравнении выражений, не относящихся к null, результат имеет значение TRUE, если значение левого операнда меньше или равно значению правого операнда; в противном случае результат имеет значение FALSE.</span><span class="sxs-lookup"><span data-stu-id="65d8d-106">When you compare non-null expressions, the result is TRUE if the left operand has a value lower than or equal to the right operand; otherwise, the result is FALSE.</span></span>
+<span data-ttu-id="23c39-105">Сравнивает два выражения.</span><span class="sxs-lookup"><span data-stu-id="23c39-105">Compares two expressions.</span></span> <span data-ttu-id="23c39-106">При сравнении выражений, не относящихся к null, результат имеет значение TRUE, если значение левого операнда меньше или равно значению правого операнда; в противном случае результат имеет значение FALSE.</span><span class="sxs-lookup"><span data-stu-id="23c39-106">When you compare non-null expressions, the result is TRUE if the left operand has a value lower than or equal to the right operand; otherwise, the result is FALSE.</span></span>
   
 > [!IMPORTANT]
-> <span data-ttu-id="65d8d-107">Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="65d8d-107">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="65d8d-108">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="65d8d-108">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="23c39-107">Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="23c39-107">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="23c39-108">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="23c39-108">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="65d8d-109">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="65d8d-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="23c39-109">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="23c39-109">Syntax</span></span>
 
 `<= (Less Than or Equal To)`
 
-<span data-ttu-id="65d8d-110">*выражение*  \<=  *выражение*</span><span class="sxs-lookup"><span data-stu-id="65d8d-110">*expression*  \<=  *expression*</span></span> 
+<span data-ttu-id="23c39-110">*выражение*  \<=  *выражение*</span><span class="sxs-lookup"><span data-stu-id="23c39-110">*expression*  \<=  *expression*</span></span> 
   
-<span data-ttu-id="65d8d-111">*выражение* — любое допустимое выражение.</span><span class="sxs-lookup"><span data-stu-id="65d8d-111">*expression*  Is any valid expression.</span></span> <span data-ttu-id="65d8d-112">Оба выражения должны содержать неявно преобразуемые типы данных.</span><span class="sxs-lookup"><span data-stu-id="65d8d-112">Both expressions must have implicitly convertible data types.</span></span> <span data-ttu-id="65d8d-113">Преобразование зависит от правил приоритета для типов данных.</span><span class="sxs-lookup"><span data-stu-id="65d8d-113">The conversion depends on the rules of data type precedence.</span></span> 
+<span data-ttu-id="23c39-111">*выражение* — любое допустимое выражение.</span><span class="sxs-lookup"><span data-stu-id="23c39-111">*expression*  Is any valid expression.</span></span> <span data-ttu-id="23c39-112">Оба выражения должны содержать неявно преобразуемые типы данных.</span><span class="sxs-lookup"><span data-stu-id="23c39-112">Both expressions must have implicitly convertible data types.</span></span> <span data-ttu-id="23c39-113">Преобразование зависит от правил приоритета для типов данных.</span><span class="sxs-lookup"><span data-stu-id="23c39-113">The conversion depends on the rules of data type precedence.</span></span> 
   
-## <a name="return-type"></a><span data-ttu-id="65d8d-114">Возвращаемый тип</span><span class="sxs-lookup"><span data-stu-id="65d8d-114">Return Type</span></span>
+## <a name="return-type"></a><span data-ttu-id="23c39-114">Возвращаемый тип</span><span class="sxs-lookup"><span data-stu-id="23c39-114">Return Type</span></span>
 
-<span data-ttu-id="65d8d-115">**Логический**</span><span class="sxs-lookup"><span data-stu-id="65d8d-115">**Boolean**</span></span>
+<span data-ttu-id="23c39-115">**Логический**</span><span class="sxs-lookup"><span data-stu-id="23c39-115">**Boolean**</span></span>
   
 

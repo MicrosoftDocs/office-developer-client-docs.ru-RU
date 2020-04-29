@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404542"
 ---
-# <a name="manager-function"></a><span data-ttu-id="0610d-103">Функция MANAGER</span><span class="sxs-lookup"><span data-stu-id="0610d-103">MANAGER Function</span></span>
+# <a name="manager-function"></a><span data-ttu-id="c6da3-103">Функция MANAGER</span><span class="sxs-lookup"><span data-stu-id="c6da3-103">MANAGER Function</span></span>
 
-<span data-ttu-id="0610d-104">Возвращает текст из поля " **руководитель** " в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="0610d-104">Returns the text from the **Manager** field of a document's properties.</span></span> 
+<span data-ttu-id="c6da3-104">Возвращает текст из поля " **руководитель** " в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="c6da3-104">Returns the text from the **Manager** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="0610d-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0610d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c6da3-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c6da3-105">Syntax</span></span>
 
-<span data-ttu-id="0610d-106">MANAGER ()</span><span class="sxs-lookup"><span data-stu-id="0610d-106">MANAGER ()</span></span>
+<span data-ttu-id="c6da3-106">MANAGER ()</span><span class="sxs-lookup"><span data-stu-id="c6da3-106">MANAGER ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="0610d-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0610d-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="c6da3-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c6da3-107">Return value</span></span>
 
-<span data-ttu-id="0610d-108">String</span><span class="sxs-lookup"><span data-stu-id="0610d-108">String</span></span>
+<span data-ttu-id="c6da3-108">String</span><span class="sxs-lookup"><span data-stu-id="c6da3-108">String</span></span>
   
 

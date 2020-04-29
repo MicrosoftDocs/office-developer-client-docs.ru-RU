@@ -19,37 +19,37 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404318"
 ---
-# <a name="cbnewadrlist"></a><span data-ttu-id="b81c0-103">CbNewADRLIST</span><span class="sxs-lookup"><span data-stu-id="b81c0-103">CbNewADRLIST</span></span>
+# <a name="cbnewadrlist"></a><span data-ttu-id="c0ae1-103">CbNewADRLIST</span><span class="sxs-lookup"><span data-stu-id="c0ae1-103">CbNewADRLIST</span></span>
 
   
   
-<span data-ttu-id="b81c0-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b81c0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c0ae1-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c0ae1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b81c0-105">Вычисляет количество байтов, которое следует выделить для новой структуры [ADRLIST](adrlist.md) , которая содержит указанное количество получателей, представленных структурами [адрентри](adrentry.md) .</span><span class="sxs-lookup"><span data-stu-id="b81c0-105">Computes the number of bytes that should be allocated for a new [ADRLIST](adrlist.md) structure that contains a specified number of recipients represented by [ADRENTRY](adrentry.md) structures.</span></span> 
+<span data-ttu-id="c0ae1-105">Вычисляет количество байтов, которое следует выделить для новой структуры [ADRLIST](adrlist.md) , которая содержит указанное количество получателей, представленных структурами [адрентри](adrentry.md) .</span><span class="sxs-lookup"><span data-stu-id="c0ae1-105">Computes the number of bytes that should be allocated for a new [ADRLIST](adrlist.md) structure that contains a specified number of recipients represented by [ADRENTRY](adrentry.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b81c0-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="b81c0-106">Header file:</span></span>  <br/> |<span data-ttu-id="b81c0-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="b81c0-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="b81c0-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="b81c0-108">Related structure:</span></span>  <br/> |<span data-ttu-id="b81c0-109">**ADRLIST**</span><span class="sxs-lookup"><span data-stu-id="b81c0-109">**ADRLIST**</span></span> <br/> |
+|<span data-ttu-id="c0ae1-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="c0ae1-106">Header file:</span></span>  <br/> |<span data-ttu-id="c0ae1-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="c0ae1-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="c0ae1-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="c0ae1-108">Related structure:</span></span>  <br/> |<span data-ttu-id="c0ae1-109">**ADRLIST**</span><span class="sxs-lookup"><span data-stu-id="c0ae1-109">**ADRLIST**</span></span> <br/> |
    
 ```cpp
 CbNewADRLIST (_centries)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b81c0-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="b81c0-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c0ae1-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="c0ae1-110">Parameters</span></span>
 
- <span data-ttu-id="b81c0-111">__центриес_</span><span class="sxs-lookup"><span data-stu-id="b81c0-111">__centries_</span></span>
+ <span data-ttu-id="c0ae1-111">__центриес_</span><span class="sxs-lookup"><span data-stu-id="c0ae1-111">__centries_</span></span>
   
-> <span data-ttu-id="b81c0-112">Количество структур **адрентри** , включаемых в новую структуру **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="b81c0-112">Count of **ADRENTRY** structures to be included in the new **ADRLIST** structure.</span></span> 
+> <span data-ttu-id="c0ae1-112">Количество структур **адрентри** , включаемых в новую структуру **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="c0ae1-112">Count of **ADRENTRY** structures to be included in the new **ADRLIST** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="b81c0-113">См. также</span><span class="sxs-lookup"><span data-stu-id="b81c0-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c0ae1-113">См. также</span><span class="sxs-lookup"><span data-stu-id="c0ae1-113">See also</span></span>
 
 
 
-[<span data-ttu-id="b81c0-114">ADRLIST</span><span class="sxs-lookup"><span data-stu-id="b81c0-114">ADRLIST</span></span>](adrlist.md)
+[<span data-ttu-id="c0ae1-114">ADRLIST</span><span class="sxs-lookup"><span data-stu-id="c0ae1-114">ADRLIST</span></span>](adrlist.md)
   
-[<span data-ttu-id="b81c0-115">ADRENTRY</span><span class="sxs-lookup"><span data-stu-id="b81c0-115">ADRENTRY</span></span>](adrentry.md)
+[<span data-ttu-id="c0ae1-115">ADRENTRY</span><span class="sxs-lookup"><span data-stu-id="c0ae1-115">ADRENTRY</span></span>](adrentry.md)
 
 
-[<span data-ttu-id="b81c0-116">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="b81c0-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="c0ae1-116">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="c0ae1-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

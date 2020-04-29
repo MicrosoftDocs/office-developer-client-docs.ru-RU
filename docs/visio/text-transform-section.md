@@ -16,12 +16,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404164"
 ---
-# <a name="text-transform-section"></a><span data-ttu-id="57ecb-103">Text Transform Section</span><span class="sxs-lookup"><span data-stu-id="57ecb-103">Text Transform Section</span></span>
+# <a name="text-transform-section"></a><span data-ttu-id="bc9d9-103">Text Transform Section</span><span class="sxs-lookup"><span data-stu-id="bc9d9-103">Text Transform Section</span></span>
 
-<span data-ttu-id="57ecb-104">Содержит сведения о размещении блока текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="57ecb-104">Contains positioning information about a shape's text block.</span></span>
+<span data-ttu-id="bc9d9-104">Содержит сведения о размещении блока текста фигуры.</span><span class="sxs-lookup"><span data-stu-id="bc9d9-104">Contains positioning information about a shape's text block.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="57ecb-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="57ecb-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bc9d9-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="bc9d9-105">Remarks</span></span>
 
-<span data-ttu-id="57ecb-106">Чтобы добавить этот раздел, используйте диалоговое окно " **Вставка раздела** " (щелкните правой кнопкой мыши в окне таблицы свойств фигур и выберите команду " **Вставить раздел**").</span><span class="sxs-lookup"><span data-stu-id="57ecb-106">To add this section, use the **Insert Section** dialog box (right-click in the ShapeSheet window and click **Insert Section**).</span></span> <span data-ttu-id="57ecb-107">Значения параметра в разделе **Преобразование текста** сравнимы для работы с блоком текста с помощью инструмента " **текстовый блок** " (Группа " **инструменты** " на вкладке " **Главная** ").</span><span class="sxs-lookup"><span data-stu-id="57ecb-107">Setting values in the **Text Transform** section is comparable to working with the text block by using the **Text Block** tool (the **Tools** group on the **Home** tab).</span></span> 
+<span data-ttu-id="bc9d9-106">Чтобы добавить этот раздел, используйте диалоговое окно " **Вставка раздела** " (щелкните правой кнопкой мыши в окне таблицы свойств фигур и выберите команду " **Вставить раздел**").</span><span class="sxs-lookup"><span data-stu-id="bc9d9-106">To add this section, use the **Insert Section** dialog box (right-click in the ShapeSheet window and click **Insert Section**).</span></span> <span data-ttu-id="bc9d9-107">Значения параметра в разделе **Преобразование текста** сравнимы для работы с блоком текста с помощью инструмента " **текстовый блок** " (Группа " **инструменты** " на вкладке " **Главная** ").</span><span class="sxs-lookup"><span data-stu-id="bc9d9-107">Setting values in the **Text Transform** section is comparable to working with the text block by using the **Text Block** tool (the **Tools** group on the **Home** tab).</span></span> 
   
 
