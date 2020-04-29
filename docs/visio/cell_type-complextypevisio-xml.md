@@ -1,5 +1,5 @@
 ---
-title: Целл_типе complexType (XML для Visio)
+title: Cell_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542305"
 ---
-# <a name="celltype-complextype-visio-xml"></a>Целл_типе complexType (XML для Visio)
+# <a name="cell_type-complextype-visio-xml"></a>Cell_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -64,7 +64,7 @@ ms.locfileid: "34542305"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> ||
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

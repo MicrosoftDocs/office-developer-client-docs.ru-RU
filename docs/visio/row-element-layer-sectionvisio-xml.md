@@ -22,7 +22,7 @@ ms.locfileid: "34540865"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Лайерров_типе](layerrow_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[LayerRow_Type](layerrow_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |файлы хозяев. XML, Pages. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34540865"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие один слой и его свойства для страницы.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие один слой и его свойства для страницы.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-layer-sectionvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство для слоя или его свойств для страницы.  <br/> |
+|[Cell](cell-element-layer-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство для слоя или его свойств для страницы.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

@@ -1,5 +1,5 @@
 ---
-title: Элемент text (Шапешит_типе complexType) (XML для Visio)
+title: Элемент text (ShapeSheet_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541927"
 ---
-# <a name="text-element-shapesheettype-complextype-visio-xml"></a>Элемент text (Шапешит_типе complexType) (XML для Visio)
+# <a name="text-element-shapesheet_type-complextype-visio-xml"></a>Элемент text (ShapeSheet_Type complexType) (XML для Visio)
 
 Содержит текст фигуры.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541927"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Текст_типе](text_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
@@ -42,16 +42,16 @@ ms.locfileid: "34541927"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Шапешит_типе](shapesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие фигуру в **главной**, **странице**или элементе фигуры группы.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие фигуру в **главной**, **странице**или элементе фигуры группы.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[CP](cp-element-text_type-complextypevisio-xml.md) <br/> |[Кп_типе](cp_type-complextypevisio-xml.md) <br/> |Помечает начало свойства знака, которое отформатировано в соответствии с соответствующим элементом char.  <br/> |
-|[FLD](fld-element-text_type-complextypevisio-xml.md) <br/> |[Флд_типе](fld_type-complextypevisio-xml.md) <br/> |Указывает точку вставки текстового поля для соответствующего элемента Field.  <br/> |
-|[PP](pp-element-text_type-complextypevisio-xml.md) <br/> |[Пп_типе](pp_type-complextypevisio-xml.md) <br/> |Задает начало работы со свойствами абзаца.  <br/> |
-|[Пи](tp-element-text_type-complextypevisio-xml.md) <br/> |[Тп_типе](tp_type-complextypevisio-xml.md) <br/> |Задает начало работы со свойствами вкладок.  <br/> |
+|[CP](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |Помечает начало свойства знака, которое отформатировано в соответствии с соответствующим элементом char.  <br/> |
+|[FLD](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |Указывает точку вставки текстового поля для соответствующего элемента Field.  <br/> |
+|[PP](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> |Задает начало работы со свойствами абзаца.  <br/> |
+|[Пи](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |Задает начало работы со свойствами вкладок.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

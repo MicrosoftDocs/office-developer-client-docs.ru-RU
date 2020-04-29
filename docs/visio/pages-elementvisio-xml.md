@@ -22,7 +22,7 @@ ms.locfileid: "34538979"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Пажес_типе](pages_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Pages. XML  <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "34538979"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Паже_типе](page_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие страницу в документе.  <br/> |
+|[Page](page-element-pages_type-complextypevisio-xml.md) <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие страницу в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

@@ -22,7 +22,7 @@ ms.locfileid: "34540058"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34540058"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Элемент Row (раздел "поле")](row-element-field-sectionvisio-xml.md) <br/> |[Фиелдров_типе](fieldrow_type-complextypevisio-xml.md) <br/> |Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна "поле".  <br/> |
+|[Элемент Row (раздел "поле")](row-element-field-sectionvisio-xml.md) <br/> |[FieldRow_Type](fieldrow_type-complextypevisio-xml.md) <br/> |Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна "поле".  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -70,9 +70,9 @@ ms.locfileid: "34540058"
 |Format  <br/> |Задает форматирование текстового поля, которое является строкой, числом, датой или временем, длительностью или валютой.  <br/> |[Format Cell (Text Fields Section)](format-cell-text-fields-section.md) <br/> |
 |ObjectKind  <br/> |Указывает тип текстового поля.  <br/> |[ObjectKind Cell (Text Fields Section)](objectkind-cell-text-fields-section.md) <br/> |
 |Тип  <br/> |Задает тип данных для значения текстового поля.  <br/> |[Type Cell (Text Fields Section)](type-cell-text-fields-section.md) <br/> |
-|Уикат  <br/> |Определяет категорию вставленного поля. Эта ячейка используется в диалоговых окнах "поле" и "формат данных" для определения сведений о полях и категориях.  <br/> |[UICategory Cell (Text Fields Section)](uicategory-cell-text-fields-section.md) <br/> |
-|Уикод  <br/> |Определяет код вставленного поля. Эта ячейка используется в диалоговых окнах "поле" и "формат данных" для определения сведений о полях и категориях.  <br/> |[UICode Cell (Text Fields Section)](uicode-cell-text-fields-section.md) <br/> |
-|Уифмт  <br/> |Определяет формат вставленного поля. Эта ячейка используется в диалоговых окнах "поле" и "формат данных" для определения поля и  <br/> |[UIFormat Cell (Text Fields Section)](uiformat-cell-text-fields-section.md) <br/> |
+|уикат  <br/> |Определяет категорию вставленного поля. Эта ячейка используется в диалоговых окнах "поле" и "формат данных" для определения сведений о полях и категориях.  <br/> |[UICategory Cell (Text Fields Section)](uicategory-cell-text-fields-section.md) <br/> |
+|уикод  <br/> |Определяет код вставленного поля. Эта ячейка используется в диалоговых окнах "поле" и "формат данных" для определения сведений о полях и категориях.  <br/> |[UICode Cell (Text Fields Section)](uicode-cell-text-fields-section.md) <br/> |
+|уифмт  <br/> |Определяет формат вставленного поля. Эта ячейка используется в диалоговых окнах "поле" и "формат данных" для определения поля и  <br/> |[UIFormat Cell (Text Fields Section)](uiformat-cell-text-fields-section.md) <br/> |
 |Значение  <br/> |Содержит функцию для поля.  <br/> |[Value Cell (Text Fields Section)](value-cell-text-fields-section.md) <br/> |
    
 

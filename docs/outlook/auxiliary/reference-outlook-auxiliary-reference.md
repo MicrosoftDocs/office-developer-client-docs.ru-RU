@@ -18,9 +18,9 @@ ms.locfileid: "33437695"
 
 В этом разделе приведены справочные материалы по следующим API в вспомогательном справочнике по Outlook 2013.
 
-- [Account management API reference](account-management-api-reference.md)
+- [Справочник по API управления учетными записями](account-management-api-reference.md)
     
-- [Data degradation layer API reference](data-degradation-layer-api-reference.md)
+- [Справочник по API уровня ухудшения данных](data-degradation-layer-api-reference.md)
     
 - [Справочник по доступности API](free-busy-api-reference.md)
     

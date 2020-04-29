@@ -22,7 +22,7 @@ ms.locfileid: "34538804"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34538804"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Элемент Row (раздел Актионтаг)](row-element-action-tag-sectionvisio-xml.md) <br/> |[Актионтагров_типе](actiontag_type-complextypevisio-xml.md) <br/> |Определяет тег действия на фигуре или странице.  <br/> |
+|[Элемент Row (раздел Актионтаг)](row-element-action-tag-sectionvisio-xml.md) <br/> |[ActionTagRow_Type](actiontag_type-complextypevisio-xml.md) <br/> |Определяет тег действия на фигуре или странице.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -68,12 +68,12 @@ ms.locfileid: "34538804"
 |:-----|:-----|:-----|
 |ButtonFace  <br/> |Содержит идентификатор изображения кнопки, которое отображается на кнопке тега действия.  <br/> |[ButtonFace Cell (Action Tags Section)](buttonface-cell-action-tags-section.md) <br/> |
 |Описание  <br/> |Содержит строку, описывающую тег действия, который отображается как всплывающая подсказка, когда пользователь наводит указатель мыши на тег.  <br/> |[Description Cell (Action Tags Section)](description-cell-action-tags-section.md) <br/> |
-|Отключена  <br/> |Указывает, отображается ли тег действия в окне документа.  <br/> |[Disabled Cell (Action Tags Section)](disabled-cell-action-tags-section.md) <br/> |
+|Отключено  <br/> |Указывает, отображается ли тег действия в окне документа.  <br/> |[Disabled Cell (Action Tags Section)](disabled-cell-action-tags-section.md) <br/> |
 |DisplayMode  <br/> |Определяет, отображается ли тег action, когда пользователь наводит указатель мыши на тег, когда фигура выделена или все время.  <br/> |[DisplayMode Cell (Action Tags Section)](displaymode-cell-action-tags-section.md) <br/> |
 |TagName  <br/> |Имя тега действия, используемого в качестве ключа для сопоставления тега действия с его действиями.  <br/> |[TagName Cell (Action Tags Section)](tagname-cell-action-tags-section.md) <br/> |
 |X  <br/> |Положение координаты x в локальных координатах фигуры, вокруг которого размещается кнопка тега действия.  <br/> |[X Cell (Action Tags Section)](x-cell-action-tags-section.md) <br/> |
-|Ксжустифи  <br/> |Смещение по оси x для кнопки тега действия относительно точки, заданной ячейками X и Y.  <br/> |[X Justify Cell (Action Tags Section)](x-justify-cell-action-tags-section.md) <br/> |
+|ксжустифи  <br/> |Смещение по оси x для кнопки тега действия относительно точки, заданной ячейками X и Y.  <br/> |[X Justify Cell (Action Tags Section)](x-justify-cell-action-tags-section.md) <br/> |
 |Да  <br/> |Координата y в локальных координатах фигуры, вокруг которой размещается кнопка тега действия.  <br/> |[Y Cell (Action Tags Section)](y-cell-action-tags-section.md) <br/> |
-|Ижустифи  <br/> |Смещение по оси y для кнопки тега действия относительно точки, заданной ячейками X и Y.  <br/> |[Y Justify Cell (Action Tags Section)](y-justify-cell-action-tags-section.md) <br/> |
+|ижустифи  <br/> |Смещение по оси y для кнопки тега действия относительно точки, заданной ячейками X и Y.  <br/> |[Y Justify Cell (Action Tags Section)](y-justify-cell-action-tags-section.md) <br/> |
    
 

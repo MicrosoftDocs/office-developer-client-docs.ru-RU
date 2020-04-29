@@ -1,5 +1,5 @@
 ---
-title: Элемент Master (Мастерс_типе complexType) (XML для Visio)
+title: Элемент Master (Masters_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538048"
 ---
-# <a name="master-element-masterstype-complextype-visio-xml"></a>Элемент Master (Мастерс_типе complexType) (XML для Visio)
+# <a name="master-element-masters_type-complextype-visio-xml"></a>Элемент Master (Masters_Type complexType) (XML для Visio)
 
 Содержит элементы, определяющие шаблон для документа.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34538048"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Мастер_типе](master_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Главные. XML  <br/> |
@@ -42,16 +42,16 @@ ms.locfileid: "34538048"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Masters](masters-elementvisio-xml.md) <br/> |[Мастерс_типе](masters_type-complextypevisio-xml.md) <br/> |Содержит элементы **master** для документа.  <br/> |
+|[Masters](masters-elementvisio-xml.md) <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |Содержит элементы **master** для документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Коннектс_типе](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе.  <br/> |
-|[Icon](icon-element-master_type-complextypevisio-xml.md) <br/> |[Икон_типе](icon_type-complextypevisio-xml.md) <br/> |Задает двоичный значок закодированного двоичного расширения MIME (в формате ICO) для **основного** элемента или элемента **MasterShortcut** в документе.  <br/> |
-|[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[Пажешит_типе](pagesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие лист страницы для элемента **Page** или **master** .  <br/> |
-|Формы  <br/> |Шапес_типе  <br/> |Содержит коллекцию элементов **Shape** .  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе.  <br/> |
+|[Icon](icon-element-master_type-complextypevisio-xml.md) <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |Задает двоичный значок закодированного двоичного расширения MIME (в формате ICO) для **основного** элемента или элемента **MasterShortcut** в документе.  <br/> |
+|[PageSheet](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие лист страницы для элемента **Page** или **master** .  <br/> |
+|Фигуры  <br/> |Shapes_Type  <br/> |Содержит коллекцию элементов **Shape** .  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -62,7 +62,7 @@ ms.locfileid: "34538048"
 |Hidden  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, скрыт ли образец в пользовательском интерфейсе.  <br/> |Значения типа XSD: Boolean.  <br/> |
 |IconSize  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> |Размер значка элемента.  <br/> |Значения для типа xsd:unsignedShort.  <br/> |
 |IconUpdate  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, создается ли значок автоматически на основе самого основного образца.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |MatchByName  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Определяет, как Microsoft Visio определяет, присутствует ли образец документа при удалении экземпляра шаблона на страницу документа.  <br/> |Значения типа XSD: Boolean.  <br/> |
 |Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> |Имя элемента.  <br/> |Значения типа String: XSD.  <br/> |
 |NameU  <br/> |XSD: строка  <br/> |необязательный  <br/> |Универсальное имя элемента.  <br/> |Значения типа String: XSD.  <br/> |

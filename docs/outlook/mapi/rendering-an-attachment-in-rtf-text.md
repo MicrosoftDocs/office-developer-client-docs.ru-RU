@@ -21,7 +21,7 @@ ms.locfileid: "33439795"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Клиенты, поддерживающие формат RTF, могут получать сведения о позициях отображения из текста сообщений в формате RTF, найдя следующую escape-последовательность в свойстве **пр_ртф_компрессед** сообщения ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)):
+Клиенты, поддерживающие формат RTF, могут получать сведения о позициях отображения из текста сообщений в формате RTF, найдя следующую escape-последовательность в свойстве **PR_RTF_COMPRESSED** сообщения ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)):
   
  `\objattph`
   
@@ -29,7 +29,7 @@ ms.locfileid: "33439795"
   
 1. Call **iMessage:: жетаттачменттабле** для доступа к таблице вложений сообщения. For more information, see [IMessage::GetAttachmentTable](imessage-getattachmenttable.md).
     
-2. Создайте ограничение свойства, которое ограничит таблицу строками, у которых значение параметра **пр_рендеринг_поситион** не равно – 1. Дополнительные сведения см. в статье **пр_рендеринг_поситион** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
+2. Создайте ограничение свойства, которое ограничит таблицу строками, для которых **PR_RENDERING_POSITION** не равно – 1. Дополнительные сведения см **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md)).
     
 3. Вызов **IMAPITable:: Ограничьте** для применения ограничения. Для получения дополнительных сведений обратитесь к разделу [IMAPITable:: restrict](imapitable-restrict.md).
     
@@ -37,8 +37,8 @@ ms.locfileid: "33439795"
     
 5. Call **IMAPITable:: QueryRows** для получения соответствующих строк. Дополнительные сведения см. в разделе [IMAPITable:: QueryRows](imapitable-queryrows.md).
     
-6. ВыЗовите метод **IMAPIProp:: опенпроперти** , чтобы получить **пр_ртф_компрессед** с интерфейсом **IStream** . Дополнительные сведения см. в статье [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) и **пр_ртф_компрессед**.
+6. Вызовите метод **IMAPIProp:: опенпроперти** , чтобы получить **PR_RTF_COMPRESSED** с помощью интерфейса **IStream** . Дополнительные сведения см. в статье [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) и **PR_RTF_COMPRESSED**.
     
-7. ПроСканируйте поток, выполняя поиск заполнителя отображения `\objattph`,. Символ после этого заполнителя — это место для следующего вложения в таблице сортировки.
+7. Просканируйте поток, выполняя поиск заполнителя отображения `\objattph`,. Символ после этого заполнителя — это место для следующего вложения в таблице сортировки.
     
 

@@ -1,5 +1,5 @@
 ---
-title: Рулесет_типе complexType (XML для Visio)
+title: RuleSet_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541626"
 ---
-# <a name="rulesettype-complextype-visio-xml"></a>Рулесет_типе complexType (XML для Visio)
+# <a name="ruleset_type-complextype-visio-xml"></a>RuleSet_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -71,8 +71,8 @@ ms.locfileid: "34541626"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Руле_типе](rule_type-complextypevisio-xml.md) <br/> ||
-|[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[Рулесетфлагс_типе](rulesetflags_type-complextypevisio-xml.md) <br/> ||
+|[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> ||
+|[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -80,7 +80,7 @@ ms.locfileid: "34541626"
 |:-----|:-----|:-----|:-----|:-----|
 |Описание  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
 |Включен  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
 |NameU  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
    

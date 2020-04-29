@@ -1,5 +1,5 @@
 ---
-title: Элемент Shapes (Шапешит_типе complexType) (XML для Visio)
+title: Элемент Shapes (ShapeSheet_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542102"
 ---
-# <a name="shapes-element-shapesheettype-complextype-visio-xml"></a>Элемент Shapes (Шапешит_типе complexType) (XML для Visio)
+# <a name="shapes-element-shapesheet_type-complextype-visio-xml"></a>Элемент Shapes (ShapeSheet_Type complexType) (XML для Visio)
 
 Содержит коллекцию элементов Shape.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34542102"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Шапес_типе](shapes_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34542102"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Шапешит_типе](shapesheet_type-complextypevisio-xml.md) <br/> |Задает коллекцию свойств, связанных с фигурой.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Задает коллекцию свойств, связанных с фигурой.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Шапешит_типе](shapesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие фигуру в **главной**, **странице**или элементе фигуры группы.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие фигуру в **главной**, **странице**или элементе фигуры группы.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

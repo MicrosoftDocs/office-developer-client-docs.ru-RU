@@ -1,5 +1,5 @@
 ---
-title: Солутионс_типе complexType (XML для Visio)
+title: Solutions_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540233"
 ---
-# <a name="solutionstype-complextype-visio-xml"></a>Солутионс_типе complexType (XML для Visio)
+# <a name="solutions_type-complextype-visio-xml"></a>Solutions_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "34540233"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Решение](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Солутион_типе](solution_type-complextypevisio-xml.md) <br/> ||
+|[Решение](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

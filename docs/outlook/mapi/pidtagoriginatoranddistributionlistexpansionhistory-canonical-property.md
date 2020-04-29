@@ -29,7 +29,7 @@ ms.locfileid: "33437128"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРИГИНАТОР_АНД_ДЛ_ЕКСПАНСИОН_ХИСТОРИ  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINATOR_AND_DL_EXPANSION_HISTORY  <br/> |
 |Идентификатор:  <br/> |0x1002  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |MIME  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33437128"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -22,7 +22,7 @@ ms.locfileid: "34539553"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34539553"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Элемент Row (раздел Филлградиент)](row-element-fill-gradient-sectionvisio-xml.md) <br/> |[Филлградиентров_типе](fillgradientrow_type-complextypevisio-xml.md) <br/> |Содержит цвет, прозрачность и положение остановки градиента для градиента заливки.  <br/> |
+|[Элемент Row (раздел Филлградиент)](row-element-fill-gradient-sectionvisio-xml.md) <br/> |[FillGradientRow_Type](fillgradientrow_type-complextypevisio-xml.md) <br/> |Содержит цвет, прозрачность и положение остановки градиента для градиента заливки.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -66,8 +66,8 @@ ms.locfileid: "34539553"
   
 |**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
-|Градиентстопколор  <br/> |Значение цвета остановки градиента. Это значение может быть выражено в виде номера индекса цвета в палитре документа или с помощью функций **RGB**, **THEMEVAL**или **HSL** .  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
-|Градиентстопколортранс  <br/> |Степень прозрачности точки цвета градиента в процентах.  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
-|Градиентстоппоситион  <br/> |Положение точки градиента вдоль направления линии градиента в процентах от точки начала градиента до внешнего края градиента.  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
+|градиентстопколор  <br/> |Значение цвета остановки градиента. Это значение может быть выражено в виде номера индекса цвета в палитре документа или с помощью функций **RGB**, **THEMEVAL**или **HSL** .  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
+|градиентстопколортранс  <br/> |Степень прозрачности точки цвета градиента в процентах.  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
+|градиентстоппоситион  <br/> |Положение точки градиента вдоль направления линии градиента в процентах от точки начала градиента до внешнего края градиента.  <br/> |[Gradient Stop Row (Fill Gradient Section)](gradient-stop-row-fill-gradient-section.md) <br/> |
    
 

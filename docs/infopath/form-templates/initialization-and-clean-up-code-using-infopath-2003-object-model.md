@@ -81,7 +81,7 @@ Namespace Template1
 End Namespace
 ```
 
-## <a name="the-startup-method"></a>Метод _Startup
+## <a name="the-_startup-method"></a>Метод _Startup
 
 Помимо предоставления области для написания кода инициализации дополнительных компонентов, метод  `_Startup` инициализирует переменные  `thisXDocument` и  `thisApplication`, которые можно использовать в коде формы для доступа к элементам классов [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) и [Application](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) в объектной модели InfoPath. Код, необходимый для инициализации этих двух переменных, автоматически создается шаблоном проекта. 
   
@@ -128,7 +128,7 @@ End Sub
 
 Сведения о том, как создать обработчик событий, можно найти в статье [Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
   
-## <a name="the-shutdown-method"></a>Метод _ShutDown
+## <a name="the-_shutdown-method"></a>Метод _ShutDown
 
 Метод  `_Shutdown` является последним методом, вызываемым при закрытии формы. В этом методе можно написать любой код, необходимый для очистки и завершения компонентов, используемых в форме. 
   

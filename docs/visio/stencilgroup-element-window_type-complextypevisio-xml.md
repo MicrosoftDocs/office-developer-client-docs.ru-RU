@@ -1,5 +1,5 @@
 ---
-title: Элемент СтенЦилграуп (Виндов_типе complexType) (XML для Visio)
+title: Элемент СтенЦилграуп (Window_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542004"
 ---
-# <a name="stencilgroup-element-windowtype-complextype-visio-xml"></a>Элемент СтенЦилграуп (Виндов_типе complexType) (XML для Visio)
+# <a name="stencilgroup-element-window_type-complextype-visio-xml"></a>Элемент СтенЦилграуп (Window_Type complexType) (XML для Visio)
 
 Задает группу Объединенных окон набора элементов, членом которой является окно.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34542004"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[СтенЦилграуп_типе](stencilgroup_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Windows. XML  <br/> |

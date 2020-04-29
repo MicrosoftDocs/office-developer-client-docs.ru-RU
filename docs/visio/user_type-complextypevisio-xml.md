@@ -1,5 +1,5 @@
 ---
-title: Усер_типе complexType (XML для Visio)
+title: User_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538573"
 ---
-# <a name="usertype-complextype-visio-xml"></a>Усер_типе complexType (XML для Visio)
+# <a name="user_type-complextype-visio-xml"></a>User_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -21,7 +21,7 @@ ms.locfileid: "34538573"
 |:-----|:-----|
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Базовый элемент расширения** <br/> |Сектион_типе  <br/> |
+|**Базовый элемент расширения** <br/> |Section_Type  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -50,7 +50,7 @@ ms.locfileid: "34538573"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Row](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[Усерров_типе](userrow_type-complextypevisio-xml.md) <br/> ||
+|[Row](row-element-user-defined-cells-sectionvisio-xml.md) <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

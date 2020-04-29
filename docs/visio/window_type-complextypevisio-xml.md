@@ -1,5 +1,5 @@
 ---
-title: Виндов_типе complexType (XML для Visio)
+title: Window_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538454"
 ---
-# <a name="windowtype-complextype-visio-xml"></a>Виндов_типе complexType (XML для Visio)
+# <a name="window_type-complextype-visio-xml"></a>Window_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -176,19 +176,19 @@ ms.locfileid: "34538454"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DynamicGridEnabled](dynamicgridenabled-element-window_type-complextypevisio-xml.md) <br/> |[Динамикгриденаблед_типе](dynamicgridenabled_type-complextypevisio-xml.md) <br/> ||
-|[GlueSettings](gluesettings-element-window_type-complextypevisio-xml.md) <br/> |[Глуесеттингс_типе](gluesettings_type-complextypevisio-xml.md) <br/> ||
-|[Шовконнектионпоинтс](showconnectionpoints-element-window_type-complextypevisio-xml.md) <br/> |[Шовконнектионпоинтс_типе](showconnectionpoints_type-complextypevisio-xml.md) <br/> ||
-|[ShowGrid](showgrid-element-window_type-complextypevisio-xml.md) <br/> |[Шовгрид_типе](showgrid_type-complextypevisio-xml.md) <br/> ||
-|[ShowGuides](showguides-element-window_type-complextypevisio-xml.md) <br/> |[Шовгуидес_типе](showguides_type-complextypevisio-xml.md) <br/> ||
-|[ShowPageBreaks](showpagebreaks-element-window_type-complextypevisio-xml.md) <br/> |[Шовпажебреакс_типе](showpagebreaks_type-complextypevisio-xml.md) <br/> ||
-|[ShowRulers](showrulers-element-window_type-complextypevisio-xml.md) <br/> |[Шоврулерс_типе](showrulers_type-complextypevisio-xml.md) <br/> ||
-|[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[Снапанглес_типе](snapangles_type-complextypevisio-xml.md) <br/> ||
-|[SnapExtensions](snapextensions-element-window_type-complextypevisio-xml.md) <br/> |[Снапекстенсионс_типе](snapextensions_type-complextypevisio-xml.md) <br/> ||
-|[SnapSettings](snapsettings-element-window_type-complextypevisio-xml.md) <br/> |[Снапсеттингс_типе](snapsettings_type-complextypevisio-xml.md) <br/> ||
-|[СтенЦилграуп](stencilgroup-element-window_type-complextypevisio-xml.md) <br/> |[СтенЦилграуп_типе](stencilgroup_type-complextypevisio-xml.md) <br/> ||
-|[СтенЦилграуппос](stencilgrouppos-element-window_type-complextypevisio-xml.md) <br/> |[СтенЦилграуппос_типе](stencilgrouppos_type-complextypevisio-xml.md) <br/> ||
-|[Табсплиттерпос](tabsplitterpos-element-window_type-complextypevisio-xml.md) <br/> |[Табсплиттерпос_типе](tabsplitterpos_type-complextypevisio-xml.md) <br/> ||
+|[DynamicGridEnabled](dynamicgridenabled-element-window_type-complextypevisio-xml.md) <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> ||
+|[GlueSettings](gluesettings-element-window_type-complextypevisio-xml.md) <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> ||
+|[шовконнектионпоинтс](showconnectionpoints-element-window_type-complextypevisio-xml.md) <br/> |[ShowConnectionPoints_Type](showconnectionpoints_type-complextypevisio-xml.md) <br/> ||
+|[ShowGrid](showgrid-element-window_type-complextypevisio-xml.md) <br/> |[ShowGrid_Type](showgrid_type-complextypevisio-xml.md) <br/> ||
+|[ShowGuides](showguides-element-window_type-complextypevisio-xml.md) <br/> |[ShowGuides_Type](showguides_type-complextypevisio-xml.md) <br/> ||
+|[ShowPageBreaks](showpagebreaks-element-window_type-complextypevisio-xml.md) <br/> |[ShowPageBreaks_Type](showpagebreaks_type-complextypevisio-xml.md) <br/> ||
+|[ShowRulers](showrulers-element-window_type-complextypevisio-xml.md) <br/> |[ShowRulers_Type](showrulers_type-complextypevisio-xml.md) <br/> ||
+|[SnapAngles](snapangles-element-window_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> ||
+|[SnapExtensions](snapextensions-element-window_type-complextypevisio-xml.md) <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> ||
+|[SnapSettings](snapsettings-element-window_type-complextypevisio-xml.md) <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> ||
+|[стенЦилграуп](stencilgroup-element-window_type-complextypevisio-xml.md) <br/> |[StencilGroup_Type](stencilgroup_type-complextypevisio-xml.md) <br/> ||
+|[стенЦилграуппос](stencilgrouppos-element-window_type-complextypevisio-xml.md) <br/> |[StencilGroupPos_Type](stencilgrouppos_type-complextypevisio-xml.md) <br/> ||
+|[табсплиттерпос](tabsplitterpos-element-window_type-complextypevisio-xml.md) <br/> |[TabSplitterPos_Type](tabsplitterpos_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -197,20 +197,20 @@ ms.locfileid: "34538454"
 |Container  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |ContainerType  <br/> |XSD: маркер  <br/> |необязательный  <br/> ||Значения типа маркера XSD:.  <br/> |
 |Document  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |Master  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |Page  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |ParentWindow  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |ReadOnly  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
 |Таблица  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
-|Виевцентеркс  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
-|Виевцентери  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
-|Виевскале  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
+|виевцентеркс  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
+|виевцентери  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
+|виевскале  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
 |WindowHeight  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |WindowLeft  <br/> |XSD: Short  <br/> |необязательный  <br/> ||Значения типа XSD: Short.  <br/> |
 |WindowState  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |WindowTop  <br/> |XSD: Short  <br/> |необязательный  <br/> ||Значения типа XSD: Short.  <br/> |
-|Виндовтипе  <br/> |XSD: маркер  <br/> |Обязательный  <br/> ||Значения типа маркера XSD:.  <br/> |
+|виндовтипе  <br/> |XSD: маркер  <br/> |Обязательный  <br/> ||Значения типа маркера XSD:.  <br/> |
 |WindowWidth  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

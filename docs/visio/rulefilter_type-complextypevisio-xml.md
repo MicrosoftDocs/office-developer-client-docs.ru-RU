@@ -1,5 +1,5 @@
 ---
-title: Рулефилтер_типе complexType (XML для Visio)
+title: RuleFilter_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541661"
 ---
-# <a name="rulefiltertype-complextype-visio-xml"></a>Рулефилтер_типе complexType (XML для Visio)
+# <a name="rulefilter_type-complextype-visio-xml"></a>RuleFilter_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 

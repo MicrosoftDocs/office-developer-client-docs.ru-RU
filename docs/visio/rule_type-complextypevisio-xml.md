@@ -1,5 +1,5 @@
 ---
-title: Руле_типе complexType (XML для Visio)
+title: Rule_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541717"
 ---
-# <a name="ruletype-complextype-visio-xml"></a>Руле_типе complexType (XML для Visio)
+# <a name="rule_type-complextype-visio-xml"></a>Rule_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -74,8 +74,8 @@ ms.locfileid: "34541717"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Рулефилтер](rulefilter-element-rule_type-complextypevisio-xml.md) <br/> |[Рулефилтер_типе](rulefilter_type-complextypevisio-xml.md) <br/> ||
-|[Правила](ruletest-element-rule_type-complextypevisio-xml.md) <br/> |[Рулетест_типе](ruletest_type-complextypevisio-xml.md) <br/> ||
+|[рулефилтер](rulefilter-element-rule_type-complextypevisio-xml.md) <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> ||
+|[Правила](ruletest-element-rule_type-complextypevisio-xml.md) <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -83,9 +83,9 @@ ms.locfileid: "34541717"
 |:-----|:-----|:-----|:-----|:-----|
 |Категория  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
 |Описание  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |Игнорирован  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
 |NameU  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|Рулетаржет  <br/> |XSD: int  <br/> |необязательный  <br/> ||Значения типа XSD: int.  <br/> |
+|рулетаржет  <br/> |XSD: int  <br/> |необязательный  <br/> ||Значения типа XSD: int.  <br/> |
    
 

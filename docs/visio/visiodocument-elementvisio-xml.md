@@ -22,7 +22,7 @@ ms.locfileid: "34538489"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Висиодокумент_типе](visiodocument_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
@@ -46,14 +46,14 @@ ms.locfileid: "34538489"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Colors](colors-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Колорс_типе](colors_type-complextypevisio-xml.md) <br/> |Содержит таблицу цветов документа.  <br/> |
-|[Документсеттингс](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Документсеттингс_типе](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
-|[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Документшит_типе](documentsheet_type-complextypevisio-xml.md) <br/> |Указывает структуру **таблицы свойств фигуры** .  <br/> |
-|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Евентлист_типе](eventlist_type-complextypevisio-xml.md) <br/> |Содержит элемент **евентитем** для каждого события, на которое должен отвечать объект.  <br/> |
-|[Фаценамес](facenames-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Фаценамес_типе](facenames_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **фаценаме** .  <br/> |
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Хеадерфутер_типе](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для верхнего и нижнего колонтитулов документа.  <br/> |
-|[Публишсеттингс](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Публишсеттингс_типе](publishsettings_type-complextypevisio-xml.md) <br/> |Задает набор доступных для обновления и набора наборов записей, доступных для обновления в документе.  <br/> |
-|[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Стилешитс_типе](stylesheets_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов StyleSheet для документа.  <br/> |
+|[Colors](colors-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Colors_Type](colors_type-complextypevisio-xml.md) <br/> |Содержит таблицу цветов документа.  <br/> |
+|[документсеттингс](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
+|[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |Указывает структуру **таблицы свойств фигуры** .  <br/> |
+|[EventList](eventlist-element-visiodocument_type-complextypevisio-xml.md) <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |Содержит элемент **евентитем** для каждого события, на которое должен отвечать объект.  <br/> |
+|[фаценамес](facenames-element-visiodocument_type-complextypevisio-xml.md) <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **фаценаме** .  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для верхнего и нижнего колонтитулов документа.  <br/> |
+|[публишсеттингс](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Задает набор доступных для обновления и набора наборов записей, доступных для обновления в документе.  <br/> |
+|[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов StyleSheet для документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

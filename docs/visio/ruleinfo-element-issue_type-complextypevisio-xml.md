@@ -1,5 +1,5 @@
 ---
-title: Элемент Рулеинфо (Иссуе_типе complexType) (XML для Visio)
+title: Элемент Рулеинфо (Issue_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541689"
 ---
-# <a name="ruleinfo-element-issuetype-complextype-visio-xml"></a>Элемент Рулеинфо (Иссуе_типе complexType) (XML для Visio)
+# <a name="ruleinfo-element-issue_type-complextype-visio-xml"></a>Элемент Рулеинфо (Issue_Type complexType) (XML для Visio)
 
 Задает сведения о правиле проверки, к которым относится ошибка родительской проверки.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541689"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Рулеинфо_типе](ruleinfo_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Проверка. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34541689"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Проблема](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Иссуе_типе](issue_type-complextypevisio-xml.md) <br/> |Представляет одну ошибку проверки в документе.  <br/> |
+|[Проблема](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Представляет одну ошибку проверки в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,6 +53,6 @@ ms.locfileid: "34541689"
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |RuleID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор правила проверки, к которому относится родительская ошибка.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Рулесетид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор набора правил проверки, к которому относится родительская ошибка.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|рулесетид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор набора правил проверки, к которому относится родительская ошибка.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

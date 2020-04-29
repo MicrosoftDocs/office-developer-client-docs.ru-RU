@@ -22,7 +22,7 @@ ms.locfileid: "34538174"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Усерров_типе](userrow_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[UserRow_Type](userrow_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34538174"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |Указанный пользователем набор данных, на который можно ссылаться по другим ячейкам и средствам надстроек.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Указанный пользователем набор данных, на который можно ссылаться по другим ячейкам и средствам надстроек.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-user-defined-cells-sectionvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |Одно свойство указанного пользователем набора данных, на которые можно ссылаться по другим ячейкам и средствам надстроек.  <br/> |
+|[Cell](cell-element-user-defined-cells-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Одно свойство указанного пользователем набора данных, на которые можно ссылаться по другим ячейкам и средствам надстроек.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

@@ -22,7 +22,7 @@ ms.locfileid: "34538783"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34538783"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Элемент Row (раздел "действия")](row-element-actions-sectionvisio-xml.md) <br/> |[Актионсров_типе](actionsrow_type-complextypevisio-xml.md) <br/> |Задает одно свойство действия, связанного с настраиваемой командой, в контекстном меню или меню тегов действий.  <br/> |
+|[Элемент Row (раздел "действия")](row-element-actions-sectionvisio-xml.md) <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |Задает одно свойство действия, связанного с настраиваемой командой, в контекстном меню или меню тегов действий.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -70,7 +70,7 @@ ms.locfileid: "34538783"
 |BeginGroup  <br/> |Указывает, вставляется ли разделитель в меню над этим действием.  <br/> |[BeginGroup Cell (Actions Section)](begingroup-cell-actions-section.md) <br/> |
 |ButtonFace  <br/> |Определяет значок, который появляется рядом с элементом в контекстном меню или меню тегов действий.  <br/> |[ButtonFace Cell (Actions Section)](buttonface-cell-actions-section.md) <br/> |
 |Checked  <br/> |Указывает, отмечен ли элемент в контекстном меню или меню тегов действий.  <br/> |[Checked Cell (Actions Section)](checked-cell-actions-section.md) <br/> |
-|Отключена  <br/> |Указывает, отключен ли элемент в контекстном меню или меню тегов действий.  <br/> |[Disabled Cell (Actions Section)](disabled-cell-actions-section.md) <br/> |
+|Отключено  <br/> |Указывает, отключен ли элемент в контекстном меню или меню тегов действий.  <br/> |[Disabled Cell (Actions Section)](disabled-cell-actions-section.md) <br/> |
 |FlyoutChild  <br/> |Определяет, является ли строка дочерним всплывающим меню последней строки над ним, которое не является потомком всплывающего списка.  <br/> |[FlyoutChild Cell (Actions Section)](flyoutchild-cell-actions-section.md) <br/> |
 |Скрытым  <br/> |Указывает, отображается ли действие в теге действия или в контекстном меню.  <br/> |[Invisible Cell (Actions Section)](invisible-cell-actions-section.md) <br/> |
 |Меню  <br/> |Определяет имя элемента меню, которое отображается в контекстном меню или меню тегов действий для фигуры или страницы.  <br/> |[Menu Cell (Actions Section)](menu-cell-actions-section.md) <br/> |

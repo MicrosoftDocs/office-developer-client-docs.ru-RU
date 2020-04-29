@@ -25,22 +25,22 @@ ms.locfileid: "33437422"
   
 1. Call [IMsgStore:: метод compareentryids](imsgstore-compareentryids.md) для сравнения папки, содержащей отправленные сообщения, с папкой, содержащей входящие сообщения. 
     
-2. Задайте для параметра _lpEntryID1_ значение **пр_ипм_сентмаил_ентрид** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) и параметр _lpEntryID2_ , чтобы указать на **пр_парент_ентрид** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
+2. Задайте для параметра _lpEntryID1_ значение, которое указывает на **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) и параметр _lpEntryID2_ , чтобы указать **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)).
     
 Имейте в виду, что при удалении сообщений или перемещении любого из отправленных сообщений в другую папку эта стратегия не будет работать. 
   
 Если при проверке входящего сообщения вы заметили, что свойства, обычно заданные поставщиком транспорта, отсутствуют, можно предположить, что сообщение никогда не было обработано поставщиком транспорта. Эти свойства приведены ниже.
   
-- Свойства **пр_рецеивед_би** 
+- Свойства **PR_RECEIVED_BY** 
     
-- **Пр_мессаже_довнлоад_тиме** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
+- **PR_MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))
     
-- **Пр_транспорт_мессаже_хеадерс** ([PidTagTransportMessageHeaders](pidtagtransportmessageheaders-canonical-property.md))
+- **PR_TRANSPORT_MESSAGE_HEADERS** ([PidTagTransportMessageHeaders](pidtagtransportmessageheaders-canonical-property.md))
     
-- **Пр_мессаже_то_ме** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))
+- **PR_MESSAGE_TO_ME** ([PidTagMessageToMe](pidtagmessagetome-canonical-property.md))
     
-- **Пр_мессаже_кк_ме** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))
+- **PR_MESSAGE_CC_ME** ([PidTagMessageCcMe](pidtagmessageccme-canonical-property.md))
     
-- **Пр_мессаже_реЦип_ме** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))
+- **PR_MESSAGE_RECIP_ME** ([PidTagMessageRecipientMe](pidtagmessagerecipientme-canonical-property.md))
     
 

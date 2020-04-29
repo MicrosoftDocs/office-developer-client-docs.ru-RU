@@ -1,5 +1,5 @@
 ---
-title: Элемент RuleSets (Валидатион_типе complexType) (XML для Visio)
+title: Элемент RuleSets (Validation_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541577"
 ---
-# <a name="rulesets-element-validationtype-complextype-visio-xml"></a>Элемент RuleSets (Валидатион_типе complexType) (XML для Visio)
+# <a name="rulesets-element-validation_type-complextype-visio-xml"></a>Элемент RuleSets (Validation_Type complexType) (XML для Visio)
 
 Включает элемент **RuleSet** для каждого набора правил проверки в документе. 
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541577"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Рулесетс_типе](rulesets_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Проверка. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34541577"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Validation](validation-elementvisio-xml.md) <br/> |[Валидатион_типе](validation_type-complextypevisio-xml.md) <br/> |Сохраняет сведения о проверке схемы для документа.  <br/> |
+|[Validation](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Сохраняет сведения о проверке схемы для документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[Рулесет_типе](ruleset_type-complextypevisio-xml.md) <br/> |Представляет один набор правил проверки схемы.  <br/> |
+|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Представляет один набор правил проверки схемы.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

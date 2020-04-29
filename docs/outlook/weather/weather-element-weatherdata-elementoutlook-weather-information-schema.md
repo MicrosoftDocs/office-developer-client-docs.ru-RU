@@ -23,7 +23,7 @@ ms.locfileid: "34541269"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Веасертипе](weathertype-complextype-outlook-weather-information-schema.md) <br/> |
+|**Тип элемента** <br/> |[веасертипе](weathertype-complextype-outlook-weather-information-schema.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Файл схемы** <br/> |жетвеасеринфо. xsd  <br/> |
    
@@ -49,8 +49,8 @@ ms.locfileid: "34541269"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[этой](current-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[Курренттипе](currenttype-complextype-outlook-weather-information-schema.md) <br/> |Задает текущие условия погоды.  <br/> |
-|[прогнозирует](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[Форекасттипе](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |Указывает будущие условия прогноза по крайней мере за три дня вперед, включая сегодняшние, завтра, завтра, после завтрашнего дня.  <br/> |
+|[этой](current-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[курренттипе](currenttype-complextype-outlook-weather-information-schema.md) <br/> |Задает текущие условия погоды.  <br/> |
+|[прогнозирует](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[форекасттипе](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |Указывает будущие условия прогноза по крайней мере за три дня вперед, включая сегодняшние, завтра, завтра, после завтрашнего дня.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

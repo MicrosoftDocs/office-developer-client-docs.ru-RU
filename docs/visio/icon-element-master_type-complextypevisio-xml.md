@@ -1,5 +1,5 @@
 ---
-title: Элемент Icon (Мастер_типе complexType) (XML для Visio)
+title: Элемент Icon (Master_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537747"
 ---
-# <a name="icon-element-mastertype-complextype-visio-xml"></a>Элемент Icon (Мастер_типе complexType) (XML для Visio)
+# <a name="icon-element-master_type-complextype-visio-xml"></a>Элемент Icon (Master_Type complexType) (XML для Visio)
 
 Задает двоичный значок закодированного двоичного расширения MIME (в формате ICO) для элемента шаблона в документе.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34537747"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Икон_типе](icon_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Главные. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34537747"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Мастер_типе](master_type-complextypevisio-xml.md) <br/> |Указывает образец в документе.  <br/> |
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Указывает образец в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

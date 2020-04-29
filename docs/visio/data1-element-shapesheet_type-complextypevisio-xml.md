@@ -1,5 +1,5 @@
 ---
-title: Элемент файл1 (Шапешит_типе complexType) (XML для Visio)
+title: Элемент файл1 (ShapeSheet_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542487"
 ---
-# <a name="data1-element-shapesheettype-complextype-visio-xml"></a>Элемент файл1 (Шапешит_типе complexType) (XML для Visio)
+# <a name="data1-element-shapesheet_type-complextype-visio-xml"></a>Элемент файл1 (ShapeSheet_Type complexType) (XML для Visio)
 
 Содержит произвольное строковое значение, которое используется для предоставления дополнительных сведений о фигуре.
   
@@ -42,7 +42,7 @@ ms.locfileid: "34542487"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Шапешит_типе](shapesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие фигуру в **главной**, **странице**или элементе фигуры группы.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие фигуру в **главной**, **странице**или элементе фигуры группы.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

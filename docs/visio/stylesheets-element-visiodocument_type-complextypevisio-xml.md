@@ -1,5 +1,5 @@
 ---
-title: Элемент StyleSheets (Висиодокумент_типе complexType) (XML для Visio)
+title: Элемент StyleSheets (VisioDocument_Type complexType) (XML в Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541990"
 ---
-# <a name="stylesheets-element-visiodocumenttype-complextype-visio-xml"></a>Элемент StyleSheets (Висиодокумент_типе complexType) (XML для Visio)
+# <a name="stylesheets-element-visiodocument_type-complextype-visio-xml"></a>Элемент StyleSheets (VisioDocument_Type complexType) (XML в Visio)
 
 Содержит коллекцию элементов StyleSheet для документа.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541990"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Стилешитс_типе](stylesheets_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
@@ -41,13 +41,13 @@ ms.locfileid: "34541990"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[Висиодокумент_типе](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
+|[висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Применение](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[Стилешит_типе](stylesheet_type-complextypevisio-xml.md) <br/> |Представляет стиль, определенный в документе.  <br/> |
+|[Применение](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> |Представляет стиль, определенный в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

@@ -1,5 +1,5 @@
 ---
-title: Рел_типе complexType (XML для Visio)
+title: Rel_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542746"
 ---
-# <a name="reltype-complextype-visio-xml"></a>Рел_типе complexType (XML для Visio)
+# <a name="rel_type-complextype-visio-xml"></a>Rel_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 

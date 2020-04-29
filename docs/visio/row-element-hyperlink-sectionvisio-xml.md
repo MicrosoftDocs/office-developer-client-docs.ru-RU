@@ -22,7 +22,7 @@ ms.locfileid: "34540884"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Хиперлинкров_типе](hyperlinkrow_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[HyperlinkRow_Type](hyperlinkrow_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34540884"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |Содержит элементы для создания нескольких переходов между фигурой или страницей документа и другой странице документа, файлом или веб-сайтом.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Содержит элементы для создания нескольких переходов между фигурой или страницей документа и другой странице документа, файлом или веб-сайтом.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-hyperlink-rowvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |Содержит сведения о одной гиперссылке, связанной с фигурой  <br/> |
+|[Cell](cell-element-hyperlink-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Содержит сведения о одной гиперссылке, связанной с фигурой  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

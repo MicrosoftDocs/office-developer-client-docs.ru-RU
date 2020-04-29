@@ -1,5 +1,5 @@
 ---
-title: Текст_типе complexType (XML для Visio)
+title: Text_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541381"
 ---
-# <a name="texttype-complextype-visio-xml"></a>Текст_типе complexType (XML для Visio)
+# <a name="text_type-complextype-visio-xml"></a>Text_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -66,10 +66,10 @@ ms.locfileid: "34541381"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[CP](cp-element-text_type-complextypevisio-xml.md) <br/> |[Кп_типе](cp_type-complextypevisio-xml.md) <br/> ||
-|[FLD](fld-element-text_type-complextypevisio-xml.md) <br/> |[Флд_типе](fld_type-complextypevisio-xml.md) <br/> ||
-|[PP](pp-element-text_type-complextypevisio-xml.md) <br/> |[Пп_типе](pp_type-complextypevisio-xml.md) <br/> ||
-|[Пи](tp-element-text_type-complextypevisio-xml.md) <br/> |[Тп_типе](tp_type-complextypevisio-xml.md) <br/> ||
+|[CP](cp-element-text_type-complextypevisio-xml.md) <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> ||
+|[FLD](fld-element-text_type-complextypevisio-xml.md) <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> ||
+|[PP](pp-element-text_type-complextypevisio-xml.md) <br/> |[pp_Type](pp_type-complextypevisio-xml.md) <br/> ||
+|[Пи](tp-element-text_type-complextypevisio-xml.md) <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

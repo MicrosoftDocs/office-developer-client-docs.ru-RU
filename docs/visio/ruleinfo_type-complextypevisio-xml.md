@@ -1,5 +1,5 @@
 ---
-title: Рулеинфо_типе complexType (XML для Visio)
+title: RuleInfo_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541647"
 ---
-# <a name="ruleinfotype-complextype-visio-xml"></a>Рулеинфо_типе complexType (XML для Visio)
+# <a name="ruleinfo_type-complextype-visio-xml"></a>RuleInfo_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -52,6 +52,6 @@ ms.locfileid: "34541647"
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |RuleID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
-|Рулесетид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|рулесетид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

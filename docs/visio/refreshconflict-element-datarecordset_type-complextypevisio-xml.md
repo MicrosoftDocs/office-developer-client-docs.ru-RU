@@ -1,5 +1,5 @@
 ---
-title: Элемент Рефрешконфликт (Датарекордсет_типе complexType) (XML для Visio)
+title: Элемент Рефрешконфликт (DataRecordSet_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542837"
 ---
-# <a name="refreshconflict-element-datarecordsettype-complextype-visio-xml"></a>Элемент Рефрешконфликт (Датарекордсет_типе complexType) (XML для Visio)
+# <a name="refreshconflict-element-datarecordset_type-complextype-visio-xml"></a>Элемент Рефрешконфликт (DataRecordSet_Type complexType) (XML для Visio)
 
 Указывает строку в наборе записей данных, связанную с фигурой, которая находится в конфликте после обновления набора записей данных.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34542837"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Рефрешконфликт_типе](refreshconflict_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Recordset. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34542837"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[Датарекордсет_типе](datarecordset_type-complextypevisio-xml.md) <br/> |Хранение, форматирование, обновление и предоставление данных, запрашиваемых из базы данных в Microsoft Visio.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Хранение, форматирование, обновление и предоставление данных, запрашиваемых из базы данных в Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -54,6 +54,6 @@ ms.locfileid: "34542837"
 |:-----|:-----|:-----|:-----|:-----|
 |PageID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор страницы, участвующей в конфликте.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |RowID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |После обновления данных идентификатор исходной строки в конфликте.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Шапеид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |ИДЕНТИФИКАТОР фигуры, участвующей в конфликте.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|шапеид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |ИДЕНТИФИКАТОР фигуры, участвующей в конфликте.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

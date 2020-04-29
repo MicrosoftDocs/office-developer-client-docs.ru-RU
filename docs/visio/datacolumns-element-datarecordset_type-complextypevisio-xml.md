@@ -1,5 +1,5 @@
 ---
-title: Элемент DataColumns (Датарекордсет_типе complexType) (XML для Visio)
+title: Элемент DataColumns (DataRecordSet_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541199"
 ---
-# <a name="datacolumns-element-datarecordsettype-complextype-visio-xml"></a>Элемент DataColumns (Датарекордсет_типе complexType) (XML для Visio)
+# <a name="datacolumns-element-datarecordset_type-complextype-visio-xml"></a>Элемент DataColumns (DataRecordSet_Type complexType) (XML для Visio)
 
 Содержит все элементы **DataColumn** в наборе данных данных. 
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541199"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Датаколумнс_типе](datacolumns_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Recordset. XML  <br/> |
@@ -42,19 +42,19 @@ ms.locfileid: "34541199"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[Датарекордсет_типе](datarecordset_type-complextypevisio-xml.md) <br/> |Хранение, форматирование, обновление и предоставление данных, запрашиваемых из базы данных в Microsoft Visio.  <br/> |
+|[DataRecordSet](datarecordset-element-datarecordsets_type-complextypevisio-xml.md) <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |Хранение, форматирование, обновление и предоставление данных, запрашиваемых из базы данных в Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[Датаколумн_типе](datacolumn_type-complextypevisio-xml.md) <br/> |Определяет, как столбец данных отображается в окне " **Внешние данные** " в пользовательском интерфейсе Visio, и определяет данные в столбце, определяя тип данных и форматирование.  <br/> |
+|[DataColumn](datacolumn-element-datacolumns_type-complextypevisio-xml.md) <br/> |[DataColumn_Type](datacolumn_type-complextypevisio-xml.md) <br/> |Определяет, как столбец данных отображается в окне " **Внешние данные** " в пользовательском интерфейсе Visio, и определяет данные в столбце, определяя тип данных и форматирование.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Сортаск  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Столбец, по которому необходимо отсортировать данные.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|сортаск  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Столбец, по которому необходимо отсортировать данные.  <br/> |Значения типа XSD: Boolean.  <br/> |
 |SortColumn  <br/> |XSD: строка  <br/> |необязательный  <br/> |Следует ли сортировать столбец **sortColumn** в порядке возрастания (1) или убыванию (0).  <br/> |Значения типа String: XSD.  <br/> |
    
 

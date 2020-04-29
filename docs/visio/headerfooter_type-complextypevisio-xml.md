@@ -1,5 +1,5 @@
 ---
-title: Хеадерфутер_типе complexType (XML для Visio)
+title: HeaderFooter_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541122"
 ---
-# <a name="headerfootertype-complextype-visio-xml"></a>Хеадерфутер_типе complexType (XML для Visio)
+# <a name="headerfooter_type-complextype-visio-xml"></a>HeaderFooter_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -99,15 +99,15 @@ ms.locfileid: "34541122"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[FooterCenter](footercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футерцентер_типе](footercenter_type-complextypevisio-xml.md) <br/> ||
-|[FooterLeft](footerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футерлефт_типе](footerleft_type-complextypevisio-xml.md) <br/> ||
-|[FooterMargin](footermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футермаргин_типе](footermargin_type-complextypevisio-xml.md) <br/> ||
-|[FooterRight](footerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футерригхт_типе](footerright_type-complextypevisio-xml.md) <br/> ||
-|[HeaderCenter](headercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерцентер_типе](headercenter_type-complextypevisio-xml.md) <br/> ||
-|[HeaderFooterFont](headerfooterfont-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерфутерфонт_типе](headerfooterfont_type-complextypevisio-xml.md) <br/> ||
-|[HeaderLeft](headerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерлефт_типе](headerleft_type-complextypevisio-xml.md) <br/> ||
-|[HeaderMargin](headermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадермаргин_типе](headermargin_type-complextypevisio-xml.md) <br/> ||
-|[HeaderRight](headerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерригхт_типе](headerright_type-complextypevisio-xml.md) <br/> ||
+|[FooterCenter](footercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterCenter_Type](footercenter_type-complextypevisio-xml.md) <br/> ||
+|[FooterLeft](footerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterLeft_Type](footerleft_type-complextypevisio-xml.md) <br/> ||
+|[FooterMargin](footermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> ||
+|[FooterRight](footerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterRight_Type](footerright_type-complextypevisio-xml.md) <br/> ||
+|[HeaderCenter](headercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderCenter_Type](headercenter_type-complextypevisio-xml.md) <br/> ||
+|[HeaderFooterFont](headerfooterfont-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> ||
+|[HeaderLeft](headerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderLeft_Type](headerleft_type-complextypevisio-xml.md) <br/> ||
+|[HeaderMargin](headermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> ||
+|[HeaderRight](headerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderRight_Type](headerright_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

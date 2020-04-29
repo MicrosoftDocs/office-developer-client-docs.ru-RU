@@ -1,5 +1,5 @@
 ---
-title: Документсеттингс_типе complexType (XML для Visio)
+title: DocumentSettings_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540016"
 ---
-# <a name="documentsettingstype-complextype-visio-xml"></a>Документсеттингс_типе complexType (XML для Visio)
+# <a name="documentsettings_type-complextype-visio-xml"></a>DocumentSettings_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -129,18 +129,18 @@ ms.locfileid: "34540016"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Аттачедтулбарс](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Аттачедтулбарс_типе](attachedtoolbars_type-complextypevisio-xml.md) <br/> ||
-|[CustomMenusFile](custommenusfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Кустомменусфиле_типе](custommenusfile_type-complextypevisio-xml.md) <br/> ||
-|[CustomToolbarsFile](customtoolbarsfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Кустомтулбарсфиле_типе](customtoolbarsfile_type-complextypevisio-xml.md) <br/> ||
-|[DynamicGridEnabled](dynamicgridenabled-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Динамикгриденаблед_типе](dynamicgridenabled_type-complextypevisio-xml.md) <br/> ||
-|[GlueSettings](gluesettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Глуесеттингс_типе](gluesettings_type-complextypevisio-xml.md) <br/> ||
-|[Протектбкгндс](protectbkgnds-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Протектбкгндс_типе](protectbkgnds_type-complextypevisio-xml.md) <br/> ||
-|[Протектмастерс](protectmasters-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Протектмастерс_типе](protectmasters_type-complextypevisio-xml.md) <br/> ||
-|[Протектшапес](protectshapes-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Протектшапес_типе](protectshapes_type-complextypevisio-xml.md) <br/> ||
-|[Протектстилес](protectstyles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Протектстилес_типе](protectstyles_type-complextypevisio-xml.md) <br/> ||
-|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Снапанглес_типе](snapangles_type-complextypevisio-xml.md) <br/> ||
-|[SnapExtensions](snapextensions-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Снапекстенсионс_типе](snapextensions_type-complextypevisio-xml.md) <br/> ||
-|[SnapSettings](snapsettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[Снапсеттингс_типе](snapsettings_type-complextypevisio-xml.md) <br/> ||
+|[аттачедтулбарс](attachedtoolbars-element-documentsettings_type-complextypevisio-xml.md) <br/> |[AttachedToolbars_Type](attachedtoolbars_type-complextypevisio-xml.md) <br/> ||
+|[CustomMenusFile](custommenusfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomMenusFile_Type](custommenusfile_type-complextypevisio-xml.md) <br/> ||
+|[CustomToolbarsFile](customtoolbarsfile-element-documentsettings_type-complextypevisio-xml.md) <br/> |[CustomToolbarsFile_Type](customtoolbarsfile_type-complextypevisio-xml.md) <br/> ||
+|[DynamicGridEnabled](dynamicgridenabled-element-documentsettings_type-complextypevisio-xml.md) <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> ||
+|[GlueSettings](gluesettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[GlueSettings_Type](gluesettings_type-complextypevisio-xml.md) <br/> ||
+|[протектбкгндс](protectbkgnds-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectBkgnds_Type](protectbkgnds_type-complextypevisio-xml.md) <br/> ||
+|[протектмастерс](protectmasters-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> ||
+|[протектшапес](protectshapes-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectShapes_Type](protectshapes_type-complextypevisio-xml.md) <br/> ||
+|[протектстилес](protectstyles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[ProtectStyles_Type](protectstyles_type-complextypevisio-xml.md) <br/> ||
+|[SnapAngles](snapangles-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapAngles_Type](snapangles_type-complextypevisio-xml.md) <br/> ||
+|[SnapExtensions](snapextensions-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> ||
+|[SnapSettings](snapsettings-element-documentsettings_type-complextypevisio-xml.md) <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

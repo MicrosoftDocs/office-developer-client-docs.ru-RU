@@ -1,5 +1,5 @@
 ---
-title: Имапижетсессионжетмаписессион
+title: имапижетсессионжетмаписессион
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -35,7 +35,7 @@ HRESULT GetMAPISession(
 
 ## <a name="parameters"></a>Параметры
 
- _Лппсессион_
+ _лппсессион_
   
 > вышли Указатель на текущий сеанс MAPI.
     

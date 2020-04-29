@@ -1,5 +1,5 @@
 ---
-title: Динамикгриденаблед_типе complexType (XML для Visio)
+title: DynamicGridEnabled_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539958"
 ---
-# <a name="dynamicgridenabledtype-complextype-visio-xml"></a>Динамикгриденаблед_типе complexType (XML для Visio)
+# <a name="dynamicgridenabled_type-complextype-visio-xml"></a>DynamicGridEnabled_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 

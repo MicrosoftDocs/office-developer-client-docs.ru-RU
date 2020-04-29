@@ -1,5 +1,5 @@
 ---
-title: Коннектс_типе complexType (XML для Visio)
+title: Connects_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538699"
 ---
-# <a name="connectstype-complextype-visio-xml"></a>Коннектс_типе complexType (XML для Visio)
+# <a name="connects_type-complextype-visio-xml"></a>Connects_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "34538699"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Коннект_типе](connect_type-complextypevisio-xml.md) <br/> ||
+|[Connect](connect-element-connects_type-complextypevisio-xml.md) <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

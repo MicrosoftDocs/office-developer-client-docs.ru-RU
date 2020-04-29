@@ -1,5 +1,5 @@
 ---
-title: Элемент Connection (Датаконнектионс_типе complexType) (XML для Visio)
+title: Элемент Connection (DataConnections_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538405"
 ---
-# <a name="dataconnection-element-dataconnectionstype-complextype-visio-xml"></a>Элемент Connection (Датаконнектионс_типе complexType) (XML для Visio)
+# <a name="dataconnection-element-dataconnections_type-complextype-visio-xml"></a>Элемент Connection (DataConnections_Type complexType) (XML для Visio)
 
 Создает абстракцию для связи между одним или несколькими элементами **записи** данных и источником данных, не относящимся к XML. 
   
@@ -22,7 +22,7 @@ ms.locfileid: "34538405"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Датаконнектион_типе](dataconnection_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Connections. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34538405"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DataConnections](dataconnections-elementvisio-xml.md) <br/> |[Датаконнектионс_типе](dataconnections_type-complextypevisio-xml.md) <br/> |Содержит элементы **подключения** к документу.  <br/> |
+|[DataConnections](dataconnections-elementvisio-xml.md) <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |Содержит элементы **подключения** к документу.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -57,7 +57,7 @@ ms.locfileid: "34538405"
 |ConnectionString  <br/> |XSD: строка  <br/> |необязательный  <br/> |Строка подключения, определяющая параметры, необходимые для подключения к источнику данных.  <br/> |Значения типа String: XSD.  <br/> |
 |FileName  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Имя файла подключения. Дополнительные сведения см.  <br/> |Значения типа String: XSD.  <br/> |
 |FriendlyName  <br/> |XSD: строка  <br/> |необязательный  <br/> |Имя, указанное пользователем для подключения к данным.  <br/> |Значения типа String: XSD.  <br/> |
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор, назначенный Visio для данного подключения, уникальный в пределах документа.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор, назначенный Visio для данного подключения, уникальный в пределах документа.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Timeout  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Время ожидания в минутах при попытке установить подключение перед завершением попытки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

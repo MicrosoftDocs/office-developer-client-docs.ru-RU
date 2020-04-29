@@ -1,5 +1,5 @@
 ---
-title: Элемент Фаценамес (Висиодокумент_типе complexType) (XML для Visio)
+title: Элемент Фаценамес (VisioDocument_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539715"
 ---
-# <a name="facenames-element-visiodocumenttype-complextype-visio-xml"></a>Элемент Фаценамес (Висиодокумент_типе complexType) (XML для Visio)
+# <a name="facenames-element-visiodocument_type-complextype-visio-xml"></a>Элемент Фаценамес (VisioDocument_Type complexType) (XML для Visio)
 
 Содержит коллекцию элементов **фаценаме** . 
   
@@ -22,7 +22,7 @@ ms.locfileid: "34539715"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Фаценамес_типе](facenames_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[FaceNames_Type](facenames_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34539715"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[Висиодокумент_типе](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
+|[висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Фаценаме](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[Фаценаме_типе](facename_type-complextypevisio-xml.md) <br/> |Содержит сведения о шрифте.  <br/> |
+|[фаценаме](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> |Содержит сведения о шрифте.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

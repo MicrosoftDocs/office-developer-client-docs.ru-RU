@@ -22,7 +22,7 @@ ms.locfileid: "34538181"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Табсров_типе](tabsrow_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[TabsRow_Type](tabsrow_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34538181"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |Содержит ячейки для фигур или стилей, которые управляют позицией табуляции и выравниванием.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Содержит ячейки для фигур или стилей, которые управляют позицией табуляции и выравниванием.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-tabs-sectionvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство.  <br/> |
+|[Cell](cell-element-tabs-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

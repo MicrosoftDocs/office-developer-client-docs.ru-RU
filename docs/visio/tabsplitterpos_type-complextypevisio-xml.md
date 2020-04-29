@@ -1,5 +1,5 @@
 ---
-title: Табсплиттерпос_типе complexType (XML для Visio)
+title: TabSplitterPos_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538832"
 ---
-# <a name="tabsplitterpostype-complextype-visio-xml"></a>Табсплиттерпос_типе complexType (XML для Visio)
+# <a name="tabsplitterpos_type-complextype-visio-xml"></a>TabSplitterPos_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 

@@ -29,18 +29,18 @@ ms.locfileid: "33436855"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ИПОС  <br/> |
+|Связанные свойства:  <br/> |PR_YPOS  <br/> |
 |Идентификатор:  <br/> |0x3F06  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Таблица отображения MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Свойство **пр_кспос** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), данное свойство, **Пр_делтакс** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) и **пр_делтай** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) позиционируется и заменяют размер элемента управления.
+**PR_XPOS** ([PidTagXCoordinate](pidtagxcoordinate-canonical-property.md)), это свойство, свойства **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) и **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) позиционируется и изменяют размер элемента управления.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

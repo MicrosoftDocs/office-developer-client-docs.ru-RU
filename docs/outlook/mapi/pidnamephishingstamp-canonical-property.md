@@ -30,7 +30,7 @@ ms.locfileid: "34540905"
 |||
 |:-----|:-----|
 |Понятные имена:  <br/> |Нет  <br/> |
-|Набор свойств:  <br/> |ПС_ПУБЛИК_СТРИНГС  <br/> |
+|Набор свойств:  <br/> |PS_PUBLIC_STRINGS  <br/> |
 |Имя свойства:  <br/> |http://schemas.microsoft.com/outlook/phishingstamp  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Защита обмена сообщениями  <br/> |

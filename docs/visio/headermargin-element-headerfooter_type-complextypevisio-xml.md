@@ -1,5 +1,5 @@
 ---
-title: Элемент HeaderMargin (Хеадерфутер_типе complexType) (XML для Visio)
+title: Элемент HeaderMargin (HeaderFooter_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539129"
 ---
-# <a name="headermargin-element-headerfootertype-complextype-visio-xml"></a>Элемент HeaderMargin (Хеадерфутер_типе complexType) (XML для Visio)
+# <a name="headermargin-element-headerfooter_type-complextype-visio-xml"></a>Элемент HeaderMargin (HeaderFooter_Type complexType) (XML для Visio)
 
 Задает поле заголовка документа.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34539129"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Хеадермаргин_типе](headermargin_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34539129"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Хеадерфутер_типе](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для верхнего и нижнего колонтитулов документа.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для верхнего и нижнего колонтитулов документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

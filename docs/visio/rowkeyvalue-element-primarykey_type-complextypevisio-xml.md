@@ -1,5 +1,5 @@
 ---
-title: Элемент Ровкэйвалуе (Примарикэй_типе complexType) (XML для Visio)
+title: Элемент Ровкэйвалуе (PrimaryKey_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538132"
 ---
-# <a name="rowkeyvalue-element-primarykeytype-complextype-visio-xml"></a>Элемент Ровкэйвалуе (Примарикэй_типе complexType) (XML для Visio)
+# <a name="rowkeyvalue-element-primarykey_type-complextype-visio-xml"></a>Элемент Ровкэйвалуе (PrimaryKey_Type complexType) (XML для Visio)
 
 Задает значение первичного ключа для отдельной строки набора записей.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34538132"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Ровкэйвалуе_типе](rowkeyvalue_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Recordset. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34538132"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[Примарикэй_типе](primarykey_type-complextypevisio-xml.md) <br/> |Задает первичный ключ набора записей.  <br/> |
+|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |Задает первичный ключ набора записей.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

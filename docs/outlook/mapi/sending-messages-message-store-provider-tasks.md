@@ -27,11 +27,11 @@ A message store provider gets involved with the message sending process when a c
   
 **В IMessage:: субмитмессаже, поставщик хранилища сообщений**:
   
-1. Вызывает [имаписуппорт::P репаресубмит](imapisupport-preparesubmit.md) , если в свойстве **PR_MESSAGE_FLAGS** ([PIDTAGMESSAGEFLAGS](pidtagmessageflags-canonical-property.md)) сообщения задан флаг MSGFLAG_RESEND, и в клиенте возвращаются ошибки. **Препаресубмит** проверяет свойство **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) каждого получателя в списке получателей сообщения.
+1. Вызывает [имаписуппорт::P репаресубмит](imapisupport-preparesubmit.md) , если для сообщения задан флаг MSGFLAG_RESEND, заданный в свойстве **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)), и в клиенте возвращаются ошибки. **Препаресубмит** проверяет свойство **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)) каждого получателя в списке получателей сообщения.
     
    - Если установлен флаг MAPI_SUBMITTED, указывающий на то, что получатель не получил исходное сообщение, **препаресубмит** очищает флаг и задает для свойства **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) значение true. 
     
-   - Если флаг MAPI_SUBMITTED не установлен, указывая на то, что получатель получил исходное сообщение, **препаресубмит** изменяет свойство **PR_RECIPIENT_TYPE** на MAPI_P1 и задает для свойства **PR_RESPONSIBILITY** значение true и возвращает все ошибка, созданная **препаресубмит** для клиента. 
+   - Если флаг MAPI_SUBMITTED не установлен, указывая на то, что получатель получил исходное сообщение, **препаресубмит** изменяет значение свойства **PR_RECIPIENT_TYPE** на MAPI_P1 и задает для свойства **PR_RESPONSIBILITY** значение true и возвращает любую ошибку, созданную **препаресубмит** клиенту. 
     
 2. ������ ���� MSGFLAG_SUBMIT � �������� **PR_MESSAGE_FLAGS** ���������. 
     
@@ -48,7 +48,7 @@ A message store provider gets involved with the message sending process when a c
     
 6. ���� ���������� ���� ��������� NEEDS_PREPROCESSING ��������� ��������� ������:
     
-   - Помещает сообщение в исходящую очередь с установленным битом SUBMITFLAG_PREPROCESS в свойстве **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)).
+   - Помещает сообщение в исходящую очередь с SUBMITFLAG_PREPROCESS битом, заданным в свойстве **PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md)).
    - ���������� ��������� ������� MAPI, ������� ��� ������� �������.
    - ��������� ���������� ������� � ����� ��������� ��-�������� ������������ � ��������� ������� MAPI. 
    - ��������� ������� MAPI ��������� ��������� ������:
@@ -69,7 +69,7 @@ A message store provider gets involved with the message sending process when a c
    - ���� ��� ���������� ��������, ��� ���� ����� ��������� ��������� � ����������, ��������� ��������� ������:
      - Вызывает Имаписуппорт:: Комплетемсг, если сообщение было предварительно обработано, или поставщик хранилища сообщений хочет, чтобы диспетчер очереди MAPI выполнял обработку сообщений, что рекомендуется для вызова обработчиков сообщений. Процесс обработки сообщений продолжается с помощью диспетчера очереди MAPI, как описано в следующей процедуре.  
      - Выполняет следующие задачи, если сообщение не было предварительно обработано, или поставщик хранилища сообщений не хочет, чтобы диспетчер очереди MAPI завершил обработку сообщений:
-       - Копирует сообщение в папку, указанную идентификатором записи, в свойстве PR_SENTMAIL_ENTRYID (PidTagSentMailEntryId), если оно задано.
+       - Копирует сообщение в папку, определенную идентификатором записи, в свойстве PR_SENTMAIL_ENTRYID (PidTagSentMailEntryId), если оно задано.
        - Удаляет сообщение, если для свойства PR_DELETE_AFTER_SUBMIT (PidTagDeleteAfterSubmit) задано значение TRUE.
        - Разблокирует сообщение, если оно заблокировано.
        - Возвращает клиенту. Процесс обработки сообщений завершен. 

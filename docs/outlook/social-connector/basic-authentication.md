@@ -25,7 +25,7 @@ Outlook Social Connector (OSC) вызывает метод [исоЦиалпро
     
 3. [ИсоЦиалпровидер:: соЦиалнетворкнаме](isocialprovider-socialnetworkname.md) — объект OSC получает строку, представляющую имя социальной сети. 
     
-4. [ИсоЦиалпровидер:: соЦиалнетворкгуид](isocialprovider-socialnetworkguid.md) — объект OSC получает неИЗМЕНЯЕМЫЙ идентификатор GUID, представляющий социальную сеть. 
+4. [ИсоЦиалпровидер:: соЦиалнетворкгуид](isocialprovider-socialnetworkguid.md) — объект OSC получает неизменяемый идентификатор GUID, представляющий социальную сеть. 
     
 5. [ИсоЦиалпровидер::-Capabilities](isocialprovider-getcapabilities.md) — получает строку, представляющую возможности поставщика, и соответствующие определению схемы для элемента **capabilities** . 
     
@@ -42,5 +42,5 @@ Outlook Social Connector (OSC) вызывает метод [исоЦиалпро
 ## <a name="see-also"></a>См. также
 
 - [XML для возможностей](xml-for-capabilities.md)
-- [ПереOSC типичные последовательности вызовов](osc-typical-calling-sequences.md)
+- [Переosc типичные последовательности вызовов](osc-typical-calling-sequences.md)
 

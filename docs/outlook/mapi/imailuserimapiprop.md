@@ -33,8 +33,8 @@ ms.locfileid: "33436596"
 |Предоставлено:  <br/> |Объекты пользователя для обмена сообщениями  <br/> |
 |Реализовано в:  <br/> |Поставщики адресных книг  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_имаилусер  <br/> |
-|Тип указателя:  <br/> |ЛПМАИЛУСЕР  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IMailUser  <br/> |
+|Тип указателя:  <br/> |лпмаилусер  <br/> |
 |Модель транзакции:  <br/> |Транзакции  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
@@ -43,24 +43,24 @@ ms.locfileid: "33436596"
   
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**Пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_дисплай_типе** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
 Пять обязательных свойств называются свойствами базового адреса для получателей:
   
-- **ПР_АДДРТИПЕ**
+- **PR_ADDRTYPE**
     
-- **ПР_ДИСПЛАЙ_НАМЕ**
+- **PR_DISPLAY_NAME**
     
-- **ПР_ЕМАИЛ_АДДРЕСС**
+- **PR_EMAIL_ADDRESS**
     
 - **PR_ENTRYID**
     
@@ -68,25 +68,25 @@ ms.locfileid: "33436596"
     
 Эти свойства считаются особыми, так как многие другие группы схожих свойств создаются на основе этой базовой группы. Другие группы используются для описания получателя в различных ролях, таких как исходный или представительный отправитель сообщения. Дополнительные сведения об этих свойствах и способах их использования приведены в разделе [типы адресов MAPI](mapi-address-types.md).
   
-Пользователи обмена сообщениями могут отображать коллекцию их свойств, поддерживающих свойство **пр_детаилс_табле** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **Пр_детаилс_табле** — это отображаемая таблица, в которой описывается макет диалогового окна сведения или вкладка свойств, отображающая сведения о свойствах получателей. MAPI создает диалоговые окна сведений, когда клиент вызывает метод [IAddrBook::D етаилс](iaddrbook-details.md) . 
+Пользователи обмена сообщениями могут отображать коллекцию их свойств, поддерживающих свойство **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** — это таблица, описывающая макет диалогового окна сведений или страницы свойств с вкладками, в которой отображаются сведения о свойствах получателя. MAPI создает диалоговые окна сведений, когда клиент вызывает метод [IAddrBook::D етаилс](iaddrbook-details.md) . 
   
 Пользовательские объекты обмена сообщениями могут иметь другие связанные с ними дополнительные свойства. MAPI определяет множество свойств, которые предоставляют дополнительные сведения об адресе пользователя для обмена сообщениями. Все эти свойства являются символьными строками. В следующем списке приведены наиболее часто используемые свойства:
   
-- **Пр_аккаунт** ([PidTagAccount](pidtagaccount-canonical-property.md)) 
+- **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) 
     
-- **Пр_ассистант** ([PidTagAssistant](pidtagassistant-canonical-property.md)) 
+- **PR_ASSISTANT** ([PidTagAssistant](pidtagassistant-canonical-property.md)) 
     
-- **Пр_бусинесс_телефоне_нумбер** ([PidTagBusinessTelephoneNumber](pidtagbusinesstelephonenumber-canonical-property.md)) 
+- **PR_BUSINESS_TELEPHONE_NUMBER** ([PidTagBusinessTelephoneNumber](pidtagbusinesstelephonenumber-canonical-property.md)) 
     
-- **Пр_гивен_наме** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) 
+- **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) 
     
-- **Пр_говернмент_ид_нумбер** ([PidTagGovernmentIdNumber](pidtaggovernmentidnumber-canonical-property.md)) 
+- **PR_GOVERNMENT_ID_NUMBER** ([PidTagGovernmentIdNumber](pidtaggovernmentidnumber-canonical-property.md)) 
     
-- **Пр_локалити** ([PidTagLocality](pidtaglocality-canonical-property.md)) 
+- **PR_LOCALITY** ([PidTagLocality](pidtaglocality-canonical-property.md)) 
     
-- **Пр_постал_аддресс** ([PidTagPostalAddress](pidtagpostaladdress-canonical-property.md)) 
+- **PR_POSTAL_ADDRESS** ([PidTagPostalAddress](pidtagpostaladdress-canonical-property.md)) 
     
-Полный список свойств приведен [в разделе Сопоставление канонИческих имен свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md).
+Полный список свойств приведен [в разделе Сопоставление канонических имен свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md).
   
 ## <a name="see-also"></a>См. также
 

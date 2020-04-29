@@ -19,13 +19,13 @@ ms.locfileid: "33439480"
 
 При создании пользовательских приложений разработчики часто выполняют обработку ошибок, которая предполагает написание программы для проверки на наличие ошибок, созданных приложением, или для создания и инициирования пользовательских ошибок. Объектная модель, совместимая с InfoPath 2003, поддерживает обработку ошибок с помощью объекта [ErrorObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorObject.aspx) в связи с коллекцией [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) . 
   
-В приложении InfoPath ошибки могут возникать, если данные, введенные в форму, не прошли проверку схемы XML, когда настраиваемое ограничение проверки не проходит, при создании ошибки методом [ReportError](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReportError.aspx) объекта [датадомевентобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEventObject.aspx) или при создании ошибки использование метода [Add](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx) коллекции [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) . 
+В InfoPath ошибки могут возникать, если данные, введенные в форму, не прошли проверку XML-схемы, при неудачном выполнении настраиваемого ограничения проверки, при возникновении ошибки в методе [ReportError](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEvent.ReportError.aspx) объекта [датадомевентобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.DataDOMEventObject.aspx) , или при создании ошибки с помощью метода [Add](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx) коллекции [ErrorsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ErrorsCollection.aspx) . 
   
 ## <a name="overview-of-the-errorscollection-collection"></a>Обзор семейства ErrorsCollection
 
 Семейство **ErrorsCollection** предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для управления объектами **ErrorObject**, содержащимися в семействе. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [Add](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Add.aspx)  <br/> |Создает объект **ErrorObject** и добавляет его в семейство.  <br/> |
 |Метод [Delete](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Errors.Delete.aspx)  <br/> |Удаляет все объекты **ErrorObject**, связанные с указанным XML-узлом и именем условия, за исключением пользовательских ошибок, добавленных с помощью метода **ReportError**.  <br/> |
@@ -37,7 +37,7 @@ ms.locfileid: "33439480"
 
 Объект **ErrorObject** предоставляет следующие свойства, которые могут использоваться разработчиками форм для доступа к сведениям о возникшей ошибке. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Свойство [ИмяУсловия](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.ConditionName.aspx)  <br/> |Возвращает имя условия ошибки или **null**, в зависимости от типа объекта **ErrorObject**.  <br/> |
 |Свойство [детаиледеррормессаже](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Error.DetailedErrorMessage.aspx)  <br/> |Возвращает или задает подробное сообщение об ошибке для объекта **ErrorObject**.  <br/> |
@@ -48,7 +48,7 @@ ms.locfileid: "33439480"
    
 ## <a name="using-the-errorscollection-and-errorobject"></a>Использование ErrorsCollection и ErrorObject
 
-Доступ к коллекции **ErrorsCollection** осуществляется с помощью [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument.Errors.aspx) свойства Errors объекта [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) . Семейство **ErrorsCollection** связано с базовым XML-документом формы, поэтому когда возникает ошибка, она возникает в XML-документе. В следующем примере демонстрируется использование цикла Visual C# **foreach** для проверки ошибок, которые могут присутствовать в базовом XML-документе формы. При наличии ошибок функция обрабатывает в цикле каждую из них и с помощью свойства **ShortErrorMessage** объекта **ErrorObject** отображает пользователю окно сообщения. 
+Доступ к коллекции **ErrorsCollection** осуществляется с помощью свойства [Errors](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument.Errors.aspx) объекта [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) . Семейство **ErrorsCollection** связано с базовым XML-документом формы, поэтому когда возникает ошибка, она возникает в XML-документе. В следующем примере демонстрируется использование цикла Visual C# **foreach** для проверки ошибок, которые могут присутствовать в базовом XML-документе формы. При наличии ошибок функция обрабатывает в цикле каждую из них и с помощью свойства **ShortErrorMessage** объекта **ErrorObject** отображает пользователю окно сообщения. 
   
 ```cs
 public void CheckErrors(IXMLDOMNode xmlNode)

@@ -1,5 +1,5 @@
 ---
-title: Элемент Аусорлист (Комментс_типе complexType) (XML для Visio)
+title: Элемент Аусорлист (Comments_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537859"
 ---
-# <a name="authorlist-element-commentstype-complextype-visio-xml"></a>Элемент Аусорлист (Комментс_типе complexType) (XML для Visio)
+# <a name="authorlist-element-comments_type-complextype-visio-xml"></a>Элемент Аусорлист (Comments_Type complexType) (XML для Visio)
 
 Указывает авторов комментариев в документе.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34537859"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Аусорлист_типе](authorlist_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Comments. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34537859"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Примечания](comments-element-comments_type-complextypevisio-xml.md) <br/> |[Комментс_типе](comments_type-complextypevisio-xml.md) <br/> |Задает комментарии в документе.  <br/> |
+|[Comments](comments-element-comments_type-complextypevisio-xml.md) <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |Задает комментарии в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Аусорентри](authorentry-element-authorlist_type-complextypevisio-xml.md) <br/> |[Аусорентри_типе](authorentry_type-complextypevisio-xml.md) <br/> |Задает свойства, которые определяют автора комментария в документе.  <br/> |
+|[аусорентри](authorentry-element-authorlist_type-complextypevisio-xml.md) <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> |Задает свойства, которые определяют автора комментария в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

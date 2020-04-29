@@ -29,18 +29,18 @@ ms.locfileid: "33437324"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ИПМ_СЕНТМАИЛ_ЕНТРИД  <br/> |
+|Связанные свойства:  <br/> |PR_IPM_SENTMAIL_ENTRYID  <br/> |
 |Идентификатор:  <br/> |0x35E4  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Folder  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-После отправки межпользовательские сообщения обычно помещаются в папку "Отправленные". Клиент может использовать это свойство, чтобы задать свойство **пр_сентмаил_ентрид** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) для отправленного сообщения. 
+После отправки межпользовательские сообщения обычно помещаются в папку "Отправленные". Клиент может использовать это свойство, чтобы задать свойство **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)) для отправленного сообщения. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -1,5 +1,5 @@
 ---
-title: Элемент Solution (Солутионс_типе complexType) (XML для Visio)
+title: Элемент Solution (Solutions_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540268"
 ---
-# <a name="solution-element-solutionstype-complextype-visio-xml"></a>Элемент Solution (Солутионс_типе complexType) (XML для Visio)
+# <a name="solution-element-solutions_type-complextype-visio-xml"></a>Элемент Solution (Solutions_Type complexType) (XML для Visio)
 
 Задает один экземпляр XML-файла решения, хранящегося в документе.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34540268"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Солутион_типе](solution_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Solutions. XML  <br/> |
@@ -41,13 +41,13 @@ ms.locfileid: "34540268"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Решения](solutions-elementvisio-xml.md) <br/> |[Солутионс_типе](solutions_type-complextypevisio-xml.md) <br/> |Хранит свойства решений, хранящихся в документе.  <br/> |
+|[Решения](solutions-elementvisio-xml.md) <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |Хранит свойства решений, хранящихся в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Рел_типе](rel_type-complextypevisio-xml.md) <br/> |Задает отношение к части с XML-документом решения, связанным с этим решением.  <br/> |
+|[Rel](rel-element-solution_type-complextypevisio-xml.md) <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |Задает отношение к части с XML-документом решения, связанным с этим решением.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

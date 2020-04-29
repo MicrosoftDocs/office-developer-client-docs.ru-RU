@@ -22,7 +22,7 @@ ms.locfileid: "34541787"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Чарактерров_типе](characterrow_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34541787"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |Показывает атрибуты форматирования для текстового запуска фигуры, такие как шрифт, цвет, стиль текста, регистр, положение относительно базовой линии и размер кегля.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Показывает атрибуты форматирования для текстового запуска фигуры, такие как шрифт, цвет, стиль текста, регистр, положение относительно базовой линии и размер кегля.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-character-sectionvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство.  <br/> |
+|[Cell](cell-element-character-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

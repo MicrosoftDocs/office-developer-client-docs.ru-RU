@@ -1,5 +1,5 @@
 ---
-title: элемент FLD (Текст_типе complexType) (XML для Visio)
+title: элемент FLD (Text_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539616"
 ---
-# <a name="fld-element-texttype-complextype-visio-xml"></a>элемент FLD (Текст_типе complexType) (XML для Visio)
+# <a name="fld-element-text_type-complextype-visio-xml"></a>элемент FLD (Text_Type complexType) (XML для Visio)
 
 Указывает точку вставки текстового поля для соответствующего элемента **field** . 
   
@@ -22,7 +22,7 @@ ms.locfileid: "34539616"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Флд_типе](fld_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[fld_Type](fld_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34539616"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Текст_типе](text_type-complextypevisio-xml.md) <br/> |Содержит текст фигуры.  <br/> |
+|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Содержит текст фигуры.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

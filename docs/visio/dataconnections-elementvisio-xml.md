@@ -22,7 +22,7 @@ ms.locfileid: "34539184"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Датаконнектионс_типе](dataconnections_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Connections. XML  <br/> |
@@ -46,12 +46,12 @@ ms.locfileid: "34539184"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[Датаконнектион_типе](dataconnection_type-complextypevisio-xml.md) <br/> |Создает абстракцию для связи между одним или несколькими элементами **записи** данных и источником данных, не относящимся к XML.  <br/> |
+|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Создает абстракцию для связи между одним или несколькими элементами **записи** данных и источником данных, не относящимся к XML.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Некстид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Следующий доступный идентификатор для новых подключений.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|некстид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Следующий доступный идентификатор для новых подключений.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

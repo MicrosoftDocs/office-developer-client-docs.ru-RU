@@ -1,5 +1,5 @@
 ---
-title: Стилешитс_типе complexType (XML для Visio)
+title: StyleSheets_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538888"
 ---
-# <a name="stylesheetstype-complextype-visio-xml"></a>Стилешитс_типе complexType (XML для Visio)
+# <a name="stylesheets_type-complextype-visio-xml"></a>StyleSheets_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "34538888"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Применение](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[Стилешит_типе](stylesheet_type-complextypevisio-xml.md) <br/> ||
+|[Применение](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

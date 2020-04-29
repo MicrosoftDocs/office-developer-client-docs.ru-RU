@@ -22,7 +22,7 @@ ms.locfileid: "34542326"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34542326"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Элемент Row (раздел "вспомогательный")](row-element-scratch-sectionvisio-xml.md) <br/> |[Скратчров_типе](scratch_type-complextypevisio-xml.md) <br/> |Задает рабочую область для ввода и тестирования формул, на которые можно ссылаться по другим ячейкам.  <br/> |
+|[Элемент Row (раздел "вспомогательный")](row-element-scratch-sectionvisio-xml.md) <br/> |[ScratchRow_Type](scratch_type-complextypevisio-xml.md) <br/> |Задает рабочую область для ввода и тестирования формул, на которые можно ссылаться по другим ячейкам.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

@@ -1,5 +1,5 @@
 ---
-title: Элемент Connect (Коннектс_типе complexType) (XML для Visio)
+title: Элемент Connect (Connects_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541997"
 ---
-# <a name="connect-element-connectstype-complextype-visio-xml"></a>Элемент Connect (Коннектс_типе complexType) (XML для Visio)
+# <a name="connect-element-connects_type-complextype-visio-xml"></a>Элемент Connect (Connects_Type complexType) (XML для Visio)
 
 Представляет соединение между двумя фигурами в документе, например линии и поле на организационной диаграмме.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541997"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Коннект_типе](connect_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Connect_Type](connect_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34541997"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Коннектс_типе](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе.  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

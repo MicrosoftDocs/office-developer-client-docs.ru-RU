@@ -1,5 +1,5 @@
 ---
-title: Элемент EventList (Висиодокумент_типе complexType) (XML для Visio)
+title: Элемент EventList (VisioDocument_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541801"
 ---
-# <a name="eventlist-element-visiodocumenttype-complextype-visio-xml"></a>Элемент EventList (Висиодокумент_типе complexType) (XML для Visio)
+# <a name="eventlist-element-visiodocument_type-complextype-visio-xml"></a>Элемент EventList (VisioDocument_Type complexType) (XML для Visio)
 
 Содержит элемент **евентитем** для каждого события, на которое должен отвечать объект. 
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541801"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Евентлист_типе](eventlist_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[EventList_Type](eventlist_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34541801"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[Висиодокумент_типе](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
+|[висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Евентитем](eventitem-element-eventlist_type-complextypevisio-xml.md) <br/> |[Евентитем_типе](eventitem_type-complextypevisio-xml.md) <br/> |Инкапсулирует код события.  <br/> |
+|[евентитем](eventitem-element-eventlist_type-complextypevisio-xml.md) <br/> |[EventItem_Type](eventitem_type-complextypevisio-xml.md) <br/> |Инкапсулирует код события.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

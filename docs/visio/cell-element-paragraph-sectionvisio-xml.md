@@ -22,7 +22,7 @@ ms.locfileid: "34539483"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34539483"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Элемент Row (раздел "Абзац")](row-element-paragraph-sectionvisio-xml.md) <br/> |[Параграфров_типе](paragraphrow_type-complextypevisio-xml.md) <br/> |Задает атрибут форматирования абзаца для текста фигуры, например отступы, междустрочный интервал, маркеры или горизонтальное выравнивание абзацев.  <br/> |
+|[Элемент Row (раздел "Абзац")](row-element-paragraph-sectionvisio-xml.md) <br/> |[ParagraphRow_Type](paragraphrow_type-complextypevisio-xml.md) <br/> |Задает атрибут форматирования абзаца для текста фигуры, например отступы, междустрочный интервал, маркеры или горизонтальное выравнивание абзацев.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -68,11 +68,11 @@ ms.locfileid: "34539483"
 |:-----|:-----|:-----|
 |Bullet  <br/> |Определяет стиль маркеров.  <br/> |[Bullet Cell (Paragraph Section)](bullet-cell-paragraph-section.md) <br/> |
 |BulletFont  <br/> |Представляет номер шрифта, используемого для форматирования текста, если указана строка настраиваемого маркера, а значение в ячейке маркера не равно нулю.  <br/> |[BulletFont Cell (Paragraph Section)](bulletfont-cell-paragraph-section.md) <br/> |
-|Буллетфонтсизе  <br/> |Задает размер маркера.  <br/> |[BulletSize Cell (Paragraph Section)](bulletsize-cell-paragraph-section.md) <br/> |
-|Буллетстр  <br/> |Позволяет создавать пользовательские стили маркеров.  <br/> |[BulletString Cell (Paragraph Section)](bulletstring-cell-paragraph-section.md) <br/> |
+|буллетфонтсизе  <br/> |Задает размер маркера.  <br/> |[BulletSize Cell (Paragraph Section)](bulletsize-cell-paragraph-section.md) <br/> |
+|буллетстр  <br/> |Позволяет создавать пользовательские стили маркеров.  <br/> |[BulletString Cell (Paragraph Section)](bulletstring-cell-paragraph-section.md) <br/> |
 |Flags  <br/> |Указывает, находится ли направление текста слева направо или справа налево.  <br/> |[Flags Cell (Paragraph Section)](flags-cell-paragraph-section.md) <br/> |
-|Хорзалигн  <br/> |Определяет горизонтальное выравнивание текста в блоке текста фигуры.  <br/> |[HAlign Cell (Paragraph Section)](halign-cell-paragraph-section.md) <br/> |
-|Индфирст  <br/> |Представляет расстояние отступа первой строки каждого абзаца в блоке текста фигуры слева от левого отступа абзаца. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, отступ первой строки остается прежним.  <br/> |[IndFirst Cell (Paragraph Section)](indfirst-cell-paragraph-section.md) <br/> |
+|хорзалигн  <br/> |Определяет горизонтальное выравнивание текста в блоке текста фигуры.  <br/> |[HAlign Cell (Paragraph Section)](halign-cell-paragraph-section.md) <br/> |
+|индфирст  <br/> |Представляет расстояние отступа первой строки каждого абзаца в блоке текста фигуры слева от левого отступа абзаца. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, отступ первой строки остается прежним.  <br/> |[IndFirst Cell (Paragraph Section)](indfirst-cell-paragraph-section.md) <br/> |
 |IndLeft  <br/> |Представляет расстояние для всех строк текста в абзаце с отступом от левого поля блока текста. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, отступ слева остается прежним.  <br/> |[IndLeft Cell (Paragraph Section)](indleft-cell-paragraph-section.md) <br/> |
 |IndRight  <br/> |Представляет расстояние для всех строк текста в абзаце с отступом от правого поля блока текста. Это значение не зависит от масштаба рисунка. Если масштаб документа изменяется, отступ справа остается прежним.  <br/> |[IndRight Cell (Paragraph Section)](indright-cell-paragraph-section.md) <br/> |
 |SpAfter  <br/> |Определяет объем пространства, вставленного после каждого абзаца в блоке текста фигуры, в дополнение к любому пробелу из ячейки сплайна и, если это последний абзац в текстовом блоке, ячейка BottomMargin.  <br/> |[SpAfter Cell (Paragraph Section)](spafter-cell-paragraph-section.md) <br/> |

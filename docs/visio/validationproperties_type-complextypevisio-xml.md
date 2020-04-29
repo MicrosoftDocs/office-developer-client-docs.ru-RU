@@ -1,5 +1,5 @@
 ---
-title: Валидатионпропертиес_типе complexType (XML для Visio)
+title: ValidationProperties_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538517"
 ---
-# <a name="validationpropertiestype-complextype-visio-xml"></a>Валидатионпропертиес_типе complexType (XML для Visio)
+# <a name="validationproperties_type-complextype-visio-xml"></a>ValidationProperties_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -51,7 +51,7 @@ ms.locfileid: "34538517"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Ластвалидатед  <br/> |XSD: dateTime  <br/> |Обязательный  <br/> ||Значения типа XSD: dateTime.  <br/> |
-|Шовигноред  <br/> |XSD: Boolean  <br/> |Обязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
+|ластвалидатед  <br/> |XSD: dateTime  <br/> |Обязательный  <br/> ||Значения типа XSD: dateTime.  <br/> |
+|шовигноред  <br/> |XSD: Boolean  <br/> |Обязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
    
 

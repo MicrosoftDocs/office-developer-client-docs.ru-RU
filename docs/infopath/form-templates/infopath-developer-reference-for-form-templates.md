@@ -25,7 +25,7 @@ ms.locfileid: "43102942"
   
 Дата публикации данной справки — октябрь 2012 г.
   
-## <a name="related-links"></a>См. также
+## <a name="related-links"></a>Связанные ссылки
 
 [Центр разработчика Microsoft Office: документы](https://developer.microsoft.com/en-us/office/docs)
   

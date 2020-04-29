@@ -1,5 +1,5 @@
 ---
-title: Элемент Icon (Мастершорткут_типе complexType) (XML для Visio)
+title: Элемент Icon (MasterShortcut_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541500"
 ---
-# <a name="icon-element-mastershortcuttype-complextype-visio-xml"></a>Элемент Icon (Мастершорткут_типе complexType) (XML для Visio)
+# <a name="icon-element-mastershortcut_type-complextype-visio-xml"></a>Элемент Icon (MasterShortcut_Type complexType) (XML для Visio)
 
 Задает двоичный значок закодированного двоичного расширения MIME (в формате ICO) для элемента MasterShortcut в документе.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541500"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Икон_типе](icon_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Главные. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34541500"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[Мастершорткут_типе](mastershortcut_type-complextypevisio-xml.md) <br/> |Указывает неиспользуемый основной формат.  <br/> |
+|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Указывает неиспользуемый основной формат.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

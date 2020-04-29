@@ -18,9 +18,9 @@ ms.locfileid: "33437849"
 
 В этом разделе описывается API управления учетными записями, который предоставляет доступ к сведениям учетной записи и поддерживает уведомления об изменении учетной записи. Кроме того, он содержит сведения о защите учетных записей от нежелательной почты и сообщений об управлении ими для учетных записей POP3.
 
-- [About the Account Management API](about-the-account-management-api.md)
+- [Сведения об API управления учетными записями](about-the-account-management-api.md)
     
-- [About anti-spam settings](about-anti-spam-settings.md)
+- [Сведения о параметрах защиты от нежелательной почты](about-anti-spam-settings.md)
     
 - [Управление скачиванием сообщений для учетных записей POP3](managing-message-downloads-for-pop3-accounts.md)
     

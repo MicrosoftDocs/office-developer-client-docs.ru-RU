@@ -29,18 +29,18 @@ ms.locfileid: "33438941"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРИГИНАТОР_ЦЕРТИФИКАТЕ  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINATOR_CERTIFICATE  <br/> |
 |Идентификатор:  <br/> |0x0022  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство является копией свойства **пр_усер_цертификате** ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)) создателя.
+Это свойство является копией свойства **PR_USER_CERTIFICATE** инициатора ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

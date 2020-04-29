@@ -29,26 +29,26 @@ MAPI вызывает метод [иабпровидер:: logon](iabprovider-lo
   
 1. Инициализируйте все указатели выходных параметров, переданные с помощью MAPI. 
     
-2. ВыЗовите метод **IUnknown:: AddRef** объекта support, чтобы увеличить счетчик ссылок. 
+2. Вызовите метод **IUnknown:: AddRef** объекта support, чтобы увеличить счетчик ссылок. 
     
-3. ВыЗовите метод [имаписуппорт:: опенпрофилесектион](imapisupport-openprofilesection.md) объекта support, чтобы открыть раздел профиля, содержащий сведения о конфигурации поставщика. Передайте значение NULL для параметра _лпуид_ и ФЛАГа мапи_модифи, если вы собираетесь вносить изменения. 
+3. Вызовите метод [имаписуппорт:: опенпрофилесектион](imapisupport-openprofilesection.md) объекта support, чтобы открыть раздел профиля, содержащий сведения о конфигурации поставщика. Передайте значение NULL для параметра _лпуид_ и флага MAPI_MODIFY, если вы собираетесь вносить изменения. 
     
-4. ВыЗовите метод [IMAPIProp::](imapiprop-getprops.md) /PROPS раздела profile, чтобы получить свойства, необходимые поставщику для входа в систему, например имя файла данных или таблицы базы данных. 
+4. Вызовите метод [IMAPIProp::/PROPS](imapiprop-getprops.md) раздела profile, чтобы получить свойства, необходимые поставщику для входа в систему, например имя файла данных или таблицы базы данных. 
     
 5. Убедитесь, что свойства доступны и действительны. Если необходимо, отобразите диалоговое окно, предлагающее пользователю внести исправления или добавления в недопустимые или отсутствующие сведения, и вызвать метод [IMAPIProp:: SetProps](imapiprop-setprops.md) для сохранения изменений. Ниже приведены некоторые из стандартных свойств, которые должны быть доступны. 
     
-   **Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+   **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-   **Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))
+   **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
     
-   **Пр_провидер_дисплай** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
+   **PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
     
-   **Пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))
+   **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))
     
    > [!NOTE]
-   > Не задавайте **пр_ресаурце_флагс** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) или **пр_провидер_длл_наме** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)). Во время входа эти свойства доступны только для чтения. 
+   > Не задавайте **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) или **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)). Во время входа эти свойства доступны только для чтения. 
   
-6. Если одно или несколько свойств конфигурации недоступны, произошел отказ и возвратите значение МАПИ_Е_УНКОНФИГУРЕД.
+6. Если одно или несколько свойств конфигурации недоступны, произошел отказ и возвратите значение MAPI_E_UNCONFIGURED.
     
 7. Call [имаписуппорт:: сетпровидеруид](imapisupport-setprovideruid.md) для регистрации [мапиуид](mapiuid.md). Поставщик может создать **мапиуид** , выполнив следующие действия: 
     
@@ -58,7 +58,7 @@ MAPI вызывает метод [иабпровидер:: logon](iabprovider-lo
     
 8. При необходимости сохраните недавно созданный **мапиуид** в текущем профиле, вызвав метод * * IMAPIProp:: SetProps * *. 
     
-9. ОтПустите раздел профиля, вызвав его метод **IUnknown:: Release** . 
+9. Отпустите раздел профиля, вызвав его метод **IUnknown:: Release** . 
     
 10. Создайте экземпляр нового объекта logon и задайте для параметра _лппаблогон_ значение Address этого нового объекта. 
     

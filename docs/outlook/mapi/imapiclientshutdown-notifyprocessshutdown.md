@@ -1,5 +1,5 @@
 ---
-title: Имапиклиентшутдовннотифипроцессшутдовн
+title: имапиклиентшутдовннотифипроцессшутдовн
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -39,7 +39,7 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Чтобы избежать потери данных при быстром завершении работы клиента MAPI, клиенты MAPI должны вызывать методы **метод imapiclientshutdown:: нотифипроцессшутдовн** и [метод imapiclientshutdown::D офастшутдовн](imapiclientshutdown-dofastshutdown.md) на основе результата S_OK, возвращаемОГО подсистемой MAPI в метод [метод imapiclientshutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Для получения дополнительных сведений ознакомьтесь с рекомендациями [по быстроМу завершенИю работы](best-practices-for-fast-shutdown.md).
+Чтобы избежать потери данных при быстром завершении работы клиента MAPI, клиенты MAPI должны вызывать методы **метод imapiclientshutdown:: нотифипроцессшутдовн** и [метод imapiclientshutdown::D офастшутдовн](imapiclientshutdown-dofastshutdown.md) на основе результата S_OK, возвращаемого подсистемой MAPI в методе [метод imapiclientshutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Для получения дополнительных сведений ознакомьтесь с рекомендациями [по быстрому завершению работы](best-practices-for-fast-shutdown.md).
   
 ## <a name="see-also"></a>См. также
 

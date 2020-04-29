@@ -21,7 +21,7 @@ ms.locfileid: "33438591"
   
 Можно программно управлять структурой потока PropertyDefinition. Тем не менее, вы можете добиться похожих результатов с помощью конструктора форм Outlook и, в частности, диалогового окна **Свойства** для элемента управления с привязкой к данным. 
   
-Определения полей в структуре потока PropertyDefinition могут иметь один из двух форматов: PropDefV1 и PropDefV2. Outlook поддерживает как PropDefV1, так и PropDefV2. Все определения полей в одной структуре потока PropertyDefinition должны относиться к одному и тому же формату. Дополнительные сведения о различиях PropDefV1 и PropDefV2 см. в разделе [FieldDefinition streamIng Structure](fielddefinition-stream-structure.md).
+Определения полей в структуре потока PropertyDefinition могут иметь один из двух форматов: PropDefV1 и PropDefV2. Outlook поддерживает как PropDefV1, так и PropDefV2. Все определения полей в одной структуре потока PropertyDefinition должны относиться к одному и тому же формату. Дополнительные сведения о различиях PropDefV1 и PropDefV2 см. в разделе [FieldDefinition Streaming Structure](fielddefinition-stream-structure.md).
   
 Элементы данных в этом потоке хранятся в порядке байтов с прямым порядком байтов, сразу после друг друга в порядке, указанном ниже.
   

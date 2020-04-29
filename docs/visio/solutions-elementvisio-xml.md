@@ -22,7 +22,7 @@ ms.locfileid: "34540226"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Солутионс_типе](solutions_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Solutions_Type](solutions_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Solutions. XML  <br/> |
@@ -45,7 +45,7 @@ ms.locfileid: "34540226"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Решение](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Солутион_типе](solution_type-complextypevisio-xml.md) <br/> |Задает один экземпляр XML-файла решения, хранящегося в документе.  <br/> |
+|[Решение](solution-element-solutions_type-complextypevisio-xml.md) <br/> |[Solution_Type](solution_type-complextypevisio-xml.md) <br/> |Задает один экземпляр XML-файла решения, хранящегося в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

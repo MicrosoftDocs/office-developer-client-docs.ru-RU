@@ -1,5 +1,5 @@
 ---
-title: Аркто_типе complexType (XML для Visio)
+title: ArcTo_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539700"
 ---
-# <a name="arctotype-complextype-visio-xml"></a>Аркто_типе complexType (XML для Visio)
+# <a name="arcto_type-complextype-visio-xml"></a>ArcTo_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -21,7 +21,7 @@ ms.locfileid: "34539700"
 |:-----|:-----|
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Базовый элемент расширения** <br/> |Жеометриров_типе  <br/> |
+|**Базовый элемент расширения** <br/> |GeometryRow_Type  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -52,7 +52,7 @@ ms.locfileid: "34539700"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-arcto-rowvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> ||
+|[Cell](cell-element-arcto-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

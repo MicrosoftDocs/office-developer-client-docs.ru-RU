@@ -1,5 +1,5 @@
 ---
-title: Элемент Рулефилтер (Руле_типе complexType) (XML для Visio)
+title: Элемент Рулефилтер (Rule_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541682"
 ---
-# <a name="rulefilter-element-ruletype-complextype-visio-xml"></a>Элемент Рулефилтер (Руле_типе complexType) (XML для Visio)
+# <a name="rulefilter-element-rule_type-complextype-visio-xml"></a>Элемент Рулефилтер (Rule_Type complexType) (XML для Visio)
 
 Задает логическое выражение, определяющее, следует ли применять правило проверки к целевому объекту.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541682"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Рулефилтер_типе](rulefilter_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Проверка. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34541682"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Руле_типе](rule_type-complextypevisio-xml.md) <br/> |Представляет одно правило проверки в наборе правил проверки схемы.  <br/> |
+|[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |Представляет одно правило проверки в наборе правил проверки схемы.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

@@ -7,7 +7,7 @@ keywords:
 - Автоматизация InfoPath 2007, Forms [InfoPath 2007], добавление данных программным путем, Автоматизация [InfoPath 2007], внешние сценарии
 localization_priority: Normal
 ms.assetid: dfa880e6-de23-41c4-b80b-6935e0c8563d
-description: Элементы, предоставляемые основной сборкой взаимодействия Microsoft Office InfoPath (Microsoft. Office. Interop. InfoPath. dll) и сборкой InfoPath XML Interop (Microsoft. Office. Interop. InfoPath. XML. dll), поддерживают написание управляемого кода для автоматизации InfoPath.
+description: Элементы, предоставляемые основной сборкой взаимодействия Microsoft Office InfoPath (Microsoft. Office. Interop. InfoPath. dll) и сборки взаимодействия InfoPath XML InfoPath (Microsoft. Office. Interop. InfoPath. XML. dll), поддерживают написание управляемого кода для автоматизации InfoPath.
 ms.openlocfilehash: 79fbc56033ffce639b5007874dabf56e8e286edb
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "34537817"
 ---
 # <a name="external-automation-scenarios-and-examples"></a>Сценарии и примеры автоматизации с использованием внешних решений
 
-Элементы, предоставляемые основной сборкой взаимодействия Microsoft Office InfoPath (Microsoft. Office. Interop. InfoPath. dll) и сборкой InfoPath XML Interop (Microsoft. Office. Interop. InfoPath. XML. dll), поддерживают написание управляемого кода для автоматизации InfoPath. 
+Элементы, предоставляемые основной сборкой взаимодействия Microsoft Office InfoPath (Microsoft. Office. Interop. InfoPath. dll) и сборки взаимодействия InfoPath XML InfoPath (Microsoft. Office. Interop. InfoPath. XML. dll), поддерживают написание управляемого кода для автоматизации InfoPath. 
   
 ## <a name="establishing-references-to-the-microsoft-office-infopath-primary-interop-and-infopath-xml-interop-assemblies"></a>Установка ссылок на основные сборки взаимодействия Microsoft Office InfoPath и сборки XML-взаимодействия InfoPath
 
@@ -26,7 +26,7 @@ ms.locfileid: "34537817"
 > [!IMPORTANT]
 > Пользователи управляемых приложений с управляемым кодом, которые автоматизируют InfoPath, должны иметь InfoPath, основную сборку взаимодействия Microsoft Office InfoPath и сборку XML-взаимодействия InfoPath, установленную на их компьютерах. Параметр **Поддержка программирования .NET** в программе установки InfoPath настроен на **Запуск с моего компьютера** для обычной установки InfoPath.
 >  
-> В результате, если установлен распространяемый пакет .NET Framework 1,1 или пакет средств разработки программного обеспечения .NET Framework 1,1 (SDK) или более поздней версии, эти сборки взаимодействия также будут установлены по умолчанию. Если эти сборки взаимодействия недоступны на компьютере пользователя, необходимо убедиться в том, что установлена платформа .NET Framework 1,1 или более поздней версии, а затем запустить **программы и компоненты** с **панели управления** , чтобы изменить настройки программы установки и настроить возможности **программирования .NET. Поддержка** возможности InfoPath для **запуска с моего компьютера**. 
+> В результате, если установлен распространяемый пакет .NET Framework 1,1 или пакет средств разработки программного обеспечения .NET Framework 1,1 (SDK) или более поздней версии, эти сборки взаимодействия также будут установлены по умолчанию. Если эти сборки взаимодействия недоступны на компьютере пользователя, необходимо убедиться, что установлено приложение .NET Framework 1,1 или более поздней версии, а затем запустить компонент " **программы и компоненты** " с **панели управления** , чтобы изменить параметры программы установки и настроить **поддержку программирования .NET** для **запуска с моего компьютера**. 
   
 В следующих процедурах описывается, как задать ссылки на основные взаимодействия Microsoft Office InfoPath и сборки InfoPath XML Interop в проекте Visual Studio.
   
@@ -40,15 +40,15 @@ ms.locfileid: "34537817"
     
 3. На вкладке **com** дважды щелкните элемент **Библиотека типов Microsoft InfoPath 3,0**и нажмите кнопку **ОК**.
     
-Чтобы задать ссылку на сборку взаимодействия Microsoft. Office. Interop. InfoPath. XML, найдите файл Microsoft. Office. Interop. InfoPath. XML. dll, установленный по умолчанию в папке _Лт_ _Drive__гт_: \Program Files\Microsoft office\office14. Folder . Несмотря на то, что вы указали копию сборки в локальной файловой системе, эта процедура создает ссылку на сборку Microsoft. Office. Interop. InfoPath. XML. dll, установленную в глобальном кэше сборок программой установки InfoPath.
+Чтобы задать ссылку на сборку взаимодействия Microsoft. Office. Interop. InfoPath. XML, найдите файл Microsoft. Office. Interop. InfoPath. XML. dll, установленный по умолчанию в < _диске_>: \Program Files\Microsoft office\office14. Folder. Несмотря на то, что вы указали копию сборки в локальной файловой системе, эта процедура создает ссылку на сборку Microsoft. Office. Interop. InfoPath. XML. dll, установленную в глобальном кэше сборок программой установки InfoPath.
   
 ### <a name="set-a-reference-to-the-microsoftofficeinteropinfopathxml-interop-assembly"></a>Задайте ссылку на сборку взаимодействия Microsoft. Office. Interop. InfoPath. XML.
 
-1. Откройте или создайте проект управляемого кода Visual Studio, например консольное **приложение** или **приложение Windows**.
+1. Откройте или создайте проект управляемого кода Visual Studio, например **консольное приложение** или **приложение Windows**.
     
 2. В окне **Обозреватель решений** щелкните правой кнопкой мыши **Ссылки**, а затем выберите команду **Добавить ссылку**.
     
-3. На вкладке **.NET** нажмите кнопку **Обзор**, перейдите к папке _лт_ _Drive__гт_: \Program Files\Microsoft Office\office14. Folder, а затем выберите Microsoft. Office. Interop. InfoPath. XML. dll.
+3. На вкладке **.NET** нажмите кнопку **Обзор**, перейдите к < _диске_>: \Program Files\Microsoft Office\office14. Folder, а затем выберите Microsoft. Office. Interop. InfoPath. XML. dll.
     
 4. Нажмите кнопку **ОК**.
     

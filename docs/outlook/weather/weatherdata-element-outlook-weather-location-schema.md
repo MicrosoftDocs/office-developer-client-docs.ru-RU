@@ -57,7 +57,7 @@ ms.locfileid: "34540933"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Погода](weather-element-weatherdata-elementoutlook-weather-location-schema.md) <br/> |[Веасертипе](weathertype-complextype-outlook-weather-location-schema.md) <br/> |Указывает расположение для отчета о погоде.  <br/> |
+|[Погода](weather-element-weatherdata-elementoutlook-weather-location-schema.md) <br/> |[веасертипе](weathertype-complextype-outlook-weather-location-schema.md) <br/> |Указывает расположение для отчета о погоде.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

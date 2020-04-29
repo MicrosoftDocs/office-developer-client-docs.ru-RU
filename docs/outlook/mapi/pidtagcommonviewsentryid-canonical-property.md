@@ -29,7 +29,7 @@ ms.locfileid: "33437345"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОММОН_ВИЕВС_ЕНТРИД  <br/> |
+|Связанные свойства:  <br/> |PR_COMMON_VIEWS_ENTRYID  <br/> |
 |Идентификатор:  <br/> |0x35E6  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Приложение Outlook  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "33437345"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

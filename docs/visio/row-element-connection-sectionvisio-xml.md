@@ -22,7 +22,7 @@ ms.locfileid: "34541766"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Коннектионров_типе](connectionrow_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[ConnectionRow_Type](connectionrow_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34541766"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |Содержит координаты x или y, горизонтальное и вертикальное направление и тип для одной точки подключения на фигуре.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Содержит координаты x или y, горизонтальное и вертикальное направление и тип для одной точки подключения на фигуре.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-connection-rowvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство.  <br/> |
+|[Cell](cell-element-connection-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

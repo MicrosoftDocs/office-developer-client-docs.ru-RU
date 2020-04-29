@@ -1,5 +1,5 @@
 ---
-title: элемент CP (Текст_типе complexType) (XML для Visio)
+title: элемент CP (Text_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540562"
 ---
-# <a name="cp-element-texttype-complextype-visio-xml"></a>элемент CP (Текст_типе complexType) (XML для Visio)
+# <a name="cp-element-text_type-complextype-visio-xml"></a>элемент CP (Text_Type complexType) (XML для Visio)
 
 Помечает начало свойства знака, которое отформатировано в соответствии с соответствующим элементом char. Выполнение определяется до конца текста или до следующего тега.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34540562"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Кп_типе](cp_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[cp_Type](cp_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34540562"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Текст_типе](text_type-complextypevisio-xml.md) <br/> |Содержит текст фигуры.  <br/> |
+|[Text](text-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Text_Type](text_type-complextypevisio-xml.md) <br/> |Содержит текст фигуры.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

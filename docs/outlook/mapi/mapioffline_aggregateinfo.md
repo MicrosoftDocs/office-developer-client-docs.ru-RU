@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438164"
 ---
-# <a name="mapiofflineaggregateinfo"></a>MAPIOFFLINE_AGGREGATEINFO
+# <a name="mapioffline_aggregateinfo"></a>MAPIOFFLINE_AGGREGATEINFO
 
   
   
@@ -32,17 +32,17 @@ typedef struct
 } MAPIOFFLINE_AGGREGATEINFO;
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>"Участники"
 
- **Улсизе**
+ **улсизе**
   
 > Размер структуры.
     
- **Паутеробж**
+ **паутеробж**
   
 > Указатель на объект IUnknown, на который выполняется статистическое вычисление этого объекта. Это позволяет всем вызовам QueryInterface передаваться на созданный объект.
     
- **Префтраккрут**
+ **префтраккрут**
   
 > Должно иметь значение NULL.
     

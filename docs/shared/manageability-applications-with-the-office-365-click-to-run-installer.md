@@ -127,7 +127,7 @@ BSTR contentid;
 HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 ```
 
-#### <a name="parameters"></a>Parameters
+#### <a name="parameters"></a>Параметры
 
 -  _displaylevel_: **true** , чтобы показать состояние установки, включая ошибки, во время процесса обновления; **значение false** , чтобы скрыть состояние установки, включая ошибки, во время процесса обновления. Значение по умолчанию: **false**.
     
@@ -146,7 +146,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 
 <a name="bk_ApplyRemark"></a>
 
-#### <a name="remarks"></a>Замечания
+#### <a name="remarks"></a>Примечания
 
 - Если какое-либо приложение Office запускается при запуске действия **Apply** , действие **Apply** завершится с ошибками. При `forceappshutdown=true` передаче в метод **Apply** служба **оффицекликкторун** немедленно завершит работу всех запущенных приложений Office и применить обновление. Пользователь может столкнуться с данными, так как они не получают запроса на сохранение изменений в открытых документах... 
     
@@ -166,7 +166,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
     
 - При вызове метода **Apply** без предварительной загрузки содержимого метод **Apply** будет сообщать об **успешном** завершении, так как он не обнаружил, что успешно применялся и завершил процесс **применения** . 
     
-### <a name="cancel"></a>Отмена
+### <a name="cancel"></a>Отменить
 
 ```cpp
 HRESULT Cancel() // Cancel the download action.
@@ -181,7 +181,7 @@ HRESULT Cancel() // Cancel the download action.
 
 <a name="bk_CancelRemarks"></a>
 
-#### <a name="remarks"></a>Замечания
+#### <a name="remarks"></a>Примечания
 
 - Этот метод можно запускать только при **eDOWNLOAD_WIP**идентификатора состояния com. Будет предпринята попытка отменить текущее действие скачивания. Состояние COM изменится на **eDOWNLOAD_CANCELLING** и в конечном итоге изменится на **eDOWNLOAD_CANCELED**. Состояние COM возвращает **E_ILLEGAL_METHOD_CALL** , если триггер запускается в любое другое время. 
     
@@ -191,7 +191,7 @@ HRESULT Cancel() // Cancel the download action.
 HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 ```
 
-#### <a name="parameters"></a>Parameters
+#### <a name="parameters"></a>Параметры
 
 -  _displaylevel_: **true** , чтобы показать состояние установки, включая ошибки, во время процесса обновления; **значение false** , чтобы скрыть состояние установки, включая ошибки, во время процесса обновления. Значение по умолчанию: **false**.
     
@@ -214,7 +214,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 <a name="bk_DownloadRemark"></a>
 
-#### <a name="remarks"></a>Замечания
+#### <a name="remarks"></a>Примечания
 
 - Необходимо указать _довнлоадсаурце_ и идентификатор _ContentId_ в виде связывания. В противном случае метод **download** возвратит ошибку **E_INVALIDARG** . 
     
@@ -252,7 +252,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
   "updatebaseurl=yourcontentserverurl"
   ```
 
-### <a name="status"></a>Status
+### <a name="status"></a>Состояние
 
 ```cpp
 typdef struct _UPDATE_STATUS_REPORT
@@ -264,7 +264,7 @@ typdef struct _UPDATE_STATUS_REPORT
 HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status of current action
 ```
 
-#### <a name="parameters"></a>Parameters
+#### <a name="parameters"></a>Параметры
 
 |||
 |:-----|:-----|
@@ -276,7 +276,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 |:-----|:-----|
 |**S_OK** <br/> |Метод **Status** всегда возвращает этот результат. Проверка `UPDATE_STATUS_RESULT` структуры на состояние текущего действия.  <br/> |
    
-#### <a name="remarks"></a>Замечания
+#### <a name="remarks"></a>Примечания
 
 - В поле Status ( `UPDATE_STATUS_REPORT` состояние) содержится состояние текущего действия. Возвращается одно из следующих значений состояния: 
     
@@ -429,7 +429,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
   - кмбитс жестко запрограммирована, а обозначает настроенные биты.
     
-  -  Идентификатор ContentId __ _\> является параметром ContentId для метода \<_ **Download ()** . 
+  -  Идентификатор ContentId _contentid_ _\> является параметром ContentId для метода \<_ **Download ()** . 
     
   -  _относительный путь к\> целевому файлу указывает расположение и имя файла, который требуется скачать. \<_ 
     
@@ -582,7 +582,7 @@ THE ABOVE SECTION APPEARS TO BE A DUPLICATE OF THE FOLLOWING SECTION; TEMPORARIL
 
 ## <a name="automating-content-staging"></a>Автоматизация промежуточного хранения контента
 
-ИТ-администраторы могут разрешить клиентам для настольных ПК автоматически получать обновления, когда они доступны непосредственно из сети доставки содержимого (CDN) Microsoft (CDN), или могут управлять развертыванием обновлений, доступных в обновлении каналы с помощью средства развертывания Office или System Center Configuration Manager.
+ИТ-администраторы могут разрешить клиентам для настольных ПК автоматически получать обновления, когда они доступны непосредственно из сети доставки содержимого (CDN) Microsoft (CDN), или могут управлять развертыванием обновлений, доступных в каналах обновления с помощью средства развертывания Office или диспетчера конфигураций System Center.
   
 Служба поддерживает возможность средств управления определять и автоматизировать загрузку контента при наличии обновлений.
   
@@ -784,14 +784,14 @@ https://officecdn.microsoft.com/pr/wsus/ofl.cab— Это расположени
   
 - Атрибут *Name* определяет идентификатор канала, который используется для передачи в ODT из файла Configuration. XML в качестве атрибута Channel. 
     
-  Пример: `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Current">`. 
+  Пример: `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Current">` 
     
   > [!NOTE] 
   > Этот атрибут устарел и используется только для обратной совместимости. Используйте атрибут ID вместо атрибута Name. 
     
 - Атрибут *ID* определяет идентификатор канала, который используется для передачи в ODT из файла Configuration. XML в качестве атрибута Channel. 
     
-  Пример: `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Deferred">`. 
+  Пример: `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Deferred">` 
     
 - В качестве отображаемого имени используется атрибут **DisplayName** . 
     

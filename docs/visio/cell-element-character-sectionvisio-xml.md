@@ -22,7 +22,7 @@ ms.locfileid: "34540086"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Master #. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34540086"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Элемент Row (раздел "символ")](row-element-character-sectionvisio-xml.md) <br/> |[Чарактерров_типе](characterrow_type-complextypevisio-xml.md) <br/> |Задает атрибут форматирования для текстового запуска фигуры, например шрифт, цвет, стиль, регистр, положение относительно базовой линии или кегля.  <br/> |
+|[Элемент Row (раздел "символ")](row-element-character-sectionvisio-xml.md) <br/> |[CharacterRow_Type](characterrow_type-complextypevisio-xml.md) <br/> |Задает атрибут форматирования для текстового запуска фигуры, например шрифт, цвет, стиль, регистр, положение относительно базовой линии или кегля.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -69,15 +69,15 @@ ms.locfileid: "34540086"
 |AsianFont  <br/> |Содержит перечисление шрифта, используемого для форматирования текста Run, содержащего восточноазиатские символы.  <br/> |[AsianFont Cell (Character Section)](asianfont-cell-character-section.md) <br/> |
 |Ситуация  <br/> |Определяет регистр текстового запуска фигуры.  <br/> |[Case Cell (Character Section)](case-cell-character-section.md) <br/> |
 |Цвет  <br/> |Определяет цвет, используемый для текстового запуска фигуры.  <br/> |[Color Cell (Character Section)](color-cell-character-section.md) <br/> |
-|Колортранс  <br/> |Определяет степень прозрачности для цвета выполнения текста слоя или фигуры от 0 (полностью непрозрачна) до 1 (полностью прозрачно).  <br/> |Нет.  <br/> |
+|колортранс  <br/> |Определяет степень прозрачности для цвета выполнения текста слоя или фигуры от 0 (полностью непрозрачна) до 1 (полностью прозрачно).  <br/> |Нет.  <br/> |
 |ComplexScriptFont  <br/> |Содержит номер шрифта, используемого для форматирования текстового фрагмента, состоящего из сложных символов.  <br/> |[ComplexScriptFont Cell (Character Section)](complexscriptfont-cell-character-section.md) <br/> |
 |ComplexScriptSize  <br/> |Размер шрифта, используемого для форматирования текстового фрагмента, состоящего из сложных символов.  <br/> |[ComplexScriptSize Cell (Character Section)](complexscriptsize-cell-character-section.md) <br/> |
-|Дблундерлине  <br/> |Определяет, имеет ли диапазон текстовой цепочки двойное подчеркивание.  <br/> |[DoubleULine Cell (Character Section)](doubleuline-cell-character-section.md) <br/> |
+|дблундерлине  <br/> |Определяет, имеет ли диапазон текстовой цепочки двойное подчеркивание.  <br/> |[DoubleULine Cell (Character Section)](doubleuline-cell-character-section.md) <br/> |
 |DoubleStrikethrough  <br/> |Определяет, отформатирован ли текст двойным зачеркиванием.  <br/> |[DoubleStrikethrough Cell (Character Section)](doublestrikethrough-cell-character-section.md) <br/> |
 |Шрифт  <br/> |Представляет номер шрифта, используемого для форматирования текстового запуска.  <br/> |[Font Cell (Character Section)](font-cell-character-section.md) <br/> |
-|Фонтскале  <br/> |Задает ширину шрифта.  <br/> |Нет.  <br/> |
+|фонтскале  <br/> |Задает ширину шрифта.  <br/> |Нет.  <br/> |
 |LangID  <br/> |Указывает язык, на котором было введено текстовое выполнение.  <br/> |[LangID Cell (Character Section)](langid-cell-character-section.md) <br/> |
-|Леттерспаце  <br/> |Задает расстояние между двумя или более символами. Место можно добавить или вычесть с шагом 1/20-й точки.  <br/> |Нет.  <br/> |
+|леттерспаце  <br/> |Задает расстояние между двумя или более символами. Место можно добавить или вычесть с шагом 1/20-й точки.  <br/> |Нет.  <br/> |
 |Overline  <br/> |Определяет, содержит ли текстовая цепочка линию над ним.  <br/> |[Overline Cell (Character Section)](overline-cell-character-section.md) <br/> |
 |Терминал  <br/> |Определяет положение текста фигуры, выполняемого относительно базового плана.  <br/> |[Pos Cell (Character Section)](pos-cell-character-section.md) <br/> |
 |Размер  <br/> |Определяет размер текста, выполняемого в блоке текста фигуры.  <br/> |[Size Cell (Character Section)](size-cell-character-section.md) <br/> |

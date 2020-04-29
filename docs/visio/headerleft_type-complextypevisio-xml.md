@@ -1,5 +1,5 @@
 ---
-title: Хеадерлефт_типе complexType (XML для Visio)
+title: HeaderLeft_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541059"
 ---
-# <a name="headerlefttype-complextype-visio-xml"></a>Хеадерлефт_типе complexType (XML для Visio)
+# <a name="headerleft_type-complextype-visio-xml"></a>HeaderLeft_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 

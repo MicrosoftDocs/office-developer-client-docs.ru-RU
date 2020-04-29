@@ -1,5 +1,5 @@
 ---
-title: Элемент RuleSetFlags (Рулесет_типе complexType) (XML для Visio)
+title: Элемент RuleSetFlags (RuleSet_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541598"
 ---
-# <a name="rulesetflags-element-rulesettype-complextype-visio-xml"></a>Элемент RuleSetFlags (Рулесет_типе complexType) (XML для Visio)
+# <a name="rulesetflags-element-ruleset_type-complextype-visio-xml"></a>Элемент RuleSetFlags (RuleSet_Type complexType) (XML для Visio)
 
 Задает свойства набора правил.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541598"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Рулесетфлагс_типе](rulesetflags_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Проверка. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34541598"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[Рулесет_типе](ruleset_type-complextypevisio-xml.md) <br/> |Представляет один набор правил проверки схемы.  <br/> |
+|[RuleSet](ruleset-element-rulesets_type-complextypevisio-xml.md) <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |Представляет один набор правил проверки схемы.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

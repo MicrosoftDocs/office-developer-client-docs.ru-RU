@@ -1,5 +1,5 @@
 ---
-title: Снапангле_типе complexType (XML для Visio)
+title: SnapAngle_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540450"
 ---
-# <a name="snapangletype-complextype-visio-xml"></a>Снапангле_типе complexType (XML для Visio)
+# <a name="snapangle_type-complextype-visio-xml"></a>SnapAngle_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 

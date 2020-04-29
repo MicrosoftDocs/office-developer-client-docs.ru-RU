@@ -1,5 +1,5 @@
 ---
-title: Элемент FooterRight (Хеадерфутер_типе complexType) (XML для Visio)
+title: Элемент FooterRight (HeaderFooter_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538629"
 ---
-# <a name="footerright-element-headerfootertype-complextype-visio-xml"></a>Элемент FooterRight (Хеадерфутер_типе complexType) (XML для Visio)
+# <a name="footerright-element-headerfooter_type-complextype-visio-xml"></a>Элемент FooterRight (HeaderFooter_Type complexType) (XML для Visio)
 
 Содержит текстовую строку, которая отображается в правой части нижнего колонтитула документа.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34538629"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Футерригхт_типе](footerright_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[FooterRight_Type](footerright_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34538629"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Хеадерфутер_типе](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для верхнего и нижнего колонтитулов документа.  <br/> |
+|[HeaderFooter](headerfooter-element-visiodocument_type-complextypevisio-xml.md) <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |Содержит элементы для верхнего и нижнего колонтитулов документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

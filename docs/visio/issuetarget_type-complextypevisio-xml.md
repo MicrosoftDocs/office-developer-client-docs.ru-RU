@@ -1,5 +1,5 @@
 ---
-title: Иссуетаржет_типе complexType (XML для Visio)
+title: IssueTarget_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542144"
 ---
-# <a name="issuetargettype-complextype-visio-xml"></a>Иссуетаржет_типе complexType (XML для Visio)
+# <a name="issuetarget_type-complextype-visio-xml"></a>IssueTarget_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -52,6 +52,6 @@ ms.locfileid: "34542144"
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
 |PageID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
-|Шапеид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|шапеид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

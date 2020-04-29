@@ -25,8 +25,8 @@ ms.locfileid: "34537796"
 |[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Координата *y* контрольной точки дуги.  <br/> |
 |[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Последний вес неоднородного рационального B-сплайна (NURBS).  <br/> |
 |[SplineStart](splinestart-row-geometry-section.md) <br/> | Первый кнот сплайна.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Координата *y* точки на бесконечной линии; Связывание с координатой *x* , представленной [](a-cell-geometry-section.md) ячейкой.  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> | Координата *y* точки эллипса; Связывание с координатой *x* , представленной [](a-cell-geometry-section.md) ячейкой.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Координата *y* точки на бесконечной линии; Связывание с координатой *x* [, представленной ячейкой](a-cell-geometry-section.md) .  <br/> |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> | Координата *y* точки эллипса; Связывание с координатой *x* [, представленной ячейкой](a-cell-geometry-section.md) .  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -44,11 +44,11 @@ ms.locfileid: "34537796"
 | Индекс раздела:  <br/> |**visSectionFirstComponent** +  *i*, где *i* = 0, 1, 2...  <br/> |
 | Индекс строки:  <br/> |**visRowVertex** +  *j*, где *j* = 0, 1, 2...  <br/> |
 ||**visRowVertex** (строки InfiniteLine и Ellipse)  <br/> |
-| Индекс ячейки:  <br/> |**висконтролкс** (Строка строка ellipticalarcto)  <br/> |
-||**висконтроли** (Строка строка ellipticalarcto)  <br/> |
-||**виснурбсвеигхт** (Строка NURBSTo)  <br/> |
-||**visSplineKnot2** (Строка строка splinestart)  <br/> |
-||**visInfiniteLineY2** (Строка строка infiniteline)  <br/> |
-||**виселлипсемажори** (Строка "эллипс")  <br/> |
+| Индекс ячейки:  <br/> |**висконтролкс** (строка строка ellipticalarcto)  <br/> |
+||**висконтроли** (строка строка ellipticalarcto)  <br/> |
+||**виснурбсвеигхт** (строка NURBSTo)  <br/> |
+||**visSplineKnot2** (строка строка splinestart)  <br/> |
+||**visInfiniteLineY2** (строка строка infiniteline)  <br/> |
+||**виселлипсемажори** (строка "эллипс")  <br/> |
    
 

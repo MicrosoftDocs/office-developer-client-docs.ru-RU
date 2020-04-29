@@ -1,5 +1,5 @@
 ---
-title: Фаценамес_типе complexType (XML для Visio)
+title: FaceNames_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542424"
 ---
-# <a name="facenamestype-complextype-visio-xml"></a>Фаценамес_типе complexType (XML для Visio)
+# <a name="facenames_type-complextype-visio-xml"></a>FaceNames_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "34542424"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Фаценаме](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[Фаценаме_типе](facename_type-complextypevisio-xml.md) <br/> ||
+|[фаценаме](facename-element-facenames_type-complextypevisio-xml.md) <br/> |[FaceName_Type](facename_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

@@ -1,5 +1,5 @@
 ---
-title: Колорентри_типе complexType (XML для Visio)
+title: ColorEntry_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540149"
 ---
-# <a name="colorentrytype-complextype-visio-xml"></a>Колорентри_типе complexType (XML для Visio)
+# <a name="colorentry_type-complextype-visio-xml"></a>ColorEntry_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 

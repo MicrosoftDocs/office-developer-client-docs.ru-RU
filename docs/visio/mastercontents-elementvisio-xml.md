@@ -22,7 +22,7 @@ ms.locfileid: "34538041"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Пажеконтентс_типе](pagecontents_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML  <br/> |
@@ -46,8 +46,8 @@ ms.locfileid: "34538041"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Коннектс_типе](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе.  <br/> |
-|[Фигуры](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Шапес_типе](shapes_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **Shape** .  <br/> |
+|[Connects](connects-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Connects_Type](connects_type-complextypevisio-xml.md) <br/> |Содержит элемент **Connect** для каждого подключения между двумя фигурами в документе.  <br/> |
+|[Shapes](shapes-element-pagecontents_type-complextypevisio-xml.md) <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **Shape** .  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

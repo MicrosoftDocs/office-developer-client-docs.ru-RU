@@ -1,5 +1,5 @@
 ---
-title: Тп_типе complexType (XML для Visio)
+title: tp_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538601"
 ---
-# <a name="tptype-complextype-visio-xml"></a>Тп_типе complexType (XML для Visio)
+# <a name="tp_type-complextype-visio-xml"></a>tp_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 

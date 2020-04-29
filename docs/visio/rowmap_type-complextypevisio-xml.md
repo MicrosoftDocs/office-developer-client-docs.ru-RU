@@ -1,5 +1,5 @@
 ---
-title: Ровмап_типе complexType (XML для Visio)
+title: RowMap_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538776"
 ---
-# <a name="rowmaptype-complextype-visio-xml"></a>Ровмап_типе complexType (XML для Visio)
+# <a name="rowmap_type-complextype-visio-xml"></a>RowMap_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -57,6 +57,6 @@ ms.locfileid: "34538776"
 |:-----|:-----|:-----|:-----|:-----|
 |PageID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |RowID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
-|Шапеид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|шапеид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
    
 

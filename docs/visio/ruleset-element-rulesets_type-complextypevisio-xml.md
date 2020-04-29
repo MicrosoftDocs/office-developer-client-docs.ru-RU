@@ -1,5 +1,5 @@
 ---
-title: Элемент RuleSet (Рулесетс_типе complexType) (XML для Visio)
+title: Элемент RuleSet (RuleSets_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541640"
 ---
-# <a name="ruleset-element-rulesetstype-complextype-visio-xml"></a>Элемент RuleSet (Рулесетс_типе complexType) (XML для Visio)
+# <a name="ruleset-element-rulesets_type-complextype-visio-xml"></a>Элемент RuleSet (RuleSets_Type complexType) (XML для Visio)
 
 Представляет один набор правил проверки схемы.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541640"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Рулесет_типе](ruleset_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[RuleSet_Type](ruleset_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Проверка. XML  <br/> |
@@ -42,14 +42,14 @@ ms.locfileid: "34541640"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[Рулесетс_типе](rulesets_type-complextypevisio-xml.md) <br/> |Включает элемент **RuleSet** для каждого набора правил проверки в документе.  <br/> |
+|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |Включает элемент **RuleSet** для каждого набора правил проверки в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Руле_типе](rule_type-complextypevisio-xml.md) <br/> |Представляет одно правило проверки в наборе правил проверки схемы.  <br/> |
-|[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[Рулесетфлагс_типе](rulesetflags_type-complextypevisio-xml.md) <br/> |Задает свойства набора правил.  <br/> |
+|[Rule](rule-element-ruleset_type-complextypevisio-xml.md) <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |Представляет одно правило проверки в наборе правил проверки схемы.  <br/> |
+|[RuleSetFlags](rulesetflags-element-ruleset_type-complextypevisio-xml.md) <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |Задает свойства набора правил.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -57,7 +57,7 @@ ms.locfileid: "34541640"
 |:-----|:-----|:-----|:-----|:-----|
 |Описание  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает описание, которое отображается в пользовательском интерфейсе для набора правил проверки. Значение по умолчанию — пустая строка.  <br/> |Значения типа String: XSD.  <br/> |
 |Включен  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, проверяются ли правила в указанном наборе правил проверки при запуске проверки для текущего документа. Значение по умолчанию — True.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор набора правил проверки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор набора правил проверки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает локальное имя набора правил проверки. По умолчанию используется значение атрибута Намеу.  <br/> |Значения типа String: XSD.  <br/> |
 |NameU  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Задает универсальное имя набора правил проверки.  <br/> |Значения типа String: XSD.  <br/> |
    

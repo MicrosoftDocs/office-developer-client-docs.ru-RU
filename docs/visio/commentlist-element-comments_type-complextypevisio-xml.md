@@ -1,5 +1,5 @@
 ---
-title: Элемент Комментлист (Комментс_типе complexType) (XML для Visio)
+title: Элемент Комментлист (Comments_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539250"
 ---
-# <a name="commentlist-element-commentstype-complextype-visio-xml"></a>Элемент Комментлист (Комментс_типе complexType) (XML для Visio)
+# <a name="commentlist-element-comments_type-complextype-visio-xml"></a>Элемент Комментлист (Comments_Type complexType) (XML для Visio)
 
 Задает комментарии в документе.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34539250"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Комментлист_типе](commentlist_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Comments. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34539250"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Примечания](comments-element-comments_type-complextypevisio-xml.md) <br/> |[Комментс_типе](comments_type-complextypevisio-xml.md) <br/> |Задает свойства, используемые для идентификации авторов и комментариев в документе.  <br/> |
+|[Comments](comments-element-comments_type-complextypevisio-xml.md) <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |Задает свойства, используемые для идентификации авторов и комментариев в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Комментентри](commententry-element-commentlist_type-complextypevisio-xml.md) <br/> |[Комментентри_типе](commententry_type-complextypevisio-xml.md) <br/> |Задает свойства, используемые для идентификации комментария в документе.  <br/> |
+|[комментентри](commententry-element-commentlist_type-complextypevisio-xml.md) <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> |Задает свойства, используемые для идентификации комментария в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

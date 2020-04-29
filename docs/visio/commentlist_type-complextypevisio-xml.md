@@ -1,5 +1,5 @@
 ---
-title: Комментлист_типе complexType (XML для Visio)
+title: CommentList_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542053"
 ---
-# <a name="commentlisttype-complextype-visio-xml"></a>Комментлист_типе complexType (XML для Visio)
+# <a name="commentlist_type-complextype-visio-xml"></a>CommentList_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "34542053"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Комментентри](commententry-element-commentlist_type-complextypevisio-xml.md) <br/> |[Комментентри_типе](commententry_type-complextypevisio-xml.md) <br/> ||
+|[комментентри](commententry-element-commentlist_type-complextypevisio-xml.md) <br/> |[CommentEntry_Type](commententry_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

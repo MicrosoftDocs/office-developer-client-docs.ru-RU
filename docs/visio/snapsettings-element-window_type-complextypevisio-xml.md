@@ -1,5 +1,5 @@
 ---
-title: Элемент SnapSettings (Виндов_типе complexType) (XML для Visio)
+title: Элемент SnapSettings (Window_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540317"
 ---
-# <a name="snapsettings-element-windowtype-complextype-visio-xml"></a>Элемент SnapSettings (Виндов_типе complexType) (XML для Visio)
+# <a name="snapsettings-element-window_type-complextype-visio-xml"></a>Элемент SnapSettings (Window_Type complexType) (XML для Visio)
 
 Указывает объекты, к которым привязываются фигуры при активации привязки в окне.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34540317"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Снапсеттингс_типе](snapsettings_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[SnapSettings_Type](snapsettings_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Windows. XML  <br/> |
@@ -61,9 +61,9 @@ ms.locfileid: "34540317"
 |нуль  <br/> |Привязывать к Nothing.  <br/> |
 |1,1  <br/> |Привязка к промежуточным делениям линейки.  <br/> |
 |2  <br/> |Привязать к сетке.  <br/> |
-|SP4  <br/> |Привязывать к направляющим.  <br/> |
+|4   <br/> |Привязывать к направляющим.  <br/> |
 |8   <br/> |Прикрепить к маркерам выделения.  <br/> |
-|столбцов  <br/> |Привязать к вершинам.  <br/> |
+|16   <br/> |Привязать к вершинам.  <br/> |
 |32  <br/> |Привязывать к точкам подключения.  <br/> |
 |256  <br/> |Привязка к видимым краям фигур.  <br/> |
 |512  <br/> |Привязать к полю выравнивания.  <br/> |

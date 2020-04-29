@@ -1,5 +1,5 @@
 ---
-title: Примарикэй_типе complexType (XML для Visio)
+title: PrimaryKey_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538797"
 ---
-# <a name="primarykeytype-complextype-visio-xml"></a>Примарикэй_типе complexType (XML для Visio)
+# <a name="primarykey_type-complextype-visio-xml"></a>PrimaryKey_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -52,12 +52,12 @@ ms.locfileid: "34538797"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Ровкэйвалуе](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[Ровкэйвалуе_типе](rowkeyvalue_type-complextypevisio-xml.md) <br/> ||
+|[ровкэйвалуе](rowkeyvalue-element-primarykey_type-complextypevisio-xml.md) <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Колумннамеид  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|колумннамеид  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
    
 

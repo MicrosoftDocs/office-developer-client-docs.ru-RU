@@ -1,5 +1,5 @@
 ---
-title: Сектиондеф_типе complexType (XML для Visio)
+title: SectionDef_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542081"
 ---
-# <a name="sectiondeftype-complextype-visio-xml"></a>Сектиондеф_типе complexType (XML для Visio)
+# <a name="sectiondef_type-complextype-visio-xml"></a>SectionDef_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -64,8 +64,8 @@ ms.locfileid: "34542081"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|Целлдеф <br/> |[Целлдеф_типе](celldef_type-complextypevisio-xml.md) <br/> ||
-|Ровдеф <br/> |[Ровдеф_типе](rowdef_type-complextypevisio-xml.md) <br/> ||
+|целлдеф <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
+|ровдеф <br/> |[RowDef_Type](rowdef_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

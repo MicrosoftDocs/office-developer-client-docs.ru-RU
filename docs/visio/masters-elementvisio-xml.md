@@ -22,7 +22,7 @@ ms.locfileid: "34538055"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Мастерс_типе](masters_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Главные. XML  <br/> |
@@ -46,8 +46,8 @@ ms.locfileid: "34538055"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Мастер_типе](master_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие шаблон для документа.  <br/> |
-|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[Мастершорткут_типе](mastershortcut_type-complextypevisio-xml.md) <br/> |Задает ярлык образца, определенный в документе.  <br/> |
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие шаблон для документа.  <br/> |
+|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Задает ярлык образца, определенный в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

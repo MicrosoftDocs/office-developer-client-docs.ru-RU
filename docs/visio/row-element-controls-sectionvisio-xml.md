@@ -22,7 +22,7 @@ ms.locfileid: "34541745"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Контролров_типе](controlrow_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34541745"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |Содержит ячейки для определенного управляющего маркера, определенного для фигуры.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Содержит ячейки для определенного управляющего маркера, определенного для фигуры.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-controls-rowvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |Содержит свойство для определенного управляющего маркера, определенного для фигуры.  <br/> |
+|[Cell](cell-element-controls-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Содержит свойство для определенного управляющего маркера, определенного для фигуры.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

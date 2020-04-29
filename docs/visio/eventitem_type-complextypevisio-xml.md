@@ -1,5 +1,5 @@
 ---
-title: Евентитем_типе complexType (XML для Visio)
+title: EventItem_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541794"
 ---
-# <a name="eventitemtype-complextype-visio-xml"></a>Евентитем_типе complexType (XML для Visio)
+# <a name="eventitem_type-complextype-visio-xml"></a>EventItem_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -68,8 +68,8 @@ ms.locfileid: "34541794"
 |:-----|:-----|:-----|:-----|:-----|
 |Action  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
 |Включен  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
-|Евенткоде  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|евенткоде  <br/> |xsd:unsignedShort  <br/> |Обязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |Target  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
 |TargetArgs  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
    

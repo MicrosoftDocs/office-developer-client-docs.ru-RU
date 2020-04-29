@@ -1,5 +1,5 @@
 ---
-title: Элемент Рефрешабледата (Публишсеттингс_типе complexType) (XML для Visio)
+title: Элемент Рефрешабледата (PublishSettings_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542879"
 ---
-# <a name="refreshabledata-element-publishsettingstype-complextype-visio-xml"></a>Элемент Рефрешабледата (Публишсеттингс_типе complexType) (XML для Visio)
+# <a name="refreshabledata-element-publishsettings_type-complextype-visio-xml"></a>Элемент Рефрешабледата (PublishSettings_Type complexType) (XML для Visio)
 
 Указывает, следует ли обновлять набор записей с помощью служб Visio в Microsoft SharePoint Server 2013.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34542879"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Рефрешабледата_типе](refreshabledata_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
@@ -43,7 +43,7 @@ ms.locfileid: "34542879"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Публишсеттингс](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Публишсеттингс_типе](publishsettings_type-complextypevisio-xml.md) <br/> |Задает параметры, которые используются при открытии схемы с помощью служб Visio.  <br/> |
+|[публишсеттингс](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Задает параметры, которые используются при открытии схемы с помощью служб Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -53,6 +53,6 @@ ms.locfileid: "34542879"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор объекта Recordset.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор объекта Recordset.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

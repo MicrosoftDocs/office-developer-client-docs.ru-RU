@@ -22,7 +22,7 @@ ms.locfileid: "34540415"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Актионсров_типе](actionsrow_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[ActionsRow_Type](actionsrow_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master. XML, Master #. XML, Pages. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34540415"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Сектион_типе](section_type-complextypevisio-xml.md) <br/> |Содержит строки, описывающие пункты меню в контекстном меню или меню тегов действий фигуры или страницы.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Содержит строки, описывающие пункты меню в контекстном меню или меню тегов действий фигуры или страницы.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-actions-rowvisio-xml.md) <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство действия, связанного с настраиваемой командой, в контекстном меню или меню тегов действий.  <br/> |
+|[Cell](cell-element-actions-rowvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство действия, связанного с настраиваемой командой, в контекстном меню или меню тегов действий.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

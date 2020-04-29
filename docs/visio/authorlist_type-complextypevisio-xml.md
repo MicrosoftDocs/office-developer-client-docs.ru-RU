@@ -1,5 +1,5 @@
 ---
-title: Аусорлист_типе complexType (XML для Visio)
+title: AuthorList_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537901"
 ---
-# <a name="authorlisttype-complextype-visio-xml"></a>Аусорлист_типе complexType (XML для Visio)
+# <a name="authorlist_type-complextype-visio-xml"></a>AuthorList_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "34537901"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Аусорентри](authorentry-element-authorlist_type-complextypevisio-xml.md) <br/> |[Аусорентри_типе](authorentry_type-complextypevisio-xml.md) <br/> ||
+|[аусорентри](authorentry-element-authorlist_type-complextypevisio-xml.md) <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

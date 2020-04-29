@@ -1,5 +1,5 @@
 ---
-title: Мастерс_типе complexType (XML для Visio)
+title: Masters_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538083"
 ---
-# <a name="masterstype-complextype-visio-xml"></a>Мастерс_типе complexType (XML для Visio)
+# <a name="masters_type-complextype-visio-xml"></a>Masters_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -54,8 +54,8 @@ ms.locfileid: "34538083"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Мастер_типе](master_type-complextypevisio-xml.md) <br/> ||
-|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[Мастершорткут_типе](mastershortcut_type-complextypevisio-xml.md) <br/> ||
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> ||
+|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

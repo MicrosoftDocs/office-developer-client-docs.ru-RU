@@ -36,7 +36,7 @@ typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>"Участники"
 
 Просмотр структуры **сбинарярри** для членов. 
   

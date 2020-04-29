@@ -23,7 +23,7 @@ ms.locfileid: "34540982"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Форекасттипе](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
+|**Тип элемента** <br/> |[форекасттипе](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
 |**Файл схемы** <br/> |жетвеасеринфо. xsd  <br/> |
    
@@ -43,7 +43,7 @@ ms.locfileid: "34540982"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Погода](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[Веасертипе](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Задает условия для расположения в прогнозе погоды.  <br/> |
+|[Погода](weather-element-weatherdata-elementoutlook-weather-information-schema.md) <br/> |[веасертипе](weathertype-complextype-outlook-weather-information-schema.md) <br/> |Задает условия для расположения в прогнозе погоды.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

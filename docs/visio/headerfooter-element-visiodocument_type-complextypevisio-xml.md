@@ -1,5 +1,5 @@
 ---
-title: Элемент HeaderFooter (Висиодокумент_типе complexType) (XML для Visio)
+title: Элемент HeaderFooter (VisioDocument_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541108"
 ---
-# <a name="headerfooter-element-visiodocumenttype-complextype-visio-xml"></a>Элемент HeaderFooter (Висиодокумент_типе complexType) (XML для Visio)
+# <a name="headerfooter-element-visiodocument_type-complextype-visio-xml"></a>Элемент HeaderFooter (VisioDocument_Type complexType) (XML для Visio)
 
 Содержит элементы для верхнего и нижнего колонтитулов документа.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34541108"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Хеадерфутер_типе](headerfooter_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[HeaderFooter_Type](headerfooter_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
@@ -42,21 +42,21 @@ ms.locfileid: "34541108"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[Висиодокумент_типе](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
+|[висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[FooterCenter](footercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футерцентер_типе](footercenter_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в центральной части нижнего колонтитула документа.  <br/> |
-|[FooterLeft](footerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футерлефт_типе](footerleft_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в левой части нижнего колонтитула документа.  <br/> |
-|[FooterMargin](footermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футермаргин_типе](footermargin_type-complextypevisio-xml.md) <br/> |Задает поля нижнего колонтитула документа.  <br/> |
-|[FooterRight](footerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Футерригхт_типе](footerright_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в правой части нижнего колонтитула документа.  <br/> |
-|[HeaderCenter](headercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерцентер_типе](headercenter_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в центральной части заголовка документа.  <br/> |
-|[HeaderFooterFont](headerfooterfont-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерфутерфонт_типе](headerfooterfont_type-complextypevisio-xml.md) <br/> |Задает шрифт, используемый для текста верхнего и нижнего колонтитулов.  <br/> |
-|[HeaderLeft](headerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерлефт_типе](headerleft_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в левой части заголовка документа.  <br/> |
-|[HeaderMargin](headermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадермаргин_типе](headermargin_type-complextypevisio-xml.md) <br/> |Задает поле заголовка документа.  <br/> |
-|[HeaderRight](headerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[Хеадерригхт_типе](headerright_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в правой части заголовка документа.  <br/> |
+|[FooterCenter](footercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterCenter_Type](footercenter_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в центральной части нижнего колонтитула документа.  <br/> |
+|[FooterLeft](footerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterLeft_Type](footerleft_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в левой части нижнего колонтитула документа.  <br/> |
+|[FooterMargin](footermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterMargin_Type](footermargin_type-complextypevisio-xml.md) <br/> |Задает поля нижнего колонтитула документа.  <br/> |
+|[FooterRight](footerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[FooterRight_Type](footerright_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в правой части нижнего колонтитула документа.  <br/> |
+|[HeaderCenter](headercenter-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderCenter_Type](headercenter_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в центральной части заголовка документа.  <br/> |
+|[HeaderFooterFont](headerfooterfont-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderFooterFont_Type](headerfooterfont_type-complextypevisio-xml.md) <br/> |Задает шрифт, используемый для текста верхнего и нижнего колонтитулов.  <br/> |
+|[HeaderLeft](headerleft-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderLeft_Type](headerleft_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в левой части заголовка документа.  <br/> |
+|[HeaderMargin](headermargin-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderMargin_Type](headermargin_type-complextypevisio-xml.md) <br/> |Задает поле заголовка документа.  <br/> |
+|[HeaderRight](headerright-element-headerfooter_type-complextypevisio-xml.md) <br/> |[HeaderRight_Type](headerright_type-complextypevisio-xml.md) <br/> |Содержит текстовую строку, которая отображается в правой части заголовка документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

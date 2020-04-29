@@ -1,5 +1,5 @@
 ---
-title: Элемент SnapExtensions (Виндов_типе complexType) (XML для Visio)
+title: Элемент SnapExtensions (Window_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540324"
 ---
-# <a name="snapextensions-element-windowtype-complextype-visio-xml"></a>Элемент SnapExtensions (Виндов_типе complexType) (XML для Visio)
+# <a name="snapextensions-element-window_type-complextype-visio-xml"></a>Элемент SnapExtensions (Window_Type complexType) (XML для Visio)
 
 Указывает, включен или отключен указанный параметр расширения привязки для активного окна. Значение может быть суммой значений, приведенных в следующей таблице.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34540324"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Снапекстенсионс_типе](snapextensions_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Windows. XML  <br/> |
@@ -61,9 +61,9 @@ ms.locfileid: "34540324"
 |нуль  <br/> |Привязывать к Nothing.  <br/> |
 |1,1  <br/> |Прикрепить к расширению поля выравнивания.  <br/> |
 |2  <br/> |Привязать к расширению центральной оси.  <br/> |
-|SP4  <br/> |Привязать к добавочному номеру тангенса.  <br/> |
+|4   <br/> |Привязать к добавочному номеру тангенса.  <br/> |
 |8   <br/> |Прикрепить к добавочному номеру конечной точки.  <br/> |
-|столбцов  <br/> |Привязать к средней точке.  <br/> |
+|16   <br/> |Привязать к средней точке.  <br/> |
 |32  <br/> |Привязать к линейному добавочному номеру.  <br/> |
 |64  <br/> |Прикрепить к модулю кривизны.  <br/> |
 |128  <br/> |Привязать к добавочному номеру конечной точки.  <br/> |

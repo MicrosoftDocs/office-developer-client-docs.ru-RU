@@ -1,5 +1,5 @@
 ---
-title: Элемент CustomToolbarsFile (Документсеттингс_типе complexType) (XML для Visio)
+title: Элемент CustomToolbarsFile (DocumentSettings_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539236"
 ---
-# <a name="customtoolbarsfile-element-documentsettingstype-complextype-visio-xml"></a>Элемент CustomToolbarsFile (Документсеттингс_типе complexType) (XML для Visio)
+# <a name="customtoolbarsfile-element-documentsettings_type-complextype-visio-xml"></a>Элемент CustomToolbarsFile (DocumentSettings_Type complexType) (XML для Visio)
 
 Содержит имя файла пользовательского интерфейса Microsoft Visio (VSU), которое определяет настраиваемые панели инструментов и строки состояния документа.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34539236"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Кустомтулбарсфиле_типе](customtoolbarsfile_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[CustomToolbarsFile_Type](customtoolbarsfile_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34539236"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Документсеттингс](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Документсеттингс_типе](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
+|[документсеттингс](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

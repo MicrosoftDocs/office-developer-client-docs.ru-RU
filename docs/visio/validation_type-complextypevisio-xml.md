@@ -1,5 +1,5 @@
 ---
-title: Валидатион_типе complexType (XML для Visio)
+title: Validation_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538531"
 ---
-# <a name="validationtype-complextype-visio-xml"></a>Валидатион_типе complexType (XML для Visio)
+# <a name="validation_type-complextype-visio-xml"></a>Validation_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -60,9 +60,9 @@ ms.locfileid: "34538531"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Иссуес_типе](issues_type-complextypevisio-xml.md) <br/> ||
-|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[Рулесетс_типе](rulesets_type-complextypevisio-xml.md) <br/> ||
-|[Валидатионпропертиес](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[Валидатионпропертиес_типе](validationproperties_type-complextypevisio-xml.md) <br/> ||
+|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> ||
+|[RuleSets](rulesets-element-validation_type-complextypevisio-xml.md) <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> ||
+|[валидатионпропертиес](validationproperties-element-validation_type-complextypevisio-xml.md) <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

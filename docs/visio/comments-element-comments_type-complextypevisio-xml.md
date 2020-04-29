@@ -1,5 +1,5 @@
 ---
-title: Элемент Comments (Комментс_типе complexType) (XML для Visio)
+title: Элемент Comments (Comments_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539222"
 ---
-# <a name="comments-element-commentstype-complextype-visio-xml"></a>Элемент Comments (Комментс_типе complexType) (XML для Visio)
+# <a name="comments-element-comments_type-complextype-visio-xml"></a>Элемент Comments (Comments_Type complexType) (XML для Visio)
 
 Задает свойства, используемые для идентификации авторов и комментариев в документе.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34539222"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Комментс_типе](comments_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Comments_Type](comments_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Comments. XML  <br/> |
@@ -46,8 +46,8 @@ ms.locfileid: "34539222"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Аусорлист](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[Аусорлист_типе](authorlist_type-complextypevisio-xml.md) <br/> |Указывает авторов в документе.  <br/> |
-|[Комментлист](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[Комментлист_типе](commentlist_type-complextypevisio-xml.md) <br/> |Задает комментарии в документе.  <br/> |
+|[аусорлист](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |Указывает авторов в документе.  <br/> |
+|[комментлист](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> |Задает комментарии в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

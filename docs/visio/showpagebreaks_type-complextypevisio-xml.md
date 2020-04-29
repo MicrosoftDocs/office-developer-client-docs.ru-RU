@@ -1,5 +1,5 @@
 ---
-title: Шовпажебреакс_типе complexType (XML для Visio)
+title: ShowPageBreaks_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541437"
 ---
-# <a name="showpagebreakstype-complextype-visio-xml"></a>Шовпажебреакс_типе complexType (XML для Visio)
+# <a name="showpagebreaks_type-complextype-visio-xml"></a>ShowPageBreaks_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 

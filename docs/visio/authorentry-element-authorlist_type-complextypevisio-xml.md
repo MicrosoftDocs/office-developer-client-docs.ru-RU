@@ -1,5 +1,5 @@
 ---
-title: Элемент Аусорентри (Аусорлист_типе complexType) (XML для Visio)
+title: Элемент Аусорентри (AuthorList_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537908"
 ---
-# <a name="authorentry-element-authorlisttype-complextype-visio-xml"></a>Элемент Аусорентри (Аусорлист_типе complexType) (XML для Visio)
+# <a name="authorentry-element-authorlist_type-complextype-visio-xml"></a>Элемент Аусорентри (AuthorList_Type complexType) (XML для Visio)
 
 Задает свойства, используемые для идентификации автора комментария в документе.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34537908"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Аусорентри_типе](authorentry_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[AuthorEntry_Type](authorentry_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Comments. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34537908"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Аусорлист](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[Аусорлист_типе](authorlist_type-complextypevisio-xml.md) <br/> |Указывает авторов в документе.  <br/> |
+|[аусорлист](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> |Указывает авторов в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,9 +52,9 @@ ms.locfileid: "34537908"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Значение с отзначением от единицы, идентифицирующее автора.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Значение с отзначением от единицы, идентифицирующее автора.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
 |Инициалы  <br/> |XSD: строка  <br/> |необязательный  <br/> |Инициалы автора.  <br/> |Значения типа String: XSD.  <br/> |
 |Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> |Имя автора.  <br/> |Значения типа String: XSD.  <br/> |
-|Ресолутионид  <br/> |XSD: строка  <br/> |необязательный  <br/> |Уникальный идентификатор автора.  <br/> |Значения типа String: XSD.  <br/> |
+|ресолутионид  <br/> |XSD: строка  <br/> |необязательный  <br/> |Уникальный идентификатор автора.  <br/> |Значения типа String: XSD.  <br/> |
    
 

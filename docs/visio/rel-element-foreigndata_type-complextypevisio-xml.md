@@ -1,5 +1,5 @@
 ---
-title: Элемент rel (Фореигндата_типе complexType) (XML для Visio)
+title: Элемент rel (ForeignData_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542809"
 ---
-# <a name="rel-element-foreigndatatype-complextype-visio-xml"></a>Элемент rel (Фореигндата_типе complexType) (XML для Visio)
+# <a name="rel-element-foreigndata_type-complextype-visio-xml"></a>Элемент rel (ForeignData_Type complexType) (XML для Visio)
 
 Указывает связь между фигурой и частью документа, которая содержит данные изображения, связанные с фигурой.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34542809"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Рел_типе](rel_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Rel_Type](rel_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Pages. XML, Masters. XML, recordsets. XML, Page #. XML, Master #. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34542809"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[ForeignData](foreigndata-element-shapesheet_type-complextypevisio-xml.md) <br/> |[Фореигндата_типе](foreigndata_type-complextypevisio-xml.md) <br/> |Указывает один экземпляр графических данных, хранящихся в документе.  <br/> |
+|[ForeignData](foreigndata-element-shapesheet_type-complextypevisio-xml.md) <br/> |[ForeignData_Type](foreigndata_type-complextypevisio-xml.md) <br/> |Указывает один экземпляр графических данных, хранящихся в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,12 +52,12 @@ ms.locfileid: "34542809"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|р:ИД  <br/> |XSD: строка  <br/> См. раздел "Замечания".  <br/> |Обязательный  <br/> |Задает отношение к части.  <br/> |"rId #"  <br/> См. раздел "Замечания".  <br/> |
+|р:ид  <br/> |XSD: строка  <br/> См. раздел "Замечания".  <br/> |Обязательный  <br/> |Задает отношение к части.  <br/> |"rId #"  <br/> См. раздел "Замечания".  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значение атрибута **р:ИД** должно быть типом **ст_релатионшипид** . Тип **ст_релатионшипид** — это строка, которая должна быть в формате rId #, где конечный символ должен быть числом. Число должно быть уникальным среди всех родственных элементов элемента **rel** . 
+Значение атрибута **р:ИД** должно быть типом **ST_RelationshipID** . Тип **ST_RelationshipID** — это строка, которая должна быть в формате rId #, где конечный символ должен быть числом. Число должно быть уникальным среди всех родственных элементов элемента **rel** . 
   
-Для получения дополнительных сведений о типе Ст_релатионшипид, ознакомьтесь со [спецификацией ISO/IEC 29500 Part 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
+Для получения дополнительных сведений о типе ST_RelationshipID, ознакомьтесь со [спецификацией ISO/IEC 29500 Part 1](https://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.md?csnumber=61750).
   
 

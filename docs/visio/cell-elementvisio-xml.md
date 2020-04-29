@@ -22,7 +22,7 @@ ms.locfileid: "34542312"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML, Pages. XML, Master. XML, Master #. XML, Page #. XML  <br/> |
@@ -40,17 +40,17 @@ ms.locfileid: "34542312"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[Шапешит_типе](shapesheet_type-complextypevisio-xml.md) <br/> |Задает элементы Cell, которые предоставляют сведения для определения фигуры.  <br/> |
-|[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Документшит_типе](documentsheet_type-complextypevisio-xml.md) <br/> |Определяет структуру DocumentSheet.  <br/> |
-|[Применение](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[Стилешит_типе](stylesheets_type-complextypevisio-xml.md) <br/> |Представляет стиль, определенный в документе.  <br/> |
-|[PageSheet (Мастер_типе complexType)](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[Пажешит_типе](pagesheet_type-complextypevisio-xml.md) <br/> |Задает свойства страницы документа, связанной с образцом.  <br/> |
-|[PageSheet (Паже_типе complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[Пажешит_типе](pagesheet_type-complextypevisio-xml.md) <br/> |Задает свойства страницы документа, связанной со страницей документа.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Задает элементы Cell, которые предоставляют сведения для определения фигуры.  <br/> |
+|[DocumentSheet](documentsheet-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSheet_Type](documentsheet_type-complextypevisio-xml.md) <br/> |Определяет структуру DocumentSheet.  <br/> |
+|[Применение](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Представляет стиль, определенный в документе.  <br/> |
+|[PageSheet (Master_Type complexType)](pagesheet-element-master_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Задает свойства страницы документа, связанной с образцом.  <br/> |
+|[PageSheet (Page_Type complexType)](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Задает свойства страницы документа, связанной со страницей документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -109,8 +109,8 @@ ms.locfileid: "34542312"
 |CenterY  <br/> |Определяет, будет ли страница документа центрироваться по вертикали на странице принтера.  <br/> |[CenterY Cell (Print Properties Section)](centery-cell-print-properties-section.md) <br/> |
 |ClippingPath  <br/> |Содержит ссылку на геометрию пути, с которым связан образ.  <br/> |[ClippingPath Cell (Foreign Image Info Section)](clippingpath-cell-foreign-image-info-section.md) <br/> |
 |ColorSchemeIndex  <br/> |Определяет цветовую схему темы, применяемой к фигуре, в виде целого числа.  <br/> |[ColorSchemeIndex Cell (Theme Properties Section)](colorschemeindex-cell-theme-properties-section.md) <br/> |
-|Комментарий  <br/> |Содержит текст, который отображается в комментарии.  <br/> |[Comment Cell (Annotation Section)](comment-cell-annotation-section.md) <br/> |
-|Комментарий  <br/> |Содержит текст комментария в строковом формате для фигуры.  <br/> |[Comment Cell (Miscellaneous Section)](comment-cell-miscellaneous-section.md) <br/> |
+|Comment  <br/> |Содержит текст, который отображается в комментарии.  <br/> |[Comment Cell (Annotation Section)](comment-cell-annotation-section.md) <br/> |
+|Comment  <br/> |Содержит текст комментария в строковом формате для фигуры.  <br/> |[Comment Cell (Miscellaneous Section)](comment-cell-miscellaneous-section.md) <br/> |
 |CompoundType  <br/> |Определяет составной тип линии фигуры.  <br/> |[CompoundType Cell (Line Format Section)](compoundtype-cell-line-format-section.md) <br/> |
 |ConFixedCode  <br/> |Определяет, когда соединитель пересылается.  <br/> |[ConFixedCode Cell (Shape Layout Section)](confixedcode-cell-shape-layout-section.md) <br/> |
 |ConLineJumpCode  <br/> |Определяет, когда соединитель переходит.  <br/> |[ConLineJumpCode Cell (Shape Layout Section)](conlinejumpcode-cell-shape-layout-section.md) <br/> |
@@ -149,7 +149,7 @@ ms.locfileid: "34542312"
 |EndArrowSize  <br/> |Определяет размер наконечника в конце строки.  <br/> |[EndArrowSize Cell (Line Format Section)](endarrowsize-cell-line-format-section.md) <br/> |
 |EndTrigger  <br/> |Содержит формулу триггера, созданную приложением, которая определяет, нужно ли перемещать конечную точку одномерной фигуры для сохранения ее связи с другой фигурой.  <br/> |[EndTrigger Cell (Glue Info Section)](endtrigger-cell-glue-info-section.md) <br/> |
 |EndX  <br/> |Представляет координату x конечной точки одномерной фигуры относительно начала родительского элемента.  <br/> |[EndX Cell (1-D Endpoints Section)](endx-cell-1-d-endpoints-section.md) <br/> |
-|Енди  <br/> |Представляет координату y конечной точки одномерной фигуры относительно начала родительского элемента.  <br/> |[EndY Cell (1-D Endpoints Section)](endy-cell-1-d-endpoints-section.md) <br/> |
+|енди  <br/> |Представляет координату y конечной точки одномерной фигуры относительно начала родительского элемента.  <br/> |[EndY Cell (1-D Endpoints Section)](endy-cell-1-d-endpoints-section.md) <br/> |
 |EventDblClick  <br/> |Ячейка события, вычисляемая при двойном щелчке фигуры.  <br/> |[EventDblClick Cell (Events Section)](eventdblclick-cell-events-section.md) <br/> |
 |EventDrop  <br/> |Ячейка события, вычисляемая при разрыве фигуры на странице документа либо в виде экземпляра, либо при копировании или вставке фигуры.  <br/> |[EventDrop Cell (Events Section)](eventdrop-cell-events-section.md) <br/> |
 |EventMultiDrop  <br/> |Ячейка события, вычисляемая при разрыве нескольких фигур на странице документа либо в виде экземпляров, либо при копировании или вставке фигур.  <br/> |[EventMultiDrop Cell (Events Section)](eventmultidrop-cell-events-section.md) <br/> |
@@ -171,7 +171,7 @@ ms.locfileid: "34542312"
 |GlowSize  <br/> |Определяет размер внешнего свечения фигуры в точках.  <br/> |[GlowSize Cell (Additional Effect Properties Section)](glowsize-cell-additional-effect-properties-section.md) <br/> |
 |GlueType  <br/> |Определяет, использует ли Одномерная фигура статическую ("точка-точка") или динамическую (фигурную фигуру) приклеить к другой фигуре.  <br/> |[GlueType Cell (Glue Info Section)](gluetype-cell-glue-info-section.md) <br/> |
 |Height  <br/> |Определяет высоту фигуры в единицах документа.  <br/> |[Height Cell (Shape Transform Section)](height-cell-shape-transform-section.md) <br/> |
-|Хелптопик  <br/> |Задает идентификатор раздела справки для фигуры.  <br/> ||
+|хелптопик  <br/> |Задает идентификатор раздела справки для фигуры.  <br/> ||
 |HideForApply  <br/> |Определяет, где отображается стиль в пользовательском интерфейсе Microsoft Visio.  <br/> |[HideForApply Cell (Style Properties Section)](hideforapply-cell-style-properties-section.md) <br/> |
 |HideText  <br/> |Скрывает текст для фигуры.  <br/> |[HideText Cell (Miscellaneous Section)](hidetext-cell-miscellaneous-section.md) <br/> |
 |ImgHeight  <br/> |Определяет высоту изображения объекта в пределах его границ.  <br/> |[ImgHeight Cell (Foreign Image Info Section)](imgheight-cell-foreign-image-info-section.md) <br/> |
@@ -188,9 +188,9 @@ ms.locfileid: "34542312"
 |LangID  <br/> |Указывает язык ввода текста.  <br/> |[LangID Cell (Character Section)](langid-cell-character-section.md) <br/> |
 |LangID  <br/> |Указывает язык, на котором были созданы формулы ячеек.  <br/> |[LangID Cell (Miscellaneous Section)](langid-cell-miscellaneous-section.md) <br/> |
 |LangID  <br/> |Указывает язык, на котором было введено значение данных фигуры.  <br/> |[LangID Cell (Shape Data Section)](langid-cell-shape-data-section.md) <br/> |
-|Лайермембер  <br/> |Задает членство в слое для фигуры на основе индекса (с нуля) слоев для страницы. Если фигура назначена нескольким слоям, то каждый индекс слоя отделяется точкой с запятой.  <br/> ||
+|лайермембер  <br/> |Задает членство в слое для фигуры на основе индекса (с нуля) слоев для страницы. Если фигура назначена нескольким слоям, то каждый индекс слоя отделяется точкой с запятой.  <br/> ||
 |LeftMargin  <br/> |Определяет расстояние между левой границей блока текста и содержащимся в нем текстом.  <br/> |[LeftMargin Cell (Text Block Format Section)](leftmargin-cell-text-block-format-section.md) <br/> |
-|Линеаджустфром  <br/> |Определяет, какие динамические соединители разделяются между приложениями, если они направляются друг на друга.  <br/> |[LineAdjustFrom Cell (Page Layout Section)](lineadjustfrom-cell-page-layout-section.md) <br/> |
+|линеаджустфром  <br/> |Определяет, какие динамические соединители разделяются между приложениями, если они направляются друг на друга.  <br/> |[LineAdjustFrom Cell (Page Layout Section)](lineadjustfrom-cell-page-layout-section.md) <br/> |
 |LineAdjustTo  <br/> |Определяет, какая из динамических соединителей находится сверху друг от друга.  <br/> |[LineAdjustTo Cell (Page Layout Section)](lineadjustto-cell-page-layout-section.md) <br/> |
 |LineCap  <br/> |Указывает, имеет ли линия скругленные, квадратные или расширенные концы линий.  <br/> |[LineCap Cell (Line Format Section)](linecap-cell-line-format-section.md) <br/> |
 |LineColor  <br/> |Определяет цвет линии фигуры.  <br/> |[LineColor Cell (Line Format Section)](linecolor-cell-line-format-section.md) <br/> |
@@ -237,13 +237,13 @@ ms.locfileid: "34542312"
 |LockVtxEdit  <br/> |Блокирует вершины фигуры, чтобы их нельзя было редактировать.  <br/> |[LockVtxEdit Cell (Protection Section)](lockvtxedit-cell-protection-section.md) <br/> |
 |LockWidth  <br/> |Блокирует ширину фигуры таким образом, чтобы ее ширина оставалась неизменной при изменении размера фигуры.  <br/> |[LockWidth Cell (Protection Section)](lockwidth-cell-protection-section.md) <br/> |
 |LocPinX  <br/> |Представляет координату центра вращения фигуры по оси x относительно начала координат фигуры. По умолчанию для определения LocPinX используется формула: = \* ширина 0,5.  <br/> |[LocPinX Cell (Shape Transform Section)](locpinx-cell-shape-transform-section.md) <br/> |
-|Локкпини  <br/> |Представляет координату центра вращения фигуры по оси y относительно начала координат фигуры. По умолчанию для определения LocPinY используется формула: = \* высота 0,5.  <br/> |[LocPinY Cell (Shape Transform Section)](locpiny-cell-shape-transform-section.md) <br/> |
+|локкпини  <br/> |Представляет координату центра вращения фигуры по оси y относительно начала координат фигуры. По умолчанию для определения LocPinY используется формула: = \* высота 0,5.  <br/> |[LocPinY Cell (Shape Transform Section)](locpiny-cell-shape-transform-section.md) <br/> |
 |NoAlignBox  <br/> |Включает и выключает отображение прямоугольника выделения для выбранной фигуры.  <br/> |[NoAlignBox Cell (Miscellaneous Section)](noalignbox-cell-miscellaneous-section.md) <br/> |
 |NoCoauth  <br/> |Указывает, может ли документ, хранящийся на сервере SharePoint 2013 или в Microsoft OneDrive, одновременно редактироваться несколькими авторами в сеансе совместного редактирования.  <br/> |[NoCoauth Cell (Document Properties Section)](nocoauth-cell-document-properties-section.md) <br/> |
 |NoCtlHandles  <br/> |Запрещает отображение управляющих маркеров при выборе фигуры.  <br/> |[NoCtlHandles Cell (Miscellaneous Section)](noctlhandles-cell-miscellaneous-section.md) <br/> |
 |NoLiveDynamics  <br/> |Определяет, будет ли фигура динамически изменять размер или поворачиваться при управлении ею.  <br/> |[NoLiveDynamics Cell (Miscellaneous Section)](nolivedynamics-cell-miscellaneous-section.md) <br/> |
 |NonPrinting  <br/> |Включает и выключает печать для выбранной фигуры.  <br/> |[NonPrinting Cell (Miscellaneous Section)](nonprinting-cell-miscellaneous-section.md) <br/> |
-|Нубжхандлес  <br/> |Включает и выключает отображение маркеров выделения для выбранной фигуры.  <br/> |[NoObjHandles Cell (Miscellaneous Section)](noobjhandles-cell-miscellaneous-section.md) <br/> |
+|нубжхандлес  <br/> |Включает и выключает отображение маркеров выделения для выбранной фигуры.  <br/> |[NoObjHandles Cell (Miscellaneous Section)](noobjhandles-cell-miscellaneous-section.md) <br/> |
 |NoProofing  <br/> |Определяет, будут ли автоматически исправлены орфографические ошибки и будут ли отображаться орфографические ошибки для выбранной фигуры.  <br/> ||
 |ObjType  <br/> |Определяет, являются ли объекты размещаемыми или маршрутизируемыйи в схемах при использовании диалогового окна Настройка макета для размещения фигур.  <br/> |[ObjType Cell (Miscellaneous Section)](objtype-cell-miscellaneous-section.md) <br/> |
 |OnPage  <br/> |Указывает, печатается ли документ на определенном числе страниц принтера.  <br/> |[OnPage Cell (Print Properties Section)](onpage-cell-print-properties-section.md) <br/> |
@@ -289,7 +289,7 @@ ms.locfileid: "34542312"
 |ReflectionDist  <br/> |Определяет расстояние смещения отражения от фигуры (в пунктах от 0,0 до 100,0).  <br/> |[ReflectionDist Cell (Additional Effect Properties Section)](reflectiondist-cell-additional-effect-properties-section.md) <br/> |
 |ReflectionSize  <br/> |Определяет размер отражения относительно фигуры в процентах от 0,0 до 100,0%. Фигура со значением 0% в ячейке ReflectionSize не имеет отражения; значение 100% отображает полное зеркальное изображение фигуры.  <br/> |[ReflectionSize Cell (Additional Effect Properties Section)](reflectionsize-cell-additional-effect-properties-section.md) <br/> |
 |ReflectionTrans  <br/> |Определяет прозрачность отражения в процентах от 0 до 100%.  <br/> |[ReflectionTrans Cell (Additional Effect Properties Section)](reflectiontrans-cell-additional-effect-properties-section.md) <br/> |
-|Отношения  <br/> |Хранит отношения между контейнерами, списками, выносками и фигурами.  <br/> |[Relationships Cell (Shape Layout Section)](relationships-cell-shape-layout-section.md) <br/> |
+|Связи  <br/> |Хранит отношения между контейнерами, списками, выносками и фигурами.  <br/> |[Relationships Cell (Shape Layout Section)](relationships-cell-shape-layout-section.md) <br/> |
 |ReplaceCopyCells  <br/> |Указывает список ячеек таблицы свойств фигуры, которые копируются из старой фигуры в фигуру замены во время операции замены фигуры.  <br/> |[ReplaceCopyCells Cell (Change Shape Behavior Section)](replacecopycells-cell-change-shape-behavior-section.md) <br/> |
 |ReplaceLockFormat  <br/> |Указывает, перезаписывает ли значения заданных ячеек в главной фигуре значения (включая локальные значения) фигуры, которые заменяются во время операции замены фигуры. Если ячейка ReplaceLockFormat главной фигуры имеет значение TRUE (1), то значения форматирования образца перезапишу все соответствующие значения фигуры, замещенной образцом.  <br/> |[ReplaceLockFormat Cell (Change Shape Behavior Section)](replacelockformat-cell-change-shape-behavior-section.md) <br/> |
 |ReplaceLockShapeData  <br/> |Указывает, перезаписывает ли значения заданных ячеек в главной фигуре значения (включая локальные значения) фигуры, которые заменяются во время операции замены фигуры. ReplaceLockShapeData определяет, будут ли данные фигуры основной фигуры перезаписывать все данные фигуры заменяемой фигуры.  <br/> |[ReplaceLockShapeData Cell (Change Shape Behavior Section)](replacelockshapedata-cell-change-shape-behavior-section.md) <br/> |
@@ -308,7 +308,7 @@ ms.locfileid: "34542312"
 |ScaleY  <br/> |Указывает процентное отношение увеличения страницы документа на странице принтера.  <br/> |[ScaleY Cell (Print Properties Section)](scaley-cell-print-properties-section.md) <br/> |
 |SelectMode  <br/> |Определяет способ выбора групповой фигуры и ее членов.  <br/> |[SelectMode Cell (Group Properties Section)](selectmode-cell-group-properties-section.md) <br/> |
 |Ячейка ShapeFixedCode  <br/> |Задает поведение при размещении размещаемой фигуры.  <br/> |[ShapeFixedCode Cell (Shape Layout Section)](shapefixedcode-cell-shape-layout-section.md) <br/> |
-|Шапекэйвордс  <br/> |Содержит ключевые слова поиска, назначенные образцу фигуры.  <br/> ||
+|шапекэйвордс  <br/> |Содержит ключевые слова поиска, назначенные образцу фигуры.  <br/> ||
 |ShapePermeablePlace  <br/> |Определяет, могут ли размещаемые фигуры размещаться поверх фигуры при разметке фигур в диалоговом окне "Настройка макета" (на вкладке Конструктор в группе Макет выберите пункт изменить макет страницы, а затем щелкните Дополнительные параметры макета).  <br/> |[ShapePermeablePlace Cell (Shape Layout Section)](shapepermeableplace-cell-shape-layout-section.md) <br/> |
 |ShapePermeableX  <br/> |Определяет, может ли соединитель маршрутизироваться горизонтально через размещаемую фигуру.  <br/> |[ShapePermeableX Cell (Shape Layout Section)](shapepermeablex-cell-shape-layout-section.md) <br/> |
 |ShapePermeableY  <br/> |Определяет, может ли соединитель маршрутизироваться вертикально через фигуру.  <br/> |[ShapePermeableY Cell (Shape Layout Section)](shapepermeabley-cell-shape-layout-section.md) <br/> |

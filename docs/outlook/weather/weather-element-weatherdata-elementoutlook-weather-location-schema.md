@@ -23,7 +23,7 @@ ms.locfileid: "34539014"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Веасертипе](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
+|**Тип элемента** <br/> |[веасертипе](weathertype-complextype-outlook-weather-location-schema.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherlocation.xsd  <br/> |
 |**Файл схемы** <br/> |жетвеасерлокатион. xsd  <br/> |
    

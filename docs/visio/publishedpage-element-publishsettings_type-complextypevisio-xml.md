@@ -1,5 +1,5 @@
 ---
-title: Элемент Публишедпаже (Публишсеттингс_типе complexType) (XML для Visio)
+title: Элемент Публишедпаже (PublishSettings_Type complexType) (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538377"
 ---
-# <a name="publishedpage-element-publishsettingstype-complextype-visio-xml"></a>Элемент Публишедпаже (Публишсеттингс_типе complexType) (XML для Visio)
+# <a name="publishedpage-element-publishsettings_type-complextype-visio-xml"></a>Элемент Публишедпаже (PublishSettings_Type complexType) (XML для Visio)
 
 Указывает, будет ли страница документа видна в браузере с помощью служб Visio в Microsoft SharePoint Server 2013.
   
@@ -22,7 +22,7 @@ ms.locfileid: "34538377"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Публишедпаже_типе](publishedpage_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Document. XML  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "34538377"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Публишсеттингс](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[Публишсеттингс_типе](publishsettings_type-complextypevisio-xml.md) <br/> |Задает параметры, которые используются при открытии схемы с помощью служб Visio.  <br/> |
+|[публишсеттингс](publishsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |Задает параметры, которые используются при открытии схемы с помощью служб Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,6 +52,6 @@ ms.locfileid: "34538377"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор страницы документа.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор страницы документа.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: Иссуе_типе complexType (XML для Visio)
+title: Issue_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542963"
 ---
-# <a name="issuetype-complextype-visio-xml"></a>Иссуе_типе complexType (XML для Visio)
+# <a name="issue_type-complextype-visio-xml"></a>Issue_Type complexType (XML для Visio)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -61,14 +61,14 @@ ms.locfileid: "34542963"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Иссуетаржет](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[Иссуетаржет_типе](issuetarget_type-complextypevisio-xml.md) <br/> ||
-|[Рулеинфо](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[Рулеинфо_типе](ruleinfo_type-complextypevisio-xml.md) <br/> ||
+|[иссуетаржет](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> ||
+|[рулеинфо](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
 |Игнорирован  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
    
 

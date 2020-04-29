@@ -22,7 +22,7 @@ ms.locfileid: "34541837"
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Целл_типе](cell_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
 |**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
 |**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
@@ -42,13 +42,13 @@ ms.locfileid: "34541837"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Элемент Row (раздел "элементы управления")](row-element-controls-sectionvisio-xml.md) <br/> |[Контролров_типе](controlrow_type-complextypevisio-xml.md) <br/> |Содержит свойство для определенного управляющего маркера, определенного для фигуры.  <br/> |
+|[Элемент Row (раздел "элементы управления")](row-element-controls-sectionvisio-xml.md) <br/> |[ControlRow_Type](controlrow_type-complextypevisio-xml.md) <br/> |Содержит свойство для определенного управляющего маркера, определенного для фигуры.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[Рефби_типе](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
@@ -66,13 +66,13 @@ ms.locfileid: "34541837"
   
 |**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
-|Канглуе  <br/> |Определяет, можно ли приклеить управляющий маркер к другим фигурам.  <br/> |[Can Glue Cell (Controls Section)](can-glue-cell-controls-section.md) <br/> |
+|канглуе  <br/> |Определяет, можно ли приклеить управляющий маркер к другим фигурам.  <br/> |[Can Glue Cell (Controls Section)](can-glue-cell-controls-section.md) <br/> |
 |Prompt  <br/> |Представляет строку описательного текста, которая отображается в виде подсказки, когда пользователь приостанавливает указатель над маркером управления фигуры.  <br/> |[Tip Cell (Controls Section)](tip-cell-controls-section.md) <br/> |
 |X  <br/> |Представляет x – координату, определяющую расположение управляющего маркера фигуры в локальных координатах.  <br/> |[X Cell (Controls Section)](x-cell-controls-section.md) <br/> |
-|Кскон  <br/> |Указывает тип поведения, который обозначает x-координату управляющего маркера после перемещения маркера.  <br/> |Нет.  <br/> |
-|Ксдин  <br/> |Представляет x координат для точки привязки управляющего маркера в локальных координатах.  <br/> |[X Dynamics Cell (Controls Section)](x-dynamics-cell-controls-section.md) <br/> |
+|кскон  <br/> |Указывает тип поведения, который обозначает x-координату управляющего маркера после перемещения маркера.  <br/> |Нет.  <br/> |
+|ксдин  <br/> |Представляет x координат для точки привязки управляющего маркера в локальных координатах.  <br/> |[X Dynamics Cell (Controls Section)](x-dynamics-cell-controls-section.md) <br/> |
 |Да  <br/> |Представляет y – координату, определяющую расположение управляющего маркера фигуры в локальных координатах.  <br/> |[Y Cell (Controls Section)](y-cell-controls-section.md) <br/> |
-|Икон  <br/> |Указывает тип поведения, который будет иметь координаты y управляющего маркера после его перемещения.  <br/> |Нет.  <br/> |
-|ИДин  <br/> |Представляет координату y для точки привязки управляющего маркера в локальных координатах.  <br/> |[Y Dynamics Cell (Controls Section)](y-dynamics-cell-controls-section.md) <br/> |
+|икон  <br/> |Указывает тип поведения, который будет иметь координаты y управляющего маркера после его перемещения.  <br/> |Нет.  <br/> |
+|идин  <br/> |Представляет координату y для точки привязки управляющего маркера в локальных координатах.  <br/> |[Y Dynamics Cell (Controls Section)](y-dynamics-cell-controls-section.md) <br/> |
    
 

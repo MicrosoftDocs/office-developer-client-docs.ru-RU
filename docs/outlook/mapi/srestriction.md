@@ -53,53 +53,53 @@ typedef struct _SRestriction
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>"Участники"
 
  **RT**
   
 > Тип ограничения. Возможны следующие значения: 
     
-РЕС_АНД 
+RES_AND 
   
-> Ограничение **** , которое применяет к ограничению операцию побитового **и** . 
+> Ограничение **,** которое применяет к ограничению операцию побитового **и** . 
     
-РЕС_БИТМАСК 
+RES_BITMASK 
   
 > Ограничение битовой маски, которое применяет битовую маску к значению свойства.
     
-РЕС_КОММЕНТ 
+RES_COMMENT 
   
 > Ограничение комментария, которое связывает комментарий с ограничением.
     
-РЕС_КОМПАРЕПРОПС 
+RES_COMPAREPROPS 
   
 > Ограничение на сравнение свойств, которое сравнивает два значения свойств.
     
-РЕС_КОНТЕНТ 
+RES_CONTENT 
   
 > Ограничение содержимого, которое выполняет поиск определенного содержимого в значении свойства.
     
-РЕС_ЕКСИСТ 
+RES_EXIST 
   
 > Ограничение exist, определяющее, поддерживается ли свойство.
     
-РЕС_НОТ 
+RES_NOT 
   
 > Ограничение **Not** , которое применяет логическую операцию **Not** к ограничению. 
     
-РЕС_ОР 
+RES_OR 
   
-> Ограничение **** , которое применяет логическую операцию **или** к ограничению. 
+> Ограничение, которое применяет логическую операцию **или** **к ограничению** . 
     
-РЕС_ПРОПЕРТИ 
+RES_PROPERTY 
   
 > Ограничение свойства, которое определяет, совпадает ли значение свойства с определенным значением.
     
-РЕС_СИЗЕ 
+RES_SIZE 
   
 > Ограничение размера, определяющее, является ли значение свойства определенным размером.
     
-РЕС_СУБРЕСТРИКТИОН 
+RES_SUBRESTRICTION 
   
 > Ограничение вложенного объекта, которое применяет ограничение к вложениям или получателям сообщения.
     
@@ -110,17 +110,17 @@ typedef struct _SRestriction
 |||
 |:-----|:-----|
 |**Тип ограничения** <br/> |**Структура ограничения** <br/> |
-|РЕС_АНД  <br/> |[SAndRestriction](sandrestriction.md) <br/> |
-|РЕС_БИТМАСК  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |
-|РЕС_КОММЕНТ  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |
-|РЕС_КОМПАРЕПРОПС  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |
-|РЕС_КОНТЕНТ  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |
-|РЕС_ЕКСИСТ  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |
-|РЕС_НОТ  <br/> |[SNotRestriction](snotrestriction.md) <br/> |
-|РЕС_ОР  <br/> |[SOrRestriction](sorrestriction.md) <br/> |
-|РЕС_ПРОПЕРТИ  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |
-|РЕС_СИЗЕ  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |
-|РЕС_СУБРЕСТРИКТИОН  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |
+|RES_AND  <br/> |[SAndRestriction](sandrestriction.md) <br/> |
+|RES_BITMASK  <br/> |[SBitMaskRestriction](sbitmaskrestriction.md) <br/> |
+|RES_COMMENT  <br/> |[SCommentRestriction](scommentrestriction.md) <br/> |
+|RES_COMPAREPROPS  <br/> |[SComparePropsRestriction](scomparepropsrestriction.md) <br/> |
+|RES_CONTENT  <br/> |[SContentRestriction](scontentrestriction.md) <br/> |
+|RES_EXIST  <br/> |[SExistRestriction](sexistrestriction.md) <br/> |
+|RES_NOT  <br/> |[SNotRestriction](snotrestriction.md) <br/> |
+|RES_OR  <br/> |[SOrRestriction](sorrestriction.md) <br/> |
+|RES_PROPERTY  <br/> |[SPropertyRestriction](spropertyrestriction.md) <br/> |
+|RES_SIZE  <br/> |[SSizeRestriction](ssizerestriction.md) <br/> |
+|RES_SUBRESTRICTION  <br/> |[SSubRestriction](ssubrestriction.md) <br/> |
    
 ## <a name="remarks"></a>Примечания
 
