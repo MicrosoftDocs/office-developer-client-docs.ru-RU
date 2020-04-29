@@ -15,12 +15,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416036"
 ---
-# <a name="elements-outlook-weather-location-schema"></a><span data-ttu-id="369bd-103">Элементы (схема расположения прогноза погоды Outlook)</span><span class="sxs-lookup"><span data-stu-id="369bd-103">Elements (Outlook Weather Location Schema)</span></span>
+# <a name="elements-outlook-weather-location-schema"></a><span data-ttu-id="2b021-103">Элементы (схема расположения прогноза погоды Outlook)</span><span class="sxs-lookup"><span data-stu-id="2b021-103">Elements (Outlook Weather Location Schema)</span></span>
 
-<span data-ttu-id="369bd-104">В этом разделе перечислены элементы XML-схемы расположения погоды в Outlook.</span><span class="sxs-lookup"><span data-stu-id="369bd-104">This topic lists the elements in the Outlook Weather Location XML schema.</span></span>
+<span data-ttu-id="2b021-104">В этом разделе перечислены элементы XML-схемы расположения погоды в Outlook.</span><span class="sxs-lookup"><span data-stu-id="2b021-104">This topic lists the elements in the Outlook Weather Location XML schema.</span></span>
   
-- [<span data-ttu-id="369bd-105">Элемент weather</span><span class="sxs-lookup"><span data-stu-id="369bd-105">weather element</span></span>](weather-element-weatherdata-elementoutlook-weather-location-schema.md)
+- [<span data-ttu-id="2b021-105">Элемент weather</span><span class="sxs-lookup"><span data-stu-id="2b021-105">weather element</span></span>](weather-element-weatherdata-elementoutlook-weather-location-schema.md)
     
-- [<span data-ttu-id="369bd-106">Элемент weatherdata</span><span class="sxs-lookup"><span data-stu-id="369bd-106">weatherdata element</span></span>](weatherdata-element-outlook-weather-location-schema.md)
+- [<span data-ttu-id="2b021-106">Элемент weatherdata</span><span class="sxs-lookup"><span data-stu-id="2b021-106">weatherdata element</span></span>](weatherdata-element-outlook-weather-location-schema.md)
     
 

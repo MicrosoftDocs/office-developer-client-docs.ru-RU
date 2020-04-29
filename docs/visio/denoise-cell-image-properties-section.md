@@ -16,24 +16,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415806"
 ---
-# <a name="denoise-cell-image-properties-section"></a><span data-ttu-id="722f3-104">Denoise Cell (Image Properties Section)</span><span class="sxs-lookup"><span data-stu-id="722f3-104">Denoise Cell (Image Properties Section)</span></span>
+# <a name="denoise-cell-image-properties-section"></a><span data-ttu-id="cf9eb-104">Denoise Cell (Image Properties Section)</span><span class="sxs-lookup"><span data-stu-id="cf9eb-104">Denoise Cell (Image Properties Section)</span></span>
 
-<span data-ttu-id="722f3-105">Удаляет шум (пикселов с произвольно распространенными уровнями цвета) из растрового изображения.</span><span class="sxs-lookup"><span data-stu-id="722f3-105">Removes noise (pixels with randomly distributed color levels) from a bitmap image.</span></span> <span data-ttu-id="722f3-106">Значение по умолчанию: 0%.</span><span class="sxs-lookup"><span data-stu-id="722f3-106">The default value is 0%.</span></span>
+<span data-ttu-id="cf9eb-105">Удаляет шум (пикселов с произвольно распространенными уровнями цвета) из растрового изображения.</span><span class="sxs-lookup"><span data-stu-id="cf9eb-105">Removes noise (pixels with randomly distributed color levels) from a bitmap image.</span></span> <span data-ttu-id="cf9eb-106">Значение по умолчанию: 0%.</span><span class="sxs-lookup"><span data-stu-id="cf9eb-106">The default value is 0%.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="722f3-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="722f3-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cf9eb-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="cf9eb-107">Remarks</span></span>
 
-<span data-ttu-id="722f3-108">Чтобы получить ссылку на ячейку "unnoise" по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="722f3-108">To get a reference to the Denoise cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="cf9eb-108">Чтобы получить ссылку на ячейку "unnoise" по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="cf9eb-108">To get a reference to the Denoise cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="722f3-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="722f3-109">Cell name:</span></span>  <br/> | <span data-ttu-id="722f3-110">Denoise</span><span class="sxs-lookup"><span data-stu-id="722f3-110">Denoise</span></span>  <br/> |
+| <span data-ttu-id="cf9eb-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="cf9eb-109">Cell name:</span></span>  <br/> | <span data-ttu-id="cf9eb-110">Denoise</span><span class="sxs-lookup"><span data-stu-id="cf9eb-110">Denoise</span></span>  <br/> |
    
-<span data-ttu-id="722f3-111">Чтобы получить ссылку на ячейку "unnoise" по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="722f3-111">To get a reference to the Denoise cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="cf9eb-111">Чтобы получить ссылку на ячейку "unnoise" по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="cf9eb-111">To get a reference to the Denoise cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="722f3-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="722f3-112">Section index:</span></span>  <br/> |<span data-ttu-id="722f3-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="722f3-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="722f3-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="722f3-114">Row index:</span></span>  <br/> |<span data-ttu-id="722f3-115">**Висровимаже**</span><span class="sxs-lookup"><span data-stu-id="722f3-115">**visRowImage**</span></span> <br/> |
-| <span data-ttu-id="722f3-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="722f3-116">Cell index:</span></span>  <br/> |<span data-ttu-id="722f3-117">**Висимажеденоисе**</span><span class="sxs-lookup"><span data-stu-id="722f3-117">**visImageDenoise**</span></span> <br/> |
+| <span data-ttu-id="cf9eb-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="cf9eb-112">Section index:</span></span>  <br/> |<span data-ttu-id="cf9eb-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cf9eb-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="cf9eb-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="cf9eb-114">Row index:</span></span>  <br/> |<span data-ttu-id="cf9eb-115">**висровимаже**</span><span class="sxs-lookup"><span data-stu-id="cf9eb-115">**visRowImage**</span></span> <br/> |
+| <span data-ttu-id="cf9eb-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="cf9eb-116">Cell index:</span></span>  <br/> |<span data-ttu-id="cf9eb-117">**висимажеденоисе**</span><span class="sxs-lookup"><span data-stu-id="cf9eb-117">**visImageDenoise**</span></span> <br/> |
    
 

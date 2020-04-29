@@ -14,24 +14,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420502"
 ---
-# <a name="fontschemeindex-cell-theme-properties-section"></a><span data-ttu-id="14f96-103">FontSchemeIndex Cell (Theme Properties Section)</span><span class="sxs-lookup"><span data-stu-id="14f96-103">FontSchemeIndex Cell (Theme Properties Section</span></span>
+# <a name="fontschemeindex-cell-theme-properties-section"></a><span data-ttu-id="fc400-103">FontSchemeIndex Cell (Theme Properties Section)</span><span class="sxs-lookup"><span data-stu-id="fc400-103">FontSchemeIndex Cell (Theme Properties Section</span></span>
 
-<span data-ttu-id="14f96-104">Определяет шрифтовую схему темы, применяемой к фигуре, в виде целого числа.</span><span class="sxs-lookup"><span data-stu-id="14f96-104">Determines the font scheme of a theme that is applied to the shape, as an integer.</span></span> 
+<span data-ttu-id="fc400-104">Определяет шрифтовую схему темы, применяемой к фигуре, в виде целого числа.</span><span class="sxs-lookup"><span data-stu-id="fc400-104">Determines the font scheme of a theme that is applied to the shape, as an integer.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="14f96-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="14f96-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fc400-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="fc400-105">Remarks</span></span>
 
-<span data-ttu-id="14f96-106">Чтобы получить ссылку на ячейку **FontSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="14f96-106">To get a reference to the **FontSchemeIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="fc400-106">Чтобы получить ссылку на ячейку **FontSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="fc400-106">To get a reference to the **FontSchemeIndex** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="14f96-107">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="14f96-107">Cell name:</span></span>  <br/> | <span data-ttu-id="14f96-108">FontSchemeIndex</span><span class="sxs-lookup"><span data-stu-id="14f96-108">FontSchemeIndex</span></span>  <br/> |
+| <span data-ttu-id="fc400-107">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="fc400-107">Cell name:</span></span>  <br/> | <span data-ttu-id="fc400-108">FontSchemeIndex</span><span class="sxs-lookup"><span data-stu-id="fc400-108">FontSchemeIndex</span></span>  <br/> |
    
-<span data-ttu-id="14f96-109">Чтобы получить ссылку на ячейку **FontSchemeIndex** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="14f96-109">To get a reference to the **FontSchemeIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="fc400-109">Чтобы получить ссылку на ячейку **FontSchemeIndex** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="fc400-109">To get a reference to the **FontSchemeIndex** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="14f96-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="14f96-110">Section index:</span></span>  <br/> |<span data-ttu-id="14f96-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="14f96-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="14f96-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="14f96-112">Row index:</span></span>  <br/> |<span data-ttu-id="14f96-113">**Висровсемепропертиес**</span><span class="sxs-lookup"><span data-stu-id="14f96-113">**visRowThemeProperties**</span></span> <br/> |
-| <span data-ttu-id="14f96-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="14f96-114">Cell index:</span></span>  <br/> |<span data-ttu-id="14f96-115">**Висфонтсчемеиндекс**</span><span class="sxs-lookup"><span data-stu-id="14f96-115">**visFontSchemeIndex**</span></span> <br/> |
+| <span data-ttu-id="fc400-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="fc400-110">Section index:</span></span>  <br/> |<span data-ttu-id="fc400-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="fc400-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="fc400-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="fc400-112">Row index:</span></span>  <br/> |<span data-ttu-id="fc400-113">**висровсемепропертиес**</span><span class="sxs-lookup"><span data-stu-id="fc400-113">**visRowThemeProperties**</span></span> <br/> |
+| <span data-ttu-id="fc400-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="fc400-114">Cell index:</span></span>  <br/> |<span data-ttu-id="fc400-115">**висфонтсчемеиндекс**</span><span class="sxs-lookup"><span data-stu-id="fc400-115">**visFontSchemeIndex**</span></span> <br/> |
    
 

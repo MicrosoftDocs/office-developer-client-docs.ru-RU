@@ -19,35 +19,35 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418395"
 ---
-# <a name="cbflatmtsidlist"></a><span data-ttu-id="bb630-103">CbFLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="bb630-103">CbFLATMTSIDLIST</span></span>
+# <a name="cbflatmtsidlist"></a><span data-ttu-id="6c6c9-103">CbFLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="6c6c9-103">CbFLATMTSIDLIST</span></span>
 
   
   
-<span data-ttu-id="bb630-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bb630-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6c6c9-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6c6c9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="bb630-105">Вычисляет количество байтов в существующей структуре [флатмтсидлист](flatmtsidlist.md) .</span><span class="sxs-lookup"><span data-stu-id="bb630-105">Computes the number of bytes in an existing [FLATMTSIDLIST](flatmtsidlist.md) structure.</span></span> 
+<span data-ttu-id="6c6c9-105">Вычисляет количество байтов в существующей структуре [флатмтсидлист](flatmtsidlist.md) .</span><span class="sxs-lookup"><span data-stu-id="6c6c9-105">Computes the number of bytes in an existing [FLATMTSIDLIST](flatmtsidlist.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bb630-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="bb630-106">Header file:</span></span>  <br/> |<span data-ttu-id="bb630-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="bb630-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="bb630-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="bb630-108">Related structure:</span></span>  <br/> |<span data-ttu-id="bb630-109">**FLATMTSIDLIST**</span><span class="sxs-lookup"><span data-stu-id="bb630-109">**FLATMTSIDLIST**</span></span> <br/> |
+|<span data-ttu-id="6c6c9-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="6c6c9-106">Header file:</span></span>  <br/> |<span data-ttu-id="6c6c9-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="6c6c9-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="6c6c9-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="6c6c9-108">Related structure:</span></span>  <br/> |<span data-ttu-id="6c6c9-109">**FLATMTSIDLIST**</span><span class="sxs-lookup"><span data-stu-id="6c6c9-109">**FLATMTSIDLIST**</span></span> <br/> |
    
 ```cpp
 CbFLATMTSIDLIST (_lplist)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="bb630-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="bb630-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6c6c9-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="6c6c9-110">Parameters</span></span>
 
- <span data-ttu-id="bb630-111">__лплист_</span><span class="sxs-lookup"><span data-stu-id="bb630-111">__lplist_</span></span>
+ <span data-ttu-id="6c6c9-111">__лплист_</span><span class="sxs-lookup"><span data-stu-id="6c6c9-111">__lplist_</span></span>
   
-> <span data-ttu-id="bb630-112">Указатель на существующую структуру **флатмтсидлист** .</span><span class="sxs-lookup"><span data-stu-id="bb630-112">Pointer to the existing **FLATMTSIDLIST** structure.</span></span> 
+> <span data-ttu-id="6c6c9-112">Указатель на существующую структуру **флатмтсидлист** .</span><span class="sxs-lookup"><span data-stu-id="6c6c9-112">Pointer to the existing **FLATMTSIDLIST** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="bb630-113">См. также</span><span class="sxs-lookup"><span data-stu-id="bb630-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6c6c9-113">См. также</span><span class="sxs-lookup"><span data-stu-id="6c6c9-113">See also</span></span>
 
 
 
-[<span data-ttu-id="bb630-114">FLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="bb630-114">FLATMTSIDLIST</span></span>](flatmtsidlist.md)
+[<span data-ttu-id="6c6c9-114">FLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="6c6c9-114">FLATMTSIDLIST</span></span>](flatmtsidlist.md)
 
 
-[<span data-ttu-id="bb630-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="bb630-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="6c6c9-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="6c6c9-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

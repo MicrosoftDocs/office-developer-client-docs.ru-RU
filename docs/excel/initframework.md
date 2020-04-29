@@ -18,27 +18,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420755"
 ---
-# <a name="initframework"></a><span data-ttu-id="bb159-104">InitFramework</span><span class="sxs-lookup"><span data-stu-id="bb159-104">InitFramework</span></span>
+# <a name="initframework"></a><span data-ttu-id="0050f-104">InitFramework</span><span class="sxs-lookup"><span data-stu-id="0050f-104">InitFramework</span></span>
 
- <span data-ttu-id="bb159-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="bb159-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="0050f-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="0050f-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="bb159-106">Функция библиотеки Framework, которая инициализирует библиотеку Framework, которая просто инициализирует временные структуры данных о памяти **XLOPER**/ **XLOPER12** , освобождая память, которая уже была выделена.</span><span class="sxs-lookup"><span data-stu-id="bb159-106">Framework library function that initializes the Framework library, which simply initializes the temporary **XLOPER**/ **XLOPER12** memory data structures, freeing any memory that has already been allocated.</span></span> 
+<span data-ttu-id="0050f-106">Функция библиотеки Framework, которая инициализирует библиотеку Framework, которая просто инициализирует временные структуры данных о памяти **XLOPER**/ **XLOPER12** , освобождая память, которая уже была выделена.</span><span class="sxs-lookup"><span data-stu-id="0050f-106">Framework library function that initializes the Framework library, which simply initializes the temporary **XLOPER**/ **XLOPER12** memory data structures, freeing any memory that has already been allocated.</span></span> 
   
 ```cs
 short WINAPI InitFramework(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="bb159-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="bb159-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0050f-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="0050f-107">Parameters</span></span>
 
-<span data-ttu-id="bb159-108">Эта функция не получает никаких аргументов.</span><span class="sxs-lookup"><span data-stu-id="bb159-108">This function takes no arguments.</span></span>
+<span data-ttu-id="0050f-108">Эта функция не получает никаких аргументов.</span><span class="sxs-lookup"><span data-stu-id="0050f-108">This function takes no arguments.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="bb159-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="bb159-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0050f-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0050f-109">Return value</span></span>
 
-<span data-ttu-id="bb159-110">Эта функция не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="bb159-110">This function does not return a value.</span></span>
+<span data-ttu-id="0050f-110">Эта функция не возвращает значение.</span><span class="sxs-lookup"><span data-stu-id="0050f-110">This function does not return a value.</span></span>
   
-## <a name="example"></a><span data-ttu-id="bb159-111">Пример</span><span class="sxs-lookup"><span data-stu-id="bb159-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0050f-111">Пример</span><span class="sxs-lookup"><span data-stu-id="0050f-111">Example</span></span>
 
-<span data-ttu-id="bb159-112">В этом примере функция **инитфрамеворк** используется для освобождения всей временной памяти.</span><span class="sxs-lookup"><span data-stu-id="bb159-112">This example uses the **InitFramework** function to free all temporary memory.</span></span> 
+<span data-ttu-id="0050f-112">В этом примере функция **инитфрамеворк** используется для освобождения всей временной памяти.</span><span class="sxs-lookup"><span data-stu-id="0050f-112">This example uses the **InitFramework** function to free all temporary memory.</span></span> 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -50,9 +50,9 @@ short WINAPI InitFrameworkExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="bb159-113">См. также</span><span class="sxs-lookup"><span data-stu-id="bb159-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0050f-113">См. также</span><span class="sxs-lookup"><span data-stu-id="0050f-113">See also</span></span>
 
 
 
-[<span data-ttu-id="bb159-114">Функции в библиотеке платформы</span><span class="sxs-lookup"><span data-stu-id="bb159-114">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="0050f-114">Функции в библиотеке платформы</span><span class="sxs-lookup"><span data-stu-id="0050f-114">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

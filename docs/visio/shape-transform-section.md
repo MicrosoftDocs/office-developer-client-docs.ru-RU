@@ -16,8 +16,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419704"
 ---
-# <a name="shape-transform-section"></a><span data-ttu-id="653fd-103">Shape Transform Section</span><span class="sxs-lookup"><span data-stu-id="653fd-103">Shape Transform Section</span></span>
+# <a name="shape-transform-section"></a><span data-ttu-id="c102a-103">Shape Transform Section</span><span class="sxs-lookup"><span data-stu-id="c102a-103">Shape Transform Section</span></span>
 
-<span data-ttu-id="653fd-104">Содержит общие сведения о размещении фигуры: например, ее ширину, высоту, угол и центр вращения (ПИН-код). Указывает, была ли фигура отражена; и как должна вести себя форма при изменении размеров в группе.</span><span class="sxs-lookup"><span data-stu-id="653fd-104">Contains general positioning information about a shape: for example, its width, height, angle, and center of rotation (pin); whether the shape has been flipped; and how the shape should behave when resized within a group.</span></span>
+<span data-ttu-id="c102a-104">Содержит общие сведения о размещении фигуры: например, ее ширину, высоту, угол и центр вращения (ПИН-код). Указывает, была ли фигура отражена; и как должна вести себя форма при изменении размеров в группе.</span><span class="sxs-lookup"><span data-stu-id="c102a-104">Contains general positioning information about a shape: for example, its width, height, angle, and center of rotation (pin); whether the shape has been flipped; and how the shape should behave when resized within a group.</span></span>
   
 

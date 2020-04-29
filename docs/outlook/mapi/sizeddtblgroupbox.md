@@ -19,34 +19,34 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419319"
 ---
-# <a name="sizeddtblgroupbox"></a><span data-ttu-id="975e1-103">SizedDtblGroupBox</span><span class="sxs-lookup"><span data-stu-id="975e1-103">SizedDtblGroupBox</span></span>
+# <a name="sizeddtblgroupbox"></a><span data-ttu-id="6d803-103">SizedDtblGroupBox</span><span class="sxs-lookup"><span data-stu-id="6d803-103">SizedDtblGroupBox</span></span>
 
-<span data-ttu-id="975e1-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="975e1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6d803-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6d803-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="975e1-105">Создает именованную структуру, которая включает структуру [дтблграупбокс](dtblgroupbox.md) для описания элемента управления "Группа" и метку указанной длины.</span><span class="sxs-lookup"><span data-stu-id="975e1-105">Creates a named structure that includes a [DTBLGROUPBOX](dtblgroupbox.md) structure for describing a group box control and a label of a specified length.</span></span> 
+<span data-ttu-id="6d803-105">Создает именованную структуру, которая включает структуру [дтблграупбокс](dtblgroupbox.md) для описания элемента управления "Группа" и метку указанной длины.</span><span class="sxs-lookup"><span data-stu-id="6d803-105">Creates a named structure that includes a [DTBLGROUPBOX](dtblgroupbox.md) structure for describing a group box control and a label of a specified length.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="975e1-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="975e1-106">Header file:</span></span>  <br/> |<span data-ttu-id="975e1-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="975e1-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="975e1-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="975e1-108">Related structure:</span></span>  <br/> |<span data-ttu-id="975e1-109">**DTBLGROUPBOX**</span><span class="sxs-lookup"><span data-stu-id="975e1-109">**DTBLGROUPBOX**</span></span> <br/> |
+|<span data-ttu-id="6d803-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="6d803-106">Header file:</span></span>  <br/> |<span data-ttu-id="6d803-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="6d803-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="6d803-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="6d803-108">Related structure:</span></span>  <br/> |<span data-ttu-id="6d803-109">**DTBLGROUPBOX**</span><span class="sxs-lookup"><span data-stu-id="6d803-109">**DTBLGROUPBOX**</span></span> <br/> |
    
 ```cpp
 SizedDtblGroupBox (n, u)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="975e1-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="975e1-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6d803-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="6d803-110">Parameters</span></span>
 
-<span data-ttu-id="975e1-111">_n_</span><span class="sxs-lookup"><span data-stu-id="975e1-111">_n_</span></span>
+<span data-ttu-id="6d803-111">_n_</span><span class="sxs-lookup"><span data-stu-id="6d803-111">_n_</span></span>
   
-> <span data-ttu-id="975e1-112">Длина метки поля группы.</span><span class="sxs-lookup"><span data-stu-id="975e1-112">Length of the group box's label.</span></span> 
+> <span data-ttu-id="6d803-112">Длина метки поля группы.</span><span class="sxs-lookup"><span data-stu-id="6d803-112">Length of the group box's label.</span></span> 
     
-<span data-ttu-id="975e1-113">_u_</span><span class="sxs-lookup"><span data-stu-id="975e1-113">_u_</span></span>
+<span data-ttu-id="6d803-113">_u_</span><span class="sxs-lookup"><span data-stu-id="6d803-113">_u_</span></span>
   
-> <span data-ttu-id="975e1-114">Имя для новой структуры.</span><span class="sxs-lookup"><span data-stu-id="975e1-114">Name for the new structure.</span></span>
+> <span data-ttu-id="6d803-114">Имя для новой структуры.</span><span class="sxs-lookup"><span data-stu-id="6d803-114">Name for the new structure.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="975e1-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="975e1-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6d803-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="6d803-115">Remarks</span></span>
 
-<span data-ttu-id="975e1-116">Макрос **сизеддтблграупбокс** позволяет определить элемент управления поля группы, если длина метки известна.</span><span class="sxs-lookup"><span data-stu-id="975e1-116">The **SizedDtblGroupBox** macro lets you define a group box control when the length of the label is known.</span></span> <span data-ttu-id="975e1-117">Новая структура создается со следующими элементами:</span><span class="sxs-lookup"><span data-stu-id="975e1-117">The new structure is created with the following members:</span></span> 
+<span data-ttu-id="6d803-116">Макрос **сизеддтблграупбокс** позволяет определить элемент управления поля группы, если длина метки известна.</span><span class="sxs-lookup"><span data-stu-id="6d803-116">The **SizedDtblGroupBox** macro lets you define a group box control when the length of the label is known.</span></span> <span data-ttu-id="6d803-117">Новая структура создается со следующими элементами:</span><span class="sxs-lookup"><span data-stu-id="6d803-117">The new structure is created with the following members:</span></span> 
   
 ```cpp
 DTBLGROUPBOX dtblgroupbox;
@@ -54,15 +54,15 @@ TCHAR lpszLabel[n];
 
 ```
 
-<span data-ttu-id="975e1-118">Чтобы использовать указатель на полученную структуру из макроса **сизеддтблграупбокс** в качестве указателя структуры **дтблграупбокс** , выполните следующую операцию приведения:</span><span class="sxs-lookup"><span data-stu-id="975e1-118">To use a pointer to the resulting structure from the **SizedDtblGroupBox** macro as a **DTBLGROUPBOX** structure pointer, perform the following cast:</span></span> 
+<span data-ttu-id="6d803-118">Чтобы использовать указатель на полученную структуру из макроса **сизеддтблграупбокс** в качестве указателя структуры **дтблграупбокс** , выполните следующую операцию приведения:</span><span class="sxs-lookup"><span data-stu-id="6d803-118">To use a pointer to the resulting structure from the **SizedDtblGroupBox** macro as a **DTBLGROUPBOX** structure pointer, perform the following cast:</span></span> 
   
 ```cpp
 lpDtblGroupBox = (LPDTBLGROUPBOX) &SizedDtblGroupBox;
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="975e1-119">См. также</span><span class="sxs-lookup"><span data-stu-id="975e1-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6d803-119">См. также</span><span class="sxs-lookup"><span data-stu-id="6d803-119">See also</span></span>
 
-- [<span data-ttu-id="975e1-120">DTBLGROUPBOX</span><span class="sxs-lookup"><span data-stu-id="975e1-120">DTBLGROUPBOX</span></span>](dtblgroupbox.md)
-- [<span data-ttu-id="975e1-121">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="975e1-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+- [<span data-ttu-id="6d803-120">DTBLGROUPBOX</span><span class="sxs-lookup"><span data-stu-id="6d803-120">DTBLGROUPBOX</span></span>](dtblgroupbox.md)
+- [<span data-ttu-id="6d803-121">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="6d803-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

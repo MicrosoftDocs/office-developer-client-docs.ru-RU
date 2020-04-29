@@ -16,36 +16,36 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416141"
 ---
-# <a name="intup-function"></a><span data-ttu-id="cc278-103">Функция INTUP</span><span class="sxs-lookup"><span data-stu-id="cc278-103">INTUP Function</span></span>
+# <a name="intup-function"></a><span data-ttu-id="579d7-103">Функция INTUP</span><span class="sxs-lookup"><span data-stu-id="579d7-103">INTUP Function</span></span>
 
-<span data-ttu-id="cc278-104">Округляет число до ближайшего целого числа.</span><span class="sxs-lookup"><span data-stu-id="cc278-104">Rounds a number up to the next integer.</span></span>
+<span data-ttu-id="579d7-104">Округляет число до ближайшего целого числа.</span><span class="sxs-lookup"><span data-stu-id="579d7-104">Rounds a number up to the next integer.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="cc278-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="cc278-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="579d7-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="579d7-105">Syntax</span></span>
 
-<span data-ttu-id="cc278-106">INTUP (\* \* *Number* \* \*)</span><span class="sxs-lookup"><span data-stu-id="cc278-106">INTUP(\*\* *number* \*\* )</span></span> 
+<span data-ttu-id="579d7-106">INTUP (\* \* *Number* \* \*)</span><span class="sxs-lookup"><span data-stu-id="579d7-106">INTUP(\*\* *number* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="cc278-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="cc278-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="579d7-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="579d7-107">Parameters</span></span>
 
-|<span data-ttu-id="cc278-108">**Имя**</span><span class="sxs-lookup"><span data-stu-id="cc278-108">**Name**</span></span>|<span data-ttu-id="cc278-109">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="cc278-109">**Required/Optional**</span></span>|<span data-ttu-id="cc278-110">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="cc278-110">**Data Type**</span></span>|<span data-ttu-id="cc278-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="cc278-111">**Description**</span></span>|
+|<span data-ttu-id="579d7-108">**Имя**</span><span class="sxs-lookup"><span data-stu-id="579d7-108">**Name**</span></span>|<span data-ttu-id="579d7-109">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="579d7-109">**Required/Optional**</span></span>|<span data-ttu-id="579d7-110">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="579d7-110">**Data Type**</span></span>|<span data-ttu-id="579d7-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="579d7-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="cc278-112">_число_</span><span class="sxs-lookup"><span data-stu-id="cc278-112">_number_</span></span> <br/> |<span data-ttu-id="cc278-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="cc278-113">Required</span></span>  <br/> |<span data-ttu-id="cc278-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="cc278-114">**Number**</span></span> <br/> |<span data-ttu-id="cc278-115">Число, которое требуется округлить.</span><span class="sxs-lookup"><span data-stu-id="cc278-115">The number to round up.</span></span>  <br/> |
+| <span data-ttu-id="579d7-112">_число_</span><span class="sxs-lookup"><span data-stu-id="579d7-112">_number_</span></span> <br/> |<span data-ttu-id="579d7-113">Обязательна</span><span class="sxs-lookup"><span data-stu-id="579d7-113">Required</span></span>  <br/> |<span data-ttu-id="579d7-114">**Number**</span><span class="sxs-lookup"><span data-stu-id="579d7-114">**Number**</span></span> <br/> |<span data-ttu-id="579d7-115">Число, которое требуется округлить.</span><span class="sxs-lookup"><span data-stu-id="579d7-115">The number to round up.</span></span>  <br/> |
    
-## <a name="example-1"></a><span data-ttu-id="cc278-116">Пример 1</span><span class="sxs-lookup"><span data-stu-id="cc278-116">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="579d7-116">Пример 1</span><span class="sxs-lookup"><span data-stu-id="579d7-116">Example 1</span></span>
 
-<span data-ttu-id="cc278-117">INTUP (3.2)</span><span class="sxs-lookup"><span data-stu-id="cc278-117">INTUP(3.2)</span></span>
+<span data-ttu-id="579d7-117">INTUP (3.2)</span><span class="sxs-lookup"><span data-stu-id="579d7-117">INTUP(3.2)</span></span>
   
-<span data-ttu-id="cc278-118">Возвращает 4.</span><span class="sxs-lookup"><span data-stu-id="cc278-118">Returns 4.</span></span>
+<span data-ttu-id="579d7-118">Возвращает 4.</span><span class="sxs-lookup"><span data-stu-id="579d7-118">Returns 4.</span></span>
   
-## <a name="example-2"></a><span data-ttu-id="cc278-119">Пример 2</span><span class="sxs-lookup"><span data-stu-id="cc278-119">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="579d7-119">Пример 2</span><span class="sxs-lookup"><span data-stu-id="579d7-119">Example 2</span></span>
 
-<span data-ttu-id="cc278-120">INTUP (-3,2)</span><span class="sxs-lookup"><span data-stu-id="cc278-120">INTUP(-3.2)</span></span>
+<span data-ttu-id="579d7-120">INTUP (-3,2)</span><span class="sxs-lookup"><span data-stu-id="579d7-120">INTUP(-3.2)</span></span>
   
-<span data-ttu-id="cc278-121">Возвращает значение 3.</span><span class="sxs-lookup"><span data-stu-id="cc278-121">Returns -3.</span></span>
+<span data-ttu-id="579d7-121">Возвращает значение 3.</span><span class="sxs-lookup"><span data-stu-id="579d7-121">Returns -3.</span></span>
   
-## <a name="example-3"></a><span data-ttu-id="cc278-122">Пример 3</span><span class="sxs-lookup"><span data-stu-id="cc278-122">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="579d7-122">Пример 3</span><span class="sxs-lookup"><span data-stu-id="579d7-122">Example 3</span></span>
 
-<span data-ttu-id="cc278-123">INTUP (3)</span><span class="sxs-lookup"><span data-stu-id="cc278-123">INTUP(3)</span></span>
+<span data-ttu-id="579d7-123">INTUP (3)</span><span class="sxs-lookup"><span data-stu-id="579d7-123">INTUP(3)</span></span>
   
-<span data-ttu-id="cc278-124">Возвращает значение 3.</span><span class="sxs-lookup"><span data-stu-id="cc278-124">Returns 3.</span></span>
+<span data-ttu-id="579d7-124">Возвращает значение 3.</span><span class="sxs-lookup"><span data-stu-id="579d7-124">Returns 3.</span></span>
   
 

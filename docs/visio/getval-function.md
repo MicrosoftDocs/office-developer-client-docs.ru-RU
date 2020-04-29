@@ -16,24 +16,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416890"
 ---
-# <a name="getval-function"></a><span data-ttu-id="661d4-103">Функция GETVAL</span><span class="sxs-lookup"><span data-stu-id="661d4-103">GETVAL Function</span></span>
+# <a name="getval-function"></a><span data-ttu-id="d2fae-103">Функция GETVAL</span><span class="sxs-lookup"><span data-stu-id="d2fae-103">GETVAL Function</span></span>
 
-<span data-ttu-id="661d4-104">Получает значение ячейки и не вычисляет формулу при изменении значения в ячейке.</span><span class="sxs-lookup"><span data-stu-id="661d4-104">Gets the value of a cell and doesn't recalculate the formula when the cell's value changes.</span></span>
+<span data-ttu-id="d2fae-104">Получает значение ячейки и не вычисляет формулу при изменении значения в ячейке.</span><span class="sxs-lookup"><span data-stu-id="d2fae-104">Gets the value of a cell and doesn't recalculate the formula when the cell's value changes.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="661d4-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="661d4-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d2fae-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d2fae-105">Syntax</span></span>
 
-<span data-ttu-id="661d4-106">GETVAL (\* \* *целлнаме* \* \*)</span><span class="sxs-lookup"><span data-stu-id="661d4-106">GETVAL(\*\* *cellname* \*\* )</span></span> 
+<span data-ttu-id="d2fae-106">GETVAL (\* \* *целлнаме* \* \*)</span><span class="sxs-lookup"><span data-stu-id="d2fae-106">GETVAL(\*\* *cellname* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="661d4-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="661d4-107">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="d2fae-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="d2fae-107">Parameters</span></span>
 
-|<span data-ttu-id="661d4-108">**Имя**</span><span class="sxs-lookup"><span data-stu-id="661d4-108">**Name**</span></span>|<span data-ttu-id="661d4-109">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="661d4-109">**Required/Optional**</span></span>|<span data-ttu-id="661d4-110">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="661d4-110">**Data Type**</span></span>|<span data-ttu-id="661d4-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="661d4-111">**Description**</span></span>|
+|<span data-ttu-id="d2fae-108">**Имя**</span><span class="sxs-lookup"><span data-stu-id="d2fae-108">**Name**</span></span>|<span data-ttu-id="d2fae-109">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="d2fae-109">**Required/Optional**</span></span>|<span data-ttu-id="d2fae-110">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="d2fae-110">**Data Type**</span></span>|<span data-ttu-id="d2fae-111">**Описание**</span><span class="sxs-lookup"><span data-stu-id="d2fae-111">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="661d4-112">_целлнаме_</span><span class="sxs-lookup"><span data-stu-id="661d4-112">_cellname_</span></span> <br/> |<span data-ttu-id="661d4-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="661d4-113">Required</span></span>  <br/> |<span data-ttu-id="661d4-114">**String**</span><span class="sxs-lookup"><span data-stu-id="661d4-114">**String**</span></span> <br/> |<span data-ttu-id="661d4-115">Имя ячейки, для которой необходимо получить значение.</span><span class="sxs-lookup"><span data-stu-id="661d4-115">The name of the cell to get the value of.</span></span>  <br/> |
+| <span data-ttu-id="d2fae-112">_целлнаме_</span><span class="sxs-lookup"><span data-stu-id="d2fae-112">_cellname_</span></span> <br/> |<span data-ttu-id="d2fae-113">Обязательный</span><span class="sxs-lookup"><span data-stu-id="d2fae-113">Required</span></span>  <br/> |<span data-ttu-id="d2fae-114">**String**</span><span class="sxs-lookup"><span data-stu-id="d2fae-114">**String**</span></span> <br/> |<span data-ttu-id="d2fae-115">Имя ячейки, для которой необходимо получить значение.</span><span class="sxs-lookup"><span data-stu-id="d2fae-115">The name of the cell to get the value of.</span></span>  <br/> |
    
-## <a name="example"></a><span data-ttu-id="661d4-116">Пример</span><span class="sxs-lookup"><span data-stu-id="661d4-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d2fae-116">Пример</span><span class="sxs-lookup"><span data-stu-id="d2fae-116">Example</span></span>
 
-<span data-ttu-id="661d4-117">GETVAL (PinX) + GETVAL (PinY) + Width</span><span class="sxs-lookup"><span data-stu-id="661d4-117">GETVAL(PinX) + GETVAL(PinY) + Width</span></span> 
+<span data-ttu-id="d2fae-117">GETVAL (PinX) + GETVAL (PinY) + Width</span><span class="sxs-lookup"><span data-stu-id="d2fae-117">GETVAL(PinX) + GETVAL(PinY) + Width</span></span> 
   
-<span data-ttu-id="661d4-118">Возвращает сумму значений ячеек PinX, PinY и Width.</span><span class="sxs-lookup"><span data-stu-id="661d4-118">Returns the sum of the value of the PinX, PinY, and Width cells.</span></span> 
+<span data-ttu-id="d2fae-118">Возвращает сумму значений ячеек PinX, PinY и Width.</span><span class="sxs-lookup"><span data-stu-id="d2fae-118">Returns the sum of the value of the PinX, PinY, and Width cells.</span></span> 
   
 

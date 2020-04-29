@@ -16,8 +16,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417324"
 ---
-# <a name="image-properties-section"></a><span data-ttu-id="ea802-103">Image Properties Section</span><span class="sxs-lookup"><span data-stu-id="ea802-103">Image Properties Section</span></span>
+# <a name="image-properties-section"></a><span data-ttu-id="cec0c-103">Image Properties Section</span><span class="sxs-lookup"><span data-stu-id="cec0c-103">Image Properties Section</span></span>
 
-<span data-ttu-id="ea802-104">Содержит значения гамма, яркости, контраста, размытия, резкости и нешума для растровых изображений (изображение, состоящее из точек) и отображается в окне таблицы свойств фигуры только для таких объектов.</span><span class="sxs-lookup"><span data-stu-id="ea802-104">Contains the gamma, brightness, contrast, blur, sharpen, and denoise values for bitmaps (an image that consists of pixels) and appears in the ShapeSheet window only for such objects.</span></span>
+<span data-ttu-id="cec0c-104">Содержит значения гамма, яркости, контраста, размытия, резкости и нешума для растровых изображений (изображение, состоящее из точек) и отображается в окне таблицы свойств фигуры только для таких объектов.</span><span class="sxs-lookup"><span data-stu-id="cec0c-104">Contains the gamma, brightness, contrast, blur, sharpen, and denoise values for bitmaps (an image that consists of pixels) and appears in the ShapeSheet window only for such objects.</span></span>
   
 

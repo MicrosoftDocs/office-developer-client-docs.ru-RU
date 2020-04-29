@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418724"
 ---
-# <a name="getinstance"></a><span data-ttu-id="40b57-103">GetInstance</span><span class="sxs-lookup"><span data-stu-id="40b57-103">GetInstance</span></span>
+# <a name="getinstance"></a><span data-ttu-id="cf431-103">GetInstance</span><span class="sxs-lookup"><span data-stu-id="cf431-103">GetInstance</span></span>
 
   
   
-<span data-ttu-id="40b57-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="40b57-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cf431-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cf431-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="40b57-105">Копирует одно значение из многозначного свойства в свойство с одним значением того же типа.</span><span class="sxs-lookup"><span data-stu-id="40b57-105">Copies one value within a multivalued property to a single-valued property of the same type.</span></span> 
+<span data-ttu-id="cf431-105">Копирует одно значение из многозначного свойства в свойство с одним значением того же типа.</span><span class="sxs-lookup"><span data-stu-id="cf431-105">Copies one value within a multivalued property to a single-valued property of the same type.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="40b57-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="40b57-106">Header file:</span></span>  <br/> |<span data-ttu-id="40b57-107">МАПИУТИЛ. Высоты</span><span class="sxs-lookup"><span data-stu-id="40b57-107">MAPIUTIL.H</span></span>  <br/> |
-|<span data-ttu-id="40b57-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="40b57-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="40b57-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="40b57-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="40b57-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="40b57-110">Called by:</span></span>  <br/> |<span data-ttu-id="40b57-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="40b57-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="cf431-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="cf431-106">Header file:</span></span>  <br/> |<span data-ttu-id="cf431-107">МАПИУТИЛ. Высоты</span><span class="sxs-lookup"><span data-stu-id="cf431-107">MAPIUTIL.H</span></span>  <br/> |
+|<span data-ttu-id="cf431-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="cf431-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="cf431-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="cf431-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="cf431-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="cf431-110">Called by:</span></span>  <br/> |<span data-ttu-id="cf431-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="cf431-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 VOID GetInstance(
@@ -41,26 +41,26 @@ VOID GetInstance(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="40b57-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="40b57-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="cf431-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="cf431-112">Parameters</span></span>
 
- <span data-ttu-id="40b57-113">_Пвалмв_</span><span class="sxs-lookup"><span data-stu-id="40b57-113">_pvalMv_</span></span>
+ <span data-ttu-id="cf431-113">_пвалмв_</span><span class="sxs-lookup"><span data-stu-id="cf431-113">_pvalMv_</span></span>
   
-> <span data-ttu-id="40b57-114">возврата Указатель на структуру [спропвалуе](spropvalue.md) , определяющую многозначное свойство.</span><span class="sxs-lookup"><span data-stu-id="40b57-114">[in] Pointer to an [SPropValue](spropvalue.md) structure defining a multivalued property.</span></span> 
+> <span data-ttu-id="cf431-114">возврата Указатель на структуру [спропвалуе](spropvalue.md) , определяющую многозначное свойство.</span><span class="sxs-lookup"><span data-stu-id="cf431-114">[in] Pointer to an [SPropValue](spropvalue.md) structure defining a multivalued property.</span></span> 
     
- <span data-ttu-id="40b57-115">_Пвалсв_</span><span class="sxs-lookup"><span data-stu-id="40b57-115">_pvalSv_</span></span>
+ <span data-ttu-id="cf431-115">_пвалсв_</span><span class="sxs-lookup"><span data-stu-id="cf431-115">_pvalSv_</span></span>
   
-> <span data-ttu-id="40b57-116">возврата Указатель на свойство с одним значением, чтобы получить данные.</span><span class="sxs-lookup"><span data-stu-id="40b57-116">[in] Pointer to a single-valued property to receive data.</span></span> 
+> <span data-ttu-id="cf431-116">возврата Указатель на свойство с одним значением, чтобы получить данные.</span><span class="sxs-lookup"><span data-stu-id="cf431-116">[in] Pointer to a single-valued property to receive data.</span></span> 
     
- <span data-ttu-id="40b57-117">_Улиинст_</span><span class="sxs-lookup"><span data-stu-id="40b57-117">_uliInst_</span></span>
+ <span data-ttu-id="cf431-117">_улиинст_</span><span class="sxs-lookup"><span data-stu-id="cf431-117">_uliInst_</span></span>
   
-> <span data-ttu-id="40b57-118">возврата Номер экземпляра (то есть, элемент массива) значения копируется из структуры, указанной параметром _пвалмв_ .</span><span class="sxs-lookup"><span data-stu-id="40b57-118">[in] The instance number, that is, the array element, of the value being copied from the structure indicated by the  _pvalMv_ parameter.</span></span> 
+> <span data-ttu-id="cf431-118">возврата Номер экземпляра (то есть, элемент массива) значения копируется из структуры, указанной параметром _пвалмв_ .</span><span class="sxs-lookup"><span data-stu-id="cf431-118">[in] The instance number, that is, the array element, of the value being copied from the structure indicated by the  _pvalMv_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="40b57-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="40b57-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="cf431-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="cf431-119">Return value</span></span>
 
-<span data-ttu-id="40b57-120">Нет.</span><span class="sxs-lookup"><span data-stu-id="40b57-120">None.</span></span>
+<span data-ttu-id="cf431-120">Нет.</span><span class="sxs-lookup"><span data-stu-id="cf431-120">None.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="40b57-121">Примечания</span><span class="sxs-lookup"><span data-stu-id="40b57-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cf431-121">Примечания</span><span class="sxs-lookup"><span data-stu-id="cf431-121">Remarks</span></span>
 
-<span data-ttu-id="40b57-122">Если копируемое значение слишком велико для выделенной памяти, функция **GetInstance** копирует только указатели вместо выделения новой памяти.</span><span class="sxs-lookup"><span data-stu-id="40b57-122">If the value copied is too large for the allocated memory, the **GetInstance** function only copies pointers instead of allocating new memory.</span></span> 
+<span data-ttu-id="cf431-122">Если копируемое значение слишком велико для выделенной памяти, функция **GetInstance** копирует только указатели вместо выделения новой памяти.</span><span class="sxs-lookup"><span data-stu-id="cf431-122">If the value copied is too large for the allocated memory, the **GetInstance** function only copies pointers instead of allocating new memory.</span></span> 
   
 

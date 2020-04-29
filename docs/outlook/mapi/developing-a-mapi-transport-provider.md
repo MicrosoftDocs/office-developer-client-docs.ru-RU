@@ -15,12 +15,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416911"
 ---
-# <a name="developing-a-mapi-transport-provider"></a><span data-ttu-id="f83ed-103">Разработка поставщика транспорта MAPI</span><span class="sxs-lookup"><span data-stu-id="f83ed-103">Developing a MAPI Transport Provider</span></span>
+# <a name="developing-a-mapi-transport-provider"></a><span data-ttu-id="1c892-103">Разработка поставщика транспорта MAPI</span><span class="sxs-lookup"><span data-stu-id="1c892-103">Developing a MAPI Transport Provider</span></span>
 
   
   
-<span data-ttu-id="f83ed-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f83ed-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1c892-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1c892-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f83ed-105">Вы должны быть знакомы с архитектурой подсистем MAPI, языком C++ и с написанием библиотек динамической компоновки (DLL) для различных платформ Windows, прежде чем разрабатывать поставщик транспорта.</span><span class="sxs-lookup"><span data-stu-id="f83ed-105">You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.</span></span>
+<span data-ttu-id="1c892-105">Вы должны быть знакомы с архитектурой подсистем MAPI, языком C++ и с написанием библиотек динамической компоновки (DLL) для различных платформ Windows, прежде чем разрабатывать поставщик транспорта.</span><span class="sxs-lookup"><span data-stu-id="1c892-105">You should be familiar with the MAPI subsystem architecture, the C++ language, and with writing dynamic-link libraries (DLLs) for the various Windows platforms before developing a transport provider.</span></span>
   
 

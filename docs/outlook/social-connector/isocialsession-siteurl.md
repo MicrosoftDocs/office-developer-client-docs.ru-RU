@@ -1,5 +1,5 @@
 ---
-title: ИсоЦиалсессионситеурл
+title: исоЦиалсессионситеурл
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,19 +15,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416064"
 ---
-# <a name="isocialsessionsiteurl"></a><span data-ttu-id="06c1e-103">ISocialSession::SiteUrl</span><span class="sxs-lookup"><span data-stu-id="06c1e-103">ISocialSession::SiteUrl</span></span>
+# <a name="isocialsessionsiteurl"></a><span data-ttu-id="e17af-103">ISocialSession::SiteUrl</span><span class="sxs-lookup"><span data-stu-id="e17af-103">ISocialSession::SiteUrl</span></span>
 
-<span data-ttu-id="06c1e-104">Задает URL-адрес сайта социальных сетей.</span><span class="sxs-lookup"><span data-stu-id="06c1e-104">Sets the social network site URL.</span></span> 
+<span data-ttu-id="e17af-104">Задает URL-адрес сайта социальных сетей.</span><span class="sxs-lookup"><span data-stu-id="e17af-104">Sets the social network site URL.</span></span> 
   
 ```cpp
 [propput] HRESULT _stdcall siteUrl([in] BSTR rhs);
 ```
 
-## <a name="property-value"></a><span data-ttu-id="06c1e-105">Значение свойства</span><span class="sxs-lookup"><span data-stu-id="06c1e-105">Property value</span></span>
+## <a name="property-value"></a><span data-ttu-id="e17af-105">Значение свойства</span><span class="sxs-lookup"><span data-stu-id="e17af-105">Property value</span></span>
 
-<span data-ttu-id="06c1e-106">Строка, представляющая URL-адрес сайта социальных сетей.</span><span class="sxs-lookup"><span data-stu-id="06c1e-106">A string that represents a social network site URL.</span></span>
+<span data-ttu-id="e17af-106">Строка, представляющая URL-адрес сайта социальных сетей.</span><span class="sxs-lookup"><span data-stu-id="e17af-106">A string that represents a social network site URL.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="06c1e-107">См. также</span><span class="sxs-lookup"><span data-stu-id="06c1e-107">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e17af-107">См. также</span><span class="sxs-lookup"><span data-stu-id="e17af-107">See also</span></span>
 
-- [<span data-ttu-id="06c1e-108">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="06c1e-108">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="e17af-108">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="e17af-108">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

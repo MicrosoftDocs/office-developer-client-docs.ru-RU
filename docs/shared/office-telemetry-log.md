@@ -13,16 +13,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417457"
 ---
-# <a name="office-telemetry-log"></a><span data-ttu-id="147e9-103">Журнал телеметрии Office</span><span class="sxs-lookup"><span data-stu-id="147e9-103">Office telemetry log</span></span>
+# <a name="office-telemetry-log"></a><span data-ttu-id="ff261-103">Журнал телеметрии Office</span><span class="sxs-lookup"><span data-stu-id="ff261-103">Office telemetry log</span></span>
 
-<span data-ttu-id="147e9-104">Найдите сведения о журнале телеметрии, который входит в состав Office 2013.</span><span class="sxs-lookup"><span data-stu-id="147e9-104">Find information about the Telemetry Log that is included with Office 2013.</span></span>
+<span data-ttu-id="ff261-104">Найдите сведения о журнале телеметрии, который входит в состав Office 2013.</span><span class="sxs-lookup"><span data-stu-id="ff261-104">Find information about the Telemetry Log that is included with Office 2013.</span></span>
   
-<span data-ttu-id="147e9-105">Изучите сведения, приведенные по этим ссылкам, чтобы больше узнать об использовании компонента Журнал телеметрии для Office 2013 и интерпретации отображаемых в нем результатов.</span><span class="sxs-lookup"><span data-stu-id="147e9-105">Explore these links to learn more about using the Telemetry Log for Office 2013 and interpreting the results that it displays.</span></span>
+<span data-ttu-id="ff261-105">Изучите сведения, приведенные по этим ссылкам, чтобы больше узнать об использовании компонента Журнал телеметрии для Office 2013 и интерпретации отображаемых в нем результатов.</span><span class="sxs-lookup"><span data-stu-id="ff261-105">Explore these links to learn more about using the Telemetry Log for Office 2013 and interpreting the results that it displays.</span></span>
   
-## <a name="in-this-section"></a><span data-ttu-id="147e9-106">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="147e9-106">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="ff261-106">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="ff261-106">In this section</span></span>
 
-- [<span data-ttu-id="147e9-107">Устранение проблем с файлами Office и пользовательскими решениями при помощи журнала телеметрии</span><span class="sxs-lookup"><span data-stu-id="147e9-107">Troubleshooting Office files and custom solutions with the telemetry log</span></span>](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
+- [<span data-ttu-id="ff261-107">Устранение проблем с файлами Office и пользовательскими решениями при помощи журнала телеметрии</span><span class="sxs-lookup"><span data-stu-id="ff261-107">Troubleshooting Office files and custom solutions with the telemetry log</span></span>](troubleshooting-office-files-and-custom-solutions-with-the-telemetry-log.md)
     
-- [<span data-ttu-id="147e9-108">Проблемы совместимости в Office</span><span class="sxs-lookup"><span data-stu-id="147e9-108">Compatibility issues in Office</span></span>](compatibility-issues-in-office.md)
+- [<span data-ttu-id="ff261-108">Проблемы совместимости в Office</span><span class="sxs-lookup"><span data-stu-id="ff261-108">Compatibility issues in Office</span></span>](compatibility-issues-in-office.md)
     
 

@@ -19,46 +19,46 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417016"
 ---
-# <a name="pidtagremoteprogresstext-canonical-property"></a><span data-ttu-id="a1d2d-103">Каноническое свойство PidTagRemoteProgressText</span><span class="sxs-lookup"><span data-stu-id="a1d2d-103">PidTagRemoteProgressText Canonical Property</span></span>
+# <a name="pidtagremoteprogresstext-canonical-property"></a><span data-ttu-id="97264-103">Каноническое свойство PidTagRemoteProgressText</span><span class="sxs-lookup"><span data-stu-id="97264-103">PidTagRemoteProgressText Canonical Property</span></span>
 
   
   
-<span data-ttu-id="a1d2d-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a1d2d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="97264-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="97264-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a1d2d-105">Это свойство содержит строку, указывающую состояние удаленной передачи.</span><span class="sxs-lookup"><span data-stu-id="a1d2d-105">This property contains a string that indicates the status of a remote transfer.</span></span>
+<span data-ttu-id="97264-105">Это свойство содержит строку, указывающую состояние удаленной передачи.</span><span class="sxs-lookup"><span data-stu-id="97264-105">This property contains a string that indicates the status of a remote transfer.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="a1d2d-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="a1d2d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="a1d2d-107">ПР_РЕМОТЕ_ПРОГРЕСС_ТЕКСТ, ПР_РЕМОТЕ_ПРОГРЕСС_ТЕКСТ_А, ПР_РЕМОТЕ_ПРОГРЕСС_ТЕКСТ_В</span><span class="sxs-lookup"><span data-stu-id="a1d2d-107">PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A, PR_REMOTE_PROGRESS_TEXT_W</span></span>  <br/> |
-|<span data-ttu-id="a1d2d-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="a1d2d-108">Identifier:</span></span>  <br/> |<span data-ttu-id="a1d2d-109">0x3E0C</span><span class="sxs-lookup"><span data-stu-id="a1d2d-109">0x3E0C</span></span>  <br/> |
-|<span data-ttu-id="a1d2d-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="a1d2d-110">Data type:</span></span>  <br/> |<span data-ttu-id="a1d2d-111">PT_STRING8, ПТ_УНИКОДЕ</span><span class="sxs-lookup"><span data-stu-id="a1d2d-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="a1d2d-112">Область:</span><span class="sxs-lookup"><span data-stu-id="a1d2d-112">Area:</span></span>  <br/> |<span data-ttu-id="a1d2d-113">Состояние MAPI</span><span class="sxs-lookup"><span data-stu-id="a1d2d-113">MAPI Status</span></span>  <br/> |
+|<span data-ttu-id="97264-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="97264-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="97264-107">PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A PR_REMOTE_PROGRESS_TEXT_W</span><span class="sxs-lookup"><span data-stu-id="97264-107">PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A, PR_REMOTE_PROGRESS_TEXT_W</span></span>  <br/> |
+|<span data-ttu-id="97264-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="97264-108">Identifier:</span></span>  <br/> |<span data-ttu-id="97264-109">0x3E0C</span><span class="sxs-lookup"><span data-stu-id="97264-109">0x3E0C</span></span>  <br/> |
+|<span data-ttu-id="97264-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="97264-110">Data type:</span></span>  <br/> |<span data-ttu-id="97264-111">PT_STRING8 PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="97264-111">PT_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="97264-112">Область:</span><span class="sxs-lookup"><span data-stu-id="97264-112">Area:</span></span>  <br/> |<span data-ttu-id="97264-113">Состояние MAPI</span><span class="sxs-lookup"><span data-stu-id="97264-113">MAPI Status</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a1d2d-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="a1d2d-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="97264-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="97264-114">Remarks</span></span>
 
-<span data-ttu-id="a1d2d-115">Числовой код, связанный с этим текстом, передается в свойстве **пр_ремоте_прогресс** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="a1d2d-115">A numeric code associated with this text is passed in the **PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)) property.</span></span>
+<span data-ttu-id="97264-115">Числовой код, связанный с этим текстом, передается в свойство **PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="97264-115">A numeric code associated with this text is passed in the **PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)) property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="a1d2d-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="a1d2d-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="97264-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="97264-116">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="a1d2d-117">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="a1d2d-117">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="97264-117">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="97264-117">Header files</span></span>
 
-<span data-ttu-id="a1d2d-118">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="a1d2d-118">Mapidefs.h</span></span>
+<span data-ttu-id="97264-118">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="97264-118">Mapidefs.h</span></span>
   
-> <span data-ttu-id="a1d2d-119">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="a1d2d-119">Provides data type definitions.</span></span>
+> <span data-ttu-id="97264-119">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="97264-119">Provides data type definitions.</span></span>
     
-<span data-ttu-id="a1d2d-120">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="a1d2d-120">Mapitags.h</span></span>
+<span data-ttu-id="97264-120">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="97264-120">Mapitags.h</span></span>
   
-> <span data-ttu-id="a1d2d-121">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="a1d2d-121">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="97264-121">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="97264-121">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="a1d2d-122">См. также</span><span class="sxs-lookup"><span data-stu-id="a1d2d-122">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="97264-122">См. также</span><span class="sxs-lookup"><span data-stu-id="97264-122">See also</span></span>
 
 
 
-[<span data-ttu-id="a1d2d-123">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="a1d2d-123">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="97264-123">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="97264-123">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="a1d2d-124">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="a1d2d-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="97264-124">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="97264-124">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="a1d2d-125">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="a1d2d-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="97264-125">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="97264-125">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="a1d2d-126">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="a1d2d-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="97264-126">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="97264-126">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

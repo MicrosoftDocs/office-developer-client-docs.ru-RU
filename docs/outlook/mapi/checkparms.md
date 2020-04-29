@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422280"
 ---
-# <a name="checkparms"></a><span data-ttu-id="e91b3-103">CheckParms</span><span class="sxs-lookup"><span data-stu-id="e91b3-103">CheckParms</span></span>
+# <a name="checkparms"></a><span data-ttu-id="46f51-103">CheckParms</span><span class="sxs-lookup"><span data-stu-id="46f51-103">CheckParms</span></span>
 
   
   
-<span data-ttu-id="e91b3-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e91b3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="46f51-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="46f51-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="e91b3-105">Вызывает внутреннюю функцию для проверки параметров отладки методов поставщика услуг, вызываемых MAPI.</span><span class="sxs-lookup"><span data-stu-id="e91b3-105">Calls an internal function to validate debugging parameters on service provider methods called by MAPI.</span></span> 
+<span data-ttu-id="46f51-105">Вызывает внутреннюю функцию для проверки параметров отладки методов поставщика услуг, вызываемых MAPI.</span><span class="sxs-lookup"><span data-stu-id="46f51-105">Calls an internal function to validate debugging parameters on service provider methods called by MAPI.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e91b3-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="e91b3-106">Header file:</span></span>  <br/> |<span data-ttu-id="e91b3-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="e91b3-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="e91b3-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="e91b3-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="e91b3-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="e91b3-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="e91b3-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="e91b3-110">Called by:</span></span>  <br/> |<span data-ttu-id="e91b3-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="e91b3-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="46f51-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="46f51-106">Header file:</span></span>  <br/> |<span data-ttu-id="46f51-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="46f51-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="46f51-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="46f51-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="46f51-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="46f51-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="46f51-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="46f51-110">Called by:</span></span>  <br/> |<span data-ttu-id="46f51-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="46f51-111">Service providers</span></span>  <br/> |
    
 ```cpp
 HRESULT CheckParms(
@@ -40,24 +40,24 @@ HRESULT CheckParms(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e91b3-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="e91b3-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="46f51-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="46f51-112">Parameters</span></span>
 
- <span data-ttu-id="e91b3-113">_Емесод_</span><span class="sxs-lookup"><span data-stu-id="e91b3-113">_eMethod_</span></span>
+ <span data-ttu-id="46f51-113">_емесод_</span><span class="sxs-lookup"><span data-stu-id="46f51-113">_eMethod_</span></span>
   
-> <span data-ttu-id="e91b3-114">возврата Определяет, по перечислению, метод, который необходимо проверить.</span><span class="sxs-lookup"><span data-stu-id="e91b3-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
+> <span data-ttu-id="46f51-114">возврата Определяет, по перечислению, метод, который необходимо проверить.</span><span class="sxs-lookup"><span data-stu-id="46f51-114">[in] Specifies, by enumeration, the method to validate.</span></span> 
     
- <span data-ttu-id="e91b3-115">_First_</span><span class="sxs-lookup"><span data-stu-id="e91b3-115">_First_</span></span>
+ <span data-ttu-id="46f51-115">_First_</span><span class="sxs-lookup"><span data-stu-id="46f51-115">_First_</span></span>
   
-> <span data-ttu-id="e91b3-116">возврата Указатель на первый аргумент в стеке.</span><span class="sxs-lookup"><span data-stu-id="e91b3-116">[in] Pointer to the first argument on the stack.</span></span>
+> <span data-ttu-id="46f51-116">возврата Указатель на первый аргумент в стеке.</span><span class="sxs-lookup"><span data-stu-id="46f51-116">[in] Pointer to the first argument on the stack.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="e91b3-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="e91b3-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="46f51-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="46f51-117">Return value</span></span>
 
-<span data-ttu-id="e91b3-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="e91b3-118">S_OK</span></span> 
+<span data-ttu-id="46f51-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="46f51-118">S_OK</span></span> 
   
-> <span data-ttu-id="e91b3-119">The call succeeded.</span><span class="sxs-lookup"><span data-stu-id="e91b3-119">The call succeeded.</span></span>
+> <span data-ttu-id="46f51-119">The call succeeded.</span><span class="sxs-lookup"><span data-stu-id="46f51-119">The call succeeded.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="e91b3-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="e91b3-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="46f51-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="46f51-120">Remarks</span></span>
 
-<span data-ttu-id="e91b3-121">В отличие от макросов [валидатепармс](validateparms.md) и [Улвалидатепармс](ulvalidateparms.md) , макрос **чеккпармс** не выполняет полную проверку параметров.</span><span class="sxs-lookup"><span data-stu-id="e91b3-121">In contrast to the [ValidateParms](validateparms.md) and [UlValidateParms](ulvalidateparms.md) macros, the **CheckParms** macro does not perform a full parameter validation.</span></span> <span data-ttu-id="e91b3-122">Параметры, передаваемые между MAPI и поставщиками услуг, считаются правильными, поэтому **чеккпармс** выполняет только проверку отладки.</span><span class="sxs-lookup"><span data-stu-id="e91b3-122">Parameters passed between MAPI and service providers are assumed to be correct, so **CheckParms** performs a debug validation only.</span></span> 
+<span data-ttu-id="46f51-121">В отличие от макросов [валидатепармс](validateparms.md) и [Улвалидатепармс](ulvalidateparms.md) , макрос **чеккпармс** не выполняет полную проверку параметров.</span><span class="sxs-lookup"><span data-stu-id="46f51-121">In contrast to the [ValidateParms](validateparms.md) and [UlValidateParms](ulvalidateparms.md) macros, the **CheckParms** macro does not perform a full parameter validation.</span></span> <span data-ttu-id="46f51-122">Параметры, передаваемые между MAPI и поставщиками услуг, считаются правильными, поэтому **чеккпармс** выполняет только проверку отладки.</span><span class="sxs-lookup"><span data-stu-id="46f51-122">Parameters passed between MAPI and service providers are assumed to be correct, so **CheckParms** performs a debug validation only.</span></span> 
   
 

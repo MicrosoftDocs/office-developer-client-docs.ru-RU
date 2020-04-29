@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33416050"
 ---
-# <a name="keywords-function"></a><span data-ttu-id="3ca1f-103">Функция KEYWORDS</span><span class="sxs-lookup"><span data-stu-id="3ca1f-103">KEYWORDS Function</span></span>
+# <a name="keywords-function"></a><span data-ttu-id="ac9b2-103">Функция KEYWORDS</span><span class="sxs-lookup"><span data-stu-id="ac9b2-103">KEYWORDS Function</span></span>
 
-<span data-ttu-id="3ca1f-104">Возвращает текст из поля **Ключевые слова** в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="3ca1f-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
+<span data-ttu-id="ac9b2-104">Возвращает текст из поля **Ключевые слова** в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="ac9b2-104">Returns the text from the **Keywords** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="3ca1f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="3ca1f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ac9b2-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ac9b2-105">Syntax</span></span>
 
-<span data-ttu-id="3ca1f-106">Ключевые слова ()</span><span class="sxs-lookup"><span data-stu-id="3ca1f-106">KEYWORDS ()</span></span>
+<span data-ttu-id="ac9b2-106">Ключевые слова ()</span><span class="sxs-lookup"><span data-stu-id="ac9b2-106">KEYWORDS ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="3ca1f-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3ca1f-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="ac9b2-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="ac9b2-107">Return value</span></span>
 
-<span data-ttu-id="3ca1f-108">String</span><span class="sxs-lookup"><span data-stu-id="3ca1f-108">String</span></span>
+<span data-ttu-id="ac9b2-108">String</span><span class="sxs-lookup"><span data-stu-id="ac9b2-108">String</span></span>
   
 

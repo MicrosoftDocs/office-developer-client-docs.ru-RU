@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417688"
 ---
-# <a name="name-cell-reviewer-section"></a><span data-ttu-id="a3418-103">Name Cell (Reviewer Section)</span><span class="sxs-lookup"><span data-stu-id="a3418-103">Name Cell (Reviewer Section)</span></span>
+# <a name="name-cell-reviewer-section"></a><span data-ttu-id="077ec-103">Name Cell (Reviewer Section)</span><span class="sxs-lookup"><span data-stu-id="077ec-103">Name Cell (Reviewer Section)</span></span>
 
-<span data-ttu-id="a3418-104">Содержит имя рецензента документов.</span><span class="sxs-lookup"><span data-stu-id="a3418-104">Contains the name of a document reviewer.</span></span>
+<span data-ttu-id="077ec-104">Содержит имя рецензента документов.</span><span class="sxs-lookup"><span data-stu-id="077ec-104">Contains the name of a document reviewer.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="a3418-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="a3418-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="077ec-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="077ec-105">Remarks</span></span>
 
- <span data-ttu-id="a3418-106">Это значение по умолчанию равно имени, указанному в поле **имя пользователя** на **вкладке Общие** диалогового **окна Параметры Visio** (перейдите на вкладку **файл** , щелкните **Параметры**, а затем выберите **Общие**).</span><span class="sxs-lookup"><span data-stu-id="a3418-106">This value defaults to the name found in the **User name** box on the **General** tab of the **Visio Options** dialog box (click the **File** tab, click **Options**, and then click **General**).</span></span> 
+ <span data-ttu-id="077ec-106">Это значение по умолчанию равно имени, указанному в поле **имя пользователя** на **вкладке Общие** диалогового **окна Параметры Visio** (перейдите на вкладку **файл** , щелкните **Параметры**, а затем выберите **Общие**).</span><span class="sxs-lookup"><span data-stu-id="077ec-106">This value defaults to the name found in the **User name** box on the **General** tab of the **Visio Options** dialog box (click the **File** tab, click **Options**, and then click **General**).</span></span> 
   
-<span data-ttu-id="a3418-107">Чтобы получить ссылку на ячейку Name по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="a3418-107">To get a reference to the Name cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="077ec-107">Чтобы получить ссылку на ячейку Name по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="077ec-107">To get a reference to the Name cell by name from another formula, or from a program by using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a3418-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="a3418-108">Cell name:</span></span>  <br/> | <span data-ttu-id="a3418-109">Reviewer.Name [ *i* ], где *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="a3418-109">Reviewer.Name [  *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="077ec-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="077ec-108">Cell name:</span></span>  <br/> | <span data-ttu-id="077ec-109">Reviewer.Name [ *i* ], где *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="077ec-109">Reviewer.Name [  *i*  ] where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="a3418-110">Чтобы получить ссылку на ячейку Name по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="a3418-110">To get a reference to the Name cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="077ec-110">Чтобы получить ссылку на ячейку Name по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="077ec-110">To get a reference to the Name cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="a3418-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="a3418-111">Section index:</span></span>  <br/> |<span data-ttu-id="a3418-112">**Виссектионревиевер**</span><span class="sxs-lookup"><span data-stu-id="a3418-112">**visSectionReviewer**</span></span> <br/> |
-| <span data-ttu-id="a3418-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="a3418-113">Row index:</span></span>  <br/> |<span data-ttu-id="a3418-114">**висровревиевер** +  *i* , где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="a3418-114">**visRowReviewer** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="a3418-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="a3418-115">Cell index:</span></span>  <br/> |<span data-ttu-id="a3418-116">**Висревиевернаме**</span><span class="sxs-lookup"><span data-stu-id="a3418-116">**visReviewerName**</span></span> <br/> |
+| <span data-ttu-id="077ec-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="077ec-111">Section index:</span></span>  <br/> |<span data-ttu-id="077ec-112">**виссектионревиевер**</span><span class="sxs-lookup"><span data-stu-id="077ec-112">**visSectionReviewer**</span></span> <br/> |
+| <span data-ttu-id="077ec-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="077ec-113">Row index:</span></span>  <br/> |<span data-ttu-id="077ec-114">**висровревиевер** +  *i* , где *i* = 0, 1, 2...</span><span class="sxs-lookup"><span data-stu-id="077ec-114">**visRowReviewer** +  *i*  where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="077ec-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="077ec-115">Cell index:</span></span>  <br/> |<span data-ttu-id="077ec-116">**висревиевернаме**</span><span class="sxs-lookup"><span data-stu-id="077ec-116">**visReviewerName**</span></span> <br/> |
    
 

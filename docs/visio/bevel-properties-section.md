@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417240"
 ---
-# <a name="bevel-properties-section"></a><span data-ttu-id="07476-103">Bevel Properties Section</span><span class="sxs-lookup"><span data-stu-id="07476-103">Bevel Properties Section</span></span>
+# <a name="bevel-properties-section"></a><span data-ttu-id="25e42-103">Bevel Properties Section</span><span class="sxs-lookup"><span data-stu-id="25e42-103">Bevel Properties Section</span></span>
 
-<span data-ttu-id="07476-104">Показывает атрибуты эффектов скоса, примененных к фигуре.</span><span class="sxs-lookup"><span data-stu-id="07476-104">Shows the attributes for any bevel effects applied to the shape.</span></span> 
+<span data-ttu-id="25e42-104">Показывает атрибуты эффектов скоса, примененных к фигуре.</span><span class="sxs-lookup"><span data-stu-id="25e42-104">Shows the attributes for any bevel effects applied to the shape.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="07476-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="07476-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="25e42-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="25e42-105">Remarks</span></span>
 
-<span data-ttu-id="07476-106">Можно применить багетную рамку к фигуре в **области Формат фигуры** (**стили** > **домашней** > фигуры**Багетная рамка** > \*\*\*\*, а также внести изменения в ячейки в разделе **Свойства багетной** рамки элемента ShapeSheet.</span><span class="sxs-lookup"><span data-stu-id="07476-106">You can apply a bevel to a shape in the **Format Shape** pane (**Home** > **Shape Styles** > **Bevel** > **3-D Options**, or by making changes to the cells in the **Bevel Properties** section of the ShapeSheet.</span></span> 
+<span data-ttu-id="25e42-106">Вы можете применить багетную рамку к фигуре в области " **Формат фигуры** **" (** > **Параметры**"**стиль** > фигуры", "**рельеф** > " или изменить ячейки в разделе **Свойства багетной** таблицы свойств фигуры).</span><span class="sxs-lookup"><span data-stu-id="25e42-106">You can apply a bevel to a shape in the **Format Shape** pane (**Home** > **Shape Styles** > **Bevel** > **3-D Options**, or by making changes to the cells in the **Bevel Properties** section of the ShapeSheet.</span></span> 
   
 

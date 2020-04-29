@@ -18,47 +18,47 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419907"
 ---
-# <a name="xlfunregister-form-2"></a><span data-ttu-id="8433d-104">xlfUnregister (форма 2)</span><span class="sxs-lookup"><span data-stu-id="8433d-104">xlfUnregister (Form 2)</span></span>
+# <a name="xlfunregister-form-2"></a><span data-ttu-id="c68e8-104">xlfUnregister (форма 2)</span><span class="sxs-lookup"><span data-stu-id="c68e8-104">xlfUnregister (Form 2)</span></span>
 
-<span data-ttu-id="8433d-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="8433d-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="c68e8-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="c68e8-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="8433d-106">Может вызываться из команды DLL или XLL, которая вызывается Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="8433d-106">Can be called from a DLL or XLL command that has itself been called by Microsoft Excel.</span></span> <span data-ttu-id="8433d-107">Это эквивалентно вызову **Unregister** из листа макросов Excel XLM.</span><span class="sxs-lookup"><span data-stu-id="8433d-107">This is equivalent to calling **UNREGISTER** from an Excel XLM macro sheet.</span></span> 
+<span data-ttu-id="c68e8-106">Может вызываться из команды DLL или XLL, которая вызывается Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="c68e8-106">Can be called from a DLL or XLL command that has itself been called by Microsoft Excel.</span></span> <span data-ttu-id="c68e8-107">Это эквивалентно вызову **Unregister** из листа макросов Excel XLM.</span><span class="sxs-lookup"><span data-stu-id="c68e8-107">This is equivalent to calling **UNREGISTER** from an Excel XLM macro sheet.</span></span> 
   
-<span data-ttu-id="8433d-108">**xlfUnregister** можно вызывать в двух формах:</span><span class="sxs-lookup"><span data-stu-id="8433d-108">**xlfUnregister** can be called in two forms:</span></span> 
+<span data-ttu-id="c68e8-108">**xlfUnregister** можно вызывать в двух формах:</span><span class="sxs-lookup"><span data-stu-id="c68e8-108">**xlfUnregister** can be called in two forms:</span></span> 
   
-- <span data-ttu-id="8433d-109">Форма 1: Отмена регистрации отдельной команды или функции.</span><span class="sxs-lookup"><span data-stu-id="8433d-109">Form 1: Unregisters an individual command or function.</span></span>
+- <span data-ttu-id="c68e8-109">Форма 1: Отмена регистрации отдельной команды или функции.</span><span class="sxs-lookup"><span data-stu-id="c68e8-109">Form 1: Unregisters an individual command or function.</span></span>
     
-- <span data-ttu-id="8433d-110">Форма 2: выгрузка и деактивация XLL.</span><span class="sxs-lookup"><span data-stu-id="8433d-110">Form 2: Unloads and deactivates an XLL.</span></span>
+- <span data-ttu-id="c68e8-110">Форма 2: выгрузка и деактивация XLL.</span><span class="sxs-lookup"><span data-stu-id="c68e8-110">Form 2: Unloads and deactivates an XLL.</span></span>
     
-<span data-ttu-id="8433d-111">Эта функция вызывает полную выгрузку DLL или ресурсов кода в форме 2.</span><span class="sxs-lookup"><span data-stu-id="8433d-111">Called in Form 2, this function forces a DLL or code resource to be unloaded completely.</span></span> <span data-ttu-id="8433d-112">Он отменяет регистрацию всех функций в библиотеке DLL, даже если они используются другим макросом, независимо от числа используемых элементов.</span><span class="sxs-lookup"><span data-stu-id="8433d-112">It unregisters all of the functions in a DLL, even if they are currently in use by another macro, no matter what the use count.</span></span> <span data-ttu-id="8433d-113">Эта функция вызывает **xlAutoClose**, а затем отменяет регистрацию всех функций в DLL.</span><span class="sxs-lookup"><span data-stu-id="8433d-113">This function calls **xlAutoClose**, and then unregisters all the functions in the DLL.</span></span>
+<span data-ttu-id="c68e8-111">Эта функция вызывает полную выгрузку DLL или ресурсов кода в форме 2.</span><span class="sxs-lookup"><span data-stu-id="c68e8-111">Called in Form 2, this function forces a DLL or code resource to be unloaded completely.</span></span> <span data-ttu-id="c68e8-112">Он отменяет регистрацию всех функций в библиотеке DLL, даже если они используются другим макросом, независимо от числа используемых элементов.</span><span class="sxs-lookup"><span data-stu-id="c68e8-112">It unregisters all of the functions in a DLL, even if they are currently in use by another macro, no matter what the use count.</span></span> <span data-ttu-id="c68e8-113">Эта функция вызывает **xlAutoClose**, а затем отменяет регистрацию всех функций в DLL.</span><span class="sxs-lookup"><span data-stu-id="c68e8-113">This function calls **xlAutoClose**, and then unregisters all the functions in the DLL.</span></span>
   
 ```cs
 Excel12(xlfUnregister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8433d-114">Параметры</span><span class="sxs-lookup"><span data-stu-id="8433d-114">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c68e8-114">Параметры</span><span class="sxs-lookup"><span data-stu-id="c68e8-114">Parameters</span></span>
 
-<span data-ttu-id="8433d-115">_пксмодулетекст_ (**кслтипестр**)</span><span class="sxs-lookup"><span data-stu-id="8433d-115">_pxModuleText_ (**xltypeStr**)</span></span>
+<span data-ttu-id="c68e8-115">_пксмодулетекст_ (**кслтипестр**)</span><span class="sxs-lookup"><span data-stu-id="c68e8-115">_pxModuleText_ (**xltypeStr**)</span></span>
   
-<span data-ttu-id="8433d-116">Имя библиотеки DLL.</span><span class="sxs-lookup"><span data-stu-id="8433d-116">The name of the DLL.</span></span>
+<span data-ttu-id="c68e8-116">Имя библиотеки DLL.</span><span class="sxs-lookup"><span data-stu-id="c68e8-116">The name of the DLL.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="8433d-117">Значение свойства и возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8433d-117">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="c68e8-117">Значение свойства и возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c68e8-117">Property value/Return value</span></span>
 
-<span data-ttu-id="8433d-118">В случае успеха возвращает **значение true** (**кслтипебул**).</span><span class="sxs-lookup"><span data-stu-id="8433d-118">If successful, returns **TRUE** (**xltypeBool**).</span></span> <span data-ttu-id="8433d-119">В случае неудачной попытки возвращает **значение false**.</span><span class="sxs-lookup"><span data-stu-id="8433d-119">If unsuccessful, returns **FALSE**.</span></span>
+<span data-ttu-id="c68e8-118">В случае успеха возвращает **значение true** (**кслтипебул**).</span><span class="sxs-lookup"><span data-stu-id="c68e8-118">If successful, returns **TRUE** (**xltypeBool**).</span></span> <span data-ttu-id="c68e8-119">В случае неудачной попытки возвращает **значение false**.</span><span class="sxs-lookup"><span data-stu-id="c68e8-119">If unsuccessful, returns **FALSE**.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8433d-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="8433d-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c68e8-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="c68e8-120">Remarks</span></span>
 
 > [!NOTE] 
-> <span data-ttu-id="8433d-121">Не вызывайте эту форму функции из реализации [xlAutoClose](xlautoclose.md) при попытке отменить регистрацию всех ресурсов библиотеки DLL с помощью одного вызова простой функции.</span><span class="sxs-lookup"><span data-stu-id="8433d-121">Do not call this form of the function from your implementation of the [xlAutoClose](xlautoclose.md) in an attempt to unregister all of the DLL's resources with one simple function call.</span></span> <span data-ttu-id="8433d-122">Это приводит к рекурсивному вызову **xlAutoClose** и переполнению стека.</span><span class="sxs-lookup"><span data-stu-id="8433d-122">This leads to recursive calling of **xlAutoClose** and a stack overflow.</span></span> 
+> <span data-ttu-id="c68e8-121">Не вызывайте эту форму функции из реализации [xlAutoClose](xlautoclose.md) при попытке отменить регистрацию всех ресурсов библиотеки DLL с помощью одного вызова простой функции.</span><span class="sxs-lookup"><span data-stu-id="c68e8-121">Do not call this form of the function from your implementation of the [xlAutoClose](xlautoclose.md) in an attempt to unregister all of the DLL's resources with one simple function call.</span></span> <span data-ttu-id="c68e8-122">Это приводит к рекурсивному вызову **xlAutoClose** и переполнению стека.</span><span class="sxs-lookup"><span data-stu-id="c68e8-122">This leads to recursive calling of **xlAutoClose** and a stack overflow.</span></span> 
   
-### <a name="remember-to-delete-names"></a><span data-ttu-id="8433d-123">Не заБудьте удалить имена</span><span class="sxs-lookup"><span data-stu-id="8433d-123">Remember to delete names</span></span>
+### <a name="remember-to-delete-names"></a><span data-ttu-id="c68e8-123">Не забудьте удалить имена</span><span class="sxs-lookup"><span data-stu-id="c68e8-123">Remember to delete names</span></span>
 
-<span data-ttu-id="8433d-124">Если для параметра _пксфунктионтекст_ задано значение **xlfRegister**, то при регистрации функций и команд DLL необходимо явно удалить имена, вызвав **xlfSetName** для каждого из них, опустив второй аргумент, чтобы функция больше не отображается в мастере функций.</span><span class="sxs-lookup"><span data-stu-id="8433d-124">If you specified the  _pxFunctionText_ argument to **xlfRegister**, when registering the DLL's functions and commands, you must explicitly delete the names by calling **xlfSetName** for each one, omitting the second argument so that the function no longer appears in the Function Wizard.</span></span> <span data-ttu-id="8433d-125">Дополнительные сведения см. в статье [Известные проблемы, возникающие при разработке XLL для Excel](known-issues-in-excel-xll-development.md).</span><span class="sxs-lookup"><span data-stu-id="8433d-125">For more information, see [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).</span></span>
+<span data-ttu-id="c68e8-124">Если для параметра _пксфунктионтекст_ задано значение **xlfRegister**, то при регистрации функций и команд DLL необходимо явным образом удалить имена, вызвав **xlfSetName** для каждого из них, опустив второй аргумент, чтобы функция больше не отображалась в мастере функций.</span><span class="sxs-lookup"><span data-stu-id="c68e8-124">If you specified the  _pxFunctionText_ argument to **xlfRegister**, when registering the DLL's functions and commands, you must explicitly delete the names by calling **xlfSetName** for each one, omitting the second argument so that the function no longer appears in the Function Wizard.</span></span> <span data-ttu-id="c68e8-125">Дополнительные сведения см. в статье [Известные проблемы, возникающие при разработке XLL для Excel](known-issues-in-excel-xll-development.md).</span><span class="sxs-lookup"><span data-stu-id="c68e8-125">For more information, see [Known Issues in Excel XLL Development](known-issues-in-excel-xll-development.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="8433d-126">См. также</span><span class="sxs-lookup"><span data-stu-id="8433d-126">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c68e8-126">См. также</span><span class="sxs-lookup"><span data-stu-id="c68e8-126">See also</span></span>
 
-- [<span data-ttu-id="8433d-127">xlfRegister (форма 1)</span><span class="sxs-lookup"><span data-stu-id="8433d-127">xlfRegister (Form 1)</span></span>](xlfregister-form-1.md)
-- [<span data-ttu-id="8433d-128">xlfRegisterId</span><span class="sxs-lookup"><span data-stu-id="8433d-128">xlfRegisterId</span></span>](xlfregisterid.md)
-- [<span data-ttu-id="8433d-129">xlfUnregister (форма 1)</span><span class="sxs-lookup"><span data-stu-id="8433d-129">xlfUnregister (Form 1)</span></span>](xlfunregister-form-1.md)
-- [<span data-ttu-id="8433d-130">Необходимые и полезные функции XLM из API C</span><span class="sxs-lookup"><span data-stu-id="8433d-130">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
+- [<span data-ttu-id="c68e8-127">xlfRegister (форма 1)</span><span class="sxs-lookup"><span data-stu-id="c68e8-127">xlfRegister (Form 1)</span></span>](xlfregister-form-1.md)
+- [<span data-ttu-id="c68e8-128">xlfRegisterId</span><span class="sxs-lookup"><span data-stu-id="c68e8-128">xlfRegisterId</span></span>](xlfregisterid.md)
+- [<span data-ttu-id="c68e8-129">xlfUnregister (форма 1)</span><span class="sxs-lookup"><span data-stu-id="c68e8-129">xlfUnregister (Form 1)</span></span>](xlfunregister-form-1.md)
+- [<span data-ttu-id="c68e8-130">Необходимые и полезные функции XLM из API C</span><span class="sxs-lookup"><span data-stu-id="c68e8-130">Essential and Useful C API XLM Functions</span></span>](essential-and-useful-c-api-xlm-functions.md)
 
