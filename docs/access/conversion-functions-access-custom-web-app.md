@@ -30,6 +30,6 @@ ms.locfileid: "33415882"
     
 - [Функция Тимефромпартс (пользовательское веб-приложение для Access)](timefromparts-functionaccess-custom-web-app.md)
     
-- [Функция Три_парсе (пользовательское веб-приложение для Access)](try_parse-function-access-custom-web-app.md)
+- [Функция Try_Parse (пользовательское веб-приложение для Access)](try_parse-function-access-custom-web-app.md)
     
 

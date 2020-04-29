@@ -29,18 +29,18 @@ ms.locfileid: "33420670"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ИМПЛИЦИТ_КОНВЕРСИОН_ПРОХИБИТЕД  <br/> |
+|Связанные свойства:  <br/> |PR_IMPLICIT_CONVERSION_PROHIBITED  <br/> |
 |Идентификатор:  <br/> |0x0016  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство имеет значение TRUE, система обмена сообщениями не должна выполнять преобразование содержимого для сообщения, если оно не было явно запрошено для каждого получателя с помощью свойства **пр_експлиЦит_конверсион** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
+Если это свойство имеет значение TRUE, система обмена сообщениями не должна выполнять преобразование содержимого для сообщения, если оно не будет явно запрошено для каждого получателя с помощью свойства **PR_EXPLICIT_CONVERSION** ([PidTagExplicitConversion](pidtagexplicitconversion-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -41,17 +41,17 @@ typedef struct _ADRENTRY
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>"Участники"
 
  **ulReserved1**
   
 > Резервирования должно быть равно нулю.
     
- **Квалуес**
+ **квалуес**
   
 > Количество свойств в массиве значений свойств, на которое указывает элемент **ргпропвалс** . Элемент **квалуес** может иметь значение 0. 
     
- **Ргпропвалс**
+ **ргпропвалс**
   
 > Указатель на массив значений свойств, описывающий свойства получателя. Элемент **ргпропвалс** может иметь значение null. 
     
@@ -59,15 +59,15 @@ typedef struct _ADRENTRY
 
 Структура **адрентри** описывает свойства, принадлежащие одному получателю. Ниже перечислены свойства, которые обычно используются для описания получателя. 
   
- **Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+ **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
   
- **Пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
+ **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
   
- **Пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
+ **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
   
- **Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))
+ **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
   
-Если в массиве [спропвалуе](spropvalue.md) для получателя отображается идентификатор записи или свойство **пр_ентрид** , это указывает на то, что получатель разрешен. Клиенты вызывают метод [IAddrBook:: ресолвенаме](iaddrbook-resolvename.md) , чтобы убедиться, что все получатели в списке получателей исходящих сообщений разрешены. С сообщениями можно отправлять только разрешенных получателей. 
+Если в массиве [спропвалуе](spropvalue.md) для получателя отображается идентификатор записи или свойство **PR_ENTRYID** , это означает, что получатель разрешен. Клиенты вызывают метод [IAddrBook:: ресолвенаме](iaddrbook-resolvename.md) , чтобы убедиться, что все получатели в списке получателей исходящих сообщений разрешены. С сообщениями можно отправлять только разрешенных получателей. 
   
  Структуры **адрентри** , как правило, объединены в виде массива для элемента **аентриес** структуры [ADRLIST](adrlist.md) . 
   

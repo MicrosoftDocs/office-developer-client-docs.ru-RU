@@ -39,19 +39,19 @@ ms.locfileid: "33421846"
   
 ����� ������ �������� ������ �� ���������, ������� ������������� ������ �������������� �������� �������. ��� ��� ����� ������ �������� ������, � �� ����������� ���������, ��� �������� ���������� ������ ��� ������. ��� �� ����� ��������� ������ ����� ��� ��������� ��� ����� ����������� ��� ����������� � ���. ��� �� ����� ����� ����� ���������, ��������� � ���; � ��� ���� ������ ����������, ����������� ��� ������������. ��������� ������� �� ����� ������, ���������� ��������� �� �����, ���������� ���������.
   
-Тип папки хранится в свойстве **пр_фолдер_типе** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)). ������ ����� ��� �������� ����� �������� FOLDER_GENERIC, FOLDER_ROOT ��� FOLDER_SEARCH, � ����������� �� ����.
+Тип папки хранится в свойстве **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md)). ������ ����� ��� �������� ����� �������� FOLDER_GENERIC, FOLDER_ROOT ��� FOLDER_SEARCH, � ����������� �� ����.
   
-������ ����� ���� ���� ������ �������������� � ���� ���� ������. Идентификатор записи, **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)), используется клиентами и поставщиками услуг для открытия папки. Ключ записи, **пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), является двоичным значением, используемым для сравнения папки с другими папками. 
+������ ����� ���� ���� ������ �������������� � ���� ���� ������. Идентификатор записи, **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), используется клиентами и поставщиками услуг для открытия папки. Ключ записи, **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)), является двоичным значением, используемым для сравнения папки с другими папками. 
   
 ����� ����� ������ �������� ��� ������������� ��������� � ���� ����� � ��������� ���������. ���������� ��������� ��������:
   
-- **Пр_парент_ентрид** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))
+- **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))
     
-- **Пр_сторе_ентрид** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))
+- **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))
     
-- **Пр_сторе_рекорд_кэй** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))
+- **PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))
     
-Некоторые папки поддерживают свойство **пр_акцесс** ([PidTagAccess](pidtagaccess-canonical-property.md)), которое описывает тип операций, которые может выполнять пользователь. �������� ���� �� ���������� �������� **PR_ACCESS** � MAPI_ACCESS_DELETE, ��� ��������, ��� ����� ����� ���� �������. ���� ��������, MAPI_ACCESS_MODIFY, ���������, ��� ����� ������ ���� ����� ��������. 
+Некоторые папки поддерживают свойство **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)), которое описывает тип операций, которые может выполнять пользователь. �������� ���� �� ���������� �������� **PR_ACCESS** � MAPI_ACCESS_DELETE, ��� ��������, ��� ����� ����� ���� �������. ���� ��������, MAPI_ACCESS_MODIFY, ���������, ��� ����� ������ ���� ����� ��������. 
   
 ������ ������ �������� ����������� ����� � ������� ��������� [IMAPIFolder](imapifolderimapicontainer.md) . 
   

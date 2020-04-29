@@ -1,5 +1,5 @@
 ---
-title: Иолкенумжеткаунт
+title: иолкенумжеткаунт
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -31,7 +31,7 @@ HRESULT IOlkEnum::GetCount (
 
 ## <a name="parameters"></a>Параметры
 
-_Пулкаунт_
+_пулкаунт_
   
 > вышли Указатель на число перечислений объектов.
     

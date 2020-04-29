@@ -27,14 +27,14 @@ ms.locfileid: "33420201"
   
 1. If the message is not locked, locks the message by using the [IMsgStore::SetLockState](imsgstore-setlockstate.md) method. 
     
-2. Поставщик транспорта отправляет сообщение всем получателям, у которых для свойства **пр_респонсибилити** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) задано значение false. 
+2. Поставщик транспорта отправляет сообщение всем получателям, у которых для свойства **PR_RESPONSIBILITY** ([PidTagResponsibility](pidtagresponsibility-canonical-property.md)) задано значение false. 
     
-3. Вызывает соответствующую функцию ([ремовепрепроцессинфо](removepreprocessinfo.md)), чтобы очистить дополнительные сведения, добавленные к сообщению для использования во время предварительной обработки, если было задано свойство **пр_препроцесс** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)). This function is specified when the transport provider registers its preprocessor function. 
+3. Вызывает соответствующую функцию ([ремовепрепроцессинфо](removepreprocessinfo.md)), чтобы очистить дополнительные сведения, добавленные к сообщению для использования во время предварительной обработки, если было задано свойство **PR_PREPROCESS** ([PidTagPreprocess](pidtagpreprocess-canonical-property.md)). This function is specified when the transport provider registers its preprocessor function. 
     
 4. Calls [IMsgStore::FinishedMsg](imsgstore-finishedmsg.md) method. In **FinishedMsg**, the message store provider:
     
   - ������������ ���������.
     
-  - Calls the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method to perform outbound hook processing if a messaging hook provider exists. После этого сообщение копируется в папку, указанную идентификатором записи, в свойстве **пр_сентмаил_ентрид** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), если она не была заменена с помощью отправленной обработки сообщений поставщика обработчиков обмена сообщениями. Наконец, он удаляет сообщение, если для свойства **пр_делете_афтер_субмит** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) задано значение true. 
+  - Calls the [IMAPISupport::DoSentMail](imapisupport-dosentmail.md) method to perform outbound hook processing if a messaging hook provider exists. Затем сообщение копируется в папку, указанную идентификатором записи, в свойстве **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md)), если она не заменена на отправленную с помощью поставщика обработчиков сообщений. Наконец, он удаляет сообщение, если для свойства **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)) задано значение true. 
     
 

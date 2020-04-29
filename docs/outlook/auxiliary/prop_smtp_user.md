@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420320"
 ---
-# <a name="propsmtpuser"></a>PROP_SMTP_USER
+# <a name="prop_smtp_user"></a>PROP_SMTP_USER
 
 Представляет имя пользователя для учетной записи SMTP.
   

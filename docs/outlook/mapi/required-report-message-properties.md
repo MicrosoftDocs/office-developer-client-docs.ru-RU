@@ -25,21 +25,21 @@ ms.locfileid: "33416204"
   
 |**Свойство**|**Описание**|
 |:-----|:-----|
-|**Пр_оригинал_дисплай_бкк** ([PidTagOriginalDisplayBcc](pidtagoriginaldisplaybcc-canonical-property.md))  <br/> **Пр_оригинал_дисплай_кк** ([PidTagOriginalDisplayCc](pidtagoriginaldisplaycc-canonical-property.md))  <br/> **Пр_оригинал_дисплай_то** ([PidTagOriginalDisplayTo](pidtagoriginaldisplayto-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
+|**PR_ORIGINAL_DISPLAY_BCC** ([PidTagOriginalDisplayBcc](pidtagoriginaldisplaybcc-canonical-property.md))  <br/> **PR_ORIGINAL_DISPLAY_CC** ([PidTagOriginalDisplayCc](pidtagoriginaldisplaycc-canonical-property.md))  <br/> **PR_ORIGINAL_DISPLAY_TO** ([PidTagOriginalDisplayTo](pidtagoriginaldisplayto-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
 |||
-|**Пр_оригинал_субжект** ([PidTagOriginalSubject](pidtagoriginalsubject-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
-|**Пр_оригинал_субмит_тиме** ([PidTagOriginalSubmitTime](pidtagoriginalsubmittime-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
-|**PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md))  <br/> **PR_CONVERSATION_TOPIC** ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
+|**PR_ORIGINAL_SUBJECT** ([PidTagOriginalSubject](pidtagoriginalsubject-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
+|**PR_ORIGINAL_SUBMIT_TIME** ([PidTagOriginalSubmitTime](pidtagoriginalsubmittime-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
+|**PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md))  <br/> **PR_CONVERSATION_TOPIC** ([PidTagConversationTopic](pidtagconversationtopic-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
 |||
-|**Пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
-|**Пр_репорт_текст** ([PidTagReportText](pidtagreporttext-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
-|**Пр_боди** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |ЗаДается клиентом перед отображением отчета.  <br/> |
-|**Пр_репорт_тиме** ([PidTagReportTime](pidtagreporttime-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
-|**Пр_оригинал_деливери_тиме** ([PidTagOriginalDeliveryTime](pidtagoriginaldeliverytime-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI. Только для чтения отчетов о состоянии.  <br/> |
-|**Пр_субжект** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |ЗаДается клиентом перед отображением отчета.  <br/> |
-|**Пр_мессаже_деливери_тиме** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
-|**Пр_репорт_таг** ([PidTagReportTag](pidtagreporttag-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
-|**Пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
-|**Пр_сендер_аддртипе** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md))  <br/> **Пр_сендер_емаил_аддресс** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md))  <br/> **Пр_сендер_ентрид** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md))  <br/> **Пр_сендер_наме** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> **Пр_сендер_сеарч_кэй** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md))  <br/> |ЗаДается создателем отчета, обычно MAPI.  <br/> |
+|**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
+|**PR_REPORT_TEXT** ([PidTagReportText](pidtagreporttext-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
+|**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |Задается клиентом перед отображением отчета.  <br/> |
+|**PR_REPORT_TIME** ([PidTagReportTime](pidtagreporttime-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
+|**PR_ORIGINAL_DELIVERY_TIME** ([PidTagOriginalDeliveryTime](pidtagoriginaldeliverytime-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI. Только для чтения отчетов о состоянии.  <br/> |
+|**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |Задается клиентом перед отображением отчета.  <br/> |
+|**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
+|**PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
+|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
+|**PR_SENDER_ADDRTYPE** ([PidTagSenderAddressType](pidtagsenderaddresstype-canonical-property.md))  <br/> **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md))  <br/> **PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md))  <br/> **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md))  <br/> |Задается создателем отчета, обычно MAPI.  <br/> |
    
 

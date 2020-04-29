@@ -19,13 +19,13 @@ ms.locfileid: "33416477"
 
 Если требуется расширить функциональность формы InfoPath, то зачастую требуется обеспечить программный доступ к сведениям о базовом XML-документе формы или к данным, содержащимся в этом XML-документе, а также выполнить некоторые действия над XML-документом. Объектная модель InfoPath поддерживает доступ к базовому XML-документу формы и управление им с помощью интерфейса [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) в связи с интерфейсом [XDocumentsCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocumentsCollection.aspx) . 
   
-Интерфейс **XDocument** является одним из наиболее полезных в объектной модели InfoPath, поскольку предоставляет ряд свойств, методов и событий, которые не только взаимодействуют с базовым XML-документом формы, но и выполняют многие действия, доступные в интерфейсе пользователя InfoPath. В проекте с управляемым кодом, созданном с помощью объектной модели, совместимой с InfoPath 2003 **** , переменная типа XDocument `thisXDocument` автоматически определяется в `_StartUp` методе класса, содержащего обработчики событий в коде формы проекта. . Вы можете использовать `thisXDocument` переменную в коде формы, чтобы получить доступ к интерфейсу **XDocument** и его членам. 
+Интерфейс **XDocument** является одним из наиболее полезных в объектной модели InfoPath, поскольку предоставляет ряд свойств, методов и событий, которые не только взаимодействуют с базовым XML-документом формы, но и выполняют многие действия, доступные в интерфейсе пользователя InfoPath. В проекте с управляемым кодом, созданном с помощью объектной модели, совместимой с InfoPath 2003 **XDocument** , переменная типа XDocument `thisXDocument` автоматически определяется в `_StartUp` методе класса, содержащего обработчики событий в коде формы проекта. Вы можете использовать `thisXDocument` переменную в коде формы, чтобы получить доступ к интерфейсу **XDocument** и его членам. 
   
 ## <a name="overview-of-the-xdocumentscollection-interface"></a>Обзор интерфейса XDocumentsCollection
 
 Интерфейс **XDocumentsCollection** предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для управления объектами **XDocument**, содержащимися в семействе. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [Close](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.Close.aspx)  <br/> |Закрывает указанную форму.  <br/> |
 |Метод [New](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocuments2.New.aspx)  <br/> |Создает новую форму на основе существующей формы.  <br/> |
@@ -39,7 +39,7 @@ ms.locfileid: "33416477"
 
 Интерфейс **XDocument** предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с базовым XML-документом формы и выполнения действий над ним. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [GetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDataVariable.aspx)  <br/> |Возвращает строковое значение указанной переменной данных.  <br/> |
 |Метод [GetDOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.GetDOM.aspx)  <br/> |Возвращает ссылку на модель XML DOM, связанную с указанным объектом **DataObject**.  <br/> |
@@ -49,16 +49,16 @@ ms.locfileid: "33416477"
 |Метод [Save](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Save.aspx)  <br/> |Сохраняет открытую в данный момент форму.  <br/> |
 |Метод [SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SaveAs.aspx)  <br/> |Сохраняет открытую в данный момент форму с указанным именем.  <br/> |
 |Метод [SetDataVariable](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SetDataVariable.aspx)  <br/> |Задает значение указанной переменной данных.  <br/> |
-|[](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Submit.aspx) Метод reоправить  <br/> |Отправляет форму в соответствии с операцией отправки, указанной в режиме конструктора.  <br/> |
-|[](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx) Свойство DataObjects  <br/> |Возвращает ссылку на семейство **DataObjects**.  <br/> |
+|Метод [Reоправить](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Submit.aspx)  <br/> |Отправляет форму в соответствии с операцией отправки, указанной в режиме конструктора.  <br/> |
+|Свойство [DataObjects](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DataObjects.aspx)  <br/> |Возвращает ссылку на семейство **DataObjects**.  <br/> |
 |Свойство [DOM](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.DOM.aspx)  <br/> |Возвращает ссылку на модель XML DOM, заполненную исходными XML-данными формы.  <br/> |
-|[](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Errors.aspx) Свойство Errors  <br/> |Возвращает ссылку на семейство **Errors**.  <br/> |
+|Свойство [Errors](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Errors.aspx)  <br/> |Возвращает ссылку на семейство **Errors**.  <br/> |
 |Свойство [Extension](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Extension.aspx)  <br/> |Возвращает ссылку на объект, представляющий все функции и переменные, содержащиеся в файле кода формы.  <br/> |
 |Свойство [IsDirty](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDirty.aspx)  <br/> |Возвращает значение **Boolean**, указывающее факт изменения данных в форме.  <br/> |
 |Свойство [исдомреадонли](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsDOMReadOnly.aspx)  <br/> |Возвращает значение **Boolean**, указывающее наличие атрибута только для чтения у модели XML DOM.  <br/> |
 |Свойство [IsNew](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsNew.aspx)  <br/> |Возвращает значение **Boolean**, указывающее факт сохранения формы после ее создания.  <br/> |
 |Свойство [IsReadOnly](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsReadOnly.aspx)  <br/> |Возвращает значение **Boolean**, указывающее наличие режима формы только для чтения.  <br/> |
-|[](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsSigned.aspx) Свойство с подписью  <br/> |Возвращает значение **Boolean**, указывающее наличие подписи для формы.  <br/> |
+|Свойство с [подписью](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.IsSigned.aspx)  <br/> |Возвращает значение **Boolean**, указывающее наличие подписи для формы.  <br/> |
 |Свойство [Language](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Language.aspx)  <br/> |Указывает или возвращает строковое значение языка, используемого для формы.  <br/> |
 |Свойство [QueryAdapter](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.QueryAdapter.aspx)  <br/> |Возвращает ссылку на объект адаптера данных.  <br/> |
 |Свойство [Solution](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.Solution.aspx)  <br/> |Возвращает ссылку на объект **Solution**.  <br/> |
@@ -69,7 +69,7 @@ ms.locfileid: "33416477"
    
 ## <a name="using-the-xdocuments-collection-and-the-xdocument-interfaces"></a>Использование семейства XDocuments и интерфейсов XDocument
 
-Доступ к интерфейсу **XDocumentsCollection** осуществляется с помощью свойства [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.XDocuments.aspx) интерфейса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) . В проекте с управляемым кодом, созданном с помощью объектной модели, совместимой с InfoPath 2003 **** , можно получить доступ к `thisApplication` интерфейсу XDocumentsCollection с помощью переменной, `_StartUp` созданной в методе кода формы проекта. В следующих строках кода создается переменная, которая указывает на интерфейс **XDocumentsCollection** текущего проекта. 
+Доступ к интерфейсу **XDocumentsCollection** осуществляется с помощью свойства [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._Application2.XDocuments.aspx) интерфейса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Application.aspx) . В проекте с управляемым кодом, созданном с помощью объектной модели, совместимой с InfoPath 2003 **XDocumentsCollection** , можно получить доступ к `thisApplication` интерфейсу XDocumentsCollection с помощью переменной, `_StartUp` созданной в методе кода формы проекта. В следующих строках кода создается переменная, которая указывает на интерфейс **XDocumentsCollection** текущего проекта. 
   
 ```cs
 XDocumentsCollection xdocs;
@@ -83,7 +83,7 @@ xdocs = thisApplication.XDocuments
 ' Write code here to work with the XDocumentsCollection.
 ```
 
-В проекте с управляемым кодом, созданном с помощью объектной модели, совместимой с InfoPath 2003 **** , можно получить доступ к `thisXDocument` интерфейсу XDocument с помощью переменной, `StartUp` созданной в методе кода формы проекта. Следующая строка кода использует `thisXDocument` переменную для доступа к интерфейсу **XDocument** текущего проекта для отображения URI открытой в данный момент формы в оповещении. 
+В проекте с управляемым кодом, созданном с помощью объектной модели, совместимой с InfoPath 2003 **XDocument** , можно получить доступ к `thisXDocument` интерфейсу XDocument с помощью переменной, `StartUp` созданной в методе кода формы проекта. Следующая строка кода использует `thisXDocument` переменную для доступа к интерфейсу **XDocument** текущего проекта для отображения URI открытой в данный момент формы в оповещении. 
   
 ```cs
 thisXDocument.UI.Alert(thisXDocument.URI);
@@ -113,6 +113,6 @@ thisXDocument.UI.Alert(xmldoc)
 ```
 
 > [!NOTE]
-> Чтобы узнать больше о XML DOM и всех поддерживаемых им свойствах и методах, ознакомьтесь с ПАКЕТом SDK для MSXML на сайте MSDN. 
+> Чтобы узнать больше о XML DOM и всех поддерживаемых им свойствах и методах, ознакомьтесь с пакетом SDK для MSXML на сайте MSDN. 
   
 

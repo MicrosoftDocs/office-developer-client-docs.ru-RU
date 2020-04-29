@@ -29,7 +29,7 @@ ms.locfileid: "33417128"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНВЕРСИОН_ВИС_ЛОСС_ПРОХИБИТЕД  <br/> |
+|Связанные свойства:  <br/> |PR_CONVERSION_WITH_LOSS_PROHIBITED  <br/> |
 |Идентификатор:  <br/> |0x000D  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Общая конфигурация  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33417128"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

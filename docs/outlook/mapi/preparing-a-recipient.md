@@ -27,64 +27,64 @@ ms.locfileid: "33419879"
   
 Например, предположим, что вы работаете с пятью получателями. Все пять получателей отображаются в структуре **ADRLIST** со следующими свойствами в следующем порядке: 
   
-1. **Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))
+1. **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
     
-2. **Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
+2. **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))
     
-3. **Пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))
+3. **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))
     
-4. **Пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
+4. **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))
     
-5. **Пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
+5. **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))
     
 Для первых двух получателей в структуру **ADRLIST** включены три других свойства. 
   
-1. **Пр_аккаунт** ([PidTagAccount](pidtagaccount-canonical-property.md))
+1. **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md))
     
-2. **Пр_гивен_наме** ([PidTagGivenName](pidtaggivenname-canonical-property.md))
+2. **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md))
     
-3. **Пр_сурнаме** ([PidTagSurname](pidtagsurname-canonical-property.md))
+3. **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md))
     
-Так как все получатели должны иметь в качестве первых трех свойств **пр_аддртипе**, **пр_ентрид**и **пр_хоме_телефоне_нумбер** ([PidTagHomeTelephoneNumber](pidtaghometelephonenumber-canonical-property.md)), создайте массив тегов свойств с этими свойствами и передайте Он и структура **ADRLIST** для **препаререЦипс**. **ПрепаререЦипс** вызывает метод **IMAPIProp::** -PROPS каждого получателя, чтобы получить **пр_хоме_телефоне_нумбер** , так как он в настоящее время не является частью структуры **ADRLIST** . Когда возвращается значение **препаререЦипс** , список получателей представляет объединенный список получателей со свойствами, включенными в структуру **ADRLIST** , которые первыми появлялись для каждого получателя. 
+Так как все получатели должны иметь в качестве первых трех свойств **PR_ADDRTYPE**, **PR_ENTRYID**и **PR_HOME_TELEPHONE_NUMBER** ([PidTagHomeTelephoneNumber](pidtaghometelephonenumber-canonical-property.md)), создайте массив тегов свойств с этими свойствами и передайте его и структуру **ADRLIST** в **препаререЦипс**. **ПрепаререЦипс** вызывает метод **IMAPIProp::-PROPS** каждого получателя, чтобы получить **PR_HOME_TELEPHONE_NUMBER** , так как он в настоящее время не является частью структуры **ADRLIST** . Когда возвращается значение **препаререЦипс** , список получателей представляет объединенный список получателей со свойствами, включенными в структуру **ADRLIST** , которые первыми появлялись для каждого получателя. 
   
 Список получателей для получателей 1 и 2 содержит свойства в следующем порядке:
   
-1. **ПР_АДДРТИПЕ**
+1. **PR_ADDRTYPE**
     
 2. **PR_ENTRYID**
     
-3. **ПР_ХОМЕ_ТЕЛЕФОНЕ_НУМБЕР**
+3. **PR_HOME_TELEPHONE_NUMBER**
     
-4. **ПР_ДИСПЛАЙ_НАМЕ**
+4. **PR_DISPLAY_NAME**
     
 5. **PR_SEARCH_KEY**
     
-6. **ПР_ЕМАИЛ_АДДРЕСС**
+6. **PR_EMAIL_ADDRESS**
     
-7. **ПР_АДДРТИПЕ**
+7. **PR_ADDRTYPE**
     
-8. **ПР_АККАУНТ**
+8. **PR_ACCOUNT**
     
-9. **ПР_ГИВЕН_НАМЕ**
+9. **PR_GIVEN_NAME**
     
-10. **ПР_СУРНАМЕ**
+10. **PR_SURNAME**
     
 Список получателей для получателей 3, 4 и 5 содержит свойства в следующем порядке:
   
-1. **ПР_АДДРТИПЕ**
+1. **PR_ADDRTYPE**
     
 2. **PR_ENTRYID**
     
-3. **ПР_ХОМЕ_ТЕЛЕФОНЕ_НУМБЕР**
+3. **PR_HOME_TELEPHONE_NUMBER**
     
-4. **ПР_ДИСПЛАЙ_НАМЕ**
+4. **PR_DISPLAY_NAME**
     
 5. **PR_SEARCH_KEY**
     
-6. **ПР_ЕМАИЛ_АДДРЕСС**
+6. **PR_EMAIL_ADDRESS**
     
-7. **ПР_АДДРТИПЕ**
+7. **PR_ADDRTYPE**
     
-В качестве альтернативы вызову **IAddrBook::P репаререЦипс** для работы со свойствами, вызывайте каждый метод [IMAPIProp::](imapiprop-getprops.md) и при необходимости метод [IMAPIProp:: SetProps](imapiprop-setprops.md) . Если используется только один получатель, любой из способов является удовлетворительным. Однако при использовании нескольких получателей вызов **препаререЦипс** , а не методы **IMAPIProp** экономит время и, при удаленном запуске, множество вызовов удаленных процедур. **ПрепаререЦипс** обрабатывает все получатели в одном вызове, а **** в **SetProps** — один вызов для каждого получателя. 
+В качестве альтернативы вызову **IAddrBook::P репаререЦипс** для работы со свойствами, вызывайте каждый метод [IMAPIProp::](imapiprop-getprops.md) и при необходимости метод [IMAPIProp:: SetProps](imapiprop-setprops.md) . Если используется только один получатель, любой из способов является удовлетворительным. Однако при использовании нескольких получателей вызов **препаререЦипс** , а не методы **IMAPIProp** экономит время и, при удаленном запуске, множество вызовов удаленных процедур. **ПрепаререЦипс** обрабатывает все получатели в одном вызове **, а** в **SetProps** — один вызов для каждого получателя. 
   
 

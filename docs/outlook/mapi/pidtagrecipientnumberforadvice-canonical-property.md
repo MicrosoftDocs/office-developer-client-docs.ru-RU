@@ -29,9 +29,9 @@ ms.locfileid: "33420642"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕЦИПИЕНТ_НУМБЕР_ФОР_АДВИЦЕ, ПР_РЕЦИПИЕНТ_НУМБЕР_ФОР_АДВИЦЕ_А, ПР_РЕЦИПИЕНТ_НУМБЕР_ФОР_АДВИЦЕ_В  <br/> |
+|Связанные свойства:  <br/> |PR_RECIPIENT_NUMBER_FOR_ADVICE, PR_RECIPIENT_NUMBER_FOR_ADVICE_A PR_RECIPIENT_NUMBER_FOR_ADVICE_W  <br/> |
 |Идентификатор:  <br/> |0x0C14  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Получатель MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
@@ -40,7 +40,7 @@ ms.locfileid: "33420642"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

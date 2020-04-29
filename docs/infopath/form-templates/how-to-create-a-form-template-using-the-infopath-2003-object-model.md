@@ -34,7 +34,7 @@ ms.locfileid: "33418185"
     
 5. Нажмите кнопку **ОК**.
     
-6. Создайте шаблон формы, а затем добавьте обработчики событий в Visual Studio 2012, как описано в статье [Добавление обработчика событий с помощью объектНой модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+6. Создайте шаблон формы, а затем добавьте обработчики событий в Visual Studio 2012, как описано в статье [Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
     
 ## <a name="see-also"></a>См. также
 

@@ -29,7 +29,7 @@ ms.locfileid: "33420292"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ПРУФ_ОФ_СУБМИССИОН_РЕКУЕСТЕД  <br/> |
+|Связанные свойства:  <br/> |PR_PROOF_OF_SUBMISSION_REQUESTED  <br/> |
 |Идентификатор:  <br/> |0x0028  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33420292"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

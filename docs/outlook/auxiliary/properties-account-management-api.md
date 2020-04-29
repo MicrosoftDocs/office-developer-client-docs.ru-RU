@@ -40,7 +40,7 @@ ms.locfileid: "33416337"
 |[PROP_INET_SSL](prop_inet_ssl.md) <br/> |Указывает, следует ли использовать протокол SSL для общего почтового ящика в Интернете.  <br/> |
 |[PROP_INET_USE_SPA](prop_inet_use_spa.md) <br/> |Указывает, следует ли использовать безопасную проверку пароля (SPA) для общего почтового ящика в Интернете.  <br/> |
 |[PROP_INET_USER](prop_inet_user.md) <br/> |Представляет имя пользователя для общего почтового ящика в Интернете.  <br/> |
-|[PROP_MAPI_EMSMDB_UID](prop_mapi_emsmdb_uid.md) <br/> |Представляет структуру [аккт_бин](acct_bin.md) , которая содержит UID учетной записи Exchange.  <br/> |
+|[PROP_MAPI_EMSMDB_UID](prop_mapi_emsmdb_uid.md) <br/> |Представляет структуру [ACCT_BIN](acct_bin.md) , содержащую идентификатор учетной записи Exchange.  <br/> |
 |[PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) <br/> |Возвращает или задает идентификатор записи адресной книги для учетной записи.  <br/> |
 |[PROP_MAPI_TRANSPORT_FLAGS](prop_mapi_transport_flags.md) <br/> |Представляет параметры транспорта, которые Outlook использует для определения необходимых задач синхронизации и отключения элементов пользовательского интерфейса, которые не поддерживаются учетной записью.  <br/> |
 |[PROP_POP_LEAVE_ON_SERVER](prop_pop_leave_on_server.md) <br/> |Указывает, что копия сообщения на сервере остается на сервере для учетной записи POP.  <br/> |

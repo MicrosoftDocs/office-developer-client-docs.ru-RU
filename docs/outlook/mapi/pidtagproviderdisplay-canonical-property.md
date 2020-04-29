@@ -29,18 +29,18 @@ ms.locfileid: "33421594"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ПРОВИДЕР_ДИСПЛАЙ, ПР_ПРОВИДЕР_ДИСПЛАЙ_А, ПР_ПРОВИДЕР_ДИСПЛАЙ_В  <br/> |
+|Связанные свойства:  <br/> |PR_PROVIDER_DISPLAY, PR_PROVIDER_DISPLAY_A PR_PROVIDER_DISPLAY_W  <br/> |
 |Идентификатор:  <br/> |0x3006  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства и **пр_провидер_длл_наме** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) определяются только в разделах профиля, относящихся к поставщикам услуг. Они должны присутствовать в MAPISVC. INF.
+Эти свойства и **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) определяются только в разделах профиля, относящихся к поставщикам услуг. Они должны присутствовать в MAPISVC. INF.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

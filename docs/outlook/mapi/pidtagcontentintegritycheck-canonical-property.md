@@ -29,18 +29,18 @@ ms.locfileid: "33415728"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНТЕНТ_ИНТЕГРИТИ_ЧЕКК  <br/> |
+|Связанные свойства:  <br/> |PR_CONTENT_INTEGRITY_CHECK  <br/> |
 |Идентификатор:  <br/> |0x0C00  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Exchange;  <br/> |
+|Область:  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство предоставляет неподдельность содержимого сообщения. В сочетании с **пр_мессаже_токен** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) гарантируется, что содержимое сообщения поступает в свое место назначения без изменений.
+Это свойство предоставляет неподдельность содержимого сообщения. В сочетании с **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) это гарантирует, что содержимое сообщения поступает в свое место назначения без изменений.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

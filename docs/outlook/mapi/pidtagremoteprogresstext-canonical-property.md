@@ -29,18 +29,18 @@ ms.locfileid: "33417016"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕМОТЕ_ПРОГРЕСС_ТЕКСТ, ПР_РЕМОТЕ_ПРОГРЕСС_ТЕКСТ_А, ПР_РЕМОТЕ_ПРОГРЕСС_ТЕКСТ_В  <br/> |
+|Связанные свойства:  <br/> |PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A PR_REMOTE_PROGRESS_TEXT_W  <br/> |
 |Идентификатор:  <br/> |0x3E0C  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Числовой код, связанный с этим текстом, передается в свойстве **пр_ремоте_прогресс** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)).
+Числовой код, связанный с этим текстом, передается в свойство **PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

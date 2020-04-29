@@ -29,7 +29,7 @@ ms.locfileid: "33421601"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНТАБ_ФОЛДЕР_ЕНТРИДС  <br/> |
+|Связанные свойства:  <br/> |PR_CONTAB_FOLDER_ENTRYIDS  <br/> |
 |Идентификатор:  <br/> |0x6620  <br/> |
 |Тип данных:  <br/> |PT_MV_BINARY  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33421601"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

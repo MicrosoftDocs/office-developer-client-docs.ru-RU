@@ -29,18 +29,18 @@ ms.locfileid: "33416113"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОБСОЛЕТЕД_ИПМС  <br/> |
+|Связанные свойства:  <br/> |PR_OBSOLETED_IPMS  <br/> |
 |Идентификатор:  <br/> |0x001F  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Идентификаторы, хранящиеся в этом свойстве, являются стандартными ключами поиска, использующими формат свойства **пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
+Идентификаторы, хранящиеся в этом свойстве, являются стандартными ключами поиска, использующими формат свойства **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -29,9 +29,9 @@ ms.locfileid: "33417842"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ЛАНГУАЖЕС, ПР_ЛАНГУАЖЕС_А, ПР_ЛАНГУАЖЕС_В  <br/> |
+|Связанные свойства:  <br/> |PR_LANGUAGES, PR_LANGUAGES_A PR_LANGUAGES_W  <br/> |
 |Идентификатор:  <br/> |0x002F  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
 ## <a name="remarks"></a>Примечания
@@ -40,7 +40,7 @@ ms.locfileid: "33417842"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

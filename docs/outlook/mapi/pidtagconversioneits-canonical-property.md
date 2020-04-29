@@ -29,10 +29,10 @@ ms.locfileid: "33420005"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНВЕРСИОН_ЕИТС  <br/> |
+|Связанные свойства:  <br/> |PR_CONVERSION_EITS  <br/> |
 |Идентификатор:  <br/> |0x000C  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Exchange;  <br/> |
+|Область:  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -40,7 +40,7 @@ ms.locfileid: "33420005"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

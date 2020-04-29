@@ -1,5 +1,5 @@
 ---
-title: Имапимессажеситесавемессаже
+title: имапимессажеситесавемессаже
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33417107"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-ЗаПрашивает сохранение текущего сообщения.
+Запрашивает сохранение текущего сообщения.
   
 ```cpp
 HRESULT SaveMessage( void );

@@ -29,10 +29,10 @@ ms.locfileid: "33418920"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_АККНОВЛЕДЖЕМЕНТ_МОДЕ  <br/> |
+|Связанные свойства:  <br/> |PR_ACKNOWLEDGEMENT_MODE  <br/> |
 |Идентификатор:  <br/> |0x0001  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Exchange;  <br/> |
+|Область:  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -45,7 +45,7 @@ ms.locfileid: "33418920"
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

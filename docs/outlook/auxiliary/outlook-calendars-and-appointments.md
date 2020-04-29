@@ -22,7 +22,7 @@ ms.locfileid: "33420271"
     
 - [Сведения о приглашениях на собрания в виде информационных или полных сообщений](about-meeting-requests-as-informational-updates-and-full-updates.md)
     
-- [About rebasing calendars programmatically for Daylight Saving Time](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
+- [Сведения о программном переводе календарей на летнее время](about-rebasing-calendars-programmatically-for-daylight-saving-time.md)
     
 - [Сведения о сохранении TZDEFINITION в потоке для помещения в двоичное свойство](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
     

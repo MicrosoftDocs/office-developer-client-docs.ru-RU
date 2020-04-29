@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417604"
 ---
-# <a name="propinetserver"></a>PROP_INET_SERVER
+# <a name="prop_inet_server"></a>PROP_INET_SERVER
 
 Представляет имя сервера для общего почтового ящика в Интернете.
   

@@ -25,11 +25,11 @@ ms.locfileid: "33417352"
   
 Следующие свойства составляют обязательный набор столбцов в таблицах получения папок:
   
- **Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 
+ **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 
   
- **Пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 
+ **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 
   
- **Пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 
+ **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 
   
 ## <a name="see-also"></a>См. также
 

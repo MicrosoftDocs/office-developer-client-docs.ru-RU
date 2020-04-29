@@ -15,7 +15,7 @@ ms.locfileid: "33420229"
 ---
 # <a name="cells-visio-shapesheet-reference"></a>Ячейки (Справочник по таблице свойств фигур Visio)
 
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 - [A Cell (Geometry Section)](a-cell-geometry-section.md)
     

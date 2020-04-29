@@ -29,9 +29,9 @@ ms.locfileid: "33422315"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕПОРТ_НАМЕ, ПР_РЕПОРТ_НАМЕ_А, ПР_РЕПОРТ_НАМЕ_В  <br/> |
+|Связанные свойства:  <br/> |PR_REPORT_NAME, PR_REPORT_NAME_A PR_REPORT_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x003A  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
@@ -42,7 +42,7 @@ ms.locfileid: "33422315"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

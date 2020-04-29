@@ -14,12 +14,12 @@ ms.locfileid: "33420985"
 ---
 # <a name="concepts-access-custom-web-app"></a>Основные понятия (пользовательское веб-приложение для Access)
 
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-- [ЗаРезервированные слова (пользовательское веб-приложение для Access)](reserved-words-access-custom-web-app.md)
+- [Зарезервированные слова (пользовательское веб-приложение для Access)](reserved-words-access-custom-web-app.md)
     
 - [Создание и настройка веб-приложения в Access](how-to-create-and-customize-a-web-app-in-access.md)
     

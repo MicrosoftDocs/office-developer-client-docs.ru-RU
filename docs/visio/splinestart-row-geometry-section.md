@@ -26,7 +26,7 @@ ms.locfileid: "33417478"
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Координата *X* второй контрольной точки сплайна.  <br/> |
 |[Y (да)](y-cell-geometry-section.md) <br/> |Координата *Y* второй контрольной точки сплайна.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |Второй кнот сплайна.  <br/> |
+|[Определенно](a-cell-geometry-section.md) <br/> |Второй кнот сплайна.  <br/> |
 |[З](b-cell-geometry-section.md) <br/> |Первый кнот сплайна.  <br/> |
 |[C](c-cell-geometry-section.md) <br/> |Последний кнот сплайна.  <br/> |
 |[D](d-cell-geometry-section.md) <br/> |Степень сплайна (целое число от 1 до 25).  <br/> |

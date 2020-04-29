@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm95
 localization_priority: Normal
 ms.assetid: b2518a70-5755-a15a-a238-bac2ae64a75a
-description: Представляет координату y начальной точки одноМерной фигуры относительно начала координат родительского элемента.
+description: Представляет координату y начальной точки одномерной фигуры относительно начала координат родительского элемента.
 ms.openlocfilehash: dbe1cca3a3b969b14b62cb613359d014c7933bd9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT

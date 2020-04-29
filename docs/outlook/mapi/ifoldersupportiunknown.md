@@ -30,7 +30,7 @@ ms.locfileid: "33415777"
 |||
 |:-----|:-----|
 |Предоставлено:  <br/> |Поставщик хранилища сообщений  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_ифолдерсуппорт  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IFolderSupport  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
 
@@ -42,6 +42,6 @@ ms.locfileid: "33415777"
 
 Как правило, для реализации этого интерфейса в Microsoft Office Outlook требуется поставщик хранилища MAPI, если поставщику требуется предоставить общий доступ к папке. Исключением является поставщик хранилища Exchange Server, который может предоставлять общий доступ к папкам без реализации этого интерфейса.
   
-Клиент может запросить **[IMAPIFolder](imapifolderimapicontainer.md)** для **IFolderSupport**. В случае успеха вызовите метод **IFolderSupport:: GetSupportMask** и проверьте, установлен ли бит **фс_суппортс_шаринг** . 
+Клиент может запросить **[IMAPIFolder](imapifolderimapicontainer.md)** для **IFolderSupport**. В случае успеха вызовите метод **IFolderSupport:: GetSupportMask** и проверьте, установлен ли бит **FS_SUPPORTS_SHARING** . 
   
 

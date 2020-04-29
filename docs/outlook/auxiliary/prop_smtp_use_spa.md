@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418556"
 ---
-# <a name="propsmtpusespa"></a>PROP_SMTP_USE_SPA
+# <a name="prop_smtp_use_spa"></a>PROP_SMTP_USE_SPA
 
 Указывает, следует ли использовать безопасную проверку пароля (SPA) для учетной записи SMTP.
   
@@ -23,7 +23,7 @@ ms.locfileid: "33418556"
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0207  <br/> |
-|Тип свойства:  <br/> |ПТ_ДВОРД  <br/> |
+|Тип свойства:  <br/> |PT_DWORD  <br/> |
 |Тег свойства:  <br/> |0x02070003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    

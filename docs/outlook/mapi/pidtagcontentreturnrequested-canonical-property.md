@@ -29,7 +29,7 @@ ms.locfileid: "33419774"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНТЕНТ_РЕТУРН_РЕКУЕСТЕД  <br/> |
+|Связанные свойства:  <br/> |PR_CONTENT_RETURN_REQUESTED  <br/> |
 |Идентификатор:  <br/> |0x000A  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Отчет  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33419774"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

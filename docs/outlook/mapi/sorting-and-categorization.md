@@ -33,15 +33,15 @@ ms.locfileid: "33418486"
   
 - Столбец или столбцы, составляющие ключ сортировки
     
-- **Пр_контент_каунт** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))
+- **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))
     
-- **Пр_контент_унреад** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))
+- **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))
     
-- **Пр_инстанце_кэй** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
+- **PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))
     
-- **Пр_депс** ([PidTagDepth](pidtagdepth-canonical-property.md))
+- **PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md))
     
-- **Пр_ров_типе** ([PidTagRowType](pidtagrowtype-canonical-property.md)) 
+- **PR_ROW_TYPE** ([PidTagRowType](pidtagrowtype-canonical-property.md)) 
     
 Под строкой заголовков отображаются все строки таблицы, содержащие столбцы со значениями, соответствующими ключу сортировки. Эти строки называются конечными строками. Конечные строки содержат все столбцы в наборе столбцов за исключением столбцов ключа сортировки. 
   

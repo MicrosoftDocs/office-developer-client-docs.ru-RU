@@ -1,5 +1,5 @@
 ---
-title: 'ПоШаговое руководство: создание базового шаблона формы с кодом'
+title: 'Пошаговое руководство: создание базового шаблона формы с кодом'
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420649"
 ---
-# <a name="walkthrough-create-a-basic-form-template-with-code"></a>ПоШаговое руководство: создание базового шаблона формы с кодом
+# <a name="walkthrough-create-a-basic-form-template-with-code"></a>Пошаговое руководство: создание базового шаблона формы с кодом
 
 Бизнес-логику для приложения Microsoft InfoPath можно написать на языке Visual Basic или C#, открыв шаблон формы в конструкторе InfoPath и воспользовавшись одной из команд интерфейса пользователя для добавления обработчика событий, который откроет набор Visual Studio 2012 для написания необходимого кода. По умолчанию проекты шаблонов форм создаются с помощью набора средств Visual Studio 2012, использующего новую объектную модель управляемого кода, которая предоставляется пространством имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) 
   

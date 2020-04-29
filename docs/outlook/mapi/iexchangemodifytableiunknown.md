@@ -32,8 +32,8 @@ ms.locfileid: "33418108"
 |Предоставлено:  <br/> |Нет  <br/> |
 |Реализовано в:  <br/> |Объекты таблицы сервера  <br/> |
 |Вызывающая сторона:  <br/> |MAPI и клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_иексчанжемодифитабле  <br/> |
-|Тип указателя:  <br/> |ЛПЕКСЧАНЖЕМОДИФИТАБЛЕ  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IExchangeModifyTable  <br/> |
+|Тип указателя:  <br/> |лпексчанжемодифитабле  <br/> |
 |Модель транзакции:  <br/> |Транзакции  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
@@ -42,31 +42,31 @@ ms.locfileid: "33418108"
 |:-----|:-----|
 |[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Возвращает сведения о последней ошибке, произошедшей в объекте Table.  <br/> |
 |[GetTable](iexchangemodifytable-gettable.md) <br/> |Возвращает указатель на интерфейс для объекта таблицы MAPI.  <br/> |
-|[Модифитабле](iexchangemodifytable-modifytable.md) <br/> |Обновляет объект таблицы MAPI.  <br/> |
+|[модифитабле](iexchangemodifytable-modifytable.md) <br/> |Обновляет объект таблицы MAPI.  <br/> |
    
 |**Свойства, используемые для изменения таблицы Rules**|**Access**|
 |:-----|:-----|
-|**Пр_руле_актионс** ([PidTagRuleActions](pidtagruleactions-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_руле_кондитион** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_руле_ид** ([PidTagRuleId](pidtagruleid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_руле_левел** ([PidTagRuleLevel](pidtagrulelevel-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_руле_наме** ([PidTagRuleName](pidtagrulename-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_руле_провидер** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_руле_провидер_дата** ([PidTagRuleProviderData](pidtagruleproviderdata-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_руле_секуенце** ([PidTagRuleSequence](pidtagrulesequence-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_руле_стате** ([PidTagRuleState](pidtagrulestate-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_руле_усер_флагс** ([PidTagRuleUserFlags](pidtagruleuserflags-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_ID** ([PidTagRuleId](pidtagruleid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_LEVEL** ([PidTagRuleLevel](pidtagrulelevel-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_NAME** ([PidTagRuleName](pidtagrulename-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_PROVIDER_DATA** ([PidTagRuleProviderData](pidtagruleproviderdata-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_SEQUENCE** ([PidTagRuleSequence](pidtagrulesequence-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_STATE** ([PidTagRuleState](pidtagrulestate-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_USER_FLAGS** ([PidTagRuleUserFlags](pidtagruleuserflags-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
 |**Свойства, используемые для изменения таблицы SACL**|**Access**|
 |:-----|:-----|
-|**Пр_мембер_ентрид** ([PidTagMemberEntryId](pidtagmemberentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_мембер_ид** ([PidTagMemberId](pidtagmemberid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_мембер_наме** ([PidTagMemberName](pidtagmembername-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_мембер_ригхтс** ([PidTagMemberRights](pidtagmemberrights-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_ENTRYID** ([PidTagMemberEntryId](pidtagmemberentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_ID** ([PidTagMemberId](pidtagmemberid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_NAME** ([PidTagMemberName](pidtagmembername-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_RIGHTS** ([PidTagMemberRights](pidtagmemberrights-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить интерфейс **иексчанжемодифитабле** , вызовите метод MAPI [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) для свойства типа пт_обжект объекта Folder. При вызове метода **опенпроперти** передайте значение **иид_иексчанжемодифитабле** в параметре _лпиид_ . 
+Чтобы получить интерфейс **иексчанжемодифитабле** , вызовите метод MAPI [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) для свойства типа PT_OBJECT объекта Folder. При вызове метода **опенпроперти** передайте значение **IID_IExchangeModifyTable** в параметр _лпиид_ . 
   
 ## <a name="see-also"></a>См. также
 

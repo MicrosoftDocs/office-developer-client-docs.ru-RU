@@ -31,26 +31,26 @@ ms.locfileid: "33422497"
   
 |||
 |:-----|:-----|
-|**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**Пр_инстанце_кэй** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
-|**Пр_ресаурце_флагс** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**Пр_сервице_длл_наме** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
-|**Пр_сервице_ентри_наме** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**Пр_сервице_наме** ([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
-|**Пр_сервице_суппорт_филес** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**Пр_сервице_уид** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
+|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
+|**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
+|**PR_SERVICE_SUPPORT_FILES** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
    
- **Пр_дисплай_наме** — отображаемое имя для службы сообщений и столбец ключа сортировки по умолчанию. 
+ **PR_DISPLAY_NAME** — отображаемое имя для службы сообщений и столбец ключа сортировки по умолчанию. 
   
- **Пр_инстанце_кэй** служит в качестве столбца индекса для таблицы, уникально определяющий строку. 
+ **PR_INSTANCE_KEY** выступает в качестве столбца индекса для таблицы, уникальным образом идентифицирующего строку. 
   
- **Пр_ресаурце_флагс** описывает возможности службы сообщений. 
+ **PR_RESOURCE_FLAGS** рассказывается о возможностях службы сообщений. 
   
- **Пр_сервице_длл_наме** это имя библиотеки DLL, которая содержит реализацию службы сообщений. 
+ **PR_SERVICE_DLL_NAME** — это имя библиотеки DLL, которая содержит реализацию службы сообщений. 
   
- **Пр_сервице_ентри_наме** — это имя функции точки входа службы сообщений, которая соответствует прототипу [мсгсервицеентри](msgserviceentry.md) . 
+ **PR_SERVICE_ENTRY_NAME** — это имя функции точки входа службы сообщений, которая соответствует прототипу [мсгсервицеентри](msgserviceentry.md) . 
   
- **Пр_сервице_наме** — обязательная запись в разделе **[Services]** in Mapisvc. INF. Значение этого свойства никогда не будет изменено или локализовано. **Пр_сервице_наме** можно использовать для программного определения службы сообщений. 
+ **PR_SERVICE_NAME** является обязательной записью в разделе **[Services]** in Mapisvc. INF. Значение этого свойства никогда не будет изменено или локализовано. **PR_SERVICE_NAME** можно использовать для программного определения службы сообщений. 
   
- **Пр_сервице_суппорт_филес** — это список файлов, которые необходимо установить вместе со службой сообщений. 
+ **PR_SERVICE_SUPPORT_FILES** — это список файлов, которые необходимо установить вместе со службой сообщений. 
   
- **Пр_сервице_уид** — это уникальный идентификатор службы сообщений. 
+ **PR_SERVICE_UID** — это уникальный идентификатор службы сообщений. 
   
 ## <a name="see-also"></a>См. также
 

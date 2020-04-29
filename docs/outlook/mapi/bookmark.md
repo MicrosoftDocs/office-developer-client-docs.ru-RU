@@ -30,7 +30,7 @@ ms.locfileid: "33418136"
 |||
 |:-----|:-----|
 |Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
-|Связанные методы:  <br/> |[IMAPITable:: креатебукмарк](imapitable-createbookmark.md) [IMAPITable:: фрибукмарк](imapitable-freebookmark.md) <br/> |
+|Связанные методы:  <br/> |[IMAPITable:: креатебукмарк](imapitable-createbookmark.md)[IMAPITable:: фрибукмарк](imapitable-freebookmark.md) <br/> |
    
 ```cpp
 typedef ULONG_PTR BOOKMARK;
@@ -40,15 +40,15 @@ typedef ULONG_PTR BOOKMARK;
 
 MAPI определяет три закладки, перечисленные ниже.
   
-БУКМАРК_БЕГИННИНГ 
+BOOKMARK_BEGINNING 
   
 > Запоминает начальную позицию таблицы. 
     
-БУКМАРК_КУРРЕНТ 
+BOOKMARK_CURRENT 
   
 > Запоминает текущую позицию таблицы.
     
-БУКМАРК_ЕНД 
+BOOKMARK_END 
   
 > Запоминает конечное положение таблицы.
     

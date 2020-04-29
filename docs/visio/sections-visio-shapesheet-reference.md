@@ -15,7 +15,7 @@ ms.locfileid: "33419228"
 ---
 # <a name="sections-visio-shapesheet-reference"></a>Разделы (Справочник по таблице свойств фигур Visio)
 
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 - [1-D Endpoints Section](1-d-endpoints-section.md)
     

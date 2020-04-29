@@ -23,7 +23,7 @@ ms.locfileid: "33419627"
   
 Формат SMTP-адресов электронной почты определен в RFC 822. Компоненты MAPI должны обрабатывать любой адрес, который соответствует этому стандарту. Тем не менее, существует определенная форма адреса RFC 822, которая наилучшим образом кодирует адреса MAPI:
   
- _имя для отображения_ **\<** _адрес электронной почты_**\>**
+ _адрес электронной почты_ для _отображения имени_ **\<****\>**
   
 Угловые скобки включены как литералы. Пустые ячейки часто используются в отображаемых именах; их не нужно заключать в кавычки. Типичный адрес может выглядеть следующим образом, который относится к одному из соавторов RFC 1521:
   
@@ -35,11 +35,11 @@ ms.locfileid: "33419627"
   
 |**Компонент SMTP-адреса**|**Свойство MAPI**|
 |:-----|:-----|
-| _Отображение имен_ для всех получателей  <br/> |**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
-| _отобразить — имя_ для поля "от"  <br/> |**Пр_сендер_наме** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
-| _Отображение — имя_ для поля "отправитель"  <br/> |**Пр_сент_репресентинг_наме** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |
-| _адрес электронной почты_ <br/> |**Пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |
-|неявный, всегда "SMTP"  <br/> |**Пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |
+| _Отображение имен_ для всех получателей  <br/> |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
+| _отобразить — имя_ для поля "от"  <br/> |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
+| _Отображение — имя_ для поля "отправитель"  <br/> |**PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |
+| _адрес электронной почты_ <br/> |**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |
+|неявный, всегда "SMTP"  <br/> |**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |
    
 Если для адреса в входящей почте нет отображаемого имени, будет использоваться весь адрес электронной почты. Типом адреса всегда является SMTP.
   

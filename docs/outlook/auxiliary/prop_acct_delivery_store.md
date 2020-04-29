@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418899"
 ---
-# <a name="propacctdeliverystore"></a>PROP_ACCT_DELIVERY_STORE
+# <a name="prop_acct_delivery_store"></a>PROP_ACCT_DELIVERY_STORE
 
 Представляет идентификатор элемента хранилища доставки по умолчанию для учетной записи.
   
@@ -37,6 +37,6 @@ ms.locfileid: "33418899"
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md)
+- [Сведения об API управления учетными записями](about-the-account-management-api.md)
 - [Constants (Account management API)](constants-account-management-api.md)
 

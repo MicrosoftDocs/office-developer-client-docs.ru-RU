@@ -70,7 +70,7 @@ ms.locfileid: "33420012"
 
 Класс **UserPermissionCollection** предоставляет указанные ниже свойства и один метод. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [апплиполици](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.ApplyPolicy.aspx)  <br/> |Применяет к форме политику с помощью файла шаблона политики.  <br/> |
 |Свойство [DocumentAuthor](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Permission.DocumentAuthor.aspx)  <br/> |Получает или задает автора текущей формы в качестве адреса электронной почты.  <br/> |
@@ -86,7 +86,7 @@ ms.locfileid: "33420012"
 
 Класс **UserPermissionCollection** предоставляет следующие свойства и методы. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Add.aspx) (+ 3 перегрузки)  <br/> |Добавляет нового пользователя для текущей формы с указанием разрешений и срока действия (необязательно).  <br/> |
 |Метод [Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermissionCollection.Remove.aspx)  <br/> |Удаляет из коллекции объект **UserPermission** с указанным идентификатором **UserId**.  <br/> |
@@ -98,7 +98,7 @@ ms.locfileid: "33420012"
 
 Класс **UserPermission** предоставляет указанные ниже свойства и один метод. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [Remove](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.Remove.aspx)  <br/> |Удаляет текущий объект **UserPermission** из разрешений формы.  <br/> |
 |Свойство [ExpirationDate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.UserPermission.ExpirationDate.aspx)  <br/> |Возвращает или задает необязательный срок действия разрешений текущей формы, назначенных пользователю, связанному с экземпляром класса **UserPermission**.  <br/> |
@@ -109,7 +109,7 @@ ms.locfileid: "33420012"
 
 Разрешения пользователя задаются или считываются с помощью значений перечисления [пермиссионтипе](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.PermissionType.aspx) . 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |**Пермиссионтипе. Change** <br/> |Позволяет пользователям просматривать, редактировать, копировать и сохранять форму, но не печатать ее. Эквивалентно сочетанию разрешений **Read**, **Edit**, **Save** и **Extract**.  <br/> |
 |**Пермиссионтипе. Edit** <br/> |Позволяет пользователю редактировать форму.  <br/> |

@@ -5,7 +5,7 @@ ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 2096da45-4269-4a6d-a2bd-a3e1e510b071
-description: ПоМещает текущую запись в режим редактирования.
+description: Помещает текущую запись в режим редактирования.
 ms.openlocfilehash: 8cd2dbb388d7fe0111d6112ace8be53ad8fef9f8
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -15,7 +15,7 @@ ms.locfileid: "33421748"
 ---
 # <a name="editrecord-macro-action-access-custom-web-app"></a>Действие макроса ИзменитьЗапись (пользовательское веб-приложение для Access)
 
-ПоМещает текущую запись в режим редактирования.
+Помещает текущую запись в режим редактирования.
   
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 

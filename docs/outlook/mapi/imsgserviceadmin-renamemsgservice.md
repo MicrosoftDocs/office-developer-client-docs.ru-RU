@@ -1,5 +1,5 @@
 ---
-title: Имсгсервицеадминренамемсгсервице
+title: имсгсервицеадминренамемсгсервице
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -37,7 +37,7 @@ HRESULT RenameMsgService(
 
 ## <a name="parameters"></a>Параметры
 
- _Лпуид_
+ _лпуид_
   
 > возврата Указатель на структуру [мапиуид](mapiuid.md) , которая содержит уникальный идентификатор для переименования службы сообщений. 
     
@@ -45,19 +45,19 @@ HRESULT RenameMsgService(
   
 > [in] ���������������; ������ ���� ����� ����.
     
- _Лпсздисплайнаме_
+ _лпсздисплайнаме_
   
 > возврата Указатель на новое имя для службы сообщений.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-МАПИ_Е_НО_СУППОРТ 
+MAPI_E_NO_SUPPORT 
   
 > MAPI не поддерживает переименование этой службы сообщений. **Ренамемсгсервице** всегда возвращает это значение. 
     
 ## <a name="remarks"></a>Примечания
 
-Чтобы назначить новое имя службе сообщений, клиенты должны использовать свойство **пр_сервице_наме** ([PidTagServiceName](pidtagservicename-canonical-property.md)) службы сообщений. Имена поставщиков служб в службе сообщений хранятся в своих свойствах **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
+Чтобы назначить новое имя службе сообщений, клиенты должны использовать свойство **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) службы сообщений. Имена поставщиков служб в службе сообщений хранятся в их свойствах **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
   
 ## <a name="see-also"></a>См. также
 

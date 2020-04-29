@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415707"
 ---
-# <a name="propsmtpserver"></a>PROP_SMTP_SERVER
+# <a name="prop_smtp_server"></a>PROP_SMTP_SERVER
 
 Представляет имя сервера учетной записи SMTP.
   

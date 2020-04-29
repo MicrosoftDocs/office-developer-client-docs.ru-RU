@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- имена приложений [InfoPath 2007], доступ к имени приложения [InfoPath 2007], InfoPath 2007, доступ к данным приложения, доступ к версии приложения [InfoPath 2007], версии приложения [InfoPath 2007], идентификаторы языков [InfoPath 2007], LCID [InfoPath 2007], данные приложения [InfoPath 2007], доступ к ИДЕНТИФИКАТОРу языка [InfoPath 2007]
+- имена приложений [InfoPath 2007], доступ к имени приложения [InfoPath 2007], InfoPath 2007, доступ к данным приложения, доступ к версии приложения [InfoPath 2007], версии приложения [InfoPath 2007], идентификаторы языков [InfoPath 2007], LCID [InfoPath 2007], данные приложений [InfoPath 2007], доступ к ИДЕНТИФИКАТОРу языка [InfoPath 2007]
 localization_priority: Normal
 ms.assetid: 2698d059-9955-4eec-85a6-79defb64e07e
 description: Объектная модель управляемого кода InfoPath предоставляет объекты и коллекции, которые можно использовать для получения доступа к сведениям о приложении InfoPath, включая информацию, связанную с базовым XML-документом формы и файлом определения формы (XSF-файлом). Доступ к этим данным осуществляется через объект верхнего уровня в иерархии объектной модели InfoPath, экземпляр которого создается с помощью класса Application.
@@ -19,7 +19,7 @@ ms.locfileid: "33417233"
 
 Объектная модель управляемого кода InfoPath предоставляет объекты и коллекции, которые можно использовать для получения доступа к сведениям о приложении InfoPath, включая информацию, связанную с базовым XML-документом формы и файлом определения формы (XSF-файлом). Доступ к этим данным осуществляется через объект верхнего уровня в иерархии объектной модели InfoPath, экземпляр которого создается с помощью класса [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . 
   
-В проекте шаблона формы с управляемым кодом InfoPath, созданном с помощью Visual Studio 2012, можно использовать ключевое слово **this** (C#) или **Me** (Visual Basic) для доступа к экземпляру класса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) , представляющего текущее приложение InfoPath. который затем можно использовать для доступа к свойствам и методам класса [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . 
+В проекте шаблона формы с управляемым кодом InfoPath, созданном с помощью Visual Studio 2012, вы можете использовать ключевое слово **this** (C#) или **Me** (Visual Basic) для доступа к экземпляру класса [приложения](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) , представляющему текущее приложение InfoPath, которое затем можно использовать для доступа к свойствам и методам класса [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . 
   
 ## <a name="example"></a>Пример
 

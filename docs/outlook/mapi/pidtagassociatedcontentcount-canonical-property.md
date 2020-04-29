@@ -29,7 +29,7 @@ ms.locfileid: "33421321"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_АССОК_КОНТЕНТ_КАУНТ  <br/> |
+|Связанные свойства:  <br/> |PR_ASSOC_CONTENT_COUNT  <br/> |
 |Идентификатор:  <br/> |0x3617  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Folder  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33421321"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

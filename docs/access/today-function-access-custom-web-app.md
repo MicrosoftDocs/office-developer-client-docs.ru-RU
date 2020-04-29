@@ -23,7 +23,7 @@ ms.locfileid: "33422126"
   
 ## <a name="syntax"></a>Синтаксис
 
- **Today (сегодня** ) () 
+ **Today** () 
   
 ## <a name="remarks"></a>Примечания
 

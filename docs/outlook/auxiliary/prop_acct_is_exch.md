@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33418234"
 ---
-# <a name="propacctisexch"></a>PROP_ACCT_IS_EXCH
+# <a name="prop_acct_is_exch"></a>PROP_ACCT_IS_EXCH
 
 Значение true, если учетная запись является учетной записью Exchange.
   
@@ -31,10 +31,10 @@ ms.locfileid: "33418234"
    
 ## <a name="remarks"></a>Примечания
 
-Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **е_олк_проп_реад_онли**. 
+Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **E_OLK_PROP_READ_ONLY**. 
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md) 
+- [Сведения об API управления учетными записями](about-the-account-management-api.md) 
 - [Constants (Account management API)](constants-account-management-api.md)
 

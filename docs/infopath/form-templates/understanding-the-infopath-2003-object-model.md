@@ -19,7 +19,7 @@ ms.locfileid: "33416659"
 
 В этом разделе описана объектная модель для решений InfoPath с управляемым кодом, а также типичные задачи программирования.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 [Объектные модели, совместимые с InfoPath 2003](infopath-2003-compatible-object-models.md)
   

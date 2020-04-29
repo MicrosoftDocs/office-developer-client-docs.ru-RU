@@ -29,18 +29,18 @@ ms.locfileid: "33419753"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_НОН_РЕЦЕИПТ_НОТИФИКАТИОН_РЕКУЕСТЕД  <br/> |
+|Связанные свойства:  <br/> |PR_NON_RECEIPT_NOTIFICATION_REQUESTED  <br/> |
 |Идентификатор:  <br/> |0x0C06  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Exchange;  <br/> |
+|Область:  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство содержит значение FALSE, а свойство **пр_реад_рецеипт_рекуестед** ([PIDTAGREADRECEIPTREQUESTED](pidtagreadreceiptrequested-canonical-property.md)) содержит значение true, то поставщик услуг может переопределить свойство **пр_нон_рецеипт_нотификатион_рекуестед** и создать объект отчет о недоставке. 
+Если это свойство содержит значение FALSE, а свойство **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) содержит значение true, то поставщик услуг может переопределить свойство **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** и создать отчет о недоставке. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -26,16 +26,16 @@ ms.locfileid: "33422770"
 |1,1  <br/> |![](media/IC_Bullet1_ZA07645847.gif)           <br/> |
 |2  <br/> |![](media/IC_Bullet2_ZA07645848.gif)           <br/> |
 |4  <br/> |![](media/IC_Bullet3_ZA07645849.gif)           <br/> |
-|SP4  <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
-|17:00  <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
-|ICMPv6  <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
-|см  <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
+|4   <br/> |![](media/IC_Bullet4_ZA07645851.gif)           <br/> |
+|5   <br/> |![](media/IC_Bullet5_ZA07645852.gif)           <br/> |
+|6   <br/> |![](media/IC_Bullet6_ZA07645853.gif)           <br/> |
+|7   <br/> |![](media/IC_Bullet7_ZA07645854.gif)           <br/> |
    
 |||
 |:-----|:-----|
-|Индекс раздела:  <br/> |**Виссектионпараграф** <br/> |
+|Индекс раздела:  <br/> |**виссектионпараграф** <br/> |
 |Индекс строки:  <br/> |**висровпараграф** +  *i* , где *i* = 0, 1, 2,...  <br/> |
-|Индекс ячейки:  <br/> |**Висбуллетиндекс** <br/> |
+|Индекс ячейки:  <br/> |**висбуллетиндекс** <br/> |
    
 ## <a name="remarks"></a>Примечания
 

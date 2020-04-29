@@ -27,13 +27,13 @@ ms.locfileid: "33416246"
   
 Каждая структура **дтктл** в структуре **дтпаже** содержит следующие данные, которые используются для задания свойств элемента управления: 
   
-- Тип элемента управления для параметра **пр_контрол_типе** ([PidTagControlType](pidtagcontroltype-canonical-property.md)).
+- Тип элемента управления для настройки **PR_CONTROL_TYPEа** ([PidTagControlType](pidtagcontroltype-canonical-property.md)).
     
-- Контрольные флаги для параметра **пр_контрол_флагс** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
+- Контрольные флаги для настройки **PR_CONTROL_FLAGS** ([PidTagControlFlags](pidtagcontrolflags-canonical-property.md)).
     
-- Данные уведомления для параметра **пр_контрол_ид** ([PidTagControlId](pidtagcontrolid-canonical-property.md)).
+- Данные уведомления для настройки **PR_CONTROL_ID** ([PidTagControlId](pidtagcontrolid-canonical-property.md)).
     
-- Структура управления для настройки **пр_контрол_структуре** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)).
+- Структура управления для настройки **PR_CONTROL_STRUCTURE** ([PidTagControlStructure](pidtagcontrolstructure-canonical-property.md)).
     
 Структуры **дтктл** также содержат идентификатор ресурса и, для элементов управления "поле со списком" и "поле со списком", фильтр знаков. 
   
@@ -43,7 +43,7 @@ ms.locfileid: "33416246"
   
 **Отображение структур таблицы**
   
-![Отображение структур таблицы] (media/dtstruct.gif "Отображение структур таблицы")
+Отображение ![структур таблицы для](media/dtstruct.gif "отображения структуры таблицы")
   
 ## <a name="see-also"></a>См. также
 

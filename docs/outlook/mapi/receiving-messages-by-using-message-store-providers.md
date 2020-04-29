@@ -33,7 +33,7 @@ ms.locfileid: "33418731"
     
 Последовательность вызовов методов, выполняемых при доставке входящего сообщения в хранилище сообщений, выглядит следующим образом:
   
-1. Диспетчер очереди MAPI вызывает [IMsgStore:: OpenEntry](imsgstore-openentry.md) с идентификатором папки [](entryid.md) "Входящие" для получения интерфейса [IMAPIFolder](imapifolderimapicontainer.md) . 
+1. Диспетчер очереди MAPI вызывает [IMsgStore:: OpenEntry](imsgstore-openentry.md) с идентификатором папки ["](entryid.md) Входящие" для получения интерфейса [IMAPIFolder](imapifolderimapicontainer.md) . 
     
 2. Диспетчер очереди MAPI вызывает метод [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) для получения нового объекта Message. 
     

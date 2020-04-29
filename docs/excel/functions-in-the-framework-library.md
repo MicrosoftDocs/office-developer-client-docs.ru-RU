@@ -20,7 +20,7 @@ ms.locfileid: "33417548"
 
 **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Библиотека Framework была создана для упрощения создания XLL. Он включает простые функции для управления памятью **XLOPER**/ **XLOPER12** , создавая временную группу **XLOPER**/ **** и надежно вызывая функции обратного вызова Microsoft Excel (**Excel4**, **Excel4v** * * Excel12 * *, * * Excel12v * *) и печать строк отладки на присоединенном терминале.
+Библиотека Framework была создана для упрощения создания XLL. Он включает в себя простые функции для управления памятью для **XLOPER**/ **XLOPER12** , **Создание временной**/ **XLOPER12**, надежный вызов функций обратного вызова Microsoft Excel (**Excel4**, **Excel4v**, * * Excel12 * *, * * Excel12v * *) и печать строк отладки на подключенном терминале.
   
 Функции, включенные в эту библиотеку, помогают упростить фрагмент кода, который выглядит примерно так:
   
@@ -43,25 +43,25 @@ Excel12f(xlcDisplay, 0, 2, TempMissing12(), TempBool12(0));
 ||
 |:-----|
 |[debugPrintf](debugprintf.md) <br/> |
-|**Жеттемпмемори** <br/> |
-|**Фриаллтемпмемори** <br/> |
+|**жеттемпмемори** <br/> |
+|**фриаллтемпмемори** <br/> |
 |[InitFramework](initframework.md) <br/> |
 |[QuitFramework](quitframework.md) <br/> |
    
 |**Функции, используемые с XLOPER**|**Функции, используемые с XLOPER12**|
 |:-----|:-----|
 |[Excel](excel-excel12f.md) <br/> |[Excel12f](excel-excel12f.md) <br/> |
-|[Темпнум](tempnum-tempnum12.md) <br/> |[TempNum12](tempnum-tempnum12.md) <br/> |
+|[темпнум](tempnum-tempnum12.md) <br/> |[TempNum12](tempnum-tempnum12.md) <br/> |
 |[TempStr](tempstr.md) <br/> |[TempStr12](tempstrconst-tempstr12.md) <br/> |
-|[Темпстрконст](tempstrconst-tempstr12.md) <br/> |[TempStr12Const](tempstrconst-tempstr12.md) <br/> |
-|[Темпбул](tempbool-tempbool12.md) <br/> |[TempBool12](tempbool-tempbool12.md) <br/> |
-|[Темпинт](tempint-tempint12.md) <br/> |[TempInt12](tempint-tempint12.md) <br/> |
-|[Темперр](temperr-temperr12.md) <br/> |[TempErr12](temperr-temperr12.md) <br/> |
-|[Темпактивереф](tempactiveref-tempactiveref12.md) <br/> |[TempActiveRef12](tempactiveref-tempactiveref12.md) <br/> |
-|[Темпактивецелл](tempactivecell-tempactivecell12.md) <br/> |[TempActiveCell12](tempactivecell-tempactivecell12.md) <br/> |
-|[Темпактиверов](tempactiverow-tempactiverow12.md) <br/> |[TempActiveRow12](tempactiverow-tempactiverow12.md) <br/> |
-|[Темпактивеколумн](tempactivecolumn-tempactivecolumn12.md) <br/> |[TempActiveColumn12](tempactivecolumn-tempactivecolumn12.md) <br/> |
-|[Темпмиссинг](tempmissing-tempmissing12.md) <br/> |[TempMissing12](tempmissing-tempmissing12.md) <br/> |
+|[темпстрконст](tempstrconst-tempstr12.md) <br/> |[TempStr12Const](tempstrconst-tempstr12.md) <br/> |
+|[темпбул](tempbool-tempbool12.md) <br/> |[TempBool12](tempbool-tempbool12.md) <br/> |
+|[темпинт](tempint-tempint12.md) <br/> |[TempInt12](tempint-tempint12.md) <br/> |
+|[темперр](temperr-temperr12.md) <br/> |[TempErr12](temperr-temperr12.md) <br/> |
+|[темпактивереф](tempactiveref-tempactiveref12.md) <br/> |[TempActiveRef12](tempactiveref-tempactiveref12.md) <br/> |
+|[темпактивецелл](tempactivecell-tempactivecell12.md) <br/> |[TempActiveCell12](tempactivecell-tempactivecell12.md) <br/> |
+|[темпактиверов](tempactiverow-tempactiverow12.md) <br/> |[TempActiveRow12](tempactiverow-tempactiverow12.md) <br/> |
+|[темпактивеколумн](tempactivecolumn-tempactivecolumn12.md) <br/> |[TempActiveColumn12](tempactivecolumn-tempactivecolumn12.md) <br/> |
+|[темпмиссинг](tempmissing-tempmissing12.md) <br/> |[TempMissing12](tempmissing-tempmissing12.md) <br/> |
    
 Использование этих функций сокращает количество времени, необходимого для записи DLL или XLL. Запуск разработки из примера УНИВЕРСАЛЬНого приложения также сокращает время разработки. Используйте GENERIC. C в качестве шаблона для помощи в настройке платформы XLL, а затем замените существующий код на свой собственный.
   

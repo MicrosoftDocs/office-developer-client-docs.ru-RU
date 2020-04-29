@@ -20,7 +20,7 @@ ms.locfileid: "33417919"
 
 - [Управление учетными записями Outlook](outlook-account-management.md)
     
-- [About the Data Degradation Layer API](about-the-data-degradation-layer-api.md)
+- [Сведения об API уровня ухудшения данных](about-the-data-degradation-layer-api.md)
     
 - [Сведения об интерфейсах API, экспортируемых Outlook](about-apis-exported-by-outlook.md)
     

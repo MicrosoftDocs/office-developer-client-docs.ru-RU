@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417205"
 ---
-# <a name="mscapselector"></a>MSCAP_SELECTOR
+# <a name="mscap_selector"></a>MSCAP_SELECTOR
 
   
   
@@ -46,7 +46,7 @@ typedef enum
   
 > Этот член зарезервирован для внутреннего использования в Outlook и не поддерживается. 
     
- *МСКАП_СЕЛ_ФОЛДЕР* 
+ *MSCAP_SEL_FOLDER* 
   
 > Возможности, связанные с вспомогательными папками в магазине.
     
@@ -54,7 +54,7 @@ typedef enum
   
 > Этот член зарезервирован для внутреннего использования в Outlook и не поддерживается. 
     
- *МСКАП_СЕЛ_РЕСТРИКТИОН* 
+ *MSCAP_SEL_RESTRICTION* 
   
 > Возможности, связанные с поддержкой ограничений в магазине.
     

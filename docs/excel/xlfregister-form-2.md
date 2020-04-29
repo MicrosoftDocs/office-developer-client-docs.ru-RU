@@ -30,7 +30,7 @@ ms.locfileid: "33416043"
     
 - xlfRegister (форма 2): Загрузка и активация XLL-модуля.
     
-Эта функция, выЗываемая в форме 2, может использоваться только для загрузки и активации XLL, содержащего процедуру [xlAutoOpen](xlautoopen.md) . 
+Эта функция, вызываемая в форме 2, может использоваться только для загрузки и активации XLL, содержащего процедуру [xlAutoOpen](xlautoopen.md) . 
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
