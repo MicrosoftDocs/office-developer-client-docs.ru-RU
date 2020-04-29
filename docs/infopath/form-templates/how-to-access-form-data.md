@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 keywords:
-- данные форм [InfoPath 2007], формы [InfoPath 2007], доступ к свойствам, шаблонам форм [InfoPath 2007], доступ к свойствам, открытие форм [InfoPath 2007], печать форм [InfoPath 2007], формы [InfoPath 2007], печать, закрытие форм [InfoPath 2007], InfoPath 2007, доступ к данным форм, формы [InfoPath 2007], доступ к источнику данных, формы [InfoPath 2007], закрытие, формы [InfoPath 2007], открытие, печать [InfoPath 2007], формы, формы [InfoPath 2007], создание
+- данные форм [InfoPath 2007], формы [InfoPath 2007], доступ к свойствам, шаблонам форм [InfoPath 2007], доступ к свойствам, открытие форм [InfoPath 2007], печать форм [InfoPath 2007], формы [InfoPath 2007], печать, закрытие форм [InfoPath 2007], InfoPath 2007, доступ к данным формы, формы [InfoPath 2007], доступ к источнику данных, формы [InfoPath 2007], закрытие, формы [InfoPath 2007], открытие, печать [InfoPath 2007], формы, формы [InfoPath 2007]
 localization_priority: Normal
 ms.assetid: fd7374d3-a268-4e30-9872-7579cd681bd0
 description: Если требуется расширить функциональность формы InfoPath, то зачастую требуется обеспечить программный доступ к сведениям о базовом XML-документе формы или к данным, содержащимся в этом XML-документе, а также выполнить некоторые действия над XML-документом. Объектная модель InfoPath поддерживает доступ к базовому XML-документу формы и управление им с помощью класса XmlForm в связи с классом XmlFormCollection.
@@ -19,13 +19,13 @@ ms.locfileid: "32300212"
 
 Если требуется расширить функциональность формы InfoPath, то зачастую требуется обеспечить программный доступ к сведениям о базовом XML-документе формы или к данным, содержащимся в этом XML-документе, а также выполнить некоторые действия над XML-документом. Объектная модель InfoPath поддерживает доступ к базовому XML-документу формы и управление им с помощью класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) в связи с классом [XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) . 
   
-Класс [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) является одним из наиболее эффективных типов в объектной модели InfoPath, так как он предоставляет разнообразные свойства и методы, которые не только взаимодействуют с базовым XML-документом формы, но и выполняют многие действия, доступные в Пользовательский интерфейс InfoPath. 
+Класс [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) является одним из наиболее эффективных типов в объектной модели InfoPath, так как он предоставляет разнообразные свойства и методы, которые не только взаимодействуют с базовым XML-документом формы, но и выполняют многие действия, доступные в пользовательском интерфейсе InfoPath. 
   
 ## <a name="overview-of-the-xmlformcollection-class"></a>Обзор класса XmlFormCollection
 
 Класс [XmlFormCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для управления объектами [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) , содержащимися в коллекции. 
   
-|**Имя**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [New (String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.New.aspx)  <br/> |Создает новую форму на основе указанной формы.  <br/> |
 |Метод [New (String, XmlFormOpenMode)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlFormCollection.New.aspx) (перегрузка 1)  <br/> |Создает новую форму на основе указанной формы с использованием указанного поведения режима открытия.  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "32300212"
 
 Класс [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с базовым XML-документом формы и выполнения действий над ним. 
   
-|**Имя**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [Close](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Close.aspx)  <br/> |Закрывает форму.  <br/> |
 |Метод [жетворкфловтаскс](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.GetWorkflowTasks.aspx)  <br/> |Возвращает ссылку на коллекцию **Microsoft.Office.Core.WorkflowTasks** для текущей формы.  <br/> |
@@ -56,12 +56,12 @@ ms.locfileid: "32300212"
 |Метод [SaveAs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SaveAs.aspx)  <br/> |Сохраняет форму по указанному URL-адресу.  <br/> |
 |Метод [SetSaveAsDialogFilename](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogFilename.aspx)  <br/> |Устанавливает имя файла по умолчанию для диалогового окна **SaveAs**.  <br/> |
 |Метод [SetSaveAsDialogLocation](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.SetSaveAsDialogLocation.aspx)  <br/> |Устанавливает путь по умолчанию для сохранения формы с помощью диалогового окна **SaveAs**.  <br/> |
-|[](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx) Метод reоправить  <br/> |Отправляет форму с помощью операции отправки, определенной в шаблоне формы.  <br/> |
+|Метод [Reоправить](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Submit.aspx)  <br/> |Отправляет форму с помощью операции отправки, определенной в шаблоне формы.  <br/> |
 |Свойство [CurrentView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.CurrentView.aspx)  <br/> |Возвращает объект [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) , представляющий текущее представление формы.  <br/> |
-|[](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataConnections.aspx) Свойство Connections  <br/> |Получает объект [DataConnectionCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnectionCollection.aspx) , связанный с формой.  <br/> |
-|[](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx) Свойство DataSources  <br/> |Получает объект [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) , связанный с формой.  <br/> |
+|Свойство [Connections](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataConnections.aspx)  <br/> |Получает объект [DataConnectionCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataConnectionCollection.aspx) , связанный с формой.  <br/> |
+|Свойство [DataSources](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.DataSources.aspx)  <br/> |Получает объект [DataSourceCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.DataSourceCollection.aspx) , связанный с формой.  <br/> |
 |Свойство [Dirty](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Dirty.aspx)  <br/> |Получает значение, указывающее на то, были ли изменены данные формы с момента последнего сохранения.  <br/> |
-|[](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx) Свойство Errors  <br/> |Возвращает ссылку на [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) , связанную с формой.  <br/> |
+|Свойство [Errors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx)  <br/> |Возвращает ссылку на [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) , связанную с формой.  <br/> |
 |Свойство [Extension](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Extension.aspx)  <br/> |Получает объект [System. Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx) для доступа к функциям и глобальным переменным, которые хранятся в основном файле кода формы с помощью [System. Reflection](https://msdn.microsoft.com/library/system.reflection(v=vs.110).aspx).  <br/> |
 |Свойство [контейнере FormState](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.FormState.aspx)  <br/> |Возвращает ссылку на контейнер свойств [System.Collections.IDictionary](https://msdn.microsoft.com/library/system.collections.idictionary%28v=vs.110%29.aspx) типа, которые могут использовать формы с поддержкой браузера для обработки сведений о состоянии сеансов на сервере.  <br/> |
 |Свойство [Host](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Host.aspx)  <br/> |Возвращает [System.Object](https://msdn.microsoft.com/library/system.object%28v=vs.110%29.aspx), который код, запущенный в размещенном экземпляре InfoPath, может использовать для доступа к объектной модели внешнего приложения.  <br/> |
@@ -85,9 +85,9 @@ ms.locfileid: "32300212"
    
 ## <a name="using-the-xmlformcollection-class"></a>Использование класса XmlFormCollection
 
-Доступ к классу **XmlFormCollection** осуществляется с помощью свойства [ксмлформс](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.XmlForms.aspx) класса [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . В шаблоне формы с управляемым кодом, созданном с помощью объектной модели, предоставляемой элементами пространства имен [Microsoft. Office. InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) , вы можете использовать ключевое слово **this** (C#) или **Me** (Visual Basic) в коде формы для доступа к **приложению. **класс и его члены. 
+Доступ к классу **XmlFormCollection** осуществляется с помощью свойства [ксмлформс](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.XmlForms.aspx) класса [Application](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Application.aspx) . В шаблоне формы с управляемым кодом, созданном с помощью объектной модели, предоставляемой элементами пространства имен [Microsoft. Office. InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) , вы можете использовать ключевое слово **this** (C#) или **Me** (Visual Basic) в коде формы для доступа к классу **Application** и его членам. 
   
-В следующем примере используется свойство **ксмлформс** класса **Application** для создания объектной переменной с именем миформс, которая ссылается на объект **XDocumentsCollection** в запущенНом в данный момент экземпляре InfoPath. Эта переменная затем используется для отображения количества открытых форм. 
+В следующем примере используется свойство **ксмлформс** класса **Application** для создания объектной переменной с именем миформс, которая ссылается на объект **XDocumentsCollection** в запущенном в данный момент экземпляре InfoPath. Эта переменная затем используется для отображения количества открытых форм. 
   
 ```cs
 // Create variable for accessing the XmlFormCollection.
@@ -107,11 +107,11 @@ MessageBox.Show("Forms open: " + myForms.Count)
   
 ## <a name="using-the-xmlform-class"></a>Использование класса XmlForm
 
-В шаблоне формы с управляемым кодом, созданном с помощью объектной модели, предоставляемой элементами пространства имен [Microsoft. Office. InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) , вы можете использовать ключевое слово **this** (C#) или **Me** (Visual Basic) в коде формы для доступа к членам элемента [ Класс XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) напрямую (без использования объектной переменной, которая устанавливает ссылку на класс [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) ). 
+В шаблоне формы с управляемым кодом, созданном с помощью объектной модели, предоставляемой элементами пространства имен [Microsoft. Office. InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) , можно использовать ключевое слово **this** (C#) или **Me** (Visual Basic) в коде формы для прямого доступа к членам класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) (без необходимости использовать объектную переменную, которая устанавливает ссылку на класс [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) ). 
   
 ### <a name="accessing-a-forms-property-values"></a>Доступ к значениям свойств формы
 
-В следующем примере используется ключевое слово **this** или **Me** для доступа к свойствам **New**, **ReadOnly**, **signed**и **URI** класса **XmlForm** и отображаются значения, возвращенные для текущей формы в окне сообщения. . 
+В следующем примере используется ключевое слово **this** или **Me** для доступа к свойствам **New**, **ReadOnly**, **signed**и **URI** класса **XmlForm** и отображаются значения, возвращенные для текущей формы в окне сообщения. 
   
 ```cs
 MessageBox.Show(
@@ -151,15 +151,15 @@ MessageBox.Show(myDoc)
 ```
 
 > [!NOTE]
-> Так как InfoPath обрабатывает свойство **MainDataSource** как свойство по умолчанию объекта **XmlForm** , доступного при использовании **этих** ключевых **** слов или ключевых слов, можно опустить его из строки кода, использованной для создания **XPathNavigator** объектам. 
+> Так как InfoPath обрабатывает свойство **MainDataSource** как свойство по умолчанию объекта **XmlForm** , доступного при использовании **этих** ключевых **слов** или ключевых слов, можно опустить его из строки кода, использованной для создания объекта **XPathNavigator** . 
   
 Чтобы узнать больше о классе **XPathNavigator** в бизнес-логике шаблона формы InfoPath, ознакомьтесь со статьей [Работа с классами XPathNavigator и XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md).
   
 ### <a name="accessing-data-about-a-forms-form-template-file"></a>Доступ к данным о файле шаблона формы формы
 
-Также можно получить доступ к сведениям о шаблоне формы, связанном с формой, включая файл определения формы (XSF) и исходные данные XML, которые он содержит. **** Доступ к этой информации осуществляется с помощью свойства [template](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Template.aspx) , которое возвращает ссылку на объект [FormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) , представляющий шаблон формы, связанный с текущей формой. 
+Также можно получить **доступ к** сведениям о шаблоне формы, связанном с формой, включая файл определения формы (XSF) и исходные данные XML, которые он содержит. Доступ к этой информации осуществляется с помощью свойства [template](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Template.aspx) , которое возвращает ссылку на объект [FormTemplate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.aspx) , представляющий шаблон формы, связанный с текущей формой. 
   
-В следующем примере в первом окне сообщения отображаются некоторые данные, доступные через класс **template** , такие как расположение URI (с помощью свойства [URI](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Uri.aspx) ), идентификатор кэша (с помощью [cacheID ](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.CacheId.aspx)свойство) и его номер версии (с помощью свойства [Version](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Version.aspx) ). В следующем окне сообщения для создания объекта **XPathNavigator** , используемого для отображения ИСХОДНОГО XML-кода файла определения формы (XSF), используется свойство [manifest](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Manifest.aspx) класса **template** . 
+В следующем примере в первом окне сообщения отображаются некоторые данные, доступные через класс **template** , такие как расположение URI (с помощью свойства [URI](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Uri.aspx) ), идентификатор кэша (с использованием свойства [cacheID](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.CacheId.aspx) ) и его номер версии (с помощью свойства [Version](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Version.aspx) ). В следующем окне сообщения для создания объекта **XPathNavigator** , используемого для отображения исходного XML-кода файла определения формы (XSF), используется свойство [manifest](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormTemplate.Manifest.aspx) класса **template** . 
   
 ```cs
 // Display form template properties.

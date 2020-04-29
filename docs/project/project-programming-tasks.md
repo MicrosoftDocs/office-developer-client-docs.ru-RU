@@ -20,7 +20,7 @@ ms.locfileid: "32301500"
 > [!NOTE]
 > Сведения о программировании с помощью элемента управления "JS Grid" ( [JS Grid Control](https://msdn.microsoft.com/library/ee535898%28office.14%29.aspx) ) см в справочнике разработчика SharePoint 2010. Ссылка на управляемый код приведена в разделе [пространство имен Microsoft. SharePoint. JSGrid](https://msdn.microsoft.com/library/microsoft.sharepoint.jsgrid%28Office.15%29.aspx). Сведения о веб-элементах управления для элемента управления "JS Grid" см. в разделе [класс JSGrid](https://msdn.microsoft.com/library/microsoft.sharepoint.webcontrols.jsgrid%28Office.15%29.aspx). 
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 [Начало разработки рабочих процессов Project Server](getting-started-developing-project-server-workflows.md)
   
@@ -28,7 +28,7 @@ ms.locfileid: "32301500"
   
 [Создание, получение, обновление и удаление проектов с помощью объектной модели JavaScript Project Server](create-retrieve-update-delete-projects-using-project-server-javascript.md)
   
-[Создание надстройки Project Server](create-a-sharepoint-hosted-project-server-add-in.md) с размещением в SharePoint: включает раздел, посвященный изменению ленты Project Web App 
+[Создание надстройки Project Server с размещением в SharePoint](create-a-sharepoint-hosted-project-server-add-in.md) : включает раздел, посвященный изменению ленты Project Web App 
   
 ## <a name="reference"></a>Справочные материалы
 

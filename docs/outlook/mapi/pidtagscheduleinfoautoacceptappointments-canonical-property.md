@@ -23,20 +23,20 @@ ms.locfileid: "32330095"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если клиент или сервер автоматически отвечает на все приглашения на собрания для участника или ресурса.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_СЧДИНФО_АУТО_АКЦЕПТ_АППТС  <br/> |
+|Связанные свойства:  <br/> |PR_SCHDINFO_AUTO_ACCEPT_APPTS  <br/> |
 |Идентификатор:  <br/> |0x686D  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Сведения о доступности  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-При ответе ответ должен быть принят, если для дополнительного ограничения, указанного в свойстве **пр_счдинфо_дисаллов_рекурринг_апптс** ([PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)) или **пр_счдинфо_дисаллов_ **Выполняются свойства оверлаппинг_апптс ([PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md)). Значение FALSE или отсутствие этого свойства указывает на то, что клиент или сервер не должны автоматически принимать приглашения на собрания. Это свойство не является обязательным.
+При ответе ответ должен быть принят, если не достигнуто дополнительное ограничение, заданное в свойствах **PR_SCHDINFO_DISALLOW_RECURRING_APPTS** ([PidTagScheduleInfoDisallowRecurringAppts](pidtagscheduleinfodisallowrecurringappts-canonical-property.md)) или **PR_SCHDINFO_DISALLOW_OVERLAPPING_APPTS** ([PidTagScheduleInfoDisallowOverlappingAppts](pidtagscheduleinfodisallowoverlappingappts-canonical-property.md)). Значение FALSE или отсутствие этого свойства указывает на то, что клиент или сервер не должны автоматически принимать приглашения на собрания. Это свойство не является обязательным.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -54,7 +54,7 @@ ms.locfileid: "32330095"
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

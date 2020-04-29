@@ -23,18 +23,18 @@ ms.locfileid: "32329381"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит номер сотового телефона получателя.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_МОБИЛЕ_ТЕЛЕФОНЕ_НУМБЕР, ПР_МОБИЛЕ_ТЕЛЕФОНЕ_НУМБЕР_А, ПР_МОБИЛЕ_ТЕЛЕФОНЕ_НУМБЕР_В, PR_CELLULAR_TELEPHONE_NUMBER, PR_CELLULAR_TELEPHONE_NUMBER_A, PR_CELLULAR_TELEPHONE_NUMBER_W  <br/> |
+|Связанные свойства:  <br/> |PR_MOBILE_TELEPHONE_NUMBER, PR_MOBILE_TELEPHONE_NUMBER_A, PR_MOBILE_TELEPHONE_NUMBER_W, PR_CELLULAR_TELEPHONE_NUMBER, PR_CELLULAR_TELEPHONE_NUMBER_A, PR_CELLULAR_TELEPHONE_NUMBER_W  <br/> |
 |Идентификатор:  <br/> |0x3A1C  <br/> |
-|Тип данных:  <br/> |ПТ_УНИКОДЕ, PT_STRING8  <br/> |
+|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |Область:  <br/> |Адресная книга  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эти свойства предоставляют сведения о идентификации и доступе для получателя. Они определяются получателем и их организацией. 
   
@@ -54,7 +54,7 @@ ms.locfileid: "32329381"
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

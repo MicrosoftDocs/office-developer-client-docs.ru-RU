@@ -23,34 +23,34 @@ ms.locfileid: "32316305"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит внедренный объект таблицы содержимого, предоставляющий сведения о связанной таблице содержимого. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ФОЛДЕР_АССОЦИАТЕД_КОНТЕНТС  <br/> |
+|Связанные свойства:  <br/> |PR_FOLDER_ASSOCIATED_CONTENTS  <br/> |
 |Идентификатор:  <br/> |0x3610  <br/> |
-|Тип данных:  <br/> |ПТ_ОБЖЕКТ  <br/> |
+|Тип данных:  <br/> |PT_OBJECT  <br/> |
 |Область:  <br/> |Контейнер MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Связанная таблица содержимого представляет вложенную папку, которая не отображается в стандартной таблице содержимого. Он содержит связанные или скрытые сообщения для папки. 
   
-Это свойство можно исключить в [IMAPIProp:: операции CopyTo](imapiprop-copyto.md) или включено в [IMAPIProp:: копипропс](imapiprop-copyprops.md) Operations. Как свойство типа **пт_обжект**, оно не может быть успешно получено методом [IMAPIProp::](imapiprop-getprops.md) ; к его содержимому должен получать доступ метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , запрашивающий идентификатор интерфейса **иид_имапитабле** . Поставщики услуг должны сообщить о ней методу [IMAPIProp:: жетпроплист](imapiprop-getproplist.md) , если он задан, но при необходимости можно сообщить ему, если он не задан. 
+Это свойство можно исключить в [IMAPIProp:: операции CopyTo](imapiprop-copyto.md) или включено в [IMAPIProp:: копипропс](imapiprop-copyprops.md) Operations. Как свойство типа **PT_OBJECT**, оно не может быть успешно получено методом [IMAPIProp::](imapiprop-getprops.md) GetProperty. к его содержимому должен получать доступ метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , запрашивающий идентификатор интерфейса **IID_IMAPITable** . Поставщики услуг должны сообщить о ней методу [IMAPIProp:: жетпроплист](imapiprop-getproplist.md) , если он задан, но при необходимости можно сообщить ему, если он не задан. 
   
-Чтобы получить содержимое таблицы, клиентские приложения должны вызвать метод [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md) . Для получения дополнительных сведений о таблицах содержимого папок [](contents-tables.md) ознакомьтесь с таблицами оглавления и [отображением таблицы содержимое папки](displaying-a-folder-contents-table.md). 
+Чтобы получить содержимое таблицы, клиентские приложения должны вызвать метод [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md) . Для получения дополнительных сведений о таблицах содержимого папок ознакомьтесь с таблицами [оглавления](contents-tables.md) и [отображением таблицы содержимое папки](displaying-a-folder-contents-table.md). 
   
-**Пр_контаинер_контентс** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), **пр_контаинер_хиерарчи** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) и это свойство аналогичны в использовании. Несколько свойств MAPI предоставляют доступ к таблицам: 
+**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md)), **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) и это свойство аналогичны в использовании. Несколько свойств MAPI предоставляют доступ к таблицам: 
   
-|**Property**|**Table**|
+|**Свойство**|**Table**|
 |:-----|:-----|
-|**Пр_контаинер_контентс** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Таблица содержимого  <br/> |
-|**Пр_контаинер_хиерарчи** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Таблица иерархии  <br/> |
-|**ПР_ФОЛДЕР_АССОЦИАТЕД_КОНТЕНТС** <br/> |Связанная таблица содержимого  <br/> |
-|**Пр_мессаже_аттачментс** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Таблица вложений  <br/> |
-|**Пр_мессаже_реЦипиентс** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |Таблица получателей  <br/> |
+|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Таблица содержимого  <br/> |
+|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Таблица иерархии  <br/> |
+|**PR_FOLDER_ASSOCIATED_CONTENTS** <br/> |Связанная таблица содержимого  <br/> |
+|**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Таблица вложений  <br/> |
+|**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |Таблица получателей  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -68,7 +68,7 @@ ms.locfileid: "32316305"
   
 > Преобразование между IETF RFC2445, RFC2446 и RFC2447, а элементы встреч и собраний.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

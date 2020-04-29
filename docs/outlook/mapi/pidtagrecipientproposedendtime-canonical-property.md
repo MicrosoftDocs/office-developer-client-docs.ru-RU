@@ -23,20 +23,20 @@ ms.locfileid: "32332776"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает предполагаемое время окончания собрания.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕЦИПИЕНТ_ПРОПОСЕДЕНДТИМЕ  <br/> |
+|Связанные свойства:  <br/> |PR_RECIPIENT_PROPOSEDENDTIME  <br/> |
 |Идентификатор:  <br/> |0x5FE4  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Получатель транспорта  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Если для свойства **пр_реЦипиент_пропосед** ([PidTagRecipientProposed](pidtagrecipientproposed-canonical-property.md)) задано значение true, то значение этого свойства указывает на значение, запрошенное участником как значение **диспидапптендвхоле** ([ PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) для объекта собрания с одним экземпляром или для объекта Exception.
+Если для свойства **PR_RECIPIENT_PROPOSED** ([PidTagRecipientProposed](pidtagrecipientproposed-canonical-property.md)) задано значение true, то значение этого свойства указывает на значение, запрошенное участником как значение свойства **диспидапптендвхоле** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)) для объекта собрания с одним экземпляром или объекта исключения.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32332776"
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунселпержетмаписессион
+title: иолкаккаунселпержетмаписессион
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -38,7 +38,7 @@ _ппмсесс_
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Из-за проблем с циклическими ссылками менеджеру по учетным записям не удается поддерживать ссылку для сеанса MAPI.
   

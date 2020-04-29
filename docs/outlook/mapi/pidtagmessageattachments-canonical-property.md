@@ -23,20 +23,20 @@ ms.locfileid: "32342569"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит таблицу вложений для сообщения. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_МЕССАЖЕ_АТТАЧМЕНТС  <br/> |
+|Связанные свойства:  <br/> |PR_MESSAGE_ATTACHMENTS  <br/> |
 |Идентификатор:  <br/> |0x0E13  <br/> |
-|Тип данных:  <br/> |ПТ_ОБЖЕКТ  <br/> |
+|Тип данных:  <br/> |PT_OBJECT  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Это свойство можно исключить в [IMAPIProp:: операции CopyTo](imapiprop-copyto.md) или включено в [IMAPIProp:: копипропс](imapiprop-copyprops.md) Operations. Как свойство типа ПТ_ОБЖЕКТ, оно не может быть успешно получено методом [IMAPIProp::](imapiprop-getprops.md) . К его содержимому должен получать доступ метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , запрашивающий идентификатор интерфейса **иид_имапитабле** . Поставщики услуг должны сообщить о ней методу [IMAPIProp:: жетпроплист](imapiprop-getproplist.md) , если он задан, но при необходимости можно сообщить ему, если он не задан. 
+Это свойство можно исключить в [IMAPIProp:: операции CopyTo](imapiprop-copyto.md) или включено в [IMAPIProp:: копипропс](imapiprop-copyprops.md) Operations. Как свойство типа PT_OBJECT, оно не может быть успешно получено методом [IMAPIProp::](imapiprop-getprops.md) GetProperty. К его содержимому должен получать доступ метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , запрашивающий идентификатор интерфейса **IID_IMAPITable** . Поставщики услуг должны сообщить о ней методу [IMAPIProp:: жетпроплист](imapiprop-getproplist.md) , если он задан, но при необходимости можно сообщить ему, если он не задан. 
   
 Чтобы получить содержимое таблицы, клиентское приложение должно вызвать метод [iMessage:: жетаттачменттабле](imessage-getattachmenttable.md) . For more information, see [������� ��������](attachment-tables.md). 
   
@@ -58,7 +58,7 @@ ms.locfileid: "32342569"
   
 > Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

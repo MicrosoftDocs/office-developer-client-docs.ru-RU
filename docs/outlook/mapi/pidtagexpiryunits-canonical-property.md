@@ -23,18 +23,18 @@ ms.locfileid: "32316410"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Описывает единицу времени, в течение которого свойство **пр_експири_нумбер** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) умножается.
+Описывает единицу времени, в течение которого свойство **PR_EXPIRY_NUMBER** ([PidTagExpiryNumber](pidtagexpirynumber-canonical-property.md)) умножается.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ЕКСПИРИ_УНИТС  <br/> |
+|Связанные свойства:  <br/> |PR_EXPIRY_UNITS  <br/> |
 |Идентификатор:  <br/> |0x3FEE  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Это свойство, если задано, должно иметь одно из следующих значений:
   
@@ -54,7 +54,7 @@ ms.locfileid: "32316410"
   
 > Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

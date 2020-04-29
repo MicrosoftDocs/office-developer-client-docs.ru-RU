@@ -23,20 +23,20 @@ ms.locfileid: "32270107"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если хранилище сообщений является хранилищем сообщений по умолчанию в таблице хранилища сообщений. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ДЕФАУЛТ_СТОРЕ  <br/> |
+|Связанные свойства:  <br/> |PR_DEFAULT_STORE  <br/> |
 |Идентификатор:  <br/> |0x3400  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Хранилище сообщений MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство отображается в виде столбца в таблице хранилища сообщений. Значение основано на **пр_ресаурце_флагс** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
+Это свойство отображается в виде столбца в таблице хранилища сообщений. Значение основано на **PR_RESOURCE_FLAGSе** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,7 +46,7 @@ ms.locfileid: "32270107"
   
 > Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

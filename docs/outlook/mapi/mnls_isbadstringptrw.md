@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356856"
 ---
-# <a name="mnlsisbadstringptrw"></a>MNLS_IsBadStringPtrW
+# <a name="mnls_isbadstringptrw"></a>MNLS_IsBadStringPtrW
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Проверяет, является ли указатель на широкую строку допустимым.
   
@@ -35,7 +35,7 @@ BOOL MNLS_IsBadStringPtrW(
   
 > возврата Указатель на строку расширенных символов.
     
- _Укчмакс_
+ _укчмакс_
   
 > возврата Максимальная длина строки в символах, включая признак конца.
     

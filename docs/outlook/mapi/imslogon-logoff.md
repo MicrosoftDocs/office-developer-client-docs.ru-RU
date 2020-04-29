@@ -1,5 +1,5 @@
 ---
-title: Имслогонлогофф
+title: имслогонлогофф
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -23,7 +23,7 @@ ms.locfileid: "32348876"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Выполняет выход из системы поставщика хранилища сообщений. 
   
@@ -35,7 +35,7 @@ HRESULT Logoff(
 
 ## <a name="parameters"></a>Параметры
 
- _Лпулфлагс_
+ _лпулфлагс_
   
 > возврата Резервирования должен быть нулевым указателем.
     
@@ -51,7 +51,7 @@ S_OK
   
 - В то время как MAPI записывает клиент после вызова метода [IMAPISession:: logoff](imapisession-logoff.md) . 
     
-- В то время как MAPI записывает поставщик хранилища сообщений. В этом случае **имслогон:: logoff** вызывается как часть обработки MAPI метода [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) объекта support, создаваемого поставщиком хранилища сообщений при обработке [IMsgStore:: сторелогофф](imsgstore-storelogoff.md) или **IUnknown:: **Вызов метода Release для объекта хранилища сообщений. 
+- В то время как MAPI записывает поставщик хранилища сообщений. В этом случае **имслогон:: logoff** вызывается как часть обработки MAPI метода [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) объекта support, создаваемого поставщиком хранилища сообщений при обработке метода [IMsgStore:: Сторелогофф](imsgstore-storelogoff.md) или **IUnknown:: Release** для объекта хранилища сообщений. 
     
 ## <a name="see-also"></a>См. также
 

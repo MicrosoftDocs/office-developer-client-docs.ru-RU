@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32338467"
 ---
-# <a name="mnlslstrlenw"></a>MNLS_lstrlenW
+# <a name="mnls_lstrlenw"></a>MNLS_lstrlenW
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Определяет длину указанной строки Юникода, за исключением завершающего знака null.
   
@@ -41,7 +41,7 @@ int MNLS_lstrlen(
 
 Функция возвращает целое число с длиной строки. Это количество символов в строке, за исключением завершающего знака null. Если _лпсз_ имеет значение null, функция возвращает ноль. 
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эта функция заключает в оболочку функцию **лстрлен** . Дополнительные сведения см. в разделе [лстрлен](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx).
   
@@ -51,5 +51,5 @@ int MNLS_lstrlen(
 
 [лстрлен](https://msdn.microsoft.com/library/ms647492%28VS.85%29.aspx)
   
-[Стрингкчленгс](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx)
+[стрингкчленгс](https://msdn.microsoft.com/library/ms647539%28VS.85%29.aspx)
 

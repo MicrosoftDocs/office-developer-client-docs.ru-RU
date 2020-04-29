@@ -22,8 +22,8 @@ ms.locfileid: "32321856"
 |||
 |:-----|:-----|
 |Наследование от:  <br/> |[Интерфейс](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
-|Предоставлено:  <br/> |Клиент  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_иолкеррорункновн  <br/> |
+|Предоставлено:  <br/> |Client  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IOlkErrorUnknown  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
 
@@ -31,11 +31,11 @@ ms.locfileid: "32321856"
 |:-----|:-----|
 |[GetLastError](iolkerrorunknown-getlasterror.md) <br/> |Получает строку сообщения для указанной ошибки.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот интерфейс предоставляет дополнительные сведения об ошибке в [иолкаккаунтманажер](iolkaccountmanager.md), [иолкаккаунтнотифи](iolkaccountnotify.md)и [иолкаккаунт](iolkaccount.md). Он также является базовым интерфейсом для **иолкаккаунтманажер**, **иолкаккаунтнотифи**и **иолкаккаунт**. 
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md)
+- [Сведения об API управления учетными записями](about-the-account-management-api.md)
 

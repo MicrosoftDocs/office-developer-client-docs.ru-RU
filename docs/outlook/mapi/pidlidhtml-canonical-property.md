@@ -23,21 +23,21 @@ ms.locfileid: "32357577"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает URL-адрес веб-страницы контакта.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Диспидхтмл  <br/> |
-|Набор свойств:  <br/> |Псетид_аддресс  <br/> |
+|Связанные свойства:  <br/> |диспидхтмл  <br/> |
+|Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x0000802B  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значение этого свойства, если оно задано, должно совпадать со значением свойства **пр_бусинесс_хоме_паже** ([PidTagBusinessHomePage](pidtagbusinesshomepage-canonical-property.md)).
+Значение этого свойства, если оно задано, должно совпадать со значением свойства **PR_BUSINESS_HOME_PAGE** ([PidTagBusinessHomePage](pidtagbusinesshomepage-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -51,7 +51,7 @@ ms.locfileid: "32357577"
   
 > Задает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

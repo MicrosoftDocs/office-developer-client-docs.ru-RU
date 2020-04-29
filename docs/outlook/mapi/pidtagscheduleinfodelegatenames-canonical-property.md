@@ -23,20 +23,20 @@ ms.locfileid: "32314940"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит имена делегатов.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_СЧДИНФО_ДЕЛЕГАТЕ_НАМЕС, ПР_СЧДИНФО_ДЕЛЕГАТЕ_НАМЕС_А, ПР_СЧДИНФО_ДЕЛЕГАТЕ_НАМЕС_В  <br/> |
+|Связанные свойства:  <br/> |PR_SCHDINFO_DELEGATE_NAMES, PR_SCHDINFO_DELEGATE_NAMES_A PR_SCHDINFO_DELEGATE_NAMES_W  <br/> |
 |Идентификатор:  <br/> |0x6844  <br/> |
-|Тип данных:  <br/> |PT_MV_STRING8, ПТ_МВ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_MV_STRING8 PT_MV_UNICODE  <br/> |
 |Область:  <br/> |Сведения о доступности  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Каждая запись в этих свойствах должна содержать значение свойства **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) каждой адресной книги делегата.
+Каждая запись в этих свойствах должна содержать значение свойства **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) для адресной книги каждого делегата.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32314940"
   
 > Задает методы для подключения и настройки почтовых ящиков в качестве делегатов и взаимодействия с объектами Message и Calendar, когда они действуют от имени другого пользователя.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

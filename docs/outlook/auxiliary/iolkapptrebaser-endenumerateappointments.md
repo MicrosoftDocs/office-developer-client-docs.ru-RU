@@ -1,5 +1,5 @@
 ---
-title: Иолкапптребасеренденумератеаппоинтментс
+title: иолкапптребасеренденумератеаппоинтментс
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -32,19 +32,19 @@ HRESULT EndEnumerateAppointments(
 
 ## <a name="parameters"></a>Параметры
 
-_Пконтекст_
+_пконтекст_
   
 > [in] Required. A pointer to the context obtained from a prior call to [IOlkApptRebaser::BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md).
     
-_Фресулт_
+_фресулт_
   
 > [out] Required. A pointer to an **HRESULT** to retrieve the results of the enumeration operation. 
     
-_Пперрор_
+_пперрор_
   
 > [out] Optional. A pointer to a pointer to a **MAPIERROR** structure to retrieve extended error information. 
     
-_Ппровс_
+_ппровс_
   
 > [out] Required. A pointer to a pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing. This structure will usually be passed to [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
     

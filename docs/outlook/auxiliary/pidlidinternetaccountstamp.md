@@ -22,15 +22,15 @@ ms.locfileid: "32327729"
 
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Диспидинетакктстамп  <br/> |
-|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Связанные свойства:  <br/> |диспидинетакктстамп  <br/> |
+|Набор свойств:  <br/> |PSETID_Common  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x00008581  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство должно содержать то же значение, которое возвращается из свойства API управления учетными записями [проп_аккт_стамп](prop_acct_stamp.md) для учетной записи, которая доставила сообщение. 
+Это свойство должно содержать то же значение, которое возвращается из свойства API управления учетными записями [PROP_ACCT_STAMP](prop_acct_stamp.md) для учетной записи, которая доставила сообщение. 
   
 Поставщики хранилищ сообщений предоставляют это именованное свойство и [PidLidInternetAccountName](pidlidinternetaccountname.md) , поэтому выполняются следующие действия: 
   
@@ -44,13 +44,13 @@ ms.locfileid: "32327729"
   
 |||
 |:-----|:-----|
-|Лпгуид:  <br/> |Псетид_коммон  <br/> |
+|Лпгуид:  <br/> |PSETID_Common  <br/> |
 |Улкинд:  <br/> |MNID_ID  <br/> |
-|Вид: крышка:  <br/> |Диспидинетакктстамп  <br/> |
+|Вид: крышка:  <br/> |диспидинетакктстамп  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md) 
+- [Сведения об API управления учетными записями](about-the-account-management-api.md) 
 - [Constants (Account management API)](constants-account-management-api.md)
 - [Каноническое свойство PidLidInternetAccountStamp](https://msdn.microsoft.com/library/819179fe-e58e-415c-abc7-1949036745ee%28Office.15%29.aspx)
 

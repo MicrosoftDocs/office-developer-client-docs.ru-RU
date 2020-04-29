@@ -19,18 +19,18 @@ ms.locfileid: "32334701"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит ключ беседы, используемый в Microsoft Outlook только при размещении **IPM. Сообщения Мессажеманажер** , например сообщение, содержащее историю загрузки для учетной записи протокола POP3. Это свойство является устаревшим в Microsoft Exchange Server. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНВЕРСАТИОН_КЭЙ  <br/> |
+|Связанные свойства:  <br/> |PR_CONVERSATION_KEY  <br/> |
 |Идентификатор:  <br/> |0x000B  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 При доступе к сообщениям электронной почты в виде бесед и преобразовании свойств сообщения в [Формат TNEF](transport-neutral-encapsulation-format-tnef.md)не используйте это свойство. Вместо этого используйте канонические свойства [PidTagConversationIndex](pidtagconversationindex-canonical-property.md) и [PidTagConversationTopic](pidtagconversationtopic-canonical-property.md) . 
   
@@ -50,7 +50,7 @@ ms.locfileid: "32334701"
   
 > Кодирует и декодирует объекты сообщений и вложений в эффективное потоковое представление.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

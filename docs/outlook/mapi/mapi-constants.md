@@ -411,7 +411,7 @@ const GUID PSETID_Meeting       = {0x6ED8DA90, 0x450B, 0x101B, {0x98, 0xDA, 0x00
 const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x46}}; 
 ```
 
-#### <a name="mnidid-properties"></a>Свойства MNID_ID
+#### <a name="mnid_id-properties"></a>Свойства MNID_ID
   
 ```cpp
 // In PSETID_Address
@@ -465,7 +465,7 @@ const GUID PSETID_Task          = {0x00062003, 0x0000, 0x0000, {0xC0, 0x00, 0x00
 #define dispidTaskFRecur 0x8126
 ```
 
-#### <a name="mnidstring-properties"></a>Свойства MNID_STRING
+#### <a name="mnid_string-properties"></a>Свойства MNID_STRING
   
 ```cpp
 // In PS_PUBLIC_STRINGS 
@@ -639,7 +639,7 @@ DEFINE_GUID(IID_IMAPISync, 0x5024a385, 0x2d44, 0x486a,  0x81, 0xa8, 0x8f, 0xe, 0
 DEFINE_GUID(IID_IMAPISyncProgressCallback, 0x5024a386, 0x2d44, 0x486a,  0x81, 0xa8, 0x8f, 0xe, 0xcb, 0x60, 0x71, 0xdd);
 ```
 
-#### <a name="iidicontabadmin"></a>IID_IContabAdmin
+#### <a name="iid_icontabadmin"></a>IID_IContabAdmin
   
 ```cpp
 // {CC6A3BA9-E7F5-4769-887B-34E190817BFC}
@@ -647,14 +647,14 @@ DEFINE_GUID(IID_IContabAdmin, 0xcc6a3ba9, 0xe7f5, 0x4769, 0x88, 0x7b, 0x34, 0xe1
 
 ```
 
-#### <a name="iidimapisecuremessage"></a>IID_IMAPISECUREMESSAGE
+#### <a name="iid_imapisecuremessage"></a>IID_IMAPISECUREMESSAGE
   
 ```cpp
 DEFINE_GUID(IID_IMAPISecureMessage, 0x253cc320, 0xeab6, 0x11d0, 0x82, 0x22, 0, 0x60, 0x97, 0x93, 0x87, 0xea);
 
 ```
 
-#### <a name="iidimapigetsession"></a>IID_IMAPIGetSession
+#### <a name="iid_imapigetsession"></a>IID_IMAPIGetSession
   
 ```cpp
 DEFINE_GUID(IID_IMAPIGetSession, 0x614ab435, 0x491d, 0x4f5b, 0xa8, 0xb4, 0x60, 0xeb, 0x3, 0x10, 0x30, 0xc6);
@@ -663,14 +663,14 @@ DEFINE_GUID(IID_IMAPIGetSession, 0x614ab435, 0x491d, 0x4f5b, 0xa8, 0xb4, 0x60, 0
 
 ### <a name="pst-override-handler-interface-identifiers"></a>Идентификаторы интерфейсов обработчика переопределения PST-файлов
 
-#### <a name="iidipstoverridereq"></a>IID_IPSTOVERRIDEREQ
+#### <a name="iid_ipstoverridereq"></a>IID_IPSTOVERRIDEREQ
   
 ```cpp
 // {892EBC6D-24DC-4d90-BA48-C6CBEC14A86A}
 DEFINE_GUID(IID_IPSTOVERRIDEREQ, 0x892ebc6d, 0x24dc, 0x4d90, 0xba, 0x48, 0xc6, 0xcb, 0xec, 0x14, 0xa8, 0x6a);
 ```
 
-#### <a name="iidipstoverride1"></a>IID_IPSTOVERRIDE1
+#### <a name="iid_ipstoverride1"></a>IID_IPSTOVERRIDE1
   
 ```cpp
 // {FBB68D34-F561-44fb-A8CA-AE36696342CA}

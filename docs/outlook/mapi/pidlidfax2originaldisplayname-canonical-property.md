@@ -23,21 +23,21 @@ ms.locfileid: "32303089"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает исходное отображаемое имя домашнего Факс-адреса контакта.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidFax2OriginalDisplayName  <br/> |
-|Набор свойств:  <br/> |Псетид_аддресс  <br/> |
+|Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x000080C4  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство, если оно задано, должно иметь то же значение, что и свойство **пр_нормализед_субжект** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
+Это свойство, если оно задано, должно иметь то же значение, что и свойство **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -51,7 +51,7 @@ ms.locfileid: "32303089"
   
 > Задает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

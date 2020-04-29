@@ -23,21 +23,21 @@ ms.locfileid: "32336850"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает как свойство сообщения о совместном доступе.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Диспидшарингинитиаторнаме  <br/> |
-|Набор свойств:  <br/> |Псетид_шаринг  <br/> |
+|Связанные свойства:  <br/> |диспидшарингинитиаторнаме  <br/> |
+|Набор свойств:  <br/> |PSETID_Sharing  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x00008A07  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Общий доступ  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Этому свойству должно быть присвоено значение **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) из адресной книги, определенной с помощью **диспидшарингинитиатореид** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)), и должно быть проигнорировано. 
+Этому свойству должно быть присвоено значение **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) из адресной книги, определенной **диспидшарингинитиатореид** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)), и должно быть проигнорировано. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -51,7 +51,7 @@ ms.locfileid: "32336850"
   
 > Предоставляет общий доступ к папкам почтового ящика между клиентами.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

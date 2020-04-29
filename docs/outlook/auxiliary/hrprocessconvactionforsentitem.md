@@ -23,7 +23,7 @@ ms.locfileid: "32318902"
 |||
 |:-----|:-----|
 |Экспортировано:  <br/> |Outlook. exe  <br/> |
-|Вызывающая сторона:  <br/> |Клиент  <br/> |
+|Вызывающая сторона:  <br/> |Client  <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
    
 ```cpp
@@ -36,15 +36,15 @@ HRESULT WINAPI HrProcessConvActionForSentItem(
 
 ## <a name="parameters"></a>Параметры
 
-_Пмбинсториид_
+_пмбинсториид_
   
 > возврата [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) хранилища или [PidTagStoreEntryId](https://msdn.microsoft.com/library/0d705667-19f4-4eda-a068-e65ea8f00d9b%28Office.15%29.aspx) почтового элемента. Не может иметь значение NULL или быть недопустимым. 
     
-_Пмбинмсжеид_
+_пмбинмсжеид_
   
 > возврата [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) почтового элемента. Не может иметь значение NULL или быть недопустимым. 
     
-_Пмбинконвид_
+_пмбинконвид_
   
 > возврата [Пидтагконверсатионид](https://msdn.microsoft.com/library/f8e4a5fa-cb73-4eca-b174-72e1fda821a6%28Office.15%29.aspx) почтового элемента. Не может иметь значение NULL или быть недопустимым. 
     
@@ -54,7 +54,7 @@ _dwFlags_
     
    - 0 — в этом вызове метода не используются дополнительные параметры. Это рекомендуемое значение. 
     
-   - **Пкафсиф_мсжеид_ис_сеарч_кэй**— _Пмбинмсжеид_ фактически является [PidTagSearchKey](https://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) сообщения. Использование **PidTagSearchKey** является трудоемким и его следует избегать, если доступен [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) . 
+   - **PCAFSIF_MSGEID_IS_SEARCH_KEY**— _Пмбинмсжеид_ фактически является [PidTagSearchKey](https://msdn.microsoft.com/library/fcab369a-a1f4-4425-a272-e35046914a4d%28Office.15%29.aspx) сообщения. Использование **PidTagSearchKey** является трудоемким и его следует избегать, если доступен [PidTagEntryId](https://msdn.microsoft.com/library/ca02e873-c2d2-4d58-8df8-c05fbcdc8fba%28Office.15%29.aspx) . 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -63,7 +63,7 @@ _dwFlags_
 |S_OK  <br/> |Вызов выполнен успешно.  <br/> |
 |E_INVALIDARG  <br/> | _dwFlags_ содержит неизвестный флаг.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Категории считаются персональными сведениями и не должны передаваться вне почтового ящика пользователя. Поэтому не вызывайте **хрпроцессконвактионфорсентитем** для неотправленного почтового элемента. Вместо этого отправьте элемент, а затем вызовите **хрпроцессконвактионфорсентитем** для архивной копии. Архивная копия может храниться в папке "Отправленные" или в эквивалентном расположении. 
   

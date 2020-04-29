@@ -21,22 +21,22 @@ ms.locfileid: "32341190"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит адрес электронной почты пользователя обмена сообщениями, от имени которого было отправлено исходное сообщение.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРИГИНАЛ_СЕНТ_РЕПРЕСЕНТИНГ_ЕМАИЛ_АДДРЕСС, ПР_ОРИГИНАЛ_СЕНТ_РЕПРЕСЕНТИНГ_ЕМАИЛ_АДДРЕСС_А, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS, PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_A PR_ORIGINAL_SENT_REPRESENTING_EMAIL_ADDRESS_W  <br/> |
 |Идентификатор:  <br/> |0x0069  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эти свойства являются примерами свойств Address для исходного предоставленного отправителя сообщения. Он используется в цепочке бесед.
   
-Клиентское приложение, отправляющее сообщение от имени другого клиента, должно задать для этих свойств значение свойства **пр_сент_репресентинг_емаил_аддресс** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) при первой отправке сообщения. После установки он не должен изменяться.
+Клиентское приложение, отправляющее сообщение от имени другого клиента, должно задать для этих свойств значение свойства **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) при первой отправке сообщения. После установки он не должен изменяться.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32341190"
   
 > Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

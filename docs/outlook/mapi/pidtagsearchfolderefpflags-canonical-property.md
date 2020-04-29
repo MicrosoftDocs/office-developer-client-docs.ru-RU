@@ -23,20 +23,20 @@ ms.locfileid: "32336430"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит флаги расширенной папки, которые применяются к контейнеру папки поиска для папки поиска.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ВБ_СФ_ЕФП_ФЛАГС  <br/> |
+|Связанные свойства:  <br/> |PR_WB_SF_EFP_FLAGS  <br/> |
 |Идентификатор:  <br/> |0x6848  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Поиск  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Это свойство должно содержать флаги в свойстве **пр_екстендед_фолдер_флагс** ([PidTagExtendedFolderFlags](pidtagextendedfolderflags-canonical-property.md)) и вложенное свойство **екстендедфлагс** в поле b для папки. Сведения о флагах папок можно найти в [[MS – оксокфг]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx).
+Это свойство должно содержать флаги в свойстве **PR_EXTENDED_FOLDER_FLAGS** ([PidTagExtendedFolderFlags](pidtagextendedfolderflags-canonical-property.md)) и вложенное свойство **екстендедфлагс** в поле b для папки. Сведения о флагах папок можно найти в [[MS – оксокфг]](https://msdn.microsoft.com/library/7d466dd5-c156-4da9-9a01-75c78e7e1a67%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -54,7 +54,7 @@ ms.locfileid: "32336430"
   
 > Задает расположение и свойства данных конфигурации клиента и сервера, например списки общих категорий и рабочие часы.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

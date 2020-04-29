@@ -1,5 +1,5 @@
 ---
-title: Иперсистмессажеинитнев
+title: иперсистмессажеинитнев
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -23,7 +23,7 @@ ms.locfileid: "32317152"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Инициализирует новое сообщение.
   
@@ -36,11 +36,11 @@ HRESULT InitNew(
 
 ## <a name="parameters"></a>Параметры
 
- _Пмессажесите_
+ _пмессажесите_
   
 > возврата Указатель на сайт сообщений, который форма будет использовать для работы с сообщением в средстве просмотра.
     
- _Пмессаже_
+ _пмессаже_
   
 > возврата Указатель на новое сообщение.
     
@@ -50,11 +50,11 @@ S_OK
   
 > Новое сообщение успешно инициализировано.
     
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Средства просмотра форм вызывают метод **иперсистмессаже:: инитнев** , когда пользователь записывает новое сообщение, принадлежащее классу сообщений, который обрабатывается формой. Если объект Form имеет допустимый указатель пользовательского интерфейса, необходимо отобразить пользовательский интерфейс для объекта Message. 
   
- **Инитнев** не следует вызывать, если форма находится в любом состоянии, кроме неинициализированного состояния. [](uninitialized-state.md) Если форма находится в одном из других состояний при вызове **инитнев** , возвращайте е_унекспектед. 
+ **Инитнев** не следует вызывать, если форма находится в любом состоянии, кроме [неинициализированного](uninitialized-state.md) состояния. Если форма находится в одном из других состояний при вызове **инитнев** , возвращается E_UNEXPECTED. 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
@@ -64,27 +64,27 @@ S_OK
   
 Если форма содержит ссылку на активный сайт сообщений, отличный от переданного в **инитнев**, освободите исходный сайт, так как он больше не будет использоваться. Храните указатели на сайт сообщения и сообщение из параметров _пмессажесите_ и _пмессаже_ , а также вызывайте оба объекта: методы [AddRef](https://msdn.microsoft.com/library/b4316efd-73d4-4995-b898-8025a316ba63%28Office.15%29.aspx) для увеличения счетчиков ссылок. 
   
-Задайте для свойства **пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) и **пр_мсг_статус** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) новое сообщение, соответствующее классу сообщения. Многие классы сообщений, например, установите для **пр_мессаже_флагс** значение мсгфлаг_унсент для новых сообщений. 
+Задайте свойства **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) и **PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md)) для нового сообщения, соответствующие классу сообщений. Многие классы сообщений, например, присвоить **PR_MESSAGE_FLAGS** MSGFLAG_UNSENT для новых сообщений. 
   
-Прежде чем возвратить форму, переведите [](normal-state.md) ее в нормальное состояние, если ошибок не было. Отправьте новое уведомление всем зарегистрированным читателям, вызвав их методы [имапивиевадвисесинк:: онневмессаже](imapiviewadvisesink-onnewmessage.md) и возВРАЩАЯ значение S_OK. 
+Прежде чем возвратить форму, переведите ее в [нормальное](normal-state.md) состояние, если ошибок не было. Отправьте новое уведомление всем зарегистрированным читателям, вызвав их методы [имапивиевадвисесинк:: онневмессаже](imapiviewadvisesink-onnewmessage.md) и возвращая S_OK. 
   
 ## <a name="notes-to-callers"></a>Примечания для вызывающих методов
 
 После успешного вызова **инитнев**можно предположить, что для формы заданы следующие обязательные свойства, а не другие.
   
- **Пр_делете_афтер_субмит** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))
+ **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md))
   
- **Пр_импортанце** ([PidTagImportance](pidtagimportance-canonical-property.md))
+ **PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))
   
- **Пр_оригинатор_деливери_репорт_рекуестед** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md))
+ **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md))
   
- **Пр_приорити** ([PidTagPriority](pidtagpriority-canonical-property.md))
+ **PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))
   
- **Пр_реад_рецеипт_рекуестед** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md))
+ **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md))
   
- **Пр_сенситивити** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))
+ **PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))
   
- **Пр_сентмаил_ентрид** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
+ **PR_SENTMAIL_ENTRYID** ([PidTagSentMailEntryId](pidtagsentmailentryid-canonical-property.md))
   
 Более подробную информацию о состояниях форм можно узнать в статье [состояния форм](form-states.md). Дополнительные сведения о том, как инициализируются объекты хранилища, можно найти в методе [иперсистстораже:: инитнев](https://msdn.microsoft.com/library/79caf1f6-d974-4aee-8563-eda4876a0a90%28Office.15%29.aspx) . 
   

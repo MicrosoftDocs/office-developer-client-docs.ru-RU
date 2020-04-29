@@ -17,7 +17,7 @@ ms.locfileid: "32326231"
 ---
 # <a name="opening-ole-attachments-with-istreamdocfile"></a>Открытие вложений OLE с помощью IStreamDocfile
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 При открытии вложения объекта OLE используйте интерфейс **помощью istreamdocfile** , а не [IStream](https://msdn.microsoft.com/library/windows/desktop/aa380034%28v=vs.85%29.aspx) или [IStorage](https://msdn.microsoft.com/library/windows/desktop/aa380015%28v=vs.85%29.aspx). 
 

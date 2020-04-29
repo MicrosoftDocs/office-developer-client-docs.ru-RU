@@ -23,18 +23,18 @@ ms.locfileid: "32278844"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя области или района получателя.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_СТАТЕ_ОР_ПРОВИНЦЕ, ПР_СТАТЕ_ОР_ПРОВИНЦЕ_А, ПР_СТАТЕ_ОР_ПРОВИНЦЕ_В, ПР_БУСИНЕСС_АДДРЕСС_СТАТЕ_ОР_ПРОВИНЦЕ, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_W  <br/> |
+|Связанные свойства:  <br/> |PR_STATE_OR_PROVINCE, PR_STATE_OR_PROVINCE_A, PR_STATE_OR_PROVINCE_W, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_A, PR_BUSINESS_ADDRESS_STATE_OR_PROVINCE_W  <br/> |
 |Идентификатор:  <br/> |0x3A28  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Пользователь почты MAPI  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Эти свойства предоставляют сведения о идентификации и доступе для получателя. Они определяются получателем и Организацией получателя. 
   
@@ -54,7 +54,7 @@ ms.locfileid: "32278844"
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

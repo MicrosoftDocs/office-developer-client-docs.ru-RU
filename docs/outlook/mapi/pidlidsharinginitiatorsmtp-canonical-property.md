@@ -23,21 +23,21 @@ ms.locfileid: "32337123"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает SMTP-адрес пользователя, инициировавшего сообщение о предоставлении общего доступа. Это свойство сообщения о совместном доступе. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Диспидшарингинитиаторсмтп  <br/> |
-|Набор свойств:  <br/> |Псетид_шаринг  <br/> |
+|Связанные свойства:  <br/> |диспидшарингинитиаторсмтп  <br/> |
+|Набор свойств:  <br/> |PSETID_Sharing  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x00008A08  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Общий доступ  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Для этого свойства должно быть задано значение свойства **пр_смтп_аддресс** ([PidTagSmtpAddress](pidtagsmtpaddress-canonical-property.md)) из адресной книги, определенной свойством **диспидшарингинитиатореид** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)), и должно быть обрабатывать.
+Для этого свойства должно быть задано значение свойства **PR_SMTP_ADDRESS** ([PidTagSmtpAddress](pidtagsmtpaddress-canonical-property.md)) из адресной книги, определенной свойством **диспидшарингинитиатореид** ([PidLidSharingInitiatorEntryId](pidlidsharinginitiatorentryid-canonical-property.md)), и должно быть проигнорировано.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -51,7 +51,7 @@ ms.locfileid: "32337123"
   
 > Предоставляет общий доступ к папкам почтового ящика между клиентами.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

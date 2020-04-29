@@ -29,15 +29,15 @@ ms.locfileid: "32357038"
 Общие сведения о справочнике по интерфейсу Project Server (PSI), способах использования интерфейса ASMX и интерфейса WCF интерфейса PSI, сведений о кодах ошибок Project Server и Справочнике по службе **ProjectData** OData. 
   
 > [!NOTE]
-> Основные справочные материалы по ИНТЕРФЕЙСу PSI и клиентской объектной модели (CSOM) в Project Server 2013: справочные материалы по [библиотекам классов и веб-службам](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) и [Справочник по API JavaScript для Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md). _Гт_ для ссылок на надстройки Office, которые включают ссылку JavaScript для приложений области задач Project 2013, можно найти в статье [API JavaScript для Office](https://msdn.microsoft.com/library/fp142185.aspx). _Гт_ для Справочника по VBA для Project Standard 2013 и Project профессиональный 2013, ознакомьтесь со статьей [Project 2013 Reference Developer](https://msdn.microsoft.com/library/jj235035.aspx). _Гт_ Справка по таблицам отчетов и представлениям в локальной базе данных Project Server 2013 пока недоступна. 
+> Основные справочные материалы по интерфейсу PSI и клиентской объектной модели (CSOM) в Project Server 2013: [Справочные материалы по библиотекам классов и веб-службам](https://msdn.microsoft.com/library/ef1830e0-3c9a-4f98-aa0a-5556c298e7d1%28Office.15%29.aspx) и [Справочник по API JavaScript для Project Server 2013](javascript-library-and-rest-reference-for-project-server-2013.md). > ссылки на надстройки Office, включающие ссылку JavaScript для приложений области задач Project 2013, можно найти в статье [API JavaScript для Office](https://msdn.microsoft.com/library/fp142185.aspx). > справочника по VBA для Project Standard 2013 и Project профессиональный 2013, ознакомьтесь со статьей [Project 2013 The VBA Developer References](https://msdn.microsoft.com/library/jj235035.aspx). > ссылка на таблицы отчетов и представления в локальной базе данных Project Server 2013 пока недоступна. 
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 [Обзор справочника по Project PSI](project-psi-reference-overview.md) Описывает сборки и пространства имен в справочнике PSI для Project Server 2013. 
   
-[ПредварительНые требования для примеров кода на основе ASMX в Project](prerequisites-for-asmx-based-code-samples-in-project.md) В этой статье описано, как использовать примеры кода в справочнике PSI, созданных с помощью веб-служб ASMX в тестируемых приложениях. 
+[Предварительные требования для примеров кода на основе ASMX в Project](prerequisites-for-asmx-based-code-samples-in-project.md) В этой статье описано, как использовать примеры кода в справочнике PSI, созданных с помощью веб-служб ASMX в тестируемых приложениях. 
   
-[ПредварительНые требования для примеров кода на основе WCF в Project](prerequisites-for-wcf-based-code-samples-in-project.md) В этой статье описано, как использовать примеры кода в справочнике PSI, созданных с помощью служб Windows Communication Foundation (WCF) в тестируемых приложениях. 
+[Предварительные требования для примеров кода на основе WCF в Project](prerequisites-for-wcf-based-code-samples-in-project.md) В этой статье описано, как использовать примеры кода в справочнике PSI, созданных с помощью служб Windows Communication Foundation (WCF) в тестируемых приложениях. 
   
 [Коды ошибок Project Server](project-server-error-codes.md) Список кодов и описаний ошибок Project Server по функциональным областям. 
   

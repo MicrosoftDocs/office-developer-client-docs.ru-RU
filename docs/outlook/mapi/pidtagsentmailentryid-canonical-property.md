@@ -23,22 +23,22 @@ ms.locfileid: "32342513"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит идентификатор папки, в которую следует переместить сообщение после отправки.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_СЕНТМАИЛ_ЕНТРИД  <br/> |
+|Связанные свойства:  <br/> |PR_SENTMAIL_ENTRYID  <br/> |
 |Идентификатор:  <br/> |0x0E0A  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Несъемный MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Это свойство часто копируется из свойства **пр_ипм_сентмаил_ентрид** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)) в стандартную папку "Отправленные" клиентского приложения.
+Это свойство часто копируется из свойства **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)), папки стандартных отправленных элементов клиентского приложения.
   
-Клиентское приложение использует это свойство со свойством **пр_делете_афтер_субмит** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)), чтобы контролировать, что происходит с сообщением после его отправки. Необходимо задать либо один, либо другой, но не оба варианта.
+Клиентское приложение использует это свойство со свойством **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)), чтобы контролировать, что происходит с сообщением после его отправки. Необходимо задать либо один, либо другой, но не оба варианта.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -56,7 +56,7 @@ ms.locfileid: "32342513"
   
 > Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

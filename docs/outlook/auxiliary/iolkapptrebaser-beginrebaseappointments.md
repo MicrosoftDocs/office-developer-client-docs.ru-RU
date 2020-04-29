@@ -1,5 +1,5 @@
 ---
-title: Иолкапптребасербегинребасеаппоинтментс
+title: иолкапптребасербегинребасеаппоинтментс
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -32,19 +32,19 @@ HRESULT BeginRebaseAppointments(
 
 ## <a name="parameters"></a>Параметры
 
-_Провс_
+_провс_
   
 > [in] Required. A pointer to an [SRowSet](https://msdn.microsoft.com/library/7e3761be-afd6-46cb-9a08-25e9016c1241%28Office.15%29.aspx) structure that describes the appointments that need rebasing. This structure is usually obtained from a prior call to [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).
     
-_Пфнпрогресс_
+_пфнпрогресс_
   
 > [in] Optional. A pointer to a rebase task progress function to receive progress. **PFNREBASETASKPROGRESS** is defined in tzmovelib.h. 
     
-_Пфнкомплете_
+_пфнкомплете_
   
 > [out] Optional. A pointer to a rebase task completion function to receive notification of rebase completion. **PFNREBASETASKCOMPLETE** is defined in tzmovelib.h. 
     
-_Ппконтекст_
+_ппконтекст_
   
 > [out] Required. A pointer to a pointer to the returned context. This context will usually be passed to [IOlkApptRebaser::EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md).
     
@@ -52,7 +52,7 @@ _Ппконтекст_
 
 S_OK if the call succeeded; otherwise, an error code.
   
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 This task runs on a new thread.
   

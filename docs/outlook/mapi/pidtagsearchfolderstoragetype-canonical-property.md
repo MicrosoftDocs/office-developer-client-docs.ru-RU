@@ -23,20 +23,20 @@ ms.locfileid: "32336409"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит флаги, указывающие данные больших двоичных объектов (BLOB), которые отображаются в свойстве **пр_вб_сф_дефинитион** ([PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)).
+Содержит флаги, указывающие данные больших двоичных объектов (BLOB), которые отображаются в свойстве **PR_WB_SF_DEFINITION** ([PidTagSearchFolderDefinition](pidtagsearchfolderdefinition-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ВБ_СФ_СТОРАЖЕ_ТИПЕ  <br/> |
+|Связанные свойства:  <br/> |PR_WB_SF_STORAGE_TYPE  <br/> |
 |Идентификатор:  <br/> |0x6846  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Поиск  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Определения флагов указаны в [[MS – оксосрч]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Поиск **пр_вб_сф_стораже_типе**.
+Определения флагов указаны в [[MS – оксосрч]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). Поиск **PR_WB_SF_STORAGE_TYPE**.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32336409"
   
 > Задает свойства и операции для управления конфигурацией списка папок поиска.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

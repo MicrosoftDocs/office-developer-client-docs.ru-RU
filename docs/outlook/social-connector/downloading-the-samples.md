@@ -23,15 +23,15 @@ ms.locfileid: "32281006"
 
 1. Скачайте файл Оскпровидерсамплес. zip из [Outlook Social Connector 2013: шаблоны поставщика](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
     
-2. ИзВлеките ZIP-файл в выбранную папку. В Windows 7 путь по умолчанию для Visual Studio 2010 — C:\Users\ _User_\документс\висуал Studio 2010 \ Projects.
+2. Извлеките ZIP-файл в выбранную папку. В Windows 7 путь по умолчанию для Visual Studio 2010 — C:\Users\ _User_\документс\висуал Studio 2010 \ Projects.
     
 3. После извлечения ZIP-файла в папке Projects (проекты) будут найдены следующие проекты:
     
-   - Оскпровидер_кпп — содержит шаблон поставщика C++.
+   - OSCProvider_CPP — содержит шаблон поставщика C++.
     
-   - Оскпровидер_кс — содержит шаблон поставщика C#.
+   - OSCProvider_CS — содержит шаблон поставщика C#.
     
-   - Оскпровидер_вб — содержит шаблон поставщика Visual Basic.
+   - OSCProvider_VB — содержит шаблон поставщика Visual Basic.
     
 ## <a name="see-also"></a>См. также
 

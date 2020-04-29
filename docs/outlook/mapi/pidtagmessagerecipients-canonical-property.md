@@ -23,20 +23,20 @@ ms.locfileid: "32355687"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит таблицу ограничений, которые можно применить к таблице содержимого, чтобы найти все сообщения, содержащие вложенные объекты получателей, соответствующие ограничениям. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_МЕССАЖЕ_РЕЦИПИЕНТС  <br/> |
+|Связанные свойства:  <br/> |PR_MESSAGE_RECIPIENTS  <br/> |
 |Идентификатор:  <br/> |0x0E12  <br/> |
-|Тип данных:  <br/> |ПТ_ОБЖЕКТ  <br/> |
+|Тип данных:  <br/> |PT_OBJECT  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство можно исключить в [IMAPIProp:: операции CopyTo](imapiprop-copyto.md) или включено в [IMAPIProp:: копипропс](imapiprop-copyprops.md) Operations. Как свойство типа **пт_обжект**, оно не может быть успешно получено методом [IMAPIProp::](imapiprop-getprops.md) . К его содержимому должен получать доступ метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , запрашивающий идентификатор интерфейса **иид_имапитабле** . Поставщики услуг должны сообщить о ней методу [IMAPIProp:: жетпроплист](imapiprop-getproplist.md) , если он задан, но при необходимости можно сообщить ему, если он не задан. 
+Это свойство можно исключить в [IMAPIProp:: операции CopyTo](imapiprop-copyto.md) или включено в [IMAPIProp:: копипропс](imapiprop-copyprops.md) Operations. Как свойство типа **PT_OBJECT**, оно не может быть успешно получено методом [IMAPIProp::](imapiprop-getprops.md) GetProperty. К его содержимому должен получать доступ метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , запрашивающий идентификатор интерфейса **IID_IMAPITable** . Поставщики услуг должны сообщить о ней методу [IMAPIProp:: жетпроплист](imapiprop-getproplist.md) , если он задан, но при необходимости можно сообщить ему, если он не задан. 
   
 Чтобы получить содержимое таблицы, клиентское приложение должно вызвать метод [iMessage:: жетреЦипиенттабле](imessage-getrecipienttable.md) . 
   
@@ -44,15 +44,15 @@ ms.locfileid: "32355687"
   
  **Note (Примечание** ) Использование результатов ограничения для подобъектов эквивалентно вызову [IMAPISession:: OpenEntry](imapisession-openentry.md) для каждого сообщения в таблице. В зависимости от клиентского приложения и количества сообщений, в которых выполняется поиск, это может повлиять на производительность. 
   
-Свойство **пр_мессаже_аттачментс** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) и это свойство похожи в использовании. Несколько свойств MAPI предоставляют доступ к таблицам: 
+Свойство **PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md)) и это свойство аналогичны в использовании. Несколько свойств MAPI предоставляют доступ к таблицам: 
   
-|**Property**|**Table**|
+|**Свойство**|**Table**|
 |:-----|:-----|
-|**Пр_контаинер_контентс** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Таблица содержимого  <br/> |
-|**Пр_контаинер_хиерарчи** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Таблица иерархии  <br/> |
-|**Пр_фолдер_ассоЦиатед_контентс** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md))  <br/> |Связанная таблица содержимого  <br/> |
-|**Пр_мессаже_аттачментс** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Таблица вложений  <br/> |
-|ПР_МЕССАЖЕ_РЕЦИПИЕНТС  <br/> |Таблица получателей  <br/> |
+|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Таблица содержимого  <br/> |
+|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Таблица иерархии  <br/> |
+|**PR_FOLDER_ASSOCIATED_CONTENTS** ([PidTagFolderAssociatedContents](pidtagfolderassociatedcontents-canonical-property.md))  <br/> |Связанная таблица содержимого  <br/> |
+|**PR_MESSAGE_ATTACHMENTS** ([PidTagMessageAttachments](pidtagmessageattachments-canonical-property.md))  <br/> |Таблица вложений  <br/> |
+|PR_MESSAGE_RECIPIENTS  <br/> |Таблица получателей  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -78,7 +78,7 @@ ms.locfileid: "32355687"
   
 > Кодирует и декодирует объекты сообщений и вложений в эффективное потоковое представление.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32341729"
 ---
-# <a name="mnlslstrcpyw"></a>MNLS_lstrcpyW
+# <a name="mnls_lstrcpyw"></a>MNLS_lstrcpyW
 
  
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Копирует строку в буфер.
   
@@ -48,7 +48,7 @@ lpString2
   
 Если функция завершается с ошибкой, возвращается значение NULL, а lpString1 не может оканчиваться нулем.
   
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эта функция заключает в оболочку функцию **лстркпи** . Дополнительные сведения см. в разделе [лстркпи](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).
   

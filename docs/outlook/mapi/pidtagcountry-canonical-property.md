@@ -23,15 +23,15 @@ ms.locfileid: "32357913"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит имя страны или региона получателя. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КАУНТРИ, ПР_КАУНТРИ_А, ПР_КАУНТРИ_В, ПР_БУСИНЕСС_АДДРЕСС_КАУНТРИ, ПР_БУСИНЕСС_АДДРЕСС_КАУНТРИ_А, PR_BUSINESS_ADDRESS_COUNTRY_W  <br/> |
+|Связанные свойства:  <br/> |PR_COUNTRY, PR_COUNTRY_A, PR_COUNTRY_W, PR_BUSINESS_ADDRESS_COUNTRY, PR_BUSINESS_ADDRESS_COUNTRY_A, PR_BUSINESS_ADDRESS_COUNTRY_W  <br/> |
 |Идентификатор:  <br/> |0x3A26  <br/> |
-|Тип данных:  <br/> |ПТ_УНИКОДЕ, PT_STRING8  <br/> |
+|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
 ## <a name="remarks"></a>Примечания
@@ -54,7 +54,7 @@ ms.locfileid: "32357913"
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -23,21 +23,21 @@ ms.locfileid: "32338075"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает третье отображаемое имя, которое соответствует адресу электронной почты, указанному для контакта.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |dispidEmail3OriginalDisplayName  <br/> |
-|Набор свойств:  <br/> |Псетид_аддресс  <br/> |
+|Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x000080A4  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Если свойство **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) имеет значение "SMTP", значение соответствующего свойства **dispidEmail3OriginalDisplayName** должно равняться значению соответствующего ** dispidEmail3EmailAddress** ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). Это свойство предназначено для отображения альтернативного пользовательского адреса, эквивалентного параметру в **dispidEmail3EmailAddress**.
+Если свойство **dispidEmail3AddrType** ([PidLidEmail3AddressType](pidlidemail3addresstype-canonical-property.md)) имеет значение "SMTP", значение соответствующего свойства **dispidEmail3OriginalDisplayName** должно равняться значению соответствующего **dispidEmail3EmailAddress** ([PidLidEmail3EmailAddress](pidlidemail3emailaddress-canonical-property.md)). Это свойство предназначено для отображения альтернативного пользовательского адреса, эквивалентного параметру в **dispidEmail3EmailAddress**.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -51,7 +51,7 @@ ms.locfileid: "32338075"
   
 > Задает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -23,14 +23,14 @@ ms.locfileid: "32326903"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Представляет значение свойства **диспидшарингремотестореуид** ([PidLidSharingRemoteStoreUid](pidlidsharingremotestoreuid-canonical-property.md)).
   
 |||
 |:-----|:-----|
 |Понятные имена:  <br/> |Нет  <br/> |
-|Набор свойств:  <br/> |ПС_ИНТЕРНЕТ_ХЕАДЕРС  <br/> |
+|Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Имя свойства:  <br/> |X – общий доступ — удаленное хранилище — UID  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Общий доступ  <br/> |
@@ -47,7 +47,7 @@ ms.locfileid: "32326903"
   
 > Предоставляет общий доступ к папкам почтового ящика между клиентами.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

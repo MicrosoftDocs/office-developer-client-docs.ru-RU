@@ -23,22 +23,22 @@ ms.locfileid: "32357738"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит номер, который можно использовать для вычисления дефермент отправки сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ДЕФЕРРЕД_СЕНД_НУМБЕР  <br/> |
+|Связанные свойства:  <br/> |PR_DEFERRED_SEND_NUMBER  <br/> |
 |Идентификатор:  <br/> |0x3FEB  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство используется для вычисления свойства **пр_деферред_сенд_тиме** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)), если оно отсутствует. При отправке сообщения свойство **пр_деферред_сенд_нумбер** должно быть задано вместе со свойством **пр_деферред_сенд_унитс** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)), если свойство **пр_деферред_сенд_тиме** отсутствует. 
+Это свойство используется для вычисления свойства **PR_DEFERRED_SEND_TIME** ([PidTagDeferredSendTime](pidtagdeferredsendtime-canonical-property.md)), если оно отсутствует. При отправке сообщения откладывается, свойство **PR_DEFERRED_SEND_NUMBER** следует задать вместе со свойством **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)), если свойство **PR_DEFERRED_SEND_TIME** отсутствует. 
   
-Значение **пр_деферред_сенд_нумбер** должно быть задано в диапазоне от 0 до 999. 
+Значение **PR_DEFERRED_SEND_NUMBER** должно быть задано в диапазоне от 0 до 999. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,7 +48,7 @@ ms.locfileid: "32357738"
   
 > Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

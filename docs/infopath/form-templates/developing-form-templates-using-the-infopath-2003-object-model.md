@@ -22,7 +22,7 @@ ms.locfileid: "32300366"
 > [!IMPORTANT]
 > [!Важно!] Хотя создание бизнес-логики с помощью объектной модели с управляемым кодом, предоставляемой пространством имен [Microsoft.Office.Interop.InfoPath.SemiTrust](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.aspx) , по-прежнему поддерживается в InfoPath, бизнес-логика, написанная с применением этой объектной модели, не поддерживается для шаблонов форм с поддержкой веб-браузера, развернутых в Microsoft SharePoint Server 2010 с InfoPath Forms Services. Шаблоны форм с поддержкой веб-браузера должны использовать новую объектную модель InfoPath с управляемым кодом, которая предоставляется элементами пространства имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) для настраиваемой бизнес-логики. Дополнительные сведения по созданию шаблонов форм с бизнес-логикой, написанной с применением элементов пространства имен [Microsoft.Office.InfoPath](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.aspx) , см. в статье [Разработка шаблонов форм InfoPath с кодом](developing-infopath-form-templates-with-code.md). > Кроме того, обратите внимание на то, что для пользователей шаблонов форм, скомпилированных с помощью набора Visual Studio 2012, необходимо наличие установленной платформы Microsoft .NET Framework 2.0 или более поздней версии. Для пользователей шаблонов форм, скомпилированных с помощью Visual Studio .NET 2003, требуется только платформа Microsoft .NET Framework. 1.1. 
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 [Начало разработки шаблонов форм с помощью объектной модели InfoPath 2003](get-started-developing-form-templates-using-infopath-object-model.md)
   
@@ -40,7 +40,7 @@ ms.locfileid: "32300366"
   
 > Описывается объектная модель, совместимая с InfoPath 2003, и типичные задачи программирования для шаблонов форм с управляемым кодом, работающих с этой объектной моделью.
     
-[Устранение неполадок шаблонов форм, исПользующих объектную модель InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model.md)
+[Устранение неполадок шаблонов форм, использующих объектную модель InfoPath 2003](troubleshoot-form-templates-that-use-infopath-object-model.md)
   
 > Представляет советы по решению типичных проблем, которые могут обнаружиться при создании шаблонов форм с управляемым кодом, работающих с объектной моделью, совместимой с InfoPath 2003.
     

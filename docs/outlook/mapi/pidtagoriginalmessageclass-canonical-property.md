@@ -23,20 +23,20 @@ ms.locfileid: "32342625"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит класс исходного сообщения для использования в отчете.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРИГ_МЕССАЖЕ_КЛАСС, ПР_ОРИГ_МЕССАЖЕ_КЛАСС_А, ПР_ОРИГ_МЕССАЖЕ_КЛАСС_В  <br/> |
+|Связанные свойства:  <br/> |PR_ORIG_MESSAGE_CLASS, PR_ORIG_MESSAGE_CLASS_A PR_ORIG_MESSAGE_CLASS_W  <br/> |
 |Идентификатор:  <br/> |0x004B  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Свойства безопасного обмена сообщениями  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Эти свойства содержат копию свойства **пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) сообщения, для которого создается отчет.
+Эти свойства содержат копию свойства **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) сообщения, для которого создается отчет.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32342625"
   
 > Кодирует и декодирует объекты сообщений и вложений в эффективное потоковое представление.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

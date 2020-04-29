@@ -17,13 +17,13 @@ ms.locfileid: "32345844"
 ---
 # <a name="mapi-object-inheritance-hierarchy"></a>Иерархия наследования объектов MAPI
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Все интерфейсы, реализованные объектами MAPI, в конечном счете, наследуются от [IUnknown](https://msdn.microsoft.com/library/33f1d79a-33fc-4ce5-a372-e08bda378332%28Office.15%29.aspx), интерфейс OLE, позволяющий объектам взаимодействовать. Большинство интерфейсов напрямую наследуют от **IUnknown**, но некоторые из них наследуются от одного из двух других базовых интерфейсов: [IMAPIProp: IUnknown](imapipropiunknown.md) или [IMAPIContainer: IMAPIProp](imapicontainerimapiprop.md). На следующем рисунке показана полная иерархия наследования в MAPI.
   
 **Иерархия наследования MAPI**
   
-![Иерархия наследованИя MAPI] (media/amapi_06.gif "Иерархия наследованИя MAPI")
+![MAPI inheritance hierarchy](media/amapi_06.gif "Иерархия") наследования MAPI иерархии наследования MAPI
   
 ## <a name="see-also"></a>См. также
 

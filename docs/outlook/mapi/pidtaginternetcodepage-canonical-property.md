@@ -23,13 +23,13 @@ ms.locfileid: "32285135"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает кодовую страницу, используемую для свойств **пр_боди** ([PidTagBody](pidtagbody-canonical-property.md)) или **пр_боди_хтмл** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)).
+Указывает кодовую страницу, используемую для свойств **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) или **PR_BODY_HTML** ([PidTagBodyHtml](pidtagbodyhtml-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ИНТЕРНЕТ_КПИД  <br/> |
+|Связанные свойства:  <br/> |PR_INTERNET_CPID  <br/> |
 |Идентификатор:  <br/> |0x3FDE  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Разное  <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "32285135"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

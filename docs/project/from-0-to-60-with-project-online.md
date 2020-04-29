@@ -32,7 +32,7 @@ Project Online включает поддержку API для следующих
   - Ресурсы, загруженные в браузер и выполняемые в SharePoint Online.  
   - Бизнес-логика в JavaScript   
   - Доступ к данным, хранящимся и хранящимся в Project Online или SharePoint (но не ограничен):  
-  - Настраиваемые поля   
+  - настраиваемые поля;  
   - Списки
     
 - Для надстройки, размещаемой у поставщика Project (SharePoint):
@@ -83,7 +83,7 @@ Project Online включает поддержку API для следующих
     
    Project Online проверяет как область приложения надстройки, так и разрешения пользователя, чтобы управлять доступом к сведениям на узле Project Online. Если доступ явным образом запрещен в обоих или обоих параметрах, Project Online запрещает доступ к данным. В противном случае предоставляется доступ.
     
-3. Включите загрузку неопубликованных [приложений](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) на сайте.  
+3. Включите загрузку [неопубликованных приложений](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) на сайте.  
     
 4. Выполните построение проекта.
     
@@ -103,7 +103,7 @@ Project Online включает поддержку API для следующих
     
 - [Пакет CSOM SharePointOnline](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (для вызовов CSOM) 
     
-- Язык программирования, например C# 
+- Язык программирования, например C # 
     
 Посетите https://github.com/OfficeDev/Project-Add-in-REST-BasicDataOperations страницу Работа с примерами сценариев. 
   
@@ -115,7 +115,7 @@ Project Online включает поддержку API для следующих
     
    Project Online проверяет как область приложения надстройки, так и разрешения пользователя, чтобы управлять доступом к сведениям на узле Project Online. Если доступ явным образом запрещен в обоих или обоих параметрах, Project Online запрещает доступ к данным. В противном случае предоставляется доступ.
     
-3. Включите загрузку неопубликованных [приложений](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) на сайте. 
+3. Включите загрузку [неопубликованных приложений](https://docs.microsoft.com/office/dev/add-ins/testing/create-a-network-shared-folder-catalog-for-task-pane-and-content-add-ins) на сайте. 
     
 4. Выполните построение проекта.
     
@@ -135,7 +135,7 @@ Project Online включает поддержку API для следующих
     
 - [Пакет CSOM SharePointOnline](https://www.nuget.org/packages/Microsoft.SharePointOnline.CSOM) (для вызовов CSOM) 
     
-- Язык программирования, например C# 
+- Язык программирования, например C # 
     
 Посетите https://github.com/OfficeDev/Project-CSOM-Read-Enterprise-CustomFields пример приложения. 
   

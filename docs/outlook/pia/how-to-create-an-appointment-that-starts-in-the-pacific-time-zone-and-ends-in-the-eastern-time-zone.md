@@ -20,7 +20,7 @@ ms.locfileid: "32349457"
 
 ## <a name="example"></a>Пример
 
-В этом примере кода используется [](https://msdn.microsoft.com/library/bb611081\(v=office.15\)) объект timezones, который представляет все часовые пояса, распознаваемые в Microsoft Windows. Он также использует объект [TimeZone](https://msdn.microsoft.com/library/bb646259\(v=office.15\)) для задания или получения свойства [StartTimeZone](https://msdn.microsoft.com/library/bb623657\(v=office.15\)) и свойства [EndTimeZone](https://msdn.microsoft.com/library/bb612198\(v=office.15\)) объекта [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) .
+В этом примере кода используется объект [timezones](https://msdn.microsoft.com/library/bb611081\(v=office.15\)) , который представляет все часовые пояса, распознаваемые в Microsoft Windows. Он также использует объект [TimeZone](https://msdn.microsoft.com/library/bb646259\(v=office.15\)) для задания или получения свойства [StartTimeZone](https://msdn.microsoft.com/library/bb623657\(v=office.15\)) и свойства [EndTimeZone](https://msdn.microsoft.com/library/bb612198\(v=office.15\)) объекта [AppointmentItem](https://msdn.microsoft.com/library/bb645611\(v=office.15\)) .
 
 Все даты в Outlook отображаются с использованием местного времени, которое выражено в текущем часовом поясе пользователя, контролируемом параметрами пользователя в панели управления Windows. Outlook также задает или получает свойства, такие как [Start](https://msdn.microsoft.com/library/bb647263\(v=office.15\)) и [End](https://msdn.microsoft.com/library/bb623715\(v=office.15\)), по местному времени. Однако значения даты и времени сохраняются в Outlook в формате UTC, а не в формате местного времени. Если вы изучите внутреннее значение встречи. Начните с использования объекта [PropertyAccessor](https://msdn.microsoft.com/library/bb646034\(v=office.15\)) , вы обнаружите внутреннее значение даты и времени, равное локальному значению даты и времени, преобразованному в эквивалентное значение даты и времени в формате UTC.
 
@@ -28,7 +28,7 @@ Outlook использует сведения о часовом поясе, чт
 
 Конкретное значение TimeZone можно извлечь из объекта TimeZones с помощью независимого от региональных стандартов ключа TimeZone в реестре Windows. Независимые от региональных стандартов ключи TimeZone перечислены в следующем разделе: `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\TimeZones`.
 
-Если вы используете Visual Studio для тестирования этого примера кода, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и задайте переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **Imports** или **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
 
 
 ```vb

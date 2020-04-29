@@ -25,7 +25,7 @@ ms.locfileid: "32300457"
     
 - [Центр разработчика InfoPath](https://go.microsoft.com/fwlink?LinkID=11689): этот веб-сайт содержит технические документы, учебные формы, инструменты, статьи и сведения о разработке шаблонов форм InfoPath.
     
-- **Пакет разработчиков программНого обеспечения (SDK) для Microsoft SharePoint Server 2010**: концептуальные, процедурные и программные сведения для разработчиков, работающих с InfoPath Forms Services, которые входят в состав Microsoft SharePoint Server 2010. Дополнительные сведения можно найти в [центре разработчиков SharePoint](https://msdn.microsoft.com/sharepoint/default.aspx).
+- **Пакет разработчиков программного обеспечения (SDK) для Microsoft SharePoint Server 2010**: концептуальные, процедурные и программные сведения для разработчиков, работающих с InfoPath Forms Services, которые входят в состав Microsoft SharePoint Server 2010. Дополнительные сведения можно найти в [центре разработчиков SharePoint](https://msdn.microsoft.com/sharepoint/default.aspx).
     
 - [Центр разработчика Office](https://go.microsoft.com/fwlink?LinkID=27128): сведения об использовании программ в системе Microsoft Office в качестве платформы разработки. 
     
@@ -33,7 +33,7 @@ ms.locfileid: "32300457"
     
 - [Центр разработчиков XML](https://go.microsoft.com/fwlink/?LinkId=61827): сведения о разработке программ и служб, использующих XML.
     
-- [Центр разработчика .NET Framework](https://go.microsoft.com/fwlink/?LinkId=61829): сведения о разработке программ и служб, исПользующих .NET Framework.
+- [Центр разработчика .NET Framework](https://go.microsoft.com/fwlink/?LinkId=61829): сведения о разработке программ и служб, использующих .NET Framework.
     
 - [Центр решений InfoPath](https://support.microsoft.com/ph/11303): сведения о InfoPath, такие как статьи базы знаний, предоставляемые службами поддержки Майкрософт.
     

@@ -23,21 +23,21 @@ ms.locfileid: "32319273"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает сведения о часовом поясе повторяющегося собрания.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ЛИД_ТИМЕ_ЗОНЕ  <br/> |
-|Набор свойств:  <br/> |Псетид_митинг  <br/> |
+|Связанные свойства:  <br/> |LID_TIME_ZONE  <br/> |
+|Набор свойств:  <br/> |PSETID_Meeting  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x0000000C  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Meetings  <br/> |
+|Область:  <br/> |Собрания  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство доступно только в том случае, если свойство **диспидапптрекур** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) не задано, но если свойство **ЛИД_ИС_РЕКУРРИНГ** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) имеет значение true и **лид_ис_ексцептион** ([ Свойство PidLidIsException](pidlidisexception-canonical-property.md)) имеет значение false. В нижнем СЛОВе указывается индекс в таблице, содержащей сведения о часовом поясе. В верхнем СЛОВе считывается только самый большой бит. Если этот бит задан, то на указанный часовой пояс не будет отображаться летнее время (DST), в противном случае будут выполнены даты летнего времени, описанные в [[MS-оксокал]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
+Это свойство доступно только в том случае, если свойство **диспидапптрекур** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) не задано, но если свойство **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) имеет значение true, а свойство **LID_IS_EXCEPTION** ([PidLidIsException](pidlidisexception-canonical-property.md)) имеет значение false. В нижнем СЛОВе указывается индекс в таблице, содержащей сведения о часовом поясе. В верхнем СЛОВе считывается только самый большой бит. Если этот бит задан, то на указанный часовой пояс не будет отображаться летнее время (DST), в противном случае будут выполнены даты летнего времени, описанные в [[MS-оксокал]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -51,7 +51,7 @@ ms.locfileid: "32319273"
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

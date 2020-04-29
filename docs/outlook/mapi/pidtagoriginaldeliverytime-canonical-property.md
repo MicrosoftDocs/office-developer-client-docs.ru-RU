@@ -23,20 +23,20 @@ ms.locfileid: "32355659"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит копию даты и времени доставки исходного сообщения в потоке. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРИГИНАЛ_ДЕЛИВЕРИ_ТИМЕ  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINAL_DELIVERY_TIME  <br/> |
 |Идентификатор:  <br/> |0x0055  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство копируется из свойства Original **пр_мессаже_деливери_тиме** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) в последующие операции ответа или пересылки и используется в отчетах о прочтении и непрочтении. В отчетах о доСтавке используется свойство **пр_деливер_тиме** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)).
+Это свойство копируется из свойства Original **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) в последующие операции ответа или пересылки и используется в отчетах о прочтении и непрочтении. В отчетах о доставке вместо этого используется свойство **PR_DELIVER_TIME** ([PidTagDeliverTime](pidtagdelivertime-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32355659"
   
 > Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

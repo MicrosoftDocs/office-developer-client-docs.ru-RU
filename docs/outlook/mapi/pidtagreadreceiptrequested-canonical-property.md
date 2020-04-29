@@ -23,22 +23,22 @@ ms.locfileid: "32356471"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если отправителю требуется, чтобы система обмена сообщениями создавала отчет о прочтении, когда получатель прочитал сообщение.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕАД_РЕЦЕИПТ_РЕКУЕСТЕД  <br/> |
+|Связанные свойства:  <br/> |PR_READ_RECEIPT_REQUESTED  <br/> |
 |Идентификатор:  <br/> |0x0029  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Email  <br/> |
+|Область:  <br/> |Электронная почта  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Для этого свойства должно быть задано значение TRUE, чтобы проверить значения в свойствах **пр_реад_рецеипт_ентрид** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) и **пр_реад_рецеипт_сеарч_кэй** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)).
+Для этого свойства должно быть задано значение TRUE, чтобы проверить значения в свойствах **PR_READ_RECEIPT_ENTRYID** ([PidTagReadReceiptEntryId](pidtagreadreceiptentryid-canonical-property.md)) и **PR_READ_RECEIPT_SEARCH_KEY** ([PidTagReadReceiptSearchKey](pidtagreadreceiptsearchkey-canonical-property.md)).
   
-Если сообщение с набором **пр_реад_рецеипт_рекуестед** удаляется или истечет до тех пор, пока система обмена сообщениями не сможет создать отчет о прочтении, создается отчет о непрочтении. 
+Если сообщение с набором **PR_READ_RECEIPT_REQUESTED** удаляется или истечет до тех пор, пока система обмена сообщениями не сможет создать отчет о прочтении, создается отчет о непрочтении. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -52,7 +52,7 @@ ms.locfileid: "32356471"
   
 > Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

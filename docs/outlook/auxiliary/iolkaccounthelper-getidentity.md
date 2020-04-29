@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунселпержетидентити
+title: иолкаккаунселпержетидентити
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -31,7 +31,7 @@ HRESULT IOlkAccountHelper::GetIdentity (
 
 ## <a name="parameters"></a>Параметры
 
-_Пвсзидентити_
+_пвсзидентити_
   
 > возврата вышли Имя профиля.
     
@@ -47,12 +47,12 @@ _пкч_
 |E_OUTOFMEMORY  <br/> |Имя возвращаемого профиля превышает размер _пвсзидентити_.  <br/> |
 |E_INVALIDARG  <br/> | _пкч_ имеет значение null.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Если _пвсзидентити_ слишком мал для хранения имени профиля, он не будет установлен для возврата, а _пкч_ будет указывать на размер, необходимый для _пвсзидентити_.
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md)
+- [Сведения об API управления учетными записями](about-the-account-management-api.md)
 - [PidTagProfileName](https://msdn.microsoft.com/library/13ca726d-ae7a-4da9-9c8e-3db3c479f839%28Office.15%29.aspx)
 

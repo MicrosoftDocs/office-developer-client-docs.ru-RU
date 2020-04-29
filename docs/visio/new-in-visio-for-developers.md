@@ -81,7 +81,7 @@ Visio 2013 включает новый формат файла, основанн
 ## <a name="commenting"></a>Комментарии
 <a name="vis15_WhatsNew_Commenting"> </a>
 
-Visio 2013 включает в себя новые комментирования framework. Комментарии, теперь могут быть связаны с конкретной формы или страницы. Visio 2013 включает два новых объекта, [Комментарии](https://msdn.microsoft.com/library/f028cc03-0ef1-8017-a936-d30d45211864%28Office.15%29.aspx) и [](https://msdn.microsoft.com/library/7cd0ee53-6b8d-a03b-ecd6-f6f6dda0f2d4%28Office.15%29.aspx)комментарии. Новые API для доступа к комментариям программными средствами включают свойства [Document. Comments](https://msdn.microsoft.com/library/15a322ad-70eb-1487-701d-76e2fde73309%28Office.15%29.aspx), [Page. Comments](https://msdn.microsoft.com/library/9618c86c-96c0-be95-ee20-5d1b99f4d5e8%28Office.15%29.aspx), [Shape. Comments](https://msdn.microsoft.com/library/498eca91-beb9-b764-0262-a935e5205710%28Office.15%29.aspx)и [Page. шапекомментс](https://msdn.microsoft.com/library/b7d86594-ba1f-627b-222f-905da1b1201e%28Office.15%29.aspx) . 
+Visio 2013 включает в себя новые комментирования framework. Комментарии, теперь могут быть связаны с конкретной формы или страницы. Visio 2013 включает два новых объекта, [Комментарии](https://msdn.microsoft.com/library/f028cc03-0ef1-8017-a936-d30d45211864%28Office.15%29.aspx) и [Комментарии](https://msdn.microsoft.com/library/7cd0ee53-6b8d-a03b-ecd6-f6f6dda0f2d4%28Office.15%29.aspx). Новые API для доступа к комментариям программными средствами включают свойства [Document. Comments](https://msdn.microsoft.com/library/15a322ad-70eb-1487-701d-76e2fde73309%28Office.15%29.aspx), [Page. Comments](https://msdn.microsoft.com/library/9618c86c-96c0-be95-ee20-5d1b99f4d5e8%28Office.15%29.aspx), [Shape. Comments](https://msdn.microsoft.com/library/498eca91-beb9-b764-0262-a935e5205710%28Office.15%29.aspx)и [Page. шапекомментс](https://msdn.microsoft.com/library/b7d86594-ba1f-627b-222f-905da1b1201e%28Office.15%29.aspx) . 
   
 Службы Visio включают API JavaScript для чтения комментариев со страницы или фигуры в схеме.
   
@@ -107,7 +107,7 @@ Visio 2013 поддерживает задание настраиваемого 
 ## <a name="relative-geometries"></a>Относительная геометрия
 <a name="vis15_WhatsNew_RelativeGeometry"> </a>
 
-В предыдущих версиях Visio геометрические фигуры были определены формулами, которые зависят от высоты или ширины фигуры. Например, в Visio 2010 вершины многих встроенных фигур Visio были определены путем умножения высоты или ширины фигуры на константу. Эти фигуры содержат **** геометрические разделы, включающие строки [MoveTo](moveto-row-geometry-section.md) или [lineTo](lineto-row-geometry-section.md) (например,) `Width*1` с `Height*0`помощью формул, таких как и.
+В предыдущих версиях Visio геометрические фигуры были определены формулами, которые зависят от высоты или ширины фигуры. Например, в Visio 2010 вершины многих встроенных фигур Visio были определены путем умножения высоты или ширины фигуры на константу. Эти фигуры содержат **геометрические** разделы, включающие строки [MoveTo](moveto-row-geometry-section.md) или [lineTo](lineto-row-geometry-section.md) (например,) `Width*1` с `Height*0`помощью формул, таких как и.
   
 Visio 2013 теперь поддерживает относительную геометрию в таблице свойств фигуры. Теперь разработчики фигур могут использовать относительные геометрические фигуры, чтобы указать геометрические фигуры как простые значения или формулы, которые автоматически умножаются на высоту или ширину. В качестве вершин фигуры теперь можно выражать константы, что позволяет удалять вершины в виде множителей ширины или высоты фигуры. Это облегчает разработчикам создание фигур, а также повышает производительность и уменьшает размер файлов. К новым строкам относятся строки [строка relmoveto](relmoveto-row-geometry-section.md) и [строка rellineto](rellineto-row-geometry-section.md) , в которых значения ячеек **X** и **Y** автоматически умножаются на ширину или высоту фигуры (соответственно). 
   
@@ -130,7 +130,7 @@ Visio 2013 теперь поддерживает относительную ге
 ## <a name="duplicate-page"></a>Повторяющаяся страница
 <a name="vis15_WhatsNew_DuplicatePage"> </a>
 
-Теперь вы можете скопировать страницу и все ее фигуры в одном документе в Visio 2013. Соответственно, объект **Page** содержит новый метод, повторяется [](https://msdn.microsoft.com/library/394be23b-997d-0da1-b3bd-8278564fb4e0%28Office.15%29.aspx), который дублирует страницу и возвращает новый объект **Page** . 
+Теперь вы можете скопировать страницу и все ее фигуры в одном документе в Visio 2013. Соответственно, объект **Page** содержит новый метод, [повторяется](https://msdn.microsoft.com/library/394be23b-997d-0da1-b3bd-8278564fb4e0%28Office.15%29.aspx), который дублирует страницу и возвращает новый объект **Page** . 
   
 ## <a name="visio-object-model-changes"></a>Изменения объектной модели Visio
 <a name="vis15_WhatsNew_NewOM"> </a>
@@ -204,10 +204,10 @@ Visio 2013 теперь поддерживает относительную ге
   
 |**Перечисление**|**Описание**|
 |:-----|:-----|
-|[ПереЧисление Вискуиккстилеколорс (Visio)](https://msdn.microsoft.com/library/c19d91f3-a9a4-e31e-ed7a-eef15553fbf4%28Office.15%29.aspx) <br/> |Задает назначенные имена для цветов, содержащихся в теме.  <br/> |
-|[ПереЧисление Вискуиккстилематриксиндицес (Visio)](https://msdn.microsoft.com/library/0fb0b448-85ba-4fc4-d933-21d574cefa2a%28Office.15%29.aspx) <br/> |Задает назначенные имена тем и вариантов, предоставленных в Visio 2013.  <br/> |
-|[ПереЧисление Висреплацефлагс (Visio)](https://msdn.microsoft.com/library/cf270178-f939-7eb4-b8e1-3b4153aff221%28Office.15%29.aspx) <br/> |Задает поведение для операции изменения фигуры.  <br/> |
-|[ПереЧисление Виссвжекспортформат (Visio)](https://msdn.microsoft.com/library/d8ca8c3f-41d9-4e9d-8f6d-f5567361b14e%28Office.15%29.aspx) <br/> |Указывает включение или исключение разметки Visio при экспорте схемы в формат SVG.  <br/> |
+|[Перечисление Вискуиккстилеколорс (Visio)](https://msdn.microsoft.com/library/c19d91f3-a9a4-e31e-ed7a-eef15553fbf4%28Office.15%29.aspx) <br/> |Задает назначенные имена для цветов, содержащихся в теме.  <br/> |
+|[Перечисление Вискуиккстилематриксиндицес (Visio)](https://msdn.microsoft.com/library/0fb0b448-85ba-4fc4-d933-21d574cefa2a%28Office.15%29.aspx) <br/> |Задает назначенные имена тем и вариантов, предоставленных в Visio 2013.  <br/> |
+|[Перечисление Висреплацефлагс (Visio)](https://msdn.microsoft.com/library/cf270178-f939-7eb4-b8e1-3b4153aff221%28Office.15%29.aspx) <br/> |Задает поведение для операции изменения фигуры.  <br/> |
+|[Перечисление Виссвжекспортформат (Visio)](https://msdn.microsoft.com/library/d8ca8c3f-41d9-4e9d-8f6d-f5567361b14e%28Office.15%29.aspx) <br/> |Указывает включение или исключение разметки Visio при экспорте схемы в формат SVG.  <br/> |
    
 ### <a name="deprecated-objects-and-members"></a>Устаревшие объекты и элементы
 

@@ -17,7 +17,7 @@ ms.locfileid: "32344536"
 ---
 # <a name="create-a-complex-recurrent-appointment-item"></a>Создание сложного элемента повторяющейся встречи
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 С помощью MAPI можно создавать повторяющиеся встречи.
   
@@ -27,15 +27,15 @@ ms.locfileid: "32344536"
 
 1. Откройте хранилище сообщений. Сведения о том, как открыть хранилище сообщений, можно найти в разделе [Открытие хранилища сообщений](opening-a-message-store.md).
     
-2. Откройте папку "Календарь" в хранилище сообщений. Обратитесь к разделу **пр_ипм_аппоинтмент_ентрид** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md)).
+2. Откройте папку "Календарь" в хранилище сообщений. Просмотрите **PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md)).
     
-3. ВыЗовите метод [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) в папке Calendar, чтобы создать новый элемент встречи. 
+3. Вызовите метод [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) в папке Calendar, чтобы создать новый элемент встречи. 
     
 4. Задайте свойство **диспидапптрекур** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) и другие свойства, необходимые для создания повторяющейся встречи.
     
 5. Сохраните новый элемент встречи.
     
-Эта `AddAppointment` процедура демонстрируется в функции в исходном файле Projects. cpp проекта креатеаутлукитемсаддин. Функция принимает параметры из диалогового окна **Добавление встречи** , которая отображается при выборе команды **Добавить встречу** в меню ADDIN примера приложения MFCMAPI. **** `AddAppointment` `DisplayAddAppointmentDialog` Функция в файле встреча. cpp отображает диалоговое окно и передает значения из диалогового окна `AddAppointment` функции. `DisplayAddAppointmentDialog` Функция не связана напрямую с созданием элемента встречи с помощью MAPI, поэтому она не указана здесь. 
+Эта `AddAppointment` процедура демонстрируется в функции в исходном файле Projects. cpp проекта креатеаутлукитемсаддин. Функция принимает параметры из диалогового окна **Добавление встречи** , которая отображается при выборе команды **Добавить встречу** в меню ADDIN примера приложения MFCMAPI. **Addins** `AddAppointment` `DisplayAddAppointmentDialog` Функция в файле встреча. cpp отображает диалоговое окно и передает значения из диалогового окна `AddAppointment` функции. `DisplayAddAppointmentDialog` Функция не связана напрямую с созданием элемента встречи с помощью MAPI, поэтому она не указана здесь. 
   
 > [!IMPORTANT]
 > Код в приложении MFCMAPI не гарантирует, что папка **календаря** была выбрана при выборе команды **Добавить встречу** в меню **ADDIN** . Создание элемента встречи в папке, отличной от папки " **Календарь** ", может привести к неопределенному поведению. Убедитесь, что вы выбрали папку " **Календарь** " перед использованием команды " **Добавить встречу** " в приложении MFCMAPI. 
@@ -44,9 +44,9 @@ ms.locfileid: "32344536"
   
 `AddAppointment` Функция задает ряд именованных свойств. Сведения об именованных свойствах и способах их создания можно узнать [в статье использование MAPI для создания элементов Outlook 2007](https://msdn.microsoft.com/library/cc678348%28office.12%29.aspx). Так как именованные свойства, используемые для элементов встреч, занимают несколько наборов свойств, при построении параметров для передачи в метод [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) необходимо соблюдать осторожность. 
   
-`AddAppointment` Функция использует несколько вспомогательных функций для создания структуры для различных свойств, связанных с встречами. Функции `BuildTimeZoneStruct` и `BuildTimeZoneDefinition` вспомогательные функции используются для создания структуры, указывающей свойства, связанные с часовым поясом. Свойства, связанные с часовым поясом: **диспидтимезонеструкт** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **Диспидтимезонедеск** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **диспидаппттздефрекур** ([ PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **диспидаппттздефстартдисплай** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) и **диспидаппттздефенддисплай** ([ PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)), и они обсуждаются в соответствующих разделах [[MS-оксокал]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). 
+`AddAppointment` Функция использует несколько вспомогательных функций для создания структуры для различных свойств, связанных с встречами. Функции `BuildTimeZoneStruct` и `BuildTimeZoneDefinition` вспомогательные функции используются для создания структуры, указывающей свойства, связанные с часовым поясом. Свойства, связанные с часовым поясом: **диспидтимезонеструкт** ([PidLidTimeZoneStruct](pidlidtimezonestruct-canonical-property.md)), **Диспидтимезонедеск** ([PidLidTimeZoneDescription](pidlidtimezonedescription-canonical-property.md)), **диспидаппттздефрекур** ([PidLidAppointmentTimeZoneDefinitionRecur](pidlidappointmenttimezonedefinitionrecur-canonical-property.md)), **диспидаппттздефстартдисплай** ([PidLidAppointmentTimeZoneDefinitionStartDisplay](pidlidappointmenttimezonedefinitionstartdisplay-canonical-property.md)) и **dispidApptTZDefEndDisplay** ([PidLidAppointmentTimeZoneDefinitionEndDisplay](pidlidappointmenttimezonedefinitionenddisplay-canonical-property.md)), и они обсуждаются в соответствующих разделах [[MS-OXOCAL]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). 
 
-`BuildGlobalObjectID` Функция используется для создания структуры, указывающей свойства **лид_глобал_обжид** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) и **диспидклеанглобалобжид** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)), которые рассматриваются в разделе соответствующие разделы [[MS — оксокал]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). Структура, указывающая свойство **диспидапптрекур** , строится с помощью `BuildWeeklyAppointmentRecurrencePattern` функции. 
+`BuildGlobalObjectID` Функция используется для создания структуры, указывающей свойства **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)) и **диспидклеанглобалобжид** ([PidLidCleanGlobalObjectId](pidlidcleanglobalobjectid-canonical-property.md)), обсуждаемые в соответствующих разделах [[MS-оксокал]](https://msdn.microsoft.com/library/cc425490%28v=EXCHG.80%29.aspx). Структура, указывающая свойство **диспидапптрекур** , строится с помощью `BuildWeeklyAppointmentRecurrencePattern` функции. 
 
 Сведения о структуре, созданной с помощью `BuildWeeklyAppointmentRecurrencePattern` функции, можно найти в статье [PidLidAppointmentRecur каноническое свойство](pidlidappointmentrecur-canonical-property.md). Обратите внимание, что в то время как вы можете создать большое количество `BuildWeeklyAppointmentRecurrencePattern` шаблонов повторения встреч, функция создает только расписание повторения встречи. Он также использует несколько жестко запрограммированных значений, таких как тип календаря (григорианский), первый день недели (воскресенье), а также количество измененных или удаленных экземпляров (нет). Более общая функция создания шаблона повторения встречи должна принимать эти виды переменных в качестве параметров. 
   

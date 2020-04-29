@@ -23,19 +23,19 @@ ms.locfileid: "32344998"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает, что значение свойства **диспидлокатион** ([PidLidLocation](pidlidlocation-canonical-property.md)) задано как свойство **Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) из реЦипиентров, представляющее ресурс.
+Указывает, что значение свойства **диспидлокатион** ([PidLidLocation](pidlidlocation-canonical-property.md)) задано как свойство **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) из реЦипиентров, представляющее ресурс.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Диспидаутофилллокатион  <br/> |
-|Набор свойств:  <br/> |Псетид_аппоинтмент  <br/> |
+|Связанные свойства:  <br/> |диспидаутофилллокатион  <br/> |
+|Набор свойств:  <br/> |PSETID_Appointment  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x0000823A  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Meetings  <br/> |
+|Область:  <br/> |Собрания  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Более подробную информацию о РеЦипиентров можно узнать в разделе протоколы объектов сообщений и вложений, как указано в разделе [[MS – окскмсг]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
@@ -51,7 +51,7 @@ ms.locfileid: "32344998"
   
 > Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

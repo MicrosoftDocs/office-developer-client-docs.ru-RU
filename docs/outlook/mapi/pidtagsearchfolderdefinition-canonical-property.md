@@ -23,20 +23,20 @@ ms.locfileid: "32336360"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит данные, указывающие критерии поиска.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ВБ_СФ_ДЕФИНИТИОН  <br/> |
+|Связанные свойства:  <br/> |PR_WB_SF_DEFINITION  <br/> |
 |Идентификатор:  <br/> |0x6845  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Поиск  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Конкретное содержимое каждого поля больших двоичных объектов (BLOB-объектов), содержащегося в этом свойстве, зависит от идентификатора шаблона, указанного в свойстве **PidTagSearchFolderTemplateId** ([PidTagSearchFolderTemplateId](pidtagsearchfoldertemplateid-canonical-property.md)). Сведения о структуре больших ДВОИЧных объектов и шаблонах поиска можно посмотреть в [[MS-оксосрч]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). 
+Конкретное содержимое каждого поля больших двоичных объектов (BLOB-объектов), содержащегося в этом свойстве, зависит от идентификатора шаблона, указанного в свойстве **PidTagSearchFolderTemplateId** ([PidTagSearchFolderTemplateId](pidtagsearchfoldertemplateid-canonical-property.md)). Сведения о структуре больших двоичных объектов и шаблонах поиска можно посмотреть в [[MS-оксосрч]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32336360"
   
 > Задает свойства и операции для управления конфигурацией списка папок поиска.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

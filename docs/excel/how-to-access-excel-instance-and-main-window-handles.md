@@ -8,7 +8,7 @@ keywords:
 - доступ к дескрипторам Excel, дескрипторам [Excel 2007], доступу, экземплярам Excel, доступу, доступу, дескрипторам окон [Excel 2007], доступу
 localization_priority: Normal
 ms.assetid: 21e1dbdc-06fa-4514-9437-c4cffc3b4621
-description: 'Относится к: Excel 2013 | Office 2013 | Visual Studio'
+description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
 ms.openlocfilehash: 4b71ccd428e60c9ba2e59fea0e56eb2fc61390db
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "32310761"
 ---
 # <a name="access-excel-instance-and-main-window-handles"></a>Доступ к дескрипторам основного окна и экземпляра Excel
 
- **Относится к**: Excel 2013 | Office 2013 | Visual Studio 
+ **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
 Чтобы программировать в среде Windows, иногда необходимо знать дескриптор экземпляра Microsoft Excel или дескриптор главного окна. Например, эти дескрипторы удобно использовать при создании и отображении настраиваемых диалоговых окон Windows.
   

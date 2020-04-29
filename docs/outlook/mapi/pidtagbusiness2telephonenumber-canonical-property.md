@@ -23,7 +23,7 @@ ms.locfileid: "32345733"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит дополнительный номер телефона в компании-получателе. 
   
@@ -31,10 +31,10 @@ ms.locfileid: "32345733"
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_BUSINESS2_TELEPHONE_NUMBER, PR_BUSINESS2_TELEPHONE_NUMBER_A, PR_BUSINESS2_TELEPHONE_NUMBER_W, PR_OFFICE2_TELEPHONE_NUMBER, PR_OFFICE2_TELEPHONE_NUMBER_A, PR_OFFICE2_TELEPHONE_NUMBER_W  <br/> |
 |Идентификатор:  <br/> |0x3A1B  <br/> |
-|Тип данных:  <br/> |ПТ_УНИКОДЕ, PT_STRING8  <br/> |
+|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эти свойства являются примерами свойств, обеспечивающих идентификацию и доступ к сведениям о получателе. Эти свойства определяются получателем и Организацией получателя. 
   
@@ -54,7 +54,7 @@ ms.locfileid: "32345733"
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

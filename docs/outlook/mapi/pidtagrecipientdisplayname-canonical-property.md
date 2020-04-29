@@ -23,15 +23,15 @@ ms.locfileid: "32356709"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение свойства **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
+Содержит значение свойства **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕЦИПИЕНТ_ДИСПЛАЙ_НАМЕ, ПР_РЕЦИПИЕНТ_ДИСПЛАЙ_НАМЕ_А, ПР_РЕЦИПИЕНТ_ДИСПЛАЙ_НАМЕ_В  <br/> |
+|Связанные свойства:  <br/> |PR_RECIPIENT_DISPLAY_NAME, PR_RECIPIENT_DISPLAY_NAME_A PR_RECIPIENT_DISPLAY_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x5FF6  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Получатель транспорта  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
@@ -58,7 +58,7 @@ ms.locfileid: "32356709"
   
 > Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

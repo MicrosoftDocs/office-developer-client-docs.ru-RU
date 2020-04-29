@@ -23,17 +23,17 @@ ms.locfileid: "32356324"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение поля заголовка [RFC3282] Content – Transfer – Encoding.
   
 |||
 |:-----|:-----|
 |Понятные имена:  <br/> |Нет  <br/> |
-|Набор свойств:  <br/> |ПС_ИНТЕРНЕТ_ХЕАДЕРС  <br/> |
+|Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Имя свойства:  <br/> |Content-Transfer-Encoding  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Email  <br/> |
+|Область:  <br/> |Электронная почта  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -47,7 +47,7 @@ ms.locfileid: "32356324"
   
 > Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

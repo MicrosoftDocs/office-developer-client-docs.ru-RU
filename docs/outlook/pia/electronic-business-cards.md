@@ -28,7 +28,7 @@ ms.locfileid: "32278696"
 ## <a name="see-also"></a>См. также
 
 - [Контакты](contacts.md)
-- [Mail](mail.md)
+- [Почта](mail.md)
 - [Пользователи Exchange](exchange-users.md)
 - [Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)](how-do-i-outlook-2013-pia-reference.md)
 

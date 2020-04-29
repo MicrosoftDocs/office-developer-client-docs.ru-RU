@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32327638"
 ---
-# <a name="propacctpreferencesuid"></a>PROP_ACCT_PREFERENCES_UID
+# <a name="prop_acct_preferences_uid"></a>PROP_ACCT_PREFERENCES_UID
 
 Получает уникальный идентификатор (UID) для раздела профиля, в котором хранятся параметры учетной записи. 
   
@@ -29,12 +29,12 @@ ms.locfileid: "32327638"
 |Тег свойства:  <br/> |0x00220102  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Используйте **проп_аккт_преференцес_уид** в вызовах [Имаписуппорт:: опенпрофилесектион](https://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) , чтобы получить раздел profile, содержащий параметры учетной записи. 
+Используйте **PROP_ACCT_PREFERENCES_UID** в вызовах [Имаписуппорт:: опенпрофилесектион](https://msdn.microsoft.com/library/cd1fa994-9531-46c4-94e5-505e7f90b884%28Office.15%29.aspx) для получения раздела профиля, содержащего параметры учетной записи. 
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md)
-- [About anti-spam settings](about-anti-spam-settings.md)
+- [Сведения об API управления учетными записями](about-the-account-management-api.md)
+- [Сведения о параметрах защиты от нежелательной почты](about-anti-spam-settings.md)
 

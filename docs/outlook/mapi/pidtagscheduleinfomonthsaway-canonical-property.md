@@ -23,20 +23,20 @@ ms.locfileid: "32303411"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит список месяцев, для которых в сообщении о занятости присутствует данные о занятости из типа "нет на месте" (отсутствие на работе). 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_СЧДИНФО_МОНСС_УФ  <br/> |
+|Связанные свойства:  <br/> |PR_SCHDINFO_MONTHS_OOF  <br/> |
 |Идентификатор:  <br/> |0x6855  <br/> |
-|Тип данных:  <br/> |ПТ_МВ_ЛОНГ  <br/> |
+|Тип данных:  <br/> |PT_MV_LONG  <br/> |
 |Область:  <br/> |Сведения о доступности  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Формат, вычисления и ограничения этого свойства такие же, как и в **пр_счдинфо_фрибуси_тентативе** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), но ссылаются на встречи, помеченные как "нет на месте" (отсутствие на работе) в связанном объект Calendar.
+Формат, вычисление и ограничения этого свойства такие же, как в **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), но ссылаются на встречи, помеченные как "нет на месте" (отсутствие на работе) в связанном с ним объекте Calendar.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32303411"
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -17,7 +17,7 @@ ms.locfileid: "32345195"
 ---
 # <a name="create-a-simple-mail-item"></a>Создание простого почтового элемента
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 С помощью MAPI можно создавать и отправлять сообщения, запрашивающие уведомление о прочтении. Когда запрашивается уведомление о прочтении, система обмена сообщениями создает и возвращает отчет о прочтении отправителю при открытии сообщения получателем.
   
@@ -28,23 +28,23 @@ ms.locfileid: "32345195"
 
 1. Создайте исходящее сообщение. Сведения о создании исходящих сообщений содержатся в разделе [Обработка исходящих сообщений](handling-an-outgoing-message.md).
     
-2. Добавьте свойство **пр_реад_рецеипт_рекуестед** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) и присвойте ему значение **true**.
+2. Добавьте свойство **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) и задайте для него значение **true**.
     
-3. Добавьте свойство **пр_конверсатион_индекс** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)).
+3. Добавьте свойство **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)).
     
-4. Добавьте свойство **пр_репорт_таг** ([PidTagReportTag](pidtagreporttag-canonical-property.md)).
+4. Добавьте свойство **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)).
     
 5. Отправьте сообщение, вызвав метод [iMessage:: субмитмессаже](imessage-submitmessage.md) . 
     
-Эти `AddMail` шаги демонстрируются в функциях исходного файла mails. cpp в проекте креатеаутлукитемсаддин. Функция принимает параметры из диалогового окна **Добавление почты** , которое отображается при выборе команды **Добавить почту** в меню надстройки примера приложения MFCMAPI. **** `AddMail` `DisplayAddMailDialog` Функция в разделе mails. cpp отображает диалоговое окно и передает значения из диалогового окна `AddMail` функции. `DisplayAddMailDialog` Функция не связана напрямую с созданием почтового элемента с помощью MAPI, поэтому она не указана здесь. `AddMail` Функция указана ниже. 
+Эти `AddMail` шаги демонстрируются в функциях исходного файла mails. cpp в проекте креатеаутлукитемсаддин. `AddMail` Функция принимает параметры из диалогового окна **Добавление почты** , которое отображается при выборе команды **Добавить почту** в меню **надстройки** примера приложения MFCMAPI. `DisplayAddMailDialog` Функция в разделе mails. cpp отображает диалоговое окно и передает значения из диалогового окна `AddMail` функции. `DisplayAddMailDialog` Функция не связана напрямую с созданием почтового элемента с помощью MAPI, поэтому она не указана здесь. `AddMail` Функция указана ниже. 
   
 Обратите внимание, что параметр _лпфолдер_ , `AddMail` передаваемый в метод, является указателем на интерфейс [IMAPIFolder](imapifolderimapicontainer.md) , представляющий папку, в которой будет создано новое сообщение. При наличии параметра _лпфолдер_ , представляющего интерфейс **IMAPIFolder** , код вызывает метод [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) . Метод **CreateMessage** возвращает код успешного выполнения и указатель на указатель на интерфейс [iMessage: IMAPIProp](imessageimapiprop.md) . 
 
 Большая часть кода `AddMail` функции обрабатывает работу по настройке свойств при подготовке к вызову метода [IMAPIProp:: SetProps](imapiprop-setprops.md) . При успешном вызове метода **SetProps** вызов метода [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) фиксирует изменения в хранилище и создает новый элемент почты. Затем, при запросе, вызывается метод [iMessage:: субмитмессаже](imessage-submitmessage.md) для отправки сообщения. 
   
-`AddMail` Функция использует две вспомогательные функции для создания значений свойств **пр_конверсатион_индекс** и **пр_репорт_таг** : функции `BuildConversationIndex` и. `AddReportTag` Функция, расположенная в Креатеаутлукитемсаддин. cpp, выполняет те же действия, что и встроенная функция MAPI Сккреатеконверсатиониндекс, когда родительский индекс беседы не передается. [](sccreateconversationindex.md) `BuildConversationIndex` Формат буфера индекса беседы, который создает эти функции, описан в [канонИческое свойство PidTagConversationIndex](pidtagconversationindex-canonical-property.md). 
+`AddMail` Функция использует две вспомогательные функции для создания значений свойств **PR_CONVERSATION_INDEX** и **PR_REPORT_TAG** : функции `BuildConversationIndex` и. `AddReportTag` Функция, расположенная в Креатеаутлукитемсаддин. cpp, выполняет те же действия, что и встроенная функция MAPI Сккреатеконверсатиониндекс, когда родительский индекс беседы не передается. [ScCreateConversationIndex](sccreateconversationindex.md) `BuildConversationIndex` Формат буфера индекса беседы, который создает эти функции, описан в [каноническое свойство PidTagConversationIndex](pidtagconversationindex-canonical-property.md). 
 
-`AddReportTag` Функция, расположенная в разделе mails. cpp, в свою очередь `BuildReportTag` вызывает функцию для создания структуры для свойства **пр_репорт_таг** . Сведения о структуре, которая создает `BuildReportTag` функция, можно найти в статье [PidTagReportTag каноническое свойство](pidtagreporttag-canonical-property.md).
+`AddReportTag` Функция, расположенная в разделе mails. cpp, в свою очередь `BuildReportTag` вызывает функцию для создания структуры для свойства **PR_REPORT_TAG** . Сведения о структуре, которая создает `BuildReportTag` функция, можно найти в статье [PidTagReportTag каноническое свойство](pidtagreporttag-canonical-property.md).
   
 Ниже приведен полный список `AddMail` функции. 
   

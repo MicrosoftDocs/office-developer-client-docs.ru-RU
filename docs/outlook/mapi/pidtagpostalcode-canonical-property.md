@@ -23,18 +23,18 @@ ms.locfileid: "32338523"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит почтовый индекс для почтового адреса получателя.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ПОСТАЛ_КОДЕ, ПР_ПОСТАЛ_КОДЕ_А, ПР_ПОСТАЛ_КОДЕ_В, ПР_БУСИНЕСС_АДДРЕСС_ПОСТАЛ_КОДЕ, PR_BUSINESS_ADDRESS_POSTAL_CODE_A, PR_BUSINESS_ADDRESS_POSTAL_CODE_W  <br/> |
+|Связанные свойства:  <br/> |PR_POSTAL_CODE, PR_POSTAL_CODE_A, PR_POSTAL_CODE_W, PR_BUSINESS_ADDRESS_POSTAL_CODE, PR_BUSINESS_ADDRESS_POSTAL_CODE_A, PR_BUSINESS_ADDRESS_POSTAL_CODE_W  <br/> |
 |Идентификатор:  <br/> |0x3A2A  <br/> |
-|Тип данных:  <br/> |ПТ_УНИКОДЕ, PT_STRING8  <br/> |
+|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |Область:  <br/> |Пользователь почты MAPI  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
 Эти свойства предоставляют сведения о идентификации и доступе для получателя. Они определяются получателем и их организацией. 
   
@@ -56,7 +56,7 @@ ms.locfileid: "32338523"
   
 > Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

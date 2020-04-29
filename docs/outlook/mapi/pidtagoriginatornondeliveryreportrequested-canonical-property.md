@@ -23,20 +23,20 @@ ms.locfileid: "32341960"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если отправитель сообщения запрашивает отчет о недоставке для определенного получателя.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРИГИНАТОР_НОН_ДЕЛИВЕРИ_РЕПОРТ_РЕКУЕСТЕД  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED  <br/> |
 |Идентификатор:  <br/> |0x0C08  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Это свойство используется для направления системы обмена сообщениями на обработку недоставленных сообщений. В этом случае сообщение должно также иметь свойство **пр_оригинатор_деливери_репорт_рекуестед** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) со значением false.
+Это свойство используется для направления системы обмена сообщениями на обработку недоставленных сообщений. В этом случае сообщение должно также иметь свойство **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) со значением false.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -46,7 +46,7 @@ ms.locfileid: "32341960"
   
 > Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

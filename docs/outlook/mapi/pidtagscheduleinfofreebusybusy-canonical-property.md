@@ -23,20 +23,20 @@ ms.locfileid: "32338656"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит блоки времени, для которых состояние занято.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_СЧДИНФО_ФРИБУСИ_БУСИ  <br/> |
+|Связанные свойства:  <br/> |PR_SCHDINFO_FREEBUSY_BUSY  <br/> |
 |Идентификатор:  <br/> |0x6854  <br/> |
 |Тип данных:  <br/> |PT_MV_BINARY  <br/> |
 |Область:  <br/> |Сведения о доступности  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Формат, вычисления и ограничения этого свойства такие же, как и в **пр_счдинфо_фрибуси_тентативе** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), но ссылаются на встречи, помеченные как занятые для связанного объекта Calendar.
+Формат, вычисление и ограничения этого свойства такие же, как в **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)), но относятся к встречам, помеченным как занятые для связанного объекта Calendar.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32338656"
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

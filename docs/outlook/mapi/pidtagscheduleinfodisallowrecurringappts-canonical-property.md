@@ -23,20 +23,20 @@ ms.locfileid: "32330102"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит значение TRUE, если автоматическое реагирование на повторяющиеся встречи отклонено.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_СЧДИНФО_ДИСАЛЛОВ_РЕКУРРИНГ_АППТС  <br/> |
+|Связанные свойства:  <br/> |PR_SCHDINFO_DISALLOW_RECURRING_APPTS  <br/> |
 |Идентификатор:  <br/> |0x686E  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Сведения о доступности  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Это свойство имеет смысл только в том случае, если значение свойства **пр_счдинфо_ауто_акцепт_апптс** ([PIDTAGSCHEDULEINFOAUTOACCEPTAPPOINTMENTS](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) равно true. Отсутствие этого свойства указывает на то, что повторяющиеся собрания должны приниматься. Это свойство не является обязательным.
+Это свойство имеет смысл только в том случае, если значение свойства **PR_SCHDINFO_AUTO_ACCEPT_APPTS** ([PIDTAGSCHEDULEINFOAUTOACCEPTAPPOINTMENTS](pidtagscheduleinfoautoacceptappointments-canonical-property.md)) равно true. Отсутствие этого свойства указывает на то, что повторяющиеся собрания должны приниматься. Это свойство не является обязательным.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -54,7 +54,7 @@ ms.locfileid: "32330102"
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

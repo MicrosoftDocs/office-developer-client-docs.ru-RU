@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32326434"
 ---
-# <a name="propmapiidentityentryid"></a>PROP_MAPI_IDENTITY_ENTRYID
+# <a name="prop_mapi_identity_entryid"></a>PROP_MAPI_IDENTITY_ENTRYID
 
 Возвращает или задает идентификатор записи адресной книги для учетной записи.
   
@@ -29,11 +29,11 @@ ms.locfileid: "32326434"
 |Тег свойства:  <br/> |0x20020102  <br/> |
 |Обращения  <br/> |Чтение и запись  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
- **Идентификатор\_EntryID\_идентификатора\_свойства Prop MAPI** не должен существовать на каждой учетной записи. Например, учетная запись Exchange может иметь **идентификатор\_EntryID\_идентификатора\_свойства Prop MAPI** и [Not\_Prop аккт_усер_емаил_аддр](prop_acct_user_email_addr.md), в то время как для учетной записи SMTP/POP3 ситуация обратна. **PROP\_МАПИ_ИДЕНТИТИ_ЕНТРИД** возвращает идентификатор записи, аналогичный значению, возвращенному _лппентрид_ в [IMAPISession:: куеридентити](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx). 
+ **Идентификатор\_EntryID\_идентификатора\_свойства Prop MAPI** не должен существовать на каждой учетной записи. Например, учетная запись Exchange может иметь **идентификатор\_EntryID\_идентификатора\_свойства Prop MAPI** и [Not\_Prop ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md), а для учетной записи SMTP/POP3 ситуация реверсирована. **PROP\_MAPI_IDENTITY_ENTRYID** возвращает идентификатор записи, аналогичный значению, возвращенному функцией _лппентрид_ в [IMAPISession:: куеридентити](https://msdn.microsoft.com/library/a2cdda90-5457-49a7-b98c-7273ffe5cbbc%28Office.15%29.aspx). 
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md)
+- [Сведения об API управления учетными записями](about-the-account-management-api.md)
 

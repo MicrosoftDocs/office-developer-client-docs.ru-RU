@@ -83,7 +83,7 @@ The following table describes the **WeatherServiceUrl** key.
 |**Key** <br/> |HKCU\Software\Microsoft\Office\15.0\Outlook\Options\Calendar  <br/> |
 |**Имя значения** <br/> |**WeatherServiceUrl** <br/> |
 |**Тип значения** <br/> |REG_SZ  <br/> |
-|**Значение по умолчанию** <br/> |ЕМПТИ_СТРИНГ  <br/> |
+|**Значение, используемое по умолчанию** <br/> |EMPTY_STRING  <br/> |
 |**Описание** <br/> |URL to a weather data service.  <br/> |
    
 ## <a name="dependent-conditions"></a>Dependent conditions

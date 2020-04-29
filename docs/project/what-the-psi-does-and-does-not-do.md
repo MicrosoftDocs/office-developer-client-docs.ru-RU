@@ -21,7 +21,7 @@ ms.locfileid: "32346531"
 |:-----|:-----|
 |||
    
-PSI разработано в дополнение к возможностям Project Professional 2013, а не предоставляют альтернативу сервера для всех функций Project профессиональный. Сторонние разработчики могут использовать PSI для создания веб-частей для локальной установки Project Web App и рабочих областей проектов, создания пользовательских приложений Windows и веб-приложений, взаимодействующих с локальными данными Project Server, разработки рабочего процесса логика для управления портфелем проектов, разработка локальных обработчиков событий с полным доверием и интеграция Project Server с другими приложениями. PSI нельзя использовать для разработки приложений для магазина Office, мобильных устройств или планшетов. для этого можно использовать клиентскую объектную модель (CSOM).
+PSI разработано в дополнение к возможностям Project Professional 2013, а не предоставляют альтернативу сервера для всех функций Project профессиональный. Сторонние разработчики могут создавать веб-части для локальных установок Project Web App и рабочих областей проектов, создавать пользовательские приложения Windows и веб-приложения, которые взаимодействуют с локальными данными Project Server, разрабатывать логику рабочих процессов для управления портфелем проектов, разрабатывать локальные обработчики событий с полным доверием и интегрировать Project Server с другими приложениями. PSI нельзя использовать для разработки приложений для магазина Office, мобильных устройств или планшетов. для этого можно использовать клиентскую объектную модель (CSOM).
   
 > [!NOTE]
 > PSI предоставляет более полный программный интерфейс для Project Server 2013, чем предоставляет CSOM. Но если в CSOM не предусмотрены необходимые вам функции, рекомендуется использовать CSOM для разработки новых приложений. Дополнительную информацию можно узнать [в статье как CSOM](what-the-csom-does-and-does-not-do.md). 
@@ -31,7 +31,7 @@ PSI разработано в дополнение к возможностям P
 
 Ниже приведены примеры некоторых приложений, которые PSI поддерживает для проектов и вычислений на стороне сервера:
   
-- **Автоматизация создания и управления сущностями в Project Server** Несмотря на то, что Project Professional 2013 и Project Web App совместно предназначены для управления и создания таких объектов, как проекты, корпоративные ресурсы и настраиваемые поля, часто существует несколько случаев, когда пользовательское приложение может экономить время с помощью массового или Повторяющиеся задания. PSI может автоматизировать несколько видов заданий, которые не выполняются в CSOM, например с кубами OLAP, анализом портфеля проектов, бизнес-факторами, уведомлениями, поставщиками связей объектов, безопасностью и совместимостью SharePoint. 
+- **Автоматизация создания и управления сущностями в Project Server** Несмотря на то, что Project Professional 2013 и Project Web App совместно предназначены для управления и создания таких объектов, как проекты, корпоративные ресурсы и настраиваемые поля, часто существует несколько случаев, когда пользовательское приложение может экономить время с помощью массовых или повторяющихся заданий. PSI может автоматизировать несколько видов заданий, которые не выполняются в CSOM, например с кубами OLAP, анализом портфеля проектов, бизнес-факторами, уведомлениями, поставщиками связей объектов, безопасностью и совместимостью SharePoint. 
     
 - **Получение данных в опубликованных или архивных таблицах базы данных Project** Так как прямой доступ к базе данных для таблиц черновиков, опубликованных и архивных данных не поддерживается, вы можете использовать PSI для чтения данных, недоступных в таблицах и представлениях отчетов. Например, получите сведения о версиях проекта, датах и изменениях, которые хранятся в архивных таблицах, а затем заполните в веб-части элемент управления "JS Grid" в веб-части. 
     
@@ -49,12 +49,12 @@ PSI разработано в дополнение к возможностям P
     
 - **Создание настраиваемых действий рабочего процесса для управления запросами** Используйте PSI в локальных и с полным доверием рабочих процессов для изменения и обновления предложений по проектам на основе шаблонов корпоративных проектов. Используйте настраиваемые поля Project, чтобы пометить проект сведениями, необходимыми для процесса запуска и утверждения. Добавьте задачи по определению этапов проекта, основных вех и конечных результатов. Когда предложения по проекту утверждаются, Рабочий процесс может изменить предложения в проектах с полным масштабированием, управляемых с помощью Project профессиональный. 
     
-- **Создание РАСШИРЕНИЙ PSI** (Не**рекомендуется.** Расширения устарели в Project Server 2013 и не будут поддерживаться в будущих выпусках.) PSI можно расширить с помощью настраиваемых служб с помощью интерфейса Windows Communication Foundation (WCF). Расширения PSI выполняются на компьютере Project Server и могут использовать ту же инфраструктуру безопасности, что и встроенные службы PSI. Расширения могут запрашивать таблицы отчетов, использовать отдельные таблицы баз данных, объединять вызовы PSI для экономии пропускной способности и интегрируются с приложениями сторонних производителей и другими серверными компонентами. Более подробную информацию можно узнать в статье [Разработка РАСШИРЕНИЙ PSI](https://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx).
+- **Создание РАСШИРЕНИЙ PSI** (не**рекомендуется).** Расширения устарели в Project Server 2013 и не будут поддерживаться в будущих выпусках.) PSI можно расширить с помощью настраиваемых служб с помощью интерфейса Windows Communication Foundation (WCF). Расширения PSI выполняются на компьютере Project Server и могут использовать ту же инфраструктуру безопасности, что и встроенные службы PSI. Расширения могут запрашивать таблицы отчетов, использовать отдельные таблицы баз данных, объединять вызовы PSI для экономии пропускной способности и интегрируются с приложениями сторонних производителей и другими серверными компонентами. Более подробную информацию можно узнать в статье [Разработка РАСШИРЕНИЙ PSI](https://msdn.microsoft.com/library/1b484623-94fb-47c9-84c1-3e68a9133042%28Office.15%29.aspx).
     
 - **Использование олицетворения в локальных приложениях с полным доверием** Для вызовов интерфейса WCF PSI можно использовать олицетворение, чтобы приложение предполагало разрешения безопасности олицетворяемого пользователя. Олицетворение следует применять экономно и осторожно. Чтение и обновление сведений о состоянии для других пользователей не требует олицетворения. Новые приложения, требующие олицетворения, должны использовать CSOM и протокол OAuth вместо PSI. Более подробную информацию об олицетворении с помощью PSI можно узнать [в статье use олицетворение в WCF](https://msdn.microsoft.com/library/e3597901-2f02-44a2-8076-d32aae540b38%28Office.15%29.aspx).
     
 > [!NOTE]
-> В некоторых случаях PSI можно использовать в клиентских приложениях с CSOM и Project Online. Если вы используете веб-службу PSI на основе ASMX, приложение должно включать метод проверки подлинности объекта [Microsoft. Project. Client. ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) в CSOM и метод для проверки подлинности ** Клиентский объект System. Web. Services. Protocols. Соафттпклиентпротокол** . Пример использования веб-службы с SharePoint CSOM: [удаленНая проверка подлинности в SharePoint Online с проверкой ПодлиннОсти на основе утверждений](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx). _Гт_ из-за ограниченных разрешений на уровне приложения PSI невозможно использовать в приложениях, предназначенных для распространения в общедоступном магазине Office. В этом случае можно использовать только CSOM. 
+> В некоторых случаях PSI можно использовать в клиентских приложениях с CSOM и Project Online. Если вы используете веб-службу PSI на основе ASMX, приложение должно включать метод проверки подлинности объекта [Microsoft. Project. Client. ProjectContext](https://msdn.microsoft.com/library/Microsoft.ProjectServer.Client.ProjectContext.aspx) в CSOM и метод для проверки подлинности клиентского объекта **System. Web. Services. Protocols. соафттпклиентпротокол** . Пример использования веб-службы с SharePoint CSOM: [Удаленная проверка подлинности в SharePoint Online с проверкой подлинности на основе утверждений](https://msdn.microsoft.com/library/49067f7a-3020-478f-ba97-4b7ce3ea9b87%28Office.15%29.aspx). > из-за ограниченных разрешений на уровне приложения PSI невозможно использовать в приложениях, предназначенных для распространения в общедоступном магазине Office. В этом случае можно использовать только CSOM. 
   
 ## <a name="what-the-psi-does-not-do"></a>Что не делает PSI
 <a name="pj14_WhatPSIDoes_DoesNotDo"> </a>
@@ -151,7 +151,7 @@ PSI разработано в дополнение к возможностям P
     
 - Изменение начисления фиксированной стоимости задач.
     
-- Изменение содержимого поля [таск_нотес](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_NOTES.aspx) . PSI может считывать только текстовую часть заметок о задачах, которые представляют собой двоичные данные в формате RTF. Кроме того, вы можете изменять Заметки назначений ( [ассн_нотес](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.AssignmentRow.ASSN_NOTES.aspx) ), которые являются текстовыми данными. База данных отчетов не включает заметки о задачах и заданиях. 
+- Изменение содержимого поля [TASK_NOTES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_NOTES.aspx) . PSI может считывать только текстовую часть заметок о задачах, которые представляют собой двоичные данные в формате RTF. Кроме того, вы можете изменять Заметки назначений ( [ASSN_NOTES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.AssignmentRow.ASSN_NOTES.aspx) ), являющиеся текстовыми данными. База данных отчетов не включает заметки о задачах и заданиях. 
     
 - Создание или изменение повторяющихся задач.
     
@@ -159,7 +159,7 @@ PSI разработано в дополнение к возможностям P
     
 - Создание новой задачи с помощью календаря задачи.
     
-- Изменение значения поля [таск_игнорес_рес_кал](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_IGNORES_RES_CAL.aspx) (задача игнорирует календарь ресурса). 
+- Изменение значения поля [TASK_IGNORES_RES_CAL](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_IGNORES_RES_CAL.aspx) (задача игнорирует календарь ресурса). 
     
 - Изменение активного состояния задачи с помощью [проект](https://msdn.microsoft.com/library/WebSvcProject.Project.QueueUpdateProject.aspx) , если в одном вызове вносятся дополнительные изменения. Для получения дополнительных сведений ознакомьтесь с разделом *планирование проектов на сервере* в статье [программирование Project Server](project-server-programmability.md).
     
@@ -176,25 +176,25 @@ PSI разработано в дополнение к возможностям P
     
   - Настраиваемые поля, не относящиеся к формулам
     
-  - [ТАСК_НАМЕ](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_NAME.aspx)
+  - [TASK_NAME](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_NAME.aspx)
     
-  - [ТАСК_АУТЛИНЕ_ЛЕВЕЛ](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_OUTLINE_LEVEL.aspx)
+  - [TASK_OUTLINE_LEVEL](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_OUTLINE_LEVEL.aspx)
     
-  - [ТАСК_ИС_МАРКЕД](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_IS_MARKED.aspx)
+  - [TASK_IS_MARKED](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_IS_MARKED.aspx)
     
-  - [ТАСК_КОНСТРАИНТ_ТИПЕ](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_CONSTRAINT_TYPE.aspx)
+  - [TASK_CONSTRAINT_TYPE](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_CONSTRAINT_TYPE.aspx)
     
-  - [ТАСК_КОНСТРАИНТ_ДАТЕ](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_CONSTRAINT_DATE.aspx)
+  - [TASK_CONSTRAINT_DATE](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_CONSTRAINT_DATE.aspx)
     
-  - [ТАСК_ПРИОРИТИ](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_PRIORITY.aspx)
+  - [TASK_PRIORITY](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_PRIORITY.aspx)
     
-  - [ТАСК_ДЕАДЛИНЕ](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_DEADLINE.aspx)
+  - [TASK_DEADLINE](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_DEADLINE.aspx)
     
-  - [ТАСК_ФИКСЕД_КОСТ](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_FIXED_COST.aspx)
+  - [TASK_FIXED_COST](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_FIXED_COST.aspx)
     
-  - [Таск_фиксед_кост_аккруал](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_FIXED_COST_ACCRUAL.aspx) (задайте значение только при создании задачи) 
+  - [TASK_FIXED_COST_ACCRUAL](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_FIXED_COST_ACCRUAL.aspx) (задать значение только при создании задачи) 
     
-  - [ТАСК_ВБС](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_WBS.aspx)
+  - [TASK_WBS](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.TaskRow.TASK_WBS.aspx)
     
 Для суммарной задачи проекта действуют те же ограничения PSI, что и для Project профессиональный. PSI может редактировать назначения бюджета, включая бюджеты затрат.
   
@@ -202,33 +202,33 @@ PSI разработано в дополнение к возможностям P
 
 - Изменение типа проекта между планом от запуска (СФС) и планирование от окончания (СФФ). (PSI может создать проект как СФС или СФФ, но после его создания его можно будет изменить только в Project профессиональный.)
     
-- Изменение базового календаря проекта ([кал_уид](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.CAL_UID.aspx) ) после создания проекта. 
+- Изменение базового календаря проекта ([CAL_UID](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.CAL_UID.aspx) ) после создания проекта. 
     
 - Изменение параметров для вычислений. С помощью PSI можно задать следующие параметры вычислений при создании проекта, но для изменения параметров требуется Project профессиональный. В представлении Backstage выберите **Параметры**, а затем выберите вкладку **Расписание** в диалоговом окне **Параметры проекта** . 
     
-  - [ПРОЖ_ОПТ_КАЛК_АКТ_КОСТС](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_CALC_ACT_COSTS.aspx)
+  - [PROJ_OPT_CALC_ACT_COSTS](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_CALC_ACT_COSTS.aspx)
     
-  - [ПРОЖ_ОПТ_КРИТИКАЛ_СЛАКК_ЛИМИТ](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_CRITICAL_SLACK_LIMIT.aspx)
+  - [PROJ_OPT_CRITICAL_SLACK_LIMIT](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_CRITICAL_SLACK_LIMIT.aspx)
     
-  - [ПРОЖ_ОПТ_ХОНОР_КОНСТРАИНТС](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_HONOR_CONSTRAINTS.aspx)
+  - [PROJ_OPT_HONOR_CONSTRAINTS](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_HONOR_CONSTRAINTS.aspx)
     
-  - [ПРОЖ_ОПТ_МОВЕ_АКТУАЛ_ИФ_ЛАТЕР](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_MOVE_ACTUAL_IF_LATER.aspx)
+  - [PROJ_OPT_MOVE_ACTUAL_IF_LATER](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_MOVE_ACTUAL_IF_LATER.aspx)
     
-  - [ПРОЖ_ОПТ_МОВЕ_АКТУАЛ_ТО_СТАТУС](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_MOVE_ACTUAL_TO_STATUS.aspx)
+  - [PROJ_OPT_MOVE_ACTUAL_TO_STATUS](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_MOVE_ACTUAL_TO_STATUS.aspx)
     
-  - [ПРОЖ_ОПТ_МОВЕ_РЕМАИНИНГ_ИФ_ЕАРЛИЕР](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_MOVE_REMAINING_IF_EARLIER.aspx)
+  - [PROJ_OPT_MOVE_REMAINING_IF_EARLIER](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_MOVE_REMAINING_IF_EARLIER.aspx)
     
-  - [ПРОЖ_ОПТ_МОВЕ_РЕМАИНИНГ_ТО_СТАТУС](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_MOVE_REMAINING_TO_STATUS.aspx)
+  - [PROJ_OPT_MOVE_REMAINING_TO_STATUS](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_MOVE_REMAINING_TO_STATUS.aspx)
     
-  - [ПРОЖ_ОПТ_МУЛТ_КРИТИКАЛ_ПАСС](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_MULT_CRITICAL_PATHS.aspx)
+  - [PROJ_OPT_MULT_CRITICAL_PATHS](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_MULT_CRITICAL_PATHS.aspx)
     
-  - [ПРОЖ_ОПТ_СПЛИТ_ИН_ПРОГРЕСС](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_SPLIT_IN_PROGRESS.aspx)
+  - [PROJ_OPT_SPLIT_IN_PROGRESS](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_SPLIT_IN_PROGRESS.aspx)
     
-  - [ПРОЖ_ОПТ_СПРЕАД_АКТ_КОСТС](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_SPREAD_ACT_COSTS.aspx)
+  - [PROJ_OPT_SPREAD_ACT_COSTS](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_SPREAD_ACT_COSTS.aspx)
     
-  - [ПРОЖ_ОПТ_СПРЕАД_ПКТ_КОМП](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_SPREAD_PCT_COMP.aspx)
+  - [PROJ_OPT_SPREAD_PCT_COMP](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_SPREAD_PCT_COMP.aspx)
     
-  - [ПРОЖ_ОПТ_ТАСК_УПДАТЕС_РЕС](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
+  - [PROJ_OPT_TASK_UPDATES_RES](https://msdn.microsoft.com/library/WebSvcProject.ProjectDataSet.ProjectRow.PROJ_OPT_TASK_UPDATES_RES.aspx)
     
 ## <a name="see-also"></a>См. также
 

@@ -23,21 +23,21 @@ ms.locfileid: "32319462"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит имена контактов, связанных с элементом.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Диспидконтактс  <br/> |
-|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Связанные свойства:  <br/> |диспидконтактс  <br/> |
+|Набор свойств:  <br/> |PSETID_Common  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x0000853A  <br/> |
-|Тип данных:  <br/> |ПТ_МВ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_MV_UNICODE  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Это свойство содержит свойство **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) для каждой записи **EntryID** адресной книги, на которую ссылается значение свойства **диспидконтактлинкентри** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)). Она может включать имена, не указанные в **диспидконтактлинкентри**.
+Данное свойство содержит свойство **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) для каждой записи **EntryID** адресной книги, на которую ссылается значение свойства **диспидконтактлинкентри** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)). Она может включать имена, не указанные в **диспидконтактлинкентри**.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -59,7 +59,7 @@ ms.locfileid: "32319462"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

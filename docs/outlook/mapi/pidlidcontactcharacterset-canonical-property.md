@@ -23,21 +23,21 @@ ms.locfileid: "32319707"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Задает кодировку, используемую для этого контакта.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Диспидконтактчарсет  <br/> |
-|Набор свойств:  <br/> |Псетид_аддресс  <br/> |
+|Связанные свойства:  <br/> |диспидконтактчарсет  <br/> |
+|Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x00008023  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-С помощью этого свойства приложения могут создавать зависимые от набора символов список вариантов для **диспидфилеундер** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)), **Диспидфилеундерлист** ([PidLidFileUnderList](pidlidfileunderlist-canonical-property.md)) и **диспидфилеундерид **Свойства ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)). Если значение свойства — "0x00000000" или "0x00000001", то приложения должны считать это свойство незаданным.
+Приложения могут использовать это свойство, чтобы создать список зависимых символов для выбора для свойств **диспидфилеундер** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)), **Диспидфилеундерлист** ([PidLidFileUnderList](pidlidfileunderlist-canonical-property.md)) и **диспидфилеундерид** ([PidLidFileUnderId](pidlidfileunderid-canonical-property.md)). Если значение свойства — "0x00000000" или "0x00000001", то приложения должны считать это свойство незаданным.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -51,7 +51,7 @@ ms.locfileid: "32319707"
   
 > Задает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -22,7 +22,7 @@ ms.locfileid: "32315248"
 
 В этом примере кода метод [GetCalendarExporter](https://msdn.microsoft.com/library/bb610021\(v=office.15\)) объекта [Folder](https://msdn.microsoft.com/library/bb645774\(v=office.15\)) используется, чтобы получить объект [CalendarSharing](https://msdn.microsoft.com/library/bb624344\(v=office.15\)) для папки "Календарь" по умолчанию и конкретного недельного периода. Затем вызывается метод [ForwardAsICal](https://msdn.microsoft.com/library/bb652866\(v=office.15\)) объекта **CalendarSharing** и отображается сообщение с содержательной частью iCalendar.
 
-Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Не следует использовать инструкции **Imports** и **using** непосредственно перед функциями в примере кода, но их необходимо добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
+Если для тестирования этого примера кода вы используете Visual Studio, сначала добавьте ссылку на компонент библиотеки объектов Microsoft Outlook 15.0 и укажите переменную Outlook при импорте пространства имен **Microsoft.Office.Interop.Outlook**. Инструкция **Imports** или **using** не должна идти непосредственно перед функциями в примере кода, но ее нужно добавить перед объявлением общедоступного класса. В строках кода ниже показано, как выполнить импорт и назначение на Visual Basic и C\#.
 
 ```vb
 Imports Outlook = Microsoft.Office.Interop.Outlook

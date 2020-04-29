@@ -23,22 +23,22 @@ ms.locfileid: "32278732"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит уникальный двоичный код (ключ записи) хранилища сообщений, в котором находится объект.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_СТОРЕ_РЕКОРД_КЭЙ  <br/> |
+|Связанные свойства:  <br/> |PR_STORE_RECORD_KEY  <br/> |
 |Идентификатор:  <br/> |0x0FFA  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Свойства идентификатора  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
-Для хранилища сообщений это свойство идентично свойству **пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) хранилища.
+Для хранилища сообщений это свойство идентично свойству **PR_RECORD_KEY** собственного хранилища ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)).
   
-Отношение между этим свойством и **пр_рекорд_кэй** это то же, что и отношение между **пр_сторе_ентрид** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) и **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Отношение между этим свойством и **PR_RECORD_KEY** это то же, что и отношение между **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) и **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -52,7 +52,7 @@ ms.locfileid: "32278732"
   
 > Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

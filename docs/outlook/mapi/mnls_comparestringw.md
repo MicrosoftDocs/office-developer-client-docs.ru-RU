@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356849"
 ---
-# <a name="mnlscomparestringw"></a>MNLS_CompareStringW
+# <a name="mnls_comparestringw"></a>MNLS_CompareStringW
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Сравнивает две строки Юникода.
   
@@ -49,7 +49,7 @@ int MNLS_CompareStringW (
     
  _cch1_
   
-> возврата Длина в символах первой строки Юникода за исключением завершающего знака null. Приложение может предоставить отрицательное значение, если строка завершается нулем. В этом случае функция **мнлс_компарестрингв** определяет длину автоматически. 
+> возврата Длина в символах первой строки Юникода за исключением завершающего знака null. Приложение может предоставить отрицательное значение, если строка завершается нулем. В этом случае функция **MNLS_CompareStringW** автоматически определяет длину. 
     
  _pstr2_
   
@@ -65,13 +65,13 @@ int MNLS_CompareStringW (
   
 ## <a name="remarks"></a>Примечания
 
-Эта функция служит оболочкой для [компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **Мнлс_компарестрингв** имеет те же параметры и имеет такое же поведение, как и [компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
+Эта функция служит оболочкой для [компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** имеет те же параметры и имеет такое же поведение, что и [компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
   
 ## <a name="see-also"></a>См. также
 
 
 
-[Компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
+[компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
   
-[Компарестринжекс](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
+[компарестринжекс](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
 

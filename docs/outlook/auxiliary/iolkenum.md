@@ -24,8 +24,8 @@ ms.locfileid: "32322101"
 |Наследование от:  <br/> |[Интерфейс](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
 |Предоставлено:  <br/> |[IOlkAccountManager::EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |
-|Вызывающая сторона:  <br/> |Клиент  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_иолкенум  <br/> |
+|Вызывающая сторона:  <br/> |Client  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IOlkEnum  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
 
@@ -34,14 +34,14 @@ ms.locfileid: "32322101"
 |[GetCount](iolkenum-getcount.md) <br/> |Получает количество учетных записей в перечислителе.  <br/> |
 |[Reset](iolkenum-reset.md) <br/> |Сбрасывает перечислитель в начало.  <br/> |
 |[GetNext](iolkenum-getnext.md) <br/> |Получает следующую учетную запись в перечислителе.  <br/> |
-|[Skip](iolkenum-skip.md) <br/> |ПроПускает указанное число учетных записей в перечислителе.  <br/> |
+|[Skip](iolkenum-skip.md) <br/> |Пропускает указанное число учетных записей в перечислителе.  <br/> |
    
-## <a name="remarks"></a>Замечания
+## <a name="remarks"></a>Примечания
 
 Этот интерфейс возвращается методом **иолкаккаунтманажер:: EnumerateAccounts** при получении перечислителя учетных записей. 
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md) 
+- [Сведения об API управления учетными записями](about-the-account-management-api.md) 
 - [Constants (Account management API)](constants-account-management-api.md)
 

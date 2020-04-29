@@ -23,13 +23,13 @@ ms.locfileid: "32342535"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит 64-разрядную версию свойства **пр_мессаже_сизе** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)).
+Содержит 64-разрядную версию свойства **PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_МЕССАЖЕ_СИЗЕ_ЕКСТЕНДЕД  <br/> |
+|Связанные свойства:  <br/> |PR_MESSAGE_SIZE_EXTENDED  <br/> |
 |Идентификатор:  <br/> |0x0E08  <br/> |
 |Тип данных:  <br/> |PT_I8  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
@@ -54,7 +54,7 @@ ms.locfileid: "32342535"
   
 > Указывает допустимые операции для основных объектов хранилища сообщений.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

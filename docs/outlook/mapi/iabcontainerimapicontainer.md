@@ -21,7 +21,7 @@ ms.locfileid: "32348960"
 ---
 # <a name="iabcontainer--imapicontainer"></a>IABContainer : IMAPIContainer
 
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Предоставляет доступ к контейнерам адресной книги. MAPI и клиентские приложения вызывают методы **иабконтаинер** , чтобы выполнять разрешение имен, а также создавать, копировать и удалять получателей. 
   
@@ -31,34 +31,34 @@ ms.locfileid: "32348960"
 |Предоставлено:  <br/> |Объекты контейнера адресной книги  <br/> |
 |Реализовано в:  <br/> |Поставщики адресных книг  <br/> |
 |Вызывающая сторона:  <br/> |MAPI и клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_иабконтаинер  <br/> |
-|Тип указателя:  <br/> |ЛПАБКОНТ  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IABContainer  <br/> |
+|Тип указателя:  <br/> |лпабконт  <br/> |
 |Модель транзакции:  <br/> |Транзакции  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[Креатинтри](iabcontainer-createentry.md) <br/> |Создает новую запись, которая может быть пользователем обмена сообщениями, списком рассылки или другим контейнером.  <br/> |
-|[Копентриес](iabcontainer-copyentries.md) <br/> |Копирует одну или несколько записей, как правило, пользователи системы обмена сообщениями или списки рассылки.  <br/> |
-|[Делетинтриес](iabcontainer-deleteentries.md) <br/> |Удаляет одну или несколько записей, как правило, пользователи системы обмена сообщениями, списки рассылки или другие контейнеры.  <br/> |
+|[креатинтри](iabcontainer-createentry.md) <br/> |Создает новую запись, которая может быть пользователем обмена сообщениями, списком рассылки или другим контейнером.  <br/> |
+|[копентриес](iabcontainer-copyentries.md) <br/> |Копирует одну или несколько записей, как правило, пользователи системы обмена сообщениями или списки рассылки.  <br/> |
+|[делетинтриес](iabcontainer-deleteentries.md) <br/> |Удаляет одну или несколько записей, как правило, пользователи системы обмена сообщениями, списки рассылки или другие контейнеры.  <br/> |
 |[ResolveNames](iabcontainer-resolvenames.md) <br/> |Выполняет разрешение имен для одной или нескольких записей получателей.  <br/> |
    
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**Пр_контаинер_флагс** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
-|**НеОбязательные свойства**|**Access**|
+|**Необязательные свойства**|**Access**|
 |:-----|:-----|
-|**Пр_контаинер_контентс** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_контаинер_хиерарчи** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_деф_креате_дл** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_деф_креате_маилусер** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_дисплай_типе** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_DEF_CREATE_MAILUSER** ([PidTagDefCreateMailuser](pidtagdefcreatemailuser-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -66,7 +66,7 @@ ms.locfileid: "32348960"
   
 В контейнере адресной книги может существовать любое количество объектов User Messaging, списков рассылки и других контейнеров адресных книг. Как и в случае с любым контейнером, клиенты или поставщики услуг могут использовать контейнер адресной книги для открытия одной из записей или для получения таблицы иерархии или таблицы контента. Контейнеры адресных книг также обеспечивают разрешение имен и, в зависимости от поставщика, возможность добавлять, удалять или изменять записи.
   
-MAPI определяет специальный контейнер адресной книги, который называется личной адресной книгой (PAB), которая содержит записи, скопированные из других контейнеров. Адрес личной АДРЕСНОЙ книги всегда является изменяемым. Обычно пользователи заполняют личную адресную книгу записями, указывающими получателям, с которыми они чаще всего часто обмениваются данными. Адресная книга также может содержать один и тот же адрес, а новые получатели не являются частью какого бы то ни было контейнера адресной книги.
+MAPI определяет специальный контейнер адресной книги, который называется личной адресной книгой (PAB), которая содержит записи, скопированные из других контейнеров. Адрес личной адресной книги всегда является изменяемым. Обычно пользователи заполняют личную адресную книгу записями, указывающими получателям, с которыми они чаще всего часто обмениваются данными. Адресная книга также может содержать один и тот же адрес, а новые получатели не являются частью какого бы то ни было контейнера адресной книги.
   
 ## <a name="see-also"></a>См. также
 

@@ -15,11 +15,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32356842"
 ---
-# <a name="mnlslstrcmpw"></a>MNLS_lstrcmpW
+# <a name="mnls_lstrcmpw"></a>MNLS_lstrcmpW
 
  
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Сравнивает две строки Юникода.
   
@@ -41,15 +41,15 @@ int MNLS_lstrcmpW(
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает значения, описанные для эквивалентного вызова **мнлс_компарестрингв** , за исключением кстр_екуал. 
+Возвращает значения, описанные для эквивалентного вызова **MNLS_CompareStringW** , за исключением CSTR_EQUAL. 
   
 ## <a name="remarks"></a>Примечания
 
- _Мнлс_лстркмпв_ выполняет сравнение, вызывая [мнлс_компарестрингв](mnls_comparestringw.md) с языковым стандартом жетусердефаултлЦид, 0 для флагов и – 1 для cch1 и cch2. 
+ _MNLS_lstrcmpW_ выполняет сравнение, вызывая [MNLS_CompareStringW](mnls_comparestringw.md) с языковым стандартом жетусердефаултлЦид, 0 для флагов и – 1 для cch1 и cch2. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[ЖетусердефаултлЦид](https://msdn.microsoft.com/library/dd318135%28VS.85%29.aspx)
+[жетусердефаултлЦид](https://msdn.microsoft.com/library/dd318135%28VS.85%29.aspx)
 

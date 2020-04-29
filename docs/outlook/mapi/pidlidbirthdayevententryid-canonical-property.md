@@ -23,21 +23,21 @@ ms.locfileid: "32342023"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает идентификатор **** записи необязательной встречи, представляющей день рождения контакта. 
+Указывает идентификатор **EntryId** записи необязательной встречи, представляющей день рождения контакта. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Диспидбирсдайевентеид  <br/> |
-|Набор свойств:  <br/> |Псетид_аддресс  <br/> |
+|Связанные свойства:  <br/> |диспидбирсдайевентеид  <br/> |
+|Набор свойств:  <br/> |PSETID_Address  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x0000804D  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
-## <a name="remarks"></a>Комментарии
+## <a name="remarks"></a>Примечания
 
-Встреча. это свойство должно быть связано с контактом с помощью **диспидапптстатефлагс** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)), **диспидконтактлинксеарчкэй** ([PidLidContactLinkSearchKey](pidlidcontactlinksearchkey-canonical-property.md)) и ** свойства Диспидконтактлинкнаме** ([PidLidContactLinkName](pidlidcontactlinkname-canonical-property.md)), указанные в [[MS-окскмсг]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
+Встреча. это свойство должно быть связано с контактом с помощью свойств **диспидапптстатефлагс** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)), **Диспидконтактлинксеарчкэй** ([PidLidContactLinkSearchKey](pidlidcontactlinksearchkey-canonical-property.md)) и **Диспидконтактлинкнаме** ([PidLidContactLinkName](pidlidcontactlinkname-canonical-property.md)), как указано в [[MS-окскмсг]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -51,7 +51,7 @@ ms.locfileid: "32342023"
   
 > Задает свойства и операции, допустимые для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   
