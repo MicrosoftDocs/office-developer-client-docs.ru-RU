@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438220"
 ---
-# <a name="eventdblclick-cell-events-section"></a><span data-ttu-id="8e6d8-103">EventDblClick Cell (Events Section)</span><span class="sxs-lookup"><span data-stu-id="8e6d8-103">EventDblClick Cell (Events Section)</span></span>
+# <a name="eventdblclick-cell-events-section"></a><span data-ttu-id="cc3a3-103">EventDblClick Cell (Events Section)</span><span class="sxs-lookup"><span data-stu-id="cc3a3-103">EventDblClick Cell (Events Section)</span></span>
 
-<span data-ttu-id="8e6d8-104">Ячейка события, вычисляемая при двойном щелчке фигуры.</span><span class="sxs-lookup"><span data-stu-id="8e6d8-104">An event cell that is evaluated when a shape is double-clicked.</span></span>
+<span data-ttu-id="cc3a3-104">Ячейка события, вычисляемая при двойном щелчке фигуры.</span><span class="sxs-lookup"><span data-stu-id="cc3a3-104">An event cell that is evaluated when a shape is double-clicked.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="8e6d8-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="8e6d8-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cc3a3-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="cc3a3-105">Remarks</span></span>
 
-<span data-ttu-id="8e6d8-106">Ячейки событий оцениваются только при возникновении события, а не при вводе формул.</span><span class="sxs-lookup"><span data-stu-id="8e6d8-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
+<span data-ttu-id="cc3a3-106">Ячейки событий оцениваются только при возникновении события, а не при вводе формул.</span><span class="sxs-lookup"><span data-stu-id="cc3a3-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
   
-<span data-ttu-id="8e6d8-107">Чтобы получить ссылку на ячейку EventDblClick по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="8e6d8-107">To get a reference to the EventDblClick cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="cc3a3-107">Чтобы получить ссылку на ячейку EventDblClick по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="cc3a3-107">To get a reference to the EventDblClick cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="8e6d8-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="8e6d8-108">Cell name:</span></span>  <br/> | <span data-ttu-id="8e6d8-109">EventDblClick</span><span class="sxs-lookup"><span data-stu-id="8e6d8-109">EventDblClick</span></span>  <br/> |
+| <span data-ttu-id="cc3a3-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="cc3a3-108">Cell name:</span></span>  <br/> | <span data-ttu-id="cc3a3-109">EventDblClick</span><span class="sxs-lookup"><span data-stu-id="cc3a3-109">EventDblClick</span></span>  <br/> |
    
-<span data-ttu-id="8e6d8-110">Чтобы получить ссылку на ячейку EventDblClick по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="8e6d8-110">To get a reference to the EventDblClick cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="cc3a3-110">Чтобы получить ссылку на ячейку EventDblClick по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="cc3a3-110">To get a reference to the EventDblClick cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="8e6d8-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="8e6d8-111">Section index:</span></span>  <br/> |<span data-ttu-id="8e6d8-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="8e6d8-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="8e6d8-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="8e6d8-113">Row index:</span></span>  <br/> |<span data-ttu-id="8e6d8-114">**Висровевент**</span><span class="sxs-lookup"><span data-stu-id="8e6d8-114">**visRowEvent**</span></span> <br/> |
-| <span data-ttu-id="8e6d8-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="8e6d8-115">Cell index:</span></span>  <br/> |<span data-ttu-id="8e6d8-116">**Висевтцеллдблкликк**</span><span class="sxs-lookup"><span data-stu-id="8e6d8-116">**visEvtCellDblClick**</span></span> <br/> |
+| <span data-ttu-id="cc3a3-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="cc3a3-111">Section index:</span></span>  <br/> |<span data-ttu-id="cc3a3-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cc3a3-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="cc3a3-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="cc3a3-113">Row index:</span></span>  <br/> |<span data-ttu-id="cc3a3-114">**висровевент**</span><span class="sxs-lookup"><span data-stu-id="cc3a3-114">**visRowEvent**</span></span> <br/> |
+| <span data-ttu-id="cc3a3-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="cc3a3-115">Cell index:</span></span>  <br/> |<span data-ttu-id="cc3a3-116">**висевтцеллдблкликк**</span><span class="sxs-lookup"><span data-stu-id="cc3a3-116">**visEvtCellDblClick**</span></span> <br/> |
    
 

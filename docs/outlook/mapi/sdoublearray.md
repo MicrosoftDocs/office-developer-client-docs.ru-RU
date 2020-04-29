@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439270"
 ---
-# <a name="sdoublearray"></a><span data-ttu-id="2e7d1-103">SDoubleArray</span><span class="sxs-lookup"><span data-stu-id="2e7d1-103">SDoubleArray</span></span>
+# <a name="sdoublearray"></a><span data-ttu-id="a1ad9-103">SDoubleArray</span><span class="sxs-lookup"><span data-stu-id="a1ad9-103">SDoubleArray</span></span>
 
   
   
-<span data-ttu-id="2e7d1-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2e7d1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a1ad9-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a1ad9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2e7d1-105">Содержит массив двойной точности, используемый для описания свойства типа ПТ_МВ_ДАУБЛЕ.</span><span class="sxs-lookup"><span data-stu-id="2e7d1-105">Contains an array of doubles used to describe a property of type PT_MV_DOUBLE.</span></span>
+<span data-ttu-id="a1ad9-105">Содержит массив двойной точности, используемый для описания свойства типа PT_MV_DOUBLE.</span><span class="sxs-lookup"><span data-stu-id="a1ad9-105">Contains an array of doubles used to describe a property of type PT_MV_DOUBLE.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2e7d1-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="2e7d1-106">Header file:</span></span>  <br/> |<span data-ttu-id="2e7d1-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="2e7d1-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="a1ad9-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="a1ad9-106">Header file:</span></span>  <br/> |<span data-ttu-id="a1ad9-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="a1ad9-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SDoubleArray
@@ -40,26 +40,26 @@ typedef struct _SDoubleArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="2e7d1-108">Members</span><span class="sxs-lookup"><span data-stu-id="2e7d1-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="a1ad9-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="a1ad9-108">Members</span></span>
 
- <span data-ttu-id="2e7d1-109">**Квалуес**</span><span class="sxs-lookup"><span data-stu-id="2e7d1-109">**cValues**</span></span>
+ <span data-ttu-id="a1ad9-109">**квалуес**</span><span class="sxs-lookup"><span data-stu-id="a1ad9-109">**cValues**</span></span>
   
-> <span data-ttu-id="2e7d1-110">Количество значений в массиве, на которое указывает элемент **лпдбл** .</span><span class="sxs-lookup"><span data-stu-id="2e7d1-110">Count of values in the array pointed to by the **lpdbl** member.</span></span> 
+> <span data-ttu-id="a1ad9-110">Количество значений в массиве, на которое указывает элемент **лпдбл** .</span><span class="sxs-lookup"><span data-stu-id="a1ad9-110">Count of values in the array pointed to by the **lpdbl** member.</span></span> 
     
- <span data-ttu-id="2e7d1-111">**лпдбл**</span><span class="sxs-lookup"><span data-stu-id="2e7d1-111">**lpdbl**</span></span>
+ <span data-ttu-id="a1ad9-111">**лпдбл**</span><span class="sxs-lookup"><span data-stu-id="a1ad9-111">**lpdbl**</span></span>
   
-> <span data-ttu-id="2e7d1-112">Указатель на массив двойных значений.</span><span class="sxs-lookup"><span data-stu-id="2e7d1-112">Pointer to an array of double values.</span></span>
+> <span data-ttu-id="a1ad9-112">Указатель на массив двойных значений.</span><span class="sxs-lookup"><span data-stu-id="a1ad9-112">Pointer to an array of double values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="2e7d1-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="2e7d1-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a1ad9-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="a1ad9-113">Remarks</span></span>
 
-<span data-ttu-id="2e7d1-114">Дополнительные сведения о ПТ_МВ_ДАУБЛЕ приведены в разделе [список типов свойств](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="2e7d1-114">For more information about PT_MV_DOUBLE, see [List of Property Types](property-types.md).</span></span>
+<span data-ttu-id="a1ad9-114">Дополнительные сведения о PT_MV_DOUBLE приведены в разделе [список типов свойств](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="a1ad9-114">For more information about PT_MV_DOUBLE, see [List of Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="2e7d1-115">См. также</span><span class="sxs-lookup"><span data-stu-id="2e7d1-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a1ad9-115">См. также</span><span class="sxs-lookup"><span data-stu-id="a1ad9-115">See also</span></span>
 
 
 
-[<span data-ttu-id="2e7d1-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="2e7d1-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="a1ad9-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="a1ad9-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="2e7d1-117">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="2e7d1-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="a1ad9-117">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="a1ad9-117">MAPI Structures</span></span>](mapi-structures.md)
 

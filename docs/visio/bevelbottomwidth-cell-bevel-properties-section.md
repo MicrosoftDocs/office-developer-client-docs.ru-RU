@@ -14,24 +14,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439676"
 ---
-# <a name="bevelbottomwidth-cell-bevel-properties-section"></a><span data-ttu-id="bf36a-103">BevelBottomWidth Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="bf36a-103">BevelBottomWidth Cell (Bevel Properties Section)</span></span>
+# <a name="bevelbottomwidth-cell-bevel-properties-section"></a><span data-ttu-id="2e19d-103">BevelBottomWidth Cell (Bevel Properties Section)</span><span class="sxs-lookup"><span data-stu-id="2e19d-103">BevelBottomWidth Cell (Bevel Properties Section)</span></span>
 
-<span data-ttu-id="bf36a-104">Определяет ширину нижнего скоса в точках.</span><span class="sxs-lookup"><span data-stu-id="bf36a-104">Determines the width of the bottom bevel in points.</span></span> 
+<span data-ttu-id="2e19d-104">Определяет ширину нижнего скоса в точках.</span><span class="sxs-lookup"><span data-stu-id="2e19d-104">Determines the width of the bottom bevel in points.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="bf36a-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="bf36a-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2e19d-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="2e19d-105">Remarks</span></span>
 
-<span data-ttu-id="bf36a-106">Чтобы получить ссылку на ячейку **BevelBottomWidth** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="bf36a-106">To get a reference to the **BevelBottomWidth** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="2e19d-106">Чтобы получить ссылку на ячейку **BevelBottomWidth** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="2e19d-106">To get a reference to the **BevelBottomWidth** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="bf36a-107">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="bf36a-107">Cell name:</span></span>  <br/> | <span data-ttu-id="bf36a-108">BevelBottomWidth</span><span class="sxs-lookup"><span data-stu-id="bf36a-108">BevelBottomWidth</span></span>  <br/> |
+| <span data-ttu-id="2e19d-107">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="2e19d-107">Cell name:</span></span>  <br/> | <span data-ttu-id="2e19d-108">BevelBottomWidth</span><span class="sxs-lookup"><span data-stu-id="2e19d-108">BevelBottomWidth</span></span>  <br/> |
    
-<span data-ttu-id="bf36a-109">Чтобы получить ссылку на ячейку **BevelBottomWidth** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="bf36a-109">To get a reference to the **BevelBottomWidth** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="2e19d-109">Чтобы получить ссылку на ячейку **BevelBottomWidth** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="2e19d-109">To get a reference to the **BevelBottomWidth** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="bf36a-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="bf36a-110">Section index:</span></span>  <br/> |<span data-ttu-id="bf36a-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="bf36a-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="bf36a-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="bf36a-112">Row index:</span></span>  <br/> |<span data-ttu-id="bf36a-113">**Висровбевелпропертиес**</span><span class="sxs-lookup"><span data-stu-id="bf36a-113">**visRowBevelProperties**</span></span> <br/> |
-| <span data-ttu-id="bf36a-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="bf36a-114">Cell index:</span></span>  <br/> |<span data-ttu-id="bf36a-115">**Висбевелботтомвидс**</span><span class="sxs-lookup"><span data-stu-id="bf36a-115">**visBevelBottomWidth**</span></span> <br/> |
+| <span data-ttu-id="2e19d-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="2e19d-110">Section index:</span></span>  <br/> |<span data-ttu-id="2e19d-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="2e19d-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="2e19d-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="2e19d-112">Row index:</span></span>  <br/> |<span data-ttu-id="2e19d-113">**висровбевелпропертиес**</span><span class="sxs-lookup"><span data-stu-id="2e19d-113">**visRowBevelProperties**</span></span> <br/> |
+| <span data-ttu-id="2e19d-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="2e19d-114">Cell index:</span></span>  <br/> |<span data-ttu-id="2e19d-115">**висбевелботтомвидс**</span><span class="sxs-lookup"><span data-stu-id="2e19d-115">**visBevelBottomWidth**</span></span> <br/> |
    
 

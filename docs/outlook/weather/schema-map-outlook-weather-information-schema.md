@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541318"
 ---
-# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="b9254-103">Карта схемы (схема сведений о погоде Outlook)</span><span class="sxs-lookup"><span data-stu-id="b9254-103">Schema map (Outlook Weather Information Schema)</span></span>
+# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="b69db-103">Карта схемы (схема сведений о погоде Outlook)</span><span class="sxs-lookup"><span data-stu-id="b69db-103">Schema map (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="b9254-104">В этом разделе показано определение схемы схемы XML для сведений о погоде Outlook.</span><span class="sxs-lookup"><span data-stu-id="b9254-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
+<span data-ttu-id="b69db-104">В этом разделе показано определение схемы схемы XML для сведений о погоде Outlook.</span><span class="sxs-lookup"><span data-stu-id="b69db-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>

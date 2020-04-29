@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437695"
 ---
-# <a name="reference-outlook-auxiliary-reference"></a><span data-ttu-id="1e6a8-103">Справочник (вспомогательная Справка по Outlook)</span><span class="sxs-lookup"><span data-stu-id="1e6a8-103">Reference (Outlook auxiliary reference)</span></span>
+# <a name="reference-outlook-auxiliary-reference"></a><span data-ttu-id="abc5b-103">Справочник (вспомогательная Справка по Outlook)</span><span class="sxs-lookup"><span data-stu-id="abc5b-103">Reference (Outlook auxiliary reference)</span></span>
 
-<span data-ttu-id="1e6a8-104">В этом разделе приведены справочные материалы по следующим API в вспомогательном справочнике по Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="1e6a8-104">This section includes reference content for the following APIs in the Outlook 2013 Auxiliary Reference.</span></span>
+<span data-ttu-id="abc5b-104">В этом разделе приведены справочные материалы по следующим API в вспомогательном справочнике по Outlook 2013.</span><span class="sxs-lookup"><span data-stu-id="abc5b-104">This section includes reference content for the following APIs in the Outlook 2013 Auxiliary Reference.</span></span>
 
-- [<span data-ttu-id="1e6a8-105">Account management API reference</span><span class="sxs-lookup"><span data-stu-id="1e6a8-105">Account management API reference</span></span>](account-management-api-reference.md)
+- [<span data-ttu-id="abc5b-105">Справочник по API управления учетными записями</span><span class="sxs-lookup"><span data-stu-id="abc5b-105">Account management API reference</span></span>](account-management-api-reference.md)
     
-- [<span data-ttu-id="1e6a8-106">Data degradation layer API reference</span><span class="sxs-lookup"><span data-stu-id="1e6a8-106">Data degradation layer API reference</span></span>](data-degradation-layer-api-reference.md)
+- [<span data-ttu-id="abc5b-106">Справочник по API уровня ухудшения данных</span><span class="sxs-lookup"><span data-stu-id="abc5b-106">Data degradation layer API reference</span></span>](data-degradation-layer-api-reference.md)
     
-- [<span data-ttu-id="1e6a8-107">Справочник по доступности API</span><span class="sxs-lookup"><span data-stu-id="1e6a8-107">Free/busy API reference</span></span>](free-busy-api-reference.md)
+- [<span data-ttu-id="abc5b-107">Справочник по доступности API</span><span class="sxs-lookup"><span data-stu-id="abc5b-107">Free/busy API reference</span></span>](free-busy-api-reference.md)
     
-- [<span data-ttu-id="1e6a8-108">Экспортированные API Outlook</span><span class="sxs-lookup"><span data-stu-id="1e6a8-108">Outlook exported APIs</span></span>](outlook-exported-apis.md)
+- [<span data-ttu-id="abc5b-108">Экспортированные API Outlook</span><span class="sxs-lookup"><span data-stu-id="abc5b-108">Outlook exported APIs</span></span>](outlook-exported-apis.md)
     
 

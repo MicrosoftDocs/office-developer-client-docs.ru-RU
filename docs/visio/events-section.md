@@ -16,8 +16,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437821"
 ---
-# <a name="events-section"></a><span data-ttu-id="f8f8d-104">Events Section</span><span class="sxs-lookup"><span data-stu-id="f8f8d-104">Events Section</span></span>
+# <a name="events-section"></a><span data-ttu-id="01824-104">Events Section</span><span class="sxs-lookup"><span data-stu-id="01824-104">Events Section</span></span>
 
-<span data-ttu-id="f8f8d-105">Содержит формулы для управления событиями фигур.</span><span class="sxs-lookup"><span data-stu-id="f8f8d-105">Contains formulas that control shape events.</span></span> <span data-ttu-id="f8f8d-106">Ячейки событий оцениваются только при возникновении события, а не при вводе формул.</span><span class="sxs-lookup"><span data-stu-id="f8f8d-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
+<span data-ttu-id="01824-105">Содержит формулы для управления событиями фигур.</span><span class="sxs-lookup"><span data-stu-id="01824-105">Contains formulas that control shape events.</span></span> <span data-ttu-id="01824-106">Ячейки событий оцениваются только при возникновении события, а не при вводе формул.</span><span class="sxs-lookup"><span data-stu-id="01824-106">Event cells are evaluated only when the event occurs, not upon formula entry.</span></span>
   
 

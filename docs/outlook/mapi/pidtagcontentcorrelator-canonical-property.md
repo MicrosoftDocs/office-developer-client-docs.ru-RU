@@ -19,46 +19,46 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438528"
 ---
-# <a name="pidtagcontentcorrelator-canonical-property"></a><span data-ttu-id="a2f8c-103">Каноническое свойство PidTagContentCorrelator</span><span class="sxs-lookup"><span data-stu-id="a2f8c-103">PidTagContentCorrelator Canonical Property</span></span>
+# <a name="pidtagcontentcorrelator-canonical-property"></a><span data-ttu-id="fac96-103">Каноническое свойство PidTagContentCorrelator</span><span class="sxs-lookup"><span data-stu-id="fac96-103">PidTagContentCorrelator Canonical Property</span></span>
 
   
   
-<span data-ttu-id="a2f8c-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a2f8c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="fac96-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="fac96-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a2f8c-105">Содержит значение, которое отправитель сообщения может использовать для сравнения отчета с исходным сообщением.</span><span class="sxs-lookup"><span data-stu-id="a2f8c-105">Contains a value the message sender can use to match a report with the original message.</span></span>
+<span data-ttu-id="fac96-105">Содержит значение, которое отправитель сообщения может использовать для сравнения отчета с исходным сообщением.</span><span class="sxs-lookup"><span data-stu-id="fac96-105">Contains a value the message sender can use to match a report with the original message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="a2f8c-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="a2f8c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="a2f8c-107">ПР_КОНТЕНТ_КОРРЕЛАТОР</span><span class="sxs-lookup"><span data-stu-id="a2f8c-107">PR_CONTENT_CORRELATOR</span></span>  <br/> |
-|<span data-ttu-id="a2f8c-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="a2f8c-108">Identifier:</span></span>  <br/> |<span data-ttu-id="a2f8c-109">0x0007</span><span class="sxs-lookup"><span data-stu-id="a2f8c-109">0x0007</span></span>  <br/> |
-|<span data-ttu-id="a2f8c-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="a2f8c-110">Data type:</span></span>  <br/> |<span data-ttu-id="a2f8c-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="a2f8c-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="a2f8c-112">Область:</span><span class="sxs-lookup"><span data-stu-id="a2f8c-112">Area:</span></span>  <br/> |<span data-ttu-id="a2f8c-113">Exchange;</span><span class="sxs-lookup"><span data-stu-id="a2f8c-113">Exchange</span></span>  <br/> |
+|<span data-ttu-id="fac96-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="fac96-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="fac96-107">PR_CONTENT_CORRELATOR</span><span class="sxs-lookup"><span data-stu-id="fac96-107">PR_CONTENT_CORRELATOR</span></span>  <br/> |
+|<span data-ttu-id="fac96-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="fac96-108">Identifier:</span></span>  <br/> |<span data-ttu-id="fac96-109">0x0007</span><span class="sxs-lookup"><span data-stu-id="fac96-109">0x0007</span></span>  <br/> |
+|<span data-ttu-id="fac96-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="fac96-110">Data type:</span></span>  <br/> |<span data-ttu-id="fac96-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="fac96-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="fac96-112">Область:</span><span class="sxs-lookup"><span data-stu-id="fac96-112">Area:</span></span>  <br/> |<span data-ttu-id="fac96-113">Exchange</span><span class="sxs-lookup"><span data-stu-id="fac96-113">Exchange</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="a2f8c-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="a2f8c-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fac96-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="fac96-114">Remarks</span></span>
 
-<span data-ttu-id="a2f8c-115">Содержимое двоичной строки определяется инициатором сообщения.</span><span class="sxs-lookup"><span data-stu-id="a2f8c-115">The contents of the binary string are defined by the message originator.</span></span> <span data-ttu-id="a2f8c-116">Если для исходящих сообщений задано значение, это свойство должно быть скопировано в любые отчеты, созданные в ответ на сообщение.</span><span class="sxs-lookup"><span data-stu-id="a2f8c-116">If set on an outgoing message, this property should be copied onto any reports generated in response to the message.</span></span>
+<span data-ttu-id="fac96-115">Содержимое двоичной строки определяется инициатором сообщения.</span><span class="sxs-lookup"><span data-stu-id="fac96-115">The contents of the binary string are defined by the message originator.</span></span> <span data-ttu-id="fac96-116">Если для исходящих сообщений задано значение, это свойство должно быть скопировано в любые отчеты, созданные в ответ на сообщение.</span><span class="sxs-lookup"><span data-stu-id="fac96-116">If set on an outgoing message, this property should be copied onto any reports generated in response to the message.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="a2f8c-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="a2f8c-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="fac96-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="fac96-117">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="a2f8c-118">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="a2f8c-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="fac96-118">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="fac96-118">Header files</span></span>
 
-<span data-ttu-id="a2f8c-119">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="a2f8c-119">Mapidefs.h</span></span>
+<span data-ttu-id="fac96-119">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="fac96-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="a2f8c-120">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="a2f8c-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="fac96-120">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="fac96-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="a2f8c-121">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="a2f8c-121">Mapitags.h</span></span>
+<span data-ttu-id="fac96-121">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="fac96-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="a2f8c-122">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="a2f8c-122">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="fac96-122">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="fac96-122">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="a2f8c-123">См. также</span><span class="sxs-lookup"><span data-stu-id="a2f8c-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="fac96-123">См. также</span><span class="sxs-lookup"><span data-stu-id="fac96-123">See also</span></span>
 
 
 
-[<span data-ttu-id="a2f8c-124">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="a2f8c-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="fac96-124">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="fac96-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="a2f8c-125">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="a2f8c-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="fac96-125">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="fac96-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="a2f8c-126">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="a2f8c-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="fac96-126">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="fac96-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="a2f8c-127">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="a2f8c-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="fac96-127">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="fac96-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

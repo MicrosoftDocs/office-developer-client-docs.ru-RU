@@ -1,5 +1,5 @@
 ---
-title: Табсплиттерпос_типе complexType (XML для Visio)
+title: TabSplitterPos_Type complexType (XML для Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538832"
 ---
-# <a name="tabsplitterpostype-complextype-visio-xml"></a><span data-ttu-id="700e9-102">Табсплиттерпос_типе complexType (XML для Visio)</span><span class="sxs-lookup"><span data-stu-id="700e9-102">TabSplitterPos_Type complexType (Visio XML)</span></span>
+# <a name="tabsplitterpos_type-complextype-visio-xml"></a><span data-ttu-id="4cf78-102">TabSplitterPos_Type complexType (XML для Visio)</span><span class="sxs-lookup"><span data-stu-id="4cf78-102">TabSplitterPos_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="700e9-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="700e9-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="4cf78-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="4cf78-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="700e9-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="700e9-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="700e9-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="700e9-105">**Schema file**</span></span> <br/> |<span data-ttu-id="700e9-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="700e9-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="700e9-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="700e9-107">**Extension base**</span></span> <br/> |<span data-ttu-id="700e9-108">XSD: Double</span><span class="sxs-lookup"><span data-stu-id="700e9-108">xsd:double</span></span>  <br/> |
+|<span data-ttu-id="4cf78-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="4cf78-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="4cf78-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="4cf78-105">**Schema file**</span></span> <br/> |<span data-ttu-id="4cf78-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="4cf78-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="4cf78-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="4cf78-107">**Extension base**</span></span> <br/> |<span data-ttu-id="4cf78-108">XSD: Double</span><span class="sxs-lookup"><span data-stu-id="4cf78-108">xsd:double</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="700e9-109">Определение</span><span class="sxs-lookup"><span data-stu-id="700e9-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="4cf78-109">Определение</span><span class="sxs-lookup"><span data-stu-id="4cf78-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="TabSplitterPos_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "34538832"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="700e9-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="700e9-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="4cf78-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="4cf78-110">Elements and attributes</span></span>
 
-<span data-ttu-id="700e9-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="700e9-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="4cf78-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="4cf78-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="700e9-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="700e9-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="4cf78-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="4cf78-112">Child elements</span></span>
 
-<span data-ttu-id="700e9-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="700e9-113">None.</span></span>
+<span data-ttu-id="4cf78-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="4cf78-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="700e9-114">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="700e9-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="4cf78-114">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="4cf78-114">Attributes</span></span>
 
-<span data-ttu-id="700e9-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="700e9-115">None.</span></span>
+<span data-ttu-id="4cf78-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="4cf78-115">None.</span></span>
   
 

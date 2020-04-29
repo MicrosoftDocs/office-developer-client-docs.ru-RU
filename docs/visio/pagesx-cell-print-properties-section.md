@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438696"
 ---
-# <a name="pagesx-cell-print-properties-section"></a><span data-ttu-id="cccf5-103">PagesX Cell (Print Properties Section)</span><span class="sxs-lookup"><span data-stu-id="cccf5-103">PagesX Cell (Print Properties Section)</span></span>
+# <a name="pagesx-cell-print-properties-section"></a><span data-ttu-id="1d8d3-103">PagesX Cell (Print Properties Section)</span><span class="sxs-lookup"><span data-stu-id="1d8d3-103">PagesX Cell (Print Properties Section)</span></span>
 
-<span data-ttu-id="cccf5-104">Определяет количество страниц принтера, на которых размещается страница документа по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="cccf5-104">Determines the number of printer pages on which to fit the drawing page horizontally.</span></span> 
+<span data-ttu-id="1d8d3-104">Определяет количество страниц принтера, на которых размещается страница документа по горизонтали.</span><span class="sxs-lookup"><span data-stu-id="1d8d3-104">Determines the number of printer pages on which to fit the drawing page horizontally.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="cccf5-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="cccf5-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1d8d3-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="1d8d3-105">Remarks</span></span>
 
-<span data-ttu-id="cccf5-106">Это значение используется только в том случае, если ячейка onPage имеет значение TRUE.</span><span class="sxs-lookup"><span data-stu-id="cccf5-106">This value is used only when the OnPage cell is set to TRUE.</span></span> 
+<span data-ttu-id="1d8d3-106">Это значение используется только в том случае, если ячейка onpage имеет значение TRUE.</span><span class="sxs-lookup"><span data-stu-id="1d8d3-106">This value is used only when the OnPage cell is set to TRUE.</span></span> 
   
-<span data-ttu-id="cccf5-107">Чтобы получить ссылку на ячейку PagesX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="cccf5-107">To get a reference to the PagesX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="1d8d3-107">Чтобы получить ссылку на ячейку PagesX по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="1d8d3-107">To get a reference to the PagesX cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="cccf5-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="cccf5-108">Cell name:</span></span>  <br/> | <span data-ttu-id="cccf5-109">PagesX</span><span class="sxs-lookup"><span data-stu-id="cccf5-109">PagesX</span></span>  <br/> |
+| <span data-ttu-id="1d8d3-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="1d8d3-108">Cell name:</span></span>  <br/> | <span data-ttu-id="1d8d3-109">PagesX</span><span class="sxs-lookup"><span data-stu-id="1d8d3-109">PagesX</span></span>  <br/> |
    
-<span data-ttu-id="cccf5-110">Чтобы получить ссылку на ячейку PagesX по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="cccf5-110">To get a reference to the PagesX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="1d8d3-110">Чтобы получить ссылку на ячейку PagesX по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="1d8d3-110">To get a reference to the PagesX cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="cccf5-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="cccf5-111">Section index:</span></span>  <br/> |<span data-ttu-id="cccf5-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="cccf5-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="cccf5-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="cccf5-113">Row index:</span></span>  <br/> |<span data-ttu-id="cccf5-114">**Висровпринтпропертиес**</span><span class="sxs-lookup"><span data-stu-id="cccf5-114">**visRowPrintProperties**</span></span> <br/> |
-| <span data-ttu-id="cccf5-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="cccf5-115">Cell index:</span></span>  <br/> |<span data-ttu-id="cccf5-116">**Виспринтпропертиеспажескс**</span><span class="sxs-lookup"><span data-stu-id="cccf5-116">**visPrintPropertiesPagesX**</span></span> <br/> |
+| <span data-ttu-id="1d8d3-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="1d8d3-111">Section index:</span></span>  <br/> |<span data-ttu-id="1d8d3-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="1d8d3-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="1d8d3-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="1d8d3-113">Row index:</span></span>  <br/> |<span data-ttu-id="1d8d3-114">**висровпринтпропертиес**</span><span class="sxs-lookup"><span data-stu-id="1d8d3-114">**visRowPrintProperties**</span></span> <br/> |
+| <span data-ttu-id="1d8d3-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="1d8d3-115">Cell index:</span></span>  <br/> |<span data-ttu-id="1d8d3-116">**виспринтпропертиеспажескс**</span><span class="sxs-lookup"><span data-stu-id="1d8d3-116">**visPrintPropertiesPagesX**</span></span> <br/> |
    
 

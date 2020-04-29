@@ -1,5 +1,5 @@
 ---
-title: ИсоЦиалсессионжетлогжедонусер
+title: исоЦиалсессионжетлогжедонусер
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439907"
 ---
-# <a name="isocialsessiongetloggedonuser"></a><span data-ttu-id="494b2-103">ISocialSession::GetLoggedOnUser</span><span class="sxs-lookup"><span data-stu-id="494b2-103">ISocialSession::GetLoggedOnUser</span></span>
+# <a name="isocialsessiongetloggedonuser"></a><span data-ttu-id="bb574-103">ISocialSession::GetLoggedOnUser</span><span class="sxs-lookup"><span data-stu-id="bb574-103">ISocialSession::GetLoggedOnUser</span></span>
 
-<span data-ttu-id="494b2-104">Получает интерфейс [исоЦиалпрофиле](isocialprofileisocialperson.md) , представляющий пользователя, выполнившего вход в систему.</span><span class="sxs-lookup"><span data-stu-id="494b2-104">Gets an [ISocialProfile](isocialprofileisocialperson.md) interface that represents the logged-on user.</span></span> 
+<span data-ttu-id="bb574-104">Получает интерфейс [исоЦиалпрофиле](isocialprofileisocialperson.md) , представляющий пользователя, выполнившего вход в систему.</span><span class="sxs-lookup"><span data-stu-id="bb574-104">Gets an [ISocialProfile](isocialprofileisocialperson.md) interface that represents the logged-on user.</span></span> 
   
 ```cpp
 HRESULT _stdcall GetLoggedOnUser([out, retval] ISocialProfile** result);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="494b2-105">Параметры</span><span class="sxs-lookup"><span data-stu-id="494b2-105">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="bb574-105">Параметры</span><span class="sxs-lookup"><span data-stu-id="bb574-105">Parameters</span></span>
 
-<span data-ttu-id="494b2-106">_result_</span><span class="sxs-lookup"><span data-stu-id="494b2-106">_result_</span></span>
+<span data-ttu-id="bb574-106">_result_</span><span class="sxs-lookup"><span data-stu-id="bb574-106">_result_</span></span>
   
-> <span data-ttu-id="494b2-107">вышли Интерфейс **исоЦиалпрофиле** .</span><span class="sxs-lookup"><span data-stu-id="494b2-107">[out] An **ISocialProfile** interface.</span></span> 
+> <span data-ttu-id="bb574-107">вышли Интерфейс **исоЦиалпрофиле** .</span><span class="sxs-lookup"><span data-stu-id="bb574-107">[out] An **ISocialProfile** interface.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="494b2-108">См. также</span><span class="sxs-lookup"><span data-stu-id="494b2-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bb574-108">См. также</span><span class="sxs-lookup"><span data-stu-id="bb574-108">See also</span></span>
 
-- [<span data-ttu-id="494b2-109">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="494b2-109">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
+- [<span data-ttu-id="bb574-109">ISocialSession : IUnknown</span><span class="sxs-lookup"><span data-stu-id="bb574-109">ISocialSession : IUnknown</span></span>](isocialsessioniunknown.md)
 

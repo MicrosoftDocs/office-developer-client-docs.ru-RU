@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/02/2020
 ms.locfileid: "43102942"
 ---
-# <a name="infopath-developer-reference-for-form-templates"></a><span data-ttu-id="ba905-105">Справочник разработчика по шаблонам форм InfoPath</span><span class="sxs-lookup"><span data-stu-id="ba905-105">InfoPath developer reference for form templates</span></span>
+# <a name="infopath-developer-reference-for-form-templates"></a><span data-ttu-id="0e875-105">Справочник разработчика по шаблонам форм InfoPath</span><span class="sxs-lookup"><span data-stu-id="0e875-105">InfoPath developer reference for form templates</span></span>
 
-<span data-ttu-id="ba905-p102">Добро пожаловать на страницу справочника разработчика InfoPath 2013 по шаблонам форм. В этой документации предоставляются обзоры, задачи программирования и справочные сведения библиотеки классов, призванные помочь в создании шаблонов форм InfoPath, содержащих бизнес-логику, написанную на языке Visual Basic или Visual C#.</span><span class="sxs-lookup"><span data-stu-id="ba905-p102">Welcome to the InfoPath 2013 developer reference for form templates. This documentation provides overviews, programming tasks, and class library reference information that is designed to help you build InfoPath form templates that contain business logic written in Visual Basic or Visual C#.</span></span>
+<span data-ttu-id="0e875-p102">Добро пожаловать на страницу справочника разработчика InfoPath 2013 по шаблонам форм. В этой документации предоставляются обзоры, задачи программирования и справочные сведения библиотеки классов, призванные помочь в создании шаблонов форм InfoPath, содержащих бизнес-логику, написанную на языке Visual Basic или Visual C#.</span><span class="sxs-lookup"><span data-stu-id="0e875-p102">Welcome to the InfoPath 2013 developer reference for form templates. This documentation provides overviews, programming tasks, and class library reference information that is designed to help you build InfoPath form templates that contain business logic written in Visual Basic or Visual C#.</span></span>
   
-<span data-ttu-id="ba905-108">Дата публикации данной справки — октябрь 2012 г.</span><span class="sxs-lookup"><span data-stu-id="ba905-108">Publish date of this reference: October 2012</span></span>
+<span data-ttu-id="0e875-108">Дата публикации данной справки — октябрь 2012 г.</span><span class="sxs-lookup"><span data-stu-id="0e875-108">Publish date of this reference: October 2012</span></span>
   
-## <a name="related-links"></a><span data-ttu-id="ba905-109">См. также</span><span class="sxs-lookup"><span data-stu-id="ba905-109">Related links</span></span>
+## <a name="related-links"></a><span data-ttu-id="0e875-109">Связанные ссылки</span><span class="sxs-lookup"><span data-stu-id="0e875-109">Related links</span></span>
 
-[<span data-ttu-id="ba905-110">Центр разработчика Microsoft Office: документы</span><span class="sxs-lookup"><span data-stu-id="ba905-110">Microsoft Office Developer Center: Docs</span></span>](https://developer.microsoft.com/en-us/office/docs)
+[<span data-ttu-id="0e875-110">Центр разработчика Microsoft Office: документы</span><span class="sxs-lookup"><span data-stu-id="0e875-110">Microsoft Office Developer Center: Docs</span></span>](https://developer.microsoft.com/en-us/office/docs)
   
 
-[<span data-ttu-id="ba905-111">Microsoft Accessibility</span><span class="sxs-lookup"><span data-stu-id="ba905-111">Microsoft Accessibility</span></span>](https://www.microsoft.com/en-us/accessibility/)
+[<span data-ttu-id="0e875-111">Microsoft Accessibility</span><span class="sxs-lookup"><span data-stu-id="0e875-111">Microsoft Accessibility</span></span>](https://www.microsoft.com/en-us/accessibility/)
 
   
 

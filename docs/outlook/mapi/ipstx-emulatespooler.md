@@ -1,5 +1,5 @@
 ---
-title: Ипстксемулатеспулер
+title: ипстксемулатеспулер
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438955"
 ---
-# <a name="ipstxemulatespooler"></a><span data-ttu-id="8c2eb-103">IPSTX::EmulateSpooler</span><span class="sxs-lookup"><span data-stu-id="8c2eb-103">IPSTX::EmulateSpooler</span></span>
+# <a name="ipstxemulatespooler"></a><span data-ttu-id="9179a-103">IPSTX::EmulateSpooler</span><span class="sxs-lookup"><span data-stu-id="9179a-103">IPSTX::EmulateSpooler</span></span>
 
   
   
-<span data-ttu-id="8c2eb-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8c2eb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9179a-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9179a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8c2eb-105">Задает локальное хранилище для эмуляции диспетчера протокола Outlook для постановки в очередь исходящих сообщений на сервер.</span><span class="sxs-lookup"><span data-stu-id="8c2eb-105">Sets a local store to emulate the Outlook Protocol Manager to spool outgoing messages to a server.</span></span>
+<span data-ttu-id="9179a-105">Задает локальное хранилище для эмуляции диспетчера протокола Outlook для постановки в очередь исходящих сообщений на сервер.</span><span class="sxs-lookup"><span data-stu-id="9179a-105">Sets a local store to emulate the Outlook Protocol Manager to spool outgoing messages to a server.</span></span>
   
 ```cpp
 HRESULT EmulateSpooler( 
@@ -33,26 +33,26 @@ HRESULT EmulateSpooler(
 );
 ```
 
- <span data-ttu-id="8c2eb-106">_Фемулате_</span><span class="sxs-lookup"><span data-stu-id="8c2eb-106">_fEmulate_</span></span>
+ <span data-ttu-id="9179a-106">_фемулате_</span><span class="sxs-lookup"><span data-stu-id="9179a-106">_fEmulate_</span></span>
   
->  <span data-ttu-id="8c2eb-107">возврата Установите для этого параметра значение true, если локальное хранилище должно эмулировать Диспетчер очереди печати; Если нет, задайте для него значение false.</span><span class="sxs-lookup"><span data-stu-id="8c2eb-107">[in] Set this parameter to True if the local store should emulate the spooler; set it to False if not.</span></span> 
+>  <span data-ttu-id="9179a-107">возврата Установите для этого параметра значение true, если локальное хранилище должно эмулировать Диспетчер очереди печати; Если нет, задайте для него значение false.</span><span class="sxs-lookup"><span data-stu-id="9179a-107">[in] Set this parameter to True if the local store should emulate the spooler; set it to False if not.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="8c2eb-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="8c2eb-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9179a-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="9179a-108">Remarks</span></span>
 
-<span data-ttu-id="8c2eb-109">Локальное хранилище вызывает **ипсткс:: емулатеспулер** для работы в качестве диспетчера протокола Outlook, отправки сообщений из очереди исходящих сообщений на внутренний сервер (например, MSN Server или AOL Server) для обработки.</span><span class="sxs-lookup"><span data-stu-id="8c2eb-109">A local store calls **IPSTX::EmulateSpooler** to act as an Outlook Protocol Manager, spooling messages in the outgoing queue to the back-end server (for example, MSN server or AOL server) for processing.</span></span> <span data-ttu-id="8c2eb-110">При эмуляции диспетчера очереди во время синхронизации хранилище вызывает следующие два метода:</span><span class="sxs-lookup"><span data-stu-id="8c2eb-110">Emulating a spooler during synchronization, the store then calls these two methods:</span></span> 
+<span data-ttu-id="9179a-109">Локальное хранилище вызывает **ипсткс:: емулатеспулер** для работы в качестве диспетчера протокола Outlook, отправки сообщений из очереди исходящих сообщений на внутренний сервер (например, MSN Server или AOL Server) для обработки.</span><span class="sxs-lookup"><span data-stu-id="9179a-109">A local store calls **IPSTX::EmulateSpooler** to act as an Outlook Protocol Manager, spooling messages in the outgoing queue to the back-end server (for example, MSN server or AOL server) for processing.</span></span> <span data-ttu-id="9179a-110">При эмуляции диспетчера очереди во время синхронизации хранилище вызывает следующие два метода:</span><span class="sxs-lookup"><span data-stu-id="9179a-110">Emulating a spooler during synchronization, the store then calls these two methods:</span></span> 
   
-1. <span data-ttu-id="8c2eb-111">**[IMsgStore:: жетаутгоингкуеуе](imsgstore-getoutgoingqueue.md)** для получения очереди исходящих сообщений в хранилище.</span><span class="sxs-lookup"><span data-stu-id="8c2eb-111">**[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** to get the outgoing queue of messages in the store.</span></span> <span data-ttu-id="8c2eb-112">Этот метод выполняется только в том случае, если хранилище эмулирует Диспетчер протоколов Outlook.</span><span class="sxs-lookup"><span data-stu-id="8c2eb-112">This method succeeds only if the store is emulating the Outlook Protocol Manager.</span></span> 
+1. <span data-ttu-id="9179a-111">**[IMsgStore:: жетаутгоингкуеуе](imsgstore-getoutgoingqueue.md)** для получения очереди исходящих сообщений в хранилище.</span><span class="sxs-lookup"><span data-stu-id="9179a-111">**[IMsgStore::GetOutgoingQueue](imsgstore-getoutgoingqueue.md)** to get the outgoing queue of messages in the store.</span></span> <span data-ttu-id="9179a-112">Этот метод выполняется только в том случае, если хранилище эмулирует Диспетчер протоколов Outlook.</span><span class="sxs-lookup"><span data-stu-id="9179a-112">This method succeeds only if the store is emulating the Outlook Protocol Manager.</span></span> 
     
-2. <span data-ttu-id="8c2eb-113">**[IMsgStore:: сетлоккстате](imsgstore-setlockstate.md)** для безопасного доступа к сообщению в исходящей очереди непосредственно перед его отправкой на сервер.</span><span class="sxs-lookup"><span data-stu-id="8c2eb-113">**[IMsgStore::SetLockState](imsgstore-setlockstate.md)** to secure sole access to a message in the outgoing queue just before sending it to the server.</span></span> <span data-ttu-id="8c2eb-114">Этот метод выполняется только в том случае, если хранилище эмулирует Диспетчер протоколов Outlook.</span><span class="sxs-lookup"><span data-stu-id="8c2eb-114">This method succeeds only if the store is emulating the Outlook Protocol Manager.</span></span> <span data-ttu-id="8c2eb-115">После отправки сообщения хранилище повторно вызывает этот метод, чтобы освободить единственный доступ к нему.</span><span class="sxs-lookup"><span data-stu-id="8c2eb-115">After sending the message, the store calls this method again to release sole access to it.</span></span> 
+2. <span data-ttu-id="9179a-113">**[IMsgStore:: сетлоккстате](imsgstore-setlockstate.md)** для безопасного доступа к сообщению в исходящей очереди непосредственно перед его отправкой на сервер.</span><span class="sxs-lookup"><span data-stu-id="9179a-113">**[IMsgStore::SetLockState](imsgstore-setlockstate.md)** to secure sole access to a message in the outgoing queue just before sending it to the server.</span></span> <span data-ttu-id="9179a-114">Этот метод выполняется только в том случае, если хранилище эмулирует Диспетчер протоколов Outlook.</span><span class="sxs-lookup"><span data-stu-id="9179a-114">This method succeeds only if the store is emulating the Outlook Protocol Manager.</span></span> <span data-ttu-id="9179a-115">После отправки сообщения хранилище повторно вызывает этот метод, чтобы освободить единственный доступ к нему.</span><span class="sxs-lookup"><span data-stu-id="9179a-115">After sending the message, the store calls this method again to release sole access to it.</span></span> 
     
 > [!NOTE]
-> <span data-ttu-id="8c2eb-116">С момента поЯвления Outlook 2002 Диспетчер протоколов Outlook заменил буфер обмена MAPI и стал ответственным за постановку в очередь исходящих сообщений на внутренние серверы.</span><span class="sxs-lookup"><span data-stu-id="8c2eb-116">Since Outlook 2002, the Outlook Protocol Manager replaced the MAPI spooler and became responsible for spooling outgoing messages to back-end servers.</span></span> 
+> <span data-ttu-id="9179a-116">С момента появления Outlook 2002 Диспетчер протоколов Outlook заменил буфер обмена MAPI и стал ответственным за постановку в очередь исходящих сообщений на внутренние серверы.</span><span class="sxs-lookup"><span data-stu-id="9179a-116">Since Outlook 2002, the Outlook Protocol Manager replaced the MAPI spooler and became responsible for spooling outgoing messages to back-end servers.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="8c2eb-117">См. также</span><span class="sxs-lookup"><span data-stu-id="8c2eb-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9179a-117">См. также</span><span class="sxs-lookup"><span data-stu-id="9179a-117">See also</span></span>
 
 
 
-[<span data-ttu-id="8c2eb-118">IPSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="8c2eb-118">IPSTX::GetLastError</span></span>](ipstx-getlasterror.md)
+[<span data-ttu-id="9179a-118">IPSTX::GetLastError</span><span class="sxs-lookup"><span data-stu-id="9179a-118">IPSTX::GetLastError</span></span>](ipstx-getlasterror.md)
   
-[<span data-ttu-id="8c2eb-119">IPSTX::GetSyncObject</span><span class="sxs-lookup"><span data-stu-id="8c2eb-119">IPSTX::GetSyncObject</span></span>](ipstx-getsyncobject.md)
+[<span data-ttu-id="9179a-119">IPSTX::GetSyncObject</span><span class="sxs-lookup"><span data-stu-id="9179a-119">IPSTX::GetSyncObject</span></span>](ipstx-getsyncobject.md)
 

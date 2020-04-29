@@ -16,40 +16,40 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439039"
 ---
-# <a name="blue-function"></a><span data-ttu-id="3ec3e-105">Функция BLUE</span><span class="sxs-lookup"><span data-stu-id="3ec3e-105">BLUE Function</span></span>
+# <a name="blue-function"></a><span data-ttu-id="0e81d-105">Функция BLUE</span><span class="sxs-lookup"><span data-stu-id="0e81d-105">BLUE Function</span></span>
 
-<span data-ttu-id="3ec3e-106">Возвращает синий компонент цвета.</span><span class="sxs-lookup"><span data-stu-id="3ec3e-106">Returns the blue component of a color.</span></span> <span data-ttu-id="3ec3e-107">Возвращаемое значение — это целое число в диапазоне от 0 до 255 включительно.</span><span class="sxs-lookup"><span data-stu-id="3ec3e-107">The return value is an integer in the range of 0 to 255, inclusive.</span></span> <span data-ttu-id="3ec3e-108">Функция возвращает значение 0 для недопустимых входных данных.</span><span class="sxs-lookup"><span data-stu-id="3ec3e-108">The function returns 0 for invalid input.</span></span>
+<span data-ttu-id="0e81d-106">Возвращает синий компонент цвета.</span><span class="sxs-lookup"><span data-stu-id="0e81d-106">Returns the blue component of a color.</span></span> <span data-ttu-id="0e81d-107">Возвращаемое значение — это целое число в диапазоне от 0 до 255 включительно.</span><span class="sxs-lookup"><span data-stu-id="0e81d-107">The return value is an integer in the range of 0 to 255, inclusive.</span></span> <span data-ttu-id="0e81d-108">Функция возвращает значение 0 для недопустимых входных данных.</span><span class="sxs-lookup"><span data-stu-id="0e81d-108">The function returns 0 for invalid input.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="3ec3e-109">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="3ec3e-109">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0e81d-109">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0e81d-109">Syntax</span></span>
 
-<span data-ttu-id="3ec3e-110">BLUE (\* \* *Expression* \* \*)</span><span class="sxs-lookup"><span data-stu-id="3ec3e-110">BLUE(\*\* *expression* \*\* )</span></span> 
+<span data-ttu-id="0e81d-110">BLUE (\* \* *Expression* \* \*)</span><span class="sxs-lookup"><span data-stu-id="0e81d-110">BLUE(\*\* *expression* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="3ec3e-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="3ec3e-111">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="0e81d-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="0e81d-111">Parameters</span></span>
 
-|<span data-ttu-id="3ec3e-112">**Имя**</span><span class="sxs-lookup"><span data-stu-id="3ec3e-112">**Name**</span></span>|<span data-ttu-id="3ec3e-113">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="3ec3e-113">**Required/Optional**</span></span>|<span data-ttu-id="3ec3e-114">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="3ec3e-114">**Data Type**</span></span>|<span data-ttu-id="3ec3e-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="3ec3e-115">**Description**</span></span>|
+|<span data-ttu-id="0e81d-112">**Имя**</span><span class="sxs-lookup"><span data-stu-id="0e81d-112">**Name**</span></span>|<span data-ttu-id="0e81d-113">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="0e81d-113">**Required/Optional**</span></span>|<span data-ttu-id="0e81d-114">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="0e81d-114">**Data Type**</span></span>|<span data-ttu-id="0e81d-115">**Описание**</span><span class="sxs-lookup"><span data-stu-id="0e81d-115">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="3ec3e-116">_expression_</span><span class="sxs-lookup"><span data-stu-id="3ec3e-116">_expression_</span></span> <br/> |<span data-ttu-id="3ec3e-117">Обязательный</span><span class="sxs-lookup"><span data-stu-id="3ec3e-117">Required</span></span>  <br/> |<span data-ttu-id="3ec3e-118">**String**</span><span class="sxs-lookup"><span data-stu-id="3ec3e-118">**String**</span></span> <br/> |<span data-ttu-id="3ec3e-119">Индекс цвета в таблице цветов документа, выражение, которое разрешается в настраиваемый цвет (например, RGB или HSL), или ссылка на ячейку, содержащую цветовой индекс или цветовой результат.</span><span class="sxs-lookup"><span data-stu-id="3ec3e-119">An index of a color in the document's color table, an expression that resolves to a custom color (like RGB or HSL), or a reference to a cell that contains a color index or color result.</span></span>  <br/> |
+| <span data-ttu-id="0e81d-116">_expression_</span><span class="sxs-lookup"><span data-stu-id="0e81d-116">_expression_</span></span> <br/> |<span data-ttu-id="0e81d-117">Обязательный</span><span class="sxs-lookup"><span data-stu-id="0e81d-117">Required</span></span>  <br/> |<span data-ttu-id="0e81d-118">**String**</span><span class="sxs-lookup"><span data-stu-id="0e81d-118">**String**</span></span> <br/> |<span data-ttu-id="0e81d-119">Индекс цвета в таблице цветов документа, выражение, которое разрешается в настраиваемый цвет (например, RGB или HSL), или ссылка на ячейку, содержащую цветовой индекс или цветовой результат.</span><span class="sxs-lookup"><span data-stu-id="0e81d-119">An index of a color in the document's color table, an expression that resolves to a custom color (like RGB or HSL), or a reference to a cell that contains a color index or color result.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="3ec3e-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3ec3e-120">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="0e81d-120">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0e81d-120">Return value</span></span>
 
-<span data-ttu-id="3ec3e-121">Целое число</span><span class="sxs-lookup"><span data-stu-id="3ec3e-121">Integer</span></span>
+<span data-ttu-id="0e81d-121">Целое число</span><span class="sxs-lookup"><span data-stu-id="0e81d-121">Integer</span></span>
   
-## <a name="example-1"></a><span data-ttu-id="3ec3e-122">Пример 1</span><span class="sxs-lookup"><span data-stu-id="3ec3e-122">Example 1</span></span>
+## <a name="example-1"></a><span data-ttu-id="0e81d-122">Пример 1</span><span class="sxs-lookup"><span data-stu-id="0e81d-122">Example 1</span></span>
 
-<span data-ttu-id="3ec3e-123">СИНИЙ (sheet. 4! FillForegnd</span><span class="sxs-lookup"><span data-stu-id="3ec3e-123">BLUE(Sheet.4!FillForegnd)</span></span>
+<span data-ttu-id="0e81d-123">СИНИЙ (sheet. 4! FillForegnd</span><span class="sxs-lookup"><span data-stu-id="0e81d-123">BLUE(Sheet.4!FillForegnd)</span></span>
   
-<span data-ttu-id="3ec3e-124">Возвращает синий компонент листа лист. 4's заливки цветом текста.</span><span class="sxs-lookup"><span data-stu-id="3ec3e-124">Returns the blue component of Sheet.4's fill foreground color.</span></span>
+<span data-ttu-id="0e81d-124">Возвращает синий компонент листа лист. 4's заливки цветом текста.</span><span class="sxs-lookup"><span data-stu-id="0e81d-124">Returns the blue component of Sheet.4's fill foreground color.</span></span>
   
-## <a name="example-2"></a><span data-ttu-id="3ec3e-125">Пример 2</span><span class="sxs-lookup"><span data-stu-id="3ec3e-125">Example 2</span></span>
+## <a name="example-2"></a><span data-ttu-id="0e81d-125">Пример 2</span><span class="sxs-lookup"><span data-stu-id="0e81d-125">Example 2</span></span>
 
-<span data-ttu-id="3ec3e-126">СИНИЙ (13)</span><span class="sxs-lookup"><span data-stu-id="3ec3e-126">BLUE(13)</span></span>
+<span data-ttu-id="0e81d-126">СИНИЙ (13)</span><span class="sxs-lookup"><span data-stu-id="0e81d-126">BLUE(13)</span></span>
   
-<span data-ttu-id="3ec3e-127">Возвращает 128, если документ использует цветовую палитру Visio по умолчанию, где голубой — цвет с индексом 13.</span><span class="sxs-lookup"><span data-stu-id="3ec3e-127">Returns 128 if the document uses the default Visio color palette, where cyan is the color at index 13.</span></span>
+<span data-ttu-id="0e81d-127">Возвращает 128, если документ использует цветовую палитру Visio по умолчанию, где голубой — цвет с индексом 13.</span><span class="sxs-lookup"><span data-stu-id="0e81d-127">Returns 128 if the document uses the default Visio color palette, where cyan is the color at index 13.</span></span>
   
-## <a name="example-3"></a><span data-ttu-id="3ec3e-128">Пример 3</span><span class="sxs-lookup"><span data-stu-id="3ec3e-128">Example 3</span></span>
+## <a name="example-3"></a><span data-ttu-id="0e81d-128">Пример 3</span><span class="sxs-lookup"><span data-stu-id="0e81d-128">Example 3</span></span>
 
-<span data-ttu-id="3ec3e-129">BLUE (RGB (10, 20, 30))</span><span class="sxs-lookup"><span data-stu-id="3ec3e-129">BLUE(RGB(10, 20, 30))</span></span>
+<span data-ttu-id="0e81d-129">BLUE (RGB (10, 20, 30))</span><span class="sxs-lookup"><span data-stu-id="0e81d-129">BLUE(RGB(10, 20, 30))</span></span>
   
-<span data-ttu-id="3ec3e-130">Возвращает значение 30.</span><span class="sxs-lookup"><span data-stu-id="3ec3e-130">Returns 30.</span></span>
+<span data-ttu-id="0e81d-130">Возвращает значение 30.</span><span class="sxs-lookup"><span data-stu-id="0e81d-130">Returns 30.</span></span>
   
 

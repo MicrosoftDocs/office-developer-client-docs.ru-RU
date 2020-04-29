@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437513"
 ---
-# <a name="declaring-form-interfaces"></a><span data-ttu-id="ef89e-103">Объявление интерфейсов форм</span><span class="sxs-lookup"><span data-stu-id="ef89e-103">Declaring Form Interfaces</span></span>
+# <a name="declaring-form-interfaces"></a><span data-ttu-id="b847f-103">Объявление интерфейсов форм</span><span class="sxs-lookup"><span data-stu-id="b847f-103">Declaring Form Interfaces</span></span>
 
   
   
-<span data-ttu-id="ef89e-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ef89e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b847f-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b847f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ef89e-105">Вы можете упростить объявления реализации интерфейсов форм MAPI с помощью макросов МАПИ_ _Интерфаце__месод, где _Interface_ — это интерфейс формы, определенный в файле заголовка мапиформ. h.</span><span class="sxs-lookup"><span data-stu-id="ef89e-105">You can simplify the declarations of your implementations of MAPI form interfaces by using the MAPI_ _interface__METHOD macros, where  _interface_ is a form interface defined in the Mapiform.h header file.</span></span> <span data-ttu-id="ef89e-106">Вы не обязаны использовать эти макросы, но если это не так, следует принять определенные меры, которые соответствуют объявлениям в файле заголовка Мапиформ. h.</span><span class="sxs-lookup"><span data-stu-id="ef89e-106">You are not required to use these macros, but if you do not, you should take particular care that your declarations conform to the declarations in the Mapiform.h header file.</span></span> <span data-ttu-id="ef89e-107">Например, можно объявить класс объекта формы сервера форм, как показано ниже:</span><span class="sxs-lookup"><span data-stu-id="ef89e-107">For example, you could declare your form server's form object class like the following:</span></span> 
+<span data-ttu-id="b847f-105">Вы можете упростить объявления реализации интерфейсов форм MAPI с помощью MAPI_ макросов _interface__METHOD, где _Interface_ — это интерфейс формы, определенный в файле заголовка мапиформ. h.</span><span class="sxs-lookup"><span data-stu-id="b847f-105">You can simplify the declarations of your implementations of MAPI form interfaces by using the MAPI_ _interface__METHOD macros, where  _interface_ is a form interface defined in the Mapiform.h header file.</span></span> <span data-ttu-id="b847f-106">Вы не обязаны использовать эти макросы, но если это не так, следует принять определенные меры, которые соответствуют объявлениям в файле заголовка Мапиформ. h.</span><span class="sxs-lookup"><span data-stu-id="b847f-106">You are not required to use these macros, but if you do not, you should take particular care that your declarations conform to the declarations in the Mapiform.h header file.</span></span> <span data-ttu-id="b847f-107">Например, можно объявить класс объекта формы сервера форм, как показано ниже:</span><span class="sxs-lookup"><span data-stu-id="b847f-107">For example, you could declare your form server's form object class like the following:</span></span> 
   
 ```cpp
 class CMyForm : public IPersistMessage, public IMAPIForm,
@@ -41,9 +41,9 @@ public:
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="ef89e-108">См. также</span><span class="sxs-lookup"><span data-stu-id="ef89e-108">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="b847f-108">См. также</span><span class="sxs-lookup"><span data-stu-id="b847f-108">See also</span></span>
 
 
 
-[<span data-ttu-id="ef89e-109">Написание кода на сервере формы</span><span class="sxs-lookup"><span data-stu-id="ef89e-109">Writing Form Server Code</span></span>](writing-form-server-code.md)
+[<span data-ttu-id="b847f-109">Написание кода на сервере формы</span><span class="sxs-lookup"><span data-stu-id="b847f-109">Writing Form Server Code</span></span>](writing-form-server-code.md)
 

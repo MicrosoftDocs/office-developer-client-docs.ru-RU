@@ -16,28 +16,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439977"
 ---
-# <a name="ln-function"></a><span data-ttu-id="65b75-104">Функция LN</span><span class="sxs-lookup"><span data-stu-id="65b75-104">LN Function</span></span>
+# <a name="ln-function"></a><span data-ttu-id="5539c-104">Функция LN</span><span class="sxs-lookup"><span data-stu-id="5539c-104">LN Function</span></span>
 
-<span data-ttu-id="65b75-105">Возвращает натуральный логарифм числа.</span><span class="sxs-lookup"><span data-stu-id="65b75-105">Returns the natural logarithm of a number.</span></span> <span data-ttu-id="65b75-106">Число должно быть положительным, а LN Возвращает значение ошибки #NUM.</span><span class="sxs-lookup"><span data-stu-id="65b75-106">The number must be positive, or LN returns the error value #NUM.</span></span>
+<span data-ttu-id="5539c-105">Возвращает натуральный логарифм числа.</span><span class="sxs-lookup"><span data-stu-id="5539c-105">Returns the natural logarithm of a number.</span></span> <span data-ttu-id="5539c-106">Число должно быть положительным, а LN Возвращает значение ошибки #NUM.</span><span class="sxs-lookup"><span data-stu-id="5539c-106">The number must be positive, or LN returns the error value #NUM.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="65b75-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="65b75-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5539c-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5539c-107">Syntax</span></span>
 
-<span data-ttu-id="65b75-108">LN (\* \* *Number* \* \*)</span><span class="sxs-lookup"><span data-stu-id="65b75-108">LN(\*\* *number* \*\* )</span></span> 
+<span data-ttu-id="5539c-108">LN (\* \* *Number* \* \*)</span><span class="sxs-lookup"><span data-stu-id="5539c-108">LN(\*\* *number* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="65b75-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="65b75-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="5539c-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="5539c-109">Parameters</span></span>
 
-|<span data-ttu-id="65b75-110">**Имя**</span><span class="sxs-lookup"><span data-stu-id="65b75-110">**Name**</span></span>|<span data-ttu-id="65b75-111">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="65b75-111">**Required/Optional**</span></span>|<span data-ttu-id="65b75-112">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="65b75-112">**Data Type**</span></span>|<span data-ttu-id="65b75-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="65b75-113">**Description**</span></span>|
+|<span data-ttu-id="5539c-110">**Имя**</span><span class="sxs-lookup"><span data-stu-id="5539c-110">**Name**</span></span>|<span data-ttu-id="5539c-111">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="5539c-111">**Required/Optional**</span></span>|<span data-ttu-id="5539c-112">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="5539c-112">**Data Type**</span></span>|<span data-ttu-id="5539c-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="5539c-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="65b75-114">_число_</span><span class="sxs-lookup"><span data-stu-id="65b75-114">_number_</span></span> <br/> |<span data-ttu-id="65b75-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="65b75-115">Required</span></span>  <br/> |<span data-ttu-id="65b75-116">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="65b75-116">**Numeric**</span></span> <br/> | <span data-ttu-id="65b75-117">Число, натуральный логарифм которого требуется найти.</span><span class="sxs-lookup"><span data-stu-id="65b75-117">The number whose natural logarithm you want to find.</span></span>  <br/> |
+| <span data-ttu-id="5539c-114">_число_</span><span class="sxs-lookup"><span data-stu-id="5539c-114">_number_</span></span> <br/> |<span data-ttu-id="5539c-115">Обязательна</span><span class="sxs-lookup"><span data-stu-id="5539c-115">Required</span></span>  <br/> |<span data-ttu-id="5539c-116">**Числовой**</span><span class="sxs-lookup"><span data-stu-id="5539c-116">**Numeric**</span></span> <br/> | <span data-ttu-id="5539c-117">Число, натуральный логарифм которого требуется найти.</span><span class="sxs-lookup"><span data-stu-id="5539c-117">The number whose natural logarithm you want to find.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="65b75-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="65b75-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="5539c-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5539c-118">Return value</span></span>
 
-<span data-ttu-id="65b75-119">Числовой</span><span class="sxs-lookup"><span data-stu-id="65b75-119">Numeric</span></span>
+<span data-ttu-id="5539c-119">Числовой</span><span class="sxs-lookup"><span data-stu-id="5539c-119">Numeric</span></span>
   
-## <a name="example"></a><span data-ttu-id="65b75-120">Пример</span><span class="sxs-lookup"><span data-stu-id="65b75-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5539c-120">Пример</span><span class="sxs-lookup"><span data-stu-id="5539c-120">Example</span></span>
 
-<span data-ttu-id="65b75-121">LN (42)</span><span class="sxs-lookup"><span data-stu-id="65b75-121">LN(42)</span></span> 
+<span data-ttu-id="5539c-121">LN (42)</span><span class="sxs-lookup"><span data-stu-id="5539c-121">LN(42)</span></span> 
   
-<span data-ttu-id="65b75-122">Возвращает 3,7377.</span><span class="sxs-lookup"><span data-stu-id="65b75-122">Returns 3.7377.</span></span> 
+<span data-ttu-id="5539c-122">Возвращает 3,7377.</span><span class="sxs-lookup"><span data-stu-id="5539c-122">Returns 3.7377.</span></span> 
   
 

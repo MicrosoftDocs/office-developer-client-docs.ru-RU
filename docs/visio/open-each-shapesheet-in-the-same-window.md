@@ -16,12 +16,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436638"
 ---
-# <a name="open-each-shapesheet-in-the-same-window"></a><span data-ttu-id="b649f-102">Открытие каждой таблицы свойств фигур в одном и том же окне</span><span class="sxs-lookup"><span data-stu-id="b649f-102">Open Each ShapeSheet in the Same Window</span></span>
+# <a name="open-each-shapesheet-in-the-same-window"></a><span data-ttu-id="8f42f-102">Открытие каждой таблицы свойств фигур в одном и том же окне</span><span class="sxs-lookup"><span data-stu-id="8f42f-102">Open Each ShapeSheet in the Same Window</span></span>
 
-1. <span data-ttu-id="b649f-103">Перейдите на вкладку **файл** , выберите пункт **Параметры**, а затем нажмите кнопку **Дополнительно**.</span><span class="sxs-lookup"><span data-stu-id="b649f-103">Click the **File** tab, click **Options**, and then click **Advanced**.</span></span>
+1. <span data-ttu-id="8f42f-103">Перейдите на вкладку **файл** , выберите пункт **Параметры**, а затем нажмите кнопку **Дополнительно**.</span><span class="sxs-lookup"><span data-stu-id="8f42f-103">Click the **File** tab, click **Options**, and then click **Advanced**.</span></span>
     
-2. <span data-ttu-id="b649f-104">В разделе **Общие**выберите пункт **открыть каждую таблицу свойств фигур в одном и том же окне**.</span><span class="sxs-lookup"><span data-stu-id="b649f-104">Under **General**, select **Open each ShapeSheet in the same window**.</span></span>
+2. <span data-ttu-id="8f42f-104">В разделе **Общие**выберите пункт **открыть каждую таблицу свойств фигур в одном и том же окне**.</span><span class="sxs-lookup"><span data-stu-id="8f42f-104">Under **General**, select **Open each ShapeSheet in the same window**.</span></span>
     
-3. <span data-ttu-id="b649f-105">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="b649f-105">Click **OK**.</span></span> 
+3. <span data-ttu-id="8f42f-105">Нажмите кнопку **ОК**.</span><span class="sxs-lookup"><span data-stu-id="8f42f-105">Click **OK**.</span></span> 
     
 
