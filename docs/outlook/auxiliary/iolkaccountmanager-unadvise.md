@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунтманажерунадвисе
+title: иолкаккаунтманажерунадвисе
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430989"
 ---
-# <a name="iolkaccountmanagerunadvise"></a><span data-ttu-id="7a76d-103">IOlkAccountManager::Unadvise</span><span class="sxs-lookup"><span data-stu-id="7a76d-103">IOlkAccountManager::Unadvise</span></span>
+# <a name="iolkaccountmanagerunadvise"></a><span data-ttu-id="8871a-103">IOlkAccountManager::Unadvise</span><span class="sxs-lookup"><span data-stu-id="8871a-103">IOlkAccountManager::Unadvise</span></span>
 
-<span data-ttu-id="7a76d-104">Отменяет регистрацию клиента с помощью диспетчера учетных записей для уведомлений для всех учетных записей.</span><span class="sxs-lookup"><span data-stu-id="7a76d-104">Unregisters a client with the account manager for notifications for all accounts.</span></span> 
+<span data-ttu-id="8871a-104">Отменяет регистрацию клиента с помощью диспетчера учетных записей для уведомлений для всех учетных записей.</span><span class="sxs-lookup"><span data-stu-id="8871a-104">Unregisters a client with the account manager for notifications for all accounts.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="7a76d-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="7a76d-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="8871a-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="8871a-105">Quick info</span></span>
 
-<span data-ttu-id="7a76d-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="7a76d-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
+<span data-ttu-id="8871a-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="8871a-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
   
 ```cpp
 HRESULT Unadvise(
@@ -29,22 +29,22 @@ HRESULT Unadvise(
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7a76d-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="7a76d-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8871a-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="8871a-107">Parameters</span></span>
 
-<span data-ttu-id="7a76d-108">_Двкукие_</span><span class="sxs-lookup"><span data-stu-id="7a76d-108">_dwCookie_</span></span>
+<span data-ttu-id="8871a-108">_двкукие_</span><span class="sxs-lookup"><span data-stu-id="8871a-108">_dwCookie_</span></span>
   
-> <span data-ttu-id="7a76d-109">возврата Файл cookie, возвращенный функцией [иолкаккаунтманажер:: Advise](iolkaccountmanager-advise.md).</span><span class="sxs-lookup"><span data-stu-id="7a76d-109">[in] The cookie returned by [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).</span></span>
+> <span data-ttu-id="8871a-109">возврата Файл cookie, возвращенный функцией [иолкаккаунтманажер:: Advise](iolkaccountmanager-advise.md).</span><span class="sxs-lookup"><span data-stu-id="8871a-109">[in] The cookie returned by [IOlkAccountManager::Advise](iolkaccountmanager-advise.md).</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="7a76d-110">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="7a76d-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="8871a-110">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="8871a-110">Return values</span></span>
 
-|<span data-ttu-id="7a76d-111">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="7a76d-111">**HRESULT**</span></span>|<span data-ttu-id="7a76d-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="7a76d-112">**Description**</span></span>|
+|<span data-ttu-id="8871a-111">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="8871a-111">**HRESULT**</span></span>|<span data-ttu-id="8871a-112">**Description**</span><span class="sxs-lookup"><span data-stu-id="8871a-112">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="7a76d-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="7a76d-113">S_OK</span></span>  <br/> |<span data-ttu-id="7a76d-114">The call succeeded.</span><span class="sxs-lookup"><span data-stu-id="7a76d-114">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="7a76d-115">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="7a76d-115">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="7a76d-116">Один или несколько аргументов являются недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="7a76d-116">One or more arguments are invalid.</span></span>  <br/> |
-|<span data-ttu-id="7a76d-117">Е_ОЛК_НОТ_ИНИТИАЛИЗЕД</span><span class="sxs-lookup"><span data-stu-id="7a76d-117">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="7a76d-118">The account manager has not been initialized for use.</span><span class="sxs-lookup"><span data-stu-id="7a76d-118">The account manager has not been initialized for use.</span></span>  <br/> |
+|<span data-ttu-id="8871a-113">S_OK</span><span class="sxs-lookup"><span data-stu-id="8871a-113">S_OK</span></span>  <br/> |<span data-ttu-id="8871a-114">The call succeeded.</span><span class="sxs-lookup"><span data-stu-id="8871a-114">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="8871a-115">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="8871a-115">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="8871a-116">Один или несколько аргументов являются недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="8871a-116">One or more arguments are invalid.</span></span>  <br/> |
+|<span data-ttu-id="8871a-117">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="8871a-117">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="8871a-118">The account manager has not been initialized for use.</span><span class="sxs-lookup"><span data-stu-id="8871a-118">The account manager has not been initialized for use.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="7a76d-119">См. также</span><span class="sxs-lookup"><span data-stu-id="7a76d-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8871a-119">См. также</span><span class="sxs-lookup"><span data-stu-id="8871a-119">See also</span></span>
 
-- [<span data-ttu-id="7a76d-120">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="7a76d-120">Constants (Account management API)</span></span>](constants-account-management-api.md)  
-- [<span data-ttu-id="7a76d-121">IOlkAccountManager::Advise</span><span class="sxs-lookup"><span data-stu-id="7a76d-121">IOlkAccountManager::Advise</span></span>](iolkaccountmanager-advise.md)
+- [<span data-ttu-id="8871a-120">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="8871a-120">Constants (Account management API)</span></span>](constants-account-management-api.md)  
+- [<span data-ttu-id="8871a-121">IOlkAccountManager::Advise</span><span class="sxs-lookup"><span data-stu-id="8871a-121">IOlkAccountManager::Advise</span></span>](iolkaccountmanager-advise.md)
 

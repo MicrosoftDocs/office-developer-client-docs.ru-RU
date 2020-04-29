@@ -16,15 +16,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435525"
 ---
-# <a name="actions-section"></a><span data-ttu-id="7eb7c-104">Actions Section</span><span class="sxs-lookup"><span data-stu-id="7eb7c-104">Actions Section</span></span>
+# <a name="actions-section"></a><span data-ttu-id="676bd-104">Actions Section</span><span class="sxs-lookup"><span data-stu-id="676bd-104">Actions Section</span></span>
 
-<span data-ttu-id="7eb7c-105">Содержит строки, описывающие пункты меню в контекстном меню или меню тегов действий фигуры или страницы.</span><span class="sxs-lookup"><span data-stu-id="7eb7c-105">Contains rows that describe menu items on a shortcut or action tag menu of a shape or page.</span></span> <span data-ttu-id="7eb7c-106">В предыдущих версиях Microsoft Visio теги действий называются смарт-тегами. Ячейка **TagName** используется для связи действия со строкой в разделе **тегов действий** , где определяются теги действий.</span><span class="sxs-lookup"><span data-stu-id="7eb7c-106">In previous versions of Microsoft Visio, action tags are called smart tags.The **TagName** cell is used to associate an action with a row in the **Action Tag** section, where action tags are defined.</span></span> 
+<span data-ttu-id="676bd-105">Содержит строки, описывающие пункты меню в контекстном меню или меню тегов действий фигуры или страницы.</span><span class="sxs-lookup"><span data-stu-id="676bd-105">Contains rows that describe menu items on a shortcut or action tag menu of a shape or page.</span></span> <span data-ttu-id="676bd-106">В предыдущих версиях Microsoft Visio теги действий называются смарт-тегами. Ячейка **TagName** используется для связи действия со строкой в разделе **тегов действий** , где определяются теги действий.</span><span class="sxs-lookup"><span data-stu-id="676bd-106">In previous versions of Microsoft Visio, action tags are called smart tags.The **TagName** cell is used to associate an action with a row in the **Action Tag** section, where action tags are defined.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="7eb7c-107">В предыдущих версиях Microsoft Visio теги действий назывались смарт-тегами.</span><span class="sxs-lookup"><span data-stu-id="7eb7c-107">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
+> <span data-ttu-id="676bd-107">В предыдущих версиях Microsoft Visio теги действий назывались смарт-тегами.</span><span class="sxs-lookup"><span data-stu-id="676bd-107">In previous versions of Microsoft Visio, action tags are called smart tags.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="7eb7c-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="7eb7c-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="676bd-108">Замечания</span><span class="sxs-lookup"><span data-stu-id="676bd-108">Remarks</span></span>
 
-<span data-ttu-id="7eb7c-109">Ячейка **TagName** используется для связи действия со строкой в разделе **тегов действий** , где определяются теги действий.</span><span class="sxs-lookup"><span data-stu-id="7eb7c-109">The **TagName** cell is used to associate an action with a row in the **Action Tag** section, where action tags are defined.</span></span> 
+<span data-ttu-id="676bd-109">Ячейка **TagName** используется для связи действия со строкой в разделе **тегов действий** , где определяются теги действий.</span><span class="sxs-lookup"><span data-stu-id="676bd-109">The **TagName** cell is used to associate an action with a row in the **Action Tag** section, where action tags are defined.</span></span> 
   
 

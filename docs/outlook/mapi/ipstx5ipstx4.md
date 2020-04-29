@@ -19,30 +19,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431801"
 ---
-# <a name="ipstx5--ipstx4"></a><span data-ttu-id="59f01-103">IPSTX5 : IPSTX4</span><span class="sxs-lookup"><span data-stu-id="59f01-103">IPSTX5 : IPSTX4</span></span>
+# <a name="ipstx5--ipstx4"></a><span data-ttu-id="8642c-103">IPSTX5 : IPSTX4</span><span class="sxs-lookup"><span data-stu-id="8642c-103">IPSTX5 : IPSTX4</span></span>
 
   
   
-<span data-ttu-id="59f01-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="59f01-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8642c-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8642c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="59f01-105">Этот интерфейс предоставляет вспомогательные функциональные возможности при выполнении репликации с помощью интерфейса ИОСТКС.</span><span class="sxs-lookup"><span data-stu-id="59f01-105">This interface provides helper functionality when performing replication through the IOSTX interface.</span></span>
+<span data-ttu-id="8642c-105">Этот интерфейс предоставляет вспомогательные функциональные возможности при выполнении репликации с помощью интерфейса ИОСТКС.</span><span class="sxs-lookup"><span data-stu-id="8642c-105">This interface provides helper functionality when performing replication through the IOSTX interface.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="59f01-106">Предоставлено</span><span class="sxs-lookup"><span data-stu-id="59f01-106">Provided by</span></span>  <br/> |<span data-ttu-id="59f01-107">Запрос на [IMsgStore](imsgstoreimapiprop.md)</span><span class="sxs-lookup"><span data-stu-id="59f01-107">Query on [IMsgStore](imsgstoreimapiprop.md)</span></span> <br/> |
-|<span data-ttu-id="59f01-108">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="59f01-108">Interface identifier:</span></span>  <br/> |<span data-ttu-id="59f01-109">IID_IPSTX5</span><span class="sxs-lookup"><span data-stu-id="59f01-109">IID_IPSTX5</span></span>  <br/> |
+|<span data-ttu-id="8642c-106">Предоставлено</span><span class="sxs-lookup"><span data-stu-id="8642c-106">Provided by</span></span>  <br/> |<span data-ttu-id="8642c-107">Запрос на [IMsgStore](imsgstoreimapiprop.md)</span><span class="sxs-lookup"><span data-stu-id="8642c-107">Query on [IMsgStore](imsgstoreimapiprop.md)</span></span> <br/> |
+|<span data-ttu-id="8642c-108">Идентификатор интерфейса:</span><span class="sxs-lookup"><span data-stu-id="8642c-108">Interface identifier:</span></span>  <br/> |<span data-ttu-id="8642c-109">IID_IPSTX5</span><span class="sxs-lookup"><span data-stu-id="8642c-109">IID_IPSTX5</span></span>  <br/> |
    
-## <a name="vtable-order"></a><span data-ttu-id="59f01-110">Заказ vtable</span><span class="sxs-lookup"><span data-stu-id="59f01-110">Vtable order</span></span>
+## <a name="vtable-order"></a><span data-ttu-id="8642c-110">Заказ vtable</span><span class="sxs-lookup"><span data-stu-id="8642c-110">Vtable order</span></span>
 
 |||
 |:-----|:-----|
-| <span data-ttu-id="59f01-111">*Элемент PlaceHolder*</span><span class="sxs-lookup"><span data-stu-id="59f01-111">*Placeholder member*</span></span>  <br/> | <span data-ttu-id="59f01-112">*Не поддерживается или не задокументировано.*</span><span class="sxs-lookup"><span data-stu-id="59f01-112">*Not supported or documented.*</span></span>  <br/> |
+| <span data-ttu-id="8642c-111">*Элемент PlaceHolder*</span><span class="sxs-lookup"><span data-stu-id="8642c-111">*Placeholder member*</span></span>  <br/> | <span data-ttu-id="8642c-112">*Не поддерживается или не задокументировано.*</span><span class="sxs-lookup"><span data-stu-id="8642c-112">*Not supported or documented.*</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="59f01-113">См. также</span><span class="sxs-lookup"><span data-stu-id="59f01-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8642c-113">См. также</span><span class="sxs-lookup"><span data-stu-id="8642c-113">See also</span></span>
 
 
 
-[<span data-ttu-id="59f01-114">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="59f01-114">About the Replication API</span></span>](about-the-replication-api.md)
+[<span data-ttu-id="8642c-114">Сведения об API репликации</span><span class="sxs-lookup"><span data-stu-id="8642c-114">About the Replication API</span></span>](about-the-replication-api.md)
   
-[<span data-ttu-id="59f01-115">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="59f01-115">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="8642c-115">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="8642c-115">MAPI Constants</span></span>](mapi-constants.md)
 

@@ -19,35 +19,35 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429042"
 ---
-# <a name="cbadrlist"></a><span data-ttu-id="f4e86-103">CbADRLIST</span><span class="sxs-lookup"><span data-stu-id="f4e86-103">CbADRLIST</span></span>
+# <a name="cbadrlist"></a><span data-ttu-id="7e0b0-103">CbADRLIST</span><span class="sxs-lookup"><span data-stu-id="7e0b0-103">CbADRLIST</span></span>
 
   
   
-<span data-ttu-id="f4e86-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f4e86-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7e0b0-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7e0b0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f4e86-105">Вычисляет количество байтов в существующей структуре [ADRLIST](adrlist.md) .</span><span class="sxs-lookup"><span data-stu-id="f4e86-105">Computes the number of bytes in an existing [ADRLIST](adrlist.md) structure.</span></span> 
+<span data-ttu-id="7e0b0-105">Вычисляет количество байтов в существующей структуре [ADRLIST](adrlist.md) .</span><span class="sxs-lookup"><span data-stu-id="7e0b0-105">Computes the number of bytes in an existing [ADRLIST](adrlist.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f4e86-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="f4e86-106">Header file:</span></span>  <br/> |<span data-ttu-id="f4e86-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="f4e86-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="f4e86-108">Связанная структура</span><span class="sxs-lookup"><span data-stu-id="f4e86-108">Related structure</span></span>  <br/> |<span data-ttu-id="f4e86-109">**ADRLIST**</span><span class="sxs-lookup"><span data-stu-id="f4e86-109">**ADRLIST**</span></span> <br/> |
+|<span data-ttu-id="7e0b0-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="7e0b0-106">Header file:</span></span>  <br/> |<span data-ttu-id="7e0b0-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="7e0b0-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="7e0b0-108">Связанная структура</span><span class="sxs-lookup"><span data-stu-id="7e0b0-108">Related structure</span></span>  <br/> |<span data-ttu-id="7e0b0-109">**ADRLIST**</span><span class="sxs-lookup"><span data-stu-id="7e0b0-109">**ADRLIST**</span></span> <br/> |
    
 ```cpp
 CbADRLIST (_lpadrlist)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f4e86-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="f4e86-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7e0b0-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="7e0b0-110">Parameters</span></span>
 
- <span data-ttu-id="f4e86-111">__лпадрлист_</span><span class="sxs-lookup"><span data-stu-id="f4e86-111">__lpadrlist_</span></span>
+ <span data-ttu-id="7e0b0-111">__лпадрлист_</span><span class="sxs-lookup"><span data-stu-id="7e0b0-111">__lpadrlist_</span></span>
   
-> <span data-ttu-id="f4e86-112">Указатель на существующую структуру **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="f4e86-112">Pointer to the existing **ADRLIST** structure.</span></span> 
+> <span data-ttu-id="7e0b0-112">Указатель на существующую структуру **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="7e0b0-112">Pointer to the existing **ADRLIST** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="f4e86-113">См. также</span><span class="sxs-lookup"><span data-stu-id="f4e86-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7e0b0-113">См. также</span><span class="sxs-lookup"><span data-stu-id="7e0b0-113">See also</span></span>
 
 
 
-[<span data-ttu-id="f4e86-114">ADRLIST</span><span class="sxs-lookup"><span data-stu-id="f4e86-114">ADRLIST</span></span>](adrlist.md)
+[<span data-ttu-id="7e0b0-114">ADRLIST</span><span class="sxs-lookup"><span data-stu-id="7e0b0-114">ADRLIST</span></span>](adrlist.md)
 
 
-[<span data-ttu-id="f4e86-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="f4e86-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="7e0b0-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="7e0b0-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

@@ -19,42 +19,42 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423463"
 ---
-# <a name="sizedadrlist"></a><span data-ttu-id="3bbae-103">SizedADRLIST</span><span class="sxs-lookup"><span data-stu-id="3bbae-103">SizedADRLIST</span></span>
+# <a name="sizedadrlist"></a><span data-ttu-id="9b677-103">SizedADRLIST</span><span class="sxs-lookup"><span data-stu-id="9b677-103">SizedADRLIST</span></span>
 
-<span data-ttu-id="3bbae-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3bbae-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="9b677-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9b677-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3bbae-105">Определяет структуру [ADRLIST](adrlist.md) с указанным именем, которая содержит указанное число структур [адрентри](adrentry.md) .</span><span class="sxs-lookup"><span data-stu-id="3bbae-105">Defines an [ADRLIST](adrlist.md) structure with the specified name that contains a specified number of [ADRENTRY](adrentry.md) structures.</span></span> 
+<span data-ttu-id="9b677-105">Определяет структуру [ADRLIST](adrlist.md) с указанным именем, которая содержит указанное число структур [адрентри](adrentry.md) .</span><span class="sxs-lookup"><span data-stu-id="9b677-105">Defines an [ADRLIST](adrlist.md) structure with the specified name that contains a specified number of [ADRENTRY](adrentry.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3bbae-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="3bbae-106">Header file:</span></span>  <br/> |<span data-ttu-id="3bbae-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="3bbae-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="3bbae-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="3bbae-108">Related structure:</span></span>  <br/> |<span data-ttu-id="3bbae-109">**ADRLIST**</span><span class="sxs-lookup"><span data-stu-id="3bbae-109">**ADRLIST**</span></span> <br/> |
+|<span data-ttu-id="9b677-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="9b677-106">Header file:</span></span>  <br/> |<span data-ttu-id="9b677-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="9b677-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="9b677-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="9b677-108">Related structure:</span></span>  <br/> |<span data-ttu-id="9b677-109">**ADRLIST**</span><span class="sxs-lookup"><span data-stu-id="9b677-109">**ADRLIST**</span></span> <br/> |
    
 ```cpp
 SizedADRLIST (_centries,_name)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="3bbae-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="3bbae-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="9b677-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="9b677-110">Parameters</span></span>
 
-<span data-ttu-id="3bbae-111">__центриес_</span><span class="sxs-lookup"><span data-stu-id="3bbae-111">__centries_</span></span>
+<span data-ttu-id="9b677-111">__центриес_</span><span class="sxs-lookup"><span data-stu-id="9b677-111">__centries_</span></span>
   
-> <span data-ttu-id="3bbae-112">Количество структур **адрентри** , включаемых в новую структуру **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="3bbae-112">Count of **ADRENTRY** structures to be included in the new **ADRLIST** structure.</span></span> 
+> <span data-ttu-id="9b677-112">Количество структур **адрентри** , включаемых в новую структуру **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="9b677-112">Count of **ADRENTRY** structures to be included in the new **ADRLIST** structure.</span></span> 
     
-<span data-ttu-id="3bbae-113">__имя_</span><span class="sxs-lookup"><span data-stu-id="3bbae-113">__name_</span></span>
+<span data-ttu-id="9b677-113">__имя_</span><span class="sxs-lookup"><span data-stu-id="9b677-113">__name_</span></span>
   
-> <span data-ttu-id="3bbae-114">Имя новой структуры **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="3bbae-114">Name for the new **ADRLIST** structure.</span></span> 
+> <span data-ttu-id="9b677-114">Имя новой структуры **ADRLIST** .</span><span class="sxs-lookup"><span data-stu-id="9b677-114">Name for the new **ADRLIST** structure.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="3bbae-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="3bbae-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="9b677-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="9b677-115">Remarks</span></span>
 
-<span data-ttu-id="3bbae-116">Макрос **сизедадрлист** позволяет определить список получателей с явными границами при известных требованиях к длине массива.</span><span class="sxs-lookup"><span data-stu-id="3bbae-116">The **SizedADRLIST** macro lets you define a recipient list that has explicit bounds when array length requirements are known.</span></span> <span data-ttu-id="3bbae-117">В приведенном ниже коде показано, как привести результат выполнения макроса **сизедадрлист** к указателю структуры **ADRLIST** :</span><span class="sxs-lookup"><span data-stu-id="3bbae-117">The following code shows how to cast the result of the **SizedADRLIST** macro to an **ADRLIST** structure pointer:</span></span> 
+<span data-ttu-id="9b677-116">Макрос **сизедадрлист** позволяет определить список получателей с явными границами при известных требованиях к длине массива.</span><span class="sxs-lookup"><span data-stu-id="9b677-116">The **SizedADRLIST** macro lets you define a recipient list that has explicit bounds when array length requirements are known.</span></span> <span data-ttu-id="9b677-117">В приведенном ниже коде показано, как привести результат выполнения макроса **сизедадрлист** к указателю структуры **ADRLIST** :</span><span class="sxs-lookup"><span data-stu-id="9b677-117">The following code shows how to cast the result of the **SizedADRLIST** macro to an **ADRLIST** structure pointer:</span></span> 
   
 ```cpp
 lpADRList = (LPADRLIST) &SizedADRList;
 ```
 
-## <a name="see-also"></a><span data-ttu-id="3bbae-118">См. также</span><span class="sxs-lookup"><span data-stu-id="3bbae-118">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="9b677-118">См. также</span><span class="sxs-lookup"><span data-stu-id="9b677-118">See also</span></span>
 
-- [<span data-ttu-id="3bbae-119">ADRLIST</span><span class="sxs-lookup"><span data-stu-id="3bbae-119">ADRLIST</span></span>](adrlist.md)
-- [<span data-ttu-id="3bbae-120">ADRENTRY</span><span class="sxs-lookup"><span data-stu-id="3bbae-120">ADRENTRY</span></span>](adrentry.md)
-- [<span data-ttu-id="3bbae-121">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="3bbae-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+- [<span data-ttu-id="9b677-119">ADRLIST</span><span class="sxs-lookup"><span data-stu-id="9b677-119">ADRLIST</span></span>](adrlist.md)
+- [<span data-ttu-id="9b677-120">ADRENTRY</span><span class="sxs-lookup"><span data-stu-id="9b677-120">ADRENTRY</span></span>](adrentry.md)
+- [<span data-ttu-id="9b677-121">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="9b677-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

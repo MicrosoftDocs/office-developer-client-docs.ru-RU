@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428461"
 ---
-# <a name="fbadsortorderset"></a><span data-ttu-id="80998-103">FBadSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="80998-103">FBadSortOrderSet</span></span>
+# <a name="fbadsortorderset"></a><span data-ttu-id="01b99-103">FBadSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="01b99-103">FBadSortOrderSet</span></span>
 
   
   
-<span data-ttu-id="80998-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="80998-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="01b99-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="01b99-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="80998-105">Проверяет порядок сортировки, установленный путем проверки выделения памяти.</span><span class="sxs-lookup"><span data-stu-id="80998-105">Validates a sort order set by verifying its memory allocation.</span></span> 
+<span data-ttu-id="01b99-105">Проверяет порядок сортировки, установленный путем проверки выделения памяти.</span><span class="sxs-lookup"><span data-stu-id="01b99-105">Validates a sort order set by verifying its memory allocation.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="80998-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="80998-106">Header file:</span></span>  <br/> |<span data-ttu-id="80998-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="80998-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="80998-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="80998-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="80998-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="80998-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="80998-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="80998-110">Called by:</span></span>  <br/> |<span data-ttu-id="80998-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="80998-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="01b99-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="01b99-106">Header file:</span></span>  <br/> |<span data-ttu-id="01b99-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="01b99-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="01b99-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="01b99-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="01b99-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="01b99-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="01b99-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="01b99-110">Called by:</span></span>  <br/> |<span data-ttu-id="01b99-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="01b99-111">Service providers</span></span>  <br/> |
    
 ```cpp
 ULONG FBadSortOrderSet(
@@ -39,24 +39,24 @@ ULONG FBadSortOrderSet(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="80998-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="80998-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="01b99-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="01b99-112">Parameters</span></span>
 
- <span data-ttu-id="80998-113">_лпсос_</span><span class="sxs-lookup"><span data-stu-id="80998-113">_lpsos_</span></span>
+ <span data-ttu-id="01b99-113">_лпсос_</span><span class="sxs-lookup"><span data-stu-id="01b99-113">_lpsos_</span></span>
   
-> <span data-ttu-id="80998-114">возврата Указатель на структуру [ссортордерсет](ssortorderset.md) , определяющую порядок сортировки, который необходимо проверить.</span><span class="sxs-lookup"><span data-stu-id="80998-114">[in] Pointer to an [SSortOrderSet](ssortorderset.md) structure identifying the sort order set to be validated.</span></span> 
+> <span data-ttu-id="01b99-114">возврата Указатель на структуру [ссортордерсет](ssortorderset.md) , определяющую порядок сортировки, который необходимо проверить.</span><span class="sxs-lookup"><span data-stu-id="01b99-114">[in] Pointer to an [SSortOrderSet](ssortorderset.md) structure identifying the sort order set to be validated.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="80998-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="80998-115">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="01b99-115">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="01b99-115">Return value</span></span>
 
-<span data-ttu-id="80998-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="80998-116">TRUE</span></span> 
+<span data-ttu-id="01b99-116">TRUE</span><span class="sxs-lookup"><span data-stu-id="01b99-116">TRUE</span></span> 
   
-> <span data-ttu-id="80998-117">Указан недопустимый порядок сортировки.</span><span class="sxs-lookup"><span data-stu-id="80998-117">The specified sort order set is invalid.</span></span> 
+> <span data-ttu-id="01b99-117">Указан недопустимый порядок сортировки.</span><span class="sxs-lookup"><span data-stu-id="01b99-117">The specified sort order set is invalid.</span></span> 
     
-<span data-ttu-id="80998-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="80998-118">FALSE</span></span> 
+<span data-ttu-id="01b99-118">FALSE</span><span class="sxs-lookup"><span data-stu-id="01b99-118">FALSE</span></span> 
   
-> <span data-ttu-id="80998-119">Указан допустимый набор порядка сортировки.</span><span class="sxs-lookup"><span data-stu-id="80998-119">The specified sort order set is valid.</span></span>
+> <span data-ttu-id="01b99-119">Указан допустимый набор порядка сортировки.</span><span class="sxs-lookup"><span data-stu-id="01b99-119">The specified sort order set is valid.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="80998-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="80998-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="01b99-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="01b99-120">Remarks</span></span>
 
-<span data-ttu-id="80998-121">Функцию **фбадсортордерсет** можно использовать для подготовки к вызову метода сортировки, такого как метод [IMAPITable:: сорттабле](imapitable-sorttable.md) .</span><span class="sxs-lookup"><span data-stu-id="80998-121">The **FBadSortOrderSet** function can be used to prepare for a call to a sort method such as the [IMAPITable::SortTable](imapitable-sorttable.md) method.</span></span> 
+<span data-ttu-id="01b99-121">Функцию **фбадсортордерсет** можно использовать для подготовки к вызову метода сортировки, такого как метод [IMAPITable:: сорттабле](imapitable-sorttable.md) .</span><span class="sxs-lookup"><span data-stu-id="01b99-121">The **FBadSortOrderSet** function can be used to prepare for a call to a sort method such as the [IMAPITable::SortTable](imapitable-sorttable.md) method.</span></span> 
   
 

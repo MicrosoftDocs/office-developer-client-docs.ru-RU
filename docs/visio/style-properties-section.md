@@ -16,8 +16,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431332"
 ---
-# <a name="style-properties-section"></a><span data-ttu-id="d253e-103">Style Properties Section</span><span class="sxs-lookup"><span data-stu-id="d253e-103">Style Properties Section</span></span>
+# <a name="style-properties-section"></a><span data-ttu-id="768ae-103">Style Properties Section</span><span class="sxs-lookup"><span data-stu-id="768ae-103">Style Properties Section</span></span>
 
-<span data-ttu-id="d253e-104">Включает ячейки, которые управляют поведением стиля, например, содержит ли стиль текст, линии и атрибуты заливки.</span><span class="sxs-lookup"><span data-stu-id="d253e-104">Includes cells that control style behavior, such as whether a style includes text, line, and fill attributes.</span></span>
+<span data-ttu-id="768ae-104">Включает ячейки, которые управляют поведением стиля, например, содержит ли стиль текст, линии и атрибуты заливки.</span><span class="sxs-lookup"><span data-stu-id="768ae-104">Includes cells that control style behavior, such as whether a style includes text, line, and fill attributes.</span></span>
   
 

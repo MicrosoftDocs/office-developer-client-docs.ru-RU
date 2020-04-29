@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434314"
 ---
-# <a name="outlook-exported-apis"></a><span data-ttu-id="93d22-103">Экспортированные API Outlook</span><span class="sxs-lookup"><span data-stu-id="93d22-103">Outlook exported APIs</span></span>
+# <a name="outlook-exported-apis"></a><span data-ttu-id="c24e8-103">Экспортированные API Outlook</span><span class="sxs-lookup"><span data-stu-id="c24e8-103">Outlook exported APIs</span></span>
 
-<span data-ttu-id="93d22-104">В этом разделе представлены справочные материалы по API, экспортируемых в Outlook.</span><span class="sxs-lookup"><span data-stu-id="93d22-104">This section provides reference content for the APIs that Outlook exports.</span></span>
+<span data-ttu-id="c24e8-104">В этом разделе представлены справочные материалы по API, экспортируемых в Outlook.</span><span class="sxs-lookup"><span data-stu-id="c24e8-104">This section provides reference content for the APIs that Outlook exports.</span></span>
 
-- [<span data-ttu-id="93d22-105">Константы</span><span class="sxs-lookup"><span data-stu-id="93d22-105">Constants</span></span>](constants-outlook-exported-apis.md)
+- [<span data-ttu-id="c24e8-105">Константы</span><span class="sxs-lookup"><span data-stu-id="c24e8-105">Constants</span></span>](constants-outlook-exported-apis.md)
     
-- [<span data-ttu-id="93d22-106">Data Types</span><span class="sxs-lookup"><span data-stu-id="93d22-106">Data Types</span></span>](data-types-outlook-exported-apis.md)
+- [<span data-ttu-id="c24e8-106">Data Types</span><span class="sxs-lookup"><span data-stu-id="c24e8-106">Data Types</span></span>](data-types-outlook-exported-apis.md)
     
-- [<span data-ttu-id="93d22-107">Functions</span><span class="sxs-lookup"><span data-stu-id="93d22-107">Functions</span></span>](functions-outlook-exported-apis.md)
+- [<span data-ttu-id="c24e8-107">Functions</span><span class="sxs-lookup"><span data-stu-id="c24e8-107">Functions</span></span>](functions-outlook-exported-apis.md)
     
-- [<span data-ttu-id="93d22-108">Интерфейсы</span><span class="sxs-lookup"><span data-stu-id="93d22-108">Interfaces</span></span>](interfaces-outlook-exported-apis.md)
+- [<span data-ttu-id="c24e8-108">Интерфейсы</span><span class="sxs-lookup"><span data-stu-id="c24e8-108">Interfaces</span></span>](interfaces-outlook-exported-apis.md)
     
-- [<span data-ttu-id="93d22-109">Доступные события и их идентификаторы DISPID (экспортированные API Outlook)</span><span class="sxs-lookup"><span data-stu-id="93d22-109">Available events and their dispids (Outlook exported APIs)</span></span>](available-events-and-their-dispids-outlook-exported-apis.md)
+- [<span data-ttu-id="c24e8-109">Доступные события и их идентификаторы DISPID (экспортированные API Outlook)</span><span class="sxs-lookup"><span data-stu-id="c24e8-109">Available events and their dispids (Outlook exported APIs)</span></span>](available-events-and-their-dispids-outlook-exported-apis.md)
     
 

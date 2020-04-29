@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429875"
 ---
-# <a name="srealarray"></a><span data-ttu-id="ea1ca-103">SRealArray</span><span class="sxs-lookup"><span data-stu-id="ea1ca-103">SRealArray</span></span>
+# <a name="srealarray"></a><span data-ttu-id="cb817-103">SRealArray</span><span class="sxs-lookup"><span data-stu-id="cb817-103">SRealArray</span></span>
 
   
   
-<span data-ttu-id="ea1ca-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ea1ca-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cb817-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cb817-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ea1ca-105">Содержит массив значений float, которые используются для описания свойства типа PT_MV_R4.</span><span class="sxs-lookup"><span data-stu-id="ea1ca-105">Contains an array of float values that are used to describe a property of type PT_MV_R4.</span></span> 
+<span data-ttu-id="cb817-105">Содержит массив значений float, которые используются для описания свойства типа PT_MV_R4.</span><span class="sxs-lookup"><span data-stu-id="cb817-105">Contains an array of float values that are used to describe a property of type PT_MV_R4.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ea1ca-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="ea1ca-106">Header file:</span></span>  <br/> |<span data-ttu-id="ea1ca-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="ea1ca-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="cb817-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="cb817-106">Header file:</span></span>  <br/> |<span data-ttu-id="cb817-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="cb817-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SRealArray
@@ -40,26 +40,26 @@ typedef struct _SRealArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="ea1ca-108">Members</span><span class="sxs-lookup"><span data-stu-id="ea1ca-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="cb817-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="cb817-108">Members</span></span>
 
- <span data-ttu-id="ea1ca-109">**Квалуес**</span><span class="sxs-lookup"><span data-stu-id="ea1ca-109">**cValues**</span></span>
+ <span data-ttu-id="cb817-109">**квалуес**</span><span class="sxs-lookup"><span data-stu-id="cb817-109">**cValues**</span></span>
   
-> <span data-ttu-id="ea1ca-110">Количество значений в массиве, на которое указывает элемент **лпфлт** .</span><span class="sxs-lookup"><span data-stu-id="ea1ca-110">Count of values in the array pointed to by the **lpflt** member.</span></span> 
+> <span data-ttu-id="cb817-110">Количество значений в массиве, на которое указывает элемент **лпфлт** .</span><span class="sxs-lookup"><span data-stu-id="cb817-110">Count of values in the array pointed to by the **lpflt** member.</span></span> 
     
- <span data-ttu-id="ea1ca-111">**лпфлт**</span><span class="sxs-lookup"><span data-stu-id="ea1ca-111">**lpflt**</span></span>
+ <span data-ttu-id="cb817-111">**лпфлт**</span><span class="sxs-lookup"><span data-stu-id="cb817-111">**lpflt**</span></span>
   
-> <span data-ttu-id="ea1ca-112">Указатель на массив значений с плавающей запятой.</span><span class="sxs-lookup"><span data-stu-id="ea1ca-112">Pointer to an array of float values.</span></span>
+> <span data-ttu-id="cb817-112">Указатель на массив значений с плавающей запятой.</span><span class="sxs-lookup"><span data-stu-id="cb817-112">Pointer to an array of float values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="ea1ca-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="ea1ca-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cb817-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="cb817-113">Remarks</span></span>
 
-<span data-ttu-id="ea1ca-114">Более подробную информацию о типе свойства PT_MV_R4 можно узнать в статье [типы свойств](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="ea1ca-114">For more information about the PT_MV_R4 property type, see [Property Types](property-types.md).</span></span>
+<span data-ttu-id="cb817-114">Дополнительные сведения о типе свойства PT_MV_R4 см в разделе [типы свойств](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="cb817-114">For more information about the PT_MV_R4 property type, see [Property Types](property-types.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="ea1ca-115">См. также</span><span class="sxs-lookup"><span data-stu-id="ea1ca-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cb817-115">См. также</span><span class="sxs-lookup"><span data-stu-id="cb817-115">See also</span></span>
 
 
 
-[<span data-ttu-id="ea1ca-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="ea1ca-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="cb817-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="cb817-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="ea1ca-117">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="ea1ca-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="cb817-117">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="cb817-117">MAPI Structures</span></span>](mapi-structures.md)
 

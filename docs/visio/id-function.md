@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430674"
 ---
-# <a name="id-function"></a><span data-ttu-id="9fc48-103">Функция ID</span><span class="sxs-lookup"><span data-stu-id="9fc48-103">ID Function</span></span>
+# <a name="id-function"></a><span data-ttu-id="ea8d0-103">Функция ID</span><span class="sxs-lookup"><span data-stu-id="ea8d0-103">ID Function</span></span>
 
-<span data-ttu-id="9fc48-104">Возвращает внутренний идентификатор фигуры в виде числа.</span><span class="sxs-lookup"><span data-stu-id="9fc48-104">Returns a shape's internal ID as a number.</span></span>
+<span data-ttu-id="ea8d0-104">Возвращает внутренний идентификатор фигуры в виде числа.</span><span class="sxs-lookup"><span data-stu-id="ea8d0-104">Returns a shape's internal ID as a number.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="9fc48-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9fc48-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ea8d0-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ea8d0-105">Syntax</span></span>
 
-<span data-ttu-id="9fc48-106">ID ()</span><span class="sxs-lookup"><span data-stu-id="9fc48-106">ID ()</span></span>
+<span data-ttu-id="ea8d0-106">ID ()</span><span class="sxs-lookup"><span data-stu-id="ea8d0-106">ID ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="9fc48-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="9fc48-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="ea8d0-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="ea8d0-107">Return value</span></span>
 
-<span data-ttu-id="9fc48-108">Число</span><span class="sxs-lookup"><span data-stu-id="9fc48-108">Number</span></span>
+<span data-ttu-id="ea8d0-108">Номер</span><span class="sxs-lookup"><span data-stu-id="ea8d0-108">Number</span></span>
   
 

@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунтманажерадвисе
+title: иолкаккаунтманажерадвисе
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427712"
 ---
-# <a name="iolkaccountmanageradvise"></a><span data-ttu-id="a7d2f-103">IOlkAccountManager::Advise</span><span class="sxs-lookup"><span data-stu-id="a7d2f-103">IOlkAccountManager::Advise</span></span>
+# <a name="iolkaccountmanageradvise"></a><span data-ttu-id="c838a-103">IOlkAccountManager::Advise</span><span class="sxs-lookup"><span data-stu-id="c838a-103">IOlkAccountManager::Advise</span></span>
 
-<span data-ttu-id="a7d2f-104">Регистрирует клиента с помощью диспетчера учетных записей для уведомлений, касающихся всех учетных записей.</span><span class="sxs-lookup"><span data-stu-id="a7d2f-104">Registers a client with the account manager for notifications regarding all accounts.</span></span>
+<span data-ttu-id="c838a-104">Регистрирует клиента с помощью диспетчера учетных записей для уведомлений, касающихся всех учетных записей.</span><span class="sxs-lookup"><span data-stu-id="c838a-104">Registers a client with the account manager for notifications regarding all accounts.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="a7d2f-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="a7d2f-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="c838a-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="c838a-105">Quick info</span></span>
 
-<span data-ttu-id="a7d2f-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="a7d2f-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
+<span data-ttu-id="c838a-106">See [IOlkAccountManager](iolkaccountmanager.md).</span><span class="sxs-lookup"><span data-stu-id="c838a-106">See [IOlkAccountManager](iolkaccountmanager.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccountManager::Advise (  
@@ -29,26 +29,26 @@ HRESULT IOlkAccountManager::Advise (
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a7d2f-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="a7d2f-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c838a-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="c838a-107">Parameters</span></span>
 
-<span data-ttu-id="a7d2f-108">_Пнотифи_</span><span class="sxs-lookup"><span data-stu-id="a7d2f-108">_pNotify_</span></span>
+<span data-ttu-id="c838a-108">_пнотифи_</span><span class="sxs-lookup"><span data-stu-id="c838a-108">_pNotify_</span></span>
   
-> <span data-ttu-id="a7d2f-109">возврата Интерфейс [иолкаккаунтнотифи](iolkaccountnotify.md) , который диспетчер учетных записей будет использовать для отправки уведомлений клиенту.</span><span class="sxs-lookup"><span data-stu-id="a7d2f-109">[in] An [IOlkAccountNotify](iolkaccountnotify.md) interface that the account manager will use to send notifications to the client.</span></span> 
+> <span data-ttu-id="c838a-109">возврата Интерфейс [иолкаккаунтнотифи](iolkaccountnotify.md) , который диспетчер учетных записей будет использовать для отправки уведомлений клиенту.</span><span class="sxs-lookup"><span data-stu-id="c838a-109">[in] An [IOlkAccountNotify](iolkaccountnotify.md) interface that the account manager will use to send notifications to the client.</span></span> 
     
-<span data-ttu-id="a7d2f-110">_Пдвкукие_</span><span class="sxs-lookup"><span data-stu-id="a7d2f-110">_pdwCookie_</span></span>
+<span data-ttu-id="c838a-110">_пдвкукие_</span><span class="sxs-lookup"><span data-stu-id="c838a-110">_pdwCookie_</span></span>
   
-> <span data-ttu-id="a7d2f-111">вышли Файл cookie, [иолкаккаунтманажер:: unadvise](iolkaccountmanager-unadvise.md) будет использоваться при удалении регистрации для учетной записи.</span><span class="sxs-lookup"><span data-stu-id="a7d2f-111">[out] A cookie that [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md) will use when removing the registration for the account.</span></span> 
+> <span data-ttu-id="c838a-111">вышли Файл cookie, [иолкаккаунтманажер:: unadvise](iolkaccountmanager-unadvise.md) будет использоваться при удалении регистрации для учетной записи.</span><span class="sxs-lookup"><span data-stu-id="c838a-111">[out] A cookie that [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md) will use when removing the registration for the account.</span></span> 
     
-## <a name="return-values"></a><span data-ttu-id="a7d2f-112">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="a7d2f-112">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="c838a-112">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="c838a-112">Return values</span></span>
 
-|<span data-ttu-id="a7d2f-113">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="a7d2f-113">**HRESULT**</span></span>|<span data-ttu-id="a7d2f-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="a7d2f-114">**Description**</span></span>|
+|<span data-ttu-id="c838a-113">**HRESULT**</span><span class="sxs-lookup"><span data-stu-id="c838a-113">**HRESULT**</span></span>|<span data-ttu-id="c838a-114">**Description**</span><span class="sxs-lookup"><span data-stu-id="c838a-114">**Description**</span></span>|
 |:-----|:-----|
-|<span data-ttu-id="a7d2f-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="a7d2f-115">S_OK</span></span>  <br/> |<span data-ttu-id="a7d2f-116">The call succeeded.</span><span class="sxs-lookup"><span data-stu-id="a7d2f-116">The call succeeded.</span></span>  <br/> |
-|<span data-ttu-id="a7d2f-117">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="a7d2f-117">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="a7d2f-118">Указан недопустимый аргумент.</span><span class="sxs-lookup"><span data-stu-id="a7d2f-118">An invalid argument has been provided.</span></span>  <br/> |
-|<span data-ttu-id="a7d2f-119">Е_ОЛК_НОТ_ИНИТИАЛИЗЕД</span><span class="sxs-lookup"><span data-stu-id="a7d2f-119">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="a7d2f-120">The account manager has not been initialized for use.</span><span class="sxs-lookup"><span data-stu-id="a7d2f-120">The account manager has not been initialized for use.</span></span>  <br/> |
+|<span data-ttu-id="c838a-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="c838a-115">S_OK</span></span>  <br/> |<span data-ttu-id="c838a-116">The call succeeded.</span><span class="sxs-lookup"><span data-stu-id="c838a-116">The call succeeded.</span></span>  <br/> |
+|<span data-ttu-id="c838a-117">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="c838a-117">E_INVALIDARG</span></span>  <br/> |<span data-ttu-id="c838a-118">Указан недопустимый аргумент.</span><span class="sxs-lookup"><span data-stu-id="c838a-118">An invalid argument has been provided.</span></span>  <br/> |
+|<span data-ttu-id="c838a-119">E_OLK_NOT_INITIALIZED</span><span class="sxs-lookup"><span data-stu-id="c838a-119">E_OLK_NOT_INITIALIZED</span></span>  <br/> |<span data-ttu-id="c838a-120">The account manager has not been initialized for use.</span><span class="sxs-lookup"><span data-stu-id="c838a-120">The account manager has not been initialized for use.</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="a7d2f-121">См. также</span><span class="sxs-lookup"><span data-stu-id="a7d2f-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c838a-121">См. также</span><span class="sxs-lookup"><span data-stu-id="c838a-121">See also</span></span>
 
-- [<span data-ttu-id="a7d2f-122">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="a7d2f-122">Constants (Account management API)</span></span>](constants-account-management-api.md)  
-- [<span data-ttu-id="a7d2f-123">IOlkAccountManager::Unadvise</span><span class="sxs-lookup"><span data-stu-id="a7d2f-123">IOlkAccountManager::Unadvise</span></span>](iolkaccountmanager-unadvise.md)
+- [<span data-ttu-id="c838a-122">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="c838a-122">Constants (Account management API)</span></span>](constants-account-management-api.md)  
+- [<span data-ttu-id="c838a-123">IOlkAccountManager::Unadvise</span><span class="sxs-lookup"><span data-stu-id="c838a-123">IOlkAccountManager::Unadvise</span></span>](iolkaccountmanager-unadvise.md)
 

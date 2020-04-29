@@ -16,20 +16,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424212"
 ---
-# <a name="pagenumber-function"></a><span data-ttu-id="7fd3f-103">Функция PAGENUMBER</span><span class="sxs-lookup"><span data-stu-id="7fd3f-103">PAGENUMBER Function</span></span>
+# <a name="pagenumber-function"></a><span data-ttu-id="94308-103">Функция PAGENUMBER</span><span class="sxs-lookup"><span data-stu-id="94308-103">PAGENUMBER Function</span></span>
 
-<span data-ttu-id="7fd3f-104">Возвращает номер страницы, которая содержит фигуру.</span><span class="sxs-lookup"><span data-stu-id="7fd3f-104">Returns the number of the page that contains the shape.</span></span> 
+<span data-ttu-id="94308-104">Возвращает номер страницы, которая содержит фигуру.</span><span class="sxs-lookup"><span data-stu-id="94308-104">Returns the number of the page that contains the shape.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="7fd3f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7fd3f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="94308-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="94308-105">Syntax</span></span>
 
-<span data-ttu-id="7fd3f-106">PAGENUMBER ()</span><span class="sxs-lookup"><span data-stu-id="7fd3f-106">PAGENUMBER()</span></span>
+<span data-ttu-id="94308-106">PAGENUMBER ()</span><span class="sxs-lookup"><span data-stu-id="94308-106">PAGENUMBER()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="7fd3f-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7fd3f-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="94308-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="94308-107">Return value</span></span>
 
-<span data-ttu-id="7fd3f-108">Число</span><span class="sxs-lookup"><span data-stu-id="7fd3f-108">Number</span></span>
+<span data-ttu-id="94308-108">Номер</span><span class="sxs-lookup"><span data-stu-id="94308-108">Number</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="7fd3f-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="7fd3f-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="94308-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="94308-109">Remarks</span></span>
 
-<span data-ttu-id="7fd3f-110">Если текущая страница является фоновой (ненумерованной) или при возникновении ошибки, функция PAGENUMBER возвращает ноль.</span><span class="sxs-lookup"><span data-stu-id="7fd3f-110">If the current page is a background page (unnumbered), or if an error occurs, the PAGENUMBER function returns zero.</span></span>
+<span data-ttu-id="94308-110">Если текущая страница является фоновой (ненумерованной) или при возникновении ошибки, функция PAGENUMBER возвращает ноль.</span><span class="sxs-lookup"><span data-stu-id="94308-110">If the current page is a background page (unnumbered), or if an error occurs, the PAGENUMBER function returns zero.</span></span>
   
 

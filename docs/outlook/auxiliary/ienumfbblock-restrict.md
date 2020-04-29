@@ -1,5 +1,5 @@
 ---
-title: Иенумфбблоккрестрикт
+title: иенумфбблоккрестрикт
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431948"
 ---
-# <a name="ienumfbblockrestrict"></a><span data-ttu-id="4e9a6-103">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="4e9a6-103">IEnumFBBlock::Restrict</span></span>
+# <a name="ienumfbblockrestrict"></a><span data-ttu-id="f1092-103">IEnumFBBlock::Restrict</span><span class="sxs-lookup"><span data-stu-id="f1092-103">IEnumFBBlock::Restrict</span></span>
 
-<span data-ttu-id="4e9a6-104">Ограничит перечисление до указанного периода времени.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-104">Restricts the enumeration to a specified time period.</span></span>
+<span data-ttu-id="f1092-104">Ограничит перечисление до указанного периода времени.</span><span class="sxs-lookup"><span data-stu-id="f1092-104">Restricts the enumeration to a specified time period.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="4e9a6-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="4e9a6-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="f1092-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="f1092-105">Quick info</span></span>
 
-<span data-ttu-id="4e9a6-106">Обратитесь к разделу [иенумфбблокк](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="4e9a6-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
+<span data-ttu-id="f1092-106">Обратитесь к разделу [иенумфбблокк](ienumfbblock.md).</span><span class="sxs-lookup"><span data-stu-id="f1092-106">See [IEnumFBBlock](ienumfbblock.md).</span></span>
   
 ```cpp
 HRESULT Restrict(  
@@ -30,29 +30,29 @@ HRESULT Restrict(
 
 ```
 
-## <a name="parameters"></a><span data-ttu-id="4e9a6-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="4e9a6-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="f1092-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="f1092-107">Parameters</span></span>
 
-<span data-ttu-id="4e9a6-108">_Фтмстарт_</span><span class="sxs-lookup"><span data-stu-id="4e9a6-108">_ftmStart_</span></span>
+<span data-ttu-id="f1092-108">_фтмстарт_</span><span class="sxs-lookup"><span data-stu-id="f1092-108">_ftmStart_</span></span>
   
->  <span data-ttu-id="4e9a6-109">возврата Время начала, ограничивающее перечисление.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-109">[in] The start time to restrict the enumeration.</span></span> 
+>  <span data-ttu-id="f1092-109">возврата Время начала, ограничивающее перечисление.</span><span class="sxs-lookup"><span data-stu-id="f1092-109">[in] The start time to restrict the enumeration.</span></span> 
     
-<span data-ttu-id="4e9a6-110">_Фтменд_</span><span class="sxs-lookup"><span data-stu-id="4e9a6-110">_ftmEnd_</span></span>
+<span data-ttu-id="f1092-110">_фтменд_</span><span class="sxs-lookup"><span data-stu-id="f1092-110">_ftmEnd_</span></span>
   
-> <span data-ttu-id="4e9a6-111">возврата Время окончания для ограничения перечисления.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-111">[in] The end time to restrict the enumeration.</span></span>
+> <span data-ttu-id="f1092-111">возврата Время окончания для ограничения перечисления.</span><span class="sxs-lookup"><span data-stu-id="f1092-111">[in] The end time to restrict the enumeration.</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="4e9a6-112">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="4e9a6-112">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="f1092-112">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="f1092-112">Return values</span></span>
 
-<span data-ttu-id="4e9a6-113">S_OK if the call succeeded; otherwise, an error code.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-113">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="f1092-113">S_OK if the call succeeded; otherwise, an error code.</span><span class="sxs-lookup"><span data-stu-id="f1092-113">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="4e9a6-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="4e9a6-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f1092-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="f1092-114">Remarks</span></span>
 
-<span data-ttu-id="4e9a6-115">Этот метод также сбрасывает перечисление.</span><span class="sxs-lookup"><span data-stu-id="4e9a6-115">This method also resets the enumeration.</span></span>
+<span data-ttu-id="f1092-115">Этот метод также сбрасывает перечисление.</span><span class="sxs-lookup"><span data-stu-id="f1092-115">This method also resets the enumeration.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="4e9a6-116">См. также</span><span class="sxs-lookup"><span data-stu-id="4e9a6-116">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f1092-116">См. также</span><span class="sxs-lookup"><span data-stu-id="f1092-116">See also</span></span>
 
-- [<span data-ttu-id="4e9a6-117">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="4e9a6-117">IEnumFBBlock::Clone</span></span>](ienumfbblock-clone.md)  
-- [<span data-ttu-id="4e9a6-118">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="4e9a6-118">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
-- [<span data-ttu-id="4e9a6-119">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="4e9a6-119">IEnumFBBlock::Reset</span></span>](ienumfbblock-reset.md)  
-- [<span data-ttu-id="4e9a6-120">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="4e9a6-120">IEnumFBBlock::Skip</span></span>](ienumfbblock-skip.md)  
-- [<span data-ttu-id="4e9a6-121">Использование относительного времени для доступа к данным о доступности</span><span class="sxs-lookup"><span data-stu-id="4e9a6-121">Use relative time to access free/busy data</span></span>](how-to-use-relative-time-to-access-free-busy-data.md)
+- [<span data-ttu-id="f1092-117">IEnumFBBlock::Clone</span><span class="sxs-lookup"><span data-stu-id="f1092-117">IEnumFBBlock::Clone</span></span>](ienumfbblock-clone.md)  
+- [<span data-ttu-id="f1092-118">IEnumFBBlock::Next</span><span class="sxs-lookup"><span data-stu-id="f1092-118">IEnumFBBlock::Next</span></span>](ienumfbblock-next.md)  
+- [<span data-ttu-id="f1092-119">IEnumFBBlock::Reset</span><span class="sxs-lookup"><span data-stu-id="f1092-119">IEnumFBBlock::Reset</span></span>](ienumfbblock-reset.md)  
+- [<span data-ttu-id="f1092-120">IEnumFBBlock::Skip</span><span class="sxs-lookup"><span data-stu-id="f1092-120">IEnumFBBlock::Skip</span></span>](ienumfbblock-skip.md)  
+- [<span data-ttu-id="f1092-121">Использование относительного времени для доступа к данным о доступности</span><span class="sxs-lookup"><span data-stu-id="f1092-121">Use relative time to access free/busy data</span></span>](how-to-use-relative-time-to-access-free-busy-data.md)
 

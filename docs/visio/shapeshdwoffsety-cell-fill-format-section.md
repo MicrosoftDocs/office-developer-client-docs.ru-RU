@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426823"
 ---
-# <a name="shapeshdwoffsety-cell-fill-format-section"></a><span data-ttu-id="0fcc9-103">ShapeShdwOffsetY Cell (Fill Format Section)</span><span class="sxs-lookup"><span data-stu-id="0fcc9-103">ShapeShdwOffsetY Cell (Fill Format Section)</span></span>
+# <a name="shapeshdwoffsety-cell-fill-format-section"></a><span data-ttu-id="49cdc-103">ShapeShdwOffsetY Cell (Fill Format Section)</span><span class="sxs-lookup"><span data-stu-id="49cdc-103">ShapeShdwOffsetY Cell (Fill Format Section)</span></span>
 
-<span data-ttu-id="0fcc9-104">Определяет расстояние в единицах страницы, на которое тень фигуры смещается по вертикали от фигуры.</span><span class="sxs-lookup"><span data-stu-id="0fcc9-104">Determines the distance in page units that a shape's shadow is offset vertically from the shape.</span></span>
+<span data-ttu-id="49cdc-104">Определяет расстояние в единицах страницы, на которое тень фигуры смещается по вертикали от фигуры.</span><span class="sxs-lookup"><span data-stu-id="49cdc-104">Determines the distance in page units that a shape's shadow is offset vertically from the shape.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0fcc9-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="0fcc9-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="49cdc-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="49cdc-105">Remarks</span></span>
 
-<span data-ttu-id="0fcc9-106">Это значение соответствует значению параметра Смещение по **оси Y** в диалоговом окне **теневой копии** (на вкладке **Главная** , в группе **фигур** нажмите кнопку **тень**, а затем выберите пункт **параметры тени**).</span><span class="sxs-lookup"><span data-stu-id="0fcc9-106">This value corresponds to the value in the **Y Offset** setting in the **Shadow** dialog box (on the **Home** tab, in the **Shape** group, click **Shadow**, and then click **Shadow Options**).</span></span>
+<span data-ttu-id="49cdc-106">Это значение соответствует значению параметра Смещение по **оси Y** в диалоговом **окне теневой копии** (на вкладке **Главная** , в группе **фигур** нажмите кнопку **тень**, а затем выберите пункт **параметры тени**).</span><span class="sxs-lookup"><span data-stu-id="49cdc-106">This value corresponds to the value in the **Y Offset** setting in the **Shadow** dialog box (on the **Home** tab, in the **Shape** group, click **Shadow**, and then click **Shadow Options**).</span></span>
   
-<span data-ttu-id="0fcc9-107">Чтобы получить ссылку на ячейку ShapeShdwOffsetY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="0fcc9-107">To get a reference to the ShapeShdwOffsetY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="49cdc-107">Чтобы получить ссылку на ячейку ShapeShdwOffsetY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="49cdc-107">To get a reference to the ShapeShdwOffsetY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="0fcc9-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="0fcc9-108">Cell name:</span></span>  <br/> | <span data-ttu-id="0fcc9-109">ShapeShdwOffsetY</span><span class="sxs-lookup"><span data-stu-id="0fcc9-109">ShapeShdwOffsetY</span></span>  <br/> |
+| <span data-ttu-id="49cdc-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="49cdc-108">Cell name:</span></span>  <br/> | <span data-ttu-id="49cdc-109">ShapeShdwOffsetY</span><span class="sxs-lookup"><span data-stu-id="49cdc-109">ShapeShdwOffsetY</span></span>  <br/> |
    
-<span data-ttu-id="0fcc9-110">Чтобы получить ссылку на ячейку ShapeShdwOffsetY по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="0fcc9-110">To get a reference to the ShapeShdwOffsetY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="49cdc-110">Чтобы получить ссылку на ячейку ShapeShdwOffsetY по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="49cdc-110">To get a reference to the ShapeShdwOffsetY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="0fcc9-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="0fcc9-111">Section index:</span></span>  <br/> |<span data-ttu-id="0fcc9-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="0fcc9-112">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="0fcc9-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="0fcc9-113">Row index:</span></span>  <br/> |<span data-ttu-id="0fcc9-114">**Висровфилл**</span><span class="sxs-lookup"><span data-stu-id="0fcc9-114">**visRowFill**</span></span> <br/> |
-| <span data-ttu-id="0fcc9-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="0fcc9-115">Cell index:</span></span>  <br/> |<span data-ttu-id="0fcc9-116">**Висфиллшдвоффсети**</span><span class="sxs-lookup"><span data-stu-id="0fcc9-116">**visFillShdwOffsetY**</span></span> <br/> |
+| <span data-ttu-id="49cdc-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="49cdc-111">Section index:</span></span>  <br/> |<span data-ttu-id="49cdc-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="49cdc-112">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="49cdc-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="49cdc-113">Row index:</span></span>  <br/> |<span data-ttu-id="49cdc-114">**висровфилл**</span><span class="sxs-lookup"><span data-stu-id="49cdc-114">**visRowFill**</span></span> <br/> |
+| <span data-ttu-id="49cdc-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="49cdc-115">Cell index:</span></span>  <br/> |<span data-ttu-id="49cdc-116">**висфиллшдвоффсети**</span><span class="sxs-lookup"><span data-stu-id="49cdc-116">**visFillShdwOffsetY**</span></span> <br/> |
    
 

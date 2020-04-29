@@ -1,5 +1,5 @@
 ---
-title: Ипропдатахрсетобжакцесс
+title: ипропдатахрсетобжакцесс
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425157"
 ---
-# <a name="ipropdatahrsetobjaccess"></a><span data-ttu-id="175b7-103">IPropData::HrSetObjAccess</span><span class="sxs-lookup"><span data-stu-id="175b7-103">IPropData::HrSetObjAccess</span></span>
+# <a name="ipropdatahrsetobjaccess"></a><span data-ttu-id="8d644-103">IPropData::HrSetObjAccess</span><span class="sxs-lookup"><span data-stu-id="8d644-103">IPropData::HrSetObjAccess</span></span>
 
   
   
-<span data-ttu-id="175b7-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="175b7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8d644-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8d644-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="175b7-105">Задает уровень доступа для объекта.</span><span class="sxs-lookup"><span data-stu-id="175b7-105">Sets the access level for the object.</span></span>
+<span data-ttu-id="8d644-105">Задает уровень доступа для объекта.</span><span class="sxs-lookup"><span data-stu-id="8d644-105">Sets the access level for the object.</span></span>
   
 ```cpp
 HRESULT HrSetObjAccess(
@@ -33,45 +33,45 @@ HRESULT HrSetObjAccess(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="175b7-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="175b7-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8d644-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="8d644-106">Parameters</span></span>
 
- <span data-ttu-id="175b7-107">_Улакцесс_</span><span class="sxs-lookup"><span data-stu-id="175b7-107">_ulAccess_</span></span>
+ <span data-ttu-id="8d644-107">_улакцесс_</span><span class="sxs-lookup"><span data-stu-id="8d644-107">_ulAccess_</span></span>
   
-> <span data-ttu-id="175b7-108">возврата Битовая маска флагов, определяющая уровень доступа объекта.</span><span class="sxs-lookup"><span data-stu-id="175b7-108">[in] A bitmask of flags that specifies the object's access level.</span></span> <span data-ttu-id="175b7-109">Можно задать один из следующих флагов:</span><span class="sxs-lookup"><span data-stu-id="175b7-109">One of the following flags can be set:</span></span>
+> <span data-ttu-id="8d644-108">возврата Битовая маска флагов, определяющая уровень доступа объекта.</span><span class="sxs-lookup"><span data-stu-id="8d644-108">[in] A bitmask of flags that specifies the object's access level.</span></span> <span data-ttu-id="8d644-109">Можно задать один из следующих флагов:</span><span class="sxs-lookup"><span data-stu-id="8d644-109">One of the following flags can be set:</span></span>
     
-<span data-ttu-id="175b7-110">ИПРОП_РЕАДОНЛИ</span><span class="sxs-lookup"><span data-stu-id="175b7-110">IPROP_READONLY</span></span> 
+<span data-ttu-id="8d644-110">IPROP_READONLY</span><span class="sxs-lookup"><span data-stu-id="8d644-110">IPROP_READONLY</span></span> 
   
-> <span data-ttu-id="175b7-111">Задает уровень доступа для объекта "только для чтения".</span><span class="sxs-lookup"><span data-stu-id="175b7-111">Sets the object's access level to read-only.</span></span> 
+> <span data-ttu-id="8d644-111">Задает уровень доступа для объекта "только для чтения".</span><span class="sxs-lookup"><span data-stu-id="8d644-111">Sets the object's access level to read-only.</span></span> 
     
-<span data-ttu-id="175b7-112">ИПРОП_РЕАДВРИТЕ</span><span class="sxs-lookup"><span data-stu-id="175b7-112">IPROP_READWRITE</span></span> 
+<span data-ttu-id="8d644-112">IPROP_READWRITE</span><span class="sxs-lookup"><span data-stu-id="8d644-112">IPROP_READWRITE</span></span> 
   
-> <span data-ttu-id="175b7-113">Задает уровень доступа объекта для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="175b7-113">Sets the object's access level to read/write.</span></span>
+> <span data-ttu-id="8d644-113">Задает уровень доступа объекта для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="8d644-113">Sets the object's access level to read/write.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="175b7-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="175b7-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="8d644-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8d644-114">Return value</span></span>
 
-<span data-ttu-id="175b7-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="175b7-115">S_OK</span></span> 
+<span data-ttu-id="8d644-115">S_OK</span><span class="sxs-lookup"><span data-stu-id="8d644-115">S_OK</span></span> 
   
-> <span data-ttu-id="175b7-116">Уровень доступа объекта успешно установлен.</span><span class="sxs-lookup"><span data-stu-id="175b7-116">The object's access level was successfully set.</span></span>
+> <span data-ttu-id="8d644-116">Уровень доступа объекта успешно установлен.</span><span class="sxs-lookup"><span data-stu-id="8d644-116">The object's access level was successfully set.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="175b7-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="175b7-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8d644-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="8d644-117">Remarks</span></span>
 
-<span data-ttu-id="175b7-118">Метод **ипропдата:: хрсетобжакцесс** устанавливает уровень доступа для всего объекта, а не для отдельных свойств.</span><span class="sxs-lookup"><span data-stu-id="175b7-118">The **IPropData::HrSetObjAccess** method sets the access level for an entire object, rather than for individual properties.</span></span> <span data-ttu-id="175b7-119">**Хрсетобжакцесс** можно использовать для изменения уровня доступа, установленного при создании объекта.</span><span class="sxs-lookup"><span data-stu-id="175b7-119">**HrSetObjAccess** can be used to change the access level established when the object was created.</span></span> 
+<span data-ttu-id="8d644-118">Метод **ипропдата:: хрсетобжакцесс** устанавливает уровень доступа для всего объекта, а не для отдельных свойств.</span><span class="sxs-lookup"><span data-stu-id="8d644-118">The **IPropData::HrSetObjAccess** method sets the access level for an entire object, rather than for individual properties.</span></span> <span data-ttu-id="8d644-119">**Хрсетобжакцесс** можно использовать для изменения уровня доступа, установленного при создании объекта.</span><span class="sxs-lookup"><span data-stu-id="8d644-119">**HrSetObjAccess** can be used to change the access level established when the object was created.</span></span> 
   
-## <a name="notes-to-callers"></a><span data-ttu-id="175b7-120">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="175b7-120">Notes to callers</span></span>
+## <a name="notes-to-callers"></a><span data-ttu-id="8d644-120">Примечания для вызывающих методов</span><span class="sxs-lookup"><span data-stu-id="8d644-120">Notes to callers</span></span>
 
-<span data-ttu-id="175b7-121">Чтобы задать уровень доступа к свойству, сначала необходимо вызвать **хрсетобжакцесс** с ФЛАГом ипроп_реадврите, установленным в параметре _улакцесс_ , чтобы сделать объект изменяемым.</span><span class="sxs-lookup"><span data-stu-id="175b7-121">To set an access level on a property, first call **HrSetObjAccess** with the IPROP_READWRITE flag set in the  _ulAccess_ parameter to make the object modifiable.</span></span> <span data-ttu-id="175b7-122">Затем вызовите метод [ипропдата:: хрсетпропакцесс](ipropdata-hrsetpropaccess.md) , указав свойство Target в массиве, на которое указывает параметр _лппроптагаррай_ .</span><span class="sxs-lookup"><span data-stu-id="175b7-122">Then call the [IPropData::HrSetPropAccess](ipropdata-hrsetpropaccess.md) method, specifying the target property in the array pointed to by the  _lpPropTagArray_ parameter.</span></span> 
+<span data-ttu-id="8d644-121">Чтобы задать уровень доступа к свойству, сначала необходимо вызвать **хрсетобжакцесс** с флагом IPROP_READWRITE, установленным в параметре _улакцесс_ , чтобы сделать объект изменяемым.</span><span class="sxs-lookup"><span data-stu-id="8d644-121">To set an access level on a property, first call **HrSetObjAccess** with the IPROP_READWRITE flag set in the  _ulAccess_ parameter to make the object modifiable.</span></span> <span data-ttu-id="8d644-122">Затем вызовите метод [ипропдата:: хрсетпропакцесс](ipropdata-hrsetpropaccess.md) , указав свойство Target в массиве, на которое указывает параметр _лппроптагаррай_ .</span><span class="sxs-lookup"><span data-stu-id="8d644-122">Then call the [IPropData::HrSetPropAccess](ipropdata-hrsetpropaccess.md) method, specifying the target property in the array pointed to by the  _lpPropTagArray_ parameter.</span></span> 
   
-<span data-ttu-id="175b7-123">Чтобы создать объект со свойствами, которые будут доступны только для чтения, создайте объект для чтения и записи, добавьте необходимые свойства, а затем вызовите **хрсетобжакцесс** , чтобы изменить доступ объекта только для чтения.</span><span class="sxs-lookup"><span data-stu-id="175b7-123">To create an object with properties that will be read-only to clients, create a read/write object, add the necessary properties, and then call **HrSetObjAccess** to change the object's access to read-only.</span></span> 
+<span data-ttu-id="8d644-123">Чтобы создать объект со свойствами, которые будут доступны только для чтения, создайте объект для чтения и записи, добавьте необходимые свойства, а затем вызовите **хрсетобжакцесс** , чтобы изменить доступ объекта только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8d644-123">To create an object with properties that will be read-only to clients, create a read/write object, add the necessary properties, and then call **HrSetObjAccess** to change the object's access to read-only.</span></span> 
   
-<span data-ttu-id="175b7-124">Кроме того, вы можете использовать **хрсетобжакцесс** , чтобы запретить клиентам создавать новые свойства.</span><span class="sxs-lookup"><span data-stu-id="175b7-124">You can also use **HrSetObjAccess** to prevent clients from creating new properties.</span></span> 
+<span data-ttu-id="8d644-124">Кроме того, вы можете использовать **хрсетобжакцесс** , чтобы запретить клиентам создавать новые свойства.</span><span class="sxs-lookup"><span data-stu-id="8d644-124">You can also use **HrSetObjAccess** to prevent clients from creating new properties.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="175b7-125">См. также</span><span class="sxs-lookup"><span data-stu-id="175b7-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8d644-125">См. также</span><span class="sxs-lookup"><span data-stu-id="8d644-125">See also</span></span>
 
 
 
-[<span data-ttu-id="175b7-126">IPropData::HrGetPropAccess</span><span class="sxs-lookup"><span data-stu-id="175b7-126">IPropData::HrGetPropAccess</span></span>](ipropdata-hrgetpropaccess.md)
+[<span data-ttu-id="8d644-126">IPropData::HrGetPropAccess</span><span class="sxs-lookup"><span data-stu-id="8d644-126">IPropData::HrGetPropAccess</span></span>](ipropdata-hrgetpropaccess.md)
   
-[<span data-ttu-id="175b7-127">IPropData::HrSetPropAccess</span><span class="sxs-lookup"><span data-stu-id="175b7-127">IPropData::HrSetPropAccess</span></span>](ipropdata-hrsetpropaccess.md)
+[<span data-ttu-id="8d644-127">IPropData::HrSetPropAccess</span><span class="sxs-lookup"><span data-stu-id="8d644-127">IPropData::HrSetPropAccess</span></span>](ipropdata-hrsetpropaccess.md)
   
-[<span data-ttu-id="175b7-128">IPropData : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="175b7-128">IPropData : IMAPIProp</span></span>](ipropdataimapiprop.md)
+[<span data-ttu-id="8d644-128">IPropData : IMAPIProp</span><span class="sxs-lookup"><span data-stu-id="8d644-128">IPropData : IMAPIProp</span></span>](ipropdataimapiprop.md)
 

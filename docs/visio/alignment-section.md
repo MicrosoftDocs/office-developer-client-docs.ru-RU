@@ -16,8 +16,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436519"
 ---
-# <a name="alignment-section"></a><span data-ttu-id="c55d0-104">Alignment Section</span><span class="sxs-lookup"><span data-stu-id="c55d0-104">Alignment Section</span></span>
+# <a name="alignment-section"></a><span data-ttu-id="b832e-104">Alignment Section</span><span class="sxs-lookup"><span data-stu-id="b832e-104">Alignment Section</span></span>
 
-<span data-ttu-id="c55d0-105">Указывает выравнивание фигуры относительно направляющей или направляющей точки, к которой применяется фигура.</span><span class="sxs-lookup"><span data-stu-id="c55d0-105">Indicates the alignment of a shape with respect to the guide or guide point to which the shape is glued.</span></span> <span data-ttu-id="c55d0-106">Раздел **Выравнивание** отображается только для фигур, которые привязываются к направляющим.</span><span class="sxs-lookup"><span data-stu-id="c55d0-106">The **Alignment** section appears only for shapes that are glued to guides.</span></span> 
+<span data-ttu-id="b832e-105">Указывает выравнивание фигуры относительно направляющей или направляющей точки, к которой применяется фигура.</span><span class="sxs-lookup"><span data-stu-id="b832e-105">Indicates the alignment of a shape with respect to the guide or guide point to which the shape is glued.</span></span> <span data-ttu-id="b832e-106">Раздел **Выравнивание** отображается только для фигур, которые привязываются к направляющим.</span><span class="sxs-lookup"><span data-stu-id="b832e-106">The **Alignment** section appears only for shapes that are glued to guides.</span></span> 
   
 

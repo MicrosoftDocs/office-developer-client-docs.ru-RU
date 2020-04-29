@@ -14,25 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427600"
 ---
-# <a name="is1d-function"></a><span data-ttu-id="191dd-103">Функция IS1D</span><span class="sxs-lookup"><span data-stu-id="191dd-103">IS1D Function</span></span>
+# <a name="is1d-function"></a><span data-ttu-id="4e2a9-103">Функция IS1D</span><span class="sxs-lookup"><span data-stu-id="4e2a9-103">IS1D Function</span></span>
 
-<span data-ttu-id="191dd-104">Возвращает значение TRUE, если фигура является 1-D (одномерным); Возвращает значение FALSE, если фигура имеет 2-D (двухмерный).</span><span class="sxs-lookup"><span data-stu-id="191dd-104">Returns TRUE if the shape is 1-D (one-dimensional); returns FALSE if the shape is 2-D (two-dimensional).</span></span>
+<span data-ttu-id="4e2a9-104">Возвращает значение TRUE, если фигура является 1-D (одномерным); Возвращает значение FALSE, если фигура имеет 2-D (двухмерный).</span><span class="sxs-lookup"><span data-stu-id="4e2a9-104">Returns TRUE if the shape is 1-D (one-dimensional); returns FALSE if the shape is 2-D (two-dimensional).</span></span>
   
-## <a name="version-information"></a><span data-ttu-id="191dd-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="191dd-105">Version Information</span></span>
+## <a name="version-information"></a><span data-ttu-id="4e2a9-105">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="4e2a9-105">Version Information</span></span>
 
-<span data-ttu-id="191dd-106">Добавлена версия: Visio 2010
-</span><span class="sxs-lookup"><span data-stu-id="191dd-106">Version Added: Visio 2010</span></span> 
+<span data-ttu-id="4e2a9-106">Добавлена версия: Visio 2010
+</span><span class="sxs-lookup"><span data-stu-id="4e2a9-106">Version Added: Visio 2010</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="191dd-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="191dd-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="4e2a9-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4e2a9-107">Syntax</span></span>
 
-<span data-ttu-id="191dd-108">IS1D ()</span><span class="sxs-lookup"><span data-stu-id="191dd-108">IS1D()</span></span>
+<span data-ttu-id="4e2a9-108">IS1D ()</span><span class="sxs-lookup"><span data-stu-id="4e2a9-108">IS1D()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="191dd-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="191dd-109">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="4e2a9-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4e2a9-109">Return value</span></span>
 
- <span data-ttu-id="191dd-110">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="191dd-110">**Boolean**</span></span>
+ <span data-ttu-id="4e2a9-110">**Boolean**</span><span class="sxs-lookup"><span data-stu-id="4e2a9-110">**Boolean**</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="191dd-111">Примечания</span><span class="sxs-lookup"><span data-stu-id="191dd-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="4e2a9-111">Примечания</span><span class="sxs-lookup"><span data-stu-id="4e2a9-111">Remarks</span></span>
 
-<span data-ttu-id="191dd-112">Если лист (Shape) является страницей или документом, функция IS1D возвращает #REF!.</span><span class="sxs-lookup"><span data-stu-id="191dd-112">If the sheet (shape) is a page or a document, the IS1D function returns #REF!.</span></span>
+<span data-ttu-id="4e2a9-112">Если лист (Shape) является страницей или документом, функция IS1D возвращает #REF!.</span><span class="sxs-lookup"><span data-stu-id="4e2a9-112">If the sheet (shape) is a page or a document, the IS1D function returns #REF!.</span></span>
   
 

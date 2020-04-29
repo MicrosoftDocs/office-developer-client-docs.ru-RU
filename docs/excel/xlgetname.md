@@ -18,25 +18,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430590"
 ---
-# <a name="xlgetname"></a><span data-ttu-id="e547f-104">xlGetName</span><span class="sxs-lookup"><span data-stu-id="e547f-104">xlGetName</span></span>
+# <a name="xlgetname"></a><span data-ttu-id="8c450-104">xlGetName</span><span class="sxs-lookup"><span data-stu-id="8c450-104">xlGetName</span></span>
 
-<span data-ttu-id="e547f-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="e547f-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="8c450-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="8c450-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="e547f-106">Возвращает полный путь и имя файла библиотеки DLL в виде строки.</span><span class="sxs-lookup"><span data-stu-id="e547f-106">Returns the full path and file name of the DLL in the form of a string.</span></span>
+<span data-ttu-id="8c450-106">Возвращает полный путь и имя файла библиотеки DLL в виде строки.</span><span class="sxs-lookup"><span data-stu-id="8c450-106">Returns the full path and file name of the DLL in the form of a string.</span></span>
   
 ```cs
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="e547f-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="e547f-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8c450-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="8c450-107">Parameters</span></span>
 
-<span data-ttu-id="e547f-108">У этой функции нет аргументов.</span><span class="sxs-lookup"><span data-stu-id="e547f-108">This function has no arguments.</span></span>
+<span data-ttu-id="8c450-108">У этой функции нет аргументов.</span><span class="sxs-lookup"><span data-stu-id="8c450-108">This function has no arguments.</span></span>
   
-## <a name="property-valuereturn-value"></a><span data-ttu-id="e547f-109">Значение свойства и возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="e547f-109">Property value/Return value</span></span>
+## <a name="property-valuereturn-value"></a><span data-ttu-id="8c450-109">Значение свойства и возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="8c450-109">Property value/Return value</span></span>
 
-<span data-ttu-id="e547f-110">Возвращает путь и имя файла (**кслтипестр**).</span><span class="sxs-lookup"><span data-stu-id="e547f-110">Returns the path and file name (**xltypeStr**).</span></span> 
+<span data-ttu-id="8c450-110">Возвращает путь и имя файла (**кслтипестр**).</span><span class="sxs-lookup"><span data-stu-id="8c450-110">Returns the path and file name (**xltypeStr**).</span></span> 
   
-## <a name="example"></a><span data-ttu-id="e547f-111">Пример</span><span class="sxs-lookup"><span data-stu-id="e547f-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8c450-111">Пример</span><span class="sxs-lookup"><span data-stu-id="8c450-111">Example</span></span>
 
 `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -51,7 +51,7 @@ short WINAPI xlGetNameExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="e547f-112">См. также</span><span class="sxs-lookup"><span data-stu-id="e547f-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8c450-112">См. также</span><span class="sxs-lookup"><span data-stu-id="8c450-112">See also</span></span>
 
-- [<span data-ttu-id="e547f-113">Функции API C, которые можно вызывать только из библиотеки DLL или XLL</span><span class="sxs-lookup"><span data-stu-id="e547f-113">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="8c450-113">Функции API C, которые можно вызывать только из библиотеки DLL или XLL</span><span class="sxs-lookup"><span data-stu-id="8c450-113">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

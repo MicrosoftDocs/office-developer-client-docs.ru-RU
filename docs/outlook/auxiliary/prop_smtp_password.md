@@ -14,21 +14,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435952"
 ---
-# <a name="propsmtppassword"></a><span data-ttu-id="1cfbf-103">PROP_SMTP_PASSWORD</span><span class="sxs-lookup"><span data-stu-id="1cfbf-103">PROP_SMTP_PASSWORD</span></span>
+# <a name="prop_smtp_password"></a><span data-ttu-id="1be41-103">PROP_SMTP_PASSWORD</span><span class="sxs-lookup"><span data-stu-id="1be41-103">PROP_SMTP_PASSWORD</span></span>
 
-<span data-ttu-id="1cfbf-104">Представляет пароль учетной записи SMTP.</span><span class="sxs-lookup"><span data-stu-id="1cfbf-104">Represents the password of the SMTP account.</span></span>
+<span data-ttu-id="1be41-104">Представляет пароль учетной записи SMTP.</span><span class="sxs-lookup"><span data-stu-id="1be41-104">Represents the password of the SMTP account.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="1cfbf-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="1cfbf-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="1be41-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="1be41-105">Quick info</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="1cfbf-106">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="1cfbf-106">Identifier:</span></span>  <br/> |<span data-ttu-id="1cfbf-107">0x0205</span><span class="sxs-lookup"><span data-stu-id="1cfbf-107">0x0205</span></span>  <br/> |
-|<span data-ttu-id="1cfbf-108">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="1cfbf-108">Property type:</span></span>  <br/> |<span data-ttu-id="1cfbf-109">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="1cfbf-109">PT_UNICODE</span></span>|<span data-ttu-id="1cfbf-110">СЕКУРЕ_ФЛАГ</span><span class="sxs-lookup"><span data-stu-id="1cfbf-110">SECURE_FLAG</span></span>  <br/> |
-|<span data-ttu-id="1cfbf-111">Тег свойства:</span><span class="sxs-lookup"><span data-stu-id="1cfbf-111">Property tag:</span></span>  <br/> |<span data-ttu-id="1cfbf-112">0x2058001F</span><span class="sxs-lookup"><span data-stu-id="1cfbf-112">0x2058001F</span></span>  <br/> |
-|<span data-ttu-id="1cfbf-113">Обращения</span><span class="sxs-lookup"><span data-stu-id="1cfbf-113">Access:</span></span>  <br/> |<span data-ttu-id="1cfbf-114">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="1cfbf-114">Read-only</span></span>  <br/> |
+|<span data-ttu-id="1be41-106">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="1be41-106">Identifier:</span></span>  <br/> |<span data-ttu-id="1be41-107">0x0205</span><span class="sxs-lookup"><span data-stu-id="1be41-107">0x0205</span></span>  <br/> |
+|<span data-ttu-id="1be41-108">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="1be41-108">Property type:</span></span>  <br/> |<span data-ttu-id="1be41-109">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="1be41-109">PT_UNICODE</span></span>|<span data-ttu-id="1be41-110">SECURE_FLAG</span><span class="sxs-lookup"><span data-stu-id="1be41-110">SECURE_FLAG</span></span>  <br/> |
+|<span data-ttu-id="1be41-111">Тег свойства:</span><span class="sxs-lookup"><span data-stu-id="1be41-111">Property tag:</span></span>  <br/> |<span data-ttu-id="1be41-112">0x2058001F</span><span class="sxs-lookup"><span data-stu-id="1be41-112">0x2058001F</span></span>  <br/> |
+|<span data-ttu-id="1be41-113">Обращения</span><span class="sxs-lookup"><span data-stu-id="1be41-113">Access:</span></span>  <br/> |<span data-ttu-id="1be41-114">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="1be41-114">Read-only</span></span>  <br/> |
    
-## <a name="see-also"></a><span data-ttu-id="1cfbf-115">См. также</span><span class="sxs-lookup"><span data-stu-id="1cfbf-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1be41-115">См. также</span><span class="sxs-lookup"><span data-stu-id="1be41-115">See also</span></span>
 
-- [<span data-ttu-id="1cfbf-116">Управление скачиванием сообщений для учетных записей POP3</span><span class="sxs-lookup"><span data-stu-id="1cfbf-116">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md) 
-- [<span data-ttu-id="1cfbf-117">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="1cfbf-117">Constants (Account management API)</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="1be41-116">Управление скачиванием сообщений для учетных записей POP3</span><span class="sxs-lookup"><span data-stu-id="1be41-116">Managing message downloads for POP3 accounts</span></span>](managing-message-downloads-for-pop3-accounts.md) 
+- [<span data-ttu-id="1be41-117">Constants (Account management API)</span><span class="sxs-lookup"><span data-stu-id="1be41-117">Constants (Account management API)</span></span>](constants-account-management-api.md)
 

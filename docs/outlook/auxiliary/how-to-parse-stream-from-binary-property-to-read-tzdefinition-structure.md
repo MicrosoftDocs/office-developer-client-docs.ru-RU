@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434209"
 ---
-# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a><span data-ttu-id="6ea87-103">Анализ потока из двоичного свойства для считывания структуры TZDEFINITION</span><span class="sxs-lookup"><span data-stu-id="6ea87-103">Parse a stream from a binary property to read the TZDEFINITION structure</span></span>
+# <a name="parse-a-stream-from-a-binary-property-to-read-the-tzdefinition-structure"></a><span data-ttu-id="ca0e5-103">Анализ потока из двоичного свойства для считывания структуры TZDEFINITION</span><span class="sxs-lookup"><span data-stu-id="ca0e5-103">Parse a stream from a binary property to read the TZDEFINITION structure</span></span>
 
-<span data-ttu-id="6ea87-104">В этом разделе показано, как считывать структуру [TZDEFINITION](tzdefinition.md) из сохраненного формата, хранящегося в двоичном свойстве.</span><span class="sxs-lookup"><span data-stu-id="6ea87-104">This topic shows how to read the [TZDEFINITION](tzdefinition.md) structure from the persisted format stored in a binary property.</span></span> 
+<span data-ttu-id="ca0e5-104">В этом разделе показано, как считывать структуру [TZDEFINITION](tzdefinition.md) из сохраненного формата, хранящегося в двоичном свойстве.</span><span class="sxs-lookup"><span data-stu-id="ca0e5-104">This topic shows how to read the [TZDEFINITION](tzdefinition.md) structure from the persisted format stored in a binary property.</span></span> 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 
@@ -83,8 +83,8 @@ TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef)
 
 ```
 
-## <a name="see-also"></a><span data-ttu-id="6ea87-105">См. также</span><span class="sxs-lookup"><span data-stu-id="6ea87-105">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ca0e5-105">См. также</span><span class="sxs-lookup"><span data-stu-id="ca0e5-105">See also</span></span>
 
-- [<span data-ttu-id="6ea87-106">Сведения о сохранении TZDEFINITION в потоке для помещения в двоичное свойство</span><span class="sxs-lookup"><span data-stu-id="6ea87-106">About persisting TZDEFINITION to a stream to commit to a binary property</span></span>](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
-- [<span data-ttu-id="6ea87-107">Считывание свойств часового пояса встречи</span><span class="sxs-lookup"><span data-stu-id="6ea87-107">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
+- [<span data-ttu-id="ca0e5-106">Сведения о сохранении TZDEFINITION в потоке для помещения в двоичное свойство</span><span class="sxs-lookup"><span data-stu-id="ca0e5-106">About persisting TZDEFINITION to a stream to commit to a binary property</span></span>](about-persisting-tzdefinition-to-a-stream-to-commit-to-a-binary-property.md)
+- [<span data-ttu-id="ca0e5-107">Считывание свойств часового пояса встречи</span><span class="sxs-lookup"><span data-stu-id="ca0e5-107">Read time zone properties from an appointment</span></span>](how-to-read-time-zone-properties-from-an-appointment.md)
 

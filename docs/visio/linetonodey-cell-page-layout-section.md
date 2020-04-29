@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432333"
 ---
-# <a name="linetonodey-cell-page-layout-section"></a><span data-ttu-id="c7acc-103">LineToNodeY Cell (Page Layout Section)</span><span class="sxs-lookup"><span data-stu-id="c7acc-103">LineToNodeY Cell (Page Layout Section)</span></span>
+# <a name="linetonodey-cell-page-layout-section"></a><span data-ttu-id="e5e1d-103">LineToNodeY Cell (Page Layout Section)</span><span class="sxs-lookup"><span data-stu-id="e5e1d-103">LineToNodeY Cell (Page Layout Section)</span></span>
 
-<span data-ttu-id="c7acc-104">Определяет вертикальный зазор между всеми соединительными линиями и фигурами на странице документа.</span><span class="sxs-lookup"><span data-stu-id="c7acc-104">Determines the vertical clearance between all connectors and shapes on the drawing page.</span></span>
+<span data-ttu-id="e5e1d-104">Определяет вертикальный зазор между всеми соединительными линиями и фигурами на странице документа.</span><span class="sxs-lookup"><span data-stu-id="e5e1d-104">Determines the vertical clearance between all connectors and shapes on the drawing page.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="c7acc-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="c7acc-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e5e1d-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="e5e1d-105">Remarks</span></span>
 
-<span data-ttu-id="c7acc-106">Значение этой ячейки также можно задать в диалоговом окне **Макет и интервалы маршрутизации** .</span><span class="sxs-lookup"><span data-stu-id="c7acc-106">You can also set the value of this cell in the **Layout and Routing Spacing** dialog box.</span></span> <span data-ttu-id="c7acc-107">На вкладке **конструктор** щелкните стрелку **Параметры страницы** , выберите **Макет и маршрутизация**, а затем щелкните интервалы. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="c7acc-107">(On the **Design** tab, click the **Page Setup** arrow, click **Layout and Routing**, and then click **Spacing**.)</span></span>
+<span data-ttu-id="e5e1d-106">Значение этой ячейки также можно задать в диалоговом окне **Макет и интервалы маршрутизации** .</span><span class="sxs-lookup"><span data-stu-id="e5e1d-106">You can also set the value of this cell in the **Layout and Routing Spacing** dialog box.</span></span> <span data-ttu-id="e5e1d-107">На вкладке **конструктор** щелкните стрелку **Параметры страницы** , выберите **Макет и маршрутизация**, а затем щелкните **интервалы**.</span><span class="sxs-lookup"><span data-stu-id="e5e1d-107">(On the **Design** tab, click the **Page Setup** arrow, click **Layout and Routing**, and then click **Spacing**.)</span></span>
   
-<span data-ttu-id="c7acc-108">Чтобы получить ссылку на ячейку LineToNodeY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="c7acc-108">To get a reference to the LineToNodeY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="e5e1d-108">Чтобы получить ссылку на ячейку LineToNodeY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="e5e1d-108">To get a reference to the LineToNodeY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="c7acc-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="c7acc-109">Cell name:</span></span>  <br/> | <span data-ttu-id="c7acc-110">LineToNodeY</span><span class="sxs-lookup"><span data-stu-id="c7acc-110">LineToNodeY</span></span>  <br/> |
+| <span data-ttu-id="e5e1d-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="e5e1d-109">Cell name:</span></span>  <br/> | <span data-ttu-id="e5e1d-110">LineToNodeY</span><span class="sxs-lookup"><span data-stu-id="e5e1d-110">LineToNodeY</span></span>  <br/> |
    
-<span data-ttu-id="c7acc-111">Чтобы получить ссылку на ячейку LineToNodeY по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="c7acc-111">To get a reference to the LineToNodeY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="e5e1d-111">Чтобы получить ссылку на ячейку LineToNodeY по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="e5e1d-111">To get a reference to the LineToNodeY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="c7acc-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="c7acc-112">Section index:</span></span>  <br/> |<span data-ttu-id="c7acc-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="c7acc-113">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="c7acc-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="c7acc-114">Row index:</span></span>  <br/> |<span data-ttu-id="c7acc-115">**Висровпажелайаут**</span><span class="sxs-lookup"><span data-stu-id="c7acc-115">**visRowPageLayout**</span></span> <br/> |
-| <span data-ttu-id="c7acc-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="c7acc-116">Cell index:</span></span>  <br/> |<span data-ttu-id="c7acc-117">**Висплолинетонодэй**</span><span class="sxs-lookup"><span data-stu-id="c7acc-117">**visPLOLineToNodeY**</span></span> <br/> |
+| <span data-ttu-id="e5e1d-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="e5e1d-112">Section index:</span></span>  <br/> |<span data-ttu-id="e5e1d-113">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="e5e1d-113">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="e5e1d-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="e5e1d-114">Row index:</span></span>  <br/> |<span data-ttu-id="e5e1d-115">**висровпажелайаут**</span><span class="sxs-lookup"><span data-stu-id="e5e1d-115">**visRowPageLayout**</span></span> <br/> |
+| <span data-ttu-id="e5e1d-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="e5e1d-116">Cell index:</span></span>  <br/> |<span data-ttu-id="e5e1d-117">**висплолинетонодэй**</span><span class="sxs-lookup"><span data-stu-id="e5e1d-117">**visPLOLineToNodeY**</span></span> <br/> |
    
 

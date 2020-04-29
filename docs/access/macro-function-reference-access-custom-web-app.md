@@ -13,27 +13,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426382"
 ---
-# <a name="macro-function-reference-access-custom-web-app"></a><span data-ttu-id="ff960-102">Справка по функциям макросов (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ff960-102">Macro function reference (Access custom web app)</span></span>
+# <a name="macro-function-reference-access-custom-web-app"></a><span data-ttu-id="14560-102">Справка по функциям макросов (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="14560-102">Macro function reference (Access custom web app)</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="ff960-103">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="ff960-103">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="14560-103">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="14560-103">In this section</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="ff960-104">Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="ff960-104">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="ff960-105">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="ff960-105">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="14560-104">Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="14560-104">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="14560-105">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="14560-105">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-- [<span data-ttu-id="ff960-106">Блоки данных (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ff960-106">Data blocks (Access custom web app)</span></span>](data-blocksaccess-custom-web-app.md)
+- [<span data-ttu-id="14560-106">Блоки данных (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="14560-106">Data blocks (Access custom web app)</span></span>](data-blocksaccess-custom-web-app.md)
     
-- [<span data-ttu-id="ff960-107">Действия с данными (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ff960-107">Data actions (Access custom web app)</span></span>](data-actions-access-custom-web-app.md)
+- [<span data-ttu-id="14560-107">Действия с данными (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="14560-107">Data actions (Access custom web app)</span></span>](data-actions-access-custom-web-app.md)
     
-- [<span data-ttu-id="ff960-108">Операции ввода данных (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ff960-108">Data entry operations (Access custom web app)</span></span>](data-entry-operations-access-custom-web-app.md)
+- [<span data-ttu-id="14560-108">Операции ввода данных (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="14560-108">Data entry operations (Access custom web app)</span></span>](data-entry-operations-access-custom-web-app.md)
     
-- [<span data-ttu-id="ff960-109">Объекты базы данных (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ff960-109">Database objects (Access custom web app)</span></span>](database-objects-access-custom-web-app.md)
+- [<span data-ttu-id="14560-109">Объекты базы данных (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="14560-109">Database objects (Access custom web app)</span></span>](database-objects-access-custom-web-app.md)
     
-- [<span data-ttu-id="ff960-110">Фильтр, запрос и поиск (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ff960-110">Filter/query/search (Access custom web app)</span></span>](filter-query-search-access-custom-web-app.md)
+- [<span data-ttu-id="14560-110">Фильтр, запрос и поиск (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="14560-110">Filter/query/search (Access custom web app)</span></span>](filter-query-search-access-custom-web-app.md)
     
-- [<span data-ttu-id="ff960-111">Команды макросов (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ff960-111">Macro commands (Access custom web app)</span></span>](macro-commands-access-custom-web-app.md)
+- [<span data-ttu-id="14560-111">Команды макросов (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="14560-111">Macro commands (Access custom web app)</span></span>](macro-commands-access-custom-web-app.md)
     
-- [<span data-ttu-id="ff960-112">Программный процесс (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ff960-112">Program flow (Access custom web app)</span></span>](program-flow-access-custom-web-app.md)
+- [<span data-ttu-id="14560-112">Программный процесс (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="14560-112">Program flow (Access custom web app)</span></span>](program-flow-access-custom-web-app.md)
     
-- [<span data-ttu-id="ff960-113">Команды пользовательского интерфейса (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ff960-113">User interface commands (Access custom web app)</span></span>](user-interface-commands-access-custom-web-app.md)
+- [<span data-ttu-id="14560-113">Команды пользовательского интерфейса (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="14560-113">User interface commands (Access custom web app)</span></span>](user-interface-commands-access-custom-web-app.md)
     
 

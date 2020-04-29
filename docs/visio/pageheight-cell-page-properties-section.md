@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427082"
 ---
-# <a name="pageheight-cell-page-properties-section"></a><span data-ttu-id="e1365-103">PageHeight Cell (Page Properties Section)</span><span class="sxs-lookup"><span data-stu-id="e1365-103">PageHeight Cell (Page Properties Section)</span></span>
+# <a name="pageheight-cell-page-properties-section"></a><span data-ttu-id="098dd-103">PageHeight Cell (Page Properties Section)</span><span class="sxs-lookup"><span data-stu-id="098dd-103">PageHeight Cell (Page Properties Section)</span></span>
 
-<span data-ttu-id="e1365-104">Содержит высоту печатной страницы в единицах документа.</span><span class="sxs-lookup"><span data-stu-id="e1365-104">Contains the height of the printed page in drawing units.</span></span>
+<span data-ttu-id="098dd-104">Содержит высоту печатной страницы в единицах документа.</span><span class="sxs-lookup"><span data-stu-id="098dd-104">Contains the height of the printed page in drawing units.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="e1365-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="e1365-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="098dd-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="098dd-105">Remarks</span></span>
 
-<span data-ttu-id="e1365-106">Можно также задать высоту страницы на вкладке " **Размер страницы** " диалогового окна **Параметры страницы** (на вкладке **Макет** щелкните стрелку **Параметры страницы** ) или вручную измените размер страницы с помощью мыши.</span><span class="sxs-lookup"><span data-stu-id="e1365-106">You can also set the page height on the **Page Size** tab of the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow), or by manually resizing the page with the mouse.</span></span> 
+<span data-ttu-id="098dd-106">Можно также задать высоту страницы на вкладке " **Размер страницы** " диалогового окна **Параметры страницы** (на вкладке **Макет** щелкните стрелку **Параметры страницы** ) или вручную измените размер страницы с помощью мыши.</span><span class="sxs-lookup"><span data-stu-id="098dd-106">You can also set the page height on the **Page Size** tab of the **Page Setup** dialog box (on the **Design** tab, click the **Page Setup** arrow), or by manually resizing the page with the mouse.</span></span> 
   
-<span data-ttu-id="e1365-107">Чтобы получить ссылку на ячейку PageHeight по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="e1365-107">To get a reference to the PageHeight cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="098dd-107">Чтобы получить ссылку на ячейку PageHeight по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="098dd-107">To get a reference to the PageHeight cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e1365-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="e1365-108">Cell name:</span></span>  <br/> |<span data-ttu-id="e1365-109">PageHeight</span><span class="sxs-lookup"><span data-stu-id="e1365-109">PageHeight</span></span>  <br/> |
+|<span data-ttu-id="098dd-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="098dd-108">Cell name:</span></span>  <br/> |<span data-ttu-id="098dd-109">PageHeight</span><span class="sxs-lookup"><span data-stu-id="098dd-109">PageHeight</span></span>  <br/> |
    
-<span data-ttu-id="e1365-110">Чтобы получить ссылку на ячейку PageHeight по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="e1365-110">To get a reference to the PageHeight cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="098dd-110">Чтобы получить ссылку на ячейку PageHeight по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="098dd-110">To get a reference to the PageHeight cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="e1365-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="e1365-111">Section index:</span></span>  <br/> |<span data-ttu-id="e1365-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="e1365-112">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="e1365-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="e1365-113">Row index:</span></span>  <br/> |<span data-ttu-id="e1365-114">**Висровпаже**</span><span class="sxs-lookup"><span data-stu-id="e1365-114">**visRowPage**</span></span> <br/> |
-|<span data-ttu-id="e1365-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="e1365-115">Cell index:</span></span>  <br/> |<span data-ttu-id="e1365-116">**Виспажехеигхт**</span><span class="sxs-lookup"><span data-stu-id="e1365-116">**visPageHeight**</span></span> <br/> |
+|<span data-ttu-id="098dd-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="098dd-111">Section index:</span></span>  <br/> |<span data-ttu-id="098dd-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="098dd-112">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="098dd-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="098dd-113">Row index:</span></span>  <br/> |<span data-ttu-id="098dd-114">**висровпаже**</span><span class="sxs-lookup"><span data-stu-id="098dd-114">**visRowPage**</span></span> <br/> |
+|<span data-ttu-id="098dd-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="098dd-115">Cell index:</span></span>  <br/> |<span data-ttu-id="098dd-116">**виспажехеигхт**</span><span class="sxs-lookup"><span data-stu-id="098dd-116">**visPageHeight**</span></span> <br/> |
    
 

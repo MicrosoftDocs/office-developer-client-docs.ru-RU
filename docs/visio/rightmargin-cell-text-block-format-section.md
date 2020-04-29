@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433523"
 ---
-# <a name="rightmargin-cell-text-block-format-section"></a><span data-ttu-id="feaad-104">RightMargin Cell (Text Block Format Section)</span><span class="sxs-lookup"><span data-stu-id="feaad-104">RightMargin Cell (Text Block Format Section)</span></span>
+# <a name="rightmargin-cell-text-block-format-section"></a><span data-ttu-id="7d00a-104">RightMargin Cell (Text Block Format Section)</span><span class="sxs-lookup"><span data-stu-id="7d00a-104">RightMargin Cell (Text Block Format Section)</span></span>
 
-<span data-ttu-id="feaad-105">Определяет расстояние между правой границей блока текста и содержащимся в нем текстом.</span><span class="sxs-lookup"><span data-stu-id="feaad-105">Determines the distance between the right border of the text block and the text it contains.</span></span> <span data-ttu-id="feaad-106">Значение по умолчанию 0,1 дюйма.</span><span class="sxs-lookup"><span data-stu-id="feaad-106">The default is 0.1 inch.</span></span>
+<span data-ttu-id="7d00a-105">Определяет расстояние между правой границей блока текста и содержащимся в нем текстом.</span><span class="sxs-lookup"><span data-stu-id="7d00a-105">Determines the distance between the right border of the text block and the text it contains.</span></span> <span data-ttu-id="7d00a-106">Значение по умолчанию 0,1 дюйма.</span><span class="sxs-lookup"><span data-stu-id="7d00a-106">The default is 0.1 inch.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="feaad-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="feaad-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7d00a-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="7d00a-107">Remarks</span></span>
 
-<span data-ttu-id="feaad-108">Это значение не зависит от масштаба рисунка.</span><span class="sxs-lookup"><span data-stu-id="feaad-108">This value is independent of the scale of the drawing.</span></span> <span data-ttu-id="feaad-109">Если масштаб документа изменяется, правое поле остается прежним.</span><span class="sxs-lookup"><span data-stu-id="feaad-109">If the drawing is scaled, the right margin remains the same.</span></span>
+<span data-ttu-id="7d00a-108">Это значение не зависит от масштаба рисунка.</span><span class="sxs-lookup"><span data-stu-id="7d00a-108">This value is independent of the scale of the drawing.</span></span> <span data-ttu-id="7d00a-109">Если масштаб документа изменяется, правое поле остается прежним.</span><span class="sxs-lookup"><span data-stu-id="7d00a-109">If the drawing is scaled, the right margin remains the same.</span></span>
   
-<span data-ttu-id="feaad-110">Чтобы получить ссылку на ячейку RightMargin по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="feaad-110">To get a reference to the RightMargin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="7d00a-110">Чтобы получить ссылку на ячейку RightMargin по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="7d00a-110">To get a reference to the RightMargin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="feaad-111">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="feaad-111">Cell name:</span></span>  <br/> | <span data-ttu-id="feaad-112">RightMargin</span><span class="sxs-lookup"><span data-stu-id="feaad-112">RightMargin</span></span>  <br/> |
+| <span data-ttu-id="7d00a-111">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="7d00a-111">Cell name:</span></span>  <br/> | <span data-ttu-id="7d00a-112">RightMargin</span><span class="sxs-lookup"><span data-stu-id="7d00a-112">RightMargin</span></span>  <br/> |
    
-<span data-ttu-id="feaad-113">Чтобы получить ссылку на ячейку RightMargin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="feaad-113">To get a reference to the RightMargin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="7d00a-113">Чтобы получить ссылку на ячейку RightMargin по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="7d00a-113">To get a reference to the RightMargin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="feaad-114">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="feaad-114">Section index:</span></span>  <br/> |<span data-ttu-id="feaad-115">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="feaad-115">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="feaad-116">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="feaad-116">Row index:</span></span>  <br/> |<span data-ttu-id="feaad-117">**Висровтекст**</span><span class="sxs-lookup"><span data-stu-id="feaad-117">**visRowText**</span></span> <br/> |
-| <span data-ttu-id="feaad-118">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="feaad-118">Cell index:</span></span>  <br/> |<span data-ttu-id="feaad-119">**Висткстблкригхтмаргин**</span><span class="sxs-lookup"><span data-stu-id="feaad-119">**visTxtBlkRightMargin**</span></span> <br/> |
+| <span data-ttu-id="7d00a-114">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="7d00a-114">Section index:</span></span>  <br/> |<span data-ttu-id="7d00a-115">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="7d00a-115">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="7d00a-116">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="7d00a-116">Row index:</span></span>  <br/> |<span data-ttu-id="7d00a-117">**висровтекст**</span><span class="sxs-lookup"><span data-stu-id="7d00a-117">**visRowText**</span></span> <br/> |
+| <span data-ttu-id="7d00a-118">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="7d00a-118">Cell index:</span></span>  <br/> |<span data-ttu-id="7d00a-119">**висткстблкригхтмаргин**</span><span class="sxs-lookup"><span data-stu-id="7d00a-119">**visTxtBlkRightMargin**</span></span> <br/> |
    
 

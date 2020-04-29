@@ -14,27 +14,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431843"
 ---
-# <a name="propacctsentitemseid"></a><span data-ttu-id="22e75-103">PROP_ACCT_SENTITEMS_EID</span><span class="sxs-lookup"><span data-stu-id="22e75-103">PROP_ACCT_SENTITEMS_EID</span></span>
+# <a name="prop_acct_sentitems_eid"></a><span data-ttu-id="78720-103">PROP_ACCT_SENTITEMS_EID</span><span class="sxs-lookup"><span data-stu-id="78720-103">PROP_ACCT_SENTITEMS_EID</span></span>
 
-<span data-ttu-id="22e75-104">Представляет идентификатор папки по умолчанию для отправленных элементов для учетной записи.</span><span class="sxs-lookup"><span data-stu-id="22e75-104">Represents the Entry ID of the default folder for sent items for the account.</span></span> 
+<span data-ttu-id="78720-104">Представляет идентификатор папки по умолчанию для отправленных элементов для учетной записи.</span><span class="sxs-lookup"><span data-stu-id="78720-104">Represents the Entry ID of the default folder for sent items for the account.</span></span> 
   
-## <a name="quick-info"></a><span data-ttu-id="22e75-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="22e75-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="78720-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="78720-105">Quick info</span></span>
 
-<span data-ttu-id="22e75-106">Обратитесь к разделу [иолкаккаунт](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="22e75-106">See [IOlkAccount](iolkaccount.md).</span></span>
+<span data-ttu-id="78720-106">Обратитесь к разделу [иолкаккаунт](iolkaccount.md).</span><span class="sxs-lookup"><span data-stu-id="78720-106">See [IOlkAccount](iolkaccount.md).</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="22e75-107">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="22e75-107">Identifier:</span></span>  <br/> |<span data-ttu-id="22e75-108">0x0020</span><span class="sxs-lookup"><span data-stu-id="22e75-108">0x0020</span></span>  <br/> |
-|<span data-ttu-id="22e75-109">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="22e75-109">Property type:</span></span>  <br/> |<span data-ttu-id="22e75-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="22e75-110">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="22e75-111">Тег свойства:</span><span class="sxs-lookup"><span data-stu-id="22e75-111">Property tag:</span></span>  <br/> |<span data-ttu-id="22e75-112">0x00200102</span><span class="sxs-lookup"><span data-stu-id="22e75-112">0x00200102</span></span>  <br/> |
-|<span data-ttu-id="22e75-113">Обращения</span><span class="sxs-lookup"><span data-stu-id="22e75-113">Access:</span></span>  <br/> |<span data-ttu-id="22e75-114">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="22e75-114">Read-only</span></span>  <br/> |
+|<span data-ttu-id="78720-107">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="78720-107">Identifier:</span></span>  <br/> |<span data-ttu-id="78720-108">0x0020</span><span class="sxs-lookup"><span data-stu-id="78720-108">0x0020</span></span>  <br/> |
+|<span data-ttu-id="78720-109">Тип свойства:</span><span class="sxs-lookup"><span data-stu-id="78720-109">Property type:</span></span>  <br/> |<span data-ttu-id="78720-110">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="78720-110">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="78720-111">Тег свойства:</span><span class="sxs-lookup"><span data-stu-id="78720-111">Property tag:</span></span>  <br/> |<span data-ttu-id="78720-112">0x00200102</span><span class="sxs-lookup"><span data-stu-id="78720-112">0x00200102</span></span>  <br/> |
+|<span data-ttu-id="78720-113">Обращения</span><span class="sxs-lookup"><span data-stu-id="78720-113">Access:</span></span>  <br/> |<span data-ttu-id="78720-114">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="78720-114">Read-only</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="22e75-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="22e75-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="78720-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="78720-115">Remarks</span></span>
 
-<span data-ttu-id="22e75-116">Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md).</span><span class="sxs-lookup"><span data-stu-id="22e75-116">Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md).</span></span>
+<span data-ttu-id="78720-116">Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md).</span><span class="sxs-lookup"><span data-stu-id="78720-116">Get this property by using [IOlkAccount::GetProp](iolkaccount-getprop.md).</span></span>
   
-<span data-ttu-id="22e75-117">Папкой по умолчанию для отправленных элементов отПравляются **элементы**.</span><span class="sxs-lookup"><span data-stu-id="22e75-117">The default folder for sent items is **Sent Items**.</span></span>
+<span data-ttu-id="78720-117">Папкой по умолчанию для отправленных элементов **отправляются элементы**.</span><span class="sxs-lookup"><span data-stu-id="78720-117">The default folder for sent items is **Sent Items**.</span></span>
   
-<span data-ttu-id="22e75-118">Это свойство доступно только для чтения для учетных записей POP3 и IMAP.</span><span class="sxs-lookup"><span data-stu-id="22e75-118">This property is read-only for POP3 and IMAP accounts.</span></span> <span data-ttu-id="22e75-119">При попытке установить это свойство для этих типов учетных записей возвращается **е_аккт_нот_фаунд**.</span><span class="sxs-lookup"><span data-stu-id="22e75-119">Attempting to set this property for these types of accounts returns **E_ACCT_NOT_FOUND**.</span></span> 
+<span data-ttu-id="78720-118">Это свойство доступно только для чтения для учетных записей POP3 и IMAP.</span><span class="sxs-lookup"><span data-stu-id="78720-118">This property is read-only for POP3 and IMAP accounts.</span></span> <span data-ttu-id="78720-119">При попытке задать это свойство для этих типов учетных записей возвращается **E_ACCT_NOT_FOUND**.</span><span class="sxs-lookup"><span data-stu-id="78720-119">Attempting to set this property for these types of accounts returns **E_ACCT_NOT_FOUND**.</span></span> 
   
 

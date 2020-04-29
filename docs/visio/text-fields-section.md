@@ -16,14 +16,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434951"
 ---
-# <a name="text-fields-section"></a><span data-ttu-id="f6857-103">Text Fields Section</span><span class="sxs-lookup"><span data-stu-id="f6857-103">Text Fields Section</span></span>
+# <a name="text-fields-section"></a><span data-ttu-id="7ef3a-103">Text Fields Section</span><span class="sxs-lookup"><span data-stu-id="7ef3a-103">Text Fields Section</span></span>
 
-<span data-ttu-id="f6857-104">Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна " **поле** ".</span><span class="sxs-lookup"><span data-stu-id="f6857-104">Displays functions and formulas inserted in the shape's text by using the **Field** dialog box.</span></span> 
+<span data-ttu-id="7ef3a-104">Отображает функции и формулы, вставленные в текст фигуры, с помощью диалогового окна " **поле** ".</span><span class="sxs-lookup"><span data-stu-id="7ef3a-104">Displays functions and formulas inserted in the shape's text by using the **Field** dialog box.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="f6857-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="f6857-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7ef3a-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="7ef3a-105">Remarks</span></span>
 
-<span data-ttu-id="f6857-106">Единственный способ добавить этот раздел состоит в вставке поля в фигуру с помощью диалогового окна " **поле** " (вкладка "**Вставка** ").</span><span class="sxs-lookup"><span data-stu-id="f6857-106">The only way to add this section is to insert a field into a shape by using the **Field** dialog box (**Insert** tab).</span></span> 
+<span data-ttu-id="7ef3a-106">Единственный способ добавить этот раздел состоит в вставке поля в фигуру с помощью диалогового окна " **поле** " (вкладка "**Вставка** ").</span><span class="sxs-lookup"><span data-stu-id="7ef3a-106">The only way to add this section is to insert a field into a shape by using the **Field** dialog box (**Insert** tab).</span></span> 
   
-<span data-ttu-id="f6857-107">Каждое текстовое поле в текстовом блоке содержит соответствующую строку в окне таблицы свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="f6857-107">Each text field in a text block has a corresponding row in the ShapeSheet window.</span></span> <span data-ttu-id="f6857-108">Имя строки представляет число символов, содержащихся в поле.</span><span class="sxs-lookup"><span data-stu-id="f6857-108">The name of the row represents the number of characters the field contains.</span></span>
+<span data-ttu-id="7ef3a-107">Каждое текстовое поле в текстовом блоке содержит соответствующую строку в окне таблицы свойств фигуры.</span><span class="sxs-lookup"><span data-stu-id="7ef3a-107">Each text field in a text block has a corresponding row in the ShapeSheet window.</span></span> <span data-ttu-id="7ef3a-108">Имя строки представляет число символов, содержащихся в поле.</span><span class="sxs-lookup"><span data-stu-id="7ef3a-108">The name of the row represents the number of characters the field contains.</span></span>
   
 

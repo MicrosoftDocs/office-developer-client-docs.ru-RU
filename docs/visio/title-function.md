@@ -16,16 +16,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424415"
 ---
-# <a name="title-function"></a><span data-ttu-id="16583-103">Функция TITLE</span><span class="sxs-lookup"><span data-stu-id="16583-103">TITLE Function</span></span>
+# <a name="title-function"></a><span data-ttu-id="c576d-103">Функция TITLE</span><span class="sxs-lookup"><span data-stu-id="c576d-103">TITLE Function</span></span>
 
-<span data-ttu-id="16583-104">Возвращает текст из поля **Title** в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="16583-104">Returns the text from the **Title** field of a document's properties.</span></span> 
+<span data-ttu-id="c576d-104">Возвращает текст из поля **Title** в свойствах документа.</span><span class="sxs-lookup"><span data-stu-id="c576d-104">Returns the text from the **Title** field of a document's properties.</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="16583-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="16583-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c576d-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c576d-105">Syntax</span></span>
 
-<span data-ttu-id="16583-106">TITLE ()</span><span class="sxs-lookup"><span data-stu-id="16583-106">TITLE ()</span></span>
+<span data-ttu-id="c576d-106">TITLE ()</span><span class="sxs-lookup"><span data-stu-id="c576d-106">TITLE ()</span></span>
   
-### <a name="return-value"></a><span data-ttu-id="16583-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="16583-107">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="c576d-107">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c576d-107">Return value</span></span>
 
-<span data-ttu-id="16583-108">String</span><span class="sxs-lookup"><span data-stu-id="16583-108">String</span></span>
+<span data-ttu-id="c576d-108">String</span><span class="sxs-lookup"><span data-stu-id="c576d-108">String</span></span>
   
 

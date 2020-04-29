@@ -14,19 +14,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427691"
 ---
-# <a name="account-management-api-reference"></a><span data-ttu-id="cfdb7-103">Справочник по API управления учетными записями</span><span class="sxs-lookup"><span data-stu-id="cfdb7-103">Account management API reference</span></span>
+# <a name="account-management-api-reference"></a><span data-ttu-id="a6cb0-103">Справочник по API управления учетными записями</span><span class="sxs-lookup"><span data-stu-id="a6cb0-103">Account management API reference</span></span>
 
-<span data-ttu-id="cfdb7-104">В этом разделе представлены справочные материалы по API управления учетными записями, которые обеспечивают доступ к сведениям учетных записей, поддерживают уведомления об изменениях учетных записей, защиту учетных записей от нежелательной почты и управление скачиванием сообщений для учетных</span><span class="sxs-lookup"><span data-stu-id="cfdb7-104">This section provides reference content for the Account Management API, which provides access to account information, supports notifications of account changes, protecting accounts from spam and managing message downloads for POP3 accounts.</span></span>
+<span data-ttu-id="a6cb0-104">В этом разделе представлены справочные материалы по API управления учетными записями, которые обеспечивают доступ к сведениям учетных записей, поддерживают уведомления об изменениях учетных записей, защиту учетных записей от нежелательной почты и управление скачиванием сообщений для учетных</span><span class="sxs-lookup"><span data-stu-id="a6cb0-104">This section provides reference content for the Account Management API, which provides access to account information, supports notifications of account changes, protecting accounts from spam and managing message downloads for POP3 accounts.</span></span>
 
 
-- [<span data-ttu-id="cfdb7-105">Константы</span><span class="sxs-lookup"><span data-stu-id="cfdb7-105">Constants</span></span>](constants-account-management-api.md)
+- [<span data-ttu-id="a6cb0-105">Константы</span><span class="sxs-lookup"><span data-stu-id="a6cb0-105">Constants</span></span>](constants-account-management-api.md)
     
-- [<span data-ttu-id="cfdb7-106">Data Types</span><span class="sxs-lookup"><span data-stu-id="cfdb7-106">Data Types</span></span>](data-types-account-management-api.md)
+- [<span data-ttu-id="a6cb0-106">Data Types</span><span class="sxs-lookup"><span data-stu-id="a6cb0-106">Data Types</span></span>](data-types-account-management-api.md)
     
-- [<span data-ttu-id="cfdb7-107">Интерфейсы</span><span class="sxs-lookup"><span data-stu-id="cfdb7-107">Interfaces</span></span>](interfaces-account-management-api.md)
+- [<span data-ttu-id="a6cb0-107">Интерфейсы</span><span class="sxs-lookup"><span data-stu-id="a6cb0-107">Interfaces</span></span>](interfaces-account-management-api.md)
     
-- [<span data-ttu-id="cfdb7-108">Именованные свойства</span><span class="sxs-lookup"><span data-stu-id="cfdb7-108">Named Properties</span></span>](named-properties-account-management-api.md)
+- [<span data-ttu-id="a6cb0-108">Именованные свойства</span><span class="sxs-lookup"><span data-stu-id="a6cb0-108">Named Properties</span></span>](named-properties-account-management-api.md)
     
-- [<span data-ttu-id="cfdb7-109">Properties</span><span class="sxs-lookup"><span data-stu-id="cfdb7-109">Properties</span></span>](properties-account-management-api.md)
+- [<span data-ttu-id="a6cb0-109">Свойства</span><span class="sxs-lookup"><span data-stu-id="a6cb0-109">Properties</span></span>](properties-account-management-api.md)
     
 

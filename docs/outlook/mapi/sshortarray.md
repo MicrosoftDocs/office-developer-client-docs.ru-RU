@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429616"
 ---
-# <a name="sshortarray"></a><span data-ttu-id="cea04-103">SShortArray</span><span class="sxs-lookup"><span data-stu-id="cea04-103">SShortArray</span></span>
+# <a name="sshortarray"></a><span data-ttu-id="aacc2-103">SShortArray</span><span class="sxs-lookup"><span data-stu-id="aacc2-103">SShortArray</span></span>
 
   
   
-<span data-ttu-id="cea04-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cea04-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="aacc2-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="aacc2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cea04-105">Содержит массив целочисленных значений без знака, которые используются для описания свойства типа ПТ_МВ_ШОРТ.</span><span class="sxs-lookup"><span data-stu-id="cea04-105">Contains an array of unsigned integer values that are used to describe a property of type PT_MV_SHORT.</span></span>
+<span data-ttu-id="aacc2-105">Содержит массив целочисленных значений без знака, которые используются для описания свойства типа PT_MV_SHORT.</span><span class="sxs-lookup"><span data-stu-id="aacc2-105">Contains an array of unsigned integer values that are used to describe a property of type PT_MV_SHORT.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cea04-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="cea04-106">Header file:</span></span>  <br/> |<span data-ttu-id="cea04-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="cea04-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="aacc2-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="aacc2-106">Header file:</span></span>  <br/> |<span data-ttu-id="aacc2-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="aacc2-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SShortArray
@@ -40,26 +40,26 @@ typedef struct _SShortArray
 
 ```
 
-## <a name="members"></a><span data-ttu-id="cea04-108">Members</span><span class="sxs-lookup"><span data-stu-id="cea04-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="aacc2-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="aacc2-108">Members</span></span>
 
- <span data-ttu-id="cea04-109">**Квалуес**</span><span class="sxs-lookup"><span data-stu-id="cea04-109">**cValues**</span></span>
+ <span data-ttu-id="aacc2-109">**квалуес**</span><span class="sxs-lookup"><span data-stu-id="aacc2-109">**cValues**</span></span>
   
-> <span data-ttu-id="cea04-110">Количество значений в массиве, на которое указывает элемент **LPI** .</span><span class="sxs-lookup"><span data-stu-id="cea04-110">Count of values in the array pointed to by the **lpi** member.</span></span> 
+> <span data-ttu-id="aacc2-110">Количество значений в массиве, на которое указывает элемент **LPI** .</span><span class="sxs-lookup"><span data-stu-id="aacc2-110">Count of values in the array pointed to by the **lpi** member.</span></span> 
     
- <span data-ttu-id="cea04-111">**LPI**</span><span class="sxs-lookup"><span data-stu-id="cea04-111">**lpi**</span></span>
+ <span data-ttu-id="aacc2-111">**LPI**</span><span class="sxs-lookup"><span data-stu-id="aacc2-111">**lpi**</span></span>
   
-> <span data-ttu-id="cea04-112">Указатель на массив значений целых чисел без знака.</span><span class="sxs-lookup"><span data-stu-id="cea04-112">Pointer to an array of unsigned integer values.</span></span>
+> <span data-ttu-id="aacc2-112">Указатель на массив значений целых чисел без знака.</span><span class="sxs-lookup"><span data-stu-id="aacc2-112">Pointer to an array of unsigned integer values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="cea04-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="cea04-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="aacc2-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="aacc2-113">Remarks</span></span>
 
-<span data-ttu-id="cea04-114">Дополнительные сведения о ПТ_МВ_ШОРТ и других типах свойств приведены в разделе [типы свойств](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="cea04-114">For more information about PT_MV_SHORT and other property types, see [Property Types](property-types.md).</span></span> 
+<span data-ttu-id="aacc2-114">Более подробную информацию о PT_MV_SHORT и других типах свойств можно узнать в статье [типы свойств](property-types.md).</span><span class="sxs-lookup"><span data-stu-id="aacc2-114">For more information about PT_MV_SHORT and other property types, see [Property Types](property-types.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="cea04-115">См. также</span><span class="sxs-lookup"><span data-stu-id="cea04-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="aacc2-115">См. также</span><span class="sxs-lookup"><span data-stu-id="aacc2-115">See also</span></span>
 
 
 
-[<span data-ttu-id="cea04-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="cea04-116">SPropValue</span></span>](spropvalue.md)
+[<span data-ttu-id="aacc2-116">SPropValue</span><span class="sxs-lookup"><span data-stu-id="aacc2-116">SPropValue</span></span>](spropvalue.md)
 
 
-[<span data-ttu-id="cea04-117">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="cea04-117">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="aacc2-117">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="aacc2-117">MAPI Structures</span></span>](mapi-structures.md)
 
