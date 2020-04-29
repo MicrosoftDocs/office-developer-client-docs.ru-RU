@@ -27,7 +27,7 @@ ms.locfileid: "33435630"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕТУРНЕД_ИПМ  <br/> |
+|Связанные свойства:  <br/> |PR_RETURNED_IPM  <br/> |
 |Идентификатор:  <br/> |0x0033  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
@@ -38,7 +38,7 @@ ms.locfileid: "33435630"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

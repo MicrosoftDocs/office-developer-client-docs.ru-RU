@@ -29,7 +29,7 @@ ms.locfileid: "33434076"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕКУЕСТЕД_ДЕЛИВЕРИ_МЕСОД  <br/> |
+|Связанные свойства:  <br/> |PR_REQUESTED_DELIVERY_METHOD  <br/> |
 |Идентификатор:  <br/> |0x0C18  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Получатель MAPI  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33434076"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

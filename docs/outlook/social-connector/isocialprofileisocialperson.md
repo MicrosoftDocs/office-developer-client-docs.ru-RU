@@ -19,15 +19,15 @@ ms.locfileid: "33425045"
 
 Представляет пользователя, выполнившего вход в систему. 
   
-## <a name="members"></a>Members
+## <a name="members"></a>"Участники"
 
 В следующей таблице показаны элементы, доступные в интерфейсе **исоЦиалпрофиле** . 
   
-|**Name**|**Тип элемента**|**Описание**|
+|**имя**|**Тип элемента**|**Описание**|
 |:-----|:-----|:-----|
-|[Арефриендсорколлеагуес](isocialprofile-arefriendsorcolleagues.md) <br/> |Метод  <br/> |Определяет, являются ли указанные пользователи друзьями.  <br/> |
-|[Жетактивитиесоффриендсандколлеагуес](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Метод  <br/> |Этот метод является устаревшим, так как Outlook Social Connector 2013.  <br/> |
-|[SetStatus](isocialprofile-setstatus.md) <br/> |Метод  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
+|[арефриендсорколлеагуес](isocialprofile-arefriendsorcolleagues.md) <br/> |Method  <br/> |Определяет, являются ли указанные пользователи друзьями.  <br/> |
+|[жетактивитиесоффриендсандколлеагуес](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Method  <br/> |Этот метод является устаревшим, так как Outlook Social Connector 2013.  <br/> |
+|[SetStatus](isocialprofile-setstatus.md) <br/> |Method  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

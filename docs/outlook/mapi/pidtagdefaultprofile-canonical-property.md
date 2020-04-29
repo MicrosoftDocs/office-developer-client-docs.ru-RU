@@ -29,7 +29,7 @@ ms.locfileid: "33428776"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ДЕФАУЛТ_ПРОФИЛЕ  <br/> |
+|Связанные свойства:  <br/> |PR_DEFAULT_PROFILE  <br/> |
 |Идентификатор:  <br/> |0x3D04  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Профиль MAPI  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33428776"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

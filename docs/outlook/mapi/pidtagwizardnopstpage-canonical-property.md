@@ -29,7 +29,7 @@ ms.locfileid: "33422889"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ВИЗАРД_НО_ПСТ_ПАЖЕ  <br/> |
+|Связанные свойства:  <br/> |PR_WIZARD_NO_PST_PAGE  <br/> |
 |Идентификатор:  <br/> |0x6700  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Административная служба Exchange  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33422889"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

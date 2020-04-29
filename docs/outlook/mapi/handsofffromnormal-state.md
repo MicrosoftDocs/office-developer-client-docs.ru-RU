@@ -25,11 +25,11 @@ ms.locfileid: "33426473"
   
 |Иперсистмессаже * * метод * *|**Действие**|**Новое состояние**|
 |:-----|:-----|:-----|
-|[Иперсистмессаже:: савекомплетед](ipersistmessage-savecompleted.md) (_пмессаже! =_ null)  <br/> |Замените сообщение объекта Message на _пмессаже_, заменяющее сообщение, которое было отозвано предыдущим вызовом метода [Иперсистмессаже:: хандсоффмессаже](ipersistmessage-handsoffmessage.md). Данные в новом сообщении гарантированно совпадают с теми, что и в отозванном сообщении. Сообщение не должно быть помечено как Clean, и не должно [имапивиевадвисесинк:: OnSave](imapiviewadvisesink-onsaved.md) вызывается после этого вызова. Если вызов **савекомплетед** выполнен успешно, введите нормальное [](normal-state.md) состояние. В противном случае Оставайтесь в состоянии HandsOffFromNormal.  <br/> |Обычный или HandsOffFromNormal  <br/> |
-|**Иперсистмессаже:: савекомплетед** (_пмессаже = =_ null)  <br/> |Задайте для последней ошибки значение Е_УНЕКСПЕКТЕД.  <br/> |HandsOffFromNormal  <br/> |
-|**Хандсоффмессаже**, [Иперсистмессаже:: Save](ipersistmessage-save.md), [Иперсистмессаже:: Инитнев](ipersistmessage-initnew.md)или [иперсистмессаже:: Load](ipersistmessage-load.md) <br/> |Задайте для последней ошибки значение Е_УНЕКСПЕКТЕД.  <br/> |HandsOffFromNormal  <br/> |
+|[Иперсистмессаже:: савекомплетед](ipersistmessage-savecompleted.md)(_пмессаже! =_ null)  <br/> |Замените сообщение объекта Message на _пмессаже_, заменяющее сообщение, которое было отозвано предыдущим вызовом метода [Иперсистмессаже:: хандсоффмессаже](ipersistmessage-handsoffmessage.md). Данные в новом сообщении гарантированно совпадают с теми, что и в отозванном сообщении. Сообщение не должно быть помечено как Clean, и не должно [имапивиевадвисесинк:: OnSave](imapiviewadvisesink-onsaved.md) вызывается после этого вызова. Если вызов **савекомплетед** выполнен успешно, введите [нормальное](normal-state.md) состояние. В противном случае Оставайтесь в состоянии HandsOffFromNormal.  <br/> |Обычный или HandsOffFromNormal  <br/> |
+|**Иперсистмессаже:: савекомплетед**(_пмессаже = =_ null)  <br/> |Задайте для последней ошибки значение E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
+|**Хандсоффмессаже**, [Иперсистмессаже:: Save](ipersistmessage-save.md), [Иперсистмессаже:: Инитнев](ipersistmessage-initnew.md)или [иперсистмессаже:: Load](ipersistmessage-load.md) <br/> |Задайте для последней ошибки значение E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
 |[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возврат последней ошибки.  <br/> |HandsOffFromNormal  <br/> |
-|Другие [иперсистмессаже:](ipersistmessageiunknown.md) методы или методы IUnknown из других интерфейсов  <br/> |Задайте для последней ошибки значение Е_УНЕКСПЕКТЕД.  <br/> |HandsOffFromNormal  <br/> |
+|Другие [иперсистмессаже:](ipersistmessageiunknown.md) методы или методы IUnknown из других интерфейсов  <br/> |Задайте для последней ошибки значение E_UNEXPECTED.  <br/> |HandsOffFromNormal  <br/> |
    
 ## <a name="see-also"></a>См. также
 

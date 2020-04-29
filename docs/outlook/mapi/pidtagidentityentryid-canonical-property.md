@@ -29,7 +29,7 @@ ms.locfileid: "33423337"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ИДЕНТИТИ_ЕНТРИД  <br/> |
+|Связанные свойства:  <br/> |PR_IDENTITY_ENTRYID  <br/> |
 |Идентификатор:  <br/> |0x3E01  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
@@ -44,7 +44,7 @@ ms.locfileid: "33423337"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунтманажерунадвисе
+title: иолкаккаунтманажерунадвисе
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -31,7 +31,7 @@ HRESULT Unadvise(
 
 ## <a name="parameters"></a>Параметры
 
-_Двкукие_
+_двкукие_
   
 > возврата Файл cookie, возвращенный функцией [иолкаккаунтманажер:: Advise](iolkaccountmanager-advise.md).
     
@@ -41,7 +41,7 @@ _Двкукие_
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
 |E_INVALIDARG  <br/> |Один или несколько аргументов являются недопустимыми.  <br/> |
-|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

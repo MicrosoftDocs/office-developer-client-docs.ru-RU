@@ -25,11 +25,11 @@ ms.locfileid: "33434440"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит свойство **пр_сторе_суппорт_маск** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)), полученное из хранилища, содержащего папку "Контакты".
+Содержит свойство **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagcontactaddressbookstoresupportmask-canonical-property.md)), полученное из хранилища, содержащего папку "Контакты".
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНТАБ_СТОРЕ_СУППОРТ_МАСК  <br/> |
+|Связанные свойства:  <br/> |PR_CONTAB_STORE_SUPPORT_MASK  <br/> |
 |Идентификатор:  <br/> |0x6611  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33434440"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

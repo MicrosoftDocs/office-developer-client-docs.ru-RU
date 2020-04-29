@@ -25,34 +25,34 @@ ms.locfileid: "33427264"
   
 Существует две группы свойств, которые используются для поддержки делегированного доступа:
   
- **Пр_сент_репресентинг_аддртипе** ([PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md)) 
+ **PR_SENT_REPRESENTING_ADDRTYPE** ([PidTagSentRepresentingAddressType](pidtagsentrepresentingaddresstype-canonical-property.md)) 
   
- **Пр_сент_репресентинг_емаил_аддресс** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) 
+ **PR_SENT_REPRESENTING_EMAIL_ADDRESS** ([PidTagSentRepresentingEmailAddress](pidtagsentrepresentingemailaddress-canonical-property.md)) 
   
- **Пр_сент_репресентинг_ентрид** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md)) 
+ **PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md)) 
   
- **Пр_сент_репресентинг_наме** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) 
+ **PR_SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md)) 
   
- **Пр_сент_репресентинг_сеарч_кэй** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md)) 
+ **PR_SENT_REPRESENTING_SEARCH_KEY** ([PidTagSentRepresentingSearchKey](pidtagsentrepresentingsearchkey-canonical-property.md)) 
   
- **Пр_рквд_репресентинг_аддртипе** ([PidTagReceivedRepresentingAddressType](pidtagreceivedrepresentingaddresstype-canonical-property.md)) 
+ **PR_RCVD_REPRESENTING_ADDRTYPE** ([PidTagReceivedRepresentingAddressType](pidtagreceivedrepresentingaddresstype-canonical-property.md)) 
   
- **Пр_рквд_репресентинг_емаил_аддресс** ([PidTagReceivedRepresentingEmailAddress](pidtagreceivedrepresentingemailaddress-canonical-property.md)) 
+ **PR_RCVD_REPRESENTING_EMAIL_ADDRESS** ([PidTagReceivedRepresentingEmailAddress](pidtagreceivedrepresentingemailaddress-canonical-property.md)) 
   
- **Пр_рквд_репресентинг_ентрид** ([PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md)) 
+ **PR_RCVD_REPRESENTING_ENTRYID** ([PidTagReceivedRepresentingEntryId](pidtagreceivedrepresentingentryid-canonical-property.md)) 
   
- **Пр_рквд_репресентинг_наме** ([PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md)) 
+ **PR_RCVD_REPRESENTING_NAME** ([PidTagReceivedRepresentingName](pidtagreceivedrepresentingname-canonical-property.md)) 
   
- **Пр_рквд_репресентинг_сеарч_кэй** ([PidTagReceivedRepresentingSearchKey](pidtagreceivedrepresentingsearchkey-canonical-property.md)) 
+ **PR_RCVD_REPRESENTING_SEARCH_KEY** ([PidTagReceivedRepresentingSearchKey](pidtagreceivedrepresentingsearchkey-canonical-property.md)) 
   
-В исходящих сообщениях свойства **пр_сент_репресентинг** идентифицируют пользователя обмена сообщениями, который должен использоваться в качестве отправителя. Клиенты могут задавать эти свойства в качестве варианта. Если свойства **пр_сент_репресентинг** не заданы в момент времени, когда сообщение достигнет поставщика транспорта, поддерживающего делегированный доступ, то ответственность за задание этих свойств вместе со свойствами **пр_сендер** определяется поставщиком. 
+В исходящих сообщениях свойства **PR_SENT_REPRESENTING** идентифицируют пользователя обмена сообщениями, который должен использоваться в качестве отправителя. Клиенты могут задавать эти свойства в качестве варианта. Если свойства **PR_SENT_REPRESENTING** не заданы в момент времени, когда сообщение достигнет поставщика транспорта, поддерживающего делегированный доступ, то это обязанность поставщика, позволяющая задать их вместе со свойствами **PR_SENDER** . 
   
-В входящих сообщениях свойства **пр_рквд_репресентинг** идентифицируют пользователя, который должен стать получателем. Поставщики транспорта, которые отвечают за доставку сообщений делегатов, должны задавать оба свойства: **пр_рквд_репресентинг** и **пр_рецеивед_би** . Клиенты, получившие сообщение делегата, должны скопировать значения свойств **пр_сент_репресентинг** в соответствующие свойства **пр_рквд_репресентинг** . 
+В входящих сообщениях свойства **PR_RCVD_REPRESENTING** идентифицируют пользователя, который должен стать получателем. Для поставщиков транспорта, которые отвечают за доставку сообщений представителей, необходимо задать свойства **PR_RCVD_REPRESENTING** и **PR_RECEIVED_BY** . Клиенты, получившие сообщение делегата, должны скопировать значения свойств **PR_SENT_REPRESENTING** в соответствующие свойства **PR_RCVD_REPRESENTING** . 
   
-Например, пусть Иван получает сообщения Салли, когда Салли находится на отпуске. Свойства **пр_рквд_репресентинг** идентифицируют Иван как получателя делегата. Когда Иван отправляет ответ на сообщение, полученное для Салли, свойства **пр_сендер** сообщения определяют Иван как отправитель. Так как Джон представляет Салли, свойства **пр_сент_репресентинг** определяют Салли. 
+Например, пусть Иван получает сообщения Салли, когда Салли находится на отпуске. В свойствах **PR_RCVD_REPRESENTING** указать Иван в качестве получателя делегата. Когда Иван отправляет ответ на сообщение, полученное для Салли, свойства **PR_SENDER** сообщения определяют Иван как отправитель. Так как Джон представляет Салли, свойства **PR_SENT_REPRESENTING** определяют Салли. 
   
-Поставщики транспорта, которые обрабатывают входящие сообщения делегатов, обычно должны доставлять эти сообщения в качестве пользователя обмена сообщениями, идентифицируемого свойствами **пр_сент_репресентинг** , а не как пользователь, указанный в свойствах **пр_сендер** . Исключением из этого правила является то, что оно необходимо для того, чтобы сопоставлять типы прав доступа и транспорта. В этом случае поставщик транспорта может выбрать удостоверение отправки. 
+Поставщики транспорта, которые обрабатывают входящие сообщения делегатов, обычно должны доставлять эти сообщения в качестве пользователя обмена сообщениями, идентифицируемого **PR_SENT_REPRESENTING** свойствами, а не как пользователь, указанный в свойствах **PR_SENDER** . Исключением из этого правила является то, что оно необходимо для того, чтобы сопоставлять типы прав доступа и транспорта. В этом случае поставщик транспорта может выбрать удостоверение отправки. 
   
-Если свойства **пр_сент_репресентинг** недоступны для входящего сообщения делегата, то для доставки с помощью поставщика транспорта необходимо задать их, используя значения соответствующих свойств **пр_сендер** . Если свойства **пр_сент_репресентинг** доступны, но поставщик транспорта не поддерживает делегированный доступ, он может использовать свойства **пр_сендер** для доставки. 
+Если свойства **PR_SENT_REPRESENTING** недоступны для входящего сообщения делегата, то для доставки в качестве поставщика транспорта необходимо задать их, используя значения соответствующих свойств **PR_SENDER** . Если свойства **PR_SENT_REPRESENTING** доступны, но поставщик транспорта не поддерживает делегированный доступ, он может использовать свойства **PR_SENDER** для доставки. 
   
 

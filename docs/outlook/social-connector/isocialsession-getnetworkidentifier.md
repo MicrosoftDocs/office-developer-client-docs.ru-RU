@@ -1,5 +1,5 @@
 ---
-title: ИсоЦиалсессионжетнетворкидентифиер
+title: исоЦиалсессионжетнетворкидентифиер
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -25,7 +25,7 @@ HRESULT _stdcall GetNetworkIdentifier([out, retval] BSTR* networkIdentifier);
 
 ## <a name="parameters"></a>Параметры
 
-_Нетворкидентифиер_
+_нетворкидентифиер_
   
 > вышли Строка, содержащая уникальный идентификатор социальной сети.
     

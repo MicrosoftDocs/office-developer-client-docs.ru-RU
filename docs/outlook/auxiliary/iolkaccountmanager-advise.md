@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунтманажерадвисе
+title: иолкаккаунтманажерадвисе
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -31,11 +31,11 @@ HRESULT IOlkAccountManager::Advise (
 
 ## <a name="parameters"></a>Параметры
 
-_Пнотифи_
+_пнотифи_
   
 > возврата Интерфейс [иолкаккаунтнотифи](iolkaccountnotify.md) , который диспетчер учетных записей будет использовать для отправки уведомлений клиенту. 
     
-_Пдвкукие_
+_пдвкукие_
   
 > вышли Файл cookie, [иолкаккаунтманажер:: unadvise](iolkaccountmanager-unadvise.md) будет использоваться при удалении регистрации для учетной записи. 
     
@@ -45,7 +45,7 @@ _Пдвкукие_
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
 |E_INVALIDARG  <br/> |Указан недопустимый аргумент.  <br/> |
-|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

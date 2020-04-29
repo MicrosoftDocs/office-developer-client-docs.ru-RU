@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунтсавечанжес
+title: иолкаккаунтсавечанжес
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -32,15 +32,15 @@ HRESULT IOlkAccount::SaveChanges (
 
 _dwFlags_
   
-> [in] Flags to modify behavior. ОЛК_АККАУНТ_НО_ФЛАГС — единственное поддерживаемое значение.
+> [in] Flags to modify behavior. OLK_ACCOUNT_NO_FLAGS является единственным поддерживаемым значением.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |Метод выполнен успешно.  <br/> |
-|Е_АККТ_НОТ_ФАУНД  <br/> |Не удается найти указанную учетную запись.  <br/> |
-|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Не удается найти указанную учетную запись.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

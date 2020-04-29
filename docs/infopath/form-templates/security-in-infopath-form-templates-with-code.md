@@ -19,7 +19,7 @@ ms.locfileid: "33433880"
 
 В этом разделе описана модель безопасности для шаблонов форм Microsoft InfoPath, использующих управляемый код.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 [Модель безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md)
   

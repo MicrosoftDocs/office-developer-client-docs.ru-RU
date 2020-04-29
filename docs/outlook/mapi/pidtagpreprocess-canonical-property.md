@@ -29,7 +29,7 @@ ms.locfileid: "33435385"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ПРЕПРОЦЕСС  <br/> |
+|Связанные свойства:  <br/> |PR_PREPROCESS  <br/> |
 |Идентификатор:  <br/> |0x0E22  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Несъемный MAPI  <br/> |
@@ -41,7 +41,7 @@ ms.locfileid: "33435385"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

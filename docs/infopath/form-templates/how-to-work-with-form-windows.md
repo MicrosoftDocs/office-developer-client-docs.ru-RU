@@ -28,13 +28,13 @@ ms.locfileid: "33431066"
     
 - окно разработки, которое используется при разработке пользователем шаблона формы.
     
-При написании кода в шаблоне формы это окно редактирования, предоставляющее наиболее полезную функциональность, так как вы можете использовать объект [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) , представляющий текущее окно, для доступа к различным свойствам и методам, которые можно использовать для настройки интерфейс редактирования форм. 
+При написании кода в шаблоне формы это окно редактирования, которое предоставляет наиболее полезную функциональность, так как вы можете использовать объект [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) , представляющий текущее окно, для доступа к различным свойствам и методам, которые можно использовать для настройки интерфейса редактирования формы. 
   
 ## <a name="overview-of-the-windowscollection-class"></a>Обзор класса "WindowsCollection"
 
 Класс [WindowCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.aspx) предоставляет следующие свойства, которые разработчики шаблонов форм могут использовать для управления объектами [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) , которые он содержит. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Count.aspx)  <br/> |Получает количество объектов [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) , которые содержит коллекция.  <br/> |
 |Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowCollection.Item.aspx)  <br/> |Возвращает ссылку на указанный объект [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) .  <br/> |
@@ -43,7 +43,7 @@ ms.locfileid: "33431066"
 
 Класс [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с окном InfoPath. Поддержка этих методов и свойств зависит от типа окна ( [виндовтипе](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.WindowType.aspx) ), с которым ведется работа. Некоторые методы и свойства работают только с окном редактора (**WindowType.Editor**). Остальные методы и свойства работают как с окном редактора, так и с окном конструктора (**WindowType.Designer**). Кроме того, как и для всех членов объектной модели InfoPath, при вызове из шаблона формы поддержка методов и свойств может изменяться в зависимости от уровня безопасности и метода развертывания формы.
   
-|**Name**|**Описание**|**Поддержка типов окон**|
+|**Название**|**Описание**|**Поддержка типов окон**|
 |:-----|:-----|:-----|
 |Метод [Activate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Activate.aspx)  <br/> |Активирует окно (переключает фокус).  <br/> |Типы **Designer** и **Editor**  <br/> |
 |Свойство [Active](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.Active.aspx)  <br/> |Возвращает логическое (**Boolean**) значение, указывающее, является ли окно активным в данный момент.  <br/> |Типы **Designer** и **Editor**  <br/> |
@@ -83,7 +83,7 @@ Window myWindow = this.Application.ActiveWindow;
 Dim myWindow As Window = Me.Application.ActiveWindow
 ```
 
-Доступ к объекту [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) также можно получить с помощью свойства [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.Window.aspx) класса [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) , который представляет текущее представление, используемОЕ для работы с базовым XML-документом формы. Свойство [CurrentView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.CurrentView.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) используется для доступа к объекту [представления](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) , представляющему текущее представление. Например, приведенный ниже код задает ссылку на [окно](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) , связанное с текущим представлением. 
+Доступ к объекту [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) также можно получить с помощью свойства [Window](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.Window.aspx) класса [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) , который представляет текущее представление, используемое для работы с базовым XML-документом формы. Свойство [CurrentView](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.CurrentView.aspx) класса [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) используется для доступа к объекту [представления](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) , представляющему текущее представление. Например, приведенный ниже код задает ссылку на [окно](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.Window.aspx) , связанное с текущим представлением. 
   
 ```cs
 Window myWindow = this.CurrentView.Window;

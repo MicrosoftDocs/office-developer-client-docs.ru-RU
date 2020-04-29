@@ -22,7 +22,7 @@ ms.locfileid: "33426284"
   
 ## <a name="syntax"></a>Синтаксис
 
- *булеан_експрессион* **А** *булеан_експрессион* 
+ *Boolean_expression* **и** *Boolean_expression* 
   
 ## <a name="return-value"></a>Возвращаемое значение
 

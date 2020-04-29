@@ -1,5 +1,5 @@
 ---
-title: Важные и полезная функции функции XLM В C API
+title: Важные и полезная функции функции XLM в C API
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,7 +16,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434517"
 ---
-# <a name="essential-and-useful-c-api-xlm-functions"></a>Важные и полезная функции функции XLM В C API
+# <a name="essential-and-useful-c-api-xlm-functions"></a>Важные и полезная функции функции XLM в C API
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
@@ -24,7 +24,7 @@ ms.locfileid: "33434517"
   
 Многие другие функции Excel предоставляются с помощью API C, которые можно использовать при разработке XLL-модулей. Они соответствуют функциям и командам листа Excel, которые доступны на листах макросов XLM.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 [xlfCaller](xlfcaller.md)
   

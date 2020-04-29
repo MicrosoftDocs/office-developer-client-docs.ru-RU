@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424401"
 ---
-# <a name="acctvariant"></a>ACCT_VARIANT
+# <a name="acct_variant"></a>ACCT_VARIANT
 
 Переменная этого типа данных содержит значение свойства, которое относится к типу данных Variant.
   
@@ -36,7 +36,7 @@ typedef struct
 
 ## <a name="members"></a>Элементы
 
-_Двтипе_
+_двтипе_
   
 > Тип варианта:
     

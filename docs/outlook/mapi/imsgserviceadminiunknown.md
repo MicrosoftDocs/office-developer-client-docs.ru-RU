@@ -33,25 +33,25 @@ ms.locfileid: "33426137"
 |Предоставлено:  <br/> |Объекты администрирования службы сообщений  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_имсгсервицеадмин  <br/> |
-|Тип указателя:  <br/> |ЛПСЕРВИЦЕАДМИН  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IMsgServiceAdmin  <br/> |
+|Тип указателя:  <br/> |лпсервицеадмин  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
 |[GetLastError](imsgserviceadmin-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о последней ошибке, созданной объектом администрирования службы сообщений.  <br/> |
-|[Жетмсгсервицетабле](imsgserviceadmin-getmsgservicetable.md) <br/> |Предоставляет доступ к таблице службы сообщений, списку служб сообщений в профиле.  <br/> |
-|[Креатемсгсервице](imsgserviceadmin-createmsgservice.md) <br/> |Добавляет службу сообщений в текущий профиль.  <br/> <br/>**Примечание**: Этот метод является устаревшим. Используйте [IMsgServiceAdmin2:: креатемсгсервицеекс](imsgserviceadmin2-createmsgserviceex.md) .           |
-|[Делетемсгсервице](imsgserviceadmin-deletemsgservice.md) <br/> |Удаляет службу сообщений из профиля.  <br/> |
-|[Копимсгсервице](imsgserviceadmin-copymsgservice.md) <br/> |Копирует службу сообщений в профиль.  <br/> |
-|[Ренамемсгсервице](imsgserviceadmin-renamemsgservice.md) <br/> |Устаревшие. Назначает новое имя службе сообщений.  <br/> |
-|[Конфигуремсгсервице](imsgserviceadmin-configuremsgservice.md) <br/> |Перестраивает службу сообщений.  <br/> |
-|[Опенпрофилесектион](imsgserviceadmin-openprofilesection.md) <br/> |Открывает раздел текущего профиля и возвращает указатель [ипрофсект](iprofsectimapiprop.md) для получения дальнейших прав.  <br/> |
-|[Мсгсервицетранспортордер](imsgserviceadmin-msgservicetransportorder.md) <br/> |Задает порядок, в котором будут вызываться поставщики транспорта для доставки сообщения.  <br/> |
-|[Админпровидерс](imsgserviceadmin-adminproviders.md) <br/> |Возвращает указатель, который предоставляет доступ к объекту администрирования поставщика.  <br/> |
-|[Сетпримаридентити](imsgserviceadmin-setprimaryidentity.md) <br/> |Назначает службу сообщений поставщику основного удостоверения для профиля.  <br/> |
-|[Жетпровидертабле](imsgserviceadmin-getprovidertable.md) <br/> |Предоставляет доступ к таблице поставщика, в которой перечислены поставщики служб в профиле.  <br/> |
+|[жетмсгсервицетабле](imsgserviceadmin-getmsgservicetable.md) <br/> |Предоставляет доступ к таблице службы сообщений, списку служб сообщений в профиле.  <br/> |
+|[креатемсгсервице](imsgserviceadmin-createmsgservice.md) <br/> |Добавляет службу сообщений в текущий профиль.  <br/> <br/>**Примечание**: Этот метод является устаревшим. Используйте [IMsgServiceAdmin2:: креатемсгсервицеекс](imsgserviceadmin2-createmsgserviceex.md) .           |
+|[делетемсгсервице](imsgserviceadmin-deletemsgservice.md) <br/> |Удаляет службу сообщений из профиля.  <br/> |
+|[копимсгсервице](imsgserviceadmin-copymsgservice.md) <br/> |Копирует службу сообщений в профиль.  <br/> |
+|[ренамемсгсервице](imsgserviceadmin-renamemsgservice.md) <br/> |Устаревшие. Назначает новое имя службе сообщений.  <br/> |
+|[конфигуремсгсервице](imsgserviceadmin-configuremsgservice.md) <br/> |Перестраивает службу сообщений.  <br/> |
+|[опенпрофилесектион](imsgserviceadmin-openprofilesection.md) <br/> |Открывает раздел текущего профиля и возвращает указатель [ипрофсект](iprofsectimapiprop.md) для получения дальнейших прав.  <br/> |
+|[мсгсервицетранспортордер](imsgserviceadmin-msgservicetransportorder.md) <br/> |Задает порядок, в котором будут вызываться поставщики транспорта для доставки сообщения.  <br/> |
+|[админпровидерс](imsgserviceadmin-adminproviders.md) <br/> |Возвращает указатель, который предоставляет доступ к объекту администрирования поставщика.  <br/> |
+|[сетпримаридентити](imsgserviceadmin-setprimaryidentity.md) <br/> |Назначает службу сообщений поставщику основного удостоверения для профиля.  <br/> |
+|[жетпровидертабле](imsgserviceadmin-getprovidertable.md) <br/> |Предоставляет доступ к таблице поставщика, в которой перечислены поставщики служб в профиле.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

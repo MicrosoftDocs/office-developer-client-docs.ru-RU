@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251510
 localization_priority: Normal
 ms.assetid: 410c4187-21f3-d959-750e-9dc6095fba9a
-description: ПриМеняет к фигуре шаблон линии, узор заливки или конец строки, вызываемый в ячейке в ячейке LinePattern, FillPattern, BeginArrow или EndArrow.
+description: Применяет к фигуре шаблон линии, узор заливки или конец строки, вызываемый в ячейке в ячейке LinePattern, FillPattern, BeginArrow или EndArrow.
 ms.openlocfilehash: ddd15c1c127fafa1a230545d544c74956f5c0262
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33422826"
 ---
 # <a name="use-function"></a>Функция USE
 
-ПриМеняет к фигуре шаблон линии, узор заливки __ или конец строки, вызываемый в ячейке в ячейке LinePattern, FillPattern, BeginArrow или EndArrow. 
+Применяет к фигуре шаблон линии, узор заливки или конец строки, _вызываемый_ в ячейке в ячейке LinePattern, FillPattern, BeginArrow или EndArrow. 
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -32,7 +32,7 @@ USE ("* * *Name* * *")
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Число
+Номер
   
 ## <a name="remarks"></a>Примечания
 

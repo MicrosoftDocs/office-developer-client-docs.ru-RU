@@ -15,7 +15,7 @@ ms.locfileid: "33426991"
 ---
 # <a name="text-functions-access-custom-web-app"></a>Функции для работы с текстом (пользовательское веб-приложение для Access)
 
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
@@ -32,7 +32,7 @@ ms.locfileid: "33426991"
     
 - [Функция LTrim (пользовательское веб-приложение для Access)](ltrim-function-access-custom-web-app.md)
     
-- [Функция rePlace (пользовательское веб-приложение для Access)](replace-function-access-custom-web-app.md)
+- [Функция Replace (пользовательское веб-приложение для Access)](replace-function-access-custom-web-app.md)
     
 - [Функция replicate (пользовательское веб-приложение для Access)](replicate-function-access-custom-web-app.md)
     

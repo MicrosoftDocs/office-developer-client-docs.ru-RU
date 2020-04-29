@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423351"
 ---
-# <a name="indexsearchpusherprocess"></a>INDEX_SEARCH_PUSHER_PROCESS
+# <a name="index_search_pusher_process"></a>INDEX_SEARCH_PUSHER_PROCESS
 
   
   
@@ -33,7 +33,7 @@ typedef struct _INDEX_SEARCH_PUSHER_PROCESS {
 
 ## <a name="members"></a>Элементы
 
- *Двпид* 
+ *двпид* 
   
 >  Идентификатор процесса, который отправляет уведомление индексирования обработчику протокола MAPI. 
     

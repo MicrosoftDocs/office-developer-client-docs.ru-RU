@@ -23,7 +23,7 @@ ms.locfileid: "33425717"
   
 ## <a name="syntax"></a>Синтаксис
 
- **Теперь** () 
+ **Now** () 
   
 ## <a name="remarks"></a>Примечания
 

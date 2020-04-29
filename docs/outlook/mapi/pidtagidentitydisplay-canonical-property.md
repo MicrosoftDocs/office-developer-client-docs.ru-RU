@@ -29,9 +29,9 @@ ms.locfileid: "33431423"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ИДЕНТИТИ_ДИСПЛАЙ, ПР_ИДЕНТИТИ_ДИСПЛАЙ_А, ПР_ИДЕНТИТИ_ДИСПЛАЙ_В  <br/> |
+|Связанные свойства:  <br/> |PR_IDENTITY_DISPLAY, PR_IDENTITY_DISPLAY_A PR_IDENTITY_DISPLAY_W  <br/> |
 |Идентификатор:  <br/> |0x3E00  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
@@ -42,7 +42,7 @@ ms.locfileid: "33431423"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -29,7 +29,7 @@ ms.locfileid: "33432186"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕЦЕИПТ_ТИМЕ  <br/> |
+|Связанные свойства:  <br/> |PR_RECEIPT_TIME  <br/> |
 |Идентификатор:  <br/> |0x002A  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33432186"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

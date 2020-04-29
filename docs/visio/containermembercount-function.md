@@ -29,7 +29,7 @@ CONTAINERMEMBERCOUNT ()
   
 ### <a name="return-value"></a>Возвращаемое значение
 
- **Integer**
+ **Целое число**
   
 ## <a name="remarks"></a>Примечания
 

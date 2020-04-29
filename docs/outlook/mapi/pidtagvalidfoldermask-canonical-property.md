@@ -29,7 +29,7 @@ ms.locfileid: "33427796"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ВАЛИД_ФОЛДЕР_МАСК  <br/> |
+|Связанные свойства:  <br/> |PR_VALID_FOLDER_MASK  <br/> |
 |Идентификатор:  <br/> |0x35DF  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Хранилище сообщений MAPI  <br/> |
@@ -40,41 +40,41 @@ ms.locfileid: "33427796"
   
 Для битовой маски можно задать один или несколько из следующих флагов: 
   
-ФОЛДЕР_КОММОН_ВИЕВС_ВАЛИД 
+FOLDER_COMMON_VIEWS_VALID 
   
-> Папка "Общие представления" имеет допустимый идентификатор записи. Обратитесь к разделу **пр_коммон_виевс_ентрид** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
+> Папка "Общие представления" имеет допустимый идентификатор записи. Просмотрите **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
     
-ФОЛДЕР_ФИНДЕР_ВАЛИД 
+FOLDER_FINDER_VALID 
   
-> Папка Finder имеет допустимый идентификатор записи. Обратитесь к разделу **пр_финдер_ентрид** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)). 
+> Папка Finder имеет допустимый идентификатор записи. Просмотрите **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)). 
     
-ФОЛДЕР_ИПМ_ИНБОКС_ВАЛИД 
+FOLDER_IPM_INBOX_VALID 
   
 > Папка приема сообщений (IPM) имеет допустимый идентификатор записи. См. [IMsgStore:: жетрецеивефолдер](imsgstore-getreceivefolder.md). 
     
-ФОЛДЕР_ИПМ_АУТБОКС_ВАЛИД 
+FOLDER_IPM_OUTBOX_VALID 
   
-> В папке "исХодящие" IPM есть допустимый идентификатор записи. Обратитесь к разделу **пр_ипм_аутбокс_ентрид** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). 
+> В папке "Исходящие" IPM есть допустимый идентификатор записи. Просмотрите **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). 
     
-ФОЛДЕР_ИПМ_СЕНТМАИЛ_ВАЛИД 
+FOLDER_IPM_SENTMAIL_VALID 
   
-> У папки IPM Sent Items допустимый идентификатор записи. Обратитесь к разделу **пр_ипм_сентмаил_ентрид** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
+> У папки IPM Sent Items допустимый идентификатор записи. Просмотрите **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
     
-ФОЛДЕР_ИПМ_СУБТРИ_ВАЛИД 
+FOLDER_IPM_SUBTREE_VALID 
   
-> Поддерево папки IPM имеет допустимый идентификатор записи. Обратитесь к разделу **пр_ипм_субтри_ентрид** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
+> Поддерево папки IPM имеет допустимый идентификатор записи. Просмотрите **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
     
-ФОЛДЕР_ИПМ_ВАСТЕБАСКЕТ_ВАЛИД 
+FOLDER_IPM_WASTEBASKET_VALID 
   
-> Папка "Удаленные" IPM содержит допустимый идентификатор записи. Обратитесь к разделу **пр_ипм_вастебаскет_ентрид** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)).
+> Папка "Удаленные" IPM содержит допустимый идентификатор записи. Просмотрите **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)).
     
-ФОЛДЕР_ВИЕВС_ВАЛИД 
+FOLDER_VIEWS_VALID 
   
-> У папки Views допустимый идентификатор записи. Обратитесь к разделу **пр_виевс_ентрид** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
+> У папки Views допустимый идентификатор записи. Просмотрите **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
     
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

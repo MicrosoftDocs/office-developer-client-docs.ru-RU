@@ -29,7 +29,7 @@ ms.locfileid: "33429455"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ФИНДЕР_ЕНТРИД  <br/> |
+|Связанные свойства:  <br/> |PR_FINDER_ENTRYID  <br/> |
 |Идентификатор:  <br/> |0x35E7  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Хранилище сообщений MAPI  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33429455"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

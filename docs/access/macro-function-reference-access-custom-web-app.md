@@ -15,7 +15,7 @@ ms.locfileid: "33426382"
 ---
 # <a name="macro-function-reference-access-custom-web-app"></a>Справка по функциям макросов (пользовательское веб-приложение для Access)
 
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 

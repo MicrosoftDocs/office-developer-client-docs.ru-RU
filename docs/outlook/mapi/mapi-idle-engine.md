@@ -1,5 +1,5 @@
 ---
-title: Модуль безДействия MAPI
+title: Модуль бездействия MAPI
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428454"
 ---
-# <a name="mapi-idle-engine"></a>Модуль безДействия MAPI
+# <a name="mapi-idle-engine"></a>Модуль бездействия MAPI
 
   
   

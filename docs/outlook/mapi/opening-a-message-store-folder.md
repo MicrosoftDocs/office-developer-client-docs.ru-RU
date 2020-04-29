@@ -19,35 +19,35 @@ ms.locfileid: "33436540"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Чтобы можно было открыть любую папку, ее идентификатор должен быть доступен. Для большинства папок это означает извлечение их свойств **пр_ентрид** . Для специальных папок, например, некоторых папок поддерева IPM и других корневых папок, MAPI определяет специальные свойства идентификатора записи, доступные при вызове метода **IMAPIProp::** /PROPS хранилища сообщений. Эти идентификаторы записей всегда называются долгосрочными и именуются следующим образом: 
+Чтобы можно было открыть любую папку, ее идентификатор должен быть доступен. Для большинства папок это означает извлечение их свойств **PR_ENTRYID** . Для специальных папок, например, некоторых папок поддерева IPM и других корневых папок, MAPI определяет специальные свойства идентификатора записи, доступные при вызове метода **IMAPIProp::/PROPS** хранилища сообщений. Эти идентификаторы записей всегда называются долгосрочными и именуются следующим образом: 
   
 |**Folder**|**Свойство "идентификатор записи"**|
 |:-----|:-----|
-|����� ����������  <br/> |**Пр_ипм_аутбокс_ентрид** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)) (Только для класса сообщений IPM).  <br/> |
-|папка "Удаленные"  <br/> |**Пр_ипм_вастебаскет_ентрид** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md))  <br/> |
-|����� �������������  <br/> |**Пр_ипм_сентмаил_ентрид** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md))  <br/> |
-|IPM �������� �����  <br/> |**Пр_ипм_субтри_ентрид** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md))  <br/> |
-|�������� ����� ����������� ������  <br/> |**Пр_финдер_ентрид** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md))  <br/> |
-|Корневая папка общих представлений  <br/> |**Пр_коммон_виевс_ентрид** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))  <br/> |
-|Корневая папка личных представлений  <br/> |**Пр_виевс_ентрид** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md))  <br/> |
-|Корневая папка контактов  <br/> |**Пр_ипм_контакт_ентрид** ([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
-|Корневая папка черновиков  <br/> |**Пр_ипм_драфтс_ентрид** ([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
-|Корневая папка журнала  <br/> |**Пр_ипм_жаурнал_ентрид** ([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
-|Корневая папка календаря  <br/> |**Пр_ипм_аппоинтмент_ентрид** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
-|Корневая папка заМеток  <br/> |**Пр_ипм_ноте_ентрид** ([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
-|Корневая папка задач  <br/> |**Пр_ипм_таск_ентрид** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
+|����� ����������  <br/> |**PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)) (только для класса сообщений IPM)  <br/> |
+|папка "Удаленные"  <br/> |**PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md))  <br/> |
+|����� �������������  <br/> |**PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md))  <br/> |
+|IPM �������� �����  <br/> |**PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md))  <br/> |
+|�������� ����� ����������� ������  <br/> |**PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md))  <br/> |
+|Корневая папка общих представлений  <br/> |**PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md))  <br/> |
+|Корневая папка личных представлений  <br/> |**PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md))  <br/> |
+|Корневая папка контактов  <br/> |**PR_IPM_CONTACT_ENTRYID** ([PidTagIpmContactEntryId](pidtagipmcontactentryid-canonical-property.md))  <br/> |
+|Корневая папка черновиков  <br/> |**PR_IPM_DRAFTS_ENTRYID** ([PidTagIpmDraftsEntryId](pidtagipmdraftsentryid-canonical-property.md))  <br/> |
+|Корневая папка журнала  <br/> |**PR_IPM_JOURNAL_ENTRYID** ([PidTagIpmJournalEntryId](pidtagipmjournalentryid-canonical-property.md))  <br/> |
+|Корневая папка календаря  <br/> |**PR_IPM_APPOINTMENT_ENTRYID** ([PidTagIpmAppointmentEntryId](pidtagipmappointmententryid-canonical-property.md))  <br/> |
+|Корневая папка заметок  <br/> |**PR_IPM_NOTE_ENTRYID** ([PidTagIpmNoteEntryId](pidtagipmnoteentryid-canonical-property.md))  <br/> |
+|Корневая папка задач  <br/> |**PR_IPM_TASK_ENTRYID** ([PidTagIpmTaskEntryId](pidtagipmtaskentryid-canonical-property.md))  <br/> |
    
-Прежде чем попытаться получить один из этих специальных идентификаторов записей, извлеките свойство **\_PR валид_фолдер_маск** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) хранилища сообщений. **PR\_валид_фолдер_маск** — это битовая маска, указывающая, какие из специальных идентификаторов записей существуют. Для каждой из специальных папок существует один бит. Если бит задан, он указывает, что соответствующая папка поддерживается и имеет допустимый идентификатор записи. Например, если папка "Удаленные" существует и имеет допустимый идентификатор записи, бит ипм_вастебаскет_валид папки\_будет установлен в **пр_валид_фолдер_маск**. 
+Прежде чем попытаться получить один из этих специальных идентификаторов записей, извлеките свойство **\_PR VALID_FOLDER_MASK** ([PidTagValidFolderMask](pidtagvalidfoldermask-canonical-property.md)) хранилища сообщений. **PR\_VALID_FOLDER_MASK** — это битовая маска, указывающая, какие из специальных идентификаторов записей существуют. Для каждой из специальных папок существует один бит. Если бит задан, он указывает, что соответствующая папка поддерживается и имеет допустимый идентификатор записи. Например, если папка "Удаленные" существует и имеет допустимый идентификатор записи, бит IPM_WASTEBASKET_VALID папки\_будет установлен в **PR_VALID_FOLDER_MASK**. 
   
 ## <a name="open-the-folder-where-all-incoming-messages-of-a-particular-class-are-placed"></a>Открытие папки, в которой размещаются все входящие сообщения определенного класса
   
 1. Call [IMsgStore:: жетрецеивефолдер](imsgstore-getreceivefolder.md) для получения идентификатора записи, устанавливая параметр _лпсзмессажекласс_ для указания на строку символов, идентифицирующую класс Message. Например, если вы хотите открыть папку "Входящие" для поддерева IPM, наведите _лпсзмессажекласс_ на IPM. Если вы хотите открыть папку получения для сообщений IPC, задайте для нее значение IPC. 
 
-   Если для класса Message отсутствует зарегистрированная папка получения, **жетрецеивефолдер** выбирает папку получения, связанный класс сообщений которой соответствует максимально возможному префиксу переданного класса сообщения. Дополнительные сведения см. [](mapi-receive-folders.md) 
+   Если для класса Message отсутствует зарегистрированная папка получения, **жетрецеивефолдер** выбирает папку получения, связанный класс сообщений которой соответствует максимально возможному префиксу переданного класса сообщения. Дополнительные сведения [см.](mapi-receive-folders.md) 
    
-   Обратите внимание, что свойство **пр_ипм_аутбокс_ентрид** используется для открытия папки "Исходящие" только для сообщений IPM. Если вы открываете папку "исХодящие" для сообщений IPC, используйте идентификатор записи для папки получения. Входящие и исходящие сообщения IPC помещаются в папку Receive. 
+   Обратите внимание, что свойство **PR_IPM_OUTBOX_ENTRYID** используется для открытия папки "Исходящие" только для сообщений IPM. Если вы открываете папку "Исходящие" для сообщений IPC, используйте идентификатор записи для папки получения. Входящие и исходящие сообщения IPC помещаются в папку Receive. 
     
-2. ВыЗовите один из четырех методов **OpenEntry** , чтобы открыть папку и вернуть указатель интерфейса, который можно использовать для доступа к нему. Чтобы открыть папку, можно вызвать любой из указанных ниже способов. 
+2. Вызовите один из четырех методов **OpenEntry** , чтобы открыть папку и вернуть указатель интерфейса, который можно использовать для доступа к нему. Чтобы открыть папку, можно вызвать любой из указанных ниже способов. 
     
    - [IMAPISession::OpenEntry](imapisession-openentry.md)
     
@@ -63,7 +63,7 @@ ms.locfileid: "33436540"
     
 3. Если вы хотите, чтобы вы могли вносить изменения в открываемую папку, укажите уровень доступа, задав в вызове **OpenEntry** либо флаг\_"\_лучший доступ"\_MAPI, либо флаг изменения MAPI. Эти флаги являются рекомендациями для поставщика хранилища сообщений для предоставления максимального уровня доступа, для наилучшего\_\_доступа к MAPI, а также для чтения и записи,\_для изменения MAPI при открытии папки. 
 
-   Так как эти флаги являются только рекомендациями, папка может быть открыта и не может быть открыта с ожидаемым уровнем доступа. Получив свойство **пр_акцесс** ([PidTagAccess](pidtagaccess-canonical-property.md)), можно определить диапазон операций, которые можно выполнить для открытой папки. 
+   Так как эти флаги являются только рекомендациями, папка может быть открыта и не может быть открыта с ожидаемым уровнем доступа. Получив свойство **PR_ACCESS** ([PidTagAccess](pidtagaccess-canonical-property.md)), можно определить диапазон операций, которые можно выполнить для открытой папки. 
     
    Тем не менее, так как многие поставщики хранилищ сообщений рассчитывают значение этого свойства по запросу, а не поддерживают его как свойство Folder или как столбец в их иерархической таблице, то извлечение может занимать много времени. Альтернативная стратегия заключается в попытке выполнить любую операцию и при необходимости возвратить сообщение об ошибке.
     

@@ -31,7 +31,7 @@ ms.locfileid: "33426928"
   
 **Иерархия вложений MAPI**
   
-![Иерархия вложенИй MAPI] (media/amapi_41.gif "Иерархия вложенИй MAPI")
+Иерархия(media/amapi_41.gif "вложений MAPI") ![иерархии вложений]MAPI
   
 ## <a name="see-also"></a>См. также
 

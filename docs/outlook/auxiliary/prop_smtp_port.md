@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431871"
 ---
-# <a name="propsmtpport"></a>PROP_SMTP_PORT
+# <a name="prop_smtp_port"></a>PROP_SMTP_PORT
 
 Представляет номер порта учетной записи SMTP.
   
@@ -23,7 +23,7 @@ ms.locfileid: "33431871"
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0201  <br/> |
-|Тип свойства:  <br/> |ПТ_ДВОРД  <br/> |
+|Тип свойства:  <br/> |PT_DWORD  <br/> |
 |Тег свойства:  <br/> |0x02010003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    

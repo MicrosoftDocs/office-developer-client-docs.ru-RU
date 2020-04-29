@@ -29,7 +29,7 @@ ms.locfileid: "33430177"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_МАИЛ_ПЕРМИССИОН  <br/> |
+|Связанные свойства:  <br/> |PR_MAIL_PERMISSION  <br/> |
 |Идентификатор:  <br/> |0x3A0E  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Address  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "33430177"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

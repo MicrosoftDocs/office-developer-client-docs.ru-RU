@@ -22,7 +22,7 @@ ms.locfileid: "33436568"
   
 ## <a name="syntax"></a>Синтаксис
 
-МИНУТа (" *DateTime* " |  *Expression (выражение* )  [, *LCID* ]) 
+МИНУТа (" *DateTime* " |  *выражение* [, *LCID* ]) 
   
 ### <a name="parameters"></a>Параметры
 

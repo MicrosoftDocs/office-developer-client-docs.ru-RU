@@ -48,5 +48,5 @@ ms.locfileid: "33436302"
 
 - [Синхронизация друзей и действий](synchronizing-friends-and-activities.md)  
 - [XML для действий](xml-for-activities.md)
-- [Подготовка к выПуску поставщика OSC](getting-ready-to-release-an-osc-provider.md)
+- [Подготовка к выпуску поставщика OSC](getting-ready-to-release-an-osc-provider.md)
 

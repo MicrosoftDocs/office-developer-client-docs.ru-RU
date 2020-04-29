@@ -1,5 +1,5 @@
 ---
-title: Имапимессажеситежетфолдер
+title: имапимессажеситежетфолдер
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -35,7 +35,7 @@ HRESULT GetFolder(
 
 ## <a name="parameters"></a>Параметры
 
- _Ппфолдер_
+ _ппфолдер_
   
 > вышли Указатель на указатель на возвращаемую папку.
     

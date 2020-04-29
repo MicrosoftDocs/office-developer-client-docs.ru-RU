@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33429434"
 ---
-# <a name="propacctname"></a>PROP_ACCT_NAME
+# <a name="prop_acct_name"></a>PROP_ACCT_NAME
 
 Возвращает или задает имя учетной записи.
   
@@ -35,6 +35,6 @@ ms.locfileid: "33429434"
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md) 
+- [Сведения об API управления учетными записями](about-the-account-management-api.md) 
 - [Constants (Account management API)](constants-account-management-api.md)
 

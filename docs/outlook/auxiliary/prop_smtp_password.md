@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435952"
 ---
-# <a name="propsmtppassword"></a>PROP_SMTP_PASSWORD
+# <a name="prop_smtp_password"></a>PROP_SMTP_PASSWORD
 
 Представляет пароль учетной записи SMTP.
   
@@ -23,7 +23,7 @@ ms.locfileid: "33435952"
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0205  <br/> |
-|Тип свойства:  <br/> |PT_UNICODE|СЕКУРЕ_ФЛАГ  <br/> |
+|Тип свойства:  <br/> |PT_UNICODE|SECURE_FLAG  <br/> |
 |Тег свойства:  <br/> |0x2058001F  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    

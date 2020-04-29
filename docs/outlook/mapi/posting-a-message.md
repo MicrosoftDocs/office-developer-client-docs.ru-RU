@@ -27,25 +27,25 @@ ms.locfileid: "33429770"
     
 2. Call [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) для создания сообщения. 
     
-3. ВыЗовите метод сообщения [IMAPIProp:: SetProps](imapiprop-setprops.md) , чтобы задать: 
+3. Вызовите метод сообщения [IMAPIProp:: SetProps](imapiprop-setprops.md) , чтобы задать: 
     
-   - Флаг МСГФЛАГ_РЕАД в свойстве **PidTagMessageFlags** ( [пр_мессаже_флагс](pidtagmessageflags-canonical-property.md)).
+   - Флаг MSGFLAG_READ в свойстве **PidTagMessageFlags** ( [PR_MESSAGE_FLAGS](pidtagmessageflags-canonical-property.md)).
     
-   - Свойства **пр_сендер** . 
+   - Свойства **PR_SENDER** . 
     
-   - Свойства **пр_сент_репресентинг** . 
+   - Свойства **PR_SENT_REPRESENTING** . 
     
-   - Свойство **пр_рецеипт_тиме** ([PidTagReceiptTime](pidtagreceipttime-canonical-property.md)).
+   - Свойство **PR_RECEIPT_TIME** ([PidTagReceiptTime](pidtagreceipttime-canonical-property.md)).
     
-   - Свойство **пр_ртф_компрессед** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) или **пр_боди** ([PidTagBody](pidtagbody-canonical-property.md)).
+   - Свойство **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) или **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)).
     
-   - Свойство **пр_субжект** ([PidTagSubject](pidtagsubject-canonical-property.md)).
+   - Свойство **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)).
     
-   - Свойство **пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
+   - Свойство **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
     
    - Все свойства, необходимые для класса Message.
     
-4. ВыЗовите метод [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) сообщения для сохранения сообщения. 
+4. Вызовите метод [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) сообщения для сохранения сообщения. 
     
 5. При необходимости создайте вложение, задайте его свойства и сохраните его. Дополнительные сведения о добавлении вложений в сообщения приведены в статье [Создание вложения сообщения](creating-a-message-attachment.md).
     

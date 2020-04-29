@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436778"
 ---
-# <a name="propacctuseremailaddr"></a>PROP_ACCT_USER_EMAIL_ADDR
+# <a name="prop_acct_user_email_addr"></a>PROP_ACCT_USER_EMAIL_ADDR
 
 Указывает адрес электронной почты для учетной записи.
   
@@ -31,9 +31,9 @@ ms.locfileid: "33436778"
    
 ## <a name="remarks"></a>Примечания
 
- **Проп_аккт_усер_емаил_аддр** не должен существовать на каждой учетной записи. Например, учетная запись Exchange может иметь [проп_мапи_идентити_ентрид](prop_mapi_identity_entryid.md) , но не **проп_аккт_усер_емаил_аддр**, в то время как для учетной записи SMTP/POP3 ситуация обратна.
+ **PROP_ACCT_USER_EMAIL_ADDR** не должно существовать на каждой учетной записи. Например, учетная запись Exchange может [PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) , но не **PROP_ACCT_USER_EMAIL_ADDR**, в то время как для учетной записи SMTP/POP3 ситуация будет реверсирована.
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md)
+- [Сведения об API управления учетными записями](about-the-account-management-api.md)
 

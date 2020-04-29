@@ -37,15 +37,15 @@ ms.locfileid: "33436652"
 
 |||
 |:-----|:-----|
-|[Жетмаписессион](imapigetsession-getmapisession.md) <br/> |Вызывается для получения указателя на текущий сеанс MAPI.  <br/> |
+|[жетмаписессион](imapigetsession-getmapisession.md) <br/> |Вызывается для получения указателя на текущий сеанс MAPI.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[Жетмаписессион](imapigetsession-getmapisession.md)
+[жетмаписессион](imapigetsession-getmapisession.md)
   
-[Имаписуппорт](imapisupportiunknown.md)
+[имаписуппорт](imapisupportiunknown.md)
 
 
 [Интерфейсы MAPI](mapi-interfaces.md)

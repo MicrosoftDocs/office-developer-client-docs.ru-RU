@@ -29,7 +29,7 @@ ms.locfileid: "33424226"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕМОТЕ_ВАЛИДАТЕ_ОК  <br/> |
+|Связанные свойства:  <br/> |PR_REMOTE_VALIDATE_OK  <br/> |
 |Идентификатор:  <br/> |0x3E0D  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "33424226"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

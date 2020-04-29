@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунтманажерфиндаккаунт
+title: иолкаккаунтманажерфиндаккаунт
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -32,15 +32,15 @@ HRESULT IOlkAccountManager::FindAccount (
 
 ## <a name="parameters"></a>Параметры
 
-_Двпроп_
+_двпроп_
   
-> возврата Свойство, по которому необходимо выполнить поиск. Должен быть [проп_аккт_ид](prop_acct_id.md) или [проп_аккт_ис_ексч](prop_acct_is_exch.md).
+> возврата Свойство, по которому необходимо выполнить поиск. Необходимо [PROP_ACCT_ID](prop_acct_id.md) или [PROP_ACCT_IS_EXCH](prop_acct_is_exch.md).
     
-_ПВАР_
+_пвар_
   
 > возврата Значение для сравнения.
     
-_Ппаккаунт_
+_ппаккаунт_
   
 > вышли Учетная запись найдена. Этот объект поддерживает интерфейс [иолкаккаунт](iolkaccount.md) . 
     
@@ -49,9 +49,9 @@ _Ппаккаунт_
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
-|Е_АККТ_НОТ_ФАУНД  <br/> |Не удается найти указанную учетную запись.  <br/> |
-|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
-|Е_ОЛК_ПАРАМ_НОТ_СУППОРТЕД  <br/> |Один или несколько параметров являются недопустимыми.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Не удается найти указанную учетную запись.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
+|E_OLK_PARAM_NOT_SUPPORTED  <br/> |Один или несколько параметров являются недопустимыми.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -29,7 +29,7 @@ ms.locfileid: "33430142"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРИГИНАЛЛИ_ИНТЕНДЕД_РЕЦИП_ЕНТРИД  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINALLY_INTENDED_RECIP_ENTRYID  <br/> |
 |Идентификатор:  <br/> |0x1012  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "33430142"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

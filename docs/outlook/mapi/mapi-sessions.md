@@ -37,7 +37,7 @@ Sessions are initiated when a user logs on, a process that accesses a valid prof
   
 **����-����� ������ MAPI**
   
-![Блок-схема сеанса MAPI] (media/amapi_47.gif "Блок-схема сеанса MAPI")
+![MAPI session flowchart](media/amapi_47.gif "Блок-схема") сеанса MAPI блок-схема сеанса MAPI
   
 For information about handling sessions from within a client application, see [��������� ������ MAPI](mapi-session-handling.md)
   

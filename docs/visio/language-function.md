@@ -25,7 +25,7 @@ ms.locfileid: "33424756"
   
 ## <a name="syntax"></a>Синтаксис
 
- **Language (язык** ) ( _lcid_or_bcp47_)
+ **Язык**( _lcid_or_bcp47_)
   
 ### <a name="parameters"></a>Параметры
 

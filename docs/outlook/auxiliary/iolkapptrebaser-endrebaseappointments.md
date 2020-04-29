@@ -1,5 +1,5 @@
 ---
-title: Иолкапптребасерендребасеаппоинтментс
+title: иолкапптребасерендребасеаппоинтментс
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -30,11 +30,11 @@ HRESULT EndRebaseAppointments(
 
 ## <a name="parameters"></a>Параметры
 
-_Пконтекст_
+_пконтекст_
   
 > [in] Required. A pointer to the context obtained from a call to [IOlkApptRebaser::BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md).
     
-_Фресулт_
+_фресулт_
   
 > [out] Required. A pointer to an **HRESULT** to retrieve the result of the rebasing operation. 
     

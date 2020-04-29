@@ -1,5 +1,5 @@
 ---
-title: Имаписуппортдосентмаил
+title: имаписуппортдосентмаил
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -40,7 +40,7 @@ HRESULT DoSentMail(
   
 > [in] ���������������; ������ ���� ����� ����.
     
- _Лпмессаже_
+ _лпмессаже_
   
 > [in] ��������� �� ��������� ���������, ��� �������� ����� ������ ��������� � �����, ��������������� ��� �������� ������������ ���������.
     
@@ -56,7 +56,7 @@ The **IMAPISupport::DoSentMail** method is implemented for message store provide
   
  **DoSentMail** ��������� ��������� ������: 
   
-- Проверяет сообщение для свойства **пр_делете_афтер_субмит** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)), чтобы определить, следует ли удалять сообщение после отправки.
+- Проверяет сообщение для свойства **PR_DELETE_AFTER_SUBMIT** ([PidTagDeleteAfterSubmit](pidtagdeleteaftersubmit-canonical-property.md)), чтобы определить, следует ли удалять сообщение после отправки.
     
 - ���������� ������������ ����� �������������.
     

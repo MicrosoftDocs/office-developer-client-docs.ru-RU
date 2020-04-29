@@ -29,20 +29,20 @@ ms.locfileid: "33429504"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ПАРЕНТ_ДИСПЛАЙ, ПР_ПАРЕНТ_ДИСПЛАЙ_А, ПР_ПАРЕНТ_ДИСПЛАЙ_В  <br/> |
+|Связанные свойства:  <br/> |PR_PARENT_DISPLAY, PR_PARENT_DISPLAY_A PR_PARENT_DISPLAY_W  <br/> |
 |Идентификатор:  <br/> |0x0E05  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Несъемный MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
 Эти свойства не находятся ни в одном объекте. Они могут отображаться только в таблице содержимого папки результатов поиска.
   
-Эти свойства и свойства **пр_парент_ентрид** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) не связаны друг с другом. Они относятся исключительно к разным контекстам.
+Эти свойства и свойства **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) не связаны друг с другом. Они относятся исключительно к разным контекстам.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

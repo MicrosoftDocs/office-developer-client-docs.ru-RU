@@ -29,7 +29,7 @@ ms.locfileid: "33426354"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ИПМ_ВАСТЕБАСКЕТ_ЕНТРИД  <br/> |
+|Связанные свойства:  <br/> |PR_IPM_WASTEBASKET_ENTRYID  <br/> |
 |Идентификатор:  <br/> |0x35E3  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Folder  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33426354"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

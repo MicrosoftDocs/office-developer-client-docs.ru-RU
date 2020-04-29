@@ -31,9 +31,9 @@ ms.locfileid: "33424352"
   
 Следующие свойства составляют обязательный набор столбцов в таблицах профилей:
   
- **Пр_дефаулт_профиле** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 
+ **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) 
   
- **Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
+ **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) 
   
 ## <a name="see-also"></a>См. также
 

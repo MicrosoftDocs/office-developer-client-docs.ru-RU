@@ -19,7 +19,7 @@ ms.locfileid: "33427943"
 
 В этом разделе содержится справочник по схеме Outlook 2013 для XML-схемы сведений о погоде Outlook. Эта схема позволяет поставщикам служб погоды отправлять данные прогноза погоды для указанного расположения в виде ответа веб-службы в Outlook, чтобы Outlook мог отображать информацию на панели прогноза погоды.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 - [Карта схемы (схема сведений о погоде Outlook)](schema-map-outlook-weather-information-schema.md)
     
@@ -29,6 +29,6 @@ ms.locfileid: "33427943"
     
 ## <a name="related-sections"></a>Связанные разделы
 
-[Extending the Weather Bar in Outlook](extending-the-weather-bar-in-outlook.md)
+[Расширение панели прогноза погоды в Outlook](extending-the-weather-bar-in-outlook.md)
   
 

@@ -22,7 +22,7 @@ ms.locfileid: "33425297"
   
 ## <a name="syntax"></a>Синтаксис
 
-**Преобразование** (*Expression*, *DataType*) 
+**Convert** (*Expression*, *DataType*) 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|

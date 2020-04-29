@@ -29,14 +29,14 @@ ms.locfileid: "33429147"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ДЛ_ЕКСПАНСИОН_ПРОХИБИТЕД  <br/> |
+|Связанные свойства:  <br/> |PR_DL_EXPANSION_PROHIBITED  <br/> |
 |Идентификатор:  <br/> |0x0014  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

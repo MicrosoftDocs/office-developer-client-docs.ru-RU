@@ -31,8 +31,8 @@ Any object that implements the [IMAPIProp: IUnknown](imapipropiunknown.md) inter
   
 Поставщики услуг, не поддерживающие именованные свойства, должны:
   
-- Вызовы Fail для [IMAPIProp:: SetProps](imapiprop-setprops.md) для задания свойств с идентификаторами 0x8000 и выше, возвращая мапи_е_унекспектед_ид в массиве [спроппроблем](spropproblem.md) . 
+- Вызовы Fail для [IMAPIProp:: SetProps](imapiprop-setprops.md) для задания свойств с идентификаторами 0x8000 и выше, возвращая MAPI_E_UNEXPECTED_ID в массиве [спроппроблем](spropproblem.md) . 
     
-- Возвращает МАПИ_Е_НО_СУППОРТ из методов [IMAPIProp:: жетнамесфромидс](imapiprop-getnamesfromids.md) и [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) . 
+- Возвращает MAPI_E_NO_SUPPORT из методов [IMAPIProp:: жетнамесфромидс](imapiprop-getnamesfromids.md) и [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) . 
     
 

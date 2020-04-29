@@ -29,9 +29,9 @@ ms.locfileid: "33435644"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ФОРМ_КОНТАКТ_НАМЕ, ПР_ФОРМ_КОНТАКТ_НАМЕ_А, ПР_ФОРМ_КОНТАКТ_НАМЕ_В  <br/> |
+|Связанные свойства:  <br/> |PR_FORM_CONTACT_NAME, PR_FORM_CONTACT_NAME_A PR_FORM_CONTACT_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x3303  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
@@ -40,7 +40,7 @@ ms.locfileid: "33435644"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

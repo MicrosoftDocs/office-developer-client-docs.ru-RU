@@ -26,7 +26,7 @@ ms.locfileid: "33430044"
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Координата *X* последней вершины дуги.  <br/> |
 |[Y (да)](y-cell-geometry-section.md) <br/> |Координата *Y* последней вершины дуги.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |Расстояние от средней дуги до средней точки аккорда.  <br/> |
+|[Определенно](a-cell-geometry-section.md) <br/> |Расстояние от средней дуги до средней точки аккорда.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

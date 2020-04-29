@@ -23,7 +23,7 @@ ms.locfileid: "33426634"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функция библиотеки Framework, которая создает временную структуру **XLOPER**/ **** , содержащую номер листа Microsoft Excel (значение Double 8 байт). 
+Функция библиотеки Framework, которая создает временную структуру **XLOPER**/ **, содержащую номер** листа Microsoft Excel (значение Double 8 байт). 
   
 ```cs
 LPXLOPER TempNum(double d);

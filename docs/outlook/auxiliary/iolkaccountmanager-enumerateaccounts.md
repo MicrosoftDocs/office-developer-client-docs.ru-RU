@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунтманажеренумератеаккаунтс
+title: иолкаккаунтманажеренумератеаккаунтс
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -34,17 +34,17 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 ## <a name="parameters"></a>Параметры
 
-_Пклсидкатегори_
+_пклсидкатегори_
   
 > [in] The class identifier of the category to enumerate. The value must be one of the following:
     
-   - Клсид_олкмаил 
+   - CLSID_OlkMail 
     
-   -  Клсид_олкаддрессбук 
+   -  CLSID_OlkAddressBook 
     
-   - Клсид_олксторе 
+   - CLSID_OlkStore 
     
-_Пклсидтипе_
+_пклсидтипе_
   
 > [in] The class identifier of the account type to enumerate. The value must be one of the following:
     
@@ -52,17 +52,17 @@ _Пклсидтипе_
     
    - CLSID_OlkIMAP4Account
     
-   - Клсид_олкмапиаккаунт
+   - CLSID_OlkMAPIAccount
     
-   - Клсид_олкхотмаилаккаунт
+   - CLSID_OlkHotmailAccount
     
-   - Клсид_олклдапаккаунт
+   - CLSID_OlkLDAPAccount
     
 _dwFlags_
   
 > [in] Flags to modify behavior. The only supported value is OLK_ACCOUNT_NO_FLAGS.
     
-_Ппенум_
+_ппенум_
   
 > [out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface. 
     
@@ -71,13 +71,13 @@ _Ппенум_
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
-|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
 Specifying NULL for category returns an enumerator of all accounts of the specified type. Similarly, specifying NULL for type returns an enumerator of all accounts of the specified category.
   
- **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. Если учетная запись является учетной записью Exchange (*пклсидтипе* — **клсид_олкмапиаккаунт** ), и вы пытаетесь перечислить учетные записи, которые реализуют адресную книгу (*пргклсидкатегори* — **клсид_олкаддрессбук** ), вызов ** Иолкаккаунтманажер:: EnumerateAccounts** не будет возвращать учетную запись Exchange в перечислителе учетных записей *ппенум* . 
+ **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. Если учетная запись является учетной записью Exchange (*пклсидтипе* **CLSID_OlkMAPIAccount** ), и вы пытаетесь перечислить учетные записи, которые реализуют адресную книгу (*пргклсидкатегори* — **CLSID_OlkAddressBook** ), вызов **Иолкаккаунтманажер:: EnumerateAccounts** не вернет учетную запись Exchange в перечислителе учетных записей *ппенум* . 
   
 ## <a name="see-also"></a>См. также
 

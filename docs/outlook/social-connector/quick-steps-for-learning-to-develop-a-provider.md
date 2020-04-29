@@ -40,7 +40,7 @@ ms.locfileid: "33424219"
 
 В следующих ресурсах объясняется, как задать XML для возможностей поставщика, друзей и действий:
   
-- [ПереOSC типичные последовательности вызовов](osc-typical-calling-sequences.md)    
+- [Переosc типичные последовательности вызовов](osc-typical-calling-sequences.md)    
 - [Синхронизация друзей и действий](synchronizing-friends-and-activities.md)    
 - [Пример XML-кода возможностей](capabilities-xml-example.md)   
 - [XML для возможностей](xml-for-capabilities.md)    
@@ -63,7 +63,7 @@ ms.locfileid: "33424219"
   
 ## <a name="step-c-deploying"></a>Шаг C: развертывание
 
-В следующих разделах приВодятся сведения о требованиях к развертыванию:
+В следующих разделах приводятся сведения о требованиях к развертыванию:
   
 - [Развертывание поставщика](deploying-a-provider.md)    
 - [Регистрация поставщика](registering-a-provider.md)   

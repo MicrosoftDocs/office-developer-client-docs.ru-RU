@@ -29,10 +29,10 @@ ms.locfileid: "33423456"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНВЕРТЕД_ЕИТС  <br/> |
+|Связанные свойства:  <br/> |PR_CONVERTED_EITS  <br/> |
 |Идентификатор:  <br/> |0x000E  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Exchange;  <br/> |
+|Область:  <br/> |Exchange  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -40,7 +40,7 @@ ms.locfileid: "33423456"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

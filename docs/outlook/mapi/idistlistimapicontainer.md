@@ -33,8 +33,8 @@ ms.locfileid: "33431549"
 |Предоставлено:  <br/> |Объекты списка рассылки  <br/> |
 |Реализовано в:  <br/> |Поставщики адресных книг  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_идистлист  <br/> |
-|Тип указателя:  <br/> |ЛПДИСТЛИСТ  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IDistList  <br/> |
+|Тип указателя:  <br/> |лпдистлист  <br/> |
 |Модель транзакции:  <br/> |Транзакции  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
@@ -43,11 +43,11 @@ ms.locfileid: "33431549"
   
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**Пр_аддртипе** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -57,19 +57,19 @@ ms.locfileid: "33431549"
   
 Обычно существует два типа списков рассылки:
   
-- Списки рассылки, развернутые базовой системой обмена сообщениями. Этот тип списка содержит адрес, **пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) и обрабатывается так же, как если бы он был отдельным получателем. 
+- Списки рассылки, развернутые базовой системой обмена сообщениями. Этот тип списка содержит адрес, **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) и обрабатывается так же, как если бы он был отдельным получателем. 
     
 - Списки рассылки, существующие в локальном контейнере и развернутые клиентским приложением.
     
 К дополнительным свойствам списка рассылки относятся следующие:
   
-- **Пр_ласт_модификатион_тиме** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))
+- **PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))
     
-- **Пр_дисплай_типе** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) 
+- **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)) 
     
-- **Пр_детаилс_табле** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) 
+- **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)) 
     
-Обратите внимание, что **пр_аддртипе** является обязательным, но **пр_емаил_аддресс** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) — нет. Это связано с тем, что список рассылки без адреса электронной почты по-прежнему может получать сообщения, но список его участников должен быть развернут. Если для свойства **пр_аддртипе** задано значение МАПИПДЛ, MAPI выполняет расширение. Если **пр_аддртипе** имеет значение, отличное от мапипдл, то поставщик транспорта выполняет расширение. 
+Обратите внимание, что **PR_ADDRTYPE** является обязательным, но **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)) нет. Это связано с тем, что список рассылки без адреса электронной почты по-прежнему может получать сообщения, но список его участников должен быть развернут. Если для свойства **PR_ADDRTYPE** задано значение МАПИПДЛ, MAPI выполняет расширение. Если **PR_ADDRTYPE** имеет значение, отличное от мапипдл, то поставщик транспорта выполняет расширение. 
   
 Дополнительные сведения об использовании методов **идистлист** приведены в справочных записях для параллельных методов **иабконтаинер**.
   

@@ -67,7 +67,7 @@ ms.locfileid: "33436141"
     
 2. В диалоговом окне **Параметры отправки** щелкните **Разрешить пользователям отправлять эту форму**, выберите **Выполнить пользовательское действие с использованием кода** и щелкните **Редактировать код**.
     
-3. Добавьте следующие две функции под обработчиком [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Submit.aspx) события отсылки: 
+3. Добавьте следующие две функции под обработчиком события [отсылки](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Submit.aspx) : 
     
    ```cs
     public void OnlineSubmit(SubmitEventArgs e)

@@ -29,7 +29,7 @@ ms.locfileid: "33434804"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ДИСКАРД_РЕАСОН  <br/> |
+|Связанные свойства:  <br/> |PR_DISCARD_REASON  <br/> |
 |Идентификатор:  <br/> |0x0011  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33434804"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

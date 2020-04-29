@@ -1,5 +1,5 @@
 ---
-title: Имсгсторенотифиневмаил
+title: имсгсторенотифиневмаил
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -35,7 +35,7 @@ HRESULT NotifyNewMail(
 
 ## <a name="parameters"></a>Параметры
 
- _Лпнотификатион_
+ _лпнотификатион_
   
 > [in] ��������� �� ��������� [�����������](notification.md) � ��������� ����������� � ��������� ���������. 
     

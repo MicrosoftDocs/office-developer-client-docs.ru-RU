@@ -29,18 +29,18 @@ ms.locfileid: "33425675"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_МЕССАЖЕ_СЕКУРИТИ_ЛАБЕЛ  <br/> |
+|Связанные свойства:  <br/> |PR_MESSAGE_SECURITY_LABEL  <br/> |
 |Идентификатор:  <br/> |0x001E  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство предоставляет основу для защиты сообщения с помощью свойства **пр_мессаже_токен** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)). Связь с содержимым сообщения гарантируется маркером.
+Это свойство предоставляет основу, на которой свойство **PR_MESSAGE_TOKEN** ([PidTagMessageToken](pidtagmessagetoken-canonical-property.md)) защищает сообщение. Связь с содержимым сообщения гарантируется маркером.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

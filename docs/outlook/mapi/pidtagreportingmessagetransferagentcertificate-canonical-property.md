@@ -29,7 +29,7 @@ ms.locfileid: "33436589"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕПОРТИНГ_МТА_ЦЕРТИФИКАТЕ  <br/> |
+|Связанные свойства:  <br/> |PR_REPORTING_MTA_CERTIFICATE  <br/> |
 |Идентификатор:  <br/> |0x1004  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сообщение MAPI  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33436589"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

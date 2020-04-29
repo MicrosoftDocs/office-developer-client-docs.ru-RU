@@ -29,14 +29,14 @@ ms.locfileid: "33429525"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕГИСТЕРЕД_МАИЛ_ТИПЕ  <br/> |
+|Связанные свойства:  <br/> |PR_REGISTERED_MAIL_TYPE  <br/> |
 |Идентификатор:  <br/> |0x0C16  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Получатель MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

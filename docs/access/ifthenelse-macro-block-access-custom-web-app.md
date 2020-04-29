@@ -33,7 +33,7 @@ Else
 End If
 ```
 
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Параметр
 
 Для **If** и * * Else If * * необходимо указать следующие аргументы. 
   

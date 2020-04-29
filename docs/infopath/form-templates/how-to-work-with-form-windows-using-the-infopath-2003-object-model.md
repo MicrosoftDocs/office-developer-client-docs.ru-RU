@@ -31,16 +31,16 @@ ms.locfileid: "33427579"
 
 Интерфейс **WindowsCollection** предоставляет указанные ниже свойства, которыми разработчики форм могут пользоваться для управления экземплярами **WindowObject**, содержащимися в интерфейсе. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Count.aspx)  <br/> |Возвращает количество объектов  **Window** в семействе.  <br/> |
-|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Возвращает ссылку на указанный объект **Window**.  <br/> **Note**: Visual C# обращается к коллекциям с помощью индексатора вместо вызова свойства **Item** . Например,  `thisApplication.Windows[0].Caption`.           |
+|Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Windows.Item.aspx)  <br/> |Возвращает ссылку на указанный объект **Window**.  <br/> **Note**: Visual C# обращается к коллекциям с помощью индексатора вместо вызова свойства **Item** . Пример: `thisApplication.Windows[0].Caption`.           |
    
 ## <a name="overview-of-the-window-object"></a>Обзор объекта Window
 
 Интерфейс **WindowObject** предоставляет указанные ниже методы и свойства, которыми разработчики форм могут пользоваться для взаимодействия с окном InfoPath. Поддержка этих методов и свойств зависит от типа окна ( [ксдвиндовтипе](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdWindowType.aspx) ), с которым ведется работа. Некоторые методы и свойства работают только с окном редактора (**XdWindowType.xdEditorWindow**). Остальные методы и свойства работают как с окном редактора, так и с окном конструктора (**XdWindowType.xdDesignerWindow**). Кроме того, как и для всех членов объектной модели InfoPath, при вызове из шаблона формы поддержка методов и свойств может изменяться в зависимости от уровня безопасности и метода развертывания формы.
   
-|**Name**|**Описание**|**Поддержка типов окон**|
+|**Название**|**Описание**|**Поддержка типов окон**|
 |:-----|:-----|:-----|
 |Метод [Activate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Activate.aspx)  <br/> |Обозначает окно как активное в данный момент окно.  <br/> |Типы **xdDesignWindow** и **xdEditorWindow**  <br/> |
 |Свойство [Active](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Active.aspx)  <br/> |Возвращает логическое (**Boolean**) значение, указывающее, является ли окно активным в данный момент.  <br/> |Типы **типы xddesignwindow** и **xdEditorWindow**  <br/> |
@@ -55,7 +55,7 @@ ms.locfileid: "33427579"
 |Свойство [виндовтипе](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.WindowType.aspx)  <br/> |Возвращает число, обозначающее тип окна, на основе перечисления [ксдвиндовтипе](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdWindowType.aspx) .  <br/> |Типы **типы xddesignwindow** и **xdEditorWindow**  <br/> |
 |Свойство [Width](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.Width.aspx)  <br/> |Свойство чтения и записи с типом "длинное целое", которое указывает ширину окна, представленную объектом **Window** и измеряемую в точках.  <br/> |Типы **типы xddesignwindow** и **xdEditorWindow**  <br/> |
 |Свойство [WindowState](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.WindowState.aspx)  <br/> |Свойство чтения и записи типа [ксдвиндовстате](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XdWindowState.aspx) , которое возвращает или задает состояние окна, представленное объектом **Window** .  <br/> |Типы **типы xddesignwindow** и **xdEditorWindow**  <br/> |
-|Свойство [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.XDocument.aspx)  <br/> |Возвращает ссылку на объект [_ксдокумент](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument.aspx) , связанный с окном.  <br/> |Только тип **xdEditorWindow**  <br/> |
+|Свойство [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Window2.XDocument.aspx)  <br/> |Возвращает ссылку на объект [_XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument.aspx) , связанный с окном.  <br/> |Только тип **xdEditorWindow**  <br/> |
    
 ## <a name="using-the-windowscollection-and-window-interfaces"></a>Использование интерфейсов WindowsCollection и Window
 
@@ -82,7 +82,7 @@ Dim objWindow As WindowObject = thisApplication.ActiveWindow
 > [!NOTE]
 > При отладке проекта InfoPath с управляемым кодом свойство **ActiveWindow** всегда будет возвращать **null**, поскольку окно отладки активно. 
   
-Доступ К **WindowObject** можно также получить с помощью свойства [Window](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Window.aspx) интерфейса [View](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.aspx) , связанного с базовым XML-документом формы. Свойство **View** интерфейса **XDocument** используется для доступа к объекту **View**. Например, следующий код задает ссылку на объект **WindowObject**, который связан с представлением базового XML-документа формы. 
+Доступ к **WindowObject** можно также получить с помощью свойства [Window](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.Window.aspx) интерфейса [View](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.aspx) , связанного с базовым XML-документом формы. Свойство **View** интерфейса **XDocument** используется для доступа к объекту **View**. Например, следующий код задает ссылку на объект **WindowObject**, который связан с представлением базового XML-документа формы. 
   
 ```cs
 WindowObject objWindow = thisXDocument.View.Window;

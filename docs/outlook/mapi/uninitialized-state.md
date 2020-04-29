@@ -27,9 +27,9 @@ ms.locfileid: "33425563"
 |:-----|:-----|:-----|
 |[IPersistMessage::InitNew](ipersistmessage-initnew.md) <br/> |Загрузка объекта Form с данными по умолчанию.  <br/> |[Normal](normal-state.md) <br/> |
 |[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Загрузка объекта Form с данными из целевого сообщения.  <br/> |Normal  <br/> |
-|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Возвращает сообщение об успешном выполнении или задает последнюю ошибку и возвращает Е_УНЕКСПЕКТЕД.  <br/> |Неинициализированное  <br/> |
+|[IPersistMessage::GetClassID](ipersistmessage-getclassid.md) <br/> |Возвратите сообщение об успешном выполнении или присвойте последней ошибке и возвратите E_UNEXPECTED.  <br/> |Неинициализированное  <br/> |
 |[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возврат последней ошибки.  <br/> |Неинициализированное  <br/> |
-|Другие [иперсистмессаже:](ipersistmessageiunknown.md) методы или методы IUnknown из других интерфейсов  <br/> |ПриСвойте последней ошибке значение и возвратите Е_УНЕКСПЕКТЕД.  <br/> |Неинициализированное  <br/> |
+|Другие [иперсистмессаже:](ipersistmessageiunknown.md) методы или методы IUnknown из других интерфейсов  <br/> |Установка последней ошибки и возврат E_UNEXPECTED.  <br/> |Неинициализированное  <br/> |
    
 ## <a name="see-also"></a>См. также
 

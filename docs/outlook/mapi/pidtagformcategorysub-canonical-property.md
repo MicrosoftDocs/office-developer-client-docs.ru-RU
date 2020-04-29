@@ -29,18 +29,18 @@ ms.locfileid: "33428790"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ФОРМ_КАТЕГОРИ_СУБ, ПР_ФОРМ_КАТЕГОРИ_СУБ_А, ПР_ФОРМ_КАТЕГОРИ_СУБ_В  <br/> |
+|Связанные свойства:  <br/> |PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A PR_FORM_CATEGORY_SUB_W  <br/> |
 |Идентификатор:  <br/> |0x3305  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства являются подчиненными для категории главной формы, которая представлена в свойстве **пр_форм_категори** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)). 
+Эти свойства являются подчиненными для категории главной формы, которая представлена в свойстве **PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

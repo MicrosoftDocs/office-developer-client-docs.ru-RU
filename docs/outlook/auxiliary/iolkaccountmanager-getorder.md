@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунтманажержетордер
+title: иолкаккаунтманажержетордер
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -32,21 +32,21 @@ HRESULT IOlkAccountManager::GetOrder (
 
 ## <a name="parameters"></a>Параметры
 
-_Пклсидкатегори_
+_пклсидкатегори_
   
 > возврата Идентификатор класса Category, для которого требуется получить порядок. The value must be one of the following:
     
-   - Клсид_олкмаил
+   - CLSID_OlkMail
     
-   - Клсид_олкаддрессбук
+   - CLSID_OlkAddressBook
     
-   - Клсид_олксторе
+   - CLSID_OlkStore
     
-_Пкакктс_
+_пкакктс_
   
 >  вышли Число учетных записей. 
     
-_Пргакктс_
+_пргакктс_
   
 > вышли Указатель на массив учетных записей.
     
@@ -56,7 +56,7 @@ _Пргакктс_
 |:-----|:-----|
 |S_OK  <br/> |Вызов выполнен успешно  <br/> |
 |E_INVALIDARG  <br/> |Один или несколько аргументов являются недопустимыми.  <br/> |
-|Е_ОЛК_НОТ_ИНИТИАЛИЗЕД  <br/> |The account manager has not been initialized for use.  <br/> |
+|E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

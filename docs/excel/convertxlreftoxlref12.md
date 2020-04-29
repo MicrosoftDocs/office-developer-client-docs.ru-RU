@@ -30,7 +30,7 @@ BOOL ConvertXLRefToXLRef12(LPXLREF pxRef, LPXLREF12 pxRef12);
 
 ## <a name="parameters"></a>Параметры
 
- _пксреф_ (**Лпкслреф**)
+ _пксреф_ (**лпкслреф**)
   
 Указатель на исходную ссылочную структуру.
   

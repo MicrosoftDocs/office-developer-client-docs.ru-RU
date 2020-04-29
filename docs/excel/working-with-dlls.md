@@ -20,7 +20,7 @@ ms.locfileid: "33431836"
   
 В этом разделе содержатся сведения о создании и вызове библиотек DLL, работающих с Microsoft Excel.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 [Разработка библиотек DLL](developing-dlls.md)
   

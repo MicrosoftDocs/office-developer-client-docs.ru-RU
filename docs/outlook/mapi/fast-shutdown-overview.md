@@ -29,7 +29,7 @@ ms.locfileid: "33427208"
     
 2. Подсистема MAPI отвечает за доступную поддержку быстрого завершения работы для вызова **метод imapiclientshutdown:: QueryFastShutdown** клиента, используя следующую процедуру: 
     
-    1. Подсистема MAPI вызывает метод [IMAPIProviderShutdown:: QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) для каждого поставщика MAPI, с которым клиентский процесс MAPI имеет активный сеанс MAPI, если поставщик реализует [интерфейс IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md) взаимодействия. 
+    1. Подсистема MAPI вызывает метод [IMAPIProviderShutdown:: QueryFastShutdown](imapiprovidershutdown-queryfastshutdown.md) для каждого поставщика MAPI, с которым клиентский процесс MAPI имеет активный сеанс MAPI, если поставщик реализует интерфейс [IMAPIProviderShutdown: IUnknown](imapiprovidershutdowniunknown.md) . 
         
        > [!NOTE]
        >  Подсистема MAPI всегда запрашивает и уведомляет поставщиков MAPI с помощью интерфейса **IMAPIProviderShutdown: IUnknown** в каждом сеансе MAPI в следующем порядке:
@@ -37,7 +37,7 @@ ms.locfileid: "33427208"
        > 2. Поставщики адресных книг
        > 3. Поставщики услуг хранения 
     
-    2. В зависимости от параметра быстрого завершения работы реестра для этого пользователя на клиентском компьютере подсистема MAPI указывает соответствующий код возврата для **метод imapiclientshutdown:: QueryFastShutdown**. Код возврата — значение S_OK или МАПИ_Е_НО_СУППОРТ.
+    2. В зависимости от параметра быстрого завершения работы реестра для этого пользователя на клиентском компьютере подсистема MAPI указывает соответствующий код возврата для **метод imapiclientshutdown:: QueryFastShutdown**. Код возврата либо S_OK, либо MAPI_E_NO_SUPPORT.
         
     3. Клиент MAPI вызывает метод [метод imapiclientshutdown:: нотифипроцессшутдовн](imapiclientshutdown-notifyprocessshutdown.md) , чтобы показать подсистеме MAPI намерение завершить работу. 
         

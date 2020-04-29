@@ -1,5 +1,5 @@
 ---
-title: Иосткссетсинкресулт
+title: иосткссетсинкресулт
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -35,7 +35,7 @@ HRESULT SetSyncResult(
 
 ## <a name="parameters"></a>Параметры
 
- _Хрсинк_
+ _хрсинк_
   
 >  возврата Результат синхронизации. 
     

@@ -29,14 +29,14 @@ ms.locfileid: "33435154"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНТЕНТ_ЛЕНГС  <br/> |
+|Связанные свойства:  <br/> |PR_CONTENT_LENGTH  <br/> |
 |Идентификатор:  <br/> |0x0009  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Exchange;  <br/> |
+|Область:  <br/> |Exchange  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

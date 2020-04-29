@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425402"
 ---
-# <a name="propinetpassword"></a>PROP_INET_PASSWORD
+# <a name="prop_inet_password"></a>PROP_INET_PASSWORD
 
 Представляет пароль пользователя для общего почтового ящика в Интернете.
   
@@ -23,7 +23,7 @@ ms.locfileid: "33425402"
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0102  <br/> |
-|Тип свойства:  <br/> |PT_UNICODE|СЕКУРЕ_ФЛАГ  <br/> |
+|Тип свойства:  <br/> |PT_UNICODE|SECURE_FLAG  <br/> |
 |Тег свойства:  <br/> |0x0102801F  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    

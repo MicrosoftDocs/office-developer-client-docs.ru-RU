@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- событие VersionUpgrade [InfoPath 2007], обработка событий [InfoPath 2007], изменение события [InfoPath 2007], InfoPath 2007, добавление обработчиков событий, события изменения [InfoPath 2007], событие ContextChanged [InfoPath 2007], Click Event [InfoPath 2007], события [InfoPath 2007], добавление обработчиков событий, подписи [InfoPath 2007], события ViewSwitched [InfoPath 2007], обработка событий [InfoPath 2007], событие объединения [InfoPath 2007], проверка события [InfoPath 2007], событие "передача" [InfoPath 2007], событие "Сохранить" [InfoPath 2007], Загрузка событие [InfoPath 2007]
+- событие VersionUpgrade [InfoPath 2007], обработка событий [InfoPath 2007], изменение события [InfoPath 2007], InfoPath 2007, добавление обработчиков событий, события изменения [InfoPath 2007], событие ContextChanged [InfoPath 2007], события [InfoPath 2007], события [InfoPath 2007], добавление обработчиков событий, табличного события [InfoPath 2007], событие ViewSwitched [InfoPath 2007], обработка событий [InfoPath 2007], событие Merge [InfoPath 2007], проверка события [InfoPath 2007], событие "послать" [InfoPath 2007], событие Save [InfoPath 2007] , Загрузка события [InfoPath 2007]
 localization_priority: Normal
 ms.assetid: d69393fb-fb5a-4edb-abc0-38f5d7e80bcc
 description: В этом разделе описываются процедуры добавления обработчиков событий в шаблон формы с управляемым кодом Microsoft InfoPath с помощью Visual Studio 2012. Чтобы добавить обработчик событий в шаблон формы, сначала откройте шаблон формы в конструкторе InfoPath, а затем выберите соответствующую команду пользовательского интерфейса для события, для которого необходимо создать код. После выбора команды для события в конструкторе InfoPath фокус автоматически переключается на каркас обработчика событий для этого события в редакторе кода Visual Studio 2012.
@@ -28,7 +28,7 @@ ms.locfileid: "33427187"
     
 2. Нажмите кнопку, а затем на вкладке **Свойства** ленты выберите **Пользовательский код**.
     
-    Фокус переключается на каркас обработчика событий для [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.Clicked.aspx) события clickd в редакторе кода Visual Studio 2012. 
+    Фокус переключается на каркас обработчика событий для события [clickd](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.ButtonEvent.Clicked.aspx) в редакторе кода Visual Studio 2012. 
     
 ### <a name="add-an-event-handler-for-the-changing-validating-or-changed-event-of-a-field-or-group"></a>Добавление обработчика событий Changing, Validating и Changed для поля или группы
 
@@ -36,10 +36,10 @@ ms.locfileid: "33427187"
     
 2. Щелкните правой кнопкой мыши элемент управления ввода данных, связанный с полем или группой, например элемент управления **Текстовое поле**. 
     
-3. Щелкните **Программирование** и выберите событие, для которого необходимо создать обработчик. Фокус переключится на каркас обработчика событий для события [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Changing.aspx) Changed [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Validating.aspx) , Changed [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Changed.aspx) или Changed в редакторе кода Visual Studio 2012. 
+3. Щелкните **Программирование** и выберите событие, для которого необходимо создать обработчик. Фокус переключится на каркас обработчика событий для события [Validating](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Validating.aspx) [Changed, Changed или Changed](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Changed.aspx) в редакторе кода Visual Studio 2012. [Changing](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlEvent.Changing.aspx) 
     
     > [!NOTE]
-    > Команда для создания обработчика событий для события **Changing** не будет доступна, если параметр совместимости шаблона формы имеет значение **Форма веб-браузера**. Это связано с тем **** , что событие Changing не поддерживается в бизнес-логике шаблонов форм, опубликованных в библиотеках документов Microsoft SharePoint Server 2010 с помощью InfoPath Forms Services. Чтобы создать обработчик события для события **Changing**, необходимо в конструкторе InfoPath изменить параметр совместимости на **Форма редактора InfoPath**. Для этого перейдите на вкладку **Файл**, щелкните **Параметры форм**, **Совместимость** и установите **Тип формы****Форма редактора InfoPath**. 
+    > Команда для создания обработчика событий для события **Changing** не будет доступна, если параметр совместимости шаблона формы имеет значение **Форма веб-браузера**. Это связано с тем, что событие **Changing** не поддерживается в бизнес-логике шаблонов форм, опубликованных в библиотеках документов Microsoft SharePoint Server 2010 с помощью InfoPath Forms Services. Чтобы создать обработчик события для события **Changing**, необходимо в конструкторе InfoPath изменить параметр совместимости на **Форма редактора InfoPath**. Для этого перейдите на вкладку **Файл**, щелкните **Параметры форм**, **Совместимость** и установите **Тип формы****Форма редактора InfoPath**. 
   
 ### <a name="add-an-event-handler-for-the-loading-viewswitched-contextchanged-and-sign-events-of-a-form"></a>Добавление обработчика событий Loading, ViewSwitched, ContextChanged и Sign для формы
 
@@ -102,5 +102,5 @@ ms.locfileid: "33427187"
 
 
 
-[ПоШаговое руководство: создание базового шаблона формы с кодом](walkthrough-creating-a-basic-form-template-with-code.md)
+[Пошаговое руководство: создание базового шаблона формы с кодом](walkthrough-creating-a-basic-form-template-with-code.md)
 

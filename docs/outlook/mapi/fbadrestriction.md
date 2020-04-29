@@ -57,6 +57,6 @@ FALSE
     
 ## <a name="remarks"></a>Примечания
 
-После проверки ограничения его можно передать в вызовах метода [IMAPITable:: restrict](imapitable-restrict.md) , чтобы ограничить таблицу определенными строками, на метод [IMAPITable:: FindRow](imapitable-findrow.md) для обнаружения строки таблицы и для методов объекта [IMAPIContainer](imapicontainerimapiprop.md) интерфейс для выполнения ограничения для объекта Container. 
+После проверки ограничения его можно передать в вызовах метода [IMAPITable:: restrict](imapitable-restrict.md) , чтобы ограничить таблицу определенными строками, на метод [IMAPITable:: FindRow](imapitable-findrow.md) для обнаружения строки таблицы, а также методы интерфейса [IMAPIContainer](imapicontainerimapiprop.md) для выполнения ограничения для объекта Container. 
   
 

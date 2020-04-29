@@ -29,7 +29,7 @@ ms.locfileid: "33422959"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ДЛ_ЕКСПАНСИОН_ХИСТОРИ  <br/> |
+|Связанные свойства:  <br/> |PR_DL_EXPANSION_HISTORY  <br/> |
 |Идентификатор:  <br/> |0x0013  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33422959"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

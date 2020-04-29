@@ -1,5 +1,5 @@
 ---
-title: Отправка отчетов о доСтавке сообщений
+title: Отправка отчетов о доставке сообщений
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433082"
 ---
-# <a name="sending-message-delivery-reports"></a>Отправка отчетов о доСтавке сообщений
+# <a name="sending-message-delivery-reports"></a>Отправка отчетов о доставке сообщений
 
   
   

@@ -22,7 +22,7 @@ ms.locfileid: "33432494"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Когда модальное диалоговое окно отображается над окном Microsoft Excel, курсор является занятым курсором на окне Excel. Это **WndProc** ВЫПОЛНЯЕТ треппинг вм_сеткурсор типов сообщений Windows и изменяет курсор на обычную стрелку. 
+Когда модальное диалоговое окно отображается над окном Microsoft Excel, курсор является занятым курсором на окне Excel. Эти ловушки **WndProc** WM_SETCURSOR вводить сообщения Windows и отменяют курсор на обычную стрелку. 
   
 ```cs
 LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lParam);
@@ -34,13 +34,13 @@ LRESULT CALLBACK ExcelCursorProc(HWND hwnd, UINT wMsg, WPARAM wParam, LPARAM lPa
   
 Содержит дескриптор окна HWND диалогового окна.
   
- _Message (сообщение_ ) (**Uint**)
+ _Message_ (**uint**)
   
 Сообщение, на которое необходимо ответить.
   
- _wParam_ (**WParam**)
+ _wParam_ (**wParam**)
   
- _lParam_ (**LParam**)
+ _lParam_ (**lParam**)
   
 Аргументы, переданные Windows.
   

@@ -24,9 +24,9 @@ ms.locfileid: "33411885"
 Интерфейс [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для взаимодействия с представлением InfoPath. 
   
 > [!NOTE]
-> Методы и свойства интерфейса [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) недоступны во время события OnLoad. [](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) 
+> Методы и свойства интерфейса [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) недоступны во время события [OnLoad](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnLoad.aspx) . 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.DisableAutoUpdate.aspx)  <br/> |Отключает синхронизацию модели XML DOM и представления.  <br/> |
 |Метод [EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.View.EnableAutoUpdate.aspx)  <br/> |Включает синхронизацию модели XML DOM и представления.  <br/> |
@@ -46,7 +46,7 @@ ms.locfileid: "33411885"
   
 ## <a name="using-the-viewobject-interface"></a>Использование интерфейса ViewObject
 
-Доступ к интерфейсу [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) осуществляется через свойство [View](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.View.aspx) интерфейса [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) (доступ к которому осуществляется с помощью `thisXDocument` переменной, инициализированной в `_Startup` методе класса кода формы). Например, в приведенном ниже примере кода показано, как использовать метод [Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) интерфейса [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) для отображения окна сообщения с именем текущего представления, связанНЫМ с базовым XML-документом формы. 
+Доступ к интерфейсу [ViewObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewObject.aspx) осуществляется через свойство [View](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.View.aspx) интерфейса [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) (доступ к которому осуществляется с помощью `thisXDocument` переменной, инициализированной в `_Startup` методе класса кода формы). Например, в приведенном ниже примере кода показано, как использовать метод [Alert](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.Alert.aspx) интерфейса [UIObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UIObject.aspx) для отображения окна сообщения с именем текущего представления, связанным с базовым XML-документом формы. 
   
 ```cs
 thisXDocument.UI.Alert("Current view name: " + 
@@ -68,7 +68,7 @@ thisXDocument.View.SwitchView("MySecondView");
 thisXDocument.View.SwitchView("MySecondView")
 ```
 
-Предыдущий пример по переключению представления будет работать только после открытия формы. Чтобы задать представление по умолчанию во **** время события OnLoad, используйте свойство [IsDefault](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewInfo.IsDefault.aspx) интерфейса [виевинфубжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewInfoObject.aspx) , как показано в следующем примере. 
+Предыдущий пример по переключению представления будет работать только после открытия формы. Чтобы задать представление по умолчанию во время события **OnLoad** , используйте свойство [IsDefault](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewInfo.IsDefault.aspx) интерфейса [виевинфубжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.ViewInfoObject.aspx) , как показано в следующем примере. 
   
 ```cs
 thisXDocument.ViewInfos["MyDefaultView"].IsDefault = true;

@@ -29,14 +29,14 @@ ms.locfileid: "33433320"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНВЕРСИОН_ПРОХИБИТЕД  <br/> |
+|Связанные свойства:  <br/> |PR_CONVERSION_PROHIBITED  <br/> |
 |Идентификатор:  <br/> |0x3A03  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Address  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

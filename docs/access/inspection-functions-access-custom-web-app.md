@@ -19,8 +19,8 @@ ms.locfileid: "33426536"
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
-- [Функция Три_конверт (пользовательское веб-приложение для Access)](try_convert-function-access-custom-web-app.md)
+- [Функция Try_Convert (пользовательское веб-приложение для Access)](try_convert-function-access-custom-web-app.md)
     
 

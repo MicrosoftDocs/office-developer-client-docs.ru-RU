@@ -33,8 +33,8 @@ ms.locfileid: "33424240"
 |Предоставлено:  <br/> |Объекты папок  <br/> |
 |Реализовано в:  <br/> |Поставщики хранилища сообщений  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения и MAPI  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_имапифолдер  <br/> |
-|Тип указателя:  <br/> |ЛПМАПИФОЛДЕР  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IMAPIFolder  <br/> |
+|Тип указателя:  <br/> |лпмапифолдер  <br/> |
 |Модель транзакции:  <br/> |Не transactd  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
@@ -42,27 +42,27 @@ ms.locfileid: "33424240"
 |||
 |:-----|:-----|
 |[CreateMessage](imapifolder-createmessage.md) <br/> |Создает новое сообщение.  <br/> |
-|[Копимессажес](imapifolder-copymessages.md) <br/> |Копирует или перемещает одно или несколько сообщений.  <br/> |
-|[Делетемессажес](imapifolder-deletemessages.md) <br/> |Удаляет одно или несколько сообщений.  <br/> |
+|[копимессажес](imapifolder-copymessages.md) <br/> |Копирует или перемещает одно или несколько сообщений.  <br/> |
+|[делетемессажес](imapifolder-deletemessages.md) <br/> |Удаляет одно или несколько сообщений.  <br/> |
 |[CreateFolder](imapifolder-createfolder.md) <br/> |Создает новую вложенную папку.  <br/> |
 |[CopyFolder](imapifolder-copyfolder.md) <br/> |Копирует или перемещает вложенную папку.  <br/> |
 |[DeleteFolder](imapifolder-deletefolder.md) <br/> |Удаляет вложенную папку.  <br/> |
-|[Сетреадфлагс](imapifolder-setreadflags.md) <br/> |Задает или очищает флаг МСГФЛАГ_РЕАД в свойстве **пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) одного или нескольких сообщений папки и управляет отправкой отчетов о прочтении.  <br/> |
-|[Жетмессажестатус](imapifolder-getmessagestatus.md) <br/> |Получает состояние, связанное с сообщением в определенной папке.  <br/> |
-|[Сетмессажестатус](imapifolder-setmessagestatus.md) <br/> |Задает состояние, связанное с сообщением.  <br/> |
-|[Савеконтентссорт](imapifolder-savecontentssort.md) <br/> |Задает порядок сортировки по умолчанию для таблицы содержимого папки.  <br/> |
+|[сетреадфлагс](imapifolder-setreadflags.md) <br/> |Задает или очищает флаг MSGFLAG_READ в свойстве **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) одного или нескольких сообщений папки и управляет отправкой отчетов о прочтении.  <br/> |
+|[жетмессажестатус](imapifolder-getmessagestatus.md) <br/> |Получает состояние, связанное с сообщением в определенной папке.  <br/> |
+|[сетмессажестатус](imapifolder-setmessagestatus.md) <br/> |Задает состояние, связанное с сообщением.  <br/> |
+|[савеконтентссорт](imapifolder-savecontentssort.md) <br/> |Задает порядок сортировки по умолчанию для таблицы содержимого папки.  <br/> |
 |[EmptyFolder](imapifolder-emptyfolder.md) <br/> |Удаляет все сообщения и вложенные папки из папки без удаления самой папки.  <br/> |
    
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**Пр_дисплай_наме** ([PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_фолдер_типе** ([PidTagFolderType](pidtagfoldertype-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_парент_ентрид** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_рекорд_кэй** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_сторе_ентрид** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_сторе_рекорд_кэй** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayNamePrefix](pidtagdisplaynameprefix-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_STORE_RECORD_KEY** ([PidTagStoreRecordKey](pidtagstorerecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
 ## <a name="see-also"></a>См. также
 

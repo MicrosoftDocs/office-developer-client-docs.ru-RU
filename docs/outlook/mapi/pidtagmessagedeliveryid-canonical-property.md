@@ -29,14 +29,14 @@ ms.locfileid: "33429224"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_МЕССАЖЕ_ДЕЛИВЕРИ_ИД  <br/> |
+|Связанные свойства:  <br/> |PR_MESSAGE_DELIVERY_ID  <br/> |
 |Идентификатор:  <br/> |0x001B  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

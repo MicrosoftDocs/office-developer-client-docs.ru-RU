@@ -1,5 +1,5 @@
 ---
-title: Иолкеррорункновнжетластеррор
+title: иолкеррорункновнжетластеррор
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -32,11 +32,11 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 ## <a name="parameters"></a>Параметры
 
-_HR_
+_hr_
   
 > возврата Код ошибки для поиска.
     
-_Ппвсзеррор_
+_ппвсзеррор_
   
 > вышли Сообщение об ошибке, соответствующее *HR* . 
     

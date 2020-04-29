@@ -17,7 +17,7 @@ ms.locfileid: "33426116"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-В этом примере кода в Microsoft C++ показано, как использовать экспортированную функцию [Врапкомпресседртфстреамекс](wrapcompressedrtfstreamex.md) microsoft Outlook 2010 или microsoft Outlook 2013, чтобы получить доступ к тексту сообщения, инкапсулированного в сжатом формате RTF, и получить текст в его собственный формат. 
+В этом примере кода в Microsoft C++ показано, как использовать экспортированную функцию [Врапкомпресседртфстреамекс](wrapcompressedrtfstreamex.md) microsoft Outlook 2010 или microsoft Outlook 2013, чтобы получить доступ к тексту сообщения, инкапсулированного в сжатом формате RTF, и получить текст в его исходном формате. 
   
 ```cpp
 //These are definitions for the WrapCompressedRTFStreamEx function. 

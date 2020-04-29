@@ -29,14 +29,14 @@ ms.locfileid: "33422721"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ФИСИКАЛ_ДЕЛИВЕРИ_БУРЕАУ_ФАКС_ДЕЛИВЕРИ  <br/> |
+|Связанные свойства:  <br/> |PR_PHYSICAL_DELIVERY_BUREAU_FAX_DELIVERY  <br/> |
 |Идентификатор:  <br/> |0x0C0A  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Получатель MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

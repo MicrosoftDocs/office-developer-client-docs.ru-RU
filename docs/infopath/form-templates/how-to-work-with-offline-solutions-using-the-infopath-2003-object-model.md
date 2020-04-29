@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- решения [InfoPath 2007], автономные, автономные решения [InfoPath 2007], InfoPath 2003 — шаблоны форм, шаблоны форм InfoPath, совместимые с InfoPath, автономные решения
+- решения [InfoPath 2007], автономные, автономные решения [InfoPath 2007], InfoPath 2003 — шаблоны форм, шаблоны форм 2003 InfoPath, совместимые с InfoPath, автономные решения
 localization_priority: Normal
 ms.assetid: 634ccd8c-0b5f-4161-875c-0e546a517377
 description: Объектная модель, совместимая с InfoPath 2003, предоставляет свойство MachineOnlineState объекта Application, которое позволяет коду формы проверить, подключен ли компьютер пользователя к сети. В зависимости от состояния подключения код формы может выполнять различные действия.

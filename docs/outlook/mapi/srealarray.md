@@ -40,9 +40,9 @@ typedef struct _SRealArray
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>"Участники"
 
- **Квалуес**
+ **квалуес**
   
 > Количество значений в массиве, на которое указывает элемент **лпфлт** . 
     
@@ -52,7 +52,7 @@ typedef struct _SRealArray
     
 ## <a name="remarks"></a>Примечания
 
-Более подробную информацию о типе свойства PT_MV_R4 можно узнать в статье [типы свойств](property-types.md).
+Дополнительные сведения о типе свойства PT_MV_R4 см в разделе [типы свойств](property-types.md).
   
 ## <a name="see-also"></a>См. также
 

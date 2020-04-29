@@ -27,21 +27,21 @@ ms.locfileid: "33432669"
   
 1. Call [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) для создания нового сообщения. 
     
-2. Скопируйте все свойства из исходного сообщения, исключая свойство * * ПР_МЕССАЖЕ_РЕЦИПИЕНТС * * ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)), и свойства **пр_сендер** и **пр_сент_репресентинг** . Внесите следующие изменения свойств: 
+2. Скопируйте все свойства из исходного сообщения, исключая свойство * * PR_MESSAGE_RECIPIENTS * * ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)), а также свойства **PR_SENDER** и **PR_SENT_REPRESENTING** . Внесите следующие изменения свойств: 
     
-   - Задайте для **пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) свойство отчета * * Пр_ориг_мессаже_класс * * ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md)).
+   - Задайте **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) свойству отчета * * PR_ORIG_MESSAGE_CLASS * * ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md)).
     
-   - Установите флаг МСГФЛАГ_РЕСЕНД в свойстве **пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)).
+   - Установите флаг MSGFLAG_RESEND в свойстве **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)).
     
-   - Задайте **пр_оригинал_ентрид** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) в качестве значения свойства **пр_ентрид** исходного сообщения ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+   - Задайте **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) для свойства **PR_ENTRYID** исходного сообщения ([PidTagEntryId](pidtagentryid-canonical-property.md)).
     
-   - Для каждого получателя установите МАПИ_СУБМИТТЕД в свойстве **пр_реЦипиент_типе** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). 
+   - Для каждого получателя задайте MAPI_SUBMITTED в свойстве **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). 
     
-   - Дублировать каждого неудачного получателя. Измените свойство **пр_реЦипиент_типе** для повторяющегося получателя на MAPI_P1. Таким образом, для каждого неудачного получателя в таблице получателей теперь имеется две записи: одна с **пр_реЦипиент_типе** имеет исходное значение, а другая с **пр_реЦипиент_типе** значением MAPI_P1. 
+   - Дублировать каждого неудачного получателя. Измените свойство **PR_RECIPIENT_TYPE** для повторяющегося получателя на MAPI_P1. Таким образом, для каждого неудачного получателя в таблице получателей теперь имеется две записи: для свойства с **PR_RECIPIENT_TYPE** задано исходное значение, а для параметра **PR_RECIPIENT_TYPE** задано значение MAPI_P1. 
     
-3. ВыЗовите [сккреатеконверсатиониндекс](sccreateconversationindex.md) , чтобы настроить отслеживание бесед, если это необходимо. 
+3. Вызовите [сккреатеконверсатиониндекс](sccreateconversationindex.md) , чтобы настроить отслеживание бесед, если это необходимо. 
     
-4. ВыЗовите метод [iMessage:: модифиреЦипиентс](imessage-modifyrecipients.md) нового сообщения, чтобы обновить список получателей. 
+4. Вызовите метод [iMessage:: модифиреЦипиентс](imessage-modifyrecipients.md) нового сообщения, чтобы обновить список получателей. 
     
 5. Call [iMessage:: субмитмессаже](imessage-submitmessage.md) , чтобы сохранить и отправить новое сообщение. 
     

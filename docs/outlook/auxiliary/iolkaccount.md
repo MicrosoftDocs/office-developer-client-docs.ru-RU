@@ -25,7 +25,7 @@ ms.locfileid: "33425066"
 |Реализовано в:  <br/> |Outlook  <br/> |
 |Предоставлено:  <br/> |[Иолкаккаунтманажер:: финдаккаунт](iolkaccountmanager-findaccount.md) и [Иолкенум:: GetNext](iolkenum-getnext.md) <br/> |
 |Вызывающая сторона:  <br/> |Client  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_иолкаккаунт  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IOlkAccount  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
 
@@ -37,13 +37,13 @@ ms.locfileid: "33425066"
 | *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
 | *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
 | *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-|[Жетаккаунтинфо](iolkaccount-getaccountinfo.md) <br/> |Получает тип и категории указанной учетной записи.  <br/> |
+|[жетаккаунтинфо](iolkaccount-getaccountinfo.md) <br/> |Получает тип и категории указанной учетной записи.  <br/> |
 |[Предл](iolkaccount-getprop.md) <br/> |Получает значение свойства указанной учетной записи. В приведенной ниже таблице свойств.  <br/> |
-|[Сетпроп](iolkaccount-setprop.md) <br/> |Задает значение указанного свойства учетной записи. В приведенной ниже таблице свойств.  <br/> |
+|[сетпроп](iolkaccount-setprop.md) <br/> |Задает значение указанного свойства учетной записи. В приведенной ниже таблице свойств.  <br/> |
 | *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
 | *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
 | *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-|[Фримемори](iolkaccount-freememory.md) <br/> |Освобождает память, выделенную интерфейсом **иолкаккаунт** .  <br/> |
+|[фримемори](iolkaccount-freememory.md) <br/> |Освобождает память, выделенную интерфейсом **иолкаккаунт** .  <br/> |
 | *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
 |[SaveChanges](iolkaccount-savechanges.md) <br/> |Фиксирует изменения объекта Account, записывая в хранилище реестра.  <br/> |
    
@@ -63,7 +63,7 @@ ms.locfileid: "33425066"
 |[PROP_ACCT_STAMP](prop_acct_stamp.md) <br/> |Возвращает метку учетной записи.  <br/> |
 |[PROP_ACCT_USER_DISPLAY_NAME](prop_acct_user_display_name.md) <br/> |Возвращает отображаемое имя пользователя.  <br/> |
 |[PROP_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md) <br/> |Указывает адрес электронной почты для учетной записи.  <br/> |
-|[PROP_MAPI_EMSMDB_UID](prop_mapi_emsmdb_uid.md) <br/> |Представляет структуру [аккт_бин](acct_bin.md) , которая содержит UID учетной записи Exchange.  <br/> |
+|[PROP_MAPI_EMSMDB_UID](prop_mapi_emsmdb_uid.md) <br/> |Представляет структуру [ACCT_BIN](acct_bin.md) , содержащую идентификатор учетной записи Exchange.  <br/> |
 |[PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) <br/> |Возвращает или задает идентификатор записи адресной книги для учетной записи.  <br/> |
 |[PROP_MAPI_TRANSPORT_FLAGS](prop_mapi_transport_flags.md) <br/> |Представляет параметры транспорта, которые Microsoft Outlook использует для определения необходимых задач синхронизации и отключения элементов пользовательского интерфейса, которые не поддерживаются учетной записью.  <br/> |
    
@@ -73,6 +73,6 @@ ms.locfileid: "33425066"
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md)  
+- [Сведения об API управления учетными записями](about-the-account-management-api.md)  
 - [Constants (Account management API)](constants-account-management-api.md)
 

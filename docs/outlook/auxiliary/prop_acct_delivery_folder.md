@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427152"
 ---
-# <a name="propacctdeliveryfolder"></a>PROP_ACCT_DELIVERY_FOLDER
+# <a name="prop_acct_delivery_folder"></a>PROP_ACCT_DELIVERY_FOLDER
 
 Представляет идентификатор папки доставки по умолчанию для учетной записи.
   
@@ -37,6 +37,6 @@ ms.locfileid: "33427152"
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md)  
+- [Сведения об API управления учетными записями](about-the-account-management-api.md)  
 - [Constants (Account management API)](constants-account-management-api.md)
 

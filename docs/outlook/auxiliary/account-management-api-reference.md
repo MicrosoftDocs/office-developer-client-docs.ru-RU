@@ -27,6 +27,6 @@ ms.locfileid: "33427691"
     
 - [Именованные свойства](named-properties-account-management-api.md)
     
-- [Properties](properties-account-management-api.md)
+- [Свойства](properties-account-management-api.md)
     
 

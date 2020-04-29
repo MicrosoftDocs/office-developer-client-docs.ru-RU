@@ -29,7 +29,7 @@ ms.locfileid: "33424709"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ФОРМ_ХИДДЕН  <br/> |
+|Связанные свойства:  <br/> |PR_FORM_HIDDEN  <br/> |
 |Идентификатор:  <br/> |0x3307  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Общие протоколы MAPI  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33424709"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

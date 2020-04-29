@@ -34,7 +34,7 @@ ms.locfileid: "33429749"
 |Реализовано в:  <br/> |Microsoft Outlook 2010 и Microsoft Outlook 2013  <br/> |
 |Вызывающая сторона:  <br/> |Client  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
-|Тип указателя:  <br/> |ЛПМАПИСЕКУРЕМЕССАЖЕ  <br/> |
+|Тип указателя:  <br/> |лпмаписекуремессаже  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
 

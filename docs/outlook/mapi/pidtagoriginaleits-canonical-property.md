@@ -29,14 +29,14 @@ ms.locfileid: "33434713"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРИГИНАЛ_ЕИТС  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINAL_EITS  <br/> |
 |Идентификатор:  <br/> |0x0021  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   
