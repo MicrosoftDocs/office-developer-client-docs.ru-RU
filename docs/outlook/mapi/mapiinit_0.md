@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32357297"
 ---
-# <a name="mapiinit0"></a><span data-ttu-id="ad693-103">MAPIINIT_0</span><span class="sxs-lookup"><span data-stu-id="ad693-103">MAPIINIT_0</span></span>
+# <a name="mapiinit_0"></a><span data-ttu-id="8841d-103">MAPIINIT_0</span><span class="sxs-lookup"><span data-stu-id="8841d-103">MAPIINIT_0</span></span>
 
   
   
-<span data-ttu-id="ad693-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ad693-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="8841d-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8841d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ad693-105">Передает параметры функции [мапиинитиализе](mapiinitialize.md) .</span><span class="sxs-lookup"><span data-stu-id="ad693-105">Conveys options to the [MAPIInitialize](mapiinitialize.md) function.</span></span> 
+<span data-ttu-id="8841d-105">Передает параметры функции [мапиинитиализе](mapiinitialize.md) .</span><span class="sxs-lookup"><span data-stu-id="8841d-105">Conveys options to the [MAPIInitialize](mapiinitialize.md) function.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ad693-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="ad693-106">Header file:</span></span>  <br/> |<span data-ttu-id="ad693-107">МАПИКС. Высоты</span><span class="sxs-lookup"><span data-stu-id="ad693-107">MAPIX.H</span></span>  <br/> |
+|<span data-ttu-id="8841d-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="8841d-106">Header file:</span></span>  <br/> |<span data-ttu-id="8841d-107">МАПИКС. Высоты</span><span class="sxs-lookup"><span data-stu-id="8841d-107">MAPIX.H</span></span>  <br/> |
    
 ```cpp
 typedef struct
@@ -40,40 +40,40 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="ad693-108">Members</span><span class="sxs-lookup"><span data-stu-id="ad693-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="8841d-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="8841d-108">Members</span></span>
 
- <span data-ttu-id="ad693-109">**Улверсион**</span><span class="sxs-lookup"><span data-stu-id="ad693-109">**ulVersion**</span></span>
+ <span data-ttu-id="8841d-109">**улверсион**</span><span class="sxs-lookup"><span data-stu-id="8841d-109">**ulVersion**</span></span>
   
-> <span data-ttu-id="ad693-110">Целое значение, представляющее номер версии структуры **MAPIINIT_0** .</span><span class="sxs-lookup"><span data-stu-id="ad693-110">An integer value that represents the version number of the **MAPIINIT_0** structure.</span></span> <span data-ttu-id="ad693-111">Элемент **улверсион** предназначен для будущего расширения и не представляет версию интерфейса MAPI.</span><span class="sxs-lookup"><span data-stu-id="ad693-111">The **ulVersion** member is for future expansion and does not represent the version of the MAPI interface.</span></span> <span data-ttu-id="ad693-112">В настоящее время для **улверсион** должно быть задано значение мапи_инит_версион.</span><span class="sxs-lookup"><span data-stu-id="ad693-112">Currently, **ulVersion** must be set to MAPI_INIT_VERSION.</span></span> 
+> <span data-ttu-id="8841d-110">Целое значение, представляющее номер версии структуры **MAPIINIT_0** .</span><span class="sxs-lookup"><span data-stu-id="8841d-110">An integer value that represents the version number of the **MAPIINIT_0** structure.</span></span> <span data-ttu-id="8841d-111">Элемент **улверсион** предназначен для будущего расширения и не представляет версию интерфейса MAPI.</span><span class="sxs-lookup"><span data-stu-id="8841d-111">The **ulVersion** member is for future expansion and does not represent the version of the MAPI interface.</span></span> <span data-ttu-id="8841d-112">В настоящее время для **улверсион** должно быть задано значение MAPI_INIT_VERSION.</span><span class="sxs-lookup"><span data-stu-id="8841d-112">Currently, **ulVersion** must be set to MAPI_INIT_VERSION.</span></span> 
     
- <span data-ttu-id="ad693-113">**ulFlags**</span><span class="sxs-lookup"><span data-stu-id="ad693-113">**ulFlags**</span></span>
+ <span data-ttu-id="8841d-113">**ulFlags**</span><span class="sxs-lookup"><span data-stu-id="8841d-113">**ulFlags**</span></span>
   
-> <span data-ttu-id="ad693-114">Битовая маска флагов, используемых для управления инициализацией сеанса MAPI.</span><span class="sxs-lookup"><span data-stu-id="ad693-114">The bitmask of flags used to control the initialization of the MAPI session.</span></span> <span data-ttu-id="ad693-115">Можно задать следующие флаги:</span><span class="sxs-lookup"><span data-stu-id="ad693-115">The following flags can be set:</span></span>
+> <span data-ttu-id="8841d-114">Битовая маска флагов, используемых для управления инициализацией сеанса MAPI.</span><span class="sxs-lookup"><span data-stu-id="8841d-114">The bitmask of flags used to control the initialization of the MAPI session.</span></span> <span data-ttu-id="8841d-115">Можно задать следующие флаги:</span><span class="sxs-lookup"><span data-stu-id="8841d-115">The following flags can be set:</span></span>
     
-<span data-ttu-id="ad693-116">МАПИ_МУЛТИСРЕАД_НОТИФИКАТИОНС</span><span class="sxs-lookup"><span data-stu-id="ad693-116">MAPI_MULTITHREAD_NOTIFICATIONS</span></span> 
+<span data-ttu-id="8841d-116">MAPI_MULTITHREAD_NOTIFICATIONS</span><span class="sxs-lookup"><span data-stu-id="8841d-116">MAPI_MULTITHREAD_NOTIFICATIONS</span></span> 
   
-> <span data-ttu-id="ad693-117">MAPI должен создавать уведомления с помощью потока, предназначенного для обработки уведомлений, а не для первого потока, используемого для вызова **мапиинитиализе**.</span><span class="sxs-lookup"><span data-stu-id="ad693-117">MAPI should generate notifications using a thread dedicated to notification handling instead of the first thread used to call **MAPIInitialize**.</span></span>
+> <span data-ttu-id="8841d-117">MAPI должен создавать уведомления с помощью потока, предназначенного для обработки уведомлений, а не для первого потока, используемого для вызова **мапиинитиализе**.</span><span class="sxs-lookup"><span data-stu-id="8841d-117">MAPI should generate notifications using a thread dedicated to notification handling instead of the first thread used to call **MAPIInitialize**.</span></span>
     
-<span data-ttu-id="ad693-118">МАПИ_НТ_СЕРВИЦЕ</span><span class="sxs-lookup"><span data-stu-id="ad693-118">MAPI_NT_SERVICE</span></span> 
+<span data-ttu-id="8841d-118">MAPI_NT_SERVICE</span><span class="sxs-lookup"><span data-stu-id="8841d-118">MAPI_NT_SERVICE</span></span> 
   
-> <span data-ttu-id="ad693-119">Вызывающий абонент работает как служба Windows.</span><span class="sxs-lookup"><span data-stu-id="ad693-119">The caller is running as a Windows service.</span></span> <span data-ttu-id="ad693-120">Вызывающие абоненты, которые не работают как служба Windows, не должны устанавливать этот флаг; для абонентов, работающих в качестве службы, необходимо установить этот флаг.</span><span class="sxs-lookup"><span data-stu-id="ad693-120">Callers that are not running as a Windows service should not set this flag; callers that are running as a service must set this flag.</span></span>
+> <span data-ttu-id="8841d-119">Вызывающий абонент работает как служба Windows.</span><span class="sxs-lookup"><span data-stu-id="8841d-119">The caller is running as a Windows service.</span></span> <span data-ttu-id="8841d-120">Вызывающие абоненты, которые не работают как служба Windows, не должны устанавливать этот флаг; для абонентов, работающих в качестве службы, необходимо установить этот флаг.</span><span class="sxs-lookup"><span data-stu-id="8841d-120">Callers that are not running as a Windows service should not set this flag; callers that are running as a service must set this flag.</span></span>
     
-<span data-ttu-id="ad693-121">МАПИ_НО_КОИНИТ</span><span class="sxs-lookup"><span data-stu-id="ad693-121">MAPI_NO_COINIT</span></span>
+<span data-ttu-id="8841d-121">MAPI_NO_COINIT</span><span class="sxs-lookup"><span data-stu-id="8841d-121">MAPI_NO_COINIT</span></span>
   
-> <span data-ttu-id="ad693-122">Установите флаг МАПИ_НО_КОИНТ таким образом, чтобы **мапиинитиализе** не пытался инициализировать COM при вызове функции [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="ad693-122">Set the MAPI_NO_COINT flag so that **MAPIInitialize** does not try to initialize COM with a call to [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx).</span></span> <span data-ttu-id="ad693-123">Если структура **MAPIINIT_0** передается в **мапиинитиализе** с параметром _ulFlags_ , равным мапи_но_коинит, то MAPI предполагает, что модель COM уже инициализирована и не будет обходить вызов **CoInitialize**.</span><span class="sxs-lookup"><span data-stu-id="ad693-123">If a **MAPIINIT_0** structure is passed into **MAPIInitialize** with  _ulFlags_ set to MAPI_NO_COINIT, MAPI will assume that COM has already been initialized and will bypass the call to **CoInitialize**.</span></span>
+> <span data-ttu-id="8841d-122">Установите флаг MAPI_NO_COINT, чтобы **мапиинитиализе** не пытался инициализировать COM при вызове функции [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="8841d-122">Set the MAPI_NO_COINT flag so that **MAPIInitialize** does not try to initialize COM with a call to [CoInitialize](https://msdn.microsoft.com/library/0f171cf4-87b9-43a6-97f2-80ed344fe376%28Office.15%29.aspx).</span></span> <span data-ttu-id="8841d-123">Если структура **MAPIINIT_0** передается в **мапиинитиализе** с _ulFlags_ , установленным на MAPI_NO_COINIT, то MAPI считает, что com уже инициализирован, и не будет обходить вызов **CoInitialize**.</span><span class="sxs-lookup"><span data-stu-id="8841d-123">If a **MAPIINIT_0** structure is passed into **MAPIInitialize** with  _ulFlags_ set to MAPI_NO_COINIT, MAPI will assume that COM has already been initialized and will bypass the call to **CoInitialize**.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="ad693-124">Примечания</span><span class="sxs-lookup"><span data-stu-id="ad693-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8841d-124">Примечания</span><span class="sxs-lookup"><span data-stu-id="8841d-124">Remarks</span></span>
 
-<span data-ttu-id="ad693-125">Многопотоковые клиенты должны устанавливать флаг МАПИ_МУЛТИСРЕАД_НОТИФИКАТИОНС.</span><span class="sxs-lookup"><span data-stu-id="ad693-125">Multithreaded clients should set the MAPI_MULTITHREAD_NOTIFICATIONS flag.</span></span> <span data-ttu-id="ad693-126">Если флаг не установлен, уведомления создаются в потоке, используемом для совершения первого вызова **мапиинитиализе**.</span><span class="sxs-lookup"><span data-stu-id="ad693-126">If the flag is not set, notifications are generated on the thread used to make the first call to **MAPIInitialize**.</span></span> 
+<span data-ttu-id="8841d-125">Многопотоковые клиенты должны устанавливать флаг MAPI_MULTITHREAD_NOTIFICATIONS.</span><span class="sxs-lookup"><span data-stu-id="8841d-125">Multithreaded clients should set the MAPI_MULTITHREAD_NOTIFICATIONS flag.</span></span> <span data-ttu-id="8841d-126">Если флаг не установлен, уведомления создаются в потоке, используемом для совершения первого вызова **мапиинитиализе**.</span><span class="sxs-lookup"><span data-stu-id="8841d-126">If the flag is not set, notifications are generated on the thread used to make the first call to **MAPIInitialize**.</span></span> 
   
-<span data-ttu-id="ad693-127">Дополнительные сведения о том, когда следует устанавливать этот флаг и как реализовать потокобезопасность в клиенте, см [в разделе Threading in MAPI](threading-in-mapi.md).</span><span class="sxs-lookup"><span data-stu-id="ad693-127">For more information about when to set this flag and how to implement thread safety in a client, see [Threading in MAPI](threading-in-mapi.md).</span></span> 
+<span data-ttu-id="8841d-127">Дополнительные сведения о том, когда следует устанавливать этот флаг и как реализовать потокобезопасность в клиенте, см [в разделе Threading in MAPI](threading-in-mapi.md).</span><span class="sxs-lookup"><span data-stu-id="8841d-127">For more information about when to set this flag and how to implement thread safety in a client, see [Threading in MAPI](threading-in-mapi.md).</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="ad693-128">См. также</span><span class="sxs-lookup"><span data-stu-id="ad693-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="8841d-128">См. также</span><span class="sxs-lookup"><span data-stu-id="8841d-128">See also</span></span>
 
 
 
-[<span data-ttu-id="ad693-129">MAPIInitialize</span><span class="sxs-lookup"><span data-stu-id="ad693-129">MAPIInitialize</span></span>](mapiinitialize.md)
+[<span data-ttu-id="8841d-129">MAPIInitialize</span><span class="sxs-lookup"><span data-stu-id="8841d-129">MAPIInitialize</span></span>](mapiinitialize.md)
 
 
-[<span data-ttu-id="ad693-130">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="ad693-130">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="8841d-130">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="8841d-130">MAPI Structures</span></span>](mapi-structures.md)
 

@@ -19,56 +19,56 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316291"
 ---
-# <a name="pidtagflagcompletetime-canonical-property"></a><span data-ttu-id="b30ff-103">Каноническое свойство PidTagFlagCompleteTime</span><span class="sxs-lookup"><span data-stu-id="b30ff-103">PidTagFlagCompleteTime Canonical Property</span></span>
+# <a name="pidtagflagcompletetime-canonical-property"></a><span data-ttu-id="bcafa-103">Каноническое свойство PidTagFlagCompleteTime</span><span class="sxs-lookup"><span data-stu-id="bcafa-103">PidTagFlagCompleteTime Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b30ff-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b30ff-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bcafa-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bcafa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b30ff-105">Указывает дату и время в формате UTC, когда объект Message был помечен как завершенный.</span><span class="sxs-lookup"><span data-stu-id="b30ff-105">Specifies the date and time in Coordinated Universal Time (UTC) that the message object was flagged as completed.</span></span>
+<span data-ttu-id="bcafa-105">Указывает дату и время в формате UTC, когда объект Message был помечен как завершенный.</span><span class="sxs-lookup"><span data-stu-id="bcafa-105">Specifies the date and time in Coordinated Universal Time (UTC) that the message object was flagged as completed.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b30ff-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="b30ff-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b30ff-107">ПР_ФЛАГ_КОМПЛЕТЕ_ТИМЕ</span><span class="sxs-lookup"><span data-stu-id="b30ff-107">PR_FLAG_COMPLETE_TIME</span></span>  <br/> |
-|<span data-ttu-id="b30ff-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="b30ff-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b30ff-109">0x1091</span><span class="sxs-lookup"><span data-stu-id="b30ff-109">0x1091</span></span>  <br/> |
-|<span data-ttu-id="b30ff-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="b30ff-110">Data type:</span></span>  <br/> |<span data-ttu-id="b30ff-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="b30ff-111">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="b30ff-112">Область:</span><span class="sxs-lookup"><span data-stu-id="b30ff-112">Area:</span></span>  <br/> |<span data-ttu-id="b30ff-113">Разное</span><span class="sxs-lookup"><span data-stu-id="b30ff-113">Miscellaneous</span></span>  <br/> |
+|<span data-ttu-id="bcafa-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="bcafa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="bcafa-107">PR_FLAG_COMPLETE_TIME</span><span class="sxs-lookup"><span data-stu-id="bcafa-107">PR_FLAG_COMPLETE_TIME</span></span>  <br/> |
+|<span data-ttu-id="bcafa-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="bcafa-108">Identifier:</span></span>  <br/> |<span data-ttu-id="bcafa-109">0x1091</span><span class="sxs-lookup"><span data-stu-id="bcafa-109">0x1091</span></span>  <br/> |
+|<span data-ttu-id="bcafa-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="bcafa-110">Data type:</span></span>  <br/> |<span data-ttu-id="bcafa-111">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="bcafa-111">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="bcafa-112">Область:</span><span class="sxs-lookup"><span data-stu-id="bcafa-112">Area:</span></span>  <br/> |<span data-ttu-id="bcafa-113">Разное</span><span class="sxs-lookup"><span data-stu-id="bcafa-113">Miscellaneous</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b30ff-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="b30ff-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bcafa-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="bcafa-114">Remarks</span></span>
 
-<span data-ttu-id="b30ff-115">Это свойство удаляется, если объект Message не помечен как завершенный.</span><span class="sxs-lookup"><span data-stu-id="b30ff-115">This property is deleted if the message object is not flagged complete.</span></span> <span data-ttu-id="b30ff-116">Наименьшее разрешение времени должно быть в минутах (значение должно быть кратно 600 000 000).</span><span class="sxs-lookup"><span data-stu-id="b30ff-116">The time's smallest resolution must be minutes (the value must be a multiple of 600,000,000).</span></span> <span data-ttu-id="b30ff-117">Это свойство не должно существовать, если объект является объектом, связанным с собранием, и он не должен существовать в объекте Task.</span><span class="sxs-lookup"><span data-stu-id="b30ff-117">This property must not exist if the object is a meeting-related object, and it should not exist on a task object.</span></span>
+<span data-ttu-id="bcafa-115">Это свойство удаляется, если объект Message не помечен как завершенный.</span><span class="sxs-lookup"><span data-stu-id="bcafa-115">This property is deleted if the message object is not flagged complete.</span></span> <span data-ttu-id="bcafa-116">Наименьшее разрешение времени должно быть в минутах (значение должно быть кратно 600 000 000).</span><span class="sxs-lookup"><span data-stu-id="bcafa-116">The time's smallest resolution must be minutes (the value must be a multiple of 600,000,000).</span></span> <span data-ttu-id="bcafa-117">Это свойство не должно существовать, если объект является объектом, связанным с собранием, и он не должен существовать в объекте Task.</span><span class="sxs-lookup"><span data-stu-id="bcafa-117">This property must not exist if the object is a meeting-related object, and it should not exist on a task object.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="b30ff-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="b30ff-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="bcafa-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="bcafa-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="b30ff-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="b30ff-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="bcafa-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="bcafa-119">Protocol specifications</span></span>
 
-<span data-ttu-id="b30ff-120">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b30ff-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bcafa-120">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bcafa-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b30ff-121">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="b30ff-121">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="bcafa-121">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="bcafa-121">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="b30ff-122">[[MS — ОКСОФЛАГ]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b30ff-122">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bcafa-122">[[MS — ОКСОФЛАГ]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bcafa-122">[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b30ff-123">Задает свойства и операции, связанные с пометкой.</span><span class="sxs-lookup"><span data-stu-id="b30ff-123">Specifies the properties and operations related to flagging.</span></span>
+> <span data-ttu-id="bcafa-123">Задает свойства и операции, связанные с пометкой.</span><span class="sxs-lookup"><span data-stu-id="bcafa-123">Specifies the properties and operations related to flagging.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="b30ff-124">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="b30ff-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="bcafa-124">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="bcafa-124">Header files</span></span>
 
-<span data-ttu-id="b30ff-125">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="b30ff-125">Mapidefs.h</span></span>
+<span data-ttu-id="bcafa-125">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="bcafa-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="b30ff-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="b30ff-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="bcafa-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="bcafa-126">Provides data type definitions.</span></span>
     
-<span data-ttu-id="b30ff-127">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="b30ff-127">Mapitags.h</span></span>
+<span data-ttu-id="bcafa-127">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="bcafa-127">Mapitags.h</span></span>
   
-> <span data-ttu-id="b30ff-128">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="b30ff-128">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="bcafa-128">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="bcafa-128">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b30ff-129">См. также</span><span class="sxs-lookup"><span data-stu-id="b30ff-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bcafa-129">См. также</span><span class="sxs-lookup"><span data-stu-id="bcafa-129">See also</span></span>
 
 
 
-[<span data-ttu-id="b30ff-130">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="b30ff-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="bcafa-130">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="bcafa-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b30ff-131">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="b30ff-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="bcafa-131">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="bcafa-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b30ff-132">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="b30ff-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="bcafa-132">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="bcafa-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b30ff-133">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="b30ff-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="bcafa-133">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="bcafa-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

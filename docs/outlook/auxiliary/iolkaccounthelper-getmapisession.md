@@ -1,5 +1,5 @@
 ---
-title: Иолкаккаунселпержетмаписессион
+title: иолкаккаунселпержетмаписессион
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32322178"
 ---
-# <a name="iolkaccounthelpergetmapisession"></a><span data-ttu-id="43539-103">IOlkAccountHelper::GetMapiSession</span><span class="sxs-lookup"><span data-stu-id="43539-103">IOlkAccountHelper::GetMapiSession</span></span>
+# <a name="iolkaccounthelpergetmapisession"></a><span data-ttu-id="440eb-103">IOlkAccountHelper::GetMapiSession</span><span class="sxs-lookup"><span data-stu-id="440eb-103">IOlkAccountHelper::GetMapiSession</span></span>
 
-<span data-ttu-id="43539-104">Открывает сеанс MAPI и поддерживает ссылку на сеанс для диспетчера учетных записей.</span><span class="sxs-lookup"><span data-stu-id="43539-104">Opens a MAPI session and maintains a reference to the session for the account manager.</span></span>
+<span data-ttu-id="440eb-104">Открывает сеанс MAPI и поддерживает ссылку на сеанс для диспетчера учетных записей.</span><span class="sxs-lookup"><span data-stu-id="440eb-104">Opens a MAPI session and maintains a reference to the session for the account manager.</span></span>
   
-## <a name="quick-info"></a><span data-ttu-id="43539-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="43539-105">Quick info</span></span>
+## <a name="quick-info"></a><span data-ttu-id="440eb-105">Краткие сведения</span><span class="sxs-lookup"><span data-stu-id="440eb-105">Quick info</span></span>
 
-<span data-ttu-id="43539-106">Обратитесь к разделу [иолкаккаунселпер](iolkaccounthelper.md).</span><span class="sxs-lookup"><span data-stu-id="43539-106">See [IOlkAccountHelper](iolkaccounthelper.md).</span></span>
+<span data-ttu-id="440eb-106">Обратитесь к разделу [иолкаккаунселпер](iolkaccounthelper.md).</span><span class="sxs-lookup"><span data-stu-id="440eb-106">See [IOlkAccountHelper](iolkaccounthelper.md).</span></span>
   
 ```cpp
 HRESULT IOlkAccountHelper::GetMapiSession(  
@@ -28,22 +28,22 @@ HRESULT IOlkAccountHelper::GetMapiSession(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="43539-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="43539-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="440eb-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="440eb-107">Parameters</span></span>
 
-<span data-ttu-id="43539-108">_ппмсесс_</span><span class="sxs-lookup"><span data-stu-id="43539-108">_ppmsess_</span></span>
+<span data-ttu-id="440eb-108">_ппмсесс_</span><span class="sxs-lookup"><span data-stu-id="440eb-108">_ppmsess_</span></span>
   
-> <span data-ttu-id="43539-109">вышли Текущий сеанс MAPI.</span><span class="sxs-lookup"><span data-stu-id="43539-109">[out] The current MAPI session.</span></span>
+> <span data-ttu-id="440eb-109">вышли Текущий сеанс MAPI.</span><span class="sxs-lookup"><span data-stu-id="440eb-109">[out] The current MAPI session.</span></span>
     
-## <a name="return-values"></a><span data-ttu-id="43539-110">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="43539-110">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="440eb-110">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="440eb-110">Return values</span></span>
 
-<span data-ttu-id="43539-111">S_OK if the call succeeded; otherwise, an error code.</span><span class="sxs-lookup"><span data-stu-id="43539-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
+<span data-ttu-id="440eb-111">S_OK if the call succeeded; otherwise, an error code.</span><span class="sxs-lookup"><span data-stu-id="440eb-111">S_OK if the call succeeded; otherwise, an error code.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="43539-112">Замечания</span><span class="sxs-lookup"><span data-stu-id="43539-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="440eb-112">Примечания</span><span class="sxs-lookup"><span data-stu-id="440eb-112">Remarks</span></span>
 
-<span data-ttu-id="43539-113">Из-за проблем с циклическими ссылками менеджеру по учетным записям не удается поддерживать ссылку для сеанса MAPI.</span><span class="sxs-lookup"><span data-stu-id="43539-113">Because of circular reference problems, the account manager itself cannot maintain the reference for the MAPI session.</span></span>
+<span data-ttu-id="440eb-113">Из-за проблем с циклическими ссылками менеджеру по учетным записям не удается поддерживать ссылку для сеанса MAPI.</span><span class="sxs-lookup"><span data-stu-id="440eb-113">Because of circular reference problems, the account manager itself cannot maintain the reference for the MAPI session.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="43539-114">См. также</span><span class="sxs-lookup"><span data-stu-id="43539-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="440eb-114">См. также</span><span class="sxs-lookup"><span data-stu-id="440eb-114">See also</span></span>
 
-- [<span data-ttu-id="43539-115">IOlkAccountHelper::HandsOffSession</span><span class="sxs-lookup"><span data-stu-id="43539-115">IOlkAccountHelper::HandsOffSession</span></span>](iolkaccounthelper-handsoffsession.md)
-- [<span data-ttu-id="43539-116">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="43539-116">IMAPISession : IUnknown</span></span>](https://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx)
+- [<span data-ttu-id="440eb-115">IOlkAccountHelper::HandsOffSession</span><span class="sxs-lookup"><span data-stu-id="440eb-115">IOlkAccountHelper::HandsOffSession</span></span>](iolkaccounthelper-handsoffsession.md)
+- [<span data-ttu-id="440eb-116">IMAPISession: IUnknown</span><span class="sxs-lookup"><span data-stu-id="440eb-116">IMAPISession : IUnknown</span></span>](https://msdn.microsoft.com/library/5650fa2a-6e62-451c-964e-363f7bee2344%28Office.15%29.aspx)
 

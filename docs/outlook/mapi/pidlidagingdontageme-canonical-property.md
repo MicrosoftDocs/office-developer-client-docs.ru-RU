@@ -19,57 +19,57 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32278829"
 ---
-# <a name="pidlidagingdontageme-canonical-property"></a><span data-ttu-id="b038c-103">Каноническое свойство PidLidAgingDontAgeMe</span><span class="sxs-lookup"><span data-stu-id="b038c-103">PidLidAgingDontAgeMe Canonical Property</span></span>
+# <a name="pidlidagingdontageme-canonical-property"></a><span data-ttu-id="bda22-103">Каноническое свойство PidLidAgingDontAgeMe</span><span class="sxs-lookup"><span data-stu-id="bda22-103">PidLidAgingDontAgeMe Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b038c-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b038c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bda22-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bda22-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b038c-105">Задает значение TRUE, если элемент не будет автоматически архивироваться.</span><span class="sxs-lookup"><span data-stu-id="b038c-105">Specifies a value of TRUE if the item will not be automatically archived.</span></span>
+<span data-ttu-id="bda22-105">Задает значение TRUE, если элемент не будет автоматически архивироваться.</span><span class="sxs-lookup"><span data-stu-id="bda22-105">Specifies a value of TRUE if the item will not be automatically archived.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b038c-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="b038c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b038c-107">Диспидагингдонтажеме</span><span class="sxs-lookup"><span data-stu-id="b038c-107">dispidAgingDontAgeMe</span></span>  <br/> |
-|<span data-ttu-id="b038c-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="b038c-108">Property set:</span></span>  <br/> |<span data-ttu-id="b038c-109">Псетид_коммон</span><span class="sxs-lookup"><span data-stu-id="b038c-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="b038c-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="b038c-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="b038c-111">0x0000850E</span><span class="sxs-lookup"><span data-stu-id="b038c-111">0x0000850E</span></span>  <br/> |
-|<span data-ttu-id="b038c-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="b038c-112">Data type:</span></span>  <br/> |<span data-ttu-id="b038c-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="b038c-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="b038c-114">Область:</span><span class="sxs-lookup"><span data-stu-id="b038c-114">Area:</span></span>  <br/> |<span data-ttu-id="b038c-115">Распространенная</span><span class="sxs-lookup"><span data-stu-id="b038c-115">Common</span></span>  <br/> |
+|<span data-ttu-id="bda22-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="bda22-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="bda22-107">диспидагингдонтажеме</span><span class="sxs-lookup"><span data-stu-id="bda22-107">dispidAgingDontAgeMe</span></span>  <br/> |
+|<span data-ttu-id="bda22-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="bda22-108">Property set:</span></span>  <br/> |<span data-ttu-id="bda22-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="bda22-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="bda22-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="bda22-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="bda22-111">0x0000850E</span><span class="sxs-lookup"><span data-stu-id="bda22-111">0x0000850E</span></span>  <br/> |
+|<span data-ttu-id="bda22-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="bda22-112">Data type:</span></span>  <br/> |<span data-ttu-id="bda22-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="bda22-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="bda22-114">Область:</span><span class="sxs-lookup"><span data-stu-id="bda22-114">Area:</span></span>  <br/> |<span data-ttu-id="bda22-115">Распространенная</span><span class="sxs-lookup"><span data-stu-id="bda22-115">Common</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="b038c-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="b038c-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="bda22-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="bda22-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="b038c-117">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="b038c-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="bda22-117">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="bda22-117">Protocol specifications</span></span>
 
-<span data-ttu-id="b038c-118">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b038c-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bda22-118">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bda22-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b038c-119">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="b038c-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="bda22-119">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="bda22-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="b038c-120">[[MS — ОКСКФКСИКС]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b038c-120">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bda22-120">[[MS — ОКСКФКСИКС]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bda22-120">[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b038c-121">Обрабатывает порядок и потоки для передачи данных между клиентом и сервером.</span><span class="sxs-lookup"><span data-stu-id="b038c-121">Handles the order and flow for data transfers between a client and server.</span></span>
+> <span data-ttu-id="bda22-121">Обрабатывает порядок и потоки для передачи данных между клиентом и сервером.</span><span class="sxs-lookup"><span data-stu-id="bda22-121">Handles the order and flow for data transfers between a client and server.</span></span>
     
-<span data-ttu-id="b038c-122">[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b038c-122">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bda22-122">[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bda22-122">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b038c-123">Преобразование между IETF RFC2445, RFC2446 и RFC2447, а затем встречами и собраниями.</span><span class="sxs-lookup"><span data-stu-id="b038c-123">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointments and meetings.</span></span>
+> <span data-ttu-id="bda22-123">Преобразование между IETF RFC2445, RFC2446 и RFC2447, а затем встречами и собраниями.</span><span class="sxs-lookup"><span data-stu-id="bda22-123">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointments and meetings.</span></span>
     
-<span data-ttu-id="b038c-124">[[MS — ОКСТНЕФ]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b038c-124">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bda22-124">[[MS — ОКСТНЕФ]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bda22-124">[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b038c-125">Кодирует и декодирует объекты сообщений и вложений в эффективное потоковое представление.</span><span class="sxs-lookup"><span data-stu-id="b038c-125">Encodes and decodes message and attachment objects to an efficient stream representation.</span></span>
+> <span data-ttu-id="bda22-125">Кодирует и декодирует объекты сообщений и вложений в эффективное потоковое представление.</span><span class="sxs-lookup"><span data-stu-id="bda22-125">Encodes and decodes message and attachment objects to an efficient stream representation.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="b038c-126">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="b038c-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="bda22-126">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="bda22-126">Header files</span></span>
 
-<span data-ttu-id="b038c-127">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="b038c-127">Mapidefs.h</span></span>
+<span data-ttu-id="bda22-127">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="bda22-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="b038c-128">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="b038c-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="bda22-128">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="bda22-128">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b038c-129">См. также</span><span class="sxs-lookup"><span data-stu-id="b038c-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bda22-129">См. также</span><span class="sxs-lookup"><span data-stu-id="bda22-129">See also</span></span>
 
 
 
-[<span data-ttu-id="b038c-130">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="b038c-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="bda22-130">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="bda22-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b038c-131">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="b038c-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="bda22-131">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="bda22-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b038c-132">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="b038c-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="bda22-132">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="bda22-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b038c-133">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="b038c-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="bda22-133">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="bda22-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

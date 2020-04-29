@@ -34,7 +34,7 @@ ms.locfileid: "32300352"
 |<span data-ttu-id="f7336-125">Условия соглашения</span><span class="sxs-lookup"><span data-stu-id="f7336-125">Terms of Use Agreement</span></span>  <br/> |<span data-ttu-id="f7336-126">com_microsoft_office_termsofuse</span><span class="sxs-lookup"><span data-stu-id="f7336-126">com_microsoft_office_termsofuse</span></span>  <br/> |<span data-ttu-id="f7336-127">\<Я соглашаюсь с условиями, указанными на странице https://go.microsoft.com/fwlink/p/?LinkId=528381\></span><span class="sxs-lookup"><span data-stu-id="f7336-127">\<I agree to the terms located at https://go.microsoft.com/fwlink/p/?LinkId=528381\></span></span>  <br/> |
    
 ## <a name="see-also"></a><span data-ttu-id="f7336-128">См. также</span><span class="sxs-lookup"><span data-stu-id="f7336-128">See also</span></span>
-<span data-ttu-id="f7336-129"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="f7336-129"></span></span>
+<span data-ttu-id="f7336-129"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="f7336-129"><a name="bk_addresources"> </a></span></span>
 
 - [<span data-ttu-id="f7336-130">Интеграция с Office</span><span class="sxs-lookup"><span data-stu-id="f7336-130">Integrate with Office</span></span>](integrate-with-office.md)
     

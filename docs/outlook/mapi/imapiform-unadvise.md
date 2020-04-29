@@ -1,5 +1,5 @@
 ---
-title: Имапиформунадвисе
+title: имапиформунадвисе
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32329472"
 ---
-# <a name="imapiformunadvise"></a><span data-ttu-id="c37c0-103">IMAPIForm::Unadvise</span><span class="sxs-lookup"><span data-stu-id="c37c0-103">IMAPIForm::Unadvise</span></span>
+# <a name="imapiformunadvise"></a><span data-ttu-id="86c59-103">IMAPIForm::Unadvise</span><span class="sxs-lookup"><span data-stu-id="86c59-103">IMAPIForm::Unadvise</span></span>
 
   
   
-<span data-ttu-id="c37c0-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c37c0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="86c59-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="86c59-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c37c0-105">ОтМеняет регистрацию для уведомлений с помощью средства просмотра форм, ранее установленного вызовом [имапиформ:: Advise](imapiform-advise.md).</span><span class="sxs-lookup"><span data-stu-id="c37c0-105">Cancels a registration for notifications with a form viewer previously established by calling [IMAPIForm::Advise](imapiform-advise.md).</span></span>
+<span data-ttu-id="86c59-105">Отменяет регистрацию для уведомлений с помощью средства просмотра форм, ранее установленного вызовом [имапиформ:: Advise](imapiform-advise.md).</span><span class="sxs-lookup"><span data-stu-id="86c59-105">Cancels a registration for notifications with a form viewer previously established by calling [IMAPIForm::Advise](imapiform-advise.md).</span></span>
   
 ```cpp
 HRESULT Unadvise(
@@ -33,37 +33,37 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c37c0-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="c37c0-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="86c59-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="86c59-106">Parameters</span></span>
 
- <span data-ttu-id="c37c0-107">_Улконнектион_</span><span class="sxs-lookup"><span data-stu-id="c37c0-107">_ulConnection_</span></span>
+ <span data-ttu-id="86c59-107">_улконнектион_</span><span class="sxs-lookup"><span data-stu-id="86c59-107">_ulConnection_</span></span>
   
-> <span data-ttu-id="c37c0-108">возврата Номер подключения, указывающий на отмену регистрации уведомления.</span><span class="sxs-lookup"><span data-stu-id="c37c0-108">[in] A connection number that identifies the notification registration to be canceled.</span></span>
+> <span data-ttu-id="86c59-108">возврата Номер подключения, указывающий на отмену регистрации уведомления.</span><span class="sxs-lookup"><span data-stu-id="86c59-108">[in] A connection number that identifies the notification registration to be canceled.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c37c0-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c37c0-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="86c59-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="86c59-109">Return value</span></span>
 
-<span data-ttu-id="c37c0-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="c37c0-110">S_OK</span></span> 
+<span data-ttu-id="86c59-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="86c59-110">S_OK</span></span> 
   
-> <span data-ttu-id="c37c0-111">Регистрация отменена.</span><span class="sxs-lookup"><span data-stu-id="c37c0-111">The registration was canceled.</span></span>
+> <span data-ttu-id="86c59-111">Регистрация отменена.</span><span class="sxs-lookup"><span data-stu-id="86c59-111">The registration was canceled.</span></span>
     
-<span data-ttu-id="c37c0-112">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="c37c0-112">E_INVALIDARG</span></span> 
+<span data-ttu-id="86c59-112">E_INVALIDARG</span><span class="sxs-lookup"><span data-stu-id="86c59-112">E_INVALIDARG</span></span> 
   
-> <span data-ttu-id="c37c0-113">Номер подключения, переданный в параметре _улконнектион_ , не представляет допустимую регистрацию.</span><span class="sxs-lookup"><span data-stu-id="c37c0-113">The connection number passed in the  _ulConnection_ parameter does not represent a valid registration.</span></span> 
+> <span data-ttu-id="86c59-113">Номер подключения, переданный в параметре _улконнектион_ , не представляет допустимую регистрацию.</span><span class="sxs-lookup"><span data-stu-id="86c59-113">The connection number passed in the  _ulConnection_ parameter does not represent a valid registration.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="c37c0-114">Комментарии</span><span class="sxs-lookup"><span data-stu-id="c37c0-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="86c59-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="86c59-114">Remarks</span></span>
 
-<span data-ttu-id="c37c0-115">В средствах просмотра форм вызывается метод **имапиформ:: unadvise** для отмены регистрации уведомлений, которые были установлены при вызове метода **Имапиформ:: Advise** .</span><span class="sxs-lookup"><span data-stu-id="c37c0-115">Form viewers call the **IMAPIForm::Unadvise** method to cancel a registration for notification that they first established by calling the **IMAPIForm::Advise** method.</span></span> 
+<span data-ttu-id="86c59-115">В средствах просмотра форм вызывается метод **имапиформ:: unadvise** для отмены регистрации уведомлений, которые были установлены при вызове метода **Имапиформ:: Advise** .</span><span class="sxs-lookup"><span data-stu-id="86c59-115">Form viewers call the **IMAPIForm::Unadvise** method to cancel a registration for notification that they first established by calling the **IMAPIForm::Advise** method.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="c37c0-116">Примечания для исполнителей</span><span class="sxs-lookup"><span data-stu-id="c37c0-116">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="86c59-116">Примечания для исполнителей</span><span class="sxs-lookup"><span data-stu-id="86c59-116">Notes to implementers</span></span>
 
-<span data-ttu-id="c37c0-117">Отмените указатель, который вы удерживаете, в приемник уведомлений просмотра формы, вызвав его метод [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="c37c0-117">Discard the pointer that you are holding to the form viewer's view advise sink by calling its [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method.</span></span> <span data-ttu-id="c37c0-118">Как правило, **выпуск** вызывается во время вызова метода unadvise. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="c37c0-118">Generally, **Release** is called during the **Unadvise** call.</span></span> <span data-ttu-id="c37c0-119">Тем не менее, если другой поток находится в процессе вызова одного из методов [имапивиевадвисесинк](imapiviewadvisesinkiunknown.md) для приемника уведомлений о просмотре, задерживает вызов **освобождения** до возвращения метода **имапивиевадвисесинк** .</span><span class="sxs-lookup"><span data-stu-id="c37c0-119">However, if another thread is in the process of calling one of the [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) methods for the view advise sink, delay the **Release** call until the **IMAPIViewAdviseSink** method returns.</span></span> 
+<span data-ttu-id="86c59-117">Отмените указатель, который вы удерживаете, в приемник уведомлений просмотра формы, вызвав его метод [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="86c59-117">Discard the pointer that you are holding to the form viewer's view advise sink by calling its [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method.</span></span> <span data-ttu-id="86c59-118">Как правило, **выпуск** вызывается во время вызова метода **unadvise** .</span><span class="sxs-lookup"><span data-stu-id="86c59-118">Generally, **Release** is called during the **Unadvise** call.</span></span> <span data-ttu-id="86c59-119">Тем не менее, если другой поток находится в процессе вызова одного из методов [имапивиевадвисесинк](imapiviewadvisesinkiunknown.md) для приемника уведомлений о просмотре, задерживает вызов **освобождения** до возвращения метода **имапивиевадвисесинк** .</span><span class="sxs-lookup"><span data-stu-id="86c59-119">However, if another thread is in the process of calling one of the [IMAPIViewAdviseSink](imapiviewadvisesinkiunknown.md) methods for the view advise sink, delay the **Release** call until the **IMAPIViewAdviseSink** method returns.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="c37c0-120">См. также</span><span class="sxs-lookup"><span data-stu-id="c37c0-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="86c59-120">См. также</span><span class="sxs-lookup"><span data-stu-id="86c59-120">See also</span></span>
 
 
 
-[<span data-ttu-id="c37c0-121">IMAPIForm::Advise</span><span class="sxs-lookup"><span data-stu-id="c37c0-121">IMAPIForm::Advise</span></span>](imapiform-advise.md)
+[<span data-ttu-id="86c59-121">IMAPIForm::Advise</span><span class="sxs-lookup"><span data-stu-id="86c59-121">IMAPIForm::Advise</span></span>](imapiform-advise.md)
   
-[<span data-ttu-id="c37c0-122">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c37c0-122">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
+[<span data-ttu-id="86c59-122">IMAPIViewAdviseSink : IUnknown</span><span class="sxs-lookup"><span data-stu-id="86c59-122">IMAPIViewAdviseSink : IUnknown</span></span>](imapiviewadvisesinkiunknown.md)
   
-[<span data-ttu-id="c37c0-123">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c37c0-123">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
+[<span data-ttu-id="86c59-123">IMAPIForm : IUnknown</span><span class="sxs-lookup"><span data-stu-id="86c59-123">IMAPIForm : IUnknown</span></span>](imapiformiunknown.md)
 

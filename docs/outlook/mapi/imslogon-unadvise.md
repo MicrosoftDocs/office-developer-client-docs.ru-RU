@@ -1,5 +1,5 @@
 ---
-title: Имслогонунадвисе
+title: имслогонунадвисе
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32317278"
 ---
-# <a name="imslogonunadvise"></a><span data-ttu-id="62240-103">IMSLogon::Unadvise</span><span class="sxs-lookup"><span data-stu-id="62240-103">IMSLogon::Unadvise</span></span>
+# <a name="imslogonunadvise"></a><span data-ttu-id="d887a-103">IMSLogon::Unadvise</span><span class="sxs-lookup"><span data-stu-id="d887a-103">IMSLogon::Unadvise</span></span>
 
   
   
-<span data-ttu-id="62240-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="62240-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="d887a-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d887a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="62240-105">Удаляет регистрацию объекта для уведомления об изменениях хранилища сообщений, ранее установленных с помощью вызова метода [имслогон:: Advise](imslogon-advise.md) .</span><span class="sxs-lookup"><span data-stu-id="62240-105">Removes an object's registration for notification of message store changes previously established by using a call to the [IMSLogon::Advise](imslogon-advise.md) method.</span></span> 
+<span data-ttu-id="d887a-105">Удаляет регистрацию объекта для уведомления об изменениях хранилища сообщений, ранее установленных с помощью вызова метода [имслогон:: Advise](imslogon-advise.md) .</span><span class="sxs-lookup"><span data-stu-id="d887a-105">Removes an object's registration for notification of message store changes previously established by using a call to the [IMSLogon::Advise](imslogon-advise.md) method.</span></span> 
   
 ```cpp
 HRESULT Unadvise(
@@ -33,29 +33,29 @@ HRESULT Unadvise(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="62240-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="62240-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="d887a-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="d887a-106">Parameters</span></span>
 
- <span data-ttu-id="62240-107">_Улконнектион_</span><span class="sxs-lookup"><span data-stu-id="62240-107">_ulConnection_</span></span>
+ <span data-ttu-id="d887a-107">_улконнектион_</span><span class="sxs-lookup"><span data-stu-id="d887a-107">_ulConnection_</span></span>
   
-> <span data-ttu-id="62240-108">возврата Номер регистрационного подключения, возвращенного при вызове **имслогон:: Advise**.</span><span class="sxs-lookup"><span data-stu-id="62240-108">[in] The number of the registration connection returned by a call to **IMSLogon::Advise**.</span></span>
+> <span data-ttu-id="d887a-108">возврата Номер регистрационного подключения, возвращенного при вызове **имслогон:: Advise**.</span><span class="sxs-lookup"><span data-stu-id="d887a-108">[in] The number of the registration connection returned by a call to **IMSLogon::Advise**.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="62240-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="62240-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d887a-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="d887a-109">Return value</span></span>
 
-<span data-ttu-id="62240-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="62240-110">S_OK</span></span> 
+<span data-ttu-id="d887a-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="d887a-110">S_OK</span></span> 
   
-> <span data-ttu-id="62240-111">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="62240-111">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="d887a-111">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="d887a-111">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="62240-112">Замечания</span><span class="sxs-lookup"><span data-stu-id="62240-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d887a-112">Примечания</span><span class="sxs-lookup"><span data-stu-id="d887a-112">Remarks</span></span>
 
-<span data-ttu-id="62240-113">Поставщики хранилища сообщений реализуют метод **имслогон::** Unadvise для освобождения указателя на объект приемника уведомлений, переданный в параметре _Лпадвисесинк_ предыдущего вызова **имслогон:: Advise**, отменяя уведомление зарегистрировал.</span><span class="sxs-lookup"><span data-stu-id="62240-113">Message store providers implement the **IMSLogon::Unadvise** method to release the pointer to the advise sink object passed in the  _lpAdviseSink_ parameter in the previous call to **IMSLogon::Advise**, thereby canceling a notification registration.</span></span> <span data-ttu-id="62240-114">При отмене указателя на объект приемника уведомлений вызывается метод " [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) " объекта.</span><span class="sxs-lookup"><span data-stu-id="62240-114">As part of discarding the pointer to the advise sink object, the object's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method is called.</span></span> <span data-ttu-id="62240-115">Как правило, **выпуск** вызывается во время вызова метода unadvise. \*\*\*\*</span><span class="sxs-lookup"><span data-stu-id="62240-115">Generally, **Release** is called during the **Unadvise** call.</span></span> <span data-ttu-id="62240-116">Тем не менее, если другой поток находится в процессе вызова метода [имапиадвисесинк:: OnNotify](imapiadvisesink-onnotify.md) для объекта приемника уведомлений, вызов **освобождения** задерживается до возвращения метода **OnNotify** .</span><span class="sxs-lookup"><span data-stu-id="62240-116">However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns.</span></span> 
+<span data-ttu-id="d887a-113">Поставщики хранилища сообщений реализуют метод **имслогон::** Unadvise для освобождения указателя на объект приемника уведомлений, переданный в параметре _Лпадвисесинк_ предыдущего вызова **имслогон:: Advise**, тем самым отменяя регистрацию уведомлений.</span><span class="sxs-lookup"><span data-stu-id="d887a-113">Message store providers implement the **IMSLogon::Unadvise** method to release the pointer to the advise sink object passed in the  _lpAdviseSink_ parameter in the previous call to **IMSLogon::Advise**, thereby canceling a notification registration.</span></span> <span data-ttu-id="d887a-114">При отмене указателя на объект приемника уведомлений вызывается метод " [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) " объекта.</span><span class="sxs-lookup"><span data-stu-id="d887a-114">As part of discarding the pointer to the advise sink object, the object's [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) method is called.</span></span> <span data-ttu-id="d887a-115">Как правило, **выпуск** вызывается во время вызова метода **unadvise** .</span><span class="sxs-lookup"><span data-stu-id="d887a-115">Generally, **Release** is called during the **Unadvise** call.</span></span> <span data-ttu-id="d887a-116">Тем не менее, если другой поток находится в процессе вызова метода [имапиадвисесинк:: OnNotify](imapiadvisesink-onnotify.md) для объекта приемника уведомлений, вызов **освобождения** задерживается до возвращения метода **OnNotify** .</span><span class="sxs-lookup"><span data-stu-id="d887a-116">However, if another thread is in the process of calling the [IMAPIAdviseSink::OnNotify](imapiadvisesink-onnotify.md) method for the advise sink object, the **Release** call is delayed until the **OnNotify** method returns.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="62240-117">См. также</span><span class="sxs-lookup"><span data-stu-id="62240-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d887a-117">См. также</span><span class="sxs-lookup"><span data-stu-id="d887a-117">See also</span></span>
 
 
 
-[<span data-ttu-id="62240-118">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="62240-118">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
+[<span data-ttu-id="d887a-118">IMAPIAdviseSink::OnNotify</span><span class="sxs-lookup"><span data-stu-id="d887a-118">IMAPIAdviseSink::OnNotify</span></span>](imapiadvisesink-onnotify.md)
   
-[<span data-ttu-id="62240-119">IMSLogon::Advise</span><span class="sxs-lookup"><span data-stu-id="62240-119">IMSLogon::Advise</span></span>](imslogon-advise.md)
+[<span data-ttu-id="d887a-119">IMSLogon::Advise</span><span class="sxs-lookup"><span data-stu-id="d887a-119">IMSLogon::Advise</span></span>](imslogon-advise.md)
   
-[<span data-ttu-id="62240-120">IMSLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="62240-120">IMSLogon : IUnknown</span></span>](imslogoniunknown.md)
+[<span data-ttu-id="d887a-120">IMSLogon : IUnknown</span><span class="sxs-lookup"><span data-stu-id="d887a-120">IMSLogon : IUnknown</span></span>](imslogoniunknown.md)
 

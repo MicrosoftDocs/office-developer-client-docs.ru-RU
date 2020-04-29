@@ -34,7 +34,7 @@ ms.locfileid: "32303138"
 <span data-ttu-id="85ac6-p104">В приложениях Office пользователи могут создавать документы в библиотеках документов одним действием. Добавить путь к папке синхронизации в библиотеку документов можно с помощью [функции SHAddFolderPathToLibrary](https://msdn.microsoft.com/library/windows/desktop/dd378432%28v=vs.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="85ac6-p104">In Office, users can create documents in their document libraries with a single action. To add your sync location to the document library, use the [SHAddFolderPathToLibrary function](https://msdn.microsoft.com/library/windows/desktop/dd378432%28v=vs.85%29.aspx).</span></span> 
   
 ## <a name="see-also"></a><span data-ttu-id="85ac6-119">См. также</span><span class="sxs-lookup"><span data-stu-id="85ac6-119">See also</span></span>
-<span data-ttu-id="85ac6-120"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="85ac6-120"></span></span>
+<span data-ttu-id="85ac6-120"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="85ac6-120"><a name="bk_addresources"> </a></span></span>
 
 - [<span data-ttu-id="85ac6-121">Интеграция с Office</span><span class="sxs-lookup"><span data-stu-id="85ac6-121">Integrate with Office</span></span>](integrate-with-office.md)
     

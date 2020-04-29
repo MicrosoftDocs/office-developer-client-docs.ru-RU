@@ -102,7 +102,7 @@ ms.locfileid: "32303152"
  `|u|<document URL>`
   
 ## <a name="see-also"></a><span data-ttu-id="4cd53-163">См. также</span><span class="sxs-lookup"><span data-stu-id="4cd53-163">See also</span></span>
-<span data-ttu-id="4cd53-164"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="4cd53-164"></span></span>
+<span data-ttu-id="4cd53-164"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="4cd53-164"><a name="bk_addresources"> </a></span></span>
 
 - [<span data-ttu-id="4cd53-165">Интеграция с Office</span><span class="sxs-lookup"><span data-stu-id="4cd53-165">Integrate with Office</span></span>](integrate-with-office.md)
     

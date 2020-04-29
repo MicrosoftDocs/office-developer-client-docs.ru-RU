@@ -15,16 +15,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32341729"
 ---
-# <a name="mnlslstrcpyw"></a><span data-ttu-id="0286e-103">MNLS_lstrcpyW</span><span class="sxs-lookup"><span data-stu-id="0286e-103">MNLS_lstrcpyW</span></span>
+# <a name="mnls_lstrcpyw"></a><span data-ttu-id="7c3ac-103">MNLS_lstrcpyW</span><span class="sxs-lookup"><span data-stu-id="7c3ac-103">MNLS_lstrcpyW</span></span>
 
  
   
-<span data-ttu-id="0286e-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0286e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7c3ac-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7c3ac-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0286e-105">Копирует строку в буфер.</span><span class="sxs-lookup"><span data-stu-id="0286e-105">Copies a string to a buffer.</span></span>
+<span data-ttu-id="7c3ac-105">Копирует строку в буфер.</span><span class="sxs-lookup"><span data-stu-id="7c3ac-105">Copies a string to a buffer.</span></span>
   
 > [!CAUTION]
-> <span data-ttu-id="0286e-106">Не следует использовать.</span><span class="sxs-lookup"><span data-stu-id="0286e-106">Do not use.</span></span> <span data-ttu-id="0286e-107">Вместо этого рекомендуется использовать [стрингкчкопи](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="0286e-107">Consider using [StringCchCopy](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) instead.</span></span> 
+> <span data-ttu-id="7c3ac-106">Не следует использовать.</span><span class="sxs-lookup"><span data-stu-id="7c3ac-106">Do not use.</span></span> <span data-ttu-id="7c3ac-107">Вместо этого рекомендуется использовать [стрингкчкопи](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="7c3ac-107">Consider using [StringCchCopy](https://msdn.microsoft.com/library/ms647527%28VS.85%29.aspx) instead.</span></span> 
   
 ```cpp
 LPWSTR MNLS_lstrcpyW(
@@ -32,29 +32,29 @@ LPWSTR MNLS_lstrcpyW(
 LPCWSTR lpString2);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0286e-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="0286e-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7c3ac-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="7c3ac-108">Parameters</span></span>
 
-<span data-ttu-id="0286e-109">lpString1</span><span class="sxs-lookup"><span data-stu-id="0286e-109">lpString1</span></span>
+<span data-ttu-id="7c3ac-109">lpString1</span><span class="sxs-lookup"><span data-stu-id="7c3ac-109">lpString1</span></span>
   
-> <span data-ttu-id="0286e-110">вышли Буфер для получения содержимого строки, на которую указывает параметр lpString2.</span><span class="sxs-lookup"><span data-stu-id="0286e-110">[out] A buffer to receive the contents of the string pointed to by the lpString2 parameter.</span></span>
+> <span data-ttu-id="7c3ac-110">вышли Буфер для получения содержимого строки, на которую указывает параметр lpString2.</span><span class="sxs-lookup"><span data-stu-id="7c3ac-110">[out] A buffer to receive the contents of the string pointed to by the lpString2 parameter.</span></span>
     
-<span data-ttu-id="0286e-111">lpString2</span><span class="sxs-lookup"><span data-stu-id="0286e-111">lpString2</span></span>
+<span data-ttu-id="7c3ac-111">lpString2</span><span class="sxs-lookup"><span data-stu-id="7c3ac-111">lpString2</span></span>
   
-> <span data-ttu-id="0286e-112">возврата Копируемая строка, заканчивающаяся нулем.</span><span class="sxs-lookup"><span data-stu-id="0286e-112">[in] The null-terminated string to be copied.</span></span>
+> <span data-ttu-id="7c3ac-112">возврата Копируемая строка, заканчивающаяся нулем.</span><span class="sxs-lookup"><span data-stu-id="7c3ac-112">[in] The null-terminated string to be copied.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="0286e-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0286e-113">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="7c3ac-113">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="7c3ac-113">Return value</span></span>
 
-<span data-ttu-id="0286e-114">Если функция выполнена успешно, возвращаемое значение является указателем на буфер.</span><span class="sxs-lookup"><span data-stu-id="0286e-114">If the function succeeds, the return value is a pointer to the buffer.</span></span>
+<span data-ttu-id="7c3ac-114">Если функция выполнена успешно, возвращаемое значение является указателем на буфер.</span><span class="sxs-lookup"><span data-stu-id="7c3ac-114">If the function succeeds, the return value is a pointer to the buffer.</span></span>
   
-<span data-ttu-id="0286e-115">Если функция завершается с ошибкой, возвращается значение NULL, а lpString1 не может оканчиваться нулем.</span><span class="sxs-lookup"><span data-stu-id="0286e-115">If the function fails, the return value is NULL and lpString1 may not be null-terminated.</span></span>
+<span data-ttu-id="7c3ac-115">Если функция завершается с ошибкой, возвращается значение NULL, а lpString1 не может оканчиваться нулем.</span><span class="sxs-lookup"><span data-stu-id="7c3ac-115">If the function fails, the return value is NULL and lpString1 may not be null-terminated.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="0286e-116">Комментарии</span><span class="sxs-lookup"><span data-stu-id="0286e-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="7c3ac-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="7c3ac-116">Remarks</span></span>
 
-<span data-ttu-id="0286e-117">Эта функция заключает в оболочку функцию **лстркпи** .</span><span class="sxs-lookup"><span data-stu-id="0286e-117">This function wraps the **lstrcpy** function.</span></span> <span data-ttu-id="0286e-118">Дополнительные сведения см. в разделе [лстркпи](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="0286e-118">For more information, see [lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).</span></span>
+<span data-ttu-id="7c3ac-117">Эта функция заключает в оболочку функцию **лстркпи** .</span><span class="sxs-lookup"><span data-stu-id="7c3ac-117">This function wraps the **lstrcpy** function.</span></span> <span data-ttu-id="7c3ac-118">Дополнительные сведения см. в разделе [лстркпи](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).</span><span class="sxs-lookup"><span data-stu-id="7c3ac-118">For more information, see [lstrcpy](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="0286e-119">См. также</span><span class="sxs-lookup"><span data-stu-id="0286e-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7c3ac-119">См. также</span><span class="sxs-lookup"><span data-stu-id="7c3ac-119">See also</span></span>
 
 
 
-[<span data-ttu-id="0286e-120">лстркпи</span><span class="sxs-lookup"><span data-stu-id="0286e-120">lstrcpy</span></span>](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx)
+[<span data-ttu-id="7c3ac-120">лстркпи</span><span class="sxs-lookup"><span data-stu-id="7c3ac-120">lstrcpy</span></span>](https://msdn.microsoft.com/library/ms647490%28VS.85%29.aspx)
 

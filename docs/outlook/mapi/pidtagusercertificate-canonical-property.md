@@ -19,56 +19,56 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32320393"
 ---
-# <a name="pidtagusercertificate-canonical-property"></a><span data-ttu-id="5cc6c-103">Каноническое свойство PidTagUserCertificate</span><span class="sxs-lookup"><span data-stu-id="5cc6c-103">PidTagUserCertificate Canonical Property</span></span>
+# <a name="pidtagusercertificate-canonical-property"></a><span data-ttu-id="c22aa-103">Каноническое свойство PidTagUserCertificate</span><span class="sxs-lookup"><span data-stu-id="c22aa-103">PidTagUserCertificate Canonical Property</span></span>
 
   
   
-<span data-ttu-id="5cc6c-104">**Область применения**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="5cc6c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c22aa-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c22aa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="5cc6c-105">Содержит сертификат проверки подлинности ASN. 1 для пользователя обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="5cc6c-105">Contains an ASN.1 authentication certificate for a messaging user.</span></span> 
+<span data-ttu-id="c22aa-105">Содержит сертификат проверки подлинности ASN. 1 для пользователя обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="c22aa-105">Contains an ASN.1 authentication certificate for a messaging user.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="5cc6c-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="5cc6c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="5cc6c-107">ПР_УСЕР_ЦЕРТИФИКАТЕ</span><span class="sxs-lookup"><span data-stu-id="5cc6c-107">PR_USER_CERTIFICATE</span></span>  <br/> |
-|<span data-ttu-id="5cc6c-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="5cc6c-108">Identifier:</span></span>  <br/> |<span data-ttu-id="5cc6c-109">0x3A22</span><span class="sxs-lookup"><span data-stu-id="5cc6c-109">0x3A22</span></span>  <br/> |
-|<span data-ttu-id="5cc6c-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="5cc6c-110">Data type:</span></span>  <br/> |<span data-ttu-id="5cc6c-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="5cc6c-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="5cc6c-112">Область:</span><span class="sxs-lookup"><span data-stu-id="5cc6c-112">Area:</span></span>  <br/> |<span data-ttu-id="5cc6c-113">Пользователь почты MAPI</span><span class="sxs-lookup"><span data-stu-id="5cc6c-113">MAPI mail user</span></span>  <br/> |
+|<span data-ttu-id="c22aa-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="c22aa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c22aa-107">PR_USER_CERTIFICATE</span><span class="sxs-lookup"><span data-stu-id="c22aa-107">PR_USER_CERTIFICATE</span></span>  <br/> |
+|<span data-ttu-id="c22aa-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="c22aa-108">Identifier:</span></span>  <br/> |<span data-ttu-id="c22aa-109">0x3A22</span><span class="sxs-lookup"><span data-stu-id="c22aa-109">0x3A22</span></span>  <br/> |
+|<span data-ttu-id="c22aa-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="c22aa-110">Data type:</span></span>  <br/> |<span data-ttu-id="c22aa-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="c22aa-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="c22aa-112">Область:</span><span class="sxs-lookup"><span data-stu-id="c22aa-112">Area:</span></span>  <br/> |<span data-ttu-id="c22aa-113">Пользователь почты MAPI</span><span class="sxs-lookup"><span data-stu-id="c22aa-113">MAPI mail user</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="5cc6c-114">Замечания</span><span class="sxs-lookup"><span data-stu-id="5cc6c-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c22aa-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="c22aa-114">Remarks</span></span>
 
-<span data-ttu-id="5cc6c-115">Сертификат проверки подлинности похож на цифровую подпись.</span><span class="sxs-lookup"><span data-stu-id="5cc6c-115">An authentication certificate is similar to a digital signature.</span></span> <span data-ttu-id="5cc6c-116">Несколько свойств MAPI предоставляют сертификаты ASN. 1.</span><span class="sxs-lookup"><span data-stu-id="5cc6c-116">Several MAPI properties supply ASN.1 certificates.</span></span> 
+<span data-ttu-id="c22aa-115">Сертификат проверки подлинности похож на цифровую подпись.</span><span class="sxs-lookup"><span data-stu-id="c22aa-115">An authentication certificate is similar to a digital signature.</span></span> <span data-ttu-id="c22aa-116">Несколько свойств MAPI предоставляют сертификаты ASN. 1.</span><span class="sxs-lookup"><span data-stu-id="c22aa-116">Several MAPI properties supply ASN.1 certificates.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="5cc6c-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="5cc6c-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c22aa-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="c22aa-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="5cc6c-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="5cc6c-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="c22aa-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="c22aa-118">Protocol specifications</span></span>
 
-<span data-ttu-id="5cc6c-119">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5cc6c-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c22aa-119">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c22aa-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5cc6c-120">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="5cc6c-120">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="c22aa-120">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="c22aa-120">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="5cc6c-121">[[MS — ОКСОАБК]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="5cc6c-121">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c22aa-121">[[MS — ОКСОАБК]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c22aa-121">[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="5cc6c-122">Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.</span><span class="sxs-lookup"><span data-stu-id="5cc6c-122">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
+> <span data-ttu-id="c22aa-122">Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.</span><span class="sxs-lookup"><span data-stu-id="c22aa-122">Specifies the properties and operations for lists of users, contacts, groups, and resources.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="5cc6c-123">Файлы заГоловков</span><span class="sxs-lookup"><span data-stu-id="5cc6c-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c22aa-123">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="c22aa-123">Header files</span></span>
 
-<span data-ttu-id="5cc6c-124">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="5cc6c-124">Mapidefs.h</span></span>
+<span data-ttu-id="c22aa-124">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="c22aa-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="5cc6c-125">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="5cc6c-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="c22aa-125">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="c22aa-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="5cc6c-126">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="5cc6c-126">Mapitags.h</span></span>
+<span data-ttu-id="c22aa-126">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="c22aa-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="5cc6c-127">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="5cc6c-127">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="c22aa-127">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="c22aa-127">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="5cc6c-128">См. также</span><span class="sxs-lookup"><span data-stu-id="5cc6c-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c22aa-128">См. также</span><span class="sxs-lookup"><span data-stu-id="c22aa-128">See also</span></span>
 
 
 
-[<span data-ttu-id="5cc6c-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="5cc6c-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c22aa-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c22aa-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="5cc6c-130">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="5cc6c-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c22aa-130">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="c22aa-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="5cc6c-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="5cc6c-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c22aa-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="c22aa-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="5cc6c-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="5cc6c-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c22aa-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="c22aa-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

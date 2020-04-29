@@ -143,7 +143,7 @@ ms.locfileid: "32299715"
 <span data-ttu-id="ecbf5-p115">Допустимые URI должны соответствовать стандартам, предложенным в документе RFC 3987  интернационализированным идентификаторам ресурса (IRI). Символы, которые определены в RFC 3986 как зарезервированные, должны кодироваться с использованием символа процента. Имена файлов не должны содержать следующие символы: \ / : ? \< \> | " и \*.</span><span class="sxs-lookup"><span data-stu-id="ecbf5-p115">Allowed URIs must conform to the standards proposed in RFC 3987 - Internationalized Resource Identifiers (IRIs) . Characters identified as reserved in RFC 3986 should not be percent encoded. . Filenames must not contain any of the following characters: \ / : ? \< \> | " or \*.</span></span>  
   
 ## <a name="appendix-a---uri-scheme-registration-template-for-ms-word-scheme"></a><span data-ttu-id="ecbf5-196">ПРИЛОЖЕНИЕ А. ШАБЛОН РЕГИСТРАЦИИ СХЕМЫ URI ДЛЯ СХЕМЫ MS-WORD</span><span class="sxs-lookup"><span data-stu-id="ecbf5-196">APPENDIX A - URI SCHEME REGISTRATION TEMPLATE FOR MS-WORD SCHEME</span></span>
-<span data-ttu-id="ecbf5-197"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-197"></span></span>
+<span data-ttu-id="ecbf5-197"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-197"><a name="bk_addresources"> </a></span></span>
 
 ### <a name="a-3-uri-scheme-syntax"></a><span data-ttu-id="ecbf5-p116">А-3. Синтаксис схемы URI</span><span class="sxs-lookup"><span data-stu-id="ecbf5-p116">A-3. URI Scheme Syntax</span></span>
 
@@ -184,7 +184,7 @@ ms.locfileid: "32299715"
 <span data-ttu-id="ecbf5-227">RFC 3987  интернационализированные идентификаторы ресурса (IRI)</span><span class="sxs-lookup"><span data-stu-id="ecbf5-227">RFC 3987 - International Resource Identifiers (IRIs)</span></span>  
   
 ## <a name="appendix-b---uri-scheme-registration-template-for-ms-powerpoint-scheme"></a><span data-ttu-id="ecbf5-228">ПРИЛОЖЕНИЕ Б. ШАБЛОН РЕГИСТРАЦИИ СХЕМЫ URI ДЛЯ СХЕМЫ MS-POWERPOINT</span><span class="sxs-lookup"><span data-stu-id="ecbf5-228">APPENDIX B - URI SCHEME REGISTRATION TEMPLATE FOR MS-POWERPOINT SCHEME</span></span>
-<span data-ttu-id="ecbf5-229"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-229"></span></span>
+<span data-ttu-id="ecbf5-229"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-229"><a name="bk_addresources"> </a></span></span>
 
 ### <a name="b-3-uri-scheme-syntax"></a><span data-ttu-id="ecbf5-p126">Б-3. Синтаксис схемы URI</span><span class="sxs-lookup"><span data-stu-id="ecbf5-p126">B-3. URI Scheme Syntax</span></span>
 
@@ -227,7 +227,7 @@ ms.locfileid: "32299715"
 <span data-ttu-id="ecbf5-260">RFC 3987  интернационализированные идентификаторы ресурса (IRI)</span><span class="sxs-lookup"><span data-stu-id="ecbf5-260">RFC 3987 - International Resource Identifiers (IRIs)</span></span>  
   
 ## <a name="appendix-c---uri-scheme-registration-template-for-ms-excel-scheme"></a><span data-ttu-id="ecbf5-261">ПРИЛОЖЕНИЕ В. ШАБЛОН РЕГИСТРАЦИИ СХЕМЫ URI ДЛЯ СХЕМЫ MS-EXCEL</span><span class="sxs-lookup"><span data-stu-id="ecbf5-261">APPENDIX C - URI SCHEME REGISTRATION TEMPLATE FOR MS-EXCEL SCHEME</span></span>
-<span data-ttu-id="ecbf5-262"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-262"></span></span>
+<span data-ttu-id="ecbf5-262"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-262"><a name="bk_addresources"> </a></span></span>
 
 ### <a name="c-3-uri-scheme-syntax"></a><span data-ttu-id="ecbf5-p136">В-3. Синтаксис схемы URI</span><span class="sxs-lookup"><span data-stu-id="ecbf5-p136">C-3. URI Scheme Syntax</span></span>
 
@@ -270,7 +270,7 @@ ms.locfileid: "32299715"
 <span data-ttu-id="ecbf5-293">RFC 3987  интернационализированные идентификаторы ресурса (IRI)</span><span class="sxs-lookup"><span data-stu-id="ecbf5-293">RFC 3987 - International Resource Identifiers (IRIs)</span></span>  
   
 ## <a name="appendix-d---uri-scheme-registration-template-for-ms-visio-scheme"></a><span data-ttu-id="ecbf5-294">ПРИЛОЖЕНИЕ Г. ШАБЛОН РЕГИСТРАЦИИ СХЕМЫ URI ДЛЯ СХЕМЫ MS-VISIO</span><span class="sxs-lookup"><span data-stu-id="ecbf5-294">APPENDIX D - URI SCHEME REGISTRATION TEMPLATE FOR MS-VISIO SCHEME</span></span>
-<span data-ttu-id="ecbf5-295"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-295"></span></span>
+<span data-ttu-id="ecbf5-295"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-295"><a name="bk_addresources"> </a></span></span>
 
 ### <a name="d-3-uri-scheme-syntax"></a><span data-ttu-id="ecbf5-p146">Г-3. Синтаксис схемы URI</span><span class="sxs-lookup"><span data-stu-id="ecbf5-p146">D-3. URI Scheme Syntax</span></span>
 
@@ -313,7 +313,7 @@ ms.locfileid: "32299715"
 <span data-ttu-id="ecbf5-326">RFC 3987  интернационализированные идентификаторы ресурса (IRI)</span><span class="sxs-lookup"><span data-stu-id="ecbf5-326">RFC 3987 - International Resource Identifiers (IRIs)</span></span>
   
 ## <a name="appendix-e---uri-scheme-registration-template-for-ms-access-scheme"></a><span data-ttu-id="ecbf5-327">ПРИЛОЖЕНИЕ Д. ШАБЛОН РЕГИСТРАЦИИ СХЕМЫ URI ДЛЯ СХЕМЫ MS-ACCESS</span><span class="sxs-lookup"><span data-stu-id="ecbf5-327">APPENDIX E - URI SCHEME REGISTRATION TEMPLATE FOR MS-ACCESS SCHEME</span></span>
-<span data-ttu-id="ecbf5-328"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-328"></span></span>
+<span data-ttu-id="ecbf5-328"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-328"><a name="bk_addresources"> </a></span></span>
 
 ### <a name="e-3-uri-scheme-syntax"></a><span data-ttu-id="ecbf5-p156">Д-3. Синтаксис схемы URI</span><span class="sxs-lookup"><span data-stu-id="ecbf5-p156">E-3. URI Scheme Syntax</span></span>
 
@@ -354,7 +354,7 @@ ms.locfileid: "32299715"
 <span data-ttu-id="ecbf5-359">RFC 3987  интернационализированные идентификаторы ресурса (IRI)</span><span class="sxs-lookup"><span data-stu-id="ecbf5-359">RFC 3987 - International Resource Identifiers (IRIs)</span></span>  
   
 ## <a name="appendix-f---uri-scheme-registration-template-for-ms-project-scheme"></a><span data-ttu-id="ecbf5-360">ПРИЛОЖЕНИЕ Е. ШАБЛОН РЕГИСТРАЦИИ СХЕМЫ URI ДЛЯ СХЕМЫ MS-PROJECT</span><span class="sxs-lookup"><span data-stu-id="ecbf5-360">APPENDIX F - URI SCHEME REGISTRATION TEMPLATE FOR MS-PROJECT SCHEME</span></span>
-<span data-ttu-id="ecbf5-361"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-361"></span></span>
+<span data-ttu-id="ecbf5-361"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-361"><a name="bk_addresources"> </a></span></span>
 
 ### <a name="f-3-uri-scheme-syntax"></a><span data-ttu-id="ecbf5-p166">Е-3. Синтаксис схемы URI</span><span class="sxs-lookup"><span data-stu-id="ecbf5-p166">F-3. URI Scheme Syntax</span></span>
 
@@ -397,7 +397,7 @@ ms.locfileid: "32299715"
 <span data-ttu-id="ecbf5-392">RFC 3987  интернационализированные идентификаторы ресурса (IRI)</span><span class="sxs-lookup"><span data-stu-id="ecbf5-392">RFC 3987 - International Resource Identifiers (IRIs)</span></span>  
   
 ## <a name="appendix-g---uri-scheme-registration-template-for-ms-publisher-scheme"></a><span data-ttu-id="ecbf5-393">ПРИЛОЖЕНИЕ Ж. ШАБЛОН РЕГИСТРАЦИИ СХЕМЫ URI ДЛЯ СХЕМЫ MS-PUBLISHER</span><span class="sxs-lookup"><span data-stu-id="ecbf5-393">APPENDIX G - URI SCHEME REGISTRATION TEMPLATE FOR MS-PUBLISHER SCHEME</span></span>
-<span data-ttu-id="ecbf5-394"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-394"></span></span>
+<span data-ttu-id="ecbf5-394"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-394"><a name="bk_addresources"> </a></span></span>
 
 ### <a name="g-3-uri-scheme"></a><span data-ttu-id="ecbf5-p176">Ж-3. Синтаксис схемы URI</span><span class="sxs-lookup"><span data-stu-id="ecbf5-p176">G-3. URI Scheme</span></span>
 
@@ -438,7 +438,7 @@ ms.locfileid: "32299715"
 <span data-ttu-id="ecbf5-425">RFC 3987  интернационализированные идентификаторы ресурса (IRI)</span><span class="sxs-lookup"><span data-stu-id="ecbf5-425">RFC 3987 - International Resource Identifiers (IRIs)</span></span>  
   
 ## <a name="appendix-h---uri-scheme-registration-template-for-ms-spd-scheme"></a><span data-ttu-id="ecbf5-426">ПРИЛОЖЕНИЕ З. ШАБЛОН РЕГИСТРАЦИИ СХЕМЫ URI ДЛЯ СХЕМЫ MS-SPD</span><span class="sxs-lookup"><span data-stu-id="ecbf5-426">APPENDIX H - URI SCHEME REGISTRATION TEMPLATE FOR MS-SPD SCHEME</span></span>
-<span data-ttu-id="ecbf5-427"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-427"></span></span>
+<span data-ttu-id="ecbf5-427"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-427"><a name="bk_addresources"> </a></span></span>
 
 ### <a name="h-3-uri-scheme-syntax"></a><span data-ttu-id="ecbf5-p186">З-3. Синтаксис схемы URI</span><span class="sxs-lookup"><span data-stu-id="ecbf5-p186">H-3. URI Scheme Syntax</span></span>
 
@@ -471,7 +471,7 @@ ms.locfileid: "32299715"
 <span data-ttu-id="ecbf5-453">RFC 3987  интернационализированные идентификаторы ресурса (IRI)</span><span class="sxs-lookup"><span data-stu-id="ecbf5-453">RFC 3987 - International Resource Identifiers (IRIs)</span></span>  
   
 ## <a name="appendix-i---uri-scheme-registration-template-for-ms-infopath-scheme"></a><span data-ttu-id="ecbf5-454">ПРИЛОЖЕНИЕ И. ШАБЛОН РЕГИСТРАЦИИ СХЕМЫ URI ДЛЯ СХЕМЫ MS-INFOPATH</span><span class="sxs-lookup"><span data-stu-id="ecbf5-454">APPENDIX I - URI SCHEME REGISTRATION TEMPLATE FOR MS-INFOPATH SCHEME</span></span>
-<span data-ttu-id="ecbf5-455"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-455"></span></span>
+<span data-ttu-id="ecbf5-455"><a name="bk_addresources"> </a></span><span class="sxs-lookup"><span data-stu-id="ecbf5-455"><a name="bk_addresources"> </a></span></span>
 
 ###   <a name="i-3-uri-scheme-syntax"></a><span data-ttu-id="ecbf5-p196">И-3. Синтаксис схемы URI</span><span class="sxs-lookup"><span data-stu-id="ecbf5-p196">I-3. URI Scheme Syntax</span></span>
 
