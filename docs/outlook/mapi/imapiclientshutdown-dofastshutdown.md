@@ -1,5 +1,5 @@
 ---
-title: Имапиклиентшутдовндофастшутдовн
+title: имапиклиентшутдовндофастшутдовн
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -37,13 +37,13 @@ S_OK
   
 > Подсистема MAPI загрузила поставщика MAPI, что клиент MAPI немедленно выходит из системы, а поставщики MAPI готовы к выходу клиента.
     
-МАПИ_Е_НО_СУППОРТ
+MAPI_E_NO_SUPPORT
   
 > Подсистема MAPI не поддерживает быстрое завершение работы клиента.
     
 ## <a name="remarks"></a>Примечания
 
-Чтобы избежать потери данных при быстром завершении работы клиента MAPI, клиенты MAPI должны вызывать методы [метод imapiclientshutdown:: нотифипроцессшутдовн](imapiclientshutdown-notifyprocessshutdown.md) и **метод imapiclientshutdown::D офастшутдовн** на основе результата S_OK, возвращаемОГО подсистемой MAPI в метод [метод imapiclientshutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Для получения дополнительных сведений ознакомьтесь с рекомендациями [по быстроМу завершенИю работы](best-practices-for-fast-shutdown.md).
+Чтобы избежать потери данных при быстром завершении работы клиента MAPI, клиенты MAPI должны вызывать методы [метод imapiclientshutdown:: нотифипроцессшутдовн](imapiclientshutdown-notifyprocessshutdown.md) и **метод imapiclientshutdown::D офастшутдовн** на основе результата S_OK, возвращаемого подсистемой MAPI в методе [метод imapiclientshutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) . Для получения дополнительных сведений ознакомьтесь с рекомендациями [по быстрому завершению работы](best-practices-for-fast-shutdown.md).
   
 ## <a name="see-also"></a>См. также
 

@@ -30,7 +30,7 @@ LPXLOPER12 WINAPI Func1(LPXLOPER12 px);
 
 ## <a name="parameters"></a>Параметры
 
- _px_ (**Лпкслопер**)
+ _px_ (**лпкслопер**)
   
 Этот аргумент игнорируется и служит только для вызова функции в Microsoft Excel.
   

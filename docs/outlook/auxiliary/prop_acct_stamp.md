@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408252"
 ---
-# <a name="propacctstamp"></a>PROP_ACCT_STAMP
+# <a name="prop_acct_stamp"></a>PROP_ACCT_STAMP
 
 Возвращает метку учетной записи.
   
@@ -31,10 +31,10 @@ ms.locfileid: "33408252"
    
 ## <a name="remarks"></a>Примечания
 
-Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **е_олк_проп_реад_онли**. 
+Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **E_OLK_PROP_READ_ONLY**. 
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md)  
+- [Сведения об API управления учетными записями](about-the-account-management-api.md)  
 - [Constants (Account management API)](constants-account-management-api.md)
 

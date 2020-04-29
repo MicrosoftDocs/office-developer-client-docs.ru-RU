@@ -33,8 +33,8 @@ ms.locfileid: "33407664"
 |Предоставлено:  <br/> |Ни один объект не предоставляет этот интерфейс напрямую.  <br/> |
 |Реализовано в:  <br/> |Поставщики услуг и MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения, поставщики служб и MAPI  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_имапипроп  <br/> |
-|Тип указателя:  <br/> |ЛПМАПИПРОП  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IMAPIProp  <br/> |
+|Тип указателя:  <br/> |лпмапипроп  <br/> |
 |Модель транзакции:  <br/> |Абстрактный класс, никогда не реализован  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
@@ -44,36 +44,36 @@ ms.locfileid: "33407664"
 |[GetLastError](imapiprop-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущем сообщении об ошибке.  <br/> |
 |[SaveChanges](imapiprop-savechanges.md) <br/> |Делает неизменными все изменения, внесенные в объект с момента последнего выполнения операции сохранения.  <br/> |
 |[GetProps](imapiprop-getprops.md) <br/> |Получает значение свойства одного или нескольких свойств объекта.  <br/> |
-|[Жетпроплист](imapiprop-getproplist.md) <br/> |Возвращает теги свойств для всех свойств.  <br/> |
-|[Опенпроперти](imapiprop-openproperty.md) <br/> |Возвращает указатель на интерфейс, который можно использовать для доступа к свойству.  <br/> |
+|[жетпроплист](imapiprop-getproplist.md) <br/> |Возвращает теги свойств для всех свойств.  <br/> |
+|[опенпроперти](imapiprop-openproperty.md) <br/> |Возвращает указатель на интерфейс, который можно использовать для доступа к свойству.  <br/> |
 |[SetProps](imapiprop-setprops.md) <br/> |Обновляет одно или несколько свойств.  <br/> |
-|[Делетепропс](imapiprop-deleteprops.md) <br/> |Удаляет одно или несколько свойств объекта.  <br/> |
+|[делетепропс](imapiprop-deleteprops.md) <br/> |Удаляет одно или несколько свойств объекта.  <br/> |
 |[CopyTo](imapiprop-copyto.md) <br/> |Копирует или перемещает все свойства, кроме специально исключенных свойств.  <br/> |
-|[Копипропс](imapiprop-copyprops.md) <br/> |Копирование или перемещение выбранных свойств.  <br/> |
-|[Жетнамесфромидс](imapiprop-getnamesfromids.md) <br/> |Предоставляет имена свойств, которые соответствуют одному или нескольким идентификаторам свойств.  <br/> |
-|[Жетидсфромнамес](imapiprop-getidsfromnames.md) <br/> |Предоставляет идентификаторы свойств, соответствующие одному или нескольким именам свойств.  <br/> |
+|[копипропс](imapiprop-copyprops.md) <br/> |Копирование или перемещение выбранных свойств.  <br/> |
+|[жетнамесфромидс](imapiprop-getnamesfromids.md) <br/> |Предоставляет имена свойств, которые соответствуют одному или нескольким идентификаторам свойств.  <br/> |
+|[жетидсфромнамес](imapiprop-getidsfromnames.md) <br/> |Предоставляет идентификаторы свойств, соответствующие одному или нескольким именам свойств.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
  **IMAPIProp** является базовым интерфейсом для следующих интерфейсов: 
   
-- [Иаттач](iattachimapiprop.md)
+- [иаттач](iattachimapiprop.md)
     
-- [Имаилусер](imailuserimapiprop.md)
+- [имаилусер](imailuserimapiprop.md)
     
 - [IMAPIContainer](imapicontainerimapiprop.md)
     
-- [Имапиформинфо](imapiforminfoimapiprop.md)
+- [имапиформинфо](imapiforminfoimapiprop.md)
     
-- [Имапистатус](imapistatusimapiprop.md)
+- [имапистатус](imapistatusimapiprop.md)
     
 - [IMessage](imessageimapiprop.md)
     
 - [IMsgStore](imsgstoreimapiprop.md)
     
-- [Ипрофсект](iprofsectimapiprop.md)
+- [ипрофсект](iprofsectimapiprop.md)
     
-- [Ипропдата](ipropdataimapiprop.md)
+- [ипропдата](ipropdataimapiprop.md)
     
 ## <a name="see-also"></a>См. также
 

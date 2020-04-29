@@ -29,7 +29,7 @@ ms.locfileid: "33410716"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕЦИПИЕНТ_СТАТУС  <br/> |
+|Связанные свойства:  <br/> |PR_RECIPIENT_STATUS  <br/> |
 |Идентификатор:  <br/> |0x0E15  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Несъемный MAPI  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33410716"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

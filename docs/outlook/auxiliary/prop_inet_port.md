@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409190"
 ---
-# <a name="propinetport"></a>PROP_INET_PORT
+# <a name="prop_inet_port"></a>PROP_INET_PORT
 
 Представляет номер порта для общего почтового ящика в Интернете.
   
@@ -23,7 +23,7 @@ ms.locfileid: "33409190"
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0104  <br/> |
-|Тип свойства:  <br/> |ПТ_ДВОРД  <br/> |
+|Тип свойства:  <br/> |PT_DWORD  <br/> |
 |Тег свойства:  <br/> |0x01040003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    

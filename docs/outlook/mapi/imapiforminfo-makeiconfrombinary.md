@@ -1,5 +1,5 @@
 ---
-title: Имапиформинфомакеиконфромбинари
+title: имапиформинфомакеиконфромбинари
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -36,7 +36,7 @@ HRESULT MakeIconFromBinary(
 
 ## <a name="parameters"></a>Параметры
 
- _Нпропид_
+ _нпропид_
   
 > возврата Идентификатор свойства для свойства Icon.
     

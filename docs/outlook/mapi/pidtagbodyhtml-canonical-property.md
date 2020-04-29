@@ -23,24 +23,24 @@ ms.locfileid: "32359047"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит версию текста сообщения на языке гипертекстовой разМетки (HTML). 
+Содержит версию текста сообщения на языке гипертекстовой разметки (HTML). 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_БОДИ_ХТМЛ, ПР_БОДИ_ХТМЛ_А, ПР_БОДИ_ХТМЛ_В  <br/> |
+|Связанные свойства:  <br/> |PR_BODY_HTML, PR_BODY_HTML_A PR_BODY_HTML_W  <br/> |
 |Идентификатор:  <br/> |0x1013  <br/> |
-|Тип данных:  <br/> |ПТ_УНИКОДЕ, PT_STRING8  <br/> |
+|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства содержат тот же текст сообщения, что и **пр_боди_контент_локатион** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), но в HTML. 
+Эти свойства содержат тот же текст сообщения, что и **PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), но в HTML. 
   
-Хранилище сообщений, поддерживающее HTML, указывает на это путем установки флага **сторе_хтмл_ок** в его **пр_сторе_суппорт_маск** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
+Хранилище сообщений, поддерживающее HTML, указывает на то, что установка флага **STORE_HTML_OK** в **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
   
- **Note (Примечание** ) **Сторе_хтмл_ок** не определен в версиях MAPIDEFS. h, включенНых в Microsoft ® Exchange 2000 Server и более ранних версий. Если **сторе_хтмл_ок** не определен, используйте вместо этого значение 0x00010000. 
+ **Примечание** **STORE_HTML_OK** не определено в версиях MAPIDEFS. h, включенных в Microsoft® Exchange 2000 Server и более ранних версий. Если **STORE_HTML_OK** не определен, используйте значение 0x00010000. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -54,7 +54,7 @@ ms.locfileid: "32359047"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

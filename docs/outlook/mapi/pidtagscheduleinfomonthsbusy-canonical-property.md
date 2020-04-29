@@ -21,20 +21,20 @@ ms.locfileid: "32359795"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит месяцы, для которых данные о занятости типа "занято" присутствуют в сообщении о занятости.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_СЧДИНФО_МОНСС_БУСИ  <br/> |
+|Связанные свойства:  <br/> |PR_SCHDINFO_MONTHS_BUSY  <br/> |
 |Идентификатор:  <br/> |0x6853  <br/> |
-|Тип данных:  <br/> |ПТ_МВ_ЛОНГ  <br/> |
+|Тип данных:  <br/> |PT_MV_LONG  <br/> |
 |Область:  <br/> |Сведения о доступности  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Формат, вычисления и ограничения этого свойства такие же, как и в **пр_счдинфо_монсс_тентативе** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)), но ссылаются на встречи, помеченные как занятые для связанного объекта Calendar.
+Формат, вычисление и ограничения этого свойства такие же, как в **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)), но относятся к встречам, помеченным как занятые для связанного объекта Calendar.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -48,7 +48,7 @@ ms.locfileid: "32359795"
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -1,12 +1,12 @@
 ---
-title: Иолкенумскип
+title: иолкенумскип
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: e83e409c-f201-df9d-5e30-879adf15318d
-description: ПроПускает указанное число учетных записей в перечислителе.
+description: Пропускает указанное число учетных записей в перечислителе.
 ms.openlocfilehash: d4063b0ff4852e6932cf50789eea3caa81d4d586
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33404780"
 ---
 # <a name="iolkenumskip"></a>IOlkEnum::Skip
 
-ПроПускает указанное число учетных записей в перечислителе.
+Пропускает указанное число учетных записей в перечислителе.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -30,7 +30,7 @@ HRESULT IOlkEnum::Skip(
 
 ## <a name="parameters"></a>Параметры
 
-_Кскип_
+_кскип_
   
 > возврата Количество пропущенных учетных записей.
     

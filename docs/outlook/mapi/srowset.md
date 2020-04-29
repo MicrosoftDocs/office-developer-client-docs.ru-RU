@@ -41,7 +41,7 @@ typedef struct _SRowSet
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>"Участники"
 
  **CRowset**
   

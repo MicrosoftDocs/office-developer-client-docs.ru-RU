@@ -18,7 +18,7 @@ ms.locfileid: "33411332"
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 - [Блок данных СоздатьЗапись (пользовательское веб-приложение для Access)](createrecord-data-block-access-custom-web-app.md)
     

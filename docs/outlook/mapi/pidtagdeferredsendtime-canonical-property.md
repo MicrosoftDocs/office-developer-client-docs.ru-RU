@@ -23,24 +23,24 @@ ms.locfileid: "32359880"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает время, в течение которого клиент хочет отложить отправку сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ДЕФЕРРЕД_СЕНД_ТИМЕ  <br/> |
+|Связанные свойства:  <br/> |PR_DEFERRED_SEND_TIME  <br/> |
 |Идентификатор:  <br/> |0x3FEF  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если присутствуют свойства **пр_деферред_сенд_унитс** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) и **пр_деферред_сенд_нумбер** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)), значение этого свойства пересчитывается с помощью следующей формулы и старое значение игнорируется.
+Если заданы свойства **PR_DEFERRED_SEND_UNITS** ([PidTagDeferredSendUnits](pidtagdeferredsendunits-canonical-property.md)) и **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)), значение этого свойства пересчитывается с помощью следующей формулы, а старое значение игнорируется.
   
- **Пр_деферред_сенд_тиме** = **пр_клиент_субмит_тиме** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) + **пр_деферред_сенд_нумбер** * тимеоф (**пр_деферред_сенд_унитс**)
+ **PR_DEFERRED_SEND_TIME** = **PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) + **PR_DEFERRED_SEND_NUMBER** * тимеоф (**PR_DEFERRED_SEND_UNITS**)
   
-Если значение **пр_деферред_сенд_тиме** более раннее, чем текущее время (в формате UTC), сообщение отправляется немедленно. 
+Если **PR_DEFERRED_SEND_TIME** значение более раннее, чем текущее время (в формате UTC), сообщение отправляется немедленно. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
@@ -50,7 +50,7 @@ ms.locfileid: "32359880"
   
 > Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

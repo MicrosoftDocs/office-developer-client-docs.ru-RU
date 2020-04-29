@@ -1,5 +1,5 @@
 ---
-title: Иолкапптребасербегиненумератеаппоинтментс
+title: иолкапптребасербегиненумератеаппоинтментс
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -30,11 +30,11 @@ HRESULT BeginEnumerateAppointments(
 
 ## <a name="parameters"></a>Параметры
 
-_Пфнпрогресс_
+_пфнпрогресс_
   
 > [in] Optional. A pointer to a rebase task progress function to receive progress. **PFNREBASETASKPROGRESS** is defined in tzmovelib.h. 
     
-_Ппконтекст_
+_ппконтекст_
   
 > [out] Required. A pointer to a pointer to the returned context. This context will be passed to [IOlkApptRebaser::EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md).
     

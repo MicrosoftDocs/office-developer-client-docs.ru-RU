@@ -27,28 +27,28 @@ ms.locfileid: "33407923"
   
  **Поиск имени любого профиля**
   
-1. ВыЗовите [мапиадминпрофилес](mapiadminprofiles.md) , чтобы получить указатель интерфейса **ипрофадмин** . 
+1. Вызовите [мапиадминпрофилес](mapiadminprofiles.md) , чтобы получить указатель интерфейса **ипрофадмин** . 
     
 2. Call [ипрофадмин:: жетпрофилетабле](iprofadmin-getprofiletable.md) для доступа к таблице профилей. 
     
-3. ВыЗовите таблицу профилей [IMAPITable:: QueryRows](imapitable-queryrows.md) , чтобы получить все строки в таблице и проверить каждую из них, чтобы определить, соответствует ли она целевому профилю. 
+3. Вызовите таблицу профилей [IMAPITable:: QueryRows](imapitable-queryrows.md) , чтобы получить все строки в таблице и проверить каждую из них, чтобы определить, соответствует ли она целевому профилю. 
     
  **Поиск имени профиля по умолчанию**
   
-1. ВыЗовите [мапиадминпрофилес](mapiadminprofiles.md).
+1. Вызовите [мапиадминпрофилес](mapiadminprofiles.md).
     
 2. Call [ипрофадмин:: жетпрофилетабле](iprofadmin-getprofiletable.md) для доступа к таблице профилей. 
     
-3. Создайте ограничение свойства с помощью структуры [спропертирестриктион](spropertyrestriction.md) для сравнения **пр_дефаулт_профиле** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) со значением true.
+3. Создайте ограничение свойства с помощью структуры [спропертирестриктион](spropertyrestriction.md) для сравнения **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) со значением true.
     
-4. Call [IMAPITable:: FindRow](imapitable-findrow.md) для обнаружения строки в таблице Profile, которая представляет профиль по умолчанию. Столбец **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) содержит имя профиля по умолчанию.
+4. Call [IMAPITable:: FindRow](imapitable-findrow.md) для обнаружения строки в таблице Profile, которая представляет профиль по умолчанию. Столбец **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) содержит имя профиля по умолчанию.
     
  **Поиск имени текущего профиля**
   
 Чтобы найти имя текущего профиля, выполните одно из указанных ниже действий.
   
-- Предполагается, что структура [мапиуид](mapiuid.md) , представляющая один из разделов текущего профиля, передается в параметре _лпуид_ в [IMAPISession:: опенпрофилесектион](imapisession-openprofilesection.md). ИзВлеките свойство **пр_профиле_наме** ([PidTagProfileName](pidtagprofilename-canonical-property.md)) раздела profile с помощью метода [IMAPIProp::](imapiprop-getprops.md) -PROPS. 
+- Предполагается, что структура [мапиуид](mapiuid.md) , представляющая один из разделов текущего профиля, передается в параметре _лпуид_ в [IMAPISession:: опенпрофилесектион](imapisession-openprofilesection.md). Получите свойство **PR_PROFILE_NAME** раздела профиля ([PidTagProfileName](pidtagprofilename-canonical-property.md)) с помощью метода [IMAPIProp::-PROPS](imapiprop-getprops.md) . 
     
-- Call [IMAPISession:: жетстатустабле](imapisession-getstatustable.md) для доступа к таблице status и поиска строки, в которой для столбца **пр_ресаурце_типе** ([PIDTAGRESOURCETYPE](pidtagresourcetype-canonical-property.md)) задано значение мапи_субсистем. Столбец **пр_дисплай_наме** для этой строки является именем профиля. Не используйте таблицу Status во время запуска, так как она блокирует приложение до тех пор, пока диспетчер очереди MAPI не завершит инициализацию всех поставщиков транспорта. Это может привести к снижению производительности. 
+- Call [IMAPISession:: жетстатустабле](imapisession-getstatustable.md) для доступа к таблице status и поиска строки, в которой для столбца **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) задано значение MAPI_SUBSYSTEM. Столбец **PR_DISPLAY_NAME** для этой строки является именем профиля. Не используйте таблицу Status во время запуска, так как она блокирует приложение до тех пор, пока диспетчер очереди MAPI не завершит инициализацию всех поставщиков транспорта. Это может привести к снижению производительности. 
     
 

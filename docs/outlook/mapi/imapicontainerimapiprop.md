@@ -33,25 +33,25 @@ ms.locfileid: "33406124"
 |Предоставлено:  <br/> |Папка, контейнер адресной книги и объекты списка рассылки  <br/> |
 |Реализовано в:  <br/> |Хранилище сообщений, адресные книги и удаленные поставщики транспорта  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_имапиконтаинер  <br/> |
-|Тип указателя:  <br/> |ЛПМАПИКОНТАИНЕР  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IMAPIContainer  <br/> |
+|Тип указателя:  <br/> |лпмапиконтаинер  <br/> |
 |Модель транзакции:  <br/> |Абстрактный класс, никогда не реализован  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[Жетконтентстабле](imapicontainer-getcontentstable.md) <br/> |Возвращает указатель на таблицу содержимого контейнера.  <br/> |
-|[Жесиерарчитабле](imapicontainer-gethierarchytable.md) <br/> |Возвращает указатель на таблицу иерархии контейнера.  <br/> |
+|[жетконтентстабле](imapicontainer-getcontentstable.md) <br/> |Возвращает указатель на таблицу содержимого контейнера.  <br/> |
+|[жесиерарчитабле](imapicontainer-gethierarchytable.md) <br/> |Возвращает указатель на таблицу иерархии контейнера.  <br/> |
 |[OpenEntry](imapicontainer-openentry.md) <br/> |Открывает объект в контейнере, возвращая указатель интерфейса для дальнейшего доступа.  <br/> |
-|[Сетсеарчкритериа](imapicontainer-setsearchcriteria.md) <br/> |Устанавливает критерии поиска для контейнера.  <br/> |
-|[Жетсеарчкритериа](imapicontainer-getsearchcriteria.md) <br/> |Получает условия поиска для контейнера.  <br/> |
+|[сетсеарчкритериа](imapicontainer-setsearchcriteria.md) <br/> |Устанавливает критерии поиска для контейнера.  <br/> |
+|[жетсеарчкритериа](imapicontainer-getsearchcriteria.md) <br/> |Получает условия поиска для контейнера.  <br/> |
    
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**Пр_контаинер_хиерарчи** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_контаинер_контентс** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_контаинер_флагс** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_CONTAINER_CONTENTS** ([PidTagContainerContents](pidtagcontainercontents-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md))  <br/> |Чтение и запись  <br/> |
    
 ## <a name="see-also"></a>См. также
 

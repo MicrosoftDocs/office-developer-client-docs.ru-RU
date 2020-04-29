@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407076"
 ---
-# <a name="propsmtpssl"></a>PROP_SMTP_SSL
+# <a name="prop_smtp_ssl"></a>PROP_SMTP_SSL
 
 Указывает, следует ли использовать протокол SSL для учетной записи SMTP.
   
@@ -23,7 +23,7 @@ ms.locfileid: "33407076"
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0202  <br/> |
-|Тип свойства:  <br/> |ПТ_ДВОРД  <br/> |
+|Тип свойства:  <br/> |PT_DWORD  <br/> |
 |Тег свойства:  <br/> |0x02020003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
-- шаблоны форм, совместимые с InfoPath 2003, отображение диалоговых окон, шаблонов форм [InfoPath 2007], отображение диалоговых окон, оповещений, отображение в шаблонах форм, совместимых с InfoPath 2003, диалоговые окна, отображение в шаблонах форм InfoPath, совместимых с 2003 , Шаблоны форм, совместимые с InfoPath 2003, отображение оповещений
+- шаблоны форм, совместимые с InfoPath 2003, отображение диалоговых окон, шаблонов форм [InfoPath 2007], отображение диалоговых окон, оповещений, отображение в шаблонах форм, совместимых с InfoPath 2003, диалоговые окна, отображение в InfoPath 2003 совместимые шаблоны форм, шаблоны форм, совместимые с InfoPath 2003, отображение оповещений
 localization_priority: Normal
 ms.assetid: 721ac58e-56d9-4e3b-93f1-849e0c94d010
 description: При написании кода для расширения возможностей шаблона формы, использующего объектную модель InfoPath 2003, зачастую полезно предоставлять пользователю сведения в диалоговом окне.
@@ -102,6 +102,6 @@ function BtnClick()
 ```
 
 > [!IMPORTANT]
-> Метод [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) требует полного доверия для запуска или предварительной версии. Дополнительные сведения можно найти в статье [Просмотр и отладка шаблонов форм, требующИх полного доверия](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
+> Метод [ShowModalDialog](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.UI2.ShowModalDialog.aspx) требует полного доверия для запуска или предварительной версии. Дополнительные сведения можно найти в статье [Просмотр и отладка шаблонов форм, требующих полного доверия](how-to-preview-and-debug-form-templates-that-require-full-trust.md). 
   
 

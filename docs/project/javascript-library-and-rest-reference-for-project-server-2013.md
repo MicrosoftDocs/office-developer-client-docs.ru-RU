@@ -23,13 +23,13 @@ ms.locfileid: "32358109"
 Можно получить доступ к функциям Project Server с помощью объектной модели JavaScript, которая определена в пространстве имен `%ProgramFiles%\Common Files\Microsoft Shared\Web Server Extensions\15\TEMPLATE\LAYOUTS\PS.js` [PS](https://msdn.microsoft.com/library/e3156167-a4fd-1bf6-8d1c-e180de1844ed%28Office.15%29.aspx) в файле. Объект [ProjectContext](https://msdn.microsoft.com/library/a490b675-a845-ee94-3877-b99ada9bf2b0%28Office.15%29.aspx) в пространстве имен [PS](https://msdn.microsoft.com/library/e3156167-a4fd-1bf6-8d1c-e180de1844ed%28Office.15%29.aspx) является точкой входа для объектной модели JavaScript. 
   
 > [!NOTE]
-> Чтобы просмотреть объектную модель JavaScript и упростить отладку, можно использовать файл PS. Debug. js в том же каталоге. Для упрощения разработки на удаленном компьютере загружаемый [пакет SDK для Project 2013](https://www.microsoft.com/en-us/download/details.aspx?id=30435) включает сборки .NET Framework для CSOM, а также файлы PS. js и PS. Debug. js. 
+> Чтобы просмотреть объектную модель JavaScript и упростить отладку, можно использовать файл PS. Debug. js в том же каталоге. Для упрощения разработки на удаленном компьютере [загружаемый пакет SDK для Project 2013](https://www.microsoft.com/en-us/download/details.aspx?id=30435) включает сборки .NET Framework для CSOM, а также файлы PS. js и PS. Debug. js. 
   
 Вы также можете получать доступ к функциям Project Server с помощью интерфейса REST. Точкой входа для интерфейса REST является ресурс **Project** , доступ к которому осуществляется с помощью URI `https://ServerName/pwaName/_api/ProjectServer` конечной точки. Например, следующий запрос получает назначения в указанном проекте (Replace _ServerName_ и _ПВАНАМЕ_и изменяет GUID в соответствии с проектом).
   
 `https://ServerName/pwaName/_api/ProjectServer/Projects('263fc8d7-427c-e111-92fc-00155d3ba208')/Assignments`
 
-Ресурс **Project** описывается в ресурсах [Project в интерфейсе REST](https://msdn.microsoft.com/library/a490b675-a845-ee94-3877-b99ada9bf2b0%28Office.15%29.aspx#bk_ProjectServerResources). Другие ресурсы REST описаны в документации по соответствующим объектам JavaScript и элементам в этой справочной статье. Дополнительные сведения об использовании REST можно найти в статье [клиентская объектная модель (CSOM) для Project Server](client-side-object-model-csom-for-project-2013.md) и [программирование с помощью службы SharePoint 2013 REST](https://msdn.microsoft.com/library/fp142385%28office.15%29.aspx).
+Ресурс **Project** описывается в [ресурсах Project в интерфейсе REST](https://msdn.microsoft.com/library/a490b675-a845-ee94-3877-b99ada9bf2b0%28Office.15%29.aspx#bk_ProjectServerResources). Другие ресурсы REST описаны в документации по соответствующим объектам JavaScript и элементам в этой справочной статье. Дополнительные сведения об использовании REST можно найти в статье [клиентская объектная модель (CSOM) для Project Server](client-side-object-model-csom-for-project-2013.md) и [программирование с помощью службы SharePoint 2013 REST](https://msdn.microsoft.com/library/fp142385%28office.15%29.aspx).
   
 ## <a name="javascript-library-and-rest-reference-for-project-server"></a>Библиотека JavaScript и справочные материалы по REST для Project Server
 <a name="pj15_JavaScriptAPIReference_PS"> </a>
@@ -39,7 +39,7 @@ ms.locfileid: "32358109"
 ## <a name="see-also"></a>См. также
 <a name="bk_addresources"> </a>
 
-- [Документация для разработчиков Project 2013](project-2013-developer-documentation.md)   
+- [Документация для разработчиков Project 2013](project-2013-developer-documentation.md)   
 - [Клиентская объектная модель (CSOM) для Project Server](client-side-object-model-csom-for-project-2013.md)   
 - [Начало работы с объектной моделью JavaScript](getting-started-with-the-project-server-2013-javascript-object-model.md)  
 - [Работа с проектами при помощи объектной модели JavaScript](create-retrieve-update-delete-projects-using-project-server-javascript.md)

@@ -19,22 +19,22 @@ ms.locfileid: "33409960"
 
 Представляет экземпляр поставщика Outlook Social Connector (OSC).
   
-## <a name="members"></a>Members
+## <a name="members"></a>"Участники"
 
 В следующей таблице показаны элементы, доступные в интерфейсе **исоЦиалпровидер** . 
   
-|**Name**|**Тип элемента**|**Описание**|
+|**имя**|**Тип элемента**|**Описание**|
 |:-----|:-----|:-----|
-|[Дефаултситеурлс](isocialprovider-defaultsiteurls.md) <br/> |Свойство  <br/> |Возвращает массив строк, указывающих URL-адреса сайта для поставщика OSC.  <br/> |
-|[Жетаутоконфигуредсессион](isocialprovider-getautoconfiguredsession.md) <br/> |Метод  <br/> |Получает автоматически настроенный интерфейс [ISocialSession](isocialsessioniunknown.md).  <br/> |
-|[GetCapabilities](isocialprovider-getcapabilities.md) <br/> |Метод  <br/> |Получает строку, описывающую возможности поставщика.  <br/> |
-|[Сеансы.](isocialprovider-getsession.md) <br/> |Метод  <br/> |Получает интерфейс [настроенный ISocialSession](isocialsessioniunknown.md) .  <br/> |
-|[Жетстатуссеттингс](isocialprovider-getstatussettings.md) <br/> |Метод  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
-|[Load](isocialprovider-load.md) <br/> |Метод  <br/> |Инициализирует поставщика OSC.  <br/> |
-|[СоЦиалнетворкгуид](isocialprovider-socialnetworkguid.md) <br/> |Свойство  <br/> |Возвращает идентификатор GUID, представляющий уникальный идентификатор для социальной сети.  <br/> |
-|[СоЦиалнетворкикон](isocialprovider-socialnetworkicon.md) <br/> |Свойство  <br/> |Возвращает массив байтов, представляющий значок социальной сети.  <br/> |
-|[СоЦиалнетворкнаме](isocialprovider-socialnetworkname.md) <br/> |Свойство  <br/> |Возвращает строку, представляющую имя социальной сети.  <br/> |
-|[Version](isocialprovider-version.md) <br/> |Свойство  <br/> |Возвращает строку, представляющую номер версии поставщика для этой социальной сети.  <br/> |
+|[дефаултситеурлс](isocialprovider-defaultsiteurls.md) <br/> |Свойство  <br/> |Возвращает массив строк, указывающих URL-адреса сайта для поставщика OSC.  <br/> |
+|[жетаутоконфигуредсессион](isocialprovider-getautoconfiguredsession.md) <br/> |Method  <br/> |Получает автоматически настроенный интерфейс [ISocialSession](isocialsessioniunknown.md).  <br/> |
+|[GetCapabilities](isocialprovider-getcapabilities.md) <br/> |Method  <br/> |Получает строку, описывающую возможности поставщика.  <br/> |
+|[Сеансы.](isocialprovider-getsession.md) <br/> |Method  <br/> |Получает интерфейс [настроенный ISocialSession](isocialsessioniunknown.md) .  <br/> |
+|[жетстатуссеттингс](isocialprovider-getstatussettings.md) <br/> |Method  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
+|[Load](isocialprovider-load.md) <br/> |Method  <br/> |Инициализирует поставщика OSC.  <br/> |
+|[соЦиалнетворкгуид](isocialprovider-socialnetworkguid.md) <br/> |Свойство  <br/> |Возвращает идентификатор GUID, представляющий уникальный идентификатор для социальной сети.  <br/> |
+|[соЦиалнетворкикон](isocialprovider-socialnetworkicon.md) <br/> |Свойство  <br/> |Возвращает массив байтов, представляющий значок социальной сети.  <br/> |
+|[соЦиалнетворкнаме](isocialprovider-socialnetworkname.md) <br/> |Свойство  <br/> |Возвращает строку, представляющую имя социальной сети.  <br/> |
+|[Версия](isocialprovider-version.md) <br/> |Свойство  <br/> |Возвращает строку, представляющую номер версии поставщика для этой социальной сети.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

@@ -29,14 +29,14 @@ ms.locfileid: "33406831"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРИГИНАТОР_РЕТУРН_АДДРЕСС  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINATOR_RETURN_ADDRESS  <br/> |
 |Идентификатор:  <br/> |0x0024  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

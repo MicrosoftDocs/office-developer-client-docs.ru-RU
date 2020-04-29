@@ -27,9 +27,9 @@ ms.locfileid: "33407895"
     
 2. Call [IMsgStore:: OpenEntry](imsgstore-openentry.md) , чтобы открыть папку "Входящие" и получить указатель на него. 
     
-3. ВыЗовите метод [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) для создания сообщения. 
+3. Вызовите метод [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) для создания сообщения. 
     
-4. ВыЗовите метод [IMAPIProp:: SetProps](imapiprop-setprops.md) , чтобы добавить **пр_боди** ([PidTagBody](pidtagbody-canonical-property.md)), **пр_хтмл** ([PidTagHtml](pidtaghtml-canonical-property.md)) или **пр_ртф_компрессед** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) и **пр_субжект** ([ Свойства PidTagSubject](pidtagsubject-canonical-property.md)). 
+4. Вызовите метод [IMAPIProp:: SetProps](imapiprop-setprops.md) , чтобы добавить свойства **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) или **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) и **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). 
     
 5. Создайте каждое вложение, задайте его свойства и сохраните. Более подробную информацию о добавлении вложений в сообщения можно узнать в статье [Создание вложения сообщения](creating-a-message-attachment.md).
     

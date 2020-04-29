@@ -23,13 +23,13 @@ ms.locfileid: "32359908"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает единицу времени, на которую необходимо умножить значение свойства **пр_деферред_сенд_нумбер** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)).
+Указывает единицу времени, на которую необходимо умножить значение свойства **PR_DEFERRED_SEND_NUMBER** ([PidTagDeferredSendNumber](pidtagdeferredsendnumber-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ДЕФЕРРЕД_СЕНД_УНИТС  <br/> |
+|Связанные свойства:  <br/> |PR_DEFERRED_SEND_UNITS  <br/> |
 |Идентификатор:  <br/> |0x3FEC  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
@@ -54,7 +54,7 @@ ms.locfileid: "32359908"
   
 > Задает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407783"
 ---
-# <a name="mapiofflinecallbacktype"></a>MAPIOFFLINE_CALLBACK_TYPE
+# <a name="mapioffline_callback_type"></a>MAPIOFFLINE_CALLBACK_TYPE
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-ПереЧисление поддерживаемых типов обратных вызовов.
+Перечисление поддерживаемых типов обратных вызовов.
   
 ## <a name="quick-info"></a>Краткие сведения
 

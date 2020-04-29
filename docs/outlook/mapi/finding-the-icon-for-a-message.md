@@ -23,12 +23,12 @@ ms.locfileid: "33409155"
   
  **Чтобы найти значок, связанный с сообщением**
   
-1. ВыЗовите метод [IMAPIProp::](imapiprop-getprops.md) -PROPS сообщения, чтобы получить свойство **пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
+1. Вызовите метод [IMAPIProp::-PROPS](imapiprop-getprops.md) сообщения, чтобы получить его свойство **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
     
-2. ВыЗовите [мапиопенформмгр](mapiopenformmgr.md) , чтобы получить указатель интерфейса **имапиформмгр** . Передайте указатель **IMAPISession** в параметр _псессион_ . 
+2. Вызовите [мапиопенформмгр](mapiopenformmgr.md) , чтобы получить указатель интерфейса **имапиформмгр** . Передайте указатель **IMAPISession** в параметр _псессион_ . 
     
 3. Call [имапиформмгр:: ресолвемессажекласс](imapiformmgr-resolvemessageclass.md) для получения указателя интерфейса **имапиформинфо** . 
     
-4. Используйте указатель **имапиформинфо** , чтобы вызвать [IMAPIProp::](imapiprop-getprops.md) -PROPS и извлечь свойства **пр_икон** ([PidTagIcon](pidtagicon-canonical-property.md)) и/или **пр_мини_икон** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
+4. С помощью указателя **имапиформинфо** вызовите [IMAPIProp::-PROPS](imapiprop-getprops.md) и извлеките **Свойства PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) и/или **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
     
 

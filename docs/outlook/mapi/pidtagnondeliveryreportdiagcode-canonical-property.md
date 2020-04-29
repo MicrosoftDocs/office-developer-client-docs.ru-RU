@@ -29,7 +29,7 @@ ms.locfileid: "33406236"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_НДР_ДИАГ_КОДЕ  <br/> |
+|Связанные свойства:  <br/> |PR_NDR_DIAG_CODE  <br/> |
 |Идентификатор:  <br/> |0x0C05  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
@@ -38,201 +38,201 @@ ms.locfileid: "33406236"
 
 Это свойство может иметь только одно из следующих значений:
   
-МАПИ_ДИАГ_АЛФАБЕТИК_ЧАРАКТЕР_ЛОСТ 
+MAPI_DIAG_ALPHABETIC_CHARACTER_LOST 
   
 > 
     
-МАПИ_ДИАГ_КОНТЕНТ_СИНТАКС_ИН_ЕРРОР 
+MAPI_DIAG_CONTENT_SYNTAX_IN_ERROR 
   
 > 
     
-МАПИ_ДИАГ_КОНТЕНТ_ТУ_ЛОНГ 
+MAPI_DIAG_CONTENT_TOO_LONG 
   
 > 
     
-МАПИ_ДИАГ_КОНТЕНТ_ТИПЕ_УНСУППОРТЕД 
+MAPI_DIAG_CONTENT_TYPE_UNSUPPORTED 
   
 > 
     
-МАПИ_ДИАГ_КОНВЕРСИОН_ЛОСС_ПРОХИБ 
+MAPI_DIAG_CONVERSION_LOSS_PROHIB 
   
 > 
     
-МАПИ_ДИАГ_КОНВЕРСИОН_УНСУБСКРИБЕД 
+MAPI_DIAG_CONVERSION_UNSUBSCRIBED 
   
 > 
     
-МАПИ_ДИАГ_КРИТИКАЛ_ФУНК_УНСУППОРТЕД 
+MAPI_DIAG_CRITICAL_FUNC_UNSUPPORTED 
   
 > 
     
-МАПИ_ДИАГ_ЕИТС_УНСУППОРТЕД 
+MAPI_DIAG_EITS_UNSUPPORTED 
   
 > 
     
-МАПИ_ДИАГ_ЕКСПАНСИОН_ФАИЛЕД 
+MAPI_DIAG_EXPANSION_FAILED 
   
 > 
     
-МАПИ_ДИАГ_ЕКСПАНСИОН_ПРОХИБИТЕД 
+MAPI_DIAG_EXPANSION_PROHIBITED 
   
 > 
     
-МАПИ_ДИАГ_ИМПРАКТИКАЛ_ТО_КОНВЕРТ 
+MAPI_DIAG_IMPRACTICAL_TO_CONVERT 
   
 > 
     
-МАПИ_ДИАГ_ЛЕНГС_КОНСТРАИНТ_ВИОЛАТД 
+MAPI_DIAG_LENGTH_CONSTRAINT_VIOLATD 
   
 > 
     
-МАПИ_ДИАГ_ЛИНЕ_ТУ_ЛОНГ 
+MAPI_DIAG_LINE_TOO_LONG 
   
 > 
     
-МАПИ_ДИАГ_ЛУП_ДЕТЕКТЕД 
+MAPI_DIAG_LOOP_DETECTED 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_АДДРЕСС_ИНКОМПЛЕТЕ 
+MAPI_DIAG_MAIL_ADDRESS_INCOMPLETE 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_АДДРЕСС_ИНКОРРЕКТ 
+MAPI_DIAG_MAIL_ADDRESS_INCORRECT 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_ФОРВАРДИНГ_ПРОХИБ 
+MAPI_DIAG_MAIL_FORWARDING_PROHIB 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_ФОРВАРДИНГ_УНВАНТЕД 
+MAPI_DIAG_MAIL_FORWARDING_UNWANTED 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_НЕВ_АДДРЕСС_УНКНОВН 
+MAPI_DIAG_MAIL_NEW_ADDRESS_UNKNOWN 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_ОФФИЦЕ_ИНКОР_ОР_ИНВД 
+MAPI_DIAG_MAIL_OFFICE_INCOR_OR_INVD 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_ОРГАНИЗАТИОН_ЕКСПИРЕД 
+MAPI_DIAG_MAIL_ORGANIZATION_EXPIRED 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_РЕЦИПИЕНТ_ДЕЦЕАСЕД 
+MAPI_DIAG_MAIL_RECIPIENT_DECEASED 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_РЕЦИПИЕНТ_ДЕПАРТЕД 
+MAPI_DIAG_MAIL_RECIPIENT_DEPARTED 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_РЕЦИПИЕНТ_МОВЕД 
+MAPI_DIAG_MAIL_RECIPIENT_MOVED 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_РЕЦИПИЕНТ_ТРАВЕЛЛИНГ 
+MAPI_DIAG_MAIL_RECIPIENT_TRAVELLING 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_РЕЦИПИЕНТ_УНКНОВН 
+MAPI_DIAG_MAIL_RECIPIENT_UNKNOWN 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_РЕФУСЕД 
+MAPI_DIAG_MAIL_REFUSED 
   
 > 
     
-МАПИ_ДИАГ_МАИЛ_УНКЛАИМЕД 
+MAPI_DIAG_MAIL_UNCLAIMED 
   
 > 
     
-МАПИ_ДИАГ_МАКСИМУМ_ТИМЕ_ЕКСПИРЕД 
+MAPI_DIAG_MAXIMUM_TIME_EXPIRED 
   
 > 
     
-МАПИ_ДИАГ_МТС_КОНЖЕСТЕД 
+MAPI_DIAG_MTS_CONGESTED 
   
 > 
     
-МАПИ_ДИАГ_МУЛТИПЛЕ_ИНФО_ЛОССЕС 
+MAPI_DIAG_MULTIPLE_INFO_LOSSES 
   
 > 
     
-МАПИ_ДИАГ_НО_БИЛАТЕРАЛ_АГРИМЕНТ 
+MAPI_DIAG_NO_BILATERAL_AGREEMENT 
   
 > 
     
-МАПИ_ДИАГ_НО_ДИАГНОСТИК 
+MAPI_DIAG_NO_DIAGNOSTIC 
   
 > 
     
-МАПИ_ДИАГ_НУМБЕР_КОНСТРАИНТ_ВИОЛАТД 
+MAPI_DIAG_NUMBER_CONSTRAINT_VIOLATD 
   
 > 
     
-МАПИ_ДИАГ_ОР_НАМЕ_АМБИГУАУС 
+MAPI_DIAG_OR_NAME_AMBIGUOUS 
   
 > 
     
-МАПИ_ДИАГ_ОР_НАМЕ_УНРЕКОГНИЗЕД 
+MAPI_DIAG_OR_NAME_UNRECOGNIZED 
   
 > 
     
-МАПИ_ДИАГ_ПАЖЕ_ТУ_ЛОНГ 
+MAPI_DIAG_PAGE_TOO_LONG 
   
 > 
     
-МАПИ_ДИАГ_ПАРАМЕТЕРС_ИНВАЛИД 
+MAPI_DIAG_PARAMETERS_INVALID 
   
 > 
     
-МАПИ_ДИАГ_ПИКТОРИАЛ_СИМБОЛ_ЛОСТ 
+MAPI_DIAG_PICTORIAL_SYMBOL_LOST 
   
 > 
     
-МАПИ_ДИАГ_ПРОХИБИТЕД_ТО_КОНВЕРТ 
+MAPI_DIAG_PROHIBITED_TO_CONVERT 
   
 > 
     
-МАПИ_ДИАГ_ПУНКТУАТИОН_СИМБОЛ_ЛОСТ 
+MAPI_DIAG_PUNCTUATION_SYMBOL_LOST 
   
 > 
     
-МАПИ_ДИАГ_РЕАССИГНМЕНТ_ПРОХИБИТЕД 
+MAPI_DIAG_REASSIGNMENT_PROHIBITED 
   
 > 
     
-МАПИ_ДИАГ_РЕЦИПИЕНТ_УНАВАИЛАБЛЕ 
+MAPI_DIAG_RECIPIENT_UNAVAILABLE 
   
 > 
     
-МАПИ_ДИАГ_РЕДИРЕКТИОН_ЛУП_ДЕТЕКТЕД 
+MAPI_DIAG_REDIRECTION_LOOP_DETECTED 
   
 > 
     
-МАПИ_ДИАГ_РЕНДИТИОН_УНСУППОРТЕД 
+MAPI_DIAG_RENDITION_UNSUPPORTED 
   
 > 
     
-МАПИ_ДИАГ_СЕКУРЕ_МЕССАГИНГ_ЕРРОР 
+MAPI_DIAG_SECURE_MESSAGING_ERROR 
   
 > 
     
-МАПИ_ДИАГ_СУБМИССИОН_ПРОХИБИТЕД 
+MAPI_DIAG_SUBMISSION_PROHIBITED 
   
 > 
     
-МАПИ_ДИАГ_ТУ_МАНИ_РЕЦИПИЕНТС 
+MAPI_DIAG_TOO_MANY_RECIPIENTS 
   
 > 
     
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -1,5 +1,5 @@
 ---
-title: Имаписессионжетстатустабле
+title: имаписессионжетстатустабле
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -42,9 +42,9 @@ HRESULT GetStatusTable(
     
 MAPI_UNICODE 
   
-> Строковые столбцы представлены в формате Юникод. Если флаг МАПИ_УНИКОДЕ не установлен, строковые столбцы представлены в формате ANSI.
+> Строковые столбцы представлены в формате Юникод. Если флаг MAPI_UNICODE не установлен, строковые столбцы имеют формат ANSI.
     
- _Лпптабле_
+ _лпптабле_
   
 > вышли Указатель на указатель на таблицу состояния.
     
@@ -60,7 +60,7 @@ S_OK
   
 Полный список обязательных и необязательных столбцов в таблице состояние представлен в статье [Status Tables](status-tables.md). 
   
-Установка флага МАПИ_УНИКОДЕ в параметре _ulFlags_ влияет на формат столбцов, возвращаемых методами [IMAPITable:: куериколумнс](imapitable-querycolumns.md) и [IMAPITable:: QueryRows](imapitable-queryrows.md) . Этот флаг также контролирует типы свойств в порядке сортировки, возвращаемом методом [IMAPITable:: куерисортордер](imapitable-querysortorder.md) . 
+Установка флага MAPI_UNICODE в параметре _ulFlags_ влияет на формат столбцов, возвращаемых методами [IMAPITable:: куериколумнс](imapitable-querycolumns.md) и [IMAPITable:: QueryRows](imapitable-queryrows.md) . Этот флаг также контролирует типы свойств в порядке сортировки, возвращаемом методом [IMAPITable:: куерисортордер](imapitable-querysortorder.md) . 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 

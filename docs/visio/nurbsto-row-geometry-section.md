@@ -26,7 +26,7 @@ ms.locfileid: "33404717"
 |:-----|:-----|
 |[X](x-cell-geometry-section.md) <br/> |Координата *x* последней контрольной точки объекта NURBS.  <br/> |
 |[Y (да)](y-cell-geometry-section.md) <br/> |Координата *y* последней контрольной точки объекта NURBS.  <br/> |
-|[A](a-cell-geometry-section.md) <br/> |Второе значение к последнему кноту NURBS.  <br/> |
+|[Определенно](a-cell-geometry-section.md) <br/> |Второе значение к последнему кноту NURBS.  <br/> |
 |[З](b-cell-geometry-section.md) <br/> |Последний вес NURBS.  <br/> |
 |[C](c-cell-geometry-section.md) <br/> |Первый кнот NURBS.  <br/> |
 |[D](d-cell-geometry-section.md) <br/> |Первый вес объекта NURBS.  <br/> |

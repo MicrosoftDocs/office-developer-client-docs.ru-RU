@@ -26,7 +26,7 @@ ms.locfileid: "33406299"
 > [!NOTE]
 > Методы и свойства класса [View](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) недоступны во время события [загрузки](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Loading.aspx) . 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [DisableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.DisableAutoUpdate.aspx)  <br/> |Отключает автоматическую синхронизацию между XML-документом формы и связанным представлением.  <br/> |
 |Метод [EnableAutoUpdate](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.EnableAutoUpdate.aspx)  <br/> |Включает автоматическую синхронизацию между XML-документом формы и связанным представлением.  <br/> |
@@ -85,7 +85,7 @@ Me.ViewInfos.Initial = Me.ViewInfos["MyInitialView"];
 
 ## <a name="selecting-controls-in-a-view"></a>Выбор элементов управления в представлении
 
-InfoPath предоставляет два метода класса [представления](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) , которые перегружаются для программного выбора элемента управления в текущем представлении: методы [SelectText ()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) и [SelectNodes ()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) . Метод [SelectText (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) используется для элементов управления вводом данных, например **текстового поля**, а метод **SelectNodes** используется для структурных элементов управления, таких как необязательный **раздел**. Для выбора конкретного элемента управления в представлении необходимо предоставить узел и, при желании, идентификатор ViewContext элемента управления. Идентификатор ViewContext необходим, если к одному узлу в источнике данных привязано несколько элементов управления. InfoPath предоставляет сведения об идентификаторе ViewContext при создании формы.
+InfoPath предоставляет два метода класса [представления](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.aspx) , которые перегружаются для программного выбора элемента управления в текущем представлении: методы [SelectText ()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) и [SelectNodes ()](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) . Метод [SelectText (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectText.aspx) используется для элементов управления вводом данных, например **текстового поля**, а метод **SelectNodes** используется для структурных элементов управления, таких как **необязательный раздел**. Для выбора конкретного элемента управления в представлении необходимо предоставить узел и, при желании, идентификатор ViewContext элемента управления. Идентификатор ViewContext необходим, если к одному узлу в источнике данных привязано несколько элементов управления. InfoPath предоставляет сведения об идентификаторе ViewContext при создании формы.
   
 Идентификатор ViewContext элемента управления отображается на вкладке **Дополнительно** диалогового окна Свойства элемента управления, к которому можно получить доступ, щелкнув элемент управления правой кнопкой мыши, выбрав _контролнаме_ **Свойства**и выбрав вкладку **Дополнительно** . Идентификатор ViewContext элемента управления указан в разделе **код** вкладки **Дополнительно** . 
   
@@ -165,7 +165,7 @@ XPathNavigator textNode =
 CurrentView.SelectText(textNode, "CTRL8");
 ```
 
-В следующем примере перегрузка [SelectNodes (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) метода **SelectNodes** , который предоставляет только один параметр _StartNode_ , используется для выбора первой строки в повторяющейся таблице, привязанной к повторяющейся группе "My: Employee (сотрудник). 
+В следующем примере перегрузка [SelectNodes (XPathNavigator)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) метода **SelectNodes** , который предоставляет только один параметр _StartNode_ , используется для выбора первой строки в повторяющейся таблице, привязанной к повторяющейся группе "My: Employee". 
   
 ```cs
 // Create XPathNavigator and specify XPath for nodes.
@@ -176,7 +176,7 @@ XPathNavigator repeatingTableRow1 =
 CurrentView.SelectNodes(repeatingTableRow1);
 ```
 
-В повторяющейся таблице также можно выбирать и несколько строк. В следующем примере первые три строки повторяющейся таблицы, привязанные к повторяющейся группе "My: Employee", выбираются с помощью перегрузки метода SelectNodes [(XPathNavigator, XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) метода **SelectNodes** , который предоставляет  параметры _StartNode_ и _ендноде_ : 
+В повторяющейся таблице также можно выбирать и несколько строк. В следующем примере первые три строки повторяющейся таблицы, привязанные к повторяющейся группе "My: Employee", выбираются с помощью перегрузки метода SelectNodes [(XPathNavigator, XPathNavigator, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.View.SelectNodes.aspx) метода **SelectNodes** , предоставляющего параметры _StartNode_ и _ендноде_ : 
   
 ```cs
 // Create XPathNavigators to specify range of nodes.

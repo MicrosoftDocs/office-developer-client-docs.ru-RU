@@ -29,7 +29,7 @@ ms.locfileid: "33407769"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНТАКТ_ВЕРСИОН  <br/> |
+|Связанные свойства:  <br/> |PR_CONTACT_VERSION  <br/> |
 |Идентификатор:  <br/> |0x3A52  <br/> |
 |Тип данных:  <br/> |PT_CLSID  <br/> |
 |Область:  <br/> |Контакт  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "33407769"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

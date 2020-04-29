@@ -29,7 +29,7 @@ ms.locfileid: "33404843"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ДИСКРЕТЕ_ВАЛУЕС  <br/> |
+|Связанные свойства:  <br/> |PR_DISCRETE_VALUES  <br/> |
 |Идентификатор:  <br/> |0x0E0E  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Несъемный MAPI  <br/> |
@@ -38,13 +38,13 @@ ms.locfileid: "33404843"
 
 Это свойство используется в отчете о недоставке, если сообщение не может быть доставлено одному или нескольким участникам списка рассылки. Для этого необходимо ограничить повторную передачу только отдельными участниками, а не списком рассылки в целом. 
   
-В таблице получателей отчета о недоставке содержатся записи для всех получателей, которым не удалось доставить сообщение, а также для списков рассылки (если они есть), к которым они относятся. Поставщик транспорта должен задать для этого свойства значение TRUE для каждой записи списка рассылки и скопировать **пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **Пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)) и **пр_сеарч_кэй** ([ PidTagSearchKey](pidtagsearchkey-canonical-property.md)) из списка рассылки в **пр_оригинал_дисплай_наме** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **пр_оригинал_ентрид** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) и **пр_оригинал_сеарч_кэй** ([ PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) свойства каждого участника списка рассылки. 
+В таблице получателей отчета о недоставке содержатся записи для всех получателей, которым не удалось доставить сообщение, а также для списков рассылки (если они есть), к которым они относятся. Поставщик транспорта должен задать для этого свойства значение TRUE для каждой записи списка рассылки и скопировать **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)), **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) и **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) из списка рассылки в **PR_ORIGINAL_DISPLAY_NAME** ([PidTagOriginalDisplayName](pidtagoriginaldisplayname-canonical-property.md)), **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) и **PR_ORIGINAL_SEARCH_KEY** ([PidTagOriginalSearchKey](pidtagoriginalsearchkey-canonical-property.md)) для каждого участника этого списка рассылки. 
   
- **Пр_дискрете_валуес** не должно быть задано ни для одной записи получателя отчета о недоставке, кроме списка рассылки. 
+ **PR_DISCRETE_VALUES** не следует устанавливать ни для одной записи получателя отчета о недоставке, кроме списка рассылки. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

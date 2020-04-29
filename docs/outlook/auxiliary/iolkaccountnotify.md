@@ -23,7 +23,7 @@ ms.locfileid: "33412501"
 |:-----|:-----|
 |Наследование от:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Предоставлено:  <br/> | Client  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_иолкаккаунтнотифи  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IOlkAccountNotify  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
 
@@ -37,6 +37,6 @@ ms.locfileid: "33412501"
   
 ## <a name="see-also"></a>См. также
 
-- [About the Account Management API](about-the-account-management-api.md) 
+- [Сведения об API управления учетными записями](about-the-account-management-api.md) 
 - [Constants (Account management API)](constants-account-management-api.md)
 

@@ -26,7 +26,7 @@ int ShowOptions(HWND hWndParent)
 
 ## <a name="parameters"></a>Параметры
 
-_Хвндпарент_
+_хвндпарент_
   
 > Дескриптор окна Excel.
     

@@ -32,10 +32,10 @@ ms.locfileid: "33410072"
 
 |||
 |:-----|:-----|
-|**[Бегиненумератеаппоинтментс](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.  <br/> |
-|**[Енденумератеаппоинтментс](iolkapptrebaser-endenumerateappointments.md)** <br/> |Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.  <br/> |
-|**[Бегинребасеаппоинтментс](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Начинает задачу, которая передается из списка встреч, обычно получаемых из **енденумератеаппоинтментс**.  <br/> |
-|**[Ендребасеаппоинтментс](iolkapptrebaser-endrebaseappointments.md)** <br/> |Waits for appointment rebasing to complete and retrieves the results.  <br/> |
+|**[бегиненумератеаппоинтментс](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.  <br/> |
+|**[енденумератеаппоинтментс](iolkapptrebaser-endenumerateappointments.md)** <br/> |Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.  <br/> |
+|**[бегинребасеаппоинтментс](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Начинает задачу, которая передается из списка встреч, обычно получаемых из **енденумератеаппоинтментс**.  <br/> |
+|**[ендребасеаппоинтментс](iolkapptrebaser-endrebaseappointments.md)** <br/> |Waits for appointment rebasing to complete and retrieves the results.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -22,10 +22,10 @@ ms.locfileid: "33408392"
 
 |**Константа**|**Определение**|
 |:-----|:-----|
-|ДДЛВРАП_ФЛАГ_АНСИ  <br/> |0x00000001  <br/> |
-|ДДЛВРАП_ФЛАГ_УНИКОДЕ  <br/> |0x00000002  <br/> |
+|DDLWRAP_FLAG_ANSI  <br/> |0x00000001  <br/> |
+|DDLWRAP_FLAG_UNICODE  <br/> |0x00000002  <br/> |
    
 ## <a name="see-also"></a>См. также
 
-- [About the Data Degradation Layer API](about-the-data-degradation-layer-api.md)
+- [Сведения об API уровня ухудшения данных](about-the-data-degradation-layer-api.md)
 

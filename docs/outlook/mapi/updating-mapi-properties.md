@@ -25,7 +25,7 @@ ms.locfileid: "33407524"
     
 - Функция [хрсетонепроп](hrsetoneprop.md) для обновления только одного свойства за раз. Используйте **хрсетонепроп** только в том случае, если целевой объект является локальным; Эта функция может привести к ухудшению производительности при использовании с удаленными объектами. 
     
-В следующей процедуре показано, как использовать **SetProps** для обновления класса Message или свойства Пр_мессаже_класс_а ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) сообщения. 
+В следующей процедуре показано, как использовать **SetProps** для обновления класса Message или свойства PR_MESSAGE_CLASS_A ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) сообщения. 
   
 ### <a name="to-update-the-message-class-of-a-message"></a>Обновление класса сообщения сообщения 
   
@@ -38,7 +38,7 @@ ms.locfileid: "33407524"
     
   ```
 
-2. ВыЗовите метод сообщения **IMAPIProp:: SetProps** , чтобы задать новый класс сообщения. 
+2. Вызовите метод сообщения **IMAPIProp:: SetProps** , чтобы задать новый класс сообщения. 
     
   ```cpp
     hRes = lpMessage->SetProps(1, (LPSPropValue) &spvMsgClass, NULL);

@@ -19,7 +19,7 @@ ms.locfileid: "32359845"
 
 В этом разделе содержатся справочные разделы, посвященные расширению возможностей поставщика Outlook Social Connector (OSC).
   
-## <a name="in-this-section"></a>Содержание
+## <a name="in-this-section"></a>В этом разделе
 
 - [Интерфейсы](outlook-social-connector-provider-interfaces.md)
   

@@ -29,14 +29,14 @@ ms.locfileid: "33410863"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ТИПЕ_ОФ_МТС_УСЕР  <br/> |
+|Связанные свойства:  <br/> |PR_TYPE_OF_MTS_USER  <br/> |
 |Идентификатор:  <br/> |0x0C1C  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Получатель MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

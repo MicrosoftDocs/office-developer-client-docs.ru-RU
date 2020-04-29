@@ -25,19 +25,19 @@ ms.locfileid: "33412396"
   
 1. Call [IMsgStore:: OpenEntry](imsgstore-openentry.md), передавая идентификатор записи для папки, содержащей таблицу.
     
-2. ВыЗовите метод [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md) папки, чтобы открыть его таблицу содержимого. 
+2. Вызовите метод [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md) папки, чтобы открыть его таблицу содержимого. 
     
 3. При необходимости ограничьте представление таблицы содержимого, вызвав метод [IMAPITable:: метода SetColumns](imapitable-setcolumns.md) для указания определенных столбцов. 
     
 4. При необходимости ограничьте представление таблицы содержимого, вызвав метод [IMAPITable:: restrict](imapitable-restrict.md) для фильтрации определенных строк. Например, если вы хотите, чтобы отображались только сообщения с определенным классом сообщений, которые еще не прочитаны: 
     
-    1. Создайте ограничение свойства в структуре [спропертирестриктион](spropertyrestriction.md) , которая соответствует свойству **пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) с нужным классом Message. 
+    1. Создайте ограничение свойства в структуре [спропертирестриктион](spropertyrestriction.md) , которая соответствует свойству **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) с нужным классом Message. 
         
-    2. Создайте ограничение битовой маски в структуре [сбитмаскрестриктион](sbitmaskrestriction.md) , которая использует **пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)) в качестве тега свойства и значение мсгфлаг_унреад в качестве маски.
+    2. Создайте ограничение битовой маски в структуре [сбитмаскрестриктион](sbitmaskrestriction.md) , в которой в качестве тега свойства используется **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)), а в качестве маски — значение MSGFLAG_UNREAD.
         
     3. Создание ограничения в структуре [сандрестриктион](sandrestriction.md) , которая присоединяет ограничения свойств и битовой маски. 
     
-5. При необходимости отСортируйте таблицу содержимого, вызвав метод [IMAPITable:: сорттабле](imapitable-sorttable.md) для таблицы. 
+5. При необходимости отсортируйте таблицу содержимого, вызвав метод [IMAPITable:: сорттабле](imapitable-sorttable.md) для таблицы. 
     
 6. Call [IMAPITable:: QueryRows](imapitable-queryrows.md) , чтобы получить все строки из таблицы содержимое для обработки. 
     

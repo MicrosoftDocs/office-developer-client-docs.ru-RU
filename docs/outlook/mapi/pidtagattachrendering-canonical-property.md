@@ -23,13 +23,13 @@ ms.locfileid: "32361098"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Содержит метафайл Microsoft Windows с отображением сведений о вложении. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_АТТАЧ_РЕНДЕРИНГ  <br/> |
+|Связанные свойства:  <br/> |PR_ATTACH_RENDERING  <br/> |
 |Идентификатор:  <br/> |0x3709  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
@@ -40,7 +40,7 @@ ms.locfileid: "32361098"
   
 Для вложенного файла это свойство обычно портрайс значок для файла. 
   
-Для вложенного сообщения это свойство обычно не задается. Клиентскому приложению, необходимому для отображения вложенного сообщения, необходимо получить его свойство **пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), вызовите [имапиформмгр:: ресолвемессажекласс](imapiformmgr-resolvemessageclass.md) для указателя на соответствующий объект сведений о форме. Откройте интерфейс [имапиформинфо](imapiforminfoimapiprop.md) для этого объекта и используйте свойства- **PROPS** для получения свойства **Пр_икон** ([PidTagIcon](pidtagicon-canonical-property.md)) или **пр_мини_икон** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
+Для вложенного сообщения это свойство обычно не задается. Клиентскому приложению, необходимому для отображения вложенного сообщения, необходимо получить его свойство **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)), вызвать [имапиформмгр:: ресолвемессажекласс](imapiformmgr-resolvemessageclass.md) для указателя на соответствующий объект сведений о форме, открыть интерфейс [имапиформинфо](imapiforminfoimapiprop.md) для этого объекта и использовать свойства- **PROPS** для получения свойства **PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) или **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
   
 Для внедренного статического объекта OLE это свойство содержит метафайл Microsoft Windows, который можно использовать для рисования представления вложений в окне. 
   
@@ -56,7 +56,7 @@ ms.locfileid: "32361098"
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413516"
 ---
-# <a name="propinetusespa"></a>PROP_INET_USE_SPA
+# <a name="prop_inet_use_spa"></a>PROP_INET_USE_SPA
 
 Указывает, следует ли использовать безопасную проверку пароля (SPA) для общего почтового ящика в Интернете.
   
@@ -23,7 +23,7 @@ ms.locfileid: "33413516"
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0108  <br/> |
-|Тип свойства:  <br/> |ПТ_ДВОРД  <br/> |
+|Тип свойства:  <br/> |PT_DWORD  <br/> |
 |Тег свойства:  <br/> |0x01080003  <br/> |
 |Обращения  <br/> |Только для чтения  <br/> |
    

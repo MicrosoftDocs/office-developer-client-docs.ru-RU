@@ -29,14 +29,14 @@ ms.locfileid: "33410093"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ПРОВИДЕР_ДИСПЛАЙ_НАМЕ, ПР_ПРОВИДЕР_ДИСПЛАЙ_НАМЕ_А, ПР_ПРОВИДЕР_ДИСПЛАЙ_НАМЕ_В  <br/> |
+|Связанные свойства:  <br/> |PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A PR_PROVIDER_DISPLAY_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x3418  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Хранилище сообщений MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

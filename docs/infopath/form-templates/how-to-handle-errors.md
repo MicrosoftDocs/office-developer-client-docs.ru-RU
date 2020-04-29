@@ -33,12 +33,12 @@ ms.locfileid: "33410779"
 
 Класс [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) предоставляет следующие методы и свойства, которые могут использоваться разработчиками форм для управления объектами [FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.aspx) , содержащимися в коллекции. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Метод [Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) (+ 3 перегрузки)  <br/> |Создает объект **FormError** и добавляет его в коллекцию.  <br/> |
 |Метод [Delete](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Delete.aspx) (+ 1 перегрузка)  <br/> |Удаляет указанную пользовательскую ошибку из коллекции.  <br/> |
 |Метод [DeleteAll](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.DeleteAll.aspx)  <br/> |Удаляет все объекты **FormError** из коллекции.  <br/> |
-|[Возникновение ошибок](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetErrors.aspx) (+ 1 перегрузка)  <br/> |Возвращает все объекты **FormError** с указанным именем или типом, находящиеся в коллекции.  <br/> |
+|[Возникли ошибки](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.GetErrors.aspx) (+ 1 перегрузка)  <br/> |Возвращает все объекты **FormError** с указанным именем или типом, находящиеся в коллекции.  <br/> |
 |Свойство [Count](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Count.aspx)  <br/> |Возвращает количество объектов **FormError**, содержащихся в коллекции.  <br/> |
 |Свойство [Item](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Item.aspx)  <br/> |Возвращает ссылку на объект **FormError**, основываясь на указанном номере индекса.  <br/> |
    
@@ -46,7 +46,7 @@ ms.locfileid: "33410779"
 
 Класс [FormError](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.aspx) предоставляет следующие свойства, которые могут использоваться разработчиками форм для доступа к сведениям о произошедшей ошибке. 
   
-|**Name**|**Описание**|
+|**Название**|**Описание**|
 |:-----|:-----|
 |Свойство [детаиледмессаже](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.DetailedMessage.aspx)  <br/> |Возвращает или задает подробное сообщение об ошибке для объекта **FormError**.  <br/> |
 |Свойство [ErrorCode](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormError.ErrorCode.aspx)  <br/> |Возвращает или задает код ошибки для объекта **FormError**.  <br/> |
@@ -56,7 +56,7 @@ ms.locfileid: "33410779"
    
 ## <a name="using-the-formerrorcollection-and-formerror-classes"></a>Использование классов "FormErrorCollection" и "FormError"
 
-Доступ к объекту **FormErrorCollection** , связанному с формой, осуществляется [](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx) через свойство Errors объекта [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) . Объект **FormErrorCollection** связан с базовым XML-документом формы, поэтому при возникновении ошибки можно получить доступ к этой и любым дополнительным ошибкам XML и управлять ими в текущем документе. В следующем примере демонстрируется использование цикла для поиска возможных ошибок в базовом XML-документе формы. Если ошибки присутствуют, то эта функция обрабатывает в цикле каждую из них и отображает пользователю окна сообщения с помощью свойства **Message** объекта **FormError**. 
+Доступ к объекту **FormErrorCollection** , связанному с формой, осуществляется через свойство [Errors](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.Errors.aspx) объекта [XmlForm](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlForm.aspx) . Объект **FormErrorCollection** связан с базовым XML-документом формы, поэтому при возникновении ошибки можно получить доступ к этой и любым дополнительным ошибкам XML и управлять ими в текущем документе. В следующем примере демонстрируется использование цикла для поиска возможных ошибок в базовом XML-документе формы. Если ошибки присутствуют, то эта функция обрабатывает в цикле каждую из них и отображает пользователю окна сообщения с помощью свойства **Message** объекта **FormError**. 
   
 ```cs
 public void CheckErrors(XPathNavigator xmlNode)
@@ -91,7 +91,7 @@ CheckErrors(e.Site);
 CheckErrors(e.Site)
 ```
 
-Кроме обработки ошибок, создаваемых InfoPath, разработчики форм могут также создавать настраиваемые ошибки с помощью метода [ReportError (XPathNavigator, Boolean, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.ReportError.aspx) объекта события [XmlValidatingEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.aspx) или с помощью метода [Add ](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx)метод класса [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) . Для получения сведений об использовании методов [ReportError (XPathNavigator, Boolean, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.ReportError.aspx) или [Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) , щелкните ссылки этих методов в начале этой статьи. 
+Кроме обработки ошибок, создаваемых InfoPath, разработчики форм могут также создавать настраиваемые ошибки с помощью метода [ReportError (XPathNavigator, Boolean, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.ReportError.aspx) объекта события [XmlValidatingEventArgs](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.aspx) или с помощью метода [Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) класса [FormErrorCollection](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.aspx) . Для получения сведений об использовании методов [ReportError (XPathNavigator, Boolean, String)](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.XmlValidatingEventArgs.ReportError.aspx) или [Add](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormErrorCollection.Add.aspx) , щелкните ссылки этих методов в начале этой статьи. 
   
 ## <a name="handling-managed-code-exceptions"></a>Обработка исключений управляемого кода
 

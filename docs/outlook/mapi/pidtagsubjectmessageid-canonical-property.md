@@ -29,18 +29,18 @@ ms.locfileid: "33407104"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_СУБЖЕКТ_ИПМ  <br/> |
+|Связанные свойства:  <br/> |PR_SUBJECT_IPM  <br/> |
 |Идентификатор:  <br/> |0x0038  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство, например, свойство **пр_репорт_таг** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), можно использовать для сопоставления отчета с исходным сообщением. 
+Это свойство, например, свойство **PR_REPORT_TAG** ([PidTagReportTag](pidtagreporttag-canonical-property.md)), можно использовать для сопоставления отчета с исходным сообщением. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

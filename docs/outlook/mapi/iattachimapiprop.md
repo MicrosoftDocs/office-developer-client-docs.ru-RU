@@ -33,8 +33,8 @@ ms.locfileid: "33409092"
 |Предоставлено:  <br/> |Объекты вложений  <br/> |
 |Реализовано в:  <br/> |Поставщики хранилища сообщений  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_иаттачмент  <br/> |
-|Тип указателя:  <br/> |ЛПАТТАЧ  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IAttachment  <br/> |
+|Тип указателя:  <br/> |лпаттач  <br/> |
 |Модель транзакции:  <br/> |Транзакции  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
@@ -43,9 +43,9 @@ ms.locfileid: "33409092"
   
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**Пр_обжект_типе** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_аттач_месод** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_рендеринг_поситион** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |Чтение и запись  <br/> |
    
 ## <a name="see-also"></a>См. также
 

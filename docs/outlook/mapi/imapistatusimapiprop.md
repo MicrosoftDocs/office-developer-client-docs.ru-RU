@@ -33,28 +33,28 @@ ms.locfileid: "33408301"
 |Предоставлено:  <br/> |Объекты состояний  <br/> |
 |Реализовано в:  <br/> |Поставщики услуг и MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
-|Идентификатор интерфейса:  <br/> |Иид_имапистатус  <br/> |
-|Тип указателя:  <br/> |ЛПМАПИСТАТУС  <br/> |
+|Идентификатор интерфейса:  <br/> |IID_IMAPIStatus  <br/> |
+|Тип указателя:  <br/> |лпмапистатус  <br/> |
 |Модель транзакции:  <br/> |Не transactd  <br/> |
    
 ## <a name="vtable-order"></a>Заказ vtable
 
 |||
 |:-----|:-----|
-|[Валидатестате](imapistatus-validatestate.md) <br/> |Проверяет внешние сведения о состоянии, доступные для ресурса MAPI или поставщика услуг.  <br/> |
-|[Сеттингсдиалог](imapistatus-settingsdialog.md) <br/> |Отображает страницу свойств, позволяющую пользователю изменить конфигурацию поставщика услуг.  <br/> |
+|[валидатестате](imapistatus-validatestate.md) <br/> |Проверяет внешние сведения о состоянии, доступные для ресурса MAPI или поставщика услуг.  <br/> |
+|[сеттингсдиалог](imapistatus-settingsdialog.md) <br/> |Отображает страницу свойств, позволяющую пользователю изменить конфигурацию поставщика услуг.  <br/> |
 |[ChangePassword](imapistatus-changepassword.md) <br/> |Изменяет пароль поставщика услуг без отображения пользовательского интерфейса.  <br/> |
 |[FlushQueues](imapistatus-flushqueues.md) <br/> |Принудительно отправляет или загружает все сообщения, ожидающие отправки или получения.  <br/> |
    
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_провидер_дисплай** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**Пр_провидер_длл_наме** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_ресаурце_флагс** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_ресаурце_месодс** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_ресаурце_типе** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**Пр_статус_коде** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_STATUS_CODE** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md))  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

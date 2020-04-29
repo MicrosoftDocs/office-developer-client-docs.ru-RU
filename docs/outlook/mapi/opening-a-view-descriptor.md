@@ -29,7 +29,7 @@ ms.locfileid: "33413040"
     
 2. Создайте ограничение, которое будет искать только сообщения с классом сообщений, зарезервированным для дескрипторов просмотра и вызовов [IMAPITable:: restrict](imapitable-restrict.md) to Limit для таблицы и [IMAPITable:: QueryRows](imapitable-queryrows.md) для получения соответствующих строк или...
     
-   ВыЗовите метод [IMAPIProp::](imapiprop-getprops.md) -PROPS папки, чтобы получить свойство **пр_дефаулт_виев_ентрид** ([PidTagDefaultViewEntryId](pidtagdefaultviewentryid-canonical-property.md)). **Пр_дефаулт_виев_ентрид** содержит идентификатор записи для сообщения, содержащего дескриптор представления по умолчанию для папки. Этот вызов будет успешным, если папка поддерживает использование флага МАПИ_АССОЦИАТЕД при вызовах [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) и [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md).
+   Вызовите метод [IMAPIProp::-PROPS](imapiprop-getprops.md) папки, чтобы получить его свойство **PR_DEFAULT_VIEW_ENTRYID** ([PidTagDefaultViewEntryId](pidtagdefaultviewentryid-canonical-property.md)). **PR_DEFAULT_VIEW_ENTRYID** содержит идентификатор записи для сообщения, содержащего дескриптор представления по умолчанию для папки. Этот вызов будет успешным, если папка поддерживает использование флага MAPI_ASSOCIATED при вызовах [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) и [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md).
     
 3. Call [IMsgStore:: OpenEntry](imsgstore-openentry.md) с идентификатором элемента дескриптора представления, чтобы открыть его. 
     

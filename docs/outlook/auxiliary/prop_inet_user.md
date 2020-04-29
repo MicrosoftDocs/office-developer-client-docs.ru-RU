@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413705"
 ---
-# <a name="propinetuser"></a>PROP_INET_USER
+# <a name="prop_inet_user"></a>PROP_INET_USER
 
 Представляет имя пользователя для общего почтового ящика в Интернете.
   

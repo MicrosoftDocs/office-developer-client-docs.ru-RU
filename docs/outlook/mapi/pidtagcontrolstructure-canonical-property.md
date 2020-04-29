@@ -29,7 +29,7 @@ ms.locfileid: "33412949"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНТРОЛ_СТРУКТУРЕ  <br/> |
+|Связанные свойства:  <br/> |PR_CONTROL_STRUCTURE  <br/> |
 |Идентификатор:  <br/> |0x3F01  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Таблица отображения MAPI  <br/> |
@@ -49,7 +49,7 @@ ms.locfileid: "33412949"
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

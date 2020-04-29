@@ -25,12 +25,12 @@ ms.locfileid: "33406607"
   
 |**Метод Иперсистмессаже**|**Действие**|**Новое состояние**|
 |:-----|:-----|:-----|
-|[Иперсистмессаже:: савекомплетед](ipersistmessage-savecompleted.md) (_пмессаже! =_ null)  <br/> |Откройте все внедренные объекты. Данные в сообщениях, хранящихся в _пмессаже_ , гарантированно совпадают с сообщением в предыдущем вызове [Иперсистмессаже:: Save](ipersistmessage-save.md) . Если вызов **савекомплетед** выполнен успешно, введите нормальное состояние. В противном случае установите для последней ошибки значение E_OUTOFMEMORY и оставайтесь в состоянии HandsOffAfterSave.  <br/> |[Обычный](normal-state.md) или HandsOffAfterSave  <br/> |
-|**Иперсистмессаже:: савекомплетед** (_пмессаже = =_ null)  <br/> |Задайте для последней ошибки значение Е_ИНВАЛИДАРГ или Е_УНЕКСПЕКТЕД.  <br/> |HandsOffAfterSave  <br/> |
-|[Иперсистмессаже:: хандсоффмессаже](ipersistmessage-handsoffmessage.md), **Save**или [иперсистмессаже:: инитнев](ipersistmessage-initnew.md) <br/> |ПриСвойте последней ошибке значение и возвратите Е_УНЕКСПЕКТЕД.  <br/> |HandsOffAfterSave  <br/> |
+|[Иперсистмессаже:: савекомплетед](ipersistmessage-savecompleted.md)(_пмессаже! =_ null)  <br/> |Откройте все внедренные объекты. Данные в сообщениях, хранящихся в _пмессаже_ , гарантированно совпадают с сообщением в предыдущем вызове [Иперсистмессаже:: Save](ipersistmessage-save.md) . Если вызов **савекомплетед** выполнен успешно, введите нормальное состояние. В противном случае присвойте последней ошибке E_OUTOFMEMORY и оставайтесь в состоянии HandsOffAfterSave.  <br/> |[Обычный](normal-state.md) или HandsOffAfterSave  <br/> |
+|**Иперсистмессаже:: савекомплетед**(_пмессаже = =_ null)  <br/> |Задайте для последней ошибки значение E_INVALIDARG или E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
+|[Иперсистмессаже:: хандсоффмессаже](ipersistmessage-handsoffmessage.md), **Save**или [иперсистмессаже:: инитнев](ipersistmessage-initnew.md) <br/> |Установка последней ошибки и возврат E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
 |[IPersistMessage::Load](ipersistmessage-load.md) <br/> |Загрузка объекта Form с данными из целевого сообщения. Этот вызов может произойти, когда объект Form переходит к следующему или предыдущему сообщению в папке.  <br/> |Normal  <br/> |
 |[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возврат последней ошибки.  <br/> |HandsOffAfterSave  <br/> |
-|Другие [иперсистмессаже:](ipersistmessageiunknown.md) методы или методы IUnknown из других интерфейсов  <br/> |ПриСвойте последней ошибке значение и возвратите Е_УНЕКСПЕКТЕД.  <br/> |HandsOffAfterSave  <br/> |
+|Другие [иперсистмессаже:](ipersistmessageiunknown.md) методы или методы IUnknown из других интерфейсов  <br/> |Установка последней ошибки и возврат E_UNEXPECTED.  <br/> |HandsOffAfterSave  <br/> |
    
 ## <a name="see-also"></a>См. также
 

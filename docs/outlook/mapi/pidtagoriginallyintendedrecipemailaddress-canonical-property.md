@@ -29,9 +29,9 @@ ms.locfileid: "33411374"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРИГИНАЛЛИ_ИНТЕНДЕД_РЕЦИП_ЕМАИЛ_АДДРЕСС, ПР_ОРИГИНАЛЛИ_ИНТЕНДЕД_РЕЦИП_ЕМАИЛ_АДДРЕСС_А, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_W  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS, PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_A PR_ORIGINALLY_INTENDED_RECIP_EMAIL_ADDRESS_W  <br/> |
 |Идентификатор:  <br/> |0x007C  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Сервер  <br/> |
    
 ## <a name="remarks"></a>Примечания
@@ -42,7 +42,7 @@ ms.locfileid: "33411374"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

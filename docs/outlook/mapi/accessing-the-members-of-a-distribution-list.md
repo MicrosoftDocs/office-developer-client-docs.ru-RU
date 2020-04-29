@@ -23,12 +23,12 @@ ms.locfileid: "33412389"
   
  **Получение списка участников списка рассылки**
   
-1. Создайте массив тегов свойств с изменяемыми свойствами элементов, которые требуется извлечь, например **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **Пр_дисплай_наме** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) и **пр_дисплай_типе** ([ PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
+1. Создайте массив тегов свойств с изменяемыми свойствами, например **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)), **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) и **PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md)).
     
 2. Call [IAddrBook:: OpenEntry](iaddrbook-openentry.md) , чтобы открыть список рассылки. 
     
-3. ВыЗовите метод **иабконтаинер:: жетконтентстабле** списка рассылки для доступа к своей таблице содержимого. 
+3. Вызовите метод **иабконтаинер:: жетконтентстабле** списка рассылки для доступа к своей таблице содержимого. 
     
-4. ВыЗовите [хркуеряллровс](hrqueryallrows.md) , чтобы получить все строки таблицы, представляющие участников списка рассылки. 
+4. Вызовите [хркуеряллровс](hrqueryallrows.md) , чтобы получить все строки таблицы, представляющие участников списка рассылки. 
     
 

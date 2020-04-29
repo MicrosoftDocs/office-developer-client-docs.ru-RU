@@ -23,15 +23,15 @@ ms.locfileid: "32358837"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение свойства **пр_интернет_мессаже_ид** ([PidTagInternetMessageId](pidtaginternetmessageid-canonical-property.md)) исходного сообщения.
+Содержит значение свойства **PR_INTERNET_MESSAGE_ID** исходного сообщения ([PidTagInternetMessageId](pidtaginternetmessageid-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ИН_РЕПЛИ_ТО_ИД, ПР_ИН_РЕПЛИ_ТО_ИД_А, ПР_ИН_РЕПЛИ_ТО_ИД_В  <br/> |
+|Связанные свойства:  <br/> |PR_IN_REPLY_TO_ID, PR_IN_REPLY_TO_ID_A PR_IN_REPLY_TO_ID_W  <br/> |
 |Идентификатор:  <br/> |0x1042  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Общий обмен сообщениями  <br/> |
    
 ## <a name="remarks"></a>Примечания
@@ -54,7 +54,7 @@ ms.locfileid: "32358837"
   
 > Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

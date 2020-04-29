@@ -22,11 +22,11 @@ ms.locfileid: "33410051"
 Ключ беседы Windows для рабочих групп 3,1 представляет собой текстовую строку. Эквивалент MAPI является двоичным значением. Для обеспечения обратной совместимости реализация формата TNEF преобразует двоичные данные в текст и добавляет завершающий символ null.
   
 > [!NOTE]
-> Соответствующие свойства MAPI, которым сопоставляются эти атрибуты TNEF, ПР_КОНВЕРСАТИОН_КЭЙ и ПР_ПАРЕНТ_КЭЙ, не рекомендуются в Microsoft Exchange Server: использование **пр_конверсатион_кэй**, [PidTagConversationKey каноническое свойство Свойство](pidtagconversationkey-canonical-property.md)хранится только в Outlook, для поиска **IPM. Сообщения Мессажеманажер** . 
+> Соответствующие свойства MAPI, которым сопоставлены эти атрибуты TNEF, PR_CONVERSATION_KEY и PR_PARENT_KEY, не поддерживаются в Microsoft Exchange Server: использование **PR_CONVERSATION_KEY**, [каноническое свойство PidTagConversationKey](pidtagconversationkey-canonical-property.md), только в Outlook, для поиска **IPM. Сообщения Мессажеманажер** . 
   
 ## <a name="remarks"></a>Примечания
 
-Свойство **пр_конверсатион_кэй** является устаревшей версией прекурсор для канонического свойства **Пр_конверсатион_индекс**, [PidTagConversationIndex канонического свойства](pidtagconversationindex-canonical-property.md) и **пр_конверсатион_топик**, [PidTagConversationTopic канонического ](pidtagconversationtopic-canonical-property.md), Которое следует использовать вместо этого свойства.
+Свойство **PR_CONVERSATION_KEY** — это значение, не являющееся устаревшим прекурсор **PR_CONVERSATION_INDEX**, [каноническое свойство](pidtagconversationindex-canonical-property.md) и **PR_CONVERSATION_TOPIC**, [каноническое свойство PidTagConversationTopic](pidtagconversationtopic-canonical-property.md), которое следует использовать вместо этого.
   
 ## <a name="see-also"></a>См. также
 

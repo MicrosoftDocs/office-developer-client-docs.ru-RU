@@ -22,7 +22,7 @@ ms.locfileid: "33404213"
   
 В этом разделе представлена справочная документация по функциям, которые Microsoft Excel и Диспетчер надстроек ищут в XLL.
   
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 [xlAddInManagerInfo/xlAddInManagerInfo12](xladdinmanagerinfo-xladdinmanagerinfo12.md)
   

@@ -29,7 +29,7 @@ ms.locfileid: "33409022"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ПРОВИДЕР_СУБМИТ_ТИМЕ  <br/> |
+|Связанные свойства:  <br/> |PR_PROVIDER_SUBMIT_TIME  <br/> |
 |Идентификатор:  <br/> |0x0048  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
@@ -42,7 +42,7 @@ ms.locfileid: "33409022"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

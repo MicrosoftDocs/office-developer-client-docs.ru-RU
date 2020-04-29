@@ -40,9 +40,9 @@ ms.locfileid: "33406663"
     
 - Фиелддефинитионс: offset 0x6, массив из 1 FieldDefinition Stream.
     
-  - Flags: offset 0x6, 4 байта: 0x45 (ПДО_ИС_КУСТОМ | ПДО_ПРИНТ_САВЕАС | ПДО_ПРИНТ_САВЕАС_ДЕФ).
+  - Flags: offset 0x6, 4 байта: 0x45 (PDO_IS_CUSTOM | PDO_PRINT_SAVEAS | PDO_PRINT_SAVEAS_DEF).
     
-  - VT: offset 0xA, 2 байта: 0x8 (**вт_бстр**).
+  - VT: offset 0xA, 2 байта: 0x8 (**VT_BSTR**).
     
   - DISPID: offset 0xC, 4 байта: 0x0 (0).
     

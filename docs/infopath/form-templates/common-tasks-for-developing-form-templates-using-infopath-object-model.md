@@ -53,7 +53,7 @@ ms.locfileid: "33411577"
     
 - [Работа с MSXML и System.Xml с использованием объектной модели InfoPath 2003](working-with-msxml-and-system-xml-using-the-infopath-2003-object-model.md)
     
-## <a name="data"></a>Data
+## <a name="data"></a>Данные
 
 Типичные задачи, выполняемые при работе с данными.
   

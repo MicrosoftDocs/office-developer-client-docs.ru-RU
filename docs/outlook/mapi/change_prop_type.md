@@ -19,7 +19,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408623"
 ---
-# <a name="changeproptype"></a>CHANGE_PROP_TYPE
+# <a name="change_prop_type"></a>CHANGE_PROP_TYPE
 
   
   
@@ -38,11 +38,11 @@ CHANGE_PROP_TYPE (ulPropTag, ulPropType)
 
 ## <a name="parameters"></a>Параметры
 
- _Улпроптаг_
+ _улпроптаг_
   
 > Тег свойства, который необходимо изменить.
     
- _Улпроптипе_
+ _улпроптипе_
   
 > Новое значение для типа свойства.
     

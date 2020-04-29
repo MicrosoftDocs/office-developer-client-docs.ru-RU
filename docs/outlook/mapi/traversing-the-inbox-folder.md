@@ -27,9 +27,9 @@ ms.locfileid: "33406558"
     
 2. Call **IMAPIFolder:: OpenEntry** для открытия папки "Входящие". 
     
-3. ВыЗовите метод [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md) из папки "Входящие" для получения таблицы содержимого. 
+3. Вызовите метод [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md) из папки "Входящие" для получения таблицы содержимого. 
     
-4. ВыЗовите таблицу содержимого, выЗовите метод [IMAPITable:: метода SetColumns](imapitable-setcolumns.md) , чтобы ограничить набор столбцов значением **пр_ентрид** ([PidTagEntryId](pidtagentryid-canonical-property.md)) и любыми другими нужными столбцами. 
+4. Вызовите таблицу содержимого: метод [IMAPITable:: метода SetColumns](imapitable-setcolumns.md) , чтобы ограничить набор столбцов значением **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) и любыми другими нужными столбцами. 
     
 5. Call [IMAPITable:: QueryRows](imapitable-queryrows.md) , чтобы получить группу строк. 
     
@@ -41,7 +41,7 @@ ms.locfileid: "33406558"
     
 3. Работать со свойствами сообщения.
     
-4. ОтПустите указатель, на который указывает параметр _лппунк_ . 
+4. Отпустите указатель, на который указывает параметр _лппунк_ . 
     
 5. Call [IMAPITable:: QueryRows](imapitable-queryrows.md) для получения следующей группы строк. 
     

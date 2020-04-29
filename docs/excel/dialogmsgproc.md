@@ -34,13 +34,13 @@ BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lP
   
 Содержит дескриптор окна HWND диалогового окна.
   
- _Message (сообщение_ ) (**Uint**)
+ _Message_ (**uint**)
   
 Сообщение, на которое необходимо ответить.
   
- _wParam_ (**WParam**)
+ _wParam_ (**wParam**)
   
- _lParam_ (**LParam**)
+ _lParam_ (**lParam**)
   
 Аргументы, переданные Windows.
   

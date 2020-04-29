@@ -1,5 +1,5 @@
 ---
-title: Имапимессажеситежетсессион
+title: имапимессажеситежетсессион
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -35,7 +35,7 @@ HRESULT GetSession(
 
 ## <a name="parameters"></a>Параметры
 
- _Ппсессион_
+ _ппсессион_
   
 > вышли Указатель на указатель на возвращенный объект Session.
     

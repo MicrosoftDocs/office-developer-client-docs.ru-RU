@@ -14,7 +14,7 @@ ms.locfileid: "33408182"
 ---
 # <a name="access-sql-and-expressions-reference-access-custom-web-app"></a>Справочник по SQL и выражениям Access (пользовательское веб-приложение для Access)
 
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 

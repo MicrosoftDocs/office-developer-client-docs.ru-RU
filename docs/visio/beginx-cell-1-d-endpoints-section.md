@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm90
 localization_priority: Normal
 ms.assetid: 59d92820-3ff6-a73d-ffb7-d33096e904f7
-description: Представляет координату x начальной точки одноМерной фигуры относительно начала координат родительского элемента.
+description: Представляет координату x начальной точки одномерной фигуры относительно начала координат родительского элемента.
 ms.openlocfilehash: 34c1ef1b2500c78791fb4822851eb6d485d77f81
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT

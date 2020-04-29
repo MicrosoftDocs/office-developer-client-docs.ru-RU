@@ -32,7 +32,7 @@ RED (* * *Expression* * *)
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Число
+Номер
   
 ## <a name="remarks"></a>Примечания
 

@@ -29,18 +29,18 @@ ms.locfileid: "33408189"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_МЕССАЖЕ_ТОКЕН  <br/> |
+|Связанные свойства:  <br/> |PR_MESSAGE_TOKEN  <br/> |
 |Идентификатор:  <br/> |0x0C03  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Свойства безопасного обмена сообщениями  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство передает защищенные сведения о безопасности от инициатора получателю. В сочетании со свойством **пр_мессаже_секурити_лабел** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)) она гарантирует связь метки с содержимым сообщения. В сочетании со свойством **пр_контент_интегрити_чекк** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)) он проверяет, не изменилось ли содержимое сообщения.
+Это свойство передает защищенные сведения о безопасности от инициатора получателю. В сочетании со свойством **PR_MESSAGE_SECURITY_LABEL** ([PidTagMessageSecurityLabel](pidtagmessagesecuritylabel-canonical-property.md)) она гарантирует связь метки с содержимым сообщения. В сочетании со свойством **PR_CONTENT_INTEGRITY_CHECK** ([PidTagContentIntegrityCheck](pidtagcontentintegritycheck-canonical-property.md)) он проверяет, не изменилось ли содержимое сообщения.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

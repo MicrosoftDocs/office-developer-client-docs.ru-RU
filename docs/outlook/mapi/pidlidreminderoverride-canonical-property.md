@@ -23,14 +23,14 @@ ms.locfileid: "32360111"
 
   
   
-**Область применения**: Outlook 2013 | Outlook 2016 
+**Относится к**: Outlook 2013 | Outlook 2016 
   
 Указывает, должен ли клиент учитывать значения свойств **диспидреминдерплайсаунд** ([PidLidReminderPlaySound](pidlidreminderplaysound-canonical-property.md)) и **диспидреминдерфилепарам** ( [PidLidReminderFileParameter ](pidlidreminderfileparameter-canonical-property.md)).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |Диспидреминдероверриде  <br/> |
-|Набор свойств:  <br/> |Псетид_коммон  <br/> |
+|Связанные свойства:  <br/> |диспидреминдероверриде  <br/> |
+|Набор свойств:  <br/> |PSETID_Common  <br/> |
 |Длинный идентификатор (крышка):  <br/> |0x0000851C  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Напоминание  <br/> |
@@ -51,7 +51,7 @@ ms.locfileid: "32360111"
   
 > Задает свойства и модель взаимодействия для сообщений электронной почты и других объектов.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

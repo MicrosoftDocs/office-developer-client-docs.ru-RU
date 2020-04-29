@@ -25,34 +25,34 @@ ms.locfileid: "33405025"
   
 |**Атрибут TNEF**|**Свойство или свойства MAPI**|
 |:-----|:-----|
-|**Аттаидовнер** <br/> |**Пр_овнер_аппт_ид** ([PidTagOwnerAppointmentId](pidtagownerappointmentid-canonical-property.md))  <br/> |
-|**Аттаттачкреатедате** <br/> |**Пр_креатион_тиме** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |
-|**Аттаттачдата** <br/> |**Пр_аттач_дата_бин** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) или **пр_аттач_дата_обж** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md))  <br/> |
-|**Аттаттачмент** <br/> |Сведения об этом сопоставлении можно найти в статье [атрибуты TNEF](tnef-attributes.md).  <br/> |
-|**Аттаттачметафиле** <br/> |**Пр_аттач_рендеринг** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md))  <br/> |
-|**Аттаттачмодифидате** <br/> |**Пр_ласт_модификатион_тиме** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |
-|**attAttachRenddata** <br/> |**Пр_аттач_месод** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)), **пр_рендеринг_поситион** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |
-|**Аттаттачтитле** <br/> |**Пр_аттач_филенаме** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md))  <br/> |
-|**Аттаттачтранспортфиленаме** <br/> |**Пр_аттач_транспорт_наме** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md))  <br/> |
-|**Аттбоди** <br/> |**Пр_боди** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |
-|**Аттконверсатионид** <br/> |**Пр_конверсатион_кэй** ([PidTagConversationKey](pidtagconversationkey-canonical-property.md)) Это свойство является устаревшим в Microsoft Exchange Server: его использование остается только в Outlook, для поиска **IPM. Сообщения Мессажеманажер** .  <br/> |
-|**Аттдатинд** <br/> |**Пр_енд_дате** ([PidTagEndDate](pidtagenddate-canonical-property.md)) Сведения о [атрибутАх аттдате](attdate-attributes.md) .  <br/> |
-|**Аттдатемодифиед** <br/> |**Пр_ласт_модификатион_тиме** Сведения о [атрибутАх аттдате](attdate-attributes.md) .  <br/> |
-|**Аттдатерекд** <br/> |**Пр_мессаже_деливери_тиме** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) Сведения о [атрибутАх аттдате](attdate-attributes.md) .  <br/> |
-|**Аттдатесент** <br/> |**Пр_клиент_субмит_тиме** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) Сведения о [атрибутАх аттдате](attdate-attributes.md) .  <br/> |
-|**Аттдатестарт** <br/> |**Пр_старт_дате** ([PidTagStartDate](pidtagstartdate-canonical-property.md)) Сведения о [атрибутАх аттдате](attdate-attributes.md) .  <br/> |
-|**attFrom** <br/> |**Пр_сендер_ентрид** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) и **пр_сендер_наме** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
+|**аттаидовнер** <br/> |**PR_OWNER_APPT_ID** ([PidTagOwnerAppointmentId](pidtagownerappointmentid-canonical-property.md))  <br/> |
+|**аттаттачкреатедате** <br/> |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |
+|**аттаттачдата** <br/> |**PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) или **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md))  <br/> |
+|**аттаттачмент** <br/> |Сведения об этом сопоставлении можно найти в статье [атрибуты TNEF](tnef-attributes.md).  <br/> |
+|**аттаттачметафиле** <br/> |**PR_ATTACH_RENDERING** ([PidTagAttachRendering](pidtagattachrendering-canonical-property.md))  <br/> |
+|**аттаттачмодифидате** <br/> |**PR_LAST_MODIFICATION_TIME** ([PidTagLastModificationTime](pidtaglastmodificationtime-canonical-property.md))  <br/> |
+|**attAttachRenddata** <br/> |**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)), **PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |
+|**аттаттачтитле** <br/> |**PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md))  <br/> |
+|**аттаттачтранспортфиленаме** <br/> |**PR_ATTACH_TRANSPORT_NAME** ([PidTagAttachTransportName](pidtagattachtransportname-canonical-property.md))  <br/> |
+|**аттбоди** <br/> |**PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md))  <br/> |
+|**аттконверсатионид** <br/> |**PR_CONVERSATION_KEY** ([PidTagConversationKey](pidtagconversationkey-canonical-property.md)) это свойство является устаревшим в Microsoft Exchange Server: его использование остается только в Outlook, для поиска **IPM. Сообщения Мессажеманажер** .  <br/> |
+|**аттдатинд** <br/> |**PR_END_DATE** ([PidTagEndDate](pidtagenddate-canonical-property.md)) Дополнительные сведения приведены в статье [Attributes аттдате](attdate-attributes.md) .  <br/> |
+|**аттдатемодифиед** <br/> |**PR_LAST_MODIFICATION_TIME** Сведения о [атрибутах аттдате](attdate-attributes.md) .  <br/> |
+|**аттдатерекд** <br/> |**PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)) Дополнительные сведения приведены в статье [Attributes аттдате](attdate-attributes.md) .  <br/> |
+|**аттдатесент** <br/> |**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md)) Дополнительные сведения приведены в статье [Attributes аттдате](attdate-attributes.md) .  <br/> |
+|**аттдатестарт** <br/> |**PR_START_DATE** ([PidTagStartDate](pidtagstartdate-canonical-property.md)) Дополнительные сведения приведены в статье [Attributes аттдате](attdate-attributes.md) .  <br/> |
+|**attFrom** <br/> |**PR_SENDER_ENTRYID** ([PidTagSenderEntryId](pidtagsenderentryid-canonical-property.md)) и **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |
 |**attMAPIProps** <br/> |Сведения об этом атрибуте приведены в разделе [аттмапипропс](attmapiprops.md).  <br/> |
-|**Аттмессажекласс** <br/> |**Пр_мессаже_класс** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |
-|**Аттмессажеид** <br/> |**Пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) Обратитесь к разделу " [корреляция TNEF" в шлюзах и транспортАх X. 400](tnef-correlation-in-x-400-gateways-and-transports.md).  <br/> |
-|**attMessageStatus** <br/> |**Пр_мессаже_флагс** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
-|**attOriginalMessageClass** <br/> |* * ПР_ОРИГ_МЕССАЖЕ_КЛАСС * * ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md))  <br/> |
+|**аттмессажекласс** <br/> |**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |
+|**аттмессажеид** <br/> |**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)) см. [корреляция TNEF в шлюзах и транспортах X. 400](tnef-correlation-in-x-400-gateways-and-transports.md).  <br/> |
+|**attMessageStatus** <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
+|**attOriginalMessageClass** <br/> |* * PR_ORIG_MESSAGE_CLASS * * ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md))  <br/> |
 |**attOwner** <br/> |Обратитесь к разделу [аттовнер](attowner.md).  <br/> |
-|**Аттпарентид** <br/> |**Пр_парент_кэй** (**Пидтагпаренткэй**) Это свойство является устаревшим. Дополнительные сведения см. [в статье элементы API, устаревшие в этом](api-elements-deprecated-in-this-edition.md) выпуске.  <br/> |
-|**attPriority** <br/> |**Пр_приорити** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |
-|**attRecipTable** <br/> |**Пр_мессаже_реЦипиентс** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |
-|**Аттрекуестрес** <br/> |**Пр_респонсе_рекуестед** ([PidTagResponseRequested](pidtagresponserequested-canonical-property.md))  <br/> |
-|**attSentFor** <br/> |**Пр_сент_репресентинг_ентрид** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md))  <br/> |
-|**Аттсубжект** <br/> |**Пр_субжект** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
+|**аттпарентид** <br/> |**PR_PARENT_KEY** (**пидтагпаренткэй**) это свойство является устаревшим. Дополнительные сведения см. [в статье элементы API, устаревшие в этом выпуске](api-elements-deprecated-in-this-edition.md) .  <br/> |
+|**attPriority** <br/> |**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |
+|**attRecipTable** <br/> |**PR_MESSAGE_RECIPIENTS** ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md))  <br/> |
+|**аттрекуестрес** <br/> |**PR_RESPONSE_REQUESTED** ([PidTagResponseRequested](pidtagresponserequested-canonical-property.md))  <br/> |
+|**attSentFor** <br/> |**PR_SENT_REPRESENTING_ENTRYID** ([PidTagSentRepresentingEntryId](pidtagsentrepresentingentryid-canonical-property.md))  <br/> |
+|**аттсубжект** <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
    
 

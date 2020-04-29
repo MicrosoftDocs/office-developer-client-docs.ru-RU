@@ -41,13 +41,13 @@ typedef struct
 
 ```
 
-## <a name="members"></a>Members
+## <a name="members"></a>"Участники"
 
  **cb**
   
 > Количество байтов в элементе **абентри** . 
     
- **Абентри**
+ **абентри**
   
 > Полный идентификатор записи, включающий массив флагов и двоичных данных.
     
@@ -59,7 +59,7 @@ typedef struct
     
 - Структура **флатентри** сохраняет данные флага вместе с остальной частью идентификатора записи; **EntryID** хранит их по отдельности. 
     
-- Структура **флатентри** используется для хранения идентификатора записи в файле или его передачи в потоке байтов, в то время как структура **EntryID** используется методами интерфейса [IMAPIProp](imapipropiunknown.md) , а также следующими методами **OpenEntry** : [иаблогон: : OpenEntry](iablogon-openentry.md), [IAddrBook:: OpenEntry](iaddrbook-openentry.md), [IMAPIContainer:: OpenEntry](imapicontainer-openentry.md), [IMAPISession:: OpenEntry](imapisession-openentry.md), [Имаписуппорт:: OpenEntry](imapisupport-openentry.md), [IMsgStore:: OpenEntry](imsgstore-openentry.md), [имслогон:: OpenEntry](imslogon-openentry.md)
+- Структура **флатентри** используется для хранения идентификатора записи в файле или его передачи в потоке байтов, в то время как структура **EntryID** используется методами интерфейса [IMAPIProp](imapipropiunknown.md) , а также следующими методами **OpenEntry** : [иаблогон:: OpenEntry](iablogon-openentry.md), [IAddrBook:: OpenEntry](iaddrbook-openentry.md), [IMAPIContainer:: OpenEntry](imapicontainer-openentry.md), [IMAPISession:: OpenEntry](imapisession-openentry.md), [имаписуппорт:: OpenEntry](imapisupport-openentry.md), [IMsgStore:: OpenEntry](imsgstore-openentry.md), имслогон:: [OpenEntry](imslogon-openentry.md)
     
 - Структура **флатентри** используется для хранения идентификатора записи в файле или его передачи в потоке байтов. Структура **EntryID** используется для хранения идентификатора записи на диске. 
     

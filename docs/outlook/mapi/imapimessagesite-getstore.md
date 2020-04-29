@@ -1,5 +1,5 @@
 ---
-title: Имапимессажеситежетсторе
+title: имапимессажеситежетсторе
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -35,7 +35,7 @@ HRESULT GetStore(
 
 ## <a name="parameters"></a>Параметры
 
- _Ппсторе_
+ _ппсторе_
   
 > вышли Указатель на указатель на хранилище сообщений.
     

@@ -29,9 +29,9 @@ ms.locfileid: "33414013"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_КОНТАБ_СТОРЕ_НАМЕ, ПР_КОНТАБ_СТОРЕ_НАМЕ_А, ПР_КОНТАБ_СТОРЕ_НАМЕ_В  <br/> |
+|Связанные свойства:  <br/> |PR_CONTAB_STORE_NAME, PR_CONTAB_STORE_NAME_A PR_CONTAB_STORE_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x6612  <br/> |
-|Тип данных:  <br/> |ПТ_УНИКОДЕ, PT_STRING8  <br/> |
+|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |Область:  <br/> |Адресная книга контактов  <br/> |
    
 ## <a name="remarks"></a>Примечания
@@ -40,7 +40,7 @@ ms.locfileid: "33414013"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

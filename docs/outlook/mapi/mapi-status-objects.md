@@ -39,11 +39,11 @@ ms.locfileid: "33406747"
     
 Каждый объект Status реализует интерфейс **имапистатус** . Дополнительные сведения см. в статье [имапистатус: IMAPIProp](imapistatusimapiprop.md). Однако не каждый объект Status полностью поддерживает каждый метод **имапистатус** . Так как в методах, поддерживаемых объектом status, существуют варианты, клиентам необходимо изучить определенный объект status, прежде чем он сможет его использовать. Объекты Status необходимы для публикации сведений о своих функциях в следующих трех свойствах: 
   
- **Пр_ресаурце_месодс** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 
+ **PR_RESOURCE_METHODS** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)) 
   
- **Пр_ресаурце_типе** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) 
+ **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) 
   
- **Пр_ресаурце_флагс** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 
+ **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)) 
   
 Для получения дополнительных сведений о реализации объекта Status просмотрите [реализацию объекта Status](status-object-implementation.md). Для получения дополнительных сведений об использовании объекта Status просмотрите [таблицу состояния и объекты состояния](status-table-and-status-objects.md).
   

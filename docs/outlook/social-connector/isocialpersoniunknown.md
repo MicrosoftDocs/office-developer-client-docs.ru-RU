@@ -19,18 +19,18 @@ ms.locfileid: "33407013"
 
 Представляет пользователя в социальной сети.
   
-## <a name="members"></a>Members
+## <a name="members"></a>"Участники"
 
 В следующей таблице показаны элементы, доступные в интерфейсе **исоЦиалперсон** . 
   
-|**Name**|**Тип элемента**|**Описание**|
+|**имя**|**Тип элемента**|**Описание**|
 |:-----|:-----|:-----|
-|[Операции с действиями](isocialperson-getactivities.md) <br/> |Метод  <br/> |Этот метод является устаревшим, так как Outlook Social Connector 2013.  <br/> |
-|[Подробные сведения](isocialperson-getdetails.md) <br/> |Метод  <br/> |Получает строку, представляющую сведения о пользователе, такие как имя, фамилию и URL-адрес изображения профиля.  <br/> |
-|[Жетфриендсандколлеагуес](isocialperson-getfriendsandcolleagues.md) <br/> |Метод  <br/> |Получает строку, представляющую коллекцию людей.  <br/> |
-|[Жетфриендсандколлеагуесидс](isocialperson-getfriendsandcolleaguesids.md) <br/> |Метод  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
-|[GetPicture](isocialperson-getpicture.md) <br/> |Метод  <br/> |Возвращает массив байтов, который содержит ресурс изображения для пользователя.  <br/> |
-|[GetStatus](isocialperson-getstatus.md) <br/> |Метод  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
+|[Операции с действиями](isocialperson-getactivities.md) <br/> |Method  <br/> |Этот метод является устаревшим, так как Outlook Social Connector 2013.  <br/> |
+|[Подробные сведения](isocialperson-getdetails.md) <br/> |Method  <br/> |Получает строку, представляющую сведения о пользователе, такие как имя, фамилию и URL-адрес изображения профиля.  <br/> |
+|[жетфриендсандколлеагуес](isocialperson-getfriendsandcolleagues.md) <br/> |Method  <br/> |Получает строку, представляющую коллекцию людей.  <br/> |
+|[жетфриендсандколлеагуесидс](isocialperson-getfriendsandcolleaguesids.md) <br/> |Method  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
+|[GetPicture](isocialperson-getpicture.md) <br/> |Method  <br/> |Возвращает массив байтов, который содержит ресурс изображения для пользователя.  <br/> |
+|[GetStatus](isocialperson-getstatus.md) <br/> |Method  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 

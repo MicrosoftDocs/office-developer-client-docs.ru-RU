@@ -1,5 +1,5 @@
 ---
-title: Имапистатусчанжепассворд
+title: имапистатусчанжепассворд
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -37,11 +37,11 @@ HRESULT ChangePassword(
 
 ## <a name="parameters"></a>Параметры
 
- _Лполдпасс_
+ _лполдпасс_
   
 > возврата Указатель на старый пароль.
     
- _Лпневпасс_
+ _лпневпасс_
   
 > возврата Указатель на новый пароль.
     
@@ -51,7 +51,7 @@ HRESULT ChangePassword(
     
 MAPI_UNICODE 
   
-> Пароли имеют формат Юникод. Если флаг МАПИ_УНИКОДЕ не установлен, пароли имеют формат ANSI.
+> Пароли имеют формат Юникод. Если флаг MAPI_UNICODE не установлен, пароли имеют формат ANSI.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -59,13 +59,13 @@ S_OK
   
 > Пароль успешно изменен.
     
-МАПИ_Е_НО_АКЦЕСС 
+MAPI_E_NO_ACCESS 
   
 > Старый пароль, на который указывает _лполдпасс_ , является недопустимым. 
     
-МАПИ_Е_НО_СУППОРТ 
+MAPI_E_NO_SUPPORT 
   
-> Объект Status не поддерживает эту операцию, как указано в отсутствие флага СТАТУС_ЧАНЖЕ_ПАССВОРД в свойстве **пр_ресаурце_месодс** объекта Status ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
+> Объект Status не поддерживает эту операцию, как указано в отсутствие флага STATUS_CHANGE_PASSWORD в свойстве **PR_RESOURCE_METHODS** объекта Status ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md)).
     
 ## <a name="remarks"></a>Примечания
 

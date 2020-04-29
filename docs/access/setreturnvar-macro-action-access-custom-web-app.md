@@ -24,7 +24,7 @@ ms.locfileid: "33409596"
 > [!NOTE]
 > Действие **SetReturnVar** доступно только в макросах данных. 
   
-## <a name="setting"></a>Setting
+## <a name="setting"></a>Параметр
 
 Макрокоманда **SetReturnVar** имеет следующие аргументы. 
   

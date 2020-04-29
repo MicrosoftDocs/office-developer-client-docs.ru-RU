@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413432"
 ---
-# <a name="mapiofflinenotifytype"></a>MAPIOFFLINE_NOTIFY_TYPE
+# <a name="mapioffline_notify_type"></a>MAPIOFFLINE_NOTIFY_TYPE
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-МАПИОФФЛИНЕ_НОТИФИ_ТИПЕ уведомления определяет, будет ли выполняться изменение состояния подключения, выполняется ли оно или завершено. 
+MAPIOFFLINE_NOTIFY_TYPE уведомления определяет, будет ли выполняться изменение состояния подключения, выполняется или завершено. 
   
 ## <a name="quick-info"></a>Краткие сведения
 

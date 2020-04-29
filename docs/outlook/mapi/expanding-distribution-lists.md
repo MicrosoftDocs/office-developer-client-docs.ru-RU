@@ -23,7 +23,7 @@ ms.locfileid: "33414139"
   
  **Запрос MAPI для расширения списка рассылки**
   
-- ПриСвойте свойству **пр_аддртипе** ([PIDTAGADDRESSTYPE](pidtagaddresstype-canonical-property.md)) значение мапипдл.
+- Задайте для свойства **PR_ADDRTYPE** ([PIDTAGADDRESSTYPE](pidtagaddresstype-canonical-property.md)) значение мапипдл.
     
     MAPI расширяет адреса этого типа перед отправкой сообщения поставщику транспорта.
     

@@ -29,14 +29,14 @@ ms.locfileid: "33405074"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ОРГ_ЕМАИЛ_АДДРЕСС, ПР_ОРГ_ЕМАИЛ_АДДРЕСС_А, ПР_ОРГ_ЕМАИЛ_АДДРЕСС_В  <br/> |
+|Связанные свойства:  <br/> |PR_ORG_EMAIL_ADDRESS, PR_ORG_EMAIL_ADDRESS_A PR_ORG_EMAIL_ADDRESS_W  <br/> |
 |Идентификатор:  <br/> |Подлежит уточнению.  <br/> |
-|Тип данных:  <br/> |ПТ_УНИКОДЕ, PT_STRING8  <br/> |
+|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
 |Область:  <br/> |Address  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

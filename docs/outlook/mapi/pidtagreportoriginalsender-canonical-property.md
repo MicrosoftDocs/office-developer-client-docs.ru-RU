@@ -27,9 +27,9 @@ ms.locfileid: "33413908"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕПОРТ_ОРИГИНАЛ_СЕНДЕР, ПР_РЕПОРТ_ОРИГИНАЛ_СЕНДЕР_А, ПР_РЕПОРТ_ОРИГИНАЛ_СЕНДЕР_В  <br/> |
+|Связанные свойства:  <br/> |PR_REPORT_ORIGINAL_SENDER, PR_REPORT_ORIGINAL_SENDER_A PR_REPORT_ORIGINAL_SENDER_W  <br/> |
 |Идентификатор:  <br/> |0x0082  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
@@ -40,7 +40,7 @@ ms.locfileid: "33413908"
   
 > Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

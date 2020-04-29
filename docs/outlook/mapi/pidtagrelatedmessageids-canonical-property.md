@@ -29,18 +29,18 @@ ms.locfileid: "33406054"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_РЕЛАТЕД_ИПМС  <br/> |
+|Связанные свойства:  <br/> |PR_RELATED_IPMS  <br/> |
 |Идентификатор:  <br/> |0x002D  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Для идентификаторов используются те же конкретные правила построения, что и для свойства **пр_сеарч_кэй** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
+Для идентификаторов используются те же конкретные правила построения, что и для свойства **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

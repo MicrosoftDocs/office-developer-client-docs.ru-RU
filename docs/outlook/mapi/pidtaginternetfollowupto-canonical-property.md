@@ -25,13 +25,13 @@ ms.locfileid: "33405312"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-СоПоставляется с заголовком MIME.
+Сопоставляется с заголовком MIME.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |ПР_ИНТЕРНЕТ_ФОЛЛОВУП_ТО, ПР_ИНТЕРНЕТ_ФОЛЛОВУП_ТО_А, ПР_ИНТЕРНЕТ_ФОЛЛОВУП_ТО_В  <br/> |
+|Связанные свойства:  <br/> |PR_INTERNET_FOLLOWUP_TO, PR_INTERNET_FOLLOWUP_TO_A PR_INTERNET_FOLLOWUP_TO_W  <br/> |
 |Идентификатор:  <br/> |0x1033  <br/> |
-|Тип данных:  <br/> |PT_STRING8, ПТ_УНИКОДЕ  <br/> |
+|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
@@ -42,7 +42,7 @@ ms.locfileid: "33405312"
   
 > Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
     
-### <a name="header-files"></a>Файлы заГоловков
+### <a name="header-files"></a>Файлы заголовков
 
 MAPIDEFS. h
   

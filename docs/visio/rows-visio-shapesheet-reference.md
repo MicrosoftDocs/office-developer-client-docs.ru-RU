@@ -15,7 +15,7 @@ ms.locfileid: "33413019"
 ---
 # <a name="rows-visio-shapesheet-reference"></a>Строки (Справочник по таблице свойств фигур Visio)
 
-## <a name="in-this-section"></a>В этом разделе:
+## <a name="in-this-section"></a>В этом разделе
 
 - [Actions Row (Actions Section)](actions-row-actions-section.md)
     
