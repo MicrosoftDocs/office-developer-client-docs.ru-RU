@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: b98637d4-02e3-4dbd-8be5-6b46d32980c6
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
-ms.openlocfilehash: 869122954ffe3928dfea72b8fc9fb432b9979e42
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 00c222efce6925c3f691eb2b799adf687c22082c
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33438766"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160281"
 ---
 # <a name="xleventregister"></a>xlEventRegister
 
@@ -43,7 +43,7 @@ Excel12(xlEventRegister, LPXLOPER12 pxRes, 2, LPXLOPER12 pxProcedure, LPXLOPER12
    
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-В случае успеха возвращает **значение true** (**кслтипебул**). В случае неудачной попытки возвращает **значение false**.
+В случае успешного выполнения Пксрес (**кслтипеинт**) имеет значение > 0. В случае неудачи Пксрес = = 0.
   
 ## <a name="see-also"></a>См. также
 

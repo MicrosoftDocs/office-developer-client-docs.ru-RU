@@ -7,12 +7,12 @@ ms.topic: reference
 localization_priority: Normal
 ms.assetid: d7f8ca9a-3a89-abab-9805-bd1e24075c3f
 description: Возвращает угол тангенса для пути в заданной точке.
-ms.openlocfilehash: 0d38fc0e123a7e38b7826b55415cfc09c1789c0e
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a15e45ff6135972cd1cd78382147a493f8fc8d69
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33407328"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160295"
 ---
 # <a name="anglealongpath-function"></a>Функция ANGLEALONGPATH
 
@@ -25,15 +25,15 @@ ms.locfileid: "33407328"
   
 ## <a name="syntax"></a>Синтаксис
 
-ANGLEALONGPATH (* * *раздел* * *, * * *путешествие* * * * * *[, сегмент]* * *) 
+ANGLEALONGPATH (***раздел***, ***путешествие*** ***[, сегмент]*** ) 
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
 | _section_ <br/> |Обязательный  <br/> |**String** <br/> |Раздел геометрии, представляющий путь, заданный ссылкой на ячейку пути (например, Geometry1. Path).  <br/> |
-| _дающих_ <br/> |Обязательна  <br/> |**Double** <br/> |Процентная доля пути от начала до конечной точки. Значение должно находиться в пределах от 0 до 1.  <br/> |
-| _segment_ <br/> |Необязательна  <br/> |**Целое число** <br/> |Сегмент на основе 1 пути, по которому вычисляется угол тангенса.  <br/> |
+| _дающих_ <br/> |Обязательный  <br/> |**Double** <br/> |Процентная доля пути от начала до конечной точки. Значение должно находиться в пределах от 0 до 1.  <br/> |
+| _segment_ <br/> |Необязательна  <br/> |**Integer** <br/> |Сегмент на основе 1 пути, по которому вычисляется угол тангенса.  <br/> |
    
 ### <a name="return-value"></a>Возвращаемое значение
 

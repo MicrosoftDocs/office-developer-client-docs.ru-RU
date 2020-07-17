@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: e83343c5-df5f-bf74-f854-6380176693a2
 description: Вычисляет сектор прямоугольника, связанный с x и y, и возвращает целое число от 0 до 4, обозначающее сектор.
-ms.openlocfilehash: fb7ed37ac498765e21c62d7180413cdbcb932502
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 442ec0d614589c709a097ba314abad044d470df6
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32360035"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160274"
 ---
 # <a name="rectsect-function"></a>Функция RECTSECT
 
@@ -22,7 +22,7 @@ ms.locfileid: "32360035"
   
 ## <a name="syntax"></a>Синтаксис
 
-RECTSECT (* * *Ширина* * *, * * *Высота* * *, * * *x* * *, * * *y* * *, * * *параметр* * *) 
+RECTSECT (***Ширина***, ***Высота***, ***x***, ***y***, ***параметр*** ) 
   
 ### <a name="parameters"></a>Параметры
 

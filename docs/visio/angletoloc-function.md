@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: ee5e3898-bb49-57c6-0ebe-12e1fe388e55
 description: Возвращает преобразованный угол в локальной системе координат конечной фигуры. Преобразует угол из локальных координат исходной фигуры в локальные координаты конечной фигуры.
-ms.openlocfilehash: 804faeb24932e414ad03bc9e8487c62ca08bd7d2
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: e971613d4fc33cd991e7e9aeba49ac47871ebe8f
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33433572"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160267"
 ---
 # <a name="angletoloc-function"></a>Функция ANGLETOLOC
 
@@ -22,13 +22,13 @@ ms.locfileid: "33433572"
   
 ## <a name="syntax"></a>Синтаксис
 
-ANGLETOLOC (* * *сркангле* * *, * * *сркреф* * *, * * *дстреф* * *) 
+ANGLETOLOC (***сркангле***, ***сркреф***, ***дстреф*** ) 
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _сркангле_ <br/> |Обязательна  <br/> |**Числовой** <br/> |Угол в исходной системе координат.  <br/> |
+| _сркангле_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Угол в исходной системе координат.  <br/> |
 | _сркреф_ <br/> |Обязательный  <br/> |**String** <br/> | Ссылка на ячейку в исходном объекте, например фигуру, группу, страницу и т. д.  <br/> |
 | _дстреф_ <br/> |Обязательный  <br/> |**String** <br/> |Ссылка на ячейку в целевом объекте, например фигуру, группу, страницу и т. д.  <br/> |
    

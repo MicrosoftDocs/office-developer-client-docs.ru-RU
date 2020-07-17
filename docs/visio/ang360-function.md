@@ -9,26 +9,26 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: 23e6899d-0a94-a7d8-8de2-091e0531f163
 description: Нормализует диапазон угла.
-ms.openlocfilehash: 017dd89bd3b814c10422cd32eea1ee7e343eaf50
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 6916e50daad735843bf0a2a6361fb5b1b833e2ce
+ms.sourcegitcommit: 41f2ee16badd6009bab642d68a61eaaccb91c3ec
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417198"
+ms.lasthandoff: 07/17/2020
+ms.locfileid: "45160302"
 ---
 # <a name="ang360-function"></a>Функция ANG360
 
-Нормализует диапазон \<угла до 0 = результат \< 2pi радиан (0 \<= результат \< 360 градусов).
+Нормализует диапазон угла до 0 \< = результат \< 2pi радиан (0 \< = результат \< 360 градусов).
   
 ## <a name="syntax"></a>Синтаксис
 
-ANG360 (* * *угол* * *) 
+ANG360 (***угол*** ) 
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _градусов_ <br/> |Обязательна  <br/> |**Числовой** <br/> |Угол для нормализации.  <br/> |
+| _градусов_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Угол для нормализации.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
