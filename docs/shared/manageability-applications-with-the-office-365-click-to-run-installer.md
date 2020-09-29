@@ -1,39 +1,39 @@
 ---
-title: Интеграция приложений управления с помощью установщика Office 365 нажми и работай
+title: Интеграция приложений управления с установщиком Microsoft 365 приложений с помощью командлетов "нажми и работай"
 manager: lindalu
-ms.date: 10/22/2017
+ms.date: 09/28/2020
 ms.audience: ITPro
 localization_priority: Normal
 ms.assetid: c0fa8fed-1585-4566-a9be-ef6d6d1b4ce8
-description: Узнайте, как интегрировать установщик Office 365 нажми и работай с решением управления программным обеспечением.
-ms.openlocfilehash: 0c695d538a0a906bce19719c2735cb39740ff6a2
-ms.sourcegitcommit: 31b0a7373ff74fe1d6383c30bc67d7675b73d283
+description: Сведения о том, как интегрировать установщик приложений Microsoft 365 с помощью решения для управления программным обеспечением.
+ms.openlocfilehash: eccd634f7906acf25b521ed2deb456ca914f37da
+ms.sourcegitcommit: c8c51bd3f51c0a59fe44c014c8e56f1ba7c7aa03
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41773738"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48297316"
 ---
-# <a name="integrating-manageability-applications-with-office-365-click-to-run-installer"></a>Интеграция приложений управления с помощью установщика Office 365 нажми и работай
+# <a name="integrating-manageability-applications-with-microsoft-365-apps-click-to-run-installer"></a>Интеграция приложений управления с установщиком Microsoft 365 приложений с помощью командлетов "нажми и работай"
 
-Узнайте, как интегрировать установщик Office 365 нажми и работай с решением управления программным обеспечением.
+Сведения о том, как интегрировать установщик приложений Microsoft 365 с помощью решения для управления программным обеспечением.
   
-Установщик Office 365 нажми и работай предоставляет COM-интерфейс, который позволяет ИТ-специалистам и решениям управления программным способом управлять управлением обновлениями. Этот интерфейс предоставляет дополнительные возможности управления помимо того, что предоставляется средством развертывания Office.
+Установщик приложений Microsoft 365 нажми и работай предоставляет интерфейс COM, который позволяет ИТ-специалистам и решениям управления программным способом управлять управлением обновлениями. Этот интерфейс предоставляет дополнительные возможности управления помимо того, что предоставляется средством развертывания Office.
   
 > [!NOTE]
-> Эта статья относится к Office 2016 и более поздних версий, Office 365. 
+> Эта статья относится к приложениям Office, использующим установщик "нажми и работай". 
   
 ## <a name="integrating-with-the-click-to-run"></a>Интеграция с "нажми и работай"
 
 Чтобы использовать этот интерфейс, приложение управляемости вызывает COM-интерфейс и вызывает интерфейсы API, напрямую взаимодействующие с службой установки "нажми и работай". 
   
 > [!NOTE]
-> Установщик Office нажми и работай можно запустить из командной строки с параметрами, которые могут управлять поведением, как описано в разделе [средство развертывания Office для "нажми и работай](https://www.microsoft.com/download/details.aspx?id=49117)". 
+> Установщик Office нажми и работай можно запустить из командной строки с параметрами, которые могут управлять поведением, как описано в разделе [средство развертывания Office для "нажми и работай](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool)". 
   
 **Ниже приведена концептуальная схема COM-интерфейса**
 
 ![Схема использования интерфейса COM в установщике Office нажми и работай.](media/e7ac2523-e67b-4a44-ae67-c048709f872a.png "Схема использования интерфейса COM в установщике Office "нажми и работай"")
   
-Установщик Office 365 Click-to-Run реализует интерфейс на основе COM, **иупдатенотифи** зарегистрированный в **CLSID_UpdateNotifyObject**CLSID.
+Установщик приложений Microsoft 365 с поддержкой технологии "нажми и работай" реализует интерфейс на основе COM, **иупдатенотифи** зарегистрированный в CLSID **CLSID_UpdateNotifyObject**.
   
 Этот интерфейс можно вызвать следующим образом:
   
@@ -80,34 +80,34 @@ BSTR contentid;
   
 - **Apply**: установка ранее загруженного контента.
     
-- **Cancel**: возвращает `0x800000e`, "метод был вызван в непредвиденное время."
+- **Cancel**: возвращает  `0x800000e` , "метод был вызван в непредвиденное время."
     
 - **Download**: Загрузка нового контента в клиент для последующей установки.
     
-- **Status**: возвращает результат последнего выполненного действия или сообщение об ошибке, если действие завершилось с ошибкой. Если предыдущее действие отсутствует, `eUPDATE_UNKNOWN`возвращается **состояние** .
+- **Status**: возвращает результат последнего выполненного действия или сообщение об ошибке, если действие завершилось с ошибкой. Если предыдущее действие отсутствует, возвращается **состояние**  `eUPDATE_UNKNOWN` .
     
 **Скачивание:** Когда установщик "нажми и работай" находится в состоянии загрузки, вы можете вызвать: 
   
-- **Apply**: возвращает **HRESULT** со значением `0x800000e`"метод был вызван в непредвиденное время".
+- **Apply**: возвращает **HRESULT** со значением  `0x800000e` "метод был вызван в непредвиденное время".
     
 - **Отмена**: остановка скачивания и удаление частично загруженного контента.
     
-- **Download**: возвращает **HRESULT** со значением `0x800000e`"метод был вызван в непредвиденное время". 
+- **Download**: возвращает **HRESULT** со значением  `0x800000e` "метод был вызван в непредвиденное время". 
     
 - **Status**: возвращает **DOWNLOAD_WIP** , чтобы указать, что выполняется загрузка. 
     
 **Применение:** Когда установщик "нажми и работай" находится в процессе установки ранее загружаемого содержимого: 
   
-- **Apply**: возвращает **HRESULT** со значением `0x800000e`"метод был вызван в непредвиденное время".
+- **Apply**: возвращает **HRESULT** со значением  `0x800000e` "метод был вызван в непредвиденное время".
     
-- **Cancel**: возвращает `0x800000e`, действие Apply не может быть отменено.
+- **Cancel**: возвращает  `0x800000e` , действие Apply не может быть отменено.
     
-- **Download**: возвращает **HRESULT** со значением `0x800000e`"метод был вызван в непредвиденное время". 
+- **Download**: возвращает **HRESULT** со значением  `0x800000e` "метод был вызван в непредвиденное время". 
     
 - **Status**: возвращает **APPLY_WIP** , указывающие на то, что выполняется работа. 
     
 > [!NOTE]
-> Так как OfficeC2RCOM является службой COM+ и динамически загружается, вам необходимо вызвать функцию **CoCreateInstance** при каждом вызове метода для этого класса, чтобы убедиться, что вы получаете ожидаемый результат. При необходимости служба COM+ будет обрабатывать создание нового экземпляра. Когда один из методов вызывается в первый раз, COM+ загрузит объект **иупдатенотифи** и запустите его в одном из экземпляров Dllhost. exe. Новый объект остается активным в течение приблизительно 3 минут. Если последующий вызов выполняется через три минуты последнего вызова, объект **иупдатенотифи** останется загруженным, а новый экземпляр не будет создан. Если в течение трех минут ничего не происходит, объект Иупдатенотифи будет выгружен, а при следующем вызове будет создан новый объект **иупдатенотифи** . 
+> Так как OfficeC2RCOM является службой COM+ и динамически загружается, вам необходимо вызвать функцию **CoCreateInstance** при каждом вызове метода для этого класса, чтобы убедиться, что вы получаете ожидаемый результат. При необходимости служба COM+ будет обрабатывать создание нового экземпляра. Когда один из методов вызывается в первый раз, COM+ загрузит объект **иупдатенотифи** и запустит его в одном из экземпляров dllhost.exe. Новый объект остается активным в течение приблизительно 3 минут. Если последующий вызов выполняется через три минуты последнего вызова, объект **иупдатенотифи** останется загруженным, а новый экземпляр не будет создан. Если в течение трех минут ничего не происходит, объект Иупдатенотифи будет выгружен, а при следующем вызове будет создан новый объект **иупдатенотифи** . 
   
 ## <a name="click-to-run-installer-com-api-reference-guide"></a>Справочное руководство по API-интерфейсу API для установщика "нажми и работай"
 
@@ -133,7 +133,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
     
 -  _forceappshutdown_: **true** для принудительного завершения работы приложений Office при запуске действия **Apply** ; в противном случае — **false** . Значение по умолчанию: **false**. Дополнительные [сведения см.](#bk_ApplyRemark) 
     
-  Если какое-либо приложение Office запускается при запуске действия **Apply** , действие **Применить** обычно завершится с ошибками. Передача `forceappshutdown=true` в метод **Apply** приведет к тому, что служба **оффицекликкторун** сразу же завершит работу приложений и применит обновление. В этом случае в работе пользователя могут возникать потери данных. 
+  Если какое-либо приложение Office запускается при запуске действия **Apply** , действие **Применить** обычно завершится с ошибками. Передача  `forceappshutdown=true` в метод **Apply** приведет к тому, что служба **оффицекликкторун** сразу же завершит работу приложений и применит обновление. В этом случае в работе пользователя могут возникать потери данных. 
     
 #### <a name="return-results"></a>Возвращаемые результаты
 
@@ -148,7 +148,7 @@ HRESULT Apply([in] LPWSTR pcwszParameters) // Apply update content.
 
 #### <a name="remarks"></a>Примечания
 
-- Если какое-либо приложение Office запускается при запуске действия **Apply** , действие **Apply** завершится с ошибками. При `forceappshutdown=true` передаче в метод **Apply** служба **оффицекликкторун** немедленно завершит работу всех запущенных приложений Office и применить обновление. Пользователь может столкнуться с данными, так как они не получают запроса на сохранение изменений в открытых документах... 
+- Если какое-либо приложение Office запускается при запуске действия **Apply** , действие **Apply** завершится с ошибками. `forceappshutdown=true`При передаче в метод **Apply** служба **оффицекликкторун** немедленно завершит работу всех запущенных приложений Office и применить обновление. Пользователь может столкнуться с данными, так как они не получают запроса на сохранение изменений в открытых документах... 
     
 - Это действие может быть вызвано только в том случае, если состоянием COM является один из следующих: 
     
@@ -216,9 +216,9 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
 
 #### <a name="remarks"></a>Примечания
 
-- Необходимо указать _довнлоадсаурце_ и идентификатор _ContentId_ в виде связывания. В противном случае метод **download** возвратит ошибку **E_INVALIDARG** . 
+- Необходимо указать  _довнлоадсаурце_ и идентификатор  _ContentId_ в виде связывания. В противном случае метод **download** возвратит ошибку **E_INVALIDARG** . 
     
-- Если указаны _довнлоадсаурце_, _ContentId_и _упдатебасеурл_ , _упдатебасеурл_ будет игнорироваться. 
+- Если указаны  _довнлоадсаурце_,  _ContentId_и  _упдатебасеурл_ ,  _упдатебасеурл_ будет игнорироваться. 
     
 - Это действие может быть вызвано только в том случае, если состоянием COM является один из следующих: 
     
@@ -244,7 +244,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
   "downloadsource=CLSIDofBITSInterface contentid=BITSServerContentIdentifier"
   ```
 
-- Чтобы скачать содержимое из сети CDN Microsoft CDN: вызовите функцию **скачать ()** , не указывая параметры _довнлоадсаурце_, _ContentId_или _упдатебасеурл_ . 
+- Чтобы скачать содержимое из сети доставки содержимого Office (CDN): вызовите функцию **скачать ()** , не указывая параметры  _довнлоадсаурце_,  _ContentId_или  _упдатебасеурл_ . 
     
 - Чтобы скачать содержимое из настраиваемого расположения: вызовите функцию **скачать ()** , передав следующий параметр: 
     
@@ -252,7 +252,7 @@ HRESULT Download([in] LPWSTR pcwszParameters) // Download update content.
   "updatebaseurl=yourcontentserverurl"
   ```
 
-### <a name="status"></a>Состояние
+### <a name="status"></a>Статус
 
 ```cpp
 typdef struct _UPDATE_STATUS_REPORT
@@ -274,11 +274,11 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
 |||
 |:-----|:-----|
-|**S_OK** <br/> |Метод **Status** всегда возвращает этот результат. Проверка `UPDATE_STATUS_RESULT` структуры на состояние текущего действия.  <br/> |
+|**S_OK** <br/> |Метод **Status** всегда возвращает этот результат. Проверка  `UPDATE_STATUS_RESULT` структуры на состояние текущего действия.  <br/> |
    
 #### <a name="remarks"></a>Примечания
 
-- В поле Status ( `UPDATE_STATUS_REPORT` состояние) содержится состояние текущего действия. Возвращается одно из следующих значений состояния: 
+- В поле Status (состояние)  `UPDATE_STATUS_REPORT` содержится состояние текущего действия. Возвращается одно из следующих значений состояния: 
     
   ```cpp
   typedef enum _UPDATE_STATUS
@@ -298,9 +298,9 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   
   ```
 
-- Если последняя команда привела к ошибке, в поле ошибка `UPDATE_STATUS_REPORT` содержится подробная информация об ошибке. В методе **Status** возвращается два типа кодов ошибок. 
+- Если последняя команда привела к ошибке, в поле ошибка  `UPDATE_STATUS_REPORT` содержится подробная информация об ошибке. В методе **Status** возвращается два типа кодов ошибок. 
     
-- Если ошибка меньше `UPDATE_ERROR_CODE::eUNKNOWN`, то ошибка является одним из следующих предварительно определенных кодов ошибок:
+- Если ошибка меньше  `UPDATE_ERROR_CODE::eUNKNOWN` , то ошибка является одним из следующих предварительно определенных кодов ошибок:
     
   ```cpp
   typedef enum _UPDATE_ERROR_CODE
@@ -324,9 +324,9 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   
   ```
 
-  Если код ошибки возврата превышает `UPDATE_ERROR_CODE::eUNKNOWN` значение **HRESULT** неудачного вызова функции. Чтобы извлечь значение HRESULT, `UPDATE_ERROR_CODE::eUNKNOWN` вычитаемое из значения, которое возвращается в поле `UPDATE_STATUS_REPORT`"ошибка".
+  Если код ошибки возврата превышает значение  `UPDATE_ERROR_CODE::eUNKNOWN` **HRESULT** неудачного вызова функции. Чтобы извлечь значение HRESULT, вычитаемое  `UPDATE_ERROR_CODE::eUNKNOWN` из значения, которое возвращается в поле "ошибка"  `UPDATE_STATUS_REPORT` .
     
-  Полный список значений состояния и ошибок можно просмотреть, изучив библиотеку типов **иупдатенотифи** , встроенную в OfficeC2RCom. dll. 
+  Полный список значений состояния и ошибок можно просмотреть, изучив библиотеку типов **иупдатенотифи** , встроенную в OfficeC2RCom.dll. 
     
 - Поле ContentId используется для вызовов с **состоянием** после **загрузки** и возвращает идентификатор ContentId, переданный в вызов **загрузки** . Рекомендуется инициализировать это поле до **значения NULL** перед вызовом метода **Status** , а затем проверить значение после того, как было возвращено значение **Status** . Если значение по-прежнему равно **null**, это означает, что идентификатор ContentId не возвращается. Если значение отлично от **null**, его необходимо освободить с помощью вызова **SysFreeString ()**. Ниже приведен фрагмент кода, посвященный вызову **состояния** после **загрузки**.
     
@@ -348,10 +348,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
 ### <a name="summary-of-iupdatenotify2-interface"></a>Сводка по интерфейсу IUpdateNotify2
 
-> [!NOTE]
-> Эта сводка предоставляется в качестве приветственной информации о [том, как интегрировать приложения управления с установщиком Office 365 нажми и работай](https://docs.microsoft.com/office/client-developer/shared/manageability-applications-with-the-office-365-click-to-run-installer). После обновления общедоступного документа этот документ можно считать устаревшим. 
-  
-В C2RTenant [16.0.8208.6352](https://oloop/BuildGroup/Details/tenantc2rclient#3519/1255278) (первая общедоступная сборка должна быть в июне сборка--8326. *) мы добавили новый интерфейс **IUpdateNotify2** . Ниже представлено несколько основных сведений об этом интерфейсе. 
+Из версии [16.0.8208.6352] мы добавили новый интерфейс **IUpdateNotify2** . 
   
 - CLSID_UpdateNotifyObject2 {52C2F9C2 — F1AC – 4021 – BF50.756A5FA8DDFE}
     
@@ -365,7 +362,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
     
 - Если вы хотите использовать новые методы, необходимо убедиться в том, что:
     
-  - Ваша версия C2R более новая, чем приведенная выше\>сборка (= с помощью построения разветвления за июнь).
+  - Ваша версия C2R более новая, чем приведенная выше сборка (= с помощью \> построения разветвления за июнь).
     
   - Используйте UpdateNotifyObject2, а не **упдатенотифйобжект** , чтобы вызвать функцию **CoCreateInstance**.
     
@@ -373,9 +370,9 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   
 ## <a name="implementing-the-bits-interface"></a>Реализация интерфейса BITS
 
-[Фоновая интеллектуальная служба передачи](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal) (BITS) — это служба, предоставляемая корпорацией Майкрософт для передачи файлов между клиентом и сервером. BITS это один из каналов, которые может использовать установщик Office нажми и работай для загрузки контента. По умолчанию установщик Office нажми и работай использует встроенную в Windows реализацию BITS для загрузки содержимого из сети CDN. 
+[Фоновая интеллектуальная служба передачи](https://docs.microsoft.com/windows/win32/bits/background-intelligent-transfer-service-portal) (BITS) — это служба, предоставляемая корпорацией Майкрософт для передачи файлов между клиентом и сервером. BITS это один из каналов, которые может использовать установщик Office нажми и работай для загрузки контента. По умолчанию установщик Office 365 Apps нажми и работай использует встроенную в Windows реализацию BITS для загрузки содержимого из сети CDN. 
   
-Предоставляя настраиваемую реализацию BITS методу **Download ()** интерфейса **иупдатенотифи** , программное обеспечение управления может управлять тем, где и как клиент загружает контент. Настраиваемый интерфейс BITS полезен при предоставлении настраиваемого канала распространения содержимого, отличного от встроенных каналов "нажми и работай", таких как CDN CDN, серверы IIS или общие файловые ресурсы. 
+Предоставляя настраиваемую реализацию BITS методу **Download ()** интерфейса **иупдатенотифи** , программное обеспечение управления может управлять тем, где и как клиент загружает контент. Настраиваемый интерфейс BITS полезен при предоставлении настраиваемого канала распространения содержимого, отличного от встроенных каналов "нажми и работай", таких как CDN, серверы IIS или файловые ресурсы. 
   
 Минимальное требование для настраиваемого интерфейса BITS для работы со службой Office C2R:
   
@@ -421,7 +418,7 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   
   ```
 
-- Для функций `Addfile` и `AddFileWithRanges` функции and удаленный URL-адрес имеет следующий формат: 
+- Для  `Addfile` функций и  `AddFileWithRanges` функции and удаленный URL-адрес имеет следующий формат: 
     
   ```cpp
   cmbits://<contentid>/<relative path to target file>
@@ -429,11 +426,11 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
 
   - кмбитс жестко запрограммирована, а обозначает настроенные биты.
     
-  -  Идентификатор ContentId _contentid_ _\> является параметром ContentId для метода \<_ **Download ()** . 
+  -  _\<contentid\>_ — Это параметр  _ContentId_ для метода **Download ()** . 
     
-  -  _относительный путь к\> целевому файлу указывает расположение и имя файла, который требуется скачать. \<_ 
+  -  _\<relative path to target file\>_ Указывает расположение и имя файла, который требуется скачать. 
     
-    Например, если вы указали объект _ContentId_ `f732af58-5d86-4299-abe9-7595c35136ef` для метода **Download ()** , и Office C2R хочет скачать CAB-файл версии, например `v32.cab` File, он вызовите **аддфиле ()** , выполнив следующие `RemoteUrl`действия:
+    Например, если вы указали объект  _ContentId_  `f732af58-5d86-4299-abe9-7595c35136ef` для метода **Download ()** , и Office C2R хочет скачать CAB-файл версии, например  `v32.cab` File, он вызовите **аддфиле ()** , выполнив следующие  `RemoteUrl` действия:
     
   ```cpp
   cmbits://f732af58-5d86-4299-abe9-7595c35136ef/Office/Data/V32.cab
@@ -455,134 +452,9 @@ HRESULT status([out] _UPDATE_STATUS_REPORT& pUpdateStatusReport) // Get status o
   HRESULT _stdcall GetRemoteName([out] LPWSTR *ppName);
   
   ```
-
-<!--## Automating content staging
-
-IT administrators can choose to have desktop clients enabled to automatically receive updates when they are available directly from the Microsoft Content Delivery Network (CDN) or they can choose to control the deployment of updates available from the [update channels](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus) using the [Office 2016 Deployment Tool](https://www.microsoft.com/download/details.aspx?id=49117) or [System Center Configuration Manager](https://docs.microsoft.com/deployoffice/manage-office-365-proplus-updates-with-configuration-manager).
-  
-The service supports the ability for management tools to recognize and automate the download of the content when updates are made available.
-  
-**Following is a diagram showing the overview of downloading a custom image**
-
-![An overview of downloading Office updates from the CDN.](media/9afac230-6b22-4526-a800-0562708cc436.png "An overview of downloading Office updates from the CDN")
-  
-In the above diagram you see that a new Office 365 ProPlus image is available on the Office Content Distribution Network (CDN). Along with the Office 365 ProPlus image, an XML-formatted file list is also available which has the information needed to enable manageability software to directly create customized images replacing the need for using the Office Deployment Tool.
-  
-An enterprise configures their WSUS to sync the Office 365 Client Updates. These updates do not contain the actual image payload but does allow the manageability software to recognize when new content is available. The manageability software can then read the Client Update metadata to understand what version of Office the update applies to.
-  
-If the update is applicable, the manageability software can use the CDN content and the file list to create the custom image and store it onto the file share location that it is configured to use.
-  
-### Format of the XML file list
-
-There are two file lists available in a cab file on the CDN. One lists the files for the 32-bit version of Office and one for the 64-bit version of Office. The URL of the location of the Office File List (OFL.CAB) file is [https://officecdn.microsoft.com/pr/wsus/ofl.cab](https://officecdn.microsoft.com/pr/wsus/ofl.cab). The two file lists are called:
-  
-- O365Client_32bit.xml
-    
-- O365Client_64bit.xml
-    
-Within the XML for each of the file lists is an  `UpdateFiles` node which contains a version attribute.  `UpdateFiles version="1.4"`.
-  
-This version is incremented if changes are made to the file lists.
-  
-There are two parameters that need to be combined with the XML to make a custom image: 
-  
-- Replace  _%version%_ with the build version of Office. This can be derived from the Client Update metadata  `MoreInfoURL` field, see below. 
-    
-- Define  _baseURL_ by using the URL value associated with the branch the image is being created for. This can be derived from the Client Update metadata, see below. 
-    
-The steps for creating an image are:
-  
-1. Open the XML file list.
-    
-2. Replace occurrences of  _%version%_ with the applicable Office build version. The build version can be acquired from releasehistory.xml as described later in this article. 
-    
-3. Read the URL attribute for the target branch.
-    
-4. Remove language nodes for any languages not required in the custom image.
-    
-   > [!NOTE]
-   > Nodes with language='0' are language neutral and must be included in the image. 
-  
-5. Construct a local image of the CDN by iterating through the XML file list and copying the CDN files, while creating the folder structure as needed. 
-    
-   - If the  _rename_ attribute is provided, then rename the copied file to the value provided in the  _rename_ attribute. This used to create the top-level default v64.cab and v32.cab files. These are the renamed versions of the top-level build cab file and are used as the default installation version if the version is not specified. 
-    
-   - Use URL + relativePath + filename to construct the CDN location.
-    
-The following examples use the Monthly channel (as defined by the  `baseURL` node) and build version 16.0.4229.1004 from releasehistory.xml. 
-  
-```cpp
-baseURL branch="Monthly" URL="https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" /
-```
-
-- The following is a language neutral file needed for all languages. The name of the file is v64_16.0.4229.1004.cab and it should be copied from https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab and renamed to …/office/data/v64.cab.
-    
-  ```cpp
-  baseURL branch="Business" URL="https://officecdn.microsoft.com/pr/7ffbc6bf-bc32-4f92-8982-f9dd17fd3114" /
-  File name="v64_%version%.cab" rename="v64.cab" relativePath="/office/data/" language="0"/
-  
-  ```
-
-- The following is a file to be included in the en-US image as designated by the language LCID=1033. The name of the file is s641033.cab and it should be copied from https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab and not renamed.
-    
-  ```cpp
-  File name="s641033.cab" relativePath="/office/data/%version%/" language="1033" /
-  ```
-
-### Hash verification of data files
-
-Image creation tools may verify the integrity of the downloaded .dat files by comparing a computed HASH value with the supplied HASH value associated with each of the .dat files. Below is an example of a .dat file from the Monthly channel with build version 16.0.4229.1004 and language set to Bulgarian.
-  
-```cpp
-File name="stream.x64.bg-bg.dat" hashLocation="s641026.cab/stream.x64.bg-bg.hash" hashAlgo="Sha256" relativePath="/office/data/%version%/" language="1026"
-```
-
-- The  _hashLocation_ attribute specifies the relative path location of the stream.x64.bg-bg.hash for the stream.x64.bg-bg.dat file. Construct the hash file location by concatenating URL + relativePath + hashLocation. In this example the stream.x64.bg-bg.hash location would be https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
-    
-- The  _hashAlgo_ attribute specifies what hashing algorithm was used. In this case the Sha256 algorithm was used. 
-    
-To validate the integrity of the stream.x64.bg-bg.dat file, open the stream.x64.bg-bg.hash and read the hash value from the first line of text in the hash file. Compare this to the has value that you computed using the specified hashing algorithm to verify that the values match. Use the following C# code to read the hash.
-  
-```cs
-string[] readHashes = System.IO.File.ReadAllLines(tmpFile, Encoding.Unicode);
-string readHash = readHashes.First();
-
-```
-
-### Office 365 Client Updates
-
-Office 365 Client Updates enable manageability software to treat the Office 365 Client Updates in a manner very similar to any other WU update with one exception; the client updates do not contain an actual payload. The Office 365 Client Updates should not be installed on any clients but rather used to trigger the workflows with the manageability software replacing the installation command with the COM based installation mechanism shown above.
-  
-**Office 365 Client Update workflow**
-
-![Workflow diagram for O365PP client updates.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Workflow diagram for O365PP client updates")
-  
-Each Office 365 Client Update that is published includes metadata about the update. This metadata includes a parameter called  _MoreInfoUrl_ which can be used to derive the following information: 
-  
--  _Ver_: Identifies the Office version associated with this update. For example 16.0.4229.1004.
-    
--  _Branch_: Identifies the Update Channel for this update. Values include InsiderFast, Insiders, Monthly, Targeted, Broad. Additional values may be added in the future.
-    
--  _Arch_: Identifies the processor architecture associated with this update.
-    
--  _xmlVer_: Identifies the version of the XML file lists to use to construct the base image for this update.
-    
--  _xmlPath_: Path to the OFL.CAB file that contains the XML file lists.
-    
--  _xmlFile_: The name of the file list that should be used for this update. The value will be  `O365Client_32bit` or  `O365Client_64bit` and will match the value in  _Arch_.
-    
-The following is an example of the  _MoreInfoURL_ parameter which refers to the Office 365 Client Update for the 32-bit version of Office with build version of 16.0.2342.2343 on the Current channel. 
-  
-```http
-https://officecdn.microsoft.com/pr/wsus/ofl.cab is the location of the XML file lists for this update, specifically the O365Client_32bit.xml from within the OFL.CAB.
-https://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=https://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml 
-
-```
-THE ABOVE SECTION APPEARS TO BE A DUPLICATE OF THE FOLLOWING SECTION; TEMPORARILY COMMENTING IT OUT.-->
-
 ## <a name="automating-content-staging"></a>Автоматизация промежуточного хранения контента
 
-ИТ-администраторы могут разрешить клиентам для настольных ПК автоматически получать обновления, когда они доступны непосредственно из сети доставки содержимого (CDN) Microsoft (CDN), или могут управлять развертыванием обновлений, доступных в каналах обновления с помощью средства развертывания Office или диспетчера конфигураций System Center.
+ИТ — администраторы могут разрешить клиентам для настольных ПК автоматически получать обновления, когда они доступны непосредственно из сети CDN, или управлять развертыванием обновлений, доступных в каналах обновления с помощью средства развертывания Office или диспетчера конфигураций конечных точек Майкрософт.
   
 Служба поддерживает возможность средств управления определять и автоматизировать загрузку контента при наличии обновлений.
   
@@ -592,81 +464,71 @@ THE ABOVE SECTION APPEARS TO BE A DUPLICATE OF THE FOLLOWING SECTION; TEMPORARIL
   
 ### <a name="overview-of-downloading-a-custom-image"></a>Обзор загрузки настраиваемого изображения
   
-На предыдущей схеме вы увидите, что новый образ Office 365 профессиональный плюс доступен в сети доставки содержимого Office (CDN). Вместе с изображением Office 365 профессиональный плюс доступен список файлов в формате XML, в котором есть информация, необходимая для поддержки управляемого программного обеспечения для непосредственного создания настраиваемых образов, которые заменяют необходимость использования средства развертывания Office.
-  
-Предприятие настраивает свои WSUS для синхронизации обновлений клиента Office 365. Эти обновления не содержат полезных данных изображения, но позволяют программному обеспечению для управления распознать, когда будет доступен новый контент. Затем программное обеспечение для управления может прочитать метаданные обновления клиента, чтобы узнать, к какой версии Office относится обновление.
-  
+На предыдущей схеме вы увидите, что новый образ приложений Microsoft 365 доступен в сети CDN. Вместе с изображением приложений Microsoft 365 доступен API, который содержит сведения, необходимые для включения программного обеспечения управления для непосредственного создания настраиваемых образов, которые заменяют необходимость использования средства развертывания Office.
+
+Предприятие настраивает свои WSUS для синхронизации обновлений приложений Microsoft 365. Эти обновления не содержат полезных данных изображения, но позволяют программному обеспечению для управления распознать, когда будет доступен новый контент. Программное обеспечение для управления может прочитать метаданные обновления приложений Microsoft 365, чтобы узнать, к какой версии Office относится обновление.
+
 Если обновление возможно, программное обеспечение для управления может использовать содержимое CDN и список файлов для создания настраиваемого образа и сохранения его в расположении общего файлового ресурса, который он использует.
   
-### <a name="format-of-the-xml-file-list"></a>Формат списка XML-файлов
+### <a name="using-the-microsoft-365-apps-file-list-api"></a>Использование API списка файлов приложений Microsoft 365
 
-В CAB-файле сети CDN доступно два списка файлов. Один список файлов для 32 разрядной версии Office и другой для 64 — разрядной версии Office. URL-адрес списка файлов Office (ОФЛ. CAB- [https://officecdn.microsoft.com/pr/wsus/ofl.cab](https://officecdn.microsoft.com/pr/wsus/ofl.cab)файл). Вызываются два списка файлов:
-  
-- O365Client_32bit. XML
-    
-- O365Client_64bit. XML
-    
-В XML-файле для каждого списка файлов указывается <UpdateFiles> узел, который содержит атрибут Version.  `<UpdateFiles version="1.4">`. Эта версия увеличивается при внесении изменений в списки файлов.
-  
-Существует два параметра, которые необходимо объединить с XML, чтобы создать настраиваемое изображение: 
-  
-- Замените *% Version%* на версию сборки Office. Это может быть получено из метаданных обновления клиента (описывается в следующем разделе). 
-    
-- Определите *baseURL* с использованием значения URL-адреса, связанного с ветвью, для которой создается изображение. Это является производным от метаданных обновления клиента, описанных в следующем разделе. 
-    
-Для создания изображения можно выполнить следующие действия:
-  
-1. Откройте список XML-файлов.
-    
-2. Замените вхождения *% Version%* соответствующей версией сборки Office. Версию сборки можно получить из релеасехистори. XML, как описано далее в этой статье. 
-    
-3. Прочитайте атрибут URL для целевой ветви.
-    
-4. Удалить Языковые узлы для всех языков, не обязательных в настраиваемом образе.
-    
-   > [!NOTE]
-   > Узлы с языком = "0" нейтральны к языку и должны быть включены в образ. 
-  
-5. Создайте локальное изображение сети CDN, пересматривая список XML-файлов и скопировав файлы CDN, создавая структуру папок по мере необходимости. 
-    
-   - Если указан атрибут *Rename* , *переименуйте* скопированный файл в значение, указанное в атрибуте Rename. Используется для создания файлов верхнего уровня по умолчанию v64. cab и v32. cab. Это переименованные версии CAB-файла верхнего уровня, которые используются в качестве версии установки по умолчанию, если версия не указана. 
-    
-   - Для создания расположения CDN используйте URL-адрес + Релативепас + имя файла.
-    
-Ниже приведены примеры, в которых используется месячный канал (в соответствии с `<baseURL>` определением узла) и версия сборки 16.0.4229.1004 из релеасехистори. XML. 
-  
-```xml
-<baseURL branch="Monthly" URL="https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60" />
+API списка файлов приложений Microsoft 365 используется для получения имен файлов, необходимых для конкретного обновления приложений Майкрософт 365.
+
+HTTP-запрос
+
+GET https://config.office.com/api/filelist
+
+Не указывайте текст запроса для этого метода.
+
+Для вызова этого API не требуется никаких разрешений.
+
+Необязательные параметры запросов
+
+|**Имя**|**Описание**|
+|:-----|:-----|
+| channel <br/>| Указывает имя канала  <br/> Необязательный — по умолчанию "полугодовые" <br/> Поддерживаемые значения https://docs.microsoft.com/DeployOffice/office-deployment-tool-configuration-options#channel-attribute-part-of-add-element |
+| version <br/>| Указывает версию обновления <br/> Необязательный параметр — значение по умолчанию для последней версии, доступной для указанного канала |
+| зубц <br/>| Определяет архитектуру клиента <br/> Необязательный параметр — значение по умолчанию: "x64" <br/> Поддерживаемые значения: x64, x86 |
+| действие <br/>| Указывает языковые файлы, которые необходимо включить <br/> Необязательный параметр — значение по умолчанию — None <br/> Чтобы указать несколько языков, включите параметр запроса на закрышку для каждого языка <br/> Используйте формат идентификатора языка, например, "en $ US", "fr – FR" |
+| алллангуажес <br/>| Включение всех языковых файлов <br/> Необязательный параметр — значение по умолчанию — false. |
+
+HTTP-ответ
+
+В случае успешного выполнения этот метод возвращает код отклика 200 ОК и коллекцию объектов File в тексте отклика.
+
+Чтобы создать изображение, выполните следующие действия:
+1.  Вызовите API, предоставив соответствующие параметры запроса для канала, версии и архитектуры интересующего обновления.
+Note: объекты File с атрибутом "LCID": "0" — это независимые от языка файлы, которые должны быть включены в образ.
+2.  Создайте локальное изображение сети CDN, переполнив все объекты File и скопировав файлы CDN, создавая структуру папок в соответствии с атрибутом "Релативепас", определенным для каждого объекта File.
+
+В следующем примере извлекается список файлов для текущего канала и версия 16.0.4229.1004 для 64 64, а также файлы на французском и английском языках:
+
+```http
+Get https://config.office.com/api/filelist?Channel=Current&Version=16.0.4229.1004&Arch=x64&Lid=fr-fr&Lid=en-US
 ```
-
-- Ниже приведен независимый от языка файл, необходимый для всех языков. Имя файла v64_16.0.4229.1004. cab и его следует скопировать из `https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/v64_16.0.4229.1004.cab` и переименовать в. `…/office/data/v64.cab` 
-    
-  ```xml
-  <File name="v64_%version%.cab" rename="v64.cab" relativePath="/office/data/" language="0"/>
-  
-  ```
-
-- Ниже приведен файл, который должен быть включен в изображение en-US в соответствии с языком LCID = 1033. Имя файла s641033. cab и его следует скопировать из `https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641033.cab` него и не переименовывать.
-    
-  ```xml
-  <File name="s641033.cab" relativePath="/office/data/%version%/" language="1033" />
-  ```
 
 ### <a name="hash-verification-of-dat-files"></a>Проверка хэша файлов DAT
 
-Средства создания изображений могут проверить целостность скачанных файлов DAT, сравнив вычисленное значение ХЭША с заданным ХЭШЕМ со значением, сопоставленным с каждым из DAT-файлов. Ниже приведен пример файла DAT из ежемесячного канала с версией сборки 16.0.4229.1004 и языковым набором для болгарского языка:
+Средства создания изображений могут проверить целостность скачанных файлов DAT, сравнив вычисленное значение хэша с заданным хэшем со значением, сопоставленным с каждым из DAT-файлов. Ниже приведен пример объекта File, который определяет значения Хашлокатион и Хашалгорисм:
   
 ```xml
-<File name="stream.x64.bg-bg.dat" hashLocation="s641026.cab/stream.x64.bg-bg.hash" hashAlgo="Sha256" relativePath="/office/data/%version%/" language="1026"/>
+{
+  "url": "https://officecdn.microsoft.com/pr/7ffbc6bf-bc32-4f92-8982-f9dd17fd3114/office/data/16.0.1234.1001/stream.x64.x-none.dat",
+  "name": "stream.x64.x-none.dat",
+  "relativePath": "/office/data/16.0.1234.1001/",
+  "hashLocation": "s640.cab/stream.x64.x-none.hash",
+  "hashAlgorithm": "Sha256",
+  "lcid": "0"
+},
 ```
 
-- Атрибут **хашлокатион** указывает расположение относительного пути Stream.x64.bg-bg. hash для файла Stream.x64.bg-БГ. dat. Создайте расположение хэш-файла с помощью сцепления URL + Релативепас + Хашлокатион. В следующем примере расположение stream.x64.bg-bg. hash будет следующим: 
+- Атрибут **хашлокатион** указывает расположение относительного пути CAB-файла, который содержит хэш-значение. Создайте расположение хэш-файла с помощью сцепления URL + Релативепас + Хашлокатион. В следующем примере расположение stream.x64.bg-bg. hash будет следующим: 
     
   ```http
   https://officecdn.microsoft.com/pr/492350f6-3a01-4f97-b9c0-c7c6ddf67d60/office/data/16.0.4229.1004/s641026.cab/stream.x64.bg-bg.hash 
   ```
 
-- Атрибут **хашалго** указывает, какой алгоритм хеширования использовался. В этом случае использовался SHA256. 
+- Атрибут **хашалгорисм** указывает, какой алгоритм хеширования использовался. 
     
   Чтобы проверить целостность файла stream.x64.bg-БГ. dat, откройте stream.x64.bg-bg. hash и прочтите хэш-значение, которое является первой строкой текста в хэш-файле. Сравните это с вычисленным значением хэша (с использованием указанного алгоритма хеширования), чтобы проверить целостность загруженного файла. dat.
     
@@ -677,134 +539,56 @@ THE ABOVE SECTION APPEARS TO BE A DUPLICATE OF THE FOLLOWING SECTION; TEMPORARIL
     string readHash = readHashes.First();
   ```
 
-### <a name="office-365-client-updates"></a>Обновления для клиентов Office 365
+### <a name="microsoft-365-apps-updates"></a>Обновления для приложений Microsoft 365
 
-Все обновления для клиентов Office 365 опубликованы в [каталоге обновлений Майкрософт](https://www.catalog.update.microsoft.com/Search.aspx?q=office+365+client).
+Все обновления для приложений Microsoft 365 опубликованы в [каталоге обновлений Майкрософт](https://www.catalog.update.microsoft.com/Search.aspx?q=office+365+client).
   
-Обновления клиента Office 365 позволяют программному обеспечению программного обеспечения для программного обеспечения программного обеспечения обновления клиента Office 365 аналогично любому другому обновлению WU с одним исключением; обновления клиента не содержат реальных полезных данных. Обновления клиента Office 365 не должны устанавливаться на всех клиентах, а использовать для запуска рабочих процессов с программным обеспечением с программным обеспечением, заменив команду установки на основе механизма установки на основе COM, показанного выше. 
-  
+Обновления для приложений Microsoft 365 позволяют программному обеспечению программного обеспечения обрабатывать обновления для приложений Microsoft 365 аналогично любому другому обновлению WU с одним исключением; обновления клиента не содержат реальных полезных данных. Обновления для приложений Microsoft 365 не должны устанавливаться на всех клиентах, а использовать для запуска рабочих процессов с программным обеспечением с программным обеспечением, заменив команду установки на механизм установки на основе COM, показанный выше.
+
 **На следующем рисунке показана схема рабочего процесса обновления клиента Office 365.**
 
 ![Схема рабочего процесса для обновлений клиента O365PP.](media/bc8092b0-62b8-402c-a5c0-04d55cca01d4.png "Схема рабочего процесса для обновлений клиента O365PP")
   
-Каждое публикуемое обновление клиента Office 365 содержит метаданные об обновлении. Эти метаданные содержат параметр с именем *мореинфаурл* , который можно использовать для получения следующих сведений: 
-  
--  *Ver*: идентифицирует версию Office, связанную с этим обновлением. 
-    
--  *Branch*: идентифицирует канал обновления для этого обновления. К значениям относятся Инсидерфаст, предварительные оценки, ежемесячные, целевые, общие. В будущем можно добавить дополнительные значения. 
-    
--  *Arch*: идентифицирует архитектуру процессора, связанную с этим обновлением. 
-    
--  *ксмлвер*: версия списка XML-файлов, которая должна использоваться для создания основного образа для этого обновления. 
-    
--  *ксмлпас*: путь к ОФЛ. CAB-файл, который содержит списки XML-файлов. 
-    
--  *млфиле*: имя списка файлов, который должен использоваться для этого обновления. Значение будет O365Client_32bit или O365Client_64bit и будет совпадать с Arch. 
-    
-Следующий URL-адрес — это пример параметра *мореинфаурл* , который ссылается на выпуск обновления клиента Office 365 для 32-разрядной версии Office с версией сборки 16.0.2342.2343 на текущем канале. 
-  
-https://officecdn.microsoft.com/pr/wsus/ofl.cab— Это расположение списков XML-файлов для этого обновления, в частности, в O365Client_32bit. XML в ОФЛ. Архива.
-  
-[Ветви обновлений для клиента Office 365](https://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.8326.2096&Branch=Current&Arch=64&XMLVer=1.4&xmlPath=https://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml)
+Каждое публикуемое обновление приложений Microsoft 365 содержит метаданные об обновлении. Эти метаданные содержат параметр с именем Мореинфаурл, который можно использовать для получения вызова API списка файлов для этого конкретного обновления.
+
+В следующем примере API списка файлов внедряется в Мореинфаурл и начинается с "Сервицепас ="
+
+http://go.microsoft.com/fwlink/?LinkId=626090&Ver=16.0.12527.21104&Branch=Insiders&Arch=64&XMLVer=1.6&xmlPath=http://officecdn.microsoft.com/pr/wsus/ofl.cab&xmlFile=O365Client_64bit.xml& Сервицепас =https://config.office.com/api/filelist?Channel=Insiders&Version=16.0.12527.21104&Arch=64&AllLanguages=True
   
 ### <a name="additional-metadata-for-automating-content-staging"></a>Дополнительные метаданные для автоматизации промежуточного хранения контента
 
-Кроме метаданных, которые публикуются, что определяет, есть ли дополнительные XML-файлы, опубликованные в сети CDN, которые могут помочь предоставить дополнительные сведения о клиентах Office 365, доступных из сети CDN Office.
+**API истории выпуска**
   
-**Инвентаризационные. ЯЗЫК**
-  
-Этот XML-файл находится в подписанном CAB-файле и опубликован в сети CDN Office по следующему URL [https://officecdn.microsoft.com/pr/wsus/skus.cab](https://officecdn.microsoft.com/pr/wsus/skus.cab)-адресу:.
-  
-Метаданные, опубликованные в этом XML-файле, удобно использовать для определения того, какие продукты доступны для развертывания и обслуживания из сети CDN Office, а также различные варианты для каждого из них. 
-  
-```XML
-<?xml version="1.0" encoding="utf-8"?>
-<ReleaseInfo PublishedDate="08/07/2017 16:34">
-  <!-- Suite / App catalog -->
-  <Suite>
-    <SKU Name="Office 365 ProPlus" ProductID="O365ProPlusRetail" Default="True">
-      <Apps>
-        <App Name="Access" AppID="Access" />
-        <App Name="Excel" AppID="Excel" />
-        <App Name="OneDrive for Business (Groove)" AppID="Groove" />
-        <App Name="OneDrive for Business (Next Gen Sync Client)" AppID="OneDrive" />
-        <App Name="OneNote" AppID="OneNote" />
-        <App Name="Outlook" AppID="Outlook" />
-        <App Name="PowerPoint" AppID="PowerPoint" />
-        <App Name="Publisher" AppID="Publisher" />
-        <App Name="Skype for Business" AppID="Lync" />
-        <App Name="Word" AppID="Word" />
-      </Apps>
-      <Channels>
-        <Channel ID="Monthly"/>
-        <Channel ID="Insiders"/>
-        <Channel ID="Targeted"/>
-        <Channel ID="Broad"/>
-      </Channels>
-    </SKU>
+API истории выпуска приложений Microsoft 365 используется для получения сведений о каждом обновлении, опубликованном в сети CDN, вместе с именами каналов и другими атрибутами канала.
+
+HTTP-запрос
+
+```http
+GET https://config.office.com/api/filelist/channels 
 ```
 
-Корневой узел **релеасеинфо\> содержит атрибут публишеддате, который определяет дату публикации этого файла. \<** 
+Не указывайте текст запроса для этого метода.
+
+Для вызова этого API не требуется никаких разрешений.
+
+HTTP-ответ
+
+В случае успешного выполнения этот метод возвращает код отклика 200 ОК и коллекцию объектов File в тексте отклика.
+
+**API SKU**
   
-**Узел SKU\> определяет индивидуальные единицы \<** хранения. 
-  
-- Атрибут *ProductID* определяет идентификатор, который передается в качестве атрибута ID в файле Configuration. XML при использовании ODT. Например, `<Product ID="O365ProPlusRetail">`. 
-    
-- Атрибут *по умолчанию* , если он имеет значение true, определяет рекомендованную конфигурацию. 
-    
-**Узлы приложений\> используются для определения отдельных приложений Office, поддерживаемых каждым \<** SKU. 
-  
-- Атрибут *Name* — это имя отображаемого приложения. 
-    
-- Атрибут *AppID* — это атрибут ID, передаваемый в файле Configuration. XML для ** \<узла\> ExcludeApp** при использовании ODT. Например, `<ExcludeApp ID="Publisher" />`. 
-    
-**РЕЛЕАСЕХИСТОРИ. ЯЗЫК**
-  
-Этот XML-файл находится в подписанном CAB-файле и опубликован в сети CDN Office в следующем расположении: [https://officecdn.microsoft.com/pr/wsus/releasehistory.cab](https://officecdn.microsoft.com/pr/wsus/releasehistory.cab). 
-  
-Метаданные, опубликованные в этом XML-файле, помогают определить, какие каналы поддерживаются для обслуживания обновлений из сети CDN Office, а также сведения о журнале сборки для каждого поддерживаемого канала.
-  
-```XML
-<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="10/22/2017 00:48">
-  <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
-    <Update Latest="True" Version="1709" LegacyVersion="16.0.8528.2139" Build="8528.2139" PubTime="2017-10-16T19:45:50.743Z" />
-    <Update Latest="False" Version="1708" LegacyVersion="16.0.8431.2107" Build="8431.2107" PubTime="2017-10-11T01:52:33.793Z" />
-    <Update Latest="False" Version="1708" LegacyVersion="16.0.8431.2079" Build="8431.2079" PubTime="2017-09-18T22:26:13.673Z" />
-    <Update Latest="False" Version="1707" LegacyVersion="16.0.8326.2107" Build="8326.2107" PubTime="2017-09-12T18:56:53.657Z" />
-    <Update Latest="False" Version="1707" LegacyVersion="16.0.8326.2096" Build="8326.2096" PubTime="2017-08-30T00:10:25.253Z" />
-    <Update Latest="False" Version="1707" LegacyVersion="16.0.8326.2076" Build="8326.2076" PubTime="2017-08-19T00:13:01.787Z" />
-    <Update Latest="False" Version="1707" LegacyVersion="16.0.8326.2073" Build="8326.2073" PubTime="2017-08-11T19:35:42.173Z" />
-  </UpdateChannel>
+API SKU возвращает сведения, которые помогут определить, какие продукты доступны для развертывания и обслуживания из сети CDN Office, а также различные варианты для каждого из них.
+
+HTTP-запрос
+
+```http
+GET https://config.office.com/api/filelist/skus 
 ```
 
-Корневой узел ** \<релеасехистори\> ** содержит атрибут публишеддате, который определяет дату публикации этого файла. 
-  
-Узел ** \<UpdateChannel\> ** определяет поддерживаемый канал. 
-  
-- Атрибут *Name* определяет идентификатор канала, который используется для передачи в ODT из файла Configuration. XML в качестве атрибута Channel. 
-    
-  Пример: `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Current">` 
-    
-  > [!NOTE] 
-  > Этот атрибут устарел и используется только для обратной совместимости. Используйте атрибут ID вместо атрибута Name. 
-    
-- Атрибут *ID* определяет идентификатор канала, который используется для передачи в ODT из файла Configuration. XML в качестве атрибута Channel. 
-    
-  Пример: `<Add SourcePath="\\Server\Share" OfficeClientEdition="32" Channel="Deferred">` 
-    
-- В качестве отображаемого имени используется атрибут **DisplayName** . 
-    
-Узел ** \<Update\> ** используется для определения каждого обновления, опубликованного для конкретного канала. 
-  
-- **Последний** атрибут, если он имеет значение true, определяет выпуск, который является последним выпуском для этого канала. 
-    
-- Атрибут **Version** определяет номер версии для этого конкретного обновления. 
-    
-- Атрибут **легациверсион** определяет полный номер версии для этого конкретного обновления. 
-    
-- Атрибут **Build** определяет номер сборки для этого конкретного обновления. 
-    
-- Атрибут **пубтиме** определяет дату и время публикации этого обновления в сети CDN Office. 
-    
+Не указывайте текст запроса для этого метода.
 
+Для вызова этого API не требуется никаких разрешений.
+
+HTTP-ответ
+
+В случае успешного выполнения этот метод возвращает код отклика 200 ОК и коллекцию объектов File в тексте отклика.

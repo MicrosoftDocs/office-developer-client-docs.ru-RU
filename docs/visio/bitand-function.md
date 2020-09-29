@@ -9,12 +9,12 @@ f1_keywords:
 localization_priority: Normal
 ms.assetid: c437de23-d2e0-469d-62e6-8eb8b8cfea5c
 description: Возвращает 16-разрядное двоичное число, для каждого бита которого задано значение 1, только если соответствующий бит в binarynumber1 и binarynumber2 равен 1. В противном случае для бита задается значение 0.
-ms.openlocfilehash: 495ad645a422c0333d02a22c3c600dd1e0d567bd
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: a3c76a9122d0f02d5ab61460cf3457bb15da4d7b
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33409729"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293494"
 ---
 # <a name="bitand-function"></a>Функция BITAND
 
@@ -22,14 +22,14 @@ ms.locfileid: "33409729"
   
 ## <a name="syntax"></a>Синтаксис
 
-БИТ. И (* * *binarynumber1* * *, * * *binarynumber2* * *) 
+БИТ. И (***binarynumber1***, ***binarynumber2*** ) 
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _Двоичные Число1_ <br/> |Обязательна  <br/> |**Числовой** <br/> |Первое 16 – разрядное двоичное число.  <br/> |
-| _двоичные файлы число2_ <br/> |Обязательна  <br/> |**Числовой** <br/> |Второй 16 – разрядный двоичный номер.  <br/> |
+| _Двоичные Число1_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Первое 16 – разрядное двоичное число.  <br/> |
+| _двоичные файлы число2_ <br/> |Обязательный  <br/> |**Числовой** <br/> |Второй 16 – разрядный двоичный номер.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
