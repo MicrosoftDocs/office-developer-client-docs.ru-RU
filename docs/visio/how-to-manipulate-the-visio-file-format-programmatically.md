@@ -7,12 +7,12 @@ ms.topic: overview
 ms.assetid: 5f5e2288-7539-41b8-916d-410be028ed9b
 description: Создайте в Visual Studio 2012 решение для чтения пакетов с новым форматом файлов, используемым в Visio 2013, выбора частей в пакете, изменения данных в части и добавления новых частей в пакет.
 localization_priority: Priority
-ms.openlocfilehash: 3998c0d4b97439571bd93293f5f49659580f09de
-ms.sourcegitcommit: 007aa2ceb4f569201c3f4372de5c83b6c61f8875
+ms.openlocfilehash: 7103e094f58ee26ea2335d6cccd822dced1e1375
+ms.sourcegitcommit: 939bd9686ba41a8f94b82e004ed84b9054d9c7cf
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43102907"
+ms.lasthandoff: 09/28/2020
+ms.locfileid: "48293515"
 ---
 # <a name="manipulate-the-visio-file-format-programmatically"></a>Программное управление форматами файлов Visio
 
@@ -303,7 +303,7 @@ ms.locfileid: "43102907"
   
 Обычно требуется выбрать один объект **PackagePart**, не выполняя итерацию всех таких объектов. Вы можете получить объект **PackagePart** из объекта **Package**, используя его связь с объектом **Package** или другим объектом **PackagePart**. В формате файлов Visio 2013 связь представляет собой дискретный объект, который описывает, каким образом часть документа связана с пакетом файла или как две части документа связаны друг с другом. Например, сам пакет файла Visio 2013 имеет связь со своей частью Visio Document, а часть Visio Document имеет связь с частью Windows. Эти связи представлены как экземпляры классов [PackageRelationship](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationship?view=netframework-4.8) или [PackageRelationshipCollection](https://docs.microsoft.com/dotnet/api/system.io.packaging.packagerelationshipcollection?view=netframework-4.8). 
 
-Класс **Package** предоставляет доступ к нескольким методам, которые используются для получения связей и содержатся в нем в виде объектов **PackageRelationship** или **PackageRelationshipCollection**. С помощью метода [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) вы можете создать экземпляр объекта **PackageRelationshipCollection**, содержащий объекты **PackageRelationship** одного определенного типа. Безусловно, чтобы использовать метод **Package.GetRelationshipsByType**, вы должны знать, какой тип связи необходим вам. Типы связей представляют собой строки в формате пространства имен XML. Например, тип связи части Visio Document — https://schemas.microsoft.com/visio/2010/relationships/document. 
+Класс **Package** предоставляет доступ к нескольким методам, которые используются для получения связей и содержатся в нем в виде объектов **PackageRelationship** или **PackageRelationshipCollection**. С помощью метода [GetRelationshipsByType(String)](https://msdn.microsoft.com/library/System.IO.Packaging.Package.GetRelationshipsByType.aspx) вы можете создать экземпляр объекта **PackageRelationshipCollection**, содержащий объекты **PackageRelationship** одного определенного типа. Безусловно, чтобы использовать метод **Package.GetRelationshipsByType**, вы должны знать, какой тип связи необходим вам. Типы связей представляют собой строки в формате пространства имен XML. Например, тип связи части Visio Document — http://schemas.microsoft.com/visio/2010/relationships/document. 
   
 После того как вы получите сведения о связи объекта **PackagePart** с объектом **Package** или другим объектом **PackagePart** (то есть когда у вас будет объект **PackageRelationship**, который ссылается на необходимый вам объект **PackagePart**), вы сможете использовать эту связь для получения универсального кода ресурса (URI) этого объекта **PackagePart**. После этого можно передать универсальный код ресурса (URI) в метод **Package.GetPart**, чтобы возвратить объект **PackagePart**.
   
@@ -366,14 +366,14 @@ ms.locfileid: "43102907"
     ```cs
     // Get a reference to the Visio Document part contained in the file package.
     PackagePart documentPart = GetPackagePart(visioPackage, 
-        "https://schemas.microsoft.com/visio/2010/relationships/document");
+        "http://schemas.microsoft.com/visio/2010/relationships/document");
     
     ```
 
     ```vb
     ' Get a reference to the Visio Document part contained in the file package.
     Dim documentPart As PackagePart = GetPackagePart(visioPackage, _
-        "https://schemas.microsoft.com/visio/2010/relationships/document")
+        "http://schemas.microsoft.com/visio/2010/relationships/document")
     
     ```
 
@@ -438,9 +438,9 @@ ms.locfileid: "43102907"
     // Get a reference to the collection of pages in the document, 
     // and then to the first page in the document.
     PackagePart pagesPart = GetPackagePart(visioPackage, documentPart, 
-        "https://schemas.microsoft.com/visio/2010/relationships/pages");
+        "http://schemas.microsoft.com/visio/2010/relationships/pages");
     PackagePart pagePart = GetPackagePart(visioPackage, pagesPart, 
-        "https://schemas.microsoft.com/visio/2010/relationships/page");
+        "http://schemas.microsoft.com/visio/2010/relationships/page");
     
     ```
 
@@ -448,9 +448,9 @@ ms.locfileid: "43102907"
     ' Get a reference to the collection of pages in the document,
     ' and then to the first page in the document.
     Dim pagesPart As PackagePart = GetPackagePart(visioPackage, documentPart, _
-        "https://schemas.microsoft.com/visio/2010/relationships/pages") 
+        "http://schemas.microsoft.com/visio/2010/relationships/pages") 
     Dim pagePart As PackagePart = GetPackagePart(visioPackage, pagesPart, _
-        "https://schemas.microsoft.com/visio/2010/relationships/page") 
+        "http://schemas.microsoft.com/visio/2010/relationships/page") 
     ```
 
 Чтобы можно было вносить изменения в XML, включенный в часть документа, необходимо сначала загрузить документ XML в объект, который позволяет читать XML c помощью классов [XDocument](https://msdn.microsoft.com/library/System.Xml.Linq.XDocument.aspx) или [XmlDocument](https://msdn.microsoft.com/library/System.Xml.XmlDocument.aspx). Оба эти класса предоставляют доступ к методам, используемым для решения таких задач, как выбор элементов XML, содержащихся в документах XML, создание, чтение и запись атрибутов, а также вставка новых элементов XML в документ. 
@@ -771,7 +771,7 @@ textElement.LastNode.ReplaceWith("Start process")
         // Get the Custom File Properties part from the package and
         // and then extract the XML from it.
         PackagePart customPart = GetPackagePart(filePackage, 
-            "https://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
+            "http://schemas.openxmlformats.org/officeDocument/2006/relationships/" + 
             "custom-properties");
         XDocument customPartXML = GetXMLFromPart(customPart);
         // Check to see whether document recalculation has already been 
@@ -810,7 +810,7 @@ textElement.LastNode.ReplaceWith("Start process")
             ' Get the Custom File Properties part from the package and
             ' then extract the XML from it.
             Dim customPart As PackagePart = GetPackagePart(filePackage, _
-                "https://schemas.openxmlformats.org/officeDocument/2006/" + _
+                "http://schemas.openxmlformats.org/officeDocument/2006/" + _
                 "relationships/custom-properties")
             Dim customPartXML As XDocument = GetXMLFromPart(customPart)
             ' Check to see whether document recalculation has already been
@@ -1006,7 +1006,7 @@ textElement.LastNode.ReplaceWith("Start process")
         // This code adds a new CUSTOM tab to the ribbon for this
         // document. The tab has one group that contains one button.
         XNamespace customUINS = 
-            "https://schemas.microsoft.com/office/2006/01/customui";
+            "http://schemas.microsoft.com/office/2006/01/customui";
         XDocument customUIXDoc = new XDocument(
             new XDeclaration("1.0", "utf-8", "true"),
             new XElement(customUINS + "customUI",
@@ -1040,7 +1040,7 @@ textElement.LastNode.ReplaceWith("Start process")
         ' This code adds a new CUSTOM tab to the ribbon for this
         ' document. The tab has one group that contains one button.
         Dim customUINS As XNamespace = _
-            "https://schemas.microsoft.com/office/2006/01/customui"
+            "http://schemas.microsoft.com/office/2006/01/customui"
         Dim customUIXML = New XDocument( _
             New XDeclaration("1.0", "utf-8", "true"), _
             New XElement(customUINS + "customUI", _
@@ -1132,7 +1132,7 @@ textElement.LastNode.ReplaceWith("Start process")
     CreateNewPackagePart(visioPackage, customUIXML, 
         new Uri("/customUI/customUI1.xml", UriKind.Relative),
         "application/xml",
-        "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
+        "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility");
     ```
 
     ```vb
@@ -1141,7 +1141,7 @@ textElement.LastNode.ReplaceWith("Start process")
     CreateNewPackagePart(visioPackage, customUIXML, _
         New Uri("/customUI/customUI1.xml", UriKind.Relative), _
         "application/xml", _
-        "https://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
+        "http://schemas.microsoft.com/office/2006/relationships/ui/extensibility")
     ```
 
 4. Выполните отладку решения, нажав клавишу F5. По завершении работы программы выйдите из нее, нажав любую клавишу.
@@ -1158,7 +1158,7 @@ XML, созданный методом `CreateCustomUI`, выглядит, ка�
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
-<customUI xmlns="https://schemas.microsoft.com/office/2006/01/customui">
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
   <ribbon>
     <tabs>
       <tab id="customTab" label="CUSTOM">
