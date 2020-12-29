@@ -6,12 +6,12 @@ ms.audience: Developer
 localization_priority: Normal
 ms.assetid: d4f380fa-2ed9-4c7c-9ef3-b32f8409f657
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 8b5c5fee71db0fc7bdd6e01c58e9c9a9c3d9fa22
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: aadfba3e2674c35019a2e5f3eb374fbed1ad2a75
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32318083"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734226"
 ---
 # <a name="autocomplete-stream"></a>Поток автозаполнения
 
@@ -137,6 +137,7 @@ ms.locfileid: "32318083"
 |:-----|:-----|
 |PT_I2  <br/> |short int  <br/> |
 |PT_LONG  <br/> |long  <br/> |
+|PT_ERROR  <br/> |long  <br/> |
 |PT_R4  <br/> |float  <br/> |
 |PT_DOUBLE  <br/> |double  <br/> |
 |PT_BOOLEAN  <br/> |short int  <br/> |
@@ -162,13 +163,6 @@ PT_CLSID
 |||
    
 PT_BINARY 
-  
-|**Данные значения**|**Количество байтов**|
-|:-----|:-----|
-|Количество байтов n  <br/> |4   <br/> |
-|Байты, интерпретируемые как массив байтов  <br/> |n  <br/> |
-   
-PT_ERROR
   
 |**Данные значения**|**Количество байтов**|
 |:-----|:-----|
