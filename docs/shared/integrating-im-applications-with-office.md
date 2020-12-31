@@ -6,12 +6,12 @@ ms.audience: Developer
 ms.assetid: beba316b-1dfe-4e1b-adae-42418906c177
 description: В этой статье описано, как настроить клиентское приложение для обмена мгновенными сообщениями так, чтобы интегрировать его с социальными функциями в Office 2013 или более поздних версий, включая отображение сведений о присутствии и отправку мгновенных сообщений из карточки контакта.
 localization_priority: Priority
-ms.openlocfilehash: c0094b880bae5cac2cef4236d3ff3edcefd21678
-ms.sourcegitcommit: 37080eb0087261320e24e6f067e5f434a812b2d2
+ms.openlocfilehash: 3494d42af82c174469272928286c3fc5f847eebc
+ms.sourcegitcommit: 0419850d5c1b3439d9da59070201fb4952ca5d07
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819296"
+ms.lasthandoff: 12/28/2020
+ms.locfileid: "49734233"
 ---
 # <a name="integrating-im-applications-with-office"></a>Интеграция приложений для обмена мгновенными сообщениями с приложениями Office
 
@@ -309,6 +309,10 @@ public object GetInterface(string _version, OIInterface _interface)
 > - **oiFeaturePictures** (2); 
 > - **oiFeatureFreeBusyIntegration**;
 > - **oiFeaturePhoneNormalization**.
+>
+>  Приложения Office 365 версии 2011 (и более поздних версий) игнорируют следующие константы в перечислении **OIFeature**: 
+> - **oiFeaturePictures** (2); 
+> - **oiFeaturePhoneNormalization**.
   
 Используйте следующий пример кода для реализации метода **GetSupportFeatures** в пределах кода клиентского приложения для обмена мгновенными сообщениями. 
   
@@ -332,7 +336,7 @@ public OIFeature GetSupportedFeatures(string _version)
 В Таблице 3 показаны элементы, которые должны быть реализованы в классе, наследуемом от **ILyncClient** и **_ILyncClientEvents**.
   
 > [!NOTE]
-> Любой элемент интерфейса **ILyncClient** или ** \_ILyncClientEvents**, не указанный в таблице, должен быть в наличии, но не обязательно должен быть реализован. Элементы, которые имеются в наличии, но не были реализованы, могут привести к возникновению ошибки **NotImplementedException** или **E\_NOTIMPL**. 
+> Любой элемент интерфейса **ILyncClient** или **\_ILyncClientEvents**, не указанный в таблице, должен быть в наличии, но не обязательно должен быть реализован. Элементы, которые имеются в наличии, но не были реализованы, могут привести к возникновению ошибки **NotImplementedException** или **E\_NOTIMPL**. 
 > 
 > Дополнительные сведения об интерфейсах **ILyncClient** и **_ILyncClientEvents** и их элементах см. в статье [UCCollaborationLib.ILyncClient](https://msdn.microsoft.com/library/UCCollaborationLib.ILyncClient) и [ UCCollaborationLib._ILyncClientEvents](https://msdn.microsoft.com/library/UCCollaborationLib._ILyncClientEvents). 
   
@@ -710,7 +714,7 @@ namespace SampleImplementation
 |Свойство **Settings**  <br/> |Получает коллекцию свойств контакта.  <br/> |
 |Свойство **CustomGroups**  <br/> |Получает коллекцию групп, участником которых является контакт.  <br/> |
    
-Во время процесса инициализации приложение Office вызывает метод **IContact.CanStart**, чтобы определить возможности обмена мгновенными сообщениями для локального пользователя. Метод **CanStart** получает отметку от перечисления [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) в качестве аргумента для параметра __modalityTypes_. Если текущий пользователь может взаимодействовать в запрашиваемой модальности (т. е. такой пользователь может обмениваться мгновенными, голосовыми и видеосообщениями или иметь общий доступ к приложениям), метод **CanStart** возвращает значение **true**.
+Во время процесса инициализации приложение Office вызывает метод **IContact.CanStart**, чтобы определить возможности обмена мгновенными сообщениями для локального пользователя. Метод **CanStart** получает отметку от перечисления [UCCollaborationLib.ModalityTypes](https://msdn.microsoft.com/library/UCCollaborationLib.ModalityTypes) в качестве аргумента для параметра _ _modalityTypes_. Если текущий пользователь может взаимодействовать в запрашиваемой модальности (т. е. такой пользователь может обмениваться мгновенными, голосовыми и видеосообщениями или иметь общий доступ к приложениям), метод **CanStart** возвращает значение **true**.
   
 ```cs
 public bool CanStart(ModalityTypes _modalityTypes)
@@ -734,7 +738,7 @@ public bool CanStart(ModalityTypes _modalityTypes)
 
 ```
 
-Метод **GetContactInformation** получает информацию о контакте из объекта **IContact**. Код вызова должен передать значение из перечисления [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) для параметра __contactInformationType_, который обозначает получаемые данные. 
+Метод **GetContactInformation** получает информацию о контакте из объекта **IContact**. Код вызова должен передать значение из перечисления [UCCollaborationLib.ContactInformationType](https://msdn.microsoft.com/library/UCCollaborationLib.ContactInformationType) для параметра _ _contactInformationType_, который обозначает получаемые данные. 
   
 ```cs
 public object GetContactInformation(
@@ -765,7 +769,7 @@ public object GetContactInformation(
 }
 ```
 
-Также как и **GetContactInformation**, метод **BatchGetContactInformation** получает несколько элементов сведений о присутствии контакта из объекта **IContact**. Код вызова должен передать массив значений из перечисления **ContactInformationType** для параметра __contactInformationTypes_. Метод возвращает объект [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary), который содержит запрашиваемые данные. 
+Также как и **GetContactInformation**, метод **BatchGetContactInformation** получает несколько элементов сведений о присутствии контакта из объекта **IContact**. Код вызова должен передать массив значений из перечисления **ContactInformationType** для параметра _ _contactInformationTypes_. Метод возвращает объект [UCCollaborationLib.IContactInformationDictionary](https://msdn.microsoft.com/library/UCCollaborationLib.IContactInformationDictionary), который содержит запрашиваемые данные. 
   
 ```cs
 public IMClientContactInformationDictionary BatchGetContactInformation(
@@ -883,7 +887,7 @@ public class IMClientSelf : ISelf
 ||Событие **OnGroupRemoved**  <br/> |Создается, когда группа удаляется из коллекции групп. Обновленную коллекцию групп можно получить из свойства **IContactManager.Groups**.  <br/> |
 ||Событие **OnSearchProviderStateChanged**  <br/> |Создается, когда изменяется статус поставщика поиска.  <br/> |
    
-Office вызывает **IContactManager.GetContactByUri**, чтобы получить сведения контакта о присутствии, используя адрес SIP контакта. Когда контакт сконфигурирован для SIP-адреса в Active Directory, Office определяет такой адрес для контакта и вызывает **GetContactByUri**, передавая SIP-адрес контакта для параметра  __contactUri_. 
+Office вызывает **IContactManager.GetContactByUri**, чтобы получить сведения контакта о присутствии, используя адрес SIP контакта. Когда контакт сконфигурирован для SIP-адреса в Active Directory, Office определяет такой адрес для контакта и вызывает **GetContactByUri**, передавая SIP-адрес контакта для параметра  _ _contactUri_. 
   
 Если приложению Office не удается определить SIP-адрес для контакта, оно вызывает метод **IContactManager.Lookup**, чтобы найти SIP, используя службу обмена мгновенными сообщениями. Здесь Office передает оптимальные данные, которые удается найти для контакта (например, только адрес электронной почты для контакта). Метод **Lookup** асинхронно возвращает объект **AsynchronousOperation**. Когда он инициирует обратный вызов, метод **Lookup** должен вернуть сведения об успешном или неудачном выполнении операции, помимо URI контакта. 
   
