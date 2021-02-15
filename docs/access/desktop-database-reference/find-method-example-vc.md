@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292365"
 ---
-# <a name="find-method-example-vc"></a><span data-ttu-id="467d4-102">Пример использования метода Find (VC++)</span><span class="sxs-lookup"><span data-stu-id="467d4-102">Find method example (VC++)</span></span>
+# <a name="find-method-example-vc"></a><span data-ttu-id="30d94-102">Пример использования метода Find (VC++)</span><span class="sxs-lookup"><span data-stu-id="30d94-102">Find method example (VC++)</span></span>
 
 
-<span data-ttu-id="467d4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="467d4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="30d94-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="30d94-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="467d4-104">В этом примере используется метод [Find](find-method-ado.md) объекта [Recordset](recordset-object-ado.md) для обнаружения и подсчета количества названий бизнес-названий в базе данных ***pubs*** .</span><span class="sxs-lookup"><span data-stu-id="467d4-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="467d4-105">В этом примере предполагается, что базовый поставщик не поддерживает аналогичные функции.</span><span class="sxs-lookup"><span data-stu-id="467d4-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="30d94-104">В этом примере используется метод [Find](recordset-object-ado.md) объекта [Recordset](find-method-ado.md) для поиска и подсчета количества названий бизнеса в ***базе данных Pubs.***</span><span class="sxs-lookup"><span data-stu-id="30d94-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="30d94-105">В примере предполагается, что основной поставщик не поддерживает аналогичные функции.</span><span class="sxs-lookup"><span data-stu-id="30d94-105">The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```cpp 
  
@@ -188,7 +188,7 @@ void PrintComError(_com_error &e)
 // EndFindCpp 
 ```
 
-<span data-ttu-id="467d4-106">**Финдкс. h**</span><span class="sxs-lookup"><span data-stu-id="467d4-106">**FindX.h**</span></span>
+<span data-ttu-id="30d94-106">**FindX.h**</span><span class="sxs-lookup"><span data-stu-id="30d94-106">**FindX.h**</span></span>
 
 ```cpp 
  

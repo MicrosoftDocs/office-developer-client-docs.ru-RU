@@ -18,27 +18,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293018"
 ---
-# <a name="fieldsize-property-dao"></a><span data-ttu-id="e9bd2-102">Свойство Field.Size (DAO)</span><span class="sxs-lookup"><span data-stu-id="e9bd2-102">Field.Size property (DAO)</span></span>
+# <a name="fieldsize-property-dao"></a><span data-ttu-id="e96de-102">Свойство Field.Size (DAO)</span><span class="sxs-lookup"><span data-stu-id="e96de-102">Field.Size property (DAO)</span></span>
 
 
-<span data-ttu-id="e9bd2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e9bd2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e96de-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e96de-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="e9bd2-104">Задает или возвращает значение, которое указывает максимальный размер объекта **[field](field-object-dao.md)** в байтах.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-104">Sets or returns a value that indicates the maximum size, in bytes, of a **[Field](field-object-dao.md)** object.</span></span>
+<span data-ttu-id="e96de-104">Задает или возвращает значение, которое указывает максимальный размер объекта **[Field](field-object-dao.md)** (в bytes).</span><span class="sxs-lookup"><span data-stu-id="e96de-104">Sets or returns a value that indicates the maximum size, in bytes, of a **[Field](field-object-dao.md)** object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e9bd2-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e9bd2-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e96de-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e96de-105">Syntax</span></span>
 
-<span data-ttu-id="e9bd2-106">*Expression* . Размер</span><span class="sxs-lookup"><span data-stu-id="e9bd2-106">*expression* .Size</span></span>
+<span data-ttu-id="e96de-106">*выражение .* Размер</span><span class="sxs-lookup"><span data-stu-id="e96de-106">*expression* .Size</span></span>
 
-<span data-ttu-id="e9bd2-107">*выражение*: переменная, представляющая объект **Field**.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-107">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="e96de-107">*выражение*: переменная, представляющая объект **Field**.</span><span class="sxs-lookup"><span data-stu-id="e96de-107">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="e9bd2-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="e9bd2-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e96de-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="e96de-108">Remarks</span></span>
 
-<span data-ttu-id="e9bd2-109">Для объекта, который еще не добавлен в коллекцию **[Fields](fields-collection-dao.md)** , это свойство доступно для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-109">For an object not yet appended to the **[Fields](fields-collection-dao.md)** collection, this property is read/write.</span></span>
+<span data-ttu-id="e96de-109">Для объекта, еще не примежаемого к коллекции **[Fields,](fields-collection-dao.md)** это свойство доступно для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="e96de-109">For an object not yet appended to the **[Fields](fields-collection-dao.md)** collection, this property is read/write.</span></span>
 
-<span data-ttu-id="e9bd2-110">Для полей (отличных от полей типа MEMO), содержащих символьные данные, свойство **size** указывает максимальное число знаков, которое может содержать поле.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-110">For fields (other than Memo type fields) that contain character data, the **Size** property indicates the maximum number of characters that the field can hold.</span></span> <span data-ttu-id="e9bd2-111">Для числовых полей свойство **size** указывает, сколько байтов хранения необходимо.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-111">For numeric fields, the **Size** property indicates how many bytes of storage are required.</span></span>
+<span data-ttu-id="e96de-110">Для полей (кроме полей типа Memo), содержащих данные символов, свойство **Size** указывает максимальное число символов, которые могут содержаться в поле.</span><span class="sxs-lookup"><span data-stu-id="e96de-110">For fields (other than Memo type fields) that contain character data, the **Size** property indicates the maximum number of characters that the field can hold.</span></span> <span data-ttu-id="e96de-111">Для числовых полей свойство **Size** указывает количество необходимых для хранения данных.</span><span class="sxs-lookup"><span data-stu-id="e96de-111">For numeric fields, the **Size** property indicates how many bytes of storage are required.</span></span>
 
-<span data-ttu-id="e9bd2-112">Использование свойства **size** зависит от объекта, содержащего коллекцию **Fields** , к которой добавляется объект **field** , как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-112">Use of the **Size** property depends on the object that contains the **Fields** collection to which the **Field** object is appended, as shown in the following table.</span></span>
+<span data-ttu-id="e96de-112">Использование свойства **Size** зависит от объекта, который содержит коллекцию **Fields,** к которой применится объект **Field,** как показано в следующей таблице.</span><span class="sxs-lookup"><span data-stu-id="e96de-112">Use of the **Size** property depends on the object that contains the **Fields** collection to which the **Field** object is appended, as shown in the following table.</span></span>
 
 <table>
 <colgroup>
@@ -47,42 +47,42 @@ ms.locfileid: "32293018"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="e9bd2-113">Объект, добавленный в</span><span class="sxs-lookup"><span data-stu-id="e9bd2-113">Object appended to</span></span></p></th>
-<th><p><span data-ttu-id="e9bd2-114">Применение</span><span class="sxs-lookup"><span data-stu-id="e9bd2-114">Usage</span></span></p></th>
+<th><p><span data-ttu-id="e96de-113">Объект, к</span><span class="sxs-lookup"><span data-stu-id="e96de-113">Object appended to</span></span></p></th>
+<th><p><span data-ttu-id="e96de-114">Использование</span><span class="sxs-lookup"><span data-stu-id="e96de-114">Usage</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="e9bd2-115"><strong>Индекс</strong></span><span class="sxs-lookup"><span data-stu-id="e9bd2-115"><strong>Index</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9bd2-116">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="e9bd2-116">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="e96de-115"><strong>Индекс</strong></span><span class="sxs-lookup"><span data-stu-id="e96de-115"><strong>Index</strong></span></span></p></td>
+<td><p><span data-ttu-id="e96de-116">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="e96de-116">Not supported</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e9bd2-117"><strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="e9bd2-117"><strong>QueryDef</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9bd2-118">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="e9bd2-118">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="e96de-117"><strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="e96de-117"><strong>QueryDef</strong></span></span></p></td>
+<td><p><span data-ttu-id="e96de-118">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="e96de-118">Read-only</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e9bd2-119"><strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="e9bd2-119"><strong>Recordset</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9bd2-120">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="e9bd2-120">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="e96de-119"><strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="e96de-119"><strong>Recordset</strong></span></span></p></td>
+<td><p><span data-ttu-id="e96de-120">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="e96de-120">Read-only</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="e9bd2-121"><strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="e9bd2-121"><strong>Relation</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9bd2-122">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="e9bd2-122">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="e96de-121"><strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="e96de-121"><strong>Relation</strong></span></span></p></td>
+<td><p><span data-ttu-id="e96de-122">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="e96de-122">Not supported</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="e9bd2-123"><strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="e9bd2-123"><strong>TableDef</strong></span></span></p></td>
-<td><p><span data-ttu-id="e9bd2-124">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="e9bd2-124">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="e96de-123"><strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="e96de-123"><strong>TableDef</strong></span></span></p></td>
+<td><p><span data-ttu-id="e96de-124">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="e96de-124">Read-only</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="e9bd2-125">При создании объекта **field** с типом данных, отличным от Text, параметр свойства **[Type](field-type-property-dao.md)** автоматически определяет значение свойства **size** ; задавать его не нужно.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-125">When you create a **Field** object with a data type other than Text, the **[Type](field-type-property-dao.md)** property setting automatically determines the **Size** property setting; you don't need to set it.</span></span> <span data-ttu-id="e9bd2-126">Однако для объекта **field** с типом данных text **можно задать любое** целое число вплоть до максимального размера текста (255 для баз данных Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="e9bd2-126">For a **Field** object with the Text data type, however, you can set **Size** to any integer up to the maximum text size (255 for Microsoft Access databases).</span></span> <span data-ttu-id="e9bd2-127">Если размер не задан, размер поля будет максимально велик для базы данных.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-127">If you do not set the size, the field will be as large as the database allows.</span></span>
+<span data-ttu-id="e96de-125">При создании объекта **Field** с типом данных, не текстовым, параметр свойства **[Type](field-type-property-dao.md)** автоматически определяет параметр свойства **Size;** вам не нужно его устанавливать.</span><span class="sxs-lookup"><span data-stu-id="e96de-125">When you create a **Field** object with a data type other than Text, the **[Type](field-type-property-dao.md)** property setting automatically determines the **Size** property setting; you don't need to set it.</span></span> <span data-ttu-id="e96de-126">Однако для **объекта Field** с текстовым типом данных можно установить значение **Size** в любое число до максимального размера текста (255 для баз данных Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="e96de-126">For a **Field** object with the Text data type, however, you can set **Size** to any integer up to the maximum text size (255 for Microsoft Access databases).</span></span> <span data-ttu-id="e96de-127">Если размер не установлен, поле будет иметь тот же размер, что и в базе данных.</span><span class="sxs-lookup"><span data-stu-id="e96de-127">If you do not set the size, the field will be as large as the database allows.</span></span>
 
-<span data-ttu-id="e9bd2-128">Для больших двоичных объектов и **полей** MEMO **Размер** всегда устанавливается равным 0.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-128">For Long Binary and Memo **Field** objects, **Size** is always set to 0.</span></span> <span data-ttu-id="e9bd2-129">Используйте свойство **[FieldSize](field-fieldsize-property-dao.md)** объекта **field** , чтобы определить размер данных в определенной записи.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-129">Use the **[FieldSize](field-fieldsize-property-dao.md)** property of the **Field** object to determine the size of the data in a specific record.</span></span> <span data-ttu-id="e9bd2-130">Максимальный размер длинного двоичного поля или поля MEMO ограничен только системными ресурсами или максимальным размером, разрешенным в базе данных.</span><span class="sxs-lookup"><span data-stu-id="e9bd2-130">The maximum size of a Long Binary or Memo field is limited only by your system resources or the maximum size that the database allows.</span></span>
+<span data-ttu-id="e96de-128">Для объектов Long Binary и  Memo **Field** размер всегда имеет 0.</span><span class="sxs-lookup"><span data-stu-id="e96de-128">For Long Binary and Memo **Field** objects, **Size** is always set to 0.</span></span> <span data-ttu-id="e96de-129">Используйте свойство **[FieldSize](field-fieldsize-property-dao.md)** объекта **Field,** чтобы определить размер данных в определенной записи.</span><span class="sxs-lookup"><span data-stu-id="e96de-129">Use the **[FieldSize](field-fieldsize-property-dao.md)** property of the **Field** object to determine the size of the data in a specific record.</span></span> <span data-ttu-id="e96de-130">Максимальный размер поля Long Binary или Memo ограничивается только системным ресурсом или максимальным размером, допустимым базой данных.</span><span class="sxs-lookup"><span data-stu-id="e96de-130">The maximum size of a Long Binary or Memo field is limited only by your system resources or the maximum size that the database allows.</span></span>
 
-## <a name="example"></a><span data-ttu-id="e9bd2-131">Пример</span><span class="sxs-lookup"><span data-stu-id="e9bd2-131">Example</span></span>
+## <a name="example"></a><span data-ttu-id="e96de-131">Пример</span><span class="sxs-lookup"><span data-stu-id="e96de-131">Example</span></span>
 
-<span data-ttu-id="e9bd2-132">В этом примере показано свойство **size** , которое перечисляет имена и размеры объектов **field** в таблице Employees (сотрудники).</span><span class="sxs-lookup"><span data-stu-id="e9bd2-132">This example demonstrates the **Size** property by enumerating the names and sizes of the **Field** objects in the Employees table.</span></span>
+<span data-ttu-id="e96de-132">В этом примере показано свойство **Size** путем нумерации имен и размеров объектов **Field** в таблице Employees.</span><span class="sxs-lookup"><span data-stu-id="e96de-132">This example demonstrates the **Size** property by enumerating the names and sizes of the **Field** objects in the Employees table.</span></span>
 
 ```vb
     Sub SizeX() 

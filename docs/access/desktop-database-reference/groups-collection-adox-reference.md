@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292064"
 ---
-# <a name="groups-collection-adox-reference"></a><span data-ttu-id="4f75c-102">Справочник по коллекции Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="4f75c-102">Groups collection (ADOX) reference</span></span>
+# <a name="groups-collection-adox-reference"></a><span data-ttu-id="fd949-102">Справочник по коллекции Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fd949-102">Groups collection (ADOX) reference</span></span>
 
-<span data-ttu-id="4f75c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4f75c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fd949-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fd949-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="4f75c-104">Коллекция Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="4f75c-104">Groups collection (ADOX)</span></span>](groups-collection-adox.md)
-- [<span data-ttu-id="4f75c-105">Свойства, методы и события коллекции Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="4f75c-105">Groups collection properties, methods, and events (ADOX)</span></span>](groups-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="fd949-104">Коллекция Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fd949-104">Groups collection (ADOX)</span></span>](groups-collection-adox.md)
+- [<span data-ttu-id="fd949-105">Свойства, методы и события коллекции Groups (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fd949-105">Groups collection properties, methods, and events (ADOX)</span></span>](groups-collection-properties-methods-and-events-adox.md)
 

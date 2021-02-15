@@ -1,5 +1,5 @@
 ---
-title: Свойство Field2.Name (DAO)
+title: Field2.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 6f84ca11-4e7c-9573-5261-b67b91ba30dc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195585(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292757"
 ---
-# <a name="field2name-property-dao"></a><span data-ttu-id="d8893-102">Свойство Field2.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="d8893-102">Field2.Name property (DAO)</span></span>
+# <a name="field2name-property-dao"></a><span data-ttu-id="529e8-102">Field2.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="529e8-102">Field2.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="d8893-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d8893-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="529e8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="529e8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d8893-104">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="d8893-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="d8893-105">**Строка** для чтения и записи, если объект не был добавлен в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="d8893-105">Read/write **String** if the object has not been appended to a collection.</span></span> <span data-ttu-id="d8893-106">**Строка** , доступная только для чтения, если объект добавлен в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="d8893-106">Read-only **String** if the object has been appended to a collection.</span></span>
+<span data-ttu-id="529e8-104">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="529e8-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="529e8-105">Строка **чтения** и записи, если объект не был appended к коллекции.</span><span class="sxs-lookup"><span data-stu-id="529e8-105">Read/write **String** if the object has not been appended to a collection.</span></span> <span data-ttu-id="529e8-106">Строка только **для** чтения, если объект был appended к коллекции.</span><span class="sxs-lookup"><span data-stu-id="529e8-106">Read-only **String** if the object has been appended to a collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d8893-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d8893-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="529e8-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="529e8-107">Syntax</span></span>
 
-<span data-ttu-id="d8893-108">*Expression* . Расширением</span><span class="sxs-lookup"><span data-stu-id="d8893-108">*expression* .Name</span></span>
+<span data-ttu-id="529e8-108">*выражение .* Имя</span><span class="sxs-lookup"><span data-stu-id="529e8-108">*expression* .Name</span></span>
 
-<span data-ttu-id="d8893-109">*expression* — переменная, представляющая объект **Field2**.</span><span class="sxs-lookup"><span data-stu-id="d8893-109">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="529e8-109">*expression* — переменная, представляющая объект **Field2**.</span><span class="sxs-lookup"><span data-stu-id="529e8-109">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d8893-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="d8893-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="529e8-110">Заметки</span><span class="sxs-lookup"><span data-stu-id="529e8-110">Remarks</span></span>
 
-<span data-ttu-id="d8893-111">Максимальная длина имени объекта **field2** составляет 64 символов.</span><span class="sxs-lookup"><span data-stu-id="d8893-111">The maximum length for the name of a **Field2** object is 64 characters.</span></span>
+<span data-ttu-id="529e8-111">Максимальная длина имени объекта **Field2** составляет 64 символа.</span><span class="sxs-lookup"><span data-stu-id="529e8-111">The maximum length for the name of a **Field2** object is 64 characters.</span></span>
 

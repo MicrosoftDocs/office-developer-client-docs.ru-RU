@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293072"
 ---
-# <a name="field-object-ado-reference"></a><span data-ttu-id="93ab0-102">Справочник по объекту Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="93ab0-102">Field object (ADO) reference</span></span>
+# <a name="field-object-ado-reference"></a><span data-ttu-id="40437-102">Справочник по объекту Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="40437-102">Field object (ADO) reference</span></span>
 
-<span data-ttu-id="93ab0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="93ab0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="40437-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="40437-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="93ab0-104">Объект Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="93ab0-104">Field object (ADO)</span></span>](field-object-ado.md)
-- [<span data-ttu-id="93ab0-105">Свойства, методы и события поля (ADO)</span><span class="sxs-lookup"><span data-stu-id="93ab0-105">Field properties, methods, and events (ADO)</span></span>](field-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="40437-104">Объект Field (ADO)</span><span class="sxs-lookup"><span data-stu-id="40437-104">Field object (ADO)</span></span>](field-object-ado.md)
+- [<span data-ttu-id="40437-105">Свойства, методы и события поля (ADO)</span><span class="sxs-lookup"><span data-stu-id="40437-105">Field properties, methods, and events (ADO)</span></span>](field-properties-methods-and-events-ado.md)
 

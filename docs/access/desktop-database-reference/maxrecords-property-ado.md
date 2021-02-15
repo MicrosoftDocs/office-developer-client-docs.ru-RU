@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289723"
 ---
-# <a name="maxrecords-property-ado"></a><span data-ttu-id="ad6c6-102">Свойство MaxRecords (ADO)</span><span class="sxs-lookup"><span data-stu-id="ad6c6-102">MaxRecords property (ADO)</span></span>
+# <a name="maxrecords-property-ado"></a><span data-ttu-id="0f989-102">Свойство MaxRecords (ADO)</span><span class="sxs-lookup"><span data-stu-id="0f989-102">MaxRecords property (ADO)</span></span>
 
 
-<span data-ttu-id="ad6c6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad6c6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0f989-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0f989-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ad6c6-104">Указывает максимальное число записей, возвращаемых в [набор записей](recordset-object-ado.md) из запроса.</span><span class="sxs-lookup"><span data-stu-id="ad6c6-104">Indicates the maximum number of records to return to a [Recordset](recordset-object-ado.md) from a query.</span></span>
+<span data-ttu-id="0f989-104">Указывает максимальное число записей, возвращаемого набору [записей](recordset-object-ado.md) из запроса.</span><span class="sxs-lookup"><span data-stu-id="0f989-104">Indicates the maximum number of records to return to a [Recordset](recordset-object-ado.md) from a query.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="ad6c6-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="ad6c6-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="0f989-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="0f989-105">Settings and return values</span></span>
 
-<span data-ttu-id="ad6c6-106">Задает или возвращает значение **типа Long** , которое указывает максимальное число возвращаемых записей.</span><span class="sxs-lookup"><span data-stu-id="ad6c6-106">Sets or returns a **Long** value that indicates the maximum number of records to return.</span></span> <span data-ttu-id="ad6c6-107">Значение по умолчанию — ноль (без ограничений).</span><span class="sxs-lookup"><span data-stu-id="ad6c6-107">Default is zero (no limit).</span></span>
+<span data-ttu-id="0f989-106">Задает или возвращает **длинное** значение, которое указывает максимальное число возвращаемой записи.</span><span class="sxs-lookup"><span data-stu-id="0f989-106">Sets or returns a **Long** value that indicates the maximum number of records to return.</span></span> <span data-ttu-id="0f989-107">Значение по умолчанию — ноль (без ограничений).</span><span class="sxs-lookup"><span data-stu-id="0f989-107">Default is zero (no limit).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="ad6c6-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="ad6c6-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0f989-108">Заметки</span><span class="sxs-lookup"><span data-stu-id="0f989-108">Remarks</span></span>
 
-<span data-ttu-id="ad6c6-109">Используйте свойство **maxRecords** , чтобы ограничить количество записей, возвращаемых поставщиком из источника данных.</span><span class="sxs-lookup"><span data-stu-id="ad6c6-109">Use the **MaxRecords** property to limit the number of records that the provider returns from the data source.</span></span> <span data-ttu-id="ad6c6-110">Значение по умолчанию для этого свойства равно нулю, что означает, что поставщик возвращает все запрошенные записи.</span><span class="sxs-lookup"><span data-stu-id="ad6c6-110">The default setting of this property is zero, which means the provider returns all requested records.</span></span>
+<span data-ttu-id="0f989-109">Используйте свойство **MaxRecords,** чтобы ограничить число записей, которые поставщик возвращает из источника данных.</span><span class="sxs-lookup"><span data-stu-id="0f989-109">Use the **MaxRecords** property to limit the number of records that the provider returns from the data source.</span></span> <span data-ttu-id="0f989-110">Значение по умолчанию для этого свойства — ноль, то есть поставщик возвращает все запрашиваемую запись.</span><span class="sxs-lookup"><span data-stu-id="0f989-110">The default setting of this property is zero, which means the provider returns all requested records.</span></span>
 
-<span data-ttu-id="ad6c6-111">Свойство **maxRecords** доступно для чтения и записи, когда **набор записей** закрывается и только для чтения, когда он открыт.</span><span class="sxs-lookup"><span data-stu-id="ad6c6-111">The **MaxRecords** property is read/write when the **Recordset** is closed and read-only when it is open.</span></span>
+<span data-ttu-id="0f989-111">Свойство **MaxRecords** считывать и записывать, когда набор **записей** закрыт и открыт только для чтения.</span><span class="sxs-lookup"><span data-stu-id="0f989-111">The **MaxRecords** property is read/write when the **Recordset** is closed and read-only when it is open.</span></span>
 

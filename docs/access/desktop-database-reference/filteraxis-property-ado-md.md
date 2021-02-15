@@ -1,5 +1,5 @@
 ---
-title: Свойство FilterAxis (ADO MD)
+title: FilterAxis property (ADO MD)
 TOCTitle: FilterAxis property (ADO MD)
 ms:assetid: 36720d77-4b16-1d17-6d80-d35265f4a8ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249124(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292456"
 ---
-# <a name="filteraxis-property-ado-md"></a><span data-ttu-id="e3138-102">Свойство FilterAxis (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="e3138-102">FilterAxis property (ADO MD)</span></span>
+# <a name="filteraxis-property-ado-md"></a><span data-ttu-id="25391-102">FilterAxis property (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="25391-102">FilterAxis property (ADO MD)</span></span>
 
 
-<span data-ttu-id="e3138-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e3138-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="25391-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="25391-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e3138-104">Показывает данные фильтра о текущем наборе ячеек.</span><span class="sxs-lookup"><span data-stu-id="e3138-104">Indicates filter information about the current cellset.</span></span>
+<span data-ttu-id="25391-104">Указывает сведения фильтра о текущем ячеек.</span><span class="sxs-lookup"><span data-stu-id="25391-104">Indicates filter information about the current cellset.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="e3138-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="e3138-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="25391-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="25391-105">Return values</span></span>
 
-<span data-ttu-id="e3138-106">Возвращает объект [Axis](axis-object-ado-md.md) и доступен только для чтения.</span><span class="sxs-lookup"><span data-stu-id="e3138-106">Returns an [Axis](axis-object-ado-md.md) object, and is read-only.</span></span>
+<span data-ttu-id="25391-106">Возвращает объект [Axis](axis-object-ado-md.md) и является только для чтения.</span><span class="sxs-lookup"><span data-stu-id="25391-106">Returns an [Axis](axis-object-ado-md.md) object, and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="e3138-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="e3138-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="25391-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="25391-107">Remarks</span></span>
 
-<span data-ttu-id="e3138-108">Используйте свойство **FilterAxis** , чтобы получить сведения об измерениях, использованных для среза данных.</span><span class="sxs-lookup"><span data-stu-id="e3138-108">Use the **FilterAxis** property to return information about the dimensions that were used to slice the data.</span></span> <span data-ttu-id="e3138-109">Свойство [DimensionCount](dimensioncount-property-ado-md.md) **оси** возвращает число измерений среза.</span><span class="sxs-lookup"><span data-stu-id="e3138-109">The [DimensionCount](dimensioncount-property-ado-md.md) property of the **Axis** returns the number of slicer dimensions.</span></span> <span data-ttu-id="e3138-110">Эта ось обычно содержит только одну строку.</span><span class="sxs-lookup"><span data-stu-id="e3138-110">This axis usually has just one row.</span></span>
+<span data-ttu-id="25391-108">Используйте свойство **FilterAxis** для возврата сведений об измерениях, которые использовались для фрагментов данных.</span><span class="sxs-lookup"><span data-stu-id="25391-108">Use the **FilterAxis** property to return information about the dimensions that were used to slice the data.</span></span> <span data-ttu-id="25391-109">Свойство [DimensionCount](dimensioncount-property-ado-md.md) **оси** возвращает количество размеров среза.</span><span class="sxs-lookup"><span data-stu-id="25391-109">The [DimensionCount](dimensioncount-property-ado-md.md) property of the **Axis** returns the number of slicer dimensions.</span></span> <span data-ttu-id="25391-110">На этой оси обычно имеется только одна строка.</span><span class="sxs-lookup"><span data-stu-id="25391-110">This axis usually has just one row.</span></span>
 
-<span data-ttu-id="e3138-111">**Ось** , возвращаемая методом [FilterAxis](filteraxis-property-ado-md.md) , не входит в коллекцию [осей](axes-collection-ado-md.md) для объекта набора [ячеек](cellset-object-ado-md.md) .</span><span class="sxs-lookup"><span data-stu-id="e3138-111">The **Axis** returned by [FilterAxis](filteraxis-property-ado-md.md) is not contained in the [Axes](axes-collection-ado-md.md) collection for a [Cellset](cellset-object-ado-md.md) object.</span></span>
+<span data-ttu-id="25391-111">**Ось,** возвращаемая [FilterAxis,](filteraxis-property-ado-md.md) не содержится в коллекции [Axes](axes-collection-ado-md.md) для объекта [Cellset.](cellset-object-ado-md.md)</span><span class="sxs-lookup"><span data-stu-id="25391-111">The **Axis** returned by [FilterAxis](filteraxis-property-ado-md.md) is not contained in the [Axes](axes-collection-ado-md.md) collection for a [Cellset](cellset-object-ado-md.md) object.</span></span>
 

@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291165"
 ---
-# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="2c762-102">Пример использования свойств IsolationLevel и Mode (VJ++)</span><span class="sxs-lookup"><span data-stu-id="2c762-102">IsolationLevel and Mode properties example (VJ++)</span></span>
+# <a name="isolationlevel-and-mode-properties-example-vj"></a><span data-ttu-id="52b75-102">Пример использования свойств IsolationLevel и Mode (VJ++)</span><span class="sxs-lookup"><span data-stu-id="52b75-102">IsolationLevel and Mode properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="2c762-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c762-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="52b75-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="52b75-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2c762-104">В этом примере используется свойство [mode](mode-property-ado.md) для открытия монопольного подключения, а свойство [IsolationLevel](isolationlevel-property-ado.md) — для открытия транзакции, которая выполняется в изоляции других транзакций.</span><span class="sxs-lookup"><span data-stu-id="2c762-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
+<span data-ttu-id="52b75-104">В этом примере свойство [Mode](mode-property-ado.md) используется для открытия монопольного подключения, а свойство [IsolationLevel](isolationlevel-property-ado.md) — для открытия транзакции, которая проводится в изоляции от других транзакций.</span><span class="sxs-lookup"><span data-stu-id="52b75-104">This example uses the [Mode](mode-property-ado.md) property to open an exclusive connection, and the [IsolationLevel](isolationlevel-property-ado.md) property to open a transaction that is conducted in isolation of other transactions.</span></span>
 
 ```java 
  

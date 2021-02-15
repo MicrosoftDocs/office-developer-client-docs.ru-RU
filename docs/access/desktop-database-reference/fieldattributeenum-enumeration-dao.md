@@ -1,5 +1,5 @@
 ---
-title: Перечисление Фиелдаттрибутинум (DAO)
+title: FieldAttributeEnum enumeration (DAO)
 TOCTitle: FieldAttributeEnum Enumeration
 ms:assetid: 2dc6697c-d3e1-ce76-1b8b-fc60dc6f16a9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192118(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292638"
 ---
-# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="81be9-102">Перечисление Фиелдаттрибутинум (DAO)</span><span class="sxs-lookup"><span data-stu-id="81be9-102">FieldAttributeEnum enumeration (DAO)</span></span>
+# <a name="fieldattributeenum-enumeration-dao"></a><span data-ttu-id="cc128-102">FieldAttributeEnum enumeration (DAO)</span><span class="sxs-lookup"><span data-stu-id="cc128-102">FieldAttributeEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="81be9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="81be9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cc128-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc128-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="81be9-104">Подлежит уточнению.</span><span class="sxs-lookup"><span data-stu-id="81be9-104">TBD</span></span>
+<span data-ttu-id="cc128-104">Подлежит уточнению.</span><span class="sxs-lookup"><span data-stu-id="cc128-104">TBD</span></span>
 

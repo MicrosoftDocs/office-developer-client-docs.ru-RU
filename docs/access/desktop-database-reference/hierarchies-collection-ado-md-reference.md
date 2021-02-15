@@ -1,5 +1,5 @@
 ---
-title: Коллекция иерархий (справочные материалы по ADO MD)
+title: Hierarchies collection (ADO MD reference)
 TOCTitle: Hierarchies collection (ADO MD)
 ms:assetid: d073a1ca-0f5a-48e0-84da-6a3c62c8cda9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250040(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291987"
 ---
-# <a name="hierarchies-collection-ado-md-reference"></a><span data-ttu-id="4567c-102">Коллекция иерархий (справочные материалы по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4567c-102">Hierarchies collection (ADO MD reference)</span></span>
+# <a name="hierarchies-collection-ado-md-reference"></a><span data-ttu-id="db933-102">Hierarchies collection (ADO MD reference)</span><span class="sxs-lookup"><span data-stu-id="db933-102">Hierarchies collection (ADO MD reference)</span></span>
 
-<span data-ttu-id="4567c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4567c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="db933-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="db933-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="4567c-104">Коллекция иерархий (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4567c-104">Hierarchies collection (ADO MD)</span></span>](hierarchies-collection-ado-md.md)
-- [<span data-ttu-id="4567c-105">Свойства, методы и события коллекции иерархий (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="4567c-105">Hierarchies collection properties, methods, and events (ADO MD)</span></span>](hierarchies-collection-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="db933-104">Hierarchies collection (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="db933-104">Hierarchies collection (ADO MD)</span></span>](hierarchies-collection-ado-md.md)
+- [<span data-ttu-id="db933-105">Hierarchies collection properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="db933-105">Hierarchies collection properties, methods, and events (ADO MD)</span></span>](hierarchies-collection-properties-methods-and-events-ado-md.md)
 

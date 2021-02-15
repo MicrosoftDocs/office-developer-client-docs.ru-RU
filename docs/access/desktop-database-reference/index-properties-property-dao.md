@@ -1,5 +1,5 @@
 ---
-title: Свойство index. Properties (DAO)
+title: Свойство Index.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 88990fdf-75a4-f750-ba3a-e26f11155a89
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197056(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291722"
 ---
-# <a name="indexproperties-property-dao"></a><span data-ttu-id="1e9b8-102">Свойство index. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="1e9b8-102">Index.Properties property (DAO)</span></span>
+# <a name="indexproperties-property-dao"></a><span data-ttu-id="a267a-102">Свойство Index.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="a267a-102">Index.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="1e9b8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1e9b8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a267a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a267a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="1e9b8-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="1e9b8-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="1e9b8-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="1e9b8-105">Read-only.</span></span>
+<span data-ttu-id="a267a-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="a267a-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="a267a-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a267a-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="1e9b8-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="1e9b8-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a267a-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a267a-106">Syntax</span></span>
 
-<span data-ttu-id="1e9b8-107">*Expression* . Параметры</span><span class="sxs-lookup"><span data-stu-id="1e9b8-107">*expression* .Properties</span></span>
+<span data-ttu-id="a267a-107">*выражение .* Свойства</span><span class="sxs-lookup"><span data-stu-id="a267a-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="1e9b8-108">*Expression (выражение* ) Переменная, представляющая объект **индекса** .</span><span class="sxs-lookup"><span data-stu-id="1e9b8-108">*expression* A variable that represents an **Index** object.</span></span>
+<span data-ttu-id="a267a-108">*выражение* Переменная, представляюная объект **Index.**</span><span class="sxs-lookup"><span data-stu-id="a267a-108">*expression* A variable that represents an **Index** object.</span></span>
 

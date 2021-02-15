@@ -1,5 +1,5 @@
 ---
-title: Справочник по коллекциям indexes (ADOX)
+title: Справочник по коллекции Indexes (ADOX)
 TOCTitle: Indexes collection (ADOX)
 ms:assetid: 2eaf8405-7907-4fa4-92bc-ed7b0c829b42
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249075(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291575"
 ---
-# <a name="indexes-collection-adox-reference"></a><span data-ttu-id="992b7-102">Справочник по коллекциям indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="992b7-102">Indexes collection (ADOX) reference</span></span>
+# <a name="indexes-collection-adox-reference"></a><span data-ttu-id="e43ea-102">Справочник по коллекции Indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e43ea-102">Indexes collection (ADOX) reference</span></span>
 
-<span data-ttu-id="992b7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="992b7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e43ea-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e43ea-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="992b7-104">Коллекция indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="992b7-104">Indexes collection (ADOX)</span></span>](indexes-collection-adox.md)
-- [<span data-ttu-id="992b7-105">Свойства, методы и события коллекции indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="992b7-105">Indexes collection properties, methods, and events (ADOX)</span></span>](indexes-collection-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="e43ea-104">Коллекция Indexes (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e43ea-104">Indexes collection (ADOX)</span></span>](indexes-collection-adox.md)
+- [<span data-ttu-id="e43ea-105">Indexes collection properties, methods, and events (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e43ea-105">Indexes collection properties, methods, and events (ADOX)</span></span>](indexes-collection-properties-methods-and-events-adox.md)
 

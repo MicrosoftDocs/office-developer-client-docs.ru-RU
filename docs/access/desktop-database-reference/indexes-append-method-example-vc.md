@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291599"
 ---
-# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="a352d-102">Пример использования метода Append для коллекции Indexes (VC++)</span><span class="sxs-lookup"><span data-stu-id="a352d-102">Indexes Append method example (VC++)</span></span>
+# <a name="indexes-append-method-example-vc"></a><span data-ttu-id="c385e-102">Пример использования метода Append для коллекции Indexes (VC++)</span><span class="sxs-lookup"><span data-stu-id="c385e-102">Indexes Append method example (VC++)</span></span>
 
 
-<span data-ttu-id="a352d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a352d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c385e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c385e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a352d-104">В приведенном ниже коде показано, как создать новый индекс.</span><span class="sxs-lookup"><span data-stu-id="a352d-104">The following code demonstrates how to create a new index.</span></span> <span data-ttu-id="a352d-105">Индекс находится в двух столбцах таблицы.</span><span class="sxs-lookup"><span data-stu-id="a352d-105">The index is on two columns in the table.</span></span>
+<span data-ttu-id="c385e-104">В следующем коде показано, как создать новый индекс.</span><span class="sxs-lookup"><span data-stu-id="c385e-104">The following code demonstrates how to create a new index.</span></span> <span data-ttu-id="c385e-105">Индекс находится в двух столбцах таблицы.</span><span class="sxs-lookup"><span data-stu-id="c385e-105">The index is on two columns in the table.</span></span>
 
 ```cpp 
  

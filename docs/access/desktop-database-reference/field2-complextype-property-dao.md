@@ -1,5 +1,5 @@
 ---
-title: Свойство field2. ComplexType (DAO)
+title: Свойство Field2.ComplexType (DAO)
 TOCTitle: ComplexType Property
 ms:assetid: 9b4ebabf-22de-0ab8-73ea-10c496eedf97
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198034(v=office.15)
@@ -18,20 +18,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292855"
 ---
-# <a name="field2complextype-property-dao"></a><span data-ttu-id="702c8-102">Свойство field2. ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="702c8-102">Field2.ComplexType property (DAO)</span></span>
+# <a name="field2complextype-property-dao"></a><span data-ttu-id="9ebb0-102">Свойство Field2.ComplexType (DAO)</span><span class="sxs-lookup"><span data-stu-id="9ebb0-102">Field2.ComplexType property (DAO)</span></span>
 
 
-<span data-ttu-id="702c8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="702c8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9ebb0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9ebb0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="702c8-104">Возвращает объект **[complexType](complextype-object-dao.md)** , представляющий Многозначное поле.</span><span class="sxs-lookup"><span data-stu-id="702c8-104">Returns a **[ComplexType](complextype-object-dao.md)** object that represents a multi-valued field.</span></span> <span data-ttu-id="702c8-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="702c8-105">Read-only.</span></span>
+<span data-ttu-id="9ebb0-104">Возвращает объект **[ComplexType,](complextype-object-dao.md)** который представляет поле с несколькими значениями.</span><span class="sxs-lookup"><span data-stu-id="9ebb0-104">Returns a **[ComplexType](complextype-object-dao.md)** object that represents a multi-valued field.</span></span> <span data-ttu-id="9ebb0-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9ebb0-105">Read-only.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="702c8-106">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="702c8-106">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="9ebb0-106">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="9ebb0-106">Version information</span></span>
 
-<span data-ttu-id="702c8-107">Добавлен в версии: Access 2007</span><span class="sxs-lookup"><span data-stu-id="702c8-107">Version added: Access 2007</span></span>
+<span data-ttu-id="9ebb0-107">Добавлен в версии: Access 2007</span><span class="sxs-lookup"><span data-stu-id="9ebb0-107">Version added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="702c8-108">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="702c8-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9ebb0-108">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9ebb0-108">Syntax</span></span>
 
-<span data-ttu-id="702c8-109">*Expression* . Типу</span><span class="sxs-lookup"><span data-stu-id="702c8-109">*expression* .ComplexType</span></span>
+<span data-ttu-id="9ebb0-109">*выражение .* ComplexType</span><span class="sxs-lookup"><span data-stu-id="9ebb0-109">*expression* .ComplexType</span></span>
 
-<span data-ttu-id="702c8-110">*expression* — переменная, представляющая объект **Field2**.</span><span class="sxs-lookup"><span data-stu-id="702c8-110">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="9ebb0-110">*expression* — переменная, представляющая объект **Field2**.</span><span class="sxs-lookup"><span data-stu-id="9ebb0-110">*expression* A variable that represents a **Field2** object.</span></span>
 
