@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295473"
 ---
-# <a name="count-property-ado"></a><span data-ttu-id="3a1d0-102">Свойство Count (ADO)</span><span class="sxs-lookup"><span data-stu-id="3a1d0-102">Count property (ADO)</span></span>
+# <a name="count-property-ado"></a><span data-ttu-id="5bc7d-102">Свойство Count (ADO)</span><span class="sxs-lookup"><span data-stu-id="5bc7d-102">Count property (ADO)</span></span>
 
 
-<span data-ttu-id="3a1d0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3a1d0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5bc7d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5bc7d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="3a1d0-104">Указывает количество объектов в коллекции.</span><span class="sxs-lookup"><span data-stu-id="3a1d0-104">Indicates the number of objects in a collection.</span></span>
+<span data-ttu-id="5bc7d-104">Указывает количество объектов в коллекции.</span><span class="sxs-lookup"><span data-stu-id="5bc7d-104">Indicates the number of objects in a collection.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="3a1d0-105">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="3a1d0-105">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="5bc7d-105">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5bc7d-105">Return value</span></span>
 
-<span data-ttu-id="3a1d0-106">Возвращает значение **типа Long** .</span><span class="sxs-lookup"><span data-stu-id="3a1d0-106">Returns a **Long** value.</span></span>
+<span data-ttu-id="5bc7d-106">Возвращает **длинное** значение.</span><span class="sxs-lookup"><span data-stu-id="5bc7d-106">Returns a **Long** value.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="3a1d0-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="3a1d0-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5bc7d-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="5bc7d-107">Remarks</span></span>
 
-<span data-ttu-id="3a1d0-108">Используйте свойство **Count** для определения количества объектов в заданной коллекции.</span><span class="sxs-lookup"><span data-stu-id="3a1d0-108">Use the **Count** property to determine how many objects are in a given collection.</span></span>
+<span data-ttu-id="5bc7d-108">Используйте свойство **Count,** чтобы определить, сколько объектов находится в заданной коллекции.</span><span class="sxs-lookup"><span data-stu-id="5bc7d-108">Use the **Count** property to determine how many objects are in a given collection.</span></span>
 
-<span data-ttu-id="3a1d0-109">Так как нумерация элементов коллекции начинается с нуля, всегда следует всегда кодировать циклы, начиная с нулевого элемента и заканчивая значением свойства **Count** минус 1.</span><span class="sxs-lookup"><span data-stu-id="3a1d0-109">Because numbering for members of a collection begins with zero, you should always code loops starting with the zero member and ending with the value of the **Count** property minus 1.</span></span> <span data-ttu-id="3a1d0-110">Если вы используете Microsoft Visual Basic и хотите перебрать элементы коллекции, не проверяя свойство **Count** , используйте оператор **for** **Each... Следующая** команда.</span><span class="sxs-lookup"><span data-stu-id="3a1d0-110">If you are using Microsoft Visual Basic and want to loop through the members of a collection without checking the **Count** property, use the **For** **Each...Next** command.</span></span>
+<span data-ttu-id="5bc7d-109">Так как нуминг для членов коллекции начинается с нуля, необходимо всегда кодировать циклы, начиная с нулевого члена и заканчивая значением свойства **Count** минус 1.</span><span class="sxs-lookup"><span data-stu-id="5bc7d-109">Because numbering for members of a collection begins with zero, you should always code loops starting with the zero member and ending with the value of the **Count** property minus 1.</span></span> <span data-ttu-id="5bc7d-110">Если вы используете Microsoft Visual Basic и хотите перенабывать члены коллекции, не проверяя свойство **Count,** используйте свойство **For** **Each... Следующая** команда.</span><span class="sxs-lookup"><span data-stu-id="5bc7d-110">If you are using Microsoft Visual Basic and want to loop through the members of a collection without checking the **Count** property, use the **For** **Each...Next** command.</span></span>
 
-<span data-ttu-id="3a1d0-111">Если свойство **Count** равно нулю, в коллекции отсутствуют объекты.</span><span class="sxs-lookup"><span data-stu-id="3a1d0-111">If the **Count** property is zero, there are no objects in the collection.</span></span>
+<span data-ttu-id="5bc7d-111">Если свойство **Count** имеет нулевое значение, в коллекции нет объектов.</span><span class="sxs-lookup"><span data-stu-id="5bc7d-111">If the **Count** property is zero, there are no objects in the collection.</span></span>
 

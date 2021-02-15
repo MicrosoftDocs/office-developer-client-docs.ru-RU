@@ -14,28 +14,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293751"
 ---
-# <a name="documents-collection-dao"></a><span data-ttu-id="a2a01-102">Коллекция Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="a2a01-102">Documents collection (DAO)</span></span>
+# <a name="documents-collection-dao"></a><span data-ttu-id="3f9ba-102">Коллекция Documents (DAO)</span><span class="sxs-lookup"><span data-stu-id="3f9ba-102">Documents collection (DAO)</span></span>
 
 
-<span data-ttu-id="a2a01-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2a01-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3f9ba-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f9ba-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a2a01-104">Коллекция **Documents** содержит все объекты **документа** для определенного типа объекта (только базы данных ядра СУБД Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="a2a01-104">A **Documents** collection contains all of the **Document** objects for a specific type of object (Microsoft Access database engine databases only).</span></span>
+<span data-ttu-id="3f9ba-104">Коллекция **"Документы"** содержит все объекты **Document** для определенного типа объекта (только для баз данных яд баз данных Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="3f9ba-104">A **Documents** collection contains all of the **Document** objects for a specific type of object (Microsoft Access database engine databases only).</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="a2a01-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="a2a01-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3f9ba-105">Заметки</span><span class="sxs-lookup"><span data-stu-id="3f9ba-105">Remarks</span></span>
 
-<span data-ttu-id="a2a01-106">Каждый объект **Container** содержит коллекцию **Documents** , содержащую объекты **Document** , которые описывают экземпляры встроенных объектов типа, указанного в **контейнере**.</span><span class="sxs-lookup"><span data-stu-id="a2a01-106">Each **Container** object has a **Documents** collection containing **Document** objects that describe instances of built-in objects of the type specified by the **Container**.</span></span>
+<span data-ttu-id="3f9ba-106">Каждый **объект** Container имеет коллекцию **Documents,** содержащую объекты **Document,** которые описывают экземпляры встроенных объектов типа, указанного **контейнером.**</span><span class="sxs-lookup"><span data-stu-id="3f9ba-106">Each **Container** object has a **Documents** collection containing **Document** objects that describe instances of built-in objects of the type specified by the **Container**.</span></span>
 
-<span data-ttu-id="a2a01-107">Чтобы сослаться на объект **Document** в коллекции по его порядковому номеру или по его свойству **Name** , используйте любую из следующих синтаксических форм:</span><span class="sxs-lookup"><span data-stu-id="a2a01-107">To refer to a **Document** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
+<span data-ttu-id="3f9ba-107">Чтобы сослаться на **объект Document** в коллекции по порядковому номеру или по его свойству **Name,** используйте любую из следующих синтаксис форм:</span><span class="sxs-lookup"><span data-stu-id="3f9ba-107">To refer to a **Document** object in a collection by its ordinal number or by its **Name** property setting, use any of the following syntax forms:</span></span>
 
-  - <span data-ttu-id="a2a01-108">**Документы**(0)</span><span class="sxs-lookup"><span data-stu-id="a2a01-108">**Documents**(0)</span></span>
+  - <span data-ttu-id="3f9ba-108">**Документы**(0)</span><span class="sxs-lookup"><span data-stu-id="3f9ba-108">**Documents**(0)</span></span>
 
-  - <span data-ttu-id="a2a01-109">**Документы**("*имя*")</span><span class="sxs-lookup"><span data-stu-id="a2a01-109">**Documents**("*name*")</span></span>
+  - <span data-ttu-id="3f9ba-109">**Документы**("*имя")*</span><span class="sxs-lookup"><span data-stu-id="3f9ba-109">**Documents**("*name*")</span></span>
 
-  - <span data-ttu-id="a2a01-110">**Documents**\!\[*Имя* документа\]</span><span class="sxs-lookup"><span data-stu-id="a2a01-110">**Documents**\!\[*name*\]</span></span>
+  - <span data-ttu-id="3f9ba-110"> \! Документы \[ *name*\]</span><span class="sxs-lookup"><span data-stu-id="3f9ba-110">**Documents**\!\[*name*\]</span></span>
 
-## <a name="example"></a><span data-ttu-id="a2a01-111">Пример</span><span class="sxs-lookup"><span data-stu-id="a2a01-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="3f9ba-111">Пример</span><span class="sxs-lookup"><span data-stu-id="3f9ba-111">Example</span></span>
 
-<span data-ttu-id="a2a01-112">В этом примере выполняется перечисление коллекции **Documents** контейнера Tables, после чего выполняется перечисление коллекции **свойств** первого объекта **Document** в коллекции.</span><span class="sxs-lookup"><span data-stu-id="a2a01-112">This example enumerates the **Documents** collection of the Tables container, and then enumerates the **Properties** collection of the first **Document** object in the collection.</span></span>
+<span data-ttu-id="3f9ba-112">В этом примере включается enumerates the **Documents** collection of the Tables container, а затем — коллекция **Properties** первого объекта **Document** в коллекции.</span><span class="sxs-lookup"><span data-stu-id="3f9ba-112">This example enumerates the **Documents** collection of the Tables container, and then enumerates the **Properties** collection of the first **Document** object in the collection.</span></span>
 
 ```vb 
 Sub DocumentX() 

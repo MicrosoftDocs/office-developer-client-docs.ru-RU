@@ -1,5 +1,5 @@
 ---
-title: Едитмодинум (Справочник по базам данных Access на компьютере)
+title: EditModeEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: EditModeEnum
 ms:assetid: 4da0e504-aca2-b769-04a2-0df687fa4422
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249248(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293583"
 ---
-# <a name="editmodeenum"></a><span data-ttu-id="07d7a-102">EditModeEnum</span><span class="sxs-lookup"><span data-stu-id="07d7a-102">EditModeEnum</span></span>
+# <a name="editmodeenum"></a><span data-ttu-id="ecf8f-102">EditModeEnum</span><span class="sxs-lookup"><span data-stu-id="ecf8f-102">EditModeEnum</span></span>
 
-<span data-ttu-id="07d7a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="07d7a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ecf8f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ecf8f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="07d7a-104">Задает состояние редактирования записи.</span><span class="sxs-lookup"><span data-stu-id="07d7a-104">Specifies the editing status of a record.</span></span>
+<span data-ttu-id="ecf8f-104">Указывает состояние редактирования записи.</span><span class="sxs-lookup"><span data-stu-id="ecf8f-104">Specifies the editing status of a record.</span></span>
 
 <br/>
 
@@ -30,39 +30,39 @@ ms.locfileid: "32293583"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="07d7a-105">Константа</span><span class="sxs-lookup"><span data-stu-id="07d7a-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="07d7a-106">Значение</span><span class="sxs-lookup"><span data-stu-id="07d7a-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="07d7a-107">Описание</span><span class="sxs-lookup"><span data-stu-id="07d7a-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="ecf8f-105">Константа</span><span class="sxs-lookup"><span data-stu-id="ecf8f-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="ecf8f-106">Значение</span><span class="sxs-lookup"><span data-stu-id="ecf8f-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="ecf8f-107">Описание</span><span class="sxs-lookup"><span data-stu-id="ecf8f-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="07d7a-108"><strong>адедитноне</strong></span><span class="sxs-lookup"><span data-stu-id="07d7a-108"><strong>adEditNone</strong></span></span></p></td>
-<td><p><span data-ttu-id="07d7a-109">нуль</span><span class="sxs-lookup"><span data-stu-id="07d7a-109">0</span></span></p></td>
-<td><p><span data-ttu-id="07d7a-110">Указывает, что операции редактирования не выполняются.</span><span class="sxs-lookup"><span data-stu-id="07d7a-110">Indicates that no editing operation is in progress.</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-108"><strong>adEditNone</strong></span><span class="sxs-lookup"><span data-stu-id="ecf8f-108"><strong>adEditNone</strong></span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-109">0</span><span class="sxs-lookup"><span data-stu-id="ecf8f-109">0</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-110">Указывает, что операция редактирования не идет.</span><span class="sxs-lookup"><span data-stu-id="ecf8f-110">Indicates that no editing operation is in progress.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07d7a-111"><strong>адедитинпрогресс</strong></span><span class="sxs-lookup"><span data-stu-id="07d7a-111"><strong>adEditInProgress</strong></span></span></p></td>
-<td><p><span data-ttu-id="07d7a-112">1,1</span><span class="sxs-lookup"><span data-stu-id="07d7a-112">1</span></span></p></td>
-<td><p><span data-ttu-id="07d7a-113">Указывает, что данные в текущей записи были изменены, но не были сохранены.</span><span class="sxs-lookup"><span data-stu-id="07d7a-113">Indicates that data in the current record has been modified but not saved.</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-111"><strong>adEditInProgress</strong></span><span class="sxs-lookup"><span data-stu-id="ecf8f-111"><strong>adEditInProgress</strong></span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-112">1 </span><span class="sxs-lookup"><span data-stu-id="ecf8f-112">1</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-113">Указывает, что данные в текущей записи были изменены, но не сохранены.</span><span class="sxs-lookup"><span data-stu-id="ecf8f-113">Indicates that data in the current record has been modified but not saved.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="07d7a-114"><strong>адедитадд</strong></span><span class="sxs-lookup"><span data-stu-id="07d7a-114"><strong>adEditAdd</strong></span></span></p></td>
-<td><p><span data-ttu-id="07d7a-115">2</span><span class="sxs-lookup"><span data-stu-id="07d7a-115">2</span></span></p></td>
-<td><p><span data-ttu-id="07d7a-116">Указывает на то, что метод <a href="addnew-method-ado.md">AddNew</a> вызван, а текущая запись в буфере копии — это новая запись, которая не была сохранена в базе данных.</span><span class="sxs-lookup"><span data-stu-id="07d7a-116">Indicates that the <a href="addnew-method-ado.md">AddNew</a> method has been called, and the current record in the copy buffer is a new record that has not been saved in the database.</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-114"><strong>adEditAdd</strong></span><span class="sxs-lookup"><span data-stu-id="ecf8f-114"><strong>adEditAdd</strong></span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-115">2 </span><span class="sxs-lookup"><span data-stu-id="ecf8f-115">2</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-116">Указывает, что метод <a href="addnew-method-ado.md">AddNew</a> был вызван, а текущая запись в буфере копирования — это новая запись, которая не была сохранена в базе данных.</span><span class="sxs-lookup"><span data-stu-id="ecf8f-116">Indicates that the <a href="addnew-method-ado.md">AddNew</a> method has been called, and the current record in the copy buffer is a new record that has not been saved in the database.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07d7a-117"><strong>адедитделете</strong></span><span class="sxs-lookup"><span data-stu-id="07d7a-117"><strong>adEditDelete</strong></span></span></p></td>
-<td><p><span data-ttu-id="07d7a-118">4 </span><span class="sxs-lookup"><span data-stu-id="07d7a-118">4</span></span></p></td>
-<td><p><span data-ttu-id="07d7a-119">Указывает, что текущая запись была удалена.</span><span class="sxs-lookup"><span data-stu-id="07d7a-119">Indicates that the current record has been deleted.</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-117"><strong>adEditDelete</strong></span><span class="sxs-lookup"><span data-stu-id="ecf8f-117"><strong>adEditDelete</strong></span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-118">4 </span><span class="sxs-lookup"><span data-stu-id="ecf8f-118">4</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-119">Указывает, что текущая запись была удалена.</span><span class="sxs-lookup"><span data-stu-id="ecf8f-119">Indicates that the current record has been deleted.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="07d7a-120">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="07d7a-120">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="ecf8f-120">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="ecf8f-120">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="07d7a-121">Пакет: **com. MS. WFC. Data**</span><span class="sxs-lookup"><span data-stu-id="07d7a-121">Package: **com.ms.wfc.data**</span></span>
+<span data-ttu-id="ecf8f-121">Пакет: **com.ms.wfc.data**</span><span class="sxs-lookup"><span data-stu-id="ecf8f-121">Package: **com.ms.wfc.data**</span></span>
 
 <table>
 <colgroup>
@@ -70,21 +70,21 @@ ms.locfileid: "32293583"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="07d7a-122">Константа</span><span class="sxs-lookup"><span data-stu-id="07d7a-122">Constant</span></span></p></th>
+<th><p><span data-ttu-id="ecf8f-122">Константа</span><span class="sxs-lookup"><span data-stu-id="ecf8f-122">Constant</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="07d7a-123">Адоенумс. EditMode. NONE</span><span class="sxs-lookup"><span data-stu-id="07d7a-123">AdoEnums.EditMode.NONE</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-123">AdoEnums.EditMode.NONE</span><span class="sxs-lookup"><span data-stu-id="ecf8f-123">AdoEnums.EditMode.NONE</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07d7a-124">Адоенумс. EditMode. невыполнение</span><span class="sxs-lookup"><span data-stu-id="07d7a-124">AdoEnums.EditMode.INPROGRESS</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-124">AdoEnums.EditMode.INPROGRESS</span><span class="sxs-lookup"><span data-stu-id="ecf8f-124">AdoEnums.EditMode.INPROGRESS</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="07d7a-125">Адоенумс. EditMode. ADD</span><span class="sxs-lookup"><span data-stu-id="07d7a-125">AdoEnums.EditMode.ADD</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-125">AdoEnums.EditMode.ADD</span><span class="sxs-lookup"><span data-stu-id="ecf8f-125">AdoEnums.EditMode.ADD</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="07d7a-126">Адоенумс. EditMode. DELETE</span><span class="sxs-lookup"><span data-stu-id="07d7a-126">AdoEnums.EditMode.DELETE</span></span></p></td>
+<td><p><span data-ttu-id="ecf8f-126">AdoEnums.EditMode.DELETE</span><span class="sxs-lookup"><span data-stu-id="ecf8f-126">AdoEnums.EditMode.DELETE</span></span></p></td>
 </tr>
 </tbody>
 </table>

@@ -14,25 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295144"
 ---
-# <a name="customization-file-connect-section"></a><span data-ttu-id="740b1-102">Раздел Connect в файле настройки</span><span class="sxs-lookup"><span data-stu-id="740b1-102">Customization File Connect section</span></span>
+# <a name="customization-file-connect-section"></a><span data-ttu-id="3e2d9-102">Раздел Connect в файле настройки</span><span class="sxs-lookup"><span data-stu-id="3e2d9-102">Customization File Connect section</span></span>
 
-<span data-ttu-id="740b1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="740b1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3e2d9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3e2d9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="740b1-104">Поведение обработчика по умолчанию — запретить все подключения.</span><span class="sxs-lookup"><span data-stu-id="740b1-104">The default behavior of the handler is to deny all connections.</span></span> <span data-ttu-id="740b1-105">В разделе **Connect** задаются исключения из этого правила.</span><span class="sxs-lookup"><span data-stu-id="740b1-105">The **connect** section specifies exceptions to that behavior.</span></span> <span data-ttu-id="740b1-106">Например, если все разделы **Connect** отсутствовали или пусты, по умолчанию подключения не доводились.</span><span class="sxs-lookup"><span data-stu-id="740b1-106">For example, if all the **connect** sections were absent or empty, then by default no connections could be made.</span></span>
+<span data-ttu-id="3e2d9-104">По умолчанию обработтель отрегулировать все подключения.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-104">The default behavior of the handler is to deny all connections.</span></span> <span data-ttu-id="3e2d9-105">В **разделе** "Подключение" указаны исключения из этого поведения.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-105">The **connect** section specifies exceptions to that behavior.</span></span> <span data-ttu-id="3e2d9-106">Например, если все разделы **подключения** отсутствуют или пусты, по умолчанию подключения не могут быть подключены.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-106">For example, if all the **connect** sections were absent or empty, then by default no connections could be made.</span></span>
 
-<span data-ttu-id="740b1-107">Раздел **Connect** может содержать следующие компоненты:</span><span class="sxs-lookup"><span data-stu-id="740b1-107">The **connect** section can contain:</span></span>
+<span data-ttu-id="3e2d9-107">Раздел **"Подключение"** может содержать:</span><span class="sxs-lookup"><span data-stu-id="3e2d9-107">The **connect** section can contain:</span></span>
 
-- <span data-ttu-id="740b1-108">Запись доступа по умолчанию, указывающая на операции чтения и записи, разрешенные для данного подключения.</span><span class="sxs-lookup"><span data-stu-id="740b1-108">A default access entry that specifies the default read and write operations allowed on this connection.</span></span> <span data-ttu-id="740b1-109">Если в разделе нет записи доступа по умолчанию, раздел будет проигнорирован.</span><span class="sxs-lookup"><span data-stu-id="740b1-109">If there is no default access entry in the section, the section will be ignored.</span></span>
+- <span data-ttu-id="3e2d9-108">Запись доступа по умолчанию, которая определяет операции чтения и записи по умолчанию, разрешенные для этого подключения.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-108">A default access entry that specifies the default read and write operations allowed on this connection.</span></span> <span data-ttu-id="3e2d9-109">Если в разделе нет записи доступа по умолчанию, раздел будет игнорироваться.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-109">If there is no default access entry in the section, the section will be ignored.</span></span>
 
-- <span data-ttu-id="740b1-110">Новая строка подключения, заменяющая строку подключения клиента.</span><span class="sxs-lookup"><span data-stu-id="740b1-110">A new connection string that replaces the client connection string.</span></span>
+- <span data-ttu-id="3e2d9-110">Новая строка подключения, которая заменяет строку клиентского подключения.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-110">A new connection string that replaces the client connection string.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="740b1-111">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="740b1-111">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3e2d9-111">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="3e2d9-111">Syntax</span></span>
 
-<span data-ttu-id="740b1-112">Запись доступа по умолчанию имеет вид:</span><span class="sxs-lookup"><span data-stu-id="740b1-112">A default access entry is of the form:</span></span>
+<span data-ttu-id="3e2d9-112">Запись доступа по умолчанию имеет форму:</span><span class="sxs-lookup"><span data-stu-id="3e2d9-112">A default access entry is of the form:</span></span>
 
 `Access=accessRight`
 
-<span data-ttu-id="740b1-113">Для записи строки подключения заменяется форма:</span><span class="sxs-lookup"><span data-stu-id="740b1-113">A replacement connection string entry is of the form:</span></span>
+<span data-ttu-id="3e2d9-113">Замещаемая строка подключения имеет форму:</span><span class="sxs-lookup"><span data-stu-id="3e2d9-113">A replacement connection string entry is of the form:</span></span>
 
 `Connect=connectionString`
 
@@ -43,31 +43,31 @@ ms.locfileid: "32295144"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="740b1-114">Часть</span><span class="sxs-lookup"><span data-stu-id="740b1-114">Part</span></span></p></th>
-<th><p><span data-ttu-id="740b1-115">Описание</span><span class="sxs-lookup"><span data-stu-id="740b1-115">Description</span></span></p></th>
+<th><p><span data-ttu-id="3e2d9-114">Часть</span><span class="sxs-lookup"><span data-stu-id="3e2d9-114">Part</span></span></p></th>
+<th><p><span data-ttu-id="3e2d9-115">Описание</span><span class="sxs-lookup"><span data-stu-id="3e2d9-115">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="740b1-116"><strong>Connect</strong></span><span class="sxs-lookup"><span data-stu-id="740b1-116"><strong>Connect</strong></span></span></p></td>
-<td><p><span data-ttu-id="740b1-117">Строка литерала, указывающая на запись строки подключения.</span><span class="sxs-lookup"><span data-stu-id="740b1-117">A literal string that indicates this is a connection string entry.</span></span></p></td>
+<td><p><span data-ttu-id="3e2d9-116"><strong>Connect</strong></span><span class="sxs-lookup"><span data-stu-id="3e2d9-116"><strong>Connect</strong></span></span></p></td>
+<td><p><span data-ttu-id="3e2d9-117">Строка литералов, которая указывает, что это запись строки подключения.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-117">A literal string that indicates this is a connection string entry.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="740b1-118"><strong><em>connectionString</em></strong></span><span class="sxs-lookup"><span data-stu-id="740b1-118"><strong><em>connectionString</em></strong></span></span></p></td>
-<td><p><span data-ttu-id="740b1-119">Строка, заменяющая всю строку подключения клиента.</span><span class="sxs-lookup"><span data-stu-id="740b1-119">A string that replaces the whole client connection string.</span></span></p></td>
+<td><p><span data-ttu-id="3e2d9-118"><strong><em>connectionString</em></strong></span><span class="sxs-lookup"><span data-stu-id="3e2d9-118"><strong><em>connectionString</em></strong></span></span></p></td>
+<td><p><span data-ttu-id="3e2d9-119">Строка, которая заменяет всю строку клиентского подключения.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-119">A string that replaces the whole client connection string.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="740b1-120"><strong>Access</strong></span><span class="sxs-lookup"><span data-stu-id="740b1-120"><strong>Access</strong></span></span></p></td>
-<td><p><span data-ttu-id="740b1-121">Строка литерала, указывающая, что это запись доступа.</span><span class="sxs-lookup"><span data-stu-id="740b1-121">A literal string that indicates this is an access entry.</span></span></p></td>
+<td><p><span data-ttu-id="3e2d9-120"><strong>Access</strong></span><span class="sxs-lookup"><span data-stu-id="3e2d9-120"><strong>Access</strong></span></span></p></td>
+<td><p><span data-ttu-id="3e2d9-121">Строка литералов, которая указывает, что это запись доступа.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-121">A literal string that indicates this is an access entry.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="740b1-122"><strong><em>акцессригхт</em></strong></span><span class="sxs-lookup"><span data-stu-id="740b1-122"><strong><em>accessRight</em></strong></span></span></p></td>
-<td><p><span data-ttu-id="740b1-123">Одно из следующих прав доступа:</span><span class="sxs-lookup"><span data-stu-id="740b1-123">One of the following access rights:</span></span></p>
+<td><p><span data-ttu-id="3e2d9-122"><strong><em>accessRight</em></strong></span><span class="sxs-lookup"><span data-stu-id="3e2d9-122"><strong><em>accessRight</em></strong></span></span></p></td>
+<td><p><span data-ttu-id="3e2d9-123">Одно из следующих прав доступа:</span><span class="sxs-lookup"><span data-stu-id="3e2d9-123">One of the following access rights:</span></span></p>
 <p></p>
 <ul>
-<li><p><span data-ttu-id="740b1-124">Нет <strong>доступа</strong> , пользователь не может получить доступ к источнику данных.</span><span class="sxs-lookup"><span data-stu-id="740b1-124"><strong>NoAccess</strong> — User cannot access the data source.</span></span></p></li>
-<li><p><span data-ttu-id="740b1-125"><strong>ReadOnly</strong> — пользователь может читать источник данных.</span><span class="sxs-lookup"><span data-stu-id="740b1-125"><strong>ReadOnly</strong> — User can read the data source.</span></span></p></li>
-<li><p><span data-ttu-id="740b1-126"><strong>ReadWrite</strong> — пользователь может выполнять чтение или запись в источник данных.</span><span class="sxs-lookup"><span data-stu-id="740b1-126"><strong>ReadWrite</strong> — User can read or write to the data source.</span></span></p></li>
+<li><p><span data-ttu-id="3e2d9-124"><strong>NoAccess</strong> — пользователь не может получить доступ к источнику данных.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-124"><strong>NoAccess</strong> — User cannot access the data source.</span></span></p></li>
+<li><p><span data-ttu-id="3e2d9-125"><strong>ReadOnly</strong> — пользователь может читать источник данных.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-125"><strong>ReadOnly</strong> — User can read the data source.</span></span></p></li>
+<li><p><span data-ttu-id="3e2d9-126"><strong>ReadWrite</strong> — пользователь может читать или записывать данные в источник данных.</span><span class="sxs-lookup"><span data-stu-id="3e2d9-126"><strong>ReadWrite</strong> — User can read or write to the data source.</span></span></p></li>
 </ul>
 <p></p></td>
 </tr>
@@ -75,5 +75,5 @@ ms.locfileid: "32295144"
 </table>
 
 
-<span data-ttu-id="740b1-127">Если требуется разрешить любое подключение (в результате чего отключается поведение обработчика по умолчанию), задайте запись доступа в разделе **подключить по умолчанию** , а затем удалите или закомментируйте любой другой раздел **Connect** *identifier* .</span><span class="sxs-lookup"><span data-stu-id="740b1-127">If you want to allow any connection (in effect, disabling the default handler behavior), set the access entry in the **connect default** section to , and delete or comment out any other **connect** *identifier* section.</span></span>
+<span data-ttu-id="3e2d9-127">Если вы хотите разрешить любое подключение (по сути, отключив поведение обработера по умолчанию), установите для   записи доступа в разделе подключения значение по умолчанию, а также удалите или закомментировать любой другой раздел идентификатора подключения. </span><span class="sxs-lookup"><span data-stu-id="3e2d9-127">If you want to allow any connection (in effect, disabling the default handler behavior), set the access entry in the **connect default** section to , and delete or comment out any other **connect** *identifier* section.</span></span>
 

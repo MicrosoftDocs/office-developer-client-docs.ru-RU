@@ -1,5 +1,5 @@
 ---
-title: Пример свойств EOS и LineSeparator, а затем метод SkipLine (VB)
+title: Пример работы методов EOS и LineSeparator и SkipLine (VB)
 TOCTitle: EOS and LineSeparator Properties and SkipLine method example (VB)
 ms:assetid: 66508541-cc65-e16a-0f8d-2c0b20342b05
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249396(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293534"
 ---
-# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a><span data-ttu-id="c9661-102">Пример свойств EOS и LineSeparator, а затем метод SkipLine (VB)</span><span class="sxs-lookup"><span data-stu-id="c9661-102">EOS and LineSeparator Properties and SkipLine method example (VB)</span></span>
+# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a><span data-ttu-id="ad9b2-102">Пример работы EOS и lineSeparator Properties и метода SkipLine (VB)</span><span class="sxs-lookup"><span data-stu-id="ad9b2-102">EOS and LineSeparator Properties and SkipLine method example (VB)</span></span>
 
 
-<span data-ttu-id="c9661-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9661-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ad9b2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ad9b2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c9661-104">В этом примере показано, как управлять потоками текста по одной строке за раз.</span><span class="sxs-lookup"><span data-stu-id="c9661-104">This example demonstrates how to manipulate text streams one line at a time.</span></span> <span data-ttu-id="c9661-105">Отображается результат изменения разделителя строк с символа возврата каретки/перевода строки (**адкрлф**) на символ перевода строки (**адлф**) или возврата каретки (**адкр**).</span><span class="sxs-lookup"><span data-stu-id="c9661-105">The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.</span></span>
+<span data-ttu-id="ad9b2-104">В этом примере показано, как управлять текстовыми потоками по одной строке за раз.</span><span class="sxs-lookup"><span data-stu-id="ad9b2-104">This example demonstrates how to manipulate text streams one line at a time.</span></span> <span data-ttu-id="ad9b2-105">Отображается эффект изменения разрежимающего линии с возврата каретки по умолчанию **(adCRLF)** на простое перенаправитель строки **(adLF)** или возврат каретки **(adCR).**</span><span class="sxs-lookup"><span data-stu-id="ad9b2-105">The effect of changing the line separator from the default carriage return/linefeed (**adCRLF**) to simply linefeed (**adLF**) or carriage return (**adCR**) is shown.</span></span>
 
 ```vb 
  

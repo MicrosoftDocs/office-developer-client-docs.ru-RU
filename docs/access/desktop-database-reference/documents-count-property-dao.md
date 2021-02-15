@@ -1,5 +1,5 @@
 ---
-title: Свойство Documents. Count (DAO)
+title: Свойство Documents.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 3fc0b1e6-f7be-cd43-711f-5cf5763fe7f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192858(v=office.15)
@@ -18,22 +18,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293744"
 ---
-# <a name="documentscount-property-dao"></a><span data-ttu-id="595b8-102">Свойство Documents. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="595b8-102">Documents.Count property (DAO)</span></span>
+# <a name="documentscount-property-dao"></a><span data-ttu-id="3bd23-102">Свойство Documents.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="3bd23-102">Documents.Count property (DAO)</span></span>
 
 
-<span data-ttu-id="595b8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="595b8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3bd23-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3bd23-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="595b8-104">Возвращает число объектов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="595b8-104">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="595b8-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="595b8-105">Read-only.</span></span>
+<span data-ttu-id="3bd23-104">Возвращает количество объектов в указанной коллекции.</span><span class="sxs-lookup"><span data-stu-id="3bd23-104">Returns the number of objects in the specified collection.</span></span> <span data-ttu-id="3bd23-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="3bd23-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="595b8-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="595b8-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="3bd23-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="3bd23-106">Syntax</span></span>
 
-<span data-ttu-id="595b8-107">*Expression* . Отсчет</span><span class="sxs-lookup"><span data-stu-id="595b8-107">*expression* .Count</span></span>
+<span data-ttu-id="3bd23-107">*выражение .* Count</span><span class="sxs-lookup"><span data-stu-id="3bd23-107">*expression* .Count</span></span>
 
-<span data-ttu-id="595b8-108">*Expression (выражение* ) Переменная, представляющая объект **Documents** .</span><span class="sxs-lookup"><span data-stu-id="595b8-108">*expression* A variable that represents a **Documents** object.</span></span>
+<span data-ttu-id="3bd23-108">*выражение* Переменная, представляюная объект **Documents.**</span><span class="sxs-lookup"><span data-stu-id="3bd23-108">*expression* A variable that represents a **Documents** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="595b8-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="595b8-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3bd23-109">Заметки</span><span class="sxs-lookup"><span data-stu-id="3bd23-109">Remarks</span></span>
 
-<span data-ttu-id="595b8-110">Так как члены коллекции начинаются с 0, всегда следует всегда кодировать циклы, начиная с элемента 0 и заканчивая значением свойства **Count** минус 1.</span><span class="sxs-lookup"><span data-stu-id="595b8-110">Because members of a collection begin with 0, you should always code loops starting with the 0 member and ending with the value of the **Count** property minus 1.</span></span> <span data-ttu-id="595b8-111">Если требуется перебрать элементы коллекции, не проверяя свойство **Count** , можно использовать оператор **For Each... Следующая** команда.</span><span class="sxs-lookup"><span data-stu-id="595b8-111">If you want to loop through the members of a collection without checking the **Count** property, you can use a **For Each...Next** command.</span></span>
+<span data-ttu-id="3bd23-110">Так как члены коллекции начинаются с 0, всегда следует кодировать циклы, начиная с 0 и заканчивая значением свойства **Count** минус 1.</span><span class="sxs-lookup"><span data-stu-id="3bd23-110">Because members of a collection begin with 0, you should always code loops starting with the 0 member and ending with the value of the **Count** property minus 1.</span></span> <span data-ttu-id="3bd23-111">Если вы хотите обоймить члены коллекции, не проверяя свойство **Count,** можно использовать объект **For Each... Следующая** команда.</span><span class="sxs-lookup"><span data-stu-id="3bd23-111">If you want to loop through the members of a collection without checking the **Count** property, you can use a **For Each...Next** command.</span></span>
 
-<span data-ttu-id="595b8-112">Значение свойства **Count** не может быть равно null.</span><span class="sxs-lookup"><span data-stu-id="595b8-112">The **Count** property setting is never Null.</span></span> <span data-ttu-id="595b8-113">Если его значение равно 0, в коллекции отсутствуют объекты.</span><span class="sxs-lookup"><span data-stu-id="595b8-113">If its value is 0, there are no objects in the collection.</span></span>
+<span data-ttu-id="3bd23-112">Параметр **свойства Count** никогда не имеет NULL.</span><span class="sxs-lookup"><span data-stu-id="3bd23-112">The **Count** property setting is never Null.</span></span> <span data-ttu-id="3bd23-113">Если его значение 0, в коллекции нет объектов.</span><span class="sxs-lookup"><span data-stu-id="3bd23-113">If its value is 0, there are no objects in the collection.</span></span>
 

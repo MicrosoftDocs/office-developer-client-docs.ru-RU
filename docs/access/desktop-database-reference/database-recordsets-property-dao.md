@@ -1,5 +1,5 @@
 ---
-title: Свойство Database. Recordsets (DAO)
+title: Свойство Database.Recordsets (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: e2ee02bc-d53a-2bec-2c5b-227979b92332
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835730(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294766"
 ---
-# <a name="databaserecordsets-property-dao"></a><span data-ttu-id="8aca9-102">Свойство Database. Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="8aca9-102">Database.Recordsets property (DAO)</span></span>
+# <a name="databaserecordsets-property-dao"></a><span data-ttu-id="9bb93-102">Свойство Database.Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="9bb93-102">Database.Recordsets property (DAO)</span></span>
 
 
-<span data-ttu-id="8aca9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8aca9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9bb93-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9bb93-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8aca9-104">Возвращает коллекцию **Recordset** , содержащую все открытые наборы записей в указанной базе данных.</span><span class="sxs-lookup"><span data-stu-id="8aca9-104">Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified database.</span></span> <span data-ttu-id="8aca9-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="8aca9-105">Read-only.</span></span>
+<span data-ttu-id="9bb93-104">Возвращает **коллекцию Recordsets,** которая содержит все открытые наборы записей в указанной базе данных.</span><span class="sxs-lookup"><span data-stu-id="9bb93-104">Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified database.</span></span> <span data-ttu-id="9bb93-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9bb93-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8aca9-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8aca9-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="9bb93-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9bb93-106">Syntax</span></span>
 
-<span data-ttu-id="8aca9-107">*Expression* . Recordsets</span><span class="sxs-lookup"><span data-stu-id="8aca9-107">*expression* .Recordsets</span></span>
+<span data-ttu-id="9bb93-107">*выражение .* Recordsets</span><span class="sxs-lookup"><span data-stu-id="9bb93-107">*expression* .Recordsets</span></span>
 
-<span data-ttu-id="8aca9-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="8aca9-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="9bb93-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="9bb93-108">*expression* A variable that represents a **Database** object.</span></span>
 

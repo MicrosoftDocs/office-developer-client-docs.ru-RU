@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295347"
 ---
-# <a name="createrecordset-method-example-vb"></a><span data-ttu-id="724b8-102">Пример использования метода CreateRecordset (VB)</span><span class="sxs-lookup"><span data-stu-id="724b8-102">CreateRecordset method example (VB)</span></span>
+# <a name="createrecordset-method-example-vb"></a><span data-ttu-id="62566-102">Пример использования метода CreateRecordset (VB)</span><span class="sxs-lookup"><span data-stu-id="62566-102">CreateRecordset method example (VB)</span></span>
 
 
-<span data-ttu-id="724b8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="724b8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="62566-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="62566-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="724b8-104">Можно создать объект [Recordset](recordset-object-ado.md) и указать сведения о столбце.</span><span class="sxs-lookup"><span data-stu-id="724b8-104">You can create a [Recordset](recordset-object-ado.md) object and specify the column information.</span></span> <span data-ttu-id="724b8-105">Затем можно вставить данные в объект **Recordset** ; базовый набор строк замещает операции вставки.</span><span class="sxs-lookup"><span data-stu-id="724b8-105">You can then insert data into the **Recordset** object; the underlying rowset buffers the inserts.</span></span>
+<span data-ttu-id="62566-104">Можно создать объект [Recordset](recordset-object-ado.md) и указать сведения о столбце.</span><span class="sxs-lookup"><span data-stu-id="62566-104">You can create a [Recordset](recordset-object-ado.md) object and specify the column information.</span></span> <span data-ttu-id="62566-105">Затем можно вставить данные в объект **Recordset;** вставляемые строки буферов вставляется в его подмножество строк.</span><span class="sxs-lookup"><span data-stu-id="62566-105">You can then insert data into the **Recordset** object; the underlying rowset buffers the inserts.</span></span>
 
-<span data-ttu-id="724b8-106">В приведенном ниже примере кода показано, как определить объект **Recordset** с помощью объекта [рдссервер.](datafactory-object-rdsserver.md) DataObject.</span><span class="sxs-lookup"><span data-stu-id="724b8-106">The following code example shows how to define a **Recordset** by using the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.</span></span> <span data-ttu-id="724b8-107">Это также можно сделать с помощью [RDS. Объект управления](datacontrol-object-rds.md) DataObject.</span><span class="sxs-lookup"><span data-stu-id="724b8-107">You can also do this with the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>
+<span data-ttu-id="62566-106">В следующем примере кода показано, как определить **набор записей** с помощью объекта [RDSServer.DataFactory.](datafactory-object-rdsserver.md)</span><span class="sxs-lookup"><span data-stu-id="62566-106">The following code example shows how to define a **Recordset** by using the [RDSServer.DataFactory](datafactory-object-rdsserver.md) object.</span></span> <span data-ttu-id="62566-107">Это также можно сделать с [помощью RDS. Объект DataControl.](datacontrol-object-rds.md)</span><span class="sxs-lookup"><span data-stu-id="62566-107">You can also do this with the [RDS.DataControl](datacontrol-object-rds.md) object.</span></span>
 
 ```vb 
  

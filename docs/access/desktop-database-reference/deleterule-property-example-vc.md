@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293961"
 ---
-# <a name="deleterule-property-example-vc"></a><span data-ttu-id="8b62c-102">Пример использования свойства DeleteRule (VC++)</span><span class="sxs-lookup"><span data-stu-id="8b62c-102">DeleteRule property example (VC++)</span></span>
+# <a name="deleterule-property-example-vc"></a><span data-ttu-id="154ac-102">Пример использования свойства DeleteRule (VC++)</span><span class="sxs-lookup"><span data-stu-id="154ac-102">DeleteRule property example (VC++)</span></span>
 
 
-<span data-ttu-id="8b62c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8b62c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="154ac-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="154ac-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8b62c-104">В этом примере показано свойство [DeleteRule](deleterule-property-adox.md) объекта [Key](key-object-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="8b62c-104">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object.</span></span> <span data-ttu-id="8b62c-105">Код добавляет новую [таблицу](table-object-adox.md) , а затем определяет новый первичный ключ, устанавливая **DeleteRule** в **адрикаскаде**.</span><span class="sxs-lookup"><span data-stu-id="8b62c-105">The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
+<span data-ttu-id="154ac-104">В этом примере показано [свойство DeleteRule](deleterule-property-adox.md) объекта [Key.](key-object-adox.md)</span><span class="sxs-lookup"><span data-stu-id="154ac-104">This example demonstrates the [DeleteRule](deleterule-property-adox.md) property of a [Key](key-object-adox.md) object.</span></span> <span data-ttu-id="154ac-105">Код appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span><span class="sxs-lookup"><span data-stu-id="154ac-105">The code appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.</span></span>
 
 ```cpp 
  

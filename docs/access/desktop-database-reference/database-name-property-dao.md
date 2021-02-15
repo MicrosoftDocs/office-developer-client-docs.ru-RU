@@ -1,5 +1,5 @@
 ---
-title: Свойство Database.Name (DAO)
+title: Database.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: cef334d4-007d-1144-0309-664c31104e6d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834513(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294878"
 ---
-# <a name="databasename-property-dao"></a><span data-ttu-id="c36d9-102">Свойство Database.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="c36d9-102">Database.Name property (DAO)</span></span>
+# <a name="databasename-property-dao"></a><span data-ttu-id="dd03c-102">Database.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="dd03c-102">Database.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="c36d9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c36d9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dd03c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd03c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c36d9-104">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="c36d9-104">Returns the name of the specified object.</span></span> <span data-ttu-id="c36d9-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="c36d9-105">Read-only **String**.</span></span>
+<span data-ttu-id="dd03c-104">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="dd03c-104">Returns the name of the specified object.</span></span> <span data-ttu-id="dd03c-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="dd03c-105">Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="c36d9-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c36d9-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="dd03c-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="dd03c-106">Syntax</span></span>
 
-<span data-ttu-id="c36d9-107">*Expression* . Расширением</span><span class="sxs-lookup"><span data-stu-id="c36d9-107">*expression* .Name</span></span>
+<span data-ttu-id="dd03c-107">*выражение .* Имя</span><span class="sxs-lookup"><span data-stu-id="dd03c-107">*expression* .Name</span></span>
 
-<span data-ttu-id="c36d9-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="c36d9-108">*expression* A variable that represents a **Database** object.</span></span>
+<span data-ttu-id="dd03c-108">*выражение*: переменная, представляющая объект **Database**.</span><span class="sxs-lookup"><span data-stu-id="dd03c-108">*expression* A variable that represents a **Database** object.</span></span>
 

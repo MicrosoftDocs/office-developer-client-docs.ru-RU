@@ -14,15 +14,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293303"
 ---
-# <a name="exitforeachrecord-macro-action"></a><span data-ttu-id="a78d9-102">Макрокоманда ExitForEachRecord</span><span class="sxs-lookup"><span data-stu-id="a78d9-102">ExitForEachRecord macro action</span></span>
+# <a name="exitforeachrecord-macro-action"></a><span data-ttu-id="9264f-102">Макрокоманда ExitForEachRecord</span><span class="sxs-lookup"><span data-stu-id="9264f-102">ExitForEachRecord macro action</span></span>
 
 
-<span data-ttu-id="a78d9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a78d9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9264f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9264f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a78d9-104">Используйте действие **екситфореачрекорд** для немедленного выхода из блока данных **[ДляКаждойЗаписи](foreachrecord-data-block.md)** .</span><span class="sxs-lookup"><span data-stu-id="a78d9-104">Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block.md)** data block.</span></span>
+<span data-ttu-id="9264f-104">Используйте действие **ExitForEachRecord, чтобы** немедленно выйти из блока данных **[ForEachRecord.](foreachrecord-data-block.md)**</span><span class="sxs-lookup"><span data-stu-id="9264f-104">Use the **ExitForEachRecord** action to immediately exit a **[ForEachRecord](foreachrecord-data-block.md)** data block.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="a78d9-105">Действие **екситфореачрекорд** доступно только в макросах данных.</span><span class="sxs-lookup"><span data-stu-id="a78d9-105">The **ExitForEachRecord** action is available only in Data Macros.</span></span>
+> <span data-ttu-id="9264f-105">Действие **ExitForEachRecord** доступно только в макросах данных.</span><span class="sxs-lookup"><span data-stu-id="9264f-105">The **ExitForEachRecord** action is available only in Data Macros.</span></span>
 
 

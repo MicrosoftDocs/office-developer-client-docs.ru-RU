@@ -14,25 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295424"
 ---
-# <a name="create-method-adox"></a><span data-ttu-id="e1d4a-102">Метод Create (ADOX)</span><span class="sxs-lookup"><span data-stu-id="e1d4a-102">Create method (ADOX)</span></span>
+# <a name="create-method-adox"></a><span data-ttu-id="eaf14-102">Метод Create (ADOX)</span><span class="sxs-lookup"><span data-stu-id="eaf14-102">Create method (ADOX)</span></span>
 
-<span data-ttu-id="e1d4a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e1d4a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="eaf14-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="eaf14-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e1d4a-104">Создает новый каталог.</span><span class="sxs-lookup"><span data-stu-id="e1d4a-104">Creates a new catalog.</span></span>
+<span data-ttu-id="eaf14-104">Создает каталог.</span><span class="sxs-lookup"><span data-stu-id="eaf14-104">Creates a new catalog.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="e1d4a-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e1d4a-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="eaf14-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="eaf14-105">Syntax</span></span>
 
-<span data-ttu-id="e1d4a-106">*Каталог*. Создание*коннектстринг*</span><span class="sxs-lookup"><span data-stu-id="e1d4a-106">*Catalog*.Create*ConnectString*</span></span>
+<span data-ttu-id="eaf14-106">*Каталог .* Создание *ConnectString*</span><span class="sxs-lookup"><span data-stu-id="eaf14-106">*Catalog*.Create *ConnectString*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="e1d4a-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="e1d4a-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="eaf14-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="eaf14-107">Parameters</span></span>
 
-|<span data-ttu-id="e1d4a-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="e1d4a-108">Parameter</span></span>|<span data-ttu-id="e1d4a-109">Описание</span><span class="sxs-lookup"><span data-stu-id="e1d4a-109">Description</span></span>|
+|<span data-ttu-id="eaf14-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="eaf14-108">Parameter</span></span>|<span data-ttu-id="eaf14-109">Описание</span><span class="sxs-lookup"><span data-stu-id="eaf14-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="e1d4a-110">*ConnectString*</span><span class="sxs-lookup"><span data-stu-id="e1d4a-110">*ConnectString*</span></span> |<span data-ttu-id="e1d4a-111">**Строковое** значение, используемое для подключения к источнику данных.</span><span class="sxs-lookup"><span data-stu-id="e1d4a-111">A **String** value used to connect to the data source.</span></span>|
+|<span data-ttu-id="eaf14-110">*ConnectString*</span><span class="sxs-lookup"><span data-stu-id="eaf14-110">*ConnectString*</span></span> |<span data-ttu-id="eaf14-111">**Строка,** используемая для подключения к источнику данных.</span><span class="sxs-lookup"><span data-stu-id="eaf14-111">A **String** value used to connect to the data source.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="e1d4a-112">Примечания</span><span class="sxs-lookup"><span data-stu-id="e1d4a-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="eaf14-112">Заметки</span><span class="sxs-lookup"><span data-stu-id="eaf14-112">Remarks</span></span>
 
-<span data-ttu-id="e1d4a-113">Метод **CREATE** создает и открывает новое [Подключение](connection-object-ado.md) ADO к источнику данных, указанному в *коннектстринг*.</span><span class="sxs-lookup"><span data-stu-id="e1d4a-113">The **Create** method creates and opens a new ADO [Connection](connection-object-ado.md) to the data source specified in *ConnectString*.</span></span> <span data-ttu-id="e1d4a-114">В случае успешного выполнения новый объект **Connection** назначается свойству [ActiveConnection](activeconnection-property-adox.md) .</span><span class="sxs-lookup"><span data-stu-id="e1d4a-114">If successful, the new **Connection** object is assigned to the [ActiveConnection](activeconnection-property-adox.md) property.</span></span>
+<span data-ttu-id="eaf14-113">Метод **Create** создает и открывает новое подключение [ADO](connection-object-ado.md) к источнику данных, указанному в *ConnectString.*</span><span class="sxs-lookup"><span data-stu-id="eaf14-113">The **Create** method creates and opens a new ADO [Connection](connection-object-ado.md) to the data source specified in *ConnectString*.</span></span> <span data-ttu-id="eaf14-114">В случае успеха новый **объект Connection** будет назначен свойству [ActiveConnection.](activeconnection-property-adox.md)</span><span class="sxs-lookup"><span data-stu-id="eaf14-114">If successful, the new **Connection** object is assigned to the [ActiveConnection](activeconnection-property-adox.md) property.</span></span>
 
-<span data-ttu-id="e1d4a-115">Если поставщик не поддерживает создание новых каталогов, произойдет ошибка.</span><span class="sxs-lookup"><span data-stu-id="e1d4a-115">An error will occur if the provider does not support creating new catalogs.</span></span>
+<span data-ttu-id="eaf14-115">Если поставщик не поддерживает создание новых каталогов, произойдет ошибка.</span><span class="sxs-lookup"><span data-stu-id="eaf14-115">An error will occur if the provider does not support creating new catalogs.</span></span>
 

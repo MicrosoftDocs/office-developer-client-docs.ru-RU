@@ -1,5 +1,5 @@
 ---
-title: Свойство DBEngine. DefaultType (DAO)
+title: Свойство DBEngine.DefaultType (DAO)
 TOCTitle: DefaultType Property
 ms:assetid: b4371f3e-1ce0-1d0f-93a8-0c5329b510ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822060(v=office.15)
@@ -18,26 +18,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294381"
 ---
-# <a name="dbenginedefaulttype-property-dao"></a><span data-ttu-id="45826-102">Свойство DBEngine. DefaultType (DAO)</span><span class="sxs-lookup"><span data-stu-id="45826-102">DBEngine.DefaultType property (DAO)</span></span>
+# <a name="dbenginedefaulttype-property-dao"></a><span data-ttu-id="98115-102">Свойство DBEngine.DefaultType (DAO)</span><span class="sxs-lookup"><span data-stu-id="98115-102">DBEngine.DefaultType property (DAO)</span></span>
 
 
-<span data-ttu-id="45826-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="45826-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="98115-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="98115-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="45826-104">Задает или возвращает значение, указывающее тип рабочей области, который будет использоваться при создании следующего объекта **[Workspace](workspace-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="45826-104">Sets or returns a value that indicates what type of workspace will be used by the next **[Workspace](workspace-object-dao.md)** object created.</span></span>
+<span data-ttu-id="98115-104">Задает или возвращает значение, которое указывает, какой тип рабочей области будет использоваться следующим созданным объектом **[Workspace.](workspace-object-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="98115-104">Sets or returns a value that indicates what type of workspace will be used by the next **[Workspace](workspace-object-dao.md)** object created.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="45826-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="45826-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="98115-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="98115-105">Syntax</span></span>
 
-<span data-ttu-id="45826-106">*Expression* . DefaultType</span><span class="sxs-lookup"><span data-stu-id="45826-106">*expression* .DefaultType</span></span>
+<span data-ttu-id="98115-106">*выражение .* DefaultType</span><span class="sxs-lookup"><span data-stu-id="98115-106">*expression* .DefaultType</span></span>
 
-<span data-ttu-id="45826-107">*expression*: переменная, представляющая объект **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="45826-107">*expression* A variable that represents a **DBEngine** object.</span></span>
+<span data-ttu-id="98115-107">*expression*: переменная, представляющая объект **DBEngine**.</span><span class="sxs-lookup"><span data-stu-id="98115-107">*expression* A variable that represents a **DBEngine** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="45826-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="45826-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="98115-108">Заметки</span><span class="sxs-lookup"><span data-stu-id="98115-108">Remarks</span></span>
 
-<span data-ttu-id="45826-109">Параметр или возвращаемое значение может быть одной из констант **[воркспацетипинум](workspacetypeenum-enumeration-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="45826-109">The setting or return value can be one of the of the **[WorkspaceTypeEnum](workspacetypeenum-enumeration-dao.md)** constants.</span></span>
+<span data-ttu-id="98115-109">Значение параметра или возвращаемого значения может быть одной из **[констант WorkspaceTypeEnum.](workspacetypeenum-enumeration-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="98115-109">The setting or return value can be one of the of the **[WorkspaceTypeEnum](workspacetypeenum-enumeration-dao.md)** constants.</span></span>
 
 
 > [!NOTE]
-> <span data-ttu-id="45826-110">Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="45826-110">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="45826-111">Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="45826-111">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
+> <span data-ttu-id="98115-110">Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013.</span><span class="sxs-lookup"><span data-stu-id="98115-110">ODBCDirect workspaces are not supported in Microsoft Access 2013.</span></span> <span data-ttu-id="98115-111">Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</span><span class="sxs-lookup"><span data-stu-id="98115-111">Use ADO if you want to access external data sources without using the Microsoft Access database engine.</span></span>
 
-<span data-ttu-id="45826-112">Параметр можно переопределить для отдельной **рабочей области** , задав аргумент Type для метода **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="45826-112">The setting can be overridden for a single **Workspace** by setting the type argument to the **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** method.</span></span>
+<span data-ttu-id="98115-112">Параметр может быть переопределен  для одной рабочей области, задав аргумент типа **[методу CreateWorkspace.](dbengine-createworkspace-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="98115-112">The setting can be overridden for a single **Workspace** by setting the type argument to the **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** method.</span></span>
 

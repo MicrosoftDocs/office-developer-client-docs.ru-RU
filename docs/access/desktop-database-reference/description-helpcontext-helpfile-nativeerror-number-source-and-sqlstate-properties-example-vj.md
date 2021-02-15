@@ -1,5 +1,5 @@
 ---
-title: Пример свойств Description, HelpContext, HelpFile (VJ + +)
+title: Пример свойств Description, HelpContext и HelpFile (VJ++)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VJ++)
 ms:assetid: daa3ff89-9f7f-f832-479e-bbb51c918ae8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293947"
 ---
-# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a><span data-ttu-id="59343-102">Пример использования свойств Description, HelpContext, HelpFile, NativeError, Number, Source и SQLState (VJ++)</span><span class="sxs-lookup"><span data-stu-id="59343-102">Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VJ++)</span></span>
+# <a name="description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vj"></a><span data-ttu-id="ac5b1-102">Пример использования свойств Description, HelpContext, HelpFile, NativeError, Number, Source и SQLState (VJ++)</span><span class="sxs-lookup"><span data-stu-id="ac5b1-102">Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="59343-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="59343-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ac5b1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ac5b1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="59343-104">В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md)и [SQLSTATE](sqlstate-property-ado.md) полученного объекта [Error](error-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="59343-104">This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.</span></span>
+<span data-ttu-id="ac5b1-104">В этом примере вызывается ошибка, она ловка и [](error-object-ado.md) отображаются свойства [Description,](description-property-ado.md) [HelpContext,](helpcontext-helpfile-properties-ado.md) [HelpFile,](helpcontext-helpfile-properties-ado.md) [NativeError,](nativeerror-property-ado.md) [Number,](number-property-ado.md) [Source](source-property-ado-error.md)и [SQLState](sqlstate-property-ado.md) итоговой ошибки.</span><span class="sxs-lookup"><span data-stu-id="ac5b1-104">This example triggers an error, traps it, and displays the [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md), and [SQLState](sqlstate-property-ado.md) properties of the resulting [Error](error-object-ado.md) object.</span></span>
 
 ```java
     // BeginDescriptionJ
