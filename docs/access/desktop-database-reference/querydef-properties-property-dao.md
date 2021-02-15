@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. Properties (DAO)
+title: Свойство QueryDef.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 91d724bf-8e63-a517-c5be-2b8b382608e0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197640(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303222"
 ---
-# <a name="querydefproperties-property-dao"></a><span data-ttu-id="72fb6-102">Свойство QueryDef. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="72fb6-102">QueryDef.Properties property (DAO)</span></span>
+# <a name="querydefproperties-property-dao"></a><span data-ttu-id="df5f7-102">Свойство QueryDef.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="df5f7-102">QueryDef.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="72fb6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="72fb6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="df5f7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="df5f7-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="72fb6-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="72fb6-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="72fb6-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="72fb6-105">Read-only.</span></span>
+<span data-ttu-id="df5f7-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="df5f7-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="df5f7-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="df5f7-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="72fb6-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="72fb6-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="df5f7-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="df5f7-106">Syntax</span></span>
 
-<span data-ttu-id="72fb6-107">*Expression* . Параметры</span><span class="sxs-lookup"><span data-stu-id="72fb6-107">*expression* .Properties</span></span>
+<span data-ttu-id="df5f7-107">*выражение .* Свойства</span><span class="sxs-lookup"><span data-stu-id="df5f7-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="72fb6-108">*выражение*: переменная, представляющая объект **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="72fb6-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="df5f7-108">*выражение*: переменная, представляющая объект **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="df5f7-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 

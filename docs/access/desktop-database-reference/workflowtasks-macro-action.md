@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306008"
 ---
-# <a name="workflowtasks-macro-action"></a><span data-ttu-id="70d6b-102">Макрокоманда WorkflowTasks</span><span class="sxs-lookup"><span data-stu-id="70d6b-102">WorkflowTasks macro action</span></span>
+# <a name="workflowtasks-macro-action"></a><span data-ttu-id="59a82-102">Макрокоманда WorkflowTasks</span><span class="sxs-lookup"><span data-stu-id="59a82-102">WorkflowTasks macro action</span></span>
 
 
-<span data-ttu-id="70d6b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="70d6b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="59a82-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="59a82-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="70d6b-104">Вы можете использовать действие **WorkflowTasks** для отображения диалогового окна " **задача рабочего процесса** ".</span><span class="sxs-lookup"><span data-stu-id="70d6b-104">You can use the **WorkflowTasks** action to display the **Workflow Task** dialog box.</span></span>
+<span data-ttu-id="59a82-104">Вы можете использовать **действие WorkflowTasks,** чтобы отобразить диалоговое окно "Задача **рабочего** процесса".</span><span class="sxs-lookup"><span data-stu-id="59a82-104">You can use the **WorkflowTasks** action to display the **Workflow Task** dialog box.</span></span>
 
-## <a name="setting"></a><span data-ttu-id="70d6b-105">Параметр</span><span class="sxs-lookup"><span data-stu-id="70d6b-105">Setting</span></span>
+## <a name="setting"></a><span data-ttu-id="59a82-105">Setting</span><span class="sxs-lookup"><span data-stu-id="59a82-105">Setting</span></span>
 
-<span data-ttu-id="70d6b-106">Действие **WorkflowTasks** имеет следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="70d6b-106">The **WorkflowTasks** action has the following argument.</span></span>
+<span data-ttu-id="59a82-106">Действие **WorkflowTasks имеет** следующий аргумент.</span><span class="sxs-lookup"><span data-stu-id="59a82-106">The **WorkflowTasks** action has the following argument.</span></span>
 
 <table>
 <colgroup>
@@ -36,26 +36,26 @@ ms.locfileid: "32306008"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="70d6b-107">Аргумент макрокоманды</span><span class="sxs-lookup"><span data-stu-id="70d6b-107">Action argument</span></span></p></th>
-<th><p><span data-ttu-id="70d6b-108">Описание</span><span class="sxs-lookup"><span data-stu-id="70d6b-108">Description</span></span></p></th>
+<th><p><span data-ttu-id="59a82-107">Аргумент макрокоманды</span><span class="sxs-lookup"><span data-stu-id="59a82-107">Action argument</span></span></p></th>
+<th><p><span data-ttu-id="59a82-108">Описание</span><span class="sxs-lookup"><span data-stu-id="59a82-108">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="70d6b-109"><strong>Номер записи</strong></span><span class="sxs-lookup"><span data-stu-id="70d6b-109"><strong>Record Number</strong></span></span></p></td>
-<td><p><span data-ttu-id="70d6b-110">Положение элемента в списке Microsoft SharePoint Foundation, начиная с <strong>1</strong> для первого элемента в списке, <strong>2</strong> для второго элемента и т. д.</span><span class="sxs-lookup"><span data-stu-id="70d6b-110">The position of the item in the Microsoft SharePoint Foundation list, starting with <strong>1</strong> for the first item in the list, <strong>2</strong> for the second item, and so on.</span></span> <span data-ttu-id="70d6b-111">Вы также можете ввести выражение для этого аргумента.</span><span class="sxs-lookup"><span data-stu-id="70d6b-111">You can also enter an expression for this argument.</span></span></p></td>
+<td><p><span data-ttu-id="59a82-109"><strong>Номер записи</strong></span><span class="sxs-lookup"><span data-stu-id="59a82-109"><strong>Record Number</strong></span></span></p></td>
+<td><p><span data-ttu-id="59a82-110">Положение элемента в списке Microsoft SharePoint Foundation, начиная с <strong>1</strong> для первого элемента в списке, <strong>2</strong> для второго элемента и так далее.</span><span class="sxs-lookup"><span data-stu-id="59a82-110">The position of the item in the Microsoft SharePoint Foundation list, starting with <strong>1</strong> for the first item in the list, <strong>2</strong> for the second item, and so on.</span></span> <span data-ttu-id="59a82-111">Вы также можете ввести выражение для этого аргумента.</span><span class="sxs-lookup"><span data-stu-id="59a82-111">You can also enter an expression for this argument.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a><span data-ttu-id="70d6b-112">Примечания</span><span class="sxs-lookup"><span data-stu-id="70d6b-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="59a82-112">Заметки</span><span class="sxs-lookup"><span data-stu-id="59a82-112">Remarks</span></span>
 
-  - <span data-ttu-id="70d6b-113">Действие **WorkflowTasks** открывает диалоговое окно " **задачи рабочего процесса** ".</span><span class="sxs-lookup"><span data-stu-id="70d6b-113">The **WorkflowTasks** action opens the **Workflow Tasks** dialog box.</span></span> <span data-ttu-id="70d6b-114">В этом диалоговом окне отображаются все задачи, доступные для указанного элемента.</span><span class="sxs-lookup"><span data-stu-id="70d6b-114">This dialog box displays all tasks that are available for the specified item.</span></span> <span data-ttu-id="70d6b-115">Для списка в SharePoint Foundation необходимо определить рабочий процесс.</span><span class="sxs-lookup"><span data-stu-id="70d6b-115">A workflow must be defined for the list in SharePoint Foundation.</span></span>
+  - <span data-ttu-id="59a82-113">Действие **WorkflowTasks** открывает **диалоговое** окно "Задачи рабочего процесса".</span><span class="sxs-lookup"><span data-stu-id="59a82-113">The **WorkflowTasks** action opens the **Workflow Tasks** dialog box.</span></span> <span data-ttu-id="59a82-114">В этом диалоговом окне отображаются все задачи, доступные для указанного элемента.</span><span class="sxs-lookup"><span data-stu-id="59a82-114">This dialog box displays all tasks that are available for the specified item.</span></span> <span data-ttu-id="59a82-115">Рабочий процесс должен быть определен для списка в SharePoint Foundation.</span><span class="sxs-lookup"><span data-stu-id="59a82-115">A workflow must be defined for the list in SharePoint Foundation.</span></span>
 
-  - <span data-ttu-id="70d6b-116">Действие **WorkflowTasks** можно использовать только после открытия и выбора связанного списка SharePoint Foundation.</span><span class="sxs-lookup"><span data-stu-id="70d6b-116">The **WorkflowTasks** action can only be used after a linked SharePoint Foundation list has been opened and selected.</span></span> <span data-ttu-id="70d6b-117">Чтобы открыть и выбрать связанный список, используйте действие **опентабле** .</span><span class="sxs-lookup"><span data-stu-id="70d6b-117">To open and select the linked list, use the **OpenTable** action.</span></span> <span data-ttu-id="70d6b-118">Если список уже открыт, используйте макрокоманду " **ВыделитьОбъект** " (ВыделитьОбъект), чтобы выбрать ее.</span><span class="sxs-lookup"><span data-stu-id="70d6b-118">If the list is already open, use the **SelectObject** action to select it.</span></span>
+  - <span data-ttu-id="59a82-116">Действие **WorkflowTasks** можно использовать только после открытия и выбора связанного списка SharePoint Foundation.</span><span class="sxs-lookup"><span data-stu-id="59a82-116">The **WorkflowTasks** action can only be used after a linked SharePoint Foundation list has been opened and selected.</span></span> <span data-ttu-id="59a82-117">Чтобы открыть и выбрать связанный список, используйте действие **OpenTable.**</span><span class="sxs-lookup"><span data-stu-id="59a82-117">To open and select the linked list, use the **OpenTable** action.</span></span> <span data-ttu-id="59a82-118">Если список уже открыт, выберите его с помощью действия **SelectObject.**</span><span class="sxs-lookup"><span data-stu-id="59a82-118">If the list is already open, use the **SelectObject** action to select it.</span></span>
 
-  - <span data-ttu-id="70d6b-119">Действие **WorkflowTasks** имеет тот же результат, что и щелчок правой кнопкой мыши по любой ячейке в связанном списке SharePoint Foundation, когда она открыта в режиме таблицы, наведите указатель на **Рабочий процесс**и выберите **задачи рабочего процесса**.</span><span class="sxs-lookup"><span data-stu-id="70d6b-119">The **WorkflowTasks** action has the same effect as right-clicking any cell in a linked SharePoint Foundation list while it is open in datasheet view, pointing to **Workflow**, and then clicking **Workflow Tasks**.</span></span>
+  - <span data-ttu-id="59a82-119">Действие **WorkflowTasks** имеет тот же эффект, что и щелчок правой кнопкой мыши любую ячейку в связанном списке SharePoint Foundation, когда она открыта в представлении таблицы, указывая на рабочий **процесс,** а затем щелкнув "Задачи рабочего процесса". </span><span class="sxs-lookup"><span data-stu-id="59a82-119">The **WorkflowTasks** action has the same effect as right-clicking any cell in a linked SharePoint Foundation list while it is open in datasheet view, pointing to **Workflow**, and then clicking **Workflow Tasks**.</span></span>
 
-  - <span data-ttu-id="70d6b-120">Чтобы выполнить действие **WorkflowTasks** в модуле VBA, используйте метод **WorkflowTasks** объекта **DoCmd** .</span><span class="sxs-lookup"><span data-stu-id="70d6b-120">To run the **WorkflowTasks** action in a VBA module, use the **WorkflowTasks** method of the **DoCmd** object.</span></span>
+  - <span data-ttu-id="59a82-120">Чтобы запустить **действие WorkflowTasks** в модуле VBA, используйте метод **WorkflowTasks** объекта **DoCmd.**</span><span class="sxs-lookup"><span data-stu-id="59a82-120">To run the **WorkflowTasks** action in a VBA module, use the **WorkflowTasks** method of the **DoCmd** object.</span></span>
 

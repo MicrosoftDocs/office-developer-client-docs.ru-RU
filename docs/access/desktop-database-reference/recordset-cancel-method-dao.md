@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300814"
 ---
-# <a name="recordsetcancel-method-dao"></a><span data-ttu-id="69d2a-102">Метод Recordset.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="69d2a-102">Recordset.Cancel method (DAO)</span></span>
+# <a name="recordsetcancel-method-dao"></a><span data-ttu-id="6952e-102">Метод Recordset.Cancel (DAO)</span><span class="sxs-lookup"><span data-stu-id="6952e-102">Recordset.Cancel method (DAO)</span></span>
 
 
-<span data-ttu-id="69d2a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69d2a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6952e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6952e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="69d2a-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="69d2a-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="6952e-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6952e-104">Syntax</span></span>
 
-<span data-ttu-id="69d2a-105">*Expression* . Отмена</span><span class="sxs-lookup"><span data-stu-id="69d2a-105">*expression* .Cancel</span></span>
+<span data-ttu-id="6952e-105">*выражение .* Отмена</span><span class="sxs-lookup"><span data-stu-id="6952e-105">*expression* .Cancel</span></span>
 
-<span data-ttu-id="69d2a-106">*expression*: переменная, представляющая объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="69d2a-106">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="6952e-106">*expression*: переменная, представляющая объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="6952e-106">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="69d2a-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="69d2a-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6952e-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="6952e-107">Remarks</span></span>
 
-<span data-ttu-id="69d2a-108">Используйте метод **Cancel** для завершения выполнения асинхронного вызова метода **EXECUTE** или **OpenConnection** (то есть метод вызывается с помощью параметра дбрунасинк).</span><span class="sxs-lookup"><span data-stu-id="69d2a-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="69d2a-109">**Отмена** возвращает ошибку времени выполнения, если дбрунасинк не использовался в методе, который вы пытаетесь завершить.</span><span class="sxs-lookup"><span data-stu-id="69d2a-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
+<span data-ttu-id="6952e-108">Используйте метод **Cancel,** чтобы завершить выполнение асинхронного вызова метода **Execute** или **OpenConnection** (то есть метод был вызван с помощью параметра dbRunAsync).</span><span class="sxs-lookup"><span data-stu-id="6952e-108">Use the **Cancel** method to terminate execution of an asynchronous **Execute** or **OpenConnection** method call (that is, the method was invoked with the dbRunAsync option).</span></span> <span data-ttu-id="6952e-109">**Отмена** возвращает ошибку времени запуска, если dbRunAsync не использовался в методе, который вы пытаетесь завершить.</span><span class="sxs-lookup"><span data-stu-id="6952e-109">**Cancel** will return a run-time error if dbRunAsync was not used in the method you're trying to terminate.</span></span>
 

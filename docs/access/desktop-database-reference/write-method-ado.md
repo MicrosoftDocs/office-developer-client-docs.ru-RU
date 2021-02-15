@@ -1,5 +1,5 @@
 ---
-title: Метод Write — объекты данных ActiveX (ADO)
+title: Метод Write — ActiveX Data Objects (ADO)
 TOCTitle: Write method (ADO)
 ms:assetid: cabe4581-409f-7f05-bd59-d495bfb2c6fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249986(v=office.15)
@@ -14,30 +14,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302466"
 ---
-# <a name="write-method-ado"></a><span data-ttu-id="84ea6-102">Метод Write (ADO)</span><span class="sxs-lookup"><span data-stu-id="84ea6-102">Write method (ADO)</span></span>
+# <a name="write-method-ado"></a><span data-ttu-id="8860b-102">Метод Write (ADO)</span><span class="sxs-lookup"><span data-stu-id="8860b-102">Write method (ADO)</span></span>
 
-<span data-ttu-id="84ea6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="84ea6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8860b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8860b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="84ea6-104">Записывает двоичные данные в объект [Stream](stream-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="84ea6-104">Writes binary data to a [Stream](stream-object-ado.md) object.</span></span>
+<span data-ttu-id="8860b-104">Записывает двоичные данные в [объект Stream.](stream-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="8860b-104">Writes binary data to a [Stream](stream-object-ado.md) object.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="84ea6-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="84ea6-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8860b-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8860b-105">Syntax</span></span>
 
-<span data-ttu-id="84ea6-106">*Stream*. *Буфер* записи</span><span class="sxs-lookup"><span data-stu-id="84ea6-106">*Stream*.Write*Buffer*</span></span>
+<span data-ttu-id="8860b-106">*Stream*. Буфер *записи*</span><span class="sxs-lookup"><span data-stu-id="8860b-106">*Stream*.Write *Buffer*</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="84ea6-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="84ea6-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="8860b-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="8860b-107">Parameters</span></span>
 
-|<span data-ttu-id="84ea6-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="84ea6-108">Parameter</span></span>|<span data-ttu-id="84ea6-109">Описание</span><span class="sxs-lookup"><span data-stu-id="84ea6-109">Description</span></span>|
+|<span data-ttu-id="8860b-108">Параметр</span><span class="sxs-lookup"><span data-stu-id="8860b-108">Parameter</span></span>|<span data-ttu-id="8860b-109">Описание</span><span class="sxs-lookup"><span data-stu-id="8860b-109">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="84ea6-110">*Буферизовать*</span><span class="sxs-lookup"><span data-stu-id="84ea6-110">*Buffer*</span></span> |<span data-ttu-id="84ea6-111">**Переменная типа Variant** , содержащая массив байтов для записи.</span><span class="sxs-lookup"><span data-stu-id="84ea6-111">A **Variant** that contains an array of bytes to be written.</span></span>|
+|<span data-ttu-id="8860b-110">*Буфер*</span><span class="sxs-lookup"><span data-stu-id="8860b-110">*Buffer*</span></span> |<span data-ttu-id="8860b-111">**Вариант,** содержащий массив данных, которые необходимо написать.</span><span class="sxs-lookup"><span data-stu-id="8860b-111">A **Variant** that contains an array of bytes to be written.</span></span>|
 
-## <a name="remarks"></a><span data-ttu-id="84ea6-112">Примечания</span><span class="sxs-lookup"><span data-stu-id="84ea6-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8860b-112">Заметки</span><span class="sxs-lookup"><span data-stu-id="8860b-112">Remarks</span></span>
 
-<span data-ttu-id="84ea6-113">Указанные байты записываются в объект **Stream** без промежуточных пробелов между ними.</span><span class="sxs-lookup"><span data-stu-id="84ea6-113">Specified bytes are written to the **Stream** object without any intervening spaces between each byte.</span></span>
+<span data-ttu-id="8860b-113">Указанные bytes are written to the **Stream** object without any intervening spaces between each byte.</span><span class="sxs-lookup"><span data-stu-id="8860b-113">Specified bytes are written to the **Stream** object without any intervening spaces between each byte.</span></span>
 
-<span data-ttu-id="84ea6-114">Текущая [позиция](position-property-ado.md) равна байту после записанных данных.</span><span class="sxs-lookup"><span data-stu-id="84ea6-114">The current [Position](position-property-ado.md) is set to the byte following the written data.</span></span> <span data-ttu-id="84ea6-115">Метод **Write** не усекает остальные данные в потоке.</span><span class="sxs-lookup"><span data-stu-id="84ea6-115">The **Write** method does not truncate the rest of the data in a stream.</span></span> <span data-ttu-id="84ea6-116">Если вы хотите усечь эти байты, вызовите [SetEOS](seteos-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="84ea6-116">If you want to truncate these bytes, call [SetEOS](seteos-method-ado.md).</span></span>
+<span data-ttu-id="8860b-114">Текущее [положение](position-property-ado.md) устанавливается в соответствии с письменными данными в соответствии с данными.</span><span class="sxs-lookup"><span data-stu-id="8860b-114">The current [Position](position-property-ado.md) is set to the byte following the written data.</span></span> <span data-ttu-id="8860b-115">Метод **Write** не усечен остальных данных в потоке.</span><span class="sxs-lookup"><span data-stu-id="8860b-115">The **Write** method does not truncate the rest of the data in a stream.</span></span> <span data-ttu-id="8860b-116">Если вы хотите усечение этих данных, вызовите [SetEOS.](seteos-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="8860b-116">If you want to truncate these bytes, call [SetEOS](seteos-method-ado.md).</span></span>
 
-<span data-ttu-id="84ea6-117">Если вы пишете за пределами текущей позиции [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) [EOS](eos-property-ado.md) , размер **потока** увеличится до того, как будут содержаться новые байты, а **EOS** перейдет к новому последнему байту в **потоке**.</span><span class="sxs-lookup"><span data-stu-id="84ea6-117">If you write past the current [EOS](eos-property-ado.md) position, the [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) of the **Stream** will be increased to contain any new bytes, and **EOS** will move to the new last byte in the **Stream**.</span></span>
+<span data-ttu-id="8860b-117">Если вы напишете после текущей [](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) позиции  [EOS,](eos-property-ado.md) размер потока будет увеличен, чтобы содержать любые новые bytes, и **EOS** перейдет к новому последнему byte в **Stream**.</span><span class="sxs-lookup"><span data-stu-id="8860b-117">If you write past the current [EOS](eos-property-ado.md) position, the [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) of the **Stream** will be increased to contain any new bytes, and **EOS** will move to the new last byte in the **Stream**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="84ea6-118">Метод **Write** используется с двоичными потоками ([Type](type-property-ado-stream.md) — **адтипебинари**).</span><span class="sxs-lookup"><span data-stu-id="84ea6-118">The **Write** method is used with binary streams ([Type](type-property-ado-stream.md) is **adTypeBinary**).</span></span> <span data-ttu-id="84ea6-119">Для текстовых потоков (**Type** — **Адтипетекст**) используйте [WriteText](writetext-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="84ea6-119">For text streams (**Type** is **adTypeText**), use [WriteText](writetext-method-ado.md).</span></span>
+> <span data-ttu-id="8860b-118">Метод **Write** используется с двоичными потоками [(тип](type-property-ado-stream.md) **adTypeBinary).**</span><span class="sxs-lookup"><span data-stu-id="8860b-118">The **Write** method is used with binary streams ([Type](type-property-ado-stream.md) is **adTypeBinary**).</span></span> <span data-ttu-id="8860b-119">Для текстовых потоков **(тип** **adTypeText),** используйте [WriteText](writetext-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="8860b-119">For text streams (**Type** is **adTypeText**), use [WriteText](writetext-method-ado.md).</span></span>
 

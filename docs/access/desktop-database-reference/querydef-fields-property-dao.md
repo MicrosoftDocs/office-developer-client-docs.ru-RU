@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. Fields (DAO)
+title: Свойство QueryDef.Fields (DAO)
 TOCTitle: Fields Property
 ms:assetid: 72b60c04-fd20-cfa3-d5f6-d0472ea5478b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195834(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301066"
 ---
-# <a name="querydeffields-property-dao"></a><span data-ttu-id="2502b-102">Свойство QueryDef. Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="2502b-102">QueryDef.Fields property (DAO)</span></span>
+# <a name="querydeffields-property-dao"></a><span data-ttu-id="da9e4-102">Свойство QueryDef.Fields (DAO)</span><span class="sxs-lookup"><span data-stu-id="da9e4-102">QueryDef.Fields property (DAO)</span></span>
 
 
-<span data-ttu-id="2502b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2502b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="da9e4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="da9e4-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2502b-104">Возвращает коллекцию **[Fields](fields-collection-dao.md)** , которая представляет все сохраненные объекты **[field](field-object-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="2502b-104">Returns a **[Fields](fields-collection-dao.md)** collection that represents all stored **[Field](field-object-dao.md)** objects for the specified object.</span></span> <span data-ttu-id="2502b-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="2502b-105">Read-only.</span></span>
+<span data-ttu-id="da9e4-104">Возвращает коллекцию **[Fields,](fields-collection-dao.md)** которая представляет все сохраненные объекты **[Field](field-object-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="da9e4-104">Returns a **[Fields](fields-collection-dao.md)** collection that represents all stored **[Field](field-object-dao.md)** objects for the specified object.</span></span> <span data-ttu-id="da9e4-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="da9e4-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2502b-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2502b-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="da9e4-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="da9e4-106">Syntax</span></span>
 
-<span data-ttu-id="2502b-107">*Expression* . Поле</span><span class="sxs-lookup"><span data-stu-id="2502b-107">*expression* .Fields</span></span>
+<span data-ttu-id="da9e4-107">*выражение .* Поля</span><span class="sxs-lookup"><span data-stu-id="da9e4-107">*expression* .Fields</span></span>
 
-<span data-ttu-id="2502b-108">*выражение*: переменная, представляющая объект **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="2502b-108">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="da9e4-108">*выражение*: переменная, представляющая объект **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="da9e4-108">*expression* A variable that represents a **QueryDef** object.</span></span>
 

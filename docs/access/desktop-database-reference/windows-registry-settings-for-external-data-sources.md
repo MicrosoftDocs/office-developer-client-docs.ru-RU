@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305952"
 ---
-# <a name="windows-registry-settings-for-external-data-sources"></a><span data-ttu-id="18bef-102">Параметры реестра Windows для внешних источников данных</span><span class="sxs-lookup"><span data-stu-id="18bef-102">Windows registry settings for external data sources</span></span>
+# <a name="windows-registry-settings-for-external-data-sources"></a><span data-ttu-id="69b16-102">Параметры реестра Windows для внешних источников данных</span><span class="sxs-lookup"><span data-stu-id="69b16-102">Windows registry settings for external data sources</span></span>
 
-<span data-ttu-id="18bef-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="18bef-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="69b16-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69b16-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="18bef-104">Настройка параметров реестра Windows для ядра СУБД Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="18bef-104">Customizing Windows registry settings for the Microsoft Access database engine</span></span>](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
-- [<span data-ttu-id="18bef-105">Инициализация драйвера Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="18bef-105">Initializing the Microsoft Excel driver</span></span>](initializing-the-microsoft-excel-driver.md)
-- [<span data-ttu-id="18bef-106">Инициализация драйвера источника данных Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="18bef-106">Initializing the Microsoft Exchange Data Source driver</span></span>](initializing-the-microsoft-exchange-data-source-driver.md)
-- [<span data-ttu-id="18bef-107">Инициализация драйвера источника текстовых данных</span><span class="sxs-lookup"><span data-stu-id="18bef-107">Initializing the Text Data Source driver</span></span>](initializing-the-text-data-source-driver.md)
+- [<span data-ttu-id="69b16-104">Настройка параметров реестра Windows для ядра СУБД Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="69b16-104">Customizing Windows registry settings for the Microsoft Access database engine</span></span>](customizing-windows-registry-settings-for-the-microsoft-access-database-engine.md)
+- [<span data-ttu-id="69b16-105">Инициализация драйвера Microsoft Excel</span><span class="sxs-lookup"><span data-stu-id="69b16-105">Initializing the Microsoft Excel driver</span></span>](initializing-the-microsoft-excel-driver.md)
+- [<span data-ttu-id="69b16-106">Инициализация драйвера источника данных Microsoft Exchange</span><span class="sxs-lookup"><span data-stu-id="69b16-106">Initializing the Microsoft Exchange Data Source driver</span></span>](initializing-the-microsoft-exchange-data-source-driver.md)
+- [<span data-ttu-id="69b16-107">Инициализация драйвера источника текстовых данных</span><span class="sxs-lookup"><span data-stu-id="69b16-107">Initializing the Text Data Source driver</span></span>](initializing-the-text-data-source-driver.md)
 

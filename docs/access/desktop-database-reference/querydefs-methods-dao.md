@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303229"
 ---
-# <a name="querydefs-methods-dao"></a><span data-ttu-id="7e121-102">Методы коллекции QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e121-102">QueryDefs methods (DAO)</span></span>
+# <a name="querydefs-methods-dao"></a><span data-ttu-id="7517c-102">Методы коллекции QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="7517c-102">QueryDefs methods (DAO)</span></span>
 
-<span data-ttu-id="7e121-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e121-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7517c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7517c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="7e121-104">Метод QueryDef. append (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e121-104">QueryDefs.Append method (DAO)</span></span>](querydefs-append-method-dao.md)
-- [<span data-ttu-id="7e121-105">Метод QueryDef. Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e121-105">QueryDefs.Delete method (DAO)</span></span>](querydefs-delete-method-dao.md)
-- [<span data-ttu-id="7e121-106">Метод QueryDef. Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e121-106">QueryDefs.Refresh method (DAO)</span></span>](querydefs-refresh-method-dao.md)
+- [<span data-ttu-id="7517c-104">Метод QueryDefs.Append (DAO)</span><span class="sxs-lookup"><span data-stu-id="7517c-104">QueryDefs.Append method (DAO)</span></span>](querydefs-append-method-dao.md)
+- [<span data-ttu-id="7517c-105">Метод QueryDefs.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="7517c-105">QueryDefs.Delete method (DAO)</span></span>](querydefs-delete-method-dao.md)
+- [<span data-ttu-id="7517c-106">Метод QueryDefs.Refresh (DAO)</span><span class="sxs-lookup"><span data-stu-id="7517c-106">QueryDefs.Refresh method (DAO)</span></span>](querydefs-refresh-method-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. Рекордсаффектед (DAO)
+title: Свойство QueryDef.RecordsAffected (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 29a864b5-305c-d33f-b2ca-fc9a08baaa5c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192040(v=office.15)
@@ -18,26 +18,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300968"
 ---
-# <a name="querydefrecordsaffected-property-dao"></a><span data-ttu-id="27fff-102">Свойство QueryDef. Рекордсаффектед (DAO)</span><span class="sxs-lookup"><span data-stu-id="27fff-102">QueryDef.RecordsAffected property (DAO)</span></span>
+# <a name="querydefrecordsaffected-property-dao"></a><span data-ttu-id="a158a-102">Свойство QueryDef.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="a158a-102">QueryDef.RecordsAffected property (DAO)</span></span>
 
 
-<span data-ttu-id="27fff-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="27fff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a158a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a158a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="27fff-104">Возвращает число записей, затронутых последним вызванным методом **[EXECUTE](querydef-execute-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="27fff-104">Returns the number of records affected by the most recently invoked **[Execute](querydef-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="a158a-104">Возвращает количество записей, затронутых последним вызовом метода **[Execute.](querydef-execute-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="a158a-104">Returns the number of records affected by the most recently invoked **[Execute](querydef-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="27fff-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="27fff-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a158a-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a158a-105">Syntax</span></span>
 
-<span data-ttu-id="27fff-106">*Expression* . рекордсаффектед</span><span class="sxs-lookup"><span data-stu-id="27fff-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="a158a-106">*выражение .* RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="a158a-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="27fff-107">*выражение*: переменная, представляющая объект **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="27fff-107">*expression* A variable that represents a **QueryDef** object.</span></span>
+<span data-ttu-id="a158a-107">*выражение*: переменная, представляющая объект **QueryDef**.</span><span class="sxs-lookup"><span data-stu-id="a158a-107">*expression* A variable that represents a **QueryDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="27fff-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="27fff-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a158a-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="a158a-108">Remarks</span></span>
 
-<span data-ttu-id="27fff-109">При использовании метода **EXECUTE** для выполнения запроса на изменение объекта **QueryDef** свойство **рекордсаффектед** будет содержать число записей, удаленных, обновленных или вставленных.</span><span class="sxs-lookup"><span data-stu-id="27fff-109">When you use the **Execute** method to run an action query from a **QueryDef** object, the **RecordsAffected** property will contain the number of records deleted, updated, or inserted.</span></span>
+<span data-ttu-id="a158a-109">При использовании метода **Execute** для выполнения запроса на действие из объекта **QueryDef** свойство **RecordsAffected** будет содержать количество удаленных, обновленных или вставленных записей.</span><span class="sxs-lookup"><span data-stu-id="a158a-109">When you use the **Execute** method to run an action query from a **QueryDef** object, the **RecordsAffected** property will contain the number of records deleted, updated, or inserted.</span></span>
 
-## <a name="example"></a><span data-ttu-id="27fff-110">Пример</span><span class="sxs-lookup"><span data-stu-id="27fff-110">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a158a-110">Пример</span><span class="sxs-lookup"><span data-stu-id="a158a-110">Example</span></span>
 
-<span data-ttu-id="27fff-111">В этом примере используется свойство **рекордсаффектед** с запросами на изменение, выполненными из объекта **[базы данных](database-object-dao.md)** и из объекта **QueryDef** .</span><span class="sxs-lookup"><span data-stu-id="27fff-111">This example uses the **RecordsAffected** property with action queries executed from a **[Database](database-object-dao.md)** object and from a **QueryDef** object.</span></span> <span data-ttu-id="27fff-112">Для выполнения этой процедуры требуется функция Рекордсаффектедаутпут.</span><span class="sxs-lookup"><span data-stu-id="27fff-112">The RecordsAffectedOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="a158a-111">В этом примере используется свойство **RecordsAffected** с запросами действий, которые выполняются из объекта **[Database](database-object-dao.md)** и **из объекта QueryDef.**</span><span class="sxs-lookup"><span data-stu-id="a158a-111">This example uses the **RecordsAffected** property with action queries executed from a **[Database](database-object-dao.md)** object and from a **QueryDef** object.</span></span> <span data-ttu-id="a158a-112">Для запуска этой процедуры требуется функция RecordsAffectedOutput.</span><span class="sxs-lookup"><span data-stu-id="a158a-112">The RecordsAffectedOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub RecordsAffectedX() 

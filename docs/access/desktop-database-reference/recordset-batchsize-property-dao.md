@@ -18,24 +18,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300667"
 ---
-# <a name="recordsetbatchsize-property-dao"></a><span data-ttu-id="d276e-102">Свойство Recordset.BatchSize (DAO)</span><span class="sxs-lookup"><span data-stu-id="d276e-102">Recordset.BatchSize property (DAO)</span></span>
+# <a name="recordsetbatchsize-property-dao"></a><span data-ttu-id="8e1ac-102">Свойство Recordset.BatchSize (DAO)</span><span class="sxs-lookup"><span data-stu-id="8e1ac-102">Recordset.BatchSize property (DAO)</span></span>
 
 
-<span data-ttu-id="d276e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d276e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8e1ac-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8e1ac-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d276e-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d276e-104">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8e1ac-104">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8e1ac-104">Syntax</span></span>
 
-<span data-ttu-id="d276e-105">*Expression* . BatchSize</span><span class="sxs-lookup"><span data-stu-id="d276e-105">*expression* .BatchSize</span></span>
+<span data-ttu-id="8e1ac-105">*выражение .* BatchSize</span><span class="sxs-lookup"><span data-stu-id="8e1ac-105">*expression* .BatchSize</span></span>
 
-<span data-ttu-id="d276e-106">*expression*: переменная, представляющая объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="d276e-106">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="8e1ac-106">*expression*: переменная, представляющая объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="8e1ac-106">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d276e-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="d276e-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8e1ac-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="8e1ac-107">Remarks</span></span>
 
-<span data-ttu-id="d276e-108">Свойство **BatchSize** определяет размер пакета, используемый при отправке инструкций на сервер при пакетном обновлении.</span><span class="sxs-lookup"><span data-stu-id="d276e-108">The **BatchSize** property determines the batch size used when sending statements to the server in a batch update.</span></span> <span data-ttu-id="d276e-109">Значение свойства определяет количество операторов, отправляемых на сервер, в одном буфере команд.</span><span class="sxs-lookup"><span data-stu-id="d276e-109">The value of the property determines the number of statements sent to the server in one command buffer.</span></span> <span data-ttu-id="d276e-110">По умолчанию 15 операторов отправляются на сервер в каждом пакете.</span><span class="sxs-lookup"><span data-stu-id="d276e-110">By default, 15 statements are sent to the server in each batch.</span></span> <span data-ttu-id="d276e-111">Это свойство можно изменить в любое время.</span><span class="sxs-lookup"><span data-stu-id="d276e-111">This property can be changed at any time.</span></span> <span data-ttu-id="d276e-112">Если сервер базы данных не поддерживает пакетную обработку инструкций, для этого свойства можно задать значение 1, в результате чего каждый оператор будет отправлен отдельно.</span><span class="sxs-lookup"><span data-stu-id="d276e-112">If a database server doesn't support statement batching, you can set this property to 1, causing each statement to be sent separately.</span></span>
+<span data-ttu-id="8e1ac-108">Свойство **BatchSize** определяет размер пакета, используемый при отправке на сервер отчетов в пакетном обновлении.</span><span class="sxs-lookup"><span data-stu-id="8e1ac-108">The **BatchSize** property determines the batch size used when sending statements to the server in a batch update.</span></span> <span data-ttu-id="8e1ac-109">Значение свойства определяет количество команд, отправленных на сервер в одном буфере команд.</span><span class="sxs-lookup"><span data-stu-id="8e1ac-109">The value of the property determines the number of statements sent to the server in one command buffer.</span></span> <span data-ttu-id="8e1ac-110">По умолчанию на сервер в каждом пакете отправляется 15 заявлений.</span><span class="sxs-lookup"><span data-stu-id="8e1ac-110">By default, 15 statements are sent to the server in each batch.</span></span> <span data-ttu-id="8e1ac-111">Это свойство можно изменить в любое время.</span><span class="sxs-lookup"><span data-stu-id="8e1ac-111">This property can be changed at any time.</span></span> <span data-ttu-id="8e1ac-112">Если сервер базы данных не поддерживает пакетную обработку выписки, можно установить для этого свойства 1, в результате чего каждый из них отправляется отдельно.</span><span class="sxs-lookup"><span data-stu-id="8e1ac-112">If a database server doesn't support statement batching, you can set this property to 1, causing each statement to be sent separately.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d276e-113">Пример</span><span class="sxs-lookup"><span data-stu-id="d276e-113">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8e1ac-113">Пример</span><span class="sxs-lookup"><span data-stu-id="8e1ac-113">Example</span></span>
 
-<span data-ttu-id="d276e-114">В этом примере используются свойства **BatchSize** и **UpdateOptions** для управления аспектами обновления пакетов для указанного объекта Recordset.</span><span class="sxs-lookup"><span data-stu-id="d276e-114">This example uses the **BatchSize** and **UpdateOptions** properties to control aspects of any batch updating for the specified Recordset object.</span></span>
+<span data-ttu-id="8e1ac-114">В этом примере свойства **BatchSize** и **UpdateOptions** используются для управления аспектами пакетного обновления для указанного объекта Recordset.</span><span class="sxs-lookup"><span data-stu-id="8e1ac-114">This example uses the **BatchSize** and **UpdateOptions** properties to control aspects of any batch updating for the specified Recordset object.</span></span>
 
 ```vb 
 Sub BatchSizeX() 

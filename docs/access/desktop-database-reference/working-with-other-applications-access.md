@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306015"
 ---
-# <a name="working-with-other-applications-access"></a><span data-ttu-id="cfad9-102">Работа с другими приложениями (Access)</span><span class="sxs-lookup"><span data-stu-id="cfad9-102">Working with other applications (Access)</span></span>
+# <a name="working-with-other-applications-access"></a><span data-ttu-id="73b16-102">Работа с другими приложениями (Access)</span><span class="sxs-lookup"><span data-stu-id="73b16-102">Working with other applications (Access)</span></span>
 
-<span data-ttu-id="cfad9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cfad9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="73b16-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73b16-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="cfad9-104">Automation with Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="cfad9-104">Automation with Microsoft Access</span></span>](automation-with-microsoft-access.md)
-- [<span data-ttu-id="cfad9-105">Использование объектов данных ActiveX</span><span class="sxs-lookup"><span data-stu-id="cfad9-105">Use ActiveX Data Objects</span></span>](using-activex-data-objects.md)
-- [<span data-ttu-id="cfad9-106">Использование Microsoft Access в качестве сервера DDE</span><span class="sxs-lookup"><span data-stu-id="cfad9-106">Use Microsoft Access as a DDE server</span></span>](use-microsoft-access-as-a-dde-server.md)
+- [<span data-ttu-id="73b16-104">Automation with Microsoft Access</span><span class="sxs-lookup"><span data-stu-id="73b16-104">Automation with Microsoft Access</span></span>](automation-with-microsoft-access.md)
+- [<span data-ttu-id="73b16-105">Использование объектов данных ActiveX</span><span class="sxs-lookup"><span data-stu-id="73b16-105">Use ActiveX Data Objects</span></span>](using-activex-data-objects.md)
+- [<span data-ttu-id="73b16-106">Использование Microsoft Access в качестве сервера DDE</span><span class="sxs-lookup"><span data-stu-id="73b16-106">Use Microsoft Access as a DDE server</span></span>](use-microsoft-access-as-a-dde-server.md)
 
 
 

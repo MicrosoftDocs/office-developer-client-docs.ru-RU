@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303446"
 ---
-# <a name="querydefs-properties-dao"></a><span data-ttu-id="0f40c-102">Свойства коллекции QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="0f40c-102">QueryDefs properties (DAO)</span></span>
+# <a name="querydefs-properties-dao"></a><span data-ttu-id="f850d-102">Свойства коллекции QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="f850d-102">QueryDefs properties (DAO)</span></span>
 
-<span data-ttu-id="0f40c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0f40c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f850d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f850d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="0f40c-104">Свойство QueryDef. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="0f40c-104">QueryDefs.Count property (DAO)</span></span>](querydefs-count-property-dao.md)
+- [<span data-ttu-id="f850d-104">Свойство QueryDefs.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="f850d-104">QueryDefs.Count property (DAO)</span></span>](querydefs-count-property-dao.md)
 

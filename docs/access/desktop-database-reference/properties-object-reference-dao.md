@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301234"
 ---
-# <a name="properties-object-reference-dao"></a><span data-ttu-id="ab84e-102">Ссылка на объект Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="ab84e-102">Properties object reference (DAO)</span></span>
+# <a name="properties-object-reference-dao"></a><span data-ttu-id="c1f04-102">Ссылка на объект Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="c1f04-102">Properties object reference (DAO)</span></span>
 
-<span data-ttu-id="ab84e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ab84e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c1f04-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c1f04-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="ab84e-104">Коллекция Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="ab84e-104">Properties collection (DAO)</span></span>](properties-collection-dao.md)
-- [<span data-ttu-id="ab84e-105">Элементы Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="ab84e-105">Properties members (DAO)</span></span>](properties-members-dao.md)
-- [<span data-ttu-id="ab84e-106">Свойства свойств (DAO)</span><span class="sxs-lookup"><span data-stu-id="ab84e-106">Properties properties (DAO)</span></span>](properties-properties-dao.md)
-- [<span data-ttu-id="ab84e-107">Методы свойств (DAO)</span><span class="sxs-lookup"><span data-stu-id="ab84e-107">Properties methods (DAO)</span></span>](properties-methods-dao.md)
+- [<span data-ttu-id="c1f04-104">Коллекция Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="c1f04-104">Properties collection (DAO)</span></span>](properties-collection-dao.md)
+- [<span data-ttu-id="c1f04-105">Properties members (DAO)</span><span class="sxs-lookup"><span data-stu-id="c1f04-105">Properties members (DAO)</span></span>](properties-members-dao.md)
+- [<span data-ttu-id="c1f04-106">Свойства (DAO)</span><span class="sxs-lookup"><span data-stu-id="c1f04-106">Properties properties (DAO)</span></span>](properties-properties-dao.md)
+- [<span data-ttu-id="c1f04-107">Методы Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="c1f04-107">Properties methods (DAO)</span></span>](properties-methods-dao.md)
 

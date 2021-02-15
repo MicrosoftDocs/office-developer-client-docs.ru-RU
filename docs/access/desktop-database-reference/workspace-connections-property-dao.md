@@ -1,5 +1,5 @@
 ---
-title: Свойство Workspace. Connections (DAO)
+title: Свойство Workspace.Connections (DAO)
 TOCTitle: Connections Property
 ms:assetid: 7b4f905c-4bc1-8fa7-b608-516edfef3d8f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196195(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305917"
 ---
-# <a name="workspaceconnections-property-dao"></a><span data-ttu-id="9c93f-102">Свойство Workspace. Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="9c93f-102">Workspace.Connections property (DAO)</span></span>
+# <a name="workspaceconnections-property-dao"></a><span data-ttu-id="ce5af-102">Свойство Workspace.Connections (DAO)</span><span class="sxs-lookup"><span data-stu-id="ce5af-102">Workspace.Connections property (DAO)</span></span>
 
 
-<span data-ttu-id="9c93f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c93f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="ce5af-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ce5af-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="9c93f-104">Возвращает коллекцию **Connections** , представляющую текущие подключения в указанной **рабочей области**.</span><span class="sxs-lookup"><span data-stu-id="9c93f-104">Returns a **Connections** collection that represents the current connections in the specified **Workspace**.</span></span> <span data-ttu-id="9c93f-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="9c93f-105">Read-only.</span></span>
+<span data-ttu-id="ce5af-104">Возвращает **коллекцию Connections,** представляюную текущие подключения в указанной **рабочей области.**</span><span class="sxs-lookup"><span data-stu-id="ce5af-104">Returns a **Connections** collection that represents the current connections in the specified **Workspace**.</span></span> <span data-ttu-id="ce5af-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="ce5af-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="9c93f-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="9c93f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="ce5af-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="ce5af-106">Syntax</span></span>
 
-<span data-ttu-id="9c93f-107">*Expression* . Подключения</span><span class="sxs-lookup"><span data-stu-id="9c93f-107">*expression* .Connections</span></span>
+<span data-ttu-id="ce5af-107">*выражение .* Подключения</span><span class="sxs-lookup"><span data-stu-id="ce5af-107">*expression* .Connections</span></span>
 
-<span data-ttu-id="9c93f-108">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="9c93f-108">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="ce5af-108">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="ce5af-108">*expression* A variable that represents a **Workspace** object.</span></span>
 
