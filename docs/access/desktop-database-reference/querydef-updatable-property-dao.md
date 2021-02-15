@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. обновляемое свойство (DAO)
+title: Свойство QueryDef.Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 9b978b7d-1d76-ff27-a032-dd94660fb088
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198056(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303334"
 ---
-# <a name="querydefupdatable-property-dao"></a>Свойство QueryDef. обновляемое свойство (DAO)
+# <a name="querydefupdatable-property-dao"></a>Свойство QueryDef.Updatable (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,11 +23,11 @@ ms.locfileid: "32303334"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Updatable
+*выражение .* Updatable
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 
 ## <a name="remarks"></a>Примечания
 
-Для свойства **обновляемого** объекта **QueryDef** задается значение **true** , если определение запроса можно обновить, даже если полученный объект **[Recordset](recordset-object-dao.md)** не обновляется.
+Свойство **Updatable** объекта **QueryDef** имеет свойство **True,** если определение запроса можно обновить, даже если итоговая версия объекта **[Recordset](recordset-object-dao.md)** не может быть обновлена.
 

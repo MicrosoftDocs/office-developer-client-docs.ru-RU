@@ -1,5 +1,5 @@
 ---
-title: Метод QueryDef. Refresh (DAO)
+title: Метод QueryDefs.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: 4379a02a-cc92-7cc5-969d-7102b5356e88
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192942(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300933"
 ---
-# <a name="querydefsrefresh-method-dao"></a>Метод QueryDef. Refresh (DAO)
+# <a name="querydefsrefresh-method-dao"></a>Метод QueryDefs.Refresh (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,11 +23,11 @@ ms.locfileid: "32300933"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Обновление
+*выражение .* Обновление
 
-*Expression (выражение* ) Переменная, представляющая объект **QueryDef** .
+*выражение* Переменная, представляюная объект **QueryDefs.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Невозможно использовать метод **Refresh** с непостоянными коллекциями, такими как **подключения**, **базы данных**, **наборы записей**, **рабочие области**или коллекция **QueryDef** объекта **Connection** .
+Метод Refresh нельзя  использовать с неохраняемой коллекцией, например **Connections, Databases,** **Recordsets,** **Workspaces** или **коллекцией QueryDefs** объекта **Connection.** 
 

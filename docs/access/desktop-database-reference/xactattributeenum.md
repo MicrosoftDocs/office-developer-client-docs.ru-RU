@@ -1,5 +1,5 @@
 ---
-title: Ксактаттрибутинум (Справочник по базам данных Access на компьютере)
+title: XactAttributeEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: XactAttributeEnum
 ms:assetid: 9206698b-7cfa-1229-2701-f2b6949e54fc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249643(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32302571"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает атрибуты транзакции для объекта [Connection](connection-object-ado.md) .
+Указывает атрибуты транзакции объекта [Connection.](connection-object-ado.md)
 
 <br/>
 
@@ -37,14 +37,14 @@ ms.locfileid: "32302571"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адксактабортретаининг</strong></p></td>
+<td><p><strong>adXactAbortRetaining</strong></p></td>
 <td><p>262144</p></td>
-<td><p>Выполняет сохранение аварийных завершений; то есть при вызове <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> автоматически запускается новая транзакция. Не все поставщики поддерживают эту возможность.</p></td>
+<td><p>Выполняет сохранение прерывания; то есть вызов <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">RollbackTrans</a> автоматически запускает новую транзакцию. Это поддерживают не все поставщики.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адксакткоммитретаининг</strong></p></td>
+<td><p><strong>adXactCommitRetaining</strong></p></td>
 <td><p>131072</p></td>
-<td><p>Сохраняет фиксации; то есть при вызове <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> автоматически запускается новая транзакция. Не все поставщики поддерживают эту возможность.</p></td>
+<td><p>Выполняет сохранение фиксаций; то есть вызов <a href="begintrans-committrans-and-rollbacktrans-methods-ado.md">CommitTrans</a> автоматически запускает новую транзакцию. Это поддерживают не все поставщики.</p></td>
 </tr>
 </tbody>
 </table>
@@ -52,7 +52,7 @@ ms.locfileid: "32302571"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -65,10 +65,10 @@ ms.locfileid: "32302571"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Ксактаттрибуте. АБОРТРЕТАИНИНГ</p></td>
+<td><p>AdoEnums.XactAttribute.ABORTRETAINING</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Ксактаттрибуте. КОММИТРЕТАИНИНГ</p></td>
+<td><p>AdoEnums.XactAttribute.COMMITRETAINING</p></td>
 </tr>
 </tbody>
 </table>

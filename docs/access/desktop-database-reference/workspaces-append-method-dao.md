@@ -1,5 +1,5 @@
 ---
-title: Метод workspaces. append (DAO)
+title: Метод Workspaces.Append (DAO)
 TOCTitle: Append Method
 ms:assetid: 195c26a6-a1d1-40a8-7e7e-13cd632008b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845644(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302494"
 ---
-# <a name="workspacesappend-method-dao"></a>Метод workspaces. append (DAO)
+# <a name="workspacesappend-method-dao"></a>Метод Workspaces.Append (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Добавляет новую **рабочую область** в коллекцию **workspaces** .
+Добавляет новую **область workspace** в **коллекцию Workspaces.**
 
 ## <a name="syntax"></a>Синтаксис
 
 *выражение* .Append(***Object***)
 
-*Expression (выражение* ) Переменная, представляющая объект **workspaces** .
+*выражение* Переменная, представляюная **объект Workspaces.**
 
 ## <a name="parameters"></a>Параметры
 

@@ -1,5 +1,5 @@
 ---
-title: Перечисление Куеридефтипинум (DAO)
+title: QueryDefTypeEnum enumeration (DAO)
 TOCTitle: QueryDefTypeEnum Enumeration
 ms:assetid: 4327af31-daa1-88a2-fef5-8894181eee8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192931(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300919"
 ---
-# <a name="querydeftypeenum-enumeration-dao"></a>Перечисление Куеридефтипинум (DAO)
+# <a name="querydeftypeenum-enumeration-dao"></a>QueryDefTypeEnum enumeration (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется со свойством **Type** для указания типа объекта **QueryDef** .
+Используется со **свойством Type** для указания типа объекта **QueryDef.**
 
 <table>
 <colgroup>
@@ -36,69 +36,69 @@ ms.locfileid: "32300919"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>дбкактион</p></td>
+<td><p>dbQAction</p></td>
 <td><p>240</p></td>
-<td><p>Запрос на изменение</p></td>
+<td><p>Запрос на действие</p></td>
 </tr>
 <tr class="even">
-<td><p>дбкаппенд</p></td>
+<td><p>dbQAppend</p></td>
 <td><p>64</p></td>
-<td><p>Запрос на добавление</p></td>
+<td><p>Запрос на приложение</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбккомпаунд</p></td>
+<td><p>dbQCompound</p></td>
 <td><p>160</p></td>
 <td><p>Составной запрос</p></td>
 </tr>
 <tr class="even">
-<td><p>дбккросстаб</p></td>
+<td><p>dbQCrosstab</p></td>
 <td><p>16 </p></td>
 <td><p>Перекрестный запрос</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбкддл</p></td>
+<td><p>dbQDDL</p></td>
 <td><p>96</p></td>
 <td><p>Запрос языка определения данных (DDL)</p></td>
 </tr>
 <tr class="even">
-<td><p>дбкделете</p></td>
+<td><p>dbQDelete</p></td>
 <td><p>32</p></td>
-<td><p>Запрос на удаление</p></td>
+<td><p>Удаление запроса</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбкмакетабле</p></td>
+<td><p>dbQMakeTable</p></td>
 <td><p>80</p></td>
-<td><p>Запрос на создание таблицы</p></td>
+<td><p>Запрос "Make-table"</p></td>
 </tr>
 <tr class="even">
-<td><p>дбкпроцедуре</p></td>
+<td><p>dbQProcedure</p></td>
 <td><p>224</p></td>
-<td><p>Процедура SQL, которая выполняет хранимую процедуру</p></td>
+<td><p>SQL, которая выполняет хранимую процедуру</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбкселект</p></td>
-<td><p>нуль</p></td>
-<td><p>Запрос на выборку</p></td>
+<td><p>dbQSelect</p></td>
+<td><p>0</p></td>
+<td><p>Выбор запроса</p></td>
 </tr>
 <tr class="even">
-<td><p>дбксетоператион</p></td>
+<td><p>dbQSetOperation</p></td>
 <td><p>128</p></td>
-<td><p>Запрос на определение операции</p></td>
+<td><p>Настройка запроса на операцию</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбксптбулк</p></td>
+<td><p>dbQSPTBulk</p></td>
 <td><p>144</p></td>
-<td><p>Запрос массовой операции</p></td>
+<td><p>Запрос на массовые операции</p></td>
 </tr>
 <tr class="even">
-<td><p>дбксклпасссраугх</p></td>
+<td><p>dbQSQLPassThrough</p></td>
 <td><p>112</p></td>
-<td><p>Запрос к серверу SQL</p></td>
+<td><p>SQL сквозной запрос</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбкупдате</p></td>
+<td><p>dbQUpdate</p></td>
 <td><p>48</p></td>
-<td><p>Запрос на обновление</p></td>
+<td><p>Обновление запроса</p></td>
 </tr>
 </tbody>
 </table>

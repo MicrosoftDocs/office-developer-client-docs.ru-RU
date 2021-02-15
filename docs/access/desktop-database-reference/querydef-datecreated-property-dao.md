@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. DateCreated (DAO)
+title: Свойство QueryDef.DateCreated (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: f7585b34-8314-fb9f-daa6-cd1a8ad59d91
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836910(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301073"
 ---
-# <a name="querydefdatecreated-property-dao"></a>Свойство QueryDef. DateCreated (DAO)
+# <a name="querydefdatecreated-property-dao"></a>Свойство QueryDef.DateCreated (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает дату и время создания объекта (только для рабочих областей Microsoft Access). Только для чтения, **Variant**.
+Возвращает дату и время создания объекта (только для рабочей области Microsoft Access). Только для чтения, **Variant**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . DateCreated
+*выражение .* DateCreated
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 
 ## <a name="remarks"></a>Примечания
 
-**DateCreated** и **ластупдатед** возвращают дату и время создания или последнего обновления объекта. В многопользовательской среде пользователи должны получить эти параметры непосредственно с файлового сервера, чтобы избежать расхождений в параметрах свойств DateCreated и Ластупдатед.
+**DateCreated** и **LastUpdated** возвращают дату и время создания или последнего обновления объекта. В многоядерной среде пользователи должны получить эти параметры непосредственно с файлового сервера, чтобы избежать несоответствий в параметрах свойств DateCreated и LastUpdated.
 

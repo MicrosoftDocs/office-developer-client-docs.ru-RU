@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект Property (DAO)
+title: Справочник по объекту Property (DAO)
 TOCTitle: Property Object
 ms:assetid: f480f51c-5333-4a10-afcd-73713291c7d7
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180085(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303005"
 ---
-# <a name="property-object-reference-dao"></a>Ссылка на объект Property (DAO)
+# <a name="property-object-reference-dao"></a>Справочник по объекту Property (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Property (DAO)](property-object-dao.md)
-- [Элементы Property (DAO)](property-members-dao.md)
-- [Свойства свойств (DAO)](property-properties-dao.md)
+- [Property members (DAO)](property-members-dao.md)
+- [Свойства (DAO)](property-properties-dao.md)
 

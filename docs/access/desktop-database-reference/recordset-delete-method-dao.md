@@ -23,7 +23,7 @@ ms.locfileid: "32300548"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Удален
+*выражение .* Delete
 
 *expression*: переменная, представляющая объект **Recordset**.
 

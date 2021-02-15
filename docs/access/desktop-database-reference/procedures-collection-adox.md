@@ -1,5 +1,5 @@
 ---
-title: Коллекция процедур (ADOX)
+title: Коллекция Procedures (ADOX)
 TOCTitle: Procedures collection (ADOX)
 ms:assetid: e1ca53ad-1213-b514-e015-e18c2ab15e23
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250150(v=office.15)
@@ -14,26 +14,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301360"
 ---
-# <a name="procedures-collection-adox"></a>Коллекция процедур (ADOX)
+# <a name="procedures-collection-adox"></a>Коллекция Procedures (ADOX)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Содержит все объекты [процедур](procedure-object-adox.md) каталога.
+Содержит все [объекты Procedure](procedure-object-adox.md) каталога.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Метод [append](append-method-adox-procedures.md) для коллекции **процедур** уникален для ADOX. Вы можете выполнить указанные ниже действия.
+Метод [Append](append-method-adox-procedures.md) для коллекции **Procedures** уникален для ADOX. Вы можете выполнить указанные ниже действия.
 
-  - Добавьте новую процедуру в коллекцию с помощью метода **append** .
+  - Добавьте новую процедуру в коллекцию с помощью **метода Append.**
 
 Остальные свойства и методы являются стандартными для коллекций ADO. Вы можете выполнить указанные ниже действия.
 
-  - Доступ к процедуре в коллекции со свойством [Item](item-property-ado.md) .
+  - Доступ к процедуре в коллекции с помощью [свойства Item.](item-property-ado.md)
 
-  - Возвращает количество хранимых в коллекции процедур со свойством [Count](count-property-ado.md) .
+  - Возвращает количество процедур, содержащихся в коллекции, со свойством [Count.](count-property-ado.md)
 
-  - Удаление процедуры из коллекции с помощью метода [Delete](delete-method-adox-collections.md) .
+  - Удалите процедуру из коллекции с помощью метода [Delete.](delete-method-adox-collections.md)
 
-  - Обновление объектов в коллекции в соответствии с схемой текущей базы данных с помощью метода [Refresh](refresh-method-ado.md) .
+  - Обновите объекты в коллекции, чтобы отразить схему текущей базы данных с помощью метода [Refresh.](refresh-method-ado.md)
 

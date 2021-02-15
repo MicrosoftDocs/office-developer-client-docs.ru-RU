@@ -1,5 +1,5 @@
 ---
-title: Сценарий RDS (Справочник по базам данных Access на компьютере)
+title: Сценарий RDS (справочник по базам данных Access для настольных ПК)
 TOCTitle: RDS scenario
 ms:assetid: 61b4b047-4a8f-491c-868e-08aa87d81dff
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249361(v=office.15)

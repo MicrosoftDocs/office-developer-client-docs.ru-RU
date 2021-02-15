@@ -1,5 +1,5 @@
 ---
-title: Метод Properties. Delete (DAO)
+title: Метод Properties.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: dc2493c6-337c-cb56-7c0d-36762528fa43
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835356(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301255"
 ---
-# <a name="propertiesdelete-method-dao"></a>Метод Properties. Delete (DAO)
+# <a name="propertiesdelete-method-dao"></a>Метод Properties.Delete (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Удаляет указанный объект **Property** из коллекции **свойств** .
+Удаляет указанный объект **Property** из коллекции **Properties.**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Delete (***имя***)
+*выражение .* ***Delete(Name)***
 
-*Expression (выражение* ) Переменная, представляющая объект **Properties** .
+*выражение* Переменная, представляюная объект **Properties.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -47,7 +47,7 @@ ms.locfileid: "32301255"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Строка</strong></p></td>
 <td><p>Имя удаляемого свойства.</p></td>
 </tr>
 </tbody>

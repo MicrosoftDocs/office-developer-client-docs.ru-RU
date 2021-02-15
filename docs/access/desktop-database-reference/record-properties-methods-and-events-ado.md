@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события записей (ADO)
+title: Record properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c38c915c-da8f-ce52-cf36-7463829d2278
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249956(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300716"
 ---
-# <a name="record-properties-methods-and-events-ado"></a>Свойства, методы и события записей (ADO)
+# <a name="record-properties-methods-and-events-ado"></a>Record properties, methods, and events (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство ActiveConnection](activeconnection-property-ado.md)
 - [Коллекция Fields](fields-collection-ado.md)

@@ -1,5 +1,5 @@
 ---
-title: Коллекция Views, пример свойства CommandText (VB)
+title: Пример коллекции Views, свойства CommandText (VB)
 TOCTitle: Views Collection, CommandText property example (VB)
 ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
@@ -19,7 +19,7 @@ ms.locfileid: "32302781"
 
 **Область применения**: Access 2013, Office 2013
 
-В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) для обновления текста представления.
+В следующем коде показано, как использовать свойство [Command](command-property-adox.md) для обновления текста представления.
 
 ```vb 
  

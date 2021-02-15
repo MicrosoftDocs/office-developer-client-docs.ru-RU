@@ -1,5 +1,5 @@
 ---
-title: Метод QueryDef. Delete (DAO)
+title: Метод QueryDefs.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: a93a93d9-7b5e-c8be-588e-37addb076025
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821426(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303453"
 ---
-# <a name="querydefsdelete-method-dao"></a>Метод QueryDef. Delete (DAO)
+# <a name="querydefsdelete-method-dao"></a>Метод QueryDefs.Delete (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -22,9 +22,9 @@ ms.locfileid: "32303453"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Delete (***имя***)
+*выражение .* ***Delete(Name)***
 
-*Expression (выражение* ) Переменная, представляющая объект **QueryDef** .
+*выражение* Переменная, представляюная объект **QueryDefs.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -47,7 +47,7 @@ ms.locfileid: "32303453"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
+<td><p><strong>Строка</strong></p></td>
 <td><p>Н/Д</p></td>
 </tr>
 </tbody>

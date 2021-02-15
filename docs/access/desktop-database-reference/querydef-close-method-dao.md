@@ -1,5 +1,5 @@
 ---
-title: Метод QueryDef. Close (DAO)
+title: Метод QueryDef.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: b2b63462-453d-9e2b-0bb3-69a4a7a6ecef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822031(v=office.15)
@@ -18,12 +18,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303306"
 ---
-# <a name="querydefclose-method-dao"></a>Метод QueryDef. Close (DAO)
+# <a name="querydefclose-method-dao"></a>Метод QueryDef.Close (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Закрывает открытый объект **QueryDef**.
+Закрывает открытый **queryDef.**
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -33,7 +33,7 @@ ms.locfileid: "32303306"
 
 ## <a name="remarks"></a>Примечания
 
-Если объект **QueryDef** уже закрыт при использовании **Close**, возникает ошибка времени выполнения.
+Если объект **QueryDef уже закрыт** при использовании **close,** возникает ошибка во время выполнения.
 
 Альтернатива методу **Close** заключается в присвоении объектной переменной значения **Nothing** (Set dbsTemp = Nothing).
 

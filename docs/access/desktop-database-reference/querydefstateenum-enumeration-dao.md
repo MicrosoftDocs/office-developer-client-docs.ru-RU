@@ -1,5 +1,5 @@
 ---
-title: Перечисление Куеридефстатинум (DAO)
+title: QueryDefStateEnum enumeration (DAO)
 TOCTitle: QueryDefStateEnum Enumeration
 ms:assetid: edfa3085-f8b4-b813-0828-2ba2a9dc0b9d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836359(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303320"
 ---
-# <a name="querydefstateenum-enumeration-dao"></a>Перечисление Куеридефстатинум (DAO)
+# <a name="querydefstateenum-enumeration-dao"></a>QueryDefStateEnum enumeration (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется с свойством **Prepare** для указания метода, используемого для указания способа подготовки запроса.
+Используется со **свойством Prepare,** чтобы указать метод, используемый для указания способа подготовки запроса.
 
 <table>
 <colgroup>
@@ -36,14 +36,14 @@ ms.locfileid: "32303320"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>дбкпрепаре</p></td>
-<td><p>1,1</p></td>
-<td><p>Умолчани Оператор подготовлен (то есть вызывается API ODBC Склпрепаре).</p></td>
+<td><p>dbQPrepare</p></td>
+<td><p>1 </p></td>
+<td><p>(По умолчанию) Это утверждение подготовлено (то есть называется API SQLPrepare ODBC).</p></td>
 </tr>
 <tr class="even">
-<td><p>дбкунпрепаре</p></td>
-<td><p>2</p></td>
-<td><p>Инструкция не подготовлена (то есть вызывается API-интерфейс ODBC Склексекдирект).</p></td>
+<td><p>dbQUnprepare</p></td>
+<td><p>2 </p></td>
+<td><p>Этот запрос не подготовлен (то есть называется API SQLExecDirect ODBC).</p></td>
 </tr>
 </tbody>
 </table>

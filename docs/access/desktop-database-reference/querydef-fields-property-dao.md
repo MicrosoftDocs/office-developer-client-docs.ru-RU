@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. Fields (DAO)
+title: Свойство QueryDef.Fields (DAO)
 TOCTitle: Fields Property
 ms:assetid: 72b60c04-fd20-cfa3-d5f6-d0472ea5478b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195834(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301066"
 ---
-# <a name="querydeffields-property-dao"></a>Свойство QueryDef. Fields (DAO)
+# <a name="querydeffields-property-dao"></a>Свойство QueryDef.Fields (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **[Fields](fields-collection-dao.md)** , которая представляет все сохраненные объекты **[field](field-object-dao.md)** для указанного объекта. Только для чтения.
+Возвращает коллекцию **[Fields,](fields-collection-dao.md)** которая представляет все сохраненные объекты **[Field](field-object-dao.md)** для указанного объекта. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Поле
+*выражение .* Поля
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 

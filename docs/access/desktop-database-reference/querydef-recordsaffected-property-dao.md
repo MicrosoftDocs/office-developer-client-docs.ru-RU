@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. Рекордсаффектед (DAO)
+title: Свойство QueryDef.RecordsAffected (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 29a864b5-305c-d33f-b2ca-fc9a08baaa5c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192040(v=office.15)
@@ -18,26 +18,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300968"
 ---
-# <a name="querydefrecordsaffected-property-dao"></a>Свойство QueryDef. Рекордсаффектед (DAO)
+# <a name="querydefrecordsaffected-property-dao"></a>Свойство QueryDef.RecordsAffected (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает число записей, затронутых последним вызванным методом **[EXECUTE](querydef-execute-method-dao.md)** .
+Возвращает количество записей, затронутых последним вызовом метода **[Execute.](querydef-execute-method-dao.md)**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . рекордсаффектед
+*выражение .* RecordsAffected
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 
 ## <a name="remarks"></a>Примечания
 
-При использовании метода **EXECUTE** для выполнения запроса на изменение объекта **QueryDef** свойство **рекордсаффектед** будет содержать число записей, удаленных, обновленных или вставленных.
+При использовании метода **Execute** для выполнения запроса на действие из объекта **QueryDef** свойство **RecordsAffected** будет содержать количество удаленных, обновленных или вставленных записей.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется свойство **рекордсаффектед** с запросами на изменение, выполненными из объекта **[базы данных](database-object-dao.md)** и из объекта **QueryDef** . Для выполнения этой процедуры требуется функция Рекордсаффектедаутпут.
+В этом примере используется свойство **RecordsAffected** с запросами действий, которые выполняются из объекта **[Database](database-object-dao.md)** и **из объекта QueryDef.** Для запуска этой процедуры требуется функция RecordsAffectedOutput.
 
 ```vb
     Sub RecordsAffectedX() 

@@ -1,5 +1,5 @@
 ---
-title: Методы рабочих областей (DAO)
+title: Методы Workspace (DAO)
 TOCTitle: Methods
 ms:assetid: 20faf18e-4c9f-4802-a7c5-5297debfd712
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123992(v=office.15)
@@ -14,15 +14,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305882"
 ---
-# <a name="workspace-methods-dao"></a>Методы рабочих областей (DAO)
+# <a name="workspace-methods-dao"></a>Методы Workspace (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Метод Workspace. BeginTrans (DAO)](workspace-begintrans-method-dao.md)
-- [Метод Workspace. Close (DAO)](workspace-close-method-dao.md)
-- [Метод Workspace. CommitTrans (DAO)](workspace-committrans-method-dao.md)
-- [Метод Workspace. CreateDatabase (DAO)](workspace-createdatabase-method-dao.md)
-- [Метод Workspace. OpenConnection (DAO)](workspace-openconnection-method-dao.md)
+- [Метод Workspace.BeginTrans (DAO)](workspace-begintrans-method-dao.md)
+- [Метод Workspace.Close (DAO)](workspace-close-method-dao.md)
+- [Метод Workspace.CommitTrans (DAO)](workspace-committrans-method-dao.md)
+- [Метод Workspace.CreateDatabase (DAO)](workspace-createdatabase-method-dao.md)
+- [Метод Workspace.OpenConnection (DAO)](workspace-openconnection-method-dao.md)
 - [Метод Workspace.OpenDatabase (DAO)](workspace-opendatabase-method-dao.md)
-- [Метод Workspace. Rollback (DAO)](workspace-rollback-method-dao.md)
+- [Метод Workspace.Rollback (DAO)](workspace-rollback-method-dao.md)
 

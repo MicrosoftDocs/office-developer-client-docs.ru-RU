@@ -1,5 +1,5 @@
 ---
-title: Свойства RDS (Справочник по базам данных Access на компьютере)
+title: Свойства RDS (справочник по базам данных Access для настольных ПК)
 TOCTitle: RDS properties
 ms:assetid: 002989dc-0022-d3a2-ddd2-2230837b3a63
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248775(v=office.15)
@@ -32,7 +32,7 @@ ms.locfileid: "32300842"
 </tr>
 <tr class="odd">
 <td><p><a href="connect-property-rds.md">Connect</a></p></td>
-<td><p>Указывает имя базы данных, из которой выполняются операции запроса и обновления.</p></td>
+<td><p>Указывает имя базы данных, из которой запускаются операции запроса и обновления.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="executeoptions-property-rds.md">ExecuteOptions</a></p></td>
@@ -40,35 +40,35 @@ ms.locfileid: "32300842"
 </tr>
 <tr class="odd">
 <td><p><a href="fetchoptions-property-rds.md">FetchOptions</a></p></td>
-<td><p>Указывает тип асинхронной загрузки.</p></td>
+<td><p>Указывает тип асинхронного извлечения.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="filtercolumn-property-rds.md">FilterColumn</a></p></td>
-<td><p>Указывает столбец, для которого необходимо оценить условия фильтра.</p></td>
+<td><p>Указывает столбец, по которому следует оценить условия фильтрации.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="filtercriterion-property-rds.md">FilterCriterion</a></p></td>
-<td><p>Указывает оператор оценки для использования в значении фильтра.</p></td>
+<td><p>Указывает оператор оценки, который будет использовать в значении фильтра.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="filtervalue-property-rds.md">FilterValue</a></p></td>
 <td><p>Указывает значение для фильтрации записей.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="handler-property-rds.md">Событий</a></p></td>
-<td><p>Указывает имя программы настройки на стороне сервера (<em>обработчика</em>), расширяющей функциональные возможности <strong>рдссервер.</strong>, и все параметры, используемые <em>обработчиком</em>.</p></td>
+<td><p><a href="handler-property-rds.md">Обработник</a></p></td>
+<td><p>Указывает имя программы настройки на стороне<em></em>сервера (обработчик), которая расширяет функциональные возможности <strong>RDSServer.DataFactory</strong>и любые параметры, используемые обработчиком. <em></em></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="internettimeout-property-rds.md">InternetTimeout</a></p></td>
-<td><p>Указывает время ожидания (в миллисекундах) до истечения времени ожидания запроса.</p></td>
+<td><p>Указывает время ожидания запроса в миллисекунах.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="readystate-property-rds.md">ReadyState</a></p></td>
-<td><p>Показывает ход выполнения объекта " <strong>элемент управления</strong> данными" при получении данных в объект <strong>Recordset</strong> .</p></td>
+<td><p>Указывает ход выполнения объекта <strong>DataControl</strong> при извлечении данных в объект <strong>Recordset.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="recordset-sourcerecordset-properties-rds.md">Наборы записей и SourceRecordset</a></p></td>
-<td><p>Указывает объект <strong>Recordset</strong> , возвращенный из настраиваемого бизнес-объекта.</p></td>
+<td><p><a href="recordset-sourcerecordset-properties-rds.md">Recordset и SourceRecordset</a></p></td>
+<td><p>Указывает объект <strong>Recordset,</strong> возвращенный из пользовательского бизнес-объекта.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="server-property-rds.md">Server</a></p></td>
@@ -76,19 +76,19 @@ ms.locfileid: "32300842"
 </tr>
 <tr class="even">
 <td><p><a href="sortcolumn-property-rds.md">SortColumn</a></p></td>
-<td><p>Указывает, по какому столбцу следует отсортировать записи.</p></td>
+<td><p>Указывает, по каков столбец сортировать записи.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="sortdirection-property-rds.md">SortDirection</a></p></td>
-<td><p>Указывает, используется ли порядок сортировки по возрастанию или убыванию.</p></td>
+<td><p>Указывает, является ли порядок сортировки по возрастанию или убыванию.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
-<td><p>Указывает строку запроса, используемую для получения объекта <strong>Recordset</strong>.</p></td>
+<td><p>Указывает строку запроса, используемую для получения <strong>recordset.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="url-property-rds.md">URL</a></p></td>
-<td><p>Указывает строку, содержащую относительный или абсолютный URL-адрес.</p></td>
+<td><p><a href="url-property-rds.md">URL-адрес</a></p></td>
+<td><p>Указывает строку, которая содержит относительный или абсолютный URL-адрес.</p></td>
 </tr>
 </tbody>
 </table>

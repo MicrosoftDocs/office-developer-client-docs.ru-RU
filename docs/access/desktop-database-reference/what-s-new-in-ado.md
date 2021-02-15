@@ -1,5 +1,5 @@
 ---
-title: Новые возможности объектов данных ActiveX (ADO)
+title: Новые возможности в ActiveX Data Objects (ADO)
 TOCTitle: What's new in ADO
 ms:assetid: fd3d0f9c-e9df-d130-13e3-757620e9400c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250297(v=office.15)
@@ -18,25 +18,25 @@ ms.locfileid: "32302613"
 
 **Область применения**: Access 2013, Office 2013 
  
-В выпуске ADO 2,5 включены следующие новые функции и расширенная документация. В этом списке рассматриваются ADO, ADO MD и ADOX.
+Следующие новые функции и улучшенная документация включены в выпуск ADO 2.5. Этот список охватывает ADO, ADO MD и ADOX.
 
 ## <a name="new-features"></a>Новые функции
 
 - **[Записи и потоки](chapter-10-records-and-streams.md)**
 
-  В этом выпуске ADO представлен объект [Record](record-object-ado.md) , который может представлять и управлять такими объектами, как каталоги и файлы в файловой системе, а также папками и сообщениями в системе электронной почты. **Запись** также может представлять собой строку в [наборе записей](recordset-object-ado.md), хотя объекты **записей** и **наборов записей** имеют различные методы и свойства.
+  В этом выпуске ADO представлен объект [Record,](record-object-ado.md) который может представлять такие объекты, как каталоги и файлы в файловой системе, а также папки и сообщения в почтовой системе и управлять ими. Запись **также** может представлять строку в наборе [записей,](recordset-object-ado.md)хотя объекты **Record** и **Recordset** имеют разные методы и свойства.
 
-  Новый объект [Stream](stream-object-ado.md) предоставляет средства для чтения, записи и управления двоичным потоком байтов или текстом, составляющим поток файла или сообщения.
+  Новый объект [Stream](stream-object-ado.md) предоставляет средства чтения, записи и управления двоичным потоком (в том или ином виде) или текстом, составляющим файл или поток сообщений.
 
 - **[Использование URL-адресов](absolute-and-relative-urls.md)**
 
-  В этом выпуске также представлено использование URL-адресов, в качестве альтернативы строке подключения и тексту команды, для именования объектов хранилища данных. URL-адреса можно использовать с существующими объектами [Connection](connection-object-ado.md) и **Recordset** , а также с новыми объектами **Record** и **Stream** .
+  В этом выпуске также вводится использование URL-адресов в качестве альтернативы строкам подключения и тексту команд для имен объектов хранения данных. URL-адреса могут использоваться с существующими объектами [Connection](connection-object-ado.md) и **Recordset,** а также с новыми объектами **Record** и **Stream.**
 
-  В этом выпуске ADO поддерживает поставщиков OLE DB, распознающих собственные схемы URL-адресов. Например, [поставщик OLE DB для публикации в Интернете](microsoft-ole-db-provider-for-internet-publishing.md)*,* который получает доступ к файловой системе Windows 2000, распознает существующую схему HTTP.
+  В этом выпуске ADO поддерживает поставщиков OLE DB, которые распознают собственные схемы URL-адресов. Например, поставщик [OLE DB для](microsoft-ole-db-provider-for-internet-publishing.md)публикации в *Интернете,* который имеет доступ к файловой системе Windows 2000, распознает существующую схему HTTP.
 
-- **[Специальные поля для поставщиков источника документов](records-and-provider-supplied-fields.md)**
+- **[Специальные поля для поставщиков источников документов](records-and-provider-supplied-fields.md)**
 
-  Особый класс поставщиков, называемый поставщиками *источников документов* , Управление папками и документами. Когда объект **Record** представляет документ, или объект **Recordset** представляет папку документов, поставщик источника документа заполняет эти объекты уникальным набором полей, описывающих характеристики документа. Эти поля составляют запись *ресурса* **Record** или **набор записей**.
+  Особый класс поставщиков, называемых *поставщиками* источников документов, управляет папками и документами. Когда объект **Record** представляет документ или объект **Recordset** представляет папку документов, поставщик источника документов заполняет эти объекты уникальным набором полей, описывая характеристики документа. Эти поля представляют собой *запись ресурса*  или **набор записей.**
 
 ## <a name="new-reference-topics"></a>Новые справочные разделы
 
@@ -58,7 +58,7 @@ ms.locfileid: "32302613"
 <tbody>
 <tr class="odd">
 <td><p><a href="charset-property-ado.md">Charset</a></p></td>
-<td><p>Указывает набор символов, в который необходимо перевести содержимое текстового объекта <strong>потока</strong> .</p></td>
+<td><p>Указывает набор символов, в который необходимо перевести содержимое текстового объекта <strong>Stream.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="eos-property-ado.md">EOS</a></p></td>
@@ -66,39 +66,39 @@ ms.locfileid: "32302613"
 </tr>
 <tr class="odd">
 <td><p><a href="lineseparator-property-ado.md">LineSeparator</a></p></td>
-<td><p>Указывает двоичный символ, который будет использоваться в качестве разделителя строк в текстовых объектах <strong>потока</strong> .</p></td>
+<td><p>Указывает двоичный символ, который будет использоваться в качестве разных строк в текстовых <strong>объектах Stream.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="mode-property-ado.md">Mode</a></p></td>
-<td><p>Указывает доступные разрешения для изменения данных в объекте <strong>подключения</strong>, <strong>записи</strong>или <strong>потоке</strong> .</p></td>
+<td><p>Указывает доступные разрешения на изменение данных в объекте <strong>Connection,</strong> <strong>Record</strong>или <strong>Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="parenturl-property-ado.md">ParentURL</a></p></td>
-<td><p>Указывает строку абсолютного URL-адреса, указывающую на родительскую <strong>запись</strong> текущего объекта <strong>Record</strong> .</p></td>
+<td><p>Указывает абсолютную строку URL-адреса, которая указывает на родительская <strong>запись</strong> текущего объекта <strong>Record.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="position-property-ado.md">Position</a></p></td>
-<td><p>Указывает текущее положение в объекте <strong>Stream</strong> .</p></td>
+<td><p>Указывает текущее положение в <strong>объекте Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="recordtype-property-ado.md">RecordType</a></p></td>
-<td><p>Указывает тип объекта <strong>Record</strong> .</p></td>
+<td><p>Указывает тип объекта <strong>Record.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream">Размер</a></p></td>
-<td><p>Указывает размер потока в байтах.</p></td>
+<td><p>Указывает размер потока в количестве в 100 000 000 000 000 000 000 000 00</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="source-property-ado-record.md">Source</a></p></td>
-<td><p>Указывает сущность, представленную объектом <strong>Record</strong> .</p></td>
+<td><p>Указывает сущность, представленную объектом <strong>Record.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="state-property-ado.md">State</a></p></td>
-<td><p>Указывает для всех применяемых объектов, независимо от того, является ли состояние объекта открытым или закрытым. Указывает на то, что все применяемые объекты выполняют асинхронный метод, независимо от того, является ли текущее состояние объекта подключением, выполнением или извлечением.</p></td>
+<td><p>Указывает на все применимые объекты, независимо от того, является ли состояние объекта открытым или закрытым. Указывает для всех применимых объектов, которые выполняют асинхронный метод, независимо от того, подключается ли, выполняется или выполняется текущий объект.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="type-property-ado-stream.md">Тип</a></p></td>
-<td><p>Указывает тип данных, которые хранятся в объекте <strong>Stream</strong> (двоичный или текстовый).</p></td>
+<td><p>Указывает тип данных, содержащихся в объекте <strong>Stream</strong> (двоичный или текстовый).</p></td>
 </tr>
 </tbody>
 </table>
@@ -121,83 +121,83 @@ ms.locfileid: "32302613"
 <tbody>
 <tr class="odd">
 <td><p><a href="copyrecord-method-ado.md">CopyRecord</a></p></td>
-<td><p>Копирует файл или каталог, а также его содержимое в другое расположение.</p></td>
+<td><p>Копирует файл или каталог и его содержимое в другое расположение.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="copyto-method-ado.md">CopyTo</a></p></td>
-<td><p>Копирует указанное число символов или байтов (в зависимости от <strong>типа</strong>) в <strong>объекте</strong> <strong>Stream</strong> в другой объект <strong>Stream</strong> .</p></td>
+<td><p>Копирует указанное количество символов или ветвей (в зависимости от <strong>типа)</strong>в <strong>объекте Stream</strong> <strong></strong> в другой <strong>объект Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="deleterecord-method-ado.md">DeleteRecord</a></p></td>
-<td><p>Удаляет файл или каталог и все его подкаталоги.</p></td>
+<td><p>Удаляет файл или каталог и все его подкадиректоры.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="flush-method-ado.md">Удален</a></p></td>
-<td><p>Принудительно применяет содержимое объекта <strong>Stream</strong> в буфере ADO к базовому объекту, с которым связан объект <strong>Stream</strong> .</p></td>
+<td><p><a href="flush-method-ado.md">Flush</a></p></td>
+<td><p>Привнося содержимое объекта <strong>Stream,</strong> оставшегося в буфере ADO, к основному объекту, с которым связан объект <strong>Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="getchildren-method-ado.md">GetChildren</a></p></td>
-<td><p>Возвращает объект <strong>Recordset</strong> , строки которого представляют файлы и подкаталоги в каталоге, представленном этой <strong>записью.</strong></p></td>
+<td><p>Возвращает набор <strong>записей,</strong> строки которого представляют файлы и подкадиректоры в каталоге, представленном этой <strong>записью.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="loadfromfile-method-ado.md">LoadFromFile</a></p></td>
-<td><p>Загружает содержимое существующего файла в объект <strong>Stream</strong> .</p></td>
+<td><p>Загружает содержимое существующего файла в объект <strong>Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="moverecord-method-ado.md">MoveRecord</a></p></td>
-<td><p>Перемещает файл или каталог вместе с его содержимым в другое расположение.</p></td>
+<td><p>Перемещает файл или каталог и его содержимое в другое расположение.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="open-method-ado-record.md">Open</a></p></td>
-<td><p>Открывает существующий объект <strong>Record</strong> или создает новый файл или каталог.</p></td>
+<td><p>Открывает существующий <strong>объект Record</strong> или создает новый файл или каталог.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="open-method-ado-stream.md">Open</a></p></td>
 <td><p>Открывает объект <strong>Stream</strong> для управления потоками двоичных или текстовых данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="read-method-ado.md">Чтение</a></p></td>
-<td><p>Считывает указанное число байтов из двоичного объекта <strong>Stream</strong> .</p></td>
+<td><p><a href="read-method-ado.md">Read</a></p></td>
+<td><p>Считывает указанное количество ветвей из двоичного объекта <strong>Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="readtext-method-ado.md">ReadText</a></p></td>
-<td><p>Считывает указанное число символов из текстового объекта <strong>потока</strong> .</p></td>
+<td><p>Считывая указанное количество символов из объекта <strong>Text Stream.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="savetofile-method-ado.md">SaveToFile</a></p></td>
-<td><p>Сохраняет двоичное содержимое <strong>потока</strong> в файл.</p></td>
+<td><p>Сохраняет двоичное содержимое <strong>Stream</strong> в файл.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="seteos-method-ado.md">SetEOS</a></p></td>
-<td><p>Задает позицию, которая является концом потока.</p></td>
+<td><p>Задает положение, которое является окончанием потока.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="skipline-method-ado.md">SkipLine</a></p></td>
-<td><p>Пропускает одну строку целиком при чтении объекта текстового <strong>потока</strong> .</p></td>
+<td><p>Пропускает всю строку при чтении объекта <strong>Text Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="write-method-ado.md">Write</a></p></td>
-<td><p>Записывает двоичные данные в объект <strong>Stream</strong> .</p></td>
+<td><p>Записывает двоичные данные в <strong>объект Stream.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="writetext-method-ado.md">Инструкция</a></p></td>
-<td><p>Записывает указанную текстовую строку в объект <strong>Stream</strong> .</p></td>
+<td><p><a href="writetext-method-ado.md">WriteText</a></p></td>
+<td><p>Записывает указанную текстовую строку в <strong>объект Stream.</strong></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="new-and-enhanced-documentation"></a>Новая и расширенная документация
+## <a name="new-and-enhanced-documentation"></a>Новая и улучшенная документация
 
-- **[Разделы с примерами кода](ado-code-examples.md)**
+- **[Примеры кода](ado-code-examples.md)**
 
-  Примеры были расширены, чтобы содержать примеры кода, написанные в Microsoft Visual C++ и Microsoft Visual J++. Вы можете скопировать и вставить эти примеры кода в свой редактор.
+  Примеры были расширены и содержат примеры кода, написанные на Microsoft Visual C++ и Microsoft Visual J++. Эти примеры кода можно скопировать и вкопировать в редактор.
 
-- **[Разделы поставщика](appendix-a-providers.md)**
+- **[Разделы о поставщиках](appendix-a-providers.md)**
 
-  В этой статье описано, как использовать ADO с [поставщиком OLE DB для публикации в Интернете](microsoft-ole-db-provider-for-internet-publishing.md).
+  Включен новый раздел, поясняется, как использовать ADO с [поставщиком OLE DB для публикации в Интернете.](microsoft-ole-db-provider-for-internet-publishing.md)
 
-- **[Программирование с использованием ADO](appendix-c-programming-with-ado.md)**
+- **[Программирование с помощью ADO](appendix-c-programming-with-ado.md)**
 
-  В этом новом разделе содержатся советы и рекомендации по использованию ADO с различными языками программирования. Он содержит существующие индексы синтаксиса для расширений Visual C++ для ADO и ADO/WFC, а также новые сведения, характерные для разработчиков, использующих Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ или Microsoft Visual J++.
+  В этом новом разделе содержатся советы и рекомендации по использованию ADO с различными языками программирования. Он содержит существующие индексы синтаксиса для расширений Visual C++ для ADO и ADO/WFC, а также новые сведения для разработчиков, использующих Microsoft Visual Basic, Microsoft Visual Basic Scripting Edition, Microsoft JScript, Microsoft Visual C++ или Microsoft Visual J++.
 

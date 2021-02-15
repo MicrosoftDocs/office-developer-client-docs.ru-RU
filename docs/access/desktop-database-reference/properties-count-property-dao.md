@@ -1,5 +1,5 @@
 ---
-title: Свойство Properties. Count (DAO)
+title: Свойство Properties.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 2aa1ea3c-f1c7-3450-8da6-8323a0509859
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192069(v=office.15)
@@ -18,23 +18,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301276"
 ---
-# <a name="propertiescount-property-dao"></a>Свойство Properties. Count (DAO)
+# <a name="propertiescount-property-dao"></a>Свойство Properties.Count (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Свойство **Count** можно использовать для определения количества элементов в указанной коллекции. Только для чтения, **Long**.
+Чтобы определить **количество элементов** в указанной коллекции, можно использовать свойство Count. Только для чтения, **Long**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Отсчет
+*выражение .* Count
 
-*Expression (выражение* ) Переменная, представляющая объект **Properties** .
+*выражение* Переменная, представляюная объект **Properties.**
 
 ## <a name="see-also"></a>См. также
 
 - [Коллекция Properties](properties-collection-dao.md)
 - [Элементы коллекции Properties](properties-members-dao.md)
 - [Объект Properties (Access VBA)](https://docs.microsoft.com/office/vba/api/Access.Properties)
-- [Элементы Properties (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
+- [Properties members (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
 

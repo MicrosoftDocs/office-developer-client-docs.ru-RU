@@ -19,7 +19,7 @@ ms.locfileid: "32301339"
 
 **Область применения**: Access 2013, Office 2013
 
-В приведенном ниже коде показано, как обновить коллекцию [процедур](procedures-collection-adox.md) [каталога](catalog-object-adox.md). Это необходимо, прежде чем можно будет получить доступ к объектам [процедуры](procedure-object-adox.md) из **каталога** .
+В следующем коде показано, как обновить коллекцию [Procedures](procedures-collection-adox.md) [каталога.](catalog-object-adox.md) Это необходимо для доступа к  [объектам Procedure](procedure-object-adox.md) из каталога.
 
 ```vb 
  

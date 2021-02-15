@@ -18,13 +18,13 @@ ms.locfileid: "32305910"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство Workspace. Connections (DAO)](workspace-connections-property-dao.md)
-- [Свойство Workspace. databases (DAO)](workspace-databases-property-dao.md)
-- [Свойство Workspace. Дефаулткурсордривер (DAO)](workspace-defaultcursordriver-property-dao.md)
-- [Свойство Workspace. Исолатеодбктранс (DAO)](workspace-isolateodbctrans-property-dao.md)
-- [Свойство Workspace. LoginTimeout (DAO)](workspace-logintimeout-property-dao.md)
-- [Свойство Workspace.Name (DAO)](workspace-name-property-dao.md)
-- [Свойство Workspace. Properties (DAO)](workspace-properties-property-dao.md)
-- [Свойство Workspace. Type (DAO)](workspace-type-property-dao.md)
+- [Свойство Workspace.Connections (DAO)](workspace-connections-property-dao.md)
+- [Свойство Workspace.Databases (DAO)](workspace-databases-property-dao.md)
+- [Свойство Workspace.DefaultCursorDriver (DAO)](workspace-defaultcursordriver-property-dao.md)
+- [Свойство Workspace.IsolateODBCTrans (DAO)](workspace-isolateodbctrans-property-dao.md)
+- [Свойство Workspace.LoginTimeout (DAO)](workspace-logintimeout-property-dao.md)
+- [Workspace.Name (DAO)](workspace-name-property-dao.md)
+- [Свойство Workspace.Properties (DAO)](workspace-properties-property-dao.md)
+- [Свойство Workspace.Type (DAO)](workspace-type-property-dao.md)
 
 

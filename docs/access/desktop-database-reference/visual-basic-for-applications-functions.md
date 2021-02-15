@@ -19,7 +19,7 @@ ms.locfileid: "32302795"
 
 **Область применения**: Access 2013, Office 2013
 
-В выражениях для формирования данных можно использовать следующие функции Visual Basic для приложений:
+В выражениях CALC для формирования данных можно использовать следующие Visual Basic для приложений функции:
 
 <table style="width:100%;">
 <colgroup>
@@ -43,12 +43,12 @@ ms.locfileid: "32302795"
 <td><p>CDate</p></td>
 <td><p>CDbl</p></td>
 <td><p>Chr</p></td>
-<td><p>чрб</p></td>
+<td><p>ChrB</p></td>
 <td><p>ChrW</p></td>
-<td><p>Chr $</p></td>
+<td><p>Chr$</p></td>
 </tr>
 <tr class="odd">
-<td><p>Чрб $</p></td>
+<td><p>ChrB$</p></td>
 <td><p>CInt</p></td>
 <td><p>CLng</p></td>
 <td><p>Cos</p></td>
@@ -56,11 +56,11 @@ ms.locfileid: "32302795"
 <td><p>CStr</p></td>
 </tr>
 <tr class="even">
-<td><p>CVar</p></td>
-<td><p>квдате</p></td>
+<td><p>Cvar</p></td>
+<td><p>CVDate</p></td>
 <td><p>CVErr</p></td>
 <td><p>Дата</p></td>
-<td><p>Date $</p></td>
+<td><p>Date$</p></td>
 <td><p>DateAdd</p></td>
 </tr>
 <tr class="odd">
@@ -72,17 +72,17 @@ ms.locfileid: "32302795"
 <td><p>DDB</p></td>
 </tr>
 <tr class="even">
-<td><p>Ошибка</p></td>
-<td><p>Ошибка $</p></td>
+<td><p>Error</p></td>
+<td><p>Error$</p></td>
 <td><p>Exp</p></td>
 <td><p>Исправление</p></td>
 <td><p>Format</p></td>
-<td><p>Format $</p></td>
+<td><p>Format$</p></td>
 </tr>
 <tr class="odd">
 <td><p>FV</p></td>
 <td><p>Hex</p></td>
-<td><p>Hex $</p></td>
+<td><p>Hex$</p></td>
 <td><p>Часы</p></td>
 <td><p>IIF</p></td>
 <td><p>InStr</p></td>
@@ -100,21 +100,21 @@ ms.locfileid: "32302795"
 <td><p>IsNumeric</p></td>
 <td><p>IsObject</p></td>
 <td><p>LCase</p></td>
-<td><p>LCase $</p></td>
+<td><p>LCase$</p></td>
 <td><p>Left</p></td>
 </tr>
 <tr class="even">
-<td><p>ЛЕВБ</p></td>
-<td><p>Left $</p></td>
-<td><p>Функция ЛЕВБ $</p></td>
+<td><p>LeftB</p></td>
+<td><p>Left$</p></td>
+<td><p>LeftB$</p></td>
 <td><p>Len</p></td>
 <td><p>Log</p></td>
 <td><p>LTrim</p></td>
 </tr>
 <tr class="odd">
-<td><p>LTrim $</p></td>
+<td><p>LTrim$</p></td>
 <td><p>Mid</p></td>
-<td><p>ПСТР $</p></td>
+<td><p>Mid$</p></td>
 <td><p>Минуты</p></td>
 <td><p>MIRR</p></td>
 <td><p>Month</p></td>
@@ -124,7 +124,7 @@ ms.locfileid: "32302795"
 <td><p>NPer</p></td>
 <td><p>NPV</p></td>
 <td><p>Окт</p></td>
-<td><p>Oct $</p></td>
+<td><p>Oct$</p></td>
 <td><p>Плт</p></td>
 </tr>
 <tr class="odd">
@@ -136,12 +136,12 @@ ms.locfileid: "32302795"
 <td><p>Right</p></td>
 </tr>
 <tr class="even">
-<td><p>ПРАВБ</p></td>
-<td><p>Right $</p></td>
-<td><p>ПРАВБ $</p></td>
+<td><p>RightB</p></td>
+<td><p>Right$</p></td>
+<td><p>RightB$</p></td>
 <td><p>Rnd</p></td>
 <td><p>RTrim</p></td>
-<td><p>RTrim $</p></td>
+<td><p>RTrim$</p></td>
 </tr>
 <tr class="odd">
 <td><p>Секунды</p></td>
@@ -149,38 +149,38 @@ ms.locfileid: "32302795"
 <td><p>Sin</p></td>
 <td><p>SLN</p></td>
 <td><p>Space</p></td>
-<td><p>Space $</p></td>
+<td><p>Space$</p></td>
 </tr>
 <tr class="even">
 <td><p>Sqr</p></td>
 <td><p>Str</p></td>
-<td><p>Str $</p></td>
+<td><p>Str$</p></td>
 <td><p>StrComp</p></td>
 <td><p>StrConv</p></td>
 <td><p>String</p></td>
 </tr>
 <tr class="odd">
-<td><p>Строка $</p></td>
+<td><p>String$</p></td>
 <td><p>SYD</p></td>
 <td><p>Желто-коричневый</p></td>
-<td><p>Time</p></td>
-<td><p>Время $</p></td>
+<td><p>Время</p></td>
+<td><p>Time$</p></td>
 <td><p>Таймер</p></td>
 </tr>
 <tr class="even">
 <td><p>TimeSerial</p></td>
 <td><p>TimeValue</p></td>
 <td><p>Усечь</p></td>
-<td><p>Trim $</p></td>
+<td><p>Trim$</p></td>
 <td><p>TypeName</p></td>
 <td><p>UCase</p></td>
 </tr>
 <tr class="odd">
-<td><p>Укасе $</p></td>
+<td><p>UCase$</p></td>
 <td><p>Val</p></td>
 <td><p>VarType</p></td>
 <td><p>День недели</p></td>
-<td><p>Год</p></td>
+<td><p>Year</p></td>
 <td><p><br />
 </p></td>
 </tr>

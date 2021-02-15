@@ -19,7 +19,7 @@ ms.locfileid: "32302879"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает атрибуты объекта [Property](property-object-ado.md) .
+Указывает атрибуты объекта [Property.](property-object-ado.md)
 
 <table>
 <colgroup>
@@ -36,29 +36,29 @@ ms.locfileid: "32302879"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адпропнотсуппортед</strong></p></td>
-<td><p>нуль</p></td>
+<td><p><strong>adPropNotSupported</strong></p></td>
+<td><p>0</p></td>
 <td><p>Указывает, что свойство не поддерживается поставщиком.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпропрекуиред</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Указывает, что пользователь должен указать значение для этого свойства перед инициализацией источника данных.</p></td>
+<td><p><strong>adPropRequired</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Указывает, что пользователь должен указать значение для этого свойства до инициализации источника данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адпропоптионал</strong></p></td>
-<td><p>2</p></td>
-<td><p>Указывает, что пользователю не нужно указывать значение этого свойства перед инициализацией источника данных.</p></td>
+<td><p><strong>adPropOptional</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Указывает, что пользователю не нужно указывать значение для этого свойства до инициализации источника данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпропреад</strong></p></td>
+<td><p><strong>adPropRead</strong></p></td>
 <td><p>512</p></td>
 <td><p>Указывает, что пользователь может прочитать свойство.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адпропврите</strong></p></td>
+<td><p><strong>adPropWrite</strong></p></td>
 <td><p>1024</p></td>
-<td><p>Указывает, что пользователь может задать свойство.</p></td>
+<td><p>Указывает, что пользователь может установить свойство.</p></td>
 </tr>
 </tbody>
 </table>
@@ -66,7 +66,7 @@ ms.locfileid: "32302879"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -79,19 +79,19 @@ ms.locfileid: "32302879"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Пропертяттрибутес. NOTSUPPORTED</p></td>
+<td><p>AdoEnums.PropertyAttributes.NOTSUPPORTED</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Пропертяттрибутес. REQUIRED</p></td>
+<td><p>AdoEnums.PropertyAttributes.REQUIRED</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Пропертяттрибутес. OPTIONAL</p></td>
+<td><p>AdoEnums.PropertyAttributes.OPTIONAL</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Пропертяттрибутес. READ</p></td>
+<td><p>AdoEnums.PropertyAttributes.READ</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Пропертяттрибутес. WRITE</p></td>
+<td><p>AdoEnums.PropertyAttributes.WRITE</p></td>
 </tr>
 </tbody>
 </table>

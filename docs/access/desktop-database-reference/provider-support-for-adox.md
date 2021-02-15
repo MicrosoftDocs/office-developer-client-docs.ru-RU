@@ -19,7 +19,7 @@ ms.locfileid: "32301101"
 
 **Область применения**: Access 2013, Office 2013
 
-Некоторые функции ADOX не поддерживаются в зависимости от поставщика данных OLE DB. ADOX полностью поддерживается [поставщиком OLE DB для Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md). Ниже перечислены неподдерживаемые возможности [поставщика Microsoft OLE DB для SQL Server](microsoft-ole-db-provider-for-sql-server.md), [поставщика Microsoft OLE DB для ODBC](microsoft-ole-db-provider-for-odbc.md)или [поставщика Microsoft OLE DB для Oracle](microsoft-ole-db-provider-for-oracle.md) . ADOX не поддерживается какими-либо другими поставщиками Microsoft OLE DB.
+Некоторые функции ADOX неподтверчены в зависимости от поставщика данных OLE DB. ADOX полностью поддерживается поставщиком [OLE DB для Microsoft Jet.](microsoft-ole-db-provider-for-microsoft-jet.md) Ниже перечислены неподтверченные функции поставщика [Microsoft OLE DB](microsoft-ole-db-provider-for-sql-server.md)для SQL Server, поставщика [Microsoft OLE DB для ODBC](microsoft-ole-db-provider-for-odbc.md)или поставщика Microsoft [OLE DB для Oracle.](microsoft-ole-db-provider-for-oracle.md) ADOX не поддерживается другими поставщиками Microsoft OLE DB.
 
 ## <a name="microsoft-ole-db-provider-for-sql-server"></a>Поставщик Microsoft OLE DB для SQL Server
 
@@ -36,35 +36,35 @@ ms.locfileid: "32301101"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Объект <strong>Catalog</strong></p></td>
-<td><p>Метод <strong>CREATE</strong> не поддерживается.</p></td>
+<td><p><strong>Объект Catalog</strong></p></td>
+<td><p>Метод <strong>Create</strong> не поддерживается.</p></td>
 </tr>
 <tr class="even">
-<td><p>Коллекция <strong>Tables</strong></p></td>
-<td><p>Свойства доступны для чтения и записи перед созданием объекта и доступны только для чтения при обращении к существующему объекту.</p></td>
+<td><p><strong>Коллекция Tables</strong></p></td>
+<td><p>Свойства считывать и записывать до создания объекта и только для чтения при ссылке на существующий объект.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Коллекция <strong>views</strong></p></td>
+<td><p><strong>Коллекция Views</strong></p></td>
 <td><p><strong>Представления</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
-<td><p>Коллекция <strong>процедур</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
+<td><p><strong>Коллекция Procedures</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Объект <strong>PROCEDURE</strong></p></td>
+<td><p><strong>Объект Procedure</strong></p></td>
 <td><p>Свойство <strong>Command</strong> не поддерживается.</p></td>
 </tr>
 <tr class="even">
-<td><p>Коллекция <strong>Keys</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
+<td><p><strong>Коллекция Keys</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Коллекция <strong>Users</strong></p></td>
+<td><p><strong>Коллекция Users</strong></p></td>
 <td><p><strong>Пользователи</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
-<td><p>Коллекция <strong>Groups</strong></p></td>
+<td><p><strong>Коллекция Groups</strong></p></td>
 <td><p><strong>Группы</strong> не поддерживаются.</p></td>
 </tr>
 </tbody>
@@ -86,35 +86,35 @@ ms.locfileid: "32301101"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Объект <strong>Catalog</strong></p></td>
-<td><p>Метод <strong>CREATE</strong> не поддерживается.</p></td>
+<td><p><strong>Объект Catalog</strong></p></td>
+<td><p>Метод <strong>Create</strong> не поддерживается.</p></td>
 </tr>
 <tr class="even">
-<td><p>Коллекция <strong>Tables</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются. Свойства доступны для чтения и записи перед созданием объекта и доступны только для чтения при обращении к существующему объекту.</p></td>
+<td><p><strong>Коллекция Tables</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются. Свойства считывать и записывать до создания объекта и только для чтения при ссылке на существующий объект.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Коллекция <strong>процедур</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
+<td><p><strong>Коллекция Procedures</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
-<td><p>Объект <strong>PROCEDURE</strong></p></td>
+<td><p><strong>Объект Procedure</strong></p></td>
 <td><p>Свойство <strong>Command</strong> не поддерживается.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Коллекция <strong>indexes</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
+<td><p><strong>Коллекция Indexes</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
-<td><p>Коллекция <strong>Keys</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
+<td><p><strong>Коллекция Keys</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Коллекция <strong>Users</strong></p></td>
+<td><p><strong>Коллекция Users</strong></p></td>
 <td><p><strong>Пользователи</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
-<td><p>Коллекция <strong>Groups</strong></p></td>
+<td><p><strong>Коллекция Groups</strong></p></td>
 <td><p><strong>Группы</strong> не поддерживаются.</p></td>
 </tr>
 </tbody>
@@ -136,43 +136,43 @@ ms.locfileid: "32301101"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Объект <strong>Catalog</strong></p></td>
-<td><p>Метод <strong>CREATE</strong> не поддерживается.</p></td>
+<td><p><strong>Объект Catalog</strong></p></td>
+<td><p>Метод <strong>Create</strong> не поддерживается.</p></td>
 </tr>
 <tr class="even">
-<td><p>Коллекция <strong>Tables</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются. Свойства доступны для чтения и записи перед созданием объекта и доступны только для чтения при обращении к существующему объекту.</p></td>
+<td><p><strong>Коллекция Tables</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются. Свойства считывать и записывать до создания объекта и только для чтения при ссылке на существующий объект.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Коллекция <strong>views</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
+<td><p><strong>Коллекция Views</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
-<td><p>Объект <strong>View</strong></p></td>
+<td><p><strong>Объект View</strong></p></td>
 <td><p>Свойство <strong>Command</strong> не поддерживается.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Объект <strong>процедур</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
+<td><p><strong>Объект Procedures</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
-<td><p>Объект <strong>PROCEDURE</strong></p></td>
+<td><p><strong>Объект Procedure</strong></p></td>
 <td><p>Свойство <strong>Command</strong> не поддерживается.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Коллекция <strong>indexes</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
+<td><p><strong>Коллекция Indexes</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
-<td><p>Коллекция <strong>Keys</strong></p></td>
-<td><p>Методы <strong>append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
+<td><p><strong>Коллекция Keys</strong></p></td>
+<td><p>Методы <strong>Append</strong> и <strong>Delete</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="odd">
-<td><p>Коллекция <strong>Users</strong></p></td>
+<td><p><strong>Коллекция Users</strong></p></td>
 <td><p><strong>Пользователи</strong> не поддерживаются.</p></td>
 </tr>
 <tr class="even">
-<td><p>Коллекция <strong>Groups</strong></p></td>
+<td><p><strong>Коллекция Groups</strong></p></td>
 <td><p><strong>Группы</strong> не поддерживаются.</p></td>
 </tr>
 </tbody>

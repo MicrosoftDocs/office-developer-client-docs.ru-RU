@@ -36,15 +36,15 @@ ms.locfileid: "32301024"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="querydefs-append-method-dao.md">Error</a></strong></p></td>
-<td><p>Добавляет новый объект <strong>QueryDef</strong> в коллекцию <strong>QueryDef</strong> .</p></td>
+<td><p><strong><a href="querydefs-append-method-dao.md">Append</a></strong></p></td>
+<td><p>Добавляет новый <strong>queryDef в</strong> <strong>коллекцию QueryDefs.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydefs-delete-method-dao.md">Delete</a></strong></p></td>
 <td><p>Не поддерживается для этой коллекции.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="querydefs-refresh-method-dao.md">Обновление</a></strong></p></td>
+<td><p><strong><a href="querydefs-refresh-method-dao.md">Refresh</a></strong></p></td>
 <td><p>Не поддерживается для объекта.</p></td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ ms.locfileid: "32301024"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="querydefs-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает число объектов в указанной коллекции. Только для чтения.</p></td>
+<td><p>Возвращает количество объектов в указанной коллекции. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

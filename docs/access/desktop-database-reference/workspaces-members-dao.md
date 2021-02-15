@@ -1,5 +1,5 @@
 ---
-title: Участники рабочих областей (DAO)
+title: Члены workspaces (DAO)
 TOCTitle: Workspaces Members
 ms:assetid: 5eaf6de5-44dc-5566-a98f-db54aecf15cb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194667(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302606"
 ---
-# <a name="workspaces-members-dao"></a>Участники рабочих областей (DAO)
+# <a name="workspaces-members-dao"></a>Члены workspaces (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция Workspace содержит все активные, нескрытые объекты рабочей области объекта DBEngine. (Скрытые объекты рабочей области не добавляются в коллекцию и ссылаются на переменную, которой они назначены.)
+Коллекция Workspaces содержит все активные незагруженные объекты Workspace объекта DBEngine. (Объекты Скрытой рабочей области не примеся к коллекции и не ссылаются на них переменной, которой они назначены.)
 
 ## <a name="methods"></a>Методы
 
@@ -36,15 +36,15 @@ ms.locfileid: "32302606"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="workspaces-append-method-dao.md">Error</a></strong></p></td>
-<td><p>Добавляет новую <strong>рабочую область</strong> в коллекцию <strong>workspaces</strong> .</p></td>
+<td><p><strong><a href="workspaces-append-method-dao.md">Append</a></strong></p></td>
+<td><p>Добавляет новую <strong>область workspace</strong> в <strong>коллекцию Workspaces.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="workspaces-delete-method-dao.md">Delete</a></strong></p></td>
-<td><p>Удаляет указанную <strong>рабочую область</strong> в коллекции <strong>workspaces</strong> .</p></td>
+<td><p>Удаляет указанную форму <strong>рабочей</strong> области для <strong>коллекции Workspaces.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="workspaces-refresh-method-dao.md">Обновление</a></strong></p></td>
+<td><p><strong><a href="workspaces-refresh-method-dao.md">Refresh</a></strong></p></td>
 <td><p>Не поддерживается для объекта.</p></td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ ms.locfileid: "32302606"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="workspaces-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает число объектов в указанной коллекции. Только для чтения.</p></td>
+<td><p>Возвращает количество объектов в указанной коллекции. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

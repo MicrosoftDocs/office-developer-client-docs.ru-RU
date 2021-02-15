@@ -23,7 +23,7 @@ ms.locfileid: "32300513"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Поле
+*выражение .* Поля
 
 *expression*: переменная, представляющая объект **Recordset**.
 

@@ -1,5 +1,5 @@
 ---
-title: Метод Write — объекты данных ActiveX (ADO)
+title: Метод Write — ActiveX Data Objects (ADO)
 TOCTitle: Write method (ADO)
 ms:assetid: cabe4581-409f-7f05-bd59-d495bfb2c6fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249986(v=office.15)
@@ -18,26 +18,26 @@ ms.locfileid: "32302466"
 
 **Область применения**: Access 2013, Office 2013
 
-Записывает двоичные данные в объект [Stream](stream-object-ado.md) .
+Записывает двоичные данные в [объект Stream.](stream-object-ado.md)
 
 ## <a name="syntax"></a>Синтаксис
 
-*Stream*. *Буфер* записи
+*Stream*. Буфер *записи*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Буферизовать* |**Переменная типа Variant** , содержащая массив байтов для записи.|
+|*Буфер* |**Вариант,** содержащий массив данных, которые необходимо написать.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Указанные байты записываются в объект **Stream** без промежуточных пробелов между ними.
+Указанные bytes are written to the **Stream** object without any intervening spaces between each byte.
 
-Текущая [позиция](position-property-ado.md) равна байту после записанных данных. Метод **Write** не усекает остальные данные в потоке. Если вы хотите усечь эти байты, вызовите [SetEOS](seteos-method-ado.md).
+Текущее [положение](position-property-ado.md) устанавливается в соответствии с письменными данными в соответствии с данными. Метод **Write** не усечен остальных данных в потоке. Если вы хотите усечение этих данных, вызовите [SetEOS.](seteos-method-ado.md)
 
-Если вы пишете за пределами текущей позиции [Size](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) [EOS](eos-property-ado.md) , размер **потока** увеличится до того, как будут содержаться новые байты, а **EOS** перейдет к новому последнему байту в **потоке**.
+Если вы напишете после текущей [](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream) позиции  [EOS,](eos-property-ado.md) размер потока будет увеличен, чтобы содержать любые новые bytes, и **EOS** перейдет к новому последнему byte в **Stream**.
 
 > [!NOTE]
-> Метод **Write** используется с двоичными потоками ([Type](type-property-ado-stream.md) — **адтипебинари**). Для текстовых потоков (**Type** — **Адтипетекст**) используйте [WriteText](writetext-method-ado.md).
+> Метод **Write** используется с двоичными потоками [(тип](type-property-ado-stream.md) **adTypeBinary).** Для текстовых потоков **(тип** **adTypeText),** используйте [WriteText](writetext-method-ado.md).
 

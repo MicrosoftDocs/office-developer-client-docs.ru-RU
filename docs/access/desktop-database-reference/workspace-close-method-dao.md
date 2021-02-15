@@ -1,5 +1,5 @@
 ---
-title: Метод Workspace. Close (DAO)
+title: Метод Workspace.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: 9b3d28f9-5cde-0dd9-8a4a-d2efaec5fe5d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198027(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305959"
 ---
-# <a name="workspaceclose-method-dao"></a>Метод Workspace. Close (DAO)
+# <a name="workspaceclose-method-dao"></a>Метод Workspace.Close (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Закрывает открытую **рабочую область**.
+Закрывает открытое **рабочее пространство.**
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -27,9 +27,9 @@ ms.locfileid: "32305959"
 
 *expression*: переменная, представляющая объект **Workspace**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Если объект **Workspace** уже закрыт при использовании **Close**, возникает ошибка времени выполнения.
+Если объект **Workspace** уже закрыт при использовании **close,** возникает ошибка во время работы.
 
 Альтернатива методу **Close** заключается в присвоении объектной переменной значения **Nothing** (Set dbsTemp = Nothing).
 

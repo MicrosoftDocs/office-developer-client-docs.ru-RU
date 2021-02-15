@@ -1,5 +1,5 @@
 ---
-title: События события willchangefield и FieldChangeComplete (ADO)
+title: События WillChangeField и FieldChangeComplete (ADO)
 TOCTitle: WillChangeField and FieldChangeComplete events (ADO)
 ms:assetid: bc4455a6-2925-33dc-d04f-8ea570e5e370
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249904(v=office.15)
@@ -14,29 +14,29 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302487"
 ---
-# <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>События события willchangefield и FieldChangeComplete (ADO)
+# <a name="willchangefield-and-fieldchangecomplete-events-ado"></a>События WillChangeField и FieldChangeComplete (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-Событие **события willchangefield** вызывается до того, как ожидающая операция изменяет значение одного или нескольких объектов [field](field-object-ado.md) в [наборе записей](recordset-object-ado.md). Событие **FieldChangeComplete** вызывается после того, как значение одного или нескольких объектов **поля** изменилось.
+Событие **WillChangeField** вызвано перед изменением ожидающих операций значения одного или более объектов [Field](field-object-ado.md) в [наборе записей.](recordset-object-ado.md) Событие **FieldChangeComplete** вызвано после изменения значения одного или более объектов **Field.**
 
 ## <a name="syntax"></a>Синтаксис
 
-События willchangefield*кфиелдс*, *Fields*, адстатус *,* пред *adStatus*
+WillChangeField *cFields,* *Fields,* *adStatus*, *pRecordset*
 
-FieldChangeComplete*кфиелдс*, *Fields*, *Перрор*, адстатус *,* пред *adStatus*
+FieldChangeComplete *cFields,* *Fields,* *pError,* *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*кфиелдс* |Значение **типа Long** , которое указывает количество объектов **field** в *полях*.|
-|*Fields* |Для **события willchangefield**параметр *Fields* представляет собой массив **Variant** , содержащий объекты **field** с исходными значениями. <br/><br/>Для **FieldChangeComplete**параметр *Fields* представляет собой массив **Variant** , содержащий объекты **field** с измененными значениями.|
-|*перрор* |Объект [Error](error-object-ado.md) . В нем описывается ошибка, которая возникла, если значение *адстатус* равно **адстатусеррорсоккурред**; в противном случае он не задается.|
-|*адстатус* |[Евентстатусенум](eventstatusenum.md). При вызове **события willchangefield** этот параметр имеет значение **адстатусок** , если операция, вызвавшая событие, прошла успешно. Он имеет значение **адстатускантдени** , если данное событие не может запрашивать отмену ожидающей операции. <br/><br/>При вызове **FieldChangeComplete** этот параметр имеет значение **адстатусок** , если операция, вызвавшая событие, прошла успешно, или значение **адстатусеррорсоккурред** , если операция завершилась неудачно. <br/><br/>Перед возвратом **события willchangefield** присвойте этому параметру значение **адстатусканцел** , чтобы запросить отмену ожидающей операции. <br/><br/>Перед возвратом **FieldChangeComplete** присвойте этому параметру значение **адстатусунвантедевент** , чтобы предотвратить появление последующих уведомлений.|
-|*предшнур* |Объект **Recordset** . Объект **Recordset** , для которого произошло это событие.|
+|*cFields* |**Длинное,** которое указывает количество объектов **Field** в *полях.*|
+|*Fields* |Для **WillChangeField** параметр *Fields* — это массив **variant,** содержащий **объекты Field** с исходными значениями. <br/><br/>Для **FieldChangeComplete** параметр *Fields* — это массив **вариантов,** содержащий **объекты Field** с измененными значениями.|
+|*pError* |Объект [Error.](error-object-ado.md) В ней описывается ошибка, которая произошла, если *значением adStatus* является **adStatusErrorsOccurred;** в противном случае он не установлен.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). При **вызывается WillChangeField,** этот параметр задан как **adStatusOK,** если операция, которая вызвала событие, была успешной. Если это событие не может запросить отмену ожидающей операции, ему задается **adStatusCantDeny.** <br/><br/>При вызывается **FieldChangeComplete,** этот параметр задан как **adStatusOK,** если операция, которая привела к событию, была успешной, или **adStatusErrorsOccurred,** если операция не удалась. <br/><br/>Перед **возвратом WillChangeField** установите для этого параметра **параметр adStatusCancel** запрос на отмену ожидающих операций. <br/><br/>Перед **возвратом FieldChangeComplete** установите для этого параметра **параметр adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
+|*pRecordset* |Объект **Recordset.** Набор **записей,** для которого произошло это событие.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Событие **события willchangefield** или **FieldChangeComplete** может возникнуть при задании свойства [value](value-property-ado.md) и вызове метода [Update](update-method-ado.md) с параметрами массива Field и value.
+Событие **WillChangeField** или **FieldChangeComplete** может возникать при установке свойства [Value](value-property-ado.md) и вызове метода [Update](update-method-ado.md) с параметрами массива полей и значений.
 

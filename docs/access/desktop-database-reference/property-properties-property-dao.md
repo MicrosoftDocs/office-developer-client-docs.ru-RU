@@ -1,5 +1,5 @@
 ---
-title: Свойство Property. Properties (DAO)
+title: Свойство Property.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: f8ecc942-0851-8c7c-c4fd-38ca6908e442
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836973(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301185"
 ---
-# <a name="propertyproperties-property-dao"></a>Свойство Property. Properties (DAO)
+# <a name="propertyproperties-property-dao"></a>Свойство Property.Properties (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32301185"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Параметры
+*выражение .* Свойства
 
-*Expression (выражение* ) Переменная, представляющая объект **Property** .
+*выражение* Переменная, представляюная объект **Property.**
 

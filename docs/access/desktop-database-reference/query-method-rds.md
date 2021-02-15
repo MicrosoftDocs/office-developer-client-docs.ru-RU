@@ -1,5 +1,5 @@
 ---
-title: Метод query (Справочник по базам данных для рабочих столов RDS)
+title: Метод запроса (RDS — справочник по базе данных Access для настольных ПК)
 TOCTitle: Query method (RDS)
 ms:assetid: c88d82bd-2139-7f1e-4e5e-9030f3795816
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249975(v=office.15)
@@ -14,26 +14,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301115"
 ---
-# <a name="query-method-rds"></a>Метод query (RDS)
+# <a name="query-method-rds"></a>Метод запроса (RDS)
 
 **Область применения**: Access 2013, Office 2013
 
-Для возврата объекта [Recordset](recordset-object-ado.md)используется допустимая строка запроса SQL.
+Возвращает набор записей с помощью SQL строки [запроса.](recordset-object-ado.md)
 
 ## <a name="syntax"></a>Синтаксис
 
-Задание объекта Recordset для объекта*Recordset* = *.* Запрос (*Подключение*, *запрос*)
+Set *Recordset*  =  *DataFactory*. Query(*Connection*, *Query*)
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Recordset* |Объектная переменная, представляющая объект **Recordset** .|
-|*DataFactory* |Объектная переменная, представляющая объект [фактов рдссервер.](datafactory-object-rdsserver.md) DataObject.|
-|*Connection* |**Строковое** значение, содержащее сведения о подключении к серверу. Оно аналогично свойству [Connect](connect-property-rds.md) .|
-|*Query* |**Строка** , содержащая запрос SQL.|
+|*Recordset* |Объектная переменная, представляюная объект **Recordset.**|
+|*DataFactory* |Объектная переменная, представляюная [объект RDSServer.DataFactory.](datafactory-object-rdsserver.md)|
+|*Connection* |**Строка,** содержаная сведения о под подключением к серверу. Это свойство аналогично свойству [Connect.](connect-property-rds.md)|
+|*Query* |**Строка,** содержаная SQL запроса.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-В запросе должен использоваться диалект SQL сервера базы данных. Состояние результата возвращается при наличии ошибки в выполненном запросе. Метод **Query** не выполняет проверку синтаксиса в строке **запроса** .
+В запросе должен SQL диалект сервера базы данных. Если при выполнении запроса произошла ошибка, возвращается состояние результата. Метод **Query** не выполняет проверку синтаксиса в **строке запроса.**
 

@@ -24,15 +24,15 @@ ms.locfileid: "32305980"
 
 - [Выполнение бизнес-объектов в службах компонентов](running-business-objects-in-component-services.md)
 
-**Службы** IIS Дополнительные сведения о службах Microsoft IIS можно найти на веб-сайте Microsoft Internet Information Services.
+**Службы Internet Information Services** Дополнительные сведения о Microsoft IIS (IIS) см. на Microsoft IIS веб-сайте.
 
-**Активные серверные страницы** Дополнительные сведения о ASP (Microsoft Active Server Pages) можно найти на веб-сайте веб-страниц Microsoft Active Server.
+**ASP** Дополнительные сведения о Microsoft ASP (ASP) см. на веб-сайте Microsoft ASP Microsoft.
 
-**Службы компонентов Майкрософт** Дополнительные сведения о службах компонентов можно найти на веб-сайте Microsoft Transaction Server.
+**Службы компонентов Майкрософт** Дополнительные сведения о службах компонентов см. на веб-сайте Microsoft Transaction Server.
 
-**Microsoft SQL Server** Для получения дополнительных сведений о Microsoft SQL Server посетите веб-сайт Microsoft SQL Server.
+**Microsoft SQL Server** Дополнительные сведения о Microsoft SQL Server см. на Microsoft SQL Server веб-сайте.
 
-**Microsoft Internet Explorer** Для получения дополнительных сведений о Microsoft Internet Explorer посетите веб-сайт Microsoft Internet Explorer и библиотеку MSDN и веб-сайт веб-семинара.
+**Microsoft Internet Explorer** Дополнительные сведения о Microsoft Internet Explorer см. на веб-сайте Microsoft Internet Explorer и веб-библиотека MSDN и веб-семинаре.
 
-**Microsoft Windows NT Server/windows 2000 Server** Дополнительные сведения о безопасности в Microsoft Windows NT Server или Windows 2000 Server можно найти на веб-сайте Microsoft Windows.
+**Microsoft Windows NT Server/Windows 2000 Server** Дополнительные сведения о безопасности в Microsoft Windows NT Server или Windows 2000 Server см. на веб-сайте Microsoft Windows.
 

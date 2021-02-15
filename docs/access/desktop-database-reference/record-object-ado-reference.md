@@ -1,5 +1,5 @@
 ---
-title: Справочник по объектам Record (ADO)
+title: Справочник по объекту Record (ADO)
 TOCTitle: Record object (ADO)
 ms:assetid: 19cdd7b8-1dde-40f6-b971-b30cf0bfbf4e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248943(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300723"
 ---
-# <a name="record-object-ado-reference"></a>Справочник по объектам Record (ADO)
+# <a name="record-object-ado-reference"></a>Справочник по объекту Record (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Record (ADO)](record-object-ado.md)
-- [Свойства, методы и события записей (ADO)](record-properties-methods-and-events-ado.md)
+- [Record object (ADO)](record-object-ado.md)
+- [Record properties, methods, and events (ADO)](record-properties-methods-and-events-ado.md)
 

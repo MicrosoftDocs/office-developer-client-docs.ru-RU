@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события свойств (ADO)
+title: Свойства, методы и события (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 7a1992c1-b234-58b8-a4c9-663d9b2370e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249503(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302935"
 ---
-# <a name="property-properties-methods-and-events-ado"></a>Свойства, методы и события свойств (ADO)
+# <a name="property-properties-methods-and-events-ado"></a>Свойства, методы и события (ADO)
 
 **Область применения**: Access 2013, Office 2013
 

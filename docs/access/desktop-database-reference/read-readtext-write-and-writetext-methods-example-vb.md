@@ -19,7 +19,7 @@ ms.locfileid: "32301017"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется чтение содержимого текстового поля в [потоке](stream-object-ado.md) текста и двоичном **потоке**. К другим свойствам и методам относятся [position](position-property-ado.md), [size](size-property-ado.md), [CharSet](charset-property-ado.md)и [SetEOS](seteos-method-ado.md).
+В этом примере показано, как считывать содержимое текстового окна как в текстовый [поток,](stream-object-ado.md) так и в двоичный **поток.** Другие показанные свойства и методы: [Position,](position-property-ado.md) [Size,](size-property-ado.md) [Charset](charset-property-ado.md)и [SetEOS.](seteos-method-ado.md)
 
 ```vb 
  

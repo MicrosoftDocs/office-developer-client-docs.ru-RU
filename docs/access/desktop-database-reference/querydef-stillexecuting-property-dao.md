@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. Стиллексекутинг (DAO)
+title: Свойство QueryDef.StillExecuting (DAO)
 TOCTitle: StillExecuting Property
 ms:assetid: 98e85d37-de50-afe1-dcca-01623546e0ad
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197953(v=office.15)
@@ -18,22 +18,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303418"
 ---
-# <a name="querydefstillexecuting-property-dao"></a>Свойство QueryDef. Стиллексекутинг (DAO)
+# <a name="querydefstillexecuting-property-dao"></a>Свойство QueryDef.StillExecuting (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . стиллексекутинг
+*выражение .* StillExecuting
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 
 ## <a name="remarks"></a>Примечания
 
-Используйте свойство **стиллексекутинг** , чтобы определить, завершен ли последний вызов метода асинхронного **[выполнения](querydef-execute-method-dao.md)** или **[OpenConnection](dbengine-openconnection-method-dao.md)** (то есть метод, выполняемый с параметром **дбрунасинк** ). Несмотря на то, что свойство **стиллексекутинг** имеет **значение true**, доступ к возвращенному объекту невозможен.
+Используйте свойство **StillExecuting,** чтобы определить, завершен ли **[](querydef-execute-method-dao.md)** последний метод асинхронного выполнения или **[OpenConnection](dbengine-openconnection-method-dao.md)** (то есть метод, выполняемый с помощью параметра **dbRunAsync).** Свойство **StillExecuting** имеет свойство **True,** но получить доступ к любому возвращенного объекта невозможно.
 
-После того как свойство **стиллексекутинг** возвращает **значение false**, после вызова **OpenConnection** , возвращающего связанный объект **[Connection](connection-object-dao.md)** , можно ссылаться на объект. До тех пор пока **стиллексекутинг** остается **true**, на объект не может быть ссылок, кроме чтения свойства **стиллексекутинг** .
+После того как **свойство StillExecuting** возвращает **false,** после вызова **OpenConnection,** который возвращает связанный объект **[Connection,](connection-object-dao.md)** на объект можно ссылаться. Если свойство **StillExecuting** остается **true,** ссылки на объект могут не быть, кроме чтения свойства **StillExecuting.**
 
-Используйте метод **[Cancel](connection-cancel-method-dao.md)** , чтобы прекратить выполнение задачи в ходе выполнения.
+Используйте метод **[Cancel,](connection-cancel-method-dao.md)** чтобы завершить выполнение задачи.
 

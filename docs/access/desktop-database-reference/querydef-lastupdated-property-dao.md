@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. Ластупдатед (DAO)
+title: Свойство QueryDef.LastUpdated (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 3b7818d4-054e-54e2-bf63-58b340bb4a90
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192665(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303313"
 ---
-# <a name="querydeflastupdated-property-dao"></a>Свойство QueryDef. Ластупдатед (DAO)
+# <a name="querydeflastupdated-property-dao"></a>Свойство QueryDef.LastUpdated (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает дату и время последнего изменения, внесенного в объект. Только для чтения, **Variant**.
+Возвращает дату и время последнего изменения объекта. Только для чтения, **Variant**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . ластупдатед
+*выражение .* LastUpdated
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 
 ## <a name="remarks"></a>Примечания
 
-**DateCreated** и **ластупдатед** возвращают дату и время создания или последнего обновления объекта. В многопользовательской среде пользователи должны получить эти параметры непосредственно с файлового сервера, чтобы избежать расхождений в параметрах свойств DateCreated и Ластупдатед.
+**DateCreated** и **LastUpdated** возвращают дату и время создания или последнего обновления объекта. В многоядерной среде пользователи должны получить эти параметры непосредственно с файлового сервера, чтобы избежать несоответствий в параметрах свойств DateCreated и LastUpdated.
 

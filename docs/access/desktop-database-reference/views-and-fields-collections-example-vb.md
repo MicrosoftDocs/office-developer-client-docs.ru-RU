@@ -1,5 +1,5 @@
 ---
-title: Пример коллекций представлений и полей (VB)
+title: Пример коллекции Views и Fields Collections (VB)
 TOCTitle: Views and Fields Collections example (VB)
 ms:assetid: 7c166bea-d6a3-0a9d-5220-af72996a76fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249518(v=office.15)
@@ -19,7 +19,7 @@ ms.locfileid: "32306000"
 
 **Область применения**: Access 2013, Office 2013
 
-В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) и объект [Recordset](recordset-object-ado.md) для получения сведений о поле для представления.
+В следующем коде показано, как использовать свойство [Command](command-property-adox.md) и объект [Recordset](recordset-object-ado.md) для получения сведений о поле для представления.
 
 ```vb 
  

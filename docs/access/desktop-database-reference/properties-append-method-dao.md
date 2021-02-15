@@ -1,5 +1,5 @@
 ---
-title: Метод Properties. append (DAO)
+title: Метод Properties.Append (DAO)
 TOCTitle: Append Method
 ms:assetid: 47f1e24f-975c-3fdc-5c3c-8c91f2920c81
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193232(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301311"
 ---
-# <a name="propertiesappend-method-dao"></a>Метод Properties. append (DAO)
+# <a name="propertiesappend-method-dao"></a>Метод Properties.Append (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Добавляет новое **свойство** в коллекцию **свойств** .
+Добавляет новое **свойство** в коллекцию **свойств.**
 
 ## <a name="syntax"></a>Синтаксис
 
 *выражение* .Append(***Object***)
 
-*Expression (выражение* ) Переменная, представляющая объект **Properties** .
+*выражение* Переменная, представляюная объект **Properties.**
 
 ## <a name="parameters"></a>Параметры
 

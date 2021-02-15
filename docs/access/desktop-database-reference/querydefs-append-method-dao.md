@@ -1,5 +1,5 @@
 ---
-title: Метод QueryDef. append (DAO)
+title: Метод QueryDefs.Append (DAO)
 TOCTitle: Append Method
 ms:assetid: 9b62a26b-3b7c-6d26-7707-177b00a23178
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198041(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300940"
 ---
-# <a name="querydefsappend-method-dao"></a>Метод QueryDef. append (DAO)
+# <a name="querydefsappend-method-dao"></a>Метод QueryDefs.Append (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Добавляет новый объект **QueryDef** в коллекцию **QueryDef** .
+Добавляет новый **queryDef в** **коллекцию QueryDefs.**
 
 ## <a name="syntax"></a>Синтаксис
 
 *выражение* .Append(***Object***)
 
-*Expression (выражение* ) Переменная, представляющая объект **QueryDef** .
+*выражение* Переменная, представляюная объект **QueryDefs.**
 
 ## <a name="parameters"></a>Параметры
 

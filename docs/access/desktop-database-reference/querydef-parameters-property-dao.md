@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. parameters (DAO)
+title: Свойство QueryDef.Parameters (DAO)
 TOCTitle: Parameters Property
 ms:assetid: 0a83f4b8-24b6-8d61-1c15-d16919272e57
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845106(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300996"
 ---
-# <a name="querydefparameters-property-dao"></a>Свойство QueryDef. parameters (DAO)
+# <a name="querydefparameters-property-dao"></a>Свойство QueryDef.Parameters (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **[Parameters](parameters-collection-dao.md)** , содержащую все объекты **[параметров](parameter-object-dao.md)** указанного объекта **QueryDef**. Только для чтения.
+Возвращает **[коллекцию Parameters,](parameters-collection-dao.md)** которая содержит все объекты **[Parameter](parameter-object-dao.md)** указанного **QueryDef.** Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Параметры
+*выражение .* Параметры
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 

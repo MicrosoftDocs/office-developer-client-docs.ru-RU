@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef.Name (DAO)
+title: QueryDef.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: f8064e5c-26ad-1f4e-c5d9-f244394cbefb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836936(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302858"
 ---
-# <a name="querydefname-property-dao"></a>Свойство QueryDef.Name (DAO)
+# <a name="querydefname-property-dao"></a>QueryDef.Name (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,11 +23,11 @@ ms.locfileid: "32302858"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Расширением
+*выражение .* Имя
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 
 ## <a name="remarks"></a>Примечания
 
-Максимальная длина имени объекта **QueryDef** составляет 64 символов.
+Максимальная длина имени объекта **QueryDef** составляет 64 символа.
 

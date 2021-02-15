@@ -1,5 +1,5 @@
 ---
-title: Свойство Workspace.Name (DAO)
+title: Workspace.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 6bfdf1e3-b396-ba30-0453-92624a433624
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195490(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302543"
 ---
-# <a name="workspacename-property-dao"></a>Свойство Workspace.Name (DAO)
+# <a name="workspacename-property-dao"></a>Workspace.Name (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает или задает имя указанного объекта. **Строка** для чтения и записи, если объект не был добавлен в коллекцию. **Строка** , доступная только для чтения, если объект добавлен в коллекцию.
+Возвращает или задает имя указанного объекта. Строка **чтения** и записи, если объект не был appended к коллекции. Строка только **для** чтения, если объект был appended к коллекции.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Расширением
+*выражение .* Имя
 
 *expression*: переменная, представляющая объект **Workspace**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Максимальная длина имени объекта **Workspace** составляет 20 символов.
 

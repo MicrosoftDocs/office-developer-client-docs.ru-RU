@@ -26,7 +26,7 @@ ms.locfileid: "32300681"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . CancelUpdate (***упдатетипе***)
+*выражение .* ***CancelUpdate(UpdateType)***
 
 *expression*: переменная, представляющая объект **Recordset**.
 
@@ -52,26 +52,26 @@ ms.locfileid: "32300681"
 <td><p><em>UpdateType</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Long</strong></p></td>
-<td><p>Задайте одно из значений <strong><a href="updatetypeenum-enumeration-dao.md">упдатетипинум</a></strong> .</p><p><strong>Note</strong>: значения <EM>дбупдатерегулар</EM> и <EM>дбупдатебатч</EM> действительны, только если включено пакетное обновление.</p>
+<td><p>Установите одно из <strong><a href="updatetypeenum-enumeration-dao.md">значений UpdateTypeEnum.</a></strong></p><p><strong>ПРИМЕЧАНИЕ.</strong>Значения <EM>dbUpdateRegular</EM> и <EM>dbUpdateBatch</EM> действительны, только если включено пакетное обновление.</p>
 </td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Можно использовать метод **CancelUpdate** , чтобы отменить все ожидающие обновления, являющиеся результатом операции " **[изменить](recordset-edit-method-dao.md)** " или " **[AddNew](recordset-addnew-method-dao.md)** ". Например, если пользователь вызывает метод **Edit** или **AddNew** и еще не вызвал метод **Update** , **CancelUpdate** отменяет все изменения, внесенные после вызова метода **Edit** или **AddNew** .
+Метод **CancelUpdate можно** использовать для отмены ожидающих обновлений, которые были результатом операции **[Edit](recordset-edit-method-dao.md)** или **[AddNew.](recordset-addnew-method-dao.md)** Например, если пользователь вызывает метод **Edit** или **AddNew** и еще не вызывает метод **Update,** **CancelUpdate** отменяет все изменения, внесенные после вызова **Edit** или **AddNew.**
 
-Проверьте свойство **[EditMode](recordset-editmode-property-dao.md)** объекта **Recordset** , чтобы определить, есть ли отложенная операция, которую можно отменить.
+Проверьте свойство **[EditMode](recordset-editmode-property-dao.md)** объекта **Recordset,** чтобы определить, есть ли ожидающих операций, которые можно отменить.
 
 > [!NOTE]
-> Использование метода **CancelUpdate** аналогично переходу на другую запись без использования метода **[Update](recordset-update-method-dao.md)** , за исключением того, что текущая запись не изменяется, а различные свойства, такие как **[BOF](recordset-bof-property-dao.md)** и **[EOF](recordset-eof-property-dao.md)**, не обновляются.
+> Использование метода **CancelUpdate** имеет тот же эффект, что и перемещение в другую запись без использования метода **[Update,](recordset-update-method-dao.md)** за исключением того, что текущая запись не меняется, а различные свойства, такие как **[BOF](recordset-bof-property-dao.md)** и **[EOF,](recordset-eof-property-dao.md)** не обновляются.
 
 
 ## <a name="example"></a>Пример
 
-В этом примере показано, как метод **CancelUpdate** используется с методом **AddNew** .
+В этом примере показано, как метод **CancelUpdate** используется с **методом AddNew.**
 
 ```vb
     Sub CancelUpdateX() 
@@ -110,7 +110,7 @@ ms.locfileid: "32300681"
 
 <br/>
 
-В этом примере показано, как метод **CancelUpdate** используется с методом **Edit** .
+В этом примере показано, как метод **CancelUpdate** используется с **методом Edit.**
 
 ```vb
 Sub CancelUpdateX2() 

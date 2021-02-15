@@ -19,7 +19,7 @@ ms.locfileid: "32301234"
 **Область применения**: Access 2013, Office 2013
 
 - [Коллекция Properties (DAO)](properties-collection-dao.md)
-- [Элементы Properties (DAO)](properties-members-dao.md)
-- [Свойства свойств (DAO)](properties-properties-dao.md)
-- [Методы свойств (DAO)](properties-methods-dao.md)
+- [Properties members (DAO)](properties-members-dao.md)
+- [Свойства (DAO)](properties-properties-dao.md)
+- [Методы Properties (DAO)](properties-methods-dao.md)
 

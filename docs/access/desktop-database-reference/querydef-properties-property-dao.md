@@ -1,5 +1,5 @@
 ---
-title: Свойство QueryDef. Properties (DAO)
+title: Свойство QueryDef.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 91d724bf-8e63-a517-c5be-2b8b382608e0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197640(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303222"
 ---
-# <a name="querydefproperties-property-dao"></a>Свойство QueryDef. Properties (DAO)
+# <a name="querydefproperties-property-dao"></a>Свойство QueryDef.Properties (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "32303222"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Параметры
+*выражение .* Свойства
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 

@@ -18,7 +18,7 @@ ms.locfileid: "32303229"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Метод QueryDef. append (DAO)](querydefs-append-method-dao.md)
-- [Метод QueryDef. Delete (DAO)](querydefs-delete-method-dao.md)
-- [Метод QueryDef. Refresh (DAO)](querydefs-refresh-method-dao.md)
+- [Метод QueryDefs.Append (DAO)](querydefs-append-method-dao.md)
+- [Метод QueryDefs.Delete (DAO)](querydefs-delete-method-dao.md)
+- [Метод QueryDefs.Refresh (DAO)](querydefs-refresh-method-dao.md)
 
