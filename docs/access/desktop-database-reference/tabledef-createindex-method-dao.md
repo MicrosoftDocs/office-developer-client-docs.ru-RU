@@ -1,5 +1,5 @@
 ---
-title: Метод TableDef. Креатеиндекс (DAO)
+title: Метод TableDef.CreateIndex (DAO)
 TOCTitle: CreateIndex Method
 ms:assetid: 857b25c1-01fa-b926-0c74-7105e71b7505
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196791(v=office.15)
@@ -18,19 +18,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314373"
 ---
-# <a name="tabledefcreateindex-method-dao"></a><span data-ttu-id="5994f-102">Метод TableDef. Креатеиндекс (DAO)</span><span class="sxs-lookup"><span data-stu-id="5994f-102">TableDef.CreateIndex method (DAO)</span></span>
+# <a name="tabledefcreateindex-method-dao"></a><span data-ttu-id="0ed77-102">Метод TableDef.CreateIndex (DAO)</span><span class="sxs-lookup"><span data-stu-id="0ed77-102">TableDef.CreateIndex method (DAO)</span></span>
 
-<span data-ttu-id="5994f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5994f-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="0ed77-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ed77-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="5994f-104">Создает новый объект **[index](index-object-dao.md)** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="5994f-104">Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspaces only).</span></span> <span data-ttu-id="5994f-105">.</span><span class="sxs-lookup"><span data-stu-id="5994f-105">.</span></span>
+<span data-ttu-id="0ed77-104">Создает новый объект **[Index](index-object-dao.md)** (только для рабочих пространств Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="0ed77-104">Creates a new **[Index](index-object-dao.md)** object (Microsoft Access workspaces only).</span></span> <span data-ttu-id="0ed77-105">.</span><span class="sxs-lookup"><span data-stu-id="0ed77-105">.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5994f-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5994f-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="0ed77-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="0ed77-106">Syntax</span></span>
 
-<span data-ttu-id="5994f-107">*Expression* . Креатеиндекс (***имя***)</span><span class="sxs-lookup"><span data-stu-id="5994f-107">*expression* .CreateIndex(***Name***)</span></span>
+<span data-ttu-id="0ed77-107">*выражение .* CreateIndex(***Name***)</span><span class="sxs-lookup"><span data-stu-id="0ed77-107">*expression* .CreateIndex(***Name***)</span></span>
 
-<span data-ttu-id="5994f-108">*выражение*: переменная, представляющая объект **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="5994f-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="0ed77-108">*выражение*: переменная, представляющая объект **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="0ed77-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="5994f-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="5994f-109">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="0ed77-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="0ed77-109">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -41,38 +41,38 @@ ms.locfileid: "32314373"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="5994f-110">Имя</span><span class="sxs-lookup"><span data-stu-id="5994f-110">Name</span></span></p></th>
-<th><p><span data-ttu-id="5994f-111">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="5994f-111">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="5994f-112">Тип данных</span><span class="sxs-lookup"><span data-stu-id="5994f-112">Data type</span></span></p></th>
-<th><p><span data-ttu-id="5994f-113">Описание</span><span class="sxs-lookup"><span data-stu-id="5994f-113">Description</span></span></p></th>
+<th><p><span data-ttu-id="0ed77-110">Имя</span><span class="sxs-lookup"><span data-stu-id="0ed77-110">Name</span></span></p></th>
+<th><p><span data-ttu-id="0ed77-111">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="0ed77-111">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="0ed77-112">Тип данных</span><span class="sxs-lookup"><span data-stu-id="0ed77-112">Data type</span></span></p></th>
+<th><p><span data-ttu-id="0ed77-113">Описание</span><span class="sxs-lookup"><span data-stu-id="0ed77-113">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="5994f-114"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="5994f-114"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="5994f-115">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="5994f-115">Optional</span></span></p></td>
-<td><p><span data-ttu-id="5994f-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="5994f-116"><strong>Variant</strong></span></span></p></td>
-<td><p><span data-ttu-id="5994f-117"><strong>Строка</strong> , которая уникально присваивает новому объекту <strong>index</strong> .</span><span class="sxs-lookup"><span data-stu-id="5994f-117">A <strong>String</strong> that uniquely names the new <strong>Index</strong> object.</span></span> <span data-ttu-id="5994f-118">Сведения об допустимых именах <strong>индексов</strong> приведены в свойстве <strong>Name</strong> .</span><span class="sxs-lookup"><span data-stu-id="5994f-118">See the <strong>Name</strong> property for details on valid <strong>Index</strong> names.</span></span></p></td>
+<td><p><span data-ttu-id="0ed77-114"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="0ed77-114"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="0ed77-115">Необязательно заполнять.</span><span class="sxs-lookup"><span data-stu-id="0ed77-115">Optional</span></span></p></td>
+<td><p><span data-ttu-id="0ed77-116"><strong>Variant</strong></span><span class="sxs-lookup"><span data-stu-id="0ed77-116"><strong>Variant</strong></span></span></p></td>
+<td><p><span data-ttu-id="0ed77-117"><strong>Строка,</strong> однозначно именовав новый <strong>объект Index.</strong></span><span class="sxs-lookup"><span data-stu-id="0ed77-117">A <strong>String</strong> that uniquely names the new <strong>Index</strong> object.</span></span> <span data-ttu-id="0ed77-118">Сведения о <strong>допустимом</strong> имени индекса см. в свойстве <strong>Name.</strong></span><span class="sxs-lookup"><span data-stu-id="0ed77-118">See the <strong>Name</strong> property for details on valid <strong>Index</strong> names.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="return-value"></a><span data-ttu-id="5994f-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="5994f-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="0ed77-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0ed77-119">Return value</span></span>
 
-<span data-ttu-id="5994f-120">Индекс</span><span class="sxs-lookup"><span data-stu-id="5994f-120">Index</span></span>
+<span data-ttu-id="0ed77-120">Index</span><span class="sxs-lookup"><span data-stu-id="0ed77-120">Index</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="5994f-121">Примечания</span><span class="sxs-lookup"><span data-stu-id="5994f-121">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0ed77-121">Заметки</span><span class="sxs-lookup"><span data-stu-id="0ed77-121">Remarks</span></span>
 
-<span data-ttu-id="5994f-122">С помощью метода **креатеиндекс** можно создать новый объект **index** для объекта **tabledef** .</span><span class="sxs-lookup"><span data-stu-id="5994f-122">You can use the **CreateIndex** method to create a new **Index** object for a **TableDef** object.</span></span> <span data-ttu-id="5994f-123">Если опустить необязательное имя при использовании **креатеиндекс**, можно задать или сбросить свойство **Name** с помощью соответствующего оператора присваивания перед добавлением нового объекта в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="5994f-123">If you omit the optional name part when you use **CreateIndex**, you can use an appropriate assignment statement to set or reset the **Name** property before you append the new object to a collection.</span></span> <span data-ttu-id="5994f-124">После добавления объекта может быть невозможно задать его свойство **Name** , в зависимости от типа объекта, содержащего коллекцию **индексов** .</span><span class="sxs-lookup"><span data-stu-id="5994f-124">After you append the object, you may or may not be able to set its **Name** property, depending on the type of object that contains the **Indexes** collection.</span></span> <span data-ttu-id="5994f-125">Более подробную информацию можно узнать в разделе Property **Name** .</span><span class="sxs-lookup"><span data-stu-id="5994f-125">See the **Name** property topic for more details.</span></span>
+<span data-ttu-id="0ed77-122">С помощью метода **CreateIndex** можно создать новый объект **Index** для **объекта TableDef.**</span><span class="sxs-lookup"><span data-stu-id="0ed77-122">You can use the **CreateIndex** method to create a new **Index** object for a **TableDef** object.</span></span> <span data-ttu-id="0ed77-123">Если опустить необязательные части имени при использовании **CreateIndex,** можно использовать соответствующий отчет о назначении, чтобы установить или сбросить свойство **Name** перед тем, как приместь новый объект в коллекцию.</span><span class="sxs-lookup"><span data-stu-id="0ed77-123">If you omit the optional name part when you use **CreateIndex**, you can use an appropriate assignment statement to set or reset the **Name** property before you append the new object to a collection.</span></span> <span data-ttu-id="0ed77-124">После того как вы добавили объект, вы можете или не сможете установить его свойство **Name** в зависимости от типа объекта, который содержит **коллекцию Indexes.**</span><span class="sxs-lookup"><span data-stu-id="0ed77-124">After you append the object, you may or may not be able to set its **Name** property, depending on the type of object that contains the **Indexes** collection.</span></span> <span data-ttu-id="0ed77-125">Дополнительные **сведения см.** в разделе о свойстве Name.</span><span class="sxs-lookup"><span data-stu-id="0ed77-125">See the **Name** property topic for more details.</span></span>
 
-<span data-ttu-id="5994f-126">Если имя ссылается на объект, который уже является членом коллекции, при использовании метода **[append](fields-append-method-dao.md)** возникает ошибка во время выполнения.</span><span class="sxs-lookup"><span data-stu-id="5994f-126">If name refers to an object that is already a member of the collection, a run-time error occurs when you use the **[Append](fields-append-method-dao.md)** method.</span></span>
+<span data-ttu-id="0ed77-126">Если имя ссылается на объект, который уже является членом коллекции, при использовании метода **[Append](fields-append-method-dao.md)** возникает ошибка во время работы.</span><span class="sxs-lookup"><span data-stu-id="0ed77-126">If name refers to an object that is already a member of the collection, a run-time error occurs when you use the **[Append](fields-append-method-dao.md)** method.</span></span>
 
-<span data-ttu-id="5994f-127">Чтобы удалить объект **index** из коллекции, используйте метод **[Delete](fields-delete-method-dao.md)** в коллекции.</span><span class="sxs-lookup"><span data-stu-id="5994f-127">To remove an **Index** object from a collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
+<span data-ttu-id="0ed77-127">Чтобы удалить **объект Index** из коллекции, используйте метод **[Delete](fields-delete-method-dao.md)** в коллекции.</span><span class="sxs-lookup"><span data-stu-id="0ed77-127">To remove an **Index** object from a collection, use the **[Delete](fields-delete-method-dao.md)** method on the collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="5994f-128">Пример</span><span class="sxs-lookup"><span data-stu-id="5994f-128">Example</span></span>
+## <a name="example"></a><span data-ttu-id="0ed77-128">Пример</span><span class="sxs-lookup"><span data-stu-id="0ed77-128">Example</span></span>
 
-<span data-ttu-id="5994f-129">В этом примере используется метод **креатеиндекс** для создания двух новых объектов **индекса** , а затем они добавляются в коллекцию **indexes** объекта Employees **tabledef** .</span><span class="sxs-lookup"><span data-stu-id="5994f-129">This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object.</span></span> <span data-ttu-id="5994f-130">Затем выполняется перечисление коллекции индексов объекта **tabledef** , коллекции **Fields** новых объектов **index** и коллекции свойств новых объектов **index** .</span><span class="sxs-lookup"><span data-stu-id="5994f-130">It then enumerates the Indexes collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects.</span></span> <span data-ttu-id="5994f-131">Для выполнения этой процедуры требуется функция Креатеиндексаутпут.</span><span class="sxs-lookup"><span data-stu-id="5994f-131">The CreateIndexOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="0ed77-129">В этом примере метод **CreateIndex** используется для создания двух новых объектов **Index,** а затем их можно придать коллекции **Indexes** объекта Employees **TableDef.**</span><span class="sxs-lookup"><span data-stu-id="0ed77-129">This example uses the **CreateIndex** method to create two new **Index** objects and then appends them to the **Indexes** collection of the Employees **TableDef** object.</span></span> <span data-ttu-id="0ed77-130">Затем он нумерирует коллекцию Indexes объекта **TableDef,** коллекцию **Fields** новых объектов **Index** и коллекцию свойств новых объектов **Index.**</span><span class="sxs-lookup"><span data-stu-id="0ed77-130">It then enumerates the Indexes collection of the **TableDef** object, the **Fields** collection of the new **Index** objects, and the Properties collection of the new **Index** objects.</span></span> <span data-ttu-id="0ed77-131">Для запуска этой процедуры требуется функция CreateIndexOutput.</span><span class="sxs-lookup"><span data-stu-id="0ed77-131">The CreateIndexOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub CreateIndexX() 

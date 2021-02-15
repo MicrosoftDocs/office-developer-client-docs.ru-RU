@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314562"
 ---
-# <a name="skipline-method-ado"></a><span data-ttu-id="6bf73-102">Метод SkipLine (ADO)</span><span class="sxs-lookup"><span data-stu-id="6bf73-102">SkipLine method (ADO)</span></span>
+# <a name="skipline-method-ado"></a><span data-ttu-id="81ff9-102">Метод SkipLine (ADO)</span><span class="sxs-lookup"><span data-stu-id="81ff9-102">SkipLine method (ADO)</span></span>
 
 
-<span data-ttu-id="6bf73-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6bf73-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="81ff9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="81ff9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6bf73-104">Пропускает одну строку целиком при чтении текстового потока.</span><span class="sxs-lookup"><span data-stu-id="6bf73-104">Skips one entire line when reading a text stream.</span></span>
+<span data-ttu-id="81ff9-104">Пропускает всю строку при чтении текстового потока.</span><span class="sxs-lookup"><span data-stu-id="81ff9-104">Skips one entire line when reading a text stream.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6bf73-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6bf73-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="81ff9-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="81ff9-105">Syntax</span></span>
 
-<span data-ttu-id="6bf73-106">*Stream*. SkipLine</span><span class="sxs-lookup"><span data-stu-id="6bf73-106">*Stream*.SkipLine</span></span>
+<span data-ttu-id="81ff9-106">*Stream*. SkipLine</span><span class="sxs-lookup"><span data-stu-id="81ff9-106">*Stream*.SkipLine</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6bf73-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="6bf73-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="81ff9-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="81ff9-107">Remarks</span></span>
 
-<span data-ttu-id="6bf73-108">Все символы до и включительно разделитель в следующую строку будут пропущены.</span><span class="sxs-lookup"><span data-stu-id="6bf73-108">All characters up to, and including the next line separator, are skipped.</span></span> <span data-ttu-id="6bf73-109">По умолчанию [LineSeparator](lineseparator-property-ado.md) — **адкрлф**.</span><span class="sxs-lookup"><span data-stu-id="6bf73-109">By default, the [LineSeparator](lineseparator-property-ado.md) is **adCRLF**.</span></span> <span data-ttu-id="6bf73-110">Если вы попытаетесь пропустить прошедший [EOS](eos-property-ado.md), текущее положение просто останется в **EOS**.</span><span class="sxs-lookup"><span data-stu-id="6bf73-110">If you attempt to skip past [EOS](eos-property-ado.md), the current position will simply remain at **EOS**.</span></span>
+<span data-ttu-id="81ff9-108">Пропускаются все символы до следующей строки, включая сепаратор.</span><span class="sxs-lookup"><span data-stu-id="81ff9-108">All characters up to, and including the next line separator, are skipped.</span></span> <span data-ttu-id="81ff9-109">По умолчанию [lineSeparator](lineseparator-property-ado.md) — **adCRLF.**</span><span class="sxs-lookup"><span data-stu-id="81ff9-109">By default, the [LineSeparator](lineseparator-property-ado.md) is **adCRLF**.</span></span> <span data-ttu-id="81ff9-110">Если попытаться пропустить [EOS,](eos-property-ado.md)текущая позиция останется в **EOS.**</span><span class="sxs-lookup"><span data-stu-id="81ff9-110">If you attempt to skip past [EOS](eos-property-ado.md), the current position will simply remain at **EOS**.</span></span>
 
-<span data-ttu-id="6bf73-111">Метод **SkipLine** используется с текстовыми потоками ([Type](type-property-ado-stream.md) — **адтипетекст**).</span><span class="sxs-lookup"><span data-stu-id="6bf73-111">The **SkipLine** method is used with text streams ([Type](type-property-ado-stream.md) is **adTypeText**).</span></span>
+<span data-ttu-id="81ff9-111">Метод **SkipLine** используется с текстовыми потоками [(тип](type-property-ado-stream.md) **adTypeText).**</span><span class="sxs-lookup"><span data-stu-id="81ff9-111">The **SkipLine** method is used with text streams ([Type](type-property-ado-stream.md) is **adTypeText**).</span></span>
 

@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314436"
 ---
-# <a name="streams-and-persistence"></a><span data-ttu-id="2a722-102">Потоки и сохраняемость</span><span class="sxs-lookup"><span data-stu-id="2a722-102">Streams and persistence</span></span>
+# <a name="streams-and-persistence"></a><span data-ttu-id="6f370-102">Потоки и сохраняемость</span><span class="sxs-lookup"><span data-stu-id="6f370-102">Streams and persistence</span></span>
 
 
-<span data-ttu-id="2a722-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2a722-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6f370-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6f370-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2a722-104">Метод [Save](save-method-ado.md) объекта [Recordset](recordset-object-ado.md) сохраняет или сохраняет **набор записей** в *файле, а*метод [Open](open-method-ado-recordset.md) восстанавливает **набор записей** из этого файла.</span><span class="sxs-lookup"><span data-stu-id="2a722-104">The [Recordset](recordset-object-ado.md) object [Save](save-method-ado.md) method stores, or *persists*, a **Recordset** in a file, and the [Open](open-method-ado-recordset.md) method restores the **Recordset** from that file.</span></span>
+<span data-ttu-id="6f370-104">Метод [Save объекта Recordset](recordset-object-ado.md) сохраняет или сохраняет объект **Recordset** в файле, а метод [Open](open-method-ado-recordset.md) восстанавливает **набор записей** из этого файла. [](save-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="6f370-104">The [Recordset](recordset-object-ado.md) object [Save](save-method-ado.md) method stores, or *persists*, a **Recordset** in a file, and the [Open](open-method-ado-recordset.md) method restores the **Recordset** from that file.</span></span>
 
-<span data-ttu-id="2a722-105">С помощью ADO 2,5 методы **Save** и **Open** могут также сохранить объект **Recordset** в объекте [Stream](stream-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="2a722-105">With ADO 2.5, the **Save** and **Open** methods can persist a **Recordset** to a [Stream](stream-object-ado.md) object as well.</span></span> <span data-ttu-id="2a722-106">Эта функция особенно полезна при работе с удаленными службами данных (RDS) и ASP (Active Server Pages).</span><span class="sxs-lookup"><span data-stu-id="2a722-106">This feature is especially useful when working with Remote Data Service (RDS) and Active Server Pages (ASP).</span></span>
+<span data-ttu-id="6f370-105">С помощью ADO 2.5 методы **Save** и **Open** также могут сохранять **набор записей** в [объекте Stream.](stream-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="6f370-105">With ADO 2.5, the **Save** and **Open** methods can persist a **Recordset** to a [Stream](stream-object-ado.md) object as well.</span></span> <span data-ttu-id="6f370-106">Эта функция особенно полезна при работе с удаленной службой данных (RDS) и ASP (ASP).</span><span class="sxs-lookup"><span data-stu-id="6f370-106">This feature is especially useful when working with Remote Data Service (RDS) and Active Server Pages (ASP).</span></span>
 
-<span data-ttu-id="2a722-107">Для получения дополнительных сведений о том, как можно использовать сохраняемость на страницах ASP, ознакомьтесь с текущей документацией по ASP.</span><span class="sxs-lookup"><span data-stu-id="2a722-107">For more information about how persistence can be used by itself on ASP pages, see the current ASP documentation.</span></span>
+<span data-ttu-id="6f370-107">Дополнительные сведения о том, как сохраняемость может использоваться самой собой на страницах ASP, см. в текущей документации ASP.</span><span class="sxs-lookup"><span data-stu-id="6f370-107">For more information about how persistence can be used by itself on ASP pages, see the current ASP documentation.</span></span>
 
-<span data-ttu-id="2a722-108">Ниже приведено несколько сценариев, в которых показано, как можно использовать объекты **Stream** и сохраняемость.</span><span class="sxs-lookup"><span data-stu-id="2a722-108">The following are a few scenarios that show how **Stream** objects and persistence can be used.</span></span>
+<span data-ttu-id="6f370-108">Ниже приводится несколько сценариев, которые показывают, как можно использовать объекты **Stream** и сохраняемость.</span><span class="sxs-lookup"><span data-stu-id="6f370-108">The following are a few scenarios that show how **Stream** objects and persistence can be used.</span></span>
 
-## <a name="scenario-1"></a><span data-ttu-id="2a722-109">Сценарий 1</span><span class="sxs-lookup"><span data-stu-id="2a722-109">Scenario 1</span></span>
+## <a name="scenario-1"></a><span data-ttu-id="6f370-109">Сценарий 1</span><span class="sxs-lookup"><span data-stu-id="6f370-109">Scenario 1</span></span>
 
-<span data-ttu-id="2a722-110">В этом сценарии просто сохраняется **набор записей** в файл, а затем в **поток**.</span><span class="sxs-lookup"><span data-stu-id="2a722-110">This scenario simply saves a **Recordset** to a file and then to a **Stream**.</span></span> <span data-ttu-id="2a722-111">Затем он открывает постоянный поток в другом объекте **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="2a722-111">It then opens the persisted stream into another **Recordset**.</span></span>
+<span data-ttu-id="6f370-110">В этом сценарии набор **записей** просто сохраняется в файл, а затем в **stream.**</span><span class="sxs-lookup"><span data-stu-id="6f370-110">This scenario simply saves a **Recordset** to a file and then to a **Stream**.</span></span> <span data-ttu-id="6f370-111">Затем он открывает сохраняемого потока в другой **набор записей**.</span><span class="sxs-lookup"><span data-stu-id="6f370-111">It then opens the persisted stream into another **Recordset**.</span></span>
 
 ```vb 
  
@@ -49,9 +49,9 @@ rs1.Save stm, adPersistXML
 rs2.Open stm 
 ```
 
-## <a name="scenario-2"></a><span data-ttu-id="2a722-112">Сценарий 2</span><span class="sxs-lookup"><span data-stu-id="2a722-112">Scenario 2</span></span>
+## <a name="scenario-2"></a><span data-ttu-id="6f370-112">Сценарий 2</span><span class="sxs-lookup"><span data-stu-id="6f370-112">Scenario 2</span></span>
 
-<span data-ttu-id="2a722-113">В этом сценарии объект **Recordset** хранится в **потоке** в формате XML.</span><span class="sxs-lookup"><span data-stu-id="2a722-113">This scenario persists a **Recordset** into a **Stream** in XML format.</span></span> <span data-ttu-id="2a722-114">Затем он читает **поток** в строку, которую вы можете проверить, изменить или отобразить.</span><span class="sxs-lookup"><span data-stu-id="2a722-114">It then reads the **Stream** into a string that you can examine, manipulate, or display.</span></span>
+<span data-ttu-id="6f370-113">В этом сценарии набор **записей сохраняется** в **потоке** в формате XML.</span><span class="sxs-lookup"><span data-stu-id="6f370-113">This scenario persists a **Recordset** into a **Stream** in XML format.</span></span> <span data-ttu-id="6f370-114">Затем поток **считывется** в строку, которую можно изучать, управлять или отображать.</span><span class="sxs-lookup"><span data-stu-id="6f370-114">It then reads the **Stream** into a string that you can examine, manipulate, or display.</span></span>
 
 ```vb 
  
@@ -77,9 +77,9 @@ strRst = stm.ReadText(adReadAll)
 ... 
 ```
 
-## <a name="scenario-3"></a><span data-ttu-id="2a722-115">Сценарий 3</span><span class="sxs-lookup"><span data-stu-id="2a722-115">Scenario 3</span></span>
+## <a name="scenario-3"></a><span data-ttu-id="6f370-115">Сценарий 3</span><span class="sxs-lookup"><span data-stu-id="6f370-115">Scenario 3</span></span>
 
-<span data-ttu-id="2a722-116">В этом примере кода показано, как код ASP сохраняет объект **Recordset** в виде XML непосредственно в объект **Response** :</span><span class="sxs-lookup"><span data-stu-id="2a722-116">This example code shows ASP code persisting a **Recordset** as XML directly to the **Response** object:</span></span>
+<span data-ttu-id="6f370-116">В этом примере кода показан код ASP, который сохраняет **объект Recordset** в качестве XML-кода непосредственно в **объекте Response:**</span><span class="sxs-lookup"><span data-stu-id="6f370-116">This example code shows ASP code persisting a **Recordset** as XML directly to the **Response** object:</span></span>
 
 ```vb 
  
@@ -103,13 +103,13 @@ Set rs = nothing
 ... 
 ```
 
-## <a name="scenario-4"></a><span data-ttu-id="2a722-117">Сценарий 4</span><span class="sxs-lookup"><span data-stu-id="2a722-117">Scenario 4</span></span>
+## <a name="scenario-4"></a><span data-ttu-id="6f370-117">Сценарий 4</span><span class="sxs-lookup"><span data-stu-id="6f370-117">Scenario 4</span></span>
 
-<span data-ttu-id="2a722-118">В этом сценарии код ASP записывает содержимое объекта **Recordset** в формате адтг в клиент.</span><span class="sxs-lookup"><span data-stu-id="2a722-118">In this scenario, ASP code writes the contents of the **Recordset** in ADTG format to the client.</span></span> <span data-ttu-id="2a722-119">[Служба курсора Майкрософт для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) может использовать эти данные для создания отключенного **набора записей**.</span><span class="sxs-lookup"><span data-stu-id="2a722-119">The [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) can use this data to create a disconnected **Recordset**.</span></span>
+<span data-ttu-id="6f370-118">В этом сценарии код ASP записывает содержимое **recordset** в формате ADTG в клиент.</span><span class="sxs-lookup"><span data-stu-id="6f370-118">In this scenario, ASP code writes the contents of the **Recordset** in ADTG format to the client.</span></span> <span data-ttu-id="6f370-119">Служба [курсоров Майкрософт для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) может использовать эти данные для создания отключенного **recordset.**</span><span class="sxs-lookup"><span data-stu-id="6f370-119">The [Microsoft Cursor Service for OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) can use this data to create a disconnected **Recordset**.</span></span>
 
-<span data-ttu-id="2a722-120">Новое свойство в [элементе управления](datacontrol-object-rds.md)RDS данных ( [URL-адрес](url-property-rds.md)) указывает на ASP-страницу, создающую **набор записей**.</span><span class="sxs-lookup"><span data-stu-id="2a722-120">A new property on the RDS [DataControl](datacontrol-object-rds.md), [URL](url-property-rds.md), points to the .asp page that generates the **Recordset**.</span></span> <span data-ttu-id="2a722-121">Это означает, что объект **Recordset** можно получить без RDS с использованием объекта [факта](datafactory-object-rdsserver.md) на стороне сервера или при написании бизнес-объекта пользователем.</span><span class="sxs-lookup"><span data-stu-id="2a722-121">This means a **Recordset** object can be obtained without RDS using the server-side [DataFactory](datafactory-object-rdsserver.md) object or the user writing a business object.</span></span> <span data-ttu-id="2a722-122">Это значительно упрощает модель программирования RDS.</span><span class="sxs-lookup"><span data-stu-id="2a722-122">This simplifies the RDS programming model significantly.</span></span>
+<span data-ttu-id="6f370-120">Новое свойство в URL-адресе RDS [DataControl](datacontrol-object-rds.md) [указывает](url-property-rds.md)на страницу ASP, которая создает **набор записей.**</span><span class="sxs-lookup"><span data-stu-id="6f370-120">A new property on the RDS [DataControl](datacontrol-object-rds.md), [URL](url-property-rds.md), points to the .asp page that generates the **Recordset**.</span></span> <span data-ttu-id="6f370-121">Это означает, что объект **Recordset** можно получить без RDS с помощью объекта [DataFactory](datafactory-object-rdsserver.md) на стороне сервера или пользователя, написав бизнес-объект.</span><span class="sxs-lookup"><span data-stu-id="6f370-121">This means a **Recordset** object can be obtained without RDS using the server-side [DataFactory](datafactory-object-rdsserver.md) object or the user writing a business object.</span></span> <span data-ttu-id="6f370-122">Это значительно упрощает модель программирования RDS.</span><span class="sxs-lookup"><span data-stu-id="6f370-122">This simplifies the RDS programming model significantly.</span></span>
 
-<span data-ttu-id="2a722-123">Код на стороне сервера с именемhttps://server/directory/recordset.asp:</span><span class="sxs-lookup"><span data-stu-id="2a722-123">Server-side code, named https://server/directory/recordset.asp:</span></span>
+<span data-ttu-id="6f370-123">Серверный код с именем https://server/directory/recordset.asp:</span><span class="sxs-lookup"><span data-stu-id="6f370-123">Server-side code, named https://server/directory/recordset.asp:</span></span>
 
 ```vb 
  
@@ -124,7 +124,7 @@ rs.Save response, adPersistADTG
 %> 
 ```
 
-<span data-ttu-id="2a722-124">Код на стороне клиента:</span><span class="sxs-lookup"><span data-stu-id="2a722-124">Client-side code:</span></span>
+<span data-ttu-id="6f370-124">Клиентский код:</span><span class="sxs-lookup"><span data-stu-id="6f370-124">Client-side code:</span></span>
 
 ```html 
  
@@ -155,7 +155,7 @@ rs.Save response, adPersistADTG
 </HTML> 
 ```
 
-<span data-ttu-id="2a722-125">Кроме того, разработчики имеют возможность использовать объект **Recordset** в клиенте:</span><span class="sxs-lookup"><span data-stu-id="2a722-125">Developers also have the option of using a **Recordset** object on the client:</span></span>
+<span data-ttu-id="6f370-125">Разработчики также могут использовать объект **Recordset** в клиенте:</span><span class="sxs-lookup"><span data-stu-id="6f370-125">Developers also have the option of using a **Recordset** object on the client:</span></span>
 
 ```vb
 ... 
