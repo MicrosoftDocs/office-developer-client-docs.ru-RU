@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313169"
 ---
-# <a name="user-object-adox-reference"></a><span data-ttu-id="db342-102">Справочник по объекту User (ADOX)</span><span class="sxs-lookup"><span data-stu-id="db342-102">User object (ADOX) reference</span></span>
+# <a name="user-object-adox-reference"></a><span data-ttu-id="0907c-102">Справочник по объекту User (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0907c-102">User object (ADOX) reference</span></span>
 
-<span data-ttu-id="db342-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="db342-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="0907c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0907c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="db342-104">Объект User (ADOX)</span><span class="sxs-lookup"><span data-stu-id="db342-104">User object (ADOX)</span></span>](user-object-adox.md)
-- [<span data-ttu-id="db342-105">Свойства, методы и события пользователя (ADOX)</span><span class="sxs-lookup"><span data-stu-id="db342-105">User properties, methods, and events (ADOX)</span></span>](user-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="0907c-104">Объект User (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0907c-104">User object (ADOX)</span></span>](user-object-adox.md)
+- [<span data-ttu-id="0907c-105">Свойства, методы и события пользователя (ADOX)</span><span class="sxs-lookup"><span data-stu-id="0907c-105">User properties, methods, and events (ADOX)</span></span>](user-properties-methods-and-events-adox.md)
 

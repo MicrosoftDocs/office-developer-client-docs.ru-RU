@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307009"
 ---
-# <a name="relation-object-reference-dao"></a><span data-ttu-id="f81e1-102">Ссылка на объект Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="f81e1-102">Relation object reference (DAO)</span></span>
+# <a name="relation-object-reference-dao"></a><span data-ttu-id="8be19-102">Ссылка на объект Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="8be19-102">Relation object reference (DAO)</span></span>
 
-<span data-ttu-id="f81e1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f81e1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8be19-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8be19-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f81e1-104">Объект Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="f81e1-104">Relation object (DAO)</span></span>](relation-object-dao.md)
-- [<span data-ttu-id="f81e1-105">Элементы отношений (DAO)</span><span class="sxs-lookup"><span data-stu-id="f81e1-105">Relation members (DAO)</span></span>](relation-members-dao.md)
-- [<span data-ttu-id="f81e1-106">Свойства связи (DAO)</span><span class="sxs-lookup"><span data-stu-id="f81e1-106">Relation properties (DAO)</span></span>](relation-properties-dao.md)
-- [<span data-ttu-id="f81e1-107">Методы связи (DAO)</span><span class="sxs-lookup"><span data-stu-id="f81e1-107">Relation methods (DAO)</span></span>](relation-methods-dao.md)
+- [<span data-ttu-id="8be19-104">Объект Relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="8be19-104">Relation object (DAO)</span></span>](relation-object-dao.md)
+- [<span data-ttu-id="8be19-105">Relation members (DAO)</span><span class="sxs-lookup"><span data-stu-id="8be19-105">Relation members (DAO)</span></span>](relation-members-dao.md)
+- [<span data-ttu-id="8be19-106">Свойства relation (DAO)</span><span class="sxs-lookup"><span data-stu-id="8be19-106">Relation properties (DAO)</span></span>](relation-properties-dao.md)
+- [<span data-ttu-id="8be19-107">Relation methods (DAO)</span><span class="sxs-lookup"><span data-stu-id="8be19-107">Relation methods (DAO)</span></span>](relation-methods-dao.md)
 

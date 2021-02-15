@@ -1,5 +1,5 @@
 ---
-title: VBScript (Справочник по базам данных Access для настольных ПК)
+title: VBScript (справочник по базе данных Access для настольных ПК)
 TOCTitle: VBScript
 ms:assetid: 070ae822-c0e4-3923-3a9c-69474981728b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248817(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312098"
 ---
-# <a name="vbscript"></a><span data-ttu-id="e285d-102">VBScript</span><span class="sxs-lookup"><span data-stu-id="e285d-102">VBScript</span></span>
+# <a name="vbscript"></a><span data-ttu-id="85225-102">VBScript</span><span class="sxs-lookup"><span data-stu-id="85225-102">VBScript</span></span>
 
 
-<span data-ttu-id="e285d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e285d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="85225-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="85225-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e285d-104">Microsoft Visual Basic Scripting Edition не поддерживает события ADO.</span><span class="sxs-lookup"><span data-stu-id="e285d-104">Microsoft Visual Basic Scripting Edition does not support ADO events.</span></span>
+<span data-ttu-id="85225-104">Microsoft Visual Basic Scripting Edition не поддерживает события ADO.</span><span class="sxs-lookup"><span data-stu-id="85225-104">Microsoft Visual Basic Scripting Edition does not support ADO events.</span></span>
 

@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306568"
 ---
-# <a name="resync-method-example-vb"></a><span data-ttu-id="d7496-102">Пример использования метода Resync (VB)</span><span class="sxs-lookup"><span data-stu-id="d7496-102">Resync method example (VB)</span></span>
+# <a name="resync-method-example-vb"></a><span data-ttu-id="f3444-102">Пример использования метода Resync (VB)</span><span class="sxs-lookup"><span data-stu-id="f3444-102">Resync method example (VB)</span></span>
 
 
-<span data-ttu-id="d7496-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d7496-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f3444-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f3444-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d7496-104">В этом примере демонстрируется использование метода [Resync](resync-method-ado.md) для обновления данных в статическом объекте Recordset.</span><span class="sxs-lookup"><span data-stu-id="d7496-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
+<span data-ttu-id="f3444-104">В этом примере показано использование метода [Resync](resync-method-ado.md) для обновления данных в статическом наборе записей.</span><span class="sxs-lookup"><span data-stu-id="f3444-104">This example demonstrates using the [Resync](resync-method-ado.md) method to refresh data in a static recordset.</span></span>
 
 ```vb 
  

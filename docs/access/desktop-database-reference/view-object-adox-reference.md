@@ -1,5 +1,5 @@
 ---
-title: Справочник по объектам View (ADOX)
+title: Справочник по объекту View (ADOX)
 TOCTitle: View object (ADOX)
 ms:assetid: 62222c5e-61b6-4984-9b24-b5fcf1d90861
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249366(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312147"
 ---
-# <a name="view-object-adox-reference"></a><span data-ttu-id="64c9d-102">Справочник по объектам View (ADOX)</span><span class="sxs-lookup"><span data-stu-id="64c9d-102">View object (ADOX) reference</span></span>
+# <a name="view-object-adox-reference"></a><span data-ttu-id="cb132-102">Справочник по объекту View (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cb132-102">View object (ADOX) reference</span></span>
 
-<span data-ttu-id="64c9d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="64c9d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cb132-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb132-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="64c9d-104">Объект View (ADOX)</span><span class="sxs-lookup"><span data-stu-id="64c9d-104">View object (ADOX)</span></span>](view-object-adox.md)
-- [<span data-ttu-id="64c9d-105">Просмотр свойств, методов и событий (ADOX)</span><span class="sxs-lookup"><span data-stu-id="64c9d-105">View properties, methods, and events (ADOX)</span></span>](view-properties-methods-and-events-adox.md)
+- [<span data-ttu-id="cb132-104">Объект View (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cb132-104">View object (ADOX)</span></span>](view-object-adox.md)
+- [<span data-ttu-id="cb132-105">Просмотр свойств, методов и событий (ADOX)</span><span class="sxs-lookup"><span data-stu-id="cb132-105">View properties, methods, and events (ADOX)</span></span>](view-properties-methods-and-events-adox.md)
 

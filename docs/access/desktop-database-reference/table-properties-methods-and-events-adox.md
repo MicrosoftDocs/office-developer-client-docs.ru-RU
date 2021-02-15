@@ -14,26 +14,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308437"
 ---
-# <a name="table-properties-methods-and-events-adox"></a><span data-ttu-id="84a2a-102">Свойства, методы и события таблицы (ADOX)</span><span class="sxs-lookup"><span data-stu-id="84a2a-102">Table properties, methods, and events (ADOX)</span></span>
+# <a name="table-properties-methods-and-events-adox"></a><span data-ttu-id="fd9d3-102">Свойства, методы и события таблицы (ADOX)</span><span class="sxs-lookup"><span data-stu-id="fd9d3-102">Table properties, methods, and events (ADOX)</span></span>
 
-<span data-ttu-id="84a2a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="84a2a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fd9d3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fd9d3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="84a2a-104">Свойства и коллекции</span><span class="sxs-lookup"><span data-stu-id="84a2a-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="fd9d3-104">Properties/Collections</span><span class="sxs-lookup"><span data-stu-id="fd9d3-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="84a2a-105">Свойство DateCreated</span><span class="sxs-lookup"><span data-stu-id="84a2a-105">DateCreated property</span></span>](datecreated-property-adox.md)
-- [<span data-ttu-id="84a2a-106">Свойство DateModified</span><span class="sxs-lookup"><span data-stu-id="84a2a-106">DateModified property</span></span>](datemodified-property-adox.md)
-- [<span data-ttu-id="84a2a-107">Коллекция Indexes</span><span class="sxs-lookup"><span data-stu-id="84a2a-107">Indexes collection</span></span>](indexes-collection-adox.md)
-- [<span data-ttu-id="84a2a-108">Коллекция Keys</span><span class="sxs-lookup"><span data-stu-id="84a2a-108">Keys collection</span></span>](keys-collection-adox.md)
-- [<span data-ttu-id="84a2a-109">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="84a2a-109">Name property</span></span>](name-property-adox.md)
-- [<span data-ttu-id="84a2a-110">Свойство ParentCatalog</span><span class="sxs-lookup"><span data-stu-id="84a2a-110">ParentCatalog property</span></span>](parentcatalog-property-adox.md)
-- [<span data-ttu-id="84a2a-111">Свойство Type (Table)</span><span class="sxs-lookup"><span data-stu-id="84a2a-111">Type property (Table)</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
+- [<span data-ttu-id="fd9d3-105">Свойство DateCreated</span><span class="sxs-lookup"><span data-stu-id="fd9d3-105">DateCreated property</span></span>](datecreated-property-adox.md)
+- [<span data-ttu-id="fd9d3-106">Свойство DateModified</span><span class="sxs-lookup"><span data-stu-id="fd9d3-106">DateModified property</span></span>](datemodified-property-adox.md)
+- [<span data-ttu-id="fd9d3-107">Коллекция Indexes</span><span class="sxs-lookup"><span data-stu-id="fd9d3-107">Indexes collection</span></span>](indexes-collection-adox.md)
+- [<span data-ttu-id="fd9d3-108">Коллекция Keys</span><span class="sxs-lookup"><span data-stu-id="fd9d3-108">Keys collection</span></span>](keys-collection-adox.md)
+- [<span data-ttu-id="fd9d3-109">Свойство Name</span><span class="sxs-lookup"><span data-stu-id="fd9d3-109">Name property</span></span>](name-property-adox.md)
+- [<span data-ttu-id="fd9d3-110">Свойство ParentCatalog</span><span class="sxs-lookup"><span data-stu-id="fd9d3-110">ParentCatalog property</span></span>](parentcatalog-property-adox.md)
+- [<span data-ttu-id="fd9d3-111">Свойство Type (Table)</span><span class="sxs-lookup"><span data-stu-id="fd9d3-111">Type property (Table)</span></span>](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
 
 
-## <a name="methods"></a><span data-ttu-id="84a2a-112">Methods</span><span class="sxs-lookup"><span data-stu-id="84a2a-112">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="fd9d3-112">Methods</span><span class="sxs-lookup"><span data-stu-id="fd9d3-112">Methods</span></span>
 
-<span data-ttu-id="84a2a-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="84a2a-113">None.</span></span>
+<span data-ttu-id="fd9d3-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="fd9d3-113">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="84a2a-114">События</span><span class="sxs-lookup"><span data-stu-id="84a2a-114">Events</span></span>
+## <a name="events"></a><span data-ttu-id="fd9d3-114">События</span><span class="sxs-lookup"><span data-stu-id="fd9d3-114">Events</span></span>
 
-<span data-ttu-id="84a2a-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="84a2a-115">None.</span></span>
+<span data-ttu-id="fd9d3-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="fd9d3-115">None.</span></span>
 

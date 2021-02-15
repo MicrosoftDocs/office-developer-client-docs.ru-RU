@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef.Name (DAO)
+title: TableDef.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 66b751ee-cf8a-a1f2-c646-6124e5f18cd0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195226(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308395"
 ---
-# <a name="tabledefname-property-dao"></a><span data-ttu-id="8579a-102">Свойство TableDef.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="8579a-102">TableDef.Name property (DAO)</span></span>
+# <a name="tabledefname-property-dao"></a><span data-ttu-id="2c334-102">TableDef.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="2c334-102">TableDef.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="8579a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8579a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2c334-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2c334-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8579a-104">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="8579a-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="8579a-105">Для чтения и записи, **String**.</span><span class="sxs-lookup"><span data-stu-id="8579a-105">Read/write **String**.</span></span>
+<span data-ttu-id="2c334-104">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="2c334-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="2c334-105">Для чтения и записи, **String**.</span><span class="sxs-lookup"><span data-stu-id="2c334-105">Read/write **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8579a-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8579a-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2c334-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2c334-106">Syntax</span></span>
 
-<span data-ttu-id="8579a-107">*Expression* . Расширением</span><span class="sxs-lookup"><span data-stu-id="8579a-107">*expression* .Name</span></span>
+<span data-ttu-id="2c334-107">*выражение .* Имя</span><span class="sxs-lookup"><span data-stu-id="2c334-107">*expression* .Name</span></span>
 
-<span data-ttu-id="8579a-108">*выражение*: переменная, представляющая объект **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="8579a-108">*expression* A variable that represents a **TableDef** object.</span></span>
+<span data-ttu-id="2c334-108">*выражение*: переменная, представляющая объект **TableDef**.</span><span class="sxs-lookup"><span data-stu-id="2c334-108">*expression* A variable that represents a **TableDef** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8579a-109">Комментарии</span><span class="sxs-lookup"><span data-stu-id="8579a-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2c334-109">Комментарии</span><span class="sxs-lookup"><span data-stu-id="2c334-109">Remarks</span></span>
 
-<span data-ttu-id="8579a-110">Максимальная длина имени объекта **tabledef** составляет 64 символов.</span><span class="sxs-lookup"><span data-stu-id="8579a-110">The maximum length for the name of a **TableDef** object is 64 characters.</span></span>
+<span data-ttu-id="2c334-110">Максимальная длина имени объекта **TableDef** составляет 64 символа.</span><span class="sxs-lookup"><span data-stu-id="2c334-110">The maximum length for the name of a **TableDef** object is 64 characters.</span></span>
 

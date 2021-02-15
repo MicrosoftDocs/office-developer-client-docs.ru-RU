@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308367"
 ---
-# <a name="update-and-cancelupdate-methods-example-vb"></a><span data-ttu-id="fa471-102">Пример использования методов Update и CancelUpdate (VB)</span><span class="sxs-lookup"><span data-stu-id="fa471-102">Update and CancelUpdate methods example (VB)</span></span>
+# <a name="update-and-cancelupdate-methods-example-vb"></a><span data-ttu-id="fc1b6-102">Пример использования методов Update и CancelUpdate (VB)</span><span class="sxs-lookup"><span data-stu-id="fc1b6-102">Update and CancelUpdate methods example (VB)</span></span>
 
 
-<span data-ttu-id="fa471-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fa471-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="fc1b6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fc1b6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fa471-104">В этом примере демонстрируется метод [Update](update-method-ado.md) в сочетании с методом [CancelUpdate](cancelupdate-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="fa471-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
+<span data-ttu-id="fc1b6-104">В этом примере демонстрируется метод [Update](update-method-ado.md) в сочетании с [методом CancelUpdate.](cancelupdate-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="fc1b6-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
 
 ```vb 
  
@@ -113,7 +113,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="fa471-105">В этом примере показано использование метода **Update** вместе с методом [AddNew](addnew-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="fa471-105">This example demonstrates the **Update** method in conjunction with the [AddNew](addnew-method-ado.md) method.</span></span>
+<span data-ttu-id="fc1b6-105">В этом примере показано использование метода **Update** вместе с методом [AddNew](addnew-method-ado.md).</span><span class="sxs-lookup"><span data-stu-id="fc1b6-105">This example demonstrates the **Update** method in conjunction with the [AddNew](addnew-method-ado.md) method.</span></span>
 
 ```vb 
  

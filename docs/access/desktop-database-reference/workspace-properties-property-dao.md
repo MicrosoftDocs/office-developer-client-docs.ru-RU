@@ -1,5 +1,5 @@
 ---
-title: Свойство Workspace. Properties (DAO)
+title: Свойство Workspace.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: fe2e8d83-5081-4a2c-d2bb-53fbcbd13210
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837262(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311322"
 ---
-# <a name="workspaceproperties-property-dao"></a><span data-ttu-id="7b6b4-102">Свойство Workspace. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="7b6b4-102">Workspace.Properties property (DAO)</span></span>
+# <a name="workspaceproperties-property-dao"></a><span data-ttu-id="917b6-102">Свойство Workspace.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="917b6-102">Workspace.Properties property (DAO)</span></span>
 
 
-<span data-ttu-id="7b6b4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7b6b4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="917b6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="917b6-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7b6b4-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="7b6b4-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="7b6b4-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="7b6b4-105">Read-only.</span></span>
+<span data-ttu-id="917b6-104">Возвращает коллекцию **[Properties](properties-collection-dao.md)** для указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="917b6-104">Returns the **[Properties](properties-collection-dao.md)** collection of the specified object.</span></span> <span data-ttu-id="917b6-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="917b6-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="7b6b4-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7b6b4-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="917b6-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="917b6-106">Syntax</span></span>
 
-<span data-ttu-id="7b6b4-107">*Expression* . Параметры</span><span class="sxs-lookup"><span data-stu-id="7b6b4-107">*expression* .Properties</span></span>
+<span data-ttu-id="917b6-107">*выражение .* Свойства</span><span class="sxs-lookup"><span data-stu-id="917b6-107">*expression* .Properties</span></span>
 
-<span data-ttu-id="7b6b4-108">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="7b6b4-108">*expression* A variable that represents a **Workspace** object.</span></span>
+<span data-ttu-id="917b6-108">*expression*: переменная, представляющая объект **Workspace**.</span><span class="sxs-lookup"><span data-stu-id="917b6-108">*expression* A variable that represents a **Workspace** object.</span></span>
 

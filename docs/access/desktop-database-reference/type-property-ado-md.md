@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313988"
 ---
-# <a name="type-property-ado-md"></a><span data-ttu-id="7cf2c-102">Свойство Type (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="7cf2c-102">Type property (ADO MD)</span></span>
+# <a name="type-property-ado-md"></a><span data-ttu-id="63df8-102">Свойство Type (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="63df8-102">Type property (ADO MD)</span></span>
 
 
-<span data-ttu-id="7cf2c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7cf2c-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="63df8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="63df8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7cf2c-104">Указывает тип текущего элемента.</span><span class="sxs-lookup"><span data-stu-id="7cf2c-104">Indicates the type of the current member.</span></span>
+<span data-ttu-id="63df8-104">Указывает тип текущего члена.</span><span class="sxs-lookup"><span data-stu-id="63df8-104">Indicates the type of the current member.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="7cf2c-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="7cf2c-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="63df8-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="63df8-105">Return values</span></span>
 
-<span data-ttu-id="7cf2c-106">Возвращает значение [мембертипинум](membertypeenum.md) и доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="7cf2c-106">Returns a [MemberTypeEnum](membertypeenum.md) value and is read-only.</span></span>
+<span data-ttu-id="63df8-106">Возвращает значение [MemberTypeEnum](membertypeenum.md) и является только для чтения.</span><span class="sxs-lookup"><span data-stu-id="63df8-106">Returns a [MemberTypeEnum](membertypeenum.md) value and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="7cf2c-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="7cf2c-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="63df8-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="63df8-107">Remarks</span></span>
 
-<span data-ttu-id="7cf2c-108">Это свойство поддерживается только для объектов [member](member-object-ado-md.md) , принадлежащих объекту [уровня](level-object-ado-md.md) .</span><span class="sxs-lookup"><span data-stu-id="7cf2c-108">This property is supported only on [Member](member-object-ado-md.md) objects belonging to a [Level](level-object-ado-md.md) object.</span></span> <span data-ttu-id="7cf2c-109">При обращении к этому свойству из объектов **member** , принадлежащих объекту [position](position-object-ado-md.md) , возникает ошибка.</span><span class="sxs-lookup"><span data-stu-id="7cf2c-109">An error occurs when this property is referenced from **Member** objects belonging to a [Position](position-object-ado-md.md) object.</span></span>
+<span data-ttu-id="63df8-108">Это свойство поддерживается только для объектов [Member,](member-object-ado-md.md) принадлежащих [объекту Level.](level-object-ado-md.md)</span><span class="sxs-lookup"><span data-stu-id="63df8-108">This property is supported only on [Member](member-object-ado-md.md) objects belonging to a [Level](level-object-ado-md.md) object.</span></span> <span data-ttu-id="63df8-109">Ошибка возникает, когда на это свойство ссылается объект **Member,** принадлежащий [объекту Position.](position-object-ado-md.md)</span><span class="sxs-lookup"><span data-stu-id="63df8-109">An error occurs when this property is referenced from **Member** objects belonging to a [Position](position-object-ado-md.md) object.</span></span>
 

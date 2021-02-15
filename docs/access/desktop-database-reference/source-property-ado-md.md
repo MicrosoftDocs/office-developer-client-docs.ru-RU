@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306470"
 ---
-# <a name="source-property-ado-md"></a><span data-ttu-id="ccba7-102">Свойство Source (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="ccba7-102">Source property (ADO MD)</span></span>
+# <a name="source-property-ado-md"></a><span data-ttu-id="6d54d-102">Свойство Source (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="6d54d-102">Source property (ADO MD)</span></span>
 
 
-<span data-ttu-id="ccba7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ccba7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6d54d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d54d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ccba7-104">Указывает источник данных в наборе ячеек.</span><span class="sxs-lookup"><span data-stu-id="ccba7-104">Indicates the source for the data in the cellset.</span></span>
+<span data-ttu-id="6d54d-104">Указывает источник данных в ячейках.</span><span class="sxs-lookup"><span data-stu-id="6d54d-104">Indicates the source for the data in the cellset.</span></span>
 
-## <a name="settings-and-return-values"></a><span data-ttu-id="ccba7-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="ccba7-105">Settings and return values</span></span>
+## <a name="settings-and-return-values"></a><span data-ttu-id="6d54d-105">Параметры и возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="6d54d-105">Settings and return values</span></span>
 
-<span data-ttu-id="ccba7-106">Задает или возвращает **значение Variant**и доступно для чтения и записи для закрытых объектов набора [ячеек](cellset-object-ado-md.md) и только для чтения для открытых объектов набора **ячеек** .</span><span class="sxs-lookup"><span data-stu-id="ccba7-106">Sets or returns a **Variant**, and is read/write for closed [Cellset](cellset-object-ado-md.md) objects and read-only for open **Cellset** objects.</span></span> <span data-ttu-id="ccba7-107">**Вариант** должен содержать допустимую **строку**, например запрос многомерных выражений.</span><span class="sxs-lookup"><span data-stu-id="ccba7-107">The **Variant** should contain a valid **String**, for example, an MDX query.</span></span>
+<span data-ttu-id="6d54d-106">Задает или возвращает variant **и** считывать и записывать для закрытых объектов [Cellset](cellset-object-ado-md.md) и только для чтения открытых **объектов Cellset.**</span><span class="sxs-lookup"><span data-stu-id="6d54d-106">Sets or returns a **Variant**, and is read/write for closed [Cellset](cellset-object-ado-md.md) objects and read-only for open **Cellset** objects.</span></span> <span data-ttu-id="6d54d-107">Variant **должен** содержать допустимую **строку,** например запрос MDX.</span><span class="sxs-lookup"><span data-stu-id="6d54d-107">The **Variant** should contain a valid **String**, for example, an MDX query.</span></span>
 

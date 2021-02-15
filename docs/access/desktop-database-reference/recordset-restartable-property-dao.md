@@ -18,28 +18,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307576"
 ---
-# <a name="recordsetrestartable-property-dao"></a><span data-ttu-id="5aa63-102">Свойство Recordset.Restartable (DAO)</span><span class="sxs-lookup"><span data-stu-id="5aa63-102">Recordset.Restartable property (DAO)</span></span>
+# <a name="recordsetrestartable-property-dao"></a><span data-ttu-id="8639c-102">Свойство Recordset.Restartable (DAO)</span><span class="sxs-lookup"><span data-stu-id="8639c-102">Recordset.Restartable property (DAO)</span></span>
 
 
-<span data-ttu-id="5aa63-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5aa63-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8639c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8639c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="5aa63-104">Возвращает значение, которое указывает на то, поддерживает ли объект **[Recordset](recordset-object-dao.md)** метод **[Requery](recordset-requery-method-dao.md)**, который повторно выполняет запрос, на котором основан объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="5aa63-104">Returns a value that indicates whether a **[Recordset](recordset-object-dao.md)** object supports the **[Requery](recordset-requery-method-dao.md)** method, which re-executes the query on which the **Recordset** object is based.</span></span>
+<span data-ttu-id="8639c-104">Возвращает значение, которое указывает на то, поддерживает ли объект **[Recordset](recordset-object-dao.md)** метод **[Requery](recordset-requery-method-dao.md)**, который повторно выполняет запрос, на котором основан объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="8639c-104">Returns a value that indicates whether a **[Recordset](recordset-object-dao.md)** object supports the **[Requery](recordset-requery-method-dao.md)** method, which re-executes the query on which the **Recordset** object is based.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="5aa63-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5aa63-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8639c-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8639c-105">Syntax</span></span>
 
-<span data-ttu-id="5aa63-106">*Expression* . Перезапускаемой</span><span class="sxs-lookup"><span data-stu-id="5aa63-106">*expression* .Restartable</span></span>
+<span data-ttu-id="8639c-106">*выражение .* Перезапуск</span><span class="sxs-lookup"><span data-stu-id="8639c-106">*expression* .Restartable</span></span>
 
-<span data-ttu-id="5aa63-107">*expression*: переменная, представляющая объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="5aa63-107">*expression* A variable that represents a **Recordset** object.</span></span>
+<span data-ttu-id="8639c-107">*expression*: переменная, представляющая объект **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="8639c-107">*expression* A variable that represents a **Recordset** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="5aa63-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="5aa63-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8639c-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="8639c-108">Remarks</span></span>
 
-<span data-ttu-id="5aa63-109">Объект **Recordset** табличного типа всегда возвращает **значение false**.</span><span class="sxs-lookup"><span data-stu-id="5aa63-109">Table-type **Recordset** objects always return **False**.</span></span>
+<span data-ttu-id="8639c-109">Объекты **Recordset табли с типом** таблицы всегда возвращают **false.**</span><span class="sxs-lookup"><span data-stu-id="8639c-109">Table-type **Recordset** objects always return **False**.</span></span>
 
-<span data-ttu-id="5aa63-110">Проверьте свойство **restarted** перед использованием метода **restart** объекта **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="5aa63-110">Check the **Restartable** property before using the **Requery** method on a **Recordset** object.</span></span> <span data-ttu-id="5aa63-111">Если свойство **restarted** объекта имеет значение **false**, используйте метод **[OpenRecordset](connection-openrecordset-method-dao.md)** базового объекта **[QueryDef](querydef-object-dao.md)** , чтобы повторно выполнить запрос.</span><span class="sxs-lookup"><span data-stu-id="5aa63-111">If the object's **Restartable** property is set to **False**, use the **[OpenRecordset](connection-openrecordset-method-dao.md)** method on the underlying **[QueryDef](querydef-object-dao.md)** object to re-execute the query.</span></span>
+<span data-ttu-id="8639c-110">Проверьте свойство **Restartable** перед использованием метода **Requery** в **объекте Recordset.**</span><span class="sxs-lookup"><span data-stu-id="8639c-110">Check the **Restartable** property before using the **Requery** method on a **Recordset** object.</span></span> <span data-ttu-id="8639c-111">Если свойство **Restartable** объекта имеет свойство **False,** используйте метод **[OpenRecordset](connection-openrecordset-method-dao.md)** в основном объекте **[QueryDef](querydef-object-dao.md)** для повторного выполнения запроса.</span><span class="sxs-lookup"><span data-stu-id="8639c-111">If the object's **Restartable** property is set to **False**, use the **[OpenRecordset](connection-openrecordset-method-dao.md)** method on the underlying **[QueryDef](querydef-object-dao.md)** object to re-execute the query.</span></span>
 
-## <a name="example"></a><span data-ttu-id="5aa63-112">Пример</span><span class="sxs-lookup"><span data-stu-id="5aa63-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="8639c-112">Пример</span><span class="sxs-lookup"><span data-stu-id="8639c-112">Example</span></span>
 
-<span data-ttu-id="5aa63-113">В этом примере показано свойство **restarted** с различными объектами **Recordset** .</span><span class="sxs-lookup"><span data-stu-id="5aa63-113">This example demonstrates the **Restartable** property with different **Recordset** objects.</span></span>
+<span data-ttu-id="8639c-113">В этом примере показано свойство **Restartable** с различными **объектами Recordset.**</span><span class="sxs-lookup"><span data-stu-id="8639c-113">This example demonstrates the **Restartable** property with different **Recordset** objects.</span></span>
 
 ```vb
     Sub RestartableX() 
