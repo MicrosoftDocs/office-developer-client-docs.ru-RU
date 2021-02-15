@@ -1,5 +1,5 @@
 ---
-title: Справочник по объектам Stream (ADO)
+title: Справочник по объекту Stream (ADO)
 TOCTitle: Stream object (ADO)
 ms:assetid: 4574095e-06d3-4c2f-86e0-2a7cf1247395
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249214(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314457"
 ---
-# <a name="stream-object-ado-reference"></a>Справочник по объектам Stream (ADO)
+# <a name="stream-object-ado-reference"></a>Справочник по объекту Stream (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Stream (ADO)](stream-object-ado.md)
-- [Свойства, методы и события потока (ADO)](stream-properties-methods-and-events-ado.md)
+- [Stream object (ADO)](stream-object-ado.md)
+- [Stream properties, methods, and events (ADO)](stream-properties-methods-and-events-ado.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Стреамтипинум (Справочник по базам данных Access на компьютере)
+title: StreamTypeEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: StreamTypeEnum
 ms:assetid: 3e84c728-0c71-55fb-06f2-7f4e644689ce
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249172(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32314450"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает тип данных, хранящихся в объекте [Stream](stream-object-ado.md) .
+Указывает тип данных, хранимых в [объекте Stream.](stream-object-ado.md)
 
 <br/>
 
@@ -37,14 +37,14 @@ ms.locfileid: "32314450"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адтипебинари</strong></p></td>
-<td><p>1,1</p></td>
+<td><p><strong>adTypeBinary</strong></p></td>
+<td><p>1 </p></td>
 <td><p>Указывает двоичные данные.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адтипетекст</strong></p></td>
-<td><p>2</p></td>
-<td><p>Значение, используемое по умолчанию. Указывает текстовые данные, которые находятся в наборе символов, указанном с помощью <a href="charset-property-ado.md">CharSet</a>.</p></td>
+<td><p><strong>adTypeText</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Значение, используемое по умолчанию. Указывает текстовые данные, которые указаны в наборе символов, указанном <a href="charset-property-ado.md">Charset.</a></p></td>
 </tr>
 </tbody>
 </table>

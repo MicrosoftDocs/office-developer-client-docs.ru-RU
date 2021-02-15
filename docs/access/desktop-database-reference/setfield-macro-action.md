@@ -18,14 +18,14 @@ ms.locfileid: "32314618"
 
 **Область применения**: Access 2013, Office 2013
 
-Действие **SetField** можно использовать для присвоения значения полю.
+Действие **SetField** можно использовать для назначения значения полю.
 
 > [!NOTE]
 > Действие **SetField** доступно только в макросах данных.
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
-Макрокоманда **SetField** содержит аргументы, приведенные в следующей таблице.
+Действие **SetField** имеет аргументы, перечисленные в следующей таблице.
 
 <table>
 <colgroup>
@@ -41,17 +41,17 @@ ms.locfileid: "32314618"
 <tbody>
 <tr class="odd">
 <td><p><strong>Name</strong></p></td>
-<td><p>Строка, определяющая поле.</p></td>
+<td><p>Строка, идентифицирует поле.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Значение</strong></p></td>
-<td><p>Выражение, задающее значение, присваиваемое полю.</p></td>
+<td><p>Выражение, которое указывает значение, назначаемого полю.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Действие **SetField** нельзя использовать вне блока данных **[СоздатьЗапись](createrecord-data-block.md)** или **[ИзменитьЗапись](editrecord-data-block.md)** .
+Действие **SetField** нельзя использовать за пределами блока данных **[CreateRecord](createrecord-data-block.md)** или **[EditRecord.](editrecord-data-block.md)**
 

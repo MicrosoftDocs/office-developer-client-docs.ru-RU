@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события потока (ADO)
+title: Stream properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 12542605-9520-f0a9-09e4-9eac6b37c35e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248897(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314429"
 ---
-# <a name="stream-properties-methods-and-events-ado"></a>Свойства, методы и события потока (ADO)
+# <a name="stream-properties-methods-and-events-ado"></a>Stream properties, methods, and events (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -25,7 +25,7 @@ ms.locfileid: "32314429"
 - [Свойство LineSeparator](lineseparator-property-ado.md)
 - [Свойство Mode](mode-property-ado.md)
 - [Свойство Position](position-property-ado.md)
-- [Свойство Size (поток ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
+- [Свойство Size (ADO Stream)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/size-property-ado-stream)
 - [Свойство State](state-property-ado.md)
 - [Свойство Type (Stream в ADO)](type-property-ado-stream.md)
 

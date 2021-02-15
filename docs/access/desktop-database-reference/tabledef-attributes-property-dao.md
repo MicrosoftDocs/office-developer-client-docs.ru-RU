@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef. Attributes (DAO)
+title: Свойство TableDef.Attributes (DAO)
 TOCTitle: Attributes Property
 ms:assetid: d01588c3-e94e-06bd-6568-974873411f2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834701(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314394"
 ---
-# <a name="tabledefattributes-property-dao"></a>Свойство TableDef. Attributes (DAO)
+# <a name="tabledefattributes-property-dao"></a>Свойство TableDef.Attributes (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
 
-Задает или возвращает значение, которое указывает одну или несколько характеристик объекта **tabledef** . Для чтения и записи, **Long**.
+Задает или возвращает значение, которое указывает одну или несколько характеристик объекта **TableDef.** Для чтения и записи, **Long**.
 
 ## <a name="syntax"></a>Синтаксис
 

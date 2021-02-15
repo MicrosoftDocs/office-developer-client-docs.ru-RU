@@ -1,5 +1,5 @@
 ---
-title: Савеоптионсенум (Справочник по базам данных Access на компьютере)
+title: SaveOptionsEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: SaveOptionsEnum
 ms:assetid: 2a4e4c7a-6331-7270-0514-cc549c721ffd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249053(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32314744"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, следует ли создать или перезаписать файл при сохранении из объекта [Stream](stream-object-ado.md) . Значения можно сочетать с помощью оператора AND.
+Указывает, следует ли создавать или перезаписывать файл при сохранении из [объекта Stream.](stream-object-ado.md) Значения можно объединить с оператором AND.
 
 <br/>
 
@@ -37,14 +37,14 @@ ms.locfileid: "32314744"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адсавекреатенотексист</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Значение, используемое по умолчанию. Создает новый файл, если файл, указанный с помощью параметра <em>filename</em> , еще не существует.</p></td>
+<td><p><strong>adSaveCreateNotExist</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Значение, используемое по умолчанию. Создает новый файл, если файл, указанный <em>параметром FileName,</em> еще не существует.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адсавекреатеоверврите</strong></p></td>
-<td><p>2</p></td>
-<td><p>Перезаписывает файл данными из текущего открытого объекта <strong>Stream</strong> , если файл, указанный с помощью параметра <em>filename</em> , уже существует.</p></td>
+<td><p><strong>adSaveCreateOverWrite</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Переописает файл данными из открытого в данный момент объекта <strong>Stream,</strong> если файл, указанный параметром <em>Filename,</em> уже существует.</p></td>
 </tr>
 </tbody>
 </table>

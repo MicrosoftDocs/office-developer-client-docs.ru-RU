@@ -1,5 +1,5 @@
 ---
-title: Лента (Справочник по базам данных Access для настольных ПК)
+title: Лента (справочник по базе данных Access для настольных ПК)
 TOCTitle: Ribbon
 ms:assetid: 7314847b-73d2-48d2-87c2-80ddf696f026
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160996(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314737"
 ---
-# <a name="ribbon"></a>Лента
+# <a name="ribbon"></a>Ribbon
 
 **Область применения**: Access 2013, Office 2013
 

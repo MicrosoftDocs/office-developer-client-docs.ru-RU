@@ -1,5 +1,5 @@
 ---
-title: Перечисление Сетоптионенум (DAO)
+title: Enumeration SetOptionEnum (DAO)
 TOCTitle: SetOptionEnum Enumeration
 ms:assetid: 0a26b7f7-b6cd-cf0f-1071-d872beeefaa5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845094(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314604"
 ---
-# <a name="setoptionenum-enumeration-dao"></a>Перечисление Сетоптионенум (DAO)
+# <a name="setoptionenum-enumeration-dao"></a>Enumeration SetOptionEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется с методом **SetOption** для указания ключа ядра СУБД Microsoft Access в реестре Windows для переопределения.
+Используется с **методом SetOption** для указания ключа ядер ядер базы данных Microsoft Access в реестре Windows для переопределения.
 
 <table>
 <colgroup>
@@ -36,74 +36,74 @@ ms.locfileid: "32314604"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>дбексклусивеасинкделай</p></td>
+<td><p>dbExclusiveAsyncDelay</p></td>
 <td><p>60</p></td>
-<td><p>Ключ Ексклусивеасинкделай.</p></td>
+<td><p>Ключ ExclusiveAsyncDelay.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбфлуштрансактионтимеаут</p></td>
+<td><p>dbFlushTransactionTimeout</p></td>
 <td><p>66</p></td>
-<td><p>Ключ Флуштрансактионтимеаут.</p></td>
+<td><p>Ключ FlushTransactionTimeout.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбимплиЦиткоммитсинк</p></td>
+<td><p>dbImplicitCommitSync</p></td>
 <td><p>59</p></td>
-<td><p>Ключ ИмплиЦиткоммитсинк.</p></td>
+<td><p>Ключ ImplicitCommitSync.</p></td>
 </tr>
 <tr class="even">
-<td><p>дблоккделай</p></td>
+<td><p>dbLockDelay</p></td>
 <td><p>63</p></td>
-<td><p>Ключ Локкделай.</p></td>
+<td><p>Ключ LockDelay.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дблоккретри</p></td>
+<td><p>dbLockRetry</p></td>
 <td><p>57</p></td>
-<td><p>Ключ Локкретри.</p></td>
+<td><p>Ключ LockRetry.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбмаксбуфферсизе</p></td>
+<td><p>dbMaxBufferSize</p></td>
 <td><p>8 </p></td>
-<td><p>Ключ Максбуфферсизе.</p></td>
+<td><p>Ключ MaxBufferSize.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбмакслокксперфиле</p></td>
+<td><p>dbMaxLocksPerFile</p></td>
 <td><p>62</p></td>
-<td><p>Клавиша MaxLocksPerFile.</p></td>
+<td><p>Ключ MaxLocksPerFile.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбпажетимеаут</p></td>
+<td><p>dbPageTimeout</p></td>
 <td><p>6 </p></td>
-<td><p>Ключ Пажетимеаут.</p></td>
+<td><p>Ключ PageTimeout.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбпассворденкриптионалгорисм</p></td>
+<td><p>dbPasswordEncryptionAlgorithm</p></td>
 <td><p>81</p></td>
 <td><p>Имя алгоритма шифрования.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбпассворденкриптионкэйленгс</p></td>
+<td><p>dbPasswordEncryptionKeyLength</p></td>
 <td><p>82</p></td>
 <td><p>Длина ключа шифрования. Должно быть кратно 8, начиная с 40.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбпассворденкриптионпровидер</p></td>
+<td><p>dbPasswordEncryptionProvider</p></td>
 <td><p>80</p></td>
 <td><p>Имя поставщика шифрования.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбрециклелвс</p></td>
+<td><p>dbRecycleLVs</p></td>
 <td><p>65</p></td>
-<td><p>Ключ Рециклелвс.</p></td>
+<td><p>Ключ RecycleLVs.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбшаредасинкделай</p></td>
+<td><p>dbSharedAsyncDelay</p></td>
 <td><p>61</p></td>
-<td><p>Ключ Шаредасинкделай.</p></td>
+<td><p>Ключ SharedAsyncDelay.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбусеркоммитсинк</p></td>
+<td><p>dbUserCommitSync</p></td>
 <td><p>58</p></td>
-<td><p>Ключ Усеркоммитсинк.</p></td>
+<td><p>Ключ UserCommitSync.</p></td>
 </tr>
 </tbody>
 </table>

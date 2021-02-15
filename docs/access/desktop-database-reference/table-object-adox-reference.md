@@ -1,5 +1,5 @@
 ---
-title: Справочник по объектам таблицы (ADOX)
+title: Справочник по объекту Table (ADOX)
 TOCTitle: Table object (ADOX)
 ms:assetid: 5841a0ab-717b-4e12-b85d-87be480d31ca
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249298(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314443"
 ---
-# <a name="table-object-adox-reference"></a>Справочник по объектам таблицы (ADOX)
+# <a name="table-object-adox-reference"></a>Справочник по объекту Table (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 

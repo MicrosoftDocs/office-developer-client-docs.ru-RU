@@ -1,5 +1,5 @@
 ---
-title: Стрингформатенум (Справочник по базам данных Access на компьютере)
+title: StringFormatEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: StringFormatEnum
 ms:assetid: ab069d67-d983-f390-5d45-876a9f9d9691
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249794(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32314464"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает формат при получении объекта [Recordset](recordset-object-ado.md) в виде строки.
+Указывает формат при искомом наборе [записей в](recordset-object-ado.md) виде строки.
 
 <br/>
 
@@ -37,9 +37,9 @@ ms.locfileid: "32314464"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адклипстринг</strong></p></td>
-<td><p>2</p></td>
-<td><p>Разделяет строки по <em>ровделимитер</em>, столбцам по <em>колумнделимитер</em>и значения NULL с помощью <em>нуллекспр</em>. Эти три параметра метода <a href="getstring-method-ado.md">GetString</a> действительны только с <em>стрингформат</em> <strong>адклипстринг</strong>.</p></td>
+<td><p><strong>adClipString</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Делегировка строк <em>по RowDelimiter,</em>столбцов <em>по ColumnDelimiter</em>и значений <em>null по NullExpr</em>. Эти три параметра метода <a href="getstring-method-ado.md">GetString</a> действительны только с помощью <em>StringFormat</em> <strong>adClipString.</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -47,7 +47,7 @@ ms.locfileid: "32314464"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -60,7 +60,7 @@ ms.locfileid: "32314464"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Стрингформат. КЛИПСТРИНГ</p></td>
+<td><p>AdoEnums.StringFormat.CLIPSTRING</p></td>
 </tr>
 </tbody>
 </table>
