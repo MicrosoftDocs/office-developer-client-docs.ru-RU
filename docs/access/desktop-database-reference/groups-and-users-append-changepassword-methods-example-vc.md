@@ -19,7 +19,7 @@ ms.locfileid: "32292085"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется метод [append](append-method-adox-groups.md) [групп](groups-collection-adox.md), а также метод [append](append-method-adox-users.md) [пользователей](users-collection-adox.md) , добавляя новую [группу](group-object-adox.md) и нового [пользователя](user-object-adox.md) в систему. Новая **Группа** добавляется в коллекцию **Groups** нового **пользователя**. Таким образом, новый **пользователь** добавляется в **группу**. Кроме того, метод [ChangePassword](changepassword-method-adox.md) используется для указания пароля **пользователя** .
+В этом примере демонстрируется [](users-collection-adox.md) метод [Append](append-method-adox-groups.md) групп, а также метод [](group-object-adox.md) [Append](append-method-adox-users.md) пользователей путем добавления новой группы и нового пользователя [в](user-object-adox.md) систему. [](groups-collection-adox.md) Новая **группа** будет appended to the **Groups** collection of the new **User**. Следовательно, новый **пользователь** добавляется в **группу.** Кроме того, метод [ChangePassword](changepassword-method-adox.md) используется для указания **пароля** пользователя.
 
 ```cpp 
  

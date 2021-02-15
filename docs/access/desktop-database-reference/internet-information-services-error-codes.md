@@ -18,7 +18,7 @@ ms.locfileid: "32291281"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующей таблице перечислены коды ошибок служб IIS, связанные с использованием удаленной службы данных. При положительном десятичном преобразовании двух нижних байтов отображается отрицательный десятичный перевод полного кода ошибки и шестнадцатеричные значения.
+В следующей таблице Microsoft IIS коды ошибок IIS, связанные с использованием удаленной службы данных. Показаны положительный десятичной перевод с низкими двумябайтами, отрицательный десятичной перевод всего кода ошибки и показано, как отызвить его.
 
 <table>
 <colgroup>
@@ -28,8 +28,8 @@ ms.locfileid: "32291281"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Ошибки служб IIS</p></th>
-<th><p>Номер</p></th>
+<th><p>Ошибки службы Internet Information Services</p></th>
+<th><p>Числовой</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
@@ -37,30 +37,30 @@ ms.locfileid: "32291281"
 <tr class="odd">
 <td><p><strong>IDS_IIS_AccessDenied</strong></p></td>
 <td><p>8208<br />
-— 2146820080<br />
+-2146820080<br />
 0x800A2010</p></td>
-<td><p>Ошибка сервера Интернета: доступ запрещен.</p></td>
+<td><p>Internet Server Error: Access Denied.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_IIS_ObjectNotFound</strong></p></td>
 <td><p>8209<br />
-— 2146820079<br />
+-2146820079<br />
 0x800A2011</p></td>
-<td><p>Ошибка Интернет-сервера: объект или модуль не найден.</p></td>
+<td><p>Internet Server Error: Object/module not found.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>IDS_IIS_RequestForbidden</strong></p></td>
 <td><p>8210<br />
-— 2146820078<br />
+-2146820078<br />
 0x800A2012</p></td>
-<td><p>Ошибка сервера Интернета: запрос запрещен.</p></td>
+<td><p>Ошибка internet Server: запрос запрещен.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>IDS_IIS_UnexpectedError</strong></p></td>
 <td><p>8447<br />
-— 2146819841<br />
+-2146819841<br />
 0x800A20FF</p></td>
-<td><p>Ошибка Интернет сервера.</p></td>
+<td><p>Ошибка internet Server.</p></td>
 </tr>
 </tbody>
 </table>

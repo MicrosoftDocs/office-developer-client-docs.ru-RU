@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события коллекции иерархий (ADO MD)
+title: Hierarchies collection properties, methods, and events (ADO MD)
 TOCTitle: Hierarchies collection properties, methods, and events
 ms:assetid: 6bd1df55-c35f-ae6c-75de-ecda0c9be82f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249423(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291973"
 ---
-# <a name="hierarchies-collection-properties-methods-and-events-ado-md"></a>Свойства, методы и события коллекции иерархий (ADO MD)
+# <a name="hierarchies-collection-properties-methods-and-events-ado-md"></a>Hierarchies collection properties, methods, and events (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013

@@ -19,6 +19,6 @@ ms.locfileid: "32292526"
 **Область применения**: Access 2013, Office 2013
 
 - [Метод Fields.Append (DAO)](fields-append-method-dao.md)
-- [Метод Fields. Delete (DAO)](fields-delete-method-dao.md)
-- [Метод Fields. Refresh (DAO)](fields-refresh-method-dao.md)
+- [Метод Fields.Delete (DAO)](fields-delete-method-dao.md)
+- [Метод Fields.Refresh (DAO)](fields-refresh-method-dao.md)
 

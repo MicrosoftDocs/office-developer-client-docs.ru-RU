@@ -19,7 +19,7 @@ ms.locfileid: "32291715"
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство Clustered](clustered-property-adox.md)
 - [Коллекция Columns](columns-collection-adox.md)

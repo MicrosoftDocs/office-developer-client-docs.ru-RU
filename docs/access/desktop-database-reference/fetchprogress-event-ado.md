@@ -1,5 +1,5 @@
 ---
-title: Событие событие fetchprogress (ADO)
+title: Событие FetchProgress (ADO)
 TOCTitle: FetchProgress event (ADO)
 ms:assetid: 09145d9a-ea5e-b41c-6c54-33ec83e642a9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248828(v=office.15)
@@ -14,30 +14,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293184"
 ---
-# <a name="fetchprogress-event-ado"></a>Событие событие fetchprogress (ADO)
+# <a name="fetchprogress-event-ado"></a>Событие FetchProgress (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-Событие **событие fetchprogress** вызывается периодически в течение длительной асинхронной операции, чтобы сообщить, сколько строк в данный момент было извлечено в [набор записей](recordset-object-ado.md).
+Событие **FetchProgress** периодически вызвано во время продолжительной асинхронной операции, чтобы сообщить, сколько еще строк в данный момент было извлечено в [набор recordset.](recordset-object-ado.md)
 
 ## <a name="syntax"></a>Синтаксис
 
-*Ход выполнения*событие fetchprogress, *макспрогресс*, адстатус *,* пред *adStatus*
+FetchProgress *Progress*, *MaxProgress*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Progress* |**Длинное** значение, указывающее количество записей, которые в настоящее время были получены операцией выборки.|
-|*макспрогресс* |**Длинное** значение, указывающее максимальное количество получаемых записей.|
-|*адстатус* |Значение состояния [евентстатусенум](eventstatusenum.md) .|
-|*предшнур* |Объект **Recordset** , представляющий собой объект, для которого извлекаются записи.|
+|*Progress* |**Длинное** значение, указывающее количество записей, которые в настоящее время были извлечены операцией получения.|
+|*MaxProgress* |**Длинное** значение, указывающее максимальное число записей, которые должны быть извлечены.|
+|*adStatus* |Значение [состояния EventStatusEnum.](eventstatusenum.md)|
+|*pRecordset* |Объект **Recordset,** который является объектом, для которого извлекаются записи.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-При использовании **событие fetchprogress** с дочерним объектом **Recordset**имейте в виду, что значения параметров *Progress* и *макспрогресс* являются производными от базового набора строк [службы курсора](microsoft-cursor-service-for-ole-db-ado-service-component.md) . Возвращаемые значения представляют общее число записей в базовом наборе строк, а не только число записей в текущей главе.
+При использовании **FetchProgress** с другим набором записей следует **помнить,** что значения параметров *Progress* и *MaxProgress* являются производными от используемой строки [cursor Service.](microsoft-cursor-service-for-ole-db-ado-service-component.md) Возвращаемые значения представляют общее число записей в основном наборе строк, а не только количество записей в текущей главе.
 
 > [!NOTE]
-> Чтобы использовать **событие fetchprogress** с Microsoft Visual Basic, требуется Visual Basic 6,0 или более поздней версии.
+> Чтобы использовать **FetchProgress** с Microsoft Visual Basic, Visual Basic 6.0 или более поздней.
 
 

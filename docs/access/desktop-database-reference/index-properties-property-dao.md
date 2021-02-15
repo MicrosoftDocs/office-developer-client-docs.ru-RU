@@ -1,5 +1,5 @@
 ---
-title: Свойство index. Properties (DAO)
+title: Свойство Index.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 88990fdf-75a4-f750-ba3a-e26f11155a89
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197056(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291722"
 ---
-# <a name="indexproperties-property-dao"></a>Свойство index. Properties (DAO)
+# <a name="indexproperties-property-dao"></a>Свойство Index.Properties (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32291722"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Параметры
+*выражение .* Свойства
 
-*Expression (выражение* ) Переменная, представляющая объект **индекса** .
+*выражение* Переменная, представляюная объект **Index.**
 

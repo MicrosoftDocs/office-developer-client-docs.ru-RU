@@ -1,5 +1,5 @@
 ---
-title: Свойство Field2.Name (DAO)
+title: Field2.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 6f84ca11-4e7c-9573-5261-b67b91ba30dc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195585(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292757"
 ---
-# <a name="field2name-property-dao"></a>Свойство Field2.Name (DAO)
+# <a name="field2name-property-dao"></a>Field2.Name (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает или задает имя указанного объекта. **Строка** для чтения и записи, если объект не был добавлен в коллекцию. **Строка** , доступная только для чтения, если объект добавлен в коллекцию.
+Возвращает или задает имя указанного объекта. Строка **чтения** и записи, если объект не был appended к коллекции. Строка только **для** чтения, если объект был appended к коллекции.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Расширением
+*выражение .* Имя
 
 *expression* — переменная, представляющая объект **Field2**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Максимальная длина имени объекта **field2** составляет 64 символов.
+Максимальная длина имени объекта **Field2** составляет 64 символа.
 

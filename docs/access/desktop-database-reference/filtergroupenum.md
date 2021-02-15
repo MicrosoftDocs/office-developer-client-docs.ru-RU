@@ -1,5 +1,5 @@
 ---
-title: Филтерграупенум (Справочник по базам данных Access на компьютере)
+title: FilterGroupEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: FilterGroupEnum
 ms:assetid: 141f8f9a-c188-5937-91cc-3155eaebebd2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248912(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32292421"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает группу записей для фильтрации из [набора записей](recordset-object-ado.md).
+Указывает группу записей, которые необходимо отфильтровать из [наборов записей.](recordset-object-ado.md)
 
 <br/>
 
@@ -37,29 +37,29 @@ ms.locfileid: "32292421"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адфилтераффектедрекордс</strong></p></td>
-<td><p>2</p></td>
-<td><p>Фильтры для просмотра записей, затронутых последним вызовом <a href="delete-method-ado-recordset.md">Delete</a>, <a href="resync-method-ado.md">Resync</a>, <a href="updatebatch-method-ado.md">UpdateBatch</a>или <a href="cancelbatch-method-ado.md">CancelBatch</a> .</p></td>
+<td><p><strong>adFilterAffectedRecords</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Фильтры для просмотра только записей, затронутых последним вызовом <a href="delete-method-ado-recordset.md">Delete,</a> <a href="resync-method-ado.md">Resync,</a> <a href="updatebatch-method-ado.md">UpdateBatch</a>или <a href="cancelbatch-method-ado.md">CancelBatch.</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адфилтерконфликтингрекордс</strong></p></td>
+<td><p><strong>adFilterConflictingRecords</strong></p></td>
 <td><p>5 </p></td>
-<td><p>Фильтры для просмотра записей, для которых не удалось выполнить Последнее пакетное обновление.</p></td>
+<td><p>Фильтры для просмотра записей, которые не удалось обновить последним пакетным обновлением.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфилтерфетчедрекордс</strong></p></td>
-<td><p>4</p></td>
-<td><p>Фильтры для просмотра записей в текущем кэше (то есть результаты последнего вызова для получения записей из базы данных).</p></td>
+<td><p><strong>adFilterFetchedRecords</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Фильтры для просмотра записей в текущем кэше, то есть результатов последнего вызова для получения записей из базы данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адфилтерноне</strong></p></td>
-<td><p>нуль</p></td>
+<td><p><strong>adFilterNone</strong></p></td>
+<td><p>0</p></td>
 <td><p>Удаляет текущий фильтр и восстанавливает все записи для просмотра.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфилтерпендингрекордс</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Фильтры для просмотра только тех записей, которые были изменены, но еще не отправлены на сервер. Применяется только для режима пакетного обновления.</p></td>
+<td><p><strong>adFilterPendingRecords</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Фильтры для просмотра только тех записей, которые были изменены, но еще не отправлены на сервер. Применимо только для режима пакетного обновления.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "32292421"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -80,19 +80,19 @@ ms.locfileid: "32292421"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Филтерграуп. АФФЕКТЕДРЕКОРДС</p></td>
+<td><p>AdoEnums.FilterGroup.AFFECTEDRECORDS</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Филтерграуп. КОНФЛИКТИНГРЕКОРДС</p></td>
+<td><p>AdoEnums.FilterGroup.CONFLICTINGRECORDS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Филтерграуп. ФЕТЧЕДРЕКОРДС</p></td>
+<td><p>AdoEnums.FilterGroup.FETCHEDRECORDS</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Филтерграуп. NONE</p></td>
+<td><p>AdoEnums.FilterGroup.NONE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Филтерграуп. ПЕНДИНГРЕКОРДС</p></td>
+<td><p>AdoEnums.FilterGroup.PENDINGRECORDS</p></td>
 </tr>
 </tbody>
 </table>

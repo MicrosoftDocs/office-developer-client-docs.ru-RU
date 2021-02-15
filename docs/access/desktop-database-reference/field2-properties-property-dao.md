@@ -1,5 +1,5 @@
 ---
-title: Свойство field2. Properties (DAO)
+title: Свойство Field2.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: a365c2ef-c9b5-d765-e609-2e070c66de55
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821031(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292701"
 ---
-# <a name="field2properties-property-dao"></a>Свойство field2. Properties (DAO)
+# <a name="field2properties-property-dao"></a>Свойство Field2.Properties (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32292701"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Параметры
+*выражение .* Свойства
 
 *expression* — переменная, представляющая объект **Field2**.
 

@@ -1,5 +1,5 @@
 ---
-title: Объект field2 (DAO)
+title: Объект Field2 (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 585aa163-402b-2c2b-d8d7-733a6d55d104
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194326(v=office.15)
@@ -14,27 +14,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292764"
 ---
-# <a name="field2-object-dao"></a>Объект field2 (DAO)
+# <a name="field2-object-dao"></a>Объект Field2 (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Объект **field2** представляет столбец данных с общим типом данных и общим набором свойств.
+Объект **Field2** представляет столбец данных с общим типом данных и общим набором свойств.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Объект **field2** содержит все те же свойства и методы, что и объект **[field](field-object-dao.md)** . Объект **field2** содержит несколько новых свойств и методов, поддерживающих многозначные типы полей. Новые свойства и методы:
+Объект **Field2** содержит все те же свойства и методы, что и **[объект Field.](field-object-dao.md)** Объект **Field2** содержит несколько новых свойств и методов, которые поддерживают типы полей с несколькими значениями. Новые свойства и методы:
 
-- Свойство **[аппендонли](field2-appendonly-property-dao.md)**
+- **[Свойство AppendOnly](field2-appendonly-property-dao.md)**
 
-- Свойство **[complexType](field2-complextype-property-dao.md)**
+- **[Свойство ComplexType](field2-complextype-property-dao.md)**
 
-- Свойство **[Complex](field2-iscomplex-property-dao.md)**
+- **[Свойство IsComplex](field2-iscomplex-property-dao.md)**
 
-- Метод **[LoadFromFile](field2-loadfromfile-method-dao.md)**
+- **[Метод LoadFromFile](field2-loadfromfile-method-dao.md)**
 
-- Метод **[SaveToFile](field2-savetofile-method-dao.md)**
+- **[Метод SaveToFile](field2-savetofile-method-dao.md)**
 
-Чтобы сослаться на объект **field2** в коллекции по его порядковому номеру или по значению свойства **Name** , используйте любую из следующих синтаксических форм:
+Чтобы сослаться на **объект Field2** в коллекции по порядковому номеру или по его свойству **Name,** используйте любую из следующих синтаксис форм:
 
 **Fields**(0)
 
@@ -42,7 +42,7 @@ ms.locfileid: "32292764"
 
 **Fields**\!\[name\]
 
-Используя те же формы синтаксиса, вы также можете ссылаться на свойство **value** объекта **field2** , который вы создаете и добавляете в коллекцию **Fields** . Контекст ссылки на поле определяет, будет ли ссылка на объект **field2** или свойство **value** объекта **field** .
+С помощью тех же форм синтаксиса можно также ссылаться на свойство **Value** объекта **Field2,** который вы создаете и примените к коллекции **Fields.** Контекст ссылки на поле определяет, ссылается ли вы на объект **Field2** или свойство **Value** объекта **Field.**
 
 ## <a name="example"></a>Пример
 

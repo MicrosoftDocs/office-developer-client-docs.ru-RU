@@ -1,5 +1,5 @@
 ---
-title: Свойства HelpContext, HelpFile (ADO)
+title: Свойства HelpContext и HelpFile (ADO)
 TOCTitle: HelpContext, HelpFile properties (ADO)
 ms:assetid: 8a79f994-f17c-2983-0593-095801be762e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249608(v=office.15)
@@ -14,19 +14,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291994"
 ---
-# <a name="helpcontext-helpfile-properties-ado"></a>Свойства HelpContext, HelpFile (ADO)
+# <a name="helpcontext-helpfile-properties-ado"></a>Свойства HelpContext и HelpFile (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает файл справки и раздел, связанный с объектом [Error](error-object-ado.md) .
+Указывает файл справки и раздел, связанный с [объектом Error.](error-object-ado.md)
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-- **HelpContextID** — возвращает идентификатор контекста в виде **длинного** значения для раздела в файле справки.
+- **HelpContextID** — возвращает контекстный ИД в качестве значения **Long** для раздела в файле справки.
 
-- **HelpFile** — возвращает **строковое** значение, которое оценивается как полностью разрешенный путь к файлу справки.
+- **HelpFile** — возвращает **строку,** которая оценивается в полностью разрешенный путь к файлу справки.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Если в свойстве **HelpFile** указан файл справки, свойство **HelpContext** используется для автоматического отображения раздела справки, который он идентифицирует. Если подходящий раздел справки отсутствует, свойство **HelpContext** возвращает ноль, а свойство **HelpFile** возвращает строку нулевой длины ("").
+Если файл справки указан в свойстве **HelpFile,** свойство **HelpContext** используется для автоматического отображения идентифицируемого раздела справки. Если соответствующий раздел справки не доступен, свойство **HelpContext** возвращает ноль, а **свойство HelpFile** возвращает строку нулевой длины ("").
 

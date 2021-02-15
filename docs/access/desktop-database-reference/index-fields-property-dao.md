@@ -1,5 +1,5 @@
 ---
-title: Свойство index. Fields (DAO)
+title: Свойство Index.Fields (DAO)
 TOCTitle: Fields Property
 ms:assetid: c79adede-361f-c0eb-13a1-18625bd9141f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823154(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291826"
 ---
-# <a name="indexfields-property-dao"></a>Свойство index. Fields (DAO)
+# <a name="indexfields-property-dao"></a>Свойство Index.Fields (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32291826"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Поле
+*выражение .* Поля
 
-*Expression (выражение* ) Переменная, представляющая объект **индекса** .
+*выражение* Переменная, представляюная объект **Index.**
 

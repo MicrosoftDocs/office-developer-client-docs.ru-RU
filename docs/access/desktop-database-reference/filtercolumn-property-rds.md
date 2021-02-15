@@ -18,24 +18,24 @@ ms.locfileid: "32292442"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает столбец, для которого необходимо оценить условия фильтра.
+Указывает столбец, по которому следует оценить условия фильтрации.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Элемент управления*. FilterColumn = *строка*
+*DataControl*. FilterColumn = *String*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
-|*String* |**Строковое** значение, задающее столбец, для которого необходимо оценить условия фильтра. Условия фильтра указываются в свойстве [FilterCriterion](filtercriterion-property-rds.md) .|
+|*DataControl* |Объектная переменная, представляюная [RDS. Объект DataControl.](datacontrol-object-rds.md)|
+|*Строка* |**Строковая** строка, заданная для столбца, по которому необходимо оценить условия фильтра. Условия фильтра заданы в свойстве [FilterCriterion.](filtercriterion-property-rds.md)|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Свойства [sortColumn](sortcolumn-property-rds.md), [SortDirection](sortdirection-property-rds.md), [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md)и **FilterColumn** предоставляют функции сортировки и фильтрации кэша на стороне клиента. 
+Свойства [SortColumn,](sortcolumn-property-rds.md) [SortDirection,](sortdirection-property-rds.md) [FilterValue,](filtervalue-property-rds.md) [FilterCriterion](filtercriterion-property-rds.md)и **FilterColumn** предоставляют функции сортировки и фильтрации в клиентском кэше. 
 
-Функция сортировки упорядочивает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе критериев поиска, в то время как в кэше сохраняется полный [набор записей](recordset-object-ado.md) . 
+Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей сохраняется в кэше. 
 
-Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий **набор** **записей на обновляемый.**
+Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий набор **recordset** на updatable **Recordset.**
 

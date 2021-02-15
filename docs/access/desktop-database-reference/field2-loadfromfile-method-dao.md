@@ -1,5 +1,5 @@
 ---
-title: Метод field2. LoadFromFile (DAO)
+title: Метод Field2.LoadFromFile (DAO)
 TOCTitle: LoadFromFile Method
 ms:assetid: 8ffe4636-d4da-0579-f4b5-14f423647562
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197396(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292792"
 ---
-# <a name="field2loadfromfile-method-dao"></a>Метод field2. LoadFromFile (DAO)
+# <a name="field2loadfromfile-method-dao"></a>Метод Field2.LoadFromFile (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -30,7 +30,7 @@ ms.locfileid: "32292792"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . LoadFromFile (***filename***)
+*выражение .* LoadFromFile(***FileName***)
 
 *expression* — переменная, представляющая объект **Field2**.
 
@@ -55,8 +55,8 @@ ms.locfileid: "32292792"
 <tr class="odd">
 <td><p><em>FileName</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Полный путь к файлу, который необходимо загрузить.</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Полное путь к файлу, который необходимо загрузить.</p></td>
 </tr>
 </tbody>
 </table>

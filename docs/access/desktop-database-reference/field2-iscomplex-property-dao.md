@@ -1,5 +1,5 @@
 ---
-title: Свойство field2. Complex (DAO)
+title: Свойство Field2.IsComplex (DAO)
 TOCTitle: IsComplex Property
 ms:assetid: ffc90e6e-e3ee-4f9b-ca6b-615199300d45
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837318(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292785"
 ---
-# <a name="field2iscomplex-property-dao"></a>Свойство field2. Complex (DAO)
+# <a name="field2iscomplex-property-dao"></a>Свойство Field2.IsComplex (DAO)
 
 **Область применения**: Access 2013, Office 2013 
 
-Возвращает **логическое значение** , которое указывает, является ли указанное поле многозначным типом данных. Только для чтения.
+Возвращает значение **boolean,** которое указывает, является ли указанное поле типом данных с несколькими значениями. Только для чтения.
 
 ## <a name="version-information"></a>Сведения о версии
 
@@ -26,7 +26,7 @@ ms.locfileid: "32292785"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Сложный
+*выражение .* IsComplex
 
 *expression* — переменная, представляющая объект **Field2**.
 

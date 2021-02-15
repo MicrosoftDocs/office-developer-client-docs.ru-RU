@@ -1,5 +1,5 @@
 ---
-title: Метод index. CreateProperty (DAO)
+title: Метод Index.CreateProperty (DAO)
 TOCTitle: CreateProperty Method
 ms:assetid: 712bccd2-c8a8-cc96-6f77-6d93d92320d9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195775(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291840"
 ---
-# <a name="indexcreateproperty-method-dao"></a>Метод index. CreateProperty (DAO)
+# <a name="indexcreateproperty-method-dao"></a>Метод Index.CreateProperty (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Создает новый объект определяемого пользователем **[Свойства](property-object-dao.md)** (только для рабочих областей Microsoft Access).
+Создает объект Property, определенный **[пользователем](property-object-dao.md)** (только для рабочих пространств Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . CreateProperty (***имя***, ***Тип***, ***значение***, ***DDL***)
+*выражение .* CreateProperty(***Name***, ***Type***, ***Value***, ***DDL***)
 
-*Expression (выражение* ) Переменная, представляющая объект **индекса** .
+*выражение* Переменная, представляюная объект **Index.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -48,25 +48,25 @@ ms.locfileid: "32291840"
 <td><p><em>Name</em></p></td>
 <td><p>Необязательно заполнять.</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Строка</strong> , которая уникально названа нового объекта <strong>Property</strong> . Сведения о допустимых именах <strong>свойств</strong> приведены в свойстве <strong>Name</strong> .</p></td>
+<td><p><strong>Строка,</strong> однозначно именовав новый <strong>объект Property.</strong> Сведения о <strong>допустимом</strong> имени свойства см. в свойстве <strong>Name.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><em>Type</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа, определяющая тип данных нового объекта <strong>Property</strong> . Допустимые типы данных см. в свойстве <strong><a href="field-type-property-dao.md">Type</a></strong>.</p></td>
+<td><p>Константа, которая определяет тип данных нового объекта <strong>Property.</strong> Допустимые типы данных см. в свойстве <strong><a href="field-type-property-dao.md">Type</a></strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Value</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Переменная Variant</strong> , содержащая начальное значение свойства. Для получения подробных сведений просмотрите свойство <strong><a href="field-value-property-dao.md">value</a></strong> .</p></td>
+<td><p><strong>Вариант,</strong> содержащий начальное значение свойства. Подробные <strong><a href="field-value-property-dao.md">сведения см.</a></strong> в свойстве Value.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>DLL</em></p></td>
+<td><p><em>DDL</em></p></td>
 <td><p>Необязательный</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p><strong>Variant</strong> (<strong>логический</strong> подтип), указывающий, является ли <strong>свойство</strong> объектом DDL. По умолчанию используется значение <strong>False</strong>. Если DDL имеет <strong>значение true</strong>, пользователи не могут изменить или удалить этот объект <strong>Property</strong> , если у них нет разрешения <strong>дбсеквритедеф</strong> .</p></td>
+<td><p>Variant <strong></strong> (<strong>Boolean</strong> subtype), который указывает, является ли <strong>свойство</strong> объектом DDL. Значение по умолчанию - <strong>false</strong>. Если DDL <strong>имеет</strong>true, пользователи не могут изменить или удалить этот объект <strong>Property,</strong> если у них нет разрешения <strong>dbSecWriteDef.</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -76,17 +76,17 @@ ms.locfileid: "32291840"
 
 Свойство
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Пользовательский объект **Свойства** можно создать только в коллекции **[свойств](properties-collection-dao.md)** сохраняемого объекта.
+Пользовательский объект **Property** можно создать только в коллекции **[свойств](properties-collection-dao.md)** постоянного объекта.
 
-Если опустить одну или несколько дополнительных частей при использовании **CreateProperty**, можно использовать соответствующий оператор присвоения для установки или сброса соответствующего свойства перед добавлением нового объекта в коллекцию. После добавления объекта можно изменить не все параметры его свойств. Для получения дополнительных сведений ознакомьтесь с разделами свойства " **имя**", " **Тип**" и " **значение** ".
+Если при использовании **CreateProperty** опустить одну или несколько необязательных частей, можно использовать соответствующий отчет о назначении, чтобы установить или сбросить соответствующее свойство перед тем, как приместь новый объект в коллекцию. После того как вы примесь к объекту, вы можете изменить некоторые, но не все параметры его свойств. Дополнительные сведения **см.** в под темах свойств **Name,** Type и **Value.**
 
-Если имя ссылается на объект, который уже является членом коллекции, при использовании метода **[append](fields-append-method-dao.md)** возникает ошибка во время выполнения.
+Если имя ссылается на объект, который уже является членом коллекции, при использовании метода **[Append](fields-append-method-dao.md)** возникает ошибка во время работы.
 
-Чтобы удалить объект определяемого пользователем **Свойства** из коллекции, используйте метод **[Delete](fields-delete-method-dao.md)** в коллекции **свойств** . Невозможно удалить встроенные свойства.
+Чтобы удалить пользовательский объект **Property** из коллекции, используйте метод **[Delete](fields-delete-method-dao.md)** в **коллекции Properties.** Встроенные свойства удалить нельзя.
 
 > [!NOTE]
-> Если опустить аргумент DDL, по умолчанию используется значение false (не для DDL). Так как соответствующее свойство DDL не предоставлено, необходимо удалить и повторно создать объект **Свойства** , который нужно изменить из DDL, на не-DDL.
+> Если опустить аргумент DDL, он по умолчанию будет задаваем значение False (не DDL). Так как соответствующее свойство DDL не выявилось, необходимо удалить и повторно создать объект **Property,** который нужно изменить с DDL на не DDL.
 
 

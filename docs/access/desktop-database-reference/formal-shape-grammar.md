@@ -18,21 +18,21 @@ ms.locfileid: "32292323"
 
 **Область применения**: Access 2013, Office 2013
 
-Это формальное грамматическая грамматика для создания любой команды Shape:
+Это формальная грамматика для создания любой команды фигуры:
 
-  - Обязательные грамматические термины — это текстовые строки, разделенные угловыми скобками ("\<\>").
+  - Необходимые грамматические термины — это текстовые строки, разделимые угловой скобкой (" \< \> ").
 
-  - Необязательные термины разделяются квадратными скобками ("\[ \]").
+  - Необязательные термины поотрихуются квадратными скобками (" \[ \] ").
 
-  - Альтернативы указываются с помощью виргуле ("|").
+  - Альтернативы указываются вигольным видео ("|").
 
-  - Повторяющиеся варианты обозначаются многоточием ("...").
+  - Повторяющиеся альтернативы указываются многоязыком ("...").
 
-  - *Альфа* — это строка букв в алфавитном порядке.
+  - *Альфа-адрес* указывает строку алфавитных букв.
 
-  - *Digit* указывает строку чисел.
+  - *Цифра* означает строку чисел.
 
-  - *Юникод — цифра* указывает строку цифр Юникода.
+  - *В цифре Юникода* указывается строка цифр юникода.
 
 Все остальные термины являются литералами.
 
@@ -49,122 +49,122 @@ ms.locfileid: "32292323"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>&lt;Shape – Command&gt;</p></td>
-<td><p>Shape [&lt;Table — exp&gt; [[AS] &lt;псевдоним&gt;]] [&lt;Shape — действие&gt;]</p></td>
+<td><p>&lt;shape-command&gt;</p></td>
+<td><p>SHAPE [ &lt; table-exp &gt; [[AS] &lt; alias &gt; ]][ &lt; shape-action &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Таблица — exp&gt;</p></td>
-<td><p>{&lt;Provider – Command — Text&gt;} |<br />
-(&lt;Shape-Command&gt;) |<br />
-Таблица &lt;, заключенная в кавычки — имя&gt; |<br />
-&lt;имя, заключенное в кавычки&gt;</p></td>
+<td><p>&lt;table-exp&gt;</p></td>
+<td><p>{ &lt; provider-command-text &gt; } |<br />
+( &lt; shape-command &gt; ) |<br />
+TABLE &lt; quoted-name&gt; |<br />
+&lt;quoted-name&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;Shape — действие&gt;</p></td>
-<td><p>Добавление &lt;псевдонима для поля со списком&gt; |</p>
-<p>Вычислить &lt;псевдоним поля — список&gt; [по &lt;полю "список&gt;"]</p></td>
+<td><p>&lt;shape-action&gt;</p></td>
+<td><p>APPEND &lt; aliased-field-list&gt; |</p>
+<p>COMPUTE &lt; aliased-field-list &gt; [BY &lt; field-list &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;псевдоним поля списка&gt;</p></td>
-<td><p>&lt;псевдоним поля&gt; [, &lt;псевдоним поля...] &gt;]</p></td>
+<td><p>&lt;aliased-field-list&gt;</p></td>
+<td><p>&lt;aliased-field &gt; [, &lt; aliased-field... &gt; ]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;поле с псевдонимом&gt;</p></td>
-<td><p>&lt;Field — exp&gt; [[AS] &lt;псевдоним&gt;]</p></td>
+<td><p>&lt;aliased-field&gt;</p></td>
+<td><p>&lt;field-exp &gt; [[AS] &lt; alias &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;поле — exp&gt;</p></td>
-<td><p>(&lt;отношение-exp&gt;) |</p>
-<p>&lt;вычисляемый exp&gt; |</p>
-<p>&lt;Aggregate — exp&gt; |</p>
-<p>&lt;New — exp&gt;</p></td>
+<td><p>&lt;field-exp&gt;</p></td>
+<td><p>( &lt; relation-exp &gt; ) |</p>
+<p>&lt;calculated-exp&gt; |</p>
+<p>&lt;aggregate-exp&gt; |</p>
+<p>&lt;new-exp&gt;</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;relation_exp&gt;</p></td>
-<td><p>&lt;Таблица — exp&gt; [[AS] &lt;псевдоним&gt;]</p>
-<p>&lt;Таблица — exp&gt; [[AS] &lt;псевдоним&gt;]</p></td>
+<td><p>&lt;table-exp &gt; [[AS] &lt; alias &gt; ]</p>
+<p>&lt;table-exp &gt; [[AS] &lt; alias &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;отношение — Конд — список&gt;</p></td>
-<td><p>&lt;relation — Конд&gt; [, &lt;relation – Конд&gt;...]</p></td>
+<td><p>&lt;relation-cond-list&gt;</p></td>
+<td><p>&lt;relation-cond &gt; [, &lt; relation-cond &gt; ...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;отношение — Конд&gt;</p></td>
-<td><p>&lt;поле — имя&gt; &lt;дочерней ссылки&gt;</p></td>
+<td><p>&lt;relation-cond&gt;</p></td>
+<td><p>&lt;field-name &gt; TO &lt; child-ref&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;дочерняя ссылка&gt;</p></td>
-<td><p>&lt;имя поля&gt; |</p>
-<p>ПАРАМЕТР &lt;param — ref&gt;</p></td>
+<td><p>&lt;child-ref&gt;</p></td>
+<td><p>&lt;field-name&gt; |</p>
+<p>PARAMETER &lt; param-ref&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;Param — ref&gt;</p></td>
-<td><p>&lt;значение&gt;</p></td>
+<td><p>&lt;param-ref&gt;</p></td>
+<td><p>&lt;number&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;Список полей&gt;</p></td>
-<td><p>&lt;Field: Name&gt; [, &lt;Field Name&gt;]</p></td>
+<td><p>&lt;field-list&gt;</p></td>
+<td><p>&lt;field-name &gt; [, &lt; field-name &gt; ]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;Aggregate — exp&gt;</p></td>
-<td><p>SUM (&lt;полное-поле-имя&gt;) |</p>
-<p>AVG (&lt;полное-поле-имя&gt;) |</p>
-<p>MIN (&lt;полное-поле-имя&gt;) |</p>
-<p>MAX (&lt;полное-поле-имя&gt;) |</p>
-<p>Count (&lt;уточненное имя&gt; | &lt;&gt;псевдонима) |</p>
-<p>СТАНДОТКЛОН (&lt;полное-поле-имя&gt;) |</p>
-<p>ANY (&lt;полное-имя&gt;)</p></td>
+<td><p>&lt;aggregate-exp&gt;</p></td>
+<td><p>SUM( &lt; qualified-field-name &gt; ) |</p>
+<p>AVG( &lt; qualified-field-name &gt; ) |</p>
+<p>MIN( &lt; qualified-field-name &gt; ) |</p>
+<p>MAX( &lt; qualified-field-name &gt; ) |</p>
+<p>COUNT( &lt; qualified-alias &gt;  |  &lt; qualified-name &gt; ) |</p>
+<p>STDEV( &lt; qualified-field-name &gt; ) |</p>
+<p>ANY( &lt; qualified-field-name &gt; )</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;вычисляемый exp&gt;</p></td>
-<td><p>CALC (&lt;выражение&gt;)</p></td>
+<td><p>&lt;calculated-exp&gt;</p></td>
+<td><p>CALC( &lt; выражение &gt; )</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;полное имя поля&gt;</p></td>
-<td><p>&lt;псевдоним&gt;. [&lt;Alias&gt;...] &lt;имя поля&gt;</p></td>
+<td><p>&lt;qualified-field-name&gt;</p></td>
+<td><p>&lt;псевдоним &gt; .[ &lt; псевдоним &gt; ...] &lt; field-name&gt;</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;смешан&gt;</p></td>
-<td><p>&lt;имя, заключенное в кавычки&gt;</p></td>
+<td><p>&lt;псевдоним&gt;</p></td>
+<td><p>&lt;quoted-name&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;имя поля&gt;</p></td>
-<td><p>&lt;в кавычках —&gt; имя [[AS &lt;]&gt;псевдоним]</p></td>
+<td><p>&lt;field-name&gt;</p></td>
+<td><p>&lt;quoted-name &gt; [[AS] &lt; alias &gt; ]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;имя, заключенное в кавычки&gt;</p></td>
-<td><p>&quot;&lt;substring&gt;&quot; |</p>
-<p>'&lt;строка&gt;' |</p>
-<p>[&lt;строка&gt;] |</p>
-<p>&lt;расширением&gt;</p></td>
+<td><p>&lt;quoted-name&gt;</p></td>
+<td><p>&quot;&lt;string&gt;&quot; |</p>
+<p>' &lt; string &gt; ' |</p>
+<p>[ &lt; string &gt; ] |</p>
+<p>&lt;name&gt;</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;полное имя&gt;</p></td>
-<td><p>Alias [. alias...]</p></td>
+<td><p>&lt;qualified-name&gt;</p></td>
+<td><p>alias[.alias...]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;расширением&gt;</p></td>
-<td><p>альфа-канал [альфа | цифра | _ | # |: |...]</p></td>
+<td><p>&lt;name&gt;</p></td>
+<td><p>alpha [ alpha | digit | _ | # | : | ...]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;значение&gt;</p></td>
+<td><p>&lt;number&gt;</p></td>
 <td><p>цифра [цифра...]</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;New — exp&gt;</p></td>
-<td><p>New &lt;Field-Type&gt; [(&lt;число&gt; [, &lt;число&gt;])]</p></td>
+<td><p>&lt;new-exp&gt;</p></td>
+<td><p>NEW &lt; field-type &gt; [( &lt; number &gt; [, number &lt; &gt; ])]</p></td>
 </tr>
 <tr class="odd">
-<td><p>&lt;тип поля&gt;</p></td>
+<td><p>&lt;field-type&gt;</p></td>
 <td><p>Тип данных OLE DB или ADO.</p></td>
 </tr>
 <tr class="even">
-<td><p>&lt;substring&gt;</p></td>
-<td><p>Unicode – char [Unicode – char...]</p></td>
+<td><p>&lt;string&gt;</p></td>
+<td><p>unicode-char [unicode-char...]</p></td>
 </tr>
 <tr class="odd">
 <td><p>&lt;выражение&gt;</p></td>
-<td><p>Выражение Visual Basic для приложений, операнды которого являются другими столбцами, не являющимися ВЫЧИСЛЯЕМыми, в одной строке.</p></td>
+<td><p>Выражение Visual Basic для приложений, операнды которого являются другими столбцами, не относямися к CALC, в той же строке.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: Перечисление Идлинум (DAO)
+title: Enumeration IdleEnum (DAO)
 TOCTitle: IdleEnum Enumeration
 ms:assetid: 44da6085-810a-f001-629b-9bd270d3949a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193165(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291903"
 ---
-# <a name="idleenum-enumeration-dao"></a>Перечисление Идлинум (DAO)
+# <a name="idleenum-enumeration-dao"></a>Enumeration IdleEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

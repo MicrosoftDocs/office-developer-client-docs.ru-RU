@@ -1,5 +1,5 @@
 ---
-title: Метод indexes. append (DAO)
+title: Метод Indexes.Append (DAO)
 TOCTitle: Append Method
 ms:assetid: 60dce80f-505b-e988-3ac1-8ecaae3d3d09
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194835(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291653"
 ---
-# <a name="indexesappend-method-dao"></a>Метод indexes. append (DAO)
+# <a name="indexesappend-method-dao"></a>Метод Indexes.Append (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Добавляет новый **индекс** в коллекцию **indexes** .
+Добавляет новый **индекс** в коллекцию **Indexes.**
 
 ## <a name="syntax"></a>Синтаксис
 
 *выражение* .Append(***Object***)
 
-*Expression (выражение* ) Переменная, представляющая объект **индексов** .
+*выражение* Переменная, представляюная объект **Indexes.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -48,13 +48,13 @@ ms.locfileid: "32291653"
 <td><p><em>Object</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Object</strong></p></td>
-<td><p>Объектная переменная, представляющая элемент, добавляемый в коллекцию.</p></td>
+<td><p>Объектная переменная, представляюная элемент, который будет придан коллекции.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Добавляемый объект становится постоянным объектом, хранящимся на диске, пока вы не удалите его с помощью метода **Delete**.
 

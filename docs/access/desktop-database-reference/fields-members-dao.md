@@ -1,5 +1,5 @@
 ---
-title: Элементы Fields (DAO)
+title: Fields members (DAO)
 TOCTitle: Fields Members
 ms:assetid: b7ba5b21-03f4-6ac0-2acc-777da3d22839
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822428(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292540"
 ---
-# <a name="fields-members-dao"></a>Элементы Fields (DAO)
+# <a name="fields-members-dao"></a>Fields members (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -36,16 +36,16 @@ ms.locfileid: "32292540"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="fields-append-method-dao.md">Error</a></strong></p></td>
+<td><p><strong><a href="fields-append-method-dao.md">Append</a></strong></p></td>
 <td><p>Добавляет новый объект <strong><a href="field-object-dao.md">Field</a></strong> в коллекцию <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="fields-delete-method-dao.md">Delete</a></strong></p></td>
-<td><p>Удаляет <strong><a href="field-object-dao.md">поле</a></strong> из коллекции <strong><a href="fields-collection-dao.md">Fields</a></strong> .</p></td>
+<td><p>Удаляет поле <strong><a href="field-object-dao.md">из</a></strong> коллекции <strong><a href="fields-collection-dao.md">Fields.</a></strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="fields-refresh-method-dao.md">Обновление</a></strong></p></td>
-<td><p>Обновляет объекты в заданном коллетион в соответствии с текущей схемой базы данных.</p></td>
+<td><p><strong><a href="fields-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "32292540"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="fields-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает число объектов в указанной коллекции. Только для чтения, <strong>Integer</strong>.</p></td>
+<td><p>Возвращает количество объектов в указанной коллекции. Только для чтения, <strong>Integer</strong>.</p></td>
 </tr>
 </tbody>
 </table>

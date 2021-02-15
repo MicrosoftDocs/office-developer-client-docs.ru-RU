@@ -1,5 +1,5 @@
 ---
-title: Объект Field — объекты данных ActiveX (ADO)
+title: Field Object - ActiveX Data Objects (ADO)
 TOCTitle: Field object (ADO)
 ms:assetid: 1dbd535e-48ad-a5c8-a1b2-6776c1e3e19d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248968(v=office.15)
@@ -21,27 +21,27 @@ ms.locfileid: "32293058"
 
 Представляет столбец данных с общим типом данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Каждый объект **field** соответствует столбцу в [наборе записей](recordset-object-ado.md). Свойство [value](value-property-ado.md) объекта **field** используется для задания или возвращения данных для текущей записи. В зависимости от функциональных возможностей, предоставляемых поставщиком, некоторые коллекции, методы или свойства объекта **field** могут быть недоступны.
+Каждый объект **Field** соответствует столбцу в [наборе записей.](recordset-object-ado.md) Свойство [Value](value-property-ado.md) объектов **Field** используется для того, чтобы устанавливать или возвращать данные для текущей записи. В зависимости от функциональных возможностей, доступных поставщиком, некоторые коллекции, методы или свойства объекта **Field** могут быть недоступны.
 
-В коллекциях, методах и свойствах объекта **field** можно выполнить следующие действия:
+С помощью коллекций, методов и свойств объекта **Field** можно сделать следующее:
 
-  - Возвращает имя поля со свойством [Name](name-property-ado.md) .
+  - Возвращает имя поля со [свойством Name.](name-property-ado.md)
 
-  - Просмотрите или измените данные в поле со свойством **value** . **Value** является свойством по умолчанию объекта **field** .
+  - Просмотр или изменение данных в поле с помощью свойства **Value.** **Значение** является свойством по умолчанию объекта **Field.**
 
-  - Возвращает основные характеристики поля с помощью свойств [Type](type-property-ado.md), [Precision](precision-property-ado.md)и [NumericScale](numericscale-property-ado.md) .
+  - Возвращает основные характеристики поля со свойствами [Type,](type-property-ado.md) [Precision](precision-property-ado.md)и [NumericScale.](numericscale-property-ado.md)
 
-  - Возврат объявленного размера поля с помощью свойства [DefinedSize](definedsize-property-ado.md) .
+  - Возвращает объявленный размер поля со [свойством DefinedSize.](definedsize-property-ado.md)
 
-  - Возвращает фактический размер данных в заданном поле с помощью свойства [ActualSize](actualsize-property-ado.md) .
+  - Возвращает фактический размер данных в заданное поле со [свойством ActualSize.](actualsize-property-ado.md)
 
-  - Определите, какие типы функциональных возможностей поддерживаются для данного поля с помощью свойства [Attributes](attributes-property-ado.md) и коллекции [свойств](properties-collection-ado.md) .
+  - Определите, какие типы функций поддерживаются для заданного поля с помощью свойства [Attributes](attributes-property-ado.md) и [коллекции свойств.](properties-collection-ado.md)
 
-  - Управлять значениями полей с длинными двоичными или длинными символьными данными с помощью [методов](getchunk-method-ado.md) [AppendChunk и](appendchunk-method-ado.md) .
+  - Управляет значениями полей, содержащих длинные двоичные или длинные данные символов, с помощью методов [AppendChunk](appendchunk-method-ado.md) и [GetChunk.](getchunk-method-ado.md)
 
-  - Если поставщик поддерживает пакетные обновления, разрешите несоответствия в значениях полей во время пакетного обновления с помощью свойств [originalValue](originalvalue-property-ado.md) и [UnderlyingValue](underlyingvalue-property-ado.md) .
+  - Если поставщик поддерживает пакетные обновления, разрешать несоответствия в значениях полей во время пакетного обновления со свойствами [OriginalValue](originalvalue-property-ado.md) и [UnderlyingValue.](underlyingvalue-property-ado.md)
 
-Все свойства метаданных (**Name**, **Type**, **DefinedSize**, **Precision**и **NumericScale**) доступны до открытия **набора записей**объекта **поля** . Их настройка в это время полезна для динамического создания форм.
+Все свойства метаданных (**Name,** **Type,** **DefinedSize,** **Precision** и **NumericScale)**  доступны перед открытием объекта **Recordset объекта Field.** Установка их в это время полезна для динамического создания форм.
 

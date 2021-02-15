@@ -19,7 +19,7 @@ ms.locfileid: "32292470"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используется свойство [Filter](filter-property-ado.md) для открытия нового объекта [Recordset](recordset-object-ado.md) на основе указанного условия, примененного к существующему **набору записей**. Свойство [RecordCount](recordcount-property-ado.md) используется для отображения количества записей в двух **наборах записей**. Для выполнения этой процедуры требуется функция Филтерфиелд.
+В этом примере свойство [Filter](filter-property-ado.md) используется для открытия нового объекта [Recordset](recordset-object-ado.md) на основе указанного условия, примененного к существующему **набору записей.** Свойство [RecordCount](recordcount-property-ado.md) используется для показа количества записей в двух **recordsets.** Функция FilterField необходима для запуска этой процедуры.
 
 ```cpp 
  
@@ -320,7 +320,7 @@ void PrintComError(_com_error &e)
 // EndFilterCpp 
 ```
 
-**Филтеркс. h**
+**FilterX.h**
 
 ```cpp 
  

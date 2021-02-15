@@ -1,5 +1,5 @@
 ---
-title: Оператор GRANT (Microsoft Access SQL)
+title: GRANT statement (Microsoft Access SQL)
 TOCTitle: GRANT statement (Microsoft Access SQL)
 ms:assetid: 50ae97ae-d5be-57e5-d9da-f3fc42f01d83
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193820(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292134"
 ---
-# <a name="grant-statement-microsoft-access-sql"></a>Оператор GRANT (Microsoft Access SQL)
+# <a name="grant-statement-microsoft-access-sql"></a>GRANT statement (Microsoft Access SQL)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -26,11 +26,11 @@ ms.locfileid: "32292134"
 
 ## <a name="syntax"></a>Синтаксис
 
-Grant {*привилегия*\[, *привилегия*,... \]} В *таблице* {Table | *Объект* Object|
+GRANT {*privilege* \[ , *privilege*, ... \] } ON{TABLE *table* | Объект  OBJECT|
 
-*Container Container* } to {*аусоризатионнаме*\[, *аусоризатионнаме*,... \]}
+КОНТЕЙНЕР *}* TO {*authorizationname,* \[ *authorizationname*, ... \] }
 
-Оператор GRANT состоит из следующих частей:
+В заявлении GRANT есть указанные здесь части.
 
 <table>
 <colgroup>
@@ -45,23 +45,23 @@ Grant {*привилегия*\[, *привилегия*,... \]} В *таблиц
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>правах</em></p></td>
-<td><p>Привилегия или привилегии, которые необходимо получить. Разрешения указываются с помощью следующих ключевых слов: SELECT, DELETE, INSERT, UPDATE, DROP, СЕЛЕКТСЕКУРИТИ, УПДАТЕСЕКУРИТИ, DBPASSWORD, УПДАТЕИДЕНТИТИ, CREATE, СЕЛЕКТСЧЕМА, SCHEMA и УПДАТЕОВНЕР.</p></td>
+<td><p><em>privilege</em></p></td>
+<td><p>Привилегии, которые необходимо предоставить. Привилегии заданы с помощью следующих ключевых слов: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA и UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>TableName</em></p></td>
-<td><p>Любое допустимое имя таблицы.</p></td>
+<td><p><em>tablename</em></p></td>
+<td><p>Любое допустимые имя таблицы.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>object</em></p></td>
-<td><p>Это может охватывать любой объект, не являющийся таблицей. Сохраненным запросом (представление или процедура) является один из примеров.</p></td>
+<td><p>Это может охватывать любой объект, не относя какой-либо из таблиц. В качестве примера можно привести сохраненный запрос (представление или процедуру).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Container</em></p></td>
+<td><p><em>container</em></p></td>
 <td><p>Имя допустимого контейнера.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>аусоризатионнаме</em></p></td>
+<td><p><em>authorizationname</em></p></td>
 <td><p>Имя пользователя или группы.</p></td>
 </tr>
 </tbody>

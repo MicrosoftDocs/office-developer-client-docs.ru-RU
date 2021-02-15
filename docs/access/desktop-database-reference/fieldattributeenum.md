@@ -1,5 +1,5 @@
 ---
-title: Фиелдаттрибутинум (Справочник по базам данных Access на компьютере)
+title: FieldAttributeEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: FieldAttributeEnum
 ms:assetid: 2d3a541e-a437-6108-ab0e-90c7884b3df7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249071(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32292603"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает один или несколько атрибутов объекта [field](field-object-ado.md) .
+Указывает один или несколько атрибутов объекта [Field.](field-object-ado.md)
 
 <br/>
 
@@ -37,85 +37,85 @@ ms.locfileid: "32292603"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адфлдкачедеферред</strong></p></td>
+<td><p><strong>adFldCacheDeferred</strong></p></td>
 <td><p>0x1000</p></td>
-<td><p>Указывает, что поставщик кэширует значения полей, а последующие операции чтения выполняются из кэша.</p></td>
+<td><p>Указывает, что поставщик кэшет значений полей и что последующие считывались из кэша.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адфлдфиксед</strong></p></td>
+<td><p><strong>adFldFixed</strong></p></td>
 <td><p>0x10</p></td>
 <td><p>Указывает, что поле содержит данные фиксированной длины.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфлдисчаптер</strong></p></td>
+<td><p><strong>adFldIsChapter</strong></p></td>
 <td><p>0x2000</p></td>
-<td><p>Указывает, что поле содержит значение главы, которое указывает конкретный дочерний набор записей, связанный с этим родительским полем. Обычно поля главы используются с формированием данных или фильтрами.</p></td>
+<td><p>Указывает, что поле содержит значение главы, которое указывает определенный набор записей, связанный с этим родительским полем. Обычно поля глав используются с формированием данных или фильтрами.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адфлдисколлектион</strong></p></td>
+<td><p><strong>adFldIsCollection</strong></p></td>
 <td><p>0x40000</p></td>
-<td><p>Указывает, что поле указывает, что ресурс, представленный записью, является коллекцией других ресурсов, например папки, а не простым ресурсом, например текстовым файлом.</p></td>
+<td><p>Указывает, что в поле указывается, что ресурс, представленный записью, представляет собой коллекцию других ресурсов, таких как папка, а не простой ресурс, например текстовый файл.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфлдисдефаултстреам</strong></p></td>
+<td><p><strong>adFldIsDefaultStream</strong></p></td>
 <td><p>0x20000</p></td>
-<td><p>Указывает, что поле содержит поток по умолчанию для ресурса, представленного записью. Например, поток по умолчанию может быть HTML-контентом корневой папки на веб-сайте, который автоматически обрабатывается, когда указан корневой URL-адрес.</p></td>
+<td><p>Указывает, что поле содержит поток по умолчанию для ресурса, представленного записью. Например, потоком по умолчанию может быть HTML-контент корневой папки на веб-сайте, который автоматически обслуживается при указании корневого URL-адреса.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адфлдиснуллабле</strong></p></td>
+<td><p><strong>adFldIsNullable</strong></p></td>
 <td><p>0x20</p></td>
-<td><p>Указывает, что поле принимает значения NULL.</p></td>
+<td><p>Указывает, что поле принимает значения null.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфлдисровурл</strong></p></td>
+<td><p><strong>adFldIsRowURL</strong></p></td>
 <td><p>0x10000</p></td>
-<td><p>Указывает, что поле содержит URL-адрес, указывающий ресурс из хранилища данных, представленного записью.</p></td>
+<td><p>Указывает, что поле содержит URL-адрес, который указывает имя ресурса из данных, представляемого записью.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адфлдлонг</strong></p></td>
+<td><p><strong>adFldLong</strong></p></td>
 <td><p>0x80</p></td>
-<td><p>Указывает, что поле является длинным бинарным полем. Также указывает, что вы можете <a href="getchunk-method-ado.md">использовать методы</a> <a href="appendchunk-method-ado.md">AppendChunk и</a> .</p></td>
+<td><p>Указывает, что поле является длинным двоичным полем. Также указывает, что можно использовать методы <a href="appendchunk-method-ado.md">AppendChunk</a> и <a href="getchunk-method-ado.md">GetChunk.</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфлдмайбенулл</strong></p></td>
+<td><p><strong>adFldMayBeNull</strong></p></td>
 <td><p>0x40</p></td>
-<td><p>Указывает, что в поле можно считывать значения NULL.</p></td>
+<td><p>Указывает, что можно считыть значения null из поля.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адфлдмайдефер</strong></p></td>
+<td><p><strong>adFldMayDefer</strong></p></td>
 <td><p>0x2</p></td>
-<td><p>Указывает, что поле является отложенным — то есть значения полей не извлекаются из источника данных с использованием всей записи, но только при явном доступе к ним.</p></td>
+<td><p>Указывает, что поле отложено, то есть значения полей не извлекаются из источника данных со всей записью, а только при явном доступе к ним.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфлднегативескале</strong></p></td>
+<td><p><strong>adFldNegativeScale</strong></p></td>
 <td><p>0x4000</p></td>
-<td><p>Указывает, что поле представляет числовое значение из столбца, поддерживающего отрицательные значения шкалы. Масштаб задается свойством <a href="numericscale-property-ado.md">NumericScale</a> .</p></td>
+<td><p>Указывает, что поле представляет числовую величину из столбца, который поддерживает отрицательные значения масштаба. Масштаб задан свойством <a href="numericscale-property-ado.md">NumericScale.</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адфлдровид</strong></p></td>
+<td><p><strong>adFldRowID</strong></p></td>
 <td><p>0x100</p></td>
-<td><p>Указывает, что поле содержит постоянный идентификатор строки, который не может быть записан в и имеет неосмысленное значение, за исключением идентификации строки (например, номера записи, уникального идентификатора и т. д.).</p></td>
+<td><p>Указывает, что поле содержит постоянный идентификатор строки, в который нельзя записать значение, и не имеет осмысленное значение, кроме идентификации строки (например, номера записи, уникального идентификатора и так далее).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфлдровверсион</strong></p></td>
+<td><p><strong>adFldRowVersion</strong></p></td>
 <td><p>0x200</p></td>
-<td><p>Указывает, что поле содержит дату и время, которые используются для отслеживания обновлений.</p></td>
+<td><p>Указывает, что поле содержит отметку времени или даты, используемую для отслеживания обновлений.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адфлдункновнупдатабле</strong></p></td>
+<td><p><strong>adFldUnknownUpdatable</strong></p></td>
 <td><p>0x8</p></td>
-<td><p>Указывает, что поставщик не может определить, можно ли выполнять запись в поле.</p></td>
+<td><p>Указывает, что поставщик не может определить, можно ли записывать данные в поле.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфлдунспеЦифиед</strong></p></td>
+<td><p><strong>adFldUnspecified</strong></p></td>
 <td><p>–1<br />
-Равен</p></td>
-<td><p>Указывает, что поставщик не задает атрибуты поля.</p></td>
+0xFFFFFFFF</p></td>
+<td><p>Указывает, что поставщик не указывает атрибуты поля.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адфлдупдатабле</strong></p></td>
+<td><p><strong>adFldUpdatable</strong></p></td>
 <td><p>0x4</p></td>
-<td><p>Указывает, что вы можете выполнять запись в поле.</p></td>
+<td><p>Указывает, что в поле можно записывать данные.</p></td>
 </tr>
 </tbody>
 </table>
@@ -123,7 +123,7 @@ ms.locfileid: "32292603"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -136,40 +136,40 @@ ms.locfileid: "32292603"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Фиелдаттрибуте. КАЧЕДЕФЕРРЕД</p></td>
+<td><p>AdoEnums.FieldAttribute.CACHEDEFERRED</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Фиелдаттрибуте. FIXED</p></td>
+<td><p>AdoEnums.FieldAttribute.FIXED</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Фиелдаттрибуте. NULL</p></td>
+<td><p>AdoEnums.FieldAttribute.ISNULLABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Фиелдаттрибуте. LONG</p></td>
+<td><p>AdoEnums.FieldAttribute.LONG</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Фиелдаттрибуте. МАЙБЕНУЛЛ</p></td>
+<td><p>AdoEnums.FieldAttribute.MAYBENULL</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Фиелдаттрибуте. МАЙДЕФЕР</p></td>
+<td><p>AdoEnums.FieldAttribute.MAYDEFER</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Фиелдаттрибуте. НЕГАТИВЕСКАЛЕ</p></td>
+<td><p>AdoEnums.FieldAttribute.NEGATIVESCALE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Фиелдаттрибуте. ROWID</p></td>
+<td><p>AdoEnums.FieldAttribute.ROWID</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Фиелдаттрибуте. ROWVERSION</p></td>
+<td><p>AdoEnums.FieldAttribute.ROWVERSION</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Фиелдаттрибуте. УНКНОВНУПДАТАБЛЕ</p></td>
+<td><p>AdoEnums.FieldAttribute.UNKNOWNUPDATABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Фиелдаттрибуте. unspecifieded</p></td>
+<td><p>AdoEnums.FieldAttribute.UNSPECIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Фиелдаттрибуте. ОБНОВЛЯЕМый</p></td>
+<td><p>AdoEnums.FieldAttribute.UPDATABLE</p></td>
 </tr>
 </tbody>
 </table>

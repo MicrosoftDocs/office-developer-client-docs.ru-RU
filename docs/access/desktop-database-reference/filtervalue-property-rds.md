@@ -18,24 +18,24 @@ ms.locfileid: "32292407"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает значение, с которым отфильтровать записи.
+Указывает значение, по которому следует фильтровать записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Элемент управления*. FilterValue = *строка*
+*DataControl*. FilterValue = *String*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
-|*String* |**Строковое** значение, представляющее значение данных, с которым отфильтруются записи (например, "программист" или "125").|
+|*DataControl* |Объектная переменная, представляюная [RDS. Объект DataControl.](datacontrol-object-rds.md)|
+|*Строка* |**Строковая** строка, представляюная значение данных, с помощью которого фильтруются записи (например, "Программист" или "125").|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Свойства [sortColumn](sortcolumn-property-rds.md), [SortDirection](sortdirection-property-rds.md), **FilterValue**, [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) предоставляют функции сортировки и фильтрации кэша на стороне клиента. 
+Свойства [SortColumn,](sortcolumn-property-rds.md) [SortDirection,](sortdirection-property-rds.md) **FilterValue,** [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) предоставляют функции сортировки и фильтрации в клиентском кэше. 
 
-Функция сортировки упорядочивает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе критериев поиска, в то время как в кэше сохраняется полный [набор записей](recordset-object-ado.md) . Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий **набор** **записей на обновляемый.**
+Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей сохраняется в кэше. Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий набор **recordset** на updatable **Recordset.**
 
-Значения NULL приводят к ошибке несоответствия типа.
+Значение NULL приводит к ошибке несоответствия типов.
 

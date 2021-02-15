@@ -24,23 +24,23 @@ ms.locfileid: "32293135"
 **Область применения**: Access 2013, Office 2013
 
 
-Возвращает значение, которое указывает, можно ли обновлять данные в поле, представленном объектом **[field](field-object-dao.md)** .
+Возвращает значение, которое указывает, могут ли данные в поле, представляемом объектом **[Field,](field-object-dao.md)** быть updatable.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Обновляемые с возможностью обновления
+*выражение .* DataUpdatable
 
 *выражение*: переменная, представляющая объект **Field**.
 
 ## <a name="remarks"></a>Примечания
 
-Используйте это свойство, чтобы определить, можно ли изменить значение свойства **[value](field-value-property-dao.md)** объекта **field** . Это свойство всегда имеет **значение false** для объекта **field** , свойство **[Attributes](field-attributes-property-dao.md)** которого равно **дбаутоинкрфиелд**.
+Используйте это свойство, чтобы определить, можно ли изменить параметр свойства **[Value](field-value-property-dao.md)** объекта **Field.** Это свойство всегда имеет **свойство False** для объекта **Field,** свойство **[Attributes](field-attributes-property-dao.md)** которого **— dbAutoIncrField.**
 
-Можно использовать свойство, поддерживающее **Обновление** , для объектов **field** , которые добавляются в коллекцию **[Fields](fields-collection-dao.md)** объектов **[QueryDef](querydef-object-dao.md)**, **[Recordset](recordset-object-dao.md)** и **[relation](relation-object-dao.md)** , но не в коллекцию **Fields** объектов **[index](index-object-dao.md)** и **[tabledef](tabledef-object-dao.md)** .
+Свойство **DataUpdatable** можно использовать для объектов **Field,** которые примеся к коллекции **[Fields](fields-collection-dao.md)** объектов **[QueryDef,](querydef-object-dao.md)** **[Recordset](recordset-object-dao.md)** и **[Relation,](relation-object-dao.md)** но не к коллекции **Fields** объектов **[Index](index-object-dao.md)** или **[TableDef.](tabledef-object-dao.md)**
 
 ## <a name="example"></a>Пример
 
-В этом примере показано свойство с **возможностью обновления** данных, использующее первое поле из шести разных **наборов записей**. Для выполнения этой процедуры требуется функция Output.
+В этом примере показано свойство **DataUpdatable,** использующее первое поле из шести различных **наборов записей.** Для запуска этой процедуры требуется функция DataOutput.
 
 ```vb 
 Sub DataUpdatableX() 

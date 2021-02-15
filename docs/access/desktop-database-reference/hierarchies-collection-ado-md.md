@@ -1,5 +1,5 @@
 ---
-title: Коллекция иерархий (ADO MD)
+title: Hierarchies collection (ADO MD)
 TOCTitle: Hierarchies collection (ADO MD)
 ms:assetid: 5f8d4231-9d00-66d3-d7b0-f2a0b6b714cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249348(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291980"
 ---
-# <a name="hierarchies-collection-ado-md"></a>Коллекция иерархий (ADO MD)
+# <a name="hierarchies-collection-ado-md"></a>Hierarchies collection (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Содержит объекты [иерархии](hierarchy-object-ado-md.md) SET из измерения.
+Содержит набор [объектов Hierarchy](hierarchy-object-ado-md.md) из измерения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-**Иерархии** — это стандартная коллекция ADO. С помощью свойств и методов коллекции можно выполнить следующие действия:
+**Иерархии** — это стандартная коллекция ADO. С помощью свойств и методов коллекции можно сделать следующее:
 
-  - Получите число объектов в коллекции со свойством [Count](count-property-ado.md) .
+  - Получите количество объектов в коллекции с помощью свойства [Count.](count-property-ado.md)
 
-  - Возвращает объект из коллекции со свойством [Item](item-property-ado.md) по умолчанию.
+  - Возвращает объект из коллекции со свойством [Item по](item-property-ado.md) умолчанию.
 
-  - Обновление объектов в коллекции от поставщика с помощью метода [Refresh](refresh-method-ado.md) .
+  - Обновите объекты в коллекции от поставщика с помощью [метода Refresh.](refresh-method-ado.md)
 

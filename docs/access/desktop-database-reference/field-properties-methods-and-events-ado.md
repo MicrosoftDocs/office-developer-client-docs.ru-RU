@@ -18,7 +18,7 @@ ms.locfileid: "32293051"
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство ActualSize](actualsize-property-ado.md)
 - [Свойство Attributes](attributes-property-ado.md)

@@ -1,5 +1,5 @@
 ---
-title: Метод indexes. Delete (DAO)
+title: Метод Indexes.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 8d3c3221-3b2e-15ba-32ff-f2dfc592d82c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197351(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291554"
 ---
-# <a name="indexesdelete-method-dao"></a>Метод indexes. Delete (DAO)
+# <a name="indexesdelete-method-dao"></a>Метод Indexes.Delete (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Удаляет указанный **индекс** из коллекции **индексов** .
+Удаляет указанный **индекс** из коллекции **Indexes.**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Delete (***имя***)
+*выражение .* ***Delete(Name)***
 
-*Expression (выражение* ) Переменная, представляющая объект **индексов** .
+*выражение* Переменная, представляюная объект **Indexes.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -47,14 +47,14 @@ ms.locfileid: "32291554"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Имя индекса, который требуется удалить.</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Имя индекса, который необходимо удалить.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Метод **Delete** поддерживается только в том случае, если объект **index** является новым и не добавлен в базу данных.
+Метод **Delete** поддерживается только в том случае, если объект **Index** является новым и не был сдан в базу данных.
 

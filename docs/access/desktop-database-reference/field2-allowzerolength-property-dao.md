@@ -1,5 +1,5 @@
 ---
-title: Свойство field2. пустые (DAO)
+title: Свойство Field2.AllowZeroLength (DAO)
 TOCTitle: AllowZeroLength Property
 ms:assetid: d3795634-527f-b4c5-b606-50f9945cac12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834791(v=office.15)
@@ -14,25 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292911"
 ---
-# <a name="field2allowzerolength-property-dao"></a>Свойство field2. пустые (DAO)
+# <a name="field2allowzerolength-property-dao"></a>Свойство Field2.AllowZeroLength (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
 
-Задает или возвращает значение, которое указывает, является ли строка нулевой длины ("") допустимым значением для свойства **[value](field-value-property-dao.md)** объекта **field2** с типом данных text или MEMO (только для рабочих областей Microsoft Access).
+Задает или возвращает значение, которое указывает, является ли строка нулевой длины ("") допустимым параметром свойства **[Value](field-value-property-dao.md)** объекта **Field2** с типом данных Text или Memo (только для рабочей области Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Пустые
+*выражение .* AllowZeroLength
 
 *expression* — переменная, представляющая объект **Field2**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Для объекта, который еще не добавлен в коллекцию **Fields** , это свойство доступно для чтения и записи.
+Для объекта, еще не примежаемого к коллекции **Fields,** это свойство доступно для чтения и записи.
 
-После добавления в коллекцию **Fields** доступность свойства **AllowZeroLength** зависит от объекта, содержащего коллекцию **Fields** , как показано в следующей таблице.
+После этого доступность свойства **AllowZeroLength** зависит от объекта, который содержит коллекцию **Fields,** как показано в следующей таблице. 
 
 <table>
 <colgroup>
@@ -41,8 +41,8 @@ ms.locfileid: "32292911"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Если коллекция Fields принадлежит к элементу</p></th>
-<th><p>То есть пустые строки</p></th>
+<th><p>Если коллекция Fields принадлежит к</p></th>
+<th><p>Then AllowZeroLength is</p></th>
 </tr>
 </thead>
 <tbody>
@@ -70,11 +70,11 @@ ms.locfileid: "32292911"
 </table>
 
 
-Это свойство можно использовать вместе со свойством **[Required](field-required-property-dao.md)**, **[валидатеонсет](field-validateonset-property-dao.md)** или **[ValidationRule](field-validationrule-property-dao.md)** для проверки значения в поле.
+Это свойство можно использовать вместе со свойством **[Required,](field-required-property-dao.md)** **[ValidateOnSet](field-validateonset-property-dao.md)** или **[ValidationRule](field-validationrule-property-dao.md)** для проверки значения в поле.
 
 ## <a name="example"></a>Пример
 
-В этом примере свойство **AllowZeroLength** позволяет пользователю установить значение **field2** в виде пустой строки. В этом случае пользователь может различать записи, в которых неизвестны данные, и запись, в которой данные не применяются.
+В этом примере свойство **AllowZeroLength** позволяет пользователю установить для **поля Field2** пустую строку. В этой ситуации пользователь может различать запись, данные которой неизвестны, и запись, в которой эти данные не применяются.
 
 ```vb
     Sub AllowZeroLengthX() 

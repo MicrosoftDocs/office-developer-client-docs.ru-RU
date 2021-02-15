@@ -1,5 +1,5 @@
 ---
-title: Код HelloData (Справочник по базам данных Access на компьютере)
+title: Код HelloData (справочник по базе данных Access для настольных ПК)
 TOCTitle: HelloData code
 ms:assetid: b413a72a-fb85-177a-2d93-27c2bde935b3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249860(v=office.15)

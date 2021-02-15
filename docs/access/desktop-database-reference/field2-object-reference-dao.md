@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект field2 (DAO)
+title: Field2 object reference (DAO)
 TOCTitle: Field2 Object
 ms:assetid: 1f2fde45-577d-4f53-9652-1307ac038f87
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123963(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292736"
 ---
-# <a name="field2-object-reference-dao"></a>Ссылка на объект field2 (DAO)
+# <a name="field2-object-reference-dao"></a>Field2 object reference (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Элементы field2 (DAO)](field2-members-dao.md)
-- [Методы field2 (DAO)](field2-methods-dao.md)
-- [Объект field2 (DAO)](field2-object-dao.md)
-- [Свойства field2 (DAO)](field2-properties-dao.md)
+- [Члены Field2 (DAO)](field2-members-dao.md)
+- [Методы Field2 (DAO)](field2-methods-dao.md)
+- [Объект Field2 (DAO)](field2-object-dao.md)
+- [Свойства Field2 (DAO)](field2-properties-dao.md)
 
 

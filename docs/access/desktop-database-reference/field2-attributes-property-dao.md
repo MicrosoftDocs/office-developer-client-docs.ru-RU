@@ -1,5 +1,5 @@
 ---
-title: Свойство field2. Attributes (DAO)
+title: Свойство Field2.Attributes (DAO)
 TOCTitle: Attributes Property
 ms:assetid: 08ae9b6b-21e4-9b7e-0852-cfc6639027a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845025(v=office.15)
@@ -18,13 +18,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292890"
 ---
-# <a name="field2attributes-property-dao"></a>Свойство field2. Attributes (DAO)
+# <a name="field2attributes-property-dao"></a>Свойство Field2.Attributes (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
 
-Задает или возвращает значение, которое указывает одну или несколько характеристик объекта **field2** . Для чтения и записи, **Long**.
+Задает или возвращает значение, которое указывает одну или несколько характеристик **объекта Field2.** Для чтения и записи, **Long**.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -32,9 +32,9 @@ ms.locfileid: "32292890"
 
 *expression* — переменная, представляющая объект **Field2**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Значение указывает характеристики поля, представленного объектом **field2** , и может быть сочетанием этих констант.
+Значение указывает характеристики поля, представленного объектом **Field2,** и может быть сочетанием этих констант.
 
 <table>
 <colgroup>
@@ -54,7 +54,7 @@ ms.locfileid: "32292890"
 </tr>
 <tr class="even">
 <td><p><strong>dbDescending</strong></p></td>
-<td><p>Поле сортируется в порядке убывания (от я до A или 100 до 0); Этот параметр применяется только к объекту <strong>field2</strong> в коллекции <strong>Fields</strong> объекта <strong>index</strong> . Если опустить эту константу, поле сортируется в порядке возрастания (от А до Я или от 0 до 100). Это значение по умолчанию для полей <strong>Index</strong> и <strong>TableDef</strong> (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Поле сортироваться по убываю (от Z до A или от 100 до 0); Этот параметр применяется только к объекту <strong>Field2</strong> в коллекции <strong>Fields</strong> объекта <strong>Index.</strong> Если опустить эту константу, поле сортируется в порядке возрастания (от А до Я или от 0 до 100). Это значение по умолчанию для полей <strong>Index</strong> и <strong>TableDef</strong> (только для рабочих областей Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbFixedField</strong></p></td>
@@ -66,7 +66,7 @@ ms.locfileid: "32292890"
 </tr>
 <tr class="odd">
 <td><p><strong>dbSystemField</strong></p></td>
-<td><p>В поле хранятся сведения о репликации для реплик; Вы не можете удалить этот тип поля (только для рабочих областей Microsoft Access).</p></td>
+<td><p>В поле хранится информация о репликах. этот тип поля (только для рабочей области Microsoft Access) удалить нельзя.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbUpdatableField</strong></p></td>
@@ -80,7 +80,7 @@ ms.locfileid: "32292890"
 </table>
 
 
-Для объекта, который еще не добавлен в коллекцию, это свойство предназначено для чтения и записи. Для добавленного объекта **field2** доступность свойства **Attributes** зависит от объекта, содержащего коллекцию **Fields** .
+Для объекта, который еще не добавлен в коллекцию, это свойство предназначено для чтения и записи. Доступность свойства **Attributes** для объекта **Field2** зависит от объекта, который содержит коллекцию **Fields.**
 
 <table>
 <colgroup>
@@ -122,7 +122,7 @@ ms.locfileid: "32292890"
 
 ## <a name="example"></a>Пример
 
-В этом примере показано, как отобразить свойство **Attributes** для объектов **field2**, **relation**и **tabledef** в базе данных Northwind.
+В этом примере отображается свойство **Attributes** для объектов **Field2,** **Relation** и **TableDef** в базе данных Northwind.
 
 ```vb 
 Sub AttributesX() 

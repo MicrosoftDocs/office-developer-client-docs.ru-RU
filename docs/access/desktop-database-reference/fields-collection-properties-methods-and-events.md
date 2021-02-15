@@ -27,7 +27,7 @@ ms.locfileid: "32292554"
 
 - [Метод Append](append-method-ado.md)
 - [Метод CancelUpdate](cancelupdate-method-ado.md)
-- [Метод Delete (коллекция Fields в ADO)](delete-method-ado-fields-collection.md)
+- [Метод Delete (коллекция полей ADO)](delete-method-ado-fields-collection.md)
 - [Метод Refresh](refresh-method-ado.md)
 - [Метод Resync](resync-method-ado.md)
 - [Метод Update](update-method-ado.md)

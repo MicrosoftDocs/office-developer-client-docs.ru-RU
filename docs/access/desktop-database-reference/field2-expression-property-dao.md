@@ -1,5 +1,5 @@
 ---
-title: Свойство field2. Expression (DAO)
+title: Свойство Field2.Expression (DAO)
 TOCTitle: Expression Property
 ms:assetid: 8ae9db2c-7460-5bfc-0dc4-3f87e5ab30ff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197109(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292820"
 ---
-# <a name="field2expression-property-dao"></a>Свойство field2. Expression (DAO)
+# <a name="field2expression-property-dao"></a>Свойство Field2.Expression (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Получает или задает выражение, представляющее формулу для вычисляемого поля. Для чтения и записи, **String**.
+Получает или задает выражение, представляю которое представляет формулу для вычисляемой поля. Для чтения и записи, **String**.
 
 ## <a name="version-information"></a>Сведения о версии
 
@@ -26,17 +26,17 @@ ms.locfileid: "32292820"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Выражение
+*выражение .* Выражение
 
 *expression* — переменная, представляющая объект **Field2**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-В Access 2013 можно создать поля таблицы, которые вычисляют значения. Вычисления могут включать значения из полей в одной и той же таблице, а также встроенные функции Access.
+В Access 2013 можно создавать поля таблиц, вычисляя значения. Вычисления могут включать значения из полей в одной таблице, а также встроенные функции Access.
 
 Вычисление не может включать поля из других таблиц или запросов.
 
-Результаты вычисления доступны только для чтения.
+Результаты вычислений будут только для чтения.
 
 ## <a name="example"></a>Пример
 

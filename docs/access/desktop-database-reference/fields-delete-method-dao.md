@@ -1,5 +1,5 @@
 ---
-title: Метод Fields. Delete (DAO)
+title: Метод Fields.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: a8e249e7-7526-3eff-a5cf-70cab2081970
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821417(v=office.15)
@@ -18,15 +18,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292561"
 ---
-# <a name="fieldsdelete-method-dao"></a>Метод Fields. Delete (DAO)
+# <a name="fieldsdelete-method-dao"></a>Метод Fields.Delete (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Удаляет **[поле](field-object-dao.md)** из коллекции **[Fields](fields-collection-dao.md)** .
+Удаляет поле **[из](field-object-dao.md)** коллекции **[Fields.](fields-collection-dao.md)**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Delete (***имя***)
+*выражение .* ***Delete(Name)***
 
 *выражение*: переменная, представляющая объект **Fields**.
 
@@ -51,16 +51,16 @@ ms.locfileid: "32292561"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Поле, которое требуется удалить.</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Поле для удаления.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Удаление сохраненного объекта выполняется немедленно, но необходимо использовать метод **Refresh** для всех остальных коллекций, на которые могут повлиять изменения структуры базы данных.
+Удаление сохраненного объекта происходит немедленно, но следует использовать метод **Refresh** для любых других коллекций, которые могут быть затронуты изменениями структуры базы данных.
 
 ## <a name="example"></a>Пример
 

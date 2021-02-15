@@ -1,5 +1,5 @@
 ---
-title: Перечисление Фиелдаттрибутинум (DAO)
+title: FieldAttributeEnum enumeration (DAO)
 TOCTitle: FieldAttributeEnum Enumeration
 ms:assetid: 2dc6697c-d3e1-ce76-1b8b-fc60dc6f16a9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192118(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292638"
 ---
-# <a name="fieldattributeenum-enumeration-dao"></a>Перечисление Фиелдаттрибутинум (DAO)
+# <a name="fieldattributeenum-enumeration-dao"></a>FieldAttributeEnum enumeration (DAO)
 
 
 **Область применения**: Access 2013, Office 2013

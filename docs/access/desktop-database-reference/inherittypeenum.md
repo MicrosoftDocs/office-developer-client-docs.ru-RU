@@ -1,5 +1,5 @@
 ---
-title: Инхериттипинум (Справочник по базам данных Access на компьютере)
+title: InheritTypeEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: InheritTypeEnum
 ms:assetid: aa505c66-5871-10a8-35a7-cb30bb5dc21a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249787(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32291416"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, как объекты наследуют разрешения, заданные с помощью [SetPermissions](setpermissions-method-adox.md).
+Указывает, как объекты наследуют разрешения, заданные с [помощью SetPermissions.](setpermissions-method-adox.md)
 
 <br/>
 
@@ -37,29 +37,29 @@ ms.locfileid: "32291416"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адинхеритбос</strong></p></td>
-<td><p>4</p></td>
-<td><p>Записи наследуют оба объекта и других контейнеров, содержащихся в первичном объекте.</p></td>
+<td><p><strong>adInheritBoth</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Объекты и другие контейнеры, содержащиеся в основном объекте, наследуют запись.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адинхеритконтаинерс</strong></p></td>
-<td><p>2</p></td>
-<td><p>Другие контейнеры, которые находятся в основном объекте, наследуют эту запись.</p></td>
+<td><p><strong>adInheritContainers</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Другие контейнеры, содержащиеся в основном объекте, наследуют запись.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адинхеритноне</strong></p></td>
-<td><p>нуль</p></td>
-<td><p>Значение, используемое по умолчанию. Наследование не выполняется.</p></td>
+<td><p><strong>adInheritNone</strong></p></td>
+<td><p>0</p></td>
+<td><p>Значение, используемое по умолчанию. Наследование не происходит.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адинхеритнопропагате</strong></p></td>
+<td><p><strong>adInheritNoPropagate</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Флаги <strong>адинхеритобжектс</strong> и <strong>адинхеритконтаинерс</strong> не распространяются на наследуемую запись.</p></td>
+<td><p>Флаги <strong>adInheritObjects</strong> и <strong>adInheritContainers</strong> не распространяются на унаследованные записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адинхеритобжектс</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Объекты, не являющиеся контейнерами в контейнере, наследуют разрешения.</p></td>
+<td><p><strong>adInheritObjects</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Не контейнерные объекты в контейнере наследуют разрешения.</p></td>
 </tr>
 </tbody>
 </table>

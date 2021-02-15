@@ -1,5 +1,5 @@
 ---
-title: Свойство field2. Аппендонли (DAO)
+title: Свойство Field2.AppendOnly (DAO)
 TOCTitle: AppendOnly Property
 ms:assetid: 4427f3af-6393-0f1c-ecac-017112022583
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193152(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292897"
 ---
-# <a name="field2appendonly-property-dao"></a>Свойство field2. Аппендонли (DAO)
+# <a name="field2appendonly-property-dao"></a>Свойство Field2.AppendOnly (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Получает или задает **логическое** значение, указывающее, задано ли для поля спЦифиед Добавление новых значений к существующему содержимому поля при их добавлении. Для чтения и записи.
+Возвращает или задает значение **boolean,** которое указывает, установлено ли в поле spcified новые значения для существующего содержимого поля при их добавлении. Для чтения и записи.
 
 ## <a name="version-information"></a>Сведения о версии
 
@@ -27,7 +27,7 @@ ms.locfileid: "32292897"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . аппендонли
+*выражение .* AppendOnly
 
 *expression* — переменная, представляющая объект **Field2**.
 

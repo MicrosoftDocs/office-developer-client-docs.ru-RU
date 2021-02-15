@@ -1,5 +1,5 @@
 ---
-title: Элементы indexes (DAO)
+title: Indexes members (DAO)
 TOCTitle: Indexes Members
 ms:assetid: 7b145a20-5cc9-57c3-7c6f-89cebdab7ea2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196191(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291540"
 ---
-# <a name="indexes-members-dao"></a>Элементы indexes (DAO)
+# <a name="indexes-members-dao"></a>Indexes members (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция indexes содержит все хранимые объекты индекса объекта TableDef (только для рабочих областей Microsoft Access).
+Коллекция Indexes содержит все хранимые объекты Индекса объекта TableDef (только для рабочей области Microsoft Access).
 
 ## <a name="methods"></a>Методы
 
@@ -36,16 +36,16 @@ ms.locfileid: "32291540"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="indexes-append-method-dao.md">Error</a></strong></p></td>
-<td><p>Добавляет новый <strong>индекс</strong> в коллекцию <strong>indexes</strong> .</p></td>
+<td><p><strong><a href="indexes-append-method-dao.md">Append</a></strong></p></td>
+<td><p>Добавляет новый <strong>индекс</strong> в коллекцию <strong>Indexes.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="indexes-delete-method-dao.md">Delete</a></strong></p></td>
-<td><p>Удаляет указанный <strong>индекс</strong> из коллекции <strong>индексов</strong> .</p></td>
+<td><p>Удаляет указанный <strong>индекс</strong> из коллекции <strong>Indexes.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="indexes-refresh-method-dao.md">Обновление</a></strong></p></td>
-<td><p>Обновляет объекты в заданном коллетион в соответствии с текущей схемой базы данных.</p></td>
+<td><p><strong><a href="indexes-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "32291540"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="indexes-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает число объектов в указанной коллекции. Только для чтения.</p></td>
+<td><p>Возвращает количество объектов в указанной коллекции. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>
