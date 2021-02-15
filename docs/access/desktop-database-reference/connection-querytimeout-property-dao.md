@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection. QueryTimeout (DAO)
+title: Свойство Connection.QueryTimeout (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: 97853412-d5ae-7a71-ccaa-595c68919654
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197804(v=office.15)
@@ -18,24 +18,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295823"
 ---
-# <a name="connectionquerytimeout-property-dao"></a><span data-ttu-id="6ef33-102">Свойство Connection. QueryTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="6ef33-102">Connection.QueryTimeout property (DAO)</span></span>
+# <a name="connectionquerytimeout-property-dao"></a><span data-ttu-id="d49d2-102">Свойство Connection.QueryTimeout (DAO)</span><span class="sxs-lookup"><span data-stu-id="d49d2-102">Connection.QueryTimeout property (DAO)</span></span>
 
 
-<span data-ttu-id="6ef33-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6ef33-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d49d2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d49d2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6ef33-104">Задает или возвращает значение, задающее время ожидания в секундах до возникновения ошибки времени ожидания при выполнении запроса к источнику данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="6ef33-104">Sets or returns a value that specifies the number of seconds to wait before a timeout error occurs when a query is executed on an ODBC data source.</span></span>
+<span data-ttu-id="d49d2-104">Задает или возвращает значение, которое указывает количество секунд ожидания до возникновения ошибки времени ожидания при выполнении запроса в источнике данных ODBC.</span><span class="sxs-lookup"><span data-stu-id="d49d2-104">Sets or returns a value that specifies the number of seconds to wait before a timeout error occurs when a query is executed on an ODBC data source.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="6ef33-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="6ef33-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="d49d2-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d49d2-105">Syntax</span></span>
 
-<span data-ttu-id="6ef33-106">*Expression* . QueryTimeout</span><span class="sxs-lookup"><span data-stu-id="6ef33-106">*expression* .QueryTimeout</span></span>
+<span data-ttu-id="d49d2-106">*выражение .* QueryTimeout</span><span class="sxs-lookup"><span data-stu-id="d49d2-106">*expression* .QueryTimeout</span></span>
 
-<span data-ttu-id="6ef33-107">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="6ef33-107">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="d49d2-107">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="d49d2-107">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="6ef33-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="6ef33-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d49d2-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="d49d2-108">Remarks</span></span>
 
-<span data-ttu-id="6ef33-109">Значение по умолчанию  60.</span><span class="sxs-lookup"><span data-stu-id="6ef33-109">The default value is 60.</span></span>
+<span data-ttu-id="d49d2-109">Значение по умолчанию  60.</span><span class="sxs-lookup"><span data-stu-id="d49d2-109">The default value is 60.</span></span>
 
-<span data-ttu-id="6ef33-110">При использовании базы данных ODBC, такой как Microsoft SQL Server, могут возникать задержки из-за сетевого трафика или интенсивного использования сервера ODBC.</span><span class="sxs-lookup"><span data-stu-id="6ef33-110">When you're using an ODBC database, such as Microsoft SQL Server, there may be delays due to network traffic or heavy use of the ODBC server.</span></span> <span data-ttu-id="6ef33-111">Вместо неопределенного периода ожидания можно указать время ожидания.</span><span class="sxs-lookup"><span data-stu-id="6ef33-111">Rather than waiting indefinitely, you can specify how long to wait.</span></span>
+<span data-ttu-id="d49d2-110">При использовании базы данных ODBC, например Microsoft SQL Server, могут возникнуть задержки из-за сетевого трафика или интенсивного использования сервера ODBC.</span><span class="sxs-lookup"><span data-stu-id="d49d2-110">When you're using an ODBC database, such as Microsoft SQL Server, there may be delays due to network traffic or heavy use of the ODBC server.</span></span> <span data-ttu-id="d49d2-111">Вместо того чтобы ждать неопределенное время, можно указать время ожидания.</span><span class="sxs-lookup"><span data-stu-id="d49d2-111">Rather than waiting indefinitely, you can specify how long to wait.</span></span>
 
-<span data-ttu-id="6ef33-112">При использовании **QueryTimeOut** с **[подключением](connection-object-dao.md)** или объектом **[базы данных](database-object-dao.md)** он задает глобальное значение для всех запросов, связанных с базой данных.</span><span class="sxs-lookup"><span data-stu-id="6ef33-112">When you use **QueryTimeout** with a **[Connection](connection-object-dao.md)** or **[Database](database-object-dao.md)** object, it specifies a global value for all queries associated with the database.</span></span> <span data-ttu-id="6ef33-113">Вы можете переопределить это значение для определенного запроса, задав свойство **ODBCTimeout** для определенного объекта **[QueryDef](querydef-object-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="6ef33-113">You can override this value for a specific query by setting the **ODBCTimeout** property of the particular **[QueryDef](querydef-object-dao.md)** object.</span></span>
+<span data-ttu-id="d49d2-112">При использовании **QueryTimeout** с объектом **[Connection](connection-object-dao.md)** или **[Database](database-object-dao.md)** указывается глобальное значение для всех запросов, связанных с базой данных.</span><span class="sxs-lookup"><span data-stu-id="d49d2-112">When you use **QueryTimeout** with a **[Connection](connection-object-dao.md)** or **[Database](database-object-dao.md)** object, it specifies a global value for all queries associated with the database.</span></span> <span data-ttu-id="d49d2-113">Это значение можно переопрепредить для определенного запроса, задав свойство **ODBCTimeout** конкретного **[объекта QueryDef.](querydef-object-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="d49d2-113">You can override this value for a specific query by setting the **ODBCTimeout** property of the particular **[QueryDef](querydef-object-dao.md)** object.</span></span>
 

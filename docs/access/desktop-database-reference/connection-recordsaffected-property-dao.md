@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection. Рекордсаффектед (DAO)
+title: Свойство Connection.RecordsAffected (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: abce8e96-9ed4-b162-207f-52605d7af8ee
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821486(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295816"
 ---
-# <a name="connectionrecordsaffected-property-dao"></a><span data-ttu-id="a2a5f-102">Свойство Connection. Рекордсаффектед (DAO)</span><span class="sxs-lookup"><span data-stu-id="a2a5f-102">Connection.RecordsAffected property (DAO)</span></span>
+# <a name="connectionrecordsaffected-property-dao"></a><span data-ttu-id="36dc0-102">Свойство Connection.RecordsAffected (DAO)</span><span class="sxs-lookup"><span data-stu-id="36dc0-102">Connection.RecordsAffected property (DAO)</span></span>
 
 
-<span data-ttu-id="a2a5f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a2a5f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="36dc0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="36dc0-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a2a5f-104">Возвращает число записей, затронутых последним вызванным методом **[EXECUTE](connection-execute-method-dao.md)** .</span><span class="sxs-lookup"><span data-stu-id="a2a5f-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
+<span data-ttu-id="36dc0-104">Возвращает количество записей, затронутых последним вызовом метода **[Execute.](connection-execute-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="36dc0-104">Returns the number of records affected by the most recently invoked **[Execute](connection-execute-method-dao.md)** method.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a2a5f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a2a5f-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="36dc0-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="36dc0-105">Syntax</span></span>
 
-<span data-ttu-id="a2a5f-106">*Expression* . рекордсаффектед</span><span class="sxs-lookup"><span data-stu-id="a2a5f-106">*expression* .RecordsAffected</span></span>
+<span data-ttu-id="36dc0-106">*выражение .* RecordsAffected</span><span class="sxs-lookup"><span data-stu-id="36dc0-106">*expression* .RecordsAffected</span></span>
 
-<span data-ttu-id="a2a5f-107">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="a2a5f-107">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="36dc0-107">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="36dc0-107">*expression* A variable that represents a **Connection** object.</span></span>
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection. Recordsets (DAO)
+title: Свойство Connection.Recordsets (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: 3f8c8932-d404-ef54-a869-f77dc1325794
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192854(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295809"
 ---
-# <a name="connectionrecordsets-property-dao"></a><span data-ttu-id="d4eb8-102">Свойство Connection. Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="d4eb8-102">Connection.Recordsets property (DAO)</span></span>
+# <a name="connectionrecordsets-property-dao"></a><span data-ttu-id="51f22-102">Свойство Connection.Recordsets (DAO)</span><span class="sxs-lookup"><span data-stu-id="51f22-102">Connection.Recordsets property (DAO)</span></span>
 
 
-<span data-ttu-id="d4eb8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4eb8-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="51f22-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51f22-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d4eb8-104">Возвращает коллекцию **Recordset** , содержащую все открытые наборы записей в поле для указанного подключения.</span><span class="sxs-lookup"><span data-stu-id="d4eb8-104">Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified connection.</span></span> <span data-ttu-id="d4eb8-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="d4eb8-105">Read-only.</span></span>
+<span data-ttu-id="51f22-104">Возвращает **коллекцию Recordsets,** которая содержит все открытые наборы записей для указанного подключения.</span><span class="sxs-lookup"><span data-stu-id="51f22-104">Returns a **Recordsets** collection that contains all of the open recordsets in the for the specified connection.</span></span> <span data-ttu-id="51f22-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="51f22-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d4eb8-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d4eb8-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="51f22-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="51f22-106">Syntax</span></span>
 
-<span data-ttu-id="d4eb8-107">*Expression* . Recordsets</span><span class="sxs-lookup"><span data-stu-id="d4eb8-107">*expression* .Recordsets</span></span>
+<span data-ttu-id="51f22-107">*выражение .* Recordsets</span><span class="sxs-lookup"><span data-stu-id="51f22-107">*expression* .Recordsets</span></span>
 
-<span data-ttu-id="d4eb8-108">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="d4eb8-108">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="51f22-108">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="51f22-108">*expression* A variable that represents a **Connection** object.</span></span>
 

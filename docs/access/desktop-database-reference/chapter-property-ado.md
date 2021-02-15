@@ -14,30 +14,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296397"
 ---
-# <a name="chapter-property-ado"></a><span data-ttu-id="51186-102">Свойство Chapter (ADO)</span><span class="sxs-lookup"><span data-stu-id="51186-102">Chapter property (ADO)</span></span>
+# <a name="chapter-property-ado"></a><span data-ttu-id="42184-102">Свойство Chapter (ADO)</span><span class="sxs-lookup"><span data-stu-id="42184-102">Chapter property (ADO)</span></span>
 
-<span data-ttu-id="51186-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="51186-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="42184-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="42184-103">**Applies to**: Access 2013, Office 2013</span></span>
  
-<span data-ttu-id="51186-104">Получает или задает объект **главы** OLE DB from/On объекта **ADORecordsetConstruction** .</span><span class="sxs-lookup"><span data-stu-id="51186-104">Gets or sets an OLE DB **Chapter** object from/on an **ADORecordsetConstruction** object.</span></span> <span data-ttu-id="51186-105">При использовании оператора **Put\_** для установки объекта **Chapter** подмножество строк включается в объект **Recordset** ADO.</span><span class="sxs-lookup"><span data-stu-id="51186-105">When you use **put\_Chapter** to set the **Chapter** object, a subset of rows is turned into an ADO **Recordset** object.</span></span> <span data-ttu-id="51186-106">В этом поле задается текущая глава объекта **набора строк** .</span><span class="sxs-lookup"><span data-stu-id="51186-106">This sets the current chapter of the **Rowset** object.</span></span> <span data-ttu-id="51186-107">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="51186-107">Read/write.</span></span>
+<span data-ttu-id="42184-104">Получает или задает объект главы OLE DB **из/объекта** **ADORecordsetConstruction.**</span><span class="sxs-lookup"><span data-stu-id="42184-104">Gets or sets an OLE DB **Chapter** object from/on an **ADORecordsetConstruction** object.</span></span> <span data-ttu-id="42184-105">При использовании **put \_ Chapter** для применения объекта **Chapter** подмножество строк превращается в объект ADO **Recordset.**</span><span class="sxs-lookup"><span data-stu-id="42184-105">When you use **put\_Chapter** to set the **Chapter** object, a subset of rows is turned into an ADO **Recordset** object.</span></span> <span data-ttu-id="42184-106">Это задает текущую главу объекта **Rowset.**</span><span class="sxs-lookup"><span data-stu-id="42184-106">This sets the current chapter of the **Rowset** object.</span></span> <span data-ttu-id="42184-107">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="42184-107">Read/write.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="51186-108">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="51186-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="42184-108">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="42184-108">Syntax</span></span>
 
-<span data-ttu-id="51186-109">HRESULT Get\_Chapter (\[out, retval\] Long\* плчаптер);</span><span class="sxs-lookup"><span data-stu-id="51186-109">HRESULT get\_Chapter(\[out, retval\] long\* plChapter);</span></span>
+<span data-ttu-id="42184-109">HRESULT get \_ Chapter( \[ out, retval \] long \* plChapter);</span><span class="sxs-lookup"><span data-stu-id="42184-109">HRESULT get\_Chapter(\[out, retval\] long\* plChapter);</span></span>
 
-<span data-ttu-id="51186-110">Раздел HRESULT\_put (\[в\] длинном лчаптер);</span><span class="sxs-lookup"><span data-stu-id="51186-110">HRESULT put\_Chapter(\[in\] long lChapter);</span></span>
+<span data-ttu-id="42184-110">HRESULT put \_ Chapter( \[ in long \] lChapter);</span><span class="sxs-lookup"><span data-stu-id="42184-110">HRESULT put\_Chapter(\[in\] long lChapter);</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="51186-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="51186-111">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="42184-111">Параметры</span><span class="sxs-lookup"><span data-stu-id="42184-111">Parameters</span></span>
 
-|<span data-ttu-id="51186-112">Параметр</span><span class="sxs-lookup"><span data-stu-id="51186-112">Parameter</span></span>|<span data-ttu-id="51186-113">Описание</span><span class="sxs-lookup"><span data-stu-id="51186-113">Description</span></span>|
+|<span data-ttu-id="42184-112">Параметр</span><span class="sxs-lookup"><span data-stu-id="42184-112">Parameter</span></span>|<span data-ttu-id="42184-113">Описание</span><span class="sxs-lookup"><span data-stu-id="42184-113">Description</span></span>|
 |:--------|:----------|
-|<span data-ttu-id="51186-114">*плчаптер*</span><span class="sxs-lookup"><span data-stu-id="51186-114">*plChapter*</span></span> |<span data-ttu-id="51186-115">Указатель на маркер главы.</span><span class="sxs-lookup"><span data-stu-id="51186-115">Pointer to the handle of a chapter.</span></span>|
-|<span data-ttu-id="51186-116">*лчаптер*</span><span class="sxs-lookup"><span data-stu-id="51186-116">*LChapter*</span></span> |<span data-ttu-id="51186-117">Маркер главы.</span><span class="sxs-lookup"><span data-stu-id="51186-117">Handle of a chapter.</span></span>|
+|<span data-ttu-id="42184-114">*plChapter*</span><span class="sxs-lookup"><span data-stu-id="42184-114">*plChapter*</span></span> |<span data-ttu-id="42184-115">Указатель на ладную часть главы.</span><span class="sxs-lookup"><span data-stu-id="42184-115">Pointer to the handle of a chapter.</span></span>|
+|<span data-ttu-id="42184-116">*LChapter*</span><span class="sxs-lookup"><span data-stu-id="42184-116">*LChapter*</span></span> |<span data-ttu-id="42184-117">Обработка главы.</span><span class="sxs-lookup"><span data-stu-id="42184-117">Handle of a chapter.</span></span>|
 
-## <a name="return-values"></a><span data-ttu-id="51186-118">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="51186-118">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="42184-118">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="42184-118">Return values</span></span>
 
-<span data-ttu-id="51186-119">Этот метод свойства возвращает стандартные значения HRESULT, включая S\_ОК и электронную\_ошибку.</span><span class="sxs-lookup"><span data-stu-id="51186-119">This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.</span></span>
+<span data-ttu-id="42184-119">Этот метод свойства возвращает стандартные значения HRESULT, включая S \_ OK и E \_ FAIL.</span><span class="sxs-lookup"><span data-stu-id="42184-119">This property method returns the standard HRESULT values, including S\_OK and E\_FAIL.</span></span>
 
-## <a name="applies-to"></a><span data-ttu-id="51186-120">Применимость</span><span class="sxs-lookup"><span data-stu-id="51186-120">Applies To</span></span>
+## <a name="applies-to"></a><span data-ttu-id="42184-120">Применимость</span><span class="sxs-lookup"><span data-stu-id="42184-120">Applies To</span></span>
 
-[<span data-ttu-id="51186-121">ADORecordsetConstruction</span><span class="sxs-lookup"><span data-stu-id="51186-121">ADORecordsetConstruction</span></span>](adorecordsetconstruction-interface-ado.md)
+[<span data-ttu-id="42184-121">ADORecordsetConstruction</span><span class="sxs-lookup"><span data-stu-id="42184-121">ADORecordsetConstruction</span></span>](adorecordsetconstruction-interface-ado.md)
 

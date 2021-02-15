@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection.Name (DAO)
+title: Connection.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 5f4a95cd-63a3-aedf-df64-793158b2283d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194764(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295886"
 ---
-# <a name="connectionname-property-dao"></a><span data-ttu-id="2b850-102">Свойство Connection.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="2b850-102">Connection.Name property (DAO)</span></span>
+# <a name="connectionname-property-dao"></a><span data-ttu-id="2adce-102">Connection.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="2adce-102">Connection.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="2b850-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2b850-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2adce-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2adce-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2b850-104">Рретурнс имя **[подключения](connection-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="2b850-104">Rreturns the name of a **[Connection](connection-object-dao.md)**.</span></span>
+<span data-ttu-id="2adce-104">Rreturns the name of a **[Connection](connection-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="2adce-104">Rreturns the name of a **[Connection](connection-object-dao.md)**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2b850-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2b850-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="2adce-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2adce-105">Syntax</span></span>
 
-<span data-ttu-id="2b850-106">*Expression* . Расширением</span><span class="sxs-lookup"><span data-stu-id="2b850-106">*expression* .Name</span></span>
+<span data-ttu-id="2adce-106">*выражение .* Имя</span><span class="sxs-lookup"><span data-stu-id="2adce-106">*expression* .Name</span></span>
 
-<span data-ttu-id="2b850-107">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="2b850-107">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="2adce-107">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="2adce-107">*expression* A variable that represents a **Connection** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="2b850-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="2b850-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="2adce-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="2adce-108">Remarks</span></span>
 
-<span data-ttu-id="2b850-109">Можно использовать свойство **Name** объекта с оператором Visual Basic для приложений **Dim** в коде для создания других экземпляров объекта.</span><span class="sxs-lookup"><span data-stu-id="2b850-109">You can use an object's **Name** property with the Visual Basic for Applications **Dim** statement in code to create other instances of the object.</span></span>
+<span data-ttu-id="2adce-109">Вы можете использовать свойство **Name** объекта с Visual Basic для приложений **Dim** в коде для создания других экземпляров объекта.</span><span class="sxs-lookup"><span data-stu-id="2adce-109">You can use an object's **Name** property with the Visual Basic for Applications **Dim** statement in code to create other instances of the object.</span></span>
 

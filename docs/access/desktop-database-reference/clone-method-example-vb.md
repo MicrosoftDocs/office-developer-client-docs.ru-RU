@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296355"
 ---
-# <a name="clone-method-example-vb"></a><span data-ttu-id="d4a65-102">Пример использования метода Clone (VB)</span><span class="sxs-lookup"><span data-stu-id="d4a65-102">Clone method example (VB)</span></span>
+# <a name="clone-method-example-vb"></a><span data-ttu-id="50b91-102">Пример использования метода Clone (VB)</span><span class="sxs-lookup"><span data-stu-id="50b91-102">Clone method example (VB)</span></span>
 
 
-<span data-ttu-id="d4a65-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d4a65-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="50b91-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50b91-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d4a65-104">В этом примере используется метод [Clone](clone-method-ado.md), чтобы создать копии объекта [Recordset](recordset-object-ado.md), после чего пользователь может разместить указатели записей для каждой копии независимо друг от друга.</span><span class="sxs-lookup"><span data-stu-id="d4a65-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
+<span data-ttu-id="50b91-104">В этом примере используется метод [Clone](clone-method-ado.md), чтобы создать копии объекта [Recordset](recordset-object-ado.md), после чего пользователь может разместить указатели записей для каждой копии независимо друг от друга.</span><span class="sxs-lookup"><span data-stu-id="50b91-104">This example uses the [Clone](clone-method-ado.md) method to create copies of a [Recordset](recordset-object-ado.md) and then lets the user position the record pointer of each copy independently.</span></span>
 
 ```vb 
  

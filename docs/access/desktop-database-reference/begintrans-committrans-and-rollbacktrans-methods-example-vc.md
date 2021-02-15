@@ -1,5 +1,5 @@
 ---
-title: Пример методов BeginTrans, CommitTrans и RollbackTrans (VC + +)
+title: Пример методов BeginTrans, CommitTrans и RollbackTrans (VC++)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)
 ms:assetid: b2e53b79-4f10-f9cc-59f7-61c9557e5ef2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249853(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296838"
 ---
-# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a><span data-ttu-id="206a6-102">Пример использования методов BeginTrans, CommitTrans и RollbackTrans (VC++)</span><span class="sxs-lookup"><span data-stu-id="206a6-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)</span></span>
+# <a name="begintrans-committrans-and-rollbacktrans-methods-example-vc"></a><span data-ttu-id="f426c-102">Пример использования методов BeginTrans, CommitTrans и RollbackTrans (VC++)</span><span class="sxs-lookup"><span data-stu-id="f426c-102">BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)</span></span>
 
 
-<span data-ttu-id="206a6-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="206a6-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f426c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f426c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="206a6-104">В этом примере изменяется тип Book всех книг психологии в таблице ***titles*** базы данных.</span><span class="sxs-lookup"><span data-stu-id="206a6-104">This example changes the book type of all psychology books in the ***Titles*** table of the database.</span></span> <span data-ttu-id="206a6-105">После того как метод [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) начинает транзакцию, которая изолирует все изменения, внесенные в таблицу ***titles*** , метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения.</span><span class="sxs-lookup"><span data-stu-id="206a6-105">After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes.</span></span> <span data-ttu-id="206a6-106">Для отмены изменений, сохраненных с помощью метода [Update](update-method-ado.md) , можно использовать метод [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="206a6-106">You can use the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
+<span data-ttu-id="f426c-104">В этом примере изменяется тип книги всех учебников в таблице ***"Заголовки"*** базы данных.</span><span class="sxs-lookup"><span data-stu-id="f426c-104">This example changes the book type of all psychology books in the ***Titles*** table of the database.</span></span> <span data-ttu-id="f426c-105">После того как [метод BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) запускает транзакцию, изолирует все изменения, внесенные в таблицу ***Titles,*** метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения.</span><span class="sxs-lookup"><span data-stu-id="f426c-105">After the [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method starts a transaction that isolates all the changes made to the ***Titles*** table, the [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method saves the changes.</span></span> <span data-ttu-id="f426c-106">С помощью метода [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) можно отменить изменения, сохраненные с помощью [метода Update.](update-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="f426c-106">You can use the [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) method to undo changes that you saved using the [Update](update-method-ado.md) method.</span></span>
 
 ```cpp 
  
@@ -277,7 +277,7 @@ void PrintProviderError(_ConnectionPtr pConnection)
 // EndBeginTransCpp 
 ```
 
-<span data-ttu-id="206a6-107">**Бегинтранскс. h**</span><span class="sxs-lookup"><span data-stu-id="206a6-107">**BeginTransX.h**</span></span>
+<span data-ttu-id="f426c-107">**BeginTransX.h**</span><span class="sxs-lookup"><span data-stu-id="f426c-107">**BeginTransX.h**</span></span>
 
 ```cpp 
  

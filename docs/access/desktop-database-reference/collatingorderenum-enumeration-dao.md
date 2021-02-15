@@ -1,5 +1,5 @@
 ---
-title: Перечисление Коллатингордеренум (DAO)
+title: CollatingOrderEnum enumeration (DAO)
 TOCTitle: CollatingOrderEnum enumeration
 ms:assetid: 4a82ca02-172b-e796-58d8-f263287ef52a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193485(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296264"
 ---
-# <a name="collatingorderenum-enumeration-dao"></a><span data-ttu-id="b46da-102">Перечисление Коллатингордеренум (DAO)</span><span class="sxs-lookup"><span data-stu-id="b46da-102">CollatingOrderEnum enumeration (DAO)</span></span>
+# <a name="collatingorderenum-enumeration-dao"></a><span data-ttu-id="1b570-102">CollatingOrderEnum enumeration (DAO)</span><span class="sxs-lookup"><span data-stu-id="1b570-102">CollatingOrderEnum enumeration (DAO)</span></span>
 
 
-<span data-ttu-id="b46da-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b46da-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1b570-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1b570-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b46da-104">Указывает последовательность порядка сортировки в тексте для сравнения строк или сортировки.</span><span class="sxs-lookup"><span data-stu-id="b46da-104">Specifies the sequence of the sort order in text for string comparison or sorting.</span></span>
+<span data-ttu-id="1b570-104">Указывает последовательность порядка сортировки в тексте для сравнения или сортировки строк.</span><span class="sxs-lookup"><span data-stu-id="1b570-104">Specifies the sequence of the sort order in text for string comparison or sorting.</span></span>
 
 <table>
 <colgroup>
@@ -29,136 +29,136 @@ ms.locfileid: "32296264"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="b46da-105">Имя</span><span class="sxs-lookup"><span data-stu-id="b46da-105">Name</span></span></p></th>
-<th><p><span data-ttu-id="b46da-106">Значение</span><span class="sxs-lookup"><span data-stu-id="b46da-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="b46da-107">Описание</span><span class="sxs-lookup"><span data-stu-id="b46da-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="1b570-105">Имя</span><span class="sxs-lookup"><span data-stu-id="1b570-105">Name</span></span></p></th>
+<th><p><span data-ttu-id="1b570-106">Значение</span><span class="sxs-lookup"><span data-stu-id="1b570-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="1b570-107">Описание</span><span class="sxs-lookup"><span data-stu-id="1b570-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-108">дбсортарабик</span><span class="sxs-lookup"><span data-stu-id="b46da-108">dbSortArabic</span></span></p></td>
-<td><p><span data-ttu-id="b46da-109">1025</span><span class="sxs-lookup"><span data-stu-id="b46da-109">1025</span></span></p></td>
-<td><p><span data-ttu-id="b46da-110">Порядок сортировки для арабского языка</span><span class="sxs-lookup"><span data-stu-id="b46da-110">Arabic collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-108">dbSortArabic</span><span class="sxs-lookup"><span data-stu-id="1b570-108">dbSortArabic</span></span></p></td>
+<td><p><span data-ttu-id="1b570-109">1025</span><span class="sxs-lookup"><span data-stu-id="1b570-109">1025</span></span></p></td>
+<td><p><span data-ttu-id="1b570-110">Арабский порядок выпорядочения</span><span class="sxs-lookup"><span data-stu-id="1b570-110">Arabic collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-111">дбсортчинесесимплифиед</span><span class="sxs-lookup"><span data-stu-id="b46da-111">dbSortChineseSimplified</span></span></p></td>
-<td><p><span data-ttu-id="b46da-112">2052</span><span class="sxs-lookup"><span data-stu-id="b46da-112">2052</span></span></p></td>
-<td><p><span data-ttu-id="b46da-113">Порядок сортировки для упрощенного китайского письма</span><span class="sxs-lookup"><span data-stu-id="b46da-113">Simplified Chinese collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-111">dbSortChineseSimplified</span><span class="sxs-lookup"><span data-stu-id="1b570-111">dbSortChineseSimplified</span></span></p></td>
+<td><p><span data-ttu-id="1b570-112">2052</span><span class="sxs-lookup"><span data-stu-id="1b570-112">2052</span></span></p></td>
+<td><p><span data-ttu-id="1b570-113">Упрощенный порядок порядочения для китайского языка</span><span class="sxs-lookup"><span data-stu-id="1b570-113">Simplified Chinese collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-114">дбсортчинесетрадитионал</span><span class="sxs-lookup"><span data-stu-id="b46da-114">dbSortChineseTraditional</span></span></p></td>
-<td><p><span data-ttu-id="b46da-115">1028</span><span class="sxs-lookup"><span data-stu-id="b46da-115">1028</span></span></p></td>
-<td><p><span data-ttu-id="b46da-116">Порядок сортировки традиционного китайского письма</span><span class="sxs-lookup"><span data-stu-id="b46da-116">Traditional Chinese collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-114">dbSortChineseTraditional</span><span class="sxs-lookup"><span data-stu-id="1b570-114">dbSortChineseTraditional</span></span></p></td>
+<td><p><span data-ttu-id="1b570-115">1028</span><span class="sxs-lookup"><span data-stu-id="1b570-115">1028</span></span></p></td>
+<td><p><span data-ttu-id="1b570-116">Традиционное китайский порядок порядок скомайтации</span><span class="sxs-lookup"><span data-stu-id="1b570-116">Traditional Chinese collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-117">дбсортцириллик</span><span class="sxs-lookup"><span data-stu-id="b46da-117">dbSortCyrillic</span></span></p></td>
-<td><p><span data-ttu-id="b46da-118">1049</span><span class="sxs-lookup"><span data-stu-id="b46da-118">1049</span></span></p></td>
-<td><p><span data-ttu-id="b46da-119">Порядок сортировки на русском языке</span><span class="sxs-lookup"><span data-stu-id="b46da-119">Russian collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-117">dbSortCyrillic</span><span class="sxs-lookup"><span data-stu-id="1b570-117">dbSortCyrillic</span></span></p></td>
+<td><p><span data-ttu-id="1b570-118">1049</span><span class="sxs-lookup"><span data-stu-id="1b570-118">1049</span></span></p></td>
+<td><p><span data-ttu-id="1b570-119">Русский порядок выпорядочения</span><span class="sxs-lookup"><span data-stu-id="1b570-119">Russian collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-120">дбсорткзеч</span><span class="sxs-lookup"><span data-stu-id="b46da-120">dbSortCzech</span></span></p></td>
-<td><p><span data-ttu-id="b46da-121">1029</span><span class="sxs-lookup"><span data-stu-id="b46da-121">1029</span></span></p></td>
-<td><p><span data-ttu-id="b46da-122">Порядок сортировки для чешского языка</span><span class="sxs-lookup"><span data-stu-id="b46da-122">Czech collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-120">dbSortCzech</span><span class="sxs-lookup"><span data-stu-id="1b570-120">dbSortCzech</span></span></p></td>
+<td><p><span data-ttu-id="1b570-121">1029</span><span class="sxs-lookup"><span data-stu-id="1b570-121">1029</span></span></p></td>
+<td><p><span data-ttu-id="1b570-122">Порядок порядочения для чешских ок</span><span class="sxs-lookup"><span data-stu-id="1b570-122">Czech collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-123">дбсортдутч</span><span class="sxs-lookup"><span data-stu-id="b46da-123">dbSortDutch</span></span></p></td>
-<td><p><span data-ttu-id="b46da-124">1043</span><span class="sxs-lookup"><span data-stu-id="b46da-124">1043</span></span></p></td>
-<td><p><span data-ttu-id="b46da-125">Порядок сортировки для нидерландского языка</span><span class="sxs-lookup"><span data-stu-id="b46da-125">Dutch collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-123">dbSortDutch</span><span class="sxs-lookup"><span data-stu-id="1b570-123">dbSortDutch</span></span></p></td>
+<td><p><span data-ttu-id="1b570-124">1043</span><span class="sxs-lookup"><span data-stu-id="1b570-124">1043</span></span></p></td>
+<td><p><span data-ttu-id="1b570-125">Порядок выпорядочения на нидерландском языке</span><span class="sxs-lookup"><span data-stu-id="1b570-125">Dutch collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-126">дбсортженерал</span><span class="sxs-lookup"><span data-stu-id="b46da-126">dbSortGeneral</span></span></p></td>
-<td><p><span data-ttu-id="b46da-127">1033</span><span class="sxs-lookup"><span data-stu-id="b46da-127">1033</span></span></p></td>
-<td><p><span data-ttu-id="b46da-128">Порядок сортировки на английском, немецком, французском и португальском языках</span><span class="sxs-lookup"><span data-stu-id="b46da-128">English, German, French, and Portuguese collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-126">dbSortGeneral</span><span class="sxs-lookup"><span data-stu-id="1b570-126">dbSortGeneral</span></span></p></td>
+<td><p><span data-ttu-id="1b570-127">1033</span><span class="sxs-lookup"><span data-stu-id="1b570-127">1033</span></span></p></td>
+<td><p><span data-ttu-id="1b570-128">Английский, немецкий, французский и португальский порядок выпорядочения</span><span class="sxs-lookup"><span data-stu-id="1b570-128">English, German, French, and Portuguese collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-129">дбсортгрик</span><span class="sxs-lookup"><span data-stu-id="b46da-129">dbSortGreek</span></span></p></td>
-<td><p><span data-ttu-id="b46da-130">1032</span><span class="sxs-lookup"><span data-stu-id="b46da-130">1032</span></span></p></td>
-<td><p><span data-ttu-id="b46da-131">Порядок сортировки в греческом языке</span><span class="sxs-lookup"><span data-stu-id="b46da-131">Greek collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-129">dbSortGreek</span><span class="sxs-lookup"><span data-stu-id="1b570-129">dbSortGreek</span></span></p></td>
+<td><p><span data-ttu-id="1b570-130">1032</span><span class="sxs-lookup"><span data-stu-id="1b570-130">1032</span></span></p></td>
+<td><p><span data-ttu-id="1b570-131">Греческий порядок порядочения</span><span class="sxs-lookup"><span data-stu-id="1b570-131">Greek collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-132">дбсорсебрев</span><span class="sxs-lookup"><span data-stu-id="b46da-132">dbSortHebrew</span></span></p></td>
-<td><p><span data-ttu-id="b46da-133">1037</span><span class="sxs-lookup"><span data-stu-id="b46da-133">1037</span></span></p></td>
-<td><p><span data-ttu-id="b46da-134">Порядок сортировки на иврите</span><span class="sxs-lookup"><span data-stu-id="b46da-134">Hebrew collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-132">dbSortHebrew</span><span class="sxs-lookup"><span data-stu-id="1b570-132">dbSortHebrew</span></span></p></td>
+<td><p><span data-ttu-id="1b570-133">1037</span><span class="sxs-lookup"><span data-stu-id="1b570-133">1037</span></span></p></td>
+<td><p><span data-ttu-id="1b570-134">Порядок выверки иврита</span><span class="sxs-lookup"><span data-stu-id="1b570-134">Hebrew collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-135">дбсорсунгариан</span><span class="sxs-lookup"><span data-stu-id="b46da-135">dbSortHungarian</span></span></p></td>
-<td><p><span data-ttu-id="b46da-136">1038</span><span class="sxs-lookup"><span data-stu-id="b46da-136">1038</span></span></p></td>
-<td><p><span data-ttu-id="b46da-137">Венгерский порядок сортировки</span><span class="sxs-lookup"><span data-stu-id="b46da-137">Hungarian collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-135">dbSortHungung</span><span class="sxs-lookup"><span data-stu-id="1b570-135">dbSortHungarian</span></span></p></td>
+<td><p><span data-ttu-id="1b570-136">1038</span><span class="sxs-lookup"><span data-stu-id="1b570-136">1038</span></span></p></td>
+<td><p><span data-ttu-id="1b570-137">Венгерский порядок выпорядочения</span><span class="sxs-lookup"><span data-stu-id="1b570-137">Hungarian collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-138">дбсортицеландик</span><span class="sxs-lookup"><span data-stu-id="b46da-138">dbSortIcelandic</span></span></p></td>
-<td><p><span data-ttu-id="b46da-139">1039</span><span class="sxs-lookup"><span data-stu-id="b46da-139">1039</span></span></p></td>
-<td><p><span data-ttu-id="b46da-140">Порядок сортировки в Исландский</span><span class="sxs-lookup"><span data-stu-id="b46da-140">Icelandic collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-138">dbSortIcelandic</span><span class="sxs-lookup"><span data-stu-id="1b570-138">dbSortIcelandic</span></span></p></td>
+<td><p><span data-ttu-id="1b570-139">1039</span><span class="sxs-lookup"><span data-stu-id="1b570-139">1039</span></span></p></td>
+<td><p><span data-ttu-id="1b570-140">Исландский порядок скомайтации</span><span class="sxs-lookup"><span data-stu-id="1b570-140">Icelandic collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-141">дбсортжапанесе</span><span class="sxs-lookup"><span data-stu-id="b46da-141">dbSortJapanese</span></span></p></td>
-<td><p><span data-ttu-id="b46da-142">1041</span><span class="sxs-lookup"><span data-stu-id="b46da-142">1041</span></span></p></td>
-<td><p><span data-ttu-id="b46da-143">Порядок сортировки на японском языке</span><span class="sxs-lookup"><span data-stu-id="b46da-143">Japanese collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-141">dbSortJapanese</span><span class="sxs-lookup"><span data-stu-id="1b570-141">dbSortJapanese</span></span></p></td>
+<td><p><span data-ttu-id="1b570-142">1041</span><span class="sxs-lookup"><span data-stu-id="1b570-142">1041</span></span></p></td>
+<td><p><span data-ttu-id="1b570-143">Порядок скомпоновки на японском языке</span><span class="sxs-lookup"><span data-stu-id="1b570-143">Japanese collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-144">дбсорткореан</span><span class="sxs-lookup"><span data-stu-id="b46da-144">dbSortKorean</span></span></p></td>
-<td><p><span data-ttu-id="b46da-145">1042</span><span class="sxs-lookup"><span data-stu-id="b46da-145">1042</span></span></p></td>
-<td><p><span data-ttu-id="b46da-146">Порядок сортировки для корейского языка</span><span class="sxs-lookup"><span data-stu-id="b46da-146">Korean collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-144">dbSortKorean</span><span class="sxs-lookup"><span data-stu-id="1b570-144">dbSortKorean</span></span></p></td>
+<td><p><span data-ttu-id="1b570-145">1042</span><span class="sxs-lookup"><span data-stu-id="1b570-145">1042</span></span></p></td>
+<td><p><span data-ttu-id="1b570-146">Корейский порядок collating</span><span class="sxs-lookup"><span data-stu-id="1b570-146">Korean collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-147">дбсортнеутрал</span><span class="sxs-lookup"><span data-stu-id="b46da-147">dbSortNeutral</span></span></p></td>
-<td><p><span data-ttu-id="b46da-148">1024</span><span class="sxs-lookup"><span data-stu-id="b46da-148">1024</span></span></p></td>
-<td><p><span data-ttu-id="b46da-149">Нейтральный порядок сортировки</span><span class="sxs-lookup"><span data-stu-id="b46da-149">Neutral collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-147">dbSortNeutral</span><span class="sxs-lookup"><span data-stu-id="1b570-147">dbSortNeutral</span></span></p></td>
+<td><p><span data-ttu-id="1b570-148">1024</span><span class="sxs-lookup"><span data-stu-id="1b570-148">1024</span></span></p></td>
+<td><p><span data-ttu-id="1b570-149">Нейтральный порядок совме-ства</span><span class="sxs-lookup"><span data-stu-id="1b570-149">Neutral collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-150">дбсортнорвдан</span><span class="sxs-lookup"><span data-stu-id="b46da-150">dbSortNorwdan</span></span></p></td>
-<td><p><span data-ttu-id="b46da-151">1030</span><span class="sxs-lookup"><span data-stu-id="b46da-151">1030</span></span></p></td>
-<td><p><span data-ttu-id="b46da-152">Порядок сортировки на норвежском и датском языке</span><span class="sxs-lookup"><span data-stu-id="b46da-152">Norwegian and Danish collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-150">dbSortNorw де</span><span class="sxs-lookup"><span data-stu-id="1b570-150">dbSortNorwdan</span></span></p></td>
+<td><p><span data-ttu-id="1b570-151">1030</span><span class="sxs-lookup"><span data-stu-id="1b570-151">1030</span></span></p></td>
+<td><p><span data-ttu-id="1b570-152">Порядок выпорядочения на норвежском и датском языке</span><span class="sxs-lookup"><span data-stu-id="1b570-152">Norwegian and Danish collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-153">дбсортпдксинтл</span><span class="sxs-lookup"><span data-stu-id="b46da-153">dbSortPDXIntl</span></span></p></td>
-<td><p><span data-ttu-id="b46da-154">1033</span><span class="sxs-lookup"><span data-stu-id="b46da-154">1033</span></span></p></td>
-<td><p><span data-ttu-id="b46da-155">Порядок сортировки на международном уровне Paradox</span><span class="sxs-lookup"><span data-stu-id="b46da-155">Paradox international collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-153">dbSortPDXIntl</span><span class="sxs-lookup"><span data-stu-id="1b570-153">dbSortPDXIntl</span></span></p></td>
+<td><p><span data-ttu-id="1b570-154">1033</span><span class="sxs-lookup"><span data-stu-id="1b570-154">1033</span></span></p></td>
+<td><p><span data-ttu-id="1b570-155">Порядок международных ском уровней в "Paradox"</span><span class="sxs-lookup"><span data-stu-id="1b570-155">Paradox international collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-156">дбсортпдкснор</span><span class="sxs-lookup"><span data-stu-id="b46da-156">dbSortPDXNor</span></span></p></td>
-<td><p><span data-ttu-id="b46da-157">1030</span><span class="sxs-lookup"><span data-stu-id="b46da-157">1030</span></span></p></td>
-<td><p><span data-ttu-id="b46da-158">Порядок сортировки Paradox (норвежский и датский)</span><span class="sxs-lookup"><span data-stu-id="b46da-158">Paradox Norwegian and Danish collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-156">dbSortPDXNor</span><span class="sxs-lookup"><span data-stu-id="1b570-156">dbSortPDXNor</span></span></p></td>
+<td><p><span data-ttu-id="1b570-157">1030</span><span class="sxs-lookup"><span data-stu-id="1b570-157">1030</span></span></p></td>
+<td><p><span data-ttu-id="1b570-158">Порядок выпорядочения на норвежском и датском норвежском языке</span><span class="sxs-lookup"><span data-stu-id="1b570-158">Paradox Norwegian and Danish collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-159">дбсортпдкссве</span><span class="sxs-lookup"><span data-stu-id="b46da-159">dbSortPDXSwe</span></span></p></td>
-<td><p><span data-ttu-id="b46da-160">1053</span><span class="sxs-lookup"><span data-stu-id="b46da-160">1053</span></span></p></td>
-<td><p><span data-ttu-id="b46da-161">Порядок сортировки Paradox шведский и финский</span><span class="sxs-lookup"><span data-stu-id="b46da-161">Paradox Swedish and Finnish collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-159">dbSortPDXSwe</span><span class="sxs-lookup"><span data-stu-id="1b570-159">dbSortPDXSwe</span></span></p></td>
+<td><p><span data-ttu-id="1b570-160">1053</span><span class="sxs-lookup"><span data-stu-id="1b570-160">1053</span></span></p></td>
+<td><p><span data-ttu-id="1b570-161">Порядки совмещений между шведским и финским языками</span><span class="sxs-lookup"><span data-stu-id="1b570-161">Paradox Swedish and Finnish collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-162">дбсортполиш</span><span class="sxs-lookup"><span data-stu-id="b46da-162">dbSortPolish</span></span></p></td>
-<td><p><span data-ttu-id="b46da-163">1045</span><span class="sxs-lookup"><span data-stu-id="b46da-163">1045</span></span></p></td>
-<td><p><span data-ttu-id="b46da-164">Порядок сортировки для польского языка</span><span class="sxs-lookup"><span data-stu-id="b46da-164">Polish collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-162">dbSort Дефис</span><span class="sxs-lookup"><span data-stu-id="1b570-162">dbSortPolish</span></span></p></td>
+<td><p><span data-ttu-id="1b570-163">1045</span><span class="sxs-lookup"><span data-stu-id="1b570-163">1045</span></span></p></td>
+<td><p><span data-ttu-id="1b570-164">Польский порядок выпорядочения</span><span class="sxs-lookup"><span data-stu-id="1b570-164">Polish collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-165">дбсортсловениан</span><span class="sxs-lookup"><span data-stu-id="b46da-165">dbSortSlovenian</span></span></p></td>
-<td><p><span data-ttu-id="b46da-166">1060</span><span class="sxs-lookup"><span data-stu-id="b46da-166">1060</span></span></p></td>
-<td><p><span data-ttu-id="b46da-167">Порядок сортировки для словенского языка</span><span class="sxs-lookup"><span data-stu-id="b46da-167">Slovenian collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-165">dbSortSlovenian</span><span class="sxs-lookup"><span data-stu-id="1b570-165">dbSortSlovenian</span></span></p></td>
+<td><p><span data-ttu-id="1b570-166">1060</span><span class="sxs-lookup"><span data-stu-id="1b570-166">1060</span></span></p></td>
+<td><p><span data-ttu-id="1b570-167">Словенский порядок скомнительных порядок</span><span class="sxs-lookup"><span data-stu-id="1b570-167">Slovenian collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-168">дбсортспаниш</span><span class="sxs-lookup"><span data-stu-id="b46da-168">dbSortSpanish</span></span></p></td>
-<td><p><span data-ttu-id="b46da-169">1034</span><span class="sxs-lookup"><span data-stu-id="b46da-169">1034</span></span></p></td>
-<td><p><span data-ttu-id="b46da-170">Порядок сортировки на испанском языке</span><span class="sxs-lookup"><span data-stu-id="b46da-170">Spanish collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-168">dbSortSpanish</span><span class="sxs-lookup"><span data-stu-id="1b570-168">dbSortSpanish</span></span></p></td>
+<td><p><span data-ttu-id="1b570-169">1034</span><span class="sxs-lookup"><span data-stu-id="1b570-169">1034</span></span></p></td>
+<td><p><span data-ttu-id="1b570-170">Испанский порядок выпорядочения</span><span class="sxs-lookup"><span data-stu-id="1b570-170">Spanish collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-171">дбсортсведфин</span><span class="sxs-lookup"><span data-stu-id="b46da-171">dbSortSwedFin</span></span></p></td>
-<td><p><span data-ttu-id="b46da-172">1053</span><span class="sxs-lookup"><span data-stu-id="b46da-172">1053</span></span></p></td>
-<td><p><span data-ttu-id="b46da-173">Порядок сортировки для шведского и финского языка</span><span class="sxs-lookup"><span data-stu-id="b46da-173">Swedish and Finnish collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-171">dbSortSwedFin</span><span class="sxs-lookup"><span data-stu-id="1b570-171">dbSortSwedFin</span></span></p></td>
+<td><p><span data-ttu-id="1b570-172">1053</span><span class="sxs-lookup"><span data-stu-id="1b570-172">1053</span></span></p></td>
+<td><p><span data-ttu-id="1b570-173">Порядок выпорядочения для шведских и финских</span><span class="sxs-lookup"><span data-stu-id="1b570-173">Swedish and Finnish collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-174">дбсортсаи</span><span class="sxs-lookup"><span data-stu-id="b46da-174">dbSortThai</span></span></p></td>
-<td><p><span data-ttu-id="b46da-175">1054</span><span class="sxs-lookup"><span data-stu-id="b46da-175">1054</span></span></p></td>
-<td><p><span data-ttu-id="b46da-176">Порядок сортировки для тайского языка</span><span class="sxs-lookup"><span data-stu-id="b46da-176">Thai collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-174">dbSortThai</span><span class="sxs-lookup"><span data-stu-id="1b570-174">dbSortThai</span></span></p></td>
+<td><p><span data-ttu-id="1b570-175">1054</span><span class="sxs-lookup"><span data-stu-id="1b570-175">1054</span></span></p></td>
+<td><p><span data-ttu-id="1b570-176">Тайский порядок скомайтации</span><span class="sxs-lookup"><span data-stu-id="1b570-176">Thai collating order</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="b46da-177">дбсорттуркиш</span><span class="sxs-lookup"><span data-stu-id="b46da-177">dbSortTurkish</span></span></p></td>
-<td><p><span data-ttu-id="b46da-178">1055</span><span class="sxs-lookup"><span data-stu-id="b46da-178">1055</span></span></p></td>
-<td><p><span data-ttu-id="b46da-179">Порядок сортировки для турецкого языка</span><span class="sxs-lookup"><span data-stu-id="b46da-179">Turkish collating order</span></span></p></td>
+<td><p><span data-ttu-id="1b570-177">dbSortTurkish</span><span class="sxs-lookup"><span data-stu-id="1b570-177">dbSortTurkish</span></span></p></td>
+<td><p><span data-ttu-id="1b570-178">1055</span><span class="sxs-lookup"><span data-stu-id="1b570-178">1055</span></span></p></td>
+<td><p><span data-ttu-id="1b570-179">Порядок порядочения для турецких окна</span><span class="sxs-lookup"><span data-stu-id="1b570-179">Turkish collating order</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="b46da-180">дбсортундефинед</span><span class="sxs-lookup"><span data-stu-id="b46da-180">dbSortUndefined</span></span></p></td>
-<td><p><span data-ttu-id="b46da-181">–1</span><span class="sxs-lookup"><span data-stu-id="b46da-181">-1</span></span></p></td>
-<td><p><span data-ttu-id="b46da-182">Порядок сортировки не определен или неизвестен</span><span class="sxs-lookup"><span data-stu-id="b46da-182">Collating order undefined or unknown</span></span></p></td>
+<td><p><span data-ttu-id="1b570-180">dbSortUndefined</span><span class="sxs-lookup"><span data-stu-id="1b570-180">dbSortUndefined</span></span></p></td>
+<td><p><span data-ttu-id="1b570-181">–1</span><span class="sxs-lookup"><span data-stu-id="1b570-181">-1</span></span></p></td>
+<td><p><span data-ttu-id="1b570-182">Порядок collating undefined или unknown</span><span class="sxs-lookup"><span data-stu-id="1b570-182">Collating order undefined or unknown</span></span></p></td>
 </tr>
 </tbody>
 </table>

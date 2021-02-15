@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296110"
 ---
-# <a name="comment-macro-statement"></a><span data-ttu-id="d6b57-102">Оператор макроса Comment</span><span class="sxs-lookup"><span data-stu-id="d6b57-102">Comment macro statement</span></span>
+# <a name="comment-macro-statement"></a><span data-ttu-id="dc91e-102">Оператор макроса Comment</span><span class="sxs-lookup"><span data-stu-id="dc91e-102">Comment macro statement</span></span>
 
 
-<span data-ttu-id="d6b57-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6b57-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dc91e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dc91e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="d6b57-104">Оператор **comment** можно использовать для предоставления пояснительных примечаний в макросе.</span><span class="sxs-lookup"><span data-stu-id="d6b57-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span>
+<span data-ttu-id="dc91e-104">Заявление **Comment** можно использовать для предоставления пояснительных комментариев в макросах.</span><span class="sxs-lookup"><span data-stu-id="dc91e-104">The **Comment** statement can be used to provide explanatory remarks in a macro.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d6b57-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="d6b57-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dc91e-105">Заметки</span><span class="sxs-lookup"><span data-stu-id="dc91e-105">Remarks</span></span>
 
-<span data-ttu-id="d6b57-106">Длина **комментария** может доставлять до 1000 символов.</span><span class="sxs-lookup"><span data-stu-id="d6b57-106">A **Comment** may be up to 1000 characters in length.</span></span> <span data-ttu-id="d6b57-107">Однако по умолчанию отображается только первая строка комментария.</span><span class="sxs-lookup"><span data-stu-id="d6b57-107">However, by default, only the first line of the comment is displayed.</span></span>
+<span data-ttu-id="dc91e-106">Длина **комментария** может быть не более 1000 символов.</span><span class="sxs-lookup"><span data-stu-id="dc91e-106">A **Comment** may be up to 1000 characters in length.</span></span> <span data-ttu-id="dc91e-107">Однако по умолчанию отображается только первая строка комментария.</span><span class="sxs-lookup"><span data-stu-id="dc91e-107">However, by default, only the first line of the comment is displayed.</span></span>
 

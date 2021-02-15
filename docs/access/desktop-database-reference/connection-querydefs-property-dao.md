@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection. QueryDefs (DAO)
+title: Свойство Connection.QueryDefs (DAO)
 TOCTitle: QueryDefs Property
 ms:assetid: b7a8bee1-fd24-32c6-ccba-abf25b879c9e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822426(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295837"
 ---
-# <a name="connectionquerydefs-property-dao"></a><span data-ttu-id="a3ecf-102">Свойство Connection. QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="a3ecf-102">Connection.QueryDefs property (DAO)</span></span>
+# <a name="connectionquerydefs-property-dao"></a><span data-ttu-id="e0155-102">Свойство Connection.QueryDefs (DAO)</span><span class="sxs-lookup"><span data-stu-id="e0155-102">Connection.QueryDefs property (DAO)</span></span>
 
 
-<span data-ttu-id="a3ecf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a3ecf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e0155-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0155-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="a3ecf-104">Возвращает коллекцию **QueryDef** , содержащую все объекты **QueryDef** указанного подключения.</span><span class="sxs-lookup"><span data-stu-id="a3ecf-104">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified connection.</span></span> <span data-ttu-id="a3ecf-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="a3ecf-105">Read-only.</span></span>
+<span data-ttu-id="e0155-104">Возвращает **коллекцию QueryDefs,** которая содержит все объекты **QueryDef** указанного подключения.</span><span class="sxs-lookup"><span data-stu-id="e0155-104">Returns a **QueryDefs** collection that contains all of the **QueryDef** objects of the specified connection.</span></span> <span data-ttu-id="e0155-105">Только для чтения.</span><span class="sxs-lookup"><span data-stu-id="e0155-105">Read-only.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="a3ecf-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a3ecf-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e0155-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e0155-106">Syntax</span></span>
 
-<span data-ttu-id="a3ecf-107">*Expression* . QueryDefs</span><span class="sxs-lookup"><span data-stu-id="a3ecf-107">*expression* .QueryDefs</span></span>
+<span data-ttu-id="e0155-107">*выражение .* QueryDefs</span><span class="sxs-lookup"><span data-stu-id="e0155-107">*expression* .QueryDefs</span></span>
 
-<span data-ttu-id="a3ecf-108">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="a3ecf-108">*expression* A variable that represents a **Connection** object.</span></span>
+<span data-ttu-id="e0155-108">*выражение*: переменная, представляющая объект **Connection**.</span><span class="sxs-lookup"><span data-stu-id="e0155-108">*expression* A variable that represents a **Connection** object.</span></span>
 

@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295977"
 ---
-# <a name="configuring-virtual-servers-on-iis"></a><span data-ttu-id="36f29-102">Настройка виртуальных серверов в IIS</span><span class="sxs-lookup"><span data-stu-id="36f29-102">Configuring virtual servers on IIS</span></span>
+# <a name="configuring-virtual-servers-on-iis"></a><span data-ttu-id="30c59-102">Настройка виртуальных серверов в IIS</span><span class="sxs-lookup"><span data-stu-id="30c59-102">Configuring virtual servers on IIS</span></span>
 
-<span data-ttu-id="36f29-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="36f29-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="30c59-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="30c59-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="36f29-104">При создании виртуальных серверов в службах IIS 4,0 необходимо выполнить следующие два действия, чтобы настроить виртуальный сервер для работы с RDS:</span><span class="sxs-lookup"><span data-stu-id="36f29-104">When creating virtual servers in Internet Information Services 4.0, the following two extra steps are needed in order to configure the virtual server to work with RDS:</span></span>
+<span data-ttu-id="30c59-104">Чтобы настроить виртуальный сервер для работы с RDS, при создании виртуальных серверов в службах Internet Information Services 4.0 необходимо два дополнительных действия:</span><span class="sxs-lookup"><span data-stu-id="30c59-104">When creating virtual servers in Internet Information Services 4.0, the following two extra steps are needed in order to configure the virtual server to work with RDS:</span></span>
 
-1.  <span data-ttu-id="36f29-105">При настройке сервера установите флажок "разрешить выполнение доступа".</span><span class="sxs-lookup"><span data-stu-id="36f29-105">When setting up the server, check "Allow Execute Access."</span></span>
+1.  <span data-ttu-id="30c59-105">При настройке сервера проверьте "Разрешить выполнение доступа".</span><span class="sxs-lookup"><span data-stu-id="30c59-105">When setting up the server, check "Allow Execute Access."</span></span>
 
-2.  <span data-ttu-id="36f29-106">Переместите мсадкс. dll в *VRoot*\\MSADC, где *VRoot* — это домашний каталог виртуального сервера.</span><span class="sxs-lookup"><span data-stu-id="36f29-106">Move msadcs.dll to *vroot*\\msadc, where *vroot* is the home directory of your virtual server.</span></span>
+2.  <span data-ttu-id="30c59-106">Переместите msadcs.dll *в vroot* \\ msadc, где *vroot* — это домашний каталог виртуального сервера.</span><span class="sxs-lookup"><span data-stu-id="30c59-106">Move msadcs.dll to *vroot*\\msadc, where *vroot* is the home directory of your virtual server.</span></span>
 

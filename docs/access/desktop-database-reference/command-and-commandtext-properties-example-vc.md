@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296180"
 ---
-# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="67dd1-102">Пример использования свойств Command и CommandText (VC++)</span><span class="sxs-lookup"><span data-stu-id="67dd1-102">Command and CommandText properties example (VC++)</span></span>
+# <a name="command-and-commandtext-properties-example-vc"></a><span data-ttu-id="aabb8-102">Пример использования свойств Command и CommandText (VC++)</span><span class="sxs-lookup"><span data-stu-id="aabb8-102">Command and CommandText properties example (VC++)</span></span>
 
 
-<span data-ttu-id="67dd1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="67dd1-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="aabb8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="aabb8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="67dd1-104">В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) для обновления текста процедуры.</span><span class="sxs-lookup"><span data-stu-id="67dd1-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
+<span data-ttu-id="aabb8-104">В следующем коде показано, как использовать свойство [Command](command-property-adox.md) для обновления текста процедуры.</span><span class="sxs-lookup"><span data-stu-id="aabb8-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a procedure.</span></span>
 
 ```cpp 
  

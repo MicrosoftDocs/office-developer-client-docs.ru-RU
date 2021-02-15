@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296971"
 ---
-# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="2e42b-102">Пример использования свойств Attributes и Name (VJ++)</span><span class="sxs-lookup"><span data-stu-id="2e42b-102">Attributes and Name properties example (VJ++)</span></span>
+# <a name="attributes-and-name-properties-example-vj"></a><span data-ttu-id="e4cbc-102">Пример использования свойств Attributes и Name (VJ++)</span><span class="sxs-lookup"><span data-stu-id="e4cbc-102">Attributes and Name properties example (VJ++)</span></span>
 
 
-<span data-ttu-id="2e42b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2e42b-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e4cbc-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e4cbc-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2e42b-104">В этом примере отображается значение свойства [Attributes](attributes-property-ado.md) для объектов [Connection](connection-object-ado.md), [field](field-object-ado.md)и [Property](property-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="2e42b-104">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects.</span></span> <span data-ttu-id="2e42b-105">Свойство [Name](name-property-ado.md) используется для отображения имени каждого **поля** и объекта **Property** .</span><span class="sxs-lookup"><span data-stu-id="2e42b-105">It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
+<span data-ttu-id="e4cbc-104">В этом примере отображается значение свойства [Attributes](attributes-property-ado.md) для объектов [Connection,](connection-object-ado.md) [Field](field-object-ado.md)и [Property.](property-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="e4cbc-104">This example displays the value of the [Attributes](attributes-property-ado.md) property for [Connection](connection-object-ado.md), [Field](field-object-ado.md), and [Property](property-object-ado.md) objects.</span></span> <span data-ttu-id="e4cbc-105">Свойство [Name](name-property-ado.md) используется для отображения имени каждого объекта **Field** и **Property.**</span><span class="sxs-lookup"><span data-stu-id="e4cbc-105">It uses the [Name](name-property-ado.md) property to display the name of each **Field** and **Property** object.</span></span>
 
 ```java 
  
