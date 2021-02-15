@@ -1,5 +1,5 @@
 ---
-title: Перечисление Коллатингордеренум (DAO)
+title: CollatingOrderEnum enumeration (DAO)
 TOCTitle: CollatingOrderEnum enumeration
 ms:assetid: 4a82ca02-172b-e796-58d8-f263287ef52a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193485(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296264"
 ---
-# <a name="collatingorderenum-enumeration-dao"></a>Перечисление Коллатингордеренум (DAO)
+# <a name="collatingorderenum-enumeration-dao"></a>CollatingOrderEnum enumeration (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает последовательность порядка сортировки в тексте для сравнения строк или сортировки.
+Указывает последовательность порядка сортировки в тексте для сравнения или сортировки строк.
 
 <table>
 <colgroup>
@@ -36,129 +36,129 @@ ms.locfileid: "32296264"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>дбсортарабик</p></td>
+<td><p>dbSortArabic</p></td>
 <td><p>1025</p></td>
-<td><p>Порядок сортировки для арабского языка</p></td>
+<td><p>Арабский порядок выпорядочения</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсортчинесесимплифиед</p></td>
+<td><p>dbSortChineseSimplified</p></td>
 <td><p>2052</p></td>
-<td><p>Порядок сортировки для упрощенного китайского письма</p></td>
+<td><p>Упрощенный порядок порядочения для китайского языка</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсортчинесетрадитионал</p></td>
+<td><p>dbSortChineseTraditional</p></td>
 <td><p>1028</p></td>
-<td><p>Порядок сортировки традиционного китайского письма</p></td>
+<td><p>Традиционное китайский порядок порядок скомайтации</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсортцириллик</p></td>
+<td><p>dbSortCyrillic</p></td>
 <td><p>1049</p></td>
-<td><p>Порядок сортировки на русском языке</p></td>
+<td><p>Русский порядок выпорядочения</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсорткзеч</p></td>
+<td><p>dbSortCzech</p></td>
 <td><p>1029</p></td>
-<td><p>Порядок сортировки для чешского языка</p></td>
+<td><p>Порядок порядочения для чешских ок</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсортдутч</p></td>
+<td><p>dbSortDutch</p></td>
 <td><p>1043</p></td>
-<td><p>Порядок сортировки для нидерландского языка</p></td>
+<td><p>Порядок выпорядочения на нидерландском языке</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсортженерал</p></td>
+<td><p>dbSortGeneral</p></td>
 <td><p>1033</p></td>
-<td><p>Порядок сортировки на английском, немецком, французском и португальском языках</p></td>
+<td><p>Английский, немецкий, французский и португальский порядок выпорядочения</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсортгрик</p></td>
+<td><p>dbSortGreek</p></td>
 <td><p>1032</p></td>
-<td><p>Порядок сортировки в греческом языке</p></td>
+<td><p>Греческий порядок порядочения</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсорсебрев</p></td>
+<td><p>dbSortHebrew</p></td>
 <td><p>1037</p></td>
-<td><p>Порядок сортировки на иврите</p></td>
+<td><p>Порядок выверки иврита</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсорсунгариан</p></td>
+<td><p>dbSortHungung</p></td>
 <td><p>1038</p></td>
-<td><p>Венгерский порядок сортировки</p></td>
+<td><p>Венгерский порядок выпорядочения</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсортицеландик</p></td>
+<td><p>dbSortIcelandic</p></td>
 <td><p>1039</p></td>
-<td><p>Порядок сортировки в Исландский</p></td>
+<td><p>Исландский порядок скомайтации</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсортжапанесе</p></td>
+<td><p>dbSortJapanese</p></td>
 <td><p>1041</p></td>
-<td><p>Порядок сортировки на японском языке</p></td>
+<td><p>Порядок скомпоновки на японском языке</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсорткореан</p></td>
+<td><p>dbSortKorean</p></td>
 <td><p>1042</p></td>
-<td><p>Порядок сортировки для корейского языка</p></td>
+<td><p>Корейский порядок collating</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсортнеутрал</p></td>
+<td><p>dbSortNeutral</p></td>
 <td><p>1024</p></td>
-<td><p>Нейтральный порядок сортировки</p></td>
+<td><p>Нейтральный порядок совме-ства</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсортнорвдан</p></td>
+<td><p>dbSortNorw де</p></td>
 <td><p>1030</p></td>
-<td><p>Порядок сортировки на норвежском и датском языке</p></td>
+<td><p>Порядок выпорядочения на норвежском и датском языке</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсортпдксинтл</p></td>
+<td><p>dbSortPDXIntl</p></td>
 <td><p>1033</p></td>
-<td><p>Порядок сортировки на международном уровне Paradox</p></td>
+<td><p>Порядок международных ском уровней в "Paradox"</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсортпдкснор</p></td>
+<td><p>dbSortPDXNor</p></td>
 <td><p>1030</p></td>
-<td><p>Порядок сортировки Paradox (норвежский и датский)</p></td>
+<td><p>Порядок выпорядочения на норвежском и датском норвежском языке</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсортпдкссве</p></td>
+<td><p>dbSortPDXSwe</p></td>
 <td><p>1053</p></td>
-<td><p>Порядок сортировки Paradox шведский и финский</p></td>
+<td><p>Порядки совмещений между шведским и финским языками</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсортполиш</p></td>
+<td><p>dbSort Дефис</p></td>
 <td><p>1045</p></td>
-<td><p>Порядок сортировки для польского языка</p></td>
+<td><p>Польский порядок выпорядочения</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсортсловениан</p></td>
+<td><p>dbSortSlovenian</p></td>
 <td><p>1060</p></td>
-<td><p>Порядок сортировки для словенского языка</p></td>
+<td><p>Словенский порядок скомнительных порядок</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсортспаниш</p></td>
+<td><p>dbSortSpanish</p></td>
 <td><p>1034</p></td>
-<td><p>Порядок сортировки на испанском языке</p></td>
+<td><p>Испанский порядок выпорядочения</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсортсведфин</p></td>
+<td><p>dbSortSwedFin</p></td>
 <td><p>1053</p></td>
-<td><p>Порядок сортировки для шведского и финского языка</p></td>
+<td><p>Порядок выпорядочения для шведских и финских</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсортсаи</p></td>
+<td><p>dbSortThai</p></td>
 <td><p>1054</p></td>
-<td><p>Порядок сортировки для тайского языка</p></td>
+<td><p>Тайский порядок скомайтации</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсорттуркиш</p></td>
+<td><p>dbSortTurkish</p></td>
 <td><p>1055</p></td>
-<td><p>Порядок сортировки для турецкого языка</p></td>
+<td><p>Порядок порядочения для турецких окна</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбсортундефинед</p></td>
+<td><p>dbSortUndefined</p></td>
 <td><p>–1</p></td>
-<td><p>Порядок сортировки не определен или неизвестен</p></td>
+<td><p>Порядок collating undefined или unknown</p></td>
 </tr>
 </tbody>
 </table>

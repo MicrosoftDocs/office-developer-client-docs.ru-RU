@@ -1,5 +1,5 @@
 ---
-title: Аффектенум (Справочник по базам данных Access на компьютере)
+title: AffectEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: AffectEnum
 ms:assetid: 15393398-d7eb-a685-1bfa-d6712d8e5015
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248916(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32297202"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, какие записи затрагиваются операцией.
+Указывает, на какие записи влияет операция.
 
 <br/>
 
@@ -37,25 +37,25 @@ ms.locfileid: "32297202"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адаффекталл</strong></p></td>
-<td><p>4</p></td>
-<td><p>Если к <strong>набору записей</strong>не применен <a href="filter-property-ado.md">Фильтр</a> , затрагивают все записи. Если для свойства <strong>Filter</strong> задано строковое условие (например, &quot;Author = ' Smith '&quot;), операция влияет на видимые записи в текущей главе. Если свойству <strong>Filter</strong> присвоено значение Member объекта <a href="filtergroupenum.md">Филтерграупенум</a> или массива закладок, операция повлияет на все строки <strong>набора записей</strong>.</p><p><strong>Note</strong>: адаффекталл скрыт в обозревателе объектов Visual Basic.</p>
+<td><p><strong>adAffectAll</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Если к набору <a href="filter-property-ado.md">записей не</a> применяется <strong>фильтр,</strong>это влияет на все записи. Если свойство <strong>Filter</strong> имеет строку условия (например, Author='Smith'), операция влияет на видимые записи &quot; &quot; в текущей главе. Если для <strong>свойства Filter</strong> установлено свойство <a href="filtergroupenum.md">FilterGroupEnum</a> или массив закладок, операция повлияет на все строки <strong>набора записей.</strong></p><p><strong>ПРИМЕЧАНИЕ.</strong>AdAffectAll скрыт в браузере Visual Basic объектов.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p><strong>адаффекталлчаптерс</strong></p></td>
+<td><p><strong>adAffectAllChapters</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Влияет на все записи во всех соседних главах <strong>набора записей</strong>, включая те, которые не видны с помощью <strong>фильтра</strong> , который применяется в данный момент.</p></td>
+<td><p>Влияет на все записи во всех <strong></strong>главах одного и того же раздела в наборе записей, включая те, которые не видны с помощью <strong>фильтра,</strong> который применяется в настоящее время.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адаффекткуррент</strong></p></td>
-<td><p>1,1</p></td>
+<td><p><strong>adAffectCurrent</strong></p></td>
+<td><p>1 </p></td>
 <td><p>Влияет только на текущую запись.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адаффектграуп</strong></p></td>
-<td><p>2</p></td>
-<td><p>Влияет только на записи, которые соответствуют текущему значению свойства <a href="filter-property-ado.md">Filter</a> . Для использования этого параметра необходимо задать для свойства <strong>Filter</strong> значение <strong>Филтерграупенум</strong> или массив <strong>закладок</strong> .</p></td>
+<td><p><strong>adAffectGroup</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Влияет только на записи, удовлетворяющие <a href="filter-property-ado.md">текущему параметру</a> свойства Filter. Чтобы использовать этот <strong>параметр,</strong> необходимо установить для свойства <strong></strong> <strong>Filter значение FilterGroupEnum</strong> или массив закладок.</p></td>
 </tr>
 </tbody>
 </table>
@@ -63,7 +63,7 @@ ms.locfileid: "32297202"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -76,16 +76,16 @@ ms.locfileid: "32297202"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. ALL</p></td>
+<td><p>AdoEnums.Affect.ALL</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. влиял. АЛЛЧАПТЕРС</p></td>
+<td><p>AdoEnums.Affect.ALLCHAPTERS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. влиял. CURRENT</p></td>
+<td><p>AdoEnums.Affect.CURRENT</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. влияние. GROUP</p></td>
+<td><p>AdoEnums.Affect.GROUP</p></td>
 </tr>
 </tbody>
 </table>

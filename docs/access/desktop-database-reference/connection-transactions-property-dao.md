@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection. Transactions (DAO)
+title: Свойство Connection.Transactions (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 8bd72db7-68f6-6974-1ee6-a0a267ce2a94
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197326(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295781"
 ---
-# <a name="connectiontransactions-property-dao"></a>Свойство Connection. Transactions (DAO)
+# <a name="connectiontransactions-property-dao"></a>Свойство Connection.Transactions (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32295781"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Транзакций
+*выражение .* Транзакции
 
 *выражение*: переменная, представляющая объект **Connection**.
 

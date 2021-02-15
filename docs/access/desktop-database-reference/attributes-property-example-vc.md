@@ -19,7 +19,7 @@ ms.locfileid: "32296943"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [Attributes](attributes-property-adox.md) [столбца](column-object-adox.md). Если задать для него значение **адколнуллабле** , пользователь может задать для[поля](field-object-ado.md) [Recordset](recordset-object-ado.md)значение пустая строка. В этом случае пользователь может различать записи, в которых неизвестны данные, и запись, в которой данные не применяются.
+В этом примере показано [свойство Attributes](attributes-property-adox.md) [столбца.](column-object-adox.md) Установка значения **adColNullable** позволяет пользователю установить значение поля [набора](recordset-object-ado.md)[](field-object-ado.md) записей в пустую строку. В этой ситуации пользователь может различать запись, данные которой неизвестны, и запись, в которой эти данные не применяются.
 
 ```cpp 
  
@@ -222,7 +222,7 @@ void AttributesX(void)
 // EndAttributesCpp 
 ```
 
-**Адоксаттрибутескс. h**
+**ADOXAttributesX.h**
 
 ```cpp
     // BeginAttributesH 

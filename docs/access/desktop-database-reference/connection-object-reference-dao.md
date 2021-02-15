@@ -19,7 +19,7 @@ ms.locfileid: "32295872"
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Connection (DAO)](connection-object-dao.md)
-- [Элементы подключения (DAO)](connection-members-dao.md)
+- [Connection members (DAO)](connection-members-dao.md)
 - [Свойства подключения (DAO)](connection-properties-dao.md)
 - [Методы подключения (DAO)](connection-methods-dao.md)
 

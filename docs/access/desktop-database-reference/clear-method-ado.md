@@ -1,5 +1,5 @@
 ---
-title: Метод Clear — объекты данных ActiveX (ADO)
+title: Метод Clear — ActiveX Data Objects (ADO)
 TOCTitle: Clear method (ADO)
 ms:assetid: 5d51f42c-147b-1fcf-d05b-123e5714ecb7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249329(v=office.15)
@@ -19,15 +19,15 @@ ms.locfileid: "32296362"
 
 **Область применения**: Access 2013, Office 2013
 
-Удаляет все объекты **Error** из коллекции **Errors** .
+Удаляет все объекты **Error** из коллекции **Errors.**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Ошибки*. Зашифрован
+*Ошибки.* Очистить
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Используйте метод **clear** в коллекции [Errors](errors-collection-ado.md) , чтобы удалить все существующие объекты [Error](error-object-ado.md) из коллекции. При возникновении ошибки ADO автоматически очищает коллекцию **Errors** и заполняет ее объектами **Error** на основе новой ошибки.
+Используйте метод **Clear** для коллекции [Errors,](errors-collection-ado.md) чтобы удалить все существующие объекты [Error](error-object-ado.md) из коллекции. При ошибке ADO автоматически очищает коллекцию **Errors** и заполняет ее объектами **Error** в зависимости от новой ошибки.
 
-Некоторые свойства и методы возвращают предупреждения, которые отображаются как объекты **Error** в коллекции **Errors** , но не приводят к остановке выполнения программы. Перед вызовом методов [Resync](resync-method-ado.md), [UpdateBatch](updatebatch-method-ado.md)и [CancelBatch](cancelbatch-method-ado.md) для объекта [Recordset](recordset-object-ado.md) ; метод [Open](open-method-ado-connection.md) для объекта [Connection](connection-object-ado.md) ; или задайте свойство [Filter](filter-property-ado.md) для объекта **Recordset** , вызовите метод **clear** в коллекции **Errors** . Таким образом, можно прочитать свойство [Count](count-property-ado.md) коллекции **Errors** , чтобы проверить наличие возвращенных предупреждений.
+Некоторые свойства и методы возвращают предупреждения, которые отображаются как объекты **Error** в коллекции **Errors,** но не останавливают выполнение программы. Перед вызовом [методов Resync,](resync-method-ado.md) [UpdateBatch](updatebatch-method-ado.md)или [CancelBatch](cancelbatch-method-ado.md) для объекта [Recordset;](recordset-object-ado.md) Метод [Open](open-method-ado-connection.md) для объекта [Connection;](connection-object-ado.md) или установите свойство [Filter](filter-property-ado.md) для объекта **Recordset,** вызовите метод **Clear** в коллекции **Errors.** Таким образом можно считать свойство [Count](count-property-ado.md) коллекции **Errors** для проверки на возвращенных предупреждений.
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Container. Documents (DAO)
+title: Container.Documents (DAO)
 TOCTitle: Documents Property
 ms:assetid: d2effd76-a300-c0dd-201a-86c9d04e3a62
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834785(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295662"
 ---
-# <a name="containerdocuments-property-dao"></a>Свойство Container. Documents (DAO)
+# <a name="containerdocuments-property-dao"></a>Container.Documents (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **Documents** , содержащую все документы, хранящиеся в указанном объекте. Только для чтения.
+Возвращает **коллекцию документов,** которая содержит все документы, хранимые в указанном объекте. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Настоящему
+*выражение .* Документы
 
-*Expression (выражение* ) Переменная, представляющая объект **контейнера** .
+*выражение* Переменная, представляюная объект **Container.**
 

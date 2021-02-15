@@ -1,5 +1,5 @@
 ---
-title: Инструкция ALTER USER или DATABASE (Microsoft Access SQL)
+title: ALTER USER or DATABASE statement (Microsoft Access SQL)
 TOCTitle: ALTER USER or DATABASE statement (Microsoft Access SQL)
 ms:assetid: 86ccd296-5171-97e7-683f-cdaab4bde9ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197012(v=office.15)
@@ -14,19 +14,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297181"
 ---
-# <a name="alter-user-or-database-statement-microsoft-access-sql"></a>Инструкция ALTER USER или DATABASE (Microsoft Access SQL)
+# <a name="alter-user-or-database-statement-microsoft-access-sql"></a>ALTER USER or DATABASE statement (Microsoft Access SQL)
 
 **Область применения**: Access 2013, Office 2013
 
-Изменяет пароль для существующего пользователя или для базы данных.
+Изменяет пароль для существующего пользователя или базы данных.
 
 ## <a name="syntax"></a>Синтаксис
 
-ALTER DATABASE PASSWORD *newPassword олдпассворд*
+ALTER DATABASE PASSWORD *newpassword oldpassword*
 
-ИЗМЕНЕНИЕ пароля *пользователя* *newPassword олдпассворд*
+ALTER USER *USER* PASSWORD *newpassword oldpassword*
 
-Инструкция ALTER USER или DATABASE состоит из следующих частей:
+The ALTER USER or DATABASE statement has these parts:
 
 <table>
 <colgroup>
@@ -42,15 +42,15 @@ ALTER DATABASE PASSWORD *newPassword олдпассворд*
 <tbody>
 <tr class="odd">
 <td><p><em>user</em></p></td>
-<td><p>Имя пользователя, добавляемого в информационный файл рабочей группы.</p></td>
+<td><p>Имя пользователя, добавляемого в файл сведений о группе.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>newPassword</em></p></td>
-<td><p>Новый пароль, который необходимо связать с указанным именем <em>пользователя</em> или <em>базы данных</em> .</p></td>
+<td><p><em>newpassword</em></p></td>
+<td><p>Новый пароль, связанный с указанным <em>пользователем или именем</em> <em>базы</em> данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>олдпассворд</em></p></td>
-<td><p>Существующий пароль, который необходимо связать с указанным именем <em>пользователя</em> или <em>группы</em> .</p></td>
+<td><p><em>oldpassword</em></p></td>
+<td><p>Существующий пароль, который должен быть связан с указанным <em>пользователем или</em> <em>именем</em> группы.</p></td>
 </tr>
 </tbody>
 </table>

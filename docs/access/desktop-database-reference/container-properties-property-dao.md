@@ -1,5 +1,5 @@
 ---
-title: Свойство Container. Properties (DAO)
+title: Свойство Container.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 2ab6d104-e20e-0228-7dc7-105da54446d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192073(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295613"
 ---
-# <a name="containerproperties-property-dao"></a>Свойство Container. Properties (DAO)
+# <a name="containerproperties-property-dao"></a>Свойство Container.Properties (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32295613"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Параметры
+*выражение .* Свойства
 
-*Expression (выражение* ) Переменная, представляющая объект **контейнера** .
+*выражение* Переменная, представляюная объект **Container.**
 

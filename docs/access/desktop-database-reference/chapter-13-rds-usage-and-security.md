@@ -18,16 +18,16 @@ ms.locfileid: "32296474"
 
 **Область применения**: Access 2013, Office 2013
 
-Сведения, приведенные в этой главе, используются для настройки сервера и быстрого использования RDS. В этой главе приводятся определенные действия по настройке, которые могут потребоваться при реализации RDS, описываются некоторые основные связи между RDS и другими технологиями, а также способы определения решений проблем, которые могут возникнуть при настройке решения RDS.
+Используйте сведения в этой главе, чтобы быстро настроить сервер и использовать RDS. В этой главе описываются конкретные действия по настройке, которые могут потребоваться выполнить при реализации RDS, описываются некоторые ключевые связи между RDS и другими технологиями, а также помогают определить решения проблем, которые могут возникнуть при настройке решения RDS.
 
-В этом разделе содержатся сведения о следующих ВОЗ:
+В этом разделе содержатся сведения о:
 
 - [Настройка DataFactory для безопасного или неограниченного режима](configuring-datafactory-for-safe-or-unrestricted-modes.md)
 - [Configuring RDS](configuring-rds.md)
 - [Настройка виртуальных серверов в IIS](configuring-virtual-servers-on-iis.md)
-- [Настройка фактов (ADO)](datafactory-customization.md)
+- [Настройка DataFactory (ADO)](datafactory-customization.md)
 - [Подготовка библиотеки DLL к работе в DCOM](enabling-a-dll-to-run-on-dcom.md)
-- [Предоставление гостевых привилегий компьютеру веб-сервера; Гостевые привилегии \[RDS\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
+- [Предоставление гостевых привилегий компьютеру с веб-сервером; RDS guest privileges \[ ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 - [Пометка бизнес-объектов как безопасных для написания скриптов](marking-business-objects-as-safe-for-scripting.md)
 - [Регистрация бизнес-объектов в клиенте для использования с DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
 - [Защита приложений RDS](securing-rds-applications.md)

@@ -38,24 +38,24 @@ ms.locfileid: "32293254"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адцексексинк</strong></p></td>
-<td><p>Выполняет следующее обновление <a href="recordset-object-ado.md">набора записей</a> в синхронном режиме.</p></td>
+<td><p><strong>adcExecSync</strong></p></td>
+<td><p>Выполняет следующее синхронное обновление <a href="recordset-object-ado.md">наборов</a> записей.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адцексекасинк</strong></p></td>
-<td><p>Значение, используемое по умолчанию. Асинхронно выполняет следующее обновление объекта <strong>Recordset</strong> .</p></td>
+<td><p><strong>adcExecAsync</strong></p></td>
+<td><p>Значение, используемое по умолчанию. Выполняет следующее обновление <strong>recordset</strong> асинхронно.</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Каждый исполняемый файл на стороне клиента, использующий эти константы, должен предоставлять объявления для них. Вы можете вырезать и вставить объявления констант из файла Адквбс. Inc, расположенного в папке C:\Program Files\Common Филес\систем\мсадк.
+> Каждый исполняемый файл на стороне клиента, использующий эти константы, должен предоставлять объявления для них. Вы можете вырезать и вложить нужные объявления констант из файла Adcvbs.inc, расположенного в папке C:\Program Files\Common Files\System\MSADC.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Если для **ExecuteOptions** задано значение **адцексекасинк**, асинхронно выполняется следующий вызов **обновления** в [RDS. ](datacontrol-object-rds.md) **Набор записей**объекта DataObject.
+Если **для ExecuteOptions** задан **adcExecAsync,** то этот асинхронно выполняет следующий вызов **Refresh** в [RDS. Объект Recordset объекта DataControl.](datacontrol-object-rds.md) 
 
-Если вы попытаетесь вызвать [Reset](reset-method-rds.md), [Refresh](refresh-method-rds.md), [SubmitChanges](submitchanges-method-rds.md), [CancelUpdate](cancelupdate-method-ado.md)или [Recordset](recordset-sourcerecordset-properties-rds.md) , в то время как другая асинхронная операция, которая может изменить [RDS. ](datacontrol-object-rds.md)Выполняется **набор записей** объекта DataObject, возникает ошибка.
+При попытке вызвать [reset,](reset-method-rds.md) [Refresh,](refresh-method-rds.md) [SubmitChanges,](submitchanges-method-rds.md) [CancelUpdate](cancelupdate-method-ado.md)или [Recordset](recordset-sourcerecordset-properties-rds.md) во время другой асинхронной операции, которая может [изменить RDS. Выполняется](datacontrol-object-rds.md) объект **Recordset объекта** DataControl, возникает ошибка.
 
-Если во время асинхронной операции возникает ошибка, то **RDS. **Изменение значения свойства [ReadyState](readystate-property-rds.md) объекта **адкреадистателоадед** на **Адкреадистатекомплете**, а значение свойства **Recordset** *не*остается.
+Если во время асинхронной операции возникает ошибка, **RDS. Значение** [ReadyState](readystate-property-rds.md) объекта DataControl изменяется с **adcReadyStateLoaded** на **adcReadyStateComplete,** а значение свойства **Recordset** остается *"Nothing".*
 

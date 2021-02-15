@@ -22,17 +22,17 @@ ms.locfileid: "32296677"
 
 **Область применения**: Access 2013, Office 2013
 
-Отменяет выполнение ожидающего асинхронного вызова метода.
+Отменяет выполнение ожидающих вызовов асинхронного метода.
 
 ## <a name="syntax"></a>Синтаксис
 
-*объект*. Отмена
+*object*. Отмена
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Используйте метод **Cancel** для завершения выполнения асинхронного вызова метода (то есть метод, вызываемый с параметром **адасинкконнект**, **адасинцексекуте**или **адасинкфетч** ).
+Используйте метод **Cancel** для прекращения выполнения асинхронного вызова метода (то есть метода, вызываемого с помощью **параметра adAsyncConnect,** **adAsyncExecute** или **adAsyncFetch).**
 
-В приведенной ниже таблице показано, что задача завершается при использовании метода **Cancel** для определенного типа объекта.
+В следующей таблице показано, какая задача завершается при использовании метода **Cancel** для определенного типа объекта.
 
 <table>
 <colgroup>
@@ -42,22 +42,22 @@ ms.locfileid: "32296677"
 <thead>
 <tr class="header">
 <th><p><br />
-Если <em>объект</em> является</p></th>
+Если <em>объект</em> является объектом</p></th>
 <th><p>Последний асинхронный вызов этого метода завершается</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="command-object-ado.md">Команда</a></p></td>
+<td><p><a href="command-object-ado.md">Command</a></p></td>
 <td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command">Execute</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="connection-object-ado.md">Connection</a></p></td>
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Выполнение</a> или <a href="open-method-ado-connection.md">Открытие</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute</a> или <a href="open-method-ado-connection.md">Open</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="record-object-ado.md">Record</a></p></td>
-<td><p><a href="copyrecord-method-ado.md">CopyRecord</a>, <a href="deleterecord-method-ado.md">DeleteRecord</a>, <a href="moverecord-method-ado.md">MoveRecord</a>или <a href="open-method-ado-record.md">Open</a></p></td>
+<td><p><a href="copyrecord-method-ado.md">CopyRecord,</a> <a href="deleterecord-method-ado.md">DeleteRecord,</a> <a href="moverecord-method-ado.md">MoveRecord</a>или <a href="open-method-ado-record.md">Open</a></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="recordset-object-ado.md">Recordset</a></p></td>

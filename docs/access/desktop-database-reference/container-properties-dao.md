@@ -18,7 +18,7 @@ ms.locfileid: "32295620"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство Container. Documents (DAO)](container-documents-property-dao.md)
-- [Свойство Container.Name (DAO)](container-name-property-dao.md)
-- [Свойство Container. Properties (DAO)](container-properties-property-dao.md)
+- [Container.Documents (DAO)](container-documents-property-dao.md)
+- [Container.Name (DAO)](container-name-property-dao.md)
+- [Свойство Container.Properties (DAO)](container-properties-property-dao.md)
 

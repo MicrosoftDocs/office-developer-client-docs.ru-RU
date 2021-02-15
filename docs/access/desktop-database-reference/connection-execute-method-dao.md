@@ -1,5 +1,5 @@
 ---
-title: Метод Connection. Execute (DAO)
+title: Connection.Execute method (DAO)
 TOCTitle: Execute Method
 ms:assetid: d6140d4e-fa14-6455-525e-49d8aab3dff7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835040(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295914"
 ---
-# <a name="connectionexecute-method-dao"></a>Метод Connection. Execute (DAO)
+# <a name="connectionexecute-method-dao"></a>Connection.Execute method (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -47,14 +47,14 @@ ms.locfileid: "32295914"
 <tr class="odd">
 <td><p><em>Query</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p><strong>Строка</strong> , которая является оператором SQL или значением свойства <strong>имени</strong> объекта <strong>QueryDef</strong> .</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p><strong>Строка,</strong> которая SQL или значение <strong>свойства Name</strong> объекта <strong>QueryDef.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><em>Options</em></p></td>
 <td><p>Необязательно</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа или сочетание констант, определяющих характеристики целостности данных запроса, как указано в параметрах.</p></td>
+<td><p>Константа или сочетание констант, определяющий характеристики целостности данных запроса, как указано в параметрах.</p></td>
 </tr>
 </tbody>
 </table>

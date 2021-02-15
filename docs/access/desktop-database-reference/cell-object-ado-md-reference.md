@@ -1,5 +1,5 @@
 ---
-title: Объект Cell (Справочник по ADO MD)
+title: Cell object (ADO MD reference)
 TOCTitle: Cell object (ADO MD)
 ms:assetid: 2db153d4-ff06-44fd-b20d-285ad505efa6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249073(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296565"
 ---
-# <a name="cell-object-ado-md-reference"></a>Объект Cell (Справочник по ADO MD)
+# <a name="cell-object-ado-md-reference"></a>Cell object (ADO MD reference)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Cell (ADO MD)](cell-object-ado-md.md)
-- [Свойства, методы и события ячеек (ADO MD)](cell-properties-methods-and-events-ado-md.md)
+- [Cell object (ADO MD)](cell-object-ado-md.md)
+- [Cell properties, methods, and events (ADO MD)](cell-properties-methods-and-events-ado-md.md)
 

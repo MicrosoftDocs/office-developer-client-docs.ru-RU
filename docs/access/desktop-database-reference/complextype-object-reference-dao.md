@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект ComplexType (DAO)
+title: Справочник по объекту ComplexType (DAO)
 TOCTitle: ComplexType Object
 ms:assetid: 13eeca4d-7b36-4c9e-8035-ecc9acfe487a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123787(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296026"
 ---
-# <a name="complextype-object-reference-dao"></a>Ссылка на объект ComplexType (DAO)
+# <a name="complextype-object-reference-dao"></a>Справочник по объекту ComplexType (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection. обновляемое свойство (DAO)
+title: Свойство Connection.Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: dc3c021e-f6df-c256-b655-8d36317e0b68
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835360(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295802"
 ---
-# <a name="connectionupdatable-property-dao"></a>Свойство Connection. обновляемое свойство (DAO)
+# <a name="connectionupdatable-property-dao"></a>Свойство Connection.Updatable (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает значение, которое указывает на то, можно ли изменить DAO объект. **Логическое значение**, доступное только для чтения. Только для чтения.
+Возвращает значение, которое указывает на то, можно ли изменить DAO объект. Boolean только **для чтения.** Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Updatable
+*выражение .* Updatable
 
-*Expression (выражение* ) Выражение, возвращающее объект **Connection** .
+*выражение* Выражение, которое возвращает объект **Connection.**
 

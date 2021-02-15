@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события каталога (ADO MD)
+title: Catalog properties, methods, and events (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 51d3b237-a1ee-a605-a228-7c92edb13bd5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249265(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296579"
 ---
-# <a name="catalog-properties-methods-and-events-ado-md"></a>Свойства, методы и события каталога (ADO MD)
+# <a name="catalog-properties-methods-and-events-ado-md"></a>Catalog properties, methods, and events (ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство ActiveConnection](activeconnection-property-ado-md.md)
 - [Коллекция CubeDefs](cubedefs-collection-ado-md.md)

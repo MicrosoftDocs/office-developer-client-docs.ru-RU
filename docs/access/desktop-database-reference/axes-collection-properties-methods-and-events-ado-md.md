@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события коллекции осей (ADO MD)
+title: Axes collection properties, methods, and events (ADO MD)
 TOCTitle: Axes collection properties, methods, and events
 ms:assetid: 613f3e77-11fb-4bf6-0f26-5be2b5cd4594
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249357(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296922"
 ---
-# <a name="axes-collection-properties-methods-and-events-ado-md"></a>Свойства, методы и события коллекции осей (ADO MD)
+# <a name="axes-collection-properties-methods-and-events-ado-md"></a>Axes collection properties, methods, and events (ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 

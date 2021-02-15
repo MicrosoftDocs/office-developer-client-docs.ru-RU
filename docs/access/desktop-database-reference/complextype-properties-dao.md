@@ -18,5 +18,5 @@ ms.locfileid: "32296012"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство ComplexType. Fields (DAO)](complextype-fields-property-dao.md)
+- [Свойство ComplexType.Fields (DAO)](complextype-fields-property-dao.md)
 

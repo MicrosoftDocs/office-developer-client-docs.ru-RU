@@ -19,7 +19,7 @@ ms.locfileid: "32297111"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используются методы [append](append-method-ado.md) и [CreateParameter](createparameter-method-ado.md) для выполнения хранимой процедуры с входным параметром.
+В этом примере используются методы [Append](append-method-ado.md) и [CreateParameter](createparameter-method-ado.md) для выполнения хранимой процедуры с входным параметром.
 
 ```cpp 
  
@@ -200,7 +200,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-**Аппендкс. h**
+**AppendX.h**
 
 ```cpp 
  

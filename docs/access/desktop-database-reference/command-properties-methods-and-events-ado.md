@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события команды (ADO)
+title: Command properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 62b2db82-c518-016f-8e9a-e181528782c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249373(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296152"
 ---
-# <a name="command-properties-methods-and-events-ado"></a>Свойства, методы и события команды (ADO)
+# <a name="command-properties-methods-and-events-ado"></a>Command properties, methods, and events (ADO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство ActiveConnection](activeconnection-property-ado.md)
 - [Свойство CommandText](commandtext-property-ado.md)

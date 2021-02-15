@@ -18,13 +18,13 @@ ms.locfileid: "32295830"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство Connection. Connect (DAO)](connection-connect-property-dao.md)
+- [Свойство Connection.Connect (DAO)](connection-connect-property-dao.md)
 - [Свойство Connection.Database (DAO)](connection-database-property-dao.md)
-- [Свойство Connection.Name (DAO)](connection-name-property-dao.md)
-- [Свойство Connection. QueryDefs (DAO)](connection-querydefs-property-dao.md)
-- [Свойство Connection. QueryTimeout (DAO)](connection-querytimeout-property-dao.md)
-- [Свойство Connection. Рекордсаффектед (DAO)](connection-recordsaffected-property-dao.md)
-- [Свойство Connection. Recordsets (DAO)](connection-recordsets-property-dao.md)
-- [Свойство Connection. Стиллексекутинг (DAO)](connection-stillexecuting-property-dao.md)
-- [Свойство Connection. Transactions (DAO)](connection-transactions-property-dao.md)
-- [Свойство Connection. обновляемое свойство (DAO)](connection-updatable-property-dao.md)
+- [Connection.Name (DAO)](connection-name-property-dao.md)
+- [Свойство Connection.QueryDefs (DAO)](connection-querydefs-property-dao.md)
+- [Свойство Connection.QueryTimeout (DAO)](connection-querytimeout-property-dao.md)
+- [Свойство Connection.RecordsAffected (DAO)](connection-recordsaffected-property-dao.md)
+- [Свойство Connection.Recordsets (DAO)](connection-recordsets-property-dao.md)
+- [Свойство Connection.StillExecuting (DAO)](connection-stillexecuting-property-dao.md)
+- [Свойство Connection.Transactions (DAO)](connection-transactions-property-dao.md)
+- [Свойство Connection.Updatable (DAO)](connection-updatable-property-dao.md)

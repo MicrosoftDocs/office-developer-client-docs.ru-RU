@@ -1,5 +1,5 @@
 ---
-title: Коммандтипинум (Справочник по базам данных Access на компьютере)
+title: CommandTypeEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: CommandTypeEnum
 ms:assetid: 9ad8f155-88a0-00eb-2855-1e1a2a677437
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249700(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32296117"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, как должен интерпретироваться аргумент команды.
+Указывает, как следует интерпретировать аргумент команды.
 
 <br/>
 
@@ -37,39 +37,39 @@ ms.locfileid: "32296117"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адкмдунспеЦифиед</strong></p></td>
+<td><p><strong>adCmdUnspecified</strong></p></td>
 <td><p>–1</p></td>
 <td><p>Не указывает аргумент типа команды.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адкмдтекст</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Вычисляет значение <a href="commandtext-property-ado.md">CommandText</a> в качестве текстового определения команды или вызова хранимой процедуры.</p></td>
+<td><p><strong>adCmdText</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Оценивает <a href="commandtext-property-ado.md">CommandText как</a> текстовое определение вызова команды или хранимой процедуры.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адкмдтабле</strong></p></td>
-<td><p>2</p></td>
-<td><p>Оценивает свойство <strong>CommandText</strong> как имя таблицы, столбцы которой возвращаются внутренним запросом SQL.</p></td>
+<td><p><strong>adCmdTable</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Оценивает <strong>CommandText как</strong> имя таблицы, столбцы которой возвращаются внутренним SQL запроса.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адкмдсторедпрок</strong></p></td>
+<td><p><strong>adCmdStoredProc</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Вычисляет значение <strong>CommandText</strong> в качестве имени хранимой процедуры.</p></td>
+<td><p>Оценивает <strong>CommandText в качестве</strong> имени хранимой процедуры.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адкмдункновн</strong></p></td>
+<td><p><strong>adCmdUnknown</strong></p></td>
 <td><p>8 </p></td>
-<td><p>Значение, используемое по умолчанию. Указывает, что тип команды в свойстве <strong>CommandText</strong> неизвестен.</p></td>
+<td><p>Значение, используемое по умолчанию. Указывает, что тип команды в свойстве <strong>CommandText</strong> неизвестна.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адкмдфиле</strong></p></td>
+<td><p><strong>adCmdFile</strong></p></td>
 <td><p>256</p></td>
-<td><p>Вычисляет значение <strong>CommandText</strong> в качестве имени файла сохраняемого сохраняемого <a href="recordset-object-ado.md">набора записей</a>. Используется с <strong>Recordset.</strong> Только для <a href="open-method-ado-recordset.md">открытия или повторного</a> <a href="requery-method-ado.md">запроса</a> .</p></td>
+<td><p>Оценивает <strong>CommandText в</strong> качестве имени файла постоянно хранимого <a href="recordset-object-ado.md">наборов записей.</a> Используется с <strong>recordset.</strong> <a href="open-method-ado-recordset.md">Только open</a> или <a href="requery-method-ado.md">Requery.</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адкмдтабледирект</strong></p></td>
+<td><p><strong>adCmdTableDirect</strong></p></td>
 <td><p>512</p></td>
-<td><p>Оценивает свойство <strong>CommandText</strong> как имя таблицы, в которой возвращаются все столбцы. Используется с параметром <strong>Recordset. Open</strong> или <strong>Requery</strong> only. Чтобы использовать метод <a href="seek-method-ado.md">Seek</a> , необходимо открыть объект <strong>Recordset</strong> с помощью <strong>адкмдтабледирект</strong>. Это значение не может сочетаться со <a href="executeoptionenum.md">ExecuteOptionEnum</a> значением ексекутеоптионенум <strong>адасинцексекуте</strong>.</p></td>
+<td><p>Оценивает <strong>CommandText как</strong> имя таблицы, столбцы которой возвращаются. Используется только <strong>с Recordset.Open</strong> или <strong>Requery.</strong> Чтобы использовать метод <a href="seek-method-ado.md">Seek,</a> <strong>recordset</strong> необходимо открыть с <strong>помощью adCmdTableDirect.</strong> Это значение нельзя объединить со <a href="executeoptionenum.md">значением ExecuteOptionEnum</a> <strong>adAsyncExecute.</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -77,7 +77,7 @@ ms.locfileid: "32296117"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -90,25 +90,25 @@ ms.locfileid: "32296117"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. CommandType. unspecifiedо</p></td>
+<td><p>AdoEnums.CommandType.UNSPECIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. CommandType. TEXT</p></td>
+<td><p>AdoEnums.CommandType.TEXT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. CommandType. TABLE</p></td>
+<td><p>AdoEnums.CommandType.TABLE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. CommandType. СТОРЕДПРОК</p></td>
+<td><p>AdoEnums.CommandType.STOREDPROC</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. CommandType. UNKNOWN</p></td>
+<td><p>AdoEnums.CommandType.UNKNOWN</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. CommandType. FILE</p></td>
+<td><p>AdoEnums.CommandType.FILE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. CommandType. TABLEDIRECT</p></td>
+<td><p>AdoEnums.CommandType.TABLEDIRECT</p></td>
 </tr>
 </tbody>
 </table>

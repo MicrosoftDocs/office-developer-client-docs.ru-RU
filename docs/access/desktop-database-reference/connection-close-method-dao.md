@@ -1,5 +1,5 @@
 ---
-title: Метод Connection. Close (DAO)
+title: Метод Connection.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: 9b1a77cb-da12-24d6-892f-a56be103d51d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198015(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295963"
 ---
-# <a name="connectionclose-method-dao"></a>Метод Connection. Close (DAO)
+# <a name="connectionclose-method-dao"></a>Метод Connection.Close (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Закрывает открытое **Подключение**.
+Закрывает **открытое** подключение.
 
 ## <a name="syntax"></a>Синтаксис
 

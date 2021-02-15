@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события столбцов (ADOX)
+title: Свойства, методы и события столбца (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 3cfb6eaf-399a-1678-45bd-6fe692d8bd81
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249162(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296243"
 ---
-# <a name="column-properties-methods-and-events-adox"></a>Свойства, методы и события столбцов (ADOX)
+# <a name="column-properties-methods-and-events-adox"></a>Свойства, методы и события столбца (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство Attributes](attributes-property-adox.md)
 - [Свойство DefinedSize](definedsize-property-adox.md)

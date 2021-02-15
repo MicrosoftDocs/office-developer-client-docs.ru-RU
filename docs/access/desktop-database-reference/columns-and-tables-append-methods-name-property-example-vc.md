@@ -1,5 +1,5 @@
 ---
-title: Методы Append столбцов и таблиц, пример свойства Name (VC + +)
+title: Columns and Tables Append Methods, Name property example (VC++)
 TOCTitle: Columns and Tables Append Methods, Name property example (VC++)
 ms:assetid: 6586aaed-2556-1d33-c1ab-135a598f7d13
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249392(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296222"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Методы Append столбцов и таблиц, пример свойства Name (VC + +)
+# <a name="columns-and-tables-append-methods-name-property-example-vc"></a>Columns and Tables Append Methods, Name property example (VC++)
 
 
 **Область применения**: Access 2013, Office 2013
 
-В приведенном ниже коде показано, как создать новую таблицу.
+В следующем коде показано, как создать таблицу.
 
 ```cpp 
  

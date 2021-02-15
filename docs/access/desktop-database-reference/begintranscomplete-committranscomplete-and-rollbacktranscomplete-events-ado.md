@@ -1,5 +1,5 @@
 ---
-title: События begintranscomplete, CommitTransComplete, RollbackTransComplete события (ADO)
+title: События BeginTransComplete, CommitTransComplete, RollbackTransComplete (ADO)
 TOCTitle: BeginTransComplete, CommitTransComplete, and RollbackTransComplete events (ADO)
 ms:assetid: 9d0ae38e-530a-7a89-a344-f3ab401c2e35
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249713(v=office.15)
@@ -14,38 +14,38 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296824"
 ---
-# <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a>События события begintranscomplete, CommitTransComplete и RollbackTransComplete (ADO)
+# <a name="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado"></a>События BeginTransComplete, CommitTransComplete и RollbackTransComplete (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-Эти события будут вызваны после завершения выполнения связанной операции над объектом [Connection](connection-object-ado.md) .
+Эти события будут вызваны после завершения выполнения связанной операции с объектом [Connection.](connection-object-ado.md)
 
-- **События begintranscomplete** вызывается после операции [BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) .
+- **BeginTransComplete** вызван после операции [BeginTrans.](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 
-- **CommitTransComplete** вызывается после операции [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) .
+- **CommitTransComplete** вызван после операции [CommitTrans.](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 
-- **RollbackTransComplete** вызывается после операции [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) .
+- **RollbackTransComplete** вызван после операции [RollbackTrans.](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 
 ## <a name="syntax"></a>Синтаксис
 
-События begintranscomplete*трансактионлевел*, *перрор*, *адстатус*, *пконнектион*
+BeginTransComplete *TransactionLevel*, *pError*, *adStatus*, *pConnection*
 
-CommitTransComplete*перрор*, *адстатус*, *пконнектион*
+CommitTransComplete *pError,* *adStatus*, *pConnection*
 
-RollbackTransComplete*перрор*, *адстатус*, *пконнектион*
+RollbackTransComplete *pError,* *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*трансактионлевел* |**Длинное** значение, которое содержит новый уровень транзакций **BeginTrans** , вызвавших это событие.|
-|*перрор* |Объект [Error](error-object-ado.md) . В нем описывается ошибка, которая возникла, если значение Евентстатусенум равно **адстатусеррорсоккурред**; в противном случае он не задается.|
-|*адстатус* |[Евентстатусенум](eventstatusenum.md). Эти события могут препятствовать последующим уведомлениям, присвоив этому параметру значение **адстатусунвантедевент** , прежде чем событие будет возвращено.|
-|*пконнектион* |Объект **Connection** , для которого произошло это событие.|
+|*TransactionLevel* |**Длинное** значение, содержа которое содержит новый уровень транзакции **BeginTrans,** который вызвал это событие.|
+|*pError* |Объект [Error.](error-object-ado.md) В ней описывается ошибка, которая произошла, если значение EventStatusEnum **— adStatusErrorsOccurred;** в противном случае он не установлен.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Эти события могут препятствовать последующим уведомлениям, задав для этого параметра параметр **adStatusUnwantedEvent** перед возвращением события.|
+|*pConnection* |Объект **Connection,** для которого произошло это событие.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-В Visual C++ несколько **подключений** могут совместно использовать один метод обработки события. Метод использует возвращенный объект **Connection** для определения объекта, вызвавшего событие.
+В Visual C++ несколько **подключений** могут использовать один и тот же метод обработки событий. Метод использует возвращенный объект **Connection,** чтобы определить, какой объект вызвал событие.
 
-Если для свойства [Attributes](attributes-property-ado.md) задано значение **адксакткоммитретаининг** или **адксактабортретаининг**, Новая транзакция начинается после фиксации или отката транзакции. Используйте событие **события begintranscomplete** для пропуска всех событий запуска Transaction, кроме первого.
+Если для свойства [Attributes](attributes-property-ado.md) установлено свойство **adXactCommitRetaining** или **adXactAbortRetaining,** новая транзакция начинается после фиксии или отката транзакции. Используйте событие **BeginTransComplete,** чтобы игнорировать все события, кроме первого события запуска транзакции.
 

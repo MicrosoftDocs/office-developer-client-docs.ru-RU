@@ -1,5 +1,5 @@
 ---
-title: Настройка служб RDS (Справочник по базам данных Access на компьютере)
+title: Configuring RDS (Access desktop database reference)
 TOCTitle: Configuring RDS
 ms:assetid: afd76de4-337b-5f6c-7d3e-af019802441d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249838(v=office.15)
@@ -18,14 +18,14 @@ ms.locfileid: "32296005"
 
 **Область применения**: Access 2013, Office 2013
 
-Чтобы эффективно реализовать RDS, убедитесь, что вы знакомы с различными конфигурациями, доступными для вас. В этом разделе содержатся важные сведения о безопасности и масштабируемости реализации RDS. В следующих разделах приводятся сведения о настройке компьютеров для использования RDS.
+Чтобы эффективно реализовать RDS, ознакомьтесь с различными конфигурациями, доступными для вас. В этом разделе содержатся важные сведения о безопасности и масштабируемости при реализации RDS. Сведения о настройке компьютеров для использования RDS см. в следующих темах.
 
 - [Настройка DataFactory для безопасного или неограниченного режима](configuring-datafactory-for-safe-or-unrestricted-modes.md)
 - [Настройка виртуальных серверов в IIS](configuring-virtual-servers-on-iis.md)
 - [Подготовка библиотеки DLL к работе в DCOM](enabling-a-dll-to-run-on-dcom.md)
-- [Предоставление гостевых привилегий компьютеру веб-сервера](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
+- [Предоставление гостевых привилегий компьютеру с веб-сервером](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 - [Пометка бизнес-объектов как безопасных для написания скриптов](marking-business-objects-as-safe-for-scripting.md)
-- [Регистрация настраиваемого бизнес-объекта](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/registering-a-custom-business-object)
+- [Регистрация пользовательского бизнес-объекта](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/registering-a-custom-business-object)
 - [Регистрация бизнес-объектов в клиенте для использования с DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
 - [Защита приложений RDS](securing-rds-applications.md)
 - [Настройка формата маршалинга потоков DCOM](setting-dcom-stream-marshaling-format.md)

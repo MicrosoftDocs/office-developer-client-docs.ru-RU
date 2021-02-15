@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту Command (ADO)
+title: Command object (ADO) reference
 TOCTitle: Command object (ADO)
 ms:assetid: 87df0a0c-1529-46d8-bd36-b7a9c8b17615
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249590(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296187"
 ---
-# <a name="command-object-ado-reference"></a>Справочник по объекту Command (ADO)
+# <a name="command-object-ado-reference"></a>Command object (ADO) reference
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Command (ADO)](command-object-ado.md)
-- [Свойства, методы и события команды (ADO)](command-properties-methods-and-events-ado.md)
+- [Command object (ADO)](command-object-ado.md)
+- [Command properties, methods, and events (ADO)](command-properties-methods-and-events-ado.md)
 

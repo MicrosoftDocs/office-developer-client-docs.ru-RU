@@ -18,7 +18,7 @@ ms.locfileid: "32296558"
 
 **Область применения**: Access 2013, Office 2013 
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство ActiveConnection](activeconnection-property-adox.md)
 - [Коллекция Groups](groups-collection-adox.md)

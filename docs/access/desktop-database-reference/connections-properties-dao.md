@@ -1,5 +1,5 @@
 ---
-title: Свойства подключений (DAO)
+title: Свойства Connections (DAO)
 TOCTitle: Properties
 ms:assetid: 6307670c-a363-46e2-9bad-507ae6838d03
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142231(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295746"
 ---
-# <a name="connections-properties-dao"></a>Свойства подключений (DAO)
+# <a name="connections-properties-dao"></a>Свойства Connections (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство Connections. Count (DAO)](connections-count-property-dao.md)
+- [Свойство Connections.Count (DAO)](connections-count-property-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство ComplexType. Fields (DAO)
+title: Свойство ComplexType.Fields (DAO)
 TOCTitle: Fields Property
 ms:assetid: f913a304-5e72-d1df-8d89-d4a1c3a77d99
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836981(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296061"
 ---
-# <a name="complextypefields-property-dao"></a>Свойство ComplexType. Fields (DAO)
+# <a name="complextypefields-property-dao"></a>Свойство ComplexType.Fields (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32296061"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Поле
+*выражение .* Поля
 
-*Expression (выражение* ) Переменная, представляющая объект **complexType** .
+*выражение* Переменная, представляюная объект **ComplexType.**
 

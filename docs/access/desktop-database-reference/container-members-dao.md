@@ -1,5 +1,5 @@
 ---
-title: Элементы контейнеров (DAO)
+title: Контейнерные члены (DAO)
 TOCTitle: Container Members
 ms:assetid: bdf7aeff-0203-7880-99b4-db5b55e98d33
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822740(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295655"
 ---
-# <a name="container-members-dao"></a>Элементы контейнеров (DAO)
+# <a name="container-members-dao"></a>Контейнерные члены (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Объект Container группирует похожие типы объектов документа.
+Объект контейнера объединяет похожие типы объектов Document.
 
 ## <a name="properties"></a>Свойства
 
@@ -37,7 +37,7 @@ ms.locfileid: "32295655"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="container-documents-property-dao.md">Документы</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>Documents</strong> , содержащую все документы, хранящиеся в указанном объекте. Только для чтения.</p></td>
+<td><p>Возвращает <strong>коллекцию документов,</strong> которая содержит все документы, хранимые в указанном объекте. Только для чтения.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="container-name-property-dao.md">Name</a></strong></p></td>

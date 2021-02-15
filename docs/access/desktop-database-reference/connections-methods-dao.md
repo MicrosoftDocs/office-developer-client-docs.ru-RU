@@ -1,5 +1,5 @@
 ---
-title: Методы подключений (DAO)
+title: Методы Connections (DAO)
 TOCTitle: Methods
 ms:assetid: d7994415-1890-4d9a-9aad-ddbb27f41120
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125679(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295774"
 ---
-# <a name="connections-methods-dao"></a>Методы подключений (DAO)
+# <a name="connections-methods-dao"></a>Методы Connections (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Метод Connections. Refresh (DAO)](connections-refresh-method-dao.md)
+- [Метод Connections.Refresh (DAO)](connections-refresh-method-dao.md)
 

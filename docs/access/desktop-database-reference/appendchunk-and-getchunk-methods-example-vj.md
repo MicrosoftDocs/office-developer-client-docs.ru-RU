@@ -19,7 +19,7 @@ ms.locfileid: "32297034"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере [используются методы](getchunk-method-ado.md) [AppendChunk и](appendchunk-method-ado.md) для заполнения поля изображения данными из другой записи.
+В этом примере используются методы [AppendChunk](appendchunk-method-ado.md) и [GetChunk](getchunk-method-ado.md) для заполнения поля изображения данными из другой записи.
 
 ```java 
  

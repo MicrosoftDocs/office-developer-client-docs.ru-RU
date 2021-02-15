@@ -1,5 +1,5 @@
 ---
-title: Метод Connection. OpenRecordset (DAO)
+title: Метод Connection.OpenRecordset (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: 584a3e00-7589-90f1-aa6a-5d6116f0b5b6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194324(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295851"
 ---
-# <a name="connectionopenrecordset-method-dao"></a>Метод Connection. OpenRecordset (DAO)
+# <a name="connectionopenrecordset-method-dao"></a>Метод Connection.OpenRecordset (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -22,7 +22,7 @@ ms.locfileid: "32295851"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . OpenRecordset (***имя***, ***Тип***, ***Параметры***, ***локкедит***)
+*выражение .* OpenRecordset(***Name***, ***Type***, ***Options***, ***LockEdit***)
 
 *выражение*: переменная, представляющая объект **Connection**.
 
@@ -59,9 +59,9 @@ ms.locfileid: "32295851"
 </tr>
 <tr class="odd">
 <td><p><em>Options</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Сочетание констант <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong>, которые указывают характеристики нового объекта <strong>Recordset</strong>.</p><p><strong>ПРИМЕЧАНИЕ</strong>. Константы <strong>dbConsistent</strong> и <strong>dbInconsistent</strong> являются взаимоисключающими, и использование обеих констант вызывает ошибку. Если параметры используют константу <strong>dbReadOnly</strong> , можно указать аргумент LockEdits, что приводит к ошибке.</p>
+<td><p>Сочетание констант <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong>, которые указывают характеристики нового объекта <strong>Recordset</strong>.</p><p><strong>ПРИМЕЧАНИЕ</strong>. Константы <strong>dbConsistent</strong> и <strong>dbInconsistent</strong> являются взаимоисключающими, и использование обеих констант вызывает ошибку. Если предоставить аргумент lockedits при использовании константы <strong>dbReadOnly,</strong> также будет выступать ошибка.</p>
 </td>
 </tr>
 <tr class="even">

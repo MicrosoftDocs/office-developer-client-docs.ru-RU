@@ -1,5 +1,5 @@
 ---
-title: Метод Connection. CreateQueryDef (DAO)
+title: Метод Connection.CreateQueryDef (DAO)
 TOCTitle: CreateQueryDef Method
 ms:assetid: 254fe81a-9b45-e8e7-108d-503c1c1c0fcc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191860(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295935"
 ---
-# <a name="connectioncreatequerydef-method-dao"></a>Метод Connection. CreateQueryDef (DAO)
+# <a name="connectioncreatequerydef-method-dao"></a>Метод Connection.CreateQueryDef (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

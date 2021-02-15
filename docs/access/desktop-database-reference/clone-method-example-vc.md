@@ -252,7 +252,7 @@ void PrintComError(_com_error &e)
 // EndCloneCpp 
 ```
 
-**Клонекс. h**
+**CloneX.h**
 
 ```cpp 
  

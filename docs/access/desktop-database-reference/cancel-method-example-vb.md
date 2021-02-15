@@ -19,7 +19,7 @@ ms.locfileid: "32296691"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используется метод [Cancel](cancel-method-ado.md) для отмены команды, выполняемой для объекта [Connection](connection-object-ado.md) , если соединение занято.
+В этом примере метод [Cancel](cancel-method-ado.md) используется для отмены команды, которая выполняется в [объекте Connection,](connection-object-ado.md) если подключение занято.
 
 ```vb 
  

@@ -1,5 +1,5 @@
 ---
-title: Метод Connection. Cancel (DAO)
+title: Метод Connection.Cancel (DAO)
 TOCTitle: Cancel Method
 ms:assetid: 43ad7b64-823d-3fac-e4d4-5e9514f60011
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192953(v=office.15)
@@ -14,25 +14,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295970"
 ---
-# <a name="connectioncancel-method-dao"></a>Метод Connection. Cancel (DAO)
+# <a name="connectioncancel-method-dao"></a>Метод Connection.Cancel (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Отмена
+*выражение .* Отмена
 
 *выражение*: переменная, представляющая объект **Connection**.
 
 ## <a name="remarks"></a>Примечания
 
-Используйте метод **Cancel** для завершения выполнения асинхронного вызова метода **EXECUTE** или **OpenConnection** (то есть метод вызывается с помощью параметра дбрунасинк). **Отмена** возвращает ошибку времени выполнения, если дбрунасинк не использовался в методе, который вы пытаетесь завершить.
+Используйте метод **Cancel,** чтобы завершить выполнение асинхронного вызова метода **Execute** или **OpenConnection** (то есть метод был вызван с помощью параметра dbRunAsync). **Отмена** возвращает ошибку времени запуска, если dbRunAsync не использовался в методе, который вы пытаетесь завершить.
 
-Произойдет ошибка, если после вызова метода **Cancel** вы пытаетесь ссылаться на объект, который будет создан асинхронным вызовом **OpenConnection** (то есть объект **Connection** , из которого вызывался метод **Cancel** ).
+Ошибка возникает, если после вызова метода **Cancel** вы попытались со ссылкой на объект, который был бы создан асинхронным вызовом **OpenConnection** (то есть объект **Connection,** из которого вы вызывали метод **Cancel).**
 
 ## <a name="example"></a>Пример
 
-В этом примере используется свойство **стиллексекутинг** и метод **Cancel** для асинхронного открытия объекта **Connection** .
+В этом примере свойство **StillExecuting** и метод **Cancel** используются для асинхронного открытия объекта **Connection.**
 
 ```vb
     Sub CancelConnectionX() 

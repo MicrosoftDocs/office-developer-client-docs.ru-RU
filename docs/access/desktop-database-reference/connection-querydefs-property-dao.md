@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection. QueryDefs (DAO)
+title: Свойство Connection.QueryDefs (DAO)
 TOCTitle: QueryDefs Property
 ms:assetid: b7a8bee1-fd24-32c6-ccba-abf25b879c9e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822426(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295837"
 ---
-# <a name="connectionquerydefs-property-dao"></a>Свойство Connection. QueryDefs (DAO)
+# <a name="connectionquerydefs-property-dao"></a>Свойство Connection.QueryDefs (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **QueryDef** , содержащую все объекты **QueryDef** указанного подключения. Только для чтения.
+Возвращает **коллекцию QueryDefs,** которая содержит все объекты **QueryDef** указанного подключения. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . QueryDefs
+*выражение .* QueryDefs
 
 *выражение*: переменная, представляющая объект **Connection**.
 

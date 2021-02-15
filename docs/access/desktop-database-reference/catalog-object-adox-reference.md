@@ -1,5 +1,5 @@
 ---
-title: Справочник по объектам каталога (ADOX)
+title: Справочник по объекту Catalog (ADOX)
 TOCTitle: Catalog object (ADOX)
 ms:assetid: f1d6cf51-1b7a-4d7d-8c16-d1a7468ddfc3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250228(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296586"
 ---
-# <a name="catalog-object-adox-reference"></a>Справочник по объектам каталога (ADOX)
+# <a name="catalog-object-adox-reference"></a>Справочник по объекту Catalog (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Connection.Name (DAO)
+title: Connection.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 5f4a95cd-63a3-aedf-df64-793158b2283d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194764(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295886"
 ---
-# <a name="connectionname-property-dao"></a>Свойство Connection.Name (DAO)
+# <a name="connectionname-property-dao"></a>Connection.Name (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Рретурнс имя **[подключения](connection-object-dao.md)**.
+Rreturns the name of a **[Connection](connection-object-dao.md)**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Расширением
+*выражение .* Имя
 
 *выражение*: переменная, представляющая объект **Connection**.
 
 ## <a name="remarks"></a>Примечания
 
-Можно использовать свойство **Name** объекта с оператором Visual Basic для приложений **Dim** в коде для создания других экземпляров объекта.
+Вы можете использовать свойство **Name** объекта с Visual Basic для приложений **Dim** в коде для создания других экземпляров объекта.
 

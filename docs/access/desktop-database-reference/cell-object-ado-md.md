@@ -1,5 +1,5 @@
 ---
-title: Объект Cell (ADO MD)
+title: Cell object (ADO MD)
 TOCTitle: Cell object (ADO MD)
 ms:assetid: b9d00b71-1f40-5bd1-4b89-fbdb59c552ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
@@ -14,30 +14,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296551"
 ---
-# <a name="cell-object-ado-md"></a>Объект Cell (ADO MD)
+# <a name="cell-object-ado-md"></a>Cell object (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Представляет данные на пересечении координат оси, содержащегося в наборе ячеек.
+Представляет данные на пересечении координат оси, содержащихся в ячейках.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Объект **Cell** возвращается свойством [Item](item-property-ado-md-cellset.md) объекта набора [ячеек](cellset-object-ado-md.md) .
+Объект **Cell** возвращается [свойством Item](item-property-ado-md-cellset.md) объекта [Cellset.](cellset-object-ado-md.md)
 
-С помощью коллекций и свойств объекта **Cell** можно выполнить следующие действия:
+С помощью коллекций и свойств объекта **Cell** можно сделать следующее:
 
-- Возвращает данные в **ячейке** со свойством [value](value-property-ado-md.md) .
+- Возвращает данные в **ячейке со** [свойством Value.](value-property-ado-md.md)
 
-- Возвращает строку, представляющую отформатированное отображение свойства **value** со свойством [FormattedValue](formattedvalue-property-ado-md.md) .
+- Возвращает строку, представляющую отформатированный дисплей свойства **Value** со [свойством FormattedValue.](formattedvalue-property-ado-md.md)
 
-- Возвращает порядковый номер **ячейки** в наборе **ячеек** с помощью свойства [Ordinal](ordinal-property-ado-md-cell.md) .
+- Возвращает порядковые значения ячейки **в** ячейках **с** помощью [свойства Ordinal.](ordinal-property-ado-md-cell.md)
 
-- Определите положение **ячейки** в [CubeDef](cubedef-object-ado-md.md) с помощью коллекции [Positions](positions-collection-ado-md.md) .
+- Определите положение **ячейки** в [CubeDef](cubedef-object-ado-md.md) с помощью коллекции [Positions.](positions-collection-ado-md.md)
 
-- Получение других сведений о **ячейке** с помощью стандартной коллекции [свойств](properties-collection-ado.md) ADO.
+- Получить другие сведения о **ячейке** со стандартной коллекцией [свойств](properties-collection-ado.md) ADO.
 
-Коллекция **Properties** содержит свойства, предоставляемые поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может различаться в зависимости от реализации поставщика. Просмотрите документацию для своего поставщика, чтобы получить полный список доступных свойств.
+Коллекция **Properties** содержит свойства, предоставленные поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может отличаться в зависимости от реализации поставщика. Более полный список доступных свойств см. в документации к поставщику.
 
 <table>
 <colgroup>
@@ -53,11 +53,11 @@ ms.locfileid: "32296551"
 <tbody>
 <tr class="odd">
 <td><p>BackColor</p></td>
-<td><p>Цвет фона, используемый при отображении ячейки.</p></td>
+<td><p>Цвет фона, используемый для отображения ячейки.</p></td>
 </tr>
 <tr class="even">
-<td><p>фонтфлагс</p></td>
-<td><p>Битовая анимация на шрифте.</p></td>
+<td><p>FontFlags</p></td>
+<td><p>Битоваяmas detailing effects on the font.</p></td>
 </tr>
 <tr class="odd">
 <td><p>FontName</p></td>
@@ -65,11 +65,11 @@ ms.locfileid: "32296551"
 </tr>
 <tr class="even">
 <td><p>FontSize</p></td>
-<td><p>Размер шрифта, используемого для отображения значения ячейки.</p></td>
+<td><p>Размер шрифта, используемый для отображения значения ячейки.</p></td>
 </tr>
 <tr class="odd">
 <td><p>ForeColor</p></td>
-<td><p>Цвет переднего плана, используемый при отображении ячейки.</p></td>
+<td><p>Цвет переднего плана, используемый при отобраке ячейки.</p></td>
 </tr>
 <tr class="even">
 <td><p>FormatString</p></td>

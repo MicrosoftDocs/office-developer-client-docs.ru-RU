@@ -1,5 +1,5 @@
 ---
-title: Свойство Connections. Count (DAO)
+title: Свойство Connections.Count (DAO)
 TOCTitle: Count Property
 ms:assetid: 9b2f0aaa-785a-7fe7-15c3-aea37fdacd12
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198023(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295760"
 ---
-# <a name="connectionscount-property-dao"></a>Свойство Connections. Count (DAO)
+# <a name="connectionscount-property-dao"></a>Свойство Connections.Count (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает количество объектов **[Connection](connection-object-dao.md)** в коллекции **[Connections](connections-collection-dao.md)** .
+Возвращает количество объектов **[Connection](connection-object-dao.md)** в коллекции **[Connections.](connections-collection-dao.md)**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Отсчет
+*выражение .* Count
 
-*Expression (выражение* ) Переменная, представляющая объект **Connections** .
+*выражение* Переменная, представляюная объект **Connections.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Так как члены коллекции начинаются с 0, всегда следует всегда кодировать циклы, начиная с элемента 0 и заканчивая значением свойства **Count** минус 1. Если требуется перебрать элементы коллекции, не проверяя свойство **Count** , можно использовать оператор **For Each... Следующая** команда.
+Так как члены коллекции начинаются с 0, всегда следует кодировать циклы, начиная с 0 и заканчивая значением свойства **Count** минус 1. Если вы хотите обоймить члены коллекции, не проверяя свойство **Count,** можно использовать объект **For Each... Следующая** команда.
 
-Значение свойства **Count** не может быть равно null. Если его значение равно 0, в коллекции отсутствуют объекты.
+Параметр **свойства Count** никогда не имеет NULL. Если его значение 0, в коллекции нет объектов.
 

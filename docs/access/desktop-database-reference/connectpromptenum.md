@@ -1,5 +1,5 @@
 ---
-title: Коннектпромптенум (Справочник по базам данных Access на компьютере)
+title: ConnectPromptEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: ConnectPromptEnum
 ms:assetid: 81dff685-b2e4-467e-75cc-b8c5bf80fb75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249561(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32295669"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, следует ли отображать диалоговое окно с запросом на отсутствие параметров при открытии подключения к источнику данных.
+Указывает, должно ли отображаться диалоговое окно с запросом отсутствующих параметров при открытии подключения к источнику данных.
 
 <br/>
 
@@ -37,24 +37,24 @@ ms.locfileid: "32295669"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адпромпталвайс</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Всегда запрашивать.</p></td>
+<td><p><strong>adPromptAlways</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Запросы всегда.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпромпткомплете</strong></p></td>
-<td><p>2</p></td>
-<td><p>Запрашивает, требуются ли дополнительные сведения.</p></td>
+<td><p><strong>adPromptComplete</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Запрос, если требуются дополнительные сведения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адпромпткомплетерекуиред</strong></p></td>
-<td><p>4</p></td>
-<td><p>Запрашивает, если требуются дополнительные сведения, но необязательные параметры не допускаются.</p></td>
+<td><p><strong>adPromptCompleteRequired</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Запросы, если требуются дополнительные сведения, но необязательные параметры не разрешены.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпромптневер</strong></p></td>
+<td><p><strong>adPromptNever</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Никогда не запрашиваться.</p></td>
+<td><p>Никогда не выговоров.</p></td>
 </tr>
 </tbody>
 </table>
@@ -62,7 +62,7 @@ ms.locfileid: "32295669"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -75,16 +75,16 @@ ms.locfileid: "32295669"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Коннектпромпт. ALWAYS</p></td>
+<td><p>AdoEnums.ConnectPrompt.ALWAYS</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Коннектпромпт. COMPLETE</p></td>
+<td><p>AdoEnums.ConnectPrompt.COMPLETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Коннектпромпт. КОМПЛЕТЕРЕКУИРЕД</p></td>
+<td><p>AdoEnums.ConnectPrompt.COMPLETEREQUIRED</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Коннектпромпт. NEVER</p></td>
+<td><p>AdoEnums.ConnectPrompt.NEVER</p></td>
 </tr>
 </tbody>
 </table>

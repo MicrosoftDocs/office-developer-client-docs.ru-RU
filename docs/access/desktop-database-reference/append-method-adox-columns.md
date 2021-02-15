@@ -18,22 +18,22 @@ ms.locfileid: "32297125"
 
 **Область применения**: Access 2013, Office 2013
 
-Добавляет новый объект [Column](column-object-adox.md) в коллекцию [Columns](columns-collection-adox.md) .
+Добавляет новый [объект Column](column-object-adox.md) в коллекцию [Columns.](columns-collection-adox.md)
 
 ## <a name="syntax"></a>Синтаксис
 
-*Columns*. Добавить*столбец* \[,*тип* \] \[,*DefinedSize*\]
+*Столбцы*. Append *Column,* \[ *Type* , \] \[ *DefinedSize*\]
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Столбец* |Объект **Column** , который требуется добавить, или имя столбца для создания и добавления.|
-|*Тип* |Необязательное. **Длинное** значение, задающее тип данных столбца. Параметр *Type* соответствует свойству [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) объекта **Column** .|
-|*DefinedSize* |Необязательное. **Длинное** значение, задающее размер столбца. Параметр *DefinedSize* соответствует свойству [DefinedSize](definedsize-property-adox.md) объекта **Column** .|
+|*Столбец* |Объект **Column,** который необходимо к приложению, или имя столбца, который необходимо создать и к приложению.|
+|*Тип* |Необязательный параметр. **Длинное** значение, которое указывает тип данных столбца. Параметр *Type* соответствует свойству [Type](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox) объекта **Column.**|
+|*DefinedSize* |Необязательный параметр. **Длинное** значение, которое указывает размер столбца. Параметр *DefinedSize соответствует* свойству [DefinedSize](definedsize-property-adox.md) объекта **Column.**|
 
 
 > [!NOTE]
-> При добавлении **столбца** в коллекцию **Columns** [индекса](index-object-adox.md) , **если он не** существует в [таблице](table-object-adox.md) , которая уже добавлена в коллекцию [Tables](tables-collection-adox.md) , произойдет ошибка.
+> Ошибка будет возникать при  приложении столбца к [](index-object-adox.md) коллекции **Columns** индекса, [](table-object-adox.md) если столбец не существует в таблице, которая уже была сдана в коллекцию [Tables.](tables-collection-adox.md) 
 
 

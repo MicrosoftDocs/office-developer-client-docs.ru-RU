@@ -18,7 +18,7 @@ ms.locfileid: "32295844"
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство Attributes](attributes-property-ado.md)
 - [Свойство CommandTimeout](commandtimeout-property-ado.md)
@@ -40,7 +40,7 @@ ms.locfileid: "32295844"
 - [Методы BeginTrans, CommitTrans и RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 - [Метод Cancel](cancel-method-ado.md)
 - [Метод Close](close-method-ado.md)
-- [Метод Execute (подключение ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
+- [Метод Execute (ADO Connection)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
 - [Метод Open (Connection в ADO)](open-method-ado-connection.md)
 - [Метод OpenSchema](openschema-method-ado.md)
 

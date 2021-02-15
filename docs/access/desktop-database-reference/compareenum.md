@@ -1,5 +1,5 @@
 ---
-title: Компаринум (Справочник по базам данных Access на компьютере)
+title: CompareEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: CompareEnum
 ms:assetid: 7ac84af6-4f8b-4d1f-7eb3-a015b8b60bc6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249509(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32296068"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает относительное положение двух записей, представленных в закладках.
+Указывает относительное положение двух записей, представленных закладки.
 
 <br/>
 
@@ -37,28 +37,28 @@ ms.locfileid: "32296068"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адкомпарикуал</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Указывает, что закладки совпадают.</p></td>
+<td><p><strong>adCompareEqual</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Указывает, что закладки равны.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адкомпарегреатерсан</strong></p></td>
-<td><p>2</p></td>
-<td><p>Указывает, что первая закладка находится после секунды.</p></td>
+<td><p><strong>adCompareGreaterThan</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Указывает, что первая закладка находится после второй.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адкомпарелесссан</strong></p></td>
-<td><p>нуль</p></td>
-<td><p>Указывает, что первая закладка предшествует второй.</p></td>
+<td><p><strong>adCompareLessThan</strong></p></td>
+<td><p>0</p></td>
+<td><p>Указывает, что первая закладка находится перед второй.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адкомпареноткомпарабле</strong></p></td>
+<td><p><strong>adCompareNotComparable</strong></p></td>
 <td><p>4 </p></td>
 <td><p>Указывает, что закладки невозможно сравнить.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адкомпаренотекуал</strong></p></td>
-<td><p>4</p></td>
+<td><p><strong>adCompareNotEqual</strong></p></td>
+<td><p>3 </p></td>
 <td><p>Указывает, что закладки не равны и не упорядочены.</p></td>
 </tr>
 </tbody>
@@ -67,7 +67,7 @@ ms.locfileid: "32296068"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -80,19 +80,19 @@ ms.locfileid: "32296068"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Compare. EQUALs</p></td>
+<td><p>AdoEnums.Compare.EQUAL</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Compare. GREATERTHAN</p></td>
+<td><p>AdoEnums.Compare.GREATERTHAN</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Compare. ЛЕСССАН</p></td>
+<td><p>AdoEnums.Compare.LESSTHAN</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Compare. НОТКОМПАРАБЛЕ</p></td>
+<td><p>AdoEnums.Compare.NOTCOMPARABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Compare. NOTEQUAL</p></td>
+<td><p>AdoEnums.Compare.NOTEQUAL</p></td>
 </tr>
 </tbody>
 </table>

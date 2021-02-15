@@ -1,5 +1,5 @@
 ---
-title: Свойство Clustered (ADOX)
+title: Кластерное свойство (ADOX)
 TOCTitle: Clustered property (ADOX)
 ms:assetid: 60e82234-a21c-eec8-edbd-b9a339529e97
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249354(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296285"
 ---
-# <a name="clustered-property-adox"></a>Свойство Clustered (ADOX)
+# <a name="clustered-property-adox"></a>Кластерное свойство (ADOX)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, является ли индекс кластеризованным.
+Указывает, кластер ли индекс.
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает и возвращает **логическое** значение.
+Задает и возвращает значение **boolean.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Значение по умолчанию — **False**.
 
-Это свойство доступно только для чтения для объектов [индекса](index-object-adox.md) , уже добавленных в коллекцию.
+Это свойство доступно только для чтения в [объектах Index,](index-object-adox.md) которые уже были appended в коллекцию.
 

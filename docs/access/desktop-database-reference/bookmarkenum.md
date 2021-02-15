@@ -1,5 +1,5 @@
 ---
-title: Букмаркенум (Справочник по базам данных Access на компьютере)
+title: BookmarkEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: BookmarkEnum
 ms:assetid: 75cf5edd-bcb6-ab61-8703-73775cce91de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249482(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32296782"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает на закладку, указывающую, где должна начинаться операция.
+Указывает закладку, указывающее место начала операции.
 
 <br/>
 
@@ -37,18 +37,18 @@ ms.locfileid: "32296782"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адбукмарккуррент</strong></p></td>
-<td><p>нуль</p></td>
+<td><p><strong>adBookmarkCurrent</strong></p></td>
+<td><p>0</p></td>
 <td><p>Начинается с текущей записи.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адбукмаркфирст</strong></p></td>
-<td><p>1,1</p></td>
+<td><p><strong>adBookmarkFirst</strong></p></td>
+<td><p>1 </p></td>
 <td><p>Начинается с первой записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адбукмаркласт</strong></p></td>
-<td><p>2</p></td>
+<td><p><strong>adBookmarkLast</strong></p></td>
+<td><p>2 </p></td>
 <td><p>Начинается с последней записи.</p></td>
 </tr>
 </tbody>
@@ -57,7 +57,7 @@ ms.locfileid: "32296782"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -70,13 +70,13 @@ ms.locfileid: "32296782"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Bookmark. CURRENT</p></td>
+<td><p>AdoEnums.Bookmark.CURRENT</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Bookmark. FIRST</p></td>
+<td><p>AdoEnums.Bookmark.FIRST</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Bookmark. LAST</p></td>
+<td><p>AdoEnums.Bookmark.LAST</p></td>
 </tr>
 </tbody>
 </table>
