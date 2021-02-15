@@ -238,7 +238,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-**Аддневкс. h**
+**AddNewX.h**
 
 ```cpp 
  

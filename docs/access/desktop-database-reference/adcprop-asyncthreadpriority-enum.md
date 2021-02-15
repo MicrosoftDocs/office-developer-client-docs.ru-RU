@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281903"
 ---
-# <a name="adcprop_asyncthreadpriority_enum"></a>Перечисление АДКПРОП\_асинксреадприорити\_
+# <a name="adcprop_asyncthreadpriority_enum"></a>ADCPROP \_ ASYNCTHREADPRIORITY \_ ENUM
 
 **Область применения**: Access 2013, Office 2013
 
-Для объекта [RECORDSET](recordset-object-ado.md) RDS указывает приоритет выполнения асинхронного потока, который получает данные.
+Для объекта RDS [Recordset](recordset-object-ado.md) указывает приоритет выполнения асинхронного потока, который извлекает данные.
 
-Используйте эти константы с динамическим свойством **Recordset** "**приоритет фонового потока**", на который ссылается индекс динамического свойства ADO и задокументированы в документации [службы курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) .
+Используйте эти константы с динамическим свойством **Recordset** **Background Thread Priority,** на которое ссылается динамический индекс свойств ADO и задокументировано в документации microsoft [Cursor Service для OLE DB.](microsoft-cursor-service-for-ole-db-ado-service-component.md)
 
 <br/>
 
@@ -39,36 +39,36 @@ ms.locfileid: "32281903"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адприоритябовенормал</strong></p></td>
+<td><p><strong>adPriorityAboveNormal</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Задает приоритет между обычным и максимальным приоритетом.</p></td>
+<td><p>Устанавливает приоритет между обычным и наивысшим.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адприоритибеловнормал</strong></p></td>
-<td><p>2</p></td>
-<td><p>Задает приоритет между самым низким и нормальным.</p></td>
+<td><p><strong>adPriorityBelowNormal</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Устанавливает приоритет между минимальным и обычным.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адприоритихигхест</strong></p></td>
+<td><p><strong>adPriorityHighest</strong></p></td>
 <td><p>5 </p></td>
-<td><p>Задает максимально возможный приоритет.</p></td>
+<td><p>Устанавливает наивысший из возможных приоритетов.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адприоритиловест</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Устанавливает минимально возможный приоритет.</p></td>
+<td><p><strong>AdPriorityLowest</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Устанавливает самый низкий из возможных приоритетов.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адприоритинормал</strong></p></td>
-<td><p>4</p></td>
-<td><p>Устанавливает для приоритета значение Обычная.</p></td>
+<td><p><strong>adPriorityNormal</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Устанавливает обычный приоритет.</p></td>
 </tr>
 </tbody>
 </table>
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -81,19 +81,19 @@ ms.locfileid: "32281903"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Адкпропасинксреадприорити. АБОВЕНОРМАЛ</p></td>
+<td><p>AdoEnums.AdcPropAsyncThreadPriority.ABOVENORMAL</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Адкпропасинксреадприорити. БЕЛОВНОРМАЛ</p></td>
+<td><p>AdoEnums.AdcPropAsyncThreadPriority.BELOWNORMAL</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Адкпропасинксреадприорити. ВЫСШИй</p></td>
+<td><p>AdoEnums.AdcPropAsyncThreadPriority.HIGHEST</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Адкпропасинксреадприорити. НИЗШИй</p></td>
+<td><p>AdoEnums.AdcPropAsyncThreadPriority.LOWEST</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Адкпропасинксреадприорити. NORMAL</p></td>
+<td><p>AdoEnums.AdcPropAsyncThreadPriority.NORMAL</p></td>
 </tr>
 </tbody>
 </table>

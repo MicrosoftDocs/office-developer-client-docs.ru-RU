@@ -1,5 +1,5 @@
 ---
-title: Методы ADOX (Справочник по базам данных Access на компьютере)
+title: Методы ADOX (справочник по базам данных Access для настольных ПК)
 TOCTitle: ADOX methods
 ms:assetid: 1a2eed52-2b09-e528-2cdc-134df3c9441f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248947(v=office.15)
@@ -33,44 +33,44 @@ ms.locfileid: "32270009"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><a href="append-method-adox-columns.md">Append (столбцы)</a></p></td>
-<td><p>Добавляет новый объект <strong>Column</strong> в коллекцию <strong>Columns</strong> .</p></td>
+<td><p><a href="append-method-adox-columns.md">Append (Columns)</a></p></td>
+<td><p>Добавляет новый <strong>объект Column</strong> в коллекцию <strong>Columns.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="append-method-adox-groups.md">Append (группы)</a></p></td>
-<td><p>Добавляет новый объект <strong>Group</strong> в коллекцию <strong>Groups</strong> .</p></td>
+<td><p><a href="append-method-adox-groups.md">Приложение (группы)</a></p></td>
+<td><p>Добавляет новый <strong>объект Group</strong> в <strong>коллекцию Groups.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="append-method-adox-indexes.md">Append (индексы)</a></p></td>
-<td><p>Добавляет новый объект <strong>index</strong> в коллекцию <strong>indexes</strong> .</p></td>
+<td><p><a href="append-method-adox-indexes.md">Append (Indexes)</a></p></td>
+<td><p>Добавляет новый <strong>объект Index</strong> в <strong>коллекцию Indexes.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="append-method-adox-keys.md">Append (Keys)</a></p></td>
-<td><p>Добавляет новый объект <strong>Key</strong> в коллекцию <strong>Keys</strong> .</p></td>
+<td><p>Добавляет новый <strong>объект Key</strong> в коллекцию <strong>Keys.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="append-method-adox-procedures.md">Append (процедуры)</a></p></td>
-<td><p>Добавляет новый объект <strong>PROCEDURE</strong> в коллекцию <strong>процедур</strong> .</p></td>
+<td><p><a href="append-method-adox-procedures.md">Append (Procedures)</a></p></td>
+<td><p>Добавляет новый <strong>объект Procedure</strong> в <strong>коллекцию Procedures.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="append-method-adox-tables.md">Добавление (таблицы)</a></p></td>
-<td><p>Добавляет новый объект <strong>Table</strong> в коллекцию <strong>Tables</strong> .</p></td>
+<td><p><a href="append-method-adox-tables.md">Append (Tables)</a></p></td>
+<td><p>Добавляет новый <strong>объект Table</strong> в коллекцию <strong>Tables.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="append-method-adox-users.md">Append (пользователи)</a></p></td>
-<td><p>Добавляет новый объект <strong>User</strong> в коллекцию <strong>Users</strong> .</p></td>
+<td><p><a href="append-method-adox-users.md">Приложение (пользователи)</a></p></td>
+<td><p>Добавляет новый <strong>объект User</strong> в <strong>коллекцию Users.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="append-method-adox-views.md">Append (представления)</a></p></td>
-<td><p>Добавляет новый объект <strong>View</strong> в коллекцию <strong>views</strong> .</p></td>
+<td><p><a href="append-method-adox-views.md">Append (Views)</a></p></td>
+<td><p>Добавляет новый объект <strong>View</strong> в коллекцию <strong>Views.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="changepassword-method-adox.md">ChangePassword</a></p></td>
 <td><p>Изменяет пароль для учетной записи пользователя.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="create-method-adox.md">создание</a>;</p></td>
-<td><p>Создает новый каталог.</p></td>
+<td><p><a href="create-method-adox.md">Создание</a></p></td>
+<td><p>Создает каталог.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="delete-method-adox-collections.md">удаление</a>;</p></td>
@@ -82,7 +82,7 @@ ms.locfileid: "32270009"
 </tr>
 <tr class="odd">
 <td><p><a href="getpermissions-method-adox.md">GetPermissions</a></p></td>
-<td><p>Возвращает разрешения для группы или пользователя в объекте.</p></td>
+<td><p>Возвращает разрешения для группы или пользователя для объекта.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/setobjectowner-method-adox">SetObjectOwner</a></p></td>
@@ -90,7 +90,7 @@ ms.locfileid: "32270009"
 </tr>
 <tr class="odd">
 <td><p><a href="setpermissions-method-adox.md">SetPermissions</a></p></td>
-<td><p>Задает разрешения для группы или пользователя для объекта.</p></td>
+<td><p>Указывает разрешения для группы или пользователя для объекта.</p></td>
 </tr>
 </tbody>
 </table>

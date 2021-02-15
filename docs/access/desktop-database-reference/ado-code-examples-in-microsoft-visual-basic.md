@@ -18,16 +18,16 @@ ms.locfileid: "32282446"
 
 **Область применения**: Access 2013, Office 2013
 
-Используйте приведенные ниже примеры кода, чтобы узнать, как использовать методы, свойства и события ADO при написании текста на языке Visual Basic.
+Используйте следующие примеры кода, чтобы узнать, как использовать методы, свойства и события ADO при записи в Visual Basic.
 
 > [!NOTE]
-> Вставьте весь пример кода, начиная с начала до конца, в редакторе кода. Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.
+> В качестве примера кода в редакторе кода в качестве примера можно привести весь код. Пример может не работать правильно, если используются частичные примеры или потеряно форматирование абзаца.
 
 ## <a name="methods"></a>Methods
 
 - [Пример метода AddNew](addnew-method-example-vb.md)
 - [Пример методов Append и CreateParameter](append-and-createparameter-methods-example-vb.md)
-- [Пример методов AppendChunk и методического блока](appendchunk-and-getchunk-methods-example-vb.md)
+- [Пример методов AppendChunk и GetChunk](appendchunk-and-getchunk-methods-example-vb.md)
 - [Пример методов BeginTrans, CommitTrans и RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-example-vb.md)
 - [Пример метода Cancel](cancel-method-example-vb.md)
 - [Пример метода Clone](clone-method-example-vb.md)
@@ -49,10 +49,10 @@ ms.locfileid: "32282446"
 - [Пример метода OpenSchema](openschema-method-example-vb.md)
 - [Пример методов Read, ReadText, Write и WriteText](read-readtext-write-and-writetext-methods-example-vb.md)
 - [Пример метода Refresh](refresh-method-example-vb.md)
-- [Пример метода Resync для повторной синхронизации](resync-method-example-vb.md)
-- [Пример методов Save и Open](save-and-open-methods-example-vb.md)
-- [Пример метода Seek и свойства index](seek-method-and-index-property-example-vb.md)
-- [Пример метода поддержки](supports-method-example-vb.md)
+- [Пример метода Resync](resync-method-example-vb.md)
+- [Пример сохранения и открытия методов](save-and-open-methods-example-vb.md)
+- [Пример метода Seek и свойства Index](seek-method-and-index-property-example-vb.md)
+- [Пример метода Supports](supports-method-example-vb.md)
 - [Пример методов Update и CancelUpdate](update-and-cancelupdate-methods-example-vb.md)
 - [Пример методов UpdateBatch и CancelBatch](updatebatch-and-cancelbatch-methods-example-vb.md)
 
@@ -63,24 +63,24 @@ ms.locfileid: "32282446"
 - [Пример свойства ActiveCommand](activecommand-property-example-vb.md)
 - [Пример свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vb.md)
 - [Пример свойств ActualSize и DefinedSize](actualsize-and-definedsize-properties-example-vb.md)
-- [Пример свойств атрибутов и имени](attributes-and-name-properties-example-vb.md)
+- [Пример свойств Attributes и Name](attributes-and-name-properties-example-vb.md)
 - [Пример свойств BOF, EOF и Bookmark](bof-eof-and-bookmark-properties-example-vb.md)
 - [Пример свойства CacheSize](cachesize-property-example-vb.md)
 - [Пример свойств ConnectionString, ConnectionTimeout и State](connectionstring-connectiontimeout-and-state-properties-example-vb.md)
 - [Пример использования свойства Count](count-property-example-vb.md)
 - [Пример свойств CursorType, LockType и EditMode](cursortype-locktype-and-editmode-properties-example-vb.md)
 - [Пример свойств Description, HelpContext, HelpFile, NativeError, Number, Source и SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vb.md)
-- [EOS и свойства LineSeparator, пример метода SkipLine](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
+- [Свойства EOS и LineSeparator, пример метода SkipLine](eos-and-lineseparator-properties-and-skipline-method-example-vb.md)
 - [Пример свойств Filter и RecordCount](filter-and-recordcount-properties-example-vb.md)
 - [Пример свойств IsolationLevel и Mode](isolationlevel-and-mode-properties-example-vb.md)
 - [Пример свойства Item](item-property-example-vb.md)
 - [Пример свойства MarshalOptions](marshaloptions-property-example-vb.md)
 - [Пример свойства MaxRecords](maxrecords-property-example-vb.md)
 - [Пример свойств NumericScale и Precision](ado-numericscale-and-precision-properties-example-vb.md)
-- [Пример свойства OPTIMIZE](optimize-property-example-vb.md)
+- [Пример оптимизации свойства](optimize-property-example-vb.md)
 - [Пример свойств OriginalValue и UnderlyingValue](originalvalue-and-underlyingvalue-properties-example-vb.md)
-- [Пример подготовленного свойства](prepared-property-example-vb.md)
-- [Пример свойств provider и DefaultDatabase](provider-and-defaultdatabase-properties-example-vb.md)
+- [Пример свойства Prepared](prepared-property-example-vb.md)
+- [Пример свойств Provider и DefaultDatabase](provider-and-defaultdatabase-properties-example-vb.md)
 - [Пример свойства Sort](sort-property-example-vb.md)
 - [Пример свойства Source](source-property-example-vb.md)
 - [Пример свойства State](state-property-example-vb.md)

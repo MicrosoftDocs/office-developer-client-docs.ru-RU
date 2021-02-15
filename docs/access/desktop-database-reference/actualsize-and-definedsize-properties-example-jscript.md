@@ -18,7 +18,7 @@ ms.locfileid: "32280583"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используются свойства [ActualSize](actualsize-property-ado.md) и [DefinedSize](definedsize-property-ado.md) для отображения определенного размера и фактического размера поля. Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **актуалсизежс. ASP**.
+В этом примере свойства [ActualSize](actualsize-property-ado.md) [и DefinedSize](definedsize-property-ado.md) используются для отображения определенного размера и фактического размера поля. Включите следующий код в Блокнот или другой текстовый редактор и сохраните его как **ActualSizeJS.asp.**
 
 ```javascript
 <!-- BeginActualSizeJS --> 

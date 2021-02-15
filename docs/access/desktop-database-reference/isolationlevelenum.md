@@ -1,5 +1,5 @@
 ---
-title: Исолатионлевеленум (Справочник по базам данных Access на компьютере)
+title: IsolationLevelEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: IsolationLevelEnum
 ms:assetid: 438af3f3-65ed-237d-94d8-f3aff6addd3b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249204(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32291158"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает уровень изоляции транзакции для объекта [подключения](connection-object-ado.md) .
+Указывает уровень изоляции транзакций для объекта [Connection.](connection-object-ado.md)
 
 <br/>
 
@@ -37,49 +37,49 @@ ms.locfileid: "32291158"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адксактунспеЦифиед</strong></p></td>
+<td><p><strong>adXactUnspecified</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Указывает, что поставщик использует уровень изоляции, отличный от указанного, но уровень не может быть определен.</p></td>
+<td><p>Указывает, что поставщик использует другой уровень изоляции, чем указанный, но не может быть определен.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адксактчаос</strong></p></td>
+<td><p><strong>adXactChaos</strong></p></td>
 <td><p>16 </p></td>
-<td><p>Указывает, что ожидающие изменения более изолированных транзакций не могут быть перезаписаны.</p></td>
+<td><p>Указывает, что ожидающих изменений от более изолированных транзакций невозможно перезаписать.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адксактбровсе</strong></p></td>
+<td><p><strong>adXactBrowse</strong></p></td>
 <td><p>256</p></td>
-<td><p>Указывает, что из одной транзакции можно просматривать незафиксированные изменения в других транзакциях.</p></td>
+<td><p>Указывает, что из одной транзакции можно просматривать несфиксные изменения в других транзакциях.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адксактреадункоммиттед</strong></p></td>
+<td><p><strong>adXactReadUncommitted</strong></p></td>
 <td><p>256</p></td>
-<td><p>То же, что и <strong>адксактбровсе</strong>.</p></td>
+<td><p>То же, <strong>что и adXactBrowse</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адксакткурсорстабилити</strong></p></td>
+<td><p><strong>adXactCursorStability</strong></p></td>
 <td><p>4096</p></td>
-<td><p>Указывает, что из одной транзакции вы можете просматривать изменения в других транзакциях только после того, как они были зафиксированы.</p></td>
+<td><p>Указывает, что из одной транзакции можно просматривать изменения в других транзакциях только после того, как они были зафиксированы.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адксактреадкоммиттед</strong></p></td>
+<td><p><strong>adXactReadCommitted</strong></p></td>
 <td><p>4096</p></td>
-<td><p>То же, что и <strong>адксакткурсорстабилити</strong>.</p></td>
+<td><p>То же, <strong>что и adXactCursorStability.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адксактрепеатаблереад</strong></p></td>
+<td><p><strong>adXactRepeatableRead</strong></p></td>
 <td><p>65536</p></td>
-<td><p>Указывает, что из одной транзакции невозможно увидеть изменения, внесенные в другие транзакции, но это может привести к извлечению новых объектов <strong>Recordset</strong> .</p></td>
+<td><p>Указывает, что из одной транзакции невозможно увидеть изменения, внесенные в другие транзакции, но при повторном указании можно получить <strong>новые объекты Recordset.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адксактисолатед</strong></p></td>
+<td><p><strong>adXactIsolated</strong></p></td>
 <td><p>1048576</p></td>
-<td><p>Указывает на то, что транзакции проведены в изоляции других транзакций.</p></td>
+<td><p>Указывает, что транзакции проводятся отдельно от других транзакций.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адксактсериализабле</strong></p></td>
+<td><p><strong>adXactSerializable</strong></p></td>
 <td><p>1048576</p></td>
-<td><p>То же, что и <strong>адксактисолатед</strong>.</p></td>
+<td><p>То же, <strong>что и adXactIsolated.</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -87,7 +87,7 @@ ms.locfileid: "32291158"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -100,31 +100,31 @@ ms.locfileid: "32291158"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. IsolationLevel. unspecifieded</p></td>
+<td><p>AdoEnums.IsolationLevel.UNSPECIFIED</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. IsolationLevel. беспорядок</p></td>
+<td><p>AdoEnums.IsolationLevel.ISOLATION</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. IsolationLevel. BROWSE</p></td>
+<td><p>AdoEnums.IsolationLevel.BROWSE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. IsolationLevel. РЕАДУНКОММИТТЕД</p></td>
+<td><p>AdoEnums.IsolationLevel.READUNCOMMITTED</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. IsolationLevel. КУРСОРСТАБИЛИТИ</p></td>
+<td><p>AdoEnums.IsolationLevel.CURSORSTABILITY</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. IsolationLevel. РЕАДКОММИТТЕД</p></td>
+<td><p>AdoEnums.IsolationLevel.READCOMMITTED</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. IsolationLevel. РЕПЕАТАБЛЕРЕАД</p></td>
+<td><p>AdoEnums.IsolationLevel.REPEATABLEREAD</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. IsolationLevel. изоляция</p></td>
+<td><p>AdoEnums.IsolationLevel.ISOLATED</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. IsolationLevel. SERIALIZABLE</p></td>
+<td><p>AdoEnums.IsolationLevel.SERIALIZABLE</p></td>
 </tr>
 </tbody>
 </table>

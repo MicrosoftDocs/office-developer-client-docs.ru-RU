@@ -1,5 +1,5 @@
 ---
-title: Мембертипинум (Справочник по базам данных Access на компьютере)
+title: MemberTypeEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: MemberTypeEnum
 ms:assetid: 3b6f9fff-fe54-b917-9404-927e3a627e0b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249150(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32289206"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает параметр для свойства [Type](type-property-ado-md.md) объекта [member](member-object-ado-md.md) .
+Указывает параметр для свойства [Type](type-property-ado-md.md) объекта [Member.](member-object-ado-md.md)
 
 <br/>
 
@@ -37,28 +37,28 @@ ms.locfileid: "32289206"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адмембералл</strong></p></td>
+<td><p><strong>adMemberAll</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Указывает, что объект <strong>member</strong> представляет все члены уровня.</p></td>
+<td><p>Указывает, что <strong>объект Member</strong> представляет все члены уровня.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адмемберформула</strong></p></td>
-<td><p>4</p></td>
-<td><p>Указывает, что объект <strong>member</strong> вычисляется с помощью выражения формулы.</p></td>
+<td><p><strong>adMemberFormula</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Указывает, что объект <strong>Member</strong> вычисляется с помощью выражения формулы.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адмембермеасуре</strong></p></td>
-<td><p>2</p></td>
-<td><p>Указывает, что объект <strong>member</strong> принадлежит измерению Measures и представляет количественный атрибут.</p></td>
+<td><p><strong>adMemberMeasure</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Указывает, что объект <strong>Member</strong> относится к измерению Measures и представляет атрибут атрибута-атрибута.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адмемберрегулар</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Значение, используемое по умолчанию. Указывает, что объект <strong>member</strong> представляет экземпляр бизнес-объекта.</p></td>
+<td><p><strong>adMemberRegular</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Значение, используемое по умолчанию. Указывает, что <strong>объект Member</strong> представляет экземпляр бизнес-сущности.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адмемберункновн</strong></p></td>
-<td><p>нуль</p></td>
+<td><p><strong>adMemberUnknown</strong></p></td>
+<td><p>0</p></td>
 <td><p>Не удается определить тип члена.</p></td>
 </tr>
 </tbody>

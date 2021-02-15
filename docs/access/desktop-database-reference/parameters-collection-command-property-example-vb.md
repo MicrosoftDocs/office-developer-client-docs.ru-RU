@@ -1,5 +1,5 @@
 ---
-title: Коллекция Parameters, пример свойства Command (VB)
+title: Parameters Collection, пример свойства Command (VB)
 TOCTitle: Parameters Collection, Command property example (VB)
 ms:assetid: 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287932"
 ---
-# <a name="parameters-collection-command-property-example-vb"></a>Коллекция Parameters, пример свойства Command (VB)
+# <a name="parameters-collection-command-property-example-vb"></a>Parameters Collection, пример свойства Command (VB)
 
 
 **Область применения**: Access 2013, Office 2013
 
-В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) с объектом [Command](command-object-ado.md) для получения сведений о параметрах для процедуры.
+В следующем коде показано, как использовать свойство [Command](command-property-adox.md) с объектом [Command](command-object-ado.md) для получения сведений о параметрах для процедуры.
 
 ```vb 
  

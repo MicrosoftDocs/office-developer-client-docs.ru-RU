@@ -19,7 +19,7 @@ ms.locfileid: "32289765"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используется свойство [MarshalOptions](marshaloptions-property-ado.md) для указания того, какие строки отправляются обратно на сервер — все строки или только измененные строки.
+В этом примере используется свойство [MarshalOptions,](marshaloptions-property-ado.md) чтобы указать, какие строки отправляются обратно на сервер ( все строки или только измененные строки).
 
 ```cpp 
  
@@ -274,7 +274,7 @@ void PrintComError(_com_error &e)
 // EndMarshalOptionsCpp 
 ```
 
-**Маршалоптионскс. h**
+**MarshalOptionsX.h**
 
 ```cpp 
  

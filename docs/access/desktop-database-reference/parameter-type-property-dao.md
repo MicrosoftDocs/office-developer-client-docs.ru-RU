@@ -1,5 +1,5 @@
 ---
-title: Свойство Parameter. Type (DAO)
+title: Свойство Parameter.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 68205cd6-eb45-56a3-593f-e1203472037b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195248(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288023"
 ---
-# <a name="parametertype-property-dao"></a>Свойство Parameter. Type (DAO)
+# <a name="parametertype-property-dao"></a>Свойство Parameter.Type (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -25,13 +25,13 @@ ms.locfileid: "32288023"
 
 *выражение* .Type
 
-*Expression (выражение* ) Переменная, представляющая объект **Parameter** .
+*выражение* Переменная, представляюная объект **Parameter.**
 
 ## <a name="remarks"></a>Примечания
 
-Параметр или возвращаемое значение является константой, указывающей операционный тип или тип данных. Для объекта **[Parameter](parameter-object-dao.md)** в рабочей области Microsoft Access свойство доступно только для чтения.
+Параметр или возвращаемое значение является константой, указывающей операционный тип или тип данных. Для объекта **[Parameter](parameter-object-dao.md)** в рабочей области Microsoft Access свойство имеет доступ только для чтения.
 
-В приведенной ниже таблице описаны возможные параметры и возвращаемые значения для объекта **Parameter** .
+Возможные **параметры** и возвращаемые значения для объекта Parameter описаны в следующей таблице.
 
 <table>
 <colgroup>

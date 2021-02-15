@@ -18,16 +18,16 @@ ms.locfileid: "32281820"
 
 **Область применения**: Access 2013, Office 2013
 
-Используйте приведенные ниже примеры кода, чтобы узнать, как использовать методы и свойства ADO при написании кода в Microsoft Visual J++.
+Используйте следующие примеры кода, чтобы узнать, как использовать методы и свойства ADO при написании в Microsoft Visual J++.
 
 > [!NOTE]
-> Вставьте весь пример кода, начиная с начала до конца, в редакторе кода. Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.
+> В качестве примера кода в редакторе кода в качестве примера можно привести весь код. Пример может быть некорректным, если используются частичные примеры или если форматирование абзаца потеряно.
 
 ## <a name="methods"></a>Methods
 
 - [Пример метода AddNew](addnew-method-example-vj.md)
 - [Пример методов Append и CreateParameter](append-and-createparameter-methods-example-vj.md)
-- [Пример методов AppendChunk и методического блока](appendchunk-and-getchunk-methods-example-vj.md)
+- [Пример методов AppendChunk и GetChunk](appendchunk-and-getchunk-methods-example-vj.md)
 - [Пример методов BeginTrans, CommitTrans и RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-example-vj.md)
 - [Пример метода Cancel](cancel-method-example-vj.md)
 - [Пример метода Clone](clone-method-example-vj.md)
@@ -42,9 +42,9 @@ ms.locfileid: "32281820"
 - [Пример методов Open и Close](open-and-close-methods-example-vj.md)
 - [Пример метода OpenSchema](openschema-method-example-vj.md)
 - [Пример метода Refresh](refresh-method-example-vj.md)
-- [Пример метода Resync для повторной синхронизации](resync-method-example-vj.md)
+- [Пример метода Resync](resync-method-example-vj.md)
 - [Пример методов Save и Open](save-and-open-methods-example-vj.md)
-- [Пример метода поддержки](supports-method-example-vj.md)
+- [Пример метода Supports](supports-method-example-vj.md)
 - [Пример методов Update и CancelUpdate](update-and-cancelupdate-methods-example-vj.md)
 - [Пример методов UpdateBatch и CancelBatch](updatebatch-and-cancelbatch-methods-example-vj.md)
 
@@ -55,7 +55,7 @@ ms.locfileid: "32281820"
 - [Пример свойства ActiveCommand](activecommand-property-example-vj.md)
 - [Пример свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj.md)
 - [Пример свойств ActualSize и DefinedSize](actualsize-and-definedsize-properties-example-vj.md)
-- [Пример свойств атрибутов и имени](attributes-and-name-properties-example-vj.md)
+- [Пример свойств Attributes и Name](attributes-and-name-properties-example-vj.md)
 - [Пример свойств BOF, EOF и Bookmark](bof-eof-and-bookmark-properties-example-vj.md)
 - [Пример свойства CacheSize](cachesize-property-example-vj.md)
 - [Пример свойств ConnectionString, ConnectionTimeout и State](connectionstring-connectiontimeout-and-state-properties-example-vj.md)
@@ -68,10 +68,10 @@ ms.locfileid: "32281820"
 - [Пример свойства MarshalOptions](marshaloptions-property-example-vj.md)
 - [Пример свойства MaxRecords](maxrecords-property-example-vj.md)
 - [Пример свойств NumericScale и Precision](numericscale-and-precision-properties-example-vj.md)
-- [Пример свойства OPTIMIZE](optimize-property-example-vj.md)
+- [Пример оптимизации свойства](optimize-property-example-vj.md)
 - [Пример свойств OriginalValue и UnderlyingValue](originalvalue-and-underlyingvalue-properties-example-vj.md)
-- [Пример подготовленного свойства](prepared-property-example-vj.md)
-- [Пример свойств provider и DefaultDatabase](provider-and-defaultdatabase-properties-example-vj.md)
+- [Пример свойства Prepared](prepared-property-example-vj.md)
+- [Пример свойств Provider и DefaultDatabase](provider-and-defaultdatabase-properties-example-vj.md)
 - [Пример свойства Sort](sort-property-example-vj.md)
 - [Пример свойства Source](source-property-example-vj.md)
 - [Пример свойства State](state-property-example-vj.md)

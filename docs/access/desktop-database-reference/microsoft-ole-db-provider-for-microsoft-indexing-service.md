@@ -19,20 +19,20 @@ ms.locfileid: "32288920"
 
 **Область применения**: Access 2013, Office 2013
 
-Поставщик Microsoft OLE DB для Microsoft Indexing Service предоставляет программный доступ только для чтения к файловой системе и веб-данным, индексируемым службой индексирования Microsoft. Приложения ADO могут выдать запросы SQL для получения сведений о содержимом и свойствах файлов.
+Поставщик Microsoft OLE DB для службы индексации Майкрософт предоставляет программный доступ только для чтения к файловой системе и веб-данным, индексным службой Microsoft Indexing Service. Приложения ADO могут SQL запросы для получения сведений о содержимом и свойстве файла.
 
-Поставщик доступен для бесплатных потоков и включен Юникод.
+Поставщик имеет свободный поток и Юникод включен.
 
 ## <a name="connection-string-parameters"></a>Параметры строки подключения
 
-Чтобы подключиться к поставщику, присвойте аргументу **provider =** свойство [ConnectionString](connectionstring-property-ado.md) значение:
+Чтобы подключиться к этому поставщику, установите для **аргумента Provider=** свойство [ConnectionString:](connectionstring-property-ado.md)
 
 ```vb 
  
 MSIDXS 
 ```
 
-Считывание свойства [provider](provider-property-ado.md) также возвратит эту строку.
+При [чтении свойства Provider](provider-property-ado.md) также будет возвращена эта строка.
 
 ## <a name="typical-connection-string"></a>Типичная строка подключения
 
@@ -43,7 +43,7 @@ MSIDXS
 "Provider=MSIDXS;Data Source=myCatalog;Locale Identifier=nnnn;" 
 ```
 
-Строка состоит из следующих ключевых слов:
+Строка состоит из таких ключевых слов:
 
 <table>
 <colgroup>
@@ -59,15 +59,15 @@ MSIDXS
 <tbody>
 <tr class="odd">
 <td><p><strong>Поставщик</strong></p></td>
-<td><p>Указывает поставщика OLE DB для службы индексирования (Майкрософт). Как правило, это единственное ключевое слово, указанное в строке подключения.</p></td>
+<td><p>Указывает поставщика OLE DB для службы индексации Майкрософт. Обычно это единственное ключевое слово, указанное в строке подключения.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Источник данных</strong></p></td>
-<td><p>Указывает имя каталога службы индексирования. Если это ключевое слово не задано, используется системный каталог по умолчанию.</p></td>
+<td><p>Указывает имя каталога службы индексации. Если это ключевое слово не указано, используется системный каталог по умолчанию.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>Идентификатор языкового стандарта</strong></p></td>
-<td><p>Задает уникальное 32-разрядное число (например, 1033), которое определяет параметры, связанные с языком пользователя. Эти установки указывают, как форматируется Дата и время, сортируются элементы в алфавитном порядке, сравниваются строки и т. д. Если это ключевое слово не задано, используется идентификатор языка системы по умолчанию.</p></td>
+<td><p><strong>Код локального идентификатора</strong></p></td>
+<td><p>Указывает уникальный 32-битный номер (например, 1033), который определяет параметры, связанные с языком пользователя. Эти параметры указывают, как форматированы даты и время, элементы отсортированы в алфавитном порядке, сравниваются строки и так далее. Если это ключевое слово не указано, используется идентификатор стандартного системного региональных стандарта.</p></td>
 </tr>
 </tbody>
 </table>
@@ -75,19 +75,19 @@ MSIDXS
 
 ## <a name="command-text"></a>Текст команды
 
-Синтаксис запроса SQL службы индексирования состоит из расширений для оператора **SELECT** sql – 92 и предложений **from** и **WHERE** . Результаты запроса возвращаются с помощью наборов строк OLE DB, которые могут обрабатываться ADO и обрабатываться как объекты [Recordset](recordset-object-ado.md) .
+Синтаксис SQL службы индексации состоит из расширений для заявления SQL-92 **SELECT** и его предложений **FROM** и **WHERE.** Результаты запроса возвращаются с помощью наборов строк OLE DB, которые могут быть потребляться ADO и управляться как [объекты Recordset.](recordset-object-ado.md)
 
-Можно искать точные слова или фразы или использовать подстановочные знаки для поиска шаблонов или основных фрагментов слов. Логика поиска может основываться на логических решениях, взвешенных терминах или сходстве с другими словами. Вы также можете выполнять поиск по слову "свободный текст", который находит совпадения, в зависимости от значения, а не точных слов.
+Вы можете искать точные слова или фразы или использовать под шаблоны для поиска шаблонов или стеблей слов. Логика поиска может основываться на логических решениях, взвешеных терминах или близости к другим словам. Вы также можете искать по слову "свободный текст", который находит совпадения по значению, а не точным словам.
 
-Поставщик не принимает вызовы хранимых процедур или простые имена таблиц (например, свойство [CommandType](commandtype-property-ado.md) всегда будет **адкмдтекст**).
+Поставщик не принимает хранимые вызовы процедур или простые имена таблиц (например, свойство [CommandType](commandtype-property-ado.md) всегда будет **adCmdText).**
 
-## <a name="recordset-behavior"></a>Поведение набора записей
+## <a name="recordset-behavior"></a>Поведение наборов записей
 
-В следующих таблицах перечислены возможности, доступные при использовании объекта **Recordset** , открытого с помощью этого поставщика. Доступен только статический тип курсора (**адопенстатик**).
+В следующих таблицах фиксировать функции, доступные с **объектом Recordset,** открытым у этого поставщика. Доступен только тип статического курсора **(adOpenStatic).**
 
-Для получения более подробных сведений о поведении **набора записей** для конфигурации поставщика [запустите метод](supports-method-ado.md) Supports и перечислите коллекцию [свойств](properties-collection-ado.md) объекта **Recordset** , чтобы определить, присутствуют ли динамические свойства, зависящие от поставщика.
+Для получения более подробных сведений о поведении **объекта Recordset** для конфигурации поставщика запустите метод [Supports](supports-method-ado.md) и нумеруйте коллекцию [свойств](properties-collection-ado.md) объекта **Recordset,** чтобы определить, присутствуют ли динамические свойства для конкретного поставщика.
 
-Доступность стандартных свойств **записей** ADO:
+Доступность стандартных свойств объекта **ADO Recordset:**
 
 <table>
 <colgroup>
@@ -103,51 +103,51 @@ MSIDXS
 <tbody>
 <tr class="odd">
 <td><p><a href="absolutepage-property-ado.md">AbsolutePage</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="absoluteposition-property-ado.md">AbsolutePosition</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="activeconnection-property-ado.md">ActiveConnection</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">BOF</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="bookmark-property-ado.md">Закладка</a>*</p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cursorlocation-property-ado.md">CursorLocation</a></p></td>
-<td><p>всегда <strong>адусесервер</strong></p></td>
+<td><p>always <strong>adUseServer</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cursortype-property-ado.md">CursorType</a></p></td>
-<td><p>всегда <strong>адопенстатик</strong></p></td>
+<td><p>always <strong>adOpenStatic</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="editmode-property-ado.md">EditMode</a></p></td>
-<td><p>всегда <strong>адедитноне</strong></p></td>
+<td><p>always <strong>adEditNone</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">EOF</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p><a href="filter-property-ado.md">Фильтр</a></p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="locktype-property-ado.md">LockType</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
@@ -155,39 +155,39 @@ MSIDXS
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="pagecount-property-ado.md">PageCount</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="pagesize-property-ado.md">PageSize</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="recordcount-property-ado.md">RecordCount</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="source-property-ado-recordset.md">Source</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="state-property-ado.md">State</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="status-property-ado-recordset.md">Состояние</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 </tbody>
 </table>
 
 
-\*Для того чтобы эта функция существовала в **наборе записей**, в поставщике должны быть включены закладки.
+\*Чтобы эта функция существовала в наборе **записей,** необходимо включить закладки у поставщика.
 
-Доступность стандартных методов **набора записей** ADO:
+Доступность стандартных методов ADO **Recordset:**
 
 <table>
 <colgroup>
@@ -197,7 +197,7 @@ MSIDXS
 <thead>
 <tr class="header">
 <th><p>Method</p></th>
-<th><p>Доступность?</p></th>
+<th><p>Доступно?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -258,7 +258,7 @@ MSIDXS
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="supports-method-ado.md">Имеется</a></p></td>
+<td><p><a href="supports-method-ado.md">Поддерживает</a></p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
@@ -275,5 +275,5 @@ MSIDXS
 
 ## <a name="see-also"></a>См. также
 
-Для получения подробных сведений о реализации и функциональных сведений о поставщике Microsoft OLE DB для Microsoft Indexing Service обратитесь к справочным материалам программиста Microsoft OLE DB.
+Подробные сведения о реализации и функциональные сведения о поставщике Microsoft OLE DB для службы индексации Майкрософт можно получить в справочнике программиста Microsoft OLE DB.
 

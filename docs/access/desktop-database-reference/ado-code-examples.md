@@ -1,5 +1,5 @@
 ---
-title: Примеры кода объектов данных ActiveX (ADO)
+title: ActiveX кода объектов данных (ADO)
 TOCTitle: ADO code examples
 ms:assetid: ef019dc7-bb60-a989-f0eb-2ba0644b3fde
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250213(v=office.15)
@@ -18,10 +18,10 @@ ms.locfileid: "32281813"
 
 **Область применения**: Access 2013, Office 2013
 
-Используйте приведенные ниже примеры кода, чтобы узнать, как использовать объекты ADO, методы, свойства и события.
+Используйте следующие примеры кода, чтобы узнать, как использовать объекты, методы, свойства и события ADO.
 
 > [!NOTE]
-> Вставьте весь пример кода в редакторе кода. Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.
+> В paste the entire code example into your code editor. Пример может не работать правильно, если используются частичные примеры или потеряно форматирование абзаца.
 
 - [Примеры кода ADO в Microsoft Visual Basic](ado-code-examples-in-microsoft-visual-basic.md)
 - [Примеры кода ADO на языке сценариев VBScript](ado-code-examples-in-microsoft-visual-basic-scripting-edition.md)

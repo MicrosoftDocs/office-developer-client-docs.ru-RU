@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280441"
 ---
-# <a name="adcprop_updateresync_enum"></a>Перечисление АДКПРОП\_упдатересинк\_
+# <a name="adcprop_updateresync_enum"></a>ADCPROP \_ UPDATERESYNC \_ ENUM
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, следует ли метод [UpdateBatch](updatebatch-method-ado.md) выполнить неявную операцию метода [Resync](resync-method-ado.md) и, если это так, область этой операции.
+Указывает, следует ли за [методом UpdateBatch](updatebatch-method-ado.md) неявную операцию метода [Resync](resync-method-ado.md) и, если да, область этой операции.
 
 <br/>
 
@@ -37,34 +37,34 @@ ms.locfileid: "32280441"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адресинкалл</strong></p></td>
+<td><p><strong>adResyncAll</strong></p></td>
 <td><p>15 </p></td>
-<td><p>Вызывает <strong>повторную синхронизацию</strong> со объединенным значением всех других элементов ADCPROP_UPDATERESYNC_ENUM.</p></td>
+<td><p>Вызывает <strong>Resync с</strong> объединенным значением всех остальных ADCPROP_UPDATERESYNC_ENUM участников.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адресинкаутоинкремент</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Значение, используемое по умолчанию. Пытается получить новое значение идентификатора для столбцов, которые автоматически увеличиваются или генерируются источником данных, например поля автонумерации Microsoft Jet или столбцы идентификаторов Microsoft SQL Server.</p></td>
+<td><p><strong>adResyncAutoIncrement</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Значение, используемое по умолчанию. Пытается получить новое значение удостоверения для столбцов, которые автоматически приращены или генерируются источником данных, например полей автонума Microsoft Jet или Microsoft SQL Server идентификатора.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адресинкконфликтс</strong></p></td>
-<td><p>2</p></td>
-<td><p>Вызывает <strong>повторную синхронизацию</strong> для всех строк, в которых произошел сбой операции обновления или удаления из-за конфликта параллелизма.</p></td>
+<td><p><strong>adResyncConflicts</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Вызывает <strong>Resync для</strong> всех строк, в которых произошел сбой операции обновления или удаления из-за конфликта.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адресинЦинсертс</strong></p></td>
+<td><p><strong>adResyncInserts</strong></p></td>
 <td><p>8 </p></td>
-<td><p>Вызывает <strong>повторную синхронизацию</strong> для всех успешно вставленных строк. Однако значения столбцов AutoIncrement не синхронизируются повторно. Вместо этого содержимое вновь вставленных строк синхронизируется в соответствии с существующим значением первичного ключа. Если первичный ключ является значением AutoIncrement, <strong>Повторная синхронизация</strong> не извлекает содержимое предполагаемой строки. Для автоматического увеличения значений первичных ключей автоприращения вызовите <strong>UpdateBatch</strong> с объединенным значением <strong>адресинкаутоинкремент</strong> + <strong>адресинЦинсертс</strong>.</p></td>
+<td><p>Вызывает <strong>Resync для</strong> всех успешно вставленных строк. Однако значения столбцов autoIncrement не синхронизируются повторно. Вместо этого содержимое новых строк повторно синхронизируется на основе существующего значения первичного ключа. Если первичный ключ имеет значение AutoIncrement, <strong>Resync</strong> не будет получать содержимое нужной строки. Для автоматического приращения значений первичного ключа autoIncrement вызовите <strong>UpdateBatch</strong> с объединенным значением <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адресинкноне</strong></p></td>
-<td><p>нуль</p></td>
-<td><p>Не вызывает <strong>повторную синхронизацию</strong>.</p></td>
+<td><p><strong>adResyncNone</strong></p></td>
+<td><p>0</p></td>
+<td><p>Не вызывает <strong>Resync</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адресинкупдатес</strong></p></td>
+<td><p><strong>adResyncUpdates</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Вызывает <strong>повторную синхронизацию</strong> для всех успешно обновленных строк.</p></td>
+<td><p>Вызывает <strong>Resync для</strong> всех успешно обновленных строк.</p></td>
 </tr>
 </tbody>
 </table>

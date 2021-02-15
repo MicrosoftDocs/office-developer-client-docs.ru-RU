@@ -18,7 +18,7 @@ ms.locfileid: "32290313"
 
 **Область применения**: Access 2013, Office 2013 
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Коллекция Columns](columns-collection-adox.md)
 - [Свойство DeleteRule](deleterule-property-adox.md)

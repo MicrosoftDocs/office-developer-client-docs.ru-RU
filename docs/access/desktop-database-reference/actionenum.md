@@ -1,5 +1,5 @@
 ---
-title: Актионенум (Справочник по базам данных Access на компьютере)
+title: ActionEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: ActionEnum
 ms:assetid: 225024c1-9088-b532-2a23-04c1aaaaa892
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248998(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32280658"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает тип действия, выполняемого при вызове [SetPermissions](setpermissions-method-adox.md) .
+Указывает тип действия, выполняемого при выполнении [действия SetPermissions.](setpermissions-method-adox.md)
 
 <table>
 <colgroup>
@@ -35,24 +35,24 @@ ms.locfileid: "32280658"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адакцессдени</strong></p></td>
-<td><p>4</p></td>
-<td><p>Группе или пользователю будут отказано в соответствии с указанными разрешениями.</p></td>
+<td><p><strong>adAccessDeny</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Группе или пользователю будут отказано в указанных разрешениях.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адакцессгрант</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Группа или пользователь будут иметь по крайней мере запрошенные разрешения.</p></td>
+<td><p><strong>adAccessGrant</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Группа или пользователь будут иметь по крайней мере запрашиваемую разрешения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адакцессревоке</strong></p></td>
+<td><p><strong>adAccessRevoke</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Любые явные права доступа, которые будут отозваны для группы или пользователя.</p></td>
+<td><p>Любые явные права доступа, которые были у группы или пользователя, будут отозваны.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адакцесссет</strong></p></td>
-<td><p>2</p></td>
-<td><p>Группа или пользователь будут иметь только запрошенные разрешения.</p></td>
+<td><p><strong>adAccessSet</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Группа или пользователь будут иметь именно запрашиваемую разрешения.</p></td>
 </tr>
 </tbody>
 </table>

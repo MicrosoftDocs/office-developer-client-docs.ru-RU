@@ -1,5 +1,5 @@
 ---
-title: Создание экземпляра события ADO по языку (ADO)
+title: ADO event instantiation by language (ADO)
 TOCTitle: ADO event instantiation by language
 ms:assetid: d21cc0bd-8450-4f8f-92f8-78ca9861f44a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250048(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283368"
 ---
-# <a name="ado-event-instantiation-by-language-ado"></a>Создание экземпляра события ADO по языку (ADO)
+# <a name="ado-event-instantiation-by-language-ado"></a>ADO event instantiation by language (ADO)
 
 **Область применения**: Access 2013, Office 2013
 

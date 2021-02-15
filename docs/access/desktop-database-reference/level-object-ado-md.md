@@ -1,5 +1,5 @@
 ---
-title: Объект Level (ADO MD)
+title: Level object (ADO MD)
 TOCTitle: Level object (ADO MD)
 ms:assetid: ddbcabce-8777-1068-98a3-be209084f497
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250121(v=office.15)
@@ -14,30 +14,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290116"
 ---
-# <a name="level-object-ado-md"></a>Объект Level (ADO MD)
+# <a name="level-object-ado-md"></a>Level object (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Содержит набор элементов, каждый из которых имеет одинаковый ранг в иерархии.
+Содержит набор членов, каждый из которых имеет одинаковый ранг в иерархии.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-С помощью коллекций и свойств объекта **Level** можно выполнить следующие действия:
+С помощью коллекций и свойств объекта **Level** можно сделать следующее:
 
-  - Определите **уровень** с помощью свойств [Name](name-property-ado-md.md) и [UniqueName](uniquename-property-ado-md.md) .
+  - Определите **уровень** со [свойствами Name](name-property-ado-md.md) и [UniqueName.](uniquename-property-ado-md.md)
 
-  - Возвращает строку, используемую при отображении **уровня** со свойством [Caption](caption-property-ado-md.md) .
+  - Возвращает строку, которая будет применяться при отобраке **уровня** со [свойством Caption.](caption-property-ado-md.md)
 
-  - Возвращает осмысленную строку, описывающую **уровень** с помощью свойства [Description](description-property-ado-md.md) .
+  - Возвращает осмысленные строки, описывая **уровень** со [свойством Description.](description-property-ado-md.md)
 
-  - Возвращает объекты [member](member-object-ado-md.md) , составляющие **уровень** , с коллекцией [Members](members-collection-ado-md.md) .
+  - Возвращает [объекты Member,](member-object-ado-md.md) которые составляют **уровень** с [коллекцией Members.](members-collection-ado-md.md)
 
-  - Возвращает количество уровней из корня **уровня** со свойством [Depth](depth-property-ado-md.md) .
+  - Возвращает количество уровней из корневого объекта **Level** со [свойством Depth.](depth-property-ado-md.md)
 
-  - Используйте стандартную коллекцию [свойств](properties-collection-ado.md) ADO для получения дополнительных сведений об объекте **Level** .
+  - Используйте стандартную коллекцию [свойств](properties-collection-ado.md) ADO для получения дополнительных сведений об **объекте Level.**
 
-Коллекция **Properties** содержит свойства, предоставляемые поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может различаться в зависимости от реализации поставщика. Просмотрите документацию для своего поставщика, чтобы получить полный список доступных свойств.
+Коллекция **Properties** содержит свойства, предоставленные поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может отличаться в зависимости от реализации поставщика. Более полный список доступных свойств см. в документации к поставщику.
 
 <table>
 <colgroup>
@@ -52,35 +52,35 @@ ms.locfileid: "32290116"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>каталогнаме</p></td>
-<td><p>Имя каталога, к которому принадлежит куб.</p></td>
+<td><p>CatalogName</p></td>
+<td><p>Имя каталога, к которому принадлежит этот куб.</p></td>
 </tr>
 <tr class="even">
-<td><p>кубенаме</p></td>
+<td><p>CubeName</p></td>
 <td><p>Имя куба.</p></td>
 </tr>
 <tr class="odd">
 <td><p>Описание</p></td>
-<td><p>Понятное описание уровня.</p></td>
+<td><p>Осмысленное описание уровня.</p></td>
 </tr>
 <tr class="even">
-<td><p>дименсионуникуенаме</p></td>
-<td><p>Неоднозначное имя <a href="dimension-object-ado-md.md">измерения</a>.</p></td>
+<td><p>DimensionUniqueName</p></td>
+<td><p>Однозначное имя <a href="dimension-object-ado-md.md">измерения.</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>хиерарчюникуенаме</p></td>
-<td><p>Неоднозначное имя иерархии.</p></td>
+<td><p>HierarchyUniqueName</p></td>
+<td><p>Однозначное имя иерархии.</p></td>
 </tr>
 <tr class="even">
-<td><p>левелкаптион</p></td>
-<td><p>Метка или заголовок, связанные с уровнем.</p></td>
+<td><p>LevelCaption</p></td>
+<td><p>Метка или заголовок, связанный с уровнем.</p></td>
 </tr>
 <tr class="odd">
-<td><p>левелкардиналити</p></td>
-<td><p>Количество элементов на уровне.</p></td>
+<td><p>LevelCardinality</p></td>
+<td><p>Количество участников на уровне.</p></td>
 </tr>
 <tr class="even">
-<td><p>левелгуид</p></td>
+<td><p>LevelGUID</p></td>
 <td><p>GUID уровня.</p></td>
 </tr>
 <tr class="odd">
@@ -88,20 +88,20 @@ ms.locfileid: "32290116"
 <td><p>Имя уровня.</p></td>
 </tr>
 <tr class="even">
-<td><p>левелнумбер</p></td>
+<td><p>LevelNumber</p></td>
 <td><p>Расстояние между уровнем и корнем иерархии.</p></td>
 </tr>
 <tr class="odd">
-<td><p>левелтипе</p></td>
+<td><p>LevelType</p></td>
 <td><p>Тип уровня.</p></td>
 </tr>
 <tr class="even">
-<td><p>левелуникуенаме</p></td>
-<td><p>Неоднозначное имя уровня.</p></td>
+<td><p>LevelUniqueName</p></td>
+<td><p>Однозначное имя уровня.</p></td>
 </tr>
 <tr class="odd">
 <td><p>SchemaName</p></td>
-<td><p>Имя схемы, к которой принадлежит куб.</p></td>
+<td><p>Имя схемы, к которой принадлежит этот куб.</p></td>
 </tr>
 </tbody>
 </table>

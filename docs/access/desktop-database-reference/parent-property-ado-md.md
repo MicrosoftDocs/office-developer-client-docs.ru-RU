@@ -1,5 +1,5 @@
 ---
-title: Свойство Parent (ADO MD)
+title: Parent property (ADO MD)
 TOCTitle: Parent property (ADO MD)
 ms:assetid: 62649da7-d35f-f11f-674c-28ce95abaf20
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249370(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287792"
 ---
-# <a name="parent-property-ado-md"></a>Свойство Parent (ADO MD)
+# <a name="parent-property-ado-md"></a>Parent property (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает члена, который является родительским для текущего элемента в иерархии.
+Указывает член, который является родительским для текущего члена в иерархии.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает объект [member](member-object-ado-md.md) и доступен только для чтения.
+Возвращает объект [Member](member-object-ado-md.md) и является только для чтения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Элемент, расположенный на верхнем уровне иерархии (корень), не имеет родителя. Это свойство поддерживается только для объектов **member** , принадлежащих объекту [уровня](level-object-ado-md.md) . При обращении к этому свойству из объектов **member** , принадлежащих объекту [position](position-object-ado-md.md) , возникает ошибка.
+У члена, который находится на верхнем уровне иерархии (корневой) нет родительского. Это свойство поддерживается только для объектов **Member,** принадлежащих [объекту Level.](level-object-ado-md.md) Ошибка возникает, когда на это свойство ссылается объект **Member,** принадлежащий [объекту Position.](position-object-ado-md.md)
 

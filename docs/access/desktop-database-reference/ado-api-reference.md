@@ -1,5 +1,5 @@
 ---
-title: Справочник по API для объектов данных ActiveX (ADO)
+title: ActiveX API объектов данных (ADO)
 TOCTitle: ADO API reference
 ms:assetid: 0fd6aff8-dbff-50c7-649f-2d9c31aedb2f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248867(v=office.15)
@@ -18,9 +18,9 @@ ms.locfileid: "32281848"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом разделе документации объектов данных ActiveX (ADO) содержатся разделы, посвященные каждому объекту ADO, коллекции, свойству, динамическому свойству, методу, событию и перечислению. Кроме того, он содержит список индексов синтаксиса ADO, которые будут использоваться с классами Microsoft Visual C++ и Windows Foundation (WFC).
+В этом разделе документации ActiveX data Objects (ADO) содержатся разделы для каждого объекта ADO, коллекции, свойства, динамического свойства, метода, события и нумерации. Кроме того, он содержит список индексов синтаксиса ADO, которые будут использоваться с Классами Microsoft Visual C++ и Windows Foundation (WFC).
 
-Для получения дополнительных сведений выполните поиск определенной темы в индексе или ознакомьтесь со следующими разделами:
+Дополнительные сведения можно найти в индексе по определенному разделу или в следующих разделах:
 
 - [Объекты ADO](ado-objects-and-interfaces.md)
 - [Коллекции ADO](ado-collections.md)
@@ -30,5 +30,5 @@ ms.locfileid: "32281848"
 - [События ADO](ado-events.md)
 - [Перечислимые константы ADO](ado-enumerated-constants.md)
 - [Примеры кода ADO](ado-code-examples.md)
-- [Индексы синтаксиса ADO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-syntax-indexes)
+- [Синтаксис ADO](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/ado-syntax-indexes)
 

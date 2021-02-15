@@ -18,9 +18,9 @@ ms.locfileid: "32282560"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [ActiveCommand](activecommand-property-ado.md) .
+В этом примере показано [свойство ActiveCommand.](activecommand-property-ado.md)
 
-Подпрограмме предоставляется объект [Recordset](recordset-object-ado.md) , свойство **ActiveCommand** которого используется для отображения текста команды и параметра, создавшего **набор записей**.
+Подразднему предоставляется объект [Recordset,](recordset-object-ado.md) свойство **ActiveCommand** которого используется для отображения текста команды и параметра, который создал **объект Recordset.**
 
 ```java 
  

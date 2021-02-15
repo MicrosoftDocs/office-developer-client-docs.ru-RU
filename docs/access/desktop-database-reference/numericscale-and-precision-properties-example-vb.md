@@ -19,7 +19,7 @@ ms.locfileid: "32288548"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируются свойства [NumericScale](numericscale-property-adox.md) и [Precision](precision-property-adox.md) объекта [Column](column-object-adox.md) . В этом коде отображается их значение для таблицы " **сведения о заказе** " базы данных *"Борей"* .
+В этом примере демонстрируются свойства [NumericScale](numericscale-property-adox.md) и [Precision](precision-property-adox.md) объекта [Column.](column-object-adox.md) Этот код отображает их значение для **таблицы "Сведения** о заказе" базы данных *Northwind.*
 
 ```vb 
  

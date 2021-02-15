@@ -1,5 +1,5 @@
 ---
-title: Инструкция ADD USER (Microsoft Access SQL)
+title: ADD USER statement (Microsoft Access SQL)
 TOCTitle: ADD USER statement (Microsoft Access SQL)
 ms:assetid: 1feb631f-cb8c-14ae-6214-276f1faf1a55
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845862(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280427"
 ---
-# <a name="add-user-statement-microsoft-access-sql"></a>Инструкция ADD USER (Microsoft Access SQL)
+# <a name="add-user-statement-microsoft-access-sql"></a>ADD USER statement (Microsoft Access SQL)
 
 **Область применения**: Access 2013, Office 2013
 
-Добавляет одного или нескольких существующих *пользователей*s в существующую *группу*.
+Добавляет одного или несколько *существующих* пользователей в существующую *группу.*
 
 ## <a name="syntax"></a>Синтаксис
 
-Добавить пользователя *user*\[, *пользователя*,... \] Для *группировки*
+ДОБАВИТЬ *ПОЛЬЗОВАТЕЛЯ,* \[ *пользователя*, ... \] Группа  TO
 
-Оператор ADD USER состоит из следующих частей:
+В заявлении ADD USER есть такие части:
 
 <table>
 <colgroup>
@@ -40,17 +40,17 @@ ms.locfileid: "32280427"
 <tbody>
 <tr class="odd">
 <td><p><em>user</em></p></td>
-<td><p>Имя пользователя, добавляемого в информационный файл рабочей группы.</p></td>
+<td><p>Имя пользователя, добавляемого в файл сведений о группе.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>group</em></p></td>
-<td><p>Имя группы, которую необходимо добавить в файл сведений о рабочей группе.</p></td>
+<td><p>Имя группы, добавляемой в файл сведений о рабочей группе.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-После добавления *пользователя* в *группу* *пользователь* получает все разрешения, предоставленные *группе*.
+После *того как* пользователь был добавлен  в группу, он получает все разрешения, предоставленные этой *группе.*
 

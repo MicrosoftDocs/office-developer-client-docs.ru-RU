@@ -18,7 +18,7 @@ ms.locfileid: "32280641"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [ActiveCommand](activecommand-property-ado.md) . Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **активекомманджс. ASP**.
+В этом примере показано [свойство ActiveCommand.](activecommand-property-ado.md) Включите следующий код в Блокнот или другой текстовый редактор и сохраните его как **ActiveCommandJS.asp.**
 
 ```javascript
 <!-- BeginActiveCommandJS --> 

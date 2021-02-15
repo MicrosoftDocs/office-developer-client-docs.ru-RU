@@ -19,7 +19,7 @@ ms.locfileid: "32282110"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используются свойства [AbsolutePage](absolutepage-property-ado.md), [PageCount](pagecount-property-ado.md)и [pageSize](pagesize-property-ado.md) для отображения имен и дат найма из таблицы ***Employees*** , по пять записей за раз.
+В этом примере свойства [AbsolutePage,](absolutepage-property-ado.md) [PageCount](pagecount-property-ado.md)и [PageSize](pagesize-property-ado.md) используются  для отображения имен и дат найма сотрудников по пять записей за раз.
 
 ```vb 
  

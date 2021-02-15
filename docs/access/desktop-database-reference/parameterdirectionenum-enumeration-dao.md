@@ -1,5 +1,5 @@
 ---
-title: Перечисление Параметердиректионенум (DAO)
+title: ParameterDirectionEnum enumeration (DAO)
 TOCTitle: ParameterDirectionEnum Enumeration
 ms:assetid: 3f2b91f4-a932-aca5-34a0-4002c27d6b3b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192844(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287993"
 ---
-# <a name="parameterdirectionenum-enumeration-dao"></a>Перечисление Параметердиректионенум (DAO)
+# <a name="parameterdirectionenum-enumeration-dao"></a>ParameterDirectionEnum enumeration (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется вместе со свойством **Direction** , чтобы указать тип для объекта **Parameter** .
+Используется со **свойством Direction** для указания типа объекта **Parameter.**
 
 <table>
 <colgroup>
@@ -36,24 +36,24 @@ ms.locfileid: "32287993"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>дбпараминпут</p></td>
-<td><p>1,1</p></td>
-<td><p>Умолчани Передает сведения в процедуру.</p></td>
+<td><p>dbParamInput</p></td>
+<td><p>1 </p></td>
+<td><p>(По умолчанию) Передает сведения в процедуру.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбпараминпутаутпут</p></td>
-<td><p>4</p></td>
-<td><p>Передает информацию в процедуру и из нее.</p></td>
+<td><p>dbParamInputOutput</p></td>
+<td><p>3 </p></td>
+<td><p>Передает сведения как в процедуру, так и из нее.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбпарамаутпут</p></td>
-<td><p>2</p></td>
-<td><p>Возвращает сведения из процедуры в виде выходного параметра в SQL.</p></td>
+<td><p>dbParamOutput</p></td>
+<td><p>2 </p></td>
+<td><p>Возвращает сведения из процедуры в качестве выходного параметра в SQL.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбпарамретурнвалуе</p></td>
+<td><p>dbParamReturnValue</p></td>
 <td><p>4 </p></td>
-<td><p>Передает возвращаемое значение из процедуры.</p></td>
+<td><p>Передает возвращаемую из процедуры значение.</p></td>
 </tr>
 </tbody>
 </table>

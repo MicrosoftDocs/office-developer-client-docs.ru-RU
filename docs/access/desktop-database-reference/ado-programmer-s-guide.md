@@ -18,13 +18,13 @@ ms.locfileid: "32283242"
 
 **Область применения**: Access 2013, Office 2013
 
-Руководство программиста по ADO было создано для помощи разработчикам, которые не являются новыми возможностями для ADO, предоставляя им подробное введение в технологию. В этом руководстве описываются библиотеки семейства ADO и используется пример кода на различных языках, чтобы объяснить, как использовать библиотеки, рекомендации по использованию библиотек, а также советы и рекомендации по повышению производительности приложения ADO.
+Руководство программиста ADO было создано, чтобы помочь разработчикам, которые только что являются разработчиками ADO, предоставляя им подробное введение в технологию. В этом руководстве описываются библиотеки семейства ADO и используются примеры кода на различных языках, поясняющие, как использовать библиотеки, рекомендации по использованию библиотек, а также советы и рекомендации по максимальной производительности приложения ADO.
 
-Руководство программиста по ADO содержит следующие разделы и главы:
+Руководство программиста ADO содержит следующие разделы и главы:
 
 - [Введение](introduction-to-ado-programming.md)
   
-- [Раздел I: ActiveX Data Objects (ADO)](section-i-activex-data-objects.md)
+- [Раздел I. ActiveX data Objects (ADO)](section-i-activex-data-objects.md)
     
     - [Chapter 1: ADO Fundamentals](chapter-1-ado-fundamentals.md)
     - [Chapter 2: Getting Data](chapter-2-getting-data.md)
@@ -37,17 +37,17 @@ ms.locfileid: "32283242"
     - [Chapter 9: Data Shaping](chapter-9-data-shaping.md)
     - [Chapter 10: Records and Streams](chapter-10-records-and-streams.md)
 
-- [Раздел II: удаленная служба данных (RDS)](section-ii-remote-data-service.md)
+- [Раздел II. Служба удаленных данных (RDS)](section-ii-remote-data-service.md)
     
     - [Chapter 11: RDS Fundamentals](chapter-11-rds-fundamentals.md)
     - [Chapter 12: RDS Tutorial](chapter-12-rds-tutorial.md)
     - [Chapter 13: RDS Usage and Security](chapter-13-rds-usage-and-security.md)
 
-- [Раздел III: объекты данных ActiveX (многомерные) (ADOMD)](section-iii-ado-multidimensional-ado-md.md)
+- [Раздел III. ActiveX data Objects (Multidimensional) (ADOMD)](section-iii-ado-multidimensional-ado-md.md)
     
     - [Chapter 14: ADO MD Fundamentals](chapter-14-ado-md-fundamentals.md)
 
-- [Раздел IV: расширения объектов данных ActiveX для языка определения данных и безопасности (ADOX)](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
+- [Раздел IV. ActiveX data Objects Extensions for Data Definition Language and Security (ADOX)](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
     
     - [Chapter 15: ADOX Fundamentals](chapter-15-adox-fundamentals.md)
 

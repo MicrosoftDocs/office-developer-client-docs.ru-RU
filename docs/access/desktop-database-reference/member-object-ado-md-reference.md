@@ -1,5 +1,5 @@
 ---
-title: Объект Member (Справочник по ADO MD)
+title: Объект Member (справочник по ADO MD)
 TOCTitle: Member object (ADO MD)
 ms:assetid: 933be014-9cb2-416a-8290-6dece686fc41
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249650(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32289702"
 ---
-# <a name="member-object-ado-md-reference"></a>Объект Member (Справочник по ADO MD)
+# <a name="member-object-ado-md-reference"></a>Объект Member (справочник по ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Member (ADO MD)](member-object-ado-md.md)
-- [Свойства, методы и события элемента (ADO MD)](member-properties-methods-and-events-ado-md.md)
+- [Member properties, methods, and events (ADO MD)](member-properties-methods-and-events-ado-md.md)
 

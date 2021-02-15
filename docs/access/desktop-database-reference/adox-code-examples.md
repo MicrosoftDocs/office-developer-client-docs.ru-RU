@@ -1,5 +1,5 @@
 ---
-title: Примеры кода ADOX (Справочник по базам данных Access на компьютере)
+title: Примеры кода ADOX (справочник по базам данных Access для настольных ПК)
 TOCTitle: ADOX code examples
 ms:assetid: 706689e7-8b34-59eb-533b-65fb73f1eb5f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249443(v=office.15)
@@ -18,10 +18,10 @@ ms.locfileid: "32282847"
 
 **Область применения**: Access 2013, Office 2013
 
-Используйте приведенные ниже примеры кода, чтобы узнать, как использовать объекты, методы, свойства и события ADOX.
+Используйте следующие примеры кода, чтобы узнать, как использовать объекты, методы, свойства и события ADOX.
 
 > [!NOTE]
-> Вставьте весь пример кода в редакторе кода. Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.
+> В paste the entire code example into your code editor. Пример может не работать правильно, если используются частичные примеры или потеряно форматирование абзаца.
 
 - [Примеры кода ADOX на Microsoft Visual Basic](adox-code-examples-in-microsoft-visual-basic.md)
 - [Примеры кода ADOX на Microsoft Visual C++](adox-code-examples-in-microsoft-visual-c.md)

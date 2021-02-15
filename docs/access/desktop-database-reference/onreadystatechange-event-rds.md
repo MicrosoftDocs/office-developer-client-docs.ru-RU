@@ -1,5 +1,5 @@
 ---
-title: событие Онреадистатечанже (RDS)
+title: событие onReadyStateChange (RDS)
 TOCTitle: onReadyStateChange event (RDS)
 ms:assetid: 88102ee5-cca9-8ccb-5aca-55cda71abc4d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249593(v=office.15)
@@ -14,21 +14,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288492"
 ---
-# <a name="onreadystatechange-event-rds"></a>событие Онреадистатечанже (RDS)
+# <a name="onreadystatechange-event-rds"></a>событие onReadyStateChange (RDS)
 
 **Область применения**: Access 2013, Office 2013
 
-Событие **онреадистатечанже** вызывается всякий раз, когда изменяется значение свойства [ReadyState](readystate-property-rds.md) .
+Событие **onReadyStateChange** будет вызвано при любом смене значения свойства [ReadyState.](readystate-property-rds.md)
 
 ## <a name="syntax"></a>Синтаксис
 
-онреадистатечанже
+onReadyStateChange
 
 ## <a name="parameters"></a>Параметры
 
 Нет.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Свойство **ReadyState** отражает ход выполнения [RDS. Объект управления](datacontrol-object-rds.md) данными асинхронно извлекает данные в объект [Recordset](recordset-object-ado.md) . Используйте событие **онреадистатечанже** для отслеживания изменений в свойстве **ReadyState** , когда они происходят. Это более эффективно, чем периодическое извлечение значения свойства.
+Свойство **ReadyState** отражает ход выполнения [RDS. Объект DataControl](datacontrol-object-rds.md) при асинхронном извлечении данных в объект [Recordset.](recordset-object-ado.md) Используйте событие **onReadyStateChange** для отслеживания изменений в свойстве **ReadyState** при их внесении. Это эффективнее, чем периодическое проверка значения свойства.
 

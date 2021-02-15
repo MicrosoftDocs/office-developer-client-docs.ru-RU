@@ -19,15 +19,15 @@ ms.locfileid: "32288192"
 
 **Область применения**: Access 2013, Office 2013
 
-Уникально определяет положение вдоль оси.
+Уникально идентифицирует положение вдоль оси.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает целое значение **типа Long** и доступно только для чтения.
+Возвращает **длинное** integer и является только для чтения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-**Порядковый номер** объекта [position](position-object-ado-md.md) соответствует индексу **позиции** в коллекции [Positions](positions-collection-ado-md.md) .
+**Порядковая координата** объекта [Position](position-object-ado-md.md) соответствует индексу **позиции в** коллекции [Positions.](positions-collection-ado-md.md)
 
-Ячейка может быстро извлекаться с помощью **порядкового номера** **позиции** на каждой оси со свойством [Item](item-property-ado-md-cellset.md) объекта набора [ячеек](cellset-object-ado-md.md) .
+Ячейку можно быстро получить  с помощью порядковой позиции вдоль каждой оси со свойством [Item](item-property-ado-md-cellset.md) объекта [Cellset.](cellset-object-ado-md.md) 
 

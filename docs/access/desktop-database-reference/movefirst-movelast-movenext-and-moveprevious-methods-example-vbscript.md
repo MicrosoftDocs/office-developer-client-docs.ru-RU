@@ -19,9 +19,9 @@ ms.locfileid: "32288773"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используются методы [MoveFirst](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveLast](movefirst-movelast-movenext-and-moveprevious-methods-ado.md), [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) для перемещения указателя записи объекта [Recordset](recordset-object-ado.md) на основе предоставленной команды.
+В этом примере используются методы [MoveFirst,](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) [MoveLast,](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)и [MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) для перемещения указателя записи для [recordset](recordset-object-ado.md) на основе предоставленной команды.
 
-Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **мовефирствбс. ASP**. Вы можете просмотреть результат в любом браузере.
+Cut and paste the following code into Notepad or another text editor, and save it as **MoveFirstVBS.asp**. Результат можно просмотреть в любом браузере.
 
 ```vb 
  

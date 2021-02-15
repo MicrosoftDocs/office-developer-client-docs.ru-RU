@@ -18,16 +18,16 @@ ms.locfileid: "32281834"
 
 **Область применения**: Access 2013, Office 2013
 
-Используйте приведенные ниже примеры кода, чтобы узнать, как использовать методы, свойства и события ADO при написании текста в Microsoft Visual C++.
+Используйте следующие примеры кода, чтобы узнать, как использовать методы, свойства и события ADO при записи в Microsoft Visual C++.
 
 > [!NOTE]
-> Вставьте весь пример кода, начиная с начала до конца, в редакторе кода. Этот пример может выполняться неправильно, если используются неполные примеры, или если форматирование абзацев потеряно.
+> В качестве примера кода в редакторе кода в качестве примера можно привести весь код. Пример может быть некорректным, если используются частичные примеры или если форматирование абзаца потеряно.
 
 ## <a name="methods"></a>Methods
 
 - [Пример метода AddNew](addnew-method-example-vc.md)
 - [Пример методов Append и CreateParameter](append-and-createparameter-methods-example-vc.md)
-- [Пример методов AppendChunk и методического блока](appendchunk-and-getchunk-methods-example-vc.md)
+- [Пример методов AppendChunk и GetChunk](appendchunk-and-getchunk-methods-example-vc.md)
 - [Пример методов BeginTrans, CommitTrans и RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-example-vc.md)
 - [Пример метода Cancel](cancel-method-example-vc.md)
 - [Пример метода Clone](clone-method-example-vc.md)
@@ -42,10 +42,10 @@ ms.locfileid: "32281834"
 - [Пример методов Open и Close](open-and-close-methods-example-vc.md)
 - [Пример метода OpenSchema](openschema-method-example-vc.md)
 - [Пример метода Refresh](refresh-method-example-vc.md)
-- [Пример метода Resync для повторной синхронизации](resync-method-example-vc.md)
+- [Пример метода Resync](resync-method-example-vc.md)
 - [Пример методов Save и Open](save-and-open-methods-example-vc.md)
-- [Пример метода Seek и свойства index](seek-method-and-index-property-example-vc.md)
-- [Пример метода поддержки](supports-method-example-vc.md)
+- [Пример метода Seek и свойства Index](seek-method-and-index-property-example-vc.md)
+- [Пример метода Supports](supports-method-example-vc.md)
 - [Пример методов Update и CancelUpdate](update-and-cancelupdate-methods-example-vc.md)
 - [Пример методов UpdateBatch и CancelBatch](updatebatch-and-cancelbatch-methods-example-vc.md)
 
@@ -56,7 +56,7 @@ ms.locfileid: "32281834"
 - [Пример свойства ActiveCommand](activecommand-property-example-vc.md)
 - [Пример свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vc.md)
 - [Пример свойств ActualSize и DefinedSize](actualsize-and-definedsize-properties-example-vc.md)
-- [Пример свойств атрибутов и имени](attributes-and-name-properties-example-vc.md)
+- [Пример свойств Attributes и Name](attributes-and-name-properties-example-vc.md)
 - [Пример свойств BOF, EOF и Bookmark](bof-eof-and-bookmark-properties-example-vc.md)
 - [Пример свойства CacheSize](cachesize-property-example-vc.md)
 - [Пример свойств ConnectionString, ConnectionTimeout и State](connectionstring-connectiontimeout-and-state-properties-example-vc.md)
@@ -64,16 +64,16 @@ ms.locfileid: "32281834"
 - [Пример свойств CursorType, LockType и EditMode](cursortype-locktype-and-editmode-properties-example-vc.md)
 - [Пример свойств Description, HelpContext, HelpFile, NativeError, Number, Source и SQLState](description-helpcontext-helpfile-nativeerror-number-source-and-sqlstate-properties-example-vc.md)
 - [Пример свойств Filter и RecordCount](filter-and-recordcount-properties-example-vc.md)
-- [Пример с методом индексирования свойства и метода Seek](seek-method-and-index-property-example-vc.md)
+- [Пример метода Index Property и Seek](seek-method-and-index-property-example-vc.md)
 - [Пример свойств IsolationLevel и Mode](isolationlevel-and-mode-properties-example-vc.md)
 - [Пример свойства Item](item-property-example-vc.md)
 - [Пример свойства MarshalOptions](marshaloptions-property-example-vc.md)
 - [Пример свойства MaxRecords](maxrecords-property-example-vc.md)
 - [Пример свойств NumericScale и Precision](ado-numericscale-and-precision-properties-example-vc.md)
-- [Пример свойства OPTIMIZE](optimize-property-example-vc.md)
+- [Пример оптимизации свойства](optimize-property-example-vc.md)
 - [Пример свойств OriginalValue и UnderlyingValue](originalvalue-and-underlyingvalue-properties-example-vc.md)
-- [Пример подготовленного свойства](prepared-property-example-vc.md)
-- [Пример свойств provider и DefaultDatabase](provider-and-defaultdatabase-properties-example-vc.md)
+- [Пример свойства Prepared](prepared-property-example-vc.md)
+- [Пример свойств Provider и DefaultDatabase](provider-and-defaultdatabase-properties-example-vc.md)
 - [Пример свойства Sort](sort-property-example-vc.md)
 - [Пример свойства Source](source-property-example-vc.md)
 - [Пример свойства State](state-property-example-vc.md)

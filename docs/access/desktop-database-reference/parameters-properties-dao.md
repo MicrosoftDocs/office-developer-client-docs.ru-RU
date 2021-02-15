@@ -18,5 +18,5 @@ ms.locfileid: "32287799"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство Parameters. Count (DAO)](parameters-count-property-dao.md)
+- [Свойство Parameters.Count (DAO)](parameters-count-property-dao.md)
 

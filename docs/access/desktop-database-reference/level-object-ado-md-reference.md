@@ -1,5 +1,5 @@
 ---
-title: Объект Level (Справочник по ADO MD)
+title: Level object (ADO MD reference)
 TOCTitle: Level object (ADO MD)
 ms:assetid: 376865c8-b5be-4dd3-8765-0469290e44ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249131(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290140"
 ---
-# <a name="level-object-ado-md-reference"></a>Объект Level (Справочник по ADO MD)
+# <a name="level-object-ado-md-reference"></a>Level object (ADO MD reference)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Level (ADO MD)](level-object-ado-md.md)
-- [Свойства, методы и события уровня (ADO MD)](level-properties-methods-and-events-ado-md.md)
+- [Level object (ADO MD)](level-object-ado-md.md)
+- [Level properties, methods, and events (ADO MD)](level-properties-methods-and-events-ado-md.md)
 

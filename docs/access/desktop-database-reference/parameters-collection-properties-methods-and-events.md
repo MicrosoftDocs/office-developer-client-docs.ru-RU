@@ -26,7 +26,7 @@ ms.locfileid: "32287890"
 ## <a name="methods"></a>Methods
 
 - [Метод Append](append-method-ado.md)
-- [Метод Delete (Коллекция параметров ADO)](delete-method-ado-parameters-collection.md)
+- [Метод Delete (коллекция параметров ADO)](delete-method-ado-parameters-collection.md)
 - [Метод Refresh](refresh-method-ado.md)
 
 ## <a name="events"></a>События

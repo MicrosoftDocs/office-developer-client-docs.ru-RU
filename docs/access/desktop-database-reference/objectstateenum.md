@@ -1,5 +1,5 @@
 ---
-title: Обжектстатинум (Справочник по базам данных Access на компьютере)
+title: ObjectStateEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: ObjectStateEnum
 ms:assetid: 129d589a-2955-3da9-e60a-7fbfdd6bfbdc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248900(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32288527"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, является ли объект открытым или закрытым, подключается к источнику данных, выполняя команду или получая данные.
+Указывает, является ли объект открытым или закрытым, подключается к источнику данных, выполняет команду или искомые данные.
 
 <br/>
 
@@ -37,27 +37,27 @@ ms.locfileid: "32288527"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адстатеклосед</strong></p></td>
-<td><p>нуль</p></td>
+<td><p><strong>adStateClosed</strong></p></td>
+<td><p>0</p></td>
 <td><p>Указывает, что объект закрыт.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адстатеопен</strong></p></td>
-<td><p>1,1</p></td>
+<td><p><strong>adStateOpen</strong></p></td>
+<td><p>1 </p></td>
 <td><p>Указывает, что объект открыт.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адстатеконнектинг</strong></p></td>
-<td><p>2</p></td>
+<td><p><strong>adStateConnecting</strong></p></td>
+<td><p>2 </p></td>
 <td><p>Указывает, что объект подключается.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адстатиксекутинг</strong></p></td>
+<td><p><strong>adStateExecuting</strong></p></td>
 <td><p>4 </p></td>
 <td><p>Указывает, что объект выполняет команду.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адстатефетчинг</strong></p></td>
+<td><p><strong>adStateFetching</strong></p></td>
 <td><p>8 </p></td>
 <td><p>Указывает, что извлекаются строки объекта.</p></td>
 </tr>
@@ -67,7 +67,7 @@ ms.locfileid: "32288527"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -80,19 +80,19 @@ ms.locfileid: "32288527"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Обжектстате. CLOSED</p></td>
+<td><p>AdoEnums.ObjectState.CLOSED</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Обжектстате. OPEN</p></td>
+<td><p>AdoEnums.ObjectState.OPEN</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Обжектстате. подключение</p></td>
+<td><p>AdoEnums.ObjectState.CONNECTING</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Обжектстате. выполнение</p></td>
+<td><p>AdoEnums.ObjectState.EXECUTING</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Обжектстате. получение</p></td>
+<td><p>AdoEnums.ObjectState.FETCHING</p></td>
 </tr>
 </tbody>
 </table>

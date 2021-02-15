@@ -1,5 +1,5 @@
 ---
-title: Справочник по объектам Recordset (ADO)
+title: Справочник по объекту Recordset (ADO)
 TOCTitle: Recordset object (ADO)
 ms:assetid: 276c0dcb-2327-4035-b604-ef181a1490cd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249037(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32284527"
 ---
-# <a name="recordset-object-ado-reference"></a>Справочник по объектам Recordset (ADO)
+# <a name="recordset-object-ado-reference"></a>Справочник по объекту Recordset (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Recordset (ADO)](recordset-object-ado.md)
-- [Свойства, методы и события набора записей (ADO)](recordset-properties-methods-and-events-ado.md)
+- [Recordset properties, methods, and events (ADO)](recordset-properties-methods-and-events-ado.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Обжекттипинум (Справочник по базам данных Access на компьютере)
+title: ObjectTypeEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: ObjectTypeEnum
 ms:assetid: b0ee2113-dea9-912d-3442-e54885397310
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249842(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32288534"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает тип объекта базы данных, для которого необходимо задать разрешения или владельца.
+Указывает тип объекта базы данных, для которого необходимо установить разрешения или права владельца.
 
 <br/>
 
@@ -37,34 +37,34 @@ ms.locfileid: "32288534"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адпермобжколумн</strong></p></td>
-<td><p>2</p></td>
+<td><p><strong>adPermObjColumn</strong></p></td>
+<td><p>2 </p></td>
 <td><p>Объект является столбцом.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпермобждатабасе</strong></p></td>
-<td><p>4</p></td>
-<td><p>Объект представляет собой базу данных.</p></td>
+<td><p><strong>adPermObjDatabase</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Объект является базой данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адпермобжпроцедуре</strong></p></td>
+<td><p><strong>adPermObjProcedure</strong></p></td>
 <td><p>4 </p></td>
 <td><p>Объект является процедурой.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпермобжпровидерспеЦифик</strong></p></td>
+<td><p><strong>adPermObjProviderSpecific</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Объект является типом, определяемым поставщиком. Если параметр <em>ObjectType</em> имеет значение <strong>АдпермобжпровидерспеЦифик</strong> , а <em>обжекттипеид</em> не предоставлено, возникает ошибка.</p></td>
+<td><p>Объект — это тип, определенный поставщиком. Если параметр <em>ObjectType</em> имеет тип <strong>adPermObjProviderSpecific</strong> и <em>ObjectTypeId</em> не задан, произойдет ошибка.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адпермобжтабле</strong></p></td>
-<td><p>1,1</p></td>
+<td><p><strong>adPermObjTable</strong></p></td>
+<td><p>1 </p></td>
 <td><p>Объект является таблицей.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпермобжвиев</strong></p></td>
+<td><p><strong>adPermObjView</strong></p></td>
 <td><p>5 </p></td>
-<td><p>Объект является представлением.</p></td>
+<td><p>Объект — это представление.</p></td>
 </tr>
 </tbody>
 </table>

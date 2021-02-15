@@ -1,5 +1,5 @@
 ---
-title: Справочник по объектам Key (ADOX)
+title: Справочник по ключевому объекту (ADOX)
 TOCTitle: Key object (ADOX)
 ms:assetid: 7bb344df-182f-43fc-847e-1b40098bd1f7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249514(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290781"
 ---
-# <a name="key-object-adox-reference"></a>Справочник по объектам Key (ADOX)
+# <a name="key-object-adox-reference"></a>Справочник по ключевому объекту (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Key (ADOX)](key-object-adox.md)
+- [Key object (ADOX)](key-object-adox.md)
 - [Ключевые свойства, методы и события (ADOX)](key-properties-methods-and-events-adox.md)
 

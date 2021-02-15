@@ -18,18 +18,18 @@ ms.locfileid: "32288941"
 
 **Область применения**: Access 2013, Office 2013
 
-Поставщик интерфейсов служб Microsoft Active Directory (ADSI) позволяет ADO подключаться к гетерогенным службам каталогов через ADSI. Это предоставляет приложениям ADO доступ только для чтения к службам каталогов Microsoft Windows NT 4,0 и Microsoft Windows 2000 в дополнение к любым LDAP-совместимым службам каталогов и службам Novell Directory. Интерфейсы ADSI основываются на модели поставщика, поэтому если у вас есть новый поставщик, предоставляющий доступ к другому каталогу, приложение ADO сможет легко получить доступ к нему. Поставщик ADSI является бесплатным и поддерживает Юникод.
+Поставщик интерфейсов службы Microsoft Active Directory (ADSI) позволяет ADO подключаться к разнородным службам каталогов через ADSI. Это предоставляет приложениям ADO доступ только для чтения к службам каталогов Microsoft Windows NT 4.0 и Microsoft Windows 2000 в дополнение к любой службе каталогов, совместимой с LDAP, и службам Novell Directory Services. Сам ADSI основан на модели поставщика, поэтому если новый поставщик дает доступ к другому каталогу, приложение ADO сможет легко получить к нему доступ. Поставщик ADSI имеет свободный поток и юникод включен.
 
 ## <a name="connection-string-parameters"></a>Параметры строки подключения
 
-Чтобы подключиться к поставщику, присвойте аргументу **provider** свойства [ConnectionString](connectionstring-property-ado.md) значение:
+Чтобы подключиться к этому поставщику, установите для аргумента **Provider** свойства [ConnectionString:](connectionstring-property-ado.md)
 
 ```vb 
  
 ADSDSOObject 
 ```
 
-Считывание свойства [provider](provider-property-ado.md) также возвратит эту строку.
+При [чтении свойства Provider](provider-property-ado.md) также будет возвращена эта строка.
 
 ## <a name="typical-connection-string"></a>Типичная строка подключения
 
@@ -40,7 +40,7 @@ ADSDSOObject
 "Provider=ADSDSOObject;User ID=userName;Password=userPassword;" 
 ```
 
-Строка состоит из следующих ключевых слов:
+Строка состоит из таких ключевых слов:
 
 <table>
 <colgroup>
@@ -56,15 +56,15 @@ ADSDSOObject
 <tbody>
 <tr class="odd">
 <td><p><strong>Поставщик</strong></p></td>
-<td><p>Задает поставщика OLE DB для службы Microsoft Active Directory.</p></td>
+<td><p>Указывает поставщика OLE DB для службы Microsoft Active Directory.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>Идентификатор пользователя</strong></p></td>
-<td><p>Задает имя пользователя. Если это ключевое слово не задано, используется текущий вход.</p></td>
+<td><p>Задает имя пользователя. Если это ключевое слово пропущено, используется текущий логотип.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>Password</strong></p></td>
-<td><p>Указывает пароль пользователя. Если это ключевое слово не задано, используется текущий вход.</p></td>
+<td><p>Указывает пароль пользователя. Если это ключевое слово пропущено, используется текущий логотип.</p></td>
 </tr>
 </tbody>
 </table>
@@ -72,7 +72,7 @@ ADSDSOObject
 
 **Текст команды**
 
-Поставщик в следующем синтаксисе распознает строку текста команды из четырех частей:
+Поставщик распознает текстовую строку команды из четырех команд в следующем синтаксис:
 
 `"Root; Filter; Attributes[; Scope]"`
 
@@ -90,21 +90,21 @@ ADSDSOObject
 <tbody>
 <tr class="odd">
 <td><p><em>Root</em></p></td>
-<td><p>Указывает объект <strong>ADsPath</strong> , с которого начинается поиск (то есть, корневой каталог поиска).</p></td>
+<td><p>Указывает объект <strong>ADsPath,</strong> из которого следует запустить поиск (то есть корневой объект поиска).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Filter</em></p></td>
+<td><p><em>Фильтр</em></p></td>
 <td><p>Указывает фильтр поиска в формате RFC 1960.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Attributes</em></p></td>
-<td><p>Указывает список возвращаемых атрибутов, разделенных запятыми.</p></td>
+<td><p><em>Атрибуты</em></p></td>
+<td><p>Указывает список возвращаемого атрибута с запятой.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Область</em></p></td>
-<td><p>Необязательное. <strong>Строка</strong> , определяющая область поиска. Может быть одним из следующих: Base — Поиск только базового объекта (корня поиска).<br />
-Онелевел — Поиск только одного уровня.<br />
-Поддерево — Поиск во всем поддереве.</p></td>
+<td><p><em>Scope</em></p></td>
+<td><p>Необязательный параметр. <strong>Строка,</strong> которая определяет область поиска. Может иметь одно из следующих результатов: Base — поиск только базового объекта (корневой объект поиска).<br />
+OneLevel — поиск только одного уровня.<br />
+Подtree — поиск по всему подtree.</p></td>
 </tr>
 </tbody>
 </table>
@@ -117,7 +117,7 @@ ADSDSOObject
 "<LDAP://DC=ArcadiaBay,DC=COM>;(objectClass=*);sn, givenName; subtree" 
 ```
 
-Поставщик также поддерживает SQL SELECT для текста команды. Например:
+Поставщик также поддерживает SQL select для текста команды. Например:
 
 ```vb 
  
@@ -125,15 +125,15 @@ ADSDSOObject
 objectClass='user' AND objectCategory='Person'" 
 ```
 
-Поставщик не принимает вызовы хранимых процедур или простые имена таблиц (например, свойство [CommandType](commandtype-property-ado.md) всегда будет **адкмдтекст**). Более полное описание элементов текста команды можно найти в документации по интерфейсам службы Active Directory.
+Поставщик не принимает хранимые вызовы процедур или простые имена таблиц (например, свойство [CommandType](commandtype-property-ado.md) всегда будет **adCmdText).** Более полное описание текстовых элементов команд см. в документации по интерфейсам службы Active Directory.
 
-## <a name="recordset-behavior"></a>Поведение набора записей
+## <a name="recordset-behavior"></a>Поведение наборов записей
 
-В следующих таблицах перечислены функции, доступные для объекта [Recordset](recordset-object-ado.md) , открытого с помощью этого поставщика. Доступен только статический тип курсора (**адопенстатик**).
+В следующих таблицах списка функций, доступных для объекта [Recordset,](recordset-object-ado.md) открытого с помощью этого поставщика. Доступен только тип статического курсора **(adOpenStatic).**
 
-Для получения более подробных сведений о поведении **набора записей** для конфигурации поставщика [запустите метод](supports-method-ado.md) Supports и перечислите коллекцию [свойств](properties-collection-ado.md) объекта **Recordset** , чтобы определить, присутствуют ли динамические свойства, зависящие от поставщика.
+Для получения более подробных сведений о поведении **объекта Recordset** для конфигурации поставщика запустите метод [Supports](supports-method-ado.md) и нумеруйте коллекцию [свойств](properties-collection-ado.md) объекта **Recordset,** чтобы определить, присутствуют ли динамические свойства для конкретного поставщика.
 
-Доступность стандартных свойств **записей** ADO:
+Доступность стандартных свойств объекта **ADO Recordset:**
 
 <table>
 <colgroup>
@@ -149,51 +149,51 @@ objectClass='user' AND objectCategory='Person'"
 <tbody>
 <tr class="odd">
 <td><p><a href="absolutepage-property-ado.md">AbsolutePage</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="absoluteposition-property-ado.md">AbsolutePosition</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="activeconnection-property-ado.md">ActiveConnection</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">BOF</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="bookmark-property-ado.md">Bookmark</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cachesize-property-ado.md">CacheSize</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="cursorlocation-property-ado.md">CursorLocation</a></p></td>
-<td><p>всегда <strong>адусесервер</strong></p></td>
+<td><p>always <strong>adUseServer</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cursortype-property-ado.md">CursorType</a></p></td>
-<td><p>всегда <strong>адопенстатик</strong></p></td>
+<td><p>always <strong>adOpenStatic</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="editmode-property-ado.md">EditMode</a></p></td>
-<td><p>всегда <strong>адедитноне</strong></p></td>
+<td><p>always <strong>adEditNone</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="bof-eof-properties-ado.md">EOF</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="filter-property-ado.md">Filter</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p><a href="filter-property-ado.md">Фильтр</a></p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="locktype-property-ado.md">LockType</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="marshaloptions-property-ado.md">MarshalOptions</a></p></td>
@@ -201,37 +201,37 @@ objectClass='user' AND objectCategory='Person'"
 </tr>
 <tr class="even">
 <td><p><a href="maxrecords-property-ado.md">MaxRecords</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="pagecount-property-ado.md">PageCount</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="pagesize-property-ado.md">PageSize</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="recordcount-property-ado.md">RecordCount</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="source-property-ado-recordset.md">Source</a></p></td>
-<td><p>чтение и запись</p></td>
+<td><p>чтение и написание</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="state-property-ado.md">State</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="status-property-ado-recordset.md">Состояние</a></p></td>
-<td><p>только для чтения</p></td>
+<td><p>read-only</p></td>
 </tr>
 </tbody>
 </table>
 
 
-Доступность стандартных методов **набора записей** ADO:
+Доступность стандартных методов ADO **Recordset:**
 
 <table>
 <colgroup>
@@ -241,7 +241,7 @@ objectClass='user' AND objectCategory='Person'"
 <thead>
 <tr class="header">
 <th><p>Method</p></th>
-<th><p>Доступность?</p></th>
+<th><p>Доступно?</p></th>
 </tr>
 </thead>
 <tbody>
@@ -314,7 +314,7 @@ objectClass='user' AND objectCategory='Person'"
 <td><p>Да</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="supports-method-ado.md">Имеется</a></p></td>
+<td><p><a href="supports-method-ado.md">Поддерживает</a></p></td>
 <td><p>Да</p></td>
 </tr>
 <tr class="odd">

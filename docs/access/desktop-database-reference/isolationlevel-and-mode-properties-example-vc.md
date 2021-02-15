@@ -19,7 +19,7 @@ ms.locfileid: "32291199"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используется свойство [mode](mode-property-ado.md) для открытия монопольного подключения, а свойство [IsolationLevel](isolationlevel-property-ado.md) — для открытия транзакции, которая выполняется в изоляции других транзакций.
+В этом примере свойство [Mode](mode-property-ado.md) используется для открытия монопольного подключения, а свойство [IsolationLevel](isolationlevel-property-ado.md) — для открытия транзакции, которая проводится в изоляции от других транзакций.
 
 ```cpp 
  
@@ -256,7 +256,7 @@ void PrintComError(_com_error &e)
 // EndIsolationLevelCpp 
 ```
 
-**Исолатионлевелкс. h**
+**IsolationLevelX.h**
 
 ```cpp 
  

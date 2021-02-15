@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект Parameter (DAO)
+title: Справочник по объекту Parameter (DAO)
 TOCTitle: Parameter Object
 ms:assetid: 16595539-df52-49b2-9e4b-83f05dbb9304
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123825(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288065"
 ---
-# <a name="parameter-object-reference-dao"></a>Ссылка на объект Parameter (DAO)
+# <a name="parameter-object-reference-dao"></a>Справочник по объекту Parameter (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Parameter (DAO)](parameter-object-dao.md)
-- [Элементы Parameter (DAO)](parameter-members-dao.md)
+- [Parameter members (DAO)](parameter-members-dao.md)
 - [Свойства параметров (DAO)](parameter-properties-dao.md)
 

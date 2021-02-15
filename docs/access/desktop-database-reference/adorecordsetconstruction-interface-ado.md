@@ -19,7 +19,7 @@ ms.locfileid: "32281635"
 
 **Область применения**: Access 2013, Office 2013
 
-Интерфейс **ADORecordsetConstruction** используется для создания объекта ADO **Recordset** из объекта **набора строк** OLE DB в приложении C/C++.
+Интерфейс **ADORecordsetConstruction** используется для создания объекта ADO **Recordset** из объекта **rowset** OLE DB в приложении C/C++.
 
 Этот интерфейс поддерживает следующие свойства:
 
@@ -32,19 +32,19 @@ ms.locfileid: "32281635"
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><p><a href="chapter-property-ado.md">Части</a></p></td>
+<td><p><a href="chapter-property-ado.md">Chapter</a></p></td>
 <td><p>Для чтения и записи.<br />
-Получает или задает объект <strong>главы</strong> OLE DB от или on этого объекта <strong>Recordset</strong> ADO.</p></td>
+Получает или задает объект главы OLE DB <strong>из/на</strong> этом объекте ADO <strong>Recordset.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="rowposition-property-ado.md">RowPosition</a></p></td>
 <td><p>Для чтения и записи.<br />
-Получает/устанавливает объект <strong>ROWPOSITION</strong> OLE DB from/On этого объекта <strong>Recordset</strong> ADO.</p></td>
+Получает или задает объект OLE DB <strong>RowPosition</strong> из/на этом объекте ADO <strong>Recordset.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="rowset-property-ado.md">Возвращаем</a></p></td>
+<td><p><a href="rowset-property-ado.md">Rowset</a></p></td>
 <td><p>Для чтения и записи.<br />
-Получает или задает объект <strong>набора строк</strong> OLE DB from/On этого объекта <strong>Recordset</strong> ADO.</p></td>
+Получает или задает объект OLE DB <strong>Rowset</strong> из/на этом объекте ADO <strong>Recordset.</strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -58,17 +58,17 @@ ms.locfileid: "32281635"
 
 Нет.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-При наличии объекта **набора строк** OLE DB (провсет) построение объекта ADO **Recordset** (), **Создание объекта Recordset ADO (** адорс), будет иметь следующие три основные операции:
+При работе с объектом OLE DB **Rowset** (pRowset) при конструкции объекта ADO **Recordset** () конструкция объекта ADO **Recordset** (adoRs) составляет три следующих основных операции:
 
-1. Создайте объект ADO **Recordset** :
+1. Создание объекта ADO **Recordset:**
     
    ```vb
     Recordset20Ptr adoRs;
     adoRs.CreateInstance(__uuidof(Recordset));
    ```
-2. Запросите интерфейс **иадорекордсетконструктион** для объекта **Recordset** :
+2. Запрос **интерфейса IADORecordsetConstruction** объекта **Recordset:**
 
    ```vb    
     adoRecordsetConstructionPtr adoRsConstruct=NULL;
@@ -76,22 +76,22 @@ ms.locfileid: "32281635"
          (void**)&adoRsConstruct);
    ```
 
-3. Вызовите метод Иадорекордсетконструктион::p\_UT Rowset, чтобы задать объект набора строк OLE DB для объекта RECORDSET объекта ADO:
+3. Вызовите метод свойства IADORecordsetConstruction::p ut Rowset, чтобы установить объект \_ Rowset OLE DB в объекте ADO Recordset:
 
    ```vb     
     IUnknown *pUnk=NULL;
     pRowset->QueryInterface(IID_IUnknown, (void**)&pUnk);
     adoRsConstruct->put_Rowset(pUnk);
    ```
-Объект Result теперь представляет объект **RECORDSET** ADO, созданный на основе объекта **набора строк** OLE DB.
+Теперь итоговая объект представляет объект ADO **Recordset,** построенный из объекта **rowset** OLE DB.
 
-Вы также можете создать объект ADO **Recordset** из **главы** OLE DB или объекта **RowPosition** .
+Вы также можете создать объект ADO **Recordset** из главы OLE **DB** **или объекта RowPosition.**
 
-## <a name="requirements"></a>Requirements
+## <a name="requirements"></a>Требования
 
-- **Версия:** ADO 2,0 и более поздние версии
+- **Версия:** ADO 2.0 и более поздние
 
-- **Библиотека:** Msado15. dll
+- **Библиотека:** msado15.dll
 
 - **UUID:** 00000283-0000-0010-8000-00AA006D2EA4
 

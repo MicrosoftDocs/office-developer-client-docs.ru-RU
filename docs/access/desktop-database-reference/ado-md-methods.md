@@ -1,5 +1,5 @@
 ---
-title: Методы ADO MD для объектов данных ActiveX (ADO)
+title: ActiveX MD объектов данных (ADO)
 TOCTitle: ADO MD methods
 ms:assetid: 17fa36ab-3e0b-dcde-7d64-37921c322fb2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248929(v=office.15)
@@ -32,11 +32,11 @@ ms.locfileid: "32283333"
 </tr>
 <tr class="odd">
 <td><p><a href="close-method-ado-md.md">Закрыть</a></p></td>
-<td><p>Закрывает открытый набор ячеек.</p></td>
+<td><p>Закрывает открытый ячейки.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="open-method-ado-md.md">Open</a></p></td>
-<td><p>Получает результаты многомерного запроса и возвращает результаты в набор ячеек.</p></td>
+<td><p>Извлекает результаты многомерного запроса и возвращает результаты в ячейки.</p></td>
 </tr>
 </tbody>
 </table>

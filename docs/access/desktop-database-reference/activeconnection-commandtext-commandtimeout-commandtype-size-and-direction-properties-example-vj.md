@@ -1,5 +1,5 @@
 ---
-title: Пример свойств ActiveConnection, CommandText, CommandTimeout (VJ + +)
+title: Пример свойств ActiveConnection, CommandText и CommandTimeout (VJ++)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)
 ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32282539"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используются свойства [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [size](size-property-ado.md)и [Direction](direction-property-ado.md) для выполнения хранимой процедуры.
+В этом примере для выполнения хранимой процедуры используются свойства [ActiveConnection,](activeconnection-property-ado.md) [CommandText,](commandtext-property-ado.md) [CommandTimeout,](commandtimeout-property-ado.md) [CommandType,](commandtype-property-ado.md) [Size](size-property-ado.md)и [Direction.](direction-property-ado.md)
 
 ```java 
  

@@ -1,5 +1,5 @@
 ---
-title: событие OnError (RDS)
+title: событие onError (RDS)
 TOCTitle: onError event (RDS)
 ms:assetid: e26a3f7f-0f00-919a-65ad-bf39ffb83e92
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250153(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288478"
 ---
-# <a name="onerror-event-rds"></a>событие OnError (RDS)
+# <a name="onerror-event-rds"></a>событие onError (RDS)
 
 **Область применения**: Access 2013, Office 2013
 
-Событие **OnError** вызывается при возникновении ошибки во время выполнения операции.
+Событие **onError** возникает при любой ошибке во время операции.
 
 ## <a name="syntax"></a>Синтаксис
 
-OnError*SCode*, *Description*, *Source*, *canceldisplay AS*
+onError *SCode*, *Description*, *Source*, *CancelDisplay*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*SCode* |Целое число, указывающее код состояния ошибки.|
-|*Описание* |**Строка** , указывающая описание ошибки.|
-|*Source* |**Строка** , указывающая на запрос или команду, которая вызвала ошибку.|
-|*Canceldisplay AS* |**Логическое** значение, при котором задано значение **true**, которое предотвращает отображение ошибки в диалоговом окне.|
+|*SCode* |Integer that indicates the status code of the error.|
+|*Описание* |**Строка,** которая указывает описание ошибки.|
+|*Source* |**Строка,** которая указывает запрос или команду, которая вызвала ошибку.|
+|*CancelDisplay* |**Boolean** value, which if set to **True,** that prevents the error from being displayed in a dialog box.|
 

@@ -1,5 +1,5 @@
 ---
-title: Оболочки классов ADO Java
+title: Оболочки класса Java ADO
 TOCTitle: ADO Java class wrappers
 ms:assetid: de50faf0-80f3-f295-3d9e-3f70f86c3ede
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250126(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283319"
 ---
-# <a name="ado-java-class-wrappers"></a>Оболочки классов ADO Java
+# <a name="ado-java-class-wrappers"></a>Оболочки класса Java ADO
 
 
 **Область применения**: Access 2013, Office 2013
 
-Этот код объявляет экземпляр оболочки класса [набора записей](recordset-object-ado.md) ADO и инициализирует его в той же строке кода. Кроме того, он объявляет переменные для каждого аргумента в методе [Open](open-method-ado-recordset.md) , особенно для [LockType](locktype-property-ado.md) и [CursorType](cursortype-property-ado.md) (так как Java не поддерживает перечисленные типы). Он открывает и закрывает объект **Recordset** . Если для параметра Rs1 задано значение NULL, то только те, которые выпускают эту переменную, когда Java выполняет систематическую и периодический выпуск неиспользуемых объектов.
+Этот код объявляет экземпляр оболочки класса ADO [Recordset](recordset-object-ado.md) и инициализирует его в одной строке кода. Кроме того, он объявляет переменные для каждого аргумента в методе [Open,](open-method-ado-recordset.md) особенно для [LockType](locktype-property-ado.md) и [CursorType](cursortype-property-ado.md) (так как Java не поддерживает нумерированные типы). Он открывает и закрывает объект **Recordset.** Установка для Rs1 NULL просто запланировать выпуск этой переменной, когда Java выполняет системный и периодический выпуск неиспользованных объектов.
 
 ```java 
  

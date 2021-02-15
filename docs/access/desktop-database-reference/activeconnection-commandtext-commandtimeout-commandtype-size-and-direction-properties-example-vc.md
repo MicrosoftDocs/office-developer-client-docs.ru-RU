@@ -1,5 +1,5 @@
 ---
-title: Пример свойств ActiveConnection, CommandText, CommandTimeout (VC + +)
+title: Пример свойств ActiveConnection, CommandText и CommandTimeout (VC++)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VC++)
 ms:assetid: 254e6d48-fc07-1df0-215c-a91141238985
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249021(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32280559"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используются свойства [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [size](size-property-ado.md)и [Direction](direction-property-ado.md) для выполнения хранимой процедуры.
+В этом примере для выполнения хранимой процедуры используются свойства [ActiveConnection,](activeconnection-property-ado.md) [CommandText,](commandtext-property-ado.md) [CommandTimeout,](commandtimeout-property-ado.md) [CommandType,](commandtype-property-ado.md) [Size](size-property-ado.md)и [Direction.](direction-property-ado.md)
 
 ```cpp 
  
@@ -202,7 +202,7 @@ VOID PrintProviderError(_ConnectionPtr pConnection)
 
 <br/>
 
-**Активеконнектионкс. h**
+**ActiveConnectionX.h**
 
 ```cpp 
  

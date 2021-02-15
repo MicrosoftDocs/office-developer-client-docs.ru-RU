@@ -18,7 +18,7 @@ ms.locfileid: "32288177"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируются свойства [originalValue](originalvalue-property-ado.md) и [UnderlyingValue](underlyingvalue-property-ado.md) , в результате чего отображается сообщение, если базовые данные записи изменились во время пакетного обновления [набора записей](recordset-object-ado.md) .
+В этом примере показано, как отобразить свойства [OriginalValue](originalvalue-property-ado.md) и [UnderlyingValue,](underlyingvalue-property-ado.md) отображая сообщение, если во время пакетного обновления [Recordset](recordset-object-ado.md) данные записи изменились.
 
 ```cpp 
  
@@ -231,7 +231,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-**Оригиналвалуекс. h**
+**OriginalValueX.h**
 
 ```cpp 
  

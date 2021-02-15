@@ -1,5 +1,5 @@
 ---
-title: Коллекция Parameters, пример свойства Command (VC + +)
+title: Пример коллекции Parameters, свойства Command (VC++)
 TOCTitle: Parameters Collection, Command property example (VC++)
 ms:assetid: 625a83d5-5b73-f945-7e01-bf412fed0827
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249369(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287911"
 ---
-# <a name="parameters-collection-command-property-example-vc"></a>Коллекция Parameters, пример свойства Command (VC + +)
+# <a name="parameters-collection-command-property-example-vc"></a>Пример коллекции Parameters, свойства Command (VC++)
 
 
 **Область применения**: Access 2013, Office 2013
 
-В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) с объектом [Command](command-object-ado.md) для получения сведений о параметрах для процедуры.
+В следующем коде показано, как использовать свойство [Command](command-property-adox.md) с объектом [Command](command-object-ado.md) для получения сведений о параметрах для процедуры.
 
 ```cpp 
  

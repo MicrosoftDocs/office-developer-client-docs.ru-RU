@@ -19,51 +19,51 @@ ms.locfileid: "32289424"
 
 **Область применения**: Access 2013, Office 2013
 
-Представляет элемент уровня в Кубе, дочерние элементы элемента уровня или элемента положения на оси в наборе ячеек.
+Представляет элемент уровня в кубе, его детей или позицию вдоль оси ячеек.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Свойства **элемента** различаются в зависимости от контекста, в котором он используется. **Элемент** [уровня](level-object-ado-md.md) в [CubeDef](cubedef-object-ado-md.md) имеет свойство [Children](children-property-ado-md.md) , возвращающее **элементы** следующего нижнего уровня в иерархии от текущего **элемента**. Для **элемента** [position](position-object-ado-md.md)коллекция **Children** всегда пуста. Кроме того, свойство [Type](type-property-ado-md.md) применяется только к **членам** **уровня**.
+Свойства члена отличаются **в** зависимости от контекста, в котором он используется. У **члена** [уровня](level-object-ado-md.md) в [CubeDef](cubedef-object-ado-md.md) есть свойство [Children,](children-property-ado-md.md) которое возвращает члены на следующем нижнем уровне иерархии от текущего **члена.**  Для  члена позиции [коллекция](position-object-ado-md.md) **Children** всегда пуста. Кроме того, свойство [Type](type-property-ado-md.md) применяется только к **членам** **уровня.**
 
-Элемент **position** имеет два свойства — [DrilledDown](drilleddown-property-ado-md.md) и [ParentSameAsPrev](parentsameasprev-property-ado-md.md) , которые удобно использовать при отображении **набора** [ячеек](cellset-object-ado-md.md). Если к этим свойствам обращаются по **элементу** **уровня**, произойдет ошибка.
+Элемент **Позиции** **имеет** два свойства ( [DrilledDown](drilleddown-property-ado-md.md) и [ParentSameAsPrev),](parentsameasprev-property-ado-md.md) которые полезны при отобралении [cellset](cellset-object-ado-md.md). При доступе к этим свойствам на  члене уровня произойдет **ошибка.**
 
-С помощью коллекций и свойств объекта **member** **уровня**можно выполнить следующие действия:
+С помощью коллекций и свойств объекта  **Member** уровня можно сделать следующее:
 
-  - Идентифицируйте **члена** с помощью свойств [Name](name-property-ado-md.md) и [UniqueName](uniquename-property-ado-md.md) .
+  - Определите **участника** со [свойствами Name](name-property-ado-md.md) и [UniqueName.](uniquename-property-ado-md.md)
 
-  - Возвращает строку, используемую при отображении **элемента** со свойством [Caption](caption-property-ado-md.md) .
+  - Возвращает строку, которая будет применяться при отобраке **объекта Member** со [свойством Caption.](caption-property-ado-md.md)
 
-  - Возвращает осмысленную строку, описывающую меру или **элемент** формулы, с помощью свойства [Description](description-property-ado-md.md) .
+  - Возвращает осмысленные строки, описывая меру или **формулу Member со** [свойством Description.](description-property-ado-md.md)
 
-  - Определите природу **элемента** с помощью свойства [Type](type-property-ado-md.md) .
+  - Определите природу члена **с** помощью свойства [Type.](type-property-ado-md.md)
 
-  - Получение сведений о **уровне** **элемента** с помощью свойств [LevelDepth](leveldepth-property-ado-md.md) и [LevelName](levelname-property-ado-md.md) .
+  - Получите сведения об **уровне участника** **со** свойствами [LevelDepth](leveldepth-property-ado-md.md) и [LevelName.](levelname-property-ado-md.md)
 
-  - Получение связанных **членов** в [иерархии](hierarchy-object-ado-md.md) с [родительскими](parent-property-ado-md.md) свойствами и свойствами [дочерних элементов](children-property-ado-md.md) .
+  - Получение **связанных членов** в [иерархии со](hierarchy-object-ado-md.md) свойствами [Parent](parent-property-ado-md.md) и [Children.](children-property-ado-md.md)
 
-  - Подсчитайте дочерние элементы **элемента** с помощью свойства [ChildCount](childcount-property-ado-md.md) .
+  - Посчитайте количество детей **члена с** помощью свойства [ChildCount.](childcount-property-ado-md.md)
 
-  - Используйте стандартную коллекцию [свойств](properties-collection-ado.md) ADO для получения дополнительных сведений об объекте **Level** .
+  - Используйте стандартную коллекцию [свойств](properties-collection-ado.md) ADO для получения дополнительных сведений об **объекте Level.**
 
-С помощью коллекций и свойств **члена** **позиции** вдоль [оси](axis-object-ado-md.md)можно выполнить следующие действия:
+С помощью коллекций и  свойств члена  позиции вдоль оси [можно](axis-object-ado-md.md)сделать следующее:
 
-  - Идентифицируйте **члена** с помощью свойств [Name](name-property-ado-md.md) и [UniqueName](uniquename-property-ado-md.md) .
+  - Определите **участника** со [свойствами Name](name-property-ado-md.md) и [UniqueName.](uniquename-property-ado-md.md)
 
-  - Возвращает строку, используемую при отображении **элемента** со свойством [Caption](caption-property-ado-md.md) .
+  - Возвращает строку, которая будет применяться при отобраке **объекта Member** со [свойством Caption.](caption-property-ado-md.md)
 
-  - Возвращает осмысленную строку, описывающую меру или **элемент** формулы, с помощью свойства [Description](description-property-ado-md.md) .
+  - Возвращает осмысленные строки, описывая меру или **формулу Member со** [свойством Description.](description-property-ado-md.md)
 
-  - Получение сведений о **уровне** **элемента** с помощью свойств [LevelDepth](leveldepth-property-ado-md.md) и [LevelName](levelname-property-ado-md.md) .
+  - Получите сведения об **уровне участника** **со** свойствами [LevelDepth](leveldepth-property-ado-md.md) и [LevelName.](levelname-property-ado-md.md)
 
-  - Подсчитайте дочерние элементы **элемента** с помощью свойства [ChildCount](childcount-property-ado-md.md) .
+  - Посчитайте количество детей **члена с** помощью свойства [ChildCount.](childcount-property-ado-md.md)
 
-  - Используйте свойство [DrilledDown](drilleddown-property-ado-md.md) , чтобы определить, есть ли по крайней мере один дочерний элемент на **оси** , которая сразу после этого **элемента**.
+  - Используйте свойство [DrilledDown,](drilleddown-property-ado-md.md) чтобы определить, есть ли по крайней мере один child на оси **сразу** после этого **члена**.
 
-  - Используйте свойство [ParentSameAsPrev](parentsameasprev-property-ado-md.md) , чтобы определить, совпадает ли родительский **элемент этого члена** со родителем непосредственно предыдущего **члена**.
+  - Используйте свойство [ParentSameAsPrev,](parentsameasprev-property-ado-md.md) чтобы определить,  является ли родительский объект этого члена тем же, что и родительский объект предшествующего **члена.**
 
-  - Используйте стандартную коллекцию [свойств](properties-collection-ado.md) ADO для получения дополнительных сведений об объекте **Level** .
+  - Используйте стандартную коллекцию [свойств](properties-collection-ado.md) ADO для получения дополнительных сведений об **объекте Level.**
 
-Коллекция **Properties** содержит свойства, предоставляемые поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может различаться в зависимости от реализации поставщика. Просмотрите документацию для своего поставщика, чтобы получить полный список доступных свойств.
+Коллекция **Properties** содержит свойства, предоставленные поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может отличаться в зависимости от реализации поставщика. Более полный список доступных свойств см. в документации к поставщику.
 
 <table>
 <colgroup>
@@ -78,76 +78,76 @@ ms.locfileid: "32289424"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>каталогнаме</p></td>
-<td><p>Имя каталога, к которому принадлежит куб.</p></td>
+<td><p>CatalogName</p></td>
+<td><p>Имя каталога, к которому принадлежит этот куб.</p></td>
 </tr>
 <tr class="even">
-<td><p>чилдренкардиналити</p></td>
-<td><p>Количество дочерних элементов.</p></td>
+<td><p>ChildrenCardinality</p></td>
+<td><p>Количество детей, которые есть у участника.</p></td>
 </tr>
 <tr class="odd">
-<td><p>кубенаме</p></td>
+<td><p>CubeName</p></td>
 <td><p>Имя куба.</p></td>
 </tr>
 <tr class="even">
 <td><p>Описание</p></td>
-<td><p>Понятное описание члена.</p></td>
+<td><p>Осмысленное описание участника.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дименсионуникуенаме</p></td>
-<td><p>Неоднозначное имя <a href="dimension-object-ado-md.md">измерения</a>.</p></td>
+<td><p>DimensionUniqueName</p></td>
+<td><p>Однозначное имя <a href="dimension-object-ado-md.md">измерения.</a></p></td>
 </tr>
 <tr class="even">
-<td><p>хиерарчюникуенаме</p></td>
-<td><p>Неоднозначное имя иерархии.</p></td>
+<td><p>HierarchyUniqueName</p></td>
+<td><p>Однозначное имя иерархии.</p></td>
 </tr>
 <tr class="odd">
-<td><p>левелнумбер</p></td>
+<td><p>LevelNumber</p></td>
 <td><p>Расстояние между уровнем и корнем иерархии.</p></td>
 </tr>
 <tr class="even">
-<td><p>левелуникуенаме</p></td>
-<td><p>Неоднозначное имя уровня.</p></td>
+<td><p>LevelUniqueName</p></td>
+<td><p>Однозначное имя уровня.</p></td>
 </tr>
 <tr class="odd">
-<td><p>мемберкаптион</p></td>
-<td><p>Метка или заголовок, связанные с элементом.</p></td>
+<td><p>MemberCaption</p></td>
+<td><p>Метка или подпись, связанная с участником.</p></td>
 </tr>
 <tr class="even">
-<td><p>мембергуид</p></td>
-<td><p>GUID члена.</p></td>
+<td><p>MemberGUID</p></td>
+<td><p>GUID участника.</p></td>
 </tr>
 <tr class="odd">
 <td><p>MemberName</p></td>
-<td><p>Имя элемента.</p></td>
+<td><p>Имя участника.</p></td>
 </tr>
 <tr class="even">
-<td><p>мемберординал</p></td>
-<td><p>Порядковый номер элемента.</p></td>
+<td><p>MemberOrdinal</p></td>
+<td><p>Порядковая номер участника.</p></td>
 </tr>
 <tr class="odd">
-<td><p>мембертипе</p></td>
-<td><p>Тип элемента.</p></td>
+<td><p>MemberType</p></td>
+<td><p>Тип члена.</p></td>
 </tr>
 <tr class="even">
-<td><p>мемберуникуенаме</p></td>
-<td><p>Неоднозначное имя элемента.</p></td>
+<td><p>MemberUniqueName</p></td>
+<td><p>Однозначное имя члена.</p></td>
 </tr>
 <tr class="odd">
-<td><p>паренткаунт</p></td>
-<td><p>Количество родительских элементов.</p></td>
+<td><p>ParentCount</p></td>
+<td><p>Количество родителей, которые есть у этого участника.</p></td>
 </tr>
 <tr class="even">
-<td><p>парентлевел</p></td>
-<td><p>Номер уровня родительского элемента.</p></td>
+<td><p>ParentLevel</p></td>
+<td><p>Номер уровня родительского члена.</p></td>
 </tr>
 <tr class="odd">
-<td><p>парентуникуенаме</p></td>
-<td><p>Неоднозначное имя родительского элемента.</p></td>
+<td><p>ParentUniqueName</p></td>
+<td><p>Однозначное имя родительского члена.</p></td>
 </tr>
 <tr class="even">
 <td><p>SchemaName</p></td>
-<td><p>Имя схемы, к которой принадлежит куб.</p></td>
+<td><p>Имя схемы, к которой принадлежит этот куб.</p></td>
 </tr>
 </tbody>
 </table>

@@ -19,7 +19,7 @@ ms.locfileid: "32288009"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает атрибуты объекта [Parameter](parameter-object-ado.md) .
+Указывает атрибуты объекта [Parameter.](parameter-object-ado.md)
 
 <table>
 <colgroup>
@@ -36,17 +36,17 @@ ms.locfileid: "32288009"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адпарамсигнед</strong></p></td>
+<td><p><strong>adParamSigned</strong></p></td>
 <td><p>16 </p></td>
-<td><p>Указывает, что параметр принимает значения со знаком.</p></td>
+<td><p>Указывает, что параметр принимает подписанные значения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпарамнуллабле</strong></p></td>
+<td><p><strong>adParamNullable</strong></p></td>
 <td><p>64</p></td>
-<td><p>Указывает, что параметр может принимать значения NULL.</p></td>
+<td><p>Указывает, что параметр принимает значения null.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адпарамлонг</strong></p></td>
+<td><p><strong>adParamLong</strong></p></td>
 <td><p>128</p></td>
 <td><p>Указывает, что параметр принимает длинные двоичные данные.</p></td>
 </tr>
@@ -56,7 +56,7 @@ ms.locfileid: "32288009"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -69,13 +69,13 @@ ms.locfileid: "32288009"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Параметераттрибутес. SIGNED</p></td>
+<td><p>AdoEnums.ParameterAttributes.SIGNED</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Параметераттрибутес. NULLABLE</p></td>
+<td><p>AdoEnums.ParameterAttributes.NULLABLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Параметераттрибутес. LONG</p></td>
+<td><p>AdoEnums.ParameterAttributes.LONG</p></td>
 </tr>
 </tbody>
 </table>

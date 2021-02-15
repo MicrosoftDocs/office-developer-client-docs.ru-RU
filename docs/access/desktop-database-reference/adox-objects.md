@@ -1,5 +1,5 @@
 ---
-title: Объекты ADOX (Справочник по базам данных Access на компьютере)
+title: ADOX objects (Access desktop database reference)
 TOCTitle: ADOX objects
 ms:assetid: d7db1aed-251b-888b-bc44-f61caeeac403
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250087(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32280303"
 
 **Область применения**: Access 2013, Office 2013
 
-Каждый объект может содержаться в соответствующей коллекции. Например, объект **Table** может содержаться в коллекции [Tables](tables-collection-adox.md) . Дополнительные сведения можно найти в статье [Collections ADOX Collections](adox-collections.md) or of a specific Collection.
+Каждый объект может содержаться в соответствующей коллекции. Например, объект **Table** может содержаться в коллекции [Tables.](tables-collection-adox.md) Дополнительные сведения см. в коллекциях [ADOX](adox-collections.md) или в определенной теме коллекции.
 
 <br/>
 
@@ -36,23 +36,23 @@ ms.locfileid: "32280303"
 <tbody>
 <tr class="odd">
 <td><p><a href="catalog-object-adox.md">Каталог</a></p></td>
-<td><p>Содержит коллекции, описывающие каталог схем источника данных.</p></td>
+<td><p>Содержит коллекции, описывают каталог схемы источника данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="column-object-adox.md">Столбец</a></p></td>
 <td><p>Представляет столбец из таблицы, индекса или ключа.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="group-object-adox.md">group</a></p></td>
-<td><p>Представляет учетную запись группы, имеющую разрешения на доступ в защищенной базе данных.</p></td>
+<td><p><a href="group-object-adox.md">Group</a></p></td>
+<td><p>Представляет учетную запись группы, которая имеет разрешения на доступ в защищенной базе данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="index-object-adox.md">Индекс</a></p></td>
 <td><p>Представляет индекс из таблицы базы данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="key-object-adox.md">Key</a></p></td>
-<td><p>Представляет первичное, внешнее или уникальное ключевое поле из таблицы базы данных.</p></td>
+<td><p><a href="key-object-adox.md">Раздел</a></p></td>
+<td><p>Представляет поле первичного, внешнего или уникального ключа из таблицы базы данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="procedure-object-adox.md">Процедура</a></p></td>
@@ -63,11 +63,11 @@ ms.locfileid: "32280303"
 <td><p>Представляет таблицу базы данных, включая столбцы, индексы и ключи.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="user-object-adox.md">User</a></p></td>
-<td><p>Представляет учетную запись пользователя, имеющую разрешения на доступ в защищенной базе данных.</p></td>
+<td><p><a href="user-object-adox.md">Пользователь</a></p></td>
+<td><p>Представляет учетную запись пользователя с разрешениями на доступ в защищенной базе данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="view-object-adox.md">Просмотр</a></p></td>
+<td><p><a href="view-object-adox.md">View</a></p></td>
 <td><p>Представляет отфильтрованный набор записей или виртуальную таблицу.</p></td>
 </tr>
 </tbody>

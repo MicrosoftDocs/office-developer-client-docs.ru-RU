@@ -1,5 +1,5 @@
 ---
-title: Свойства объектов данных ActiveX (ADO) MD
+title: ActiveX MD объектов данных (ADO)
 TOCTitle: ADO MD properties
 ms:assetid: 401085e7-758e-92c8-6f8d-cc8af3ce954c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249180(v=office.15)
@@ -32,19 +32,19 @@ ms.locfileid: "32283291"
 </tr>
 <tr class="odd">
 <td><p><a href="activeconnection-property-ado-md.md">ActiveConnection</a></p></td>
-<td><p>Указывает, какой объект <strong>подключения</strong> ADO принадлежит текущему набору ячеек или каталогу в текущий момент.</p></td>
+<td><p>Указывает, к каков объекту подключения <strong>ADO</strong> текущий ячейки или каталог в настоящее время принадлежит.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="caption-property-ado-md.md">Caption</a></p></td>
-<td><p>Указывает заголовок текста, используемый при отображении объекта <strong>уровня</strong> или <strong>элемента</strong> .</p></td>
+<td><p>Указывает заголовок текста, который будет применяться при отобраке объекта <strong>Level</strong> или <strong>Member.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="childcount-property-ado-md.md">ChildCount</a></p></td>
-<td><p>Указывает количество элементов, для которых текущий объект <strong>member</strong> является родительским в иерархии.</p></td>
+<td><p>Указывает количество членов, для которых текущий объект <strong>Member</strong> является родительским в иерархии.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="children-property-ado-md.md">Children</a></p></td>
-<td><p>Возвращает коллекцию <strong>элементов</strong> , для которых текущий <strong>элемент</strong> является родительским в иерархии.</p></td>
+<td><p>Возвращает коллекцию <strong>членов,</strong> для которых текущий член <strong>является</strong> родительским в иерархии.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="count-property-ado.md">Count</a></p></td>
@@ -56,7 +56,7 @@ ms.locfileid: "32283291"
 </tr>
 <tr class="odd">
 <td><p><a href="description-property-ado-md.md">Описание</a></p></td>
-<td><p>Возвращает текстовое описание текущего объекта.</p></td>
+<td><p>Возвращает текстовое объяснение текущего объекта.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="dimensioncount-property-ado-md.md">DimensionCount</a></p></td>
@@ -64,67 +64,67 @@ ms.locfileid: "32283291"
 </tr>
 <tr class="odd">
 <td><p><a href="drilleddown-property-ado-md.md">DrilledDown</a></p></td>
-<td><p>Указывает, должны ли дочерние элементы сразу следовать за элементом на оси.</p></td>
+<td><p>Указывает, следует ли сразу следовать за членом на оси.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="filteraxis-property-ado-md.md">FilterAxis</a></p></td>
-<td><p>Показывает сведения о фильтре для текущего поднабора ячеек.</p></td>
+<td><p>Указывает сведения фильтра для текущего ячеек.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="item-property-ado-md-cellset.md">Элемент</a></p></td>
-<td><p>Извлекает ячейку из элемента Cell с помощью ее координат.</p></td>
+<td><p>Извлекает ячейку из ячейки с помощью ее координат.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="item-property-ado.md">Элемент</a></p></td>
-<td><p>Возвращает определенный элемент коллекции по имени или порядковому номеру.</p></td>
+<td><p>Возвращает определенный член коллекции по имени или порядковому номеру.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="formattedvalue-property-ado-md.md">FormattedValue</a></p></td>
-<td><p>Указывает отформатированное отображение значения ячейки.</p></td>
+<td><p>Указывает отформатированный дисплей значения ячейки.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="leveldepth-property-ado-md.md">LevelDepth</a></p></td>
-<td><p>Указывает количество уровней между корнем иерархии и элементом.</p></td>
+<td><p>Указывает количество уровней между корнем иерархии и членом.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="levelname-property-ado-md.md">LevelName</a></p></td>
-<td><p>Указывает имя уровня элемента.</p></td>
+<td><p>Указывает имя уровня члена.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-ado-md.md">имя</a></p></td>
+<td><p><a href="name-property-ado-md.md">Название</a></p></td>
 <td><p>Указывает имя объекта.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="ordinal-property-ado-md-cell.md">Ordinal (ячейка)</a></p></td>
-<td><p>Уникально определяет ячейку по ее позиции в наборе ячеек.</p></td>
+<td><p><a href="ordinal-property-ado-md-cell.md">Ordinal (Cell)</a></p></td>
+<td><p>Уникально идентифицирует ячейку по ее положению в ячейке.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="ordinal-property-ado-md-position.md">Порядковый номер (Position)</a></p></td>
-<td><p>Уникально определяет положение вдоль оси.</p></td>
+<td><p><a href="ordinal-property-ado-md-position.md">Ordinal (Position)</a></p></td>
+<td><p>Уникально идентифицирует положение вдоль оси.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="parent-property-ado-md.md">Parent</a></p></td>
-<td><p>Указывает члена, который является родительским для текущего элемента в иерархии.</p></td>
+<td><p>Указывает член, который является родительским для текущего члена в иерархии.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="parentsameasprev-property-ado-md.md">ParentSameAsPrev</a></p></td>
-<td><p>Указывает, совпадает ли родительский элемент этого элемента Position с родителем непосредственно предыдущего члена.</p></td>
+<td><p>Указывает, является ли родительский член этой позиции тем же, что и родительский член непосредственного предыдущего.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="source-property-ado-md.md">Source</a></p></td>
-<td><p>Указывает источник данных в наборе ячеек.</p></td>
+<td><p>Указывает источник данных в ячейках.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="state-property-ado-md.md">State</a></p></td>
-<td><p>Указывает текущее состояние набора ячеек.</p></td>
+<td><p>Указывает текущее состояние ячейки.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="type-property-ado-md.md">Тип</a></p></td>
-<td><p>Указывает тип текущего элемента.</p></td>
+<td><p>Указывает тип текущего члена.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="uniquename-property-ado-md.md">UniqueName</a></p></td>
-<td><p>Указывает на неоднозначное имя для текущего объекта.</p></td>
+<td><p>Указывает однозначное имя для текущего объекта.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="value-property-ado-md.md">Значение</a></p></td>

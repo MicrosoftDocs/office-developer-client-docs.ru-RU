@@ -1,5 +1,5 @@
 ---
-title: Линесепараторсенум (Справочник по базам данных Access на компьютере)
+title: LineSeparatorsEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: LineSeparatorsEnum
 ms:assetid: 3b0c58a8-1617-f9b1-c0c8-928580b2dade
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249148(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32289944"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает символ, используемый в качестве разделителя строк в текстовых объектах [потока](stream-object-ado.md) .
+Указывает символ, используемый в качестве деспликатора линии в текстовых [объектах Stream.](stream-object-ado.md)
 
 <br/>
 
@@ -37,19 +37,19 @@ ms.locfileid: "32289944"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адкр</strong></p></td>
-<td><p>13</p></td>
-<td><p>Указывает на возврат каретки.</p></td>
+<td><p><strong>adCR</strong></p></td>
+<td><p>13 </p></td>
+<td><p>Указывает возврат каретки.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адкрлф</strong></p></td>
+<td><p><strong>adCRLF</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Значение, используемое по умолчанию. Указывает перевод строки возврата каретки.</p></td>
+<td><p>Значение, используемое по умолчанию. Указывает канал строки возврата каретки.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адлф</strong></p></td>
+<td><p><strong>adLF</strong></p></td>
 <td><p>10 </p></td>
-<td><p>Указывает на перевод строки.</p></td>
+<td><p>Указывает канал строки.</p></td>
 </tr>
 </tbody>
 </table>

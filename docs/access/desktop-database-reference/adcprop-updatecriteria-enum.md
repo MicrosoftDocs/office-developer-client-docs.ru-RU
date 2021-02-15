@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282854"
 ---
-# <a name="adcprop_updatecriteria_enum"></a>Перечисление АДКПРОП\_упдатекритериа\_
+# <a name="adcprop_updatecriteria_enum"></a>ADCPROP \_ UPDATECRITERIA \_ ENUM
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, какие поля можно использовать для обнаружения конфликтов во время оптимистического обновления строки источника данных с помощью объекта [Recordset](recordset-object-ado.md) .
+Указывает, какие поля можно использовать для обнаружения конфликтов во время оптимистичного обновления строки источника данных с [объектом Recordset.](recordset-object-ado.md)
 
-Используйте эти константы с динамическим свойством **Recordset** "**критерии обновления**", на который ссылается [индекс динамического свойства ADO](ado-dynamic-property-index.md) и задокументированы в документации [службы курсора для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) .
+Используйте эти константы с динамическим свойством **Recordset** **"Update Criteria"**(Условия обновления), на которое ссылается динамический индекс [свойств ADO](ado-dynamic-property-index.md) и задокументировано в документации microsoft [Cursor Service для OLE DB.](microsoft-cursor-service-for-ole-db-ado-service-component.md)
 
 <br/>
 
@@ -39,24 +39,24 @@ ms.locfileid: "32282854"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адкритериааллколс</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Обнаруживает конфликты при изменении любого столбца строки источника данных.</p></td>
+<td><p><strong>adCriteriaAllCols</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Обнаруживает конфликты, если был изменен какой-либо столбец строки источника данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адкритериакэй</strong></p></td>
-<td><p>нуль</p></td>
-<td><p>Обнаруживает конфликты, если ключевой столбец строки источника данных изменился, что означает, что строка была удалена.</p></td>
+<td><p><strong>adCriteriaKey</strong></p></td>
+<td><p>0</p></td>
+<td><p>Обнаруживает конфликты, если ключевой столбец строки источника данных был изменен, что означает, что строка была удалена.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адкритериатиместамп</strong></p></td>
-<td><p>4</p></td>
-<td><p>Обнаруживает конфликты, если отметка времени строки источника данных была изменена, то есть доступ к строке выполнялся после получения <strong>набора записей</strong> .</p></td>
+<td><p><strong>adCriteriaTimeStamp</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Обнаруживает конфликты, если была изменена временная запись строки источника данных, то есть доступ к строке был получен после получения <strong>recordset.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адкритериаупдколс</strong></p></td>
-<td><p>2</p></td>
-<td><p>Обнаруживает конфликты при изменении одного из столбцов строки источника данных, соответствующих обновленным полям <strong>набора записей</strong> .</p></td>
+<td><p><strong>adCriteriaUpdCols</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Обнаруживает конфликты, если один из столбцов строки источника данных, соответствующий обновленным полям в <strong>наборе записей,</strong> был изменен.</p></td>
 </tr>
 </tbody>
 </table>
@@ -64,7 +64,7 @@ ms.locfileid: "32282854"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -77,16 +77,16 @@ ms.locfileid: "32282854"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Адкпропупдатекритериа. АЛЛКОЛС</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.ALLCOLS</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Адкпропупдатекритериа. KEY</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.KEY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Адкпропупдатекритериа. TIMESTAMP</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.TIMESTAMP</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Адкпропупдатекритериа. УПДКОЛС</p></td>
+<td><p>AdoEnums.AdcPropUpdateCriteria.UPDCOLS</p></td>
 </tr>
 </tbody>
 </table>

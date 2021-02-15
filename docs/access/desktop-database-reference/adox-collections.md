@@ -1,5 +1,5 @@
 ---
-title: Коллекции ADOX (Справочник по базам данных Access на компьютере)
+title: Коллекции ADOX (справочник по базам данных Access для настольных ПК)
 TOCTitle: ADOX collections
 ms:assetid: bff37fcc-3099-a4a7-b01f-8de1467bf96b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
@@ -34,35 +34,35 @@ ms.locfileid: "32270128"
 <tbody>
 <tr class="odd">
 <td><p><a href="columns-collection-adox.md">Columns</a></p></td>
-<td><p>Содержит все объекты <strong>Column</strong> таблицы, индекса или ключа.</p></td>
+<td><p>Содержит все <strong>объекты Column</strong> таблицы, индекса или ключа.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="groups-collection-adox.md">Группы</a></p></td>
-<td><p>Содержит все объекты <strong>группы</strong> , хранящиеся в каталоге или пользователе.</p></td>
+<td><p>Содержит все сохраненные <strong>объекты group</strong> каталога или пользователя.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="indexes-collection-adox.md">Indexes</a></p></td>
-<td><p>Содержит все объекты <strong>индекса</strong> таблицы.</p></td>
+<td><p>Содержит все <strong>объекты index</strong> таблицы.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="keys-collection-adox.md">Keys</a></p></td>
-<td><p>Содержит все <strong>Ключевые</strong> объекты таблицы.</p></td>
+<td><p>Содержит все <strong>ключевые</strong> объекты таблицы.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="procedures-collection-adox.md">Процедуры</a></p></td>
-<td><p>Содержит все объекты <strong>процедур</strong> каталога.</p></td>
+<td><p>Содержит все <strong>объекты Procedure</strong> каталога.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="tables-collection-adox.md">Tables</a></p></td>
-<td><p>Содержит все объекты <strong>Table</strong> каталога.</p></td>
+<td><p>Содержит все <strong>объекты Table</strong> каталога.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="users-collection-adox.md">пользователи</a>;</p></td>
-<td><p>Содержит все сохраненные объекты <strong>пользователя</strong> для каталога или группы.</p></td>
+<td><p>Содержит все <strong>хранимые</strong> объекты пользователя каталога или группы.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="views-collection-adox.md">Views</a></p></td>
-<td><p>Содержит все объекты <strong>представления</strong> каталога.</p></td>
+<td><p>Содержит все <strong>объекты просмотра</strong> каталога.</p></td>
 </tr>
 </tbody>
 </table>

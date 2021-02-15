@@ -19,7 +19,7 @@ ms.locfileid: "32287974"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, представляет ли [параметр](parameter-object-ado.md) входной параметр, выходной параметр, входной и выходной параметры, а также возвращаемое значение из хранимой процедуры.
+Указывает, представляет [](parameter-object-ado.md) ли параметр входной параметр, выходной параметр, входной и выходной параметры, или возвращаемого значения из хранимой процедуры.
 
 <table>
 <colgroup>
@@ -36,28 +36,28 @@ ms.locfileid: "32287974"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адпараминпут</strong></p></td>
-<td><p>1,1</p></td>
+<td><p><strong>adParamInput</strong></p></td>
+<td><p>1 </p></td>
 <td><p>Значение, используемое по умолчанию. Указывает, что параметр представляет входной параметр.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпараминпутаутпут</strong></p></td>
-<td><p>4</p></td>
-<td><p>Указывает, что параметр представляет оба входного и выходного параметра.</p></td>
+<td><p><strong>adParamInputOutput</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Указывает, что параметр представляет как входной, так и выходной параметр.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адпарамаутпут</strong></p></td>
-<td><p>2</p></td>
+<td><p><strong>adParamOutput</strong></p></td>
+<td><p>2 </p></td>
 <td><p>Указывает, что параметр представляет выходной параметр.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпарамретурнвалуе</strong></p></td>
+<td><p><strong>adParamReturnValue</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Указывает, что параметр представляет возвращаемое значение.</p></td>
+<td><p>Указывает, что параметр представляет возвращаемую величину.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адпарамункновн</strong></p></td>
-<td><p>нуль</p></td>
+<td><p><strong>adParamUnknown</strong></p></td>
+<td><p>0</p></td>
 <td><p>Указывает, что направление параметра неизвестно.</p></td>
 </tr>
 </tbody>
@@ -66,7 +66,7 @@ ms.locfileid: "32287974"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -79,19 +79,19 @@ ms.locfileid: "32287974"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Параметердиректион. INPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.INPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Параметердиректион. процессы</p></td>
+<td><p>AdoEnums.ParameterDirection.INPUTOUTPUT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Параметердиректион. OUTPUT</p></td>
+<td><p>AdoEnums.ParameterDirection.OUTPUT</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Параметердиректион. RETURNVALUE</p></td>
+<td><p>AdoEnums.ParameterDirection.RETURNVALUE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Параметердиректион. UNKNOWN</p></td>
+<td><p>AdoEnums.ParameterDirection.UNKNOWN</p></td>
 </tr>
 </tbody>
 </table>

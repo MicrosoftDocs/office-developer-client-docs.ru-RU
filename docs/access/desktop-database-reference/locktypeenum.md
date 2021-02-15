@@ -1,5 +1,5 @@
 ---
-title: LockTypeEnum (Справочник по базам данных Access на компьютере)
+title: LockTypeEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: LockTypeEnum
 ms:assetid: 966b4952-5591-4a99-82d5-99cb9ae3fc72
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249667(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32289866"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает тип блокировки, помещаемой в записи во время редактирования.
+Указывает тип блокировки записей во время редактирования.
 
 <table>
 <colgroup>
@@ -35,29 +35,29 @@ ms.locfileid: "32289866"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адлоккбатчоптимистик</strong></p></td>
+<td><p><strong>adLockBatchOptimistic</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Указывает на неоптимистичные пакетные обновления. Обязательный режим для режима пакетного обновления.</p></td>
+<td><p>Указывает на оптимистичные пакетные обновления. Требуется для режима пакетного обновления.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адлоккоптимистик</strong></p></td>
-<td><p>4</p></td>
-<td><p>Указывает на оптимистичную блокировку, запись по записи. Поставщик использует оптимистическую блокировку, блокируя записи только при вызове метода <a href="update-method-ado.md">Update</a> .</p></td>
+<td><p><strong>adLockOptimistic</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Указывает на оптимистичную блокировку, запись по записи. Поставщик использует оптимистичную блокировку, блокировку записей только при вызове метода <a href="update-method-ado.md">Update.</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адлоккпессимистик</strong></p></td>
-<td><p>2</p></td>
-<td><p>Указывает на пессимистическую блокировку, запись по записи. Поставщик выполняет то, что необходимо для успешного редактирования записей, как правило, путем блокировки записей в источнике данных сразу же после редактирования.</p></td>
+<td><p><strong>adLockPessimistic</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Указывает пессимистическую блокировку, запись по записи. Поставщик делает все необходимое для успешного редактирования записей, обычно блокировка записей в источнике данных сразу после редактирования.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адлоккреадонли</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Указывает записи, предназначенные только для чтения. Вы не можете изменить данные.</p></td>
+<td><p><strong>adLockReadOnly</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Указывает записи только для чтения. Изменить данные невозможно.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адлоккунспеЦифиед</strong></p></td>
+<td><p><strong>adLockUnspecified</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Не указывает тип блокировки. Для клонов создается клон с тем же типом блокировки, что и исходный.</p></td>
+<td><p>Не указывает тип блокировки. Для клонов клон создается с тем же типом блокировки, что и исходный.</p></td>
 </tr>
 </tbody>
 </table>
@@ -65,7 +65,7 @@ ms.locfileid: "32289866"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -78,19 +78,19 @@ ms.locfileid: "32289866"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. LockType. БАТЧОПТИМИСТИК</p></td>
+<td><p>AdoEnums.LockType.BATСЕТИМИСТИЧНЫЕ</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. LockType. Оптимистическая блокировка</p></td>
+<td><p>AdoEnums.LockType.OPTIMISTIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. LockType. Пессимистическая блокировка</p></td>
+<td><p>AdoEnums.LockType.ПЕССИМИСТИЧЕСКИЙ</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. LockType. READONLY</p></td>
+<td><p>AdoEnums.LockType.READONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. LockType. unspecifieded</p></td>
+<td><p>AdoEnums.LockType.UNSPECIFIED</p></td>
 </tr>
 </tbody>
 </table>

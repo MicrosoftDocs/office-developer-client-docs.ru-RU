@@ -1,5 +1,5 @@
 ---
-title: Пример свойств ActiveConnection, CommandText, CommandTimeout (VB)
+title: Пример свойств ActiveConnection, CommandText и CommandTimeout (VB)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VB)
 ms:assetid: dc869f6b-3c48-9fc8-ae3a-5850ed5d3274
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250116(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32282553"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используются свойства [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [size](size-property-ado.md)и [Direction](direction-property-ado.md) для выполнения хранимой процедуры.
+В этом примере для выполнения хранимой процедуры используются свойства [ActiveConnection,](activeconnection-property-ado.md) [CommandText,](commandtext-property-ado.md) [CommandTimeout,](commandtimeout-property-ado.md) [CommandType,](commandtype-property-ado.md) [Size](size-property-ado.md)и [Direction.](direction-property-ado.md)
 
 ```vb 
  

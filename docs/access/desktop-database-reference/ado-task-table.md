@@ -1,5 +1,5 @@
 ---
-title: Таблица задач объектов данных ActiveX (ADO)
+title: ActiveX задач объектов данных (ADO)
 TOCTitle: ADO task table
 ms:assetid: 39671d86-72ac-a7b0-53d2-7a17429b15ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32283249"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующей таблице перечислены задачи программирования, которые содержатся в *руководстве программиста по ADO* , и приводятся ссылки для каждой задачи. Эти ссылки могут быть текстовыми описаниями или примерами кода, в которых можно найти сведения о компоненте ADO, который выполняет задачу.
+В следующей таблице перечислены задачи программирования, содержащиеся в руководстве *программиста ADO,* и перечислены ссылки на каждую задачу. Эти ссылки могут быть текстовыми описаниями или примерами кода, в которых можно найти сведения о функции ADO, которая выполняет задачу.
 
 <table>
 <colgroup>
@@ -41,15 +41,15 @@ ms.locfileid: "32283249"
 <td><p><a href="using-the-command-object-access.md">Использование объекта Command</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Открытие объекта <strong>Recordset</strong></p></td>
-<td><p><a href="open-method-ado-recordset.md">Метод Open объекта Recordset</a></p></td>
+<td><p>Открытие <strong>recordset</strong></p></td>
+<td><p><a href="open-method-ado-recordset.md">Метод Recordset Object Open</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Определение размера объекта <strong>Recordset</strong></p></td>
-<td><p><a href="counting-rows.md">Подсчет строк</a> и <a href="the-limits-of-a-recordset.md">пределы набора записей</a></p></td>
+<td><p>Определение размера наборов <strong>записей</strong></p></td>
+<td><p><a href="counting-rows.md">Подсчет строк</a> и <a href="the-limits-of-a-recordset.md">ограничений для наборов записей</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Переход на определенную запись</p></td>
+<td><p>Переход к определенной записи</p></td>
 <td><p><a href="navigating-through-the-data.md">Navigating Through the Data</a></p></td>
 </tr>
 <tr class="even">
@@ -77,11 +77,11 @@ ms.locfileid: "32283249"
 <td><p><a href="updating-data.md">Updating Data</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Начало, фиксация и откат транзакций</p></td>
+<td><p>Транзакции начала, зафиксирования и отката</p></td>
 <td><p><a href="transaction-processing.md">Transaction Processing</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранение записей в файл (XML или двоичный)</p></td>
+<td><p>Сохранение записей в файл (XML или двоичный файл)</p></td>
 <td><p><a href="persisting-data.md">Persisting Data</a></p></td>
 </tr>
 <tr class="even">
@@ -93,11 +93,11 @@ ms.locfileid: "32283249"
 <td><p><a href="ado-event-handler-summary.md">ADO Event Handler Summary</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Выбор местоположения и типа курсора</p></td>
+<td><p>Выбор расположения и типа курсора</p></td>
 <td><p><a href="types-of-cursors.md">Types of Cursors</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Выбор типов блокировок</p></td>
+<td><p>Выбор типов блокировки</p></td>
 <td><p><a href="types-of-locks.md">Types of Locks</a></p></td>
 </tr>
 <tr class="even">
@@ -105,11 +105,11 @@ ms.locfileid: "32283249"
 <td><p><a href="data-shaping.md">Data Shaping</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Доступ к данным с частичным структурированием</p></td>
+<td><p>Доступ к полуструктурным данным</p></td>
 <td><p><a href="chapter-10-records-and-streams.md">Chapter 10: Records and Streams</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Публикация в службах IIS</p></td>
+<td><p>Публикация в IIS</p></td>
 <td><p><a href="using-ado-for-internet-publishing.md">Using ADO for Internet Publishing</a></p></td>
 </tr>
 </tbody>

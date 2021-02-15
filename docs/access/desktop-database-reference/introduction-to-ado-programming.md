@@ -1,5 +1,5 @@
 ---
-title: Общие сведения о программировании для ADO
+title: Введение в программирование ADO
 TOCTitle: Introduction
 ms:assetid: 40492840-0a03-ed2b-2ae8-f42749ef9b53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249181(v=office.15)
@@ -14,23 +14,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291226"
 ---
-# <a name="introduction-to-ado-programming"></a>Общие сведения о программировании для ADO
+# <a name="introduction-to-ado-programming"></a>Введение в программирование ADO
 
 **Область применения**: Access 2013, Office 2013
 
-Общие сведения о руководстве программиста Microsoft ActiveX Data Objects (ADO) можно найти в следующих статьях:
+Введение в руководство программиста microsoft ActiveX Data Objects (ADO) см. в следующих темах:
 
 - [Что нового в ADO](what-s-new-in-ado.md)
 - [Prerequisites (ADO Introduction)](prerequisites-ado-introduction.md)
 - [Семейство библиотек ADO](the-ado-family-of-libraries.md)
-- [Роль ADO в доступе к данным Microsoft](the-role-of-ado-in-microsoft-data-access.md)
+- [Роль ADO в Microsoft Data Access](the-role-of-ado-in-microsoft-data-access.md)
 - [Таблица задач ADO](ado-task-table.md)
 - [Таблица технологий ADO](ado-technology-table.md)
 - [Глоссарий ADO](ado-glossary.md)
 
 ## <a name="next-steps"></a>Дальнейшие действия
 
-Перейдите к [разделу I: Active X Data Objects](section-i-activex-data-objects.md).
+Перейдите [к разделу I. Объекты данных Active X.](section-i-activex-data-objects.md)
 
 ## <a name="see-also"></a>См. также
 

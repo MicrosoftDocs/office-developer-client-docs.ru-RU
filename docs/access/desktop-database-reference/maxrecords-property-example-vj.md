@@ -19,7 +19,7 @@ ms.locfileid: "32289695"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используется свойство [maxRecords](maxrecords-property-ado.md) для открытия объекта [Recordset](recordset-object-ado.md) , содержащего 10 наиболее дорогих заголовков в таблице ***titles*** .
+В этом примере свойство [MaxRecords](maxrecords-property-ado.md) используется для открытия объекта [Recordset,](recordset-object-ado.md) содержащего 10 самых дорогих названий в таблице ***Titles.***
 
 ```java 
  

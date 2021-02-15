@@ -18,9 +18,9 @@ ms.locfileid: "32288044"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство Parameter. Direction (DAO)](parameter-direction-property-dao.md)
-- [Свойство Parameter.Name (DAO)](parameter-name-property-dao.md)
-- [Свойство Parameter. Properties (DAO)](parameter-properties-property-dao.md)
-- [Свойство Parameter. Type (DAO)](parameter-type-property-dao.md)
-- [Свойство Parameter. Value (DAO)](parameter-value-property-dao.md)
+- [Свойство Parameter.Direction (DAO)](parameter-direction-property-dao.md)
+- [Parameter.Name DAO](parameter-name-property-dao.md)
+- [Свойство Parameter.Properties (DAO)](parameter-properties-property-dao.md)
+- [Свойство Parameter.Type (DAO)](parameter-type-property-dao.md)
+- [Свойство Parameter.Value (DAO)](parameter-value-property-dao.md)
 

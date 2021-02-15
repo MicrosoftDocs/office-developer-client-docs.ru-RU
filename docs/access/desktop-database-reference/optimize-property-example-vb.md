@@ -19,7 +19,7 @@ ms.locfileid: "32288261"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано динамическое свойство optimize для объектов [field](field-object-ado.md) . Поле ***ZIP*** таблицы ***authors*** в базе данных ***pubs*** не индексируется. Установка для свойства [optimize](optimize-property-dynamic-ado.md) значения **true** в поле ***ZIP*** авторизует ADO для создания индекса, который повышает производительность метода [Find](find-method-ado.md) .
+В этом примере показано [динамическое](field-object-ado.md) свойство Optimize объектов Field. ***Zip-поле*** ***таблицы Authors*** в базе данных ***Pubs*** не индексироваться. Установка для свойства [Optimize](optimize-property-dynamic-ado.md)  в **zip-поле** true позволяет ADO создать индекс, который повышает производительность метода [Find.](find-method-ado.md)
 
 ```vb 
  

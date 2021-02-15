@@ -19,7 +19,7 @@ ms.locfileid: "32288443"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используются методы **Open** и [Close](close-method-ado.md) для объектов [Recordset](recordset-object-ado.md) и [Connections](connection-object-ado.md) , которые были открыты.
+В этом примере используются методы **Open** и [Close](close-method-ado.md) для открытых объектов [Recordset](recordset-object-ado.md) и [Connection.](connection-object-ado.md)
 
 ```vb 
  
