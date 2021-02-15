@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288660"
 ---
-# <a name="name-property-ado-md"></a><span data-ttu-id="146c4-102">Свойство Name (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="146c4-102">Name property (ADO MD)</span></span>
+# <a name="name-property-ado-md"></a><span data-ttu-id="bd0ad-102">Свойство Name (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="bd0ad-102">Name property (ADO MD)</span></span>
 
 
-<span data-ttu-id="146c4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="146c4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="bd0ad-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bd0ad-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="146c4-104">Указывает имя объекта.</span><span class="sxs-lookup"><span data-stu-id="146c4-104">Indicates the name of an object.</span></span>
+<span data-ttu-id="bd0ad-104">Указывает имя объекта.</span><span class="sxs-lookup"><span data-stu-id="bd0ad-104">Indicates the name of an object.</span></span>
 
-## <a name="return-values"></a><span data-ttu-id="146c4-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="146c4-105">Return values</span></span>
+## <a name="return-values"></a><span data-ttu-id="bd0ad-105">Возвращаемые значения</span><span class="sxs-lookup"><span data-stu-id="bd0ad-105">Return values</span></span>
 
-<span data-ttu-id="146c4-106">Возвращает **строку** и доступна только для чтения.</span><span class="sxs-lookup"><span data-stu-id="146c4-106">Returns a **String** and is read-only.</span></span>
+<span data-ttu-id="bd0ad-106">Возвращает **строку и** является только для чтения.</span><span class="sxs-lookup"><span data-stu-id="bd0ad-106">Returns a **String** and is read-only.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="146c4-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="146c4-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bd0ad-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="bd0ad-107">Remarks</span></span>
 
-<span data-ttu-id="146c4-108">Вы можете получить свойство **Name** объекта по порядковому номеру, после чего вы можете ссылаться на объект напрямую по имени.</span><span class="sxs-lookup"><span data-stu-id="146c4-108">You can retrieve the **Name** property of an object by an ordinal reference, after which you can refer to the object directly by name.</span></span> <span data-ttu-id="146c4-109">Например, если CDF. Коллекция cubedefs (0). Name дает "Бобс Video Store", вы можете ссылаться на этот [CubeDef](cubedef-object-ado-md.md) как на CDF. Коллекция cubedefs ("Бобс Video Store").</span><span class="sxs-lookup"><span data-stu-id="146c4-109">For example, if cdf.CubeDefs(0).Name yields "Bobs Video Store", you can refer to this [CubeDef](cubedef-object-ado-md.md) as cdf.CubeDefs("Bobs Video Store").</span></span>
+<span data-ttu-id="bd0ad-108">Свойство **Name** объекта можно получить по порядковой ссылке, после чего можно ссылаться на объект напрямую по имени.</span><span class="sxs-lookup"><span data-stu-id="bd0ad-108">You can retrieve the **Name** property of an object by an ordinal reference, after which you can refer to the object directly by name.</span></span> <span data-ttu-id="bd0ad-109">Например, если cdf. CubeDefs(0). Имя дает "Bobs Video Store", можно ссылаться на [этот CubeDef](cubedef-object-ado-md.md) как cdf. CubeDefs ("Bobs Video Store").</span><span class="sxs-lookup"><span data-stu-id="bd0ad-109">For example, if cdf.CubeDefs(0).Name yields "Bobs Video Store", you can refer to this [CubeDef](cubedef-object-ado-md.md) as cdf.CubeDefs("Bobs Video Store").</span></span>
 

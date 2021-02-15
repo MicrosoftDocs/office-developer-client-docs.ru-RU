@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32280641"
 ---
-# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="4b266-102">Пример использования свойства ActiveCommand (JScript)</span><span class="sxs-lookup"><span data-stu-id="4b266-102">ActiveCommand property example (JScript)</span></span>
+# <a name="activecommand-property-example-jscript"></a><span data-ttu-id="7f25d-102">Пример использования свойства ActiveCommand (JScript)</span><span class="sxs-lookup"><span data-stu-id="7f25d-102">ActiveCommand property example (JScript)</span></span>
 
-<span data-ttu-id="4b266-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4b266-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7f25d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7f25d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4b266-104">В этом примере показано свойство [ActiveCommand](activecommand-property-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="4b266-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span> <span data-ttu-id="4b266-105">Скопируйте и вставьте следующий код в Блокнот или другой текстовый редактор и сохраните его как **активекомманджс. ASP**.</span><span class="sxs-lookup"><span data-stu-id="4b266-105">Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
+<span data-ttu-id="7f25d-104">В этом примере показано [свойство ActiveCommand.](activecommand-property-ado.md)</span><span class="sxs-lookup"><span data-stu-id="7f25d-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span> <span data-ttu-id="7f25d-105">Включите следующий код в Блокнот или другой текстовый редактор и сохраните его как **ActiveCommandJS.asp.**</span><span class="sxs-lookup"><span data-stu-id="7f25d-105">Cut and paste the following code to Notepad or another text editor, and save it as **ActiveCommandJS.asp**.</span></span>
 
 ```javascript
 <!-- BeginActiveCommandJS --> 

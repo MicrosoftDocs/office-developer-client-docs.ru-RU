@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288674"
 ---
-# <a name="moverecordoptionsenum"></a><span data-ttu-id="7d954-102">MoveRecordOptionsEnum</span><span class="sxs-lookup"><span data-stu-id="7d954-102">MoveRecordOptionsEnum</span></span>
+# <a name="moverecordoptionsenum"></a><span data-ttu-id="a21d9-102">MoveRecordOptionsEnum</span><span class="sxs-lookup"><span data-stu-id="a21d9-102">MoveRecordOptionsEnum</span></span>
 
 
-<span data-ttu-id="7d954-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7d954-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a21d9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a21d9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="7d954-104">Задает поведение метода [MoveRecord](moverecord-method-ado.md) объекта [Record](record-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="7d954-104">Specifies the behavior of the [Record](record-object-ado.md) object [MoveRecord](moverecord-method-ado.md) method.</span></span>
+<span data-ttu-id="a21d9-104">Указывает поведение метода [](record-object-ado.md) [MoveRecord](moverecord-method-ado.md) объекта Record.</span><span class="sxs-lookup"><span data-stu-id="a21d9-104">Specifies the behavior of the [Record](record-object-ado.md) object [MoveRecord](moverecord-method-ado.md) method.</span></span>
 
 <table>
 <colgroup>
@@ -29,37 +29,37 @@ ms.locfileid: "32288674"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="7d954-105">Константа</span><span class="sxs-lookup"><span data-stu-id="7d954-105">Constant</span></span></p></th>
-<th><p><span data-ttu-id="7d954-106">Значение</span><span class="sxs-lookup"><span data-stu-id="7d954-106">Value</span></span></p></th>
-<th><p><span data-ttu-id="7d954-107">Описание</span><span class="sxs-lookup"><span data-stu-id="7d954-107">Description</span></span></p></th>
+<th><p><span data-ttu-id="a21d9-105">Константа</span><span class="sxs-lookup"><span data-stu-id="a21d9-105">Constant</span></span></p></th>
+<th><p><span data-ttu-id="a21d9-106">Значение</span><span class="sxs-lookup"><span data-stu-id="a21d9-106">Value</span></span></p></th>
+<th><p><span data-ttu-id="a21d9-107">Описание</span><span class="sxs-lookup"><span data-stu-id="a21d9-107">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="7d954-108"><strong>адмовеунспеЦифиед</strong></span><span class="sxs-lookup"><span data-stu-id="7d954-108"><strong>adMoveUnspecified</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d954-109">–1</span><span class="sxs-lookup"><span data-stu-id="7d954-109">-1</span></span></p></td>
-<td><p><span data-ttu-id="7d954-110">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="7d954-110">Default.</span></span> <span data-ttu-id="7d954-111">Выполняет операцию перемещения по умолчанию: операция завершается с ошибкой, если конечный файл или каталог уже существует, а операция обновляет гипертекстовые ссылки.</span><span class="sxs-lookup"><span data-stu-id="7d954-111">Performs the default move operation: The operation fails if the destination file or directory already exists, and the operation updates hypertext links.</span></span></p></td>
+<td><p><span data-ttu-id="a21d9-108"><strong>adMoveUnspecified</strong></span><span class="sxs-lookup"><span data-stu-id="a21d9-108"><strong>adMoveUnspecified</strong></span></span></p></td>
+<td><p><span data-ttu-id="a21d9-109">–1</span><span class="sxs-lookup"><span data-stu-id="a21d9-109">-1</span></span></p></td>
+<td><p><span data-ttu-id="a21d9-110">Значение, используемое по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="a21d9-110">Default.</span></span> <span data-ttu-id="a21d9-111">Выполняет операцию перемещения по умолчанию: операция не выполняется, если файл назначения или каталог уже существует, и операция обновляет гипертекстовые ссылки.</span><span class="sxs-lookup"><span data-stu-id="a21d9-111">Performs the default move operation: The operation fails if the destination file or directory already exists, and the operation updates hypertext links.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d954-112"><strong>адмовеоверврите</strong></span><span class="sxs-lookup"><span data-stu-id="7d954-112"><strong>adMoveOverWrite</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d954-113">1,1</span><span class="sxs-lookup"><span data-stu-id="7d954-113">1</span></span></p></td>
-<td><p><span data-ttu-id="7d954-114">Перезаписывает конечный файл или каталог, даже если он уже существует.</span><span class="sxs-lookup"><span data-stu-id="7d954-114">Overwrites the destination file or directory, even if it already exists.</span></span></p></td>
+<td><p><span data-ttu-id="a21d9-112"><strong>adMoveOverWrite</strong></span><span class="sxs-lookup"><span data-stu-id="a21d9-112"><strong>adMoveOverWrite</strong></span></span></p></td>
+<td><p><span data-ttu-id="a21d9-113">1 </span><span class="sxs-lookup"><span data-stu-id="a21d9-113">1</span></span></p></td>
+<td><p><span data-ttu-id="a21d9-114">Переописывание файла или каталога назначения, даже если он уже существует.</span><span class="sxs-lookup"><span data-stu-id="a21d9-114">Overwrites the destination file or directory, even if it already exists.</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="7d954-115"><strong>адмоведонтупдателинкс</strong></span><span class="sxs-lookup"><span data-stu-id="7d954-115"><strong>adMoveDontUpdateLinks</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d954-116">2</span><span class="sxs-lookup"><span data-stu-id="7d954-116">2</span></span></p></td>
-<td><p><span data-ttu-id="7d954-117">Изменяет поведение метода <strong>MoveRecord</strong> по умолчанию, не обновляя гипертекстовые ссылки исходной <strong>записи</strong>.</span><span class="sxs-lookup"><span data-stu-id="7d954-117">Modifies the default behavior of <strong>MoveRecord</strong> method by not updating the hypertext links of the source <strong>Record</strong>.</span></span> <span data-ttu-id="7d954-118">Поведение по умолчанию зависит от возможностей поставщика.</span><span class="sxs-lookup"><span data-stu-id="7d954-118">The default behavior depends on the capabilities of the provider.</span></span> <span data-ttu-id="7d954-119">Операция перемещения обновляет ссылки, если поставщик поддерживает эту возможность.</span><span class="sxs-lookup"><span data-stu-id="7d954-119">Move operation updates links if the provider is capable.</span></span> <span data-ttu-id="7d954-120">Если поставщик не может исправить ссылки или это значение не указано, то перемещение выполняется, даже если ссылки не были исправлены.</span><span class="sxs-lookup"><span data-stu-id="7d954-120">If the provider cannot fix links or if this value is not specified, then the move succeeds even when links have not been fixed.</span></span></p></td>
+<td><p><span data-ttu-id="a21d9-115"><strong>adMoveDontUpdateLinks</strong></span><span class="sxs-lookup"><span data-stu-id="a21d9-115"><strong>adMoveDontUpdateLinks</strong></span></span></p></td>
+<td><p><span data-ttu-id="a21d9-116">2 </span><span class="sxs-lookup"><span data-stu-id="a21d9-116">2</span></span></p></td>
+<td><p><span data-ttu-id="a21d9-117">Изменяет поведение метода <strong>MoveRecord</strong> по умолчанию, не обновляя гиперссылки источника <strong>Record.</strong></span><span class="sxs-lookup"><span data-stu-id="a21d9-117">Modifies the default behavior of <strong>MoveRecord</strong> method by not updating the hypertext links of the source <strong>Record</strong>.</span></span> <span data-ttu-id="a21d9-118">Поведение по умолчанию зависит от возможностей поставщика.</span><span class="sxs-lookup"><span data-stu-id="a21d9-118">The default behavior depends on the capabilities of the provider.</span></span> <span data-ttu-id="a21d9-119">Операция перемещения обновляет ссылки, если поставщик имеет возможность.</span><span class="sxs-lookup"><span data-stu-id="a21d9-119">Move operation updates links if the provider is capable.</span></span> <span data-ttu-id="a21d9-120">Если поставщик не может исправить ссылки или если это значение не указано, перемещение будет успешным, даже если ссылки не были исправлены.</span><span class="sxs-lookup"><span data-stu-id="a21d9-120">If the provider cannot fix links or if this value is not specified, then the move succeeds even when links have not been fixed.</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="7d954-121"><strong>адмовеалловемулатион</strong></span><span class="sxs-lookup"><span data-stu-id="7d954-121"><strong>adMoveAllowEmulation</strong></span></span></p></td>
-<td><p><span data-ttu-id="7d954-122">4 </span><span class="sxs-lookup"><span data-stu-id="7d954-122">4</span></span></p></td>
-<td><p><span data-ttu-id="7d954-123">Запрашивает, чтобы поставщик пытался имитировать перемещение (с помощью операций скачивания, отправки и удаления).</span><span class="sxs-lookup"><span data-stu-id="7d954-123">Requests that the provider attempt to simulate the move (using download, upload, and delete operations).</span></span> <span data-ttu-id="7d954-124">Если не удается переместить <strong>запись</strong> , так как конечный URL-адрес находится на другом сервере или обслуживается другим поставщиком, чем исходный, это может привести к увеличению задержки или потере данных из-за различных возможностей поставщика при перемещении ресурсов между поставщиками.</span><span class="sxs-lookup"><span data-stu-id="7d954-124">If the attempt to move the <strong>Record</strong> fails because the destination URL is on a different server or serviced by a different provider than the source, this may cause increased latency or data loss, due to different provider capabilities when moving resources between providers.</span></span></p></td>
+<td><p><span data-ttu-id="a21d9-121"><strong>adMoveAllowEmulation</strong></span><span class="sxs-lookup"><span data-stu-id="a21d9-121"><strong>adMoveAllowEmulation</strong></span></span></p></td>
+<td><p><span data-ttu-id="a21d9-122">4 </span><span class="sxs-lookup"><span data-stu-id="a21d9-122">4</span></span></p></td>
+<td><p><span data-ttu-id="a21d9-123">Запрашивает у поставщика попытку имитировать перемещение (с помощью операций скачивания, отправки и удаления).</span><span class="sxs-lookup"><span data-stu-id="a21d9-123">Requests that the provider attempt to simulate the move (using download, upload, and delete operations).</span></span> <span data-ttu-id="a21d9-124">Если попытка переместить <strong></strong> запись не удалась из-за того, что URL-адрес назначения находится на другом сервере или находится в службе поставщика, не относящегося к источнику, это может привести к увеличению задержки или потери данных из-за разных возможностей поставщика при перемещении ресурсов между поставщиками.</span><span class="sxs-lookup"><span data-stu-id="a21d9-124">If the attempt to move the <strong>Record</strong> fails because the destination URL is on a different server or serviced by a different provider than the source, this may cause increased latency or data loss, due to different provider capabilities when moving resources between providers.</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-### <a name="adowfc-equivalent"></a><span data-ttu-id="7d954-125">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="7d954-125">ADO/WFC equivalent</span></span>
+### <a name="adowfc-equivalent"></a><span data-ttu-id="a21d9-125">Эквивалент ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="a21d9-125">ADO/WFC equivalent</span></span>
 
-<span data-ttu-id="7d954-126">Эти константы не имеют эквивалентов ADO/WFC.</span><span class="sxs-lookup"><span data-stu-id="7d954-126">These constants do not have ADO/WFC equivalents.</span></span>
+<span data-ttu-id="a21d9-126">Эти константы не имеют эквивалентов ADO/WFC.</span><span class="sxs-lookup"><span data-stu-id="a21d9-126">These constants do not have ADO/WFC equivalents.</span></span>
 

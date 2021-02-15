@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287799"
 ---
-# <a name="parameters-properties-dao"></a><span data-ttu-id="bb161-102">Свойства параметров (DAO)</span><span class="sxs-lookup"><span data-stu-id="bb161-102">Parameters properties (DAO)</span></span>
+# <a name="parameters-properties-dao"></a><span data-ttu-id="2661d-102">Свойства параметров (DAO)</span><span class="sxs-lookup"><span data-stu-id="2661d-102">Parameters properties (DAO)</span></span>
 
-<span data-ttu-id="bb161-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="bb161-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2661d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2661d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="bb161-104">Свойство Parameters. Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="bb161-104">Parameters.Count property (DAO)</span></span>](parameters-count-property-dao.md)
+- [<span data-ttu-id="2661d-104">Свойство Parameters.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="2661d-104">Parameters.Count property (DAO)</span></span>](parameters-count-property-dao.md)
 

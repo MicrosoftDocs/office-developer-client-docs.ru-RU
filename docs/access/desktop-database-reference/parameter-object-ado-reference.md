@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту Parameter (ADO)
+title: Справка по объекту Parameter (ADO)
 TOCTitle: Parameter object (ADO)
 ms:assetid: dab4b726-04e6-4441-968b-a7491d8d3311
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250101(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288107"
 ---
-# <a name="parameter-object-ado-reference"></a><span data-ttu-id="4707d-102">Справочник по объекту Parameter (ADO)</span><span class="sxs-lookup"><span data-stu-id="4707d-102">Parameter object (ADO) reference</span></span>
+# <a name="parameter-object-ado-reference"></a><span data-ttu-id="3b728-102">Справка по объекту Parameter (ADO)</span><span class="sxs-lookup"><span data-stu-id="3b728-102">Parameter object (ADO) reference</span></span>
 
-<span data-ttu-id="4707d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4707d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3b728-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3b728-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="4707d-104">Объект Parameter (ADO)</span><span class="sxs-lookup"><span data-stu-id="4707d-104">Parameter object (ADO)</span></span>](parameter-object-ado.md)
-- [<span data-ttu-id="4707d-105">Свойства, методы и события параметров (ADO)</span><span class="sxs-lookup"><span data-stu-id="4707d-105">Parameter properties, methods, and events (ADO)</span></span>](parameter-properties-methods-and-events-ado.md)
+- [<span data-ttu-id="3b728-104">Объект Parameter (ADO)</span><span class="sxs-lookup"><span data-stu-id="3b728-104">Parameter object (ADO)</span></span>](parameter-object-ado.md)
+- [<span data-ttu-id="3b728-105">Parameter properties, methods, and events (ADO)</span><span class="sxs-lookup"><span data-stu-id="3b728-105">Parameter properties, methods, and events (ADO)</span></span>](parameter-properties-methods-and-events-ado.md)
 

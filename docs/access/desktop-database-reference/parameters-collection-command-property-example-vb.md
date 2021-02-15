@@ -1,5 +1,5 @@
 ---
-title: Коллекция Parameters, пример свойства Command (VB)
+title: Parameters Collection, пример свойства Command (VB)
 TOCTitle: Parameters Collection, Command property example (VB)
 ms:assetid: 3bb3e6e1-0ee5-70bb-7f2c-beb461d3914a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249151(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287932"
 ---
-# <a name="parameters-collection-command-property-example-vb"></a><span data-ttu-id="42c5e-102">Коллекция Parameters, пример свойства Command (VB)</span><span class="sxs-lookup"><span data-stu-id="42c5e-102">Parameters Collection, Command property example (VB)</span></span>
+# <a name="parameters-collection-command-property-example-vb"></a><span data-ttu-id="3f3be-102">Parameters Collection, пример свойства Command (VB)</span><span class="sxs-lookup"><span data-stu-id="3f3be-102">Parameters Collection, Command property example (VB)</span></span>
 
 
-<span data-ttu-id="42c5e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="42c5e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3f3be-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3f3be-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="42c5e-104">В приведенном ниже коде показано, как использовать свойство [Command](command-property-adox.md) с объектом [Command](command-object-ado.md) для получения сведений о параметрах для процедуры.</span><span class="sxs-lookup"><span data-stu-id="42c5e-104">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
+<span data-ttu-id="3f3be-104">В следующем коде показано, как использовать свойство [Command](command-property-adox.md) с объектом [Command](command-object-ado.md) для получения сведений о параметрах для процедуры.</span><span class="sxs-lookup"><span data-stu-id="3f3be-104">The following code demonstrates how to use the [Command](command-property-adox.md) property with the [Command](command-object-ado.md) object to retrieve parameter information for the procedure.</span></span>
 
 ```vb 
  

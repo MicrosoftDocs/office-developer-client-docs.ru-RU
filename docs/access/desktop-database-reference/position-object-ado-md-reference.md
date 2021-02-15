@@ -1,5 +1,5 @@
 ---
-title: Объект Position (Справочник по ADO MD)
+title: Объект Position (справочник по ADO MD)
 TOCTitle: Position object (ADO MD)
 ms:assetid: fbe77a91-766e-4cdb-ac2e-dcd30b0c1c82
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250290(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287561"
 ---
-# <a name="position-object-ado-md-reference"></a><span data-ttu-id="0ce17-102">Объект Position (Справочник по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0ce17-102">Position object (ADO MD reference)</span></span>
+# <a name="position-object-ado-md-reference"></a><span data-ttu-id="c9984-102">Объект Position (справочник по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="c9984-102">Position object (ADO MD reference)</span></span>
 
-<span data-ttu-id="0ce17-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="0ce17-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c9984-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c9984-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="0ce17-104">Объект Position (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0ce17-104">Position object (ADO MD)</span></span>](position-object-ado-md.md)
-- [<span data-ttu-id="0ce17-105">Свойства, методы и события позиции (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="0ce17-105">Position properties, methods, and events (ADO MD)</span></span>](position-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="c9984-104">Объект Position (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="c9984-104">Position object (ADO MD)</span></span>](position-object-ado-md.md)
+- [<span data-ttu-id="c9984-105">Position properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="c9984-105">Position properties, methods, and events (ADO MD)</span></span>](position-properties-methods-and-events-ado-md.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Промежуточные предложения вычисления фигур
+title: Intervening Shape COMPUTE clauses
 TOCTitle: Intervening Shape COMPUTE clauses
 ms:assetid: 3e9dcef2-776c-0365-4a92-68e325f7dbb5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249174(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32291250"
 ---
-# <a name="intervening-shape-compute-clauses"></a><span data-ttu-id="f26fd-102">Промежуточные предложения вычисления фигур</span><span class="sxs-lookup"><span data-stu-id="f26fd-102">Intervening Shape COMPUTE clauses</span></span>
+# <a name="intervening-shape-compute-clauses"></a><span data-ttu-id="dad37-102">Intervening Shape COMPUTE clauses</span><span class="sxs-lookup"><span data-stu-id="dad37-102">Intervening Shape COMPUTE clauses</span></span>
 
 
-<span data-ttu-id="f26fd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f26fd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dad37-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dad37-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="f26fd-104">Допускается внедрение одного или нескольких предложений COMPUTE между родительским и дочерним элементом в команде параметризованной фигуры, как показано в следующем примере:</span><span class="sxs-lookup"><span data-stu-id="f26fd-104">It is valid to embed one or more COMPUTE clauses between the parent and child in a parameterized shape command, as in the following example:</span></span>
+<span data-ttu-id="dad37-104">Допустимо встраить одно или несколько предложений COMPUTE между родительским и потомков в команду параметровизированной фигуры, как в следующем примере:</span><span class="sxs-lookup"><span data-stu-id="dad37-104">It is valid to embed one or more COMPUTE clauses between the parent and child in a parameterized shape command, as in the following example:</span></span>
 
 ```vb 
  

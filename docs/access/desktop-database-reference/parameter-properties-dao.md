@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288044"
 ---
-# <a name="parameter-properties-dao"></a><span data-ttu-id="d6730-102">Свойства параметров (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6730-102">Parameter properties (DAO)</span></span>
+# <a name="parameter-properties-dao"></a><span data-ttu-id="dd1b3-102">Свойства параметров (DAO)</span><span class="sxs-lookup"><span data-stu-id="dd1b3-102">Parameter properties (DAO)</span></span>
 
-<span data-ttu-id="d6730-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d6730-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="dd1b3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dd1b3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="d6730-104">Свойство Parameter. Direction (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6730-104">Parameter.Direction property (DAO)</span></span>](parameter-direction-property-dao.md)
-- [<span data-ttu-id="d6730-105">Свойство Parameter.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6730-105">Parameter.Name property (DAO)</span></span>](parameter-name-property-dao.md)
-- [<span data-ttu-id="d6730-106">Свойство Parameter. Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6730-106">Parameter.Properties property (DAO)</span></span>](parameter-properties-property-dao.md)
-- [<span data-ttu-id="d6730-107">Свойство Parameter. Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6730-107">Parameter.Type property (DAO)</span></span>](parameter-type-property-dao.md)
-- [<span data-ttu-id="d6730-108">Свойство Parameter. Value (DAO)</span><span class="sxs-lookup"><span data-stu-id="d6730-108">Parameter.Value property (DAO)</span></span>](parameter-value-property-dao.md)
+- [<span data-ttu-id="dd1b3-104">Свойство Parameter.Direction (DAO)</span><span class="sxs-lookup"><span data-stu-id="dd1b3-104">Parameter.Direction property (DAO)</span></span>](parameter-direction-property-dao.md)
+- [<span data-ttu-id="dd1b3-105">Parameter.Name DAO</span><span class="sxs-lookup"><span data-stu-id="dd1b3-105">Parameter.Name property (DAO)</span></span>](parameter-name-property-dao.md)
+- [<span data-ttu-id="dd1b3-106">Свойство Parameter.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="dd1b3-106">Parameter.Properties property (DAO)</span></span>](parameter-properties-property-dao.md)
+- [<span data-ttu-id="dd1b3-107">Свойство Parameter.Type (DAO)</span><span class="sxs-lookup"><span data-stu-id="dd1b3-107">Parameter.Type property (DAO)</span></span>](parameter-type-property-dao.md)
+- [<span data-ttu-id="dd1b3-108">Свойство Parameter.Value (DAO)</span><span class="sxs-lookup"><span data-stu-id="dd1b3-108">Parameter.Value property (DAO)</span></span>](parameter-value-property-dao.md)
 

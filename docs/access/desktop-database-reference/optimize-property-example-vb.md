@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288261"
 ---
-# <a name="optimize-property-example-vb"></a><span data-ttu-id="dc38d-102">Пример использования свойства Optimize (VB)</span><span class="sxs-lookup"><span data-stu-id="dc38d-102">Optimize property example (VB)</span></span>
+# <a name="optimize-property-example-vb"></a><span data-ttu-id="a0560-102">Пример использования свойства Optimize (VB)</span><span class="sxs-lookup"><span data-stu-id="a0560-102">Optimize property example (VB)</span></span>
 
 
-<span data-ttu-id="dc38d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dc38d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a0560-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a0560-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dc38d-104">В этом примере показано динамическое свойство optimize для объектов [field](field-object-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="dc38d-104">This example demonstrates the [Field](field-object-ado.md) objects dynamic Optimize property.</span></span> <span data-ttu-id="dc38d-105">Поле ***ZIP*** таблицы ***authors*** в базе данных ***pubs*** не индексируется.</span><span class="sxs-lookup"><span data-stu-id="dc38d-105">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="dc38d-106">Установка для свойства [optimize](optimize-property-dynamic-ado.md) значения **true** в поле ***ZIP*** авторизует ADO для создания индекса, который повышает производительность метода [Find](find-method-ado.md) .</span><span class="sxs-lookup"><span data-stu-id="dc38d-106">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
+<span data-ttu-id="a0560-104">В этом примере показано [динамическое](field-object-ado.md) свойство Optimize объектов Field.</span><span class="sxs-lookup"><span data-stu-id="a0560-104">This example demonstrates the [Field](field-object-ado.md) objects dynamic Optimize property.</span></span> <span data-ttu-id="a0560-105">***Zip-поле*** ***таблицы Authors*** в базе данных ***Pubs*** не индексироваться.</span><span class="sxs-lookup"><span data-stu-id="a0560-105">The ***zip*** field of the ***Authors*** table in the ***Pubs*** database is not indexed.</span></span> <span data-ttu-id="a0560-106">Установка для свойства [Optimize](optimize-property-dynamic-ado.md)  в **zip-поле** true позволяет ADO создать индекс, который повышает производительность метода [Find.](find-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="a0560-106">Setting the [Optimize](optimize-property-dynamic-ado.md) property to **True** on the ***zip*** field authorizes ADO to build an index that improves the performance of the [Find](find-method-ado.md) method.</span></span>
 
 ```vb 
  

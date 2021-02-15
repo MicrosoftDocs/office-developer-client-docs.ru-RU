@@ -1,5 +1,5 @@
 ---
-title: Объект Level (Справочник по ADO MD)
+title: Level object (ADO MD reference)
 TOCTitle: Level object (ADO MD)
 ms:assetid: 376865c8-b5be-4dd3-8765-0469290e44ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249131(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32290140"
 ---
-# <a name="level-object-ado-md-reference"></a><span data-ttu-id="f8ac5-102">Объект Level (Справочник по ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f8ac5-102">Level object (ADO MD reference)</span></span>
+# <a name="level-object-ado-md-reference"></a><span data-ttu-id="db711-102">Level object (ADO MD reference)</span><span class="sxs-lookup"><span data-stu-id="db711-102">Level object (ADO MD reference)</span></span>
 
-<span data-ttu-id="f8ac5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f8ac5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="db711-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="db711-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="f8ac5-104">Объект Level (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f8ac5-104">Level object (ADO MD)</span></span>](level-object-ado-md.md)
-- [<span data-ttu-id="f8ac5-105">Свойства, методы и события уровня (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="f8ac5-105">Level properties, methods, and events (ADO MD)</span></span>](level-properties-methods-and-events-ado-md.md)
+- [<span data-ttu-id="db711-104">Level object (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="db711-104">Level object (ADO MD)</span></span>](level-object-ado-md.md)
+- [<span data-ttu-id="db711-105">Level properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="db711-105">Level properties, methods, and events (ADO MD)</span></span>](level-properties-methods-and-events-ado-md.md)
 
