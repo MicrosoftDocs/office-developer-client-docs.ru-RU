@@ -19,7 +19,7 @@ ms.locfileid: "32308759"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используется метод [Seek](seek-method-ado.md) объекта [Recordset](recordset-object-ado.md) и свойство [index](index-property-ado.md) в сочетании с заданным ***идентификатором сотрудника***, чтобы найти имя сотрудника в таблице ***Employees*** базы данных нвинд. mdb.
+В этом примере метод [](seek-method-ado.md) Seek объекта [Recordset](recordset-object-ado.md) и свойство  [Index](index-property-ado.md) в сочетании с заданным ИД сотрудника используются для поиска имени сотрудника в таблице ***Employees*** базы данных Nwind.mdb.
 
 ```vb 
  

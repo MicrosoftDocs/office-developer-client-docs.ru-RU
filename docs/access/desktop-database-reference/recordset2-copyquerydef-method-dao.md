@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. CopyQueryDef (DAO)
+title: Метод Recordset2.CopyQueryDef (DAO)
 TOCTitle: CopyQueryDef Method
 ms:assetid: 36689ac0-f8a6-1f3e-4170-799141373777
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192474(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307366"
 ---
-# <a name="recordset2copyquerydef-method-dao"></a>Метод Recordset2. CopyQueryDef (DAO)
+# <a name="recordset2copyquerydef-method-dao"></a>Метод Recordset2.CopyQueryDef (DAO)
 
 
 **Область применения**: Access 2013, Office 2013 
@@ -27,9 +27,9 @@ ms.locfileid: "32307366"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . CopyQueryDef
+*выражение .* CopyQueryDef
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -37,11 +37,11 @@ QueryDef
 
 ## <a name="remarks"></a>Примечания
 
-С помощью метода **CopyQueryDef** можно создать новый объект **QueryDef** , который является дубликатом объекта **QueryDef** , использованного для создания объекта **Recordset**.
+С помощью метода **CopyQueryDef** можно создать новый **QueryDef,** который является дубликатом **QueryDef,** используемого для создания **recordset.**
 
-Если объект **QueryDef** не использовался для создания этого объекта **Recordset**, возникает ошибка. Прежде чем использовать метод **CopyQueryDef** , необходимо сначала открыть объект **Recordset** с помощью метода **OpenRecordset** .
+Если **queryDef** не использовался для создания этого **recordset,** возникает ошибка. Прежде чем использовать метод **CopyQueryDef,** необходимо открыть набор записей с помощью метода **OpenRecordset.** 
 
-Этот метод полезен при создании объекта **Recordset** из объекта **QueryDef**и передаче объекта **Recordset** в функцию, а функция должна повторно создать эквивалент SQL запроса, например, чтобы изменить его каким-либо образом.
+Этот метод полезен при создании объекта **Recordset** из **QueryDef** и передает набор записей функции, и функция должна повторно создать SQL эквивалент запроса, например, чтобы изменить его каким-либо образом. 
 
 ## <a name="example"></a>Пример
 

@@ -1,5 +1,5 @@
 ---
-title: Объект User (ADOX — Справочник по базам данных для доступа к рабочему столу)
+title: User Object (ADOX - Access desktop database reference)
 TOCTitle: User object (ADOX)
 ms:assetid: e88b9a8a-e70f-c7ca-cb8c-bd274ff24948
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250178(v=office.15)
@@ -19,21 +19,21 @@ ms.locfileid: "32313162"
 
 **Область применения**: Access 2013, Office 2013
 
-Представляет учетную запись пользователя, имеющую разрешения на доступ в защищенной базе данных.
+Представляет учетную запись пользователя с разрешениями на доступ в защищенной базе данных.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Коллекция [Users каталога Users](users-collection-adox.md) содержит все пользователи каталога. [Catalog](catalog-object-adox.md) Коллекция **Users** для [группы](group-object-adox.md) представляет только пользователей определенной группы.
+Коллекция ["Пользователи"](users-collection-adox.md) [каталога](catalog-object-adox.md) представляет всех пользователей каталога. Коллекция **Users** для [группы представляет](group-object-adox.md) только пользователей определенной группы.
 
-С помощью свойств, коллекций и методов объекта **User** можно выполнять следующие действия:
+С помощью свойств, коллекций и методов объекта **User** можно:
 
-  - Определите пользователя с помощью свойства [Name](name-property-adox.md) .
+  - Определите пользователя с помощью [свойства Name.](name-property-adox.md)
 
-  - Изменение пароля пользователя с помощью метода [ChangePassword](changepassword-method-adox.md) .
+  - Измените пароль пользователя с помощью метода [ChangePassword.](changepassword-method-adox.md)
 
-  - Определите, имеет ли пользователь разрешения на чтение, запись или удаление [с помощью методов](getpermissions-method-adox.md) [SetPermissions](setpermissions-method-adox.md) и.
+  - Определите, имеет ли пользователь разрешения на чтение, запись или удаление с помощью методов [GetPermissions](getpermissions-method-adox.md) и [SetPermissions.](setpermissions-method-adox.md)
 
-  - Доступ к группам, к которым принадлежит пользователь, с коллекцией [Groups](groups-collection-adox.md) .
+  - Доступ к группам, к которым принадлежит пользователь, с [коллекцией Groups.](groups-collection-adox.md)
 
-  - Доступ к свойствам, зависящим от поставщика, с коллекцией [свойств](properties-collection-ado.md) .
+  - Доступ к свойствам поставщика с помощью коллекции [Properties.](properties-collection-ado.md)
 

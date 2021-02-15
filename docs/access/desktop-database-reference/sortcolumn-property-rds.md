@@ -18,22 +18,22 @@ ms.locfileid: "32306890"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, по какому столбцу следует отсортировать записи.
+Указывает, по каков столбец сортировать записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Элемент управления*. SortColumn = *строка*
+*DataControl*. SortColumn = *String*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
-|*String* |**Строковое** значение, представляющее имя или псевдоним столбца, по которому сортируются записи.|
+|*DataControl* |Объектная переменная, представляюная [RDS. Объект DataControl.](datacontrol-object-rds.md)|
+|*Строка* |**Строковая** строка, представляюная имя или псевдоним столбца для сортировки записей.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Свойства **sortColumn**, [SortDirection](sortdirection-property-rds.md), [FilterValue](filtervalue-property-rds.md), [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) предоставляют функции сортировки и фильтрации кэша на стороне клиента. Функция сортировки упорядочивает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе критериев поиска, в то время как в кэше сохраняется полный [набор записей](recordset-object-ado.md) . Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий **набор** **записей на обновляемый.**
+Свойства **SortColumn,** [SortDirection,](sortdirection-property-rds.md) [FilterValue,](filtervalue-property-rds.md) [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) предоставляют функции сортировки и фильтрации в клиентском кэше. Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей сохраняется в кэше. Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий набор **recordset** на updatable **Recordset.**
 
-Для сортировки по **набору записей**сначала необходимо сохранить все ожидающие изменения. Если вы используете **RDS. Элемент управления**, вы можете использовать метод [SubmitChanges](submitchanges-method-rds.md) . Например, если вы **RDS. Элемент управления** ADC1 с именем, код будет ADC1. SubmitChanges. Если вы используете **набор записей**ADO, вы можете использовать его метод [UpdateBatch](updatebatch-method-ado.md) . Использование **UpdateBatch** является рекомендуемым методом для объектов **Recordset** , созданных с помощью метода [CreateRecordset](createrecordset-method-rds.md) . Например, ваш код может быть Мирс. UpdateBatch или. Если вы используете **набор записей**ADO, вы можете использовать его метод [UpdateBatch](updatebatch-method-ado.md) . Использование **UpdateBatch** является рекомендуемым методом для объектов **Recordset** , созданных с помощью метода [CreateRecordset](createrecordset-method-rds.md) . Например, ваш код может быть Мирс. UpdateBatch или ADC1. Recordset. UpdateBatch.
+Чтобы отсортировать набор **записей,** необходимо сначала сохранить ожидающих изменений. Если вы используете **RDS. DataControl**, можно использовать метод [SubmitChanges.](submitchanges-method-rds.md) Например, если **RDS. DataControl называется** ADC1, ваш код будет ADC1. SubmitChanges . If you are using an ADO **Recordset,** you can use its [UpdateBatch](updatebatch-method-ado.md) method. Использование **UpdateBatch** — это рекомендуемый метод для объектов **Recordset,** созданных с помощью [метода CreateRecordset.](createrecordset-method-rds.md) Например, ваш код может быть myRS.UpdateBatch или . If you are using an ADO **Recordset,** you can use its [UpdateBatch](updatebatch-method-ado.md) method. Использование **UpdateBatch** — это рекомендуемый метод для объектов **Recordset,** созданных с помощью метода [CreateRecordset.](createrecordset-method-rds.md) Например, ваш код может быть myRS.UpdateBatch или ADC1. Recordset.UpdateBatch .
 

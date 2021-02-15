@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef. SourceTableName (DAO)
+title: Свойство TableDef.SourceTableName (DAO)
 TOCTitle: SourceTableName Property
 ms:assetid: 3c02f5f6-70ae-39ec-0984-8d6b81992418
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192675(v=office.15)
@@ -18,26 +18,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314261"
 ---
-# <a name="tabledefsourcetablename-property-dao"></a>Свойство TableDef. SourceTableName (DAO)
+# <a name="tabledefsourcetablename-property-dao"></a>Свойство TableDef.SourceTableName (DAO)
 
 
 **Область применения**: Access 2013, Office 2013 
 
-Задает или возвращает значение, задающее имя связанной таблицы или имя базовой таблицы (только для рабочих областей Microsoft Access).
+Задает или возвращает значение, которое указывает имя связанной таблицы или имя базовой таблицы (только для рабочей области Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . SourceTableName
+*выражение .* SourceTableName
 
 *выражение*: переменная, представляющая объект **TableDef**.
 
 ## <a name="remarks"></a>Комментарии
 
-Это свойство предназначено только для чтения для базовой таблицы, а также для чтения и записи для связанной таблицы или объекта, не добавленного в коллекцию. Для базовой таблицы параметр является строкой нулевой длины ("").
+Этот параметр свойства доступно только для чтения для базовой таблицы и для чтения и записи для связанной таблицы или объекта, не подключенного к коллекции. Для базовой таблицы значением является строка нулевой длины ("").
 
 ## <a name="example"></a>Пример
 
-В этом примере используются свойства **Connect** и **SourceTableName** для связи различных внешних таблиц с базой данных Microsoft Access. Для выполнения этой процедуры требуется процедура Коннектаутпут.
+В этом примере свойства **Connect** и **SourceTableName** используются для привязки различных внешних таблиц к базе данных Microsoft Access. Процедура ConnectOutput необходима для запуска этой процедуры.
 
 ```vb 
 Sub ConnectX() 

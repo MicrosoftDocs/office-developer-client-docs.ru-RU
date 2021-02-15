@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. MovePrevious (DAO)
+title: Метод Recordset2.MovePrevious (DAO)
 TOCTitle: MovePrevious Method
 ms:assetid: 8c433810-4b19-e7c1-3cee-a0bc50b23e8a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197336(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307247"
 ---
-# <a name="recordset2moveprevious-method-dao"></a>Метод Recordset2. MovePrevious (DAO)
+# <a name="recordset2moveprevious-method-dao"></a>Метод Recordset2.MovePrevious (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,9 +23,9 @@ ms.locfileid: "32307247"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . MovePrevious
+*выражение .* MovePrevious
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="remarks"></a>Комментарии
 
@@ -35,7 +35,7 @@ ms.locfileid: "32307247"
 
 Когда вы открываете **Recordset**, первую запись является текущей, а свойство **BOF** имеет значение **False**. Если **Recordset** не содержит записей, свойство **BOF** имеет значение **True**, а текущая запись отсутствует.
 
-Если используется **MovePrevious** , когда первая запись является текущей, свойство **BOF** имеет **значение true**, а текущая запись отсутствует. При повторном использовании **MovePrevious** возникает ошибка, и **BOF** остается **true**.
+Если вы используете **MovePrevious,** когда первая запись является текущей, свойство **BOF** имеет свойство **True,** и текущая запись не существует. Если вы снова **используете MovePrevious,** возникает ошибка, а **BOF** остается **true.**
 
 Если набор записей указывает на табличный тип объекта **Recordset** (только для рабочих областей Microsoft Access), перемещение соответствует текущему индексу. Вы можете задать текущий индекс с помощью свойства **Index**. Если не задать текущей индекс, порядок возвращаемых записей будет не определен.
 

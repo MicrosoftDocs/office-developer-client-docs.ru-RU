@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. Close (DAO)
+title: Метод Recordset2.Close (DAO)
 TOCTitle: Close Method
 ms:assetid: ef816969-9857-37cf-9562-d5c80d2815ea
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836412(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307387"
 ---
-# <a name="recordset2close-method-dao"></a>Метод Recordset2. Close (DAO)
+# <a name="recordset2close-method-dao"></a>Метод Recordset2.Close (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -25,7 +25,7 @@ ms.locfileid: "32307387"
 
 *выражение*.Close
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="remarks"></a>Комментарии
 

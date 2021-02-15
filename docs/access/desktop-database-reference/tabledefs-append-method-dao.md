@@ -1,5 +1,5 @@
 ---
-title: Методы TableDef. append (DAO)
+title: Метод TableDefs.Append (DAO)
 TOCTitle: Append Method
 ms:assetid: f951a3c4-dade-c1ef-3bfc-6b2a60e12adc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837001(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314380"
 ---
-# <a name="tabledefsappend-method-dao"></a>Методы TableDef. append (DAO)
+# <a name="tabledefsappend-method-dao"></a>Метод TableDefs.Append (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Добавляет новый объект **tabledef** в коллекцию **tabledef** .
+Добавляет новый **TableDef в** **коллекцию TableDefs.**
 
 ## <a name="syntax"></a>Синтаксис
 
 *выражение* .Append(***Object***)
 
-*Expression (выражение* ) Переменная, представляющая объект **TableDefs** .
+*выражение* Переменная, представляюная объект **TableDefs.**
 
 ## <a name="parameters"></a>Параметры
 

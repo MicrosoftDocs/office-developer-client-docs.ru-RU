@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef. indexes (DAO)
+title: Свойство TableDef.Indexes (DAO)
 TOCTitle: Indexes Property
 ms:assetid: b168ff75-0a5f-2bc0-9180-2add520a12c6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822007(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314345"
 ---
-# <a name="tabledefindexes-property-dao"></a>Свойство TableDef. indexes (DAO)
+# <a name="tabledefindexes-property-dao"></a>Свойство TableDef.Indexes (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **indexes** , содержащую все хранимые объекты **индекса** для указанной таблицы. Только для чтения.
+Возвращает **коллекцию Indexes,** которая содержит все сохраненные объекты **Index** для указанной таблицы. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Индекса
+*выражение .* Индексы
 
 *выражение*: переменная, представляющая объект **TableDef**.
 

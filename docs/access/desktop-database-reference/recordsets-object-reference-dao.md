@@ -1,5 +1,5 @@
 ---
-title: Справочные материалы по объекту Recordset (DAO)
+title: Recordsets object reference (DAO)
 TOCTitle: Recordsets Object
 ms:assetid: 219f6a8f-1555-4be0-b46f-37e4075b9afa
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124002(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309320"
 ---
-# <a name="recordsets-object-reference-dao"></a>Справочные материалы по объекту Recordset (DAO)
+# <a name="recordsets-object-reference-dao"></a>Recordsets object reference (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Recordset (DAO)](recordsets-collection-dao.md)
-- [Элементы Recordset (DAO)](recordsets-members-dao.md)
-- [Свойства наборов записей (DAO)](recordsets-properties-dao.md)
-- [Методы наборов записей (DAO)](recordsets-methods-dao.md)
+- [Коллекция Recordsets (DAO)](recordsets-collection-dao.md)
+- [Recordsets members (DAO)](recordsets-members-dao.md)
+- [Свойства Recordsets (DAO)](recordsets-properties-dao.md)
+- [Методы Recordsets (DAO)](recordsets-methods-dao.md)
 

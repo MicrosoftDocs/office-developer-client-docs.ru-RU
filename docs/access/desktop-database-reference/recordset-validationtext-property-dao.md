@@ -27,7 +27,7 @@ ms.locfileid: "32307520"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . ValidationText
+*выражение .* ValidationText
 
 *expression*: переменная, представляющая объект **Recordset**.
 

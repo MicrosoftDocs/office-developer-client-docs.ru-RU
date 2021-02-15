@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. Update (DAO)
+title: Метод Recordset2.Update (DAO)
 TOCTitle: Update Method
 ms:assetid: 1b47606a-e79c-23f1-b120-46d1429bc167
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845700(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307170"
 ---
-# <a name="recordset2update-method-dao"></a>Метод Recordset2. Update (DAO)
+# <a name="recordset2update-method-dao"></a>Метод Recordset2.Update (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -26,7 +26,7 @@ ms.locfileid: "32307170"
 
 *expression* .Update(***UpdateType***, ***Force***)
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -48,7 +48,7 @@ ms.locfileid: "32307170"
 <tbody>
 <tr class="odd">
 <td><p><em>UpdateType</em></p></td>
-<td><p>Необязательна</p></td>
+<td><p>Необязательный</p></td>
 <td><p><strong>Long</strong></p></td>
 <td><p>Константа <strong><a href="updatetypeenum-enumeration-dao.md">UpdateTypeEnum</a></strong>, обозначающая тип обновления, заданный в параметрах (только для рабочих областей ODBCDirect).</p></td>
 </tr>

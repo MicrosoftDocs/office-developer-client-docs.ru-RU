@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. DateCreated (DAO)
+title: Свойство Recordset2.DateCreated (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: b22aa1c1-b1a8-fe80-7a7e-b2a51249b198
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822016(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309459"
 ---
-# <a name="recordset2datecreated-property-dao"></a>Свойство Recordset2. DateCreated (DAO)
+# <a name="recordset2datecreated-property-dao"></a>Свойство Recordset2.DateCreated (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,11 +23,11 @@ ms.locfileid: "32309459"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . DateCreated
+*выражение .* DateCreated
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Параметры даты и времени производятся на компьютере, на котором была создана или обновлена базовая таблица.
+Параметры даты и времени являются производными от компьютера, на котором была создана или последней обновлена базовая таблица.
 

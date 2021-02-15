@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. Type (DAO)
+title: Свойство Recordset2.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 9bec543e-7f59-ea59-dc79-41d0e08b5ab6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198080(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307177"
 ---
-# <a name="recordset2type-property-dao"></a>Свойство Recordset2. Type (DAO)
+# <a name="recordset2type-property-dao"></a>Свойство Recordset2.Type (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -29,11 +29,11 @@ ms.locfileid: "32307177"
 
 *выражение* .Type
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Для объекта **Recordset** возможны следующие параметры и возвращаемые значения.
+Для объекта **Recordset** возможные параметры и возвращаемые значения:
 
 <table>
 <colgroup>
@@ -43,30 +43,30 @@ ms.locfileid: "32307177"
 <thead>
 <tr class="header">
 <th><p>Константа</p></th>
-<th><p>Тип набора записей</p></th>
+<th><p>Тип recordset</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><strong>dbOpenTable</strong></p></td>
-<td><p>Таблица (только для рабочих областей Microsoft Access)</p></td>
+<td><p>Таблица (только для рабочей области Microsoft Access)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbOpenDynamic</strong></p></td>
-<td><p>Dynamic (только для рабочих областей ODBCDirect)</p>
+<td><p>Динамический (только для рабочей области ODBCDirect)</p>
 <p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenDynaset</strong></p></td>
-<td><p>Типа dynaset</p></td>
+<td><p>Dynaset</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbOpenSnapshot</strong></p></td>
-<td><p>Статически</p></td>
+<td><p>Моментальный снимок</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenForwardOnly</strong></p></td>
-<td><p>Только вперед</p></td>
+<td><p>Только для переад.</p></td>
 </tr>
 </tbody>
 </table>

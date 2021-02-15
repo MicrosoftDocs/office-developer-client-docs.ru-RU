@@ -1,5 +1,5 @@
 ---
-title: Метод отношениях. append (DAO)
+title: Метод Relations.Append (DAO)
 TOCTitle: Append Method
 ms:assetid: dafcc7b8-b30d-2ba2-631d-eca0f882fc2d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835334(v=office.15)
@@ -18,17 +18,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306988"
 ---
-# <a name="relationsappend-method-dao"></a>Метод отношениях. append (DAO)
+# <a name="relationsappend-method-dao"></a>Метод Relations.Append (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Добавляет новое **отношение** в коллекцию **связей** .
+Добавляет новое **отношение к** коллекции **Relations.**
 
 ## <a name="syntax"></a>Синтаксис
 
 *выражение* .Append(***Object***)
 
-*Expression (выражение* ) Переменная, представляющая объект **отношений** .
+*выражение* Переменная, представляюная объект **Relations.**
 
 ## <a name="parameters"></a>Параметры
 

@@ -1,5 +1,5 @@
 ---
-title: Recordset, свойства SourceRecordset (RDS)
+title: Свойства Recordset и SourceRecordset (RDS)
 TOCTitle: Recordset, SourceRecordset properties (RDS)
 ms:assetid: 5f4bb72d-ddfa-41c0-c353-b3a6632b4a91
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249345(v=office.15)
@@ -14,32 +14,32 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307590"
 ---
-# <a name="recordset-sourcerecordset-properties-rds"></a>Recordset, свойства SourceRecordset (RDS)
+# <a name="recordset-sourcerecordset-properties-rds"></a>Свойства Recordset и SourceRecordset (RDS)
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает объект **Recordset** , возвращенный из настраиваемого бизнес-объекта.
+Указывает объект **Recordset,** возвращенный из пользовательского бизнес-объекта.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Элемент управления*. SourceRecordset = *Recordset*
+*DataControl*. SourceRecordset = *Recordset*
 
-*Recordset* = *Элемент управления*"набор данных". Recordset
+*Recordset*  =  *DataControl*. Recordset
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектная переменная, представляющая [RDS. Объект управления](datacontrol-object-rds.md) DataObject.|
-|*Recordset* |Объектная переменная, представляющая объект **Recordset** .|
+|*DataControl* |Объектная переменная, представляюная [RDS. Объект DataControl.](datacontrol-object-rds.md)|
+|*Recordset* |Объектная переменная, представляюная объект **Recordset.**|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Вы можете задать для свойства **SourceRecordset** [набор записей](recordset-object-ado.md) , возвращенный из настраиваемого бизнес-объекта.
+Можно установить для **свойства SourceRecordset** набор [записей,](recordset-object-ado.md) возвращаемый из пользовательского бизнес-объекта.
 
-Эти свойства позволяют приложению обрабатывать процесс привязки с помощью настраиваемого процесса. Они получают набор строк, заключенный в **набор записей** и позволяющий напрямую взаимодействовать с **набором записей**, выполняя такие действия, как Настройка свойств или итерация по **набору записей**.
+Эти свойства позволяют приложению обрабатывать процесс привязки с помощью пользовательского процесса. Они получают набор строк, завернутый в набор **записей,** чтобы вы могли взаимодействовать непосредственно с **набором записей,** выполняя такие действия, как установка свойств или итерации через **recordset.**
 
-Вы можете задать свойство **SourceRecordset** или прочитать свойство **Recordset** во время выполнения в коде сценария.
+Вы можете установить свойство **SourceRecordset** или прочитать свойство **Recordset** во время запуска в коде скриптов.
 
-**SourceRecordset** — это свойство, доступное только для записи, в отличие от свойства **Recordset** , которое является свойством, предназначенным только для чтения.
+**SourceRecordset** — это свойство только для записи, в отличие от свойства **Recordset,** которое является свойством только для чтения.
 

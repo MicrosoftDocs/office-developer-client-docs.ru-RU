@@ -1,5 +1,5 @@
 ---
-title: Свойство relation. Fields (DAO)
+title: Свойство Relation.Fields (DAO)
 TOCTitle: Fields Property
 ms:assetid: 6f0aafcc-3fc9-a5ef-2ffb-dea71c413128
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195574(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307094"
 ---
-# <a name="relationfields-property-dao"></a>Свойство relation. Fields (DAO)
+# <a name="relationfields-property-dao"></a>Свойство Relation.Fields (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32307094"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Поле
+*выражение .* Поля
 
-*Expression (выражение* ) Переменная, представляющая объект **связи** .
+*выражение* Переменная, представляюная объект **Relation.**
 

@@ -1,5 +1,5 @@
 ---
-title: Перечисление Репликатипинум (DAO)
+title: ReplicaTypeEnum enumeration (DAO)
 TOCTitle: ReplicaTypeEnum Enumeration
 ms:assetid: 9c0aed9d-a617-bda1-bfb2-867d28ef2586
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198082(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306694"
 ---
-# <a name="replicatypeenum-enumeration-dao"></a>Перечисление Репликатипинум (DAO)
+# <a name="replicatypeenum-enumeration-dao"></a>ReplicaTypeEnum enumeration (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется с методом **макереплика** для указания типа создаваемой реплики.
+Используется с **методом MakeReplica** для указания типа создаемой реплики.
 
 <table>
 <colgroup>
@@ -36,14 +36,14 @@ ms.locfileid: "32306694"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>дбрепмакепартиал</p></td>
-<td><p>1,1</p></td>
+<td><p>dbRepMakePartial</p></td>
+<td><p>1 </p></td>
 <td><p>Создает частичную реплику.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбрепмакереадонли</p></td>
-<td><p>2</p></td>
-<td><p>Делает реплицируемые элементы для новой базы данных доступными только для чтения.</p></td>
+<td><p>dbRepMakeReadOnly</p></td>
+<td><p>2 </p></td>
+<td><p>Делает реплицируемые элементы новой базы данных только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

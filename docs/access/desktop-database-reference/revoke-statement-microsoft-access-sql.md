@@ -1,5 +1,5 @@
 ---
-title: Оператор REVOKE (Microsoft Access SQL)
+title: REVOKE statement (Microsoft Access SQL)
 TOCTitle: REVOKE statement (Microsoft Access SQL)
 ms:assetid: 69399fd6-c4e8-f2e2-e5f4-48ae779323f5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195272(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306533"
 ---
-# <a name="revoke-statement-microsoft-access-sql"></a>Оператор REVOKE (Microsoft Access SQL)
+# <a name="revoke-statement-microsoft-access-sql"></a>REVOKE statement (Microsoft Access SQL)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -26,11 +26,11 @@ ms.locfileid: "32306533"
 
 ## <a name="syntax"></a>Синтаксис
 
-Отзыв {*привилегия*\[, *привилегия*,... \]} В *таблице* {Table | *Объект* Object|
+REVOKE {*privilege,* \[ *privilege*, ... \] } ON {TABLE *table* | Объект  OBJECT|
 
-Контаинтер *Container*} из {*аусоризатионнаме*\[, *аусоризатионнаме*,... \]}
+КОНТЕЙНЕР *CONTAINTER*} FROM {*authorizationname,* \[ *authorizationname*, ... \] }
 
-Оператор REVOKE состоит из следующих частей:
+В заявлении REVOKE есть такие части:
 
 <table>
 <colgroup>
@@ -45,23 +45,23 @@ ms.locfileid: "32306533"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>правах</em></p></td>
-<td><p>Привилегия или привилегии, которые необходимо отменить. Разрешения указываются с помощью следующих ключевых слов: SELECT, DELETE, INSERT, UPDATE, DROP, СЕЛЕКТСЕКУРИТИ, УПДАТЕСЕКУРИТИ, DBPASSWORD, УПДАТЕИДЕНТИТИ, CREATE, СЕЛЕКТСЧЕМА, SCHEMA и УПДАТЕОВНЕР.</p></td>
+<td><p><em>privilege</em></p></td>
+<td><p>Привилегии и привилегии, которые необходимо отоиметь. Привилегии заданы с помощью следующих ключевых слов: SELECT, DELETE, INSERT, UPDATE, DROP, SELECTSECURITY, UPDATESECURITY, DBPASSWORD, UPDATEIDENTITY, CREATE, SELECTSCHEMA, SCHEMA и UPDATEOWNER.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>таблица</em></p></td>
-<td><p>Любое допустимое имя таблицы.</p></td>
+<td><p>Любое допустимые имя таблицы.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>object</em></p></td>
-<td><p>Это может охватывать любой объект, не являющийся таблицей. Сохраненным запросом (представление или процедура) является один из примеров.</p></td>
+<td><p>Это может охватывать любой объект, не относя какой-либо из таблиц. В качестве примера можно привести сохраненный запрос (представление или процедуру).</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Container</em></p></td>
+<td><p><em>container</em></p></td>
 <td><p>Имя допустимого контейнера.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>аусоризатионнаме</em></p></td>
+<td><p><em>authorizationname</em></p></td>
 <td><p>Имя пользователя или группы.</p></td>
 </tr>
 </tbody>

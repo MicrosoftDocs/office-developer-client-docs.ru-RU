@@ -1,5 +1,5 @@
 ---
-title: Метод workspaces. Delete (DAO)
+title: Метод Workspaces.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 0774a791-63da-a31a-552a-c5aa4d1f1b50
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844977(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308311"
 ---
-# <a name="workspacesdelete-method-dao"></a>Метод workspaces. Delete (DAO)
+# <a name="workspacesdelete-method-dao"></a>Метод Workspaces.Delete (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Удаляет указанную **рабочую область** в коллекции **workspaces** .
+Удаляет указанную форму **рабочей** области для **коллекции Workspaces.**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Delete (***имя***)
+*выражение .* ***Delete(Name)***
 
-*Expression (выражение* ) Переменная, представляющая объект **workspaces** .
+*выражение* Переменная, представляюная **объект Workspaces.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -47,8 +47,8 @@ ms.locfileid: "32308311"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Имя рабочей области, которую требуется удалить.</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Имя удаляемой рабочей области.</p></td>
 </tr>
 </tbody>
 </table>

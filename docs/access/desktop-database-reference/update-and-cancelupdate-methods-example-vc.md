@@ -19,7 +19,7 @@ ms.locfileid: "32313617"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется метод [Update](update-method-ado.md) в сочетании с методом [CancelUpdate](cancelupdate-method-ado.md) .
+В этом примере демонстрируется метод [Update](update-method-ado.md) в сочетании с [методом CancelUpdate.](cancelupdate-method-ado.md)
 
 ```cpp 
  
@@ -338,7 +338,7 @@ void PrintComError(_com_error &e)
 // EndUpdateCpp 
 ```
 
-**Упдатекс. h**
+**UpdateX.h**
 
 ```cpp 
  

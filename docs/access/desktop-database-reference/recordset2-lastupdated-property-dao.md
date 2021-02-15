@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. Ластупдатед (DAO)
+title: Свойство Recordset2.LastUpdated (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 45043329-2a0a-e9ec-ba19-746910617f85
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193168(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307310"
 ---
-# <a name="recordset2lastupdated-property-dao"></a>Свойство Recordset2. Ластупдатед (DAO)
+# <a name="recordset2lastupdated-property-dao"></a>Свойство Recordset2.LastUpdated (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,11 +27,11 @@ ms.locfileid: "32307310"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . ластупдатед
+*выражение .* LastUpdated
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Параметры даты и времени производятся на компьютере, на котором была создана или обновлена базовая таблица.
+Параметры даты и времени являются производными от компьютера, на котором была создана или последней обновлена базовая таблица.
 

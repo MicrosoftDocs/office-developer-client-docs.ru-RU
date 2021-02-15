@@ -1,5 +1,5 @@
 ---
-title: Рулинум (Справочник по базам данных Access на компьютере)
+title: RuleEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: RuleEnum
 ms:assetid: 5b59f202-315b-09b7-8505-9ac08ceccb3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249317(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32306680"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает правило, которое необходимо выполнить при удалении [ключа](key-object-adox.md) .
+Правило, заданное при [удалении](key-object-adox.md) ключа.
 
 <br/>
 
@@ -37,24 +37,24 @@ ms.locfileid: "32306680"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адрикаскаде</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Изменения каскадом.</p></td>
+<td><p><strong>adRICascade</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Каскадные изменения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адриноне</strong></p></td>
-<td><p>нуль</p></td>
-<td><p>Значение, используемое по умолчанию. Никакие действия не предпринимаются.</p></td>
+<td><p><strong>adRINone</strong></p></td>
+<td><p>0</p></td>
+<td><p>Значение, используемое по умолчанию. Никаких действий не происходит.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адрисетдефаулт</strong></p></td>
-<td><p>4</p></td>
-<td><p>Для значения FOREIGN KEY задано значение по умолчанию.</p></td>
+<td><p><strong>adRISetDefault</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Значение внешнего ключа установлено по умолчанию.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адрисетнулл</strong></p></td>
-<td><p>2</p></td>
-<td><p>Для значения FOREIGN KEY задано значение null.</p></td>
+<td><p><strong>adRISetNull</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Для внешнего ключа установлено значение null.</p></td>
 </tr>
 </tbody>
 </table>

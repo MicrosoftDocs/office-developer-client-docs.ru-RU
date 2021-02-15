@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события набора записей (ADO)
+title: Recordset properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: aca81c6c-5b08-13e9-5bf5-3561a173f5bc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249806(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307647"
 ---
-# <a name="recordset-properties-methods-and-events-ado"></a>Свойства, методы и события набора записей (ADO)
+# <a name="recordset-properties-methods-and-events-ado"></a>Recordset properties, methods, and events (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство AbsolutePage](absolutepage-property-ado.md)
 - [Свойство AbsolutePosition](absoluteposition-property-ado.md)

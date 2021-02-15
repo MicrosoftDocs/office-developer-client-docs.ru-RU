@@ -18,12 +18,12 @@ ms.locfileid: "32306281"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом разделе приведены рекомендации по определенным ошибкам или проблемам с RDS:
+В этом разделе вы можете найти решения для определенных ошибок или проблем с RDS:
 
 - [Configuring RDS on Windows 2000](configuring-rds-on-windows-2000.md)
-- [Взаимоблокировки с уровнем изоляции с повторяемым чтением](deadlocks-with-read-repeatable-isolation-level.md)
+- [Блокировки с повторяемым уровнем изоляции для чтения](deadlocks-with-read-repeatable-isolation-level.md)
 - [Обеспечение наличия достаточного места в TempDB](ensuring-sufficient-tempdb-space.md)
-- [Ошибка сервера Интернета: доступ запрещен](internet-server-error-access-denied.md)
+- [Ошибка интернет-сервера: доступ отказано в доступе](internet-server-error-access-denied.md)
 - [Минимизация места, занимаемого файлом журнала](minimizing-log-file-space-usage.md)
 - [RDS возвращает ошибку "Поток не прочитан"](rds-returns-stream-not-read-error.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. Move (DAO)
+title: Метод Recordset2.Move (DAO)
 TOCTitle: Move Method
 ms:assetid: df39c05e-c5f8-3b66-fa5f-c91b687c147d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835635(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307268"
 ---
-# <a name="recordset2move-method-dao"></a>Метод Recordset2. Move (DAO)
+# <a name="recordset2move-method-dao"></a>Метод Recordset2.Move (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -24,7 +24,7 @@ ms.locfileid: "32307268"
 
 *expression* .Move(***Rows***, ***StartBookmark***)
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="parameters"></a>Параметры
 

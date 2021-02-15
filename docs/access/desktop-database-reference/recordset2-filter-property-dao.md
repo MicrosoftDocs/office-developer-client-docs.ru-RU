@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. Filter (DAO)
+title: Свойство Recordset2.Filter (DAO)
 TOCTitle: Filter Property
 ms:assetid: 5b3b4e18-8af4-5acd-a129-513ba2d913d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194529(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307331"
 ---
-# <a name="recordset2filter-property-dao"></a>Свойство Recordset2. Filter (DAO)
+# <a name="recordset2filter-property-dao"></a>Свойство Recordset2.Filter (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -29,7 +29,7 @@ ms.locfileid: "32307331"
 
 *выражение* .Filter
 
-*Expression (выражение* ) Выражение, возвращающее объект **Recordset2** .
+*выражение* Выражение, которое возвращает **объект Recordset2.**
 
 ## <a name="remarks"></a>Примечания
 

@@ -1,5 +1,5 @@
 ---
-title: Справочник по объектам View (ADOX)
+title: Справочник по объекту View (ADOX)
 TOCTitle: View object (ADOX)
 ms:assetid: 62222c5e-61b6-4984-9b24-b5fcf1d90861
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249366(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312147"
 ---
-# <a name="view-object-adox-reference"></a>Справочник по объектам View (ADOX)
+# <a name="view-object-adox-reference"></a>Справочник по объекту View (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 

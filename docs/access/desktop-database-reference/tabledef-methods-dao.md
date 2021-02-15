@@ -19,8 +19,8 @@ ms.locfileid: "32308409"
 **Область применения**: Access 2013, Office 2013
 
 - [Метод TableDef.CreateField (DAO)](tabledef-createfield-method-dao.md)
-- [Метод TableDef. Креатеиндекс (DAO)](tabledef-createindex-method-dao.md)
-- [Метод TableDef. CreateProperty (DAO)](tabledef-createproperty-method-dao.md)
-- [Метод TableDef. OpenRecordset (DAO)](tabledef-openrecordset-method-dao.md)
-- [Метод TableDef. RefreshLink (DAO)](tabledef-refreshlink-method-dao.md)
+- [Метод TableDef.CreateIndex (DAO)](tabledef-createindex-method-dao.md)
+- [Метод TableDef.CreateProperty (DAO)](tabledef-createproperty-method-dao.md)
+- [Метод TableDef.OpenRecordset (DAO)](tabledef-openrecordset-method-dao.md)
+- [Метод TableDef.RefreshLink (DAO)](tabledef-refreshlink-method-dao.md)
 

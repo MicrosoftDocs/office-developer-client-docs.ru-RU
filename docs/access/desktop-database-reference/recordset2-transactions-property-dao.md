@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. Transactions (DAO)
+title: Свойство Recordset2.Transactions (DAO)
 TOCTitle: Transactions Property
 ms:assetid: f2169565-f782-4089-0e4b-bc5d58d37db5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836614(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309244"
 ---
-# <a name="recordset2transactions-property-dao"></a>Свойство Recordset2. Transactions (DAO)
+# <a name="recordset2transactions-property-dao"></a>Свойство Recordset2.Transactions (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,17 +23,17 @@ ms.locfileid: "32309244"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Транзакций
+*выражение .* Транзакции
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-В рабочей области Microsoft Access можно также использовать свойство **Transactions** с объектами **Recordset** типа динамического подмножества или таблицы. Объекты **[Recordset](recordset-object-dao.md)** для типа моментального снимка и прямого прямого доступа — всегда возвращают **значение false**.
+В рабочей области Microsoft Access можно также использовать свойство **Transactions** с объектами Recordset типа dynaset или **table.** Объекты **[Recordset](recordset-object-dao.md)** типа "моментальный снимок" и "только вперед" всегда возвращают **false.**
 
-Если **набор записей** динамического типа или табличного типа основан на таблице ядра СУБД Microsoft Access, свойство **Transactions** имеет **значение true** , и вы можете использовать транзакции. Другие ядра СУБД могут не поддерживать транзакции. Например, нельзя использовать транзакции в объекте **Recordset** типа динамического подмножества на основе таблицы Paradox.
+Если набор записей типа "dynaset" или "table" основан на таблице ядров баз данных Microsoft Access, свойство **Transactions** имеет свойство **True,** и вы можете использовать транзакции.  Другие движки баз данных могут не поддерживать транзакции. Например, нельзя использовать транзакции в объекте **Recordset** типа dynaset на основе таблицы Paradox.
 
-Проверьте свойство **Transactions** перед использованием метода **[BeginTrans](dbengine-begintrans-method-dao.md)** объекта **Recordset** объекта **[Workspace](workspace-object-dao.md)** , чтобы убедиться в том, что транзакции поддерживаются. Использование методов **BeginTrans**, **CommitTrans**и **ROLLBACK** для неподдерживаемого объекта не оказывает никакого действия.
+Проверьте свойство **Transactions** перед использованием метода **[BeginTrans](dbengine-begintrans-method-dao.md)** в объекте **[Workspace](workspace-object-dao.md)** объекта **Recordset,** чтобы убедиться, что транзакции поддерживаются. Использование **методов BeginTrans,** **CommitTrans** или **Rollback** для неподтверченного объекта не оказывает влияния.
 
 ## <a name="example"></a>Пример
 

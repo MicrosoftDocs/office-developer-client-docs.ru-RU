@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. index (DAO)
+title: Свойство Recordset2.Index (DAO)
 TOCTitle: Index Property
 ms:assetid: 614bdf53-aca3-25ef-a23c-50095b345d20
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194872(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307303"
 ---
-# <a name="recordset2index-property-dao"></a>Свойство Recordset2. index (DAO)
+# <a name="recordset2index-property-dao"></a>Свойство Recordset2.Index (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -24,7 +24,7 @@ ms.locfileid: "32307303"
 
 *expression* .Index
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="remarks"></a>Комментарии
 
@@ -43,7 +43,7 @@ ms.locfileid: "32307303"
 > - Записи, считываемые из таблиц без индексов, возвращаются без определенной последовательности.
 > - Свойство **[Attributes](field-attributes-property-dao.md)** каждого объекта **[Field](field-object-dao.md)** в объекте **Index** определяет порядок записей и соответственно определяет техники доступа для использования этого индекса.
 > - Уникальный индекс помогает оптимизировать поиск записей.
-> - Индексы не влияют на физический порядок базовых таблеиндексес влияет только на доступ к записям в объекте **Recordset** табличного типа при выборе определенного индекса или при открытии объекта **Recordset** .
+> - Индексы не влияют на физический порядок базового объекта tableindexes и влияют только на то, как записи доступны  объекту **Recordset** табли с типом таблицы при выбранном индексе или при его открытом наборе записей.
 
 ## <a name="example"></a>Пример
 

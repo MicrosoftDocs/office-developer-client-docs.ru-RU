@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. Fields (DAO)
+title: Свойство Recordset2.Fields (DAO)
 TOCTitle: Fields Property
 ms:assetid: d00d9090-5072-30c7-14c8-b4a260bdb92b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834698(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307345"
 ---
-# <a name="recordset2fields-property-dao"></a>Свойство Recordset2. Fields (DAO)
+# <a name="recordset2fields-property-dao"></a>Свойство Recordset2.Fields (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32307345"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Поле
+*выражение .* Поля
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 

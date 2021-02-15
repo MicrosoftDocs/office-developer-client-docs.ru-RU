@@ -19,7 +19,7 @@ ms.locfileid: "32308808"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает направление поиска записи в [наборе записей](recordset-object-ado.md).
+Указывает направление поиска записей в [наборе записей.](recordset-object-ado.md)
 
 <table>
 <colgroup>
@@ -36,14 +36,14 @@ ms.locfileid: "32308808"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адсеарчбакквард</strong></p></td>
+<td><p><strong>adSearchBackward</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Выполняет поиск в обратном направлении, останавливается в начале <strong>набора записей</strong>. Если соответствующее значение не найдено, указатель записи располагается по адресу <a href="bof-eof-properties-ado.md">BOF</a>.</p></td>
+<td><p>Выполняет поиск в обратном направлении, останавливаясь в начале <strong>recordset.</strong> Если совпадение не найдено, указатель записи находится в <a href="bof-eof-properties-ado.md">BOF.</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адсеарчфорвард</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Выполняет поиск вперед, завершается в конце <strong>набора записей</strong>. Если соответствующее значение не найдено, указатель записи размещается на <a href="bof-eof-properties-ado.md">EOF</a>.</p></td>
+<td><p><strong>adSearchForward</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Выполняет поиск вперед, останавливаясь в конце <strong>recordset.</strong> Если совпадение не найдено, указатель записи находится в <a href="bof-eof-properties-ado.md">EOF.</a></p></td>
 </tr>
 </tbody>
 </table>
@@ -51,7 +51,7 @@ ms.locfileid: "32308808"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -64,10 +64,10 @@ ms.locfileid: "32308808"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Сеарчдиректион. назад</p></td>
+<td><p>AdoEnums.SearchDirection.BACKWARD</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Сеарчдиректион. FORWARD</p></td>
+<td><p>AdoEnums.SearchDirection.FORWARD</p></td>
 </tr>
 </tbody>
 </table>

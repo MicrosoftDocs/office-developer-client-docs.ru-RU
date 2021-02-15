@@ -1,5 +1,5 @@
 ---
-title: Элементы TableDef (DAO)
+title: Члены TableDefs (DAO)
 TOCTitle: TableDefs Members
 ms:assetid: 7a365303-1e7d-0c01-67ed-defcc76577d1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196175(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314086"
 ---
-# <a name="tabledefs-members-dao"></a>Элементы TableDef (DAO)
+# <a name="tabledefs-members-dao"></a>Члены TableDefs (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -36,16 +36,16 @@ ms.locfileid: "32314086"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="tabledefs-append-method-dao.md">Error</a></strong></p></td>
-<td><p>Добавляет новый объект <strong>tabledef</strong> в коллекцию <strong>tabledef</strong> .</p></td>
+<td><p><strong><a href="tabledefs-append-method-dao.md">Append</a></strong></p></td>
+<td><p>Добавляет новый <strong>TableDef в</strong> <strong>коллекцию TableDefs.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledefs-delete-method-dao.md">Delete</a></strong></p></td>
-<td><p>Удаляет указанный объект <strong>tabledef</strong> из коллекции <strong>tabledef</strong> .</p></td>
+<td><p>Удаляет указанный объект <strong>TableDef</strong> из коллекции <strong>TableDefs.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledefs-refresh-method-dao.md">Обновление</a></strong></p></td>
-<td><p>Обновляет объекты в заданном коллетион в соответствии с текущей схемой базы данных.</p></td>
+<td><p><strong><a href="tabledefs-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>
@@ -67,7 +67,7 @@ ms.locfileid: "32314086"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="tabledefs-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает число объектов в указанной коллекции. Только для чтения.</p></td>
+<td><p>Возвращает количество объектов в указанной коллекции. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

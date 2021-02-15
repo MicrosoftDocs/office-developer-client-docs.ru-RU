@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. MoveNext (DAO)
+title: Метод Recordset2.MoveNext (DAO)
 TOCTitle: MoveNext Method
 ms:assetid: 0eeb917e-f76a-03ec-9e1e-aa8d501db031
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845265(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309557"
 ---
-# <a name="recordset2movenext-method-dao"></a>Метод Recordset2. MoveNext (DAO)
+# <a name="recordset2movenext-method-dao"></a>Метод Recordset2.MoveNext (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -25,7 +25,7 @@ ms.locfileid: "32309557"
 
 *выражение* .MoveNext
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="remarks"></a>Комментарии
 

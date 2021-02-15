@@ -1,5 +1,5 @@
 ---
-title: Стреамвритинум (Справочник по базам данных Access на компьютере)
+title: StreamWriteEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: StreamWriteEnum
 ms:assetid: b4356999-d7a8-abfa-f6a8-6c2dd04b9257
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249861(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32308479"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, добавляется ли разделитель строк в строку, записанную в объект [Stream](stream-object-ado.md) .
+Указывает, будет ли к строке, записанной в объект Stream, будет ли к строке, записанной в [объект Stream, будет ли сепаратор строки.](stream-object-ado.md)
 
 <br/>
 
@@ -37,14 +37,14 @@ ms.locfileid: "32308479"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адвритечар</strong></p></td>
-<td><p>нуль</p></td>
-<td><p>Значение, используемое по умолчанию. Записывает указанную текстовую строку (заданную параметром <em>Data</em> ) в объект <strong>Stream</strong> .</p></td>
+<td><p><strong>adWriteChar</strong></p></td>
+<td><p>0</p></td>
+<td><p>Значение, используемое по умолчанию. Записывает указанную текстовую строку (заданную параметром <em>Data)</em> в <strong>объект Stream.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адврителине</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Записывает текстовую строку и символ разделителя строк в объект <strong>Stream</strong> . Если свойство <a href="lineseparator-property-ado.md">LineSeparator</a> не определено, возвращается ошибка времени выполнения.</p></td>
+<td><p><strong>adWriteLine</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Записывает текстовую строку и знак сепаратора строк в объект <strong>Stream.</strong> Если свойство <a href="lineseparator-property-ado.md">LineSeparator</a> не определено, возвращается ошибка времени запуска.</p></td>
 </tr>
 </tbody>
 </table>

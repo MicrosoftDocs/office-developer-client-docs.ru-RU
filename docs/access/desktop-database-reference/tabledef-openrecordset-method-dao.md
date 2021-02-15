@@ -1,5 +1,5 @@
 ---
-title: Метод TableDef. OpenRecordset (DAO)
+title: Метод TableDef.OpenRecordset (DAO)
 TOCTitle: OpenRecordset Method
 ms:assetid: f4c9c89c-3348-d3c9-ce76-dd11e5ee11a7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836703(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314338"
 ---
-# <a name="tabledefopenrecordset-method-dao"></a>Метод TableDef. OpenRecordset (DAO)
+# <a name="tabledefopenrecordset-method-dao"></a>Метод TableDef.OpenRecordset (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -59,7 +59,7 @@ ms.locfileid: "32314338"
 </tr>
 <tr class="odd">
 <td><p><em>Options</em></p></td>
-<td><p>Необязательный</p></td>
+<td><p>Необязательно</p></td>
 <td><p><strong>Variant</strong></p></td>
 <td><p>Сочетание констант <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong>, которые указывают характеристики нового объекта <strong>Recordset</strong>.</p><p><strong>ПРИМЕЧАНИЕ</strong>: Константы <STRONG>dbConsistent</STRONG> и <STRONG>dbInconsistent</STRONG> являются взаимоисключающими, и использование обоих констант вызывает ошибку. Предоставление аргумента lockedits, когда опции используют константы <STRONG>dbReadOnly</STRONG>, также приводит к возникновению ошибки.</p>
 </td>

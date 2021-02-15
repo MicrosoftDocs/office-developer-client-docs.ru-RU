@@ -19,7 +19,7 @@ ms.locfileid: "32308367"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется метод [Update](update-method-ado.md) в сочетании с методом [CancelUpdate](cancelupdate-method-ado.md) .
+В этом примере демонстрируется метод [Update](update-method-ado.md) в сочетании с [методом CancelUpdate.](cancelupdate-method-ado.md)
 
 ```vb 
  

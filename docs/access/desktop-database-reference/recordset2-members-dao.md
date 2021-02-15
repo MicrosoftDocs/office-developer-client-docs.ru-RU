@@ -37,7 +37,7 @@ ms.locfileid: "32307275"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="recordset2-addnew-method-dao.md">AddNew</a></strong></p></td>
-<td><p>Создает новую запись для обновляемого объекта <strong>Recordset2</strong> .</p></td>
+<td><p>Создает новую запись для объекта <strong>Recordset2</strong> с возможностью его создания.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-cancel-method-dao.md">Cancel</a></strong></p></td>
@@ -50,7 +50,7 @@ ms.locfileid: "32307275"
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-clone-method-dao.md">Clone</a></strong></p></td>
-<td><p>Создает дубликат объекта <strong><a href="recordset-object-dao.md">Recordset</a></strong> , ссылающегося на исходный объект <strong>Recordset2</strong> .</p></td>
+<td><p>Создает дубликат <strong><a href="recordset-object-dao.md">объекта Recordset,</a></strong> который ссылается на исходный <strong>объект Recordset2.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-close-method-dao.md">Close</a></strong></p></td>
@@ -154,7 +154,7 @@ ms.locfileid: "32307275"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="recordset2-absoluteposition-property-dao.md">AbsolutePosition</a></strong></p></td>
-<td><p>Задает или возвращает номер относительной записи текущей записи объекта <strong>Recordset2</strong> .</p></td>
+<td><p>Задает или возвращает относительный номер записи текущей записи объекта <strong>Recordset2.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-batchcollisioncount-property-dao.md">BatchCollisionCount</a></strong></p></td>
@@ -241,7 +241,7 @@ ms.locfileid: "32307275"
 </tr>
 <tr class="even">
 <td><p><strong><a href="recordset2-parentrecordset-property-dao.md">ParentRecordset</a></strong></p></td>
-<td><p>Возвращает родительский <strong>набор записей</strong> указанного набора записей. Только для чтения.</p></td>
+<td><p>Возвращает родительский <strong>набор записей</strong> указанного наборов записей. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="recordset2-percentposition-property-dao.md">PercentPosition</a></strong></p></td>

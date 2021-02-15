@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. RecordCount (DAO)
+title: Свойство Recordset2.RecordCount (DAO)
 TOCTitle: RecordCount Property
 ms:assetid: 77852966-11e9-1773-6e58-53927b84c03b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196071(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309158"
 ---
-# <a name="recordset2recordcount-property-dao"></a>Свойство Recordset2. RecordCount (DAO)
+# <a name="recordset2recordcount-property-dao"></a>Свойство Recordset2.RecordCount (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ ms.locfileid: "32309158"
 
 *выражение* .RecordCount
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="remarks"></a>Примечания
 

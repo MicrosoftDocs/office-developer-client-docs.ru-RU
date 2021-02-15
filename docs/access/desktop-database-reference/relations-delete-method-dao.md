@@ -1,5 +1,5 @@
 ---
-title: Метод отношениях. Delete (DAO)
+title: Метод Relations.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: e95408d2-9dde-44e7-875e-8f2d4b837cf6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836064(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306967"
 ---
-# <a name="relationsdelete-method-dao"></a>Метод отношениях. Delete (DAO)
+# <a name="relationsdelete-method-dao"></a>Метод Relations.Delete (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Удаляет указанное **отношение** из коллекции **связей** .
+Удаляет указанное отношение **из** коллекции **Relations.**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Delete (***имя***)
+*выражение .* ***Delete(Name)***
 
-*Expression (выражение* ) Переменная, представляющая объект **отношений** .
+*выражение* Переменная, представляюная объект **Relations.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -47,14 +47,14 @@ ms.locfileid: "32306967"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Имя отношения, которое требуется удалить.</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Имя удаляемого отношения.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Метод **Delete** поддерживается, только если объект **relation** является новым, неприсоединенным объектом.
+Метод **Delete** поддерживается только в том случае, если **объект Relation** является новым, неподдерженным объектом.
 

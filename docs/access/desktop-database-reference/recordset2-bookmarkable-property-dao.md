@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. Bookmark (DAO)
+title: Свойство Recordset2.Bookmarkable (DAO)
 TOCTitle: Bookmarkable Property
 ms:assetid: 9c93d04d-ca10-acf5-122a-58625ed93424
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198125(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307457"
 ---
-# <a name="recordset2bookmarkable-property-dao"></a>Свойство Recordset2. Bookmark (DAO)
+# <a name="recordset2bookmarkable-property-dao"></a>Свойство Recordset2.Bookmarkable (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,19 +27,19 @@ ms.locfileid: "32307457"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Bookmarkable
+*выражение .* Закладка
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Прежде чем приступать к установке или проверке свойства **Bookmark** , проверьте значение свойства **Bookmark** объекта **Recordset** .
+Проверьте параметр **свойства Bookmarkable** объекта **Recordset,** прежде чем пытаться установить или проверить свойство **Bookmark.**
 
-Для объектов **Recordset** , основанных на таблицах ядра СУБД Microsoft Access, значение свойства **bookmarks** равно true, и вы можете использовать закладки. Другие продукты базы данных, однако, могут не поддерживать закладки. Например, нельзя использовать закладки в любом объекте **Recordset** на основании связанной таблицы Paradox, которая не содержит основной ключ.
+Для **объектов Recordset,** полностью основанных на таблицах ядров баз данных Microsoft Access, свойство **Bookmarkable** имеет значение True, и можно использовать закладки. Другие продукты базы данных, однако, могут не поддерживать закладки. Например, нельзя использовать закладки в любом объекте **Recordset** на основании связанной таблицы Paradox, которая не содержит основной ключ.
 
 ## <a name="example"></a>Пример
 
-В этом примере используются **закладки** и свойства с **закладками** , позволяющие пользователю пометить запись в объекте Recordset и вернуться к нему позже.
+В этом примере используются свойства **Bookmark** и **Bookmarkable,** чтобы позволить пользователю пометить запись в наборе записей и вернуться к ней позже.
 
 ```vb
     Sub BookmarkX() 

@@ -1,5 +1,5 @@
 ---
-title: Перечисление Синчронизетипинум (DAO)
+title: SynchronizeTypeEnum enumeration (DAO)
 TOCTitle: SynchronizeTypeEnum Enumeration
 ms:assetid: f9546171-283d-e9bd-5178-41bd4f41c9a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837004(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308451"
 ---
-# <a name="synchronizetypeenum-enumeration-dao"></a>Перечисление Синчронизетипинум (DAO)
+# <a name="synchronizetypeenum-enumeration-dao"></a>SynchronizeTypeEnum enumeration (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется с методом **Synchronize** для определения типа синхронизации, применяемой к двум репликам.
+Используется с **методом Synchronize** для определения типа синхронизации, применяемой к двум репликам.
 
 <table>
 <colgroup>
@@ -36,24 +36,24 @@ ms.locfileid: "32308451"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>дбрепекспортчанжес</p></td>
-<td><p>1,1</p></td>
+<td><p>dbRepExportChanges</p></td>
+<td><p>1 </p></td>
 <td><p>Отправляет изменения из текущей базы данных в целевую.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбрепимпекспчанжес</p></td>
+<td><p>dbRepImpExpChanges</p></td>
 <td><p>4 </p></td>
-<td><p>Отправка и получение данных в двунаправленном обмене.</p></td>
+<td><p>Отправляет и получает данные в окнаправленном обмене.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбрепимпортчанжес</p></td>
-<td><p>2</p></td>
+<td><p>dbRepImportChanges</p></td>
+<td><p>2 </p></td>
 <td><p>Получает изменения из целевой базы данных.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбрепсинЦинтернет</p></td>
+<td><p>dbRepSyncInternet</p></td>
 <td><p>16 </p></td>
-<td><p>Отправка и получение данных в двунаправленном обмене.</p></td>
+<td><p>Отправляет и получает данные в окнаправленном обмене.</p></td>
 </tr>
 </tbody>
 </table>

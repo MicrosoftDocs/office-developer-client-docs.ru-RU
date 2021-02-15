@@ -19,15 +19,15 @@ ms.locfileid: "32314016"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает операционный тип или тип данных для [параметра](parameter-object-ado.md), [поля](field-object-ado.md)или объекта [Property](property-object-ado.md) .
+Указывает операционный тип или тип данных объекта [Parameter,](parameter-object-ado.md) [Field](field-object-ado.md)или [Property.](property-object-ado.md)
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает или возвращает значение [DataTypeEnum](datatypeenum.md) .
+Задает или возвращает значение [DataTypeEnum.](datatypeenum.md)
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Для объектов **Parameter** свойство **Type** доступно для чтения и записи. Для новых **объектов Field** , добавленных в коллекцию [Fields](fields-collection-ado.md) [записи](record-object-ado.md), **тип** доступен для чтения и записи только после того, как было указано свойство [value](value-property-ado.md) для **поля** , и поставщик данных успешно добавил новое **поле** , вызвав метод [Update](update-method-ado.md) коллекции **Fields** .
+Для **объектов Parameter** свойство **Type** имеет свойство read/write. Для новых объектов **Field,** которые были добавлены в  коллекцию [Fields](fields-collection-ado.md) записи, type будет  считываться и записываться только после  того, как свойство [Value](value-property-ado.md) для поля было задано и поставщик данных успешно добавил новое поле путем вызова метода [Update](update-method-ado.md) коллекции **Fields.** [](record-object-ado.md)
 
-Для всех остальных объектов свойство **Type** доступно только для чтения.
+Для всех остальных объектов свойство **Type** является "только чтением".
 

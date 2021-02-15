@@ -18,7 +18,7 @@ ms.locfileid: "32308437"
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство DateCreated](datecreated-property-adox.md)
 - [Свойство DateModified](datemodified-property-adox.md)

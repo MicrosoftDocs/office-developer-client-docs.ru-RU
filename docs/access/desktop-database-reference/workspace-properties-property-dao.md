@@ -1,5 +1,5 @@
 ---
-title: Свойство Workspace. Properties (DAO)
+title: Свойство Workspace.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: fe2e8d83-5081-4a2c-d2bb-53fbcbd13210
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837262(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311322"
 ---
-# <a name="workspaceproperties-property-dao"></a>Свойство Workspace. Properties (DAO)
+# <a name="workspaceproperties-property-dao"></a>Свойство Workspace.Properties (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32311322"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Параметры
+*выражение .* Свойства
 
 *expression*: переменная, представляющая объект **Workspace**.
 

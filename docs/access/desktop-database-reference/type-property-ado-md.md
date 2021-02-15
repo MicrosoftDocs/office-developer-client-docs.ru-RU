@@ -19,13 +19,13 @@ ms.locfileid: "32313988"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает тип текущего элемента.
+Указывает тип текущего члена.
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает значение [мембертипинум](membertypeenum.md) и доступно только для чтения.
+Возвращает значение [MemberTypeEnum](membertypeenum.md) и является только для чтения.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Это свойство поддерживается только для объектов [member](member-object-ado-md.md) , принадлежащих объекту [уровня](level-object-ado-md.md) . При обращении к этому свойству из объектов **member** , принадлежащих объекту [position](position-object-ado-md.md) , возникает ошибка.
+Это свойство поддерживается только для объектов [Member,](member-object-ado-md.md) принадлежащих [объекту Level.](level-object-ado-md.md) Ошибка возникает, когда на это свойство ссылается объект **Member,** принадлежащий [объекту Position.](position-object-ado-md.md)
 

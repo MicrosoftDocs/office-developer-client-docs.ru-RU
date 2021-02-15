@@ -1,5 +1,5 @@
 ---
-title: Свойство Unique (ADOX)
+title: Уникальное свойство (ADOX)
 TOCTitle: Unique property (ADOX)
 ms:assetid: 23dc9e98-5bc4-42c7-6d3a-340736f0db05
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249012(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313960"
 ---
-# <a name="unique-property-adox"></a>Свойство Unique (ADOX)
+# <a name="unique-property-adox"></a>Уникальное свойство (ADOX)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,11 +23,11 @@ ms.locfileid: "32313960"
 
 ## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
 
-Задает и возвращает **логическое** значение.
+Задает и возвращает значение **boolean.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Значение по умолчанию — **False**.
 
-Это свойство доступно только для чтения для объектов [индекса](index-object-adox.md) , уже добавленных в коллекцию.
+Это свойство доступно только для чтения в [объектах Index,](index-object-adox.md) которые уже были appended в коллекцию.
 

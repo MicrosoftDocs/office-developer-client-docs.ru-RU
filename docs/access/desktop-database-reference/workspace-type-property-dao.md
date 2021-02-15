@@ -1,5 +1,5 @@
 ---
-title: Свойство Workspace. Type (DAO)
+title: Свойство Workspace.Type (DAO)
 TOCTitle: Type Property
 ms:assetid: 89e59280-d2cd-b6a2-16c5-9f14f42fdd99
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197086(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311307"
 ---
-# <a name="workspacetype-property-dao"></a>Свойство Workspace. Type (DAO)
+# <a name="workspacetype-property-dao"></a>Свойство Workspace.Type (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,9 +27,9 @@ ms.locfileid: "32311307"
 
 *expression*: переменная, представляющая объект **Workspace**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Для объекта **Workspace** возможны следующие параметры и возвращаемые значения.
+Для объекта **Workspace** возможные параметры и возвращаемые значения:
 
 <table>
 <colgroup>
@@ -44,12 +44,12 @@ ms.locfileid: "32311307"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>дбусежет</strong></p></td>
-<td><p><strong>Рабочая область</strong> подключена к ядру СУБД Microsoft Access.</p></td>
+<td><p><strong>dbUseJet</strong></p></td>
+<td><p>Workspace <strong>подключена</strong> к яд базы данных Microsoft Access.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>дбусеодбк</strong></p></td>
-<td><p><strong>Рабочая область</strong> подключена к источнику данных ODBC.</p></td>
+<td><p><strong>dbUseODBC</strong></p></td>
+<td><p>Workspace <strong>подключена</strong> к источнику данных ODBC.</p></td>
 </tr>
 </tbody>
 </table>

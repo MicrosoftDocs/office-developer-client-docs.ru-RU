@@ -25,7 +25,7 @@ ms.locfileid: "32314065"
 
 ## <a name="methods"></a>Methods
 
-- [Метод Append (таблицы)](append-method-adox-tables.md)
+- [Метод Append (Tables)](append-method-adox-tables.md)
 - [Метод Delete (Collections)](delete-method-adox-collections.md)
 - [Метод Refresh](refresh-method-ado.md)
 

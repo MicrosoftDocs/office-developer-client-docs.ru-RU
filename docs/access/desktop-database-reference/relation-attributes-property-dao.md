@@ -1,5 +1,5 @@
 ---
-title: Свойство relation. Attributes (DAO)
+title: Свойство Relation.Attributes (DAO)
 TOCTitle: Attributes Property
 ms:assetid: db19d2ad-5965-214c-211d-9a8eb9c3c522
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835337(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309116"
 ---
-# <a name="relationattributes-property-dao"></a>Свойство relation. Attributes (DAO)
+# <a name="relationattributes-property-dao"></a>Свойство Relation.Attributes (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, которое указывает одну или несколько характеристик объекта **связи** . Для чтения и записи, **Long**.
+Задает или возвращает значение, которое указывает одну или несколько характеристик объекта **Relation.** Для чтения и записи, **Long**.
 
 ## <a name="syntax"></a>Синтаксис
 
 *expression* .Attributes
 
-*Expression (выражение* ) Переменная, представляющая объект **связи** .
+*выражение* Переменная, представляюная объект **Relation.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Для объекта, который еще не добавлен в коллекцию, это свойство предназначено для чтения и записи.
 

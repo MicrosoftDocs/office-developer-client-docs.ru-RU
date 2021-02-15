@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef. Properties (DAO)
+title: Свойство TableDef.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: e6eefc5f-498c-77c1-79e1-e4d0b8cc2133
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835993(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314275"
 ---
-# <a name="tabledefproperties-property-dao"></a>Свойство TableDef. Properties (DAO)
+# <a name="tabledefproperties-property-dao"></a>Свойство TableDef.Properties (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32314275"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Параметры
+*выражение .* Свойства
 
 *выражение*: переменная, представляющая объект **TableDef**.
 

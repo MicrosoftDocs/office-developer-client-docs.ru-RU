@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef. обновляющей (DAO)
+title: Свойство TableDef.Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: 0b1ae7e5-416d-06f0-5d74-989c6db67ff2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845128(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314415"
 ---
-# <a name="tabledefupdatable-property-dao"></a>Свойство TableDef. обновляющей (DAO)
+# <a name="tabledefupdatable-property-dao"></a>Свойство TableDef.Updatable (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,11 +23,11 @@ ms.locfileid: "32314415"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Updatable
+*выражение .* Updatable
 
 *выражение*: переменная, представляющая объект **TableDef**.
 
 ## <a name="remarks"></a>Комментарии
 
-Параметр **обновляемое** свойство всегда имеет **значение true** для вновь созданного **объекта tabledef** и **значение false** для связанного объекта **tabledef** . Новый объект **tabledef** можно добавить только в базу данных, для которой текущий пользователь имеет разрешение на запись.
+Для вновь созданного объекта **TableDef** параметр свойства "Updatable" всегда имеет свойство  **True,** а для связанного объекта **TableDef —** false.  Новый объект **TableDef** можно примедить только к базе данных, для которой текущий пользователь имеет разрешение на написание.
 

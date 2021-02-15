@@ -1,5 +1,5 @@
 ---
-title: Свойства рабочих областей (DAO)
+title: Свойства workspaces (DAO)
 TOCTitle: Properties
 ms:assetid: aa635361-13d8-40b9-ac10-b0cfe8271273
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142617(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308304"
 ---
-# <a name="workspaces-properties-dao"></a>Свойства рабочих областей (DAO)
+# <a name="workspaces-properties-dao"></a>Свойства workspaces (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство workspaces. Count (DAO)](workspaces-count-property-dao.md)
+- [Свойство Workspaces.Count (DAO)](workspaces-count-property-dao.md)
 

@@ -40,12 +40,12 @@ ms.locfileid: "32314905"
 <td><p>Создает новый объект <strong><a href="field-object-dao.md">Field</a></strong> (только для рабочих областей Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-createindex-method-dao.md">креатеиндекс</a></strong></p></td>
-<td><p>Создает новый объект <strong><a href="index-object-dao.md">index</a></strong> (только для рабочих областей Microsoft Access). .</p></td>
+<td><p><strong><a href="tabledef-createindex-method-dao.md">CreateIndex</a></strong></p></td>
+<td><p>Создает новый объект <strong><a href="index-object-dao.md">Index</a></strong> (только для рабочих пространств Microsoft Access). .</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>Создает новый объект определяемого пользователем <strong><a href="property-object-dao.md">Свойства</a></strong> (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Создает объект Property, определенный <strong><a href="property-object-dao.md">пользователем</a></strong> (только для рабочих пространств Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-openrecordset-method-dao.md">OpenRecordset</a></strong></p></td>
@@ -53,7 +53,7 @@ ms.locfileid: "32314905"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-refreshlink-method-dao.md">RefreshLink</a></strong></p></td>
-<td><p>Обновляет сведения о подключении для связанной таблицы (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Обновляет сведения о под подключениях для связанной таблицы (только для рабочей области Microsoft Access).</p></td>
 </tr>
 </tbody>
 </table>
@@ -74,12 +74,12 @@ ms.locfileid: "32314905"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="tabledef-attributes-property-dao.md">Attributes</a></strong></p></td>
-<td><p>Задает или возвращает значение, которое указывает одну или несколько характеристик объекта <strong>tabledef</strong> . Для чтения и записи, <strong>Long</strong>.</p></td>
+<td><p><strong><a href="tabledef-attributes-property-dao.md">Атрибуты</a></strong></p></td>
+<td><p>Задает или возвращает значение, которое указывает одну или несколько характеристик объекта <strong>TableDef.</strong> Для чтения и записи, <strong>Long</strong>.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="tabledef-conflicttable-property-dao.md">конфликттабле</a></strong></p></td>
-<td><p>Возвращает имя таблицы конфликтов, содержащей записи базы данных, которые конфликтуют при синхронизации двух реплик (только для рабочих областей Microsoft Access). Только для чтения, <strong>String</strong>.</p></td>
+<td><p><strong><a href="tabledef-conflicttable-property-dao.md">ConflictTable</a></strong></p></td>
+<td><p>Возвращает имя таблицы конфликтов, содержащей записи базы данных, конфликтущие во время синхронизации двух реплик (только для рабочей области Microsoft Access). Только для чтения, <strong>String</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-connect-property-dao.md">Connect</a></strong></p></td>
@@ -87,7 +87,7 @@ ms.locfileid: "32314905"
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-datecreated-property-dao.md">DateCreated</a></strong></p></td>
-<td><p>Возвращает дату и время создания объекта (только для рабочих областей Microsoft Access). Только для чтения, <strong>Variant</strong>.</p></td>
+<td><p>Возвращает дату и время создания объекта (только для рабочей области Microsoft Access). Только для чтения, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-fields-property-dao.md">Fields</a></strong></p></td>
@@ -95,11 +95,11 @@ ms.locfileid: "32314905"
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-indexes-property-dao.md">Indexes</a></strong></p></td>
-<td><p>Возвращает коллекцию <strong>indexes</strong> , содержащую все хранимые объекты <strong>индекса</strong> для указанной таблицы. Только для чтения.</p></td>
+<td><p>Возвращает <strong>коллекцию Indexes,</strong> которая содержит все сохраненные объекты <strong>Index</strong> для указанной таблицы. Только для чтения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Возвращает дату и время последнего изменения, внесенного в объект. Только для чтения, <strong>Variant</strong>.</p></td>
+<td><p>Возвращает дату и время последнего изменения объекта. Только для чтения, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-name-property-dao.md">Name</a></strong></p></td>
@@ -111,15 +111,15 @@ ms.locfileid: "32314905"
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-recordcount-property-dao.md">RecordCount</a></strong></p></td>
-<td><p>Возвращает общее число записей в объекте <strong><a href="tabledef-object-dao.md">tabledef</a></strong> . Только для чтения, <strong>Long</strong>.</p></td>
+<td><p>Возвращает общее число записей в <strong><a href="tabledef-object-dao.md">объекте TableDef.</a></strong> Только для чтения, <strong>Long</strong>.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong><a href="tabledef-replicafilter-property-dao.md">репликафилтер</a></strong></p></td>
-<td><p>Задает или возвращает значение объекта <strong><a href="tabledef-object-dao.md">tabledef</a></strong> в частичной реплике, которое указывает, какое подмножество записей реплицируется в эту таблицу из полной реплики. (Только для рабочих областей Microsoft Access.)</p></td>
+<td><p><strong><a href="tabledef-replicafilter-property-dao.md">ReplicaFilter</a></strong></p></td>
+<td><p>Задает или возвращает значение объекта <strong><a href="tabledef-object-dao.md">TableDef</a></strong> в частичной реплике, которое указывает, какое подмножество записей реплицируется в эту таблицу из полной реплики. (Только для рабочих областей Microsoft Access.)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="tabledef-sourcetablename-property-dao.md">SourceTableName</a></strong></p></td>
-<td><p>Задает или возвращает значение, задающее имя связанной таблицы или имя базовой таблицы (только для рабочих областей Microsoft Access).</p></td>
+<td><p>Задает или возвращает значение, которое указывает имя связанной таблицы или имя базовой таблицы (только для рабочей области Microsoft Access).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="tabledef-updatable-property-dao.md">Updatable</a></strong></p></td>

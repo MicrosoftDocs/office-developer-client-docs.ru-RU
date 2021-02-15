@@ -25,11 +25,11 @@ ms.locfileid: "32306757"
 
 
 
-Вы можете использовать действие **Макрокоманда removetempvar** для удаления одной временной переменной, созданной с помощью действия **Макрокоманда SetTempVar** .
+С помощью действия **RemoveTempVar можно** удалить одну временную переменную, созданную с помощью действия **SetTempVar.**
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
-Действие **Макрокоманда removetempvar** имеет следующий аргумент.
+Действие **RemoveTempVar** имеет следующий аргумент.
 
 <table>
 <colgroup>
@@ -45,27 +45,27 @@ ms.locfileid: "32306757"
 <tbody>
 <tr class="odd">
 <td><p><strong>Name</strong></p></td>
-<td><p>Введите имя временной переменной, которую необходимо удалить.</p></td>
+<td><p>Введите имя временной переменной, которая будет удаляться.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-  - Одновременно может быть определено до 255 временных переменных. Если не удалить временную переменную, она останется в памяти до тех пор, пока не будет закрыта база данных. Рекомендуется удалять временные переменные после завершения их использования.
+  - Одновременно можно определить до 255 временных переменных. Если не удалить временную переменную, она останется в памяти до закрытия базы данных. По завершению использования временных переменных лучше удалить.
 
   - Access автоматически удаляет все временные переменные при закрытии базы данных или проекта.
 
-  - Если вы неправильно задаете имя удаляемой переменной, Access не отобразит сообщение об ошибке. Переменная, которую вы хотите удалить, остается в памяти до закрытия базы данных.
+  - Если вы опечатка имени удаляемой переменной, Access не отображает ошибку. Удаляемая переменная останется в памяти до закрытия базы данных.
 
-  - Если вы создали более одной временной переменной и хотите удалить их все сразу, используйте действие **Макрокоманда removealltempvars** .
+  - Если вы создали несколько временных переменных и хотите удалить их все одновременно, используйте действие **RemoveAllTempVars.**
 
-  - Чтобы выполнить действие **Макрокоманда removetempvar** в модуле VBA, используйте метод **Remove** объекта **TempVars** .
+  - Чтобы запустить действие **RemoveTempVar** в модуле VBA, используйте метод **Remove** объекта **TempVars.**
 
 ## <a name="example"></a>Пример
 
-В следующем макросе показано, как создать временную переменную, использовать ее в условии и окне сообщения, а затем удалить временную переменную с помощью действия **Макрокоманда removetempvar** .
+Следующий макрос демонстрирует, как создать временную переменную, использовать ее в условии и в окне сообщения, а затем удалить временную переменную с помощью действия **RemoveTempVar.**
 
 <table>
 <colgroup>
@@ -75,7 +75,7 @@ ms.locfileid: "32306757"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Условие</p></th>
+<th><p>Condition</p></th>
 <th><p>Action</p></th>
 <th><p>Аргументы</p></th>
 </tr>
@@ -83,18 +83,18 @@ ms.locfileid: "32306757"
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Макрокоманда SetTempVar</strong></p></td>
-<td><p><strong>Name</strong>:<strong>выражение</strong>мивар: InputBox (&quot;введите ненулевое значение).&quot;</p></td>
+<td><p><strong>SetTempVar</strong></p></td>
+<td><p><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox( &quot; Enter a non-zero number. &quot; )</p></td>
 </tr>
 <tr class="even">
-<td><p>[TempVars]! [Мивар] &lt; &gt;0</p></td>
+<td><p>[TempVars]! [MyVar] &lt; &gt; 0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Сообщение</strong>: =&quot;вы ввели &quot; &amp; [TempVars]! [Мивар] &amp; &quot;. &quot; <strong>Гудок</strong>: <strong>естипе</strong>: <strong>Information</strong></p></td>
+<td><p><strong>Message</strong>: = &quot; You entered &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Макрокоманда removetempvar</strong></p></td>
-<td><p><strong>Name</strong>: мивар</p></td>
+<td><p><strong>RemoveTempVar</strong></p></td>
+<td><p><strong>Name</strong>: MyVar</p></td>
 </tr>
 </tbody>
 </table>

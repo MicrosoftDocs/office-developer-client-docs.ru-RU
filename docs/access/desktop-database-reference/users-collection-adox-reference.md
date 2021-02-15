@@ -1,5 +1,5 @@
 ---
-title: Справочник по коллекции пользователей (ADOX)
+title: Справочник по коллекции Users (ADOX)
 TOCTitle: Users collection (ADOX)
 ms:assetid: 4094e816-e195-4483-b9c4-c5a71f7b93cb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249183(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32312952"
 ---
-# <a name="users-collection-adox-reference"></a>Справочник по коллекции пользователей (ADOX)
+# <a name="users-collection-adox-reference"></a>Справочник по коллекции Users (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 

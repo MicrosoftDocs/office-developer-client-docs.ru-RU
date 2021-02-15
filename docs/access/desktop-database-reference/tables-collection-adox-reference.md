@@ -1,5 +1,5 @@
 ---
-title: Справочник по коллекциям Tables (ADOX)
+title: Справочник по коллекции Tables (ADOX)
 TOCTitle: Tables collection (ADOX)
 ms:assetid: 906a61b5-3eb2-4de9-b547-9981d2de8fa3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249637(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306386"
 ---
-# <a name="tables-collection-adox-reference"></a>Справочник по коллекциям Tables (ADOX)
+# <a name="tables-collection-adox-reference"></a>Справочник по коллекции Tables (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 

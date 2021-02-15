@@ -18,32 +18,32 @@ ms.locfileid: "32306862"
 
 **Область применения**: Access 2013, Office 2013
 
-Получает или задает объект **ROWPOSITION** OLE DB from/On объекта **ADORecordsetConstruction** . При использовании **Put\_RowPosition** для задания объекта **RowPosition** результирующий объект **Recordset** использует объект **RowPosition** для определения текущей строки.
+Получает или задает объект OLE DB **RowPosition** из/объекта **ADORecordsetConstruction.** При использовании **put \_ RowPosition** для определения объекта **RowPosition** в итоговом объекте **Recordset** используется объект **RowPosition** для определения текущей строки.
 
 Для чтения и записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-HRESULT Get\_RowPosition (\[out,\] IUnknown,\* \* IUnknown ппровпос);
+HRESULT get \_ RowPosition( \[ out, retval \] IUnknown \* \* ppRowPos);
 
-HRESULT PUT\_RowPosition (\[в\] IUnknown\* провпос);
+HRESULT put \_ RowPosition( \[ in \] IUnknown \* pRowPos);
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*ппровпос* |Указатель на объект **ROWPOSITION** OLE DB.|
-|*провпос* |Объект **ROWPOSITION** OLE DB.|
+|*ppRowPos* |Указатель на объект **rowPosition** OLE DB.|
+|*PRowPos* |Объект **rowPosition** OLE DB.|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Этот метод свойства возвращает стандартные значения HRESULT, включая S\_ОК и электронную\_ошибку.
+Этот метод свойства возвращает стандартные значения HRESULT, включая S \_ OK и E \_ FAIL.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Если это свойство задано, то в случае, если объект **набора строк** в объекте **RowPosition** отличается от объекта набора **строк** в объекте **Recordset** , прежний приоритет переопределяется последним. Такое же поведение распространяется и на текущую **главу** **RowPosition** .
+Если это свойство задано, если объект **Rowset** в объекте **RowPosition** отличается от объекта **Rowset** объекта **Recordset,** первый переопределяет последнее. Такое же поведение применяется и к текущей **главе** **RowPosition.**
 
-## <a name="applies-to"></a>Сфера применения
+## <a name="applies-to"></a>Область применения
 
 [ADORecordsetConstruction](adorecordsetconstruction-interface-ado.md)
 

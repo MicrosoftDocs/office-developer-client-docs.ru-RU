@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. Delete (DAO)
+title: Метод Recordset2.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 01fd8e20-d491-385e-2b6d-0d1423f66e51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844759(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307359"
 ---
-# <a name="recordset2delete-method-dao"></a>Метод Recordset2. Delete (DAO)
+# <a name="recordset2delete-method-dao"></a>Метод Recordset2.Delete (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32307359"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Удален
+*выражение .* Delete
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 

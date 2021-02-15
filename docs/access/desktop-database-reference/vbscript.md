@@ -1,5 +1,5 @@
 ---
-title: VBScript (Справочник по базам данных Access для настольных ПК)
+title: VBScript (справочник по базе данных Access для настольных ПК)
 TOCTitle: VBScript
 ms:assetid: 070ae822-c0e4-3923-3a9c-69474981728b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248817(v=office.15)

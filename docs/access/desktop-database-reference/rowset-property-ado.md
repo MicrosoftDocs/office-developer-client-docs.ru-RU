@@ -18,28 +18,28 @@ ms.locfileid: "32306743"
 
 **Область применения**: Access 2013, Office 2013
 
-Получает или задает объект **набора строк** OLE DB from/On объекта **ADORecordsetConstruction** . При использовании параметра PUT\_набор строк включается в объект **Recordset** ADO.
+Получает или задает объект OLE DB **Rowset** из/объекта **ADORecordsetConstruction.** При использовании put \_ Rowset набор строк превращается в объект ADO **Recordset.**
 
 Для чтения и записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-HRESULT Get\_Rowset (\[out,\] IUnknown IUnknown\* \* ппровсет);
+HRESULT get \_ Rowset( \[ out, retval \] IUnknown \* \* ppRowset);
 
-HRESULT PUT\_Rowset (\[в\] интерфейсе IUnknown\* провсет);
+HRESULT put \_ Rowset( \[ in \] IUnknown \* pRowset);
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*ппровсет* |Указатель на объект **набора строк** OLE DB.|
-|*провсет* |Объект **набора строк** в OLE DB.|
+|*ppRowset* |Указатель на объект **rowset** OLE DB.|
+|*PRowset* |Объект OLE DB **Rowset.**|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Этот метод свойства возвращает стандартные значения HRESULT, включая S\_ОК и электронную\_ошибку.
+Этот метод свойства возвращает стандартные значения HRESULT, включая S \_ OK и E \_ FAIL.
 
-## <a name="applies-to"></a>Сфера применения
+## <a name="applies-to"></a>Область применения
 
 [ADORecordsetConstruction](adorecordsetconstruction-interface-ado.md)
 

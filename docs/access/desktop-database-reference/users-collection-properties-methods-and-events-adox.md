@@ -25,7 +25,7 @@ ms.locfileid: "32312763"
 
 ## <a name="methods"></a>Methods
 
-- [Метод Append (Users)](append-method-adox-users.md)
+- [Метод Append (Пользователи)](append-method-adox-users.md)
 - [Метод Delete (Collections)](delete-method-adox-collections.md)
 - [Метод Refresh](refresh-method-ado.md)
 

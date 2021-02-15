@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. Sort (DAO)
+title: Свойство Recordset2.Sort (DAO)
 TOCTitle: Sort Property
 ms:assetid: 523a8c29-46e2-564f-205d-03c214f277fe
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193917(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309271"
 ---
-# <a name="recordset2sort-property-dao"></a>Свойство Recordset2. Sort (DAO)
+# <a name="recordset2sort-property-dao"></a>Свойство Recordset2.Sort (DAO)
 
 **Область применения**: Access 2013, Office 2013 
 
-Задает или возвращает порядок сортировки для записей в объекте ** [Recordset](recordset-object-dao.md) ** (только для рабочих областей Microsoft Access).
+Задает или возвращает порядок сортировки для записей в объекте **[Recordset](recordset-object-dao.md)** (только для рабочих областей Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
 *expression* .Sort
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="remarks"></a>Комментарии
 

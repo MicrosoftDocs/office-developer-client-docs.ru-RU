@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. ParentRecordset (DAO)
+title: Свойство Recordset2.ParentRecordset (DAO)
 TOCTitle: ParentRecordset Property
 ms:assetid: 816cc92e-e530-6ca6-65b0-3165221835a6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196492(v=office.15)
@@ -18,12 +18,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309079"
 ---
-# <a name="recordset2parentrecordset-property-dao"></a>Свойство Recordset2. ParentRecordset (DAO)
+# <a name="recordset2parentrecordset-property-dao"></a>Свойство Recordset2.ParentRecordset (DAO)
 
 
 **Область применения**: Access 2013, Office 2013 
 
-Возвращает родительский **набор записей** указанного набора записей. Только для чтения.
+Возвращает родительский **набор записей** указанного наборов записей. Только для чтения.
 
 ## <a name="version-information"></a>Сведения о версии
 
@@ -31,11 +31,11 @@ ms.locfileid: "32309079"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . ParentRecordset
+*выражение .* ParentRecordset
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Свойство **ParentRecordset** возвращает **значение NULL** , если указанный объект Recordset не представляет Многозначное поле.
+Свойство **ParentRecordset** возвращает **значение NULL,** если задаваемая запись не представляет много значение поля.
 

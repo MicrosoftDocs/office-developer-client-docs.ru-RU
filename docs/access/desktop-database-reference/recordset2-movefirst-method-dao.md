@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. MoveFirst (DAO)
+title: Метод Recordset2.MoveFirst (DAO)
 TOCTitle: MoveFirst Method
 ms:assetid: 74b186d0-8f6a-d136-a563-04f58d67b122
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195879(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309662"
 ---
-# <a name="recordset2movefirst-method-dao"></a>Метод Recordset2. MoveFirst (DAO)
+# <a name="recordset2movefirst-method-dao"></a>Метод Recordset2.MoveFirst (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -25,7 +25,7 @@ ms.locfileid: "32309662"
 
 *expression* .MoveFirst
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="remarks"></a>Комментарии
 

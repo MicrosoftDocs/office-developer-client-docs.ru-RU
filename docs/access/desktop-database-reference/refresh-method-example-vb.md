@@ -19,7 +19,7 @@ ms.locfileid: "32307102"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется использование метода [Refresh](refresh-method-ado.md) для обновления коллекции [Parameters](parameters-collection-ado.md) для объекта [Command](command-object-ado.md) хранимой процедуры.
+В этом примере показано использование метода [Refresh](refresh-method-ado.md) для обновления коллекции [Parameters](parameters-collection-ado.md) для сохраненного объекта [command](command-object-ado.md) процедуры.
 
 ```vb 
  

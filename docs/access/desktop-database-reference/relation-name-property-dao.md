@@ -1,5 +1,5 @@
 ---
-title: Свойство Relation.Name (DAO)
+title: Relation.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 7ad17dcd-9fe2-a4b0-2fab-c5b13e66fedc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196187(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307059"
 ---
-# <a name="relationname-property-dao"></a>Свойство Relation.Name (DAO)
+# <a name="relationname-property-dao"></a>Relation.Name (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает или задает имя указанного объекта. **Строка** для чтения и записи, если объект не был добавлен в коллекцию. **Строка** , доступная только для чтения, если объект добавлен в коллекцию.
+Возвращает или задает имя указанного объекта. Строка **чтения** и записи, если объект не был appended к коллекции. Строка только **для** чтения, если объект был appended к коллекции.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Расширением
+*выражение .* Имя
 
-*Expression (выражение* ) Переменная, представляющая объект **связи** .
+*выражение* Переменная, представляюная объект **Relation.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Максимальная длина имени объекта **отношения** составляет 64 символов.
+Максимальная длина имени объекта **Relation** составляет 64 символа.
 

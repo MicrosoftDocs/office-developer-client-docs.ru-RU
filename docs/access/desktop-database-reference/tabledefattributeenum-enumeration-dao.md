@@ -1,5 +1,5 @@
 ---
-title: Перечисление Табледефаттрибутинум (DAO)
+title: TableDefAttributeEnum enumeration (DAO)
 TOCTitle: TableDefAttributeEnum Enumeration
 ms:assetid: 5a0dea24-9092-1642-a3d9-29f0de0a4ee4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194433(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314240"
 ---
-# <a name="tabledefattributeenum-enumeration-dao"></a>Перечисление Табледефаттрибутинум (DAO)
+# <a name="tabledefattributeenum-enumeration-dao"></a>TableDefAttributeEnum enumeration (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется вместе со свойством **Attributes** для определения атрибутов объекта **tabledef** .
+Используется со **свойством Attributes** для определения атрибутов объекта **TableDef.**
 
 <table>
 <colgroup>
@@ -36,33 +36,33 @@ ms.locfileid: "32314240"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>дбаттачедодбк</p></td>
+<td><p>dbAttachedODBC</p></td>
 <td><p>536870912</p></td>
 <td><p>Связанная таблица базы данных ODBC.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбаттачедтабле</p></td>
+<td><p>dbAttachedTable</p></td>
 <td><p>1073741824</p></td>
-<td><p>Связанная таблица базы данных, отличная от ODBC.</p></td>
+<td><p>Связанная таблица базы данных, не связанная с ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбаттачексклусиве</p></td>
+<td><p>dbAttachExclusive</p></td>
 <td><p>65536</p></td>
-<td><p>Открывает связанную таблицу ядра СУБД Microsoft Access для монопольного использования.</p></td>
+<td><p>Открывает связанную таблицу яд баз данных Microsoft Access для монопольного использования.</p></td>
 </tr>
 <tr class="even">
-<td><p>дбаттачсавепвд</p></td>
+<td><p>dbAttachSavePWD</p></td>
 <td><p>131072</p></td>
-<td><p>Сохраняет идентификатор пользователя и пароль для связанной удаленной таблицы.</p></td>
+<td><p>Сохраняет код пользователя и пароль для связанной удаленной таблицы.</p></td>
 </tr>
 <tr class="odd">
-<td><p>дбхидденобжект</p></td>
-<td><p>1,1</p></td>
+<td><p>dbHiddenObject</p></td>
+<td><p>1 </p></td>
 <td><p>Скрытая таблица (для временного использования).</p></td>
 </tr>
 <tr class="even">
-<td><p>дбсистемобжект</p></td>
-<td><p>— 2147483646</p></td>
+<td><p>dbSystemObject</p></td>
+<td><p>-2147483646</p></td>
 <td><p>Системная таблица.</p></td>
 </tr>
 </tbody>

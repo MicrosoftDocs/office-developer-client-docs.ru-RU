@@ -24,25 +24,25 @@ ms.locfileid: "32306799"
 **Область применения**: Access 2013, Office 2013
 
 
-Вы можете использовать действие **Макрокоманда removealltempvars** , чтобы удалить все временные переменные, созданные с помощью действия **Макрокоманда SetTempVar** .
+С помощью действия **RemoveAllTempVars** можно удалить все временные переменные, созданные с помощью действия **SetTempVar.**
 
-## <a name="setting"></a>Параметр
+## <a name="setting"></a>Setting
 
-Действие **Макрокоманда removealltempvars** не имеет аргументов.
+Действие **RemoveAllTempVars** не имеет аргументов.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-  - Одновременно может быть определено до 255 временных переменных. Если не удалить временную переменную, она останется в памяти до тех пор, пока не будет закрыта база данных или проект. Рекомендуется удалять временные переменные после завершения их использования.
+  - Одновременно можно определить до 255 временных переменных. Если не удалить временную переменную, она останется в памяти до закрытия базы данных или проекта. По завершению использования временных переменных лучше удалить.
 
   - Access автоматически удаляет все временные переменные при закрытии базы данных или проекта.
 
-  - Чтобы удалить одну временную переменную, используйте действие **Макрокоманда removetempvar** и задайте для аргумента имя удаляемой временной переменной.
+  - Чтобы удалить одну временную переменную, используйте действие **RemoveTempVar** и установите его аргумент в качестве имени временной переменной, которая будет удаляться.
 
-  - Чтобы выполнить действие **Макрокоманда removealltempvars** в модуле VBA, используйте метод **RemoveAll** объекта **TempVars** .
+  - Чтобы запустить действие **RemoveAllTempVars** в модуле VBA, используйте метод **RemoveAll** объекта **TempVars.**
 
 ## <a name="example"></a>Пример
 
-В следующем макросе показано, как создать временную переменную, использовать ее в условии и окне сообщения, а затем удалить временную переменную с помощью действия **Макрокоманда removealltempvars** .
+В следующем макросе показано, как создать временную переменную, использовать ее в условии и в окне сообщения, а затем удалить временную переменную с помощью действия **RemoveAllTempVars.**
 
 <table>
 <colgroup>
@@ -52,7 +52,7 @@ ms.locfileid: "32306799"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Условие</p></th>
+<th><p>Condition</p></th>
 <th><p>Action</p></th>
 <th><p>Аргументы</p></th>
 </tr>
@@ -60,17 +60,17 @@ ms.locfileid: "32306799"
 <tbody>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Макрокоманда SetTempVar</strong></p></td>
-<td><p><strong>Name</strong>:<strong>выражение</strong>мивар: InputBox (&quot;введите ненулевое значение).&quot;</p></td>
+<td><p><strong>SetTempVar</strong></p></td>
+<td><p><strong>Name</strong>: MyVar<strong>Expression</strong>: InputBox( &quot; Enter a non-zero number. &quot; )</p></td>
 </tr>
 <tr class="even">
-<td><p>[TempVars]! [Мивар] &lt; &gt;0</p></td>
+<td><p>[TempVars]! [MyVar] &lt; &gt; 0</p></td>
 <td><p><strong>MessageBox</strong></p></td>
-<td><p><strong>Сообщение</strong>: =&quot;вы ввели &quot; &amp; [TempVars]! [Мивар] &amp; &quot;. &quot; <strong>Гудок</strong>: <strong>естипе</strong>: <strong>Information</strong></p></td>
+<td><p><strong>Message</strong>: = &quot; You entered &quot; &amp; [TempVars]![ MyVar] &amp; &quot; . &quot; <strong>Beep</strong>: <strong>YesType</strong>: <strong>Information</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p></p></td>
-<td><p><strong>Макрокоманда removealltempvars</strong></p></td>
+<td><p><strong>RemoveAllTempVars</strong></p></td>
 <td><p></p></td>
 </tr>
 </tbody>

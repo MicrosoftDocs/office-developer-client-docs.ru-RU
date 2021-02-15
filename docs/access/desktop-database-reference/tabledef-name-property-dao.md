@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef.Name (DAO)
+title: TableDef.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 66b751ee-cf8a-a1f2-c646-6124e5f18cd0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195226(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308395"
 ---
-# <a name="tabledefname-property-dao"></a>Свойство TableDef.Name (DAO)
+# <a name="tabledefname-property-dao"></a>TableDef.Name (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,11 +23,11 @@ ms.locfileid: "32308395"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Расширением
+*выражение .* Имя
 
 *выражение*: переменная, представляющая объект **TableDef**.
 
 ## <a name="remarks"></a>Комментарии
 
-Максимальная длина имени объекта **tabledef** составляет 64 символов.
+Максимальная длина имени объекта **TableDef** составляет 64 символа.
 

@@ -19,7 +19,7 @@ ms.locfileid: "32313610"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется метод [UpdateBatch](updatebatch-method-ado.md) в сочетании с методом [CancelBatch](cancelbatch-method-ado.md) .
+В этом примере демонстрируется метод [UpdateBatch](updatebatch-method-ado.md) в сочетании с [методом CancelBatch.](cancelbatch-method-ado.md)
 
 ```cpp 
  
@@ -244,7 +244,7 @@ void PrintComError(_com_error &e)
 // EndUpdateBatchCpp 
 ```
 
-**Упдатебатчкс. h**
+**UpdateBatchX.h**
 
 ```cpp 
  

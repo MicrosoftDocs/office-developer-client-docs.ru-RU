@@ -1,5 +1,5 @@
 ---
-title: Свойство TableDef. ValidationText (DAO)
+title: Свойство TableDef.ValidationText (DAO)
 TOCTitle: ValidationText Property
 ms:assetid: 9f38616a-41ee-cbd1-9e29-da436b258e08
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198366(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314247"
 ---
-# <a name="tabledefvalidationtext-property-dao"></a>Свойство TableDef. ValidationText (DAO)
+# <a name="tabledefvalidationtext-property-dao"></a>Свойство TableDef.ValidationText (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,11 +23,11 @@ ms.locfileid: "32314247"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . ValidationText
+*выражение .* ValidationText
 
 *выражение*: переменная, представляющая объект **TableDef**.
 
 ## <a name="remarks"></a>Комментарии
 
-Для объекта **[tabledef](tabledef-object-dao.md)** это свойство доступно только для чтения для связанной таблицы, а для базовой таблицы — для чтения и записи.
+Для объекта **[TableDef](tabledef-object-dao.md)** этот параметр свойства является "только чтением" для связанной таблицы и чтением и написанием для базовой таблицы.
 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. не ПОИСКПОЗ (DAO)
+title: Свойство Recordset2.NoMatch (DAO)
 TOCTitle: NoMatch Property
 ms:assetid: 2d7a02ff-a2bf-5f0e-bd71-a6d42c25b13a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192114(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309396"
 ---
-# <a name="recordset2nomatch-property-dao"></a>Свойство Recordset2. не ПОИСКПОЗ (DAO)
+# <a name="recordset2nomatch-property-dao"></a>Свойство Recordset2.NoMatch (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -24,7 +24,7 @@ ms.locfileid: "32309396"
 
 *expression* .NoMatch
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="remarks"></a>Комментарии
 

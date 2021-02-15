@@ -1,5 +1,5 @@
 ---
-title: Метод TableDef. RefreshLink (DAO)
+title: Метод TableDef.RefreshLink (DAO)
 TOCTitle: RefreshLink Method
 ms:assetid: 9f0059c6-3b7b-57e3-7527-ef674ad9417d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198349(v=office.15)
@@ -18,27 +18,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32314282"
 ---
-# <a name="tabledefrefreshlink-method-dao"></a>Метод TableDef. RefreshLink (DAO)
+# <a name="tabledefrefreshlink-method-dao"></a>Метод TableDef.RefreshLink (DAO)
 
 **Область применения**: Access 2013, Office 2013
  
-Обновляет сведения о подключении для связанной таблицы (только для рабочих областей Microsoft Access).
+Обновляет сведения о под подключениях для связанной таблицы (только для рабочей области Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . RefreshLink
+*выражение .* RefreshLink
 
 *выражение*: переменная, представляющая объект **TableDef**.
 
 ## <a name="remarks"></a>Комментарии
 
-Чтобы изменить сведения о соединении для связанной таблицы, сбросьте свойство **[Connect](connection-connect-property-dao.md)** соответствующего объекта **tabledef** , а затем используйте метод **RefreshLink** для обновления данных. При использовании метода **RefreshLink** свойства и объекты **[связи](relation-object-dao.md)** связанной таблицы не изменяются.
+Чтобы изменить сведения о подключении для связанной таблицы, сбросите свойство **[Connect](connection-connect-property-dao.md)** соответствующего объекта **TableDef** и используйте метод **RefreshLink** для обновления информации. Использование **метода RefreshLink** не меняет свойства связанной таблицы и **[объекты relation.](relation-object-dao.md)**
 
-Чтобы эти сведения о подключении существовали во всех коллекциях, связанных с объектом **tabledef** , представляющим связанную таблицу, необходимо использовать метод **[Refresh](tabledefs-refresh-method-dao.md)** для каждой коллекции.
+Чтобы эти сведения о подвязке существовали во всех коллекциях, связанных с объектом **TableDef,** который представляет связанную таблицу, необходимо использовать метод **[Refresh](tabledefs-refresh-method-dao.md)** для каждой коллекции.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется метод **RefreshLink** для обновления данных в связанной таблице после того, как подключение было изменено с одного источника данных на другой. Для выполнения этой процедуры требуется процедура Рефрешлинкаутпут.
+В этом примере метод **RefreshLink** используется для обновления данных в связанной таблице после того, как его подключение было изменено с одного источника данных на другой. Процедура RefreshLinkOutput необходима для запуска этой процедуры.
 
 ```vb 
 Sub RefreshLinkX() 

@@ -1,5 +1,5 @@
 ---
-title: Методы рабочих областей (DAO)
+title: Методы Workspaces (DAO)
 TOCTitle: Methods
 ms:assetid: f664a3b9-e381-4eb7-8abf-314b71be9fb7
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180120(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308318"
 ---
-# <a name="workspaces-methods-dao"></a>Методы рабочих областей (DAO)
+# <a name="workspaces-methods-dao"></a>Методы Workspaces (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Метод workspaces. append (DAO)](workspaces-append-method-dao.md)
-- [Метод workspaces. Delete (DAO)](workspaces-delete-method-dao.md)
-- [Метод workspaces. Refresh (DAO)](workspaces-refresh-method-dao.md)
+- [Метод Workspaces.Append (DAO)](workspaces-append-method-dao.md)
+- [Метод Workspaces.Delete (DAO)](workspaces-delete-method-dao.md)
+- [Метод Workspaces.Refresh (DAO)](workspaces-refresh-method-dao.md)
 

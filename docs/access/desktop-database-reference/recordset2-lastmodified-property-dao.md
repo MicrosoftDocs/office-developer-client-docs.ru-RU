@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. LastModified (DAO)
+title: Свойство Recordset2.LastModified (DAO)
 TOCTitle: LastModified Property
 ms:assetid: 1c13cb43-23b5-73b6-af00-a3676cc37cc7
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845726(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309430"
 ---
-# <a name="recordset2lastmodified-property-dao"></a>Свойство Recordset2. LastModified (DAO)
+# <a name="recordset2lastmodified-property-dao"></a>Свойство Recordset2.LastModified (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,13 +23,13 @@ ms.locfileid: "32309430"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Дата
+*выражение .* LastModified
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Можно использовать свойство **LastModified** для перехода к последнему добавленной или обновленной записи. Используйте свойство **LastModified** с объектами **[Recordset](recordset-object-dao.md)** типа Table и динамического подмножества. Для свойства LastModified в самом объекте **Recordset** необходимо добавить или изменить запись, чтобы свойство **LastModified** было иметь значение.
+Свойство **LastModified** можно использовать для перемещения к последней добавленной или обновленной записи. Используйте свойство **LastModified** с объектами Recordset табли и типа dynaset. **[](recordset-object-dao.md)** Запись должна быть добавлена или изменена в самом объекте **Recordset,** чтобы свойство **LastModified** было иметь значение.
 
 ## <a name="example"></a>Пример
 

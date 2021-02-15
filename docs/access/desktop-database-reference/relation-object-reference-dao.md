@@ -19,7 +19,7 @@ ms.locfileid: "32307009"
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Relation (DAO)](relation-object-dao.md)
-- [Элементы отношений (DAO)](relation-members-dao.md)
-- [Свойства связи (DAO)](relation-properties-dao.md)
-- [Методы связи (DAO)](relation-methods-dao.md)
+- [Relation members (DAO)](relation-members-dao.md)
+- [Свойства relation (DAO)](relation-properties-dao.md)
+- [Relation methods (DAO)](relation-methods-dao.md)
 

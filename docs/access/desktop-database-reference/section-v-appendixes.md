@@ -18,7 +18,7 @@ ms.locfileid: "32308766"
 
 **Область применения**: Access 2013, Office 2013
 
-Руководство программиста по ADO содержит следующие приложения:
+Руководство программиста ADO содержит следующие приложения:
 
 - [Appendix A: Providers](appendix-a-providers.md)
 - [Приложение Б. Ошибки ADO](appendix-b-ado-errors.md)

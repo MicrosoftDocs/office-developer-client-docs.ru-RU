@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. Edit (DAO)
+title: Метод Recordset2.Edit (DAO)
 TOCTitle: Edit method
 ms:assetid: 34c51eee-274d-3511-b5e2-cb74e4925ec8
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192452(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309438"
 ---
-# <a name="recordset2edit-method-dao"></a>Метод Recordset2. Edit (DAO)
+# <a name="recordset2edit-method-dao"></a>Метод Recordset2.Edit (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ ms.locfileid: "32309438"
 
 *выражение* .Edit
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="remarks"></a>Примечания
 

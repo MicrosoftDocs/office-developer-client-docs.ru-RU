@@ -1,5 +1,5 @@
 ---
-title: Свойство Recordset2. EOF (DAO)
+title: Свойство Recordset2.EOF (DAO)
 TOCTitle: EOF Property
 ms:assetid: 9d4e1ee2-e866-3ebf-e08b-b31b0cb47ed9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff198245(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309445"
 ---
-# <a name="recordset2eof-property-dao"></a>Свойство Recordset2. EOF (DAO)
+# <a name="recordset2eof-property-dao"></a>Свойство Recordset2.EOF (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -29,7 +29,7 @@ ms.locfileid: "32309445"
 
 *выражение*.EOF
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="remarks"></a>Комментарии
 

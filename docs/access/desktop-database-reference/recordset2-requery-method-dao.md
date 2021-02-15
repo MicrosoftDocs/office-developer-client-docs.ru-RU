@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. Requery (DAO)
+title: Метод Recordset2.Requery (DAO)
 TOCTitle: Requery Method
 ms:assetid: d063c1e0-2fb7-b5cf-4d98-6f77a5a13cec
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834712(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307212"
 ---
-# <a name="recordset2requery-method-dao"></a>Метод Recordset2. Requery (DAO)
+# <a name="recordset2requery-method-dao"></a>Метод Recordset2.Requery (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -28,7 +28,7 @@ ms.locfileid: "32307212"
 
 *выражение* .Requery(***NewQueryDef***)
 
-*Expression (выражение* ) Переменная, представляющая объект **Recordset2** .
+*выражение* Переменная, представляюная объект **Recordset2.**
 
 ## <a name="parameters"></a>Параметры
 

@@ -1,5 +1,5 @@
 ---
-title: Метод Recordset2. Cancel (DAO)
+title: Метод Recordset2.Cancel (DAO)
 TOCTitle: Cancel Method
 ms:assetid: cae49f36-3aad-80d8-c15f-a7a584aa2e9b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834366(v=office.15)
@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307415"
 ---
-# <a name="recordset2cancel-method-dao"></a>Метод Recordset2. Cancel (DAO)
+# <a name="recordset2cancel-method-dao"></a>Метод Recordset2.Cancel (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Отмена
+*выражение .* Отмена
 
-*Expression (выражение* ) Выражение, возвращающее объект **Recordset2** .
+*выражение* Выражение, которое возвращает **объект Recordset2.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Используйте метод **Cancel** для завершения выполнения асинхронного вызова метода **EXECUTE** или **OpenConnection** (то есть метод вызывается с помощью параметра дбрунасинк). **Отмена** возвращает ошибку времени выполнения, если дбрунасинк не использовался в методе, который вы пытаетесь завершить.
+Используйте метод **Cancel,** чтобы завершить выполнение асинхронного вызова метода **Execute** или **OpenConnection** (то есть метод был вызван с помощью параметра dbRunAsync). **Отмена** возвращает ошибку времени запуска, если dbRunAsync не использовался в методе, который вы пытаетесь завершить.
 

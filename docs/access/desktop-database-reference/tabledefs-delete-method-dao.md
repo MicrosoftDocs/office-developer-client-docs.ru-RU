@@ -1,5 +1,5 @@
 ---
-title: Методы TableDef. Delete (DAO)
+title: Метод TableDefs.Delete (DAO)
 TOCTitle: Delete Method
 ms:assetid: 130bb50d-17c3-b2ab-9360-0d91d0cee131
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845419(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32313995"
 ---
-# <a name="tabledefsdelete-method-dao"></a>Методы TableDef. Delete (DAO)
+# <a name="tabledefsdelete-method-dao"></a>Метод TableDefs.Delete (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Удаляет указанный объект **tabledef** из коллекции **tabledef** .
+Удаляет указанный объект **TableDef** из коллекции **TableDefs.**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Delete (***имя***)
+*выражение .* ***Delete(Name)***
 
-*Expression (выражение* ) Переменная, представляющая объект **TableDefs** .
+*выражение* Переменная, представляюная объект **TableDefs.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -47,14 +47,14 @@ ms.locfileid: "32313995"
 <tr class="odd">
 <td><p><em>Name</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Имя объекта TableDef, который необходимо удалить.</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Имя TableDef, который требуется удалить.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Метод Delete поддерживается только в том случае, если объект **tabledef** является новым и не был добавлен в базу данных, или если для **свойства объекта** **tabledef** задано значение **true**.
+Метод Delete поддерживается только в том случае, если объект **TableDef** является новым и не был appended к базе данных, или если для свойства **Updatable** **tableDef** задано true **.**
 
