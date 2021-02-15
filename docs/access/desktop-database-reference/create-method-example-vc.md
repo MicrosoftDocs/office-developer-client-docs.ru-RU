@@ -19,7 +19,7 @@ ms.locfileid: "32295409"
 
 **Область применения**: Access 2013, Office 2013
 
-В приведенном ниже коде показано, как создать новую базу данных Microsoft Jet с помощью метода [CREATE](create-method-adox.md) .
+В следующем коде показано, как создать новую базу данных Microsoft Jet с помощью метода [Create.](create-method-adox.md)
 
 ```cpp 
  

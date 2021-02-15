@@ -1,5 +1,5 @@
 ---
-title: Едитмодинум (Справочник по базам данных Access на компьютере)
+title: EditModeEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: EditModeEnum
 ms:assetid: 4da0e504-aca2-b769-04a2-0df687fa4422
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249248(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32293583"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает состояние редактирования записи.
+Указывает состояние редактирования записи.
 
 <br/>
 
@@ -37,22 +37,22 @@ ms.locfileid: "32293583"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адедитноне</strong></p></td>
-<td><p>нуль</p></td>
-<td><p>Указывает, что операции редактирования не выполняются.</p></td>
+<td><p><strong>adEditNone</strong></p></td>
+<td><p>0</p></td>
+<td><p>Указывает, что операция редактирования не идет.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адедитинпрогресс</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Указывает, что данные в текущей записи были изменены, но не были сохранены.</p></td>
+<td><p><strong>adEditInProgress</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Указывает, что данные в текущей записи были изменены, но не сохранены.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адедитадд</strong></p></td>
-<td><p>2</p></td>
-<td><p>Указывает на то, что метод <a href="addnew-method-ado.md">AddNew</a> вызван, а текущая запись в буфере копии — это новая запись, которая не была сохранена в базе данных.</p></td>
+<td><p><strong>adEditAdd</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Указывает, что метод <a href="addnew-method-ado.md">AddNew</a> был вызван, а текущая запись в буфере копирования — это новая запись, которая не была сохранена в базе данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адедитделете</strong></p></td>
+<td><p><strong>adEditDelete</strong></p></td>
 <td><p>4 </p></td>
 <td><p>Указывает, что текущая запись была удалена.</p></td>
 </tr>
@@ -62,7 +62,7 @@ ms.locfileid: "32293583"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -75,16 +75,16 @@ ms.locfileid: "32293583"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. EditMode. NONE</p></td>
+<td><p>AdoEnums.EditMode.NONE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. EditMode. невыполнение</p></td>
+<td><p>AdoEnums.EditMode.INPROGRESS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. EditMode. ADD</p></td>
+<td><p>AdoEnums.EditMode.ADD</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. EditMode. DELETE</p></td>
+<td><p>AdoEnums.EditMode.DELETE</p></td>
 </tr>
 </tbody>
 </table>

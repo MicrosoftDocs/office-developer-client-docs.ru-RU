@@ -1,5 +1,5 @@
 ---
-title: Коллекция Dimensions (ADO MD)
+title: Dimensions collection (ADO MD)
 TOCTitle: Dimensions collection (ADO MD)
 ms:assetid: 05aad447-e44c-3fe0-0995-c72539b2f896
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248812(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293842"
 ---
-# <a name="dimensions-collection-ado-md"></a>Коллекция Dimensions (ADO MD)
+# <a name="dimensions-collection-ado-md"></a>Dimensions collection (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Содержит объекты [измерения](dimension-object-ado-md.md) , составляющие куб.
+Содержит [объекты dimension,](dimension-object-ado-md.md) которые составляют куб.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-**Измерения** — это стандартная коллекция ADO. С помощью свойств и методов коллекции можно выполнить следующие действия:
+**Dimensions** — это стандартная коллекция ADO. С помощью свойств и методов коллекции можно сделать следующее:
 
-- Получите число объектов в коллекции со свойством [Count](count-property-ado.md) .
+- Получите количество объектов в коллекции с помощью свойства [Count.](count-property-ado.md)
 
-- Возвращает объект из коллекции со свойством [Item](item-property-ado.md) по умолчанию.
+- Возвращает объект из коллекции со свойством [Item по](item-property-ado.md) умолчанию.
 
-- Обновление объектов в коллекции от поставщика с помощью метода [Refresh](refresh-method-ado.md) .
+- Обновите объекты в коллекции от поставщика с помощью [метода Refresh.](refresh-method-ado.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Элементы Errors (DAO)
+title: Errors members (DAO)
 TOCTitle: Errors Members
 ms:assetid: 7e7eb080-16dc-c873-af80-6286222cd5b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196446(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293387"
 ---
-# <a name="errors-members-dao"></a>Элементы Errors (DAO)
+# <a name="errors-members-dao"></a>Errors members (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция Errors содержит все хранимые объекты Error, каждая из которых относится к одной операции, включающей в себя DAO.
+Коллекция Errors содержит все сохраненные объекты Error, каждый из которых относится к одной операции с DAO.
 
 ## <a name="methods"></a>Методы
 
@@ -36,8 +36,8 @@ ms.locfileid: "32293387"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="errors-refresh-method-dao.md">Обновление</a></strong></p></td>
-<td><p>Обновляет объекты в заданном коллетион в соответствии с текущей схемой базы данных.</p></td>
+<td><p><strong><a href="errors-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ ms.locfileid: "32293387"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="errors-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает число объектов в указанной коллекции. Только для чтения.</p></td>
+<td><p>Возвращает количество объектов в указанной коллекции. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

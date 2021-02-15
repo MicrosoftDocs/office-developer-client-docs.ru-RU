@@ -1,5 +1,5 @@
 ---
-title: Элементы Documents (DAO)
+title: Documents members (DAO)
 TOCTitle: Documents Members
 ms:assetid: 8d5ac520-28b5-744d-6e60-219ca48575c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197354(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293737"
 ---
-# <a name="documents-members-dao"></a>Элементы Documents (DAO)
+# <a name="documents-members-dao"></a>Documents members (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция Documents содержит все объекты документа для определенного типа объекта (только базы данных ядра СУБД Microsoft Access).
+Коллекция "Документы" содержит все объекты Document для определенного типа объекта (только для баз данных яд баз данных Microsoft Access).
 
 ## <a name="methods"></a>Методы
 
@@ -36,8 +36,8 @@ ms.locfileid: "32293737"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="documents-refresh-method-dao.md">Обновление</a></strong></p></td>
-<td><p>Обновляет объекты в заданном коллетион в соответствии с текущей схемой базы данных.</p></td>
+<td><p><strong><a href="documents-refresh-method-dao.md">Refresh</a></strong></p></td>
+<td><p>Обновляет объекты в указанном совмещение, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ ms.locfileid: "32293737"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="documents-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает число объектов в указанной коллекции. Только для чтения.</p></td>
+<td><p>Возвращает количество объектов в указанной коллекции. Только для чтения.</p></td>
 </tr>
 </tbody>
 </table>

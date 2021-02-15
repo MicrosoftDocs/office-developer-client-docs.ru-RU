@@ -1,5 +1,5 @@
 ---
-title: Свойство Database. Рекордсаффектед (DAO)
+title: Свойство Database.RecordsAffected (DAO)
 TOCTitle: RecordsAffected Property
 ms:assetid: 1c591231-21dd-f0b1-4ba6-87784c5890d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff845732(v=office.15)
@@ -14,22 +14,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294745"
 ---
-# <a name="databaserecordsaffected-property-dao"></a>Свойство Database. Рекордсаффектед (DAO)
+# <a name="databaserecordsaffected-property-dao"></a>Свойство Database.RecordsAffected (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает число записей, затронутых последним вызванным методом **[EXECUTE](connection-execute-method-dao.md)** .
+Возвращает количество записей, затронутых последним вызовом метода **[Execute.](connection-execute-method-dao.md)**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . рекордсаффектед
+*выражение .* RecordsAffected
 
 *выражение*: переменная, представляющая объект **Database**.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется свойство **рекордсаффектед** с запросами на изменение, выполненными из объекта **базы данных** и из объекта **QueryDef** . Для выполнения этой процедуры требуется функция Рекордсаффектедаутпут.
+В этом примере используется свойство **RecordsAffected** с запросами действий, которые выполняются из объекта **Database** и **из объекта QueryDef.** Для запуска этой процедуры требуется функция RecordsAffectedOutput.
 
 ```vb
     Sub RecordsAffectedX() 

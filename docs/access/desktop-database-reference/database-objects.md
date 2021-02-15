@@ -1,5 +1,5 @@
 ---
-title: Объекты базы данных (Справочник по базам данных Access на компьютере)
+title: Объекты базы данных (справочник по базам данных Access для настольных ПК)
 TOCTitle: Database objects
 ms:assetid: 7356a454-238a-4c16-b33c-d0c9385cfc9c
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161006(v=office.15)

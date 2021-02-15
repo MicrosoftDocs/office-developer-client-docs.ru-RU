@@ -1,5 +1,5 @@
 ---
-title: Свойство Database. QueryTimeout (DAO)
+title: Свойство Database.QueryTimeout (DAO)
 TOCTitle: QueryTimeout Property
 ms:assetid: c83ca852-715a-c853-429b-80a15c3fc39b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823170(v=office.15)
@@ -14,31 +14,31 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294740"
 ---
-# <a name="databasequerytimeout-property-dao"></a>Свойство Database. QueryTimeout (DAO)
+# <a name="databasequerytimeout-property-dao"></a>Свойство Database.QueryTimeout (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
 
-Задает или возвращает значение, задающее время ожидания в секундах до возникновения ошибки времени ожидания при выполнении запроса к источнику данных ODBC.
+Задает или возвращает значение, которое указывает количество секунд ожидания до возникновения ошибки времени ожидания при выполнении запроса в источнике данных ODBC.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . QueryTimeout
+*выражение .* QueryTimeout
 
 *выражение*: переменная, представляющая объект **Database**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
 Значение по умолчанию  60.
 
-При использовании базы данных ODBC, такой как Microsoft SQL Server, могут возникать задержки из-за сетевого трафика или интенсивного использования сервера ODBC. Вместо неопределенного периода ожидания можно указать время ожидания.
+При использовании базы данных ODBC, например Microsoft SQL Server, могут возникнуть задержки из-за сетевого трафика или интенсивного использования сервера ODBC. Вместо того чтобы ждать неопределенное время, можно указать время ожидания.
 
-При использовании **QueryTimeOut** с **[подключением](connection-object-dao.md)** или объектом **[базы данных](database-object-dao.md)** он задает глобальное значение для всех запросов, связанных с базой данных. Вы можете переопределить это значение для определенного запроса, задав свойство **ODBCTimeout** для определенного объекта **[QueryDef](querydef-object-dao.md)** .
+При использовании **QueryTimeout** с объектом **[Connection](connection-object-dao.md)** или **[Database](database-object-dao.md)** указывается глобальное значение для всех запросов, связанных с базой данных. Это значение можно переопрепредить для определенного запроса, задав свойство **ODBCTimeout** конкретного **[объекта QueryDef.](querydef-object-dao.md)**
 
 ## <a name="example"></a>Пример
 
-В этом примере используются свойства **ODBCTimeout** и **QueryTimeOut** , чтобы показать, как параметр **QueryTimeOut** в объекте **Database** задает значение по умолчанию **ODBCTimeout** для объектов **QueryDef** , созданных из объекта **Database** .
+В этом примере используются свойства **ODBCTimeout** и **QueryTimeout,** чтобы показать, как параметр **QueryTimeout** для объекта **Database** задает параметр **ODBCTimeout** по умолчанию для любых объектов **QueryDef,** созданных из объекта **Database.**
 
 ```vb 
 Sub ODBCTimeoutX() 

@@ -1,5 +1,5 @@
 ---
-title: Действия с данными (Справочник по базам данных Access на компьютере)
+title: Действия с данными (справочник по базам данных Access для настольных пк)
 TOCTitle: Data actions
 ms:assetid: f6ec7193-9693-4543-bdc7-569d60f59185
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180129(v=office.15)

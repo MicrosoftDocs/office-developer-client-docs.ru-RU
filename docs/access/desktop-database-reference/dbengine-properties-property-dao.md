@@ -1,5 +1,5 @@
 ---
-title: Свойство DBEngine. Properties (DAO)
+title: Свойство DBEngine.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 603e1bd9-53e5-00cd-f6a7-c3dac7c0ff1a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194802(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294241"
 ---
-# <a name="dbengineproperties-property-dao"></a>Свойство DBEngine. Properties (DAO)
+# <a name="dbengineproperties-property-dao"></a>Свойство DBEngine.Properties (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32294241"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Параметры
+*выражение .* Свойства
 
 *expression*: переменная, представляющая объект **DBEngine**.
 

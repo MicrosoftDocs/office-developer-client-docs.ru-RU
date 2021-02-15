@@ -1,5 +1,5 @@
 ---
-title: Свойство Database. Recordsets (DAO)
+title: Свойство Database.Recordsets (DAO)
 TOCTitle: Recordsets Property
 ms:assetid: e2ee02bc-d53a-2bec-2c5b-227979b92332
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835730(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294766"
 ---
-# <a name="databaserecordsets-property-dao"></a>Свойство Database. Recordsets (DAO)
+# <a name="databaserecordsets-property-dao"></a>Свойство Database.Recordsets (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **Recordset** , содержащую все открытые наборы записей в указанной базе данных. Только для чтения.
+Возвращает **коллекцию Recordsets,** которая содержит все открытые наборы записей в указанной базе данных. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Recordsets
+*выражение .* Recordsets
 
 *выражение*: переменная, представляющая объект **Database**.
 

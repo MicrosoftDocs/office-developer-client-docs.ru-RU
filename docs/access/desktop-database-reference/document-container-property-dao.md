@@ -1,5 +1,5 @@
 ---
-title: Свойство Document. Container (DAO)
+title: Свойство Document.Container (DAO)
 TOCTitle: Container Property
 ms:assetid: aa1ace1d-f0b8-e0b0-20b6-d3e296254c51
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821451(v=office.15)
@@ -18,22 +18,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293828"
 ---
-# <a name="documentcontainer-property-dao"></a>Свойство Document. Container (DAO)
+# <a name="documentcontainer-property-dao"></a>Свойство Document.Container (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает имя объекта **[контейнера](container-object-dao.md)** , к которому принадлежит объект **Document** (только для рабочих областей Microsoft Access). .
+Возвращает имя **[объекта-контейнера,](container-object-dao.md)** которому принадлежит объект **Document** (только для рабочей области Microsoft Access). .
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Container
+*выражение .* Контейнер
 
-*Expression (выражение* ) Переменная, представляющая объект **Document** .
+*выражение* Переменная, представляюная объект **Document.**
 
 ## <a name="example"></a>Пример
 
-В этом примере отображается свойство **Container** для различных объектов **Document** .
+В этом примере отображается свойство **Container** для различных объектов **Document.**
 
 ```vb 
 Sub ContainerPropertyX() 

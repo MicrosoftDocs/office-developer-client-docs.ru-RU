@@ -1,5 +1,5 @@
 ---
-title: Перечисление Едитмодинум (DAO)
+title: Enumeration EditModeEnum (DAO)
 TOCTitle: EditModeEnum Enumeration
 ms:assetid: 738ab5b7-75dc-2e45-45f2-eb64cc7e9527
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195860(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293604"
 ---
-# <a name="editmodeenum-enumeration-dao"></a>Перечисление Едитмодинум (DAO)
+# <a name="editmodeenum-enumeration-dao"></a>Enumeration EditModeEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -36,19 +36,19 @@ ms.locfileid: "32293604"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>дбедитадд</p></td>
-<td><p>2</p></td>
-<td><p>Вызван метод <strong>AddNew</strong> .</p></td>
+<td><p>dbEditAdd</p></td>
+<td><p>2 </p></td>
+<td><p><strong>Вызван метод AddNew.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p>дбедитинпрогресс</p></td>
-<td><p>1,1</p></td>
-<td><p>Вызван метод <strong>Edit</strong> .</p></td>
+<td><p>dbEditInProgress</p></td>
+<td><p>1 </p></td>
+<td><p><strong>Вызван метод редактирования.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p>дбедитноне</p></td>
-<td><p>нуль</p></td>
-<td><p>Вызван метод <strong>Edit</strong> .</p></td>
+<td><p>dbEditNone</p></td>
+<td><p>0</p></td>
+<td><p><strong>Вызван метод редактирования.</strong></p></td>
 </tr>
 </tbody>
 </table>

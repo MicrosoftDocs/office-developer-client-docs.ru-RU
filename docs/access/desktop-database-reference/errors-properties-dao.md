@@ -18,5 +18,5 @@ ms.locfileid: "32293366"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство Errors. Count (DAO)](errors-count-property-dao.md)
+- [Свойство Errors.Count (DAO)](errors-count-property-dao.md)
 

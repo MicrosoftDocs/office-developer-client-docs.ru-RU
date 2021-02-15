@@ -1,5 +1,5 @@
 ---
-title: Свойство Database. обновляемое свойство (DAO)
+title: Свойство Database.Updatable (DAO)
 TOCTitle: Updatable Property
 ms:assetid: ffb2e3ca-9533-1daa-e60c-e46941497217
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff837316(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294668"
 ---
-# <a name="databaseupdatable-property-dao"></a>Свойство Database. обновляемое свойство (DAO)
+# <a name="databaseupdatable-property-dao"></a>Свойство Database.Updatable (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32294668"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Updatable
+*выражение .* Updatable
 
 *выражение*: переменная, представляющая объект **Database**.
 

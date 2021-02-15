@@ -1,5 +1,5 @@
 ---
-title: Курсороптионенум (Справочник по базам данных Access на компьютере)
+title: CursorOptionEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: CursorOptionEnum
 ms:assetid: 3c118c08-02f2-5290-1cef-29e97c35fddc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249155(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32295200"
 
 **Область применения**: Access 2013, Office 2013
 
-Определяет, для каких функциональных возможностей метод [поддерживает](supports-method-ado.md) проверку.
+Указывает, для каких [](supports-method-ado.md) функций должен тестироваться метод Supports.
 
 <br/>
 
@@ -37,69 +37,69 @@ ms.locfileid: "32295200"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>ададднев</strong></p></td>
+<td><p><strong>adAddNew</strong></p></td>
 <td><p>0x1000400</p></td>
-<td><p>Поддерживает метод <a href="addnew-method-ado.md">AddNew</a> для добавления новых записей.</p></td>
+<td><p>Поддерживает метод <a href="addnew-method-ado.md">AddNew для</a> добавления новых записей.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адаппрокспоситион</strong></p></td>
+<td><p><strong>adApproxPosition</strong></p></td>
 <td><p>0x4000</p></td>
-<td><p>Поддерживает свойства <a href="absoluteposition-property-ado.md">AbsolutePosition</a> и <a href="absolutepage-property-ado.md">AbsolutePage</a> .</p></td>
+<td><p>Поддерживает свойства <a href="absoluteposition-property-ado.md">AbsolutePosition</a> и <a href="absolutepage-property-ado.md">AbsolutePage.</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адбукмарк</strong></p></td>
+<td><p><strong>adBookmark</strong></p></td>
 <td><p>0x2000</p></td>
 <td><p>Поддерживает свойство <a href="bookmark-property-ado.md">Bookmark</a> для получения доступа к определенным записям.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адделете</strong></p></td>
+<td><p><strong>adDelete</strong></p></td>
 <td><p>0x1000800</p></td>
 <td><p>Поддерживает метод <a href="delete-method-ado-recordset.md">Delete</a> для удаления записей.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфинд</strong></p></td>
+<td><p><strong>adFind</strong></p></td>
 <td><p>0x80000</p></td>
-<td><p>Поддерживает метод <a href="find-method-ado.md">Find</a> , чтобы найти строку в <a href="recordset-object-ado.md">наборе записей</a>.</p></td>
+<td><p>Поддерживает метод <a href="find-method-ado.md">Find</a> для поиска строки в <a href="recordset-object-ado.md">наборе записей.</a></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адхолдрекордс</strong></p></td>
+<td><p><strong>adHoldRecords</strong></p></td>
 <td><p>0x100</p></td>
-<td><p>Получает дополнительные записи или изменяет следующее положение без фиксации всех ожидающих изменений.</p></td>
+<td><p>Извлекает больше записей или изменяет следующую позицию, не внося все ожидающие изменения.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адиндекс</strong></p></td>
+<td><p><strong>adIndex</strong></p></td>
 <td><p>0x100000</p></td>
-<td><p>Поддерживает свойство <a href="index-property-ado.md">index</a> для именования индекса.</p></td>
+<td><p>Поддерживает свойство <a href="index-property-ado.md">Index</a> для имен индекса.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адмовепревиаус</strong></p></td>
+<td><p><strong>adMovePrevious</strong></p></td>
 <td><p>0x200</p></td>
-<td><p>Поддерживает методы <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a> и <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MovePrevious</a> , а также методы <a href="move-method-ado.md">Move</a> и <a href="getrows-method-ado.md">GetRows</a> для перемещения текущей позиции записи назад без использования закладок.</p></td>
+<td><p>Поддерживает методы <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MoveFirst</a> и <a href="movefirst-movelast-movenext-and-moveprevious-methods-ado.md">MovePrevious,</a> а также методы <a href="move-method-ado.md">Move</a> или <a href="getrows-method-ado.md">GetRows</a> для перемещения текущей записи в обратном направлении без закладки.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>аднотифи</strong></p></td>
+<td><p><strong>adNotify</strong></p></td>
 <td><p>0x40000</p></td>
-<td><p>Указывает, что базовый поставщик данных поддерживает уведомления (что определяет, поддерживаются ли события <strong>Recordset</strong> ).</p></td>
+<td><p>Указывает, что поставщик данных поддерживает уведомления (что определяет, поддерживаются ли события <strong>Recordset).</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адресинк</strong></p></td>
+<td><p><strong>adResync</strong></p></td>
 <td><p>0x20000</p></td>
-<td><p>Поддерживает метод <a href="resync-method-ado.md">Resync</a> для обновления курсора с использованием данных, которые отображаются в основной базе данных.</p></td>
+<td><p>Поддерживает метод <a href="resync-method-ado.md">Resync</a> для обновления курсора данными, видимыми в базе данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адсик</strong></p></td>
+<td><p><strong>adSeek</strong></p></td>
 <td><p>0x200000</p></td>
-<td><p>Поддерживает метод <a href="seek-method-ado.md">Seek</a> , чтобы найти строку в <strong>наборе записей</strong>.</p></td>
+<td><p>Поддерживает метод <a href="seek-method-ado.md">Seek</a> для поиска строки в <strong>наборе записей.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адупдате</strong></p></td>
+<td><p><strong>adUpdate</strong></p></td>
 <td><p>0x1008000</p></td>
 <td><p>Поддерживает метод <a href="update-method-ado.md">Update</a> для изменения существующих данных.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адупдатебатч</strong></p></td>
+<td><p><strong>adUpdateBatch</strong></p></td>
 <td><p>0x10000</p></td>
-<td><p>Поддерживает пакетное обновление (методы<a href="updatebatch-method-ado.md">UpdateBatch</a> и <a href="cancelbatch-method-ado.md">CancelBatch</a> ) для передачи групп изменений поставщику.</p></td>
+<td><p>Поддерживает пакетное обновление<a href="updatebatch-method-ado.md">(методы UpdateBatch</a> и <a href="cancelbatch-method-ado.md">CancelBatch)</a> для передачи групп изменений поставщику.</p></td>
 </tr>
 </tbody>
 </table>
@@ -107,7 +107,7 @@ ms.locfileid: "32295200"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -120,43 +120,43 @@ ms.locfileid: "32295200"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Курсороптион. ADDNEW</p></td>
+<td><p>AdoEnums.CursorOption.ADDNEW</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Курсороптион. АППРОКСПОСИТИОН</p></td>
+<td><p>AdoEnums.CursorOption.APPROXPOSITION</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Курсороптион. BOOKMARK</p></td>
+<td><p>AdoEnums.CursorOption.BOOKMARK</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Курсороптион. DELETE</p></td>
+<td><p>AdoEnums.CursorOption.DELETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Курсороптион. FIND</p></td>
+<td><p>AdoEnums.CursorOption.FIND</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Курсороптион. ХОЛДРЕКОРДС</p></td>
+<td><p>AdoEnums.CursorOption.HOLDRECORDS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Курсороптион. INDEX</p></td>
+<td><p>AdoEnums.CursorOption.INDEX</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Курсороптион. MOVEPREVIOUS</p></td>
+<td><p>AdoEnums.CursorOption.MOVEPREVIOUS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Курсороптион. NOTIFY</p></td>
+<td><p>AdoEnums.CursorOption.NOTIFY</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Курсороптион. Resync</p></td>
+<td><p>AdoEnums.CursorOption.RESYNC</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Курсороптион. SEEK</p></td>
+<td><p>AdoEnums.CursorOption.SEEK</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Курсороптион. UPDATE</p></td>
+<td><p>AdoEnums.CursorOption.UPDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Курсороптион. UPDATEBATCH</p></td>
+<td><p>AdoEnums.CursorOption.UPDATEBATCH</p></td>
 </tr>
 </tbody>
 </table>

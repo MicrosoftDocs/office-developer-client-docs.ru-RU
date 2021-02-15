@@ -1,5 +1,5 @@
 ---
-title: Пример свойств Description, HelpContext, HelpFile (VC + +)
+title: Пример свойств Description, HelpContext и HelpFile (VC++)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VC++)
 ms:assetid: 1375a0e6-c61b-aba5-4d7c-5db597ef873e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248908(v=office.15)
@@ -19,7 +19,7 @@ ms.locfileid: "32293954"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md)и [SQLSTATE](sqlstate-property-ado.md) полученного объекта [Error](error-object-ado.md) .
+В этом примере вызывается ошибка, она ловка и [](error-object-ado.md) отображаются свойства [Description,](description-property-ado.md) [HelpContext,](helpcontext-helpfile-properties-ado.md) [HelpFile,](helpcontext-helpfile-properties-ado.md) [NativeError,](nativeerror-property-ado.md) [Number,](number-property-ado.md) [Source](source-property-ado-error.md)и [SQLState](sqlstate-property-ado.md) итоговой ошибки.
 
 ```cpp
     // BeginDescriptionCpp

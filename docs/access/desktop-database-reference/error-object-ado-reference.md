@@ -19,5 +19,5 @@ ms.locfileid: "32293492"
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Error (ADO)](error-object-ado.md)
-- [Свойства, методы и события ошибок (ADO)](error-properties-methods-and-events-ado.md)
+- [Error properties, methods, and events (ADO)](error-properties-methods-and-events-ado.md)
 

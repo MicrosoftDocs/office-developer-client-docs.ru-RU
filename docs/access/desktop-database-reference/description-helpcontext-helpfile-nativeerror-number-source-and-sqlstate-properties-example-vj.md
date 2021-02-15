@@ -1,5 +1,5 @@
 ---
-title: Пример свойств Description, HelpContext, HelpFile (VJ + +)
+title: Пример свойств Description, HelpContext и HelpFile (VJ++)
 TOCTitle: Description, HelpContext, HelpFile, NativeError, Number, Source, and SQLState properties example (VJ++)
 ms:assetid: daa3ff89-9f7f-f832-479e-bbb51c918ae8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250100(v=office.15)
@@ -19,7 +19,7 @@ ms.locfileid: "32293947"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства [Description](description-property-ado.md), [HelpContext](helpcontext-helpfile-properties-ado.md), [HelpFile](helpcontext-helpfile-properties-ado.md), [NativeError](nativeerror-property-ado.md), [Number](number-property-ado.md), [Source](source-property-ado-error.md)и [SQLSTATE](sqlstate-property-ado.md) полученного объекта [Error](error-object-ado.md) .
+В этом примере вызывается ошибка, она ловка и [](error-object-ado.md) отображаются свойства [Description,](description-property-ado.md) [HelpContext,](helpcontext-helpfile-properties-ado.md) [HelpFile,](helpcontext-helpfile-properties-ado.md) [NativeError,](nativeerror-property-ado.md) [Number,](number-property-ado.md) [Source](source-property-ado-error.md)и [SQLState](sqlstate-property-ado.md) итоговой ошибки.
 
 ```java
     // BeginDescriptionJ

@@ -19,7 +19,7 @@ ms.locfileid: "32294430"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируются свойства [DateCreated](datecreated-property-adox.md) и [DateModified](datemodified-property-adox.md) , добавляя новый [столбец](column-object-adox.md) в существующую [таблицу](table-object-adox.md) и создавая новую **таблицу**. Для запуска этого примера требуется процедура Датеаутпут.
+В этом примере демонстрируются свойства [DateCreated](datecreated-property-adox.md) и [](column-object-adox.md) [DateModified](datemodified-property-adox.md) [](table-object-adox.md) путем добавления нового столбца в существующую таблицу и создания новой **таблицы.** Для запуска этого примера требуется процедура DateOutput.
 
 ```vb 
  

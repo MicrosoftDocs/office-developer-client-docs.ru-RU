@@ -1,5 +1,5 @@
 ---
-title: Свойство DBEngine. workspaces (DAO)
+title: Свойство DBEngine.Workspaces (DAO)
 TOCTitle: Workspaces Property
 ms:assetid: 7b4b2a61-b61a-c442-3000-d2fb1419bfd5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196194(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294185"
 ---
-# <a name="dbengineworkspaces-property-dao"></a>Свойство DBEngine. workspaces (DAO)
+# <a name="dbengineworkspaces-property-dao"></a>Свойство DBEngine.Workspaces (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **workspaces** , содержащую все активные, нескрытые объекты **рабочей области** . Только для чтения.
+Возвращает **коллекцию Workspaces,** которая содержит все активные незашифленные объекты **рабочей** области. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Рабочих областей
+*выражение .* Workspaces
 
 *expression*: переменная, представляющая объект **DBEngine**.
 

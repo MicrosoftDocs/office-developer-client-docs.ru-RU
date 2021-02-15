@@ -19,7 +19,7 @@ ms.locfileid: "32294066"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере используется метод [Delete](delete-method-ado-recordset.md) для удаления указанной записи из объекта [Recordset](recordset-object-ado.md).
+В этом примере метод [Delete](delete-method-ado-recordset.md) используется для удаления указанной записи из [recordset.](recordset-object-ado.md)
 
 ```cpp 
  
@@ -294,7 +294,7 @@ void PrintComError(_com_error &e)
 
 <br/>
 
-**Делетекс. h**
+**DeleteX.h**
 
 ```cpp 
  

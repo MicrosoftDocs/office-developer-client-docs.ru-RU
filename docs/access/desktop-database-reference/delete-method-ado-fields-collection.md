@@ -1,5 +1,5 @@
 ---
-title: Метод Delete (коллекция Fields в ADO)
+title: Метод Delete (коллекция полей ADO)
 TOCTitle: Delete method (ADO Fields Collection)
 ms:assetid: adc66365-703f-4491-fc5b-dbc9bca2ac53
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249817(v=office.15)
@@ -14,24 +14,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294108"
 ---
-# <a name="delete-method-ado-fields-collection"></a>Метод Delete (коллекция Fields в ADO)
+# <a name="delete-method-ado-fields-collection"></a>Метод Delete (коллекция полей ADO)
 
 **Область применения**: Access 2013, Office 2013
 
 
-Удаляет объект из коллекции [Fields](fields-collection-ado.md) .
+Удаляет объект из коллекции [Fields.](fields-collection-ado.md)
 
 ## <a name="syntax"></a>Синтаксис
 
-*Поля*. Удаление*поля*
+*Поля*. Удаление *поля*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*Field* |**Вариант** , указывающий объект [поля](field-object-ado.md) , который требуется удалить. Этот параметр может быть именем объекта **field** или порядковым номером самого объекта **field** .|
+|*Field* |**Вариант,** который обозначает [удаляемый объект Field.](field-object-ado.md) Этот параметр может быть именем объекта **Field** или порядковой позицией самого **объекта Field.**|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Вызов метода **Fields. Delete** в открытом [наборе записей](recordset-object-ado.md) приводит к ошибке во время выполнения.
+Вызов метода **Fields.Delete** в открытом наборе [записей](recordset-object-ado.md) приводит к ошибке во время работы.
 

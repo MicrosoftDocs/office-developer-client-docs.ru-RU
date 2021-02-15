@@ -1,5 +1,5 @@
 ---
-title: Метод DBEngine. RegisterDatabase (DAO)
+title: Метод DBEngine.RegisterDatabase (DAO)
 TOCTitle: RegisterDatabase Method
 ms:assetid: ed87a694-2c89-0a78-5d8b-0cc7e09fadff
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff836347(v=office.15)
@@ -18,15 +18,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294227"
 ---
-# <a name="dbengineregisterdatabase-method-dao"></a>Метод DBEngine. RegisterDatabase (DAO)
+# <a name="dbengineregisterdatabase-method-dao"></a>Метод DBEngine.RegisterDatabase (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Вводит сведения о подключении для источника данных ODBC в реестре Windows. Драйверу ODBC необходимы сведения о подключении при открытии источника данных ODBC во время сеанса.
+Введите сведения о под соединении для источника данных ODBC в реестре Windows. Драйверу ODBC необходимы сведения о под подключениех при открытом источнике данных ODBC во время сеанса.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . RegisterDatabase (***DSN***, ***Driver***, ***Silent***, ***Attributes***)
+*выражение .* RegisterDatabase(***Dsn***, ***Driver***, ***Silent***, ***Attributes***)
 
 *expression*: переменная, представляющая объект **DBEngine**.
 
@@ -49,44 +49,44 @@ ms.locfileid: "32294227"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>Имя</em></p></td>
-<td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>имя, используемое в методе <strong><a href="dbengine-opendatabase-method-dao.md">openDatabase</a></strong> . Он ссылается на блок описательных сведений о источнике данных. Например, если источником данных является удаленная база данных ODBC, это может быть имя сервера.</p></td>
+<td><p><em>Dsn</em></p></td>
+<td><p>Обязательно</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>имя, используемого в <strong><a href="dbengine-opendatabase-method-dao.md">методе OpenDatabase.</a></strong> Он ссылается на блок описательных сведений об источнике данных. Например, если источником данных является удаленная база данных ODBC, это может быть имя сервера.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Driver</em></p></td>
-<td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Имя драйвера ODBC. Это имя не является файлом DLL драйвера ODBC.</p></td>
+<td><p>Обязательно</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Имя драйвера ODBC. Это не имя DLL-файла драйвера ODBC.</p></td>
 </tr>
 <tr class="odd">
-<td><p><em>Удаля</em></p></td>
+<td><p><em>Silent</em></p></td>
 <td><p>Обязательный</p></td>
 <td><p><strong>Логический</strong></p></td>
-<td><p><strong>Значение true</strong> , если вы не хотите отображать диалоговые окна драйвера ODBC, в которых запрашиваются сведения об определенном драйвере; или <strong>false</strong> , если вы хотите отобразить диалоговые окна драйвера ODBC. Если свойство Silent имеет <strong>значение true</strong>, атрибуты должны содержать все необходимые сведения о конкретном драйвере, а диалоговые окна отображаются в любом случае.</p></td>
+<td><p><strong>True,</strong> если вы не хотите отображать диалоговое окно драйвера ODBC с запросом сведений о драйверах; Или <strong>false,</strong> если вы хотите отобразить диалоговое окно драйвера ODBC. Если параметр silent имеет <strong>true,</strong>атрибуты должны содержать все необходимые сведения, необходимые для драйверов, иначе диалоговое окно все равно будет отображаться.</p></td>
 </tr>
 <tr class="even">
-<td><p><em>Attributes</em></p></td>
-<td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Список ключевых слов, которые необходимо добавить в реестр Windows. Ключевые слова находятся в строке со строками, разделенными символами возврата каретки.</p></td>
+<td><p><em>Атрибуты</em></p></td>
+<td><p>Обязательно</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Список ключевых слов, добавляемого в реестр Windows. Ключевые слова находятся в строке с делегировкой возврата каретки.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Если база данных уже зарегистрирована (сведения о подключении уже введены) в реестре Windows при использовании метода **RegisterDatabase** , сведения о подключении обновляются.
+Если база данных уже зарегистрирована (сведения о под подключениех уже введены) в реестре Windows при использовании метода **RegisterDatabase,** сведения о под подключением обновляются.
 
-Если метод **RegisterDatabase** по какой либо причине завершается с ошибкой, в реестр Windows не вносятся никакие изменения, и возникает ошибка.
+Если метод **RegisterDatabase** по какой-либо причине не удается, в реестр Windows не внося никаких изменений и возникает ошибка.
 
-Для получения дополнительных сведений о драйверах ODBC, таких как SQL Server, обратитесь к справочному файлу, указанному в драйвере.
+Дополнительные сведения о драйверах ODBC, таких как SQL Server, см. в файле справки, предоставленного драйвером.
 
 ## <a name="example"></a>Пример
 
-В этом примере используется метод **RegisterDatabase** для регистрации источника данных Microsoft SQL Server с именем "Publishers" в реестре Windows.
+В этом примере метод **RegisterDatabase** используется для регистрации Microsoft SQL Server данных Publishers в реестре Windows.
 
 ```vb 
 Sub RegisterDatabaseX() 

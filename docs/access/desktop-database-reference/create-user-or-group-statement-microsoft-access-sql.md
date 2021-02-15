@@ -1,5 +1,5 @@
 ---
-title: Создание оператора "пользователь" или "Группа" (Microsoft Access SQL)
+title: Create USER или GROUP statement (Microsoft Access SQL)
 TOCTitle: CREATE USER or GROUP statement (Microsoft Access SQL)
 ms:assetid: 62148ce2-0f81-944e-a1ab-edef990fff9f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194914(v=office.15)
@@ -14,23 +14,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295382"
 ---
-# <a name="create-user-or-group-statement-microsoft-access-sql"></a>Создание оператора "пользователь" или "Группа" (Microsoft Access SQL)
+# <a name="create-user-or-group-statement-microsoft-access-sql"></a>CREATE USER or GROUP statement (Microsoft Access SQL)
 
 **Область применения**: Access 2013, Office 2013
 
-Создает одного или нескольких новых пользователей или групп.
+Создает одного или несколько новых пользователей или групп.
 
 ## <a name="syntax"></a>Синтаксис
 
 ### <a name="create-a-user"></a>Создание пользователя
 
-Создайте пароль *пользователя* *PID* \[, пароль *пользователя* *PID*,...\]
+CREATE USER *user* *password pid* \[ , *user* *password pid*, ...\]
 
 ### <a name="create-a-group"></a>Создание группы
 
-Создание группы *group* *PID*\[, *группы* *PID*,...\]
+CREATE GROUP *group* *pid,* \[ *group* *pid*, ...\]
 
-Инструкция CREATE USER или GROUP состоит из следующих частей:
+The CREATE USER or GROUP statement has these parts:
 
 <table>
 <colgroup>
@@ -46,27 +46,27 @@ ms.locfileid: "32295382"
 <tbody>
 <tr class="odd">
 <td><p><em>user</em></p></td>
-<td><p>Имя пользователя, добавляемого в информационный файл рабочей группы.</p></td>
+<td><p>Имя пользователя, добавляемого в файл сведений о группе.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>group</em></p></td>
-<td><p>Имя группы, которую необходимо добавить в файл сведений о рабочей группе.</p></td>
+<td><p>Имя группы, добавляемой в файл сведений о рабочей группе.</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>password</em></p></td>
-<td><p>Пароль, который необходимо связать с указанным именем <em>пользователя</em> .</p></td>
+<td><p>Пароль, который должен быть связан с указанным <em>именем</em> пользователя.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>pid</em></p></td>
-<td><p>Личный идентификатор.</p></td>
+<td><p>Личный ид.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Имя *пользователя* и *группы* не могут совпадать.
+Имя *пользователя* и *группы* не может быть одинаковым.
 
-Для каждого создаваемого *пользователя* или *группы* необходим *пароль* .
+Для *каждого* создадаемой  группы или пользователя требуется пароль. 
 

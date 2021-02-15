@@ -1,5 +1,5 @@
 ---
-title: Событие событие endofrecordset (ADO)
+title: Событие EndOfRecordset (ADO)
 TOCTitle: EndOfRecordset event (ADO)
 ms:assetid: 8995b851-dff6-2525-1d62-a2cfb4f95393
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249603(v=office.15)
@@ -14,27 +14,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293562"
 ---
-# <a name="endofrecordset-event-ado"></a>Событие событие endofrecordset (ADO)
+# <a name="endofrecordset-event-ado"></a>Событие EndOfRecordset (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-Событие **событие endofrecordset** вызывается при попытке переместиться в строку, находящиеся за концом объекта [Recordset](recordset-object-ado.md).
+Событие **EndOfRecordset** вызвано при попытке перейти к строке за конец [recordset.](recordset-object-ado.md)
 
 ## <a name="syntax"></a>Синтаксис
 
-Событие endofrecordset*фморедата*, *адстатус*, *pRecordset* пред
+EndOfRecordset *fMoreData*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*фморедата* |**Логическое значение\_Variant** , которое, если задано значение\_Variant true, указывает, что в **набор записей**Добавлено больше строк.|
-|*адстатус* |[Евентстатусенум](eventstatusenum.md). При вызове **событие endofrecordset** этот параметр имеет значение **адстатусок** , если операция, вызвавшая событие, прошла успешно. Он имеет значение **адстатускантдени** , если данное событие не может запрашивать отмену операции, вызвавшей это событие.<br/><br/>Перед возвратом **событие endofrecordset** присвойте этому параметру значение **адстатусунвантедевент** , чтобы предотвратить появление последующих уведомлений.|
-|*предшнур* | Объект **Recordset** . Объект **Recordset** , для которого произошло это событие.|
+|*fMoreData* |Значение **VARIANT \_ BOOL,** если задано значение VARIANT TRUE, указывает, что в набор Recordset добавлены \_ **дополнительные строки.**|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). При **вызываемом endOfRecordset** этот параметр задан как **adStatusOK,** если операция, которая привела к событию, была успешной. Если это событие не может запросить отмену операции, которая привела к этому событию, устанавливается в качестве **adStatusCantDeny.**<br/><br/>Перед **возвращением EndOfRecordset** установите для этого параметра **параметр adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
+|*pRecordset* | Объект **Recordset.** Набор **записей,** для которого произошло это событие.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Если не удается выполнить операцию [MoveNext](movefirst-movelast-movenext-and-moveprevious-methods-ado.md) , может произойти событие **событие endofrecordset** .
+Событие **EndOfRecordset может** произойти, если произойдет сбой операции [MoveNext.](movefirst-movelast-movenext-and-moveprevious-methods-ado.md)
 
-Этот обработчик событий вызывается при попытке переместиться за конец объекта **Recordset** , возможно, в результате вызова **MoveNext**. Однако в этом событии можно получить дополнительные записи из базы данных и добавить их в конец **набора записей**. В этом случае задайте для *фморедата* \_значение true и вернитесь из **событие endofrecordset**. Затем снова вызовите **MoveNext** , чтобы получить доступ к недавно извлеченным записям.
+Этот обработец событий вызывается при попытке переместиться за конец объекта **Recordset,** возможно, в результате вызова **MoveNext.** Однако в этом событии можно получить больше записей из базы данных и применить их к концу **recordset.** В этом случае установите *для fMoreData* variant \_ TRUE и вернетесь из **EndOfRecordset.** Затем снова **вызовите MoveNext,** чтобы получить доступ к недавно полученным записям.
 

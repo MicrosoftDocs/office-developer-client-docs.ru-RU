@@ -1,5 +1,5 @@
 ---
-title: Управление объектами (RDS)
+title: DataControl (RDS) (ADO)
 TOCTitle: DataControl (RDS)
 ms:assetid: 10871580-2f49-4d1e-8acb-c3754c1797fb
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248873(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294528"
 ---
-# <a name="datacontrol-rds-ado"></a>Управление объектами (RDS)
+# <a name="datacontrol-rds-ado"></a>DataControl (RDS) (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект управления объектами (RDS)](datacontrol-object-rds.md)
-- [Свойства, методы и события элемента управления "элемент управления" (RDS)](datacontrol-properties-methods-and-events-rds.md)
+- [Объект DataControl (RDS)](datacontrol-object-rds.md)
+- [Свойства, методы и события DataControl (RDS)](datacontrol-properties-methods-and-events-rds.md)
 

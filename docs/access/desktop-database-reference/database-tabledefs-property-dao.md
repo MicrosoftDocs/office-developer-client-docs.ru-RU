@@ -1,5 +1,5 @@
 ---
-title: Свойство Database. TableDefs (DAO)
+title: Свойство Database.TableDefs (DAO)
 TOCTitle: TableDefs Property
 ms:assetid: 022d20d2-36f5-7711-c6fb-3a0f2cfb76d3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844763(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294696"
 ---
-# <a name="databasetabledefs-property-dao"></a>Свойство Database. TableDefs (DAO)
+# <a name="databasetabledefs-property-dao"></a>Свойство Database.TableDefs (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **tabledef** , которая содержит все объекты **tabledef** , хранящиеся в указанной базе данных. Только для чтения.
+Возвращает **коллекцию TableDefs,** которая содержит все объекты **TableDef,** хранимые в указанной базе данных. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . TableDefs
+*выражение .* TableDefs
 
 *выражение*: переменная, представляющая объект **Database**.
 

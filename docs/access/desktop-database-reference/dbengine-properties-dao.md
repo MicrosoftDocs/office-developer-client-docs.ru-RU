@@ -18,14 +18,14 @@ ms.locfileid: "32294234"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство DBEngine. DefaultPassword (DAO)](dbengine-defaultpassword-property-dao.md)
-- [Свойство DBEngine. DefaultType (DAO)](dbengine-defaulttype-property-dao.md)
-- [Свойство DBEngine. DefaultUser (DAO)](dbengine-defaultuser-property-dao.md)
-- [Свойство DBEngine. Errors (DAO)](dbengine-errors-property-dao.md)
-- [Свойство DBEngine. IniPath (DAO)](dbengine-inipath-property-dao.md)
-- [Свойство DBEngine. LoginTimeout (DAO)](dbengine-logintimeout-property-dao.md)
-- [Свойство DBEngine. Properties (DAO)](dbengine-properties-property-dao.md)
-- [Свойство DBEngine. Version (DAO)](dbengine-version-property-dao.md)
-- [Свойство DBEngine. workspaces (DAO)](dbengine-workspaces-property-dao.md)
+- [Свойство DBEngine.DefaultPassword (DAO)](dbengine-defaultpassword-property-dao.md)
+- [Свойство DBEngine.DefaultType (DAO)](dbengine-defaulttype-property-dao.md)
+- [Свойство DBEngine.DefaultUser (DAO)](dbengine-defaultuser-property-dao.md)
+- [Свойство DBEngine.Errors (DAO)](dbengine-errors-property-dao.md)
+- [DBEngine.IniPath (DAO)](dbengine-inipath-property-dao.md)
+- [Свойство DBEngine.LoginTimeout (DAO)](dbengine-logintimeout-property-dao.md)
+- [Свойство DBEngine.Properties (DAO)](dbengine-properties-property-dao.md)
+- [Свойство DBEngine.Version (DAO)](dbengine-version-property-dao.md)
+- [Свойство DBEngine.Workspaces (DAO)](dbengine-workspaces-property-dao.md)
 
 

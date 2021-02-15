@@ -1,5 +1,5 @@
 ---
-title: Свойство Database. Transactions (DAO)
+title: Свойство Database.Transactions (DAO)
 TOCTitle: Transactions Property
 ms:assetid: 317334dc-0ed4-ccaa-cd04-4b8f5a0c32b2
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192293(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294703"
 ---
-# <a name="databasetransactions-property-dao"></a>Свойство Database. Transactions (DAO)
+# <a name="databasetransactions-property-dao"></a>Свойство Database.Transactions (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "32294703"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Транзакций
+*выражение .* Транзакции
 
 *выражение*: переменная, представляющая объект **Database**.
 

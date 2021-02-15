@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события ошибок (ADO)
+title: Error properties, methods, and events (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 8a1180b3-e8bf-c13d-a295-9caad7dad259
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249607(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293457"
 ---
-# <a name="error-properties-methods-and-events-ado"></a>Свойства, методы и события ошибок (ADO)
+# <a name="error-properties-methods-and-events-ado"></a>Error properties, methods, and events (ADO)
 
 **Область применения**: Access 2013, Office 2013
 

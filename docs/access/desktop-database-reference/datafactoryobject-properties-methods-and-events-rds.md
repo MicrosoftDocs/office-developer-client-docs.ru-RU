@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события, которые представляют собой факты (RDS)
+title: Свойства, методы и события DataFactory (RDS)
 TOCTitle: Properties, methods, and events
 ms:assetid: d5df9160-2931-7773-f75a-8065881d9487
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250075(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294514"
 ---
-# <a name="datafactory-properties-methods-and-events-rds"></a>Свойства, методы и события, которые представляют собой факты (RDS)
+# <a name="datafactory-properties-methods-and-events-rds"></a>Свойства, методы и события DataFactory (RDS)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32294514"
 
 ## <a name="properties"></a>Свойства
 
-Нет.
+Нет
 
 ## <a name="methods"></a>Методы
 
@@ -35,19 +35,19 @@ ms.locfileid: "32294514"
 <tbody>
 <tr class="odd">
 <td><p><a href="converttostring-method-rds.md">Метод ConvertToString (RDS)</a></p></td>
-<td><p>Преобразует объект Recordset в строку MIME64.</p></td>
+<td><p>Преобразует набор записей в строку MIME64.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="createrecordset-method-rds.md">Метод CreateRecordset (RDS)</a></p></td>
 <td><p>Создает и возвращает пустой набор записей.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="query-method-rds.md">Метод query (RDS)</a></p></td>
+<td><p><a href="query-method-rds.md">Метод запроса (RDS)</a></p></td>
 <td><p>Выполните запрос и создайте расширенный набор строк данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="submitchanges-method-rds.md">Метод SubmitChanges (RDS)</a></p></td>
-<td><p>При наличии объекта Recordset с ожидающими изменениями этот метод передает их в базу данных, указанную в строке подключения.</p></td>
+<td><p>С учетом наборов записей, ожидающих изменений, этот метод передает их в базу данных, заданную в строке подключения.</p></td>
 </tr>
 </tbody>
 </table>

@@ -1,5 +1,5 @@
 ---
-title: DataTypeEnum (Справочник по базам данных Access на компьютере)
+title: DataTypeEnum (справочник по базам данных Access для настольных ПК)
 TOCTitle: DataTypeEnum
 ms:assetid: a8ab7616-552f-ed5f-ed55-95254cfb374a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249780(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32294444"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает тип данных [поля](field-object-ado.md), [параметра](parameter-object-ado.md)или [Свойства](property-object-ado.md). Соответствующий индикатор типа OLE DB отображается в круглых скобках в столбце Описание следующей таблицы. Дополнительные сведения о типах данных OLE DB приведены в главе 13 и приложении A *Справочника программиста OLE DB*.
+Указывает тип данных [поля,](field-object-ado.md) [параметра](parameter-object-ado.md)или [свойства.](property-object-ado.md) Соответствующий индикатор типа OLE DB отображается в скобке в столбце описания следующей таблицы. Дополнительные сведения о типах данных OLE DB см. в главе 13 и приложении A справочника по *OLE DB Programmer.*
 
 <br/>
 
@@ -37,207 +37,207 @@ ms.locfileid: "32294444"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адаррай<br />
+<td><p><strong>AdArray<br />
 </strong>(Не применяется к ADOX.)</p></td>
 <td><p>0x2000</p></td>
-<td><p>Значение флага, всегда скомбинированное с другой константой типа данных, которое указывает массив другого типа данных.</p></td>
+<td><p>Значение флага, всегда в сочетании с другой константой типа данных, которое указывает массив этого другого типа данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адбигинт</strong></p></td>
-<td><p>двадцать</p></td>
-<td><p>Указывает 8-разрядное целое число со знаком (DBTYPE_I8).</p></td>
+<td><p><strong>adBigInt</strong></p></td>
+<td><p>20</p></td>
+<td><p>Указывает на восьми bytete signed integer (DBTYPE_I8).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адбинари</strong></p></td>
+<td><p><strong>adBinary</strong></p></td>
 <td><p>128</p></td>
 <td><p>Указывает двоичное значение (DBTYPE_BYTES).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адбулеан</strong></p></td>
-<td><p>11 </p></td>
-<td><p>Указывает логическое значение (DBTYPE_BOOL).</p></td>
+<td><p><strong>adBoolean</strong></p></td>
+<td><p>11</p></td>
+<td><p>Указывает boolean value (DBTYPE_BOOL).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адбстр</strong></p></td>
+<td><p><strong>adBSTR</strong></p></td>
 <td><p>8 </p></td>
-<td><p>Указывает строку символов (Юникод), заканчивающуюся нулем (DBTYPE_BSTR).</p></td>
+<td><p>Указывает строку символа с нулью (Юникод) (DBTYPE_BSTR).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адчаптер</strong></p></td>
+<td><p><strong>adChapter</strong></p></td>
 <td><p>136</p></td>
-<td><p>Указывает значение главы из четырех байт, которое определяет строки в дочернем наборе строк (DBTYPE_HCHAPTER).</p></td>
+<td><p>Указывает четырех byte chapter value that identifies rows in a child rowset (DBTYPE_HCHAPTER).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адчар</strong></p></td>
+<td><p><strong>adChar</strong></p></td>
 <td><p>129</p></td>
-<td><p>Указывает строковое значение (DBTYPE_STR).</p></td>
+<td><p>Указывает строку (DBTYPE_STR).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адкурренци</strong></p></td>
+<td><p><strong>adCurrency</strong></p></td>
 <td><p>6 </p></td>
-<td><p>Показывает значение валюты (DBTYPE_CY). Currency — это число с фиксированной запятой, сопоставленное с четырьмя цифрами справа от десятичной точки. Он хранится в виде целого числа со знаком длиной 8 байт, масштабированное на 10 000.</p></td>
+<td><p>Указывает значение валюты (DBTYPE_CY). Валюта — это число с фиксированной точкой с четырьмя цифрами справа от десятичной точки. Он хранится в 8-byte signed integer scaled by 10,000.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>аддате</strong></p></td>
+<td><p><strong>adDate</strong></p></td>
 <td><p>7 </p></td>
-<td><p>Указывает значение даты (DBTYPE_DATE). Дата хранится в виде Double, целой части, которая представляет собой количество дней с 30 декабря 1899 г., и дробная часть, представляющая долю дня.</p></td>
+<td><p>Указывает значение даты (DBTYPE_DATE). Дата хранится в двойном номере, вся часть которого — это количество дней с 30 декабря 1899 г., а дробная часть — доля дня.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>аддбдате</strong></p></td>
+<td><p><strong>adDBDate</strong></p></td>
 <td><p>133</p></td>
-<td><p>Указывает значение даты (DBTYPE_DBDATE).</p></td>
+<td><p>Указывает значение даты (yyyymmdd) (DBTYPE_DBDATE).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>аддбтиме</strong></p></td>
+<td><p><strong>adDBTime</strong></p></td>
 <td><p>134</p></td>
-<td><p>Указывает значение времени (ЧЧММСС) (DBTYPE_DBTIME).</p></td>
+<td><p>Указывает значение времени (ччммсс) (DBTYPE_DBTIME).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>аддбтиместамп</strong></p></td>
+<td><p><strong>adDBTimeStamp</strong></p></td>
 <td><p>135</p></td>
-<td><p>Указывает отметку даты и времени (ГГГГММДДЧЧММСС плюс дробь в биллионсс) (DBTYPE_DBTIMESTAMP).</p></td>
+<td><p>Указывает отметку даты и времени (yyyymmddhhmmss плюс доля в DBTYPE_DBTIMESTAMP).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>аддеЦимал</strong></p></td>
+<td><p><strong>adDecimal</strong></p></td>
 <td><p>14 </p></td>
-<td><p>Указывает точное числовое значение с фиксированной точностью и масштабом (DBTYPE_DECIMAL).</p></td>
+<td><p>Указывает точное число с фиксированной точностью и масштабом (DBTYPE_DECIMAL).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>аддаубле</strong></p></td>
+<td><p><strong>adDouble</strong></p></td>
 <td><p>5 </p></td>
-<td><p>Указывает значение двойной точности с плавающей запятой (DBTYPE_R8).</p></td>
+<td><p>Указывает значение с плавающей за точкой двойной точности (DBTYPE_R8).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адемпти</strong></p></td>
-<td><p>нуль</p></td>
-<td><p>Значение не задано (DBTYPE_EMPTY).</p></td>
+<td><p><strong>adEmpty</strong></p></td>
+<td><p>0</p></td>
+<td><p>Не указывает значение (DBTYPE_EMPTY).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адеррор</strong></p></td>
+<td><p><strong>adError</strong></p></td>
 <td><p>10 </p></td>
-<td><p>Указывает 32-разрядный код ошибки (DBTYPE_ERROR).</p></td>
+<td><p>Указывает 32-битный код ошибки (DBTYPE_ERROR).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адфилетиме</strong></p></td>
+<td><p><strong>adFileTime</strong></p></td>
 <td><p>64</p></td>
-<td><p>Указывает 64-разрядное значение, представляющее количество интервалов 100-наносекундных с 1 января 1601 г. (DBTYPE_FILETIME).</p></td>
+<td><p>Указывает 64-битное значение, представляющее число интервалов в 100 наносекунд с 1 января 1601 г. (DBTYPE_FILETIME).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адгуид</strong></p></td>
+<td><p><strong>adGUID</strong></p></td>
 <td><p>72</p></td>
 <td><p>Указывает глобальный уникальный идентификатор (GUID) (DBTYPE_GUID).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адидиспатч</strong></p></td>
+<td><p><strong>adIDispatch</strong></p></td>
 <td><p>9 </p></td>
-<td><p>Показывает указатель на интерфейс <strong>IDispatch</strong> объекта COM (DBTYPE_IDISPATCH).</p><p><strong>Примечание</strong>: этот тип данных в настоящее время не поддерживается ADO. Использование может привести к непредсказуемым результатам.</p>
+<td><p>Указывает указатель на <strong>интерфейс IDispatch</strong> объекта COM (DBTYPE_IDISPATCH).</p><p><strong>ПРИМЕЧАНИЕ.</strong>Этот тип данных в настоящее время не поддерживается ADO. Использование может привести к непредсказуемым результатам.</p>
 </td>
 </tr>
 <tr class="even">
-<td><p><strong>адинтежер</strong></p></td>
-<td><p>4</p></td>
-<td><p>Указывает 4-разрядное целое число со знаком (DBTYPE_I4).</p></td>
+<td><p><strong>adInteger</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Указывает на четырех bytete signed integer (DBTYPE_I4).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адиункновн</strong></p></td>
-<td><p>13</p></td>
-<td><p>Показывает указатель на интерфейс <strong>IUnknown</strong> для объекта COM (DBTYPE_IUNKNOWN).</p><p><strong>Примечание</strong>: этот тип данных в настоящее время не поддерживается ADO. Использование может привести к непредсказуемым результатам.
+<td><p><strong>adIUnknown</strong></p></td>
+<td><p>13 </p></td>
+<td><p>Указывает указатель на интерфейс <strong>IUnknown</strong> в объекте COM (DBTYPE_IUNKNOWN).</p><p><strong>ПРИМЕЧАНИЕ.</strong>Этот тип данных в настоящее время не поддерживается ADO. Использование может привести к непредсказуемым результатам.
 </p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адлонгварбинари</strong></p></td>
+<td><p><strong>adLongVarBinary</strong></p></td>
 <td><p>205</p></td>
 <td><p>Указывает длинное двоичное значение.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адлонгварчар</strong></p></td>
+<td><p><strong>adLongVarChar</strong></p></td>
 <td><p>201</p></td>
-<td><p>Указывает длинное строковое значение.</p></td>
+<td><p>Указывает длинное строку.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адлонгварвчар</strong></p></td>
+<td><p><strong>adLongVarWChar</strong></p></td>
 <td><p>203</p></td>
-<td><p>Указывает длинное строковое значение Юникода с завершающим нулем.</p></td>
+<td><p>Указывает длинное строкное значение Юникода, осекаемого нулью.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>аднумерик</strong></p></td>
+<td><p><strong>adNumeric</strong></p></td>
 <td><p>131</p></td>
-<td><p>Указывает точное числовое значение с фиксированной точностью и масштабом (DBTYPE_NUMERIC).</p></td>
+<td><p>Указывает точное число с фиксированной точностью и масштабом (DBTYPE_NUMERIC).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адпропвариант</strong></p></td>
+<td><p><strong>adPropVariant</strong></p></td>
 <td><p>138</p></td>
-<td><p>Указывает ПРОПВАРИАНТ автоматизации (DBTYPE_PROP_VARIANT).</p></td>
+<td><p>Указывает automation PROPVARIANT (DBTYPE_PROP_VARIANT).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адсингле</strong></p></td>
+<td><p><strong>adSingle</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Показывает значение одиночной точности с плавающей запятой (DBTYPE_R4).</p></td>
+<td><p>Указывает значение с плавающей за точкой с одной точностью (DBTYPE_R4).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адсмаллинт</strong></p></td>
-<td><p>2</p></td>
-<td><p>Указывает 2-байтовое целое число со знаком (DBTYPE_I2).</p></td>
+<td><p><strong>adSmallInt</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Указывает на двух bytete signed integer (DBTYPE_I2).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адтининт</strong></p></td>
+<td><p><strong>adTinyInt</strong></p></td>
 <td><p>16 </p></td>
-<td><p>Указывает Однобайтовое целое со знаком (DBTYPE_I1).</p></td>
+<td><p>Указывает одно bytete signed integer (DBTYPE_I1).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адунсигнедбигинт</strong></p></td>
+<td><p><strong>adUnsignedBigInt</strong></p></td>
 <td><p>21</p></td>
-<td><p>Указывает целое число без знака длиной 8 байт (DBTYPE_UI8).</p></td>
+<td><p>Указывает восьми bytete unsigned integer (DBTYPE_UI8).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адунсигнединт</strong></p></td>
+<td><p><strong>adUnsignedInt</strong></p></td>
 <td><p>19</p></td>
-<td><p>Указывает целое число без знака длиной 4 байта (DBTYPE_UI4).</p></td>
+<td><p>Указывает четырех bytete без подписи (DBTYPE_UI4).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адунсигнедсмаллинт</strong></p></td>
+<td><p><strong>adUnsignedSmallInt</strong></p></td>
 <td><p>18 </p></td>
-<td><p>Указывает на неподписанное 2-разрядное целое число (DBTYPE_UI2).</p></td>
+<td><p>Указывает двух bytete unsigned integer (DBTYPE_UI2).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адунсигнедтининт</strong></p></td>
+<td><p><strong>adUnsignedTinyInt</strong></p></td>
 <td><p>17 </p></td>
-<td><p>Указывает Однобайтовое целое число без знака (DBTYPE_UI1).</p></td>
+<td><p>Указывает одно byte-byte unsigned integer (DBTYPE_UI1).</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адусердефинед</strong></p></td>
+<td><p><strong>adUserDefined</strong></p></td>
 <td><p>132</p></td>
-<td><p>Указывает пользовательскую переменную (DBTYPE_UDT).</p></td>
+<td><p>Указывает определяемую пользователем переменную (DBTYPE_UDT).</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адварбинари</strong></p></td>
+<td><p><strong>adVarBinary</strong></p></td>
 <td><p>204</p></td>
-<td><p>Указывает двоичное значение (только для объекта<strong>Parameter</strong> ).</p></td>
+<td><p>Указывает двоичное значение (только<strong>объект Parameter).</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адварчар</strong></p></td>
+<td><p><strong>adVarChar</strong></p></td>
 <td><p>200</p></td>
-<td><p>Указывает строковое значение.</p></td>
+<td><p>Указывает строку.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адвариант</strong></p></td>
+<td><p><strong>adVariant</strong></p></td>
 <td><p>12 </p></td>
-<td><p>Указывает на <strong>вариант</strong> автоматизации (DBTYPE_VARIANT).</p><p><strong>Примечание</strong>: этот тип данных в настоящее время не поддерживается ADO. Использование может привести к непредсказуемым результатам.</p></td>
+<td><p>Указывает вариант <strong>автоматизации</strong> (DBTYPE_VARIANT).</p><p><strong>ПРИМЕЧАНИЕ.</strong>Этот тип данных в настоящее время не поддерживается ADO. Использование может привести к непредсказуемым результатам.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адварнумерик</strong></p></td>
+<td><p><strong>adVarNumeric</strong></p></td>
 <td><p>139</p></td>
-<td><p>Указывает числовое значение (только для объекта<strong>Parameter</strong> ).</p></td>
+<td><p>Указывает числовые значения ( только<strong>объект Parameter).</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адварвчар</strong></p></td>
+<td><p><strong>adVarWChar</strong></p></td>
 <td><p>202</p></td>
-<td><p>Указывает строку символов Юникода, заканчивающуюся нулем.</p></td>
+<td><p>Указывает строку символа Юникода, осекаемую нулью.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адвчар</strong></p></td>
+<td><p><strong>adWChar</strong></p></td>
 <td><p>130</p></td>
-<td><p>Указывает строку символов Юникода, заканчивающуюся нулем (DBTYPE_WSTR).</p></td>
+<td><p>Указывает строку символа Юникода с нулью (DBTYPE_WSTR).</p></td>
 </tr>
 </tbody>
 </table>
@@ -245,7 +245,7 @@ ms.locfileid: "32294444"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -258,124 +258,124 @@ ms.locfileid: "32294444"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. DataType. ARRAY</p></td>
+<td><p>AdoEnums.DataType.ARRAY</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. BIGINT</p></td>
+<td><p>AdoEnums.DataType.BIGINT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. BINARY</p></td>
+<td><p>AdoEnums.DataType.BINARY</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. BOOLEAN</p></td>
+<td><p>AdoEnums.DataType.BOOLEAN</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. BSTR</p></td>
+<td><p>AdoEnums.DataType.BSTR</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. CHAPTER</p></td>
+<td><p>AdoEnums.DataType.CHAPTER</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. CHAR</p></td>
+<td><p>AdoEnums.DataType.CHAR</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. CURRENCY</p></td>
+<td><p>AdoEnums.DataType.CURRENCY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. DATE</p></td>
+<td><p>AdoEnums.DataType.DATE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. ДБДАТЕ</p></td>
+<td><p>AdoEnums.DataType.DBDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. ДБТИМЕ</p></td>
+<td><p>AdoEnums.DataType.DBTIME</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. ДБТИМЕСТАМП</p></td>
+<td><p>AdoEnums.DataType.DBTIMESTAMP</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. DECIMAL</p></td>
+<td><p>AdoEnums.DataType.DECIMAL</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. DOUBLE</p></td>
+<td><p>AdoEnums.DataType.DOUBLE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. EMPTY</p></td>
+<td><p>AdoEnums.DataType.EMPTY</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. ERROR</p></td>
+<td><p>AdoEnums.DataType.ERROR</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. FILETIME</p></td>
+<td><p>AdoEnums.DataType.FILETIME</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. GUID</p></td>
+<td><p>AdoEnums.DataType.GUID</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. IDISPATCH</p></td>
+<td><p>AdoEnums.DataType.IDISPATCH</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. INTEGER</p></td>
+<td><p>AdoEnums.DataType.INTEGER</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. IUNKNOWN</p></td>
+<td><p>AdoEnums.DataType.IUNKNOWN</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. ЛОНГВАРБИНАРИ</p></td>
+<td><p>AdoEnums.DataType.LONGVARBINARY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. ЛОНГВАРЧАР</p></td>
+<td><p>AdoEnums.DataType.LONGVARCHAR</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. ЛОНГВАРВЧАР</p></td>
+<td><p>AdoEnums.DataType.LONGVARWCHAR</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. NUMERIC</p></td>
+<td><p>AdoEnums.DataType.NUMERIC</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. ПРОПВАРИАНТ</p></td>
+<td><p>AdoEnums.DataType.PROPVARIANT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. SINGLE</p></td>
+<td><p>AdoEnums.DataType.SINGLE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. SMALLINT</p></td>
+<td><p>AdoEnums.DataType.SMALLINT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. TINYINT</p></td>
+<td><p>AdoEnums.DataType.TINYINT</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. УНСИГНЕДБИГИНТ</p></td>
+<td><p>AdoEnums.DataType.UNSIGNEDBIGINT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. УНСИГНЕДИНТ</p></td>
+<td><p>AdoEnums.DataType.UNSIGNEDINT</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. УНСИГНЕДСМАЛЛИНТ</p></td>
+<td><p>AdoEnums.DataType.UNSIGNEDSMALLINT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. УНСИГНЕДТИНИНТ</p></td>
+<td><p>AdoEnums.DataType.UNSIGNEDTINYINT</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. USERDEFINED типа</p></td>
+<td><p>AdoEnums.DataType.USERDEFINED</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. VARBINARY</p></td>
+<td><p>AdoEnums.DataType.VARBINARY</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. VARCHAR</p></td>
+<td><p>AdoEnums.DataType.VARCHAR</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. VARIANT</p></td>
+<td><p>AdoEnums.DataType.VARIANT</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. ВАРНУМЕРИК</p></td>
+<td><p>AdoEnums.DataType.VARNUMERIC</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. DataType. ВАРВЧАР</p></td>
+<td><p>AdoEnums.DataType.VARWCHAR</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. DataType. WCHAR</p></td>
+<td><p>AdoEnums.DataType.WCHAR</p></td>
 </tr>
 </tbody>
 </table>

@@ -23,9 +23,9 @@ ms.locfileid: "32294409"
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает значение **типа Variant** , указывающее дату изменения. Значение равно null, если **DateModified** не поддерживается поставщиком.
+Возвращает значение **Variant,** указывав дату изменения. Значение null, если **DateModified** не поддерживается поставщиком.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Для новых добавленных объектов свойство **DateModified** имеет значение null. После добавления нового [представления](view-object-adox.md) или [процедуры](procedure-object-adox.md)необходимо вызвать метод [Refresh](refresh-method-ado.md) коллекции [представлений](views-collection-adox.md) или [процедур](procedures-collection-adox.md) для получения значений для свойства **DateModified** .
+Свойство **DateModified** имеет null для новых объектов. После приложения нового [](view-object-adox.md) представления [](procedure-object-adox.md)или процедуры необходимо вызвать метод [Refresh](refresh-method-ado.md) коллекции [Views](views-collection-adox.md) или [Procedures,](procedures-collection-adox.md) чтобы получить значения для свойства **DateModified.**
 

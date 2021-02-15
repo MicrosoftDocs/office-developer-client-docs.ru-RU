@@ -1,5 +1,5 @@
 ---
-title: Евентреасоненум (Справочник по базам данных Access на компьютере)
+title: EventReasonEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: EventReasonEnum
 ms:assetid: 0639928e-d0ef-3db3-887e-f3da03913bc7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248815(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32293331"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает причину, по которой возникло событие.
+Указывает причину возникновения события.
 
 <br/>
 
@@ -37,78 +37,78 @@ ms.locfileid: "32293331"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адрснадднев</strong></p></td>
-<td><p>1,1</p></td>
+<td><p><strong>adRsnAddNew</strong></p></td>
+<td><p>1 </p></td>
 <td><p>Операция добавила новую запись.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адрснклосе</strong></p></td>
+<td><p><strong>adRsnClose</strong></p></td>
 <td><p>9 </p></td>
-<td><p>Операция закрыла <strong>набор записей</strong>.</p></td>
+<td><p>Операция закрыла <strong>набор записей.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адрснделете</strong></p></td>
-<td><p>2</p></td>
+<td><p><strong>adRsnDelete</strong></p></td>
+<td><p>2 </p></td>
 <td><p>Операция удалила запись.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адрснфирстчанже</strong></p></td>
-<td><p>11 </p></td>
-<td><p>Операция выполняла первое изменение записи.</p></td>
+<td><p><strong>adRsnFirstChange</strong></p></td>
+<td><p>11</p></td>
+<td><p>Операция внеса первое изменение в запись.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адрснмове</strong></p></td>
+<td><p><strong>adRsnMove</strong></p></td>
 <td><p>10 </p></td>
-<td><p>Операция переместила указатель записи в <strong>набор записей</strong>.</p></td>
+<td><p>Операция переместила указатель записи в <strong>набор recordset.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адрснмовефирст</strong></p></td>
+<td><p><strong>adRsnMoveFirst</strong></p></td>
 <td><p>12 </p></td>
-<td><p>Операция переместила указатель записи на первую запись в <strong>наборе записей</strong>.</p></td>
+<td><p>Операция переместила указатель записи на первую запись в <strong>наборе записей.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адрснмовеласт</strong></p></td>
+<td><p><strong>adRsnMoveLast</strong></p></td>
 <td><p>15 </p></td>
-<td><p>Операция переместила указатель записи на последнюю запись в <strong>наборе записей</strong>.</p></td>
+<td><p>Операция переместила указатель записи на последнюю запись в <strong>наборе записей.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адрснмовенекст</strong></p></td>
-<td><p>13</p></td>
-<td><p>Операция переместила указатель записи на следующую запись в <strong>наборе записей</strong>.</p></td>
+<td><p><strong>adRsnMoveNext</strong></p></td>
+<td><p>13 </p></td>
+<td><p>Операция переместила указатель записи на следующую запись в <strong>наборе записей.</strong></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адрснмовепревиаус</strong></p></td>
+<td><p><strong>adRsnMovePrevious</strong></p></td>
 <td><p>14 </p></td>
-<td><p>Операция переместила указатель записи на предыдущую запись в <strong>наборе записей</strong>.</p></td>
+<td><p>Операция переместила указатель записи на предыдущую запись в <strong>наборе записей.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адрснрекуери</strong></p></td>
+<td><p><strong>adRsnRequery</strong></p></td>
 <td><p>7 </p></td>
-<td><p>Операция запросила <a href="recordset-object-ado.md">набор записей</a>.</p></td>
+<td><p>Операция повторно затевлала <a href="recordset-object-ado.md">набор записей.</a></p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адрснресинч</strong></p></td>
+<td><p><strong>adRsnResynch</strong></p></td>
 <td><p>8 </p></td>
-<td><p>Операция повторно синхронизирует объект <strong>Recordset</strong> с базой данных.</p></td>
+<td><p>Операция повторно синхронизировала <strong>набор записей</strong> с базой данных.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адрснундоадднев</strong></p></td>
+<td><p><strong>adRsnUndoAddNew</strong></p></td>
 <td><p>5 </p></td>
-<td><p>Операция отменяет добавление новой записи.</p></td>
+<td><p>Операция отменила добавление новой записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адрснундоделете</strong></p></td>
+<td><p><strong>adRsnUndoDelete</strong></p></td>
 <td><p>6 </p></td>
-<td><p>Операция отменяет удаление записи.</p></td>
+<td><p>Операция отменила удаление записи.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адрснундаупдате</strong></p></td>
+<td><p><strong>adRsnUndoUpdate</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Операция отменяет обновление записи.</p></td>
+<td><p>Операция отменила обновление записи.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адрснупдате</strong></p></td>
-<td><p>4</p></td>
+<td><p><strong>adRsnUpdate</strong></p></td>
+<td><p>3 </p></td>
 <td><p>Операция обновила существующую запись.</p></td>
 </tr>
 </tbody>
@@ -117,7 +117,7 @@ ms.locfileid: "32293331"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -130,49 +130,49 @@ ms.locfileid: "32293331"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Евентреасон. ADDNEW</p></td>
+<td><p>AdoEnums.EventReason.ADDNEW</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Евентреасон. CLOSE</p></td>
+<td><p>AdoEnums.EventReason.CLOSE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Евентреасон. DELETE</p></td>
+<td><p>AdoEnums.EventReason.DELETE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Евентреасон. ФИРСТЧАНЖЕ</p></td>
+<td><p>AdoEnums.EventReason.FIRSTCHANGE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Евентреасон. MOVE</p></td>
+<td><p>AdoEnums.EventReason.MOVE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Евентреасон. MOVEFIRST</p></td>
+<td><p>AdoEnums.EventReason.MOVEFIRST</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Евентреасон. MOVELAST</p></td>
+<td><p>AdoEnums.EventReason.MOVELAST</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Евентреасон. MOVENEXT</p></td>
+<td><p>AdoEnums.EventReason.MOVENEXT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Евентреасон. MOVEPREVIOUS</p></td>
+<td><p>AdoEnums.EventReason.MOVEPREVIOUS</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Евентреасон. Requery</p></td>
+<td><p>AdoEnums.EventReason.REQUERY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Евентреасон. resynch</p></td>
+<td><p>AdoEnums.EventReason.RESYNCH</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Евентреасон. УНДОАДДНЕВ</p></td>
+<td><p>AdoEnums.EventReason.UNDOADDNEW</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Евентреасон. УНДОДЕЛЕТЕ</p></td>
+<td><p>AdoEnums.EventReason.UNDODELETE</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Евентреасон. УНДАУПДАТЕ</p></td>
+<td><p>AdoEnums.EventReason.UNDOUPDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Евентреасон. UPDATE</p></td>
+<td><p>AdoEnums.EventReason.UPDATE</p></td>
 </tr>
 </tbody>
 </table>

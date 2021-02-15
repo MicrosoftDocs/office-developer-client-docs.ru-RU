@@ -1,5 +1,5 @@
 ---
-title: Свойство Document. Ластупдатед (DAO)
+title: Свойство Document.LastUpdated (DAO)
 TOCTitle: LastUpdated Property
 ms:assetid: 9307ceee-095f-0364-fd5b-905bc523b9c0
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197661(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293807"
 ---
-# <a name="documentlastupdated-property-dao"></a>Свойство Document. Ластупдатед (DAO)
+# <a name="documentlastupdated-property-dao"></a>Свойство Document.LastUpdated (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает дату и время последнего изменения, внесенного в объект. Только для чтения, **Variant**.
+Возвращает дату и время последнего изменения объекта. Только для чтения, **Variant**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . ластупдатед
+*выражение .* LastUpdated
 
-*Expression (выражение* ) Переменная, представляющая объект **Document** .
+*выражение* Переменная, представляюная объект **Document.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-**DateCreated** и **ластупдатед** возвращают дату и время создания или последнего обновления объекта. В многопользовательской среде пользователи должны получить эти параметры непосредственно с файлового сервера, чтобы избежать расхождений в параметрах свойств DateCreated и Ластупдатед.
+**DateCreated** и **LastUpdated** возвращают дату и время создания или последнего обновления объекта. В многоядерной среде пользователи должны получить эти параметры непосредственно с файлового сервера, чтобы избежать несоответствий в параметрах свойств DateCreated и LastUpdated.
 

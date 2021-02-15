@@ -1,5 +1,5 @@
 ---
-title: Свойство DBEngine. Errors (DAO)
+title: Свойство DBEngine.Errors (DAO)
 TOCTitle: Errors Property
 ms:assetid: 594a8752-1f15-0690-b01c-9254951f16f6
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194384(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294318"
 ---
-# <a name="dbengineerrors-property-dao"></a>Свойство DBEngine. Errors (DAO)
+# <a name="dbengineerrors-property-dao"></a>Свойство DBEngine.Errors (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **Errors** , содержащую все хранимые объекты **Error** для указанного объекта. Только для чтения.
+Возвращает **коллекцию Errors,** которая содержит все сохраненные объекты **Error** для указанного объекта. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Обнаружен
+*выражение .* Ошибки
 
 *expression*: переменная, представляющая объект **DBEngine**.
 

@@ -19,7 +19,7 @@ ms.locfileid: "32293961"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [DeleteRule](deleterule-property-adox.md) объекта [Key](key-object-adox.md) . Код добавляет новую [таблицу](table-object-adox.md) , а затем определяет новый первичный ключ, устанавливая **DeleteRule** в **адрикаскаде**.
+В этом примере показано [свойство DeleteRule](deleterule-property-adox.md) объекта [Key.](key-object-adox.md) Код appends a new [Table](table-object-adox.md) and then defines a new primary key, setting **DeleteRule** to **adRICascade**.
 
 ```cpp 
  

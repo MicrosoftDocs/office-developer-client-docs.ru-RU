@@ -1,5 +1,5 @@
 ---
-title: Метод Database. Макереплика (DAO)
+title: Метод Database.MakeReplica (DAO)
 TOCTitle: MakeReplica Method
 ms:assetid: b6bf4982-0804-12ce-849f-d2b4ac2e48a5
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822413(v=office.15)
@@ -18,15 +18,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294920"
 ---
-# <a name="databasemakereplica-method-dao"></a>Метод Database. Макереплика (DAO)
+# <a name="databasemakereplica-method-dao"></a>Метод Database.MakeReplica (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Создает новую реплику из другой реплики базы данных (только для рабочих областей Microsoft Access).
+Создает реплику из другой реплики базы данных (только для рабочей области Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Макереплика (***путь***, ***Описание***, ***Параметры***)
+*выражение .* MakeReplica(***PathName***, ***Description***, ***Options***)
 
 *выражение*: переменная, представляющая объект **Database**.
 
@@ -50,33 +50,33 @@ ms.locfileid: "32294920"
 <tbody>
 <tr class="odd">
 <td><p><em>PathName</em></p></td>
-<td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Путь и имя файла новой реплики. Если реплика является именем существующего файла, возникает ошибка.</p></td>
+<td><p>Обязательно</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Путь и имя файла новой реплики. Если реплика является существующим именем файла, возникает ошибка.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>Description</em></p></td>
-<td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p><strong>Строка</strong> , описывающая создаваемую реплику</p></td>
+<td><p>Обязательно</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p><strong>Строка,</strong> описываемая создаемую реплику</p></td>
 </tr>
 <tr class="odd">
 <td><p><em>Options</em></p></td>
 <td><p>Необязательно</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Константа <strong><a href="replicatypeenum-enumeration-dao.md">репликатипинум</a></strong> , определяющая характеристики создаваемой реплики.</p></td>
+<td><p><strong><a href="replicatypeenum-enumeration-dao.md">Константа ReplicaTypeEnum,</a></strong> которая определяет характеристики создаемой реплики.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Только что созданная частичная реплика будет иметь все свойства **[репликафилтер](tabledef-replicafilter-property-dao.md)** со значением **false**, что означает, что в таблицах не будет данных.
+Все свойства **[ReplicaFilter](tabledef-replicafilter-property-dao.md)** новой частичной реплики будут иметь значение **False,** то есть в таблицах не будет данных.
 
 ## <a name="example"></a>Пример
 
-Эта функция использует метод **макереплика** для создания дополнительной реплики существующей основной реплики. Аргумент Интоптионс может быть сочетанием констант **дбрепмакереадонли** и **дбрепмакепартиал**, а также может быть равно 0. Например, чтобы создать частичную реплику только для чтения, необходимо передать значение **дбрепмакереадонли** + **дбрепмакепартиал** в качестве значения интоптионс.
+Эта функция использует метод **MakeReplica** для создания дополнительной реплики существующего мастера разработки. Аргумент intOptions может быть комбинацией констант **dbRepMakeReadOnly** и **dbRepMakePartial** или может быть 0. Например, чтобы создать частичную реплику только для чтения, необходимо передать значение **dbRepMakeReadOnly**  +  **dbRepMakePartial** в качестве значения intOptions.
 
 ```vb 
 Function MakeAdditionalReplica(strReplicableDB As _ 

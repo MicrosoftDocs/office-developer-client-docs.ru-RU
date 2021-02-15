@@ -1,5 +1,5 @@
 ---
-title: Свойство Database. Properties (DAO)
+title: Свойство Database.Properties (DAO)
 TOCTitle: Properties Property
 ms:assetid: 8279691c-37b7-066b-fe2f-42996ec8133a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196688(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294829"
 ---
-# <a name="databaseproperties-property-dao"></a>Свойство Database. Properties (DAO)
+# <a name="databaseproperties-property-dao"></a>Свойство Database.Properties (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32294829"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Параметры
+*выражение .* Свойства
 
 *выражение*: переменная, представляющая объект **Database**.
 

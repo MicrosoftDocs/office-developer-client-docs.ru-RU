@@ -23,9 +23,9 @@ ms.locfileid: "32294423"
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает значение **типа Variant** , определяющее созданную дату. Значение равно null, если **DateCreated** не поддерживается поставщиком.
+Возвращает значение **Variant,** указывав дату создания. Значение null, если **DateCreated** не поддерживается поставщиком.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Для новых добавленных объектов свойство **DateCreated** имеет значение null. После добавления нового [представления](view-object-adox.md) или [процедуры](procedure-object-adox.md)необходимо вызвать метод [Refresh](refresh-method-ado.md) коллекции [представлений](views-collection-adox.md) или [процедур](procedures-collection-adox.md) для получения значений для свойства **DateCreated** .
+Свойство **DateCreated** имеет null для новых объектов. После приложения нового [](view-object-adox.md) представления [](procedure-object-adox.md)или процедуры необходимо вызвать метод [Refresh](refresh-method-ado.md) коллекции [Views](views-collection-adox.md) или [Procedures,](procedures-collection-adox.md) чтобы получить значения для свойства **DateCreated.**
 

@@ -19,7 +19,7 @@ ms.locfileid: "32295193"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано, как задать свойства [CursorType](cursortype-property-ado.md) и [LockType](locktype-property-ado.md) перед открытием объекта [Recordset](recordset-object-ado.md). В нем также показано значение свойства [EditMode](editmode-property-ado.md) в различных условиях. Для выполнения этой процедуры требуется функция Едитмодеаутпут.
+В этом примере показано, как установить [свойства CursorType](cursortype-property-ado.md) и [LockType](locktype-property-ado.md) перед открытием [объекта Recordset.](recordset-object-ado.md) Здесь также показано значение свойства [EditMode](editmode-property-ado.md) в различных условиях. Для запуска этой процедуры требуется функция EditModeOutput.
 
 ```java 
  

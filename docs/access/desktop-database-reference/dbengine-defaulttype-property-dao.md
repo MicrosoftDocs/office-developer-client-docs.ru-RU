@@ -1,5 +1,5 @@
 ---
-title: Свойство DBEngine. DefaultType (DAO)
+title: Свойство DBEngine.DefaultType (DAO)
 TOCTitle: DefaultType Property
 ms:assetid: b4371f3e-1ce0-1d0f-93a8-0c5329b510ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822060(v=office.15)
@@ -18,26 +18,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294381"
 ---
-# <a name="dbenginedefaulttype-property-dao"></a>Свойство DBEngine. DefaultType (DAO)
+# <a name="dbenginedefaulttype-property-dao"></a>Свойство DBEngine.DefaultType (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, указывающее тип рабочей области, который будет использоваться при создании следующего объекта **[Workspace](workspace-object-dao.md)** .
+Задает или возвращает значение, которое указывает, какой тип рабочей области будет использоваться следующим созданным объектом **[Workspace.](workspace-object-dao.md)**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . DefaultType
+*выражение .* DefaultType
 
 *expression*: переменная, представляющая объект **DBEngine**.
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Параметр или возвращаемое значение может быть одной из констант **[воркспацетипинум](workspacetypeenum-enumeration-dao.md)** .
+Значение параметра или возвращаемого значения может быть одной из **[констант WorkspaceTypeEnum.](workspacetypeenum-enumeration-dao.md)**
 
 
 > [!NOTE]
 > Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.
 
-Параметр можно переопределить для отдельной **рабочей области** , задав аргумент Type для метода **[CreateWorkspace](dbengine-createworkspace-method-dao.md)** .
+Параметр может быть переопределен  для одной рабочей области, задав аргумент типа **[методу CreateWorkspace.](dbengine-createworkspace-method-dao.md)**
 

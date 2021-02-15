@@ -18,16 +18,16 @@ ms.locfileid: "32294892"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Метод Database. Close (DAO)](database-close-method-dao.md)
-- [Метод Database. CreateProperty (DAO)](database-createproperty-method-dao.md)
+- [Метод Database.Close (DAO)](database-close-method-dao.md)
+- [Метод Database.CreateProperty (DAO)](database-createproperty-method-dao.md)
 - [Метод Database.CreateQueryDef (DAO)](database-createquerydef-method-dao.md)
-- [Метод Database. Креатерелатион (DAO)](database-createrelation-method-dao.md)
+- [Метод Database.CreateRelation (DAO)](database-createrelation-method-dao.md)
 - [Метод Database.CreateTableDef (DAO)](database-createtabledef-method-dao.md)
 - [Метод Database.Execute (DAO)](database-execute-method-dao.md)
-- [Метод Database. Макереплика (DAO)](database-makereplica-method-dao.md)
-- [Метод Database. NewPassword (DAO)](database-newpassword-method-dao.md)
+- [Метод Database.MakeReplica (DAO)](database-makereplica-method-dao.md)
+- [Метод Database.NewPassword (DAO)](database-newpassword-method-dao.md)
 - [Метод Database.OpenRecordset (DAO)](database-openrecordset-method-dao.md)
-- [Метод Database. Популатепартиал (DAO)](database-populatepartial-method-dao.md)
-- [Метод Database. Synchronize (DAO)](database-synchronize-method-dao.md)
+- [Метод Database.PopulatePartial (DAO)](database-populatepartial-method-dao.md)
+- [Метод Database.Synchronize (DAO)](database-synchronize-method-dao.md)
 
 

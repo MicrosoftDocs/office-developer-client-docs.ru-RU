@@ -1,5 +1,5 @@
 ---
-title: Свойство Document. DateCreated (DAO)
+title: Свойство Document.DateCreated (DAO)
 TOCTitle: DateCreated Property
 ms:assetid: e3b881df-1673-f584-bda5-5945b3081ac1
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835760(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293814"
 ---
-# <a name="documentdatecreated-property-dao"></a>Свойство Document. DateCreated (DAO)
+# <a name="documentdatecreated-property-dao"></a>Свойство Document.DateCreated (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -23,7 +23,7 @@ ms.locfileid: "32293814"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . DateCreated
+*выражение .* DateCreated
 
-*Expression (выражение* ) Переменная, представляющая объект **Document** .
+*выражение* Переменная, представляюная объект **Document.**
 

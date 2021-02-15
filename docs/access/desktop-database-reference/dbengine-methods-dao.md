@@ -18,14 +18,14 @@ ms.locfileid: "32294269"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Метод DBEngine. BeginTrans (DAO)](dbengine-begintrans-method-dao.md)
-- [Метод DBEngine. CommitTrans (DAO)](dbengine-committrans-method-dao.md)
+- [Метод DBEngine.BeginTrans (DAO)](dbengine-begintrans-method-dao.md)
+- [Метод DBEngine.CommitTrans (DAO)](dbengine-committrans-method-dao.md)
 - [Метод DBEngine.CompactDatabase (DAO)](dbengine-compactdatabase-method-dao.md)
-- [Метод DBEngine. CreateDatabase (DAO)](dbengine-createdatabase-method-dao.md)
-- [Метод DBEngine. CreateWorkspace (DAO)](dbengine-createworkspace-method-dao.md)
-- [Метод DBEngine. Idle (DAO)](dbengine-idle-method-dao.md)
-- [Метод DBEngine. OpenConnection (DAO)](dbengine-openconnection-method-dao.md)
+- [Метод DBEngine.CreateDatabase (DAO)](dbengine-createdatabase-method-dao.md)
+- [Метод DBEngine.CreateWorkspace (DAO)](dbengine-createworkspace-method-dao.md)
+- [Метод DBEngine.Idle (DAO)](dbengine-idle-method-dao.md)
+- [Метод DBEngine.OpenConnection (DAO)](dbengine-openconnection-method-dao.md)
 - [Метод DBEngine.OpenDatabase (DAO)](dbengine-opendatabase-method-dao.md)
-- [Метод DBEngine. RegisterDatabase (DAO)](dbengine-registerdatabase-method-dao.md)
-- [Метод DBEngine. Rollback (DAO)](dbengine-rollback-method-dao.md)
-- [Метод DBEngine. SetOption (DAO)](dbengine-setoption-method-dao.md)
+- [Метод DBEngine.RegisterDatabase (DAO)](dbengine-registerdatabase-method-dao.md)
+- [Метод DBEngine.Rollback (DAO)](dbengine-rollback-method-dao.md)
+- [Метод DBEngine.SetOption (DAO)](dbengine-setoption-method-dao.md)

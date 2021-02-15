@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события пространства, события (RDS)
+title: Свойства, методы и события DataSpace (RDS)
 TOCTitle: Properties, methods, and events
 ms:assetid: 287a93af-891c-4f7b-11d2-506ba6f19155
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249043(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294437"
 ---
-# <a name="dataspace-properties-methods-and-events-rds"></a>Свойства, методы и события пространства, события (RDS)
+# <a name="dataspace-properties-methods-and-events-rds"></a>Свойства, методы и события DataSpace (RDS)
 
 
 **Область применения**: Access 2013, Office 2013

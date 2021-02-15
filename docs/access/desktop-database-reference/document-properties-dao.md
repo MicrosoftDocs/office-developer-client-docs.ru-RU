@@ -18,9 +18,9 @@ ms.locfileid: "32293765"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство Document. Container (DAO)](document-container-property-dao.md)
-- [Свойство Document. DateCreated (DAO)](document-datecreated-property-dao.md)
-- [Свойство Document. Ластупдатед (DAO)](document-lastupdated-property-dao.md)
-- [Свойство Document.Name (DAO)](document-name-property-dao.md)
-- [Свойство Document. Properties (DAO)](document-properties-property-dao.md)
+- [Свойство Document.Container (DAO)](document-container-property-dao.md)
+- [Свойство Document.DateCreated (DAO)](document-datecreated-property-dao.md)
+- [Свойство Document.LastUpdated (DAO)](document-lastupdated-property-dao.md)
+- [Document.Name (DAO)](document-name-property-dao.md)
+- [Свойство Document.Properties (DAO)](document-properties-property-dao.md)
 

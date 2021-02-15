@@ -1,5 +1,5 @@
 ---
-title: Пространство (RDS) (ADO)
+title: DataSpace (RDS) (ADO)
 TOCTitle: DataSpace (RDS)
 ms:assetid: eb9d33ab-e71d-42e0-bbfc-d7de80656dae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250196(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294458"
 ---
-# <a name="dataspace-rds-ado"></a>Пространство (RDS) (ADO)
+# <a name="dataspace-rds-ado"></a>DataSpace (RDS) (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Space (RDS)](dataspace-object-rds.md)
-- [Свойства, методы и события пространства, события (RDS)](dataspace-properties-methods-and-events-rds.md)
+- [Объект DataSpace (RDS)](dataspace-object-rds.md)
+- [Свойства, методы и события DataSpace (RDS)](dataspace-properties-methods-and-events-rds.md)
 

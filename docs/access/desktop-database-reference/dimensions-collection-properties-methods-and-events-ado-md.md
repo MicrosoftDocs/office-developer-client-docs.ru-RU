@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события коллекции Dimensions (ADO MD)
+title: Dimensions collection properties, methods, and events (ADO MD)
 TOCTitle: Dimensions collection properties, methods, and events
 ms:assetid: c5bf0d35-ff61-541c-c541-d186c45706e9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249966(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293856"
 ---
-# <a name="dimensions-collection-properties-methods-and-events-ado-md"></a>Свойства, методы и события коллекции Dimensions (ADO MD)
+# <a name="dimensions-collection-properties-methods-and-events-ado-md"></a>Dimensions collection properties, methods, and events (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013

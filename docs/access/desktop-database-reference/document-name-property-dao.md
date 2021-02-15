@@ -1,5 +1,5 @@
 ---
-title: Свойство Document.Name (DAO)
+title: Document.Name (DAO)
 TOCTitle: Name Property
 ms:assetid: 7810a441-2d85-fa9e-a27f-9db464cb9cce
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196102(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293786"
 ---
-# <a name="documentname-property-dao"></a>Свойство Document.Name (DAO)
+# <a name="documentname-property-dao"></a>Document.Name (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -27,7 +27,7 @@ ms.locfileid: "32293786"
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Расширением
+*выражение .* Имя
 
-*Expression (выражение* ) Переменная, представляющая объект **Document** .
+*выражение* Переменная, представляюная объект **Document.**
 

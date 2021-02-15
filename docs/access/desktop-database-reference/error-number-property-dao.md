@@ -1,5 +1,5 @@
 ---
-title: Свойство Error. Number (DAO)
+title: Свойство Error.Number (DAO)
 TOCTitle: Number Property
 ms:assetid: 2fb94dca-f990-04f8-bbd2-9919d28de75a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192259(v=office.15)
@@ -18,27 +18,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293499"
 ---
-# <a name="errornumber-property-dao"></a>Свойство Error. Number (DAO)
+# <a name="errornumber-property-dao"></a>Свойство Error.Number (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
  
 
-Возвращает числовое значение, определяющее ошибку.
+Возвращает числовую величину, указываю на ошибку.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Значение
+*выражение .* Number
 
-*Expression (выражение* ) Переменная, представляющая объект **Error** .
+*выражение* Переменная, представляюная объект **Error.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Используйте свойство **Number** для определения возникшей ошибки. Значение свойства соответствует уникальному номеру ловушки, соответствующему условию ошибки.
+Используйте свойство **Number,** чтобы определить возникную ошибку. Значение свойства соответствует уникальному номеру ловушек, соответствующему условию ошибки.
 
 ## <a name="example"></a>Пример
 
-В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства **Description**, **Number**, **Source**, **HelpContext**и **HelpFile** полученного объекта **Error** .
+В этом примере показана приодерживая ошибка, она застигает ее и отображает свойства **Description,** **Number,** **Source,** **HelpContext** и **HelpFile** итоговых объектов **Error.**
 
 ```vb 
 Sub DescriptionX() 

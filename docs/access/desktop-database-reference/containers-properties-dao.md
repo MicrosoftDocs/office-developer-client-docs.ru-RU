@@ -18,5 +18,5 @@ ms.locfileid: "32295557"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Свойство Containers. Count (DAO)](containers-count-property-dao.md)
+- [Свойство Containers.Count (DAO)](containers-count-property-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Импорт и экспорт данных (Справочник по базам данных Access на компьютере)
+title: Импорт и экспорт данных (справочник по базам данных Access для настольных ПК)
 TOCTitle: Data import/export
 ms:assetid: 30b43148-8915-4204-87cc-09621f4d628a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124236(v=office.15)

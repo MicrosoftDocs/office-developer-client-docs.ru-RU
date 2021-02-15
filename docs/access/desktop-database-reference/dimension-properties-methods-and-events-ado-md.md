@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события измерений (ADO MD)
+title: Dimension properties, methods, and events (ADO MD)
 TOCTitle: Properties, methods, and events
 ms:assetid: 6aae3565-aeaf-582d-2a5a-c8202b788dfe
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249419(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293891"
 ---
-# <a name="dimension-properties-methods-and-events-ado-md"></a>Свойства, методы и события измерений (ADO MD)
+# <a name="dimension-properties-methods-and-events-ado-md"></a>Dimension properties, methods, and events (ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Свойства и коллекции
+## <a name="propertiescollections"></a>Properties/Collections
 
 - [Свойство Description](description-property-ado-md.md)
 - [Коллекция Hierarchies](hierarchies-collection-ado-md.md)

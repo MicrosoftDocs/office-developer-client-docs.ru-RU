@@ -1,5 +1,5 @@
 ---
-title: Блоки данных (Справочник по базам данных Access на компьютере)
+title: Блоки данных (справочник по базам данных Access для настольных ПК)
 TOCTitle: data blocks
 ms:assetid: 8afd9208-1dcd-4b9a-85a0-dabacc09058d
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125230(v=office.15)
@@ -18,8 +18,8 @@ ms.locfileid: "32295130"
 
 **Область применения**: Access 2013, Office 2013
 
-- [Блок данных СоздатьЗапись](createrecord-data-block.md)
-- [Блок данных ИзменитьЗапись](editrecord-data-block.md)
-- [Блок данных ДляКаждойЗаписи](foreachrecord-data-block.md)
+- [Блок данных CreateRecord](createrecord-data-block.md)
+- [Блок данных EditRecord](editrecord-data-block.md)
+- [Блок данных ForEachRecord](foreachrecord-data-block.md)
 - [Блок данных "НайтиЗапись"](lookuprecord-data-block.md)
 

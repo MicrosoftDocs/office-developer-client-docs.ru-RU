@@ -1,5 +1,5 @@
 ---
-title: Событие событие executecomplete (ADO)
+title: Событие ExecuteComplete (ADO)
 TOCTitle: ExecuteComplete event (ADO)
 ms:assetid: 47317d97-e373-32f4-9438-2dff46b8d367
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249219(v=office.15)
@@ -14,28 +14,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293226"
 ---
-# <a name="executecomplete-event-ado"></a>Событие событие executecomplete (ADO)
+# <a name="executecomplete-event-ado"></a>Событие ExecuteComplete (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-Событие **событие executecomplete** вызывается после завершения выполнения команды.
+Событие **ExecuteComplete** вызвано после завершения выполнения команды.
 
 ## <a name="syntax"></a>Синтаксис
 
-Событие executecomplete*рекордсаффектед*, *перрор*, *адстатус*, *пкомманд*, *пода*, *пконнектион*
+ExecuteComplete *RecordsAffected,* *pError,* *adStatus*, *pCommand*, *pRecordset*, *pConnection*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*рекордсаффектед* |**Длинное** значение, указывающее количество записей, на которые влияет команда.|
-|*перрор* |Объект [Error](error-object-ado.md) . В нем описывается ошибка, которая возникла, если значение **адстатус** равно **адстатусеррорсоккурред**; в противном случае он не задается.|
-|*адстатус* |[Евентстатусенум](eventstatusenum.md). Перед возвращением этого события установите для этого параметра значение **адстатусунвантедевент** , чтобы предотвратить появление последующих уведомлений.|
-|*пкомманд* |[Командный](command-object-ado.md) объект, который был выполнен. Содержит объект **Command** даже при вызове метода **Connection. Execute** или **Recordset. Open** без явного создания **команды**, при этом объект **Command** создается внутри ADO.|
-|*предшнур* |Объект [Recordset](recordset-object-ado.md) , являющийся результатом выполненной команды. Этот **набор записей** может быть пустым. Не следует удалять этот объект Recordset из этого обработчика событий. Это приведет к нарушению прав доступа при попытке ADO получить доступ к объекту, который больше не существует.|
-|*пконнектион* |Объект [Connection](connection-object-ado.md) . Подключение, для которого выполнялась операция.|
+|*RecordsAffected* |**Длинное** значение, указывающее количество записей, на которые влияет команда.|
+|*pError* |Объект [Error.](error-object-ado.md) В ней описывается ошибка, которая произошла, если **значением adStatus** является **adStatusErrorsOccurred;** в противном случае он не установлен.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Перед возвращением этого события установите для этого параметра **параметр adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
+|*pCommand* |Выполненный [объект](command-object-ado.md) Command. Содержит объект **Command** даже при вызове **Connection.Execute** или **Recordset.Open** без явного создания **команды,** в которых объект **Command** создается внутри ADO.|
+|*pRecordset* |Объект [Recordset,](recordset-object-ado.md) который является результатом выполненной команды. Этот **набор записей может** быть пустым. Никогда не следует уничтожать этот объект Recordset из этого обработера событий. Это приведет к нарушению доступа, когда ADO пытается получить доступ к объекту, который больше не существует.|
+|*pConnection* |Объект [Connection.](connection-object-ado.md) Подключение, по которому была выполнена операция.|
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-В связи с **подключением** может возникнуть событие **событие executecomplete** . [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **команда.** [EXECUTE](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **Recordset.** [Открыть](open-method-ado-recordset.md), **Recordset.** [Requery](requery-method-ado.md)или **Recordset.** Методы [NextRecordset](nextrecordset-method-ado.md) .
+Событие **ExecuteComplete** может произойти из-за **подключения.** [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **Command.** [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **Recordset.** [Open](open-method-ado-recordset.md), **Recordset.** [Requery](requery-method-ado.md)или **Recordset.** [Методы NextRecordset.](nextrecordset-method-ado.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Метод Container. Refresh (DAO)
+title: Метод Containers.Refresh (DAO)
 TOCTitle: Refresh Method
 ms:assetid: a4fe114a-9209-4a01-b7c8-8e83bc5adb04
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff821123(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295599"
 ---
-# <a name="containersrefresh-method-dao"></a>Метод Container. Refresh (DAO)
+# <a name="containersrefresh-method-dao"></a>Метод Containers.Refresh (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Не поддерживается для коллекции **[Connections](connections-collection-dao.md)** .
+Не поддерживается для коллекции **[Connections.](connections-collection-dao.md)**
 
-Невозможно использовать метод **Refresh** с непостоянными коллекциями, такими как **подключения**, **базы данных**, **наборы записей**, **рабочие области**или коллекция **QueryDef** объекта **Connection** .
+Метод Refresh нельзя  использовать с неохраняемой коллекцией, например **Connections, Databases,** **Recordsets,** **Workspaces** или **коллекцией QueryDefs** объекта **Connection.** 
 

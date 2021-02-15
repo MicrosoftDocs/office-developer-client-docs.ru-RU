@@ -1,5 +1,5 @@
 ---
-title: Свойство Error. Description (DAO)
+title: Свойство Error.Description (DAO)
 TOCTitle: Description Property
 ms:assetid: 47a84bec-3258-f2c7-e1af-239da39844dc
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff193218(v=office.15)
@@ -18,27 +18,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293506"
 ---
-# <a name="errordescription-property-dao"></a>Свойство Error. Description (DAO)
+# <a name="errordescription-property-dao"></a>Свойство Error.Description (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
  
 
-Возвращает строку описания, связанную с ошибкой. Это свойство по умолчанию для объекта **Error** .
+Возвращает описательную строку, связанную с ошибкой. Это свойство по умолчанию для объекта **Error.**
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Обзор
+*выражение .* Описание
 
-*Expression (выражение* ) Переменная, представляющая объект **Error** .
+*выражение* Переменная, представляюная объект **Error.**
 
-## <a name="remarks"></a>Примечания
+## <a name="remarks"></a>Заметки
 
-Свойство **Description** содержит краткое описание ошибки. Используйте это свойство, чтобы предупредить пользователя об ошибке, которая не может быть обработана или не требуется.
+Свойство **Description** содержит краткое описание ошибки. Это свойство используется для оповещения пользователя об ошибке, которую невозможно или не нужно обрабатывать.
 
 ## <a name="example"></a>Пример
 
-В этом примере вызывается ошибка, выполняется ее перехват и отображаются свойства **Description**, **Number**, **Source**, **HelpContext**и **HelpFile** полученного объекта Error.
+В этом примере показана привратная ошибка, ее ловка и отображение свойств **Description,** **Number,** **Source,** **HelpContext** и **HelpFile** итоговых объектов Error.
 
 ```vb 
 Sub DescriptionX() 

@@ -1,5 +1,5 @@
 ---
-title: Свойство Database. отношениях (DAO)
+title: Свойство Database.Relations (DAO)
 TOCTitle: Relations Property
 ms:assetid: 7b2f9cfb-72f2-4641-8af9-3a4d1cd887ce
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196193(v=office.15)
@@ -18,16 +18,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294724"
 ---
-# <a name="databaserelations-property-dao"></a>Свойство Database. отношениях (DAO)
+# <a name="databaserelations-property-dao"></a>Свойство Database.Relations (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает коллекцию **связей** , содержащую все хранимые объекты **relation** для указанной базы данных. Только для чтения.
+Возвращает коллекцию **Relations,** которая содержит все сохраненные объекты **Relation** для указанной базы данных. Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . Отношениях
+*выражение .* Relations
 
 *выражение*: переменная, представляющая объект **Database**.
 

@@ -1,5 +1,5 @@
 ---
-title: Метод Database. NewPassword (DAO)
+title: Метод Database.NewPassword (DAO)
 TOCTitle: NewPassword Method
 ms:assetid: 01c1c454-d651-222c-225a-2b02734a1b7a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844754(v=office.15)
@@ -18,17 +18,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32294857"
 ---
-# <a name="databasenewpassword-method-dao"></a>Метод Database. NewPassword (DAO)
+# <a name="databasenewpassword-method-dao"></a>Метод Database.NewPassword (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Изменяет пароль существующей базы данных ядра СУБД Microsoft Access (только для рабочих областей Microsoft Access).
+Изменяет пароль существующей базы данных ястановки базы данных Microsoft Access (только для рабочей области Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*Expression* . NewPassword (***бстролд***, ***бстрнев***)
+*выражение .* NewPassword(***bstrOld***, ***bstrNew***)
 
-*Expression (выражение* ) Выражение, возвращающее объект **базы данных** .
+*выражение* Выражение, которое возвращает объект **Database.**
 
 ## <a name="parameters"></a>Параметры
 
@@ -49,17 +49,17 @@ ms.locfileid: "32294857"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><em>бстролд</em></p></td>
-<td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Текущее значение свойства <strong>Password</strong> объекта <strong>Database</strong> .</p></td>
+<td><p><em>bstrOld</em></p></td>
+<td><p>Обязательно</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Текущий параметр свойства <strong>Password</strong> объекта <strong>Database.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><em>бстрнев</em></p></td>
-<td><p>Обязательный</p></td>
-<td><p><strong>String</strong></p></td>
-<td><p>Новый параметр свойства <strong>Password</strong> объекта <strong>Database</strong> .</p>
-<p><strong>Note</strong>: Используйте надежные пароли, объединяющие прописные и строчные буквы, цифры и символы. В ненадежных паролях не используются сочетания таких элементов. Надежный пароль: Y6dh!et5. Слабый пароль: House27. Используйте надежный пароль, который можно запомнить, чтобы не пришлось его записывать.</p>
+<td><p><em>bstrNew</em></p></td>
+<td><p>Обязательно</p></td>
+<td><p><strong>Строка</strong></p></td>
+<td><p>Новый параметр свойства <strong>Password</strong> объекта <strong>Database.</strong></p>
+<p><strong>ПРИМЕЧАНИЕ.</strong>Используйте надежные пароли, которые сочетают в себе буквы верхнего и нижнего регистра, цифры и символы. В ненадежных паролях не используются сочетания таких элементов. Надежный пароль: Y6dh!et5. Слабый пароль: House27. Используйте надежный пароль, который можно запомнить, чтобы не пришлось его записывать.</p>
 </td>
 </tr>
 </tbody>
@@ -68,14 +68,14 @@ ms.locfileid: "32294857"
 
 ## <a name="remarks"></a>Примечания
 
-Строки Бстролд и Бстрнев могут иметь длину до 20 символов и могут содержать любые символы, кроме символов ASCII 0 (null). Чтобы очистить пароль, используйте строку нулевой длины ("") для Бстрнев.
+Строки bstrOld и bstrNew могут иметь длину до 20 символов и могут включать любые символы, кроме символа ASCII 0 (null). Чтобы очистить пароль, используйте строку нулевой длины ("") для bstrNew.
 
 В паролях учитывается регистр.
 
-Если база данных не имеет пароля, ядро СУБД Microsoft Access автоматически создаст ее, передав для старого пароля строку нулевой длины ("").
+Если у базы данных нет пароля, яма баз данных Microsoft Access автоматически создаст его, передав строку нулевой длины ("") для старого пароля.
 
 
 > [!IMPORTANT]
-> Если вы потеряли пароль, вы не сможете повторно открыть базу данных.
+> Если пароль теряется, вы никогда не сможете снова открыть базу данных.
 
 

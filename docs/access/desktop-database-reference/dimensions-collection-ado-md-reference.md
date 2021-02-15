@@ -1,5 +1,5 @@
 ---
-title: Коллекция Dimensions (Справочник по ADO MD)
+title: Dimensions collection (ADO MD reference)
 TOCTitle: Dimensions collection (ADO MD)
 ms:assetid: 34f1e116-2940-4ac1-aaea-9b92002cf182
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249113(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293849"
 ---
-# <a name="dimensions-collection-ado-md-reference"></a>Коллекция Dimensions (Справочник по ADO MD)
+# <a name="dimensions-collection-ado-md-reference"></a>Dimensions collection (ADO MD reference)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Dimensions (ADO MD)](dimensions-collection-ado-md.md)
-- [Свойства, методы и события коллекции Dimensions (ADO MD)](dimensions-collection-properties-methods-and-events-ado-md.md)
+- [Dimensions collection (ADO MD)](dimensions-collection-ado-md.md)
+- [Dimensions collection properties, methods, and events (ADO MD)](dimensions-collection-properties-methods-and-events-ado-md.md)
 

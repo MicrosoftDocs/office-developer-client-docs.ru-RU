@@ -1,5 +1,5 @@
 ---
-title: Евентстатусенум (Справочник по базам данных Access на компьютере)
+title: EventStatusEnum (справочник по базе данных Access для настольных ПК)
 TOCTitle: EventStatusEnum
 ms:assetid: ae1711bc-2af5-04fd-7d8c-222d8afc9d3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249821(v=office.15)
@@ -37,27 +37,27 @@ ms.locfileid: "32293275"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong>адстатусканцел</strong></p></td>
+<td><p><strong>adStatusCancel</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Запрашивает отмену операции, которая привела к возникновению события.</p></td>
+<td><p>Запрашивает отмену операции, которая привела к событию.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адстатускантдени</strong></p></td>
-<td><p>4</p></td>
-<td><p>Указывает, что операция не может запросить отмену ожидающей операции.</p></td>
+<td><p><strong>adStatusCantDeny</strong></p></td>
+<td><p>3 </p></td>
+<td><p>Указывает, что операция не может запросить отмену ожидающих операций.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адстатусеррорсоккурред</strong></p></td>
-<td><p>2</p></td>
-<td><p>Указывает, что операция, вызвавшая событие, не удалась из-за ошибки или ошибок.</p></td>
+<td><p><strong>adStatusErrorsOccurred</strong></p></td>
+<td><p>2 </p></td>
+<td><p>Указывает, что операция, вызвавла сбой события, вызвана ошибкой или ошибкой.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong>адстатусок</strong></p></td>
-<td><p>1,1</p></td>
-<td><p>Указывает, что операция, вызвавшая событие, выполнена успешно.</p></td>
+<td><p><strong>adStatusOK</strong></p></td>
+<td><p>1 </p></td>
+<td><p>Указывает, что операция, которая привела к событию, была успешной.</p></td>
 </tr>
 <tr class="odd">
-<td><p><strong>адстатусунвантедевент</strong></p></td>
+<td><p><strong>adStatusUnwantedEvent</strong></p></td>
 <td><p>5 </p></td>
 <td><p>Предотвращает последующие уведомления до завершения выполнения метода события.</p></td>
 </tr>
@@ -67,7 +67,7 @@ ms.locfileid: "32293275"
 
 ### <a name="adowfc-equivalent"></a>Эквивалент ADO/WFC
 
-Пакет: **com. MS. WFC. Data**
+Пакет: **com.ms.wfc.data**
 
 <table>
 <colgroup>
@@ -80,19 +80,19 @@ ms.locfileid: "32293275"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p>Адоенумс. Евентстатус. CANCEL</p></td>
+<td><p>AdoEnums.EventStatus.CANCEL</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Евентстатус. КАНТДЕНИ</p></td>
+<td><p>AdoEnums.EventStatus.CANTDENY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Евентстатус. ЕРРОРСОККУРРЕД</p></td>
+<td><p>AdoEnums.EventStatus.ERRORSOCCURRED</p></td>
 </tr>
 <tr class="even">
-<td><p>Адоенумс. Евентстатус. ОК</p></td>
+<td><p>AdoEnums.EventStatus.OK</p></td>
 </tr>
 <tr class="odd">
-<td><p>Адоенумс. Евентстатус. УНВАНТЕДЕВЕНТ</p></td>
+<td><p>AdoEnums.EventStatus.UNWANTEDEVENT</p></td>
 </tr>
 </tbody>
 </table>
