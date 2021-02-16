@@ -19,53 +19,53 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303215"
 ---
-# <a name="pidlidtaskdatecompleted-canonical-property"></a><span data-ttu-id="d2538-103">Каноническое свойство PidLidTaskDateCompleted</span><span class="sxs-lookup"><span data-stu-id="d2538-103">PidLidTaskDateCompleted Canonical Property</span></span>
+# <a name="pidlidtaskdatecompleted-canonical-property"></a><span data-ttu-id="c33aa-103">Каноническое свойство PidLidTaskDateCompleted</span><span class="sxs-lookup"><span data-stu-id="c33aa-103">PidLidTaskDateCompleted Canonical Property</span></span>
 
   
   
-<span data-ttu-id="d2538-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d2538-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c33aa-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c33aa-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d2538-105">Указывает дату завершения задачи пользователем.</span><span class="sxs-lookup"><span data-stu-id="d2538-105">Specifies the date when the user completes the task.</span></span>
+<span data-ttu-id="c33aa-105">Указывает дату завершения задачи пользователем.</span><span class="sxs-lookup"><span data-stu-id="c33aa-105">Specifies the date when the user completes the task.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="d2538-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="d2538-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="d2538-107">диспидтаскдатекомплетед</span><span class="sxs-lookup"><span data-stu-id="d2538-107">dispidTaskDateCompleted</span></span>  <br/> |
-|<span data-ttu-id="d2538-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="d2538-108">Property set:</span></span>  <br/> |<span data-ttu-id="d2538-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="d2538-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="d2538-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="d2538-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="d2538-111">0x0000810F</span><span class="sxs-lookup"><span data-stu-id="d2538-111">0x0000810F</span></span>  <br/> |
-|<span data-ttu-id="d2538-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="d2538-112">Data type:</span></span>  <br/> |<span data-ttu-id="d2538-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="d2538-113">PT_SYSTIME</span></span>  <br/> |
-|<span data-ttu-id="d2538-114">Область:</span><span class="sxs-lookup"><span data-stu-id="d2538-114">Area:</span></span>  <br/> |<span data-ttu-id="d2538-115">Задача</span><span class="sxs-lookup"><span data-stu-id="d2538-115">Task</span></span>  <br/> |
+|<span data-ttu-id="c33aa-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="c33aa-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="c33aa-107">dispidTaskDateCompleted</span><span class="sxs-lookup"><span data-stu-id="c33aa-107">dispidTaskDateCompleted</span></span>  <br/> |
+|<span data-ttu-id="c33aa-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="c33aa-108">Property set:</span></span>  <br/> |<span data-ttu-id="c33aa-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="c33aa-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="c33aa-110">Длинный ИД (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="c33aa-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="c33aa-111">0x0000810F</span><span class="sxs-lookup"><span data-stu-id="c33aa-111">0x0000810F</span></span>  <br/> |
+|<span data-ttu-id="c33aa-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="c33aa-112">Data type:</span></span>  <br/> |<span data-ttu-id="c33aa-113">PT_SYSTIME</span><span class="sxs-lookup"><span data-stu-id="c33aa-113">PT_SYSTIME</span></span>  <br/> |
+|<span data-ttu-id="c33aa-114">Область:</span><span class="sxs-lookup"><span data-stu-id="c33aa-114">Area:</span></span>  <br/> |<span data-ttu-id="c33aa-115">Task</span><span class="sxs-lookup"><span data-stu-id="c33aa-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d2538-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="d2538-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c33aa-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="c33aa-116">Remarks</span></span>
 
-<span data-ttu-id="d2538-117">Если этот параметр задан, то у этого свойства должен быть компонент времени полуночи в местном часовом поясе, преобразованный в формат UTC.</span><span class="sxs-lookup"><span data-stu-id="d2538-117">If set, this property must have a time component of midnight in the local time zone, converted to Coordinated Universal Time (UTC).</span></span>
+<span data-ttu-id="c33aa-117">Если этот элемент заданной, это свойство должно иметь компонент времени в полночь в локальном часовом поясе, преобразованный в UTC.</span><span class="sxs-lookup"><span data-stu-id="c33aa-117">If set, this property must have a time component of midnight in the local time zone, converted to Coordinated Universal Time (UTC).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="d2538-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="d2538-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="c33aa-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="c33aa-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="d2538-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="d2538-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="c33aa-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="c33aa-119">Protocol specifications</span></span>
 
-<span data-ttu-id="d2538-120">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d2538-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c33aa-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c33aa-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="d2538-121">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="d2538-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="c33aa-121">Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="c33aa-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="d2538-122">[[MS — ОКСОТАСК]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d2538-122">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="c33aa-122">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="c33aa-122">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="d2538-123">Определяет несколько объектов, которые моделируют электронные эквиваленты задач, назначений задач и обновлений задач.</span><span class="sxs-lookup"><span data-stu-id="d2538-123">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span> 
+> <span data-ttu-id="c33aa-123">Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач.</span><span class="sxs-lookup"><span data-stu-id="c33aa-123">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span> 
     
-### <a name="header-files"></a><span data-ttu-id="d2538-124">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="d2538-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="c33aa-124">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="c33aa-124">Header files</span></span>
 
-<span data-ttu-id="d2538-125">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="d2538-125">Mapidefs.h</span></span>
+<span data-ttu-id="c33aa-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c33aa-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="d2538-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="d2538-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="c33aa-126">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="c33aa-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="d2538-127">См. также</span><span class="sxs-lookup"><span data-stu-id="d2538-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c33aa-127">См. также</span><span class="sxs-lookup"><span data-stu-id="c33aa-127">See also</span></span>
 
 
 
-[<span data-ttu-id="d2538-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="d2538-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="c33aa-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c33aa-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="d2538-129">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="d2538-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="c33aa-129">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="c33aa-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="d2538-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="d2538-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="c33aa-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="c33aa-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="d2538-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="d2538-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="c33aa-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="c33aa-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

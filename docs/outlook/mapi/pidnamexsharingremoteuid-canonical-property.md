@@ -19,49 +19,49 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32315830"
 ---
-# <a name="pidnamexsharingremoteuid-canonical-property"></a><span data-ttu-id="d0fd2-103">Каноническое свойство PidNameXSharingRemoteUid</span><span class="sxs-lookup"><span data-stu-id="d0fd2-103">PidNameXSharingRemoteUid Canonical Property</span></span>
+# <a name="pidnamexsharingremoteuid-canonical-property"></a><span data-ttu-id="3a3f0-103">Каноническое свойство PidNameXSharingRemoteUid</span><span class="sxs-lookup"><span data-stu-id="3a3f0-103">PidNameXSharingRemoteUid Canonical Property</span></span>
 
   
   
-<span data-ttu-id="d0fd2-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d0fd2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3a3f0-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3a3f0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="d0fd2-105">Представляет значение свойства **диспидшарингремотеуид** ([PidLidSharingRemoteUid](pidlidsharingremoteuid-canonical-property.md)).</span><span class="sxs-lookup"><span data-stu-id="d0fd2-105">Represents the value of the **dispidSharingRemoteUid** ([PidLidSharingRemoteUid](pidlidsharingremoteuid-canonical-property.md)) property.</span></span>
+<span data-ttu-id="3a3f0-105">Представляет значение свойства **dispidSharingRemoteUid** ([PidLidSharingRemoteUid).](pidlidsharingremoteuid-canonical-property.md)</span><span class="sxs-lookup"><span data-stu-id="3a3f0-105">Represents the value of the **dispidSharingRemoteUid** ([PidLidSharingRemoteUid](pidlidsharingremoteuid-canonical-property.md)) property.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="d0fd2-106">Понятные имена:</span><span class="sxs-lookup"><span data-stu-id="d0fd2-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="d0fd2-107">Нет</span><span class="sxs-lookup"><span data-stu-id="d0fd2-107">None</span></span>  <br/> |
-|<span data-ttu-id="d0fd2-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="d0fd2-108">Property set:</span></span>  <br/> |<span data-ttu-id="d0fd2-109">PS_INTERNET_HEADERS</span><span class="sxs-lookup"><span data-stu-id="d0fd2-109">PS_INTERNET_HEADERS</span></span>  <br/> |
-|<span data-ttu-id="d0fd2-110">Имя свойства:</span><span class="sxs-lookup"><span data-stu-id="d0fd2-110">Property name:</span></span>  <br/> |<span data-ttu-id="d0fd2-111">X – общий доступ — удаленный UID</span><span class="sxs-lookup"><span data-stu-id="d0fd2-111">X-Sharing-Remote-Uid</span></span>  <br/> |
-|<span data-ttu-id="d0fd2-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="d0fd2-112">Data type:</span></span>  <br/> |<span data-ttu-id="d0fd2-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="d0fd2-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="d0fd2-114">Область:</span><span class="sxs-lookup"><span data-stu-id="d0fd2-114">Area:</span></span>  <br/> |<span data-ttu-id="d0fd2-115">Общий доступ</span><span class="sxs-lookup"><span data-stu-id="d0fd2-115">Sharing</span></span>  <br/> |
+|<span data-ttu-id="3a3f0-106">Дружелюбные имена:</span><span class="sxs-lookup"><span data-stu-id="3a3f0-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="3a3f0-107">Нет</span><span class="sxs-lookup"><span data-stu-id="3a3f0-107">None</span></span>  <br/> |
+|<span data-ttu-id="3a3f0-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="3a3f0-108">Property set:</span></span>  <br/> |<span data-ttu-id="3a3f0-109">PS_INTERNET_HEADERS</span><span class="sxs-lookup"><span data-stu-id="3a3f0-109">PS_INTERNET_HEADERS</span></span>  <br/> |
+|<span data-ttu-id="3a3f0-110">Имя свойства:</span><span class="sxs-lookup"><span data-stu-id="3a3f0-110">Property name:</span></span>  <br/> |<span data-ttu-id="3a3f0-111">X-Sharing-Remote-Uid</span><span class="sxs-lookup"><span data-stu-id="3a3f0-111">X-Sharing-Remote-Uid</span></span>  <br/> |
+|<span data-ttu-id="3a3f0-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="3a3f0-112">Data type:</span></span>  <br/> |<span data-ttu-id="3a3f0-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="3a3f0-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="3a3f0-114">Область:</span><span class="sxs-lookup"><span data-stu-id="3a3f0-114">Area:</span></span>  <br/> |<span data-ttu-id="3a3f0-115">Общий доступ</span><span class="sxs-lookup"><span data-stu-id="3a3f0-115">Sharing</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="d0fd2-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="d0fd2-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="3a3f0-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="3a3f0-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="d0fd2-117">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="d0fd2-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="3a3f0-117">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="3a3f0-117">Protocol specifications</span></span>
 
-<span data-ttu-id="d0fd2-118">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d0fd2-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3a3f0-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3a3f0-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="d0fd2-119">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="d0fd2-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="3a3f0-119">Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="3a3f0-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="d0fd2-120">[[MS — ОКСШАРЕ]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d0fd2-120">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="3a3f0-120">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="3a3f0-120">[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="d0fd2-121">Предоставляет общий доступ к папкам почтового ящика между клиентами.</span><span class="sxs-lookup"><span data-stu-id="d0fd2-121">Shares mailbox folders between clients.</span></span>
+> <span data-ttu-id="3a3f0-121">Папки почтовых ящиков разделяются между клиентами.</span><span class="sxs-lookup"><span data-stu-id="3a3f0-121">Shares mailbox folders between clients.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="d0fd2-122">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="d0fd2-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="3a3f0-122">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="3a3f0-122">Header files</span></span>
 
-<span data-ttu-id="d0fd2-123">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="d0fd2-123">Mapidefs.h</span></span>
+<span data-ttu-id="3a3f0-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3a3f0-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="d0fd2-124">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="d0fd2-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="3a3f0-124">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="3a3f0-124">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="d0fd2-125">См. также</span><span class="sxs-lookup"><span data-stu-id="d0fd2-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a3f0-125">См. также</span><span class="sxs-lookup"><span data-stu-id="3a3f0-125">See also</span></span>
 
 
 
-[<span data-ttu-id="d0fd2-126">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="d0fd2-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="3a3f0-126">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="3a3f0-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="d0fd2-127">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="d0fd2-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="3a3f0-127">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="3a3f0-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="d0fd2-128">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="d0fd2-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="3a3f0-128">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="3a3f0-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="d0fd2-129">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="d0fd2-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="3a3f0-129">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="3a3f0-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,49 +19,49 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32315010"
 ---
-# <a name="pidnamepresentationformat-canonical-property"></a><span data-ttu-id="43d2c-103">Каноническое свойство PidNamePresentationFormat</span><span class="sxs-lookup"><span data-stu-id="43d2c-103">PidNamePresentationFormat Canonical Property</span></span>
+# <a name="pidnamepresentationformat-canonical-property"></a><span data-ttu-id="7e794-103">Каноническое свойство PidNamePresentationFormat</span><span class="sxs-lookup"><span data-stu-id="7e794-103">PidNamePresentationFormat Canonical Property</span></span>
 
   
   
-<span data-ttu-id="43d2c-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="43d2c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="7e794-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7e794-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="43d2c-105">Задает формат представления файла, вложенного в документ.</span><span class="sxs-lookup"><span data-stu-id="43d2c-105">Specifies the presentation format of the file that is attached to the document.</span></span>
+<span data-ttu-id="7e794-105">Указывает формат презентации файла, вложенного в документ.</span><span class="sxs-lookup"><span data-stu-id="7e794-105">Specifies the presentation format of the file that is attached to the document.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="43d2c-106">Понятные имена:</span><span class="sxs-lookup"><span data-stu-id="43d2c-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="43d2c-107">Нет</span><span class="sxs-lookup"><span data-stu-id="43d2c-107">None</span></span>  <br/> |
-|<span data-ttu-id="43d2c-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="43d2c-108">Property set:</span></span>  <br/> |<span data-ttu-id="43d2c-109">PS_PUBLIC_STRINGS</span><span class="sxs-lookup"><span data-stu-id="43d2c-109">PS_PUBLIC_STRINGS</span></span>  <br/> |
-|<span data-ttu-id="43d2c-110">Имя свойства:</span><span class="sxs-lookup"><span data-stu-id="43d2c-110">Property name:</span></span>  <br/> |<span data-ttu-id="43d2c-111">пресформат</span><span class="sxs-lookup"><span data-stu-id="43d2c-111">PresFormat</span></span>  <br/> |
-|<span data-ttu-id="43d2c-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="43d2c-112">Data type:</span></span>  <br/> |<span data-ttu-id="43d2c-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="43d2c-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="43d2c-114">Область:</span><span class="sxs-lookup"><span data-stu-id="43d2c-114">Area:</span></span>  <br/> |<span data-ttu-id="43d2c-115">Распространенная</span><span class="sxs-lookup"><span data-stu-id="43d2c-115">Common</span></span>  <br/> |
+|<span data-ttu-id="7e794-106">Дружелюбные имена:</span><span class="sxs-lookup"><span data-stu-id="7e794-106">Friendly names:</span></span>  <br/> |<span data-ttu-id="7e794-107">Нет</span><span class="sxs-lookup"><span data-stu-id="7e794-107">None</span></span>  <br/> |
+|<span data-ttu-id="7e794-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="7e794-108">Property set:</span></span>  <br/> |<span data-ttu-id="7e794-109">PS_PUBLIC_STRINGS</span><span class="sxs-lookup"><span data-stu-id="7e794-109">PS_PUBLIC_STRINGS</span></span>  <br/> |
+|<span data-ttu-id="7e794-110">Имя свойства:</span><span class="sxs-lookup"><span data-stu-id="7e794-110">Property name:</span></span>  <br/> |<span data-ttu-id="7e794-111">PresFormat</span><span class="sxs-lookup"><span data-stu-id="7e794-111">PresFormat</span></span>  <br/> |
+|<span data-ttu-id="7e794-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="7e794-112">Data type:</span></span>  <br/> |<span data-ttu-id="7e794-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="7e794-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="7e794-114">Область:</span><span class="sxs-lookup"><span data-stu-id="7e794-114">Area:</span></span>  <br/> |<span data-ttu-id="7e794-115">Распространенная</span><span class="sxs-lookup"><span data-stu-id="7e794-115">Common</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="43d2c-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="43d2c-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="7e794-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="7e794-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="43d2c-117">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="43d2c-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="7e794-117">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="7e794-117">Protocol specifications</span></span>
 
-<span data-ttu-id="43d2c-118">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="43d2c-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7e794-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7e794-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="43d2c-119">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="43d2c-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="7e794-119">Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="7e794-119">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="43d2c-120">[[MS — ОКСОДОК]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="43d2c-120">[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="7e794-120">[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="7e794-120">[[MS-OXODOC]](https://msdn.microsoft.com/library/103007c8-5066-4bed-84e3-4465907af098%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="43d2c-121">Задает свойства и операции, допустимые для документов.</span><span class="sxs-lookup"><span data-stu-id="43d2c-121">Specifies the properties and operations that are permissible on documents.</span></span>
+> <span data-ttu-id="7e794-121">Указывает свойства и операции, которые разрешены для документов.</span><span class="sxs-lookup"><span data-stu-id="7e794-121">Specifies the properties and operations that are permissible on documents.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="43d2c-122">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="43d2c-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="7e794-122">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="7e794-122">Header files</span></span>
 
-<span data-ttu-id="43d2c-123">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="43d2c-123">Mapidefs.h</span></span>
+<span data-ttu-id="7e794-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="7e794-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="43d2c-124">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="43d2c-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="7e794-124">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="7e794-124">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="43d2c-125">См. также</span><span class="sxs-lookup"><span data-stu-id="43d2c-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="7e794-125">См. также</span><span class="sxs-lookup"><span data-stu-id="7e794-125">See also</span></span>
 
 
 
-[<span data-ttu-id="43d2c-126">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="43d2c-126">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="7e794-126">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="7e794-126">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="43d2c-127">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="43d2c-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="7e794-127">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="7e794-127">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="43d2c-128">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="43d2c-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="7e794-128">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="7e794-128">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="43d2c-129">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="43d2c-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="7e794-129">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="7e794-129">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

@@ -19,56 +19,56 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32326616"
 ---
-# <a name="pidtagautoforwarded-canonical-property"></a><span data-ttu-id="6e040-103">Каноническое свойство PidTagAutoForwarded</span><span class="sxs-lookup"><span data-stu-id="6e040-103">PidTagAutoForwarded Canonical Property</span></span>
+# <a name="pidtagautoforwarded-canonical-property"></a><span data-ttu-id="bce0e-103">Каноническое свойство PidTagAutoForwarded</span><span class="sxs-lookup"><span data-stu-id="bce0e-103">PidTagAutoForwarded Canonical Property</span></span>
 
   
   
-<span data-ttu-id="6e040-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6e040-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="bce0e-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bce0e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="6e040-105">Содержит значение true, если клиент запрашивает поле заголовка X – MS/Exchange – Organization – переадресованное.</span><span class="sxs-lookup"><span data-stu-id="6e040-105">Contains TRUE if the client requests an X-MS-Exchange-Organization-AutoForwarded header field.</span></span>
+<span data-ttu-id="bce0e-105">Содержит true, если клиент запрашивает поле загона X-MS-Exchange-Organization-AutoForwarded.</span><span class="sxs-lookup"><span data-stu-id="bce0e-105">Contains TRUE if the client requests an X-MS-Exchange-Organization-AutoForwarded header field.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6e040-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="6e040-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="6e040-107">PR_AUTO_FORWARDED</span><span class="sxs-lookup"><span data-stu-id="6e040-107">PR_AUTO_FORWARDED</span></span>  <br/> |
-|<span data-ttu-id="6e040-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="6e040-108">Identifier:</span></span>  <br/> |<span data-ttu-id="6e040-109">0x0005</span><span class="sxs-lookup"><span data-stu-id="6e040-109">0x0005</span></span>  <br/> |
-|<span data-ttu-id="6e040-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="6e040-110">Data type:</span></span>  <br/> |<span data-ttu-id="6e040-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="6e040-111">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="6e040-112">Область:</span><span class="sxs-lookup"><span data-stu-id="6e040-112">Area:</span></span>  <br/> |<span data-ttu-id="6e040-113">Общие отчеты</span><span class="sxs-lookup"><span data-stu-id="6e040-113">General reporting</span></span>  <br/> |
+|<span data-ttu-id="bce0e-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="bce0e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="bce0e-107">PR_AUTO_FORWARDED</span><span class="sxs-lookup"><span data-stu-id="bce0e-107">PR_AUTO_FORWARDED</span></span>  <br/> |
+|<span data-ttu-id="bce0e-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="bce0e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="bce0e-109">0x0005</span><span class="sxs-lookup"><span data-stu-id="bce0e-109">0x0005</span></span>  <br/> |
+|<span data-ttu-id="bce0e-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="bce0e-110">Data type:</span></span>  <br/> |<span data-ttu-id="bce0e-111">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="bce0e-111">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="bce0e-112">Область:</span><span class="sxs-lookup"><span data-stu-id="bce0e-112">Area:</span></span>  <br/> |<span data-ttu-id="bce0e-113">Общие отчеты</span><span class="sxs-lookup"><span data-stu-id="bce0e-113">General reporting</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="6e040-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="6e040-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="bce0e-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="bce0e-114">Remarks</span></span>
 
-<span data-ttu-id="6e040-115">Если этому свойству присвоено значение FALSE или не используется, будет создано поле заголовка X-MS-Exchange-Organization-reforwarded.</span><span class="sxs-lookup"><span data-stu-id="6e040-115">If this property is set to FALSE or not used, no X-MS-Exchange-Organization-AutoForwarded header field will be created.</span></span>
+<span data-ttu-id="bce0e-115">Если для этого свойства установлено false или не используется, поле x-MS-Exchange-Organization-AutoForwarded не создается.</span><span class="sxs-lookup"><span data-stu-id="bce0e-115">If this property is set to FALSE or not used, no X-MS-Exchange-Organization-AutoForwarded header field will be created.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="6e040-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="6e040-116">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="bce0e-116">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="bce0e-116">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="6e040-117">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="6e040-117">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="bce0e-117">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="bce0e-117">Protocol specifications</span></span>
 
-<span data-ttu-id="6e040-118">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6e040-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bce0e-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bce0e-118">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="6e040-119">Определяет каждое свойство, используемое в объектах, описанных в документах с префиксом MS-оксо.</span><span class="sxs-lookup"><span data-stu-id="6e040-119">Defines each property that is used in the objects that are described by MS-OXO-prefixed documents.</span></span>
+> <span data-ttu-id="bce0e-119">Определяет каждое свойство, которое используется в объектах, описанных в документах с префиксом MS-OXO.</span><span class="sxs-lookup"><span data-stu-id="bce0e-119">Defines each property that is used in the objects that are described by MS-OXO-prefixed documents.</span></span>
     
-<span data-ttu-id="6e040-120">[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="6e040-120">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="bce0e-120">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bce0e-120">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="6e040-121">Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.</span><span class="sxs-lookup"><span data-stu-id="6e040-121">Converts from Internet standard email conventions to message objects.</span></span>
+> <span data-ttu-id="bce0e-121">Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.</span><span class="sxs-lookup"><span data-stu-id="bce0e-121">Converts from Internet standard email conventions to message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="6e040-122">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="6e040-122">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="bce0e-122">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="bce0e-122">Header files</span></span>
 
-<span data-ttu-id="6e040-123">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="6e040-123">Mapidefs.h</span></span>
+<span data-ttu-id="bce0e-123">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="bce0e-123">Mapidefs.h</span></span>
   
-> <span data-ttu-id="6e040-124">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="6e040-124">Provides data type definitions.</span></span>
+> <span data-ttu-id="bce0e-124">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="bce0e-124">Provides data type definitions.</span></span>
     
-<span data-ttu-id="6e040-125">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="6e040-125">Mapitags.h</span></span>
+<span data-ttu-id="bce0e-125">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="bce0e-125">Mapitags.h</span></span>
   
-> <span data-ttu-id="6e040-126">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="6e040-126">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="bce0e-126">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="bce0e-126">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="6e040-127">См. также</span><span class="sxs-lookup"><span data-stu-id="6e040-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="bce0e-127">См. также</span><span class="sxs-lookup"><span data-stu-id="bce0e-127">See also</span></span>
 
 
 
-[<span data-ttu-id="6e040-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="6e040-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="bce0e-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="bce0e-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="6e040-129">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="6e040-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="bce0e-129">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="bce0e-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="6e040-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="6e040-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="bce0e-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="bce0e-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="6e040-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="6e040-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="bce0e-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="bce0e-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

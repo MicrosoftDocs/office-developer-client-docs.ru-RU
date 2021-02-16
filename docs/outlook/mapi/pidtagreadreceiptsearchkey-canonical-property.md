@@ -19,58 +19,58 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32320043"
 ---
-# <a name="pidtagreadreceiptsearchkey-canonical-property"></a><span data-ttu-id="b673a-103">Каноническое свойство PidTagReadReceiptSearchKey</span><span class="sxs-lookup"><span data-stu-id="b673a-103">PidTagReadReceiptSearchKey Canonical Property</span></span>
+# <a name="pidtagreadreceiptsearchkey-canonical-property"></a><span data-ttu-id="a5c9f-103">Каноническое свойство PidTagReadReceiptSearchKey</span><span class="sxs-lookup"><span data-stu-id="a5c9f-103">PidTagReadReceiptSearchKey Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b673a-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b673a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a5c9f-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a5c9f-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b673a-105">Содержит ключ поиска для пользователя обмена сообщениями, которому система обмена сообщениями должна направить отчет о прочтении сообщения.</span><span class="sxs-lookup"><span data-stu-id="b673a-105">Contains a search key for the messaging user to which the messaging system should direct a read report for a message.</span></span>
+<span data-ttu-id="a5c9f-105">Содержит ключ поиска для пользователя обмена сообщениями, которому система обмена сообщениями должна направить отчет о прочтение сообщения.</span><span class="sxs-lookup"><span data-stu-id="a5c9f-105">Contains a search key for the messaging user to which the messaging system should direct a read report for a message.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b673a-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="b673a-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b673a-107">PR_READ_RECEIPT_SEARCH_KEY</span><span class="sxs-lookup"><span data-stu-id="b673a-107">PR_READ_RECEIPT_SEARCH_KEY</span></span>  <br/> |
-|<span data-ttu-id="b673a-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="b673a-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b673a-109">0x0053</span><span class="sxs-lookup"><span data-stu-id="b673a-109">0x0053</span></span>  <br/> |
-|<span data-ttu-id="b673a-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="b673a-110">Data type:</span></span>  <br/> |<span data-ttu-id="b673a-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="b673a-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="b673a-112">Область:</span><span class="sxs-lookup"><span data-stu-id="b673a-112">Area:</span></span>  <br/> |<span data-ttu-id="b673a-113">Конверт MAPI</span><span class="sxs-lookup"><span data-stu-id="b673a-113">MAPI envelope</span></span>  <br/> |
+|<span data-ttu-id="a5c9f-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="a5c9f-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="a5c9f-107">PR_READ_RECEIPT_SEARCH_KEY</span><span class="sxs-lookup"><span data-stu-id="a5c9f-107">PR_READ_RECEIPT_SEARCH_KEY</span></span>  <br/> |
+|<span data-ttu-id="a5c9f-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="a5c9f-108">Identifier:</span></span>  <br/> |<span data-ttu-id="a5c9f-109">0x0053</span><span class="sxs-lookup"><span data-stu-id="a5c9f-109">0x0053</span></span>  <br/> |
+|<span data-ttu-id="a5c9f-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="a5c9f-110">Data type:</span></span>  <br/> |<span data-ttu-id="a5c9f-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="a5c9f-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="a5c9f-112">Область:</span><span class="sxs-lookup"><span data-stu-id="a5c9f-112">Area:</span></span>  <br/> |<span data-ttu-id="a5c9f-113">Конверт MAPI</span><span class="sxs-lookup"><span data-stu-id="a5c9f-113">MAPI envelope</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b673a-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="b673a-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a5c9f-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="a5c9f-114">Remarks</span></span>
 
-<span data-ttu-id="b673a-115">Это свойство игнорируется, если для свойства **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) не задано значение true.</span><span class="sxs-lookup"><span data-stu-id="b673a-115">This property is ignored unless the **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property is set to TRUE.</span></span>
+<span data-ttu-id="a5c9f-115">Это свойство игнорируется, если для свойства **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested)](pidtagreadreceiptrequested-canonical-property.md)не установлено значение TRUE.</span><span class="sxs-lookup"><span data-stu-id="a5c9f-115">This property is ignored unless the **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) property is set to TRUE.</span></span>
   
-<span data-ttu-id="b673a-116">Если клиентское приложение хочет получать отчеты о прочтении, оно может оставить это свойство незаданным или задать его в качестве ключа поиска, который хранится в **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) во время отправки сообщения.</span><span class="sxs-lookup"><span data-stu-id="b673a-116">If a client application wants to receive read reports itself, it can leave this property unset or set it to the search key contained in the **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) property at message submission time.</span></span>
+<span data-ttu-id="a5c9f-116">Если клиентские приложения хотят получить отчеты о прочтении, оно может оставить это свойство ненастроенным или установить для него ключ поиска, содержащийся в свойстве **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey)](pidtagsendersearchkey-canonical-property.md)во время отправки сообщения.</span><span class="sxs-lookup"><span data-stu-id="a5c9f-116">If a client application wants to receive read reports itself, it can leave this property unset or set it to the search key contained in the **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) property at message submission time.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="b673a-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="b673a-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="a5c9f-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="a5c9f-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="b673a-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="b673a-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="a5c9f-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="a5c9f-118">Protocol specifications</span></span>
 
-<span data-ttu-id="b673a-119">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b673a-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a5c9f-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a5c9f-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b673a-120">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="b673a-120">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="a5c9f-120">Содержит ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="a5c9f-120">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="b673a-121">[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b673a-121">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a5c9f-121">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a5c9f-121">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b673a-122">Задает свойства и операции, допустимые для сообщений электронной почты.</span><span class="sxs-lookup"><span data-stu-id="b673a-122">Specifies the properties and operations that are permissible on email messages.</span></span>
+> <span data-ttu-id="a5c9f-122">Указывает свойства и операции, которые разрешены для сообщений электронной почты.</span><span class="sxs-lookup"><span data-stu-id="a5c9f-122">Specifies the properties and operations that are permissible on email messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="b673a-123">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="b673a-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="a5c9f-123">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="a5c9f-123">Header files</span></span>
 
-<span data-ttu-id="b673a-124">Мапидеф. h</span><span class="sxs-lookup"><span data-stu-id="b673a-124">Mapidef.h</span></span>
+<span data-ttu-id="a5c9f-124">Mapidef.h</span><span class="sxs-lookup"><span data-stu-id="a5c9f-124">Mapidef.h</span></span>
   
-> <span data-ttu-id="b673a-125">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="b673a-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="a5c9f-125">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="a5c9f-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="b673a-126">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="b673a-126">Mapitags.h</span></span>
+<span data-ttu-id="a5c9f-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="a5c9f-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="b673a-127">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="b673a-127">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="a5c9f-127">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="a5c9f-127">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b673a-128">См. также</span><span class="sxs-lookup"><span data-stu-id="b673a-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a5c9f-128">См. также</span><span class="sxs-lookup"><span data-stu-id="a5c9f-128">See also</span></span>
 
 
 
-[<span data-ttu-id="b673a-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="b673a-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="a5c9f-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="a5c9f-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b673a-130">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="b673a-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="a5c9f-130">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="a5c9f-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b673a-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="b673a-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="a5c9f-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="a5c9f-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b673a-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="b673a-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="a5c9f-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="a5c9f-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

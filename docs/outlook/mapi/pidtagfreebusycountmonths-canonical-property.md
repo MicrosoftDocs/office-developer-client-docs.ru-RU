@@ -19,56 +19,56 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316193"
 ---
-# <a name="pidtagfreebusycountmonths-canonical-property"></a><span data-ttu-id="9ad3e-103">Каноническое свойство PidTagFreeBusyCountMonths</span><span class="sxs-lookup"><span data-stu-id="9ad3e-103">PidTagFreeBusyCountMonths Canonical Property</span></span>
+# <a name="pidtagfreebusycountmonths-canonical-property"></a><span data-ttu-id="a0ecd-103">Каноническое свойство PidTagFreeBusyCountMonths</span><span class="sxs-lookup"><span data-stu-id="a0ecd-103">PidTagFreeBusyCountMonths Canonical Property</span></span>
 
   
   
-<span data-ttu-id="9ad3e-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="9ad3e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a0ecd-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a0ecd-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="9ad3e-105">Содержит значение для вычисления дат начала и окончания диапазона данных о занятости, публикуемых в общедоступных папках.</span><span class="sxs-lookup"><span data-stu-id="9ad3e-105">Contains the value for calculating the start and end dates of the range of free/busy data to be published to public folders.</span></span>
+<span data-ttu-id="a0ecd-105">Содержит значение для вычисления даты начала и окончания диапазона данных о занятости, публикуемого в общедоступных папках.</span><span class="sxs-lookup"><span data-stu-id="a0ecd-105">Contains the value for calculating the start and end dates of the range of free/busy data to be published to public folders.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="9ad3e-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="9ad3e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="9ad3e-107">PR_FREEBUSY_COUNT_MONTHS</span><span class="sxs-lookup"><span data-stu-id="9ad3e-107">PR_FREEBUSY_COUNT_MONTHS</span></span>  <br/> |
-|<span data-ttu-id="9ad3e-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="9ad3e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="9ad3e-109">0x6869</span><span class="sxs-lookup"><span data-stu-id="9ad3e-109">0x6869</span></span>  <br/> |
-|<span data-ttu-id="9ad3e-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="9ad3e-110">Data type:</span></span>  <br/> |<span data-ttu-id="9ad3e-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="9ad3e-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="9ad3e-112">Область:</span><span class="sxs-lookup"><span data-stu-id="9ad3e-112">Area:</span></span>  <br/> |<span data-ttu-id="9ad3e-113">Определяемый классом Message передающей</span><span class="sxs-lookup"><span data-stu-id="9ad3e-113">Message class-defined transmittable</span></span>  <br/> |
+|<span data-ttu-id="a0ecd-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="a0ecd-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="a0ecd-107">PR_FREEBUSY_COUNT_MONTHS</span><span class="sxs-lookup"><span data-stu-id="a0ecd-107">PR_FREEBUSY_COUNT_MONTHS</span></span>  <br/> |
+|<span data-ttu-id="a0ecd-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="a0ecd-108">Identifier:</span></span>  <br/> |<span data-ttu-id="a0ecd-109">0x6869</span><span class="sxs-lookup"><span data-stu-id="a0ecd-109">0x6869</span></span>  <br/> |
+|<span data-ttu-id="a0ecd-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="a0ecd-110">Data type:</span></span>  <br/> |<span data-ttu-id="a0ecd-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="a0ecd-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="a0ecd-112">Область:</span><span class="sxs-lookup"><span data-stu-id="a0ecd-112">Area:</span></span>  <br/> |<span data-ttu-id="a0ecd-113">Передача сообщений, определенных классом</span><span class="sxs-lookup"><span data-stu-id="a0ecd-113">Message class-defined transmittable</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="9ad3e-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="9ad3e-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a0ecd-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="a0ecd-114">Remarks</span></span>
 
-<span data-ttu-id="9ad3e-115">Значение этого свойства должно быть больше или равно 0 и меньше или равно 36.</span><span class="sxs-lookup"><span data-stu-id="9ad3e-115">This property's value must be greater than or equal to 0 and less than or equal to 36.</span></span> <span data-ttu-id="9ad3e-116">Это свойство не является обязательным.</span><span class="sxs-lookup"><span data-stu-id="9ad3e-116">This is not a required property.</span></span>
+<span data-ttu-id="a0ecd-115">Значение этого свойства должно быть больше или равно 0 и меньше или равно 36.</span><span class="sxs-lookup"><span data-stu-id="a0ecd-115">This property's value must be greater than or equal to 0 and less than or equal to 36.</span></span> <span data-ttu-id="a0ecd-116">Это свойство не является обязательной.</span><span class="sxs-lookup"><span data-stu-id="a0ecd-116">This is not a required property.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="9ad3e-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="9ad3e-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="a0ecd-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="a0ecd-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="9ad3e-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="9ad3e-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="a0ecd-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="a0ecd-118">Protocol specifications</span></span>
 
-<span data-ttu-id="9ad3e-119">[[MS — ОКСОПФФБ]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9ad3e-119">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a0ecd-119">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a0ecd-119">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="9ad3e-120">Публикует доступность пользователя или ресурса.</span><span class="sxs-lookup"><span data-stu-id="9ad3e-120">Publishes the availability of a user or resource.</span></span>
+> <span data-ttu-id="a0ecd-120">Публикует доступность пользователя или ресурса.</span><span class="sxs-lookup"><span data-stu-id="a0ecd-120">Publishes the availability of a user or resource.</span></span>
     
-<span data-ttu-id="9ad3e-121">[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="9ad3e-121">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a0ecd-121">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a0ecd-121">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="9ad3e-122">Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.</span><span class="sxs-lookup"><span data-stu-id="9ad3e-122">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="a0ecd-122">Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.</span><span class="sxs-lookup"><span data-stu-id="a0ecd-122">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="9ad3e-123">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="9ad3e-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="a0ecd-123">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="a0ecd-123">Header files</span></span>
 
-<span data-ttu-id="9ad3e-124">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="9ad3e-124">Mapidefs.h</span></span>
+<span data-ttu-id="a0ecd-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="a0ecd-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="9ad3e-125">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="9ad3e-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="a0ecd-125">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="a0ecd-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="9ad3e-126">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="9ad3e-126">Mapitags.h</span></span>
+<span data-ttu-id="a0ecd-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="a0ecd-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="9ad3e-127">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="9ad3e-127">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="a0ecd-127">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="a0ecd-127">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="9ad3e-128">См. также</span><span class="sxs-lookup"><span data-stu-id="9ad3e-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a0ecd-128">См. также</span><span class="sxs-lookup"><span data-stu-id="a0ecd-128">See also</span></span>
 
 
 
-[<span data-ttu-id="9ad3e-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="9ad3e-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="a0ecd-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="a0ecd-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="9ad3e-130">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="9ad3e-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="a0ecd-130">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="a0ecd-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="9ad3e-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="9ad3e-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="a0ecd-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="a0ecd-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="9ad3e-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="9ad3e-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="a0ecd-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="a0ecd-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

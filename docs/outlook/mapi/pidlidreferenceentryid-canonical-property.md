@@ -19,53 +19,53 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32315927"
 ---
-# <a name="pidlidreferenceentryid-canonical-property"></a><span data-ttu-id="cbf94-103">Каноническое свойство PidLidReferenceEntryId</span><span class="sxs-lookup"><span data-stu-id="cbf94-103">PidLidReferenceEntryId Canonical Property</span></span>
+# <a name="pidlidreferenceentryid-canonical-property"></a><span data-ttu-id="ae6a8-103">Каноническое свойство PidLidReferenceEntryId</span><span class="sxs-lookup"><span data-stu-id="ae6a8-103">PidLidReferenceEntryId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="cbf94-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cbf94-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="ae6a8-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ae6a8-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="cbf94-105">Указывает идентификатор [EntryID](entryid.md) ссылки для контакта.</span><span class="sxs-lookup"><span data-stu-id="cbf94-105">Specifies the reference [ENTRYID](entryid.md) for the contact.</span></span> 
+<span data-ttu-id="ae6a8-105">Указывает ссылку [ENTRYID](entryid.md) для контакта.</span><span class="sxs-lookup"><span data-stu-id="ae6a8-105">Specifies the reference [ENTRYID](entryid.md) for the contact.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="cbf94-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="cbf94-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="cbf94-107">диспидреференцееид</span><span class="sxs-lookup"><span data-stu-id="cbf94-107">dispidReferenceEID</span></span>  <br/> |
-|<span data-ttu-id="cbf94-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="cbf94-108">Property set:</span></span>  <br/> |<span data-ttu-id="cbf94-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="cbf94-109">PSETID_Common</span></span>  <br/> |
-|<span data-ttu-id="cbf94-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="cbf94-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="cbf94-111">0x000085BD</span><span class="sxs-lookup"><span data-stu-id="cbf94-111">0x000085BD</span></span>  <br/> |
-|<span data-ttu-id="cbf94-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="cbf94-112">Data type:</span></span>  <br/> |<span data-ttu-id="cbf94-113">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="cbf94-113">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="cbf94-114">Область:</span><span class="sxs-lookup"><span data-stu-id="cbf94-114">Area:</span></span>  <br/> |<span data-ttu-id="cbf94-115">Контакт</span><span class="sxs-lookup"><span data-stu-id="cbf94-115">Contact</span></span>  <br/> |
+|<span data-ttu-id="ae6a8-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="ae6a8-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ae6a8-107">dispidReferenceEID</span><span class="sxs-lookup"><span data-stu-id="ae6a8-107">dispidReferenceEID</span></span>  <br/> |
+|<span data-ttu-id="ae6a8-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="ae6a8-108">Property set:</span></span>  <br/> |<span data-ttu-id="ae6a8-109">PSETID_Common</span><span class="sxs-lookup"><span data-stu-id="ae6a8-109">PSETID_Common</span></span>  <br/> |
+|<span data-ttu-id="ae6a8-110">Длинный ИД (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="ae6a8-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="ae6a8-111">0x000085BD</span><span class="sxs-lookup"><span data-stu-id="ae6a8-111">0x000085BD</span></span>  <br/> |
+|<span data-ttu-id="ae6a8-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="ae6a8-112">Data type:</span></span>  <br/> |<span data-ttu-id="ae6a8-113">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="ae6a8-113">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="ae6a8-114">Область:</span><span class="sxs-lookup"><span data-stu-id="ae6a8-114">Area:</span></span>  <br/> |<span data-ttu-id="ae6a8-115">Контакт</span><span class="sxs-lookup"><span data-stu-id="ae6a8-115">Contact</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="cbf94-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="cbf94-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="ae6a8-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="ae6a8-116">Remarks</span></span>
 
-<span data-ttu-id="cbf94-117">Если это свойство задано, это свойство должно быть равно значению элемента **EntryID** контакта.</span><span class="sxs-lookup"><span data-stu-id="cbf94-117">If present, this property should be equal to the value of the **EntryId** of the contact.</span></span> 
+<span data-ttu-id="ae6a8-117">Если задан, это свойство должно быть равно значению **EntryId** контакта.</span><span class="sxs-lookup"><span data-stu-id="ae6a8-117">If present, this property should be equal to the value of the **EntryId** of the contact.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="cbf94-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="cbf94-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="ae6a8-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="ae6a8-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="cbf94-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="cbf94-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="ae6a8-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="ae6a8-119">Protocol specifications</span></span>
 
-<span data-ttu-id="cbf94-120">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cbf94-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ae6a8-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ae6a8-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="cbf94-121">Предоставляет определение набора свойств и ссылки на соответствующие спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="cbf94-121">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="ae6a8-121">Предоставляет определение набора свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="ae6a8-121">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="cbf94-122">[[MS — ОКСОКНТК]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cbf94-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="ae6a8-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="ae6a8-122">[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="cbf94-123">Задает свойства и операции, допустимые для контактов и личных списков рассылки.</span><span class="sxs-lookup"><span data-stu-id="cbf94-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
+> <span data-ttu-id="ae6a8-123">Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.</span><span class="sxs-lookup"><span data-stu-id="ae6a8-123">Specifies the properties and operations that are permissible for contacts and personal distribution lists.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="cbf94-124">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="cbf94-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="ae6a8-124">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="ae6a8-124">Header files</span></span>
 
-<span data-ttu-id="cbf94-125">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="cbf94-125">Mapidefs.h</span></span>
+<span data-ttu-id="ae6a8-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="ae6a8-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="cbf94-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="cbf94-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="ae6a8-126">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="ae6a8-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="cbf94-127">См. также</span><span class="sxs-lookup"><span data-stu-id="cbf94-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ae6a8-127">См. также</span><span class="sxs-lookup"><span data-stu-id="ae6a8-127">See also</span></span>
 
 
 
-[<span data-ttu-id="cbf94-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="cbf94-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="ae6a8-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="ae6a8-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="cbf94-129">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="cbf94-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="ae6a8-129">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="ae6a8-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="cbf94-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="cbf94-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="ae6a8-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="ae6a8-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="cbf94-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="cbf94-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="ae6a8-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="ae6a8-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

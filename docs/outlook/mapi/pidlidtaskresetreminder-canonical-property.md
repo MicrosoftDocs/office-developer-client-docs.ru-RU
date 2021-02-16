@@ -19,62 +19,62 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32316620"
 ---
-# <a name="pidlidtaskresetreminder-canonical-property"></a><span data-ttu-id="bcea3-103">Каноническое свойство PidLidTaskResetReminder</span><span class="sxs-lookup"><span data-stu-id="bcea3-103">PidLidTaskResetReminder Canonical Property</span></span>
+# <a name="pidlidtaskresetreminder-canonical-property"></a><span data-ttu-id="0d580-103">Каноническое свойство PidLidTaskResetReminder</span><span class="sxs-lookup"><span data-stu-id="0d580-103">PidLidTaskResetReminder Canonical Property</span></span>
 
   
   
-<span data-ttu-id="bcea3-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="bcea3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="0d580-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0d580-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="bcea3-105">Указывает, требуются ли напоминания будущим экземплярам повторяющихся задач, даже если **диспидреминдерсет** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) имеет значение false.</span><span class="sxs-lookup"><span data-stu-id="bcea3-105">Indicates whether future instances of recurring tasks need reminders, even though **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) is FALSE.</span></span>
+<span data-ttu-id="0d580-105">Указывает, требуются ли напоминания для будущих экземпляров повторяющихся задач, хотя **dispidReminderSet** ([PidLidReminderSet)](pidlidreminderset-canonical-property.md)имеет false.</span><span class="sxs-lookup"><span data-stu-id="0d580-105">Indicates whether future instances of recurring tasks need reminders, even though **dispidReminderSet** ([PidLidReminderSet](pidlidreminderset-canonical-property.md)) is FALSE.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="bcea3-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="bcea3-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="bcea3-107">диспидтаскресетреминдер</span><span class="sxs-lookup"><span data-stu-id="bcea3-107">dispidTaskResetReminder</span></span>  <br/> |
-|<span data-ttu-id="bcea3-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="bcea3-108">Property set:</span></span>  <br/> |<span data-ttu-id="bcea3-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="bcea3-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="bcea3-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="bcea3-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="bcea3-111">0x00008107</span><span class="sxs-lookup"><span data-stu-id="bcea3-111">0x00008107</span></span>  <br/> |
-|<span data-ttu-id="bcea3-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="bcea3-112">Data type:</span></span>  <br/> |<span data-ttu-id="bcea3-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="bcea3-113">PT_BOOLEAN</span></span>  <br/> |
-|<span data-ttu-id="bcea3-114">Область:</span><span class="sxs-lookup"><span data-stu-id="bcea3-114">Area:</span></span>  <br/> |<span data-ttu-id="bcea3-115">Задача</span><span class="sxs-lookup"><span data-stu-id="bcea3-115">Task</span></span>  <br/> |
+|<span data-ttu-id="0d580-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="0d580-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="0d580-107">dispidTaskResetReminder</span><span class="sxs-lookup"><span data-stu-id="0d580-107">dispidTaskResetReminder</span></span>  <br/> |
+|<span data-ttu-id="0d580-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="0d580-108">Property set:</span></span>  <br/> |<span data-ttu-id="0d580-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="0d580-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="0d580-110">Длинный ИД (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="0d580-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="0d580-111">0x00008107</span><span class="sxs-lookup"><span data-stu-id="0d580-111">0x00008107</span></span>  <br/> |
+|<span data-ttu-id="0d580-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="0d580-112">Data type:</span></span>  <br/> |<span data-ttu-id="0d580-113">PT_BOOLEAN</span><span class="sxs-lookup"><span data-stu-id="0d580-113">PT_BOOLEAN</span></span>  <br/> |
+|<span data-ttu-id="0d580-114">Область:</span><span class="sxs-lookup"><span data-stu-id="0d580-114">Area:</span></span>  <br/> |<span data-ttu-id="0d580-115">Task</span><span class="sxs-lookup"><span data-stu-id="0d580-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="bcea3-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="bcea3-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0d580-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="0d580-116">Remarks</span></span>
 
-<span data-ttu-id="bcea3-117">Это значение задается равным TRUE при закрытии напоминания задачи и имеет значение FALSE в противном случае.</span><span class="sxs-lookup"><span data-stu-id="bcea3-117">This value is set to TRUE when the task's reminder is dismissed, and set to FALSE otherwise.</span></span> <span data-ttu-id="bcea3-118">Если не оставить, то предполагается значение FALSE по умолчанию.</span><span class="sxs-lookup"><span data-stu-id="bcea3-118">If left unset, a default of FALSE is assumed.</span></span>
+<span data-ttu-id="0d580-117">Это значение имеет значение TRUE при отклонении напоминания задачи, а в противном случае — FALSE.</span><span class="sxs-lookup"><span data-stu-id="0d580-117">This value is set to TRUE when the task's reminder is dismissed, and set to FALSE otherwise.</span></span> <span data-ttu-id="0d580-118">Если значение не закончено, по умолчанию будет запрочено значение FALSE.</span><span class="sxs-lookup"><span data-stu-id="0d580-118">If left unset, a default of FALSE is assumed.</span></span>
   
-<span data-ttu-id="bcea3-119">Как указано в [[MS-оксормдр]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), свойство **диспидреминдерсет** указывает, задано ли для задачи напоминание.</span><span class="sxs-lookup"><span data-stu-id="bcea3-119">As specified in [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), the **dispidReminderSet** property indicates whether a reminder is set on the task.</span></span> <span data-ttu-id="bcea3-120">Однако это свойство указывает только на присутствие напоминания для одной задачи.</span><span class="sxs-lookup"><span data-stu-id="bcea3-120">However, this property only indicates the presence of a reminder on a single task.</span></span> <span data-ttu-id="bcea3-121">Он не может использоваться отдельно для определения необходимости напоминания будущему экземпляру повторяющейся задачи.</span><span class="sxs-lookup"><span data-stu-id="bcea3-121">It cannot be used alone to determine whether a future instance of a recurring task needs a reminder.</span></span> 
+<span data-ttu-id="0d580-119">Как указано в [[MS-OXORMDR],](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)свойство **dispidReminderSet** указывает, установлено ли напоминание для задачи.</span><span class="sxs-lookup"><span data-stu-id="0d580-119">As specified in [[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx), the **dispidReminderSet** property indicates whether a reminder is set on the task.</span></span> <span data-ttu-id="0d580-120">Однако это свойство указывает только на наличие напоминания для одной задачи.</span><span class="sxs-lookup"><span data-stu-id="0d580-120">However, this property only indicates the presence of a reminder on a single task.</span></span> <span data-ttu-id="0d580-121">Его нельзя использовать отдельно, чтобы определить, требуется ли напоминания для будущего экземпляра повторяющейся задачи.</span><span class="sxs-lookup"><span data-stu-id="0d580-121">It cannot be used alone to determine whether a future instance of a recurring task needs a reminder.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="bcea3-122">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="bcea3-122">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="0d580-122">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="0d580-122">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="bcea3-123">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="bcea3-123">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="0d580-123">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="0d580-123">Protocol specifications</span></span>
 
-<span data-ttu-id="bcea3-124">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bcea3-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="0d580-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0d580-124">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="bcea3-125">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="bcea3-125">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="0d580-125">Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="0d580-125">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="bcea3-126">[[MS — ОКСОТАСК]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bcea3-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="0d580-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0d580-126">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="bcea3-127">Определяет несколько объектов, которые моделируют электронные эквиваленты задач, назначений задач и обновлений задач.</span><span class="sxs-lookup"><span data-stu-id="bcea3-127">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
+> <span data-ttu-id="0d580-127">Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач.</span><span class="sxs-lookup"><span data-stu-id="0d580-127">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
     
-<span data-ttu-id="bcea3-128">[[MS — ОКСОРМДР]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="bcea3-128">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="0d580-128">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="0d580-128">[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="bcea3-129">Задает свойства и модель взаимодействия для сообщений электронной почты и других объектов.</span><span class="sxs-lookup"><span data-stu-id="bcea3-129">Specifies the properties and the interaction model for email and other object reminders.</span></span>
+> <span data-ttu-id="0d580-129">Указывает свойства и модель взаимодействия для электронной почты и других напоминаний об объектах.</span><span class="sxs-lookup"><span data-stu-id="0d580-129">Specifies the properties and the interaction model for email and other object reminders.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="bcea3-130">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="bcea3-130">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="0d580-130">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="0d580-130">Header files</span></span>
 
-<span data-ttu-id="bcea3-131">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="bcea3-131">Mapidefs.h</span></span>
+<span data-ttu-id="0d580-131">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="0d580-131">Mapidefs.h</span></span>
   
-> <span data-ttu-id="bcea3-132">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="bcea3-132">Provides data type definitions.</span></span>
+> <span data-ttu-id="0d580-132">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="0d580-132">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="bcea3-133">См. также</span><span class="sxs-lookup"><span data-stu-id="bcea3-133">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="0d580-133">См. также</span><span class="sxs-lookup"><span data-stu-id="0d580-133">See also</span></span>
 
 
 
-[<span data-ttu-id="bcea3-134">������������ �������� PidLidReminderSet</span><span class="sxs-lookup"><span data-stu-id="bcea3-134">PidLidReminderSet Canonical Property</span></span>](pidlidreminderset-canonical-property.md)
+[<span data-ttu-id="0d580-134">������������ �������� PidLidReminderSet</span><span class="sxs-lookup"><span data-stu-id="0d580-134">PidLidReminderSet Canonical Property</span></span>](pidlidreminderset-canonical-property.md)
 
 
-[<span data-ttu-id="bcea3-135">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="bcea3-135">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="0d580-135">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="0d580-135">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="bcea3-136">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="bcea3-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="0d580-136">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="0d580-136">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="bcea3-137">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="bcea3-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="0d580-137">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="0d580-137">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="bcea3-138">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="bcea3-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="0d580-138">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="0d580-138">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
