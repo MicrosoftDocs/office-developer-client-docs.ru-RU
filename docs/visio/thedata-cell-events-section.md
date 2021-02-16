@@ -16,8 +16,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437429"
 ---
-# <a name="thedata-cell-events-section"></a><span data-ttu-id="d6e83-103">TheData Cell (Events Section)</span><span class="sxs-lookup"><span data-stu-id="d6e83-103">TheData Cell (Events Section)</span></span>
+# <a name="thedata-cell-events-section"></a><span data-ttu-id="c476e-103">TheData Cell (Events Section)</span><span class="sxs-lookup"><span data-stu-id="c476e-103">TheData Cell (Events Section)</span></span>
 
-<span data-ttu-id="d6e83-104">Зарезервировано для использования в будущем.</span><span class="sxs-lookup"><span data-stu-id="d6e83-104">Reserved for future use.</span></span>
+<span data-ttu-id="c476e-104">Зарезервировано для использования в будущем.</span><span class="sxs-lookup"><span data-stu-id="c476e-104">Reserved for future use.</span></span>
   
 
