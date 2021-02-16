@@ -1,5 +1,5 @@
 ---
-title: ИсоЦиалпрофиле ИсоЦиалперсон
+title: ISocialProfile ISocialPerson
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4dbfdb6c-a930-4efb-85c3-dc2757ddcf83
-description: Представляет пользователя, выполнившего вход в систему.
+description: Представляет во входе пользователя.
 ms.openlocfilehash: 8fccb87ebc2745a12545d0c88127be0651ab8620
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,23 +17,23 @@ ms.locfileid: "33425045"
 ---
 # <a name="isocialprofile--isocialperson"></a>ISocialProfile : ISocialPerson
 
-Представляет пользователя, выполнившего вход в систему. 
+Представляет во входе пользователя. 
   
 ## <a name="members"></a>"Участники"
 
-В следующей таблице показаны элементы, доступные в интерфейсе **исоЦиалпрофиле** . 
+В следующей таблице показаны члены, доступные в **интерфейсе ISocialProfile.** 
   
-|**имя**|**Тип элемента**|**Описание**|
+|**Название**|**Тип члена**|**Описание**|
 |:-----|:-----|:-----|
-|[арефриендсорколлеагуес](isocialprofile-arefriendsorcolleagues.md) <br/> |Method  <br/> |Определяет, являются ли указанные пользователи друзьями.  <br/> |
-|[жетактивитиесоффриендсандколлеагуес](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Method  <br/> |Этот метод является устаревшим, так как Outlook Social Connector 2013.  <br/> |
-|[SetStatus](isocialprofile-setstatus.md) <br/> |Method  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
+|[AreFriendsOrColleagues](isocialprofile-arefriendsorcolleagues.md) <br/> |Method  <br/> |Определяет, являются ли указанные пользователи друзьями.  <br/> |
+|[GetActivitiesOfFriendsAndColleagues](isocialprofile-getactivitiesoffriendsandcolleagues.md) <br/> |Method  <br/> |Этот метод больше не используется, так как Outlook Social Connector 2013.  <br/> |
+|[SetStatus](isocialprofile-setstatus.md) <br/> |Method  <br/> |Этот метод в настоящее время не поддерживается.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Поставщик Outlook Social Connector (OSC) должен реализовать этот интерфейс для взаимодействия с OSC.
+Поставщик Outlook Social Connector (OSC) должен реализовать этот интерфейс для связи с OSC.
   
 ## <a name="see-also"></a>См. также
 
-- [Интерфейсы поставщика социальных соединителей Outlook](outlook-social-connector-provider-interfaces.md)
+- [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

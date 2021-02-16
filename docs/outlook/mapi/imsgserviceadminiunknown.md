@@ -1,5 +1,5 @@
 ---
-title: Имсгсервицеадмин IUnknown
+title: IMsgServiceAdmin IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,33 +29,33 @@ ms.locfileid: "33426137"
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Мапикс. h  <br/> |
-|Предоставлено:  <br/> |Объекты администрирования службы сообщений  <br/> |
+|Файл заголовка:  <br/> |MapiX.h  <br/> |
+|Выставим:  <br/> |Объекты администрирования службы сообщений  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMsgServiceAdmin  <br/> |
-|Тип указателя:  <br/> |лпсервицеадмин  <br/> |
+|Тип указателя:  <br/> |LPSERVICEADMIN  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[GetLastError](imsgserviceadmin-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о последней ошибке, созданной объектом администрирования службы сообщений.  <br/> |
-|[жетмсгсервицетабле](imsgserviceadmin-getmsgservicetable.md) <br/> |Предоставляет доступ к таблице службы сообщений, списку служб сообщений в профиле.  <br/> |
-|[креатемсгсервице](imsgserviceadmin-createmsgservice.md) <br/> |Добавляет службу сообщений в текущий профиль.  <br/> <br/>**Примечание**: Этот метод является устаревшим. Используйте [IMsgServiceAdmin2:: креатемсгсервицеекс](imsgserviceadmin2-createmsgserviceex.md) .           |
-|[делетемсгсервице](imsgserviceadmin-deletemsgservice.md) <br/> |Удаляет службу сообщений из профиля.  <br/> |
-|[копимсгсервице](imsgserviceadmin-copymsgservice.md) <br/> |Копирует службу сообщений в профиль.  <br/> |
-|[ренамемсгсервице](imsgserviceadmin-renamemsgservice.md) <br/> |Устаревшие. Назначает новое имя службе сообщений.  <br/> |
-|[конфигуремсгсервице](imsgserviceadmin-configuremsgservice.md) <br/> |Перестраивает службу сообщений.  <br/> |
-|[опенпрофилесектион](imsgserviceadmin-openprofilesection.md) <br/> |Открывает раздел текущего профиля и возвращает указатель [ипрофсект](iprofsectimapiprop.md) для получения дальнейших прав.  <br/> |
-|[мсгсервицетранспортордер](imsgserviceadmin-msgservicetransportorder.md) <br/> |Задает порядок, в котором будут вызываться поставщики транспорта для доставки сообщения.  <br/> |
-|[админпровидерс](imsgserviceadmin-adminproviders.md) <br/> |Возвращает указатель, который предоставляет доступ к объекту администрирования поставщика.  <br/> |
-|[сетпримаридентити](imsgserviceadmin-setprimaryidentity.md) <br/> |Назначает службу сообщений поставщику основного удостоверения для профиля.  <br/> |
-|[жетпровидертабле](imsgserviceadmin-getprovidertable.md) <br/> |Предоставляет доступ к таблице поставщика, в которой перечислены поставщики служб в профиле.  <br/> |
+|[GetLastError](imsgserviceadmin-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о последней ошибке, сгенерированной объектом администрирования службы сообщений.  <br/> |
+|[GetMsgServiceTable](imsgserviceadmin-getmsgservicetable.md) <br/> |Предоставляет доступ к таблице службы сообщений, списку служб сообщений в профиле.  <br/> |
+|[CreateMsgService](imsgserviceadmin-createmsgservice.md) <br/> |Добавляет службу сообщений в текущий профиль.  <br/> <br/>**ПРИМЕЧАНИЕ.** Этот метод является неподготовленным. Вместо [этого используйте IMsgServiceAdmin2::CreateMsgServiceEx.](imsgserviceadmin2-createmsgserviceex.md)           |
+|[DeleteMsgService](imsgserviceadmin-deletemsgservice.md) <br/> |Удаляет службу сообщений из профиля.  <br/> |
+|[CopyMsgService](imsgserviceadmin-copymsgservice.md) <br/> |Копирует службу сообщений в профиль.  <br/> |
+|[RenameMsgService](imsgserviceadmin-renamemsgservice.md) <br/> |Устарело. Назначает новое имя службе сообщений.  <br/> |
+|[ConfigureMsgService](imsgserviceadmin-configuremsgservice.md) <br/> |Перенастройка службы сообщений.  <br/> |
+|[OpenProfileSection](imsgserviceadmin-openprofilesection.md) <br/> |Открывает раздел текущего профиля и возвращает указатель [IProfSect](iprofsectimapiprop.md) для дальнейшего доступа.  <br/> |
+|[MsgServiceTransportOrder](imsgserviceadmin-msgservicetransportorder.md) <br/> |Задает порядок, в котором будут вызваны поставщики транспорта для доставки сообщения.  <br/> |
+|[AdminProviders](imsgserviceadmin-adminproviders.md) <br/> |Возвращает указатель, который предоставляет доступ к объекту администрирования поставщика.  <br/> |
+|[SetPrimaryIdentity](imsgserviceadmin-setprimaryidentity.md) <br/> |Назначает службу сообщений поставщиком основного удостоверения для профиля.  <br/> |
+|[GetProviderTable](imsgserviceadmin-getprovidertable.md) <br/> |Предоставляет доступ к таблице поставщиков, списку поставщиков услуг в профиле.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Реализация может получить указатель на интерфейс **имсгсервицеадмин** двумя способами: вызвав метод [IMAPISession:: админсервицес](imapisession-adminservices.md) или вызвав метод [ипрофадмин:: админсервицес](iprofadmin-adminservices.md) . Для клиентов, в основном основанных на конфигурации профиля, **ипрофадмин:: админсервицес** является предпочтительным способом получения интерфейса **имсгсервицеадмин** , так как он не выполняет вход поставщиков в сеанс MAPI. Если клиенту требуется возможность вносить изменения в активный профиль, то **IMAPISession:: админсервицес** должен вызываться для получения указателя **имсгсервицеадмин** . Имейте в виду, что хотя MAPI не разрешает удалять профиль, который используется для удаления, нет мер безопасности, препятствующих удалению клиентов удалять все службы сообщений в профиле. 
+Реализация может получить указатель на интерфейс **IMsgServiceAdmin** двумя способами: путем вызова метода [IMAPISession::AdminServices](imapisession-adminservices.md) или метода [IProfAdmin::AdminServices.](iprofadmin-adminservices.md) Для клиентов, в основном заинтересованных в настройке профиля, **интерфейс IProfAdmin::AdminServices** является предпочтительным способом получения интерфейса **IMsgServiceAdmin,** так как он не входит в систему поставщиков в сеанс MAPI. Если клиенту требуется возможность внесения изменений в активный профиль, для получения указателя **IMsgServiceAdmin** следует использовать **IMAPISession::AdminServices.** Следует помнить, что хотя MAPI не разрешает удаление используемого профиля, нет мер защиты, предотвращающих удаление клиентом всех служб сообщений в профиле. 
   
 ## <a name="see-also"></a>См. также
 

@@ -1,12 +1,12 @@
 ---
-title: Зарезервированные ключевые слова (пользовательское веб-приложение для Access)
+title: Зарезервированные ключевые слова (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 2b5beeb6-e52d-41be-94df-083d36141a9d
-description: Для определения, управления и доступа к базам данных в Microsoft Access используются зарезервированные ключевые слова. Зарезервированные ключевые слова являются частью грамматики языка, который используется в Access для синтаксического анализа и изучения операторов SQL.
+description: Microsoft Access использует зарезервированные ключевые слова для определения баз данных, управления ими и доступа к ним. Зарезервированные ключевые слова являются частью грамматики языка, используемого Access для анализа и понимания SQL.
 ms.openlocfilehash: 132f912d2b6b5a65980355b18c0a23eaa8c24cbc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424982"
 ---
-# <a name="reserved-keywords-access-custom-web-app"></a>Зарезервированные ключевые слова (пользовательское веб-приложение для Access)
+# <a name="reserved-keywords-access-custom-web-app"></a>Зарезервированные ключевые слова (пользовательское веб-приложение Access)
 
-Для определения, управления и доступа к базам данных в Microsoft Access используются зарезервированные ключевые слова. Зарезервированные ключевые слова являются частью грамматики языка, который используется в Access для синтаксического анализа и изучения операторов SQL. 
+Microsoft Access использует зарезервированные ключевые слова для определения баз данных, управления ими и доступа к ним. Зарезервированные ключевые слова являются частью грамматики языка, используемого Access для анализа и понимания SQL. 
   
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
@@ -27,265 +27,265 @@ ms.locfileid: "33424982"
   
 ||||
 |:-----|:-----|:-----|
-|НАДСТРОЙКИ  <br/> |FILLFACTOR  <br/> |Квартал  <br/> |
-|ВСЕ  <br/> |С плавающей запятой  <br/> |Функция  <br/> |
-|ALTER  <br/> |Дополнительные  <br/> |ПРОЧИТАН  <br/> |
-|И  <br/> |FOREIGN  <br/> |READTEXT  <br/> |
-|ANY  <br/> |ПРЕДИКАТ  <br/> |ПОВТОРНО настройте  <br/> |
-|AS  <br/> |FREETEXTTABLE  <br/> |СОДЕРЖИТ  <br/> |
-|ASC  <br/> |FROM  <br/> |РЕПЛИКАЦИИ  <br/> |
-|AUTHORIZATION  <br/> |ПОЛНЫЙ  <br/> |ВОССТАНАВЛИВАТЬ  <br/> |
-|РЕЗЕРВНОГО копирования  <br/> |ФУНКЦИЯМИ  <br/> |RESTRICT  <br/> |
-|ВЫПОЛНЕНИЯ  <br/> |Оператор  <br/> |RETURN  <br/> |
-|BETWEEN  <br/> |GRANT  <br/> |ЗНАЧЕНИ  <br/> |
-|BREAK  <br/> |ГРУППЫ  <br/> |REVOKE  <br/> |
-|ОБРАТИТЕСЬ  <br/> |HAVING  <br/> |Правильно  <br/> |
-|BULK  <br/> |ТАБЛИЧ  <br/> |ROLLBACK  <br/> |
-|BY  <br/> |Часы  <br/> |СТРО  <br/> |
-|CASCADE  <br/> |ХИЩЕНИЯ  <br/> |СВОЙСТВ  <br/> |
-|ТОГДА  <br/> |IDENTITY_INSERT  <br/> |ПРАВИЛА  <br/> |
-|CHECK  <br/> |идентитикол  <br/> |СЭКОНОМИТ  <br/> |
-|ТОЧКОЙ  <br/> |ЧТО  <br/> |SCHEMA  <br/> |
+|ADD  <br/> |FILLFACTOR  <br/> |Квартал  <br/> |
+|ВСЕ  <br/> |С плавающей запятой  <br/> |RAISERROR  <br/> |
+|ALTER  <br/> |FOR  <br/> |ЧТЕНИЕ  <br/> |
+|AND  <br/> |FOREIGN  <br/> |READTEXT  <br/> |
+|ANY  <br/> |FREETEXT  <br/> |RECONFIGURE  <br/> |
+|AS  <br/> |FREETEXTTABLE  <br/> |REFERENCES  <br/> |
+|ASC  <br/> |FROM  <br/> |РЕПЛИКАЦИЯ  <br/> |
+|AUTHORIZATION  <br/> |FULL  <br/> |RESTORE  <br/> |
+|РЕЗЕРВНОЕ КОПИРОВАНИЕ  <br/> |FUNCTION  <br/> |RESTRICT  <br/> |
+|BEGIN  <br/> |GOTO  <br/> |RETURN  <br/> |
+|BETWEEN  <br/> |GRANT  <br/> |REVERT  <br/> |
+|BREAK  <br/> |GROUP  <br/> |REVOKE  <br/> |
+|ОБЗОР  <br/> |HAVING  <br/> |Правильно  <br/> |
+|BULK  <br/> |HOLDLOCK  <br/> |ROLLBACK  <br/> |
+|BY  <br/> |Часы  <br/> |ROWCOUNT  <br/> |
+|CASCADE  <br/> |IDENTITY  <br/> |ROWGUIDCOL  <br/> |
+|CASE  <br/> |IDENTITY_INSERT  <br/> |RULE  <br/> |
+|CHECK  <br/> |IDENTITYCOL  <br/> |SAVE  <br/> |
+|КОНТРОЛЬНАЯ ТОЧКА  <br/> |IF  <br/> |SCHEMA  <br/> |
 |CLOSE  <br/> |IN  <br/> |Секунды  <br/> |
-|CLUSTERED  <br/> |INDEX  <br/> |секуритяудит  <br/> |
+|CLUSTERED  <br/> |INDEX  <br/> |SECURITYAUDIT  <br/> |
 |COALESCE  <br/> |INNER  <br/> |SELECT  <br/> |
-|COLLATE  <br/> |ВСТАВКА  <br/> |семантиккэйфрасетабле  <br/> |
-|ВЫЧИСЛЯЕМ  <br/> |Целое число  <br/> |семантиксимиларитидетаилстабле  <br/> |
-|COMMIT  <br/> |ПЕРЕСЕКАЛ  <br/> |семантиксимиларититабле  <br/> |
-|СЧЕТ  <br/> |INTO  <br/> |SESSION_USER  <br/> |
-|Индекс  <br/> | IS  <br/> |УСТАНОВЛЕНЫ  <br/> |
-|CONTAINS  <br/> |ISO_Week  <br/> |Другая  <br/> |
-|ФУНКЦИИ  <br/> |JOIN  <br/> |шорттекст  <br/> |
-|'  <br/> |РАЗДЕЛЕ  <br/> |ЗАПЛАНИРОВАН  <br/> |
-|CONVERT  <br/> |ОСТАНОВИТЬ  <br/> |SOME  <br/> |
-|CREATE  <br/> |ЛЕВЫЙ  <br/> |РАСЧЕТ  <br/> |
-|СОСТАВ  <br/> |LIKE  <br/> |SYSTEM_USER  <br/> |
-|Денежный  <br/> |линено  <br/> |TABLE  <br/> |
-|ЭТОЙ  <br/> |НАГРУЗКИ  <br/> |УКАЗАНО  <br/> |
-|CURRENT_DATE  <br/> |лонгтекст  <br/> |Текст  <br/> |
-|CURRENT_TIME  <br/> |MERGE  <br/> |TEXTSIZE  <br/> |
-|CURRENT_TIMESTAMP  <br/> |До  <br/> |ПОТОМ  <br/> |
-|CURRENT_USER  <br/> |Минуты  <br/> |Time  <br/> |
+|COLLATE  <br/> |ВСТАВКА  <br/> |SEMANTICKEYPHRASETABLE  <br/> |
+|COLUMN  <br/> |Целое число  <br/> |SEMANTICSIMILARITYDETAILSTABLE  <br/> |
+|COMMIT  <br/> |INTERSECT  <br/> |SEMANTICSIMILARITYTABLE  <br/> |
+|COMPUTE  <br/> |INTO  <br/> |SESSION_USER  <br/> |
+|CONSTRAINT  <br/> | IS  <br/> |SET  <br/> |
+|CONTAINS  <br/> |ISO_Week  <br/> |SETUSER  <br/> |
+|CONTAINSTABLE  <br/> |JOIN  <br/> |ShortText  <br/> |
+|CONTINUE  <br/> |KEY  <br/> |ЗАВЕРШЕНИЕ РАБОТЫ  <br/> |
+|CONVERT  <br/> |KILL  <br/> |SOME  <br/> |
+|CREATE  <br/> |LEFT  <br/> |СТАТИСТИКА  <br/> |
+|CROSS  <br/> |LIKE  <br/> |SYSTEM_USER  <br/> |
+|Валюта  <br/> |LINENO  <br/> |TABLE  <br/> |
+|CURRENT  <br/> |LOAD  <br/> |TABLESAMPLE  <br/> |
+|CURRENT_DATE  <br/> |LongText  <br/> |Текст  <br/> |
+|CURRENT_TIME  <br/> |MERGE  <br/> |ТЕКСТИЗАЛИЗИРОВАТЬ  <br/> |
+|CURRENT_TIMESTAMP  <br/> |Миллисекунд  <br/> |THEN  <br/> |
+|CURRENT_USER  <br/> |Минуты  <br/> |Время  <br/> |
 |CURSOR  <br/> |Month  <br/> |TO  <br/> |
-|БАЗУ  <br/> |NATIONAL  <br/> |Вверх  <br/> |
-|Дата  <br/> |Нет  <br/> |ТРАНЗАКЦИЙ  <br/> |
-|датевистиме  <br/> |Флажок "не проверять"  <br/> |ОПЕРАЦИЙ  <br/> |
-|Day  <br/> |NONCLUSTERED  <br/> |АКТИВИРОВАН  <br/> |
-|DayofYear  <br/> |NOT  <br/> |TRUNCATE  <br/> |
-|ИНСТРУКЦИИ  <br/> |ОПРЕДЕЛЕН  <br/> |TRY_CONVERT  <br/> |
-|ОСВОБОЖДЕНИЕ  <br/> |Функция  <br/> |тсекуал  <br/> |
-|DECLARE  <br/> |ИЗ  <br/> |ОБЪЕДИНИТЬ  <br/> |
-|УМОЛЧАНИ  <br/> |Отключение  <br/> |UNIQUE  <br/> |
-|DELETE  <br/> |СМЕЩЕНИЯ  <br/> |Отмена сведения  <br/> |
-|ЗАПРЕТИТЬ  <br/> |ВКЛ  <br/> |UPDATE  <br/> |
+|DATABASE  <br/> |NATIONAL  <br/> |Вверх  <br/> |
+|Дата  <br/> |Нет  <br/> |TRAN  <br/> |
+|DateWithTime  <br/> |NOCHECK  <br/> |TRANSACTION  <br/> |
+|Day  <br/> |NONCLUSTERED  <br/> |ТРИГГЕР  <br/> |
+|DayofYear  <br/> |NOT  <br/> |УСЕЧЕНИЕ  <br/> |
+|DBCC  <br/> |NULL  <br/> |TRY_CONVERT  <br/> |
+|DEALLOCATE  <br/> |NU ДЕФИС  <br/> |TSEQUAL  <br/> |
+|DECLARE  <br/> |OF  <br/> |UNION  <br/> |
+|ЗНАЧЕНИЕ ПО УМОЛЧАНИЮ  <br/> |ВЫКЛЮЧИТЕ  <br/> |UNIQUE  <br/> |
+|DELETE  <br/> |OFFSETS  <br/> |UNPIVOT  <br/> |
+|DENY  <br/> |ВКЛ  <br/> |UPDATE  <br/> |
 |DESC  <br/> |OPEN  <br/> |UPDATETEXT  <br/> |
-|ДИСК  <br/> |ФУНКЦИЮ  <br/> |Используйте  <br/> |
-|DISTINCT  <br/> |ПРЕДЛОЖЕНИЕ  <br/> |ПОЛЬЗОВАТЕЛЬ  <br/> |
-|Подбор  <br/> |ФУНКЦИЮ  <br/> |ЗНАЧЕНИЙ  <br/> |
-|ДВОЙНОЙ  <br/> |ИНСТРУКЦИИ  <br/> |VARYING  <br/> |
-|DROP  <br/> |)  <br/> |ВИД  <br/> |
-|ОБРАБОТАН  <br/> |OR  <br/> |ОЖИДАНИ  <br/> |
-|КРОЕТ  <br/> |ПОРЯДКЕ  <br/> |Неделя  <br/> |
-|END  <br/> |Внешняя  <br/> |День недели  <br/> |
-|еррлвл  <br/> |ПЕРЕД  <br/> |WHEN  <br/> |
-|ПЕРЕКЛЮЧЕН  <br/> |ДОЛЯ  <br/> |WHERE  <br/> |
-|Кроме  <br/> |ОТМЕНЫ  <br/> |ПОПЫТК  <br/> |
-|ИСПОЛНЯЕМ  <br/> |Планирование  <br/> |WITH  <br/> |
-|ВЫПОЛНЕНЫ  <br/> |PRECISION  <br/> |В ГРУППЕ  <br/> |
-|Существует  <br/> |PRIMARY  <br/> |Инструкция  <br/> |
-|EXIT  <br/> |ПРЕДВАРИТЕЛЬНОГО  <br/> |Год  <br/> |
-|ВНЕШНИХ  <br/> |ПРОЦЕДУР  <br/> |Да  <br/> |
-|FETCH  <br/> |ПРОЦЕДУРА  <br/> |есно  <br/> |
-|ФАЙЛУ  <br/> |PUBLIC  <br/> ||
+|DISK  <br/> |OPENDATASOURCE  <br/> |ИСПОЛЬЗОВАНИЕ  <br/> |
+|DISTINCT  <br/> |OPENQUERY  <br/> |ПОЛЬЗОВАТЕЛЬ  <br/> |
+|DISTRIBUTED  <br/> |OPENROWSET  <br/> |VALUES  <br/> |
+|DOUBLE  <br/> |OPENXML  <br/> |VARYING  <br/> |
+|DROP  <br/> |OPTION  <br/> |ВИД  <br/> |
+|DUMP  <br/> |ИЛИ  <br/> |WAITFOR  <br/> |
+|ELSE  <br/> |ORDER  <br/> |Неделя  <br/> |
+|END  <br/> |OUTER  <br/> |День недели  <br/> |
+|ERRLVL  <br/> |OVER  <br/> |WHEN  <br/> |
+|ESCAPE  <br/> |ПРОЦЕНТ  <br/> |WHERE  <br/> |
+|ЗА ИСКЛЮЧЕНИЕМ  <br/> |PIVOT  <br/> |WHILE  <br/> |
+|EXEC  <br/> |PLAN  <br/> |WITH  <br/> |
+|EXECUTE  <br/> |PRECISION  <br/> |В ПРЕДЕЛАХ ГРУППЫ  <br/> |
+|EXISTS  <br/> |PRIMARY  <br/> |WRITETEXT  <br/> |
+|EXIT  <br/> |PRINT  <br/> |Year  <br/> |
+|EXTERNAL  <br/> |PROC  <br/> |Да  <br/> |
+|FETCH  <br/> |PROCEDURE  <br/> |YesNo  <br/> |
+|FILE  <br/> |PUBLIC  <br/> ||
    
 
   
 ## <a name="odbc-reserved-keywords"></a>Зарезервированные ключевые слова ODBC
 
-Кроме того, стандарт ISO определяет список зарезервированных ключевых слов. Избегайте использования зарезервированных ключевых слов ISO для имен объектов и идентификаторов. Список зарезервированных ключевых слов ODBC, приведенный в следующей таблице, совпадает со списком зарезервированных ключевых слов ISO.
+Кроме того, стандарт ISO определяет список зарезервированных ключевых слов. Избегайте использования зарезервированных ключевых слов ISO для имен объектов и идентификаторов. Зарезервированный список КЛЮЧЕВЫХ слов ODBC, показанный в следующей таблице, такой же, как и список зарезервированных ключевых слов ISO.
 
-Следующие слова зарезервированы для использования в вызовах функций ODBC. Эти слова не ограничивают минимальную грамматику SQL; Тем не менее, для обеспечения совместимости с драйверами, поддерживающими основную грамматику SQL, приложения не должны использовать эти ключевые слова.
+Следующие слова зарезервированы для использования в вызовах функции ODBC. Эти слова не ограничивают минимальную SQL грамматику; однако для обеспечения совместимости с драйверами, которые поддерживают основные SQL грамматики, приложения не должны использовать эти ключевые слова.
   
 Это текущий список зарезервированных ключевых слов ODBC.
   
 ||||
 |:-----|:-----|:-----|
-|ABSOLUTE  <br/> |ИСПОЛНЯЕМ  <br/> |ПЕРЕКРЫВАЕТ  <br/> |
-|МЕРЫ  <br/> |ВЫПОЛНЕНЫ  <br/> |PAD  <br/> |
-|ADA  <br/> |Существует  <br/> |Partial  <br/> |
-|НАДСТРОЙКИ  <br/> |ВНЕШНИХ  <br/> |СТИЛЕ  <br/> |
+|ABSOLUTE  <br/> |EXEC  <br/> |OVERLAPS  <br/> |
+|ACTION  <br/> |EXECUTE  <br/> |PAD  <br/> |
+|ADA  <br/> |EXISTS  <br/> |Partial  <br/> |
+|ADD  <br/> |EXTERNAL  <br/> |PASCAL  <br/> |
 |ВСЕ  <br/> |EXTRACT  <br/> |POSITION  <br/> |
-|РЕСУРСЫ  <br/> |FALSE  <br/> |PRECISION  <br/> |
+|ALLOCATE  <br/> |FALSE  <br/> |PRECISION  <br/> |
 |ALTER  <br/> |FETCH  <br/> |PREPARE  <br/> |
-|И  <br/> |FIRST  <br/> |СОХРАНИТЬ  <br/> |
+|AND  <br/> |FIRST  <br/> |PRESERVE  <br/> |
 |ANY  <br/> |FLOAT  <br/> |PRIMARY  <br/> |
-|ARE  <br/> |Дополнительные  <br/> |НАСТУПЛЕНИ  <br/> |
+|ARE  <br/> |FOR  <br/> |PRIOR  <br/> |
 |AS  <br/> |FOREIGN  <br/> |PRIVILEGES  <br/> |
-|ASC  <br/> |FORTRAN  <br/> |ПРОЦЕДУРА  <br/> |
-|ASSERTION  <br/> |НАЙТИ  <br/> |PUBLIC  <br/> |
-|AT  <br/> |FROM  <br/> |ПРОЧИТАН  <br/> |
-|AUTHORIZATION  <br/> |ПОЛНЫЙ  <br/> |REAL  <br/> |
-|СРЕДНЕЙ  <br/> |GET  <br/> |СОДЕРЖИТ  <br/> |
-|ВЫПОЛНЕНИЯ  <br/> |ГЛОБАЛЬНОГО  <br/> |СРАВНЕНИЯ  <br/> |
-|BETWEEN  <br/> |ЗАЙТИ  <br/> |RESTRICT  <br/> |
-|BIT  <br/> |Оператор  <br/> |REVOKE  <br/> |
+|ASC  <br/> |FORTRAN  <br/> |PROCEDURE  <br/> |
+|ASSERTION  <br/> |FOUND  <br/> |PUBLIC  <br/> |
+|AT  <br/> |FROM  <br/> |ЧТЕНИЕ  <br/> |
+|AUTHORIZATION  <br/> |FULL  <br/> |REAL  <br/> |
+|AVG  <br/> |GET  <br/> |REFERENCES  <br/> |
+|BEGIN  <br/> |GLOBAL  <br/> |RELATIVE  <br/> |
+|BETWEEN  <br/> |GO  <br/> |RESTRICT  <br/> |
+|BIT  <br/> |GOTO  <br/> |REVOKE  <br/> |
 |BIT_LENGTH  <br/> |GRANT  <br/> |Правильно  <br/> |
-|BOTH  <br/> |ГРУППЫ  <br/> |ROLLBACK  <br/> |
-|BY  <br/> |HAVING  <br/> |NOROWS  <br/> |
+|BOTH  <br/> |GROUP  <br/> |ROLLBACK  <br/> |
+|BY  <br/> |HAVING  <br/> |СТРОКИ  <br/> |
 |CASCADE  <br/> |HOUR  <br/> |SCHEMA  <br/> |
-|КАСКАДНОЙ  <br/> |ХИЩЕНИЯ  <br/> |Свиток  <br/> |
-|ТОГДА  <br/> |ОПЕРАНД  <br/> |SECOND  <br/> |
-|ПРИВЕСТИ  <br/> |IN  <br/> |РАЗДЕЛОВ  <br/> |
-|CATALOG  <br/> |ПРЕДУСМОТРЕН  <br/> |SELECT  <br/> |
-|РАЗДЕЛИТЕЛ  <br/> |INDEX  <br/> |СМ  <br/> |
+|CASCADED  <br/> |IDENTITY  <br/> |SCROLL  <br/> |
+|CASE  <br/> |IMMEDIATE  <br/> |SECOND  <br/> |
+|CAST  <br/> |IN  <br/> |SECTION  <br/> |
+|CATALOG  <br/> |INCLUDE  <br/> |SELECT  <br/> |
+|CHAR  <br/> |INDEX  <br/> |SESSION  <br/> |
 |CHAR_LENGTH  <br/> |ИНДИКАТОР  <br/> |SESSION_USER  <br/> |
-|CHARACTER  <br/> |СВОЕ  <br/> |УСТАНОВЛЕНЫ  <br/> |
+|CHARACTER  <br/> |INITIALLY  <br/> |SET  <br/> |
 |CHARACTER_LENGTH  <br/> |INNER  <br/> |SIZE  <br/> |
 |CHECK  <br/> |INPUT  <br/> |SMALLINT  <br/> |
 |CLOSE  <br/> |INSENSITIVE  <br/> |SOME  <br/> |
 |COALESCE  <br/> |ВСТАВКА  <br/> |SPACE  <br/> |
 |COLLATE  <br/> |INT  <br/> |SQL  <br/> |
-|COLLATION  <br/> |INTEGER  <br/> |склка  <br/> |
-|ВЫЧИСЛЯЕМ  <br/> |ПЕРЕСЕКАЛ  <br/> |склкоде  <br/> |
-|COMMIT  <br/> |INTERVAL  <br/> |склеррор  <br/> |
+|COLLATION  <br/> |INTEGER  <br/> |SQLCA  <br/> |
+|COLUMN  <br/> |INTERSECT  <br/> |SQLCODE  <br/> |
+|COMMIT  <br/> |INTERVAL  <br/> |SQLERROR  <br/> |
 |CONNECT  <br/> |INTO  <br/> |SQLSTATE  <br/> |
-|CONNECTION  <br/> | IS  <br/> |склварнинг  <br/> |
-|Индекс  <br/> |ISOLATION  <br/> |SUBSTRING  <br/> |
-|ПРОВЕРОЧ  <br/> |JOIN  <br/> |ПРОИЗВЕДЕН  <br/> |
-|'  <br/> |РАЗДЕЛЕ  <br/> |SYSTEM_USER  <br/> |
+|CONNECTION  <br/> | IS  <br/> |SQLWARNING  <br/> |
+|CONSTRAINT  <br/> |ISOLATION  <br/> |SUBSTRING  <br/> |
+|CONSTRAINTS  <br/> |JOIN  <br/> |SUM  <br/> |
+|CONTINUE  <br/> |KEY  <br/> |SYSTEM_USER  <br/> |
 |CONVERT  <br/> |Функция LANGUAGE  <br/> |TABLE  <br/> |
-|ОТНОСЯЩ  <br/> |LAST  <br/> |ВРЕМЕННЫЕ  <br/> |
-|COUNT  <br/> |Первый  <br/> |ПОТОМ  <br/> |
-|CREATE  <br/> |ЛЕВЫЙ  <br/> |ВРЕМЕНЕМ  <br/> |
-|СОСТАВ  <br/> |СТЕПЕНЬ  <br/> |TIMESTAMP  <br/> |
-|ЭТОЙ  <br/> |LIKE  <br/> |TIMEZONE_HOUR  <br/> |
-|CURRENT_DATE  <br/> |ЛОКАЛЬНОМ  <br/> |TIMEZONE_MINUTE  <br/> |
+|CORRESPONDING  <br/> |LAST  <br/> |TEMPORARY  <br/> |
+|COUNT  <br/> |LEADING  <br/> |THEN  <br/> |
+|CREATE  <br/> |LEFT  <br/> |TIME  <br/> |
+|CROSS  <br/> |LEVEL  <br/> |TIMESTAMP  <br/> |
+|CURRENT  <br/> |LIKE  <br/> |TIMEZONE_HOUR  <br/> |
+|CURRENT_DATE  <br/> |LOCAL  <br/> |TIMEZONE_MINUTE  <br/> |
 |CURRENT_TIME  <br/> |LOWER  <br/> |TO  <br/> |
 |CURRENT_TIMESTAMP  <br/> |MATCH  <br/> |TRAILING  <br/> |
-|CURRENT_USER  <br/> |MAX  <br/> |ОПЕРАЦИЙ  <br/> |
-|CURSOR  <br/> |МИНУТ  <br/> |TRANSLATE  <br/> |
-|БУДУЩ  <br/> |MINUTE  <br/> |TRANSLATION  <br/> |
-|DAY  <br/> |НАЗНАЧАЕМ  <br/> |TRIM  <br/> |
-|ОСВОБОЖДЕНИЕ  <br/> |MONTH  <br/> |TRUE  <br/> |
-|Дек  <br/> |ПСЕВДОНИМ  <br/> |ОБЪЕДИНИТЬ  <br/> |
+|CURRENT_USER  <br/> |MAX  <br/> |TRANSACTION  <br/> |
+|CURSOR  <br/> |MIN  <br/> |TRANSLATE  <br/> |
+|DATE  <br/> |MINUTE  <br/> |TRANSLATION  <br/> |
+|DAY  <br/> |MODULE  <br/> |TRIM  <br/> |
+|DEALLOCATE  <br/> |MONTH  <br/> |TRUE  <br/> |
+|DEC  <br/> |NAMES  <br/> |UNION  <br/> |
 |DECIMAL  <br/> |NATIONAL  <br/> |UNIQUE  <br/> |
-|DECLARE  <br/> |ОБЫЧНО  <br/> |UNKNOWN  <br/> |
-|УМОЛЧАНИ  <br/> |NCHAR  <br/> |UPDATE  <br/> |
-|деферрабле  <br/> |СТРЕЛКУ  <br/> |UPPER  <br/> |
+|DECLARE  <br/> |NATURAL  <br/> |UNKNOWN  <br/> |
+|ЗНАЧЕНИЕ ПО УМОЛЧАНИЮ  <br/> |NCHAR  <br/> |UPDATE  <br/> |
+|DEFERRABLE  <br/> |NEXT  <br/> |UPPER  <br/> |
 |DEFERRED  <br/> |Нет  <br/> |USAGE  <br/> |
-|DELETE  <br/> |ВИДИМ  <br/> |ПОЛЬЗОВАТЕЛЬ  <br/> |
+|DELETE  <br/> |NONE  <br/> |ПОЛЬЗОВАТЕЛЬ  <br/> |
 |DESC  <br/> |NOT  <br/> |USING  <br/> |
-|РАССМАТРИВАЕТСЯ  <br/> |ОПРЕДЕЛЕН  <br/> |ОНО  <br/> |
-|ПИСЫВАЕТ  <br/> |Функция  <br/> |ЗНАЧЕНИЙ  <br/> |
-|ДИАГНОСТИКИ  <br/> |ЧИСЛОВЫХ  <br/> |ТИПА  <br/> |
+|DESCRIBE  <br/> |NULL  <br/> |VALUE  <br/> |
+|ДЕСКРИПТОР  <br/> |NU ДЕФИС  <br/> |VALUES  <br/> |
+|ДИАГНОСТИКА  <br/> |NUMERIC  <br/> |VARCHAR  <br/> |
 |DISCONNECT  <br/> |OCTET_LENGTH  <br/> |VARYING  <br/> |
-|DISTINCT  <br/> |ИЗ  <br/> |ВИД  <br/> |
+|DISTINCT  <br/> |OF  <br/> |ВИД  <br/> |
 |DOMAIN  <br/> |ВКЛ  <br/> |WHEN  <br/> |
-|ДВОЙНОЙ  <br/> |ТЕХ  <br/> |WHENEVER  <br/> |
+|DOUBLE  <br/> |ТОЛЬКО  <br/> |WHENEVER  <br/> |
 |DROP  <br/> |OPEN  <br/> |WHERE  <br/> |
-|КРОЕТ  <br/> |)  <br/> |WITH  <br/> |
-|END  <br/> |OR  <br/> |РАБОТЫ  <br/> |
-|END — EXEC  <br/> |ПОРЯДКЕ  <br/> |ПОНИЖЕН  <br/> |
-|ПЕРЕКЛЮЧЕН  <br/> |Внешняя  <br/> |YEAR  <br/> |
-|Кроме  <br/> |OUTPUT  <br/> |ZONE  <br/> |
-|ВОЗНИКНОВЕНИЯ  <br/> |||
+|ELSE  <br/> |OPTION  <br/> |WITH  <br/> |
+|END  <br/> |ИЛИ  <br/> |WORK  <br/> |
+|END-EXEC  <br/> |ORDER  <br/> |WRITE  <br/> |
+|ESCAPE  <br/> |OUTER  <br/> |YEAR  <br/> |
+|ЗА ИСКЛЮЧЕНИЕМ  <br/> |OUTPUT  <br/> |ZONE  <br/> |
+|ИСКЛЮЧЕНИЕ  <br/> |||
    
 ## <a name="future-keywords"></a>Будущие ключевые слова
 
-Следующие ключевые слова могут быть зарезервированы в будущих выпусках SQL Server при реализации новых функций. Рекомендуется избегать использования этих слов в качестве идентификаторов.
+Следующие ключевые слова можно зарезервировать в будущих выпусках SQL Server по мере внедрения новых функций. Старайтесь не использовать эти слова в качестве идентификаторов.
   
 ||||
 |:-----|:-----|:-----|
-|ABSOLUTE  <br/> |РАЗМЕЩАТЬ  <br/> |СРАВНЕНИЯ  <br/> |
-|МЕРЫ  <br/> |HOUR  <br/> |УДАЛЕНИЯ  <br/> |
-|ГРУППЫ  <br/> |ПРОПУСК  <br/> |ПРИВЕЛО  <br/> |
-|ВЫПОЛНЕНИЯ  <br/> |ОПЕРАНД  <br/> |ВЕРНЕТ  <br/> |
-|ОБЪЕДИНИТ  <br/> |ИНДИКАТОР  <br/> |РОЛЕЙ  <br/> |
-|СМЕШАН  <br/> |INITIALIZE  <br/> |СВОДНЫЕ  <br/> |
-|РЕСУРСЫ  <br/> |СВОЕ  <br/> |СЛУЖЕБ  <br/> |
-|ARE  <br/> |INOUT  <br/> |Строка  <br/> |
-|МАССИВ  <br/> |INPUT  <br/> |NOROWS  <br/> |
-|асенситиве  <br/> |INT  <br/> |ПИКСЕЛ  <br/> |
-|ASSERTION  <br/> |INTEGER  <br/> |Свиток  <br/> |
-|OAEP  <br/> |ПЕРЕСЕКА  <br/> |ВИДИМОСТИ  <br/> |
-|AT  <br/> |INTERVAL  <br/> |ВЫПОЛНЯТЬ  <br/> |
-|ХАРАКТЕР  <br/> |ISOLATION  <br/> |SECOND  <br/> |
-|ТЕЧЕНИ  <br/> |ИТЕРАЦИ  <br/> |РАЗДЕЛОВ  <br/> |
+|ABSOLUTE  <br/> |HOST  <br/> |RELATIVE  <br/> |
+|ACTION  <br/> |HOUR  <br/> |RELEASE  <br/> |
+|ADMIN  <br/> |IGNORE  <br/> |RESULT  <br/> |
+|AFTER  <br/> |IMMEDIATE  <br/> |RETURNS  <br/> |
+|AGGREGATE  <br/> |ИНДИКАТОР  <br/> |ROLE  <br/> |
+|ALIAS  <br/> |ИНИЦИАЛИЗАЦИЯ  <br/> |ROLLUP  <br/> |
+|ALLOCATE  <br/> |INITIALLY  <br/> |ROUTINE  <br/> |
+|ARE  <br/> |INOUT  <br/> |СТРОКА  <br/> |
+|ARRAY  <br/> |INPUT  <br/> |СТРОКИ  <br/> |
+|ASENSITIVE  <br/> |INT  <br/> |SAVEPOINT  <br/> |
+|ASSERTION  <br/> |INTEGER  <br/> |SCROLL  <br/> |
+|АСИММЕТРИЧНАЯ  <br/> |INTERSECTION  <br/> |SCOPE  <br/> |
+|AT  <br/> |INTERVAL  <br/> |ПОИСК  <br/> |
+|ATOMIC  <br/> |ISOLATION  <br/> |SECOND  <br/> |
+|BEFORE  <br/> |ИТЕРАЦИИ  <br/> |SECTION  <br/> |
 |BINARY  <br/> |Функция LANGUAGE  <br/> |SENSITIVE  <br/> |
-|BIT  <br/> |БОЛЬШОМ  <br/> |ПОРЯДОК  <br/> |
-|ХАРАКТЕРИСТИКИ  <br/> |LAST  <br/> |СМ  <br/> |
-|ЛОГИЧЕСКОГО  <br/> |латерал  <br/> |ПРЕДВАРИТЕЛЬ  <br/> |
-|BOTH  <br/> |Первый  <br/> |ТАКОЕ  <br/> |
-|ШИРИНУ  <br/> |СНИЗИТЬ  <br/> |SIZE  <br/> |
-|ВЫЗЫВАТЬ  <br/> |СТЕПЕНЬ  <br/> |SMALLINT  <br/> |
-|НАЗЫВАТЬ  <br/> |LIKE_REGEX  <br/> |SPACE  <br/> |
-|Количество элементов  <br/> |ОТДЕЛЯЕТ  <br/> |УКАЗАННОЙ  <br/> |
-|КАСКАДНОЙ  <br/> |ПРОТИВ  <br/> |спеЦификтипе  <br/> |
-|ПРИВЕСТИ  <br/> |ЛОКАЛЬНОМ  <br/> |SQL  <br/> |
-|CATALOG  <br/> |локалтиме  <br/> |SQLEXCEPTION  <br/> |
-|РАЗДЕЛИТЕЛ  <br/> |локалтиместамп  <br/> |SQLSTATE  <br/> |
-|CHARACTER  <br/> |ИНФОРМАЦИОН  <br/> |склварнинг  <br/> |
-|КЛАССЕ  <br/> |СОПОСТАВИТЬ  <br/> |НАЧАЛ  <br/> |
-|ВОЗНИКАЕТ  <br/> |MATCH  <br/> |СОСТОЯНИЕ  <br/> |
-|COLLATION  <br/> |КОМПОНЕНТА  <br/> |Оператор  <br/> |
-|ПОЛУЧАТЬ  <br/> |WebMethod  <br/> |СТАТИЧЕСКИЙ  <br/> |
-|НАЖАТ  <br/> |MINUTE  <br/> |STDDEV_POP  <br/> |
-|УСТАНОВЛЕН  <br/> |MOD  <br/> |STDDEV_SAMP  <br/> |
-|CONNECT  <br/> |ИЗМЕНЯЕТ  <br/> |STRUCTURE  <br/> |
-|CONNECTION  <br/> |ИЗМЕНЕНИЕ  <br/> |МУЛЬТИНАБОР  <br/> |
-|ПРОВЕРОЧ  <br/> |НАЗНАЧАЕМ  <br/> |SUBSTRING_REGEX  <br/> |
-|Конструктор  <br/> |MONTH  <br/> |ОТКРЫВАЕМ  <br/> |
-|КОРР  <br/> |МУЛЬТИНАБОР  <br/> |СИСТЕМЫ  <br/> |
-|ОТНОСЯЩ  <br/> |ПСЕВДОНИМ  <br/> |ВРЕМЕННЫЕ  <br/> |
-|COVAR_POP  <br/> |ОБЫЧНО  <br/> |ЗАВЕРШИТЬ  <br/> |
-|COVAR_SAMP  <br/> |NCHAR  <br/> |ОТЛИЧНЫЕ  <br/> |
-|Куба  <br/> |NCLOB  <br/> |ВРЕМЕНЕМ  <br/> |
+|BIT  <br/> |LARGE  <br/> |SEQUENCE  <br/> |
+|BLOB  <br/> |LAST  <br/> |SESSION  <br/> |
+|BOOLEAN  <br/> |LATERAL  <br/> |SETS  <br/> |
+|BOTH  <br/> |LEADING  <br/> |SIMILAR  <br/> |
+|ШИРИНА  <br/> |LESS  <br/> |SIZE  <br/> |
+|CALL  <br/> |LEVEL  <br/> |SMALLINT  <br/> |
+|CALLED  <br/> |LIKE_REGEX  <br/> |SPACE  <br/> |
+|ПРОСТОТА  <br/> |LIMIT  <br/> |SPECIFIC  <br/> |
+|CASCADED  <br/> |LN  <br/> |SPECIFICTYPE  <br/> |
+|CAST  <br/> |LOCAL  <br/> |SQL  <br/> |
+|CATALOG  <br/> |LOCALTIME  <br/> |SQLEXCEPTION  <br/> |
+|CHAR  <br/> |LOCALTIMESTAMP  <br/> |SQLSTATE  <br/> |
+|CHARACTER  <br/> |LOCATOR  <br/> |SQLWARNING  <br/> |
+|CLASS  <br/> |MAP  <br/> |START  <br/> |
+|CLOB  <br/> |MATCH  <br/> |STATE  <br/> |
+|COLLATION  <br/> |MEMBER  <br/> |STATEMENT  <br/> |
+|COLLECT  <br/> |METHOD  <br/> |STATIC  <br/> |
+|ЗАВЕРШЕНИЕ  <br/> |MINUTE  <br/> |STDDEV_POP  <br/> |
+|CONDITION  <br/> |MOD  <br/> |STDDEV_SAMP  <br/> |
+|CONNECT  <br/> |MODIFIES  <br/> |СТРУКТУРА  <br/> |
+|CONNECTION  <br/> |MODIFY  <br/> |SUBMULTISET  <br/> |
+|CONSTRAINTS  <br/> |MODULE  <br/> |SUBSTRING_REGEX  <br/> |
+|КОНСТРУКТОР  <br/> |MONTH  <br/> |СИММЕТРИЧНОЕ  <br/> |
+|CORR  <br/> |MULTISET  <br/> |SYSTEM  <br/> |
+|CORRESPONDING  <br/> |NAMES  <br/> |TEMPORARY  <br/> |
+|COVAR_POP  <br/> |NATURAL  <br/> |TERMINATE  <br/> |
+|COVAR_SAMP  <br/> |NCHAR  <br/> |THAN  <br/> |
+|КУБ  <br/> |NCLOB  <br/> |TIME  <br/> |
 |CUME_DIST  <br/> |Новые функции  <br/> |TIMESTAMP  <br/> |
-|CURRENT_CATALOG  <br/> |СТРЕЛКУ  <br/> |TIMEZONE_HOUR  <br/> |
+|CURRENT_CATALOG  <br/> |NEXT  <br/> |TIMEZONE_HOUR  <br/> |
 |CURRENT_DEFAULT_TRANSFORM_GROUP  <br/> |Нет  <br/> |TIMEZONE_MINUTE  <br/> |
-|CURRENT_PATH  <br/> |ВИДИМ  <br/> |TRAILING  <br/> |
-|CURRENT_ROLE  <br/> |НОРМАЛИЗАЦИИ  <br/> |TRANSLATE_REGEX  <br/> |
-|CURRENT_SCHEMA  <br/> |ЧИСЛОВЫХ  <br/> |TRANSLATION  <br/> |
-|CURRENT_TRANSFORM_GROUP_FOR_TYPE  <br/> |ОБЪЕКТАМ  <br/> |ОБРАЩАЛ  <br/> |
-|ПОВТОРНО  <br/> |OCCURRENCES_REGEX  <br/> |TRUE  <br/> |
-|ДАННЫМ  <br/> |РАНЕЕ  <br/> |уескапе  <br/> |
-|БУДУЩ  <br/> |ТЕХ  <br/> |ДИАЛОГОВ  <br/> |
-|DAY  <br/> |ВОССТАНОВЛЕНИЕ  <br/> |UNKNOWN  <br/> |
-|Дек  <br/> |ПОРЯДКовый номер  <br/> |Развложение  <br/> |
-|DECIMAL  <br/> |ВЫШЛИ  <br/> |USAGE  <br/> |
-|деферрабле  <br/> |НАКЛАДЫВАЮЩИЕСЯ  <br/> |USING  <br/> |
-|DEFERRED  <br/> |OUTPUT  <br/> |ОНО  <br/> |
-|КОЛИЧЕСТВА  <br/> |PAD  <br/> |VAR_POP  <br/> |
-|DEREF  <br/> |ПАРАМЕТР  <br/> |VAR_SAMP  <br/> |
-|РАССМАТРИВАЕТСЯ  <br/> |ПАРАМЕТРЫ  <br/> |ТИПА  <br/> |
-|ПИСЫВАЕТ  <br/> |Partial  <br/> |РАЗЛИЧНЫЕ  <br/> |
-|ФАЛЫ  <br/> |РАЗДЕЛАХ  <br/> |WHENEVER  <br/> |
-|НИ  <br/> |КОНТУРА  <br/> |WIDTH_BUCKET  <br/> |
-|ПРЕДСКАЗУЕМ  <br/> |ИНДИКАТОР  <br/> |БЕЗ  <br/> |
-|СЛОВАРЯ  <br/> |ВСТАВЛЯТЬ  <br/> |ОКНО  <br/> |
-|ДИАГНОСТИКИ  <br/> |УПОРЯДОЧЕНие  <br/> |В  <br/> |
-|DISCONNECT  <br/> |PREPARE  <br/> |РАБОТЫ  <br/> |
-|DOMAIN  <br/> |PERCENT_RANK  <br/> |ПОНИЖЕН  <br/> |
-|Платформа  <br/> |PERCENTILE_CONT  <br/> |ксмлагг  <br/> |
-|EACH  <br/> |PERCENTILE_DISC  <br/> |ксмлаттрибутес  <br/> |
-|ЭЛЕМЕНТАМИ  <br/> |POSITION_REGEX  <br/> |ксмлбинари  <br/> |
-|END — EXEC  <br/> |СОХРАНИТЬ  <br/> |ксмлкаст  <br/> |
-|EQUALS  <br/> |НАСТУПЛЕНИ  <br/> |ксмлкоммент  <br/> |
-|ЛЮБОЙ  <br/> |PRIVILEGES  <br/> |ксмлконкат  <br/> |
-|ВОЗНИКНОВЕНИЯ  <br/> |RANGE  <br/> |XMLDOCUMENT  <br/> |
-|FALSE  <br/> |СЧИТЫВАТЬ  <br/> |XMLELEMENT  <br/> |
-|FILTER  <br/> |REAL  <br/> |ксмлексистс  <br/> |
-|FIRST  <br/> |РЕКУРСИВНЫЙ  <br/> |ксмлфорест  <br/> |
-|FLOAT  <br/> |СЛОВОМ  <br/> |ксмлитерате  <br/> |
-|НАЙТИ  <br/> |ОБОЗНАЧЕНИЯ  <br/> |XMLNAMESPACES  <br/> |
-|СВОБОДНОГО  <br/> |REGR_AVGX  <br/> |ксмлпарсе  <br/> |
-|фуллтексттабле  <br/> |REGR_AVGY  <br/> |ксмлпи  <br/> |
-|ОБЪЕКТА  <br/> |REGR_COUNT  <br/> |ксмлкуери  <br/> |
-|ОБОБЩЕН  <br/> |REGR_INTERCEPT  <br/> |ксмлсериализе  <br/> |
-|GET  <br/> |REGR_R2  <br/> |ксмлтабле  <br/> |
-|ГЛОБАЛЬНОГО  <br/> |REGR_SLOPE  <br/> |XMLTEXT  <br/> |
-|ЗАЙТИ  <br/> |REGR_SXX  <br/> |ксмлвалидате  <br/> |
-|ГРУППИРОВКИ  <br/> |REGR_SXY  <br/> |YEAR  <br/> |
-|УДЕРЖАТЬ  <br/> |REGR_SYY  <br/> |ZONE  <br/> |
+|CURRENT_PATH  <br/> |NONE  <br/> |TRAILING  <br/> |
+|CURRENT_ROLE  <br/> |НОРМАЛИЗАЦИЯ  <br/> |TRANSLATE_REGEX  <br/> |
+|CURRENT_SCHEMA  <br/> |NUMERIC  <br/> |TRANSLATION  <br/> |
+|CURRENT_TRANSFORM_GROUP_FOR_TYPE  <br/> |OBJECT  <br/> |TREAT  <br/> |
+|CYCLE  <br/> |OCCURRENCES_REGEX  <br/> |TRUE  <br/> |
+|DATA  <br/> |OLD  <br/> |UESCAPE  <br/> |
+|DATE  <br/> |ТОЛЬКО  <br/> |UNDER  <br/> |
+|DAY  <br/> |OPERATION  <br/> |UNKNOWN  <br/> |
+|DEC  <br/> |ORDINALITY  <br/> |UNNEST  <br/> |
+|DECIMAL  <br/> |OUT  <br/> |USAGE  <br/> |
+|DEFERRABLE  <br/> |OVERLAY  <br/> |USING  <br/> |
+|DEFERRED  <br/> |OUTPUT  <br/> |VALUE  <br/> |
+|DEPTH  <br/> |PAD  <br/> |VAR_POP  <br/> |
+|DEREF  <br/> |PARAMETER  <br/> |VAR_SAMP  <br/> |
+|DESCRIBE  <br/> |ПАРАМЕТРЫ  <br/> |VARCHAR  <br/> |
+|ДЕСКРИПТОР  <br/> |Partial  <br/> |ПЕРЕМЕННАЯ  <br/> |
+|DESTROY  <br/> |РАЗДЕЛ  <br/> |WHENEVER  <br/> |
+|DESTRUCTOR  <br/> |ПУТЬ  <br/> |WIDTH_BUCKET  <br/> |
+|ДЕТЕРМИНИСТИЧНЫЕ  <br/> |POSTFIX  <br/> |WITHOUT  <br/> |
+|DICTIONARY  <br/> |ПРЕФИКС  <br/> |WINDOW  <br/> |
+|ДИАГНОСТИКА  <br/> |PREORDER  <br/> |WITHIN  <br/> |
+|DISCONNECT  <br/> |PREPARE  <br/> |WORK  <br/> |
+|DOMAIN  <br/> |PERCENT_RANK  <br/> |WRITE  <br/> |
+|DYNAMIC  <br/> |PERCENTILE_CONT  <br/> |XMLAGG  <br/> |
+|EACH  <br/> |PERCENTILE_DISC  <br/> |XMLATTRIBUTES  <br/> |
+|ELEMENT  <br/> |POSITION_REGEX  <br/> |XMLBINARY  <br/> |
+|END-EXEC  <br/> |PRESERVE  <br/> |XMLCAST  <br/> |
+|EQUALS  <br/> |PRIOR  <br/> |XMLCOMMENT  <br/> |
+|EVERY  <br/> |PRIVILEGES  <br/> |XMLCONCAT  <br/> |
+|ИСКЛЮЧЕНИЕ  <br/> |RANGE  <br/> |XMLDOCUMENT  <br/> |
+|FALSE  <br/> |READS  <br/> |XMLELEMENT  <br/> |
+|ФИЛЬТР  <br/> |REAL  <br/> |XMLEXISTS  <br/> |
+|FIRST  <br/> |РЕКУРСИВНЫЙ  <br/> |XMLFOREST  <br/> |
+|FLOAT  <br/> |REF  <br/> |XMLITERATE  <br/> |
+|FOUND  <br/> |REFERENCING  <br/> |XMLNAMESPACES  <br/> |
+|БЕСПЛАТНО  <br/> |REGR_AVGX  <br/> |XMLPARSE  <br/> |
+|FULLTEXTTABLE  <br/> |REGR_AVGY  <br/> |XMLPI  <br/> |
+|FUSION  <br/> |REGR_COUNT  <br/> |XMLQUERY  <br/> |
+|ОБЩИЕ  <br/> |REGR_INTERCEPT  <br/> |XMLSERIALIZE  <br/> |
+|GET  <br/> |REGR_R2  <br/> |XMLTABLE  <br/> |
+|GLOBAL  <br/> |REGR_SLOPE  <br/> |XMLTEXT  <br/> |
+|GO  <br/> |REGR_SXX  <br/> |XMLVALIDATE  <br/> |
+|ГРУППИРОВКА  <br/> |REGR_SXY  <br/> |YEAR  <br/> |
+|HOLD  <br/> |REGR_SYY  <br/> |ZONE  <br/> |
    
 

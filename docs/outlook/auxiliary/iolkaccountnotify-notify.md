@@ -1,12 +1,12 @@
 ---
-title: иолкаккаунтнотифинотифи
+title: IOlkAccountNotifyNotify
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dbce1c47-1252-ddeb-64ae-d52118e6821f
-description: Уведомляет клиента об изменениях указанной учетной записи.
+description: Сообщает клиенту об изменениях указанной учетной записи.
 ms.openlocfilehash: 269d8a8bd605c9d8a0a4057e87895522d8587ee9
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33424569"
 ---
 # <a name="iolkaccountnotifynotify"></a>IOlkAccountNotify::Notify
 
-Уведомляет клиента об изменениях указанной учетной записи.
+Сообщает клиенту об изменениях указанной учетной записи.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иолкаккаунтнотифи](iolkaccountnotify.md).
+См. [IOlkAccountNotify.](iolkaccountnotify.md)
   
 ```cpp
 HRESULT IOlkAccount::Notify(  
@@ -33,9 +33,9 @@ HRESULT IOlkAccount::Notify(
 
 ## <a name="parameters"></a>Параметры
 
-_двнотифи_
+_dwNotify_
   
-> возврата Тип уведомления. Поддерживаются такие значения:
+> [in] Тип уведомления. Поддерживаются такие значения:
     
    - NOTIFY_ACCT_CHANGED 
     
@@ -47,13 +47,13 @@ _двнотифи_
     
    - NOTIFY_ACCT_PREDELETED 
     
- _двакктид_
+ _dwAcctID_
   
-> возврата Идентификатор учетной записи, которая была создана, изменена, удалена или предварительно удалена.
+> [in] ИД учетной записи, которая была создана, изменена, удалена или предварительно удалена.
     
  _dwFlags_
   
->  возврата Не используется. OLK_ACCOUNT_NO_FLAGS является единственным поддерживаемым значением. 
+>  [in] Не используется. OLK_ACCOUNT_NO_FLAGS это единственное поддерживаемые значения. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 

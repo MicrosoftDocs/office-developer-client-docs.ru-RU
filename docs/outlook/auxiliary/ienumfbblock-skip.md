@@ -1,5 +1,5 @@
 ---
-title: иенумфбблоккскип
+title: IEnumFBBlockSkip
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -20,7 +20,7 @@ ms.locfileid: "33425724"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иенумфбблокк](ienumfbblock.md).
+См. [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Skip(  
@@ -32,7 +32,7 @@ HRESULT Skip(
 
 _celt_
   
->  возврата Количество пропущенных блоков сведений о занятости. 
+>  [in] Количество блоков занятости, которые необходимо пропустить. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 

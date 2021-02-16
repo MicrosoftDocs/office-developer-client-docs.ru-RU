@@ -1,5 +1,5 @@
 ---
-title: имессажемодифиреЦипиентс
+title: IMessageModifyRecipients
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -50,9 +50,9 @@ MODRECIP_MODIFY
     
 MODRECIP_REMOVE 
   
-> Существующие получатели следует удалить из списка получателей, используя в качестве индекса свойство **PR_ROWID** ([PidTagRowid](pidtagrowid-canonical-property.md)), включенное в массив значений свойств каждой записи получателя в параметре _лпмодс_ . 
+> Существующие получатели должны быть удалены из списка получателей, используя в качестве индекса свойство **PR_ROWID** ([PidTagRowid),](pidtagrowid-canonical-property.md)включенное в массив значений свойств каждой записи получателя в _параметре lpMods._ 
     
- _лпмодс_
+ _lpMods_
   
 > [in] ��������� �� ��������� [ADRLIST](adrlist.md) , ������� �������� ������ �����������, ����� ���� ���������, ������� ��� �������� � ���������. 
     
@@ -68,7 +68,7 @@ S_OK
   
 ��������� **ADRLIST** �������� ���� ��������� [ADRENTRY](adrentry.md) ��� ������� ����������, � ������ **ADRENTRY** ��������� �������� ������ �������� �������, ����������� ���������� ����������. 
   
-������ ����������� � ��������� **ADRLIST** ����� ��������� ��� ���������. ������� ����������� � ����� � ���� ��������, ������� ��������. Нераспознанный получатель содержит только **свойства PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) **и PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)), в то время как разрешенный получатель содержит эти два свойства плюс **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) и **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)). Если доступен **PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md)), он также может быть включен.
+������ ����������� � ��������� **ADRLIST** ����� ��������� ��� ���������. ������� ����������� � ����� � ���� ��������, ������� ��������. Неразрешенный получатель содержит только свойства **PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)и **PR_RECIPIENT_TYPE** ([PidTagRecipientType),](pidtagrecipienttype-canonical-property.md)а разрешенный получатель содержит эти два **свойства: PR_ADDRTYPE** ([PidTagAddressType)](pidtagaddresstype-canonical-property.md)и **PR_ENTRYID** ([PidTagEntryId).](pidtagentryid-canonical-property.md) Если **PR_EMAIL_ADDRESS** ([PidTagEmailAddress)](pidtagemailaddress-canonical-property.md)доступен, его также можно включить.
   
 ����� �������� ��������� ��� ���������� �������� ������ ����������� ���������� ����������� � ��� ������ �����������. ���������� ����������� ������� ����� � ���������� ��� ������ � ��������� ��������� ����������� ���������. �������������� �������� � �������� ���������� ���� � ����� ������ ������� [������������� ����](resolving-a-recipient-name.md)��. ��� ��������� �������������� �������� � ����� ������ ������� � �������� ����� ������ [���������� ���������� ����](implementing-name-resolution.md).
   
@@ -112,7 +112,7 @@ S_OK
   
 |**Файл**|**Функция**|**�����������**|
 |:-----|:-----|:-----|
-|Мапиабфунктионс. cpp  <br/> |аддреЦипиент  <br/> |Mfcmapi (en) ����� **IMessage::ModifyRecipients** ������������ ��� ���������� ����� ����������� �� ���������.  <br/> |
+|MAPIABFunctions.cpp  <br/> |AddRecipient  <br/> |Mfcmapi (en) ����� **IMessage::ModifyRecipients** ������������ ��� ���������� ����� ����������� �� ���������.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

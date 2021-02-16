@@ -1,5 +1,5 @@
 ---
-title: ������ ������ � ��������� Excel
+title: Оценка выражений и листов Excel
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer

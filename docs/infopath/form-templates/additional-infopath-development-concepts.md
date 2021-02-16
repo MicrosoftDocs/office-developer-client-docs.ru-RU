@@ -17,7 +17,7 @@ ms.locfileid: "33427544"
 
 В этом разделе приведены сведения о дополнительных способах разработки и задачах InfoPath.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 [О компонентах шаблона формы](about-form-template-components.md)
   

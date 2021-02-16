@@ -23,26 +23,26 @@ ms.locfileid: "33423708"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает состояние прихода для сообщений, запрашивающих уведомления. 
+Указывает состояние квитанции для сообщений, запрашивает квитанции. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REPORT_DISPOSITION, PR_REPORT_DISPOSITION_A PR_REPORT_DISPOSITION_W  <br/> |
+|Связанные свойства:  <br/> |PR_REPORT_DISPOSITION, PR_REPORT_DISPOSITION_A, PR_REPORT_DISPOSITION_W  <br/> |
 |Идентификатор:  <br/> |0x0080  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
 Допустимые значения:
   
-- удалять
+- "deleted"
     
-- обработать
+- "processed"
     
-- WLM
+- "dispatched"
     
-- отказал
+- "denied"
     
 - "failed"
     
@@ -50,17 +50,17 @@ ms.locfileid: "33423708"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]] 
+[[MS-OXPROPS]] 
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -70,7 +70,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

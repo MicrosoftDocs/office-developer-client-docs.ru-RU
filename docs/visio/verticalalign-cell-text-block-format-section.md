@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm1105
 localization_priority: Normal
 ms.assetid: ff34a23b-2881-864f-42e4-871c4fde0992
-description: Определяет вертикальное выравнивание текста в блоке текста.
+description: Определяет вертикальное выравнивание текста в текстовом блоке.
 ms.openlocfilehash: 954a0cf0b80d6b675dcc016997f1923041069eac
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.locfileid: "33425794"
 ---
 # <a name="verticalalign-cell-text-block-format-section"></a>VerticalAlign Cell (Text Block Format Section)
 
-Определяет вертикальное выравнивание текста в блоке текста.
+Определяет вертикальное выравнивание текста в текстовом блоке.
   
 |**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| нуль  <br/> | Top  <br/> |**висверттоп** <br/> |
-| 1,1  <br/> | Назван  <br/> |**висвертмиддле** <br/> |
-| 2  <br/> | Конец  <br/> |**висвертботтом** <br/> |
+| 0  <br/> | Top  <br/> |**visVertTop** <br/> |
+| 1   <br/> | Средняя  <br/> |**visVertMiddle** <br/> |
+| 2   <br/> | Bottom  <br/> |**visVertBottom** <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку VerticalAlign по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
+Чтобы получить ссылку на ячейку VerticalAlign по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ ms.locfileid: "33425794"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровтекст** <br/> |
-| Индекс ячейки:  <br/> |**висткстблквертикалалигн** <br/> |
+| Индекс строки:  <br/> |**visRowText** <br/> |
+| Индекс ячейки:  <br/> |**visTxtBlkVerticalAlign** <br/> |
    
 

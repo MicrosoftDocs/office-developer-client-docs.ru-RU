@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm2060
 localization_priority: Normal
 ms.assetid: a1ed2846-a358-5515-a34d-66e0cc6e56d3
-description: Содержит формулы, созданные для одномерной фигуры, когда фигура 1-D связана с другими фигурами.
+description: Содержит формулы, созданные для 1-D фигуры, когда 1-D фигура приглушена к другим фигурам.
 ms.openlocfilehash: c8591b7ce7c91ad53b0b3b7411402e5ebd09e490
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,6 +18,6 @@ ms.locfileid: "33428447"
 ---
 # <a name="glue-info-section"></a>Glue Info Section
 
-Содержит формулы, созданные для одномерной фигуры, когда фигура 1-D связана с другими фигурами.
+Содержит формулы, созданные для 1-D фигуры, когда 1-D фигура приглушена к другим фигурам.
   
 

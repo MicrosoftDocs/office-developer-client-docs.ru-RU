@@ -1,5 +1,5 @@
 ---
-title: имаписекуремессажежетбасемессаже
+title: IMAPISecureMessageGetBaseMessage
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33428580"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Получает базовый [iMessage: IMAPIProp](imessageimapiprop.md) , который инкапсулируется этим [Имаписекуремессаже: интерфейс IUnknown](imapisecuremessageiunknown.md) . 
+Извлекает [iMessage : IMAPIProp,](imessageimapiprop.md) который инкапсулирует [этот IMAPISecureMessage : IUnknown.](imapisecuremessageiunknown.md) 
   
 ```cpp
 HRESULT GetBaseMessage(
@@ -35,9 +35,9 @@ HRESULT GetBaseMessage(
 
 ## <a name="parameters"></a>Параметры
 
- _ппмсг_
+ _ppmsg_
   
-> вышли Объект защищенного сообщения.
+> [out] Защищенный объект сообщения.
     
 ## <a name="return-value"></a>Возвращаемое значение
 

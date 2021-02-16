@@ -19,54 +19,54 @@ ms.locfileid: "33428006"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Несмотря на то, что некоторые сообщения состоят только из списка получателей и строки темы, содержимое большинства сообщений, в частности, IPM. Обратите внимание, что в сообщениях есть текст. Текст сообщения может быть простым или форматированным и храниться в трех свойствах: **\_Body** ([PidTagBody](pidtagbody-canonical-property.md)) **,\_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) и **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)). 
+Хотя некоторые сообщения состоит только из списка получателей и строки темы, содержимое большинства сообщений, в частности IPM. Сообщения заметок, включая текст. Текст сообщения может быть простым или отформатированный и хранится в трех свойствах: **PR \_ BODY** ([PidTagBody),](pidtagbody-canonical-property.md) **PR \_ HTML** ([PidTagHtml)](pidtaghtml-canonical-property.md)и **PR_RTF_COMPRESSED** ([PidTagRtfCompressed).](pidtagrtfcompressed-canonical-property.md) 
 
-Если ваш клиент является обычным текстовым, задайте **текст\_** для поля Цена. Если вы поддерживаете форматирование текста в формате RTF, задайте либо **PR_RTF_COMPRESSED** только, либо **PR_RTF_COMPRESSED** и **\_текст**, в зависимости от используемого поставщика хранилища сообщений. Когда клиент, поддерживающий RTF, использует хранилище сообщений с поддержкой RTF, он задается только **PR_RTF_COMPRESSED** . Когда клиент с поддержкой RTF использует хранилище сообщений, не поддерживающий RTF, он задает оба свойства. Если ваш клиент поддерживает HTML, задайте свойство **PR_HTML** . 
+Если клиент основан на обычном тексте, установите **PR \_ BODY.** Если вы поддерживаете форматированный текст в формате RTF, установите  PR_RTF_COMPRESSED только PR_RTF_COMPRESSED и **PR \_ BODY** в зависимости от используемого поставщика rtF.  Когда клиент с RTF использует хранилище сообщений с RTF, он PR_RTF_COMPRESSED **только.** Когда клиент с RTF использует хранилище сообщений, не относя оно к RTF, он задает оба свойства. Если ваш клиент поддерживает HTML, за **установите** PR_HTML свойства. 
   
-## <a name="determine-whether-your-message-store-supports-rich-text-format"></a>Определение того, поддерживает ли хранилище сообщений форматированный текст
+## <a name="determine-whether-your-message-store-supports-rich-text-format"></a>Определение того, поддерживает ли хранилище сообщений формат RICH Text
   
-1. Вызовите метод [IMAPIProp::-PROPS](imapiprop-getprops.md) хранилища сообщений для получения свойства **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)).
+1. Вызовите метод [IMAPIProp::GetProps](imapiprop-getprops.md) в хранилище сообщений, чтобы получить свойство **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask).](pidtagstoresupportmask-canonical-property.md)
     
-2. Проверьте STORE_RTF_OK бит. Если установлен STORE_RTF_OK, то поставщик хранилища сообщений поддерживает текст RTF. Если оно не задано, то поставщик хранилища сообщений поддерживает только обычный текст.
+2. Проверьте, нет ли STORE_RTF_OK бита. Если STORE_RTF_OK, поставщик rtF поддерживает текст RTF. Если он не установлен, поставщик store сообщений поддерживает только обычный текст.
     
-## <a name="determine-whether-your-message-store-supports-html"></a>Определение того, поддерживает ли ваше хранилище сообщений HTML
+## <a name="determine-whether-your-message-store-supports-html"></a>Определение того, поддерживает ли хранилище сообщений HTML
   
-1. Вызовите метод [IMAPIProp::/PROPS](imapiprop-getprops.md) хранилища сообщений для получения свойства **PR_STORE_SUPPORT_MASK** . 
+1. Вызовите метод [IMAPIProp::GetProps](imapiprop-getprops.md) PR_STORE_SUPPORT_MASK **сообщения.** 
     
-2. Проверьте STORE_HTML_OK бит. Если установлен STORE_HTML_OK, то поставщик хранилища сообщений поддерживает HTML-текст. 
+2. Проверьте, нет ли STORE_HTML_OK бита. Если STORE_HTML_OK установлен, поставщик службы хранения сообщений поддерживает HTML-текст. 
     
-## <a name="set-pr_rtf_compressed"></a>Настройка RTF_COMPRESSED\_PR
+## <a name="set-pr_rtf_compressed"></a>Настройка \_ pr-RTF_COMPRESSED
   
-1. Вызовите метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , чтобы открыть свойство **PR_RTF_COMPRESSED** , указав IID_IStream в качестве идентификатора интерфейса и установив флаг MAPI_CREATE. 
+1. Вызовите метод [IMAPIProp::OpenProperty](imapiprop-openproperty.md) сообщения, чтобы открыть свойство **PR_RTF_COMPRESSED,** указав IID_IStream в качестве идентификатора интерфейса и установив флаг MAPI_CREATE. 
     
-2. Вызовите функцию [врапкомпресседртфстреам](wrapcompressedrtfstream.md) , передав флаг STORE_UNCOMPRESSED_RTF, если STORE_UNCOMPRESSED_RTF бит задан в свойстве **PR_STORE_SUPPORT_MASK** хранилища сообщений. 
+2. Вызовите функцию [WrapCompressedRTFStream,](wrapcompressedrtfstream.md) передав флаг STORE_UNCOMPRESSED_RTF, если STORE_UNCOMPRESSED_RTF в свойстве PR_STORE_SUPPORT_MASK хранения **сообщений.** 
     
-3. Освободите исходный поток, вызвав его метод * * IUnknown:: Release * *. 
+3. Выпустите исходный поток, вызывая его метод ** IUnknown::Release **. 
     
-4. Call — * * IStream:: Write * * или **IStream:: CopyTo** для записи текста сообщения в поток, возвращенный из **врапкомпресседртфстреам**.
+4. Call either ** IStream::Write ** or **IStream::CopyTo** to write the message text to the stream returned from **WrapCompressedRTFStream**.
     
-5. Вызовите методы **commit** и **Release** в потоке, возвращенном из метода **опенпроперти** . 
+5. Вызовите **методы Commit** и **Release** в потоке, возвращаемом **методом OpenProperty.** 
     
-На этом шаге, если поставщик хранилища сообщений поддерживает RTF, вы выполнили все необходимые действия. Вы можете зависеть от поставщика хранилища сообщений, чтобы обрабатывать синхронизацию содержимого и форматирования сообщения и при необходимости создавать **свойство\_текста PR** . Хранилища сообщений с поддержкой RTF [ртфсинк](rtfsync.md) вызовов для обработки синхронизации. Если флаг SYNC_BODY_CHANGED\_RTF имеет значение true, то поставщик повторно вычисляет свойство **PR_BODY** . 
+На этом этапе, если поставщик rtF поддерживает RTF, вы сделали все необходимое. Вы можете в зависимости от поставщика содержимого и форматирования сообщений обрабатывать синхронизацию содержимого и форматирования сообщений, а также при необходимости создавать **свойство PR \_ BODY.** В сообщениях с RTF хранится вызов [RTFSync](rtfsync.md) для обработки синхронизации. Если для флага SYNC_BODY_CHANGED RTF установлено SYNC_BODY_CHANGED true, поставщик перекомпьютерит \_ **PR_BODY** свойства. 
   
-Если поставщик хранилища сообщений не поддерживает формат RTF, необходимо также добавить содержимое сообщений, не включенных в формат RTF, с помощью свойства **PR_BODY** . 
+Если ваш поставщик RTF не поддерживает RTF, необходимо также добавить содержимое  сообщений, не относя PR_BODY RTF. 
   
 ## <a name="set-pr_html"></a>Настройка PR_HTML
   
-1. Вызовите метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , чтобы открыть свойство **PR_HTML** с интерфейсом **IStream** . 
+1. Вызовите [метод IMAPIProp::OpenProperty,](imapiprop-openproperty.md) чтобы открыть PR_HTML **с** помощью **интерфейса IStream.** 
     
-2. Call **IStream:: Write** для записи текстовых данных сообщения в поток, возвращенный из **опенпроперти**. 
+2. Call **IStream::Write** to write the message text data to the stream returned from **OpenProperty**. 
     
-3. Вызов **IStream:: Commit** and **IUnknown:: Release** в потоке для фиксации изменений и освобождения памяти. 
+3. Вызовите **IStream::Commit** и **IUnknown::Release** в потоке, чтобы зафиксировать изменения и освободить память. 
     
 ## <a name="set-pr_body"></a>Настройка PR_BODY
   
-1. Вызовите метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) , чтобы открыть свойство **PR_BODY** с интерфейсом **IStream** . 
+1. Вызовите [метод IMAPIProp::OpenProperty,](imapiprop-openproperty.md) чтобы открыть PR_BODY **с** помощью **интерфейса IStream.** 
     
-2. Call **IStream:: Write** для записи текстовых данных сообщения в поток, возвращенный из **опенпроперти**. 
+2. Call **IStream::Write** to write the message text data to the stream returned from **OpenProperty**. 
     
-3. Вызовите функцию [ртфсинк](rtfsync.md) для синхронизации текста с форматированием. Так как это новое сообщение, установите флаги RTF_SYNC_RTF_CHANGED и RTF_SYNC_BODY_CHANGED, чтобы указать, что текст сообщения был изменен как в формате RTF, так и в виде обычного текста. **Ртфсинк** задаст несколько связанных свойств, необходимых поставщику хранилища сообщений, например **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)), и запишите их в сообщение.
+3. Вызовите [функцию RTFSync,](rtfsync.md) чтобы синхронизировать текст с форматированием. Так как это новое сообщение, установите флаги RTF_SYNC_RTF_CHANGED и RTF_SYNC_BODY_CHANGED, чтобы указать, что версия текста сообщения в виде RTF и обычного текста изменились. **RTFSync** задает несколько связанных свойств, необходимых поставщику store сообщений, например **PR_RTF_IN_SYNC** ([PidTagRtfInSync),](pidtagrtfinsync-canonical-property.md)и запишет их в сообщение.
     
-4. Вызов **IStream:: Commit** and **IUnknown:: Release** в потоке для фиксации изменений и освобождения памяти. 
+4. Вызовите **IStream::Commit** и **IUnknown::Release** в потоке, чтобы зафиксировать изменения и освободить память. 
     
 

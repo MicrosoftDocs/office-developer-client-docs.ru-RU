@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60104
 localization_priority: Normal
 ms.assetid: e7a62a86-36bf-31d3-a33b-2444f72d60fe
-description: Возвращает число символов в текстовой строке.
+description: Возвращает количество символов в текстовой строке.
 ms.openlocfilehash: 5d0dd56014e1e9965359814fa4de35efd5f385ac
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.locfileid: "33427040"
 ---
 # <a name="len-function-visioshapesheet"></a>LEN Function (VisioShapeSheet)
 
-Возвращает число символов в текстовой строке.
+Возвращает количество символов в текстовой строке.
   
 ## <a name="syntax"></a>Синтаксис
 
-LEN (* * *Text* * *) 
+LEN (** *text* ** ) 
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _text_ <br/> |Обязательный  <br/> |**String** <br/> |Строка символов, длина которой требуется найти.  <br/> |
+| _text_ <br/> |Обязательно  <br/> |**Строка** <br/> |Строка символов, длина которой вы хотите найти.  <br/> |
    
 ### <a name="return-value"></a>Возвращаемое значение
 
@@ -36,7 +36,7 @@ LEN (* * *Text* * *)
   
 ## <a name="example"></a>Пример
 
-LEN ("Сиэтл, штат Вашингтон") 
+LEN ("Seattle, WA") 
   
 Возвращает 11. 
   

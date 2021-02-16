@@ -25,7 +25,7 @@ ms.locfileid: "33427796"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит битовую маску флагов, указывающих допустимость идентификаторов записей папок в хранилище сообщений.
+Содержит битовуюmask флагов, которые указывают на действительность идентификаторов записей папок в хранилище сообщений.
   
 |||
 |:-----|:-----|
@@ -36,53 +36,53 @@ ms.locfileid: "33427796"
    
 ## <a name="remarks"></a>Примечания
 
-Идентификатор записи папки может стать недопустимым, если пользователь удаляет папку или повреждено хранилище сообщений.
+Идентификатор записи папки может стать недопустимым, если пользователь удаляет папку или хранилище сообщений повреждено.
   
-Для битовой маски можно задать один или несколько из следующих флагов: 
+Для битовойmask можно установить один или несколько из следующих флагов: 
   
 FOLDER_COMMON_VIEWS_VALID 
   
-> Папка "Общие представления" имеет допустимый идентификатор записи. Просмотрите **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
+> Общая папка представлений имеет допустимый идентификатор записи. См. **PR_COMMON_VIEWS_ENTRYID** ([PidTagCommonViewsEntryId](pidtagcommonviewsentryid-canonical-property.md)).
     
 FOLDER_FINDER_VALID 
   
-> Папка Finder имеет допустимый идентификатор записи. Просмотрите **PR_FINDER_ENTRYID** ([PidTagFinderEntryId](pidtagfinderentryid-canonical-property.md)). 
+> Папка finder имеет допустимый идентификатор записи. См. **PR_FINDER_ENTRYID** ([PidTagFinderEntryId).](pidtagfinderentryid-canonical-property.md) 
     
 FOLDER_IPM_INBOX_VALID 
   
-> Папка приема сообщений (IPM) имеет допустимый идентификатор записи. См. [IMsgStore:: жетрецеивефолдер](imsgstore-getreceivefolder.md). 
+> Папка получения межличностного сообщения (IPM) имеет допустимый идентификатор записи. См. [IMsgStore::GetReceiveFolder](imsgstore-getreceivefolder.md). 
     
 FOLDER_IPM_OUTBOX_VALID 
   
-> В папке "Исходящие" IPM есть допустимый идентификатор записи. Просмотрите **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId](pidtagipmoutboxentryid-canonical-property.md)). 
+> Папка "Outbox" IPM имеет допустимый идентификатор записи. См. **PR_IPM_OUTBOX_ENTRYID** ([PidTagIpmOutboxEntryId).](pidtagipmoutboxentryid-canonical-property.md) 
     
 FOLDER_IPM_SENTMAIL_VALID 
   
-> У папки IPM Sent Items допустимый идентификатор записи. Просмотрите **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId](pidtagipmsentmailentryid-canonical-property.md)).
+> Папка "Отправленные" IPM имеет допустимый идентификатор записи. См. **PR_IPM_SENTMAIL_ENTRYID** ([PidTagIpmSentMailEntryId).](pidtagipmsentmailentryid-canonical-property.md)
     
 FOLDER_IPM_SUBTREE_VALID 
   
-> Поддерево папки IPM имеет допустимый идентификатор записи. Просмотрите **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId](pidtagipmsubtreeentryid-canonical-property.md)).
+> Поддерека папки IPM имеет допустимый идентификатор записи. См. **PR_IPM_SUBTREE_ENTRYID** ([PidTagIpmSubtreeEntryId).](pidtagipmsubtreeentryid-canonical-property.md)
     
 FOLDER_IPM_WASTEBASKET_VALID 
   
-> Папка "Удаленные" IPM содержит допустимый идентификатор записи. Просмотрите **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId](pidtagipmwastebasketentryid-canonical-property.md)).
+> Папка "Удаленные" IPM имеет допустимый идентификатор записи. См. **PR_IPM_WASTEBASKET_ENTRYID** ([PidTagIpmWastebasketEntryId).](pidtagipmwastebasketentryid-canonical-property.md)
     
 FOLDER_VIEWS_VALID 
   
-> У папки Views допустимый идентификатор записи. Просмотрите **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId](pidtagviewsentryid-canonical-property.md)).
+> Папка views имеет допустимый идентификатор записи. См. **PR_VIEWS_ENTRYID** ([PidTagViewsEntryId).](pidtagviewsentryid-canonical-property.md)
     
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -90,7 +90,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

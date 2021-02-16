@@ -19,11 +19,11 @@ ms.locfileid: "33424177"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Клиенты могут создавать списки рассылки непосредственно в изменяемом контейнере, например в личной адресной книге (PAB).
+Клиенты могут создать список рассылки непосредственно в изменяемом контейнере, например в личной адресной книге.
   
-**Создание списка рассылки в личной адресной книге**
+**Создание списка рассылки в PAB**
   
-1. Создайте массив тегов свойств с одним тегом свойства, **PR_DEF_CREATE_DL** ([PidTagDefCreateDl](pidtagdefcreatedl-canonical-property.md)), как показано ниже:
+1. Создайте массив тегов свойств размера с одним тегом свойства **PR_DEF_CREATE_DL** ([PidTagDefCreateDl),](pidtagdefcreatedl-canonical-property.md)следующим образом:
     
    ```cpp
     SizedPropTagArray(1, tagaDefaultDL) =
@@ -35,7 +35,7 @@ ms.locfileid: "33424177"
     };
    ```
 
-2. Call [IAddrBook:: жетпаб](iaddrbook-getpab.md) для получения идентификатора записи личной адресной книги. Если возникает ошибка или **жетпаб** возвращает ноль или null, не продолжайте. 
+2. Вызовите [IAddrBook::GetPAB,](iaddrbook-getpab.md) чтобы получить идентификатор записи для PAB. Если произошла ошибка или **GetPAB** возвращает ноль или значение NULL, не продолжайте. 
     
    ```cpp
     LPENTRYID peidPAB = NULL;
@@ -43,7 +43,7 @@ ms.locfileid: "33424177"
     lpIAddrBook->GetPAB(&cbeidPAB, &peidPAB);
    ```
 
-3. Call [IAddrBook:: OpenEntry](iaddrbook-openentry.md) для открытия личной адресной книги. Параметру OUTPUT _улобжтипе_ должно быть присвоено значение MAPI_ABCONT. 
+3. Вызовите [IAddrBook::OpenEntry,](iaddrbook-openentry.md) чтобы открыть PAB. Выходной  _параметр ulObjType_ должен иметь MAPI_ABCONT. 
     
    ```cpp
     ULONG ulObjType = 0;
@@ -55,7 +55,7 @@ ms.locfileid: "33424177"
                     &lpPABCont);
    ```
 
-4. Вызовите метод [IMAPIProp::/PROPS](imapiprop-getprops.md) PAB PAB, чтобы получить свойство PR_DEF_CREATE_DL, шаблон, который он использует для создания списка рассылки. 
+4. Вызовите метод [IMAPIProp::GetProps](imapiprop-getprops.md) для получения свойства PR_DEF_CREATE_DL, шаблона, который используется для создания списка рассылки. 
     
    ```cpp
     lpPABCont->GetProps(0,
@@ -64,15 +64,15 @@ ms.locfileid: "33424177"
     
    ```
 
-5. Если не удается выполнить команду **PROPS** : 
+5. Если **сбой GetProps:** 
     
-   1. Вызовите метод [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) личной адресной книги, чтобы открыть свойство **PR_CREATE_TEMPLATES** ([PidTagCreateTemplates](pidtagcreatetemplates-canonical-property.md)) с помощью интерфейса **IMAPITable** . 
+   1. Вызовите метод [IMAPIProp::OpenProperty](imapiprop-openproperty.md) для PAB, чтобы открыть **свойство PR_CREATE_TEMPLATES** ([PidTagCreateTemplates)](pidtagcreatetemplates-canonical-property.md)с интерфейсом **IMAPITable.** 
       
-   2. Создайте ограничение свойства для поиска строки со столбцом **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)), равным "мапипдл". 
+   2. Создайте ограничение свойств для поиска строки со **столбцом PR_ADDRTYPE** ([PidTagAddressType),](pidtagaddresstype-canonical-property.md)равным "MAPIPDL". 
       
-   3. Call [IMAPITable:: FindRow](imapitable-findrow.md) для обнаружения этой строки. 
+   3. Вызовите [IMAPITable::FindRow,](imapitable-findrow.md) чтобы найти эту строку. 
     
-6. Сохраните идентификатор записи, возвращенный с помощью метода/ **PROPS** , или метода **FindRow**.
+6. Сохраните идентификатор записи, возвращенный **getProps** или **FindRow.**
     
    ```cpp
     peidDefDLTpl = lpspvDefDLTpl->Value.bin.pb;
@@ -80,7 +80,7 @@ ms.locfileid: "33424177"
     
    ```
 
-7. Вызовите метод [иабконтаинер:: КРЕАТИНТРИ](iabcontainer-createentry.md) PAB, чтобы создать новую запись, используя шаблон, представленный сохраненным идентификатором записи. Не следует предполагать, что возвращаемый объект будет списком рассылки, а не пользователем обмена сообщениями при удаленном вызове. Обратите внимание, что флаг CREATE_CHECK_DUP передается в параметре _ulFlags_ , чтобы не допустить Добавление записи дважды. 
+7. Вызовите метод [IABContainer::CreateEntry для PAB,](iabcontainer-createentry.md) чтобы создать новую запись с помощью шаблона, представленного сохраненным идентификатором записи. При удалении этого вызова не следует предполагать, что возвращенный объект будет списком рассылки, а не пользователем системы обмена сообщениями. Обратите внимание, CREATE_CHECK_DUP флаг передается в  _параметре ulFlags,_ чтобы запись не добавлялась дважды. 
     
    ```cpp
     lpPABCont->CreateEntry(cbeidDefDLTpl,
@@ -89,16 +89,16 @@ ms.locfileid: "33424177"
                     &lpNewPABEntry);
    ```
 
-8. Вызовите метод **IUnknown:: QueryInterface** новой записи, передав IID_IDistList в качестве идентификатора интерфейса, чтобы определить, является ли запись списком рассылки, и поддерживает интерфейс [идистлист: IMAPIContainer](idistlistimapicontainer.md) . Так как **креатинтри** возвращает указатель **IMAPIProp** , а не более конкретный указатель **имаилусер** или **идистлист** , убедитесь, что был создан объект списка рассылки. Если **QueryInterface** завершается успешно, вы можете убедиться, что вы создали список рассылки, а не пользователя обмена сообщениями. 
+8. Вызовите метод **IUnknown::QueryInterface** новой записи, передав IID_IDistList в качестве идентификатора интерфейса, чтобы определить, является ли запись списком рассылки и поддерживает интерфейс [IDistList : IMAPIContainer.](idistlistimapicontainer.md) Поскольку **CreateEntry** возвращает указатель **IMAPIProp,** а не более конкретный указатель **IMailUser** или **IDistList,** убедитесь, что объект списка рассылки создан. Если **queryInterface** успешно, вы можете быть уверены, что вы создали список рассылки, а не пользователя обмена сообщениями. 
     
-9. Вызовите метод [IMAPIProp:: SetProps](imapiprop-setprops.md) списка рассылки, чтобы задать отображаемое имя и другие свойства. 
+9. Вызовите метод [IMAPIProp::SetProps](imapiprop-setprops.md) списка рассылки, чтобы установить его отображаемую и другие свойства. 
     
-10. Вызовите метод [иабконтаинер:: креатинтри](iabcontainer-createentry.md) списка рассылки, чтобы добавить одного или нескольких пользователей системы обмена сообщениями. 
+10. Вызовите метод [IABContainer::CreateEntry](iabcontainer-createentry.md) списка рассылки, чтобы добавить одного или несколько пользователей обмена сообщениями. 
     
-11. Вызовите метод [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) списка рассылки, когда будете готовы сохранить его. Чтобы получить идентификатор записи сохраненного списка рассылки, установите флаг KEEP_OPEN_READWRITE и затем Call [IMAPIProp::-PROPS](imapiprop-getprops.md) , запрашивающие свойство **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+11. Вызовите метод [IMAPIProp::SaveChanges](imapiprop-savechanges.md) списка рассылки, когда будете готовы сохранить его. Чтобы получить идентификатор записи сохраненного списка рассылки, установите флаг KEEP_OPEN_READWRITE и вызовите [IMAPIProp::GetProps,](imapiprop-getprops.md) **запрашивающий** свойство PR_ENTRYID ([PidTagEntryId).](pidtagentryid-canonical-property.md)
     
-12. Освободите новый список рассылки и личную личную книгу, вызвав их методы **выпусков:: Release** . 
+12. Освободите новый список рассылки и PAB, вызывая их методы **IUnknown::Release.** 
     
-13. Вызовите [мапифрибуффер](mapifreebuffer.md) , чтобы освободить память для идентификатора записи для массива тегов свойств PAB и Letter. 
+13. Вызовите [MAPIFreeBuffer,](mapifreebuffer.md) чтобы освободить память для идентификатора записи PAB и массива тегов свойств размера. 
     
 

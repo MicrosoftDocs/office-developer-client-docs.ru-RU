@@ -23,10 +23,10 @@ ms.locfileid: "33428125"
   
  **Удаление службы сообщений из профиля**
   
-1. Call **IMAPISession:: жетмсгсервицетабле** для доступа к таблице службы сообщений. 
+1. Вызов **IMAPISession::GetMsgServiceTable для** доступа к таблице службы сообщений. 
     
-2. Откройте строку для службы сообщений и передайте ее столбец **PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md)) в параметре _Лпуид_ в [имсгсервицеадмин::D елетемсгсервице](imsgserviceadmin-deletemsgservice.md). 
+2. Найдите строку для службы сообщений и передайте столбец **PR_SERVICE_UID** [(PidTagServiceUid)](pidtagserviceuid-canonical-property.md)в _параметре lpuid_ [службе IMsgServiceAdmin::D eleteMsgService.](imsgserviceadmin-deletemsgservice.md) 
     
- **Делетемсгсервице** вызывает функцию точки входа службы сообщений с параметром _улконтекст_ , для которого задано значение MSG_SERVICE_DELETE. Службы сообщений перед удалением из профиля выполняют в данный момент какие – либо задачи по очистке. 
+ **DeleteMsgService** вызывает функцию точки входа службы сообщений, для параметра  _ulContext_ установлено MSG_SERVICE_DELETE. Перед удалением из профиля службы сообщений выполняют все задачи очистки. 
   
 

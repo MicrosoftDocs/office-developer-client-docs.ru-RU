@@ -1,5 +1,5 @@
 ---
-title: Функция CAST (пользовательское веб-приложение для Access)
+title: Функция Cast (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33425297"
 ---
-# <a name="cast-function-access-custom-web-app"></a>Функция CAST (пользовательское веб-приложение для Access)
+# <a name="cast-function-access-custom-web-app"></a>Функция Cast (пользовательское веб-приложение Access)
 
 Преобразует выражение одного типа данных в другой.
   
@@ -26,7 +26,7 @@ ms.locfileid: "33425297"
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *Expression*  <br/> |Допустимое выражение.  <br/> |
+| *Expression*  <br/> |Допустимые выражения.  <br/> |
 | *DataType*  <br/> |Целевой тип данных.  <br/> |
    
 

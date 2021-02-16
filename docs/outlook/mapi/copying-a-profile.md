@@ -21,18 +21,18 @@ ms.locfileid: "33424730"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Один из способов создания профиля — копирование из существующего профиля и изменение необходимых служб сообщений и поставщиков услуг. Копирование профиля включает в себя использование объекта администрирования профиля, предоставляемого MAPI с помощью функции [мапиадминпрофилес](mapiadminprofiles.md) . 
+Один из способов создания профиля — копирование из существующего профиля и изменение необходимых служб сообщений и поставщиков услуг. Копирование профиля включает использование объекта администрирования профиля, предоставленного MAPI с помощью [функции MAPIAdminProfiles.](mapiadminprofiles.md) 
   
  **Копирование профиля**
   
-1. Вызовите **мапиадминпрофилес** , чтобы получить указатель интерфейса **ипрофадмин** . 
+1. Вызовите **MAPIAdminProfiles,** чтобы получить указатель интерфейса **IProfAdmin.** 
     
-2. Call [ипрофадмин:: жетпрофилетабле](iprofadmin-getprofiletable.md) для доступа к таблице профилей. 
+2. Вызовите [IProfAdmin::GetProfileTable,](iprofadmin-getprofiletable.md) чтобы получить доступ к таблице профилей. 
     
-3. Создайте ограничение свойства с помощью структуры [спропертирестриктион](spropertyrestriction.md) для сравнения **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) с именем профиля, который необходимо скопировать. 
+3. Создайте ограничение свойств со структурой [SPropertyRestriction,](spropertyrestriction.md) **чтобы** соответствовать PR_DISPLAY_NAME ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)с именем профиля, который необходимо скопировать. 
     
-4. Call [IMAPITable:: FindRow](imapitable-findrow.md) для обнаружения соответствующей строки в таблице Profile. 
+4. Вызовите [IMAPITable::FindRow,](imapitable-findrow.md) чтобы найти соответствующую строку в таблице профилей. 
     
-5. Call [ипрофадмин:: копипрофиле](iprofadmin-copyprofile.md), передавая значение столбца **PR_DISPLAY_NAME** в качестве параметра _лпсзолдпрофиленаме_ . 
+5. Вызовите [IProfAdmin::CopyProfile,](iprofadmin-copyprofile.md)передав значение столбца **PR_DISPLAY_NAME** в качестве параметра _lpszOldProfileName._ 
     
 

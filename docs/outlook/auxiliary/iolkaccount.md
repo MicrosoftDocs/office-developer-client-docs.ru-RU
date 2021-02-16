@@ -15,61 +15,61 @@ ms.locfileid: "33425066"
 ---
 # <a name="iolkaccount"></a>IOlkAccount
 
-Поддержка получения и установки свойств и других сведений об учетной записи.
+Поддерживает получение и настройку свойств и других сведений об учетной записи.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследование от:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
+|Наследуется от:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
-|Предоставлено:  <br/> |[Иолкаккаунтманажер:: финдаккаунт](iolkaccountmanager-findaccount.md) и [Иолкенум:: GetNext](iolkenum-getnext.md) <br/> |
-|Вызывающая сторона:  <br/> |Client  <br/> |
+|Предоставлено:  <br/> |[IOlkAccountManager::FindAccount](iolkaccountmanager-findaccount.md) and [IOlkEnum::GetNext](iolkenum-getnext.md) <br/> |
+|Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IOlkAccount  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-|[жетаккаунтинфо](iolkaccount-getaccountinfo.md) <br/> |Получает тип и категории указанной учетной записи.  <br/> |
-|[Предл](iolkaccount-getprop.md) <br/> |Получает значение свойства указанной учетной записи. В приведенной ниже таблице свойств.  <br/> |
-|[сетпроп](iolkaccount-setprop.md) <br/> |Задает значение указанного свойства учетной записи. В приведенной ниже таблице свойств.  <br/> |
-| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-|[фримемори](iolkaccount-freememory.md) <br/> |Освобождает память, выделенную интерфейсом **иолкаккаунт** .  <br/> |
-| *Элемент PlaceHolder*  <br/> | *Не поддерживается или не задокументировано.*  <br/> |
-|[SaveChanges](iolkaccount-savechanges.md) <br/> |Фиксирует изменения объекта Account, записывая в хранилище реестра.  <br/> |
+| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+|[GetAccountInfo](iolkaccount-getaccountinfo.md) <br/> |Получает тип и категории указанной учетной записи.  <br/> |
+|[GetProp](iolkaccount-getprop.md) <br/> |Получает значение указанного свойства учетной записи. См. таблицу "Свойства" ниже.  <br/> |
+|[SetProp](iolkaccount-setprop.md) <br/> |Задает значение указанного свойства учетной записи. См. таблицу "Свойства" ниже.  <br/> |
+| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+|[FreeMemory](iolkaccount-freememory.md) <br/> |Освободит память, выделенную интерфейсом **IOlkAccount.**  <br/> |
+| *Член-заметель*  <br/> | *Не поддерживается и не документируется.*  <br/> |
+|[SaveChanges](iolkaccount-savechanges.md) <br/> |Фиксация изменений в объекте учетной записи путем записи в хранилище реестра.  <br/> |
    
 ## <a name="properties"></a>Свойства
 
 |||
 |:-----|:-----|
-|[PROP_ACCT_DELIVERY_FOLDER](prop_acct_delivery_folder.md) <br/> |Представляет идентификатор папки доставки по умолчанию для учетной записи.  <br/> |
-|[PROP_ACCT_DELIVERY_STORE](prop_acct_delivery_store.md) <br/> |Представляет идентификатор элемента хранилища доставки по умолчанию для учетной записи.  <br/> |
+|[PROP_ACCT_DELIVERY_FOLDER](prop_acct_delivery_folder.md) <br/> |Представляет ИД записи папки доставки по умолчанию для учетной записи.  <br/> |
+|[PROP_ACCT_DELIVERY_STORE](prop_acct_delivery_store.md) <br/> |Представляет ИД записи для стандартного хранения доставки для учетной записи.  <br/> |
 |[PROP_ACCT_ID](prop_acct_id.md) <br/> |Возвращает идентификатор учетной записи в Outlook 2000 и более ранних версиях Outlook.  <br/> |
-|[PROP_ACCT_IS_EXCH](prop_acct_is_exch.md) <br/> |Значение true, если учетная запись является учетной записью Microsoft Exchange.  <br/> |
+|[PROP_ACCT_IS_EXCH](prop_acct_is_exch.md) <br/> |Имеет true, если учетная запись является учетной записью Microsoft Exchange.  <br/> |
 |[PROP_ACCT_MINI_UID](prop_acct_mini_uid.md) <br/> |Возвращает идентификатор учетной записи в версиях Outlook, начиная с Outlook 2002.  <br/> |
 |[PROP_ACCT_NAME](prop_acct_name.md) <br/> |Возвращает имя учетной записи.  <br/> |
-|[PROP_ACCT_PREFERENCES_UID](prop_acct_preferences_uid.md) <br/> |Получает уникальный идентификатор (UID) для раздела профиля, в котором хранятся параметры учетной записи.  <br/> |
-|[PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) <br/> |Возвращает штамп "Отправить" для учетной записи.  <br/> |
-|[PROP_ACCT_SENTITEMS_EID](prop_acct_sentitems_eid.md) <br/> |Представляет идентификатор папки по умолчанию для отправленных элементов для учетной записи.  <br/> |
-|[PROP_ACCT_STAMP](prop_acct_stamp.md) <br/> |Возвращает метку учетной записи.  <br/> |
-|[PROP_ACCT_USER_DISPLAY_NAME](prop_acct_user_display_name.md) <br/> |Возвращает отображаемое имя пользователя.  <br/> |
+|[PROP_ACCT_PREFERENCES_UID](prop_acct_preferences_uid.md) <br/> |Извлекает уникальный идентификатор (UID) для раздела профиля, в котором хранится настройка учетной записи.  <br/> |
+|[PROP_ACCT_SEND_STAMP](prop_acct_send_stamp.md) <br/> |Возвращает отметку "отправить" для учетной записи.  <br/> |
+|[PROP_ACCT_SENTITEMS_EID](prop_acct_sentitems_eid.md) <br/> |Представляет ИД записи папки по умолчанию для отправленных элементов для учетной записи.  <br/> |
+|[PROP_ACCT_STAMP](prop_acct_stamp.md) <br/> |Возвращает отметку учетной записи.  <br/> |
+|[PROP_ACCT_USER_DISPLAY_NAME](prop_acct_user_display_name.md) <br/> |Возвращает отображаемую имя пользователя.  <br/> |
 |[PROP_ACCT_USER_EMAIL_ADDR](prop_acct_user_email_addr.md) <br/> |Указывает адрес электронной почты для учетной записи.  <br/> |
-|[PROP_MAPI_EMSMDB_UID](prop_mapi_emsmdb_uid.md) <br/> |Представляет структуру [ACCT_BIN](acct_bin.md) , содержащую идентификатор учетной записи Exchange.  <br/> |
-|[PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) <br/> |Возвращает или задает идентификатор записи адресной книги для учетной записи.  <br/> |
-|[PROP_MAPI_TRANSPORT_FLAGS](prop_mapi_transport_flags.md) <br/> |Представляет параметры транспорта, которые Microsoft Outlook использует для определения необходимых задач синхронизации и отключения элементов пользовательского интерфейса, которые не поддерживаются учетной записью.  <br/> |
+|[PROP_MAPI_EMSMDB_UID](prop_mapi_emsmdb_uid.md) <br/> |Представляет структуру [ACCT_BIN,](acct_bin.md) которая содержит UID учетной записи Exchange.  <br/> |
+|[PROP_MAPI_IDENTITY_ENTRYID](prop_mapi_identity_entryid.md) <br/> |Извлекает или задает ИД записи адресной книги для учетной записи.  <br/> |
+|[PROP_MAPI_TRANSPORT_FLAGS](prop_mapi_transport_flags.md) <br/> |Представляет параметры транспорта, которые Microsoft Outlook использует для определения необходимых задач синхронизации и отключения элементов пользовательского интерфейса, которые учетная запись не поддерживает.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Этот интерфейс возвращается методом **иолкаккаунтманажер:: финдаккаунт** при поиске учетной записи, которая поддерживает **иолкаккаунт** и **иолкенум::-Next** при возврате следующей учетной записи в перечислителе. 
+Этот интерфейс возвращается **IOlkAccountManager::FindAccount** при поиске учетной записи, поддерживающего **IOlkAccount** и **IOlkEnum::GetNext** при получении следующей учетной записи в enumerator. 
   
 ## <a name="see-also"></a>См. также
 

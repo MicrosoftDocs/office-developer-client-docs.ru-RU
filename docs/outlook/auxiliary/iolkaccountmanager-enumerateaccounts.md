@@ -1,5 +1,5 @@
 ---
-title: иолкаккаунтманажеренумератеаккаунтс
+title: IOlkAccountManagerEnumerateAccounts
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -34,7 +34,7 @@ HRESULT IOlkAccountManager::EnumerateAccounts (
 
 ## <a name="parameters"></a>Параметры
 
-_пклсидкатегори_
+_pclsidCategory_
   
 > [in] The class identifier of the category to enumerate. The value must be one of the following:
     
@@ -44,7 +44,7 @@ _пклсидкатегори_
     
    - CLSID_OlkStore 
     
-_пклсидтипе_
+_pclsidType_
   
 > [in] The class identifier of the account type to enumerate. The value must be one of the following:
     
@@ -62,7 +62,7 @@ _dwFlags_
   
 > [in] Flags to modify behavior. The only supported value is OLK_ACCOUNT_NO_FLAGS.
     
-_ппенум_
+_ppEnum_
   
 > [out] An enumerator that supports the [IOlkEnum](iolkenum.md) interface. 
     
@@ -77,7 +77,7 @@ _ппенум_
 
 Specifying NULL for category returns an enumerator of all accounts of the specified type. Similarly, specifying NULL for type returns an enumerator of all accounts of the specified category.
   
- **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. Если учетная запись является учетной записью Exchange (*пклсидтипе* **CLSID_OlkMAPIAccount** ), и вы пытаетесь перечислить учетные записи, которые реализуют адресную книгу (*пргклсидкатегори* — **CLSID_OlkAddressBook** ), вызов **Иолкаккаунтманажер:: EnumerateAccounts** не вернет учетную запись Exchange в перечислителе учетных записей *ппенум* . 
+ **IOlkAccountManager::EnumerateAccounts** does not support the address book category for an Exchange account. Если учетная запись является учетной записью Exchange *(pclsidType* имеет тип **CLSID_OlkMAPIAccount),** и вы пытаетесь нумеровать учетные записи, которые реализуют адресную книгу (*prgclsidCategory* — **CLSID_OlkAddressBook),** вызов **IOlkAccountManager::EnumerateAccounts** не возвратит учетную запись Exchange в enumerator *ppEnum.* 
   
 ## <a name="see-also"></a>См. также
 

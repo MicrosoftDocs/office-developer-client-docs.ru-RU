@@ -1,12 +1,12 @@
 ---
-title: иолкаккаунтманажерадвисе
+title: IOlkAccountManagerAdvise
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c88f087e-4ff4-0837-186d-b6e761468a4d
-description: Регистрирует клиента с помощью диспетчера учетных записей для уведомлений, касающихся всех учетных записей.
+description: Регистрирует клиент в диспетчере учетных записей для уведомлений о всех учетных записях.
 ms.openlocfilehash: 5460d55d906d382ce40ecd3fd9277cf370295680
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33427712"
 ---
 # <a name="iolkaccountmanageradvise"></a>IOlkAccountManager::Advise
 
-Регистрирует клиента с помощью диспетчера учетных записей для уведомлений, касающихся всех учетных записей.
+Регистрирует клиент в диспетчере учетных записей для уведомлений о всех учетных записях.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -31,20 +31,20 @@ HRESULT IOlkAccountManager::Advise (
 
 ## <a name="parameters"></a>Параметры
 
-_пнотифи_
+_pNotify_
   
-> возврата Интерфейс [иолкаккаунтнотифи](iolkaccountnotify.md) , который диспетчер учетных записей будет использовать для отправки уведомлений клиенту. 
+> [in] Интерфейс [IOlkAccountNotify,](iolkaccountnotify.md) который диспетчер учетных записей будет использовать для отправки уведомлений клиенту. 
     
-_пдвкукие_
+_pdwCookie_
   
-> вышли Файл cookie, [иолкаккаунтманажер:: unadvise](iolkaccountmanager-unadvise.md) будет использоваться при удалении регистрации для учетной записи. 
+> [out] Файл cookie, который будет использовать [IOlkAccountManager::Unadvise](iolkaccountmanager-unadvise.md) при удалении регистрации учетной записи. 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
-|E_INVALIDARG  <br/> |Указан недопустимый аргумент.  <br/> |
+|E_INVALIDARG  <br/> |Предоставлен недопустимый аргумент.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
    
 ## <a name="see-also"></a>См. также

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251574
 localization_priority: Normal
 ms.assetid: 94c640d8-99e9-9d15-8ada-d9abeb3d66f7
-description: Возвращает текст из поля Title в свойствах документа.
+description: Возвращает текст из поля "Заголовок" свойств документа.
 ms.openlocfilehash: 395356fcffddfaf8d796708acc31db297ef01b35
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33424415"
 ---
 # <a name="title-function"></a>Функция TITLE
 
-Возвращает текст из поля **Title** в свойствах документа. 
+Возвращает текст из поля **"Заголовок"** свойств документа. 
   
 ## <a name="syntax"></a>Синтаксис
 

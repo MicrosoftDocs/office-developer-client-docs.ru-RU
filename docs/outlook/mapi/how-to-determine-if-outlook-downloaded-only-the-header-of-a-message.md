@@ -17,7 +17,7 @@ ms.locfileid: "33428153"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-В этом разделе показан пример кода в Visual C++, который использует имя [каноническое свойство PidLidHeaderItem](pidlidheaderitem-canonical-property.md) , чтобы определить, загружен ли в Microsoft Outlook 2013 только заголовок сообщения или заголовок и текст сообщения. 
+В этом разделе показан пример кода в Visual C++, который использует каноническое свойство [PidLidHeaderItem,](pidlidheaderitem-canonical-property.md) чтобы определить, скачал ли Microsoft Outlook 2013 только заголовок сообщения или заголовок и текст сообщения. 
   
 ```cpp
 BOOL bIsHeader(LPMESSAGE lpMessage) 

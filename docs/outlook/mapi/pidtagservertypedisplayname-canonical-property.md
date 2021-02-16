@@ -21,7 +21,7 @@ ms.locfileid: "33425955"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает строку Юникода, которая будет отображаться в строке состояния с этим свойством.
+Указывает строку Юникода, отображаемую в строке состояния с помощью этого свойства.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33425955"
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

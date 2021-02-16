@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251575
 localization_priority: Normal
 ms.assetid: c19efa2e-8249-d589-3f93-26c22dc4f4e7
-description: Возвращает текст из поля Subject в свойствах документа.
+description: Возвращает текст из поля "Тема" свойств документа.
 ms.openlocfilehash: 39413620e94a33726088e2a0e90989b1ccbbdabc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33426851"
 ---
 # <a name="subject-function"></a>Функция SUBJECT
 
-Возвращает текст из поля **subject** в свойствах документа. 
+Возвращает текст из поля **"Тема"** свойств документа. 
   
 ## <a name="syntax"></a>Синтаксис
 

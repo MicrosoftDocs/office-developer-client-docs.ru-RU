@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: d2e01e3c-634b-4052-8ed1-87f7863cfec5
-description: Представляет пароль пользователя для общего почтового ящика в Интернете.
+description: Представляет пароль пользователя для общего почтового ящика Интернета.
 ms.openlocfilehash: f6f534c3bdbfef19e791edfa9be0961b682de6ac
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33425402"
 ---
 # <a name="prop_inet_password"></a>PROP_INET_PASSWORD
 
-Представляет пароль пользователя для общего почтового ящика в Интернете.
+Представляет пароль пользователя для общего почтового ящика Интернета.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -25,7 +25,7 @@ ms.locfileid: "33425402"
 |Идентификатор:  <br/> |0x0102  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE|SECURE_FLAG  <br/> |
 |Тег свойства:  <br/> |0x0102801F  <br/> |
-|Обращения  <br/> |Только для чтения  <br/> |
+|Access:  <br/> |Только для чтения  <br/> |
    
 ## <a name="see-also"></a>См. также
 

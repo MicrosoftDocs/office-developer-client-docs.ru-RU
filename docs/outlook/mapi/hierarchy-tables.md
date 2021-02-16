@@ -21,61 +21,61 @@ ms.locfileid: "33428370"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Иерархическая таблица содержит сведения о папках в хранилище сообщений или контейнерах в контейнере адресной книги. Каждая строка таблицы иерархий содержит набор столбцов со сведениями о одной папке или адресной книге. Таблицы иерархий в основном используются клиентами и реализуются поставщиками хранилищ сообщений для отображения дерева папок и вложенных папок, а также реализованных поставщиками адресных книг для отображения дерева контейнеров в адресной книге. Контейнеры, которые не могут содержать подконтейнеры, как указано AB_SUBCONTAINERS в свойстве **PR_CONTAINER_FLAGS** ([PidTagContainerFlags](pidtagcontainerflags-canonical-property.md)), не реализуют таблицу иерархии.
+Таблица иерархии содержит сведения о папках в хранилище сообщений или контейнерах в контейнере адресной книги. Каждая строка таблицы иерархии содержит набор столбцов с информацией об одной папке или контейнере адресной книги. Таблицы иерархии в основном используются клиентами и реализуются поставщиками store сообщений для показа дерева папок и вложенных папок и реализованы поставщиками адресных книг для показа дерева контейнеров в адресной книге. Контейнеры, которые не могут удерживать подконтайнеры, на что указывает отсутствие флага AB_SUBCONTAINERS в свойстве **PR_CONTAINER_FLAGS** ([PidTagContainerFlags),](pidtagcontainerflags-canonical-property.md)не реализуют таблицу иерархии.
   
-Доступ к таблице иерархий можно получить с помощью вызова:
+Доступ к таблице иерархии можно получить с помощью вызова:
   
-- [IMAPIContainer:: жесиерарчитабле](imapicontainer-gethierarchytable.md).
+- [IMAPIContainer::GetHierarchyTable](imapicontainer-gethierarchytable.md).
     
-    - Также
+    - Или -
     
-- [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) передает **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy](pidtagcontainerhierarchy-canonical-property.md)) как тег свойства и IID_IMAPITable как идентификатор интерфейса.
+- [IMAPIProp::OpenProperty](imapiprop-openproperty.md) passing **PR_CONTAINER_HIERARCHY** ([PidTagContainerHierarchy)](pidtagcontainerhierarchy-canonical-property.md)в качестве тега свойства и IID_IMAPITable в качестве идентификатора интерфейса.
     
-Контейнеры и папки должны поддерживать оба способа извлечения свойств таблицы. Он неприемлемо для поставщиков услуг, чтобы поддерживать только один способ доступа к этим таблицам, так как клиенты ожидают выбора. 
+Контейнеры и папки должны поддерживать оба метода искомые свойства таблицы. Недопустимо, чтобы поставщики услуг поддерживают только один из способов доступа к этим таблицам, так как клиенты ожидают выбора. 
   
 > [!IMPORTANT]
-> Поставщики хранилища не гарантируют соблюдение порядка сортировки, указанного для таблиц иерархии. 
+> Поставщики магазина не гарантируют, что они будут соблюдать порядок сортировки, указанный для таблиц иерархии. 
   
-Вызов **IMAPIProp:: опенпроперти** включает доступ к таблице иерархии, открывая соответствующее свойство, **PR_CONTAINER_HIERARCHY**. Несмотря на то что **PR_CONTAINER_HIERARCHY** невозможно получить с помощью метода [IMAPIProp::-PROPS](imapiprop-getprops.md) папки или контейнера, он включается в массив тегов свойств, который возвращается методом [IMAPIProp:: жетпроплист](imapiprop-getproplist.md) . 
+Вызов **IMAPIProp::OpenProperty** включает доступ к таблице иерархии путем открытия соответствующего **свойства, PR_CONTAINER_HIERARCHY**. Хотя **PR_CONTAINER_HIERARCHY** не удается получить с помощью метода [IMAPIProp::GetProps](imapiprop-getprops.md) папки или контейнера, он включается в массив тегов свойств, который возвращается методом [IMAPIProp::GetPropList.](imapiprop-getproplist.md) 
   
- **PR_CONTAINER_HIERARCHY** также можно использовать для включения или исключения таблицы иерархии из операции копирования. Если клиент указывает **PR_CONTAINER_HIERARCHY** в параметре *лпексклудепропс* для [IMAPIProp:: CopyTo](imapiprop-copyto.md) в операции копирования, Новая папка или контейнер не будет поддерживать таблицу иерархии исходной папки или контейнера. 
+ **PR_CONTAINER_HIERARCHY** также можно использовать для включаемой или исключаемой таблицы иерархии из операции копирования. Если клиент указывает  PR_CONTAINER_HIERARCHY в параметре *lpExcludeProps* для [IMAPIProp::CopyTo](imapiprop-copyto.md) в операции копирования, новая папка или контейнер не будут поддерживать таблицу иерархии исходной папки или контейнера. 
   
-Следующие свойства составляют обязательный набор столбцов в таблице иерархий:
+Следующие свойства составляют необходимый набор столбцов в таблице иерархии:
   
 |||
 |:-----|:-----|
-|**PR_COMMENT** ([PidTagComment](pidtagcomment-canonical-property.md))  <br/> |**PR_DEPTH** ([PidTagDepth](pidtagdepth-canonical-property.md))  <br/> |
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
-|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |**PR_STATUS** ([PidTagStatus](pidtagstatus-canonical-property.md))  <br/> |
+|**PR_COMMENT** ([PidTagComment)](pidtagcomment-canonical-property.md)  <br/> |**PR_DEPTH** ([PidTagDepth)](pidtagdepth-canonical-property.md)  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)  <br/> |**PR_DISPLAY_TYPE** ([PidTagDisplayType)](pidtagdisplaytype-canonical-property.md)  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey)](pidtaginstancekey-canonical-property.md)  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |**PR_STATUS** ([PidTagStatus)](pidtagstatus-canonical-property.md)  <br/> |
    
- **PR_DISPLAY_NAME** содержит имя контейнера или папки, которые должны отображаться в иерархии. 
+ **PR_DISPLAY_NAME** содержит имя контейнера или папки, которые должны отображаться на экране иерархии. 
   
- **PR_ENTRYID** — это идентификатор записи, связанный с этим контейнером или папкой. Он должен быть долгосрочным идентификатором записи. Клиенты и MAPI могут передать этот идентификатор записи в **OpenEntry** , чтобы открыть контейнер или папку и просмотреть ее содержимое, вызвав [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md). 
+ **PR_ENTRYID** это идентификатор записи, связанный с этим контейнером или папкой. Ожидается, что это долгосрочный идентификатор записи. Клиенты и MAPI могут передать этот идентификатор записи **в OpenEntry,** чтобы открыть контейнер или папку и просмотреть его содержимое, вызывая [IMAPIContainer::GetContentsTable.](imapicontainer-getcontentstable.md) 
   
- **PR_DEPTH** — это числовое значение, указывающее уровень отступа для этого контейнера или папки с нулевым значением верхнего уровня. На более глубоком уровне в иерархии контейнер или папка находится более высокое значение свойства **PR_DEPTH** . Клиенты используют свойство **PR_DEPTH** для отображения таблицы иерархии соответствующим образом, чтобы пользователи могли ясно видеть родительские и дочерние связи. Глубина контейнера или папки всегда относится к контейнеру или папке, реализующей таблицу иерархии. 
+ **PR_DEPTH** это числовая величина, которая указывает уровень отступа для этого контейнера или папки, где нуль является верхним уровнем. Чем глубоко в иерархии находится контейнер или папка, тем выше значение его PR_DEPTH **свойства.** Клиенты используют **PR_DEPTH** для правильного отображения таблицы иерархии, чтобы пользователи могли четко видеть родительские и родительские отношения. Глубина контейнера или папки всегда относительно контейнера или папки, реализующих таблицу иерархии. 
   
- **PR_OBJECT_TYPE** всегда имеет значение MAPI_ABCONT для таблиц иерархии адресных книг и MAPI_FOLDER для таблиц иерархии папок. 
+ **PR_OBJECT_TYPE** для таблиц иерархии адресных книг MAPI_ABCONT и MAPI_FOLDER для таблиц иерархии папок. 
   
- **PR_DISPLAY_TYPE** — это числовое значение, которое соответствует способу отображения контейнера или папки в таблице иерархий. Он используется в основном для отображения, чтобы визуально различать типы контейнеров или папок. Многие поставщики хранилищ сообщений и адресных книг используют значки для различных типов дисплеев. Поставщик должен предоставить эти значки. MAPI не предоставляет значения по умолчанию. 
+ **PR_DISPLAY_TYPE** это числовая величина, которая связана с отображением контейнера или папки в таблице иерархии. В основном он используется для отображения, чтобы визуально различать типы контейнеров или папок. Многие поставщики store сообщений и адресных книг используют значки для различных типов отображения. Поставщик должен предоставить эти значки; MAPI не дает значения по умолчанию. 
   
-MAPI определяет множество значений для **PR_DISPLAY_TYPE**, которые являются допустимыми для папок и других элементов, используемых с таблицами иерархии контейнеров адресных книг. Как правило, **PR_DISPLAY_TYPE** папки имеет значение DT_FOLDER, указывающее значок папки по умолчанию, DT_FOLDER_LINK, чтобы указать значок, представляющий ссылку на другую папку, или DT_FOLDER_SPECIAL, чтобы указать значок, зависящий от конкретного приложения. DT_FOLDER_LINK используется с папками результатов поиска. 
+MAPI определяет множество значений для PR_DISPLAY_TYPE, некоторые из них допустимы для папок, а другие используются с таблицами иерархии контейнеров адресной книги.  Как правило, для PR_DISPLAY_TYPE  папки установлено значение DT_FOLDER, чтобы указать значок папки по умолчанию, DT_FOLDER_LINK — значок, который представляет ссылку на другую папку, или DT_FOLDER_SPECIAL, чтобы указать значок, характерный для приложения. DT_FOLDER_LINK используется с папками результатов поиска. 
   
-В дополнение к этим обязательным столбцам таблицы иерархии адресных книг должны включать свойство **PR_CONTAINER_FLAGS** . **PR_CONTAINER_FLAGS** указывает различные атрибуты контейнера в иерархии и используется для различения одного контейнера от другого. 
+Помимо этих необходимых столбцов, таблицы иерархии адресных книг должны включать свойство **PR_CONTAINER_FLAGS.** **PR_CONTAINER_FLAGS** указывает различные атрибуты контейнера в иерархии и используется для отличия одного контейнера от другого. 
   
-Необязательное свойство для таблиц иерархии адресных книг — это свойство **PR_AB_PROVIDER_ID** ([PidTagAbProviderId](pidtagabproviderid-canonical-property.md)).
+Необязательным свойством для таблиц иерархии адресной книги является **PR_AB_PROVIDER_ID** ([PidTagAbProviderId).](pidtagabproviderid-canonical-property.md)
   
-В таблицах иерархий хранилища сообщений эти свойства включаются в обязательный набор столбцов:
+Таблицы иерархии хранения сообщений включают следующие свойства в требуемом наборе столбцов:
   
-- **PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md))
+- **PR_FOLDER_TYPE** ([PidTagFolderType)](pidtagfoldertype-canonical-property.md)
     
-- **PR_SUBFOLDERS** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md))
+- **PR_SUBFOLDERS** ([PidTagSubfolders)](pidtagsubfolders-canonical-property.md)
     
-- **PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))
+- **PR_CONTENT_COUNT** ([PidTagContentCount)](pidtagcontentcount-canonical-property.md)
     
-- **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount](pidtagcontentunreadcount-canonical-property.md))
+- **PR_CONTENT_UNREAD** ([PidTagContentUnreadCount)](pidtagcontentunreadcount-canonical-property.md)
     
-Поставщики адресных книг должны поддерживать следующие методы **IMAPITable** в своих реализациях таблиц иерархии, так как они необходимы для встроенной АДРЕСНОЙ книги MAPI: 
+Поставщики адресных книг должны поддерживать следующие методы **IMAPITable** в своих реализациях таблиц иерархии, так как они необходимы интегрированной адресной книге MAPI: 
   
 |||
 |:-----|:-----|

@@ -1,5 +1,5 @@
 ---
-title: Действия с данными (пользовательское веб-приложение для Access)
+title: Действия с данными (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,27 +13,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33423267"
 ---
-# <a name="data-actions-access-custom-web-app"></a>Действия с данными (пользовательское веб-приложение для Access)
+# <a name="data-actions-access-custom-web-app"></a>Действия с данными (пользовательское веб-приложение Access)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Макрокоманда Макрокоманда StopMacro (пользовательское веб-приложение для Access)](stopmacro-macro-action-access-custom-web-app.md)
+- [StopMacro Macro Action (пользовательское веб-приложение Access)](stopmacro-macro-action-access-custom-web-app.md)
     
-- [Макрокоманда Канцелрекордчанже (пользовательское веб-приложение для Access)](cancelrecordchange-macro-action-access-custom-web-app.md)
+- [CancelRecordChange Macro Action (пользовательское веб-приложение Access)](cancelrecordchange-macro-action-access-custom-web-app.md)
     
-- [Действие с макросами данных DeleteRecord (пользовательское веб-приложение для Access)](deleterecord-data-macro-action-access-custom-web-app.md)
+- [DeleteRecord Data Macro Action (пользовательское веб-приложение Access)](deleterecord-data-macro-action-access-custom-web-app.md)
     
-- [Макрокоманда Раисиррор (пользовательское веб-приложение для Access)](raiseerror-macro-action-access-custom-web-app.md)
+- [RaiseError Macro Action (пользовательское веб-приложение Access)](raiseerror-macro-action-access-custom-web-app.md)
     
-- [Макрокоманда SetField (пользовательское веб-приложение для Access)](setfield-macro-action-access-custom-web-app.md)
+- [SetField Macro Action (пользовательское веб-приложение Access)](setfield-macro-action-access-custom-web-app.md)
     
-- [Макрокоманда SetLocalVar (пользовательское веб-приложение для Access)](setlocalvar-macro-action-access-custom-web-app.md)
+- [SetLocalVar Macro Action (пользовательское веб-приложение Access)](setlocalvar-macro-action-access-custom-web-app.md)
     
-- [Макрокоманда Екситфореачрекорд (пользовательское веб-приложение для Access)](exitforeachrecord-macro-action-access-custom-web-app.md)
+- [ExitForEachRecord Macro Action (пользовательское веб-приложение Access)](exitforeachrecord-macro-action-access-custom-web-app.md)
     
-- [Макрокоманда SetReturnVar (пользовательское веб-приложение для Access)](setreturnvar-macro-action-access-custom-web-app.md)
+- [SetReturnVar Macro Action (пользовательское веб-приложение Access)](setreturnvar-macro-action-access-custom-web-app.md)
     
 

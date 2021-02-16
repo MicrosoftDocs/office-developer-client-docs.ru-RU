@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c67cfd32-5911-d8e9-dd51-fd4885dd2b0d
-description: Возвращает ссылку на лист с конечной формой фигуры выноски.
+description: Возвращает ссылку на лист целевой фигуры фигуры вызовите.
 ms.openlocfilehash: aeeb919fb2efc175d8e5ce23f464503c13331249
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33423015"
 ---
 # <a name="callouttargetref-function"></a>Функция CALLOUTTARGETREF
 
-Возвращает ссылку на лист с конечной формой фигуры выноски.
+Возвращает ссылку на лист целевой фигуры фигуры вызовите.
   
 ## <a name="version-information"></a>Сведения о версии
 
@@ -25,20 +25,20 @@ ms.locfileid: "33423015"
   
 ## <a name="syntax"></a>Синтаксис
 
-CALLOUTTARGETREF ()!
+CALLOUTTARGETREF()!
   
 ### <a name="return-value"></a>Возвращаемое значение
 
-Ссылка на таблицу свойств фигуры
+Справка по shapeSheet
   
 ## <a name="remarks"></a>Примечания
 
-Если фигура не является фигурой выноски или не связана с целевой фигурой, CALLOUTTARGETREF возвращает #REF.
+Если фигура не является фигурой вызовите или не связана с целевой фигурой, CALLOUTTARGETREF возвращает #REF.
   
 ## <a name="example"></a>Пример
 
-CALLOUTTARGETREF ()! Полноразмерные 
+CALLOUTTARGETREF()! Height 
   
-Возвращает значение в ячейке Height фигуры, связанной с вызываемым вызываемым вызываемым вызываемым выноски. 
+Возвращает значение в ячейке Height фигуры, связанной с вызовом. 
   
 

@@ -17,21 +17,21 @@ ms.locfileid: "33428167"
  
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-При добавлении поля, определенного пользователем, в элемент Microsoft Outlook вы добавляете определение поля в соответствующую структуру потока [PropertyDefinition](propertydefinition-stream-structure.md) . Используйте следующую процедуру для добавления нового определения поля в структуру потока PropertyDefinition. 
+При добавлении пользовательского поля в элемент Microsoft Outlook определение поля добавляется в соответствующую структуру [потока PropertyDefinition.](propertydefinition-stream-structure.md) Используйте следующую процедуру для добавления нового определения поля в структуру потока PropertyDefinition. 
   
 ### <a name="to-add-a-definition-for-a-new-user-defined-field"></a>Добавление определения для нового пользовательского поля
 
 1. Скопируйте существующие определения полей структуры потока PropertyDefinition в новый массив определений полей. 
     
-2. Если существующие определения полей находятся в формате PropDefV1, преобразуйте их в формат PropDefV2. Дополнительные сведения о форматах определений полей приведены в разделе [структура потока PropertyDefinition](propertydefinition-stream-structure.md) и [структура потока FieldDefinition](fielddefinition-stream-structure.md).
+2. Если существующие определения полей имеют формат PropDefV1, преобразуйте их в формат PropDefV2. Дополнительные сведения о форматах определений полей см. в разделах [PropertyDefinition Stream Structure](propertydefinition-stream-structure.md) и [FieldDefinition Stream Structure.](fielddefinition-stream-structure.md)
     
-3. Создайте определение нового определяемого пользователем поля в формате PropDefV2 и добавьте его в массив.
+3. Создайте определение нового пользовательского поля в формате PropDefV2 и добавьте его в массив.
     
-4. Присвойте элементу Version структуры потока PropertyDefinition значение 0x0103, если для элемента Version не задано это значение.
+4. Установите элемент Version структуры потока PropertyDefinition как 0x0103, если элемент Version не имеет этого значения.
     
-5. Увеличьте значение элемента Фиелддефинитионкаунт на 1.
+5. Приращение элемента FieldDefinitionCount на 1.
     
-6. Сохраните массив в качестве значения элемента Фиелддефинитионс.
+6. Храните массив в качестве значения элемента FieldDefinitions.
     
 ## <a name="see-also"></a>См. также
 

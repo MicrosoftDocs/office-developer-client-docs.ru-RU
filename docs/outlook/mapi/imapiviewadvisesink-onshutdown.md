@@ -1,5 +1,5 @@
 ---
-title: имапивиевадвисесинконшутдовн
+title: IMAPIViewAdviseSinkOnShutdown
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33428524"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Уведомляет средство просмотра форм о том, что форма закрывается.
+Извеирует просматриваемую форму о закрытии формы.
   
 ```cpp
 HRESULT OnShutdown( void );
@@ -39,11 +39,11 @@ HRESULT OnShutdown( void );
 
 S_OK 
   
-> Уведомление успешно установлено.
+> Уведомление успешно.
     
 ## <a name="remarks"></a>Примечания
 
-Дополнительные сведения об уведомлениях формы можно найти в статье [Отправка и получение уведомлений формы](sending-and-receiving-form-notifications.md).
+Дополнительные сведения об уведомлениях о формах см. в сведениях об отправке и [получении уведомлений о формах.](sending-and-receiving-form-notifications.md)
   
 ## <a name="see-also"></a>См. также
 
