@@ -1,5 +1,5 @@
 ---
-title: SnapAngle_Type complexType (XML для Visio)
+title: SnapAngle_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540450"
 ---
-# <a name="snapangle_type-complextype-visio-xml"></a><span data-ttu-id="f3512-102">SnapAngle_Type complexType (XML для Visio)</span><span class="sxs-lookup"><span data-stu-id="f3512-102">SnapAngle_Type complexType (Visio XML)</span></span>
+# <a name="snapangle_type-complextype-visio-xml"></a><span data-ttu-id="24020-102">SnapAngle_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="24020-102">SnapAngle_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="f3512-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="f3512-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="24020-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="24020-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="f3512-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="f3512-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="f3512-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="f3512-105">**Schema file**</span></span> <br/> |<span data-ttu-id="f3512-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="f3512-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="f3512-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="f3512-107">**Extension base**</span></span> <br/> |<span data-ttu-id="f3512-108">XSD: Double</span><span class="sxs-lookup"><span data-stu-id="f3512-108">xsd:double</span></span>  <br/> |
+|<span data-ttu-id="24020-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="24020-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="24020-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="24020-105">**Schema file**</span></span> <br/> |<span data-ttu-id="24020-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="24020-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="24020-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="24020-107">**Extension base**</span></span> <br/> |<span data-ttu-id="24020-108">xsd:double</span><span class="sxs-lookup"><span data-stu-id="24020-108">xsd:double</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="f3512-109">Определение</span><span class="sxs-lookup"><span data-stu-id="f3512-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="24020-109">Определение</span><span class="sxs-lookup"><span data-stu-id="24020-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="SnapAngle_Type">
@@ -31,16 +31,16 @@ ms.locfileid: "34540450"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="f3512-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="f3512-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="24020-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="24020-110">Elements and attributes</span></span>
 
-<span data-ttu-id="f3512-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="f3512-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="24020-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="24020-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="f3512-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="f3512-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="24020-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="24020-112">Child elements</span></span>
 
-<span data-ttu-id="f3512-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="f3512-113">None.</span></span>
+<span data-ttu-id="24020-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="24020-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="f3512-114">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="f3512-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="24020-114">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="24020-114">Attributes</span></span>
 
-<span data-ttu-id="f3512-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="f3512-115">None.</span></span>
+<span data-ttu-id="24020-115">Нет.</span><span class="sxs-lookup"><span data-stu-id="24020-115">None.</span></span>
   
 

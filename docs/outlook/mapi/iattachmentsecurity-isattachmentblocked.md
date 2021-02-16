@@ -1,5 +1,5 @@
 ---
-title: иаттачментсекуритисаттачментблоккед
+title: IAttachmentSecurityIsAttachmentBlocked
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439781"
 ---
-# <a name="iattachmentsecurityisattachmentblocked"></a><span data-ttu-id="21e99-103">IAttachmentSecurity::IsAttachmentBlocked</span><span class="sxs-lookup"><span data-stu-id="21e99-103">IAttachmentSecurity::IsAttachmentBlocked</span></span>
+# <a name="iattachmentsecurityisattachmentblocked"></a><span data-ttu-id="a3e64-103">IAttachmentSecurity::IsAttachmentBlocked</span><span class="sxs-lookup"><span data-stu-id="a3e64-103">IAttachmentSecurity::IsAttachmentBlocked</span></span>
 
   
   
-<span data-ttu-id="21e99-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="21e99-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a3e64-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a3e64-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="21e99-105">Проверяет, блокируется ли указанное вложение приложением Microsoft Outlook 2010 или Microsoft Outlook 2013 для просмотра и индексирования.</span><span class="sxs-lookup"><span data-stu-id="21e99-105">Checks if a specified attachment is blocked by Microsoft Outlook 2010 or Microsoft Outlook 2013 for viewing and indexing.</span></span>
+<span data-ttu-id="a3e64-105">Проверяет, заблокировано ли указанное вложение Microsoft Outlook 2010, русская версия Или Microsoft Outlook 2013 для просмотра и индексации.</span><span class="sxs-lookup"><span data-stu-id="a3e64-105">Checks if a specified attachment is blocked by Microsoft Outlook 2010 or Microsoft Outlook 2013 for viewing and indexing.</span></span>
   
 ```cpp
 HRESULT IAttachmentSecurity::IsAttachmentBlocked( 
@@ -34,21 +34,21 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="21e99-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="21e99-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a3e64-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="a3e64-106">Parameters</span></span>
 
- <span data-ttu-id="21e99-107">_пвсзфиленаме_</span><span class="sxs-lookup"><span data-stu-id="21e99-107">_pwszFileName_</span></span>
+ <span data-ttu-id="a3e64-107">_pwszFileName_</span><span class="sxs-lookup"><span data-stu-id="a3e64-107">_pwszFileName_</span></span>
   
-> <span data-ttu-id="21e99-108">возврата Указатель на имя файла вложения.</span><span class="sxs-lookup"><span data-stu-id="21e99-108">[in] Pointer to the filename of an attachment.</span></span>
+> <span data-ttu-id="a3e64-108">[in] Указатель на имя файла вложения.</span><span class="sxs-lookup"><span data-stu-id="a3e64-108">[in] Pointer to the filename of an attachment.</span></span>
     
- <span data-ttu-id="21e99-109">_пфблоккед_</span><span class="sxs-lookup"><span data-stu-id="21e99-109">_pfBlocked_</span></span>
+ <span data-ttu-id="a3e64-109">_pfBlocked_</span><span class="sxs-lookup"><span data-stu-id="a3e64-109">_pfBlocked_</span></span>
   
-> <span data-ttu-id="21e99-110">вышли Указатель на значение **true** , если указанное вложение заблокировано; в противном случае — **false**.</span><span class="sxs-lookup"><span data-stu-id="21e99-110">[out] Pointer to a value indicating **true** if the specified attachment is blocked; otherwise, **false**.</span></span>
+> <span data-ttu-id="a3e64-110">[out] Указатель на значение, указывающее **значение true,** если указанное вложение заблокировано; в **противном** случае false .</span><span class="sxs-lookup"><span data-stu-id="a3e64-110">[out] Pointer to a value indicating **true** if the specified attachment is blocked; otherwise, **false**.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="21e99-111">См. также</span><span class="sxs-lookup"><span data-stu-id="21e99-111">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a3e64-111">См. также</span><span class="sxs-lookup"><span data-stu-id="a3e64-111">See also</span></span>
 
 
 
-[<span data-ttu-id="21e99-112">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="21e99-112">MAPI Constants</span></span>](mapi-constants.md)
+[<span data-ttu-id="a3e64-112">Константы MAPI</span><span class="sxs-lookup"><span data-stu-id="a3e64-112">MAPI Constants</span></span>](mapi-constants.md)
   
-[<span data-ttu-id="21e99-113">Проверка блокировки вложения</span><span class="sxs-lookup"><span data-stu-id="21e99-113">Verify an Attachment is Blocked</span></span>](how-to-verify-an-attachment-is-blocked.md)
+[<span data-ttu-id="a3e64-113">Проверка блокировки вложения</span><span class="sxs-lookup"><span data-stu-id="a3e64-113">Verify an Attachment is Blocked</span></span>](how-to-verify-an-attachment-is-blocked.md)
 

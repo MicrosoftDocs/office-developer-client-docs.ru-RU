@@ -19,15 +19,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33440005"
 ---
-# <a name="scomparepropsrestriction"></a><span data-ttu-id="4a778-103">SComparePropsRestriction</span><span class="sxs-lookup"><span data-stu-id="4a778-103">SComparePropsRestriction</span></span>
+# <a name="scomparepropsrestriction"></a><span data-ttu-id="e887d-103">SComparePropsRestriction</span><span class="sxs-lookup"><span data-stu-id="e887d-103">SComparePropsRestriction</span></span>
 
-<span data-ttu-id="4a778-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4a778-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e887d-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e887d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="4a778-105">Описывает ограничение свойства Compare, которое проверяет два свойства с помощью оператора отношения.</span><span class="sxs-lookup"><span data-stu-id="4a778-105">Describes a compare property restriction, which tests two properties using a relational operator.</span></span> 
+<span data-ttu-id="e887d-105">Описывает ограничение сравнения свойств, которое тестирует два свойства с помощью реляционного оператора.</span><span class="sxs-lookup"><span data-stu-id="e887d-105">Describes a compare property restriction, which tests two properties using a relational operator.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="4a778-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="4a778-106">Header file:</span></span>  <br/> |<span data-ttu-id="4a778-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="4a778-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="e887d-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="e887d-106">Header file:</span></span>  <br/> |<span data-ttu-id="e887d-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e887d-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SComparePropsRestriction
@@ -39,47 +39,47 @@ typedef struct _SComparePropsRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="4a778-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="4a778-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="e887d-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="e887d-108">Members</span></span>
 
-<span data-ttu-id="4a778-109">**релоп**</span><span class="sxs-lookup"><span data-stu-id="4a778-109">**relop**</span></span>
+<span data-ttu-id="e887d-109">**relop**</span><span class="sxs-lookup"><span data-stu-id="e887d-109">**relop**</span></span>
   
-> <span data-ttu-id="4a778-110">Оператор отношения, который используется для сравнения двух свойств.</span><span class="sxs-lookup"><span data-stu-id="4a778-110">Relational operator to use to compare the two properties.</span></span> <span data-ttu-id="4a778-111">Возможны следующие значения:</span><span class="sxs-lookup"><span data-stu-id="4a778-111">Possible values are as follows:</span></span>
+> <span data-ttu-id="e887d-110">Реляционный оператор для сравнения двух свойств.</span><span class="sxs-lookup"><span data-stu-id="e887d-110">Relational operator to use to compare the two properties.</span></span> <span data-ttu-id="e887d-111">Возможные значения:</span><span class="sxs-lookup"><span data-stu-id="e887d-111">Possible values are as follows:</span></span>
     
-  - <span data-ttu-id="4a778-112">RELOP_GE: сравнение выполняется на основе более высокого или равного первого значения.</span><span class="sxs-lookup"><span data-stu-id="4a778-112">RELOP_GE: The comparison is made based on a greater or equal first value.</span></span>
+  - <span data-ttu-id="e887d-112">RELOP_GE: сравнение основано на большем или равном первом значении.</span><span class="sxs-lookup"><span data-stu-id="e887d-112">RELOP_GE: The comparison is made based on a greater or equal first value.</span></span>
       
-  - <span data-ttu-id="4a778-113">RELOP_GT: сравнение выполняется на основе большего первого значения.</span><span class="sxs-lookup"><span data-stu-id="4a778-113">RELOP_GT: The comparison is made based on a greater first value.</span></span>
+  - <span data-ttu-id="e887d-113">RELOP_GT: сравнение основано на большем первом значении.</span><span class="sxs-lookup"><span data-stu-id="e887d-113">RELOP_GT: The comparison is made based on a greater first value.</span></span>
       
-  - <span data-ttu-id="4a778-114">RELOP_LE: сравнение выполняется на основе меньшего или равного первого значения.</span><span class="sxs-lookup"><span data-stu-id="4a778-114">RELOP_LE: The comparison is made based on a lesser or equal first value.</span></span>
+  - <span data-ttu-id="e887d-114">RELOP_LE: сравнение основано на меньшем или равном первом значении.</span><span class="sxs-lookup"><span data-stu-id="e887d-114">RELOP_LE: The comparison is made based on a lesser or equal first value.</span></span>
       
-  - <span data-ttu-id="4a778-115">RELOP_LT: сравнение выполняется с использованием меньшего значения.</span><span class="sxs-lookup"><span data-stu-id="4a778-115">RELOP_LT: The comparison is made based on a lesser first value.</span></span>
+  - <span data-ttu-id="e887d-115">RELOP_LT: сравнение основано на меньшем первом значении.</span><span class="sxs-lookup"><span data-stu-id="e887d-115">RELOP_LT: The comparison is made based on a lesser first value.</span></span>
       
-  - <span data-ttu-id="4a778-116">RELOP_NE: сравнение выполняется на основе неодинаковых значений.</span><span class="sxs-lookup"><span data-stu-id="4a778-116">RELOP_NE: The comparison is made based on unequal values.</span></span>
+  - <span data-ttu-id="e887d-116">RELOP_NE: сравнение основано на значениях значений значений.</span><span class="sxs-lookup"><span data-stu-id="e887d-116">RELOP_NE: The comparison is made based on unequal values.</span></span>
       
-  - <span data-ttu-id="4a778-117">RELOP_RE: сравнение выполняется на основе значений LIKE (регулярное выражение).</span><span class="sxs-lookup"><span data-stu-id="4a778-117">RELOP_RE: The comparison is made based on LIKE (regular expression) values.</span></span>
+  - <span data-ttu-id="e887d-117">RELOP_RE: сравнение основано на значениях LIKE (регулярного выражения).</span><span class="sxs-lookup"><span data-stu-id="e887d-117">RELOP_RE: The comparison is made based on LIKE (regular expression) values.</span></span>
       
-  - <span data-ttu-id="4a778-118">RELOP_EQ: сравнение выполняется на основе равных значений.</span><span class="sxs-lookup"><span data-stu-id="4a778-118">RELOP_EQ: The comparison is made based on equal values.</span></span>
+  - <span data-ttu-id="e887d-118">RELOP_EQ: сравнение основано на одинаковых значениях.</span><span class="sxs-lookup"><span data-stu-id="e887d-118">RELOP_EQ: The comparison is made based on equal values.</span></span>
     
-<span data-ttu-id="4a778-119">**ulPropTag1**</span><span class="sxs-lookup"><span data-stu-id="4a778-119">**ulPropTag1**</span></span>
+<span data-ttu-id="e887d-119">**ulPropTag1**</span><span class="sxs-lookup"><span data-stu-id="e887d-119">**ulPropTag1**</span></span>
   
-> <span data-ttu-id="4a778-120">Тег свойства первого сравниваемого свойства.</span><span class="sxs-lookup"><span data-stu-id="4a778-120">Property tag of the first property to be compared.</span></span> 
+> <span data-ttu-id="e887d-120">Тег свойства первого сравниваемого свойства.</span><span class="sxs-lookup"><span data-stu-id="e887d-120">Property tag of the first property to be compared.</span></span> 
     
-<span data-ttu-id="4a778-121">**ulPropTag2**</span><span class="sxs-lookup"><span data-stu-id="4a778-121">**ulPropTag2**</span></span>
+<span data-ttu-id="e887d-121">**ulPropTag2**</span><span class="sxs-lookup"><span data-stu-id="e887d-121">**ulPropTag2**</span></span>
   
-> <span data-ttu-id="4a778-122">Тег свойства второго свойства, которое требуется сравнить.</span><span class="sxs-lookup"><span data-stu-id="4a778-122">Property tag of the second property to be compared.</span></span>
+> <span data-ttu-id="e887d-122">Тег свойства второго свойства, который необходимо сравнить.</span><span class="sxs-lookup"><span data-stu-id="e887d-122">Property tag of the second property to be compared.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="4a778-123">Примечания</span><span class="sxs-lookup"><span data-stu-id="4a778-123">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e887d-123">Примечания</span><span class="sxs-lookup"><span data-stu-id="e887d-123">Remarks</span></span>
 
-<span data-ttu-id="4a778-124">Порядок сравнения _(тег свойства 1) (оператор отношения) (тег свойства 2)_.</span><span class="sxs-lookup"><span data-stu-id="4a778-124">The comparison order is  _(property tag 1) (relational operator) (property tag 2)_.</span></span> <span data-ttu-id="4a778-125">Сравниваемые свойства должны относиться к одному и тому же типу.</span><span class="sxs-lookup"><span data-stu-id="4a778-125">The properties to be compared must be of the same type.</span></span> <span data-ttu-id="4a778-126">Попытка сравнить свойства различных типов приводит к тому, что MAPI или поставщик услуг возвращает значение ошибки MAPI_E_TOO_COMPLEX из метода [IMAPITable](imapitableiunknown.md) , для которого структура передается в качестве параметра.</span><span class="sxs-lookup"><span data-stu-id="4a778-126">Attempting to compare properties of different types causes MAPI or the service provider to return the error value MAPI_E_TOO_COMPLEX from the [IMAPITable](imapitableiunknown.md) method to which the structure is passed as a parameter.</span></span> 
+<span data-ttu-id="e887d-124">Порядок сравнения : _(тег свойства 1) (реляционный оператор) (тег свойства 2)._</span><span class="sxs-lookup"><span data-stu-id="e887d-124">The comparison order is  _(property tag 1) (relational operator) (property tag 2)_.</span></span> <span data-ttu-id="e887d-125">Сравниваемые свойства должны иметь одинаковый тип.</span><span class="sxs-lookup"><span data-stu-id="e887d-125">The properties to be compared must be of the same type.</span></span> <span data-ttu-id="e887d-126">При попытке сравнить свойства различных типов MAPI или поставщик услуг возвращает значение ошибки MAPI_E_TOO_COMPLEX из метода [IMAPITable,](imapitableiunknown.md) в который структура передается в качестве параметра.</span><span class="sxs-lookup"><span data-stu-id="e887d-126">Attempting to compare properties of different types causes MAPI or the service provider to return the error value MAPI_E_TOO_COMPLEX from the [IMAPITable](imapitableiunknown.md) method to which the structure is passed as a parameter.</span></span> 
   
-<span data-ttu-id="4a778-127">Результат ограничения значения свойства Compare не определен, если одно или оба свойства не существуют.</span><span class="sxs-lookup"><span data-stu-id="4a778-127">The result of a compare property value restriction is undefined when one or both of the properties do not exist.</span></span> <span data-ttu-id="4a778-128">Если клиенту требуется строго определенное поведение для такого ограничения и не известно, существует ли свойство (например, это не обязательный столбец таблицы), следует **создать ограничение свойства** Compare с ограничением EXISTS, чтобы присоединиться к ограничению свойства Compare.</span><span class="sxs-lookup"><span data-stu-id="4a778-128">When a client requires well-defined behavior for such a restriction and is not sure whether the property exists, (for example, it is not a required column of a table) it should create an **AND** restriction to join the compare property restriction with an exist restriction.</span></span> <span data-ttu-id="4a778-129">Используйте структуру [сексистрестриктион](sexistrestriction.md) , чтобы определить ограничение exist и структуру [сандрестриктион](sandrestriction.md) для **определения ограничения.**</span><span class="sxs-lookup"><span data-stu-id="4a778-129">Use an [SExistRestriction](sexistrestriction.md) structure to define the exist restriction and an [SAndRestriction](sandrestriction.md) structure to define the **AND** restriction.</span></span> 
+<span data-ttu-id="e887d-127">Результат ограничения значения свойства сравнения не задается, если одно или оба свойства не существуют.</span><span class="sxs-lookup"><span data-stu-id="e887d-127">The result of a compare property value restriction is undefined when one or both of the properties do not exist.</span></span> <span data-ttu-id="e887d-128">Если клиент требует четкого поведения для такого ограничения и не уверен, существует ли свойство (например, это не обязательное столбец таблицы), он должен создать ограничение **AND,** чтобы присоединиться к ограничению сравнения свойств с ограничением на существование.</span><span class="sxs-lookup"><span data-stu-id="e887d-128">When a client requires well-defined behavior for such a restriction and is not sure whether the property exists, (for example, it is not a required column of a table) it should create an **AND** restriction to join the compare property restriction with an exist restriction.</span></span> <span data-ttu-id="e887d-129">Используйте [структуру SExistRestriction](sexistrestriction.md) для определения ограничений на существование и [структуру SAndRestriction](sandrestriction.md) для определения **ограничения AND.**</span><span class="sxs-lookup"><span data-stu-id="e887d-129">Use an [SExistRestriction](sexistrestriction.md) structure to define the exist restriction and an [SAndRestriction](sandrestriction.md) structure to define the **AND** restriction.</span></span> 
   
-<span data-ttu-id="4a778-130">Свойства, указанные в членах **ulPropTag1** и **ulPropTag2** , могут быть многозначными, если поставщик услуг поддерживает ее.</span><span class="sxs-lookup"><span data-stu-id="4a778-130">The properties specified in the **ulPropTag1** and **ulPropTag2** members can be multi-valued if the service provider supports it.</span></span> 
+<span data-ttu-id="e887d-130">Свойства, указанные в членах **ulPropTag1** и **ulPropTag2,** могут иметь несколько значений, если поставщик услуг поддерживает их.</span><span class="sxs-lookup"><span data-stu-id="e887d-130">The properties specified in the **ulPropTag1** and **ulPropTag2** members can be multi-valued if the service provider supports it.</span></span> 
   
-<span data-ttu-id="4a778-131">Для получения дополнительных сведений о структуре и ограничениях **скомпарепропсрестриктион** в целом ознакомьтесь с [ограничениями](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="4a778-131">For more information about the **SComparePropsRestriction** structure and restrictions in general, see [About Restrictions](about-restrictions.md).</span></span>
+<span data-ttu-id="e887d-131">Дополнительные сведения о структуре **и ограничениях SComparePropsRestriction** в целом см. в сведениях [об ограничениях.](about-restrictions.md)</span><span class="sxs-lookup"><span data-stu-id="e887d-131">For more information about the **SComparePropsRestriction** structure and restrictions in general, see [About Restrictions](about-restrictions.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="4a778-132">См. также</span><span class="sxs-lookup"><span data-stu-id="4a778-132">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e887d-132">См. также</span><span class="sxs-lookup"><span data-stu-id="e887d-132">See also</span></span>
 
-- [<span data-ttu-id="4a778-133">SBitMaskRestriction</span><span class="sxs-lookup"><span data-stu-id="4a778-133">SBitMaskRestriction</span></span>](sbitmaskrestriction.md)
-- [<span data-ttu-id="4a778-134">SRestriction</span><span class="sxs-lookup"><span data-stu-id="4a778-134">SRestriction</span></span>](srestriction.md)
-- [<span data-ttu-id="4a778-135">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="4a778-135">MAPI Structures</span></span>](mapi-structures.md)
+- [<span data-ttu-id="e887d-133">SBitMaskRestriction</span><span class="sxs-lookup"><span data-stu-id="e887d-133">SBitMaskRestriction</span></span>](sbitmaskrestriction.md)
+- [<span data-ttu-id="e887d-134">SRestriction</span><span class="sxs-lookup"><span data-stu-id="e887d-134">SRestriction</span></span>](srestriction.md)
+- [<span data-ttu-id="e887d-135">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="e887d-135">MAPI Structures</span></span>](mapi-structures.md)
 

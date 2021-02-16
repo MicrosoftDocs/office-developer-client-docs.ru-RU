@@ -1,5 +1,5 @@
 ---
-title: FunctionDef_Type complexType (XML для Visio)
+title: FunctionDef_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,17 +13,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539837"
 ---
-# <a name="functiondef_type-complextype-visio-xml"></a><span data-ttu-id="2c15c-102">FunctionDef_Type complexType (XML для Visio)</span><span class="sxs-lookup"><span data-stu-id="2c15c-102">FunctionDef_Type complexType (Visio XML)</span></span>
+# <a name="functiondef_type-complextype-visio-xml"></a><span data-ttu-id="f21ce-102">FunctionDef_Type complexType (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="f21ce-102">FunctionDef_Type complexType (Visio XML)</span></span>
 
-## <a name="type-information"></a><span data-ttu-id="2c15c-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="2c15c-103">Type information</span></span>
+## <a name="type-information"></a><span data-ttu-id="f21ce-103">Сведения о типе</span><span class="sxs-lookup"><span data-stu-id="f21ce-103">Type information</span></span>
 
 |||
 |:-----|:-----|
-|<span data-ttu-id="2c15c-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="2c15c-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
-|<span data-ttu-id="2c15c-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="2c15c-105">**Schema file**</span></span> <br/> |<span data-ttu-id="2c15c-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="2c15c-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
-|<span data-ttu-id="2c15c-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="2c15c-107">**Extension base**</span></span> <br/> |<span data-ttu-id="2c15c-108">Отсутствует</span><span class="sxs-lookup"><span data-stu-id="2c15c-108">None</span></span>  <br/> |
+|<span data-ttu-id="f21ce-104">**Пространство имен**</span><span class="sxs-lookup"><span data-stu-id="f21ce-104">**Namespace**</span></span> <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
+|<span data-ttu-id="f21ce-105">**Файл схемы**</span><span class="sxs-lookup"><span data-stu-id="f21ce-105">**Schema file**</span></span> <br/> |<span data-ttu-id="f21ce-106">VisioSchema15-2012-06-05.xsd</span><span class="sxs-lookup"><span data-stu-id="f21ce-106">VisioSchema15-2012-06-05.xsd</span></span>  <br/> |
+|<span data-ttu-id="f21ce-107">**Базовый элемент расширения**</span><span class="sxs-lookup"><span data-stu-id="f21ce-107">**Extension base**</span></span> <br/> |<span data-ttu-id="f21ce-108">Отсутствует</span><span class="sxs-lookup"><span data-stu-id="f21ce-108">None</span></span>  <br/> |
    
-## <a name="definition"></a><span data-ttu-id="2c15c-109">Определение</span><span class="sxs-lookup"><span data-stu-id="2c15c-109">Definition</span></span>
+## <a name="definition"></a><span data-ttu-id="f21ce-109">Определение</span><span class="sxs-lookup"><span data-stu-id="f21ce-109">Definition</span></span>
 
 ```XML
       <xs:complexType name="FunctionDef_Type">
@@ -35,18 +35,18 @@ ms.locfileid: "34539837"
       
 ```
 
-## <a name="elements-and-attributes"></a><span data-ttu-id="2c15c-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="2c15c-110">Elements and attributes</span></span>
+## <a name="elements-and-attributes"></a><span data-ttu-id="f21ce-110">Элементы и атрибуты</span><span class="sxs-lookup"><span data-stu-id="f21ce-110">Elements and attributes</span></span>
 
-<span data-ttu-id="2c15c-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="2c15c-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
+<span data-ttu-id="f21ce-111">Если в схеме определяются конкретные требования, например **sequence**, **minOccurs**, **maxOccurs** и **choice**, см. раздел определений.</span><span class="sxs-lookup"><span data-stu-id="f21ce-111">If the schema defines specific requirements, such as **sequence**, **minOccurs**, **maxOccurs**, and **choice**, see the definition section.</span></span> 
   
-### <a name="child-elements"></a><span data-ttu-id="2c15c-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="2c15c-112">Child elements</span></span>
+### <a name="child-elements"></a><span data-ttu-id="f21ce-112">Дочерние элементы</span><span class="sxs-lookup"><span data-stu-id="f21ce-112">Child elements</span></span>
 
-<span data-ttu-id="2c15c-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="2c15c-113">None.</span></span>
+<span data-ttu-id="f21ce-113">Нет.</span><span class="sxs-lookup"><span data-stu-id="f21ce-113">None.</span></span>
   
-### <a name="attributes"></a><span data-ttu-id="2c15c-114">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="2c15c-114">Attributes</span></span>
+### <a name="attributes"></a><span data-ttu-id="f21ce-114">Атрибуты</span><span class="sxs-lookup"><span data-stu-id="f21ce-114">Attributes</span></span>
 
-|<span data-ttu-id="2c15c-115">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="2c15c-115">**Attribute**</span></span>|<span data-ttu-id="2c15c-116">**Тип**</span><span class="sxs-lookup"><span data-stu-id="2c15c-116">**Type**</span></span>|<span data-ttu-id="2c15c-117">**Обязательный**</span><span class="sxs-lookup"><span data-stu-id="2c15c-117">**Required**</span></span>|<span data-ttu-id="2c15c-118">**Описание**</span><span class="sxs-lookup"><span data-stu-id="2c15c-118">**Description**</span></span>|<span data-ttu-id="2c15c-119">**Возможные значения**</span><span class="sxs-lookup"><span data-stu-id="2c15c-119">**Possible values**</span></span>|
+|<span data-ttu-id="f21ce-115">**Атрибут**</span><span class="sxs-lookup"><span data-stu-id="f21ce-115">**Attribute**</span></span>|<span data-ttu-id="f21ce-116">**Тип**</span><span class="sxs-lookup"><span data-stu-id="f21ce-116">**Type**</span></span>|<span data-ttu-id="f21ce-117">**Обязательный**</span><span class="sxs-lookup"><span data-stu-id="f21ce-117">**Required**</span></span>|<span data-ttu-id="f21ce-118">**Описание**</span><span class="sxs-lookup"><span data-stu-id="f21ce-118">**Description**</span></span>|<span data-ttu-id="f21ce-119">**Возможные значения**</span><span class="sxs-lookup"><span data-stu-id="f21ce-119">**Possible values**</span></span>|
 |:-----|:-----|:-----|:-----|:-----|
-|<span data-ttu-id="2c15c-120">N</span><span class="sxs-lookup"><span data-stu-id="2c15c-120">N</span></span>  <br/> |<span data-ttu-id="2c15c-121">XSD: строка</span><span class="sxs-lookup"><span data-stu-id="2c15c-121">xsd:string</span></span>  <br/> |<span data-ttu-id="2c15c-122">Обязательный</span><span class="sxs-lookup"><span data-stu-id="2c15c-122">required</span></span>  <br/> ||<span data-ttu-id="2c15c-123">Значения типа String: XSD.</span><span class="sxs-lookup"><span data-stu-id="2c15c-123">Values of the xsd:string type.</span></span>  <br/> |
+|<span data-ttu-id="f21ce-120">N</span><span class="sxs-lookup"><span data-stu-id="f21ce-120">N</span></span>  <br/> |<span data-ttu-id="f21ce-121">xsd:string</span><span class="sxs-lookup"><span data-stu-id="f21ce-121">xsd:string</span></span>  <br/> |<span data-ttu-id="f21ce-122">Обязательный</span><span class="sxs-lookup"><span data-stu-id="f21ce-122">required</span></span>  <br/> ||<span data-ttu-id="f21ce-123">Значения типа xsd:string.</span><span class="sxs-lookup"><span data-stu-id="f21ce-123">Values of the xsd:string type.</span></span>  <br/> |
    
 

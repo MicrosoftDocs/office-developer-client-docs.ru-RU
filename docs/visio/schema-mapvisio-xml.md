@@ -1,5 +1,5 @@
 ---
-title: Карта схемы (XML-файл Visio)
+title: Карта схемы (Visio XML)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539084"
 ---
-# <a name="schema-map-visio-xml"></a><span data-ttu-id="b8415-103">Карта схемы (XML-файл Visio)</span><span class="sxs-lookup"><span data-stu-id="b8415-103">Schema map (Visio XML)</span></span>
+# <a name="schema-map-visio-xml"></a><span data-ttu-id="c6847-103">Карта схемы (Visio XML)</span><span class="sxs-lookup"><span data-stu-id="c6847-103">Schema map (Visio XML)</span></span>
 
-<span data-ttu-id="b8415-104">В этом разделе показано определение схемы XML для формата файлов Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="b8415-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
+<span data-ttu-id="c6847-104">В этом разделе показано определение схемы XML для формата файлов Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="c6847-104">This topic shows the XML schema definition for the Visio 2013 file format.</span></span>
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>

@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439998"
 ---
-# <a name="getattribimsgonistg"></a><span data-ttu-id="10aea-103">GetAttribIMsgOnIStg</span><span class="sxs-lookup"><span data-stu-id="10aea-103">GetAttribIMsgOnIStg</span></span>
+# <a name="getattribimsgonistg"></a><span data-ttu-id="dc542-103">GetAttribIMsgOnIStg</span><span class="sxs-lookup"><span data-stu-id="dc542-103">GetAttribIMsgOnIStg</span></span>
 
   
   
-<span data-ttu-id="10aea-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="10aea-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="dc542-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="dc542-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="10aea-105">Получает атрибуты свойств объекта [iMessage](imessageimapiprop.md) , предоставляемого функцией [опенимсгонистг](openimsgonistg.md) .</span><span class="sxs-lookup"><span data-stu-id="10aea-105">Retrieves attributes of properties on an [IMessage](imessageimapiprop.md) object supplied by the [OpenIMsgOnIStg](openimsgonistg.md) function.</span></span> 
+<span data-ttu-id="dc542-105">Извлекает атрибуты свойств объекта [IMessage,](imessageimapiprop.md) предоставленные функцией [OpenIMsgOnIStg.](openimsgonistg.md)</span><span class="sxs-lookup"><span data-stu-id="dc542-105">Retrieves attributes of properties on an [IMessage](imessageimapiprop.md) object supplied by the [OpenIMsgOnIStg](openimsgonistg.md) function.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="10aea-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="10aea-106">Header file:</span></span>  <br/> |<span data-ttu-id="10aea-107">IMessage. h</span><span class="sxs-lookup"><span data-stu-id="10aea-107">Imessage.h</span></span>  <br/> |
-|<span data-ttu-id="10aea-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="10aea-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="10aea-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="10aea-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="10aea-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="10aea-110">Called by:</span></span>  <br/> |<span data-ttu-id="10aea-111">Клиентские приложения и поставщики хранилищ сообщений</span><span class="sxs-lookup"><span data-stu-id="10aea-111">Client applications and message store providers</span></span>  <br/> |
+|<span data-ttu-id="dc542-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="dc542-106">Header file:</span></span>  <br/> |<span data-ttu-id="dc542-107">Imessage.h</span><span class="sxs-lookup"><span data-stu-id="dc542-107">Imessage.h</span></span>  <br/> |
+|<span data-ttu-id="dc542-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="dc542-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="dc542-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="dc542-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="dc542-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="dc542-110">Called by:</span></span>  <br/> |<span data-ttu-id="dc542-111">Клиентские приложения и поставщики store сообщений</span><span class="sxs-lookup"><span data-stu-id="dc542-111">Client applications and message store providers</span></span>  <br/> |
    
 ```cpp
 HRESULT GetAttribIMsgOnIStg(
@@ -41,37 +41,37 @@ HRESULT GetAttribIMsgOnIStg(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="10aea-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="10aea-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="dc542-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="dc542-112">Parameters</span></span>
 
- <span data-ttu-id="10aea-113">_лпобжект_</span><span class="sxs-lookup"><span data-stu-id="10aea-113">_lpObject_</span></span>
+ <span data-ttu-id="dc542-113">_lpObject_</span><span class="sxs-lookup"><span data-stu-id="dc542-113">_lpObject_</span></span>
   
-> <span data-ttu-id="10aea-114">возврата Указатель на объект **iMessage** , полученный из функции [опенимсгонистг](openimsgonistg.md) .</span><span class="sxs-lookup"><span data-stu-id="10aea-114">[in] Pointer to an **IMessage** object obtained from the [OpenIMsgOnIStg](openimsgonistg.md) function.</span></span> 
+> <span data-ttu-id="dc542-114">[in] Указатель на объект **IMessage,** полученный из [функции OpenIMsgOnIStg.](openimsgonistg.md)</span><span class="sxs-lookup"><span data-stu-id="dc542-114">[in] Pointer to an **IMessage** object obtained from the [OpenIMsgOnIStg](openimsgonistg.md) function.</span></span> 
     
- <span data-ttu-id="10aea-115">_лппроптагаррай_</span><span class="sxs-lookup"><span data-stu-id="10aea-115">_lpPropTagArray_</span></span>
+ <span data-ttu-id="dc542-115">_lpPropTagArray_</span><span class="sxs-lookup"><span data-stu-id="dc542-115">_lpPropTagArray_</span></span>
   
-> <span data-ttu-id="10aea-116">возврата Указатель на структуру [спроптагаррай](sproptagarray.md) , содержащую массив тегов свойств, указывающий свойства, для которых необходимо извлечь атрибуты.</span><span class="sxs-lookup"><span data-stu-id="10aea-116">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags indicating the properties for which attributes are to be retrieved.</span></span> 
+> <span data-ttu-id="dc542-116">[in] Указатель на структуру [SPropTagArray,](sproptagarray.md) которая содержит массив тегов свойств, указывающих свойства, для которых требуется получить атрибуты.</span><span class="sxs-lookup"><span data-stu-id="dc542-116">[in] Pointer to an [SPropTagArray](sproptagarray.md) structure that contains an array of property tags indicating the properties for which attributes are to be retrieved.</span></span> 
     
- <span data-ttu-id="10aea-117">_лпппропаттраррай_</span><span class="sxs-lookup"><span data-stu-id="10aea-117">_lppPropAttrArray_</span></span>
+ <span data-ttu-id="dc542-117">_lppPropAttrArray_</span><span class="sxs-lookup"><span data-stu-id="dc542-117">_lppPropAttrArray_</span></span>
   
-> <span data-ttu-id="10aea-118">вышли Указатель на указатель на возвращенную структуру [спропаттраррай](spropattrarray.md) , содержащую атрибуты извлеченных свойств.</span><span class="sxs-lookup"><span data-stu-id="10aea-118">[out] Pointer to a pointer to the returned [SPropAttrArray](spropattrarray.md) structure that contains the retrieved property attributes.</span></span> 
+> <span data-ttu-id="dc542-118">[out] Указатель на указатель на возвращенную [структуру SPropAttrArray,](spropattrarray.md) которая содержит извлеченные атрибуты свойства.</span><span class="sxs-lookup"><span data-stu-id="dc542-118">[out] Pointer to a pointer to the returned [SPropAttrArray](spropattrarray.md) structure that contains the retrieved property attributes.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="10aea-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="10aea-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="dc542-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="dc542-119">Return value</span></span>
 
-<span data-ttu-id="10aea-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="10aea-120">S_OK</span></span> 
+<span data-ttu-id="dc542-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="dc542-120">S_OK</span></span> 
   
-> <span data-ttu-id="10aea-121">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="10aea-121">The call succeeded and has returned the expected value or values.</span></span> 
+> <span data-ttu-id="dc542-121">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="dc542-121">The call succeeded and has returned the expected value or values.</span></span> 
     
-<span data-ttu-id="10aea-122">MAPI_W_ERRORS_RETURNED</span><span class="sxs-lookup"><span data-stu-id="10aea-122">MAPI_W_ERRORS_RETURNED</span></span> 
+<span data-ttu-id="dc542-122">MAPI_W_ERRORS_RETURNED</span><span class="sxs-lookup"><span data-stu-id="dc542-122">MAPI_W_ERRORS_RETURNED</span></span> 
   
-> <span data-ttu-id="10aea-123">Вызов выполнен в целом, но не удалось получить доступ к одному или нескольким свойствам и они возвращались с типом свойства PT_ERROR.</span><span class="sxs-lookup"><span data-stu-id="10aea-123">The call succeeded overall, but one or more properties could not be accessed and were returned with a property type of PT_ERROR.</span></span>
+> <span data-ttu-id="dc542-123">Вызов в целом был успешным, но не удалось получить доступ к одному или более свойствам, и он был возвращен с типом свойства PT_ERROR.</span><span class="sxs-lookup"><span data-stu-id="dc542-123">The call succeeded overall, but one or more properties could not be accessed and were returned with a property type of PT_ERROR.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="10aea-124">Примечания</span><span class="sxs-lookup"><span data-stu-id="10aea-124">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="dc542-124">Примечания</span><span class="sxs-lookup"><span data-stu-id="dc542-124">Remarks</span></span>
 
-<span data-ttu-id="10aea-125">Доступ к атрибутам свойств возможен только для объектов Property, то есть объектов, реализующих интерфейс [IMAPIProp: IUnknown](imapipropiunknown.md) .</span><span class="sxs-lookup"><span data-stu-id="10aea-125">Property attributes can only be accessed on property objects, that is, objects implementing the [IMAPIProp : IUnknown](imapipropiunknown.md) interface.</span></span> <span data-ttu-id="10aea-126">Чтобы сделать свойства MAPI доступными в объекте структурированного хранилища OLE, [опенимсгонистг](openimsgonistg.md) создает объект [iMessage: IMAPIProp](imessageimapiprop.md) в начале объекта OLE **IStorage** .</span><span class="sxs-lookup"><span data-stu-id="10aea-126">To make MAPI properties available on an OLE structured storage object, [OpenIMsgOnIStg](openimsgonistg.md) builds an [IMessage : IMAPIProp](imessageimapiprop.md) object on top of the OLE **IStorage** object.</span></span> <span data-ttu-id="10aea-127">Атрибуты свойств таких объектов можно задавать или изменять с помощью [сетаттрибимсгонистг](setattribimsgonistg.md) и извлекаются с помощью **жетаттрибимсгонистг**.</span><span class="sxs-lookup"><span data-stu-id="10aea-127">The property attributes on such objects can be set or altered with [SetAttribIMsgOnIStg](setattribimsgonistg.md) and retrieved with **GetAttribIMsgOnIStg**.</span></span> 
+<span data-ttu-id="dc542-125">Доступ к атрибутам свойств можно получить только для объектов свойств, то есть объектов, реализующих [интерфейс IMAPIProp : IUnknown.](imapipropiunknown.md)</span><span class="sxs-lookup"><span data-stu-id="dc542-125">Property attributes can only be accessed on property objects, that is, objects implementing the [IMAPIProp : IUnknown](imapipropiunknown.md) interface.</span></span> <span data-ttu-id="dc542-126">Чтобы сделать свойства MAPI доступными для объекта OLE структурированного хранилища, [OpenIMsgOnIStg](openimsgonistg.md) создает объект [IMessage : IMAPIProp](imessageimapiprop.md) поверх объекта OLE **IStorage.**</span><span class="sxs-lookup"><span data-stu-id="dc542-126">To make MAPI properties available on an OLE structured storage object, [OpenIMsgOnIStg](openimsgonistg.md) builds an [IMessage : IMAPIProp](imessageimapiprop.md) object on top of the OLE **IStorage** object.</span></span> <span data-ttu-id="dc542-127">Атрибуты свойств для таких объектов можно установить или изменить с помощью [SetAttribIMsgOnIStg](setattribimsgonistg.md) и получить с помощью **GetAttribIMsgOnIStg.**</span><span class="sxs-lookup"><span data-stu-id="dc542-127">The property attributes on such objects can be set or altered with [SetAttribIMsgOnIStg](setattribimsgonistg.md) and retrieved with **GetAttribIMsgOnIStg**.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="10aea-128">**Жетаттрибимсгонистг** и **сетаттрибимсгонистг** не работают со всеми объектами **iMessage** .</span><span class="sxs-lookup"><span data-stu-id="10aea-128">**GetAttribIMsgOnIStg** and **SetAttribIMsgOnIStg** do not operate on all **IMessage** objects.</span></span> <span data-ttu-id="10aea-129">Они действительны только для объектов **iMessage**— On — **IStorage** , возвращаемых методом **опенимсгонистг**.</span><span class="sxs-lookup"><span data-stu-id="10aea-129">They are only valid for **IMessage**-on- **IStorage** objects returned by **OpenIMsgOnIStg**.</span></span> 
+> <span data-ttu-id="dc542-128">**GetAttribIMsgOnIStg** и **SetAttribIMsgOnIStg** работают не на всех **объектах IMessage.**</span><span class="sxs-lookup"><span data-stu-id="dc542-128">**GetAttribIMsgOnIStg** and **SetAttribIMsgOnIStg** do not operate on all **IMessage** objects.</span></span> <span data-ttu-id="dc542-129">Они действительны только для **объектов IMessage**-on-IStorage, возвращенных **OpenIMsgOnIStg.** </span><span class="sxs-lookup"><span data-stu-id="dc542-129">They are only valid for **IMessage**-on- **IStorage** objects returned by **OpenIMsgOnIStg**.</span></span> 
   
-<span data-ttu-id="10aea-130">Число и позиции атрибутов в параметре _лпппропаттраррай_ соответствуют числу и положениям тегов свойств в параметре _лппроптагаррай_ .</span><span class="sxs-lookup"><span data-stu-id="10aea-130">The number and positions of the attributes in the  _lppPropAttrArray_ parameter correspond to the number and positions of the property tags in the  _lpPropTagArray_ parameter.</span></span> 
+<span data-ttu-id="dc542-130">Число и позиции атрибутов в параметре _lppPropAttrArray_ соответствуют числу и положениям тегов свойств в параметре _lpPropTagArray._</span><span class="sxs-lookup"><span data-stu-id="dc542-130">The number and positions of the attributes in the  _lppPropAttrArray_ parameter correspond to the number and positions of the property tags in the  _lpPropTagArray_ parameter.</span></span> 
   
 
