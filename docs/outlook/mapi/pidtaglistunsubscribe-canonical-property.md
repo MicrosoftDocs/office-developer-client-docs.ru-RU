@@ -25,46 +25,46 @@ ms.locfileid: "32278881"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение поля списка отказа в заголовке для многоцелевого почтового расширения Интернета (MIME).
+Содержит значение поля List-Unsubscribe MIME.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_LIST_UNSUBSCRIBE, PR_LIST_UNSUBSCRIBE_A PR_LIST_UNSUBSCRIBE_W  <br/> |
+|Связанные свойства:  <br/> |PR_LIST_UNSUBSCRIBE, PR_LIST_UNSUBSCRIBE_A, PR_LIST_UNSUBSCRIBE_W  <br/> |
 |Идентификатор:  <br/> |0x1045  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Разное  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы создать поле заголовка List – unsubscribe, клиенты должны задать для этих свойств нужное значение. Записи MIME должны копировать значения этих свойств в поле заголовка List – unsubscribe.
+Чтобы создать List-Unsubscribe поля, клиенты должны установить для этих свойств нужное значение. Авторы MIME должны скопировать значение этих свойств в List-Unsubscribe загона.
   
-Чтобы задать значение этих свойств, связанных с сервером, клиенты MIME должны записать поля заголовков, как указано в следующей таблице.
+Чтобы установить значение этих свойств, связанных с сервером списков, клиенты MIME должны записать поля загона, как указано в следующей таблице.
   
-|**Свойство**|**Имя основного поля заголовка**|**Имя поля альтернативного заголовка**|
+|**Property**|**Предпочтительное имя поля для загона**|**Альтернативное имя поля загона**|
 |:-----|:-----|:-----|
-|**PR_LIST_UNSUBSCRIBE** <br/> |List — отказ от подписки  <br/> |X – List — отказ от подписки  <br/> |
+|**PR_LIST_UNSUBSCRIBE** <br/> |List-Unsubscribe  <br/> |X-List-Unsubscribe  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
+> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -72,7 +72,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

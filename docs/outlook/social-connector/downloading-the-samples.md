@@ -19,22 +19,22 @@ ms.locfileid: "32281006"
 
 В этом разделе описывается, как скачать примеры кода, сопровождающие эту документацию.
   
-### <a name="to-download-the-sample-code-installation-package"></a>Загрузка примера установочного пакета кода
+### <a name="to-download-the-sample-code-installation-package"></a>Загрузка примера пакета установки кода
 
-1. Скачайте файл Оскпровидерсамплес. zip из [Outlook Social Connector 2013: шаблоны поставщика](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+1. Скачайте OSCProviderSamples.zip outlook [Social Connector 2013: шаблоны поставщиков.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
     
-2. Извлеките ZIP-файл в выбранную папку. В Windows 7 путь по умолчанию для Visual Studio 2010 — C:\Users\ _User_\документс\висуал Studio 2010 \ Projects.
+2. Извлеките ZIP-файл в папку по вашему выбору. В Windows 7 путь по умолчанию для Visual Studio 2010: C:\Users\ _user_\Documents\Visual Studio 2010\Projects.
     
-3. После извлечения ZIP-файла в папке Projects (проекты) будут найдены следующие проекты:
+3. После извлечения ZIP-файла в папке проектов находятся следующие проекты:
     
-   - OSCProvider_CPP — содержит шаблон поставщика C++.
+   - OSCProvider_CPP содержит шаблон поставщика C++.
     
-   - OSCProvider_CS — содержит шаблон поставщика C#.
+   - OSCProvider_CS содержит шаблон поставщика C#.
     
-   - OSCProvider_VB — содержит шаблон поставщика Visual Basic.
+   - OSCProvider_VB содержит шаблон Visual Basic поставщика.
     
 ## <a name="see-also"></a>См. также
 
-- [Применение образца шаблона поставщика](applying-a-sample-provider-template.md)
+- [Применение шаблона образца поставщика](applying-a-sample-provider-template.md)
 - [Примеры шаблонов OSC](osc-sample-templates.md)
 

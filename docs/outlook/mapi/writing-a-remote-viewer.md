@@ -19,51 +19,51 @@ ms.locfileid: "32325664"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Удаленное средство просмотра это окно в клиентском приложении, которое предоставляет контролируемый доступ к сообщениям, хранящимся на другом компьютере. Этот контролируемый доступ может работать на медленном канале связи. Вместо получения полного набора доступных сообщений каждый раз, когда пользователь открывает папку, удаленное средство просмотра сначала отображает только заголовки. Затем пользователь выбирает из заголовков, для которых сообщения отображаются в полном объеме. Клиенты удаленного средства просмотра могут разрешить пользователям удалять сообщения перед их загрузкой. 
+Удаленное просмотр — это окно в клиентских приложениях, которое обеспечивает управляемый доступ к сообщениям, хранимым на другом компьютере. Этот управляемый доступ может работать на медленном канале связи. Вместо того чтобы получать полный выбор доступных сообщений каждый раз, когда пользователь открывает папку, удаленное окно просмотра сначала отображает только заглавные папки. Затем пользователь выбирает в загонах, какое из сообщений будет отображаться в полном объеме. Клиенты удаленного просмотра могут разрешить своим пользователям удалять сообщения перед их загрузкой. 
   
-## <a name="to-retrieve-the-headers-of-messages-stored-remotely"></a>Извлечение заголовков сообщений, сохраненных удаленно
+## <a name="to-retrieve-the-headers-of-messages-stored-remotely"></a>Извлечение загонов сообщений, хранимых удаленно
   
-1. Call [IMAPISession:: жетстатустабле](imapisession-getstatustable.md) для доступа к таблице состояния. 
+1. Вызов [IMAPISession::GetStatusTable для](imapisession-getstatustable.md) доступа к таблице состояния. 
     
-2. Call [IMAPITable:: Ограничьте](imapitable-restrict.md) для ограничения таблицы состояния только теми строками, для которых в **столбце\_тип\_ресурса PR** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) задано значение\_"\_поставщик транспорта MAPI". 
+2. Call [IMAPITable::Restrict](imapitable-restrict.md) to limit the status table to only those rows that have their **PR RESOURCE \_ \_ TYPE** ([PidTagResourceType)](pidtagresourcetype-canonical-property.md)column set to MAPI \_ TRANSPORT \_ PROVIDER. 
     
-3. Call [IMAPITable:: метода SetColumns](imapitable-setcolumns.md) , чтобы включить следующие столбцы в таблицу состояния: 
-   - **Идентификатор\_EntryID** ([PidTagEntryId](pidtagentryid-canonical-property.md))
-   - **Методы\_ресурсов\_PR** ([PidTagResourceMethods](pidtagresourcemethods-canonical-property.md))
-   - **Тип\_ресурса\_PR**, **дисплей\_поставщика\_PR** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))
-   - **Код\_состояния\_** ([PidTagStatusCode](pidtagstatuscode-canonical-property.md)).
+3. Вызовите [IMAPITable::SetColumns,](imapitable-setcolumns.md) чтобы включить следующие столбцы в таблицу состояния: 
+   - **PR \_ ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)
+   - **PR \_ RESOURCE \_ METHODS** ([PidTagResourceMethods)](pidtagresourcemethods-canonical-property.md)
+   - **PR \_ ТИП \_ РЕСУРСА,** **ОТОБРАЖЕНИЕ ПОСТАВЩИКА \_ \_ PR** ([PidTagProviderDisplay)](pidtagproviderdisplay-canonical-property.md)
+   - **PR \_ КОД \_ СОСТОЯНИЯ** ([PidTagStatusCode).](pidtagstatuscode-canonical-property.md)
     
-4. Вызовите [хркуеряллровс](hrqueryallrows.md) для получения всех строк в таблице Status. 
+4. Вызовите [HrQueryAllRows,](hrqueryallrows.md) чтобы получить все строки в таблице состояния. 
     
-5. Передайте идентификатор записи для каждой строки в таблице при вызове [IMAPISession:: OpenEntry](imapisession-openentry.md). Так как этот интерфейс маршалируется из контекста процесса диспетчера очереди MAPI в контекст процесса клиента, в отличие от интерфейсов, обычно получаемых из адресной книги или поставщиков хранилищ сообщений, проблемы с многопоточностью имеют более высокую важность. 
+5. Передав идентификатор записи для каждой строки в таблице в вызове [IMAPISession::OpenEntry.](imapisession-openentry.md) Так как этот интерфейс маршалуется из контекста процесса пула MAPI в контекст процесса клиента (в отличие от интерфейсов, обычно полученных из адресной книги или поставщиков хранилище сообщений), проблемы, связанные с многоэтапной обработкой, имеют более важное значение. 
     
-6. Вызовите метод [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) объекта status, передав IID_IMAPIFolder в качестве идентификатора интерфейса, чтобы получить удаленную папку. Удаленная папка не является полной реализацией папки; Он поддерживает только подмножество методов и свойств папки. Один из обязательных методов, [IMAPIProp:: PROPS](imapiprop-getprops.md), поддерживает извлечение следующих свойств:
+6. Вызовите метод [IUnknown::QueryInterface](https://msdn.microsoft.com/library/54d5ff80-18db-43f2-b636-f93ac053146d.aspx) объекта состояния, передав IID_IMAPIFolder в качестве идентификатора интерфейса, чтобы получить удаленную папку. Удаленная папка не является полной реализацией папки; Он поддерживает только подмножество методов и свойств папок. Один из необходимых [методов, IMAPIProp::GetProps,](imapiprop-getprops.md)поддерживает искомые следующие свойства:
     
     |||
     |:-----|:-----|
-    |**Доступ\_по пр** ([PidTagAccess](pidtagaccess-canonical-property.md))  <br/> |**PR_ACCESS_LEVEL** ([PidTagAccessLevel](pidtagaccesslevel-canonical-property.md))  <br/> |
-    |**PR_CONTENT_COUNT** ([PidTagContentCount](pidtagcontentcount-canonical-property.md))  <br/> |**PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount](pidtagassociatedcontentcount-canonical-property.md))  <br/> |
-    |**PR_FOLDER_TYPE** ([PidTagFolderType](pidtagfoldertype-canonical-property.md))  <br/> |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |
-    |**ВЛОЖЕНные папки PR\_** ([PidTagSubfolders](pidtagsubfolders-canonical-property.md))  <br/> |**PR_CREATION_TIME** ([PidTagCreationTime](pidtagcreationtime-canonical-property.md))  <br/> |
-    |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |
+    |**PR \_ ACCESS** ([PidTagAccess)](pidtagaccess-canonical-property.md)  <br/> |**PR_ACCESS_LEVEL** ([PidTagAccessLevel)](pidtagaccesslevel-canonical-property.md)  <br/> |
+    |**PR_CONTENT_COUNT** ([PidTagContentCount)](pidtagcontentcount-canonical-property.md)  <br/> |**PR_ASSOC_CONTENT_COUNT** ([PidTagAssociatedContentCount)](pidtagassociatedcontentcount-canonical-property.md)  <br/> |
+    |**PR_FOLDER_TYPE** ([PidTagFolderType)](pidtagfoldertype-canonical-property.md)  <br/> |**PR_OBJECT_TYPE** ([PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |
+    |**PR \_ SUBFOLDERS** ([PidTagSubfolders)](pidtagsubfolders-canonical-property.md)  <br/> |**PR_CREATION_TIME** ([PidTagCreationTime)](pidtagcreationtime-canonical-property.md)  <br/> |
+    |**PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)  <br/> |**PR_DISPLAY_TYPE** ([PidTagDisplayType)](pidtagdisplaytype-canonical-property.md)  <br/> |
     
-    Удаленные папки также должны поддерживать методы [IMAPIProp:: жетпроплист](imapiprop-getproplist.md), [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md)и [IMAPIFolder:: сетмессажестатус](imapifolder-setmessagestatus.md) . Таблицы содержимого удаленной папки обычно поддерживают следующие столбцы: 
+    Удаленные папки также должны поддерживать методы [IMAPIProp::GetPropList,](imapiprop-getproplist.md) [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md)и [IMAPIFolder::SetMessageStatus.](imapifolder-setmessagestatus.md) Таблицы содержимого удаленных папок обычно поддерживают следующие столбцы: 
         
     |||
     |:-----|:-----|
-    |**\_Дисплей\_(пр** ) ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |**Идентификатор\_EntryID (пр)** <br/> |
-    |**PR\_хасаттач** ([PidTagHasAttachments](pidtaghasattachments-canonical-property.md))  <br/> |**PR_IMPORTANCE** ([PidTagImportance](pidtagimportance-canonical-property.md))  <br/> |
-    |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |**PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md))  <br/> |
-    |**MESSAGE_DELIVERY_TIME\_PR** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md))  <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
-    |**MESSAGE_DOWNLOAD_TIME\_PR** ([PidTagMessageDownloadTime](pidtagmessagedownloadtime-canonical-property.md))  <br/> |**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |
-    |**PR_MSG_STATUS** ([PidTagMessageStatus](pidtagmessagestatus-canonical-property.md))  <br/> |**PR_OBJECT_TYPE** <br/> |
-    |**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md))  <br/> |**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |
-    |**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SENSITIVITY** ([PidTagSensitivity](pidtagsensitivity-canonical-property.md))  <br/> |
-    |**SENT_REPRESENTING_NAME\_PR** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
+    |**PR \_ DISPLAY \_ TO** ([PidTagDisplayTo)](pidtagdisplayto-canonical-property.md)  <br/> |**PR \_ ENTRYID** <br/> |
+    |**PR \_ HASATTACH** ([PidTagHasAttachments)](pidtaghasattachments-canonical-property.md)  <br/> |**PR_IMPORTANCE** ([PidTagImportance)](pidtagimportance-canonical-property.md)  <br/> |
+    |**PR_INSTANCE_KEY** ([PidTagInstanceKey)](pidtaginstancekey-canonical-property.md)  <br/> |**PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md)  <br/> |
+    |**PR \_ MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime)](pidtagmessagedeliverytime-canonical-property.md)  <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)  <br/> |
+    |**PR \_ MESSAGE_DOWNLOAD_TIME** ([PidTagMessageDownloadTime)](pidtagmessagedownloadtime-canonical-property.md)  <br/> |**PR_MESSAGE_SIZE** ([PidTagMessageSize)](pidtagmessagesize-canonical-property.md)  <br/> |
+    |**PR_MSG_STATUS** ([PidTagMessageStatus)](pidtagmessagestatus-canonical-property.md)  <br/> |**PR_OBJECT_TYPE** <br/> |
+    |**PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject)](pidtagnormalizedsubject-canonical-property.md)  <br/> |**PR_PRIORITY** ([PidTagPriority)](pidtagpriority-canonical-property.md)  <br/> |
+    |**PR_SENDER_NAME** ([PidTagSenderName)](pidtagsendername-canonical-property.md)  <br/> |**PR_SENSITIVITY** ([PidTagSensitivity)](pidtagsensitivity-canonical-property.md)  <br/> |
+    |**PR \_ SENT_REPRESENTING_NAME** ([PidTagSentRepresentingName](pidtagsentrepresentingname-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject)](pidtagsubject-canonical-property.md)  <br/> |
    
-7. Вызовите метод [имапистатус:: валидатестате](imapistatus-validatestate.md) поставщика транспорта в первый раз, когда один из вариантов передачи выбран. Установите флаг REFRESH_XP_HEADER_CACHE или PROCESS_XP_HEADER_CACHE, а также флаг SHOW_XP_SSESSION_UI, чтобы разрешить отображение пользовательского интерфейса. 
+7. Вызовите метод [IMAPIStatus::ValidateState](imapistatus-validatestate.md) поставщика транспорта при первом выборе одного из вариантов передачи. Следует установить REFRESH_XP_HEADER_CACHE или PROCESS_XP_HEADER_CACHE процесса, а также флаг SHOW_XP_SSESSION_UI, чтобы можно было отметить пользовательский интерфейс. 
     
    > [!NOTE]
-   > Чтобы пометить определенный заголовок сообщения для загрузки или удаления, клиент вызывает [IMAPIFolder:: сетмессажестатус](imapifolder-setmessagestatus.md) и задает флаг MSGSTATUS_REMOTE_DOWNLOAD или MSGSTATUS_REMOTE_DELETE. 
+   > Чтобы пометить определенный заголовок сообщения для скачивания или удаления, клиент вызывает [IMAPIFolder::SetMessageStatus](imapifolder-setmessagestatus.md) и устанавливает флаг MSGSTATUS_REMOTE_DOWNLOAD или MSGSTATUS_REMOTE_DELETE. 
   
 

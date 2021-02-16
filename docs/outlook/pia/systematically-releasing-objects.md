@@ -1,5 +1,5 @@
 ---
-title: Систематическое высвобождение объектов
+title: Систематическое освобождение объектов
 TOCTitle: Systematically releasing objects
 ms:assetid: d4cd1d8e-aae6-483b-a4d8-1656171e838d
 ms:mtpsurl: https://msdn.microsoft.com/library/Bb623945(v=office.15)

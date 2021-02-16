@@ -31,31 +31,31 @@ ms.locfileid: "32319273"
 |:-----|:-----|
 |Связанные свойства:  <br/> |LID_TIME_ZONE  <br/> |
 |Набор свойств:  <br/> |PSETID_Meeting  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x0000000C  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x0000000C  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Собрания  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство доступно только в том случае, если свойство **диспидапптрекур** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)) не задано, но если свойство **LID_IS_RECURRING** ([PidLidIsRecurring](pidlidisrecurring-canonical-property.md)) имеет значение true, а свойство **LID_IS_EXCEPTION** ([PidLidIsException](pidlidisexception-canonical-property.md)) имеет значение false. В нижнем СЛОВе указывается индекс в таблице, содержащей сведения о часовом поясе. В верхнем СЛОВе считывается только самый большой бит. Если этот бит задан, то на указанный часовой пояс не будет отображаться летнее время (DST), в противном случае будут выполнены даты летнего времени, описанные в [[MS-оксокал]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) . 
+Это свойство считывается только в том случае, если свойство **dispidApptRecur** ([PidLidAppointmentRecur)](pidlidappointmentrecur-canonical-property.md)не за установлено, но если свойство **LID_IS_RECURRING** ([PidLidIsRecurring)](pidlidisrecurring-canonical-property.md)имеет true, а свойство **LID_IS_EXCEPTION** ([PidLidIsException](pidlidisexception-canonical-property.md)) — FALSE. В нижней части WORD индекс указывается в таблице, которая содержит сведения о часовом поясе. Из верхней части WORD считыется только самый высокий бит. Если этот бит установлен, то часовой пояс, на который ссылается ссылка, не будет соблюдать летнее время (DST), в противном случае будут следовать даты DST, подробные [в [MS-OXOCAL].](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

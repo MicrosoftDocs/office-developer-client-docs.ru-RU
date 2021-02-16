@@ -25,13 +25,13 @@ ms.locfileid: "32319476"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит список адресных книг **идентификаторами EntryID** , связанных с этим объектом Message. 
+Содержит список записей в **адресной** книге, связанных с этим объектом сообщения. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидконтактлинкентри  <br/> |
+|Связанные свойства:  <br/> |dispidContactLinkEntry  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00008585  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00008585  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
@@ -39,19 +39,19 @@ ms.locfileid: "32319476"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -59,7 +59,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

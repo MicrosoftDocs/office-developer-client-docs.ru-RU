@@ -1,5 +1,5 @@
 ---
-title: Состояние "каракули"
+title: Состояние NoScribble
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,22 +15,22 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32326203"
 ---
-# <a name="noscribble-state"></a>Состояние "каракули"
+# <a name="noscribble-state"></a>Состояние NoScribble
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Состояние "каракули" указывает на то, что сохраняются изменения сообщения. Фактическое сохранение значений, хранящихся в пользовательском интерфейсе объекта формы, происходит, когда клиентское приложение вызывает метод объекта формы [иперсистмессаже:: Save](ipersistmessage-save.md) . В следующей таблице описаны допустимые переходы из состояния "Scribble". 
+Состояние NoScribble указывает, что изменения в сообщении сохраняются. Фактическое сохранение значений, сохраненных в пользовательском интерфейсе объекта формы, происходит, когда клиентский приложением вызван метод [IPersistMessage::Save](ipersistmessage-save.md) объекта формы. В следующей таблице описаны разрешенные переходы из состояния NoScribble. 
   
-|Иперсистмессаже * * метод * *|**Действие**|**Новое состояние**|
+|Метод IPersistMessage***|**Действие**|**Новое состояние**|
 |:-----|:-----|:-----|
-|[Иперсистмессаже:: савекомплетед](ipersistmessage-savecompleted.md)(_пмессаже = =_ null)  <br/> |Если _фсамеаслоад_ имеет значение true, в вызове [Иперсистмессаже:: Save](ipersistmessage-save.md) , которая привела к тому, что форма была введена в состояние "каракули", а сообщение было изменено, внутреннее помечайте изменения как сохраненные и вызовите метод [имапивиевадвисесинк:: onsaved](imapiviewadvisesink-onsaved.md) .  <br/> |[Normal](normal-state.md) <br/> |
-|**Иперсистмессаже:: савекомплетед**(_пмессаже! =_ null)  <br/> |Вызовите метод [иперсистмессаже:: хандсоффмессаже](ipersistmessage-handsoffmessage.md) (аналогичный методу OLE [Иперсистстораже:: хандсоффстораже](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) ), за которым следуют обычные действия **савекомплетед** . Если **савекомплетед** успешно, введите нормальное состояние. В противном случае введите состояние [HandsOffAfterSave](handsoffaftersave-state.md) .  <br/> |Обычный или HandsOffAfterSave  <br/> |
-|**хандсоффмессаже** <br/> |Рекурсивно вызвать метод **хандсоффмессаже** для внедренных сообщений или метод OLE **Иперсистстораже:: хандсоффстораже** для внедренных объектов OLE. Освободите объект Message и все внедренные сообщения или объекты.  <br/> |HandsOffAfterSave  <br/> |
-|**Save**, [Иперсистмессаже:: инитнев](ipersistmessage-initnew.md)или [иперсистмессаже:: Load](ipersistmessage-load.md) <br/> |Установка последней ошибки и возврат E_UNEXPECTED.  <br/> |NoScribble  <br/> |
-|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возврат последней ошибки.  <br/> |NoScribble  <br/> |
-|Другие [иперсистмессаже:](ipersistmessageiunknown.md) методы или методы IUnknown из других интерфейсов  <br/> |Установка последней ошибки и возврат E_UNEXPECTED.  <br/> |NoScribble  <br/> |
+|[IPersistMessage::SaveCompleted](ipersistmessage-savecompleted.md)(_pMessage ==_ NULL)  <br/> |Если для вызова [IPersistMessage::Save](ipersistmessage-save.md) флаг _fSameAsLoad_ был true, из-за чего форма вступает в состояние NoScribble и сообщение было изменено, пометите изменения как сохраненные и вызовите метод [IMAPIViewAdviseSink::OnSaved.](imapiviewadvisesink-onsaved.md)  <br/> |[Normal](normal-state.md) <br/> |
+|**IPersistMessage::SaveCompleted**(_pMessage !=_ NULL)  <br/> |Вызовите метод [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) (аналогичный методу OLE [IPersistStorage::HandsOffStorage),](https://msdn.microsoft.com/library/1e5ef26f-d8e7-4fa6-bfc4-19dace35314d%28Office.15%29.aspx) за которым следуют обычные действия **SaveCompleted.** Если **saveCompleted** был успешно, введите обычное состояние. В противном случае введите [состояние HandsOffAfterSave.](handsoffaftersave-state.md)  <br/> |Normal или HandsOffAfterSave  <br/> |
+|**HandsOffMessage** <br/> |Рекурсивно вызывает метод **HandsOffMessage** для внедренных сообщений или метод OLE **IPersistStorage::HandsOffStorage** для внедренных объектов OLE. Освобождение объекта сообщения и всех внедренных сообщений или объектов.  <br/> |HandsOffAfterSave  <br/> |
+|**Save**, [IPersistMessage::InitNew](ipersistmessage-initnew.md), or [IPersistMessage::Load](ipersistmessage-load.md) <br/> |Установите для последней ошибки E_UNEXPECTED.  <br/> |NoScribble  <br/> |
+|[IPersistMessage::GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращает последнюю ошибку.  <br/> |NoScribble  <br/> |
+|Другие [методы IPersistMessage : методы или методы IUnknown](ipersistmessageiunknown.md) из других интерфейсов  <br/> |Установите для последней ошибки E_UNEXPECTED.  <br/> |NoScribble  <br/> |
    
 ## <a name="see-also"></a>См. также
 

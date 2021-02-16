@@ -25,13 +25,13 @@ ms.locfileid: "32315885"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Представляет отображаемое пользователем имя поставщика общего доступа, определенного свойством **диспидшарингпровидергуид** ([PidLidSharingProviderGuid](pidlidsharingproviderguid-canonical-property.md)).
+Представляет отображаемое пользователем имя поставщика общего доступа, которое определено свойством **dispidSharingProviderGuid** ([PidLidSharingProviderGuid).](pidlidsharingproviderguid-canonical-property.md)
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Дружелюбные имена:  <br/> |Нет  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Имя свойства:  <br/> |X – Sharing — имя поставщика  <br/> |
+|Имя свойства:  <br/> |X-Sharing-Provider-Name  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Общий доступ  <br/> |
    
@@ -39,19 +39,19 @@ ms.locfileid: "32315885"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСШАРЕ]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Предоставляет общий доступ к папкам почтового ящика между клиентами.
+> Папки почтовых ящиков разделяются между клиентами.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -59,7 +59,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

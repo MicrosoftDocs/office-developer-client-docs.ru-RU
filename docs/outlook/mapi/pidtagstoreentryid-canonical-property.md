@@ -25,54 +25,54 @@ ms.locfileid: "32278752"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит уникальный идентификатор хранилища сообщений, в котором находится объект.
+Содержит уникальный идентификатор записи в хранилище сообщений, в котором находится объект.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_STORE_ENTRYID  <br/> |
 |Идентификатор:  <br/> |0x0FFB  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Свойства идентификатора  <br/> |
+|Область:  <br/> |Свойства ID  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство используется для открытия хранилища сообщений с помощью метода [IMAPISession:: опенмсгсторе](imapisession-openmsgstore.md) . Он также используется, чтобы открыть любой объект, принадлежащий хранилищу сообщений. 
+Это свойство используется для открытия хранилищ сообщений с помощью метода [IMAPISession::OpenMsgStore.](imapisession-openmsgstore.md) Он также используется для открытия любого объекта, который принадлежит хранилищем сообщений. 
   
-Для хранилища сообщений это свойство идентично свойству **PR_ENTRYID** собственного хранилища ([PidTagEntryId](pidtagentryid-canonical-property.md)). Клиентское приложение может сравнить два свойства с помощью метода [IMAPISession:: метод compareentryids](imapisession-compareentryids.md) . 
+Для хранения сообщений это свойство идентично свойству PR_ENTRYID **(** [PidTagEntryId).](pidtagentryid-canonical-property.md) Клиентские приложения могут сравнить два свойства с помощью метода [IMAPISession::CompareEntryIDs.](imapisession-compareentryids.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
+> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
     
-[[MS — ОКСОФЛАГ]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Задает свойства и операции, связанные с пометкой.
+> Указывает свойства и операции, связанные с помезданием.
     
-[[MS — ОКСШАРЕ]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Предоставляет общий доступ к папкам почтового ящика между клиентами.
+> Папки почтовых ящиков разделяются между клиентами.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -80,7 +80,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

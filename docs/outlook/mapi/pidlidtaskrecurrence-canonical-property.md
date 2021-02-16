@@ -29,41 +29,41 @@ ms.locfileid: "32316627"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидтаскрекур  <br/> |
+|Связанные свойства:  <br/> |dispidTaskRecur  <br/> |
 |Набор свойств:  <br/> |PSETID_Task  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00008116  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00008116  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Задача  <br/> |
+|Область:  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Сведения о том, как создать и указать структуру RecurrencePattern, приведены в разделе [Создание простой](how-to-create-a-simple-recurrent-task-item.md)повторяющейся задачи.
+Сведения о создании и указании структуры RecurrencePattern см. в статье ["Создание простого элемента повторяющейся задачи".](how-to-create-a-simple-recurrent-task-item.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определение набора свойств и ссылки на соответствующие спецификации протокола Exchange Server.
+> Предоставляет определение набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
     
-[[MS — ОКСОТАСК]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Определяет несколько объектов, которые моделируют электронные эквиваленты задач, назначений задач и обновлений задач.
+> Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач.
     
-[[MS — ОКСОРМДР]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Задает свойства и модель взаимодействия для сообщений электронной почты и других объектов.
+> Указывает свойства и модель взаимодействия для электронной почты и других напоминаний об объектах.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -71,7 +71,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

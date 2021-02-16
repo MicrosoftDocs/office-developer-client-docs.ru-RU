@@ -25,7 +25,7 @@ ms.locfileid: "32316130"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если сообщение содержит по крайней мере одно вложение. 
+Содержит true, если сообщение содержит хотя бы одно вложение. 
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ ms.locfileid: "32316130"
    
 ## <a name="remarks"></a>Примечания
 
-Хранилище сообщений копирует это свойство из флага **MSGFLAG_HASATTACH** свойства **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)). После этого клиентское приложение может использовать **PR_HASATTACH** для сортировки вложений сообщений в средстве просмотра сообщений. 
+Хранилище сообщений копирует это  свойство из флага MSGFLAG_HASATTACH свойства **PR_MESSAGE_FLAGS** ([PidTagMessageFlags).](pidtagmessageflags-canonical-property.md) Затем клиентские приложения могут **использовать** PR_HASATTACH для сортировки вложений сообщений в просматриваемом сообщении. 
   
-Значение, которое обновляет это свойство, с помощью метода [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
+Значение этого свойства обновляется с помощью метода [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
+> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -64,7 +64,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

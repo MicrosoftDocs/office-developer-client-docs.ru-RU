@@ -25,42 +25,42 @@ ms.locfileid: "32278732"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит уникальный двоичный код (ключ записи) хранилища сообщений, в котором находится объект.
+Содержит уникальный двоичный сравнимый идентификатор (ключ записи) в хранилище сообщений, в котором находится объект.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_STORE_RECORD_KEY  <br/> |
 |Идентификатор:  <br/> |0x0FFA  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Свойства идентификатора  <br/> |
+|Область:  <br/> |Свойства ID  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Для хранилища сообщений это свойство идентично свойству **PR_RECORD_KEY** собственного хранилища ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)).
+Для хранения сообщений это свойство идентично свойству PR_RECORD_KEY[(PidTagRecordKey).](pidtagrecordkey-canonical-property.md) 
   
-Отношение между этим свойством и **PR_RECORD_KEY** это то же, что и отношение между **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) и **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+Отношения между этим свойством **и** PR_RECORD_KEY такие же, как и отношения между **PR_STORE_ENTRYID** ([PidTagStoreEntryId)](pidtagstoreentryid-canonical-property.md)и **PR_ENTRYID** ([PidTagEntryId).](pidtagentryid-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
+> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

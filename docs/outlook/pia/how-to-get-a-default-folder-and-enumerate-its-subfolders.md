@@ -1,5 +1,5 @@
 ---
-title: Получение папки, используемой по умолчанию, и перечисление вложенных в нее папок
+title: Получение папки, используемой по умолчанию, и выполнение перечисления вложенных в нее папок
 TOCTitle: Get a default folder and enumerate its subfolders
 ms:assetid: 587e8392-cb03-442c-9058-1282f36dabdb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184610(v=office.15)

@@ -25,7 +25,7 @@ ms.locfileid: "32320043"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит ключ поиска для пользователя обмена сообщениями, которому система обмена сообщениями должна направить отчет о прочтении сообщения.
+Содержит ключ поиска для пользователя обмена сообщениями, которому система обмена сообщениями должна направить отчет о прочтение сообщения.
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ ms.locfileid: "32320043"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство игнорируется, если для свойства **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) не задано значение true.
+Это свойство игнорируется, если для свойства **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested)](pidtagreadreceiptrequested-canonical-property.md)не установлено значение TRUE.
   
-Если клиентское приложение хочет получать отчеты о прочтении, оно может оставить это свойство незаданным или задать его в качестве ключа поиска, который хранится в **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey](pidtagsendersearchkey-canonical-property.md)) во время отправки сообщения.
+Если клиентские приложения хотят получить отчеты о прочтении, оно может оставить это свойство ненастроенным или установить для него ключ поиска, содержащийся в свойстве **PR_SENDER_SEARCH_KEY** ([PidTagSenderSearchKey)](pidtagsendersearchkey-canonical-property.md)во время отправки сообщения.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для сообщений электронной почты.
+> Указывает свойства и операции, которые разрешены для сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-Мапидеф. h
+Mapidef.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ ms.locfileid: "32320043"
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

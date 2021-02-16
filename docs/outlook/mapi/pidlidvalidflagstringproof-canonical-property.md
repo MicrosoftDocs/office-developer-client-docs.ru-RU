@@ -25,39 +25,39 @@ ms.locfileid: "32315388"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Проверяет, было ли значение свойства **диспидрекуест** ([PidLidFlagRequest](pidlidflagrequest-canonical-property.md)) задано агентом, который знал значение свойства **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime](pidtagmessagedeliverytime-canonical-property.md)).
+Проверяет, задавало ли значение свойства **dispidRequest** ([PidLidFlagRequest)](pidlidflagrequest-canonical-property.md)агентом, который знал значение свойства **PR_MESSAGE_DELIVERY_TIME** ([PidTagMessageDeliveryTime).](pidtagmessagedeliverytime-canonical-property.md)
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидвалидфлагстрингпруф  <br/> |
+|Связанные свойства:  <br/> |dispidValidFlagStringProof  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x000085BF  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x000085BF  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
-|Область:  <br/> |Задача  <br/> |
+|Область:  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Для объектов, не относящихся к отправке (получены почтовые сообщения и объекты, не являющиеся объектами), клиентам следует присвоить этому параметру значение **PR_MESSAGE_DELIVERY_TIME** при изменении **диспидрекуест**.
+Для объектов, не отправляемых (полученных и не отправляемых объектов), клиенты должны установить для этого значения значение **PR_MESSAGE_DELIVERY_TIME** при изменении **dispidRequest.**
   
-Так как значение **PR_MESSAGE_DELIVERY_TIME** не может быть предсказано отправителем, если значение этого свойства равно значению **PR_MESSAGE_DELIVERY_TIME**, оно должно быть уверенным, что значение **диспидрекуест** не получено от отправителя сообщения. Клиент может принять решение о том, как предоставить конечному пользователю значение **диспидрекуест** на основании результатов этого сравнения в соответствии с определенной политикой безопасности клиента. Если значение **диспидрекуест** игнорируется из-за наличия значения для **диспидфлагстринженум** ([PidLidFlagString](pidlidflagstring-canonical-property.md)), это свойство необходимо игнорировать.
+Так как  значение PR_MESSAGE_DELIVERY_TIME не может быть предугадать отправитель, если значение этого свойства равно значению **PR_MESSAGE_DELIVERY_TIME,** то вполне возможно, что значение **dispidRequest** не было исходят от отправитель сообщения. Клиент может решить, как представить значение **dispidRequest** конечному пользователю на основе результатов этого сравнения в соответствии с определенной политикой безопасности клиента. Если значение **dispidRequest** игнорируется из-за наличия значения **для dispidFlagStringEnum** ([PidLidFlagString),](pidlidflagstring-canonical-property.md)это свойство должно быть проигнорировано.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОФЛАГ]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Задает свойства и операции, связанные с пометкой.
+> Указывает свойства и операции, связанные с помезданием.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

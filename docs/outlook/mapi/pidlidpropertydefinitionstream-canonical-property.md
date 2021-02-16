@@ -25,35 +25,35 @@ ms.locfileid: "32315941"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Представляет определения определяемых пользователем полей и параметров привязки данных для встроенных полей сообщения.
+Представляет определения пользовательских полей и параметров привязки данных встроенных полей сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидпропдефстреам  <br/> |
+|Связанные свойства:  <br/> |dispidPropDefStream  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00008540  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00008540  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Настройка времени выполнения  <br/> |
+|Область:  <br/> |Настройка времени запуска  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значение свойства **PidLidPropertyDefinitionStream** сохраняется как часть настраиваемого определения формы для сообщения. 
+Значение свойства **PidLidPropertyDefinitionStream** сохранено как часть пользовательского определения формы для сообщения. 
   
-Значение этого свойства является двоичным потоком. Сведения о структуре этого потока можно найти в разделе [PropertyDefinition Streaming Structure](propertydefinition-stream-structure.md). 
+Значение этого свойства — двоичный поток. Сведения о структуре этого потока см. в структуре [потока PropertyDefinition.](propertydefinition-stream-structure.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -61,13 +61,13 @@ MAPIDEFS. h
 
 [Элементы и поля Outlook](outlook-items-and-fields.md)
   
-[Добавление определения для нового пользовательского поля](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Добавление определения для нового поля User-Defined](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Пример потока PropertyDefinition](propertydefinition-stream-sample.md)
   
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

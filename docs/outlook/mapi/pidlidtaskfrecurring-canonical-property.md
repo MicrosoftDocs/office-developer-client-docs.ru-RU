@@ -25,37 +25,37 @@ ms.locfileid: "32303054"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает, содержит ли задача шаблон повторения.
+Указывает, включает ли задача шаблон повторения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидтаскфрекур  <br/> |
+|Связанные свойства:  <br/> |dispidTaskFRecur  <br/> |
 |Набор свойств:  <br/> |PSETID_Task  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00008126  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00008126  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
-|Область:  <br/> |Задача  <br/> |
+|Область:  <br/> |Task  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство не задано, используется значение по умолчанию FALSE. Если задано значение TRUE, то свойства **диспидтаскрекур** ([PidLidTaskRecurrence](pidlidtaskrecurrence-canonical-property.md)) и **диспидтаскдеадоккур** ([PidLidTaskDeadOccurrence](pidlidtaskdeadoccurrence-canonical-property.md)) также должны быть заданы в [[MS-оксотаск]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
+Если это свойство не заданной, по умолчанию предполагается значение FALSE. Если задано true, свойства **dispidTaskRecur** ([PidLidTaskRecurrence)](pidlidtaskrecurrence-canonical-property.md)и **dispidTaskDeadOccur** ([PidLidTaskDeadOccurrence)](pidlidtaskdeadoccurrence-canonical-property.md)также должны быть заданы в [[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОТАСК]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
+[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)
   
-> Определяет несколько объектов, которые моделируют электронные эквиваленты задач, назначений задач и обновлений задач.
+> Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

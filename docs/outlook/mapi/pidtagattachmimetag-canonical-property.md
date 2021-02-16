@@ -25,42 +25,42 @@ ms.locfileid: "32327246"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит сведения о форматировании для вложения с многоцелевыми почтовыми расширениями в Интернете (MIME). 
+Содержит сведения о формате вложения MIME. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ATTACH_MIME_TAG, PR_ATTACH_MIME_TAG_A PR_ATTACH_MIME_TAG_W  <br/> |
+|Связанные свойства:  <br/> |PR_ATTACH_MIME_TAG, PR_ATTACH_MIME_TAG_A, PR_ATTACH_MIME_TAG_W  <br/> |
 |Идентификатор:  <br/> |0x370E  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если свойство **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)) содержит значение **OID_MIMETAG**, поставщик транспорта должен просмотреть эти свойства, чтобы определить способ форматирования вложения. 
+Если **свойство PR_ATTACH_TAG** ([PidTagAttachTag)](pidtagattachtag-canonical-property.md)содержит значение **OID_MIMETAG,** поставщик транспорта должен посмотреть на эти свойства, чтобы определить формат вложения. 
   
-Эти свойства копируются из параметра Content – Type входящего заголовка MIME. Композиция строки определена в документе RFC 1521. Формат — тип/подтип, например Application/Binary или text/plain. 
+Эти свойства копируется из параметра content-type в входящий загодер MIME. Композиция строки определяется в документе RFC 1521. Формат: тип/подтип, например application/binary или text/plain. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-[[MS — ОКСОРММС]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Задает свойства сообщений, закодированных с помощью управления правами.
+> Указывает свойства сообщений в кодированной кодировки с управлением правами.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: ba1b9425-6c16-cab2-da0a-a21734118098
-description: В этом разделе показана функция Реадтимезонес, которая вызывает две функции, Бинтотздефинитион и Бинтотзрег, для считывания свойств часового пояса PidLidAppointmentTimeZoneDefinitionStartDisplay и PidLidTimeZoneStruct из встречи.
+description: В этом разделе показана функция ReadTimeZones, которая вызывает две функции, BinToTZDEFINITION и BinToTZREG, для чтения свойств часового пояса, PidLidAppointmentTimeZoneDefinitionStartDisplay и PidLidTimeZoneStruct, из встречи.
 ms.openlocfilehash: 67755ba49c5572005c6138e34329491148a199a1
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -16,9 +16,9 @@ ms.locfileid: "32317621"
 ---
 # <a name="read-time-zone-properties-from-an-appointment"></a>Считывание свойств часового пояса встречи
 
-В этом разделе показана функция `ReadTimeZones`, которая вызывает две `BinToTZDEFINITION` функции и `BinToTZREG`для чтения свойств часового пояса [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) и [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx)из встречи.
+В этом разделе показана функция, которая вызывает две функции и , для чтения свойств часового  `ReadTimeZones`  `BinToTZDEFINITION` пояса,  `BinToTZREG` [PidLidAppointmentTimeZoneDefinitionStartDisplay](https://msdn.microsoft.com/library/08239670-3211-420c-99d7-0056ed967cb8%28Office.15%29.aspx) и [PidLidTimeZoneStruct](https://msdn.microsoft.com/library/2acf0036-2f3e-4f90-8614-7aa667860f74%28Office.15%29.aspx), из встречи.
   
-**PidLidAppointmentTimeZoneDefinitionStartDisplay** содержит поток, который сопоставляется с хранимым форматом структуры [TZDEFINITION](tzdefinition.md) , а **PidLidTimeZoneStruct** содержит поток, сопоставляемый с постоянным форматом структуры [TZREG](tzreg.md) . Для получения точных структур **TZDEFINITION** и **TZREG** , `BinToTZDEFINITION` `BinToTZREG` используемых для анализа значений потока этих свойств соответствующим образом. Эти две функции определяются в [синтаксическом анализе потока из двоичного свойства для считывания структуры TZDEFINITION](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) и [синтаксического анализа потока из двоичного свойства для считывания структуры TZREG](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)соответственно. 
+**PidLidAppointmentTimeZoneDefinitionStartDisplay** содержит поток, который соответствует сохраняемому формату структуры [TZDEFINITION,](tzdefinition.md) а **PidLidTimeZoneStruct** содержит поток, который соответствует сохраняемому формату структуры [TZREG.](tzreg.md) Чтобы получить точные структуры **TZDEFINITION** и **TZREG,** они используются для правильного разлиения значений потока этих  `BinToTZDEFINITION`  `BinToTZREG` свойств. Эти две функции определяются в методе [parse a stream from a binary property to read the TZDEFINITION structure](how-to-parse-stream-from-binary-property-to-read-tzdefinition-structure.md) and [Parse a stream from a binary property to read the TZREG structure,](how-to-parse-a-stream-from-a-binary-property-to-read-the-tzreg-structure.md)respectively. 
   
 ```cpp
 void ReadTimeZones(LPMAPIPROP lpAppointment) 

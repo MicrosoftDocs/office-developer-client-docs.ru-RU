@@ -25,7 +25,7 @@ ms.locfileid: "32316284"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Задает цвет флажка для объекта Message.
+Указывает цвет флага объекта сообщения.
   
 |||
 |:-----|:-----|
@@ -36,39 +36,39 @@ ms.locfileid: "32316284"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство не должно существовать, если для свойства **PR_FLAG_STATUS** ([PidTagFlagStatus](pidtagflagstatus-canonical-property.md)) не задано значение "фолловупфлагжед", или объект Message является объектом, связанным с собранием. Это свойство не должно существовать для объекта Task. Если задано для других объектов Message, этому свойству необходимо присвоить одно из следующих значений.
+Это свойство не должно существовать, если значение свойства **PR_FLAG_STATUS** ([PidTagFlagStatus)](pidtagflagstatus-canonical-property.md)не имеет значения "followupFlagged" или объект сообщения является объектом, связанным с собранием. Это свойство не должно существовать в объекте задачи. Если этот объект за установлен для других объектов сообщений, этому свойству необходимо установить одно из следующих значений.
   
-|**Числовое значение**|**Название**|**Описание**|
+|**Числовая величина**|**Название**|**Описание**|
 |:-----|:-----|:-----|
-|Отсутствует  <br/> |Н/Д  <br/> |Нет цвета  <br/> |
-|1,1  <br/> |followupIcon1  <br/> |Лиловый флаг  <br/> |
-|2  <br/> |followupIcon2  <br/> |Оранжевый флаг  <br/> |
-|4  <br/> |followupIcon3  <br/> |Зеленый флаг  <br/> |
+|Нет  <br/> |Недоступно  <br/> |Без цвета  <br/> |
+|1   <br/> |followupIcon1  <br/> |Сиреневый флаг  <br/> |
+|2   <br/> |followupIcon2  <br/> |Оранжевый флаг  <br/> |
+|3   <br/> |followupIcon3  <br/> |Зеленый флаг  <br/> |
 |4   <br/> |followupIcon4  <br/> |Желтый флаг  <br/> |
-|5   <br/> |followupIcon5  <br/> |Синий флажок  <br/> |
+|5   <br/> |followupIcon5  <br/> |Синий флаг  <br/> |
 |6   <br/> |followupIcon6  <br/> |Красный флаг  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОФЛАГ]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Задает свойства и операции, связанные с пометкой.
+> Указывает свойства и операции, связанные с помезданием.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -76,7 +76,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

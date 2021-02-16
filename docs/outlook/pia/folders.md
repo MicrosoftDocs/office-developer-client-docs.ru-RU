@@ -1,5 +1,5 @@
 ---
-title: Folders
+title: Папки
 TOCTitle: Folders
 ms:assetid: b72b5705-d77a-4cad-873d-457b9fb6553e
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184634(v=office.15)

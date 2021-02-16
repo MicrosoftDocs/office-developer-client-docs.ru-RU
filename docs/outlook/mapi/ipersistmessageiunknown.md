@@ -1,5 +1,5 @@
 ---
-title: Иперсистмессаже IUnknown
+title: IPersistMessage IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,35 +25,35 @@ ms.locfileid: "32309606"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Позволяет читателям форм обрабатывать хранение формы и переходить между различными состояниями.
+Позволяет просмотру форм обрабатывать хранение формы и перенаправываться между различными состояниями.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
-|Предоставлено:  <br/> |Объекты хранения сообщений  <br/> |
+|Файл заголовка:  <br/> |Mapiform.h  <br/> |
+|Выставим:  <br/> |Объекты сохраняемой почты  <br/> |
 |Реализовано в:  <br/> |Объекты форм  <br/> |
-|Вызывающая сторона:  <br/> |Средства просмотра форм  <br/> |
+|Вызывающая сторона:  <br/> |Просмотр форм  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IPersistMessage  <br/> |
-|Тип указателя:  <br/> |лпперсистмессаже  <br/> |
+|Тип указателя:  <br/> |LPPERSISTMESSAGE  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущем сообщении об ошибке в объекте Form.  <br/> |
-|[Идентификатор ClassID](ipersistmessage-getclassid.md) <br/> |Возвращает идентификатор, представляющий сервер форм, который может управлять формой.  <br/> |
-|[IsDirty](ipersistmessage-isdirty.md) <br/> |Проверяет форму на наличие изменений, выполненных с момента последнего сохранения.  <br/> |
-|[инитнев](ipersistmessage-initnew.md) <br/> |Инициализирует новое сообщение.  <br/> |
+|[GetLastError](ipersistmessage-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR,](mapierror.md) которая содержит сведения о предыдущей ошибке в объекте формы.  <br/> |
+|[GetClassID](ipersistmessage-getclassid.md) <br/> |Возвращает идентификатор, который представляет сервер форм, который может управлять формой.  <br/> |
+|[IsDirty](ipersistmessage-isdirty.md) <br/> |Проверяет форму на наличие изменений, внесенных с момента последнего сохранения.  <br/> |
+|[InitNew](ipersistmessage-initnew.md) <br/> |Инициализирует новое сообщение.  <br/> |
 |[Load](ipersistmessage-load.md) <br/> |Загружает форму для указанного сообщения.  <br/> |
 |[Save](ipersistmessage-save.md) <br/> |Сохраняет измененную форму обратно в сообщение, из которого она была загружена или создана.  <br/> |
-|[савекомплетед](ipersistmessage-savecompleted.md) <br/> |Уведомляет форму о завершении операции сохранения.  <br/> |
-|[хандсоффмессаже](ipersistmessage-handsoffmessage.md) <br/> |Заставляет форму выпустить текущее сообщение.  <br/> |
+|[SaveCompleted](ipersistmessage-savecompleted.md) <br/> |Сообщает форме, что операция сохранения завершена.  <br/> |
+|[HandsOffMessage](ipersistmessage-handsoffmessage.md) <br/> |Вызывает освобождение текущего сообщения в форме.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Для реализации интерфейса **иперсистмессаже** необходимы все формы. 
+Все формы необходимы для реализации **интерфейса IPersistMessage.** 
   
- **Иперсистмессаже** работает аналогично интерфейсу OLE [иперсистстораже](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) . Дополнительные сведения см. в разделе методы **иперсистстораже** . 
+ **IPersistMessage** работает аналогично интерфейсу OLE [IPersistStorage.](https://msdn.microsoft.com/library/1c1a20fc-c101-4cbc-a7a6-30613aa387d7%28Office.15%29.aspx) Дополнительные сведения см. в методах **IPersistStorage.** 
   
 ## <a name="see-also"></a>См. также
 

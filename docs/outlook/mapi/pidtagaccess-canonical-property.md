@@ -25,7 +25,7 @@ ms.locfileid: "32316515"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит битовую маску флагов, указывающих операции, доступные клиенту для объекта.
+Содержит битовуюmass флагов, указывающих операции, доступные клиенту для объекта.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "32316515"
    
 ## <a name="remarks"></a>Примечания
 
-Для клиента это свойство доступно только для чтения. Он должен быть побитовым **или** содержать от нуля или более значений из таблицы ниже. 
+Это свойство для клиента только для чтения. Это должно быть битовая **или** ноль или больше значений из следующей таблицы. 
   
 |**Name**|**Value**|**Описание**|
 |:-----|:-----|:-----|
@@ -44,30 +44,30 @@ ms.locfileid: "32316515"
 |MAPI_ACCESS_READ  <br/> |0x00000002  <br/> |Чтение  <br/> |
 |MAPI_ACCESS_DELETE  <br/> |0x00000004  <br/> |Удаление  <br/> |
 |MAPI_ACCESS_CREATE_HIERARCHY  <br/> |0x00000008  <br/> |Создание вложенных папок в иерархии папок  <br/> |
-|MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Создание сообщений с содержимым  <br/> |
-|MAPI_ACCESS_CREATE_ASSOCIATED  <br/> |0x00000020  <br/> |Создание связанных сообщений с содержимым  <br/> |
+|MAPI_ACCESS_CREATE_CONTENTS  <br/> |0x00000010  <br/> |Создание сообщений содержимого  <br/> |
+|MAPI_ACCESS_CREATE_ASSOCIATED  <br/> |0x00000020  <br/> |Создание связанных сообщений содержимого  <br/> |
    
-Флаги MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY и MAPI_ACCESS_READ находятся в папках и объектах сообщений, а также в столбцах **PR_ACCESS** в таблицах содержимого и связанных таблицах содержимого. Флаги MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS и MAPI_ACCESS_CREATE_HIERARCHY доступны только для объектов Folder. 
+Флаги MAPI_ACCESS_DELETE, MAPI_ACCESS_MODIFY и MAPI_ACCESS_READ находятся в объектах папок и сообщений, а также в столбце **PR_ACCESS** в таблицах содержимого и связанных таблицах содержимого. Флаги MAPI_ACCESS_CREATE_ASSOCIATED, MAPI_ACCESS_CREATE_CONTENTS и MAPI_ACCESS_CREATE_HIERARCHY находятся только в объектах папок. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -77,7 +77,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

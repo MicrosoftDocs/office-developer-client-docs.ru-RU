@@ -15,30 +15,30 @@ ms.locfileid: "32322101"
 ---
 # <a name="iolkenum"></a>IOlkEnum
 
-Поддерживает перечисление учетных записей как объектов [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) . 
+Поддерживается enumerating accounts as [IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) objects. 
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследование от:  <br/> |[Интерфейс](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
+|Наследуется от:  <br/> |[IUnknown](https://docs.microsoft.com/windows/desktop/api/unknwn/nn-unknwn-iunknown) <br/> |
 |Реализовано в:  <br/> |Outlook  <br/> |
 |Предоставлено:  <br/> |[IOlkAccountManager::EnumerateAccounts](iolkaccountmanager-enumerateaccounts.md) <br/> |
-|Вызывающая сторона:  <br/> |Client  <br/> |
+|Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IOlkEnum  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[GetCount](iolkenum-getcount.md) <br/> |Получает количество учетных записей в перечислителе.  <br/> |
-|[Reset](iolkenum-reset.md) <br/> |Сбрасывает перечислитель в начало.  <br/> |
-|[GetNext](iolkenum-getnext.md) <br/> |Получает следующую учетную запись в перечислителе.  <br/> |
-|[Skip](iolkenum-skip.md) <br/> |Пропускает указанное число учетных записей в перечислителе.  <br/> |
+|[GetCount](iolkenum-getcount.md) <br/> |Получает количество учетных записей в этом коде.  <br/> |
+|[Reset](iolkenum-reset.md) <br/> |Сбрасывает enumerator в начало.  <br/> |
+|[GetNext](iolkenum-getnext.md) <br/> |Получает следующую учетную запись в enumerator.  <br/> |
+|[Skip](iolkenum-skip.md) <br/> |Пропускает указанное количество учетных записей в enumerator.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Этот интерфейс возвращается методом **иолкаккаунтманажер:: EnumerateAccounts** при получении перечислителя учетных записей. 
+Этот интерфейс возвращается **IOlkAccountManager::EnumerateAccounts** при получении нумератора учетных записей. 
   
 ## <a name="see-also"></a>См. также
 

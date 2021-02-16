@@ -11,7 +11,7 @@ api_name:
 api_type:
 - HeaderDef
 ms.assetid: 32089213-ef7b-4152-84ab-b44e9911332b
-description: 'Дата последнего изменения: 07 сентября 2016 г.'
+description: 'Last modified: September 07, 2016'
 ms.openlocfilehash: b84549ab31c939b4e6115795916ebd3520a96dbd
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "32327260"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит константу, определенную MAPI, которая представляет способ доступа к содержимому вложения. 
+Содержит константы, определенные в MAPI, представляющие способ доступа к содержимому вложения. 
   
 |||
 |:-----|:-----|
@@ -36,77 +36,77 @@ ms.locfileid: "32327260"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство может иметь только одно из следующих значений:
+Это свойство может иметь одно из следующих значений:
   
 NO_ATTACHMENT 
   
-> Вложение только что было создано. 
+> Вложение только что создано. 
     
 ATTACH_BY_VALUE 
   
-> Свойство **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) содержит данные вложений. 
+> Свойство **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary)](pidtagattachdatabinary-canonical-property.md)содержит данные вложения. 
     
 ATTACH_BY_REFERENCE 
   
-> Свойство **PR_ATTACH_PATHNAME** ([PidTagAttachPathname](pidtagattachpathname-canonical-property.md)) или **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname](pidtagattachlongpathname-canonical-property.md)) содержит полный путь, указывающий вложение получателям, у которых есть доступ к общему файловому серверу. 
+> Свойство **PR_ATTACH_PATHNAME** ([PidTagAttachPathname)](pidtagattachpathname-canonical-property.md)или **PR_ATTACH_LONG_PATHNAME** ([PidTagAttachLongPathname)](pidtagattachlongpathname-canonical-property.md)содержит полный путь, идентифицирующий вложение для получателей с доступом к общему файловом серверу. 
     
 ATTACH_BY_REF_RESOLVE 
   
-> Свойство **PR_ATTACH_PATHNAME** или **PR_ATTACH_LONG_PATHNAME** содержит полный путь, указывающий вложение. 
+> Свойство **PR_ATTACH_PATHNAME** или **PR_ATTACH_LONG_PATHNAME** содержит полноценный путь, идентифицирующий вложение. 
     
 ATTACH_BY_REF_ONLY 
   
-> Свойство **PR_ATTACH_PATHNAME** или **PR_ATTACH_LONG_PATHNAME** содержит полный путь, указывающий вложение. 
+> Свойство **PR_ATTACH_PATHNAME** или **PR_ATTACH_LONG_PATHNAME** содержит полноценный путь, идентифицирующий вложение. 
     
 ATTACH_EMBEDDED_MSG 
   
-> Свойство **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)) содержит внедренный объект, поддерживающий интерфейс **iMessage** . 
+> Свойство **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject)](pidtagattachdataobject-canonical-property.md)содержит внедренный объект, который поддерживает **интерфейс IMessage.** 
     
 ATTACH_OLE 
   
-> Вложение является внедренным объектом OLE.
+> Вложение — это встроенный объект OLE.
     
 ATTACH_BY_WEBREFERENCE 
   
-> Содержимое вложения отсутствует в сообщении. 
+> Содержимое вложения не находится в сообщении. 
     
-При создании все объекты вложения имеют начальное значение **PR_ATTACH_METHOD** **NO_ATTACHMENT**. 
+После создания все объекты вложений имеют начальное PR_ATTACH_METHOD **значение** **NO_ATTACHMENT.** 
   
-Клиентские приложения и поставщики услуг необходимы только для поддержки метода вложения, представленного значением **ATTACH_BY_VALUE** . Другие методы вложения являются необязательными. Хранилище сообщений не обеспечивает согласованности между значением **PR_ATTACH_METHOD** и значениями других свойств вложения. 
+Клиентские приложения и поставщики услуг требуются только для поддержки  метода вложения, представленного ATTACH_BY_VALUE значением. Другие методы вложения необязательны. Хранилище сообщений не обеспечивает единообразие  между значением PR_ATTACH_METHOD и значениями других свойств вложения. 
   
-Имена в формате UNC рекомендуются для полных путей, которые следует использовать с **ATTACH_BY_REFERENCE** и **ATTACH_BY_REF_ONLY**. При **ATTACH_BY_REF_RESOLVE**абсолютный путь выполняется быстрее, так как диспетчер очереди MAPI преобразует вложение в **ATTACH_BY_VALUE**. 
+Имена UNC рекомендуется использовать для всех путей, которые следует использовать с ATTACH_BY_REFERENCE  и **ATTACH_BY_REF_ONLY.** При **ATTACH_BY_REF_RESOLVE** абсолютный путь быстрее, так как пульщик MAPI преобразует вложение **в ATTACH_BY_VALUE.** 
   
-Если параметр **ATTACH_BY_REFERENCE** задан, **PR_ATTACH_DATA_BIN** должен быть пустым. Исходящий шлюз может превратить **ATTACH_BY_REFERENCE** вложение в вложение **ATTACH_BY_VALUE** , скопировав данные вложений в свойство **PR_ATTACH_DATA_BIN** . 
+Если **ATTACH_BY_REFERENCE** установлено, **PR_ATTACH_DATA_BIN** должно быть пустым. Исходящие шлюзы могут превратить ATTACH_BY_REFERENCE **в**  ATTACH_BY_VALUE, скопируя данные вложения **в** PR_ATTACH_DATA_BIN. 
   
-Если параметр **ATTACH_BY_REF_RESOLVE** задан, **PR_ATTACH_DATA_BIN** должен быть пустым. При отправке сообщения, содержащего вложение **ATTACH_BY_REF_RESOLVE** , диспетчер очереди MAPI копирует данные вложений в **ATTACH_BY_VALUE** вложение. В этом процессе разрешения данные вложений размещаются в **PR_ATTACH_DATA_BIN**. 
+Если **ATTACH_BY_REF_RESOLVE** установлено, **PR_ATTACH_DATA_BIN** должно быть пустым. При отправлении сообщения **с** ATTACH_BY_REF_RESOLVE вложением, пулер MAPI копирует данные вложения **во** ATTACH_BY_VALUE вложение. Этот процесс разрешения помещает данные вложения **в PR_ATTACH_DATA_BIN.** 
   
-Если задано значение **ATTACH_BY_REF_ONLY** , **PR_ATTACH_DATA_BIN** должно быть пустым, а система обмена сообщениями никогда не разрешает ссылку вложения. Используйте это значение, если хотите отправить ссылку, но не данные. 
+Если **ATTACH_BY_REF_ONLY,** PR_ATTACH_DATA_BIN **должен** быть пустым, а система обмена сообщениями никогда не разрешит ссылку на вложение. Используйте это значение, если нужно отправить ссылку, но не данные. 
   
-Когда объект OLE находится в формате OLE 2,0 **IStorage** , доступ к данным осуществляется с помощью **PR_ATTACH_DATA_OBJ**. Когда объект OLE представлен в формате OLE 1,0 **олестреам** , доступ к данным предоставляется через **PR_ATTACH_DATA_BIN** в виде **IStream**. Тип OLE-кодировки можно определить с помощью значения **PR_ATTACH_TAG** ([PidTagAttachTag](pidtagattachtag-canonical-property.md)). 
+Если объект OLE имеет формат OLE 2.0 **IStorage,** данные доступны через **PR_ATTACH_DATA_OBJ.** Если объект OLE имеет формат OLE 1.0 **OLESTREAM,**  данные доступны через PR_ATTACH_DATA_BIN как **IStream.** Тип кодиры OLE можно определить по значению PR_ATTACH_TAG **(** [PidTagAttachTag).](pidtagattachtag-canonical-property.md) 
   
-Дополнительные сведения о интерфейсах и форматах OLE приведены в *справочнике по OLE для программистов* . 
+Дополнительные сведения об интерфейсах и форматах OLE см. в справочнике *по OLE Programmer.* 
   
 ## <a name="remarks"></a>Примечания
 
-Если **PR_ATTACH_METHOD** **ATTACH_BY_WEBREFERENCE**, содержимое вложения отсутствует в сообщении. Вместо этого свойство **PR_ATTACH_LONG_FILENAME** содержит абсолютный URL-адрес содержимого вложений, которое хранится в сети. 
+Если **PR_ATTACH_METHOD** **ATTACH_BY_WEBREFERENCE,** содержимое вложения не будет в сообщении. Вместо этого **PR_ATTACH_LONG_FILENAME** содержит абсолютный URL-адрес содержимого вложения, которое хранится в Интернете. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -117,7 +117,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

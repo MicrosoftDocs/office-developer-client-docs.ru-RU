@@ -23,37 +23,37 @@ ms.locfileid: "32300191"
   
 - **IDispatch**
     
-- **иперсистпропертибаг**
+- **IPersistPropertyBag**
     
-- **иперсистстреаминит**
+- **IPersistStreamInit**
     
-- **ипропертипаже**
+- **IPropertyPage**
     
-- **иобжектсафети**
+- **IObjectSafety**
     
-- **ипропертинотифисинк**
+- **IPropertyNotifySink**
     
-- **ивиевобжект**
+- **IViewObject**
     
-- **иолеобжект**
+- **IOleObject**
     
-- **иолеинплацеобжект**
+- **IOleInPlaceObject**
     
 Для обновления свойств модели DOM при изменении ими элемента управления в InfoPath этот элемент должен реализовывать следующие интерфейсы:
   
-- **иконнектионпоинтконтаинер**
+- **IConnectionPointContainer**
     
-- **иенумконнектионпоинтс**
+- **IEnumConnectionPoints**
     
 - **IConnectionPoint**
     
-- **иенумконнектионс**
+- **IEnumConnections**
     
 Кроме того, существует два интерфейса COM для InfoPath, обеспечивающие более тесную интеграцию элементов управления:
   
-- [иинфопасконтрол](https://msdn.microsoft.com/library/bb264625.aspx)
+- [IInfoPathControl](https://msdn.microsoft.com/library/bb264625.aspx)
     
-- [иинфопасконтролсите](https://msdn.microsoft.com/library/bb264627.aspx)
+- [IInfoPathControlSite](https://msdn.microsoft.com/library/bb264627.aspx)
     
 ## <a name="add-an-activex-control-to-the-infopath-design-environment"></a>Добавление элемента управления ActiveX в среду разработки InfoPath
 

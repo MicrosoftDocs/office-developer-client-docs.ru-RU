@@ -25,46 +25,46 @@ ms.locfileid: "32327960"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение поля заголовка Return-Path для многоцелевого почтового расширения Интернета (MIME). Адрес электронной почты отправителя сообщения.
+Содержит значение поля Return-Path MIME. Адрес электронной почты отправитель сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_INTERNET_RETURN_PATH, PR_INTERNET_RETURN_PATH_A PR_INTERNET_RETURN_PATH_W  <br/> |
+|Связанные свойства:  <br/> |PR_INTERNET_RETURN_PATH, PR_INTERNET_RETURN_PATH_A, PR_INTERNET_RETURN_PATH_W  <br/> |
 |Идентификатор:  <br/> |0x1046  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить значение этого свойства, сначала используйте [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) , чтобы получить тег свойства, а затем укажите этот тег свойства в [IMAPIProp:: Prop](imapiprop-getprops.md) , чтобы получить значение. При вызове [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md)укажите следующие значения для структуры [мапинамеид](mapinameid.md) , на которую указывает входный параметр _лпппропнамес_:
+Чтобы получить значение этого свойства, сначала используйте [IMAPIProp::GetIDsFromNames,](imapiprop-getidsfromnames.md) чтобы получить тег свойства, а затем укажите этот тег свойства в [IMAPIProp::GetProps,](imapiprop-getprops.md) чтобы получить значение. При вызове [IMAPIProp::GetIDsFromNames](imapiprop-getidsfromnames.md)укажите следующие значения для структуры [MAPINAMEID,](mapinameid.md) на которые указывает входной параметр _lppPropNames:_
   
 |||
 |:-----|:-----|
-|Лпгуид:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Улкинд:  <br/> |MNID_STRING  <br/> |
-|Тип. Лпвстрнаме:  <br/> |L "Return. path"  <br/> |
+|lpGuid:  <br/> |PS_INTERNET_HEADERS  <br/> |
+|ulKind:  <br/> |MNID_STRING  <br/> |
+|Kind.lpwstrName:  <br/> |L"return-path"  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
+> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -74,7 +74,7 @@ MAPIDEFS. h
   
 [��������� MAPI](mapi-constants.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

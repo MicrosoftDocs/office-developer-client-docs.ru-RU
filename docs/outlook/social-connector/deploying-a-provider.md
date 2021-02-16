@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c5e816b5-2ff2-4f59-ba54-c3ed291f8bba
-description: Рекомендуемый способ развертывания поставщика Outlook Social Connector (OSC) — использовать пакет установщика Windows (MSI).
+description: Для развертывания поставщика Outlook Social Connector (OSC) рекомендуется использовать пакет установщика Windows (MSI).
 ms.openlocfilehash: f606d39bd368609464cdd0ea5b9a56243ec4e27d
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,17 +17,17 @@ ms.locfileid: "32281064"
 ---
 # <a name="deploying-a-provider"></a>Развертывание поставщика
 
-Рекомендуемый способ развертывания поставщика Outlook Social Connector (OSC) — использовать пакет установщика Windows (MSI). После загрузки пакета установки на локальный жесткий диск пользователь Office устанавливает поставщика OSC. После завершения установки поставщика пользователь может подключаться к поставщику OSC и предоставлять учетные данные для входа в социальные сети. Если пользователь решит удалить поставщика OSC, он сможет удалить его с помощью компонента " **программы и компоненты** " на панели управления. 
+Для развертывания поставщика Outlook Social Connector (OSC) рекомендуется использовать пакет установщика Windows (MSI). После скачивания пакета установки на локальный жесткий диск конечный пользователь Office устанавливает поставщика OSC. После завершения установки поставщика пользователь может подключиться к поставщику OSC и предоставить учетные данные для входа в учетную запись социальной сети. Если пользователь решает удалить поставщика OSC, он может использовать  программы и функции на панели управления для этого. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Регистрация поставщика](registering-a-provider.md): описание требований к регистрации для поставщика OSC.
+- [Регистрация поставщика :](registering-a-provider.md)описывает требования регистрации для поставщика OSC.
     
-- [Контрольный список установки](installation-checklist.md): содержит контрольный список для проверки успешности установки поставщика OSC.
+- [Контрольный список установки:](installation-checklist.md)предоставляет контрольный список для успешной установки поставщика OSC.
     
-## <a name="reference"></a>Справочные материалы
+## <a name="reference"></a>Справка
 
-- [Справочник по поставщику Outlook Social Connector](outlook-social-connector-provider-reference-0.md)
+- [Outlook Social Connector Provider Reference](outlook-social-connector-provider-reference-0.md)
   
 ## <a name="related-sections"></a>Связанные разделы
 
@@ -35,13 +35,13 @@ ms.locfileid: "32281064"
   
 - [Примеры шаблонов OSC](osc-sample-templates.md)
   
-- [Переosc типичные последовательности вызовов](osc-typical-calling-sequences.md)
+- [Типичные последовательности вызовов OSC](osc-typical-calling-sequences.md)
   
-- [Разработка поставщика с помощью XML-схемы OSC](developing-a-provider-with-the-osc-xml-schema.md)
+- [Разработка поставщика с помощью схемы OSC XML](developing-a-provider-with-the-osc-xml-schema.md)
   
 - [Отладка поставщика](debugging-a-provider.md)
   
-- [Рекомендации по разработке поставщика](best-practices-for-developing-a-provider.md)
+- [Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)
   
 ## <a name="see-also"></a>См. также
 

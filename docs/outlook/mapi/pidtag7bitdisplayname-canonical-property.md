@@ -25,56 +25,56 @@ ms.locfileid: "32315815"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит 7 – двоичное представление имени пользователя для обмена сообщениями. 
+Содержит 7-битное представление asCII имени пользователя обмена сообщениями. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_7BIT_DISPLAY_NAME, PR_7BIT_DISPLAY_NAME_A PR_7BIT_DISPLAY_NAME_W  <br/> |
+|Связанные свойства:  <br/> |PR_7BIT_DISPLAY_NAME, PR_7BIT_DISPLAY_NAME_A, PR_7BIT_DISPLAY_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x39FF  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Адресная книга  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства сопоставляют свойство **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) с 7-битным набором знаков. Некоторые системы обмена сообщениями, такие как Интернет и определенные ссылки X. 400, ограничены набором символов ASCII с 128 символами 7 бит. Шлюзы к таким системам обмена сообщениями могут увеличить производительность, вызвав метод [IAddrBook::P репаререЦипс](iaddrbook-preparerecips.md) непосредственно для получения этого свойства, чтобы избежать дополнительной обработки преобразования кода. 
+Эти свойства сопо **PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)в 7-битный набор символов. Некоторые системы обмена сообщениями, такие как Интернет и определенные ссылки X.400, ограничены 128-битным 7-битным кодом ASCII. Шлюзы к таким системам обмена сообщениями могут повысить свою производительность, вызывая метод [IAddrBook::P repareRecips](iaddrbook-preparerecips.md) непосредственно для извлечения этого свойства, избегая дополнительной обработки для преобразования кода. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОАБК]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
+> Указывает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-[[MS — NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
+[[MS-NSPI]](https://msdn.microsoft.com/library/6dd0a3ea-b4d4-4a73-a857-add03a89a543%28Office.15%29.aspx)
   
 > Обрабатывает взаимодействие клиента с сервером NSPI.
     
-[[MS — ОКСКФКСИКС]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
+[[MS-OXCFXICS]](https://msdn.microsoft.com/library/b9752f3d-d50d-44b8-9e6b-608a117c8532%28Office.15%29.aspx)
   
-> Обрабатывает порядок и потоки данных, которые используются для передачи данных между клиентом и сервером.
+> Обрабатывает порядок и поток данных, используемый для передачи данных между клиентом и сервером.
     
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для сообщений электронной почты.
+> Указывает свойства и операции, которые разрешены для сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -82,7 +82,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

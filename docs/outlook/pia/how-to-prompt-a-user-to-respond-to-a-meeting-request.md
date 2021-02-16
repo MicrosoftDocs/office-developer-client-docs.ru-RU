@@ -1,5 +1,5 @@
 ---
-title: Предложение пользователю ответить на приглашение на собрание
+title: Запрос ответа у пользователя на приглашение на собрание
 TOCTitle: Prompt a user to respond to a meeting request
 ms:assetid: a0d69f82-8659-457d-9418-1a897a10882f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184630(v=office.15)

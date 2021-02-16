@@ -25,37 +25,37 @@ ms.locfileid: "32309529"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает как свойство сообщения о совместном доступе.
+Обозначается как свойство общего сообщения.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидшарингинитиатореид  <br/> |
+|Связанные свойства:  <br/> |dispidSharingInitiatorEid  <br/> |
 |Набор свойств:  <br/> |PSETID_Sharing  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00008A09  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00008A09  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Общий доступ  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Этому свойству должно быть присвоено значение свойства **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) для адресной книги пользователя, выполнившего вход в систему (см. раздел [[MS-оксоабк]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)). 
+Этому свойству должно быть задано значение свойства **PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)для адресной книги во время входа пользователя (см. [[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСШАРЕ]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
+[[MS-OXSHARE]](https://msdn.microsoft.com/library/e4e5bd27-d5e0-43f9-a6ea-550876724f3d%28Office.15%29.aspx)
   
-> Предоставляет общий доступ к папкам почтового ящика между клиентами.
+> Папки почтовых ящиков разделяются между клиентами.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

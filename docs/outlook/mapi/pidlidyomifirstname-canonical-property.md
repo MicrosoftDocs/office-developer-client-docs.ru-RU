@@ -25,13 +25,13 @@ ms.locfileid: "32280317"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Задает фонетическое произношение имени контакта.
+Указывает фонетическое произношение заданного имени контакта.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидйомифирстнаме  <br/> |
+|Связанные свойства:  <br/> |dispidYomiFirstName  <br/> |
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x0000802C  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x0000802C  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
@@ -39,19 +39,19 @@ ms.locfileid: "32280317"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКНТК]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для контактов и личных списков рассылки.
+> Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -59,7 +59,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

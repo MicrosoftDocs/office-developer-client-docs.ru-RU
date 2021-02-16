@@ -25,36 +25,36 @@ ms.locfileid: "32319210"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит заголовок идентификации содержимого для вложения сообщения с многоцелевыми почтовыми расширениями в Интернете (MIME). 
+Содержит загон идентификации содержимого вложенного сообщения MIME. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ATTACH_CONTENT_ID, PR_ATTACH_CONTENT_ID_A PR_ATTACH_CONTENT_ID_W  <br/> |
+|Связанные свойства:  <br/> |PR_ATTACH_CONTENT_ID, PR_ATTACH_CONTENT_ID_A, PR_ATTACH_CONTENT_ID_W  <br/> |
 |Идентификатор:  <br/> |0x3712  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства используются для поддержки MHTML. Они представляют заголовок идентификации содержимого для соответствующей части MIME Body. 
+Эти свойства используются для поддержки MHTML. Они представляют заголовщик идентификации содержимого для соответствующей части тела MIME. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-## <a name="header-files"></a>Файлы заголовков
+## <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -62,7 +62,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

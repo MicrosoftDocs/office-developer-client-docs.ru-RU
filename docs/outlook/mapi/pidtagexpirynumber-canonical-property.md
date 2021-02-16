@@ -25,7 +25,7 @@ ms.locfileid: "32316368"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Определяет время отправки с истекшим сроком действия в сочетании со свойством **PR_EXPIRY_UNITS** ([PidTagExpiryUnits](pidtagexpiryunits-canonical-property.md)).
+Определяет время отправки с истечением срока действия в сочетании со **свойством PR_EXPIRY_UNITS** ([PidTagExpiryUnits).](pidtagexpiryunits-canonical-property.md)
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ ms.locfileid: "32316368"
    
 ## <a name="remarks"></a>Примечания
 
-Значение этого свойства должно быть задано в диапазоне от 0 до 999 включительно, если оно присутствует.
+Значение этого свойства должно быть установлено от 0 до 999 включительно, если оно присутствует.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
+> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -62,7 +62,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

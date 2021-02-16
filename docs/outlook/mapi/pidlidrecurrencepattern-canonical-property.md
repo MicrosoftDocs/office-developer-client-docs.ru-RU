@@ -25,37 +25,37 @@ ms.locfileid: "32315934"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Задает описание расписания повторения для объекта Calendar.
+Указывает описание шаблона повторения объекта календаря.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидрекурпаттерн  <br/> |
+|Связанные свойства:  <br/> |dispidRecurPattern  <br/> |
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00008232  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00008232  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Календарь  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство задано, оно должно быть задано в качестве описания повторения, указанного в свойстве **диспидапптрекур** ([PidLidAppointmentRecur](pidlidappointmentrecur-canonical-property.md)).
+Если задано это свойство, ему должно быть задано описание повторения, заданное **свойством dispidApptRecur** ([PidLidAppointmentRecur).](pidlidappointmentrecur-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
