@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406348"
 ---
-# <a name="ftmuldw"></a><span data-ttu-id="702b9-103">FtMulDw</span><span class="sxs-lookup"><span data-stu-id="702b9-103">FtMulDw</span></span>
+# <a name="ftmuldw"></a><span data-ttu-id="80fd3-103">FtMulDw</span><span class="sxs-lookup"><span data-stu-id="80fd3-103">FtMulDw</span></span>
 
   
   
-<span data-ttu-id="702b9-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="702b9-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="80fd3-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="80fd3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="702b9-105">Умножает 64 — разрядное целое число без знака на 32 — разрядное целое число.</span><span class="sxs-lookup"><span data-stu-id="702b9-105">Multiplies an unsigned 64-bit integer by an unsigned 32-bit integer.</span></span>
+<span data-ttu-id="80fd3-105">Умножает неподписаное 64-битное 64-битное на неподписаное 32-битное.</span><span class="sxs-lookup"><span data-stu-id="80fd3-105">Multiplies an unsigned 64-bit integer by an unsigned 32-bit integer.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="702b9-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="702b9-106">Header file:</span></span>  <br/> |<span data-ttu-id="702b9-107">Мапиутил. h</span><span class="sxs-lookup"><span data-stu-id="702b9-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="702b9-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="702b9-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="702b9-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="702b9-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="702b9-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="702b9-110">Called by:</span></span>  <br/> |<span data-ttu-id="702b9-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="702b9-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="80fd3-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="80fd3-106">Header file:</span></span>  <br/> |<span data-ttu-id="80fd3-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="80fd3-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="80fd3-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="80fd3-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="80fd3-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="80fd3-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="80fd3-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="80fd3-110">Called by:</span></span>  <br/> |<span data-ttu-id="80fd3-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="80fd3-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 FILETIME FtMulDw(
@@ -40,18 +40,18 @@ FILETIME FtMulDw(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="702b9-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="702b9-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="80fd3-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="80fd3-112">Parameters</span></span>
 
- <span data-ttu-id="702b9-113">_Умножителя_</span><span class="sxs-lookup"><span data-stu-id="702b9-113">_Multiplier_</span></span>
+ <span data-ttu-id="80fd3-113">_Множитель_</span><span class="sxs-lookup"><span data-stu-id="80fd3-113">_Multiplier_</span></span>
   
-> <span data-ttu-id="702b9-114">возврата Двойное слово, содержащее Неподписанное 32 — разрядное значение множителя.</span><span class="sxs-lookup"><span data-stu-id="702b9-114">[in] A double word that contains the unsigned 32-bit integer multiplier.</span></span> 
+> <span data-ttu-id="80fd3-114">[in] Двойное слово, которое содержит 32-разрядный множитель неподписаных 32-разрядных номеров.</span><span class="sxs-lookup"><span data-stu-id="80fd3-114">[in] A double word that contains the unsigned 32-bit integer multiplier.</span></span> 
     
- <span data-ttu-id="702b9-115">_мултипликанд_</span><span class="sxs-lookup"><span data-stu-id="702b9-115">_Multiplicand_</span></span>
+ <span data-ttu-id="80fd3-115">_Multiplicand_</span><span class="sxs-lookup"><span data-stu-id="80fd3-115">_Multiplicand_</span></span>
   
-> <span data-ttu-id="702b9-116">возврата Структура [fileTime](filetime.md) , которая содержит неподписанное 64 — разрядное целое число, умноженное на значение параметра _множителя_ .</span><span class="sxs-lookup"><span data-stu-id="702b9-116">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer to be multiplied by the value in the  _Multiplier_ parameter.</span></span> 
+> <span data-ttu-id="80fd3-116">[in] Структура [FILETIME,](filetime.md) которая содержит неподписаенное 64-битное 64-битное значение, умноженное на значение параметра _Multiplier._</span><span class="sxs-lookup"><span data-stu-id="80fd3-116">[in] A [FILETIME](filetime.md) structure that contains the unsigned 64-bit integer to be multiplied by the value in the  _Multiplier_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="702b9-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="702b9-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="80fd3-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="80fd3-117">Return value</span></span>
 
-<span data-ttu-id="702b9-118">Функция **фтмулдв** возвращает структуру **fileTime** , содержащую произведение двух целых чисел.</span><span class="sxs-lookup"><span data-stu-id="702b9-118">The **FtMulDw** function returns a **FILETIME** structure that contains the product of the two integers.</span></span> <span data-ttu-id="702b9-119">Два входных параметра остаются неизменными.</span><span class="sxs-lookup"><span data-stu-id="702b9-119">The two input parameters remain unchanged.</span></span> 
+<span data-ttu-id="80fd3-118">Функция **FtMulDw** возвращает структуру **FILETIME,** которая содержит продукт двух integers.</span><span class="sxs-lookup"><span data-stu-id="80fd3-118">The **FtMulDw** function returns a **FILETIME** structure that contains the product of the two integers.</span></span> <span data-ttu-id="80fd3-119">Два входных параметра остаются без изменений.</span><span class="sxs-lookup"><span data-stu-id="80fd3-119">The two input parameters remain unchanged.</span></span> 
   
 

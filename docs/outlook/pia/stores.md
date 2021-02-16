@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32357682"
 ---
-# <a name="stores"></a><span data-ttu-id="26254-102">Хранилища</span><span class="sxs-lookup"><span data-stu-id="26254-102">Stores</span></span>
+# <a name="stores"></a><span data-ttu-id="4f0d0-102">Хранилища</span><span class="sxs-lookup"><span data-stu-id="4f0d0-102">Stores</span></span>
 
-<span data-ttu-id="26254-103">В этом разделе приведены примеры задач с использованием хранилищ.</span><span class="sxs-lookup"><span data-stu-id="26254-103">This section provides sample tasks that involve stores.</span></span> <span data-ttu-id="26254-104">Хранилище представляет собой файл на локальном компьютере или сетевом диске, в котором хранятся электронные сообщения и другие элементы.</span><span class="sxs-lookup"><span data-stu-id="26254-104">A store represents a file on the local computer or a network drive that stores email messages and other items.</span></span>
+<span data-ttu-id="4f0d0-103">В этом разделе приведены примеры задач с использованием хранилищ.</span><span class="sxs-lookup"><span data-stu-id="4f0d0-103">This section provides sample tasks that involve stores.</span></span> <span data-ttu-id="4f0d0-104">Хранилище представляет собой файл на локальном компьютере или сетевом диске, в котором хранятся электронные сообщения и другие элементы.</span><span class="sxs-lookup"><span data-stu-id="4f0d0-104">A store represents a file on the local computer or a network drive that stores email messages and other items.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="26254-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="26254-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="4f0d0-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="4f0d0-105">In this section</span></span>
 
-|<span data-ttu-id="26254-106">Статья</span><span class="sxs-lookup"><span data-stu-id="26254-106">Topic</span></span>|<span data-ttu-id="26254-107">Описание</span><span class="sxs-lookup"><span data-stu-id="26254-107">Description</span></span>|
+|<span data-ttu-id="4f0d0-106">Статья</span><span class="sxs-lookup"><span data-stu-id="4f0d0-106">Topic</span></span>|<span data-ttu-id="4f0d0-107">Описание</span><span class="sxs-lookup"><span data-stu-id="4f0d0-107">Description</span></span>|
 |:----|:----------|
-|[<span data-ttu-id="26254-108">Получение сведений о хранилищах в профиле</span><span class="sxs-lookup"><span data-stu-id="26254-108">Get information about stores in a profile</span></span>](how-to-get-information-about-stores-in-a-profile.md)  |<span data-ttu-id="26254-109">Получение и перечисление хранилищ в профиле.</span><span class="sxs-lookup"><span data-stu-id="26254-109">Gets and enumerates stores in a profile.</span></span>|
-|[<span data-ttu-id="26254-110">Добавление и удаление хранилища</span><span class="sxs-lookup"><span data-stu-id="26254-110">Add or remove a store</span></span>](how-to-add-or-remove-a-store.md)  |<span data-ttu-id="26254-111">В этой статье показано, как добавить или удалить хранилище в заданном профиле.</span><span class="sxs-lookup"><span data-stu-id="26254-111">Shows how to add or remove a store in a given profile.</span></span>|
+|[<span data-ttu-id="4f0d0-108">Получение сведений о хранилищах в профиле</span><span class="sxs-lookup"><span data-stu-id="4f0d0-108">Get information about stores in a profile</span></span>](how-to-get-information-about-stores-in-a-profile.md)  |<span data-ttu-id="4f0d0-109">Получение и перечисление хранилищ в профиле.</span><span class="sxs-lookup"><span data-stu-id="4f0d0-109">Gets and enumerates stores in a profile.</span></span>|
+|[<span data-ttu-id="4f0d0-110">Добавление и удаление хранилища</span><span class="sxs-lookup"><span data-stu-id="4f0d0-110">Add or remove a store</span></span>](how-to-add-or-remove-a-store.md)  |<span data-ttu-id="4f0d0-111">В этой статье показано, как добавить или удалить хранилище в заданном профиле.</span><span class="sxs-lookup"><span data-stu-id="4f0d0-111">Shows how to add or remove a store in a given profile.</span></span>|
 
-## <a name="see-also"></a><span data-ttu-id="26254-112">См. также</span><span class="sxs-lookup"><span data-stu-id="26254-112">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4f0d0-112">См. также</span><span class="sxs-lookup"><span data-stu-id="4f0d0-112">See also</span></span>
 
-- [<span data-ttu-id="26254-113">Учетные записи</span><span class="sxs-lookup"><span data-stu-id="26254-113">Accounts</span></span>](accounts.md)
-- [<span data-ttu-id="26254-114">Папки</span><span class="sxs-lookup"><span data-stu-id="26254-114">Folders</span></span>](folders.md)
-- [<span data-ttu-id="26254-115">Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="26254-115">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
+- [<span data-ttu-id="4f0d0-113">Учетные записи</span><span class="sxs-lookup"><span data-stu-id="4f0d0-113">Accounts</span></span>](accounts.md)
+- [<span data-ttu-id="4f0d0-114">Папки</span><span class="sxs-lookup"><span data-stu-id="4f0d0-114">Folders</span></span>](folders.md)
+- [<span data-ttu-id="4f0d0-115">Инструкции (справочник по основной сборке взаимодействия для Outlook 2013)</span><span class="sxs-lookup"><span data-stu-id="4f0d0-115">How do I... (Outlook 2013 PIA reference)</span></span>](how-do-i-outlook-2013-pia-reference.md)
 

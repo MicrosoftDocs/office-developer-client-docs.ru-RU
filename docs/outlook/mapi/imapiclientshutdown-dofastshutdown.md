@@ -1,5 +1,5 @@
 ---
-title: имапиклиентшутдовндофастшутдовн
+title: IMAPIClientShutdownDoFastShutdown
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,38 +19,38 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408686"
 ---
-# <a name="imapiclientshutdowndofastshutdown"></a><span data-ttu-id="b7c29-103">IMAPIClientShutdown::DoFastShutdown</span><span class="sxs-lookup"><span data-stu-id="b7c29-103">IMAPIClientShutdown::DoFastShutdown</span></span>
+# <a name="imapiclientshutdowndofastshutdown"></a><span data-ttu-id="6d9f0-103">IMAPIClientShutdown::DoFastShutdown</span><span class="sxs-lookup"><span data-stu-id="6d9f0-103">IMAPIClientShutdown::DoFastShutdown</span></span>
 
   
   
-<span data-ttu-id="b7c29-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b7c29-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6d9f0-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6d9f0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b7c29-105">Указывает на намерение клиента MAPI немедленно выйти из клиентского процесса.</span><span class="sxs-lookup"><span data-stu-id="b7c29-105">Indicates the intention of the MAPI client to exit the client process immediately.</span></span>
+<span data-ttu-id="6d9f0-105">Указывает на намерение клиента MAPI немедленно выйти из клиентского процесса.</span><span class="sxs-lookup"><span data-stu-id="6d9f0-105">Indicates the intention of the MAPI client to exit the client process immediately.</span></span>
   
 ```cpp
 HRESULT DoFastShutdown ();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="b7c29-106">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="b7c29-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6d9f0-106">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6d9f0-106">Return value</span></span>
 
-<span data-ttu-id="b7c29-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="b7c29-107">S_OK</span></span>
+<span data-ttu-id="6d9f0-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="6d9f0-107">S_OK</span></span>
   
-> <span data-ttu-id="b7c29-108">Подсистема MAPI загрузила поставщика MAPI, что клиент MAPI немедленно выходит из системы, а поставщики MAPI готовы к выходу клиента.</span><span class="sxs-lookup"><span data-stu-id="b7c29-108">The MAPI subsystem has indicated to loaded MAPI providers that the MAPI client is exiting immediately, and the MAPI providers are ready for the client exit.</span></span>
+> <span data-ttu-id="6d9f0-108">Подсистема MAPI указала загруженным поставщикам MAPI, что клиент MAPI немедленно выходит из сети, и поставщики MAPI готовы к выходу клиента.</span><span class="sxs-lookup"><span data-stu-id="6d9f0-108">The MAPI subsystem has indicated to loaded MAPI providers that the MAPI client is exiting immediately, and the MAPI providers are ready for the client exit.</span></span>
     
-<span data-ttu-id="b7c29-109">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="b7c29-109">MAPI_E_NO_SUPPORT</span></span>
+<span data-ttu-id="6d9f0-109">MAPI_E_NO_SUPPORT</span><span class="sxs-lookup"><span data-stu-id="6d9f0-109">MAPI_E_NO_SUPPORT</span></span>
   
-> <span data-ttu-id="b7c29-110">Подсистема MAPI не поддерживает быстрое завершение работы клиента.</span><span class="sxs-lookup"><span data-stu-id="b7c29-110">The MAPI subsystem does not support client fast shutdown.</span></span>
+> <span data-ttu-id="6d9f0-110">Подсистема MAPI не поддерживает быстрое завершение работы клиента.</span><span class="sxs-lookup"><span data-stu-id="6d9f0-110">The MAPI subsystem does not support client fast shutdown.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="b7c29-111">Примечания</span><span class="sxs-lookup"><span data-stu-id="b7c29-111">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6d9f0-111">Примечания</span><span class="sxs-lookup"><span data-stu-id="6d9f0-111">Remarks</span></span>
 
-<span data-ttu-id="b7c29-112">Чтобы избежать потери данных при быстром завершении работы клиента MAPI, клиенты MAPI должны вызывать методы [метод imapiclientshutdown:: нотифипроцессшутдовн](imapiclientshutdown-notifyprocessshutdown.md) и **метод imapiclientshutdown::D офастшутдовн** на основе результата S_OK, возвращаемого подсистемой MAPI в методе [метод imapiclientshutdown:: QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) .</span><span class="sxs-lookup"><span data-stu-id="b7c29-112">To avoid data loss from the fast shutdown of a MAPI client, MAPI clients should call the [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) and **IMAPIClientShutdown::DoFastShutdown** methods based on the S_OK result returned by the MAPI subsystem in the [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) method.</span></span> <span data-ttu-id="b7c29-113">Для получения дополнительных сведений ознакомьтесь с рекомендациями [по быстрому завершению работы](best-practices-for-fast-shutdown.md).</span><span class="sxs-lookup"><span data-stu-id="b7c29-113">For more information, see [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).</span></span>
+<span data-ttu-id="6d9f0-112">Чтобы избежать потери данных при быстром отключении клиента MAPI, клиенты MAPI должны вызывать методы [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) и **IMAPIClientShutdown::D oFastShutdown** на основе результата S_OK, возвращенного подсистемой MAPI в методе [IMAPIClientShutdown::QueryFastShutdown.](imapiclientshutdown-queryfastshutdown.md)</span><span class="sxs-lookup"><span data-stu-id="6d9f0-112">To avoid data loss from the fast shutdown of a MAPI client, MAPI clients should call the [IMAPIClientShutdown::NotifyProcessShutdown](imapiclientshutdown-notifyprocessshutdown.md) and **IMAPIClientShutdown::DoFastShutdown** methods based on the S_OK result returned by the MAPI subsystem in the [IMAPIClientShutdown::QueryFastShutdown](imapiclientshutdown-queryfastshutdown.md) method.</span></span> <span data-ttu-id="6d9f0-113">Дополнительные сведения см. в лучших [методиках быстрого завершения работы.](best-practices-for-fast-shutdown.md)</span><span class="sxs-lookup"><span data-stu-id="6d9f0-113">For more information, see [Best Practices for Fast Shutdown](best-practices-for-fast-shutdown.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="b7c29-114">См. также</span><span class="sxs-lookup"><span data-stu-id="b7c29-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6d9f0-114">См. также</span><span class="sxs-lookup"><span data-stu-id="6d9f0-114">See also</span></span>
 
 
 
-[<span data-ttu-id="b7c29-115">IMAPIClientShutdown : IUnknown</span><span class="sxs-lookup"><span data-stu-id="b7c29-115">IMAPIClientShutdown : IUnknown</span></span>](imapiclientshutdowniunknown.md)
+[<span data-ttu-id="6d9f0-115">IMAPIClientShutdown : IUnknown</span><span class="sxs-lookup"><span data-stu-id="6d9f0-115">IMAPIClientShutdown : IUnknown</span></span>](imapiclientshutdowniunknown.md)
 
 
-[<span data-ttu-id="b7c29-116">Завершение работы клиента в MAPI</span><span class="sxs-lookup"><span data-stu-id="b7c29-116">Client Shutdown in MAPI</span></span>](client-shutdown-in-mapi.md)
+[<span data-ttu-id="6d9f0-116">Завершение работы клиента в MAPI</span><span class="sxs-lookup"><span data-stu-id="6d9f0-116">Client Shutdown in MAPI</span></span>](client-shutdown-in-mapi.md)
 

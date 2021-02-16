@@ -15,32 +15,32 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33409862"
 ---
-# <a name="creating-outlook-items-by-using-mapi"></a><span data-ttu-id="597ee-103">Создание элементов Outlook с помощью MAPI</span><span class="sxs-lookup"><span data-stu-id="597ee-103">Creating Outlook Items by Using MAPI</span></span>
+# <a name="creating-outlook-items-by-using-mapi"></a><span data-ttu-id="31196-103">Создание элементов Outlook с помощью MAPI</span><span class="sxs-lookup"><span data-stu-id="31196-103">Creating Outlook Items by Using MAPI</span></span>
 
   
   
-<span data-ttu-id="597ee-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="597ee-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="31196-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="31196-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="597ee-105">В подразделах этого раздела показано, как создавать элементы Outlook с помощью MAPI.</span><span class="sxs-lookup"><span data-stu-id="597ee-105">The topics in this section demonstrate how to create Outlook items using MAPI.</span></span>
+<span data-ttu-id="31196-105">В темах этого раздела показано, как создавать элементы Outlook с помощью MAPI.</span><span class="sxs-lookup"><span data-stu-id="31196-105">The topics in this section demonstrate how to create Outlook items using MAPI.</span></span>
   
-- [<span data-ttu-id="597ee-106">Установка примеров, используемых в этом разделе</span><span class="sxs-lookup"><span data-stu-id="597ee-106">Install the Samples Used in This Section</span></span>](how-to-install-the-samples-used-in-this-section.md)
+- [<span data-ttu-id="31196-106">Установка примеров, используемых в этом разделе</span><span class="sxs-lookup"><span data-stu-id="31196-106">Install the Samples Used in This Section</span></span>](how-to-install-the-samples-used-in-this-section.md)
     
-    <span data-ttu-id="597ee-107">В этом разделе описывается установка и просмотр примеров, обсуждаемых в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="597ee-107">This topic shows how to install and view the samples discussed in this section.</span></span>
+    <span data-ttu-id="31196-107">В этом разделе показано, как установить и просмотреть примеры, рассматриваемые в этом разделе.</span><span class="sxs-lookup"><span data-stu-id="31196-107">This topic shows how to install and view the samples discussed in this section.</span></span>
     
-- [<span data-ttu-id="597ee-108">Создание простого почтового элемента</span><span class="sxs-lookup"><span data-stu-id="597ee-108">Create a Simple Mail Item</span></span>](how-to-create-a-simple-mail-item.md)
+- [<span data-ttu-id="31196-108">Создание простого почтового элемента</span><span class="sxs-lookup"><span data-stu-id="31196-108">Create a Simple Mail Item</span></span>](how-to-create-a-simple-mail-item.md)
     
-    <span data-ttu-id="597ee-109">В этом разделе показано, как создать простой почтовый элемент, который запрашивает уведомление о прочтении.</span><span class="sxs-lookup"><span data-stu-id="597ee-109">This topic shows how to create a simple mail item that requests a read receipt.</span></span>
+    <span data-ttu-id="31196-109">В этом разделе показано, как создать простой почтовый элемент, запрашивая квитанцию на чтение.</span><span class="sxs-lookup"><span data-stu-id="31196-109">This topic shows how to create a simple mail item that requests a read receipt.</span></span>
     
-- [<span data-ttu-id="597ee-110">Создание простого элемента повторяющейся задачи</span><span class="sxs-lookup"><span data-stu-id="597ee-110">Create a Simple Recurrent Task Item</span></span>](how-to-create-a-simple-recurrent-task-item.md)
+- [<span data-ttu-id="31196-110">Создание простого элемента повторяющейся задачи</span><span class="sxs-lookup"><span data-stu-id="31196-110">Create a Simple Recurrent Task Item</span></span>](how-to-create-a-simple-recurrent-task-item.md)
     
-    <span data-ttu-id="597ee-111">В этом разделе показано, как создать простой элемент задачи, выполняемый каждую неделю.</span><span class="sxs-lookup"><span data-stu-id="597ee-111">This topic shows how to create a simple task item that occurs every week.</span></span>
+    <span data-ttu-id="31196-111">В этом разделе показано, как создать простой элемент задачи, который будет происходить каждую неделю.</span><span class="sxs-lookup"><span data-stu-id="31196-111">This topic shows how to create a simple task item that occurs every week.</span></span>
     
-- [<span data-ttu-id="597ee-112">Создание сложного элемента повторяющейся встречи</span><span class="sxs-lookup"><span data-stu-id="597ee-112">Create a Complex Recurrent Appointment Item</span></span>](how-to-create-a-complex-recurrent-appointment-item.md)
+- [<span data-ttu-id="31196-112">Создание сложного элемента повторяющейся встречи</span><span class="sxs-lookup"><span data-stu-id="31196-112">Create a Complex Recurrent Appointment Item</span></span>](how-to-create-a-complex-recurrent-appointment-item.md)
     
-    <span data-ttu-id="597ee-113">В этом разделе показано, как создать элемент еженедельно повторяющейся встречи, который также учитывает проблемы, связанные с часовыми поясами.</span><span class="sxs-lookup"><span data-stu-id="597ee-113">This topic shows how to create a weekly-recurrent appointment item, that also takes into consideration issues related to time zones.</span></span>
+    <span data-ttu-id="31196-113">В этом разделе показано, как создать еженедельный элемент повторяющейся встречи, который также учитывает проблемы, связанные с часовой пояс.</span><span class="sxs-lookup"><span data-stu-id="31196-113">This topic shows how to create a weekly-recurrent appointment item, that also takes into consideration issues related to time zones.</span></span>
     
-- [<span data-ttu-id="597ee-114">Чтение и анализ расписания повторения</span><span class="sxs-lookup"><span data-stu-id="597ee-114">Read and Parse a Recurrence Pattern</span></span>](how-to-read-and-parse-a-recurrence-pattern.md)
+- [<span data-ttu-id="31196-114">Чтение и разбиение шаблона повторения</span><span class="sxs-lookup"><span data-stu-id="31196-114">Read and Parse a Recurrence Pattern</span></span>](how-to-read-and-parse-a-recurrence-pattern.md)
     
-    <span data-ttu-id="597ee-115">В этом разделе показано, как считывать и анализировать шаблон повторения для элемента встречи.</span><span class="sxs-lookup"><span data-stu-id="597ee-115">This topic shows how to read and parse a recurrence pattern for an appointment item.</span></span>
+    <span data-ttu-id="31196-115">В этом разделе показано, как считыть и проассировать шаблон повторения для элемента встречи.</span><span class="sxs-lookup"><span data-stu-id="31196-115">This topic shows how to read and parse a recurrence pattern for an appointment item.</span></span>
     
 
