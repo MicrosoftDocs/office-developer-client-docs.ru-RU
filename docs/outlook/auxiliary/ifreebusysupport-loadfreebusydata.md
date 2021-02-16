@@ -1,12 +1,12 @@
 ---
-title: ифрибусисуппортлоадфрибусидата
+title: IFreeBusySupportLoadFreeBusyData
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: f0baa310-7a53-07ee-0a7d-33dd1fb465c2
-description: Возвращает для каждого указанного пользователя интерфейс для перечисления блоков сведений о занятости в пределах диапазона времени.
+description: Возвращает для каждого указанного пользователя интерфейс для enumerating free/busy blocks of data within a time range.
 ms.openlocfilehash: e55f902117a20bfefaa5d9a2f3a067cb78ec86cb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33411234"
 ---
 # <a name="ifreebusysupportloadfreebusydata"></a>IFreeBusySupport::LoadFreeBusyData
 
-Возвращает для каждого указанного пользователя интерфейс для перечисления блоков сведений о занятости в пределах диапазона времени. 
+Возвращает для каждого указанного пользователя интерфейс для enumerating free/busy blocks of data within a time range. 
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [ифрибусисуппорт](ifreebusysupport.md).
+См. [IFreeBusySupport.](ifreebusysupport.md)
   
 ```cpp
 HRESULT LoadFreeBusyData( 
@@ -34,28 +34,28 @@ HRESULT LoadFreeBusyData(
 
 ## <a name="parameters"></a>Параметры
 
-_кмакс_
+_cMax_
   
-> возврата Число возвращаемых интерфейсов [ифрибусидата](ifreebusydata.md) . 
+> [in] Количество [возвращаемого интерфейса IFreeBusyData.](ifreebusydata.md) 
     
-_ргфбусер_
+_rgfbuser_
   
-> возврата Массив пользователей сведений о занятости для получения данных.
+> [in] Массив пользователей со сведениями о занятости, для получения данных.
     
-_пргфбдата_
+_prgfbdata_
   
-> возврата вышли Массив интерфейсов **ифрибусидата** , соответствующих массиву _ргфбусер_ структуры [фбусер](fbuser.md) . 
+> [in] [out] Массив интерфейсов **IFreeBusyData,** соответствующий _массиву rgfbuser_ структур [FBUser.](fbuser.md) 
     
    > [!NOTE]
-   > Этот массив указателей выделяется вызывающим и освобождается вызывающим абонентом. Фактические интерфейсы, на которые указывает, освобождаются, когда вызывающая сторона выполнила их. 
+   > Этот массив указателей выделяется вызываемой и освобожден вызываемой. Фактические интерфейсы, на которые указывает вызываемая, отпущены, когда вызываемая из них делает это. 
   
-_фрстатус_
+_phrStatus_
   
-> вышли Массив результатов **HRESULT** для получения каждого соответствующего интерфейса **ифрибусидата** . Значение может быть равно NULL. Результат имеет значение S_OK, если соответствующий _пргфбдата_ является допустимым. 
+> [out] Массив результатов **HRESULT** для каждого соответствующего интерфейса **IFreeBusyData.** Значением может быть NULL. Результат будет иметь S_OK, если соответствующие  _prgfbdata_ допустимы. 
     
-_пкреад_
+_pcRead_
   
->  вышли Фактическое количество пользователей, для которых был найден интерфейс **ифрибусидата** . 
+>  [out] Фактическое количество пользователей, для которых найден интерфейс **IFreeBusyData.** 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -63,5 +63,5 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## <a name="see-also"></a>См. также
 
-- [Константы (API сведений о доступности)](constants-free-busy-api.md)
+- [Constants (Free/busy API)](constants-free-busy-api.md)
 

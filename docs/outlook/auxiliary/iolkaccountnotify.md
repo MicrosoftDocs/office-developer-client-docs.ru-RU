@@ -15,25 +15,25 @@ ms.locfileid: "33412501"
 ---
 # <a name="iolkaccountnotify"></a>IOlkAccountNotify
 
-Предоставляет обратный вызов клиенту для изменения учетной записи.
+Предоставляет клиенту вызов для изменения учетной записи.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследование от:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
-|Предоставлено:  <br/> | Client  <br/> |
+|Наследуется от:  <br/> |[IOlkErrorUnknown](iolkerrorunknown.md) <br/> |
+|Предоставлено:  <br/> | Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IOlkAccountNotify  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[Уведомления](iolkaccountnotify-notify.md) <br/> |Уведомляет клиента об изменениях указанной учетной записи.  <br/> |
+|[Уведомления](iolkaccountnotify-notify.md) <br/> |Сообщает клиенту об изменениях указанной учетной записи.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Этот интерфейс передается в [иолкаккаунтманажер:: Advise](iolkaccountmanager-advise.md) при настройке уведомлений. 
+Этот интерфейс передается в [IOlkAccountManager::Advise](iolkaccountmanager-advise.md) при настройке уведомлений. 
   
 ## <a name="see-also"></a>См. также
 

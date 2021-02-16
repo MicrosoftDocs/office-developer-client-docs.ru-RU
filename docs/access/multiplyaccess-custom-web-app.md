@@ -1,5 +1,5 @@
 ---
-title: Умножить (пользовательское веб-приложение для Access)
+title: Multiply (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412165"
 ---
-# <a name="multiply-access-custom-web-app"></a>Умножить (пользовательское веб-приложение для Access)
+# <a name="multiply-access-custom-web-app"></a>Multiply (Access custom web app)
 
 Умножает два выражения.
   
@@ -27,7 +27,7 @@ ms.locfileid: "33412165"
 
 *expression*  \*  *expression* 
   
-*Expression (выражение* )  Любое допустимое выражение любого из типов данных в категории numeric. 
+*выражение*  Любое допустимые выражения любого из типов данных в числовой категории. 
   
 ## <a name="return-value"></a>Возвращаемое значение
 
