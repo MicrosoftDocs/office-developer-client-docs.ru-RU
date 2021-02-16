@@ -1,5 +1,5 @@
 ---
-title: имаписуппортдопрогрессдиалог
+title: IMAPISupportDoProgressDialog
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432585"
 ---
-# <a name="imapisupportdoprogressdialog"></a><span data-ttu-id="c26ba-103">IMAPISupport::DoProgressDialog</span><span class="sxs-lookup"><span data-stu-id="c26ba-103">IMAPISupport::DoProgressDialog</span></span>
+# <a name="imapisupportdoprogressdialog"></a><span data-ttu-id="67cac-103">IMAPISupport::DoProgressDialog</span><span class="sxs-lookup"><span data-stu-id="67cac-103">IMAPISupport::DoProgressDialog</span></span>
 
   
   
-<span data-ttu-id="c26ba-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c26ba-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="67cac-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="67cac-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c26ba-105">Получает объект Progress, который отображает индикатор хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="c26ba-105">Retrieves a progress object that displays a progress indicator.</span></span>
+<span data-ttu-id="67cac-105">Извлекает объект хода выполнения, который отображает индикатор хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="67cac-105">Retrieves a progress object that displays a progress indicator.</span></span>
   
 ```cpp
 HRESULT DoProgressDialog(
@@ -35,46 +35,46 @@ HRESULT DoProgressDialog(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c26ba-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="c26ba-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="67cac-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="67cac-106">Parameters</span></span>
 
- <span data-ttu-id="c26ba-107">_улуипарам_</span><span class="sxs-lookup"><span data-stu-id="c26ba-107">_ulUIParam_</span></span>
+ <span data-ttu-id="67cac-107">_ulUIParam_</span><span class="sxs-lookup"><span data-stu-id="67cac-107">_ulUIParam_</span></span>
   
-> <span data-ttu-id="c26ba-108">возврата Дескриптор родительского окна индикатора хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="c26ba-108">[in] A handle to the parent window of the progress indicator.</span></span>
+> <span data-ttu-id="67cac-108">[in] Handle to the parent window of the progress indicator.</span><span class="sxs-lookup"><span data-stu-id="67cac-108">[in] A handle to the parent window of the progress indicator.</span></span>
     
- <span data-ttu-id="c26ba-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="c26ba-109">_ulFlags_</span></span>
+ <span data-ttu-id="67cac-109">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="67cac-109">_ulFlags_</span></span>
   
-> <span data-ttu-id="c26ba-110">возврата Битовая маска флагов, определяющих способ вычисления объекта хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="c26ba-110">[in] A bitmask of flags that controls how the progress object should calculate progress.</span></span> <span data-ttu-id="c26ba-111">Можно задать следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="c26ba-111">The following flag can be set:</span></span>
+> <span data-ttu-id="67cac-110">[in] Битоваяmas флагов, которая управляет тем, как объект хода выполнения должен вычислять ход выполнения.</span><span class="sxs-lookup"><span data-stu-id="67cac-110">[in] A bitmask of flags that controls how the progress object should calculate progress.</span></span> <span data-ttu-id="67cac-111">Можно установить следующий флаг:</span><span class="sxs-lookup"><span data-stu-id="67cac-111">The following flag can be set:</span></span>
     
-<span data-ttu-id="c26ba-112">MAPI_TOP_LEVEL</span><span class="sxs-lookup"><span data-stu-id="c26ba-112">MAPI_TOP_LEVEL</span></span> 
+<span data-ttu-id="67cac-112">MAPI_TOP_LEVEL</span><span class="sxs-lookup"><span data-stu-id="67cac-112">MAPI_TOP_LEVEL</span></span> 
   
-> <span data-ttu-id="c26ba-113">Ход выполнения вычисляется для элемента верхнего уровня, например для родительской папки.</span><span class="sxs-lookup"><span data-stu-id="c26ba-113">Progress is calculated for a top-level item, such as a parent folder.</span></span> <span data-ttu-id="c26ba-114">Объект Progress должен использовать значения в параметрах _улкаунт_ и _ултотал_ метода [IMAPIProgress::P рогресс](imapiprogress-progress.md) , которые указывают текущий элемент и общее количество элементов в операции, соответственно, для увеличения индикатора хода выполнения операции.</span><span class="sxs-lookup"><span data-stu-id="c26ba-114">The progress object should use the values in the [IMAPIProgress::Progress](imapiprogress-progress.md) method's  _ulCount_ and  _ulTotal_ parameters — which indicate the current item and the total items in the operation, respectively — to increment the progress indicator for the operation.</span></span> 
+> <span data-ttu-id="67cac-113">Ход выполнения рассчитывается для элемента верхнего уровня, например родительской папки.</span><span class="sxs-lookup"><span data-stu-id="67cac-113">Progress is calculated for a top-level item, such as a parent folder.</span></span> <span data-ttu-id="67cac-114">Объект progress должен использовать значения в параметрах _ulCount_ и _ulTotal_ метода [IMAPIProgress::P gress,](imapiprogress-progress.md) которые указывают текущий элемент и общее число элементов в операции соответственно, для инкремента индикатора хода выполнения операции.</span><span class="sxs-lookup"><span data-stu-id="67cac-114">The progress object should use the values in the [IMAPIProgress::Progress](imapiprogress-progress.md) method's  _ulCount_ and  _ulTotal_ parameters — which indicate the current item and the total items in the operation, respectively — to increment the progress indicator for the operation.</span></span> 
     
- <span data-ttu-id="c26ba-115">_лпппрогресс_</span><span class="sxs-lookup"><span data-stu-id="c26ba-115">_lppProgress_</span></span>
+ <span data-ttu-id="67cac-115">_lppProgress_</span><span class="sxs-lookup"><span data-stu-id="67cac-115">_lppProgress_</span></span>
   
-> <span data-ttu-id="c26ba-116">вышли Указатель на указатель на объект хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="c26ba-116">[out] A pointer to a pointer to the progress object.</span></span>
+> <span data-ttu-id="67cac-116">[out] Указатель на указатель на объект хода выполнения.</span><span class="sxs-lookup"><span data-stu-id="67cac-116">[out] A pointer to a pointer to the progress object.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="c26ba-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c26ba-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="67cac-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="67cac-117">Return value</span></span>
 
-<span data-ttu-id="c26ba-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="c26ba-118">S_OK</span></span> 
+<span data-ttu-id="67cac-118">S_OK</span><span class="sxs-lookup"><span data-stu-id="67cac-118">S_OK</span></span> 
   
-> <span data-ttu-id="c26ba-119">Объект Progress успешно получен.</span><span class="sxs-lookup"><span data-stu-id="c26ba-119">The progress object was successfully retrieved.</span></span>
+> <span data-ttu-id="67cac-119">Объект progress был успешно извлечен.</span><span class="sxs-lookup"><span data-stu-id="67cac-119">The progress object was successfully retrieved.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="c26ba-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="c26ba-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="67cac-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="67cac-120">Remarks</span></span>
 
-<span data-ttu-id="c26ba-121">Метод **имаписуппорт::D опрогрессдиалог** реализован для адресных книг и объектов поддержки поставщиков хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="c26ba-121">The **IMAPISupport::DoProgressDialog** method is implemented for address book and message store provider support objects.</span></span> <span data-ttu-id="c26ba-122">Эти поставщики вызывают **допрогрессдиалог** для доступа к реализации MAPI интерфейса [IMAPIProgress](imapiprogressiunknown.md) , который вычисляет сведения о ходе выполнения и отображает стандартное диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="c26ba-122">These providers call **DoProgressDialog** to access the MAPI implementation of the [IMAPIProgress](imapiprogressiunknown.md) interface, which calculates the progress information and displays a standard dialog box.</span></span> 
+<span data-ttu-id="67cac-121">Метод **IMAPISupport::D oProgressDialog** реализован для объектов поддержки поставщиков адресной книги и хранения сообщений.</span><span class="sxs-lookup"><span data-stu-id="67cac-121">The **IMAPISupport::DoProgressDialog** method is implemented for address book and message store provider support objects.</span></span> <span data-ttu-id="67cac-122">Эти поставщики **вызывают DoProgressDialog** для доступа к реализации MAPI [интерфейса IMAPIProgress,](imapiprogressiunknown.md) который вычисляет сведения о ходе выполнения и отображает стандартное диалоговое окно.</span><span class="sxs-lookup"><span data-stu-id="67cac-122">These providers call **DoProgressDialog** to access the MAPI implementation of the [IMAPIProgress](imapiprogressiunknown.md) interface, which calculates the progress information and displays a standard dialog box.</span></span> 
   
-<span data-ttu-id="c26ba-123">Сведения о том, как использовать объект Progress и интерфейс **IMAPIProgress** , приведены в разделе [Отображение индикатора хода выполнения](how-to-display-a-progress-indicator.md).</span><span class="sxs-lookup"><span data-stu-id="c26ba-123">For information about how to use a progress object and the **IMAPIProgress** interface, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).</span></span>
+<span data-ttu-id="67cac-123">Сведения об использовании объекта хода выполнения и **интерфейса IMAPIProgress** см. в подразделе ["Отображение индикатора хода выполнения".](how-to-display-a-progress-indicator.md)</span><span class="sxs-lookup"><span data-stu-id="67cac-123">For information about how to use a progress object and the **IMAPIProgress** interface, see [Display a Progress Indicator](how-to-display-a-progress-indicator.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="c26ba-124">См. также</span><span class="sxs-lookup"><span data-stu-id="c26ba-124">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="67cac-124">См. также</span><span class="sxs-lookup"><span data-stu-id="67cac-124">See also</span></span>
 
 
 
-[<span data-ttu-id="c26ba-125">IMAPIProgress : IUnknown</span><span class="sxs-lookup"><span data-stu-id="c26ba-125">IMAPIProgress : IUnknown</span></span>](imapiprogressiunknown.md)
+[<span data-ttu-id="67cac-125">IMAPIProgress : IUnknown</span><span class="sxs-lookup"><span data-stu-id="67cac-125">IMAPIProgress : IUnknown</span></span>](imapiprogressiunknown.md)
   
-[<span data-ttu-id="c26ba-126">IMAPIProgress::Progress</span><span class="sxs-lookup"><span data-stu-id="c26ba-126">IMAPIProgress::Progress</span></span>](imapiprogress-progress.md)
+[<span data-ttu-id="67cac-126">IMAPIProgress::Progress</span><span class="sxs-lookup"><span data-stu-id="67cac-126">IMAPIProgress::Progress</span></span>](imapiprogress-progress.md)
   
-[<span data-ttu-id="c26ba-127">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="c26ba-127">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
+[<span data-ttu-id="67cac-127">IMAPISupport: IUnknown</span><span class="sxs-lookup"><span data-stu-id="67cac-127">IMAPISupport : IUnknown</span></span>](imapisupportiunknown.md)
 
 
-[<span data-ttu-id="c26ba-128">Отображение индикатора хода выполнения</span><span class="sxs-lookup"><span data-stu-id="c26ba-128">Display a Progress Indicator</span></span>](how-to-display-a-progress-indicator.md)
+[<span data-ttu-id="67cac-128">Отображение индикатора хода выполнения</span><span class="sxs-lookup"><span data-stu-id="67cac-128">Display a Progress Indicator</span></span>](how-to-display-a-progress-indicator.md)
 

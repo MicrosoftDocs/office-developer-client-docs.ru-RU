@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433915"
 ---
-# <a name="smapiverbarray"></a><span data-ttu-id="0b523-103">SMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="0b523-103">SMAPIVerbArray</span></span>
+# <a name="smapiverbarray"></a><span data-ttu-id="c24f2-103">SMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="c24f2-103">SMAPIVerbArray</span></span>
 
   
   
-<span data-ttu-id="0b523-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0b523-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c24f2-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c24f2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0b523-105">Содержит массив структур [смапиверб](smapiverb.md) , ОПИСЫВАЮЩИХ команды MAPI.</span><span class="sxs-lookup"><span data-stu-id="0b523-105">Contains an array of [SMAPIVerb](smapiverb.md) structures that describe MAPI verbs.</span></span> 
+<span data-ttu-id="c24f2-105">Содержит массив структур [SMAPIVerb,](smapiverb.md) описывая команды MAPI.</span><span class="sxs-lookup"><span data-stu-id="c24f2-105">Contains an array of [SMAPIVerb](smapiverb.md) structures that describe MAPI verbs.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0b523-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="0b523-106">Header file:</span></span>  <br/> |<span data-ttu-id="0b523-107">Мапиформ. h</span><span class="sxs-lookup"><span data-stu-id="0b523-107">Mapiform.h</span></span>  <br/> |
-|<span data-ttu-id="0b523-108">Связанный макрос:</span><span class="sxs-lookup"><span data-stu-id="0b523-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="0b523-109">CbMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="0b523-109">CbMAPIVerbArray</span></span>](cbmapiverbarray.md) <br/> |
+|<span data-ttu-id="c24f2-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="c24f2-106">Header file:</span></span>  <br/> |<span data-ttu-id="c24f2-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="c24f2-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="c24f2-108">Связанный макрос:</span><span class="sxs-lookup"><span data-stu-id="c24f2-108">Related macro:</span></span>  <br/> |[<span data-ttu-id="c24f2-109">CbMAPIVerbArray</span><span class="sxs-lookup"><span data-stu-id="c24f2-109">CbMAPIVerbArray</span></span>](cbmapiverbarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -41,26 +41,26 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="0b523-110">"Участники"</span><span class="sxs-lookup"><span data-stu-id="0b523-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="c24f2-110">"Участники"</span><span class="sxs-lookup"><span data-stu-id="c24f2-110">Members</span></span>
 
- <span data-ttu-id="0b523-111">**кформс**</span><span class="sxs-lookup"><span data-stu-id="0b523-111">**cForms**</span></span>
+ <span data-ttu-id="c24f2-111">**cForms**</span><span class="sxs-lookup"><span data-stu-id="c24f2-111">**cForms**</span></span>
   
-> <span data-ttu-id="0b523-112">Количество команд в массиве.</span><span class="sxs-lookup"><span data-stu-id="0b523-112">Count of verbs in the array.</span></span>
+> <span data-ttu-id="c24f2-112">Количество глаголов в массиве.</span><span class="sxs-lookup"><span data-stu-id="c24f2-112">Count of verbs in the array.</span></span>
     
- <span data-ttu-id="0b523-113">**аформинфо**</span><span class="sxs-lookup"><span data-stu-id="0b523-113">**aFormInfo**</span></span>
+ <span data-ttu-id="c24f2-113">**aFormInfo**</span><span class="sxs-lookup"><span data-stu-id="c24f2-113">**aFormInfo**</span></span>
   
-> <span data-ttu-id="0b523-114">Массив команд MAPI.</span><span class="sxs-lookup"><span data-stu-id="0b523-114">Array of MAPI verbs.</span></span>
+> <span data-ttu-id="c24f2-114">Массив глаголов MAPI.</span><span class="sxs-lookup"><span data-stu-id="c24f2-114">Array of MAPI verbs.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="0b523-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="0b523-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c24f2-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="c24f2-115">Remarks</span></span>
 
-<span data-ttu-id="0b523-116">Структура **смапивербаррай** передается в качестве параметра в методе [Имапиформинфо:: калквербсет](imapiforminfo-calcverbset.md) .</span><span class="sxs-lookup"><span data-stu-id="0b523-116">The **SMAPIVerbArray** structure is passed as a parameter in the [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) method.</span></span> 
+<span data-ttu-id="c24f2-116">Структура **SMAPIVerbArray** передается в качестве параметра в [методе IMAPIFormInfo::CalcVerbSet.](imapiforminfo-calcverbset.md)</span><span class="sxs-lookup"><span data-stu-id="c24f2-116">The **SMAPIVerbArray** structure is passed as a parameter in the [IMAPIFormInfo::CalcVerbSet](imapiforminfo-calcverbset.md) method.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="0b523-117">См. также</span><span class="sxs-lookup"><span data-stu-id="0b523-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c24f2-117">См. также</span><span class="sxs-lookup"><span data-stu-id="c24f2-117">See also</span></span>
 
 
 
-[<span data-ttu-id="0b523-118">SMAPIVerb</span><span class="sxs-lookup"><span data-stu-id="0b523-118">SMAPIVerb</span></span>](smapiverb.md)
+[<span data-ttu-id="c24f2-118">SMAPIVerb</span><span class="sxs-lookup"><span data-stu-id="c24f2-118">SMAPIVerb</span></span>](smapiverb.md)
 
 
-[<span data-ttu-id="0b523-119">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="0b523-119">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="c24f2-119">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="c24f2-119">MAPI Structures</span></span>](mapi-structures.md)
 

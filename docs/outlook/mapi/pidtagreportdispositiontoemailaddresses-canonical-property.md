@@ -17,48 +17,48 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432277"
 ---
-# <a name="pidtagreportdispositiontoemailaddresses-canonical-property"></a><span data-ttu-id="3348e-103">Каноническое свойство PidTagReportDispositionToEmailAddresses</span><span class="sxs-lookup"><span data-stu-id="3348e-103">PidTagReportDispositionToEmailAddresses Canonical Property</span></span>
+# <a name="pidtagreportdispositiontoemailaddresses-canonical-property"></a><span data-ttu-id="2611c-103">Каноническое свойство PidTagReportDispositionToEmailAddresses</span><span class="sxs-lookup"><span data-stu-id="2611c-103">PidTagReportDispositionToEmailAddresses Canonical Property</span></span>
 
   
   
-<span data-ttu-id="3348e-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3348e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="2611c-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2611c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="3348e-105">Указывает адреса электронной почты получателей отчетов для сообщений, запрашивающих уведомления.</span><span class="sxs-lookup"><span data-stu-id="3348e-105">Indicates email addresses of the report recipients for messages that request receipts.</span></span>
+<span data-ttu-id="2611c-105">Указывает адреса электронной почты получателей отчетов для сообщений, которые запрашивают квитанции.</span><span class="sxs-lookup"><span data-stu-id="2611c-105">Indicates email addresses of the report recipients for messages that request receipts.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="3348e-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="3348e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="3348e-107">PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_A PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_W</span><span class="sxs-lookup"><span data-stu-id="3348e-107">PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_A, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_W</span></span>  <br/> |
-|<span data-ttu-id="3348e-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="3348e-108">Identifier:</span></span>  <br/> |<span data-ttu-id="3348e-109">0x0084</span><span class="sxs-lookup"><span data-stu-id="3348e-109">0x0084</span></span>  <br/> |
-|<span data-ttu-id="3348e-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="3348e-110">Data type:</span></span>  <br/> |<span data-ttu-id="3348e-111">PT_MV_STRING8 PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="3348e-111">PT_MV_STRING8, PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="3348e-112">Область:</span><span class="sxs-lookup"><span data-stu-id="3348e-112">Area:</span></span>  <br/> |<span data-ttu-id="3348e-113">Конверт MAPI</span><span class="sxs-lookup"><span data-stu-id="3348e-113">MAPI envelope</span></span>  <br/> |
+|<span data-ttu-id="2611c-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="2611c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="2611c-107">PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_A, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_W</span><span class="sxs-lookup"><span data-stu-id="2611c-107">PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_A, PR_REPORT_DISPOSITION_TO_EMAIL_ADDRESSES_W</span></span>  <br/> |
+|<span data-ttu-id="2611c-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="2611c-108">Identifier:</span></span>  <br/> |<span data-ttu-id="2611c-109">0x0084</span><span class="sxs-lookup"><span data-stu-id="2611c-109">0x0084</span></span>  <br/> |
+|<span data-ttu-id="2611c-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="2611c-110">Data type:</span></span>  <br/> |<span data-ttu-id="2611c-111">PT_MV_STRING8, PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="2611c-111">PT_MV_STRING8, PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="2611c-112">Область:</span><span class="sxs-lookup"><span data-stu-id="2611c-112">Area:</span></span>  <br/> |<span data-ttu-id="2611c-113">Конверт MAPI</span><span class="sxs-lookup"><span data-stu-id="2611c-113">MAPI envelope</span></span>  <br/> |
    
-## <a name="related-resources"></a><span data-ttu-id="3348e-114">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="3348e-114">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="2611c-114">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="2611c-114">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="3348e-115">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="3348e-115">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="2611c-115">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="2611c-115">Protocol specifications</span></span>
 
-<span data-ttu-id="3348e-116">[[MS — ОКСПРОПС]]</span><span class="sxs-lookup"><span data-stu-id="3348e-116">[[MS-OXPROPS]]</span></span> 
+<span data-ttu-id="2611c-116">[[MS-OXPROPS]]</span><span class="sxs-lookup"><span data-stu-id="2611c-116">[[MS-OXPROPS]]</span></span> 
   
-> <span data-ttu-id="3348e-117">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="3348e-117">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="2611c-117">Содержит ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="2611c-117">Provides references to related Exchange Server protocol specifications.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="3348e-118">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="3348e-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="2611c-118">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="2611c-118">Header files</span></span>
 
-<span data-ttu-id="3348e-119">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="3348e-119">Mapidefs.h</span></span>
+<span data-ttu-id="2611c-119">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="2611c-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="3348e-120">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="3348e-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="2611c-120">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="2611c-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="3348e-121">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="3348e-121">Mapitags.h</span></span>
+<span data-ttu-id="2611c-121">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="2611c-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="3348e-122">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="3348e-122">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="2611c-122">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="2611c-122">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="3348e-123">См. также</span><span class="sxs-lookup"><span data-stu-id="3348e-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="2611c-123">См. также</span><span class="sxs-lookup"><span data-stu-id="2611c-123">See also</span></span>
 
 
 
-[<span data-ttu-id="3348e-124">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="3348e-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="2611c-124">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="2611c-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="3348e-125">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="3348e-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="2611c-125">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="2611c-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="3348e-126">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="3348e-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="2611c-126">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="2611c-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="3348e-127">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="3348e-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="2611c-127">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="2611c-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
