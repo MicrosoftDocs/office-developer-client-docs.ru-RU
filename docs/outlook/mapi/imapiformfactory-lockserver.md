@@ -1,5 +1,5 @@
 ---
-title: имапиформфакторилокксервер
+title: IMAPIFormFactoryLockServer
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32342142"
 ---
-# <a name="imapiformfactorylockserver"></a><span data-ttu-id="203c2-103">IMAPIFormFactory::LockServer</span><span class="sxs-lookup"><span data-stu-id="203c2-103">IMAPIFormFactory::LockServer</span></span>
+# <a name="imapiformfactorylockserver"></a><span data-ttu-id="1a140-103">IMAPIFormFactory::LockServer</span><span class="sxs-lookup"><span data-stu-id="1a140-103">IMAPIFormFactory::LockServer</span></span>
 
   
   
-<span data-ttu-id="203c2-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="203c2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1a140-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1a140-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="203c2-105">Сохраняет открытый сервер форм в памяти.</span><span class="sxs-lookup"><span data-stu-id="203c2-105">Keeps an open form server in memory.</span></span>
+<span data-ttu-id="1a140-105">Сохраняет открытый сервер форм в памяти.</span><span class="sxs-lookup"><span data-stu-id="1a140-105">Keeps an open form server in memory.</span></span>
   
 ```cpp
 HRESULT LockServer(
@@ -34,33 +34,33 @@ HRESULT LockServer(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="203c2-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="203c2-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1a140-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="1a140-106">Parameters</span></span>
 
- <span data-ttu-id="203c2-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="203c2-107">_ulFlags_</span></span>
+ <span data-ttu-id="1a140-107">_ulFlags_</span><span class="sxs-lookup"><span data-stu-id="1a140-107">_ulFlags_</span></span>
   
-> <span data-ttu-id="203c2-108">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="203c2-108">[in] Reserved; must be zero.</span></span>
+> <span data-ttu-id="1a140-108">[in] ���������������; ������ ���� ����� ����.</span><span class="sxs-lookup"><span data-stu-id="1a140-108">[in] Reserved; must be zero.</span></span>
     
- <span data-ttu-id="203c2-109">_флокксервер_</span><span class="sxs-lookup"><span data-stu-id="203c2-109">_fLockServer_</span></span>
+ <span data-ttu-id="1a140-109">_fLockServer_</span><span class="sxs-lookup"><span data-stu-id="1a140-109">_fLockServer_</span></span>
   
-> <span data-ttu-id="203c2-110">возврата **значение true** , чтобы увеличить число блокировок; в противном случае — **false**.</span><span class="sxs-lookup"><span data-stu-id="203c2-110">[in] **true** to increment the lock count; otherwise, **false**.</span></span>
+> <span data-ttu-id="1a140-110">[in] **имеет true,** чтобы повысьть количество блокировок; в **противном** случае false .</span><span class="sxs-lookup"><span data-stu-id="1a140-110">[in] **true** to increment the lock count; otherwise, **false**.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="203c2-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="203c2-111">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1a140-111">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1a140-111">Return value</span></span>
 
-<span data-ttu-id="203c2-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="203c2-112">S_OK</span></span> 
+<span data-ttu-id="1a140-112">S_OK</span><span class="sxs-lookup"><span data-stu-id="1a140-112">S_OK</span></span> 
   
-> <span data-ttu-id="203c2-113">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="203c2-113">The call succeeded and has returned the expected value or values.</span></span>
+> <span data-ttu-id="1a140-113">����� ������� � ������ ��������� ��������� ��� ��������.</span><span class="sxs-lookup"><span data-stu-id="1a140-113">The call succeeded and has returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="203c2-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="203c2-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1a140-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="1a140-114">Remarks</span></span>
 
-<span data-ttu-id="203c2-115">Средства просмотра форм вызывают метод **имапиформфактори:: локксервер** , чтобы сохранить открытое приложение в памяти для сервера.</span><span class="sxs-lookup"><span data-stu-id="203c2-115">Form viewers call the **IMAPIFormFactory::LockServer** method to keep an open form server application in memory.</span></span> <span data-ttu-id="203c2-116">Хранение сервера форм в памяти повышает производительность, когда формы часто создаются и освобождаются.</span><span class="sxs-lookup"><span data-stu-id="203c2-116">Keeping the form server in memory improves its performance when forms are frequently created and released.</span></span> 
+<span data-ttu-id="1a140-115">С помощью метода **IMAPIFormFactory::LockServer можно вызвать метод IMAPIFormFactory::LockServer,** чтобы сохранить открытое приложение сервера форм в памяти.</span><span class="sxs-lookup"><span data-stu-id="1a140-115">Form viewers call the **IMAPIFormFactory::LockServer** method to keep an open form server application in memory.</span></span> <span data-ttu-id="1a140-116">Сохранение сервера форм в памяти повышает его производительность, когда формы часто создаются и выпускаются.</span><span class="sxs-lookup"><span data-stu-id="1a140-116">Keeping the form server in memory improves its performance when forms are frequently created and released.</span></span> 
   
-## <a name="notes-to-implementers"></a><span data-ttu-id="203c2-117">Примечания для исполнителей</span><span class="sxs-lookup"><span data-stu-id="203c2-117">Notes to implementers</span></span>
+## <a name="notes-to-implementers"></a><span data-ttu-id="1a140-117">Примечания для исполнителей</span><span class="sxs-lookup"><span data-stu-id="1a140-117">Notes to implementers</span></span>
 
-<span data-ttu-id="203c2-118">Метод **имапиформфактори:: локксервер** очень похож на метод [IClassFactory:: локксервер](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="203c2-118">The **IMAPIFormFactory::LockServer** method is very similar to the [IClassFactory::LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) method.</span></span> <span data-ttu-id="203c2-119">По сути, метод **имапиформфактори:: локксервер** поддерживает количество вызовов, которые он вызывал; пока значение счетчика больше 0, метод предотвращает выгрузку сервера форм из памяти.</span><span class="sxs-lookup"><span data-stu-id="203c2-119">Essentially, the **IMAPIFormFactory::LockServer** method maintains a count of how many times it has been called; as long as that count is greater than 0, the method prevents the form server from being unloaded from memory.</span></span> <span data-ttu-id="203c2-120">Для реализации этого параметра можно использовать функцию [колоккобжектекстернал](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) .</span><span class="sxs-lookup"><span data-stu-id="203c2-120">You can use the [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) function to implement this.</span></span> 
+<span data-ttu-id="1a140-118">Метод **IMAPIFormFactory::LockServer** очень похож на метод [IClassFactory::LockServer.](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1a140-118">The **IMAPIFormFactory::LockServer** method is very similar to the [IClassFactory::LockServer](https://msdn.microsoft.com/library/ms682332%28v=VS.85%29.aspx) method.</span></span> <span data-ttu-id="1a140-119">По сути, метод **IMAPIFormFactory::LockServer** ведет подсчет, сколько раз он был вызван; Если это количество больше 0, метод предотвращает выгрузку сервера форм из памяти.</span><span class="sxs-lookup"><span data-stu-id="1a140-119">Essentially, the **IMAPIFormFactory::LockServer** method maintains a count of how many times it has been called; as long as that count is greater than 0, the method prevents the form server from being unloaded from memory.</span></span> <span data-ttu-id="1a140-120">Для реализации этой функции можно использовать функцию [CoLockObjectExternal.](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="1a140-120">You can use the [CoLockObjectExternal](https://msdn.microsoft.com/library/ms680592%28VS.85%29.aspx) function to implement this.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="203c2-121">См. также</span><span class="sxs-lookup"><span data-stu-id="203c2-121">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1a140-121">См. также</span><span class="sxs-lookup"><span data-stu-id="1a140-121">See also</span></span>
 
 
 
-[<span data-ttu-id="203c2-122">IMAPIFormFactory : IUnknown</span><span class="sxs-lookup"><span data-stu-id="203c2-122">IMAPIFormFactory : IUnknown</span></span>](imapiformfactoryiunknown.md)
+[<span data-ttu-id="1a140-122">IMAPIFormFactory : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1a140-122">IMAPIFormFactory : IUnknown</span></span>](imapiformfactoryiunknown.md)
 

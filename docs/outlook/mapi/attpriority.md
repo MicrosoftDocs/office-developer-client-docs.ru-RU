@@ -15,18 +15,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434524"
 ---
-# <a name="attpriority"></a><span data-ttu-id="80e64-103">attPriority</span><span class="sxs-lookup"><span data-stu-id="80e64-103">attPriority</span></span>
+# <a name="attpriority"></a><span data-ttu-id="750a5-103">attPriority</span><span class="sxs-lookup"><span data-stu-id="750a5-103">attPriority</span></span>
 
   
   
-<span data-ttu-id="80e64-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="80e64-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="750a5-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="750a5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="80e64-105">Приоритеты сообщений MAPI сопоставляются со значениями формата TNEF для обратной совместимости следующим образом:</span><span class="sxs-lookup"><span data-stu-id="80e64-105">MAPI message priorities are mapped to TNEF values for backward compatibility as follows:</span></span>
+<span data-ttu-id="750a5-105">Приоритеты сообщений MAPI соотнося со значениями TNEF для обеспечения обратной совместимости следующим образом:</span><span class="sxs-lookup"><span data-stu-id="750a5-105">MAPI message priorities are mapped to TNEF values for backward compatibility as follows:</span></span>
   
-|<span data-ttu-id="80e64-106">**Priority**</span><span class="sxs-lookup"><span data-stu-id="80e64-106">**Priority**</span></span>|<span data-ttu-id="80e64-107">**Значение MAPI**</span><span class="sxs-lookup"><span data-stu-id="80e64-107">**MAPI value**</span></span>|<span data-ttu-id="80e64-108">**Значение TNEF**</span><span class="sxs-lookup"><span data-stu-id="80e64-108">**TNEF value**</span></span>|
+|<span data-ttu-id="750a5-106">**Priority**</span><span class="sxs-lookup"><span data-stu-id="750a5-106">**Priority**</span></span>|<span data-ttu-id="750a5-107">**Значение MAPI**</span><span class="sxs-lookup"><span data-stu-id="750a5-107">**MAPI value**</span></span>|<span data-ttu-id="750a5-108">**Значение TNEF**</span><span class="sxs-lookup"><span data-stu-id="750a5-108">**TNEF value**</span></span>|
 |:-----|:-----|:-----|
-|<span data-ttu-id="80e64-109">обычный</span><span class="sxs-lookup"><span data-stu-id="80e64-109">normal</span></span>  <br/> |<span data-ttu-id="80e64-110">–1</span><span class="sxs-lookup"><span data-stu-id="80e64-110">-1</span></span>  <br/> |<span data-ttu-id="80e64-111">4</span><span class="sxs-lookup"><span data-stu-id="80e64-111">3</span></span>  <br/> |
-|<span data-ttu-id="80e64-112">высокоуровневых</span><span class="sxs-lookup"><span data-stu-id="80e64-112">high</span></span>  <br/> |<span data-ttu-id="80e64-113">нуль</span><span class="sxs-lookup"><span data-stu-id="80e64-113">0</span></span>  <br/> |<span data-ttu-id="80e64-114">2</span><span class="sxs-lookup"><span data-stu-id="80e64-114">2</span></span>  <br/> |
-|<span data-ttu-id="80e64-115">потребление</span><span class="sxs-lookup"><span data-stu-id="80e64-115">low</span></span>  <br/> |<span data-ttu-id="80e64-116">1,1</span><span class="sxs-lookup"><span data-stu-id="80e64-116">1</span></span>  <br/> |<span data-ttu-id="80e64-117">1,1</span><span class="sxs-lookup"><span data-stu-id="80e64-117">1</span></span>  <br/> |
+|<span data-ttu-id="750a5-109">normal</span><span class="sxs-lookup"><span data-stu-id="750a5-109">normal</span></span>  <br/> |<span data-ttu-id="750a5-110">–1</span><span class="sxs-lookup"><span data-stu-id="750a5-110">-1</span></span>  <br/> |<span data-ttu-id="750a5-111">3 </span><span class="sxs-lookup"><span data-stu-id="750a5-111">3</span></span>  <br/> |
+|<span data-ttu-id="750a5-112">high</span><span class="sxs-lookup"><span data-stu-id="750a5-112">high</span></span>  <br/> |<span data-ttu-id="750a5-113">0</span><span class="sxs-lookup"><span data-stu-id="750a5-113">0</span></span>  <br/> |<span data-ttu-id="750a5-114">2 </span><span class="sxs-lookup"><span data-stu-id="750a5-114">2</span></span>  <br/> |
+|<span data-ttu-id="750a5-115">low</span><span class="sxs-lookup"><span data-stu-id="750a5-115">low</span></span>  <br/> |<span data-ttu-id="750a5-116">1 </span><span class="sxs-lookup"><span data-stu-id="750a5-116">1</span></span>  <br/> |<span data-ttu-id="750a5-117">1 </span><span class="sxs-lookup"><span data-stu-id="750a5-117">1</span></span>  <br/> |
    
 

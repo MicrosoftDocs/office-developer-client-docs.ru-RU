@@ -1,5 +1,5 @@
 ---
-title: Ввод пустой формулы
+title: Введите пустую формулу
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -16,13 +16,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405683"
 ---
-# <a name="enter-an-empty-formula"></a><span data-ttu-id="b3dae-102">Ввод пустой формулы</span><span class="sxs-lookup"><span data-stu-id="b3dae-102">Enter an Empty Formula</span></span>
+# <a name="enter-an-empty-formula"></a><span data-ttu-id="c07b3-102">Введите пустую формулу</span><span class="sxs-lookup"><span data-stu-id="c07b3-102">Enter an Empty Formula</span></span>
 
-1. <span data-ttu-id="b3dae-103">Выберите ячейку, которая будет содержать формулу.</span><span class="sxs-lookup"><span data-stu-id="b3dae-103">Select the cell that will contain the formula.</span></span>
+1. <span data-ttu-id="c07b3-103">Выберите ячейку, которая будет содержать формулу.</span><span class="sxs-lookup"><span data-stu-id="c07b3-103">Select the cell that will contain the formula.</span></span>
     
-2. <span data-ttu-id="b3dae-104">Нажмите клавишу DELETE, а затем клавишу ВВОД.</span><span class="sxs-lookup"><span data-stu-id="b3dae-104">Press DELETE, and then press ENTER.</span></span>
+2. <span data-ttu-id="c07b3-104">Нажмите delete и нажмите ввод.</span><span class="sxs-lookup"><span data-stu-id="c07b3-104">Press DELETE, and then press ENTER.</span></span>
     
 > [!NOTE]
-> <span data-ttu-id="b3dae-105">Попробуйте это сделать во **вспомогательной** ячейке после вставки локальной формулы.</span><span class="sxs-lookup"><span data-stu-id="b3dae-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="b3dae-106">Ячейка возвращает значение "No формула", так как не существует формулы, которая наследуется от образца.</span><span class="sxs-lookup"><span data-stu-id="b3dae-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
+> <span data-ttu-id="c07b3-105">Попробуйте это в **ячейке Scratch** после вставки локальной формулы.</span><span class="sxs-lookup"><span data-stu-id="c07b3-105">Try this in a **Scratch** cell after inserting a local formula.</span></span> <span data-ttu-id="c07b3-106">Ячейка возвращается к "Нет формулы", так как нет формулы для наследования от хозяина.</span><span class="sxs-lookup"><span data-stu-id="c07b3-106">The cell reverts to 'No Formula', because there is no formula to inherit from the master.</span></span> 
   
 

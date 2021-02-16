@@ -16,26 +16,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404493"
 ---
-# <a name="ygridorigin-cell-ruler-amp-grid-section"></a><span data-ttu-id="6a35c-103">Ячейка YGridOrigin (раздел "Линейка и сетка")</span><span class="sxs-lookup"><span data-stu-id="6a35c-103">YGridOrigin Cell (Ruler &amp; Grid Section)</span></span>
+# <a name="ygridorigin-cell-ruler-amp-grid-section"></a><span data-ttu-id="fedda-103">Ячейка YGridOrigin (раздел "Линейка и сетка")</span><span class="sxs-lookup"><span data-stu-id="fedda-103">YGridOrigin Cell (Ruler &amp; Grid Section)</span></span>
 
-<span data-ttu-id="6a35c-104">Указывает начало сетки по вертикали.</span><span class="sxs-lookup"><span data-stu-id="6a35c-104">Specifies the vertical origin of the grid.</span></span>
+<span data-ttu-id="fedda-104">Указывает начало сетки по вертикали.</span><span class="sxs-lookup"><span data-stu-id="fedda-104">Specifies the vertical origin of the grid.</span></span>
   
-## <a name="remarks"></a><span data-ttu-id="6a35c-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="6a35c-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="fedda-105">Замечания</span><span class="sxs-lookup"><span data-stu-id="fedda-105">Remarks</span></span>
 
-<span data-ttu-id="6a35c-106">Эта ячейка соответствует параметру **Начало сетки по вертикали** в диалоговом окне **Линейка и сетка** (на вкладке **Вид** нужно выбрать стрелку **Показать**).</span><span class="sxs-lookup"><span data-stu-id="6a35c-106">This cell corresponds to the vertical **Grid origin** option in the **Ruler &amp; Grid** dialog box (on the **View** tab, click the **Show** arrow).</span></span> 
+<span data-ttu-id="fedda-106">Эта ячейка соответствует параметру **Начало сетки по вертикали** в диалоговом окне **Линейка и сетка** (на вкладке **Вид** нужно выбрать стрелку **Показать**).</span><span class="sxs-lookup"><span data-stu-id="fedda-106">This cell corresponds to the vertical **Grid origin** option in the **Ruler &amp; Grid** dialog box (on the **View** tab, click the **Show** arrow).</span></span> 
   
-<span data-ttu-id="6a35c-107">Чтобы получить ссылку на ячейку YGridOrigin по имени из другой формулы или из программы с помощью свойства **CellsU**, укажите следующее:</span><span class="sxs-lookup"><span data-stu-id="6a35c-107">To get a reference to the YGridOrigin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="fedda-107">Чтобы получить ссылку на ячейку YGridOrigin по имени из другой формулы или из программы с помощью свойства **CellsU**, укажите следующее:</span><span class="sxs-lookup"><span data-stu-id="fedda-107">To get a reference to the YGridOrigin cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6a35c-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="6a35c-108">Cell name:</span></span>  <br/> |<span data-ttu-id="6a35c-109">YGridOrigin</span><span class="sxs-lookup"><span data-stu-id="6a35c-109">YGridOrigin</span></span>  <br/> |
+|<span data-ttu-id="fedda-108">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="fedda-108">Cell name:</span></span>  <br/> |<span data-ttu-id="fedda-109">YGridOrigin</span><span class="sxs-lookup"><span data-stu-id="fedda-109">YGridOrigin</span></span>  <br/> |
    
-<span data-ttu-id="6a35c-110">Чтобы получить ссылку на ячейку YGridOrigin по индексу из программы, укажите свойство **CellsSRC** с такими аргументами:</span><span class="sxs-lookup"><span data-stu-id="6a35c-110">To get a reference to the YGridOrigin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="fedda-110">Чтобы получить ссылку на ячейку YGridOrigin по индексу из программы, укажите свойство **CellsSRC** с такими аргументами:</span><span class="sxs-lookup"><span data-stu-id="fedda-110">To get a reference to the YGridOrigin cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="6a35c-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="6a35c-111">Section index:</span></span>  <br/> |<span data-ttu-id="6a35c-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="6a35c-112">**visSectionObject**</span></span> <br/> |
-|<span data-ttu-id="6a35c-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="6a35c-113">Row index:</span></span>  <br/> |<span data-ttu-id="6a35c-114">**visRowRulerGrid**</span><span class="sxs-lookup"><span data-stu-id="6a35c-114">**visRowRulerGrid**</span></span> <br/> |
-|<span data-ttu-id="6a35c-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="6a35c-115">Cell index:</span></span>  <br/> |<span data-ttu-id="6a35c-116">**visYGridOrigin**</span><span class="sxs-lookup"><span data-stu-id="6a35c-116">**visYGridOrigin**</span></span> <br/> |
+|<span data-ttu-id="fedda-111">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="fedda-111">Section index:</span></span>  <br/> |<span data-ttu-id="fedda-112">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="fedda-112">**visSectionObject**</span></span> <br/> |
+|<span data-ttu-id="fedda-113">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="fedda-113">Row index:</span></span>  <br/> |<span data-ttu-id="fedda-114">**visRowRulerGrid**</span><span class="sxs-lookup"><span data-stu-id="fedda-114">**visRowRulerGrid**</span></span> <br/> |
+|<span data-ttu-id="fedda-115">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="fedda-115">Cell index:</span></span>  <br/> |<span data-ttu-id="fedda-116">**visYGridOrigin**</span><span class="sxs-lookup"><span data-stu-id="fedda-116">**visYGridOrigin**</span></span> <br/> |
    
 

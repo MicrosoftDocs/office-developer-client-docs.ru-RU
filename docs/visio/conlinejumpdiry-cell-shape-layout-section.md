@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251654
 localization_priority: Normal
 ms.assetid: 93f82ae0-3442-fac1-9906-b84afef85f5c
-description: Определяет направление пересечения линий при пересечении вертикальной динамической соединительной линии для фигуры.
+description: Определяет направление перехода по строке для переходов по линии, происходящих на вертикальном динамическом соединители для фигуры.
 ms.openlocfilehash: f86c77da62042d1bc2c0274564efa9fdb0887971
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,32 +16,32 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404773"
 ---
-# <a name="conlinejumpdiry-cell-shape-layout-section"></a><span data-ttu-id="4c7dc-103">ConLineJumpDirY Cell (Shape Layout Section)</span><span class="sxs-lookup"><span data-stu-id="4c7dc-103">ConLineJumpDirY Cell (Shape Layout Section)</span></span>
+# <a name="conlinejumpdiry-cell-shape-layout-section"></a><span data-ttu-id="40937-103">ConLineJumpDirY Cell (Shape Layout Section)</span><span class="sxs-lookup"><span data-stu-id="40937-103">ConLineJumpDirY Cell (Shape Layout Section)</span></span>
 
-<span data-ttu-id="4c7dc-104">Определяет направление пересечения линий при пересечении вертикальной динамической соединительной линии для фигуры.</span><span class="sxs-lookup"><span data-stu-id="4c7dc-104">Determines the line jump direction for line jumps occurring on a vertical dynamic connector for a shape.</span></span>
+<span data-ttu-id="40937-104">Определяет направление перехода по строке для переходов по вертикали динамического соединителя для фигуры.</span><span class="sxs-lookup"><span data-stu-id="40937-104">Determines the line jump direction for line jumps occurring on a vertical dynamic connector for a shape.</span></span>
   
-|<span data-ttu-id="4c7dc-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="4c7dc-105">**Value**</span></span>|<span data-ttu-id="4c7dc-106">**Направление пересечения линий**</span><span class="sxs-lookup"><span data-stu-id="4c7dc-106">**Line Jump Direction**</span></span>|<span data-ttu-id="4c7dc-107">**Константа автоматизации**</span><span class="sxs-lookup"><span data-stu-id="4c7dc-107">**Automation constant**</span></span>|
+|<span data-ttu-id="40937-105">**Значение**</span><span class="sxs-lookup"><span data-stu-id="40937-105">**Value**</span></span>|<span data-ttu-id="40937-106">**Направление перехода по строке**</span><span class="sxs-lookup"><span data-stu-id="40937-106">**Line Jump Direction**</span></span>|<span data-ttu-id="40937-107">**Константа автоматизации**</span><span class="sxs-lookup"><span data-stu-id="40937-107">**Automation constant**</span></span>|
 |:-----|:-----|:-----|
-| <span data-ttu-id="4c7dc-108">нуль</span><span class="sxs-lookup"><span data-stu-id="4c7dc-108">0</span></span>  <br/> | <span data-ttu-id="4c7dc-109">Страница по умолчанию</span><span class="sxs-lookup"><span data-stu-id="4c7dc-109">Page default</span></span>  <br/> |<span data-ttu-id="4c7dc-110">**висложумпдиридефаулт**</span><span class="sxs-lookup"><span data-stu-id="4c7dc-110">**visLOJumpDirYDefault**</span></span> <br/> |
-| <span data-ttu-id="4c7dc-111">1,1</span><span class="sxs-lookup"><span data-stu-id="4c7dc-111">1</span></span>  <br/> | <span data-ttu-id="4c7dc-112">Left</span><span class="sxs-lookup"><span data-stu-id="4c7dc-112">Left</span></span>  <br/> |<span data-ttu-id="4c7dc-113">**висложумпдирилефт**</span><span class="sxs-lookup"><span data-stu-id="4c7dc-113">**visLOJumpDirYLeft**</span></span> <br/> |
-| <span data-ttu-id="4c7dc-114">2</span><span class="sxs-lookup"><span data-stu-id="4c7dc-114">2</span></span>  <br/> | <span data-ttu-id="4c7dc-115">Right</span><span class="sxs-lookup"><span data-stu-id="4c7dc-115">Right</span></span>  <br/> |<span data-ttu-id="4c7dc-116">**висложумпдириригхт**</span><span class="sxs-lookup"><span data-stu-id="4c7dc-116">**visLOJumpDirYRight**</span></span> <br/> |
+| <span data-ttu-id="40937-108">0</span><span class="sxs-lookup"><span data-stu-id="40937-108">0</span></span>  <br/> | <span data-ttu-id="40937-109">Страница по умолчанию</span><span class="sxs-lookup"><span data-stu-id="40937-109">Page default</span></span>  <br/> |<span data-ttu-id="40937-110">**visLOJumpDirYDefault**</span><span class="sxs-lookup"><span data-stu-id="40937-110">**visLOJumpDirYDefault**</span></span> <br/> |
+| <span data-ttu-id="40937-111">1 </span><span class="sxs-lookup"><span data-stu-id="40937-111">1</span></span>  <br/> | <span data-ttu-id="40937-112">Left</span><span class="sxs-lookup"><span data-stu-id="40937-112">Left</span></span>  <br/> |<span data-ttu-id="40937-113">**visLOJumpDirYLeft**</span><span class="sxs-lookup"><span data-stu-id="40937-113">**visLOJumpDirYLeft**</span></span> <br/> |
+| <span data-ttu-id="40937-114">2 </span><span class="sxs-lookup"><span data-stu-id="40937-114">2</span></span>  <br/> | <span data-ttu-id="40937-115">Right</span><span class="sxs-lookup"><span data-stu-id="40937-115">Right</span></span>  <br/> |<span data-ttu-id="40937-116">**visLOJumpDirYRight**</span><span class="sxs-lookup"><span data-stu-id="40937-116">**visLOJumpDirYRight**</span></span> <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="4c7dc-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="4c7dc-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="40937-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="40937-117">Remarks</span></span>
 
-<span data-ttu-id="4c7dc-118">Чтобы задать вертикальное направление по умолчанию для *всех* переходов между соединителями на странице, используйте ячейку PageLineJumpDirY в разделе Макет страницы.</span><span class="sxs-lookup"><span data-stu-id="4c7dc-118">To set the default vertical direction for  *all*  connector jumps on a page, use the PageLineJumpDirY cell in the Page Layout section.</span></span> 
+<span data-ttu-id="40937-118">Чтобы установить вертикальное  направление по умолчанию для всех переходов соединителя на странице, используйте ячейку PageLineJumpDirY в разделе "Макет страницы".</span><span class="sxs-lookup"><span data-stu-id="40937-118">To set the default vertical direction for  *all*  connector jumps on a page, use the PageLineJumpDirY cell in the Page Layout section.</span></span> 
   
-<span data-ttu-id="4c7dc-119">Чтобы получить ссылку на ячейку ConLineJumpDirY по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее:</span><span class="sxs-lookup"><span data-stu-id="4c7dc-119">To get a reference to the ConLineJumpDirY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="40937-119">Чтобы получить ссылку на ячейку ConLineJumpDirY по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте:</span><span class="sxs-lookup"><span data-stu-id="40937-119">To get a reference to the ConLineJumpDirY cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="4c7dc-120">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="4c7dc-120">Cell name:</span></span>  <br/> | <span data-ttu-id="4c7dc-121">ConLineJumpDirY</span><span class="sxs-lookup"><span data-stu-id="4c7dc-121">ConLineJumpDirY</span></span>  <br/> |
+| <span data-ttu-id="40937-120">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="40937-120">Cell name:</span></span>  <br/> | <span data-ttu-id="40937-121">ConLineJumpDiry</span><span class="sxs-lookup"><span data-stu-id="40937-121">ConLineJumpDirY</span></span>  <br/> |
    
-<span data-ttu-id="4c7dc-122">Чтобы получить ссылку на ячейку ConLineJumpDirY по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="4c7dc-122">To get a reference to the ConLineJumpDirY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="40937-122">Чтобы получить ссылку на ячейку ConLineJumpDirY по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="40937-122">To get a reference to the ConLineJumpDirY cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="4c7dc-123">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="4c7dc-123">Section index:</span></span>  <br/> |<span data-ttu-id="4c7dc-124">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="4c7dc-124">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="4c7dc-125">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="4c7dc-125">Row index:</span></span>  <br/> |<span data-ttu-id="4c7dc-126">**висровшапелайаут**</span><span class="sxs-lookup"><span data-stu-id="4c7dc-126">**visRowShapeLayout**</span></span> <br/> |
-| <span data-ttu-id="4c7dc-127">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="4c7dc-127">Cell index:</span></span>  <br/> |<span data-ttu-id="4c7dc-128">**виссложумпдири**</span><span class="sxs-lookup"><span data-stu-id="4c7dc-128">**visSLOJumpDirY**</span></span> <br/> |
+| <span data-ttu-id="40937-123">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="40937-123">Section index:</span></span>  <br/> |<span data-ttu-id="40937-124">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="40937-124">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="40937-125">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="40937-125">Row index:</span></span>  <br/> |<span data-ttu-id="40937-126">**visRowShapeLayout**</span><span class="sxs-lookup"><span data-stu-id="40937-126">**visRowShapeLayout**</span></span> <br/> |
+| <span data-ttu-id="40937-127">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="40937-127">Cell index:</span></span>  <br/> |<span data-ttu-id="40937-128">**visSLOJumpDirY**</span><span class="sxs-lookup"><span data-stu-id="40937-128">**visSLOJumpDirY**</span></span> <br/> |
    
 

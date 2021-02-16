@@ -19,37 +19,37 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420257"
 ---
-# <a name="cbmapiformproparray"></a><span data-ttu-id="1c2a0-103">CbMAPIFormPropArray</span><span class="sxs-lookup"><span data-stu-id="1c2a0-103">CbMAPIFormPropArray</span></span>
+# <a name="cbmapiformproparray"></a><span data-ttu-id="41f92-103">CbMAPIFormPropArray</span><span class="sxs-lookup"><span data-stu-id="41f92-103">CbMAPIFormPropArray</span></span>
 
   
   
-<span data-ttu-id="1c2a0-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1c2a0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="41f92-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="41f92-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1c2a0-105">Вычисляет количество байтов в существующей структуре [смапиформпропаррай](smapiformproparray.md) , которая содержит указанное число структур [смапиформпроп](smapiformprop.md) .</span><span class="sxs-lookup"><span data-stu-id="1c2a0-105">Computes the number of bytes in an existing [SMAPIFormPropArray](smapiformproparray.md) structure that contains a specified number of [SMAPIFormProp](smapiformprop.md) structures.</span></span> 
+<span data-ttu-id="41f92-105">Вычисляет количество ветвей в существующей структуре [SMAPIFormPropArray,](smapiformproparray.md) которая содержит указанное число структур [SMAPIFormProp.](smapiformprop.md)</span><span class="sxs-lookup"><span data-stu-id="41f92-105">Computes the number of bytes in an existing [SMAPIFormPropArray](smapiformproparray.md) structure that contains a specified number of [SMAPIFormProp](smapiformprop.md) structures.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1c2a0-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="1c2a0-106">Header file:</span></span>  <br/> |<span data-ttu-id="1c2a0-107">Мапиформ. h</span><span class="sxs-lookup"><span data-stu-id="1c2a0-107">Mapiform.h</span></span>  <br/> |
-|<span data-ttu-id="1c2a0-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="1c2a0-108">Related structure:</span></span>  <br/> |<span data-ttu-id="1c2a0-109">**SMAPIFormPropArray**</span><span class="sxs-lookup"><span data-stu-id="1c2a0-109">**SMAPIFormPropArray**</span></span> <br/> |
+|<span data-ttu-id="41f92-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="41f92-106">Header file:</span></span>  <br/> |<span data-ttu-id="41f92-107">Mapiform.h</span><span class="sxs-lookup"><span data-stu-id="41f92-107">Mapiform.h</span></span>  <br/> |
+|<span data-ttu-id="41f92-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="41f92-108">Related structure:</span></span>  <br/> |<span data-ttu-id="41f92-109">**SMAPIFormPropArray**</span><span class="sxs-lookup"><span data-stu-id="41f92-109">**SMAPIFormPropArray**</span></span> <br/> |
    
 ```cpp
 CbMAPIFormPropArray (_c)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="1c2a0-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="1c2a0-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="41f92-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="41f92-110">Parameters</span></span>
 
- <span data-ttu-id="1c2a0-111">__c_</span><span class="sxs-lookup"><span data-stu-id="1c2a0-111">__c_</span></span>
+ <span data-ttu-id="41f92-111">_ _c_</span><span class="sxs-lookup"><span data-stu-id="41f92-111">_ _c_</span></span>
   
-> <span data-ttu-id="1c2a0-112">Количество структур **смапиформпроп** в рассматриваемой структуре **смапиформпропаррай** .</span><span class="sxs-lookup"><span data-stu-id="1c2a0-112">Count of **SMAPIFormProp** structures in the **SMAPIFormPropArray** structure in question.</span></span> 
+> <span data-ttu-id="41f92-112">Количество структур **SMAPIFormProp** в структуре **SMAPIFormPropArray.**</span><span class="sxs-lookup"><span data-stu-id="41f92-112">Count of **SMAPIFormProp** structures in the **SMAPIFormPropArray** structure in question.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="1c2a0-113">См. также</span><span class="sxs-lookup"><span data-stu-id="1c2a0-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="41f92-113">См. также</span><span class="sxs-lookup"><span data-stu-id="41f92-113">See also</span></span>
 
 
 
-[<span data-ttu-id="1c2a0-114">SMAPIFormPropArray</span><span class="sxs-lookup"><span data-stu-id="1c2a0-114">SMAPIFormPropArray</span></span>](smapiformproparray.md)
+[<span data-ttu-id="41f92-114">SMAPIFormPropArray</span><span class="sxs-lookup"><span data-stu-id="41f92-114">SMAPIFormPropArray</span></span>](smapiformproparray.md)
   
-[<span data-ttu-id="1c2a0-115">SMAPIFormProp</span><span class="sxs-lookup"><span data-stu-id="1c2a0-115">SMAPIFormProp</span></span>](smapiformprop.md)
+[<span data-ttu-id="41f92-115">SMAPIFormProp</span><span class="sxs-lookup"><span data-stu-id="41f92-115">SMAPIFormProp</span></span>](smapiformprop.md)
 
 
-[<span data-ttu-id="1c2a0-116">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="1c2a0-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="41f92-116">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="41f92-116">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

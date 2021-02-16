@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424478"
 ---
-# <a name="sbitmaskrestriction"></a><span data-ttu-id="78144-103">SBitMaskRestriction</span><span class="sxs-lookup"><span data-stu-id="78144-103">SBitMaskRestriction</span></span>
+# <a name="sbitmaskrestriction"></a><span data-ttu-id="de5ce-103">SBitMaskRestriction</span><span class="sxs-lookup"><span data-stu-id="de5ce-103">SBitMaskRestriction</span></span>
 
   
   
-<span data-ttu-id="78144-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="78144-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="de5ce-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="de5ce-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="78144-105">Описывает ограничение битовой маски, которое используется для выполнения поразрядной операции **and** и проверки результата.</span><span class="sxs-lookup"><span data-stu-id="78144-105">Describes a bitmask restriction, which is used to perform a bitwise **AND** operation and test the result.</span></span> 
+<span data-ttu-id="de5ce-105">Описывает ограничение битовыхmask, которое используется для выполнения по битовых операций **AND** и проверки результата.</span><span class="sxs-lookup"><span data-stu-id="de5ce-105">Describes a bitmask restriction, which is used to perform a bitwise **AND** operation and test the result.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="78144-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="78144-106">Header file:</span></span>  <br/> |<span data-ttu-id="78144-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="78144-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="de5ce-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="de5ce-106">Header file:</span></span>  <br/> |<span data-ttu-id="de5ce-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="de5ce-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SBitMaskRestriction
@@ -41,40 +41,40 @@ typedef struct _SBitMaskRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="78144-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="78144-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="de5ce-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="de5ce-108">Members</span></span>
 
- <span data-ttu-id="78144-109">**релбмр**</span><span class="sxs-lookup"><span data-stu-id="78144-109">**relBMR**</span></span>
+ <span data-ttu-id="de5ce-109">**relBMR**</span><span class="sxs-lookup"><span data-stu-id="de5ce-109">**relBMR**</span></span>
   
-> <span data-ttu-id="78144-110">Оператор отношения, описывающий, как маска, указанная в элементе **улмаск** , должна быть применена к тегу свойства.</span><span class="sxs-lookup"><span data-stu-id="78144-110">Relational operator that describes how the mask specified in the **ulMask** member should be applied to the property tag.</span></span> <span data-ttu-id="78144-111">Возможны следующие значения:</span><span class="sxs-lookup"><span data-stu-id="78144-111">Possible values are as follows:</span></span> 
+> <span data-ttu-id="de5ce-110">Реляционный оператор, который описывает, как маска, указанная в члене **ulMask,** должна применяться к тегу свойства.</span><span class="sxs-lookup"><span data-stu-id="de5ce-110">Relational operator that describes how the mask specified in the **ulMask** member should be applied to the property tag.</span></span> <span data-ttu-id="de5ce-111">Возможные значения:</span><span class="sxs-lookup"><span data-stu-id="de5ce-111">Possible values are as follows:</span></span> 
     
-<span data-ttu-id="78144-112">BMR_EQZ</span><span class="sxs-lookup"><span data-stu-id="78144-112">BMR_EQZ</span></span> 
+<span data-ttu-id="de5ce-112">BMR_EQZ</span><span class="sxs-lookup"><span data-stu-id="de5ce-112">BMR_EQZ</span></span> 
   
-> <span data-ttu-id="78144-113">Выполните побитовую операцию **and** для маски в элементе **улмаск** со свойством, представленным элементом **улпроптаг** , и протестируйте его равным нулю.</span><span class="sxs-lookup"><span data-stu-id="78144-113">Perform a bitwise **AND** operation of the mask in the **ulMask** member with the property represented by the **ulPropTag** member and test for being equal to zero.</span></span> 
+> <span data-ttu-id="de5ce-113">Выполните по битовую **операцию AND** маски в члене **ulMask** со свойством, представленным членом **ulPropTag,** и проверьте, равно ли она нулю.</span><span class="sxs-lookup"><span data-stu-id="de5ce-113">Perform a bitwise **AND** operation of the mask in the **ulMask** member with the property represented by the **ulPropTag** member and test for being equal to zero.</span></span> 
     
-<span data-ttu-id="78144-114">BMR_NEZ</span><span class="sxs-lookup"><span data-stu-id="78144-114">BMR_NEZ</span></span> 
+<span data-ttu-id="de5ce-114">BMR_NEZ</span><span class="sxs-lookup"><span data-stu-id="de5ce-114">BMR_NEZ</span></span> 
   
-> <span data-ttu-id="78144-115">Выполните побитовую операцию **and** для маски в элементе **улмаск** со свойством, представленным элементом **улпроптаг** , и проверьте, что оно не равно нулю.</span><span class="sxs-lookup"><span data-stu-id="78144-115">Perform a bitwise **AND** operation of the mask in the **ulMask** member with the property represented by the **ulPropTag** member and test for being not equal to zero.</span></span> 
+> <span data-ttu-id="de5ce-115">Выполните по битовую операцию **AND** маски в члене **ulMask** со свойством, представленным членом **ulPropTag,** и проверьте, не равна ли она нулю.</span><span class="sxs-lookup"><span data-stu-id="de5ce-115">Perform a bitwise **AND** operation of the mask in the **ulMask** member with the property represented by the **ulPropTag** member and test for being not equal to zero.</span></span> 
     
- <span data-ttu-id="78144-116">**улпроптаг**</span><span class="sxs-lookup"><span data-stu-id="78144-116">**ulPropTag**</span></span>
+ <span data-ttu-id="de5ce-116">**ulPropTag**</span><span class="sxs-lookup"><span data-stu-id="de5ce-116">**ulPropTag**</span></span>
   
-> <span data-ttu-id="78144-117">Тег свойства свойства, к которому применяется битовая маска.</span><span class="sxs-lookup"><span data-stu-id="78144-117">Property tag of the property to which the bitmask is applied.</span></span>
+> <span data-ttu-id="de5ce-117">Тег свойства, к которому применяется битоваяmask.</span><span class="sxs-lookup"><span data-stu-id="de5ce-117">Property tag of the property to which the bitmask is applied.</span></span>
     
- <span data-ttu-id="78144-118">**улмаск**</span><span class="sxs-lookup"><span data-stu-id="78144-118">**ulMask**</span></span>
+ <span data-ttu-id="de5ce-118">**ulMask**</span><span class="sxs-lookup"><span data-stu-id="de5ce-118">**ulMask**</span></span>
   
-> <span data-ttu-id="78144-119">Битовая маска, применяемая к свойству, определенному с помощью **улпроптаг**.</span><span class="sxs-lookup"><span data-stu-id="78144-119">Bitmask to apply to the property identified by **ulPropTag**.</span></span>
+> <span data-ttu-id="de5ce-119">Битоваяmask, применяемая к свойству, идентифицированного **ulPropTag.**</span><span class="sxs-lookup"><span data-stu-id="de5ce-119">Bitmask to apply to the property identified by **ulPropTag**.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="78144-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="78144-120">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="de5ce-120">Примечания</span><span class="sxs-lookup"><span data-stu-id="de5ce-120">Remarks</span></span>
 
-<span data-ttu-id="78144-121">Структура **сбитмаскрестриктион** выполняет битовую операцию **и** использует битовую маску, описанную в элементе **улмаск** , и значение свойства, описываемого элементом **улпроптаг** .</span><span class="sxs-lookup"><span data-stu-id="78144-121">The **SBitMaskRestriction** structure performs a bitwise **AND** operation using the bitmask described in the **ulMask** member and the value of the property described by the **ulPropTag** member.</span></span> <span data-ttu-id="78144-122">Если результат равен нулю, BMR_EQZ является удовлетворенным.</span><span class="sxs-lookup"><span data-stu-id="78144-122">If the result is zero, BMR_EQZ is satisfied.</span></span> <span data-ttu-id="78144-123">Если это ненулевое значение, то есть, если значение свойства имеет по крайней мере один такой же бит, что и **улмаск**, то BMR_NEZ удовлетворяется.</span><span class="sxs-lookup"><span data-stu-id="78144-123">If it is nonzero, that is, if the property value has at least one of the same bits set as **ulMask**, then BMR_NEZ is satisfied.</span></span>
+<span data-ttu-id="de5ce-121">Структура **SBitMaskRestriction** выполняет побитовую операцию **AND,** используя битовуюmask, описанную в члене **ulMask,** и значение свойства, описанное в члене **ulPropTag.**</span><span class="sxs-lookup"><span data-stu-id="de5ce-121">The **SBitMaskRestriction** structure performs a bitwise **AND** operation using the bitmask described in the **ulMask** member and the value of the property described by the **ulPropTag** member.</span></span> <span data-ttu-id="de5ce-122">Если результат — ноль, BMR_EQZ удовлетворены.</span><span class="sxs-lookup"><span data-stu-id="de5ce-122">If the result is zero, BMR_EQZ is satisfied.</span></span> <span data-ttu-id="de5ce-123">Если он ненулев, то есть, если значение свойства имеет по крайней мере один из тех же битов, установленных как **ulMask,** BMR_NEZ удовлетворены.</span><span class="sxs-lookup"><span data-stu-id="de5ce-123">If it is nonzero, that is, if the property value has at least one of the same bits set as **ulMask**, then BMR_NEZ is satisfied.</span></span>
   
-<span data-ttu-id="78144-124">Для получения дополнительных сведений о структуре и ограничениях **сбитмаскрестриктион** в целом ознакомьтесь с [ограничениями](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="78144-124">For more information about the **SBitMaskRestriction** structure and restrictions in general, see [About Restrictions](about-restrictions.md).</span></span>
+<span data-ttu-id="de5ce-124">Дополнительные сведения о структуре **и ограничениях SBitMaskRestriction** в целом см. в сведениях [об ограничениях.](about-restrictions.md)</span><span class="sxs-lookup"><span data-stu-id="de5ce-124">For more information about the **SBitMaskRestriction** structure and restrictions in general, see [About Restrictions](about-restrictions.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="78144-125">См. также</span><span class="sxs-lookup"><span data-stu-id="78144-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="de5ce-125">См. также</span><span class="sxs-lookup"><span data-stu-id="de5ce-125">See also</span></span>
 
 
 
-[<span data-ttu-id="78144-126">SRestriction</span><span class="sxs-lookup"><span data-stu-id="78144-126">SRestriction</span></span>](srestriction.md)
+[<span data-ttu-id="de5ce-126">SRestriction</span><span class="sxs-lookup"><span data-stu-id="de5ce-126">SRestriction</span></span>](srestriction.md)
 
 
-[<span data-ttu-id="78144-127">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="78144-127">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="de5ce-127">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="de5ce-127">MAPI Structures</span></span>](mapi-structures.md)
 
