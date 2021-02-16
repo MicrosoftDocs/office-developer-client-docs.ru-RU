@@ -19,46 +19,46 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412473"
 ---
-# <a name="pidtagattachmimesequence-canonical-property"></a><span data-ttu-id="f9d87-103">Каноническое свойство PidTagAttachMimeSequence</span><span class="sxs-lookup"><span data-stu-id="f9d87-103">PidTagAttachMimeSequence Canonical Property</span></span>
+# <a name="pidtagattachmimesequence-canonical-property"></a><span data-ttu-id="32398-103">Каноническое свойство PidTagAttachMimeSequence</span><span class="sxs-lookup"><span data-stu-id="32398-103">PidTagAttachMimeSequence Canonical Property</span></span>
 
   
   
-<span data-ttu-id="f9d87-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f9d87-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="32398-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="32398-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f9d87-105">Содержит порядковый номер MIME вложения сообщения MIME.</span><span class="sxs-lookup"><span data-stu-id="f9d87-105">Contains the MIME sequence number of a MIME message attachment.</span></span>
+<span data-ttu-id="32398-105">Содержит последовательность MIME-номера вложения сообщения MIME.</span><span class="sxs-lookup"><span data-stu-id="32398-105">Contains the MIME sequence number of a MIME message attachment.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f9d87-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="f9d87-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f9d87-107">PR_ATTACH_MIME_SEQUENCE</span><span class="sxs-lookup"><span data-stu-id="f9d87-107">PR_ATTACH_MIME_SEQUENCE</span></span>  <br/> |
-|<span data-ttu-id="f9d87-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="f9d87-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f9d87-109">0x3710</span><span class="sxs-lookup"><span data-stu-id="f9d87-109">0x3710</span></span>  <br/> |
-|<span data-ttu-id="f9d87-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="f9d87-110">Data type:</span></span>  <br/> |<span data-ttu-id="f9d87-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="f9d87-111">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="f9d87-112">Область:</span><span class="sxs-lookup"><span data-stu-id="f9d87-112">Area:</span></span>  <br/> |<span data-ttu-id="f9d87-113">Свойства вложений сообщений</span><span class="sxs-lookup"><span data-stu-id="f9d87-113">Message Attachment Properties</span></span>  <br/> |
+|<span data-ttu-id="32398-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="32398-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="32398-107">PR_ATTACH_MIME_SEQUENCE</span><span class="sxs-lookup"><span data-stu-id="32398-107">PR_ATTACH_MIME_SEQUENCE</span></span>  <br/> |
+|<span data-ttu-id="32398-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="32398-108">Identifier:</span></span>  <br/> |<span data-ttu-id="32398-109">0x3710</span><span class="sxs-lookup"><span data-stu-id="32398-109">0x3710</span></span>  <br/> |
+|<span data-ttu-id="32398-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="32398-110">Data type:</span></span>  <br/> |<span data-ttu-id="32398-111">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="32398-111">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="32398-112">Область:</span><span class="sxs-lookup"><span data-stu-id="32398-112">Area:</span></span>  <br/> |<span data-ttu-id="32398-113">Свойства вложения сообщения</span><span class="sxs-lookup"><span data-stu-id="32398-113">Message Attachment Properties</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="f9d87-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="f9d87-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="32398-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="32398-114">Remarks</span></span>
 
-<span data-ttu-id="f9d87-115">Это свойство используется для поддержки MHTML.</span><span class="sxs-lookup"><span data-stu-id="f9d87-115">This property is used for MHTML support.</span></span> <span data-ttu-id="f9d87-116">Он представляет порядковый номер вложения в родительском составном тексте MIME сообщения MIME.</span><span class="sxs-lookup"><span data-stu-id="f9d87-116">It represents the sequence number of the attachment within the parent MIME multipart body part of the MIME message.</span></span>
+<span data-ttu-id="32398-115">Это свойство используется для поддержки MHTML.</span><span class="sxs-lookup"><span data-stu-id="32398-115">This property is used for MHTML support.</span></span> <span data-ttu-id="32398-116">Он представляет номер последовательности вложения в родительской составной части MIME сообщения MIME.</span><span class="sxs-lookup"><span data-stu-id="32398-116">It represents the sequence number of the attachment within the parent MIME multipart body part of the MIME message.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="f9d87-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="f9d87-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="32398-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="32398-117">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="f9d87-118">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="f9d87-118">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="32398-118">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="32398-118">Header files</span></span>
 
-<span data-ttu-id="f9d87-119">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="f9d87-119">Mapidefs.h</span></span>
+<span data-ttu-id="32398-119">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="32398-119">Mapidefs.h</span></span>
   
-> <span data-ttu-id="f9d87-120">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="f9d87-120">Provides data type definitions.</span></span>
+> <span data-ttu-id="32398-120">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="32398-120">Provides data type definitions.</span></span>
     
-<span data-ttu-id="f9d87-121">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="f9d87-121">Mapitags.h</span></span>
+<span data-ttu-id="32398-121">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="32398-121">Mapitags.h</span></span>
   
-> <span data-ttu-id="f9d87-122">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="f9d87-122">Contains definitions of properties listed as associated properties.</span></span>
+> <span data-ttu-id="32398-122">Содержит определения свойств, перечисленных как связанные свойства.</span><span class="sxs-lookup"><span data-stu-id="32398-122">Contains definitions of properties listed as associated properties.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="f9d87-123">См. также</span><span class="sxs-lookup"><span data-stu-id="f9d87-123">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="32398-123">См. также</span><span class="sxs-lookup"><span data-stu-id="32398-123">See also</span></span>
 
 
 
-[<span data-ttu-id="f9d87-124">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="f9d87-124">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="32398-124">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="32398-124">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="f9d87-125">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="f9d87-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="32398-125">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="32398-125">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="f9d87-126">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="f9d87-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="32398-126">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="32398-126">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="f9d87-127">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="f9d87-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="32398-127">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="32398-127">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

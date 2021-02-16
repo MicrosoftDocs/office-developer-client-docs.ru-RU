@@ -16,13 +16,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33412004"
 ---
-# <a name="display-formulas-or-values-in-cells"></a><span data-ttu-id="855b6-102">Отображение формул или значений в ячейках</span><span class="sxs-lookup"><span data-stu-id="855b6-102">Display Formulas or Values in Cells</span></span>
+# <a name="display-formulas-or-values-in-cells"></a><span data-ttu-id="3b3d5-102">Отображение формул или значений в ячейках</span><span class="sxs-lookup"><span data-stu-id="3b3d5-102">Display Formulas or Values in Cells</span></span>
 
-1. <span data-ttu-id="855b6-103">Щелкните в окне таблицы свойств фигуры, чтобы сделать его активным.</span><span class="sxs-lookup"><span data-stu-id="855b6-103">Click in the ShapeSheet window to make it active.</span></span>
+1. <span data-ttu-id="3b3d5-103">Щелкните окно ShapeSheet, чтобы сделать его активным.</span><span class="sxs-lookup"><span data-stu-id="3b3d5-103">Click in the ShapeSheet window to make it active.</span></span>
     
-2. <span data-ttu-id="855b6-104">На вкладке " **Инструменты" таблицы свойств фигуры** в группе **вид** щелкните **формулы** для просмотра формул или щелкните **значения** для просмотра значений.</span><span class="sxs-lookup"><span data-stu-id="855b6-104">On the **ShapeSheet Tools** tab, in the **View** group, click **Formulas** to view formulas, or click **Values** to view values.</span></span> 
+2. <span data-ttu-id="3b3d5-104">На **вкладке "Инструменты таблицы фигур"**  в группе "Представление" щелкните "Формулы", чтобы просмотреть формулы, или щелкните "Значения", чтобы просмотреть значения.  </span><span class="sxs-lookup"><span data-stu-id="3b3d5-104">On the **ShapeSheet Tools** tab, in the **View** group, click **Formulas** to view formulas, or click **Values** to view values.</span></span> 
     
     > [!NOTE]
-    > <span data-ttu-id="855b6-105">Кроме того, можно щелкнуть правой кнопкой мыши в окне таблицы свойств фигуры и выбрать в контекстном меню пункт **формулы** или **значения** .</span><span class="sxs-lookup"><span data-stu-id="855b6-105">You can also right-click in the ShapeSheet window and then click **Formulas** or **Values** on the shortcut menu.</span></span> 
+    > <span data-ttu-id="3b3d5-105">Можно также щелкнуть правой кнопкой мыши в  окне таблицы фигур, а затем щелкнуть "Формулы" или "Значения" в **ярлыковом** меню.</span><span class="sxs-lookup"><span data-stu-id="3b3d5-105">You can also right-click in the ShapeSheet window and then click **Formulas** or **Values** on the shortcut menu.</span></span> 
   
 
