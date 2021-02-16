@@ -1,5 +1,5 @@
 ---
-title: иолкаккаунтжетаккаунтинфо
+title: IOlkAccountGetAccountInfo
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -20,7 +20,7 @@ ms.locfileid: "33437905"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
+См. [IOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::GetAccountInfo(  
@@ -33,9 +33,9 @@ HRESULT IOlkAccount::GetAccountInfo(
 
 ## <a name="parameters"></a>Параметры
 
-_пклсидтипе_
+_pclsidType_
   
-> вышли Идентификатор класса для типа учетной записи. The value must be one of the following:
+> [out] Идентификатор класса для типа учетной записи. The value must be one of the following:
     
    - CLSID_OlkPOP3Account 
     
@@ -47,13 +47,13 @@ _пклсидтипе_
     
    - CLSID_OlkLDAPAccount
     
-_пккатегориес_
+_pcCategories_
   
-> вышли Количество категорий в _пргклсидкатегори_.
+> [out] Количество категорий в _prgclsidCategory._
     
-_пргклсидкатегори_
+_prgclsidCategory_
   
-> вышли Массив категорий, с которыми связана эта учетная запись. Массив имеет размер * _пккатегориес_. Значение каждой категории в массиве должно быть одним из следующих:
+> [out] Массив категорий, с которые связана эта учетная запись. Размер массива * _pcCategories._ Значение каждой категории в массиве должно быть одним из следующих значений:
     
    - CLSID_OlkMail
     
@@ -67,9 +67,9 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## <a name="remarks"></a>Примечания
 
-После возврата этого метода необходимо освободить *пргклсидкатегори* с помощью [Иолкаккаунт:: фримемори](iolkaccount-freememory.md).
+После возврата этого метода необходимо освободить  *prgclsidCategory*  с помощью [IOlkAccount::FreeMemory](iolkaccount-freememory.md).
   
-**Иолкаккаунт:: жетаккаунтинфо** не поддерживает категорию адресной книги для учетной записи Exchange. Если учетная запись является учетной записью Exchange (*пклсидтипе* **CLSID_OlkMAPIAccount** ), а учетная запись реализует адресную книгу, вызов **иолкаккаунт:: жетаккаунтинфо** не будет возвращать **CLSID_OlkAddressBook** в виде категории в *пргклсидкатегори* . 
+**IOlkAccount::GetAccountInfo** не поддерживает категорию адресной книги для учетной записи Exchange. Если учетная запись является учетной записью Exchange *(pclsidType* имеет **CLSID_OlkMAPIAccount),** а учетная запись реализует адресную книгу, вызов  **IOlkAccount::GetAccountInfo** не возвращает CLSID_OlkAddressBook как категорию в *prgclsidCategory.* 
   
 ## <a name="see-also"></a>См. также
 

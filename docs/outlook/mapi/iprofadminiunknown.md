@@ -1,5 +1,5 @@
 ---
-title: Ипрофадмин IUnknown
+title: IProfAdmin IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,26 +29,26 @@ ms.locfileid: "33434118"
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Мапикс. h  <br/> |
-|Предоставлено:  <br/> |Объект администрирования профиля  <br/> |
+|Файл заголовка:  <br/> |Mapix.h  <br/> |
+|Выставим:  <br/> |Объект администрирования профилей  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IProfAdmin  <br/> |
-|Тип указателя:  <br/> |лппрофадмин  <br/> |
+|Тип указателя:  <br/> |LPPROFADMIN  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[GetLastError](iprofadmin-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущей ошибке, возникшей в объекте администрирования профиля.  <br/> |
-|[жетпрофилетабле](iprofadmin-getprofiletable.md) <br/> |Предоставляет доступ к таблице профилей — таблице, содержащей сведения обо всех доступных профилях.  <br/> |
-|[креатепрофиле](iprofadmin-createprofile.md) <br/> |Создает новый профиль.  <br/> |
-|[делетепрофиле](iprofadmin-deleteprofile.md) <br/> |Удаляет профиль.  <br/> |
-|[чанжепрофилепассворд](iprofadmin-changeprofilepassword.md) <br/> |Устаревшие. Изменяет пароль для профиля.  <br/> |
-|[копипрофиле](iprofadmin-copyprofile.md) <br/> |Копирует профиль.  <br/> |
-|[ренамепрофиле](iprofadmin-renameprofile.md) <br/> |Назначает новое имя профилю.  <br/> |
-|[SetDefaultProfile](iprofadmin-setdefaultprofile.md) <br/> |Задает или очищает профиль клиента, используемый по умолчанию.  <br/> |
-|[админсервицес](iprofadmin-adminservices.md) <br/> |Предоставляет доступ к объекту администрирования службы сообщений для внесения изменений в службы сообщений в профиле.  <br/> |
+|[GetLastError](iprofadmin-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке, которая произошла в объекте администрирования профиля.  <br/> |
+|[GetProfileTable](iprofadmin-getprofiletable.md) <br/> |Предоставляет доступ к таблице профилей, которая содержит сведения обо всех доступных профилях.  <br/> |
+|[CreateProfile](iprofadmin-createprofile.md) <br/> |Создает новый профиль.  <br/> |
+|[DeleteProfile](iprofadmin-deleteprofile.md) <br/> |Удаляет профиль.  <br/> |
+|[ChangeProfilePassword](iprofadmin-changeprofilepassword.md) <br/> |Устарело. Изменяет пароль для профиля.  <br/> |
+|[CopyProfile](iprofadmin-copyprofile.md) <br/> |Копирует профиль.  <br/> |
+|[RenameProfile](iprofadmin-renameprofile.md) <br/> |Назначает новое имя для профиля.  <br/> |
+|[SetDefaultProfile](iprofadmin-setdefaultprofile.md) <br/> |Задает или очищает профиль клиента по умолчанию.  <br/> |
+|[AdminServices](iprofadmin-adminservices.md) <br/> |Предоставляет доступ к объекту администрирования службы сообщений для внесения изменений в службы сообщений в профиле.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: Имаилусер IMAPIProp
+title: IMailUser IMAPIProp
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,36 +25,36 @@ ms.locfileid: "33436596"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Предоставляет доступ ко многим свойствам, связанным с пользователями обмена сообщениями. Интерфейс **имаилусер** реализуется объектами пользователя обмена сообщениями. **Имаилусер** наследуется от интерфейса [IMAPIProp: IUnknown](imapipropiunknown.md) и не обладает уникальными методами. 
+Предоставляет доступ к многим свойствам, связанным с пользователями обмена сообщениями. Интерфейс **IMailUser** реализуется объектами пользователей системы обмена сообщениями. **IMailUser** наследуется от [интерфейса IMAPIProp : IUnknown](imapipropiunknown.md) и не имеет собственных уникальных методов. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
-|Предоставлено:  <br/> |Объекты пользователя для обмена сообщениями  <br/> |
+|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Выставим:  <br/> |Объекты пользователей системы обмена сообщениями  <br/> |
 |Реализовано в:  <br/> |Поставщики адресных книг  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMailUser  <br/> |
-|Тип указателя:  <br/> |лпмаилусер  <br/> |
-|Модель транзакции:  <br/> |Транзакции  <br/> |
+|Тип указателя:  <br/> |LPMAILUSER  <br/> |
+|Модель транзакций:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
-У этого интерфейса нет уникальных методов.
+Этот интерфейс не имеет уникальных методов.
   
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType)](pidtagaddresstype-canonical-property.md)  <br/> |Чтение и запись  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**PR_DISPLAY_TYPE** ([PidTagDisplayType](pidtagdisplaytype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_DISPLAY_TYPE** ([PidTagDisplayType)](pidtagdisplaytype-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress)](pidtagemailaddress-canonical-property.md)  <br/> |Чтение и запись  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RECORD_KEY** ([PidTagRecordKey)](pidtagrecordkey-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_SEARCH_KEY** ([PidTagSearchKey)](pidtagsearchkey-canonical-property.md)  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Пять обязательных свойств называются свойствами базового адреса для получателей:
+Пять из необходимых свойств называются базовыми свойствами адреса для получателей:
   
 - **PR_ADDRTYPE**
     
@@ -66,27 +66,27 @@ ms.locfileid: "33436596"
     
 - **PR_SEARCH_KEY**
     
-Эти свойства считаются особыми, так как многие другие группы схожих свойств создаются на основе этой базовой группы. Другие группы используются для описания получателя в различных ролях, таких как исходный или представительный отправитель сообщения. Дополнительные сведения об этих свойствах и способах их использования приведены в разделе [типы адресов MAPI](mapi-address-types.md).
+Эти свойства считаются специальными, так как многие другие группы похожих свойств построены на основе этой базовой группы. Другие группы используются для описания получателя в различных ролях, таких как исходный отправитель сообщения или отправитель делегата. Дополнительные сведения об этих свойствах и их использовании см. в поддоме "Типы [адресов MAPI".](mapi-address-types.md)
   
-Пользователи обмена сообщениями могут отображать коллекцию их свойств, поддерживающих свойство **PR_DETAILS_TABLE** ([PidTagDetailsTable](pidtagdetailstable-canonical-property.md)). **PR_DETAILS_TABLE** — это таблица, описывающая макет диалогового окна сведений или страницы свойств с вкладками, в которой отображаются сведения о свойствах получателя. MAPI создает диалоговые окна сведений, когда клиент вызывает метод [IAddrBook::D етаилс](iaddrbook-details.md) . 
+Пользователи сообщений могут отображать коллекцию своих свойств, поддерживая **свойство PR_DETAILS_TABLE** ([PidTagDetailsTable).](pidtagdetailstable-canonical-property.md) **PR_DETAILS_TABLE** это таблица отображения, описываемая макет диалоговых окна сведений или страницы свойств с вкладками, которая отображает сведения о свойстве получателя. MAPI создает диалоговые окна сведений, когда клиент вызывает [метод IAddrBook::D etails.](iaddrbook-details.md) 
   
-Пользовательские объекты обмена сообщениями могут иметь другие связанные с ними дополнительные свойства. MAPI определяет множество свойств, которые предоставляют дополнительные сведения об адресе пользователя для обмена сообщениями. Все эти свойства являются символьными строками. В следующем списке приведены наиболее часто используемые свойства:
+Объекты пользователей сообщений могут иметь другие необязательные свойства, связанные с ними. MAPI определяет множество свойств, которые предоставляют дополнительные сведения об адресовости пользователя обмена сообщениями. Все эти свойства являются строками символов. В следующем списке показаны наиболее часто используемые свойства:
   
-- **PR_ACCOUNT** ([PidTagAccount](pidtagaccount-canonical-property.md)) 
+- **PR_ACCOUNT** ([PidTagAccount)](pidtagaccount-canonical-property.md) 
     
 - **PR_ASSISTANT** ([PidTagAssistant](pidtagassistant-canonical-property.md)) 
     
-- **PR_BUSINESS_TELEPHONE_NUMBER** ([PidTagBusinessTelephoneNumber](pidtagbusinesstelephonenumber-canonical-property.md)) 
+- **PR_BUSINESS_TELEPHONE_NUMBER** ([PidTagBusinessTelephoneNumber)](pidtagbusinesstelephonenumber-canonical-property.md) 
     
 - **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) 
     
-- **PR_GOVERNMENT_ID_NUMBER** ([PidTagGovernmentIdNumber](pidtaggovernmentidnumber-canonical-property.md)) 
+- **PR_GOVERNMENT_ID_NUMBER** ([PidTagGovernmentIdNumber)](pidtaggovernmentidnumber-canonical-property.md) 
     
-- **PR_LOCALITY** ([PidTagLocality](pidtaglocality-canonical-property.md)) 
+- **PR_LOCALITY** ([PidTagLocality)](pidtaglocality-canonical-property.md) 
     
-- **PR_POSTAL_ADDRESS** ([PidTagPostalAddress](pidtagpostaladdress-canonical-property.md)) 
+- **PR_POSTAL_ADDRESS** ([PidTagPostalAddress)](pidtagpostaladdress-canonical-property.md) 
     
-Полный список свойств приведен [в разделе Сопоставление канонических имен свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md).
+Полный список свойств см. в поддоме "Сопоставление имен канонических свойств [с именами MAPI".](mapping-canonical-property-names-to-mapi-names.md)
   
 ## <a name="see-also"></a>См. также
 

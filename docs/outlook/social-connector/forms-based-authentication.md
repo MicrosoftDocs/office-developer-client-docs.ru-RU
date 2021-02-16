@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 282b2377-45ba-4f0c-a7d9-830fa3505c93
-description: 'Outlook Social Connector (OSC) вызывает метод ИсоЦиалпровидер:: capabilities, который определяет возможности поставщика OSC для социальной сети.'
+description: Outlook Social Connector (OSC) вызывает метод ISocialProvider::GetCapabilities, чтобы определить возможности поставщика OSC для социальной сети.
 ms.openlocfilehash: 420f19a8d7632f2ab9b093eb929ffe879f8a2fc2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,36 +17,36 @@ ms.locfileid: "33435532"
 ---
 # <a name="forms-based-authentication"></a>Проверка подлинности на основе форм
 
-Outlook Social Connector (OSC) вызывает метод [исоЦиалпровидер:: Capabilities](isocialprovider-getcapabilities.md) , который определяет возможности поставщика OSC для социальной сети. Для определения способа поддержки пользователя Office, который выполняет вход в эту социальную сеть, OSC использует возвращенные возможности. 
+Outlook Social Connector (OSC) вызывает метод [ISocialProvider::GetCapabilities,](isocialprovider-getcapabilities.md) чтобы определить возможности поставщика OSC для социальной сети. OsC использует возвращенные возможности, чтобы определить, как поддерживать пользователя Office, который вошел в эту социальную сеть. 
 
-Если элемент **уселогонвебаус** в возвращенном XML-файле **возможностей** указывает на то, что поставщик OSC поддерживает проверку подлинности на основе форм, OSC может выполнить следующую последовательность вызовов, чтобы разрешить пользователю входить в эту социальную сеть: 
+Если элемент **useLogonWebAuth** в **XML** возвращаемой возможности указывает, что поставщик OSC поддерживает проверку подлинности на основе форм, osC может сделать следующую последовательность вызовов, чтобы позволить пользователю войти в эту сетею: 
   
-1. [ИсоЦиалпровидер:: Загрузка](isocialprovider-load.md) &ndash; OSC загружает поставщика. 
+1. [ISocialProvider::Load](isocialprovider-load.md) &ndash; OSC загружает поставщика. 
     
-2. [ИсоЦиалпровидер:: Version](isocialprovider-version.md) &ndash; . OSC возвращает строку, представляющую номер версии поставщика для этой социальной сети. 
+2. [ISocialProvider::Version](isocialprovider-version.md) &ndash; OsC получает строку, представляюную номер версии поставщика для этой социальной сети. 
     
-3. [ИсоЦиалпровидер:: соЦиалнетворкнаме](isocialprovider-socialnetworkname.md) &ndash; . OSC получает строку, представляющую имя социальной сети. 
+3. [ISocialProvider::SocialNetworkName](isocialprovider-socialnetworkname.md) &ndash; OsC получает строку, представляюную имя социальной сети. 
     
-4. [ИсоЦиалпровидер:: соЦиалнетворкгуид](isocialprovider-socialnetworkguid.md) &ndash; . OSC получает неизменяемый идентификатор GUID, представляющий социальную сеть. 
+4. [ISocialProvider::SocialNetworkGuid](isocialprovider-socialnetworkguid.md) &ndash; OSC получает не изменяемый GUID, представляюща социальных сетей. 
     
-5. [ИсоЦиалпровидер:: функции](isocialprovider-getcapabilities.md) &ndash; OSC возвращает строку, представляющую возможности поставщика и соответствующие определению схемы для элемента **capabilities** . 
+5. [ISocialProvider::GetCapabilities](isocialprovider-getcapabilities.md) &ndash; OSC получает строку, которая представляет возможности поставщика и соответствует определению схемы для **элемента возможностей.** 
     
-6. [ИсоЦиалпровидер:: соЦиалнетворкикон](isocialprovider-socialnetworkicon.md) &ndash; OSC получает массив байтов, представляющий значок для сайта социальных сетей. 
+6. [ISocialProvider::SocialNetworkIcon](isocialprovider-socialnetworkicon.md) &ndash; OsC получает массив byte, который представляет значок для сайта социальной сети. 
     
-7. [ИсоЦиалпровидер:: @ Session](isocialprovider-getsession.md) &ndash; . OSC получает интерфейс [настроенный ISocialSession](isocialsessioniunknown.md) . 
+7. [ISocialProvider::GetSession](isocialprovider-getsession.md) &ndash; OsC получает [интерфейс ISocialSession.](isocialsessioniunknown.md) 
     
-8. [Настроенный ISocialSession:: логонвеб](isocialsession-logonweb.md) &ndash; средство OSC инициализирует вход на сайт социальных сетей с помощью проверки подлинности на основе форм. Для этого первого входного вызова OSC передает **значение NULL** для параметра _Connect_ . 
+8. [ISocialSession::LogonWeb](isocialsession-logonweb.md) &ndash; OsC инициализирует вход на сайт социальной сети с помощью проверки подлинности на основе форм. Для этого начального вызова для логин OSC передается **null** для _параметра connectIn._ 
     
-9. [Настроенный ISocialSession:: жетлогонурл](isocialsession-getlogonurl.md) &ndash; элемент OSC получает URL-адрес для отображения формы, основанной на браузере, для пользователя во время веб-проверки подлинности. 
+9. [ISocialSession::GetLogonUrl](isocialsession-getlogonurl.md) &ndash; OsC получает URL-адрес для отображения пользователю браузерной формы во время веб-проверки подлинности. 
     
-10. [Настроенный ISocialSession:: логонвеб](isocialsession-logonweb.md) &ndash; средство OSC завершает вход на сайт социальной сети с помощью проверки подлинности на основе форм. OSC вызывает этот метод во второй раз, передавая URL-адрес формы входа поставщику в параметре _Connect_ . 
+10. [ISocialSession::LogonWeb](isocialsession-logonweb.md) &ndash; OsC завершает учетные данных для сайта социальной сети с помощью проверки подлинности на основе форм. OSC вызывает этот метод второй раз, передавая URL-адрес формы для логотипа поставщику в _параметре connectIn._ 
     
-11. [Настроенный ISocialSession:: жетлогжедонусер](isocialsession-getloggedonuser.md) &ndash; интерфейс OSC получает объект [исоЦиалпрофиле](isocialprovideriunknown.md) , представляющий пользователя, выполнившего вход в систему. 
+11. [ISocialSession::GetLoggedOnUser](isocialsession-getloggedonuser.md) &ndash; OsC получает интерфейс [ISocialProfile,](isocialprovideriunknown.md) который представляет во входе пользователя. 
     
-12. [Настроенный ISocialSession:: жетнетворкидентифиер](isocialsession-getnetworkidentifier.md) &ndash; OSC получает строку, представляющую уникальный идентификатор для сайта социальных сетей. Сетевой идентификатор может быть эквивалентен имени сети. 
+12. [ISocialSession::GetNetworkIdentifier](isocialsession-getnetworkidentifier.md) &ndash; OSC получает строку, представляюную уникальный идентификатор для сайта социальной сети. Сетевой идентификатор может быть эквивалентен сетевому имени. 
     
 ## <a name="see-also"></a>См. также
 
 - [XML для возможностей](xml-for-capabilities.md)
-- [Переosc типичные последовательности вызовов](osc-typical-calling-sequences.md)
+- [Типичные последовательности вызовов OSC](osc-typical-calling-sequences.md)
 

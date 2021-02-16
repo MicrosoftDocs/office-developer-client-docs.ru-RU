@@ -25,11 +25,11 @@ ms.locfileid: "33436974"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Массив идентификаторов записей, представляющих объект MAPI, который использует ту же реализацию, что и структура [сбинаряррай](sbinaryarray.md) . 
+Массив идентификаторов записей, представляющих объект MAPI, использующий ту же реализацию, что и структура [SBinaryArray.](sbinaryarray.md) 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
@@ -38,7 +38,7 @@ typedef SBinaryArray ENTRYLIST, FAR *LPENTRYLIST;
 
 ## <a name="members"></a>"Участники"
 
-Просмотр структуры **сбинарярри** для членов. 
+См. **структуру SBinaryArry** для участников. 
   
 ## <a name="see-also"></a>См. также
 

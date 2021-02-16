@@ -25,7 +25,7 @@ ms.locfileid: "33438927"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Разблокирует файл личных папок (PST) для сеанса, переопределяя политику Пстдисаблегров.
+Разблокирует PST-файл для сеанса, переопределяя политику PSTDisableGrow.
   
 ```cpp
 HRESULT OverridePSTDisableGrow();
@@ -35,7 +35,7 @@ HRESULT OverridePSTDisableGrow();
 
 S_OK
   
-> Вызов функции выполнен успешно.
+> Вызов функции был успешным.
     
 ## <a name="see-also"></a>См. также
 

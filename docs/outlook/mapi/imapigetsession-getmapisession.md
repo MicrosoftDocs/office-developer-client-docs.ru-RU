@@ -1,5 +1,5 @@
 ---
-title: имапижетсессионжетмаписессион
+title: IMAPIGetSessionGetMAPISession
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -35,9 +35,9 @@ HRESULT GetMAPISession(
 
 ## <a name="parameters"></a>Параметры
 
- _лппсессион_
+ _lppSession_
   
-> вышли Указатель на текущий сеанс MAPI.
+> [out] Указатель на текущий сеанс MAPI.
     
 ## <a name="see-also"></a>См. также
 

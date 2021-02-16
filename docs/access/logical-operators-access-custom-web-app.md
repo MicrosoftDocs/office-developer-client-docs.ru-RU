@@ -1,5 +1,5 @@
 ---
-title: Логические операторы (пользовательское веб-приложение для Access)
+title: Логические операторы (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437667"
 ---
-# <a name="logical-operators-access-custom-web-app"></a>Логические операторы (пользовательское веб-приложение для Access)
+# <a name="logical-operators-access-custom-web-app"></a>Логические операторы (пользовательское веб-приложение Access)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
-- [И (пользовательское веб-приложение для Access)](and-access-custom-web-app.md)
+- [AND (пользовательское веб-приложение Access)](and-access-custom-web-app.md)
     
-- [НЕТ (пользовательское веб-приложение для Access)](not-access-custom-web-app.md)
+- [NOT (Access custom web app)](not-access-custom-web-app.md)
     
-- [ИЛИ (пользовательское веб-приложение для Access)](or-access-custom-web-app.md)
+- [OR (пользовательское веб-приложение Access)](or-access-custom-web-app.md)
     
 - [IS [NOT] NULL (пользовательское веб-приложение для Access)](is-not-null-access-custom-web-app.md)
     

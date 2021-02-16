@@ -1,5 +1,5 @@
 ---
-title: Ипровидерадмин IUnknown
+title: IProviderAdmin IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,30 +25,30 @@ ms.locfileid: "33437534"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Работает с поставщиками услуг в службе сообщений. 
+Работает с поставщиками служб в службе сообщений. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
-|Предоставлено:  <br/> |Объекты администрирования поставщика  <br/> |
+|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Выставим:  <br/> |Объекты администрирования поставщика  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения и поставщики услуг  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IProviderAdmin  <br/> |
-|Тип указателя:  <br/> |лппровидерадмин  <br/> |
+|Тип указателя:  <br/> |LPPROVIDERADMIN  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[GetLastError](iprovideradmin-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущей ошибке, произошедшей для объекта администрирования поставщика.  <br/> |
-|[жетпровидертабле](iprovideradmin-getprovidertable.md) <br/> |Предоставляет доступ к таблице поставщика службы сообщений, список поставщиков служб в службе сообщений.  <br/> |
-|[креатепровидер](iprovideradmin-createprovider.md) <br/> |Добавляет поставщика услуг в службу сообщений.  <br/> |
-|[делетепровидер](iprovideradmin-deleteprovider.md) <br/> |Удаляет поставщика услуг из службы сообщений.  <br/> |
-|[опенпрофилесектион](iprovideradmin-openprofilesection.md) <br/> |Открывает раздел профиля из текущего профиля и возвращает указатель [ипрофсект](iprofsectimapiprop.md) для получения дальнейших прав.  <br/> |
+|[GetLastError](iprovideradmin-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке, которая произошла в объекте администрирования поставщика.  <br/> |
+|[GetProviderTable](iprovideradmin-getprovidertable.md) <br/> |Предоставляет доступ к таблице поставщиков службы сообщений, списку поставщиков услуг в службе сообщений.  <br/> |
+|[CreateProvider](iprovideradmin-createprovider.md) <br/> |Добавляет поставщика службы в службу сообщений.  <br/> |
+|[DeleteProvider](iprovideradmin-deleteprovider.md) <br/> |Удаляет поставщика услуг из службы сообщений.  <br/> |
+|[OpenProfileSection](iprovideradmin-openprofilesection.md) <br/> |Открывает раздел профиля из текущего профиля и возвращает указатель [IProfSect](iprofsectimapiprop.md) для дальнейшего доступа.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Клиенты могут получить указатель на интерфейс **ипровидерадмин** , вызвав метод [Имсгсервицеадмин:: админпровидерс](imsgserviceadmin-adminproviders.md) ; поставщики услуг передаются в качестве указателя **ипровидерадмин** при вызове функции точки входа для службы сообщений. 
+Клиенты могут получить указатель на интерфейс **IProviderAdmin,** вызывая метод [IMsgServiceAdmin::AdminProviders;](imsgserviceadmin-adminproviders.md) Поставщикам услуг передается **указатель IProviderAdmin** при поступлении в службу сообщений функции точки входа. 
   
 ## <a name="see-also"></a>См. также
 

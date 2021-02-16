@@ -1,5 +1,5 @@
 ---
-title: исоЦиалсессионлогжедонусернаме
+title: ISocialSessionLoggedOnUserName
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: c0e7b788-3198-499c-ae21-b2032f929ed9
-description: Возвращает строку, представляющую имя пользователя, используемое при входе в систему.
+description: Возвращает строку, представляюную имя пользователя, используемую при входе в систему.
 ms.openlocfilehash: 6f0d2c68b1af9e7c96f2cd86dc798518e432c7cf
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33437296"
 ---
 # <a name="isocialsessionloggedonusername"></a>ISocialSession::LoggedOnUserName
 
-Возвращает строку, представляющую имя пользователя, используемое при входе в систему.
+Возвращает строку, представляюную имя пользователя, используемую при входе в систему.
   
 ```cpp
 [propget] HRESULT _stdcall LoggedOnUserName([out, retval] BSTR* result);
@@ -25,7 +25,7 @@ ms.locfileid: "33437296"
 
 ## <a name="property-value"></a>Значение свойства
 
-Строка, представляющая имя пользователя, вошедшего в систему.
+Строка, представляюная имя пользователя, во которого вошел пользователь.
   
 ## <a name="see-also"></a>См. также
 

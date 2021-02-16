@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 4b533ea0-5d2e-44fc-a691-8fa2f310ff9f
-description: Определяет угол линейного градиента для линейного градиента от 0 до 359,9 градусов.
+description: Определяет угол градиента линии для линейного градиента от 0 до 359,9 градусов.
 ms.openlocfilehash: fd806bc7c953dbd86abd95c8e6103ab9e6ee1a10
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33437135"
 ---
 # <a name="linegradientangle-cell-gradient-properties-section"></a>LineGradientAngle Cell (Gradient Properties Section)
 
-Определяет угол линейного градиента для линейного градиента от 0 до 359,9 градусов.
+Определяет угол градиента линии для линейного градиента от 0 до 359,9 градусов.
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **LineGradientAngle** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **LineGradientAngle** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "33437135"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровградиентпропертиес** <br/> |
-| Индекс ячейки:  <br/> |**вислинеградиентангле** <br/> |
+| Индекс строки:  <br/> |**visRowGradientProperties** <br/> |
+| Индекс ячейки:  <br/> |**visLineGradientAngle** <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: иексчанжемодифитаблежеттабле
+title: IExchangeModifyTableGetTable
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -39,23 +39,23 @@ HRESULT GetTable(
 
  _ulFlags_
   
-> возврата Резервирования должен иметь значение 0 (ноль).
+> [in] Зарезервировано; должно быть 0 (ноль).
     
 ACLTABLE_FREEBUSY
   
 > Задает новые права.
     
-фригхтсфрибусидетаилед
+frightsFreeBusyDetailed
   
-> При передаче ACLTABLE_FREEBUSY предоставляет подробное описание новых прав и сведений о доступности.
+> При ACLTABLE_FREEBUSY предоставляет подробные сведения о новых правах на сведения о занятости.
     
-фригхтсфрибусисимпле
+frightsFreeBusySimple
   
-> Когда ACLTABLE_FREEBUSY передается, вы можете легко отобразить новые права на доступ к сведениям о доступности.
+> При ACLTABLE_FREEBUSY данные отображаются новые права занятости.
     
- _лпптабле_
+ _lppTable_
   
-> вышли Указывает на [IMAPITable: интерфейс IUnknown](imapitableiunknown.md) , содержащий объект Table. 
+> [out] Указывает на [интерфейс IMAPITable : IUnknown,](imapitableiunknown.md) содержащий объект таблицы. 
     
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -63,7 +63,7 @@ ACLTABLE_FREEBUSY
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|Рулесдлг. cpp  <br/> |Крулесдлг:: Онрефрешвиев  <br/> |MFCMAPI использует метод **иексчанжемодифитабле:: table** для получения таблицы правил.  <br/> |
+|RulesDlg.cpp  <br/> |CRulesDlg::OnRefreshView  <br/> |MFCMAPI использует метод **IExchangeModifyTable::GetTable** для получения таблицы правил.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

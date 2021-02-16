@@ -19,7 +19,7 @@ ms.locfileid: "33437989"
 
 В этом разделе предоставляются вводные сведения о создании шаблонов форм с управляемым кодом, работающих с объектной моделью InfoPath, предоставляемой элементами пространства имен **Microsoft.Office.InfoPath**. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 [Новые возможности для разработчиков InfoPath](what-s-new-for-infopath-developers.md)
   
@@ -33,23 +33,23 @@ ms.locfileid: "33437989"
   
 > Описывается процедура установки набора Visual Studio 2012.
     
-[Установка локальной справки .NET Framework для средств Visual Studio Tools for Applications](how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md)
+[Установка локальной справки .NET Framework для набор средств Visual Studio Tools для работы с приложениями](how-to-install-net-framework-help-for-visual-studio-tools-for-applications.md)
   
 > Описывается процедура установки локальной копии документации .NET Framework для автономного использования в наборе Visual Studio 2012.
     
-[Добавление обработчика событий](how-to-add-an-event-handler.md)
+[Добавление обработера событий](how-to-add-an-event-handler.md)
   
 > Описывается добавление обработчиков событий в шаблон формы InfoPath с управляемым кодом. 
     
-[Предварительный просмотр и отладка шаблонов форм InfoPath с кодом](how-to-preview-and-debug-infopath-form-templates-with-code.md)
+[Предварительный просмотр и отлаживка шаблонов форм InfoPath с кодом](how-to-preview-and-debug-infopath-form-templates-with-code.md)
   
 > Описывается просмотр и отладка шаблонов форм InfoPath с управляемым кодом.
     
-[Предварительный просмотр и отладка шаблонов форм, требующих полного доверия](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
+[Предварительный просмотр и отлагивание шаблонов форм, которые требуют полного доверия](how-to-preview-and-debug-form-templates-that-require-full-trust.md)
   
 > Описывается просмотр и отладка шаблонов форм InfoPath с управляемым кодом, содержащих бизнес-логику, не требующую полного доверия.
     
-[Пошаговое руководство: создание базового шаблона формы с кодом](walkthrough-creating-a-basic-form-template-with-code.md)
+[Walkthrough: Creating a Basic Form Template with Code](walkthrough-creating-a-basic-form-template-with-code.md)
   
 > Пошаговая инструкция, предоставляющая вводные сведения о создании и отладке базового шаблона формы InfoPath с управляемым кодом 
     
@@ -57,7 +57,7 @@ ms.locfileid: "33437989"
   
 > Описывается создание многострочного поля и вспомогательной функции для записи в поле данных отладки.
     
-[Открытие и преобразование шаблона формы, созданного с помощью InfoPath Toolkit](how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md)
+[Открытие или преобразование шаблона формы, созданного с помощью infoPath набор средств](how-to-open-or-convert-a-form-template-created-with-the-infopath-toolkit.md)
   
 > Описывается открытие и преобразование шаблона формы с управляемым кодом, созданного с помощью набора инструментов InfoPath 2003 и Visual Studio .NET или набора инструментов InfoPath 2003 для Visual Studio 2005.
     
@@ -69,7 +69,7 @@ ms.locfileid: "33437989"
   
 > Предоставляются обобщенные сведения о типичных задачах разработчиков шаблонов форм InfoPath с управляемым кодом.
     
-[Работать с классами XPathNavigator и XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)
+[Работа с классами XPathNavigator и XPathNodeIterator](how-to-work-with-the-xpathnavigator-and-xpathnodeiterator-classes.md)
   
 > Предоставляются обобщенные сведения об элементах объектной модели управляемого кода InfoPath, использующих классы **XPathNavigator** и **XPathNodeIterator** для работы с XML-данными. 
     

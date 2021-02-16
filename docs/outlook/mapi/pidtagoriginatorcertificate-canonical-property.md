@@ -25,7 +25,7 @@ ms.locfileid: "33438941"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит сертификат ASN. 1 для инициатора сообщения.
+Содержит сертификат ASN.1 для источника сообщения.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ ms.locfileid: "33438941"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство является копией свойства **PR_USER_CERTIFICATE** инициатора ([PidTagUserCertificate](pidtagusercertificate-canonical-property.md)).
+Это свойство является копией свойства PR_USER_CERTIFICATE **(** [PidTagUserCertificate).](pidtagusercertificate-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

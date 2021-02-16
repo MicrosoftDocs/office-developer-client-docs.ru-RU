@@ -1,5 +1,5 @@
 ---
-title: Имапижетсессион IUnknown
+title: IMAPIGetSession IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33436652"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Предоставляет доступ к текущему сеансу MAPI, связанному с объектом support. Поставщики MAPI могут запрашивать объект поддержки MAPI для этого интерфейса. Дополнительные сведения об объектах поддержки можно найти в статье [Обзор объектов поддержки](support-object-overview.md).
+Предоставляет доступ к текущему сеансу MAPI, связанному с объектом поддержки. Поставщики MAPI могут запрашивать свой объект поддержки MAPI для этого интерфейса. Дополнительные сведения об объектах поддержки см. в [обзоре объектов поддержки.](support-object-overview.md)
   
 |||
 |:-----|:-----|
@@ -33,19 +33,19 @@ ms.locfileid: "33436652"
 |Вызывающая сторона:  <br/> |Поставщики MAPI  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIGetSession  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[жетмаписессион](imapigetsession-getmapisession.md) <br/> |Вызывается для получения указателя на текущий сеанс MAPI.  <br/> |
+|[GetMAPISession](imapigetsession-getmapisession.md) <br/> |Вызвано для получения указателя на текущий сеанс MAPI.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
 
 
-[жетмаписессион](imapigetsession-getmapisession.md)
+[GetMAPISession](imapigetsession-getmapisession.md)
   
-[имаписуппорт](imapisupportiunknown.md)
+[IMAPISupport](imapisupportiunknown.md)
 
 
 [Интерфейсы MAPI](mapi-interfaces.md)

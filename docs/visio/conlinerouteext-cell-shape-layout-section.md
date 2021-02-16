@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm50110
 localization_priority: Normal
 ms.assetid: cafd7589-1c94-b9bc-b1a6-40f7c15fba71
-description: Определяет внешний вид соединителя.
+description: Определяет внешний вид соединители.
 ms.openlocfilehash: 19fe948daf7aa3d67db858849ecb2b15f40ba02d
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,17 +18,17 @@ ms.locfileid: "33434615"
 ---
 # <a name="conlinerouteext-cell-shape-layout-section"></a>ConLineRouteExt Cell (Shape Layout Section)
 
-Определяет внешний вид соединителя.
+Определяет внешний вид соединители.
   
 |**Значение**|**Описание**|**Константа автоматизации**|
 |:-----|:-----|:-----|
-| нуль  <br/> | Умолчани использовать параметр страницы  <br/> |**вислораутикстдефаулт** <br/> |
-| 1,1  <br/> | Располагает  <br/> |**вислораутикстстраигхт** <br/> |
-| 2  <br/> | Прямолинейны  <br/> |**вислораутикстнурбс** <br/> |
+| 0  <br/> | По умолчанию; использование параметра страницы  <br/> |**visLORouteExtDefault** <br/> |
+| 1   <br/> | Прямая  <br/> |**visLORouteExtStraight** <br/> |
+| 2   <br/> | Curved  <br/> |**visLORouteExtNURBS** <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку ConLineRouteExt по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
+Чтобы получить ссылку на ячейку ConLineRouteExt по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -39,7 +39,7 @@ ms.locfileid: "33434615"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровшапелайаут** <br/> |
-| Индекс ячейки:  <br/> |**висслолинераутикст** <br/> |
+| Индекс строки:  <br/> |**visRowShapeLayout** <br/> |
+| Индекс ячейки:  <br/> |**visSLOLineRouteExt** <br/> |
    
 

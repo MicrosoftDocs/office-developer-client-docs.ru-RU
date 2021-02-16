@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm1033805
 localization_priority: Normal
 ms.assetid: f9d4ee2d-c7da-d969-4457-e37384768ac5
-description: Декодирует строку Base64 и сохраняет ее в виде двоичных данных.
+description: Декодирует строку base64 и сохраняет ее в качестве двоичных данных.
 ms.openlocfilehash: 3dedbbe80f1ffab04ef6dd2b2cacf79da374a6ae
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,16 +18,16 @@ ms.locfileid: "33438227"
 ---
 # <a name="blob-function"></a>Функция BLOB
 
-Декодирует строку Base64 и сохраняет ее в виде двоичных данных. 
+Декодирует строку base64 и сохраняет ее в качестве двоичных данных. 
   
 ## <a name="syntax"></a>Синтаксис
 
-BLOB-объект (* * *бинтекст* * *) 
+BLOB (** *bintext* ** ) 
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _бинтекст_ <br/> |Обязательный  <br/> |**String** <br/> | Строка в кодировке Base64.  <br/> |
+| _bintext_ <br/> |Обязательно  <br/> |**Строка** <br/> | Строка в коде base64.  <br/> |
    
 

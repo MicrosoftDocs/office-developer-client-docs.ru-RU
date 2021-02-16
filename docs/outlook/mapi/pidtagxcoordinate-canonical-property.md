@@ -25,7 +25,7 @@ ms.locfileid: "33436197"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит координату x начальной позиции (верхнего левого угла) элемента управления диалогового окна в стандартных единицах диалогового окна Windows.
+Содержит координату x начального положения (левого верхнего угла) диалогового окна в стандартных диалоговых блоках Windows.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ ms.locfileid: "33436197"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство, **PR_YPOS** ([пидтагикурдинате](pidtagycoordinate-canonical-property.md)), **PR_DELTAX** ([PidTagDeltaX](pidtagdeltax-canonical-property.md)) и **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) позиционирует и заменяют размер элемента управления "диалоговое окно".
+Это свойство, **PR_YPOS** ([PidTagYCoordinate),](pidtagycoordinate-canonical-property.md) **PR_DELTAX** ([PidTagDeltaX),](pidtagdeltax-canonical-property.md)и **PR_DELTAY** ([PidTagDeltaY](pidtagdeltay-canonical-property.md)) положение и размер управления диалоговое окно.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 932195d5-2cb7-49f7-bc64-4ce00bf780b2
-description: Определяет индекс стиля для активного варианта темы на странице в виде целого числа.
+description: Определяет индекс стиля активного варианта темы на странице в качестве integer.
 ms.openlocfilehash: 57d4b2493b7278064daf7b0cb986e58ebacf4be2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33436603"
 ---
 # <a name="variationstyleindex-cell-theme-properties-section"></a>VariationStyleIndex Cell (Theme Properties Section)
 
-Определяет индекс стиля для активного варианта темы на странице в виде целого числа.
+Определяет индекс стиля активного варианта темы на странице в качестве integer.
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **VariationStyleIndex** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **VariationStyleIndex** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "33436603"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровсемепропертиес** <br/> |
-| Индекс ячейки:  <br/> |**висвариатионстилеиндекс** <br/> |
+| Индекс строки:  <br/> |**visRowThemeProperties** <br/> |
+| Индекс ячейки:  <br/> |**visVariationStyleIndex** <br/> |
    
 

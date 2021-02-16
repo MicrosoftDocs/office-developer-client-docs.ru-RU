@@ -1,5 +1,5 @@
 ---
-title: Иконтабадмин IUnknown
+title: IContabAdmin IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,21 +25,21 @@ ms.locfileid: "33439333"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Удаляет папки контактов из адресной книги Microsoft Outlook 2010 и Microsoft Outlook 2013.
+Удаляет папки контактов из Microsoft Outlook 2010, русская версия и адресной книги Microsoft Outlook 2013.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |кабадмин. h  <br/> |
-|Предоставлено:  <br/> ||
+|Файл заголовка:  <br/> |cabadmin.h  <br/> |
+|Выставим:  <br/> ||
 |Реализовано в:  <br/> |[IABContainer : IMAPIContainer](iabcontainerimapicontainer.md) <br/> |
 |Вызывающая сторона:  <br/> |CRM  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IContabAdmin  <br/> |
 |Тип указателя:  <br/> ||
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Удаляет адресную книгу контакта (CAB-файл), указанную указанным ИДЕНТИФИКАТОРом записи, из иерархии адресной книги.  <br/> |
+|[IContabAdmin::RemoveStore](icontabadmin-removestore.md) <br/> |Удаляет из иерархии адресной книги адресную книгу контактов, указанную с помощью указанного ИД записи.  <br/> |
    
 

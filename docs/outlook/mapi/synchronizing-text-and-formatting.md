@@ -21,21 +21,21 @@ ms.locfileid: "33435105"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Основной задачей при отправке сообщений в формате RTF является синхронизация текста с форматированием. Чтобы убедиться, что сообщения, поступающие по адресу назначения, являются их источниками, а также для синхронизации текста и форматирования, MAPI предоставляет функцию [ртфсинк](rtfsync.md) . **Ртфсинк** обычно вызывается клиентами, ПОДДЕРЖИВАЮЩими RTF, перед отображением входящих сообщений и диспетчером очереди MAPI при загрузке сообщений в поставщик транспорта. Вызывающие абоненты указывают область возможных расхождений путем передачи одного или двух флагов в **ртфсинк**:
+Основной проблемой при отправке сообщений в формате RTF является синхронизация текста с форматированием. Чтобы обеспечить синхронизацию текста и форматирования при направлении сообщений в место назначения и синхронизацию текста и форматирования, MAPI предоставляет функцию [RTFSync.](rtfsync.md) **RTFSync** обычно вызван клиентами с RTF перед отображением входящих сообщений и пулером MAPI при загрузке сообщений поставщику транспорта. Звоняющие указывают область возможных несоответствий, передавая один или два флага **в RTFSync:**
   
 - RTF_SYNC_BODY_CHANGED, чтобы указать изменение текста сообщения.
     
-- RTF_SYNC_RTF_CHANGED, чтобы указать изменение форматирования сообщения.
+- RTF_SYNC_RTF_CHANGED, чтобы указать изменение форматирования сообщений.
     
-Процесс синхронизации, выполняемый в **ртфсинк** , это сложная циклическая контрольная проверка (CRC) текста сообщения, которая игнорирует некоторые символы и преобразует другие. Символы, которые скорее всего были добавлены поставщиками транспорта, игнорируются. MAPI определяет несколько свойств для работы с RTF, как описано в следующей таблице. 
+Процесс синхронизации, который происходит в **RTFSync,** является сложной проверкой циклической избыточности (CRC) текста сообщения, который игнорирует некоторые символы и преобразует другие. Символы, которые, скорее всего, были добавлены поставщиками транспорта, игнорируются. MAPI определяет несколько свойств для работы с RTF, как описано в следующей таблице. 
   
 |**Свойство RTF**|**Описание**|
 |:-----|:-----|
-|**PR_RTF_SYNC_BODY_TAG** ([PidTagRtfSyncBodyTag](pidtagrtfsyncbodytag-canonical-property.md))  <br/> |Указывает начало реального текста сообщения.  <br/> |
-|**PR_RTF_SYNC_BODY_CRC** ([PidTagRtfSyncBodyCrc](pidtagrtfsyncbodycrc-canonical-property.md))  <br/> |Содержит результат циклической проверки избыточности текста сообщения.  <br/> |
-|**PR_RTF_SYNC_BODY_COUNT** ([PidTagRtfSyncBodyCount](pidtagrtfsyncbodycount-canonical-property.md))  <br/> |Содержит число символов в **PR_RTF_SYNC_BODY_CRC**.  <br/> |
-|**PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md))  <br/> |Установите значение TRUE при синхронизации текста сообщения и форматирования.  <br/> |
-|**PR_RTF_SYNC_PREFIX_COUNT** ([PidTagRtfSyncPrefixCount](pidtagrtfsyncprefixcount-canonical-property.md))  <br/> |Содержит количество непустых символов, прецеед текст сообщения.  <br/> |
-|**PR_RTF_SYNC_TRAILING_COUNT** ([PidTagRtfSyncTrailingCount](pidtagrtfsynctrailingcount-canonical-property.md))  <br/> |Содержит количество непустых символов, заканчивающихся текстом сообщения.  <br/> |
+|**PR_RTF_SYNC_BODY_TAG** ([PidTagRtfSyncBodyTag)](pidtagrtfsyncbodytag-canonical-property.md)  <br/> |Указывает начало реального текста сообщения.  <br/> |
+|**PR_RTF_SYNC_BODY_CRC** ([PidTagRtfSyncBodyCrc)](pidtagrtfsyncbodycrc-canonical-property.md)  <br/> |Содержит результат циклической проверки избыточности текста сообщения.  <br/> |
+|**PR_RTF_SYNC_BODY_COUNT** ([PidTagRtfSyncBodyCount)](pidtagrtfsyncbodycount-canonical-property.md)  <br/> |Содержит количество символов в **PR_RTF_SYNC_BODY_CRC.**  <br/> |
+|**PR_RTF_IN_SYNC** ([PidTagRtfInSync)](pidtagrtfinsync-canonical-property.md)  <br/> |Установите true, если текст сообщения и форматирование синхронизированы.  <br/> |
+|**PR_RTF_SYNC_PREFIX_COUNT** ([PidTagRtfSyncPrefixCount)](pidtagrtfsyncprefixcount-canonical-property.md)  <br/> |Содержит количество символов, не в которых содержится текст сообщения.  <br/> |
+|**PR_RTF_SYNC_TRAILING_COUNT** ([PidTagRtfSyncTrailingCount)](pidtagrtfsynctrailingcount-canonical-property.md)  <br/> |Содержит количество символов, не в которых содержится текст сообщения.  <br/> |
    
 

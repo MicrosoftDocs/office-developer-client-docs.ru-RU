@@ -1,11 +1,11 @@
 ---
-title: Важные и полезная функции функции XLM в C API
+title: Основные и полезные функции XLM API C
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- функции [Excel 2007], c API XLM
+- функции [excel 2007], c api xlm
 localization_priority: Normal
 ms.assetid: dc80cb3d-0d7e-4cb9-9870-3acc84eeca82
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -16,15 +16,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434517"
 ---
-# <a name="essential-and-useful-c-api-xlm-functions"></a>Важные и полезная функции функции XLM в C API
+# <a name="essential-and-useful-c-api-xlm-functions"></a>Основные и полезные функции XLM API C
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функции, описанные в этом разделе, являются функциями обратного вызова Microsoft Excel, которые особенно удобны для разработчиков DLL и XLL. В этом случае функция **xlfRegister** важна для XLL-библиотек и библиотек DLL, которые хотят зарегистрировать свои функции и команды, чтобы их можно было вызывать непосредственно из Excel. Функции **xlfUnregister** и **xlfSetName** используются в сочетании для отмены регистрации DLL и функций XLL и команд. 
+Функции, описанные в этом разделе, — это функции вызова Microsoft Excel, которые особенно полезны разработчикам DLL и XLL. Из них функция **xlfRegister** необходима для XLS и DLL, которые хотят зарегистрировать свои функции и команды, чтобы их можно было вызвано непосредственно из Excel. Функции **xlfUnregister** и **xlfSetName** используются в сочетании для unregister функций и команд DLL и XLL. 
   
-Многие другие функции Excel предоставляются с помощью API C, которые можно использовать при разработке XLL-модулей. Они соответствуют функциям и командам листа Excel, которые доступны на листах макросов XLM.
+Excel может использовать множество дополнительных функций с помощью API C, которые полезны при разработке XLL. Они соответствуют функциям, функциям и командам листа Excel, которые доступны на листах макроса XLM.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 [xlfCaller](xlfcaller.md)
   

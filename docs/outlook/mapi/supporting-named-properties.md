@@ -1,5 +1,5 @@
 ---
-title: Поддержка именованных свойств
+title: Поддержка именуемой свойства
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,24 +15,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434328"
 ---
-# <a name="supporting-named-properties"></a>Поддержка именованных свойств
+# <a name="supporting-named-properties"></a>Поддержка именуемой свойства
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Any object that implements the [IMAPIProp: IUnknown](imapipropiunknown.md) interface can support named properties. Поддержка именованных свойств необходима для следующих компонентов: 
+Any object that implements the [IMAPIProp: IUnknown](imapipropiunknown.md) interface can support named properties. Поддержка именуемой свойства необходима для: 
   
-- Поставщики адресных книг, которые позволяют копировать записи из других поставщиков в свои контейнеры.
+- Поставщики адресных книг, которые позволяют скопировать записи от других поставщиков в свои контейнеры.
     
-- Поставщики хранилищ сообщений, которые можно использовать для создания произвольных типов сообщений.
+- Поставщики store сообщений, которые могут использоваться для создания произвольных типов сообщений.
     
-Поддержка именованных свойств является необязательной для всех остальных поставщиков услуг. Поставщики услуг, которые поддерживают именованные свойства, должны реализовать сопоставление имен и идентификаторов в методах [IMAPIProp:: жетнамесфромидс](imapiprop-getnamesfromids.md) и [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) . Клиенты вызывают **жетнамесфромидс** , чтобы получить соответствующие имена для одного или нескольких идентификаторов свойств в диапазоне от 0x8000 и **жетидсфромнамес** , чтобы создать или получить идентификаторы для одного или нескольких имен. 
+Поддержка именуемого свойства не является обязательной для всех остальных поставщиков услуг. Поставщики служб, которые поддерживают именуемые свойства, должны реализовать сопоставление имен и идентификаторов в методах [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) и [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) Клиенты вызывать **GetNamesFromIDs,** чтобы получить соответствующие имена для одного или более идентификаторов свойств в диапазоне 0x8000 и **GetIDsFromNames** для создания или извлечения идентификаторов для одного или более имен. 
   
-Поставщики услуг, не поддерживающие именованные свойства, должны:
+Поставщики услуг, которые не поддерживают именуемые свойства, должны:
   
-- Вызовы Fail для [IMAPIProp:: SetProps](imapiprop-setprops.md) для задания свойств с идентификаторами 0x8000 и выше, возвращая MAPI_E_UNEXPECTED_ID в массиве [спроппроблем](spropproblem.md) . 
+- Сбой вызовов [IMAPIProp::SetProps,](imapiprop-setprops.md) чтобы установить свойства с идентификаторами 0x8000 или более, возвращая MAPI_E_UNEXPECTED_ID в [массиве SPropProblem.](spropproblem.md) 
     
-- Возвращает MAPI_E_NO_SUPPORT из методов [IMAPIProp:: жетнамесфромидс](imapiprop-getnamesfromids.md) и [IMAPIProp:: жетидсфромнамес](imapiprop-getidsfromnames.md) . 
+- Возвращает MAPI_E_NO_SUPPORT из методов [IMAPIProp::GetNamesFromIDs](imapiprop-getnamesfromids.md) и [IMAPIProp::GetIDsFromNames.](imapiprop-getidsfromnames.md) 
     
 

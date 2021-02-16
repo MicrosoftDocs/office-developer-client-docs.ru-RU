@@ -1,5 +1,5 @@
 ---
-title: Основные сведения о разработке поставщиков услуг
+title: Основы разработки поставщика услуг
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,13 +15,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437807"
 ---
-# <a name="service-provider-development-basics"></a>Основные сведения о разработке поставщиков услуг
+# <a name="service-provider-development-basics"></a>Основы разработки поставщика услуг
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-В этом разделе содержатся обзорные сведения, которые необходимо проверить перед созданием собственных поставщиков службы MAPI.
+В этом разделе содержится обзорная информация, которую необходимо просмотреть перед созданием собственных поставщиков услуг MAPI.
   
 ## <a name="see-also"></a>См. также
 
@@ -33,7 +33,7 @@ ms.locfileid: "33437807"
   
 [���������� ���������� ��������� ��������� MAPI](developing-a-mapi-message-store-provider.md)
   
-[Поставщики службы MAPI](mapi-service-providers.md)
+[Поставщики услуг MAPI](mapi-service-providers.md)
   
-[Общие сведения о поставщике службы MAPI](mapi-service-provider-overview.md)
+[Общие сведения о поставщике услуг MAPI](mapi-service-provider-overview.md)
 

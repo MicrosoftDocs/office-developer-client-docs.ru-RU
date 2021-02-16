@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: dcb526f8-1476-39da-cb07-42575db94320
-description: Этот элемент является заполнителем и не поддерживается.
+description: Этот член является местоимящиком и не поддерживается.
 ms.openlocfilehash: b18d21bdd0d0d2c3a909a21906b18236f7575560
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33437709"
 ---
 # <a name="ifreebusysupportplaceholder8"></a>IFreeBusySupport::Placeholder8
 
-Этот элемент является заполнителем и не поддерживается.
+Этот член является местоимящиком и не поддерживается.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [ифрибусисуппорт](ifreebusysupport.md).
+См. [IFreeBusySupport.](ifreebusysupport.md)
   
 ```cpp
 HRESULT Placeholder8( 
@@ -31,14 +31,14 @@ BOOL
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Всегда E_NOTIMPL, так как этот член является заполнителем и не поддерживается.
+Всегда E_NOTIMPL, так как этот член является местоимящиком и не поддерживается.
   
 ## <a name="remarks"></a>Примечания
 
-Этот элемент должен возвращать E_NOTIMPL.
+Этот член должен возвращать E_NOTIMPL.
   
 ## <a name="see-also"></a>См. также
 
-- [Константы (API сведений о доступности)](constants-free-busy-api.md)
+- [Константы (API занятости)](constants-free-busy-api.md)
 - [IFreeBusySupport::LoadFreeBusyData](ifreebusysupport-loadfreebusydata.md)
 

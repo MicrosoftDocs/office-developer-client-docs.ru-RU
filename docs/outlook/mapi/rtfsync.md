@@ -23,13 +23,13 @@ ms.locfileid: "33436211"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Убедитесь, что текст сообщения в формате RTF соответствует версии обычного текста. Перед считыванием версии RTF и изменением версии RTF необходимо вызвать эту функцию. 
+Убедитесь, что текст сообщения в формате RTF соответствует обычной текстовой версии. Необходимо вызвать эту функцию перед чтением версии RTF и после изменения версии RTF. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Мапиутил. h  <br/> |
+|Файл заголовка:  <br/> |Mapiutil.h  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
-|Вызывающая сторона:  <br/> |Клиентские приложения и поставщики хранилищ сообщений с поддержкой RTF  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения с RTF и поставщики store сообщений  <br/> |
    
 ```cpp
 HRESULT RTFSync(
@@ -41,23 +41,23 @@ HRESULT RTFSync(
 
 ## <a name="parameters"></a>Параметры
 
-_лпмессаже_
+_lpMessage_
   
-> возврата Указатель на сообщение, которое требуется обновить.
+> [in] Указатель на сообщение, которое необходимо обновить.
     
 _ulFlags_
   
-> возврата Битовая маска флагов, используемых для обозначения измененной версии сообщения в формате RTF или обычного текста. Можно задать следующие флаги:
+> [in] Битоваяmas флагов, используемых для сообщения в виде RTF или обычного текста, была изменена. Можно установить следующие флаги:
     
-  - RTF_SYNC_BODY_CHANGED: изменена текстовая версия сообщения.
+  - RTF_SYNC_BODY_CHANGED: текстовая версия сообщения изменена.
       
-  - RTF_SYNC_RTF_CHANGED: изменена версия сообщения в формате RTF.
+  - RTF_SYNC_RTF_CHANGED: версия сообщения в RTF изменена.
     
-  Все остальные биты в параметре _ulFlags_ зарезервированы для последующего использования. 
+  Все остальные биты в параметре  _ulFlags_ зарезервированы для будущего использования. 
     
-_лпфмессажеупдатед_
+_lpfMessageUpdated_
   
-> вышли Указатель на переменную, указывающую наличие обновленного сообщения. Значение TRUE, если имеется обновленное сообщение, в противном случае — FALSE.
+> [out] Указатель на переменную, указывающее, есть ли обновленное сообщение. TRUE, если есть обновленное сообщение, в противном случае FALSE.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -67,17 +67,17 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Если свойство **PR_RTF_IN_SYNC** ([PidTagRtfInSync](pidtagrtfinsync-canonical-property.md)) отсутствует или имеет значение false, перед чтением свойства **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) необходимо вызвать функцию **ртфсинк** с установленным флагом RTF_SYNC_BODY_CHANGED. 
+Если свойство **PR_RTF_IN_SYNC** ([PidTagRtfInSync)](pidtagrtfinsync-canonical-property.md)отсутствует или имеет false, перед чтением свойства **PR_RTF_COMPRESSED** ([PidTagRtfCompressed)](pidtagrtfcompressed-canonical-property.md)функцию **RTFSync** следует назвать с установленным флагом RTF_SYNC_BODY_CHANGED. 
   
-Если флаг STORE_RTF_OK не задан в свойстве **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)), эту функцию необходимо вызвать с установленным флагом RTF_SYNC_RTF_CHANGED после изменения **PR_RTF_COMPRESSED**. 
+Если флаг STORE_RTF_OK не установлен в свойстве **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask),](pidtagstoresupportmask-canonical-property.md)эту функцию следует использовать с флагом RTF_SYNC_RTF_CHANGED, установленным после изменения **PR_RTF_COMPRESSED.** 
   
-Если были изменены как **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), так и **PR_RTF_COMPRESSED** , функция **ртфсинк** должна вызываться с установленными обоими флагами. 
+Если оба **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)) **и PR_RTF_COMPRESSED** были изменены, следует создать функцию **RTFSync** с обоими установленными флагами. 
   
-Если для параметра _лпфмессажеупдатед_ задано значение true, то для сообщения должен вызываться метод [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . Если параметр **SaveChanges** не вызывается, изменения не будут сохранены в сообщении. 
+Если для параметра _lpfMessageUpdated_ задано значение TRUE, для сообщения должен быть вызван метод [IMAPIProp::SaveChanges.](imapiprop-savechanges.md) Если **saveChanges** не вызван, изменения не будут сохранены в сообщении. 
   
-Поставщики хранилищ сообщений могут использовать **ртфсинк** для синхронизации свойств **PR_BODY** и **PR_RTF_COMPRESSED** . 
+Поставщики rtFSync могут использовать **RTFSync** для синхронизации PR_BODY и **PR_RTF_COMPRESSED** свойств.  
   
-Дополнительную информацию можно узнать в статье [поддержка текста в формате RTF для поставщиков хранилищ сообщений](supporting-rtf-text-for-message-store-providers.md). 
+Дополнительные сведения см. в документе [Supporting RTF Text for Message Store Providers.](supporting-rtf-text-for-message-store-providers.md) 
   
 ## <a name="see-also"></a>См. также
 

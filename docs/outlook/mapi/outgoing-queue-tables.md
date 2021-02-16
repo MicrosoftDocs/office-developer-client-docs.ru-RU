@@ -1,5 +1,5 @@
 ---
-title: Таблицы исходящих очередей
+title: Таблицы исходяющих очередей
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,34 +15,34 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437576"
 ---
-# <a name="outgoing-queue-tables"></a>Таблицы исходящих очередей
+# <a name="outgoing-queue-tables"></a>Таблицы исходяющих очередей
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-В таблице исходящие очереди содержатся сведения обо всех исходящих сообщениях для хранилища сообщений. Поставщики хранилищ сообщений реализуют таблицы исходящих очередей для диспетчера очереди MAPI, которые необходимо использовать. Для хранилищ, которые не поддерживают отправку или получение сообщений, не требуется реализация этой таблицы. 
+Таблица исходяющих очередей содержит сведения обо всех исходях сообщениях для хранения сообщений. Поставщики store сообщений реализуют таблицы исходяющих очередей для использования пулом MAPI. Хранилища, которые не поддерживают отправку или получение сообщений, не должны реализовывать эту таблицу. 
   
-Чтобы получить доступ к таблице исходящих очередей, диспетчер очереди MAPI вызывает метод [IMsgStore:: жетаутгоингкуеуе](imsgstore-getoutgoingqueue.md) . 
+Чтобы получить доступ к таблице исходяния очереди, пулер MAPI вызывает метод [IMsgStore::GetOutgoingQueue.](imsgstore-getoutgoingqueue.md) 
   
-Требуется предварительная обработка сообщений и их отправка в поставщик транспорта в том же порядке, в котором они были отправлены клиентским приложением. Диспетчер очереди MAPI предназначен для приема сообщений из хранилища сообщений в порядке возрастания времени отправки. В связи с этим требованием может быть определена задержка перед отображением некоторых сообщений в таблице "очередь исходящих сообщений". 
+Существует требование предварительной подготовки и отправки сообщений поставщику транспорта в том же порядке, в который они были отправлены клиентского приложения. The MAPI spooler is designed to accept messages from the message store in ascending order of submission time. В связи с этим требованием может быть некоторой задержкой, прежде чем некоторые сообщения появятся в таблице исходяния очереди. 
   
-Хранилища сообщений должны разрешить сортировку в таблице исходящих очередей, чтобы диспетчер очереди MAPI мог отсортировать сообщения по времени отправки, или по умолчанию в качестве порядка сортировки по возрастанию время отправки. 
+Хранилища сообщений должны либо разрешать сортировку в таблице исходячих очередей, чтобы пульер MAPI можно было сортировать сообщения по времени отправки, либо порядок сортировки по умолчанию должен быть по возрастанию времени отправки. 
   
-Таблица очередь исходящих сообщений должна отправлять уведомления при изменении содержимого очереди.
+При смене содержимого очереди в таблице исходяющих очередей должны отправляться уведомления.
   
-Следующие свойства составляют обязательный набор столбцов в таблицах исходящих очередей:
+Следующие свойства составляют необходимый столбец, задающийся в таблицах исходяющих очередей:
   
 |||
 |:-----|:-----|
-|**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime](pidtagclientsubmittime-canonical-property.md))  <br/> |**PR_DISPLAY_BCC** ([PidTagDisplayBcc](pidtagdisplaybcc-canonical-property.md))  <br/> |
-|**PR_DISPLAY_CC** ([PidTagDisplayCc](pidtagdisplaycc-canonical-property.md))  <br/> |**PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md))  <br/> |
-|**PR_MESSAGE_SIZE** ([PidTagMessageSize](pidtagmessagesize-canonical-property.md))  <br/> |**PR_PRIORITY** ([PidTagPriority](pidtagpriority-canonical-property.md))  <br/> |
-|**PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md))  <br/> |**PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md))  <br/> |
-|**PR_SUBMIT_FLAGS** ([PidTagSubmitFlags](pidtagsubmitflags-canonical-property.md))  <br/> | <br/> |
+|**PR_CLIENT_SUBMIT_TIME** ([PidTagClientSubmitTime)](pidtagclientsubmittime-canonical-property.md)  <br/> |**PR_DISPLAY_BCC** ([PidTagDisplayBcc)](pidtagdisplaybcc-canonical-property.md)  <br/> |
+|**PR_DISPLAY_CC** ([PidTagDisplayCc)](pidtagdisplaycc-canonical-property.md)  <br/> |**PR_DISPLAY_TO** ([PidTagDisplayTo](pidtagdisplayto-canonical-property.md))  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)  <br/> |**PR_MESSAGE_FLAGS** ([PidTagMessageFlags)](pidtagmessageflags-canonical-property.md)  <br/> |
+|**PR_MESSAGE_SIZE** ([PidTagMessageSize)](pidtagmessagesize-canonical-property.md)  <br/> |**PR_PRIORITY** ([PidTagPriority)](pidtagpriority-canonical-property.md)  <br/> |
+|**PR_SENDER_NAME** ([PidTagSenderName)](pidtagsendername-canonical-property.md)  <br/> |**PR_SUBJECT** ([PidTagSubject)](pidtagsubject-canonical-property.md)  <br/> |
+|**PR_SUBMIT_FLAGS** ([PidTagSubmitFlags)](pidtagsubmitflags-canonical-property.md)  <br/> | <br/> |
    
-Дополнительные сведения о том, как используется таблица исходящих очередей, приведены в разделе [Отправка сообщений с помощью поставщиков хранилища сообщений](sending-messages-by-using-message-store-providers.md).
+Дополнительные сведения об использовании таблицы исходяющих очередей см. в таблице "Отправка сообщений с помощью поставщиков [store сообщений".](sending-messages-by-using-message-store-providers.md)
   
 ## <a name="see-also"></a>См. также
 

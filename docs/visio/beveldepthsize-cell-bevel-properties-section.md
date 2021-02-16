@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c6a57e52-c7ed-4a52-940f-1cef9baa70a5
-description: Определяет размер глубины скоса в пунктах.
+description: Определяет размер глубины ленты в точках.
 ms.openlocfilehash: 13c00536d6fc4f19ff2c62cab2afd04f9cdf8985
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33438500"
 ---
 # <a name="beveldepthsize-cell-bevel-properties-section"></a>BevelDepthSize Cell (Bevel Properties Section)
 
-Определяет размер глубины скоса в пунктах. 
+Определяет размер глубины ленты в точках. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **BevelDepthSize** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelDepthSize** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "33438500"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровбевелпропертиес** <br/> |
-| Индекс ячейки:  <br/> |**висбевелдепссизе** <br/> |
+| Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
+| Индекс ячейки:  <br/> |**visBevelDepthSize** <br/> |
    
 
