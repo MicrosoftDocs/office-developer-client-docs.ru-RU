@@ -17,7 +17,7 @@ ms.locfileid: "33415294"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Добавления MAPI — это интерфейсы API, которые относятся к интерфейсу MAPI (например, к типам данных, функциям и свойствам), которые ранее не были предоставлены и документированы как часть Справочника программиста по MAPI. К ним относятся следующие определения и свойства.
+Добавления MAPI — это API, которые относятся к интерфейсу MAPI, например к типам данных, функциям и свойствам, которые ранее не были раскрыта и задокументированы в справочнике программиста MAPI. Они включают следующие определения и свойства.
   
 ## <a name="constant-definitions"></a>Определения констант
 
@@ -39,7 +39,7 @@ ms.locfileid: "33415294"
     
 ## <a name="properties"></a>Свойства
 
-Следующие свойства обычно предоставляются объектами сообщений.
+Следующие свойства обычно личные объекты сообщений.
   
 - **[PR_BODY_W](pidtagbody-canonical-property.md)**
     
@@ -79,11 +79,11 @@ ms.locfileid: "33415294"
     
 - **[PR_SUBJECT_W](pidtagsubject-canonical-property.md)**
     
-К объектам таблицы содержимого адресных книг предоставлены следующие свойства.
+Следующие свойства могут быть открыты объектами таблицы содержимого адресной книги.
   
 - **[PR_DISPLAY_TYPE_EX](pidtagdisplaytypeex-canonical-property.md)**
     
-Следующие свойства предоставляются объектами контейнера адресной книги.
+Следующие свойства могут быть открыты объектами контейнера адресной книги.
   
 - **[PR_EMS_AB_SERVER](pidtagemsabserver-canonical-property.md)**
     
@@ -91,13 +91,13 @@ ms.locfileid: "33415294"
     
 - **[PR_EMS_AB_SERVER_W](pidtagemsabserver-canonical-property.md)**
     
-Объекты Folder представляют следующие свойства.
+Следующие свойства могут быть открыты объектами папок.
   
 - **[PR_AGING_GRANULARITY](pidtagaginggranularity-canonical-property.md)**
     
 - **[PR_AGING_PERIOD](pidtagagingperiod-canonical-property.md)**
     
-Объекты пользователя обмена сообщениями представляют указанные ниже свойства.
+Следующие свойства могут быть выявимы объектами пользователей системы обмена сообщениями.
   
 - **[PR_ASSISTANT_TELEPHONE_NUMBER_W](pidtagassistanttelephonenumber-canonical-property.md)**
     
@@ -189,7 +189,7 @@ ms.locfileid: "33415294"
     
 - **[PR_WEDDING_ANNIVERSARY](pidtagweddinganniversary-canonical-property.md)**
     
-Объекты раздела профиля представляют указанные ниже свойства.
+Следующие свойства могут быть открыты объектами разделов профилей.
   
 - **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)**
     
@@ -207,7 +207,7 @@ ms.locfileid: "33415294"
     
 - **[PR_ROH_PROXY_SERVER](pidtagrpcoverhttpproxyserver-canonical-property.md)**
     
-Объекты Store представляют указанные ниже свойства.
+Следующие свойства могут быть выявимы объектами хранения.
   
 - **[PR_IPM_APPOINTMENT_ENTRYID](pidtagipmappointmententryid-canonical-property.md)**
     
@@ -221,7 +221,7 @@ ms.locfileid: "33415294"
     
 - **[PR_IPM_TASK_ENTRYID](pidtagipmtaskentryid-canonical-property.md)**
     
-Указанные ниже свойства предоставляются объектами Store и используются при поиске определенных элементов электронной почты в хранилище.
+Следующие свойства огощаются объектами магазина и используются для поиска определенных элементов электронной почты в хранилище.
   
 - **[PR_SEARCH_ATTACHMENTS_W](pidtagsearchattachments-canonical-property.md)**
     
@@ -234,7 +234,7 @@ ms.locfileid: "33415294"
 ## <a name="see-also"></a>См. также
 
 - [Доступ к хранилищу на удаленном сервере, если Outlook работает в режиме кэширования Exchange](how-to-access-store-on-remote-server-in-cached-exchange-mode.md)  
-- [Определение версии Exchange Server в профиле Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
+- [Обнаружение версии Exchange Server в профиле Outlook](how-to-detect-the-version-of-exchange-server-in-an-outlook-profile.md)
 - [Открытие хранилища на удаленном сервере, если Outlook работает в режиме кэширования Exchange](how-to-open-store-on-remote-server-in-cached-exchange-mode.md)
 - [Управление сообщением в OST без вызова синхронизации в режиме кэширования Exchange](how-to-manage-a-message-in-an-ost-without-invoking-a-synchronization.md)
 

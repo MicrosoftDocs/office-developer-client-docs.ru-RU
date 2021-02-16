@@ -25,28 +25,28 @@ ms.locfileid: "33416092"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит тип адреса изначально предполагаемого получателя сообщения с пересылкой.
+Содержит тип адреса исходного получателя сообщения с автоматическим переназначаемой адресом.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE, PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_A PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_W  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE, PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_A, PR_ORIGINALLY_INTENDED_RECIP_ADDRTYPE_W  <br/> |
 |Идентификатор:  <br/> |0x007B  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Сервер  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
+|Область:  <br/> |Server  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства являются одним из свойств адреса изначально назначенного получателя сообщения. Он должен быть задан автоматическим агентом, который перенаправлял сообщение.
+Эти свойства являются одним из свойств адреса для исходного получателя сообщения. Его должен установить автоматический агент, который переадил сообщение.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

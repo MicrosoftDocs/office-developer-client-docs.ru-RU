@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f61960f7-e018-4d2e-8e32-426ed46d9064
-description: В этом разделе описываются типичные последовательности вызовов для Outlook Social Connector (OSC), которые входят в интерфейсы расширения поставщика OSC, реализуемые поставщиком OSC.
+description: В этом разделе описаны типичные последовательности вызовов Outlook Social Connector (OSC) для членов в интерфейсах extensibility поставщика OSC, которые реализует поставщик OSC.
 ms.openlocfilehash: f7829b710d6840ccd1fa0f990d6e03b2eb879431
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,27 +17,27 @@ ms.locfileid: "33413614"
 ---
 # <a name="osc-typical-calling-sequences"></a>Типичные последовательности вызовов OSC
 
-В этом разделе описываются типичные последовательности вызовов для Outlook Social Connector (OSC), которые входят в интерфейсы расширения поставщика OSC, реализуемые поставщиком OSC. Типичные последовательности вызовов иллюстрируют, как и когда OSC использует такие интерфейсы и методы, чтобы лучше определить способ реализации определенного элемента в интерфейсе расширяемости поставщика. Фактические последовательности вызовов могут изменяться в зависимости от возможностей, возвращаемых методом [исоЦиалпровидер:: Capabilities](isocialprovider-getcapabilities.md) . Примеры возможностей включают следующие: 
+В этом разделе описаны типичные последовательности вызовов Outlook Social Connector (OSC) для членов в интерфейсах extensibility поставщика OSC, которые реализует поставщик OSC. Типичные последовательности вызовов иллюстрируют, как и когда OSC использует такие интерфейсы и методы, чтобы лучше определить, как реализовать заданный член в интерфейсе extensibility поставщика. Фактическая последовательность вызовов может отличаться в зависимости от возможностей, возвращаемого методом [ISocialProvider::GetCapabilities.](isocialprovider-getcapabilities.md) Примеры возможностей: 
   
-- Поставщик поддержки для получения, кэширования или динамического поиска друзей и действий из социальной сети.
+- Поддержка поставщика для получения, кэшинга или динамического получения друзей и действий из социальной сети.
     
-- Пользовательский интерфейс, который должен отображаться в OSC для входа пользователя.
+- Пользовательский интерфейс, который osC должен отображать для пользователя.
     
-- Тип проверки подлинности (например, проверка подлинности на основе форм), который должен использоваться OSC.
+- Тип проверки подлинности (например, проверка подлинности на основе форм), который должен использовать OSC.
     
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Обычная проверка подлинности](basic-authentication.md): описание типичной последовательности вызовов OSC для поддержки пользователя Office, который выполняет вход в социальной сети, если поставщик OSC поддерживает обычную проверку подлинности.
+- [Обычная проверка](basic-authentication.md)подлинности : описывает типичную последовательность вызовов OSC для поддержки пользователя Office, который входит в социальные сети, если поставщик OSC поддерживает обычную проверку подлинности.
     
-- [Проверка подлинности на основе форм](forms-based-authentication.md): описание типичной последовательности вызовов OSC для поддержки пользователя Office, который входит в состав социальных сетей, если поставщик OSC поддерживает проверку подлинности на основе форм.
+- [Проверка](forms-based-authentication.md)подлинности на основе форм : описывает типичную последовательность вызовов OSC для поддержки пользователя Office, который входит в социальные сети, если поставщик OSC поддерживает проверку подлинности на основе форм.
     
-- [Приступая](getting-activities.md)к работе: в этой статье описывается типичная последовательность вызовов OSC для синхронизации действий друзей пользователя Office из социальной сети, если поставщик социальных сетей OSC поддерживает синхронизацию действий.
+- [Getting Activities](getting-activities.md): Describes the typical calling sequence of the OSC to synchronize the activities of the Office user's friends from a social network, if the social network OSC provider supports synchronization of activities.
     
-- [Получения сведений о друзьях](getting-friends-information.md): в этой статье описывается типичная последовательность вызовов OSC для синхронизации списка друзей пользователя Office в социальной сети, если поставщик социальных сетей OSC поддерживает кэшированную синхронизацию контактов.
+- [Getting Friends Information](getting-friends-information.md): Describes the typical calling sequence of the OSC to synchronize the Office user's friends list from a social network, if the social network OSC provider supports cached synchronization of contacts.
     
-## <a name="reference"></a>Справочные материалы
+## <a name="reference"></a>Справка
 
-- [Справочник по поставщику Outlook Social Connector](outlook-social-connector-provider-reference-0.md)
+- [Outlook Social Connector Provider Reference](outlook-social-connector-provider-reference-0.md)
   
 ## <a name="related-sections"></a>Связанные разделы
 
@@ -45,13 +45,13 @@ ms.locfileid: "33413614"
   
 - [Примеры шаблонов OSC](osc-sample-templates.md)
   
-- [Разработка поставщика с помощью XML-схемы OSC](developing-a-provider-with-the-osc-xml-schema.md)
+- [Разработка поставщика с помощью схемы OSC XML](developing-a-provider-with-the-osc-xml-schema.md)
   
 - [Отладка поставщика](debugging-a-provider.md)
   
 - [Развертывание поставщика](deploying-a-provider.md)
   
-- [Рекомендации по разработке поставщика](best-practices-for-developing-a-provider.md)
+- [Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)
   
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: Макрокоманда Саверекорд (пользовательское веб-приложение для Access)
+title: SaveRecord Macro Action (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415560"
 ---
-# <a name="saverecord-macro-action-access-custom-web-app"></a>Макрокоманда Саверекорд (пользовательское веб-приложение для Access)
+# <a name="saverecord-macro-action-access-custom-web-app"></a>SaveRecord Macro Action (пользовательское веб-приложение Access)
 
 Сохраняет текущую запись.
   
@@ -23,6 +23,6 @@ ms.locfileid: "33415560"
   
 ## <a name="remarks"></a>Примечания
 
-Действие **саверекорд** эквивалентно использованию кнопки **сохранить** на панели действий для сохранения текущей записи. 
+Действие **SaveRecord** эквивалентно использованию кнопки "Сохранить" в панели действий для сохранения текущей записи.  
   
 

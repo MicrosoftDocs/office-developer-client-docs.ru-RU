@@ -1,5 +1,5 @@
 ---
-title: Операции ввода данных (пользовательское веб-приложение для Access)
+title: Операции ввода данных (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,21 +13,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415679"
 ---
-# <a name="data-entry-operations-access-custom-web-app"></a>Операции ввода данных (пользовательское веб-приложение для Access)
+# <a name="data-entry-operations-access-custom-web-app"></a>Операции ввода данных (пользовательское веб-приложение Access)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Макрокоманда DeleteRecord (пользовательское веб-приложение для Access)](deleterecord-macro-action-access-custom-web-app.md)
+- [DeleteRecord Macro Action (пользовательское веб-приложение Access)](deleterecord-macro-action-access-custom-web-app.md)
     
-- [Действие макроса ИзменитьЗапись (пользовательское веб-приложение для Access)](editrecord-macro-action-access-custom-web-app.md)
+- [EditRecord Macro Action (пользовательское веб-приложение Access)](editrecord-macro-action-access-custom-web-app.md)
     
-- [Макрокоманда Неврекорд (пользовательское веб-приложение для Access)](newrecord-macro-action-access-custom-web-app.md)
+- [NewRecord Macro Action (пользовательское веб-приложение Access)](newrecord-macro-action-access-custom-web-app.md)
     
-- [Макрокоманда Саверекорд (пользовательское веб-приложение для Access)](saverecord-macro-action-access-custom-web-app.md)
+- [SaveRecord Macro Action (пользовательское веб-приложение Access)](saverecord-macro-action-access-custom-web-app.md)
     
-- [Макрокоманда UndoRecord (пользовательское веб-приложение для Access)](undorecord-macro-action-access-custom-web-app.md)
+- [UndoRecord Macro Action (пользовательское веб-приложение Access)](undorecord-macro-action-access-custom-web-app.md)
     
 

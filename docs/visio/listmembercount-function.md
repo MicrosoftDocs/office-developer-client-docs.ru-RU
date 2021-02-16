@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 8d2276ac-f9fa-946c-aabf-45a5c6f8e1d0
-description: Возвращает число фигур элементов в фигуре контейнера списка.
+description: Возвращает количество фигур членов в фигуре контейнера списка.
 ms.openlocfilehash: ce1f7ab87abab6de9f5c88c05575a14ae93c45e7
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33414293"
 ---
 # <a name="listmembercount-function"></a>Функция LISTMEMBERCOUNT
 
-Возвращает число фигур элементов в фигуре контейнера списка.
+Возвращает количество фигур членов в фигуре контейнера списка.
   
 ## <a name="version-information"></a>Сведения о версии
 
@@ -25,7 +25,7 @@ ms.locfileid: "33414293"
   
 ## <a name="syntax"></a>Синтаксис
 
-LISTMEMBERCOUNT ()
+LISTMEMBERCOUNT()
   
 ### <a name="return-value"></a>Возвращаемое значение
 
@@ -33,6 +33,6 @@ LISTMEMBERCOUNT ()
   
 ## <a name="remarks"></a>Замечания
 
-Если фигура не является контейнером списка, функция LISTMEMBERCOUNT возвращает значение-1.
+Если фигура не является контейнером списка, функция LISTMEMBERCOUNT возвращает -1.
   
 

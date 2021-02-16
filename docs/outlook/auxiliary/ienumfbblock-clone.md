@@ -1,12 +1,12 @@
 ---
-title: иенумфбблоккклоне
+title: IEnumFBBlockClone
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5af36a87-e782-df63-4190-a608758fef50
-description: Создает копию перечислителя с использованием того же ограничения времени, но устанавливая курсор в начало перечислителя.
+description: Создает копию enumerator, используя то же ограничение времени, но устанавливая курсор в начале этого параметра.
 ms.openlocfilehash: 1a279430bf6a29611fa223bebbf8023c34967139
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33413404"
 ---
 # <a name="ienumfbblockclone"></a>IEnumFBBlock::Clone
 
-Создает копию перечислителя с использованием того же ограничения времени, но устанавливая курсор в начало перечислителя.
+Создает копию enumerator, используя то же ограничение времени, но устанавливая курсор в начале этого параметра.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иенумфбблокк](ienumfbblock.md).
+См. [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Clone(  
@@ -30,9 +30,9 @@ HRESULT Clone(
 
 ## <a name="parameters"></a>Параметры
 
-_ппклоне_
+_ppclone_
   
-> вышли Указатель на копию интерфейса [иенумфбблокк](ienumfbblock.md) . 
+> [out] Указатель на копию интерфейса [IEnumFBBlock.](ienumfbblock.md) 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -43,7 +43,7 @@ _ппклоне_
    
 ## <a name="see-also"></a>См. также
 
-- [Константы (API сведений о доступности)](constants-free-busy-api.md)
+- [Константы (API занятости)](constants-free-busy-api.md)
 - [IEnumFBBlock::Next](ienumfbblock-next.md)  
 - [IEnumFBBlock::Reset](ienumfbblock-reset.md)  
 - [IEnumFBBlock::Restrict](ienumfbblock-restrict.md)  

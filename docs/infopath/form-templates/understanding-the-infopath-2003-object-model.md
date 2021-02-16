@@ -19,7 +19,7 @@ ms.locfileid: "33416659"
 
 В этом разделе описана объектная модель для решений InfoPath с управляемым кодом, а также типичные задачи программирования.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 [Объектные модели, совместимые с InfoPath 2003](infopath-2003-compatible-object-models.md)
   
@@ -33,11 +33,11 @@ ms.locfileid: "33416659"
   
 > Описывается доступ к данным, расположенным на внешних источниках данных.
     
-[Доступ к данным форм с помощью объектной модели InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
+[Доступ к данным формы с помощью объектной модели InfoPath 2003](how-to-access-form-data-using-the-infopath-2003-object-model.md)
   
 > Описывается доступ к сведениям о базовом документе XML для формы и о содержащихся в форме данных, а также выполнение некоторых действий с документом XML.
     
-[Отображение оповещений и диалоговых окон с помощью объектной модели InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
+[Отображение оповещений и диалогов с помощью объектной модели InfoPath 2003](how-to-display-alerts-and-dialog-boxes-using-the-infopath-2003-object-model.md)
   
 > Описывается отображение оповещений и диалоговых окон в проектах InfoPath с управляемым кодом.
     
@@ -49,15 +49,15 @@ ms.locfileid: "33416659"
   
 > Описывается создание обработчиков событий для обработки событий, возникающих при заполнении пользователем формы.
     
-[Работать с окнами форм с помощью объектной модели InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
+[Работа с Окнами форм с помощью объектной модели InfoPath 2003](how-to-work-with-form-windows-using-the-infopath-2003-object-model.md)
   
 > Описывается работа с окнами форм.
     
-[Работать с представлениями с помощью объектной модели InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
+[Работа с представлениями с помощью объектной модели InfoPath 2003](how-to-work-with-views-using-the-infopath-2003-object-model.md)
   
 > Описывается работа с представлениями.
     
-[Работать с цифровыми подписями с помощью объектной модели InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
+[Работа с цифровыми подписями с помощью объектной модели InfoPath 2003](how-to-work-with-digital-signatures-using-the-infopath-2003-object-model.md)
   
 > Описывается работа с цифровыми подписями.
     

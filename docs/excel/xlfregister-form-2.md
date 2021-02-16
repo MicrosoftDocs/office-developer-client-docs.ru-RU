@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlfRegister
 keywords:
-- функция xlfRegister [Excel 2007]
+- Функция xlfregister [excel 2007]
 localization_priority: Normal
 ms.assetid: 3ebbd775-f3d2-4ba7-8835-a5b38ad2267a
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,15 +22,15 @@ ms.locfileid: "33416043"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Может вызываться из команды DLL или XLL, которая вызывается Microsoft Excel. Это эквивалентно вызову **Register** из листа макросов Microsoft Office XLM. 
+Может быть вызван из команды DLL или XLL, которая сама была вызвана Microsoft Excel. Это эквивалентно вызову **REGISTER** из листа макроса XLM Excel. 
   
-Функцию **xlfRegister** можно вызвать в двух формах: 
+Функция **xlfRegister** может быть вызвана в двух формах: 
   
-- [xlfRegister (форма 1)](xlfregister-form-1.md): регистрирует отдельные команды или функции.
+- [xlfRegister (форма 1):](xlfregister-form-1.md)регистрирует отдельные команды или функции.
     
-- xlfRegister (форма 2): Загрузка и активация XLL-модуля.
+- xlfRegister (форма 2): загружает и активирует XLL.
     
-Эта функция, вызываемая в форме 2, может использоваться только для загрузки и активации XLL, содержащего процедуру [xlAutoOpen](xlautoopen.md) . 
+Эта функция, вызванная в форме 2, может использоваться только для загрузки и активации XLL, содержащей процедуру [xlAutoOpen.](xlautoopen.md) 
   
 ```cs
 Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
@@ -38,13 +38,13 @@ Excel12(xlfRegister, LPXLOPER12 pxRes, 1, LPXLOPER12 pxModuleText);
 
 ## <a name="parameters"></a>Параметры
 
- _пксмодулетекст_ (**кслтипестр**)
+ _pxModuleText_ (**xltypeStr)**
   
-Имя библиотеки DLL, которая должна быть загружена и активирована.
+Имя DLL для загрузки и активации.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-В случае успешного выполнения возвращается имя DLL (**кслтипестр**). В противном случае возвращается #VALUE! ошибкой.
+В случае успеха возвращается имя DLL (**xltypeStr).** В противном случае возвращается #VALUE! error.
   
 ## <a name="see-also"></a>См. также
 

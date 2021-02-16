@@ -25,28 +25,28 @@ ms.locfileid: "33417016"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Это свойство содержит строку, указывающую состояние удаленной передачи.
+Это свойство содержит строку, которая указывает состояние удаленной передачи.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A PR_REMOTE_PROGRESS_TEXT_W  <br/> |
+|Связанные свойства:  <br/> |PR_REMOTE_PROGRESS_TEXT, PR_REMOTE_PROGRESS_TEXT_A, PR_REMOTE_PROGRESS_TEXT_W  <br/> |
 |Идентификатор:  <br/> |0x3E0C  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Состояние MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Числовой код, связанный с этим текстом, передается в свойство **PR_REMOTE_PROGRESS** ([PidTagRemoteProgress](pidtagremoteprogress-canonical-property.md)).
+Числовая код, связанная с этим текстом, передается в свойстве **PR_REMOTE_PROGRESS** ([PidTagRemoteProgress).](pidtagremoteprogress-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ff681afd-c058-4fce-855f-5075b8c680c2
-description: Определяет высоту скоса нижнего скоса фигуры в точках.
+description: Определяет высоту нижней волны фигуры в точках.
 ms.openlocfilehash: f0bed55f5ddeb8676b2b2bc2bf0cddad779b011c
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33417527"
 ---
 # <a name="bevelbottomheight-cell-bevel-properties-section"></a>BevelBottomHeight Cell (Bevel Properties Section)
 
-Определяет высоту скоса нижнего скоса фигуры в точках. 
+Определяет высоту нижней волны фигуры в точках. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **BevelBottomHeight** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelBottomHeight** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "33417527"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровбевелпропертиес** <br/> |
-| Индекс ячейки:  <br/> |**висбевелботтомхеигхт** <br/> |
+| Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
+| Индекс ячейки:  <br/> |**visBevelBottomHeight** <br/> |
    
 

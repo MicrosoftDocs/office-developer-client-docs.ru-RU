@@ -1,5 +1,5 @@
 ---
-title: ифолдерсуппортжетсуппортмаск
+title: IFolderSupportGetSupportMask
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -35,9 +35,9 @@ HRESULT GetSupportMask(
 
 ## <a name="parameters"></a>Параметры
 
- _пдвсуппортмаск_
+ _pdwSupportMask_
   
-> вышли Битовая маска, указывающая, поддерживает ли папка общий доступ.
+> [out] Битоваяmas, указывающая, поддерживает ли папка общий доступ.
     
  **FS_NONE**
   
@@ -51,6 +51,6 @@ HRESULT GetSupportMask(
 
 S_OK 
   
-> Вызов выполнен успешно.
+> Вызов был успешным.
     
 

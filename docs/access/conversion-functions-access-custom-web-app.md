@@ -1,5 +1,5 @@
 ---
-title: Функции преобразования (пользовательское веб-приложение для Access)
+title: Функции преобразования (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 08/18/2017
 ms.audience: Developer
@@ -13,23 +13,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415882"
 ---
-# <a name="conversion-functions-access-custom-web-app"></a>Функции преобразования (пользовательское веб-приложение для Access)
+# <a name="conversion-functions-access-custom-web-app"></a>Функции преобразования (пользовательское веб-приложение Access)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
 
-- [Функция CAST (пользовательское веб-приложение для Access)](cast-function-access-custom-web-app.md)
+- [Функция Cast (пользовательское веб-приложение Access)](cast-function-access-custom-web-app.md)
     
-- [Функция объединения (пользовательское веб-приложение для Access)](coalesce-function-access-custom-web-app.md)
+- [Функция Coalesce (пользовательское веб-приложение Access)](coalesce-function-access-custom-web-app.md)
     
-- [Функция Датевистимефромпартс (пользовательское веб-приложение для Access)](datewithtimefromparts-function-access-custom-web-app.md)
+- [Функция DateWithTimeFromParts (пользовательское веб-приложение Access)](datewithtimefromparts-function-access-custom-web-app.md)
     
 - [Функция Format (пользовательское веб-приложение для Access)](format-function-access-custom-web-app.md)
     
-- [Функция Parse (пользовательское веб-приложение для Access)](parse-function-access-custom-web-app.md)
+- [Функция parse (пользовательское веб-приложение Access)](parse-function-access-custom-web-app.md)
     
-- [Функция Тимефромпартс (пользовательское веб-приложение для Access)](timefromparts-functionaccess-custom-web-app.md)
+- [Функция TimeFromParts (пользовательское веб-приложение Access)](timefromparts-functionaccess-custom-web-app.md)
     
-- [Функция Try_Parse (пользовательское веб-приложение для Access)](try_parse-function-access-custom-web-app.md)
+- [Try_Parse (пользовательское веб-приложение Access)](try_parse-function-access-custom-web-app.md)
     
 

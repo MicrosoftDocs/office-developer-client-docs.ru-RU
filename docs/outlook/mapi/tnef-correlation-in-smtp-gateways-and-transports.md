@@ -1,5 +1,5 @@
 ---
-title: Корреляция TNEF в шлюзах и транспортах SMTP
+title: Корреляция TNEF в шлюзах и транспортных системах SMTP
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,16 +15,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413670"
 ---
-# <a name="tnef-correlation-in-smtp-gateways-and-transports"></a>Корреляция TNEF в шлюзах и транспортах SMTP
+# <a name="tnef-correlation-in-smtp-gateways-and-transports"></a>Корреляция TNEF в шлюзах и транспортных системах SMTP
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Шлюзы и транспорты, которые подключаются к системам на основе Интернета, использующие протокол SMTP, используют значение заголовка SMTP протокола MessageID и свойство **PR_TNEF_CORRELATION_KEY** для реализации корреляции TNEF. 
+Шлюзы и транспортные средства, которые подключаются к интернет-системам, которые используют SMTP, используют значение SMTP-загона MessageID и **свойство PR_TNEF_CORRELATION_KEY** для реализации корреляции TNEF. 
   
-Значение заголовка MessageID исходящего сообщения копируется в свойство **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey](pidtagtnefcorrelationkey-canonical-property.md)) и кодируется в атрибут [аттмапипропс](attmapiprops.md) потока TNEF. Обратите внимание, что **PR_TNEF_CORRELATION_KEY** является двоичным свойством, а MessageId — строкой; нулевой признак должен быть включен в копию и в сравнении. 
+Значение заголовщика MessageID исходящие сообщения следует скопировать в свойство **PR_TNEF_CORRELATION_KEY** ([PidTagTnefCorrelationKey)](pidtagtnefcorrelationkey-canonical-property.md)и закодировать в [атрибуте attMAPIProps](attmapiprops.md) потока TNEF. Обратите **внимание PR_TNEF_CORRELATION_KEY** что это двоичное свойство, а MessageID — строка; В копию и сравнение должно быть включено терминатор null. 
   
-Этот метод используется всеми программами Майкрософт, которые подключают системы обмена сообщениями на основе MAPI к Интернету, например Microsoft Exchange Server. Этот метод должен использоваться любыми шлюзами SMTP и транспортами, которые подключаются к системам, поддерживающим клиентов MAPI, чтобы обеспечить максимальную совместимость.
+Этот метод используется всем программным обеспечением Майкрософт, которое подключает системы обмена сообщениями на основе MAPI к Интернету, например Microsoft Exchange Server. Этот способ должен использоваться любыми шлюзами и транспортными средствами SMTP, которые подключаются к системам, которые поддерживают клиенты MAPI, для максимального обеспечения максимальной производительности.
   
 

@@ -25,28 +25,28 @@ ms.locfileid: "33416113"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификаторы сообщений, которые заменяют это сообщение.
+Содержит идентификаторы сообщений, которые это сообщение замещение.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_OBSOLETED_IPMS  <br/> |
 |Идентификатор:  <br/> |0x001F  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Сервер  <br/> |
+|Область:  <br/> |Server  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Идентификаторы, хранящиеся в этом свойстве, являются стандартными ключами поиска, использующими формат свойства **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
+Идентификаторы, содержащиеся в этом свойстве, являются стандартными ключами поиска в формате PR_SEARCH_KEY **(** [PidTagSearchKey).](pidtagsearchkey-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

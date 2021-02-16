@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - HookExcelWindow
 keywords:
-- Функция хукексцелвиндов [Excel 2007]
+- функция hookexcelwindow [excel 2007]
 localization_priority: Normal
 ms.assetid: 13f0ae5e-9951-4e89-a245-7cf68c6f6724
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33413509"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Устанавливает **ексцелкурсорпрок** таким образом, чтобы он вызывался до основного **WndProc**Microsoft Excel.
+Устанавливает **ExcelCursorProc** таким образом, чтобы он был вызван перед основным **продуктом WndProc Microsoft** Excel.
   
 ```cs
 extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
@@ -30,9 +30,9 @@ extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
 
 ## <a name="parameters"></a>Параметры
 
- _хвндексцел_ (**Handle**)
+ _hWndExcel_ (**HANDLE)**
   
-Основной дескриптор Windows Excel.
+Основной работник Windows Excel.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
@@ -40,11 +40,11 @@ extern void FAR PASCAL HookExcelWindow(HANDLE hWndExcel);
   
 ## <a name="remarks"></a>Примечания
 
-Функция получает адрес объекта Excel **WndProc** с помощью **жетвиндовлонг ()**. Он сохраняет это значение в глобальном наборе, который можно использовать для вызова **WndProc** по умолчанию, а также для его восстановления. Наконец, он заменяет этот адрес адресом **ексцелкурсорпрок** с помощью **сетвиндовлонг ()**.
+Функция получает адрес Excel **WndProc** с помощью **GetWindowLong()**. Оно сохраняет это значение в глобальном значении, которое можно использовать для вызова **WndProc** по умолчанию, а также для его восстановления. Наконец, он заменяет этот адрес адресом **ExcelCursorProc** с помощью **SetWindowLong()**.
   
 ### <a name="example"></a>Пример
 
-Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе. 
+См.  `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
   
 ## <a name="see-also"></a>См. также
 

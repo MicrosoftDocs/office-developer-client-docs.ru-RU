@@ -29,19 +29,19 @@ ms.locfileid: "33415777"
   
 |||
 |:-----|:-----|
-|Предоставлено:  <br/> |Поставщик хранилища сообщений  <br/> |
+|Предоставлено:  <br/> |Поставщик службы хранения сообщений  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IFolderSupport  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Получает сведения о поддержке папки для общего доступа.  <br/> |
+|**[GetSupportMask](ifoldersupport-getsupportmask.md)** <br/> |Получает сведения о поддержке общего доступа к папке.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Как правило, для реализации этого интерфейса в Microsoft Office Outlook требуется поставщик хранилища MAPI, если поставщику требуется предоставить общий доступ к папке. Исключением является поставщик хранилища Exchange Server, который может предоставлять общий доступ к папкам без реализации этого интерфейса.
+Как правило Microsoft Office Outlook для реализации этого интерфейса требуется поставщик магазина MAPI, если поставщик хочет поделиться папкой. Исключением является поставщик Exchange Server, который может совместно использовать папки без реализации этого интерфейса.
   
-Клиент может запросить **[IMAPIFolder](imapifolderimapicontainer.md)** для **IFolderSupport**. В случае успеха вызовите метод **IFolderSupport:: GetSupportMask** и проверьте, установлен ли бит **FS_SUPPORTS_SHARING** . 
+Клиент может запросить **[IMAPIFolder](imapifolderimapicontainer.md)** для **IFolderSupport.** Если это успешно, вызовите **IFolderSupport::GetSupportMask** и проверьте, FS_SUPPORTS_SHARING ли бит, который необходимо установить.  
   
 

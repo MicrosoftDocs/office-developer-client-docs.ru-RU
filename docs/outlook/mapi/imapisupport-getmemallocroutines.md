@@ -1,5 +1,5 @@
 ---
-title: имаписуппортжетмемаллокраутинес
+title: IMAPISupportGetMemAllocRoutines
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33415539"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Получение адресов функций выделения и освобождения памяти MAPI ([мапиаллокатебуффер](mapiallocatebuffer.md), [мапиаллокатеморе](mapiallocatemore.md)и [мапифрибуффер](mapifreebuffer.md)).
+Извлекает адреса функций выделения памяти и распределения MAPI ([MAPIAllocateBuffer,](mapiallocatebuffer.md) [MAPIAllocateMore](mapiallocatemore.md)и [MAPIFreeBuffer).](mapifreebuffer.md)
   
 ```cpp
 HRESULT GetMemAllocRoutines(
@@ -37,27 +37,27 @@ HRESULT GetMemAllocRoutines(
 
 ## <a name="parameters"></a>Параметры
 
- _лппаллокатебуффер_
+ _lppAllocateBuffer_
   
-> вышли Указатель на указатель на функцию **мапиаллокатебуффер** . **Мапиаллокатебуффер** выделяет память. 
+> [out] Указатель на указатель на функцию **MAPIAllocateBuffer.** **MAPIAllocateBuffer выделяет** память. 
     
- _лппаллокатеморе_
+ _lppAllocateMore_
   
-> вышли Указатель на указатель на функцию **мапиаллокатеморе** . **Мапиаллокатеморе** выделяет дополнительную память для памяти, которая была изначально выделена с помощью **мапиаллокатебуффер**.
+> [out] Указатель на указатель на функцию **MAPIAllocateMore.** **MAPIAllocateMore** выделяет дополнительную память для памяти, изначально выделенной с помощью **MAPIAllocateBuffer.**
     
- _лппфрибуффер_
+ _lppFreeBuffer_
   
-> вышли Указатель на указатель на функцию **мапифрибуффер** . **Мапифрибуффер** освобождает память. 
+> [out] Указатель на указатель на функцию **MAPIFreeBuffer.** **MAPIFreeBuffer** освободит память. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK 
   
-> Адреса функции были успешно возвращены.
+> Адреса функций были успешно возвращены.
     
 ## <a name="remarks"></a>Примечания
 
-Метод **имаписуппорт:: жетмемаллокраутинес** реализован для всех объектов поддержки. Поставщики услуг вызывают **жетмемаллокраутинес** для получения адресов трех функций выделения памяти, которые передаются в функцию инициализации ( [абпровидеринит](abproviderinit.md), [мспровидеринит](msproviderinit.md)или [ксппровидеринит](xpproviderinit.md)). 
+Метод **IMAPISupport::GetMemAllocRoutines** реализован для всех объектов поддержки. Поставщики услуг звонят **GetMemAllocRoutines,** чтобы получить адреса трех функций выделения памяти, которые передаются в функцию инициализации [(ABProviderInit,](abproviderinit.md) [MSProviderInit](msproviderinit.md)или [XPProviderInit).](xpproviderinit.md) 
   
 ## <a name="see-also"></a>См. также
 

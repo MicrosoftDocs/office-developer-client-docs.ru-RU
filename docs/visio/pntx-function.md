@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251481
 localization_priority: Normal
 ms.assetid: b64abbd7-38df-9756-23c6-4457be987464
-description: Возвращает координату x точки.
+description: Возвращает X-координату точки.
 ms.openlocfilehash: 3a751fc440457fe11c829319d4b56e64dd9683ce
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,26 +18,26 @@ ms.locfileid: "33417037"
 ---
 # <a name="pntx-function"></a>Функция PNTX
 
-Возвращает координату _x_точки.
+Возвращает  _x-координату_ точки.
   
 ## <a name="syntax"></a>Синтаксис
 
-PNTX (* * *Point* * *) 
+PNTX(** *point* ** ) 
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _Указывает_ <br/> |Обязательна  <br/> |**Number** <br/> |Координата _x_точки.  <br/> |
+| _point_ <br/> |Обязательна  <br/> |**Number** <br/> |X-координата точки.   <br/> |
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Номер
+Числовой
   
 ## <a name="example"></a>Пример
 
-PNTX (PNT (7, 12)) 
+PNTX(PNT(7,12)) 
   
-Возвращает значение 7. 
+Возвращает 7. 
   
 

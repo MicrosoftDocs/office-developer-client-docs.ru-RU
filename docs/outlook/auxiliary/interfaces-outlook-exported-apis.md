@@ -1,5 +1,5 @@
 ---
-title: Интерфейсы (экспортированные API Outlook)
+title: Интерфейсы (экспортные API Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33414825"
 ---
-# <a name="interfaces-outlook-exported-apis"></a>Интерфейсы (экспортированные API Outlook)
+# <a name="interfaces-outlook-exported-apis"></a>Интерфейсы (экспортные API Outlook)
 
 В этом разделе описываются интерфейсы, экспортируемые в Outlook.
   
 |**Интерфейс**|**Описание**|
 |:-----|:-----|
-|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Поддерживает переиндексацию встреч в папке "Календарь".  <br/> |
+|[IOlkApptRebaser](iolkapptrebaser.md) <br/> |Поддерживает переостережку встреч в папке календаря.  <br/> |
    
 

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251587
 localization_priority: Normal
 ms.assetid: a157c27e-afae-7c67-e96d-4ace7b7a82be
-description: Возвращает текст из поля ключевые слова в свойствах документа.
+description: Возвращает текст из поля "Ключевые слова" свойств документа.
 ms.openlocfilehash: d5a5aa00248a016d209c17016e248a2fe93bccde
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,11 +18,11 @@ ms.locfileid: "33416050"
 ---
 # <a name="keywords-function"></a>Функция KEYWORDS
 
-Возвращает текст из поля **Ключевые слова** в свойствах документа. 
+Возвращает текст из поля **"Ключевые** слова" свойств документа. 
   
 ## <a name="syntax"></a>Синтаксис
 
-Ключевые слова ()
+КЛЮЧЕВЫЕ СЛОВА ()
   
 ### <a name="return-value"></a>Возвращаемое значение
 
