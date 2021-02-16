@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: cf9af5a5-e042-4d56-a29f-341d97cdb97b
-description: Определяет угол градиента заливки для градиентов с линейным направлением (в градусах).
+description: Определяет угол градиента заливки для градиентов с линейным направлением в градусах.
 ms.openlocfilehash: 16277d76b3bc61be335e010c07b2eb4a43973b4f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33434888"
 ---
 # <a name="fillgradientangle-cell-gradient-properties-section"></a>FillGradientAngle Cell (Gradient Properties Section)
 
-Определяет угол градиента заливки для градиентов с линейным направлением (в градусах). 
+Определяет угол градиента заливки для градиентов с линейным направлением в градусах. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **FillGradientAngle** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **FillGradientAngle** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "33434888"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровградиентпропертиес** <br/> |
-| Индекс ячейки:  <br/> |**висфиллградиентангле** <br/> |
+| Индекс строки:  <br/> |**visRowGradientProperties** <br/> |
+| Индекс ячейки:  <br/> |**visFillGradientAngle** <br/> |
    
 

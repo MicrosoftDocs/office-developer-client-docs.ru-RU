@@ -25,11 +25,11 @@ ms.locfileid: "33434909"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество байтов в существующей структуре [спроппроблемаррай](spropproblemarray.md) . 
+Вычисляет количество ветвей в существующей [структуре SPropProblemArray.](spropproblemarray.md) 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
 |Связанная структура:  <br/> |**SPropProblemArray** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbSPropProblemArray (_lparray)
 
 ## <a name="parameters"></a>Параметры
 
- __лпаррай_
+ _ _lparray_
   
-> Указатель на существующую структуру **спроппроблемаррай** . 
+> Указатель на существующую **структуру SPropProblemArray.** 
     
 ## <a name="see-also"></a>См. также
 

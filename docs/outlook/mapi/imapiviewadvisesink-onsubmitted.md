@@ -1,5 +1,5 @@
 ---
-title: имапивиевадвисесинконсубмиттед
+title: IMAPIViewAdviseSinkOnSubmitted
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33433985"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Уведомляет средство просмотра форм о том, что текущее сообщение было отправлено в Диспетчер очереди MAPI.
+Сообщает просмотру формы, что текущее сообщение отправлено в пул MAPI.
   
 ```cpp
 HRESULT OnSubmitted( void );
@@ -39,17 +39,17 @@ HRESULT OnSubmitted( void );
 
 S_OK 
   
-> Уведомление успешно установлено.
+> Уведомление успешно.
     
 ## <a name="remarks"></a>Примечания
 
-Объект Form вызывает метод **имапивиевадвисесинк:: Onsubmittedся** после вызова [Имапимессажесите:: субмитмессаже](imapimessagesite-submitmessage.md) успешно возвращен. 
+Объект формы вызывает метод **IMAPIViewAdviseSink::OnSubmitted** после успешного возврата вызова [IMAPIMessageSite::SubmitMessage.](imapimessagesite-submitmessage.md) 
   
 ## <a name="notes-to-implementers"></a>Примечания для исполнителей
 
-После вызова **OnSubmitted** можно продолжить предположение о том, что сообщение было обновлено. Обновите Windows, чтобы отразить все произошедшие изменения. 
+После того как будет вызвана **onSubmitted,** можно продолжить, предполагая, что сообщение было обновлено. Обновите окна, чтобы отразить все внесенные изменения. 
   
-Дополнительные сведения об уведомлениях формы можно найти в статье [Отправка и получение уведомлений формы](sending-and-receiving-form-notifications.md).
+Дополнительные сведения об уведомлениях о формах см. в сведениях об отправке и [получении уведомлений о формах.](sending-and-receiving-form-notifications.md)
   
 ## <a name="see-also"></a>См. также
 
