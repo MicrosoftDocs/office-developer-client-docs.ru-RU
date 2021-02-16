@@ -1,5 +1,5 @@
 ---
-title: HeaderFooter_Type complexType (XML для Visio)
+title: HeaderFooter_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541122"
 ---
-# <a name="headerfooter_type-complextype-visio-xml"></a>HeaderFooter_Type complexType (XML для Visio)
+# <a name="headerfooter_type-complextype-visio-xml"></a>HeaderFooter_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -113,6 +113,6 @@ ms.locfileid: "34541122"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|HeaderFooterColor  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|HeaderFooterColor  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
    
 

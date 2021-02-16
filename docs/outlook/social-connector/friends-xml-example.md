@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 83afbdef-4f12-4673-a0c1-bbf86274558f
-description: 'Пример XML в этом разделе — это дружественная XML-строка, возвращаемая Outlook Social Connector (OSC) после вызова метода ИсоЦиалперсон:: Жетфриендсандколлеагуес. В примере показывается XML-файл друзей для двух друзей, каждый из которых ограничен элементом Person. Каждый друг указывает уникальное значение для элемента userID в социальной сети.'
+description: В этом разделе используется XML-строка friend, которая возвращается в Outlook Social Connector (OSC) после вызова метода ISocialPerson::GetFriendsAndColleagues. В примере показан XML-раздружения друзей для двух друзей, каждый из которых был размещен элементом person. Каждый друг указывает уникальное значение для элемента userID в социальной сети.
 ms.openlocfilehash: 593019ec4dcd1b9b578bfe275fb8e6664bbd11a9
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -17,13 +17,13 @@ ms.locfileid: "34542228"
 ---
 # <a name="friends-xml-example"></a>Пример XML друзей
 
-Пример XML в этом разделе — это дружественная XML-строка, возвращаемая Outlook Social Connector (OSC) после вызова метода [исоЦиалперсон:: жетфриендсандколлеагуес](isocialperson-getfriendsandcolleagues.md) . В примере показывается XML-файл **друзей** для двух друзей, каждый из которых ограничен элементом **Person** . Каждый друг указывает уникальное значение для элемента **UserID** в социальной сети. 
+В этом разделе используется XML-строка friend, которая возвращается в Outlook Social Connector (OSC) после вызова метода [ISocialPerson::GetFriendsAndColleagues.](isocialperson-getfriendsandcolleagues.md) В примере **показан** XML-раздружения друзей для двух друзей, каждый из которых был размещен **элементом person.** Каждый друг указывает уникальное значение для **элемента userID** в социальной сети. 
   
-Остальные элементы XML-файла **друзья** имеют понятные имена. Подробное описание этих элементов приведено в статье [XML for друзья](xml-for-friends.md). 
+Остальные элементы XML  друзей имеют понятные имена. Подробное описание этих элементов см. в [XML для друзей.](xml-for-friends.md) 
   
 ## <a name="xml-example"></a>Пример XML
 
-В следующем примере показаны XML-файлы **друзей** для двух пользователей в социальной сети. 
+В следующем примере **показан** XML-xML друзей для двух пользователей в социальной сети. 
   
 ```XML
 <?xml version="1.0" encoding="utf-8"?>
@@ -80,8 +80,8 @@ ms.locfileid: "34542228"
 
 ## <a name="see-also"></a>См. также
 
-- [Примеры XML-кода поставщика OSC](osc-provider-xml-examples.md)  
-- [Пример XML-кода возможностей](capabilities-xml-example.md) 
+- [XML-примеры поставщика OSC](osc-provider-xml-examples.md)  
+- [XML-пример возможностей](capabilities-xml-example.md) 
 - [Пример XML-канала активности](activity-feed-xml-example.md) 
-- [Схема XML поставщика социальных соединителей Outlook](outlook-social-connector-provider-xml-schema.md)
+- [XML-схема поставщика Outlook Social Connector](outlook-social-connector-provider-xml-schema.md)
 

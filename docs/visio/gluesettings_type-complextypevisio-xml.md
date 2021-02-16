@@ -1,5 +1,5 @@
 ---
-title: GlueSettings_Type complexType (XML для Visio)
+title: GlueSettings_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542182"
 ---
-# <a name="gluesettings_type-complextype-visio-xml"></a>GlueSettings_Type complexType (XML для Visio)
+# <a name="gluesettings_type-complextype-visio-xml"></a>GlueSettings_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -21,7 +21,7 @@ ms.locfileid: "34542182"
 |:-----|:-----|
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Базовый элемент расширения** <br/> |XSD: int  <br/> |
+|**Базовый элемент расширения** <br/> |xsd:int  <br/> |
    
 ## <a name="definition"></a>Определение
 

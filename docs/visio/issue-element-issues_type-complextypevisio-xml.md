@@ -1,12 +1,12 @@
 ---
-title: Элемент Issue (Issues_Type complexType) (XML для Visio)
+title: Элемент Issue (Issues_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5c4d07bf-4edc-e241-7827-017f96c11957
-description: Представляет одну ошибку проверки в документе.
+description: Представляет одну проблему проверки в документе.
 ms.openlocfilehash: 73c83fe47ebf9921686ea7b35c5f94a06b803623
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541129"
 ---
-# <a name="issue-element-issues_type-complextype-visio-xml"></a>Элемент Issue (Issues_Type complexType) (XML для Visio)
+# <a name="issue-element-issues_type-complextype-visio-xml"></a>Элемент Issue (Issues_Type complexType) (Visio XML)
 
-Представляет одну ошибку проверки в документе.
+Представляет одну проблему проверки в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34541129"
 |:-----|:-----|
 |**Тип элемента** <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Проверка. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,20 +42,20 @@ ms.locfileid: "34541129"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Содержит все элементы **issue** для документа.  <br/> |
+|[Issues](issues-element-validation_type-complextypevisio-xml.md) <br/> |[Issues_Type](issues_type-complextypevisio-xml.md) <br/> |Содержит все **элементы Issue** для документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[иссуетаржет](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |В зависимости от цели родительской ошибки проверки указывает либо страницу, либо и фигуру, и страницу, связанную с ошибкой родительской проверки.  <br/> |
-|[рулеинфо](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Задает сведения о правиле проверки, к которым относится ошибка родительской проверки.  <br/> |
+|[IssueTarget](issuetarget-element-issue_type-complextypevisio-xml.md) <br/> |[IssueTarget_Type](issuetarget_type-complextypevisio-xml.md) <br/> |В зависимости от целевого адреса родительской проблемы проверки указывает страницу или страницу и фигуру, связанную с проблемой родительской проверки.  <br/> |
+|[RuleInfo](ruleinfo-element-issue_type-complextypevisio-xml.md) <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |Указывает сведения о правиле проверки, к которое относится родительская проблема проверки.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Указывает уникальный идентификатор для ошибки проверки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Игнорирован  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Задает сведения о правиле проверки, к которым относится ошибка родительской проверки.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Указывает уникальный идентификатор проблемы проверки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|Игнорирован  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает сведения о правиле проверки, к которое относится родительская проблема проверки.  <br/> |Значения типа xsd:boolean.  <br/> |
    
 

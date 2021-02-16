@@ -1,5 +1,5 @@
 ---
-title: Элемент RuleSets (Validation_Type complexType) (XML для Visio)
+title: Элемент RuleSets (Validation_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541577"
 ---
-# <a name="rulesets-element-validation_type-complextype-visio-xml"></a>Элемент RuleSets (Validation_Type complexType) (XML для Visio)
+# <a name="rulesets-element-validation_type-complextype-visio-xml"></a>Элемент RuleSets (Validation_Type complexType) (Visio XML)
 
-Включает элемент **RuleSet** для каждого набора правил проверки в документе. 
+Включает элемент **RuleSet для** каждого набора правил проверки в документе. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34541577"
 |:-----|:-----|
 |**Тип элемента** <br/> |[RuleSets_Type](rulesets_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Проверка. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34541577"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Validation](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Сохраняет сведения о проверке схемы для документа.  <br/> |
+|[Validation](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Хранит сведения о проверке схемы для документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

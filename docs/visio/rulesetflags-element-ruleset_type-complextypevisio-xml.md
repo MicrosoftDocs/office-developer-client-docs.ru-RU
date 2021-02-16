@@ -1,12 +1,12 @@
 ---
-title: Элемент RuleSetFlags (RuleSet_Type complexType) (XML для Visio)
+title: Элемент RuleSetFlags (RuleSet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: c18d3a84-2088-13f7-7b14-1f4c129537b4
-description: Задает свойства набора правил.
+description: Указывает свойства набора правил.
 ms.openlocfilehash: 03b94abb2d9bbe1f611671a4ac37053747a486fb
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541598"
 ---
-# <a name="rulesetflags-element-ruleset_type-complextype-visio-xml"></a>Элемент RuleSetFlags (RuleSet_Type complexType) (XML для Visio)
+# <a name="rulesetflags-element-ruleset_type-complextype-visio-xml"></a>Элемент RuleSetFlags (RuleSet_Type complexType) (Visio XML)
 
-Задает свойства набора правил.
+Указывает свойства набора правил.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34541598"
 |:-----|:-----|
 |**Тип элемента** <br/> |[RuleSetFlags_Type](rulesetflags_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Проверка. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -52,6 +52,6 @@ ms.locfileid: "34541598"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Hidden  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, отображается ли набор правил в списке правил для проверки.  <br/> |Значения типа XSD: Boolean.  <br/> |
+|Hidden  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, отображается ли набор правил в списке правил для проверки.  <br/> |Значения типа xsd:boolean.  <br/> |
    
 

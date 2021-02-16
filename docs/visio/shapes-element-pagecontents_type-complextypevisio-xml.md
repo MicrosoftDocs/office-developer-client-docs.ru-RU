@@ -1,5 +1,5 @@
 ---
-title: Элемент Shapes (PageContents_Type complexType) (XML для Visio)
+title: Элемент Shapes (PageContents_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542123"
 ---
-# <a name="shapes-element-pagecontents_type-complextype-visio-xml"></a>Элемент Shapes (PageContents_Type complexType) (XML для Visio)
+# <a name="shapes-element-pagecontents_type-complextype-visio-xml"></a>Элемент Shapes (PageContents_Type complexType) (Visio XML)
 
 Содержит коллекцию элементов Shape.
   
@@ -24,8 +24,8 @@ ms.locfileid: "34542123"
 |:-----|:-----|
 |**Тип элемента** <br/> |[Shapes_Type](shapes_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,14 +42,14 @@ ms.locfileid: "34542123"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[мастерконтентс](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Задает сведения о фигурах в образце в веб-документе.  <br/> |
-|[пажеконтентс](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Задает сведения о фигурах в образце в веб-документе.  <br/> |
+|[MasterContents](mastercontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Указывает сведения о фигурах в хозяине в веб-документе.  <br/> |
+|[PageContents](pagecontents-elementvisio-xml.md) <br/> |[PageContents_Type](pagecontents_type-complextypevisio-xml.md) <br/> |Указывает сведения о фигурах в хозяине в веб-документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие фигуру в **главной**, **странице**или элементе фигуры группы.  <br/> |
+|[Shape](shape-element-shapes_type-complextypevisio-xml.md) <br/> |[ShapeSheet_Type](shapesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие фигуру в элементе **"Master",** **"Page"** или "group shape".  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

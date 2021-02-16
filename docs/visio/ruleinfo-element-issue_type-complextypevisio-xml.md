@@ -1,12 +1,12 @@
 ---
-title: Элемент Рулеинфо (Issue_Type complexType) (XML для Visio)
+title: Элемент RuleInfo (Issue_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: aec47b43-adbe-3344-fbac-29554f244c99
-description: Задает сведения о правиле проверки, к которым относится ошибка родительской проверки.
+description: Указывает сведения о правиле проверки, к которое относится родительская проблема проверки.
 ms.openlocfilehash: 29454fdb82d9e12d46fa9eedf73f8a31e8befd95
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541689"
 ---
-# <a name="ruleinfo-element-issue_type-complextype-visio-xml"></a>Элемент Рулеинфо (Issue_Type complexType) (XML для Visio)
+# <a name="ruleinfo-element-issue_type-complextype-visio-xml"></a>Элемент RuleInfo (Issue_Type complexType) (Visio XML)
 
-Задает сведения о правиле проверки, к которым относится ошибка родительской проверки.
+Указывает сведения о правиле проверки, к которое относится родительская проблема проверки.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34541689"
 |:-----|:-----|
 |**Тип элемента** <br/> |[RuleInfo_Type](ruleinfo_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Проверка. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34541689"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Проблема](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Представляет одну ошибку проверки в документе.  <br/> |
+|[Проблема](issue-element-issues_type-complextypevisio-xml.md) <br/> |[Issue_Type](issue_type-complextypevisio-xml.md) <br/> |Представляет одну проблему проверки в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "34541689"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|RuleID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор правила проверки, к которому относится родительская ошибка.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|рулесетид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор набора правил проверки, к которому относится родительская ошибка.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|RuleID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Указывает уникальный идентификатор правила проверки, к котором относится родительская проблема.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|RuleSetID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Указывает уникальный идентификатор набора правил проверки, к котором относится родительская проблема.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    
 

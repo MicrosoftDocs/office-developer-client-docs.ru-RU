@@ -1,12 +1,12 @@
 ---
-title: Элемент Публишсеттингс (VisioDocument_Type complexType) (XML для Visio)
+title: Элемент PublishSettings (VisioDocument_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d0a41494-ffad-c56c-2074-135b3d0bffb9
-description: Задает параметры, которые используются при открытии схемы с помощью служб Visio в Microsoft SharePoint Server 2013.
+description: Указывает параметры, используемые при открытие схемы с помощью служб Visio в Microsoft SharePoint Server 2013.
 ms.openlocfilehash: 611dfe477228995bca6aedff27b468a2d57e7e85
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541360"
 ---
-# <a name="publishsettings-element-visiodocument_type-complextype-visio-xml"></a>Элемент Публишсеттингс (VisioDocument_Type complexType) (XML для Visio)
+# <a name="publishsettings-element-visiodocument_type-complextype-visio-xml"></a>Элемент PublishSettings (VisioDocument_Type complexType) (Visio XML)
 
-Задает параметры, которые используются при открытии схемы с помощью служб Visio в Microsoft SharePoint Server 2013.
+Указывает параметры, используемые при открытие схемы с помощью служб Visio в Microsoft SharePoint Server 2013.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34541360"
 |:-----|:-----|
 |**Тип элемента** <br/> |[PublishSettings_Type](publishsettings_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Document. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,14 +42,14 @@ ms.locfileid: "34541360"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Задает свойства рисунка.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Указывает свойства рисунка.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[публишедпаже](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |Указывает, будет ли страница документа видна в браузере с помощью служб Visio.  <br/> |
-|[рефрешабледата](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |Указывает, следует ли обновлять набор записей с помощью служб Visio.  <br/> |
+|[PublishedPage](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> |Указывает, можно ли просматривать страницу рисования в браузере с помощью служб Visio.  <br/> |
+|[RefreshableData](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> |Указывает, можно ли обновлять набор записей с помощью служб Visio.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

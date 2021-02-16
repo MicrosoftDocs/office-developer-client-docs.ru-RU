@@ -1,5 +1,5 @@
 ---
-title: Элемент StyleSheet (StyleSheets_Type complexType) (XML для Visio)
+title: Элемент StyleSheet (StyleSheets_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541941"
 ---
-# <a name="stylesheet-element-stylesheets_type-complextype-visio-xml"></a>Элемент StyleSheet (StyleSheets_Type complexType) (XML для Visio)
+# <a name="stylesheet-element-stylesheets_type-complextype-visio-xml"></a>Элемент StyleSheet (StyleSheets_Type complexType) (Visio XML)
 
 Представляет стиль, определенный в документе.
   
@@ -24,8 +24,8 @@ ms.locfileid: "34541941"
 |:-----|:-----|
 |**Тип элемента** <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Document. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -41,26 +41,26 @@ ms.locfileid: "34541941"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Содержит коллекцию элементов **StyleSheet** для документа.  <br/> |
+|[StyleSheets](stylesheets-element-visiodocument_type-complextypevisio-xml.md) <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |Содержит коллекцию **элементов StyleSheet** для документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство.  <br/> |
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Задает коллекцию связанных свойств.  <br/> |
+|[Cell](cell-elementvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Указывает одно свойство.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Указывает коллекцию связанных свойств.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор элемента StyleSheet, из которого этот стиль наследует форматирование заливки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|искустомнаме  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, настроено ли имя пользователем.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|искустомнамеу  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, настроено ли универсальное имя пользователем.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|LineStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор элемента StyleSheet, из которого этот стиль наследует форматирование линии.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> |Имя элемента.  <br/> |Значения типа String: XSD.  <br/> |
-|NameU  <br/> |XSD: строка  <br/> |необязательный  <br/> |Универсальное имя элемента.  <br/> |Значения типа String: XSD.  <br/> |
-|TextStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор элемента StyleSheet, из которого этот стиль наследует форматирование текста.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|FillStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ИД элемента StyleSheet, от которого этот стиль наследует форматирование заливки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Уникальный ИД элемента в родительском элементе.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|IsCustomName  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, было ли имя настроено пользователем.  <br/> |Значения типа xsd:boolean.  <br/> |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, настроено ли пользователем универсальное имя.  <br/> |Значения типа xsd:boolean.  <br/> |
+|LineStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ИД элемента StyleSheet, от которого этот стиль наследует форматирование строк.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|Имя  <br/> |xsd:string  <br/> |необязательный  <br/> |Имя элемента.  <br/> |Значения типа xsd:string.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |необязательный  <br/> |Универсальное имя элемента.  <br/> |Значения типа xsd:string.  <br/> |
+|TextStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ИД элемента StyleSheet, от которого этот стиль наследует форматирование текста.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    
 

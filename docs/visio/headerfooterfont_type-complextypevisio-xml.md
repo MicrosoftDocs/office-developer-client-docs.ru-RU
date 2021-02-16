@@ -1,5 +1,5 @@
 ---
-title: HeaderFooterFont_Type complexType (XML для Visio)
+title: HeaderFooterFont_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541073"
 ---
-# <a name="headerfooterfont_type-complextype-visio-xml"></a>HeaderFooterFont_Type complexType (XML для Visio)
+# <a name="headerfooterfont_type-complextype-visio-xml"></a>HeaderFooterFont_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -85,19 +85,19 @@ ms.locfileid: "34541073"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|CharSet  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
-|клиппреЦисион  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
-|Последовательное преобразование  <br/> |XSD: int  <br/> |необязательный  <br/> ||Значения типа XSD: int.  <br/> |
-|фаценаме  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|Height  <br/> |XSD: int  <br/> |необязательный  <br/> ||Значения типа XSD: int.  <br/> |
-|Курсив  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
-|Вводное обучение  <br/> |XSD: int  <br/> |необязательный  <br/> ||Значения типа XSD: int.  <br/> |
-|Точность  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
-|PitchAndFamily  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
-|Качество  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
-|Зачеркнутый  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
-|Подчеркнутый  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
-|Насыщенность  <br/> |XSD: int  <br/> |необязательный  <br/> ||Значения типа XSD: int.  <br/> |
-|Width  <br/> |XSD: int  <br/> |необязательный  <br/> ||Значения типа XSD: int.  <br/> |
+|CharSet  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
+|ClipPrecision  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
+|Escapement  <br/> |xsd:int  <br/> |необязательный  <br/> ||Значения типа xsd:int.  <br/> |
+|FaceName  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|Height  <br/> |xsd:int  <br/> |необязательный  <br/> ||Значения типа xsd:int.  <br/> |
+|Курсив  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
+|Вводное обучение  <br/> |xsd:int  <br/> |необязательный  <br/> ||Значения типа xsd:int.  <br/> |
+|OutPrecision  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
+|PitchAndFamily  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
+|Качество  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
+|StrikeOut  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
+|Подчеркнутый  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
+|Насыщенность  <br/> |xsd:int  <br/> |необязательный  <br/> ||Значения типа xsd:int.  <br/> |
+|Width  <br/> |xsd:int  <br/> |необязательный  <br/> ||Значения типа xsd:int.  <br/> |
    
 

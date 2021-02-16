@@ -1,5 +1,5 @@
 ---
-title: Курренттипе complexType (схема сведений о погоде Outlook)
+title: currentType complexType (Схема сведений о погоде в Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 9f4663ac-13d3-6c46-f839-ba6bca4047a3
-description: Определяет параметры для текущего положения прогноза погоды.
+description: Определяет параметры текущих погодных условий расположения.
 ms.openlocfilehash: 6dec923ce45ddc6470d80e1c973528246e01672f
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,16 +15,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540989"
 ---
-# <a name="currenttype-complextype-outlook-weather-information-schema"></a>Курренттипе complexType (схема сведений о погоде Outlook)
+# <a name="currenttype-complextype-outlook-weather-information-schema"></a>currentType complexType (Схема сведений о погоде в Outlook)
 
-Определяет параметры для текущего положения прогноза погоды.
+Определяет параметры текущего погодного состояния расположения.
   
 ## <a name="type-information"></a>Сведения о типе
 
 |||
 |:-----|:-----|
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
-|**Файл схемы** <br/> |жетвеасеринфо. xsd  <br/> |
+|**Файл схемы** <br/> |getweatherinfo.xsd  <br/> |
 |**Базовый элемент расширения** <br/> |Отсутствует  <br/> |
    
 ## <a name="definition"></a>Определение
@@ -59,17 +59,17 @@ ms.locfileid: "34540989"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|date  <br/> |xs: Date  <br/> |Обязательный  <br/> |Указывает сегодняшнюю дату.  <br/> |Значение типа xs: Date  <br/> |
-|открыт  <br/> |xs: String  <br/> |необязательный  <br/> |Указывает день для прогноза.  <br/> |Значение типа xs: String.  <br/> |
-|филслике  <br/> |xs: integer  <br/> |Обязательный  <br/> |Указывает температуру, с которой понравится Текущая погода.  <br/> |Значение типа xs: integer  <br/> |
-|хранени  <br/> |xs: integer  <br/> |Обязательный  <br/> |Задает текущее числовое значение влажности.  <br/> |Значение типа xs: integer  <br/> |
-|обсерватионпоинт  <br/> |xs: String  <br/> |Обязательный  <br/> |Указывает, с каких сведений отражается текущая информация о погоде.  <br/> |Значение типа xs: String.  <br/> |
-|обсерватионтиме  <br/> |xs: Time  <br/> |Обязательный  <br/> |Указывает, когда отражается текущая информация о погоде.  <br/> |Значение типа xs: Time  <br/> |
-|шортдай  <br/> |xs: String  <br/> |необязательный  <br/> |Указывает день в сокращенной форме.  <br/> |Значение типа xs: String.  <br/> |
-|скикоде  <br/> |xs: integer  <br/> |Обязательный  <br/> |Задает целочисленный код для текущих условий погоды.  <br/> |Значение типа xs: integer  <br/> |
-|скитекст  <br/> |xs: String  <br/> |Обязательный  <br/> |Указывает одно на два слова, описывающих текущие условия погоды.  <br/> |Значение типа xs: String.  <br/> |
-|Рабочая  <br/> |xs: integer  <br/> |Обязательный  <br/> |Задает текущую температуру расположения.  <br/> |Значение типа xs: integer  <br/> |
-|винддисплай  <br/> |xs: String  <br/> |Обязательный  <br/> |Строка, описывающая текущие условия обмотки.  <br/> |Значение типа xs: String.  <br/> |
-|виндспид  <br/> |xs: integer  <br/> |Обязательный  <br/> |Задает текущее числовое значение скорости обмотки.  <br/> |Значение типа xs: integer  <br/> |
+|date  <br/> |xs:date  <br/> |Обязательный  <br/> |Указывает сегодня.  <br/> |Значение типа xs:date  <br/> |
+|day  <br/> |xs:string  <br/> |необязательный  <br/> |Указывает день для прогноза.  <br/> |Значение типа xs:string  <br/> |
+|feelslike  <br/> |xs:integer  <br/> |Обязательный  <br/> |Указывает температуру текущей погоды.  <br/> |Значение типа xs:integer  <br/> |
+|humidity  <br/> |xs:integer  <br/> |Обязательный  <br/> |Указывает текущее числовое значение влажности.  <br/> |Значение типа xs:integer  <br/> |
+|observationpoint  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает, откуда наблюдается текущая информация о погоде.  <br/> |Значение типа xs:string  <br/> |
+|observationtime  <br/> |xs:time  <br/> |Обязательный  <br/> |Указывает, когда будут наблюдаться текущие сведения о погоде.  <br/> |Значение типа xs:time  <br/> |
+|shortday  <br/> |xs:string  <br/> |необязательный  <br/> |Указывает день в сокращенной форме.  <br/> |Значение типа xs:string  <br/> |
+|skycode  <br/> |xs:integer  <br/> |Обязательный  <br/> |Указывает код для текущего состояния погоды.  <br/> |Значение типа xs:integer  <br/> |
+|skytext  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает от одного до двух слов, описывающих текущие прогнозы погоды.  <br/> |Значение типа xs:string  <br/> |
+|temperature  <br/> |xs:integer  <br/> |Обязательный  <br/> |Указывает текущую температуру расположения.  <br/> |Значение типа xs:integer  <br/> |
+|winddisplay  <br/> |xs:string  <br/> |Обязательный  <br/> |Строка, описывающая текущие условия ветвей.  <br/> |Значение типа xs:string  <br/> |
+|edpeed  <br/> |xs:integer  <br/> |Обязательный  <br/> |Указывает текущее числовое значение скорости ветвей.  <br/> |Значение типа xs:integer  <br/> |
    
 

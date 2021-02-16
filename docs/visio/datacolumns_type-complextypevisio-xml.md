@@ -1,5 +1,5 @@
 ---
-title: DataColumns_Type complexType (XML для Visio)
+title: DataColumns_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541150"
 ---
-# <a name="datacolumns_type-complextype-visio-xml"></a>DataColumns_Type complexType (XML для Visio)
+# <a name="datacolumns_type-complextype-visio-xml"></a>DataColumns_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -60,7 +60,7 @@ ms.locfileid: "34541150"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|сортаск  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
-|SortColumn  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|SortAsc  <br/> |xsd:boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
+|SortColumn  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
    
 

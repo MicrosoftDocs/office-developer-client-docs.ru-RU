@@ -1,12 +1,12 @@
 ---
-title: Элемент Icon (MasterShortcut_Type complexType) (XML для Visio)
+title: Элемент Icon (MasterShortcut_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 07d8ba86-8e35-d151-e6c1-150c37cc2acd
-description: Задает двоичный значок закодированного двоичного расширения MIME (в формате ICO) для элемента MasterShortcut в документе.
+description: Указывает двоичный значок MIME (multipurpose Internet Mail Extensions) в формате ICO для элемента MasterShortcut в документе.
 ms.openlocfilehash: 6d223da406dd914c84aafdd3d37846c1ab30bb4e
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541500"
 ---
-# <a name="icon-element-mastershortcut_type-complextype-visio-xml"></a>Элемент Icon (MasterShortcut_Type complexType) (XML для Visio)
+# <a name="icon-element-mastershortcut_type-complextype-visio-xml"></a>Элемент Icon (MasterShortcut_Type complexType) (Visio XML)
 
-Задает двоичный значок закодированного двоичного расширения MIME (в формате ICO) для элемента MasterShortcut в документе.
+Указывает двоичный значок MIME (multipurpose Internet Mail Extensions) в формате ICO для элемента MasterShortcut в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34541500"
 |:-----|:-----|
 |**Тип элемента** <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Главные. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |masters.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34541500"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Указывает неиспользуемый основной формат.  <br/> |
+|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Указывает неиспользованный формат master.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

@@ -1,5 +1,5 @@
 ---
-title: Элемент Rule (RuleSet_Type complexType) (XML для Visio)
+title: Элемент Rule (RuleSet_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541710"
 ---
-# <a name="rule-element-ruleset_type-complextype-visio-xml"></a>Элемент Rule (RuleSet_Type complexType) (XML для Visio)
+# <a name="rule-element-ruleset_type-complextype-visio-xml"></a>Элемент Rule (RuleSet_Type complexType) (Visio XML)
 
 Представляет одно правило проверки в наборе правил проверки схемы.
   
@@ -24,8 +24,8 @@ ms.locfileid: "34541710"
 |:-----|:-----|
 |**Тип элемента** <br/> |[Rule_Type](rule_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Проверка. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -48,18 +48,18 @@ ms.locfileid: "34541710"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[рулефилтер](rulefilter-element-rule_type-complextypevisio-xml.md) <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> |Задает логическое выражение, определяющее, следует ли применять правило проверки к целевому объекту.  <br/> |
-|[Правила](ruletest-element-rule_type-complextypevisio-xml.md) <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |Задает логическое выражение, которое определяет, соответствует ли целевой объект правилу проверки.  <br/> |
+|[RuleFilter](rulefilter-element-rule_type-complextypevisio-xml.md) <br/> |[RuleFilter_Type](rulefilter_type-complextypevisio-xml.md) <br/> |Указывает логическое выражение, которое определяет, следует ли применять правило проверки к целевому объекту.  <br/> |
+|[RuleTest (тест правил)](ruletest-element-rule_type-complextypevisio-xml.md) <br/> |[RuleTest_Type](ruletest_type-complextypevisio-xml.md) <br/> |Указывает логическое выражение, которое определяет, удовлетворяет ли целевой объект правилу проверки.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Категория  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает текст, отображаемый в столбце **категорий** окна "проблемы". Значение по умолчанию — пустая строка.  <br/> |Значения типа String: XSD.  <br/> |
-|Описание  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает описание правила проверки, которое отображается в пользовательском интерфейсе. Значение по умолчанию — "Unknown".  <br/> |Значения типа String: XSD.  <br/> |
-|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает уникальный идентификатор для правила проверки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Игнорирован  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, игнорируется ли правило проверки. Значение по умолчанию — false.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|NameU  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Задает универсальное имя правила проверки.  <br/> |Значения типа String: XSD.  <br/> |
-|рулетаржет  <br/> |XSD: int  <br/> |необязательный  <br/> |Указывает тип объекта, к которому применяется правило проверки.  <br/> |Значения типа XSD: int.  <br/> |
+|Category  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает текст, отображаемого в **столбце "Категория"** окна "Проблемы". По умолчанию это пустая строка.  <br/> |Значения типа xsd:string.  <br/> |
+|Описание  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает описание правила проверки, которое отображается в пользовательском интерфейсе. Значение по умолчанию — Unknown (Неизвестно).  <br/> |Значения типа xsd:string.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Указывает уникальный идентификатор правила проверки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|Игнорирован  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, игнорируется ли правило проверки. Значение по умолчанию — False.  <br/> |Значения типа xsd:boolean.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |Обязательный  <br/> |Указывает универсальное имя правила проверки.  <br/> |Значения типа xsd:string.  <br/> |
+|RuleTarget  <br/> |xsd:int  <br/> |необязательный  <br/> |Указывает тип объекта, к которому применяется правило проверки.  <br/> |Значения типа xsd:int.  <br/> |
    
 

@@ -1,12 +1,12 @@
 ---
-title: Элемент ShowGrid (Window_Type complexType) (XML для Visio)
+title: Элемент ShowGrid (Window_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d0f6d0ee-ae3b-f871-11fd-dc5b955c1bf3
-description: Указывает, отображается ли сетка в окне документа.
+description: Указывает, отображается ли сетка в окне рисования.
 ms.openlocfilehash: 491dc53bcf5bc49ae26d37e1380ec99e4457e285
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542998"
 ---
-# <a name="showgrid-element-window_type-complextype-visio-xml"></a>Элемент ShowGrid (Window_Type complexType) (XML для Visio)
+# <a name="showgrid-element-window_type-complextype-visio-xml"></a>Элемент ShowGrid (Window_Type complexType) (Visio XML)
 
-Указывает, отображается ли сетка в окне документа.
+Указывает, отображается ли сетка в окне рисования.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34542998"
 |:-----|:-----|
 |**Тип элемента** <br/> |[ShowGrid_Type](showgrid_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Windows. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

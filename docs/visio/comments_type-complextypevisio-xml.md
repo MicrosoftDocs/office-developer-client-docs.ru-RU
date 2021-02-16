@@ -1,5 +1,5 @@
 ---
-title: Comments_Type complexType (XML для Visio)
+title: Comments_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542018"
 ---
-# <a name="comments_type-complextype-visio-xml"></a>Comments_Type complexType (XML для Visio)
+# <a name="comments_type-complextype-visio-xml"></a>Comments_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -57,13 +57,13 @@ ms.locfileid: "34542018"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[аусорлист](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> ||
-|[комментлист](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> ||
+|[AuthorList](authorlist-element-comments_type-complextypevisio-xml.md) <br/> |[AuthorList_Type](authorlist_type-complextypevisio-xml.md) <br/> ||
+|[CommentList](commentlist-element-comments_type-complextypevisio-xml.md) <br/> |[CommentList_Type](commentlist_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|шовкомменттагс  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
+|ShowCommentTags  <br/> |xsd:boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
    
 

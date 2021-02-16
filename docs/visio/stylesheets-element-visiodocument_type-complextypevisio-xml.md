@@ -1,5 +1,5 @@
 ---
-title: Элемент StyleSheets (VisioDocument_Type complexType) (XML в Visio)
+title: Элемент StyleSheets (VisioDocument_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541990"
 ---
-# <a name="stylesheets-element-visiodocument_type-complextype-visio-xml"></a>Элемент StyleSheets (VisioDocument_Type complexType) (XML в Visio)
+# <a name="stylesheets-element-visiodocument_type-complextype-visio-xml"></a>Элемент StyleSheets (VisioDocument_Type complexType) (Visio XML)
 
 Содержит коллекцию элементов StyleSheet для документа.
   
@@ -24,8 +24,8 @@ ms.locfileid: "34541990"
 |:-----|:-----|
 |**Тип элемента** <br/> |[StyleSheets_Type](stylesheets_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Document. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -41,13 +41,13 @@ ms.locfileid: "34541990"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[висиодокумент](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
+|[VisioDocument](visiodocument-elementvisio-xml.md) <br/> |[VisioDocument_Type](visiodocument_type-complextypevisio-xml.md) <br/> |Корневой элемент документа Microsoft Visio.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Применение](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> |Представляет стиль, определенный в документе.  <br/> |
+|[StyleSheet](stylesheet-element-stylesheets_type-complextypevisio-xml.md) <br/> |[StyleSheet_Type](stylesheet_type-complextypevisio-xml.md) <br/> |Представляет стиль, определенный в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

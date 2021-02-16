@@ -1,12 +1,12 @@
 ---
-title: элемент TP (Text_Type complexType) (XML для Visio)
+title: Элемент tp (Text_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b13b9328-c6a0-e282-257c-2de55901df6a
-description: Задает начало работы со свойствами вкладок. Выполнение определяется до конца текста или до следующего тега.
+description: Указывает начало запуска свойств вкладок. Запуск определяется до конца текста или до следующего тега.
 ms.openlocfilehash: dad7a3de715473a75c601c1e391c9d51fc1cab85
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542977"
 ---
-# <a name="tp-element-text_type-complextype-visio-xml"></a>элемент TP (Text_Type complexType) (XML для Visio)
+# <a name="tp-element-text_type-complextype-visio-xml"></a>Элемент tp (Text_Type complexType) (Visio XML)
 
-Задает начало работы со свойствами вкладок. Выполнение определяется до конца текста или до следующего тега.
+Указывает начало запуска свойств вкладок. Запуск определяется до конца текста или до следующего тега.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34542977"
 |:-----|:-----|
 |**Тип элемента** <br/> |[tp_Type](tp_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |страница #. XML, Master #. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |page#.xml, master#.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -51,6 +51,6 @@ ms.locfileid: "34542977"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Отсчитываемый от нуля индекс элемента в его родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Индекс элемента в родительском элементе с нулем.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    
 

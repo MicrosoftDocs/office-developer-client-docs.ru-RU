@@ -1,5 +1,5 @@
 ---
-title: Веасертипе complexType (схема сведений о погоде Outlook)
+title: weatherType complexType (Схема сведений о погоде в Outlook)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: b94d848e-868a-5d5e-ad82-39ed9bd5b357
-description: Задает условия для расположения в прогнозе погоды.
+description: Указывает погоду расположения.
 ms.openlocfilehash: ac7b8f37e71da203db0f6aefc8e20b29e810c3cf
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,16 +15,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542949"
 ---
-# <a name="weathertype-complextype-outlook-weather-information-schema"></a>Веасертипе complexType (схема сведений о погоде Outlook)
+# <a name="weathertype-complextype-outlook-weather-information-schema"></a>weatherType complexType (Схема сведений о погоде в Outlook)
 
-Задает условия для расположения в прогнозе погоды.
+Указывает погоду расположения.
   
 ## <a name="type-information"></a>Сведения о типе
 
 |||
 |:-----|:-----|
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/outlook/15/getweatherinfo.xsd  <br/> |
-|**Файл схемы** <br/> |жетвеасеринфо. xsd  <br/> |
+|**Файл схемы** <br/> |getweatherinfo.xsd  <br/> |
 |**Базовый элемент расширения** <br/> |Отсутствует  <br/> |
    
 ## <a name="definition"></a>Определение
@@ -56,19 +56,19 @@ ms.locfileid: "34542949"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[этой](current-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[курренттипе](currenttype-complextype-outlook-weather-information-schema.md) <br/> |Задает текущие условия погоды.  <br/> |
-|[прогнозирует](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[форекасттипе](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |Указывает будущие условия прогноза по крайней мере за три дня вперед, включая сегодняшние, завтра, завтра, после завтрашнего дня.  <br/> |
+|[current](current-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[currentType](currenttype-complextype-outlook-weather-information-schema.md) <br/> |Указывает текущие прогнозы погоды.  <br/> |
+|[forecast](forecast-element-weathertype-complextypeoutlook-weather-information-schema.md) <br/> |[forecastType](forecasttype-complextype-outlook-weather-information-schema.md) <br/> |Указывает будущие прогнозы погоды по крайней мере на три дня вперед, включая сегодня: сегодня, завтра, день после завтра.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Attribution  <br/> |xs: String  <br/> |Обязательный  <br/> |Указывает источник сведений о погоде.  <br/> |Значение типа xs: String.  <br/> |
-|дегритипе  <br/> |xs: String  <br/> |Обязательный  <br/> |Задает единицу измерения температуры местоположения, например "Цельсия".  <br/> |C, F  <br/> |
-|имажерелативеурл  <br/> |xs: String  <br/> |Обязательный  <br/> |Задает URL-адрес изображения для расположения.  <br/> |Значение типа xs: String.  <br/> |
-|часовой  <br/> |xs: integer  <br/> |Обязательный  <br/> |Указывает смещение GMT.  <br/> |Значение в диапазоне от – 11 до 12 включительно  <br/> |
-|url  <br/> |xs: String  <br/> |Обязательный  <br/> |Задает URL-адрес веб-страницы службы погоды, содержащей сведения о погоде для указанного расположения.  <br/> |Значение типа xs: String.  <br/> |
-|веасерлокатионкоде  <br/> |xs: String  <br/> |Обязательный  <br/> |Указывает код, связанный с расположением, используемым для различения нескольких расположений с одинаковыми именами.  <br/> |Значение типа xs: String.  <br/> |
-|веасерлокатионнаме  <br/> |xs: String  <br/> |Обязательный  <br/> |Задает имя расположения, которое отображается в раскрывающемся элементе управления.  <br/> |Значение типа xs: String.  <br/> |
+|attribution  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает источник сведений о погоде.  <br/> |Значение типа xs:string  <br/> |
+|degreetype  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает единицу температуры расположения, например Цельсия.  <br/> |C, F  <br/> |
+|imagerelativeurl  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает URL-адрес изображения для расположения.  <br/> |Значение типа xs:string  <br/> |
+|timezone  <br/> |xs:integer  <br/> |Обязательный  <br/> |Указывает смещение GMT.  <br/> |Значение от -11 до 12 включительно  <br/> |
+|url  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает URL-адрес веб-страницы службы прогноза погоды, которая содержит сведения о погоде для указанного расположения.  <br/> |Значение типа xs:string  <br/> |
+|weatherlocationcode  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает код, связанный с расположением, используемым для различиации нескольких расположений с одинаковыми именами.  <br/> |Значение типа xs:string  <br/> |
+|weatherlocationname  <br/> |xs:string  <br/> |Обязательный  <br/> |Указывает имя расположения, которое отображается в выпадаемом оке.  <br/> |Значение типа xs:string  <br/> |
    
 

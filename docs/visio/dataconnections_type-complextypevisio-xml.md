@@ -1,5 +1,5 @@
 ---
-title: DataConnections_Type complexType (XML для Visio)
+title: DataConnections_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542459"
 ---
-# <a name="dataconnections_type-complextype-visio-xml"></a>DataConnections_Type complexType (XML для Visio)
+# <a name="dataconnections_type-complextype-visio-xml"></a>DataConnections_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -58,6 +58,6 @@ ms.locfileid: "34542459"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|некстид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|NextID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
    
 

@@ -1,5 +1,5 @@
 ---
-title: SectionDef_Type complexType (XML для Visio)
+title: SectionDef_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34542081"
 ---
-# <a name="sectiondef_type-complextype-visio-xml"></a>SectionDef_Type complexType (XML для Visio)
+# <a name="sectiondef_type-complextype-visio-xml"></a>SectionDef_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -64,15 +64,15 @@ ms.locfileid: "34542081"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|целлдеф <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
-|ровдеф <br/> |[RowDef_Type](rowdef_type-complextypevisio-xml.md) <br/> ||
+|CellDef <br/> |[CellDef_Type](celldef_type-complextypevisio-xml.md) <br/> ||
+|RowDef <br/> |[RowDef_Type](rowdef_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|N  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|S  <br/> |XSD: Унсигнедбите  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнедбите.  <br/> |
-|Д  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|N  <br/> |xsd:string  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|S  <br/> |xsd:unsignedByte  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedByte.  <br/> |
+|T  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
    
 

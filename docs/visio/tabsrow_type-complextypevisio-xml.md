@@ -1,5 +1,5 @@
 ---
-title: TabsRow_Type complexType (XML для Visio)
+title: TabsRow_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541934"
 ---
-# <a name="tabsrow_type-complextype-visio-xml"></a>TabsRow_Type complexType (XML для Visio)
+# <a name="tabsrow_type-complextype-visio-xml"></a>TabsRow_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 

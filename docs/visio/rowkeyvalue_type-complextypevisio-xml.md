@@ -1,5 +1,5 @@
 ---
-title: RowKeyValue_Type complexType (XML для Visio)
+title: RowKeyValue_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541724"
 ---
-# <a name="rowkeyvalue_type-complextype-visio-xml"></a>RowKeyValue_Type complexType (XML для Visio)
+# <a name="rowkeyvalue_type-complextype-visio-xml"></a>RowKeyValue_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -51,7 +51,7 @@ ms.locfileid: "34541724"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|RowID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
-|Значение  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|RowID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|Значение  <br/> |xsd:string  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
    
 
