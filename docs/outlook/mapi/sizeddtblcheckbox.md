@@ -19,48 +19,48 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33420810"
 ---
-# <a name="sizeddtblcheckbox"></a><span data-ttu-id="8a2d3-103">SizedDtblCheckBox</span><span class="sxs-lookup"><span data-stu-id="8a2d3-103">SizedDtblCheckBox</span></span>
+# <a name="sizeddtblcheckbox"></a><span data-ttu-id="c7fc2-103">SizedDtblCheckBox</span><span class="sxs-lookup"><span data-stu-id="c7fc2-103">SizedDtblCheckBox</span></span>
  
-<span data-ttu-id="8a2d3-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="8a2d3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c7fc2-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c7fc2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="8a2d3-105">Создает именованную структуру, которая включает структуру [дтблчеккбокс](dtblcheckbox.md) для описания элемента управления "флажок" и метку указанной длины.</span><span class="sxs-lookup"><span data-stu-id="8a2d3-105">Creates a named structure that includes a [DTBLCHECKBOX](dtblcheckbox.md) structure for describing a check box control and a label of a specified length.</span></span> 
+<span data-ttu-id="c7fc2-105">Создает именованную структуру, которая включает структуру [DTBLCHECKBOX](dtblcheckbox.md) для описания контрольного окна и метки указанной длины.</span><span class="sxs-lookup"><span data-stu-id="c7fc2-105">Creates a named structure that includes a [DTBLCHECKBOX](dtblcheckbox.md) structure for describing a check box control and a label of a specified length.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="8a2d3-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="8a2d3-106">Header file:</span></span>  <br/> |<span data-ttu-id="8a2d3-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="8a2d3-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="8a2d3-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="8a2d3-108">Related structure:</span></span>  <br/> |<span data-ttu-id="8a2d3-109">**DTBLCHECKBOX**</span><span class="sxs-lookup"><span data-stu-id="8a2d3-109">**DTBLCHECKBOX**</span></span> <br/> |
+|<span data-ttu-id="c7fc2-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="c7fc2-106">Header file:</span></span>  <br/> |<span data-ttu-id="c7fc2-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="c7fc2-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="c7fc2-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="c7fc2-108">Related structure:</span></span>  <br/> |<span data-ttu-id="c7fc2-109">**DTBLCHECKBOX**</span><span class="sxs-lookup"><span data-stu-id="c7fc2-109">**DTBLCHECKBOX**</span></span> <br/> |
    
 ```cpp
 SizedDtblCheckBox (n, u)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="8a2d3-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="8a2d3-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c7fc2-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="c7fc2-110">Parameters</span></span>
 
-<span data-ttu-id="8a2d3-111">_n_</span><span class="sxs-lookup"><span data-stu-id="8a2d3-111">_n_</span></span>
+<span data-ttu-id="c7fc2-111">_n_</span><span class="sxs-lookup"><span data-stu-id="c7fc2-111">_n_</span></span>
   
-> <span data-ttu-id="8a2d3-112">Длина метки, которая должна быть включена в новую структуру.</span><span class="sxs-lookup"><span data-stu-id="8a2d3-112">Length of the label to be included in the new structure.</span></span>
+> <span data-ttu-id="c7fc2-112">Длина метки, включаемой в новую структуру.</span><span class="sxs-lookup"><span data-stu-id="c7fc2-112">Length of the label to be included in the new structure.</span></span>
     
-<span data-ttu-id="8a2d3-113">_u_</span><span class="sxs-lookup"><span data-stu-id="8a2d3-113">_u_</span></span>
+<span data-ttu-id="c7fc2-113">_u_</span><span class="sxs-lookup"><span data-stu-id="c7fc2-113">_u_</span></span>
   
-> <span data-ttu-id="8a2d3-114">Имя для новой структуры.</span><span class="sxs-lookup"><span data-stu-id="8a2d3-114">Name for the new structure.</span></span>
+> <span data-ttu-id="c7fc2-114">Имя новой структуры.</span><span class="sxs-lookup"><span data-stu-id="c7fc2-114">Name for the new structure.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="8a2d3-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="8a2d3-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c7fc2-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="c7fc2-115">Remarks</span></span>
 
-<span data-ttu-id="8a2d3-116">Макрос **сизеддтблчеккбокс** позволяет установить флажок, если число символов в метке известно.</span><span class="sxs-lookup"><span data-stu-id="8a2d3-116">The **SizedDtblCheckBox** macro lets you define a check box when the number of label characters is known.</span></span> <span data-ttu-id="8a2d3-117">Новая структура создается со следующими элементами:</span><span class="sxs-lookup"><span data-stu-id="8a2d3-117">The new structure is created with the following members:</span></span> 
+<span data-ttu-id="c7fc2-116">Макрос **SizedDtblCheckBox** позволяет определить, когда известно количество символов метки.</span><span class="sxs-lookup"><span data-stu-id="c7fc2-116">The **SizedDtblCheckBox** macro lets you define a check box when the number of label characters is known.</span></span> <span data-ttu-id="c7fc2-117">Новая структура создается с помощью следующих членов:</span><span class="sxs-lookup"><span data-stu-id="c7fc2-117">The new structure is created with the following members:</span></span> 
   
 ```cpp
 DTBLCHECKBOX dtblcheckbox;
 TCHAR lpszLabel[n];
 ```
 
-<span data-ttu-id="8a2d3-118">Чтобы использовать указатель на полученную структуру из макроса **сизеддтблчеккбокс** в качестве указателя структуры **дтблчеккбокс** , выполните следующую операцию приведения:</span><span class="sxs-lookup"><span data-stu-id="8a2d3-118">To use a pointer to the resulting structure from the **SizedDtblCheckBox** macro as a **DTBLCHECKBOX** structure pointer, perform the following cast:</span></span> 
+<span data-ttu-id="c7fc2-118">Чтобы использовать указатель на итоговую структуру из **макроса SizedDtblCheckBox** в качестве указателя структуры **DTBLCHECKBOX,** выполните следующую привязку:</span><span class="sxs-lookup"><span data-stu-id="c7fc2-118">To use a pointer to the resulting structure from the **SizedDtblCheckBox** macro as a **DTBLCHECKBOX** structure pointer, perform the following cast:</span></span> 
   
 ```cpp
 lpDtblCheckBox = (LPDTBLCHECKBOX) &SizedDtblCheckBox;
 ```
 
-## <a name="see-also"></a><span data-ttu-id="8a2d3-119">См. также</span><span class="sxs-lookup"><span data-stu-id="8a2d3-119">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c7fc2-119">См. также</span><span class="sxs-lookup"><span data-stu-id="c7fc2-119">See also</span></span>
 
-- [<span data-ttu-id="8a2d3-120">DTBLCHECKBOX</span><span class="sxs-lookup"><span data-stu-id="8a2d3-120">DTBLCHECKBOX</span></span>](dtblcheckbox.md)
-- [<span data-ttu-id="8a2d3-121">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="8a2d3-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+- [<span data-ttu-id="c7fc2-120">DTBLCHECKBOX</span><span class="sxs-lookup"><span data-stu-id="c7fc2-120">DTBLCHECKBOX</span></span>](dtblcheckbox.md)
+- [<span data-ttu-id="c7fc2-121">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="c7fc2-121">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

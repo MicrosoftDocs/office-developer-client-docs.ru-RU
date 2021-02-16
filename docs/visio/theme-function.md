@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fa7a176d-ce9c-1ae6-490f-0646b2ee432f
-description: Получает параметры форматирования текущей темы.
+description: Получает параметры формата текущей темы.
 ms.openlocfilehash: 949619b5bd4ca8dd0751c09d0b732768d02706c4
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421111"
 ---
-# <a name="theme-function"></a><span data-ttu-id="56100-103">Функция THEME</span><span class="sxs-lookup"><span data-stu-id="56100-103">THEME Function</span></span>
+# <a name="theme-function"></a><span data-ttu-id="fe8e2-103">Функция THEME</span><span class="sxs-lookup"><span data-stu-id="fe8e2-103">THEME Function</span></span>
 
-<span data-ttu-id="56100-104">Получает параметры форматирования текущей темы.</span><span class="sxs-lookup"><span data-stu-id="56100-104">Gets the current theme's format settings.</span></span>
+<span data-ttu-id="fe8e2-104">Получает параметры формата текущей темы.</span><span class="sxs-lookup"><span data-stu-id="fe8e2-104">Gets the current theme's format settings.</span></span>
   
-## <a name="syntax"></a><span data-ttu-id="56100-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="56100-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="fe8e2-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="fe8e2-105">Syntax</span></span>
 
-<span data-ttu-id="56100-106">THEME ()</span><span class="sxs-lookup"><span data-stu-id="56100-106">THEME()</span></span>
+<span data-ttu-id="fe8e2-106">THEME()</span><span class="sxs-lookup"><span data-stu-id="fe8e2-106">THEME()</span></span>
   
-## <a name="example"></a><span data-ttu-id="56100-107">Пример</span><span class="sxs-lookup"><span data-stu-id="56100-107">Example</span></span>
+## <a name="example"></a><span data-ttu-id="fe8e2-107">Пример</span><span class="sxs-lookup"><span data-stu-id="fe8e2-107">Example</span></span>
 
 ```vb
 Shape.FillForegnd = THEME("FillColor")
 ```
 
-<span data-ttu-id="56100-108">Назначает фигуре цвет заливки для текущей темы.</span><span class="sxs-lookup"><span data-stu-id="56100-108">Assigns the fill color of the current theme to the shape.</span></span>
+<span data-ttu-id="fe8e2-108">Назначает фигуре цвет заливки текущей темы.</span><span class="sxs-lookup"><span data-stu-id="fe8e2-108">Assigns the fill color of the current theme to the shape.</span></span>
   
 

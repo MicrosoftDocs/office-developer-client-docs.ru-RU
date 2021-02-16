@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33421587"
 ---
-# <a name="guid"></a><span data-ttu-id="887a6-103">GUID</span><span class="sxs-lookup"><span data-stu-id="887a6-103">GUID</span></span>
+# <a name="guid"></a><span data-ttu-id="6c477-103">GUID</span><span class="sxs-lookup"><span data-stu-id="6c477-103">GUID</span></span>
 
   
   
-<span data-ttu-id="887a6-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="887a6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="6c477-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="6c477-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="887a6-105">Описывает глобальный уникальный идентификатор (GUID).</span><span class="sxs-lookup"><span data-stu-id="887a6-105">Describes a globally unique identifier (GUID).</span></span> 
+<span data-ttu-id="6c477-105">Описывает глобальный уникальный идентификатор (GUID).</span><span class="sxs-lookup"><span data-stu-id="6c477-105">Describes a globally unique identifier (GUID).</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="887a6-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="887a6-106">Header file:</span></span>  <br/> |<span data-ttu-id="887a6-107">Мапигуид. h</span><span class="sxs-lookup"><span data-stu-id="887a6-107">Mapiguid.h</span></span>  <br/> |
+|<span data-ttu-id="6c477-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="6c477-106">Header file:</span></span>  <br/> |<span data-ttu-id="6c477-107">Mapiguid.h</span><span class="sxs-lookup"><span data-stu-id="6c477-107">Mapiguid.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _GUID
@@ -42,46 +42,46 @@ typedef struct _GUID
 
 ```
 
-## <a name="members"></a><span data-ttu-id="887a6-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="887a6-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="6c477-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="6c477-108">Members</span></span>
 
- <span data-ttu-id="887a6-109">**Data1**</span><span class="sxs-lookup"><span data-stu-id="887a6-109">**Data1**</span></span>
+ <span data-ttu-id="6c477-109">**Data1**</span><span class="sxs-lookup"><span data-stu-id="6c477-109">**Data1**</span></span>
   
-> <span data-ttu-id="887a6-110">Длинное целое значение данных без знака.</span><span class="sxs-lookup"><span data-stu-id="887a6-110">An unsigned long integer data value.</span></span>
+> <span data-ttu-id="6c477-110">Неподписаное длинное значение данных.</span><span class="sxs-lookup"><span data-stu-id="6c477-110">An unsigned long integer data value.</span></span>
     
- <span data-ttu-id="887a6-111">**Data2**</span><span class="sxs-lookup"><span data-stu-id="887a6-111">**Data2**</span></span>
+ <span data-ttu-id="6c477-111">**Data2**</span><span class="sxs-lookup"><span data-stu-id="6c477-111">**Data2**</span></span>
   
-> <span data-ttu-id="887a6-112">Неподписанное короткое целое значение данных.</span><span class="sxs-lookup"><span data-stu-id="887a6-112">An unsigned short integer data value.</span></span>
+> <span data-ttu-id="6c477-112">Неподписано короткое значение данных.</span><span class="sxs-lookup"><span data-stu-id="6c477-112">An unsigned short integer data value.</span></span>
     
- <span data-ttu-id="887a6-113">**Data3**</span><span class="sxs-lookup"><span data-stu-id="887a6-113">**Data3**</span></span>
+ <span data-ttu-id="6c477-113">**Data3**</span><span class="sxs-lookup"><span data-stu-id="6c477-113">**Data3**</span></span>
   
-> <span data-ttu-id="887a6-114">Неподписанное короткое целое значение данных.</span><span class="sxs-lookup"><span data-stu-id="887a6-114">An unsigned short integer data value.</span></span>
+> <span data-ttu-id="6c477-114">Неподписано короткое значение данных.</span><span class="sxs-lookup"><span data-stu-id="6c477-114">An unsigned short integer data value.</span></span>
     
- <span data-ttu-id="887a6-115">**Data4**</span><span class="sxs-lookup"><span data-stu-id="887a6-115">**Data4**</span></span>
+ <span data-ttu-id="6c477-115">**Data4**</span><span class="sxs-lookup"><span data-stu-id="6c477-115">**Data4**</span></span>
   
-> <span data-ttu-id="887a6-116">Массив неподписанных символов.</span><span class="sxs-lookup"><span data-stu-id="887a6-116">An array of unsigned characters.</span></span>
+> <span data-ttu-id="6c477-116">Массив неподписаных символов.</span><span class="sxs-lookup"><span data-stu-id="6c477-116">An array of unsigned characters.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="887a6-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="887a6-117">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6c477-117">Примечания</span><span class="sxs-lookup"><span data-stu-id="6c477-117">Remarks</span></span>
 
- <span data-ttu-id="887a6-118">Структуры **GUID** используются в MAPI следующим образом:</span><span class="sxs-lookup"><span data-stu-id="887a6-118">**GUID** structures are used in MAPI as follows:</span></span> 
+ <span data-ttu-id="6c477-118">**Структуры GUID** используются в MAPI следующим образом:</span><span class="sxs-lookup"><span data-stu-id="6c477-118">**GUID** structures are used in MAPI as follows:</span></span> 
   
-- <span data-ttu-id="887a6-119">В структурах [мапиуид](mapiuid.md) , которые однозначно идентифицируют поставщиков услуг.</span><span class="sxs-lookup"><span data-stu-id="887a6-119">In the [MAPIUID](mapiuid.md) structures that uniquely identify service providers.</span></span> 
+- <span data-ttu-id="6c477-119">В [структурах MAPIUID,](mapiuid.md) которые однозначно определяют поставщиков услуг.</span><span class="sxs-lookup"><span data-stu-id="6c477-119">In the [MAPIUID](mapiuid.md) structures that uniquely identify service providers.</span></span> 
     
-- <span data-ttu-id="887a6-120">Для идентификаторов интерфейса.</span><span class="sxs-lookup"><span data-stu-id="887a6-120">For interface identifiers.</span></span>
+- <span data-ttu-id="6c477-120">Для идентификаторов интерфейса.</span><span class="sxs-lookup"><span data-stu-id="6c477-120">For interface identifiers.</span></span>
     
-- <span data-ttu-id="887a6-121">В поле Имя набора свойств именованных свойств.</span><span class="sxs-lookup"><span data-stu-id="887a6-121">In the property set names of named properties.</span></span> 
+- <span data-ttu-id="6c477-121">В наборе свойств имена именуемого свойства.</span><span class="sxs-lookup"><span data-stu-id="6c477-121">In the property set names of named properties.</span></span> 
     
-<span data-ttu-id="887a6-122">Поставщики хранилищ сообщений и адресных книг создают структуру **GUID** для использования в структуре **мапиуид** .</span><span class="sxs-lookup"><span data-stu-id="887a6-122">Message store and address book providers generate a **GUID** structure to use in their **MAPIUID** structure.</span></span> <span data-ttu-id="887a6-123">Передав полученный **мапиуид** в [Имаписуппорт:: сетпровидеруид](imapisupport-setprovideruid.md), эти поставщики услуг информируют MAPI об их уникальном идентификаторе.</span><span class="sxs-lookup"><span data-stu-id="887a6-123">By passing the resulting **MAPIUID** to [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md), these service providers inform MAPI of their unique identifier.</span></span>
+<span data-ttu-id="6c477-122">Поставщики хранения сообщений и адресных книг создают структуру **GUID** для использования в своей структуре **MAPIUID.**</span><span class="sxs-lookup"><span data-stu-id="6c477-122">Message store and address book providers generate a **GUID** structure to use in their **MAPIUID** structure.</span></span> <span data-ttu-id="6c477-123">Передав итоговые **данные MAPIUID** в [IMAPISupport::SetProviderUID,](imapisupport-setprovideruid.md)эти поставщики услуг сообщают MAPI о своем уникальном идентификаторе.</span><span class="sxs-lookup"><span data-stu-id="6c477-123">By passing the resulting **MAPIUID** to [IMAPISupport::SetProviderUID](imapisupport-setprovideruid.md), these service providers inform MAPI of their unique identifier.</span></span>
   
-<span data-ttu-id="887a6-124">Кроме того, они используются в реализации Microsoft Remote Procedure Call (RPC) и языка описания объектов (ODL).</span><span class="sxs-lookup"><span data-stu-id="887a6-124">Also, they are used in the implementation of Microsoft Remote Procedure Call (RPC) and the Object Description Language (ODL).</span></span> <span data-ttu-id="887a6-125">Для получения дополнительных сведений об этих возможностях ознакомьтесь с *руководством программиста по программированию Microsoft RPC*, справочником по *OLE для программиста* , а также *в OLE*, *втором выпуске* .</span><span class="sxs-lookup"><span data-stu-id="887a6-125">For more information about these uses, see the  *Microsoft RPC Programmer's Guide and Reference*, *OLE Programmer's Reference*  ,and  *Inside OLE*, *Second Edition*  .</span></span> 
+<span data-ttu-id="6c477-124">Кроме того, они используются в реализации удаленного вызова процедур (RPC) Майкрософт и языка описания объектов (ODL).</span><span class="sxs-lookup"><span data-stu-id="6c477-124">Also, they are used in the implementation of Microsoft Remote Procedure Call (RPC) and the Object Description Language (ODL).</span></span> <span data-ttu-id="6c477-125">Дополнительные сведения об этих вариантах использования см. в руководстве и справочнике по microsoft *RPC Programmer,* справочнике *по OLE Programmer* и *inside OLE*, *Second Edition.*</span><span class="sxs-lookup"><span data-stu-id="6c477-125">For more information about these uses, see the  *Microsoft RPC Programmer's Guide and Reference*, *OLE Programmer's Reference*  ,and  *Inside OLE*, *Second Edition*  .</span></span> 
   
-<span data-ttu-id="887a6-126">Структура **GUID** определена в *справочнике программиста Win32* .</span><span class="sxs-lookup"><span data-stu-id="887a6-126">The **GUID** structure is defined in the  *Win32 Programmer's Reference*  .</span></span> <span data-ttu-id="887a6-127">Конкретные значения для структур **GUID** , используемых в MAPI, определяются в файле заголовков MAPI мапигуид. h.</span><span class="sxs-lookup"><span data-stu-id="887a6-127">Specific values for **GUID** structures that are used within MAPI are defined in the MAPI header file Mapiguid.h.</span></span> 
+<span data-ttu-id="6c477-126">Структура **GUID** определена в справочнике *win32 Programmer..*</span><span class="sxs-lookup"><span data-stu-id="6c477-126">The **GUID** structure is defined in the  *Win32 Programmer's Reference*  .</span></span> <span data-ttu-id="6c477-127">Определенные значения для структур **GUID,** используемых в MAPI, определяются в файле загона MAPI Mapiguid.h.</span><span class="sxs-lookup"><span data-stu-id="6c477-127">Specific values for **GUID** structures that are used within MAPI are defined in the MAPI header file Mapiguid.h.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="887a6-128">См. также</span><span class="sxs-lookup"><span data-stu-id="887a6-128">See also</span></span>
-
-
-
-[<span data-ttu-id="887a6-129">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="887a6-129">MAPIUID</span></span>](mapiuid.md)
+## <a name="see-also"></a><span data-ttu-id="6c477-128">См. также</span><span class="sxs-lookup"><span data-stu-id="6c477-128">See also</span></span>
 
 
-[<span data-ttu-id="887a6-130">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="887a6-130">MAPI Structures</span></span>](mapi-structures.md)
+
+[<span data-ttu-id="6c477-129">MAPIUID</span><span class="sxs-lookup"><span data-stu-id="6c477-129">MAPIUID</span></span>](mapiuid.md)
+
+
+[<span data-ttu-id="6c477-130">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="6c477-130">MAPI Structures</span></span>](mapi-structures.md)
 
