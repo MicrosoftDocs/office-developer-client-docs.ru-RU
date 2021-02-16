@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d6cf67cb-f9e6-43a5-918a-f9151821ab4d
-description: Определяет уровень прозрачности цвета, используемого для обводки свечения фигуры в процентном соотношении.
+description: Определяет уровень прозрачности цвета, используемого для росчерка свечения фигуры в процентах.
 ms.openlocfilehash: 81b734de6212540e0f50df05aca11dc535fc49ab
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,24 +14,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439753"
 ---
-# <a name="glowcolortrans-cell-additional-effect-properties-section"></a><span data-ttu-id="7dfe5-103">GlowColorTrans Cell (Additional Effect Properties Section)</span><span class="sxs-lookup"><span data-stu-id="7dfe5-103">GlowColorTrans Cell (Additional Effect Properties Section)</span></span>
+# <a name="glowcolortrans-cell-additional-effect-properties-section"></a><span data-ttu-id="0c62d-103">GlowColorTrans Cell (Additional Effect Properties Section)</span><span class="sxs-lookup"><span data-stu-id="0c62d-103">GlowColorTrans Cell (Additional Effect Properties Section)</span></span>
 
-<span data-ttu-id="7dfe5-104">Определяет уровень прозрачности цвета, используемого для обводки свечения фигуры в процентном соотношении.</span><span class="sxs-lookup"><span data-stu-id="7dfe5-104">Determines the transparency level for the color used for the stroke of the shape's glow, as a percentage.</span></span> 
+<span data-ttu-id="0c62d-104">Определяет уровень прозрачности цвета, используемого для росчерка свечения фигуры в процентах.</span><span class="sxs-lookup"><span data-stu-id="0c62d-104">Determines the transparency level for the color used for the stroke of the shape's glow, as a percentage.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="7dfe5-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="7dfe5-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="0c62d-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="0c62d-105">Remarks</span></span>
 
-<span data-ttu-id="7dfe5-106">Чтобы получить ссылку на ячейку **GlowColorTrans** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="7dfe5-106">To get a reference to the **GlowColorTrans** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="0c62d-106">Чтобы получить ссылку на ячейку **GlowColorTrans** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте:</span><span class="sxs-lookup"><span data-stu-id="0c62d-106">To get a reference to the **GlowColorTrans** cell by name from another formula, by value of the **N** attribute of a **Cell** element, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="7dfe5-107">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="7dfe5-107">Cell name:</span></span>  <br/> | <span data-ttu-id="7dfe5-108">GlowColorTrans</span><span class="sxs-lookup"><span data-stu-id="7dfe5-108">GlowColorTrans</span></span>  <br/> |
+| <span data-ttu-id="0c62d-107">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="0c62d-107">Cell name:</span></span>  <br/> | <span data-ttu-id="0c62d-108">GlowColorTrans</span><span class="sxs-lookup"><span data-stu-id="0c62d-108">GlowColorTrans</span></span>  <br/> |
    
-<span data-ttu-id="7dfe5-109">Чтобы получить ссылку на ячейку **GlowColorTrans** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="7dfe5-109">To get a reference to the **GlowColorTrans** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="0c62d-109">Чтобы получить ссылку на ячейку **GlowColorTrans** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="0c62d-109">To get a reference to the **GlowColorTrans** cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="7dfe5-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="7dfe5-110">Section index:</span></span>  <br/> |<span data-ttu-id="7dfe5-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="7dfe5-111">**visSectionObject**</span></span> <br/> |
-| <span data-ttu-id="7dfe5-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="7dfe5-112">Row index:</span></span>  <br/> |<span data-ttu-id="7dfe5-113">**висровосереффектпропертиес**</span><span class="sxs-lookup"><span data-stu-id="7dfe5-113">**visRowOtherEffectProperties**</span></span> <br/> |
-| <span data-ttu-id="7dfe5-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="7dfe5-114">Cell index:</span></span>  <br/> |<span data-ttu-id="7dfe5-115">**висгловколортранс**</span><span class="sxs-lookup"><span data-stu-id="7dfe5-115">**visGlowColorTrans**</span></span> <br/> |
+| <span data-ttu-id="0c62d-110">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="0c62d-110">Section index:</span></span>  <br/> |<span data-ttu-id="0c62d-111">**visSectionObject**</span><span class="sxs-lookup"><span data-stu-id="0c62d-111">**visSectionObject**</span></span> <br/> |
+| <span data-ttu-id="0c62d-112">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="0c62d-112">Row index:</span></span>  <br/> |<span data-ttu-id="0c62d-113">**visRowOtherEffectProperties**</span><span class="sxs-lookup"><span data-stu-id="0c62d-113">**visRowOtherEffectProperties**</span></span> <br/> |
+| <span data-ttu-id="0c62d-114">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="0c62d-114">Cell index:</span></span>  <br/> |<span data-ttu-id="0c62d-115">**visGlowColorTrans**</span><span class="sxs-lookup"><span data-stu-id="0c62d-115">**visGlowColorTrans**</span></span> <br/> |
    
 

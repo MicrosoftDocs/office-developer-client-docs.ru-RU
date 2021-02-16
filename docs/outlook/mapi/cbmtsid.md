@@ -19,35 +19,35 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438997"
 ---
-# <a name="cbmtsid"></a><span data-ttu-id="7b045-103">CbMTSID</span><span class="sxs-lookup"><span data-stu-id="7b045-103">CbMTSID</span></span>
+# <a name="cbmtsid"></a><span data-ttu-id="a8bd7-103">CbMTSID</span><span class="sxs-lookup"><span data-stu-id="a8bd7-103">CbMTSID</span></span>
 
   
   
-<span data-ttu-id="7b045-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="7b045-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a8bd7-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a8bd7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="7b045-105">Вычисляет количество байтов в существующей структуре [мтсид](mtsid.md) .</span><span class="sxs-lookup"><span data-stu-id="7b045-105">Computes the number of bytes in an existing [MTSID](mtsid.md) structure.</span></span> 
+<span data-ttu-id="a8bd7-105">Вычисляет количество ветвей в существующей структуре [MTSID.](mtsid.md)</span><span class="sxs-lookup"><span data-stu-id="a8bd7-105">Computes the number of bytes in an existing [MTSID](mtsid.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="7b045-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="7b045-106">Header file:</span></span>  <br/> |<span data-ttu-id="7b045-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="7b045-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="7b045-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="7b045-108">Related structure:</span></span>  <br/> |<span data-ttu-id="7b045-109">**MTSID**</span><span class="sxs-lookup"><span data-stu-id="7b045-109">**MTSID**</span></span> <br/> |
+|<span data-ttu-id="a8bd7-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="a8bd7-106">Header file:</span></span>  <br/> |<span data-ttu-id="a8bd7-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="a8bd7-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="a8bd7-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="a8bd7-108">Related structure:</span></span>  <br/> |<span data-ttu-id="a8bd7-109">**MTSID**</span><span class="sxs-lookup"><span data-stu-id="a8bd7-109">**MTSID**</span></span> <br/> |
    
 ```cpp
 CbMTSID (_lpentry)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="7b045-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="7b045-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="a8bd7-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="a8bd7-110">Parameters</span></span>
 
- <span data-ttu-id="7b045-111">__лпентри_</span><span class="sxs-lookup"><span data-stu-id="7b045-111">__lpentry_</span></span>
+ <span data-ttu-id="a8bd7-111">_ _lpentry_</span><span class="sxs-lookup"><span data-stu-id="a8bd7-111">_ _lpentry_</span></span>
   
-> <span data-ttu-id="7b045-112">Указатель на существующую структуру **мтсид** .</span><span class="sxs-lookup"><span data-stu-id="7b045-112">Pointer to the existing **MTSID** structure.</span></span> 
+> <span data-ttu-id="a8bd7-112">Указатель на существующую **структуру MTSID.**</span><span class="sxs-lookup"><span data-stu-id="a8bd7-112">Pointer to the existing **MTSID** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="7b045-113">См. также</span><span class="sxs-lookup"><span data-stu-id="7b045-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a8bd7-113">См. также</span><span class="sxs-lookup"><span data-stu-id="a8bd7-113">See also</span></span>
 
 
 
-[<span data-ttu-id="7b045-114">MTSID</span><span class="sxs-lookup"><span data-stu-id="7b045-114">MTSID</span></span>](mtsid.md)
+[<span data-ttu-id="a8bd7-114">MTSID</span><span class="sxs-lookup"><span data-stu-id="a8bd7-114">MTSID</span></span>](mtsid.md)
 
 
-[<span data-ttu-id="7b045-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="7b045-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="a8bd7-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="a8bd7-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

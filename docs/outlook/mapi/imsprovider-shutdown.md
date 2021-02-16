@@ -1,5 +1,5 @@
 ---
-title: имспровидершутдовн
+title: IMSProviderShutdown
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438626"
 ---
-# <a name="imsprovidershutdown"></a><span data-ttu-id="017a0-103">IMSProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="017a0-103">IMSProvider::Shutdown</span></span>
+# <a name="imsprovidershutdown"></a><span data-ttu-id="1d8ed-103">IMSProvider::Shutdown</span><span class="sxs-lookup"><span data-stu-id="1d8ed-103">IMSProvider::Shutdown</span></span>
 
   
   
-<span data-ttu-id="017a0-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="017a0-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="1d8ed-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1d8ed-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="017a0-105">Закрывает поставщик хранилища сообщений в определенном порядке.</span><span class="sxs-lookup"><span data-stu-id="017a0-105">Closes a message store provider in an orderly fashion.</span></span>
+<span data-ttu-id="1d8ed-105">Закрывает поставщика store сообщений упорядоченным образом.</span><span class="sxs-lookup"><span data-stu-id="1d8ed-105">Closes a message store provider in an orderly fashion.</span></span>
   
 ```cpp
 HRESULT Shutdown(
@@ -33,25 +33,25 @@ HRESULT Shutdown(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="017a0-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="017a0-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="1d8ed-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="1d8ed-106">Parameters</span></span>
 
- <span data-ttu-id="017a0-107">_лпулфлагс_</span><span class="sxs-lookup"><span data-stu-id="017a0-107">_lpulFlags_</span></span>
+ <span data-ttu-id="1d8ed-107">_lpulFlags_</span><span class="sxs-lookup"><span data-stu-id="1d8ed-107">_lpulFlags_</span></span>
   
-> <span data-ttu-id="017a0-108">возврата Резервирования должен быть нулевым указателем.</span><span class="sxs-lookup"><span data-stu-id="017a0-108">[in] Reserved; must be a pointer to zero.</span></span>
+> <span data-ttu-id="1d8ed-108">[in] Зарезервировано; должен быть указателем на ноль.</span><span class="sxs-lookup"><span data-stu-id="1d8ed-108">[in] Reserved; must be a pointer to zero.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="017a0-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="017a0-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="1d8ed-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="1d8ed-109">Return value</span></span>
 
-<span data-ttu-id="017a0-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="017a0-110">S_OK</span></span> 
+<span data-ttu-id="1d8ed-110">S_OK</span><span class="sxs-lookup"><span data-stu-id="1d8ed-110">S_OK</span></span> 
   
-> <span data-ttu-id="017a0-111">Вызов выполнен успешно и вернул ожидаемое значение или значения.</span><span class="sxs-lookup"><span data-stu-id="017a0-111">The call succeeded and returned the expected value or values.</span></span>
+> <span data-ttu-id="1d8ed-111">Вызов был успешным и возвратил ожидаемое значение или значения.</span><span class="sxs-lookup"><span data-stu-id="1d8ed-111">The call succeeded and returned the expected value or values.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="017a0-112">Примечания</span><span class="sxs-lookup"><span data-stu-id="017a0-112">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="1d8ed-112">Примечания</span><span class="sxs-lookup"><span data-stu-id="1d8ed-112">Remarks</span></span>
 
-<span data-ttu-id="017a0-113">MAPI вызывает метод **функцииimsprovider:: Shutdown** непосредственно перед освобождением объекта поставщика хранилища сообщений.</span><span class="sxs-lookup"><span data-stu-id="017a0-113">MAPI calls the **IMSProvider::Shutdown** method just before releasing the message store provider object.</span></span> <span data-ttu-id="017a0-114">MAPI освобождает все объекты входа для поставщика до **завершения** вызова для этого поставщика.</span><span class="sxs-lookup"><span data-stu-id="017a0-114">MAPI releases all logon objects for a provider before calling **Shutdown** for that provider.</span></span> 
+<span data-ttu-id="1d8ed-113">MAPI вызывает метод **IMSProvider::Shutdown** непосредственно перед освобождением объекта поставщика магазина сообщений.</span><span class="sxs-lookup"><span data-stu-id="1d8ed-113">MAPI calls the **IMSProvider::Shutdown** method just before releasing the message store provider object.</span></span> <span data-ttu-id="1d8ed-114">MAPI освобождает все объекты для работы поставщика перед вызовом **shutdown** для этого поставщика.</span><span class="sxs-lookup"><span data-stu-id="1d8ed-114">MAPI releases all logon objects for a provider before calling **Shutdown** for that provider.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="017a0-115">См. также</span><span class="sxs-lookup"><span data-stu-id="017a0-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="1d8ed-115">См. также</span><span class="sxs-lookup"><span data-stu-id="1d8ed-115">See also</span></span>
 
 
 
-[<span data-ttu-id="017a0-116">IMSProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="017a0-116">IMSProvider : IUnknown</span></span>](imsprovideriunknown.md)
+[<span data-ttu-id="1d8ed-116">IMSProvider : IUnknown</span><span class="sxs-lookup"><span data-stu-id="1d8ed-116">IMSProvider : IUnknown</span></span>](imsprovideriunknown.md)
 

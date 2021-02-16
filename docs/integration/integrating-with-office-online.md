@@ -13,8 +13,8 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438066"
 ---
-# <a name="integrating-with-office-online"></a><span data-ttu-id="90d29-104">Интеграция с Office Online</span><span class="sxs-lookup"><span data-stu-id="90d29-104">Integrating with Office Online</span></span>
+# <a name="integrating-with-office-online"></a><span data-ttu-id="89102-104">Интеграция с Office Online</span><span class="sxs-lookup"><span data-stu-id="89102-104">Integrating with Office Online</span></span>
 
-<span data-ttu-id="90d29-p102">Этот контент больше не доступен по этому адресу. Cм. статью [Интеграция с Office Online](https://wopi.readthedocs.org/en/latest/) на сайте GitHub.</span><span class="sxs-lookup"><span data-stu-id="90d29-p102">This content is no longer available at this location. To continue, see [Integrating with Office Online](https://wopi.readthedocs.org/en/latest/) on GitHub.</span></span> 
+<span data-ttu-id="89102-p102">Этот контент больше не доступен по этому адресу. Cм. статью [Интеграция с Office Online](https://wopi.readthedocs.org/en/latest/) на сайте GitHub.</span><span class="sxs-lookup"><span data-stu-id="89102-p102">This content is no longer available at this location. To continue, see [Integrating with Office Online](https://wopi.readthedocs.org/en/latest/) on GitHub.</span></span> 
   
 

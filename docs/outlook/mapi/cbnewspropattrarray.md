@@ -19,35 +19,35 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33439123"
 ---
-# <a name="cbnewspropattrarray"></a><span data-ttu-id="f3ab6-103">CbNewSPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="f3ab6-103">CbNewSPropAttrArray</span></span>
+# <a name="cbnewspropattrarray"></a><span data-ttu-id="48fb7-103">CbNewSPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="48fb7-103">CbNewSPropAttrArray</span></span>
 
   
   
-<span data-ttu-id="f3ab6-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f3ab6-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="48fb7-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="48fb7-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f3ab6-105">Вычисляет количество байтов, которое необходимо выделить для новой структуры [спропаттраррай](spropattrarray.md) , которая содержит указанное число атрибутов свойств.</span><span class="sxs-lookup"><span data-stu-id="f3ab6-105">Computes the number of bytes that should be allocated for a new [SPropAttrArray](spropattrarray.md) structure that contains a specified number of property attributes.</span></span> 
+<span data-ttu-id="48fb7-105">Вычисляет количествобайтов, которые должны быть выделены для новой [структуры SPropAttrArray,](spropattrarray.md) которая содержит указанное число атрибутов свойства.</span><span class="sxs-lookup"><span data-stu-id="48fb7-105">Computes the number of bytes that should be allocated for a new [SPropAttrArray](spropattrarray.md) structure that contains a specified number of property attributes.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f3ab6-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="f3ab6-106">Header file:</span></span>  <br/> |<span data-ttu-id="f3ab6-107">IMessage. h</span><span class="sxs-lookup"><span data-stu-id="f3ab6-107">Imessage.h</span></span>  <br/> |
-|<span data-ttu-id="f3ab6-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="f3ab6-108">Related structure:</span></span>  <br/> |<span data-ttu-id="f3ab6-109">**SPropAttrArray**</span><span class="sxs-lookup"><span data-stu-id="f3ab6-109">**SPropAttrArray**</span></span> <br/> |
+|<span data-ttu-id="48fb7-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="48fb7-106">Header file:</span></span>  <br/> |<span data-ttu-id="48fb7-107">Imessage.h</span><span class="sxs-lookup"><span data-stu-id="48fb7-107">Imessage.h</span></span>  <br/> |
+|<span data-ttu-id="48fb7-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="48fb7-108">Related structure:</span></span>  <br/> |<span data-ttu-id="48fb7-109">**SPropAttrArray**</span><span class="sxs-lookup"><span data-stu-id="48fb7-109">**SPropAttrArray**</span></span> <br/> |
    
 ```cpp
 CbNewSPropAttrArray (_cattr)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="f3ab6-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="f3ab6-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="48fb7-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="48fb7-110">Parameters</span></span>
 
- <span data-ttu-id="f3ab6-111">__каттр_</span><span class="sxs-lookup"><span data-stu-id="f3ab6-111">__cattr_</span></span>
+ <span data-ttu-id="48fb7-111">_ _cattr_</span><span class="sxs-lookup"><span data-stu-id="48fb7-111">_ _cattr_</span></span>
   
-> <span data-ttu-id="f3ab6-112">Количество атрибутов свойств, включаемых в новую структуру **спропаттраррай** .</span><span class="sxs-lookup"><span data-stu-id="f3ab6-112">Count of property attributes to be included in the new **SPropAttrArray** structure.</span></span> 
+> <span data-ttu-id="48fb7-112">Количество атрибутов свойств, которые необходимо включить в новую **структуру SPropAttrArray.**</span><span class="sxs-lookup"><span data-stu-id="48fb7-112">Count of property attributes to be included in the new **SPropAttrArray** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="f3ab6-113">См. также</span><span class="sxs-lookup"><span data-stu-id="f3ab6-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="48fb7-113">См. также</span><span class="sxs-lookup"><span data-stu-id="48fb7-113">See also</span></span>
 
 
 
-[<span data-ttu-id="f3ab6-114">SPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="f3ab6-114">SPropAttrArray</span></span>](spropattrarray.md)
+[<span data-ttu-id="48fb7-114">SPropAttrArray</span><span class="sxs-lookup"><span data-stu-id="48fb7-114">SPropAttrArray</span></span>](spropattrarray.md)
 
 
-[<span data-ttu-id="f3ab6-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="f3ab6-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="48fb7-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="48fb7-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 

@@ -8,7 +8,7 @@ f1_keywords:
 - TempMissing
 - TempMissing12
 keywords:
-- Функция темпмиссинг [Excel 2007], функция TempMissing12 [Excel 2007]
+- функция tempmissing [excel 2007],TempMissing12 function [Excel 2007]
 localization_priority: Normal
 ms.assetid: d9cb6afc-1fbb-45d6-88e5-84eba3af3c60
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -19,28 +19,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435959"
 ---
-# <a name="tempmissingtempmissing12"></a><span data-ttu-id="d8202-104">TempMissing/TempMissing12</span><span class="sxs-lookup"><span data-stu-id="d8202-104">TempMissing/TempMissing12</span></span>
+# <a name="tempmissingtempmissing12"></a><span data-ttu-id="c4384-104">TempMissing/TempMissing12</span><span class="sxs-lookup"><span data-stu-id="c4384-104">TempMissing/TempMissing12</span></span>
 
- <span data-ttu-id="d8202-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="d8202-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+ <span data-ttu-id="c4384-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="c4384-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="d8202-106">Функция библиотеки Framework, которая создает временную структуру **XLOPER**/ **XLOPER12** типа **кслтипемиссинг**.</span><span class="sxs-lookup"><span data-stu-id="d8202-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** of type **xltypeMissing**.</span></span>
+<span data-ttu-id="c4384-106">Функция библиотеки Framework, которая создает временную  /  **XLOPER XLOPER12** типа **xltypeMissing.**</span><span class="sxs-lookup"><span data-stu-id="c4384-106">Framework library function that creates a temporary **XLOPER**/ **XLOPER12** of type **xltypeMissing**.</span></span>
   
 ```cs
 LPXLOPER TempMissing(void);
 LPXLOPER12 TempMissing12(void);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="d8202-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="d8202-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c4384-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="c4384-107">Parameters</span></span>
 
-<span data-ttu-id="d8202-108">Эта функция не получает никаких параметров.</span><span class="sxs-lookup"><span data-stu-id="d8202-108">This function takes no parameters.</span></span>
+<span data-ttu-id="c4384-108">Эта функция не получает никаких параметров.</span><span class="sxs-lookup"><span data-stu-id="c4384-108">This function takes no parameters.</span></span>
   
-## <a name="return-value"></a><span data-ttu-id="d8202-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="d8202-109">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c4384-109">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c4384-109">Return value</span></span>
 
-<span data-ttu-id="d8202-110">Возвращает указатель на **кслтипемиссинг** **XLOPER**/ **.**</span><span class="sxs-lookup"><span data-stu-id="d8202-110">Returns a pointer to an **xltypeMissing** **XLOPER**/ **XLOPER12**.</span></span>
+<span data-ttu-id="c4384-110">Возвращает указатель на **XLtypeMissing** **XLOPER** /  **XLOPER12.**</span><span class="sxs-lookup"><span data-stu-id="c4384-110">Returns a pointer to an **xltypeMissing** **XLOPER**/ **XLOPER12**.</span></span>
   
-## <a name="example"></a><span data-ttu-id="d8202-111">Пример</span><span class="sxs-lookup"><span data-stu-id="d8202-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c4384-111">Пример</span><span class="sxs-lookup"><span data-stu-id="c4384-111">Example</span></span>
 
-<span data-ttu-id="d8202-112">В этом примере используется **TempMissing12** для предоставления трех отсутствующих аргументов **кслкворкспаце** , за которыми следует **логическое** **значение false** , чтобы отменить отображение полос прокрутки листа.</span><span class="sxs-lookup"><span data-stu-id="d8202-112">This example uses **TempMissing12** to provide three missing arguments to **xlcWorkspace** followed by a **Boolean** **FALSE** to suppress the display of worksheet scroll bars.</span></span> <span data-ttu-id="d8202-113">Первые три аргумента соответствуют другим параметрам рабочей области, которые не затрагиваются.</span><span class="sxs-lookup"><span data-stu-id="d8202-113">The first three arguments correspond to other workspace settings which are unaffected.</span></span> 
+<span data-ttu-id="c4384-112">В этом примере **tempMissing12** используется для предоставления **xlcWorkspace** трех отсутствующих аргументов, за которыми следует **boolean** **FALSE** для подавления отображения полос прокрутки на рабочем экране.</span><span class="sxs-lookup"><span data-stu-id="c4384-112">This example uses **TempMissing12** to provide three missing arguments to **xlcWorkspace** followed by a **Boolean** **FALSE** to suppress the display of worksheet scroll bars.</span></span> <span data-ttu-id="c4384-113">Первые три аргумента соответствуют другим незатроченным настройкам рабочей области.</span><span class="sxs-lookup"><span data-stu-id="c4384-113">The first three arguments correspond to other workspace settings which are unaffected.</span></span> 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -56,9 +56,9 @@ short WINAPI TempMissingExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="d8202-114">См. также</span><span class="sxs-lookup"><span data-stu-id="d8202-114">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="c4384-114">См. также</span><span class="sxs-lookup"><span data-stu-id="c4384-114">See also</span></span>
 
 
 
-[<span data-ttu-id="d8202-115">Функции в библиотеке платформы</span><span class="sxs-lookup"><span data-stu-id="d8202-115">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
+[<span data-ttu-id="c4384-115">Функции в библиотеке платформы</span><span class="sxs-lookup"><span data-stu-id="c4384-115">Functions in the Framework Library</span></span>](functions-in-the-framework-library.md)
 

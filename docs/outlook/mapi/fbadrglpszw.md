@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33436442"
 ---
-# <a name="fbadrglpszw"></a><span data-ttu-id="0c42b-103">FBadRglpszW</span><span class="sxs-lookup"><span data-stu-id="0c42b-103">FBadRglpszW</span></span>
+# <a name="fbadrglpszw"></a><span data-ttu-id="b2b25-103">FBadRglpszW</span><span class="sxs-lookup"><span data-stu-id="b2b25-103">FBadRglpszW</span></span>
 
   
   
-<span data-ttu-id="0c42b-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="0c42b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b2b25-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b2b25-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="0c42b-105">Проверяет все строки в массиве строк Юникода.</span><span class="sxs-lookup"><span data-stu-id="0c42b-105">Validates all strings in an array of Unicode strings.</span></span> 
+<span data-ttu-id="b2b25-105">Проверяет все строки в массиве строк Юникода.</span><span class="sxs-lookup"><span data-stu-id="b2b25-105">Validates all strings in an array of Unicode strings.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="0c42b-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="0c42b-106">Header file:</span></span>  <br/> |<span data-ttu-id="0c42b-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="0c42b-107">Mapival.h</span></span>  <br/> |
-|<span data-ttu-id="0c42b-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="0c42b-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="0c42b-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="0c42b-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="0c42b-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="0c42b-110">Called by:</span></span>  <br/> |<span data-ttu-id="0c42b-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="0c42b-111">Service providers</span></span>  <br/> |
+|<span data-ttu-id="b2b25-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="b2b25-106">Header file:</span></span>  <br/> |<span data-ttu-id="b2b25-107">Mapival.h</span><span class="sxs-lookup"><span data-stu-id="b2b25-107">Mapival.h</span></span>  <br/> |
+|<span data-ttu-id="b2b25-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="b2b25-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="b2b25-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="b2b25-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="b2b25-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="b2b25-110">Called by:</span></span>  <br/> |<span data-ttu-id="b2b25-111">Поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="b2b25-111">Service providers</span></span>  <br/> |
    
 ```cpp
 BOOL FBadRglpszW(
@@ -40,24 +40,24 @@ BOOL FBadRglpszW(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="0c42b-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="0c42b-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b2b25-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="b2b25-112">Parameters</span></span>
 
- <span data-ttu-id="0c42b-113">_лппсзв_</span><span class="sxs-lookup"><span data-stu-id="0c42b-113">_lppszW_</span></span>
+ <span data-ttu-id="b2b25-113">_lppszW_</span><span class="sxs-lookup"><span data-stu-id="b2b25-113">_lppszW_</span></span>
   
-> <span data-ttu-id="0c42b-114">возврата Указатель на массив строк Юникода с завершающим нулем.</span><span class="sxs-lookup"><span data-stu-id="0c42b-114">[in] Pointer to an array of null-terminated Unicode strings.</span></span> 
+> <span data-ttu-id="b2b25-114">[in] Указатель на массив строк Юникода, осекаемого нулью.</span><span class="sxs-lookup"><span data-stu-id="b2b25-114">[in] Pointer to an array of null-terminated Unicode strings.</span></span> 
     
- <span data-ttu-id="0c42b-115">_cString_</span><span class="sxs-lookup"><span data-stu-id="0c42b-115">_cStrings_</span></span>
+ <span data-ttu-id="b2b25-115">_cStrings_</span><span class="sxs-lookup"><span data-stu-id="b2b25-115">_cStrings_</span></span>
   
-> <span data-ttu-id="0c42b-116">возврата Количество строк в массиве, на которое указывает параметр _лппсзв_ .</span><span class="sxs-lookup"><span data-stu-id="0c42b-116">[in] Count of strings in the array pointed to by the  _lppszW_ parameter.</span></span> 
+> <span data-ttu-id="b2b25-116">[in] Количество строк в массиве, на которые указывает параметр _lppszW._</span><span class="sxs-lookup"><span data-stu-id="b2b25-116">[in] Count of strings in the array pointed to by the  _lppszW_ parameter.</span></span> 
     
-## <a name="return-value"></a><span data-ttu-id="0c42b-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="0c42b-117">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="b2b25-117">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="b2b25-117">Return value</span></span>
 
-<span data-ttu-id="0c42b-118">TRUE</span><span class="sxs-lookup"><span data-stu-id="0c42b-118">TRUE</span></span> 
+<span data-ttu-id="b2b25-118">TRUE</span><span class="sxs-lookup"><span data-stu-id="b2b25-118">TRUE</span></span> 
   
-> <span data-ttu-id="0c42b-119">Одна или несколько строк в указанном массиве являются недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="0c42b-119">One or more of the strings in the specified array are invalid.</span></span> 
+> <span data-ttu-id="b2b25-119">Одна или несколько строк в указанном массиве являются недопустимыми.</span><span class="sxs-lookup"><span data-stu-id="b2b25-119">One or more of the strings in the specified array are invalid.</span></span> 
     
-<span data-ttu-id="0c42b-120">FALSE</span><span class="sxs-lookup"><span data-stu-id="0c42b-120">FALSE</span></span> 
+<span data-ttu-id="b2b25-120">FALSE</span><span class="sxs-lookup"><span data-stu-id="b2b25-120">FALSE</span></span> 
   
-> <span data-ttu-id="0c42b-121">Строки в указанном массиве являются допустимыми.</span><span class="sxs-lookup"><span data-stu-id="0c42b-121">The strings in the specified array are valid.</span></span>
+> <span data-ttu-id="b2b25-121">Строки в указанном массиве допустимы.</span><span class="sxs-lookup"><span data-stu-id="b2b25-121">The strings in the specified array are valid.</span></span>
     
 

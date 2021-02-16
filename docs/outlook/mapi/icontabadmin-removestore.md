@@ -1,5 +1,5 @@
 ---
-title: иконтабадминремовесторе
+title: IContabAdminRemoveStore
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -19,13 +19,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435420"
 ---
-# <a name="icontabadminremovestore"></a><span data-ttu-id="c1d48-103">IContabAdmin::RemoveStore</span><span class="sxs-lookup"><span data-stu-id="c1d48-103">IContabAdmin::RemoveStore</span></span>
+# <a name="icontabadminremovestore"></a><span data-ttu-id="b7a51-103">IContabAdmin::RemoveStore</span><span class="sxs-lookup"><span data-stu-id="b7a51-103">IContabAdmin::RemoveStore</span></span>
 
   
   
-<span data-ttu-id="c1d48-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c1d48-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="b7a51-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b7a51-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="c1d48-105">Удаляет адресную книгу контакта (CAB-файл), указанную указанным ИДЕНТИФИКАТОРом записи, из иерархии адресной книги.</span><span class="sxs-lookup"><span data-stu-id="c1d48-105">Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.</span></span>
+<span data-ttu-id="b7a51-105">Удаляет из иерархии адресной книги адресную книгу контактов, указанную с помощью указанного ИД записи.</span><span class="sxs-lookup"><span data-stu-id="b7a51-105">Removes the Contact Address Book (CAB) specified by the given entry ID from the address book hierarchy.</span></span>
   
 ```cpp
 HRESULT RemoveStore(
@@ -34,14 +34,14 @@ LPENTRYID lpEntryID
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="c1d48-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="c1d48-106">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="b7a51-106">Параметры</span><span class="sxs-lookup"><span data-stu-id="b7a51-106">Parameters</span></span>
 
- <span data-ttu-id="c1d48-107">_кбентрид_</span><span class="sxs-lookup"><span data-stu-id="c1d48-107">_cbEntryID_</span></span>
+ <span data-ttu-id="b7a51-107">_cbEntryID_</span><span class="sxs-lookup"><span data-stu-id="b7a51-107">_cbEntryID_</span></span>
   
-> <span data-ttu-id="c1d48-108">возврата Число байтов в идентификаторе записи, на которое указывает параметр _лпентрид_ .</span><span class="sxs-lookup"><span data-stu-id="c1d48-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
+> <span data-ttu-id="b7a51-108">[in] Количество byte в идентификаторе записи, на который указывает параметр _lpEntryID._</span><span class="sxs-lookup"><span data-stu-id="b7a51-108">[in] The byte count in the entry identifier pointed to by the  _lpEntryID_ parameter.</span></span> 
     
- <span data-ttu-id="c1d48-109">_лпентрид_</span><span class="sxs-lookup"><span data-stu-id="c1d48-109">_lpEntryID_</span></span>
+ <span data-ttu-id="b7a51-109">_lpEntryID_</span><span class="sxs-lookup"><span data-stu-id="b7a51-109">_lpEntryID_</span></span>
   
-> <span data-ttu-id="c1d48-110">возврата Указатель на идентификатор записи объекта, который требуется открыть.</span><span class="sxs-lookup"><span data-stu-id="c1d48-110">[in] A pointer to the entry identifier of the object to open.</span></span>
+> <span data-ttu-id="b7a51-110">[in] Указатель на идентификатор записи объекта, который необходимо открыть.</span><span class="sxs-lookup"><span data-stu-id="b7a51-110">[in] A pointer to the entry identifier of the object to open.</span></span>
     
 

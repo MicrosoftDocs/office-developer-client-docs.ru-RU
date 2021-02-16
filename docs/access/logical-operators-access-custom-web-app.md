@@ -1,5 +1,5 @@
 ---
-title: Логические операторы (пользовательское веб-приложение для Access)
+title: Логические операторы (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,19 +14,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437667"
 ---
-# <a name="logical-operators-access-custom-web-app"></a><span data-ttu-id="ddb3d-102">Логические операторы (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ddb3d-102">Logical Operators (Access custom web app)</span></span>
+# <a name="logical-operators-access-custom-web-app"></a><span data-ttu-id="37a85-102">Логические операторы (пользовательское веб-приложение Access)</span><span class="sxs-lookup"><span data-stu-id="37a85-102">Logical Operators (Access custom web app)</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="ddb3d-103">Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="ddb3d-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="ddb3d-104">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="ddb3d-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
+> <span data-ttu-id="37a85-103">Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint.</span><span class="sxs-lookup"><span data-stu-id="37a85-103">Microsoft no longer recommends creating and using Access web apps in SharePoint.</span></span> <span data-ttu-id="37a85-104">В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств.</span><span class="sxs-lookup"><span data-stu-id="37a85-104">As an alternative, consider using [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) to build no-code business solutions for the web and mobile devices.</span></span> 
   
-## <a name="in-this-section"></a><span data-ttu-id="ddb3d-105">В этом разделе</span><span class="sxs-lookup"><span data-stu-id="ddb3d-105">In this section</span></span>
+## <a name="in-this-section"></a><span data-ttu-id="37a85-105">В этом разделе:</span><span class="sxs-lookup"><span data-stu-id="37a85-105">In this section</span></span>
 
-- [<span data-ttu-id="ddb3d-106">И (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ddb3d-106">AND (Access custom web app)</span></span>](and-access-custom-web-app.md)
+- [<span data-ttu-id="37a85-106">AND (пользовательское веб-приложение Access)</span><span class="sxs-lookup"><span data-stu-id="37a85-106">AND (Access custom web app)</span></span>](and-access-custom-web-app.md)
     
-- [<span data-ttu-id="ddb3d-107">НЕТ (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ddb3d-107">NOT (Access custom web app)</span></span>](not-access-custom-web-app.md)
+- [<span data-ttu-id="37a85-107">NOT (Access custom web app)</span><span class="sxs-lookup"><span data-stu-id="37a85-107">NOT (Access custom web app)</span></span>](not-access-custom-web-app.md)
     
-- [<span data-ttu-id="ddb3d-108">ИЛИ (пользовательское веб-приложение для Access)</span><span class="sxs-lookup"><span data-stu-id="ddb3d-108">OR (Access custom web app)</span></span>](or-access-custom-web-app.md)
+- [<span data-ttu-id="37a85-108">OR (пользовательское веб-приложение Access)</span><span class="sxs-lookup"><span data-stu-id="37a85-108">OR (Access custom web app)</span></span>](or-access-custom-web-app.md)
     
-- <span data-ttu-id="ddb3d-109">[IS [NOT] NULL (пользовательское веб-приложение для Access)](is-not-null-access-custom-web-app.md)</span><span class="sxs-lookup"><span data-stu-id="ddb3d-109">[IS [NOT] NULL (Access custom web app)](is-not-null-access-custom-web-app.md)</span></span>
+- <span data-ttu-id="37a85-109">[IS [NOT] NULL (пользовательское веб-приложение для Access)](is-not-null-access-custom-web-app.md)</span><span class="sxs-lookup"><span data-stu-id="37a85-109">[IS [NOT] NULL (Access custom web app)](is-not-null-access-custom-web-app.md)</span></span>
     
 

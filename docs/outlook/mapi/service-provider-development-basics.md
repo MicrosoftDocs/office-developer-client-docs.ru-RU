@@ -1,5 +1,5 @@
 ---
-title: Основные сведения о разработке поставщиков услуг
+title: Основы разработки поставщика услуг
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,25 +15,25 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437807"
 ---
-# <a name="service-provider-development-basics"></a><span data-ttu-id="146d3-103">Основные сведения о разработке поставщиков услуг</span><span class="sxs-lookup"><span data-stu-id="146d3-103">Service Provider Development Basics</span></span>
+# <a name="service-provider-development-basics"></a><span data-ttu-id="defcb-103">Основы разработки поставщика услуг</span><span class="sxs-lookup"><span data-stu-id="defcb-103">Service Provider Development Basics</span></span>
 
   
   
-<span data-ttu-id="146d3-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="146d3-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="defcb-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="defcb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="146d3-105">В этом разделе содержатся обзорные сведения, которые необходимо проверить перед созданием собственных поставщиков службы MAPI.</span><span class="sxs-lookup"><span data-stu-id="146d3-105">This section contains overview information that you should review prior to creating your own MAPI service providers.</span></span>
+<span data-ttu-id="defcb-105">В этом разделе содержится обзорная информация, которую необходимо просмотреть перед созданием собственных поставщиков услуг MAPI.</span><span class="sxs-lookup"><span data-stu-id="defcb-105">This section contains overview information that you should review prior to creating your own MAPI service providers.</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="146d3-106">См. также</span><span class="sxs-lookup"><span data-stu-id="146d3-106">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="defcb-106">См. также</span><span class="sxs-lookup"><span data-stu-id="defcb-106">See also</span></span>
 
 
 
-[<span data-ttu-id="146d3-107">Разработка поставщика адресной книги MAPI</span><span class="sxs-lookup"><span data-stu-id="146d3-107">Developing a MAPI Address Book Provider</span></span>](developing-a-mapi-address-book-provider.md)
+[<span data-ttu-id="defcb-107">Разработка поставщика адресной книги MAPI</span><span class="sxs-lookup"><span data-stu-id="defcb-107">Developing a MAPI Address Book Provider</span></span>](developing-a-mapi-address-book-provider.md)
   
-[<span data-ttu-id="146d3-108">Разработка поставщика транспорта MAPI</span><span class="sxs-lookup"><span data-stu-id="146d3-108">Developing a MAPI Transport Provider</span></span>](developing-a-mapi-transport-provider.md)
+[<span data-ttu-id="defcb-108">Разработка поставщика транспорта MAPI</span><span class="sxs-lookup"><span data-stu-id="defcb-108">Developing a MAPI Transport Provider</span></span>](developing-a-mapi-transport-provider.md)
   
-[<span data-ttu-id="146d3-109">���������� ���������� ��������� ��������� MAPI</span><span class="sxs-lookup"><span data-stu-id="146d3-109">Developing a MAPI Message Store Provider</span></span>](developing-a-mapi-message-store-provider.md)
+[<span data-ttu-id="defcb-109">���������� ���������� ��������� ��������� MAPI</span><span class="sxs-lookup"><span data-stu-id="defcb-109">Developing a MAPI Message Store Provider</span></span>](developing-a-mapi-message-store-provider.md)
   
-[<span data-ttu-id="146d3-110">Поставщики службы MAPI</span><span class="sxs-lookup"><span data-stu-id="146d3-110">MAPI Service Providers</span></span>](mapi-service-providers.md)
+[<span data-ttu-id="defcb-110">Поставщики услуг MAPI</span><span class="sxs-lookup"><span data-stu-id="defcb-110">MAPI Service Providers</span></span>](mapi-service-providers.md)
   
-[<span data-ttu-id="146d3-111">Общие сведения о поставщике службы MAPI</span><span class="sxs-lookup"><span data-stu-id="146d3-111">MAPI Service Provider Overview</span></span>](mapi-service-provider-overview.md)
+[<span data-ttu-id="defcb-111">Общие сведения о поставщике услуг MAPI</span><span class="sxs-lookup"><span data-stu-id="defcb-111">MAPI Service Provider Overview</span></span>](mapi-service-provider-overview.md)
 

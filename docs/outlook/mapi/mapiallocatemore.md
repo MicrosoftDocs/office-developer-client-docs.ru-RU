@@ -19,19 +19,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435392"
 ---
-# <a name="mapiallocatemore"></a><span data-ttu-id="58d47-103">MAPIAllocateMore</span><span class="sxs-lookup"><span data-stu-id="58d47-103">MAPIAllocateMore</span></span>
+# <a name="mapiallocatemore"></a><span data-ttu-id="c6816-103">MAPIAllocateMore</span><span class="sxs-lookup"><span data-stu-id="c6816-103">MAPIAllocateMore</span></span>
 
   
   
-<span data-ttu-id="58d47-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="58d47-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="c6816-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="c6816-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="58d47-105">Выделяет буфер памяти, связанный с другим буфером, выделенным ранее с помощью функции [мапиаллокатебуффер](mapiallocatebuffer.md) .</span><span class="sxs-lookup"><span data-stu-id="58d47-105">Allocates a memory buffer that is linked to another buffer previously allocated with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function.</span></span> 
+<span data-ttu-id="c6816-105">Выделяет буфер памяти, связанный с другим буфером, ранее выделенным [функцией MAPIAllocateBuffer.](mapiallocatebuffer.md)</span><span class="sxs-lookup"><span data-stu-id="c6816-105">Allocates a memory buffer that is linked to another buffer previously allocated with the [MAPIAllocateBuffer](mapiallocatebuffer.md) function.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="58d47-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="58d47-106">Header file:</span></span>  <br/> |<span data-ttu-id="58d47-107">Мапикс. h</span><span class="sxs-lookup"><span data-stu-id="58d47-107">Mapix.h</span></span>  <br/> |
-|<span data-ttu-id="58d47-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="58d47-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="58d47-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="58d47-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="58d47-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="58d47-110">Called by:</span></span>  <br/> |<span data-ttu-id="58d47-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="58d47-111">Client applications and service providers</span></span>  <br/> |
+|<span data-ttu-id="c6816-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="c6816-106">Header file:</span></span>  <br/> |<span data-ttu-id="c6816-107">Mapix.h</span><span class="sxs-lookup"><span data-stu-id="c6816-107">Mapix.h</span></span>  <br/> |
+|<span data-ttu-id="c6816-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="c6816-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="c6816-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="c6816-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="c6816-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="c6816-110">Called by:</span></span>  <br/> |<span data-ttu-id="c6816-111">Клиентские приложения и поставщики услуг</span><span class="sxs-lookup"><span data-stu-id="c6816-111">Client applications and service providers</span></span>  <br/> |
    
 ```cpp
 SCODE MAPIAllocateMore(
@@ -41,30 +41,30 @@ SCODE MAPIAllocateMore(
 );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="58d47-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="58d47-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="c6816-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="c6816-112">Parameters</span></span>
 
- <span data-ttu-id="58d47-113">_кбсизе_</span><span class="sxs-lookup"><span data-stu-id="58d47-113">_cbSize_</span></span>
+ <span data-ttu-id="c6816-113">_cbSize_</span><span class="sxs-lookup"><span data-stu-id="c6816-113">_cbSize_</span></span>
   
-> <span data-ttu-id="58d47-114">возврата Размер нового выделяемого буфера (в байтах).</span><span class="sxs-lookup"><span data-stu-id="58d47-114">[in] Size, in bytes, of the new buffer to be allocated.</span></span> 
+> <span data-ttu-id="c6816-114">[in] Размер нового буфера, который необходимо выделить, в вахтах.</span><span class="sxs-lookup"><span data-stu-id="c6816-114">[in] Size, in bytes, of the new buffer to be allocated.</span></span> 
     
- <span data-ttu-id="58d47-115">_лпобжект_</span><span class="sxs-lookup"><span data-stu-id="58d47-115">_lpObject_</span></span>
+ <span data-ttu-id="c6816-115">_lpObject_</span><span class="sxs-lookup"><span data-stu-id="c6816-115">_lpObject_</span></span>
   
-> <span data-ttu-id="58d47-116">возврата Указатель на существующий буфер MAPI, выделенный с помощью **мапиаллокатебуффер**.</span><span class="sxs-lookup"><span data-stu-id="58d47-116">[in] Pointer to an existing MAPI buffer allocated using **MAPIAllocateBuffer**.</span></span>
+> <span data-ttu-id="c6816-116">[in] Указатель на существующий буфер MAPI, выделенный с помощью **MAPIAllocateBuffer.**</span><span class="sxs-lookup"><span data-stu-id="c6816-116">[in] Pointer to an existing MAPI buffer allocated using **MAPIAllocateBuffer**.</span></span>
     
- <span data-ttu-id="58d47-117">_лппбуффер_</span><span class="sxs-lookup"><span data-stu-id="58d47-117">_lppBuffer_</span></span>
+ <span data-ttu-id="c6816-117">_lppBuffer_</span><span class="sxs-lookup"><span data-stu-id="c6816-117">_lppBuffer_</span></span>
   
-> <span data-ttu-id="58d47-118">вышли Указатель на возвращаемый, вновь выделенный буфер.</span><span class="sxs-lookup"><span data-stu-id="58d47-118">[out] Pointer to the returned, newly allocated buffer.</span></span>
+> <span data-ttu-id="c6816-118">[out] Указатель на возвращенный недавно выделенный буфер.</span><span class="sxs-lookup"><span data-stu-id="c6816-118">[out] Pointer to the returned, newly allocated buffer.</span></span>
     
-## <a name="return-value"></a><span data-ttu-id="58d47-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="58d47-119">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="c6816-119">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="c6816-119">Return value</span></span>
 
-<span data-ttu-id="58d47-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="58d47-120">S_OK</span></span> 
+<span data-ttu-id="c6816-120">S_OK</span><span class="sxs-lookup"><span data-stu-id="c6816-120">S_OK</span></span> 
   
-> <span data-ttu-id="58d47-121">Вызов выполнен успешно и возвращен указатель на запрошенный объем памяти.</span><span class="sxs-lookup"><span data-stu-id="58d47-121">The call succeeded and has returned a pointer to the requested memory.</span></span>
+> <span data-ttu-id="c6816-121">Вызов был успешным и возвращен указатель на запрашиваемую память.</span><span class="sxs-lookup"><span data-stu-id="c6816-121">The call succeeded and has returned a pointer to the requested memory.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="58d47-122">Примечания</span><span class="sxs-lookup"><span data-stu-id="58d47-122">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c6816-122">Примечания</span><span class="sxs-lookup"><span data-stu-id="c6816-122">Remarks</span></span>
 
-<span data-ttu-id="58d47-123">Во время обработки вызовов **мапиаллокатеморе** вызывающая реализация получает блок памяти из операционной системы.</span><span class="sxs-lookup"><span data-stu-id="58d47-123">During **MAPIAllocateMore** call processing, the calling implementation acquires a block of memory from the operating system.</span></span> <span data-ttu-id="58d47-124">Буфер памяти выделяется на байтовый адрес с четным номером.</span><span class="sxs-lookup"><span data-stu-id="58d47-124">The memory buffer is allocated on an even-numbered byte address.</span></span> <span data-ttu-id="58d47-125">На платформах, где доступ к долговременному целому числу эффективнее, операционная система выделяет буфер на адресе, размер которого в байтах равен четырем.</span><span class="sxs-lookup"><span data-stu-id="58d47-125">On platforms where long integer access is more efficient, the operating system allocates the buffer on an address whose size in bytes is a multiple of four.</span></span> 
+<span data-ttu-id="c6816-123">Во время обработки вызовов **MAPIAllocateMore** реализация вызова получает блок памяти из операционной системы.</span><span class="sxs-lookup"><span data-stu-id="c6816-123">During **MAPIAllocateMore** call processing, the calling implementation acquires a block of memory from the operating system.</span></span> <span data-ttu-id="c6816-124">Буфер памяти выделяется для even-numbered byte address.</span><span class="sxs-lookup"><span data-stu-id="c6816-124">The memory buffer is allocated on an even-numbered byte address.</span></span> <span data-ttu-id="c6816-125">На платформах, где длинный полный доступ более эффективен, операционная система выделяет буфер на адресе, размер которого в кратном размере кратно четырем.</span><span class="sxs-lookup"><span data-stu-id="c6816-125">On platforms where long integer access is more efficient, the operating system allocates the buffer on an address whose size in bytes is a multiple of four.</span></span> 
   
-<span data-ttu-id="58d47-126">Единственный способ освободить буфер, выделенный с помощью **мапиаллокатеморе** , — передать указатель буфера, указанный в параметре _лпобжект_ , в функцию [мапифрибуффер](mapifreebuffer.md) .</span><span class="sxs-lookup"><span data-stu-id="58d47-126">The only way to release a buffer allocated with **MAPIAllocateMore** is to pass the buffer pointer specified in the  _lpObject_ parameter to the [MAPIFreeBuffer](mapifreebuffer.md) function.</span></span> <span data-ttu-id="58d47-127">Связь между буферами памяти, выделенными с помощью [мапиаллокатебуффер](mapiallocatebuffer.md) и **Мапиаллокатеморе** , позволяет **мапифрибуффер** освобождать оба буфера с помощью одного вызова.</span><span class="sxs-lookup"><span data-stu-id="58d47-127">The link between the memory buffers allocated with [MAPIAllocateBuffer](mapiallocatebuffer.md) and **MAPIAllocateMore** enables **MAPIFreeBuffer** to release both buffers with a single call.</span></span> 
+<span data-ttu-id="c6816-126">Единственный способ освободить буфер, выделенный с помощью **MAPIAllocateMore,** — передать указатель буфера, указанный в параметре _lpObject,_ функции [MAPIFreeBuffer.](mapifreebuffer.md)</span><span class="sxs-lookup"><span data-stu-id="c6816-126">The only way to release a buffer allocated with **MAPIAllocateMore** is to pass the buffer pointer specified in the  _lpObject_ parameter to the [MAPIFreeBuffer](mapifreebuffer.md) function.</span></span> <span data-ttu-id="c6816-127">Связь между буферами памяти, выделенными с помощью [MAPIAllocateBuffer](mapiallocatebuffer.md) и **MAPIAllocateMore,** позволяет **MAPIFreeBuffer** освободить оба буфера одним вызовом.</span><span class="sxs-lookup"><span data-stu-id="c6816-127">The link between the memory buffers allocated with [MAPIAllocateBuffer](mapiallocatebuffer.md) and **MAPIAllocateMore** enables **MAPIFreeBuffer** to release both buffers with a single call.</span></span> 
   
 

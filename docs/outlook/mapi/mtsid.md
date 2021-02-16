@@ -19,18 +19,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33435175"
 ---
-# <a name="mtsid"></a><span data-ttu-id="f484a-103">MTSID</span><span class="sxs-lookup"><span data-stu-id="f484a-103">MTSID</span></span>
+# <a name="mtsid"></a><span data-ttu-id="3a141-103">MTSID</span><span class="sxs-lookup"><span data-stu-id="3a141-103">MTSID</span></span>
 
   
   
-<span data-ttu-id="f484a-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f484a-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="3a141-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3a141-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="f484a-105">Содержит идентификатор записи системы передачи сообщений X. 400 (MTS).</span><span class="sxs-lookup"><span data-stu-id="f484a-105">Contains an X.400 message transport system (MTS) entry identifier.</span></span> 
+<span data-ttu-id="3a141-105">Содержит идентификатор записи транспортной системы сообщений (MTS) X.400.</span><span class="sxs-lookup"><span data-stu-id="3a141-105">Contains an X.400 message transport system (MTS) entry identifier.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="f484a-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="f484a-106">Header file:</span></span>  <br/> |<span data-ttu-id="f484a-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="f484a-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="f484a-108">Связанные макросы:</span><span class="sxs-lookup"><span data-stu-id="f484a-108">Related macros:</span></span>  <br/> |<span data-ttu-id="f484a-109">[Кбмтсид](cbmtsid.md), [кбневмтсид](cbnewmtsid.md)</span><span class="sxs-lookup"><span data-stu-id="f484a-109">[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md)</span></span> <br/> |
+|<span data-ttu-id="3a141-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="3a141-106">Header file:</span></span>  <br/> |<span data-ttu-id="3a141-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="3a141-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="3a141-108">Связанные макросы:</span><span class="sxs-lookup"><span data-stu-id="3a141-108">Related macros:</span></span>  <br/> |<span data-ttu-id="3a141-109">[CbMTSID,](cbmtsid.md) [CbNewMTSID](cbnewmtsid.md)</span><span class="sxs-lookup"><span data-stu-id="3a141-109">[CbMTSID](cbmtsid.md), [CbNewMTSID](cbnewmtsid.md)</span></span> <br/> |
    
 ```cpp
 typedef struct
@@ -41,30 +41,30 @@ typedef struct
 
 ```
 
-## <a name="members"></a><span data-ttu-id="f484a-110">"Участники"</span><span class="sxs-lookup"><span data-stu-id="f484a-110">Members</span></span>
+## <a name="members"></a><span data-ttu-id="3a141-110">"Участники"</span><span class="sxs-lookup"><span data-stu-id="3a141-110">Members</span></span>
 
- <span data-ttu-id="f484a-111">**cb**</span><span class="sxs-lookup"><span data-stu-id="f484a-111">**cb**</span></span>
+ <span data-ttu-id="3a141-111">**cb**</span><span class="sxs-lookup"><span data-stu-id="3a141-111">**cb**</span></span>
   
-> <span data-ttu-id="f484a-112">Количество байтов в массиве, описываемом элементом **абентри** .</span><span class="sxs-lookup"><span data-stu-id="f484a-112">Count of bytes in the array described by the **abEntry** member.</span></span> 
+> <span data-ttu-id="3a141-112">Количество в массиве, описываемом членом **abEntry, в массиве.**</span><span class="sxs-lookup"><span data-stu-id="3a141-112">Count of bytes in the array described by the **abEntry** member.</span></span> 
     
- <span data-ttu-id="f484a-113">**абентри**</span><span class="sxs-lookup"><span data-stu-id="f484a-113">**abEntry**</span></span>
+ <span data-ttu-id="3a141-113">**abEntry**</span><span class="sxs-lookup"><span data-stu-id="3a141-113">**abEntry**</span></span>
   
-> <span data-ttu-id="f484a-114">Массив байтов, который содержит данные идентификатора записи MTS.</span><span class="sxs-lookup"><span data-stu-id="f484a-114">Byte array that contains the MTS entry identifier data.</span></span>
+> <span data-ttu-id="3a141-114">Массив byte, содержащий данные идентификатора записи MTS.</span><span class="sxs-lookup"><span data-stu-id="3a141-114">Byte array that contains the MTS entry identifier data.</span></span>
     
-## <a name="remarks"></a><span data-ttu-id="f484a-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="f484a-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="3a141-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="3a141-115">Remarks</span></span>
 
-<span data-ttu-id="f484a-116">Структура **мтсид** используется только для сопоставлений X. 400 идентификаторов записей MAPI.</span><span class="sxs-lookup"><span data-stu-id="f484a-116">The **MTSID** structure is used only for X.400 mappings of MAPI entry identifiers.</span></span> <span data-ttu-id="f484a-117">Он соответствует структуре MAPI [флатентри](flatentry.md) .</span><span class="sxs-lookup"><span data-stu-id="f484a-117">It corresponds to the MAPI [FLATENTRY](flatentry.md) structure.</span></span> 
+<span data-ttu-id="3a141-116">Структура **MTSID** используется только для сопоставлений X.400 идентификаторов записей MAPI.</span><span class="sxs-lookup"><span data-stu-id="3a141-116">The **MTSID** structure is used only for X.400 mappings of MAPI entry identifiers.</span></span> <span data-ttu-id="3a141-117">Он соответствует структуре MAPI [FLATENTRY.](flatentry.md)</span><span class="sxs-lookup"><span data-stu-id="3a141-117">It corresponds to the MAPI [FLATENTRY](flatentry.md) structure.</span></span> 
   
-<span data-ttu-id="f484a-118">Идентификатор MTS имеет тот же формат, что и идентификатор записи MAPI, или двоичное значение свойства.</span><span class="sxs-lookup"><span data-stu-id="f484a-118">An MTS identifier has the same format as a MAPI entry identifier or a binary property value.</span></span> <span data-ttu-id="f484a-119">Идентификаторы MTS могут быть особенно полезными для отмены отложенных сообщений.</span><span class="sxs-lookup"><span data-stu-id="f484a-119">MTS identifiers can be particularly useful for canceling deferred messages.</span></span> 
+<span data-ttu-id="3a141-118">Идентификатор MTS имеет тот же формат, что и идентификатор записи MAPI или двоичное значение свойства.</span><span class="sxs-lookup"><span data-stu-id="3a141-118">An MTS identifier has the same format as a MAPI entry identifier or a binary property value.</span></span> <span data-ttu-id="3a141-119">Идентификаторы MTS могут быть особенно полезны при отмене отложенных сообщений.</span><span class="sxs-lookup"><span data-stu-id="3a141-119">MTS identifiers can be particularly useful for canceling deferred messages.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="f484a-120">См. также</span><span class="sxs-lookup"><span data-stu-id="f484a-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3a141-120">См. также</span><span class="sxs-lookup"><span data-stu-id="3a141-120">See also</span></span>
 
 
 
-[<span data-ttu-id="f484a-121">FLATENTRY</span><span class="sxs-lookup"><span data-stu-id="f484a-121">FLATENTRY</span></span>](flatentry.md)
+[<span data-ttu-id="3a141-121">FLATENTRY</span><span class="sxs-lookup"><span data-stu-id="3a141-121">FLATENTRY</span></span>](flatentry.md)
   
-[<span data-ttu-id="f484a-122">FLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="f484a-122">FLATMTSIDLIST</span></span>](flatmtsidlist.md)
+[<span data-ttu-id="3a141-122">FLATMTSIDLIST</span><span class="sxs-lookup"><span data-stu-id="3a141-122">FLATMTSIDLIST</span></span>](flatmtsidlist.md)
 
 
-[<span data-ttu-id="f484a-123">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="f484a-123">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="3a141-123">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="3a141-123">MAPI Structures</span></span>](mapi-structures.md)
 

@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: a0fd2123-7c7a-40f3-8249-af2c9e9f272c
-description: В этом разделе представлены справочные материалы по API, экспортируемых в Outlook.
+description: В этом разделе содержится справочный контент для API, экспортируемого Outlook.
 ms.openlocfilehash: 9c8adb8d23dfc44bf739cd5b980204611fb4dd31
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33434314"
 ---
-# <a name="outlook-exported-apis"></a><span data-ttu-id="c24e8-103">Экспортированные API Outlook</span><span class="sxs-lookup"><span data-stu-id="c24e8-103">Outlook exported APIs</span></span>
+# <a name="outlook-exported-apis"></a><span data-ttu-id="4f1ab-103">Экспортированные API Outlook</span><span class="sxs-lookup"><span data-stu-id="4f1ab-103">Outlook exported APIs</span></span>
 
-<span data-ttu-id="c24e8-104">В этом разделе представлены справочные материалы по API, экспортируемых в Outlook.</span><span class="sxs-lookup"><span data-stu-id="c24e8-104">This section provides reference content for the APIs that Outlook exports.</span></span>
+<span data-ttu-id="4f1ab-104">В этом разделе содержится справочный контент для API, экспортируемого Outlook.</span><span class="sxs-lookup"><span data-stu-id="4f1ab-104">This section provides reference content for the APIs that Outlook exports.</span></span>
 
-- [<span data-ttu-id="c24e8-105">Константы</span><span class="sxs-lookup"><span data-stu-id="c24e8-105">Constants</span></span>](constants-outlook-exported-apis.md)
+- [<span data-ttu-id="4f1ab-105">Константы</span><span class="sxs-lookup"><span data-stu-id="4f1ab-105">Constants</span></span>](constants-outlook-exported-apis.md)
     
-- [<span data-ttu-id="c24e8-106">Data Types</span><span class="sxs-lookup"><span data-stu-id="c24e8-106">Data Types</span></span>](data-types-outlook-exported-apis.md)
+- [<span data-ttu-id="4f1ab-106">Data Types</span><span class="sxs-lookup"><span data-stu-id="4f1ab-106">Data Types</span></span>](data-types-outlook-exported-apis.md)
     
-- [<span data-ttu-id="c24e8-107">Functions</span><span class="sxs-lookup"><span data-stu-id="c24e8-107">Functions</span></span>](functions-outlook-exported-apis.md)
+- [<span data-ttu-id="4f1ab-107">Functions</span><span class="sxs-lookup"><span data-stu-id="4f1ab-107">Functions</span></span>](functions-outlook-exported-apis.md)
     
-- [<span data-ttu-id="c24e8-108">Интерфейсы</span><span class="sxs-lookup"><span data-stu-id="c24e8-108">Interfaces</span></span>](interfaces-outlook-exported-apis.md)
+- [<span data-ttu-id="4f1ab-108">Интерфейсы</span><span class="sxs-lookup"><span data-stu-id="4f1ab-108">Interfaces</span></span>](interfaces-outlook-exported-apis.md)
     
-- [<span data-ttu-id="c24e8-109">Доступные события и их идентификаторы DISPID (экспортированные API Outlook)</span><span class="sxs-lookup"><span data-stu-id="c24e8-109">Available events and their dispids (Outlook exported APIs)</span></span>](available-events-and-their-dispids-outlook-exported-apis.md)
+- [<span data-ttu-id="4f1ab-109">Доступные события и их dispids (экспортные API Outlook)</span><span class="sxs-lookup"><span data-stu-id="4f1ab-109">Available events and their dispids (Outlook exported APIs)</span></span>](available-events-and-their-dispids-outlook-exported-apis.md)
     
 

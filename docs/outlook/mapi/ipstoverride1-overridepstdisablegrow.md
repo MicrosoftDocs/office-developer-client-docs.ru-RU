@@ -19,29 +19,29 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438927"
 ---
-# <a name="ipstoverride1overridepstdisablegrow"></a><span data-ttu-id="99e51-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span><span class="sxs-lookup"><span data-stu-id="99e51-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span></span>
+# <a name="ipstoverride1overridepstdisablegrow"></a><span data-ttu-id="4a363-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span><span class="sxs-lookup"><span data-stu-id="4a363-103">IPSTOVERRIDE1::OverridePSTDisableGrow</span></span>
 
   
   
-<span data-ttu-id="99e51-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="99e51-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="4a363-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="4a363-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="99e51-105">Разблокирует файл личных папок (PST) для сеанса, переопределяя политику Пстдисаблегров.</span><span class="sxs-lookup"><span data-stu-id="99e51-105">Unlocks a Personal Folders (.pst) file for a session, overriding the PSTDisableGrow policy.</span></span>
+<span data-ttu-id="4a363-105">Разблокирует PST-файл для сеанса, переопределяя политику PSTDisableGrow.</span><span class="sxs-lookup"><span data-stu-id="4a363-105">Unlocks a Personal Folders (.pst) file for a session, overriding the PSTDisableGrow policy.</span></span>
   
 ```cpp
 HRESULT OverridePSTDisableGrow();
 ```
 
-## <a name="return-value"></a><span data-ttu-id="99e51-106">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="99e51-106">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="4a363-106">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="4a363-106">Return value</span></span>
 
-<span data-ttu-id="99e51-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="99e51-107">S_OK</span></span>
+<span data-ttu-id="4a363-107">S_OK</span><span class="sxs-lookup"><span data-stu-id="4a363-107">S_OK</span></span>
   
-> <span data-ttu-id="99e51-108">Вызов функции выполнен успешно.</span><span class="sxs-lookup"><span data-stu-id="99e51-108">The function call was successful.</span></span>
+> <span data-ttu-id="4a363-108">Вызов функции был успешным.</span><span class="sxs-lookup"><span data-stu-id="4a363-108">The function call was successful.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="99e51-109">См. также</span><span class="sxs-lookup"><span data-stu-id="99e51-109">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="4a363-109">См. также</span><span class="sxs-lookup"><span data-stu-id="4a363-109">See also</span></span>
 
 
 
-[<span data-ttu-id="99e51-110">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="99e51-110">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md)
+[<span data-ttu-id="4a363-110">IPSTOVERRIDE1 : IUnknown</span><span class="sxs-lookup"><span data-stu-id="4a363-110">IPSTOVERRIDE1 : IUnknown</span></span>](ipstoverride1iunknown.md)
   
-[<span data-ttu-id="99e51-111">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="99e51-111">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
+[<span data-ttu-id="4a363-111">IPSTOVERRIDEREQ : IUnknown</span><span class="sxs-lookup"><span data-stu-id="4a363-111">IPSTOVERRIDEREQ : IUnknown</span></span>](ipstoverridereqiunknown.md)
 

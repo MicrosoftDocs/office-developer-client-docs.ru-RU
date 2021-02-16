@@ -19,53 +19,53 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437345"
 ---
-# <a name="pidtagcommonviewsentryid-canonical-property"></a><span data-ttu-id="ef886-103">Каноническое свойство PidTagCommonViewsEntryId</span><span class="sxs-lookup"><span data-stu-id="ef886-103">PidTagCommonViewsEntryId Canonical Property</span></span>
+# <a name="pidtagcommonviewsentryid-canonical-property"></a><span data-ttu-id="de986-103">Каноническое свойство PidTagCommonViewsEntryId</span><span class="sxs-lookup"><span data-stu-id="de986-103">PidTagCommonViewsEntryId Canonical Property</span></span>
 
   
   
-<span data-ttu-id="ef886-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="ef886-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="de986-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="de986-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="ef886-105">Содержит идентификатор предварительно определенной папки общего представления.</span><span class="sxs-lookup"><span data-stu-id="ef886-105">Contains the entry identifier of the predefined common view folder.</span></span> 
+<span data-ttu-id="de986-105">Содержит идентификатор записи предопределяемой общей папки представления.</span><span class="sxs-lookup"><span data-stu-id="de986-105">Contains the entry identifier of the predefined common view folder.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="ef886-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="ef886-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="ef886-107">PR_COMMON_VIEWS_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="ef886-107">PR_COMMON_VIEWS_ENTRYID</span></span>  <br/> |
-|<span data-ttu-id="ef886-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="ef886-108">Identifier:</span></span>  <br/> |<span data-ttu-id="ef886-109">0x35E6</span><span class="sxs-lookup"><span data-stu-id="ef886-109">0x35E6</span></span>  <br/> |
-|<span data-ttu-id="ef886-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="ef886-110">Data type:</span></span>  <br/> |<span data-ttu-id="ef886-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="ef886-111">PT_BINARY</span></span>  <br/> |
-|<span data-ttu-id="ef886-112">Область:</span><span class="sxs-lookup"><span data-stu-id="ef886-112">Area:</span></span>  <br/> |<span data-ttu-id="ef886-113">Приложение Outlook</span><span class="sxs-lookup"><span data-stu-id="ef886-113">Outlook application</span></span>  <br/> |
+|<span data-ttu-id="de986-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="de986-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="de986-107">PR_COMMON_VIEWS_ENTRYID</span><span class="sxs-lookup"><span data-stu-id="de986-107">PR_COMMON_VIEWS_ENTRYID</span></span>  <br/> |
+|<span data-ttu-id="de986-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="de986-108">Identifier:</span></span>  <br/> |<span data-ttu-id="de986-109">0x35E6</span><span class="sxs-lookup"><span data-stu-id="de986-109">0x35E6</span></span>  <br/> |
+|<span data-ttu-id="de986-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="de986-110">Data type:</span></span>  <br/> |<span data-ttu-id="de986-111">PT_BINARY</span><span class="sxs-lookup"><span data-stu-id="de986-111">PT_BINARY</span></span>  <br/> |
+|<span data-ttu-id="de986-112">Область:</span><span class="sxs-lookup"><span data-stu-id="de986-112">Area:</span></span>  <br/> |<span data-ttu-id="de986-113">Приложение Outlook</span><span class="sxs-lookup"><span data-stu-id="de986-113">Outlook application</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="ef886-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="ef886-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="de986-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="de986-114">Remarks</span></span>
 
-<span data-ttu-id="ef886-115">Папка общего представления содержит предопределенный набор стандартных описателей представлений, в то время как папка представления содержит описатели, определенные пользователем обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="ef886-115">The common view folder contains a predefined set of standard view specifiers, while the view folder contains specifiers defined by a messaging user.</span></span> <span data-ttu-id="ef886-116">Эти папки, которые не отображаются в иерархии взаимосвязанных сообщений (IPM), могут содержать множество описателей представлений, каждый из которых хранится в виде сообщения.</span><span class="sxs-lookup"><span data-stu-id="ef886-116">These folders, which are not visible in the interpersonal message (IPM) hierarchy, can hold many view specifiers, each one stored as a message.</span></span> <span data-ttu-id="ef886-117">Клиентское приложение может объединить два набора описателей и сделать их доступными.</span><span class="sxs-lookup"><span data-stu-id="ef886-117">A client application can choose to merge the two sets of specifiers and make them both available.</span></span> 
+<span data-ttu-id="de986-115">Общая папка представления содержит предварительно определенный набор стандартных определителей представления, а папка представления содержит определители, определенные пользователем системы обмена сообщениями.</span><span class="sxs-lookup"><span data-stu-id="de986-115">The common view folder contains a predefined set of standard view specifiers, while the view folder contains specifiers defined by a messaging user.</span></span> <span data-ttu-id="de986-116">В этих папках, которые не видны в иерархии межличностных сообщений (IPM), может храниться множество о указаний представления, каждая из которых хранится в качестве сообщения.</span><span class="sxs-lookup"><span data-stu-id="de986-116">These folders, which are not visible in the interpersonal message (IPM) hierarchy, can hold many view specifiers, each one stored as a message.</span></span> <span data-ttu-id="de986-117">Клиентские приложения могут объединить два набора о указаний и сделать их доступными.</span><span class="sxs-lookup"><span data-stu-id="de986-117">A client application can choose to merge the two sets of specifiers and make them both available.</span></span> 
   
-<span data-ttu-id="ef886-118">Дополнительные сведения о представлениях приведены в статье [Просмотр папок](mapi-view-folders.md).</span><span class="sxs-lookup"><span data-stu-id="ef886-118">For more information on views, see [View Folders](mapi-view-folders.md).</span></span>
+<span data-ttu-id="de986-118">Дополнительные сведения о представлениях см. в [просмотре папок.](mapi-view-folders.md)</span><span class="sxs-lookup"><span data-stu-id="de986-118">For more information on views, see [View Folders](mapi-view-folders.md).</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="ef886-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="ef886-119">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="de986-119">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="de986-119">Related resources</span></span>
 
-### <a name="header-files"></a><span data-ttu-id="ef886-120">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="ef886-120">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="de986-120">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="de986-120">Header files</span></span>
 
-<span data-ttu-id="ef886-121">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="ef886-121">Mapidefs.h</span></span>
+<span data-ttu-id="de986-121">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="de986-121">Mapidefs.h</span></span>
   
-> <span data-ttu-id="ef886-122">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="ef886-122">Provides data type definitions.</span></span>
+> <span data-ttu-id="de986-122">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="de986-122">Provides data type definitions.</span></span>
     
-<span data-ttu-id="ef886-123">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="ef886-123">Mapitags.h</span></span>
+<span data-ttu-id="de986-123">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="de986-123">Mapitags.h</span></span>
   
-> <span data-ttu-id="ef886-124">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="ef886-124">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="de986-124">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="de986-124">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="ef886-125">См. также</span><span class="sxs-lookup"><span data-stu-id="ef886-125">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="de986-125">См. также</span><span class="sxs-lookup"><span data-stu-id="de986-125">See also</span></span>
 
 
 
-[<span data-ttu-id="ef886-126">Каноническое свойство PidTagDefaultViewEntryId</span><span class="sxs-lookup"><span data-stu-id="ef886-126">PidTagDefaultViewEntryId Canonical Property</span></span>](pidtagdefaultviewentryid-canonical-property.md)
+[<span data-ttu-id="de986-126">Каноническое свойство PidTagDefaultViewEntryId</span><span class="sxs-lookup"><span data-stu-id="de986-126">PidTagDefaultViewEntryId Canonical Property</span></span>](pidtagdefaultviewentryid-canonical-property.md)
   
-[<span data-ttu-id="ef886-127">Каноническое свойство PidTagViewsEntryId</span><span class="sxs-lookup"><span data-stu-id="ef886-127">PidTagViewsEntryId Canonical Property</span></span>](pidtagviewsentryid-canonical-property.md)
+[<span data-ttu-id="de986-127">Каноническое свойство PidTagViewsEntryId</span><span class="sxs-lookup"><span data-stu-id="de986-127">PidTagViewsEntryId Canonical Property</span></span>](pidtagviewsentryid-canonical-property.md)
 
 
-[<span data-ttu-id="ef886-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="ef886-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="de986-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="de986-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="ef886-129">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="ef886-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="de986-129">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="de986-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="ef886-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="ef886-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="de986-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="de986-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="ef886-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="ef886-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="de986-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="de986-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

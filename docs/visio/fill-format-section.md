@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251239
 localization_priority: Normal
 ms.assetid: 2435046a-ee0b-7a23-de85-bf70c125218c
-description: Показывает текущие атрибуты форматирования заливки фигуры и тень фигуры, в том числе узор, цвет переднего плана и цвет фона.
+description: Показывает текущие атрибуты форматирования заливки для фигуры и тени для отпадания фигуры, включая шаблон, цвет переднего плана и цвет фона.
 ms.openlocfilehash: c5364ec2f944a32bd24d1dde202b09798132d3d6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,12 +16,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33437926"
 ---
-# <a name="fill-format-section"></a><span data-ttu-id="09029-103">Fill Format Section</span><span class="sxs-lookup"><span data-stu-id="09029-103">Fill Format Section</span></span>
+# <a name="fill-format-section"></a><span data-ttu-id="27120-103">Fill Format Section</span><span class="sxs-lookup"><span data-stu-id="27120-103">Fill Format Section</span></span>
 
-<span data-ttu-id="09029-104">Показывает текущие атрибуты форматирования заливки фигуры и тень фигуры, в том числе узор, цвет переднего плана и цвет фона.</span><span class="sxs-lookup"><span data-stu-id="09029-104">Shows the current fill formatting attributes for the shape and the shape's drop shadow, including pattern, foreground color, and background color.</span></span> 
+<span data-ttu-id="27120-104">Отображает текущие атрибуты форматирования заливки для фигуры и тени перепада фигуры, включая шаблон, цвет переднего плана и цвет фона.</span><span class="sxs-lookup"><span data-stu-id="27120-104">Shows the current fill formatting attributes for the shape and the shape's drop shadow, including pattern, foreground color, and background color.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="09029-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="09029-105">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="27120-105">Примечания</span><span class="sxs-lookup"><span data-stu-id="27120-105">Remarks</span></span>
 
-<span data-ttu-id="09029-106">Вы можете задать форматы заливки в области **Формат фигуры** (на вкладке **Главная** , в группе **Стили фигур** нажмите кнопку **Заливка**, а затем выбрать команду **Параметры заливки**), применив стиль заливки или выполнив запись в ячейке в разделе **Формат заливки** .</span><span class="sxs-lookup"><span data-stu-id="09029-106">You can set fill formats in the **Format Shape** pane (on the **Home** tab, in the **Shape Styles** group, click **Fill**, and then click **Fill Options**), by applying a fill style, or by making an entry in a cell in the **Fill Format** section.</span></span> 
+<span data-ttu-id="27120-106">Форматы заливки можно  настроить в области "Формат фигуры"  (на вкладке "Главная", в группе "Стили фигуры" щелкните "Заполнить"  и "Параметры заливки"), применив стиль заливки или сделав запись в ячейке в разделе "Формат заливки".   </span><span class="sxs-lookup"><span data-stu-id="27120-106">You can set fill formats in the **Format Shape** pane (on the **Home** tab, in the **Shape Styles** group, click **Fill**, and then click **Fill Options**), by applying a fill style, or by making an entry in a cell in the **Fill Format** section.</span></span> 
   
 

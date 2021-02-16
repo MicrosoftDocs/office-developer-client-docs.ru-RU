@@ -19,17 +19,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33438885"
 ---
-# <a name="sandrestriction"></a><span data-ttu-id="1134b-103">SAndRestriction</span><span class="sxs-lookup"><span data-stu-id="1134b-103">SAndRestriction</span></span>
+# <a name="sandrestriction"></a><span data-ttu-id="edb3e-103">SAndRestriction</span><span class="sxs-lookup"><span data-stu-id="edb3e-103">SAndRestriction</span></span>
 
   
   
-<span data-ttu-id="1134b-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="1134b-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="edb3e-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="edb3e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="1134b-105">Описывает ограничения **и** ограничения, которые используются для присоединения к группе ограничений с помощью логической операции **и** .</span><span class="sxs-lookup"><span data-stu-id="1134b-105">Describes an **AND** restriction, which is used to join a group of restrictions using a logical **AND** operation.</span></span> 
+<span data-ttu-id="edb3e-105">Описывает ограничение **AND,** которое используется для присоединить группу ограничений с помощью логической **операции AND.**</span><span class="sxs-lookup"><span data-stu-id="edb3e-105">Describes an **AND** restriction, which is used to join a group of restrictions using a logical **AND** operation.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="1134b-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="1134b-106">Header file:</span></span>  <br/> |<span data-ttu-id="1134b-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="1134b-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="edb3e-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="edb3e-106">Header file:</span></span>  <br/> |<span data-ttu-id="edb3e-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="edb3e-107">Mapidefs.h</span></span>  <br/> |
    
 ```cpp
 typedef struct _SAndRestriction
@@ -40,28 +40,28 @@ typedef struct _SAndRestriction
 
 ```
 
-## <a name="members"></a><span data-ttu-id="1134b-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="1134b-108">Members</span></span>
+## <a name="members"></a><span data-ttu-id="edb3e-108">"Участники"</span><span class="sxs-lookup"><span data-stu-id="edb3e-108">Members</span></span>
 
- <span data-ttu-id="1134b-109">**крес**</span><span class="sxs-lookup"><span data-stu-id="1134b-109">**cRes**</span></span>
+ <span data-ttu-id="edb3e-109">**cRes**</span><span class="sxs-lookup"><span data-stu-id="edb3e-109">**cRes**</span></span>
   
-> <span data-ttu-id="1134b-110">Число ограничений поиска в массиве, на который указывает элемент **лпрес** .</span><span class="sxs-lookup"><span data-stu-id="1134b-110">Count of search restrictions in the array pointed to by the **lpRes** member.</span></span> 
+> <span data-ttu-id="edb3e-110">Количество ограничений поиска в массиве, на который указывает **член lpRes.**</span><span class="sxs-lookup"><span data-stu-id="edb3e-110">Count of search restrictions in the array pointed to by the **lpRes** member.</span></span> 
     
- <span data-ttu-id="1134b-111">**лпрес**</span><span class="sxs-lookup"><span data-stu-id="1134b-111">**lpRes**</span></span>
+ <span data-ttu-id="edb3e-111">**lpRes**</span><span class="sxs-lookup"><span data-stu-id="edb3e-111">**lpRes**</span></span>
   
-> <span data-ttu-id="1134b-112">Указатель на массив структур [срестриктион](srestriction.md) , которые будут объединены с логической операцией **and** .</span><span class="sxs-lookup"><span data-stu-id="1134b-112">Pointer to an array of [SRestriction](srestriction.md) structures that will be combined with a logical **AND** operation.</span></span> 
+> <span data-ttu-id="edb3e-112">Указатель на массив структур [SRestriction,](srestriction.md) которые будут объединены с логической операцией **AND.**</span><span class="sxs-lookup"><span data-stu-id="edb3e-112">Pointer to an array of [SRestriction](srestriction.md) structures that will be combined with a logical **AND** operation.</span></span> 
     
-## <a name="remarks"></a><span data-ttu-id="1134b-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="1134b-113">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="edb3e-113">Примечания</span><span class="sxs-lookup"><span data-stu-id="edb3e-113">Remarks</span></span>
 
-<span data-ttu-id="1134b-114">Результат **сандрестриктион** имеет значение true, если все его дочерние ограничения оцениваются как true.</span><span class="sxs-lookup"><span data-stu-id="1134b-114">The result of the **SAndRestriction** is TRUE if all its child restrictions evaluate to TRUE.</span></span> <span data-ttu-id="1134b-115">Имеет значение FALSE, если любое дочернее ограничение имеет значение FALSE.</span><span class="sxs-lookup"><span data-stu-id="1134b-115">It is FALSE if any child restriction evaluates to FALSE.</span></span> 
+<span data-ttu-id="edb3e-114">Результат **SAndRestriction имеет** true, если все его ограничения для всех его child-ограничений оцениваются как TRUE.</span><span class="sxs-lookup"><span data-stu-id="edb3e-114">The result of the **SAndRestriction** is TRUE if all its child restrictions evaluate to TRUE.</span></span> <span data-ttu-id="edb3e-115">Если для какого-либо из ограничений имеется уровень FALSE, то имеется false.</span><span class="sxs-lookup"><span data-stu-id="edb3e-115">It is FALSE if any child restriction evaluates to FALSE.</span></span> 
   
-<span data-ttu-id="1134b-116">Описание типов ограничений, их построения и пример кода приведено в разделе [ограничения](about-restrictions.md).</span><span class="sxs-lookup"><span data-stu-id="1134b-116">For a description of types of restrictions, how to build them, and sample code, see [About Restrictions](about-restrictions.md).</span></span>
+<span data-ttu-id="edb3e-116">Описание типов ограничений, их сборки и пример кода см. в [описании ограничений.](about-restrictions.md)</span><span class="sxs-lookup"><span data-stu-id="edb3e-116">For a description of types of restrictions, how to build them, and sample code, see [About Restrictions](about-restrictions.md).</span></span>
   
-## <a name="see-also"></a><span data-ttu-id="1134b-117">См. также</span><span class="sxs-lookup"><span data-stu-id="1134b-117">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="edb3e-117">См. также</span><span class="sxs-lookup"><span data-stu-id="edb3e-117">See also</span></span>
 
 
 
-[<span data-ttu-id="1134b-118">SRestriction</span><span class="sxs-lookup"><span data-stu-id="1134b-118">SRestriction</span></span>](srestriction.md)
+[<span data-ttu-id="edb3e-118">SRestriction</span><span class="sxs-lookup"><span data-stu-id="edb3e-118">SRestriction</span></span>](srestriction.md)
 
 
-[<span data-ttu-id="1134b-119">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="1134b-119">MAPI Structures</span></span>](mapi-structures.md)
+[<span data-ttu-id="edb3e-119">Структуры MAPI</span><span class="sxs-lookup"><span data-stu-id="edb3e-119">MAPI Structures</span></span>](mapi-structures.md)
 
