@@ -19,17 +19,17 @@ ms.locfileid: "33410534"
 
 В этом разделе описана инициализация и очистка кода, добавление обработчиков событий, отладка и развертывание шаблонов форм с управляемым кодом, поддержка потоков и работа со службами MSXML из решений InfoPath с управляемым кодом.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 [Инициализация и очистка кода с помощью объектной модели InfoPath 2003](initialization-and-clean-up-code-using-infopath-2003-object-model.md)
   
 > Описываются методы написания кода инициализации и очистки в методах _Startup и _Shutdown для проекта.
     
-[Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Добавление обработера событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
   
 > Описываются методы добавления обработчиков событий и атрибуты, применяемые идентификации обработчиков событий.
     
-[Отладка проектов InfoPath с помощью объектной модели InfoPath 2003](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
+[Отлаживать проекты InfoPath с помощью объектной модели InfoPath 2003](how-to-debug-infopath-projects-using-the-infopath-2003-object-model.md)
   
 > Описываются методы отладки проектов InfoPath с управляемым кодом.
     

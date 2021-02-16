@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - DIALOGMsgProc
 keywords:
-- Функция диалогмсгпрок [Excel 2007]
+- dialogmsgproc function [excel 2007]
 localization_priority: Normal
 ms.assetid: 9a538e83-ba34-4806-bb8c-7cda3beb6b66
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33406516"
 
 **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Эта процедура связана с встроенным диалоговым окном Windows, которое отображается в [фшовдиалог](fshowdialog.md) . Он предоставляет процедуры службы, вызываемые Windows для событий (сообщений), происходящих, когда пользователь работает с одной из кнопок диалогового окна, полей ввода или элементов управления. 
+Эта процедура связана с диалоговом окне Windows, [отображаемом fShowDialog.](fshowdialog.md) Он предоставляет процедуры обслуживания, которые Windows вызвал для событий (сообщений), которые происходят, когда пользователь работает с одной из кнопок диалоговых окон, полей ввода или элементов управления. 
   
 ```cs
 BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lParam);
@@ -30,27 +30,27 @@ BOOL CALLBACK DIALOGMsgProc(HWND hWndDlg, UINT message, WPARAM wParam, LPARAM lP
 
 ## <a name="parameters"></a>Параметры
 
- _хвнддлг_ (**HWND**)
+ _hWndDlg_ (**HWND)**
   
-Содержит дескриптор окна HWND диалогового окна.
+Содержит HWND-окне Windows диалоговых окон.
   
- _Message_ (**uint**)
+ _message_ **(UINT)**
   
 Сообщение, на которое необходимо ответить.
   
- _wParam_ (**wParam**)
+ _wParam_ **(WPARAM)**
   
- _lParam_ (**lParam**)
+ _lParam_ (**LPARAM)**
   
 Аргументы, переданные Windows.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
- **Значение true** , если сообщение обработано, в противном случае — **false** . 
+ **TRUE,** если сообщение обработано, **false,** если нет. 
   
 ### <a name="example"></a>Пример
 
-Исходный `\SAMPLES\GENERIC\GENERIC.C` код для этой функции представлен в разделе. 
+См.  `\SAMPLES\GENERIC\GENERIC.C` исходный код для этой функции. 
   
 ## <a name="see-also"></a>См. также
 

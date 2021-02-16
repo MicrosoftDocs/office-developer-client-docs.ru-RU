@@ -25,7 +25,7 @@ ms.locfileid: "33406054"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит список идентификаторов сообщений, к которым относится сообщение.
+Содержит список идентификаторов сообщений, с которыми связано сообщение.
   
 |||
 |:-----|:-----|
@@ -36,19 +36,19 @@ ms.locfileid: "33406054"
    
 ## <a name="remarks"></a>Примечания
 
-Для идентификаторов используются те же конкретные правила построения, что и для свойства **PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md)).
+Идентификаторы используют те же правила конструкции, что и для свойства **PR_SEARCH_KEY** ([PidTagSearchKey).](pidtagsearchkey-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

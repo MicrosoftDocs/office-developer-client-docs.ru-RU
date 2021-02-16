@@ -45,11 +45,11 @@ ms.locfileid: "33410604"
   
 |**�������� ������� �����**|**��������**|
 |:-----|:-----|
-|**PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md))  <br/> |��� ������ ��� ����������. ������ ��� ������ ������� ������������ ������������ ������ � ������������ � ���������� ������� ������ �����������.  <br/> |
+|**PR_ADDRTYPE** ([PidTagAddressType)](pidtagaddresstype-canonical-property.md)  <br/> |��� ������ ��� ����������. ������ ��� ������ ������� ������������ ������������ ������ � ������������ � ���������� ������� ������ �����������.  <br/> |
 |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |������������ ��� ��� ����������.  <br/> |
-|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress](pidtagemailaddress-canonical-property.md))  <br/> |����� ����������.  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |������������� ������ ��� ������� � ����������.  <br/> |
-|**PR_SEARCH_KEY** ([PidTagSearchKey](pidtagsearchkey-canonical-property.md))  <br/> |�������� ��������� ����, ������������ ��� ������������� ����������.  <br/> |
+|**PR_EMAIL_ADDRESS** ([PidTagEmailAddress)](pidtagemailaddress-canonical-property.md)  <br/> |����� ����������.  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)  <br/> |������������� ������ ��� ������� � ����������.  <br/> |
+|**PR_SEARCH_KEY** ([PidTagSearchKey)](pidtagsearchkey-canonical-property.md)  <br/> |�������� ��������� ����, ������������ ��� ������������� ����������.  <br/> |
    
 MAPI ���������� ���������� ����� �������, ������� �������� ���������� �������� ������� �����. ��� ������ ������ ��������� ������ ����������� ������������� � ������ �������� � ��������� ���������. �������� ������� �� ����� ������ ��������� ������� ����������� ��������� � ������ ������ ����������� ��������.
   

@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 2dde7eec-df3d-723c-db08-7ff0b6107a0b
-description: 'Дата последнего изменения: 02 июля 2012 г.'
+description: 'Last modified: July 02, 2012'
 ms.openlocfilehash: 88716719857cfd623d30a3684fc997ea8019455e
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "33409813"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Идентификатор папки. Он содержит идентификатор записи и другую важную информацию.
+Идентификатор папки. Он содержит идентификатор записи и другую релевантную информацию.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -37,21 +37,21 @@ struct FEID
 
 ## <a name="members"></a>Элементы
 
- _абфлагс_
+ _abFlags_
   
-> Идентификатор записи (4 байта) для папки. Дополнительные сведения об идентификаторах записей MAPI приведены в разделе **[EntryID](entryid.md)**. 
+> 4-byte entry identifier for the folder. Дополнительные сведения об идентификаторах записей MAPI см. в **[entryID.](entryid.md)** 
     
- _Muid_
+ _muid_
   
-> GUID, определяющий поставщика хранилища. Определение типа **мапиуид**можно найти в файле MAPIDEFS. h. 
+> GUID, идентифицирует поставщика магазина. Определение типа **MAPIUID** см. в mapidefs.h. 
     
- _нагляд_
+ _placeholder_
   
-> Этот член зарезервирован для внутреннего использования в Outlook и не поддерживается.
+> Этот член зарезервирован для внутреннего использования Outlook и не поддерживается.
     
- _лтид_
+ _ltid_
   
-> Долгосрочный идентификатор папки.
+> Долгосрочный ИД папки.
     
 ## <a name="see-also"></a>См. также
 
@@ -65,5 +65,5 @@ struct FEID
   
 [UPFLD](upfld.md)
   
-[Синхр](sync.md)
+[SYNC](sync.md)
 

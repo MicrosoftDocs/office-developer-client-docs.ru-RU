@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 70b6ecc8-6be3-0f05-3291-ac5b7f2ecfdb
-description: Возвращает метку учетной записи.
+description: Возвращает отметку учетной записи.
 ms.openlocfilehash: fe3c6e65e12ab62bd1c2ec0245e4a22502f610eb
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,22 +16,22 @@ ms.locfileid: "33408252"
 ---
 # <a name="prop_acct_stamp"></a>PROP_ACCT_STAMP
 
-Возвращает метку учетной записи.
+Возвращает отметку учетной записи.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
+См. [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x000D  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE  <br/> |
 |Тег свойства:  <br/> |0x000D001F  <br/> |
-|Обращения  <br/> |Только для чтения  <br/> |
+|Access:  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Получить это свойство можно с помощью [иолкаккаунт::/Prop](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает **E_OLK_PROP_READ_ONLY**. 
+Получите это свойство с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md). Если клиент пытается установить это свойство, это свойство возвращает E_OLK_PROP_READ_ONLY **.** 
   
 ## <a name="see-also"></a>См. также
 

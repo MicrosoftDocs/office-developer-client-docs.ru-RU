@@ -8,7 +8,7 @@ f1_keywords:
 - vis_sdr.chm1025
 localization_priority: Normal
 ms.assetid: cfa3ecc6-61a8-506c-ba1d-b5e1f757d44f
-description: 'Определяет высоту блока текста. По умолчанию используется следующая формула:'
+description: 'Определяет высоту текстового блока. Формула по умолчанию:'
 ms.openlocfilehash: 8ad17cdf1deca6c4aa81f3388d7c112b4e179e2f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,13 +18,13 @@ ms.locfileid: "33409309"
 ---
 # <a name="txtheight-cell-text-transform-section"></a>TxtHeight Cell (Text Transform Section)
 
-Определяет высоту блока текста. По умолчанию используется следующая формула:
+Определяет высоту текстового блока. Формула по умолчанию:
   
 = Высота \* 1
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку TxtHeight по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
+Чтобы получить ссылку на ячейку TxtHeight по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -35,7 +35,7 @@ ms.locfileid: "33409309"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровтекстксформ** <br/> |
-| Индекс ячейки:  <br/> |**висксформхеигхт** <br/> |
+| Индекс строки:  <br/> |**visRowTextXForm** <br/> |
+| Индекс ячейки:  <br/> |**visXFormHeight** <br/> |
    
 

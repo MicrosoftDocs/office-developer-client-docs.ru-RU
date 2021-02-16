@@ -25,37 +25,37 @@ ms.locfileid: "32360930"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение вложения [RFC3282], которое состоит из соответствующих данных о заголовке и ресурсных ресурсах, используемых почтовыми клиентами на основе Macintosh.
+Содержит значение вложения [RFC3282], состоящее из соответствующих данных вложения и висячих ресурсов, используемых почтовыми клиентами Macintosh.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Дружелюбные имена:  <br/> |Нет  <br/> |
 |Набор свойств:  <br/> |PSETID_Attachment  <br/> |
-|Имя свойства:  <br/> |аттачментмаЦинфо  <br/> |
+|Имя свойства:  <br/> |AttachmentMacInfo  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Для получения дополнительных сведений обратитесь к разделу MS – ОКСКМАИЛ, 2.2.4.2 форматы файлов Apple.
+Дополнительные сведения см. в разделе MS-OXCMAIL 2.2.4.2 Apple File Formats.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
+> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

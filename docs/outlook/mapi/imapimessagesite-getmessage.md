@@ -1,5 +1,5 @@
 ---
-title: имапимессажеситежетмессаже
+title: IMAPIMessageSiteGetMessage
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -35,9 +35,9 @@ HRESULT GetMessage(
 
 ## <a name="parameters"></a>Параметры
 
- _ппмсг_
+ _ppmsg_
   
-> вышли Указатель на указатель на возвращенный интерфейс для сообщения.
+> [out] Указатель на указатель на возвращенный интерфейс сообщения.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,15 +47,15 @@ S_OK
     
 S_FALSE 
   
-> Для вызывающей формы не существует сообщения.
+> В настоящее время для вызываемой формы сообщение не существует.
     
 ## <a name="remarks"></a>Примечания
 
-Формы вызывают метод **имапимессажесите::** , чтобы получить интерфейс сообщения для текущего сообщения. Текущее сообщение это то же сообщение, которое ранее было передано в методе [иперсистмессаже:: инитнев](ipersistmessage-initnew.md), [Иперсистмессаже:: Load](ipersistmessage-load.md)или [иперсистмессаже:: савекомплетед](ipersistmessage-savecompleted.md) . 
+Формы вызвать **метод IMAPIMessageSite::GetMessage,** чтобы получить интерфейс для текущего сообщения. Текущее сообщение это то же сообщение, что и ранее переданное в методе [IPersistMessage::InitNew,](ipersistmessage-initnew.md) [IPersistMessage::Load](ipersistmessage-load.md)или [IPersistMessage::SaveCompleted.](ipersistmessage-savecompleted.md) 
   
- **Возврат возвращает** S_FALSE, если сообщение в настоящее время не существует. Это состояние может происходить после вызовов метода [иперсистмессаже:: хандсоффмессаже](ipersistmessage-handsoffmessage.md) или перед следующим вызовом **Иперсистмессаже:: Load** или **иперсистмессаже:: савекомплетед** . 
+ **GetMessage** возвращает S_FALSE, если сообщение в настоящее время не существует. Это состояние может возникать после вызова метода [IPersistMessage::HandsOffMessage](ipersistmessage-handsoffmessage.md) или до следующего вызова **IPersistMessage::Load** или **IPersistMessage::SaveCompleted.** 
   
-Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).
+Список интерфейсов, связанных с серверами форм, см. в списке [интерфейсов форм MAPI.](mapi-form-interfaces.md)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -63,7 +63,7 @@ S_FALSE
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|Мимапиформвиевер. cpp  <br/> |Кмимапиформвиевер:: @ Session  <br/> |MFCMAPI использует метод **имапимессажесите::-Message** , чтобы возвратить текущий указатель сообщения, если он доступен.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetSession  <br/> |MFCMAPI использует метод **IMAPIMessageSite::GetMessage** для возврата кэшного указателя сообщения, если он доступен.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

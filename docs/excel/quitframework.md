@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - QuitFramework
 keywords:
-- Функция куитфрамеворк
+- функция quitframework
 localization_priority: Normal
 ms.assetid: d17a3efe-c278-4ef1-b8f9-b958ae012361
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33408574"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функция библиотеки Framework, которая не инициализирует библиотеку Framework, которая просто повторно инициализирует структуры данных временной структуры **XLOPER**/ , освобождая**память,** которая уже была выделена. 
+Функция библиотеки Framework, которая не инициализирует библиотеку Framework, которая просто повторно инициализирует временные структуры данных **памяти XLOPER** /  **XLOPER12,** освободив все выделенные объемы памяти. 
   
 ```cs
 short WINAPI QuitFramework(void);

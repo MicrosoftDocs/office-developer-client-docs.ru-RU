@@ -1,5 +1,5 @@
 ---
-title: Справочник по SQL и выражениям Access (пользовательское веб-приложение для Access)
+title: Справочник по SQL и выражениям Access (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
@@ -12,27 +12,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408182"
 ---
-# <a name="access-sql-and-expressions-reference-access-custom-web-app"></a>Справочник по SQL и выражениям Access (пользовательское веб-приложение для Access)
+# <a name="access-sql-and-expressions-reference-access-custom-web-app"></a>Справочник SQL и выражений Access (пользовательское веб-приложение Access)
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-- [Функции преобразования (пользовательское веб-приложение для Access)](conversion-functions-access-custom-web-app.md)
+- [Функции преобразования (пользовательское веб-приложение Access)](conversion-functions-access-custom-web-app.md)
     
-- [Функции баз данных (пользовательское веб-приложение для Access)](database-functions-access-custom-web-app.md)
+- [Функции базы данных (пользовательское веб-приложение Access)](database-functions-access-custom-web-app.md)
     
-- [Функции даты и времени (пользовательское веб-приложение для Access)](date-time-functionsaccess-custom-web-app.md)
+- [Функции даты и времени (пользовательское веб-приложение Access)](date-time-functionsaccess-custom-web-app.md)
     
-- [Функции проверки (пользовательское веб-приложение для Access)](inspection-functions-access-custom-web-app.md)
+- [Функции проверки (пользовательское веб-приложение Access)](inspection-functions-access-custom-web-app.md)
     
-- [Математические функции (пользовательское веб-приложение для Access)](math-functions-access-custom-web-app.md)
+- [Математические функции (пользовательское веб-приложение Access)](math-functions-access-custom-web-app.md)
     
-- [Функции программного процесса (пользовательское веб-приложение для Access)](program-flow-functions-access-custom-web-app.md)
+- [Функции потока программ (пользовательское веб-приложение Access)](program-flow-functions-access-custom-web-app.md)
     
-- [Функции для работы с текстом (пользовательское веб-приложение для Access)](text-functions-access-custom-web-app.md)
+- [Текстовые функции (пользовательское веб-приложение Access)](text-functions-access-custom-web-app.md)
     
-- [Операторы (пользовательское веб-приложение для Access)](operators-access-custom-web-app.md)
+- [Операторы (пользовательское веб-приложение Access)](operators-access-custom-web-app.md)
     
 

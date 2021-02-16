@@ -1,5 +1,5 @@
 ---
-title: Иаттач IMAPIProp
+title: IAttach IMAPIProp
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,27 +25,27 @@ ms.locfileid: "33409092"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Поддерживает и предоставляет доступ к свойствам вложений в сообщениях. Интерфейс **иаттач** не обладает уникальными методами. Более подробную информацию об использовании вложений можно узнать в статье [вложения MAPI](mapi-attachments.md) и [таблицы вложений](attachment-tables.md). 
+Поддерживает и предоставляет доступ к свойствам вложений в сообщениях. Интерфейс **IAttach** не имеет собственных уникальных методов. Дополнительные сведения об использовании вложений см. в таблицах вложений и [вложений](attachment-tables.md) [MAPI.](mapi-attachments.md) 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
-|Предоставлено:  <br/> |Объекты вложений  <br/> |
-|Реализовано в:  <br/> |Поставщики хранилища сообщений  <br/> |
+|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Выставим:  <br/> |Объекты вложений  <br/> |
+|Реализовано в:  <br/> |Поставщики store сообщений  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IAttachment  <br/> |
-|Тип указателя:  <br/> |лпаттач  <br/> |
-|Модель транзакции:  <br/> |Транзакции  <br/> |
+|Тип указателя:  <br/> |LPATTACH  <br/> |
+|Модель транзакций:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
-У этого интерфейса нет уникальных методов.
+Этот интерфейс не имеет уникальных методов.
   
 |**Обязательные свойства**|**Access**|
 |:-----|:-----|
-|**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md))  <br/> |Чтение и запись  <br/> |
-|**PR_RENDERING_POSITION** ([PidTagRenderingPosition](pidtagrenderingposition-canonical-property.md))  <br/> |Чтение и запись  <br/> |
+|**PR_OBJECT_TYPE** ([PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_ATTACH_METHOD** ([PidTagAttachMethod)](pidtagattachmethod-canonical-property.md)  <br/> |Чтение и запись  <br/> |
+|**PR_RENDERING_POSITION** ([PidTagRenderingPosition)](pidtagrenderingposition-canonical-property.md)  <br/> |Чтение и запись  <br/> |
    
 ## <a name="see-also"></a>См. также
 

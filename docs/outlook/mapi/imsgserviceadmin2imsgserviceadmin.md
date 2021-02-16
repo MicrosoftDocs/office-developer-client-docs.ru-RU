@@ -1,5 +1,5 @@
 ---
-title: IMsgServiceAdmin2 Имсгсервицеадмин
+title: IMsgServiceAdmin2 IMsgServiceAdmin
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,22 +29,22 @@ ms.locfileid: "33406873"
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Мапиаукс. h  <br/> |
-|Предоставлено:  <br/> |Объекты администрирования службы сообщений  <br/> |
+|Файл заголовка:  <br/> |Mapiaux.h  <br/> |
+|Выставим:  <br/> |Объекты администрирования службы сообщений  <br/> |
 |Реализовано в:  <br/> |MAPI  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMsgServiceAdmin2  <br/> |
 |Тип указателя:  <br/> |LPSERVICEADMIN2  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[креатемсгсервицеекс](imsgserviceadmin2-createmsgserviceex.md) <br/> |Добавляет службу сообщений в текущий профиль и возвращает только что добавленный идентификатор UID службы.  <br/> |
+|[CreateMsgServiceEx](imsgserviceadmin2-createmsgserviceex.md) <br/> |Добавляет службу сообщений в текущий профиль и возвращает новый UID службы.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Интерфейс **IMsgServiceAdmin2** предоставляется теми же объектами, которые предоставляют интерфейс [имсгсервицеадмин](imsgserviceadminiunknown.md) , и был доступен с помощью реализации Outlook подсистемы MAPI с момента выпуска Microsoft Outlook 2003. 
+Интерфейс **IMsgServiceAdmin2** предоставляется тем же объектом, что и интерфейс [IMsgServiceAdmin,](imsgserviceadminiunknown.md) и был доступен с помощью реализации подсистемы MAPI в Outlook, начиная с Microsoft Outlook 2003. 
   
 ## <a name="see-also"></a>См. также
 

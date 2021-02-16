@@ -25,26 +25,26 @@ ms.locfileid: "33410093"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит отображаемое имя поставщика.
+Содержит отображаемую имя поставщика.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A PR_PROVIDER_DISPLAY_NAME_W  <br/> |
+|Связанные свойства:  <br/> |PR_PROVIDER_DISPLAY_NAME, PR_PROVIDER_DISPLAY_NAME_A, PR_PROVIDER_DISPLAY_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x3418  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Хранилище сообщений MAPI  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -52,7 +52,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

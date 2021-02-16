@@ -1,5 +1,5 @@
 ---
-title: Просмотр папки "Входящие"
+title: Обход папки "Входящие"
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,36 +15,36 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33406558"
 ---
-# <a name="traversing-the-inbox-folder"></a>Просмотр папки "Входящие"
+# <a name="traversing-the-inbox-folder"></a>Обход папки "Входящие"
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
- **Циклическое переключение между всеми сообщениями в папке "Входящие"**
+ **Циклия всех сообщений в почтовой ящике**
   
-1. Call [IMsgStore:: жетрецеивефолдер](imsgstore-getreceivefolder.md) для получения идентификатора записи папки "Входящие". 
+1. Вызовите [IMsgStore::GetReceiveFolder,](imsgstore-getreceivefolder.md) чтобы получить идентификатор записи для входящих сообщений. 
     
-2. Call **IMAPIFolder:: OpenEntry** для открытия папки "Входящие". 
+2. Вызовите **IMAPIFolder::OpenEntry,** чтобы открыть "Входящие". 
     
-3. Вызовите метод [IMAPIContainer:: жетконтентстабле](imapicontainer-getcontentstable.md) из папки "Входящие" для получения таблицы содержимого. 
+3. Вызовите метод [IMAPIContainer::GetContentsTable](imapicontainer-getcontentstable.md) для извлечения таблицы содержимого. 
     
-4. Вызовите таблицу содержимого: метод [IMAPITable:: метода SetColumns](imapitable-setcolumns.md) , чтобы ограничить набор столбцов значением **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) и любыми другими нужными столбцами. 
+4. Вызовите метод [IMAPITable::SetColumns](imapitable-setcolumns.md) таблицы содержимого, чтобы ограничить набор столбцов PR_ENTRYID **(** [PidTagEntryId)](pidtagentryid-canonical-property.md)и любыми другими требуемыми столбцами. 
     
-5. Call [IMAPITable:: QueryRows](imapitable-queryrows.md) , чтобы получить группу строк. 
+5. Вызов [IMAPITable::QueryRows](imapitable-queryrows.md) для получения группы строк. 
     
 6. Пока в таблице содержимого больше нет строк:
     
-1. Call [IMsgStore:: OpenEntry](imsgstore-openentry.md) , чтобы открыть сообщение, представленное идентификатором записи, из каждой строки. 
+1. Вызовите [IMsgStore::OpenEntry,](imsgstore-openentry.md) чтобы открыть сообщение, представленное идентификатором записи из каждой строки. 
     
-2. Назначьте параметр _лппунк_ указателю на локальный интерфейс **iMessage** . 
+2. _Назначьте параметр lppUnk_ локальному указателю интерфейса **IMessage.** 
     
-3. Работать со свойствами сообщения.
+3. Работа со свойствами сообщения.
     
-4. Отпустите указатель, на который указывает параметр _лппунк_ . 
+4. Отпустите указатель, на который указывает параметр _lppUnk._ 
     
-5. Call [IMAPITable:: QueryRows](imapitable-queryrows.md) для получения следующей группы строк. 
+5. Вызовите [IMAPITable::QueryRows,](imapitable-queryrows.md) чтобы получить следующую группу строк. 
     
-7. Освободите таблицу содержимого.
+7. Отпустите таблицу содержимого.
     
 

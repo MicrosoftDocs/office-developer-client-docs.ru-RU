@@ -21,18 +21,18 @@ ms.locfileid: "33408924"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Определяет, настроен ли поставщик хранилища файлов личных папок (PST) в качестве PST-файла Microsoft SharePoint 2010.
+Определяет, настроен ли поставщик файлов личных папок (PST) в качестве PST-файла Microsoft SharePoint 2010.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_ASSOCIATED_SHARING_PROVIDER  <br/> |
 |Идентификатор:  <br/> |0x0EA00048  <br/> |
 |Тип данных:  <br/> |PT_CLSID  <br/> |
-|Область:  <br/> |Внутренняя таблица хранения личных данных (PST)  <br/> |
+|Область:  <br/> |Внутренняя таблица личных хранилищ (PST)  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство указывает, настроен ли PST-файл для Microsoft SharePoint 2010. Если свойство отсутствует, PST-файл не был настроен как PST-файл Microsoft SharePoint 2010.
+Это свойство указывает, настроен ли PST для Microsoft SharePoint 2010. Если свойство не существует, PST-объект не был настроен как PST-объект Microsoft SharePoint 2010.
   
 ## <a name="see-also"></a>См. также
 
@@ -40,7 +40,7 @@ ms.locfileid: "33408924"
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

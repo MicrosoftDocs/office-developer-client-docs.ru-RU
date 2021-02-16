@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: d26c59d7-c839-426f-8693-727fc6bef67e
-description: 'Дата последнего изменения: 18 июня 2012 г.'
+description: 'Last modified: June 18, 2012'
 ms.openlocfilehash: 03b0eb794b07bc56ec6dce4a567d89294b2c908a
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -33,23 +33,23 @@ int MNLS_lstrcmpW(
 
  _lpString1_
   
-> возврата Указатель на первую строку Юникода для сравнения.
+> [in] Указатель на первую строку Юникода для сравнения.
     
  _lpString2_
   
-> возврата Указатель на вторую строку Юникода для сравнения.
+> [in] Указатель на вторую строку Юникода для сравнения.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает значения, описанные для эквивалентного вызова **MNLS_CompareStringW** , за исключением CSTR_EQUAL. 
+Возвращает значения, описанные для эквивалентного  вызова MNLS_CompareStringW за исключением CSTR_EQUAL. 
   
 ## <a name="remarks"></a>Примечания
 
- _MNLS_lstrcmpW_ выполняет сравнение, вызывая [MNLS_CompareStringW](mnls_comparestringw.md) с языковым стандартом жетусердефаултлЦид, 0 для флагов и – 1 для cch1 и cch2. 
+ _MNLS_lstrcmpW_ сравнение выполняется путем вызова [](mnls_comparestringw.md) MNLS_CompareStringW с региональными данными для GetUserDefaultLCID, 0 для флагов и -1 для cch1 и cch2. 
   
 ## <a name="see-also"></a>См. также
 
 
 
-[жетусердефаултлЦид](https://msdn.microsoft.com/library/dd318135%28VS.85%29.aspx)
+[GetUserDefaultLCID](https://msdn.microsoft.com/library/dd318135%28VS.85%29.aspx)
 

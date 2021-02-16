@@ -25,37 +25,37 @@ ms.locfileid: "32359950"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение для каждого участника, указанного в свойстве **диспиднонсендаблебкк** ([PidLidNonSendableBcc](pidlidnonsendablebcc-canonical-property.md)).
+Содержит значение для каждого участника, которое указано в свойстве **dispidNonSendableBCC** ([PidLidNonSendableBcc).](pidlidnonsendablebcc-canonical-property.md)
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспиднонсендбкктраккстатус  <br/> |
+|Связанные свойства:  <br/> |dispidNonSendBccTrackStatus  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00008545  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00008545  <br/> |
 |Тип данных:  <br/> |PT_MV_LONG  <br/> |
-|Область:  <br/> |Общий обмен сообщениями  <br/> |
+|Область:  <br/> |Общие сообщения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство является обязательным только в том случае, если задано свойство **диспиднонсендаблебкк** . Количество значений в этом свойстве должно равняться количеству значений в **диспиднонсендаблебкк**. Каждое значение в этом свойстве соответствует участнику в свойстве **диспиднонсендаблебкк** с тем же индексом. 
+Это свойство требуется только в том случае, если задано свойство **dispidNonSendableBCC.** Число значений в этом свойстве должно быть равно числу значений **в dispidNonSendableBCC.** Каждое значение этого свойства соответствует участнику в свойстве **dispidNonSendableBCC** с одинаковым индексом. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

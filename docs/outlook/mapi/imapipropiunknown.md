@@ -25,55 +25,55 @@ ms.locfileid: "33407664"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Позволяет клиентам, поставщикам услуг и MAPI работать со свойствами. Этот интерфейс реализуется всеми объектами, которые поддерживаются свойствами.
+Позволяет клиентам, поставщикам услуг и MAPI работать со свойствами. Этот интерфейс реализован всеми объектами, которые поддерживают свойства.
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
-|Предоставлено:  <br/> |Ни один объект не предоставляет этот интерфейс напрямую.  <br/> |
+|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Выставим:  <br/> |Ни один объект не предоставляет этот интерфейс напрямую.  <br/> |
 |Реализовано в:  <br/> |Поставщики услуг и MAPI  <br/> |
-|Вызывающая сторона:  <br/> |Клиентские приложения, поставщики служб и MAPI  <br/> |
+|Вызывающая сторона:  <br/> |Клиентские приложения, поставщики услуг и MAPI  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIProp  <br/> |
-|Тип указателя:  <br/> |лпмапипроп  <br/> |
-|Модель транзакции:  <br/> |Абстрактный класс, никогда не реализован  <br/> |
+|Тип указателя:  <br/> |LPMAPIPROP  <br/> |
+|Модель транзакций:  <br/> |Абстрактный класс, никогда не реализованный  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[GetLastError](imapiprop-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущем сообщении об ошибке.  <br/> |
-|[SaveChanges](imapiprop-savechanges.md) <br/> |Делает неизменными все изменения, внесенные в объект с момента последнего выполнения операции сохранения.  <br/> |
-|[GetProps](imapiprop-getprops.md) <br/> |Получает значение свойства одного или нескольких свойств объекта.  <br/> |
-|[жетпроплист](imapiprop-getproplist.md) <br/> |Возвращает теги свойств для всех свойств.  <br/> |
-|[опенпроперти](imapiprop-openproperty.md) <br/> |Возвращает указатель на интерфейс, который можно использовать для доступа к свойству.  <br/> |
+|[GetLastError](imapiprop-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR,](mapierror.md) которая содержит сведения о предыдущей ошибке.  <br/> |
+|[SaveChanges](imapiprop-savechanges.md) <br/> |Вносит постоянные изменения, внесенные в объект с момента последней операции сохранения.  <br/> |
+|[GetProps](imapiprop-getprops.md) <br/> |Извлекает значение свойства одного или более свойств объекта.  <br/> |
+|[GetPropList](imapiprop-getproplist.md) <br/> |Возвращает теги свойств для всех свойств.  <br/> |
+|[OpenProperty](imapiprop-openproperty.md) <br/> |Возвращает указатель на интерфейс, который можно использовать для доступа к свойству.  <br/> |
 |[SetProps](imapiprop-setprops.md) <br/> |Обновляет одно или несколько свойств.  <br/> |
-|[делетепропс](imapiprop-deleteprops.md) <br/> |Удаляет одно или несколько свойств объекта.  <br/> |
-|[CopyTo](imapiprop-copyto.md) <br/> |Копирует или перемещает все свойства, кроме специально исключенных свойств.  <br/> |
-|[копипропс](imapiprop-copyprops.md) <br/> |Копирование или перемещение выбранных свойств.  <br/> |
-|[жетнамесфромидс](imapiprop-getnamesfromids.md) <br/> |Предоставляет имена свойств, которые соответствуют одному или нескольким идентификаторам свойств.  <br/> |
-|[жетидсфромнамес](imapiprop-getidsfromnames.md) <br/> |Предоставляет идентификаторы свойств, соответствующие одному или нескольким именам свойств.  <br/> |
+|[DeleteProps](imapiprop-deleteprops.md) <br/> |Удаляет одно или несколько свойств объекта.  <br/> |
+|[CopyTo](imapiprop-copyto.md) <br/> |Копирует или перемещает все свойства, кроме специально исключенных.  <br/> |
+|[CopyProps](imapiprop-copyprops.md) <br/> |Копирует или перемещает выбранные свойства.  <br/> |
+|[GetNamesFromIDs](imapiprop-getnamesfromids.md) <br/> |Предоставляет имена свойств, соответствующие одному или более идентификаторам свойств.  <br/> |
+|[GetIDsFromNames](imapiprop-getidsfromnames.md) <br/> |Предоставляет идентификаторы свойств, соответствующие одному или более именам свойств.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
- **IMAPIProp** является базовым интерфейсом для следующих интерфейсов: 
+ **IMAPIProp —** это базовый интерфейс для следующих интерфейсов: 
   
-- [иаттач](iattachimapiprop.md)
+- [IAttach](iattachimapiprop.md)
     
-- [имаилусер](imailuserimapiprop.md)
+- [IMailUser](imailuserimapiprop.md)
     
 - [IMAPIContainer](imapicontainerimapiprop.md)
     
-- [имапиформинфо](imapiforminfoimapiprop.md)
+- [IMAPIFormInfo](imapiforminfoimapiprop.md)
     
-- [имапистатус](imapistatusimapiprop.md)
+- [IMAPIStatus](imapistatusimapiprop.md)
     
 - [IMessage](imessageimapiprop.md)
     
 - [IMsgStore](imsgstoreimapiprop.md)
     
-- [ипрофсект](iprofsectimapiprop.md)
+- [IProfSect](iprofsectimapiprop.md)
     
-- [ипропдата](ipropdataimapiprop.md)
+- [IPropData](ipropdataimapiprop.md)
     
 ## <a name="see-also"></a>См. также
 

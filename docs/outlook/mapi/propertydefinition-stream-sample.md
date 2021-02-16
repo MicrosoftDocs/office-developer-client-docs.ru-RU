@@ -17,13 +17,13 @@ ms.locfileid: "33406663"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-В этом разделе описывается пример потока PropertyDefinition. Поток содержит определение определяемого пользователем поля `TextField1`. Тип — **текст**, а определение — в формате PropDefV2.
+В этом разделе описывается пример потока PropertyDefinition. Поток содержит определение пользовательского  `TextField1` поля. Типом является **Text,** а определение — в формате PropDefV2.
   
 ## <a name="data-dump"></a>Дамп данных
 
-Ниже приведен дамп данных потока, как он будет отображаться в двоичном редакторе.
+Ниже показан дамп данных потока, который будет отображаться в двоичном редакторе.
   
-|Смещение потока|Байты данных|Данные ASCII|
+|Смещение потока|Данные вбайт|Данные ASCII|
 |:-----|:-----|:-----|
 | `0000000000` <br/> | `03 01 01 00 00 00 45 00 00 00 08 00 00 00 00 00` <br/> | `???...E...?.....` <br/> |
 | `0000000010` <br/> | `0A 00 54 00 65 00 78 00 74 00 46 00 69 00 65 00` <br/> | `?.T.e.x.t.F.i.e.` <br/> |
@@ -32,78 +32,78 @@ ms.locfileid: "33406663"
 | `0000000040` <br/> | `65 00 78 00 74 00 46 00 69 00 65 00 6C 00 64 00` <br/> | `e.x.t.F.i.e.l.d.` <br/> |
 | `0000000050` <br/> | `31 00 00 00 00 00` <br/> | `1.....` <br/> |
    
-Ниже приведен пример синтаксического анализа данных для потока PropertyDefinition:
+Ниже приводится анализ примера данных для потока PropertyDefinition:
   
-- Версия: смещение 0x0, 2 байта: 0x0103 (PropDefV2).
+- Версия: смещение 0x0, 2 0x0103 (PropDefV2).
     
-- Фиелддефинитионкаунт: смещение 0x2, 4 байта: 0x1 (1).
+- FieldDefinitionCount: 0x2 смещения, 4 0x1 (1).
     
-- Фиелддефинитионс: offset 0x6, массив из 1 FieldDefinition Stream.
+- FieldDefinitions: 0x6 смещения, массив 1 поток FieldDefinition.
     
-  - Flags: offset 0x6, 4 байта: 0x45 (PDO_IS_CUSTOM | PDO_PRINT_SAVEAS | PDO_PRINT_SAVEAS_DEF).
+  - Флаги: смещение 0x6, 4 0x45 (PDO_IS_CUSTOM| PDO_PRINT_SAVEAS| PDO_PRINT_SAVEAS_DEF).
     
-  - VT: offset 0xA, 2 байта: 0x8 (**VT_BSTR**).
+  - VT: смещение 0xA, 2 0x8 (**VT_BSTR).**
     
-  - DISPID: offset 0xC, 4 байта: 0x0 (0).
+  - DispId: смещение 0xC, 4 0x0 (0).
     
-  - Нмиднамеленгс: offset 0x10, 2 байта: 0xA (10).
+  - NmidNameLength: 0x10 смещения, 2 0xA (10).
     
-  - Нмиднаме: offset 0x12, массив из 10 Вчарс. Строковое значение Юникода: "TextField1".
+  - NmidName: offset 0x12 массив из 10 WCHARs. Строковое значение Юникода: TextField1.
     
-  - Намеанси: offset 0x26, PackedAnsiString Stream.
+  - NameANSI: offset 0x26, поток PackedAnsiString.
     
-    - Length: offset 0x26, 1 байт: 0xA (10).
+    - Длина: смещение 0x26, 1 0xA (10).
       
-    - Символы: offset 0x27, массив из 10 знаков. Строковое значение ANSI: "TextField1".
+    - Characters: Offset 0x27, array of 10 CHARs. Строковое значение ANSI: TextField1.
     
-  - Формулаанси: offset 0x31, PackedAnsiString Stream.
+  - FormulaANSI: смещение 0x31, поток PackedAnsiString.
     
-    - Length: offset 0x31, 1 байт: 0x0 (0).
+    - Длина: смещение 0x31, 1 0x0 (0).
       
-    - Символы: offset 0x32, массив 0 знаков. Пустая строка ANSI.
+    - Characters: Offset 0x32, array of 0 CHARs. Пустая строка ANSI.
     
-  - Валидатионрулеанси: смещение 0x32, PackedAnsiString Stream.
+  - ValidationRuleANSI: offset 0x32, поток PackedAnsiString.
     
-    - Length: смещение 0x32, 1 байт: 0x0 (0).
+    - Длина: смещение 0x32, 1 0x0 (0).
       
-    - Символы: offset 0x33, массив 0 знаков. Пустая строка ANSI.
+    - Characters: Offset 0x33, array of 0 CHARs. Пустая строка ANSI.
     
-  - Валидатионтекстанси: offset 0x33, PackedAnsiString Stream.
+  - ValidationTextANSI: offset 0x33, поток PackedAnsiString.
     
-    - Length: offset 0x33, 1 байт: 0x0 (0).
+    - Длина: смещение 0x33, 1 0x0 (0).
       
-    - Символы: offset 0x34, массив 0 знаков. Пустая строка ANSI.
+    - Characters: Offset 0x34, array of 0 CHARs. Пустая строка ANSI.
     
-  - Ерроранси: offset 0x34, PackedAnsiString Stream.
+  - ErrorANSI: смещение 0x34, поток PackedAnsiString.
     
-    - Length: offset 0x34, 1 байт: 0x0 (0).
+    - Длина: смещение 0x34, 1 0x0 (0).
       
-    - Символы: offset 0x35, массив 0 знаков. Пустая строка ANSI.
+    - Characters: Offset 0x35, array of 0 CHARs. Пустая строка ANSI.
     
-  - Интерналтипе: offset 0x35, 4 байта: 0x0 (Итипестринг).
+  - InternalType: 0x35 смещения, 4 0x0 (iTypeString).
     
-  - Скипблоккс: offset 0x39, ряд SkipBlock потоков.
+  - SkipBlocks: offset 0x39, ряд потоков SkipBlock.
     
-  - Первая SkipBlock
+  - First SkipBlock
     
-    - Size: offset 0x39, 4 байта: 0x15 (21).
+    - Размер: смещение 0x39, 4 0x15 (21).
       
-    - Content: offset 0x3D, массив из 21 байт. Это первый поток SkipBlock, поэтому этот массив содержит поток FirstSkipBlockContent.
+    - Content: Offset 0x3D, array of 21 bytes. Это первый поток SkipBlock, поэтому этот массив содержит поток FirstSkipBlockContent.
       
-      - FieldName: offset 0x3D, PackedUnicodeString Stream.
+      - FieldName: offset 0x3D, PackedUnicodeString stream.
         
-        - Length: offset 0x3D, 1 байт: 0xA (10).
+        - Длина: смещение 0x3D, 1 0xA (10).
           
-        - Символы: offset 0x3E, Array из 10 Вчарс. Строковое значение Юникода: "TextField1".
+        - Characters: Offset 0x3E, array of 10 WCHARs. Строковое значение Юникода: TextField1.
     
-  - Вторая SkipBlock
+  - Second SkipBlock
     
-    - Size: offset 0x52, 4 байта: 0x0 (0). Это завершающий поток SkipBlock.
+    - Размер: смещение 0x52, 4 0x0 (0). Это завершающий поток SkipBlock.
     
 ## <a name="see-also"></a>См. также
 
 - [Элементы и поля Outlook](outlook-items-and-fields.md)
-- [Структуры потока](stream-structures.md)
+- [Структуры потоков](stream-structures.md)
 - [Структура потока PropertyDefinition](propertydefinition-stream-structure.md)
 - [Структура потока FieldDefinition](fielddefinition-stream-structure.md)
 - [Структура потока SkipBlock](skipblock-stream-structure.md)

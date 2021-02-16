@@ -1,5 +1,5 @@
 ---
-title: Имапиформконтаинер IUnknown
+title: IMAPIFormContainer IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,28 +25,28 @@ ms.locfileid: "33407531"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Управляет формами в библиотеках форм. Этот интерфейс используется для создания библиотек форм, характерных для приложений. 
+Управляет формами в библиотеках форм. Этот интерфейс используется для создания библиотек форм для конкретных приложений. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
-|Предоставлено:  <br/> |Объекты контейнера формы  <br/> |
+|Файл заголовка:  <br/> |Mapiform.h  <br/> |
+|Выставим:  <br/> |Объекты контейнеров форм  <br/> |
 |Реализовано в:  <br/> |Поставщики библиотеки форм  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIFormContainer  <br/> |
-|Тип указателя:  <br/> |лпмапиформконтаинер  <br/> |
+|Тип указателя:  <br/> |LPMAPIFORMCONTAINER  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[инсталлформ](imapiformcontainer-installform.md) <br/> |Устанавливает форму в контейнер форм.  <br/> |
-|[ремовеформ](imapiformcontainer-removeform.md) <br/> |Удаляет определенную форму из контейнера формы.  <br/> |
-|[ресолвемессажекласс](imapiformcontainer-resolvemessageclass.md) <br/> |Разрешает класс сообщения в форму в контейнере формы и возвращает объект сведений о форме для этой формы.  <br/> |
-|[ресолвемултиплемессажеклассес](imapiformcontainer-resolvemultiplemessageclasses.md) <br/> |Разрешает группу классов сообщений в свои формы в контейнере формы и возвращает массив объектов данных формы для этих форм.  <br/> |
-|[калкформпропсет](imapiformcontainer-calcformpropset.md) <br/> |Возвращает массив свойств, используемых всеми формами, установленными в контейнере форм.  <br/> |
-|[Вывод на экран](imapiformcontainer-getdisplay.md) <br/> |Возвращает отображаемое имя контейнера формы.  <br/> |
-|[GetLastError](imapiformcontainer-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , содержащую сведения о предыдущей ошибке, возникшей в объекте контейнера формы.  <br/> |
+|[InstallForm](imapiformcontainer-installform.md) <br/> |Устанавливает форму в контейнер формы.  <br/> |
+|[RemoveForm](imapiformcontainer-removeform.md) <br/> |Удаляет определенную форму из контейнера формы.  <br/> |
+|[ResolveMessageClass](imapiformcontainer-resolvemessageclass.md) <br/> |Разрешит класс сообщения в форму в контейнере формы и возвращает объект сведений о форме для этой формы.  <br/> |
+|[ResolveMultipleMessageClasses](imapiformcontainer-resolvemultiplemessageclasses.md) <br/> |Разрешит группу классов сообщений в их формы в контейнере формы и возвращает массив информационных объектов формы для этих форм.  <br/> |
+|[CalcFormPropSet](imapiformcontainer-calcformpropset.md) <br/> |Возвращает массив свойств, используемых всеми формами, установленными в контейнере формы.  <br/> |
+|[GetDisplay](imapiformcontainer-getdisplay.md) <br/> |Возвращает отображаемого имени контейнера формы.  <br/> |
+|[GetLastError](imapiformcontainer-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, содержащую](mapierror.md) сведения о предыдущей ошибке, которая произошла в объекте контейнера формы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: Структуры потока
+title: Структуры потоков
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,16 +13,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407825"
 ---
-# <a name="stream-structures"></a>Структуры потока
+# <a name="stream-structures"></a>Структуры потоков
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Определения определяемых пользователем полей элемента Microsoft Outlook хранятся в свойстве [PidLidPropertyDefinitionStream](pidlidpropertydefinitionstream-canonical-property.md) . Значение этого свойства — это двоичный поток, который содержит определения пользовательских полей и параметры привязки к данным для встроенных полей элемента Outlook. В этом разделе представлены сведения о структуре двоичного потока, разбитых в следующих структурах потока. 
+Определения пользовательских полей элемента Microsoft Outlook хранятся в свойстве [PidLidPropertyDefinitionStream.](pidlidpropertydefinitionstream-canonical-property.md) Значение этого свойства — это двоичный поток, содержащий определения пользовательских полей и параметры привязки данных для встроенных полей для элемента Outlook. В этом разделе содержится информация о структуре двоичного потока, разбитой на следующие структуры потока. 
   
 > [!NOTE]
-> Имена этих структур потоков (например, PropertyDefinition, FieldDefinition и SkipBlock) и их элементы данных технически не являются частью программного интерфейса API обмена сообщениями (MAPI) и предоставляются здесь только в целях документирования фактических структур потоков. Разработчики могут помечать эти структуры потоков и элементы данных в своих приложениях по мере их выбора. 
+> Имена этих структур потока (например, PropertyDefinition, FieldDefinition и SkipBlock) и их элементы данных технически не являются частью программного интерфейса API обмена сообщениями (MAPI) и предоставляются здесь только для документации по фактическим структурам потоков. Разработчики могут пометить эти структуры потоков и элементы данных в своих приложениях по своему выбору. 
   
 - [Структура потока PropertyDefinition](propertydefinition-stream-structure.md)
     
@@ -42,7 +42,7 @@ ms.locfileid: "33407825"
 
 [Элементы и поля Outlook](outlook-items-and-fields.md)
   
-[Добавление определения для нового пользовательского поля](how-to-add-a-definition-for-a-new-user-defined-field.md)
+[Добавление определения для нового поля User-Defined](how-to-add-a-definition-for-a-new-user-defined-field.md)
   
 [Пример потока PropertyDefinition](propertydefinition-stream-sample.md)
 

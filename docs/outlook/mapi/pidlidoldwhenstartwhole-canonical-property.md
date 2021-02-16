@@ -25,37 +25,37 @@ ms.locfileid: "32358004"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает исходное значение свойства **диспидапптстартвхоле** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) перед обновлением собрания.
+Указывает исходное значение свойства **dispidApptStartWhole** [(PidLidAppointmentStartWhole)](pidlidappointmentstartwhole-canonical-property.md)перед обновлением собрания.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидолдвхенстартвхоле  <br/> |
+|Связанные свойства:  <br/> |dispidOldWhenStartWhole  <br/> |
 |Набор свойств:  <br/> |PSETID_Meeting  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00000029  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00000029  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Собрания  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство не является обязательным.
+Это свойство не требуется.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

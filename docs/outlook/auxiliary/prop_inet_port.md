@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: overview
 localization_priority: Normal
 ms.assetid: 5633d70c-ca3e-4b9d-8e85-ef98f85f1961
-description: Представляет номер порта для общего почтового ящика в Интернете.
+description: Представляет номер порта для общего почтового ящика Интернета.
 ms.openlocfilehash: b7870df294a5580831ffb99c59d01e8a8652b4a6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33409190"
 ---
 # <a name="prop_inet_port"></a>PROP_INET_PORT
 
-Представляет номер порта для общего почтового ящика в Интернете.
+Представляет номер порта для общего почтового ящика Интернета.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -25,11 +25,11 @@ ms.locfileid: "33409190"
 |Идентификатор:  <br/> |0x0104  <br/> |
 |Тип свойства:  <br/> |PT_DWORD  <br/> |
 |Тег свойства:  <br/> |0x01040003  <br/> |
-|Обращения  <br/> |Только для чтения  <br/> |
+|Access:  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Например, 110 для учетных записей POP.
+Пример: 110 для учетных записей POP.
   
 ## <a name="see-also"></a>См. также
 

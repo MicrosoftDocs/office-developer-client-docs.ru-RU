@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 366ade40-e89f-49b6-b4be-4e4967dbacbf
-description: Определяет схему результатов темы, применяемой к фигуре, в виде целого числа.
+description: Определяет схему эффекта темы, применяемой к фигуре, в виде integer.
 ms.openlocfilehash: 0d8ed18ca960868b1cd27abe517bfea99e1f2318
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33409274"
 ---
 # <a name="effectschemeindex-cell-theme-properties-section"></a>EffectSchemeIndex Cell (Theme Properties Section)
 
-Определяет схему результатов темы, применяемой к фигуре, в виде целого числа.
+Определяет схему эффекта темы, применяемой к фигуре, в виде integer.
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **EffectSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **EffectSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "33409274"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровсемепропертиес** <br/> |
-| Индекс ячейки:  <br/> |* * Висеффектсчемеиндекс * * <br/> |
+| Индекс строки:  <br/> |**visRowThemeProperties** <br/> |
+| Индекс ячейки:  <br/> |**visEffectSchemeIndex ** <br/> |
    
 

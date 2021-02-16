@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d67bd395-d324-217d-8ddc-1d48dd724383
-description: Поддерживает переиндексацию встреч в папке "Календарь".
+description: Поддерживает переостережку встреч в папке календаря.
 ms.openlocfilehash: cf4f7c790a8561f149160c83418a0d5ebd91a455
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,26 +16,26 @@ ms.locfileid: "33410072"
 ---
 # <a name="iolkapptrebaser"></a>IOlkApptRebaser
 
-Поддерживает переиндексацию встреч в папке "Календарь".
+Поддерживает переостережку встреч в папке календаря.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 |||
 |:-----|:-----|
-|Наследование от:  <br/> |**Интерфейс** <br/> |
-|Файл заголовка:  <br/> |тзмовелиб. h  <br/> |
-|Реализовано в:  <br/> |тзмовелиб. dll  <br/> |
+|Наследуется от:  <br/> |**IUnknown** <br/> |
+|Файл заголовка:  <br/> |tzmovelib.h  <br/> |
+|Реализовано в:  <br/> |tzmovelib.dll  <br/> |
 |Вызывающая сторона:  <br/> |Клиентские приложения MAPI  <br/> |
-|Предоставлено:  <br/> |Объект перебазового объекта Outlook  <br/> |
+|В:  <br/> |Объект outlook rebasing  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|**[бегиненумератеаппоинтментс](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.  <br/> |
-|**[енденумератеаппоинтментс](iolkapptrebaser-endenumerateappointments.md)** <br/> |Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.  <br/> |
-|**[бегинребасеаппоинтментс](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Начинает задачу, которая передается из списка встреч, обычно получаемых из **енденумератеаппоинтментс**.  <br/> |
-|**[ендребасеаппоинтментс](iolkapptrebaser-endrebaseappointments.md)** <br/> |Waits for appointment rebasing to complete and retrieves the results.  <br/> |
+|**[BeginEnumerateAppointments](iolkapptrebaser-beginenumerateappointments.md)** <br/> |Begins a task for appointment enumeration in a calendar folder to find the appointments that need rebasing.  <br/> |
+|**[EndEnumerateAppointments](iolkapptrebaser-endenumerateappointments.md)** <br/> |Waits for appointment enumeration in a calendar folder to complete and returns a list of appointments that need rebasing.  <br/> |
+|**[BeginRebaseAppointments](iolkapptrebaser-beginrebaseappointments.md)** <br/> |Начинает задачу по переоплате встреч с учетом списка встреч, обычно полученных из **EndEnumerateAppointments.**  <br/> |
+|**[EndRebaseAppointments](iolkapptrebaser-endrebaseappointments.md)** <br/> |Waits for appointment rebasing to complete and retrieves the results.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

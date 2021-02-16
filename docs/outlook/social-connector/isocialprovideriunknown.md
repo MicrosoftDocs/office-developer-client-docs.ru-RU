@@ -1,5 +1,5 @@
 ---
-title: ИсоЦиалпровидер IUnknown
+title: ISocialProvider IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -21,26 +21,26 @@ ms.locfileid: "33409960"
   
 ## <a name="members"></a>"Участники"
 
-В следующей таблице показаны элементы, доступные в интерфейсе **исоЦиалпровидер** . 
+В следующей таблице показаны члены, доступные в **интерфейсе ISocialProvider.** 
   
-|**имя**|**Тип элемента**|**Описание**|
+|**Название**|**Тип члена**|**Описание**|
 |:-----|:-----|:-----|
-|[дефаултситеурлс](isocialprovider-defaultsiteurls.md) <br/> |Свойство  <br/> |Возвращает массив строк, указывающих URL-адреса сайта для поставщика OSC.  <br/> |
-|[жетаутоконфигуредсессион](isocialprovider-getautoconfiguredsession.md) <br/> |Method  <br/> |Получает автоматически настроенный интерфейс [ISocialSession](isocialsessioniunknown.md).  <br/> |
-|[GetCapabilities](isocialprovider-getcapabilities.md) <br/> |Method  <br/> |Получает строку, описывающую возможности поставщика.  <br/> |
-|[Сеансы.](isocialprovider-getsession.md) <br/> |Method  <br/> |Получает интерфейс [настроенный ISocialSession](isocialsessioniunknown.md) .  <br/> |
-|[жетстатуссеттингс](isocialprovider-getstatussettings.md) <br/> |Method  <br/> |В настоящее время этот метод не поддерживается.  <br/> |
+|[DefaultSiteUrls](isocialprovider-defaultsiteurls.md) <br/> |Свойство  <br/> |Возвращает массив строк, которые указывают URL-адреса сайта для поставщика OSC.  <br/> |
+|[GetAutoConfiguredSession](isocialprovider-getautoconfiguredsession.md) <br/> |Method  <br/> |Получает автоматически настроенный интерфейс [ISocialSession](isocialsessioniunknown.md).  <br/> |
+|[GetCapabilities](isocialprovider-getcapabilities.md) <br/> |Method  <br/> |Получает строку, описываемую возможности поставщика.  <br/> |
+|[GetSession](isocialprovider-getsession.md) <br/> |Method  <br/> |Получает интерфейс [ISocialSession.](isocialsessioniunknown.md)  <br/> |
+|[GetStatusSettings](isocialprovider-getstatussettings.md) <br/> |Method  <br/> |Этот метод в настоящее время не поддерживается.  <br/> |
 |[Load](isocialprovider-load.md) <br/> |Method  <br/> |Инициализирует поставщика OSC.  <br/> |
-|[соЦиалнетворкгуид](isocialprovider-socialnetworkguid.md) <br/> |Свойство  <br/> |Возвращает идентификатор GUID, представляющий уникальный идентификатор для социальной сети.  <br/> |
-|[соЦиалнетворкикон](isocialprovider-socialnetworkicon.md) <br/> |Свойство  <br/> |Возвращает массив байтов, представляющий значок социальной сети.  <br/> |
-|[соЦиалнетворкнаме](isocialprovider-socialnetworkname.md) <br/> |Свойство  <br/> |Возвращает строку, представляющую имя социальной сети.  <br/> |
-|[Версия](isocialprovider-version.md) <br/> |Свойство  <br/> |Возвращает строку, представляющую номер версии поставщика для этой социальной сети.  <br/> |
+|[SocialNetworkGuid](isocialprovider-socialnetworkguid.md) <br/> |Свойство  <br/> |Возвращает ИДЕНТИФИКАТОР GUID, который представляет уникальный идентификатор для социальной сети.  <br/> |
+|[SocialNetworkIcon](isocialprovider-socialnetworkicon.md) <br/> |Свойство  <br/> |Возвращает массив в ветвях, который представляет значок для социальной сети.  <br/> |
+|[SocialNetworkName](isocialprovider-socialnetworkname.md) <br/> |Свойство  <br/> |Возвращает строку, представляюную имя социальной сети.  <br/> |
+|[Версия](isocialprovider-version.md) <br/> |Свойство  <br/> |Возвращает строку, представляюную номер версии поставщика для этой социальной сети.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Поставщик OSC должен реализовать этот интерфейс для взаимодействия с OSC.
+Поставщик OSC должен реализовать этот интерфейс для связи с OSC.
   
 ## <a name="see-also"></a>См. также
 
-- [Интерфейсы поставщика социальных соединителей Outlook](outlook-social-connector-provider-interfaces.md)
+- [Outlook Social Connector Provider Interfaces](outlook-social-connector-provider-interfaces.md)
 

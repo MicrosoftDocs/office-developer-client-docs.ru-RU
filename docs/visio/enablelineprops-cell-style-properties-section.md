@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251696
 localization_priority: Normal
 ms.assetid: 9f619416-36ff-1479-6232-225c11827e01
-description: Определяет, включены ли в стиль свойства линий.
+description: Определяет, включает ли стиль свойства строки.
 ms.openlocfilehash: 38964194626be052b2a168fa929b69ebe4b28e01
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,16 +18,16 @@ ms.locfileid: "33410002"
 ---
 # <a name="enablelineprops-cell-style-properties-section"></a>EnableLineProps Cell (Style Properties Section)
 
-Определяет, включены ли в стиль свойства линий.
+Определяет, включает ли стиль свойства строки.
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|TRUE  <br/> |Включение свойств строк.  <br/> |
-|FALSE  <br/> |Исключение свойств строк.  <br/> |
+|TRUE  <br/> |Включаем свойства строки.  <br/> |
+|FALSE  <br/> |Исключить свойства строки.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку EnableLineProps по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте следующее: 
+Чтобы получить ссылку на ячейку EnableLineProps по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -38,7 +38,7 @@ ms.locfileid: "33410002"
 |||
 |:-----|:-----|
 |Индекс раздела:  <br/> |**visSectionObject** <br/> |
-|Индекс строки:  <br/> |**висровстиле** <br/> |
-|Индекс ячейки:  <br/> |**висстилеинклудеслине** <br/> |
+|Индекс строки:  <br/> |**visRowStyle** <br/> |
+|Индекс ячейки:  <br/> |**visStyleIncludesLine** <br/> |
    
 

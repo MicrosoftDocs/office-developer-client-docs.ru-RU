@@ -19,17 +19,17 @@ ms.locfileid: "33410051"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Ключ беседы Windows для рабочих групп 3,1 представляет собой текстовую строку. Эквивалент MAPI является двоичным значением. Для обеспечения обратной совместимости реализация формата TNEF преобразует двоичные данные в текст и добавляет завершающий символ null.
+Ключ беседы почты Windows для workgroups 3.1 является текстовой строкой. Эквивалент MAPI — это двоичное значение. Для обеспечения обратной совместимости реализация TNEF преобразует двоичные данные в текст и добавляет завершающий символ null.
   
 > [!NOTE]
-> Соответствующие свойства MAPI, которым сопоставлены эти атрибуты TNEF, PR_CONVERSATION_KEY и PR_PARENT_KEY, не поддерживаются в Microsoft Exchange Server: использование **PR_CONVERSATION_KEY**, [каноническое свойство PidTagConversationKey](pidtagconversationkey-canonical-property.md), только в Outlook, для поиска **IPM. Сообщения Мессажеманажер** . 
+> Соответствующие свойства в MAPI, с которыми связываются эти атрибуты TNEF, PR_CONVERSATION_KEY и PR_PARENT_KEY, были неподдержаты в Microsoft Exchange Server: использование **PR_CONVERSATION_KEY**, каноническое свойство [PidTagConversationKey](pidtagconversationkey-canonical-property.md), сохраняется только в Outlook для locating **IPM. Сообщения MessageManager.** 
   
 ## <a name="remarks"></a>Примечания
 
-Свойство **PR_CONVERSATION_KEY** — это значение, не являющееся устаревшим прекурсор **PR_CONVERSATION_INDEX**, [каноническое свойство](pidtagconversationindex-canonical-property.md) и **PR_CONVERSATION_TOPIC**, [каноническое свойство PidTagConversationTopic](pidtagconversationtopic-canonical-property.md), которое следует использовать вместо этого.
+Свойство **PR_CONVERSATION_KEY** является устаревшим предшествует каноническому свойству **PR_CONVERSATION_INDEX,** [PidTagConversationIndex и](pidtagconversationindex-canonical-property.md) **PR_CONVERSATION_TOPIC,** [PidTagConversationTopic,](pidtagconversationtopic-canonical-property.md)которое следует использовать.
   
 ## <a name="see-also"></a>См. также
 
-- [Поддерево IPM](ipm-subtree.md)
+- [Подtree IPM](ipm-subtree.md)
 - [Специальные папки MAPI](mapi-special-folders.md)
 

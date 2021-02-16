@@ -29,7 +29,7 @@ ms.locfileid: "33407846"
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
+|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
    
 ```cpp
 typedef struct _SBinary
@@ -44,15 +44,15 @@ typedef struct _SBinary
 
  **cb**
   
-> Количество байтов в элементе **ЛПБ** . 
+> Количество в **lpb-члене.** 
     
- **лпб**
+ **lpb**
   
-> Указатель на значение свойства PT_BINARY.
+> Указатель на PT_BINARY свойства.
     
 ## <a name="remarks"></a>Примечания
 
-Сведения о типах свойств приведены в разделе [Обзор типов свойств MAPI](mapi-property-type-overview.md).
+Сведения о типах свойств см. в обзоре [типов свойств MAPI.](mapi-property-type-overview.md)
   
 ## <a name="see-also"></a>См. также
 

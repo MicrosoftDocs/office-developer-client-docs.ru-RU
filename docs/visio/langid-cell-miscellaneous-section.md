@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm60051
 localization_priority: Normal
 ms.assetid: 815e0df8-5ebf-ef1b-d620-bce8abb69f1a
-description: Указывает язык, на котором были созданы формулы ячеек.
+description: Указывает язык, на котором были созданы формулы ячеей.
 ms.openlocfilehash: e1e5b92f01e97bc63003a4b195c159a50f61e77b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,13 +18,13 @@ ms.locfileid: "33406677"
 ---
 # <a name="langid-cell-miscellaneous-section"></a>LangID Cell (Miscellaneous Section)
 
-Указывает язык, на котором были созданы формулы ячеек. 
+Указывает язык, на котором были созданы формулы ячеей. 
   
 ## <a name="remarks"></a>Примечания
 
-Список языков, поддерживаемых приложениями Microsoft Office, приведен в разделе [DocLangID](doclangid-cell-document-properties-section.md) Cell (раздел "Свойства документа"). 
+Список языков, поддерживаемых Microsoft Office, см. в разделе [DocLangID](doclangid-cell-document-properties-section.md) Cell (Document Properties Section). 
   
-Чтобы получить ссылку на ячейку LangID по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку LangID по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -35,7 +35,7 @@ ms.locfileid: "33406677"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровмиск** <br/> |
-| Индекс ячейки:  <br/> |**висобжлангид** <br/> |
+| Индекс строки:  <br/> |**visRowMisc** <br/> |
+| Индекс ячейки:  <br/> |**visObjLangID** <br/> |
    
 

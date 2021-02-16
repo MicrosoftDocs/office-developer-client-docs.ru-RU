@@ -1,5 +1,5 @@
 ---
-title: имапиоффлинемгрунадвисе
+title: IMAPIOfflineMgrUnadvise
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33404857"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Отменяет обратные вызовы для автономного объекта.
+Отменяет вызовы для автономного объекта.
   
 ```cpp
 HRESULT COfflineObj::Unadvise( 
@@ -38,21 +38,21 @@ HRESULT COfflineObj::Unadvise(
 
  _ulFlags_
   
-> возврата Флаги для отмены обратного вызова. Поддерживается только значение MAPIOFFLINE_UNADVISE_DEFAULT.
+> [in] Флаги для отмены вызова. Поддерживается только MAPIOFFLINE_UNADVISE_DEFAULT значение.
     
- _уладвисетокен_
+ _ulAdviseToken_
   
-> возврата Токен advise, определяющий регистрацию обратного вызова, которая должна быть отменена. 
+> [in] Маркер консультации, определяя отменяемую регистрацию вызова. 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 S_OK
   
-> Вызов выполнен успешно. Этот вызов должен возвращать S_OK.
+> Вызов был успешным. Этот вызов должен возвращать S_OK.
     
 ## <a name="remarks"></a>Примечания
 
-Удаляет регистрацию для обратного вызова, который был связан с *уладвисетокен* , возвращенный при предыдущем вызове метода **[Имапиоффлинемгр:: Advise](imapiofflinemgr-advise.md)**. Заставляет объект **имапиоффлинемгр** освобождать ссылку на объект **[имапиоффлиненотифи](imapiofflinenotifyiunknown.md)** , связанный с *уладвисетокен* . 
+Удаляет регистрацию обратного вызова, связанного с *ulAdviseToken,* возвращенного при предыдущем вызове **[IMAPIOfflineMgr::Advise.](imapiofflinemgr-advise.md)** Заставляет объект **IMAPIOfflineMgr** освободить ссылку на объект **[IMAPIOfflineNotify,](imapiofflinenotifyiunknown.md)** связанный с *ulAdviseToken.* 
   
 ## <a name="see-also"></a>См. также
 

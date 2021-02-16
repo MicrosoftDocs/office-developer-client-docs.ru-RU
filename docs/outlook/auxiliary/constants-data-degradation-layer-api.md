@@ -1,5 +1,5 @@
 ---
-title: Константы (API уровня замедления данных)
+title: Константы (API уровня ухудшения данных)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33408392"
 ---
-# <a name="constants-data-degradation-layer-api"></a>Константы (API уровня замедления данных)
+# <a name="constants-data-degradation-layer-api"></a>Константы (API уровня ухудшения данных)
 
 В этом разделе содержатся определения констант для API уровня ухудшения данных.
   

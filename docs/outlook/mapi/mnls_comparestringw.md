@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: f8d0b7b9-2798-4d29-99e4-17da99039361
-description: 'Дата последнего изменения: 20 февраля 2012 г.'
+description: 'Last modified: February 20, 2012'
 ms.openlocfilehash: dbb18ce712d7900106f2c8dd18404e47d8bdbdb7
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -37,41 +37,41 @@ int MNLS_CompareStringW (
 
  _lcid_
   
-> возврата Идентификатор языкового стандарта. Подробные сведения об определениях приведены в параметре _locale языка_ [CompareString](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
+> [in] Идентификатор locale. Подробные определения см. в _параметре Locale_ [compareString.](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
     
  _dwFlags_
   
-> возврата Флаги для игнорирования регистра и диакритических знаков. Подробные определения приведены в параметре _Двкмпфлагс_ [компарестринжекс](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
+> [in] Флаги для игнорирования диакритических и диакритических диакритических диакритических пометок. Подробные определения см. в параметре _dwCmpFlags_ [compareStringEx.](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
     
  _pstr1_
   
-> возврата Указатель на первую строку Юникода для сравнения.
+> [in] Указатель на первую строку Юникода для сравнения.
     
  _cch1_
   
-> возврата Длина в символах первой строки Юникода за исключением завершающего знака null. Приложение может предоставить отрицательное значение, если строка завершается нулем. В этом случае функция **MNLS_CompareStringW** автоматически определяет длину. 
+> [in] Длина символов первой строки Юникода, за исключением завершающих символов null. Приложение может предоставить отрицательное значение, если строка о конце null. В этом случае **MNLS_CompareStringW** определяет длину автоматически. 
     
  _pstr2_
   
-> возврата Указатель на вторую строку Юникода для сравнения.
+> [in] Указатель на вторую строку Юникода для сравнения.
     
  _cch2_
   
-> возврата Длина в символах второй строки Юникода, за исключением завершающего знака null. Приложение может предоставить отрицательное значение, если строка завершается нулем. В этом случае функция определяет длину автоматически.
+> [in] Длина символов второй строки Юникода, за исключением завершающих символов null. Приложение может предоставить отрицательное значение, если строка о конце null. В этом случае функция определяет длину автоматически.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает значения, описанные для [компарестринжекс](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx).
+Возвращает значения, описанные для [CompareStringEx.](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
   
 ## <a name="remarks"></a>Примечания
 
-Эта функция служит оболочкой для [компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx). **MNLS_CompareStringW** имеет те же параметры и имеет такое же поведение, что и [компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx).
+Эта функция [обтекает compareStringW.](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx) **MNLS_CompareStringW** принимает те же параметры и поведение, что [и CompareStringW.](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
   
 ## <a name="see-also"></a>См. также
 
 
 
-[компарестрингв](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
+[CompareStringW](https://msdn.microsoft.com/library/dd317759%28VS.85%29.aspx)
   
-[компарестринжекс](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
+[CompareStringEx](https://msdn.microsoft.com/library/dd317761%28VS.85%29.aspx)
 

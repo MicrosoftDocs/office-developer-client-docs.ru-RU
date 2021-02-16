@@ -21,7 +21,7 @@ ms.locfileid: "33410464"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Задает значок, отображаемый в строке состояния.
+Указывает значок, отображаемой в панели состояния.
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33410464"
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

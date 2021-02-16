@@ -21,14 +21,14 @@ ms.locfileid: "33409155"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
- **Чтобы найти значок, связанный с сообщением**
+ **Поиск значка, связанного с сообщением**
   
-1. Вызовите метод [IMAPIProp::-PROPS](imapiprop-getprops.md) сообщения, чтобы получить его свойство **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)).
+1. Вызовите метод [IMAPIProp::GetProps](imapiprop-getprops.md) сообщения, чтобы получить его **PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md).
     
-2. Вызовите [мапиопенформмгр](mapiopenformmgr.md) , чтобы получить указатель интерфейса **имапиформмгр** . Передайте указатель **IMAPISession** в параметр _псессион_ . 
+2. Вызовите [MAPIOpenFormMgr, чтобы](mapiopenformmgr.md) получить указатель интерфейса **IMAPIFormMgr.** **Передайте указатель IMAPISession** в _параметре pSession._ 
     
-3. Call [имапиформмгр:: ресолвемессажекласс](imapiformmgr-resolvemessageclass.md) для получения указателя интерфейса **имапиформинфо** . 
+3. Вызовите [IMAPIFormMgr::ResolveMessageClass,](imapiformmgr-resolvemessageclass.md) чтобы получить указатель интерфейса **IMAPIFormInfo.** 
     
-4. С помощью указателя **имапиформинфо** вызовите [IMAPIProp::-PROPS](imapiprop-getprops.md) и извлеките **Свойства PR_ICON** ([PidTagIcon](pidtagicon-canonical-property.md)) и/или **PR_MINI_ICON** ([PidTagMiniIcon](pidtagminiicon-canonical-property.md)). 
+4. Используйте **указатель IMAPIFormInfo,** чтобы вызвать [IMAPIProp::GetProps](imapiprop-getprops.md) и получить свойства **PR_ICON** ([PidTagIcon)](pidtagicon-canonical-property.md)и/или **PR_MINI_ICON** ([PidTagMiniIcon).](pidtagminiicon-canonical-property.md) 
     
 
