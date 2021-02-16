@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: overview
 keywords:
-- пакет средств разработки программного обеспечения для Microsoft Excel 2007 XLL, начало работы
+- Комплект средств разработки программного обеспечения xll для Excel 2007, начало работы
 localization_priority: Normal
 ms.assetid: ba7b5817-f22f-4187-8a5f-316f0fbcb9d2
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -20,18 +20,18 @@ ms.locfileid: "33417191"
 
 **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Пакет средств разработки программного обеспечения (SDK) для Microsoft Excel 2013 XLL содержит сведения, которые помогут приступить к созданию надстроек DLL для Excel 2013, использующих API C. В этом разделе представлены сведения об API C, а также ссылки на справочную документацию, которая поможет вам начать работу с разработкой XLL для Excel 2013.
+Пакет средств разработки программного обеспечения XLL (SDK) для Microsoft Excel 2013 предоставляет сведения, которые помогут вам при создании надстроек DLL для Excel 2013, которые используют API C. В этом разделе содержится информация об API C, а также ссылки на справочную документацию, которая поможет вам начать разработку XLL для Excel 2013.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Программирование с использованием API c в Excel](programming-with-the-c-api-in-excel.md): содержит общие сведения об API c и сведения о сравнении с другими вариантами программирования в Excel 2013.
+- [Программирование с помощью API C](programming-with-the-c-api-in-excel.md)в Excel: введение в API C и его сравнение с другими вариантами программирования в Excel 2013.
     
-- [Новые возможности API c для Excel](what-s-new-in-the-c-api-for-excel.md): описание обновлений API c для Excel 2013.
+- [Новые возможности API C](what-s-new-in-the-c-api-for-excel.md)для Excel: описание обновлений API C для Excel 2013.
     
-- [Известные проблемы, связанные с разработкой XLL для Excel](known-issues-in-excel-xll-development.md): обсуждаются проблемы, возникающие при программировании XLL для Excel.
+- [Известные проблемы в разработке XLL для Excel:](known-issues-in-excel-xll-development.md)обсуждаются проблемы, которые могут возникнуть при программировании на XLL в Excel.
     
 ## <a name="related-sections"></a>Связанные разделы
 
-- [Справочник по функциям API SDK XLL для Excel](excel-xll-sdk-api-function-reference.md): предоставляет справочные сведения о обратных вызовах Excel, которые могут вызываться XLL, обратные вызовы XLL, которые Excel ищет, и ключевые функции в проектах Sample и Framework.
+- [Excel XLL SDK API Function Reference](excel-xll-sdk-api-function-reference.md): Provides a reference for the Excel callbacks that the XLL can call, the XLL callbacks that Excel looks for, and the key functions in the sample and framework projects.
     
 

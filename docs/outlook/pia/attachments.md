@@ -1,5 +1,5 @@
 ---
-title: Вложения
+title: Attachments
 TOCTitle: Attachments
 ms:assetid: 02552591-a40c-4950-9bf9-6c6664a00a80
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184587(v=office.15)

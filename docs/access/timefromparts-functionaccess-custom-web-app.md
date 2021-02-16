@@ -1,5 +1,5 @@
 ---
-title: Функция Тимефромпартс (пользовательское веб-приложение для Access)
+title: TimeFromParts Function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417996"
 ---
-# <a name="timefromparts-function-access-custom-web-app"></a>Функция Тимефромпартс (пользовательское веб-приложение для Access)
+# <a name="timefromparts-function-access-custom-web-app"></a>TimeFromParts Function (Access custom web app)
 
 Возвращает значение времени на основе указанных частей.
   
@@ -23,18 +23,18 @@ ms.locfileid: "33417996"
   
 ## <a name="syntax"></a>Синтаксис
 
- **Тимефромпартс** (*час*, *минута*, *секунда*) 
+ **TimeFromParts** (*Hour*, *Minute*, *Second*) 
   
-Функция **тимефромпартс** содержит указанные ниже аргументы. 
+Функция **TimeFromParts** содержит следующие аргументы. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *Hour*  <br/> |Целочисленное выражение, задающее часы.  <br/> |
-| *Minute*  <br/> |Целочисленное выражение, задающее минуты.  <br/> |
-| *Second*  <br/> |Целочисленное выражение, задающее секунды.  <br/> |
+| *Hour*  <br/> |Integer expression specifying hours.  <br/> |
+| *Minute*  <br/> |Integer expression specifying minutes.  <br/> |
+| *Second*  <br/> |Integer expression specifying seconds.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
- **Тимефромпартс** Возвращает полностью инициализированное значение времени. Если аргументы недопустимы, возникает ошибка. Если какой-либо из параметров имеет значение null, возвращается значение null. 
+ **TimeFromParts** возвращает полностью инициализированное значение времени. Если аргументы недопустимы, вызывается ошибка. Если какой-либо из параметров имеет null, возвращается null. 
   
 

@@ -1,11 +1,11 @@
 ---
-title: И (пользовательское веб-приложение для Access)
+title: AND (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: 44c11a0b-abca-4ea8-8770-f5c1375d8d76
-description: Объединяет два логических выражения и возвращает значение TRUE, если оба выражения имеют значение TRUE.
+description: Объединяет два boolean выражения и возвращает TRUE, если оба выражения имеют true.
 ms.openlocfilehash: 247b15b9f8039d06d08c0ce9b2fcb443e3212350
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -13,23 +13,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426284"
 ---
-# <a name="and-access-custom-web-app"></a>И (пользовательское веб-приложение для Access)
+# <a name="and-access-custom-web-app"></a>AND (пользовательское веб-приложение Access)
 
-Объединяет два логических выражения и возвращает значение TRUE, если оба выражения имеют значение TRUE. 
+Объединяет два boolean выражения и возвращает TRUE, если оба выражения имеют true. 
   
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
 ## <a name="syntax"></a>Синтаксис
 
- *Boolean_expression* **и** *Boolean_expression* 
+ *boolean_expression* **И** *boolean_expression* 
   
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает значение TRUE, если оба выражения имеют значение TRUE.
+Возвращает true, если оба выражения имеют true.
   
 ## <a name="remarks"></a>Примечания
 
-Если в операторе используется несколько логических операторов, операторы AND оцениваются первыми. Порядок оценки можно изменить с помощью круглых скобок.
+Если в операторе используется несколько логических операторов, сначала вычисляются операторы AND. Порядок оценки можно изменить с помощью скобок.
   
 

@@ -25,44 +25,44 @@ ms.locfileid: "32359047"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит версию текста сообщения на языке гипертекстовой разметки (HTML). 
+Содержит версию текста сообщения в формате HTML. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_BODY_HTML, PR_BODY_HTML_A PR_BODY_HTML_W  <br/> |
+|Связанные свойства:  <br/> |PR_BODY_HTML, PR_BODY_HTML_A, PR_BODY_HTML_W  <br/> |
 |Идентификатор:  <br/> |0x1013  <br/> |
-|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
-|Область:  <br/> |Общий обмен сообщениями  <br/> |
+|Тип данных:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
+|Область:  <br/> |Общие сообщения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства содержат тот же текст сообщения, что и **PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation](pidtagbodycontentlocation-canonical-property.md)), но в HTML. 
+Эти свойства содержат тот же текст сообщения, что и **PR_BODY_CONTENT_LOCATION** ([PidTagBodyContentLocation),](pidtagbodycontentlocation-canonical-property.md)но в HTML. 
   
-Хранилище сообщений, поддерживающее HTML, указывает на то, что установка флага **STORE_HTML_OK** в **PR_STORE_SUPPORT_MASK** ([PidTagStoreSupportMask](pidtagstoresupportmask-canonical-property.md)). 
+Хранилище сообщений с поддержкой HTML указывает на это, **установив** флаг STORE_HTML_OK в своем PR_STORE_SUPPORT_MASK **(** [PidTagStoreSupportMask).](pidtagstoresupportmask-canonical-property.md) 
   
- **Примечание** **STORE_HTML_OK** не определено в версиях MAPIDEFS. h, включенных в Microsoft® Exchange 2000 Server и более ранних версий. Если **STORE_HTML_OK** не определен, используйте значение 0x00010000. 
+ **Обратите** **STORE_HTML_OK** не определено в версиях Mapidefs.h, включенных в Microsoft® Exchange 2000 Server и более ранних версий. Если **STORE_HTML_OK** не задопределена, используйте значение 0x00010000. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -70,7 +70,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

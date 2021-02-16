@@ -1,5 +1,5 @@
 ---
-title: Таблицы папок получения
+title: Получение таблиц папок
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,21 +15,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33417352"
 ---
-# <a name="receive-folder-tables"></a>Таблицы папок получения
+# <a name="receive-folder-tables"></a>Получение таблиц папок
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Таблица получить папку содержит сведения обо всех папках, назначенных в качестве папок получения для хранилища сообщений. Папка получения — это папка, в которой размещаются входящие сообщения определенного класса сообщений. Поставщики хранилищ сообщений реализуют таблицы получения и клиентские приложения используют их, выполнив вызов метода [IMsgStore:: жетрецеивефолдертабле](imsgstore-getreceivefoldertable.md) . 
+Таблица папок получения содержит сведения обо всех папках, назначенных в качестве папок получения для хранения сообщений. Папка получения — это папка, в которой размещаются входящие сообщения определенного класса сообщений. Поставщики хранилищ сообщений реализуют таблицы папок получения, а клиентские приложения используют их, вызовите метод [IMsgStore::GetReceiveFolderTable.](imsgstore-getreceivefoldertable.md) 
   
-Следующие свойства составляют обязательный набор столбцов в таблицах получения папок:
+Следующие свойства составляют необходимый набор столбцов в таблицах папок получения:
   
- **PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md)) 
+ **PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md) 
   
- **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) 
+ **PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md) 
   
- **PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md)) 
+ **PR_RECORD_KEY** ([PidTagRecordKey)](pidtagrecordkey-canonical-property.md) 
   
 ## <a name="see-also"></a>См. также
 

@@ -29,35 +29,35 @@ ms.locfileid: "32358900"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидапптендвхоле  <br/> |
+|Связанные свойства:  <br/> |dispidApptEndWhole  <br/> |
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x0000820E  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x0000820E  <br/> |
 |Тип данных:  <br/> |PT_SYSTIME  <br/> |
 |Область:  <br/> |Календарь  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство соответствует свойству **диспидапптендвхоле** встречи в объектной модели Microsoft Office Outlook. 
+Это свойство соответствует свойству **dispidApptEndWhole** встречи в Microsoft Office Outlook объектной модели. 
   
-Указывает дату и время окончания события; Он должен быть в формате UTC и должен быть больше значения свойства **диспидапптстартвхоле** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)). Для повторяющихся рядов свойство **диспидапптендвхоле** — это конечная дата и время первого экземпляра в соответствии с шаблоном повторения. 
+Указывает дату и время окончания события; Оно должно быть в UTC и должно быть больше значения свойства **dispidApptStartWhole** ([PidLidAppointmentStartWhole).](pidlidappointmentstartwhole-canonical-property.md) Для повторяющегося ряда свойство **dispidApptEndWhole** является датой и временем окончания первого экземпляра в соответствии с шаблоном повторения. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -65,7 +65,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

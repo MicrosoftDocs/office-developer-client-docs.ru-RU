@@ -57,5 +57,5 @@ InfoPath предлагает расширенные функции цифров
 
 
 
-[Работать с цифровыми подписями](how-to-work-with-digital-signatures.md)
+[Работа с цифровыми подписями](how-to-work-with-digital-signatures.md)
 

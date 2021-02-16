@@ -1,5 +1,5 @@
 ---
-title: имапимессажеситежетформманажер
+title: IMAPIMessageSiteGetFormManager
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -35,9 +35,9 @@ HRESULT GetFormManager(
 
 ## <a name="parameters"></a>Параметры
 
- _ппформмгр_
+ _ppFormMgr_
   
-> вышли Указатель на указатель на возвращенный интерфейс диспетчера форм.
+> [out] Указатель на указатель на возвращенный интерфейс диспетчера форм.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,7 +47,7 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Список интерфейсов, связанных с серверами форм, представлен в статье [интерфейсы форм MAPI](mapi-form-interfaces.md).
+Список интерфейсов, связанных с серверами форм, см. в списке [интерфейсов форм MAPI.](mapi-form-interfaces.md)
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -55,7 +55,7 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|Мимапиформвиевер. cpp  <br/> |Кмимапиформвиевер:: Жетформманажер  <br/> |MFCMAPI использует метод **имапимессажесите:: жетформманажер** , чтобы вызвать [мапиопенформмгр](mapiopenformmgr.md) и вернуть результаты этого вызова.  <br/> |
+|MyMAPIFormViewer.cpp  <br/> |CMyMAPIFormViewer::GetFormManager  <br/> |MFCMAPI использует метод **IMAPIMessageSite::GetFormManager** для вызова [MAPIOpenFormMgr](mapiopenformmgr.md) и возврата результатов этого вызова.  <br/> |
    
 ## <a name="see-also"></a>См. также
 
