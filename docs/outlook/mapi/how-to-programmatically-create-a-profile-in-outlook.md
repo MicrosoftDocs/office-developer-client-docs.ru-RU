@@ -13,29 +13,29 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32345943"
 ---
-# <a name="programmatically-create-a-profile-in-outlook"></a><span data-ttu-id="2b4a8-103">Программное создание профиля в Outlook</span><span class="sxs-lookup"><span data-stu-id="2b4a8-103">Programmatically create a profile in Outlook</span></span>
+# <a name="programmatically-create-a-profile-in-outlook"></a><span data-ttu-id="3ec62-103">Программное создание профиля в Outlook</span><span class="sxs-lookup"><span data-stu-id="3ec62-103">Programmatically create a profile in Outlook</span></span>
 
-<span data-ttu-id="2b4a8-104">**Относится к**: Office 365 | Outlook | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2b4a8-104">**Applies to**: Office 365 | Outlook | Outlook 2016</span></span> 
+<span data-ttu-id="3ec62-104">**Относится к**: Office 365 | Outlook | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3ec62-104">**Applies to**: Office 365 | Outlook | Outlook 2016</span></span> 
 
-<span data-ttu-id="2b4a8-105">В этой статье описано, как программно обновить профиль в Outlook 2016, добавив свойство MAPI в раздел **emsuid** объекта Profile.</span><span class="sxs-lookup"><span data-stu-id="2b4a8-105">This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object.</span></span> 
+<span data-ttu-id="3ec62-105">В этой статье описано, как программно обновить профиль в Outlook 2016, добавив свойство MAPI в раздел **emsuid** объекта Profile.</span><span class="sxs-lookup"><span data-stu-id="3ec62-105">This topic describes how to programmatically update a profile in Outlook 2016 by adding a MAPI property to the **emsuid** section of the Profile object.</span></span> 
 
-<span data-ttu-id="2b4a8-106">В MAPI можно обновить профиль, задав свойство **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, как описано ранее.</span><span class="sxs-lookup"><span data-stu-id="2b4a8-106">In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, as indicated in the procedure below.</span></span> 
+<span data-ttu-id="3ec62-106">В MAPI можно обновить профиль, задав свойство **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, как описано ранее.</span><span class="sxs-lookup"><span data-stu-id="3ec62-106">In MAPI, you can update a profile by setting the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W (0x6641001F)**, as indicated in the procedure below.</span></span> 
   
-### <a name="set-the-property-for-outlook-2016"></a><span data-ttu-id="2b4a8-107">Задание свойства для Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2b4a8-107">Set the property for Outlook 2016</span></span>
+### <a name="set-the-property-for-outlook-2016"></a><span data-ttu-id="3ec62-107">Задание свойства для Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="3ec62-107">Set the property for Outlook 2016</span></span>
 
-1. <span data-ttu-id="2b4a8-108">Убедитесь, что свойство для Outlook 2016 настроено.</span><span class="sxs-lookup"><span data-stu-id="2b4a8-108">Make sure Outlook 2016 is property configured.</span></span>
+1. <span data-ttu-id="3ec62-108">Убедитесь, что свойство для Outlook 2016 настроено.</span><span class="sxs-lookup"><span data-stu-id="3ec62-108">Make sure Outlook 2016 is property configured.</span></span>
     
-2. <span data-ttu-id="2b4a8-109">С помощью интерфейса [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) перейдите к разделу "Профиль Outlook".</span><span class="sxs-lookup"><span data-stu-id="2b4a8-109">Using the [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) interface, go to the Outlook Profile section.</span></span> 
+2. <span data-ttu-id="3ec62-109">С помощью интерфейса [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) перейдите к разделу "Профиль Outlook".</span><span class="sxs-lookup"><span data-stu-id="3ec62-109">Using the [IMAPIProp](https://msdn.microsoft.com/library/cc815525.aspx) interface, go to the Outlook Profile section.</span></span> 
     
-   <span data-ttu-id="2b4a8-p101">Это может быть сложно в MAPI Outlook, так как в версии 2010 и более поздних больше нет раздела глобального профиля. Чтобы найти раздел профиля, найдите свойство PR_EMSMDB_SECTION_UID (0x3D150102). Значением будет идентификатор GUID раздела профиля, сохраненный в двоичной форме, который будет использоваться при выполнении последующих шагов. Это значение нужно записать.</span><span class="sxs-lookup"><span data-stu-id="2b4a8-p101">This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You will need to remember this value.</span></span> 
+   <span data-ttu-id="3ec62-p101">Это может быть сложно в MAPI Outlook, так как в версии 2010 и более поздних больше нет раздела глобального профиля. Чтобы найти раздел профиля, найдите свойство PR_EMSMDB_SECTION_UID (0x3D150102). Значением будет идентификатор GUID раздела профиля, сохраненный в двоичной форме, который будет использоваться при выполнении последующих шагов. Это значение нужно записать.</span><span class="sxs-lookup"><span data-stu-id="3ec62-p101">This can be difficult in Outlook's MAPI, since in 2010 and above there is no longer the global profile section. To find the Profile section, find the property PR_EMSMDB_SECTION_UID (0x3D150102). The value will be the GUID of the profile section persisted in binary form, which will be used in the subsequent steps. You will need to remember this value.</span></span> 
     
-3. <span data-ttu-id="2b4a8-114">Добавьте свойство **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**.</span><span class="sxs-lookup"><span data-stu-id="2b4a8-114">Add the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**.</span></span> 
+3. <span data-ttu-id="3ec62-114">Добавьте свойство **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**.</span><span class="sxs-lookup"><span data-stu-id="3ec62-114">Add the property **PR_PROFILE_USER_SMTP_EMAIL_ADDRESS_W**.</span></span> 
     
-4. <span data-ttu-id="2b4a8-115">Задайте свойство **0x6641001F** для магазина и укажите раздел **emsuid** для всех поставщиков.</span><span class="sxs-lookup"><span data-stu-id="2b4a8-115">Set the property **0x6641001F** on the store and the **emsuid** section for all providers.</span></span> 
+4. <span data-ttu-id="3ec62-115">Задайте свойство **0x6641001F** для магазина и укажите раздел **emsuid** для всех поставщиков.</span><span class="sxs-lookup"><span data-stu-id="3ec62-115">Set the property **0x6641001F** on the store and the **emsuid** section for all providers.</span></span> 
     
-5. <span data-ttu-id="2b4a8-116">Задайте свойство **PR_DISPLAY_NAME**.</span><span class="sxs-lookup"><span data-stu-id="2b4a8-116">Set the property **PR_DISPLAY_NAME**.</span></span> 
+5. <span data-ttu-id="3ec62-116">Задайте свойство **PR_DISPLAY_NAME**.</span><span class="sxs-lookup"><span data-stu-id="3ec62-116">Set the property **PR_DISPLAY_NAME**.</span></span> 
     
-## <a name="code-example"></a><span data-ttu-id="2b4a8-117">Пример кода</span><span class="sxs-lookup"><span data-stu-id="2b4a8-117">Code example</span></span>
+## <a name="code-example"></a><span data-ttu-id="3ec62-117">Пример кода</span><span class="sxs-lookup"><span data-stu-id="3ec62-117">Code example</span></span>
 
 ```cpp
 // CreateProfile.cpp : Defines the entry point for the console application.
@@ -314,12 +314,12 @@ Cleanup:
 }
 ```
 
-## <a name="use-mfcmapi-to-configure-outlook-profiles"></a><span data-ttu-id="2b4a8-118">Настройка профилей Outlook с помощью MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="2b4a8-118">Use MFCMAPI to configure Outlook profiles</span></span>
+## <a name="use-mfcmapi-to-configure-outlook-profiles"></a><span data-ttu-id="3ec62-118">Настройка профилей Outlook с помощью MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="3ec62-118">Use MFCMAPI to configure Outlook profiles</span></span>
 
-<span data-ttu-id="2b4a8-119">[MFCMAPI](https://mfcmapi.codeplex.com) предоставляет доступ к магазинам MAPI для изучения проблем с Exchange и Outlook, а также для предоставления разработчикам поддержки по MAPI.</span><span class="sxs-lookup"><span data-stu-id="2b4a8-119">[MFCMAPI](https://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development.</span></span> 
+<span data-ttu-id="3ec62-119">[MFCMAPI](https://mfcmapi.codeplex.com) предоставляет доступ к магазинам MAPI для изучения проблем с Exchange и Outlook, а также для предоставления разработчикам поддержки по MAPI.</span><span class="sxs-lookup"><span data-stu-id="3ec62-119">[MFCMAPI](https://mfcmapi.codeplex.com) provides access to MAPI stores to facilitate investigation of Exchange and Outlook issues and to provide developers support for MAPI development.</span></span> 
   
-## <a name="see-also"></a><span data-ttu-id="2b4a8-120">См. также</span><span class="sxs-lookup"><span data-stu-id="2b4a8-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3ec62-120">См. также</span><span class="sxs-lookup"><span data-stu-id="3ec62-120">See also</span></span>
 
-- [<span data-ttu-id="2b4a8-121">Создание профиля Outlook с помощью MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="2b4a8-121">Create an Outlook profile using MFCMAPI</span></span>](https://msdn.microsoft.com/library/office/mt723322.aspx)
+- [<span data-ttu-id="3ec62-121">Создание профиля Outlook с помощью MFCMAPI</span><span class="sxs-lookup"><span data-stu-id="3ec62-121">Create an Outlook profile using MFCMAPI</span></span>](https://msdn.microsoft.com/library/office/mt723322.aspx)
   
 

@@ -19,56 +19,56 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32336479"
 ---
-# <a name="pidtagscheduleinfomonthsmerged-canonical-property"></a><span data-ttu-id="b4b7c-103">Каноническое свойство PidTagScheduleInfoMonthsMerged</span><span class="sxs-lookup"><span data-stu-id="b4b7c-103">PidTagScheduleInfoMonthsMerged Canonical Property</span></span>
+# <a name="pidtagscheduleinfomonthsmerged-canonical-property"></a><span data-ttu-id="968eb-103">Каноническое свойство PidTagScheduleInfoMonthsMerged</span><span class="sxs-lookup"><span data-stu-id="968eb-103">PidTagScheduleInfoMonthsMerged Canonical Property</span></span>
 
   
   
-<span data-ttu-id="b4b7c-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="b4b7c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="968eb-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="968eb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="b4b7c-105">Содержит список месяцев, для которых в сообщении о занятости присутствует сообщение о занятости типа "занято" или "нет на работе" (отсутствие на работе).</span><span class="sxs-lookup"><span data-stu-id="b4b7c-105">Contains a list of the months for which free/busy data of type busy or an out of office (OOF) message is present in the free/busy message.</span></span> 
+<span data-ttu-id="968eb-105">Содержит список месяцев, в течение которых в сообщении о занятости содержатся сведения о занятости типа "занято" или "Нет на офисе" (OOF).</span><span class="sxs-lookup"><span data-stu-id="968eb-105">Contains a list of the months for which free/busy data of type busy or an out of office (OOF) message is present in the free/busy message.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="b4b7c-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="b4b7c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="b4b7c-107">PR_SCHDINFO_MONTHS_MERGED</span><span class="sxs-lookup"><span data-stu-id="b4b7c-107">PR_SCHDINFO_MONTHS_MERGED</span></span>  <br/> |
-|<span data-ttu-id="b4b7c-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="b4b7c-108">Identifier:</span></span>  <br/> |<span data-ttu-id="b4b7c-109">0x684F</span><span class="sxs-lookup"><span data-stu-id="b4b7c-109">0x684F</span></span>  <br/> |
-|<span data-ttu-id="b4b7c-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="b4b7c-110">Data type:</span></span>  <br/> |<span data-ttu-id="b4b7c-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="b4b7c-111">PT_MV_LONG</span></span>  <br/> |
-|<span data-ttu-id="b4b7c-112">Область:</span><span class="sxs-lookup"><span data-stu-id="b4b7c-112">Area:</span></span>  <br/> |<span data-ttu-id="b4b7c-113">Сведения о доступности</span><span class="sxs-lookup"><span data-stu-id="b4b7c-113">Free/Busy</span></span>  <br/> |
+|<span data-ttu-id="968eb-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="968eb-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="968eb-107">PR_SCHDINFO_MONTHS_MERGED</span><span class="sxs-lookup"><span data-stu-id="968eb-107">PR_SCHDINFO_MONTHS_MERGED</span></span>  <br/> |
+|<span data-ttu-id="968eb-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="968eb-108">Identifier:</span></span>  <br/> |<span data-ttu-id="968eb-109">0x684F</span><span class="sxs-lookup"><span data-stu-id="968eb-109">0x684F</span></span>  <br/> |
+|<span data-ttu-id="968eb-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="968eb-110">Data type:</span></span>  <br/> |<span data-ttu-id="968eb-111">PT_MV_LONG</span><span class="sxs-lookup"><span data-stu-id="968eb-111">PT_MV_LONG</span></span>  <br/> |
+|<span data-ttu-id="968eb-112">Область:</span><span class="sxs-lookup"><span data-stu-id="968eb-112">Area:</span></span>  <br/> |<span data-ttu-id="968eb-113">Free/Busy</span><span class="sxs-lookup"><span data-stu-id="968eb-113">Free/Busy</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="b4b7c-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="b4b7c-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="968eb-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="968eb-114">Remarks</span></span>
 
-<span data-ttu-id="b4b7c-115">В это свойство не включены события типа сведений о занятости под вопросом.</span><span class="sxs-lookup"><span data-stu-id="b4b7c-115">Events of free/busy type tentative are not included in this property.</span></span> <span data-ttu-id="b4b7c-116">Синтаксис/формат и ограничения этого свойства такие же, как и в **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)), но ссылаются на встречи, помеченные как неиспользуемые или неработающие, в связанном с ним объекте Calendar.</span><span class="sxs-lookup"><span data-stu-id="b4b7c-116">The syntax/format and constraints of this property are the same as those of **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) but refer to appointments that are marked OOF or Busy on the associated calendar object.</span></span> 
+<span data-ttu-id="968eb-115">События типа "занято" под вопросом не включаются в это свойство.</span><span class="sxs-lookup"><span data-stu-id="968eb-115">Events of free/busy type tentative are not included in this property.</span></span> <span data-ttu-id="968eb-116">Синтаксис/формат и ограничения этого свойства такие же, как и для **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative),](pidtagscheduleinfomonthstentative-canonical-property.md)но ссылаются на встречи, помеченные как "OOF" или "Занят" в связанном объекте календаря.</span><span class="sxs-lookup"><span data-stu-id="968eb-116">The syntax/format and constraints of this property are the same as those of **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)) but refer to appointments that are marked OOF or Busy on the associated calendar object.</span></span> 
   
-## <a name="related-resources"></a><span data-ttu-id="b4b7c-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="b4b7c-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="968eb-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="968eb-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="b4b7c-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="b4b7c-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="968eb-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="968eb-118">Protocol specifications</span></span>
 
-<span data-ttu-id="b4b7c-119">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b4b7c-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="968eb-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="968eb-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b4b7c-120">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="b4b7c-120">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="968eb-120">Содержит ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="968eb-120">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="b4b7c-121">[[MS — ОКСОПФФБ]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="b4b7c-121">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="968eb-121">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="968eb-121">[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="b4b7c-122">Публикует доступность пользователя или ресурса.</span><span class="sxs-lookup"><span data-stu-id="b4b7c-122">Publishes the availability of a user or resource.</span></span>
+> <span data-ttu-id="968eb-122">Публикует доступность пользователя или ресурса.</span><span class="sxs-lookup"><span data-stu-id="968eb-122">Publishes the availability of a user or resource.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="b4b7c-123">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="b4b7c-123">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="968eb-123">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="968eb-123">Header files</span></span>
 
-<span data-ttu-id="b4b7c-124">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="b4b7c-124">Mapidefs.h</span></span>
+<span data-ttu-id="968eb-124">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="968eb-124">Mapidefs.h</span></span>
   
-> <span data-ttu-id="b4b7c-125">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="b4b7c-125">Provides data type definitions.</span></span>
+> <span data-ttu-id="968eb-125">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="968eb-125">Provides data type definitions.</span></span>
     
-<span data-ttu-id="b4b7c-126">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="b4b7c-126">Mapitags.h</span></span>
+<span data-ttu-id="968eb-126">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="968eb-126">Mapitags.h</span></span>
   
-> <span data-ttu-id="b4b7c-127">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="b4b7c-127">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="968eb-127">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="968eb-127">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="b4b7c-128">См. также</span><span class="sxs-lookup"><span data-stu-id="b4b7c-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="968eb-128">См. также</span><span class="sxs-lookup"><span data-stu-id="968eb-128">See also</span></span>
 
 
 
-[<span data-ttu-id="b4b7c-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="b4b7c-129">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="968eb-129">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="968eb-129">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="b4b7c-130">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="b4b7c-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="968eb-130">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="968eb-130">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="b4b7c-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="b4b7c-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="968eb-131">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="968eb-131">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="b4b7c-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="b4b7c-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="968eb-132">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="968eb-132">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

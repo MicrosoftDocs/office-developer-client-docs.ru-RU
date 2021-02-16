@@ -19,60 +19,60 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32329395"
 ---
-# <a name="pidtagnextsendacct-canonical-property"></a><span data-ttu-id="06872-103">Каноническое свойство PidTagNextSendAcct</span><span class="sxs-lookup"><span data-stu-id="06872-103">PidTagNextSendAcct Canonical Property</span></span>
+# <a name="pidtagnextsendacct-canonical-property"></a><span data-ttu-id="f4703-103">Каноническое свойство PidTagNextSendAcct</span><span class="sxs-lookup"><span data-stu-id="f4703-103">PidTagNextSendAcct Canonical Property</span></span>
 
   
   
-<span data-ttu-id="06872-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="06872-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="f4703-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="f4703-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="06872-105">Указывает сервер, который клиент пытается использовать для отправки электронной почты.</span><span class="sxs-lookup"><span data-stu-id="06872-105">Specifies the server that a client is currently attempting to use to send email.</span></span>
+<span data-ttu-id="f4703-105">Указывает сервер, который клиент пытается использовать для отправки электронной почты.</span><span class="sxs-lookup"><span data-stu-id="f4703-105">Specifies the server that a client is currently attempting to use to send email.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="06872-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="06872-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="06872-107">PR_NEXT_SEND_ACCT</span><span class="sxs-lookup"><span data-stu-id="06872-107">PR_NEXT_SEND_ACCT</span></span>  <br/> |
-|<span data-ttu-id="06872-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="06872-108">Identifier:</span></span>  <br/> |<span data-ttu-id="06872-109">0x0E29</span><span class="sxs-lookup"><span data-stu-id="06872-109">0x0E29</span></span>  <br/> |
-|<span data-ttu-id="06872-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="06872-110">Data type:</span></span>  <br/> |<span data-ttu-id="06872-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="06872-111">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="06872-112">Область:</span><span class="sxs-lookup"><span data-stu-id="06872-112">Area:</span></span>  <br/> |<span data-ttu-id="06872-113">Приложение Outlook</span><span class="sxs-lookup"><span data-stu-id="06872-113">Outlook application</span></span>  <br/> |
+|<span data-ttu-id="f4703-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="f4703-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="f4703-107">PR_NEXT_SEND_ACCT</span><span class="sxs-lookup"><span data-stu-id="f4703-107">PR_NEXT_SEND_ACCT</span></span>  <br/> |
+|<span data-ttu-id="f4703-108">Идентификатор:</span><span class="sxs-lookup"><span data-stu-id="f4703-108">Identifier:</span></span>  <br/> |<span data-ttu-id="f4703-109">0x0E29</span><span class="sxs-lookup"><span data-stu-id="f4703-109">0x0E29</span></span>  <br/> |
+|<span data-ttu-id="f4703-110">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="f4703-110">Data type:</span></span>  <br/> |<span data-ttu-id="f4703-111">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="f4703-111">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="f4703-112">Область:</span><span class="sxs-lookup"><span data-stu-id="f4703-112">Area:</span></span>  <br/> |<span data-ttu-id="f4703-113">Приложение Outlook</span><span class="sxs-lookup"><span data-stu-id="f4703-113">Outlook application</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="06872-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="06872-114">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f4703-114">Примечания</span><span class="sxs-lookup"><span data-stu-id="f4703-114">Remarks</span></span>
 
-<span data-ttu-id="06872-115">Формат этого свойства зависит от реализации.</span><span class="sxs-lookup"><span data-stu-id="06872-115">The format of this property is implementation dependent.</span></span> <span data-ttu-id="06872-116">Это свойство можно использовать в клиенте, чтобы определить, какой сервер должен направить сообщение, но является необязательным и значение не имеет смысла для сервера.</span><span class="sxs-lookup"><span data-stu-id="06872-116">This property can be used by the client to determine which server to direct the email to, but is optional and the value has no meaning to the server.</span></span>
+<span data-ttu-id="f4703-115">Формат этого свойства зависит от реализации.</span><span class="sxs-lookup"><span data-stu-id="f4703-115">The format of this property is implementation dependent.</span></span> <span data-ttu-id="f4703-116">Это свойство может использоваться клиентом для определения сервера, на который направляется электронная почта, но является необязательным, а значение не имеет значения для сервера.</span><span class="sxs-lookup"><span data-stu-id="f4703-116">This property can be used by the client to determine which server to direct the email to, but is optional and the value has no meaning to the server.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="06872-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="06872-117">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="f4703-117">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="f4703-117">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="06872-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="06872-118">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="f4703-118">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="f4703-118">Protocol specifications</span></span>
 
-<span data-ttu-id="06872-119">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="06872-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="f4703-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f4703-119">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="06872-120">Содержит ссылки на соответствующие спецификации протоколов Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="06872-120">Provides references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="f4703-120">Содержит ссылки на связанные Exchange Server протоколы.</span><span class="sxs-lookup"><span data-stu-id="f4703-120">Provides references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="06872-121">[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="06872-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="f4703-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f4703-121">[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="06872-122">Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.</span><span class="sxs-lookup"><span data-stu-id="06872-122">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
+> <span data-ttu-id="f4703-122">Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.</span><span class="sxs-lookup"><span data-stu-id="f4703-122">Converts between IETF RFC2445, RFC2446, and RFC2447, and appointment and meeting objects.</span></span>
     
-<span data-ttu-id="06872-123">[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="06872-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="f4703-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="f4703-123">[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="06872-124">Задает свойства и операции, допустимые для объектов сообщений электронной почты.</span><span class="sxs-lookup"><span data-stu-id="06872-124">Specifies the properties and operations that are permissible for email message objects.</span></span>
+> <span data-ttu-id="f4703-124">Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.</span><span class="sxs-lookup"><span data-stu-id="f4703-124">Specifies the properties and operations that are permissible for email message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="06872-125">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="06872-125">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="f4703-125">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="f4703-125">Header files</span></span>
 
-<span data-ttu-id="06872-126">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="06872-126">Mapidefs.h</span></span>
+<span data-ttu-id="f4703-126">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="f4703-126">Mapidefs.h</span></span>
   
-> <span data-ttu-id="06872-127">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="06872-127">Provides data type definitions.</span></span>
+> <span data-ttu-id="f4703-127">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="f4703-127">Provides data type definitions.</span></span>
     
-<span data-ttu-id="06872-128">Мапитагс. h</span><span class="sxs-lookup"><span data-stu-id="06872-128">Mapitags.h</span></span>
+<span data-ttu-id="f4703-128">Mapitags.h</span><span class="sxs-lookup"><span data-stu-id="f4703-128">Mapitags.h</span></span>
   
-> <span data-ttu-id="06872-129">Содержит определения свойств, перечисленных как альтернативные имена.</span><span class="sxs-lookup"><span data-stu-id="06872-129">Contains definitions of properties listed as alternate names.</span></span>
+> <span data-ttu-id="f4703-129">Содержит определения свойств, перечисленных в качестве альтернативных имен.</span><span class="sxs-lookup"><span data-stu-id="f4703-129">Contains definitions of properties listed as alternate names.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="06872-130">См. также</span><span class="sxs-lookup"><span data-stu-id="06872-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="f4703-130">См. также</span><span class="sxs-lookup"><span data-stu-id="f4703-130">See also</span></span>
 
 
 
-[<span data-ttu-id="06872-131">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="06872-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="f4703-131">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="f4703-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="06872-132">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="06872-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="f4703-132">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="f4703-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="06872-133">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="06872-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="f4703-133">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="f4703-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="06872-134">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="06872-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="f4703-134">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="f4703-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

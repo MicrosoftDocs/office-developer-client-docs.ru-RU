@@ -19,53 +19,53 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32332972"
 ---
-# <a name="pidlidintendedbusystatus-canonical-property"></a><span data-ttu-id="86a2e-103">Каноническое свойство PidLidIntendedBusyStatus</span><span class="sxs-lookup"><span data-stu-id="86a2e-103">PidLidIntendedBusyStatus Canonical Property</span></span>
+# <a name="pidlidintendedbusystatus-canonical-property"></a><span data-ttu-id="e7585-103">Каноническое свойство PidLidIntendedBusyStatus</span><span class="sxs-lookup"><span data-stu-id="e7585-103">PidLidIntendedBusyStatus Canonical Property</span></span>
 
   
   
-<span data-ttu-id="86a2e-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="86a2e-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e7585-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e7585-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="86a2e-105">Задает значение свойства **диспидбусистатус** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) на собрании в календаре организатора при отправке приглашения на собрание или собрания.</span><span class="sxs-lookup"><span data-stu-id="86a2e-105">Specifies the value of the **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) property on the meeting in the organizer's calendar when the meeting request or meeting update was sent.</span></span>
+<span data-ttu-id="e7585-105">Указывает значение свойства **dispidBusyStatus** [(PidLidBusyStatus)](pidlidbusystatus-canonical-property.md)собрания в календаре организатора при отправлении запроса на собрание или обновления собрания.</span><span class="sxs-lookup"><span data-stu-id="e7585-105">Specifies the value of the **dispidBusyStatus** ([PidLidBusyStatus](pidlidbusystatus-canonical-property.md)) property on the meeting in the organizer's calendar when the meeting request or meeting update was sent.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="86a2e-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="86a2e-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="86a2e-107">диспидинтендедбусистатус</span><span class="sxs-lookup"><span data-stu-id="86a2e-107">dispidIntendedBusyStatus</span></span>  <br/> |
-|<span data-ttu-id="86a2e-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="86a2e-108">Property set:</span></span>  <br/> |<span data-ttu-id="86a2e-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="86a2e-109">PSETID_Appointment</span></span>  <br/> |
-|<span data-ttu-id="86a2e-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="86a2e-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="86a2e-111">0x00008224</span><span class="sxs-lookup"><span data-stu-id="86a2e-111">0x00008224</span></span>  <br/> |
-|<span data-ttu-id="86a2e-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="86a2e-112">Data type:</span></span>  <br/> |<span data-ttu-id="86a2e-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="86a2e-113">PT_LONG</span></span>  <br/> |
-|<span data-ttu-id="86a2e-114">Область:</span><span class="sxs-lookup"><span data-stu-id="86a2e-114">Area:</span></span>  <br/> |<span data-ttu-id="86a2e-115">Собрания</span><span class="sxs-lookup"><span data-stu-id="86a2e-115">Meetings</span></span>  <br/> |
+|<span data-ttu-id="e7585-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="e7585-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="e7585-107">dispidIntendedBusyStatus</span><span class="sxs-lookup"><span data-stu-id="e7585-107">dispidIntendedBusyStatus</span></span>  <br/> |
+|<span data-ttu-id="e7585-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="e7585-108">Property set:</span></span>  <br/> |<span data-ttu-id="e7585-109">PSETID_Appointment</span><span class="sxs-lookup"><span data-stu-id="e7585-109">PSETID_Appointment</span></span>  <br/> |
+|<span data-ttu-id="e7585-110">Длинный ИД (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="e7585-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="e7585-111">0x00008224</span><span class="sxs-lookup"><span data-stu-id="e7585-111">0x00008224</span></span>  <br/> |
+|<span data-ttu-id="e7585-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="e7585-112">Data type:</span></span>  <br/> |<span data-ttu-id="e7585-113">PT_LONG</span><span class="sxs-lookup"><span data-stu-id="e7585-113">PT_LONG</span></span>  <br/> |
+|<span data-ttu-id="e7585-114">Область:</span><span class="sxs-lookup"><span data-stu-id="e7585-114">Area:</span></span>  <br/> |<span data-ttu-id="e7585-115">Собрания</span><span class="sxs-lookup"><span data-stu-id="e7585-115">Meetings</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="86a2e-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="86a2e-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e7585-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="e7585-116">Remarks</span></span>
 
-<span data-ttu-id="86a2e-117">Допустимые значения этого свойства такие же, как и для свойства **диспидбусистатус**.</span><span class="sxs-lookup"><span data-stu-id="86a2e-117">The allowable values of this property are the same as those for the property **dispidBusyStatus**.</span></span>
+<span data-ttu-id="e7585-117">Допустимые значения этого свойства такие же, как и для **свойства dispidBusyStatus.**</span><span class="sxs-lookup"><span data-stu-id="e7585-117">The allowable values of this property are the same as those for the property **dispidBusyStatus**.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="86a2e-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="86a2e-118">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="e7585-118">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="e7585-118">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="86a2e-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="86a2e-119">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="e7585-119">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="e7585-119">Protocol specifications</span></span>
 
-<span data-ttu-id="86a2e-120">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="86a2e-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="e7585-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e7585-120">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="86a2e-121">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="86a2e-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="e7585-121">Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="e7585-121">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="86a2e-122">[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="86a2e-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="e7585-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="e7585-122">[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="86a2e-123">Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.</span><span class="sxs-lookup"><span data-stu-id="86a2e-123">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
+> <span data-ttu-id="e7585-123">Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.</span><span class="sxs-lookup"><span data-stu-id="e7585-123">Specifies the properties and operations for appointment, meeting request, and response messages.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="86a2e-124">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="86a2e-124">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="e7585-124">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="e7585-124">Header files</span></span>
 
-<span data-ttu-id="86a2e-125">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="86a2e-125">Mapidefs.h</span></span>
+<span data-ttu-id="e7585-125">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e7585-125">Mapidefs.h</span></span>
   
-> <span data-ttu-id="86a2e-126">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="86a2e-126">Provides data type definitions.</span></span>
+> <span data-ttu-id="e7585-126">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="e7585-126">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="86a2e-127">См. также</span><span class="sxs-lookup"><span data-stu-id="86a2e-127">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e7585-127">См. также</span><span class="sxs-lookup"><span data-stu-id="e7585-127">See also</span></span>
 
 
 
-[<span data-ttu-id="86a2e-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="86a2e-128">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="e7585-128">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="e7585-128">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="86a2e-129">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="86a2e-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="e7585-129">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="e7585-129">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="86a2e-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="86a2e-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="e7585-130">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="e7585-130">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="86a2e-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="86a2e-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="e7585-131">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="e7585-131">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

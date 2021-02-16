@@ -19,53 +19,53 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32340091"
 ---
-# <a name="pidlidtaskassigner-canonical-property"></a><span data-ttu-id="d4490-103">Каноническое свойство PidLidTaskAssigner</span><span class="sxs-lookup"><span data-stu-id="d4490-103">PidLidTaskAssigner Canonical Property</span></span>
+# <a name="pidlidtaskassigner-canonical-property"></a><span data-ttu-id="a152c-103">Каноническое свойство PidLidTaskAssigner</span><span class="sxs-lookup"><span data-stu-id="a152c-103">PidLidTaskAssigner Canonical Property</span></span>
 
   
   
-<span data-ttu-id="d4490-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="d4490-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="a152c-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a152c-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
- <span data-ttu-id="d4490-105">Имя пользователя, которому назначена задача.</span><span class="sxs-lookup"><span data-stu-id="d4490-105">Names the user who was last assigned the task.</span></span> 
+ <span data-ttu-id="a152c-105">Имя пользователя, которому была назначена последняя задача.</span><span class="sxs-lookup"><span data-stu-id="a152c-105">Names the user who was last assigned the task.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="d4490-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="d4490-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="d4490-107">диспидтаскделегатор</span><span class="sxs-lookup"><span data-stu-id="d4490-107">dispidTaskDelegator</span></span>  <br/> |
-|<span data-ttu-id="d4490-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="d4490-108">Property set:</span></span>  <br/> |<span data-ttu-id="d4490-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="d4490-109">PSETID_Task</span></span>  <br/> |
-|<span data-ttu-id="d4490-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="d4490-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="d4490-111">0x00008121</span><span class="sxs-lookup"><span data-stu-id="d4490-111">0x00008121</span></span>  <br/> |
-|<span data-ttu-id="d4490-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="d4490-112">Data type:</span></span>  <br/> |<span data-ttu-id="d4490-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="d4490-113">PT_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="d4490-114">Область:</span><span class="sxs-lookup"><span data-stu-id="d4490-114">Area:</span></span>  <br/> |<span data-ttu-id="d4490-115">Задача</span><span class="sxs-lookup"><span data-stu-id="d4490-115">Task</span></span>  <br/> |
+|<span data-ttu-id="a152c-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="a152c-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="a152c-107">dispidTaskDelegator</span><span class="sxs-lookup"><span data-stu-id="a152c-107">dispidTaskDelegator</span></span>  <br/> |
+|<span data-ttu-id="a152c-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="a152c-108">Property set:</span></span>  <br/> |<span data-ttu-id="a152c-109">PSETID_Task</span><span class="sxs-lookup"><span data-stu-id="a152c-109">PSETID_Task</span></span>  <br/> |
+|<span data-ttu-id="a152c-110">Длинный ИД (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="a152c-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="a152c-111">0x00008121</span><span class="sxs-lookup"><span data-stu-id="a152c-111">0x00008121</span></span>  <br/> |
+|<span data-ttu-id="a152c-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="a152c-112">Data type:</span></span>  <br/> |<span data-ttu-id="a152c-113">PT_UNICODE</span><span class="sxs-lookup"><span data-stu-id="a152c-113">PT_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="a152c-114">Область:</span><span class="sxs-lookup"><span data-stu-id="a152c-114">Area:</span></span>  <br/> |<span data-ttu-id="a152c-115">Task</span><span class="sxs-lookup"><span data-stu-id="a152c-115">Task</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="d4490-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="d4490-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="a152c-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="a152c-116">Remarks</span></span>
 
-<span data-ttu-id="d4490-117">Если задача не назначена, это свойство остается неопределенным.</span><span class="sxs-lookup"><span data-stu-id="d4490-117">If the task has not been assigned, this property is left unset.</span></span> <span data-ttu-id="d4490-118">Так как клиент задает это свойство после получения поручения задачей поручения, оно не будет задано в копии задачи, назначенной ей.</span><span class="sxs-lookup"><span data-stu-id="d4490-118">Because the client sets this property after the task assignee receives a task request, the property will not be set on the task assigner's copy of the task.</span></span> <span data-ttu-id="d4490-119">Когда клиент добавляет или удаляет назначение задачи из списка "назначение задачи" в свойстве **диспидтаскмиделегаторс** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)), необходимо задать для свойства **диспидтаскделегатор** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) значение "добавленный" или "удаленный".</span><span class="sxs-lookup"><span data-stu-id="d4490-119">When the client adds or removes a task assigner from the task assigner list in the **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)) property, the **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) property must be set to the added or removed task assigner.</span></span>
+<span data-ttu-id="a152c-117">Если задача не назначена, это свойство остается невыпученным.</span><span class="sxs-lookup"><span data-stu-id="a152c-117">If the task has not been assigned, this property is left unset.</span></span> <span data-ttu-id="a152c-118">Так как клиент задает это свойство после получения запроса задачи, это свойство не будет установлено в копии задачи.</span><span class="sxs-lookup"><span data-stu-id="a152c-118">Because the client sets this property after the task assignee receives a task request, the property will not be set on the task assigner's copy of the task.</span></span> <span data-ttu-id="a152c-119">Когда клиент добавляет или удаляет назначение задачи из списка назначения задач в свойстве **dispidTaskMyDelegators** [(PidLidTaskAssigners),](pidlidtaskassigners-canonical-property.md)свойство **dispidTaskDelegator** ([PidLidTaskAssigner)](pidlidtaskassigner-canonical-property.md)должно быть установлено для добавленного или удаленного назначения задачи.</span><span class="sxs-lookup"><span data-stu-id="a152c-119">When the client adds or removes a task assigner from the task assigner list in the **dispidTaskMyDelegators** ([PidLidTaskAssigners](pidlidtaskassigners-canonical-property.md)) property, the **dispidTaskDelegator** ([PidLidTaskAssigner](pidlidtaskassigner-canonical-property.md)) property must be set to the added or removed task assigner.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="d4490-120">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="d4490-120">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="a152c-120">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="a152c-120">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="d4490-121">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="d4490-121">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="a152c-121">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="a152c-121">Protocol specifications</span></span>
 
-<span data-ttu-id="d4490-122">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d4490-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a152c-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a152c-122">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="d4490-123">Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="d4490-123">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="a152c-123">Предоставляет определения наборов свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="a152c-123">Provides property set definitions and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="d4490-124">[[MS — ОКСОТАСК]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="d4490-124">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="a152c-124">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="a152c-124">[[MS-OXOTASK]](https://msdn.microsoft.com/library/55600ec0-6195-4730-8436-59c7931ef27e%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="d4490-125">Определяет несколько объектов, которые моделируют электронные эквиваленты задач, назначений задач и обновлений задач.</span><span class="sxs-lookup"><span data-stu-id="d4490-125">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
+> <span data-ttu-id="a152c-125">Определяет несколько объектов, которые моделируют электронный эквивалент задач, назначений задач и обновлений задач.</span><span class="sxs-lookup"><span data-stu-id="a152c-125">Defines several objects that model the electronic equivalent of tasks, task assignments, and task updates.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="d4490-126">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="d4490-126">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="a152c-126">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="a152c-126">Header files</span></span>
 
-<span data-ttu-id="d4490-127">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="d4490-127">Mapidefs.h</span></span>
+<span data-ttu-id="a152c-127">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="a152c-127">Mapidefs.h</span></span>
   
-> <span data-ttu-id="d4490-128">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="d4490-128">Provides data type definitions.</span></span>
+> <span data-ttu-id="a152c-128">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="a152c-128">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="d4490-129">См. также</span><span class="sxs-lookup"><span data-stu-id="d4490-129">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="a152c-129">См. также</span><span class="sxs-lookup"><span data-stu-id="a152c-129">See also</span></span>
 
 
 
-[<span data-ttu-id="d4490-130">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="d4490-130">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="a152c-130">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="a152c-130">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="d4490-131">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="d4490-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="a152c-131">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="a152c-131">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="d4490-132">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="d4490-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="a152c-132">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="a152c-132">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="d4490-133">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="d4490-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="a152c-133">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="a152c-133">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 

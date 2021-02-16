@@ -19,55 +19,55 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32344977"
 ---
-# <a name="pidlidcategories-canonical-property"></a><span data-ttu-id="714fb-103">Каноническое свойство PidLidCategories</span><span class="sxs-lookup"><span data-stu-id="714fb-103">PidLidCategories Canonical Property</span></span>
+# <a name="pidlidcategories-canonical-property"></a><span data-ttu-id="cb81d-103">Каноническое свойство PidLidCategories</span><span class="sxs-lookup"><span data-stu-id="cb81d-103">PidLidCategories Canonical Property</span></span>
 
   
   
-<span data-ttu-id="714fb-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="714fb-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="cb81d-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="cb81d-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="714fb-105">Задает список категорий для элемента.</span><span class="sxs-lookup"><span data-stu-id="714fb-105">Specifies a list of categories for an item.</span></span>
+<span data-ttu-id="cb81d-105">Указывает список категорий для элемента.</span><span class="sxs-lookup"><span data-stu-id="cb81d-105">Specifies a list of categories for an item.</span></span>
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="714fb-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="714fb-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="714fb-107">диспидкатегориес</span><span class="sxs-lookup"><span data-stu-id="714fb-107">dispidCategories</span></span>  <br/> |
-|<span data-ttu-id="714fb-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="714fb-108">Property set:</span></span>  <br/> |<span data-ttu-id="714fb-109">PS_PUBLIC_STRINGS</span><span class="sxs-lookup"><span data-stu-id="714fb-109">PS_PUBLIC_STRINGS</span></span>  <br/> |
-|<span data-ttu-id="714fb-110">Длинный идентификатор (крышка):</span><span class="sxs-lookup"><span data-stu-id="714fb-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="714fb-111">0x00002328</span><span class="sxs-lookup"><span data-stu-id="714fb-111">0x00002328</span></span>  <br/> |
-|<span data-ttu-id="714fb-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="714fb-112">Data type:</span></span>  <br/> |<span data-ttu-id="714fb-113">PT_MV_UNICODE</span><span class="sxs-lookup"><span data-stu-id="714fb-113">PT_MV_UNICODE</span></span>  <br/> |
-|<span data-ttu-id="714fb-114">Область:</span><span class="sxs-lookup"><span data-stu-id="714fb-114">Area:</span></span>  <br/> |<span data-ttu-id="714fb-115">Распространенная</span><span class="sxs-lookup"><span data-stu-id="714fb-115">Common</span></span>  <br/> |
+|<span data-ttu-id="cb81d-106">Связанные свойства:</span><span class="sxs-lookup"><span data-stu-id="cb81d-106">Associated properties:</span></span>  <br/> |<span data-ttu-id="cb81d-107">dispidCategories</span><span class="sxs-lookup"><span data-stu-id="cb81d-107">dispidCategories</span></span>  <br/> |
+|<span data-ttu-id="cb81d-108">Набор свойств:</span><span class="sxs-lookup"><span data-stu-id="cb81d-108">Property set:</span></span>  <br/> |<span data-ttu-id="cb81d-109">PS_PUBLIC_STRINGS</span><span class="sxs-lookup"><span data-stu-id="cb81d-109">PS_PUBLIC_STRINGS</span></span>  <br/> |
+|<span data-ttu-id="cb81d-110">Длинный ИД (КРЫШКА):</span><span class="sxs-lookup"><span data-stu-id="cb81d-110">Long ID (LID):</span></span>  <br/> |<span data-ttu-id="cb81d-111">0x00002328</span><span class="sxs-lookup"><span data-stu-id="cb81d-111">0x00002328</span></span>  <br/> |
+|<span data-ttu-id="cb81d-112">Тип данных:</span><span class="sxs-lookup"><span data-stu-id="cb81d-112">Data type:</span></span>  <br/> |<span data-ttu-id="cb81d-113">PT_MV_UNICODE</span><span class="sxs-lookup"><span data-stu-id="cb81d-113">PT_MV_UNICODE</span></span>  <br/> |
+|<span data-ttu-id="cb81d-114">Область:</span><span class="sxs-lookup"><span data-stu-id="cb81d-114">Area:</span></span>  <br/> |<span data-ttu-id="cb81d-115">Распространенная</span><span class="sxs-lookup"><span data-stu-id="cb81d-115">Common</span></span>  <br/> |
    
-## <a name="remarks"></a><span data-ttu-id="714fb-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="714fb-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="cb81d-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="cb81d-116">Remarks</span></span>
 
-<span data-ttu-id="714fb-117">Чтобы создать поле заголовка ключевых слов, клиенты должны присвоить значение этого свойства желаемым значениям.</span><span class="sxs-lookup"><span data-stu-id="714fb-117">To generate a keywords header field, clients must set the value of this property to the desired values.</span></span> <span data-ttu-id="714fb-118">Это свойство содержит несколько строк; Каждая категория должна быть сопоставлена с одним ключевым словом.</span><span class="sxs-lookup"><span data-stu-id="714fb-118">This property has multiple strings; each category should be mapped to a single keyword.</span></span>
+<span data-ttu-id="cb81d-117">Чтобы создать поле загона ключевых слов, клиенты должны установить для этого свойства нужные значения.</span><span class="sxs-lookup"><span data-stu-id="cb81d-117">To generate a keywords header field, clients must set the value of this property to the desired values.</span></span> <span data-ttu-id="cb81d-118">Это свойство имеет несколько строк; каждая категория должна быть соедина с одним ключевым словом.</span><span class="sxs-lookup"><span data-stu-id="cb81d-118">This property has multiple strings; each category should be mapped to a single keyword.</span></span>
   
-<span data-ttu-id="714fb-119">Средства записи MIME должны копировать каждое значение этого свойства в отдельное ключевое слово в поле заголовка ключевых слов с запятой (U + 002C) и пространством (U + 0020), разделяющее каждое ключевое слово.</span><span class="sxs-lookup"><span data-stu-id="714fb-119">Multipurpose Internet Mail Extensions (MIME) writers should copy each sub-value of this property to a separate keyword in the Keywords header field, with a comma (U+002C) and space (U+0020) separating each keyword.</span></span> <span data-ttu-id="714fb-120">Записи MIME могут удалять это свойство, а не копировать его в поле заголовка ключевых слов, чтобы избежать конфликтов между различными наборами категорий в разных организациях.</span><span class="sxs-lookup"><span data-stu-id="714fb-120">MIME writers may drop this property instead of copying it to the keywords header field, in order to avoid conflict among different sets of categories in different organizations.</span></span>
+<span data-ttu-id="cb81d-119">Авторы MIME должны скопировать каждое под значение этого свойства в отдельное ключевое слово в поле "Ключевые слова" с запятой (U+002C) и пробелом (U+0020), отделяющие каждое ключевое слово.</span><span class="sxs-lookup"><span data-stu-id="cb81d-119">Multipurpose Internet Mail Extensions (MIME) writers should copy each sub-value of this property to a separate keyword in the Keywords header field, with a comma (U+002C) and space (U+0020) separating each keyword.</span></span> <span data-ttu-id="cb81d-120">MIME writers may drop this property instead of copying it to the keywords header field, to avoid conflict among different sets of categories in different organizations.</span><span class="sxs-lookup"><span data-stu-id="cb81d-120">MIME writers may drop this property instead of copying it to the keywords header field, in order to avoid conflict among different sets of categories in different organizations.</span></span>
   
-## <a name="related-resources"></a><span data-ttu-id="714fb-121">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="714fb-121">Related resources</span></span>
+## <a name="related-resources"></a><span data-ttu-id="cb81d-121">Связанные ресурсы</span><span class="sxs-lookup"><span data-stu-id="cb81d-121">Related resources</span></span>
 
-### <a name="protocol-specifications"></a><span data-ttu-id="714fb-122">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="714fb-122">Protocol specifications</span></span>
+### <a name="protocol-specifications"></a><span data-ttu-id="cb81d-122">Спецификации протокола</span><span class="sxs-lookup"><span data-stu-id="cb81d-122">Protocol specifications</span></span>
 
-<span data-ttu-id="714fb-123">[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="714fb-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="cb81d-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cb81d-123">[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="714fb-124">Предоставляет определение набора свойств и ссылки на соответствующие спецификации протокола Exchange Server.</span><span class="sxs-lookup"><span data-stu-id="714fb-124">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
+> <span data-ttu-id="cb81d-124">Предоставляет определение набора свойств и ссылки на связанные Exchange Server спецификации протокола.</span><span class="sxs-lookup"><span data-stu-id="cb81d-124">Provides property set definition and references to related Exchange Server protocol specifications.</span></span>
     
-<span data-ttu-id="714fb-125">[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="714fb-125">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
+<span data-ttu-id="cb81d-125">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span><span class="sxs-lookup"><span data-stu-id="cb81d-125">[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)</span></span>
   
-> <span data-ttu-id="714fb-126">Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.</span><span class="sxs-lookup"><span data-stu-id="714fb-126">Converts from Internet standard email conventions to message objects.</span></span>
+> <span data-ttu-id="cb81d-126">Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.</span><span class="sxs-lookup"><span data-stu-id="cb81d-126">Converts from Internet standard email conventions to message objects.</span></span>
     
-### <a name="header-files"></a><span data-ttu-id="714fb-127">Файлы заголовков</span><span class="sxs-lookup"><span data-stu-id="714fb-127">Header files</span></span>
+### <a name="header-files"></a><span data-ttu-id="cb81d-127">Файлы заголовок</span><span class="sxs-lookup"><span data-stu-id="cb81d-127">Header files</span></span>
 
-<span data-ttu-id="714fb-128">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="714fb-128">Mapidefs.h</span></span>
+<span data-ttu-id="cb81d-128">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="cb81d-128">Mapidefs.h</span></span>
   
-> <span data-ttu-id="714fb-129">Содержит определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="714fb-129">Provides data type definitions.</span></span>
+> <span data-ttu-id="cb81d-129">Предоставляет определения типов данных.</span><span class="sxs-lookup"><span data-stu-id="cb81d-129">Provides data type definitions.</span></span>
     
-## <a name="see-also"></a><span data-ttu-id="714fb-130">См. также</span><span class="sxs-lookup"><span data-stu-id="714fb-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="cb81d-130">См. также</span><span class="sxs-lookup"><span data-stu-id="cb81d-130">See also</span></span>
 
 
 
-[<span data-ttu-id="714fb-131">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="714fb-131">MAPI Properties</span></span>](mapi-properties.md)
+[<span data-ttu-id="cb81d-131">Свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="cb81d-131">MAPI Properties</span></span>](mapi-properties.md)
   
-[<span data-ttu-id="714fb-132">Каноническое свойство MAPI</span><span class="sxs-lookup"><span data-stu-id="714fb-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
+[<span data-ttu-id="cb81d-132">Канонические свойства MAPI</span><span class="sxs-lookup"><span data-stu-id="cb81d-132">MAPI Canonical Properties</span></span>](mapi-canonical-properties.md)
   
-[<span data-ttu-id="714fb-133">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="714fb-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
+[<span data-ttu-id="cb81d-133">Сопоставление имен канонических свойств с именами MAPI</span><span class="sxs-lookup"><span data-stu-id="cb81d-133">Mapping Canonical Property Names to MAPI Names</span></span>](mapping-canonical-property-names-to-mapi-names.md)
   
-[<span data-ttu-id="714fb-134">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="714fb-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
+[<span data-ttu-id="cb81d-134">Сопоставление имен MAPI с именами канонических свойств</span><span class="sxs-lookup"><span data-stu-id="cb81d-134">Mapping MAPI Names to Canonical Property Names</span></span>](mapping-mapi-names-to-canonical-property-names.md)
 
