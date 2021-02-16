@@ -1,5 +1,5 @@
 ---
-title: Карта схемы (схема сведений о погоде Outlook)
+title: Карта схемы (схема прогноза погоды в Outlook)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 4b2bf607-7c56-61a0-e40d-54af2b90aa6d
-description: В этом разделе показано определение схемы схемы XML для сведений о погоде Outlook.
+description: В этом разделе показано определение схемы для схемы XML данных о погоде в Outlook.
 ms.openlocfilehash: b08d40040bc725bd02d48758697fe4657fe1dc8f
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -15,9 +15,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34541318"
 ---
-# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="b69db-103">Карта схемы (схема сведений о погоде Outlook)</span><span class="sxs-lookup"><span data-stu-id="b69db-103">Schema map (Outlook Weather Information Schema)</span></span>
+# <a name="schema-map-outlook-weather-information-schema"></a><span data-ttu-id="e4304-103">Карта схемы (схема прогноза погоды в Outlook)</span><span class="sxs-lookup"><span data-stu-id="e4304-103">Schema map (Outlook Weather Information Schema)</span></span>
 
-<span data-ttu-id="b69db-104">В этом разделе показано определение схемы схемы XML для сведений о погоде Outlook.</span><span class="sxs-lookup"><span data-stu-id="b69db-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
+<span data-ttu-id="e4304-104">В этом разделе показано определение схемы для схемы XML данных о погоде в Outlook.</span><span class="sxs-lookup"><span data-stu-id="e4304-104">This topic shows the schema definition for the Outlook Weather Information XML Schema.</span></span>
   
 ```XML
 <?xml version="1.0" ?>
