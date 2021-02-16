@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251469
 localization_priority: Normal
 ms.assetid: 65873b32-2406-7c33-8e68-802461f467b2
-description: Возвращает значение истина (1), если логикалекспрессион имеет значение FALSE. В противном случае возвращается значение FALSE (0).
+description: Возвращает true (1), если логическоеexpression имеет false. В противном случае возвращается false (0).
 ms.openlocfilehash: 3359e21654bcc318caf31405093f851eca064119
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,28 +16,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33413334"
 ---
-# <a name="not-function"></a><span data-ttu-id="b97fe-104">Функция NOT</span><span class="sxs-lookup"><span data-stu-id="b97fe-104">NOT Function</span></span>
+# <a name="not-function"></a><span data-ttu-id="a5a86-104">Функция NOT</span><span class="sxs-lookup"><span data-stu-id="a5a86-104">NOT Function</span></span>
 
-<span data-ttu-id="b97fe-105">Возвращает значение истина (1), если _логикалекспрессион_ имеет значение false.</span><span class="sxs-lookup"><span data-stu-id="b97fe-105">Returns TRUE (1) if  _logicalexpression_ is FALSE.</span></span> <span data-ttu-id="b97fe-106">В противном случае возвращается значение FALSE (0).</span><span class="sxs-lookup"><span data-stu-id="b97fe-106">Otherwise, it returns FALSE (0).</span></span> 
+<span data-ttu-id="a5a86-105">Возвращает true (1), если  _логическоеexpression_ имеет false.</span><span class="sxs-lookup"><span data-stu-id="a5a86-105">Returns TRUE (1) if  _logicalexpression_ is FALSE.</span></span> <span data-ttu-id="a5a86-106">В противном случае возвращается false (0).</span><span class="sxs-lookup"><span data-stu-id="a5a86-106">Otherwise, it returns FALSE (0).</span></span> 
   
-## <a name="syntax"></a><span data-ttu-id="b97fe-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="b97fe-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="a5a86-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="a5a86-107">Syntax</span></span>
 
-<span data-ttu-id="b97fe-108">НЕТ (\* \* *логикалекспрессион* \* \*)</span><span class="sxs-lookup"><span data-stu-id="b97fe-108">NOT(\*\* *logicalexpression* \*\* )</span></span> 
+<span data-ttu-id="a5a86-108">NOT(\*\* *logicalexpression* \*\* )</span><span class="sxs-lookup"><span data-stu-id="a5a86-108">NOT(\*\* *logicalexpression* \*\* )</span></span> 
   
-### <a name="parameters"></a><span data-ttu-id="b97fe-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="b97fe-109">Parameters</span></span>
+### <a name="parameters"></a><span data-ttu-id="a5a86-109">Параметры</span><span class="sxs-lookup"><span data-stu-id="a5a86-109">Parameters</span></span>
 
-|<span data-ttu-id="b97fe-110">**Имя**</span><span class="sxs-lookup"><span data-stu-id="b97fe-110">**Name**</span></span>|<span data-ttu-id="b97fe-111">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="b97fe-111">**Required/Optional**</span></span>|<span data-ttu-id="b97fe-112">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="b97fe-112">**Data Type**</span></span>|<span data-ttu-id="b97fe-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="b97fe-113">**Description**</span></span>|
+|<span data-ttu-id="a5a86-110">**Имя**</span><span class="sxs-lookup"><span data-stu-id="a5a86-110">**Name**</span></span>|<span data-ttu-id="a5a86-111">**Необходимость**</span><span class="sxs-lookup"><span data-stu-id="a5a86-111">**Required/Optional**</span></span>|<span data-ttu-id="a5a86-112">**Тип данных**</span><span class="sxs-lookup"><span data-stu-id="a5a86-112">**Data Type**</span></span>|<span data-ttu-id="a5a86-113">**Описание**</span><span class="sxs-lookup"><span data-stu-id="a5a86-113">**Description**</span></span>|
 |:-----|:-----|:-----|:-----|
-| <span data-ttu-id="b97fe-114">_логикалекспрессион_</span><span class="sxs-lookup"><span data-stu-id="b97fe-114">_logicalexpression_</span></span> <br/> |<span data-ttu-id="b97fe-115">Обязательный</span><span class="sxs-lookup"><span data-stu-id="b97fe-115">Required</span></span>  <br/> |<span data-ttu-id="b97fe-116">**String**</span><span class="sxs-lookup"><span data-stu-id="b97fe-116">**String**</span></span> <br/> |<span data-ttu-id="b97fe-117">Логическое выражение для оценки.</span><span class="sxs-lookup"><span data-stu-id="b97fe-117">The logical expression to evaluate.</span></span>  <br/> |
+| <span data-ttu-id="a5a86-114">_logicalexpression_</span><span class="sxs-lookup"><span data-stu-id="a5a86-114">_logicalexpression_</span></span> <br/> |<span data-ttu-id="a5a86-115">Обязательно</span><span class="sxs-lookup"><span data-stu-id="a5a86-115">Required</span></span>  <br/> |<span data-ttu-id="a5a86-116">**Строка**</span><span class="sxs-lookup"><span data-stu-id="a5a86-116">**String**</span></span> <br/> |<span data-ttu-id="a5a86-117">Логическое выражение для оценки.</span><span class="sxs-lookup"><span data-stu-id="a5a86-117">The logical expression to evaluate.</span></span>  <br/> |
    
-### <a name="return-value"></a><span data-ttu-id="b97fe-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="b97fe-118">Return value</span></span>
+### <a name="return-value"></a><span data-ttu-id="a5a86-118">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="a5a86-118">Return value</span></span>
 
-<span data-ttu-id="b97fe-119">Boolean</span><span class="sxs-lookup"><span data-stu-id="b97fe-119">Boolean</span></span>
+<span data-ttu-id="a5a86-119">Boolean</span><span class="sxs-lookup"><span data-stu-id="a5a86-119">Boolean</span></span>
   
-## <a name="example"></a><span data-ttu-id="b97fe-120">Пример</span><span class="sxs-lookup"><span data-stu-id="b97fe-120">Example</span></span>
+## <a name="example"></a><span data-ttu-id="a5a86-120">Пример</span><span class="sxs-lookup"><span data-stu-id="a5a86-120">Example</span></span>
 
-<span data-ttu-id="b97fe-121">НЕТ (высота \> 0,75)</span><span class="sxs-lookup"><span data-stu-id="b97fe-121">NOT(Height \> 0.75 in)</span></span> 
+<span data-ttu-id="a5a86-121">NOT(Height \> 0.75 in)</span><span class="sxs-lookup"><span data-stu-id="a5a86-121">NOT(Height \> 0.75 in)</span></span> 
   
-<span data-ttu-id="b97fe-122">Возвращает 1, если высота меньше или равна 0,75 сантиметра.</span><span class="sxs-lookup"><span data-stu-id="b97fe-122">Returns 1 if Height is less than or equal to 0.75 inches.</span></span> <span data-ttu-id="b97fe-123">Возвращает значение 0, если высота превышает 0,75 дюймов.</span><span class="sxs-lookup"><span data-stu-id="b97fe-123">Returns 0 if Height is greater than 0.75 inches.</span></span> 
+<span data-ttu-id="a5a86-122">Возвращает 1, если высота меньше или равна 0,75 дюйма.</span><span class="sxs-lookup"><span data-stu-id="a5a86-122">Returns 1 if Height is less than or equal to 0.75 inches.</span></span> <span data-ttu-id="a5a86-123">Возвращает 0, если высота больше 0,75 дюйма.</span><span class="sxs-lookup"><span data-stu-id="a5a86-123">Returns 0 if Height is greater than 0.75 inches.</span></span> 
   
 

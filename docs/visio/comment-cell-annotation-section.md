@@ -16,27 +16,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415532"
 ---
-# <a name="comment-cell-annotation-section"></a><span data-ttu-id="40126-103">Comment Cell (Annotation Section)</span><span class="sxs-lookup"><span data-stu-id="40126-103">Comment Cell (Annotation Section)</span></span>
+# <a name="comment-cell-annotation-section"></a><span data-ttu-id="eaa20-103">Comment Cell (Annotation Section)</span><span class="sxs-lookup"><span data-stu-id="eaa20-103">Comment Cell (Annotation Section)</span></span>
 
-<span data-ttu-id="40126-104">Содержит текст, который отображается в комментарии.</span><span class="sxs-lookup"><span data-stu-id="40126-104">Contains the text that appears in a comment.</span></span>
+<span data-ttu-id="eaa20-104">Содержит текст, который отображается в комментарии.</span><span class="sxs-lookup"><span data-stu-id="eaa20-104">Contains the text that appears in a comment.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="40126-105">Эта ячейка используется для отслеживания комментариев только при открытии VSD-файла в Microsoft Visio 2013 или при сохранении VSDX-файла в формате VSD-файла.</span><span class="sxs-lookup"><span data-stu-id="40126-105">This cell is used for tracking comments only when opening a .vsd file in Microsoft Visio 2013 or when saving a .vsdx file in the .vsd file format.</span></span> <span data-ttu-id="40126-106">Она не используется для отслеживания комментариев в VSDX-документах в Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="40126-106">It is not used for tracking comments in .vsdx documents in Visio 2013.</span></span> 
+> <span data-ttu-id="eaa20-105">Эта ячейка используется для отслеживания комментариев только при открытии VSD-файла в Microsoft Visio 2013 или при сохранении VSDX-файла в формате VSD-файла.</span><span class="sxs-lookup"><span data-stu-id="eaa20-105">This cell is used for tracking comments only when opening a .vsd file in Microsoft Visio 2013 or when saving a .vsdx file in the .vsd file format.</span></span> <span data-ttu-id="eaa20-106">Она не используется для отслеживания комментариев в VSDX-документах в Visio 2013.</span><span class="sxs-lookup"><span data-stu-id="eaa20-106">It is not used for tracking comments in .vsdx documents in Visio 2013.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="40126-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="40126-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="eaa20-107">Замечания</span><span class="sxs-lookup"><span data-stu-id="eaa20-107">Remarks</span></span>
 
-<span data-ttu-id="40126-108">Чтобы получить ссылку на ячейку комментария по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте:</span><span class="sxs-lookup"><span data-stu-id="40126-108">To get a reference to the Comment cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
+<span data-ttu-id="eaa20-108">Чтобы получить ссылку на ячейку Comment по имени из другой формулы или из программы с помощью свойства **CellsU,** используйте:</span><span class="sxs-lookup"><span data-stu-id="eaa20-108">To get a reference to the Comment cell by name from another formula, or from a program using the **CellsU** property, use:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="40126-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="40126-109">Cell name:</span></span>  <br/> | <span data-ttu-id="40126-110">Аннотация. Comment [ *i* ], где *i* = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="40126-110">Annotation.Comment[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
+| <span data-ttu-id="eaa20-109">Имя ячейки:</span><span class="sxs-lookup"><span data-stu-id="eaa20-109">Cell name:</span></span>  <br/> | <span data-ttu-id="eaa20-110">Annotation.Comment[  *i*  ] где  *i*  = <1>, 2, 3...</span><span class="sxs-lookup"><span data-stu-id="eaa20-110">Annotation.Comment[  *i*  ]            where  *i*  = <1>, 2, 3...</span></span>  <br/> |
    
-<span data-ttu-id="40126-111">Чтобы получить ссылку на ячейку Comment по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="40126-111">To get a reference to the Comment cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
+<span data-ttu-id="eaa20-111">Чтобы получить ссылку на ячейку Comment по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами:</span><span class="sxs-lookup"><span data-stu-id="eaa20-111">To get a reference to the Comment cell by index from a program, use the **CellsSRC** property with the following arguments:</span></span> 
   
 |||
 |:-----|:-----|
-| <span data-ttu-id="40126-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="40126-112">Section index:</span></span>  <br/> |<span data-ttu-id="40126-113">**visSectionAnnotation**</span><span class="sxs-lookup"><span data-stu-id="40126-113">**visSectionAnnotation**</span></span> <br/> |
-| <span data-ttu-id="40126-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="40126-114">Row index:</span></span>  <br/> |<span data-ttu-id="40126-115">**visRowAnnotation** +  *i*, где *i* = 0, 1, 2…</span><span class="sxs-lookup"><span data-stu-id="40126-115">**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
-| <span data-ttu-id="40126-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="40126-116">Cell index:</span></span>  <br/> |<span data-ttu-id="40126-117">**висаннотатионкоммент**</span><span class="sxs-lookup"><span data-stu-id="40126-117">**visAnnotationComment**</span></span> <br/> |
+| <span data-ttu-id="eaa20-112">Индекс раздела:</span><span class="sxs-lookup"><span data-stu-id="eaa20-112">Section index:</span></span>  <br/> |<span data-ttu-id="eaa20-113">**visSectionAnnotation**</span><span class="sxs-lookup"><span data-stu-id="eaa20-113">**visSectionAnnotation**</span></span> <br/> |
+| <span data-ttu-id="eaa20-114">Индекс строки:</span><span class="sxs-lookup"><span data-stu-id="eaa20-114">Row index:</span></span>  <br/> |<span data-ttu-id="eaa20-115">**visRowAnnotation** +  *i*, где *i* = 0, 1, 2…</span><span class="sxs-lookup"><span data-stu-id="eaa20-115">**visRowAnnotation** +  *i*            where  *i*  = 0, 1, 2...</span></span>  <br/> |
+| <span data-ttu-id="eaa20-116">Индекс ячейки:</span><span class="sxs-lookup"><span data-stu-id="eaa20-116">Cell index:</span></span>  <br/> |<span data-ttu-id="eaa20-117">**visAnnotationComment**</span><span class="sxs-lookup"><span data-stu-id="eaa20-117">**visAnnotationComment**</span></span> <br/> |
    
 

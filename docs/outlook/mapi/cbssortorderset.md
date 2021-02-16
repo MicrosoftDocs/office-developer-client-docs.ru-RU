@@ -19,35 +19,35 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33415693"
 ---
-# <a name="cbssortorderset"></a><span data-ttu-id="a54b2-103">CbSSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="a54b2-103">CbSSortOrderSet</span></span>
+# <a name="cbssortorderset"></a><span data-ttu-id="e38b1-103">CbSSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="e38b1-103">CbSSortOrderSet</span></span>
 
   
   
-<span data-ttu-id="a54b2-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="a54b2-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="e38b1-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="e38b1-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="a54b2-105">Вычисляет количество байтов в существующей структуре [ссортордерсет](ssortorderset.md) .</span><span class="sxs-lookup"><span data-stu-id="a54b2-105">Computes the number of bytes in an existing [SSortOrderSet](ssortorderset.md) structure.</span></span> 
+<span data-ttu-id="e38b1-105">Вычисляет количество ветвей в существующей [структуре SSortOrderSet.](ssortorderset.md)</span><span class="sxs-lookup"><span data-stu-id="e38b1-105">Computes the number of bytes in an existing [SSortOrderSet](ssortorderset.md) structure.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="a54b2-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="a54b2-106">Header file:</span></span>  <br/> |<span data-ttu-id="a54b2-107">MAPIDEFS. h</span><span class="sxs-lookup"><span data-stu-id="a54b2-107">Mapidefs.h</span></span>  <br/> |
-|<span data-ttu-id="a54b2-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="a54b2-108">Related structure:</span></span>  <br/> |<span data-ttu-id="a54b2-109">**SSortOrderSet**</span><span class="sxs-lookup"><span data-stu-id="a54b2-109">**SSortOrderSet**</span></span> <br/> |
+|<span data-ttu-id="e38b1-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="e38b1-106">Header file:</span></span>  <br/> |<span data-ttu-id="e38b1-107">Mapidefs.h</span><span class="sxs-lookup"><span data-stu-id="e38b1-107">Mapidefs.h</span></span>  <br/> |
+|<span data-ttu-id="e38b1-108">Связанная структура:</span><span class="sxs-lookup"><span data-stu-id="e38b1-108">Related structure:</span></span>  <br/> |<span data-ttu-id="e38b1-109">**SSortOrderSet**</span><span class="sxs-lookup"><span data-stu-id="e38b1-109">**SSortOrderSet**</span></span> <br/> |
    
 ```cpp
 CbSSortOrderSet (_lpset)
 ```
 
-## <a name="parameters"></a><span data-ttu-id="a54b2-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="a54b2-110">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="e38b1-110">Параметры</span><span class="sxs-lookup"><span data-stu-id="e38b1-110">Parameters</span></span>
 
- <span data-ttu-id="a54b2-111">__лпсет_</span><span class="sxs-lookup"><span data-stu-id="a54b2-111">__lpset_</span></span>
+ <span data-ttu-id="e38b1-111">_ _lpset_</span><span class="sxs-lookup"><span data-stu-id="e38b1-111">_ _lpset_</span></span>
   
-> <span data-ttu-id="a54b2-112">Указатель на существующую структуру **ссортордерсет** .</span><span class="sxs-lookup"><span data-stu-id="a54b2-112">Pointer to the existing **SSortOrderSet** structure.</span></span> 
+> <span data-ttu-id="e38b1-112">Указатель на существующую **структуру SSortOrderSet.**</span><span class="sxs-lookup"><span data-stu-id="e38b1-112">Pointer to the existing **SSortOrderSet** structure.</span></span> 
     
-## <a name="see-also"></a><span data-ttu-id="a54b2-113">См. также</span><span class="sxs-lookup"><span data-stu-id="a54b2-113">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e38b1-113">См. также</span><span class="sxs-lookup"><span data-stu-id="e38b1-113">See also</span></span>
 
 
 
-[<span data-ttu-id="a54b2-114">SSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="a54b2-114">SSortOrderSet</span></span>](ssortorderset.md)
+[<span data-ttu-id="e38b1-114">SSortOrderSet</span><span class="sxs-lookup"><span data-stu-id="e38b1-114">SSortOrderSet</span></span>](ssortorderset.md)
 
 
-[<span data-ttu-id="a54b2-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="a54b2-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
+[<span data-ttu-id="e38b1-115">Макросы, связанные со структурами</span><span class="sxs-lookup"><span data-stu-id="e38b1-115">Macros Related to Structures</span></span>](macros-related-to-structures.md)
 
