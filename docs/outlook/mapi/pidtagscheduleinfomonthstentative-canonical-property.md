@@ -32,35 +32,35 @@ ms.locfileid: "32359761"
 |Связанные свойства:  <br/> |PR_SCHDINFO_MONTHS_TENTATIVE  <br/> |
 |Идентификатор:  <br/> |0x6851  <br/> |
 |Тип данных:  <br/> |PT_MV_LONG  <br/> |
-|Область:  <br/> |Сведения о доступности  <br/> |
+|Область:  <br/> |Free/Busy  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Число значений в этом свойстве должно быть между нулем и числом месяцев, охваченных диапазоном публикации, что является периодом между свойствами **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart](pidtagfreebusypublishstart-canonical-property.md)) и **PR_FREEBUSY_PUBLISH_END** ([PidTagFreeBusyPublishEnd](pidtagfreebusypublishend-canonical-property.md)).
+Число значений в этом свойстве должно быть в диапазоне от нуля до количества месяцев, охватываемых диапазоном публикации, то есть периодом между свойствами **PR_FREEBUSY_PUBLISH_START** ([PidTagFreeBusyPublishStart)](pidtagfreebusypublishstart-canonical-property.md)и **PR_FREEBUSY_PUBLISH_END** ([PidTagFreeBusyPublishEnd).](pidtagfreebusypublishend-canonical-property.md)
   
-Каждое значение этого свойства содержит месяц и год, закодированный в нем. Он вычисляется с помощью выражения "Year × 16 + month", где год и месяц основываются на григорианском календаре. Значения сортируются в возрастающем порядке и кодируются в формате с прямым порядком байтов. Если событие распространяется в течение нескольких месяцев или несколько лет, для каждого из месяцев, которые попадают в диапазон публикации, должно быть по одному значению. Если в диапазоне публикации нет предварительных событий, то это свойство и **PR_SCHDINFO_FREEBUSY_TENTATIVE** ([PidTagScheduleInfoFreeBusyTentative](pidtagscheduleinfofreebusytentative-canonical-property.md)) не должны быть заданы или должны быть удалены, если они уже существуют. В противном случае необходимо задать значение этого свойства.
+Каждое значение в этом свойстве имеет кодированные месяц и год. Для этого используется выражение "year × 16 + month", где год и месяц основаны на григорианский календарь. Значения сортируются в порядке возрастания и кодируются в мало endian format. Если событие распространяется на несколько месяцев или несколько лет, для каждого из месяцев, попадающих в диапазон публикации, должно быть по одному значению. Если в диапазоне публикации нет предварительных событий, то это свойство и **PR_SCHDINFO_FREEBUSY_TENTATIVE** [(PidTagScheduleInfoFreeBusyTentative)](pidtagscheduleinfofreebusytentative-canonical-property.md)не должны быть заданы или удалены, если они уже существуют. В противном случае необходимо установить это свойство.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОПФФБ]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

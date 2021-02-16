@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 1665774f-4049-4eda-ba7a-62314286699e
-description: Определяет цвет глубины скоса в виде значения RGB или определяется активной темой.
+description: Определяет цвет глубины ленты в качестве значения RGB или в качестве значения активной темы.
 ms.openlocfilehash: 027b7b8675666b82d0ae26259fe77470708628c2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33419172"
 ---
 # <a name="beveldepthcolor-cell-bevel-properties-section"></a>BevelDepthColor Cell (Bevel Properties Section)
 
-Определяет цвет глубины скоса в виде значения RGB или определяется активной темой.
+Определяет цвет глубины ленты в качестве значения RGB или в качестве значения активной темы.
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **BevelDepthColor** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelDepthColor** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "33419172"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровбевелпропертиес** <br/> |
-| Индекс ячейки:  <br/> |**висбевелдепсколор** <br/> |
+| Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
+| Индекс ячейки:  <br/> |**visBevelDepthColor** <br/> |
    
 

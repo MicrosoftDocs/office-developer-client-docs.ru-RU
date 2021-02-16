@@ -25,11 +25,11 @@ ms.locfileid: "33420257"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество байтов в существующей структуре [смапиформпропаррай](smapiformproparray.md) , которая содержит указанное число структур [смапиформпроп](smapiformprop.md) . 
+Вычисляет количество ветвей в существующей структуре [SMAPIFormPropArray,](smapiformproparray.md) которая содержит указанное число структур [SMAPIFormProp.](smapiformprop.md) 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
+|Файл заголовка:  <br/> |Mapiform.h  <br/> |
 |Связанная структура:  <br/> |**SMAPIFormPropArray** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbMAPIFormPropArray (_c)
 
 ## <a name="parameters"></a>Параметры
 
- __c_
+ _ _c_
   
-> Количество структур **смапиформпроп** в рассматриваемой структуре **смапиформпропаррай** . 
+> Количество структур **SMAPIFormProp** в структуре **SMAPIFormPropArray.** 
     
 ## <a name="see-also"></a>См. также
 

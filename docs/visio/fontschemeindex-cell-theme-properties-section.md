@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b832d75b-dac2-495f-b86e-d7fc5a484cab
-description: Определяет шрифтовую схему темы, применяемой к фигуре, в виде целого числа.
+description: Определяет схему шрифтов темы, применяемой к фигуре, в виде integer.
 ms.openlocfilehash: 3a527b93b95f86dc1b9b92c931f3877ef28523ec
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,22 +16,22 @@ ms.locfileid: "33420502"
 ---
 # <a name="fontschemeindex-cell-theme-properties-section"></a>FontSchemeIndex Cell (Theme Properties Section)
 
-Определяет шрифтовую схему темы, применяемой к фигуре, в виде целого числа. 
+Определяет схему шрифтов темы, применяемой к фигуре, в виде integer. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **FontSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **FontSchemeIndex** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
 | Имя ячейки:  <br/> | FontSchemeIndex  <br/> |
    
-Чтобы получить ссылку на ячейку **FontSchemeIndex** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
+Чтобы получить ссылку на **ячейку FontSchemeIndex** по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровсемепропертиес** <br/> |
-| Индекс ячейки:  <br/> |**висфонтсчемеиндекс** <br/> |
+| Индекс строки:  <br/> |**visRowThemeProperties** <br/> |
+| Индекс ячейки:  <br/> |**visFontSchemeIndex** <br/> |
    
 

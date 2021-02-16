@@ -1,12 +1,12 @@
 ---
-title: иолкаккаунтманажержетордер
+title: IOlkAccountManagerGetOrder
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: bd22026c-e4f7-2f25-0ef2-5d9539fd7eee
-description: Получает упорядочивание указанной категории учетных записей.
+description: Получает порядок указанной категории учетных записей.
 ms.openlocfilehash: 3eb6dd96caa43f81eba86a389c938ef90c9533b2
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33424625"
 ---
 # <a name="iolkaccountmanagergetorder"></a>IOlkAccountManager::GetOrder
 
-Получает упорядочивание указанной категории учетных записей.
+Получает порядок указанной категории учетных записей.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Просмотр [иолкаккаунтманажер](iolkaccountmanager.md)
+См. [IOlkAccountManager](iolkaccountmanager.md)
   
 ```cpp
 HRESULT IOlkAccountManager::GetOrder (  
@@ -32,9 +32,9 @@ HRESULT IOlkAccountManager::GetOrder (
 
 ## <a name="parameters"></a>Параметры
 
-_пклсидкатегори_
+_pclsidCategory_
   
-> возврата Идентификатор класса Category, для которого требуется получить порядок. The value must be one of the following:
+> [in] ИД класса категории, для которого требуется получить заказ. The value must be one of the following:
     
    - CLSID_OlkMail
     
@@ -42,25 +42,25 @@ _пклсидкатегори_
     
    - CLSID_OlkStore
     
-_пкакктс_
+_pcAccts_
   
->  вышли Число учетных записей. 
+>  [out] Количество учетных записей. 
     
-_пргакктс_
+_prgAccts_
   
-> вышли Указатель на массив учетных записей.
+> [out] Указатель на массив учетных записей.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |Вызов выполнен успешно  <br/> |
-|E_INVALIDARG  <br/> |Один или несколько аргументов являются недопустимыми.  <br/> |
+|S_OK  <br/> |Вызов был успешным  <br/> |
+|E_INVALIDARG  <br/> |Один или несколько аргументов недопустимы.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Перед вызовом этого метода вызывающий абонент выделяет только указатель массива *пргакктс* , но не память для массива, в котором точки *пргакктс* . После возврата этого метода вызывающий должен использовать [иолкаккаунтманажер:: фримемори](iolkaccountmanager-freememory.md) для освобождения памяти, выделенной для *пргакктс* . 
+Перед вызовом этого метода вызываемая точка выделяет только *prgAccts* указателя массива, но память для массива, на котором *указывает prgAccts.* После возврата этого метода звонящего необходимо использовать [IOlkAccountManager::FreeMemory,](iolkaccountmanager-freememory.md) чтобы освободить память, выделенную *для prgAccts.* 
   
 ## <a name="see-also"></a>См. также
 

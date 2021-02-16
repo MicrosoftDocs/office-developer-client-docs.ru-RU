@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 304ee083-e9c8-45df-b411-ba5e7db4c086
-description: Определяет стиль шрифта для каждого экспресс стиля в виде целого числа от 1 до 6.
+description: Определяет стиль шрифта для каждого быстрого стиля в качестве integer от 1 до 6.
 ms.openlocfilehash: 0708a243b001c7b4e03158b5a332a3166727cabc
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33407251"
 ---
 # <a name="quickstylefontmatrix-cell-quick-style-section"></a>QuickStyleFontMatrix Cell (Quick Style Section)
 
-Определяет стиль шрифта для каждого экспресс стиля в виде целого числа от 1 до 6.
+Определяет стиль шрифта для каждого быстрого стиля в качестве integer от 1 до 6.
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **QuickStyleFontMatrix** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **QuickStyleFontMatrix** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "33407251"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровкуиккстилепропертиес** <br/> |
-| Индекс ячейки:  <br/> |**вискуиккстилефонтматрикс** <br/> |
+| Индекс строки:  <br/> |**visRowQuickStyleProperties** <br/> |
+| Индекс ячейки:  <br/> |**visQuickStyleFontMatrix** <br/> |
    
 

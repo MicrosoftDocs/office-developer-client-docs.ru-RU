@@ -1,5 +1,5 @@
 ---
-title: Функция Left (пользовательское веб-приложение для Access)
+title: Left Function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33424170"
 ---
-# <a name="left-function-access-custom-web-app"></a>Функция Left (пользовательское веб-приложение для Access)
+# <a name="left-function-access-custom-web-app"></a>Left Function (Access custom web app)
 
 Возвращает левую часть строки символов с указанным количеством символов.
   
@@ -23,13 +23,13 @@ ms.locfileid: "33424170"
   
 ## <a name="syntax"></a>Синтаксис
 
- **Left** (*текстекспрессион*, *length*) 
+ **Left** *(TextExpression*, *Length)* 
   
-Функция **Left** содержит следующие аргументы: 
+Функция **Left** содержит следующие аргументы. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *текстекспрессион*  <br/> |Текстовое выражение.  <br/> |
-| *Length*  <br/> |— Положительное целое число, которое указывает количество возвращаемых символов *текстекспрессион* .  <br/> |
+| *TextExpression*  <br/> |Текстовое выражение.  <br/> |
+| *Length*  <br/> |Это положительное integer, которое указывает количество возвращаемого *символа TextExpression.*  <br/> |
    
 

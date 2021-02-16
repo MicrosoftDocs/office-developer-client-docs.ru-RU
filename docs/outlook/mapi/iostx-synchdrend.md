@@ -1,5 +1,5 @@
 ---
-title: иосткссинчдренд
+title: IOSTXSyncHdrEnd
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -11,7 +11,7 @@ api_name:
 api_type:
 - COM
 ms.assetid: a0beb6eb-7978-c64e-dba1-89f0caf2090e
-description: 'Дата последнего изменения: 03 июля, 2012'
+description: 'Last modified: July 03, 2012'
 ms.openlocfilehash: 864c2d2dfd17c285b0d8a401d59ce5b7d0463864
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -25,7 +25,7 @@ ms.locfileid: "33432774"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Завершает синхронизацию для заголовка сообщения.
+Завершает синхронизацию для загона сообщения.
   
 ```cpp
 HRESULT SyncHdrEnd( 
@@ -35,15 +35,15 @@ HRESULT SyncHdrEnd(
 
 ## <a name="parameters"></a>Параметры
 
- _ппрог_
+ _pp де_
   
-> возврата Интерфейс **[IMAPIProgress](imapiprogressiunknown.md)** для синхронизации перемещенных или скопированных сообщений. Определение типа **лпмапипрогресс**можно найти в файле MAPIDEFS. h. 
+> [in] **[Интерфейс IMAPIProgress](imapiprogressiunknown.md)** для синхронизации перемещенных или скопированные сообщения. Определение типа **LPMAPIPROGRESS** см. в mapidefs.h. 
     
 ## <a name="remarks"></a>Примечания
 
-После **[иосткс:: синкбег](iostx-syncbeg.md)**, локальное хранилище вводит [состояние загрузки сообщения](download-message-header-state.md). Клиент загружает полный элемент сообщения (как *пмсгфулл* в **[хдрсинк](hdrsync.md)** ). В случае успеха клиент также устанавливает *ulFlags* в **хдрсинк** как **HSF_OK**. После **иосткс:: синчдренд**Outlook проверяет результат в **хдрсинк** и использует *ппрог* и информацию в **хдрсинк** для обновления заголовка локального сообщения. 
+После **[IOSTX::SyncBeg](iostx-syncbeg.md)** локальное хранилище введет состояние [скачивания сообщения в состояние загона.](download-message-header-state.md) Клиент скачивает полный элемент сообщения (как *pmsgFull* в **[HDRSYNC).](hdrsync.md)** Если это успешно, клиент также устанавливает *ulFlags* в **HDRSYNC** как **HSF_OK.** После **IOSTX::SyncHdrEnd** Outlook проверяет результат в **HDRSYNC** и использует  *ppлага*  и сведения в **HDRSYNC** для обновления локального заголовка сообщения. 
   
-Локальное хранилище возвращается в состояние, в котором оно находилось до предшествующего **[иосткс:: синчдрбег](iostx-synchdrbeg.md)**. 
+Локальное хранилище возвращается в состояние до предыдущего **[IOSTX::SyncHdrBeg](iostx-synchdrbeg.md)**. 
   
 ## <a name="see-also"></a>См. также
 

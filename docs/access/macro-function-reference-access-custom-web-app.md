@@ -1,5 +1,5 @@
 ---
-title: Справка по функциям макросов (пользовательское веб-приложение для Access)
+title: Справочник по функции макроса (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 08/17/2017
 ms.audience: Developer
@@ -13,27 +13,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33426382"
 ---
-# <a name="macro-function-reference-access-custom-web-app"></a>Справка по функциям макросов (пользовательское веб-приложение для Access)
+# <a name="macro-function-reference-access-custom-web-app"></a>Справочник по функции макроса (пользовательское веб-приложение Access)
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-- [Блоки данных (пользовательское веб-приложение для Access)](data-blocksaccess-custom-web-app.md)
+- [Блоки данных (пользовательское веб-приложение Access)](data-blocksaccess-custom-web-app.md)
     
-- [Действия с данными (пользовательское веб-приложение для Access)](data-actions-access-custom-web-app.md)
+- [Действия с данными (пользовательское веб-приложение Access)](data-actions-access-custom-web-app.md)
     
-- [Операции ввода данных (пользовательское веб-приложение для Access)](data-entry-operations-access-custom-web-app.md)
+- [Операции ввода данных (пользовательское веб-приложение Access)](data-entry-operations-access-custom-web-app.md)
     
-- [Объекты базы данных (пользовательское веб-приложение для Access)](database-objects-access-custom-web-app.md)
+- [Объекты базы данных (пользовательское веб-приложение Access)](database-objects-access-custom-web-app.md)
     
-- [Фильтр, запрос и поиск (пользовательское веб-приложение для Access)](filter-query-search-access-custom-web-app.md)
+- [Filter/query/search (Access custom web app)](filter-query-search-access-custom-web-app.md)
     
-- [Команды макросов (пользовательское веб-приложение для Access)](macro-commands-access-custom-web-app.md)
+- [Команды макроса (пользовательское веб-приложение Access)](macro-commands-access-custom-web-app.md)
     
-- [Программный процесс (пользовательское веб-приложение для Access)](program-flow-access-custom-web-app.md)
+- [Поток программы (пользовательское веб-приложение Access)](program-flow-access-custom-web-app.md)
     
-- [Команды пользовательского интерфейса (пользовательское веб-приложение для Access)](user-interface-commands-access-custom-web-app.md)
+- [Команды пользовательского интерфейса (пользовательское веб-приложение Access)](user-interface-commands-access-custom-web-app.md)
     
 

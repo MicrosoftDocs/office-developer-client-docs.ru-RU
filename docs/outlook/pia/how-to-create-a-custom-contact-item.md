@@ -1,5 +1,5 @@
 ---
-title: Создание настраиваемого элемента Contact
+title: Создание настраиваемого элемента контакта
 TOCTitle: Create a custom Contact item
 ms:assetid: 24b2a104-a0a7-469b-9676-a07cab613f59
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184596(v=office.15)

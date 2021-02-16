@@ -8,7 +8,7 @@ f1_keywords:
 - TempBool
 - TempBool12
 keywords:
-- Функция темпбул [Excel 2007], функция TempBool12 [Excel 2007]
+- Функция tempbool [excel 2007],TempBool12 function [Excel 2007]
 localization_priority: Normal
 ms.assetid: 0cf1fa58-416f-4692-a2e3-422473c19492
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33433719"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функция библиотеки Framework, которая создает временную структуру **XLOPER**/ **, содержащую** **логическое** **значение true** или **false**.
+Функция библиотеки Framework, которая создает временную  /  **XLOPER XLOPER12, содержащую** **boolean** **TRUE** или **FALSE.**
   
 ```cs
 LPXLOPER TempBool(int b);
@@ -34,15 +34,15 @@ LPXLOPER12 TempBool12(int b);
 
  _b_ (**int**)
   
-Чтобы возвращать **значение false**, используйте значение 0; Используйте любое другое значение, чтобы возвратить **значение true**.
+Используйте 0, чтобы вернуть **false;** используйте любое другое значение, чтобы вернуть **ЗНАЧЕНИЕ TRUE.**
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-Возвращает объект **xltypeBool** **Boolean** кслтипебул, содержащий логическое значение, переданное в параметре. 
+Возвращает логическое **значение xltypeBool,** **содержащее** переданные логические значения. 
   
 ## <a name="example"></a>Пример
 
-В примере ниже показано, как очистить строку состояния с помощью функции **TempBool12** . Временная память освобождается при вызове функции [Excel/Excel12f](excel-excel12f.md) . 
+В следующем примере функция **TempBool12** используется для очистки панели состояния. Временная память освободиться при [вызвании функции Excel и Excel12f.](excel-excel12f.md) 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

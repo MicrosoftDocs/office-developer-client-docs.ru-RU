@@ -25,7 +25,7 @@ ms.locfileid: "32359495"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Задает уникальный идентификатор, создаваемый сервером обмена сообщениями для каждого правила при первом создании правила. 
+Указывает уникальный идентификатор, который сервер обмена сообщениями создает для каждого правила при первом его создание. 
   
 |||
 |:-----|:-----|
@@ -36,31 +36,31 @@ ms.locfileid: "32359495"
    
 ## <a name="remarks"></a>Примечания
 
-Клиент не должен указывать это свойство при создании нового правила, но при изменении или удалении правила он должен быть указан.
+Клиент не должен указывать это свойство при создании нового правила, но должен указывать его при изменении или удалении правила.
   
-При удалении правила клиент должен пройти только **PR_RULE_ID** и не должен передаваться каким-либо другим свойством. Сервер должен игнорировать свойства, отличные от данного свойства. При добавлении правила клиент не должен передавать **PR_RULE_ID**, он должен передаваться в свойствах **PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md)), **PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md)) и **PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md)). При изменении правила клиент должен передавать **PR_RULE_ID** и передавать остальные свойства, которые необходимо изменить. 
+При удалении правила клиент должен передать  только PR_RULE_ID и не должен передавать другие свойства. Сервер должен игнорировать свойства, кроме этого свойства. При добавлении правила клиент не должен передавать **PR_RULE_ID,** он должен передавать свойства **PR_RULE_CONDITION** ([PidTagRuleCondition),](pidtagrulecondition-canonical-property.md) **PR_RULE_ACTIONS** ([PidTagRuleActions)](pidtagruleactions-canonical-property.md)и **PR_RULE_PROVIDER** ([PidTagRuleProvider).](pidtagruleprovider-canonical-property.md) При изменении правила клиент должен  передать PR_RULE_ID и передать остальные свойства, которые необходимо изменить. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОРУЛЕ]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
+[[MS-OXORULE]](https://msdn.microsoft.com/library/70ac9436-501e-43e2-9163-20d2b546b886%28Office.15%29.aspx)
   
-> Управляет входящими сообщениями электронной почты на сервере.
+> Управляет входящие сообщения электронной почты на сервере.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -75,7 +75,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

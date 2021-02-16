@@ -1,5 +1,5 @@
 ---
-title: иконвертерсессионсетенкодинг
+title: IConverterSessionSetEncoding
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -23,7 +23,7 @@ ms.locfileid: "32341302"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Инициализирует кодировку, используемую при преобразовании.
+Инициализирует кодику, используемую во время преобразования.
   
 ```cpp
 HRESULT IConverterSession:: SetEncoding ( 
@@ -35,7 +35,7 @@ HRESULT IConverterSession:: SetEncoding (
 
 _et_
   
-> Значение [енкодингтипе](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) . Поддерживаются только следующие значения: 
+> Значение [ENCODINGTYPE.](https://msdn.microsoft.com/library/aa374936%28VS.85%29.aspx) Поддерживаются только следующие значения: 
     
    - IET_BASE64
    - IET_UUENCODE
@@ -47,13 +47,13 @@ _et_
 
 E_INVALIDARG
   
-> Передан недопустимый тип кодирования.
+> Переданный тип кодии недействителен.
     
 ## <a name="remarks"></a>Примечания
 
-Вызовите **сетенкодинг** перед использованием [Иконвертерсессион:: мапитомиместм](iconvertersession-mapitomimestm.md) , чтобы выполнить преобразование. 
+Вызовите **SetEncoding** перед использованием [IConverterSession::MAPIToMIMEStm для](iconvertersession-mapitomimestm.md) выполнения преобразования. 
   
-Используйте **сетенкодинг** , чтобы задать кодировку только для самого внешнего текста сообщения почтового элемента. Microsoft Outlook 2010 и Microsoft Outlook 2013 выберите кодировку для отдельных вложений. 
+Используйте **SetEncoding,** чтобы настроить кодику только для внешнего тела сообщения почтового элемента. Microsoft Outlook 2010, русская версия и Microsoft Outlook 2013 выберите кодику для всех отдельных вложений. 
   
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -61,8 +61,8 @@ E_INVALIDARG
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|Мапимиме. cpp  <br/> |импортемлтоимессаже  <br/> |MFCMAPI использует Миметомапи для преобразования EML файла в сообщение MAPI.  <br/> |
-|Мапимиме. cpp  <br/> |експортимессажетоемл  <br/> |MFCMAPI использует Мапитомиместм для преобразования сообщения MAPI в файл EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI использует MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI использует MAPIToMIMEStm для преобразования сообщения MAPI в EML-файл.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

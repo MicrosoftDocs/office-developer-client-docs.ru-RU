@@ -21,56 +21,56 @@ ms.locfileid: "32334701"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит ключ беседы, используемый в Microsoft Outlook только при размещении **IPM. Сообщения Мессажеманажер** , например сообщение, содержащее историю загрузки для учетной записи протокола POP3. Это свойство является устаревшим в Microsoft Exchange Server. 
+Содержит ключ беседы, используемый в Microsoft Outlook только при поиске **IPM. Сообщения MessageManager,** например сообщения, которые содержат историю загрузки для учетной записи pop3. Это свойство было неподготовлено в Microsoft Exchange Server. 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_CONVERSATION_KEY  <br/> |
 |Идентификатор:  <br/> |0x000B  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Общий обмен сообщениями  <br/> |
+|Область:  <br/> |Общие сообщения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-При доступе к сообщениям электронной почты в виде бесед и преобразовании свойств сообщения в [Формат TNEF](transport-neutral-encapsulation-format-tnef.md)не используйте это свойство. Вместо этого используйте канонические свойства [PidTagConversationIndex](pidtagconversationindex-canonical-property.md) и [PidTagConversationTopic](pidtagconversationtopic-canonical-property.md) . 
+При доступе к электронным письмам в виде бесед и преобразовании свойств сообщений в формат [TNEF](transport-neutral-encapsulation-format-tnef.md)не используйте это свойство; вместо этого используйте канонические свойства [PidTagConversationIndex](pidtagconversationindex-canonical-property.md) и [PidTagConversationTopic.](pidtagconversationtopic-canonical-property.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Microsoft Exchange Server.
+> Содержит ссылки на связанные Microsoft Exchange Server протоколы.
     
-[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
+> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
     
-[[MS — ОКСТНЕФ]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
+[[MS-OXTNEF]](https://msdn.microsoft.com/library/1f0544d7-30b7-4194-b58f-adc82f3763bb%28Office.15%29.aspx)
   
-> Кодирует и декодирует объекты сообщений и вложений в эффективное потоковое представление.
+> Кодирует и декодирует объекты сообщений и вложений в эффективное представление потока.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
 
 
-[Поддерево IPM](ipm-subtree.md)
+[Подtree IPM](ipm-subtree.md)
   
 [Специальные папки MAPI](mapi-special-folders.md)
   
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

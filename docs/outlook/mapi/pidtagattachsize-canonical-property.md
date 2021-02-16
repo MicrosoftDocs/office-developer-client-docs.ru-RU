@@ -25,7 +25,7 @@ ms.locfileid: "32361091"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит сумму (в байтах) всех размеров всех свойств вложения. 
+Содержит сумму (в bytes) размеров всех свойств вложения. 
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ ms.locfileid: "32361091"
    
 ## <a name="remarks"></a>Примечания
 
-Рекомендуется, чтобы вложенные объекты вложения предоставляли свойство **PR_ATTACH_SIZE** . Сумма, содержащаяся в **PR_ATTACH_SIZE** , включает размер свойства **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary](pidtagattachdatabinary-canonical-property.md)) или **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject](pidtagattachdataobject-canonical-property.md)). Соответственно, **PR_ATTACH_SIZE** обычно превышает содержимое вложения. 
+Рекомендуется, чтобы вложенные объекты вложения PR_ATTACH_SIZE **свойства.** Сумма, содержаная  в PR_ATTACH_SIZE, включает размер свойства **PR_ATTACH_DATA_BIN** ([PidTagAttachDataBinary)](pidtagattachdatabinary-canonical-property.md)или **PR_ATTACH_DATA_OBJ** ([PidTagAttachDataObject).](pidtagattachdataobject-canonical-property.md) Соответственно, **PR_ATTACH_SIZE** обычно больше, чем содержимое вложения. 
   
-Это свойство можно использовать для проверки приблизительного размера вложения перед выполнением удаленной передачи по модему и отображения индикаторов хода выполнения при сохранении вложения на диск. Он особенно полезен с присоединенными объектами OLE. 
+Это свойство можно использовать для проверки приблизительного размера вложения перед выполнением удаленной передачи с помощью модема и для отображения индикаторов хода выполнения при сохранении вложения на диск. Это особенно полезно при присоединении объектов OLE. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-мапитагс. h
+mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -67,7 +67,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -1,5 +1,5 @@
 ---
-title: Таблицы хранилища сообщений
+title: Таблицы store сообщений
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -15,27 +15,27 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33405354"
 ---
-# <a name="message-store-tables"></a>Таблицы хранилища сообщений
+# <a name="message-store-tables"></a>Таблицы store сообщений
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Таблица "хранилище сообщений" содержит сведения о поставщиках хранилища сообщений в текущем профиле. Для каждого сеанса MAPI существует одна таблица хранилища сообщений, реализованная MAPI и используемая клиентами. Клиенты могут использовать эту таблицу, например, для обнаружения всех экземпляров определенного поставщика или для обнаружения определенного хранилища сообщений. 
+Таблица хранения сообщений содержит сведения о поставщиках store сообщений в текущем профиле. Существует одна таблица хранения сообщений для каждого сеанса MAPI, реализованная с помощью MAPI и используемая клиентами. Клиенты могут использовать эту таблицу, например, для поиска всех экземпляров определенного поставщика или для поиска определенного хранения сообщений. 
   
-Таблица хранилища сообщений является динамической. Если пользователь клиентского приложения изменяет профиль, изменяя хранилище сообщений по умолчанию, например, значения свойств **PR_DEFAULT_STORE** для соответствующих хранилищ сообщений немедленно обновляются. 
+Таблица хранения сообщений является динамической. Если пользователь клиентского приложения изменяет профиль, например, изменяя хранилище сообщений  по умолчанию, значения свойств PR_DEFAULT_STORE для затронутых хранилищ сообщений немедленно обновляются. 
   
-Клиенты обращаются к таблице хранилища сообщений, вызывая метод [IMAPISession:: жетмсгсторестабле](imapisession-getmsgstorestable.md) . 
+Клиенты получают доступ к таблице хранения сообщений, вызывая метод [IMAPISession::GetMsgStoresTable.](imapisession-getmsgstorestable.md) 
   
-Следующие свойства составляют обязательный набор столбцов в таблице хранилища сообщений:
+Следующие свойства составляют необходимый набор столбцов в таблице хранения сообщений:
   
 |||
 |:-----|:-----|
-|**PR_DEFAULT_STORE** ([PidTagDefaultStore](pidtagdefaultstore-canonical-property.md))  <br/> |**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |
-|**PR_ENTRYID** ([PidTagEntryId](pidtagentryid-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
-|**PR_MDB_PROVIDER** ([PidTagStoreProvider](pidtagstoreprovider-canonical-property.md))  <br/> |**PR_OBJECT_TYPE** ([PidTagObjectType](pidtagobjecttype-canonical-property.md))  <br/> |
-|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay](pidtagproviderdisplay-canonical-property.md))  <br/> |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |
-|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md))  <br/> |
+|**PR_DEFAULT_STORE** ([PidTagDefaultStore)](pidtagdefaultstore-canonical-property.md)  <br/> |**PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)  <br/> |
+|**PR_ENTRYID** ([PidTagEntryId)](pidtagentryid-canonical-property.md)  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey)](pidtaginstancekey-canonical-property.md)  <br/> |
+|**PR_MDB_PROVIDER** ([PidTagStoreProvider)](pidtagstoreprovider-canonical-property.md)  <br/> |**PR_OBJECT_TYPE** ([PidTagObjectType)](pidtagobjecttype-canonical-property.md)  <br/> |
+|**PR_PROVIDER_DISPLAY** ([PidTagProviderDisplay)](pidtagproviderdisplay-canonical-property.md)  <br/> |**PR_RECORD_KEY** ([PidTagRecordKey](pidtagrecordkey-canonical-property.md))  <br/> |
+|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags)](pidtagresourceflags-canonical-property.md)  <br/> |**PR_RESOURCE_TYPE** ([PidTagResourceType)](pidtagresourcetype-canonical-property.md)  <br/> |
    
 ## <a name="see-also"></a>См. также
 

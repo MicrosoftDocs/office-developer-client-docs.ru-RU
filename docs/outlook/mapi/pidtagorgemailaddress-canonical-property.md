@@ -25,24 +25,24 @@ ms.locfileid: "33405074"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит адрес электронной почты исходной учетной записи электронной почты.
+Содержит адрес электронной почты учетной записи.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORG_EMAIL_ADDRESS, PR_ORG_EMAIL_ADDRESS_A PR_ORG_EMAIL_ADDRESS_W  <br/> |
+|Связанные свойства:  <br/> |PR_ORG_EMAIL_ADDRESS, PR_ORG_EMAIL_ADDRESS_A, PR_ORG_EMAIL_ADDRESS_W  <br/> |
 |Идентификатор:  <br/> |Подлежит уточнению.  <br/> |
-|Тип данных:  <br/> |PT_UNICODE PT_STRING8  <br/> |
+|Тип данных:  <br/> |PT_UNICODE, PT_STRING8  <br/> |
 |Область:  <br/> |Address  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -52,7 +52,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

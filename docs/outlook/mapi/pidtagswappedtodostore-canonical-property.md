@@ -25,46 +25,46 @@ ms.locfileid: "32358907"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Определяет необходимость обработки сообщения после передачи.
+Определяет необходимость обработки сообщения электронной почты после передачи.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_SWAPPED_TODO_STORE  <br/> |
 |Идентификатор:  <br/> |0x0E2C  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Несъемный MAPI  <br/> |
+|Область:  <br/> |MAPI, не передаваемый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство задано для черновика сообщения, ему должно быть присвоено значение свойства **PR_STORE_ENTRYID** ([PidTagStoreEntryId](pidtagstoreentryid-canonical-property.md)) сообщения.
+Если это свойство задано для черновика сообщения, его значение должно быть задано в PR_STORE_ENTRYID **(** [PidTagStoreEntryId)](pidtagstoreentryid-canonical-property.md)сообщения.
   
-Для получения дополнительных сведений ознакомьтесь с разделом [[MS – оксофлаг]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx) "обработка после передачи помеченного сообщения". 
+Дополнительные сведения см. [в разделе [MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx) "Пост-Передача обработки помеченного сообщения". 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОФЛАГ]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
+[[MS-OXOFLAG]](https://msdn.microsoft.com/library/f1e50be4-ed30-4c2a-b5cb-8ff3aaaf9b91%28Office.15%29.aspx)
   
-> Задает свойства и операции, связанные с пометкой.
+> Указывает свойства и операции, связанные с помезданием.
     
-[[MS — ОКСОРМДР]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
+[[MS-OXORMDR]](https://msdn.microsoft.com/library/5454ebcc-e5d1-4da8-a598-d393b101caab%28Office.15%29.aspx)
   
-> Задает свойства и модель взаимодействия для сообщений электронной почты и других объектов.
+> Указывает свойства и модель взаимодействия для электронной почты и других напоминаний об объектах.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -72,7 +72,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

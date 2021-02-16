@@ -1,5 +1,5 @@
 ---
-title: Создание элемента Contact
+title: Создание элемента контакта
 TOCTitle: Create a Contact item
 ms:assetid: b316294a-7f70-4e54-9375-4dc515e9fd11
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184633(v=office.15)

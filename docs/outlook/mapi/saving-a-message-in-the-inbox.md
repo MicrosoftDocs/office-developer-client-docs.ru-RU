@@ -1,5 +1,5 @@
 ---
-title: Сохранение сообщения в папке "Входящие"
+title: Сохранение сообщения в почтовом ящике
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,26 +15,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33407895"
 ---
-# <a name="saving-a-message-in-the-inbox"></a>Сохранение сообщения в папке "Входящие"
+# <a name="saving-a-message-in-the-inbox"></a>Сохранение сообщения в почтовом ящике
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
- **Сохранение сообщения в папке "Входящие" без получателей**
+ **Хранение сообщения в почтовой ящике без получателей**
   
-1. Call [IMsgStore:: жетрецеивефолдер](imsgstore-getreceivefolder.md) для получения идентификатора записи папки "Входящие". 
+1. Вызовите [IMsgStore::GetReceiveFolder,](imsgstore-getreceivefolder.md) чтобы получить идентификатор записи для входящих сообщений. 
     
-2. Call [IMsgStore:: OpenEntry](imsgstore-openentry.md) , чтобы открыть папку "Входящие" и получить указатель на него. 
+2. Вызовите [IMsgStore::OpenEntry,](imsgstore-openentry.md) чтобы открыть "Входящие" и получить на него указатель. 
     
-3. Вызовите метод [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) для создания сообщения. 
+3. Вызовите метод [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) почтового ящика, чтобы создать сообщение. 
     
-4. Вызовите метод [IMAPIProp:: SetProps](imapiprop-setprops.md) , чтобы добавить свойства **PR_BODY** ([PidTagBody](pidtagbody-canonical-property.md)), **PR_HTML** ([PidTagHtml](pidtaghtml-canonical-property.md)) или **PR_RTF_COMPRESSED** ([PidTagRtfCompressed](pidtagrtfcompressed-canonical-property.md)) и **PR_SUBJECT** ([PidTagSubject](pidtagsubject-canonical-property.md)). 
+4. Вызовите метод [IMAPIProp::SetProps](imapiprop-setprops.md) сообщения, чтобы добавить свойства **PR_BODY** ([PidTagBody),](pidtagbody-canonical-property.md) **PR_HTML** ([PidTagHtml)](pidtaghtml-canonical-property.md)или **PR_RTF_COMPRESSED** ([PidTagRtfCompressed)](pidtagrtfcompressed-canonical-property.md)и **PR_SUBJECT** ([PidTagSubject).](pidtagsubject-canonical-property.md) 
     
-5. Создайте каждое вложение, задайте его свойства и сохраните. Более подробную информацию о добавлении вложений в сообщения можно узнать в статье [Создание вложения сообщения](creating-a-message-attachment.md).
+5. Создайте каждое вложение, установите его свойства и сохраните его. Дополнительные сведения о добавлении вложений в сообщения см. в описании [создания вложения в сообщение.](creating-a-message-attachment.md)
     
-6. Call **iMessage:: SaveChanges** для сохранения сообщения. На этом шаге он будет отображаться в таблице содержимое папки "Входящие". 
+6. Вызовите **IMessage::SaveChanges,** чтобы сохранить сообщение. На этом этапе он появится в таблице содержимого в "Входящие". 
     
-Если вы хотите сохранить сообщение интермиттантли, прежде чем оно будет отображаться в таблице содержимого папки "Входящие", создайте его, а не в скрытой папке, такой как корневая папка поддерева IPM, а затем переместите его в папку "Входящие". 
+Если вы хотите периодически сохранять сообщение, прежде чем оно появится в таблице содержимого папки "Входящие", создайте его в скрытой папке, например в корневой папке поддерева IPM, а затем переместите его в папку "Входящие". 
   
 

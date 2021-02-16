@@ -1,5 +1,5 @@
 ---
-title: Разделы (Справочник по таблице свойств фигур Visio)
+title: Sections (Visio ShapeSheet Reference)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -13,9 +13,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33419228"
 ---
-# <a name="sections-visio-shapesheet-reference"></a>Разделы (Справочник по таблице свойств фигур Visio)
+# <a name="sections-visio-shapesheet-reference"></a>Sections (Visio ShapeSheet Reference)
 
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 - [1-D Endpoints Section](1-d-endpoints-section.md)
     
@@ -87,7 +87,7 @@ ms.locfileid: "33419228"
     
 - [Reviewer Section](reviewer-section.md)
     
-- [Раздел &amp; сетки линеек](rulergrid-section.md)
+- [Раздел &amp; "Линейка сетки"](rulergrid-section.md)
     
 - [Scratch Section](scratch-section.md)
     

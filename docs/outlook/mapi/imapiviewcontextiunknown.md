@@ -1,5 +1,5 @@
 ---
-title: Имапивиевконтекст IUnknown
+title: IMAPIViewContext IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,27 +25,27 @@ ms.locfileid: "33406033"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Управляет формой в средстве просмотра форм клиентского приложения. 
+Управляет формой в представлении форм клиентского приложения. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
-|Предоставлено:  <br/> |Просмотр объектов контекста  <br/> |
-|Реализовано в:  <br/> |Средства просмотра форм  <br/> |
+|Файл заголовка:  <br/> |Mapiform.h  <br/> |
+|Выставим:  <br/> |Просмотр объектов контекста  <br/> |
+|Реализовано в:  <br/> |Просмотр форм  <br/> |
 |Вызывающая сторона:  <br/> |Объекты форм  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIViewContext  <br/> |
-|Тип указателя:  <br/> |лпмапивиевконтекст  <br/> |
+|Тип указателя:  <br/> |LPMAPIVIEWCONTEXT  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[сетадвисесинк](imapiviewcontext-setadvisesink.md) <br/> |Управляет регистрацией формы для получения уведомлений об изменениях в средстве просмотра.  <br/> |
-|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Активирует следующее или предыдущее сообщение в средстве просмотра форм.  <br/> |
-|[жетпринтсетуп](imapiviewcontext-getprintsetup.md) <br/> |Получает текущие сведения о печати.  <br/> |
-|[жетсавестреам](imapiviewcontext-getsavestream.md) <br/> |Получает поток, который будет использоваться для сохранения текущего сообщения.  <br/> |
-|[жетвиевстатус](imapiviewcontext-getviewstatus.md) <br/> |Получает текущее состояние средства просмотра.  <br/> |
-|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Возвращает структуру [мапиеррор](mapierror.md) , которая содержит сведения о предыдущей ошибке, возникшей в объекте контекста представления.  <br/> |
+|[SetAdviseSink](imapiviewcontext-setadvisesink.md) <br/> |Управляет регистрацией формы для получения уведомлений об изменениях в средстве просмотра.  <br/> |
+|[ActivateNext](imapiviewcontext-activatenext.md) <br/> |Активирует следующее или предыдущее сообщение в представлении формы.  <br/> |
+|[GetPrintSetup](imapiviewcontext-getprintsetup.md) <br/> |Извлекает текущие сведения о печати.  <br/> |
+|[GetSaveStream](imapiviewcontext-getsavestream.md) <br/> |Извлекает поток, который будет использоваться для сохранения текущего сообщения.  <br/> |
+|[GetViewStatus](imapiviewcontext-getviewstatus.md) <br/> |Извлекает текущее состояние просмотра.  <br/> |
+|[GetLastError](imapiviewcontext-getlasterror.md) <br/> |Возвращает структуру [MAPIERROR, которая](mapierror.md) содержит сведения о предыдущей ошибке, которая произошла в объекте контекста представления.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

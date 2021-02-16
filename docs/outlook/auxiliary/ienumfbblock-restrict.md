@@ -1,12 +1,12 @@
 ---
-title: иенумфбблоккрестрикт
+title: IEnumFBBlockRestrict
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 887cea55-8f1c-45ec-3100-d03e1213d7c9
-description: Ограничит перечисление до указанного периода времени.
+description: Ограничивает его указанным периодом времени.
 ms.openlocfilehash: e7f7a5d846d13422f9ed79ef26f1b9b0008463f6
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33431948"
 ---
 # <a name="ienumfbblockrestrict"></a>IEnumFBBlock::Restrict
 
-Ограничит перечисление до указанного периода времени.
+Ограничивается указанным периодом времени.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иенумфбблокк](ienumfbblock.md).
+См. [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Restrict(  
@@ -32,13 +32,13 @@ HRESULT Restrict(
 
 ## <a name="parameters"></a>Параметры
 
-_фтмстарт_
+_ftmStart_
   
->  возврата Время начала, ограничивающее перечисление. 
+>  [in] Время начала для ограничения этого перечня. 
     
-_фтменд_
+_ftmEnd_
   
-> возврата Время окончания для ограничения перечисления.
+> [in] Время окончания для ограничения этого перенамерения.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
@@ -46,7 +46,7 @@ S_OK if the call succeeded; otherwise, an error code.
   
 ## <a name="remarks"></a>Примечания
 
-Этот метод также сбрасывает перечисление.
+Этот метод также сбрасывает enumeration.
   
 ## <a name="see-also"></a>См. также
 

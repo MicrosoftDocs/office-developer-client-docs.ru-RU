@@ -25,7 +25,7 @@ ms.locfileid: "32341960"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если отправитель сообщения запрашивает отчет о недоставке для определенного получателя.
+Содержит значение TRUE, если отправитель сообщения запрашивает отчет о ненастройке для определенного получателя.
   
 |||
 |:-----|:-----|
@@ -36,25 +36,25 @@ ms.locfileid: "32341960"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство используется для направления системы обмена сообщениями на обработку недоставленных сообщений. В этом случае сообщение должно также иметь свойство **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorDeliveryReportRequested](pidtagoriginatordeliveryreportrequested-canonical-property.md)) со значением false.
+Это свойство используется для управления системой обмена сообщениями при обработке недосвеченных сообщений. В этом случае в сообщении  также должно быть PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED[(PidTagOriginatorDeliveryReportRequested)](pidtagoriginatordeliveryreportrequested-canonical-property.md)со свойством FALSE.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
+> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -62,7 +62,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

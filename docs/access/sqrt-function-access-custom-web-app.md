@@ -1,5 +1,5 @@
 ---
-title: Функция SQRT (пользовательское веб-приложение для Access)
+title: Sqrt Function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33404794"
 ---
-# <a name="sqrt-function-access-custom-web-app"></a>Функция SQRT (пользовательское веб-приложение для Access)
+# <a name="sqrt-function-access-custom-web-app"></a>Sqrt Function (Access custom web app)
 
 Возвращает квадратный корень указанного значения.
   
@@ -23,12 +23,12 @@ ms.locfileid: "33404794"
   
 ## <a name="syntax"></a>Синтаксис
 
- **Sqrt** (*нумерицекспрессион*) 
+ **Sqrt** (*NumericExpression)* 
   
-Функция **sqrt** содержит следующий аргумент. 
+Функция **Sqrt содержит** следующий аргумент. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *нумерицекспрессион*  <br/> |Числовое выражение.  <br/> |
+| *NumericExpression*  <br/> |Числимые выражения.  <br/> |
    
 

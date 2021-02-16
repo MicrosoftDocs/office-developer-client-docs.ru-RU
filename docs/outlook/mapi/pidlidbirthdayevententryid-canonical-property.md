@@ -25,37 +25,37 @@ ms.locfileid: "32342023"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает идентификатор **EntryId** записи необязательной встречи, представляющей день рождения контакта. 
+Указывает **EntryId необязательной** встречи, которая представляет день рождения контакта. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидбирсдайевентеид  <br/> |
+|Связанные свойства:  <br/> |dispidBirthdayEventEID  <br/> |
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x0000804D  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x0000804D  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Встреча. это свойство должно быть связано с контактом с помощью свойств **диспидапптстатефлагс** ([PidLidContactLinkEntry](pidlidcontactlinkentry-canonical-property.md)), **Диспидконтактлинксеарчкэй** ([PidLidContactLinkSearchKey](pidlidcontactlinksearchkey-canonical-property.md)) и **Диспидконтактлинкнаме** ([PidLidContactLinkName](pidlidcontactlinkname-canonical-property.md)), как указано в [[MS-окскмсг]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
+Встреча, указанная этим свойством, должна быть связана с этим контактом с помощью свойств **dispidApptStateFlags** ([PidLidContactLinkEntry),](pidlidcontactlinkentry-canonical-property.md) **dispidContactLinkSearchKey** ([PidLidContactLinkSearchKey)](pidlidcontactlinksearchkey-canonical-property.md)и **dispidContactLinkName** ([PidLidContactLinkName),](pidlidcontactlinkname-canonical-property.md)как указано [в [MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx).
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКНТК]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для контактов и личных списков рассылки.
+> Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

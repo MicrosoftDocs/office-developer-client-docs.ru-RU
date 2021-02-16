@@ -25,42 +25,42 @@ ms.locfileid: "32359229"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит тип адреса электронной почты, например, SMTP, для пользователя обмена сообщениями, который действительно получает сообщение.
+Содержит тип адреса электронной почты, например SMTP, для пользователя обмена сообщениями, который фактически получает сообщение.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_RECEIVED_BY_ADDRTYPE, PR_RECEIVED_BY_ADDRTYPE_A PR_RECEIVED_BY_ADDRTYPE_W  <br/> |
+|Связанные свойства:  <br/> |PR_RECEIVED_BY_ADDRTYPE, PR_RECEIVED_BY_ADDRTYPE_A, PR_RECEIVED_BY_ADDRTYPE_W  <br/> |
 |Идентификатор:  <br/> |0x0075  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства являются примерами свойств адресов для пользователя обмена сообщениями, который действительно получает сообщение. Они должны быть заданы входящим поставщиком транспорта.
+Эти свойства являются примерами свойств адреса для пользователя обмена сообщениями, который фактически получает сообщение. Их должен установить поставщик входящих транспортных услуг.
   
-Строка типа адреса может содержать только прописные буквы от A до Z и цифры от нуля до девяти. Эти свойства квалифицируют свойство **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress](pidtagreceivedbyemailaddress-canonical-property.md)), указав тип адреса, например SMTP, таким образом указывая, как должен быть создан адрес.
+Строка типа адреса может содержать только буквенные символы в верхнем регистре от A до Z и числа от нуля до девяти. Эти свойства определяют свойство **PR_RECEIVED_BY_EMAIL_ADDRESS** ([PidTagReceivedByEmailAddress),](pidtagreceivedbyemailaddress-canonical-property.md)указывая тип адреса, например SMTP, таким образом указывая, как должен быть построен адрес.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для сообщений электронной почты.
+> Указывает свойства и операции, которые разрешены для сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

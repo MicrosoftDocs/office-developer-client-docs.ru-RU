@@ -23,14 +23,14 @@ ms.locfileid: "33404444"
   
 Каждый поставщик транспорта MAPI должен:
   
-- Следуйте общим рекомендациям по работе с MAPI и другим поставщикам услуг. Дополнительные сведения можно найти в разделе [Разработка приложений MAPI](mapi-application-development.md) и [поставщики службы MAPI](mapi-service-providers.md).
+- Следуйте общим рекомендациям по работе с MAPI и другими поставщиками услуг. Дополнительные сведения см. в сведениях о [разработке приложений MAPI](mapi-application-development.md) и [поставщиках услуг MAPI.](mapi-service-providers.md)
     
-- Библиотека DLL поставщика транспорта предоставляет MAPI функцию инициализации [ксппровидеринит](xpproviderinit.md) для MAPI. 
+- DLL поставщика транспорта предоставляет MAPI функцию инициализации [XPProviderInit.](xpproviderinit.md) 
     
-- Предоставьте интерфейсу MAPI реализацию интерфейсов [иксппровидер: IUnknown](ixpprovideriunknown.md) и [иксплогон: IUnknown](ixplogoniunknown.md) . 
+- Доступ к MAPI его реализации [IXPProvider : IUnknown](ixpprovideriunknown.md) и [IXPLogon : интерфейсы IUnknown.](ixplogoniunknown.md) 
     
-- Предоставление приложениям MAPI и клиентским приложениям своей реализации интерфейса [имапистатус: IMAPIProp](imapistatusimapiprop.md) . Более подробную информацию о реализации **имапистатус**можно узнать в разделе [Status Object реализация](status-object-implementation.md). 
+- Доступ к интерфейсу MAPI и клиентских приложений с реализацией [интерфейса IMAPIStatus : IMAPIProp.](imapistatusimapiprop.md) Дополнительные сведения о реализации **IMAPIStatus** см. в реализации [объекта status.](status-object-implementation.md) 
     
-- Реализация диалогового окна "страница свойств" для конфигурации. Дополнительные сведения о реализации страниц свойств можно найти в статье [Реализация листа свойств](property-sheet-implementation.md).
+- Реализуйте диалоговое окно таблицы свойств для настройки. Дополнительные сведения о реализации листов свойств см. в [реализации листа свойств.](property-sheet-implementation.md)
     
 

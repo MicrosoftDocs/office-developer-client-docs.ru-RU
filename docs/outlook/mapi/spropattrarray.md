@@ -29,8 +29,8 @@ ms.locfileid: "33405515"
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |IMessage. h  <br/> |
-|Связанные макросы:  <br/> |[Кбневспропаттраррай](cbnewspropattrarray.md), [кбспропаттраррай](cbspropattrarray.md) <br/> |
+|Файл заголовка:  <br/> |Imessage.h  <br/> |
+|Связанные макросы:  <br/> |[CbNewSPropAttrArray](cbnewspropattrarray.md), [CbSPropAttrArray](cbspropattrarray.md) <br/> |
    
 ```cpp
 typedef struct
@@ -43,13 +43,13 @@ typedef struct
 
 ## <a name="members"></a>"Участники"
 
- **квалуес**
+ **cValues**
   
-> Количество атрибутов свойств в элементе **апропаттр** . 
+> Количество атрибутов свойств в **члене aPropAttr.** 
     
- **апропаттр**
+ **aPropAttr**
   
-> Массив атрибутов свойств. Для атрибутов допустимы следующие значения:
+> Массив атрибутов свойств. Допустимые значения атрибутов:
     
     - PROPATTR_MANDATORY
     
@@ -61,7 +61,7 @@ typedef struct
     
 ## <a name="remarks"></a>Примечания
 
-Структура **спропаттраррай** используется объектами данных свойств, которые реализуют интерфейс [ипропдата: IMAPIProp](ipropdataimapiprop.md) . Он также используется реализацией интерфейса MAPI [имапимессажесите: IUnknown](imapimessagesiteiunknown.md) , основанного на структурированном хранилище. 
+Структура **SPropAttrArray** используется объектами данных свойств, которые реализуют [интерфейс IPropData : IMAPIProp.](ipropdataimapiprop.md) Он также используется реализацией [IMAPIMessageSite в MAPI : IUnknown,](imapimessagesiteiunknown.md) основанной на структурированном хранилище. 
   
 ## <a name="see-also"></a>См. также
 

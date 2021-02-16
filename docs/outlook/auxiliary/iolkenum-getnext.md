@@ -1,12 +1,12 @@
 ---
-title: иолкенумжетнекст
+title: IOlkEnumGetNext
 manager: soliver
 ms.date: 12/07/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: b387f896-c213-fc07-a12a-33917e620837
-description: Получает следующую учетную запись в перечислителе.
+description: Получает следующую учетную запись в enumerator.
 ms.openlocfilehash: e2ad98f7d7e71bd91d48b3824423e305baab429a
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33405991"
 ---
 # <a name="iolkenumgetnext"></a>IOlkEnum::GetNext
 
-Получает следующую учетную запись в перечислителе.
+Получает следующую учетную запись в enumerator.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иолкенум](iolkenum.md).
+См. [IOlkEnum](iolkenum.md).
   
 ```cpp
 HRESULT IOlkEnum:: GetNext( 
@@ -31,20 +31,20 @@ HRESULT IOlkEnum:: GetNext(
 
 ## <a name="parameters"></a>Параметры
 
-_ппунк_
+_ppunk_
   
-> возврата Указатель на интерфейс **IUnknown** , который клиент может запрашивать для получения интерфейса [иолкаккаунт](iolkaccount.md) . 
+> [in] Указатель на интерфейс **IUnknown,** который клиент может запросить для получения [интерфейса IOlkAccount.](iolkaccount.md) 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
-|S_FALSE  <br/> |Достигнут конец перечислителя.  <br/> |
+|S_FALSE  <br/> |Заканчивается время, когда заканчивается.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Интерфейс, указанный *ппунк* , наследуется от **IUnknown**. Клиент может запросить этот интерфейс (с помощью **IUnknown:: QueryInterface**), чтобы получить указатель на интерфейс **иолкаккаунт** , а также получить или задать сведения для этой учетной записи. 
+Интерфейс, указанный *ppunk, наследуется* от **IUnknown.** Клиент может запросить этот интерфейс (с помощью **IUnknown::QueryInterface),** чтобы получить указатель на интерфейс **IOlkAccount** и получить или установить сведения для этой учетной записи. 
   
 ## <a name="see-also"></a>См. также
 

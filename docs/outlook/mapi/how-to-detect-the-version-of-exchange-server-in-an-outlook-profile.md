@@ -5,7 +5,7 @@ ms.date: 11/16/2014
 ms.audience: Developer
 localization_priority: Normal
 ms.assetid: e2d8d8a9-7e8f-9cf0-56a8-d8a6281ad589
-description: 'Дата последнего изменения: 03 июля, 2012'
+description: 'Last modified: July 03, 2012'
 ms.openlocfilehash: c6aaac128e1a3e1a8d77d3fa8b6c50a335348b71
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,11 +17,11 @@ ms.locfileid: "33424450"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-В этом разделе представлен пример кода на языке C++, в котором показано, как использовать свойство **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** и свойство **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** для получения сведений о версии сервера Microsoft Exchange, к которому подключена активная учетная запись. 
+В этом разделе содержится пример кода на C++, в который показано, как использовать свойство **[PR_PROFILE_SERVER_VERSION](pidtagprofileserverversion-canonical-property.md)** и **[PR_PROFILE_SERVER_FULL_VERSION](pidtagprofileserverfullversion-canonical-property.md)** для получения сведений о версии Microsoft Exchange Server к активной учетной записи. 
   
-`GetProfileServiceVersion` Функция в образце кода принимает профиль в качестве входного параметра. В зависимости от того, существует ли свойство **PR_PROFILE_SERVER_VERSION** и свойство **PR_PROFILE_SERVER_FULL_VERSION** в заданном профиле, функция получает каждое свойство и возвращает соответствующие сведения о версии в виде выходных параметров. 
+Функция в примере кода принимает профиль  `GetProfileServiceVersion` в качестве входного параметра. В зависимости от  того, PR_PROFILE_SERVER_VERSION и **PR_PROFILE_SERVER_FULL_VERSION** в заданном профиле, функция получает каждое свойство и возвращает соответствующие сведения о версии в качестве выходных параметров. 
   
-`GetProfileServiceVersion`Сначала вызывается функция **[мапиадминпрофилес](mapiadminprofiles.md)** для создания объекта администрирования профиля. Затем с помощью объекта администрирования профиля вызывается метод **[ипрофадмин:: админсервицес](iprofadmin-adminservices.md)** для получения объекта администрирования службы сообщений. С помощью объекта администрирования службы сообщений он вызывает **[имсгсервицеадмин:: опенпрофилесектион](imsgserviceadmin-openprofilesection.md)** для получения раздела текущего профиля, а затем вызывает **[хржетонепроп](hrgetoneprop.md)** , чтобы проверить, существует ли каждое из этих двух свойств в этом разделе профиля, и если да, то задается информация о версии в соответствующих выходных параметрах. 
+`GetProfileServiceVersion` Сначала вызывается функция **[MAPIAdminProfiles](mapiadminprofiles.md)** для создания объекта администрирования профиля. Затем он использует объект администрирования профиля для вызова **[IProfAdmin::AdminServices](iprofadmin-adminservices.md)** для получения объекта администрирования службы сообщений. С помощью объекта администрирования службы сообщений он вызывает **[IMsgServiceAdmin::OpenProfileSection](imsgserviceadmin-openprofilesection.md)** для получения раздела текущего профиля, а затем вызывает **[HrGetOneProp,](hrgetoneprop.md)** чтобы проверить, существует ли каждое из двух свойств в этом разделе профиля, и, если да, задает сведения о версии в соответствующих выходных параметрах. 
   
 ```cpp
 TZDEFINITION* BinToTZDEFINITION(ULONG cbDef, LPBYTE lpbDef) 

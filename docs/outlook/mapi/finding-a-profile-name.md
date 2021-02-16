@@ -23,32 +23,32 @@ ms.locfileid: "33407923"
   
 Иногда клиентам необходимо найти имя профиля, используемого в данный момент для сеанса, имя профиля по умолчанию или имя альтернативного профиля, установленного на компьютере.
   
-Существует несколько способов извлечения имени профиля во время сеанса. Если необходимо найти имя профиля, который не обязательно используется для сеанса, используйте первую процедуру. Если вам нужно найти имя профиля по умолчанию, используйте вторую процедуру. Если вам нужно найти имя текущего профиля для сеанса, используйте последнюю процедуру. 
+Существует несколько способов получения имени профиля в ходе сеанса. Если необходимо найти имя профиля, которое необязательно является именем, используемым для сеанса, используйте первую процедуру. Чтобы найти имя профиля по умолчанию, используйте вторую процедуру. Если необходимо найти имя текущего профиля для сеанса, используйте последнюю процедуру. 
   
  **Поиск имени любого профиля**
   
-1. Вызовите [мапиадминпрофилес](mapiadminprofiles.md) , чтобы получить указатель интерфейса **ипрофадмин** . 
+1. Вызовите [MAPIAdminProfiles,](mapiadminprofiles.md) чтобы получить указатель интерфейса **IProfAdmin.** 
     
-2. Call [ипрофадмин:: жетпрофилетабле](iprofadmin-getprofiletable.md) для доступа к таблице профилей. 
+2. Вызовите [IProfAdmin::GetProfileTable,](iprofadmin-getprofiletable.md) чтобы получить доступ к таблице профилей. 
     
-3. Вызовите таблицу профилей [IMAPITable:: QueryRows](imapitable-queryrows.md) , чтобы получить все строки в таблице и проверить каждую из них, чтобы определить, соответствует ли она целевому профилю. 
+3. Вызовите метод [IMAPITable::QueryRows](imapitable-queryrows.md) таблицы профилей, чтобы получить все строки в таблице и проверить каждую из них, чтобы определить, представляет ли он целевой профиль. 
     
  **Поиск имени профиля по умолчанию**
   
-1. Вызовите [мапиадминпрофилес](mapiadminprofiles.md).
+1. Вызовите [MAPIAdminProfiles.](mapiadminprofiles.md)
     
-2. Call [ипрофадмин:: жетпрофилетабле](iprofadmin-getprofiletable.md) для доступа к таблице профилей. 
+2. Вызовите [IProfAdmin::GetProfileTable,](iprofadmin-getprofiletable.md) чтобы получить доступ к таблице профилей. 
     
-3. Создайте ограничение свойства с помощью структуры [спропертирестриктион](spropertyrestriction.md) для сравнения **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) со значением true.
+3. Создайте ограничение свойства со структурой [SPropertyRestriction,](spropertyrestriction.md) чтобы соответствовать PR_DEFAULT_PROFILE **(** [PidTagDefaultProfile)](pidtagdefaultprofile-canonical-property.md)со значением TRUE.
     
-4. Call [IMAPITable:: FindRow](imapitable-findrow.md) для обнаружения строки в таблице Profile, которая представляет профиль по умолчанию. Столбец **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)) содержит имя профиля по умолчанию.
+4. Вызовите [IMAPITable::FindRow,](imapitable-findrow.md) чтобы найти строку в таблице профилей, которая представляет профиль по умолчанию. Столбец **PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)содержит имя профиля по умолчанию.
     
  **Поиск имени текущего профиля**
   
-Чтобы найти имя текущего профиля, выполните одно из указанных ниже действий.
+Чтобы найти имя текущего профиля, выполните одно из следующих действий:
   
-- Предполагается, что структура [мапиуид](mapiuid.md) , представляющая один из разделов текущего профиля, передается в параметре _лпуид_ в [IMAPISession:: опенпрофилесектион](imapisession-openprofilesection.md). Получите свойство **PR_PROFILE_NAME** раздела профиля ([PidTagProfileName](pidtagprofilename-canonical-property.md)) с помощью метода [IMAPIProp::-PROPS](imapiprop-getprops.md) . 
+- Предположим, что у вас есть структура [MAPIUID,](mapiuid.md) представляющая один из разделов текущего профиля, передав его в _параметре lpUID_ [в IMAPISession::OpenProfileSection.](imapisession-openprofilesection.md) Получите свойство PR_PROFILE_NAME раздела **профиля** [(PidTagProfileName)](pidtagprofilename-canonical-property.md)с помощью метода [IMAPIProp::GetProps.](imapiprop-getprops.md) 
     
-- Call [IMAPISession:: жетстатустабле](imapisession-getstatustable.md) для доступа к таблице status и поиска строки, в которой для столбца **PR_RESOURCE_TYPE** ([PidTagResourceType](pidtagresourcetype-canonical-property.md)) задано значение MAPI_SUBSYSTEM. Столбец **PR_DISPLAY_NAME** для этой строки является именем профиля. Не используйте таблицу Status во время запуска, так как она блокирует приложение до тех пор, пока диспетчер очереди MAPI не завершит инициализацию всех поставщиков транспорта. Это может привести к снижению производительности. 
+- Вызовите [IMAPISession::GetStatusTable,](imapisession-getstatustable.md) чтобы получить доступ к таблице состояния и найти строку, для столбца **PR_RESOURCE_TYPE** [(PidTagResourceType)](pidtagresourcetype-canonical-property.md)установлено значение MAPI_SUBSYSTEM. Столбец **PR_DISPLAY_NAME** для этой строки — это имя профиля. Не используйте таблицу состояния во время запуска, так как она блокирует приложение, пока пул mapI не завершит инициализацию всех поставщиков транспорта. Это может ухудшить производительность. 
     
 

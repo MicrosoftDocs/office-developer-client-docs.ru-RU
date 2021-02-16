@@ -1,5 +1,5 @@
 ---
-title: иолкаккаунтсетпроп
+title: IOlkAccountSetProp
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -20,7 +20,7 @@ ms.locfileid: "33431990"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
+См. [IOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::SetProp(  
@@ -31,24 +31,24 @@ HRESULT IOlkAccount::SetProp(
 
 ## <a name="parameters"></a>Параметры
 
-_двпроп_
+_dwProp_
   
-> возврата Тег свойства для свойства Account, которое необходимо задать.
+> [in] Тег свойства свойства учетной записи, который необходимо установить.
     
-_пвар_
+_pVar_
   
-> возврата Значение указанного свойства.
+> [in] Значение указанного свойства.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |Вызов метода выполнен успешно.  <br/> |
+|S_OK  <br/> |Вызов метода был успешным.  <br/> |
 |E_INVALIDARG  <br/> |Указан недопустимый тег свойства.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Используйте [иолкаккаунт:: SaveChanges](iolkaccount-savechanges.md) , чтобы сохранить изменения в значении свойств учетной записи. 
+Используйте [IOlkAccount::SaveChanges,](iolkaccount-savechanges.md) чтобы сохранить изменения в значении свойств учетной записи. 
   
 ## <a name="see-also"></a>См. также
 
