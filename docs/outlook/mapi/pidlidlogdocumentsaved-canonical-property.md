@@ -25,13 +25,13 @@ ms.locfileid: "32342849"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает, был ли документ сохранен во время ведения журнала.
+Указывает, был ли документ сохранен во время журнала.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидлогдоксавед  <br/> |
+|Связанные свойства:  <br/> |dispidLogDocSaved  <br/> |
 |Набор свойств:  <br/> |PSETID_Log  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x0000870F  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x0000870F  <br/> |
 |Тип данных:  <br/> |PT_BOOLEAN  <br/> |
 |Область:  <br/> |Журнал  <br/> |
    
@@ -39,19 +39,19 @@ ms.locfileid: "32342849"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определение набора свойств и ссылки на соответствующие спецификации протокола Exchange Server.
+> Предоставляет определение набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОЖРНЛ]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
+[[MS-OXOJRNL]](https://msdn.microsoft.com/library/2aa04fd2-0f36-4ce4-9178-c0fc70aa8d43%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для журналов.
+> Указывает свойства и операции, которые разрешены для журналов.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -59,7 +59,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

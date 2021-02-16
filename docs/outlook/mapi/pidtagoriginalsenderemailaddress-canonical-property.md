@@ -25,40 +25,40 @@ ms.locfileid: "32355274"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит адрес электронной почты отправителя первой версии сообщения, то есть сообщение перед пересылкой или ответом.
+Содержит адрес электронной почты отправитель первой версии сообщения, то есть сообщение перед переадаемой или ответом.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ORIGINAL_SENDER_EMAIL_ADDRESS, PR_ORIGINAL_SENDER_EMAIL_ADDRESS_A PR_ORIGINAL_SENDER_EMAIL_ADDRESS_W  <br/> |
+|Связанные свойства:  <br/> |PR_ORIGINAL_SENDER_EMAIL_ADDRESS, PR_ORIGINAL_SENDER_EMAIL_ADDRESS_A, PR_ORIGINAL_SENDER_EMAIL_ADDRESS_W  <br/> |
 |Идентификатор:  <br/> |0x0067  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Общий обмен сообщениями  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
+|Область:  <br/> |Общие сообщения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства являются примерами свойств адреса для исходного отправителя сообщения. При первой отправке сообщения клиентскому приложению следует присвоить этому свойству значение **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress](pidtagsenderemailaddress-canonical-property.md)). Он никогда не изменяется при пересылке сообщения или ответе на него.
+Эти свойства являются примерами свойств адреса исходного отправитель сообщения. При первой отправке сообщения клиентский приложение должно установить для этого свойства значение **PR_SENDER_EMAIL_ADDRESS** ([PidTagSenderEmailAddress).](pidtagsenderemailaddress-canonical-property.md) Оно никогда не меняется, когда сообщение переадовыно или отвечает на него.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
+> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

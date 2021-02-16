@@ -25,7 +25,7 @@ ms.locfileid: "32356303"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если отправитель сообщения запрашивает отчет о доставке для определенного получателя из системы обмена сообщениями перед помещением сообщения в хранилище сообщений.
+Содержит значение TRUE, если отправитель сообщения запрашивает отчет о доставке определенного получателя из системы обмена сообщениями, прежде чем сообщение будет помещено в хранилище сообщений.
   
 |||
 |:-----|:-----|
@@ -36,27 +36,27 @@ ms.locfileid: "32356303"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство используется для направления системы обмена сообщениями в обработку доставленных сообщений. В этом случае сообщение должно также иметь свойство **PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED** ([PidTagOriginatorNonDeliveryReportRequested](pidtagoriginatornondeliveryreportrequested-canonical-property.md)) со значением false.
+Это свойство используется для управления системой обмена сообщениями при обработке доставленных сообщений. В этом случае в сообщении  также должно быть PR_ORIGINATOR_NON_DELIVERY_REPORT_REQUESTED[(PidTagOriginatorNonDeliveryReportRequested)](pidtagoriginatornondeliveryreportrequested-canonical-property.md)со свойством FALSE.
   
-Задание свойства **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** в сообщении позволяет запросить отчеты о состоянии доставки для всех получателей. 
+Установка свойства **PR_ORIGINATOR_DELIVERY_REPORT_REQUESTED** для сообщения — это способ запроса отчетов о состоянии доставки для всех получателей. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
+> Указывает свойства и операции, которые разрешены для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -64,7 +64,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

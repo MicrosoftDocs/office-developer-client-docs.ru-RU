@@ -25,62 +25,62 @@ ms.locfileid: "32355708"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает, как создать и повторно вычислить значение свойства **диспидфилеундер** ([PidLidFileUnder](pidlidfileunder-canonical-property.md)) при изменении других свойств имени контакта.
+Указывает, как создавать и перекомпомировать значение свойства **dispidFileUnder** ([PidLidFileUnder)](pidlidfileunder-canonical-property.md)при изменении других свойств имени контакта.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидфилеундерид  <br/> |
+|Связанные свойства:  <br/> |dispidFileUnderId  <br/> |
 |Набор свойств:  <br/> |PSETID_Address  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00008006  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00008006  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Контакт  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство отсутствует или для него задано значение, не подробное в таблице ниже или в [[MS-оксокнтк]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx), приложение может выбрать собственную логику для повторного вычисления значения **диспидфилеундер** в качестве другого свойства имени контакта. 
+Если это свойство отсутствует или имеет значение, не подробное в приведенной ниже таблице или [[MS-OXOCNTC],](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)приложение может выбрать собственную логику, чтобы отменить значение **dispidFileUnder** по мере изменения других свойств имени контакта. 
   
-В следующей таблице приведена нотация <PropertyName> , в которой указывается значение PropertyName. Например, если для свойства **PR_SURNAME** ([PidTagSurname](pidtagsurname-canonical-property.md)) задано значение "Smith", а для свойства **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) задано значение "Бен",<PidTagGivenName> <PidTagSurname>в качестве значения "" задается строка "Бен Smith". В таблице "\r" указывает символ возврата каретки, "\n" определяет символ перевода строки и <space> представляет символ пробела.
+В следующей таблице используется нотация для указания <PropertyName> значения PropertyName. Например, если свойство **PR_SURNAME** ([PidTagSurname)](pidtagsurname-canonical-property.md)имеет значение "Smith", а значение свойства **PR_GIVEN_NAME** ([PidTagGivenName](pidtaggivenname-canonical-property.md)) — "Ben", то " указывает строку <PidTagGivenName> <PidTagSurname> "Ben Smith". В таблице "\r" указывает символ возврата каретки, "\n" указывает символ канала строки и представляет <space> пробел.
   
-|**Значение свойства **диспидфилеундерид****|**Описание свойства **диспидфилеундер****|
+|**Значение свойства **dispidFileUnderId****|**Описание свойства **dispidFileUnder****|
 |:-----|:-----|
-|0x00000000  <br/> |Пустой PT_UNICODE.  <br/> |
-|0x00003001  <br/> |"\<PidTagDisplayName\>"  <br/> |
-|0x00003A06  <br/> |"\<PidTagGivenName\>"  <br/> |
-|0x00003A11  <br/> |"\<PidTagSurname\>"  <br/> |
-|0x00003A16  <br/> |"\<PidTagCompanyName\>"  <br/> |
-|0x00008017  <br/> |"\<PidTagSurname\>,\<Space\>\<PidTagGivenName\>\<Space\>"\<\>  <br/> |
-|0x00008018  <br/> |"\<PidTagCompanyName\>\r\n\<PidTagSurname\>,\<Space\>\<PidTagGivenName\>\<Space\>"\<\>  <br/> |
-|0x00008019  <br/> |"\<PidTagSurname\>,\<Space\>\<PidTagGivenName\>\>Space PidTagMiddleName\>\r\n\<PidTagCompanyName\>"\<\<  <br/> |
-|0x00008030  <br/> |"\<PidTagSurname\>\<\>PidTagGivenName\<Space\>PidTagMiddleName\>"\<  <br/> |
-|0x00008031  <br/> |"\<PidTagSurname\>\<Space\>\<PidTagGivenName Space\>PidTagMiddleName\>"\<\>\<  <br/> |
-|0x00008032  <br/> |"\<PidTagCompanyName\>\r\n\<PidTagSurname\>\<PidTagGivenName\>\<Space\>"\<\>  <br/> |
-|0x00008033  <br/> |"\<PidTagCompanyName\>\r\n\<PidTagSurname\>\<Space\>\<PidTagGivenName Space\>PidTagMiddleName\>"\<\>\<  <br/> |
-|0x00008034  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\>Space PidTagMiddleName\>\r\n\<PidTagCompanyName\>"\<\<  <br/> |
-|0x00008035  <br/> |"\<PidTagSurname\>\<Space\>\<\>PidTagGivenName Space\>PidTagMiddleName \r\n PidTagCompanyName"\<\>\<\>\<  <br/> |
-|0x00008036  <br/> |"\<PidTagSurname\>\<Space\>\>\>PidTagGivenName\>Space PidTagMiddleName\>Space\>PidTagGeneration\<"\<\<\<\<  <br/> |
-|0x00008037  <br/> |"\<PidTagGivenName\>\<Space\>\>\>PidTagMiddleName\>Space PidTagSurname\>Space\>PidTagGeneration\<"\<\<\<\<  <br/> |
-|0x00008038  <br/> |"\<PidTagSurname\>\<PidTagGivenName\>\>Space\>PidTagMiddleName\>Space\>PidTagGeneration"\<\<\<\<  <br/> |
-|0xfffffffd  <br/> |Указывает, что при отображении контакта приложение должно попытаться использовать текущее значение **диспидфилеундер** и другие свойства контакта, чтобы найти "наилучшее значение" для **диспидфилеундерид** к одному из предыдущих значений в этой таблице.  <br/> |
-|0xfffffffe  <br/> |Указывает, что при отображении контакта приложение должно выбрать соответствующие значения по умолчанию (в соответствии с языковым стандартом языка) для **диспидфилеундерид** и обновить **диспидфилеундер** в соответствии с выбором.  <br/> |
-|равен  <br/> |**диспидфилеундер** — это предоставленный пользователем PT_UNICODE и не должен изменяться при изменении другого свойства имени контакта.  <br/> |
+|0x00000000  <br/> |Пустое PT_UNICODE.  <br/> |
+|0x00003001  <br/> |" \< PidTagDisplayName \> "  <br/> |
+|0x00003A06  <br/> |" \< PidTagGivenName \> "  <br/> |
+|0x00003A11  <br/> |" \< PidTagSurname \> "  <br/> |
+|0x00003A16  <br/> |" \< PidTagCompanyName \> "  <br/> |
+|0x00008017  <br/> |" \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> "  <br/> |
+|0x00008018  <br/> |" \< PidTagCompanyName \> \r\n \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> "  <br/> |
+|0x00008019  <br/> |" \< PidTagSurname \> , space \< \> \< PidTagGivenName space \> \< \> \< PidTagMiddleName \> \r\n \< PidTagCompanyName \> "  <br/> |
+|0x00008030  <br/> |" \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName" \>  <br/> |
+|0x00008031  <br/> |" \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> "  <br/> |
+|0x00008032  <br/> |" \< PidTagCompanyName \> \r\n \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName" \>  <br/> |
+|0x00008033  <br/> |" \< PidTagCompanyName \> \r\n \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName" \>  <br/> |
+|0x00008034  <br/> |" \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \r\n \< PidTagCompanyName" \>  <br/> |
+|0x00008035  <br/> |" \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \r\n \< PidTagCompanyName \> "  <br/> |
+|0x00008036  <br/> |" \< PidTagSurname \> \< space \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName space \> \< \> \< PidTagGeneration" \>  <br/> |
+|0x00008037  <br/> |" \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \< space \> \< PidTagSurname space \> \< \> \< PidTagGeneration" \>  <br/> |
+|0x00008038  <br/> |" \< PidTagSurname \> \< PidTagGivenName \> \< space \> \< PidTagMiddleName \> \< space \> \< PidTagGeneration" \>  <br/> |
+|0xfffffffd  <br/> |Указывает, что при отображении контакта приложение должно попытаться использовать текущее значение **dispidFileUnder** и другие свойства контакта, чтобы найти "наилучшее соответствие" **для dispidFileUnderId** одному из предыдущих значений в этой таблице.  <br/> |
+|0xfffffffe  <br/> |Указывает, что при отображении контакта приложение должно выбрать соответствующие значения по умолчанию (в соответствии с языковым стандартом) **для dispidFileUnderId** и обновить **dispidFileUnder** в соответствии с выбором.  <br/> |
+|0xffffffff  <br/> |**dispidFileUnder** предоставляется пользователем PT_UNICODE и не должен быть изменен при смене другого свойства имени контакта.  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКНТК]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
+[[MS-OXOCNTC]](https://msdn.microsoft.com/library/9b636532-9150-4836-9635-9c9b756c9ccf%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для контактов и личных списков рассылки.
+> Указывает свойства и операции, которые разрешены для контактов и личных списков рассылки.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -88,7 +88,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

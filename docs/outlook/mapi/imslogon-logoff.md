@@ -1,5 +1,5 @@
 ---
-title: имслогонлогофф
+title: IMSLogonLogoff
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "32348876"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Выполняет выход из системы поставщика хранилища сообщений. 
+Выйдите из службы хранения сообщений. 
   
 ```cpp
 HRESULT Logoff(
@@ -35,9 +35,9 @@ HRESULT Logoff(
 
 ## <a name="parameters"></a>Параметры
 
- _лпулфлагс_
+ _lpulFlags_
   
-> возврата Резервирования должен быть нулевым указателем.
+> [in] Зарезервировано; должен быть указателем на ноль.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -47,11 +47,11 @@ S_OK
     
 ## <a name="remarks"></a>Примечания
 
-Поставщики хранилища сообщений реализуют метод **имслогон:: logoff** для принудительного завершения работы поставщика хранилища сообщений. **Имслогон:: logoff** вызывается в следующих ситуациях: 
+Поставщики store сообщений реализуют метод **IMSLogon::Logoff** для принудительного отключения поставщика. **IMSLogon::Logoff** вызван в следующих ситуациях: 
   
-- В то время как MAPI записывает клиент после вызова метода [IMAPISession:: logoff](imapisession-logoff.md) . 
+- Хотя MAPI отключает клиент после вызова метода [IMAPISession::Logoff.](imapisession-logoff.md) 
     
-- В то время как MAPI записывает поставщик хранилища сообщений. В этом случае **имслогон:: logoff** вызывается как часть обработки MAPI метода [IUnknown:: Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) объекта support, создаваемого поставщиком хранилища сообщений при обработке метода [IMsgStore:: Сторелогофф](imsgstore-storelogoff.md) или **IUnknown:: Release** для объекта хранилища сообщений. 
+- Хотя MAPI отключается от поставщика store сообщений. В этом случае **IMSLogon::Logoff** называется как часть обработки MAPI метода [IUnknown::Release](https://msdn.microsoft.com/library/ms682317%28v=VS.85%29.aspx) объекта поддержки, создаваемого поставщиком хранилищ сообщений при обработке вызова метода [IMsgStore::StoreLogoff](imsgstore-storelogoff.md) или **IUnknown::Release** для объекта хранилищ сообщений. 
     
 ## <a name="see-also"></a>См. также
 

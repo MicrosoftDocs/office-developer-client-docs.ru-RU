@@ -25,15 +25,15 @@ ms.locfileid: "32331362"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает предлагаемый цвет фона заметки. 
+Указывает рекомендуемый цвет фона заметки. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспиднотеколор  <br/> |
+|Связанные свойства:  <br/> |dispidNoteColor  <br/> |
 |Набор свойств:  <br/> |PSETID_Note  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00008B00  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00008B00  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
-|Область:  <br/> |Клейкие заметки  <br/> |
+|Область:  <br/> |Примечания  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -51,19 +51,19 @@ ms.locfileid: "32331362"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОНОТЕ]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
+[[MS-OXONOTE]](https://msdn.microsoft.com/library/6bf4ed7e-316c-4a3c-be27-5ec93e7ab39f%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для заметок.
+> Указывает свойства и операции, допустимые для заметок.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -71,7 +71,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

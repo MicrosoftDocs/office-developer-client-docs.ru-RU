@@ -1,5 +1,5 @@
 ---
-title: Как проверить, является ли Outlook на компьютере приложением, устанавливаемым по технологии "нажми и работай"
+title: Определение, является ли Outlook на компьютере приложением "нажми и работай"
 TOCTitle: Determine whether Outlook is a Click-to-Run application on a computer
 ms:assetid: 1b8573be-8ea8-4973-869d-87fda57ce525
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff522355(v=office.15)

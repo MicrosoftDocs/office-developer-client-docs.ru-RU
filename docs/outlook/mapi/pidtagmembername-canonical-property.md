@@ -25,38 +25,38 @@ ms.locfileid: "32342485"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит отображаемое имя элемента таблицы списка управления доступом (ACL).
+Содержит отображаемую имя члена таблицы управления доступом (ACL).
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_MEMBER_NAME, PR_MEMBER_NAME_A PR_MEMBER_NAME_W  <br/> |
+|Связанные свойства:  <br/> |PR_MEMBER_NAME, PR_MEMBER_NAME_A, PR_MEMBER_NAME_W  <br/> |
 |Идентификатор:  <br/> |0x6672  <br/> |
 |Тип данных:  <br/> |PT_STRING8  <br/> |
 |Область:  <br/> |Управление доступом  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства используются интерфейсом [иексчанжемодифитабле: IUnknown](iexchangemodifytableiunknown.md) для отображения имени члена таблицы ACL, который является лицом или ролью с явными правами для папки или почтового ящика. 
+Эти свойства используются интерфейсом [IExchangeModifyTable : IUnknown](iexchangemodifytableiunknown.md) для отображения имени члена таблицы ACL, который является человеком или ролью с явными правами на папку или почтовый ящик. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСКПЕРМ]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
+[[MS-OXCPERM]](https://msdn.microsoft.com/library/944ddb65-6249-4c34-a46e-363fcd37195e%28Office.15%29.aspx)
   
-> Обрабатывает получение списков разрешений на доступ к папкам, которые хранятся на сервере.
+> Обрабатывает и получить списки разрешений папок, хранимые на сервере.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -69,7 +69,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

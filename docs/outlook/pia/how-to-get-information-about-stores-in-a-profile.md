@@ -1,5 +1,5 @@
 ---
-title: Получение сведений о хранилищах в профиле
+title: Получение сведений о магазинах в профиле
 TOCTitle: Get information about stores in a profile
 ms:assetid: e88222d2-e1b7-4393-aac4-5ce9d24d5d5b
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184648(v=office.15)

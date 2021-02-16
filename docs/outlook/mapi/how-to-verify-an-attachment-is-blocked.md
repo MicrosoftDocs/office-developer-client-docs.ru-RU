@@ -17,9 +17,9 @@ ms.locfileid: "32345887"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-В этом примере кода на языке C++ показано, как использовать интерфейс [иаттачментсекурити: IUnknown](iattachmentsecurityiunknown.md) для определения того, блокируется ли вложение microsoft Outlook 2010 или microsoft Outlook 2013 для просмотра и индексирования. 
+В этом примере кода на C++ показано, как использовать интерфейс [IAttachmentSecurity : IUnknown,](iattachmentsecurityiunknown.md) чтобы узнать, заблокировано ли вложение Microsoft Outlook 2010, русская версия или Microsoft Outlook 2013 для просмотра и индексации. 
   
-[Иаттачментсекурити: IUnknown](iattachmentsecurityiunknown.md) является производным от интерфейса [IUnknown](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) . Вы можете получить интерфейс [иаттачментсекурити: IUnknown](iattachmentsecurityiunknown.md) , вызвав метод [IUnknown:: QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) объекта Session для MAPI, запрашивая **IID_IAttachmentSecurity**. [Иаттачментсекурити:: исаттачментблоккед](iattachmentsecurity-isattachmentblocked.md) возвращает **true** в _пфблоккед_ , если вложение считается небезопасным в Outlook 2010 или Outlook 2013, и заблокировано для просмотра и индексирования в Outlook 2010 или Outlook 2013. 
+[IAttachmentSecurity : IUnknown](iattachmentsecurityiunknown.md) является производным от [интерфейса IUnknown.](https://msdn.microsoft.com/library/ms680509%28VS.85%29.aspx) Вы можете получить интерфейс [IAttachmentSecurity : IUnknown,](iattachmentsecurityiunknown.md) вызывая [IUnknown::QueryInterface](https://msdn.microsoft.com/library/ms682521%28v=VS.85%29.aspx) в объекте сеанса MAPI, **запрашивая** IID_IAttachmentSecurity. [IAttachmentSecurity::IsAttachmentBlocked](iattachmentsecurity-isattachmentblocked.md) возвращает  true в _pfBlocked,_ если вложение считается небезопасным в Outlook 2010 или Outlook 2013 и заблокировано для просмотра и индексации в Outlook 2010 или Outlook 2013. 
   
 ```cpp
 HRESULT IsAttachmentBlocked(LPMAPISESSION lpMAPISession, LPCWSTR pwszFileName, BOOL* pfBlocked) 

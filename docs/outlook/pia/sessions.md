@@ -1,5 +1,5 @@
 ---
-title: Сеансы
+title: Sessions
 TOCTitle: Sessions
 ms:assetid: d81121bb-5bf8-49fb-83c4-8d3a2ffeb978
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff462099(v=office.15)

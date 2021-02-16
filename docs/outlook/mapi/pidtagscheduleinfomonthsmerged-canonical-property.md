@@ -25,40 +25,40 @@ ms.locfileid: "32336479"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит список месяцев, для которых в сообщении о занятости присутствует сообщение о занятости типа "занято" или "нет на работе" (отсутствие на работе). 
+Содержит список месяцев, в течение которых в сообщении о занятости содержатся сведения о занятости типа "занято" или "Нет на офисе" (OOF). 
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_SCHDINFO_MONTHS_MERGED  <br/> |
 |Идентификатор:  <br/> |0x684F  <br/> |
 |Тип данных:  <br/> |PT_MV_LONG  <br/> |
-|Область:  <br/> |Сведения о доступности  <br/> |
+|Область:  <br/> |Free/Busy  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-В это свойство не включены события типа сведений о занятости под вопросом. Синтаксис/формат и ограничения этого свойства такие же, как и в **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative](pidtagscheduleinfomonthstentative-canonical-property.md)), но ссылаются на встречи, помеченные как неиспользуемые или неработающие, в связанном с ним объекте Calendar. 
+События типа "занято" под вопросом не включаются в это свойство. Синтаксис/формат и ограничения этого свойства такие же, как и для **PR_SCHDINFO_MONTHS_TENTATIVE** ([PidTagScheduleInfoMonthsTentative),](pidtagscheduleinfomonthstentative-canonical-property.md)но ссылаются на встречи, помеченные как "OOF" или "Занят" в связанном объекте календаря. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОПФФБ]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
+[[MS-OXOPFFB]](https://msdn.microsoft.com/library/1a527299-7211-4d27-a74c-b69bd0746320%28Office.15%29.aspx)
   
 > Публикует доступность пользователя или ресурса.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

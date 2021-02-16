@@ -25,7 +25,7 @@ ms.locfileid: "32336360"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит данные, указывающие критерии поиска.
+Содержит данные, которые заданы условия поиска.
   
 |||
 |:-----|:-----|
@@ -36,29 +36,29 @@ ms.locfileid: "32336360"
    
 ## <a name="remarks"></a>Примечания
 
-Конкретное содержимое каждого поля больших двоичных объектов (BLOB-объектов), содержащегося в этом свойстве, зависит от идентификатора шаблона, указанного в свойстве **PidTagSearchFolderTemplateId** ([PidTagSearchFolderTemplateId](pidtagsearchfoldertemplateid-canonical-property.md)). Сведения о структуре больших двоичных объектов и шаблонах поиска можно посмотреть в [[MS-оксосрч]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). 
+Конкретное содержимое каждого поля двоичного большого объекта (BLOB), содержащихся в этом свойстве, зависит от кода шаблона, указанного в свойстве **PidTagSearchFolderTemplateId** [(PidTagSearchFolderTemplateId).](pidtagsearchfoldertemplateid-canonical-property.md) Сведения о структуре BLOB и шаблонах поиска см. [в [MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx). 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОСРЧ]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
+[[MS-OXOSRCH]](https://msdn.microsoft.com/library/c72e49b8-78c7-4483-ad65-e46e9133673b%28Office.15%29.aspx)
   
-> Задает свойства и операции для управления конфигурацией списка папок поиска.
+> Указывает свойства и операции для управления конфигурацией списка папок поиска.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -66,7 +66,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

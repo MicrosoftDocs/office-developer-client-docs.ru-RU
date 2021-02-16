@@ -1,5 +1,5 @@
 ---
-title: иконвертерсессионсетсавеформат
+title: IConverterSessionSetSaveFormat
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -23,7 +23,7 @@ ms.locfileid: "32336640"
 
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Задает формат, в котором преобразователь будет возвращать MIME поток в [иконвертерсессион:: мапитомиместм](iconvertersession-mapitomimestm.md).
+Задает формат, в котором преобразователь вернет поток MIME в [IConverterSession::MAPIToMIMEStm.](iconvertersession-mapitomimestm.md)
   
 ```cpp
 HRESULT IConverterSession::SetSaveFormat ( 
@@ -33,18 +33,18 @@ HRESULT IConverterSession::SetSaveFormat (
 
 ## <a name="parameters"></a>Параметры
 
-_мстсавеформат_
+_mstSaveFormat_
   
-> возврата Формат сохранения, используемый для потока MIME. Дополнительные сведения см. в разделе enum Type [мимесаветипе](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx).
+> [in] Формат сохранения, используемый для потока MIME. Дополнительные сведения см. в типе [enum MIMESAVETYPE.](https://msdn.microsoft.com/library/ms715128%28VS.85%29.aspx)
     
-  - **SAVE_RFC1521**: использовать MIME, который является значением по умолчанию.      
-  - **SAVE_RFC822**: используйте кодировку UUEncode.
+  - **SAVE_RFC1521:** используйте MIME, который используется по умолчанию.      
+  - **SAVE_RFC822:** используйте uuencode.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 S_OK
   
-> Вызов выполнен успешно.
+> Вызов был успешным.
     
 ## <a name="mfcmapi-reference"></a>Справочные материалы по MFCMAPI
 
@@ -52,8 +52,8 @@ S_OK
   
 |**Файл**|**Функция**|**Примечание**|
 |:-----|:-----|:-----|
-|Мапимиме. cpp  <br/> |импортемлтоимессаже  <br/> |MFCMAPI использует Миметомапи для преобразования EML файла в сообщение MAPI.  <br/> |
-|Мапимиме. cpp  <br/> |експортимессажетоемл  <br/> |MFCMAPI использует Мапитомиместм для преобразования сообщения MAPI в файл EML.  <br/> |
+|MapiMime.cpp  <br/> |ImportEMLToIMessage  <br/> |MFCMAPI использует MimeToMAPI для преобразования EML-файла в сообщение MAPI.  <br/> |
+|MapiMime.cpp  <br/> |ExportIMessageToEML  <br/> |MFCMAPI использует MAPIToMIMEStm для преобразования сообщения MAPI в EML-файл.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

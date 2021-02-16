@@ -25,37 +25,37 @@ ms.locfileid: "32349219"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Указывает чистый глобальный **ObjectID**.
+Указывает чистый глобальный **objectID.**
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидклеанглобалобжид  <br/> |
+|Связанные свойства:  <br/> |dispidCleanGlobalObjId  <br/> |
 |Набор свойств:  <br/> |PSETID_Meeting  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00000023  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00000023  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
 |Область:  <br/> |Собрания  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Формат этого свойства совпадает с форматом **LID_GLOBAL_OBJID** ([PidLidGlobalObjectId](pidlidglobalobjectid-canonical-property.md)). Значение этого свойства должно быть равно значению **LID_GLOBAL_OBJID**, за исключением того, что поля их, Ил, M и D должны иметь нулевое значение. Все объекты, ссылающиеся на экземпляр повторяющейся серии (в том числе потерянный экземпляр), а также на самом ряду повторяющихся данных, будут иметь одинаковое значение для этого свойства.
+Формат этого свойства такой же, как у LID_GLOBAL_OBJID **(** [PidLidGlobalObjectId).](pidlidglobalobjectid-canonical-property.md) Значение этого свойства должно быть равно значению LID_GLOBAL_OBJID **,** за исключением полей YH, YL, M и D должно быть нулем. Все объекты, которые ссылаются на экземпляр повторяющегося ряда (включая потерянный экземпляр), а также сам повторяющийся ряд, будут иметь одинаковое значение для этого свойства.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

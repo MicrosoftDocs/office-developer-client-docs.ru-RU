@@ -25,37 +25,37 @@ ms.locfileid: "32345096"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Задает глобальный уникальный идентификатор (GUID) существующей классификации сообщений.
+Указывает глобальный уникальный идентификатор (GUID) существующей классификации сообщений.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидклассгуид  <br/> |
+|Связанные свойства:  <br/> |dispidClassGuid  <br/> |
 |Набор свойств:  <br/> |PSETID_Common  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x000085B8  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x000085B8  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
-|Область:  <br/> |Общий обмен сообщениями  <br/> |
+|Область:  <br/> |Общие сообщения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Дополнительные сведения см. [в статье как развернуть классификацию сообщений для Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
+Дополнительные сведения см. в сведениях о развертывании [классификации сообщений для Outlook 2007](https://msdn.microsoft.com/library/5a220424-edd5-4a21-b7fd-8106c23c3b39.aspx)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Предоставляет определение набора свойств и ссылки на соответствующие спецификации протокола Exchange Server.
+> Предоставляет определение набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
+> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

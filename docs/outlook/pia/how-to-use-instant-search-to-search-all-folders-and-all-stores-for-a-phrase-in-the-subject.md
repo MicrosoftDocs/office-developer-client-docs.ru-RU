@@ -1,5 +1,5 @@
 ---
-title: Поиск фразы в теме во всех папках и хранилищах с помощью мгновенного поиска
+title: Поиск фразы в теме во всех папках и хранилищах с помощью быстрого поиска
 TOCTitle: Use instant search to search all folders and all stores for a phrase in the subject
 ms:assetid: d3152bfa-6e7d-4b68-8c7e-e2e155a92b49
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff424478(v=office.15)

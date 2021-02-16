@@ -25,37 +25,37 @@ ms.locfileid: "32345397"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Представляет продолжительность времени (в минутах), по истечении которого запланирована встреча.
+Представляет продолжительность (в минутах) запланированной встречи.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |диспидапптдуратион  <br/> |
+|Связанные свойства:  <br/> |dispidApptDuration  <br/> |
 |Набор свойств:  <br/> |PSETID_Appointment  <br/> |
-|Длинный идентификатор (крышка):  <br/> |0x00008213  <br/> |
+|Длинный ИД (КРЫШКА):  <br/> |0x00008213  <br/> |
 |Тип данных:  <br/> |PT_LONG  <br/> |
 |Область:  <br/> |Календарь  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Значение должно быть числом в минутах между значением свойства **диспидапптстартвхоле** ([PidLidAppointmentStartWhole](pidlidappointmentstartwhole-canonical-property.md)) и **диспидапптендвхоле** ([PidLidAppointmentEndWhole](pidlidappointmentendwhole-canonical-property.md)).
+Значение должно быть числом минут между значением свойств **dispidApptStartWhole** ([PidLidAppointmentStartWhole)](pidlidappointmentstartwhole-canonical-property.md)и **dispidApptEndWhole** ([PidLidAppointmentEndWhole).](pidlidappointmentendwhole-canonical-property.md)
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСОКАЛ]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
+[[MS-OXOCAL]](https://msdn.microsoft.com/library/09861fde-c8e4-4028-9346-e7c214cfdba1%28Office.15%29.aspx)
   
-> Задает свойства и операции для встречи, приглашения на собрание и ответных сообщений.
+> Указывает свойства и операции для встреч, запросов на собрание и ответных сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -63,7 +63,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

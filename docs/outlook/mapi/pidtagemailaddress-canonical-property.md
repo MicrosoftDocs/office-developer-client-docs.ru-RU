@@ -29,18 +29,18 @@ ms.locfileid: "32338642"
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_EMAIL_ADDRESS, PR_EMAIL_ADDRESS_A PR_EMAIL_ADDRESS_W  <br/> |
+|Связанные свойства:  <br/> |PR_EMAIL_ADDRESS, PR_EMAIL_ADDRESS_A, PR_EMAIL_ADDRESS_W  <br/> |
 |Идентификатор:  <br/> |0x3003  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Общие протоколы MAPI  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
+|Область:  <br/> |Общие MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства являются примерами свойств базового адреса для всех пользователей системы обмена сообщениями. Это строка с завершающим нулем, формат которой имеет значение только для базовой системы обмена сообщениями. 
+Эти свойства являются примерами свойств базового адреса для всех пользователей обмена сообщениями. Это строка с нулью, формат которой имеет значение только для системы обмена сообщениями. 
   
-Эти свойства используются в сочетании со свойствами **PR_ADDRTYPE** ([PidTagAddressType](pidtagaddresstype-canonical-property.md)) и **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) в сообщениях с адресацией. Формат строки квалифицирован с помощью **PR_ADDRTYPE**. 
+Эти свойства используются в сочетании со свойствами **PR_ADDRTYPE** ([PidTagAddressType)](pidtagaddresstype-canonical-property.md)и **PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md)в адресовке сообщений. Формат строки квалифиц **PR_ADDRTYPE.** 
   
-К допустимым значениям этого свойства относятся: 
+Допустимые значения этого свойства: 
   
 ```cpp
 network/postoffice/user 
@@ -53,27 +53,27 @@ Bruce@XYZZY.COM
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОАБК]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
+[[MS-OXOABK]](https://msdn.microsoft.com/library/f4cf9b4c-9232-4506-9e71-2270de217614%28Office.15%29.aspx)
   
-> Задает свойства и операции для списков пользователей, контактов, групп и ресурсов.
+> Указывает свойства и операции для списков пользователей, контактов, групп и ресурсов.
     
-[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
+> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -81,7 +81,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,48 +25,48 @@ ms.locfileid: "32355176"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит список отображаемых имен получателей, которые должны получить ответ.
+Содержит список отображаемого имени получателей, которые должны получить ответ.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_REPLY_RECIPIENT_NAMES, PR_REPLY_RECIPIENT_NAMES_A PR_REPLY_RECIPIENT_NAMES_W  <br/> |
+|Связанные свойства:  <br/> |PR_REPLY_RECIPIENT_NAMES, PR_REPLY_RECIPIENT_NAMES_A, PR_REPLY_RECIPIENT_NAMES_W  <br/> |
 |Идентификатор:  <br/> |0x0050  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Конверт MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства содержат отображаемые имена, разделенные точкой с запятой.
+Эти свойства содержат отображаемую информацию, разделенную за 1000.
   
-Если это свойство отсутствует, ответ отправляется только пользователю, определенному свойством **PR_SENDER_NAME** ([PidTagSenderName](pidtagsendername-canonical-property.md)). Если **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries](pidtagreplyrecipiententries-canonical-property.md)) и определены эти свойства, ответ отправляется всем получателям, идентифицируемым этими двумя свойствами. Поставщик транспорта использует эти свойства для переопределения обычной логики ответа.
+Если этого свойства нет, ответ отправляется только пользователю, который определен свойством **PR_SENDER_NAME** ([PidTagSenderName).](pidtagsendername-canonical-property.md) Когда **PR_REPLY_RECIPIENT_ENTRIES** ([PidTagReplyRecipientEntries)](pidtagreplyrecipiententries-canonical-property.md)и эти свойства определены, ответ отправляется всем получателям, определенным этими двумя свойствами. Поставщик транспорта использует эти свойства для переопределения обычной логики ответа.
   
-Если заданы **PR_REPLY_RECIPIENT_ENTRIES** или эти свойства, то другое свойство также должно быть задано. Эти свойства должны содержать одинаковое количество получателей и должны содержать их в одном порядке. Невозможность проследить эти требования могут привести к непредсказуемым результатам. 
+Если установлены **PR_REPLY_RECIPIENT_ENTRIES** или эти свойства, необходимо также установить другое свойство. Эти свойства должны содержать одинаковое количество получателей, и они должны содержать их в одном порядке. Несоблюдение этих требований может привести к непредсказуемым результатам. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для сообщений электронной почты.
+> Указывает свойства и операции, которые разрешены для сообщений электронной почты.
     
-[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
+> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -74,7 +74,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

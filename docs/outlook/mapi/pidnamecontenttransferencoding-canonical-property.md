@@ -25,11 +25,11 @@ ms.locfileid: "32356324"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение поля заголовка [RFC3282] Content – Transfer – Encoding.
+Содержит значение поля загола [RFC3282] Content-Transfer-Encoding.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Дружелюбные имена:  <br/> |Нет  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
 |Имя свойства:  <br/> |Content-Transfer-Encoding  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
@@ -39,19 +39,19 @@ ms.locfileid: "32356324"
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
+> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -59,7 +59,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -25,41 +25,41 @@ ms.locfileid: "32356352"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение поля заголовка Content – class [RFC3282].
+Содержит значение поля загола [RFC3282] Content-Class.
   
 |||
 |:-----|:-----|
-|Понятные имена:  <br/> |Нет  <br/> |
+|Дружелюбные имена:  <br/> |Нет  <br/> |
 |Набор свойств:  <br/> |PS_INTERNET_HEADERS  <br/> |
-|Имя свойства:  <br/> |Content – class  <br/> |
+|Имя свойства:  <br/> |Content-Class  <br/> |
 |Тип данных:  <br/> |PT_UNICODE  <br/> |
 |Область:  <br/> |Электронная почта  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы задать значение этого свойства, клиенты с многоцелевыми расширениями Интернет-сообщений (MIME) должны записать поле заголовка Content-class с требуемым значением. Считыватели MIME должны скопировать значение поля заголовка Content – class в значение этого свойства. 
+Чтобы установить значение этого свойства, клиенты MIME должны написать поле загона content-Class с нужным значением. Читатели MIME должны скопировать значение поля загона Content-Class в значение этого свойства. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит определения свойств и ссылки на связанные спецификации протокола Exchange Server.
+> Предоставляет определения набора свойств и ссылки на связанные Exchange Server спецификации протокола.
     
-[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
+> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
     
-[[MS — ОКСОРММС]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Задает свойства сообщений, закодированных с помощью управления правами.
+> Указывает свойства сообщений в кодированной кодировки с управлением правами.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
 ## <a name="see-also"></a>См. также
 
@@ -67,7 +67,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

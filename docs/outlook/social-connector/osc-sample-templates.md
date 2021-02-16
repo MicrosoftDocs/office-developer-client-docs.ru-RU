@@ -7,7 +7,7 @@ ms.topic: overview
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 896932d7-bd71-4a55-aa58-394a9ccf0d5e
-description: 'Справочник по поставщику Outlook Social Connector 2013 — это несколько шаблонов поставщиков в C++, C# и Visual Basic. Шаблоны можно скачать в Outlook Social Connector 2013: шаблоны поставщика.'
+description: 'Справочник по поставщикам Outlook Social Connector 2013 сопровождается несколькими шаблонами поставщиков на C++, C# и Visual Basic. Вы можете скачать шаблоны на сайте Outlook Social Connector 2013: шаблоны поставщиков.'
 ms.openlocfilehash: e99808247fdf9bb2f06018e5ef54e6b9dc23ff3b
 ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
 ms.translationtype: MT
@@ -17,32 +17,32 @@ ms.locfileid: "32355120"
 ---
 # <a name="osc-sample-templates"></a>Примеры шаблонов OSC
 
-Справочник по поставщику Outlook Social Connector 2013 — это несколько шаблонов поставщиков в C++, C# и Visual Basic. Шаблоны можно скачать в [Outlook Social Connector 2013: шаблоны поставщика](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c).
+Справочник по поставщикам Outlook Social Connector 2013 сопровождается несколькими шаблонами поставщиков на C++, C# и Visual Basic. Вы можете скачать шаблоны на [сайте Outlook Social Connector 2013: шаблоны поставщиков.](https://code.msdn.microsoft.com/Outlook-Social-Connector-73fd8d2c)
   
-Шаблоны поставщика доступны для использования при создании поставщика на выбранном языке. Чтобы свести к минимуму размер загружаемого поставщика и уменьшить время загрузки поставщика, необходимо создать поставщика производства с помощью C++. Если вы разрабатываете поставщик для пользователей с .NET Framework 3,5 с пакетом обновления 1 (SP1) или более поздней версией .NET Framework, установленной на их компьютерах, вы также можете написать управляемый поставщик с помощью C# или Visual Basic.
+Шаблоны поставщиков доступны для использования при создании поставщика на нужном языке. Чтобы свести к минимуму размер загрузки поставщика и сократить время загрузки поставщика, необходимо создать производственного поставщика с помощью C++. Если вы разрабатываете поставщика для пользователей, на компьютерах которых установлена .NET Framework 3.5 с sp1 или более поздней версией .NET Framework, вы также можете написать управляемого поставщика с помощью C# или Visual Basic.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Загрузка примеров](downloading-the-samples.md): в этой статье описывается загрузка и Установка образца поставщика и шаблонов.
+- [Загрузка примеров:](downloading-the-samples.md)описание загрузки и установки образца поставщика и шаблонов.
     
-- [Применение образца шаблона поставщика](applying-a-sample-provider-template.md): инструкции по использованию шаблонов поставщика.
+- [Применение шаблона образца поставщика](applying-a-sample-provider-template.md): описывает использование шаблонов примеров поставщиков.
     
-## <a name="reference"></a>Справочные материалы
+## <a name="reference"></a>Справка
 
-- [Справочник по поставщику Outlook Social Connector](outlook-social-connector-provider-reference-0.md)
+- [Outlook Social Connector Provider Reference](outlook-social-connector-provider-reference-0.md)
   
 ## <a name="related-sections"></a>Связанные разделы
 
 - [Начало разработки поставщика Outlook Social Connector](getting-started-with-developing-an-outlook-social-connector-provider.md)
   
-- [Переosc типичные последовательности вызовов](osc-typical-calling-sequences.md)
+- [Типичные последовательности вызовов OSC](osc-typical-calling-sequences.md)
   
-- [Разработка поставщика с помощью XML-схемы OSC](developing-a-provider-with-the-osc-xml-schema.md)
+- [Разработка поставщика с помощью схемы OSC XML](developing-a-provider-with-the-osc-xml-schema.md)
   
 - [Отладка поставщика](debugging-a-provider.md)
   
 - [Развертывание поставщика](deploying-a-provider.md)
   
-- [Рекомендации по разработке поставщика](best-practices-for-developing-a-provider.md)
+- [Best Practices for Developing a Provider](best-practices-for-developing-a-provider.md)
   
 

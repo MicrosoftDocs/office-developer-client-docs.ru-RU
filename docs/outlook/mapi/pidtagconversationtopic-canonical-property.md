@@ -25,44 +25,44 @@ ms.locfileid: "32334687"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит тему первого сообщения в цепочке бесед. 
+Содержит тему первого сообщения в цепочке беседы. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONVERSATION_TOPIC, PR_CONVERSATION_TOPIC_A PR_CONVERSATION_TOPIC_W  <br/> |
+|Связанные свойства:  <br/> |PR_CONVERSATION_TOPIC, PR_CONVERSATION_TOPIC_A, PR_CONVERSATION_TOPIC_W  <br/> |
 |Идентификатор:  <br/> |0x0070  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Общий обмен сообщениями  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
+|Область:  <br/> |Общие сообщения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Поток беседы представляет ряд сообщений и ответов. Эти свойства задаются для первого сообщения в потоке, обычно для свойства **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject](pidtagnormalizedsubject-canonical-property.md)). Последующие сообщения в потоке должны использовать одну и ту же тему без изменения. 
+Цепочка бесед представляет серию сообщений и ответов. Эти свойства задаются для первого сообщения в потоке, как правило, для свойства **PR_NORMALIZED_SUBJECT** ([PidTagNormalizedSubject).](pidtagnormalizedsubject-canonical-property.md) Последующие сообщения в потоке должны использовать тот же раздел без изменений. 
   
-Свойство **PR_CONVERSATION_INDEX** ([PidTagConversationIndex](pidtagconversationindex-canonical-property.md)) указывает связь порядка между последовательными сообщениями и ответы. Его использование необязательно, даже если заданы эти свойства. 
+Свойство **PR_CONVERSATION_INDEX** ([PidTagConversationIndex)](pidtagconversationindex-canonical-property.md)указывает порядок между последующими сообщениями и ответами. Его использование является необязательным, даже если за установлены эти свойства. 
   
-У поставщика хранилища сообщений есть возможность гарантировать, что эти свойства всегда устанавливаются для входящих и исходящих сообщений. Если эти свойства уже заданы, их не следует изменять. В противном случае им можно присвоить значение **PR_NORMALIZED_SUBJECT**. Все действия должны выполняться перед [IMAPIProp:: SaveChanges](imapiprop-savechanges.md) . 
+Поставщик store сообщений может быть уверены, что эти свойства всегда задаются для входящих или исходяющих сообщений. Если эти свойства уже за установлены, их не следует изменять. Если это не так, их можно **PR_NORMALIZED_SUBJECT.** Перед тем как будет вызван [IMAPIProp::SaveChanges,](imapiprop-savechanges.md) необходимо принять любое действие. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСОМСГ]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
+[[MS-OXOMSG]](https://msdn.microsoft.com/library/daa9120f-f325-4afb-a738-28f91049ab3c%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для объектов сообщений электронной почты.
+> Указывает свойства и операции, допустимые для объектов сообщений электронной почты.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -70,7 +70,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

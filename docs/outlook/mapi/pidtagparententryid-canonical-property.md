@@ -25,64 +25,64 @@ ms.locfileid: "32348232"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит идентификатор папки, содержащей папку или сообщение.
+Содержит идентификатор записи папки, которая содержит папку или сообщение.
   
 |||
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_PARENT_ENTRYID  <br/> |
 |Идентификатор:  <br/> |0x0E09  <br/> |
 |Тип данных:  <br/> |PT_BINARY  <br/> |
-|Область:  <br/> |Свойства идентификатора  <br/> |
+|Область:  <br/> |Свойства ID  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
 Это свойство вычисляется хранилищами сообщений для всех папок и сообщений.
   
-Для корневой папки хранилища сообщений это свойство содержит собственный идентификатор записи.
+Для корневой папки хранения сообщений это свойство содержит собственный идентификатор записи папки.
   
- **PR_PARENT_DISPLAY** ([PidTagParentDisplay](pidtagparentdisplay-canonical-property.md)), и это свойство не связано друг с другом. Они относятся исключительно к разным контекстам.
+ **PR_PARENT_DISPLAY** ([PidTagParentDisplay)](pidtagparentdisplay-canonical-property.md)и это свойство не связаны друг с другом. Они относятся к совершенно разным контекстам.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
+[[MS-OXPROPS]](https://msdn.microsoft.com/library/f6ab1613-aefe-447d-a49c-18217230b148%28Office.15%29.aspx)
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-[[MS — ОКСКДАТА]](https://msdn.microsoft.com/library/ 1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
+[[MS-OXCDATA]](https://msdn.microsoft.com/library/ 1afa0cd9-b1a0-4520-b623-bf15030af5d8%28Office.15%29.aspx)
   
 > Определяет основные структуры данных, используемые в удаленных операциях.
     
-[[MS — ОКСКФОЛД]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
+[[MS-OXCFOLD]](https://msdn.microsoft.com/library/c0f31b95-c07f-486c-98d9-535ed9705fbf%28Office.15%29.aspx)
   
 > Обрабатывает операции с папками.
     
-[[MS — ОКСЦИКАЛ]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
+[[MS-OXCICAL]](https://msdn.microsoft.com/library/a685a040-5b69-4c84-b084-795113fb4012%28Office.15%29.aspx)
   
-> Преобразование между IETF RFC2445, RFC2446 и RFC2447, а объекты встреч и собраний.
+> Преобразуется между IETF RFC2445, RFC2446 и RFC2447, а также объектами встреч и собраний.
     
-[[MS — ОКСКСПАМ]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
+[[MS-OXCSPAM]](https://msdn.microsoft.com/library/522f8587-4aed-4cd6-831b-40bd87862189%28Office.15%29.aspx)
   
-> Разрешает обработку списков разрешений и блокировок, а также определение нежелательных сообщений электронной почты.
+> Включает обработку списков разрешающих и заблокированных сообщений, а также определение нежелательных сообщений электронной почты.
     
-[[MS — ОКСОСФЛД]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
+[[MS-OXOSFLD]](https://msdn.microsoft.com/library/a60e9c16-2ba8-424b-b60c-385a8a2837cb%28Office.15%29.aspx)
   
-> Задает свойства и операции для создания и поиска специальных папок в почтовом ящике.
+> Указывает свойства и операции для создания и размещения специальных папок в почтовом ящике.
     
-[[MS — ОКСПФОАБ]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)
+[[MS-OXPFOAB]](https://msdn.microsoft.com/library/258a07a7-34a7-4373-87c1-cddf51447d00%28Office.15%29.aspx)
   
-> Указывает метод доставки данных автономной адресной книги от сервера клиенту.
+> Указывает способ доставки данных автономной адресной книги (OAB) с сервера на клиент.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -93,7 +93,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

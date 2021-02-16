@@ -25,54 +25,54 @@ ms.locfileid: "32339328"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит длинные имена файлов и расширения вложений, за исключением пути. 
+Содержит длинное имя файла и расширение вложения, за исключением пути. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A PR_ATTACH_LONG_FILENAME_W  <br/> |
+|Связанные свойства:  <br/> |PR_ATTACH_LONG_FILENAME, PR_ATTACH_LONG_FILENAME_A, PR_ATTACH_LONG_FILENAME_W  <br/> |
 |Идентификатор:  <br/> |0x3707  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Вложение в сообщение  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства относятся к значениям ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE и ATTACH_BY_REF_ONLY свойства **PR_ATTACH_METHOD** ([PidTagAttachMethod](pidtagattachmethod-canonical-property.md)). Платформы, поддерживающие длинные имена файлов, должны устанавливать как свойства **PR_ATTACH_LONG_FILENAME** , так и **PR_ATTACH_FILENAME** ([PidTagAttachFilename](pidtagattachfilename-canonical-property.md)) при отправке, а также проверять **PR_ATTACH_LONG_FILENAME** при получении. 
+Эти свойства относятся к значениям ATTACH_BY_VALUE, ATTACH_BY_REFERENCE, ATTACH_BY_REF_RESOLVE и ATTACH_BY_REF_ONLY свойства **PR_ATTACH_METHOD** ([PidTagAttachMethod).](pidtagattachmethod-canonical-property.md) Платформы, поддерживающие длинные имена файлов, должны устанавливать свойства **PR_ATTACH_LONG_FILENAME** и **PR_ATTACH_FILENAME** ([PidTagAttachFilename)](pidtagattachfilename-canonical-property.md)  при отправке и проверять PR_ATTACH_LONG_FILENAME при получении. 
   
-Клиентское приложение должно задать для этого свойства предложенное длинное имя файла, которое будет использоваться, если главный компьютер, принимающий сообщение, поддерживает длинные имена файлов. **PR_ATTACH_LONG_FILENAME** можно использовать в качестве имени файла для сохранения вложения, а также для предоставления расширения имени файла, если не указано свойство **PR_ATTACH_EXTENSION** ([PidTagAttachExtension](pidtagattachextension-canonical-property.md)). 
+Клиентские приложения должны установить для этого свойства рекомендуемый длинный файл, который будет использоваться, если хост-компьютер, получающий сообщение, поддерживает длинные имена файлов. **PR_ATTACH_LONG_FILENAME** можно использовать в качестве имени файла для сохранения вложения и для обеспечения расширения имени файла, если свойство **PR_ATTACH_EXTENSION** ([PidTagAttachExtension)](pidtagattachextension-canonical-property.md)не предоставлено. 
   
-В отличие от имени файла, предоставленного **PR_ATTACH_FILENAME**, это имя не ограничено именем, состоящего из восьми символов, и расширением, состоящего из трех символов. Длина этого параметра может доставлять до 256 символов, включая имя файла, расширение и разделительный период. 
+В отличие от имени файла, предоставленного **PR_ATTACH_FILENAME,** это имя не ограничивается восемью символами и трех символьным расширением. Вместо этого он может иметь длину до 256 символов, включая имя файла, расширение и период сепаратора. 
   
-MAPI работает только с именами файлов в наборе символов ANSI. Клиентские приложения, использующие имена файлов в наборе символов OEM, должны преобразовать их в ANSI перед вызовом MAPI. 
+MAPI работает только с именами файлов в наборе символов ANSI. Клиентские приложения, которые используют имена файлов в наборе символов OEM, должны преобразовывать их в ANSI, прежде чем вызывать MAPI. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСКМСГ]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
+[[MS-OXCMSG]](https://msdn.microsoft.com/library/7fd7ec40-deec-4c06-9493-1bc06b349682%28Office.15%29.aspx)
   
 > Обрабатывает объекты сообщений и вложений.
     
-[[MS — ОКСКМАИЛ]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
+[[MS-OXCMAIL]](https://msdn.microsoft.com/library/b60d48db-183f-4bf5-a908-f584e62cb2d4%28Office.15%29.aspx)
   
-> Преобразует стандартные правила электронной почты из Интернета в объекты сообщений.
+> Преобразуется из стандартных интернет-соглашений электронной почты в объекты сообщений.
     
-[[MS — ОКСОРММС]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
+[[MS-OXORMMS]](https://msdn.microsoft.com/library/a121dda4-48f3-41f8-b12f-170f533038bb%28Office.15%29.aspx)
   
-> Задает свойства сообщений, закодированных с помощью управления правами.
+> Указывает свойства сообщений в кодированной кодировки с управлением правами.
     
-[[MS — ОКСАУМ]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
+[[MS-OXOUM]](https://msdn.microsoft.com/library/2a0696c5-2caf-4f20-87fb-085db430afec%28Office.15%29.aspx)
   
-> Задает свойства и операции, допустимые для представления голосовой почты и факсимильных сообщений.
+> Указывает свойства и операции, которые разрешены для представления голосовой почты и факсимили.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Ммапитагс. h
+Mmapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -80,7 +80,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   
