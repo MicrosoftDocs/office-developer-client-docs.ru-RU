@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlSheetId
 keywords:
-- Функция кслшитид [Excel 2007]
+- Функция xlsheetid [excel 2007]
 localization_priority: Normal
 ms.assetid: cb32059c-b899-49cf-8028-ff828998ab75
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -18,34 +18,34 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428433"
 ---
-# <a name="xlsheetid"></a><span data-ttu-id="b9d6a-104">xlSheetId</span><span class="sxs-lookup"><span data-stu-id="b9d6a-104">xlSheetId</span></span>
+# <a name="xlsheetid"></a><span data-ttu-id="6c39a-104">xlSheetId</span><span class="sxs-lookup"><span data-stu-id="6c39a-104">xlSheetId</span></span>
 
-<span data-ttu-id="b9d6a-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="b9d6a-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
+<span data-ttu-id="6c39a-105">**Область применения:** Excel 2013 | Office 2013 | Visual Studio</span><span class="sxs-lookup"><span data-stu-id="6c39a-105">**Applies to**: Excel 2013 | Office 2013 | Visual Studio</span></span> 
   
-<span data-ttu-id="b9d6a-106">Находит идентификатор именованного листа, чтобы создать внешние ссылки.</span><span class="sxs-lookup"><span data-stu-id="b9d6a-106">Finds the sheet ID of a named sheet in order to construct external references.</span></span>
+<span data-ttu-id="6c39a-106">Находит ИД листа с именем для создания внешних ссылок.</span><span class="sxs-lookup"><span data-stu-id="6c39a-106">Finds the sheet ID of a named sheet in order to construct external references.</span></span>
   
 ```cs
 Excel12(xlSheetId, LPXLOPER12 pxRes, 1, LPXLOPER12 pxSheetName);
 ```
 
-## <a name="parameters"></a><span data-ttu-id="b9d6a-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="b9d6a-107">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="6c39a-107">Параметры</span><span class="sxs-lookup"><span data-stu-id="6c39a-107">Parameters</span></span>
 
-<span data-ttu-id="b9d6a-108">_пксшитнаме_ (**кслтипестр**)</span><span class="sxs-lookup"><span data-stu-id="b9d6a-108">_pxSheetName_ (**xltypeStr**)</span></span>
+<span data-ttu-id="6c39a-108">_pxSheetName_ (**xltypeStr)**</span><span class="sxs-lookup"><span data-stu-id="6c39a-108">_pxSheetName_ (**xltypeStr**)</span></span>
   
-<span data-ttu-id="b9d6a-109">(Необязательно).</span><span class="sxs-lookup"><span data-stu-id="b9d6a-109">(Optional).</span></span> <span data-ttu-id="b9d6a-110">Название книги и листа, о которых вы хотите узнать.</span><span class="sxs-lookup"><span data-stu-id="b9d6a-110">The name of the book and sheet you want to find out about.</span></span> <span data-ttu-id="b9d6a-111">Если этот параметр опущен, функция **кслшитид** возвращает идентификатор активного (переднего) листа.</span><span class="sxs-lookup"><span data-stu-id="b9d6a-111">If omitted, the **xlSheetId** function returns the sheet ID of the active (front) sheet.</span></span> 
+<span data-ttu-id="6c39a-109">(Необязательно).</span><span class="sxs-lookup"><span data-stu-id="6c39a-109">(Optional).</span></span> <span data-ttu-id="6c39a-110">Имя книги и листа, о которые вы хотите узнать.</span><span class="sxs-lookup"><span data-stu-id="6c39a-110">The name of the book and sheet you want to find out about.</span></span> <span data-ttu-id="6c39a-111">Если опущен, **функция xlSheetId** возвращает ИД активного (переднего) листа.</span><span class="sxs-lookup"><span data-stu-id="6c39a-111">If omitted, the **xlSheetId** function returns the sheet ID of the active (front) sheet.</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="b9d6a-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="b9d6a-112">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="6c39a-112">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="6c39a-112">Return value</span></span>
 
-<span data-ttu-id="b9d6a-113">Возвращает идентификатор листа в _пксрес —\>Val. мреф. идшит_.</span><span class="sxs-lookup"><span data-stu-id="b9d6a-113">Returns the sheet ID in  _pxRes-\>val.mref.idSheet_.</span></span> 
+<span data-ttu-id="6c39a-113">Возвращает ИД листа _в pxRes-val.mref.idSheet. \>_</span><span class="sxs-lookup"><span data-stu-id="6c39a-113">Returns the sheet ID in  _pxRes-\>val.mref.idSheet_.</span></span> 
   
 > [!NOTE]
-> <span data-ttu-id="b9d6a-114">После этого вызова в указателе массива _пксрес-\>Val. мреф. лпмреф_ ЗАдается значение null, поэтому нет необходимости вызывать **кслфри** , чтобы освободить память, которую обычно содержит этот тип, хотя это совершенно безопасно для этого.</span><span class="sxs-lookup"><span data-stu-id="b9d6a-114">The  _pxRes-\>val.mref.lpmref_ array pointer is set to NULL after this call so that there is no need to call **xlFree** to release the memory that this type normally contains, although it is completely safe to do so.</span></span> 
+> <span data-ttu-id="6c39a-114">После этого вызова для указателя массива  _\> pxRes-val.mref.lpmref_ устанавливается NULL, поэтому нет необходимости вызывать **xlFree,** чтобы освободить память, которая обычно содержится в этом типе, хотя это совершенно безопасно.</span><span class="sxs-lookup"><span data-stu-id="6c39a-114">The  _pxRes-\>val.mref.lpmref_ array pointer is set to NULL after this call so that there is no need to call **xlFree** to release the memory that this type normally contains, although it is completely safe to do so.</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="b9d6a-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="b9d6a-115">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="6c39a-115">Примечания</span><span class="sxs-lookup"><span data-stu-id="6c39a-115">Remarks</span></span>
 
-<span data-ttu-id="b9d6a-116">Чтобы использовать эту функцию, необходимо открыть книгу, содержащую указанный лист.</span><span class="sxs-lookup"><span data-stu-id="b9d6a-116">The workbook containing the specified sheet must be open to use this function.</span></span> <span data-ttu-id="b9d6a-117">Невозможно создать ссылку на неоткрытую книгу из библиотеки DLL.</span><span class="sxs-lookup"><span data-stu-id="b9d6a-117">There is no way to construct a reference to an unopened workbook from a DLL.</span></span> <span data-ttu-id="b9d6a-118">Дополнительные сведения об использовании **кслшитид** для создания ссылок приведены в статье [Управление памятью в Excel](memory-management-in-excel.md) для примера конструкции **кслтипереф** .</span><span class="sxs-lookup"><span data-stu-id="b9d6a-118">For more information about using **xlSheetId** to construct references, see [Memory Management in Excel](memory-management-in-excel.md) for examples of **xltypeRef** construction.</span></span> 
+<span data-ttu-id="6c39a-116">Книга, содержащая указанный лист, должна быть открыта для использования этой функции.</span><span class="sxs-lookup"><span data-stu-id="6c39a-116">The workbook containing the specified sheet must be open to use this function.</span></span> <span data-ttu-id="6c39a-117">Создать ссылку на неподтвершенную книгу из DLL не существует.</span><span class="sxs-lookup"><span data-stu-id="6c39a-117">There is no way to construct a reference to an unopened workbook from a DLL.</span></span> <span data-ttu-id="6c39a-118">Дополнительные сведения об использовании **xlSheetId** для создания ссылок см. в примере создания **xltypeRef** в области управления памятью в [Excel.](memory-management-in-excel.md)</span><span class="sxs-lookup"><span data-stu-id="6c39a-118">For more information about using **xlSheetId** to construct references, see [Memory Management in Excel](memory-management-in-excel.md) for examples of **xltypeRef** construction.</span></span> 
   
-## <a name="example"></a><span data-ttu-id="b9d6a-119">Пример</span><span class="sxs-lookup"><span data-stu-id="b9d6a-119">Example</span></span>
+## <a name="example"></a><span data-ttu-id="6c39a-119">Пример</span><span class="sxs-lookup"><span data-stu-id="6c39a-119">Example</span></span>
 
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   
@@ -62,8 +62,8 @@ short WINAPI xlSheetIdExample(void)
 }
 ```
 
-## <a name="see-also"></a><span data-ttu-id="b9d6a-120">См. также</span><span class="sxs-lookup"><span data-stu-id="b9d6a-120">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="6c39a-120">См. также</span><span class="sxs-lookup"><span data-stu-id="6c39a-120">See also</span></span>
 
-- [<span data-ttu-id="b9d6a-121">xlSheetNm</span><span class="sxs-lookup"><span data-stu-id="b9d6a-121">xlSheetNm</span></span>](xlsheetnm.md)
-- [<span data-ttu-id="b9d6a-122">Функции API C, которые можно вызывать только из библиотеки DLL или XLL</span><span class="sxs-lookup"><span data-stu-id="b9d6a-122">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
+- [<span data-ttu-id="6c39a-121">xlSheetNm</span><span class="sxs-lookup"><span data-stu-id="6c39a-121">xlSheetNm</span></span>](xlsheetnm.md)
+- [<span data-ttu-id="6c39a-122">Функции API C, которые можно вызывать только из библиотеки DLL или XLL</span><span class="sxs-lookup"><span data-stu-id="6c39a-122">C API Functions That Can Be Called Only from a DLL or XLL</span></span>](c-api-functions-that-can-be-called-only-from-a-dll-or-xll.md)
 

@@ -19,36 +19,36 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33427348"
 ---
-# <a name="deinitmapiutil"></a><span data-ttu-id="2abc5-103">DeinitMapiUtil</span><span class="sxs-lookup"><span data-stu-id="2abc5-103">DeinitMapiUtil</span></span>
+# <a name="deinitmapiutil"></a><span data-ttu-id="32002-103">DeinitMapiUtil</span><span class="sxs-lookup"><span data-stu-id="32002-103">DeinitMapiUtil</span></span>
 
   
   
-<span data-ttu-id="2abc5-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="2abc5-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
+<span data-ttu-id="32002-104">**Относится к**: Outlook 2013 | Outlook 2016</span><span class="sxs-lookup"><span data-stu-id="32002-104">**Applies to**: Outlook 2013 | Outlook 2016</span></span> 
   
-<span data-ttu-id="2abc5-105">Освобождает функции служебных программ, которые вызываются явно функцией [сЦинитмапиутил](scinitmapiutil.md) , или неявно функцией [мапиинитиализе](mapiinitialize.md) .</span><span class="sxs-lookup"><span data-stu-id="2abc5-105">Releases utility functions called explicitly by the [ScInitMapiUtil](scinitmapiutil.md) function or implicitly by the [MAPIInitialize](mapiinitialize.md) function.</span></span> 
+<span data-ttu-id="32002-105">Освобождает функции, явным образом называемые [функцией ScInitMapiUtil](scinitmapiutil.md) или неявно [функцией MAPIInitialize.](mapiinitialize.md)</span><span class="sxs-lookup"><span data-stu-id="32002-105">Releases utility functions called explicitly by the [ScInitMapiUtil](scinitmapiutil.md) function or implicitly by the [MAPIInitialize](mapiinitialize.md) function.</span></span> 
   
 |||
 |:-----|:-----|
-|<span data-ttu-id="2abc5-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="2abc5-106">Header file:</span></span>  <br/> |<span data-ttu-id="2abc5-107">Мапиутил. h</span><span class="sxs-lookup"><span data-stu-id="2abc5-107">Mapiutil.h</span></span>  <br/> |
-|<span data-ttu-id="2abc5-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="2abc5-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="2abc5-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="2abc5-109">MAPI</span></span>  <br/> |
-|<span data-ttu-id="2abc5-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="2abc5-110">Called by:</span></span>  <br/> |<span data-ttu-id="2abc5-111">Клиентские приложения</span><span class="sxs-lookup"><span data-stu-id="2abc5-111">Client applications</span></span>  <br/> |
+|<span data-ttu-id="32002-106">Файл заголовка:</span><span class="sxs-lookup"><span data-stu-id="32002-106">Header file:</span></span>  <br/> |<span data-ttu-id="32002-107">Mapiutil.h</span><span class="sxs-lookup"><span data-stu-id="32002-107">Mapiutil.h</span></span>  <br/> |
+|<span data-ttu-id="32002-108">Реализовано в:</span><span class="sxs-lookup"><span data-stu-id="32002-108">Implemented by:</span></span>  <br/> |<span data-ttu-id="32002-109">MAPI</span><span class="sxs-lookup"><span data-stu-id="32002-109">MAPI</span></span>  <br/> |
+|<span data-ttu-id="32002-110">Вызывающая сторона:</span><span class="sxs-lookup"><span data-stu-id="32002-110">Called by:</span></span>  <br/> |<span data-ttu-id="32002-111">Клиентские приложения</span><span class="sxs-lookup"><span data-stu-id="32002-111">Client applications</span></span>  <br/> |
    
 ```cpp
 VOID DeinitMapiUtil( void );
 ```
 
-## <a name="parameters"></a><span data-ttu-id="2abc5-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="2abc5-112">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="32002-112">Параметры</span><span class="sxs-lookup"><span data-stu-id="32002-112">Parameters</span></span>
 
-<span data-ttu-id="2abc5-113">Нет</span><span class="sxs-lookup"><span data-stu-id="2abc5-113">None</span></span> 
+<span data-ttu-id="32002-113">Нет</span><span class="sxs-lookup"><span data-stu-id="32002-113">None</span></span> 
   
-## <a name="return-value"></a><span data-ttu-id="2abc5-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="2abc5-114">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="32002-114">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="32002-114">Return value</span></span>
 
-<span data-ttu-id="2abc5-115">Нет</span><span class="sxs-lookup"><span data-stu-id="2abc5-115">None</span></span> 
+<span data-ttu-id="32002-115">Нет</span><span class="sxs-lookup"><span data-stu-id="32002-115">None</span></span> 
   
-## <a name="remarks"></a><span data-ttu-id="2abc5-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="2abc5-116">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="32002-116">Примечания</span><span class="sxs-lookup"><span data-stu-id="32002-116">Remarks</span></span>
 
-<span data-ttu-id="2abc5-117">Функции выпуска функции **деинитмапиутил** , инициализированные с помощью [сЦинитмапиутил](scinitmapiutil.md) или [мапиинитиализе](mapiinitialize.md).</span><span class="sxs-lookup"><span data-stu-id="2abc5-117">The **DeinitMapiUtil** function release functions initialized with [ScInitMapiUtil](scinitmapiutil.md) or [MAPIInitialize](mapiinitialize.md).</span></span> 
+<span data-ttu-id="32002-117">Функции **выпуска функции DeinitMapiUtil,** инициализированные с [помощью ScInitMapiUtil](scinitmapiutil.md) или [MAPIInitialize.](mapiinitialize.md)</span><span class="sxs-lookup"><span data-stu-id="32002-117">The **DeinitMapiUtil** function release functions initialized with [ScInitMapiUtil](scinitmapiutil.md) or [MAPIInitialize](mapiinitialize.md).</span></span> 
   
-<span data-ttu-id="2abc5-118">При завершении использования функций, вызываемых **сЦинитмапиутил** , **деинитмапиутил** необходимо явно вызывать, чтобы освободить их.</span><span class="sxs-lookup"><span data-stu-id="2abc5-118">When use of the functions called by **ScInitMapiUtil** is complete, **DeinitMapiUtil** must be explicitly called to release them.</span></span> <span data-ttu-id="2abc5-119">В отличие от этого, [мапиунинитиализе](mapiuninitialize.md) неявно вызывает **деинитмапиутил**.</span><span class="sxs-lookup"><span data-stu-id="2abc5-119">In contrast, [MAPIUninitialize](mapiuninitialize.md) implicitly calls **DeinitMapiUtil**.</span></span> 
+<span data-ttu-id="32002-118">После завершения использования функций, называемых **ScInitMapiUtil,** необходимо явным образом с помощью **deinitMapiUtil** освободить их.</span><span class="sxs-lookup"><span data-stu-id="32002-118">When use of the functions called by **ScInitMapiUtil** is complete, **DeinitMapiUtil** must be explicitly called to release them.</span></span> <span data-ttu-id="32002-119">С другой [стороны, MAPIUninitialize](mapiuninitialize.md) неявно вызывает **DeinitMapiUtil.**</span><span class="sxs-lookup"><span data-stu-id="32002-119">In contrast, [MAPIUninitialize](mapiuninitialize.md) implicitly calls **DeinitMapiUtil**.</span></span> 
   
 
