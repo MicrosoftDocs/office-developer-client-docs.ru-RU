@@ -1,5 +1,5 @@
 ---
-title: Иексчанжемодифитабле IUnknown
+title: IExchangeModifyTable IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,48 +25,48 @@ ms.locfileid: "33418108"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Поддерживает доступ к объектам таблицы Microsoft Exchange Server, а именно к объектам таблицы и объектам таблицы правил списка управления доступом в папках Microsoft Exchange Server. Этот интерфейс напоминает интерфейс [IMAPITable: IUnknown](imapitableiunknown.md) , но он добавляет поддержку для отдельных структур Microsoft Exchange Server, которые используются для управления таблицами управления доступом и правилами. 
+Поддерживает доступ к объектам Microsoft Exchange Server таблиц, в частности объектам таблицы списка управления доступом системы (SACL) и объектам таблиц правил в Microsoft Exchange Server папок. Этот интерфейс похож на интерфейс [IMAPITable : IUnknown,](imapitableiunknown.md) но он добавляет поддержку Microsoft Exchange Server структур, используемых для управления SACLs и правилами. 
   
 |||
 |:-----|:-----|
-|Предоставлено:  <br/> |Нет  <br/> |
-|Реализовано в:  <br/> |Объекты таблицы сервера  <br/> |
+|Выставим:  <br/> |Нет  <br/> |
+|Реализовано в:  <br/> |Объекты таблиц серверов  <br/> |
 |Вызывающая сторона:  <br/> |MAPI и клиентские приложения  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IExchangeModifyTable  <br/> |
-|Тип указателя:  <br/> |лпексчанжемодифитабле  <br/> |
-|Модель транзакции:  <br/> |Транзакции  <br/> |
+|Тип указателя:  <br/> |LPEXCHANGEMODIFYTABLE  <br/> |
+|Модель транзакций:  <br/> |Transacted  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Возвращает сведения о последней ошибке, произошедшей в объекте Table.  <br/> |
+|[GetLastError](iexchangemodifytable-getlasterror.md) <br/> |Возвращает сведения о последней ошибке, которая произошла в объекте таблицы.  <br/> |
 |[GetTable](iexchangemodifytable-gettable.md) <br/> |Возвращает указатель на интерфейс для объекта таблицы MAPI.  <br/> |
-|[модифитабле](iexchangemodifytable-modifytable.md) <br/> |Обновляет объект таблицы MAPI.  <br/> |
+|[ModifyTable](iexchangemodifytable-modifytable.md) <br/> |Обновляет объект таблицы MAPI.  <br/> |
    
-|**Свойства, используемые для изменения таблицы Rules**|**Access**|
+|**Свойства, используемые для изменения таблицы правил**|**Access**|
 |:-----|:-----|
-|**PR_RULE_ACTIONS** ([PidTagRuleActions](pidtagruleactions-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_ACTIONS** ([PidTagRuleActions)](pidtagruleactions-canonical-property.md)  <br/> |Только для чтения  <br/> |
 |**PR_RULE_CONDITION** ([PidTagRuleCondition](pidtagrulecondition-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RULE_ID** ([PidTagRuleId](pidtagruleid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RULE_LEVEL** ([PidTagRuleLevel](pidtagrulelevel-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_ID** ([PidTagRuleId)](pidtagruleid-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_LEVEL** ([PidTagRuleLevel)](pidtagrulelevel-canonical-property.md)  <br/> |Только для чтения  <br/> |
 |**PR_RULE_NAME** ([PidTagRuleName](pidtagrulename-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RULE_PROVIDER** ([PidTagRuleProvider](pidtagruleprovider-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RULE_PROVIDER_DATA** ([PidTagRuleProviderData](pidtagruleproviderdata-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RULE_SEQUENCE** ([PidTagRuleSequence](pidtagrulesequence-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_PROVIDER** ([PidTagRuleProvider)](pidtagruleprovider-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_PROVIDER_DATA** ([PidTagRuleProviderData)](pidtagruleproviderdata-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_RULE_SEQUENCE** ([PidTagRuleSequence)](pidtagrulesequence-canonical-property.md)  <br/> |Только для чтения  <br/> |
 |**PR_RULE_STATE** ([PidTagRuleState](pidtagrulestate-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_RULE_USER_FLAGS** ([PidTagRuleUserFlags](pidtagruleuserflags-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_RULE_USER_FLAGS** ([PidTagRuleUserFlags)](pidtagruleuserflags-canonical-property.md)  <br/> |Только для чтения  <br/> |
    
 |**Свойства, используемые для изменения таблицы SACL**|**Access**|
 |:-----|:-----|
-|**PR_MEMBER_ENTRYID** ([PidTagMemberEntryId](pidtagmemberentryid-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_MEMBER_ID** ([PidTagMemberId](pidtagmemberid-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_ENTRYID** ([PidTagMemberEntryId)](pidtagmemberentryid-canonical-property.md)  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_ID** ([PidTagMemberId)](pidtagmemberid-canonical-property.md)  <br/> |Только для чтения  <br/> |
 |**PR_MEMBER_NAME** ([PidTagMemberName](pidtagmembername-canonical-property.md))  <br/> |Только для чтения  <br/> |
-|**PR_MEMBER_RIGHTS** ([PidTagMemberRights](pidtagmemberrights-canonical-property.md))  <br/> |Только для чтения  <br/> |
+|**PR_MEMBER_RIGHTS** ([PidTagMemberRights)](pidtagmemberrights-canonical-property.md)  <br/> |Только для чтения  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить интерфейс **иексчанжемодифитабле** , вызовите метод MAPI [IMAPIProp:: опенпроперти](imapiprop-openproperty.md) для свойства типа PT_OBJECT объекта Folder. При вызове метода **опенпроперти** передайте значение **IID_IExchangeModifyTable** в параметр _лпиид_ . 
+Чтобы получить интерфейс **IExchangeModifyTable,** вызовите метод MAPI [IMAPIProp::OpenProperty](imapiprop-openproperty.md) в свойстве типа PT_OBJECT объекте папки. При вызове метода **OpenProperty** передав значение IID_IExchangeModifyTable _параметру lpiid._  
   
 ## <a name="see-also"></a>См. также
 

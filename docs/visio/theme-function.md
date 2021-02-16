@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: fa7a176d-ce9c-1ae6-490f-0646b2ee432f
-description: Получает параметры форматирования текущей темы.
+description: Получает параметры формата текущей темы.
 ms.openlocfilehash: 949619b5bd4ca8dd0751c09d0b732768d02706c4
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33421111"
 ---
 # <a name="theme-function"></a>Функция THEME
 
-Получает параметры форматирования текущей темы.
+Получает параметры формата текущей темы.
   
 ## <a name="syntax"></a>Синтаксис
 
-THEME ()
+THEME()
   
 ## <a name="example"></a>Пример
 
@@ -28,6 +28,6 @@ THEME ()
 Shape.FillForegnd = THEME("FillColor")
 ```
 
-Назначает фигуре цвет заливки для текущей темы.
+Назначает фигуре цвет заливки текущей темы.
   
 

@@ -31,22 +31,22 @@ ms.locfileid: "33420124"
 |:-----|:-----|
 |Связанные свойства:  <br/> |PR_CONTAB_FOLDER_NAMES  <br/> |
 |Идентификатор:  <br/> |0x6623  <br/> |
-|Тип данных:  <br/> |PT_MV_UNICODE PT_MV_STRING8  <br/> |
-|Область:  <br/> |Адресная книга контактов  <br/> |
+|Тип данных:  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
+|Область:  <br/> |Адресная книга контакта  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Это свойства раздела "профиль адресной книги контакта".
+Это свойства в разделе профиля адресной книги контактов.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-Мапидеф. h
+Mapidef.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -56,7 +56,7 @@ ms.locfileid: "33420124"
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

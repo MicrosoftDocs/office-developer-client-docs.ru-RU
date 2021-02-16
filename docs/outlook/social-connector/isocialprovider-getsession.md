@@ -1,5 +1,5 @@
 ---
-title: исоЦиалпровидержетсессион
+title: ISocialProviderGetSession
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 371b48c5-6d77-4d2d-890c-bb234c7eaabc
-description: Получает интерфейс настроенный ISocialSession.
+description: Получает интерфейс ISocialSession.
 ms.openlocfilehash: afa13bddd5cbbc53081f6ae7ddcc1671d1c40303
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33419550"
 ---
 # <a name="isocialprovidergetsession"></a>ISocialProvider::GetSession
 
-Получает интерфейс [настроенный ISocialSession](isocialsessioniunknown.md) . 
+Получает интерфейс [ISocialSession.](isocialsessioniunknown.md) 
   
 ```cpp
 HRESULT _stdcall GetSession([out, retval] ISocialSession** session);
@@ -31,7 +31,7 @@ _session_
     
 ## <a name="remarks"></a>Комментарии
 
-Outlook Social Connector (OSC) использует интерфейс **настроенный ISocialSession** для входа в социальную сеть. 
+Outlook Social Connector (OSC) использует интерфейс **ISocialSession** для входа в социальные сети. 
   
 ## <a name="see-also"></a>См. также
 

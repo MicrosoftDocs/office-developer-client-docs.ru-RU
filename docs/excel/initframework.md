@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - InitFramework
 keywords:
-- Функция инитфрамеворк [Excel 2007]
+- функция initframework [excel 2007]
 localization_priority: Normal
 ms.assetid: c472a14a-92a6-46f6-924c-db8d6199d6fb
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33420755"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функция библиотеки Framework, которая инициализирует библиотеку Framework, которая просто инициализирует временные структуры данных о памяти **XLOPER**/ **XLOPER12** , освобождая память, которая уже была выделена. 
+Функция библиотеки Framework, которая инициализирует библиотеку Framework, которая просто инициализирует временные структуры данных памяти /  **XLOPER XLOPER12,** освободив уже выделенную память. 
   
 ```cs
 short WINAPI InitFramework(void);
@@ -38,7 +38,7 @@ short WINAPI InitFramework(void);
   
 ## <a name="example"></a>Пример
 
-В этом примере функция **инитфрамеворк** используется для освобождения всей временной памяти. 
+В этом примере функция **InitFramework** используется для освободить всю временную память. 
   
  `\SAMPLES\EXAMPLE\EXAMPLE.C`
   

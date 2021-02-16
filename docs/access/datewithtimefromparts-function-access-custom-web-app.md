@@ -1,5 +1,5 @@
 ---
-title: Функция Датевистимефромпартс (пользовательское веб-приложение для Access)
+title: Функция DateWithTimeFromParts (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33422091"
 ---
-# <a name="datewithtimefromparts-function-access-custom-web-app"></a>Функция Датевистимефромпартс (пользовательское веб-приложение для Access)
+# <a name="datewithtimefromparts-function-access-custom-web-app"></a>Функция DateWithTimeFromParts (пользовательское веб-приложение Access)
 
 Возвращает дату и время на основе указанного года, месяца, дня и времени.
   
@@ -22,21 +22,21 @@ ms.locfileid: "33422091"
   
 ## <a name="syntax"></a>Синтаксис
 
-**Датевистимефромпартс** (*год*, *месяц*, *день*, *час*, *минута*, *секунда*) 
+**DateWithTimeFromParts** (*Year,* *Month,* *Day*, *Hour*, *Minute*, *Second*) 
   
-Функция **датевистимефромпартс** содержит указанные ниже аргументы. 
+Функция **DateWithTimeFromParts** содержит следующие аргументы. 
   
 |**Имя аргумента**|**Описание**|
 |:-----|:-----|
-| *Год*  <br/> |Целочисленное выражение, задающее год.  <br/> |
-| *Month*  <br/> |Целочисленное выражение, задающее месяц.  <br/> |
-| *Day*  <br/> |Целочисленное выражение, задающее день.  <br/> |
-| *Hour*  <br/> |Целочисленное выражение, задающее часы.  <br/> |
-| *Minute*  <br/> |Целочисленное выражение, задающее минуты.  <br/> |
-| *Second*  <br/> |Целочисленное выражение, задающее секунды.  <br/> |
+| *Год*  <br/> |Integer expression specifying a year.  <br/> |
+| *Month*  <br/> |Integer expression specifying a month.  <br/> |
+| *Day*  <br/> |Integer expression specifying a day.  <br/> |
+| *Hour*  <br/> |Integer expression specifying hours.  <br/> |
+| *Minute*  <br/> |Integer expression specifying minutes.  <br/> |
+| *Second*  <br/> |Integer expression specifying seconds.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-**Датевистимефромпартс** Возвращает полностью инициализированное значение даты и времени. Если аргументы являются недопустимыми, возникает ошибка. Если обязательные аргументы имеют значение null, возвращается значение null. 
+**DateWithTimeFromParts** возвращает полностью инициализированное значение даты и времени. Если аргументы не являются допустимами, вызывается ошибка. Если необходимые аргументы — NULL, возвращается Null. 
   
 

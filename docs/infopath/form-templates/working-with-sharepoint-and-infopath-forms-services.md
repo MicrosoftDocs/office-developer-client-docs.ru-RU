@@ -19,7 +19,7 @@ ms.locfileid: "33418255"
 
 В этом разделе представлены сведения о работе с шаблонами форм, совместимыми с браузерами и предназначенными для развертывания в приложении Microsoft SharePoint Server 2010 с InfoPath Forms Services.
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
 [Создание шаблонов форм InfoPath, работающих со службами InfoPath Forms Services](creating-infopath-form-templates-that-work-with-infopath-forms-services.md)
   

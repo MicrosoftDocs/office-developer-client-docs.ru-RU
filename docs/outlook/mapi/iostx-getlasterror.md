@@ -1,5 +1,5 @@
 ---
-title: иостксжетластеррор
+title: IOSTXGetLastError
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -37,17 +37,17 @@ HRESULT GetLastError(
 
 ## <a name="parameters"></a>Параметры
 
- _Состав_
+ _hResult_
   
->  возврата Код ошибки. 
+>  [in] Код ошибки. 
     
  _ulFlags_
   
->  [in] Flags to modify behavior. Значение должно быть равно 0. 
+>  [in] Flags to modify behavior. Это должно быть 0. 
     
- _лппмапиеррор_
+ _lppMAPIError_
   
->  вышли Указатель на структуру **мапиеррор** , которая содержит расширенные сведения об ошибке. Определение типа **лпмапиеррор**можно найти в файле MAPIDEFS. h. 
+>  [out] Указатель на **структуру MAPIERROR,** которая содержит расширенные сведения об ошибке. Определение типа **LPMAPIERROR** см. в mapidefs.h. 
     
 ## <a name="see-also"></a>См. также
 

@@ -4,7 +4,7 @@ manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 keywords:
-- шаблоны форм, совместимые с InfoPath 2003, шаблоны форм [InfoPath 2007], создание InfoPath 2003 — совместимый, InfoPath 2007, создание шаблонов форм, совместимых с InfoPath 2003
+- infopath 2003-compatible form templates,form templates [InfoPath 2007], creating InfoPath 2003-compatible,InfoPath 2007, creating InfoPath 2003-compatible form templates
 localization_priority: Normal
 ms.assetid: c746aeb1-902c-440e-830b-5b9efad0ca04
 description: В главе описаны действия, необходимые для создания шаблона формы, работающего с объектной моделью, совместимой с InfoPath 2003.
@@ -20,7 +20,7 @@ ms.locfileid: "33418185"
 В главе описаны действия, необходимые для создания шаблона формы, работающего с объектной моделью, совместимой с InfoPath 2003.
   
 > [!IMPORTANT]
-> Помимо описанных далее процедур, также необходимо выбрать пункт **Сохранить как** на вкладке **Файл**, а затем выбрать **Шаблон формы InfoPath 2003** в поле **Вывод** для сохранения шаблона формы в файл с форматом, совместимым с InfoPath 2003. Кроме того, чтобы открыть шаблоны форм, совместимые с InfoPath 2003, созданные с помощью InfoPath, на компьютерах пользователей InfoPath 2003 должна быть установлена платформа .NET Framework версии 2,0 или более поздней. 
+> Помимо описанных далее процедур, также необходимо выбрать пункт **Сохранить как** на вкладке **Файл**, а затем выбрать **Шаблон формы InfoPath 2003** в поле **Вывод** для сохранения шаблона формы в файл с форматом, совместимым с InfoPath 2003. Кроме того, чтобы открыть шаблоны форм, совместимые с InfoPath 2003, созданные с помощью InfoPath, на компьютерах всех пользователей InfoPath 2003 должна быть установлена .NET Framework 2.0 или более поздней. 
   
 ### <a name="to-create-an-infopath-2003-compatible-form-template-in-infopath-with-visual-studio-tools-for-applications"></a>Создание шаблона формы, совместимого с InfoPath 2003, в InfoPath с набором средств Visual Studio Tools для работы с приложениями
 
@@ -34,7 +34,7 @@ ms.locfileid: "33418185"
     
 5. Нажмите кнопку **ОК**.
     
-6. Создайте шаблон формы, а затем добавьте обработчики событий в Visual Studio 2012, как описано в статье [Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+6. Разработать шаблон формы, а затем добавить обработчики событий в Visual Studio 2012, как описано в описании добавления обработчик событий с помощью объектной модели [InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
     
 ## <a name="see-also"></a>См. также
 

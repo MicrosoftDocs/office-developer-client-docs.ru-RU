@@ -21,36 +21,36 @@ ms.locfileid: "33422497"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Таблица служба сообщений содержит сведения о службах сообщений в текущем профиле. Для каждого сеанса MAPI существует одна таблица службы сообщений, реализованная MAPI и используемая клиентскими приложениями специального назначения, которые обеспечивают поддержку конфигурации. 
+Таблица службы сообщений содержит сведения о службах сообщений в текущем профиле. Существует одна таблица службы сообщений для каждого сеанса MAPI, реализованная с помощью MAPI и используемая клиентских приложений специального назначения, которые обеспечивают поддержку конфигурации. 
   
-Таблица службы сообщений — это статическая таблица.
+Таблица службы сообщений является статической.
   
-Клиенты получают доступ к таблице службы сообщений, вызывая метод [имсгсервицеадмин:: жетмсгсервицетабле](imsgserviceadmin-getmsgservicetable.md) . 
+Клиенты получают доступ к таблице службы сообщений, вызывая метод [IMsgServiceAdmin::GetMsgServiceTable.](imsgserviceadmin-getmsgservicetable.md) 
   
-Следующие свойства составляют обязательный набор столбцов в таблице службы сообщений:
+Следующие свойства составляют необходимый набор столбцов в таблице службы сообщений:
   
 |||
 |:-----|:-----|
-|**PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md))  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey](pidtaginstancekey-canonical-property.md))  <br/> |
-|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md))  <br/> |**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
+|**PR_DISPLAY_NAME** ([PidTagDisplayName)](pidtagdisplayname-canonical-property.md)  <br/> |**PR_INSTANCE_KEY** ([PidTagInstanceKey)](pidtaginstancekey-canonical-property.md)  <br/> |
+|**PR_RESOURCE_FLAGS** ([PidTagResourceFlags)](pidtagresourceflags-canonical-property.md)  <br/> |**PR_SERVICE_DLL_NAME** ([PidTagServiceDllName](pidtagservicedllname-canonical-property.md))  <br/> |
 |**PR_SERVICE_ENTRY_NAME** ([PidTagServiceEntryName](pidtagserviceentryname-canonical-property.md))  <br/> |**PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md))  <br/> |
-|**PR_SERVICE_SUPPORT_FILES** ([PidTagServiceSupportFiles](pidtagservicesupportfiles-canonical-property.md))  <br/> |**PR_SERVICE_UID** ([PidTagServiceUid](pidtagserviceuid-canonical-property.md))  <br/> |
+|**PR_SERVICE_SUPPORT_FILES** ([PidTagServiceSupportFiles)](pidtagservicesupportfiles-canonical-property.md)  <br/> |**PR_SERVICE_UID** ([PidTagServiceUid)](pidtagserviceuid-canonical-property.md)  <br/> |
    
- **PR_DISPLAY_NAME** — отображаемое имя для службы сообщений и столбец ключа сортировки по умолчанию. 
+ **PR_DISPLAY_NAME** это отображаемое имя службы сообщений и столбец ключа сортировки по умолчанию. 
   
- **PR_INSTANCE_KEY** выступает в качестве столбца индекса для таблицы, уникальным образом идентифицирующего строку. 
+ **PR_INSTANCE_KEY** в качестве столбца индекса для таблицы, уникально идентифицируя строку. 
   
- **PR_RESOURCE_FLAGS** рассказывается о возможностях службы сообщений. 
+ **PR_RESOURCE_FLAGS** описание возможностей службы сообщений. 
   
- **PR_SERVICE_DLL_NAME** — это имя библиотеки DLL, которая содержит реализацию службы сообщений. 
+ **PR_SERVICE_DLL_NAME** имя DLL- и содержит реализацию службы сообщений. 
   
- **PR_SERVICE_ENTRY_NAME** — это имя функции точки входа службы сообщений, которая соответствует прототипу [мсгсервицеентри](msgserviceentry.md) . 
+ **PR_SERVICE_ENTRY_NAME** имя функции точки входа службы сообщений, которая соответствует [прототипу MSGSERVICEENTRY.](msgserviceentry.md) 
   
- **PR_SERVICE_NAME** является обязательной записью в разделе **[Services]** in Mapisvc. INF. Значение этого свойства никогда не будет изменено или локализовано. **PR_SERVICE_NAME** можно использовать для программного определения службы сообщений. 
+ **PR_SERVICE_NAME** является обязательной записью в разделе **[Службы]** в MAPISVC.INF. Значение этого свойства никогда не будет изменено или локализовано. **PR_SERVICE_NAME** можно использовать для определения службы сообщений программным путем. 
   
- **PR_SERVICE_SUPPORT_FILES** — это список файлов, которые необходимо установить вместе со службой сообщений. 
+ **PR_SERVICE_SUPPORT_FILES** список файлов, которые необходимо установить вместе со службой сообщений. 
   
- **PR_SERVICE_UID** — это уникальный идентификатор службы сообщений. 
+ **PR_SERVICE_UID** это уникальный идентификатор службы сообщений. 
   
 ## <a name="see-also"></a>См. также
 

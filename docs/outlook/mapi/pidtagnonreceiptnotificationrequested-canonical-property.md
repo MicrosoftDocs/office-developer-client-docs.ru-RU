@@ -25,7 +25,7 @@ ms.locfileid: "33419753"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение TRUE, если отправителю сообщения требуется уведомление о недоставке для указанного получателя.
+Содержит true, если отправителю сообщения нужно уведомление о нео получении для указанного получателя.
   
 |||
 |:-----|:-----|
@@ -36,17 +36,17 @@ ms.locfileid: "33419753"
    
 ## <a name="remarks"></a>Примечания
 
-Если это свойство содержит значение FALSE, а свойство **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested](pidtagreadreceiptrequested-canonical-property.md)) содержит значение true, то поставщик услуг может переопределить свойство **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** и создать отчет о недоставке. 
+Если это свойство содержит значение FALSE, а свойство **PR_READ_RECEIPT_REQUESTED** ([PidTagReadReceiptRequested)](pidtagreadreceiptrequested-canonical-property.md)содержит значение TRUE, поставщик службы может переопредить свойство **PR_NON_RECEIPT_NOTIFICATION_REQUESTED** и создать отчет о невыставке. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

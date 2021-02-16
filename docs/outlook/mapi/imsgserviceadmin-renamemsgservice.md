@@ -1,5 +1,5 @@
 ---
-title: имсгсервицеадминренамемсгсервице
+title: IMsgServiceAdminRenameMsgService
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33422105"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Устаревшие. Назначает новое имя службе сообщений. 
+Устарело. Назначает новое имя службе сообщений. 
   
 ```cpp
 HRESULT RenameMsgService(
@@ -37,27 +37,27 @@ HRESULT RenameMsgService(
 
 ## <a name="parameters"></a>Параметры
 
- _лпуид_
+ _lpUID_
   
-> возврата Указатель на структуру [мапиуид](mapiuid.md) , которая содержит уникальный идентификатор для переименования службы сообщений. 
+> [in] Указатель на структуру [MAPIUID,](mapiuid.md) которая содержит уникальный идентификатор службы сообщений, которую требуется переименовать. 
     
  _ulFlags_
   
 > [in] ���������������; ������ ���� ����� ����.
     
- _лпсздисплайнаме_
+ _lpszDisplayName_
   
-> возврата Указатель на новое имя для службы сообщений.
+> [in] Указатель на новое имя службы сообщений.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
 MAPI_E_NO_SUPPORT 
   
-> MAPI не поддерживает переименование этой службы сообщений. **Ренамемсгсервице** всегда возвращает это значение. 
+> MAPI не поддерживает переименование этой службы сообщений. **RenameMsgService** всегда возвращает это значение. 
     
 ## <a name="remarks"></a>Примечания
 
-Чтобы назначить новое имя службе сообщений, клиенты должны использовать свойство **PR_SERVICE_NAME** ([PidTagServiceName](pidtagservicename-canonical-property.md)) службы сообщений. Имена поставщиков служб в службе сообщений хранятся в их свойствах **PR_DISPLAY_NAME** ([PidTagDisplayName](pidtagdisplayname-canonical-property.md)). 
+Чтобы назначить новое имя службе сообщений, клиенты должны использовать свойство **PR_SERVICE_NAME** ([PidTagServiceName)](pidtagservicename-canonical-property.md)службы сообщений. Имена поставщиков услуг в службе сообщений хранятся в их свойствах PR_DISPLAY_NAME **(** [PidTagDisplayName).](pidtagdisplayname-canonical-property.md) 
   
 ## <a name="see-also"></a>См. также
 

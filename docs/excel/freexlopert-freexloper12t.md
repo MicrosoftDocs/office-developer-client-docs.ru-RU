@@ -8,7 +8,7 @@ f1_keywords:
 - FreeXLOper12T
 - FreeXLOperT
 keywords:
-- Функция фрикслоперт [Excel 2007], функция FreeXLOper12T [Excel 2007]
+- freexlopert function [excel 2007],FreeXLOper12T function [Excel 2007]
 localization_priority: Normal
 ms.assetid: 8fb3fdfd-8a43-4c50-82ff-e701fed3d83f
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -23,7 +23,7 @@ ms.locfileid: "33421524"
 
  **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Функция Framework, которая освобождает память, связанную с **XLOPER**/ **XLOPER12**. Функция предполагает, что память была выделена с помощью вызовов malloc в библиотеке DLL. Если память была выделена Microsoft Excel или другим способом или каким бы то ни было другим процессом, эта функция не должна использоваться для освобождения памяти. Используйте [кслфри](xlfree.md) для освобождения памяти, выделенной Excel для **XLOPER**/ **, с.** 
+Функция Framework, которая освободит память, связанную с /  **XLOPER XLOPER12.** Функция предполагает, что память была выделена с помощью вызовов мзок в DLL. Если память была выделена Microsoft Excel или каким-либо другим способом или каким-либо другим процессом, эту функцию не следует использовать для ее освободить. Используйте [xlFree, чтобы](xlfree.md) освободить память, выделенную Excel для **XLOPER** /  **XLOPER12.** 
   
 ```cs
 void FreeXLOperT(LPXLOPER pxloper);
@@ -32,11 +32,11 @@ void FreeXLOper12T(LPXLOPER12 pxloper12);
 
 ## <a name="parameters"></a>Параметры
 
- _пкслопер_ (**лпкслопер**)
+ _pxloper_ (**LPXLOPER)**
   
- _pxloper12_ (**LPXLOPER12**)
+ _pxloper12_ (**LPXLOPER12)**
   
-Указатель на значение параметра **XLOPER**/ **XLOPER12** , которое нужно освободить. 
+Указатель на **XLOPER** /  **XLOPER12,** который требуется освободить. 
   
 ## <a name="example"></a>Пример
 

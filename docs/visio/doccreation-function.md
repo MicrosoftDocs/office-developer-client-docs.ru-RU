@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251604
 localization_priority: Normal
 ms.assetid: dcbc240a-e36d-b27f-02c3-fd1eac04114a
-description: Возвращает дату и время создания документа в виде порядкового значения.
+description: Возвращает дату и время создания документа в качестве последовательного значения.
 ms.openlocfilehash: a1f66a8fe2561578a2b37deefcfa6556f10455a0
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33419970"
 ---
 # <a name="doccreation-function"></a>Функция DOCCREATION
 
-Возвращает дату и время создания документа в виде порядкового значения.
+Возвращает дату и время создания документа в качестве последовательного значения.
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -26,6 +26,6 @@ DOCCREATION ()
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы отформатировать значение, используйте функцию FORMAT. 
+Используйте функцию FORMAT для формата значения. 
   
 

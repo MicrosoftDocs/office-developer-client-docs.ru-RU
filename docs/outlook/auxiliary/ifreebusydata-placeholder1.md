@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 578be74e-6aeb-fc62-7c32-7e7e6aa61f39
-description: Этот элемент является заполнителем и не поддерживается.
+description: Этот член является местоимящиком и не поддерживается.
 ms.openlocfilehash: 92bab8ba239db17ece9c9ed565312b119aaaa88b
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33422413"
 ---
 # <a name="ifreebusydataplaceholder1"></a>IFreeBusyData::Placeholder1
 
-Этот элемент является заполнителем и не поддерживается.
+Этот член является местоимящиком и не поддерживается.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [ифрибусидата](ifreebusydata.md).
+См. [IFreeBusyData.](ifreebusydata.md)
   
 ```cpp
 HRESULT Placeholder1( 
@@ -31,15 +31,15 @@ HRESULT Placeholder1(
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Всегда E_NOTIMPL, так как этот член является заполнителем в **ифрибусидата** и не поддерживается. 
+Всегда E_NOTIMPL, так как этот член является заместом в **IFreeBusyData** и не поддерживается. 
   
 ## <a name="remarks"></a>Примечания
 
-Этот элемент должен возвращать E_NOTIMPL.
+Этот член должен возвращать E_NOTIMPL.
   
 ## <a name="see-also"></a>См. также
 
-- [Константы (API сведений о доступности)](constants-free-busy-api.md)
+- [Constants (Free/busy API)](constants-free-busy-api.md)
 - [IFreeBusyData::EnumBlocks](ifreebusydata-enumblocks.md)
 - [IFreeBusyData::GetFBPublishRange](ifreebusydata-getfbpublishrange.md)
 - [IFreeBusyData::SetFBRange](ifreebusydata-setfbrange.md)

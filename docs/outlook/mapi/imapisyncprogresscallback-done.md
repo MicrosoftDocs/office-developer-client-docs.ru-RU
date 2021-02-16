@@ -1,5 +1,5 @@
 ---
-title: имаписинкпрогресскаллбаккдоне
+title: IMAPISyncProgressCallbackDone
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33422350"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
- Информирует Microsoft Outlook о завершении синхронизации. 
+ Сообщает Microsoft Outlook о том, что синхронизация завершена. 
   
 ```cpp
 HRESULT Done(
@@ -36,13 +36,13 @@ HRESULT Done(
 
 ## <a name="parameters"></a>Параметры
 
- **хсреаддонивент**
+ **hThreadDoneEvent**
   
-> Событие, которое передается обратно, чтобы разрешить приложению Microsoft Outlook закрыть этот дескриптор. Может иметь значение NULL.
+> Событие, которое передается обратно, чтобы позволить Microsoft Outlook закрыть handle. Это может быть NULL.
     
- **Состав**
+ **hResult**
   
-> Значение HRESULT, указывающее конечный статус хода выполнения.
+> HRESULT, указывающий конечное состояние хода выполнения.
     
 ## <a name="return-value"></a>Возвращаемое значение
 
