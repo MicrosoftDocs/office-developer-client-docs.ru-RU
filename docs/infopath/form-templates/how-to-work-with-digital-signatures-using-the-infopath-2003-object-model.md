@@ -1,10 +1,10 @@
 ---
-title: Работать с цифровыми подписями с помощью объектной модели InfoPath 2003
+title: Работа с цифровыми подписями с помощью объектной модели InfoPath 2003
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 keywords:
-- Цифровые подписи [InfoPath 2007], шаблоны форм, совместимые с InfoPath 2003, шаблоны форм, совместимые с InfoPath 2003, цифровые подписи
+- цифровые подписи [infopath 2007], шаблоны форм, совместимые с infopath 2003, шаблоны форм, совместимые с InfoPath 2003, цифровые подписи
 localization_priority: Normal
 ms.assetid: d6318238-fd45-4854-a3c9-c27c5685bd6b
 description: Объектная модель, совместимая с InfoPath 2003, предоставляет функции для программной работы с цифровыми подписями.
@@ -15,7 +15,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33433446"
 ---
-# <a name="work-with-digital-signatures-using-the-infopath-2003-object-model"></a>Работать с цифровыми подписями с помощью объектной модели InfoPath 2003
+# <a name="work-with-digital-signatures-using-the-infopath-2003-object-model"></a>Работа с цифровыми подписями с помощью объектной модели InfoPath 2003
 
 Объектная модель, совместимая с InfoPath 2003, предоставляет функции для программной работы с цифровыми подписями.
   
@@ -45,7 +45,7 @@ ms.locfileid: "33433446"
 |:-----|:-----|
 |[OnSign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocumentEventSink2_Event.OnSign.aspx) <br/> |Возникает после выбора для подписания определенного набора подписываемых данных.  <br/> Это событие можно использовать для управления данными, хранящимися внутри цифровой подписи. Например, можно добавить данные с надежного сервера метки времени или добавить серверную подпись других сторон для транзакции. Также можно использовать это событие для блокирования подписания, если текущий пользователь не входит в состав определенной группы.  <br/> |
    
-Событие **OnSign** возвращает ссылку на объект [сигневентобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEventObject.aspx) , который предоставляет указанные ниже свойства. 
+Событие **OnSign** возвращает ссылку на объект [SignEventObject,](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignEventObject.aspx) который предоставляет следующие свойства. 
   
 |**Название**|**Описание**|
 |:-----|:-----|
@@ -59,16 +59,16 @@ ms.locfileid: "33433446"
   
 |**Название**|**Описание**|
 |:-----|:-----|
-|[сигнеддатаблокксколлектион](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlocksCollection.aspx) <br/> |Коллекция объектов [сигнеддатаблоккобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) в шаблоне формы, как определено в файле определения формы (XSF).  <br/> Семейство **SignedDataBlocksCollection** реализует свойства, которые можно использовать для доступа к объектам **SignedDataBlockObjects**, связанным с формой. Коллекция **сигнеддатаблоккс** доступна через свойство [сигнеддатаблоккс](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SignedDataBlocks.aspx) объекта [XDocument](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx) .  <br/> |
-|[сигнатуресколлектион](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignaturesCollection.aspx) <br/> |Содержит коллекцию объектов [сигнатуреобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) для каждого **сигнеддатаблоккобжект** в форме.  <br/> Коллекция **SignaturesCollection** реализует свойства и метод, с помощью которых возможен доступ к связанным с формой объектам **SignatureObject**, а также создание подписи. Доступ к семейству предоставляется через объект **SignedDataBlockObject**.  <br/> При использовании метода [CREATE](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signatures.Create.aspx) коллекции **сигнатуресколлектион** следует учитывать, что подпись не записывается, пока не будет вызван метод [Sign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) для объекта **сигнатуреобжект** . Эти методы можно вызвать только из обработчика событий **OnSign** для шаблона формы с полным доверием.  <br/> |
+|[SignedDataBlocksCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlocksCollection.aspx) <br/> |Коллекция объектов [SignedDataBlockObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) в шаблоне формы, как определено в файле определения формы (XSF).  <br/> Семейство **SignedDataBlocksCollection** реализует свойства, которые можно использовать для доступа к объектам **SignedDataBlockObjects**, связанным с формой. Коллекция **SignedDataBlocks** доступна через свойство [SignedDataBlocks](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust._XDocument2.SignedDataBlocks.aspx) объекта [XDocument.](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.XDocument.aspx)  <br/> |
+|[SignaturesCollection](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignaturesCollection.aspx) <br/> |Содержит коллекцию объектов [SignatureObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) для каждого **объекта SignedDataBlockObject** в форме.  <br/> Коллекция **SignaturesCollection** реализует свойства и метод, с помощью которых возможен доступ к связанным с формой объектам **SignatureObject**, а также создание подписи. Доступ к семейству предоставляется через объект **SignedDataBlockObject**.  <br/> При использовании метода [Create](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signatures.Create.aspx) коллекции **SignaturesCollection** помните, что подпись не написана, пока не будет вызван метод [Sign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) для объекта **SignatureObject.** Эти методы можно вызвать только из обработчика событий **OnSign** для шаблона формы с полным доверием.  <br/> |
    
 Объектная модель для цифровых подписей предоставляет следующие объекты.
   
 |**Название**|**Описание**|
 |:-----|:-----|
-|[сигнеддатаблоккобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) <br/> |Представляет набор подписываемых данных в форме. Объект **SignedDataBlock** предоставляет набор свойств и один метод для программного взаимодействия с набором подписываемых данных.  <br/> |
-|[сигнатуреобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) <br/> |Представляет цифровую подпись, добавленную в форму, или набор подписываемых данных в форме. Коллекция **сигнатуреобжект** реализует свойства, которые можно использовать для получения сведений о цифровой подписи, а также метод [Sign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) для записи блока цифровой подписи XML и вычисления его криптографического хэш-значения.  <br/> |
-|[цертификатеобжект](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.CertificateObject.aspx) <br/> |Представляет цифровой сертификат X.509, использованный для создания подписи.  <br/> |
+|[SignedDataBlockObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignedDataBlockObject.aspx) <br/> |Представляет набор подписываемых данных в форме. Объект **SignedDataBlock** предоставляет набор свойств и один метод для программного взаимодействия с набором подписываемых данных.  <br/> |
+|[SignatureObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.SignatureObject.aspx) <br/> |Представляет цифровую подпись, добавленную в форму, или набор подписываемых данных в форме. Коллекция **SignatureObject** реализует свойства, которые можно использовать для получения сведений о цифровой подписи, и метод [Sign](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.Signature.Sign.aspx) для записи блока цифровой подписи XML и вычисления его криптографического значения.  <br/> |
+|[CertificateObject](https://msdn.microsoft.com/library/Microsoft.Office.Interop.InfoPath.SemiTrust.CertificateObject.aspx) <br/> |Представляет цифровой сертификат X.509, использованный для создания подписи.  <br/> |
    
 ## <a name="working-with-digital-signatures-programmatically"></a>Программная работа с цифровыми подписями
 

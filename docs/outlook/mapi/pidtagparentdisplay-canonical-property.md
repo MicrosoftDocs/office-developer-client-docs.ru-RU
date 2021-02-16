@@ -25,32 +25,32 @@ ms.locfileid: "33429504"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит отображаемое имя папки, в которой было найдено сообщение во время поиска.
+Содержит отображаемую папку, в которой было найдено сообщение во время поиска.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PARENT_DISPLAY, PR_PARENT_DISPLAY_A PR_PARENT_DISPLAY_W  <br/> |
+|Связанные свойства:  <br/> |PR_PARENT_DISPLAY, PR_PARENT_DISPLAY_A, PR_PARENT_DISPLAY_W  <br/> |
 |Идентификатор:  <br/> |0x0E05  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Несъемный MAPI  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
+|Область:  <br/> |MAPI, не передаваемый  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства не находятся ни в одном объекте. Они могут отображаться только в таблице содержимого папки результатов поиска.
+Эти свойства не имеются ни в каких объектах. Они могут отображаться только в таблице содержимого папки результатов поиска.
   
-Эти свойства и свойства **PR_PARENT_ENTRYID** ([PidTagParentEntryId](pidtagparententryid-canonical-property.md)) не связаны друг с другом. Они относятся исключительно к разным контекстам.
+Эти свойства и **PR_PARENT_ENTRYID** ([PidTagParentEntryId)](pidtagparententryid-canonical-property.md)не связаны друг с другом. Они относятся к совершенно разным контекстам.
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -58,7 +58,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

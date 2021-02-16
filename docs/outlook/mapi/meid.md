@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: aa8f18d9-691d-d0cc-a660-f15ea6cff6ce
-description: 'Дата последнего изменения: 03 июля, 2012'
+description: 'Last modified: July 03, 2012'
 ms.openlocfilehash: a9aea0db700de9c82aa2a41a443ebf03da8ce9b3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -21,7 +21,7 @@ ms.locfileid: "33430310"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Идентификатор элемента Outlook. Он содержит идентификатор записи и другую важную информацию.
+Идентификатор элемента Outlook. Он содержит идентификатор записи и другую релевантную информацию.
   
 ## <a name="quick-info"></a>Краткие сведения
 
@@ -38,25 +38,25 @@ struct MEID
 
 ## <a name="members"></a>Элементы
 
- _абфлагс_
+ _abFlags_
   
-> Идентификатор записи (4 байта) для элемента Outlook. Дополнительные сведения об идентификаторах записей MAPI приведены в разделе **[EntryID](entryid.md)**. 
+> 4-byte entry identifier for the Outlook item. Дополнительные сведения об идентификаторах записей MAPI см. в **[entryID.](entryid.md)** 
     
- _Muid_
+ _muid_
   
-> GUID, определяющий поставщика хранилища. Определение типа **мапиуид**можно найти в файле MAPIDEFS. h. 
+> GUID, идентифицирует поставщика магазина. Определение типа **MAPIUID** см. в mapidefs.h. 
     
- _нагляд_
+ _placeholder_
   
-> Этот член зарезервирован для внутреннего использования в Outlook и не поддерживается.
+> Этот член зарезервирован для внутреннего использования Outlook и не поддерживается.
     
- _лтидфлд_
+ _ltidFld_
   
-> Долгосрочный идентификатор папки.
+> Долгосрочный ИД папки.
     
- _лтидмсг_
+ _ltidMsg_
   
-> Долгосрочный идентификатор элемента Outlook.
+> Долгосрочный ИД элемента Outlook.
     
 ## <a name="see-also"></a>См. также
 
@@ -68,7 +68,7 @@ struct MEID
   
 [LTID](ltid.md)
   
-[Синхр](sync.md)
+[SYNC](sync.md)
   
 [UPMSG](upmsg.md)
 

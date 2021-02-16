@@ -25,11 +25,11 @@ ms.locfileid: "33433299"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Вычисляет количество байтов в существующей структуре [спропаттраррай](spropattrarray.md) . 
+Вычисляет количество ветвей в существующей [структуре SPropAttrArray.](spropattrarray.md) 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |IMessage. h  <br/> |
+|Файл заголовка:  <br/> |Imessage.h  <br/> |
 |Связанная структура:  <br/> |**SPropAttrArray** <br/> |
    
 ```cpp
@@ -38,9 +38,9 @@ CbSPropAttrArray (_lparray)
 
 ## <a name="parameters"></a>Параметры
 
- __лпаррай_
+ _ _lparray_
   
-> Указатель на существующую структуру **спропаттраррай** . 
+> Указатель на существующую **структуру SPropAttrArray.** 
     
 ## <a name="see-also"></a>См. также
 

@@ -23,30 +23,30 @@ ms.locfileid: "33430324"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит новый пароль, который будет использоваться для последующего доступа к хранилищу личных папок.
+Содержит новый пароль, который будет применяться для дальнейшего доступа к личных папок.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_PST_PW_SZ_NEW, PR_PST_PW_SZ_NEW_A PR_PST_PW_SZ_NEW_W  <br/> |
+|Связанные свойства:  <br/> |PR_PST_PW_SZ_NEW, PR_PST_PW_SZ_NEW_A, PR_PST_PW_SZ_NEW_W  <br/> |
 |Идентификатор:  <br/> |0x6704  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Внутренняя таблица хранения личных данных (PST)  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
+|Область:  <br/> |Внутренняя таблица личных хранилищ (PST)  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]] 
+[[MS-OXPROPS]] 
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

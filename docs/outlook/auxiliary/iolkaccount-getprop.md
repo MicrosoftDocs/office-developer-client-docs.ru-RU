@@ -1,12 +1,12 @@
 ---
-title: иолкаккаунтжетпроп
+title: IOlkAccountGetProp
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5725eb52-3a78-897d-f9e3-c5a494fb78c0
-description: Получает значение свойства указанной учетной записи.
+description: Получает значение указанного свойства учетной записи.
 ms.openlocfilehash: d24df8cfa9d54bee4614c1f31e12268748b8c986
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33433740"
 ---
 # <a name="iolkaccountgetprop"></a>IOlkAccount::GetProp
 
-Получает значение свойства указанной учетной записи.
+Получает значение указанного свойства учетной записи.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
+См. [IOlkAccount](iolkaccount.md).
   
 ```cpp
 HRESULT IOlkAccount::GetProp(  
@@ -31,25 +31,25 @@ ACCT_VARIANT *pVar
 
 ## <a name="parameters"></a>Параметры
 
-_двпроп_
+_dwProp_
   
-> возврата Тег свойства для свойства Account, которое требуется получить.
+> [in] Тег свойства свойства учетной записи, который необходимо получить.
     
-_пвар_
+_pVar_
   
-> вышли Значение указанного свойства.
+> [out] Значение указанного свойства.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
-|E_ACCT_NOT_FOUND  <br/> |Свойство не найдено для заданной учетной записи.  <br/> |
+|E_ACCT_NOT_FOUND  <br/> |Свойство не найдено для данной учетной записи.  <br/> |
 |E_INVALIDARG  <br/> |Указан недопустимый тег свойства.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-После возврата этого метода, если значением свойства Account является двоичный или строковый тип, необходимо освободить *ПВАР* с помощью [Иолкаккаунт:: фримемори](iolkaccount-freememory.md).
+Если свойство учетной записи имеет двоичный или строковый тип, то после возврата этого метода необходимо освободить *pVar* с помощью [IOlkAccount::FreeMemory.](iolkaccount-freememory.md)
   
 ## <a name="see-also"></a>См. также
 

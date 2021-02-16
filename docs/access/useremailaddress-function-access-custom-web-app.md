@@ -1,5 +1,5 @@
 ---
-title: Функция Усеремаиладдресс (пользовательское веб-приложение для Access)
+title: UserEmailAddress Function (Пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33431164"
 ---
-# <a name="useremailaddress-function-access-custom-web-app"></a>Функция Усеремаиладдресс (пользовательское веб-приложение для Access)
+# <a name="useremailaddress-function-access-custom-web-app"></a>UserEmailAddress Function (Пользовательское веб-приложение Access)
 
 Возвращает адрес электронной почты текущего пользователя.
   
@@ -23,10 +23,10 @@ ms.locfileid: "33431164"
   
 ## <a name="syntax"></a>Синтаксис
 
- **Усеремаиладдресс** () 
+ **UserEmailAddress** () 
   
 ## <a name="remarks"></a>Примечания
 
-Функция **усеремаиладдресс** доступна только в макросах пользовательского интерфейса. 
+Функция **UserEmailAddress** доступна только в макросах пользовательского интерфейса. 
   
 

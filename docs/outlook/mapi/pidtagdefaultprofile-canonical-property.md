@@ -36,17 +36,17 @@ ms.locfileid: "33428776"
    
 ## <a name="remarks"></a>Примечания
 
-Это свойство не отображается как свойство какого бы то ни было объекта, но только как столбец в таблице профиля. Клиентское приложение может использовать метод [ипрофадмин:: SetDefaultProfile](iprofadmin-setdefaultprofile.md) , чтобы назначить профиль по умолчанию. 
+Это свойство не появляется как свойство любого объекта, а только как столбец в таблице профилей. Клиентские приложения могут использовать [метод IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md) для назначить профиль по умолчанию. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -59,7 +59,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251498
 localization_priority: Normal
 ms.assetid: 5a6ddb97-39b8-4e24-9b89-7a1e3bb261d5
-description: Возвращает синус угла.
+description: Возвращает sine угла.
 ms.openlocfilehash: 00701656d400264c206f4a48ed88cf94f0902dc3
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,29 +18,29 @@ ms.locfileid: "33429805"
 ---
 # <a name="sin-function-visioshapesheet"></a>SIN Function (VisioShapeSheet)
 
-Возвращает синус угла. 
+Возвращает sine угла. 
   
 ## <a name="syntax"></a>Синтаксис
 
-SIN (* * *угол* * *) 
+SIN(** *angle* ** ) 
   
 ### <a name="parameters"></a>Параметры
 
 |**Имя**|**Необходимость**|**Тип данных**|**Описание**|
 |:-----|:-----|:-----|:-----|
-| _градусов_ <br/> |Обязательна  <br/> |**Числовой** <br/> |Угол для получения синуса.  <br/> |
+| _angle_ <br/> |Обязательна  <br/> |**Числовой** <br/> |Угол, под которым будет получаться sine.  <br/> |
    
 ### <a name="return-value"></a>Возвращаемое значение
 
-Номер
+Числовой
   
 ## <a name="remarks"></a>Примечания
 
-Функция SIN использует радианы, если вы не укажете другую единицу измерения в качестве _угла_.
+Функция SIN использует радианы, если не указать другую единицу измерения в _углу._
   
 ## <a name="example"></a>Пример
 
-SIN (45 градусов) 
+SIN(45 deg) 
   
 Возвращает 0,7071. 
   

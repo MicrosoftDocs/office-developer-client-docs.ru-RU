@@ -1,5 +1,5 @@
 ---
-title: Имаписекуремессаже IUnknown
+title: IMAPISecureMessage IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -29,25 +29,25 @@ ms.locfileid: "33429749"
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Ексчсек. h  <br/> |
-|Предоставлено:  <br/> |[IMessage: IMAPIProp](imessageimapiprop.md) <br/> |
-|Реализовано в:  <br/> |Microsoft Outlook 2010 и Microsoft Outlook 2013  <br/> |
-|Вызывающая сторона:  <br/> |Client  <br/> |
+|Файл заголовка:  <br/> |Exchsec.h  <br/> |
+|Выставим:  <br/> |[IMessage: IMAPIProp](imessageimapiprop.md) <br/> |
+|Реализовано в:  <br/> |Microsoft Outlook 2010, русская версия Microsoft Outlook 2013  <br/> |
+|Вызывающая сторона:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPISECUREMESSAGE  <br/> |
-|Тип указателя:  <br/> |лпмаписекуремессаже  <br/> |
+|Тип указателя:  <br/> |LPMAPISECUREMESSAGE  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|Элемент PlaceHolder.  <br/> |Не поддерживается или не задокументировано.  <br/> |
-|Элемент PlaceHolder.  <br/> |Не поддерживается или не задокументировано.  <br/> |
-|Элемент PlaceHolder.  <br/> |Не поддерживается или не задокументировано.  <br/> |
-|Элемент PlaceHolder.  <br/> |Не поддерживается или не задокументировано.  <br/> |
-|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Получает базовый [iMessage: IMAPIProp](imessageimapiprop.md) , который инкапсулируется этим [Имаписекуремессаже: интерфейс IUnknown](imapisecuremessageiunknown.md) .  <br/> |
-|Элемент PlaceHolder.  <br/> |Не поддерживается или не задокументировано.  <br/> |
-|Элемент PlaceHolder.  <br/> |Не поддерживается или не задокументировано.  <br/> |
-|Элемент PlaceHolder.  <br/> |Не поддерживается или не задокументировано.  <br/> |
+|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
+|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
+|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
+|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
+|[IMAPISecureMessage::GetBaseMessage](imapisecuremessage-getbasemessage.md) <br/> |Извлекает [iMessage : IMAPIProp,](imessageimapiprop.md) который инкапсулирует [этот IMAPISecureMessage : IUnknown.](imapisecuremessageiunknown.md)  <br/> |
+|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
+|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
+|Член-заметель.  <br/> |Не поддерживается и не документируется.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

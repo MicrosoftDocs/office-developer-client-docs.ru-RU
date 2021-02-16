@@ -1,5 +1,5 @@
 ---
-title: Фильтр, запрос и поиск (пользовательское веб-приложение для Access)
+title: Filter/query/search (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432935"
 ---
-# <a name="filterquerysearch-access-custom-web-app"></a>Фильтр, запрос и поиск (пользовательское веб-приложение для Access)
+# <a name="filterquerysearch-access-custom-web-app"></a>Filter/query/search (Access custom web app)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Макрокоманда RequeryRecords (пользовательское веб-приложение для Access)](requeryrecords-macro-action-access-custom-web-app.md)
+- [RequeryRecords Macro Action (пользовательское веб-приложение Access)](requeryrecords-macro-action-access-custom-web-app.md)
     
 

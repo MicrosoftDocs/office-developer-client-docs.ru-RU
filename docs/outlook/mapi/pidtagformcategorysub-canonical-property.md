@@ -25,30 +25,30 @@ ms.locfileid: "33428790"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит подкатегорию формы в соответствии с определением клиентского приложения. 
+Содержит подкатегорию формы, определяемую клиентным приложением. 
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A PR_FORM_CATEGORY_SUB_W  <br/> |
+|Связанные свойства:  <br/> |PR_FORM_CATEGORY_SUB, PR_FORM_CATEGORY_SUB_A, PR_FORM_CATEGORY_SUB_W  <br/> |
 |Идентификатор:  <br/> |0x3305  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
-|Область:  <br/> |Общие протоколы MAPI  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
+|Область:  <br/> |Общие mapI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства являются подчиненными для категории главной формы, которая представлена в свойстве **PR_FORM_CATEGORY** ([PidTagFormCategory](pidtagformcategory-canonical-property.md)). 
+Эти свойства являются подчиненными основной категории формы, которая предоставляется в свойстве **PR_FORM_CATEGORY** ([PidTagFormCategory).](pidtagformcategory-canonical-property.md) 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

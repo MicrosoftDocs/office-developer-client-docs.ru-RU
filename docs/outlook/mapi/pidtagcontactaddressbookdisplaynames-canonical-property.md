@@ -25,14 +25,14 @@ ms.locfileid: "33429679"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит список отображаемых имен пользователей обмена сообщениями в адресной книге контакта.
+Содержит список отображаемого имени пользователей сообщений в адресной книге контакта.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTAB_DISPLAY_NAMES, PR_CONTAB_DISPLAY_NAMES_A PR_CONTAB_DISPLAY_NAMES_W  <br/> |
+|Связанные свойства:  <br/> |PR_CONTAB_DISPLAY_NAMES, PR_CONTAB_DISPLAY_NAMES_A, PR_CONTAB_DISPLAY_NAMES_W  <br/> |
 |Идентификатор:  <br/> |0x6624  <br/> |
-|Тип данных:  <br/> |PT_MV_UNICODE PT_MV_STRING8  <br/> |
-|Область:  <br/> |Адресная книга контактов  <br/> |
+|Тип данных:  <br/> |PT_MV_UNICODE, PT_MV_STRING8  <br/> |
+|Область:  <br/> |Адресная книга контакта  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
@@ -40,13 +40,13 @@ ms.locfileid: "33429679"
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

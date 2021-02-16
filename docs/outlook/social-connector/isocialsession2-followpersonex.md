@@ -7,7 +7,7 @@ ms.topic: reference
 ms.prod: office-online-server
 localization_priority: Normal
 ms.assetid: 17b4af7f-7967-422b-996c-792705c93ad3
-description: Добавляет пользователя, идентифицируемого параметрами emailAddresses и displayName, как Friend для вошедшего в сеть пользователя в социальной сети.
+description: Добавляет пользователя, идентифицированного по параметрам emailAddresses и displayName, в качестве друга во время входа пользователя в социальной сети.
 ms.openlocfilehash: b44b442ba928b48411e5b1fc8a0c8b76477022ae
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -17,7 +17,7 @@ ms.locfileid: "33429833"
 ---
 # <a name="isocialsession2followpersonex"></a>ISocialSession2::FollowPersonEx
 
-Добавляет пользователя, идентифицируемого параметрами _EmailAddresses_ и _DisplayName_ , как Friend для вошедшего в сеть пользователя в социальной сети. 
+Добавляет пользователя, идентифицированного по  _параметрам emailAddresses_ и  _displayName,_ в качестве друга во время входа пользователя в социальной сети. 
   
 ```cpp
 HRESULT _stdcall FollowPersonEx([in] SAFEARRAY(BSTR) emailAddresses, [in] BSTR displayName);
@@ -27,21 +27,21 @@ HRESULT _stdcall FollowPersonEx([in] SAFEARRAY(BSTR) emailAddresses, [in] BSTR d
 
 _emailAddresses_
   
-> возврата Массив, содержащий один или несколько допустимых SMTP-адресов для пользователя в социальной сети.
+> [in] Массив, содержащий один или несколько допустимых SMTP-адресов для человека в социальной сети.
     
 _displayName_
   
-> возврата Строка, содержащая отображаемое имя человека, которого требуется добавить в качестве друга.
+> [in] Строка с отображаемой именем человека, добавляемого в качестве друга.
     
 ## <a name="remarks"></a>Примечания
 
-Если Outlook Social Connector (OSC) предоставляет более чем адрес SMTP в массиве параметра **EmailAddresses** , то поставщик OSC может предположить, что первый элемент является основным SMTP-адресом. 
+Если Outlook Social Connector (OSC) предоставляет больше, чем smTP-адрес в массиве в параметре **emailAddresses,** поставщик OSC может предположить, что первый элемент является основным SMTP-адресом. 
   
-Если у поставщика для элемента **фолловперсон** в XML-файле **возможностей** задано **значение true** , а ни один из элементов для _EmailAddresses_ не соответствует пользователю в сети, то поставщик должен возвратить ошибку OSC_E_NOT_FOUND. Если поставщик установил для **фолловперсон** значение **false** в **возможностях**, поставщик должен возвратить ошибку OSC_E_FAIL. 
+Если поставщик установил для элемента **followPerson** в **XML** возможностей true и ни один из элементов _emailAddresses_ не соответствует пользователю в сети, поставщик должен вернуть OSC_E_NOT_FOUND ошибку.  Если поставщик установил **для followPerson в** возможностях false, поставщик должен вернуть OSC_E_FAIL ошибку.   
   
-Если метод **фолловперсонекс** завершается успешно, поставщик может использовать строку в параметре _DisplayName_ , чтобы обращаться к пользователю во всех последующих сообщениях с дружественным подтверждением, а не по адресу SMTP. С другой стороны, поставщик должен уметь обрабатывать OSC, передающий пустую строку для параметра _DisplayName_ . 
+Если метод **FollowPersonEx** успешно используется, поставщик может использовать строку в параметре  _displayName_ для обращения к человеку в любом последующем сообщении электронной почты подтверждения друга, а не адресовать его по SMTP-адресу. С другой стороны, поставщик должен иметь возможность обрабатывать OSC, передав пустую строку для _параметра displayName._ 
   
-Если поставщик реализует интерфейс [ISocialSession2](isocialsession2iunknown.md) и присвоить **фолловперсон** значение **true** в XML-коде возможностей, то OSC вызывает **фолловперсонекс** вместо [настроенный ISocialSession:: фолловперсон](isocialsession-followperson.md). Если у поставщика задано **followPerson** значение фолловперсон **, но не** реализуется интерфейс **ISocialSession2** , или **фолловперсонекс** возвращает ошибку OSC_E_NOTIMPL, OSC вызывает метод **настроенный ISocialSession:: фолловперсон**.
+Если поставщик реализует интерфейс [ISocialSession2](isocialsession2iunknown.md) и установил для  **followPerson** в XML возможностей true, OSC вызывает **FollowPersonEx** вместо [ISocialSession::FollowPerson](isocialsession-followperson.md). Если поставщик установил для **followPerson** true, но не реализует интерфейс **ISocialSession2** или **FollowPersonEx** возвращает ошибку OSC_E_NOTIMPL, OSC вызывает **ISocialSession::FollowPerson**. 
   
 ## <a name="see-also"></a>См. также
 

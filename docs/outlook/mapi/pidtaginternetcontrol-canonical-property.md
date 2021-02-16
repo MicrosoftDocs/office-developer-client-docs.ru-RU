@@ -25,30 +25,30 @@ ms.locfileid: "33431962"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Сопоставляется с заголовком элемента управления MIME.
+Сопоповедет с загоером MIME Control.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_INTERNET_CONTROL, PR_INTERNET_CONTROL_A PR_INTERNET_CONTROL_W  <br/> |
+|Связанные свойства:  <br/> |PR_INTERNET_CONTROL, PR_INTERNET_CONTROL_A, PR_INTERNET_CONTROL_W  <br/> |
 |Идентификатор:  <br/> |0x1031  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |MIME  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
 ### <a name="protocol-specifications"></a>Спецификации протокола
 
-[[MS — ОКСПРОПС]] 
+[[MS-OXPROPS]] 
   
-> Содержит ссылки на соответствующие спецификации протоколов Exchange Server.
+> Содержит ссылки на связанные Exchange Server протоколы.
     
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -58,7 +58,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

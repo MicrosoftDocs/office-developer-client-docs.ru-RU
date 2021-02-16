@@ -7,7 +7,7 @@ ms.topic: reference
 f1_keywords:
 - xlGetName
 keywords:
-- Функция кслжетнаме [Excel 2007]
+- Функция xlgetname [excel 2007]
 localization_priority: Normal
 ms.assetid: 72dbebc0-7436-4771-8fbf-2b445341da65
 description: 'Область применения: Excel 2013 | Office 2013 | Visual Studio'
@@ -22,7 +22,7 @@ ms.locfileid: "33430590"
 
 **Область применения:** Excel 2013 | Office 2013 | Visual Studio 
   
-Возвращает полный путь и имя файла библиотеки DLL в виде строки.
+Возвращает полный путь и имя файла DLL в виде строки.
   
 ```cs
 Excel12(xlGetName, LPXLOPER12 pxRes, 0);
@@ -30,11 +30,11 @@ Excel12(xlGetName, LPXLOPER12 pxRes, 0);
 
 ## <a name="parameters"></a>Параметры
 
-У этой функции нет аргументов.
+Эта функция не имеет аргументов.
   
 ## <a name="property-valuereturn-value"></a>Значение свойства и возвращаемое значение
 
-Возвращает путь и имя файла (**кслтипестр**). 
+Возвращает путь и имя файла (**xltypeStr).** 
   
 ## <a name="example"></a>Пример
 

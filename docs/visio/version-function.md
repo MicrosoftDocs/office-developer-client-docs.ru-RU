@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 94a16356-68ad-4c47-04f9-b7a81e99e61d
-description: Возвращает целое число, которое соответствует основной версии текущего активного приложения Microsoft Visio.
+description: Возвращает все, что соответствует основной версии активного в настоящее время приложения Microsoft Visio.
 ms.openlocfilehash: 6f7f19fd0e59b1d808300c3d9fbe39eedee2ef4f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,7 +16,7 @@ ms.locfileid: "33434111"
 ---
 # <a name="version-function"></a>Функция VERSION
 
-Возвращает целое число, которое соответствует основной версии текущего активного приложения Microsoft Visio.
+Возвращает все, что соответствует основной версии активного в настоящее время приложения Microsoft Visio.
   
 ## <a name="version-information"></a>Сведения о версии
 
@@ -25,7 +25,7 @@ ms.locfileid: "33434111"
   
 ## <a name="syntax"></a>Синтаксис
 
-VERSION ()
+VERSION()
   
 ### <a name="return-value"></a>Возвращаемое значение
 
@@ -33,6 +33,6 @@ VERSION ()
   
 ## <a name="remarks"></a>Замечания
 
-Функцию VERSION можно использовать для написания формул таблицы свойств фигуры, которые оцениваются по-разному в зависимости от версии Visio, в которой они оцениваются.
+Функцию VERSION можно использовать для записи формул таблицы фигур, которые оцениваются по-разному в зависимости от версии Visio, в которой они оцениваются.
   
 

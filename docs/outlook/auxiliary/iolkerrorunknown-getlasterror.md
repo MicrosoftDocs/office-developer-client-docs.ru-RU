@@ -1,5 +1,5 @@
 ---
-title: иолкеррорункновнжетластеррор
+title: IOlkErrorUnknownGetLastError
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -20,7 +20,7 @@ ms.locfileid: "33431703"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иолкеррорункновн](iolkerrorunknown.md).
+См. [IOlkErrorUnknown.](iolkerrorunknown.md)
   
 ```cpp
 HRESULT IOlkErrorUnknown::GetLastError(  
@@ -34,18 +34,18 @@ HRESULT IOlkErrorUnknown::GetLastError(
 
 _hr_
   
-> возврата Код ошибки для поиска.
+> [in] Код ошибки, который необходимо найти.
     
-_ппвсзеррор_
+_ppwszError_
   
-> вышли Сообщение об ошибке, соответствующее *HR* . 
+> [out] Сообщение об ошибке, соответствующее  *hr*  . 
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
 |S_OK  <br/> |The call succeeded.  <br/> |
-|E_INVALIDARG  <br/> |Один или несколько аргументов являются недопустимыми.  <br/> |
+|E_INVALIDARG  <br/> |Один или несколько аргументов недопустимы.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

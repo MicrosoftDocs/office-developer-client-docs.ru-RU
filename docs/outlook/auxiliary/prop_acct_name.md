@@ -20,18 +20,18 @@ ms.locfileid: "33429434"
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иолкаккаунт](iolkaccount.md).
+См. [IOlkAccount](iolkaccount.md).
   
 |||
 |:-----|:-----|
 |Идентификатор:  <br/> |0x0002  <br/> |
 |Тип свойства:  <br/> |PT_UNICODE  <br/> |
 |Тег свойства:  <br/> |0x0002001F  <br/> |
-|Обращения  <br/> |Чтение и запись  <br/> |
+|Access:  <br/> |Чтение и запись  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Получите или задайте значение этого свойства с помощью [иолкаккаунт::](iolkaccount-getprop.md) GetProperty или [Иолкаккаунт:: сетпроп](iolkaccount-setprop.md), соответственно.
+Получите или установите это свойство с помощью [IOlkAccount::GetProp](iolkaccount-getprop.md) или [IOlkAccount::SetProp](iolkaccount-setprop.md)соответственно.
   
 ## <a name="see-also"></a>См. также
 

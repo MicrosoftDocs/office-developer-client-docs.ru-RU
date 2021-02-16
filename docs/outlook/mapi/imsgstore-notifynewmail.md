@@ -1,5 +1,5 @@
 ---
-title: имсгсторенотифиневмаил
+title: IMsgStoreNotifyNewMail
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -35,7 +35,7 @@ HRESULT NotifyNewMail(
 
 ## <a name="parameters"></a>Параметры
 
- _лпнотификатион_
+ _lpNotification_
   
 > [in] ��������� �� ��������� [�����������](notification.md) � ��������� ����������� � ��������� ���������. 
     

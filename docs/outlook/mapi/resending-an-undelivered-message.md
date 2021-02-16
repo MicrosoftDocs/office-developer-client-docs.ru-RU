@@ -19,30 +19,30 @@ ms.locfileid: "33432669"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Поставщик транспорта отправляет отчет о недоставке, когда он не может успешно доставить отправленное вами сообщение. Клиенты могут попытаться повторно отправить эти недоставленные сообщения. Если вы поддерживаете повторную отправку сообщений, вы можете использовать форму, предоставляемую MAPI, или внедрить собственные сообщения. Форма MAPI отображает имена неудачных получателей и причину сбоя доставки, если это возможно, и включает кнопку, которая при выборе позволяет пользователю повторно отправить сообщение.
+Если поставщик транспорта не удается доставить отправленное сообщение, поставщик транспорта отправляет отчет о невыдаваемой доставке. Клиент может ли пользователи пытаться повторно отправить эти недосвеченные сообщения. Если вы поддерживаете повторное отправлять сообщения, вы можете использовать форму, предоставленную MAPI, или реализовать собственную. В форме MAPI отображаются имена неудачных получателей и причина сбоя доставки, если это возможно, а также кнопка, которая при выборе позволяет пользователю повторно отправить сообщение.
   
-При получении отправленного сообщения оно должно выглядеть точно так же, как исходное сообщение. Получатель не должен отличать сообщение, которое было доставлено при первой попытке передачи, или последующей попытке. Ответы на это сообщение должны работать точно так же, как если бы сообщение было успешно отправлено в первый раз.
+При получении повторного сообщения оно должно выглядеть точно так же, как исходное сообщение. Получатель не должен различать сообщение, доставленное при первой попытке передачи, или последующие попытки. Ответы на это сообщение должны работать точно так же, как если бы сообщение было успешно отправлено в первый раз.
   
-### <a name="to-resend-an-undelivered-message"></a>Повторная отправка недоставленного сообщения
+### <a name="to-resend-an-undelivered-message"></a>Чтобы повторно отправить недосвеченное сообщение
   
-1. Call [IMAPIFolder:: CreateMessage](imapifolder-createmessage.md) для создания нового сообщения. 
+1. Вызов [IMAPIFolder::CreateMessage](imapifolder-createmessage.md) для создания нового сообщения. 
     
-2. Скопируйте все свойства из исходного сообщения, исключая свойство * * PR_MESSAGE_RECIPIENTS * * ([PidTagMessageRecipients](pidtagmessagerecipients-canonical-property.md)), а также свойства **PR_SENDER** и **PR_SENT_REPRESENTING** . Внесите следующие изменения свойств: 
+2. Скопируйте все свойства из исходного сообщения, за исключением свойства ** PR_MESSAGE_RECIPIENTS ** ([PidTagMessageRecipients),](pidtagmessagerecipients-canonical-property.md)а также свойств PR_SENDER и **PR_SENT_REPRESENTING.**  Внести следующие изменения в свойства: 
     
-   - Задайте **PR_MESSAGE_CLASS** ([PidTagMessageClass](pidtagmessageclass-canonical-property.md)) свойству отчета * * PR_ORIG_MESSAGE_CLASS * * ([PidTagOriginalMessageClass](pidtagoriginalmessageclass-canonical-property.md)).
+   - Установите **PR_MESSAGE_CLASS** ([PidTagMessageClass)](pidtagmessageclass-canonical-property.md)для свойства **PR_ORIG_MESSAGE_CLASS ** отчета ([PidTagOriginalMessageClass).](pidtagoriginalmessageclass-canonical-property.md)
     
-   - Установите флаг MSGFLAG_RESEND в свойстве **PR_MESSAGE_FLAGS** ([PidTagMessageFlags](pidtagmessageflags-canonical-property.md)).
+   - Установите флаг MSGFLAG_RESEND в **свойстве PR_MESSAGE_FLAGS** ([PidTagMessageFlags).](pidtagmessageflags-canonical-property.md)
     
-   - Задайте **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId](pidtagoriginalentryid-canonical-property.md)) для свойства **PR_ENTRYID** исходного сообщения ([PidTagEntryId](pidtagentryid-canonical-property.md)).
+   - Установите **PR_ORIGINAL_ENTRYID** ([PidTagOriginalEntryId)](pidtagoriginalentryid-canonical-property.md)свойству PR_ENTRYID **исходного** сообщения ([PidTagEntryId).](pidtagentryid-canonical-property.md)
     
-   - Для каждого получателя задайте MAPI_SUBMITTED в свойстве **PR_RECIPIENT_TYPE** ([PidTagRecipientType](pidtagrecipienttype-canonical-property.md)). 
+   - Для каждого получателя MAPI_SUBMITTED в **свойстве PR_RECIPIENT_TYPE** ([PidTagRecipientType).](pidtagrecipienttype-canonical-property.md) 
     
-   - Дублировать каждого неудачного получателя. Измените свойство **PR_RECIPIENT_TYPE** для повторяющегося получателя на MAPI_P1. Таким образом, для каждого неудачного получателя в таблице получателей теперь имеется две записи: для свойства с **PR_RECIPIENT_TYPE** задано исходное значение, а для параметра **PR_RECIPIENT_TYPE** задано значение MAPI_P1. 
+   - Дублируйте каждого сбойного получателя. Измените **PR_RECIPIENT_TYPE** для дубликата получателя на MAPI_P1. Таким образом, для каждого получателя сбой теперь есть две записи в таблице получателей: одна  с **PR_RECIPIENT_TYPE** имеет исходное значение, а другая PR_RECIPIENT_TYPE имеет значение MAPI_P1. 
     
-3. Вызовите [сккреатеконверсатиониндекс](sccreateconversationindex.md) , чтобы настроить отслеживание бесед, если это необходимо. 
+3. Вызовите [ScCreateConversationIndex,](sccreateconversationindex.md) чтобы при желании настроить отслеживание бесед. 
     
-4. Вызовите метод [iMessage:: модифиреЦипиентс](imessage-modifyrecipients.md) нового сообщения, чтобы обновить список получателей. 
+4. Вызовите метод [IMessage::ModifyRecipients](imessage-modifyrecipients.md) нового сообщения, чтобы обновить список получателей. 
     
-5. Call [iMessage:: субмитмессаже](imessage-submitmessage.md) , чтобы сохранить и отправить новое сообщение. 
+5. Вызовите [IMessage::SubmitMessage,](imessage-submitmessage.md) чтобы сохранить и отправить новое сообщение. 
     
 

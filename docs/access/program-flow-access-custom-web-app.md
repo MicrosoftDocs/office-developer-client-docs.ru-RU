@@ -1,5 +1,5 @@
 ---
-title: Программный процесс (пользовательское веб-приложение для Access)
+title: Поток программы (пользовательское веб-приложение Access)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428930"
 ---
-# <a name="program-flow-access-custom-web-app"></a>Программный процесс (пользовательское веб-приложение для Access)
+# <a name="program-flow-access-custom-web-app"></a>Поток программы (пользовательское веб-приложение Access)
 
 > [!IMPORTANT]
 > Корпорация Майкрософт в настоящее время не рекомендует создавать и использовать веб-приложения Access в SharePoint. В качестве альтернативы можно использовать [Microsoft PowerApps](https://powerapps.microsoft.com/en-us/) для создания бизнес-решений без кода для Интернета и мобильных устройств. 
   
-## <a name="in-this-section"></a>В этом разделе
+## <a name="in-this-section"></a>В этом разделе:
 
-- [Макрос Comment Block (пользовательское веб-приложение для Access)](comment-macro-block-access-custom-web-app.md)
+- [Comment Macro Block (Access custom web app)](comment-macro-block-access-custom-web-app.md)
     
-- [If... Then... Else Macro Block (пользовательское веб-приложение для Access)](ifthenelse-macro-block-access-custom-web-app.md)
+- [If... Затем... Else Macro Block (Access custom web app)](ifthenelse-macro-block-access-custom-web-app.md)
     
-- [Блок макроса группы (пользовательское веб-приложение для Access)](group-macro-block-access-custom-web-app.md)
+- [Group Macro Block (Access custom web app)](group-macro-block-access-custom-web-app.md)
     
 

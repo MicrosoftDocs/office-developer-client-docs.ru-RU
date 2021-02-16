@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 858a3191-420a-4065-9180-ebd8503d1eef
-description: Определяет расстояние смещения отражения от фигуры (в пунктах от 0,0 до 100,0).
+description: Определяет расстояние, на которое смещено отражение от фигуры в пунктах от 0,0 до 100,0.
 ms.openlocfilehash: cc0aca484a77602b78523819cd4f01d78a9ff86f
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33433026"
 ---
 # <a name="reflectiondist-cell-additional-effect-properties-section"></a>ReflectionDist Cell (Additional Effect Properties Section)
 
-Определяет расстояние смещения отражения от фигуры (в пунктах от 0,0 до 100,0). 
+Определяет расстояние, на которое смещено отражение от фигуры в пунктах от 0,0 до 100,0. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **ReflectionDist** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **ReflectionDist** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "33433026"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровосереффектпропертиес** <br/> |
-| Индекс ячейки:  <br/> |**висрефлектиондист** <br/> |
+| Индекс строки:  <br/> |**visRowOtherEffectProperties** <br/> |
+| Индекс ячейки:  <br/> |**visReflectionDist** <br/> |
    
 

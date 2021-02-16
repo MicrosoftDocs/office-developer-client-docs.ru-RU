@@ -22,7 +22,7 @@ ms.locfileid: "33429974"
   
 ## <a name="syntax"></a>Синтаксис
 
-REF ()
+REF( )
   
 ### <a name="return-value"></a>Возвращаемое значение
 
@@ -30,7 +30,7 @@ String
   
 ## <a name="example"></a>Пример
 
-REF () 
+REF( ) 
   
 Возвращает #REF!. 
   

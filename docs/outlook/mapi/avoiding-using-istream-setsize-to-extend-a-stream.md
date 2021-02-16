@@ -1,5 +1,5 @@
 ---
-title: Предотвращение использования Истреамсетсизе для расширения потока
+title: Предотвращение использования IStreamSetSize для расширения потока
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,12 +15,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33428916"
 ---
-# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Предотвращение использования IStream:: SetSize для расширения потока
+# <a name="avoiding-using-istreamsetsize-to-extend-a-stream"></a>Предотвращение использования IStream::SetSize для расширения потока
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-При записи в потоки иногда требуется увеличить их, так как их исходный размер больше не достаточно. Используйте метод OLE **IStream:: Write** , чтобы сделать это, а не **IStream:: SetSize**. **IStream:: запись** автоматически расширяет поток, делая * * IStream:: SetSize * * не требуется. Вызов **IStream:: Write** без **IStream:: SetSize** может выполняться до трех раз быстрее, чем при вызове метода **SetSize** перед **записью**.
+При записи в потоки иногда требуется увеличить их, так как их начального размера больше недостаточно. Для этого используйте метод OLE **IStream::Write,** а не **IStream::SetSize.** **IStream::Write** автоматически расширяет поток, делая ** IStream::SetSize ** ненужным. Вызов **IStream::Write** без **IStream::SetSize** может быть в три раза быстрее, чем вызов **SetSize** до **записи.**
   
 

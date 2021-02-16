@@ -1,12 +1,12 @@
 ---
-title: иенумфбблоккресет
+title: IEnumFBBlockReset
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 54bd69c3-a9fa-d2ac-9a91-67187c92fc8a
-description: Сбрасывает перечислитель, устанавливая курсор в начало.
+description: Сбрасывает enumerator, устанавливая курсор в начале.
 ms.openlocfilehash: 589f8e310cc1c0053434a9ab4fb78931b339ca46
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33433635"
 ---
 # <a name="ienumfbblockreset"></a>IEnumFBBlock::Reset
 
-Сбрасывает перечислитель, устанавливая курсор в начало.
+Сбрасывает enumerator, устанавливая курсор в начале.
   
 ## <a name="quick-info"></a>Краткие сведения
 
-Обратитесь к разделу [иенумфбблокк](ienumfbblock.md).
+См. [IEnumFBBlock](ienumfbblock.md).
   
 ```cpp
 HRESULT Reset();

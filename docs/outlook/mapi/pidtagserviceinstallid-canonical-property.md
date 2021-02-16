@@ -25,30 +25,30 @@ ms.locfileid: "33430373"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Идентификатор компонента поставщика.
+ИД компонента поставщика.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_SERVICE_INSTALL_ID, PR_SERVICE_INSTALL_ID_A PR_SERVICE_INSTALL_ID_W  <br/> |
+|Связанные свойства:  <br/> |PR_SERVICE_INSTALL_ID, PR_SERVICE_INSTALL_ID_A, PR_SERVICE_INSTALL_ID_W  <br/> |
 |Идентификатор:  <br/> |0x3D13  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Профиль MAPI  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Эти свойства можно использовать в качестве параметра Component для вызова **мсипровидекуалифиедкомпонент** для установки поставщика. 
+Эти свойства можно использовать в качестве параметра компонента вызова **MsiProvideQualifiedComponent** для установки поставщика. 
   
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
-> Содержит определения свойств, перечисленных как альтернативные имена.
+> Содержит определения свойств, перечисленных в качестве альтернативных имен.
     
 ## <a name="see-also"></a>См. также
 
@@ -56,7 +56,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

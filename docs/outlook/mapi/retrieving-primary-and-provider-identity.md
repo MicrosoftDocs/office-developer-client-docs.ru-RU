@@ -1,5 +1,5 @@
 ---
-title: Получение основного удостоверения и удостоверения поставщика
+title: Искомые удостоверения основного и поставщика
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -15,38 +15,38 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33430814"
 ---
-# <a name="retrieving-primary-and-provider-identity"></a>Получение основного удостоверения и удостоверения поставщика
+# <a name="retrieving-primary-and-provider-identity"></a>Искомые удостоверения основного и поставщика
 
   
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Поставщики услуг, обычно поставщики адресных книг, предоставляют возможность указать идентификатор, который можно использовать для представления сеанса в различных ситуациях. Идентификатор поставщика описывается в трех свойствах:
+Поставщики услуг, как правило, поставщики адресных книг, могут предоставить удостоверение, которое можно использовать для представления сеанса в различных ситуациях. Три свойства описывают удостоверение поставщика:
   
-- **PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId](pidtagidentityentryid-canonical-property.md)) 
+- **PR_IDENTITY_ENTRYID** ([PidTagIdentityEntryId)](pidtagidentityentryid-canonical-property.md) 
     
-- **PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay](pidtagidentitydisplay-canonical-property.md)) 
+- **PR_IDENTITY_DISPLAY** ([PidTagIdentityDisplay)](pidtagidentitydisplay-canonical-property.md) 
     
-- **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey](pidtagidentitysearchkey-canonical-property.md)) 
+- **PR_IDENTITY_SEARCH_KEY** ([PidTagIdentitySearchKey)](pidtagidentitysearchkey-canonical-property.md) 
     
-Эти свойства задаются как идентификатор записи, отображаемое имя и ключ поиска соответствующего объекта Identity, который обычно является пользователем системы обмена сообщениями. Поставщики, которые предоставляют удостоверение, также устанавливают флаг STATUS_PRIMARY_IDENTITY в своем свойстве **PR_RESOURCE_FLAGS** ([PidTagResourceFlags](pidtagresourceflags-canonical-property.md)).
+Эти свойства устанавливаются для идентификатора записи, отображаемого имени и ключа поиска соответствующего объекта удостоверения, который обычно является пользователем системы обмена сообщениями. Поставщики, которые поставляют удостоверение, также устанавливают флаг STATUS_PRIMARY_IDENTITY в **свойстве PR_RESOURCE_FLAGS** ([PidTagResourceFlags).](pidtagresourceflags-canonical-property.md)
   
-В зависимости от ваших потребностей вы можете использовать идентификатор определенного поставщика или основной идентификатор сеанса. Вы также можете использовать удостоверение поставщика для отображения или получения свойств, таких как **PR_RESOURCE_PATH** ([PidTagResourcePath](pidtagresourcepath-canonical-property.md)). **PR_RESOURCE_PATH**, если этот параметр установлен, содержит путь к файлам, используемым или созданным поставщиком. Получите свойство **PR_RESOURCE_PATH** поставщика, предоставляющее Основное удостоверение, когда требуется найти файлы, которые относятся к пользователю сеанса. 
+В зависимости от потребностей можно использовать удостоверение конкретного поставщика или основное удостоверение для сеанса. Вы также можете использовать удостоверение поставщика для отображения или получения свойств, таких как **PR_RESOURCE_PATH** ([PidTagResourcePath).](pidtagresourcepath-canonical-property.md) **PR_RESOURCE_PATH**, если установлен, содержит путь к файлам, используемым или созданным поставщиком. Извлекает **PR_RESOURCE_PATH** поставщика, который сообщает основное удостоверение, если необходимо найти файлы, относящиеся к пользователю сеанса. 
   
- **Получение удостоверения определенного поставщика**
+ **Извлечение удостоверения определенного поставщика**
   
-1. Call [IMAPISession:: жетстатустабле](imapisession-getstatustable.md) для доступа к таблице состояния. 
+1. Вызов [IMAPISession::GetStatusTable для](imapisession-getstatustable.md) доступа к таблице состояния. 
     
-2. Создание ограничения с использованием структуры [спропертирестриктион](spropertyrestriction.md) для сравнения столбца **PR_PROVIDER_DLL_NAME** ([PidTagProviderDllName](pidtagproviderdllname-canonical-property.md)) с именем указанного поставщика. 
+2. Создайте ограничение, используя структуру [SPropertyRestriction,](spropertyrestriction.md) чтобы соответствовать столбце **PR_PROVIDER_DLL_NAME** [(PidTagProviderDllName)](pidtagproviderdllname-canonical-property.md)с именем указанного поставщика. 
     
-3. Вызов [IMAPITable:: FindRow](imapitable-findrow.md) для обнаружения строки поставщика. Удостоверение поставщика будет храниться в столбце **PR_IDENTITY_ENTRYID** (если он существует). 
+3. Вызовите [IMAPITable::FindRow,](imapitable-findrow.md) чтобы найти строку поставщика. Удостоверение поставщика будет сохранено в  столбце PR_IDENTITY_ENTRYID, если оно существует. 
     
  **Извлечение основного удостоверения для сеанса**
   
-- Call [IMAPISession:: куеридентити](imapisession-queryidentity.md). **Куеридентити** базовые удостоверения сеанса для существования значения STATUS_PRIMARY_IDENTITY в столбце **PR_RESOURCE_FLAGS** для одной из строк в таблице Status. Если ни для одной из строк состояния не задано это значение, **куеридентити** назначает идентификатор первому поставщику услуг, который задает три свойства PR_IDENTITY. Если поставщик услуг не предоставляет удостоверение, **куеридентити** возвращает MAPI_W_NO_SERVICE. В этом случае необходимо создать строку символов для представления универсального пользователя, который может служить в качестве основного удостоверения. 
+- Вызов [IMAPISession::QueryIdentity](imapisession-queryidentity.md). **Идентификатор сеанса QueryIdentity** зависит от наличия значения STATUS_PRIMARY_IDENTITY в столбце **PR_RESOURCE_FLAGS** для одной из строк в таблице состояния. Если ни одна из строк состояния не имеет этого значения, **QueryIdentity** назначает удостоверение первому поставщику службы, который задает три PR_IDENTITY свойства. Если ни один поставщик услуг не передает удостоверение, **QueryIdentity** возвращает MAPI_W_NO_SERVICE. В этом случае необходимо создать строку символов, представляющую универсального пользователя, который может служить основным удостоверением. 
     
- **Явное задание основного удостоверения для сеанса**
+ **Явное настройка основного удостоверения для сеанса**
   
-- Call [имсгсервицеадмин:: сетпримаридентити](imsgserviceadmin-setprimaryidentity.md). Передайте **мапиуид** для целевого поставщика услуг. 
+- Вызовите [IMsgServiceAdmin::SetPrimaryIdentity.](imsgserviceadmin-setprimaryidentity.md) **Передав MAPIUID для** целевого поставщика услуг. 
     
 

@@ -25,24 +25,24 @@ ms.locfileid: "33430870"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит значение ключа, которое позволяет получателю сообщения определить его содержимое.
+Содержит значение ключа, которое позволяет получателю сообщения идентифицировать его содержимое.
   
 |||
 |:-----|:-----|
-|Связанные свойства:  <br/> |PR_CONTENT_IDENTIFIER, PR_CONTENT_IDENTIFIER_A PR_CONTENT_IDENTIFIER_W  <br/> |
+|Связанные свойства:  <br/> |PR_CONTENT_IDENTIFIER, PR_CONTENT_IDENTIFIER_A, PR_CONTENT_IDENTIFIER_W  <br/> |
 |Идентификатор:  <br/> |0x0008  <br/> |
-|Тип данных:  <br/> |PT_STRING8 PT_UNICODE  <br/> |
+|Тип данных:  <br/> |PT_STRING8, PT_UNICODE  <br/> |
 |Область:  <br/> |Exchange  <br/> |
    
 ## <a name="related-resources"></a>Связанные ресурсы
 
-### <a name="header-files"></a>Файлы заголовков
+### <a name="header-files"></a>Файлы заголовок
 
-MAPIDEFS. h
+Mapidefs.h
   
-> Содержит определения типов данных.
+> Предоставляет определения типов данных.
     
-Мапитагс. h
+Mapitags.h
   
 > Содержит определения свойств, перечисленных как связанные свойства.
     
@@ -52,7 +52,7 @@ MAPIDEFS. h
 
 [Свойства MAPI](mapi-properties.md)
   
-[Каноническое свойство MAPI](mapi-canonical-properties.md)
+[Канонические свойства MAPI](mapi-canonical-properties.md)
   
 [Сопоставление имен канонических свойств с именами MAPI](mapping-canonical-property-names-to-mapi-names.md)
   

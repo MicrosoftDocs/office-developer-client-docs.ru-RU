@@ -1,5 +1,5 @@
 ---
-title: иолкаккаунтманажерделетеаккаунт
+title: IOlkAccountManagerDeleteAccount
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -30,15 +30,15 @@ HRESULT IOlkAccountManager::DeleteAccount (
 
 ## <a name="parameters"></a>Параметры
 
-_двакктид_
+_dwAcctID_
   
-> возврата Идентификатор учетной записи, которая должна быть удалена.
+> [in] ИД удаляемой учетной записи.
     
 ## <a name="return-values"></a>Возвращаемые значения
 
 |**HRESULT**|**Description**|
 |:-----|:-----|
-|S_OK  <br/> |Вызов выполнен успешно  <br/> |
+|S_OK  <br/> |Вызов был успешным  <br/> |
 |E_ACCT_NOT_FOUND  <br/> |Не удается найти указанную учетную запись.  <br/> |
 |E_OLK_NOT_INITIALIZED  <br/> |The account manager has not been initialized for use.  <br/> |
    

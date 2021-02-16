@@ -1,5 +1,5 @@
 ---
-title: Имапивиевадвисесинк IUnknown
+title: IMAPIViewAdviseSink IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,26 +25,26 @@ ms.locfileid: "33429420"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Получает уведомления от форм. 
+Получает уведомления из форм. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
-|Предоставлено:  <br/> |Просмотр объектов приемника уведомлений  <br/> |
-|Реализовано в:  <br/> |Средства просмотра форм  <br/> |
+|Файл заголовка:  <br/> |Mapiform.h  <br/> |
+|Выставим:  <br/> |Просмотр рекомендуемых объектов-тонух  <br/> |
+|Реализовано в:  <br/> |Просмотр форм  <br/> |
 |Вызывающая сторона:  <br/> |Объекты форм  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIViewAdviseSink  <br/> |
-|Тип указателя:  <br/> |лпмапивиевадвисесинк  <br/> |
+|Тип указателя:  <br/> |LPMAPIVIEWADVISESINK  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Уведомляет средство просмотра форм о том, что форма закрывается.  <br/> |
-|[онневмессаже](imapiviewadvisesink-onnewmessage.md) <br/> |Уведомляет средство просмотра форм о том, что в форме загружено новое или существующее сообщение.  <br/> |
-|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Уведомляет средство просмотра форм о состоянии печати формы.  <br/> |
-|[Onsubmittedо](imapiviewadvisesink-onsubmitted.md) <br/> |Уведомляет средство просмотра форм о том, что текущее сообщение было отправлено в Диспетчер очереди MAPI.  <br/> |
-|[Onsaved](imapiviewadvisesink-onsaved.md) <br/> |Уведомляет средство просмотра форм о том, что текущее сообщение сохранено в форме.  <br/> |
+|[OnShutdown](imapiviewadvisesink-onshutdown.md) <br/> |Извеирует просматриваемую форму о закрытии формы.  <br/> |
+|[OnNewMessage](imapiviewadvisesink-onnewmessage.md) <br/> |Сообщает просмотру формы о том, что новое или существующее сообщение загружено в форме.  <br/> |
+|[OnPrint](imapiviewadvisesink-onprint.md) <br/> |Извеирует просмотр формы о состоянии печати формы.  <br/> |
+|[OnSubmitted](imapiviewadvisesink-onsubmitted.md) <br/> |Сообщает просмотру формы, что текущее сообщение отправлено в пул MAPI.  <br/> |
+|[OnSaved](imapiviewadvisesink-onsaved.md) <br/> |Сообщает просмотру формы о том, что текущее сообщение в форме сохранено.  <br/> |
    
 ## <a name="see-also"></a>См. также
 

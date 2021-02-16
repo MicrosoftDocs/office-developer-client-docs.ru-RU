@@ -29,8 +29,8 @@ ms.locfileid: "33433530"
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |MAPIDEFS. h  <br/> |
-|Связанные макросы:  <br/> |[CHANGE_PROP_TYPE](change_prop_type.md), [MVI_PROP](mvi_prop.md), [PROP_ID](prop_id.md), [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
+|Файл заголовка:  <br/> |Mapidefs.h  <br/> |
+|Связанные макросы:  <br/> |[CHANGE_PROP_TYPE,](change_prop_type.md) [MVI_PROP,](mvi_prop.md) [PROP_ID,](prop_id.md) [PROP_TAG](prop_tag.md), [PROP_TYPE](prop_type.md) <br/> |
    
 ```cpp
 typedef struct _SPropValue
@@ -44,67 +44,67 @@ typedef struct _SPropValue
 
 ## <a name="members"></a>"Участники"
 
- **улпроптаг**
+ **ulPropTag**
   
-> Тег свойства для свойства. Теги свойств — это 32 — битовые целые числа без знака, состоящие из уникального идентификатора свойства в высоком порядке 16 бит и тип свойства в младших 16 битах.
+> Тег свойства для свойства. Теги свойств — это 32-битные неподписаные integers, состоящие из уникального идентификатора свойства в 16 битах высокого порядка и типа свойства в 16 битах низкого порядка.
     
- **двалигнпад**
+ **dwAlignPad**
   
 > Зарезервировано для MAPI; не используйте. 
     
  **Значение**
   
-> Объединение значений данных, определенное значение, которое определяется типом свойства. В приведенной ниже таблице перечислены типы свойств, элементы объединения, которые следует использовать, и связанные с ними типы данных.
+> Объединение значений данных, определенное значение, определенное типом свойства. В следующей таблице перечислены для каждого типа свойства, члена объединения, который должен использоваться, и связанного с ним типа данных.
     
-|**Тип свойства**|**Значение**|**Тип данных value**|
+|**Тип свойства**|**Значение**|**Тип данных значения**|
 |:-----|:-----|:-----|
 |PT_I2 или PT_SHORT  <br/> |**i** <br/> |short int  <br/> |
-|PT_I4 или PT_LONG (со знаком)  <br/> |**l** <br/> |БОЛЬШОМ  <br/> |
-|PT_I4 или PT_LONG (без знака)  <br/> |**сертифицирован** <br/> |ULONG  <br/> |
-|PT_R4 или PT_FLOAT  <br/> |**флт** <br/> |с плавающей запятой  <br/> |
-|PT_R8 или PT_DOUBLE  <br/> |**нажат** <br/> |double  <br/> |
-|PT_BOOLEAN  <br/> |**з** <br/> |короткое целое без знака  <br/> |
+|PT_I4 или PT_LONG (подписан)  <br/> |**l** <br/> |LONG  <br/> |
+|PT_I4 или PT_LONG (без подписи)  <br/> |**ul** <br/> |ULONG  <br/> |
+|PT_R4 или PT_FLOAT  <br/> |**flt** <br/> |float  <br/> |
+|PT_R8 или PT_DOUBLE  <br/> |**dbl** <br/> |double  <br/> |
+|PT_BOOLEAN  <br/> |**b** <br/> |unsigned short int  <br/> |
 |PT_CURRENCY  <br/> |**cur** <br/> |[CURRENCY](currency.md) <br/> |
-|PT_APPTIME  <br/> |**в** <br/> |double  <br/> |
-|PT_SYSTIME  <br/> |**метр** <br/> |[FILETIME](filetime.md) <br/> |
-|PT_STRING8  <br/> |**лпсза** <br/> |LPSTR  <br/> |
-|PT_BINARY  <br/> |**bin** <br/> |BYTE [Массив]  <br/> |
-|PT_UNICODE  <br/> |**лпсзв** <br/> |LPWSTR  <br/> |
-|PT_CLSID  <br/> |**лпгуид** <br/> |лпгуид  <br/> |
-|PT_I8 или PT_LONGLONG  <br/> |**Li** <br/> |**LARGE_INTEGER** <br/> |
-|PT_MV_I2  <br/> |**мви** <br/> |[SShortArray](sshortarray.md) <br/> |
-|PT_MV_LONG  <br/> |**мви** <br/> |[SLongArray](slongarray.md) <br/> |
-|PT_MV_R4  <br/> |**мвфлт** <br/> |[SRealArray](srealarray.md) <br/> |
-|PT_MV_DOUBLE  <br/> |**мвдбл** <br/> |[SDoubleArray](sdoublearray.md) <br/> |
-|PT_MV_CURRENCY  <br/> |**мвкур** <br/> |[SCurrencyArray](scurrencyarray.md) <br/> |
-|PT_MV_APPTIME  <br/> |**мват** <br/> |[SAppTimeArray](sapptimearray.md) <br/> |
-|PT_MV_SYSTIME  <br/> |**мвфт** <br/> |[SDateTimeArray](sdatetimearray.md) <br/> |
-|PT_MV_BINARY  <br/> |**мвбин** <br/> |[SBinaryArray](sbinaryarray.md) <br/> |
-|PT_MV_STRING8  <br/> |**мвсза** <br/> |[SLPSTRArray](slpstrarray.md) <br/> |
-|PT_MV_UNICODE  <br/> |**мвсзв** <br/> |[SWStringArray](swstringarray.md) <br/> |
-|PT_MV_CLSID  <br/> |**мвгуид** <br/> |[SGuidArray](sguidarray.md) <br/> |
-|PT_MV_I8  <br/> |**мвли** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
+|PT_APPTIME  <br/> |**at** <br/> |double  <br/> |
+|PT_SYSTIME  <br/> |**ft** <br/> |[FILETIME](filetime.md) <br/> |
+|PT_STRING8  <br/> |**lpszA** <br/> |LPSTR  <br/> |
+|PT_BINARY  <br/> |**bin** <br/> |BYTE [array]  <br/> |
+|PT_UNICODE  <br/> |**lpszW** <br/> |LPWSTR  <br/> |
+|PT_CLSID  <br/> |**lpguid** <br/> |LPGUID  <br/> |
+|PT_I8 или PT_LONGLONG  <br/> |**li** <br/> |**LARGE_INTEGER** <br/> |
+|PT_MV_I2  <br/> |**MVi** <br/> |[SShortArray](sshortarray.md) <br/> |
+|PT_MV_LONG  <br/> |**MVI** <br/> |[SLongArray](slongarray.md) <br/> |
+|PT_MV_R4  <br/> |**MVflt** <br/> |[SRealArray](srealarray.md) <br/> |
+|PT_MV_DOUBLE  <br/> |**MVdbl** <br/> |[SDoubleArray](sdoublearray.md) <br/> |
+|PT_MV_CURRENCY  <br/> |**MVcur** <br/> |[SCurrencyArray](scurrencyarray.md) <br/> |
+|PT_MV_APPTIME  <br/> |**MVat** <br/> |[SAppTimeArray](sapptimearray.md) <br/> |
+|PT_MV_SYSTIME  <br/> |**MVFT** <br/> |[SDateTimeArray](sdatetimearray.md) <br/> |
+|PT_MV_BINARY  <br/> |**MVbin** <br/> |[SBinaryArray](sbinaryarray.md) <br/> |
+|PT_MV_STRING8  <br/> |**MVSzA** <br/> |[SLPSTRArray](slpstrarray.md) <br/> |
+|PT_MV_UNICODE  <br/> |**MVSzW** <br/> |[SWStringArray](swstringarray.md) <br/> |
+|PT_MV_CLSID  <br/> |**MVguid** <br/> |[SGuidArray](sguidarray.md) <br/> |
+|PT_MV_I8  <br/> |**MVli** <br/> |[SLargeIntegerArray](slargeintegerarray.md) <br/> |
 |PT_ERROR  <br/> |**err** <br/> |[SCODE](scode.md) <br/> |
-|PT_NULL или PT_OBJECT  <br/> |**x** <br/> |БОЛЬШОМ  <br/> |
-|PT_PTR  <br/> |**лпв** <br/> |ОТМЕНИТЬ\*  <br/> |
+|PT_NULL или PT_OBJECT  <br/> |**x** <br/> |LONG  <br/> |
+|PT_PTR  <br/> |**lpv** <br/> |VOID \*  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Элемент **улпроптаг** состоит из двух частей: 
+Член **ulPropTag** состоит из двух частей: 
   
-- Идентификатор в высоком порядке 16 бит.
+- Идентификатор в 16 битах высокого порядка.
     
-- Тип в 16 младших битах.
+- Тип в 16 битах низкого порядка.
     
-Идентификатор — это числовое значение в определенном диапазоне. MAPI определяет диапазоны для идентификаторов, описывающих, для чего используется свойство и кто отвечает за его обслуживание. MAPI определяет ограничения для каждого из тегов свойств, которые он поддерживает, в файле заголовка Мапитагс. h.
+Идентификатор — это числовая величина в определенном диапазоне. MAPI определяет диапазоны для идентификаторов, чтобы описать, для чего используется свойство и кто несет ответственность за его обслуживание. MAPI определяет ограничения для каждого тега свойства, поддерживаемого в файле загона Mapitags.h.
   
-Тип указывает формат значения свойства. MAPI определяет константы для каждого из типов свойств, поддерживаемых в файле заголовка MAPIDEFS. h. 
+Тип указывает формат значения свойства. MAPI определяет константы для каждого из типов свойств, поддерживаемые в файле загона Mapidefs.h. 
   
-Полный список допустимых диапазонов свойств для идентификаторов и типов свойств представлен в приложении [идентификаторы и типы](property-identifiers-and-types.md) свойств. 
+Полный список допустимого диапазона свойств для идентификаторов и типов свойств см. в приложении ["Идентификаторы](property-identifiers-and-types.md) и типы свойств". 
   
-Элемент **двалигнпад** используется в качестве заполнения для обеспечения правильного выравнивания на компьютерах, для которых требуется 8-байтное выравнивание для 8-байтовых значений. Разработчики, которые пишут код на такие компьютеры, должны использовать процедуры выделения памяти, которые распределяют массивы **спропвалуе** по 8 байтам. 
+Член **dwAlignPad** используется в качестве заполнения для правильного выравнивания на компьютерах, которые требуют выравнивания 8 байт для 8-байтовых значений. Разработчикам, которые пишут код на таких компьютерах, следует использовать процедуры выделения памяти, которые выделяют массивы **SPropValue** на границах 8-byte. 
   
-Для получения дополнительных сведений см. [Обзор типов свойств MAPI](mapi-property-type-overview.md) и [Обновление свойств MAPI](updating-mapi-properties.md). 
+Дополнительные сведения см. в обзоре [типов свойств MAPI](mapi-property-type-overview.md) и обновлении [свойств MAPI.](updating-mapi-properties.md) 
   
 ## <a name="see-also"></a>См. также
 

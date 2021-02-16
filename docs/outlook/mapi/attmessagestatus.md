@@ -21,16 +21,16 @@ ms.locfileid: "33430317"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Флаги сообщений MAPI сопоставляются с флагами TNEF для сохранения обратной совместимости. Все флаги группируются и кодируются в одном байте. Используются следующие сопоставления:
+Флаги сообщений MAPI соотнося с флагами TNEF для сохранения обратной совместимости. Все флаги сгруппированы и закодированы в одном byte. Сопоставления следуют следующим образом:
   
 |**Флаги сообщений MAPI**|**Флаги TNEF**|
 |:-----|:-----|
-|MSGFLAG_READ  <br/> |фмсреад  <br/> |
-|MSGFLAG_UNMODIFED  <br/> |~ Фмсмодифиед  <br/> |
-|MSGFLAG_SUBMIT  <br/> |фмссубмиттед  <br/> |
-|MSGFLAG_HASATTACH  <br/> |фмшасаттач  <br/> |
-|MSGFLAG_UNSENT  <br/> |фмслокал  <br/> |
+|MSGFLAG_READ  <br/> |fmsRead  <br/> |
+|MSGFLAG_UNMODIFED  <br/> |~fmsModified  <br/> |
+|MSGFLAG_SUBMIT  <br/> |fmsSubmitted  <br/> |
+|MSGFLAG_HASATTACH  <br/> |fmsHasAttach  <br/> |
+|MSGFLAG_UNSENT  <br/> |fmsLocal  <br/> |
    
-Эти флаги определены в формате TNEF. H файл заголовка.
+Эти флаги определены в TNEF. Файл h-загона.
   
 

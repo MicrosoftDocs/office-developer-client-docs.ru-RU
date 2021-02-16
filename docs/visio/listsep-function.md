@@ -8,7 +8,7 @@ f1_keywords:
 - Vis_DSS.chm82251882
 localization_priority: Normal
 ms.assetid: 73dc5981-2c8c-e76e-e4bd-e65a7c8db242
-description: Возвращает строку с разделителем списков для текущего языкового стандарта пользователя.
+description: Возвращает строку "list-separator" для текущего пользовательского региональных точки.
 ms.openlocfilehash: 901442a3c2af8509855b8b038057e7f813634ea1
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -18,7 +18,7 @@ ms.locfileid: "33431409"
 ---
 # <a name="listsep-function"></a>Функция LISTSEP
 
-Возвращает строку с разделителем списков для текущего языкового стандарта пользователя.
+Возвращает строку "list-separator" для текущего пользовательского региональных точки.
   
 ## <a name="syntax"></a>Синтаксис
 
@@ -30,6 +30,6 @@ String
   
 ## <a name="example"></a>Пример
 
-SETF (GETREF (User. экстент), "MAX (ширина" &amp; ListSep () &amp; "высота)") 
+SETF(GETREF(user.extent), "MAX(Width" &amp; ListSep() &amp; "Height)") 
   
 

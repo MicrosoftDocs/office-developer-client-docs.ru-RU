@@ -1,5 +1,5 @@
 ---
-title: Функция PI (пользовательское веб-приложение для Access)
+title: Pi Function (Access custom web app)
 manager: kelbow
 ms.date: 09/05/2017
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/28/2019
 ms.locfileid: "33432578"
 ---
-# <a name="pi-function-access-custom-web-app"></a>Функция PI (пользовательское веб-приложение для Access)
+# <a name="pi-function-access-custom-web-app"></a>Pi Function (Access custom web app)
 
 Возвращает постоянное значение PI.
   

@@ -25,11 +25,11 @@ ms.locfileid: "33433915"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Содержит массив структур [смапиверб](smapiverb.md) , ОПИСЫВАЮЩИХ команды MAPI. 
+Содержит массив структур [SMAPIVerb,](smapiverb.md) описывая команды MAPI. 
   
 |||
 |:-----|:-----|
-|Файл заголовка:  <br/> |Мапиформ. h  <br/> |
+|Файл заголовка:  <br/> |Mapiform.h  <br/> |
 |Связанный макрос:  <br/> |[CbMAPIVerbArray](cbmapiverbarray.md) <br/> |
    
 ```cpp
@@ -43,17 +43,17 @@ typedef struct
 
 ## <a name="members"></a>"Участники"
 
- **кформс**
+ **cForms**
   
-> Количество команд в массиве.
+> Количество глаголов в массиве.
     
- **аформинфо**
+ **aFormInfo**
   
-> Массив команд MAPI.
+> Массив глаголов MAPI.
     
 ## <a name="remarks"></a>Примечания
 
-Структура **смапивербаррай** передается в качестве параметра в методе [Имапиформинфо:: калквербсет](imapiforminfo-calcverbset.md) . 
+Структура **SMAPIVerbArray** передается в качестве параметра в [методе IMAPIFormInfo::CalcVerbSet.](imapiforminfo-calcverbset.md) 
   
 ## <a name="see-also"></a>См. также
 

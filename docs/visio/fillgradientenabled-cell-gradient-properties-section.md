@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 80db9c0c-13c6-47de-967f-ade6e5899f14
-description: Определяет, включена ли Градиентная заливка для этой фигуры.
+description: Определяет, включен ли градиент заливки для этой фигуры.
 ms.openlocfilehash: 17f617c13b632318be22b86a3354a194f0f835f5
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,16 +16,16 @@ ms.locfileid: "33431213"
 ---
 # <a name="fillgradientenabled-cell-gradient-properties-section"></a>FillGradientEnabled Cell (Gradient Properties Section)
 
-Определяет, включена ли Градиентная заливка для этой фигуры. 
+Определяет, включен ли градиент заливки для этой фигуры. 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|TRUE  <br/> |Градиентная заливка отображается на фигуре.  <br/> |
-|FALSE  <br/> |Градиентные заливки не отображаются на фигуре.  <br/> |
+|TRUE  <br/> |Заливка градиента отображается на фигуре.  <br/> |
+|FALSE  <br/> |Заливки градиента не отображаются на фигуре.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **FillGradientEnabled** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **FillGradientEnabled** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -36,7 +36,7 @@ ms.locfileid: "33431213"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровградиентпропертиес** <br/> |
-| Индекс ячейки:  <br/> |* * Висфиллградиентенаблед * * <br/> |
+| Индекс строки:  <br/> |**visRowGradientProperties** <br/> |
+| Индекс ячейки:  <br/> |**visFillGradientEnabled ** <br/> |
    
 
