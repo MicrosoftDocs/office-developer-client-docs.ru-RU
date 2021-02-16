@@ -1,5 +1,5 @@
 ---
-title: PublishSettings_Type complexType (XML для Visio)
+title: PublishSettings_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538923"
 ---
-# <a name="publishsettings_type-complextype-visio-xml"></a>PublishSettings_Type complexType (XML для Visio)
+# <a name="publishsettings_type-complextype-visio-xml"></a>PublishSettings_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -54,8 +54,8 @@ ms.locfileid: "34538923"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[публишедпаже](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> ||
-|[рефрешабледата](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> ||
+|[PublishedPage](publishedpage-element-publishsettings_type-complextypevisio-xml.md) <br/> |[PublishedPage_Type](publishedpage_type-complextypevisio-xml.md) <br/> ||
+|[RefreshableData](refreshabledata-element-publishsettings_type-complextypevisio-xml.md) <br/> |[RefreshableData_Type](refreshabledata_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

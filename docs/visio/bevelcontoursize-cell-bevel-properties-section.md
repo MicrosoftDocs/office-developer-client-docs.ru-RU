@@ -6,7 +6,7 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 0ebde552-f1e6-43d0-8704-4e29eb2b1c9d
-description: Определяет размер контура скоса в пунктах.
+description: Определяет размер контура формы в точках.
 ms.openlocfilehash: bb37c1a9990e1ee4bcca917f065b7872b8ae3bd7
 ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
 ms.translationtype: MT
@@ -16,11 +16,11 @@ ms.locfileid: "33439963"
 ---
 # <a name="bevelcontoursize-cell-bevel-properties-section"></a>BevelContourSize Cell (Bevel Properties Section)
 
-Определяет размер контура скоса в пунктах. 
+Определяет размер контура bevel в точках. 
   
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку **BevelContourSize** по имени из другой формулы, по значению атрибута **N** элемента **ячейки** или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку **BevelContourSize** по имени из другой формулы, по значению атрибута **N** элемента **Cell** или из программы, использующей свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
@@ -31,7 +31,7 @@ ms.locfileid: "33439963"
 |||
 |:-----|:-----|
 | Индекс раздела:  <br/> |**visSectionObject** <br/> |
-| Индекс строки:  <br/> |**висровбевелпропертиес** <br/> |
-| Индекс ячейки:  <br/> |**висбевелконтаурсизе** <br/> |
+| Индекс строки:  <br/> |**visRowBevelProperties** <br/> |
+| Индекс ячейки:  <br/> |**visBevelContourSize** <br/> |
    
 

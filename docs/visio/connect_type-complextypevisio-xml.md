@@ -1,5 +1,5 @@
 ---
-title: Connect_Type complexType (XML для Visio)
+title: Connect_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538741"
 ---
-# <a name="connect_type-complextype-visio-xml"></a>Connect_Type complexType (XML для Visio)
+# <a name="connect_type-complextype-visio-xml"></a>Connect_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -63,11 +63,11 @@ ms.locfileid: "34538741"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|FromCell  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|FromPart  <br/> |XSD: int  <br/> |необязательный  <br/> ||Значения типа XSD: int.  <br/> |
-|FromSheet  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
-|ToCell  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|ToPart  <br/> |XSD: int  <br/> |необязательный  <br/> ||Значения типа XSD: int.  <br/> |
-|ToSheet  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|FromCell  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|FromPart  <br/> |xsd:int  <br/> |необязательный  <br/> ||Значения типа xsd:int.  <br/> |
+|FromSheet  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|ToCell  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|ToPart  <br/> |xsd:int  <br/> |необязательный  <br/> ||Значения типа xsd:int.  <br/> |
+|ToSheet  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
    
 

@@ -1,12 +1,12 @@
 ---
-title: Элемент Cell (строка строка relellipticalarcto) (XML для Visio)
+title: Элемент Cell (строка RelEllipticalArcTo) (XML Visio)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: beaa8860-807e-c8dd-8a59-29cd0f91ba45
-description: Содержит координаты x или y конечной точки эллиптической дуги относительно ширины и высоты фигуры, а также координат x или y элемента управления на дуги относительно ширины и высоты фигуры, угла от оси x до основной оси эллипса или соотношение между основными и дополнительными осями эллипса.
+description: Содержит координаты X или Y конечной точки эллиптической дуги относительно ширины и высоты фигуры, координат x или Y контрольных точек на дуге относительно ширины и высоты фигуры, угла от оси x до основной оси эллипса или соотношения между основной и второстепенной осями эллипса.
 ms.openlocfilehash: 84d7fe222cd46b54f38bc03e058103cc1d7a9620
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539434"
 ---
-# <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Элемент Cell (строка строка relellipticalarcto) (XML для Visio)
+# <a name="cell-element-relellipticalarcto-row-visio-xml"></a>Элемент Cell (строка RelEllipticalArcTo) (XML Visio)
 
-Содержит координаты x или y конечной точки эллиптической дуги относительно ширины и высоты фигуры, а также координат x или y элемента управления на дуги относительно ширины и высоты фигуры, угла от оси x до основной оси эллипса или соотношение между основными и дополнительными осями эллипса.
+Содержит координаты X или Y конечной точки эллиптической дуги относительно ширины и высоты фигуры, координат x или Y контрольных точек на дуге относительно ширины и высоты фигуры, угла от оси x до основной оси эллипса или соотношения между основной и второстепенной осями эллипса.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34539434"
 |:-----|:-----|
 |**Тип элемента** <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,35 +42,35 @@ ms.locfileid: "34539434"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Элемент Row (геометрия)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelEllipticalArcTo_Type](relellipticalarcto_type-complextypevisio-xml.md) <br/> |Содержит координаты x или y конечной точки эллиптической дуги относительно ширины и высоты фигуры, а также координат x или y элемента управления на дуги относительно ширины и высоты фигуры, угла от оси x до основной оси эллипса или соотношение между основными и дополнительными осями эллипса.  <br/> |
+|[Элемент Row (Geometry)](row-element-geometry-sectionvisio-xml.md) <br/> |[RelEllipticalArcTo_Type](relellipticalarcto_type-complextypevisio-xml.md) <br/> |Содержит координаты X или Y конечной точки эллиптической дуги относительно ширины и высоты фигуры, координат x или Y контрольных точек на дуге относительно ширины и высоты фигуры, угла от оси x до основной оси эллипса или соотношения между основной и второстепенной осями эллипса.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу документа.  <br/> |
+|[RefBy](refby-element-cell_type-complextypevisio-xml.md) <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |Указывает ссылку на страницу рисования.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|E  <br/> |XSD: строка  <br/> |необязательный  <br/> |Указывает, что формула возвращает ошибку. Значение **E** — это текущее значение (строка сообщения об ошибке); значение атрибута **V** — это Последнее допустимое значение.  <br/> |Строка сообщения об ошибке.  <br/> |
-|F  <br/> |XSD: строка  <br/> |необязательный  <br/> | Представляет формулу элемента. Этот атрибут может содержать одну из следующих строк:  <br/>  ' (формула) ', если формула существует локально  <br/>  `No Formula`Если формула локально удалена или заблокирована  <br/>  `Inh`, если формула наследуется.  <br/> |Формула.  <br/> |
-|N  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Представляет имя ячейки таблицы свойств фигуры.  <br/> |Имя ячейки таблицы свойств фигуры.  <br/> Ознакомьтесь с разделом "Примечания" ниже.  <br/> |
-|U  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет единицу измерения. значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
-|V  <br/> |XSD: строка  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки таблицы свойств фигуры.  <br/> |
+|E  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает, что формула оценивается как ошибка. Значение E **—** текущее значение (строка сообщения об ошибке); Значение атрибута **V** является последним допустимым значением.  <br/> |Строка сообщения об ошибке.  <br/> |
+|F  <br/> |xsd:string  <br/> |необязательный  <br/> | Представляет формулу элемента. Этот атрибут может содержать одну из следующих строк:  <br/>  '(some formula)', если формула существует локально  <br/>  `No Formula` если формула удалена или заблокирована локально  <br/>  `Inh` если формула унаследована.  <br/> |Формула.  <br/> |
+|N  <br/> |xsd:string  <br/> |Обязательный  <br/> |Представляет имя ячейки ShapeSheet.  <br/> |Имя ячейки ShapeSheet.  <br/> См. раздел "Замечания" ниже.  <br/> |
+|U  <br/> |xsd:string  <br/> |необязательный  <br/> |Представляет единицу измерения, значение по умолчанию — DL.  <br/> |Единицы ячейки.  <br/> |
+|V  <br/> |xsd:string  <br/> |необязательный  <br/> |Представляет значение ячейки.  <br/> |Значение ячейки ShapeSheet.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Атрибут **N** этого элемента **Cell** должен иметь ограниченный набор значений, соответствующих ячейкам таблицы свойств фигуры. Чтобы определить значения атрибута **N** , которые разрешено использовать для этого элемента **ячейки** , обратитесь к приведенной ниже таблице. 
+Атрибут **N** этого элемента **Cell** должен быть одним из ограниченного набора значений, соответствующих ячейкам ShapeSheet. Чтобы определить значения атрибута **N,** допустимого для этого элемента Cell, обратитесь к таблице **ниже.** 
   
 |**Значение**|**Описание**|**Дополнительные сведения**|
 |:-----|:-----|:-----|
-|X  <br/> |Координата x конечной вершины в дуге относительно ширины фигуры.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
-|Да  <br/> |Координата y конечной вершины дуги относительно высоты фигуры.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
-|A  <br/> |Координата x контрольной точки дуги относительно ширины фигуры; точка на дуги.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
-|B  <br/> |Координата y контрольной точки дуги относительно ширины фигуры.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
-|C  <br/> |Угол основной оси дуги относительно оси x его родительского элемента.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
-|D  <br/> |Отношение основной оси дуги к ее вспомогательной оси.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
+|X  <br/> |X-координата конечной вершины на дуге относительно ширины фигуры.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
+|Да  <br/> |Y-координата конечной вершины на дуге относительно высоты фигуры.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
+|A  <br/> |X-координата контрольной точки дуги относительно ширины фигуры; точка на дуге.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
+|B  <br/> |Y-координата контрольной точки дуги относительно ширины фигуры.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
+|C  <br/> |Угол основной оси дуги относительно оси X родительской оси.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
+|D  <br/> |Отношение основной оси дуги к ее второстепенной оси.  <br/> |[RelEllipticalArcTo Row (Geometry Section)](relellipticalarcto-row-geometry-section.md) <br/> |
    
 

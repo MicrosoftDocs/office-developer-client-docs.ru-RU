@@ -52,7 +52,7 @@ XML-атрибуты и их значения выполняют роль ука
  agg:action="replace">Some Value</my:field1>
 ```
 
-### <a name="mergeattributes"></a>мержеаттрибутес
+### <a name="mergeattributes"></a>mergeAttributes
 
 Если значение атрибута **agg:action** равно mergeAttributes, то атрибуты исходного элемента объединяются с атрибутами каждого из целевых элементов, на которые ссылается атрибут **select**. 
   
@@ -72,7 +72,7 @@ XML-атрибуты и их значения выполняют роль ука
 
 Наряду с атрибутами, указанными в пространстве имен  `http://schemas.microsoft.com/office/InfoPath/2003/aggregation`, разработчик может использовать пространство имен  `http://schemas.microsoft.com/office/infopath/2003/aggregation-target` для указания XSL объекта, который реализует интерфейс **IXMLDOMDocument**. Одним из наиболее полезных инструментов этого интерфейса является метод **get-documentElement**.
   
-### <a name="get-documentelement"></a>Get — documentElement
+### <a name="get-documentelement"></a>get-documentElement
 
 Функция **target:get-documentElement** предоставляет доступ к объектной модели целевого документа. Она может использоваться для изменения способа объединения в зависимости от содержания целевого документа. 
   
@@ -147,9 +147,9 @@ XML-атрибуты и их значения выполняют роль ука
 
 6. Последним подготовительным действием для обеспечения поддержки пользовательского объединения форм является обновление элемента **importParameters** в XSF-файле, связанном с формой. 
 
-    Найдите тег  `<xsf:importParameters>` в файле XSF. Для каждой созданной для формы схемы/XSL-преобразования добавьте элемент **xsf: импортсаурце** в элемент **xsf: ImportParameters** : `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>`. 
+    Найдите тег  `<xsf:importParameters>` в файле XSF. Для каждой пары преобразования схемы или XSL, созданной для формы, добавьте элемент **xsf:importSource** в элемент **xsf:importParameters:**  `<xsf:importParameters enabled="yes"> <xsf:importSource name="" schema="IndvTasks.xsd" transform="ImportTasks.xsl"></xsf:importSource> </xsf:importParameters>` . 
     
-    Атрибут **Name** элемента **xsf: импортсаурце** содержит имя шаблона формы, которое может быть найдено в исходном XML-документе. Это значение обычно можно оставить пустым. Атрибут **schema** содержит имя файла схемы, добавленного к шаблону формы на предыдущем шаге. Атрибут **transform** содержит имя преобразования XSL, которое используется для преобразования форм, соответствующих схеме. 
+    Атрибут **имени** элемента **xsf:importSource** содержит имя шаблона формы, которое можно найти в XML-документе источника. Это значение обычно можно оставить пустым. Атрибут **schema** содержит имя файла схемы, добавленного к шаблону формы на предыдущем шаге. Атрибут **transform** содержит имя преобразования XSL, которое используется для преобразования форм, соответствующих схеме. 
     
     Настраиваемое преобразование можно использовать как с событием [Merge](https://msdn.microsoft.com/library/Microsoft.Office.InfoPath.FormEvents.Merge.aspx) , так и без него. 
     

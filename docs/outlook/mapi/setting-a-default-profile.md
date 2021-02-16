@@ -21,12 +21,12 @@ ms.locfileid: "33439816"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Профиль по умолчанию — это профиль, который используется, если вы не указали его явно в вызове [мапилогонекс](mapilogonex.md), установив флаг MAPI_USE_DEFAULT.
+Профиль по умолчанию — это профиль, который используется, если в вызове [MAPILogonEx](mapilogonex.md)явно не указан профиль, задав вместо него MAPI_USE_DEFAULT флага.
   
- **Установка профиля по умолчанию**
+ **Создание профиля по умолчанию**
   
-1. Вызовите функцию [мапиадминпрофилес](mapiadminprofiles.md) , чтобы получить указатель интерфейса **ипрофадмин** . 
+1. Вызовите [функцию MAPIAdminProfiles,](mapiadminprofiles.md) чтобы получить указатель интерфейса **IProfAdmin.** 
     
-2. Call [ипрофадмин:: SetDefaultProfile](iprofadmin-setdefaultprofile.md). **SetDefaultProfile** задает свойство **PR_DEFAULT_PROFILE** ([PidTagDefaultProfile](pidtagdefaultprofile-canonical-property.md)) для нового профиля по умолчанию и удаляет параметр для предыдущего профиля по умолчанию.
+2. Вызовите [IProfAdmin::SetDefaultProfile](iprofadmin-setdefaultprofile.md). **SetDefaultProfile** задает **свойство PR_DEFAULT_PROFILE** ([PidTagDefaultProfile)](pidtagdefaultprofile-canonical-property.md)для нового профиля по умолчанию и удаляет параметр для предыдущего профиля по умолчанию.
     
 

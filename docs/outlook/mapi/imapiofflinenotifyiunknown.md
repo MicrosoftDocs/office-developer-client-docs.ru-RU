@@ -1,5 +1,5 @@
 ---
-title: Имапиоффлиненотифи IUnknown
+title: IMAPIOfflineNotify IUnknown
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -25,22 +25,22 @@ ms.locfileid: "33439879"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Поддерживает Microsoft Outlook 2010 и Microsoft Outlook 2013 при отправке обратного вызова уведомления клиенту.
+Поддерживает Microsoft Outlook 2010, русская версия и Microsoft Outlook 2013 при отправке клиенту вызовов уведомлений.
   
 |||
 |:-----|:-----|
-|Предоставлено:  <br/> |Client  <br/> |
+|Предоставлено:  <br/> |Клиент  <br/> |
 |Идентификатор интерфейса:  <br/> |IID_IMAPIOfflineNotify  <br/> |
    
-## <a name="vtable-order"></a>Заказ vtable
+## <a name="vtable-order"></a>Порядок ветвей
 
 |||
 |:-----|:-----|
-|[Уведомления](imapiofflinenotify-notify.md) <br/> |Отправляет клиенту уведомления об изменениях состояния подключения.  <br/> |
+|[Уведомления](imapiofflinenotify-notify.md) <br/> |Отправляет клиенту уведомления об изменениях в состоянии подключения.  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Клиент должен реализовать этот интерфейс и передать указатель на него в качестве члена в **[MAPIOFFLINE_ADVISEINFO](mapioffline_adviseinfo.md)** при настройке обратных вызовов с помощью **[Имапиоффлинемгр:: Advise](imapiofflinemgr-advise.md)**. Затем Outlook 2010 или Outlook 2013 смогут использовать этот интерфейс для отправки обратного вызова уведомлений клиенту. 
+Клиент должен реализовать этот интерфейс и передать ему указатель в качестве участника в MAPIOFFLINE_ADVISEINFO при настройке вызовов с помощью **[IMAPIOfflineMgr::Advise.](imapiofflinemgr-advise.md)** **[](mapioffline_adviseinfo.md)** Впоследствии Outlook 2010 или Outlook 2013 сможет использовать этот интерфейс для отправки клиенту вызовов уведомлений. 
   
 ## <a name="see-also"></a>См. также
 

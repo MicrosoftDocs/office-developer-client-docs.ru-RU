@@ -1,12 +1,12 @@
 ---
-title: Элемент Табсплиттерпос (Window_Type complexType) (XML для Visio)
+title: Элемент TabSplitterPos (Window_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: eca75ec6-3677-54ef-74ec-4a440a089e5d
-description: Задает ширину элемента управления "вкладка страницы" в окне документа (в виде доли общей ширины окна документа).
+description: Указывает ширину вкладки страницы окна рисования (доля от общей ширины окна рисования).
 ms.openlocfilehash: 50b614ff43fa502bce7989dacf2652d52b850994
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538853"
 ---
-# <a name="tabsplitterpos-element-window_type-complextype-visio-xml"></a>Элемент Табсплиттерпос (Window_Type complexType) (XML для Visio)
+# <a name="tabsplitterpos-element-window_type-complextype-visio-xml"></a>Элемент TabSplitterPos (Window_Type complexType) (Visio XML)
 
-Задает ширину элемента управления "вкладка страницы" в окне документа (в виде доли общей ширины окна документа).
+Указывает ширину вкладки в окне рисования (доля от общей ширины окна рисования).
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34538853"
 |:-----|:-----|
 |**Тип элемента** <br/> |[TabSplitterPos_Type](tabsplitterpos_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Windows. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |windows.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

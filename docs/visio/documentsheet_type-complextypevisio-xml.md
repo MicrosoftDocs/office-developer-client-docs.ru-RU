@@ -1,5 +1,5 @@
 ---
-title: DocumentSheet_Type complexType (XML для Visio)
+title: DocumentSheet_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540009"
 ---
-# <a name="documentsheet_type-complextype-visio-xml"></a>DocumentSheet_Type complexType (XML для Visio)
+# <a name="documentsheet_type-complextype-visio-xml"></a>DocumentSheet_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -63,10 +63,10 @@ ms.locfileid: "34540009"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|искустомнаме  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
-|искустомнамеу  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
-|Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|NameU  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|UniqueID  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|IsCustomName  <br/> |xsd:boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
+|Имя  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|UniqueID  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
    
 

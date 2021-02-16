@@ -1,12 +1,12 @@
 ---
-title: Элемент DynamicGridEnabled (Window_Type complexType) (XML для Visio)
+title: Элемент DynamicGridEnabled (Window_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: ac14d132-bc91-194b-4a0b-8a4b72acdbfd
-description: Указывает, включена ли динамическая сетка для окна.
+description: Указывает, включена ли функция динамической сетки для окна.
 ms.openlocfilehash: d239b5604d384e14711d26b12cc8bd381a3778a8
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539965"
 ---
-# <a name="dynamicgridenabled-element-window_type-complextype-visio-xml"></a>Элемент DynamicGridEnabled (Window_Type complexType) (XML для Visio)
+# <a name="dynamicgridenabled-element-window_type-complextype-visio-xml"></a>Элемент DynamicGridEnabled (Window_Type complexType) (Visio XML)
 
-Указывает, включена ли динамическая сетка для окна.
+Указывает, включена ли функция динамической сетки для окна.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34539965"
 |:-----|:-----|
 |**Тип элемента** <br/> |[DynamicGridEnabled_Type](dynamicgridenabled_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Windows. XML, Document. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |windows.xml, document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 

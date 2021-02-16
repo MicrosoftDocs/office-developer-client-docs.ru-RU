@@ -1,5 +1,5 @@
 ---
-title: Типы (Visio XML)
+title: Types (Visio XML)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538594"
 ---
-# <a name="types-visio-xml"></a>Типы (Visio XML)
+# <a name="types-visio-xml"></a>Types (Visio XML)
 
 В этом разделе перечислены типы в XML-схеме формата файлов Visio 2013.
   

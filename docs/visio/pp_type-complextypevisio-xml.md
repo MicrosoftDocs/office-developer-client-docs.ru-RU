@@ -1,5 +1,5 @@
 ---
-title: pp_Type complexType (XML для Visio)
+title: pp_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539007"
 ---
-# <a name="pp_type-complextype-visio-xml"></a>pp_Type complexType (XML для Visio)
+# <a name="pp_type-complextype-visio-xml"></a>pp_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -47,6 +47,6 @@ ms.locfileid: "34539007"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
    
 

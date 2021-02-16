@@ -1,12 +1,12 @@
 ---
-title: Элемент PageSheet (Page_Type complexType) (XML для Visio)
+title: Элемент PageSheet (Page_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 99a6549b-099b-1546-cc30-db0010fe3ce1
-description: Задает свойства страницы документа, связанной со страницей документа.
+description: Указывает свойства страницы рисования, связанной со страницей рисования.
 ms.openlocfilehash: 2f49d152a0fcb30e3f5aea98cdc251d3b65b8f69
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540625"
 ---
-# <a name="pagesheet-element-page_type-complextype-visio-xml"></a>Элемент PageSheet (Page_Type complexType) (XML для Visio)
+# <a name="pagesheet-element-page_type-complextype-visio-xml"></a>Элемент PageSheet (Page_Type complexType) (Visio XML)
 
-Задает свойства страницы документа, связанной со страницей документа.
+Указывает свойства страницы рисования, связанной со страницей рисования.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34540625"
 |:-----|:-----|
 |**Тип элемента** <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Pages. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |pages.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -52,9 +52,9 @@ ms.locfileid: "34540625"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|FillStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Указывает идентификатор таблицы стилей, из которой требуется наследовать форматирование заливки. Он должен быть значением атрибута **ID** , связанным с **StyleSheet_Type** в документе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|LineStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Задает идентификатор таблицы стилей, из которой наследуются форматирование линий. Он должен быть значением атрибута **ID** , связанным с **StyleSheet_Type** в документе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|TextStyle  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Задает идентификатор таблицы стилей, из которой требуется наследовать форматирование текста. Он должен быть значением атрибута **ID** , связанным с **StyleSheet_Type** в документе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|UniqueID  <br/> |XSD: строка  <br/> |необязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа String: XSD.  <br/> |
+|FillStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Указывает ИД таблицы стилей, от которой необходимо наследовать форматирование заливки. Это должно быть значение атрибута **ID,** связанного с StyleSheet_Type **в** рисунке.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|LineStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Указывает ИД таблицы стилей, от которой необходимо наследовать форматирование строк. Это должно быть значение атрибута **ID,** связанного с StyleSheet_Type **в** рисунке.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|TextStyle  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Указывает ИД таблицы стилей, от которой требуется наследовать форматирование текста. Это должно быть значение атрибута **ID,** связанного с StyleSheet_Type **в** рисунке.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|UniqueID  <br/> |xsd:string  <br/> |необязательный  <br/> |Уникальный ИД элемента в родительском элементе.  <br/> |Значения типа xsd:string.  <br/> |
    
 

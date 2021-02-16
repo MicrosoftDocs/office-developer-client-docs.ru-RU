@@ -1,12 +1,12 @@
 ---
-title: Элемент Icon (Master_Type complexType) (XML для Visio)
+title: Элемент Icon (Master_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 80061e7d-dbcb-f7a1-b63a-052eee4ec7d7
-description: Задает двоичный значок закодированного двоичного расширения MIME (в формате ICO) для элемента шаблона в документе.
+description: Указывает двоичный значок MIME (multipurpose Internet Mail Extensions) в формате ICO для элемента Master в документе.
 ms.openlocfilehash: fb66e79348b6fba5d5dfd163e6165e7c1bfddfcd
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537747"
 ---
-# <a name="icon-element-master_type-complextype-visio-xml"></a>Элемент Icon (Master_Type complexType) (XML для Visio)
+# <a name="icon-element-master_type-complextype-visio-xml"></a>Элемент Icon (Master_Type complexType) (Visio XML)
 
-Задает двоичный значок закодированного двоичного расширения MIME (в формате ICO) для элемента шаблона в документе.
+Указывает двоичный значок MIME (multipurpose Internet Mail Extensions) в формате ICO для элемента Master в документе.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34537747"
 |:-----|:-----|
 |**Тип элемента** <br/> |[Icon_Type](icon_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Главные. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |masters.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34537747"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Указывает образец в документе.  <br/> |
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Указывает хозяина в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

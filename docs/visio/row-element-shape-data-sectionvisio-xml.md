@@ -1,12 +1,12 @@
 ---
-title: Элемент Row (раздел "данные фигуры") (XML-файл Visio)
+title: Элемент Row (Shape Data Section) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9eb74ae8-ff42-6e34-30e2-2080bf8b5754
-description: Задает одну запись данных фигуры для связывания данных с фигурой.
+description: Указывает одну запись данных фигуры для связи данных с фигурой.
 ms.openlocfilehash: 4c5644aa2088dcaf3be81ea9aeaa549c911a31f6
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,18 +14,18 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538272"
 ---
-# <a name="row-element-shape-data-section-visio-xml"></a>Элемент Row (раздел "данные фигуры") (XML-файл Visio)
+# <a name="row-element-shape-data-section-visio-xml"></a>Элемент Row (Shape Data Section) (Visio XML)
 
-Задает одну запись данных фигуры для связывания данных с фигурой.
+Указывает одну запись данных фигуры для связи данных с фигурой.
   
 ## <a name="element-information"></a>Сведения об элементе
 
 |||
 |:-----|:-----|
-|**Тип элемента** <br/> |[Data_Type фигуры](propertyrow_type-complextypevisio-xml.md) <br/> |
+|**Тип элемента** <br/> |[Фигуры Data_Type](propertyrow_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Master #. XML, Page #. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |master#.xml, page#.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,22 +42,22 @@ ms.locfileid: "34538272"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Задает одну запись данных фигуры для связывания данных с фигурой.  <br/> |
+|[Section](section-element-sheet_type-complextypevisio-xml.md) <br/> |[Section_Type](section_type-complextypevisio-xml.md) <br/> |Указывает одну запись данных фигуры для связи данных с фигурой.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Cell](cell-element-shape-data-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Задает одно свойство данных фигуры.  <br/> |
+|[Cell](cell-element-shape-data-sectionvisio-xml.md) <br/> |[Cell_Type](cell_type-complextypevisio-xml.md) <br/> |Указывает одно свойство данных фигуры.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Del  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, удалена ли строка, которая в противном случае была бы унаследована от основной фигуры.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|IX  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Задает отсчитываемый от единицы идентификатор строки. Он должен быть уникальное и превышать другие идентификаторы в одном разделе. Атрибут IX используется только для разделов "символ", "подключение", "Филлградиент", "геометрия", "область", "Линеградиент", "Абзац", "фрагмент" и "вкладки". Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|LocalName  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает уникальное зависящее от языка имя строки.  <br/> |Значения типа String: XSD.  <br/> |
-|N  <br/> |XSD: строка  <br/> |необязательный  <br/> |Задает уникальное имя строки, не зависящее от языка. Атрибут N используется только для разделов "пользователь", "свойство", "действия", "элементы управления", "гиперссылка" и "Актионтаг". Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа String: XSD.  <br/> |
-|Д  <br/> |XSD: строка  <br/> |необязательный  <br/> |Указывает тип геометрического пути, представленного строкой и используемый в визуализации геометрии. Атрибут T используется только для раздела Geometry.  <br/> |Значения типа String: XSD.  <br/> |
+|Del  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, была ли удалена строка, которая в противном случае наследуется от этаго фигуры.  <br/> |Значения типа xsd:boolean.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Указывает идентификатор строки, основанный на одном. Оно должно быть неподдерживаемо и больше других идентификаторов в том же разделе. Атрибут IX используется только для разделов Character, Connection, Field, FillGradient, Geometry, Layer, LineGradient, Paragraph, Reviewer, Scratch и Tabs. Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|LocalName  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает уникальное зависимое от языка имя строки.  <br/> |Значения типа xsd:string.  <br/> |
+|N  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает уникальное независимое от языка имя строки. Атрибут N используется только для разделов "Пользователь", "Свойство", "Действия", "Управление", "Подключение", "Гиперссылка" и "ActionTag". Строка может иметь только один из атрибутов IX или N.  <br/> |Значения типа xsd:string.  <br/> |
+|T  <br/> |xsd:string  <br/> |необязательный  <br/> |Указывает тип геометрического пути, представленного строкой и используемого при визуализации геометрии. Атрибут T используется только для раздела "Геометрия".  <br/> |Значения типа xsd:string.  <br/> |
    
 

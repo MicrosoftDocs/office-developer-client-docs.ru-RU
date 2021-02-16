@@ -1,12 +1,12 @@
 ---
-title: Элемент Connections (Connections) (XML в Visio)
+title: Элемент DataConnections (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 3cac0cd0-87ff-8c82-2d33-20070a505f4e
-description: Содержит элементы подключения к документу.
+description: Содержит элементы DataConnection для документа.
 ms.openlocfilehash: 5d45d1dcd76524c2144336235e8277cd51f8a138
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539184"
 ---
-# <a name="dataconnections-element-visio-xml"></a>Элемент Connections (Connections) (XML в Visio)
+# <a name="dataconnections-element-visio-xml"></a>Элемент DataConnections (Visio XML)
 
-Содержит элементы **подключения** к документу. 
+Содержит элементы **DataConnection** для документа. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34539184"
 |:-----|:-----|
 |**Тип элемента** <br/> |[DataConnections_Type](dataconnections_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Connections. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |connections.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -46,12 +46,12 @@ ms.locfileid: "34539184"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Создает абстракцию для связи между одним или несколькими элементами **записи** данных и источником данных, не относящимся к XML.  <br/> |
+|[DataConnection](dataconnection-element-dataconnections_type-complextypevisio-xml.md) <br/> |[DataConnection_Type](dataconnection_type-complextypevisio-xml.md) <br/> |Абстрагировать связь между одним или более **элементами DataRecordset** и источником данных, не относяющимися к XML.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|некстид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Следующий доступный идентификатор для новых подключений.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
+|NextID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Следующий доступный ИД для новых подключений.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
    
 

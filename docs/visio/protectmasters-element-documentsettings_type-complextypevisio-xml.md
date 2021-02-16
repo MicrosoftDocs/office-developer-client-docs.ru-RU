@@ -1,12 +1,12 @@
 ---
-title: Элемент Протектмастерс (DocumentSettings_Type complexType) (XML для Visio)
+title: Элемент ProtectMasters (DocumentSettings_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: edc46630-c320-6b4e-4747-961075dd5fd7
-description: Указывает, запрещено ли пользователю создавать, редактировать или удалять основные фигуры. Пользователь по-прежнему может создавать новые фигуры из основной фигуры независимо от этого параметра.
+description: Указывает, может ли пользователь создавать, редактировать или удалять master фигуры. Пользователь по-прежнему может создавать новые фигуры из этакской фигуры независимо от этого параметра.
 ms.openlocfilehash: 34ace8c873b133f44ea7bd7c9c2e4127a103a760
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540695"
 ---
-# <a name="protectmasters-element-documentsettings_type-complextype-visio-xml"></a>Элемент Протектмастерс (DocumentSettings_Type complexType) (XML для Visio)
+# <a name="protectmasters-element-documentsettings_type-complextype-visio-xml"></a>Элемент ProtectMasters (DocumentSettings_Type complexType) (Visio XML)
 
-Указывает, запрещено ли пользователю создавать, редактировать или удалять основные фигуры. Пользователь по-прежнему может создавать новые фигуры из основной фигуры независимо от этого параметра. 
+Указывает, может ли пользователь создавать, редактировать или удалять master фигуры. Пользователь по-прежнему может создавать новые фигуры из этакской фигуры независимо от этого параметра. 
   
-Диапазон допустимых значений для этого элемента: "0" или "1". Значение "0" указывает на то, что пользователи могут создавать, изменять или удалять основные фигуры. Значение "1" указывает на то, что пользователи не могут создавать, изменять или удалять основные фигуры.
+Диапазон возможных значений для этого элемента — "0" или "1". Значение "0" указывает, что пользователи могут создавать, редактировать или удалять эталстрые фигуры. Значение "1" указывает, что пользователи не могут создавать, редактировать и удалять эталстрые фигуры.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -26,8 +26,8 @@ ms.locfileid: "34540695"
 |:-----|:-----|
 |**Тип элемента** <br/> |[ProtectMasters_Type](protectmasters_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Document. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -44,7 +44,7 @@ ms.locfileid: "34540695"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[документсеттингс](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 

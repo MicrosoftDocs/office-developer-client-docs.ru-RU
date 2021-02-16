@@ -1,5 +1,5 @@
 ---
-title: Программное удаление вложений уровня безопасности 2 из сообщений и их сохранение на диске
+title: Программное удаление вложений уровня безопасности 2 из сообщений и сохранение их на диске
 TOCTitle: Programmatically remove security level 2 attachments from messages and save them to disk
 ms:assetid: fb63e505-a243-40a5-919d-e4fe914af3f9
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff184657(v=office.15)

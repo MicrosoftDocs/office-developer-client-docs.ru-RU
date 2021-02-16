@@ -1,12 +1,12 @@
 ---
-title: Элемент SnapExtensions (DocumentSettings_Type complexType) (XML для Visio)
+title: Элемент SnapExtensions (DocumentSettings_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: d55b6676-125f-7cf1-509d-21dee548f5a1
-description: Указывает, включен или отключен указанный параметр расширения привязки для активного окна.
+description: Указывает, включен ли определенный параметр расширения оснастки для активного окна.
 ms.openlocfilehash: 86ff7f32d6e12b2f0d7a8387d8e5b7ae9870b5fa
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540380"
 ---
-# <a name="snapextensions-element-documentsettings_type-complextype-visio-xml"></a>Элемент SnapExtensions (DocumentSettings_Type complexType) (XML для Visio)
+# <a name="snapextensions-element-documentsettings_type-complextype-visio-xml"></a>Элемент SnapExtensions (DocumentSettings_Type complexType) (Visio XML)
 
-Указывает, включен или отключен указанный параметр расширения привязки для активного окна. 
+Указывает, включен ли определенный параметр расширения оснастки для активного окна. 
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34540380"
 |:-----|:-----|
 |**Тип элемента** <br/> |[SnapExtensions_Type](snapextensions_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Document. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |document.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34540380"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[документсеттингс](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
+|[DocumentSettings](documentsettings-element-visiodocument_type-complextypevisio-xml.md) <br/> |[DocumentSettings_Type](documentsettings_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие параметры документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -54,23 +54,23 @@ ms.locfileid: "34540380"
   
 ## <a name="remarks"></a>Примечания
 
-Значение элемента **SnapExtensions** может быть суммой значений, приведенных в следующей таблице. 
+Значение элемента **SnapExtensions** может быть суммой значений в следующей таблице. 
   
 |**Значение**|**Описание**|
 |:-----|:-----|
-|нуль  <br/> |Привязывать к Nothing.  <br/> |
-|1,1  <br/> |Прикрепить к расширению поля выравнивания.  <br/> |
-|2  <br/> |Привязать к расширению центральной оси.  <br/> |
-|4   <br/> |Привязать к добавочному номеру тангенса.  <br/> |
-|8   <br/> |Прикрепить к добавочному номеру конечной точки.  <br/> |
-|16   <br/> |Привязать к средней точке.  <br/> |
-|32  <br/> |Привязать к линейному добавочному номеру.  <br/> |
-|64  <br/> |Прикрепить к модулю кривизны.  <br/> |
-|128  <br/> |Привязать к добавочному номеру конечной точки.  <br/> |
-|256  <br/> |Прикрепить к середине перпендикулярного расширения.  <br/> |
-|512  <br/> |Привязать к горизонтальному добавочному номеру конечной точки.  <br/> |
-|1024  <br/> |Прикрепить к вертикальному добавочному номеру конечной точки.  <br/> |
-|2048  <br/> |Привязать к добавочному номеру центра эллипса.  <br/> |
-|4096  <br/> |Прикрепить к расширению Изометрические углы.  <br/> |
+|0  <br/> |Прикрепить к ничего не нужно.  <br/> |
+|1   <br/> |Прикрепление к расширению выравнивания.  <br/> |
+|2   <br/> |Прикрепление к центру расширения оси.  <br/> |
+|4   <br/> |Прикрепление к расширению тангента кривой.  <br/> |
+|8   <br/> |Прикрепление к расширению конечной точки.  <br/> |
+|16   <br/> |Прикрепление к расширению средней точки.  <br/> |
+|32  <br/> |Прикрепление к линейному расширению.  <br/> |
+|64  <br/> |Прикрепление к расширению кривой.  <br/> |
+|128  <br/> |Прикрепление к перпендикулярного расширения конечной точки.  <br/> |
+|256  <br/> |Прикрепление к перпендикулярном расширению средней точки.  <br/> |
+|512  <br/> |Прикрепление к горизонтальному расширению конечной точки.  <br/> |
+|1024  <br/> |Прикрепление к вертикальному расширению конечной точки.  <br/> |
+|2048  <br/> |Прикрепление к расширению центра эллипса.  <br/> |
+|4096  <br/> |Прикрепление к расширению изометрических углов.  <br/> |
    
 

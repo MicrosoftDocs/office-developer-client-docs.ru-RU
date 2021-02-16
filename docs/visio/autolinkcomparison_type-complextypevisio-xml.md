@@ -1,5 +1,5 @@
 ---
-title: AutoLinkComparison_Type complexType (XML для Visio)
+title: AutoLinkComparison_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34537887"
 ---
-# <a name="autolinkcomparison_type-complextype-visio-xml"></a>AutoLinkComparison_Type complexType (XML для Visio)
+# <a name="autolinkcomparison_type-complextype-visio-xml"></a>AutoLinkComparison_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -54,8 +54,8 @@ ms.locfileid: "34537887"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ColumnName  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|контексттипе  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
-|контексттипелабел  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|ColumnName  <br/> |xsd:string  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|ContextType  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|ContextTypeLabel  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
    
 

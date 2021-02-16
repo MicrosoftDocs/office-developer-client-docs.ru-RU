@@ -1,5 +1,5 @@
 ---
-title: FunctionDef_Type complexType (XML для Visio)
+title: FunctionDef_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539837"
 ---
-# <a name="functiondef_type-complextype-visio-xml"></a>FunctionDef_Type complexType (XML для Visio)
+# <a name="functiondef_type-complextype-visio-xml"></a>FunctionDef_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -47,6 +47,6 @@ ms.locfileid: "34539837"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|N  <br/> |XSD: строка  <br/> |Обязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|N  <br/> |xsd:string  <br/> |Обязательный  <br/> ||Значения типа xsd:string.  <br/> |
    
 

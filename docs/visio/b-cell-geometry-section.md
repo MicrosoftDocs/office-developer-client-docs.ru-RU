@@ -22,20 +22,20 @@ ms.locfileid: "34537796"
   
 |Строка|Описание|
 |:-----|:-----|
-|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Координата *y* контрольной точки дуги.  <br/> |
-|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Последний вес неоднородного рационального B-сплайна (NURBS).  <br/> |
-|[SplineStart](splinestart-row-geometry-section.md) <br/> | Первый кнот сплайна.  <br/> |
-|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Координата *y* точки на бесконечной линии; Связывание с координатой *x* [, представленной ячейкой](a-cell-geometry-section.md) .  <br/> |
-|[Ellipse](ellipse-row-geometry-section.md) <br/> | Координата *y* точки эллипса; Связывание с координатой *x* [, представленной ячейкой](a-cell-geometry-section.md) .  <br/> |
+|[EllipticalArcTo](ellipticalarcto-row-geometry-section.md) <br/> | Y-координата контрольной точки дуги.   <br/> |
+|[NURBSTo](nurbsto-row-geometry-section.md) <br/> | Последний вес несвязаного рационального B-spline (NURBS).  <br/> |
+|[SplineStart](splinestart-row-geometry-section.md) <br/> | Первая ветвь сплайна.  <br/> |
+|[InfiniteLine](infiniteline-row-geometry-section.md) <br/> | Y-координата точки на бесконечной линии;  сопряжено  с x-координатой, представленной ячейкой [A.](a-cell-geometry-section.md)  <br/> |
+|[Ellipse](ellipse-row-geometry-section.md) <br/> | Y-координата точки на эллипсе;  сопряжено  с x-координатой, представленной ячейкой [A.](a-cell-geometry-section.md)  <br/> |
    
 ## <a name="remarks"></a>Примечания
 
-Чтобы получить ссылку на ячейку B по имени из другой формулы или из программы с помощью свойства **CellsU** , используйте: 
+Чтобы получить ссылку на ячейку B по имени из другой формулы или из программы, используя свойство **CellsU,** используйте: 
   
 |||
 |:-----|:-----|
-| Имя ячейки:  <br/> | Геометрия *i* . B *j* , где *i* и *j* = <1>, 2, 3...  <br/> |
-|| Геометрия *i* . Строки B1 (строка infiniteline и Ellipse)  <br/> |
+| Имя ячейки:  <br/> | Геометрия  *i*  . B  *j,*            *где i*  и  *j*  = <1>, 2, 3...  <br/> |
+|| Геометрия  *i*  . B1 (строки InfiniteLine и Ellipse)  <br/> |
    
 Чтобы получить ссылку на ячейку B по индексу из программы, используйте свойство **CellsSRC** со следующими аргументами: 
   
@@ -44,11 +44,11 @@ ms.locfileid: "34537796"
 | Индекс раздела:  <br/> |**visSectionFirstComponent** +  *i*, где *i* = 0, 1, 2...  <br/> |
 | Индекс строки:  <br/> |**visRowVertex** +  *j*, где *j* = 0, 1, 2...  <br/> |
 ||**visRowVertex** (строки InfiniteLine и Ellipse)  <br/> |
-| Индекс ячейки:  <br/> |**висконтролкс** (строка строка ellipticalarcto)  <br/> |
-||**висконтроли** (строка строка ellipticalarcto)  <br/> |
-||**виснурбсвеигхт** (строка NURBSTo)  <br/> |
-||**visSplineKnot2** (строка строка splinestart)  <br/> |
-||**visInfiniteLineY2** (строка строка infiniteline)  <br/> |
-||**виселлипсемажори** (строка "эллипс")  <br/> |
+| Индекс ячейки:  <br/> |**visControlX** (строка EllipticalArcTo)  <br/> |
+||**visControlY** (строка EllipticalArcTo)  <br/> |
+||**visNURBSWeight** (строка NURBSTo)  <br/> |
+||**visSplineKnot2** (строка SplineStart)  <br/> |
+||**visInfiniteLineY2** (строка InfiniteLine)  <br/> |
+||**visEllipseMajorY** (строка Ellipse)  <br/> |
    
 

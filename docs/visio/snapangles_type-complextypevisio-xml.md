@@ -1,5 +1,5 @@
 ---
-title: SnapAngles_Type complexType (XML для Visio)
+title: SnapAngles_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34540359"
 ---
-# <a name="snapangles_type-complextype-visio-xml"></a>SnapAngles_Type complexType (XML для Visio)
+# <a name="snapangles_type-complextype-visio-xml"></a>SnapAngles_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -48,7 +48,7 @@ ms.locfileid: "34540359"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[снапангле](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> ||
+|[SnapAngle](snapangle-element-snapangles_type-complextypevisio-xml.md) <br/> |[SnapAngle_Type](snapangle_type-complextypevisio-xml.md) <br/> ||
    
 ### <a name="attributes"></a>Атрибуты
 

@@ -1,5 +1,5 @@
 ---
-title: fld_Type complexType (XML для Visio)
+title: fld_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539602"
 ---
-# <a name="fld_type-complextype-visio-xml"></a>fld_Type complexType (XML для Visio)
+# <a name="fld_type-complextype-visio-xml"></a>fld_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -21,7 +21,7 @@ ms.locfileid: "34539602"
 |:-----|:-----|
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Базовый элемент расширения** <br/> |XSD: строка  <br/> |
+|**Базовый элемент расширения** <br/> |xsd:string  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -52,6 +52,6 @@ ms.locfileid: "34539602"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|IX  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|IX  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
    
 

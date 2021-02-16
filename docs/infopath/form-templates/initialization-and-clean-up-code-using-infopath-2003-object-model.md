@@ -126,7 +126,7 @@ Public Sub CTRL1_5_OnClick(ByVal e As DocActionEvent)
 End Sub
 ```
 
-Сведения о том, как создать обработчик событий, можно найти в статье [Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md).
+Сведения о том, как создать обработок событий, см. в подразделе "Добавление обработера событий с помощью объектной модели [InfoPath 2003".](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
   
 ## <a name="the-_shutdown-method"></a>Метод _ShutDown
 
@@ -148,7 +148,7 @@ End Sub
 В следующем примере демонстрируется инициализация подключения к базе данных Microsoft SQL Server в методе  `_Startup` и закрытие подключения в методе  `_Shutdown`. Чтобы этот пример работал правильно, необходимо сначала указать ссылку на сборку System.Data для платформы .NET Framework, выбрав пункт **Добавить ссылку** в меню **Проект**, а затем выбрать компонент System.Data.dll на вкладке **.NET**. Кроме того, обратите внимание, что в верхней части файла кода формы добавлена директива  `using System.Data.SqlClient` (или  `Imports System.Data.SqlClient)` для уменьшения числа нажатий клавиш. 
   
 > [!NOTE]
-> Пользователям формы InfoPath, содержащей код формы для подключения к базе данных SQL Server, могут потребоваться разрешения безопасности, зависящие от метода развертывания формы и определения политики безопасности. Дополнительные сведения о безопасности см. в статье [модель безопасности для шаблонов форм с кодом](about-the-security-model-for-form-templates-with-code.md) и [Настройка параметров безопасности для шаблонов форм с кодом](how-to-configure-security-settings-for-form-templates-with-code.md). 
+> Пользователям формы InfoPath, содержащей код формы для подключения к базе данных SQL Server, могут потребоваться разрешения безопасности, зависящие от метода развертывания формы и определения политики безопасности. Дополнительные сведения о [](about-the-security-model-for-form-templates-with-code.md) безопасности см. в сведениях о модели безопасности для шаблонов форм с кодом и настройке параметров безопасности для шаблонов форм [с кодом.](how-to-configure-security-settings-for-form-templates-with-code.md) 
   
 ```cs
 using System;
@@ -221,5 +221,5 @@ End Namespace
 
 
 
-[Добавление обработчика событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
+[Добавление обработера событий с помощью объектной модели InfoPath 2003](how-to-add-an-event-handler-using-the-infopath-2003-object-model.md)
 

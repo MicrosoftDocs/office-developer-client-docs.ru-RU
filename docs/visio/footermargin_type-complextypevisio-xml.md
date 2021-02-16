@@ -1,5 +1,5 @@
 ---
-title: FooterMargin_Type complexType (XML для Visio)
+title: FooterMargin_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538643"
 ---
-# <a name="footermargin_type-complextype-visio-xml"></a>FooterMargin_Type complexType (XML для Visio)
+# <a name="footermargin_type-complextype-visio-xml"></a>FooterMargin_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -21,7 +21,7 @@ ms.locfileid: "34538643"
 |:-----|:-----|
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2011/1/core  <br/> |
 |**Файл схемы** <br/> |VisioSchema15-2012-06-05.xsd  <br/> |
-|**Базовый элемент расширения** <br/> |XSD: Double  <br/> |
+|**Базовый элемент расширения** <br/> |xsd:double  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -51,6 +51,6 @@ ms.locfileid: "34538643"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Устройств  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
+|Unit  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
    
 

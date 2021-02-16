@@ -1,5 +1,5 @@
 ---
-title: Элемент хозяев (XML для Visio)
+title: Элемент Masters (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538055"
 ---
-# <a name="masters-element-visio-xml"></a>Элемент хозяев (XML для Visio)
+# <a name="masters-element-visio-xml"></a>Элемент Masters (Visio XML)
 
 Содержит элементы Master для документа.
   
@@ -24,8 +24,8 @@ ms.locfileid: "34538055"
 |:-----|:-----|
 |**Тип элемента** <br/> |[Masters_Type](masters_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Главные. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |masters.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -46,8 +46,8 @@ ms.locfileid: "34538055"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие шаблон для документа.  <br/> |
-|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Задает ярлык образца, определенный в документе.  <br/> |
+|[Master](master-element-masters_type-complextypevisio-xml.md) <br/> |[Master_Type](master_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие основные элементы для документа.  <br/> |
+|[MasterShortcut](mastershortcut-element-masters_type-complextypevisio-xml.md) <br/> |[MasterShortcut_Type](mastershortcut_type-complextypevisio-xml.md) <br/> |Указывает ярлык, определенный в документе.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 

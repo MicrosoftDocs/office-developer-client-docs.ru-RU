@@ -1,5 +1,5 @@
 ---
-title: Элемент Page (Pages_Type complexType) (XML для Visio)
+title: Элемент Page (Pages_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538027"
 ---
-# <a name="page-element-pages_type-complextype-visio-xml"></a>Элемент Page (Pages_Type complexType) (XML для Visio)
+# <a name="page-element-pages_type-complextype-visio-xml"></a>Элемент Page (Pages_Type complexType) (Visio XML)
 
 Содержит элементы, определяющие страницу в документе.
   
@@ -24,8 +24,8 @@ ms.locfileid: "34538027"
 |:-----|:-----|
 |**Тип элемента** <br/> |[Page_Type](page_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Pages. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |pages.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,28 +42,28 @@ ms.locfileid: "34538027"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Страницы](pages-elementvisio-xml.md) <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |Содержит элементы **страницы** для документа.  <br/> |
+|[Pages](pages-elementvisio-xml.md) <br/> |[Pages_Type](pages_type-complextypevisio-xml.md) <br/> |Содержит элементы **Page** для документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[PageSheet](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие лист страницы для элемента **Page** .  <br/> |
+|[PageSheet](pagesheet-element-page_type-complextypevisio-xml.md) <br/> |[PageSheet_Type](pagesheet_type-complextypevisio-xml.md) <br/> |Содержит элементы, определяющие лист страницы для **элемента Page.**  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Общие сведения  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Флаг, указывающий, является ли страница страницей фона.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|BackPage  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор фоновой страницы этой страницы.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальный идентификатор элемента в родительском элементе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|искустомнаме  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, настроено ли имя пользователем.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|искустомнамеу  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, настроено ли универсальное имя пользователем.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> |Имя элемента.  <br/> |Значения типа String: XSD.  <br/> |
-|NameU  <br/> |XSD: строка  <br/> |необязательный  <br/> |Универсальное имя элемента.  <br/> |Значения типа String: XSD.  <br/> |
-|ReviewerID  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор проверяющего, связанный с наложением разметки.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|виевцентеркс  <br/> |XSD: Double  <br/> |необязательный  <br/> |**Виевцентеркс** и **виевцентери** указывают центральную точку на странице, которая предполагается при открытии нового представления (окна).  <br/> |Значения типа XSD: Double.  <br/> |
-|виевцентери  <br/> |XSD: Double  <br/> |необязательный  <br/> |**Виевцентеркс** и **виевцентери** указывают центральную точку на странице, которая предполагается при открытии нового представления (окна).  <br/> |Значения типа XSD: Double.  <br/> |
-|виевскале  <br/> |XSD: Double  <br/> |необязательный  <br/> |Фактор увеличения по умолчанию, используемый при открытии нового представления (окна) страницы. Например, 1 = 100%; 1,5 = 150% и т. д.  <br/> |Значения типа XSD: Double.  <br/> |
+|Общие сведения  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Флаг, указывающий, является ли страница фоновой.  <br/> |Значения типа xsd:boolean.  <br/> |
+|BackPage  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ИД фоновой страницы этой страницы.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Уникальный ИД элемента в родительском элементе.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|IsCustomName  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, было ли имя настроено пользователем.  <br/> |Значения типа xsd:Boolean.  <br/> |
+|IsCustomNameU  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Указывает, настроено ли пользователем универсальное имя.  <br/> |Значения типа xsd:Boolean.  <br/> |
+|Имя  <br/> |xsd:string  <br/> |необязательный  <br/> |Имя элемента.  <br/> |Значения типа xsd:string.  <br/> |
+|NameU  <br/> |xsd:string  <br/> |необязательный  <br/> |Универсальное имя элемента.  <br/> |Значения типа xsd:string.  <br/> |
+|ReviewerID  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ИД проверяемого, связанного с наложением разметки.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|ViewCenterX  <br/> |xsd:double  <br/> |необязательный  <br/> |**ViewCenterX** и **ViewCenterY** указывают центр на странице, которая предполагается новым представлением (окном) при его первоначальном просмотре.  <br/> |Значения типа xsd:double.  <br/> |
+|ViewCenterY  <br/> |xsd:double  <br/> |необязательный  <br/> |**ViewCenterX** и **ViewCenterY** указывают центр на странице, которая предполагается новым представлением (окном) при его первоначальном просмотре.  <br/> |Значения типа xsd:double.  <br/> |
+|ViewScale  <br/> |xsd:double  <br/> |необязательный  <br/> |Коэффициент увеличения по умолчанию, который используется при открытом новом представлении (окне) страницы. Например, 1 = 100%; 1,5 = 150 % и так далее.  <br/> |Значения типа xsd:double.  <br/> |
    
 

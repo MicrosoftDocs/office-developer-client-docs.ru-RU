@@ -1,5 +1,5 @@
 ---
-title: Карта схемы (XML-файл Visio)
+title: Карта схемы (Visio XML)
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539084"
 ---
-# <a name="schema-map-visio-xml"></a>Карта схемы (XML-файл Visio)
+# <a name="schema-map-visio-xml"></a>Карта схемы (Visio XML)
 
 В этом разделе показано определение схемы XML для формата файлов Visio 2013.
   

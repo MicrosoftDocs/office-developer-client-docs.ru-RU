@@ -1,5 +1,5 @@
 ---
-title: ForeignData_Type complexType (XML для Visio)
+title: ForeignData_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539865"
 ---
-# <a name="foreigndata_type-complextype-visio-xml"></a>ForeignData_Type complexType (XML для Visio)
+# <a name="foreigndata_type-complextype-visio-xml"></a>ForeignData_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -85,15 +85,15 @@ ms.locfileid: "34539865"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|компрессионлевел  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
-|компрессионтипе  <br/> |XSD: маркер  <br/> |необязательный  <br/> ||Значения типа маркера XSD:.  <br/> |
-|екстенткс  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
-|Экстент  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
-|ForeignType  <br/> |XSD: маркер  <br/> |Обязательный  <br/> ||Значения типа маркера XSD:.  <br/> |
-|маппингмоде  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
-|обжексеигхт  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
-|ObjectType  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
-|обжектвидс  <br/> |XSD: Double  <br/> |необязательный  <br/> ||Значения типа XSD: Double.  <br/> |
-|шовасикон  <br/> |XSD: Boolean  <br/> |необязательный  <br/> ||Значения типа XSD: Boolean.  <br/> |
+|CompressionLevel  <br/> |xsd:double  <br/> |необязательный  <br/> ||Значения типа xsd:double.  <br/> |
+|CompressionType  <br/> |xsd:token  <br/> |необязательный  <br/> ||Значения типа xsd:token.  <br/> |
+|ExtentX  <br/> |xsd:double  <br/> |необязательный  <br/> ||Значения типа xsd:double.  <br/> |
+|ExtentY  <br/> |xsd:double  <br/> |необязательный  <br/> ||Значения типа xsd:double.  <br/> |
+|ForeignType  <br/> |xsd:token  <br/> |Обязательный  <br/> ||Значения типа xsd:token.  <br/> |
+|MappingMode  <br/> |xsd:unsignedShort  <br/> |необязательный  <br/> ||Значения для типа xsd:unsignedShort.  <br/> |
+|ObjectHeight  <br/> |xsd:double  <br/> |необязательный  <br/> ||Значения типа xsd:double.  <br/> |
+|ObjectType  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|ObjectWidth  <br/> |xsd:double  <br/> |необязательный  <br/> ||Значения типа xsd:double.  <br/> |
+|ShowAsIcon  <br/> |xsd:boolean  <br/> |необязательный  <br/> ||Значения типа xsd:boolean.  <br/> |
    
 

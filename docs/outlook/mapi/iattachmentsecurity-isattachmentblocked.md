@@ -1,5 +1,5 @@
 ---
-title: иаттачментсекуритисаттачментблоккед
+title: IAttachmentSecurityIsAttachmentBlocked
 manager: soliver
 ms.date: 11/16/2014
 ms.audience: Developer
@@ -25,7 +25,7 @@ ms.locfileid: "33439781"
   
 **Относится к**: Outlook 2013 | Outlook 2016 
   
-Проверяет, блокируется ли указанное вложение приложением Microsoft Outlook 2010 или Microsoft Outlook 2013 для просмотра и индексирования.
+Проверяет, заблокировано ли указанное вложение Microsoft Outlook 2010, русская версия Или Microsoft Outlook 2013 для просмотра и индексации.
   
 ```cpp
 HRESULT IAttachmentSecurity::IsAttachmentBlocked( 
@@ -36,13 +36,13 @@ HRESULT IAttachmentSecurity::IsAttachmentBlocked(
 
 ## <a name="parameters"></a>Параметры
 
- _пвсзфиленаме_
+ _pwszFileName_
   
-> возврата Указатель на имя файла вложения.
+> [in] Указатель на имя файла вложения.
     
- _пфблоккед_
+ _pfBlocked_
   
-> вышли Указатель на значение **true** , если указанное вложение заблокировано; в противном случае — **false**.
+> [out] Указатель на значение, указывающее **значение true,** если указанное вложение заблокировано; в **противном** случае false .
     
 ## <a name="see-also"></a>См. также
 

@@ -1,5 +1,5 @@
 ---
-title: DataRecordSets_Type complexType (XML для Visio)
+title: DataRecordSets_Type complexType (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -13,7 +13,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539160"
 ---
-# <a name="datarecordsets_type-complextype-visio-xml"></a>DataRecordSets_Type complexType (XML для Visio)
+# <a name="datarecordsets_type-complextype-visio-xml"></a>DataRecordSets_Type complexType (Visio XML)
 
 ## <a name="type-information"></a>Сведения о типе
 
@@ -64,8 +64,8 @@ ms.locfileid: "34539160"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|активерекордсетид  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
-|датавиндовордер  <br/> |XSD: строка  <br/> |необязательный  <br/> ||Значения типа String: XSD.  <br/> |
-|некстид  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> ||Значения типа XSD: Унсигнединт.  <br/> |
+|ActiveRecordsetID  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
+|DataWindowOrder  <br/> |xsd:string  <br/> |необязательный  <br/> ||Значения типа xsd:string.  <br/> |
+|NextID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> ||Значения типа xsd:unsignedInt.  <br/> |
    
 

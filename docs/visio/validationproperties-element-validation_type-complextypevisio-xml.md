@@ -1,5 +1,5 @@
 ---
-title: Элемент Валидатионпропертиес (Validation_Type complexType) (XML для Visio)
+title: Элемент ValidationProperties (Validation_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538524"
 ---
-# <a name="validationproperties-element-validation_type-complextype-visio-xml"></a>Элемент Валидатионпропертиес (Validation_Type complexType) (XML для Visio)
+# <a name="validationproperties-element-validation_type-complextype-visio-xml"></a>Элемент ValidationProperties (Validation_Type complexType) (Visio XML)
 
 Инкапсулирует свойства, связанные с проверкой документа.
   
@@ -24,8 +24,8 @@ ms.locfileid: "34538524"
 |:-----|:-----|
 |**Тип элемента** <br/> |[ValidationProperties_Type](validationproperties_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Проверка. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |validation.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34538524"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Validation](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Сохраняет сведения о проверке схемы для документа.  <br/> |
+|[Validation](validation-elementvisio-xml.md) <br/> |[Validation_Type](validation_type-complextypevisio-xml.md) <br/> |Хранит сведения о проверке схемы для документа.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "34538524"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|ластвалидатед  <br/> |XSD: dateTime  <br/> |Обязательный  <br/> |Дата и время последней проверки документа.  <br/> |Значения типа XSD: dateTime.  <br/> |
-|шовигноред  <br/> |XSD: Boolean  <br/> |Обязательный  <br/> |Указывает, следует ли отображать пропущенные проблемы при проверке в окне "проблемы".  <br/> |Значения типа XSD: Boolean.  <br/> |
+|LastValidated  <br/> |xsd:dateTime  <br/> |Обязательный  <br/> |Дата и время последней проверки документа.  <br/> |Значения типа xsd:dateTime.  <br/> |
+|ShowIgnored  <br/> |xsd:boolean  <br/> |Обязательный  <br/> |Указывает, следует ли показывать пропущенные проблемы проверки в окне "Проблемы".  <br/> |Значения типа xsd:boolean.  <br/> |
    
 

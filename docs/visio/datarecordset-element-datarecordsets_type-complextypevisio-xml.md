@@ -1,12 +1,12 @@
 ---
-title: Элемент "Выбор элемента записи" (DataRecordSets_Type complexType) (XML для Visio)
+title: Элемент DataRecordSet (DataRecordSets_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: aa182f04-0899-ee0e-79e1-b74832933e83
-description: Хранение, форматирование, обновление и предоставление данных, запрашиваемых из базы данных в Microsoft Visio.
+description: Хранит, форматирует, обновляет и предоставляет данные, запрашиваемые из базы данных в Microsoft Visio.
 ms.openlocfilehash: e478593f370968db5fe9a65329cb1928c0f7c6ea
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34539679"
 ---
-# <a name="datarecordset-element-datarecordsets_type-complextype-visio-xml"></a>Элемент "Выбор элемента записи" (DataRecordSets_Type complexType) (XML для Visio)
+# <a name="datarecordset-element-datarecordsets_type-complextype-visio-xml"></a>Элемент DataRecordSet (DataRecordSets_Type complexType) (Visio XML)
 
-Хранение, форматирование, обновление и предоставление данных, запрашиваемых из базы данных в Microsoft Visio.
+Хранит, форматирует, обновляет и предоставляет данные, запрашиваемые из базы данных в Microsoft Visio.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34539679"
 |:-----|:-----|
 |**Тип элемента** <br/> |[DataRecordSet_Type](datarecordset_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Recordset. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |recordsets.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,36 +42,36 @@ ms.locfileid: "34539679"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[DataRecordSets](datarecordsets-elementvisio-xml.md) <br/> |[DataRecordSets_Type](datarecordsets_type-complextypevisio-xml.md) <br/> |Содержит все элементы **Record** в документе.  <br/> |
+|[DataRecordSets](datarecordsets-elementvisio-xml.md) <br/> |[DataRecordSets_Type](datarecordsets_type-complextypevisio-xml.md) <br/> |Содержит все **элементы DataRecordset** в документе.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[адодата](autolinkcomparison-element-datarecordset_type-complextypevisio-xml.md) <br/> |[ADOData_Type](autolinkcomparison_type-complextypevisio-xml.md) <br/> |Содержит XML-код, который соответствует классической схеме XML для объекта Recordset ADO и описывает данные в наборе данных.  <br/> |
-|[аутолинккомпарисон](autolinkcomparison-element-datarecordset_type-complextypevisio-xml.md) <br/> |[AutoLinkComparison_Type](autolinkcomparison_type-complextypevisio-xml.md) <br/> |Определяет правило, которое сравнивает столбец в родительском элементе данных фигуры **с элементом данных** фигуры из последнего успешного действия автоматического связывания, выполняемого в пользовательском интерфейсе.  <br/> |
-|[DataColumn](datacolumns-element-datarecordset_type-complextypevisio-xml.md) <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |Определяет, как столбец данных отображается в окне " **Внешние данные** " в пользовательском интерфейсе Visio, и определяет данные в столбце, определяя тип данных и форматирование.  <br/> |
-|[DataColumns](datacolumns-element-datarecordset_type-complextypevisio-xml.md) <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |Содержит все элементы **DataColumn** в наборе данных данных.  <br/> |
+|[ADOData](autolinkcomparison-element-datarecordset_type-complextypevisio-xml.md) <br/> |[ADOData_Type](autolinkcomparison_type-complextypevisio-xml.md) <br/> |Содержит XML,соответствующий классической схеме XML ADO для наборов записей ADO и описывая данные в наборе записей данных.  <br/> |
+|[AutoLinkComparison](autolinkcomparison-element-datarecordset_type-complextypevisio-xml.md) <br/> |[AutoLinkComparison_Type](autolinkcomparison_type-complextypevisio-xml.md) <br/> |Определяет правило, которое сравнивает столбец в родительском элементе **DataRecordset** с элементом данных фигуры из последнего успешного действия автоматического связывания, выполненного в пользовательском интерфейсе.  <br/> |
+|[DataColumn](datacolumns-element-datarecordset_type-complextypevisio-xml.md) <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |Определяет, как столбец данных  отображается в окне внешних данных в пользовательском интерфейсе Visio, и квалификаторирует данные в столбце, определяя его тип данных и форматирование.  <br/> |
+|[DataColumns](datacolumns-element-datarecordset_type-complextypevisio-xml.md) <br/> |[DataColumns_Type](datacolumns_type-complextypevisio-xml.md) <br/> |Содержит все **элементы DataColumn** в наборе записей данных.  <br/> |
 |[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |Определяет один или несколько столбцов первичного ключа в наборе записей данных.  <br/> |
-|[рефрешконфликт](refreshconflict-element-datarecordset_type-complextypevisio-xml.md) <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |Указывает строку в наборе записей данных, связанную с фигурой, которая находится в конфликте после обновления набора записей данных.  <br/> |
-|[ровмап](rowmap-element-datarecordset_type-complextypevisio-xml.md) <br/> |[RowMap_Type](rowmap_type-complextypevisio-xml.md) <br/> |Сопоставляет строку набора записей данных с фигурой.  <br/> |
+|[RefreshConflict](refreshconflict-element-datarecordset_type-complextypevisio-xml.md) <br/> |[RefreshConflict_Type](refreshconflict_type-complextypevisio-xml.md) <br/> |Указывает строку в наборе записей данных, связанную с фигурой, которая находится в конфликте после обновления наборов записей данных.  <br/> |
+|[RowMap](rowmap-element-datarecordset_type-complextypevisio-xml.md) <br/> |[RowMap_Type](rowmap_type-complextypevisio-xml.md) <br/> |Сопописывая строка наборов данных с фигурой.  <br/> |
    
 ### <a name="attributes"></a>Атрибуты
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Контрольная сумма  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Значение контрольной суммы, созданное Visio и основанное на свойствах Recordset данных. Установите для этого аттирбуте значение 0; Visio повторно вычисляет это значение во время выполнения.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Command  <br/> |XSD: строка  <br/> |необязательный  <br/> |Командная строка, используемая для запроса данных из источника данных.  <br/> |Значения типа String: XSD.  <br/> |
-|коннектионид  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Идентификатор подключения для связанного объекта **подключения** DataObject. Не существует для источников данных XML.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Идентификатор набора записей данных, уникальный в пределах документа.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Имя  <br/> |XSD: строка  <br/> |необязательный  <br/> |Отображаемое (или "понятное") имя набора записей данных.  <br/> |Значения типа String: XSD.  <br/> |
-|некстровид  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Следующий доступный идентификатор строки Visio.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Параметры  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Параметры, применяемые к набору записей данных. Возможные значения могут быть любым сочетанием одного или нескольких из них, приведенных в следующей таблице.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|RefreshInterval  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Частота автоматического обновления набора записей данных (в минутах) Visio. Это значение должно быть равно 1 или больше.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|рефрешнореконЦилиатионуи  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, следует ли отключить пользовательский интерфейс для согласования данных. Значение true (1) для отключения пользовательского интерфейса. Значение false (0) для включения пользовательского интерфейса.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|рефрешовервритеалл  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Указывает, следует ли перезаписывать пользовательские изменения в элементы данных фигуры в фигурах, связанных с данными при обновлении набора записей данных.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|реплацелинкс  <br/> |XSD: Унсигнединт  <br/> |необязательный  <br/> |Определяет способ обработки связей с данными фигуры при копировании или вырезании фигур. 1, чтобы заменить существующие ссылки в целевой фигуре. 0, чтобы сохранить существующие ссылки в целевой фигуре.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|ровордер  <br/> |XSD: Boolean  <br/> |необязательный  <br/> |Следует ли использовать порядок строк в наборе записей данных в качестве первичного ключа. Значение true (1), если идентификаторы строк определяются по порядку строк. False (0), если идентификаторы строк определяются значениями в столбцах первичных ключей набора записей данных.  <br/> |Значения типа XSD: Boolean.  <br/> |
-|TimeRefreshed  <br/> |XSD: dateTime  <br/> |необязательный  <br/> |Дата и время последнего обновления набора записей данных.  <br/> |Значения типа XSD: dateTime.  <br/> |
+|Контрольная сумма  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Значение контрольной суммы, сгенерированное Visio и основанное на свойствах наборов записей данных. Установите для этого attirbute 0; Visio пересчитает это значение во время работы.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|Команда  <br/> |xsd:string  <br/> |необязательный  <br/> |Строка команды, используемая для запроса данных из источника данных.  <br/> |Значения типа xsd:string.  <br/> |
+|ConnectionID  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |ИД подключения для связанного **объекта DataConnection.** Не существует для источников данных XML.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Уникальный в документе ИД наборов записей данных.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|Имя  <br/> |xsd:string  <br/> |необязательный  <br/> |Отображаемого (или "удобного") имени для наборов записей данных.  <br/> |Значения типа xsd:string.  <br/> |
+|NextRowID  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Следующий доступный ИД строки Visio.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|Параметры  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Параметры для применения к набору записей данных. Возможные значения могут быть любым сочетанием одного или нескольких из них, показанных в следующей таблице.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|RefreshInterval  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Как часто (в минутах) Visio автоматически обновляет набор записей данных. Это значение должно быть 1 или больше.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|RefreshNoReconciliationUI  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Следует ли отключить пользовательский интерфейс выверки данных. True (1) для отключения пользовательского интерфейса. False (0), чтобы включить пользовательский интерфейс.  <br/> |Значения типа xsd:boolean.  <br/> |
+|RefreshOverwriteAll  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Следует ли переописывать изменения пользователя для элементов данных фигур в фигурах, связанных с данными при обновлении наборов записей данных.  <br/> |Значения типа xsd:boolean.  <br/> |
+|ReplaceLinks  <br/> |xsd:unsignedInt  <br/> |необязательный  <br/> |Определяет, как ссылки на данные фигур обрабатываются при копировании или вырезании фигур. 1 для замены существующих ссылок в целевой фигуре. 0 для сохранения существующих ссылок в целевой фигуре.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|RowOrder  <br/> |xsd:boolean  <br/> |необязательный  <br/> |Следует ли использовать порядок строк в наборе записей данных в качестве первичного ключа. True (1), если ИД строки определяются порядком строки. Значение False (0), если ИД строки определяются значениями в столбцах первичного ключа в наборе записей данных.  <br/> |Значения типа xsd:boolean.  <br/> |
+|TimeRefreshed  <br/> |xsd:dateTime  <br/> |необязательный  <br/> |Дата и время последнего обновления наборов записей данных.  <br/> |Значения типа xsd:dateTime.  <br/> |
    
 

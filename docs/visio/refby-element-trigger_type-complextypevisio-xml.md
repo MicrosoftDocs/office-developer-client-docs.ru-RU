@@ -1,5 +1,5 @@
 ---
-title: Элемент RefBy (Trigger_Type complexType) (XML для Visio)
+title: Элемент RefBy (Trigger_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538293"
 ---
-# <a name="refby-element-trigger_type-complextype-visio-xml"></a>Элемент RefBy (Trigger_Type complexType) (XML для Visio)
+# <a name="refby-element-trigger_type-complextype-visio-xml"></a>Элемент RefBy (Trigger_Type complexType) (Visio XML)
 
 Указывает ссылку на страницу в документе.
   
@@ -24,7 +24,7 @@ ms.locfileid: "34538293"
 |:-----|:-----|
 |**Тип элемента** <br/> |[RefBy_Type](refby_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
 |**Части документа** <br/> ||
    
 ## <a name="definition"></a>Определение
@@ -42,7 +42,7 @@ ms.locfileid: "34538293"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |В этой статье приведены инструкции по пересчету связей между частями документа в файле Visio в Microsoft Visio.  <br/> |
+|[Trigger](trigger-elementvisio-xml.md) <br/> |[Trigger_Type](trigger_type-complextypevisio-xml.md) <br/> |Содержит инструкции для Microsoft Visio по пересчету связи между частями документа в файле Visio.  <br/> |
 
    
 ### <a name="child-elements"></a>Дочерние элементы
@@ -53,7 +53,7 @@ ms.locfileid: "34538293"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|Идентификатор  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Задает атрибут ID страницы в документе.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Д  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Указывает тип ссылки.  <br/> |Значения типа String: XSD.  <br/> |
+|ID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Указывает атрибут ID страницы в документе.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|T  <br/> |xsd:string  <br/> |Обязательный  <br/> |Указывает тип ссылки.  <br/> |Значения типа xsd:string.  <br/> |
    
 

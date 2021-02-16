@@ -1,12 +1,12 @@
 ---
-title: Элемент Ровкэйвалуе (PrimaryKey_Type complexType) (XML для Visio)
+title: Элемент RowKeyValue (PrimaryKey_Type complexType) (Visio XML)
 manager: soliver
 ms.date: 03/09/2015
 ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 9077ad4b-c539-c0c8-d268-9a009990abdd
-description: Задает значение первичного ключа для отдельной строки набора записей.
+description: Указывает значение первичного ключа для отдельной строки наборов записей.
 ms.openlocfilehash: b21f479a9c0404dc8a3b737208e4d0d634b556f4
 ms.sourcegitcommit: e7b38e37a9d79becfd679e10420a19890165606d
 ms.translationtype: MT
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "34538132"
 ---
-# <a name="rowkeyvalue-element-primarykey_type-complextype-visio-xml"></a>Элемент Ровкэйвалуе (PrimaryKey_Type complexType) (XML для Visio)
+# <a name="rowkeyvalue-element-primarykey_type-complextype-visio-xml"></a>Элемент RowKeyValue (PrimaryKey_Type complexType) (Visio XML)
 
-Задает значение первичного ключа для отдельной строки набора записей.
+Указывает значение первичного ключа для отдельной строки наборов записей.
   
 ## <a name="element-information"></a>Сведения об элементе
 
@@ -24,8 +24,8 @@ ms.locfileid: "34538132"
 |:-----|:-----|
 |**Тип элемента** <br/> |[RowKeyValue_Type](rowkeyvalue_type-complextypevisio-xml.md) <br/> |
 |**Пространство имен** <br/> |http://schemas.microsoft.com/office/visio/2012/main  <br/> |
-|**Файл схемы** <br/> |VisioSchema15. xsd  <br/> |
-|**Части документа** <br/> |Recordset. XML  <br/> |
+|**Файл схемы** <br/> |VisioSchema15.xsd  <br/> |
+|**Части документа** <br/> |recordsets.xml  <br/> |
    
 ## <a name="definition"></a>Определение
 
@@ -42,7 +42,7 @@ ms.locfileid: "34538132"
 
 |**Элемент**|**Тип**|**Описание**|
 |:-----|:-----|:-----|
-|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |Задает первичный ключ набора записей.  <br/> |
+|[PrimaryKey](primarykey-element-datarecordset_type-complextypevisio-xml.md) <br/> |[PrimaryKey_Type](primarykey_type-complextypevisio-xml.md) <br/> |Указывает первичный ключ для наборов записей.  <br/> |
    
 ### <a name="child-elements"></a>Дочерние элементы
 
@@ -52,7 +52,7 @@ ms.locfileid: "34538132"
 
 |**Атрибут**|**Тип**|**Обязательный**|**Описание**|**Возможные значения**|
 |:-----|:-----|:-----|:-----|:-----|
-|RowID  <br/> |XSD: Унсигнединт  <br/> |Обязательный  <br/> |Уникальное значение, идентифицирующее строку в наборе записей.  <br/> |Значения типа XSD: Унсигнединт.  <br/> |
-|Значение  <br/> |XSD: строка  <br/> |Обязательный  <br/> |Значение первичного ключа для этой строки набора записей.  <br/> |Значения типа String: XSD.  <br/> |
+|RowID  <br/> |xsd:unsignedInt  <br/> |Обязательный  <br/> |Уникальное значение, идентифицирует строку наборов записей.  <br/> |Значения типа xsd:unsignedInt.  <br/> |
+|Значение  <br/> |xsd:string  <br/> |Обязательный  <br/> |Значение первичного ключа для этой строки наборов записей.  <br/> |Значения типа xsd:string.  <br/> |
    
 
