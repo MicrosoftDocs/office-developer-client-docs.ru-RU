@@ -8,12 +8,12 @@ api_type:
 ms.assetid: b48eda17-83a8-4dc4-85c8-4ca827d13d25
 description: 'Дата последнего изменения: 23 июля 2011 г.'
 localization_priority: Priority
-ms.openlocfilehash: 934bb491c0521b1d76d5400aac4728fbd34ba625
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 8b7c02f2ac39875021cd183bbb1657514912fe8d
+ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
 ms.translationtype: HT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32334875"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061344"
 ---
 # <a name="file-format-of-mapisvcinf"></a>Формат файла MapiSvc.inf
 
@@ -49,4 +49,7 @@ MAPI предоставляет базовую версию файла MapiSvc.i
   
 Храните в файле MapiSvc.inf только данные общедоступной конфигурации. Частная или требующая дополнительной защиты информация, например пароли и другие учетные данные, не должны быть включены в этот файл. Вместо этого либо вообще не храните такую информацию, либо храните ее в профиле в виде свойств безопасности. У свойств безопасности есть встроенные функции защиты, например шифрование.
   
+## <a name="reference"></a>Справочные материалы
+
+Дополнительные сведения об устранении ошибок, если MAPI блокирует DLL поставщика, см. в статье [Как разрешить MAPI загружать незарегистрированные DLL поставщика](https://support.microsoft.com/topic/how-to-allow-mapi-to-load-unregistered-provider-dlls-18d9a1cd-d3d7-fa10-473e-5dfd62d38b0d).
 
