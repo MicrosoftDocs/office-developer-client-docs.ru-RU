@@ -6,23 +6,23 @@ ms.audience: Developer
 ms.topic: reference
 localization_priority: Normal
 ms.assetid: 5b57296c-61d7-e517-7ab7-44a9cc1f7ffc
-description: Переменная этого типа данных содержит двоичное значение.
-ms.openlocfilehash: 3dcaaf73a04ddc608e68ca7bd1f801d0a5d99bb6
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+description: Переменная этого типа данных имеет двоичное значение.
+ms.openlocfilehash: 8299230a30b65ef8fb7856dc74618dd15ae218ac
+ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33408126"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061337"
 ---
 # <a name="acct_bin"></a>ACCT_BIN
 
-Переменная этого типа данных содержит двоичное значение.
+Переменная этого типа данных имеет двоичное значение.
   
 ## <a name="quick-info"></a>Краткие сведения
 
 ```cpp
 typedef struct { 
-    DWORDcb; 
+    DWORD cb; 
     BYTE * pb; 
 } ACCT_BIN; 
 
@@ -32,10 +32,10 @@ typedef struct {
 
 _cb_
   
-> Количествобайт, на которое _указывает PB._ 
+> Количество bytes, на которое _указывает pb._ 
     
 _pb_
   
-> Указатель на двоичные данные.
+> Указатель на двоичные сведения.
     
 
