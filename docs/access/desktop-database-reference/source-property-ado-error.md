@@ -7,12 +7,12 @@ ms:contentKeyID: 48548969
 ms.date: 09/18/2015
 mtps_version: v=office.15
 localization_priority: Normal
-ms.openlocfilehash: 2f03dcc8049113df13ff8654aee340d1e2d6e502
-ms.sourcegitcommit: 8fe462c32b91c87911942c188f3445e85a54137c
+ms.openlocfilehash: 47ae7ea790265edc10be8c907869eefbe4e593ba
+ms.sourcegitcommit: 66e74e39f44dca8c41f97f05528b8f9eb1aaed87
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32308598"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "52061309"
 ---
 # <a name="source-property-ado-error"></a>Свойство Source (Error в ADO)
 
@@ -23,13 +23,13 @@ ms.locfileid: "32308598"
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Возвращает **строку,** которая указывает имя объекта или приложения.
+Возвращает значение **String,** которое указывает имя объекта или приложения.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Используйте свойство **Source** объекта [Error,](error-object-ado.md) чтобы определить имя объекта или приложения, которые изначально создали ошибку. Это может быть имя класса или программный ИД объекта. For errors in ADO, the property value will be **ADODB.***ObjectName*, where *ObjectName* is the name of the object that triggered the error. For ADOX and ADO MD, the value will be **ADOX.***ObjectName* and **ADOMD.***ObjectName,* respectively.
+Используйте свойство **Source** на [объекте Ошибки,](error-object-ado.md) чтобы определить имя объекта или приложения, которые изначально создали ошибку. Это может быть имя класса объекта или программный ID. Для ошибок в ADO значение свойства будет **ADODB.** *ObjectName,* где *ObjectName* — это имя объекта, который вызвал ошибку. Для ADOX и ADO MD значение будет **ADOX.** *ObjectName* и **ADOMD.** *ObjectName соответственно.*
 
-На основе документации по ошибке из свойств **Source,** [Number](number-property-ado.md)и [Description](description-property-ado.md) объектов **Error** можно написать код, который будет обрабатывать ошибку соответствующим образом.
+На основе документации об ошибках из свойств **Source,** [Number](number-property-ado.md)и [Description](description-property-ado.md) объектов **Error** можно написать код, который будет соответствующим образом обрабатывать ошибку.
 
-Свойство **Source** является "только чтением" для объектов **Error.**
+Свойство **Source** — только для чтения для объектов **Error.**
 
