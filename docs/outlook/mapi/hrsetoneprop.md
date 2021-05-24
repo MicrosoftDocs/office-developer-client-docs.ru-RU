@@ -12,20 +12,20 @@ api_type:
 - COM
 ms.assetid: 14ae3242-fddf-4199-a9a7-4ab153b31064
 description: 'Дата последнего изменения: 9 марта 2015 г.'
-ms.openlocfilehash: 37e6560d859ce4731b7a06e571eb38eb160c3686
-ms.sourcegitcommit: 8657170d071f9bcf680aba50b9c07f2a4fb82283
+ms.openlocfilehash: 9fae06b9e9d5ef4885d798825659fa3486ec9e72
+ms.sourcegitcommit: fb521c23df785c9c3aefa5062272b2630a32e587
 ms.translationtype: MT
 ms.contentlocale: ru-RU
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33417660"
+ms.lasthandoff: 05/20/2021
+ms.locfileid: "52589182"
 ---
 # <a name="hrsetoneprop"></a>HrSetOneProp
 
   
   
-**Относится к**: Outlook 2013 | Outlook 2016 
+**Область применения**: Outlook 2013 | Outlook 2016 
   
-Задает или изменяет значение одного свойства интерфейса свойства, то есть интерфейса, производного от [IMAPIProp.](imapipropiunknown.md) 
+Задает или изменяет значение одного свойства в интерфейсе свойств, то есть интерфейс, полученный из [IMAPIProp.](imapipropiunknown.md) 
   
 |||
 |:-----|:-----|
@@ -34,21 +34,21 @@ ms.locfileid: "33417660"
 |Вызывающая сторона:  <br/> |Клиентские приложения и поставщики услуг  <br/> |
    
 ```cpp
-HrSetOneProp(
+HRESULT HrSetOneProp(
   LPMAPIPROP pmp,
   LPSPropValue pprop
 );
 ```
 
-## <a name="parameters"></a>Параметры
+## <a name="parameters"></a>Parameters
 
  _pmp_
   
-> [in] Указатель на интерфейс [IMAPIProp,](imapipropiunknown.md) для которого необходимо установить или изменить значение свойства. 
+> [in] Указатель на [интерфейс IMAPIProp,](imapipropiunknown.md) на котором должно быть установлено или изменено значение свойства. 
     
  _pprop_
   
-> [in] Указатель на [структуру SPropValue,](spropvalue.md) определяющий значение, заносяющееся в _свойство PMP._ 
+> [in] Указатель на [структуру SPropValue,](spropvalue.md) определяющий значение, запредельное для _свойства pmp._ 
     
 ## <a name="return-value"></a>Возвращаемое значение
 
@@ -56,8 +56,8 @@ HrSetOneProp(
   
 ## <a name="remarks"></a>Примечания
 
-В отличие от метода [IMAPIProp::SetProps](imapiprop-setprops.md) функция **HrSetOneProp** никогда не возвращает предупреждений. Так как задает только одно свойство, оно просто будет успешным или неудачным. Для настройки или изменения нескольких свойств **SetProps быстрее.** 
+В отличие [от метода IMAPIProp::SetProps,](imapiprop-setprops.md) функция **HrSetOneProp** никогда не возвращает предупреждений. Так как оно задает только одно свойство, оно просто успешно или не удается. Для настройки или изменения нескольких свойств **SetProps быстрее.** 
   
-Можно получить одно свойство с помощью функции [HrGetOneProp.](hrgetoneprop.md) 
+Вы можете получить одно свойство с помощью [функции HrGetOneProp.](hrgetoneprop.md) 
   
 
