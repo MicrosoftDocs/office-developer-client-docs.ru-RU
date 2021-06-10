@@ -1,5 +1,5 @@
 ---
-title: Свойства Relations (DAO)
+title: Свойства отношений (DAO)
 TOCTitle: Properties
 ms:assetid: c349962e-a28a-400a-87e4-5419c7568c48
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161298(v=office.15)
@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306806"
 ---
-# <a name="relations-properties-dao"></a><span data-ttu-id="634cf-102">Свойства Relations (DAO)</span><span class="sxs-lookup"><span data-stu-id="634cf-102">Relations properties (DAO)</span></span>
+# <a name="relations-properties-dao"></a><span data-ttu-id="79268-102">Свойства отношений (DAO)</span><span class="sxs-lookup"><span data-stu-id="79268-102">Relations properties (DAO)</span></span>
 
-<span data-ttu-id="634cf-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="634cf-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="79268-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="79268-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="634cf-104">Свойство Relations.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="634cf-104">Relations.Count property (DAO)</span></span>](relations-count-property-dao.md)
+- [<span data-ttu-id="79268-104">Свойство Relations.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="79268-104">Relations.Count property (DAO)</span></span>](relations-count-property-dao.md)
 

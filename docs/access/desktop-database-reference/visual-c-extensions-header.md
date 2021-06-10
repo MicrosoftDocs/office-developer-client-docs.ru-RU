@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311328"
 ---
-# <a name="visual-c-extensions-header"></a><span data-ttu-id="c42c7-102">Заголовок расширений Visual C++</span><span class="sxs-lookup"><span data-stu-id="c42c7-102">Visual C++ Extensions header</span></span>
+# <a name="visual-c-extensions-header"></a><span data-ttu-id="6f3cd-102">Заголовок расширений Visual C++</span><span class="sxs-lookup"><span data-stu-id="6f3cd-102">Visual C++ Extensions header</span></span>
 
 
-<span data-ttu-id="c42c7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c42c7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="6f3cd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6f3cd-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="c42c7-104">В следующем загодре, **icrsint.h,** подробно интерфейс, который позволяет клиентам извлекать поля из **recordset** в переменные, определенные в классе, производном от **CADORecordBinding**.</span><span class="sxs-lookup"><span data-stu-id="c42c7-104">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**.</span></span> <span data-ttu-id="c42c7-105">Необходимо указать макрос привязки ADO для каждого поля, к чему вы собираетесь получить доступ.</span><span class="sxs-lookup"><span data-stu-id="c42c7-105">You must specify an ADO binding macro for each field you intend to access.</span></span>
+<span data-ttu-id="6f3cd-104">В следующем заговорке, **icrsint.h,** подробно сообщается об интерфейсе, который позволяет клиентам извлекать поля из **recordset** в переменные, определенные в классе, полученном из **CADORecordBinding.**</span><span class="sxs-lookup"><span data-stu-id="6f3cd-104">The following header, **icrsint.h**, details the interface that allow clients to retrieve fields from a **Recordset** into variables defined in a class derived from **CADORecordBinding**.</span></span> <span data-ttu-id="6f3cd-105">Необходимо указать макрос привязки ADO для каждого поля, к чему вы собираетесь получить доступ.</span><span class="sxs-lookup"><span data-stu-id="6f3cd-105">You must specify an ADO binding macro for each field you intend to access.</span></span>
 
 ```cpp 
  

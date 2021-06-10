@@ -14,19 +14,19 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32303453"
 ---
-# <a name="querydefsdelete-method-dao"></a><span data-ttu-id="4c8c2-102">Метод QueryDefs.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="4c8c2-102">QueryDefs.Delete method (DAO)</span></span>
+# <a name="querydefsdelete-method-dao"></a><span data-ttu-id="7e67f-102">Метод QueryDefs.Delete (DAO)</span><span class="sxs-lookup"><span data-stu-id="7e67f-102">QueryDefs.Delete method (DAO)</span></span>
 
-<span data-ttu-id="4c8c2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c8c2-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7e67f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7e67f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="4c8c2-104">Не поддерживается для этой коллекции.</span><span class="sxs-lookup"><span data-stu-id="4c8c2-104">Not supported for this collection.</span></span>
+<span data-ttu-id="7e67f-104">Не поддерживается для этой коллекции.</span><span class="sxs-lookup"><span data-stu-id="7e67f-104">Not supported for this collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="4c8c2-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="4c8c2-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="7e67f-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="7e67f-105">Syntax</span></span>
 
-<span data-ttu-id="4c8c2-106">*выражение .* ***Delete(Name)***</span><span class="sxs-lookup"><span data-stu-id="4c8c2-106">*expression* .Delete(***Name***)</span></span>
+<span data-ttu-id="7e67f-106">*выражения* . Удаление ***(Имя)***</span><span class="sxs-lookup"><span data-stu-id="7e67f-106">*expression* .Delete(***Name***)</span></span>
 
-<span data-ttu-id="4c8c2-107">*выражение* Переменная, представляюная объект **QueryDefs.**</span><span class="sxs-lookup"><span data-stu-id="4c8c2-107">*expression* A variable that represents a **QueryDefs** object.</span></span>
+<span data-ttu-id="7e67f-107">*выражение* Переменная, представляюная **объект QueryDefs.**</span><span class="sxs-lookup"><span data-stu-id="7e67f-107">*expression* A variable that represents a **QueryDefs** object.</span></span>
 
-## <a name="parameters"></a><span data-ttu-id="4c8c2-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="4c8c2-108">Parameters</span></span>
+## <a name="parameters"></a><span data-ttu-id="7e67f-108">Параметры</span><span class="sxs-lookup"><span data-stu-id="7e67f-108">Parameters</span></span>
 
 <table>
 <colgroup>
@@ -37,18 +37,18 @@ ms.locfileid: "32303453"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="4c8c2-109">Имя</span><span class="sxs-lookup"><span data-stu-id="4c8c2-109">Name</span></span></p></th>
-<th><p><span data-ttu-id="4c8c2-110">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="4c8c2-110">Required/optional</span></span></p></th>
-<th><p><span data-ttu-id="4c8c2-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="4c8c2-111">Data type</span></span></p></th>
-<th><p><span data-ttu-id="4c8c2-112">Описание</span><span class="sxs-lookup"><span data-stu-id="4c8c2-112">Description</span></span></p></th>
+<th><p><span data-ttu-id="7e67f-109">Имя</span><span class="sxs-lookup"><span data-stu-id="7e67f-109">Name</span></span></p></th>
+<th><p><span data-ttu-id="7e67f-110">Обязательный/необязательный</span><span class="sxs-lookup"><span data-stu-id="7e67f-110">Required/optional</span></span></p></th>
+<th><p><span data-ttu-id="7e67f-111">Тип данных</span><span class="sxs-lookup"><span data-stu-id="7e67f-111">Data type</span></span></p></th>
+<th><p><span data-ttu-id="7e67f-112">Описание</span><span class="sxs-lookup"><span data-stu-id="7e67f-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="4c8c2-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="4c8c2-113"><em>Name</em></span></span></p></td>
-<td><p><span data-ttu-id="4c8c2-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="4c8c2-114">Required</span></span></p></td>
-<td><p><span data-ttu-id="4c8c2-115"><strong>Строка</strong></span><span class="sxs-lookup"><span data-stu-id="4c8c2-115"><strong>String</strong></span></span></p></td>
-<td><p><span data-ttu-id="4c8c2-116">Н/Д</span><span class="sxs-lookup"><span data-stu-id="4c8c2-116">N/A</span></span></p></td>
+<td><p><span data-ttu-id="7e67f-113"><em>Name</em></span><span class="sxs-lookup"><span data-stu-id="7e67f-113"><em>Name</em></span></span></p></td>
+<td><p><span data-ttu-id="7e67f-114">Обязательный</span><span class="sxs-lookup"><span data-stu-id="7e67f-114">Required</span></span></p></td>
+<td><p><span data-ttu-id="7e67f-115"><strong>String</strong></span><span class="sxs-lookup"><span data-stu-id="7e67f-115"><strong>String</strong></span></span></p></td>
+<td><p><span data-ttu-id="7e67f-116">Н/Д</span><span class="sxs-lookup"><span data-stu-id="7e67f-116">N/A</span></span></p></td>
 </tr>
 </tbody>
 </table>

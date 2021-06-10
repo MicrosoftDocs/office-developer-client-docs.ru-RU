@@ -1,5 +1,5 @@
 ---
-title: Пример коллекции Views, свойства CommandText (VB)
+title: Коллекция представлений, пример свойств CommandText (VB)
 TOCTitle: Views Collection, CommandText property example (VB)
 ms:assetid: 5dacd3c2-a1b2-57a7-1bac-ce0caa7c1a09
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249331(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32302781"
 ---
-# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="15fff-102">Коллекция Views, пример свойства CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="15fff-102">Views collection, CommandText property example (VB)</span></span>
+# <a name="views-collection-commandtext-property-example-vb"></a><span data-ttu-id="c7936-102">Коллекция Views, пример свойства CommandText (VB)</span><span class="sxs-lookup"><span data-stu-id="c7936-102">Views collection, CommandText property example (VB)</span></span>
 
 
-<span data-ttu-id="15fff-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="15fff-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c7936-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7936-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="15fff-104">В следующем коде показано, как использовать свойство [Command](command-property-adox.md) для обновления текста представления.</span><span class="sxs-lookup"><span data-stu-id="15fff-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
+<span data-ttu-id="c7936-104">В следующем коде показано, как использовать свойство [Command](command-property-adox.md) для обновления текста представления.</span><span class="sxs-lookup"><span data-stu-id="c7936-104">The following code demonstrates how to use the [Command](command-property-adox.md) property to update the text of a view.</span></span>
 
 ```vb 
  

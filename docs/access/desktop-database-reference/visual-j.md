@@ -1,5 +1,5 @@
 ---
-title: Visual J++ (справочник по базе данных Access для настольных ПК)
+title: Visual J++ (ссылка на настольные базы данных)
 TOCTitle: Visual J++
 ms:assetid: 5c05db85-cdf2-9a73-fbc5-3dbfa6752376
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249320(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32311335"
 ---
-# <a name="visual-j"></a><span data-ttu-id="fadcd-102">Visual J++</span><span class="sxs-lookup"><span data-stu-id="fadcd-102">Visual J++</span></span>
+# <a name="visual-j"></a><span data-ttu-id="21211-102">Visual J++</span><span class="sxs-lookup"><span data-stu-id="21211-102">Visual J++</span></span>
 
 
-<span data-ttu-id="fadcd-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="fadcd-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="21211-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="21211-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="fadcd-104">В этом коротком примере Microsoft Visual J++ показано, как можно связать собственную функцию с определенным событием.</span><span class="sxs-lookup"><span data-stu-id="fadcd-104">This short Microsoft Visual J++ example shows how you can associate your own function with a particular event.</span></span>
+<span data-ttu-id="21211-104">В этом кратком примере Microsoft Visual J++ показано, как можно связать свою функцию с определенным событием.</span><span class="sxs-lookup"><span data-stu-id="21211-104">This short Microsoft Visual J++ example shows how you can associate your own function with a particular event.</span></span>
 
 ```java 
  
@@ -53,7 +53,7 @@ public class EventExampleVJ
 // EndEventExampleVJ 
 ```
 
-<span data-ttu-id="fadcd-105">Во-первых, метод класса *onConnectionComplete* связан с событием **ConnectionComplete** путем создания нового объекта **ConnectionEventHandler** и назначения функции *onConnectComplete* объекту.</span><span class="sxs-lookup"><span data-stu-id="fadcd-105">First, the class method *onConnectionComplete* is associated with the **ConnectionComplete** event by creating a new **ConnectionEventHandler** object and assigning the *onConnectComplete* function to the object.</span></span>
+<span data-ttu-id="21211-105">Во-первых, метод класса *onConnectionComplete* связан с событием **ConnectionComplete,** создав новый объект **ConnectionEventHandler** и назначив объекту функцию *onConnectComplete.*</span><span class="sxs-lookup"><span data-stu-id="21211-105">First, the class method *onConnectionComplete* is associated with the **ConnectionComplete** event by creating a new **ConnectionEventHandler** object and assigning the *onConnectComplete* function to the object.</span></span>
 
-<span data-ttu-id="fadcd-106">Затем *основная* функция создает объект **Connection** и включает обработку событий, вызывая метод **addOnConnectComplete** и передавая ему адрес *функции обработчик.*</span><span class="sxs-lookup"><span data-stu-id="fadcd-106">The *main* function then creates a **Connection** object and enables event handling by calling the **addOnConnectComplete** method and passing it the address of the *handler* function.</span></span>
+<span data-ttu-id="21211-106">Затем *основная* функция создает объект **Connection** и включает обработку событий, вызывая метод **addOnConnectComplete** и передав ему адрес функции *обработчик.*</span><span class="sxs-lookup"><span data-stu-id="21211-106">The *main* function then creates a **Connection** object and enables event handling by calling the **addOnConnectComplete** method and passing it the address of the *handler* function.</span></span>
 

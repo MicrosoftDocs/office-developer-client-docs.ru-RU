@@ -1,5 +1,5 @@
 ---
-title: Методы Workspace (DAO)
+title: Методы рабочего пространства (DAO)
 TOCTitle: Methods
 ms:assetid: 20faf18e-4c9f-4802-a7c5-5297debfd712
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123992(v=office.15)
@@ -14,15 +14,15 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32305882"
 ---
-# <a name="workspace-methods-dao"></a><span data-ttu-id="c616f-102">Методы Workspace (DAO)</span><span class="sxs-lookup"><span data-stu-id="c616f-102">Workspace methods (DAO)</span></span>
+# <a name="workspace-methods-dao"></a><span data-ttu-id="1bd6a-102">Методы рабочего пространства (DAO)</span><span class="sxs-lookup"><span data-stu-id="1bd6a-102">Workspace methods (DAO)</span></span>
 
-<span data-ttu-id="c616f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c616f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="1bd6a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="1bd6a-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c616f-104">Метод Workspace.BeginTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="c616f-104">Workspace.BeginTrans method (DAO)</span></span>](workspace-begintrans-method-dao.md)
-- [<span data-ttu-id="c616f-105">Метод Workspace.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="c616f-105">Workspace.Close method (DAO)</span></span>](workspace-close-method-dao.md)
-- [<span data-ttu-id="c616f-106">Метод Workspace.CommitTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="c616f-106">Workspace.CommitTrans method (DAO)</span></span>](workspace-committrans-method-dao.md)
-- [<span data-ttu-id="c616f-107">Метод Workspace.CreateDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="c616f-107">Workspace.CreateDatabase method (DAO)</span></span>](workspace-createdatabase-method-dao.md)
-- [<span data-ttu-id="c616f-108">Метод Workspace.OpenConnection (DAO)</span><span class="sxs-lookup"><span data-stu-id="c616f-108">Workspace.OpenConnection method (DAO)</span></span>](workspace-openconnection-method-dao.md)
-- [<span data-ttu-id="c616f-109">Метод Workspace.OpenDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="c616f-109">Workspace.OpenDatabase method (DAO)</span></span>](workspace-opendatabase-method-dao.md)
-- [<span data-ttu-id="c616f-110">Метод Workspace.Rollback (DAO)</span><span class="sxs-lookup"><span data-stu-id="c616f-110">Workspace.Rollback method (DAO)</span></span>](workspace-rollback-method-dao.md)
+- [<span data-ttu-id="1bd6a-104">Метод Workspace.BeginTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="1bd6a-104">Workspace.BeginTrans method (DAO)</span></span>](workspace-begintrans-method-dao.md)
+- [<span data-ttu-id="1bd6a-105">Метод Workspace.Close (DAO)</span><span class="sxs-lookup"><span data-stu-id="1bd6a-105">Workspace.Close method (DAO)</span></span>](workspace-close-method-dao.md)
+- [<span data-ttu-id="1bd6a-106">Метод Workspace.CommitTrans (DAO)</span><span class="sxs-lookup"><span data-stu-id="1bd6a-106">Workspace.CommitTrans method (DAO)</span></span>](workspace-committrans-method-dao.md)
+- [<span data-ttu-id="1bd6a-107">Метод Workspace.CreateDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="1bd6a-107">Workspace.CreateDatabase method (DAO)</span></span>](workspace-createdatabase-method-dao.md)
+- [<span data-ttu-id="1bd6a-108">Метод Workspace.OpenConnection (DAO)</span><span class="sxs-lookup"><span data-stu-id="1bd6a-108">Workspace.OpenConnection method (DAO)</span></span>](workspace-openconnection-method-dao.md)
+- [<span data-ttu-id="1bd6a-109">Метод Workspace.OpenDatabase (DAO)</span><span class="sxs-lookup"><span data-stu-id="1bd6a-109">Workspace.OpenDatabase method (DAO)</span></span>](workspace-opendatabase-method-dao.md)
+- [<span data-ttu-id="1bd6a-110">Метод Workspace.Rollback (DAO)</span><span class="sxs-lookup"><span data-stu-id="1bd6a-110">Workspace.Rollback method (DAO)</span></span>](workspace-rollback-method-dao.md)
 
