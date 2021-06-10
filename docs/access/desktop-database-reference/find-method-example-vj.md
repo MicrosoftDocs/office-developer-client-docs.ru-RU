@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292358"
 ---
-# <a name="find-method-example-vj"></a><span data-ttu-id="cc787-102">Пример использования метода Find (VJ++)</span><span class="sxs-lookup"><span data-stu-id="cc787-102">Find method example (VJ++)</span></span>
+# <a name="find-method-example-vj"></a><span data-ttu-id="86429-102">Пример использования метода Find (VJ++)</span><span class="sxs-lookup"><span data-stu-id="86429-102">Find method example (VJ++)</span></span>
 
 
-<span data-ttu-id="cc787-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cc787-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="86429-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="86429-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="cc787-104">В этом примере метод [](find-method-ado.md) Find объекта [Recordset](recordset-object-ado.md) используется для поиска и подсчета количества названий бизнеса в базе ***данных Pubs.***</span><span class="sxs-lookup"><span data-stu-id="cc787-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="cc787-105">В примере предполагается, что основной поставщик не поддерживает аналогичные функции.</span><span class="sxs-lookup"><span data-stu-id="cc787-105">The example assumes the underlying provider does not support similar functionality.</span></span>
+<span data-ttu-id="86429-104">В этом примере используется [](find-method-ado.md) метод Find объекта [Recordset](recordset-object-ado.md) для поиска и подсчета количества бизнес-названий в ***базе данных Pubs.***</span><span class="sxs-lookup"><span data-stu-id="86429-104">This example uses the [Recordset](recordset-object-ado.md) object's [Find](find-method-ado.md) method to locate and count the number of business titles in the ***Pubs*** database.</span></span> <span data-ttu-id="86429-105">В примере предполагается, что основной поставщик не поддерживает аналогичные функции.</span><span class="sxs-lookup"><span data-stu-id="86429-105">The example assumes the underlying provider does not support similar functionality.</span></span>
 
 ```java 
  

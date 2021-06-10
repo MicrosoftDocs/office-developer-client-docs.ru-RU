@@ -18,69 +18,23 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292890"
 ---
-# <a name="field2attributes-property-dao"></a><span data-ttu-id="12fa0-102">Свойство Field2.Attributes (DAO)</span><span class="sxs-lookup"><span data-stu-id="12fa0-102">Field2.Attributes property (DAO)</span></span>
+# <a name="field2attributes-property-dao"></a><span data-ttu-id="76088-102">Свойство Field2.Attributes (DAO)</span><span class="sxs-lookup"><span data-stu-id="76088-102">Field2.Attributes property (DAO)</span></span>
 
 
-<span data-ttu-id="12fa0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12fa0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="76088-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="76088-103">**Applies to**: Access 2013, Office 2013</span></span>
 
 
-<span data-ttu-id="12fa0-104">Задает или возвращает значение, которое указывает одну или несколько характеристик **объекта Field2.**</span><span class="sxs-lookup"><span data-stu-id="12fa0-104">Sets or returns a value that indicates one or more characteristics of a **Field2** object.</span></span> <span data-ttu-id="12fa0-105">Для чтения и записи, **Long**.</span><span class="sxs-lookup"><span data-stu-id="12fa0-105">Read/write **Long**.</span></span>
+<span data-ttu-id="76088-104">Задает или возвращает значение, которое указывает одну или несколько характеристик объекта **Field2.**</span><span class="sxs-lookup"><span data-stu-id="76088-104">Sets or returns a value that indicates one or more characteristics of a **Field2** object.</span></span> <span data-ttu-id="76088-105">Для чтения и записи, **Long**.</span><span class="sxs-lookup"><span data-stu-id="76088-105">Read/write **Long**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="12fa0-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="12fa0-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="76088-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="76088-106">Syntax</span></span>
 
-<span data-ttu-id="12fa0-107">*expression* .Attributes</span><span class="sxs-lookup"><span data-stu-id="12fa0-107">*expression* .Attributes</span></span>
+<span data-ttu-id="76088-107">*expression* .Attributes</span><span class="sxs-lookup"><span data-stu-id="76088-107">*expression* .Attributes</span></span>
 
-<span data-ttu-id="12fa0-108">*expression* — переменная, представляющая объект **Field2**.</span><span class="sxs-lookup"><span data-stu-id="12fa0-108">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="76088-108">*expression* — переменная, представляющая объект **Field2**.</span><span class="sxs-lookup"><span data-stu-id="76088-108">*expression* A variable that represents a **Field2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="12fa0-109">Заметки</span><span class="sxs-lookup"><span data-stu-id="12fa0-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="76088-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="76088-109">Remarks</span></span>
 
-<span data-ttu-id="12fa0-110">Значение указывает характеристики поля, представленного объектом **Field2,** и может быть сочетанием этих констант.</span><span class="sxs-lookup"><span data-stu-id="12fa0-110">The value specifies characteristics of the field represented by the **Field2** object and can be a combination of these constants.</span></span>
-
-<table>
-<colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p><span data-ttu-id="12fa0-111">Константа</span><span class="sxs-lookup"><span data-stu-id="12fa0-111">Constant</span></span></p></th>
-<th><p><span data-ttu-id="12fa0-112">Описание</span><span class="sxs-lookup"><span data-stu-id="12fa0-112">Description</span></span></p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p><span data-ttu-id="12fa0-113"><strong>dbAutoIncrField</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-113"><strong>dbAutoIncrField</strong></span></span></p></td>
-<td><p><span data-ttu-id="12fa0-114">Значение поля для новых записей автоматически увеличивается на уникальные длинное целочисленное значение, которое нельзя изменить (в рабочей области Microsoft Access, поддерживается только для таблиц базы данных ядра СУБД Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="12fa0-114">The field value for new records is automatically incremented to a unique Long integer that can't be changed (in a Microsoft Access workspace, supported only for Microsoft Access database engine database tables).</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="12fa0-115"><strong>dbDescending</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-115"><strong>dbDescending</strong></span></span></p></td>
-<td><p><span data-ttu-id="12fa0-116">Поле сортироваться по убываю (от Z до A или от 100 до 0); Этот параметр применяется только к объекту <strong>Field2</strong> в коллекции <strong>Fields</strong> объекта <strong>Index.</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-116">The field is sorted in descending (Z to A or 100 to 0) order; this option applies only to a <strong>Field2</strong> object in a <strong>Fields</strong> collection of an <strong>Index</strong> object.</span></span> <span data-ttu-id="12fa0-117">Если опустить эту константу, поле сортируется в порядке возрастания (от А до Я или от 0 до 100).</span><span class="sxs-lookup"><span data-stu-id="12fa0-117">If you omit this constant, the field is sorted in ascending (A to Z or 0 to 100) order.</span></span> <span data-ttu-id="12fa0-118">Это значение по умолчанию для полей <strong>Index</strong> и <strong>TableDef</strong> (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="12fa0-118">This is the default value for <strong>Index</strong> and <strong>TableDef</strong> fields (Microsoft Access workspaces only)..</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="12fa0-119"><strong>dbFixedField</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-119"><strong>dbFixedField</strong></span></span></p></td>
-<td><p><span data-ttu-id="12fa0-120">Размер поля закреплен (по умолчанию для числовых полей).</span><span class="sxs-lookup"><span data-stu-id="12fa0-120">The field size is fixed (default for Numeric fields).</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="12fa0-121"><strong>dbHyperlinkField</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-121"><strong>dbHyperlinkField</strong></span></span></p></td>
-<td><p><span data-ttu-id="12fa0-122">Поле содержит сведения о гиперссылке (только для полей Memo).</span><span class="sxs-lookup"><span data-stu-id="12fa0-122">The field contains hyperlink information (Memo fields only).</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="12fa0-123"><strong>dbSystemField</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-123"><strong>dbSystemField</strong></span></span></p></td>
-<td><p><span data-ttu-id="12fa0-124">В поле хранится информация о репликах. этот тип поля (только для рабочей области Microsoft Access) удалить нельзя.</span><span class="sxs-lookup"><span data-stu-id="12fa0-124">The field stores replication information for replicas; you can't delete this type of field (Microsoft Access workspaces only).</span></span></p></td>
-</tr>
-<tr class="even">
-<td><p><span data-ttu-id="12fa0-125"><strong>dbUpdatableField</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-125"><strong>dbUpdatableField</strong></span></span></p></td>
-<td><p><span data-ttu-id="12fa0-126">Можно изменить значение данного поля.</span><span class="sxs-lookup"><span data-stu-id="12fa0-126">The field value can be changed.</span></span></p></td>
-</tr>
-<tr class="odd">
-<td><p><span data-ttu-id="12fa0-127"><strong>dbVariableField</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-127"><strong>dbVariableField</strong></span></span></p></td>
-<td><p><span data-ttu-id="12fa0-128">Переменный размер поля (только для текстовых полей).</span><span class="sxs-lookup"><span data-stu-id="12fa0-128">The field size is variable (Text fields only).</span></span></p></td>
-</tr>
-</tbody>
-</table>
-
-
-<span data-ttu-id="12fa0-129">Для объекта, который еще не добавлен в коллекцию, это свойство предназначено для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="12fa0-129">For an object not yet appended to a collection, this property is read/write.</span></span> <span data-ttu-id="12fa0-130">Доступность свойства **Attributes** для объекта **Field2** зависит от объекта, который содержит коллекцию **Fields.**</span><span class="sxs-lookup"><span data-stu-id="12fa0-130">For an appended **Field2** object, the availability of the **Attributes** property depends on the object that contains the **Fields** collection.</span></span>
+<span data-ttu-id="76088-110">Значение указывает характеристики поля, представленного объектом **Field2,** и может быть сочетанием этих констант.</span><span class="sxs-lookup"><span data-stu-id="76088-110">The value specifies characteristics of the field represented by the **Field2** object and can be a combination of these constants.</span></span>
 
 <table>
 <colgroup>
@@ -89,40 +43,86 @@ ms.locfileid: "32292890"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="12fa0-131">Если объект Field принадлежит к</span><span class="sxs-lookup"><span data-stu-id="12fa0-131">If the Field object belongs to an</span></span></p></th>
-<th><p><span data-ttu-id="12fa0-132">тогда атрибуты будут</span><span class="sxs-lookup"><span data-stu-id="12fa0-132">Then Attributes is</span></span></p></th>
+<th><p><span data-ttu-id="76088-111">Константа</span><span class="sxs-lookup"><span data-stu-id="76088-111">Constant</span></span></p></th>
+<th><p><span data-ttu-id="76088-112">Описание</span><span class="sxs-lookup"><span data-stu-id="76088-112">Description</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="12fa0-133">Объект <strong>Index</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-133"><strong>Index</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="12fa0-134">Чтение и запись до того момента, пока объект <strong>TableDef</strong>, который добавляется к объекту <strong>Index</strong>, добавляется к объекту <strong>Database</strong>; после чего свойство будет доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="12fa0-134">Read/write until the <strong>TableDef</strong> object that the <strong>Index</strong> object is appended to is appended to a <strong>Database</strong> object; then the property is read-only.</span></span></p></td>
+<td><p><span data-ttu-id="76088-113"><strong>dbAutoIncrField</strong></span><span class="sxs-lookup"><span data-stu-id="76088-113"><strong>dbAutoIncrField</strong></span></span></p></td>
+<td><p><span data-ttu-id="76088-114">Значение поля для новых записей автоматически увеличивается на уникальные длинное целочисленное значение, которое нельзя изменить (в рабочей области Microsoft Access, поддерживается только для таблиц базы данных ядра СУБД Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="76088-114">The field value for new records is automatically incremented to a unique Long integer that can't be changed (in a Microsoft Access workspace, supported only for Microsoft Access database engine database tables).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="12fa0-135">Объект <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-135"><strong>QueryDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="12fa0-136">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="12fa0-136">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="76088-115"><strong>dbDescending</strong></span><span class="sxs-lookup"><span data-stu-id="76088-115"><strong>dbDescending</strong></span></span></p></td>
+<td><p><span data-ttu-id="76088-116">Поле сортироваться в порядке убывка (от Z до A или от 100 до 0); Этот параметр применяется только к объекту <strong>Field2</strong> в коллекции <strong>Fields</strong> объекта <strong>Index.</strong></span><span class="sxs-lookup"><span data-stu-id="76088-116">The field is sorted in descending (Z to A or 100 to 0) order; this option applies only to a <strong>Field2</strong> object in a <strong>Fields</strong> collection of an <strong>Index</strong> object.</span></span> <span data-ttu-id="76088-117">Если опустить эту константу, поле сортируется в порядке возрастания (от А до Я или от 0 до 100).</span><span class="sxs-lookup"><span data-stu-id="76088-117">If you omit this constant, the field is sorted in ascending (A to Z or 0 to 100) order.</span></span> <span data-ttu-id="76088-118">Это значение по умолчанию для полей <strong>Index</strong> и <strong>TableDef</strong> (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="76088-118">This is the default value for <strong>Index</strong> and <strong>TableDef</strong> fields (Microsoft Access workspaces only)..</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="12fa0-137">Объект <strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-137"><strong>Recordset</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="12fa0-138">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="12fa0-138">Read-only</span></span></p></td>
+<td><p><span data-ttu-id="76088-119"><strong>dbFixedField</strong></span><span class="sxs-lookup"><span data-stu-id="76088-119"><strong>dbFixedField</strong></span></span></p></td>
+<td><p><span data-ttu-id="76088-120">Размер поля закреплен (по умолчанию для числовых полей).</span><span class="sxs-lookup"><span data-stu-id="76088-120">The field size is fixed (default for Numeric fields).</span></span></p></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="12fa0-139">Объект <strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-139"><strong>Relation</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="12fa0-140">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="12fa0-140">Not supported</span></span></p></td>
+<td><p><span data-ttu-id="76088-121"><strong>dbHyperlinkField</strong></span><span class="sxs-lookup"><span data-stu-id="76088-121"><strong>dbHyperlinkField</strong></span></span></p></td>
+<td><p><span data-ttu-id="76088-122">Поле содержит сведения о гиперссылке (только для полей Memo).</span><span class="sxs-lookup"><span data-stu-id="76088-122">The field contains hyperlink information (Memo fields only).</span></span></p></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="12fa0-141">Объект <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="12fa0-141"><strong>TableDef</strong> object</span></span></p></td>
-<td><p><span data-ttu-id="12fa0-142">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="12fa0-142">Read/write</span></span></p></td>
+<td><p><span data-ttu-id="76088-123"><strong>dbSystemField</strong></span><span class="sxs-lookup"><span data-stu-id="76088-123"><strong>dbSystemField</strong></span></span></p></td>
+<td><p><span data-ttu-id="76088-124">Поле сохраняет сведения о репликации для реплик; вы не можете удалить этот тип поля (только для рабочего пространства Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="76088-124">The field stores replication information for replicas; you can't delete this type of field (Microsoft Access workspaces only).</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="76088-125"><strong>dbUpdatableField</strong></span><span class="sxs-lookup"><span data-stu-id="76088-125"><strong>dbUpdatableField</strong></span></span></p></td>
+<td><p><span data-ttu-id="76088-126">Можно изменить значение данного поля.</span><span class="sxs-lookup"><span data-stu-id="76088-126">The field value can be changed.</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="76088-127"><strong>dbVariableField</strong></span><span class="sxs-lookup"><span data-stu-id="76088-127"><strong>dbVariableField</strong></span></span></p></td>
+<td><p><span data-ttu-id="76088-128">Переменный размер поля (только для текстовых полей).</span><span class="sxs-lookup"><span data-stu-id="76088-128">The field size is variable (Text fields only).</span></span></p></td>
 </tr>
 </tbody>
 </table>
 
 
-<span data-ttu-id="12fa0-143">Если вы задаете несколько атрибутов, их можно объединить, суммируя соответствующие константы.</span><span class="sxs-lookup"><span data-stu-id="12fa0-143">When you set multiple attributes, you can combine them by summing the appropriate constants.</span></span> <span data-ttu-id="12fa0-144">Любые недопустимые значения игнорируются без сообщения об ошибке.</span><span class="sxs-lookup"><span data-stu-id="12fa0-144">Any invalid values are ignored without producing an error.</span></span>
+<span data-ttu-id="76088-129">Для объекта, который еще не добавлен в коллекцию, это свойство предназначено для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="76088-129">For an object not yet appended to a collection, this property is read/write.</span></span> <span data-ttu-id="76088-130">Для объекта **Field2,** примыкаемого к приложению, доступность свойства **Attributes** зависит от объекта, который содержит коллекцию **Полей.**</span><span class="sxs-lookup"><span data-stu-id="76088-130">For an appended **Field2** object, the availability of the **Attributes** property depends on the object that contains the **Fields** collection.</span></span>
 
-## <a name="example"></a><span data-ttu-id="12fa0-145">Пример</span><span class="sxs-lookup"><span data-stu-id="12fa0-145">Example</span></span>
+<table>
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th><p><span data-ttu-id="76088-131">Если объект Field принадлежит к</span><span class="sxs-lookup"><span data-stu-id="76088-131">If the Field object belongs to an</span></span></p></th>
+<th><p><span data-ttu-id="76088-132">тогда атрибуты будут</span><span class="sxs-lookup"><span data-stu-id="76088-132">Then Attributes is</span></span></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><p><span data-ttu-id="76088-133">Объект <strong>Index</strong></span><span class="sxs-lookup"><span data-stu-id="76088-133"><strong>Index</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="76088-134">Чтение и запись до того момента, пока объект <strong>TableDef</strong>, который добавляется к объекту <strong>Index</strong>, добавляется к объекту <strong>Database</strong>; после чего свойство будет доступно только для чтения.</span><span class="sxs-lookup"><span data-stu-id="76088-134">Read/write until the <strong>TableDef</strong> object that the <strong>Index</strong> object is appended to is appended to a <strong>Database</strong> object; then the property is read-only.</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="76088-135">Объект <strong>QueryDef</strong></span><span class="sxs-lookup"><span data-stu-id="76088-135"><strong>QueryDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="76088-136">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="76088-136">Read-only</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="76088-137">Объект <strong>Recordset</strong></span><span class="sxs-lookup"><span data-stu-id="76088-137"><strong>Recordset</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="76088-138">Только для чтения</span><span class="sxs-lookup"><span data-stu-id="76088-138">Read-only</span></span></p></td>
+</tr>
+<tr class="even">
+<td><p><span data-ttu-id="76088-139">Объект <strong>Relation</strong></span><span class="sxs-lookup"><span data-stu-id="76088-139"><strong>Relation</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="76088-140">Не поддерживается</span><span class="sxs-lookup"><span data-stu-id="76088-140">Not supported</span></span></p></td>
+</tr>
+<tr class="odd">
+<td><p><span data-ttu-id="76088-141">Объект <strong>TableDef</strong></span><span class="sxs-lookup"><span data-stu-id="76088-141"><strong>TableDef</strong> object</span></span></p></td>
+<td><p><span data-ttu-id="76088-142">Чтение и запись</span><span class="sxs-lookup"><span data-stu-id="76088-142">Read/write</span></span></p></td>
+</tr>
+</tbody>
+</table>
 
-<span data-ttu-id="12fa0-146">В этом примере отображается свойство **Attributes** для объектов **Field2,** **Relation** и **TableDef** в базе данных Northwind.</span><span class="sxs-lookup"><span data-stu-id="12fa0-146">This example displays the **Attributes** property for **Field2**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
+
+<span data-ttu-id="76088-143">Если вы задаете несколько атрибутов, их можно объединить, суммируя соответствующие константы.</span><span class="sxs-lookup"><span data-stu-id="76088-143">When you set multiple attributes, you can combine them by summing the appropriate constants.</span></span> <span data-ttu-id="76088-144">Любые недопустимые значения игнорируются без сообщения об ошибке.</span><span class="sxs-lookup"><span data-stu-id="76088-144">Any invalid values are ignored without producing an error.</span></span>
+
+## <a name="example"></a><span data-ttu-id="76088-145">Пример</span><span class="sxs-lookup"><span data-stu-id="76088-145">Example</span></span>
+
+<span data-ttu-id="76088-146">В этом примере отображается свойство **Атрибуты** для **объектов Field2,** **Relation** и **TableDef** в базе данных Northwind.</span><span class="sxs-lookup"><span data-stu-id="76088-146">This example displays the **Attributes** property for **Field2**, **Relation**, and **TableDef** objects in the Northwind database.</span></span>
 
 ```vb 
 Sub AttributesX() 

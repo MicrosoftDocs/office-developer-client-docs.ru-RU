@@ -1,5 +1,5 @@
 ---
-title: Методы Document (DAO)
+title: Методы документов (DAO)
 TOCTitle: Methods
 ms:assetid: ded29f01-7169-4f4d-a409-43a729a1b817
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125813(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293800"
 ---
-# <a name="document-methods-dao"></a><span data-ttu-id="4a130-102">Методы Document (DAO)</span><span class="sxs-lookup"><span data-stu-id="4a130-102">Document methods (DAO)</span></span>
+# <a name="document-methods-dao"></a><span data-ttu-id="12fe9-102">Методы документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="12fe9-102">Document methods (DAO)</span></span>
 
 
-<span data-ttu-id="4a130-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4a130-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="12fe9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="12fe9-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="4a130-104">Метод Document.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="4a130-104">Document.CreateProperty method (DAO)</span></span>](document-createproperty-method-dao.md)
+- [<span data-ttu-id="12fe9-104">Метод Document.CreateProperty (DAO)</span><span class="sxs-lookup"><span data-stu-id="12fe9-104">Document.CreateProperty method (DAO)</span></span>](document-createproperty-method-dao.md)
 

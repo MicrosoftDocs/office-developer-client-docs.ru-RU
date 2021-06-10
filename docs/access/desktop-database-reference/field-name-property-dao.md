@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293079"
 ---
-# <a name="fieldname-property-dao"></a><span data-ttu-id="23a48-102">Свойство Field.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="23a48-102">Field.Name property (DAO)</span></span>
+# <a name="fieldname-property-dao"></a><span data-ttu-id="e825f-102">Свойство Field.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="e825f-102">Field.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="23a48-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="23a48-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e825f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e825f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="23a48-104">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="23a48-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="23a48-105">Строка **чтения** и записи, если объект не был appended к коллекции.</span><span class="sxs-lookup"><span data-stu-id="23a48-105">Read/write **String** if the object has not been appended to a collection.</span></span> <span data-ttu-id="23a48-106">Строка **только** для чтения, если объект был appended к коллекции.</span><span class="sxs-lookup"><span data-stu-id="23a48-106">Read-only **String** if the object has been appended to a collection.</span></span>
+<span data-ttu-id="e825f-104">Возвращает или задает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="e825f-104">Returns or sets the name of the specified object.</span></span> <span data-ttu-id="e825f-105">Строка **read/write,** если объект не был придан коллекции.</span><span class="sxs-lookup"><span data-stu-id="e825f-105">Read/write **String** if the object has not been appended to a collection.</span></span> <span data-ttu-id="e825f-106">Строка **только для** чтения, если объект был придан коллекции.</span><span class="sxs-lookup"><span data-stu-id="e825f-106">Read-only **String** if the object has been appended to a collection.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="23a48-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="23a48-107">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="e825f-107">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="e825f-107">Syntax</span></span>
 
-<span data-ttu-id="23a48-108">*выражение .* Имя</span><span class="sxs-lookup"><span data-stu-id="23a48-108">*expression* .Name</span></span>
+<span data-ttu-id="e825f-108">*выражения* . Имя</span><span class="sxs-lookup"><span data-stu-id="e825f-108">*expression* .Name</span></span>
 
-<span data-ttu-id="23a48-109">*выражение*: переменная, представляющая объект **Field**.</span><span class="sxs-lookup"><span data-stu-id="23a48-109">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="e825f-109">*выражение*: переменная, представляющая объект **Field**.</span><span class="sxs-lookup"><span data-stu-id="e825f-109">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="23a48-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="23a48-110">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="e825f-110">Примечания</span><span class="sxs-lookup"><span data-stu-id="e825f-110">Remarks</span></span>
 
-<span data-ttu-id="23a48-111">Максимальная длина имени объекта **Field** составляет 64 символа.</span><span class="sxs-lookup"><span data-stu-id="23a48-111">The maximum length for the name of a **Field** object is 64 characters.</span></span>
+<span data-ttu-id="e825f-111">Максимальная длина имени объекта **Field** — 64 символа.</span><span class="sxs-lookup"><span data-stu-id="e825f-111">The maximum length for the name of a **Field** object is 64 characters.</span></span>
 

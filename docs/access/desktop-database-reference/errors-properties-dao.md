@@ -14,9 +14,9 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293366"
 ---
-# <a name="errors-properties-dao"></a><span data-ttu-id="c3b58-102">Свойства ошибок (DAO)</span><span class="sxs-lookup"><span data-stu-id="c3b58-102">Errors properties (DAO)</span></span>
+# <a name="errors-properties-dao"></a><span data-ttu-id="5405b-102">Свойства ошибок (DAO)</span><span class="sxs-lookup"><span data-stu-id="5405b-102">Errors properties (DAO)</span></span>
 
-<span data-ttu-id="c3b58-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c3b58-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5405b-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5405b-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="c3b58-104">Свойство Errors.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="c3b58-104">Errors.Count property (DAO)</span></span>](errors-count-property-dao.md)
+- [<span data-ttu-id="5405b-104">Свойство Errors.Count (DAO)</span><span class="sxs-lookup"><span data-stu-id="5405b-104">Errors.Count property (DAO)</span></span>](errors-count-property-dao.md)
 

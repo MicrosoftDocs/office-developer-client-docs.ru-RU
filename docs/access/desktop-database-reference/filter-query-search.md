@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292449"
 ---
-# <a name="filterquerysearch"></a><span data-ttu-id="b98c0-102">Фильтрация, запросы и поиск</span><span class="sxs-lookup"><span data-stu-id="b98c0-102">Filter/query/search</span></span>
+# <a name="filterquerysearch"></a><span data-ttu-id="09dea-102">Фильтрация, запросы и поиск</span><span class="sxs-lookup"><span data-stu-id="09dea-102">Filter/query/search</span></span>
 
-<span data-ttu-id="b98c0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b98c0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="09dea-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="09dea-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="b98c0-104">Макрокоманда ApplyFilter</span><span class="sxs-lookup"><span data-stu-id="b98c0-104">ApplyFilter macro action</span></span>](applyfilter-macro-action.md)
-- [<span data-ttu-id="b98c0-105">Макрокоманда FindNextRecord</span><span class="sxs-lookup"><span data-stu-id="b98c0-105">FindNextRecord macro action</span></span>](findnextrecord-macro-action.md)
-- [<span data-ttu-id="b98c0-106">Макрокоманда FindRecord</span><span class="sxs-lookup"><span data-stu-id="b98c0-106">FindRecord macro action</span></span>](findrecord-macro-action.md)
-- [<span data-ttu-id="b98c0-107">Макрокоманда OpenQuery</span><span class="sxs-lookup"><span data-stu-id="b98c0-107">OpenQuery macro action</span></span>](openquery-macro-action.md)
-- [<span data-ttu-id="b98c0-108">Макрокоманда RefreshRecord</span><span class="sxs-lookup"><span data-stu-id="b98c0-108">RefreshRecord macro action</span></span>](refreshrecord-macro-action.md)
-- [<span data-ttu-id="b98c0-109">Макрокоманда Requery</span><span class="sxs-lookup"><span data-stu-id="b98c0-109">Requery macro action</span></span>](requery-macro-action.md)
-- [<span data-ttu-id="b98c0-110">Макрокоманда RunSQL</span><span class="sxs-lookup"><span data-stu-id="b98c0-110">RunSQL macro action</span></span>](runsql-macro-action.md)
-- [<span data-ttu-id="b98c0-111">Макрокоманда SearchForRecord</span><span class="sxs-lookup"><span data-stu-id="b98c0-111">SearchForRecord macro action</span></span>](searchforrecord-macro-action.md)
-- [<span data-ttu-id="b98c0-112">Макрокоманда SetFilter</span><span class="sxs-lookup"><span data-stu-id="b98c0-112">SetFilter macro action</span></span>](setfilter-macro-action.md)
-- [<span data-ttu-id="b98c0-113">Макрокоманда SetOrderBy</span><span class="sxs-lookup"><span data-stu-id="b98c0-113">SetOrderBy macro action</span></span>](setorderby-macro-action.md)
-- [<span data-ttu-id="b98c0-114">Макрокоманда ShowAllRecords</span><span class="sxs-lookup"><span data-stu-id="b98c0-114">ShowAllRecords macro action</span></span>](showallrecords-macro-action.md)
+- [<span data-ttu-id="09dea-104">Макрокоманда ApplyFilter</span><span class="sxs-lookup"><span data-stu-id="09dea-104">ApplyFilter macro action</span></span>](applyfilter-macro-action.md)
+- [<span data-ttu-id="09dea-105">Макрокоманда FindNextRecord</span><span class="sxs-lookup"><span data-stu-id="09dea-105">FindNextRecord macro action</span></span>](findnextrecord-macro-action.md)
+- [<span data-ttu-id="09dea-106">Макрокоманда FindRecord</span><span class="sxs-lookup"><span data-stu-id="09dea-106">FindRecord macro action</span></span>](findrecord-macro-action.md)
+- [<span data-ttu-id="09dea-107">Макрокоманда OpenQuery</span><span class="sxs-lookup"><span data-stu-id="09dea-107">OpenQuery macro action</span></span>](openquery-macro-action.md)
+- [<span data-ttu-id="09dea-108">Макрокоманда RefreshRecord</span><span class="sxs-lookup"><span data-stu-id="09dea-108">RefreshRecord macro action</span></span>](refreshrecord-macro-action.md)
+- [<span data-ttu-id="09dea-109">Макрокоманда Requery</span><span class="sxs-lookup"><span data-stu-id="09dea-109">Requery macro action</span></span>](requery-macro-action.md)
+- [<span data-ttu-id="09dea-110">Макрокоманда RunSQL</span><span class="sxs-lookup"><span data-stu-id="09dea-110">RunSQL macro action</span></span>](runsql-macro-action.md)
+- [<span data-ttu-id="09dea-111">Макрокоманда SearchForRecord</span><span class="sxs-lookup"><span data-stu-id="09dea-111">SearchForRecord macro action</span></span>](searchforrecord-macro-action.md)
+- [<span data-ttu-id="09dea-112">Макрокоманда SetFilter</span><span class="sxs-lookup"><span data-stu-id="09dea-112">SetFilter macro action</span></span>](setfilter-macro-action.md)
+- [<span data-ttu-id="09dea-113">Макрокоманда SetOrderBy</span><span class="sxs-lookup"><span data-stu-id="09dea-113">SetOrderBy macro action</span></span>](setorderby-macro-action.md)
+- [<span data-ttu-id="09dea-114">Макрокоманда ShowAllRecords</span><span class="sxs-lookup"><span data-stu-id="09dea-114">ShowAllRecords macro action</span></span>](showallrecords-macro-action.md)
 
 

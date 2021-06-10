@@ -18,28 +18,28 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292960"
 ---
-# <a name="fieldvalidateonset-property-dao"></a><span data-ttu-id="320a9-102">Свойство Field.ValidateOnSet (DAO)</span><span class="sxs-lookup"><span data-stu-id="320a9-102">Field.ValidateOnSet property (DAO)</span></span>
+# <a name="fieldvalidateonset-property-dao"></a><span data-ttu-id="f0f82-102">Свойство Field.ValidateOnSet (DAO)</span><span class="sxs-lookup"><span data-stu-id="f0f82-102">Field.ValidateOnSet property (DAO)</span></span>
 
 
-<span data-ttu-id="320a9-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="320a9-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="f0f82-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="f0f82-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="320a9-104">Задает или возвращает значение, которое указывает, проверяется ли значение объекта **[Field](field-object-dao.md)** немедленно, если задано свойство **[Value](field-value-property-dao.md)** объекта (только для рабочей области Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="320a9-104">Sets or returns a value that specifies whether or not the value of a **[Field](field-object-dao.md)** object is immediately validated when the object's **[Value](field-value-property-dao.md)** property is set (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="f0f82-104">Задает или возвращает значение, которое указывает, проверяется ли значение объекта **[Field](field-object-dao.md)** сразу же при задании свойства **[Value](field-value-property-dao.md)** объекта (только в рабочей области Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="f0f82-104">Sets or returns a value that specifies whether or not the value of a **[Field](field-object-dao.md)** object is immediately validated when the object's **[Value](field-value-property-dao.md)** property is set (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="320a9-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="320a9-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="f0f82-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="f0f82-105">Syntax</span></span>
 
-<span data-ttu-id="320a9-106">*выражение .* ValidateOnSet</span><span class="sxs-lookup"><span data-stu-id="320a9-106">*expression* .ValidateOnSet</span></span>
+<span data-ttu-id="f0f82-106">*выражения* . ValidateOnSet</span><span class="sxs-lookup"><span data-stu-id="f0f82-106">*expression* .ValidateOnSet</span></span>
 
-<span data-ttu-id="320a9-107">*выражение*: переменная, представляющая объект **Field**.</span><span class="sxs-lookup"><span data-stu-id="320a9-107">*expression* A variable that represents a **Field** object.</span></span>
+<span data-ttu-id="f0f82-107">*выражение*: переменная, представляющая объект **Field**.</span><span class="sxs-lookup"><span data-stu-id="f0f82-107">*expression* A variable that represents a **Field** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="320a9-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="320a9-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="f0f82-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="f0f82-108">Remarks</span></span>
 
-<span data-ttu-id="320a9-109">Только **объекты Field** в **[объектах Recordset](recordset-object-dao.md)** поддерживают свойство **ValidateOnSet** как чтение и запись.</span><span class="sxs-lookup"><span data-stu-id="320a9-109">Only **Field** objects in **[Recordset](recordset-object-dao.md)** objects support the **ValidateOnSet** property as read/write.</span></span>
+<span data-ttu-id="f0f82-109">Только **объекты Field** в **[объектах Recordset](recordset-object-dao.md)** поддерживают **свойство ValidateOnSet** в качестве чтения или записи.</span><span class="sxs-lookup"><span data-stu-id="f0f82-109">Only **Field** objects in **[Recordset](recordset-object-dao.md)** objects support the **ValidateOnSet** property as read/write.</span></span>
 
-<span data-ttu-id="320a9-110">Установка для **свойства ValidateOnSet** свойства **True** может оказаться полезной в ситуации, когда пользователь вводит записи, включающие существенные memo-данные.</span><span class="sxs-lookup"><span data-stu-id="320a9-110">Setting the **ValidateOnSet** property to **True** can be useful in a situation when a user is entering records that include substantial Memo data.</span></span> <span data-ttu-id="320a9-111">Ожидание вызова **[Update](recordset-update-method-dao.md)** для проверки данных может привести к ненужному времени, затраченного на запись длительных данных memo в базу данных, если окажется, что данные все равно недействительны, так как правило проверки было нарушено в другом поле.</span><span class="sxs-lookup"><span data-stu-id="320a9-111">Waiting until the **[Update](recordset-update-method-dao.md)** call to validate the data can result in unnecessary time spent writing the lengthy Memo data to the database if it turns out that the data was invalid anyway because a validation rule was broken in another field.</span></span>
+<span data-ttu-id="f0f82-110">Настройка **свойства ValidateOnSet** **true** может быть полезна в ситуации, когда пользователь вводит записи, включающие существенные данные памятки.</span><span class="sxs-lookup"><span data-stu-id="f0f82-110">Setting the **ValidateOnSet** property to **True** can be useful in a situation when a user is entering records that include substantial Memo data.</span></span> <span data-ttu-id="f0f82-111">Ожидание вызова **[обновления](recordset-update-method-dao.md)** для проверки данных может привести к ненужному времени, затраченного на написание длинных данных памятки в базу данных, если окажется, что данные все равно недействительны из-за слома правила проверки в другом поле.</span><span class="sxs-lookup"><span data-stu-id="f0f82-111">Waiting until the **[Update](recordset-update-method-dao.md)** call to validate the data can result in unnecessary time spent writing the lengthy Memo data to the database if it turns out that the data was invalid anyway because a validation rule was broken in another field.</span></span>
 
-## <a name="example"></a><span data-ttu-id="320a9-112">Пример</span><span class="sxs-lookup"><span data-stu-id="320a9-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="f0f82-112">Пример</span><span class="sxs-lookup"><span data-stu-id="f0f82-112">Example</span></span>
 
-<span data-ttu-id="320a9-113">В этом примере свойство **ValidateOnSet** используется для демонстрации того, как можно ловить ошибки во время ввода данных.</span><span class="sxs-lookup"><span data-stu-id="320a9-113">This example uses the **ValidateOnSet** property to demonstrate how one might trap for errors during data entry.</span></span> <span data-ttu-id="320a9-114">Для запуска этой процедуры требуется функция ValidateData.</span><span class="sxs-lookup"><span data-stu-id="320a9-114">The ValidateData function is required for this procedure to run.</span></span>
+<span data-ttu-id="f0f82-113">В этом примере используется **свойство ValidateOnSet** для демонстрации того, как можно было бы использовать ловушку для ошибок при вводе данных.</span><span class="sxs-lookup"><span data-stu-id="f0f82-113">This example uses the **ValidateOnSet** property to demonstrate how one might trap for errors during data entry.</span></span> <span data-ttu-id="f0f82-114">Для запуска этой процедуры требуется функция ValidateData.</span><span class="sxs-lookup"><span data-stu-id="f0f82-114">The ValidateData function is required for this procedure to run.</span></span>
 
 ```vb
     Sub ValidateOnSetX() 

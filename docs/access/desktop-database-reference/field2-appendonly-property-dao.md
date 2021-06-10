@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292897"
 ---
-# <a name="field2appendonly-property-dao"></a><span data-ttu-id="2ba9a-102">Свойство Field2.AppendOnly (DAO)</span><span class="sxs-lookup"><span data-stu-id="2ba9a-102">Field2.AppendOnly property (DAO)</span></span>
+# <a name="field2appendonly-property-dao"></a><span data-ttu-id="74d3f-102">Свойство Field2.AppendOnly (DAO)</span><span class="sxs-lookup"><span data-stu-id="74d3f-102">Field2.AppendOnly property (DAO)</span></span>
 
 
-<span data-ttu-id="2ba9a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2ba9a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="74d3f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="74d3f-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="2ba9a-104">Возвращает или задает значение **boolean,** которое указывает, установлено ли в поле spcified новые значения для существующего содержимого поля при их добавлении.</span><span class="sxs-lookup"><span data-stu-id="2ba9a-104">Gets or sets a **Boolean** that indicates whether the spcified field is set to append new values to the existing contents of the field as they are added.</span></span> <span data-ttu-id="2ba9a-105">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="2ba9a-105">Read/write.</span></span>
+<span data-ttu-id="74d3f-104">Получает или задает **поле Boolean,** которое указывает, настроено ли spcified поле для приложения новых значений к существующему содержимому поля при их добавлении.</span><span class="sxs-lookup"><span data-stu-id="74d3f-104">Gets or sets a **Boolean** that indicates whether the spcified field is set to append new values to the existing contents of the field as they are added.</span></span> <span data-ttu-id="74d3f-105">Для чтения и записи.</span><span class="sxs-lookup"><span data-stu-id="74d3f-105">Read/write.</span></span>
 
-## <a name="version-information"></a><span data-ttu-id="2ba9a-106">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="2ba9a-106">Version information</span></span>
+## <a name="version-information"></a><span data-ttu-id="74d3f-106">Сведения о версии</span><span class="sxs-lookup"><span data-stu-id="74d3f-106">Version information</span></span>
 
-<span data-ttu-id="2ba9a-107">Добавлен в версии: Access 2007</span><span class="sxs-lookup"><span data-stu-id="2ba9a-107">Version added: Access 2007</span></span>
+<span data-ttu-id="74d3f-107">Добавлен в версии: Access 2007</span><span class="sxs-lookup"><span data-stu-id="74d3f-107">Version added: Access 2007</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="2ba9a-108">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="2ba9a-108">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="74d3f-108">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="74d3f-108">Syntax</span></span>
 
-<span data-ttu-id="2ba9a-109">*выражение .* AppendOnly</span><span class="sxs-lookup"><span data-stu-id="2ba9a-109">*expression* .AppendOnly</span></span>
+<span data-ttu-id="74d3f-109">*выражения* . AppendOnly</span><span class="sxs-lookup"><span data-stu-id="74d3f-109">*expression* .AppendOnly</span></span>
 
-<span data-ttu-id="2ba9a-110">*expression* — переменная, представляющая объект **Field2**.</span><span class="sxs-lookup"><span data-stu-id="2ba9a-110">*expression* A variable that represents a **Field2** object.</span></span>
+<span data-ttu-id="74d3f-110">*expression* — переменная, представляющая объект **Field2**.</span><span class="sxs-lookup"><span data-stu-id="74d3f-110">*expression* A variable that represents a **Field2** object.</span></span>
 

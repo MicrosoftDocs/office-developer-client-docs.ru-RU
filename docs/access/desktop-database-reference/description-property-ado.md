@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293933"
 ---
-# <a name="description-property-ado"></a><span data-ttu-id="98fc5-102">Свойство Description (ADO)</span><span class="sxs-lookup"><span data-stu-id="98fc5-102">Description property (ADO)</span></span>
+# <a name="description-property-ado"></a><span data-ttu-id="d2eb2-102">Свойство Description (ADO)</span><span class="sxs-lookup"><span data-stu-id="d2eb2-102">Description property (ADO)</span></span>
 
 
-<span data-ttu-id="98fc5-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="98fc5-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="d2eb2-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d2eb2-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="98fc5-104">Описывает объект [Error.](error-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="98fc5-104">Describes an [Error](error-object-ado.md) object.</span></span>
+<span data-ttu-id="d2eb2-104">Описывает объект [Error.](error-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="d2eb2-104">Describes an [Error](error-object-ado.md) object.</span></span>
 
-## <a name="return-value"></a><span data-ttu-id="98fc5-105">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="98fc5-105">Return value</span></span>
+## <a name="return-value"></a><span data-ttu-id="d2eb2-105">Возвращаемое значение</span><span class="sxs-lookup"><span data-stu-id="d2eb2-105">Return value</span></span>
 
-<span data-ttu-id="98fc5-106">Возвращает **строку,** содержаную описание ошибки.</span><span class="sxs-lookup"><span data-stu-id="98fc5-106">Returns a **String** value that contains a description of the error.</span></span>
+<span data-ttu-id="d2eb2-106">Возвращает значение **String,** содержаное описание ошибки.</span><span class="sxs-lookup"><span data-stu-id="d2eb2-106">Returns a **String** value that contains a description of the error.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="98fc5-107">Заметки</span><span class="sxs-lookup"><span data-stu-id="98fc5-107">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="d2eb2-107">Примечания</span><span class="sxs-lookup"><span data-stu-id="d2eb2-107">Remarks</span></span>
 
-<span data-ttu-id="98fc5-108">Используйте свойство **Description,** чтобы получить краткое описание ошибки.</span><span class="sxs-lookup"><span data-stu-id="98fc5-108">Use the **Description** property to obtain a short description of the error.</span></span> <span data-ttu-id="98fc5-109">Отобразить это свойство, чтобы предупредить пользователя об ошибке, которую невозможно или не нужно обрабатывать.</span><span class="sxs-lookup"><span data-stu-id="98fc5-109">Display this property to alert the user to an error that you cannot or do not want to handle.</span></span> <span data-ttu-id="98fc5-110">Строка будет от ADO или поставщика.</span><span class="sxs-lookup"><span data-stu-id="98fc5-110">The string will come from either ADO or a provider.</span></span>
+<span data-ttu-id="d2eb2-108">Чтобы **получить** краткое описание ошибки, используйте свойство Description.</span><span class="sxs-lookup"><span data-stu-id="d2eb2-108">Use the **Description** property to obtain a short description of the error.</span></span> <span data-ttu-id="d2eb2-109">Отобразить это свойство, чтобы предупредить пользователя об ошибке, которую невозможно или не нужно обрабатывать.</span><span class="sxs-lookup"><span data-stu-id="d2eb2-109">Display this property to alert the user to an error that you cannot or do not want to handle.</span></span> <span data-ttu-id="d2eb2-110">Строка будет приходить либо от ADO, либо от поставщика.</span><span class="sxs-lookup"><span data-stu-id="d2eb2-110">The string will come from either ADO or a provider.</span></span>
 
-<span data-ttu-id="98fc5-111">Поставщики отвечают за передачу определенного текста ошибки в ADO.</span><span class="sxs-lookup"><span data-stu-id="98fc5-111">Providers are responsible for passing specific error text to ADO.</span></span> <span data-ttu-id="98fc5-112">ADO добавляет объект [Error](error-object-ado.md) в коллекцию **Errors** для каждой получаемой ошибки или предупреждения поставщика.</span><span class="sxs-lookup"><span data-stu-id="98fc5-112">ADO adds an [Error](error-object-ado.md) object to the **Errors** collection for each provider error or warning it receives.</span></span> <span data-ttu-id="98fc5-113">Enumerate the **Errors** collection to trace the errors that the provider passes.</span><span class="sxs-lookup"><span data-stu-id="98fc5-113">Enumerate the **Errors** collection to trace the errors that the provider passes.</span></span>
+<span data-ttu-id="d2eb2-111">Поставщики несут ответственность за передачу определенного текста ошибки в ADO.</span><span class="sxs-lookup"><span data-stu-id="d2eb2-111">Providers are responsible for passing specific error text to ADO.</span></span> <span data-ttu-id="d2eb2-112">ADO добавляет объект [Ошибки](error-object-ado.md) в коллекцию **Ошибок** для каждого поставщика ошибки или предупреждения, которые он получает.</span><span class="sxs-lookup"><span data-stu-id="d2eb2-112">ADO adds an [Error](error-object-ado.md) object to the **Errors** collection for each provider error or warning it receives.</span></span> <span data-ttu-id="d2eb2-113">Перенацелите коллекцию **ошибок,** чтобы отслеживать ошибки, которые передает поставщик.</span><span class="sxs-lookup"><span data-stu-id="d2eb2-113">Enumerate the **Errors** collection to trace the errors that the provider passes.</span></span>
 

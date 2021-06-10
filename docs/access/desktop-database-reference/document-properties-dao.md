@@ -1,5 +1,5 @@
 ---
-title: Свойства документа (DAO)
+title: Свойства документов (DAO)
 TOCTitle: Properties
 ms:assetid: 44c2192b-1dab-482c-9952-7fdae549c228
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124584(v=office.15)
@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293765"
 ---
-# <a name="document-properties-dao"></a><span data-ttu-id="47c23-102">Свойства документа (DAO)</span><span class="sxs-lookup"><span data-stu-id="47c23-102">Document properties (DAO)</span></span>
+# <a name="document-properties-dao"></a><span data-ttu-id="cb84e-102">Свойства документов (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb84e-102">Document properties (DAO)</span></span>
 
-<span data-ttu-id="47c23-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="47c23-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="cb84e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="cb84e-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="47c23-104">Свойство Document.Container (DAO)</span><span class="sxs-lookup"><span data-stu-id="47c23-104">Document.Container property (DAO)</span></span>](document-container-property-dao.md)
-- [<span data-ttu-id="47c23-105">Свойство Document.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="47c23-105">Document.DateCreated property (DAO)</span></span>](document-datecreated-property-dao.md)
-- [<span data-ttu-id="47c23-106">Свойство Document.LastUpdated (DAO)</span><span class="sxs-lookup"><span data-stu-id="47c23-106">Document.LastUpdated property (DAO)</span></span>](document-lastupdated-property-dao.md)
-- [<span data-ttu-id="47c23-107">Document.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="47c23-107">Document.Name property (DAO)</span></span>](document-name-property-dao.md)
-- [<span data-ttu-id="47c23-108">Свойство Document.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="47c23-108">Document.Properties property (DAO)</span></span>](document-properties-property-dao.md)
+- [<span data-ttu-id="cb84e-104">Свойство Document.Container (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb84e-104">Document.Container property (DAO)</span></span>](document-container-property-dao.md)
+- [<span data-ttu-id="cb84e-105">Свойство Document.DateCreated (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb84e-105">Document.DateCreated property (DAO)</span></span>](document-datecreated-property-dao.md)
+- [<span data-ttu-id="cb84e-106">Свойство Document.LastUpdated (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb84e-106">Document.LastUpdated property (DAO)</span></span>](document-lastupdated-property-dao.md)
+- [<span data-ttu-id="cb84e-107">Document.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb84e-107">Document.Name property (DAO)</span></span>](document-name-property-dao.md)
+- [<span data-ttu-id="cb84e-108">Свойство Document.Properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="cb84e-108">Document.Properties property (DAO)</span></span>](document-properties-property-dao.md)
 

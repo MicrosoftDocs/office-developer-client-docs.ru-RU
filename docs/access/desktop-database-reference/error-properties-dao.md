@@ -1,5 +1,5 @@
 ---
-title: Error properties (DAO)
+title: Свойства ошибок (DAO)
 TOCTitle: Properties
 ms:assetid: 4a839c2d-3bf9-4092-a442-036526789af5
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124680(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293464"
 ---
-# <a name="error-properties-dao"></a><span data-ttu-id="90baa-102">Error properties (DAO)</span><span class="sxs-lookup"><span data-stu-id="90baa-102">Error properties (DAO)</span></span>
+# <a name="error-properties-dao"></a><span data-ttu-id="9c888-102">Свойства ошибок (DAO)</span><span class="sxs-lookup"><span data-stu-id="9c888-102">Error properties (DAO)</span></span>
 
-<span data-ttu-id="90baa-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="90baa-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="9c888-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="9c888-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="90baa-104">Свойство Error.Description (DAO)</span><span class="sxs-lookup"><span data-stu-id="90baa-104">Error.Description property (DAO)</span></span>](error-description-property-dao.md)
-- [<span data-ttu-id="90baa-105">Свойство Error.Number (DAO)</span><span class="sxs-lookup"><span data-stu-id="90baa-105">Error.Number property (DAO)</span></span>](error-number-property-dao.md)
-- [<span data-ttu-id="90baa-106">Свойство Error.Source (DAO)</span><span class="sxs-lookup"><span data-stu-id="90baa-106">Error.Source property (DAO)</span></span>](error-source-property-dao.md)
+- [<span data-ttu-id="9c888-104">Свойство Error.Description (DAO)</span><span class="sxs-lookup"><span data-stu-id="9c888-104">Error.Description property (DAO)</span></span>](error-description-property-dao.md)
+- [<span data-ttu-id="9c888-105">Свойство Error.Number (DAO)</span><span class="sxs-lookup"><span data-stu-id="9c888-105">Error.Number property (DAO)</span></span>](error-number-property-dao.md)
+- [<span data-ttu-id="9c888-106">Свойство Error.Source (DAO)</span><span class="sxs-lookup"><span data-stu-id="9c888-106">Error.Source property (DAO)</span></span>](error-source-property-dao.md)
 
