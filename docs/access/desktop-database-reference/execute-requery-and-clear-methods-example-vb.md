@@ -19,7 +19,7 @@ ms.locfileid: "32293268"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется метод **Execute** при запуске из объекта [Command](command-object-ado.md) и [объекта Connection.](connection-object-ado.md) Он также использует метод [Requery](requery-method-ado.md) для получения текущих данных в наборе [записей](recordset-object-ado.md)и метод [Clear](clear-method-ado.md) для очистки содержимого коллекции [Errors.](errors-collection-ado.md) (Доступ **к коллекции Errors** осуществляется через объект **Connection** свойства [ActiveConnection](activeconnection-property-ado.md) объекта [Recordset.)](recordset-object-ado.md) Для запуска этой процедуры необходимы процедуры ExecuteCommand и PrintOutput.
+В этом примере демонстрируется метод **Execute** при выполнении как объекта [Command,](command-object-ado.md) так и [объекта Подключения.](connection-object-ado.md) Он также использует метод [Requery](requery-method-ado.md) для получения текущих данных в [Наборе](recordset-object-ado.md)записей и метод [Clear](clear-method-ado.md) для очистки содержимого коллекции [Ошибок.](errors-collection-ado.md) (Доступ **к коллекции Ошибок** осуществляется с помощью объекта **Подключения** свойства [ActiveConnection](activeconnection-property-ado.md) в [Наборе записей.)](recordset-object-ado.md) Для выполнения этой процедуры необходимы процедуры ExecuteCommand и PrintOutput.
 
 ```vb 
  

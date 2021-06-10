@@ -19,7 +19,7 @@ ms.locfileid: "32293303"
 
 **Область применения**: Access 2013, Office 2013
 
-Используйте действие **ExitForEachRecord, чтобы** немедленно выйти из блока данных **[ForEachRecord.](foreachrecord-data-block.md)**
+Чтобы немедленно выйти из блока данных **[ForEachRecord, используйте действие ExitForEachRecord.](foreachrecord-data-block.md)** 
 
 
 > [!NOTE]

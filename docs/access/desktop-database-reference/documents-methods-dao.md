@@ -1,5 +1,5 @@
 ---
-title: Методы Documents (DAO)
+title: Методы документов (DAO)
 TOCTitle: Methods
 ms:assetid: f14bb7b0-f8c5-49cb-ae06-b7c721d62673
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180031(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293730"
 ---
-# <a name="documents-methods-dao"></a>Методы Documents (DAO)
+# <a name="documents-methods-dao"></a>Методы документов (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-- [Метод Documents.Refresh (DAO)](documents-refresh-method-dao.md)
+- [Documents.Refresh method (DAO)](documents-refresh-method-dao.md)
 

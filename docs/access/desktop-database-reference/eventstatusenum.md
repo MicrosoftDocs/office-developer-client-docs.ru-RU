@@ -1,5 +1,5 @@
 ---
-title: EventStatusEnum (справочник по базе данных Access для настольных ПК)
+title: EventStatusEnum (Ссылка на настольные базы данных)
 TOCTitle: EventStatusEnum
 ms:assetid: ae1711bc-2af5-04fd-7d8c-222d8afc9d3d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249821(v=office.15)
@@ -39,22 +39,22 @@ ms.locfileid: "32293275"
 <tr class="odd">
 <td><p><strong>adStatusCancel</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Запрашивает отмену операции, которая привела к событию.</p></td>
+<td><p>Запрашивает отмену операции, из-за чего произошло событие.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStatusCantDeny</strong></p></td>
-<td><p>3 </p></td>
-<td><p>Указывает, что операция не может запросить отмену ожидающих операций.</p></td>
+<td><p>3</p></td>
+<td><p>Указывает, что операция не может запрашивать отмену ожидаемой операции.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStatusErrorsOccurred</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Указывает, что операция, вызвавла сбой события, вызвана ошибкой или ошибкой.</p></td>
+<td><p>2</p></td>
+<td><p>Указывает, что операция, вызвавла сбой события из-за ошибки или ошибок.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adStatusOK</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Указывает, что операция, которая привела к событию, была успешной.</p></td>
+<td><p>1</p></td>
+<td><p>Указывает, что операция, которая стала причиной события, была успешной.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adStatusUnwantedEvent</strong></p></td>

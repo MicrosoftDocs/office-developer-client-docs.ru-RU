@@ -1,5 +1,5 @@
 ---
-title: FilterGroupEnum (справочник по базе данных Access для настольных ПК)
+title: FilterGroupEnum (Ссылка на настольные базы данных)
 TOCTitle: FilterGroupEnum
 ms:assetid: 141f8f9a-c188-5937-91cc-3155eaebebd2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248912(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32292421"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает группу записей, которые необходимо отфильтровать из [наборов записей.](recordset-object-ado.md)
+Указывает группу записей, которые необходимо отфильтровать из [recordset.](recordset-object-ado.md)
 
 <br/>
 
@@ -38,18 +38,18 @@ ms.locfileid: "32292421"
 <tbody>
 <tr class="odd">
 <td><p><strong>adFilterAffectedRecords</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Фильтры для просмотра только записей, затронутых последним вызовом <a href="delete-method-ado-recordset.md">Delete,</a> <a href="resync-method-ado.md">Resync,</a> <a href="updatebatch-method-ado.md">UpdateBatch</a>или <a href="cancelbatch-method-ado.md">CancelBatch.</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFilterConflictingRecords</strong></p></td>
 <td><p>5 </p></td>
-<td><p>Фильтры для просмотра записей, которые не удалось обновить последним пакетным обновлением.</p></td>
+<td><p>Фильтры для просмотра записей, провалив последнее пакетное обновление.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adFilterFetchedRecords</strong></p></td>
-<td><p>3 </p></td>
-<td><p>Фильтры для просмотра записей в текущем кэше, то есть результатов последнего вызова для получения записей из базы данных.</p></td>
+<td><p>3</p></td>
+<td><p>Фильтры для просмотра записей в текущем кэше , то есть результаты последнего вызова для получения записей из базы данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adFilterNone</strong></p></td>
@@ -58,8 +58,8 @@ ms.locfileid: "32292421"
 </tr>
 <tr class="odd">
 <td><p><strong>adFilterPendingRecords</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Фильтры для просмотра только тех записей, которые были изменены, но еще не отправлены на сервер. Применимо только для режима пакетного обновления.</p></td>
+<td><p>1</p></td>
+<td><p>Фильтры для просмотра только записей, которые изменились, но еще не отправлены на сервер. Применимо только для режима пакетного обновления.</p></td>
 </tr>
 </tbody>
 </table>

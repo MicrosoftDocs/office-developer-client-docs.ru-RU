@@ -1,5 +1,5 @@
 ---
-title: Errors members (DAO)
+title: Участники ошибки (DAO)
 TOCTitle: Errors Members
 ms:assetid: 7e7eb080-16dc-c873-af80-6286222cd5b3
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff196446(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293387"
 ---
-# <a name="errors-members-dao"></a>Errors members (DAO)
+# <a name="errors-members-dao"></a>Участники ошибки (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция Errors содержит все сохраненные объекты Error, каждый из которых относится к одной операции с DAO.
+Коллекция ошибок содержит все сохраненные объекты ошибки, каждый из которых относится к одной операции с участием DAO.
 
 ## <a name="methods"></a>Методы
 
@@ -37,7 +37,7 @@ ms.locfileid: "32293387"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="errors-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
+<td><p>Обновляет объекты указанного коллегии, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>

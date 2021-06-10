@@ -1,5 +1,5 @@
 ---
-title: Error properties (DAO)
+title: Свойства ошибок (DAO)
 TOCTitle: Properties
 ms:assetid: 4a839c2d-3bf9-4092-a442-036526789af5
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn124680(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293464"
 ---
-# <a name="error-properties-dao"></a>Error properties (DAO)
+# <a name="error-properties-dao"></a>Свойства ошибок (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

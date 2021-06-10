@@ -1,5 +1,5 @@
 ---
-title: Коллекции ADOX (справочник по базам данных Access для настольных ПК)
+title: ADOX collections (Access desktop database reference)
 TOCTitle: ADOX collections
 ms:assetid: bff37fcc-3099-a4a7-b01f-8de1467bf96b
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249933(v=office.15)
@@ -28,7 +28,7 @@ ms.locfileid: "32270128"
 <thead>
 <tr class="header">
 <th><p>Collection</p></th>
-<th><p>Описание</p></th>
+<th><p>Description</p></th>
 </tr>
 </thead>
 <tbody>
@@ -38,11 +38,11 @@ ms.locfileid: "32270128"
 </tr>
 <tr class="even">
 <td><p><a href="groups-collection-adox.md">Группы</a></p></td>
-<td><p>Содержит все сохраненные <strong>объекты group</strong> каталога или пользователя.</p></td>
+<td><p>Содержит все сохраненные <strong>объекты Group</strong> каталога или пользователя.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="indexes-collection-adox.md">Indexes</a></p></td>
-<td><p>Содержит все <strong>объекты index</strong> таблицы.</p></td>
+<td><p>Содержит все <strong>объекты Index</strong> таблицы.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="keys-collection-adox.md">Keys</a></p></td>
@@ -50,19 +50,19 @@ ms.locfileid: "32270128"
 </tr>
 <tr class="odd">
 <td><p><a href="procedures-collection-adox.md">Процедуры</a></p></td>
-<td><p>Содержит все <strong>объекты Procedure</strong> каталога.</p></td>
+<td><p>Содержит все <strong>объекты Процедуры</strong> каталога.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="tables-collection-adox.md">Tables</a></p></td>
-<td><p>Содержит все <strong>объекты Table</strong> каталога.</p></td>
+<td><p>Содержит все <strong>объекты</strong> таблицы каталога.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="users-collection-adox.md">пользователи</a>;</p></td>
-<td><p>Содержит все <strong>хранимые</strong> объекты пользователя каталога или группы.</p></td>
+<td><p>Содержит все сохраненные <strong>объекты</strong> пользователя каталога или группы.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="views-collection-adox.md">Views</a></p></td>
-<td><p>Содержит все <strong>объекты просмотра</strong> каталога.</p></td>
+<td><p>Содержит все <strong>объекты Просмотра</strong> каталога.</p></td>
 </tr>
 </tbody>
 </table>

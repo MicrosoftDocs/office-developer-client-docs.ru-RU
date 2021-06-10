@@ -19,7 +19,7 @@ ms.locfileid: "32293289"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируется метод **Execute** при запуске из объекта [Command](command-object-ado.md) и [объекта Connection.](connection-object-ado.md) Он также использует метод [Requery](requery-method-ado.md) для получения текущих данных в наборе записей [и](recordset-object-ado.md)метод [Clear](clear-method-ado.md) для очистки содержимого коллекции [Errors.](errors-collection-ado.md) Для запуска этого примера необходимы функции ExecuteCommand и PrintOutput.
+В этом примере демонстрируется метод **Execute** при выполнении как объекта [Command,](command-object-ado.md) так и [объекта Подключения.](connection-object-ado.md) Он также использует метод [Requery](requery-method-ado.md) для получения текущих данных в наборе записей [и](recordset-object-ado.md)метод [Clear](clear-method-ado.md) для очистки содержимого коллекции [Ошибок.](errors-collection-ado.md) Для выполнения этого примера необходимы функции ExecuteCommand и PrintOutput.
 
 ```cpp 
  

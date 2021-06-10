@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту Error (DAO)
+title: Ссылка на объект ошибки (DAO)
 TOCTitle: Error Object
 ms:assetid: 96cff172-964e-49bf-b83c-d56226a4d81a
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125405(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293471"
 ---
-# <a name="error-object-reference-dao"></a>Справочник по объекту Error (DAO)
+# <a name="error-object-reference-dao"></a>Ссылка на объект ошибки (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Error (DAO)](error-object-dao.md)
-- [Error members (DAO)](error-members-dao.md)
-- [Error properties (DAO)](error-properties-dao.md)
+- [Объект ошибки (DAO)](error-object-dao.md)
+- [Участники ошибки (DAO)](error-members-dao.md)
+- [Свойства ошибок (DAO)](error-properties-dao.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Пример работы методов EOS и LineSeparator и SkipLine (VB)
+title: Пример свойств EOS и LineSeparator и метода SkipLine (VB)
 TOCTitle: EOS and LineSeparator Properties and SkipLine method example (VB)
 ms:assetid: 66508541-cc65-e16a-0f8d-2c0b20342b05
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249396(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293534"
 ---
-# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a>Пример работы EOS и lineSeparator Properties и метода SkipLine (VB)
+# <a name="eos-and-lineseparator-properties-and-skipline-method-example-vb"></a>Пример свойств EOS и LineSeparator и метода SkipLine (VB)
 
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано, как управлять текстовыми потоками по одной строке за раз. Отображается эффект изменения разрежимающего линии с возврата каретки по умолчанию **(adCRLF)** на простое перенаправитель строки **(adLF)** или возврат каретки **(adCR).**
+В этом примере показано, как управлять текстовыми потоками по одной строке. Показано действие изменения сепаратора строки с возвращаемого/linefeed по умолчанию **(adCRLF)** на простое linefeed **(adLF)** или возвращение вагона **(adCR).**
 
 ```vb 
  

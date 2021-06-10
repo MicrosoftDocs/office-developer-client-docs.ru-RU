@@ -1,5 +1,5 @@
 ---
-title: Справочник по объекту Error (ADO)
+title: Ссылка на объект ошибки (ADO)
 TOCTitle: Error object (ADO)
 ms:assetid: 19c9300f-2005-4732-a62c-c95ac512eb43
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248942(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293492"
 ---
-# <a name="error-object-ado-reference"></a>Справочник по объекту Error (ADO)
+# <a name="error-object-ado-reference"></a>Ссылка на объект ошибки (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Error (ADO)](error-object-ado.md)
-- [Error properties, methods, and events (ADO)](error-properties-methods-and-events-ado.md)
+- [Объект ошибки (ADO)](error-object-ado.md)
+- [Свойства ошибок, методы и события (ADO)](error-properties-methods-and-events-ado.md)
 

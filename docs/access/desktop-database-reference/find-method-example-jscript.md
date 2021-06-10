@@ -19,7 +19,7 @@ ms.locfileid: "32292393"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере метод [](find-method-ado.md) Find объекта [Recordset](recordset-object-ado.md) используется для поиска и отображения компаний в базе данных ***Northwind,*** имя которых начинается с буквы G. Cut and paste the following code to Notepad or another text editor, and save it as **FindJS.asp**.
+В этом примере метод [](find-method-ado.md) Поиска объекта [Recordset](recordset-object-ado.md) используется для обнаружения и отображения компаний в базе данных ***Northwind,*** имя которых начинается с буквы G. Вырезать и вклеить следующий код для Блокнот или другого редактора текста и сохранить его как **FindJS.asp**.
 
 ```javascript 
  

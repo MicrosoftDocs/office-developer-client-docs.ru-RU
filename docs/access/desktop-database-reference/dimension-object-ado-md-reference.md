@@ -1,5 +1,5 @@
 ---
-title: Объект Dimension (справочник по ADO MD)
+title: Объект Dimension (ссылка ADO MD)
 TOCTitle: Dimension object (ADO MD)
 ms:assetid: b48c853b-4e51-4c1f-a88d-283f1f727fd3
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249866(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293905"
 ---
-# <a name="dimension-object-ado-md-reference"></a>Объект Dimension (справочник по ADO MD)
+# <a name="dimension-object-ado-md-reference"></a>Объект Dimension (ссылка ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Dimension (ADO MD)](dimension-object-ado-md.md)
-- [Dimension properties, methods, and events (ADO MD)](dimension-properties-methods-and-events-ado-md.md)
+- [Свойства, методы и события измерения (ADO MD)](dimension-properties-methods-and-events-ado-md.md)
 

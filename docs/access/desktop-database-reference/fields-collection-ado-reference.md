@@ -1,5 +1,5 @@
 ---
-title: Справочник по коллекции Fields (ADO)
+title: Ссылка на коллекцию полей (ADO)
 TOCTitle: Fields collection (ADO)
 ms:assetid: bf2f780e-8a29-4d20-a5ec-80567860d576
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249929(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292568"
 ---
-# <a name="fields-collection-ado-reference"></a>Справочник по коллекции Fields (ADO)
+# <a name="fields-collection-ado-reference"></a>Ссылка на коллекцию полей (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Fields (ADO)](fields-collection-ado.md)
+- [Коллекция полей (ADO)](fields-collection-ado.md)
 - [Свойства, методы и события коллекции Fields](fields-collection-properties-methods-and-events.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Справочник по коллекции ошибок (ADO)
+title: Ссылка на коллекцию ошибок (ADO)
 TOCTitle: Errors collection (ADO)
 ms:assetid: 08400de5-8113-4f53-a6ae-62010372f276
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248823(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293436"
 ---
-# <a name="errors-collection-ado-reference"></a>Справочник по коллекции ошибок (ADO)
+# <a name="errors-collection-ado-reference"></a>Ссылка на коллекцию ошибок (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Errors collection (ADO)](errors-collection-ado.md)
+- [Коллекция ошибок (ADO)](errors-collection-ado.md)
 - [Свойства, методы и события коллекции Errors](errors-collection-properties-methods-and-events.md)
 

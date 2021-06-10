@@ -23,29 +23,29 @@ ms.locfileid: "32292813"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, которое задает имя объекта **Field2** во внешней таблице, которое соответствует полю в основной таблице для связи (только для рабочей области Microsoft Access).
+Задает или возвращает значение, которое указывает имя объекта **Field2** в иностранной таблице, соответствующее полю в основной таблице для связи (только в рабочей области Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* ForeignName
+*выражения* . ForeignName
 
 *expression* — переменная, представляющая объект **Field2**.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Если объект **[Relation](relation-object-dao.md)** не будет примечен к базе **[данных,](database-object-dao.md)** но **поле Field2** будет примечено к объекту **Relation,** свойство **ForeignName** будет считываться и записываться. После того как объект **Relation** будет appended к базе данных, свойство **ForeignName** будет доступно только для чтения.
+Если объект **[Relation](relation-object-dao.md)** не примыкает к базе **[данных,](database-object-dao.md)** а **Field2** примыкает к объекту **Relation,** свойство **ForeignName** будет читать или писать. После того как объект **Relation** будет примечен к базе данных, свойство **ForeignName** будет доступно только для чтения.
 
-Только объект **Field2,** принадлежащий коллекции **Fields** объекта **Relation,** может поддерживать свойство **ForeignName.**
+Только объект **Field2,** принадлежащий коллекции **Полей** объекта **Relation,** может поддерживать свойство **ForeignName.**
 
-Параметры свойства **[Name](connection-name-property-dao.md)** и **ForeignName** для объекта **Field2** указывают имена соответствующих полей в основных и внешних таблицах связи. Параметры свойств **[Table](relation-table-property-dao.md)** **[и ForeignTable](relation-foreigntable-property-dao.md)** для объекта **Relation** определяют основные и внешние таблицы связи.
+**[Параметры](connection-name-property-dao.md)** свойств Name и **ForeignName** для объекта **Field2** указывают имена соответствующих полей в основных и иностранных таблицах связи. Параметры **[свойств](relation-table-property-dao.md)** Table и **[ForeignTable](relation-foreigntable-property-dao.md)** для объекта **Relation** определяют основные и внешние таблицы отношения.
 
-Например, если у вас есть список допустимого кода части (в поле с именем PartNo), хранимый в таблице ValidParts, можно установить связь с таблицей OrderItem таким образом, что если бы код части был введен в таблицу OrderItem, он должен был бы уже существовать в таблице ValidParts. Если код части не существует в таблице ValidParts и вы не установили для свойства **[Attributes](field-attributes-property-dao.md)** объекта **Relation** значение **dbRelationDontEnforce,** произойдет перехватимая ошибка.
+Например, если в таблице ValidParts хранится список действительных кодов части (в поле с именем PartNo), можно установить связь со таблицей OrderItem, что если код части был введен в таблицу OrderItem, он должен уже существовать в таблице ValidParts. Если код части не существовал в таблице ValidParts и **[](field-attributes-property-dao.md)** вы не заостряли свойство Атрибуты объекта **Relation** на **dbRelationDontEnforce,** может возникнуть ошибка.
 
-В этом случае таблица ValidParts является внешней таблицей, поэтому свойство **ForeignTable** объекта **Relation** будет иметь свойство ValidParts, а свойство **Table** объекта **Relation** — OrderItem. Свойства **Name** и **ForeignName** объекта **Field2** в коллекции **Fields** объекта **Relation** будут иметь имя PartNo.
+В этом случае таблица ValidParts является иностранной таблицей, поэтому свойство **ForeignTable** объекта  **Relation** будет задано validParts, а свойство Table объекта **Relation** — orderItem. Свойства **name** и **ForeignName** объекта **Field2** в коллекции  Поля объекта **Relation** будут задатки PartNo.
 
 ## <a name="example"></a>Пример
 
-В этом примере показано, как свойства **Table,** **ForeignTable** и **ForeignName** определяют термины **отношения** между двумя таблицами.
+В этом примере **показано,** как свойства **Table, ForeignTable** и **ForeignName** определяют условия связи **между** двумя таблицами.
 
 ```vb
     Sub ForeignNameX() 

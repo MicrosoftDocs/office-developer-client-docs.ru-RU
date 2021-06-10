@@ -22,20 +22,20 @@ ms.locfileid: "32293226"
 
 ## <a name="syntax"></a>Синтаксис
 
-ExecuteComplete *RecordsAffected,* *pError,* *adStatus*, *pCommand*, *pRecordset*, *pConnection*
+ExecuteComplete *RecordsAffected*, *pError*, *adStatus*, *pCommand*, *pRecordset*, *pConnection*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*RecordsAffected* |**Длинное** значение, указывающее количество записей, на которые влияет команда.|
-|*pError* |Объект [Error.](error-object-ado.md) В ней описывается ошибка, которая произошла, если **значением adStatus** является **adStatusErrorsOccurred;** в противном случае он не установлен.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). Перед возвращением этого события установите для этого параметра **параметр adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
-|*pCommand* |Выполненный [объект](command-object-ado.md) Command. Содержит объект **Command** даже при вызове **Connection.Execute** или **Recordset.Open** без явного создания **команды,** в которых объект **Command** создается внутри ADO.|
-|*pRecordset* |Объект [Recordset,](recordset-object-ado.md) который является результатом выполненной команды. Этот **набор записей может** быть пустым. Никогда не следует уничтожать этот объект Recordset из этого обработера событий. Это приведет к нарушению доступа, когда ADO пытается получить доступ к объекту, который больше не существует.|
-|*pConnection* |Объект [Connection.](connection-object-ado.md) Подключение, по которому была выполнена операция.|
+|*RecordsAffected* |**Длинное** значение, указывающее количество записей, затронутых командой.|
+|*pError* |Объект [Ошибки.](error-object-ado.md) Он описывает ошибку, которая произошла, если значение **adStatus** **является adStatusErrorsOccurred;** в противном случае она не установлена.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Перед возвращением этого события установите этот параметр **adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
+|*pCommand* |Объект [Command,](command-object-ado.md) который был выполнен. Содержит объект **Command** даже при вызове **Connection.Exe** **или Recordset.Open** без явного создания **команды,** в которых объект **Command** создается внутренне ADO.|
+|*pRecordset* |Объект [Recordset,](recordset-object-ado.md) который является результатом выполненной команды. Этот **набор записей** может быть пустым. Никогда не следует уничтожать этот объект Recordset из обработки этого события. Это приведет к нарушению доступа, когда ADO пытается получить доступ к объекту, который больше не существует.|
+|*pConnection* |Объект [Подключения.](connection-object-ado.md) Подключение, по которому была выполнена операция.|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Событие **ExecuteComplete** может произойти из-за **подключения.** [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **Command.** [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **Recordset.** [Open](open-method-ado-recordset.md), **Recordset.** [Requery](requery-method-ado.md)или **Recordset.** [Методы NextRecordset.](nextrecordset-method-ado.md)
+Событие **ExecuteComplete** может произойти из-за **подключения.** [Выполнение](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection), **Команда.** [Выполнить](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command), **Recordset.** [Откройте](open-method-ado-recordset.md), **Recordset.** [Requery](requery-method-ado.md)или **Recordset.** [Методы NextRecordset.](nextrecordset-method-ado.md)
 

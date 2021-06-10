@@ -23,7 +23,7 @@ ms.locfileid: "32292855"
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает объект **[ComplexType,](complextype-object-dao.md)** который представляет поле с несколькими значениями. Только для чтения.
+Возвращает объект **[ComplexType,](complextype-object-dao.md)** который представляет многомерное поле. Только для чтения.
 
 ## <a name="version-information"></a>Сведения о версии
 
@@ -31,7 +31,7 @@ ms.locfileid: "32292855"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* ComplexType
+*выражения* . ComplexType
 
 *expression* — переменная, представляющая объект **Field2**.
 

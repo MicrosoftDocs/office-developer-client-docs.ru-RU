@@ -30,7 +30,7 @@ ms.locfileid: "32292792"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* LoadFromFile(***FileName***)
+*выражения* . LoadFromFile ***(FileName)***
 
 *expression* — переменная, представляющая объект **Field2**.
 
@@ -55,8 +55,8 @@ ms.locfileid: "32292792"
 <tr class="odd">
 <td><p><em>FileName</em></p></td>
 <td><p>Обязательный</p></td>
-<td><p><strong>Строка</strong></p></td>
-<td><p>Полное путь к файлу, который необходимо загрузить.</p></td>
+<td><p><strong>String</strong></p></td>
+<td><p>Полностью квалифицированный путь файла к загрузке.</p></td>
 </tr>
 </tbody>
 </table>

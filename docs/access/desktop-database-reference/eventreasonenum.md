@@ -1,5 +1,5 @@
 ---
-title: EventReasonEnum (справочник по базе данных Access для настольных ПК)
+title: EventReasonEnum (Ссылка на настольные базы данных)
 TOCTitle: EventReasonEnum
 ms:assetid: 0639928e-d0ef-3db3-887e-f3da03913bc7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248815(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32293331"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает причину возникновения события.
+Указывает причину, по которой произошло событие.
 
 <br/>
 
@@ -38,58 +38,58 @@ ms.locfileid: "32293331"
 <tbody>
 <tr class="odd">
 <td><p><strong>adRsnAddNew</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Операция добавила новую запись.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnClose</strong></p></td>
 <td><p>9 </p></td>
-<td><p>Операция закрыла <strong>набор записей.</strong></p></td>
+<td><p>Операция закрыла <strong>Набор записей.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnDelete</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Операция удалила запись.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnFirstChange</strong></p></td>
 <td><p>11</p></td>
-<td><p>Операция внеса первое изменение в запись.</p></td>
+<td><p>Операция сделала первое изменение записи.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnMove</strong></p></td>
 <td><p>10 </p></td>
-<td><p>Операция переместила указатель записи в <strong>набор recordset.</strong></p></td>
+<td><p>Операция переместила указатель записи в <strong>recordset.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnMoveFirst</strong></p></td>
 <td><p>12 </p></td>
-<td><p>Операция переместила указатель записи на первую запись в <strong>наборе записей.</strong></p></td>
+<td><p>Операция переместила указатель записи на первую запись <strong>в Наборе записей.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnMoveLast</strong></p></td>
-<td><p>15 </p></td>
-<td><p>Операция переместила указатель записи на последнюю запись в <strong>наборе записей.</strong></p></td>
+<td><p>15</p></td>
+<td><p>Операция переместила указатель записи на последнюю запись <strong>в Наборе записей.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnMoveNext</strong></p></td>
-<td><p>13 </p></td>
-<td><p>Операция переместила указатель записи на следующую запись в <strong>наборе записей.</strong></p></td>
+<td><p>13</p></td>
+<td><p>Операция переместила указатель записи на следующую запись <strong>в Наборе записей.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnMovePrevious</strong></p></td>
 <td><p>14 </p></td>
-<td><p>Операция переместила указатель записи на предыдущую запись в <strong>наборе записей.</strong></p></td>
+<td><p>Операция переместила указатель записи к предыдущей записи в <strong>Наборе записей.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnRequery</strong></p></td>
 <td><p>7 </p></td>
-<td><p>Операция повторно затевлала <a href="recordset-object-ado.md">набор записей.</a></p></td>
+<td><p>Операция повторного <a href="recordset-object-ado.md">recordset</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnResynch</strong></p></td>
 <td><p>8 </p></td>
-<td><p>Операция повторно синхронизировала <strong>набор записей</strong> с базой данных.</p></td>
+<td><p>Операция ресинхронизировала <strong>набор recordset</strong> с базой данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRsnUndoAddNew</strong></p></td>
@@ -108,7 +108,7 @@ ms.locfileid: "32293331"
 </tr>
 <tr class="odd">
 <td><p><strong>adRsnUpdate</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Операция обновила существующую запись.</p></td>
 </tr>
 </tbody>

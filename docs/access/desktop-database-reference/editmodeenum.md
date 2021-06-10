@@ -1,5 +1,5 @@
 ---
-title: EditModeEnum (справочник по базам данных Access для настольных ПК)
+title: EditModeEnum (Ссылка на настольные базы данных)
 TOCTitle: EditModeEnum
 ms:assetid: 4da0e504-aca2-b769-04a2-0df687fa4422
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249248(v=office.15)
@@ -39,22 +39,22 @@ ms.locfileid: "32293583"
 <tr class="odd">
 <td><p><strong>adEditNone</strong></p></td>
 <td><p>0</p></td>
-<td><p>Указывает, что операция редактирования не идет.</p></td>
+<td><p>Указывает, что операция редактирования не продолжается.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adEditInProgress</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Указывает, что данные в текущей записи были изменены, но не сохранены.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adEditAdd</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Указывает, что метод <a href="addnew-method-ado.md">AddNew</a> был вызван, а текущая запись в буфере копирования — это новая запись, которая не была сохранена в базе данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adEditDelete</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Указывает, что текущая запись была удалена.</p></td>
+<td><p>Указывает, что текущая запись удалена.</p></td>
 </tr>
 </tbody>
 </table>

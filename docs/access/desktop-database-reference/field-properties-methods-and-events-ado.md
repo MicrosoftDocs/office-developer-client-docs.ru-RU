@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события поля (ADO)
+title: Свойства поля, методы и события (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 41169853-7c6b-500e-df6b-cf7083a930a9
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249186(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293051"
 ---
-# <a name="field-properties-methods-and-events-ado"></a>Свойства, методы и события поля (ADO)
+# <a name="field-properties-methods-and-events-ado"></a>Свойства поля, методы и события (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство ActualSize](actualsize-property-ado.md)
 - [Свойство Attributes](attributes-property-ado.md)
@@ -34,7 +34,7 @@ ms.locfileid: "32293051"
 - [Свойство Value](value-property-ado.md)
 
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Метод AppendChunk](appendchunk-method-ado.md)
 - [Метод GetChunk](getchunk-method-ado.md)

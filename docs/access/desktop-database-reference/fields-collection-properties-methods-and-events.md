@@ -23,11 +23,11 @@ ms.locfileid: "32292554"
 - [Свойство Count](count-property-ado.md)
 - [Свойство Item](item-property-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Метод Append](append-method-ado.md)
 - [Метод CancelUpdate](cancelupdate-method-ado.md)
-- [Метод Delete (коллекция полей ADO)](delete-method-ado-fields-collection.md)
+- [Метод удаления (коллекция полей ADO)](delete-method-ado-fields-collection.md)
 - [Метод Refresh](refresh-method-ado.md)
 - [Метод Resync](resync-method-ado.md)
 - [Метод Update](update-method-ado.md)

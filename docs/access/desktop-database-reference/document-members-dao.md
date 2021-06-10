@@ -1,5 +1,5 @@
 ---
-title: Document members (DAO)
+title: Участники документа (DAO)
 TOCTitle: Document Members
 ms:assetid: 8de770e6-e4d1-372a-3ef8-8539c921b41f
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197365(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293793"
 ---
-# <a name="document-members-dao"></a>Document members (DAO)
+# <a name="document-members-dao"></a>Участники документа (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Объект Document включает сведения об одном экземпляре объекта. Объект может быть базой данных, сохраненной таблицей, запросом или отношением (только для баз данных я могу использовать яд баз данных Microsoft Access).
+Объект Document содержит сведения об одном экземпляре объекта. Объектом может быть база данных, сохраненная таблица, запрос или связь (только базы данных базы данных Microsoft Access).
 
 ## <a name="methods"></a>Методы
 
@@ -37,7 +37,7 @@ ms.locfileid: "32293793"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="document-createproperty-method-dao.md">CreateProperty</a></strong></p></td>
-<td><p>Создает объект Property, определенный <strong><a href="property-object-dao.md">пользователем</a></strong> (только для рабочих пространств Microsoft Access).</p></td>
+<td><p>Создает новый объект Свойства, определенный <strong><a href="property-object-dao.md">пользователем</a></strong> (только рабочие пространства Microsoft Access).</p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ ms.locfileid: "32293793"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="document-container-property-dao.md">Контейнер</a></strong></p></td>
-<td><p>Возвращает имя <strong><a href="container-object-dao.md">объекта-контейнера,</a></strong> которому принадлежит объект <strong>Document</strong> (только для рабочей области Microsoft Access). .</p></td>
+<td><p>Возвращает имя объекта <strong><a href="container-object-dao.md">Container,</a></strong> которому принадлежит объект <strong>Document</strong> (только в рабочей области Microsoft Access). .</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-datecreated-property-dao.md">DateCreated</a></strong></p></td>
@@ -67,7 +67,7 @@ ms.locfileid: "32293793"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="document-lastupdated-property-dao.md">LastUpdated</a></strong></p></td>
-<td><p>Возвращает дату и время последнего изменения объекта. Только для чтения, <strong>Variant</strong>.</p></td>
+<td><p>Возвращает дату и время последнего изменения, выполненного в объекте. Только для чтения, <strong>Variant</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="document-name-property-dao.md">Name</a></strong></p></td>

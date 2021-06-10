@@ -1,5 +1,5 @@
 ---
-title: Методы Fields (DAO)
+title: Методы полей (DAO)
 TOCTitle: Methods
 ms:assetid: 8fbbdc45-7ab2-40a2-9a68-c06e3c8bf340
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125301(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292526"
 ---
-# <a name="fields-methods-dao"></a>Методы Fields (DAO)
+# <a name="fields-methods-dao"></a>Методы полей (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

@@ -1,5 +1,5 @@
 ---
-title: FieldEnum (справочник по базе данных Access для настольных ПК)
+title: FieldEnum (Ссылка на настольные базы данных)
 TOCTitle: FieldEnum
 ms:assetid: fbd415c0-d6b4-278f-318b-98432c013634
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250289(v=office.15)
@@ -18,11 +18,11 @@ ms.locfileid: "32292596"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает специальные поля, на которые ссылается коллекция [Fields](record-object-ado.md) объекта [Record.](fields-collection-ado.md)
+Указывает специальные поля, на которые ссылается коллекция [Полей](record-object-ado.md) объекта [Record.](fields-collection-ado.md)
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Эти константы предоставляют "ярлык" для доступа к специальным полям, связанным с **записью.** Получите объект [Field](field-object-ado.md) из коллекции **Fields,** а затем получите его содержимое с помощью свойства **Value** объекта [Field.](value-property-ado.md)
+Эти константы обеспечивают "ярлык" для доступа к специальным полям, связанным с **записью.** Извлекать [объект Field](field-object-ado.md) из коллекции **Fields,** а затем получать его содержимое с помощью свойства **Value** [объекта Field.](value-property-ado.md)
 
 <br/>
 
@@ -43,12 +43,12 @@ ms.locfileid: "32292596"
 <tr class="odd">
 <td><p><strong>adDefaultStream</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Ссылается на поле, содержащее <a href="stream-object-ado.md">объект Stream по</a> умолчанию, связанный с <strong>записью.</strong></p></td>
+<td><p>Ссылается на поле, содержащее объект <a href="stream-object-ado.md">Stream по</a> умолчанию, связанный с <strong>записью.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRecordURL</strong></p></td>
 <td><p>–2</p></td>
-<td><p>Ссылается на поле, содержащее строку абсолютного URL-адреса для текущей <strong>записи.</strong></p></td>
+<td><p>Ссылки на поле, содержащее абсолютную строку URL-адреса для текущей <strong>записи.</strong></p></td>
 </tr>
 </tbody>
 </table>

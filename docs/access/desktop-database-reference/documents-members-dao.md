@@ -1,5 +1,5 @@
 ---
-title: Documents members (DAO)
+title: Участники документов (DAO)
 TOCTitle: Documents Members
 ms:assetid: 8d5ac520-28b5-744d-6e60-219ca48575c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197354(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293737"
 ---
-# <a name="documents-members-dao"></a>Documents members (DAO)
+# <a name="documents-members-dao"></a>Участники документов (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция "Документы" содержит все объекты Document для определенного типа объекта (только для баз данных яд баз данных Microsoft Access).
+Коллекция документов содержит все объекты Document для определенного типа объекта (только базы данных базы данных Microsoft Access).
 
 ## <a name="methods"></a>Методы
 
@@ -37,7 +37,7 @@ ms.locfileid: "32293737"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="documents-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Обновляет объекты в указанном совмещение, чтобы отразить текущую схему базы данных.</p></td>
+<td><p>Обновляет объекты указанного коллегии, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>

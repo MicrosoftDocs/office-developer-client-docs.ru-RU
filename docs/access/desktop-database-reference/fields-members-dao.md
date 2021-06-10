@@ -1,5 +1,5 @@
 ---
-title: Fields members (DAO)
+title: Участники Fields (DAO)
 TOCTitle: Fields Members
 ms:assetid: b7ba5b21-03f4-6ac0-2acc-777da3d22839
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822428(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292540"
 ---
-# <a name="fields-members-dao"></a>Fields members (DAO)
+# <a name="fields-members-dao"></a>Участники Fields (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -36,7 +36,7 @@ ms.locfileid: "32292540"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="fields-append-method-dao.md">Append</a></strong></p></td>
+<td><p><strong><a href="fields-append-method-dao.md">Приложение</a></strong></p></td>
 <td><p>Добавляет новый объект <strong><a href="field-object-dao.md">Field</a></strong> в коллекцию <strong><a href="fields-collection-dao.md">Fields</a></strong>.</p></td>
 </tr>
 <tr class="even">
@@ -45,7 +45,7 @@ ms.locfileid: "32292540"
 </tr>
 <tr class="odd">
 <td><p><strong><a href="fields-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
+<td><p>Обновляет объекты указанного коллегии, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>

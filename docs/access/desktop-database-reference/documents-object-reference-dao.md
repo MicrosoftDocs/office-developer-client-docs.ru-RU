@@ -1,5 +1,5 @@
 ---
-title: Documents object reference (DAO)
+title: Справка об объектах документов (DAO)
 TOCTitle: Documents Object
 ms:assetid: 62d40d09-9083-4ddd-b08d-12e45092d029
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142217(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293716"
 ---
-# <a name="documents-object-reference-dao"></a>Documents object reference (DAO)
+# <a name="documents-object-reference-dao"></a>Справка об объектах документов (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Documents (DAO)](documents-collection-dao.md)
-- [Documents members (DAO)](documents-members-dao.md)
+- [Коллекция документов (DAO)](documents-collection-dao.md)
+- [Участники документов (DAO)](documents-members-dao.md)
 - [Свойства документов (DAO)](documents-properties-dao.md)
-- [Методы Documents (DAO)](documents-methods-dao.md)
+- [Методы документов (DAO)](documents-methods-dao.md)
 

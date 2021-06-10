@@ -23,7 +23,7 @@ ms.locfileid: "32293814"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* DateCreated
+*выражения* . DateCreated
 
 *выражение* Переменная, представляюная объект **Document.**
 

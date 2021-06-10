@@ -1,5 +1,5 @@
 ---
-title: Enumeration EditModeEnum (DAO)
+title: Переименовка EditModeEnum (DAO)
 TOCTitle: EditModeEnum Enumeration
 ms:assetid: 738ab5b7-75dc-2e45-45f2-eb64cc7e9527
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff195860(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32293604"
 ---
-# <a name="editmodeenum-enumeration-dao"></a>Enumeration EditModeEnum (DAO)
+# <a name="editmodeenum-enumeration-dao"></a>Переименовка EditModeEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает состояние редактирования для текущей записи.
+Указывает состояние редактирования текущей записи.
 
 <table>
 <colgroup>
@@ -37,18 +37,18 @@ ms.locfileid: "32293604"
 <tbody>
 <tr class="odd">
 <td><p>dbEditAdd</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p><strong>Вызван метод AddNew.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p>dbEditInProgress</p></td>
-<td><p>1 </p></td>
-<td><p><strong>Вызван метод редактирования.</strong></p></td>
+<td><p>1</p></td>
+<td><p><strong>Изменение</strong> вызываемого метода.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbEditNone</p></td>
 <td><p>0</p></td>
-<td><p><strong>Вызван метод редактирования.</strong></p></td>
+<td><p><strong>Изменение</strong> вызываемого метода.</p></td>
 </tr>
 </tbody>
 </table>

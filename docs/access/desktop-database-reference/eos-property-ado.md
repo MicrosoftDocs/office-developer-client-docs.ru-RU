@@ -1,5 +1,5 @@
 ---
-title: EOS Property (ADO - Access desktop database reference))
+title: Свойство EOS (ADO - доступ к справочной базе данных настольных компьютеров))
 TOCTitle: EOS property (ADO)
 ms:assetid: 97cd23ef-cca8-4dcc-2641-082a0e1b853c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249676(v=office.15)
@@ -23,7 +23,7 @@ ms.locfileid: "32293527"
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Возвращает **boolean значение,** которое указывает, находится ли текущая позиция в конце потока. **EOS** возвращает **true,** если в потоке больше нет данных; Если **текущее** положение больше, возвращается false.
+Возвращает значение **Boolean,** которое указывает, находится ли текущая позиция в конце потока. **EOS** возвращает **True,** если в потоке больше нет bytes; возвращает **False,** если после текущей позиции больше bytes.
 
-Чтобы установить конец положения потока, используйте метод [SetEOS.](seteos-method-ado.md) Чтобы определить текущую позицию, используйте [свойство Position.](position-property-ado.md)
+Чтобы установить конец положения потока, используйте [метод SetEOS.](seteos-method-ado.md) Чтобы определить текущее положение, используйте свойство [Position.](position-property-ado.md)
 

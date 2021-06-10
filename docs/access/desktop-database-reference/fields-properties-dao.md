@@ -1,5 +1,5 @@
 ---
-title: Свойства fields (DAO)
+title: Свойства полей (DAO)
 TOCTitle: Properties
 ms:assetid: 5f1cd784-8e43-43a6-8df5-fd8a1aac1821
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142161(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32292498"
 ---
-# <a name="fields-properties-dao"></a>Свойства fields (DAO)
+# <a name="fields-properties-dao"></a>Свойства полей (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

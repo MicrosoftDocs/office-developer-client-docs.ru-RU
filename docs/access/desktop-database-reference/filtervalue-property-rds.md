@@ -18,7 +18,7 @@ ms.locfileid: "32292407"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает значение, по которому следует фильтровать записи.
+Указывает значение для фильтрации записей.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -28,14 +28,14 @@ ms.locfileid: "32292407"
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектная переменная, представляюная [RDS. Объект DataControl.](datacontrol-object-rds.md)|
-|*Строка* |**Строковая** строка, представляюная значение данных, с помощью которого фильтруются записи (например, "Программист" или "125").|
+|*DataControl* |Переменная объекта, представляюая [RDS. Объект DataControl.](datacontrol-object-rds.md)|
+|*String* |Значение **String,** представляю которое представляет значение данных для фильтрации записей (например, "Программист" или 125).|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Свойства [SortColumn,](sortcolumn-property-rds.md) [SortDirection,](sortdirection-property-rds.md) **FilterValue,** [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) предоставляют функции сортировки и фильтрации в клиентском кэше. 
+Свойства [SortColumn,](sortcolumn-property-rds.md) [SortDirection,](sortdirection-property-rds.md) **FilterValue,** [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) обеспечивают функции сортировки и фильтрации в клиентском кэше. 
 
-Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей сохраняется в кэше. Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий набор **recordset** на updatable **Recordset.**
+Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей поддерживается в кэше. Метод [Reset](reset-method-rds.md) выполнит критерии и заменит текущий **набор записей** на updatable **Recordset.**
 
-Значение NULL приводит к ошибке несоответствия типов.
+Значения Null приводит к ошибке несоответствия типа.
 

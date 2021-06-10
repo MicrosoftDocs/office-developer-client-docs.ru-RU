@@ -1,5 +1,5 @@
 ---
-title: FetchComplete event (ADO)
+title: Событие FetchComplete (ADO)
 TOCTitle: FetchComplete event (ADO)
 ms:assetid: 4863d5b5-7d77-bdef-c511-f85c9e6dec9d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249224(v=office.15)
@@ -18,21 +18,21 @@ ms.locfileid: "32293191"
 
 **Область применения**: Access 2013, Office 2013
 
-Событие **FetchComplete** вызвано после получения всех записей в длительной асинхронной операции в [набор recordset.](recordset-object-ado.md)
+Событие **FetchComplete** вызвано после того, как все записи в длинной асинхронной операции были извлечены в [набор Recordset.](recordset-object-ado.md)
 
 ## <a name="syntax"></a>Синтаксис
 
-FetchComplete *pError,* *adStatus*, *pRecordset*
+FetchComplete *pError*, *adStatus*, *pRecordset*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*pError* |Объект [Error.](error-object-ado.md) В ней описывается ошибка, которая произошла, если **значением adStatus** является **adStatusErrorsOccurred;** в противном случае он не установлен.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). Перед возвращением этого события установите для этого параметра **параметр adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
+|*pError* |Объект [Ошибки.](error-object-ado.md) Он описывает ошибку, которая произошла, если значение **adStatus** **является adStatusErrorsOccurred;** в противном случае она не установлена.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Перед возвращением этого события установите этот параметр **adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления.|
 |*pRecordset* |Объект **Recordset.** Объект, для которого были извлечены записи.|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Чтобы использовать **FetchComplete** с Microsoft Visual Basic, Visual Basic 6.0 или более поздней.
+Чтобы использовать **FetchComplete** с microsoft Visual Basic, Visual Basic 6.0 или более поздней.
 

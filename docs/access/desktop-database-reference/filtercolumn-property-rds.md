@@ -18,7 +18,7 @@ ms.locfileid: "32292442"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает столбец, по которому следует оценить условия фильтрации.
+Указывает столбец, на котором можно оценить критерии фильтрации.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -28,14 +28,14 @@ ms.locfileid: "32292442"
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектная переменная, представляюная [RDS. Объект DataControl.](datacontrol-object-rds.md)|
-|*Строка* |**Строковая** строка, заданная для столбца, по которому необходимо оценить условия фильтра. Условия фильтра заданы в свойстве [FilterCriterion.](filtercriterion-property-rds.md)|
+|*DataControl* |Переменная объекта, представляюая [RDS. Объект DataControl.](datacontrol-object-rds.md)|
+|*String* |Значение **String,** которое указывает столбец для оценки критериев фильтрации. Критерии фильтра указаны в [свойстве FilterCriterion.](filtercriterion-property-rds.md)|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Свойства [SortColumn,](sortcolumn-property-rds.md) [SortDirection,](sortdirection-property-rds.md) [FilterValue,](filtervalue-property-rds.md) [FilterCriterion](filtercriterion-property-rds.md)и **FilterColumn** предоставляют функции сортировки и фильтрации в клиентском кэше. 
+Свойства [SortColumn,](sortcolumn-property-rds.md) [SortDirection,](sortdirection-property-rds.md) [FilterValue,](filtervalue-property-rds.md) [FilterCriterion](filtercriterion-property-rds.md)и **FilterColumn** обеспечивают функции сортировки и фильтрации в клиентском кэше. 
 
-Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей сохраняется в кэше. 
+Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей поддерживается в кэше. 
 
-Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий набор **recordset** на updatable **Recordset.**
+Метод [Reset](reset-method-rds.md) выполнит критерии и заменит текущий **набор записей** на updatable **Recordset.**
 
