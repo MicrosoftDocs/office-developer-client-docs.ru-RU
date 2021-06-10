@@ -1,5 +1,5 @@
 ---
-title: События RDS (справочник по базе данных Access для настольных ПК)
+title: События RDS (ссылка на настольные базы данных)
 TOCTitle: RDS events
 ms:assetid: cf125916-d50d-9fb4-fecc-95675129d8c1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250028(v=office.15)
@@ -32,11 +32,11 @@ ms.locfileid: "32301031"
 </tr>
 <tr class="odd">
 <td><p><a href="onerror-event-rds.md">onError</a></p></td>
-<td><p>Вызвано при любой ошибке во время операции.</p></td>
+<td><p>Вызвано всякий раз, когда возникает ошибка во время операции.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="onreadystatechange-event-rds.md">onReadyStateChange</a></p></td>
-<td><p>Вызвано при смене <strong>значения свойства ReadyState.</strong></p></td>
+<td><p>Вызвано всякий раз, когда меняется значение <strong>свойства ReadyState.</strong></p></td>
 </tr>
 </tbody>
 </table>

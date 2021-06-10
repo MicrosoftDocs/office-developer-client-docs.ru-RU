@@ -19,7 +19,7 @@ ms.locfileid: "32301332"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующем коде показано, как удалить процедуру с помощью метода [Delete](delete-method-adox-collections.md) коллекции [Procedures.](procedures-collection-adox.md)
+В следующем коде показано, как удалить процедуру с помощью [метода](procedures-collection-adox.md) Удаления [коллекции Процедур.](delete-method-adox-collections.md)
 
 ```vb 
  

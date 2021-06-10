@@ -23,7 +23,7 @@ ms.locfileid: "32300590"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* BOF
+*выражения* . BOF
 
 *expression*: переменная, представляющая объект **Recordset**.
 

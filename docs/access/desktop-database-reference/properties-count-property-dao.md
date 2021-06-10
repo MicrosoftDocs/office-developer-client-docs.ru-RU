@@ -23,11 +23,11 @@ ms.locfileid: "32301276"
 
 **Область применения**: Access 2013, Office 2013
 
-Чтобы определить **количество элементов** в указанной коллекции, можно использовать свойство Count. Только для чтения, **Long**.
+Свойство **Count** можно использовать для определения количества элементов в указанной коллекции. Только для чтения, **Long**.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* Count
+*выражения* . Count
 
 *выражение* Переменная, представляюная объект **Properties.**
 
@@ -35,6 +35,6 @@ ms.locfileid: "32301276"
 
 - [Коллекция Properties](properties-collection-dao.md)
 - [Элементы коллекции Properties](properties-members-dao.md)
-- [Объект Properties (Access VBA)](https://docs.microsoft.com/office/vba/api/Access.Properties)
+- [Объект Свойства (Access VBA)](https://docs.microsoft.com/office/vba/api/Access.Properties)
 - [Properties members (Access VBA)](https://docs.microsoft.com/previous-versions/office/ff836991(v=office.15))
 

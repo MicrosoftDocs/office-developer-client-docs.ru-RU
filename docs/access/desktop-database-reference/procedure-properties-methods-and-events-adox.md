@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события процедуры (ADOX)
+title: Свойства процедур, методы и события (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: d79598a8-f016-b1bf-71b1-5b9c72105d9e
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250083(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301367"
 ---
-# <a name="procedure-properties-methods-and-events-adox"></a>Свойства, методы и события процедуры (ADOX)
+# <a name="procedure-properties-methods-and-events-adox"></a>Свойства процедур, методы и события (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -25,7 +25,7 @@ ms.locfileid: "32301367"
 - [Свойство DateModified](datemodified-property-adox.md)
 - [Свойство Name](name-property-adox.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

@@ -1,5 +1,5 @@
 ---
-title: Свойства (DAO)
+title: Свойства свойств (DAO)
 TOCTitle: Properties
 ms:assetid: c9357822-65c2-4938-820f-bf35b277df5c
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn161366(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301178"
 ---
-# <a name="property-properties-dao"></a>Свойства (DAO)
+# <a name="property-properties-dao"></a>Свойства свойств (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

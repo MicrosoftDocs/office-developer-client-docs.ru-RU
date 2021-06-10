@@ -20,7 +20,7 @@ ms.locfileid: "32300821"
 
 Указывает ход выполнения объекта [DataControl](datacontrol-object-rds.md) при извлечении данных в объект [Recordset.](recordset-object-ado.md)
 
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+## <a name="settings-and-return-values"></a>Параметры и значения возврата
 
 Задает или возвращает одно из следующих значений.
 
@@ -38,25 +38,25 @@ ms.locfileid: "32300821"
 <tbody>
 <tr class="odd">
 <td><p><strong>adcReadyStateLoaded</strong></p></td>
-<td><p>Текущий запрос по-прежнему выполняется, и ни одна строка не была извлечена. Объект Recordset объекта <strong>DataControl</strong> не доступен для использования. <strong></strong></p></td>
+<td><p>Текущий запрос по-прежнему выполняется, и строки не были извлечены. Набор записей объекта <strong>DataControl</strong> не доступен для использования. <strong></strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adcReadyStateInteractive</strong></p></td>
-<td><p>Исходный набор строк, полученных текущим запросом, хранится в объекте <strong>Recordset</strong> объекта <strong>DataControl</strong> и доступен для использования. Остальные строки по-прежнему извлекаются.</p></td>
+<td><p>Начальный набор строк, полученных текущим запросом, хранится в наборе <strong></strong> записей объекта <strong>DataControl</strong> и доступен для использования. Остальные строки по-прежнему извлекаются.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adcReadyStateComplete</strong></p></td>
-<td><p>Все строки, полученные текущим запросом, хранятся в объекте <strong>Recordset</strong> объекта <strong>DataControl</strong> и доступны для использования. Это состояние также будет существовать, если операция прервана из-за ошибки или если объект <strong>Recordset</strong> не инициализирован.</p></td>
+<td><p>Все строки, извлеченные текущим запросом, хранятся в наборе записей объекта <strong>DataControl</strong> и доступны для использования. <strong></strong> Это состояние также будет существовать, если операция прерывается из-за ошибки или если объект <strong>Recordset</strong> не инициализирован.</p></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> Каждый исполняемый файл на стороне клиента, использующий эти константы, должен предоставлять для них объявления. Вы можете вырезать и ввести нужные объявления констант из файла Adcvbs.inc, расположенного в папке C:\Program Files\Common Files\System\MSADC.
+> Каждый исполняемый клиентский файл, использующий эти константы, должен предоставлять для них объявления. Вы можете вырезать и ввести нужные постоянные объявления из файла Adcvbs.inc, расположенного в папке C:\Program Files\Common Files\System\MSADC.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Используйте событие [onReadyStateChange](onreadystatechange-event-rds.md) для отслеживания изменений в свойстве **ReadyState** во время асинхронной операции запроса. Это эффективнее, чем периодическое проверка значения свойства.
+Используйте [событие onReadyStateChange](onreadystatechange-event-rds.md) для мониторинга изменений свойства **ReadyState** во время асинхронной операции запроса. Это эффективнее, чем периодические проверки значения свойства.
 
-Если во время асинхронной операции возникает ошибка, свойство **ReadyState** изменяется на **adcReadyStateComplete,** свойство [State](state-property-ado.md) изменяется с **adStateExecuting** на **adStateClosed,** а свойство **Recordset** object [Value](value-property-ado.md) остается *"Nothing"*.
+Если ошибка возникает во время асинхронной операции, свойство **ReadyState** изменяется на [](value-property-ado.md) **adcReadyStateComplete,** свойство состояния меняется от **adStateExecuting до adStateClosed,** а свойство Значение объекта **Recordset** остается nothing *.* [](state-property-ado.md) 
 

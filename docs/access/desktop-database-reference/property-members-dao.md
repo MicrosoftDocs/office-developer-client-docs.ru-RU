@@ -1,5 +1,5 @@
 ---
-title: Property members (DAO)
+title: Члены свойства (DAO)
 TOCTitle: Property Members
 ms:assetid: 32658adb-f153-148d-a216-eb97b996579a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192303(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301213"
 ---
-# <a name="property-members-dao"></a>Property members (DAO)
+# <a name="property-members-dao"></a>Члены свойства (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -37,18 +37,18 @@ ms.locfileid: "32301213"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="property-inherited-property-dao.md">Унаследованные</a></strong></p></td>
-<td><p>Возвращает значение, которое указывает, наследуется ли объект <strong><a href="property-object-dao.md">Property</a></strong> от объекта.</p></td>
+<td><p>Возвращает значение, которое указывает, наследуется ли объект <strong><a href="property-object-dao.md">Property</a></strong> от объекта, расположенного в его следовании.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="property-name-property-dao.md">Name</a></strong></p></td>
-<td><p>Возвращает или задает имя указанного объекта. Строка <strong>чтения</strong> и записи, если объект не был appended к коллекции. Строка только <strong>для</strong> чтения, если объект был appended к коллекции.</p></td>
+<td><p>Возвращает или задает имя указанного объекта. Строка <strong>read/write,</strong> если объект не был придан коллекции. Строка <strong>только для</strong> чтения, если объект был придан коллекции.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="property-properties-property-dao.md">Properties</a></strong></p></td>
 <td><p>Возвращает коллекцию <strong><a href="properties-collection-dao.md">Properties</a></strong> для указанного объекта. Только для чтения.</p></td>
 </tr>
 <tr class="even">
-<td><p><strong><a href="property-type-property-dao.md">Type</a></strong></p></td>
+<td><p><strong><a href="property-type-property-dao.md">Тип</a></strong></p></td>
 <td><p>Задает или возвращает значение, указывающее операционный тип или тип данных объекта. Для чтения и записи, <strong>Integer</strong>.</p></td>
 </tr>
 <tr class="odd">

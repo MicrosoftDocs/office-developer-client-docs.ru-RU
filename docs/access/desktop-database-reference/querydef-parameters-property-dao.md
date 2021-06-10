@@ -23,11 +23,11 @@ ms.locfileid: "32300996"
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает **[коллекцию Parameters,](parameters-collection-dao.md)** которая содержит все объекты **[Parameter](parameter-object-dao.md)** указанного **QueryDef.** Только для чтения.
+Возвращает коллекцию **[Параметры,](parameters-collection-dao.md)** которая содержит все объекты **[Параметры](parameter-object-dao.md)** указанного **QueryDef.** Только для чтения.
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* Параметры
+*выражения* . Параметры
 
 *выражение*: переменная, представляющая объект **QueryDef**.
 

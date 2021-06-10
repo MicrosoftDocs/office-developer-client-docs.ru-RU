@@ -19,7 +19,7 @@ ms.locfileid: "32301430"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [Prepared,](prepared-property-ado.md) открыв два [объекта Command](command-object-ado.md) : один подготовлен, а другой — нет.
+В этом примере демонстрируется свойство [Prepared,](prepared-property-ado.md) открыв два [объекта Command](command-object-ado.md) — один подготовленный и не подготовленный.
 
 ```cpp 
  

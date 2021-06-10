@@ -1,5 +1,5 @@
 ---
-title: Методы RDS (справочник по базам данных Access для настольных пк)
+title: Методы RDS (Ссылка на настольные базы данных)
 TOCTitle: RDS methods
 ms:assetid: 7f4e2a28-cf6b-4621-5352-ed983a3c7450
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249538(v=office.15)
@@ -32,11 +32,11 @@ ms.locfileid: "32300891"
 </tr>
 <tr class="odd">
 <td><p><a href="cancel-method-rds.md">Отмена</a></p></td>
-<td><p>Отменяет выполнение ожидающих вызовов асинхронного метода.</p></td>
+<td><p>Отменяет выполнение ожидаемого асинхронного вызова метода.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="cancelupdate-method-rds.md">CancelUpdate</a></p></td>
-<td><p>Отменяет все изменения, внесенные в текущую или новую строку объекта <strong>Recordset.</strong></p></td>
+<td><p>Отменяет изменения, внесенные в текущую или новую строку объекта <strong>Recordset.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="converttostring-method-rds.md">ConvertToString</a></p></td>
@@ -44,31 +44,31 @@ ms.locfileid: "32300891"
 </tr>
 <tr class="even">
 <td><p><a href="createobject-method-rds.md">CreateObject</a></p></td>
-<td><p>Создает прокси для целевого бизнес-объекта и возвращает на него указатель.</p></td>
+<td><p>Создает прокси-сервер для целевого бизнес-объекта и возвращает ему указатель.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="createrecordset-method-rds.md">CreateRecordset</a></p></td>
-<td><p>Создает пустой отключенный набор <strong>записей.</strong></p></td>
+<td><p>Создает пустой, отключенный <strong>набор записей.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="movefirst-movelast-movenext-and-moveprevious-methods-rds.md">MoveFirst, MoveLast, MoveNext, MovePrevious</a></p></td>
-<td><p>Перемещается к первой, последней, следующей или предыдущей записи в указанном <strong>объекте Recordset.</strong></p></td>
+<td><p>Перемещается к первой, последней, следующей или предыдущей записи в указанном объекте <strong>Recordset.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="query-method-rds.md">Query</a></p></td>
-<td><p>Использует допустимую строку SQL запроса для возврата <strong>recordset.</strong></p></td>
+<td><p>Используется допустимая строка SQL запроса для возврата <strong>наборов записей.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="refresh-method-rds.md">Refresh</a></p></td>
-<td><p>Повторно запрашивает источник данных, указанный в свойстве <strong>Connect,</strong> и обновляет результаты запроса.</p></td>
+<td><p>Requeries the data source specified in the <strong>Подключение</strong> and updates the query results.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="reset-method-rds.md">Reset</a></p></td>
-<td><p>Выполняет сортировку или фильтрацию в клиентском наборе <strong>записей</strong>на основе указанных свойств сортировки и фильтра.</p></td>
+<td><p>Выполняет сортировку или фильтрацию на клиентском наборе <strong>recordset</strong>на основе указанных свойств сортировки и фильтрации.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="submitchanges-method-rds.md">SubmitChanges</a></p></td>
-<td><p>Отправка ожидающих изменений локально кэшируемых и updatable <strong>recordset</strong> в источник данных, указанный в <strong>свойстве Connect.</strong></p></td>
+<td><p>Отправка ожидающих изменений локально кэшируемых и updatable <strong>Recordset</strong> в источник данных, указанный в <strong>свойстве Подключение.</strong></p></td>
 </tr>
 </tbody>
 </table>

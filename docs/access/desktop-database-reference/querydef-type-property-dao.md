@@ -19,7 +19,7 @@ ms.locfileid: "32300947"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает или возвращает значение, указывающее операционный тип или тип данных объекта. Только для **чтения, integer**.
+Задает или возвращает значение, указывающее операционный тип или тип данных объекта. Только для чтения **в integer**.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -29,7 +29,7 @@ ms.locfileid: "32300947"
 
 ## <a name="remarks"></a>Примечания
 
-Для объекта **QueryDef** возможные параметры и возвращаемые значения показаны в следующей таблице.
+Для объекта **QueryDef** возможные параметры и значения возврата показаны в следующей таблице.
 
 <table>
 <colgroup>
@@ -49,23 +49,23 @@ ms.locfileid: "32300947"
 </tr>
 <tr class="even">
 <td><p><strong>dbQAppend</strong></p></td>
-<td><p>Append</p></td>
+<td><p>Приложение</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQCompound</strong></p></td>
-<td><p>Составные</p></td>
+<td><p>Compound</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQCrosstab</strong></p></td>
-<td><p>Перекрестная</p></td>
+<td><p>Crosstab</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQDDL</strong></p></td>
-<td><p>Data-definition</p></td>
+<td><p>Определение данных</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQDelete</strong></p></td>
-<td><p>Удаление</p></td>
+<td><p>Удалить</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQMakeTable</strong></p></td>
@@ -73,7 +73,7 @@ ms.locfileid: "32300947"
 </tr>
 <tr class="even">
 <td><p><strong>dbQProcedure</strong></p></td>
-<td><p>Процедура (только для рабочей области ODBCDirect)</p><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p></td>
+<td><p>Процедура (только в рабочей области ODBCDirect)</p><p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSelect</strong></p></td>
@@ -85,11 +85,11 @@ ms.locfileid: "32300947"
 </tr>
 <tr class="odd">
 <td><p><strong>dbQSPTBulk</strong></p></td>
-<td><p>Используется с <strong>dbQSQLPassThrough</strong> для указания запроса, который не возвращает записи (только для рабочей области Microsoft Access).</p></td>
+<td><p>Используется в <strong>dbQSQQLPassThrough</strong> для указания запроса, который не возвращает записи (только в рабочей области Microsoft Access).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbQSQLPassThrough</strong></p></td>
-<td><p>Сквозной доступ (только для рабочей области Microsoft Access)</p></td>
+<td><p>Pass-through (только для рабочей области Microsoft Access)</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>dbQUpdate</strong></p></td>
@@ -99,5 +99,5 @@ ms.locfileid: "32300947"
 </table>
 
 
-При приложении нового объекта **[Field,](field-object-dao.md)** **[Parameter](parameter-object-dao.md)** или **[Property](property-object-dao.md)** в коллекцию объекта **[Index,](index-object-dao.md)** **QueryDef,** **[Recordset](recordset-object-dao.md)** или **[TableDef](tabledef-object-dao.md)** возникает ошибка, если базовая база данных не поддерживает тип данных, указанный для нового объекта.
+При приложении нового объекта **[Field,](field-object-dao.md)** **[Parameter](parameter-object-dao.md)** или **[Property](property-object-dao.md)** **[](index-object-dao.md)** к коллекции объекта **Index, QueryDef,** **[Recordset](recordset-object-dao.md)** или **[TableDef](tabledef-object-dao.md)** возникает ошибка, если базовая база данных не поддерживает тип данных, указанный для нового объекта.
 

@@ -36,8 +36,8 @@ ms.locfileid: "32301024"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="querydefs-append-method-dao.md">Append</a></strong></p></td>
-<td><p>Добавляет новый <strong>queryDef в</strong> <strong>коллекцию QueryDefs.</strong></p></td>
+<td><p><strong><a href="querydefs-append-method-dao.md">Приложение</a></strong></p></td>
+<td><p>Добавляет новый <strong>QueryDef в</strong> <strong>коллекцию QueryDefs.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="querydefs-delete-method-dao.md">Delete</a></strong></p></td>

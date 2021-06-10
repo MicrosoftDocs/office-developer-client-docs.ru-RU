@@ -18,9 +18,9 @@ ms.locfileid: "32280197"
 
 **Область применения**: Access 2013, Office 2013
 
-Для отладки перечислимые константы ADOX перечисляют значение для каждой константы. Однако это значение является исключительно рекомендациями и может измениться с одного выпуска ADOX на другой. Ваш код должен зависеть только от имени, а не фактического значения, а от суммированных констант.
+Чтобы помочь отладке, перечислимые константы ADOX перечисляют значение для каждой константы. Однако это значение носит чисто консультативный характер и может изменяться с одного выпуска ADOX на другой. Код должен зависеть только от имени, а не от фактического значения перенамеренных констант.
 
-Определены следующие константы с перемежением.
+Определены следующие константы.
 
 <br/>
 
@@ -38,11 +38,11 @@ ms.locfileid: "32280197"
 <tbody>
 <tr class="odd">
 <td><p><a href="actionenum.md">ActionEnum</a></p></td>
-<td><p>Указывает тип действия, выполняемого при выполнении <strong>действия SetPermissions.</strong></p></td>
+<td><p>Указывает тип действия, выполняемого при <strong>вызвании SetPermissions.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="allownullsenum.md">AllowNullsEnum</a></p></td>
-<td><p>Указывает, индексироваться ли записи со значениями NULL.</p></td>
+<td><p>Указывает, индексироваться ли записи с значениями null.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="columnattributesenum.md">ColumnAttributesEnum</a></p></td>
@@ -54,15 +54,15 @@ ms.locfileid: "32280197"
 </tr>
 <tr class="odd">
 <td><p><a href="inherittypeenum.md">InheritTypeEnum</a></p></td>
-<td><p>Указывает, как объекты наследуют разрешения, заданные с <strong>помощью SetPermissions.</strong></p></td>
+<td><p>Указывает, как объекты будут наследовать разрешения, заданные <strong>с помощью SetPermissions.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="keytypeenum.md">KeyTypeEnum</a></p></td>
-<td><p>Указывает тип key: <strong>primary,</strong>foreign или unique.</p></td>
+<td><p>Указывает тип <strong>ключа:</strong>основной, иностранный или уникальный.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="objecttypeenum.md">ObjectTypeEnum</a></p></td>
-<td><p>Указывает тип объекта базы данных, для которого необходимо установить разрешения или права владельца.</p></td>
+<td><p>Указывает тип объекта базы данных, для которого необходимо установить разрешения или право собственности.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="rightsenum.md">RightsEnum</a></p></td>
@@ -70,7 +70,7 @@ ms.locfileid: "32280197"
 </tr>
 <tr class="odd">
 <td><p><a href="ruleenum.md">RuleEnum</a></p></td>
-<td><p>Правило, заданное при <strong>удалении</strong> ключа.</p></td>
+<td><p>Указывает правило, за чем <strong></strong> следует следовать при удалении ключа.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="sortorderenum.md">SortOrderEnum</a></p></td>

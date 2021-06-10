@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект Properties (DAO)
+title: Справка об объекте Properties (DAO)
 TOCTitle: Properties Object
 ms:assetid: dbd58d66-9566-41cd-82e2-bfc0c8778867
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125748(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301234"
 ---
-# <a name="properties-object-reference-dao"></a>Ссылка на объект Properties (DAO)
+# <a name="properties-object-reference-dao"></a>Справка об объекте Properties (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Properties (DAO)](properties-collection-dao.md)
-- [Properties members (DAO)](properties-members-dao.md)
-- [Свойства (DAO)](properties-properties-dao.md)
-- [Методы Properties (DAO)](properties-methods-dao.md)
+- [Коллекция свойств (DAO)](properties-collection-dao.md)
+- [Члены свойства (DAO)](properties-members-dao.md)
+- [Свойства свойств (DAO)](properties-properties-dao.md)
+- [Методы свойств (DAO)](properties-methods-dao.md)
 

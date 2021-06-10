@@ -19,7 +19,7 @@ ms.locfileid: "32300695"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, следует ли  открывать существующую запись  или новую запись, созданную для метода Open объекта [Record.](record-object-ado.md) [](open-method-ado-record.md) Значения можно объединить с оператором AND.
+Указывает, следует ли  открывать существующую запись  или новую запись, созданную для метода Открыть объект [Record.](record-object-ado.md) [](open-method-ado-record.md) Эти значения можно комбинировать с оператором AND.
 
 <table>
 <colgroup>
@@ -38,17 +38,17 @@ ms.locfileid: "32300695"
 <tr class="odd">
 <td><p><strong>adCreateCollection</strong></p></td>
 <td><p>0x2000</p></td>
-<td><p>Создает новую запись <strong>на</strong> узле, указанном с помощью параметра <em>Source,</em> вместо открытия существующей <strong>записи.</strong> Если источник указывает на существующий узел, возникает ошибка во время запуска, если только <strong>adCreateCollection</strong> не объединен с <strong>adOpenIfExists</strong> или <strong>adCreateOverwrite.</strong></p></td>
+<td><p>Создает новую запись <strong>в</strong> узле, указанном параметром <em>Source,</em> вместо открытия существующей <strong>записи.</strong> Если источник указывает на существующий узел, то возникает ошибка времени запуска, если <strong>adCreateCollection</strong> не сочетается с <strong>adOpenIfExists</strong> или <strong>adCreateOverwrite</strong>.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCreateNonCollection</strong></p></td>
 <td><p>0</p></td>
-<td><p>Создает новую <strong>запись</strong> типа <a href="recordtypeenum.md">adSimpleRecord.</a></p></td>
+<td><p>Создает новую <strong>запись</strong> типа <a href="recordtypeenum.md">adSimpleRecord</a>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCreateOverwrite</strong></p></td>
 <td><p>0x4000000</p></td>
-<td><p>Изменяет флаги создания <strong>adCreateCollection,</strong> <strong>adCreateNonCollection</strong>и <strong>adCreateStructDoc.</strong> Если при или используется с этим значением и одним из значений флага создания, если <strong></strong> исходный URL-адрес указывает на существующий узел или <strong>запись,</strong>то существующая запись перезаписывается и создается новая. Это значение нельзя использовать вместе с <strong>adOpenIfExists.</strong></p></td>
+<td><p>Изменяет флаги создания <strong>adCreateCollection,</strong> <strong>adCreateNonCollection</strong>и <strong>adCreateStructDoc.</strong> Когда или используется с этим значением и одним из значений флага создания, если исходный URL-адрес указывает на существующий узел или <strong>запись,</strong>то существующая запись перезаписывается и создается на его месте новый. <strong></strong> Это значение нельзя использовать вместе с <strong>adOpenIfExists.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCreateStructDoc</strong></p></td>
@@ -58,12 +58,12 @@ ms.locfileid: "32300695"
 <tr class="odd">
 <td><p><strong>adFailIfNotExists</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Значение, используемое по умолчанию. Приводит к ошибке во время работы, <em>если источник</em> указывает на несуществующий узел.</p></td>
+<td><p>Значение, используемое по умолчанию. Приводит к ошибке во время работы, если <em>Источник</em> указывает на несуществующий узел.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adOpenIfExists</strong></p></td>
 <td><p>0x2000000</p></td>
-<td><p>Изменяет флаги создания <strong>adCreateCollection,</strong> <strong>adCreateNonCollection</strong>и <strong>adCreateStructDoc.</strong> Если при or используется с этим значением и одним из значений флага создания, если исходный URL-адрес указывает на существующий узел или объект <strong>Record,</strong> поставщик должен открыть существующую запись вместо создания новой. <strong></strong> Это значение нельзя использовать вместе с <strong>adCreateOverwrite.</strong></p></td>
+<td><p>Изменяет флаги создания <strong>adCreateCollection,</strong> <strong>adCreateNonCollection</strong>и <strong>adCreateStructDoc.</strong> Если ИЛИ используется с этим значением и одним из значений флага создания, если исходный URL-адрес <strong></strong> указывает на существующий узел или объект <strong>Record,</strong> поставщик должен открыть существующую запись вместо создания нового. Это значение нельзя использовать вместе с <strong>adCreateOverwrite.</strong></p></td>
 </tr>
 </tbody>
 </table>

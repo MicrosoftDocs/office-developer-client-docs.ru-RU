@@ -1,5 +1,5 @@
 ---
-title: Properties members (DAO)
+title: Члены свойства (DAO)
 TOCTitle: Properties Members
 ms:assetid: 04cd45ae-3a1e-6090-534d-de10363744c4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff844853(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301262"
 ---
-# <a name="properties-members-dao"></a>Properties members (DAO)
+# <a name="properties-members-dao"></a>Члены свойства (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция свойств содержит все **[объекты Property](property-object-dao.md)** для определенного экземпляра объекта.
+Коллекция свойств содержит все объекты **[Свойства](property-object-dao.md)** для определенного экземпляра объекта.
 
 ## <a name="methods"></a>Методы
 
@@ -36,16 +36,16 @@ ms.locfileid: "32301262"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="properties-append-method-dao.md">Append</a></strong></p></td>
-<td><p>Добавляет новое <strong>свойство</strong> в коллекцию <strong>свойств.</strong></p></td>
+<td><p><strong><a href="properties-append-method-dao.md">Приложение</a></strong></p></td>
+<td><p>Добавляет новое <strong>свойство</strong> в коллекцию <strong>Свойств.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="properties-delete-method-dao.md">Delete</a></strong></p></td>
-<td><p>Удаляет указанный <strong>объект Property</strong> из коллекции <strong>Properties.</strong></p></td>
+<td><p>Удаляет указанный объект <strong>Свойства</strong> из коллекции <strong>Свойств.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="properties-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
+<td><p>Обновляет объекты указанного коллегии, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>

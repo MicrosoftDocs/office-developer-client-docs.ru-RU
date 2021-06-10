@@ -26,7 +26,7 @@ ms.locfileid: "32300492"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* FindPrevious(Criteria)
+*выражения* . FindPrevious ***(Criteria)***
 
 *expression*: переменная, представляющая объект **Recordset**.
 

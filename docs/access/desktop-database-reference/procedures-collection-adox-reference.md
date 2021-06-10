@@ -1,5 +1,5 @@
 ---
-title: Справочник по коллекции Procedures (ADOX)
+title: Справка о сборе процедур (ADOX)
 TOCTitle: Procedures collection (ADOX)
 ms:assetid: 1ba826de-1a50-4031-ae72-2770f3beb8dc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248956(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32301346"
 ---
-# <a name="procedures-collection-adox-reference"></a>Справочник по коллекции Procedures (ADOX)
+# <a name="procedures-collection-adox-reference"></a>Справка о сборе процедур (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Procedures (ADOX)](procedures-collection-adox.md)
-- [Свойства, методы и события коллекции Procedures (ADOX)](procedures-collection-properties-methods-and-events-adox.md)
+- [Коллекция процедур (ADOX)](procedures-collection-adox.md)
+- [Свойства, методы и события коллекции процедур (ADOX)](procedures-collection-properties-methods-and-events-adox.md)
 

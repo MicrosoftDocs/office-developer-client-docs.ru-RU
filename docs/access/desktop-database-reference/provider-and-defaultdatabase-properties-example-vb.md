@@ -19,7 +19,7 @@ ms.locfileid: "32301164"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [Provider,](provider-property-ado.md) открыв три [объекта Connection](connection-object-ado.md) с использованием разных поставщиков. Он также использует свойство [DefaultDatabase](defaultdatabase-property-ado.md) для настройки базы данных по умолчанию для поставщика Microsoft ODBC.
+В этом примере демонстрируется свойство [Provider,](provider-property-ado.md) открыв три объекта [Подключения](connection-object-ado.md) с помощью разных поставщиков. Он также использует [свойство DefaultDatabase](defaultdatabase-property-ado.md) для настройки базы данных по умолчанию для поставщика ODBC Майкрософт.
 
 ```vb 
  

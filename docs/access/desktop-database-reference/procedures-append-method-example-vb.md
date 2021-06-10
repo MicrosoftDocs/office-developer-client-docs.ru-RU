@@ -19,7 +19,7 @@ ms.locfileid: "32301374"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующем коде показано, как использовать объект [Command](command-object-ado.md) и метод [Append](append-method-adox-procedures.md) коллекции [Procedures](procedures-collection-adox.md) для создания новой процедуры в источнике данных.
+В следующем коде показано, как [](procedures-collection-adox.md) использовать объект [](append-method-adox-procedures.md) [Command](command-object-ado.md) и метод приложения коллекции Процедур для создания новой процедуры в основном источнике данных.
 
 ```vb 
  

@@ -18,7 +18,7 @@ ms.locfileid: "32280441"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, следует ли за [методом UpdateBatch](updatebatch-method-ado.md) неявную операцию метода [Resync](resync-method-ado.md) и, если да, область этой операции.
+Указывает, следует ли [методу UpdateBatch](updatebatch-method-ado.md) неявная операция [метода Resync](resync-method-ado.md) и если да, то область этой операции.
 
 <br/>
 
@@ -38,23 +38,23 @@ ms.locfileid: "32280441"
 <tbody>
 <tr class="odd">
 <td><p><strong>adResyncAll</strong></p></td>
-<td><p>15 </p></td>
-<td><p>Вызывает <strong>Resync с</strong> объединенным значением всех остальных ADCPROP_UPDATERESYNC_ENUM участников.</p></td>
+<td><p>15</p></td>
+<td><p>Вызывает <strong>Resync</strong> с совокупным значением всех остальных ADCPROP_UPDATERESYNC_ENUM участников.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncAutoIncrement</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Значение, используемое по умолчанию. Пытается получить новое значение удостоверения для столбцов, которые автоматически приращены или генерируются источником данных, например полей автонума Microsoft Jet или Microsoft SQL Server идентификатора.</p></td>
+<td><p>1</p></td>
+<td><p>Значение, используемое по умолчанию. Попытки получения нового значения удостоверения для столбцов, которые автоматически инкрементируются или создаются источником данных, например полей автономного microsoft Jet или столбцов удостоверений Microsoft SQL Server удостоверений.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adResyncConflicts</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Вызывает <strong>Resync для</strong> всех строк, в которых произошел сбой операции обновления или удаления из-за конфликта.</p></td>
+<td><p>2</p></td>
+<td><p>Вызывает <strong>Resync для</strong> всех строк, в которых операция обновления или удаления не удалась из-за конфликта между валютами.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adResyncInserts</strong></p></td>
 <td><p>8 </p></td>
-<td><p>Вызывает <strong>Resync для</strong> всех успешно вставленных строк. Однако значения столбцов autoIncrement не синхронизируются повторно. Вместо этого содержимое новых строк повторно синхронизируется на основе существующего значения первичного ключа. Если первичный ключ имеет значение AutoIncrement, <strong>Resync</strong> не будет получать содержимое нужной строки. Для автоматического приращения значений первичного ключа autoIncrement вызовите <strong>UpdateBatch</strong> с объединенным значением <strong>adResyncAutoIncrement</strong> + <strong>adResyncInserts.</strong></p></td>
+<td><p>Вызывает <strong>Resync для</strong> всех успешно вставленных строк. Однако значения столбцов AutoIncrement не ресинхронизируются. Вместо этого содержимое вновь вставленных строк ресинхронизируется на основе существующего основного ключевого значения. Если основным ключом является значение AutoIncrement, <strong>Resync</strong> не будет получать содержимое нужной строки. Для автоматического приумножания основных ключевых значений autoIncrement позвоните <strong>в UpdateBatch</strong> с комбинированным <strong>значением adResyncAutoIncrement</strong> + <strong>adResyncInserts</strong>.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adResyncNone</strong></p></td>

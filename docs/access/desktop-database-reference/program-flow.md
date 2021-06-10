@@ -1,5 +1,5 @@
 ---
-title: Program flow (Access desktop database reference)
+title: Поток программы (ссылка на настольные базы данных)
 TOCTitle: Program flow
 ms:assetid: 1ca43854-f15b-45f8-a227-eaa8e1aec75f
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123920(v=office.15)

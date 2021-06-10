@@ -1,5 +1,5 @@
 ---
-title: QueryDefTypeEnum enumeration (DAO)
+title: Перемерение QueryDefTypeEnum (DAO)
 TOCTitle: QueryDefTypeEnum Enumeration
 ms:assetid: 4327af31-daa1-88a2-fef5-8894181eee8c
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192931(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32300919"
 ---
-# <a name="querydeftypeenum-enumeration-dao"></a>QueryDefTypeEnum enumeration (DAO)
+# <a name="querydeftypeenum-enumeration-dao"></a>Перемерение QueryDefTypeEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется со **свойством Type** для указания типа объекта **QueryDef.**
+Используется с **свойством Type** для указания типа **объекта QueryDef.**
 
 <table>
 <colgroup>
@@ -38,22 +38,22 @@ ms.locfileid: "32300919"
 <tr class="odd">
 <td><p>dbQAction</p></td>
 <td><p>240</p></td>
-<td><p>Запрос на действие</p></td>
+<td><p>Запрос действия</p></td>
 </tr>
 <tr class="even">
 <td><p>dbQAppend</p></td>
 <td><p>64</p></td>
-<td><p>Запрос на приложение</p></td>
+<td><p>Запрос приложения</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbQCompound</p></td>
 <td><p>160</p></td>
-<td><p>Составной запрос</p></td>
+<td><p>Сложный запрос</p></td>
 </tr>
 <tr class="even">
 <td><p>dbQCrosstab</p></td>
 <td><p>16 </p></td>
-<td><p>Перекрестный запрос</p></td>
+<td><p>Запрос Crosstab</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbQDDL</p></td>
@@ -68,12 +68,12 @@ ms.locfileid: "32300919"
 <tr class="odd">
 <td><p>dbQMakeTable</p></td>
 <td><p>80</p></td>
-<td><p>Запрос "Make-table"</p></td>
+<td><p>Запрос make-table</p></td>
 </tr>
 <tr class="even">
 <td><p>dbQProcedure</p></td>
 <td><p>224</p></td>
-<td><p>SQL, которая выполняет хранимую процедуру</p></td>
+<td><p>SQL, которая выполняет сохраненную процедуру</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbQSelect</p></td>
@@ -83,7 +83,7 @@ ms.locfileid: "32300919"
 <tr class="even">
 <td><p>dbQSetOperation</p></td>
 <td><p>128</p></td>
-<td><p>Настройка запроса на операцию</p></td>
+<td><p>Настройка запроса операции</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbQSPTBulk</p></td>
@@ -98,7 +98,7 @@ ms.locfileid: "32300919"
 <tr class="odd">
 <td><p>dbQUpdate</p></td>
 <td><p>48</p></td>
-<td><p>Обновление запроса</p></td>
+<td><p>Запрос обновления</p></td>
 </tr>
 </tbody>
 </table>

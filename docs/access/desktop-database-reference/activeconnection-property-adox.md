@@ -18,13 +18,13 @@ ms.locfileid: "32280462"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает объект подключения [ADO,](connection-object-ado.md) к которому принадлежит [каталог.](catalog-object-adox.md)
+Указывает объект ADO [Connection,](connection-object-ado.md) к которому [принадлежит Каталог.](catalog-object-adox.md)
 
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+## <a name="settings-and-return-values"></a>Параметры и значения возврата
 
-Задает объект **Connection** или **строку,** содержащую определение подключения. Возвращает активный **объект Connection.**
+Задает объект **Подключения** или **строку,** содержащую определение подключения. Возвращает объект active **Connection.**
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
 Значение по умолчанию — это ссылка на объект null.
 

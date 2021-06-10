@@ -19,7 +19,7 @@ ms.locfileid: "32301423"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируются свойства [PrimaryKey](primarykey-property-adox.md) [и Unique](unique-property-adox.md) [индекса.](index-object-adox.md) Код создает таблицу с двумя столбцами. Свойства **PrimaryKey** и **Unique** используются для того, чтобы сделать один столбец первичным ключом, для которого повторяющиеся значения не допускаются.
+В этом примере демонстрируются [свойства PrimaryKey](primarykey-property-adox.md) и [Unique](unique-property-adox.md) [Index.](index-object-adox.md) Код создает новую таблицу с двумя столбцами. Свойства **PrimaryKey** и **Unique** используются для того, чтобы сделать один столбец основным ключом, для которого не разрешено дублировать значения.
 
 ```vb 
  

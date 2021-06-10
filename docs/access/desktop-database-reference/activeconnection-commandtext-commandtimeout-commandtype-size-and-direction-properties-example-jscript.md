@@ -1,5 +1,5 @@
 ---
-title: Пример свойств ActiveConnection, CommandText и CommandTimeout (JScript)
+title: Пример свойств ActiveConnection, CommandText, CommandTimeout (JScript)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example(JScript)
 ms:assetid: 2a79222c-4dba-9c5a-fff7-c8dd2711801f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249056(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32280483"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере для выполнения хранимой процедуры используются свойства [ActiveConnection,](activeconnection-property-ado.md) [CommandText,](commandtext-property-ado.md) [CommandTimeout,](commandtimeout-property-ado.md) [CommandType,](commandtype-property-ado.md) [Size](size-property-ado.md)и [Direction.](direction-property-ado.md) Включите следующий код в Блокнот или другой текстовый редактор и сохраните его как **ActiveConnectionJS.asp.**
+В этом примере для выполнения сохраненной процедуры используются свойства [ActiveConnection,](activeconnection-property-ado.md) [CommandText,](commandtext-property-ado.md) [CommandTimeout,](commandtimeout-property-ado.md) [CommandType,](commandtype-property-ado.md) [Size](size-property-ado.md)и [Direction.](direction-property-ado.md) Вырезать и вклеить следующий код для Блокнот или другого текстового редактора и сохранить его как **ActiveConnectionJS.asp**.
 
 ```javascript
 <!-- BeginActiveConnectionJS --> 

@@ -19,5 +19,5 @@ ms.locfileid: "32301304"
 
 **Область применения**: Access 2013, Office 2013
 
-To use ADO MD with your development tool, you should establish a reference to the ADO MD type library. Описание библиотеки ADO MD — microsoft ActiveX Data Objects (Multi-dimensional) Library. The ADO MD library filename is msadomd.dll and the program ID (ProgID) is "ADOMD". Дополнительные сведения о создании ссылок на библиотеки см. в документации средства разработки.
+Чтобы использовать ADO MD с помощью средства разработки, необходимо установить ссылку на библиотеку типов ADO MD. Описание библиотеки MD ADO — это библиотека ActiveX объектов данных (multi-dimensional). Имя файла библиотеки ADO MD msadomd.dll, а код программы (ProgID) — ADOMD. Дополнительные сведения о создании ссылок на библиотеки см. в документации средства разработки.
 
