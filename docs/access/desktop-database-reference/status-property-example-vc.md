@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308514"
 ---
-# <a name="status-property-example-vc"></a><span data-ttu-id="872f4-102">Пример использования свойства Status (VC++)</span><span class="sxs-lookup"><span data-stu-id="872f4-102">Status property example (VC++)</span></span>
+# <a name="status-property-example-vc"></a><span data-ttu-id="7cd75-102">Пример использования свойства Status (VC++)</span><span class="sxs-lookup"><span data-stu-id="7cd75-102">Status property example (VC++)</span></span>
 
 
-<span data-ttu-id="872f4-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="872f4-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="7cd75-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="7cd75-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="872f4-104">В этом примере свойство [Status](status-property-ado-recordset.md) используется для отображения записей, которые были изменены в пакетной операции перед пакетным обновлением.</span><span class="sxs-lookup"><span data-stu-id="872f4-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
+<span data-ttu-id="7cd75-104">В этом примере используется свойство [Status](status-property-ado-recordset.md) для отображения записей, которые были изменены в пакетной операции до обновления пакета.</span><span class="sxs-lookup"><span data-stu-id="7cd75-104">This example uses the [Status](status-property-ado-recordset.md) property to display which records have been modified in a batch operation before a batch update has occurred.</span></span>
 
 ```cpp 
  
@@ -210,7 +210,7 @@ void PrintComError(_com_error &e)
 // EndStatusCpp 
 ```
 
-<span data-ttu-id="872f4-105">**StatusX.h**</span><span class="sxs-lookup"><span data-stu-id="872f4-105">**StatusX.h**</span></span>
+<span data-ttu-id="7cd75-105">**StatusX.h**</span><span class="sxs-lookup"><span data-stu-id="7cd75-105">**StatusX.h**</span></span>
 
 ```cpp 
  

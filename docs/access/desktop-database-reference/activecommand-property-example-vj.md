@@ -14,13 +14,13 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282560"
 ---
-# <a name="activecommand-property-example-vj"></a><span data-ttu-id="6d833-102">Пример использования свойства ActiveCommand (VJ++)</span><span class="sxs-lookup"><span data-stu-id="6d833-102">ActiveCommand property example (VJ++)</span></span>
+# <a name="activecommand-property-example-vj"></a><span data-ttu-id="034ad-102">Пример использования свойства ActiveCommand (VJ++)</span><span class="sxs-lookup"><span data-stu-id="034ad-102">ActiveCommand property example (VJ++)</span></span>
 
-<span data-ttu-id="6d833-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="6d833-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="034ad-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="034ad-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="6d833-104">В этом примере показано [свойство ActiveCommand.](activecommand-property-ado.md)</span><span class="sxs-lookup"><span data-stu-id="6d833-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+<span data-ttu-id="034ad-104">В этом примере демонстрируется [свойство ActiveCommand.](activecommand-property-ado.md)</span><span class="sxs-lookup"><span data-stu-id="034ad-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-<span data-ttu-id="6d833-105">Подразднему предоставляется объект [Recordset,](recordset-object-ado.md) свойство **ActiveCommand** которого используется для отображения текста команды и параметра, который создал **объект Recordset.**</span><span class="sxs-lookup"><span data-stu-id="6d833-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="034ad-105">Субраутину предоставляется объект [Recordset,](recordset-object-ado.md) свойство **ActiveCommand** которого используется для отображения текста команды и параметра, создавав **набор recordset.**</span><span class="sxs-lookup"><span data-stu-id="034ad-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```java 
  

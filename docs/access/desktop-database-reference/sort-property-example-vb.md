@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306918"
 ---
-# <a name="sort-property-example-vb"></a><span data-ttu-id="ea906-102">Пример использования свойства Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="ea906-102">Sort property example (VB)</span></span>
+# <a name="sort-property-example-vb"></a><span data-ttu-id="e5aac-102">Пример использования свойства Sort (VB)</span><span class="sxs-lookup"><span data-stu-id="e5aac-102">Sort property example (VB)</span></span>
 
 
-<span data-ttu-id="ea906-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="ea906-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e5aac-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e5aac-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="ea906-104">В этом примере используется свойство [Sort](sort-property-ado.md) объекта [Recordset](recordset-object-ado.md) для переустановки строк объекта **Recordset,** производного от таблицы ***Authors*** базы ***данных Pubs.***</span><span class="sxs-lookup"><span data-stu-id="ea906-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="ea906-105">Вторичная спрограммная подпрограмма печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="ea906-105">A secondary utility routine prints each row.</span></span>
+<span data-ttu-id="e5aac-104">В этом примере свойство [](sort-property-ado.md) Sort объекта [Recordset](recordset-object-ado.md) используется для  переустановки строк  наборов записей, полученных из таблицы Авторов базы ***данных Pubs.***</span><span class="sxs-lookup"><span data-stu-id="e5aac-104">This example uses the [Recordset](recordset-object-ado.md) object's [Sort](sort-property-ado.md) property to reorder the rows of a **Recordset** derived from the ***Authors*** table of the ***Pubs*** database.</span></span> <span data-ttu-id="e5aac-105">Вторичная рутина утилиты печатает каждую строку.</span><span class="sxs-lookup"><span data-stu-id="e5aac-105">A secondary utility routine prints each row.</span></span>
 
 ```vb 
  
@@ -101,7 +101,7 @@ End Sub
 'EndSortVB 
 ```
 
-<span data-ttu-id="ea906-106">Это вторичная спрограмма, которая печатает заданный заголовок и содержимое указанного **наборов записей.**</span><span class="sxs-lookup"><span data-stu-id="ea906-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
+<span data-ttu-id="e5aac-106">Это вторичная утилита, которая печатает заданное название, и содержимое указанного **Набор записей**.</span><span class="sxs-lookup"><span data-stu-id="e5aac-106">This is the secondary utility routine that prints the given title, and the contents of the specified **Recordset**.</span></span>
 
 ```vb 
  

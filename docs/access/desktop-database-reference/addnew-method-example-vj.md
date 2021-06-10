@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32281862"
 ---
-# <a name="addnew-method-example-vj"></a><span data-ttu-id="dbdca-102">Пример использования метода AddNew (VJ++)</span><span class="sxs-lookup"><span data-stu-id="dbdca-102">AddNew method example (VJ++)</span></span>
+# <a name="addnew-method-example-vj"></a><span data-ttu-id="889a8-102">Пример использования метода AddNew (VJ++)</span><span class="sxs-lookup"><span data-stu-id="889a8-102">AddNew method example (VJ++)</span></span>
 
 
-<span data-ttu-id="dbdca-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="dbdca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="889a8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="889a8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="dbdca-104">В этом примере используется метод [AddNew](addnew-method-ado.md), чтобы создать запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="dbdca-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
+<span data-ttu-id="889a8-104">В этом примере используется метод [AddNew](addnew-method-ado.md), чтобы создать запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="889a8-104">This example uses the [AddNew](addnew-method-ado.md) method to create a new record with the specified name.</span></span>
 
 ```java 
  

@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308983"
 ---
-# <a name="save-and-open-methods-example-vb"></a><span data-ttu-id="822df-102">Пример использования методов Save и Open (VB)</span><span class="sxs-lookup"><span data-stu-id="822df-102">Save and Open methods example (VB)</span></span>
+# <a name="save-and-open-methods-example-vb"></a><span data-ttu-id="b9be3-102">Пример использования методов Save и Open (VB)</span><span class="sxs-lookup"><span data-stu-id="b9be3-102">Save and Open methods example (VB)</span></span>
 
 
-<span data-ttu-id="822df-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="822df-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b9be3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b9be3-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="822df-104">В этих трех примерах показано, как можно использовать методы [Save](save-method-ado.md) и [Open](open-method-ado-recordset.md) вместе.</span><span class="sxs-lookup"><span data-stu-id="822df-104">These three examples demonstrate how the [Save](save-method-ado.md) and [Open](open-method-ado-recordset.md) methods can be used together.</span></span>
+<span data-ttu-id="b9be3-104">В этих трех примерах [](open-method-ado-recordset.md) показано, как можно совместно использовать методы [Сохранить](save-method-ado.md) и Открыть.</span><span class="sxs-lookup"><span data-stu-id="b9be3-104">These three examples demonstrate how the [Save](save-method-ado.md) and [Open](open-method-ado-recordset.md) methods can be used together.</span></span>
 
-<span data-ttu-id="822df-105">Предположим, что вы собираетесь в бизнес-поездку и хотите взять таблицу из базы данных.</span><span class="sxs-lookup"><span data-stu-id="822df-105">Assume you are going on a business trip and want to take along a table from a database.</span></span> <span data-ttu-id="822df-106">Прежде чем перейти к данным в виде наборов [записей,](recordset-object-ado.md) сохраните их в транспортируемых формах.</span><span class="sxs-lookup"><span data-stu-id="822df-106">Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form.</span></span> <span data-ttu-id="822df-107">Когда вы поступаете к месту назначения, вы можете получить доступ к **набору записей** как к локальному отсоединенму **набору записей.**</span><span class="sxs-lookup"><span data-stu-id="822df-107">When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**.</span></span> <span data-ttu-id="822df-108">Внося изменения в **набор записей,** сохраните его еще раз.</span><span class="sxs-lookup"><span data-stu-id="822df-108">You make changes to the **Recordset**, then save it again.</span></span> <span data-ttu-id="822df-109">Наконец, когда вы вернетесь домой, вы снова подключаетесь к базе данных и обновляете ее с помощью изменений, внесенных в пути.</span><span class="sxs-lookup"><span data-stu-id="822df-109">Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
+<span data-ttu-id="b9be3-105">Предположим, что вы собираетесь в командировку и хотите взять таблицу из базы данных.</span><span class="sxs-lookup"><span data-stu-id="b9be3-105">Assume you are going on a business trip and want to take along a table from a database.</span></span> <span data-ttu-id="b9be3-106">Перед входом вы можете получить доступ к данным в виде [наборов записей](recordset-object-ado.md) и сохранить их в транспортируемых формах.</span><span class="sxs-lookup"><span data-stu-id="b9be3-106">Before you go, you access the data as a [Recordset](recordset-object-ado.md) and save it in a transportable form.</span></span> <span data-ttu-id="b9be3-107">По прибытии в пункт назначения вы можете получить доступ к **Набору записей** в качестве локального отключенного **наборов записей.**</span><span class="sxs-lookup"><span data-stu-id="b9be3-107">When you arrive at your destination, you access the **Recordset** as a local, disconnected **Recordset**.</span></span> <span data-ttu-id="b9be3-108">Вы внося изменения в **Набор записей,** а затем сохраните его снова.</span><span class="sxs-lookup"><span data-stu-id="b9be3-108">You make changes to the **Recordset**, then save it again.</span></span> <span data-ttu-id="b9be3-109">Наконец, когда вы возвращаетесь домой, вы снова подключаетесь к базе данных и обновляете ее с помощью изменений, внесенных на дороге.</span><span class="sxs-lookup"><span data-stu-id="b9be3-109">Finally, when you return home, you connect to the database again and update it with the changes you made on the road.</span></span>
 
-<span data-ttu-id="822df-110">Во-первых, получить доступ к таблице ***"Авторы"*** и сохранить ее.</span><span class="sxs-lookup"><span data-stu-id="822df-110">First, access and save the ***Authors*** table.</span></span>
+<span data-ttu-id="b9be3-110">Во-первых, доступ и сохранение ***таблицы Авторов.***</span><span class="sxs-lookup"><span data-stu-id="b9be3-110">First, access and save the ***Authors*** table.</span></span>
 
 ```vb 
  
@@ -83,7 +83,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="822df-111">На этом этапе вы прибыли к месту назначения.</span><span class="sxs-lookup"><span data-stu-id="822df-111">At this point, you have arrived at your destination.</span></span> <span data-ttu-id="822df-112">Вы будете получать доступ к ***таблице Authors*** как локальный, отключенный **набор записей.**</span><span class="sxs-lookup"><span data-stu-id="822df-112">You will access the ***Authors*** table as a local, disconnected **Recordset**.</span></span> <span data-ttu-id="822df-113">Не забывайте, что для доступа к сохраненным файлам на компьютере должен быть поставщик **MSPersist,** \\Pubs.xml.</span><span class="sxs-lookup"><span data-stu-id="822df-113">Don't forget you must have the **MSPersist** provider on the machine that you are using in order to access the saved file, a:\\Pubs.xml.</span></span>
+<span data-ttu-id="b9be3-111">На данный момент вы прибыли в пункт назначения.</span><span class="sxs-lookup"><span data-stu-id="b9be3-111">At this point, you have arrived at your destination.</span></span> <span data-ttu-id="b9be3-112">Вы будете получать доступ к таблице ***Авторов*** в качестве локального отключенного **набор записей.**</span><span class="sxs-lookup"><span data-stu-id="b9be3-112">You will access the ***Authors*** table as a local, disconnected **Recordset**.</span></span> <span data-ttu-id="b9be3-113">Не забывайте, что поставщик **MSPersist** должен быть на компьютере, который используется для доступа к сохраненным файлам, а именно: \\Pubs.xml.</span><span class="sxs-lookup"><span data-stu-id="b9be3-113">Don't forget you must have the **MSPersist** provider on the machine that you are using in order to access the saved file, a:\\Pubs.xml.</span></span>
 
 ```vb 
  
@@ -133,7 +133,7 @@ End Sub
 
 <br/>
 
-<span data-ttu-id="822df-114">Наконец, вы вернетесь домой.</span><span class="sxs-lookup"><span data-stu-id="822df-114">Finally, you return home.</span></span> <span data-ttu-id="822df-115">Теперь обновите базу данных, внося изменения.</span><span class="sxs-lookup"><span data-stu-id="822df-115">Now update the database with your changes.</span></span>
+<span data-ttu-id="b9be3-114">Наконец, вы вернетесь домой.</span><span class="sxs-lookup"><span data-stu-id="b9be3-114">Finally, you return home.</span></span> <span data-ttu-id="b9be3-115">Теперь обновите базу данных с помощью изменений.</span><span class="sxs-lookup"><span data-stu-id="b9be3-115">Now update the database with your changes.</span></span>
 
 ```vb 
  

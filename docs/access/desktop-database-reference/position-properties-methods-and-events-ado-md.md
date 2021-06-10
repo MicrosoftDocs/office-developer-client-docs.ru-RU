@@ -1,5 +1,5 @@
 ---
-title: Position properties, methods, and events (ADO MD)
+title: Свойства позиции, методы и события (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: b1d770c4-82ae-1536-ff60-638c11882087
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249848(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287554"
 ---
-# <a name="position-properties-methods-and-events-ado-md"></a><span data-ttu-id="a1ef7-102">Position properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="a1ef7-102">Position properties, methods, and events (ADO MD)</span></span>
+# <a name="position-properties-methods-and-events-ado-md"></a><span data-ttu-id="adaac-102">Свойства позиции, методы и события (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="adaac-102">Position properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="a1ef7-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a1ef7-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="adaac-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="adaac-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="propertiescollections"></a><span data-ttu-id="a1ef7-104">Properties/Collections</span><span class="sxs-lookup"><span data-stu-id="a1ef7-104">Properties/Collections</span></span>
+## <a name="propertiescollections"></a><span data-ttu-id="adaac-104">Свойства/коллекции</span><span class="sxs-lookup"><span data-stu-id="adaac-104">Properties/Collections</span></span>
 
-- [<span data-ttu-id="a1ef7-105">Коллекция Members</span><span class="sxs-lookup"><span data-stu-id="a1ef7-105">Members collection</span></span>](members-collection-ado-md.md)
-- [<span data-ttu-id="a1ef7-106">Свойство Ordinal (Position)</span><span class="sxs-lookup"><span data-stu-id="a1ef7-106">Ordinal property (Position)</span></span>](ordinal-property-ado-md-position.md)
+- [<span data-ttu-id="adaac-105">Коллекция Members</span><span class="sxs-lookup"><span data-stu-id="adaac-105">Members collection</span></span>](members-collection-ado-md.md)
+- [<span data-ttu-id="adaac-106">Ordinal property (Position)</span><span class="sxs-lookup"><span data-stu-id="adaac-106">Ordinal property (Position)</span></span>](ordinal-property-ado-md-position.md)
 
-## <a name="methods"></a><span data-ttu-id="a1ef7-107">Methods</span><span class="sxs-lookup"><span data-stu-id="a1ef7-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="adaac-107">Методы</span><span class="sxs-lookup"><span data-stu-id="adaac-107">Methods</span></span>
 
-<span data-ttu-id="a1ef7-108">Нет.</span><span class="sxs-lookup"><span data-stu-id="a1ef7-108">None.</span></span>
+<span data-ttu-id="adaac-108">Нет.</span><span class="sxs-lookup"><span data-stu-id="adaac-108">None.</span></span>
 
-## <a name="events"></a><span data-ttu-id="a1ef7-109">События</span><span class="sxs-lookup"><span data-stu-id="a1ef7-109">Events</span></span>
+## <a name="events"></a><span data-ttu-id="adaac-109">События</span><span class="sxs-lookup"><span data-stu-id="adaac-109">Events</span></span>
 
-<span data-ttu-id="a1ef7-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="a1ef7-110">None.</span></span>
+<span data-ttu-id="adaac-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="adaac-110">None.</span></span>
 

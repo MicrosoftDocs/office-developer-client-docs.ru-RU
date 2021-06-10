@@ -1,5 +1,5 @@
 ---
-title: ADO event instantiation by language (ADO)
+title: Моментация событий ADO по языку (ADO)
 TOCTitle: ADO event instantiation by language
 ms:assetid: d21cc0bd-8450-4f8f-92f8-78ca9861f44a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250048(v=office.15)
@@ -14,16 +14,16 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283368"
 ---
-# <a name="ado-event-instantiation-by-language-ado"></a><span data-ttu-id="69f19-102">ADO event instantiation by language (ADO)</span><span class="sxs-lookup"><span data-stu-id="69f19-102">ADO event instantiation by language (ADO)</span></span>
+# <a name="ado-event-instantiation-by-language-ado"></a><span data-ttu-id="50901-102">Моментация событий ADO по языку (ADO)</span><span class="sxs-lookup"><span data-stu-id="50901-102">ADO event instantiation by language (ADO)</span></span>
 
-<span data-ttu-id="69f19-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="69f19-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="50901-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="50901-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="69f19-104">В этой статье содержатся следующие разделы:</span><span class="sxs-lookup"><span data-stu-id="69f19-104">This section includes the following topics:</span></span>
+<span data-ttu-id="50901-104">В этой статье содержатся следующие разделы:</span><span class="sxs-lookup"><span data-stu-id="50901-104">This section includes the following topics:</span></span>
 
-- [<span data-ttu-id="69f19-105">Visual Basic</span><span class="sxs-lookup"><span data-stu-id="69f19-105">Visual Basic</span></span>](visual-basic.md)
-- [<span data-ttu-id="69f19-106">Visual C++</span><span class="sxs-lookup"><span data-stu-id="69f19-106">Visual C++</span></span>](visual-c.md)
-- [<span data-ttu-id="69f19-107">Visual J++</span><span class="sxs-lookup"><span data-stu-id="69f19-107">Visual J++</span></span>](visual-j.md)
-- [<span data-ttu-id="69f19-108">VBScript</span><span class="sxs-lookup"><span data-stu-id="69f19-108">VBScript</span></span>](vbscript.md)
-- [<span data-ttu-id="69f19-109">JScript</span><span class="sxs-lookup"><span data-stu-id="69f19-109">JScript</span></span>](jscript.md)
-- [<span data-ttu-id="69f19-110">ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="69f19-110">ADO/WFC</span></span>](ado-wfc.md)
+- [<span data-ttu-id="50901-105">Visual Basic</span><span class="sxs-lookup"><span data-stu-id="50901-105">Visual Basic</span></span>](visual-basic.md)
+- [<span data-ttu-id="50901-106">Visual C++</span><span class="sxs-lookup"><span data-stu-id="50901-106">Visual C++</span></span>](visual-c.md)
+- [<span data-ttu-id="50901-107">Visual J++</span><span class="sxs-lookup"><span data-stu-id="50901-107">Visual J++</span></span>](visual-j.md)
+- [<span data-ttu-id="50901-108">VBScript</span><span class="sxs-lookup"><span data-stu-id="50901-108">VBScript</span></span>](vbscript.md)
+- [<span data-ttu-id="50901-109">JScript</span><span class="sxs-lookup"><span data-stu-id="50901-109">JScript</span></span>](jscript.md)
+- [<span data-ttu-id="50901-110">ADO/WFC</span><span class="sxs-lookup"><span data-stu-id="50901-110">ADO/WFC</span></span>](ado-wfc.md)
 

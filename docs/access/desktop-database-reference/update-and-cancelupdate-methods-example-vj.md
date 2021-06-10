@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308381"
 ---
-# <a name="update-and-cancelupdate-methods-example-vj"></a><span data-ttu-id="72f90-102">Пример использования методов Update и CancelUpdate (VJ++)</span><span class="sxs-lookup"><span data-stu-id="72f90-102">Update and CancelUpdate methods example (VJ++)</span></span>
+# <a name="update-and-cancelupdate-methods-example-vj"></a><span data-ttu-id="3532c-102">Пример использования методов Update и CancelUpdate (VJ++)</span><span class="sxs-lookup"><span data-stu-id="3532c-102">Update and CancelUpdate methods example (VJ++)</span></span>
 
 
-<span data-ttu-id="72f90-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="72f90-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="3532c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="3532c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="72f90-104">В этом примере демонстрируется метод [Update](update-method-ado.md) в сочетании с [методом CancelUpdate.](cancelupdate-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="72f90-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
+<span data-ttu-id="3532c-104">В этом примере демонстрируется метод [Update](update-method-ado.md) в сочетании с [методом CancelUpdate.](cancelupdate-method-ado.md)</span><span class="sxs-lookup"><span data-stu-id="3532c-104">This example demonstrates the [Update](update-method-ado.md) method in conjunction with the [CancelUpdate](cancelupdate-method-ado.md) method.</span></span>
 
 ```java 
  

@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282602"
 ---
-# <a name="activecommand-property-example-vb"></a><span data-ttu-id="155a3-102">Пример использования свойства ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="155a3-102">ActiveCommand property example (VB)</span></span>
+# <a name="activecommand-property-example-vb"></a><span data-ttu-id="2da8d-102">Пример использования свойства ActiveCommand (VB)</span><span class="sxs-lookup"><span data-stu-id="2da8d-102">ActiveCommand property example (VB)</span></span>
 
 
-<span data-ttu-id="155a3-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="155a3-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="2da8d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="2da8d-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="155a3-104">В этом примере показано [свойство ActiveCommand.](activecommand-property-ado.md)</span><span class="sxs-lookup"><span data-stu-id="155a3-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
+<span data-ttu-id="2da8d-104">В этом примере демонстрируется [свойство ActiveCommand.](activecommand-property-ado.md)</span><span class="sxs-lookup"><span data-stu-id="2da8d-104">This example demonstrates the [ActiveCommand](activecommand-property-ado.md) property.</span></span>
 
-<span data-ttu-id="155a3-105">Подразднему предоставляется объект [Recordset,](recordset-object-ado.md) свойство **ActiveCommand** которого используется для отображения текста команды и параметра, который создал **объект Recordset.**</span><span class="sxs-lookup"><span data-stu-id="155a3-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
+<span data-ttu-id="2da8d-105">Субраутину предоставляется объект [Recordset,](recordset-object-ado.md) свойство **ActiveCommand** которого используется для отображения текста команды и параметра, создавав **набор recordset.**</span><span class="sxs-lookup"><span data-stu-id="2da8d-105">A subroutine is given a [Recordset](recordset-object-ado.md) object whose **ActiveCommand** property is used to display the command text and parameter that created the **Recordset**.</span></span>
 
 ```vb 
  
@@ -88,11 +88,11 @@ End Sub
 'EndActiveCommandVB 
 ```
 
-<span data-ttu-id="155a3-106">**Подпрограмме ActiveCommandXprint** предоставляется только объект **Recordset,** но он должен распечатать текст команды и параметр, создавав **объект Recordset.**</span><span class="sxs-lookup"><span data-stu-id="155a3-106">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**.</span></span> <span data-ttu-id="155a3-107">Это можно сделать, так как свойство **ActiveCommand** объекта **Recordset** дает связанный [объект Command.](command-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="155a3-107">This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="2da8d-106">Режим **ActiveCommandXprint** предоставляется только **объекту Recordset,** но он должен распечатать командный текст и параметр, создав **набор записей.**</span><span class="sxs-lookup"><span data-stu-id="2da8d-106">The **ActiveCommandXprint** routine is given only a **Recordset** object, yet it must print the command text and parameter that created the **Recordset**.</span></span> <span data-ttu-id="2da8d-107">Это можно сделать, так как свойство **ActiveCommand** объекта **Recordset** дает связанный [объект Command.](command-object-ado.md)</span><span class="sxs-lookup"><span data-stu-id="2da8d-107">This can be done because the **Recordset** object's **ActiveCommand** property yields the associated [Command](command-object-ado.md) object.</span></span>
 
-<span data-ttu-id="155a3-108">Свойство [CommandText](commandtext-property-ado.md) объекта Command дает параметризованную команду, которая создала  **recordset.**</span><span class="sxs-lookup"><span data-stu-id="155a3-108">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**.</span></span> <span data-ttu-id="155a3-109">Коллекция **Parameters** объекта [Command](parameters-collection-ado.md) дает значение, которое было заменено на замещающий объект команды ("**?**").</span><span class="sxs-lookup"><span data-stu-id="155a3-109">The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
+<span data-ttu-id="2da8d-108">Свойство **CommandText** объекта [CommandText](commandtext-property-ado.md) дает параметризованную команду, создав набор **записей.**</span><span class="sxs-lookup"><span data-stu-id="2da8d-108">The **Command** object's [CommandText](commandtext-property-ado.md) property yields the parameterized command that created the **Recordset**.</span></span> <span data-ttu-id="2da8d-109">Коллекция **параметров** объекта [Command](parameters-collection-ado.md) дает значение, которое было заменено на местоодатель параметров команды **("?**").</span><span class="sxs-lookup"><span data-stu-id="2da8d-109">The **Command** object's [Parameters](parameters-collection-ado.md) collection yields the value that was substituted for the command's parameter placeholder ("**?**").</span></span>
 
-<span data-ttu-id="155a3-110">Наконец, печатается сообщение об ошибке или имя и ИД автора.</span><span class="sxs-lookup"><span data-stu-id="155a3-110">Finally, an error message or the author's name and ID are printed.</span></span>
+<span data-ttu-id="2da8d-110">Наконец, печатаются сообщение об ошибке или имя и ID автора.</span><span class="sxs-lookup"><span data-stu-id="2da8d-110">Finally, an error message or the author's name and ID are printed.</span></span>
 
 ```vb 
  

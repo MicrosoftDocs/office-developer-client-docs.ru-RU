@@ -1,5 +1,5 @@
 ---
-title: Пример свойств ActiveConnection, CommandText и CommandTimeout (VJ++)
+title: Пример свойств ActiveConnection, CommandText, CommandTimeout (VJ++)
 TOCTitle: ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)
 ms:assetid: 80e69c20-4bad-c036-3b41-cec9d19e37dd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249550(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32282539"
 ---
-# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a><span data-ttu-id="95d1e-102">Пример использования свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction (VJ++)</span><span class="sxs-lookup"><span data-stu-id="95d1e-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)</span></span>
+# <a name="activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-vj"></a><span data-ttu-id="75723-102">Пример использования свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction (VJ++)</span><span class="sxs-lookup"><span data-stu-id="75723-102">ActiveConnection, CommandText, CommandTimeout, CommandType, Size, and Direction properties example (VJ++)</span></span>
 
-<span data-ttu-id="95d1e-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="95d1e-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="75723-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="75723-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="95d1e-104">В этом примере для выполнения хранимой процедуры используются свойства [ActiveConnection,](activeconnection-property-ado.md) [CommandText,](commandtext-property-ado.md) [CommandTimeout,](commandtimeout-property-ado.md) [CommandType,](commandtype-property-ado.md) [Size](size-property-ado.md)и [Direction.](direction-property-ado.md)</span><span class="sxs-lookup"><span data-stu-id="95d1e-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
+<span data-ttu-id="75723-104">В этом примере для выполнения сохраненной процедуры используются свойства [ActiveConnection,](activeconnection-property-ado.md) [CommandText,](commandtext-property-ado.md) [CommandTimeout,](commandtimeout-property-ado.md) [CommandType,](commandtype-property-ado.md) [Size](size-property-ado.md)и [Direction.](direction-property-ado.md)</span><span class="sxs-lookup"><span data-stu-id="75723-104">This example uses the [ActiveConnection](activeconnection-property-ado.md), [CommandText](commandtext-property-ado.md), [CommandTimeout](commandtimeout-property-ado.md), [CommandType](commandtype-property-ado.md), [Size](size-property-ado.md), and [Direction](direction-property-ado.md) properties to execute a stored procedure.</span></span>
 
 ```java 
  

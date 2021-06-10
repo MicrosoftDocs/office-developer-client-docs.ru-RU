@@ -14,34 +14,34 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309271"
 ---
-# <a name="recordset2sort-property-dao"></a><span data-ttu-id="d653d-102">Свойство Recordset2.Sort (DAO)</span><span class="sxs-lookup"><span data-stu-id="d653d-102">Recordset2.Sort property (DAO)</span></span>
+# <a name="recordset2sort-property-dao"></a><span data-ttu-id="c03e1-102">Свойство Recordset2.Sort (DAO)</span><span class="sxs-lookup"><span data-stu-id="c03e1-102">Recordset2.Sort property (DAO)</span></span>
 
-<span data-ttu-id="d653d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d653d-103">**Applies to**: Access 2013, Office 2013</span></span> 
+<span data-ttu-id="c03e1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c03e1-103">**Applies to**: Access 2013, Office 2013</span></span> 
 
-<span data-ttu-id="d653d-104">Задает или возвращает порядок сортировки для записей в объекте **[Recordset](recordset-object-dao.md)** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="d653d-104">Sets or returns the sort order for records in a **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).</span></span>
+<span data-ttu-id="c03e1-104">Задает или возвращает порядок сортировки для записей в объекте **[Recordset](recordset-object-dao.md)** (только для рабочих областей Microsoft Access).</span><span class="sxs-lookup"><span data-stu-id="c03e1-104">Sets or returns the sort order for records in a **[Recordset](recordset-object-dao.md)** object (Microsoft Access workspaces only).</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="d653d-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="d653d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="c03e1-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="c03e1-105">Syntax</span></span>
 
-<span data-ttu-id="d653d-106">*expression* .Sort</span><span class="sxs-lookup"><span data-stu-id="d653d-106">*expression* .Sort</span></span>
+<span data-ttu-id="c03e1-106">*expression* .Sort</span><span class="sxs-lookup"><span data-stu-id="c03e1-106">*expression* .Sort</span></span>
 
-<span data-ttu-id="d653d-107">*выражение* Переменная, представляюная объект **Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="d653d-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="c03e1-107">*выражение* Переменная, представляюная объект **Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="c03e1-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="d653d-108">Комментарии</span><span class="sxs-lookup"><span data-stu-id="d653d-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="c03e1-108">Комментарии</span><span class="sxs-lookup"><span data-stu-id="c03e1-108">Remarks</span></span>
 
-<span data-ttu-id="d653d-109">Вы можете использовать свойство **Sort** с объектами **Recordset** типа dynaset и моментальный снимок.</span><span class="sxs-lookup"><span data-stu-id="d653d-109">You can use the **Sort** property with dynaset– and snapshot–type **Recordset** objects.</span></span>
+<span data-ttu-id="c03e1-109">Вы можете использовать свойство **Sort** с объектами **Recordset** типа dynaset и моментальный снимок.</span><span class="sxs-lookup"><span data-stu-id="c03e1-109">You can use the **Sort** property with dynaset– and snapshot–type **Recordset** objects.</span></span>
 
-<span data-ttu-id="d653d-110">Если вы задаете это свойство для объекта, сортировка будет выполнена при создании последующего объекта **Recordset** из данного объекта.</span><span class="sxs-lookup"><span data-stu-id="d653d-110">When you set this property for an object, sorting occurs when a subsequent **Recordset** object is created from that object.</span></span> <span data-ttu-id="d653d-111">Настройка свойства **Sort** будет переопределять любой порядок сортировки, указанный для объекта **[QueryDef](querydef-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="d653d-111">The **Sort** property setting overrides any sort order specified for a **[QueryDef](querydef-object-dao.md)** object.</span></span>
+<span data-ttu-id="c03e1-110">Если вы задаете это свойство для объекта, сортировка будет выполнена при создании последующего объекта **Recordset** из данного объекта.</span><span class="sxs-lookup"><span data-stu-id="c03e1-110">When you set this property for an object, sorting occurs when a subsequent **Recordset** object is created from that object.</span></span> <span data-ttu-id="c03e1-111">Настройка свойства **Sort** будет переопределять любой порядок сортировки, указанный для объекта **[QueryDef](querydef-object-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="c03e1-111">The **Sort** property setting overrides any sort order specified for a **[QueryDef](querydef-object-dao.md)** object.</span></span>
 
-<span data-ttu-id="d653d-112">Стандартный порядок сортировки по возрастанию (от А до Я или от 0 до 100).</span><span class="sxs-lookup"><span data-stu-id="d653d-112">The default sort order is ascending (A to Z or 0 to 100).</span></span>
+<span data-ttu-id="c03e1-112">Стандартный порядок сортировки по возрастанию (от А до Я или от 0 до 100).</span><span class="sxs-lookup"><span data-stu-id="c03e1-112">The default sort order is ascending (A to Z or 0 to 100).</span></span>
 
-<span data-ttu-id="d653d-113">Свойство **Sort** не оказывает влияние на объекты **Recordset** табличного или однонаправленного типа.</span><span class="sxs-lookup"><span data-stu-id="d653d-113">The **Sort** property doesn't apply to table– or forward–only–type **Recordset** objects.</span></span> <span data-ttu-id="d653d-114">Чтобы отсортировать табличный тип объекта **Recordset** используйте свойство **[Index](recordset2-index-property-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="d653d-114">To sort a table–type **Recordset** object, use the **[Index](recordset2-index-property-dao.md)** property.</span></span>
+<span data-ttu-id="c03e1-113">Свойство **Sort** не оказывает влияние на объекты **Recordset** табличного или однонаправленного типа.</span><span class="sxs-lookup"><span data-stu-id="c03e1-113">The **Sort** property doesn't apply to table– or forward–only–type **Recordset** objects.</span></span> <span data-ttu-id="c03e1-114">Чтобы отсортировать табличный тип объекта **Recordset** используйте свойство **[Index](recordset2-index-property-dao.md)**.</span><span class="sxs-lookup"><span data-stu-id="c03e1-114">To sort a table–type **Recordset** object, use the **[Index](recordset2-index-property-dao.md)** property.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="d653d-115">Во многих случаях быстрее будет открыть новый объект **Recordset** с помощью оператора SQL, который включает условия сортировки.</span><span class="sxs-lookup"><span data-stu-id="d653d-115">In many cases, it's faster to open a new **Recordset** object by using an SQL statement that includes the sorting criteria.</span></span>
+> <span data-ttu-id="c03e1-115">Во многих случаях быстрее будет открыть новый объект **Recordset** с помощью оператора SQL, который включает условия сортировки.</span><span class="sxs-lookup"><span data-stu-id="c03e1-115">In many cases, it's faster to open a new **Recordset** object by using an SQL statement that includes the sorting criteria.</span></span>
 
-## <a name="example"></a><span data-ttu-id="d653d-116">Пример</span><span class="sxs-lookup"><span data-stu-id="d653d-116">Example</span></span>
+## <a name="example"></a><span data-ttu-id="c03e1-116">Пример</span><span class="sxs-lookup"><span data-stu-id="c03e1-116">Example</span></span>
 
-<span data-ttu-id="d653d-117">В этом примере показано свойство **Sort**, изменение его значения, а также создание нового объекта **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="d653d-117">This example demonstrates the **Sort** property by changing its value and creating a new **Recordset**.</span></span> <span data-ttu-id="d653d-118">Функция SortOutput обязательна для запуска этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="d653d-118">The SortOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="c03e1-117">В этом примере показано свойство **Sort**, изменение его значения, а также создание нового объекта **Recordset**.</span><span class="sxs-lookup"><span data-stu-id="c03e1-117">This example demonstrates the **Sort** property by changing its value and creating a new **Recordset**.</span></span> <span data-ttu-id="c03e1-118">Функция SortOutput обязательна для запуска этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="c03e1-118">The SortOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub SortX() 
@@ -97,7 +97,7 @@ ms.locfileid: "32309271"
 
 <br/>
 
-<span data-ttu-id="d653d-119">Если вы знаете данные, которые вы хотите выбрать, как правило, более рационально будет создать **Recordset** с оператором SQL.</span><span class="sxs-lookup"><span data-stu-id="d653d-119">When you know the data you want to select, it's usually more efficient to create a **Recordset** with an SQL statement.</span></span> <span data-ttu-id="d653d-120">В этом примере показано, как можно создать только один объект **Recordset** и получить те же результаты, что и в предыдущем примере.</span><span class="sxs-lookup"><span data-stu-id="d653d-120">This example shows how you can create just one **Recordset** and obtain the same results as in the preceding example.</span></span>
+<span data-ttu-id="c03e1-119">Если вы знаете данные, которые вы хотите выбрать, как правило, более рационально будет создать **Recordset** с оператором SQL.</span><span class="sxs-lookup"><span data-stu-id="c03e1-119">When you know the data you want to select, it's usually more efficient to create a **Recordset** with an SQL statement.</span></span> <span data-ttu-id="c03e1-120">В этом примере показано, как можно создать только один объект **Recordset** и получить те же результаты, что и в предыдущем примере.</span><span class="sxs-lookup"><span data-stu-id="c03e1-120">This example shows how you can create just one **Recordset** and obtain the same results as in the preceding example.</span></span>
 
 ```vb
     Sub SortX2() 

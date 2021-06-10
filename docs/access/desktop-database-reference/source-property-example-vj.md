@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306874"
 ---
-# <a name="source-property-example-vj"></a><span data-ttu-id="01afb-102">Пример использования свойства Source (VJ++)</span><span class="sxs-lookup"><span data-stu-id="01afb-102">Source property example (VJ++)</span></span>
+# <a name="source-property-example-vj"></a><span data-ttu-id="c7ccb-102">Пример использования свойства Source (VJ++)</span><span class="sxs-lookup"><span data-stu-id="c7ccb-102">Source property example (VJ++)</span></span>
 
 
-<span data-ttu-id="01afb-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="01afb-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="c7ccb-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="c7ccb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="01afb-104">В этом примере показано свойство [Source,](source-property-ado-recordset.md) открыв три [объекта Recordset](recordset-object-ado.md) на основе различных источников данных.</span><span class="sxs-lookup"><span data-stu-id="01afb-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
+<span data-ttu-id="c7ccb-104">В этом примере демонстрируется свойство [Source,](source-property-ado-recordset.md) открыв три [объекта Recordset](recordset-object-ado.md) на основе различных источников данных.</span><span class="sxs-lookup"><span data-stu-id="c7ccb-104">This example demonstrates the [Source](source-property-ado-recordset.md) property by opening three [Recordset](recordset-object-ado.md) objects based on different data sources.</span></span>
 
 ```java 
  

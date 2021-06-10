@@ -18,30 +18,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307352"
 ---
-# <a name="recordset2editmode-property-dao"></a><span data-ttu-id="8e2f0-102">Свойство Recordset2.EditMode (DAO)</span><span class="sxs-lookup"><span data-stu-id="8e2f0-102">Recordset2.EditMode property (DAO)</span></span>
+# <a name="recordset2editmode-property-dao"></a><span data-ttu-id="b5fb8-102">Свойство Recordset2.EditMode (DAO)</span><span class="sxs-lookup"><span data-stu-id="b5fb8-102">Recordset2.EditMode property (DAO)</span></span>
 
 
-<span data-ttu-id="8e2f0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8e2f0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="b5fb8-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b5fb8-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="8e2f0-104">Возвращает значение, которое указывает состояние редактирования для текущей записи.</span><span class="sxs-lookup"><span data-stu-id="8e2f0-104">Returns a value that indicates the state of editing for the current record.</span></span>
+<span data-ttu-id="b5fb8-104">Возвращает значение, которое указывает состояние редактирования для текущей записи.</span><span class="sxs-lookup"><span data-stu-id="b5fb8-104">Returns a value that indicates the state of editing for the current record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="8e2f0-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8e2f0-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="b5fb8-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="b5fb8-105">Syntax</span></span>
 
-<span data-ttu-id="8e2f0-106">*выражение .* EditMode</span><span class="sxs-lookup"><span data-stu-id="8e2f0-106">*expression* .EditMode</span></span>
+<span data-ttu-id="b5fb8-106">*выражения* . EditMode</span><span class="sxs-lookup"><span data-stu-id="b5fb8-106">*expression* .EditMode</span></span>
 
-<span data-ttu-id="8e2f0-107">*выражение* Переменная, представляюная объект **Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="8e2f0-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="b5fb8-107">*выражение* Переменная, представляюная объект **Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="b5fb8-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="8e2f0-108">Заметки</span><span class="sxs-lookup"><span data-stu-id="8e2f0-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="b5fb8-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="b5fb8-108">Remarks</span></span>
 
-<span data-ttu-id="8e2f0-109">Возвращаемая величина — **long,** которая указывает состояние редактирования.</span><span class="sxs-lookup"><span data-stu-id="8e2f0-109">The return value is a **Long** that indicates the state of editing.</span></span> <span data-ttu-id="8e2f0-110">Значение может быть одной из **[констант EditModeEnum.](editmodeenum-enumeration-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="8e2f0-110">The value can be one of the **[EditModeEnum](editmodeenum-enumeration-dao.md)** constants.</span></span>
+<span data-ttu-id="b5fb8-109">Возвращается значение **Long,** которое указывает состояние редактирования.</span><span class="sxs-lookup"><span data-stu-id="b5fb8-109">The return value is a **Long** that indicates the state of editing.</span></span> <span data-ttu-id="b5fb8-110">Это значение может быть одним из **[констант EditModeEnum.](editmodeenum-enumeration-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="b5fb8-110">The value can be one of the **[EditModeEnum](editmodeenum-enumeration-dao.md)** constants.</span></span>
 
-<span data-ttu-id="8e2f0-111">Свойство **EditMode полезно** использовать, если процесс редактирования прерывается, например, из-за ошибки во время проверки.</span><span class="sxs-lookup"><span data-stu-id="8e2f0-111">The **EditMode** property is useful when an editing process is interrupted, for example, by an error during validation.</span></span> <span data-ttu-id="8e2f0-112">Значение свойства **EditMode** можно использовать, чтобы определить, следует ли использовать метод **[Update](recordset2-update-method-dao.md)** или **[CancelUpdate.](recordset2-cancelupdate-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="8e2f0-112">You can use the value of the **EditMode** property to determine whether you should use the **[Update](recordset2-update-method-dao.md)** or **[CancelUpdate](recordset2-cancelupdate-method-dao.md)** method.</span></span>
+<span data-ttu-id="b5fb8-111">Свойство **EditMode полезно,** если процесс редактирования прерывается, например, ошибкой во время проверки.</span><span class="sxs-lookup"><span data-stu-id="b5fb8-111">The **EditMode** property is useful when an editing process is interrupted, for example, by an error during validation.</span></span> <span data-ttu-id="b5fb8-112">Значение свойства **EditMode** можно использовать для определения того, следует ли использовать метод **[Update](recordset2-update-method-dao.md)** или **[CancelUpdate.](recordset2-cancelupdate-method-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="b5fb8-112">You can use the value of the **EditMode** property to determine whether you should use the **[Update](recordset2-update-method-dao.md)** or **[CancelUpdate](recordset2-cancelupdate-method-dao.md)** method.</span></span>
 
-<span data-ttu-id="8e2f0-113">Вы также можете проверить, имеет ли свойство **[LockEdits](recordset2-lockedits-property-dao.md)** состояние **True,** а для свойства **EditMode** — **dbEditInProgress,** чтобы определить, заблокирована ли текущая страница.</span><span class="sxs-lookup"><span data-stu-id="8e2f0-113">You can also check to see if the **[LockEdits](recordset2-lockedits-property-dao.md)** property setting is **True** and the **EditMode** property setting is **dbEditInProgress** to determine whether the current page is locked.</span></span>
+<span data-ttu-id="b5fb8-113">Вы также можете проверить, является ли параметр  **[Свойства LockEdits](recordset2-lockedits-property-dao.md)** true, а параметр **свойства EditMode** **— dbEditInProgress,** чтобы определить, заблокирована ли текущая страница.</span><span class="sxs-lookup"><span data-stu-id="b5fb8-113">You can also check to see if the **[LockEdits](recordset2-lockedits-property-dao.md)** property setting is **True** and the **EditMode** property setting is **dbEditInProgress** to determine whether the current page is locked.</span></span>
 
-## <a name="example"></a><span data-ttu-id="8e2f0-114">Пример</span><span class="sxs-lookup"><span data-stu-id="8e2f0-114">Example</span></span>
+## <a name="example"></a><span data-ttu-id="b5fb8-114">Пример</span><span class="sxs-lookup"><span data-stu-id="b5fb8-114">Example</span></span>
 
-<span data-ttu-id="8e2f0-115">В этом примере показано значение свойства **EditMode** в различных условиях.</span><span class="sxs-lookup"><span data-stu-id="8e2f0-115">This example shows the value of the **EditMode** property under various conditions.</span></span> <span data-ttu-id="8e2f0-116">Для запуска этой процедуры требуется функция EditModeOutput.</span><span class="sxs-lookup"><span data-stu-id="8e2f0-116">The EditModeOutput function is required for this procedure to run.</span></span>
+<span data-ttu-id="b5fb8-115">В этом примере показано значение **свойства EditMode** в различных условиях.</span><span class="sxs-lookup"><span data-stu-id="b5fb8-115">This example shows the value of the **EditMode** property under various conditions.</span></span> <span data-ttu-id="b5fb8-116">Для запуска этой процедуры требуется функция EditModeOutput.</span><span class="sxs-lookup"><span data-stu-id="b5fb8-116">The EditModeOutput function is required for this procedure to run.</span></span>
 
 ```vb
     Sub EditModeX() 

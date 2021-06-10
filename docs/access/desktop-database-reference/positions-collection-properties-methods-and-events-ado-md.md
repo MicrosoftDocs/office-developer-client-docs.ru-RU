@@ -1,5 +1,5 @@
 ---
-title: Positions collection properties, methods, and events (ADO MD)
+title: Свойства, методы и события коллекции позиций (ADO MD)
 TOCTitle: Positions collection properties, methods, and events
 ms:assetid: c41f2abd-b5a8-e66a-4c01-3b20b8f69667
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249959(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287498"
 ---
-# <a name="positions-collection-properties-methods-and-events-ado-md"></a><span data-ttu-id="d719f-102">Positions collection properties, methods, and events (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="d719f-102">Positions collection properties, methods, and events (ADO MD)</span></span>
+# <a name="positions-collection-properties-methods-and-events-ado-md"></a><span data-ttu-id="17feb-102">Свойства, методы и события коллекции позиций (ADO MD)</span><span class="sxs-lookup"><span data-stu-id="17feb-102">Positions collection properties, methods, and events (ADO MD)</span></span>
 
-<span data-ttu-id="d719f-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="d719f-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="17feb-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="17feb-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-## <a name="properties"></a><span data-ttu-id="d719f-104">Свойства</span><span class="sxs-lookup"><span data-stu-id="d719f-104">Properties</span></span>
+## <a name="properties"></a><span data-ttu-id="17feb-104">Свойства</span><span class="sxs-lookup"><span data-stu-id="17feb-104">Properties</span></span>
 
-- [<span data-ttu-id="d719f-105">Свойство Count</span><span class="sxs-lookup"><span data-stu-id="d719f-105">Count property</span></span>](count-property-ado.md)
-- [<span data-ttu-id="d719f-106">Свойство Item</span><span class="sxs-lookup"><span data-stu-id="d719f-106">Item property</span></span>](item-property-ado.md)
+- [<span data-ttu-id="17feb-105">Свойство Count</span><span class="sxs-lookup"><span data-stu-id="17feb-105">Count property</span></span>](count-property-ado.md)
+- [<span data-ttu-id="17feb-106">Свойство Item</span><span class="sxs-lookup"><span data-stu-id="17feb-106">Item property</span></span>](item-property-ado.md)
 
-## <a name="methods"></a><span data-ttu-id="d719f-107">Methods</span><span class="sxs-lookup"><span data-stu-id="d719f-107">Methods</span></span>
+## <a name="methods"></a><span data-ttu-id="17feb-107">Методы</span><span class="sxs-lookup"><span data-stu-id="17feb-107">Methods</span></span>
 
-- [<span data-ttu-id="d719f-108">Метод Refresh</span><span class="sxs-lookup"><span data-stu-id="d719f-108">Refresh method</span></span>](refresh-method-ado.md)
+- [<span data-ttu-id="17feb-108">Метод Refresh</span><span class="sxs-lookup"><span data-stu-id="17feb-108">Refresh method</span></span>](refresh-method-ado.md)
 
-## <a name="events"></a><span data-ttu-id="d719f-109">События</span><span class="sxs-lookup"><span data-stu-id="d719f-109">Events</span></span>
+## <a name="events"></a><span data-ttu-id="17feb-109">События</span><span class="sxs-lookup"><span data-stu-id="17feb-109">Events</span></span>
 
-<span data-ttu-id="d719f-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="d719f-110">None.</span></span>
+<span data-ttu-id="17feb-110">Нет.</span><span class="sxs-lookup"><span data-stu-id="17feb-110">None.</span></span>
 

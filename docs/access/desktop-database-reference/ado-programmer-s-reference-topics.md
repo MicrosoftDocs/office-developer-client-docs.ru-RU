@@ -1,5 +1,5 @@
 ---
-title: Справочные разделы для программистов ADO
+title: Справочные темы программиста ADO
 TOCTitle: ADO programmer's reference
 ms:assetid: 26589057-87f7-45c7-8ae0-4b9208460f8a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249026(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283228"
 ---
-# <a name="ado-programmers-reference-topics"></a><span data-ttu-id="26d3a-102">Справочные разделы для программистов ADO</span><span class="sxs-lookup"><span data-stu-id="26d3a-102">ADO programmer's reference topics</span></span>
+# <a name="ado-programmers-reference-topics"></a><span data-ttu-id="e0407-102">Справочные темы программиста ADO</span><span class="sxs-lookup"><span data-stu-id="e0407-102">ADO programmer's reference topics</span></span>
 
-<span data-ttu-id="26d3a-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="26d3a-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="e0407-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e0407-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-- [<span data-ttu-id="26d3a-104">Справочные разделы по API ADO</span><span class="sxs-lookup"><span data-stu-id="26d3a-104">ADO API reference topics</span></span>](ado-api-reference-topics.md)
-- [<span data-ttu-id="26d3a-105">Справочные разделы по API RDS</span><span class="sxs-lookup"><span data-stu-id="26d3a-105">RDS API reference topics</span></span>](rds-api-reference-topics.md)
-- [<span data-ttu-id="26d3a-106">Справочные разделы по API ADO MD</span><span class="sxs-lookup"><span data-stu-id="26d3a-106">ADO MD API reference topics</span></span>](ado-md-api-reference-topics.md)
-- [<span data-ttu-id="26d3a-107">Справочные разделы по API ADOX</span><span class="sxs-lookup"><span data-stu-id="26d3a-107">ADOX API reference topics</span></span>](adox-api-reference-topics.md)
+- [<span data-ttu-id="e0407-104">Справочные темы ADO API</span><span class="sxs-lookup"><span data-stu-id="e0407-104">ADO API reference topics</span></span>](ado-api-reference-topics.md)
+- [<span data-ttu-id="e0407-105">Справочные темы API RDS</span><span class="sxs-lookup"><span data-stu-id="e0407-105">RDS API reference topics</span></span>](rds-api-reference-topics.md)
+- [<span data-ttu-id="e0407-106">Справочные темы ADO MD API</span><span class="sxs-lookup"><span data-stu-id="e0407-106">ADO MD API reference topics</span></span>](ado-md-api-reference-topics.md)
+- [<span data-ttu-id="e0407-107">Справочные темы ADOX API</span><span class="sxs-lookup"><span data-stu-id="e0407-107">ADOX API reference topics</span></span>](adox-api-reference-topics.md)
 

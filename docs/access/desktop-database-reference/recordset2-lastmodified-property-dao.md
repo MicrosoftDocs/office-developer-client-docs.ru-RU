@@ -14,26 +14,26 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309430"
 ---
-# <a name="recordset2lastmodified-property-dao"></a><span data-ttu-id="06b2d-102">Свойство Recordset2.LastModified (DAO)</span><span class="sxs-lookup"><span data-stu-id="06b2d-102">Recordset2.LastModified property (DAO)</span></span>
+# <a name="recordset2lastmodified-property-dao"></a><span data-ttu-id="5d080-102">Свойство Recordset2.LastModified (DAO)</span><span class="sxs-lookup"><span data-stu-id="5d080-102">Recordset2.LastModified property (DAO)</span></span>
 
 
-<span data-ttu-id="06b2d-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="06b2d-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="5d080-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="5d080-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="06b2d-104">Возвращает закладку, определяющую самую последнюю из добавленных или измененных записей.</span><span class="sxs-lookup"><span data-stu-id="06b2d-104">Returns a ookmark indicating the most recently added or changed record.</span></span>
+<span data-ttu-id="5d080-104">Возвращает закладку, определяющую самую последнюю из добавленных или измененных записей.</span><span class="sxs-lookup"><span data-stu-id="5d080-104">Returns a ookmark indicating the most recently added or changed record.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="06b2d-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="06b2d-105">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="5d080-105">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="5d080-105">Syntax</span></span>
 
-<span data-ttu-id="06b2d-106">*выражение .* LastModified</span><span class="sxs-lookup"><span data-stu-id="06b2d-106">*expression* .LastModified</span></span>
+<span data-ttu-id="5d080-106">*выражения* . LastModified</span><span class="sxs-lookup"><span data-stu-id="5d080-106">*expression* .LastModified</span></span>
 
-<span data-ttu-id="06b2d-107">*выражение* Переменная, представляюная объект **Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="06b2d-107">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="5d080-107">*выражение* Переменная, представляюная объект **Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="5d080-107">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="06b2d-108">Заметки</span><span class="sxs-lookup"><span data-stu-id="06b2d-108">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="5d080-108">Примечания</span><span class="sxs-lookup"><span data-stu-id="5d080-108">Remarks</span></span>
 
-<span data-ttu-id="06b2d-109">Свойство **LastModified** можно использовать для перемещения к последней добавленной или обновленной записи.</span><span class="sxs-lookup"><span data-stu-id="06b2d-109">You can use the **LastModified** property to move to the most recently added or updated record.</span></span> <span data-ttu-id="06b2d-110">Используйте свойство **LastModified** с объектами Recordset табли и типа dynaset. **[](recordset-object-dao.md)**</span><span class="sxs-lookup"><span data-stu-id="06b2d-110">Use the **LastModified** property with table- and dynaset-type **[Recordset](recordset-object-dao.md)** objects.</span></span> <span data-ttu-id="06b2d-111">Запись должна быть добавлена или изменена в самом объекте **Recordset,** чтобы свойство **LastModified** было иметь значение.</span><span class="sxs-lookup"><span data-stu-id="06b2d-111">A record must be added or modified in the **Recordset** object itself in order for the **LastModified** property to have a value.</span></span>
+<span data-ttu-id="5d080-109">Свойство **LastModified можно** использовать для перемещения к последней добавленной или обновленной записи.</span><span class="sxs-lookup"><span data-stu-id="5d080-109">You can use the **LastModified** property to move to the most recently added or updated record.</span></span> <span data-ttu-id="5d080-110">Используйте свойство **LastModified** с объектами **[recordset](recordset-object-dao.md)** таблицы и dynaset-type.</span><span class="sxs-lookup"><span data-stu-id="5d080-110">Use the **LastModified** property with table- and dynaset-type **[Recordset](recordset-object-dao.md)** objects.</span></span> <span data-ttu-id="5d080-111">Запись должна быть добавлена или изменена в самом объекте **Recordset,** чтобы свойство **LastModified** было иметь значение.</span><span class="sxs-lookup"><span data-stu-id="5d080-111">A record must be added or modified in the **Recordset** object itself in order for the **LastModified** property to have a value.</span></span>
 
-## <a name="example"></a><span data-ttu-id="06b2d-112">Пример</span><span class="sxs-lookup"><span data-stu-id="06b2d-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="5d080-112">Пример</span><span class="sxs-lookup"><span data-stu-id="5d080-112">Example</span></span>
 
-<span data-ttu-id="06b2d-113">В этом примере используется свойство **LastModified**, чтобы переместить указатель текущей записи на измененную и заново созданную записи.</span><span class="sxs-lookup"><span data-stu-id="06b2d-113">This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.</span></span>
+<span data-ttu-id="5d080-113">В этом примере используется свойство **LastModified**, чтобы переместить указатель текущей записи на измененную и заново созданную записи.</span><span class="sxs-lookup"><span data-stu-id="5d080-113">This example uses the **LastModified** property to move the current record pointer to both a record that has been modified and a newly created record.</span></span>
 
 ```vb
     Sub LastModifiedX() 
@@ -94,7 +94,7 @@ ms.locfileid: "32309430"
 
 <br/>
 
-<span data-ttu-id="06b2d-114">В этом примере используется метод **AddNew**, чтобы создать запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="06b2d-114">This example uses the **AddNew** method to create a new record with the specified name.</span></span> <span data-ttu-id="06b2d-115">Функция AddName необходима для запуска этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="06b2d-115">The AddName function is required for this procedure to run.</span></span>
+<span data-ttu-id="5d080-114">В этом примере используется метод **AddNew**, чтобы создать запись с указанным именем.</span><span class="sxs-lookup"><span data-stu-id="5d080-114">This example uses the **AddNew** method to create a new record with the specified name.</span></span> <span data-ttu-id="5d080-115">Функция AddName необходима для запуска этой процедуры.</span><span class="sxs-lookup"><span data-stu-id="5d080-115">The AddName function is required for this procedure to run.</span></span>
 
 ```vb
     Sub AddNewX() 

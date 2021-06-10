@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309389"
 ---
-# <a name="recordset2name-property-dao"></a><span data-ttu-id="b08ba-102">Recordset2.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="b08ba-102">Recordset2.Name property (DAO)</span></span>
+# <a name="recordset2name-property-dao"></a><span data-ttu-id="8876c-102">Recordset2.Name (DAO)</span><span class="sxs-lookup"><span data-stu-id="8876c-102">Recordset2.Name property (DAO)</span></span>
 
 
-<span data-ttu-id="b08ba-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="b08ba-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="8876c-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="8876c-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="b08ba-104">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="b08ba-104">Returns the name of the specified object.</span></span> <span data-ttu-id="b08ba-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="b08ba-105">Read-only **String**.</span></span>
+<span data-ttu-id="8876c-104">Возвращает имя указанного объекта.</span><span class="sxs-lookup"><span data-stu-id="8876c-104">Returns the name of the specified object.</span></span> <span data-ttu-id="8876c-105">Только для чтения, **String**.</span><span class="sxs-lookup"><span data-stu-id="8876c-105">Read-only **String**.</span></span>
 
-## <a name="syntax"></a><span data-ttu-id="b08ba-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="b08ba-106">Syntax</span></span>
+## <a name="syntax"></a><span data-ttu-id="8876c-106">Синтаксис</span><span class="sxs-lookup"><span data-stu-id="8876c-106">Syntax</span></span>
 
-<span data-ttu-id="b08ba-107">*выражение .* Имя</span><span class="sxs-lookup"><span data-stu-id="b08ba-107">*expression* .Name</span></span>
+<span data-ttu-id="8876c-107">*выражения* . Имя</span><span class="sxs-lookup"><span data-stu-id="8876c-107">*expression* .Name</span></span>
 
-<span data-ttu-id="b08ba-108">*выражение* Переменная, представляюная объект **Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="b08ba-108">*expression* A variable that represents a **Recordset2** object.</span></span>
+<span data-ttu-id="8876c-108">*выражение* Переменная, представляюная объект **Recordset2.**</span><span class="sxs-lookup"><span data-stu-id="8876c-108">*expression* A variable that represents a **Recordset2** object.</span></span>
 
-## <a name="remarks"></a><span data-ttu-id="b08ba-109">Заметки</span><span class="sxs-lookup"><span data-stu-id="b08ba-109">Remarks</span></span>
+## <a name="remarks"></a><span data-ttu-id="8876c-109">Примечания</span><span class="sxs-lookup"><span data-stu-id="8876c-109">Remarks</span></span>
 
-<span data-ttu-id="b08ba-110">Свойство **Name** объекта **Recordset,** открытого с помощью SQL, является первыми 256 символами SQL.</span><span class="sxs-lookup"><span data-stu-id="b08ba-110">The **Name** property of a **Recordset** object opened by using an SQL statement is the first 256 characters of the SQL statement.</span></span>
+<span data-ttu-id="8876c-110">Свойство **Имя** объекта **Recordset,** открытого с помощью SQL, является первыми 256 символами SQL.</span><span class="sxs-lookup"><span data-stu-id="8876c-110">The **Name** property of a **Recordset** object opened by using an SQL statement is the first 256 characters of the SQL statement.</span></span>
 

@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308766"
 ---
-# <a name="section-v-appendixes"></a><span data-ttu-id="e27ca-102">Раздел V. Приложения</span><span class="sxs-lookup"><span data-stu-id="e27ca-102">Section V: Appendixes</span></span>
+# <a name="section-v-appendixes"></a><span data-ttu-id="a97d1-102">Раздел V. Приложения</span><span class="sxs-lookup"><span data-stu-id="a97d1-102">Section V: Appendixes</span></span>
 
-<span data-ttu-id="e27ca-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="e27ca-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="a97d1-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="a97d1-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="e27ca-104">Руководство программиста ADO содержит следующие приложения:</span><span class="sxs-lookup"><span data-stu-id="e27ca-104">The ADO programmer's guide contains the following appendixes:</span></span>
+<span data-ttu-id="a97d1-104">Руководство программиста ADO содержит следующие приложения:</span><span class="sxs-lookup"><span data-stu-id="a97d1-104">The ADO programmer's guide contains the following appendixes:</span></span>
 
-- [<span data-ttu-id="e27ca-105">Appendix A: Providers</span><span class="sxs-lookup"><span data-stu-id="e27ca-105">Appendix A: Providers</span></span>](appendix-a-providers.md)
-- [<span data-ttu-id="e27ca-106">Приложение Б. Ошибки ADO</span><span class="sxs-lookup"><span data-stu-id="e27ca-106">Appendix B: ADO errors</span></span>](appendix-b-ado-errors.md)
-- [<span data-ttu-id="e27ca-107">Appendix C: Programming with ADO</span><span class="sxs-lookup"><span data-stu-id="e27ca-107">Appendix C: Programming with ADO</span></span>](appendix-c-programming-with-ado.md)
-- [<span data-ttu-id="e27ca-108">Приложение Г. Примеры ADO</span><span class="sxs-lookup"><span data-stu-id="e27ca-108">Appendix D: ADO samples</span></span>](appendix-d-ado-samples.md)
+- [<span data-ttu-id="a97d1-105">Appendix A: Providers</span><span class="sxs-lookup"><span data-stu-id="a97d1-105">Appendix A: Providers</span></span>](appendix-a-providers.md)
+- [<span data-ttu-id="a97d1-106">Приложение Б. Ошибки ADO</span><span class="sxs-lookup"><span data-stu-id="a97d1-106">Appendix B: ADO errors</span></span>](appendix-b-ado-errors.md)
+- [<span data-ttu-id="a97d1-107">Appendix C: Programming with ADO</span><span class="sxs-lookup"><span data-stu-id="a97d1-107">Appendix C: Programming with ADO</span></span>](appendix-c-programming-with-ado.md)
+- [<span data-ttu-id="a97d1-108">Приложение Г. Примеры ADO</span><span class="sxs-lookup"><span data-stu-id="a97d1-108">Appendix D: ADO samples</span></span>](appendix-d-ado-samples.md)
 

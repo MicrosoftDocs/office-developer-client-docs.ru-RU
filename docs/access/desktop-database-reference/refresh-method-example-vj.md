@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307128"
 ---
-# <a name="refresh-method-example-vj"></a><span data-ttu-id="73fe0-102">Пример использования метода Refresh (VJ++)</span><span class="sxs-lookup"><span data-stu-id="73fe0-102">Refresh method example (VJ++)</span></span>
+# <a name="refresh-method-example-vj"></a><span data-ttu-id="4c753-102">Пример использования метода Refresh (VJ++)</span><span class="sxs-lookup"><span data-stu-id="4c753-102">Refresh method example (VJ++)</span></span>
 
 
-<span data-ttu-id="73fe0-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="73fe0-103">**Applies to**: Access 2013, Office 2013</span></span>
+<span data-ttu-id="4c753-103">**Область применения**: Access 2013, Office 2013</span><span class="sxs-lookup"><span data-stu-id="4c753-103">**Applies to**: Access 2013, Office 2013</span></span>
 
-<span data-ttu-id="73fe0-104">В этом примере показано использование метода [Refresh](refresh-method-ado.md) для обновления коллекции [Parameters](parameters-collection-ado.md) для сохраненного объекта [command](command-object-ado.md) процедуры.</span><span class="sxs-lookup"><span data-stu-id="73fe0-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
+<span data-ttu-id="4c753-104">В этом примере демонстрируется использование метода [Обновления](refresh-method-ado.md) для обновления коллекции [Параметры](parameters-collection-ado.md) для объекта [командной](command-object-ado.md) процедуры.</span><span class="sxs-lookup"><span data-stu-id="4c753-104">This example demonstrates using the [Refresh](refresh-method-ado.md) method to refresh the [Parameters](parameters-collection-ado.md) collection for a stored procedure [Command](command-object-ado.md) object.</span></span>
 
 ```java 
  
