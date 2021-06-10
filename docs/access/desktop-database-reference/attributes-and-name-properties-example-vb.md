@@ -19,7 +19,7 @@ ms.locfileid: "32296978"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере отображается значение свойства [Attributes](attributes-property-ado.md) для объектов [Connection,](connection-object-ado.md) [Field](field-object-ado.md)и [Property.](property-object-ado.md) Свойство [Name](name-property-ado.md) используется для отображения имени каждого объекта **Field** и **Property.**
+В этом примере отображается значение свойства [Атрибуты](attributes-property-ado.md) для объектов [Connection,](connection-object-ado.md) [Field](field-object-ado.md)и [Property.](property-object-ado.md) Свойство [Name](name-property-ado.md) использует для отображения имени каждого объекта **Field** и **Property.**
 
 ```vb 
  

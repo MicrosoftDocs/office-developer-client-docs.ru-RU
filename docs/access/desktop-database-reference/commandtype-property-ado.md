@@ -25,17 +25,17 @@ ms.locfileid: "32296124"
 
 Указывает тип объекта [Command.](command-object-ado.md)
 
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+## <a name="settings-and-return-values"></a>Параметры и значения возврата
 
 Задает или возвращает одно или несколько [значений CommandTypeEnum.](commandtypeenum.md)
 
 > [!NOTE]
-> Не используйте значения **CommandTypeEnum** **adCmdFile** или **adCmdTableDirect** с **CommandType.** Эти значения можно использовать только в качестве параметров с методами [Open](open-method-ado-recordset.md) и [Requery](requery-method-ado.md) для [recordset.](recordset-object-ado.md)
+> Не используйте **значения CommandTypeEnum** **adCmdFile** или **adCmdTableDirect** с **командным типом.** Эти значения можно использовать только в качестве параметров с помощью методов [Open](open-method-ado-recordset.md) и [Requery](requery-method-ado.md) [recordset.](recordset-object-ado.md)
 
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Используйте свойство **CommandType для** оптимизации оценки свойства [CommandText.](commandtext-property-ado.md)
+Используйте свойство **CommandType** для оптимизации оценки свойства [CommandText.](commandtext-property-ado.md)
 
-Если значение свойства **CommandType** равно **adCmdUnknown** (значение по умолчанию), производительность может снизиться, так как ADO должен звонить поставщику, чтобы определить, является ли свойство **CommandText** оператором SQL, хранимой процедурой или именем таблицы. Если вы знаете, какой тип команды вы используете, установка свойства **CommandType** дает ADO указание перейти непосредственно к соответствующему коду. Если свойство **CommandType** не соответствует типу команды в свойстве **CommandText,** при вызове метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) возникает ошибка.
+Если значение **свойства CommandType** равно **adCmdUnknown** (значение по умолчанию), производительность может снизиться, так как ADO должна звонить поставщику, чтобы определить, является ли свойство **CommandText** оператором SQL, сохраненной процедурой или именем таблицы. Если вы знаете, какой тип команды вы используете, задав свойство **CommandType** указание ADO перейти непосредственно к соответствующему коду. Если свойство **CommandType** не соответствует типу команды в свойстве **CommandText,** при вызове метода [Execute](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command) возникает ошибка.
 

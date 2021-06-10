@@ -1,5 +1,5 @@
 ---
-title: Пример методов BeginTrans, CommitTrans и RollbackTrans (VC++)
+title: Пример методов BeginTrans, CommitTrans, RollbackTrans (VC++)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VC++)
 ms:assetid: b2e53b79-4f10-f9cc-59f7-61c9557e5ef2
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249853(v=office.15)
@@ -19,7 +19,7 @@ ms.locfileid: "32296838"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере изменяется тип книги всех учебников в таблице ***"Заголовки"*** базы данных. После того как [метод BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) запускает транзакцию, изолирует все изменения, внесенные в таблицу ***Titles,*** метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения. С помощью метода [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) можно отменить изменения, сохраненные с помощью [метода Update.](update-method-ado.md)
+В этом примере изменяется тип книги всех книг по психологии в таблице ***Заголовки*** базы данных. После того [как метод BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) запускает транзакцию, которая изолирует все изменения, внесенные в таблицу ***Заголовки,*** метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения. Вы можете использовать метод [RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) для отмены изменений, сохраненных с помощью [метода Update.](update-method-ado.md)
 
 ```cpp 
  

@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект Connection (ADO)
+title: Ссылка на объект подключения (ADO)
 TOCTitle: Connection object (ADO)
 ms:assetid: 817875e9-0970-4d26-8c35-6c6257279bd0
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249556(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295900"
 ---
-# <a name="connection-object-ado-reference"></a>Ссылка на объект Connection (ADO)
+# <a name="connection-object-ado-reference"></a>Ссылка на объект подключения (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Connection object (ADO)](connection-object-ado.md)
-- [Свойства, методы и события подключения (ADO)](connection-properties-methods-and-events-ado.md)
+- [Объект подключения (ADO)](connection-object-ado.md)
+- [Свойства подключения, методы и события (ADO)](connection-properties-methods-and-events-ado.md)
 

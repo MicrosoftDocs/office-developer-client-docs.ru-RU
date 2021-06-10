@@ -19,7 +19,7 @@ ms.locfileid: "32296810"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) используются для отображения сообщения, если пользователь пытается перейти к первой или последней записи [объекта Recordset.](recordset-object-ado.md) Он использует свойство [Bookmark,](bookmark-property-ado.md) чтобы позволить пользователю пометить запись в **наборе записей** и вернуться к ней позже.
+В этом примере свойства [BOF](bof-eof-properties-ado.md) и [EOF](bof-eof-properties-ado.md) используются для отображения сообщения, если пользователь пытается перейти мимо первой или последней записи [recordset.](recordset-object-ado.md) Оно использует свойство [Bookmark,](bookmark-property-ado.md) чтобы позволить пользователю пометить запись в **наборе Recordset** и вернуться к ней позже.
 
 ```java 
  

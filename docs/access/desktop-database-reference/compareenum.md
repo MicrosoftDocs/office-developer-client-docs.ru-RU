@@ -1,5 +1,5 @@
 ---
-title: CompareEnum (справочник по базе данных Access для настольных ПК)
+title: CompareEnum (Ссылка на настольные базы данных)
 TOCTitle: CompareEnum
 ms:assetid: 7ac84af6-4f8b-4d1f-7eb3-a015b8b60bc6
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249509(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32296068"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает относительное положение двух записей, представленных закладки.
+Указывает относительное положение двух записей, представленных их закладки.
 
 <br/>
 
@@ -38,13 +38,13 @@ ms.locfileid: "32296068"
 <tbody>
 <tr class="odd">
 <td><p><strong>adCompareEqual</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Указывает, что закладки равны.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCompareGreaterThan</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Указывает, что первая закладка находится после второй.</p></td>
+<td><p>2</p></td>
+<td><p>Указывает, что первая закладка после второй.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCompareLessThan</strong></p></td>
@@ -54,12 +54,12 @@ ms.locfileid: "32296068"
 <tr class="even">
 <td><p><strong>adCompareNotComparable</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Указывает, что закладки невозможно сравнить.</p></td>
+<td><p>Указывает, что закладки нельзя сравнивать.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adCompareNotEqual</strong></p></td>
-<td><p>3 </p></td>
-<td><p>Указывает, что закладки не равны и не упорядочены.</p></td>
+<td><p>3</p></td>
+<td><p>Указывает, что закладки не равны и не заказать.</p></td>
 </tr>
 </tbody>
 </table>

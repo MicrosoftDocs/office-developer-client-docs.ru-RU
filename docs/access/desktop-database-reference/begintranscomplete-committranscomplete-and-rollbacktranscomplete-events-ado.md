@@ -18,7 +18,7 @@ ms.locfileid: "32296824"
 
 **Область применения**: Access 2013, Office 2013
 
-Эти события будут вызваны после завершения выполнения связанной операции с объектом [Connection.](connection-object-ado.md)
+Эти события будут вызваны после выполнения связанной операции на [объекте Connection.](connection-object-ado.md)
 
 - **BeginTransComplete** вызван после операции [BeginTrans.](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 
@@ -30,22 +30,22 @@ ms.locfileid: "32296824"
 
 BeginTransComplete *TransactionLevel*, *pError*, *adStatus*, *pConnection*
 
-CommitTransComplete *pError,* *adStatus*, *pConnection*
+CommitTransComplete *pError*, *adStatus*, *pConnection*
 
-RollbackTransComplete *pError,* *adStatus*, *pConnection*
+RollbackTransComplete *pError*, *adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*TransactionLevel* |**Длинное** значение, содержа которое содержит новый уровень транзакции **BeginTrans,** который вызвал это событие.|
-|*pError* |Объект [Error.](error-object-ado.md) В ней описывается ошибка, которая произошла, если значение EventStatusEnum **— adStatusErrorsOccurred;** в противном случае он не установлен.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). Эти события могут препятствовать последующим уведомлениям, задав для этого параметра параметр **adStatusUnwantedEvent** перед возвращением события.|
+|*TransactionLevel* |**Длинное** значение, содержаное новый уровень транзакции **BeginTrans,** вызвав этот случай.|
+|*pError* |Объект [Ошибки.](error-object-ado.md) Он описывает ошибку, которая произошла, если значение EventStatusEnum **adStatusErrorsOccurred;** в противном случае это не установлено.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Эти события могут предотвратить последующие уведомления, задав этот параметр **adStatusUnwantedEvent** перед возвращением события.|
 |*pConnection* |Объект **Connection,** для которого произошло это событие.|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-В Visual C++ несколько **подключений** могут использовать один и тот же метод обработки событий. Метод использует возвращенный объект **Connection,** чтобы определить, какой объект вызвал событие.
+В Visual C++несколько **подключений** могут использовать один и тот же метод обработки событий. Метод использует возвращенный объект **Подключения,** чтобы определить, какой объект вызвал событие.
 
-Если для свойства [Attributes](attributes-property-ado.md) установлено свойство **adXactCommitRetaining** или **adXactAbortRetaining,** новая транзакция начинается после фиксии или отката транзакции. Используйте событие **BeginTransComplete,** чтобы игнорировать все события, кроме первого события запуска транзакции.
+Если свойство [Attributes](attributes-property-ado.md) настроено на **adXactCommitRetaining** или **adXactAbortRetaining,** после совершения или отката транзакции начинается новая транзакция. Используйте событие **StartTransComplete,** чтобы игнорировать все события, кроме первого запуска транзакции.
 

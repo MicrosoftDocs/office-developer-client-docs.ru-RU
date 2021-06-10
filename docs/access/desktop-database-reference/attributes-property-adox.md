@@ -1,5 +1,5 @@
 ---
-title: Свойство Attributes (ADOX)
+title: Свойство Атрибуты (ADOX)
 TOCTitle: Attributes property (ADOX)
 ms:assetid: d5227b10-4a9b-5a57-d5ab-bbdd3e89aa95
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250072(v=office.15)
@@ -14,14 +14,14 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296950"
 ---
-# <a name="attributes-property-adox"></a>Свойство Attributes (ADOX)
+# <a name="attributes-property-adox"></a>Свойство Атрибуты (ADOX)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Описание характеристик столбцов.
+Описывает характеристики столбцов.
 
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+## <a name="settings-and-return-values"></a>Параметры и значения возврата
 
-Задает или возвращает **длинное** значение. Значение указывает характеристики таблицы, представленной объектом [Column,](column-object-adox.md) и может быть комбинацией констант [ColumnAttributesEnum.](columnattributesenum.md) Значение по умолчанию равно нулю (0), которое не является **ни adColFixed,** ни **adColNullable**.
+Задает или возвращает значение **Long.** Значение указывает характеристики таблицы, представленной объектом [Column,](column-object-adox.md) и может быть сочетанием констант [ColumnAttributesEnum.](columnattributesenum.md) Значение по умолчанию равно нулю (0), которое не является **ни adColFixed,** ни **adColNullable**.
 

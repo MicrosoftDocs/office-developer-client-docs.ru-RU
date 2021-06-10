@@ -19,7 +19,7 @@ ms.locfileid: "32296656"
 
 **Область применения**: Access 2013, Office 2013
 
-Действие **CancelRecordChange** можно использовать для отмены изменений, примененных к записи в блоке данных **[CreateRecord](createrecord-data-block.md)** или **[EditRecord,](editrecord-data-block.md)** прежде чем изменения будут зафиксированы.
+Действие **CancelRecordChange** можно использовать для отмены изменений, примененных к записи в блоке данных **[CreateRecord](createrecord-data-block.md)** или **[EditRecord](editrecord-data-block.md)** до совершения изменений.
 
 
 > [!NOTE]
@@ -27,7 +27,7 @@ ms.locfileid: "32296656"
 
 
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-При вызове действия **CancelRecordChange** блок данных **CreateRecord** или **EditRecord** немедленно выходит из него.
+При вызове **действия CancelRecordChange** блок **данных CreateRecord** или **EditRecord** немедленно выходит.
 

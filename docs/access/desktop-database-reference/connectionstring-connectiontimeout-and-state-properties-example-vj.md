@@ -19,7 +19,7 @@ ms.locfileid: "32295725"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере демонстрируются различные способы использования свойства [ConnectionString](connectionstring-property-ado.md) для открытия [объекта Connection.](connection-object-ado.md) Он также использует свойство [ConnectionTimeout,](connectiontimeout-property-ado.md) чтобы установить время ожидания подключения, и свойство [State](state-property-ado.md) для проверки состояния подключений. Для запуска этой процедуры требуется функция GetState.
+В этом примере показано, как использовать свойство [ConnectionString](connectionstring-property-ado.md) для открытия [объекта Подключения.](connection-object-ado.md) Он также использует [свойство ConnectionTimeout](connectiontimeout-property-ado.md) для набора периода ожидания подключения, а свойство [state](state-property-ado.md) для проверки состояния подключений. Для запуска этой процедуры требуется функция GetState.
 
 ```java 
  

@@ -1,5 +1,5 @@
 ---
-title: ConnectModeEnum (справочник по базам данных Access для настольных ПК)
+title: ConnectModeEnum (ссылка на настольные базы данных доступа)
 TOCTitle: ConnectModeEnum
 ms:assetid: a15aa733-f899-5fe9-e705-67a4301706d1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249743(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32295697"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает доступные разрешения для изменения данных в [connection,](connection-object-ado.md)открытия записи или указания значений для свойства [Mode](mode-property-ado.md) объектов **Record** и [Stream.](stream-object-ado.md) [](record-object-ado.md)
+Указывает доступные разрешения на изменение данных в [подключениях,](connection-object-ado.md)открытие записи [или](record-object-ado.md)указание значений для свойства [Mode](mode-property-ado.md) объектов **Record** и [Stream.](stream-object-ado.md)
 
 <br/>
 
@@ -38,38 +38,38 @@ ms.locfileid: "32295697"
 <tbody>
 <tr class="odd">
 <td><p><strong>adModeRead</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Указывает разрешения только для чтения.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeReadWrite</strong></p></td>
-<td><p>3 </p></td>
+<td><p>3</p></td>
 <td><p>Указывает разрешения на чтение и записи.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adModeRecursive</strong></p></td>
 <td><p>0x400000</p></td>
-<td><p>Используется в сочетании с другими значениями <em>*ShareDeny*</em> <strong>(adModeShareDenyNone,</strong> <strong>adModeShareDenyWrite</strong>или <strong>adModeShareDenyRead)</strong>для распространения ограничений общего доступа ко всем в субфиксам текущей записи. <strong></strong> Это не влияет, если <strong>у записи</strong> нет детей.</p><p>Ошибка во время запуска создается, если она используется только <strong>с adModeShareDenyNone.</strong> Однако его можно использовать с <strong>adModeShareDenyNone</strong> в сочетании с другими значениями. Например, можно использовать &quot; <strong>adModeRead</strong> или <strong>adModeShareDenyNone</strong> или <strong>adModeRecursive.</strong> &quot;</p></td>
+<td><p>Используется в сочетании с другими значениями <em>*ShareDeny*</em> <strong>(adModeShareDenyNone,</strong> <strong>adModeShareDenyWrite</strong>или <strong>adModeShareDenyRead)</strong>для распространения ограничений общего доступа ко всем подп. записям текущей <strong>записи</strong>. Это не влияет, если <strong>запись</strong> не имеет детей.</p><p>Ошибка времени запуска создается, если она используется только <strong>с помощью adModeShareDenyNone.</strong> Однако его можно использовать с <strong>помощью adModeShareDenyNone</strong> в сочетании с другими значениями. Например, можно использовать &quot; <strong>adModeRead</strong> или <strong>adModeShareDenyNone</strong> или <strong>adModeRecursive.</strong> &quot;</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyNone</strong></p></td>
 <td><p>16 </p></td>
-<td><p>Позволяет другим пользователям открывать подключение с любыми разрешениями. Другим не может быть отказано в доступе на чтение и записи.</p></td>
+<td><p>Позволяет другим открыть подключение с любыми разрешениями. Другим не может быть отказано в доступе к чтениям и записи.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adModeShareDenyRead</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Запретить другим людям открывать подключение с разрешениями на чтение.</p></td>
+<td><p>Не позволяет другим открывать подключение с разрешениями на чтение.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeShareDenyWrite</strong></p></td>
 <td><p>8 </p></td>
-<td><p>Запретить другим людям открывать подключение с разрешениями на записи.</p></td>
+<td><p>Не позволяет другим открывать подключение с разрешениями на записи.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adModeShareExclusive</strong></p></td>
 <td><p>12 </p></td>
-<td><p>Запретить другим людям открывать подключение.</p></td>
+<td><p>Предотвращает открытие подключения другими.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adModeUnknown</strong></p></td>
@@ -78,7 +78,7 @@ ms.locfileid: "32295697"
 </tr>
 <tr class="odd">
 <td><p><strong>adModeWrite</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Указывает разрешения только для записи.</p></td>
 </tr>
 </tbody>

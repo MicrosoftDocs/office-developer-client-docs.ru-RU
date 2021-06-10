@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события столбца (ADOX)
+title: Свойства столбца, методы и события (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 3cfb6eaf-399a-1678-45bd-6fe692d8bd81
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249162(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296243"
 ---
-# <a name="column-properties-methods-and-events-adox"></a>Свойства, методы и события столбца (ADOX)
+# <a name="column-properties-methods-and-events-adox"></a>Свойства столбца, методы и события (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство Attributes](attributes-property-adox.md)
 - [Свойство DefinedSize](definedsize-property-adox.md)
@@ -30,9 +30,9 @@ ms.locfileid: "32296243"
 - [Коллекция Properties](properties-collection-ado.md)
 - [Свойство RelatedColumn](relatedcolumn-property-adox.md)
 - [Свойство SortOrder](sortorder-property-adox.md)
-- [Свойство Type (Column)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)
+- [Тип свойства (Столбец)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

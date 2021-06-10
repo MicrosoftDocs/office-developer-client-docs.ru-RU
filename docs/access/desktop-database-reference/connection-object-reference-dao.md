@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект Connection (DAO)
+title: Ссылка на объект подключения (DAO)
 TOCTitle: Connection Object
 ms:assetid: f3041b87-8217-49b8-bee8-1998aa3ec3b5
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn180067(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295872"
 ---
-# <a name="connection-object-reference-dao"></a>Ссылка на объект Connection (DAO)
+# <a name="connection-object-reference-dao"></a>Ссылка на объект подключения (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Объект Connection (DAO)](connection-object-dao.md)
-- [Connection members (DAO)](connection-members-dao.md)
+- [Объект подключения (DAO)](connection-object-dao.md)
+- [Участники подключения (DAO)](connection-members-dao.md)
 - [Свойства подключения (DAO)](connection-properties-dao.md)
 - [Методы подключения (DAO)](connection-methods-dao.md)
 

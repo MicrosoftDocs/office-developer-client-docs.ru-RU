@@ -1,5 +1,5 @@
 ---
-title: Axes collection properties, methods, and events (ADO MD)
+title: Свойства коллекции Axes, методы и события (ADO MD)
 TOCTitle: Axes collection properties, methods, and events
 ms:assetid: 613f3e77-11fb-4bf6-0f26-5be2b5cd4594
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249357(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296922"
 ---
-# <a name="axes-collection-properties-methods-and-events-ado-md"></a>Axes collection properties, methods, and events (ADO MD)
+# <a name="axes-collection-properties-methods-and-events-ado-md"></a>Свойства коллекции Axes, методы и события (ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -23,7 +23,7 @@ ms.locfileid: "32296922"
 - [Свойство Count](count-property-ado.md)
 - [Свойство Item](item-property-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Метод Refresh](refresh-method-ado.md)
 

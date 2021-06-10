@@ -1,5 +1,5 @@
 ---
-title: ConnectPromptEnum (справочник по базам данных Access для настольных ПК)
+title: ConnectPromptEnum (Ссылка на настольные базы данных)
 TOCTitle: ConnectPromptEnum
 ms:assetid: 81dff685-b2e4-467e-75cc-b8c5bf80fb75
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249561(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32295669"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, должно ли отображаться диалоговое окно с запросом отсутствующих параметров при открытии подключения к источнику данных.
+Указывает, следует ли отображать диалоговое окно для запроса отсутствующих параметров при открытии подключения к источнику данных.
 
 <br/>
 
@@ -38,23 +38,23 @@ ms.locfileid: "32295669"
 <tbody>
 <tr class="odd">
 <td><p><strong>adPromptAlways</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Запросы всегда.</p></td>
+<td><p>1</p></td>
+<td><p>Всегда подсказывка.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPromptComplete</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Запрос, если требуются дополнительные сведения.</p></td>
+<td><p>2</p></td>
+<td><p>Запросы, если требуется дополнительные сведения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPromptCompleteRequired</strong></p></td>
-<td><p>3 </p></td>
-<td><p>Запросы, если требуются дополнительные сведения, но необязательные параметры не разрешены.</p></td>
+<td><p>3</p></td>
+<td><p>Подсказывка, если требуется больше сведений, но необязательные параметры не допускаются.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPromptNever</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Никогда не выговоров.</p></td>
+<td><p>Никогда не подсказываю.</p></td>
 </tr>
 </tbody>
 </table>

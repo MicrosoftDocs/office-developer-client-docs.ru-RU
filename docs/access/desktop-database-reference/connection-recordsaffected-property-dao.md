@@ -19,11 +19,11 @@ ms.locfileid: "32295816"
 
 **Область применения**: Access 2013, Office 2013
 
-Возвращает количество записей, затронутых последним вызовом метода **[Execute.](connection-execute-method-dao.md)**
+Возвращает количество записей, затронутых самым недавно вызываемой методом **[Выполнения.](connection-execute-method-dao.md)**
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* RecordsAffected
+*выражения* . RecordsAffected
 
 *выражение*: переменная, представляющая объект **Connection**.
 

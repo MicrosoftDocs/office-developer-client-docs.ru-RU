@@ -1,5 +1,5 @@
 ---
-title: BookmarkEnum (справочник по базе данных Access для настольных ПК)
+title: BookmarkEnum (Ссылка на настольные базы данных)
 TOCTitle: BookmarkEnum
 ms:assetid: 75cf5edd-bcb6-ab61-8703-73775cce91de
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249482(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32296782"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает закладку, указывающее место начала операции.
+Указывает закладки, указывающие, где должна начаться операция.
 
 <br/>
 
@@ -43,12 +43,12 @@ ms.locfileid: "32296782"
 </tr>
 <tr class="even">
 <td><p><strong>adBookmarkFirst</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Начинается с первой записи.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adBookmarkLast</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Начинается с последней записи.</p></td>
 </tr>
 </tbody>

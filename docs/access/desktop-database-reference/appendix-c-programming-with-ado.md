@@ -18,11 +18,11 @@ ms.locfileid: "32297013"
 
 **Область применения**: Access 2013, Office 2013
 
-ADO — это компонент интерфейса автоматизации COM, который можно использовать со многими языками программирования, включая Microsoft Visual Basic, VBScript, JScript, Visual C++ и Visual J++. Версия ADO устанавливается вместе с каждым из этих средств и других приложений, например Microsoft Office и Microsoft SQL Server. Дополнительные [сведения см.](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017) в Центре разработчиков платформы данных.
+ADO — это компонент интерфейса автоматизации com, который можно использовать на многих языках программирования, включая Microsoft Visual Basic, VBScript, JScript, Visual C++, Visual J++. Версия ADO устанавливается с каждым из этих инструментов и других приложений, таких как Microsoft Office и Microsoft SQL Server. Дополнительные сведения см. [в](https://docs.microsoft.com/sql/connect/sql-data-developer?view=sql-server-2017) центре разработчиков платформы данных.
 
-Библиотека для ADO msado15.dll и префиксом программного ИД (ProgID) является "ADODB". Например, чтобы явно сослаться на набор записей [ADO,](recordset-object-ado.md)используйте .
+Библиотека для ADO msado15.dll и префикс программы ID (ProgID) является "ADODB". Например, чтобы явно сослаться на ADO [Recordset,](recordset-object-ado.md)используйте .
 
-Дополнительные сведения о программировании с помощью ADO в различных средах разработки см. в следующих темах:
+Дополнительные сведения о программировании с ADO в различных средах разработки см. в следующих темах:
 
 - [Using ADO with Microsoft Visual Basic](using-ado-with-microsoft-visual-basic.md)
 - [Использование ADO со скриптовыми языками](using-ado-with-scripting-languages.md)

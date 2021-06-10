@@ -1,5 +1,5 @@
 ---
-title: Коллекция Columns (ADOX)
+title: Коллекция столбцов (ADOX)
 TOCTitle: Columns collection (ADOX)
 ms:assetid: 231645db-70da-9ad1-fb27-02145ce32e66
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249008(v=office.15)
@@ -14,31 +14,31 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296208"
 ---
-# <a name="columns-collection-adox"></a>Коллекция Columns (ADOX)
+# <a name="columns-collection-adox"></a>Коллекция столбцов (ADOX)
 
 
 **Область применения**: Access 2013, Office 2013
 
 Содержит все [объекты Column](column-object-adox.md) таблицы, индекса или ключа.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Метод [Append](append-method-adox-columns.md) для коллекции **Columns** уникален для ADOX. Вы можете выполнить указанные ниже действия.
+Метод [Приложения](append-method-adox-columns.md) для коллекции **Columns** уникален для ADOX. Вы получаете перечисленные ниже возможности.
 
-  - Добавьте новый столбец в коллекцию с помощью **метода Append.**
+  - Добавьте новый столбец в коллекцию с помощью метода **Приложения.**
 
-Остальные свойства и методы являются стандартными для коллекций ADO. Вы можете выполнить указанные ниже действия.
+Остальные свойства и методы являются стандартными для коллекций ADO. Вы получаете перечисленные ниже возможности.
 
-  - Доступ к столбцу в коллекции с помощью [свойства Item.](item-property-ado.md)
+  - Доступ к столбце в коллекции с [свойством Item.](item-property-ado.md)
 
-  - Возвращает количество столбцов, содержащихся в коллекции, со свойством [Count.](count-property-ado.md)
+  - Возвращайте количество столбцов, содержащихся в коллекции, с [свойством Count.](count-property-ado.md)
 
-  - Удалите столбец из коллекции с помощью метода [Delete.](delete-method-adox-collections.md)
+  - Удалите столбец из коллекции методом [Delete.](delete-method-adox-collections.md)
 
-  - Обновите объекты в коллекции, чтобы отразить схему текущей базы данных с помощью метода [Refresh.](refresh-method-ado.md)
+  - Обновите объекты в коллекции, чтобы отразить схему текущей базы данных с помощью [метода Обновления.](refresh-method-ado.md)
 
 
 > [!NOTE]
-> Ошибка будет возникать при  приложении столбца к [](index-object-adox.md) коллекции **Columns** индекса, [](table-object-adox.md) если столбец не существует в таблице, которая уже была сдана в коллекцию [Tables.](tables-collection-adox.md) 
+> Ошибка возникает при приложении  столбца к коллекции **Столбцы** индекса, если столбец не существует в таблице, которая уже примыкает к коллекции [Таблицы.](tables-collection-adox.md) [](index-object-adox.md)  [](table-object-adox.md)
 
 

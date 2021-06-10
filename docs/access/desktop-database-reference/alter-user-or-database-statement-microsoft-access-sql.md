@@ -1,5 +1,5 @@
 ---
-title: ALTER USER or DATABASE statement (Microsoft Access SQL)
+title: ALTER USER или DATABASE statement (Microsoft Access SQL)
 TOCTitle: ALTER USER or DATABASE statement (Microsoft Access SQL)
 ms:assetid: 86ccd296-5171-97e7-683f-cdaab4bde9ab
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197012(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32297181"
 ---
-# <a name="alter-user-or-database-statement-microsoft-access-sql"></a>ALTER USER or DATABASE statement (Microsoft Access SQL)
+# <a name="alter-user-or-database-statement-microsoft-access-sql"></a>ALTER USER или DATABASE statement (Microsoft Access SQL)
 
 **Область применения**: Access 2013, Office 2013
 
@@ -26,7 +26,7 @@ ALTER DATABASE PASSWORD *newpassword oldpassword*
 
 ALTER USER *USER* PASSWORD *newpassword oldpassword*
 
-The ALTER USER or DATABASE statement has these parts:
+В заявлении ALTER USER или DATABASE есть такие части:
 
 <table>
 <colgroup>
@@ -35,14 +35,14 @@ The ALTER USER or DATABASE statement has these parts:
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Часть</p></th>
+<th><p>Part</p></th>
 <th><p>Описание</p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td><p><em>user</em></p></td>
-<td><p>Имя пользователя, добавляемого в файл сведений о группе.</p></td>
+<td><p>Имя пользователя, который будет добавлен в информационный файл группы.</p></td>
 </tr>
 <tr class="even">
 <td><p><em>newpassword</em></p></td>
@@ -50,7 +50,7 @@ The ALTER USER or DATABASE statement has these parts:
 </tr>
 <tr class="odd">
 <td><p><em>oldpassword</em></p></td>
-<td><p>Существующий пароль, который должен быть связан с указанным <em>пользователем или</em> <em>именем</em> группы.</p></td>
+<td><p>Существующий пароль, связанный с указанным <em>пользователем или именем</em> <em>группы.</em></p></td>
 </tr>
 </tbody>
 </table>

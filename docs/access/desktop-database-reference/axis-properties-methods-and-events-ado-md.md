@@ -1,5 +1,5 @@
 ---
-title: Axis properties, methods, and events (ADO MD)
+title: Свойства, методы и события Axis (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 6db39ad7-9597-d09c-484b-199c40481b4d
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249433(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296908"
 ---
-# <a name="axis-properties-methods-and-events-ado-md"></a>Axis properties, methods, and events (ADO MD)
+# <a name="axis-properties-methods-and-events-ado-md"></a>Свойства, методы и события Axis (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство DimensionCount](dimensioncount-property-ado-md.md)
 - [Свойство Name](name-property-ado-md.md)
 - [Коллекция Positions](positions-collection-ado-md.md)
 - [Коллекция Properties](properties-collection-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

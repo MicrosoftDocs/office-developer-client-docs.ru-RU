@@ -18,24 +18,24 @@ ms.locfileid: "32296397"
 
 **Область применения**: Access 2013, Office 2013
  
-Получает или задает объект главы OLE DB **из/объекта** **ADORecordsetConstruction.** При использовании **put \_ Chapter** для применения объекта **Chapter** подмножество строк превращается в объект ADO **Recordset.** Это задает текущую главу объекта **Rowset.** Для чтения и записи.
+Получает или задает объект OLE DB **Chapter** из/на **объект ADORecordsetConstruction.** При использовании **put \_ Chapter** для набора объекта **Chapter** подмножество строк превращается в объект ADO **Recordset.** Это задает текущую главу объекта **Rowset.** Для чтения и записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-HRESULT get \_ Chapter( \[ out, retval \] long \* plChapter);
+HRESULT \_ get Chapter \[ (out, retval \] long \* plChapter);
 
-HRESULT put \_ Chapter( \[ in long \] lChapter);
+HRESULT \_ put Chapter \[ (in \] long lChapter);
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*plChapter* |Указатель на ладную часть главы.|
-|*LChapter* |Обработка главы.|
+|*plChapter* |Указатель на ручку главы.|
+|*LChapter* |Ручка главы.|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Этот метод свойства возвращает стандартные значения HRESULT, включая S \_ OK и E \_ FAIL.
+Этот метод свойства возвращает стандартные значения HRESULT, в том числе S \_ OK и E \_ FAIL.
 
 ## <a name="applies-to"></a>Применимость
 

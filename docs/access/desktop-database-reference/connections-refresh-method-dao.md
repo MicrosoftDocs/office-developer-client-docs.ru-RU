@@ -19,7 +19,7 @@ ms.locfileid: "32295718"
 
 **Область применения**: Access 2013, Office 2013
 
-Не поддерживается для коллекции **[Connections.](connections-collection-dao.md)**
+Не поддерживается для коллекции **[Подключения.](connections-collection-dao.md)**
 
-Метод Refresh нельзя  использовать с неохраняемой коллекцией, например **Connections, Databases,** **Recordsets,** **Workspaces** или **коллекцией QueryDefs** объекта **Connection.** 
+Нельзя использовать метод  Обновления с неустранительными коллекциями, такими как **Connections,** **Databases,** **Recordsets,** **Workspaces** или **коллекция QueryDefs** объекта **Connection.**
 

@@ -1,5 +1,5 @@
 ---
-title: Объект Catalog (ADO MD)
+title: Объект Каталог (ADO MD)
 TOCTitle: Catalog object (ADO MD)
 ms:assetid: 708c4082-3589-7f3b-5ea3-f3705f3d3ff1
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249445(v=office.15)
@@ -14,20 +14,20 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296593"
 ---
-# <a name="catalog-object-ado-md"></a>Объект Catalog (ADO MD)
+# <a name="catalog-object-ado-md"></a>Объект Каталог (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Содержит сведения о многомерной схеме (то есть кубы и ее измерения, иерархии, уровни и члены), специфичность для многомерного поставщика данных (MDP).
+Содержит многомерные сведения о схеме (т. е. кубов и их ниже, иерархий, уровней и членов), специфичные для многомерного поставщика данных (MDP).
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-С помощью коллекций и свойств объекта **Catalog** можно сделать следующее:
+С коллекциями и свойствами объекта **Каталог** можно сделать следующее:
 
-- Откройте каталог, задав для свойства [ActiveConnection](activeconnection-property-ado-md.md) стандартный объект подключения [ADO](connection-object-ado.md) или допустимую строку подключения.
+- Откройте каталог, установив свойство [ActiveConnection](activeconnection-property-ado-md.md) на стандартный объект ADO [Connection](connection-object-ado.md) или допустимую строку подключения.
 
-- Определите **каталог** с помощью [свойства Name.](name-property-ado-md.md)
+- Определите **каталог** с [свойством Name.](name-property-ado-md.md)
 
-- Итерации по кубам в каталоге с помощью коллекции [CubeDefs.](cubedefs-collection-ado-md.md)
+- Итерировать кубов в каталоге с помощью [коллекции CubeDefs.](cubedefs-collection-ado-md.md)
 

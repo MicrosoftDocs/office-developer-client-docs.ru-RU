@@ -1,5 +1,5 @@
 ---
-title: Command properties, methods, and events (ADO)
+title: Свойства команд, методы и события (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 62b2db82-c518-016f-8e9a-e181528782c8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249373(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296152"
 ---
-# <a name="command-properties-methods-and-events-ado"></a>Command properties, methods, and events (ADO)
+# <a name="command-properties-methods-and-events-ado"></a>Свойства команд, методы и события (ADO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство ActiveConnection](activeconnection-property-ado.md)
 - [Свойство CommandText](commandtext-property-ado.md)
@@ -31,11 +31,11 @@ ms.locfileid: "32296152"
 - [Коллекция Properties](properties-collection-ado.md)
 - [Свойство State](state-property-ado.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Метод Cancel](cancel-method-ado.md)
 - [Метод CreateParameter](createparameter-method-ado.md)
-- [Метод Execute (команда ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)
+- [Метод выполнения (команда ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-command)
 
 ## <a name="events"></a>События
 

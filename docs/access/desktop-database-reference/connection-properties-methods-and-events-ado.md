@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события подключения (ADO)
+title: Свойства подключения, методы и события (ADO)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: e78329a4-0b90-9ae5-f3d7-e56815a396fd
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250174(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295844"
 ---
-# <a name="connection-properties-methods-and-events-ado"></a>Свойства, методы и события подключения (ADO)
+# <a name="connection-properties-methods-and-events-ado"></a>Свойства подключения, методы и события (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство Attributes](attributes-property-ado.md)
 - [Свойство CommandTimeout](commandtimeout-property-ado.md)
@@ -35,12 +35,12 @@ ms.locfileid: "32295844"
 - [Свойство Version](version-property-ado.md)
 
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Методы BeginTrans, CommitTrans и RollbackTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md)
 - [Метод Cancel](cancel-method-ado.md)
 - [Метод Close](close-method-ado.md)
-- [Метод Execute (ADO Connection)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
+- [Метод выполнения (подключение ADO)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection)
 - [Метод Open (Connection в ADO)](open-method-ado-connection.md)
 - [Метод OpenSchema](openschema-method-ado.md)
 

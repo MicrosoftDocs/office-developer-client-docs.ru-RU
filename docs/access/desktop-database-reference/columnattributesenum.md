@@ -37,12 +37,12 @@ ms.locfileid: "32296236"
 <tbody>
 <tr class="odd">
 <td><p><strong>adColFixed</strong></p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Столбец имеет фиксированную длину.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adColNullable</strong></p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Столбец может содержать значения null.</p></td>
 </tr>
 </tbody>

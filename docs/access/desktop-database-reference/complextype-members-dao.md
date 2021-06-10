@@ -1,5 +1,5 @@
 ---
-title: Члены ComplexType (DAO)
+title: Участники ComplexType (DAO)
 TOCTitle: ComplexType Members
 ms:assetid: 5f0001fb-f46b-8e4c-0bd9-613c831eca96
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff194740(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296047"
 ---
-# <a name="complextype-members-dao"></a>Члены ComplexType (DAO)
+# <a name="complextype-members-dao"></a>Участники ComplexType (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Представляет поле с несколькими значениями.
+Представляет многомерное поле.
 
 ## <a name="properties"></a>Свойства
 

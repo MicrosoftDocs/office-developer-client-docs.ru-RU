@@ -1,5 +1,5 @@
 ---
-title: Метод Cancel (ADO)
+title: Отмена метода (ADO)
 TOCTitle: Cancel method (ADO)
 ms:assetid: 747edc04-a5cc-3631-2d0b-82e7e41a76b7
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249476(v=office.15)
@@ -18,21 +18,21 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296677"
 ---
-# <a name="cancel-method-ado"></a>Метод Cancel (ADO)
+# <a name="cancel-method-ado"></a>Отмена метода (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-Отменяет выполнение ожидающих вызовов асинхронного метода.
+Отменяет выполнение ожидаемого асинхронного вызова метода.
 
 ## <a name="syntax"></a>Синтаксис
 
-*object*. Отмена
+*объект*. Отмена
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Используйте метод **Cancel** для прекращения выполнения асинхронного вызова метода (то есть метода, вызываемого с помощью **параметра adAsyncConnect,** **adAsyncExecute** или **adAsyncFetch).**
+Используйте метод **Cancel** для прекращения выполнения асинхронного вызова метода (то есть метода, вызываемого с **помощью adAsyncConnect,** **adAsyncExecute** или **adAsyncFetch).**
 
-В следующей таблице показано, какая задача завершается при использовании метода **Cancel** для определенного типа объекта.
+В следующей таблице показано, какая задача завершается при использовании метода **Отмена** для определенного типа объекта.
 
 <table>
 <colgroup>
@@ -43,7 +43,7 @@ ms.locfileid: "32296677"
 <tr class="header">
 <th><p><br />
 Если <em>объект</em> является объектом</p></th>
-<th><p>Последний асинхронный вызов этого метода завершается</p></th>
+<th><p>Последний асинхронный вызов этого метода прекращается</p></th>
 </tr>
 </thead>
 <tbody>
@@ -53,7 +53,7 @@ ms.locfileid: "32296677"
 </tr>
 <tr class="even">
 <td><p><a href="connection-object-ado.md">Connection</a></p></td>
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Execute</a> или <a href="open-method-ado-connection.md">Open</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/execute-method-ado-connection">Выполнение</a> или <a href="open-method-ado-connection.md">открытие</a></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="record-object-ado.md">Record</a></p></td>

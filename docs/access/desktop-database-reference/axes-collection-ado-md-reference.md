@@ -1,5 +1,5 @@
 ---
-title: Коллекция Axes (справочник по ADO MD)
+title: Коллекция Axes (ссылка на ADO MD)
 TOCTitle: Axes collection (ADO MD)
 ms:assetid: 9569659c-3bbb-4c53-be45-b29d69d465a5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249663(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296929"
 ---
-# <a name="axes-collection-ado-md-reference"></a>Коллекция Axes (справочник по ADO MD)
+# <a name="axes-collection-ado-md-reference"></a>Коллекция Axes (ссылка на ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Коллекция Axes (ADO MD)](axes-collection-ado-md.md)
-- [Axes collection properties, methods, and events (ADO MD)](axes-collection-properties-methods-and-events-ado-md.md)
+- [Свойства коллекции Axes, методы и события (ADO MD)](axes-collection-properties-methods-and-events-ado-md.md)
 

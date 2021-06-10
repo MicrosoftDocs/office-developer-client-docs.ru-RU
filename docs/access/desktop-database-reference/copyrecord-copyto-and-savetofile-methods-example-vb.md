@@ -19,7 +19,7 @@ ms.locfileid: "32295540"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано, как создавать копии файла с помощью [объектов Stream](stream-object-ado.md) [или Record.](record-object-ado.md) Одна копия сделана в веб-папку для публикации в Интернете. Другие показанные свойства и методы: [Stream Type,](type-property-ado-stream.md) **Open,** [LoadFromFile](loadfromfile-method-ado.md)и [Record Open.](open-method-ado-record.md)
+В этом примере показано, как создавать копии файла с помощью [объектов Stream](stream-object-ado.md) или [Record.](record-object-ado.md) Одна копия выполнена в веб-папке для публикации в Интернете. Другие свойства и методы, показанные, включают [тип stream,](type-property-ado-stream.md) **Open,** [LoadFromFile](loadfromfile-method-ado.md)и [Record Open.](open-method-ado-record.md)
 
 ```vb 
  

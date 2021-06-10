@@ -18,13 +18,13 @@ ms.locfileid: "32296040"
 
 **Область применения**: Access 2013, Office 2013
 
-Представляет поле с несколькими значениями.
+Представляет многомерное поле.
 
 ## <a name="version-information"></a>Сведения о версии
 
 Добавлен в версии: Access 2007
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Используйте свойство **[Fields,](complextype-fields-property-dao.md)** чтобы вернуть коллекцию **[Fields](fields-collection-dao.md)** для **объекта ComplexType.**
+Используйте свойство **[Fields,](complextype-fields-property-dao.md)** чтобы вернуть коллекцию **[Поля](fields-collection-dao.md)** для объекта **ComplexType.**
 

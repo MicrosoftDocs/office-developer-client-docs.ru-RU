@@ -18,7 +18,7 @@ ms.locfileid: "32296474"
 
 **Область применения**: Access 2013, Office 2013
 
-Используйте сведения в этой главе, чтобы быстро настроить сервер и использовать RDS. В этой главе описываются конкретные действия по настройке, которые могут потребоваться выполнить при реализации RDS, описываются некоторые ключевые связи между RDS и другими технологиями, а также помогают определить решения проблем, которые могут возникнуть при настройке решения RDS.
+Используйте сведения в этой главе, чтобы настроить сервер и быстро использовать RDS. В этой главе содержатся конкретные действия по настройке, которые необходимо предпринять при реализации RDS, описываются некоторые ключевые связи между RDS и другими технологиями, а также определяются решения проблем, с которыми вы можете столкнуться при настройке решения RDS.
 
 В этом разделе содержатся сведения о:
 
@@ -27,14 +27,14 @@ ms.locfileid: "32296474"
 - [Настройка виртуальных серверов в IIS](configuring-virtual-servers-on-iis.md)
 - [Настройка DataFactory (ADO)](datafactory-customization.md)
 - [Подготовка библиотеки DLL к работе в DCOM](enabling-a-dll-to-run-on-dcom.md)
-- [Предоставление гостевых привилегий компьютеру с веб-сервером; RDS guest privileges \[ ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
+- [Предоставление гостевых привилегий компьютеру веб-сервера; Гостевых привилегий \[ RDS ADO\]](granting-guest-privileges-to-a-web-server-computer;-rds-guest-privileges.md)
 - [Пометка бизнес-объектов как безопасных для написания скриптов](marking-business-objects-as-safe-for-scripting.md)
 - [Регистрация бизнес-объектов в клиенте для использования с DCOM](registering-business-objects-on-the-client-for-use-with-dcom.md)
 - [Защита приложений RDS](securing-rds-applications.md)
 - [Настройка формата маршалинга потоков DCOM](setting-dcom-stream-marshaling-format.md)
 - [Указание числа потоков на процессор в IIS](specifying-threads-per-processor-on-iis.md)
 - [Troubleshooting RDS (ADO)](troubleshooting-rds.md)
-- [Использование связанных технологий с RDS (ADO)](using-related-technologies-with-rds.md)
+- [Использование связанных технологий с помощью RDS (ADO)](using-related-technologies-with-rds.md)
 
 
 

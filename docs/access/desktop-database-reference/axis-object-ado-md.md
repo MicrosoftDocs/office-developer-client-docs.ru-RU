@@ -1,5 +1,5 @@
 ---
-title: Axis object (ADO MD)
+title: Объект Axis (ADO MD)
 TOCTitle: Axis object (ADO MD)
 ms:assetid: a4332b69-8900-08f1-a4e2-9395d005ed42
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249763(v=office.15)
@@ -14,24 +14,24 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296901"
 ---
-# <a name="axis-object-ado-md"></a>Axis object (ADO MD)
+# <a name="axis-object-ado-md"></a>Объект Axis (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
 Представляет позиционную или фильтровую ось ячейки, содержащую выбранные элементы одного или более измерений.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Объект **Axis** может содержаться в коллекции [Axes](axes-collection-ado-md.md) или возвращаться [свойством FilterAxis](filteraxis-property-ado-md.md) [ячейки.](cellset-object-ado-md.md)
+Объект **Axis** может содержаться в коллекции [Axes](axes-collection-ado-md.md) или возвращается [свойством FilterAxis](filteraxis-property-ado-md.md) [ячейки.](cellset-object-ado-md.md)
 
-С помощью коллекций и свойств объекта **Axis** можно сделать следующее:
+С коллекциями и свойствами объекта **Axis** можно сделать следующее:
 
-- Определите **ось** с помощью [свойства Name.](name-property-ado-md.md)
+- Определите **ось** с [свойством Name.](name-property-ado-md.md)
 
-- Итерации по каждой позиции вдоль **оси** с помощью [коллекции Positions.](positions-collection-ado-md.md)
+- Итерировать каждую позицию вдоль **оси** с помощью коллекции [Positions.](positions-collection-ado-md.md)
 
-- Получите количество измерений на оси **с** помощью свойства [DimensionCount.](dimensioncount-property-ado-md.md)
+- Получение количества измерений на **оси** с помощью свойства [DimensionCount.](dimensioncount-property-ado-md.md)
 
-- Получите атрибуты оси для определенного поставщика **со** стандартной коллекцией свойств [ADO.](properties-collection-ado.md)
+- Получение атрибутов Оси, определенных поставщиками, **со** стандартной коллекцией свойств [ADO.](properties-collection-ado.md)
 

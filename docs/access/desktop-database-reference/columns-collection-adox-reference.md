@@ -1,5 +1,5 @@
 ---
-title: Справочник по коллекции Columns (ADOX)
+title: Ссылка на коллекцию столбцов (ADOX)
 TOCTitle: Columns collection (ADOX)
 ms:assetid: 0ae90fa1-09ed-4d6e-b573-8dc83d000551
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248841(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296215"
 ---
-# <a name="columns-collection-adox-reference"></a>Справочник по коллекции Columns (ADOX)
+# <a name="columns-collection-adox-reference"></a>Ссылка на коллекцию столбцов (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Columns (ADOX)](columns-collection-adox.md)
-- [Свойства, методы и события коллекции Columns (ADOX)](columns-collection-properties-methods-and-events-adox.md)
+- [Коллекция столбцов (ADOX)](columns-collection-adox.md)
+- [Свойства коллекции столбцов, методы и события (ADOX)](columns-collection-properties-methods-and-events-adox.md)
 

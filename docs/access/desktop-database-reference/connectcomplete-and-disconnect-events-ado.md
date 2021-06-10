@@ -18,19 +18,19 @@ ms.locfileid: "32295991"
 
 **Область применения**: Access 2013, Office 2013
 
-Событие **ConnectComplete** вызвано после начала *подключения.* Событие **Disconnect** вызвано после *окончания* подключения.
+Событие **ConnectComplete** вызвано после начала *подключения.* Событие **Отключение** вызвано после окончания *подключения.*
 
 ## <a name="syntax"></a>Синтаксис
 
-ConnectComplete *pError,* *adStatus*, *pConnection*
+ConnectComplete *pError*, *adStatus*, *pConnection*
 
-Disconnect *adStatus*, *pConnection*
+*Отключение adStatus*, *pConnection*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*pError* |Объект [Error.](error-object-ado.md) В ней описывается ошибка, которая произошла, если *значением adStatus* является **adStatusErrorsOccurred;** в противном случае он не установлен.|
-|*adStatus* |[EventStatusEnum](eventstatusenum.md). При **этом параметре** задан параметр **adStatusCancel,** если событие **WillConnect** запросит отмену ожидающих подключений.<br/><br/>Перед возвратом любого из событий установите для этого параметра **параметр adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления. Однако закрытие и повторное открытие [подключения](connection-object-ado.md) приводит к повтору этих событий.|
-|*pConnection* |Объект **Connection,** к которому применяется это событие.|
+|*pError* |Объект [Ошибки.](error-object-ado.md) Он описывает ошибку, которая произошла, если значение *adStatus* **является adStatusErrorsOccurred;** в противном случае она не установлена.|
+|*adStatus* |[EventStatusEnum](eventstatusenum.md). Когда **вызвана ConnectComplete,** этот параметр задан **adStatusCancel,** если событие **WillConnect** запрашивало отмену ожидаемого подключения.<br/><br/>Перед возвращением любого события установите этот параметр **adStatusUnwantedEvent,** чтобы предотвратить последующие уведомления. Однако закрытие и открытие подключения приводит [к](connection-object-ado.md) повторному повтору этих событий.|
+|*pConnection* |Объект **Connection,** для которого применяется это событие.|
 

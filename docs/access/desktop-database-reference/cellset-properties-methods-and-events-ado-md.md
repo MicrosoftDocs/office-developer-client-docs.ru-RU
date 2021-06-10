@@ -1,5 +1,5 @@
 ---
-title: Cellset properties, methods, and events (ADO MD)
+title: Свойства, методы и события cellset (ADO MD)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: 7745f93c-5cc7-e6f8-143a-3470be0c1c0a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249488(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296523"
 ---
-# <a name="cellset-properties-methods-and-events-ado-md"></a>Cellset properties, methods, and events (ADO MD)
+# <a name="cellset-properties-methods-and-events-ado-md"></a>Свойства, методы и события cellset (ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство ActiveConnection](activeconnection-property-ado-md.md)
 - [Коллекция Axes](axes-collection-ado-md.md)
@@ -28,7 +28,7 @@ ms.locfileid: "32296523"
 - [Свойство Source](source-property-ado-md.md)
 - [Свойство State](state-property-ado-md.md)
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Метод Close](close-method-ado-md.md)
 - [Метод Open](open-method-ado-md.md)

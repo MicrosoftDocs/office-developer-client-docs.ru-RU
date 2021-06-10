@@ -1,5 +1,5 @@
 ---
-title: Свойство Attributes (ADO)
+title: Свойство Атрибуты (ADO)
 TOCTitle: Attributes property (ADO)
 ms:assetid: 4cc1f036-606e-7d4b-d270-af374e9d99fa
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249242(v=office.15)
@@ -18,7 +18,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296985"
 ---
-# <a name="attributes-property-ado"></a>Свойство Attributes (ADO)
+# <a name="attributes-property-ado"></a>Свойство Атрибуты (ADO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -28,23 +28,23 @@ ms.locfileid: "32296985"
 
 Указывает одну или несколько характеристик объекта.
 
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+## <a name="settings-and-return-values"></a>Параметры и значения возврата
 
-Задает или возвращает **длинное** значение.
+Задает или возвращает значение **Long.**
 
-Для объекта [Connection](connection-object-ado.md) свойство **Attributes** является свойством read/write, а его значение может быть суммой одного или более [значений XactAttributeEnum.](xactattributeenum.md) Значение по умолчанию — ноль (0).
+Для объекта [Подключения](connection-object-ado.md) свойство **Атрибуты** является считываемой или записной, а его значение может быть суммой одного или более [значений XactAttributeEnum.](xactattributeenum.md) По умолчанию — ноль (0).
 
-Для объекта [Parameter](parameter-object-ado.md) свойство **Attributes** имеет значение read/write, а его значение может быть суммой любых значений [ParameterAttributesEnum.](parameterattributesenum.md) Значение по умолчанию **— adParamSigned.**
+Для объекта [Parameter](parameter-object-ado.md) свойство **Attributes** — это свойство чтения и записи, и его значение может быть суммой любых значений [ParameterAttributesEnum.](parameterattributesenum.md) По умолчанию **adParamSigned**.
 
-Для объекта [Field](field-object-ado.md) свойство **Attributes** может быть суммой одного или более [значений FieldAttributeEnum.](fieldattributeenum.md) Как правило, это доступно только для чтения, однако для новых объектов **Field,** добавленных в коллекцию [Fields](fields-collection-ado.md) записи,  атрибуты считывать и  записывать только после того, как свойство [Value](value-property-ado.md) для поля было задано и новое поле успешно добавлено поставщиком данных путем вызова метода [Update](update-method-ado.md) коллекции **Fields.** [](record-object-ado.md) 
+Для объекта [Field](field-object-ado.md) свойство **Attributes** может быть суммой одного или более значений [FieldAttributeEnum.](fieldattributeenum.md) Как правило, только для чтения, однако для новых объектов **Field,** которые были добавлены в коллекцию [Полей](fields-collection-ado.md) записи,  Атрибуты считываются/записывают только после того, как свойство [Value](value-property-ado.md) для поля было задано и новое поле успешно добавлено поставщиком данных, позвонив [методу Update](update-method-ado.md) коллекции **Fields.** [](record-object-ado.md)  
 
-Для объекта [Property](property-object-ado.md) свойство **Attributes** является "только чтение", а его значение может быть суммой любых значений [PropertyAttributesEnum.](propertyattributesenum.md)
+Для [объекта Property](property-object-ado.md) свойство **Attributes** является только для чтения, а его значение может быть суммой любых значений [PropertyAttributesEnum.](propertyattributesenum.md)
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Используйте свойство **Attributes,** чтобы устанавливать или возвращать характеристики объектов **Connection,** **Parameter,** [Field](field-object-ado.md) или [Property.](property-object-ado.md)
+Используйте свойство **Атрибуты** для набора или возврата характеристик объектов **Подключения,** **Объектов Параметр,** [Объектов Поля](field-object-ado.md) или [Свойств.](property-object-ado.md)
 
-При наборе нескольких атрибутов можно суммируете соответствующие константы. Если для свойства установлено значение суммы, включая несовместимые константы, возникает ошибка.
+При наборе нескольких атрибутов можно подвести соответствующие константы. Если вы установите значение свойства суммой, включая несовместимые константы, возникает ошибка.
 
-**Использование удаленной службы данных** Это свойство не доступно для объекта подключения на **стороне** клиента.
+**Удаленное использование службы данных** Это свойство не доступно для объекта клиентского **подключения.**
 

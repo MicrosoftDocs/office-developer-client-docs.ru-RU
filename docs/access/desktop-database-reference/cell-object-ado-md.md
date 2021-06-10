@@ -1,5 +1,5 @@
 ---
-title: Cell object (ADO MD)
+title: Объект Cell (ADO MD)
 TOCTitle: Cell object (ADO MD)
 ms:assetid: b9d00b71-1f40-5bd1-4b89-fbdb59c552ba
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249892(v=office.15)
@@ -14,30 +14,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296551"
 ---
-# <a name="cell-object-ado-md"></a>Cell object (ADO MD)
+# <a name="cell-object-ado-md"></a>Объект Cell (ADO MD)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Представляет данные на пересечении координат оси, содержащихся в ячейках.
+Представляет данные на пересечении координат оси, содержащихся в ячейке.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
 Объект **Cell** возвращается [свойством Item](item-property-ado-md-cellset.md) объекта [Cellset.](cellset-object-ado-md.md)
 
-С помощью коллекций и свойств объекта **Cell** можно сделать следующее:
+С коллекциями и свойствами объекта **Cell** можно сделать следующее:
 
-- Возвращает данные в **ячейке со** [свойством Value.](value-property-ado-md.md)
+- Возвращаем данные в **ячейке** с [свойством Value.](value-property-ado-md.md)
 
-- Возвращает строку, представляющую отформатированный дисплей свойства **Value** со [свойством FormattedValue.](formattedvalue-property-ado-md.md)
+- Верни строку, представляющую форматированный дисплей свойства **Value** с [свойством FormattedValue.](formattedvalue-property-ado-md.md)
 
-- Возвращает порядковые значения ячейки **в** ячейках **с** помощью [свойства Ordinal.](ordinal-property-ado-md-cell.md)
+- Возврат ordinal значения **ячейки** в **ячейках с** [свойством Ordinal.](ordinal-property-ado-md-cell.md)
 
-- Определите положение **ячейки** в [CubeDef](cubedef-object-ado-md.md) с помощью коллекции [Positions.](positions-collection-ado-md.md)
+- Определите положение **ячейки** в [CubeDef](cubedef-object-ado-md.md) с коллекцией [Positions.](positions-collection-ado-md.md)
 
-- Получить другие сведения о **ячейке** со стандартной коллекцией [свойств](properties-collection-ado.md) ADO.
+- Извлечение других сведений о **ячейке** с помощью стандартной коллекции свойств [ADO.](properties-collection-ado.md)
 
-Коллекция **Properties** содержит свойства, предоставленные поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может отличаться в зависимости от реализации поставщика. Более полный список доступных свойств см. в документации к поставщику.
+Коллекция **свойств** содержит свойства, предоставленные поставщиком. В следующей таблице перечислены свойства, которые могут быть доступны. Фактический список свойств может отличаться в зависимости от реализации поставщика. Дополнительный список доступных свойств см. в документации для поставщика.
 
 <table>
 <colgroup>
@@ -53,11 +53,11 @@ ms.locfileid: "32296551"
 <tbody>
 <tr class="odd">
 <td><p>BackColor</p></td>
-<td><p>Цвет фона, используемый для отображения ячейки.</p></td>
+<td><p>Фоновый цвет, используемый при отобраии ячейки.</p></td>
 </tr>
 <tr class="even">
 <td><p>FontFlags</p></td>
-<td><p>Битоваяmas detailing effects on the font.</p></td>
+<td><p>Bitmask подробное воздействие на шрифт.</p></td>
 </tr>
 <tr class="odd">
 <td><p>FontName</p></td>
@@ -69,11 +69,11 @@ ms.locfileid: "32296551"
 </tr>
 <tr class="odd">
 <td><p>ForeColor</p></td>
-<td><p>Цвет переднего плана, используемый при отобраке ячейки.</p></td>
+<td><p>Цвет переднего плана, используемый при отображение ячейки.</p></td>
 </tr>
 <tr class="even">
 <td><p>FormatString</p></td>
-<td><p>Значение в форматированной строке.</p></td>
+<td><p>Значение в отформатированной строке.</p></td>
 </tr>
 </tbody>
 </table>

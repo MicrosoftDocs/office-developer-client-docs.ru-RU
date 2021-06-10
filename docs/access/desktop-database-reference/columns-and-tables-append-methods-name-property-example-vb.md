@@ -1,5 +1,5 @@
 ---
-title: Columns and Tables Append Methods, Name property example (VB)
+title: Столбцы и методы приложения таблиц, пример свойства name (VB)
 TOCTitle: Columns and Tables Append Methods, Name property example (VB)
 ms:assetid: 39458400-f30c-0636-19f2-c2c2788a6534
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249140(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32296229"
 ---
-# <a name="columns-and-tables-append-methods-name-property-example-vb"></a>Columns and Tables Append Methods, Name property example (VB)
+# <a name="columns-and-tables-append-methods-name-property-example-vb"></a>Столбцы и методы приложения таблиц, пример свойства name (VB)
 
 
 **Область применения**: Access 2013, Office 2013
 
-В следующем коде показано, как создать таблицу.
+В следующем коде показано, как создать новую таблицу.
 
 ```vb 
  

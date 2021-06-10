@@ -1,5 +1,5 @@
 ---
-title: Connections members (DAO)
+title: Участники подключения (DAO)
 TOCTitle: Connections Members
 ms:assetid: e57a9548-455b-b6e8-6e9c-8bbf9613003a
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835954(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32295767"
 ---
-# <a name="connections-members-dao"></a>Connections members (DAO)
+# <a name="connections-members-dao"></a>Участники подключения (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
 > [!NOTE]
-> Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access. Коллекция Connections содержит текущие объекты Connection объекта Workspace (только для рабочей области ODBCDirect).
+> Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access. Коллекция Подключений содержит текущие объекты подключения объекта Workspace (только для рабочей области ODBCDirect).
 
 ## <a name="methods"></a>Методы
 
@@ -37,7 +37,7 @@ ms.locfileid: "32295767"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="connections-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Не поддерживается для коллекции <strong><a href="connections-collection-dao.md">Connections.</a></strong></p></td>
+<td><p>Не поддерживается для коллекции <strong><a href="connections-collection-dao.md">Подключения.</a></strong></p></td>
 </tr>
 </tbody>
 </table>
@@ -59,7 +59,7 @@ ms.locfileid: "32295767"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="connections-count-property-dao.md">Count</a></strong></p></td>
-<td><p>Возвращает количество объектов <strong><a href="connection-object-dao.md">Connection</a></strong> в коллекции <strong><a href="connections-collection-dao.md">Connections.</a></strong></p></td>
+<td><p>Возвращает количество объектов <strong><a href="connection-object-dao.md">Подключения</a></strong> в коллекции <strong><a href="connections-collection-dao.md">Connections.</a></strong></p></td>
 </tr>
 </tbody>
 </table>

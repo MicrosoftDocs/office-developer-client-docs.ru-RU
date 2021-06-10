@@ -22,7 +22,7 @@ ms.locfileid: "32295851"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* OpenRecordset(***Name***, ***Type***, ***Options***, ***LockEdit***)
+*выражения* . OpenRecordset ***(Имя***, ***Тип***, ***Параметры***, ***LockEdit***)
 
 *выражение*: переменная, представляющая объект **Connection**.
 
@@ -61,7 +61,7 @@ ms.locfileid: "32295851"
 <td><p><em>Options</em></p></td>
 <td><p>Необязательно</p></td>
 <td><p><strong>Variant</strong></p></td>
-<td><p>Сочетание констант <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong>, которые указывают характеристики нового объекта <strong>Recordset</strong>.</p><p><strong>ПРИМЕЧАНИЕ</strong>. Константы <strong>dbConsistent</strong> и <strong>dbInconsistent</strong> являются взаимоисключающими, и использование обеих констант вызывает ошибку. Если предоставить аргумент lockedits при использовании константы <strong>dbReadOnly,</strong> также будет выступать ошибка.</p>
+<td><p>Сочетание констант <strong><a href="recordsetoptionenum-enumeration-dao.md">RecordsetOptionEnum</a></strong>, которые указывают характеристики нового объекта <strong>Recordset</strong>.</p><p><strong>ПРИМЕЧАНИЕ</strong>. Константы <strong>dbConsistent</strong> и <strong>dbInconsistent</strong> являются взаимоисключающими, и использование обеих констант вызывает ошибку. Поставка аргумента lockedits, когда параметры используют <strong>константу dbReadOnly,</strong> также вызывает ошибку.</p>
 </td>
 </tr>
 <tr class="even">

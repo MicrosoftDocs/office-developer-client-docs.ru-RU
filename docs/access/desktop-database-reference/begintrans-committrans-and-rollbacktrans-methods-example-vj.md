@@ -1,5 +1,5 @@
 ---
-title: Пример методов BeginTrans, CommitTrans и RollbackTrans (VJ++)
+title: Пример методов BeginTrans, CommitTrans, RollbackTrans (VJ++)
 TOCTitle: BeginTrans, CommitTrans, and RollbackTrans methods example (VJ++)
 ms:assetid: 8c1ca470-792e-4792-8913-fa7d3b46218f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249616(v=office.15)
@@ -19,7 +19,7 @@ ms.locfileid: "32296845"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере изменяется тип книги всех учебников в таблице ***"Заголовки"*** базы данных. После того как [метод BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) запускает транзакцию, изолирует все изменения, внесенные в таблицу ***Titles,*** метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения. Вы можете [](begintrans-committrans-and-rollbacktrans-methods-ado.md) использовать метод отката, чтобы отменить изменения, сохраненные с помощью [метода Update.](update-method-ado.md)
+В этом примере изменяется тип книги всех книг по психологии в таблице ***Заголовки*** базы данных. После того [как метод BeginTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) запускает транзакцию, которая изолирует все изменения, внесенные в таблицу ***Заголовки,*** метод [CommitTrans](begintrans-committrans-and-rollbacktrans-methods-ado.md) сохраняет изменения. С помощью метода [отката](begintrans-committrans-and-rollbacktrans-methods-ado.md) можно отменить изменения, сохраненные с помощью [метода Update.](update-method-ado.md)
 
 ```java 
  

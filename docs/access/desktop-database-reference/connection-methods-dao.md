@@ -21,6 +21,6 @@ ms.locfileid: "32295893"
 - [Метод Connection.Cancel (DAO)](connection-cancel-method-dao.md)
 - [Метод Connection.Close (DAO)](connection-close-method-dao.md)
 - [Метод Connection.CreateQueryDef (DAO)](connection-createquerydef-method-dao.md)
-- [Connection.Execute method (DAO)](connection-execute-method-dao.md)
+- [Connection.Exeметод (DAO)](connection-execute-method-dao.md)
 - [Метод Connection.OpenRecordset (DAO)](connection-openrecordset-method-dao.md)
 
