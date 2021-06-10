@@ -29,7 +29,7 @@ ms.locfileid: "32307555"
 
 ## <a name="remarks"></a>Примечания
 
-Для объекта **Recordset** возможные параметры и возвращаемые значения:
+Для объекта **Recordset** возможные параметры и значения возврата следуют следующим образом.
 
 <table>
 <colgroup>
@@ -45,11 +45,11 @@ ms.locfileid: "32307555"
 <tbody>
 <tr class="odd">
 <td><p><strong>dbOpenTable</strong></p></td>
-<td><p>Таблица (только для рабочей области Microsoft Access)</p></td>
+<td><p>Таблица (только для рабочего пространства Microsoft Access)</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>dbOpenDynamic</strong></p></td>
-<td><p>Динамический (только для рабочей области ODBCDirect)</p>
+<td><p>Dynamic (только для рабочей области ODBCDirect)</p>
 <p><strong>ПРИМЕЧАНИЕ</strong>: Рабочие области ODBCDirect не поддерживаются в Microsoft Access 2013. Используйте ADO, если вы хотите получить доступ к внешним источникам данных без использования ядра СУБД Microsoft Access.</p></td>
 </tr>
 <tr class="odd">
@@ -62,7 +62,7 @@ ms.locfileid: "32307555"
 </tr>
 <tr class="odd">
 <td><p><strong>dbOpenForwardOnly</strong></p></td>
-<td><p>Только для переад.</p></td>
+<td><p>Только для forward</p></td>
 </tr>
 </tbody>
 </table>

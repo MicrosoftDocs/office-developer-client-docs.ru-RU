@@ -1,5 +1,5 @@
 ---
-title: Объекты ADP (справочник по базе данных Access для настольных ПК)
+title: Объекты ADP (ссылка на настольные базы данных)
 TOCTitle: ADP objects
 ms:assetid: 0a0a71fe-b1b0-4679-b2e6-0f7422b97983
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123635(v=office.15)

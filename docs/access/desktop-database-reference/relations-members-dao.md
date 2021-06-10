@@ -1,5 +1,5 @@
 ---
-title: Relations members (DAO)
+title: Участники отношений (DAO)
 TOCTitle: Relations Members
 ms:assetid: b885db68-cee2-c5d7-1f1b-1f53eeae8308
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff822446(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306953"
 ---
-# <a name="relations-members-dao"></a>Relations members (DAO)
+# <a name="relations-members-dao"></a>Участники отношений (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция Relations содержит сохраненные объекты Relation объекта Database (только для баз данных яда яда microsoft Access).
+Коллекция Связей содержит хранимые объекты Связи объекта Базы данных (только базы данных баз данных Microsoft Access).
 
 ## <a name="methods"></a>Методы
 
@@ -36,16 +36,16 @@ ms.locfileid: "32306953"
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><strong><a href="relations-append-method-dao.md">Append</a></strong></p></td>
-<td><p>Добавляет новое <strong>отношение к</strong> коллекции <strong>Relations.</strong></p></td>
+<td><p><strong><a href="relations-append-method-dao.md">Приложение</a></strong></p></td>
+<td><p>Добавляет новое <strong>отношение</strong> к коллекции <strong>Relations.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><a href="relations-delete-method-dao.md">Delete</a></strong></p></td>
-<td><p>Удаляет указанное отношение <strong>из</strong> коллекции <strong>Relations.</strong></p></td>
+<td><p>Удаляет указанное <strong>отношение из</strong> коллекции <strong>Relations.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong><a href="relations-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
+<td><p>Обновляет объекты указанного коллегии, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>

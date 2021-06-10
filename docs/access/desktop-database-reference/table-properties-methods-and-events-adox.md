@@ -1,5 +1,5 @@
 ---
-title: Свойства, методы и события таблицы (ADOX)
+title: Свойства таблицы, методы и события (ADOX)
 TOCTitle: Properties, Methods, and Events
 ms:assetid: c1bb1a4b-92dc-25ee-5ab2-be6bbe713e8a
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249942(v=office.15)
@@ -14,11 +14,11 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308437"
 ---
-# <a name="table-properties-methods-and-events-adox"></a>Свойства, методы и события таблицы (ADOX)
+# <a name="table-properties-methods-and-events-adox"></a>Свойства таблицы, методы и события (ADOX)
 
 **Область применения**: Access 2013, Office 2013
 
-## <a name="propertiescollections"></a>Properties/Collections
+## <a name="propertiescollections"></a>Свойства/коллекции
 
 - [Свойство DateCreated](datecreated-property-adox.md)
 - [Свойство DateModified](datemodified-property-adox.md)
@@ -26,10 +26,10 @@ ms.locfileid: "32308437"
 - [Коллекция Keys](keys-collection-adox.md)
 - [Свойство Name](name-property-adox.md)
 - [Свойство ParentCatalog](parentcatalog-property-adox.md)
-- [Свойство Type (Table)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
+- [Тип свойства (Таблица)](https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox)
 
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 

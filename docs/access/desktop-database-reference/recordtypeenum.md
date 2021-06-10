@@ -1,5 +1,5 @@
 ---
-title: RecordTypeEnum (справочник по базам данных Access для настольных ПК)
+title: RecordTypeEnum (Ссылка на настольные базы данных)
 TOCTitle: RecordTypeEnum
 ms:assetid: 7edd6508-1507-4649-f1aa-03f1873ef09c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249534(v=office.15)
@@ -39,12 +39,12 @@ ms.locfileid: "32309285"
 <tr class="odd">
 <td><p><strong>adSimpleRecord</strong></p></td>
 <td><p>0</p></td>
-<td><p>Указывает <em>простую запись</em> (не содержит child nodes).</p></td>
+<td><p>Указывает <em>простую запись</em> (не содержит детские узлы).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adCollectionRecord</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Указывает запись <em>коллекции</em> (содержит child nodes).</p></td>
+<td><p>1</p></td>
+<td><p>Указывает запись <em>коллекции</em> (содержит детские узлы).</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRecordUnknown</strong></p></td>
@@ -53,8 +53,8 @@ ms.locfileid: "32309285"
 </tr>
 <tr class="even">
 <td><p><strong>adStructDoc</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Указывает особый тип <em>записи коллекции,</em> представляю такой как документы, структурированные по протоколу COM.</p></td>
+<td><p>2</p></td>
+<td><p>Указывает особый вид <em>записи коллекции,</em> представляю которую представляют структурированные документы COM.</p></td>
 </tr>
 </tbody>
 </table>

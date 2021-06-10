@@ -19,7 +19,7 @@ ms.locfileid: "32308507"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующем примере документ открывается из папки чтения и записи с помощью поставщика [интернет-публикации.](microsoft-ole-db-provider-for-internet-publishing.md) Для [свойства Status](status-property-ado-field.md) объекта [Field](field-object-ado.md) записи сначала будет установлено свойство **adFieldPendingInsert,** а затем будет обновлено до **adFieldOk.** [](record-object-ado.md)
+В следующем примере открывается документ из папки чтения и записи с помощью [поставщика публикаций в Интернете.](microsoft-ole-db-provider-for-internet-publishing.md) Свойство [Status](status-property-ado-field.md) объекта [Field](field-object-ado.md) для [](record-object-ado.md) записи сначала будет задано **adFieldPendingInsert,** а затем будет обновлено **в adFieldOk.**
 
 ```vb
     'BeginStatusFieldVB
@@ -78,7 +78,7 @@ ms.locfileid: "32308507"
 
 <br/>
 
-В следующем примере  из записи, открытой из документа, удаляется известное поле.  Для **свойства Status** сначала будет установлено свойство **adFieldOK,** а затем **adFieldPendingUnknown.**
+В следующем примере удаляется известное **поле** из **записи,** открытой из документа. Свойство **Status** сначала будет задавано **adFieldOK,** а затем **adFieldPendingUnknown**.
 
 ```vb
     'BeginStatusField2VB
@@ -132,7 +132,7 @@ ms.locfileid: "32308507"
 
 <br/>
 
-Следующий код удаляет **поле** из записи, открытой в документе только для чтения.  **Для** состояния будет **установлено состояние adFieldPendingDelete.** При [обновлении](update-method-ado.md)удаление не  удастся, а состоянием будет **adFieldPendingDelete** плюс **adFieldPermissionDenied.** [CancelUpdate](cancelupdate-method-ado.md) очищает параметр **состояния** ожидания.
+Следующий код удаляет поле **из** **записи,** открытой только для чтения документа. **Состояние** будет задано **adFieldPendingDelete.** При [обновлении](update-method-ado.md)удаление не удастся, и **статус** **будет adFieldPendingDelete** плюс **adFieldPermissionDenied**. [CancelUpdate](cancelupdate-method-ado.md) очищает отложенный **параметр Состояние.**
 
 ```vb
     Sub Main()

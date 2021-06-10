@@ -19,7 +19,7 @@ ms.locfileid: "32287827"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующем коде показано, как использовать свойство [ParentCatalog](parentcatalog-property-adox.md) для доступа к свойству конкретного поставщика перед присоединением таблицы к каталогу. Свойство — AutoIncrement, которое создает поле AutoIncrement в базе данных Microsoft Jet.
+В следующем коде показано, как использовать свойство [ParentCatalog](parentcatalog-property-adox.md) для доступа к свойству, определенному поставщиком, перед присоединением таблицы к каталогу. Свойство autoIncrement создает поле AutoIncrement в базе данных Microsoft Jet.
 
 ```vb 
  

@@ -21,15 +21,15 @@ ms.locfileid: "32281841"
 Используйте следующие примеры кода, чтобы узнать, как использовать методы ADO при записи в Visual Basic Scripting Edition (VBScript).
 
 > [!NOTE]
-> В качестве примера кода в редакторе кода в качестве примера можно привести весь код. Пример может не работать правильно, если используются частичные примеры или потеряно форматирование абзаца.
+> Вклейте весь пример кода от начала до конца в редактор кода. Пример может работать неправильно, если используются частичные примеры или потеряно форматирование абзаца.
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Пример метода AddNew](addnew-method-example-vbscript.md)
-- [Пример метода Clone](clone-method-example-vbscript.md)
-- [Пример метода Delete](delete-method-example-vbscript.md)
+- [Пример метода клонирования](clone-method-example-vbscript.md)
+- [Удаление примера метода](delete-method-example-vbscript.md)
 - [Пример методов Execute, Requery и Clear](execute-requery-and-clear-methods-example-vbscript.md)
 - [Пример использования метода Move](move-method-example-vbscript.md)
 - [Пример методов MoveFirst, MoveLast, MoveNext и MovePrevious](movefirst-movelast-movenext-and-moveprevious-methods-example-vbscript.md)
-- [Пример методов Open и Close](open-and-close-methods-example-vbscript.md)
+- [Пример открытых и близких методов](open-and-close-methods-example-vbscript.md)
 

@@ -18,7 +18,7 @@ ms.locfileid: "32308626"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [SortOrder](sortorder-property-adox.md) [столбца,](column-object-adox.md) которое было примелось к коллекции [Columns](columns-collection-adox.md) [индекса.](index-object-adox.md) Код привносимый по возрастанию индекс в столбец "Страна" таблицы **Employees** (Сотрудники) и отображает записи. Затем код appends a descending index to the Country column in the **Employees** table and displays the records again. Показана разница между по возрастанию и убыванию индексов.
+В этом примере показано свойство [SortOrder](sortorder-property-adox.md) [столбца,](column-object-adox.md) который был придан коллекции [Столбцы](columns-collection-adox.md) [индекса.](index-object-adox.md) Код привносим восходящий индекс в столбец Страна в таблице **Employees,** а затем отображает записи. Затем код придает убывающий индекс в столбец Страна в таблице **Employees** и снова отображает записи. Показана разница между восходящими и нисходящими индексами.
 
 
 ```vb 

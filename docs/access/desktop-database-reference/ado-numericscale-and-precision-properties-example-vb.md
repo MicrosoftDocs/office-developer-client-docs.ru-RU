@@ -1,5 +1,5 @@
 ---
-title: ADO NumericScale and Precision properties example (VB)
+title: Пример свойств ADO NumericScale и Precision (VB)
 TOCTitle: NumericScale and Precision properties example (VB)
 ms:assetid: 060394b1-0c2c-3726-92a0-0f350bbaa3d5
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248814(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32283277"
 ---
-# <a name="ado-numericscale-and-precision-properties-example-vb"></a>ADO NumericScale and Precision properties example (VB)
+# <a name="ado-numericscale-and-precision-properties-example-vb"></a>Пример свойств ADO NumericScale и Precision (VB)
 
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере свойства [NumericScale](numericscale-property-ado.md) и [Precision](precision-property-ado.md) используются для отображения числовых масштабов и точности полей в таблице ***"Скидки"*** базы данных ***Pubs.***
+В этом примере свойства [NumericScale](numericscale-property-ado.md) и [Precision](precision-property-ado.md) используются для отображения числовых масштабов и точности полей в таблице Скидки базы данных ***Pubs.*** 
 
 ```vb 
  

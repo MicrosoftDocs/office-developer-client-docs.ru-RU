@@ -18,31 +18,31 @@ ms.locfileid: "32283403"
 
 **Область применения**: Access 2013, Office 2013
 
-Поставщики данных, поставщики служб и компоненты службы могут добавлять динамические свойства в коллекции **свойств** неподтвершенных объектов [Connection](connection-object-ado.md) и [Recordset.](recordset-object-ado.md) При открываемом объекте поставщик может также вставлять дополнительные свойства. Некоторые из этих свойств перечислены в разделе ["Динамические свойства ADO".](ado-dynamic-properties.md) Дополнительные перечислены в разделе "Конкретные поставщики" [в разделе "Приложение А. Поставщики".](appendix-a-providers.md)
+Поставщики данных, поставщики услуг и компоненты служб могут добавлять динамические свойства в коллекции **свойств** незапертых объектов [Подключения](connection-object-ado.md) и [Recordset.](recordset-object-ado.md) Данный поставщик может также вставить дополнительные свойства при открывлении этих объектов. Некоторые из этих свойств перечислены в разделе [ADO Dynamic Properties.](ado-dynamic-properties.md) Дополнительные статьи перечислены в разделе [Приложение A: Providers.](appendix-a-providers.md)
 
-В таблице ниже приведен перекрестный индекс имен ADO и OLE DB для каждого стандартного динамического свойства поставщика OLE DB. Поставщики могут добавлять больше свойств, чем указано здесь. Конкретные сведения о динамических свойствах, характерных для конкретного поставщика, см. в документации поставщика.
+Ниже приведен перекрестный индекс имен ADO и OLE DB для каждого стандартного динамического свойства поставщика OLE DB. Поставщики могут добавлять больше свойств, чем указано здесь. Сведения о динамических свойствах конкретного поставщика см. в документации поставщика.
 
-Справочник программиста OLE DB относится к имени свойства ADO по термину "Description". Дополнительные сведения об этих стандартных свойствах можно найти в справочнике программиста OLE DB. Найщите имя свойства OLE DB в индексе или см. следующие разделы:
+Ссылка программиста OLE DB относится к имени свойства ADO по термину "Описание". Дополнительные сведения об этих стандартных свойствах можно найти в справке программиста OLE DB. Поиск имени свойства OLE DB в Индексе или см. следующие разделы:
 
-- Приложение C. Свойства OLE DB
+- Приложение C: OLE DB Properties
 
-- Поддерживаемые свойства службы курсора
+- Поддерживаемые свойства службы cursor
 
 - Поддерживаемые свойства поставщика сохраняемости
 
 - Поддерживаемые свойства OLE DB поставщика remoting
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Номера заметок, используемые в перекрестных индексах:
+Номера примечание, используемые в перекрестных индексах:
 
-(1) Это свойство является boolean флагом, указывающим, следует ли использовать именовамый интерфейс. Эквивалентное имя свойства OLE DB указано, если оно существует.
+(1) Это свойство — флаг Boolean, указывающий, следует ли использовать названный интерфейс. Эквивалентное имя свойства OLE DB перечислены, если оно существует.
 
-(2) Свойство ADO Bookmarkable создается внутренним образом для обеспечения обратной совместимости и сопомечется со свойством OLE DB, DBPROP \_ IROWSETLOCATE. Это то же свойство, которое соответствует свойству ADO IRowsetLocate.
+(2) Свойство ADO "Bookmarkable" создается внутренне для обратной совместимости и сопопомечается с свойством OLE DB, DBPROP \_ IROWSETLOCATE. Это то же свойство, которое соответствует свойству ADO IRowsetLocate.
 
-(3) Имя свойства ADO, "Hidden Columns", называется иначе, чем имя свойства OLE DB Description, "Hidden Columns Count".
+(3) Имя свойства ADO , "Скрытые столбцы", называется иначе, чем имя свойства OLE DB Описание, "Скрытые столбцы кол".
 
-(4) Для иерархических записей свойство ADO "Maximum Rows" применяется для всех детей. В зависимости от порядка, в котором возвращаются строки, в наборе результатов могут быть все, некоторые или никакие дети для каждого родительского или потерянных детей. Поэтому при повторном подмене иерархических записей идентификатор каждого из них должен быть уникальным. Как правило, служба формирования данных Майкрософт для [поставщика OLE DB (MSDATASHAPE)](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) не допускает различия между свойствами, которые могут наследоваться от родительского, и свойствами, которые не могут быть унаследованы.
+(4) Для иерархических записей свойство ADO "Maximum Rows" применяется во всех детях. В зависимости от порядка, в котором возвращаются строки, в наборе результатов могут быть все, некоторые или нет детей для каждого родителя или детей-сирот. Поэтому при переописывке иерархических записей идентификатор для каждого ребенка должен быть уникальным. Как правило, служба формирования данных Майкрософт для [поставщика OLE DB (MSDATASHAPE)](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) не позволяет проводить различие между свойствами, которые могут наследоваться от родителя, и свойствами, которые не могут быть унаследованы.
 
 (5) Не применяется.
 
@@ -55,7 +55,7 @@ ms.locfileid: "32283403"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ADO Property Name</p></th>
+<th><p>Имя свойства ADO</p></th>
 <th><p>Имя свойства OLE DB</p></th>
 </tr>
 </thead>
@@ -73,7 +73,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_ASYNCTNXCOMMIT</p></td>
 </tr>
 <tr class="even">
-<td><p>Уровни изоляции автозафикса</p></td>
+<td><p>Уровни изоляции автокоммита</p></td>
 <td><p>DBPROP_SESS_AUTOCOMMITISOLEVELS</p></td>
 </tr>
 <tr class="odd">
@@ -81,15 +81,15 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_CATALOGLOCATION</p></td>
 </tr>
 <tr class="even">
-<td><p>Термин каталога</p></td>
+<td><p>Термин Каталог</p></td>
 <td><p>DBPROP_CATALOGTERM</p></td>
 </tr>
 <tr class="odd">
-<td><p>Определение столбца</p></td>
+<td><p>Определение столбцов</p></td>
 <td><p>DBPROP_COLUMNDEFINITION</p></td>
 </tr>
 <tr class="even">
-<td><p>Время подключения</p></td>
+<td><p>Подключение Время от времени</p></td>
 <td><p>DBPROP_INIT_TIMEOUT</p></td>
 </tr>
 <tr class="odd">
@@ -105,11 +105,11 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_DATASOURCENAME</p></td>
 </tr>
 <tr class="even">
-<td><p>Потоковая модель объектов источника данных</p></td>
+<td><p>Модель потоковой обработки объектов источника данных</p></td>
 <td><p>DBPROP_DSOTHREADMODEL</p></td>
 </tr>
 <tr class="odd">
-<td><p>DBMS Name</p></td>
+<td><p>Имя DBMS</p></td>
 <td><p>DBPROP_DBMSNAME</p></td>
 </tr>
 <tr class="even">
@@ -125,7 +125,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_GROUPBY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Поддержка разнородных таблиц</p></td>
+<td><p>Гетерогенная поддержка таблиц</p></td>
 <td><p>DBPROP_HETEROGENEOUSTABLES</p></td>
 </tr>
 <tr class="even">
@@ -145,7 +145,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_SUPPORTEDTXNISORETAIN</p></td>
 </tr>
 <tr class="even">
-<td><p>Код локального идентификатора</p></td>
+<td><p>Идентификатор locale</p></td>
 <td><p>DBPROP_INIT_LCID</p></td>
 </tr>
 <tr class="odd">
@@ -165,7 +165,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_MAXROWSIZEINCLUDESBLOB</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное число таблиц в SELECT</p></td>
+<td><p>Максимальные таблицы в SELECT</p></td>
 <td><p>DBPROP_MAXTABLESINSELECT</p></td>
 </tr>
 <tr class="even">
@@ -181,7 +181,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_MULTIPLERESULTS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Несколько объектов хранилища</p></td>
+<td><p>Несколько служба хранилища объектов</p></td>
 <td><p>DBPROP_MULTIPLESTORAGEOBJECTS</p></td>
 </tr>
 <tr class="even">
@@ -189,11 +189,11 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_MULTITABLEUPDATE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Порядок оценки NULL</p></td>
+<td><p>Порядок коллансирования NULL</p></td>
 <td><p>DBPROP_NULLCOLLATION</p></td>
 </tr>
 <tr class="even">
-<td><p>Поведение при конкатенации NULL</p></td>
+<td><p>NULL Concatenation Behaviour</p></td>
 <td><p>DBPROP_CONCATNULLBEHAVIOR</p></td>
 </tr>
 <tr class="odd">
@@ -209,7 +209,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_OLEOBJECTS</p></td>
 </tr>
 <tr class="even">
-<td><p>Поддержка открытого наборов строк</p></td>
+<td><p>Поддержка open Rowset</p></td>
 <td><p>DBPROP_OPENROWSETSUPPORT</p></td>
 </tr>
 <tr class="odd">
@@ -217,7 +217,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_ORDERBYCOLUMNSINSELECT</p></td>
 </tr>
 <tr class="even">
-<td><p>Доступность выходных параметров</p></td>
+<td><p>Доступность параметров вывода</p></td>
 <td><p>DBPROP_OUTPUTPARAMETERAVAILABILITY</p></td>
 </tr>
 <tr class="odd">
@@ -229,15 +229,15 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_AUTH_PASSWORD</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранить сведения о безопасности</p></td>
+<td><p>Сохраняются сведения о безопасности</p></td>
 <td><p>DBPROP_AUTH_PERSIST_SENSITIVE_AUTHINFO</p></td>
 </tr>
 <tr class="even">
-<td><p>Тип сохраняемого ИД</p></td>
+<td><p>Тип сохраняемого ID</p></td>
 <td><p>DBPROP_PERSISTENTIDTYPE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Подготовка поведения для отменить</p></td>
+<td><p>Подготовка поведения прервать</p></td>
 <td><p>DBPROP_PREPAREABORTBEHAVIOR</p></td>
 </tr>
 <tr class="even">
@@ -253,7 +253,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_INIT_PROMPT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Имя поставщика</p></td>
+<td><p>Удобное имя поставщика</p></td>
 <td><p>DBPROP_PROVIDERFRIENDLYNAME</p></td>
 </tr>
 <tr class="even">
@@ -265,15 +265,15 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_PROVIDERVER</p></td>
 </tr>
 <tr class="even">
-<td><p>Read-Only данных</p></td>
+<td><p>Read-Only источник данных</p></td>
 <td><p>DBPROP_DATASOURCEREADONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Преобразование наборов строк в команде</p></td>
+<td><p>Преобразования rowset в командной строке</p></td>
 <td><p>DBPROP_ROWSETCONVERSIONSONCOMMAND</p></td>
 </tr>
 <tr class="even">
-<td><p>Термин схемы</p></td>
+<td><p>Термин Схемы</p></td>
 <td><p>DBPROP_SCHEMATERM</p></td>
 </tr>
 <tr class="odd">
@@ -281,23 +281,23 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_SCHEMAUSAGE</p></td>
 </tr>
 <tr class="even">
-<td><p>SQL поддержки</p></td>
+<td><p>SQL Поддержка</p></td>
 <td><p>DBPROP_SQLSUPPORT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Структурированное хранилище</p></td>
+<td><p>Структурированные служба хранилища</p></td>
 <td><p>DBPROP_STRUCTUREDSTORAGE</p></td>
 </tr>
 <tr class="even">
-<td><p>Поддержка ветвей</p></td>
+<td><p>Поддержка subquery</p></td>
 <td><p>DBPROP_SUBQUERIES</p></td>
 </tr>
 <tr class="odd">
-<td><p>Table Term</p></td>
+<td><p>Термин Таблица</p></td>
 <td><p>DBPROP_TABLETERM</p></td>
 </tr>
 <tr class="even">
-<td><p>DDL транзакции</p></td>
+<td><p>DDL транзакций</p></td>
 <td><p>DBPROP_SUPPORTEDTXNDDL</p></td>
 </tr>
 <tr class="odd">
@@ -309,16 +309,16 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_USERNAME</p></td>
 </tr>
 <tr class="odd">
-<td><p>Окне Окне</p></td>
+<td><p>Ручка окна</p></td>
 <td><p>DBPROP_INIT_HWND</p></td>
 </tr>
 </tbody>
 </table>
 
 
-**Динамические свойства recordset**
+**Динамические свойства Recordset**
 
-Обратите **внимание, что динамические** свойства объекта **Recordset** выходить за пределы области (становятся недоступными) при закрытии **объекта Recordset.**
+Обратите внимание, **что динамические свойства** объекта **Recordset** выйдут из сферы действия (становятся недоступными) при закрытии **наборов записей.**
 
 <table>
 <colgroup>
@@ -327,7 +327,7 @@ ms.locfileid: "32283403"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>ADO Property Name</p></th>
+<th><p>Имя свойства ADO</p></th>
 <th><p>Имя свойства OLE DB</p></th>
 </tr>
 </thead>
@@ -445,7 +445,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_APPENDONLY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Асинхронная обработка наборов строк</p></td>
+<td><p>Асинхронная обработка rowset</p></td>
 <td><p>DBPROP_ROWSET_ASYNCH</p></td>
 </tr>
 <tr class="even">
@@ -453,11 +453,11 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_ADC_AUTORECALC</p></td>
 </tr>
 <tr class="odd">
-<td><p>Фоновое извлечение размера</p></td>
+<td><p>Размер фоновой выборки</p></td>
 <td><p>DBPROP_ASYNCHFETCHSIZE</p></td>
 </tr>
 <tr class="even">
-<td><p>Приоритет фонового потока</p></td>
+<td><p>Приоритет фоновых потоков</p></td>
 <td><p>DBPROP_ASYNCHTHREADPRIORITY</p></td>
 </tr>
 <tr class="odd">
@@ -465,11 +465,11 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_ADC_BATCHSIZE</p></td>
 </tr>
 <tr class="even">
-<td><p>Блокировка объектов хранилища</p></td>
+<td><p>Блокировка служба хранилища объектов</p></td>
 <td><p>DBPROP_BLOCKINGSTORAGEOBJECTS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Тип закладки</p></td>
+<td><p>Тип закладок</p></td>
 <td><p>DBPROP_BOOKMARKTYPE</p></td>
 </tr>
 <tr class="even">
@@ -477,11 +477,11 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_IROWSETLOCATE (2)</p></td>
 </tr>
 <tr class="odd">
-<td><p>Bookmarks Ordered</p></td>
+<td><p>Закладки заказать</p></td>
 <td><p>DBPROP_ORDEREDBOOKMARKS</p></td>
 </tr>
 <tr class="even">
-<td><p>Кэш child Rows</p></td>
+<td><p>Детские строки кэша</p></td>
 <td><p>DBPROP_ADC_CACHECHILDROWS</p></td>
 </tr>
 <tr class="odd">
@@ -501,23 +501,23 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_NOTIFYCOLUMNSET</p></td>
 </tr>
 <tr class="odd">
-<td><p>Для написываемых столбцов</p></td>
+<td><p>Колонка Writable</p></td>
 <td><p>DBPROP_MAYWRITECOLUMN</p></td>
 </tr>
 <tr class="even">
-<td><p>Время простоя команды</p></td>
+<td><p>Командный выход</p></td>
 <td><p>DBPROP_COMMANDTIMEOUT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Версия курсора</p></td>
+<td><p>Версия двигателя cursor</p></td>
 <td><p>DBPROP_ADC_CEVER</p></td>
 </tr>
 <tr class="even">
-<td><p>Отложить столбец</p></td>
+<td><p>Столбец Отсрочка</p></td>
 <td><p>DBPROP_DEFERRED</p></td>
 </tr>
 <tr class="odd">
-<td><p>Задержка обновлений объектов хранилища</p></td>
+<td><p>Задержка служба хранилища обновлений объектов</p></td>
 <td><p>DBPROP_DELAYSTORAGEOBJECTS</p></td>
 </tr>
 <tr class="even">
@@ -533,7 +533,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_FINDCOMPAREOPS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Скрытые столбцы (количество)</p></td>
+<td><p>Скрытые столбцы (count)</p></td>
 <td><p>DBPROP_HIDDENCOLUMNS (3)</p></td>
 </tr>
 <tr class="even">
@@ -541,35 +541,35 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_CANHOLDROWS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Строки Immobile</p></td>
+<td><p>Immobile Rows</p></td>
 <td><p>DBPROP_IMMOBILEROWS</p></td>
 </tr>
 <tr class="even">
-<td><p>Начальный размер извлечения</p></td>
+<td><p>Начальный размер fetch</p></td>
 <td><p>DBPROP_ASYNCHPREFETCHSIZE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Литеральные закладки</p></td>
+<td><p>Буквальные закладки</p></td>
 <td><p>DBPROP_LITERALBOOKMARKS</p></td>
 </tr>
 <tr class="even">
-<td><p>Идентификатор строки литералов</p></td>
+<td><p>Удостоверение буквальных строк</p></td>
 <td><p>DBPROP_LITERALIDENTITY</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранение состояния изменения</p></td>
+<td><p>Сохранение состояния изменений</p></td>
 <td><p>DBPROP_ADC_MAINTAINCHANGESTATUS</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное число открытых строк</p></td>
+<td><p>Максимальные открытые строки</p></td>
 <td><p>DBPROP_MAXOPENROWS</p></td>
 </tr>
 <tr class="odd">
-<td><p>Максимальное число ожидающих строк</p></td>
+<td><p>Максимальное количество ожидающих строк</p></td>
 <td><p>DBPROP_MAXPENDINGROWS</p></td>
 </tr>
 <tr class="even">
-<td><p>Максимальное число строк</p></td>
+<td><p>Максимальные строки</p></td>
 <td><p>DBPROP_MAXROWS (4)</p></td>
 </tr>
 <tr class="odd">
@@ -585,7 +585,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_NOTIFICATIONPHASES</p></td>
 </tr>
 <tr class="even">
-<td><p>Transacted объектов</p></td>
+<td><p>Objects Transacted</p></td>
 <td><p>DBPROP_TRANSACTEDOBJECT</p></td>
 </tr>
 <tr class="odd">
@@ -597,19 +597,19 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_OTHERINSERT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Собственные изменения, видимые</p></td>
+<td><p>Собственные изменения Видимые</p></td>
 <td><p>DBPROP_OWNUPDATEDELETE</p></td>
 </tr>
 <tr class="even">
-<td><p>Собственные вставки видимые</p></td>
+<td><p>Собственные вставки Видимые</p></td>
 <td><p>DBPROP_OWNINSERT</p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранение при отменить</p></td>
+<td><p>Сохранение на abort</p></td>
 <td><p>DBPROP_ABORTPRESERVE</p></td>
 </tr>
 <tr class="even">
-<td><p>Сохранение при фиксации</p></td>
+<td><p>Сохранение на коммит</p></td>
 <td><p>DBPROP_COMMITPRESERVE</p></td>
 </tr>
 <tr class="odd">
@@ -621,7 +621,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_QUICKRESTART</p></td>
 </tr>
 <tr class="odd">
-<td><p>Reentrant Events</p></td>
+<td><p>События для повторного антуламента</p></td>
 <td><p>DBPROP_REENTRANTEVENTS</p></td>
 </tr>
 <tr class="even">
@@ -633,15 +633,15 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_REPORTMULTIPLECHANGES</p></td>
 </tr>
 <tr class="even">
-<td><p>Reshape Name</p></td>
+<td><p>Переописываю имя</p></td>
 <td><p>DBPROP_ADC_RESHAPENAME</p></td>
 </tr>
 <tr class="odd">
-<td><p>Resync Command</p></td>
+<td><p>Команда Resync</p></td>
 <td><p>DBPROP_ADC_CUSTOMRESYNCH</p></td>
 </tr>
 <tr class="even">
-<td><p>Возврат ожидающих вставки</p></td>
+<td><p>Возвращение ожидающих вставок</p></td>
 <td><p>DBPROP_RETURNPENDINGINSERTS</p></td>
 </tr>
 <tr class="odd">
@@ -657,7 +657,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_NOTIFYROWINSERT</p></td>
 </tr>
 <tr class="even">
-<td><p>Привилегии строк</p></td>
+<td><p>Привилегии строки</p></td>
 <td><p>DBPROP_ROWRESTRICT</p></td>
 </tr>
 <tr class="odd">
@@ -665,7 +665,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_NOTIFYROWRESYNCH</p></td>
 </tr>
 <tr class="even">
-<td><p>Модель потоков по строкам</p></td>
+<td><p>Модель потоков строки</p></td>
 <td><p>DBPROP_ROWTHREADMODEL</p></td>
 </tr>
 <tr class="odd">
@@ -673,11 +673,11 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_NOTIFYROWUNDOCHANGE</p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление об отмене удаления строки</p></td>
+<td><p>Уведомление об отмене строки</p></td>
 <td><p>DBPROP_NOTIFYROWUNDODELETE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Уведомление об отмене вставки строки</p></td>
+<td><p>Уведомление об отмене строки</p></td>
 <td><p>DBPROP_NOTIFYROWUNDOINSERT</p></td>
 </tr>
 <tr class="even">
@@ -689,11 +689,11 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_NOTIFYROWSETFETCHPOSITIONCHANGE</p></td>
 </tr>
 <tr class="even">
-<td><p>Уведомление о выпуске rowset</p></td>
+<td><p>Уведомление о выпуске Rowset</p></td>
 <td><p>DBPROP_NOTIFYROWSETRELEASE</p></td>
 </tr>
 <tr class="odd">
-<td><p>Прокрутка назад</p></td>
+<td><p>Прокрутите назад</p></td>
 <td><p>DBPROP_CANSCROLLBACKWARDS</p></td>
 </tr>
 <tr class="even">
@@ -705,7 +705,7 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_BOOKMARKSKIPPED</p></td>
 </tr>
 <tr class="even">
-<td><p>Удостоверение строки strong</p></td>
+<td><p>Удостоверение Strong Row</p></td>
 <td><p>DBPROP_STRONGIDENTITY</p></td>
 </tr>
 <tr class="odd">
@@ -729,11 +729,11 @@ ms.locfileid: "32283403"
 <td><p>DBPROP_UPDATABILITY</p></td>
 </tr>
 <tr class="even">
-<td><p>Условия обновления</p></td>
+<td><p>Критерии обновления</p></td>
 <td><p>DBPROP_ADC_UPDATECRITERIA</p></td>
 </tr>
 <tr class="odd">
-<td><p>Обновление resync</p></td>
+<td><p>Обновление Resync</p></td>
 <td><p>DBPROP_ADC_UPDATERESYNC</p></td>
 </tr>
 <tr class="even">

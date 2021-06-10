@@ -18,7 +18,7 @@ ms.locfileid: "32283221"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующей таблице перечислены продукты, инструменты и технологии Майкрософт, которые обсуждаются в руководстве *программиста ADO.* Он предоставляет ссылки по возможности на соответствующие разделы в руководстве.
+В следующей таблице перечислены продукты, инструменты и технологии Майкрософт, рассмотренные в руководстве *программиста ADO.* Он предоставляет ссылки, где это возможно, на соответствующие темы в руководстве.
 
 <table>
 <colgroup>
@@ -27,7 +27,7 @@ ms.locfileid: "32283221"
 </colgroup>
 <thead>
 <tr class="header">
-<th><p>Продукт или технология Майкрософт</p></th>
+<th><p>Microsoft Product или Technology</p></th>
 <th><p>Ссылки</p></th>
 </tr>
 </thead>
@@ -42,7 +42,7 @@ ms.locfileid: "32283221"
 </tr>
 <tr class="odd">
 <td><p>COM/DCOM</p></td>
-<td><p><a href="prerequisites-ado-introduction.md">Необходимые компоненты</a><br/><br/><a href="marking-business-objects-as-safe-for-scripting.md">Marking Business Objects as Safe for Scripting</a><br/><br/><a href="registering-business-objects-on-the-client-for-use-with-dcom.md">Registering Business Objects on the Client for Use with DCOM</a><br/><br/><a href="setting-dcom-stream-marshaling-format.md">Setting DCOM Stream Marshaling Format</a><br/><br/><a href="enabling-a-dll-to-run-on-dcom.md">Enabling a DLL to Run on DCOM</a><br/><br/><a href="running-business-objects-in-component-services.md">Running Business Objects in Component Services</a><br/><br/></p></td>
+<td><p><a href="prerequisites-ado-introduction.md">Необходимые условия</a><br/><br/><a href="marking-business-objects-as-safe-for-scripting.md">Marking Business Objects as Safe for Scripting</a><br/><br/><a href="registering-business-objects-on-the-client-for-use-with-dcom.md">Registering Business Objects on the Client for Use with DCOM</a><br/><br/><a href="setting-dcom-stream-marshaling-format.md">Setting DCOM Stream Marshaling Format</a><br/><br/><a href="enabling-a-dll-to-run-on-dcom.md">Enabling a DLL to Run on DCOM</a><br/><br/><a href="running-business-objects-in-component-services.md">Running Business Objects in Component Services</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>FrontPage</p></td>
@@ -58,7 +58,7 @@ ms.locfileid: "32283221"
 </tr>
 <tr class="odd">
 <td><p>Службы IIS</p></td>
-<td><p><a href="chapter-10-records-and-streams.md">Chapter 10: Records and Streams</a><br/><br/><a href="streams-and-persistence.md">Streams and Persistence</a><br/><br/><a href="using-ado-for-internet-publishing.md">Using ADO for Internet Publishing</a><br/><br/><a href="solutions-for-remote-data-access.md">Solutions for Remote Data Access</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">Configuring Virtual Servers on IIS</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">Specifying Threads Per Processor on IIS</a><br/><br/><a href="securing-rds-applications.md">Securing RDS Applications</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Ошибка internet Server: доступ отказано в доступе&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a><br/><br/><a href="internet-information-services-error-codes.md">Internet Information Services Error Codes</a><br/><br/></p></td>
+<td><p><a href="chapter-10-records-and-streams.md">Chapter 10: Records and Streams</a><br/><br/><a href="streams-and-persistence.md">Streams and Persistence</a><br/><br/><a href="using-ado-for-internet-publishing.md">Using ADO for Internet Publishing</a><br/><br/><a href="solutions-for-remote-data-access.md">Solutions for Remote Data Access</a><br/><br/><a href="configuring-virtual-servers-on-iis.md">Configuring Virtual Servers on IIS</a><br/><br/><a href="specifying-threads-per-processor-on-iis.md">Specifying Threads Per Processor on IIS</a><br/><br/><a href="securing-rds-applications.md">Securing RDS Applications</a><br/><br/><a href="internet-server-error-access-denied.md">&quot;Ошибка сервера Интернета: доступ отказано&quot;</a><br/><br/><a href="microsoft-ole-db-provider-for-internet-publishing.md">Microsoft OLE DB Provider for Internet Publishing</a><br/><br/><a href="internet-information-services-error-codes.md">Internet Information Services Error Codes</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>JScript</p></td>
@@ -66,7 +66,7 @@ ms.locfileid: "32283221"
 </tr>
 <tr class="odd">
 <td><p>ODBC</p></td>
-<td><p><a href="the-role-of-ado-in-microsoft-data-access.md">The Role of ADO in Microsoft Data Access</a><br/><br/><a href="using-the-connection-object-access.md">Использование объекта Connection</a><br/><br/><a href="using-rds-with-odbc-connection-pooling.md">Using RDS with ODBC Connection Pooling</a><br/><br/><a href="microsoft-ole-db-provider-for-odbc.md">Microsoft OLE DB Provider for ODBC</a><br/><br/></p></td>
+<td><p><a href="the-role-of-ado-in-microsoft-data-access.md">The Role of ADO in Microsoft Data Access</a><br/><br/><a href="using-the-connection-object-access.md">Использование объекта подключения</a><br/><br/><a href="using-rds-with-odbc-connection-pooling.md">Using RDS with ODBC Connection Pooling</a><br/><br/><a href="microsoft-ole-db-provider-for-odbc.md">Microsoft OLE DB Provider for ODBC</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>OLE DB</p></td>
@@ -86,19 +86,19 @@ ms.locfileid: "32283221"
 </tr>
 <tr class="even">
 <td><p>VBScript</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a><br/><br/><a href="visual-basic-for-applications-functions.md">Visual Basic для приложений функций</a><br/><br/><a href="solutions-for-remote-data-access.md">Solutions for Remote Data Access</a><br/><br/><a href="rds-tutorial-vbscript.md">RDS Tutorial (VBScript)</a><br/><br/><a href="vbscript-ado-programming.md">VBScript ADO Programming</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic-scripting-edition.md">Примеры кода ADO на языке сценариев VBScript</a><br/><br/></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a><br/><br/><a href="visual-basic-for-applications-functions.md">Visual Basic для приложений Функции</a><br/><br/><a href="solutions-for-remote-data-access.md">Solutions for Remote Data Access</a><br/><br/><a href="rds-tutorial-vbscript.md">RDS Tutorial (VBScript)</a><br/><br/><a href="vbscript-ado-programming.md">VBScript ADO Programming</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic-scripting-edition.md">Примеры кода ADO на языке сценариев VBScript</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual Basic</p></td>
-<td><p><a href="errors.md">сведения об ошибках</a>;<br/><br/><a href="ado-errors.md">ADO Errors</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">ADO Event Instantiation By Language</a><br/><br/><a href="visual-basic-for-applications-functions.md">Visual Basic для приложений функций</a><br/><br/><a href="chapter-12-rds-tutorial.md">Chapter 12: RDS Tutorial</a><br/><br/><a href="using-ado-with-microsoft-visual-basic.md">Using ADO with Microsoft Visual Basic</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic.md">Примеры кода ADO в Microsoft Visual Basic</a><br/><br/></p></td>
+<td><p><a href="errors.md">сведения об ошибках</a>;<br/><br/><a href="ado-errors.md">ADO Errors</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">Мгновенный доступ к событиям ADO по языку</a><br/><br/><a href="visual-basic-for-applications-functions.md">Visual Basic для приложений Функции</a><br/><br/><a href="chapter-12-rds-tutorial.md">Chapter 12: RDS Tutorial</a><br/><br/><a href="using-ado-with-microsoft-visual-basic.md">Using ADO with Microsoft Visual Basic</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-basic.md">Примеры кода ADO в Microsoft Visual Basic</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual C++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">ADO Event Instantiation By Language</a><br/><br/><a href="using-ado-with-microsoft-visual-c.md">Using ADO with Microsoft Visual C++</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-c.md">Примеры кода ADO в Microsoft Visual C++</a><br/><br/></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">Мгновенный доступ к событиям ADO по языку</a><br/><br/><a href="using-ado-with-microsoft-visual-c.md">Using ADO with Microsoft Visual C++</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-c.md">Примеры кода ADO в Microsoft Visual C++</a><br/><br/></p></td>
 </tr>
 <tr class="odd">
 <td><p>Visual J++</p></td>
-<td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">ADO Event Instantiation By Language</a><br/><br/><a href="rds-tutorial-visual-j.md">RDS Tutorial (Visual J++)</a><br/><br/><a href="using-ado-with-microsoft-visual-j.md">Using ADO with Microsoft Visual J++</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-j.md">Примеры кода ADO на Microsoft Visual J++</a><br/><br/></p></td>
+<td><p><a href="handling-errors-in-other-languages.md">Обработка ошибок на других языках</a><br/><br/><a href="ado-event-instantiation-by-language-ado.md">Мгновенный доступ к событиям ADO по языку</a><br/><br/><a href="rds-tutorial-visual-j.md">RDS Tutorial (Visual J++)</a><br/><br/><a href="using-ado-with-microsoft-visual-j.md">Using ADO with Microsoft Visual J++</a><br/><br/><a href="ado-code-examples-in-microsoft-visual-j.md">Примеры кода ADO на Microsoft Visual J++</a><br/><br/></p></td>
 </tr>
 <tr class="even">
 <td><p>Visual Studio</p></td>

@@ -19,7 +19,7 @@ ms.locfileid: "32280490"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере свойства [ActualSize](actualsize-property-ado.md) [и DefinedSize](definedsize-property-ado.md) используются для отображения определенного размера и фактического размера поля.
+В этом примере свойства [ActualSize](actualsize-property-ado.md) и [DefinedSize](definedsize-property-ado.md) используются для отображения определенного размера и фактического размера поля.
 
 ```cpp 
  

@@ -18,13 +18,13 @@ ms.locfileid: "32283242"
 
 **Область применения**: Access 2013, Office 2013
 
-Руководство программиста ADO было создано, чтобы помочь разработчикам, которые только что являются разработчиками ADO, предоставляя им подробное введение в технологию. В этом руководстве описываются библиотеки семейства ADO и используются примеры кода на различных языках, поясняющие, как использовать библиотеки, рекомендации по использованию библиотек, а также советы и рекомендации по максимальной производительности приложения ADO.
+Руководство программиста ADO было создано для оказания помощи разработчикам, которые являются новыми для ADO, предоставляя им подробное представление о технологии. В этом руководстве описываются библиотеки семейства ADO и используется пример кода на различных языках, чтобы объяснить, как использовать библиотеки, рекомендации по использованию библиотек, а также советы и рекомендации по максимальной производительности приложения ADO.
 
 Руководство программиста ADO содержит следующие разделы и главы:
 
 - [Введение](introduction-to-ado-programming.md)
   
-- [Раздел I. ActiveX data Objects (ADO)](section-i-activex-data-objects.md)
+- [Раздел I. ActiveX объекты данных (ADO)](section-i-activex-data-objects.md)
     
     - [Chapter 1: ADO Fundamentals](chapter-1-ado-fundamentals.md)
     - [Chapter 2: Getting Data](chapter-2-getting-data.md)
@@ -43,11 +43,11 @@ ms.locfileid: "32283242"
     - [Chapter 12: RDS Tutorial](chapter-12-rds-tutorial.md)
     - [Chapter 13: RDS Usage and Security](chapter-13-rds-usage-and-security.md)
 
-- [Раздел III. ActiveX data Objects (Multidimensional) (ADOMD)](section-iii-ado-multidimensional-ado-md.md)
+- [Раздел III: ActiveX объектов данных (Multidimensional) (ADOMD)](section-iii-ado-multidimensional-ado-md.md)
     
     - [Chapter 14: ADO MD Fundamentals](chapter-14-ado-md-fundamentals.md)
 
-- [Раздел IV. ActiveX data Objects Extensions for Data Definition Language and Security (ADOX)](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
+- [Раздел IV. ActiveX расширения объектов данных для языка определения данных и безопасности (ADOX)](section-iv-ado-extensions-for-data-definition-language-and-security-adox.md)
     
     - [Chapter 15: ADOX Fundamentals](chapter-15-adox-fundamentals.md)
 

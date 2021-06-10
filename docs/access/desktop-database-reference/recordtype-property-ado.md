@@ -19,13 +19,13 @@ ms.locfileid: "32309107"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает тип объекта [Record.](record-object-ado.md)
+Указывает тип объекта [Запись.](record-object-ado.md)
 
 ## <a name="return-value"></a>Возвращаемое значение
 
 Возвращает значение [RecordTypeEnum.](recordtypeenum.md)
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Свойство **RecordType** имеет только чтение.
+Свойство **RecordType** является только для чтения.
 

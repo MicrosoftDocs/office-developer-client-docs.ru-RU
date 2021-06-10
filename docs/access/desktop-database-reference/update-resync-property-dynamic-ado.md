@@ -19,17 +19,17 @@ ms.locfileid: "32308346"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, следует ли за [методом UpdateBatch](updatebatch-method-ado.md) неявную операцию метода [Resync](resync-method-ado.md) и, если да, область этой операции.
+Указывает, следует ли [методу UpdateBatch](updatebatch-method-ado.md) неявная операция метода [Resync](resync-method-ado.md) и если да, то область этой операции.
 
-## <a name="settings-and-return-values"></a>Параметры и возвращаемые значения
+## <a name="settings-and-return-values"></a>Параметры и значения возврата
 
-Задает или возвращает одно или несколько значений [ENUM ADCPROP \_ UPDATERESYNC. \_ ](adcprop-updateresync-enum.md)
+Задает или возвращает одно или несколько значений [ADCPROP \_ UPDATERESYNC \_ ENUM.](adcprop-updateresync-enum.md)
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Значения ENUM ADCPROP UPDATERESYNC могут быть объединены, за исключением \_ adResyncAll, который уже представляет комбинацию остальных \_ значений.
+Значения ADCPROP UPDATERESYNC ENUM могут быть объединены, за исключением \_ adResyncAll, который уже представляет сочетание остальных \_ значений.
 
-**Константа adResyncConflicts** сохраняет значения повторной проверки в качестве значений, но не переопределяет ожидающие изменения.
+Постоянная **adResyncConflicts** сохраняет значения resync в качестве значений, но не переопределяет ожидающие изменения.
 
-**Update Resync** — это динамическое свойство, [](properties-collection-ado.md) которое применится к коллекции свойств объекта [Recordset,](recordset-object-ado.md) когда свойству [CursorLocation](cursorlocation-property-ado.md) задано свойство **adUseClient.**
+**Update Resync** — это динамическое свойство, [](properties-collection-ado.md) применимое к коллекции свойств объектов [Recordset,](recordset-object-ado.md) когда свойство [CursorLocation](cursorlocation-property-ado.md) задано **для adUseClient.**
 

@@ -23,27 +23,27 @@ ms.locfileid: "32306995"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает имя основной таблицы объекта **[Relation.](relation-object-dao.md)** Это должно быть равно параметру **[свойства Name](connection-name-property-dao.md)** объекта **[TableDef](tabledef-object-dao.md)** или **[QueryDef](querydef-object-dao.md)** (только для рабочей области Microsoft Access).
+Указывает имя основной таблицы объекта **[Relation.](relation-object-dao.md)** Это должно быть равно параметру **[свойства Name](connection-name-property-dao.md)** объекта **[TableDef](tabledef-object-dao.md)** или **[QueryDef](querydef-object-dao.md)** (только в рабочей области Microsoft Access).
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* Таблица
+*выражения* . Таблица
 
 *выражение* Переменная, представляюная объект **Relation.**
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Параметр **свойства Table** для нового объекта **Relation** еще не был сдан в коллекцию и доступно только для чтения для существующего объекта **Relation** в коллекции **[Relations.](relations-collection-dao.md)**
+Параметр **Свойства Table** — это чтение и записи для нового объекта **Relation,** еще не примыкаемого к коллекции и только для чтения существующего объекта **Relation** в коллекции **[Relations.](relations-collection-dao.md)**
 
-Используйте свойство **Table** со **[свойством ForeignTable](relation-foreigntable-property-dao.md)** для определения объекта **Relation,** который представляет отношение между полями в двух таблицах или запросах. Установите для свойства **Table** параметр свойства **Name** основного объекта **TableDef** или **QueryDef** и задайте для свойства **ForeignTable** параметр свойства **Name** внешнего (ссылаясь) **объекта TableDef** или **QueryDef.** Свойство **[Attributes](field-attributes-property-dao.md)** определяет тип связи между двумя объектами.
+Используйте свойство **Table** с **[свойством ForeignTable](relation-foreigntable-property-dao.md)** для определения объекта **Relation,** который представляет связь между полями в двух таблицах или запросах. Установите  свойство **Table**  в параметре Свойства Name основного объекта **TableDef** или **QueryDef** и установите свойство **ForeignTable** в параметре Свойства Name иностранного (ссылаясь) **объекта TableDef** или **QueryDef.** Свойство **[Атрибуты](field-attributes-property-dao.md)** определяет тип связи между двумя объектами.
 
-Например, если у вас есть список действительных кодов части (в поле с именем PartNo), хранимый в таблице ValidParts, можно установить отношение "один к многим" с таблицей OrderItem таким образом, что если код части был введен в таблицу OrderItem, он должен уже быть в таблице ValidParts. Если код части не существует в таблице ValidParts и вы не установили для свойства **Attributes** объекта **Relation** значение **dbRelationDontEnforce,** произойдет перехватимая ошибка.
+Например, если в таблице ValidParts хранится список действительных кодов части (в поле с именем PartNo), можно установить отношение один к многим со таблицей OrderItem, что если код части был введен в таблицу OrderItem, он должен быть уже в таблице ValidParts. Если код части не существовал в таблице ValidParts и  вы не заостряли свойство Атрибуты объекта **Relation** на **dbRelationDontEnforce,** может возникнуть ошибка.
 
-В этом случае таблица ValidParts является основной, поэтому свойству **Table** объекта **Relation** будет задано свойство ValidParts, а свойству **ForeignTable** объекта **Relation** — OrderItem. Свойства **Name** и **ForeignName** объекта **[Field](field-object-dao.md)** в коллекции **[Fields](fields-collection-dao.md)** объекта **Relation** будут иметь имя PartNo.
+В этом случае основной таблицей является таблица  ValidParts,  поэтому свойство Table объекта Relation будет задано validParts, а свойство **ForeignTable** объекта Relation — orderItem.  Свойства **имени** и **иностранного** имени объекта **[Field](field-object-dao.md)** в коллекции **[](fields-collection-dao.md)** Поля объекта **Relation** будут задатки PartNo.
 
 ## <a name="example"></a>Пример
 
-В этом примере показано, как свойства **Table,** **ForeignTable** и **ForeignName** определяют термины **отношения** между двумя таблицами.
+В этом примере **показано,** как свойства **Table, ForeignTable** и **ForeignName** определяют условия связи **между** двумя таблицами.
 
 ```vb
     Sub ForeignNameX() 

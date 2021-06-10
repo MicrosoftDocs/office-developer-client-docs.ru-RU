@@ -23,21 +23,21 @@ ms.locfileid: "32307597"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* Транзакции
+*выражения* . Транзакции
 
 *expression*: переменная, представляющая объект **Recordset**.
 
 ## <a name="remarks"></a>Примечания
 
-В рабочей области Microsoft Access можно также использовать свойство **Transactions** с объектами Recordset типа dynaset или **table.** Объекты **[Recordset](recordset-object-dao.md)** типа "моментальный снимок" и "только вперед" всегда возвращают **false.**
+В рабочей области Microsoft Access можно также использовать свойство **Transactions** с объектами recordset или table-type **Recordset.** Объекты **[Recordset](recordset-object-dao.md)** типа "Снимок" и "Только вперед" всегда возвращают **false**.
 
-Если набор записей типа "dynaset" или "table" основан на таблице ядров баз данных Microsoft Access, свойство **Transactions** имеет свойство **True,** и вы можете использовать транзакции.  Другие движки баз данных могут не поддерживать транзакции. Например, нельзя использовать транзакции в объекте **Recordset** типа dynaset на основе таблицы Paradox.
+Если набор записей dynaset  или table-type основан на таблице баз данных Microsoft Access, свойство **Transactions** является **True,** и вы можете использовать транзакции. Другие двигатели баз данных могут не поддерживать транзакции. Например, нельзя использовать транзакции в объекте **Recordset** типа dynaset на основе таблицы Paradox.
 
-Проверьте свойство **Transactions** перед использованием метода **[BeginTrans](dbengine-begintrans-method-dao.md)** в объекте **[Workspace](workspace-object-dao.md)** объекта **Recordset,** чтобы убедиться, что транзакции поддерживаются. Использование **методов BeginTrans,** **CommitTrans** или **Rollback** для неподтверченного объекта не оказывает влияния.
+Проверьте свойство **Transactions** перед использованием метода **[BeginTrans](dbengine-begintrans-method-dao.md)** на объекте **[Workspace](workspace-object-dao.md)** объекта **Recordset,** чтобы убедиться, что транзакции поддерживаются. Использование **методов BeginTrans,** **CommitTrans** или **Rollback** на неподтверченном объекте не влияет.
 
 ## <a name="example"></a>Пример
 
-В этом примере показано свойство **Transactions** в рабочей области Microsoft Access.
+В этом примере демонстрируется свойство **Transactions** в рабочей области Microsoft Access.
 
 ```vb 
 Sub TransactionsX() 

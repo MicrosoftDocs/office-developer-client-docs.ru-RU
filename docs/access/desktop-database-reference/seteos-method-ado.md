@@ -18,17 +18,17 @@ ms.locfileid: "32308710"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает положение, которое является окончанием потока.
+Задает позицию, которая является конечным потоком.
 
 ## <a name="syntax"></a>Синтаксис
 
 *Stream*. SetEOS
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-**SetEOS** обновляет значение свойства [EOS,](eos-property-ado.md) делая [](position-property-ado.md) текущую позицию конечной частью потока. Все bytes или characters following the current position are truncated.
+**SetEOS** обновляет значение свойства [EOS,](eos-property-ado.md) делая текущее [положение](position-property-ado.md) в конце потока. Все bytes или characters following the current position are truncated.
 
-Так как [write,](write-method-ado.md) [WriteText](writetext-method-ado.md)и [CopyTo](copyto-method-ado.md) не укорачивать дополнительные значения в существующих объектах **Stream,** вы можете усечь эти значения или символы, задав новую позицию конечного потока с **помощью SetEOS.**
+Так как [Write,](write-method-ado.md) [WriteText](writetext-method-ado.md)и [CopyTo](copyto-method-ado.md) не усечены дополнительные значения в существующих объектах Stream, вы можете усечь эти bytes или characters, установив новую позицию конечного потока с **SetEOS**. 
 
 > [!WARNING]
-> Если вы установите **для EOS** положение перед фактическим завершением потока, вы потеряете все данные после новой позиции **EOS.**
+> Если вы установите **EOS** на позицию до фактического окончания потока, вы потеряете все данные после новой **позиции EOS.**

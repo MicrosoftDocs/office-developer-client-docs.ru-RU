@@ -19,7 +19,7 @@ ms.locfileid: "32308578"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано свойство [Source,](source-property-ado-recordset.md) открыв три [объекта Recordset](recordset-object-ado.md) на основе различных источников данных.
+В этом примере демонстрируется свойство [Source,](source-property-ado-recordset.md) открыв три [объекта Recordset](recordset-object-ado.md) на основе различных источников данных.
 
 ```cpp 
  

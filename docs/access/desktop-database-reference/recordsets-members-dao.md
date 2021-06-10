@@ -1,5 +1,5 @@
 ---
-title: Recordsets members (DAO)
+title: Члены recordsets (DAO)
 TOCTitle: Recordsets Members
 ms:assetid: 8df1994c-8142-d587-5b13-0fa7b14497e4
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff197366(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309264"
 ---
-# <a name="recordsets-members-dao"></a>Recordsets members (DAO)
+# <a name="recordsets-members-dao"></a>Члены recordsets (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция Recordsets содержит все открытые объекты Recordset в объекте Connection или Database.
+Коллекция Recordsets содержит все открытые объекты Recordset в объекте Подключение или База данных.
 
 ## <a name="methods"></a>Методы
 

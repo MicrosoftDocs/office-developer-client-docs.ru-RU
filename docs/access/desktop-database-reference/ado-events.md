@@ -1,5 +1,5 @@
 ---
-title: ActiveX объектов данных (ADO)
+title: ActiveX События объектов данных (ADO)
 TOCTitle: ADO events
 ms:assetid: 84ca9525-99cb-4ba6-2a4d-172414b8f0cc
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249576(v=office.15)
@@ -36,7 +36,7 @@ ms.locfileid: "32283340"
 </tr>
 <tr class="even">
 <td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">CommitTransComplete</a></p></td>
-<td><p>Вызвано после <strong>операции CommitTrans.</strong></p></td>
+<td><p>Вызвано после операции <strong>CommitTrans.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="connectcomplete-and-disconnect-events-ado.md">ConnectComplete</a></p></td>
@@ -48,7 +48,7 @@ ms.locfileid: "32283340"
 </tr>
 <tr class="odd">
 <td><p><a href="endofrecordset-event-ado.md">EndOfRecordset</a></p></td>
-<td><p>Вызвано при попытке перейти к строке за конец <strong>recordset.</strong></p></td>
+<td><p>Вызвано при попытке перейти к строке, прошедшей в конце <strong>recordset.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="executecomplete-event-ado.md">ExecuteComplete</a></p></td>
@@ -56,11 +56,11 @@ ms.locfileid: "32283340"
 </tr>
 <tr class="odd">
 <td><p><a href="fetchcomplete-event-ado.md">FetchComplete</a></p></td>
-<td><p>Вызвано после того, как все записи в длительной асинхронной операции были извлечены в <strong>набор recordset.</strong></p></td>
+<td><p>Вызвано после того, как все записи в длительной асинхронной операции были извлечены в <strong>Набор записей.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="fetchprogress-event-ado.md">FetchProgress</a></p></td>
-<td><p>Периодические принудительная асинхронная операция, чтобы сообщить о том, сколько строк в данный момент было извлечено в <strong>набор recordset.</strong></p></td>
+<td><p>Периодически звонил во время длительной асинхронной операции, чтобы сообщить, сколько строк в настоящее время было извлечено в <strong>Набор записей.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="willchangefield-and-fieldchangecomplete-events-ado.md">FieldChangeComplete</a></p></td>
@@ -72,7 +72,7 @@ ms.locfileid: "32283340"
 </tr>
 <tr class="odd">
 <td><p><a href="willmove-and-movecomplete-events-ado.md">MoveComplete</a></p></td>
-<td><p>Вызвано после изменения текущей позиции в <strong>наборе записей.</strong></p></td>
+<td><p>Вызвано после изменения текущей позиции <strong>в Наборе</strong> записей.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="willchangerecord-and-recordchangecomplete-events-ado.md">RecordChangeComplete</a></p></td>
@@ -80,23 +80,23 @@ ms.locfileid: "32283340"
 </tr>
 <tr class="odd">
 <td><p><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">RecordsetChangeComplete</a></p></td>
-<td><p>Вызвано после <strong>изменения recordset.</strong></p></td>
+<td><p>Вызвано после <strong>изменения наборов</strong> записей.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="begintranscomplete-committranscomplete-and-rollbacktranscomplete-events-ado.md">RollbackTransComplete</a></p></td>
-<td><p>Вызвано после <strong>операции RollbackTrans.</strong></p></td>
+<td><p>Вызвано после операции <strong>RollbackTrans.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="willchangefield-and-fieldchangecomplete-events-ado.md">WillChangeField</a></p></td>
-<td><p>Вызвано перед изменением ожидающих операций значения одного или более <strong>объектов Field</strong> в <strong>наборе записей.</strong></p></td>
+<td><p>Вызвано до того, как ожидаемая операция изменяет значение одного или более объектов <strong>Field</strong> в <strong>наборе Записей.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="willchangerecord-and-recordchangecomplete-events-ado.md">WillChangeRecord</a></p></td>
-<td><p>Вызвано перед изменением одной или более записей (строк) в <strong>наборе записей.</strong></p></td>
+<td><p>Вызвано перед одним или более записями (строками) в <strong>изменении Recordset.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="willchangerecordset-and-recordsetchangecomplete-events-ado.md">WillChangeRecordset</a></p></td>
-<td><p>Вызвано перед изменением ожидающих операций <strong>набором записей.</strong></p></td>
+<td><p>Вызванная перед ожидаемой операцией изменяет <strong>набор записей.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="willconnect-event-ado.md">WillConnect</a></p></td>
@@ -104,11 +104,11 @@ ms.locfileid: "32283340"
 </tr>
 <tr class="odd">
 <td><p><a href="willexecute-event-ado.md">WillExecute</a></p></td>
-<td><p>Вызвано перед выполнением ожидающих команд для этого подключения и предоставляет пользователю возможность проверить и изменить параметры ожидающих выполнения.</p></td>
+<td><p>Вызванная перед выполнением отложенной команды в этом подключении и предоставляет пользователю возможность изучить и изменить параметры ожидающих выполнения.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="willmove-and-movecomplete-events-ado.md">WillMove</a></p></td>
-<td><p>Событие <strong>WillMove</strong> вызвано, прежде <em>чем</em> ожидающая операция изменяет текущую позицию в <strong>наборе записей.</strong></p></td>
+<td><p>Событие <strong>WillMove вызвано</strong> до <em>того,</em> как ожидающая операция изменяет текущую позицию в <strong>Наборе записей.</strong></p></td>
 </tr>
 </tbody>
 </table>

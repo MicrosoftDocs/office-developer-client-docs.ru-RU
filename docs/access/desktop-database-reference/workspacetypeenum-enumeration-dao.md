@@ -1,5 +1,5 @@
 ---
-title: Enumeration WorkspaceTypeEnum (DAO)
+title: Переименовка WorkspaceTypeEnum (DAO)
 TOCTitle: WorkspaceTypeEnum Enumeration
 ms:assetid: c660a0a9-b0ae-a7be-5635-761d3a05a4ef
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff823134(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308276"
 ---
-# <a name="workspacetypeenum-enumeration-dao"></a>Enumeration WorkspaceTypeEnum (DAO)
+# <a name="workspacetypeenum-enumeration-dao"></a>Переименовка WorkspaceTypeEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется с **методом CreateWorkspace** для указания типа создаемой рабочей области.
+Используется с **методом CreateWorkspace** для указания типа создаемого рабочего пространства.
 
 <table>
 <colgroup>
@@ -37,7 +37,7 @@ ms.locfileid: "32308276"
 <tbody>
 <tr class="odd">
 <td><p>dbUseJet</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Создайте рабочее пространство Microsoft Access.</p></td>
 </tr>
 </tbody>

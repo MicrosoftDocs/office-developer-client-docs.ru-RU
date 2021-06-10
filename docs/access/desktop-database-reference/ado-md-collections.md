@@ -1,5 +1,5 @@
 ---
-title: ActiveX MD объектов данных (ADO)
+title: ActiveX Коллекции MD объектов данных (ADO)
 TOCTitle: ADO MD collections
 ms:assetid: dc7df649-80bb-b517-f084-2bfa780fb2f8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250115(v=office.15)
@@ -28,7 +28,7 @@ ms.locfileid: "32283326"
 <tbody>
 <tr class="even">
 <th>Collection</th>
-<th>Описание</th>
+<th>Description</th>
 </tr>
 <tr class="odd">
 <td><p><a href="axes-collection-ado-md.md">Axes</a></p></td>
@@ -40,15 +40,15 @@ ms.locfileid: "32283326"
 </tr>
 <tr class="odd">
 <td><p><a href="dimension-object-ado-md.md">Dimensions</a></p></td>
-<td><p>Содержит <strong>объекты dimension,</strong> которые составляют куб.</p></td>
+<td><p>Содержит <strong>объекты Dimension,</strong> которые составляют куб.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="hierarchy-object-ado-md.md">Hierarchies</a></p></td>
-<td><p>Содержит набор <strong>объектов Hierarchy</strong> из измерения.</p></td>
+<td><p>Содержит объекты <strong>иерархии</strong> набора из измерения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="level-object-ado-md.md">Levels</a></p></td>
-<td><p>Содержит <strong>объекты level,</strong> которые составляют иерархию.</p></td>
+<td><p>Содержит <strong>объекты Level,</strong> которые составляют иерархию.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="members-collection-ado-md.md">Members</a></p></td>

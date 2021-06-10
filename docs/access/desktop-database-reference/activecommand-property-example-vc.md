@@ -18,9 +18,9 @@ ms.locfileid: "32280679"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано [свойство ActiveCommand.](activecommand-property-ado.md)
+В этом примере демонстрируется [свойство ActiveCommand.](activecommand-property-ado.md)
 
-Подразднему предоставляется объект [Recordset,](recordset-object-ado.md) свойство **ActiveCommand** которого используется для отображения текста команды и параметра, который создал **объект Recordset.**
+Субраутину предоставляется объект [Recordset,](recordset-object-ado.md) свойство **ActiveCommand** которого используется для отображения текста команды и параметра, создавав **набор recordset.**
 
 ```cpp 
  

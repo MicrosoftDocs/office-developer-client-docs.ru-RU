@@ -18,7 +18,7 @@ ms.locfileid: "32306890"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, по каков столбец сортировать записи.
+Указывает, в какой столбце сортировать записи.
 
 ## <a name="syntax"></a>Синтаксис
 
@@ -28,12 +28,12 @@ ms.locfileid: "32306890"
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектная переменная, представляюная [RDS. Объект DataControl.](datacontrol-object-rds.md)|
-|*Строка* |**Строковая** строка, представляюная имя или псевдоним столбца для сортировки записей.|
+|*DataControl* |Переменная объекта, представляюая [RDS. Объект DataControl.](datacontrol-object-rds.md)|
+|*String* |**Строковая** величина, которая представляет имя или псевдоним столбца для сортировки записей.|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Свойства **SortColumn,** [SortDirection,](sortdirection-property-rds.md) [FilterValue,](filtervalue-property-rds.md) [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) предоставляют функции сортировки и фильтрации в клиентском кэше. Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей сохраняется в кэше. Метод [Reset](reset-method-rds.md) выполнит условия и заменит текущий набор **recordset** на updatable **Recordset.**
+Свойства **SortColumn,** [SortDirection,](sortdirection-property-rds.md) [FilterValue,](filtervalue-property-rds.md) [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) обеспечивают функции сортировки и фильтрации в клиентском кэше. Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей поддерживается в кэше. Метод [Reset](reset-method-rds.md) выполнит критерии и заменит текущий **набор записей** на updatable **Recordset.**
 
-Чтобы отсортировать набор **записей,** необходимо сначала сохранить ожидающих изменений. Если вы используете **RDS. DataControl**, можно использовать метод [SubmitChanges.](submitchanges-method-rds.md) Например, если **RDS. DataControl называется** ADC1, ваш код будет ADC1. SubmitChanges . If you are using an ADO **Recordset,** you can use its [UpdateBatch](updatebatch-method-ado.md) method. Использование **UpdateBatch** — это рекомендуемый метод для объектов **Recordset,** созданных с помощью [метода CreateRecordset.](createrecordset-method-rds.md) Например, ваш код может быть myRS.UpdateBatch или . If you are using an ADO **Recordset,** you can use its [UpdateBatch](updatebatch-method-ado.md) method. Использование **UpdateBatch** — это рекомендуемый метод для объектов **Recordset,** созданных с помощью метода [CreateRecordset.](createrecordset-method-rds.md) Например, ваш код может быть myRS.UpdateBatch или ADC1. Recordset.UpdateBatch .
+Чтобы сортировать в **наборе Recordset,** сначала необходимо сохранить все ожидающих изменений. Если вы используете **RDS. DataControl**, вы можете использовать [метод SubmitChanges.](submitchanges-method-rds.md) Например, если ваш **RDS. DataControl** называется ADC1, код будет ADC1. SubmitChanges . Если вы используете ADO **Recordset,** вы можете использовать его [метод UpdateBatch.](updatebatch-method-ado.md) Использование **UpdateBatch** — это рекомендуемый метод для объектов **Recordset,** созданных с помощью [метода CreateRecordset.](createrecordset-method-rds.md) Например, код может быть myRS.UpdateBatch или . Если вы используете ADO **Recordset,** вы можете использовать его [метод UpdateBatch.](updatebatch-method-ado.md) Использование **UpdateBatch** — это рекомендуемый метод для объектов **Recordset,** созданных с помощью [метода CreateRecordset.](createrecordset-method-rds.md) Например, код может быть myRS.UpdateBatch или ADC1. Recordset.UpdateBatch .
 

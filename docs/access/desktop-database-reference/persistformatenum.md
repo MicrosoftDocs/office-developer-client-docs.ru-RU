@@ -1,5 +1,5 @@
 ---
-title: PersistFormatEnum (справочник по базе данных Access для настольных ПК)
+title: PersistFormatEnum (Ссылка на настольные базы данных)
 TOCTitle: PersistFormatEnum
 ms:assetid: 5aa99a63-d422-0812-5aba-19305a3ad405
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249313(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32287610"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает формат, в котором необходимо сохранить [набор записей.](recordset-object-ado.md)
+Указывает формат, в котором можно сохранить [набор записей.](recordset-object-ado.md)
 
 <br/>
 
@@ -43,18 +43,18 @@ ms.locfileid: "32287610"
 </tr>
 <tr class="even">
 <td><p><strong>adPersistADO</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Указывает, что будет использоваться собственный XML-формат ADO. Это значение такое же, как adPersistXML, и включено для обратной совместимости.</p></td>
+<td><p>1</p></td>
+<td><p>Указывает, что будет использоваться собственный формат языка разметки (XML) ADO. Это значение такое же, как adPersistXML и включено для обратной совместимости.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPersistXML</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Указывает формат XML.</p></td>
+<td><p>1</p></td>
+<td><p>Указывает формат Extensible Markup Language (XML).</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPersistProviderSpecific</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Указывает, что поставщик сохранит набор <strong>записей в</strong> собственном формате.</p></td>
+<td><p>2</p></td>
+<td><p>Указывает, что поставщик сохранит <strong>набор Recordset</strong> с помощью собственного формата.</p></td>
 </tr>
 </tbody>
 </table>

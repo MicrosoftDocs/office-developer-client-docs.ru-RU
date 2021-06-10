@@ -1,5 +1,5 @@
 ---
-title: Enumeration RelationAttributeEnum (DAO)
+title: Переопределение RelationAttributeEnum (DAO)
 TOCTitle: RelationAttributeEnum Enumeration
 ms:assetid: ce8d0696-66d7-052f-1313-64baee3442ed
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff834499(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306981"
 ---
-# <a name="relationattributeenum-enumeration-dao"></a>Enumeration RelationAttributeEnum (DAO)
+# <a name="relationattributeenum-enumeration-dao"></a>Переопределение RelationAttributeEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется со **свойством Attributes** для определения атрибутов объекта **Relation.**
+Используется с **свойством Атрибуты** для определения атрибутов объекта **Relation.**
 
 <table>
 <colgroup>
@@ -42,8 +42,8 @@ ms.locfileid: "32306981"
 </tr>
 <tr class="even">
 <td><p>dbRelationDontEnforce</p></td>
-<td><p>2 </p></td>
-<td><p>Связь не является принудительной (без целостности ссылок)</p></td>
+<td><p>2</p></td>
+<td><p>Отношение, не принудительное (без целостности ссылок)</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbRelationInherited</p></td>
@@ -53,17 +53,17 @@ ms.locfileid: "32306981"
 <tr class="even">
 <td><p>dbRelationLeft</p></td>
 <td><p>16777216</p></td>
-<td><p>Только Microsoft Access. В представлении конструктора в качестве типа join по умолчанию отображается left JOIN.</p></td>
+<td><p>Только Microsoft Access. В представлении Design отобразить ЛЕВЫЙ JOIN в виде типа присоединиться по умолчанию.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbRelationRight</p></td>
 <td><p>33554432</p></td>
-<td><p>Только Microsoft Access. В представлении конструктора в качестве типа join по умолчанию отображается right JOIN.</p></td>
+<td><p>Только Microsoft Access. В представлении Design отобразить RIGHT JOIN в качестве типа присоединиться по умолчанию.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbRelationUnique</p></td>
-<td><p>1 </p></td>
-<td><p>Отношение "один к одному"</p></td>
+<td><p>1</p></td>
+<td><p>Отношение один к одному</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbRelationUpdateCascade</p></td>

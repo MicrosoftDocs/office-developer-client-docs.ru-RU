@@ -1,5 +1,5 @@
 ---
-title: Объект Position (справочник по ADO MD)
+title: Объект Position (ссылка ADO MD)
 TOCTitle: Position object (ADO MD)
 ms:assetid: fbe77a91-766e-4cdb-ac2e-dcd30b0c1c82
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250290(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287561"
 ---
-# <a name="position-object-ado-md-reference"></a>Объект Position (справочник по ADO MD)
+# <a name="position-object-ado-md-reference"></a>Объект Position (ссылка ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Position (ADO MD)](position-object-ado-md.md)
-- [Position properties, methods, and events (ADO MD)](position-properties-methods-and-events-ado-md.md)
+- [Свойства позиции, методы и события (ADO MD)](position-properties-methods-and-events-ado-md.md)
 

@@ -18,13 +18,13 @@ ms.locfileid: "32287740"
 
 **Область применения**: Access 2013, Office 2013
 
-Задает контейнер объекта строки OLE **DB** для объекта **ADORecordConstruction,** чтобы родительский объект строки был включен в объект записи **ADO.**
+Задает контейнер объекта OLE DB **Row** на объект **ADORecordConstruction,** чтобы родитель строки превратился в объект записи **ADO.**
 
 Только для записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-HRESULT put \_ ParentRow( \[ in \] IUnknown \* pParent);
+HRESULT put \_ ParentRow \[ (in \] IUnknown \* pParent);
 
 ## <a name="parameters"></a>Параметры
 
@@ -34,7 +34,7 @@ HRESULT put \_ ParentRow( \[ in \] IUnknown \* pParent);
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Этот метод свойства возвращает стандартные значения HRESULT, включая S \_ OK и E \_ FAIL.
+Этот метод свойства возвращает стандартные значения HRESULT, в том числе S \_ OK и E \_ FAIL.
 
 ## <a name="applies-to"></a>Область применения
 

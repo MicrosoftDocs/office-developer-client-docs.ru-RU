@@ -23,7 +23,7 @@ ms.locfileid: "32309046"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* ValidationText
+*выражения* . ValidationText
 
 *выражение* Переменная, представляюная объект **Recordset2.**
 

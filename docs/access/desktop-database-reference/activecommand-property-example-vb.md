@@ -19,9 +19,9 @@ ms.locfileid: "32282602"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано [свойство ActiveCommand.](activecommand-property-ado.md)
+В этом примере демонстрируется [свойство ActiveCommand.](activecommand-property-ado.md)
 
-Подразднему предоставляется объект [Recordset,](recordset-object-ado.md) свойство **ActiveCommand** которого используется для отображения текста команды и параметра, который создал **объект Recordset.**
+Субраутину предоставляется объект [Recordset,](recordset-object-ado.md) свойство **ActiveCommand** которого используется для отображения текста команды и параметра, создавав **набор recordset.**
 
 ```vb 
  
@@ -88,11 +88,11 @@ End Sub
 'EndActiveCommandVB 
 ```
 
-**Подпрограмме ActiveCommandXprint** предоставляется только объект **Recordset,** но он должен распечатать текст команды и параметр, создавав **объект Recordset.** Это можно сделать, так как свойство **ActiveCommand** объекта **Recordset** дает связанный [объект Command.](command-object-ado.md)
+Режим **ActiveCommandXprint** предоставляется только **объекту Recordset,** но он должен распечатать командный текст и параметр, создав **набор записей.** Это можно сделать, так как свойство **ActiveCommand** объекта **Recordset** дает связанный [объект Command.](command-object-ado.md)
 
-Свойство [CommandText](commandtext-property-ado.md) объекта Command дает параметризованную команду, которая создала  **recordset.** Коллекция **Parameters** объекта [Command](parameters-collection-ado.md) дает значение, которое было заменено на замещающий объект команды ("**?**").
+Свойство **CommandText** объекта [CommandText](commandtext-property-ado.md) дает параметризованную команду, создав набор **записей.** Коллекция **параметров** объекта [Command](parameters-collection-ado.md) дает значение, которое было заменено на местоодатель параметров команды **("?**").
 
-Наконец, печатается сообщение об ошибке или имя и ИД автора.
+Наконец, печатаются сообщение об ошибке или имя и ID автора.
 
 ```vb 
  

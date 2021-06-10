@@ -1,5 +1,5 @@
 ---
-title: ActiveX задач объектов данных (ADO)
+title: ActiveX Таблица задач объектов данных (ADO)
 TOCTitle: ADO task table
 ms:assetid: 39671d86-72ac-a7b0-53d2-7a17429b15ad
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249141(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32283249"
 
 **Область применения**: Access 2013, Office 2013
 
-В следующей таблице перечислены задачи программирования, содержащиеся в руководстве *программиста ADO,* и перечислены ссылки на каждую задачу. Эти ссылки могут быть текстовыми описаниями или примерами кода, в которых можно найти сведения о функции ADO, которая выполняет задачу.
+В следующей таблице перечислены задачи программирования, содержащиеся в руководстве *программиста ADO,* и содержатся ссылки на каждую задачу. Эти ссылки могут быть текстовыми описаниями или примерами кода, в которых можно найти сведения о функции ADO, которая выполняет задачу.
 
 <table>
 <colgroup>
@@ -37,16 +37,16 @@ ms.locfileid: "32283249"
 <td><p><a href="making-a-connection.md">Making a Connection</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Выполнение команд или вызов хранимых процедур</p></td>
+<td><p>Выполнение команд или процедур хранения вызовов</p></td>
 <td><p><a href="using-the-command-object-access.md">Использование объекта Command</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Открытие <strong>recordset</strong></p></td>
-<td><p><a href="open-method-ado-recordset.md">Метод Recordset Object Open</a></p></td>
+<td><p>Открытие <strong>наборов записей</strong></p></td>
+<td><p><a href="open-method-ado-recordset.md">Метод Открытия объекта Recordset</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Определение размера наборов <strong>записей</strong></p></td>
-<td><p><a href="counting-rows.md">Подсчет строк</a> и <a href="the-limits-of-a-recordset.md">ограничений для наборов записей</a></p></td>
+<td><p>Определение размера <strong>наборов записей</strong></p></td>
+<td><p><a href="counting-rows.md">Подсчет строк</a> <a href="the-limits-of-a-recordset.md">и ограничений наборов записей</a></p></td>
 </tr>
 <tr class="odd">
 <td><p>Переход к определенной записи</p></td>
@@ -73,15 +73,15 @@ ms.locfileid: "32283249"
 <td><p><a href="deleting-records-using-the-delete-method.md">Deleting Records Using the Delete Method</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Публикация изменений в источнике данных</p></td>
+<td><p>Отправка изменений в источник данных</p></td>
 <td><p><a href="updating-data.md">Updating Data</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Транзакции начала, зафиксирования и отката</p></td>
+<td><p>Начало, совершение и откат транзакций</p></td>
 <td><p><a href="transaction-processing.md">Transaction Processing</a></p></td>
 </tr>
 <tr class="odd">
-<td><p>Сохранение записей в файл (XML или двоичный файл)</p></td>
+<td><p>Сохранение записей в файле (XML или двоичный)</p></td>
 <td><p><a href="persisting-data.md">Persisting Data</a></p></td>
 </tr>
 <tr class="even">
@@ -101,7 +101,7 @@ ms.locfileid: "32283249"
 <td><p><a href="types-of-locks.md">Types of Locks</a></p></td>
 </tr>
 <tr class="even">
-<td><p>Возвращение связанных записей в <strong>наборе записей</strong></p></td>
+<td><p>Возвращение связанных записей в <strong>наборе recordset</strong></p></td>
 <td><p><a href="data-shaping.md">Data Shaping</a></p></td>
 </tr>
 <tr class="odd">

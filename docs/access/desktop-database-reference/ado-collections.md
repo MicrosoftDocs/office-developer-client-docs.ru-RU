@@ -1,5 +1,5 @@
 ---
-title: ActiveX объектов данных (ADO)
+title: ActiveX Коллекции объектов данных (ADO)
 TOCTitle: ADO collections
 ms:assetid: a57e4c0c-d043-edb8-1bbe-5b7b437a8150
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249769(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32281710"
 
 **Область применения**: Access 2013, Office 2013
 
-Каждая коллекция может содержать соответствующий объект. Например, объект [Error](error-object-ado.md) может содержаться в коллекции [Errors.](errors-collection-ado.md) Дополнительные сведения об объектах см. в разделе [об объектах ADO](ado-objects-and-interfaces.md) или определенном объекте.
+Каждая коллекция может содержать соответствующий объект. Например, объект [Error](error-object-ado.md) может содержаться в коллекции [Ошибок.](errors-collection-ado.md) Дополнительные сведения об объектах см. в [разделе ADO objects](ado-objects-and-interfaces.md) or a specific object topic.
 
 <br/>
 
@@ -30,7 +30,7 @@ ms.locfileid: "32281710"
 <tbody>
 <tr class="even">
 <th>Collection</th>
-<th>Описание</th>
+<th>Description</th>
 </tr>
 <tr class="odd">
 <td><p><a href="errors-collection-ado.md">сведения об ошибках</a>;</p></td>
@@ -42,11 +42,11 @@ ms.locfileid: "32281710"
 </tr>
 <tr class="odd">
 <td><p><a href="parameters-collection-ado.md">Параметры</a></p></td>
-<td><p>Содержит все <strong>объекты Parameter</strong> объекта <strong>Command.</strong></p></td>
+<td><p>Содержит все <strong>объекты Параметр</strong> объекта <strong>Command.</strong></p></td>
 </tr>
 <tr class="even">
-<td><p><a href="properties-collection-ado.md">Properties</a></p></td>
-<td><p>Содержит все <strong>объекты Property</strong> для определенного экземпляра объекта.</p></td>
+<td><p><a href="properties-collection-ado.md">Свойства</a></p></td>
+<td><p>Содержит все <strong>объекты Свойства</strong> для определенного экземпляра объекта.</p></td>
 </tr>
 </tbody>
 </table>

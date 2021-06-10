@@ -1,5 +1,5 @@
 ---
-title: Свойства ADOX (справочник по базам данных Access для настольных ПК)
+title: Свойства ADOX (Ссылка на настольные базы данных)
 TOCTitle: ADOX properties
 ms:assetid: 7559af18-83a4-dc7f-015f-6a7c55c520d8
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249480(v=office.15)
@@ -34,19 +34,19 @@ ms.locfileid: "32285253"
 <tbody>
 <tr class="odd">
 <td><p><a href="activeconnection-property-adox.md">ActiveConnection</a></p></td>
-<td><p>Указывает объект подключения <strong>ADO,</strong> к которому принадлежит каталог.</p></td>
+<td><p>Указывает объект ADO <strong>Connection,</strong> к которому принадлежит каталог.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="attributes-property-adox.md">Атрибуты</a></p></td>
-<td><p>Описание характеристик столбцов.</p></td>
+<td><p><a href="attributes-property-adox.md">Attributes</a></p></td>
+<td><p>Описывает характеристики столбцов.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="clustered-property-adox.md">Кластерная</a></p></td>
-<td><p>Указывает, является ли индекс кластерным.</p></td>
+<td><p><a href="clustered-property-adox.md">Кластеризация</a></p></td>
+<td><p>Указывает, кластерит ли индекс.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="command-property-adox.md">Command</a></p></td>
-<td><p>Указывает объект команды <strong>ADO,</strong> который можно использовать для создания или выполнения процедуры.</p></td>
+<td><p>Указывает объект ADO <strong>Command,</strong> который можно использовать для создания или выполнения процедуры.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="count-property-ado.md">Count</a></p></td>
@@ -62,22 +62,22 @@ ms.locfileid: "32285253"
 </tr>
 <tr class="even">
 <td><p><a href="definedsize-property-adox.md">DefinedSize</a></p></td>
-<td><p>Указывает указанный максимальный размер столбца.</p></td>
+<td><p>Указывает максимальный размер столбца.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="deleterule-property-adox.md">DeleteRule</a></p></td>
-<td><p>Указывает действие, выполняемые при удалении первичного ключа.</p></td>
+<td><p>Указывает действие, выполняемые при удалении основного ключа.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="indexnulls-property-adox.md">IndexNulls</a></p></td>
-<td><p>Указывает, имеют ли записи, которые имеют значения null в своих полях индекса.</p></td>
+<td><p>Указывает, имеют ли записи индексов записи с значениями null в своих полях индексов.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="item-property-ado.md">Элемент</a></p></td>
 <td><p>Указывает определенный член коллекции по имени или порядковому номеру.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="name-property-adox.md">Название</a></p></td>
+<td><p><a href="name-property-adox.md">Имя</a></p></td>
 <td><p>Указывает имя объекта.</p></td>
 </tr>
 <tr class="odd">
@@ -86,7 +86,7 @@ ms.locfileid: "32285253"
 </tr>
 <tr class="even">
 <td><p><a href="parentcatalog-property-adox.md">ParentCatalog</a></p></td>
-<td><p>Указывает родительский каталог таблицы или столбца для предоставления доступа к свойствам конкретного поставщика.</p></td>
+<td><p>Указывает родительский каталог таблицы или столбца для предоставления доступа к свойствам, определенным для поставщика.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="precision-property-adox.md">Точность</a></p></td>
@@ -94,11 +94,11 @@ ms.locfileid: "32285253"
 </tr>
 <tr class="even">
 <td><p><a href="primarykey-property-adox.md">PrimaryKey</a></p></td>
-<td><p>Указывает, представляет ли индекс первичный ключ в таблице.</p></td>
+<td><p>Указывает, является ли индекс основным ключом в таблице.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="relatedcolumn-property-adox.md">RelatedColumn</a></p></td>
-<td><p>Указывает имя связанного столбца в связанной таблице (только для ключевых столбцов).</p></td>
+<td><p>Указывает имя связанного столбца в связанной таблице (только ключевые столбцы).</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="relatedtable-property-adox.md">RelatedTable</a></p></td>
@@ -106,27 +106,27 @@ ms.locfileid: "32285253"
 </tr>
 <tr class="odd">
 <td><p><a href="sortorder-property-adox.md">SortOrder</a></p></td>
-<td><p>Указывает последовательность сортировки для столбца (только для столбцов индекса).</p></td>
+<td><p>Указывает последовательность сортировки столбца (только столбцы индекса).</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Type (Column)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-columnadox">Тип (Столбец)</a></p></td>
 <td><p>Указывает тип данных столбца.</p></td>
 </tr>
 <tr class="odd">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Type (Key)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-keyadox">Тип (клавиша)</a></p></td>
 <td><p>Указывает тип данных ключа.</p></td>
 </tr>
 <tr class="even">
-<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">Type (Table)</a></p></td>
+<td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/type-property-tableadox">Тип (Таблица)</a></p></td>
 <td><p>Указывает тип таблицы.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="unique-property-adox.md">Уникальный</a></p></td>
-<td><p>Указывает, должны ли ключи индекса быть уникальными.</p></td>
+<td><p>Указывает, должны ли клавиши индекса быть уникальными.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="updaterule-property-adox.md">UpdateRule</a></p></td>
-<td><p>Указывает действие, выполняемые при обновлении первичного ключа.</p></td>
+<td><p>Указывает действие, выполняемые при обновлении основного ключа.</p></td>
 </tr>
 </tbody>
 </table>

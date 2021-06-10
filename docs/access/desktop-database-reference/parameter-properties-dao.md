@@ -1,5 +1,5 @@
 ---
-title: Свойства параметров (DAO)
+title: Свойства параметра (DAO)
 TOCTitle: Properties
 ms:assetid: 036746ac-c914-48ee-9a5c-f8597e0d4c58
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123518(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32288044"
 ---
-# <a name="parameter-properties-dao"></a>Свойства параметров (DAO)
+# <a name="parameter-properties-dao"></a>Свойства параметра (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Свойство Parameter.Direction (DAO)](parameter-direction-property-dao.md)
-- [Parameter.Name DAO](parameter-name-property-dao.md)
+- [Parameter.Name (DAO)](parameter-name-property-dao.md)
 - [Свойство Parameter.Properties (DAO)](parameter-properties-property-dao.md)
 - [Свойство Parameter.Type (DAO)](parameter-type-property-dao.md)
 - [Свойство Parameter.Value (DAO)](parameter-value-property-dao.md)

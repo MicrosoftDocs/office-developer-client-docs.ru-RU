@@ -19,7 +19,7 @@ ms.locfileid: "32281628"
 
 **Область применения**: Access 2013, Office 2013
 
-Интерфейс **ADORecordConstruction** используется для создания объекта записи **ADO** из объекта строки OLE **DB** в приложении C/C++.
+Интерфейс **ADORecordConstruction** используется для построения объекта ADO **Record** из объекта OLE DB **Row** в приложении C/C++.
 
 Этот интерфейс поддерживает следующие свойства:
 
@@ -34,18 +34,18 @@ ms.locfileid: "32281628"
 <tr class="odd">
 <td><p><a href="parentrow-property-ado.md">ParentRow</a></p></td>
 <td><p>Только для записи.<br />
-Задает контейнер объекта строки OLE <strong>DB</strong> для этого объекта <strong>записи</strong> ADO.</p></td>
+Задает контейнер объекта OLE DB <strong>Row</strong> на этом объекте ADO <strong>Record.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="row-property-ado.md">Row</a></p></td>
 <td><p>Для чтения и записи.<br />
-Получает или задает объект строки OLE <strong>DB</strong> из/на этом объекте <strong>записи</strong> ADO.</p></td>
+Получает/задает объект OLE DB <strong>Row</strong> из/на этом объекте ADO <strong>Record.</strong></p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 Нет.
 
@@ -53,9 +53,9 @@ ms.locfileid: "32281628"
 
 Нет.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-С учетом объекта строки OLE **DB** (pRow) при конструкции объекта записи **ADO** (adoR) конструкция объекта записи ADO (adoR) составляет следующие три основные операции: 
+С учетом объекта OLE DB **Row** (pRow) строительство объекта ADO **Record** (adoR) составляет следующие три основные операции: 
 
 1.  Создание объекта **записи** ADO:
     
@@ -64,7 +64,7 @@ ms.locfileid: "32281628"
         adoRs.CreateInstance(__uuidof(_Record));
     ```
 
-2.  Запрос **интерфейса IADORecordConstruction** объекта **Record:**
+2.  Запрос **интерфейса IADORecordConstruction** на **объекте Запись:**
     
     ```vb
         adoRecordConstructionPtr adoRConstruct=NULL;
@@ -72,7 +72,7 @@ ms.locfileid: "32281628"
                             (void**)&adoRConstruct);
     ```
 
-3.  Вызовите метод свойства **IADORecordConstruction::p ut \_ Row,** чтобы установить объект строки OLE **DB** в объекте ADO **Record:**
+3.  Вызывай метод **свойства IADORecordConstruction::p ut \_ Row,** чтобы установить объект OLE DB **Row** на объекте ADO **Record:**
     
     ```vb
         IUnknown *pUnk=NULL;
@@ -80,13 +80,13 @@ ms.locfileid: "32281628"
         adoRConstruct->put_Row(pUnk);
     ```
     
-После этого **объект adoR** представляет объект записи **ADO,** построенный из объекта строки OLE **DB.**
+В результате объект **adoR представляет** объект ADO **Record,** построенный из объекта OLE DB **Row.**
 
-Объект **записи** ADO также можно построить из контейнера объекта строки OLE **DB.**
+Объект ADO **Record** также можно построить из контейнера объекта OLE DB **Row.**
 
 ## <a name="requirements"></a>Требования
 
-**Версия:** ADO 2.0 и более поздние
+**Версия:** ADO 2.0 и более поздний
 
 **Библиотека:** msado15.dll
 

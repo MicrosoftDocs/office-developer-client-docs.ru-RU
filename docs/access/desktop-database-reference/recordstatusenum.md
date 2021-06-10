@@ -1,5 +1,5 @@
 ---
-title: RecordStatusEnum (справочник по базам данных Access для настольных ПК)
+title: RecordStatusEnum (Ссылка на настольные базы данных)
 TOCTitle: RecordStatusEnum
 ms:assetid: 302915b8-494d-0be2-6dce-eaf91a0ea8ae
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249080(v=office.15)
@@ -39,7 +39,7 @@ ms.locfileid: "32309382"
 <tr class="odd">
 <td><p><strong>adRecCanceled</strong></p></td>
 <td><p>0x100</p></td>
-<td><p>Указывает, что запись не была сохранена, так как операция была отменена.</p></td>
+<td><p>Указывает, что запись не была сохранена из-за отмены операции.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRecCantRelease</strong></p></td>
@@ -49,7 +49,7 @@ ms.locfileid: "32309382"
 <tr class="odd">
 <td><p><strong>adRecConcurrencyViolation</strong></p></td>
 <td><p>0x800</p></td>
-<td><p>Указывает, что запись не была сохранена, так как использовались оптимистичные совменые связи.</p></td>
+<td><p>Указывает, что запись не была сохранена из-за использования оптимистичных concurrency.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRecDBDeleted</strong></p></td>
@@ -64,12 +64,12 @@ ms.locfileid: "32309382"
 <tr class="even">
 <td><p><strong>adRecIntegrityViolation</strong></p></td>
 <td><p>0x1000</p></td>
-<td><p>Указывает, что запись не была сохранена, так как пользователь нарушал ограничения целостности.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как пользователь нарушил ограничения целостности.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRecInvalid</strong></p></td>
 <td><p>0x10</p></td>
-<td><p>Указывает, что запись не была сохранена, так как ее закладка недействительна.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как ее закладки недействительны.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRecMaxChangesExceeded</strong></p></td>
@@ -84,7 +84,7 @@ ms.locfileid: "32309382"
 <tr class="even">
 <td><p><strong>adRecMultipleChanges</strong></p></td>
 <td><p>0x40</p></td>
-<td><p>Указывает, что запись не была сохранена, так как она затрагивала бы несколько записей.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как она затронула бы несколько записей.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRecNew</strong></p></td>
@@ -94,22 +94,22 @@ ms.locfileid: "32309382"
 <tr class="even">
 <td><p><strong>adRecObjectOpen</strong></p></td>
 <td><p>0x4000</p></td>
-<td><p>Указывает, что запись не была сохранена из-за конфликта с открытым объектом хранилища.</p></td>
+<td><p>Указывает, что запись не была сохранена из-за конфликта с открытым объектом хранения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRecOK</strong></p></td>
 <td><p>0</p></td>
-<td><p>Указывает, что запись успешно обновлена.</p></td>
+<td><p>Указывает, что запись была успешно обновлена.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRecOutOfMemory</strong></p></td>
 <td><p>0x8000</p></td>
-<td><p>Указывает, что запись не была сохранена, так как на компьютере не было памяти.</p></td>
+<td><p>Указывает, что запись не была сохранена из-за того, что на компьютере не было памяти.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adRecPendingChanges</strong></p></td>
 <td><p>0x80</p></td>
-<td><p>Указывает, что запись не была сохранена, так как она относится к ожидающих вставке.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как она относится к ожидаемой вставке.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRecPermissionDenied</strong></p></td>
@@ -119,7 +119,7 @@ ms.locfileid: "32309382"
 <tr class="odd">
 <td><p><strong>adRecSchemaViolation</strong></p></td>
 <td><p>0x20000</p></td>
-<td><p>Указывает, что запись не была сохранена, так как она нарушает структуру базы данных.</p></td>
+<td><p>Указывает, что запись не была сохранена, так как нарушает структуру баз данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRecUnmodified</strong></p></td>
@@ -168,7 +168,7 @@ AdoEnums.RecordStatus.
 <td><p>AdoEnums.RecordStatus.INVALID</p></td>
 </tr>
 <tr class="even">
-<td><p>AdoEnums.RecordStatus.MAXCHANGESEXCEEDED</p></td>
+<td><p>AdoEnums.RecordStatus.MAXCHANGESEXCEED</p></td>
 </tr>
 <tr class="odd">
 <td><p>AdoEnums.RecordStatus.MODIFIED</p></td>

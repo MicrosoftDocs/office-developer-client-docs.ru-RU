@@ -1,5 +1,5 @@
 ---
-title: Свойства relation (DAO)
+title: Свойства связи (DAO)
 TOCTitle: Properties
 ms:assetid: 1dbd0b17-acbb-4de4-97a0-395efc61f31c
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn123943(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307023"
 ---
-# <a name="relation-properties-dao"></a>Свойства relation (DAO)
+# <a name="relation-properties-dao"></a>Свойства связи (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

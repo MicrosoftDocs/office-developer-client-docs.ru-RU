@@ -1,5 +1,5 @@
 ---
-title: ActionEnum (справочник по базам данных Access для настольных ПК)
+title: ActionEnum (Ссылка на настольные базы данных)
 TOCTitle: ActionEnum
 ms:assetid: 225024c1-9088-b532-2a23-04c1aaaaa892
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248998(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32280658"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает тип действия, выполняемого при выполнении [действия SetPermissions.](setpermissions-method-adox.md)
+Указывает тип действия, выполняемого при [вызвании SetPermissions.](setpermissions-method-adox.md)
 
 <table>
 <colgroup>
@@ -36,23 +36,23 @@ ms.locfileid: "32280658"
 <tbody>
 <tr class="odd">
 <td><p><strong>adAccessDeny</strong></p></td>
-<td><p>3 </p></td>
-<td><p>Группе или пользователю будут отказано в указанных разрешениях.</p></td>
+<td><p>3</p></td>
+<td><p>Группе или пользователю будет отказано в указанных разрешениях.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adAccessGrant</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Группа или пользователь будут иметь по крайней мере запрашиваемую разрешения.</p></td>
+<td><p>1</p></td>
+<td><p>У группы или пользователя будут по крайней мере запрашиваемые разрешения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adAccessRevoke</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Любые явные права доступа, которые были у группы или пользователя, будут отозваны.</p></td>
+<td><p>Любые явные права доступа, которые имеются у группы или пользователя, будут отменены.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adAccessSet</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Группа или пользователь будут иметь именно запрашиваемую разрешения.</p></td>
+<td><p>2</p></td>
+<td><p>У группы или пользователя будут именно запрашиваемые разрешения.</p></td>
 </tr>
 </tbody>
 </table>

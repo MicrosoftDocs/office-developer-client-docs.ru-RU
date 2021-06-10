@@ -19,11 +19,11 @@ ms.locfileid: "32281869"
 
 **Область применения**: Access 2013, Office 2013
 
-Приложение адресной книги использует [RDS. Объект DataControl](datacontrol-object-rds.md) для привязки данных из базы данных SQL Server к визуальному объекту (в данном случае таблице DHTML) на HTML-странице клиента приложения. Программная логика VBScript на основе событий использует [RDS. DataControl для:](datacontrol-object-rds.md)
+Приложение Адресная книга использует [RDS. Объект DataControl](datacontrol-object-rds.md) для привязки данных из SQL Server базы данных к визуальному объекту (в данном случае таблице DHTML) на странице HTML клиента приложения. В логике программы VBScript, управляемой событиями, используется [RDS. DataControl:](datacontrol-object-rds.md)
 
-  - Запросите базу данных, отправьте обновления в базу данных и обновите сетку данных.
+  - Запрос базы данных, отправка обновлений в базу данных и обновление сетки данных.
 
-  - Разрешить пользователям переходить к первой, следующей, предыдущей или последней записи в сетке данных.
+  - Разрешить пользователям перейти к первой, следующей, предыдущей или последней записи в сетке данных.
 
 Следующий код определяет **RDS. Компонент DataControl:**
 
@@ -37,13 +37,13 @@ Initial Catalog=AddrBookDb;Integrated Security=SSPI;">
 </OBJECT> 
 ```
 
-Тег OBJECT определяет **RDS. Компонент DataControl** в программе. Тег включает два типа параметров:
+Тег OBJECT определяет **RDS. Компонент DataControl** в программе. Тег содержит два типа параметров:
 
   - Те, которые связаны с общим тегом OBJECT.
 
   - Те, которые специфиальна **для RDS. Объект DataControl.**
 
-## <a name="generic-object-tag-parameters"></a>Параметры generic OBJECT Tag
+## <a name="generic-object-tag-parameters"></a>Общие параметры тегов ОБЪЕКТА
 
 В следующей таблице описываются параметры, связанные с тегом OBJECT.
 
@@ -61,19 +61,19 @@ Initial Catalog=AddrBookDb;Integrated Security=SSPI;">
 <tbody>
 <tr class="odd">
 <td><p><strong><em>CLASSID</em></strong></p></td>
-<td><p>Уникальный 128-битный номер, определяемый тип внедренного объекта в системе. Этот идентификатор сохраняется в системный реестр локального компьютера. (Для ИД класса <strong>RDS. Объект DataControl</strong> см. в <a href="datacontrol-object-rds.md">RDS. Объект DataControl.)</a></p></td>
+<td><p>Уникальный 128-битный номер, который определяет тип встроенного объекта в систему. Этот идентификатор поддерживается в реестре системы локального компьютера. (Для классового IDs <strong>RDS. Объект DataControl</strong> см. в <a href="datacontrol-object-rds.md">RDS. Объект DataControl.)</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong><em>ID</em></strong></p></td>
-<td><p>Определяет идентификатор для всего документа для внедренного объекта, который используется для его идентификации в коде.</p></td>
+<td><p>Определяет идентификатор для встроенного объекта, используемого для его идентификации в коде.</p></td>
 </tr>
 </tbody>
 </table>
 
 
-## <a name="rdsdatacontrol-tag-parameters"></a>RDS. Параметры тега DataControl
+## <a name="rdsdatacontrol-tag-parameters"></a>RDS. Параметры тегов DataControl
 
-В следующей таблице описываются параметры, специфические для **RDS. Объект DataControl.** (Полный список **RDS. Параметры объекта DataControl** и время их реализации см. в [RDS. Объект DataControl.)](datacontrol-object-rds.md)
+В следующей таблице описываются параметры, определенные **RDS. Объект DataControl.** (Полный список **RDS. Параметры объектов DataControl** и их реализация см. в [RDS. Объект DataControl.)](datacontrol-object-rds.md)
 
 <table>
 <colgroup>
@@ -89,15 +89,15 @@ Initial Catalog=AddrBookDb;Integrated Security=SSPI;">
 <tbody>
 <tr class="odd">
 <td><p><a href="server-property-rds.md">SERVER</a></p></td>
-<td><p>Если используется ПРОТОКОЛ HTTP, значением будет имя сервера, предшествующего https://.</p></td>
+<td><p>Если вы используете HTTP, значение — это имя серверного компьютера, предшествующего https://.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="connect-property-rds.md">CONNECT</a></p></td>
-<td><p>Предоставляет необходимые сведения о под соединении <strong>для RDS. DataControl</strong> для подключения к SQL Server.</p></td>
+<td><p>Предоставляет необходимые сведения о подключении для <strong>RDS. DataControl</strong> для подключения к SQL Server.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="https://docs.microsoft.com/office/vba/access/concepts/miscellaneous/sql-property-ado">SQL</a></p></td>
-<td><p>Задает или возвращает строку запроса, используемую для извлечения <a href="recordset-object-ado.md">набора записей.</a></p></td>
+<td><p>Задает или возвращает строку запроса, используемую для получения <a href="recordset-object-ado.md">набора записей.</a></p></td>
 </tr>
 </tbody>
 </table>

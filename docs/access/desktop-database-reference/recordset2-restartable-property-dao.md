@@ -23,19 +23,19 @@ ms.locfileid: "32309092"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* Перезапуск
+*выражения* . Перезапуск
 
 *выражение* Переменная, представляюная объект **Recordset2.**
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Объекты **Recordset табли с типом** таблицы всегда возвращают **false.**
+Объекты **Recordset типа таблицы** всегда возвращают **False.**
 
-Проверьте свойство **Restartable** перед использованием метода **Requery** в **объекте Recordset.** Если свойство **Restartable** объекта имеет свойство **False,** используйте метод **[OpenRecordset](connection-openrecordset-method-dao.md)** в основном объекте **[QueryDef](querydef-object-dao.md)** для повторного выполнения запроса.
+Проверьте свойство **Restartable** перед использованием метода **Requery** на **объекте Recordset.** Если свойство перезапуска объекта настроено на **False,** используйте метод **[OpenRecordset](connection-openrecordset-method-dao.md)** на основном объекте **[QueryDef](querydef-object-dao.md)** для повторного выполнения запроса. 
 
 ## <a name="example"></a>Пример
 
-В этом примере показано свойство **Restartable** с различными **объектами Recordset.**
+В этом примере демонстрируется свойство **Restartable** с различными **объектами Recordset.**
 
 ```vb
     Sub RestartableX()

@@ -18,12 +18,12 @@ ms.locfileid: "32282812"
 
 **Область применения**: Access 2013, Office 2013
 
-В этих темах предоставляется пример кода, который поможет вам понять, как использовать ADOX. Все примеры кода написаны с помощью Microsoft Visual Basic.
+Эти темы предоставляют пример кода, чтобы помочь вам понять, как использовать ADOX. Все примеры кода написаны с помощью Microsoft Visual Basic.
 
 > [!NOTE]
-> В paste the entire code example, from Sub to End Sub, into your code editor. Пример может не работать правильно, если используются частичные примеры или если форматирование абзаца потеряно.
+> Встань весь пример кода от Sub до End Sub в редактор кода. Пример может не работать правильно, если вы используете частичные примеры или если форматирование абзаца потеряно.
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Методы Append столбцов и таблиц, пример свойства Name (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
 - [Метод Close подключения, пример свойства Type таблицы (VB)](connection-close-method-table-type-property-example-vb.md)
@@ -32,7 +32,7 @@ ms.locfileid: "32282812"
 - [Пример использования методов GetPermissions и SetPermissions (VB)](getpermissions-and-setpermissions-methods-example-vb.md)
 - [Пример использования методов Append и ChangePassword для групп и пользователей (VB)](groups-and-users-append-changepassword-methods-example-vb.md)
 - [Пример использования метода Append для коллекции Indexes (VB)](indexes-append-method-example-vb.md)
-- [Пример работы методов Keys Append, Key Type, RelatedColumn, RelatedTable и UpdateRule (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+- [Метод приложения ключей, тип ключей, relatedColumn, RelatedTable и UpdateRule ( VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
 - [Пример использования метода Append для коллекции Procedures (VB)](procedures-append-method-example-vb.md)
 - [Пример использования метода Delete для коллекции Procedures (VB)](procedures-delete-method-example-vb.md)
 - [Пример использования метода Refresh для коллекции Procedures (VB)](procedures-refresh-method-example-vb.md)
@@ -46,19 +46,19 @@ ms.locfileid: "32282812"
 - [Пример использования свойства ActiveConnection объекта Catalog (VB)](catalog-activeconnection-property-example-vb.md)
 - [Пример использования свойства Clustered (VB)](clustered-property-example-vb.md)
 - [Пример использования свойств Command и CommandText (VB)](command-and-commandtext-properties-example-vb.md)
-- [Пример свойства Command, коллекции Parameters (VB)](parameters-collection-command-property-example-vb.md)
-- [Пример свойства CommandText и коллекции Views (VB)](views-collection-commandtext-property-example-vb.md)
+- [Свойство Command, пример коллекции параметров (VB)](parameters-collection-command-property-example-vb.md)
+- [Свойство CommandText, пример коллекции представлений (VB)](views-collection-commandtext-property-example-vb.md)
 - [Пример использования свойств DateCreated и DateModified (VB)](datecreated-and-datemodified-properties-example-vb.md)
 - [Пример использования свойства DefinedSize (VB)](definedsize-property-example-vb.md)
 - [Пример использования свойства DeleteRule (VB)](deleterule-property-example-vb.md)
 - [Пример использования свойства IndexNulls (VB)](indexnulls-property-example-vb.md)
-- [Key Type, RelatedColumn, RelatedTable, and UpdateRule properties, Keys Append method example (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
-- [Пример работы свойства Name, методов Columns и Tables Append (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
+- [Свойства Типа ключей, RelatedColumn, RelatedTable и UpdateRule, пример метода приложения keys (VB)](keys-append-method-key-type-relatedcolumn-relatedtable-and-updaterule-properties-example-vb.md)
+- [Пример свойств имен, столбцов и методов приложения таблиц (VB)](columns-and-tables-append-methods-name-property-example-vb.md)
 - [Пример использования свойств NumericScale и Precision (VB)](numericscale-and-precision-properties-example-vb.md)
 - [Пример использования свойства ParentCatalog (VB)](parentcatalog-property-example-vb.md)
 - [Пример использования свойств PrimaryKey и Unique (VB)](primarykey-and-unique-properties-example-vb.md)
 - [Пример использования свойства SortOrder (VB)](sortorder-property-example-vb.md)
-- [Пример работы свойства Table Type и метода Connection Close (VB)](connection-close-method-table-type-property-example-vb.md)
+- [Свойство Тип таблицы, пример метода Connection Close (VB)](connection-close-method-table-type-property-example-vb.md)
 
 ## <a name="collections"></a>Коллекции
 

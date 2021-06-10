@@ -1,5 +1,5 @@
 ---
-title: Метод Seek — ActiveX Data Objects (ADO)
+title: Поиск метода — ActiveX объектов данных (ADO)
 TOCTitle: Seek method (ADO)
 ms:assetid: cf0f133b-31f2-a2df-6cf3-1b5fa73b516c
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ250027(v=office.15)
@@ -14,30 +14,30 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308794"
 ---
-# <a name="seek-method-ado"></a>Метод Seek (ADO)
+# <a name="seek-method-ado"></a>Поиск метода (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-Выполняет поиск в индексе наборов [записей,](recordset-object-ado.md) чтобы быстро найти строку, которая соответствует указанным значениям, и изменяет текущую позицию строки на эту строку.
+Выполняется поиск индекса [наборов записей,](recordset-object-ado.md) чтобы быстро найти строку, которая соответствует указанным значениям, и изменить текущее положение строки в этой строке.
 
 ## <a name="syntax"></a>Синтаксис
 
-*recordset*. Seek *KeyValues*, *SeekOption*
+*набор записей.* Seek *KeyValues*, *SeekOption*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*KeyValues* |Массив значений **Variant.** Индекс состоит из одного или нескольких столбцов, а массив содержит значение для сравнения с каждым соответствующим столбцом.|
-|*SeekOption* |Значение [SeekEnum,](seekenum.md) которое указывает тип сравнения между столбцами индекса и *соответствующими значениями KeyValues.*|
+|*KeyValues* |Массив **значений Variant.** Индекс состоит из одного или нескольких столбцов, а массив содержит значение для сравнения с каждым соответствующим столбцом.|
+|*SeekOption* |Значение [SeekEnum,](seekenum.md) которое указывает тип сравнения между столбцами индекса и *соответствующими KeyValues.*|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Используйте метод **Seek** в сочетании со свойством [Index,](index-property-ado.md) если поставщик поддерживает индексы объекта **Recordset.** Используйте метод [Supports](supports-method-ado.md)**(adSeek),** чтобы определить, поддерживает ли поставщик **поиск,** и метод **Supports(adIndex),** чтобы определить, поддерживает ли поставщик индексы. (Например, поставщик [OLE DB для Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md) поддерживает **Seek** и **Index.)**
+Используйте метод **Seek** совместно с свойством [Index,](index-property-ado.md) если поставщик поддерживает индексы на **объекте Recordset.** Используйте метод Supports **(adSeek),** чтобы определить, поддерживает ли поставщик seek **и** метод [Supports](supports-method-ado.md) **(adIndex),** чтобы определить, поддерживает ли поставщик индексы. (Например, поставщик [OLE DB для Microsoft Jet](microsoft-ole-db-provider-for-microsoft-jet.md) поддерживает **Seek** and **Index.)**
 
-Если **Seek** не находит нужную строку, ошибка не возникает, а строка находится в конце **recordset.** Перед **выполнением** этого метода установите для свойства Index нужный индекс.
+Если **Seek** не находит нужную строку, ошибки не возникает, и строка находится в конце **recordset.** Установите свойство **Index** в нужный индекс перед выполнением этого метода.
 
-Этот метод поддерживается только с помощью курсоров на стороне сервера. Seek не поддерживается, если свойство [CursorLocation](cursorlocation-property-ado.md) объекта **Recordset** имеет значение **adUseClient.**
+Этот метод поддерживается только с помощью курсоров на стороне сервера. Поиск не поддерживается, когда значение [свойства CursorLocation](cursorlocation-property-ado.md) объекта **Recordset** **является adUseClient.**
 
-Этот метод можно использовать, только если объект **Recordset** открыт со значением [CommandTypeEnum](commandtypeenum.md) **adCmdTableDirect.**
+Этот метод можно использовать только в том случае, если объект **Recordset** открыт со значением [CommandTypeEnum](commandtypeenum.md) **adCmdTableDirect.**
 

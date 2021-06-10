@@ -1,5 +1,5 @@
 ---
-title: Relations object reference (DAO)
+title: Справка об объектах relations (DAO)
 TOCTitle: Relations
 ms:assetid: 6e803ead-5641-4611-af9a-22c211c238db
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn160922(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32306946"
 ---
-# <a name="relations-object-reference-dao"></a>Relations object reference (DAO)
+# <a name="relations-object-reference-dao"></a>Справка об объектах relations (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Relations (DAO)](relations-collection-dao.md)
-- [Relations members (DAO)](relations-members-dao.md)
-- [Свойства Relations (DAO)](relations-properties-dao.md)
-- [Relations methods (DAO)](relations-methods-dao.md)
+- [Коллекция связей (DAO)](relations-collection-dao.md)
+- [Участники отношений (DAO)](relations-members-dao.md)
+- [Свойства отношений (DAO)](relations-properties-dao.md)
+- [Методы отношений (DAO)](relations-methods-dao.md)
 

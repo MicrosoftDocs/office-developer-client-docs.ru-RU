@@ -1,5 +1,5 @@
 ---
-title: Коллекция Recordsets (DAO)
+title: Коллекция наборов записей (DAO)
 TOCTitle: Recordsets Collection
 ms:assetid: 246d9a78-4ce8-6393-982b-77ac00cd85bb
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff191819(v=office.15)
@@ -14,17 +14,17 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309305"
 ---
-# <a name="recordsets-collection-dao"></a>Коллекция Recordsets (DAO)
+# <a name="recordsets-collection-dao"></a>Коллекция наборов записей (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
-Коллекция **Recordsets содержит** все открытые объекты **Recordset** в **объекте Connection** или **Database.**
+Коллекция **Recordsets содержит** все открытые объекты **Recordset** в **объекте Подключение** или **База** данных.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
 Если вы используете интерфейс DAO, вы можете управлять данными практически полностью с помощью объектов **Recordset**.
 
-Новый объект **Recordset** автоматически добавляется в коллекцию **Recordsets** при открываемом объекте **Recordset** и автоматически удаляется при его закрытии.
+Новый объект **Recordset** автоматически добавляется в коллекцию **Recordsets** при открывлении объекта **Recordset** и автоматически удаляется при его закрытии.
 
 Вы можете создать любое количество переменных объекта **Recordset** при необходимости. Различные объекты **Recordset** могут получать доступ к одним таблицам, запросам и полям без возникновения конфликта.
 

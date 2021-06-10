@@ -18,9 +18,9 @@ ms.locfileid: "32280524"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, когда поставщик [MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) повторно вычисляет сводные и вычисляемые столбцы в иерархическом наборе записей.
+Указывает, когда [поставщик MSDataShape](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md) повторно вычисляет совокупные и рассчитанные столбцы в иерархическом наборе записей.
 
-Эти константы используются только с поставщиком **MSDataShape** и динамическим свойством **Recordset** **"Auto Recalc",** на которое ссылается динамический индекс [свойств ADO](ado-dynamic-property-index.md) и документируется в службе курсоров Майкрософт для [OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) или службе формирования данных Майкрософт для [документации OLE DB.](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
+Эти константы используются только с поставщиком **MSDataShape** и динамическим свойством **Recordset** **"Auto Recalc",** которое ссылается в индексе динамического свойства [ADO](ado-dynamic-property-index.md) и задокументировано в службе [Microsoft Cursor для OLE DB](microsoft-cursor-service-for-ole-db-ado-service-component.md) или Службе формирования данных Майкрософт для [документации по OLE DB.](microsoft-data-shaping-service-for-ole-db-ado-service-provider.md)
 
 <br/>
 
@@ -40,13 +40,13 @@ ms.locfileid: "32280524"
 <tbody>
 <tr class="odd">
 <td><p><strong>adRecalcAlways</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Значение, используемое по умолчанию. Пересчитывает каждый раз, когда поставщик <strong>MSDataShape</strong> определяет значения, от которых зависят вычисленные столбцы.</p></td>
+<td><p>1</p></td>
+<td><p>Значение, используемое по умолчанию. Пересчитывает каждый раз, когда <strong>поставщик MSDataShape</strong> определяет значения, от которых зависят вычисляемые столбцы, измененные.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adRecalcUpFront</strong></p></td>
 <td><p>0</p></td>
-<td><p>Вычисляется только при первоначальном построении иерархического <strong>наборов записей.</strong></p></td>
+<td><p>Вычисляет только при первоначальном создании иерархического <strong>набор записей.</strong></p></td>
 </tr>
 </tbody>
 </table>

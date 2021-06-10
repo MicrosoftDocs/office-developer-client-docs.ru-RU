@@ -1,5 +1,5 @@
 ---
-title: Ссылка на объект Relation (DAO)
+title: Ссылка на объект связи (DAO)
 TOCTitle: Relation Object
 ms:assetid: 681098d1-53c1-4066-8680-44700c3ff72d
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn142315(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307009"
 ---
-# <a name="relation-object-reference-dao"></a>Ссылка на объект Relation (DAO)
+# <a name="relation-object-reference-dao"></a>Ссылка на объект связи (DAO)
 
 **Область применения**: Access 2013, Office 2013
 
 - [Объект Relation (DAO)](relation-object-dao.md)
-- [Relation members (DAO)](relation-members-dao.md)
-- [Свойства relation (DAO)](relation-properties-dao.md)
-- [Relation methods (DAO)](relation-methods-dao.md)
+- [Члены связи (DAO)](relation-members-dao.md)
+- [Свойства связи (DAO)](relation-properties-dao.md)
+- [Методы связи (DAO)](relation-methods-dao.md)
 

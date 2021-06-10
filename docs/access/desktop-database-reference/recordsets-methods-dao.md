@@ -1,5 +1,5 @@
 ---
-title: Методы Recordsets (DAO)
+title: Методы записей (DAO)
 TOCTitle: Methods
 ms:assetid: d769d5d1-e66e-4dfb-ab30-2a0b3686d530
 ms:mtpsurl: https://msdn.microsoft.com/library/Dn125678(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32309278"
 ---
-# <a name="recordsets-methods-dao"></a>Методы Recordsets (DAO)
+# <a name="recordsets-methods-dao"></a>Методы записей (DAO)
 
 **Область применения**: Access 2013, Office 2013
 

@@ -19,8 +19,8 @@ ms.locfileid: "32309129"
 **Область применения**: Access 2013, Office 2013
 
 - [Свойство Recordset2.AbsolutePosition (DAO)](recordset2-absoluteposition-property-dao.md)
-- [Recordset2.BatchCollisionCount property (DAO)](recordset2-batchcollisioncount-property-dao.md)
-- [Recordset2.BatchCollisions property (DAO)](recordset2-batchcollisions-property-dao.md)
+- [Recordset2.BatchCollisionCount (DAO)](recordset2-batchcollisioncount-property-dao.md)
+- [Recordset2.BatchCollisions (DAO)](recordset2-batchcollisions-property-dao.md)
 - [Recordset2.BatchSize property (DAO)](recordset2-batchsize-property-dao.md)
 - [Свойство Recordset2.BOF (DAO)](recordset2-bof-property-dao.md)
 - [Свойство Recordset2.Bookmark (DAO)](recordset2-bookmark-property-dao.md)

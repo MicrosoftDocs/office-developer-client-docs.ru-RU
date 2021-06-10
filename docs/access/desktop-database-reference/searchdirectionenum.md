@@ -19,7 +19,7 @@ ms.locfileid: "32308808"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает направление поиска записей в [наборе записей.](recordset-object-ado.md)
+Указывает направление поиска записи в [Наборе записей.](recordset-object-ado.md)
 
 <table>
 <colgroup>
@@ -38,12 +38,12 @@ ms.locfileid: "32308808"
 <tr class="odd">
 <td><p><strong>adSearchBackward</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Выполняет поиск в обратном направлении, останавливаясь в начале <strong>recordset.</strong> Если совпадение не найдено, указатель записи находится в <a href="bof-eof-properties-ado.md">BOF.</a></p></td>
+<td><p>Поиск назад, остановка в начале <strong>recordset</strong>. Если совпадение не найдено, указатель записи находится на <a href="bof-eof-properties-ado.md">уровне BOF.</a></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adSearchForward</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Выполняет поиск вперед, останавливаясь в конце <strong>recordset.</strong> Если совпадение не найдено, указатель записи находится в <a href="bof-eof-properties-ado.md">EOF.</a></p></td>
+<td><p>1</p></td>
+<td><p>Поиск вперед, остановка в конце <strong>recordset</strong>. Если совпадение не найдено, указатель записи находится в <a href="bof-eof-properties-ado.md">EOF</a>.</p></td>
 </tr>
 </tbody>
 </table>

@@ -18,9 +18,9 @@ ms.locfileid: "32283263"
 
 **Область применения**: Access 2013, Office 2013
 
-Связи между этими объектами представлены в объектной модели ActiveX Data Objects (ADO).
+Связи между этими объектами представлены в объектной модели ActiveX объектов данных (ADO).
 
-Каждый объект может содержаться в соответствующей коллекции. Например, объект [Error](error-object-ado.md) может содержаться в коллекции [Errors.](errors-collection-ado.md) Дополнительные сведения см. в коллекциях [ADO](ado-collections.md) или в определенной теме коллекции.
+Каждый объект может содержаться в соответствующей коллекции. Например, объект [Error](error-object-ado.md) может содержаться в коллекции [Ошибок.](errors-collection-ado.md) Дополнительные сведения см. в [разделе ADO collections](ado-collections.md) or a specific collection topic.
 
 <br/>
 
@@ -36,15 +36,15 @@ ms.locfileid: "32283263"
 </tr>
 <tr class="odd">
 <td><p><a href="adorecordconstruction-interface-ado.md">ADORecordConstruction</a></p></td>
-<td><p>Строит объект записи <strong>ADO</strong> из объекта строки OLE <strong>DB</strong> в приложении C/C++.</p></td>
+<td><p>Строит объект ADO <strong>Record</strong> из объекта OLE DB <strong>Row</strong> в приложении C/C++.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="adorecordsetconstruction-interface-ado.md">ADORecordsetConstruction</a></p></td>
-<td><p>Строит объект ADO <strong>Recordset</strong> из объекта <strong>rowset</strong> OLE DB в приложении C/C++.</p></td>
+<td><p>Строит объект ADO <strong>Recordset</strong> из объекта OLE DB <strong>Rowset</strong> в приложении C/C++.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="error-object-ado.md">Command</a></p></td>
-<td><p>Определяет определенную команду, которую вы собираетесь выполнить для источника данных.</p></td>
+<td><p>Определяет определенную команду, которую вы собираетесь выполнить в отношении источника данных.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="field-object-ado.md">Connection</a></p></td>
@@ -60,7 +60,7 @@ ms.locfileid: "32283263"
 </tr>
 <tr class="odd">
 <td><p><a href="parameter-object-ado.md">Параметр</a></p></td>
-<td><p>Представляет параметр или аргумент, связанный с объектом <strong>Command</strong> на основе параметризованного запроса или хранимой процедуры.</p></td>
+<td><p>Представляет параметр или аргумент, связанный с объектом <strong>Command</strong> на основе параметризованного запроса или сохраненной процедуры.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="property-object-ado.md">Property</a></p></td>
@@ -68,11 +68,11 @@ ms.locfileid: "32283263"
 </tr>
 <tr class="odd">
 <td><p><a href="record-object-ado.md">Record</a></p></td>
-<td><p>Представляет строку <strong>recordset</strong>или каталог или файл в файловой системе.</p></td>
+<td><p>Представляет строку из <strong>наборов recordset</strong>или каталога или файла в файловой системе.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="recordset-object-ado.md">Recordset</a></p></td>
-<td><p>Представляет весь набор записей из базовой таблицы или результаты выполнения команды. В любой момент объект <strong>Recordset</strong> ссылается только на одну запись в наборе в качестве текущей записи.</p></td>
+<td><p>Представляет весь набор записей из базовой таблицы или результаты выполненной команды. В любое время объект <strong>Recordset</strong> ссылается только на одну запись в наборе в качестве текущей записи.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="stream-object-ado.md">Stream</a></p></td>

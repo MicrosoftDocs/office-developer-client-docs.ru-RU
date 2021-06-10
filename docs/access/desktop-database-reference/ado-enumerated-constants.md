@@ -18,7 +18,7 @@ ms.locfileid: "32283410"
 
 **Область применения**: Access 2013, Office 2013
 
-Для отладки в списках ADO перечисляются значения для каждой константы. Однако это значение является исключительно рекомендациями и может измениться с одного выпуска ADO на другой. Код должен зависеть только от имени, а не фактического значения каждой константы.
+Чтобы помочь в отладке, перечисляния ADO перечисляют значение для каждой константы. Однако это значение носит чисто консультативный характер и может изменяться с одного выпуска ADO на другой. Код должен зависеть только от имени, а не от фактического значения каждой из перенамеренных констант.
 
 <br/>
 
@@ -29,24 +29,24 @@ ms.locfileid: "32283410"
 </colgroup>
 <tbody>
 <tr class="even">
-<th>Enumerated constant</th>
-<th>Описание</th>
+<th>Константа с перемерами</th>
+<th>Description</th>
 </tr>
 <tr class="odd">
 <td><p><a href="adcprop-asyncthreadpriority-enum.md">ADCPROP_ASYNCTHREADPRIORITY_ENUM</a></p></td>
-<td><p>Для объекта RDS <strong>Recordset</strong> указывает приоритет выполнения асинхронного потока, который извлекает данные.</p></td>
+<td><p>Для объекта RDS <strong>Recordset</strong> указывается приоритет выполнения асинхронного потока, который извлекает данные.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="adcprop-autorecalc-enum.md">ADCPROP_AUTORECALC_ENUM</a></p></td>
-<td><p>Указывает, когда поставщик <strong>MSDataShape</strong> повторно вычисляет сводные и вычисляемые столбцы в иерархическом <strong>наборе записей.</strong></p></td>
+<td><p>Указывает, когда <strong>поставщик MSDataShape</strong> повторно вычисляет совокупные и рассчитанные столбцы в иерархическом <strong>наборе записей.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="adcprop-updatecriteria-enum.md">ADCPROP_UPDATECRITERIA_ENUM</a></p></td>
-<td><p>Указывает, какие поля можно использовать для обнаружения конфликтов во время оптимистичного обновления строки источника данных с <strong>объектом Recordset.</strong></p></td>
+<td><p>Указывает, какие поля можно использовать для обнаружения конфликтов при оптимистичном обновлении строки источника данных с объектом <strong>Recordset.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="adcprop-updateresync-enum.md">ADCPROP_UPDATERESYNC_ENUM</a></p></td>
-<td><p>Указывает, следует ли за <strong>методом UpdateBatch</strong> неявную операцию метода <strong>Resync</strong> и, если да, область этой операции.</p></td>
+<td><p>Указывает, следует ли <strong>методу UpdateBatch</strong> неявная операция <strong>метода Resync</strong> и если да, то область этой операции.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="affectenum.md">AffectEnum</a></p></td>
@@ -54,7 +54,7 @@ ms.locfileid: "32283410"
 </tr>
 <tr class="even">
 <td><p><a href="bookmarkenum.md">BookmarkEnum</a></p></td>
-<td><p>Указывает закладку, указывающее место начала операции.</p></td>
+<td><p>Указывает закладки, указывающие, где должна начаться операция.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="commandtypeenum.md">CommandTypeEnum</a></p></td>
@@ -62,19 +62,19 @@ ms.locfileid: "32283410"
 </tr>
 <tr class="even">
 <td><p><a href="compareenum.md">CompareEnum</a></p></td>
-<td><p>Указывает относительное положение двух записей, представленных закладки.</p></td>
+<td><p>Указывает относительное положение двух записей, представленных их закладки.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="connectmodeenum.md">ConnectModeEnum</a></p></td>
-<td><p>Указывает доступные разрешения для изменения данных в <strong>connection,</strong>открытия записи или указания значений для свойства <strong>Mode</strong> объектов <strong>Record</strong> и <strong>Stream.</strong> <strong></strong></p></td>
+<td><p>Указывает доступные разрешения на изменение данных в <strong>подключениях,</strong>открытие записи <strong>или</strong>указание значений для свойства <strong>Mode</strong> объектов <strong>Record</strong> и <strong>Stream.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="connectoptionenum.md">ConnectOptionEnum</a></p></td>
-<td><p>Указывает, должен ли метод <strong>Open</strong> объекта <strong>Connection</strong> возвращаться после (синхронно) или до (асинхронно) подключения.</p></td>
+<td><p>Указывает, должен <strong></strong> ли открытый метод объекта <strong>Подключения</strong> возвращаться после (синхронно) или до (асинхронно) подключения.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="connectpromptenum.md">ConnectPromptEnum</a></p></td>
-<td><p>Указывает, должно ли отображаться диалоговое окно с запросом отсутствующих параметров при открытии подключения к источнику данных ODBC.</p></td>
+<td><p>Указывает, следует ли отображать диалоговое окно для запроса отсутствующих параметров при открытии подключения к источнику данных ODBC.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="copyrecordoptionsenum.md">CopyRecordOptionsEnum</a></p></td>
@@ -102,11 +102,11 @@ ms.locfileid: "32283410"
 </tr>
 <tr class="even">
 <td><p><a href="errorvalueenum.md">ErrorValueEnum</a></p></td>
-<td><p>Указывает тип ошибки во время работы ADO.</p></td>
+<td><p>Указывает тип ошибки времени работы ADO.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="eventreasonenum.md">EventReasonEnum</a></p></td>
-<td><p>Указывает причину возникновения события.</p></td>
+<td><p>Указывает причину, по которой произошло событие.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="eventstatusenum.md">EventStatusEnum</a></p></td>
@@ -118,7 +118,7 @@ ms.locfileid: "32283410"
 </tr>
 <tr class="even">
 <td><p><a href="fieldenum.md">FieldEnum</a></p></td>
-<td><p>Указывает специальные поля, на которые ссылается коллекция <strong>Fields</strong> объекта <strong>Record.</strong></p></td>
+<td><p>Указывает специальные поля, на которые ссылается коллекция <strong>Полей</strong> объекта <strong>Record.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="fieldattributeenum.md">FieldAttributeEnum</a></p></td>
@@ -130,35 +130,35 @@ ms.locfileid: "32283410"
 </tr>
 <tr class="odd">
 <td><p><a href="filtergroupenum.md">FilterGroupEnum</a></p></td>
-<td><p>Указывает группу записей, которые необходимо отфильтровать из <strong>наборов записей.</strong></p></td>
+<td><p>Указывает группу записей, которые необходимо отфильтровать из <strong>recordset.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="getrowsoptionenum.md">GetRowsOptionEnum</a></p></td>
-<td><p>Указывает количество записей, извлекаемого из <strong>recordset.</strong></p></td>
+<td><p>Указывает количество записей, которые необходимо получить из <strong>recordset.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="isolationlevelenum.md">IsolationLevelEnum</a></p></td>
-<td><p>Указывает уровень изоляции транзакций для объекта <strong>Connection.</strong></p></td>
+<td><p>Указывает уровень изоляции транзакций для объекта <strong>Подключения.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="lineseparatorsenum.md">LineSeparatorsEnum</a></p></td>
-<td><p>Указывает символ, используемый в качестве деспаратора строк в текстовых <strong>объектах Stream.</strong></p></td>
+<td><p>Указывает символ, используемый в качестве сепаратора строк в текстовых объектах <strong>Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="locktypeenum.md">LockTypeEnum</a></p></td>
-<td><p>Указывает тип блокировки записей во время редактирования.</p></td>
+<td><p>Указывает тип блокировки, размещаемой на записях во время редактирования.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="marshaloptionsenum.md">MarshalOptionsEnum</a></p></td>
-<td><p>Указывает, какие записи должны быть возвращены на сервер.</p></td>
+<td><p>Указывает, какие записи следует возвращать на сервер.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="moverecordoptionsenum.md">MoveRecordOptionsEnum</a></p></td>
-<td><p>Указывает поведение метода <strong></strong> <strong>MoveRecord</strong> объекта Record.</p></td>
+<td><p>Указывает поведение метода <strong>Объекта</strong> <strong>Записи MoveRecord.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="objectstateenum.md">ObjectStateEnum</a></p></td>
-<td><p>Указывает, является ли объект открытым или закрытым, подключением к источнику данных, выполнением команды или извлечением данных.</p></td>
+<td><p>Указывает, открыт ли объект или закрыт, подключение к источнику данных, выполнение команды или извлечение данных.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="parameterattributesenum.md">ParameterAttributesEnum</a></p></td>
@@ -166,15 +166,15 @@ ms.locfileid: "32283410"
 </tr>
 <tr class="even">
 <td><p><a href="parameterdirectionenum.md">ParameterDirectionEnum</a></p></td>
-<td><p>Указывает, является <strong></strong> ли параметр входным параметром, выходным параметром или и тем, и другим, или является ли параметр возвращаемой величиной из хранимой процедуры.</p></td>
+<td><p>Указывает, является ли <strong>параметр</strong> параметром ввода, выходным параметром или и тем, и другим, или параметром является возвращаемая величина из сохраненной процедуры.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="persistformatenum.md">PersistFormatEnum</a></p></td>
-<td><p>Указывает формат, в котором необходимо сохранить <strong>набор записей.</strong></p></td>
+<td><p>Указывает формат, в котором можно сохранить <strong>набор записей.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="positionenum.md">PositionEnum</a></p></td>
-<td><p>Указывает текущую позицию указателя записи в <strong>наборе записей.</strong></p></td>
+<td><p>Указывает текущее положение указателя записи в <strong>Наборе записей.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="propertyattributesenum.md">PropertyAttributesEnum</a></p></td>
@@ -182,7 +182,7 @@ ms.locfileid: "32283410"
 </tr>
 <tr class="even">
 <td><p><a href="recordcreateoptionsenum.md">RecordCreateOptionsEnum</a></p></td>
-<td><p>Указывает для метода Open <strong>объекта</strong> <strong>Record,</strong> следует ли открывать существующую <strong></strong> запись или создавать новую запись. <strong></strong></p></td>
+<td><p>Указывает для метода <strong></strong> <strong>Открыть объект Запись,</strong> следует ли открывать существующую <strong></strong> запись или создавать новую запись. <strong></strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="recordopenoptionsenum.md">RecordOpenOptionsEnum</a></p></td>
@@ -198,47 +198,47 @@ ms.locfileid: "32283410"
 </tr>
 <tr class="even">
 <td><p><a href="resyncenum.md">ResyncEnum</a></p></td>
-<td><p>Указывает, перезаписываются ли значения в результате вызова <strong>Resync.</strong></p></td>
+<td><p>Указывает, перезаписываются ли значения по вызову <strong>в Resync.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="saveoptionsenum.md">SaveOptionsEnum</a></p></td>
-<td><p>Указывает, следует ли создавать или перезаписывать файл при сохранении из <strong>объекта Stream.</strong> Значения можно объединить с оператором AND.</p></td>
+<td><p>Указывает, следует ли создавать или перезаписывать файл при сохранении объекта <strong>Stream.</strong> Эти значения можно комбинировать с оператором AND.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="schemaenum.md">SchemaEnum</a></p></td>
-<td><p>Указывает тип наборов <strong>записей</strong> схемы, извлекаемого <strong>методом OpenSchema.</strong> Указывает направление поиска записей в <strong>наборе записей.</strong></p></td>
+<td><p>Указывает тип схемы <strong>Recordset,</strong> который извлекает метод <strong>OpenSchema.</strong> Указывает направление поиска записи в <strong>Наборе записей.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="searchdirectionenum.md">SearchDirectionEnum</a></p></td>
-<td><p>Указывает направление поиска записей в <strong>наборе записей.</strong> Указывает тип seek <strong>для</strong> выполнения.</p></td>
+<td><p>Указывает направление поиска записи в <strong>Наборе записей.</strong> Указывает тип <strong>поиска</strong> для выполнения.</p></td>
 </tr>
 <tr class="even">
 <td><p><a href="seekenum.md">SeekEnum</a></p></td>
-<td><p>Указывает тип seek <strong>для</strong> выполнения. Указывает параметры открытия объекта <strong>Stream.</strong> Значения можно объединить с оператором AND.</p></td>
+<td><p>Указывает тип <strong>поиска</strong> для выполнения. Указывает параметры открытия объекта <strong>Stream.</strong> Эти значения можно комбинировать с оператором AND.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="streamopenoptionsenum.md">StreamOpenOptionsEnum</a></p></td>
-<td><p>Указывает параметры открытия объекта <strong>Stream.</strong> Значения можно объединить с оператором AND. Указывает, следует ли читать весь поток или следующую строку из <strong>объекта Stream.</strong></p></td>
+<td><p>Указывает параметры открытия объекта <strong>Stream.</strong> Эти значения можно комбинировать с оператором AND. Указывает, следует ли читать весь поток или следующую строку с объекта <strong>Stream.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="streamreadenum.md">StreamReadEnum</a></p></td>
-<td><p>Указывает, следует ли читать весь поток или следующую строку из <strong>объекта Stream.</strong> Указывает тип данных, хранимых в <strong>объекте Stream.</strong></p></td>
+<td><p>Указывает, следует ли читать весь поток или следующую строку с объекта <strong>Stream.</strong> Указывает тип данных, хранимых в <strong>объекте Stream.</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="streamtypeenum.md">StreamTypeEnum</a></p></td>
-<td><p>Указывает тип данных, хранимых в <strong>объекте Stream.</strong> Указывает, будет ли к строке, записанной в объект Stream, будет ли к строке, записанной в <strong>объект Stream, будет ли сепаратор строки.</strong></p></td>
+<td><p>Указывает тип данных, хранимых в <strong>объекте Stream.</strong> Указывает, пристроен ли сепаратор строки к строке, написанной к объекту <strong>Stream.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="streamwriteenum.md">StreamWriteEnum</a></p></td>
-<td><p>Указывает, будет ли к строке, записанной в объект Stream, будет ли к строке, записанной в <strong>объект Stream, будет ли сепаратор строки.</strong> Указывает формат при искомом наборе <strong>записей в</strong> виде строки.</p></td>
+<td><p>Указывает, пристроен ли сепаратор строки к строке, написанной к объекту <strong>Stream.</strong> Указывает формат при искомом <strong>наборе записей</strong> в виде строки.</p></td>
 </tr>
 <tr class="odd">
 <td><p><a href="stringformatenum.md">StringFormatEnum</a></p></td>
-<td><p>Указывает формат при искомом наборе <strong>записей в</strong> виде строки. Указывает атрибуты транзакции объекта <strong>Connection.</strong></p></td>
+<td><p>Указывает формат при искомом <strong>наборе записей</strong> в виде строки. Указывает атрибуты транзакции объекта <strong>Подключения.</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><a href="xactattributeenum.md">XactAttributeEnum</a></p></td>
-<td><p>Указывает атрибуты транзакции объекта <strong>Connection.</strong></p></td>
+<td><p>Указывает атрибуты транзакции объекта <strong>Подключения.</strong></p></td>
 </tr>
 </tbody>
 </table>

@@ -18,9 +18,9 @@ ms.locfileid: "32281903"
 
 **Область применения**: Access 2013, Office 2013
 
-Для объекта RDS [Recordset](recordset-object-ado.md) указывает приоритет выполнения асинхронного потока, который извлекает данные.
+Для объекта RDS [Recordset](recordset-object-ado.md) указывается приоритет выполнения асинхронного потока, который извлекает данные.
 
-Используйте эти константы с динамическим свойством **Recordset** **Background Thread Priority,** на которое ссылается динамический индекс свойств ADO и задокументировано в документации microsoft [Cursor Service для OLE DB.](microsoft-cursor-service-for-ole-db-ado-service-component.md)
+Используйте эти константы с динамическим свойством **Recordset** **"Background Thread Priority",** которое ссылается в индексе динамического свойства ADO и задокументировано в документации [Microsoft Cursor Service для OLE DB.](microsoft-cursor-service-for-ole-db-ado-service-component.md)
 
 <br/>
 
@@ -41,27 +41,27 @@ ms.locfileid: "32281903"
 <tr class="odd">
 <td><p><strong>adPriorityAboveNormal</strong></p></td>
 <td><p>4 </p></td>
-<td><p>Устанавливает приоритет между обычным и наивысшим.</p></td>
+<td><p>Задает приоритет между обычным и самым высоким.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPriorityBelowNormal</strong></p></td>
-<td><p>2 </p></td>
-<td><p>Устанавливает приоритет между минимальным и обычным.</p></td>
+<td><p>2</p></td>
+<td><p>Задает приоритет между самым низким и нормальным.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPriorityHighest</strong></p></td>
 <td><p>5 </p></td>
-<td><p>Устанавливает наивысший из возможных приоритетов.</p></td>
+<td><p>Задает максимально возможный приоритет.</p></td>
 </tr>
 <tr class="even">
 <td><p><strong>AdPriorityLowest</strong></p></td>
-<td><p>1 </p></td>
-<td><p>Устанавливает самый низкий из возможных приоритетов.</p></td>
+<td><p>1</p></td>
+<td><p>Задает приоритет до минимально возможного.</p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPriorityNormal</strong></p></td>
-<td><p>3 </p></td>
-<td><p>Устанавливает обычный приоритет.</p></td>
+<td><p>3</p></td>
+<td><p>Задает приоритет к нормальному.</p></td>
 </tr>
 </tbody>
 </table>

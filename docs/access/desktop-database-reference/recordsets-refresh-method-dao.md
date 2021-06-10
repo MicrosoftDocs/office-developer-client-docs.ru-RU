@@ -23,11 +23,11 @@ ms.locfileid: "32309375"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* Обновление
+*выражения* . Обновление
 
 *выражение* Переменная, представляюная объект **Recordsets.**
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Метод Refresh нельзя  использовать с неохраняемой коллекцией, например **Connections, Databases,** **Recordsets,** **Workspaces** или **коллекцией QueryDefs** объекта **Connection.** 
+Нельзя использовать метод  Обновления с неустранительными коллекциями, такими как **Connections,** **Databases,** **Recordsets,** **Workspaces** или **коллекция QueryDefs** объекта **Connection.**
 

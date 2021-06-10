@@ -23,21 +23,21 @@ ms.locfileid: "32307653"
 
 ## <a name="syntax"></a>Синтаксис
 
-*выражение .* EditMode
+*выражения* . EditMode
 
 *expression*: переменная, представляющая объект **Recordset**.
 
 ## <a name="remarks"></a>Примечания
 
-Возвращаемая величина — **long,** которая указывает состояние редактирования. Значение может быть одной из **[констант EditModeEnum.](editmodeenum-enumeration-dao.md)**
+Возвращается значение **Long,** которое указывает состояние редактирования. Это значение может быть одним из **[констант EditModeEnum.](editmodeenum-enumeration-dao.md)**
 
-Свойство **EditMode полезно** использовать, если процесс редактирования прерывается, например, из-за ошибки во время проверки. Значение свойства **EditMode** можно использовать, чтобы определить, следует ли использовать метод **[Update](recordset-update-method-dao.md)** или **[CancelUpdate.](recordset-cancelupdate-method-dao.md)**
+Свойство **EditMode полезно,** если процесс редактирования прерывается, например, ошибкой во время проверки. Значение свойства **EditMode** можно использовать для определения того, следует ли использовать метод **[Update](recordset-update-method-dao.md)** или **[CancelUpdate.](recordset-cancelupdate-method-dao.md)**
 
-Вы также можете проверить, имеет ли свойство **[LockEdits](recordset-lockedits-property-dao.md)** состояние **True,** а для свойства **EditMode** — **dbEditInProgress,** чтобы определить, заблокирована ли текущая страница.
+Вы также можете проверить, является ли параметр  **[Свойства LockEdits](recordset-lockedits-property-dao.md)** true, а параметр **свойства EditMode** **— dbEditInProgress,** чтобы определить, заблокирована ли текущая страница.
 
 ## <a name="example"></a>Пример
 
-В этом примере показано значение свойства **EditMode** в различных условиях. Для запуска этой процедуры требуется функция EditModeOutput.
+В этом примере показано значение **свойства EditMode** в различных условиях. Для запуска этой процедуры требуется функция EditModeOutput.
 
 ```vb
     Sub EditModeX() 

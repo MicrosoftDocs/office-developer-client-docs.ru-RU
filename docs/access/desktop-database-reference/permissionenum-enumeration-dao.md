@@ -1,5 +1,5 @@
 ---
-title: Enumeration PermissionEnum (DAO)
+title: Переумежение PermissionEnum (DAO)
 TOCTitle: PermissionEnum Enumeration
 ms:assetid: dcce9940-f8a7-e915-1b69-05c341bea8cd
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff835373(v=office.15)
@@ -14,12 +14,12 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287712"
 ---
-# <a name="permissionenum-enumeration-dao"></a>Enumeration PermissionEnum (DAO)
+# <a name="permissionenum-enumeration-dao"></a>Переумежение PermissionEnum (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
 
-Используется со **свойством Permissions** для указания типа разрешений.
+Используется с **свойством Permissions** для указания типа разрешений.
 
 <table>
 <colgroup>
@@ -37,27 +37,27 @@ ms.locfileid: "32287712"
 <tbody>
 <tr class="odd">
 <td><p>dbSecCreate</p></td>
-<td><p>1 </p></td>
+<td><p>1</p></td>
 <td><p>Пользователь может создавать новые документы (не допустимые для объектов Document).</p></td>
 </tr>
 <tr class="even">
 <td><p>dbSecDBAdmin</p></td>
 <td><p>8 </p></td>
-<td><p>Пользователь может реплицировать базу данных и изменить пароль базы данных (не является допустимым для объектов Document).</p></td>
+<td><p>Пользователь может реплицировать базу данных и изменить пароль базы данных (не допустимый для объектов Document).</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecDBCreate</p></td>
-<td><p>1 </p></td>
-<td><p>Пользователь может создавать новые базы данных. Этот параметр действителен только для контейнера Databases в файле сведений о группе (Systen.mdw). Эта константа не является допустимой для объектов Document.</p></td>
+<td><p>1</p></td>
+<td><p>Пользователь может создавать новые базы данных. Этот параметр действителен только в контейнере Databases в информационном файле группы (Systen.mdw). Эта константа не допустима для объектов Document.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbSecDBExclusive</p></td>
 <td><p>4 </p></td>
-<td><p>Пользователь имеет монопольный доступ к базе данных.</p></td>
+<td><p>Пользователь имеет эксклюзивный доступ к базе данных.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecDBOpen</p></td>
-<td><p>2 </p></td>
+<td><p>2</p></td>
 <td><p>Пользователь может открыть базу данных.</p></td>
 </tr>
 <tr class="even">
@@ -68,7 +68,7 @@ ms.locfileid: "32287712"
 <tr class="odd">
 <td><p>dbSecDeleteData</p></td>
 <td><p>128</p></td>
-<td><p>Пользователь может удалить записи.</p></td>
+<td><p>Пользователь может удалять записи.</p></td>
 </tr>
 <tr class="even">
 <td><p>dbSecFullAccess</p></td>
@@ -83,7 +83,7 @@ ms.locfileid: "32287712"
 <tr class="even">
 <td><p>dbSecNoAccess</p></td>
 <td><p>0</p></td>
-<td><p>Пользователь не имеет доступа к объекту (не является допустимым для объектов Document).</p></td>
+<td><p>Пользователь не имеет доступа к объекту (не допустимым для объектов Document).</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecReadDef</p></td>
@@ -93,7 +93,7 @@ ms.locfileid: "32287712"
 <tr class="even">
 <td><p>dbSecReadSec</p></td>
 <td><p>131072</p></td>
-<td><p>Пользователь может прочитать сведения, связанные с безопасностью объекта.</p></td>
+<td><p>Пользователь может читать сведения, связанные с безопасностью объекта.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecReplaceData</p></td>
@@ -103,7 +103,7 @@ ms.locfileid: "32287712"
 <tr class="even">
 <td><p>dbSecRetrieveData</p></td>
 <td><p>20</p></td>
-<td><p>Пользователь может получить данные из объекта Document.</p></td>
+<td><p>Пользователь может получать данные из объекта Document.</p></td>
 </tr>
 <tr class="odd">
 <td><p>dbSecWriteDef</p></td>
@@ -118,7 +118,7 @@ ms.locfileid: "32287712"
 <tr class="odd">
 <td><p>dbSecWriteSec</p></td>
 <td><p>262144</p></td>
-<td><p>Пользователь может изменять разрешения на доступ.</p></td>
+<td><p>Пользователь может изменять разрешения доступа.</p></td>
 </tr>
 </tbody>
 </table>

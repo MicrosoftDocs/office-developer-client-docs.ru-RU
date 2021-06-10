@@ -18,17 +18,17 @@ ms.locfileid: "32282459"
 
 **Область применения**: Access 2013, Office 2013
 
-Используйте следующие примеры кода, чтобы узнать, как использовать методы, свойства и события ADO при записи в JScript.
+Используйте следующие примеры кода, чтобы узнать, как использовать методы, свойства и события ADO при записи JScript.
 
 > [!NOTE]
-> В качестве примера кода в редакторе кода в качестве примера можно привести весь код. Пример может не работать правильно, если используются частичные примеры или потеряно форматирование абзаца.
+> Вклейте весь пример кода от начала до конца в редактор кода. Пример может работать неправильно, если используются частичные примеры или потеряно форматирование абзаца.
 
-## <a name="methods"></a>Methods
+## <a name="methods"></a>Методы
 
 - [Пример метода AddNew](addnew-method-example-jscript.md)
-- [Пример методов Append и CreateParameter](append-and-createparameter-methods-example-jscript.md)
+- [Пример методов append и CreateParameter](append-and-createparameter-methods-example-jscript.md)
 - [Пример методов Execute, Requery и Clear](execute-requery-and-clear-methods-example-jscript.md)
-- [Пример метода Find](find-method-example-jscript.md)
+- [Пример метода](find-method-example-jscript.md)
 - [Пример метода GetRows](getrows-method-example-vb.md)
 
 ## <a name="properties"></a>Свойства
@@ -39,5 +39,5 @@ ms.locfileid: "32282459"
 - [Пример свойств ActiveConnection, CommandText, CommandTimeout, CommandType, Size и Direction](activeconnection-commandtext-commandtimeout-commandtype-size-and-direction-properties-example-jscript.md)
 - [Пример свойств ActualSize и DefinedSize](actualsize-and-definedsize-properties-example-jscript.md)
 - [Пример свойства CacheSize](cachesize-property-example-jscript.md)
-- [Пример свойств Filter и RecordCount](filter-and-recordcount-properties-example-jscript.md)
+- [Пример свойств filter и RecordCount](filter-and-recordcount-properties-example-jscript.md)
 

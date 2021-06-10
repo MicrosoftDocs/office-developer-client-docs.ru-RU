@@ -1,5 +1,5 @@
 ---
-title: Parameters members (DAO)
+title: Участники параметров (DAO)
 TOCTitle: Parameters Members
 ms:assetid: 28a361e4-f57d-b44f-a839-29037a47621d
 ms:mtpsurl: https://msdn.microsoft.com/library/Ff192005(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287855"
 ---
-# <a name="parameters-members-dao"></a>Parameters members (DAO)
+# <a name="parameters-members-dao"></a>Участники параметров (DAO)
 
 
 **Область применения**: Access 2013, Office 2013
@@ -37,7 +37,7 @@ ms.locfileid: "32287855"
 <tbody>
 <tr class="odd">
 <td><p><strong><a href="parameters-refresh-method-dao.md">Refresh</a></strong></p></td>
-<td><p>Обновляет объекты в указанном уровне, чтобы отразить текущую схему базы данных.</p></td>
+<td><p>Обновляет объекты указанного коллегии, чтобы отразить текущую схему базы данных.</p></td>
 </tr>
 </tbody>
 </table>

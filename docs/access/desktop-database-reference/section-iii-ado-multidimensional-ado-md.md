@@ -1,5 +1,5 @@
 ---
-title: 'Section III: ADO (multidimensional) (ADO MD)'
+title: Раздел III. ADO (multidimensional) (ADO MD)
 TOCTitle: 'Section III: ADO (multidimensional) (ADO MD)'
 ms:assetid: 15a45148-3af5-82ca-fb41-91d1b0612719
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ248919(v=office.15)
@@ -14,7 +14,7 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32308787"
 ---
-# <a name="section-iii-ado-multidimensional-ado-md"></a>Section III: ADO (multidimensional) (ADO MD)
+# <a name="section-iii-ado-multidimensional-ado-md"></a>Раздел III. ADO (multidimensional) (ADO MD)
 
 **Область применения**: Access 2013, Office 2013
 

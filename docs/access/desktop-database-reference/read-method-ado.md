@@ -1,5 +1,5 @@
 ---
-title: Метод Read — ActiveX Data Objects (ADO)
+title: Метод чтения — ActiveX объектов данных (ADO)
 TOCTitle: Read method (ADO)
 ms:assetid: 91c3ad34-f891-5be0-1fc1-c5c8a2ff07a4
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249641(v=office.15)
@@ -14,31 +14,31 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32307674"
 ---
-# <a name="read-method-ado"></a>Read method (ADO)
+# <a name="read-method-ado"></a>Метод чтения (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-Считывает указанное количество ветвей из двоичного объекта [Stream.](stream-object-ado.md)
+Считывает определенное количество bytes из двоичного объекта [Stream.](stream-object-ado.md)
 
 ## <a name="syntax"></a>Синтаксис
 
-*Variant*  =  *Stream*. Read (*NumBytes)*
+*Variant*  =  *Stream*. Read *(NumBytes)*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*NumBytes* |Необязательный параметр. **Длинное** значение, которое указывает количество байтов для чтения из файла или значение [StreamReadEnum](streamreadenum.md) **adReadAll**, которое является значением по умолчанию.|
+|*NumBytes* |Необязательный параметр. **Длинное** значение, которое указывает количество байтов для чтения из файла или значение [StreamReadEnum](streamreadenum.md) **adReadAll**, которое является по умолчанию.|
 
 ## <a name="return-value"></a>Возвращаемое значение
 
-Метод **Read** считывает указанное количество ветвей или весь поток из объекта **Stream** и возвращает полученные данные в качестве **variant.**
+Метод **Read** считывает определенное количество bytes или весь поток с объекта **Stream** и возвращает полученные данные в качестве **варианта**.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Если *число нумбайтов* превышает количество оставшихся в потоке, возвращаются только оставшиеся количество оставшихся данных.  Чтение данных не заполнено в соответствие с длиной, указанной *numBytes.* Если для чтения не осталось ни одинбайт, возвращается вариант со значением NULL. **Чтение** не может использоваться для чтения в обратном направлении.
+Если *numBytes* превышает количество оставленных в потоке bytes, возвращаются только оставшиеся bytes. Считываемая информация не соответствует длине, указанной *NumBytes.* Если для чтения не осталось bytes, возвращается вариант со значением null. **Чтение** не может использоваться для чтения в обратном направлении.
 
 > [!NOTE]
-> *NumBytes* всегда измеряет вбайты. Для **текстовых объектов Stream** [(тип](type-property-ado-stream.md) **— adTypeText),** используйте [ReadText.](readtext-method-ado.md)
+> *NumBytes всегда* измеряет bytes. Для объектов **text Stream** [(Type](type-property-ado-stream.md) is **adTypeText),** используйте [ReadText](readtext-method-ado.md).
 
 

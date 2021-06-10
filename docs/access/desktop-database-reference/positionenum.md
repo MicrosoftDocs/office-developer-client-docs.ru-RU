@@ -1,5 +1,5 @@
 ---
-title: PositionEnum (справочник по базе данных Access для настольных ПК)
+title: PositionEnum (Ссылка на настольные базы данных)
 TOCTitle: PositionEnum
 ms:assetid: 2a6f294b-74f2-b951-e32a-79ff5e782204
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249054(v=office.15)
@@ -18,7 +18,7 @@ ms.locfileid: "32287505"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает текущую позицию указателя записи в [наборе записей.](recordset-object-ado.md)
+Указывает текущее положение указателя записи в [Наборе записей.](recordset-object-ado.md)
 
 <br/>
 
@@ -39,17 +39,17 @@ ms.locfileid: "32287505"
 <tr class="odd">
 <td><p><strong>adPosBOF</strong></p></td>
 <td><p>–2</p></td>
-<td><p>Указывает, что указатель текущей записи находится на BOF (то есть свойство <a href="bof-eof-properties-ado.md">BOF</a> имеет <strong>true).</strong></p></td>
+<td><p>Указывает, что текущий указатель записи находится в BOF (то есть свойство <a href="bof-eof-properties-ado.md">BOF</a> <strong>true).</strong></p></td>
 </tr>
 <tr class="even">
 <td><p><strong>adPosEOF</strong></p></td>
 <td><p>–3</p></td>
-<td><p>Указывает, что указатель текущей записи находится в EOF (то есть свойство <a href="bof-eof-properties-ado.md">EOF</a> имеет <strong>true).</strong></p></td>
+<td><p>Указывает, что текущий указатель записи находится в EOF (то есть свойство <a href="bof-eof-properties-ado.md">EOF</a> <strong>true).</strong></p></td>
 </tr>
 <tr class="odd">
 <td><p><strong>adPosUnknown</strong></p></td>
 <td><p>–1</p></td>
-<td><p>Указывает, что набор <strong>записей</strong> пуст, текущая позиция неизвестна или поставщик не поддерживает свойство <a href="absolutepage-property-ado.md">AbsolutePage</a> или <a href="absoluteposition-property-ado.md">AbsolutePosition.</a></p></td>
+<td><p>Указывает, что <strong>Набор записей</strong> пуст, текущая позиция неизвестна, или поставщик не поддерживает свойство <a href="absolutepage-property-ado.md">AbsolutePage</a> или <a href="absoluteposition-property-ado.md">AbsolutePosition.</a></p></td>
 </tr>
 </tbody>
 </table>

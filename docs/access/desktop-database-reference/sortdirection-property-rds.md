@@ -18,20 +18,20 @@ ms.locfileid: "32308619"
 
 **Область применения**: Access 2013, Office 2013
 
-Указывает, является ли порядок сортировки по возрастанию или убыванию.
+Указывает, является ли порядок сортировки восходящим или нисходящим.
 
 ## <a name="syntax"></a>Синтаксис
 
-*DataControl*. SortDirection = *value*
+*DataControl*. SortDirection = *значение*
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*DataControl* |Объектная переменная, представляюная [RDS. Объект DataControl.](datacontrol-object-rds.md)|
-|*Значение* |**Boolean** value that, when set to **True,** indicates the sort direction is ascending. **False** указывает на убывающий порядок.|
+|*DataControl* |Переменная объекта, представляюая [RDS. Объект DataControl.](datacontrol-object-rds.md)|
+|*Значение* |Значение **Boolean,** которое при заданном **значении True** указывает на восходящее направление сортировки. **False** указывает порядок убывания.|
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Свойства [SortColumn,](sortcolumn-property-rds.md) **SortDirection,** [FilterValue,](filtervalue-property-rds.md) [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) обеспечивают сортировку и фильтрацию в клиентском кэше. Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей сохраняется в кэше. Метод **Reset** выполнит условия и заменит текущий набор **recordset** на updatable **Recordset.**
+Свойства [SortColumn,](sortcolumn-property-rds.md) **SortDirection,** [FilterValue,](filtervalue-property-rds.md) [FilterCriterion](filtercriterion-property-rds.md)и [FilterColumn](filtercolumn-property-rds.md) обеспечивают функции сортировки и фильтрации в клиентском кэше. Функция сортировки заказывает записи по значениям из одного столбца. Функция фильтрации отображает подмножество записей на основе [](recordset-object-ado.md) критериев поиска, а полный набор записей поддерживается в кэше. Метод **Reset** выполнит критерии и заменит текущий **набор записей** на updatable **Recordset.**
 

@@ -18,7 +18,7 @@ ms.locfileid: "32283389"
 
 **Область применения**: Access 2013, Office 2013
 
-Помимо ошибок поставщика, возвращаемого в объектах [Error](error-object-ado.md) коллекции [Errors,](errors-collection-ado.md) ADO также может возвращать ошибки механизму обработки исключений среды времени работы. Для записи ошибок ADO используйте  механизм перехвачения ошибок в языке программирования, например заявление об ошибке в Microsoft Visual Basic или блок **try-catch** в Microsoft Visual C++ или Microsoft Visual J++.
+Помимо ошибок поставщика, возвращающихся [](error-object-ado.md) в объектах ошибки из коллекции Ошибок, ADO может возвращать ошибки в механизм обработки исключений среды запуска. [](errors-collection-ado.md) Чтобы зафиксировать ошибки ADO, используйте механизм улавливания ошибок на языке программирования, например заявление on **Error** в Microsoft Visual Basic или блок **try-catch** в Microsoft Visual C++ или Microsoft Visual J++.
 
-Список кодов ошибок ADO см. в [errorValueEnum.](errorvalueenum.md)
+Список кодов ошибок ADO см. в [списке ErrorValueEnum.](errorvalueenum.md)
 

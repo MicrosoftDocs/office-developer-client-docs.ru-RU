@@ -18,30 +18,30 @@ ms.locfileid: "32306862"
 
 **Область применения**: Access 2013, Office 2013
 
-Получает или задает объект OLE DB **RowPosition** из/объекта **ADORecordsetConstruction.** При использовании **put \_ RowPosition** для определения объекта **RowPosition** в итоговом объекте **Recordset** используется объект **RowPosition** для определения текущей строки.
+Получает или задает объект OLE DB **RowPosition** из/на **объект ADORecordsetConstruction.** При использовании **put \_ RowPosition** для определения объекта **RowPosition** в результате объект **Recordset** использует объект **RowPosition** для определения текущей строки.
 
 Для чтения и записи.
 
 ## <a name="syntax"></a>Синтаксис
 
-HRESULT get \_ RowPosition( \[ out, retval \] IUnknown \* \* ppRowPos);
+HRESULT get \_ RowPosition \[ (out, retval \] IUnknown \* \* ppRowPos);
 
-HRESULT put \_ RowPosition( \[ in \] IUnknown \* pRowPos);
+HRESULT put \_ RowPosition \[ (in \] IUnknown \* pRowPos);
 
 ## <a name="parameters"></a>Параметры
 
 |Параметр|Описание|
 |:--------|:----------|
-|*ppRowPos* |Указатель на объект **rowPosition** OLE DB.|
-|*PRowPos* |Объект **rowPosition** OLE DB.|
+|*ppRowPos* |Указатель на объект **RowPosition** OLE DB.|
+|*PRowPos* |Объект **RowPosition** OLE DB.|
 
 ## <a name="return-values"></a>Возвращаемые значения
 
-Этот метод свойства возвращает стандартные значения HRESULT, включая S \_ OK и E \_ FAIL.
+Этот метод свойства возвращает стандартные значения HRESULT, в том числе S \_ OK и E \_ FAIL.
 
-## <a name="remarks"></a>Заметки
+## <a name="remarks"></a>Примечания
 
-Если это свойство задано, если объект **Rowset** в объекте **RowPosition** отличается от объекта **Rowset** объекта **Recordset,** первый переопределяет последнее. Такое же поведение применяется и к текущей **главе** **RowPosition.**
+Если это свойство задано, если объект **Rowset** на объекте **RowPosition** отличается от объекта Rowset на объекте **Recordset,** первый переопределит последнее.  То же самое относится и к текущей **главе** **RowPosition.**
 
 ## <a name="applies-to"></a>Область применения
 

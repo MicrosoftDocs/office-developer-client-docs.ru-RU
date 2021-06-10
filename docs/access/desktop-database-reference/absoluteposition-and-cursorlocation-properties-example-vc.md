@@ -19,7 +19,7 @@ ms.locfileid: "32281972"
 
 **Область применения**: Access 2013, Office 2013
 
-В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) может отслеживать ход выполнения цикла, который нумерует все записи [объекта Recordset.](recordset-object-ado.md) Оно использует свойство [CursorLocation,](cursorlocation-property-ado.md) чтобы включить свойство **AbsolutePosition,** настроив курсор на клиентский курсор.
+В этом примере показано, как свойство [AbsolutePosition](absoluteposition-property-ado.md) может отслеживать ход цикла, который регистрирует все записи [наборов записей.](recordset-object-ado.md) Оно использует [свойство CursorLocation,](cursorlocation-property-ado.md) чтобы включить свойство **AbsolutePosition,** установив курсор на курсор клиента.
 
 ```cpp 
  

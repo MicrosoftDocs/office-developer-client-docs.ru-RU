@@ -1,5 +1,5 @@
 ---
-title: Справка по коллекции Parameters (ADO)
+title: Ссылка на коллекцию параметров (ADO)
 TOCTitle: Parameters collection (ADO)
 ms:assetid: ac05170e-6add-4eb1-bfd1-52594359882f
 ms:mtpsurl: https://msdn.microsoft.com/library/JJ249799(v=office.15)
@@ -14,10 +14,10 @@ ms.contentlocale: ru-RU
 ms.lasthandoff: 04/23/2019
 ms.locfileid: "32287960"
 ---
-# <a name="parameters-collection-ado-reference"></a>Справка по коллекции Parameters (ADO)
+# <a name="parameters-collection-ado-reference"></a>Ссылка на коллекцию параметров (ADO)
 
 **Область применения**: Access 2013, Office 2013
 
-- [Коллекция Parameters (ADO)](parameters-collection-ado.md)
+- [Коллекция параметров (ADO)](parameters-collection-ado.md)
 - [Свойства, методы и события коллекции Parameters](parameters-collection-properties-methods-and-events.md)
 
